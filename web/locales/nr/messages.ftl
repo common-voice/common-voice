@@ -61,6 +61,11 @@ voices-online = Amaphimbo afumanekako nje
 help-reach-goal = Sisiza sithome { $goal }
 read-terms-q = Uyifundile imibandela yethu?
 ready-to-record = Ukulungele ukunikela ngephimbo lakho?
+x-weeks-short =
+    { $count ->
+        [one] Iveke
+       *[other] vk
+    }
 help-make-dataset = Sisiza senze umsebenzi osezingeni eliphezulu
 sign-up-account = Zitlolise ube ne-akhawundi
 email-subscription-title = zitlolise ufumane zamja nje nge-email
@@ -138,6 +143,11 @@ accept-privacy =
 login-signup = Thungela / Zitlolise
 download-profile = Dawuniloda imininingwanami
 skip-submission-feedback = Yeqa uMlayezo oBuyako
+skip-submission-description =
+    { $count ->
+        [one] "Eqinisekisiweko"
+       *[other] "Eziqinisekisiweko"
+    }
 skip-submission-note =
     Tjheja: Kusafuze ukhethe hlangana
     NokuKhuluma nokuLalela bona utjhugulule indlela onganikela ngayo.
@@ -541,6 +551,11 @@ report-success = Umbiko uphasile
 
 ## Goals
 
+validations =
+    { $count ->
+        [one] Eqinisekisiweko
+       *[other] Eziqinisekisiweko
+    }
 
 ## Dashboard
 
@@ -585,6 +600,11 @@ how-many-a-week = Kuhle! Zingakhi iinqetjhana ngeveke?
 which-goal-type = Ufuna ukuKhuluma, ukuLalela namkha kokubili?
 receiving-emails-info = Sele ukulungele ukufumana ama-email anjengeenkhumbuzo zemigomo, ituthukwakho yamva nje neendaba ezimalungana ne-Common Voice
 not-receiving-emails-info = Okwanje ufakwe ku-<bold>INGASI</bold> bona wamukele ama-email ngehloso yokukukhumbuza, ukukwazisa ngetuthuko neendaba ezimalungana ne-Common Voice
+n-clips-pluralized =
+    { NUMBER($count) ->
+        [one] isiqetjhana
+       *[other] iinqetjhana
+    }
 help-share-goal = Sisiza sifumane amaphimbo angeziweko, yabelana ngomgomwakho
 # $type is one of share-goal-type-*
 share-n-daily-contribution-goal = Yabelana { $count } nephimbo qobe langa umgomo we { $type }
@@ -872,6 +892,9 @@ sc-confirm-sentences-found =
        *[other] imitjho efumanekako.
     }
 # Variables:
+#   $countOfInvalidated (Number) - Number of sentences the user rejected in the review form before submission
+sc-confirm-rejected-by-you = { $countOfInvalidated } eyaliwe nguwe
+# Variables:
 #   $readyCount (Number) - Number of sentences ready to be uploaded
 sc-confirm-ready =
     { $readyCount ->
@@ -928,6 +951,9 @@ sc-login-err-try-again = Sibawa ulinge godu.
 
 sc-personal-err-lang-not-found = Ngekhe ukghone ukukhupha ilimi: ilimi alifumaneki
 sc-personal-err-remove = Angikghoni ukususa ilimi
+# Variables:
+#   $sentences (Number) - Number of sentences that were added by the currently logged in user for this language
+sc-personal-added-by-you = { $sentences } efakwe nguwe
 sc-personal-not-added = Alikho ilimi olifakileko.
 
 ## REVIEW CRITERIA
