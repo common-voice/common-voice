@@ -26,11 +26,14 @@ error-something-went-wrong = Usilibalele kunento engakhambi kuhle
 dsb = IsiSorbian, Lower
 hsb = IsiSorbian, Upper
 kmr = IsiKurmanji Kurdish
+knn = IsiKonkani (Devanagari)
 mhr = IsiMeadow Mari
 mni = IsiMeetei Lon
 nan-tw = IsiTaiwanese (Minnan)
 nb-NO = IsiNorwegian Bokmål
+nd = IsiNdebele (Tlhagwini)
 nn-NO = IsiNorwegian Nynorsk
+nr = IsiNdebele (Sewula)
 nso = IsiSotho seTlhagwini
 pap-AW = IsiPapiamento (Aruba)
 quy = IsiQuechua Chanka
@@ -514,6 +517,7 @@ request-language-error = Kungenzeka asikasifumani isibaweso. Sibawa usithumele i
 
 ## Languages Overview
 
+language-section-in-progress = Iyaraga
 language-section-in-progress-new-description = Umphakathi usawathuthukisa amalimi la. <localizationGlossaryLink>Izinzolwazi yelocalization</localizationGlossaryLink> begodu <sentenceCollectionGlossaryLink>kutlhogeka imitjho</sentenceCollectionGlossaryLink> bona afakwe ngokusemthethweni.
 languages-show-more = Veza okunengi
 languages-show-less = Veza okuncani
@@ -827,6 +831,7 @@ contribution-background-voices-example-1-explanation =
     Uyeza? <strong>[called by 
     another]</strong>
 contribution-reader-effects-title = Iinkunupe zokufunda
+contribution-just-unsure-title = Awuqiniseki?
 
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
@@ -1094,6 +1099,7 @@ sc-review-form-review-failure = Okubuyekezileko angekhe kubulungeke. Sibawa ulin
 
 ## SETTINGS
 
+sc-settings-ui-language = Ilimi okuthintwana ngalo
 sc-settings-reset-skipped = Faka kabutjha imitjho eyeqiweko
 sc-settings-skipped-decription = Weqe imitjho nawubuyekezako esikhathini esidlulileko. Ukubuyisela emva imitjho eyeqiweko kuzokuvezela yoke imitjho  eyeqiweko godu. Lokhu kuya ngelimi.
 sc-settings-show-all-button = Veza yoke imitjho eyeqiweko godu
