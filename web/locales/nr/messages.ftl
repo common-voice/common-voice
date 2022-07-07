@@ -23,6 +23,7 @@ error-something-went-wrong = Usilibalele kunento engakhambi kuhle
 ## Languages
 
 sat = IsiSantali (Ol Chiki)
+zh-HK = IsiChinese (Hong Kong)
 
 # [/]
 
@@ -36,6 +37,7 @@ share-title = Sisiza bona sifumane abanye abanganikela ngamaphimbo wabo!
 share-text =
     Siza ngokufundisa imitjhini bona abantu bamambala bakhuluma njani, 
     nikela ngephimbo lakho ku { $link }
+back-top = Buyela phezulu
 
 ## Home Page
 
@@ -52,6 +54,7 @@ help-us-explain =
     umutjho ongenzasi?
 no-clips-to-validate = Kubonakala ngathi akukho okulalelwako ngelimeli. Sibawa usisize sivale isikhalesi ngokuthi urekhode okuthileko njenga nje.
 toggle-play-tooltip = Gandelela { shortcut-play-toggle } bona utjhugulule indlela yokudlala
+speak-subtitle = Dawuniloda iphimbo lakho
 speak-paragraph = Iinqetjhada zamaphimbo ezirekhodiweko ziyingcenye eqakathekileko yokwakha ihlelo lethu; abanye bangathi, le yingcenye ethabisako.
 listen-subtitle = Sisiza siqinisekise amaphimbo
 voices-online = Amaphimbo afumanekako nje
@@ -99,12 +102,14 @@ username-optin-public =
 
 ## Speak Shortcuts
 
+shortcut-discard-ongoing-recording-label = Susa okurekhodwako
 request-language-text = Awuliboni ilimi lakho ku-Common Voice?
 request-language-button = Bawa Ilimi
 
 ## ProjectStatus
 
 status-title = Ubujamo beprhojekthi yoke: qala bona sibuya kude kangangani!
+status-contribute = Nikela ngephimbo lakho
 status-hours =
     { $hours ->
         [one] Kuqinisekiswe i-awara okwanje!
@@ -131,6 +136,7 @@ accept-privacy =
     Anginamraro wokobana nibe nemininingwana le
     njengombana kuhlathululiwe<privacyLink> emibandeleni yeMozilla</privacyLink>
 login-signup = Thungela / Zitlolise
+download-profile = Dawuniloda imininingwanami
 skip-submission-feedback = Yeqa uMlayezo oBuyako
 skip-submission-note =
     Tjheja: Kusafuze ukhethe hlangana
@@ -144,6 +150,7 @@ browse-file-title = Faka isithombe
 browse-file =
     Dosa ubeke namkha 
     <browseWrap>Ufune</browseWrap>
+connect-gravatar = Ngena ku-Gravatar
 gravatar_not_found = Akuna-gravatar efumanekako ku-emailakho
 file_too_large = Ifayela elikhethiweko likhulu
 
@@ -229,6 +236,7 @@ about-yes-votes = Kunamavowudi ama-≥ 2
 about-yes-votes-text = Bona uphumelele ukungena ehlelweni le-Common Voice iphimbo kufuze liphasiswe babantu ababili abahlukileko.
 about-no-votes = Kunamavowudi ama≥ 2
 about-no-votes-text = Kunamavowudi ama≥ 2
+about-dataset-new = I-Common Voice Dataset
 about-stay-in-touch = Ngingahlala njani nginelwazi?
 about-stay-in-touch-text-1 = <emailFragment>Zitlolise ku</emailFragment> bona ufunde ukuthi ungasifaka njani isandla emajimeni, ezenzakalweni nokuthuthukisa ubujamo be-Common Voice.
 about-stay-in-touch-text-2 = Ungahlangana nabanye abasemphakathini weMozilla ngokuthi ungene<discourseLink>Ebulungelweni</discourseLink> bona nikhulumisane ngeenhloko ezithileko namkha <matrixLink>Ubuhlanga</matrixLink> bona ufumane isiyeleliso ngokurhabako.
@@ -340,6 +348,7 @@ data-get-started =
     <speechBlogLink>Thoma ngehlelo lokuHlola
     iPhimbo</speechBlogLink>
 data-other-title = Elinye ihlelo lamaphimbo…
+data-bundle-button = Dawunilowuda ihlelo
 data-bundle-description =
     Nanti ihlelo leCommon Voice namanye 
     amaphimbo ngehla.
@@ -389,8 +398,8 @@ download-helpus =
     Sisiza sakhe umphakathi ngetheknoloji yamaphimbo
     hlala ufumana zamva nje nge-email.
 download-form-email =
-    .label = Siyathokoza
-    .value = sizokuthinta.
+    .label = Faka
+    .value = i-email yakho
 download-back = Buyela kuCommon Voice Datasets
 
 ## Contact Modal
@@ -507,6 +516,7 @@ target-segment-generic-card = Unikela endaweni okungiyo
 target-segment-first-banner =
     Siza ngokwenza iCommon Voice ikhambe 
     phambili ku { $locale }
+target-segment-add-voice = Faka iphimbo lakho
 
 ## Reporting
 
@@ -522,6 +532,7 @@ report-grammar-or-spelling-detail = Umutjho unomraro wokutlola nokupeleda.
 report-different-language-detail =
     Kutlolwe ngelimi elihlukileko 
     kunengilikhulumako.
+report-difficult-pronounce = Kubudisi ukuphimisela
 report-difficult-pronounce-detail =
     Kunamezwi namkha amagama okubudisi 
     ukuwafunda namkha ukuwaphimisela.
@@ -534,6 +545,8 @@ report-success = Umbiko uphasile
 ## Dashboard
 
 toward-next-goal = Umgomo olandelako
+clips-you-recorded = Iinqetjhana ozirekhodileko
+clips-you-validated = Iinqetjhana oziqinisekisileko
 todays-recorded-progress = Ituthuko yanamhlanjesi yokurekhodwe kuCommon Voice
 todays-validated-progress =
     Okuphasisiweko namhlanjesi okurekhodwe 
@@ -595,6 +608,7 @@ download-info = Sitjela ukuthi khuyini ofuna ukuyidawuniloda:
 download-profile-info =
     Faka i-email, igama nemininingwanakho 
     khona nje
+download-profile-size = Faka amabhayithi ambalwa
 download-recordings-info =
     Ukuhlanganisa ne-mp3 emitjhweni kungathatha 
     isikhathi eside
@@ -604,6 +618,7 @@ download-recordings-unavailable =
 download-recently-requested =
     Ungabawa okurekhodileko 
     woke malanga { $days }
+download-start = Dawuniloda iphrofayili
 download-requests = Iimbawo ezidlulileko zokudawunilowuda imitjho
 download-requests-info = Nawubawa okurekhodileko, sikuhlanganisa ndawonye sikufake efayilini yinye namkha emafayilini amanengi we-ZIP. Nakhu okubawe esikhathini esidlulileko:
 download-request-description = { $clipCount } amaphimbo, inani lokubulungiweko { $size }. Phelelwe sikhathi { $expires }.
@@ -635,6 +650,7 @@ demo-welcome-subheader =
 ## Demo Datasets
 
 demo-language-select-card-header = ICommon Voice lihlalo elikhamba phambili ephasini mazombe elinamaphimbo wamalimi ahlukahlukeneko.
+demo-eofy-header = 2019 Umnyaka-wokugcina-Wokutjhatjhululwa
 demo-eofy-sub_header = Ihlelo lephimbo, ukuLungele ukuDawuniloda
 
 ## Demo Account
@@ -738,6 +754,7 @@ sc-howto-addlang-title = Faka amalimi ozokusebenza ngawo
 sc-howto-addlang-text =
     Nasele uthungele ungakghona ukukhetha amalimi
     owafunako erhelweni.
+sc-howto-addsen-title = Faka imitjho emitjha
 sc-howto-cite-title = Indlela yokudzubhula
 sc-howto-cite-item-1 = Ungahlanganisa newebhusayidi, isb. "Common Voice - https://commonvoice.mozilla.org/"
 sc-howto-cite-item-2 = Ungasebenzisa indlela yokutlola yefundo ephakamileko isb. Harvard style "Mozilla (2021) Common Voice. Efumaneka ku-https://commonvoice.mozilla.org/ (Accessed: 15th September 2021)"
@@ -770,6 +787,8 @@ sc-my-err-fetching =
     Kube nomraro nasilinga ukufumana imitjho enomraro. Sibawa ulinge 
     godu.
 sc-my-no-sentences = Ayikho imitjho efumanekako!
+sc-my-delete = Susa imitjho ekhethiweko
+sc-my-deleting = Susa imitjho ekhethiweko…
 sc-my-err-failed-delete =
     Akukghonakali ukususa imitjho ekhethiweko... Sibawa ulinge 
     godu!
@@ -843,6 +862,7 @@ sc-confirm-are-you-sure =
     .message =
         Imitjho ayikathunyelwa. Unesiqiniseko 
         sokobana ufuna ukuphuma?
+sc-confirm-sentences-title = Qinisekisa imitjho emitjha
 # Variables:
 #   $countOfSentences (Number) - Number of sentences the user has filled in the submission form
 sc-confirm-sentences-found =
