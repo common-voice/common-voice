@@ -25,6 +25,9 @@ error-something-went-wrong = Usilibalele kunento engakhambi kuhle
 
 dsb = IsiSorbian, Lower
 hsb = IsiSorbian, Upper
+kmr = IsiKurmanji Kurdish
+mhr = IsiMeadow Mari
+mni = IsiMeetei Lon
 nan-tw = IsiTaiwanese (Minnan)
 nb-NO = IsiNorwegian Bokmål
 nn-NO = IsiNorwegian Nynorsk
@@ -51,7 +54,9 @@ share-title = Sisiza bona sifumane abanye abanganikela ngamaphimbo wabo!
 share-text =
     Siza ngokufundisa imitjhini bona abantu bamambala bakhuluma njani, 
     nikela ngephimbo lakho ku { $link }
+link-copied = Ikopa ilink
 back-top = Buyela phezulu
+logout = Phuma
 
 ## Home Page
 
@@ -161,6 +166,8 @@ profile-form-variant-default-value = Akukho okuhlukahlukeneko okhethiweko
 profile-form-custom-accent-help-text =
     .label = Ungayihlathulula njani indlela ophimisela ngayo?
 profile-form-custom-accent-placeholder-2 = Thoma ukutlola uhlathulule indlela ophimisela ngayo
+leaderboard-visibility =
+    .label = Ukubonakala kwebhodi
 profile-form-add-accent = Faka indlela ejayelekileko yokuphimisela "{ $inputValue }"
 why-profile-title = Kubayini iprhofayili?
 profile-create-success = Ukghonile ukwenza iphrofayili!
@@ -173,6 +180,7 @@ accept-privacy =
     Anginamraro wokobana nibe nemininingwana le
     njengombana kuhlathululiwe<privacyLink> emibandeleni yeMozilla</privacyLink>
 accept-privacy-title = Umthetho wefihlo
+login-identity = Imininingwana yokungena
 login-signup = Thungela / Zitlolise
 download-profile = Dawuniloda imininingwanami
 skip-submission-feedback = Yeqa uMlayezo oBuyako
@@ -200,6 +208,7 @@ remove-avatar = Susa isithombe
 
 ## Profile - Email
 
+manage-subscriptions = Lawula ukutlolisa
 manage-email-subscriptions = Tlhogomela ukuzitlolisela ama-email
 email-already-used = I-email le, sele isetjenziswe kwenye i-akhawundi
 change-email-setings =
@@ -370,6 +379,7 @@ about-playbook-how-project-governance-content-2 = Umthethosisekelo wethu uyafuma
 about-playbook-how-project-governance-content-3 = Ifihlo, ivikeleko nokuba sepepeneneni.
 about-playbook-how-project-governance-content-4 = Ukuzibandakanya komphakathi nokuthatha iinqunto.
 about-playbook-how-project-governance-content-5 = Ukuqakatheka nokutjhejwa.
+about-playbook-how-project-governance-content-6 = Isibopho sokulandisa.
 about-playbook-how-project-governance-content-7 = <governanceLink>Funda okwengeziweko ngendlela esibuswa ngayo</governanceLink>
 
 ## Glossary
@@ -394,6 +404,7 @@ error-title-503 = Siqalene nebesingakakulindeli
 ## Data
 
 data-download-button = Dawunilowuda ihlelo leCommon Voice
+data-download-license = Ilayisense: <licenseLink>CC-0</licenseLink>
 data-download-modal = Sele ukulungele ukudawuniloda i <size>{ $size }GB</size>, uyaraga?
 data-subtitle = Sakha ibulungelo lamaphimbo arekhodiweko angasetjenziswa ngiwo woke umuntu bona angawasebenzisa ukubandula iinsetjenziswa bona zikhulume ikulumo eyamukeleko.
 data-get-started =
@@ -463,6 +474,7 @@ download-no = Awa ngiyathokoza
 
 ## Request Language Modal
 
+request-language-title = Ukubawa ilimi
 request-language-success-title =
     Isibawo selimi sithunyelwe ngokuphumelelako, 
     siyathokoza.
@@ -585,6 +597,7 @@ target-segment-first-banner =
     Siza ngokwenza iCommon Voice ikhambe 
     phambili ku { $locale }
 target-segment-add-voice = Faka iphimbo lakho
+target-segment-learn-more = Funda okwengeziweko
 
 ## Reporting
 
@@ -823,6 +836,7 @@ contribution-reader-effects-title = Iinkunupe zokufunda
 ## HEADER/FOOTER
 
 sc-header-rejected = Susa imitjho
+sc-header-my = Imitjho yami
 sc-footer-report-bugs = Bika okungakalungi
 sc-footer-translate = Tjhugulula ikhaseli
 sc-footer-report-copyright = Bika iindaba zamalungelo wokugadangisa
@@ -880,6 +894,7 @@ sc-howto-findpd-subtitle-2 = Zihlanganise neenhlangano zangekhethu namkha nabant
 
 ## MY SENTENCES
 
+sc-my-title = Imitjho yami
 sc-my-loading = Faka imitjhwakho…
 sc-my-err-fetching =
     Kube nomraro nasilinga ukufumana imitjho enomraro. Sibawa ulinge 
@@ -1027,6 +1042,7 @@ sc-lang-info-rejected =
 
 ## LOGIN
 
+sc-login-err-failed = Awukghoni ukungena
 sc-login-err-try-again = Sibawa ulinge godu.
 
 ## PROFILE
@@ -1058,6 +1074,7 @@ sc-criteria-item-6 =
 
 sc-review-lang-not-selected = Awekho amalimi owakhethileko. Sibawa uye ku <profileLink>Profayilakho</profileLink> bona ukhethe amalimi.
 sc-review-title = Buyekeza imitjho
+sc-review-loading = Ifaka imitjho…
 sc-review-select-language = Sibawa ukhethe ilimi bona ubuyekeze imitjho.
 sc-review-no-sentences =
     Ayikho imitjho ongayibuyekeza. <addLink>Faka 
