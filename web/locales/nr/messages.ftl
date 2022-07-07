@@ -33,8 +33,12 @@ bg = IsiLuganda
 cak = IsiKaqchikel
 ckb = IsiCentral Kurdish
 cnh = IsiHakha Chin
+cs = IsiCzech
+da = IsiDanish
 de = IsiGerman
 dsb = IsiSorbian, Lower
+dv = IsiDhivehi
+dyu = IsiDioula
 el = IsiGreek
 en = IsiNgisi
 eo = Isi-Esperanto
@@ -158,6 +162,7 @@ zu = IsiZulu
 
 speak = Khuluma
 speak-now = Khuluma nje
+datasets = Ukuhlelwa kwemininingwana
 profile = Iphrofayili
 help = Isizo
 terms = Imigomo
@@ -324,6 +329,7 @@ profile-form-submit-saved = Ibulungiwe
 male = Umuntu omduna
 female = Umuntu wengubo
 why-profile-title = Kubayini iprhofayili?
+dashboard = Ideshibhodi
 build-profile = Yakha iphrofayili
 settings = Amasethingi
 edit-profile = Lungisa
@@ -341,7 +347,7 @@ login-identity = Imininingwana yokungena
 login-signup = Thungela / Zitlolise
 edit = Lungisa
 email-subscriptions = Ukuzitlolisela ama-Email
-download-profile = Dawuniloda imininingwanami
+download-profile = Dawunilowuda
 contribution-experience = Nikela Ngelwazi
 skip-submission-feedback = Yeqa uMlayezo oBuyako
 skip-submission-description =
@@ -598,6 +604,7 @@ data-bundle-description =
     Nanti ihlelo leCommon Voice namanye 
     amaphimbo ngehla.
 release-version = Umbono
+dataset-date = Ilanga
 license-mixed = Okuhlanganisiweko
 data-download-singleword-title = Dawuniloda iGama Linye Olifunako
 data-download-singleword-callout-v2 = Leli lihlelo elisiza ngamaphimbo arekhodiweko elikghona ukuvuma namkha ukwala
@@ -618,6 +625,7 @@ review-keep-recordings = Bulunga okurekhodiweko
 
 ## Datasets Page
 
+datasets-heading = Ukuhlelwa kwemininingwana
 datasets-headline = Sakha umthombo wawo woke umuntu, amaphimbo wamalimi ahlukahlukeneko angasetjenziswa nginanyana ngubani bona azifundise ikulumo eyamukelekako.
 validated-hr-total = Inani eliqinisekisweko le-Hr
 overall-hr-total = Inani lakho koke Hr
@@ -884,6 +892,7 @@ goal-type = Ngimuphi umgomo ofuna ukuzibekela wona?
 both-speak-and-listen-long = Kokubili (Ukukhuluma nokuLalela)
 weekly-goal = Umgomo Weveke
 easy-difficulty = Lula
+difficult-difficulty = Kubudisi
 pro-difficulty = IsiPro
 lose-goal-progress-warning =
     Nawutjhentjha umgomo ungalahlekelwa 
@@ -960,6 +969,7 @@ download-start = Dawuniloda iphrofayili
 download-request = Bawa okurekhodiweko
 download-requests = Iimbawo ezidlulileko zokudawunilowuda imitjho
 download-requests-info = Nawubawa okurekhodileko, sikuhlanganisa ndawonye sikufake efayilini yinye namkha emafayilini amanengi we-ZIP. Nakhu okubawe esikhathini esidlulileko:
+download-request-button = Dawunilowuda
 download-request-description = { $clipCount } amaphimbo, inani lokubulungiweko { $size }. Phelelwe sikhathi { $expires }.
 download-request-archive-single = Ifayela ye-ZIP emumethe
 download-request-archive-multiple = Zihlukaniswe zaba yi { $archiveCount } kumafayela we-ZIP
@@ -1093,6 +1103,7 @@ sc-header-rejected = Susa imitjho
 sc-header-my = Imitjho yami
 sc-header-statistics = Iimbalobalo
 sc-header-profile = Iphrofayili
+sc-footer-discourse = Ikulumiswano
 sc-footer-report-bugs = Bika okungakalungi
 sc-footer-translate = Tjhugulula ikhaseli
 sc-footer-report-copyright = Bika iindaba zamalungelo wokugadangisa
