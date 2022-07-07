@@ -301,6 +301,7 @@ request-language-form-info-explanation =
     "Faka ulwazi oluningi ngangokunokwenzeka ngolimi. Lokhu
     kungafaka:"
 request-language-form-info-explanation-list-1 = Amagama olimi lwakho
+request-language-form-info-explanation-list-2 = <isoCodeLink>ISO Codes</isoCodeLink> uma aziwa
 request-language-form-info-explanation-list-3 = Izixhumanisi zamawebhusayithi ezingasisiza siqonde ulimi
 request-language-google-recaptcha-required = I-reCAPTCHA iyadingeka uma ufuna ukuqhubeka
 request-language-google-recaptcha-error = Kukhona okungahambanga kahle nge-reCAPTCHA. Ngicela uzame futhi.
