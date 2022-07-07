@@ -115,6 +115,7 @@ status-hours =
 
 profile-form-variant =
     .label = Ngimaphi ama { $language } ahlukahlukeneko owakhulumako?
+profile-form-variant-default-value = Akukho okuhlukahlukeneko okhethiweko
 profile-form-custom-accent-help-text =
     .label = Ungayihlathulula njani indlela ophimisela ngayo?
 profile-form-custom-accent-placeholder-2 = Thoma ukutlola uhlathulule indlela ophimisela ngayo
@@ -148,6 +149,7 @@ file_too_large = Ifayela elikhethiweko likhulu
 
 ## Profile - Email
 
+manage-email-subscriptions = Tlhogomela ukuzitlolisela ama-email
 email-already-used = I-email le, sele isetjenziswe kwenye i-akhawundi
 change-email-setings =
     Tjhugulula i-emailakho kumaSethingi ngaphasi kwengcenye 
@@ -155,6 +157,7 @@ change-email-setings =
 
 ## FAQ
 
+faq-title = Imibuzo Ebuzwa Qobe
 faq-what-cv-q = Yini iCommon Voice?
 faq-why-important-q = Kubayini lokhu kuqakathekile?
 faq-how-get-q = Ngingalifumana njani ihlelo leCommon Voice?
@@ -205,6 +208,7 @@ how-does-it-work-title-v2 = Isebenza njani iCommon Voice?
 about-language-req-subtitle = Omunye ubawe bona kufakwe ilimi.
 about-localization-subtitle = Umtlolo osetjenziswe kuwebhusayidi utjhugululelwe eliminelo.
 about-sentence-collection-subtitle = Imitjho ibuthelelwe ukwenzela bona umuntu ayifundele phezulu.
+about-new-lang-title = Ilimi elitjha elifakwa ngokusemthethweni
 about-new-lang-subtitle =
     Sethula ikhasi le-Common Voice ngokusemthethweni 
     ngelimeli.
@@ -350,12 +354,14 @@ review-submit-title = Buyekeza bewuThumele
 review-submit-msg =
     Siyathokoza
     ngokurekhoda!<lineBreak></lineBreak>Buyekeza ngemva kwalokho uthumele okurekhodileko okungenzasi.
+review-keep-recordings = Bulunga okurekhodiweko
 
 ## Datasets Page
 
 datasets-headline = Sakha umthombo wawo woke umuntu, amaphimbo wamalimi ahlukahlukeneko angasetjenziswa nginanyana ngubani bona azifundise ikulumo eyamukelekako.
 validated-hr-total = Inani eliqinisekisweko le-Hr
 overall-hr-total = Inani lakho koke Hr
+number-of-voices = Inani lamaphimbo
 email-to-download = Faka i-email bona udawunilowude
 confirm-size =
     Ukulungele ukuthoma ukudawuniloda i 
@@ -372,6 +378,7 @@ data-other-librispeech-description = I-LibriSpeech mitlolo engathatha pheze ama-
 data-other-ted-description = I-TED-LIUM yenziwe ithathelwa eenkulumweni ezigadangisiweko begodu okutloliweko kuyafumaneka kuzinzolwazi yeTED.
 data-other-voxforge-description = IVoForge yahlonywa bona kubuthelelwe ikulumo etlolwe phasi bona isetjenziswe Ngokutjhaphulukileko.
 your-feedback = Kghani unemibono yokuthi singayithuthukisa njani i-Common Voice siyenze ibengcono? Ungasazisa ngokusitlolela namkha ngenye indlela
+go-discourse = Tjhinga ekulumweni
 go-languages-page = Ngena ekhasini lamalimi
 ready-to-validate = Ukulungele ukusiza ngokuphasisa imitjho?
 
@@ -449,6 +456,7 @@ record-platform-not-supported-ios-non-safari =
     Ku-iOS sibawa uragele phambili ngeSafari bona ukghone 
     ukurekhoda...
 record-must-allow-microphone = Kufuze uvumele umbhobho usebenze.
+record-no-mic-found = Umbhobho awufumaneki.
 record-error-too-short = Okurekhodiweko kufitjhani khulu.
 record-error-too-long = Okurekhodiweko kude khulu.
 record-error-too-quiet = Okurekhodiweko kuthule khulu.
@@ -466,6 +474,7 @@ review-tooltip = Buyekeza bewurekhode kabutjha khona la
 share-clip = Yabelana ngesiquntu engisirekhodileko
 share-common-voice = Yabelana ngeCommon Voice
 review-instruction = Buyekeza bewurekhode nange kutlhogeka
+record-abort-title = Qeda ukurekhoda qangi?
 record-abort-text = Nawuphuma nje uzokulahlekelwa ngosele ukwenzile
 record-abort-delete = Phuma namkha Susa iinqetjhana
 listen-instruction =
@@ -617,6 +626,7 @@ read-more-about = Funda okwengeziweko ekhasini leMininingwana yekhasi
 
 ## DemoLayout
 
+demo-get-started = Asithome
 demo-welcome = Siyakwamukela kuCommon Voice
 demo-welcome-subheader =
     Ufuna ukufunda okwengeziweko begodu unikele 
@@ -704,6 +714,7 @@ contribution-background-voices-example-1-explanation =
 
 sc-footer-translate = Tjhugulula ikhaseli
 sc-footer-report-copyright = Bika iindaba zamalungelo wokugadangisa
+sc-login-signup-button = Thungela / Zitlolise
 
 ## HOME
 
@@ -727,6 +738,7 @@ sc-howto-addlang-title = Faka amalimi ozokusebenza ngawo
 sc-howto-addlang-text =
     Nasele uthungele ungakghona ukukhetha amalimi
     owafunako erhelweni.
+sc-howto-cite-title = Indlela yokudzubhula
 sc-howto-cite-item-1 = Ungahlanganisa newebhusayidi, isb. "Common Voice - https://commonvoice.mozilla.org/"
 sc-howto-cite-item-2 = Ungasebenzisa indlela yokutlola yefundo ephakamileko isb. Harvard style "Mozilla (2021) Common Voice. Efumaneka ku-https://commonvoice.mozilla.org/ (Accessed: 15th September 2021)"
 sc-howto-cite-item-3 = Bona ufumane umtlolo ongekho ku-inthanethi, ungasebenzisa indlela yokutlola isb. Harvard style " Jess (2021) Ilayisensami yeenkondlo zophakathi"
@@ -753,15 +765,18 @@ sc-howto-findpd-subtitle-2 = Zihlanganise neenhlangano zangekhethu namkha nabant
 
 ## MY SENTENCES
 
+sc-my-loading = Faka imitjhwakho…
 sc-my-err-fetching =
     Kube nomraro nasilinga ukufumana imitjho enomraro. Sibawa ulinge 
     godu.
+sc-my-no-sentences = Ayikho imitjho efumanekako!
 sc-my-err-failed-delete =
     Akukghonakali ukususa imitjho ekhethiweko... Sibawa ulinge 
     godu!
 
 ## REJECTED
 
+sc-rejected-loading = Faka imitjho erarhiweko…
 sc-rejected-err-fetching =
     Kube nomraro nasilinga ukufumana imitjho enomraro. Sibawa 
     ulinge godu.
@@ -897,6 +912,7 @@ sc-personal-not-added = Alikho ilimi olifakileko.
 
 ## REVIEW CRITERIA
 
+sc-criteria-modal = ⓘ Indlela yokubuyekeza
 sc-criteria-make-sure =
     Yenza isiqiniseko bona imitjho ihlangabezana nemibandela 
     elandelako:
