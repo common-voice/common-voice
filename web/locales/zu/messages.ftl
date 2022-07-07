@@ -72,6 +72,7 @@ status-hours =
 
 profile-form-variant =
     .label = Uhlobo luni lwe-{ $language } olukhulumayo?
+profile-form-custom-accent-placeholder-2 = Qala ukuthayipha ukuze uchaze indlela ophimisa ngayo
 profile-explanation = Landelela inqubekela-phambili yakho ngephrofayela futhi usize idatha yethu yezwi inembe kakhulu.
 thanks-for-account = Siyabonga ngokuqinisekisa i-akhawunti yakho, manje asakhe iphrofayela yakho.
 accept-privacy = Ngilungile uma uphatha lolu lwazi njengoba uchaza kokuthi <privacyLink>Inqubomgomo Yobumfihlo</privacyLink> ye-Mozilla
@@ -123,6 +124,8 @@ about-language-req-subtitle = Umuntu ucela ukwengezwa ulimi.
 about-localization-subtitle = Umbhalo wewebhusayithi uhunyushelwa kulolo limi.
 about-sentence-collection-subtitle = Imisho iqoqwa ukuze abantu bayifundele phezulu.
 about-new-lang-subtitle = Sethula isayithi le-Common Voice ngalolu limi.
+about-voice-contrib-subtitle = Abantu bafike banikele ngamaphimbo abo.
+about-voice-validation-subtitle = Abanye abantu baqinisekisa lezo ziqeshana zezwi.
 about-dataset-release-subtitle = Sikhipha idathasethi njalo ezinyangeni ezi-3.
 about-subscribe-text = Ingabe ufuna ukuhlala uxhumene ne-Common Voice?
 about-speak-text = Abanikeli baqopha iziqeshana zezwi ngokufunda ebhange lemisho enikelwe.
@@ -265,6 +268,7 @@ record-platform-not-supported = Siyaxolisa, inkundla yakho ayisekelwe okwamanje.
 record-platform-not-supported-desktop = Kumadivayisi edeskithophu ungadlala iqhaza ngokuloda...
 record-platform-not-supported-ios-non-safari = Ku-iOS sicela uqhubeke ne-Safari ukuze ukwazi ukurekhoda...
 review-tooltip = Buyekeza futhi uqophe kabusha iziqeshana lapha njengoba uhamba
+review-instruction = Buyekeza futhi uqophe kabusha iziqeshana uma kudingeka
 record-abort-text = Ukuhamba manje kusho ukuthi uzolahlekelwa ukuqhubeka kwakho
 listen-again-instruction = Umsebenzi omuhle!<playIcon></playIcon> Lalela futhi uma usulungile
 listen-empty-state = Siphelelwe iziqeshana ezizoqinisekiswa ngalolu limi...
@@ -334,6 +338,10 @@ receiving-emails-info =
     izibuyekezo zenqubekelaphambili zami kanye nezincwadi zezindaba mayelana ne-Common Voice
 not-receiving-emails-info = Okwamanje usethelwe <bold>CHA</bold> ukuthola ama-imeyili afana nezikhumbuzi zegoli, mina izibuyekezo zenqubekelaphambili kanye nezincwadi zezindaba mayelana ne-Common Voice
 help-share-goal = Sisize sithole amazwi engeziwe, wabelane ngenjongo yakho
+# $type is one of share-goal-type-*
+share-n-daily-contribution-goal = Yabelana nge-{ $count } Inhloso yakho Yansuku Zonke Yeziqeshana we-{ $type }
+# $type is one of share-goal-type-*
+share-n-weekly-contribution-goal = Yabelana nge-{ $count } Inhloso yakho Yamaviki Onke Yeziqeshana we-{ $type }
 # LINK will be replaced with the current URL
 goal-share-text = Ngisanda kwakheka umgomo womuntu siqu wokunikela ngezwi ku-#CommonVoice -- ngijoyine futhi usize ukufundisa imishini ukuthi abantu bangempela bakhuluma kanjani { $link }
 weekly-goal-created = Injongo yakho yeviki idaliwe
@@ -361,6 +369,7 @@ download-request-modal-description = Nazi izixhumanisi zokuloda amafayela akho e
 help-contribute = Ungasiza ukwakha isethi yedatha ehlukahlukene, yomthombo ovulekile ngokudala iphrofayela yeCommon Voice futhi unikele ngezwi lakho.
 login-company = Ngena / Bhalisa nge-imeyili ye-{ $company }
 profile-not-required = Ukuba nephrofayela akudingekile ukuthi unikele nakuba kusiza, bona ukuthi kungani ngezansi.
+read-more-about = Funda okwengeziwe ekhasini lethu le Mayelana
 
 ## DemoLayout
 
@@ -441,9 +450,11 @@ sc-howto-review-criteria-2 = Umusho kumele uhambisane nohlelo lolimi.
 sc-howto-review-criteria-4 = Uma umusho uhambisana nemibandela, chofoza inkinobho ethi "Vumela".
 sc-howto-review-criteria-6 = Uma uphelelwa imisho okufanele uyibuyekeze, sicela usisize siqoqe imisho eminingi!
 sc-howto-findpd-title = Ukuthola imisho ekhona Kusizinda Somphakathi
+sc-howto-findpd-subtitle = Babheke ku-inthanethi
 sc-howto-findpd-tips = Nawa amathiphu okuthola imisho:
 sc-howto-findpd-tips-1 = Imithombo engcono kakhulu ongayibheka amaphodikasti, okulotshiweyo, imibhalo yamamuvi nanoma yini engaba khona ingaqukatha izingxoxo zansuku zonke.
 sc-howto-findpd-tips-3 = Ngeshwa asikwazi ukuba nezindatshana ze-Wikimedia okwamanje. Ngakho-ke ungakopishi ukunamathisela kusuka lapho.
+sc-howto-findpd-subtitle-2 = Hlanganyela nezinhlangano zendawo noma abantu ngabanye
 
 ## MY SENTENCES
 
@@ -587,6 +598,8 @@ sc-criteria-item-6 = Uma uphelelwa imisho okufanele uyibuyekeze, sicela usisize 
 sc-review-lang-not-selected = Awukhethanga noma yiziphi izilimi. Sicela uye <profileLink>Iphrofayela</profileLink> yakho ukuze ukhethe izilimi.
 sc-review-select-language = Sicela ukhethe ulimi ozobuyekeza imisho.
 sc-review-no-sentences = Ayikho imisho ezobuyekezwa. <addLink>Engeza eminye imisho manje!</addLink>
+sc-review-form-prompt =
+    .message = Imisho ebuyekeziwe ayithunyelwanga, uqinisekile?
 # Variables:
 #   $sentences (Number) - Number of sentences the user has reviewed in this session
 sc-review-form-reviewed-message =
