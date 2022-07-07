@@ -38,6 +38,7 @@ no-clips-to-validate = Kubonakala sengathi azikho iziqeshana ongazilalela ngalol
 toggle-play-tooltip = Cindezela{ shortcut-play-toggle } ukuze uguqule imodi yokudlala
 speak-paragraph = Ukuqopha iziqeshana zezwi kuyingxenye ebalulekile yokwakha idathasethi yethu evulekile; abanye bangathi kumnandi futhi.
 listen-subtitle = Sisize siqinisekise amazwi
+voices-online = Amazwi a-Online Manje
 help-reach-goal = Sisize sifinyelele ku-{ $goal }
 read-terms-q = Uyifundile Imigomo yethu?
 ready-to-record = Ulungele ukunikela ngezwi lakho?
@@ -88,6 +89,7 @@ profile-form-custom-accent-help-text =
     .label = Ungakuchaza kanjani ukuphimisela kwakho?
 profile-form-custom-accent-placeholder-2 = Qala ukuthayipha ukuze uchaze indlela ophimisa ngayo
 profile-form-add-accent = Engeza ukuphimisa kwangokwezifiso okusha "{ $inputValue }"
+why-profile-title = Kungani kunephrofayili?
 profile-explanation = Landelela inqubekela-phambili yakho ngephrofayela futhi usize idatha yethu yezwi inembe kakhulu.
 thanks-for-account = Siyabonga ngokuqinisekisa i-akhawunti yakho, manje asakhe iphrofayela yakho.
 why-demographic = Kungani kubalulekile lokhu?
@@ -143,6 +145,7 @@ faq-description = I-Common Voice iyingxenye yesinyathelo se-Mozilla sokusiza uku
 
 ## ABOUT US
 
+about-title = Kungani iCommon Voice?
 how-does-it-work-title-v2 = Isebenza kanjani i-Common Voice?
 
 ## How does it work section
@@ -224,6 +227,7 @@ about-playbook-how-project-governance = Zenziwa kanjani izinqumo zephrojekthi?
 about-playbook-how-project-governance-content-2 = Ukubusa kwethu kusekelwe phezu kwezinsika:
 about-playbook-how-project-governance-content-3 = Ubumfihlo, ukuphepha kanye nokungafihli lutho.
 about-playbook-how-project-governance-content-4 = Ukubamba iqhaza komphakathi kanye nokwenza izinqumo.
+about-playbook-how-project-governance-content-5 = Inani nokuqashelwa.
 about-playbook-how-project-governance-content-7 = <governanceLink>Funda kabanzi mayelana nendlela esibuswa ngayo</governanceLink>
 
 ## Glossary
@@ -255,6 +259,7 @@ review-submit-msg = Siyabonga ngokurekhoda!<lineBreak></lineBreak>Manje buyekeza
 ## Datasets Page
 
 datasets-headline = Sakha umthombo ovulekile, isethi yedatha yezilimi eziningi yamazwi noma ubani angayisebenzisa ukuze aqeqeshe izinhlelo zokusebenza ezikwazi ukukhuluma.
+validated-hr-total = Isamba samahora esiqinisekiswe u-Hr. Isamba
 confirm-size = Ulungele ukuqalisa ukuloda kwe-<b>{ $size }</b>
 confirm-no-identify = <b>Uyavuma</b> ukungazami ukucacisa ukuthi ungubani izikhulumi kudathasethi yeCommon Voice
 whats-inside = Yini engaphakathi kwedathasethi yeCommon Voice?
@@ -295,6 +300,8 @@ request-language-explanation-2 =
     Sizokwazisa <strong>nomphathi wethu womphakathi
     ukuthi unentshisekelo</strong>, ngakho bangakunikeza noma ikuphi
     ukwesekwa okwengeziwe noma ulwazi ongase uludinge.
+request-language-form-email =
+    .label = Ikheli lakho lemeyili
 request-language-form-info =
     .label = Ulwazi ngolimi
 request-language-form-info-explanation =
@@ -447,6 +454,7 @@ download-request-archive-single = Ifayela le-ZIP elilodwa eliqukethe
 download-request-archive-multiple = Hlukanisa kube { $archiveCount } amafayela e-ZIP aqukethe
 download-request-assembling-description = Amafayela akho ayahlanganiswa. Sicela uhlole futhi ngokuhamba kwesikhathi.
 download-request-modal-description = Nazi izixhumanisi zokuloda amafayela akho e-ZIP.
+download-request-link-text = I-Zip #{ $offset } ye-{ $total }
 
 ## Landing
 
