@@ -661,6 +661,7 @@ sc-submit-filtered = Imitjho efakiweko ayikaphasi ngebanga lokungahlangabezani n
 ## ADD LANGUAGE
 
 sc-add-lang-sec-label = Faka ilimi ofuna ukunikela kilo
+sc-add-err-unexpected = Ubujamo obungakalindeleki sibuyela kuseyiva
 # Variables:
 #   $sentences (Number) - Number of sentences which failed to be saved to the database - could be several different reasons
 sc-add-err-failed =
