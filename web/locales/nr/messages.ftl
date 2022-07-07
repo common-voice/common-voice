@@ -118,6 +118,7 @@ profile-form-custom-accent-help-text =
 profile-form-custom-accent-placeholder-2 = Thoma ukutlola uhlathulule indlela ophimisela ngayo
 profile-form-add-accent = Faka indlela ejayelekileko yokuphimisela "{ $inputValue }"
 why-profile-title = Kubayini iprhofayili?
+profile-create-success = Ukghonile ukwenza iphrofayili!
 profile-explanation = Sebenzisa iphrofayili yakho bona uhlole ituthukwako begodu usize ihlelo lethu linembe khudlwana.
 thanks-for-account =
     Siyathokoza ngokuqinisekisa i-akhawundi yakho, njeke asenze 
@@ -127,6 +128,7 @@ accept-privacy =
     Anginamraro wokobana nibe nemininingwana le
     njengombana kuhlathululiwe<privacyLink> emibandeleni yeMozilla</privacyLink>
 login-signup = Thungela / Zitlolise
+skip-submission-feedback = Yeqa uMlayezo oBuyako
 skip-submission-note =
     Tjheja: Kusafuze ukhethe hlangana
     NokuKhuluma nokuLalela bona utjhugulule indlela onganikela ngayo.
@@ -443,6 +445,7 @@ record-error-too-quiet = Okurekhodiweko kuthule khulu.
 record-instruction =
     { $actionType }<recordIcon></recordIcon> 
     fundela umutjho phezulu
+record-three-more-instruction = Kusele mithathu!
 record-again-instruction =
     Kuhle!<recordIcon></recordIcon> Rekhoda 
     okulandelako
@@ -485,6 +488,7 @@ target-segment-first-banner =
 
 ## Reporting
 
+report-title = Thumela umlayezo
 report-ask =
     Ngibuphi ubudisi ohlangabezana nabo ngemitjho
     le?
@@ -515,6 +519,7 @@ todays-validated-progress =
 visibility-overlay-note =
     Tjheja: Amasethingi wengcenye ethi 'Bonakala'
     angatjhugululwa la <profileLink>ekhasini lePhrofayili</profileLink>
+show-ranking = Veza ukutshwaya kwami
 
 ## Custom Goals
 
@@ -548,6 +553,7 @@ help-share-goal = Sisiza sifumane amaphimbo angeziweko, yabelana ngomgomwakho
 share-n-daily-contribution-goal = Yabelana { $count } nephimbo qobe langa umgomo we { $type }
 # $type is one of share-goal-type-*
 share-n-weekly-contribution-goal = Yabelana { $count } ngephimbo qobe veke umgomo we { $type }
+share-goal-type-both = Khuluma begodu Ulalele
 # LINK will be replaced with the current URL
 goal-share-text = Ngizibekele umgomo wokunikela ngephimbo lami ku #CommonVoice -- sebenzisana nami sifundise imitjhini ukuthi abantu bamambala bakhuluma njani { $link }
 weekly-goal-created = Imigomo yakho yeveke sele ihleliwe
