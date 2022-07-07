@@ -26,6 +26,11 @@ error-something-went-wrong = Usilibalele kunento engakhambi kuhle
 dsb = IsiSorbian, Lower
 hsb = IsiSorbian, Upper
 nan-tw = IsiTaiwanese (Minnan)
+nb-NO = IsiNorwegian Bokmål
+nn-NO = IsiNorwegian Nynorsk
+nso = IsiSotho seTlhagwini
+pap-AW = IsiPapiamento (Aruba)
+quy = IsiQuechua Chanka
 rm-sursilv = IsiRomansh Sursilvan
 rm-vallader = IsiRomansh Vallader
 sat = IsiSantali (Ol Chiki)
@@ -125,6 +130,7 @@ username-optin-public =
 
 ## Speak Shortcuts
 
+shortcut-rerecord-toggle-label = Rekhoda kabutjha
 shortcut-discard-ongoing-recording-label = Susa okurekhodwako
 shortcut-submit-label = Thumela iinqetjhana
 request-language-text = Awuliboni ilimi lakho ku-Common Voice?
@@ -139,11 +145,16 @@ status-hours =
         [one] Kuqinisekiswe i-awara okwanje!
        *[other] kuqinisekiswe ama-awara okwanje!
     }
+# Variables:
+# $goal - number of hours representing the next goal
+status-goal = Umngomo olandelako: { $goal }
 
 ## ProfileForm
 
 profile-form-username =
     .label = Ibizo olisebenzisako
+profile-form-native-language =
+    .label = Ilimi owalimunyako
 profile-form-variant =
     .label = Ngimaphi ama { $language } ahlukahlukeneko owakhulumako?
 profile-form-variant-default-value = Akukho okuhlukahlukeneko okhethiweko
@@ -161,6 +172,7 @@ why-demographic = Kubayini lokhu kuqakathekile?
 accept-privacy =
     Anginamraro wokobana nibe nemininingwana le
     njengombana kuhlathululiwe<privacyLink> emibandeleni yeMozilla</privacyLink>
+accept-privacy-title = Umthetho wefihlo
 login-signup = Thungela / Zitlolise
 download-profile = Dawuniloda imininingwanami
 skip-submission-feedback = Yeqa uMlayezo oBuyako
@@ -444,6 +456,7 @@ download-form-email =
     .label = Faka
     .value = i-email yakho
 download-back = Buyela kuCommon Voice Datasets
+download-no = Awa ngiyathokoza
 
 ## Contact Modal
 
@@ -455,6 +468,7 @@ request-language-success-title =
     siyathokoza.
 request-language-success-content = Sizokubuya nemininingwana engeziweko emalungana nokuthi ungalifaka njani ilimi lakho ku-Common Voice esikhathini esingaphelisi ihliziyo.
 select-language = Khetha ilimi...
+other-language = Elinye ilimi
 
 ## Request Language Pages
 
@@ -578,6 +592,7 @@ report-title = Thumela umlayezo
 report-ask =
     Ngibuphi ubudisi ohlangabezana nabo ngemitjho
     le?
+report-offensive-language = Ilimi elilumelako
 report-offensive-language-detail =
     Imitjho le itjengisa ukudelela namkha inamagama 
     alumelako.
@@ -590,6 +605,7 @@ report-difficult-pronounce = Kubudisi ukuphimisela
 report-difficult-pronounce-detail =
     Kunamezwi namkha amagama okubudisi 
     ukuwafunda namkha ukuwaphimisela.
+report-offensive-speech = Ikulumo elumelako
 report-offensive-speech-detail = Okurekhodiweko kunamezwi adelelako namkha alumelako.
 report-success = Umbiko uphasile
 
@@ -615,6 +631,7 @@ top-contributors = Umnikelo ophezulu
 recorded-clips = Rekhoda Iinqetjhana
 validated-clips = Iinqetjhana eziqinisekisiweko
 total-approved = Inomboro yokuphasisiweko
+overall-accuracy = Ukunemba
 set-visibility = Tjengisa nangikhona
 visibility-overlay-note =
     Tjheja: Amasethingi wengcenye ethi 'Bonakala'
