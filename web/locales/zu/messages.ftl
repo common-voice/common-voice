@@ -80,6 +80,7 @@ skip-submission-note = Qaphela: Usazodinga ukukhetha phakathi kokuthi Khuluma no
 
 ## Profile - Email
 
+gravatar_not_found = Ayikho i-gravatar etholakele ye-imeyili yakho
 file_too_large = Ifayela elikhethiwe likhulu kakhulu
 
 ## Profile - Email
