@@ -497,6 +497,7 @@ data-other-title = Lamanye ema-Datasets emavi...
 data-other-goto = Hamba ku { $name }
 data-other-download = Download Data
 data-bundle-button = Download Dataset Bundle
+data-bundle-description = i-data ya Common Voice nayo yonkhe i-dataset langenhla.
 release-version = Inhlobo
 dataset-date = Lusuku
 license = License: <licenseLink>{ $license }</licenseLink>
@@ -965,8 +966,24 @@ sc-confirm-button-text = Vuma
 
 sc-lang-info-title-total = Konkhe
 sc-lang-info-title-personal = Mayelana nami
+# Variables:
+#   $totalSentences (Number) - Number of sentences uploaded in total for this language
+sc-lang-info-total =
+    { $totalSentences ->
+        [0] Kute umusho lophelele
+        [one] umusho lophelele
+       *[other] imisho lephelele
+    }
 sc-lang-info-review-now = <reviewLink>Buyeketa nyalo!</reviewLink>
 sc-lang-info-add-more = *[other] { $count } Ngeta imisho manje!</addLink>
+# Variables:
+#   $validatedSentences (Number) - Number of sentences which have been approved for this language
+sc-lang-info-validated =
+    { $validatedSentences ->
+        [0] Kute imisho lecinisekisiwe
+        [one] 1 umusho locinisekisiwe
+       *[other] { $validatedSentences } umusho locinisekisiwe
+    }
 # Variables:
 #   $rejectedSentences (Number) - Number of sentences which have been rejected for this language
 sc-lang-info-rejected =
