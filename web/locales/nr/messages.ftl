@@ -45,12 +45,15 @@ default-tagline =
     IMozilla Common Voice izimisele ukusiza
     ekufundiseni imitjhini bona abantu bamambala bakhuluma njani.
 home-cta = Khuluma, nikela endaweni le!
+help-us-title = Sisiza siqinisekise imitjho!
 help-us-explain =
     Gandelela, dlala lalela bese uyasitjela: bawutjho kuhle na
     umutjho ongenzasi?
 no-clips-to-validate = Kubonakala ngathi akukho okulalelwako ngelimeli. Sibawa usisize sivale isikhalesi ngokuthi urekhode okuthileko njenga nje.
 toggle-play-tooltip = Gandelela { shortcut-play-toggle } bona utjhugulule indlela yokudlala
 speak-paragraph = Iinqetjhada zamaphimbo ezirekhodiweko ziyingcenye eqakathekileko yokwakha ihlelo lethu; abanye bangathi, le yingcenye ethabisako.
+listen-subtitle = Sisiza siqinisekise amaphimbo
+help-reach-goal = Sisiza sithome { $goal }
 read-terms-q = Uyifundile imibandela yethu?
 ready-to-record = Ukulungele ukunikela ngephimbo lakho?
 help-make-dataset = Sisiza senze umsebenzi osezingeni eliphezulu
@@ -206,6 +209,7 @@ about-listen-queue-text =
     Iinqetjhana ezilalelwako zifakwa erhelweni
     elilungiselela ukulalelwa.
 about-listen-text = Abasebenzisa ihlelweli bayaqinisekisa bona amaphimbo abanikela ngawo, anembile ngokuqala bona isikhulumi sifunda imitjho kuhle.
+about-is-it-valid = Isiqetjhada sisemthethweni?
 about-is-it-valid-text = Okurekhodiweko kutshwaywa ngokuthi "Kuphasile" lokha okusebenzisako nakakuvowudela ngo-Iye.
 about-yes-votes-text = Bona uphumelele ukungena ehlelweni le-Common Voice iphimbo kufuze liphasiswe babantu ababili abahlukileko.
 about-stay-in-touch = Ngingahlala njani nginelwazi?
@@ -320,6 +324,7 @@ data-bundle-description =
 data-download-singleword-title = Dawuniloda iGama Linye Olifunako
 data-download-singleword-callout-v2 = Leli lihlelo elisiza ngamaphimbo arekhodiweko elikghona ukuvuma namkha ukwala
 review-terms = Ngokusebenzisa iCommon Voice, uvumelana ne <termsLink>Mibandela</termsLink> kunye ne <privacyLink>Nemigomo</privacyLink>
+terms-disagree = Angivumi
 review-aborted =
     Uku-aplowuda kujamile. Ufuna ukususa 
     okurekhodileko?
@@ -330,6 +335,7 @@ review-submit-msg =
 ## Datasets Page
 
 datasets-headline = Sakha umthombo wawo woke umuntu, amaphimbo wamalimi ahlukahlukeneko angasetjenziswa nginanyana ngubani bona azifundise ikulumo eyamukelekako.
+email-to-download = Faka i-email bona udawunilowude
 confirm-size =
     Ukulungele ukuthoma ukudawuniloda i 
     <b>{ $size }</b>
@@ -344,6 +350,7 @@ data-other-librispeech-description = I-LibriSpeech mitlolo engathatha pheze ama-
 data-other-ted-description = I-TED-LIUM yenziwe ithathelwa eenkulumweni ezigadangisiweko begodu okutloliweko kuyafumaneka kuzinzolwazi yeTED.
 data-other-voxforge-description = IVoForge yahlonywa bona kubuthelelwe ikulumo etlolwe phasi bona isetjenziswe Ngokutjhaphulukileko.
 your-feedback = Kghani unemibono yokuthi singayithuthukisa njani i-Common Voice siyenze ibengcono? Ungasazisa ngokusitlolela namkha ngenye indlela
+go-languages-page = Ngena ekhasini lamalimi
 ready-to-validate = Ukulungele ukusiza ngokuphasisa imitjho?
 
 ## Download Modal
@@ -371,10 +378,13 @@ request-language-success-content = Sizokubuya nemininingwana engeziweko emalunga
 
 request-language-heading = Buza ngelimi elitjha
 request-language-explanation-2 = Sizokubuye <strong>sakwazisa  nomphathi womphakathethu ukuthi unekareko</strong>, ukwenzela bona bakunikele nanyana ngiliphi isekelo elengeziweko nelwazi okungenzeka ulitlhoge.
+request-language-form-info =
+    .label = Imininingwana ngelimi
 request-language-form-info-explanation =
     Faka imininingwana eminengi 
     ngelimi ngendlela ongakghona ngayo. Lokhu
     kungahlanganisa:
+request-language-form-info-explanation-list-1 = Amagama welimi lakho
 request-language-form-info-explanation-list-3 = Ngena kuzindzolwazi engasisiza sizwisise ilimi
 request-language-google-recaptcha-required = kuyatlhogeka reCAPTCHA nange ufuna ukuragela phambili
 request-language-google-recaptcha-error =
@@ -426,6 +436,7 @@ record-again-instruction2 =
 review-tooltip = Buyekeza bewurekhode kabutjha khona la
 review-instruction = Buyekeza bewurekhode nange kutlhogeka
 record-abort-text = Nawuphuma nje uzokulahlekelwa ngosele ukwenzile
+record-abort-delete = Phuma namkha Susa iinqetjhana
 listen-instruction =
     { $actionType }<playIcon></playIcon> bayikhulume 
     kuhle imitjho?
@@ -464,6 +475,7 @@ report-ask =
 report-offensive-language-detail =
     Imitjho le itjengisa ukudelela namkha inamagama 
     alumelako.
+report-grammar-or-spelling = Umtjhapho wokutlola / ukupeleda
 report-grammar-or-spelling-detail = Umutjho unomraro wokutlola nokupeleda.
 report-different-language-detail =
     Kutlolwe ngelimi elihlukileko 
@@ -489,6 +501,7 @@ visibility-overlay-note =
 
 ## Custom Goals
 
+get-started-goals = Thoma ngemigomo
 goal-type = Ngimuphi umgomo ofuna ukuzibekela wona?
 lose-goal-progress-warning =
     Nawutjhentjha umgomo ungalahlekelwa 
@@ -541,6 +554,7 @@ download-recordings-unavailable =
 download-recently-requested =
     Ungabawa okurekhodileko 
     woke malanga { $days }
+download-requests = Iimbawo ezidlulileko zokudawunilowuda imitjho
 download-requests-info = Nawubawa okurekhodileko, sikuhlanganisa ndawonye sikufake efayilini yinye namkha emafayilini amanengi we-ZIP. Nakhu okubawe esikhathini esidlulileko:
 download-request-description = { $clipCount } amaphimbo, inani lokubulungiweko { $size }. Phelelwe sikhathi { $expires }.
 download-request-archive-single = Ifayela ye-ZIP emumethe
@@ -583,6 +597,7 @@ demo-account-sign-up = Thumela ilinki yokuzitlolisa
 ## Demo Contribute
 
 demo-contribute-card-header = Ukulungele ukurekhoda iphimbo lakho namkha ukusiboleka indlebe?
+demo-listen-subtitle = { "" }
 
 ## Demo Dashboard
 
@@ -615,6 +630,7 @@ contribution-misreadings-example-7-explanation = [Awa kuno ‘a’ emtlolweni wo
 contribution-misreadings-example-8-title = Ikhamba ngebelo le.
 contribution-varying-pronunciations-example-1-title = Umbethe ibherede ehlokwakhe.
 contribution-varying-pronunciations-example-1-explanation = [‘Berete’ ngu Iye kungakhathaliseki bona ugandelelwa kokothoma e- (UK) namkha kwesibili e- (US)]
+contribution-varying-pronunciations-example-2-title = Isandla sakhe besiphakamile.
 contribution-varying-pronunciations-example-2-explanation = [‘Ukukhuliswa’ ngesiNgisi kuphinyiselwa ngesilabhulu yinye ingasi ezimbili]
 contribution-background-noise-description-extended = Nange okurekhodiweko kuqunteka namkha kutjhitjhiza kusuze ngaphandle kwalokha okhunye kuzwakala.
 contribution-background-noise-example-1-fixed-title =
@@ -703,6 +719,7 @@ sc-my-err-failed-delete =
 sc-rejected-err-fetching =
     Kube nomraro nasilinga ukufumana imitjho enomraro. Sibawa 
     ulinge godu.
+sc-rejected-none-found = Akunamitjho engakaphasiswa efumanekako!
 
 ## STATS
 
@@ -717,11 +734,14 @@ sc-stats-summary =
 ## ADD
 
 sc-submit-err-select-lang = Sibawa ukhethe ilimi.
+sc-submit-err-add-source = Sibawa ufake umthombo.
 sc-submit-err-confirm-pd = Sibawa uqinisekise bona imitjho le ingaya emphakathini.
 sc-submit-prompt =
     .message =
         Imitjho ayikathunyelwa. Unesiqiniseko 
         sokobana ufuna ukuphuma?
+sc-submit-ph-one-per-line =
+    .placeholder = Umutjho munye elayinini
 sc-submit-from-where =
     Ibuyaphi imitjho le? <wikipediaLink>yehlelo 
     lomphakathi</wikipediaLink>
@@ -731,6 +751,9 @@ sc-submit-confirm =
     Ngiyaqinisekisa bona imitjho le
     <wikipediaLink>yehlelo lomphakathi</wikipediaLink> begodu nginamalungelo wokuyifaka.
 sc-submit-filtered = Imitjho efakiweko ayikaphasi ngebanga lokungahlangabezani neemfuneko (sibawa ufake imitjho emitjha elungisiweko)
+sc-submit-guidelines =
+    Sivaba uqale i 
+    <howToLink>guidelines</howToLink>.
 
 ## ADD LANGUAGE
 
