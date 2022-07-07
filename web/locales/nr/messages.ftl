@@ -29,6 +29,7 @@ ckb = IsiCentral Kurdish
 cnh = IsiHakha Chin
 dsb = IsiSorbian, Lower
 es = IsiSpanish
+fa = IsiPersia
 hsb = IsiSorbian, Upper
 hyw = Isi-Armenian sangeTlhagwini
 kmr = IsiKurmanji Kurdish
@@ -43,7 +44,11 @@ nn-NO = IsiNorwegian Nynorsk
 nr = IsiNdebele (Sewula)
 nso = IsiSotho seTlhagwini
 nyn = IsiRunyankole
+pa-IN = IsiPunjabi
 pap-AW = IsiPapiamento (Aruba)
+pl = IsiPolish
+ps = IsiPashto
+pt = IsiPortuguese
 quy = IsiQuechua Chanka
 rm-sursilv = IsiRomansh Sursilvan
 rm-vallader = IsiRomansh Vallader
@@ -94,6 +99,7 @@ zu = IsiZulu
 
 speak = Khuluma
 speak-now = Khuluma nje
+profile = Iphrofayili
 terms = Imigomo
 content-license-text =
     Okumumethweko kuyafumaneka ngaphasi 
@@ -115,6 +121,7 @@ default-tagline =
     IMozilla Common Voice izimisele ukusiza
     ekufundiseni imitjhini bona abantu bamambala bakhuluma njani.
 home-cta = Khuluma, nikela endaweni le!
+wall-of-text-more-desktop = { "" }
 show-wall-of-text = Funda okwengeziweko
 help-us-title = Imitjho
 help-us-explain =
@@ -200,12 +207,16 @@ shortcut-skip = Iindlela eziquntelako
 # Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-play-toggle = y
+shortcut-play-toggle-label = Dlala/Jama
 # Must be one letter that appears in the { vote-yes } string.
 # Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
 shortcut-vote-yes = { "" }
 
 ## Speak Shortcuts
 
+# Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-record-toggle = r
 shortcut-record-toggle-label = Rekhoda/Jama
 shortcut-rerecord-toggle-label = Rekhoda kabutjha
 shortcut-discard-ongoing-recording-label = Susa okurekhodwako
@@ -391,6 +402,7 @@ about-stay-in-touch-text-1 = <emailFragment>Zitlolise ku</emailFragment> bona uf
 about-stay-in-touch-text-2 = Ungahlangana nabanye abasemphakathini weMozilla ngokuthi ungene<discourseLink>Ebulungelweni</discourseLink> bona nikhulumisane ngeenhloko ezithileko namkha <matrixLink>Ubuhlanga</matrixLink> bona ufumane isiyeleliso ngokurhabako.
 about-nav-why-common-voice = Kubayini ?
 about-nav-how-it-works = Njani
+about-nav-partners = Abalingani
 about-nav-get-involved = Zibandakanye
 about-nav-how-it-works-2 = Isebenza njani iCommon Voice?
 about-nav-playbook = Funda ukuthi ungasiza njani
@@ -627,6 +639,7 @@ language-section-in-progress = Iyaraga
 language-section-in-progress-new-description = Umphakathi usawathuthukisa amalimi la. <localizationGlossaryLink>Izinzolwazi yelocalization</localizationGlossaryLink> begodu <sentenceCollectionGlossaryLink>kutlhogeka imitjho</sentenceCollectionGlossaryLink> bona afakwe ngokusemthethweni.
 languages-show-more = Veza okunengi
 languages-show-less = Veza okuncani
+language-meter-in-progress = Ituthuko
 language-total-progress = Pheleleko
 language-search-input =
     .placeholder = Funa
@@ -784,6 +797,7 @@ create-custom-goal = Zibekele umngomo
 goal-type = Ngimuphi umgomo ofuna ukuzibekela wona?
 both-speak-and-listen-long = Kokubili (Ukukhuluma nokuLalela)
 weekly-goal = Umgomo Weveke
+pro-difficulty = IsiPro
 lose-goal-progress-warning =
     Nawutjhentjha umgomo ungalahlekelwa 
     yituthukwakho.
@@ -836,6 +850,7 @@ profile-form-delete = Susa Iphrofayili
 
 download-q = Utlhoga ukudawuniloda imininingwana yakho?
 download-info = Sitjela ukuthi khuyini ofuna ukuyidawuniloda:
+download-profile-title = Iphrofayili
 download-profile-info =
     Faka i-email, igama nemininingwanakho 
     khona nje
@@ -985,9 +1000,11 @@ sc-header-review = Buyekeza
 sc-header-rejected = Susa imitjho
 sc-header-my = Imitjho yami
 sc-header-statistics = Iimbalobalo
+sc-header-profile = Iphrofayili
 sc-footer-report-bugs = Bika okungakalungi
 sc-footer-translate = Tjhugulula ikhaseli
 sc-footer-report-copyright = Bika iindaba zamalungelo wokugadangisa
+sc-footer-privacy = Ifihlo
 sc-footer-terms = Imibandela
 sc-login-signup-button = Thungela / Zitlolise
 
@@ -1168,6 +1185,7 @@ sc-confirm-uploading = Imitjho iyafakwa. Lokhu kungathatha imizuzu embalwa kuye 
 ## LANGUAGE INFO
 
 sc-lang-info-title-total = Pheleleko
+sc-lang-info-title-personal = Komuntu mathupha
 # Variables:
 #   $totalSentences (Number) - Number of sentences uploaded in total for this language
 sc-lang-info-total =
@@ -1210,6 +1228,9 @@ sc-login-err-try-again = Sibawa ulinge godu.
 
 ## PROFILE
 
+# Variables:
+#   $username (String) - eMail address of the logged in user
+sc-profile-title = Iphrofayili: { $username }
 sc-personal-err-lang-not-found = Ngekhe ukghone ukukhupha ilimi: ilimi alifumaneki
 sc-personal-err-remove = Angikghoni ukususa ilimi
 sc-personal-your-languages = Amalimi wakho:
