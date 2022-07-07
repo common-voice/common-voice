@@ -1,6 +1,7 @@
 ## General
 
 yes-receive-emails = Iye, ngithumelani ama-email. Ngingakuthabela ukufumana imininingwana ngephrojekthi yeCommon Voice.
+return-to-cv = Buyela kuCommon Voice
 email-opt-in-info = Ngingakuthabela ukufumana ama-email akhuluma ngeenkhumbuzo zemigomo, ituthukwami neendaba ezimalungana ne-Common Voice.
 email-opt-in-info-title = Ngenela ihlelo leCommon Voice
 email-opt-in-info-sub-with-challenge =
@@ -13,6 +14,7 @@ banner-error-slow-1 =
 banner-error-slow-2 =
     Sinomjeje omude khulu begodu sisafunisisa
     ukuthi kubayini.
+error-something-went-wrong = Usilibalele kunento engakhambi kuhle
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -42,6 +44,7 @@ home-title =
 default-tagline =
     IMozilla Common Voice izimisele ukusiza
     ekufundiseni imitjhini bona abantu bamambala bakhuluma njani.
+home-cta = Khuluma, nikela endaweni le!
 help-us-explain =
     Gandelela, dlala lalela bese uyasitjela: bawutjho kuhle na
     umutjho ongenzasi?
@@ -114,6 +117,7 @@ profile-explanation = Sebenzisa iphrofayili yakho bona uhlole ituthukwako begodu
 thanks-for-account =
     Siyathokoza ngokuqinisekisa i-akhawundi yakho, njeke asenze 
     iphrofayili yakho.
+why-demographic = Kubayini lokhu kuqakathekile?
 accept-privacy =
     Anginamraro wokobana nibe nemininingwana le
     njengombana kuhlathululiwe<privacyLink> emibandeleni yeMozilla</privacyLink>
@@ -126,6 +130,7 @@ help-variants = Utlhoga isizo ngemihlobohlobo?
 
 ## Profile - Email
 
+browse-file-title = Faka isithombe
 browse-file =
     Dosa ubeke namkha 
     <browseWrap>Ufune</browseWrap>
@@ -141,6 +146,8 @@ change-email-setings =
 
 ## FAQ
 
+faq-what-cv-q = Yini iCommon Voice?
+faq-why-important-q = Kubayini lokhu kuqakathekile?
 faq-how-get-q = Ngingalifumana njani ihlelo leCommon Voice?
 faq-when-release2-q =
     Nizolitjhaphulula nini ihlelo leCommmon Voice 
@@ -173,6 +180,7 @@ faq-how-privacy-q =
     Uqinisekisa njani ukuthi
     abantu abanikela ngamaphimbo wabo abaziwa?
 faq-what-determine-identity-q = Kutjho ukuthini ukuthi "angikghoni ukwazi bona ngubani okhulumako" ebulungelweni leCommon Voice
+faq-what-is-cv = faq-what-cv-qYini iCommon Voice?
 faq-description = Iphimbo elijayelekileko liyingcenye yegadango elithethwe yi-Mozilla bona ifundise imitjhini ukuthi abantu bamambala bakhuluma njani.
 
 ## ABOUT US
@@ -277,6 +285,7 @@ about-playbook-how-access-dataset-content-2 = Nange funa amathulusi wokwakha ama
 
 about-playbook-how-project-governance = Iinqunto zephrojekthi zenziwa njani?
 about-playbook-how-project-governance-content-2 = Umthethosisekelo wethu uyafumaneka ku:
+about-playbook-how-project-governance-content-3 = Ifihlo, ivikeleko nokuba sepepeneneni.
 about-playbook-how-project-governance-content-4 = Ukuzibandakanya komphakathi nokuthatha iinqunto.
 about-playbook-how-project-governance-content-7 = <governanceLink>Funda okwengeziweko ngendlela esibuswa ngayo</governanceLink>
 
@@ -296,6 +305,7 @@ sst-explanation = Ikulumo etlolwa phasi (STT) itjhugululwa iba liphimbo
 ## Error pages
 
 error-title-404 = Asilifumani ikhasi olifunako
+error-title-503 = Siqalene nebesingakakulindeli
 
 ## Data
 
@@ -338,6 +348,7 @@ ready-to-validate = Ukulungele ukusiza ngokuphasisa imitjho?
 
 ## Download Modal
 
+download-title = Okudawunilowudileko kuyathoma.
 download-helpus =
     Sisiza sakhe umphakathi ngetheknoloji yamaphimbo
     hlala ufumana zamva nje nge-email.
@@ -403,6 +414,9 @@ record-must-allow-microphone = Kufuze uvumele umbhobho usebenze.
 record-error-too-short = Okurekhodiweko kufitjhani khulu.
 record-error-too-long = Okurekhodiweko kude khulu.
 record-error-too-quiet = Okurekhodiweko kuthule khulu.
+record-instruction =
+    { $actionType }<recordIcon></recordIcon> 
+    fundela umutjho phezulu
 record-again-instruction =
     Kuhle!<recordIcon></recordIcon> Rekhoda 
     okulandelako
@@ -458,6 +472,7 @@ report-difficult-pronounce-detail =
     Kunamezwi namkha amagama okubudisi 
     ukuwafunda namkha ukuwaphimisela.
 report-offensive-speech-detail = Okurekhodiweko kunamezwi adelelako namkha alumelako.
+report-success = Umbiko uphasile
 
 ## Goals
 
@@ -528,6 +543,7 @@ download-recently-requested =
     woke malanga { $days }
 download-requests-info = Nawubawa okurekhodileko, sikuhlanganisa ndawonye sikufake efayilini yinye namkha emafayilini amanengi we-ZIP. Nakhu okubawe esikhathini esidlulileko:
 download-request-description = { $clipCount } amaphimbo, inani lokubulungiweko { $size }. Phelelwe sikhathi { $expires }.
+download-request-archive-single = Ifayela ye-ZIP emumethe
 download-request-archive-multiple = Zihlukaniswe zaba yi { $archiveCount } kumafayela we-ZIP
 download-request-assembling-description =
     Amafayela wakho sele ahlanganisiwe. Sibawa uhlole 
@@ -545,6 +561,7 @@ read-more-about = Funda okwengeziweko ekhasini leMininingwana yekhasi
 
 ## DemoLayout
 
+demo-welcome = Siyakwamukela kuCommon Voice
 demo-welcome-subheader =
     Ufuna ukufunda okwengeziweko begodu unikele 
     ephrojekthini le?
@@ -561,6 +578,7 @@ demo-account-card-header =
     nanyana kusiza ukuba nayo
 demo-account-enter-email =
     .label = Faka i-email bona uthumele i-link yokuzitlolisa
+demo-account-sign-up = Thumela ilinki yokuzitlolisa
 
 ## Demo Contribute
 
@@ -594,6 +612,7 @@ contribution-misreadings-example-5-title = Sisayokusela ikofi.
 contribution-misreadings-example-6-title = Sisayokusela ikofi.
 contribution-misreadings-example-7-title = Sisayokusela ikofi.
 contribution-misreadings-example-7-explanation = [Awa kuno ‘a’ emtlolweni wokuthoma]
+contribution-misreadings-example-8-title = Ikhamba ngebelo le.
 contribution-varying-pronunciations-example-1-title = Umbethe ibherede ehlokwakhe.
 contribution-varying-pronunciations-example-1-explanation = [‘Berete’ ngu Iye kungakhathaliseki bona ugandelelwa kokothoma e- (UK) namkha kwesibili e- (US)]
 contribution-varying-pronunciations-example-2-explanation = [‘Ukukhuliswa’ ngesiNgisi kuphinyiselwa ngesilabhulu yinye ingasi ezimbili]
@@ -697,6 +716,7 @@ sc-stats-summary =
 
 ## ADD
 
+sc-submit-err-select-lang = Sibawa ukhethe ilimi.
 sc-submit-err-confirm-pd = Sibawa uqinisekise bona imitjho le ingaya emphakathini.
 sc-submit-prompt =
     .message =
