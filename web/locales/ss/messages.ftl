@@ -474,6 +474,7 @@ localization = Localization
 localization-explanation = { "" }
 sentence-collection = Kukolekwa kwemisho
 sst = Inkhulumo iyiswa emagameni (STT)
+sst-explanation = Bucwephesha be Speech-to-text (STT) bushintja livi kube ngumbhalo.
 de-identified = Kususwe imininingwane yemniyo
 
 ## Error pages
@@ -575,6 +576,8 @@ request-language-form-info-explanation-list-1 = Emagama elulwimi lwakho
 request-language-form-info-explanation-list-2 = </addLink>Ema Code aka ISO </addLink> uma khona lowatiko
 request-language-google-recaptcha-required = reCAPTCHA uyadzingeka uma ufuna kuchubeka
 request-language-google-recaptcha-error = Kukhona lokuhambe kabi nge reCAPTCHA. Sicela uphindze wetame futsi.
+# Success page
+request-language-success-heading = Siyabonga! Utfumele sicelo lesisha selulwimi
 
 ## Languages Overview
 
