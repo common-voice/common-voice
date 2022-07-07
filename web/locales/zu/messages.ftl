@@ -2,12 +2,14 @@
 
 yes-receive-emails = Yebo, ngithumele ama-imeyili. Ngingathanda ukuhlala nginolwazi nge-Common Voice Project.
 privacy-info = Sithembisa ukuphatha imininingwane yakho ngokucophelela. Funda kabanzi kwi<privacyLink>Isaziso Sobumfihlo</privacyLink>.
+return-to-cv = Buyela kwiCommon Voice
 email-opt-in-info = Ngingathanda ukuthola ama-imeyili afana nezikhumbuzi zemigomo, izibuyekezo zami zokuqhubeka nezincwadi zezindaba ezimayelana ne-Common Voice.
 email-opt-in-info-title = Joyina uhlu lwamakheli e-Common Voice
 email-opt-in-info-sub-with-challenge = Thola ama-imeyili afana nezikhumbuzi zenselele nezinjongo, izibuyekezo zenqubekelaphambili, nezincwadi zezindaba ezimayelana ne-Common Voice.
 indicates-required = Izinkambu ezimakwe ngenkanyezi (*) ziyadingeka.
 banner-error-slow-1 = Uxolo, iCommon Voice isebenza kancane. Siyabonga ngentshisekelo yakho.
 banner-error-slow-2 = Sithola ithrafikhi eningi futhi okwamanje siphenya izinkinga.
+error-something-went-wrong = Uxolo, kukhona okungahmabnga kahle
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -29,6 +31,7 @@ share-text = Siza ukufundisa imishini ukuthi abantu bangempela bakhuluma kanjani
 
 home-title = I-Common Voice iwuhlelo lwe-Mozilla lokusiza ukufundisa imishini ukuthi abantu bangempela bakhuluma kanjani.
 default-tagline = I-Mozilla Common Voice iyisinyathelo sokusiza ukufundisa imishini ukuthi abantu bangempela bakhuluma kanjani.
+home-cta = Khuluma, unikele lapha!
 help-us-explain = Cindezela okuthi dlala, lalela futhi usitshele: ingabe bawukhulume kahle lo musho ongezansi?
 no-clips-to-validate = Kubonakala sengathi azikho iziqeshana ongazilalela ngalolu limi. Sisize sigcwalise ulayini ngokurekhoda okunye manje.
 toggle-play-tooltip = Cindezela{ shortcut-play-toggle } ukuze uguqule imodi yokudlala
@@ -226,6 +229,7 @@ sst-explanation = Ubuchwepheshe beSpeech-to-text (STT) buguqula idatha yezwi ibe
 ## Error pages
 
 error-title-404 = Asikwazanga ukukutholela lelo khasi
+error-title-503 = Sibhekene nesikhathi sokungasebenzi esingalindelekile
 
 ## Data
 
@@ -418,6 +422,7 @@ download-recordings-unavailable = Awukwazi ukucela ukurekhodwa kwakho ngenkathi 
 download-recently-requested = Ungacela ukukhishwa okusha kokurekhodiwe njalo ezinsukwini ezingu-{ $days }.
 download-requests-info = Uma ucela okuqoshiwe kwakho, sikuhlanganisa kube ifayela le-ZIP elilodwa noma amaningi. Nazi izicelo zakho ezedlule:
 download-request-description = { $clipCount } iziqeshana zezwi, isamba sikasayizi wengobo yomlando { $size }. Iphelelwa yisikhathi { $expires }.
+download-request-archive-single = Ifayela le-ZIP elilodwa eliqukethe
 download-request-archive-multiple = Hlukanisa kube { $archiveCount } amafayela e-ZIP aqukethe
 download-request-assembling-description = Amafayela akho ayahlanganiswa. Sicela uhlole futhi ngokuhamba kwesikhathi.
 download-request-modal-description = Nazi izixhumanisi zokuloda amafayela akho e-ZIP.
@@ -431,6 +436,7 @@ read-more-about = Funda okwengeziwe ekhasini lethu le Mayelana
 
 ## DemoLayout
 
+demo-welcome = Siyakwamukela ku-Common Voice
 demo-welcome-subheader = Unentshisekelo yokufunda okwengeziwe nokuba negalelo kuphrojekthi?
 
 ## Demo Datasets
@@ -443,6 +449,7 @@ demo-eofy-sub_header = Idathasethi Yezwi, Ilungele Ukulodwa
 demo-account-card-header = Ukuba ne-akhawunti akudingekile ukuthi unikele, nakuba kuwusizo.
 demo-account-enter-email =
     .label = Faka i-imeyili ukuze uthumele isixhumanisi sokubhalisa
+demo-account-sign-up = Thumela isixhumanisi sokubhalisa
 
 ## Demo Contribute
 
@@ -469,6 +476,7 @@ contribution-misreadings-example-4-explanation = [Okurekhodiwe kuningi kunaloku 
 contribution-misreadings-example-5-title = Sizophuma siyothenga ikhofi.
 contribution-misreadings-example-6-title = Siyaphuma ukuyothenga ikhofi.
 contribution-misreadings-example-7-title = Sizophuma siyothola ikhofi.
+contribution-misreadings-example-8-title = Inyosi yadlula ngesivinini.
 contribution-varying-pronunciations-example-1-title = Ekhanda ugqoke ibharethi.
 contribution-varying-pronunciations-example-1-explanation = [I-‘Beret’ ILUNGILE noma ngabe isigcizelelo sikuhlamvu wokuqala (UK) noma wesibili (US)]
 contribution-varying-pronunciations-example-2-explanation = [Igama elesiNgisi u'Raised' liphinyiswa ngohlamvu olulodwa, hhayi ezimbili]
