@@ -96,6 +96,7 @@ join-newsletter = Nawuthandako ungangenela ihlelo lethu lokufumana zamva nje nge
 
 ## What's public
 
+whats-public = Khuyini esemphakathini?
 email-not-public = Angekhe sabelane nge-email yakho.
 recordings-and-locale-public =
     { $count ->
@@ -257,6 +258,7 @@ about-dataset-new = I-Common Voice Dataset
 about-stay-in-touch = Ngingahlala njani nginelwazi?
 about-stay-in-touch-text-1 = <emailFragment>Zitlolise ku</emailFragment> bona ufunde ukuthi ungasifaka njani isandla emajimeni, ezenzakalweni nokuthuthukisa ubujamo be-Common Voice.
 about-stay-in-touch-text-2 = Ungahlangana nabanye abasemphakathini weMozilla ngokuthi ungene<discourseLink>Ebulungelweni</discourseLink> bona nikhulumisane ngeenhloko ezithileko namkha <matrixLink>Ubuhlanga</matrixLink> bona ufumane isiyeleliso ngokurhabako.
+about-nav-why-common-voice = Kubayini ?
 about-nav-how-it-works-2 = Isebenza njani iCommon Voice?
 about-nav-playbook = Funda ukuthi ungasiza njani
 
@@ -592,6 +594,7 @@ get-started-goals = Thoma ngemigomo
 create-custom-goal = Zibekele umngomo
 goal-type = Ngimuphi umgomo ofuna ukuzibekela wona?
 both-speak-and-listen-long = Kokubili (Ukukhuluma nokuLalela)
+weekly-goal = Umgomo Weveke
 lose-goal-progress-warning =
     Nawutjhentjha umgomo ungalahlekelwa 
     yituthukwakho.
@@ -666,6 +669,7 @@ download-request-link-text = Zip #{ $offset } ye { $total }
 
 ## Landing
 
+welcome-staff = Siyanamukela basebenzi be { $company }!
 help-contribute = Ungasiza ngemininingwana ehlukahlukeneko ekuthuthukiseni i-Common Voice begodu unikele nangephimbo lako.
 login-company = Thungela / Tlolisa nge-email ye { $company }
 profile-not-required =
