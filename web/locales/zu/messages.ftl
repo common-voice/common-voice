@@ -379,9 +379,11 @@ visibility-overlay-note = Qaphela: Uma kusethelwe kokuthi 'Kuyabonakala', lesi s
 get-started-goals = Qalisa ngemigomo
 create-custom-goal = Yakha umgomo wangokwezifiso
 goal-type = Hlobo luni lomgomo ofuna ukulakha?
+both-speak-and-listen-long = Kokubili (Khuluma futhi Ulalele)
 lose-goal-progress-warning = Ngokushintsha injongo yakho, ungase ulahlekelwe inqubekelaphambili okukhona.
 want-to-continue = Ufuna ukuqhubeka?
 lose-changes-warning = Ukuhamba manje kusho ukuthi uzolahlekelwa izinguquko zakho
+build-custom-goal = Yakha umgomo wangokwezifiso
 help-reach-hours-pluralized =
     { NUMBER($hours) ->
         [one] Siza kufinyelele kwi { $hours } hora { $language } nenjongo womuntu siqu
@@ -565,6 +567,7 @@ sc-submit-err-select-lang = Sicela ukhethe ulimi.
 sc-submit-err-confirm-pd = Sicela uqinisekise ukuthi le misho ayisizinda somphakathi.
 sc-submit-prompt =
     .message = Imisho ayithunyelwanga, uqinisekile ukuthi ufuna ukuhamba?
+sc-submit-add-sentences = Engeza <wikipediaLink>isizinda somphakathi</wikipediaLink> imisho
 sc-submit-ph-one-per-line =
     .placeholder = Umusho owodwa emgqeni ngamunye
 sc-submit-from-where = Ivelaphi le misho ye-<wikipediaLink>isizinda somphakathi</wikipediaLink>?
@@ -576,6 +579,7 @@ sc-submit-guidelines = Sicela uhlole <howToLink>imihlahlandlela</howToLink>.
 
 ## ADD LANGUAGE
 
+sc-add-lang-could-not-add = Ayikwazanga ukwengeza ulimi
 sc-add-lang-sec-label = Engeza ulimi ofuna ukufaka isandla kulo
 sc-add-err-unexpected = Impendulo engalindelekile ibuyisiwe iqhamuka kwi-server
 # Variables:
