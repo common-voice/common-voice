@@ -83,7 +83,10 @@ profile-form-custom-accent-placeholder-2 = Qala ukuthayipha ukuze uchaze indlela
 profile-explanation = Landelela inqubekela-phambili yakho ngephrofayela futhi usize idatha yethu yezwi inembe kakhulu.
 thanks-for-account = Siyabonga ngokuqinisekisa i-akhawunti yakho, manje asakhe iphrofayela yakho.
 accept-privacy = Ngilungile uma uphatha lolu lwazi njengoba uchaza kokuthi <privacyLink>Inqubomgomo Yobumfihlo</privacyLink> ye-Mozilla
+login-signup = Ngena / Bhalisa
 skip-submission-note = Qaphela: Usazodinga ukukhetha phakathi kokuthi Khuluma noma Lalela ukuze ushintshe uhlobo lomnikelo.
+help-accent = Udinga usizo oluthile ngokuphimisa?
+help-variants = Udinga usizo oluthile ngokuhlukile?
 
 ## Profile - Email
 
@@ -146,6 +149,7 @@ about-dataset-new-text = Idathasethi yeCommon Voice iqukethe amakhulu ezinkulung
 about-stay-in-touch = Ngihlala kanjani ngithintana?
 about-stay-in-touch-text-1 = <emailFragment>Bhalisa</emailFragment> ohlwini lwethu lwama-imeyili ukuze ufunde ukuthi ungaba nengxenye kanjani emikhankasweni, imicimbi kanye nezici zokuklama ngokuhlanganyela ku-Common Voice.
 about-stay-in-touch-text-2 = Ungakwazi ukuhlangana nabanye emiphakathini yolimi lwe-Mozilla ngokujoyina <discourseLink>Discourse</discourseLink> yezingxoxo zezihloko, noma <matrixLink>Matrix</matrixLink> ukuze uthole iseluleko esisheshayo.
+about-nav-playbook = Funda ukuthi libanjwa kanjani iqhaza
 
 ## Community Playbook Content
 ## What is a language
@@ -291,6 +295,7 @@ record-must-allow-microphone = Kufanele uvumele ukufinyelela kwemakrofoni.
 record-error-too-short = Ukuqopha bekukufushane kakhulu.
 record-error-too-long = Ukuqopha bekukude kakhulu.
 record-error-too-quiet = Ukuqopha bekuthule kakhulu.
+record-again-instruction2 = Qhubeka, uqophe futhi <recordIcon></recordIcon>
 review-tooltip = Buyekeza futhi uqophe kabusha iziqeshana lapha njengoba uhamba
 review-instruction = Buyekeza futhi uqophe kabusha iziqeshana uma kudingeka
 record-abort-text = Ukuhamba manje kusho ukuthi uzolahlekelwa ukuqhubeka kwakho
