@@ -70,6 +70,8 @@ status-hours =
 
 ## ProfileForm
 
+profile-form-variant =
+    .label = Uhlobo luni lwe-{ $language } olukhulumayo?
 profile-explanation = Landelela inqubekela-phambili yakho ngephrofayela futhi usize idatha yethu yezwi inembe kakhulu.
 thanks-for-account = Siyabonga ngokuqinisekisa i-akhawunti yakho, manje asakhe iphrofayela yakho.
 accept-privacy = Ngilungile uma uphatha lolu lwazi njengoba uchaza kokuthi <privacyLink>Inqubomgomo Yobumfihlo</privacyLink> ye-Mozilla
@@ -146,6 +148,7 @@ about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollec
 
 about-playbook-how-localize-content-1 = Ukuhunyushwa kwesayithi le-Common Voice kwenzeka <strong>e-Pontoon</strong>.
 about-playbook-how-localize-content-4 = Isayithi lizolungela ukwethulwa uma sesifinyelele ekuqedweni okungu-75%.
+about-playbook-how-localize-content-5 = Buka umchazi wethu wevidiyo ukuze usize
 
 ## How to add sentences
 
@@ -202,6 +205,7 @@ review-submit-msg = Siyabonga ngokurekhoda!<lineBreak></lineBreak>Manje buyekeza
 datasets-headline = Sakha umthombo ovulekile, isethi yedatha yezilimi eziningi yamazwi noma ubani angayisebenzisa ukuze aqeqeshe izinhlelo zokusebenza ezikwazi ukukhuluma.
 confirm-size = Ulungele ukuqalisa ukuloda kwe-<b>{ $size }</b>
 confirm-no-identify = <b>Uyavuma</b> ukungazami ukucacisa ukuthi ungubani izikhulumi kudathasethi yeCommon Voice
+whats-inside = Yini engaphakathi kwedathasethi yeCommon Voice?
 want-dataset-update = Ufuna izibuyekezo uma sikhipha inguqulo entsha yedathasethi yeCommon Voice? Bhalisela iphephandaba lethu.
 resource-nemo-info = I-<githubLink>NVIDIA NeMo</githubLink>™ iyi-<docsLink>ikhithi yamathuluzi yomthombo ovulekile</docsLink> yabacwaningi abakha amamodeli e-AI engxoxo esezingeni eliphezulu.
 resource-coqui-info = I-<coquiLink>Coqui</coquiLink> inikezelwe ekuvuleni ubuchwepheshe benkulumo. Amaphrojekthi abo ahlanganisa ukufunda okujulile okusekelwe ku-STT kanye nezinjini ze-TTS.
@@ -273,6 +277,7 @@ speak-loading-error =
 keep-track-profile = Gcina umkhondo wenqubekelaphambili yakho ngephrofayela
 login-to-get-started = Ngena ngemvume noma bhalisa ukuze uqalise
 target-segment-first-card = Udlala iqhaza engxenyeni yethu yokuqala esiqondiswe kuyo
+target-segment-generic-card = Udlala iqhaza engxenyeni eqondiwe
 target-segment-first-banner = Siza wakhe engxenye yokuqala eqondiwe yeCommon Voice kokuthi { $locale }
 
 ## Reporting
@@ -390,6 +395,7 @@ contribution-misreadings-example-3-explanation = [Ukurekhoda kunqamukile ngapham
 contribution-misreadings-example-4-title = Ama-dinosaurs amakhulu e-Triassic. Yebo.
 contribution-misreadings-example-4-explanation = [Okurekhodiwe kuningi kunaloku okudingekayo embhalweni]
 contribution-misreadings-example-5-title = Sizophuma siyothenga ikhofi.
+contribution-misreadings-example-6-title = Siyaphuma ukuyothenga ikhofi.
 contribution-misreadings-example-7-title = Sizophuma siyothola ikhofi.
 contribution-varying-pronunciations-example-1-title = Ekhanda ugqoke ibharethi.
 contribution-varying-pronunciations-example-1-explanation = [I-‘Beret’ ILUNGILE noma ngabe isigcizelelo sikuhlamvu wokuqala (UK) noma wesibili (US)]
@@ -425,6 +431,7 @@ sc-howto-cite-item-1 = Ungafaka iwebhusayithi, isb "Common Voice - https://commo
 sc-howto-cite-item-2 = Ungasebenzisa isitayela sereferensi yezemfundo, isb isitayela sase-Harvard "Mozilla (2021) Common Voice. Itholakala ku https://commonvoice.mozilla.org/ (Kufinyelelwe: 15th September 2021)"
 sc-howto-cite-item-3 = Ngombhalo wesizinda esisesidlangalaleni ongatholakali ku-inthanethi, ungasebenzisa isitayela sereferensi yezemfundo isb isitayela saseHarvard "Jess (2021) Izinkondlo Zami Zelayisensi Yomphakathi"
 sc-howto-review-subtitle = Qiniseka ukuthi umusho uhambiselana nemibandela elandelayo:
+sc-howto-review-criteria-1 = Umusho kumele ubhalwe ngendlela efanele.
 sc-howto-review-criteria-4 = Uma umusho uhambisana nemibandela, chofoza inkinobho ethi "Vumela".
 sc-howto-review-criteria-6 = Uma uphelelwa imisho okufanele uyibuyekeze, sicela usisize siqoqe imisho eminingi!
 sc-howto-findpd-title = Ukuthola imisho ekhona Kusizinda Somphakathi
