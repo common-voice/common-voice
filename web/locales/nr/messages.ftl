@@ -58,6 +58,11 @@ speak-subtitle = Dawuniloda iphimbo lakho
 speak-paragraph = Iinqetjhada zamaphimbo ezirekhodiweko ziyingcenye eqakathekileko yokwakha ihlelo lethu; abanye bangathi, le yingcenye ethabisako.
 listen-subtitle = Sisiza siqinisekise amaphimbo
 voices-online = Amaphimbo afumanekako nje
+todays-progress =
+    { $count ->
+        [one] "Ilanga"
+       *[other] "Amalanga"
+    }
 help-reach-goal = Sisiza sithome { $goal }
 read-terms-q = Uyifundile imibandela yethu?
 ready-to-record = Ukulungele ukunikela ngephimbo lakho?
@@ -93,8 +98,10 @@ join-newsletter = Nawuthandako ungangenela ihlelo lethu lokufumana zamva nje nge
 
 email-not-public = Angekhe sabelane nge-email yakho.
 recordings-and-locale-public =
-    Inani lokurekhodiweko namalimi osize ngawo
-    kuzokubona nginanyana ngubani.
+    { $count ->
+        [one] "Okurekhodiweko"
+       *[other] "Okurekhodiweko"
+    }
 username-optin-public =
     Ungazikhethela bona ufuna igama ozibiza ngalo libonwe babantu 
     namkha awa.
