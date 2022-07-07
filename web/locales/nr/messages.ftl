@@ -46,6 +46,7 @@ rm-sursilv = IsiRomansh Sursilvan
 rm-vallader = IsiRomansh Vallader
 sat = IsiSantali (Ol Chiki)
 st = IsiSotho seSewula
+tk = IsiTurkmen
 tok = IsiToki Pona
 uby = Isi-Ubykh
 udm = Isi-Udmurt
@@ -584,6 +585,7 @@ language-section-in-progress = Iyaraga
 language-section-in-progress-new-description = Umphakathi usawathuthukisa amalimi la. <localizationGlossaryLink>Izinzolwazi yelocalization</localizationGlossaryLink> begodu <sentenceCollectionGlossaryLink>kutlhogeka imitjho</sentenceCollectionGlossaryLink> bona afakwe ngokusemthethweni.
 languages-show-more = Veza okunengi
 languages-show-less = Veza okuncani
+language-total-progress = Pheleleko
 language-validation-progress = Ituthuko eqinisekisiweko
 
 ## Contribution
@@ -1101,6 +1103,7 @@ sc-confirm-uploading = Imitjho iyafakwa. Lokhu kungathatha imizuzu embalwa kuye 
 
 ## LANGUAGE INFO
 
+sc-lang-info-title-total = Pheleleko
 # Variables:
 #   $totalSentences (Number) - Number of sentences uploaded in total for this language
 sc-lang-info-total =

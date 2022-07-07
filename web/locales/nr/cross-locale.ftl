@@ -1,6 +1,7 @@
 ## Languages
 
-get-involved-button = Zibandakanye
+contribute = Nikela
+get-involved-button = IsiTshivenda
 get-involved-title = Nikela ku { $lang }
 get-involved-text = Isi-Urdu
 get-involved-form-title = Zitlolisele { $lang } zamva nje:
