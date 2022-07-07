@@ -1326,6 +1326,12 @@ sc-confirm-sentences-found =
 # Variables:
 #   $countOfInvalidated (Number) - Number of sentences the user rejected in the review form before submission
 sc-confirm-rejected-by-you = { $countOfInvalidated } eyaliwe nguwe
+sc-confirm-already-reviewed =
+    { $countOfReviewed ->
+        [0] Awukho umutjho obuyekeziweko.
+        [one] Umutjho mu-1 sele ubuyekeziwe. Wenze kuhle!
+       *[other] imitjho esele ibuyekeziwe. Wenze umsebenzi omuhle!
+    }
 # Variables:
 #   $readyCount (Number) - Number of sentences ready to be uploaded
 sc-confirm-ready =
