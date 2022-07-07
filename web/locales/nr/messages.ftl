@@ -214,7 +214,9 @@ wall-of-text-more-mobile = Woke umuntu
 wall-of-text-more-desktop = { "" }
 show-wall-of-text = Funda okwengeziweko
 help-us-title = Imitjho
-help-us-explain = Lalela
+help-us-explain =
+    Gandelela, dlala lalela bese uyasitjela: bawutjho kuhle na 
+    umutjho ongenzasi?
 no-clips-to-validate = Kubonakala ngathi akukho okulalelwako ngelimeli. Sibawa usisize sivale isikhalesi ngokuthi urekhode okuthileko njenga nje.
 vote-yes = Iye
 vote-no = Awa
@@ -578,7 +580,7 @@ about-playbook-how-grow-language-content-8 = <strong>Yiba sikghwari!</strong> Il
 ## How to validate
 
 about-playbook-how-validate = Ngingazi njani ukuthi kufuze ngiwuphasise umutjho?
-about-playbook-how-validate-content-1 = Nange ukghona <strong>ukubezwa</strong> begodu <strong>ubazwisisa</strong>, kungaba kuhle <strong>uphasise</strong>
+about-playbook-how-validate-content-1 = Nange ukghona <strong>ukubezwa</strong> begodu <strong>ubazwisisa</strong>, kungaba kuhle <strong>uphasise</strong>.
 about-playbook-how-validate-content-4 = Nange okurekhodiweko kwaliwa babantu aba-2, kukhutjhwa ngomunye umhlobo webulungelo.
 
 ## How to access dataset
@@ -1437,7 +1439,9 @@ sc-criteria-make-sure =
 sc-criteria-item-1 = Imitjho kufuze ipeledwe kuhle.
 sc-criteria-item-2 = Imitjho kufuze ivumelane nemithetho yokutlola nokupeleda.
 sc-criteria-item-3 = Imitjho kufuze ikhulumeke.
-sc-criteria-item-4 = Nange umutjho uhlangabezana nakho koke okutlhogekako gandelela i- &quot; engehlangothini lesokudla &quot;Phasile&quot.
+sc-criteria-item-4 =
+    Nange umutjho uhlangabezana nakho koke okutlhogekako gandelela 
+    i- &quot; engehlangothini lesokudla &quot;Phasile&quot.
 sc-criteria-item-6 =
     Nange ingasekho imitjho ongayibuyekeza sibawa
     usisize sifumane imitjho eyengeziweko!
