@@ -660,6 +660,7 @@ sc-lang-info-left-for-you =
         [one] umusho ongu-1 osele ukuthi uwubuyekeze.
        *[other] { $unreviewedSentencesByYou } imisho esele ukuthi uyibuyekeze.
     }
+sc-lang-info-add-more = <addLink>Engeza eminye imisho manje!</addLink>
 # Variables:
 #   $validatedSentences (Number) - Number of sentences which have been approved for this language
 sc-lang-info-validated =
