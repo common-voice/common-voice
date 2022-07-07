@@ -46,7 +46,10 @@ help-us-explain =
     Gandelela, dlala lalela bese uyasitjela: bawutjho kuhle na
     umutjho ongenzasi?
 no-clips-to-validate = Kubonakala ngathi akukho okulalelwako ngelimeli. Sibawa usisize sivale isikhalesi ngokuthi urekhode okuthileko njenga nje.
+toggle-play-tooltip = Gandelela { shortcut-play-toggle } bona utjhugulule indlela yokudlala
 speak-paragraph = Iinqetjhada zamaphimbo ezirekhodiweko ziyingcenye eqakathekileko yokwakha ihlelo lethu; abanye bangathi, le yingcenye ethabisako.
+read-terms-q = Uyifundile imibandela yethu?
+ready-to-record = Ukulungele ukunikela ngephimbo lakho?
 help-make-dataset = Sisiza senze umsebenzi osezingeni eliphezulu
 sign-up-account = Zitlolise ube ne-akhawundi
 email-subscription-title = zitlolise ufumane zamja nje nge-email
@@ -113,9 +116,12 @@ thanks-for-account =
 accept-privacy =
     Anginamraro wokobana nibe nemininingwana le
     njengombana kuhlathululiwe<privacyLink> emibandeleni yeMozilla</privacyLink>
+login-signup = Thungela / Zitlolise
 skip-submission-note =
     Tjheja: Kusafuze ukhethe hlangana
     NokuKhuluma nokuLalela bona utjhugulule indlela onganikela ngayo.
+help-accent = Utlhoga isizo ngokuphimisela?
+help-variants = Utlhoga isizo ngemihlobohlobo?
 
 ## Profile - Email
 
@@ -158,6 +164,7 @@ faq-how-calc-hours-q = ICommon Voice iwabala njani ama-awara?
 faq-where-src-from-2-q = Ukuphi umthombo wemitlolo?
 faq-why-not-ask-read-q = Kubayini ungakhuthazi abantu bona bafunde iincwadi namkha iinhloko eziku-Wikipedia ngamalimi ahlukahlukeneko?
 faq-why-account-q = Kubayini kufuze ngivule i-akhawundi?
+faq-is-account-public-q = I-akhawundi yami yemininingwana isebenza njani?
 faq-how-privacy-q =
     Uqinisekisa njani ukuthi
     abantu abanikela ngamaphimbo wabo abaziwa?
@@ -166,6 +173,7 @@ faq-description = Iphimbo elijayelekileko liyingcenye yegadango elithethwe yi-Mo
 
 ## ABOUT US
 
+how-does-it-work-title-v2 = Isebenza njani iCommon Voice?
 
 ## How does it work section
 
@@ -191,6 +199,8 @@ about-yes-votes-text = Bona uphumelele ukungena ehlelweni le-Common Voice iphimb
 about-stay-in-touch = Ngingahlala njani nginelwazi?
 about-stay-in-touch-text-1 = <emailFragment>Zitlolise ku</emailFragment> bona ufunde ukuthi ungasifaka njani isandla emajimeni, ezenzakalweni nokuthuthukisa ubujamo be-Common Voice.
 about-stay-in-touch-text-2 = Ungahlangana nabanye abasemphakathini weMozilla ngokuthi ungene<discourseLink>Ebulungelweni</discourseLink> bona nikhulumisane ngeenhloko ezithileko namkha <matrixLink>Ubuhlanga</matrixLink> bona ufumane isiyeleliso ngokurhabako.
+about-nav-how-it-works-2 = Isebenza njani iCommon Voice?
+about-nav-playbook = Funda ukuthi ungasiza njani
 
 ## Community Playbook Content
 ## What is a language
@@ -207,6 +217,7 @@ about-playbook-how-add-language-collecting-sentences-content-1 =
 
 ## How does localization work
 
+about-playbook-how-localize = Ikhasi lamalimi wendabuko lisebena njani?
 about-playbook-how-localize-content-1 =
     Ukutjhugululwa kweCommon Voice kwenzeka 
     ku <strong>Pontoon</strong>.
@@ -217,6 +228,7 @@ about-playbook-how-localize-content-5 = Bukela ividiyo ehlathululako bona ikusiz
 
 ## How to add sentences
 
+about-playbook-how-add-sentences = Ngiyifaka njani imitjho?
 about-playbook-how-add-sentences-content-3 =
     Ungasebenzisa <scraperLink>Ihlelo lokurhunyeza
     imitjho</scraperLink> ukuvimbela imitjho emifitjhani evela ku-Wikipedia
@@ -253,6 +265,7 @@ about-playbook-how-access-dataset-content-2 = Nange funa amathulusi wokwakha ama
 
 ## How are decisions made
 
+about-playbook-how-project-governance = Iinqunto zephrojekthi zenziwa njani?
 about-playbook-how-project-governance-content-2 = Umthethosisekelo wethu uyafumaneka ku:
 about-playbook-how-project-governance-content-7 = <governanceLink>Funda okwengeziweko ngendlela esibuswa ngayo</governanceLink>
 
@@ -299,6 +312,7 @@ confirm-size =
 confirm-no-identify = <b>Uyavuma</b> bona angekhe ulinge ukufumana bona maphimbo wabobani aku-Common Voice
 whats-inside = Khuyini engaphakathi kwehlelo le-Common Voice?
 want-dataset-update = Ufuna sikwazise nasikhupha ihlelo elitjha leCommon Voice? Zitlolise engcenyenethu yeendaba.
+get-started-speech = Thoma ngokuhlola iphimbo
 resource-nemo-info = <githubLink>INVIDIA NeMo</githubLink>™ yi <docsLink>lithulusi lawo woke umuntu</docsLink> lokuthuthukisa zerhubhululo yamahlelo we-AI
 resource-coqui-info = I-<coquiLink>Coqui</coquiLink> izibophezele ukuvula ihlelo letheknoloji lokukhuluma. Amahlelwabo ahlanganisa ifundo engeneleleko STT ne TTS.
 resource-playbook-info = <playbookLink>Fumana isinqophiso esilisizo</playbookLink> kilo loke ikhambo leCommon Voice, kusukela ekulumweni yendabuko, ukusebenzisa ihlelweli nokuthi ungathintana njani nomphakathethu.
@@ -306,6 +320,7 @@ data-other-librispeech-description = I-LibriSpeech mitlolo engathatha pheze ama-
 data-other-ted-description = I-TED-LIUM yenziwe ithathelwa eenkulumweni ezigadangisiweko begodu okutloliweko kuyafumaneka kuzinzolwazi yeTED.
 data-other-voxforge-description = IVoForge yahlonywa bona kubuthelelwe ikulumo etlolwe phasi bona isetjenziswe Ngokutjhaphulukileko.
 your-feedback = Kghani unemibono yokuthi singayithuthukisa njani i-Common Voice siyenze ibengcono? Ungasazisa ngokusitlolela namkha ngenye indlela
+ready-to-validate = Ukulungele ukusiza ngokuphasisa imitjho?
 
 ## Download Modal
 
@@ -368,6 +383,12 @@ record-must-allow-microphone = Kufuze uvumele umbhobho usebenze.
 record-error-too-short = Okurekhodiweko kufitjhani khulu.
 record-error-too-long = Okurekhodiweko kude khulu.
 record-error-too-quiet = Okurekhodiweko kuthule khulu.
+record-again-instruction =
+    Kuhle!<recordIcon></recordIcon> Rekhoda 
+    okulandelako
+record-again-instruction2 =
+    Wenze kuhle, rekhoda godu 
+    <recordIcon></recordIcon>
 review-tooltip = Buyekeza bewurekhode kabutjha khona la
 review-instruction = Buyekeza bewurekhode nange kutlhogeka
 record-abort-text = Nawuphuma nje uzokulahlekelwa ngosele ukwenzile
@@ -468,6 +489,7 @@ return-to-edit-goal = Buyela la bona ulungise imigomakho nanyana kunini.
 
 ## Profile Download
 
+download-q = Utlhoga ukudawuniloda imininingwana yakho?
 download-info = Sitjela ukuthi khuyini ofuna ukuyidawuniloda:
 download-profile-info =
     Faka i-email, igama nemininingwanakho 
