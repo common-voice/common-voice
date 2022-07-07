@@ -12,9 +12,7 @@ email-opt-in-info-sub-with-challenge =
     ituthuko yamva nje neendaba zeCommon Voice.
 indicates-required = Isitsonga
 not-available-abbreviation = N/A
-banner-error-slow-1 =
-    Usilibalele iCommon Voice ikhamba kabuthaka. Siyathokoza 
-    ngokuba nekareko.
+banner-error-slow-1 = IsiKabyle
 banner-error-slow-2 =
     Sinomjeje omude khulu begodu sisafunisisa
     ukuthi kubayini.
@@ -27,8 +25,10 @@ error-something-went-wrong = Usilibalele kunento engakhambi kuhle
 
 ## Languages
 
+af = IsiKarakalpak
 arn = IsiMapudungun
 bg = IsiLuganda
+cak = IsiKaqchikel
 ckb = IsiCentral Kurdish
 cnh = IsiHakha Chin
 dsb = IsiSorbian, Lower
@@ -36,9 +36,14 @@ es = IsiSpanish
 fa = IsiPersia
 hsb = IsiSorbian, Upper
 hyw = Isi-Armenian sangeTlhagwini
+kk = IsiKazakh
+km = IsiKhmer
 kmr = IsiKurmanji Kurdish
 knn = IsiKonkani (Devanagari)
+kpv = IsiKomi-Zyrian
+ky = IsiKyrgyz
 lb = IsiLuxembourgish
+lij = IsiLiguria
 lt = IsiLithuania
 mai = IsiMaithili
 mdf = IsiMoksha
@@ -54,7 +59,7 @@ mrj = IsiHill Mari
 ms = { "" }
 mt = IsiMaltese
 nan-tw = IsiTwi
-nb-NO = IsiNorwegian Bokmål
+nb-NO = IsiKinyarwanda
 nd = IsiNdebele (Tlhagwini)
 ne-NP = IsiNepali
 nia = IsiNias
@@ -122,9 +127,7 @@ speak = Khuluma
 speak-now = Khuluma nje
 profile = Iphrofayili
 terms = Imigomo
-content-license-text =
-    Okumumethweko kuyafumaneka ngaphasi 
-    kwe <licenseLink>Ilayisense Yokuthoma Izinto Ezijayelekileko</licenseLink>
+content-license-text = Ilayisense: <licenseLink>{ $license }</licenseLink>
 share-title = Okhunye
 share-text =
     Siza ngokufundisa imitjhini bona abantu bamambala bakhuluma njani, 
@@ -266,6 +269,8 @@ profile-form-native-language =
     .label = Ilimi owalimunyako
 profile-form-additional-language =
     .label = Ilimi elingezelelweko
+profile-form-language =
+    .label = Ilimi
 profile-form-variant =
     .label = Ngimaphi ama { $language } ahlukahlukeneko owakhulumako?
 profile-form-variant-default-value = Akukho okuhlukahlukeneko okhethiweko
@@ -573,6 +578,7 @@ review-keep-recordings = Bulunga okurekhodiweko
 datasets-headline = Sakha umthombo wawo woke umuntu, amaphimbo wamalimi ahlukahlukeneko angasetjenziswa nginanyana ngubani bona azifundise ikulumo eyamukelekako.
 validated-hr-total = Inani eliqinisekisweko le-Hr
 overall-hr-total = Inani lakho koke Hr
+cv-license = Ilayisense
 audio-format = Ihlelo lomdumo
 number-of-voices = Inani lamaphimbo
 splits = Ukuhlukanisa
@@ -626,6 +632,8 @@ contact-form-message =
 ## Request Language Modal
 
 request-language-title = Ukubawa ilimi
+request-language-form-language =
+    .label = Ilimi
 request-language-success-title =
     Isibawo selimi sithunyelwe ngokuphumelelako, 
     siyathokoza.
@@ -667,6 +675,7 @@ request-language-error = Kungenzeka asikasifumani isibaweso. Sibawa usithumele i
 
 language-section-in-progress = Iyaraga
 language-section-in-progress-new-description = Umphakathi usawathuthukisa amalimi la. <localizationGlossaryLink>Izinzolwazi yelocalization</localizationGlossaryLink> begodu <sentenceCollectionGlossaryLink>kutlhogeka imitjho</sentenceCollectionGlossaryLink> bona afakwe ngokusemthethweni.
+language-section-launched = Yethulwa ngokusemthethweni
 language-section-launched-description = Ilimi lendabuko
 languages-show-more = Veza okunengi
 languages-show-less = Veza okuncani

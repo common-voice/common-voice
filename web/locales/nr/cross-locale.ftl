@@ -1,11 +1,11 @@
 ## Languages
 
-contribute = Vula
-get-involved-button = IsiTshivenda
+contribute = IsiKikuyu
+get-involved-button = IsiLatvia
 get-involved-title = Nikela ku { $lang }
-get-involved-text = Isi-Urdu
+get-involved-text = londa
 get-involved-form-title = Zitlolisele { $lang } zamva nje:
-get-involved-opt-in = Isi-Ukrainia
+get-involved-opt-in = IsiKorea
 get-involved-submit = Thumela
 get-involved-stayintouch = IsiYiddish
 get-involved-privacy-info = Ifihlo
