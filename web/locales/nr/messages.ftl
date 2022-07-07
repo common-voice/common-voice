@@ -186,6 +186,7 @@ faq-how-privacy-q =
     abantu abanikela ngamaphimbo wabo abaziwa?
 faq-what-determine-identity-q = Kutjho ukuthini ukuthi "angikghoni ukwazi bona ngubani okhulumako" ebulungelweni leCommon Voice
 faq-what-is-cv = faq-what-cv-qYini iCommon Voice?
+faq-using-cv = Ukusebenzisa iCommon Voice
 faq-description = Iphimbo elijayelekileko liyingcenye yegadango elithethwe yi-Mozilla bona ifundise imitjhini ukuthi abantu bamambala bakhuluma njani.
 
 ## ABOUT US
@@ -232,6 +233,7 @@ about-playbook-what-is-language = Ngiliphi ilimi elikuCommon Voice?
 ## How do I add a language
 
 about-playbook-how-add-language = Ngingalifaka njani ilimi?
+about-playbook-how-add-language-translating-heading = Indawo yokutjhugulula
 about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Bukela iinqophiso zethu kubona isetjenziswa njani iPontoon.</translateVideoLink>
 about-playbook-how-add-language-collecting-sentences-content-1 =
     <sentenceCollectorVideo>Bukela 
@@ -505,6 +507,7 @@ report-success = Umbiko uphasile
 
 ## Dashboard
 
+toward-next-goal = Umgomo olandelako
 todays-recorded-progress = Ituthuko yanamhlanjesi yokurekhodwe kuCommon Voice
 todays-validated-progress =
     Okuphasisiweko namhlanjesi okurekhodwe 
@@ -625,6 +628,7 @@ demo-dashboard-card-header =
 
 ## Validation criteria
 
+contribution-criteria-link = Zwisisa iindlela zokunikela
 contribution-criteria-page-description = Zwisisa bona khuyini okufuze ukutjheje nawulalele iinqetjhana ezirekhodiweko begodu usize ekwenzeni okurekhodileko kunothe!
 contribution-misreadings-description-extended-list-1 = Kutjhoda u- <strong>'A'</strong> namkha u- <strong>'The'</strong> ekuthomeni kokurekhodiweko.
 contribution-misreadings-description-extended-list-2 =
@@ -677,6 +681,7 @@ contribution-background-voices-example-1-explanation =
 
 ## HEADER/FOOTER
 
+sc-footer-translate = Tjhugulula ikhaseli
 
 ## HOME
 
