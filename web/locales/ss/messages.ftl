@@ -282,6 +282,7 @@ request-language-button = Cela lulwimi
 
 ## ProjectStatus
 
+status-title = Inchubo yemsebenti wonkhe: buka kutsi sesihambe sigamu lesinganani!
 status-contribute = Lekelela Ngelivi Lakho
 # Variables:
 # $goal - number of hours representing the next goal
@@ -387,6 +388,7 @@ how-does-it-work-title-v2 = Common Voice usebenta njani?
 
 about-localization-title = Kusondzetwa kwelikheli langcondvomshina
 about-sentence-collection-title = Kukolekwa kwemisho
+about-sentence-collection-subtitle = Imisho ikolekelwa kutsi bantfu bawafundze baphimisele.
 about-new-lang-title = Kusungulwa kwelulwimi lolusha.
 about-voice-contrib-title = Kulekelela ngelivi
 about-voice-contrib-subtitle = Bantfu bayeta batonikela ngemavi abo.
@@ -457,6 +459,7 @@ about-playbook-how-access-dataset = Ngiyitfola njani, futsi ngiyisebentisa njani
 ## How are decisions made
 
 about-playbook-how-project-governance = Tincumo temsebenti tentiwa njani?
+about-playbook-how-project-governance-content-2 = Kwengamelwa kwetfu kusimeme kumbhoshongo we:
 about-playbook-how-project-governance-content-3 = Kufihleka, tekuphepha nekutsembeka.
 about-playbook-how-project-governance-content-4 = Kutimbandzakanya kwemmango nekwenta tincumo.
 about-playbook-how-project-governance-content-5 = Linani nekunconywa
@@ -569,6 +572,7 @@ request-language-form-info =
     .label = Umniningwane ngalolulwimi
 request-language-form-info-explanation-list-1 = Emagama elulwimi lwakho
 request-language-form-info-explanation-list-2 = </addLink>Ema Code aka ISO </addLink> uma khona lowatiko
+request-language-google-recaptcha-required = reCAPTCHA uyadzingeka uma ufuna kuchubeka
 
 ## Languages Overview
 
@@ -610,6 +614,7 @@ record-three-more-instruction = Kusele lamatsatfu!
 record-again-instruction = Kuhle! <recordIcon></recordIcon> Tfwebula sicephu sakho lesilandzelako
 record-again-instruction2 = Wente kahle. tfwebula futsi<recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon>Kekugcina!
+review-tooltip = Buyeketa uphindze utfwebule kabusha ticephu takho usachubeka
 share-clip = Yaba sicephu sakho lesitfwebuliwe
 share-common-voice = Yaba Common Voice
 review-instruction = Buyeketa uphindze utfwebule kabusha ticephu uma kudzingekile
@@ -900,6 +905,7 @@ sc-stats-updating = Updating…
 sc-submit-err-select-lang = Khetsa lulwimi
 sc-submit-err-add-sentences = Sicela wengete imisho
 sc-submit-err-add-source = Sicela ungete umtfombo
+sc-submit-err-confirm-pd = Sicela ucinisekise kusti lemisho atotfolwa sive
 sc-submit-title = Ngeta imisho
 sc-submit-select-language =
     .labelText = Khetsa Lulwimi
@@ -907,6 +913,8 @@ sc-submit-add-sentences = Ngeta <wikipediaLink>public domain</wikipediaLink> Imi
 sc-submit-ph-one-per-line =
     .placeholder = Umusho munye ngelilayinini
 sc-submit-from-where = Ichamukaphi le <wikipediaLink>umkhambatsi wesive</wikipediaLink>misho?
+sc-submit-ph-read-how-to =
+    .placeholder = Fundza Kanjani wetfu uma ute siciniseko sekwenaba
 sc-submit-button =
     .submitText = Mikisa
 sc-submit-guidelines = Sicela uhlole <howToLink>umkhombandlela</howToLink>.
