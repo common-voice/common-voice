@@ -36,6 +36,7 @@ help-us-explain = Cindezela okuthi dlala, lalela futhi usitshele: ingabe bawukhu
 no-clips-to-validate = Kubonakala sengathi azikho iziqeshana ongazilalela ngalolu limi. Sisize sigcwalise ulayini ngokurekhoda okunye manje.
 toggle-play-tooltip = Cindezela{ shortcut-play-toggle } ukuze uguqule imodi yokudlala
 speak-paragraph = Ukuqopha iziqeshana zezwi kuyingxenye ebalulekile yokwakha idathasethi yethu evulekile; abanye bangathi kumnandi futhi.
+listen-subtitle = Sisize siqinisekise amazwi
 read-terms-q = Uyifundile Imigomo yethu?
 ready-to-record = Ulungele ukunikela ngezwi lakho?
 help-make-dataset = Sisize sakhe idathasethi elezinga eliphezulu, nevulelekile esidlangalaleni
@@ -155,6 +156,7 @@ about-subscribe-text = Ingabe ufuna ukuhlala uxhumene ne-Common Voice?
 about-speak-text = Abanikeli baqopha iziqeshana zezwi ngokufunda ebhange lemisho enikelwe.
 about-listen-queue-text = Iziqeshana zezwi zifakwa emugqeni wokuhambisa ozilungiselela ukulalelwa.
 about-listen-text = Abasebenzisi baqinisekisa ukunemba kweziqeshana ezinikelwe, behlola ukuthi isikhulumi siwufunde kahle umusho.
+about-is-it-valid = Ingabe isiqeshana sivumelekile?
 about-is-it-valid-text = Isiqeshana sezwi simakwa ngokuthi "sivumelekile" uma umsebenzisi esinikeza ivoti likaYebo.
 about-yes-votes-text = Ukwenza kube yidathasethi yeCommon Voice, isiqeshana sezwi kufanele siqinisekiswe ngabasebenzisi ababili abahlukene.
 about-dataset-new-text = Idathasethi yeCommon Voice iqukethe amakhulu ezinkulungwane zamasampuli ezwi asiza onjiniyela bakhe amathuluzi okwazi izwi.
@@ -216,6 +218,7 @@ about-playbook-how-access-dataset-content-2 = Uma ufuna amathuluzi okwakha amamo
 
 about-playbook-how-project-governance = Zenziwa kanjani izinqumo zephrojekthi?
 about-playbook-how-project-governance-content-2 = Ukubusa kwethu kusekelwe phezu kwezinsika:
+about-playbook-how-project-governance-content-3 = Ubumfihlo, ukuphepha kanye nokungafihli lutho.
 about-playbook-how-project-governance-content-4 = Ukubamba iqhaza komphakathi kanye nokwenza izinqumo.
 about-playbook-how-project-governance-content-7 = <governanceLink>Funda kabanzi mayelana nendlela esibuswa ngayo</governanceLink>
 
@@ -240,6 +243,7 @@ data-bundle-description = Idatha yeCommon Voice kanye nawo wonke amanye amadatha
 data-download-singleword-title = Loda Ingxenye Yethagethi Yegama Elilodwa
 data-download-singleword-callout-v2 = Lena ingxenye yokusetshenziswa eqhutshwayo equkethe idatha ukuze inike amandla ukubonwa kwedijithi ekhulunyiwe kanye nokutholwa yebo / cha.
 review-terms = Ngokusebenzisa iCommon Voice, uyavumelana <termsLink>Nemigomo</termsLink> kanye <privacyLink>Nesaziso Sobumfihlo</privacyLink>
+terms-disagree = Angivumi
 review-aborted = Ukulodiwe kunqanyuliwe. Uyafuna ukususa okurekhodiwe kwakho?
 review-submit-msg = Siyabonga ngokurekhoda!<lineBreak></lineBreak>Manje buyekeza futhi uhambise iziqeshana zakho ngezansi.
 
@@ -285,9 +289,12 @@ request-language-explanation-2 =
     Sizokwazisa <strong>nomphathi wethu womphakathi
     ukuthi unentshisekelo</strong>, ngakho bangakunikeza noma ikuphi
     ukwesekwa okwengeziwe noma ulwazi ongase uludinge.
+request-language-form-info =
+    .label = Ulwazi ngolimi
 request-language-form-info-explanation =
     "Faka ulwazi oluningi ngangokunokwenzeka ngolimi. Lokhu
     kungafaka:"
+request-language-form-info-explanation-list-1 = Amagama olimi lwakho
 request-language-form-info-explanation-list-3 = Izixhumanisi zamawebhusayithi ezingasisiza siqonde ulimi
 request-language-google-recaptcha-required = I-reCAPTCHA iyadingeka uma ufuna ukuqhubeka
 request-language-google-recaptcha-error = Kukhona okungahambanga kahle nge-reCAPTCHA. Ngicela uzame futhi.
@@ -420,6 +427,7 @@ download-profile-info = Kufaka phakathi i-imeyili, igama olisebenzisayo nolwazi 
 download-recordings-info = Kuhlanganisa ama-mp3 nemisho ehlobene, kungase kuthathe isikhathi ukulungiselela
 download-recordings-unavailable = Awukwazi ukucela ukurekhodwa kwakho ngenkathi esinye isicelo sisaqhubeka.
 download-recently-requested = Ungacela ukukhishwa okusha kokurekhodiwe njalo ezinsukwini ezingu-{ $days }.
+download-requests = Izicelo zokuloda okuqoshiwe okwedlule
 download-requests-info = Uma ucela okuqoshiwe kwakho, sikuhlanganisa kube ifayela le-ZIP elilodwa noma amaningi. Nazi izicelo zakho ezedlule:
 download-request-description = { $clipCount } iziqeshana zezwi, isamba sikasayizi wengobo yomlando { $size }. Iphelelwa yisikhathi { $expires }.
 download-request-archive-single = Ifayela le-ZIP elilodwa eliqukethe
@@ -479,6 +487,7 @@ contribution-misreadings-example-7-title = Sizophuma siyothola ikhofi.
 contribution-misreadings-example-8-title = Inyosi yadlula ngesivinini.
 contribution-varying-pronunciations-example-1-title = Ekhanda ugqoke ibharethi.
 contribution-varying-pronunciations-example-1-explanation = [I-‘Beret’ ILUNGILE noma ngabe isigcizelelo sikuhlamvu wokuqala (UK) noma wesibili (US)]
+contribution-varying-pronunciations-example-2-title = Isandla sakhe sasiphakanyisiwe.
 contribution-varying-pronunciations-example-2-explanation = [Igama elesiNgisi u'Raised' liphinyiswa ngohlamvu olulodwa, hhayi ezimbili]
 contribution-background-noise-description-extended = Uma ukurekhodwa kunqamuka, noma kunokuqhekeka, yenqaba ngaphandle kokuba wonke umbhalo ungazwakala.
 contribution-background-noise-example-1-fixed-title = <strong>[ukuthimula]</strong> Ama-dinosaurs amakhulu we-<strong>[ukukhwehlela]</strong> we-Triassic.
@@ -532,6 +541,7 @@ sc-my-err-failed-delete = Yehlulekile ukususa imisho ekhethiwe… Sicela uzame f
 ## REJECTED
 
 sc-rejected-err-fetching = Iphutha ngenkathi silanda imisho enqatshiwe. Ngicela uzame futhi.
+sc-rejected-none-found = Ayikho imisho enqatshiwe etholiwe!
 
 ## STATS
 
@@ -543,14 +553,18 @@ sc-stats-summary = Umqoqi Wemisho weCommon Voice uqoqe  { $sentenceCount } imish
 
 ## ADD
 
+sc-submit-err-select-lang = Sicela ukhethe ulimi.
 sc-submit-err-confirm-pd = Sicela uqinisekise ukuthi le misho ayisizinda somphakathi.
 sc-submit-prompt =
     .message = Imisho ayithunyelwanga, uqinisekile ukuthi ufuna ukuhamba?
+sc-submit-ph-one-per-line =
+    .placeholder = Umusho owodwa emgqeni ngamunye
 sc-submit-from-where = Ivelaphi le misho ye-<wikipediaLink>isizinda somphakathi</wikipediaLink>?
 sc-submit-ph-read-how-to =
     .placeholder = Funda iHow-to yethu uma ungaqiniseki ukuthi
 sc-submit-confirm = Ngiyaqinisekisa ukuthi le misho <wikipediaLink>yisizinda somphakathi</wikipediaLink> futhi nginemvume yokuyilayisha.
 sc-submit-filtered = Imisho ehlungiwe ngenxa yokwehluleka kwezidingo (sicela uhambise izinguqulo ezilungisiwe njengemisho emisha):
+sc-submit-guidelines = Sicela uhlole <howToLink>imihlahlandlela</howToLink>.
 
 ## ADD LANGUAGE
 
