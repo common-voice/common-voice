@@ -883,6 +883,7 @@ contribution-for-example = kubekisa
 contribution-misreadings-title = Lokufundvwe kabi
 contribution-misreadings-description-extended-list-1 = Kushoda <strong>'A'</strong> or <strong>'The'</strong> ekucaleni kwale recording.
 contribution-misreadings-description-extended-list-2 = Kushoda <strong>'s'</strong> ekugcineni kweligama.
+contribution-misreadings-description-extended-list-4 = Kushiywa siphetfo seligama ngekujuba le recording ngekushesha.
 contribution-misreadings-description-extended-list-5 = Kutsatsa emahlandla kufundza ligama.
 contribution-misreadings-example-1-title = Ema dinosaur lamakhulu ase Triassic.
 contribution-misreadings-example-2-title = I dinosaur lenkhulu yase Triassic.
@@ -962,6 +963,7 @@ sc-howto-review-subtitle = Ciniseka kutsi imisho ihlangabeta loluhla lolulandzel
 sc-howto-review-criteria-1 = Lomusho kumele ubhaleke kahle.
 sc-howto-review-criteria-2 = Lomusho kumele ube bete emaphutsa.
 sc-howto-review-criteria-3 = Lomusho kumele ukhulumeke.
+sc-howto-review-criteria-6 = Uma uphelelwa imisho longayibuketa, sicela usisite sikweleke leminye!
 sc-howto-findpd-title = Kutfola imisho levele ikhona ku Public Domain
 sc-howto-findpd-subtitle = Phenya ku-internet
 sc-howto-findpd-tips = Nati tinsita tekutfola imisho
@@ -1037,6 +1039,7 @@ sc-add-err-failed =
        *[other] { $sentences } imisho lefeyilile
     }
 sc-add-err-submission = Inkinga yekumikisa
+sc-add-lang-process-notice = Uma lulwimi lwakho lungekho lana, ungalucela ku <languageProcessLink>ngaloluhlelo</languageProcessLink>.
 
 ## ADD SENTENCES CONFIRMATION
 
@@ -1117,6 +1120,7 @@ sc-criteria-item-1 = Lomusho kumele ubhaleke kahle.
 sc-criteria-item-2 = Lomusho kumele ube bete emaphutsa.
 sc-criteria-item-3 = Lomusho kumele ukhulumeke.
 sc-criteria-item-4 = Uma umusho uhambelana neluhla, chafata "Approve" ngesekudla.
+sc-criteria-item-6 = Uma uphelelwa imisho longayibuketa, sicela usisite sikweleke leminye!
 
 ## REVIEW
 
