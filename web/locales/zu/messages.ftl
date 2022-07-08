@@ -582,6 +582,7 @@ contribution-misreadings-description-extended-list-4 = Uphuthelwa isiphetho sega
 contribution-misreadings-description-extended-list-5 = Ukuthatha imizamo embalwa yokufunda igama.
 contribution-misreadings-example-1-title = Ama-dinosaurs amakhulu e-Triassic.
 contribution-misreadings-example-2-title = I-dinosaur enkulu ye-Triassic.
+contribution-misreadings-example-2-explanation = [Kufanele kube ‘amadinosaur’]
 contribution-misreadings-example-3-title = Ama-dinosaurs amakhulu e-Triassi-.
 contribution-misreadings-example-3-explanation = [Ukurekhoda kunqamukile ngaphambi kwegama lokugcina]
 contribution-misreadings-example-4-title = Ama-dinosaurs amakhulu e-Triassic. Yebo.
