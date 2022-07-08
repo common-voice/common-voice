@@ -508,6 +508,7 @@ license-mixed = Lokubhicene
 data-download-singleword-title = Download the Single Word Target Segment
 terms-agree = Ngiyavuma
 terms-disagree = Angivumi
+review-aborted = Kutfumela kumisiwe. Uyafuna kwesula ema-recording akho?
 review-submit-title = Buyeketa & Mikisa
 review-recording = Buyeketa
 review-rerecord = Tfwebula kabusha
