@@ -157,6 +157,7 @@ faq-why-important-a =
 faq-how-get-q = Ngingayithola kanjani idatha yeCommon Voice?
 faq-when-release2-q = Uzoyikhulula nini idatha yeCommon Voice ngezinye izilimi?
 faq-why-mission-q = Kungani i-Common Voice iyingxenye yemishini ye-Mozilla?
+faq-why-mission-a = iMozilla izimisele ngokwenza iwebhu ukuba ivuleleke futhi ifinyelele kuwo wonke umuntu. Ukwenza lokho, sidinginga ukunikeza onjiniyela bamawebhu amandla ngokusebenzisa izinhlelo ezinjengoCommon Voice. Njengoba ubuchwepheshe bamazwi aqoshiwe bungenelela ezinhlelweni ezicokeme zokusebenza, sinethemba lokuba buzosebenzela bonke abakusebenzisayo ngokulingana. Lokho kusho ukuthi, kufanele kuqinisikwe ekutheni kufakwe izilimi ezinye eziningi, ukwamukela izindlela ezibanzi zokukhuluma kanye nezibalo zabantu uma kwakhiwa lobuchwepheshe. ICommon Voice iyinsiza evuleleke kuwo wonke umuntu emhlabeni kanti iqembu leMozilla kanye nonjiniyela bamawebhu emhlabeni sebeyayisebenzisa ezinhlelweni zabo.
 faq-what-cv-and-deepspeech-q = Uyini umehluko phakathi kweCommon Voice kanye neDeep Speech?
 faq-is-goal-assistant-q = Ingabe umgomo we-Common Voice ukwakha umsizi wezwi?
 faq-do-want-native-q = Mina ngingumuntu ongeyena owomdabu futhi ngikhuluma ngendlela ehlukile, usafuna izwi lami?
