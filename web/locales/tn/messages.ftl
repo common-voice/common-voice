@@ -213,6 +213,7 @@ dataset-description-hours =
     
     Ga jaana tshedimosetso e na le diura tse <b>{ $valid }</b> tse di tlhomamisitsweng mo dipuong tse <b>{ $languages }</b>, mme ka metlha re tsenya mantswe le dipuo tse di oketsegileng. Leba <languagesLink>tsebe ya rona ya Dipuo</languagesLink> go kopa puo kgotsa go simolola go aba.
 resource-deepspeech-info = Thulaganyo ya go lemoga mantswe ya Mozilla ya Deep Speech e ka dirisiwa go dira dithulaganyo tsa go lemoga puo. Bala <githubLink>dintlhakakaretso tsa rona tsa Github</githubLink> kgotsa nna karolo ya <discourseLink>DeepSpeech Discourse</discourseLink> go ithuta gore o ka simolola jang.
+resource-playbook-info = <playbookLink>Bona kaelo e e thusang</playbookLink> ka loeto lotlhe lwa Common Voice, go tloga ka go ranolela go fitlha ka tiriso ya tshedimosetso, mmogo le go ikgolaganya le batho ba lefelo la rona.
 data-other-tatoeba-description = Tatoeba ke tshedimosetso e kgolo ya dipolelo, dithanolo, le kgatiso ya mantswe a a buiwang e e dirisiwang go ithuta puo. Karolo eno e e itseelwang e na le Seemane se se buiwang se se gatisitsweng ke morafe wa bone.
 
 ## Download Modal
@@ -231,6 +232,9 @@ request-language-explanation-1 =
     <languagesPageLink>tsebe ya Dipuo Tsa Common Voice</languagesPageLink>.
     Fa e seyo, tlatsa foromo eno mme re tla go <strong>romelela imeile
     e e tlhalosang gore o ka tsenya puo ya gago jang</strong>.
+request-language-explanation-2 =
+    Gape re tla <strong>itsise motsamaisi wa lefelo la rona gore o a kgatlhega
+    </strong>, gore a kgone go go naya tshegetso e e oketsegileng kgotsa tshedimosetso e o ka e tlhokang.
 request-language-success-list-2 =
     Motsamaisi wa morafe wa rona o tla ikgolaganya le wena go go naya
     tshegetso e e oketsegileng, le go go itsise gore a go
