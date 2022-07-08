@@ -57,6 +57,9 @@ demographic-deidentified-clarity-2 = Tshedimosetso e e rometsweng ka go ithaopa 
 
 ## ProfileForm
 
+why-profile-text =
+    Ka go naya tshedimosetso nngwe ka wena, tshedimosetso ya lentswe e o e romelang kwa Common Voice e tla nna mosola thata mo dithulaganyong tsa Speech
+    Recognition tse di dirisang tshedimosetso eno go tokafatsa go nepa ga tsone.
 why-demographic-explanation-2 = Tshedimosetso ya botlhokaina jaaka dingwaga, bong le segalo di tla thusa go tokafatsa go nepa ga didirisiwa tsa go lemoga mantswe. Leinatiriso le imeile ya gago di ka se amanngwe le tshedimosetso ya gago e e rometsweng, mme o ka tlhopha gore a o batla go senola kgotsa go fitlha leinatiriso la gago.
 help-accent-explanation = Segalo sa gago ke tsela e o bitsang mafoko ka yone. Se ka tlhotlhelediwa ke lefelo le o kileng wa tshela mo go lone, dipuo tse dingwe tse o kgonang go di bua, le dilo tse dingwe tse dintsi. O ka abalana tshedimosetso nngwe le nngwe e o akanyang gore e botlhokwa fano.
 
@@ -77,6 +80,7 @@ faq-why-important-a =
     Gantsi puo ke tsela ya tlholego e re buisanang ka yone mme dithekenoloji tsa lentswe di tlisa seo mo dikhomputareng le mo megaleng ya rona ya letheka. Re batla go matlafatsa badiri gore ba dire dithulaganyo tse di kgatlhang tsa go lemoga mantswe jaaka baranodi ba mmatota le bathusi ba thekenoloji ba mantswe. Mme gone jaanong bontsi jwa tshedimosetso ya mantswe e e tlhokegang go dira dithulaganyo tseno e a tura e bile ke tsa poraefete. Re solofela gore tshedimosetso ya Common Voice e tla naya badiri se ba se tlhokang go tlhama le go dira gore thekenoloji ya puo e nne teng ka leleme la bone.
     
     Go dira gore go lemoga mantswe e nne selo se se tlwaelegileng thata, re kgobokanya disampole tsa mantswe mo dipuong tse di buiwang thata mmogo le babui ba palo e potlana ba gantsi ba tseelwang kwa tlase ke ditirelo tsa kgwebo tsa go lemoga mantswe. Go phasalatsa tshedimosetso ya mantswe a a farologaneng go tla matlafatsa badiri, bagwebi, le batho botlhe ka kakaretso gore ba samagane le bothata jono ka bobone.
+faq-how-get-a = Tshedimosetso ya Common Voice e ka itseelwa mo laesenseng ya <licenseLink>CC0</licenseLink> mo <datasetLink>tsebeng ya rona ya Tshedimosetso</datasetLink>. Gape o ka itseela tshedimosetso e nngwe e e leng teng mo go yone tsebe eo.
 faq-when-release2-a = Ga jaana karolo ya dipuo tse dintsi ya tshedimosetso ya Common Voice e kgobokanngwa le go phepafadiwa ke morafe. Fa o batla go re thusa go tlisa Common Voice mo dipuong tse disha, leba <sentenceCollectorLink>Thulusu ya go Kgobokanya Dipolelo</sentenceCollectorLink> go tsenya dipolelo tse disha mo tshedimosetsong, le Mozilla <pontoonLink>Pontoon</pontoonLink> go ranola webosaete ka boyone. Dipuo tse disha di tsenngwa mo Common Voice go aba mantswe fa dipolelo tse di dumeletsweng di le 5000 di kgobokantswe.
 faq-why-mission-a = Mozilla e batla go boloka webosaete e bulegetse mongwe le mongwe e bile e kgona go fitlhelesega. Go dira jalo, re tlhoka go matlafatsa badiri ba webosaete ka diporojeke tse di jaaka Common Voice. Fa dithekenoloji tsa mantswe di ntse di oketsega go feta dithulaganyo tse di tswalegileng, re dumela gore di tshwanetse go direla batho botlhe ka go lekana. Seo se raya go beeletsa mo dipuong tse dintsi le go dirisana le digalo tse di farologaneng le dipalopalo fa ba dira le go tlhatlhoba dithekenoloji tsa mantswe. Common Voice ke sedirisiwa  se mongwe le mongwe le ditlhopha tsa Mozilla le badiri go ralala lefatshe ba setse ba se dirisa le mo diporojekeng tsa rona.
 faq-what-cv-and-deepspeech-a = Tshedimosetso ya Common Voice e tlaleletsa thulaganyo ya Mozilla ya go lemoga mantswe ya Deep Speech. Karolo ya ntlha ya Deep Speech e golotswe ka November 2017 mme e ntse e tswelela e tlhabologa fa e sa le ka nako eo. Mmogo le tshedimosetso ya Common Voice, re dumela gore thekenoloji eno ya go lemoga mantswe e tshwanetse ya fitlhelelwa ke mongwe le mongwe. Re solofela gore dithekenoloji tseno di tla letla badiri go dira dikuno le ditirelo tse di botlhale.
@@ -139,6 +143,7 @@ about-playbook-how-add-sentences-content-2 = Dipolelo di tshwanetse go sekasekwa
 
 ## How to record quality
 
+about-playbook-how-record-content-1 = Bua ka lentswe la gago le le tlwaelegileng! Tsela e o buang ka yone e amogelesegile fano - re batla segalo sa lentswe la gago jaaka se ntse, e bile re batla modumo, setaele le molodi wa gago o o tlwaelegileng.
 
 ## How to grow language
 
