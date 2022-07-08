@@ -105,6 +105,7 @@ about-playbook-how-add-sentences-content-2 =
 
 ## How to grow language
 
+about-playbook-how-grow-language-content-3 = O ka tsamaiša ditiragalo go thuša batho go neela. Go bonolo go feta kamoo o naganago ka gona. O ka e dira inthaneteng ka go diriša lenaneo la bidio inthaneteng, goba motho ka nama ge e ba go bolokegile. <eventTemplate>Lebelela dithempleite tša rena le ditlabakelo tša go tsamaiša ditiragalo</eventTemplate>.
 about-playbook-how-grow-language-content-5 = O ka šomiša lekgotla la poledišano ya inthaneteng go kgona go iša molaetša go batho ka moka. Abelana melaetša e hlalosago gore na ke baka la eng go le bohlokwa, gomme o ikgokaganye le batho ba bangwe bao ba bolelago ka mathata a go swana le ditokelo tša polelo, lentšu la AI, goba tshekamelo go theknolotši. Bona dikeletšo tše dingwe mabapi le<campaignLink> go tsamaiša lesolo  la setšhaba, go akaretša le diteng tšeo o ka di šomišago gape</campaignLink>.
 
 ## How to validate
