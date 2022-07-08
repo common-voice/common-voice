@@ -419,6 +419,7 @@ about-dataset-release-title = Dataset Release
 about-dataset-release-subtitle = I-dataset siyikhipha njalo makuphela tinyanga letintsatfu
 about-subscribe-text = Uyafuna kuhlala uchumene na Common Voice?
 about-speak = Khuluma
+about-speak-text = Labasitako batfwebula ticephu temavi ngekufundza ebhange lemisho lenikelwe.
 about-listen-queue = Lidelezi lekulalela
 about-listen-queue-text = { "" }
 about-listen = Lalela
@@ -527,6 +528,7 @@ dataset-date = Lusuku
 license = License: <licenseLink>{ $license }</licenseLink>
 license-mixed = Lokubhicene
 data-download-singleword-title = Download the Single Word Target Segment
+review-terms = Ngekusebentisa Common Voice, uyavumelana <termsLink>nemigomo yetfu</termsLink> ne<privacyLink>mibandzela</privacyLink>
 terms-agree = Ngiyavuma
 terms-disagree = Angivumi
 review-aborted = Kutfumela kumisiwe. Uyafuna kwesula ema-recording akho?
@@ -603,6 +605,7 @@ request-language-form-email =
     .label = Likheli leliposi lakho lembane
 request-language-form-info =
     .label = Umniningwane ngalolulwimi
+request-language-form-info-explanation = Ngeta imininingwane leminengi ngalolulwimi. Loku kungafaka ekhatsi:
 request-language-form-info-explanation-list-1 = Emagama elulwimi lwakho
 request-language-form-info-explanation-list-2 = </addLink>Ema Code aka ISO </addLink> uma khona lowatiko
 request-language-form-info-explanation-list-3 = Ema-link emakhasi angcondvomshina langasita kutsi sicondzisise lolulwimi.
@@ -694,6 +697,7 @@ report-grammar-or-spelling-detail = Lomusho unemaphutsa ekuhlelweni nasekubhalwe
 report-different-language = Lulwimi lolwehlukile
 report-different-language-detail = Kubhalwe ngelulwimi loluhlukile kunalele ngilikhulumako.
 report-difficult-pronounce = Kulukhuni kuyisho
+report-difficult-pronounce-detail = Icuketse emagama lalukhuni kuwasho.
 report-offensive-speech = Inkhulumo lecansulako
 report-offensive-speech-detail = Lesiceshana sinetinhlamba futsi siyalulata.
 report-other-comment =
@@ -788,6 +792,7 @@ download-profile-size = A few bytes
 download-recordings-title = Lokutfwebuliwe
 download-recordings-info = Imisho lehlobene ingatsatsa lichi kutsi ilunge
 download-recordings-size = Typically megabytes
+download-recently-requested = Ungacelwa kukhishelwa i-recording yakho onkhe{ $days } malanga.
 download-size = Linani
 download-selected = Lokukhetsiwe
 download-start = Download profile data
@@ -828,7 +833,7 @@ demo-account = i-Account
 
 ## Demo Account
 
-demo-account-card-header = { "" }
+demo-account-card-header = Awukaphocelelwa kuba ne account kuze ukhone kulekelela, kepha kulisito.
 demo-account-enter-email =
     .label = Faka liposi lembane kuze utfumele i-link yekubhalisa.
 demo-account-sign-up = Tfumela i-link yekubhalisa
@@ -1031,6 +1036,14 @@ sc-lang-info-total =
         [0] Kute umusho lophelele
         [one] umusho lophelele
        *[other] imisho lephelele
+    }
+# Variables:
+#   $totalInReview (Number) - Number of sentences currently in the review state for this language
+sc-lang-info-in-review =
+    { $totalInReview ->
+        [0] Kute imisho lebuketwako.
+        [one] Munye umusho lobuketwako.
+       *[other] { $totalInReview } Umusho lobuketwako.
     }
 sc-lang-info-review-now = <reviewLink>Buyeketa nyalo!</reviewLink>
 sc-lang-info-add-more = *[other] { $count } Ngeta imisho manje!</addLink>
