@@ -188,6 +188,7 @@ how-does-it-work-title-v2 = Isebenza kanjani i-Common Voice?
 about-language-req-subtitle = Umuntu ucela ukwengezwa ulimi.
 about-localization-title = I-localisation yewebhusayithi
 about-localization-subtitle = Umbhalo wewebhusayithi uhunyushelwa kulolo limi.
+about-sentence-collection-title = Imisho eqoqiwe
 about-sentence-collection-subtitle = Imisho iqoqwa ukuze abantu bayifundele phezulu.
 about-new-lang-title = Ukwethulwa Kolimi Olusha
 about-new-lang-subtitle = Sethula isayithi le-Common Voice ngalolu limi.
@@ -208,6 +209,7 @@ about-no-votes = ≥ 2 Amavoti athi Cha
 about-dataset-new = Idathasethi YeCommon Voice
 about-dataset-new-text = Idathasethi yeCommon Voice iqukethe amakhulu ezinkulungwane zamasampuli ezwi asiza onjiniyela bakhe amathuluzi okwazi izwi.
 about-stay-in-touch = Ngihlala kanjani ngithintana?
+about-stay-in-touch-button = Bhalisa
 about-stay-in-touch-text-1 = <emailFragment>Bhalisa</emailFragment> ohlwini lwethu lwama-imeyili ukuze ufunde ukuthi ungaba nengxenye kanjani emikhankasweni, imicimbi kanye nezici zokuklama ngokuhlanganyela ku-Common Voice.
 about-stay-in-touch-text-2 = Ungakwazi ukuhlangana nabanye emiphakathini yolimi lwe-Mozilla ngokujoyina <discourseLink>Discourse</discourseLink> yezingxoxo zezihloko, noma <matrixLink>Matrix</matrixLink> ukuze uthole iseluleko esisheshayo.
 about-nav-why-common-voice = Kungani ?
@@ -566,6 +568,7 @@ download-request-archive-multiple = Hlukanisa kube { $archiveCount } amafayela e
 download-request-assembling-description = Amafayela akho ayahlanganiswa. Sicela uhlole futhi ngokuhamba kwesikhathi.
 download-request-modal-description = Nazi izixhumanisi zokuloda amafayela akho e-ZIP.
 download-request-link-text = I-Zip #{ $offset } ye-{ $total }
+download-request-metadata-link = Umbhalo womusho
 
 ## Landing
 
@@ -710,6 +713,8 @@ sc-submit-err-add-sentences = Sicela wengeze imisho.
 sc-submit-err-confirm-pd = Sicela uqinisekise ukuthi le misho ayisizinda somphakathi.
 sc-submit-prompt =
     .message = Imisho ayithunyelwanga, uqinisekile ukuthi ufuna ukuhamba?
+sc-submit-select-language =
+    .labelText = Khetha Ulimi
 sc-submit-add-sentences = Engeza <wikipediaLink>isizinda somphakathi</wikipediaLink> imisho
 sc-submit-ph-one-per-line =
     .placeholder = Umusho owodwa emgqeni ngamunye
