@@ -87,6 +87,7 @@ status-hours =
 
 profile-form-variant =
     .label = Uhlobo luni lwe-{ $language } olukhulumayo?
+profile-form-variant-default-value = Akukho okuhlukile okukhethiwe
 profile-form-custom-accent-help-text =
     .label = Ungakuchaza kanjani ukuphimisela kwakho?
 profile-form-custom-accent-placeholder-2 = Qala ukuthayipha ukuze uchaze indlela ophimisa ngayo
@@ -218,6 +219,7 @@ about-playbook-how-record-content-5 = <accuracyLink>Bona okwengeziwe ngemibandel
 ## How to grow language
 
 about-playbook-how-grow-language = Singalukhulisa kanjani ngokuphumelelayo ulimi ku-Common Voice?
+about-playbook-how-grow-language-content-6 = Ubambiswano namanethiwekhi
 about-playbook-how-grow-language-content-8 = <strong>Yakha ubuciko!</strong> Umphakathi wakho wolimi uzohluka, futhi lezi izindlela ezimbalwa zokuqalisa.
 
 ## How to validate
@@ -256,6 +258,7 @@ data-download-button = Loda Idatha yeCommon Voice
 data-download-modal = Usuzoqalisa ukuloda kwe-<size>GB</size>, qhubeka?
 data-subtitle = Sakha isethi yedatha evulekile netholakala esidlangalaleni yamazwi wonke umuntu angayisebenzisela ukuqeqesha izinhlelo zokusebenza ezikwazi ukukhuluma.
 data-get-started = <speechBlogLink>Qalisa Ngokuqaphela Inkulumo</speechBlogLink>
+data-other-title = Amanye amadathasethi ezwi
 data-bundle-description = Idatha yeCommon Voice kanye nawo wonke amanye amadathasethi ezwi ngenhla.
 data-download-singleword-title = Loda Ingxenye Yethagethi Yegama Elilodwa
 data-download-singleword-callout-v2 = Lena ingxenye yokusetshenziswa eqhutshwayo equkethe idatha ukuze inike amandla ukubonwa kwedijithi ekhulunyiwe kanye nokutholwa yebo / cha.
@@ -269,11 +272,14 @@ review-submit-msg = Siyabonga ngokurekhoda!<lineBreak></lineBreak>Manje buyekeza
 
 datasets-headline = Sakha umthombo ovulekile, isethi yedatha yezilimi eziningi yamazwi noma ubani angayisebenzisa ukuze aqeqeshe izinhlelo zokusebenza ezikwazi ukukhuluma.
 validated-hr-total = Isamba samahora esiqinisekiswe u-Hr. Isamba
+overall-hr-total = Isamba samahora sesisonke
+number-of-voices = Inombolo Yamazwi
 confirm-size = Ulungele ukuqalisa ukuloda kwe-<b>{ $size }</b>
 confirm-no-identify = <b>Uyavuma</b> ukungazami ukucacisa ukuthi ungubani izikhulumi kudathasethi yeCommon Voice
 whats-inside = Yini engaphakathi kwedathasethi yeCommon Voice?
 want-dataset-update = Ufuna izibuyekezo uma sikhipha inguqulo entsha yedathasethi yeCommon Voice? Bhalisela iphephandaba lethu.
 get-started-speech = Qalisa Ngokuqaphela Inkulumo
+other-datasets = Amanye Amadathasethi Ezwi
 resource-nemo-info = I-<githubLink>NVIDIA NeMo</githubLink>™ iyi-<docsLink>ikhithi yamathuluzi yomthombo ovulekile</docsLink> yabacwaningi abakha amamodeli e-AI engxoxo esezingeni eliphezulu.
 resource-coqui-info = I-<coquiLink>Coqui</coquiLink> inikezelwe ekuvuleni ubuchwepheshe benkulumo. Amaphrojekthi abo ahlanganisa ukufunda okujulile okusekelwe ku-STT kanye nezinjini ze-TTS.
 resource-playbook-info = <playbookLink>Thola isiqondiso esiwusizo</playbookLink> kulo lonke uhambo lwe-Common Voice, kusukela ekwenzeni okwasendaweni kuya ekusetshenzisweni kwedathasethi, kanye nendlela yokuxhumana nomphakathi wethu.
