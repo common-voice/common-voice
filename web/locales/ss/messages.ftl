@@ -399,6 +399,7 @@ faq-is-goal-assistant-q = Ngabe umgomo wa Common Voice kwakha umsiti wemavi?
 faq-why-different-speakers-q = Utidzingelani tikhulumi letehlukene ngelulwimi ngalunye?
 faq-why-my-lang-q = Leni lulwimi lwami lungangetwa?
 faq-why-10k-hours-q = Leni emahora langu 10,000 lacinisekisiwe ngelulwimi abe ligoli lekutfwebula livi?
+faq-why-10k-hours-a = Leli linani lemahora ladzingekile kuze kuceceshwe umkhiciti we speech-to-text system
 faq-how-calc-hours-q = Common Voice uwabala njani ema hora?
 faq-where-src-from-2-q = Umtfombo wemagama uchamukaphi?
 faq-why-account-q = Kudzingeke ngani kutsi ngibhalisele i-account?
@@ -514,7 +515,7 @@ about-playbook-how-project-governance-content-7 = <governanceLink>Fundza kabanti
 
 glossary = Luhla lwemagama
 localization = Localization
-localization-explanation = { "" }
+localization-explanation = Lena yindlela yekuhumusha phindze sitintise lesikucuketse kubantfu bonkhe (tilwimi).
 sentence-collection = Kukolekwa kwemisho
 sentence-collection-explanation = Kukwelekwa imisho ku public domain, noma kubhala lemasha uyibhalele i public domain.
 hours-recorded-explanation = Linani lema hora ekutfwebula emavi lesiwakolekile kute kube ngunamuhla.
@@ -693,6 +694,9 @@ listen-again-instruction = Umsebenti lomuhle!<playIcon></playIcon> lalela uma ul
 listen-3rd-time-instruction = 2 phasi, wente kahle! <playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon>Kwekugcina!
 listen-empty-state = Sesiphelelwe ticephu letitfwebuliwe kutsi singachubeka sitfwebule ngalolulwimi...
+listen-loading-error =
+    Asikakhoni kutfola emavi latfwebuliwe longakhona kuwalalela. 
+    Sicela uphindze wetame futsi.
 speak-empty-state = Sesiphelelwe imisho lesingayitfwebula ngalolwimi...
 speak-empty-state-cta = Nikela imisho
 speak-loading-error =
@@ -970,6 +974,7 @@ sc-howto-review-criteria-6 = Uma uphelelwa imisho longayibuketa, sicela usisite 
 sc-howto-findpd-title = Kutfola imisho levele ikhona ku Public Domain
 sc-howto-findpd-subtitle = Phenya ku-internet
 sc-howto-findpd-tips = Nati tinsita tekutfola imisho
+sc-howto-findpd-tips-3 = Siyacolisa, ngeke sikhone kuba nemaphephandzaba aka Wikimedia kwamanje. Sicela ungakopi khona.
 sc-howto-findpd-subtitle-2 = Timbandzakanye netinkapani noma tinhlangano talakhaya.
 
 ## MY SENTENCES
