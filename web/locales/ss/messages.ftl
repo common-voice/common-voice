@@ -210,6 +210,7 @@ cookies = Cookies
 faq = FAQ
 content-license-text = Emafayela atfolakala phasi kwe <licenseLink>Creative Commons license</licenseLink>
 share-title = Sisite sitfole labanye labanganikela ngemavi abo!
+share-text = Sita kufundzisa imishini kutsi bantfu mbamba bakhuluma njani, nikela livi lakho ku { $link }
 link-copied = I-link Ikotjiwe
 back-top = Buyela Etulu
 logout = Phuma
@@ -251,6 +252,7 @@ view-goals = Buka inchubo yakho mayicatsaniswa nenchubo yemsebenti jikelele.
 
 whats-public = Yini lokungabonwa sive?
 email-not-public = Angeke liposi lakho lembane libonwe sive.
+username-optin-public = Ungakhetsa kwenta ligama lakho libonwe sive noma uligcine lingatiwa.
 
 ## Speak & Listen Shortcuts
 
@@ -630,7 +632,8 @@ contribute = Nikela
 listen = Lalela
 skip = Yeca
 shortcuts = Tindlela tekujubelisa
-goal-help-recording = { "" }
+goal-help-recording = Usite Common Voice kufinyelela ku <goalPercentage></goalPercentage> wemagoli etfu { $goalValue } ekutfwebula ngelilanga
+goal-help-validation = Usite Common Voice kufinyelela ku <goalPercentage></goalPercentage> wemagoli etfu { $goalValue } ekucinisekisa ngelilanga
 record-cta = Cala kutfwebula
 record-platform-not-supported = Siyacolisa, inkhundla yakho ayikasekelwa kwamanje.
 record-platform-not-supported-desktop = Kubongcondvomshina, ungalekelela ngeku download....
@@ -778,6 +781,7 @@ download-profile-title = Likhasi lelichaza kabanti ngawe
 download-profile-info = Kufaka ekhatsi liposi lembane, emagama nemniningwane wakho, kuyatfolakala masinyane.
 download-profile-size = A few bytes
 download-recordings-title = Lokutfwebuliwe
+download-recordings-info = Imisho lehlobene ingatsatsa lichi kutsi ilunge
 download-recordings-size = Typically megabytes
 download-size = Linani
 download-selected = Lokukhetsiwe
@@ -809,6 +813,7 @@ demo-welcome-subheader = Unenshisekelo yekwati kabanti nekulekelela kulomsebenti
 
 ## Demo Datasets
 
+demo-language-select-card-header = Common Voice yi dataset yekucala lenkhulu, lenetilwimi letinengi futsi levulekele sive sonkhe mhlaba wonkhe jikelele
 card-button-next = Lokulandzelako
 card-button-back = Emuva
 demo-language-select-label = Funa lulwimi
@@ -858,6 +863,7 @@ contribution-misreadings-example-8-title = The bumblebee sped by.
 contribution-varying-pronunciations-title = Tindlela tekukhuluma letehlukahlukene
 contribution-varying-pronunciations-example-1-title = Enhloko yakhe bekagcoke i-beret.
 contribution-varying-pronunciations-example-2-title = Sandla sakhe besiphakam-ile.
+contribution-varying-pronunciations-example-2-explanation = [‘Raised’ in English is always pronounced as one syllable, not two]
 contribution-background-noise-title = Imisindvo lengemuva
 contribution-background-noise-example-1-fixed-title = <strong>[Sneeze]</strong> ema-dinosaur lamakhulu e <strong>[cough]</strong> Triassic.
 contribution-background-noise-example-2-fixed-title = The giant dino <strong>[cough]</strong> the Triassic.
@@ -902,6 +908,7 @@ sc-logout-button = Phuma
 sc-home-title = Wemukelekile lakukwelekwa khona imisho ka Common Voice
 sc-home-collect-title = Imisho lekwelekiwe
 sc-home-review-title = Buyeketa imisho
+sc-home-review-text = Sisite sibuyekete imisho kutsi ingiwo yini futsi iyahambelana yini nemigomo
 
 ## GENERAL
 
@@ -912,6 +919,7 @@ sc-howto-title = Kwentiwa njani
 sc-howto-addlang-title = Kungeta tilwimi lotosebenta ngato
 sc-howto-addsen-title = Ngeta imisho lemisha
 sc-howto-cite-title = Indlela yeku-Cite
+sc-howto-cite-item-1 = Ungangeta lelikhasi langcondvomshina, e.g "Common Voice - https://commonvoice.mozilla.org/"
 sc-howto-review-title = Buyeketa imisho
 sc-howto-review-subtitle = Ciniseka kutsi imisho ihlangabeta loluhla lolulandzelako:
 sc-howto-review-criteria-1 = Lomusho kumele ubhaleke kahle.
