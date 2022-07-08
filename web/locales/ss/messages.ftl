@@ -586,6 +586,7 @@ dataset-version = Inhlobo
 ## Download Modal
 
 download-title = Ku-download kwakho sekucalile
+download-helpus = Sisite sakhe ummango ngebucwephesha bemavi, chumana natsi ngeliposi lembane.
 download-form-email =
     .label = Faka iliposi lakho lembane
     .value = Siyabonga, sitochumana.
@@ -767,6 +768,11 @@ help-reach-hours-pluralized =
     { NUMBER($hours) ->
         [one] Sisiste sifike ku { $hours } lihora nge { $language } ngeligoli lakho
        *[other] Sisiste sifike ku { $hours } wemahora nge { $language } ngeligoli lakho
+    }
+help-reach-hours-general-pluralized =
+    { NUMBER($hours) ->
+        [one] Sita Common Voice afike ku { $hours } lihora ngelulwimi loluhamba neligoli lakho
+       *[other] Sita Common Voice afike ku { $hours } lihora ngelulwimi loluhamba neligoli lakho
     }
 set-a-goal = Setha ligoli
 cant-decide = Awukhoni kukhetsa?
@@ -1103,6 +1109,7 @@ sc-criteria-make-sure = Ciniseka kutsi imisho ihlangabeta loluhla lolulandzelako
 sc-criteria-item-1 = Lomusho kumele ubhaleke kahle.
 sc-criteria-item-2 = Lomusho kumele ube bete emaphutsa.
 sc-criteria-item-3 = Lomusho kumele ukhulumeke.
+sc-criteria-item-4 = Uma umusho uhambelana neluhla, chafata "Approve" ngesekudla.
 
 ## REVIEW
 
