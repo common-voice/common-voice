@@ -105,6 +105,7 @@ resource-playbook-info = <playbookLink>Fumana tataiso e thusang</playbookLink> l
 
 ## Request Language Pages
 
+request-language-explanation-2 = Hape re tla <strong>tsebisa mookamedi wa setjhaba sa rona hore o na le thahasello</strong>, kahoo ba ka o fa tshehetso e feng kapa feng e eketsehileng kapa dintlha tseo o ka di hlokang.
 
 ## Languages Overview
 
@@ -185,6 +186,7 @@ resource-playbook-info = <playbookLink>Fumana tataiso e thusang</playbookLink> l
 
 ## ADD SENTENCES CONFIRMATION
 
+sc-confirm-uploading = Dipolelo di ntse di kenngwa. Sena se ka nka metsotso e mmalwa ho latela palo ya dipolelo tse kentsweng. Ka kopo seke wa kwala sebaka sena sa marang-rang.
 
 ## LANGUAGE INFO
 
