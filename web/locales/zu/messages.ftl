@@ -46,6 +46,11 @@ voices-online = Amazwi a-Online Manje
 help-reach-goal = Sisize sifinyelele ku-{ $goal }
 read-terms-q = Uyifundile Imigomo yethu?
 ready-to-record = Ulungele ukunikela ngezwi lakho?
+x-weeks-short =
+    { $count ->
+        [one] Iviki
+       *[other] { $count }wk
+    }
 help-make-dataset = Sisize sakhe idathasethi elezinga eliphezulu, nevulelekile esidlangalaleni
 sign-up-account = Bhalisela i-akhawunti
 email-subscription-title = bhalisela izibuyekezo ze-imeyili
@@ -362,6 +367,11 @@ language-section-in-progress-new-description = Lezi zilimi okwamanje zingaphansi
 
 ## Contribution
 
+clips-with-count-pluralized =
+    { $count ->
+        [one] <bold>{ $count }</bold> Isiqeshana
+       *[other] <bold>{ $count }</bold> Iziqeshana
+    }
 goal-help-recording = Usize i-Common Voice ukufinyelela <goalPercentage></goalPercentage> kwinhlonso yethu yokurekhoda yansuku zonke { $goalValue }!
 goal-help-validation = Usize i-Common Voice ukufinyelela <goalPercentage></goalPercentage> kwinhlonso yethu yokuqinisekisa wansuku zonke { $goalValue }!
 record-platform-not-supported = Siyaxolisa, inkundla yakho ayisekelwe okwamanje.
@@ -417,6 +427,21 @@ report-offensive-speech-detail = Isiqeshana sinolimi olungenanhlonipho noma oluh
 
 ## Goals
 
+days =
+    { $count ->
+        [one] Usuku
+       *[other] Izinsuku
+    }
+recordings =
+    { $count ->
+        [one] Okuqoshiwe
+       *[other] Okuqoshiwe
+    }
+validations =
+    { $count ->
+        [one] Isiqinisekiso
+       *[other] Iziqinisekiso
+    }
 
 ## Dashboard
 
