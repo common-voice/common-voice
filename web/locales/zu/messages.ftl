@@ -90,6 +90,7 @@ profile-form-custom-accent-help-text =
 profile-form-custom-accent-placeholder-2 = Qala ukuthayipha ukuze uchaze indlela ophimisa ngayo
 profile-form-add-accent = Engeza ukuphimisa kwangokwezifiso okusha "{ $inputValue }"
 why-profile-title = Kungani kunephrofayili?
+profile-create-success = Impumelelo, iphrofayela yakhekile!
 profile-explanation = Landelela inqubekela-phambili yakho ngephrofayela futhi usize idatha yethu yezwi inembe kakhulu.
 thanks-for-account = Siyabonga ngokuqinisekisa i-akhawunti yakho, manje asakhe iphrofayela yakho.
 why-demographic = Kungani kubalulekile lokhu?
@@ -141,6 +142,7 @@ faq-what-determine-identity-a =
     
     Lonke ulwazi lwamazwi aqoshiwe lususwa yonke iminingingwane yabantu engase ihlonze ukuba ngubani. Uma ufaka lolulwazi lwamazi aqoshiwe, uvuma ukuba angeke uzame ukunquma ubunikazi bomxhasi. Lokhu kusho ukuthi ngeke uzame ukuhlanganisa ulwazi olusemazwini aqoshiwe nemininingwane yomxhasi. Kepha, ungasabenzisa lolulwazi ukufunda ngokuqoshiwe kwamazwi, oqoshwayo noma ezinye izinhlelo zokusebenza ezinjengokuthi uhlanganise ulwazi nolunye olukhona kulolwazi lwamazwi aqoshiwe.
 faq-what-is-cv = Iyini i-Common Voice?
+faq-using-cv = Ukusebenzisa iCommon Voice
 faq-description = I-Common Voice iyingxenye yesinyathelo se-Mozilla sokusiza ukufundisa imishini ukuthi abantu bangempela bakhuluma kanjani.
 
 ## ABOUT US
@@ -182,6 +184,7 @@ about-playbook-what-is-language-content-1 = { "" }
 ## How do I add a language
 
 about-playbook-how-add-language = Ngilufaka kanjani ulimi?
+about-playbook-how-add-language-translating-heading = Ukuhumusha isayithi
 about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Buka umhlahlandlela wethu wokuthi usetshenziswa kanjani iPontoon.</translateVideoLink>
 about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>Bukela umhlahlandlela wethu wokusebenzisa Umqoqi Wemisho</sentenceCollectorVideo>.
 about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>Bona okwengeziwe ngokuqoqwa kwemisho</sentenceCollectorFragment>.
@@ -341,6 +344,7 @@ record-error-too-short = Ukuqopha bekukufushane kakhulu.
 record-error-too-long = Ukuqopha bekukude kakhulu.
 record-error-too-quiet = Ukuqopha bekuthule kakhulu.
 record-instruction = { $actionType }<recordIcon></recordIcon> bese uwufundela phezulu umusho
+record-three-more-instruction = Sekusele okuthathu!
 record-again-instruction = Kuhle!<recordIcon></recordIcon> Qopha isiqeshana sakho esilandelayo
 record-again-instruction2 = Qhubeka, uqophe futhi <recordIcon></recordIcon>
 review-tooltip = Buyekeza futhi uqophe kabusha iziqeshana lapha njengoba uhamba
@@ -367,6 +371,7 @@ target-segment-first-banner = Siza wakhe engxenye yokuqala eqondiwe yeCommon Voi
 
 ## Reporting
 
+report-title = Thumela umbiko
 report-ask = Yiziphi izinkinga ohlangabezana nazo ngalo musho?
 report-offensive-language-detail = Umusho unolimi olungenanhlonipho noma olunenhlamba.
 report-grammar-or-spelling = Iphutha lohlelo lolimi / isipelingi
@@ -380,6 +385,7 @@ report-offensive-speech-detail = Isiqeshana sinolimi olungenanhlonipho noma oluh
 
 ## Dashboard
 
+toward-next-goal = Ibheke enhlosweni elilandelayo
 todays-recorded-progress = Inqubekelaphambili yanamuhla yeCommon Voice kuziqeshana eziqoshiwe
 todays-validated-progress = Inqubekelaphambili yanamuhla yeCommon Voice kuziqeshana iqinisekisiwe
 visibility-overlay-note = Qaphela: Uma kusethelwe kokuthi 'Kuyabonakala', lesi silungiselelo singashintshwa sisuka <profileLink>Ikhasi Lephrofayela</profileLink>
@@ -490,6 +496,7 @@ demo-dashboard-card-header = Amadeshibhodi omuntu siqu akugcina unolwazi lwakamu
 
 ## Validation criteria
 
+contribution-criteria-link = Qonda imibandela yokunikela
 contribution-criteria-page-description = Qonda ukuthi yini okufanele uyibheke lapho ulalele iziqeshana zezwi futhi usize ukwenza izwi elirekhodiwe lakho licebe kakhulu!
 contribution-misreadings-description-extended-list-1 = Kushoda <strong>'A'</strong> noma <strong>'The'</strong>. ekuqaleni kokuqoshwa.
 contribution-misreadings-description-extended-list-2 = Ishoda ngo-<strong>'s'</strong> ekupheleni kwegama.
@@ -524,6 +531,7 @@ contribution-background-voices-example-1-title = Ama-dinosaurs amakhulu e-Triass
 
 ## HEADER/FOOTER
 
+sc-footer-translate = Humusha leli khasi
 
 ## HOME
 
