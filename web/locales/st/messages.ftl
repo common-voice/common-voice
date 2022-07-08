@@ -16,6 +16,7 @@
 
 ## Home Page
 
+no-clips-to-validate = Ho bonahala eka ha ho na di-clip tsa ho mamela ka puo ena. Re thuse ho tlatsa letoto ka ho rekota tse ding hona jwale.
 
 ## Account Benefits
 
@@ -187,6 +188,14 @@ sc-howto-cite-item-3 = Bakeng sa mongolo wa setjhaba o sa fumaneheng marang-rang
 
 ## ADD LANGUAGE
 
+# Variables:
+#   $duplicates (Number) - Number of sentences which got rejected because they are duplicates
+sc-add-result =
+    { $duplicates ->
+        [0] Dipolelo tse fanweng. { $duplicates } dipolelo di hannwe e le dikopi.
+        [one] Polelo e fanweng. { $duplicates } polelo e hannwe e le kopi.
+       *[other] Dipolelo tse fanweng. { $duplicates } dipolelo di hannwe e le dikopi.
+    }
 
 ## ADD SENTENCES CONFIRMATION
 
@@ -209,6 +218,7 @@ sc-confirm-uploading = Dipolelo di ntse di kenngwa. Sena se ka nka metsotso e mm
 
 ## SETTINGS
 
+sc-settings-skipped-decription = O ile wa tlola dipolelo ha o ntse o hlahloba. Ho hlophisa botjha dipolelo tse tlotsweng ho tla bontsha dipolelo tsohle tse tlotsweng hape. Sena se ikemetse ho puo.
 
 # [/SentenceCollector]
 
