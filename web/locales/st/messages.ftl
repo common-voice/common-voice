@@ -52,6 +52,7 @@
 
 ## How does it work section
 
+about-stay-in-touch-text-1 = <emailFragment>Ingodise</emailFragment> ho lenane la rona la mangolo ho ithuta hore na o ka nka karolo jwang matsholong, diketsahalong le dikarolo tsa moralo o kopanetsweng ho Common Voice.
 
 ## Community Playbook Content
 ## What is a language
