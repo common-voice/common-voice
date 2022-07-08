@@ -222,6 +222,7 @@ data-other-tatoeba-description = Tatoeba ke tshedimosetso e kgolo ya dipolelo, d
 
 ## Contact Modal
 
+contact-required = *e a tlhokega
 
 ## Request Language Modal
 
@@ -389,6 +390,7 @@ sc-review-form-usage = Swaepela kafa mojeng go amogela polelo. Swaepela kafa mol
 
 ## SETTINGS
 
+sc-settings-skipped-decription = O tlodile mela kwa morago fa o ntse o sekaseka. Go rulaganya sesha mela e e tlodilweng go tla bontsha gape mela yotlhe e o e tlodileng. Seno ga se a ikaega ka puo.
 
 # [/SentenceCollector]
 
