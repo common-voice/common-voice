@@ -9,6 +9,7 @@ email-opt-in-info-sub-with-challenge = Thola ama-imeyili afana nezikhumbuzi zens
 indicates-required = Izinkambu ezimakwe ngenkanyezi (*) ziyadingeka.
 banner-error-slow-1 = Uxolo, iCommon Voice isebenza kancane. Siyabonga ngentshisekelo yakho.
 banner-error-slow-2 = Sithola ithrafikhi eningi futhi okwamanje siphenya izinkinga.
+banner-error-slow-link = Ikhasi Lezimo
 error-something-went-wrong = Uxolo, kukhona okungahmabnga kahle
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
@@ -17,7 +18,9 @@ error-something-went-wrong = Uxolo, kukhona okungahmabnga kahle
 
 ## Languages
 
+nan-tw = Isi-Taiwanese (Minnan)
 sat = Santali (Ol Chiki)
+tok = Toki Pona
 zh-HK = Chinese (Hong Kong)
 
 # [/]
@@ -43,6 +46,7 @@ speak-subtitle = Nikela ngezwi lakho
 speak-paragraph = Ukuqopha iziqeshana zezwi kuyingxenye ebalulekile yokwakha idathasethi yethu evulekile; abanye bangathi kumnandi futhi.
 listen-subtitle = Sisize siqinisekise amazwi
 voices-online = Amazwi a-Online Manje
+todays-progress = Inqubekelaphambili Yanamuhla
 help-reach-goal = Sisize sifinyelele ku-{ $goal }
 read-terms-q = Uyifundile Imigomo yethu?
 ready-to-record = Ulungele ukunikela ngezwi lakho?
@@ -81,6 +85,7 @@ username-email-not-demographic = Igama olisebenzisayo kanye ne-imeyili yakho nge
 ## Speak Shortcuts
 
 shortcut-discard-ongoing-recording-label = Lahla ukurekhoda okuqhubekayo
+shortcut-submit-label = Thumela iziqeshana
 request-language-text = Awuboni ulimi lwakho ku-Common Voice okwamanje?
 request-language-button = Cela Ulimi
 
@@ -268,6 +273,7 @@ about-playbook-how-project-governance-content-7 = <governanceLink>Funda kabanzi 
 localization-explanation = Lena inqubo yethu yokuhumusha nokulungisa okuqukethwe kwethu ezindaweni eziningi (izilimi).
 sentence-collection-explanation = Ukuqoqa imisho esizindeni somphakathi, noma ukubhala emisha esizindeni somphakathi.
 hours-recorded-explanation = Isibalo samahora okuqoshwa kwezwi esiwaqoqile kuze kube manje.
+sst = Inkulumo-kuya-umbhalo
 sst-explanation = Ubuchwepheshe beSpeech-to-text (STT) buguqula idatha yezwi ibe umbhalo.
 
 ## Error pages
@@ -311,6 +317,7 @@ resource-nemo-info = I-<githubLink>NVIDIA NeMo</githubLink>™ iyi-<docsLink>ikh
 resource-coqui-info = I-<coquiLink>Coqui</coquiLink> inikezelwe ekuvuleni ubuchwepheshe benkulumo. Amaphrojekthi abo ahlanganisa ukufunda okujulile okusekelwe ku-STT kanye nezinjini ze-TTS.
 resource-playbook-info = <playbookLink>Thola isiqondiso esiwusizo</playbookLink> kulo lonke uhambo lwe-Common Voice, kusukela ekwenzeni okwasendaweni kuya ekusetshenzisweni kwedathasethi, kanye nendlela yokuxhumana nomphakathi wethu.
 data-other-librispeech-description = I-LibriSpeech iyikhophasi cishe yamahora angu-1000 we-16Khz  yenkulumo yesiNgisi efundiwe ethathwe kuma-audiobook afundiwe kusukela kuphrojekthi ye-LibriVox.
+data-other-ted-name = TED-LIUM Corpus
 data-other-ted-description = Ikhophasi ye-TED-LIUM yenziwe ngezinkulumo ezilalelwayo kanye nokulotshiwe kwayo kutholakala kuwebhusayithi ye-TED.
 data-other-voxforge-description = I-VoxForge yasungulwa ukuze iqoqe inkulumo eqoshiwe ukuze isetshenziswe nezinjini zokuqaphela izinkulumo zamahhala kanye ne-Open Source.
 your-feedback = Ingabe unayo imibono yokuthi singayenza kanjani idathasethi ye-Common Voice ibe ngcono? Sazise ku-Discourse
@@ -383,6 +390,7 @@ clips-with-count-pluralized =
     }
 goal-help-recording = Usize i-Common Voice ukufinyelela <goalPercentage></goalPercentage> kwinhlonso yethu yokurekhoda yansuku zonke { $goalValue }!
 goal-help-validation = Usize i-Common Voice ukufinyelela <goalPercentage></goalPercentage> kwinhlonso yethu yokuqinisekisa wansuku zonke { $goalValue }!
+record-cta = Qala ukuqopha
 record-platform-not-supported = Siyaxolisa, inkundla yakho ayisekelwe okwamanje.
 record-platform-not-supported-desktop = Kumadivayisi edeskithophu ungadlala iqhaza ngokuloda...
 record-platform-not-supported-ios-non-safari = Ku-iOS sicela uqhubeke ne-Safari ukuze ukwazi ukurekhoda...
@@ -401,6 +409,7 @@ share-common-voice = Yabelana ngeCommon Voice
 review-instruction = Buyekeza futhi uqophe kabusha iziqeshana uma kudingeka
 record-abort-title = Qedela ukuqopha kuqala?
 record-abort-text = Ukuhamba manje kusho ukuthi uzolahlekelwa ukuqhubeka kwakho
+record-abort-submit = Thumela iziqeshana
 record-abort-delete = Phuma futhi Susa iziqeshana
 listen-instruction = { $actionType }<playIcon></playIcon> ingabe bawukhulume kahle umusho?
 listen-again-instruction = Umsebenzi omuhle!<playIcon></playIcon> Lalela futhi uma usulungile
@@ -722,6 +731,7 @@ sc-add-err-failed =
         [one] umusho ongu-1 wehlulekile
        *[other] { $sentences } imisho yehlulekile
     }
+sc-add-err-submission = Iphutha Lokuhambisa
 sc-add-lang-process-notice = Uma ulimi lwakho lungekho ohlwini lapha, ungalucela <languageProcessLink>ngale nqubo</languageProcessLink>.
 
 ## ADD SENTENCES CONFIRMATION
