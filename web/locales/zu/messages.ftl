@@ -694,6 +694,9 @@ sc-confirm-sentences-found =
         [one] Kutholwe umusho ongu-1.
        *[other] imisho engu-{ $countOfSentences } itholakele.
     }
+# Variables:
+#   $countOfInvalidated (Number) - Number of sentences the user rejected in the review form before submission
+sc-confirm-rejected-by-you = { $countOfInvalidated } waliwe nguwe
 sc-confirm-already-reviewed =
     { $countOfReviewed ->
         [0] Awukho umusho osuvele ubuyekeziwe.
@@ -765,6 +768,9 @@ sc-login-err-try-again = Ngicela uzame futhi.
 
 sc-personal-err-lang-not-found = Ayikwazanga ukususa ulimi: ulimi alutholakali
 sc-personal-err-remove = Ayikwazanga ukususa ulimi
+# Variables:
+#   $sentences (Number) - Number of sentences that were added by the currently logged in user for this language
+sc-personal-added-by-you = { $sentences } kwengezwe nguwe
 sc-personal-not-added = Awukangezi izilimi okwamanje.
 
 ## REVIEW CRITERIA
