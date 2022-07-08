@@ -16,6 +16,7 @@
 
 ## Home Page
 
+wall-of-text-more-mobile = Bogolo bja datha e dirišwago ke dikhampani tše dikgolo ga e hwetšagale ke bontši bja batho. Re nagana gore seo se šitiša go tšweletša mekgwa e mefsa. Ka gona re hlomile Morero wa Common Voice, morero wa go thuša go dira gore temošo ya lentšu e bolege le go hwetšwa ke motho yo mongwe le yo mongwe.
 wall-of-text-more-desktop = Gona bjale o ka nea ka lentšu la gago go re thuša go aga dathabeise ya lentšu e bolegielgo yeo mang le mang a ka e šomiša go dira mananeotiriši a mafsa a didirišwa le wepesaete. Bala mafoko go thuša metšhene go ithuta gore na batho ba kgonthe ba bolela bjang. Lebediša mošomo wa baneedi ba babgwe go kaonefatša boemo. Go bonolo gakaalo!
 wall-of-text-second = Bogolo bja datha e dirišwago ke dikhampani tše dikgolo ga e hwetšagale ke bontši bja batho. Re nagana gore seo se šitiša go tšweletša mekgwa e mefsa. Ka gona re hlomile Common Voice, morero wa go thuša go dira gore temošo ya lentšu e bolege le go hwetšwa ke motho yo mongwe le yo mongwe.
 
@@ -98,6 +99,7 @@ about-playbook-how-localize-content-3 = Phetolelo e tšwa go Seisemane, eupša o
 
 ## How to add sentences
 
+about-playbook-how-add-sentences-content-1 = <strong>Molekgetho wa Mafoko</strong> ke sedirišwa sa go kgoboketša le go netefatša dipolelo tša setšhaba. O tla hloka<scAccountLink>go hlangwa akhaonte</scAccountLink>. Ke moka, tsentšha polelo ya gago go <strong>profaeleng ya gago</strong>. O ka <strong>tsenya mafoko</strong> goba wa <strong>ahla-ahla </strong> mafoko a tsentšhitšego nakong e fetilego.
 about-playbook-how-add-sentences-content-2 =
     "Mafoko a swanela go hlahlobja le go amagelwa ke batho ba babedi gore di tsenywe mo go Common Voice. O hlangwa tlhahlo mabapi le tša polelo ya geno
     <languageGuidelinesLink> mo</languageGuidelinesLink>. Mafoko a swanetše go ba<licenseLink> lefelong la batho bohle</licenseLink>  gomme le be kopana go fetwa/ka tlase ga mantšu a 15. O ka kgopela mong wa mongwalo go e dira <waiverLink>CC0 o šomiša mokgwa wa rena wa go tlogela</waiverLink>, gomme o re romele go commonvoice@mozilla.com"
@@ -126,6 +128,7 @@ about-playbook-how-access-dataset-content-1 = O ka ya go <datasetsPage>letlakale
 
 ## Error pages
 
+error-content-503 = Saete e tla thekgwa kapejana ka mo go ka kgonegago. Bakeng sa tsebišo ya morago-rago bjale, ka kgopelo ikgokaganye le <matrixLink>poledišano ya setšhaba ya Matrix</matrixLink>  goba etela <githubLink>GitHub</githubLink> goba <discourseLink>diforamo tša rena tša Discourse</discourseLink> go romela le go šetša tokollo ya boiphihlelo bja saete.
 
 ## Data
 
@@ -177,6 +180,7 @@ visibility-explainer = Peakanyo ye e laola ke ponagalo ya kelo ya baetapele. Ge 
 
 ## Profile Delete
 
+keep-info = Dipego tša gago tša lentšu tšeo di sa tsebjego di tla šala go dathasete ya Common Voice. Ka morago ga go phumola profaele ya gago o ka sa kgona go romela kgopelo ya go phumola direkhoto tša gago go dathasete.
 remove-info = Re tla hlahloba kgopelo ya gago ya go tloša direkhoto tša lentšu la gago dathaseteng. Ge e ba kgopelo ya gago e amogetšwe, re tla ikgokaganya le bao ba taonelouteng dathasete gomme re tla ba kgopela gore le bona ba phumole direkhoto tša lentšu la gago.
 why-delete-recordings = Dipego tša Common Voice di dirišwa ke barutegi, dikgwebo-potlana, le ba go fišegelwa go tseba ka mantšu go thuša go eteletša le go godiša methopo ye e hwetšagalago phatlalatša bjalo ka mehuta ya mantšu.                                                                                                                                                          Na o ka re tsebiša gore ke ka baka la eng o nyaka gore direkhoto tša gago di phumolwe?
 
@@ -238,6 +242,7 @@ sc-howto-addsen-item-5 = Mangwalo a tšwago ka ntle ga naga. Magwalo a swanetše
 sc-howto-addsen-post-1 = Re kgetha mafoko a tlhago/poledišano. Lege phapano ya sefonetiki le mantšu a fapanego mafokong a bohlokwa, re leka go dira gore mafoko a go gatišwa di be bose kudu ka moo re ka kgonago. Ka gona go ka ba monate ge o ka leka go boloka mafoko a gago a be a tlhago/kopanelago kamoo go ka kgonegalago.
 sc-howto-findpd-text-2 = Gopola gore re hloka tumelelo ya go phatlalatša dipolelo tšeo, ke kamoo re kgonthišetša gore mengwalo ke ya<wikipediaLink> batho ka moka</wikipediaLink>. Ge goba a gona dipontšho molaleng, boledišana le motho yo temana yeo e leng ya gagwe gomme o botšiša gore e ba ba nyaka go neela temana ya bona Sebakeng sa Setšhaba. Ge e ba ba nyaka, ba thuše go tsena mogatong a <cc0WaiverLink>Tumelelano ya Meneelo</cc0WaiverLink> . Ge e ba ga ba nyake go tsena tiragalo ya temana, ke moka wa dumelelwa go diriša temana yeo.
 sc-howto-findpd-partner-1 = Go na le mekgatlo e mentši ya setšhaba e ka nyakago go šomišana gomme e šetše e na le ditemana tše dintši tšeo ba ka neelago ka tšona go etša go lefelong la batho bohle. Ikgokaganye le diyunibesithi tša lefelong leo, Mebušo le mekgatlo e bulegilego go bolela ka morero le go kgopela thušo ya bona.
+sc-howto-findpd-partner-2 = Ditsebi tša maleme tše hlwahlwa le tšona di ka thuša, leka go ikopanya le setsebi sa maleme sa diyunibesithi ya lefelong leo (bobedi bja barutiši le baithuti) le go bona gore na ba ka thuša go kgoboketša mafoko e fapanego ya polelo ya geno.
 
 ## MY SENTENCES
 
