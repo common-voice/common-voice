@@ -17,6 +17,7 @@ error-something-went-wrong = Uxolo, kukhona okungahmabnga kahle
 
 ## Languages
 
+sat = Santali (Ol Chiki)
 
 # [/]
 
@@ -71,6 +72,7 @@ username-email-not-demographic = Igama olisebenzisayo kanye ne-imeyili yakho nge
 ## Speak Shortcuts
 
 request-language-text = Awuboni ulimi lwakho ku-Common Voice okwamanje?
+request-language-button = Cela Ulimi
 
 ## ProjectStatus
 
@@ -145,6 +147,8 @@ faq-what-determine-identity-a =
 faq-what-is-cv = Iyini i-Common Voice?
 faq-using-cv = Ukusebenzisa iCommon Voice
 faq-description = I-Common Voice iyingxenye yesinyathelo se-Mozilla sokusiza ukufundisa imishini ukuthi abantu bangempela bakhuluma kanjani.
+faq-search-for-answers =
+    .label = Sesha izimpendulo
 
 ## ABOUT US
 
@@ -258,6 +262,7 @@ data-download-singleword-callout-v2 = Lena ingxenye yokusetshenziswa eqhutshwayo
 review-terms = Ngokusebenzisa iCommon Voice, uyavumelana <termsLink>Nemigomo</termsLink> kanye <privacyLink>Nesaziso Sobumfihlo</privacyLink>
 terms-disagree = Angivumi
 review-aborted = Ukulodiwe kunqanyuliwe. Uyafuna ukususa okurekhodiwe kwakho?
+review-submit-title = Buyekeza futhi uthumele
 review-submit-msg = Siyabonga ngokurekhoda!<lineBreak></lineBreak>Manje buyekeza futhi uhambise iziqeshana zakho ngezansi.
 
 ## Datasets Page
@@ -296,6 +301,7 @@ download-back = Buyela kwidathasethi ye-Common Voice
 
 request-language-success-title = Isicelo solimi sithunyelwe ngempumelelo, siyabonga.
 request-language-success-content = Sizothintana ngolwazi olwengeziwe mayelana nendlela yokwengeza ulimi lwakho ku-Common Voice maduze nje.
+select-language = Khetha Ulimi...
 
 ## Request Language Pages
 
@@ -350,6 +356,7 @@ record-again-instruction = Kuhle!<recordIcon></recordIcon> Qopha isiqeshana sakh
 record-again-instruction2 = Qhubeka, uqophe futhi <recordIcon></recordIcon>
 review-tooltip = Buyekeza futhi uqophe kabusha iziqeshana lapha njengoba uhamba
 share-clip = Yabelana ngesiqeshana sakho
+share-common-voice = Yabelana ngeCommon Voice
 review-instruction = Buyekeza futhi uqophe kabusha iziqeshana uma kudingeka
 record-abort-text = Ukuhamba manje kusho ukuthi uzolahlekelwa ukuqhubeka kwakho
 record-abort-delete = Phuma futhi Susa iziqeshana
@@ -364,6 +371,7 @@ speak-empty-state = Siphelelwe yimisho okumele siyiqophe ngalolu limi...
 speak-loading-error =
     Asikwazanga ukukutholela umusho ukuthi ukhulume.
     Sicela uzame futhi emuva kwesikhathi.
+record-button-label = Qopha izwi lakho
 share-title-new = <bold>Sisize</bold> sithole amazwi engeziwe
 keep-track-profile = Gcina umkhondo wenqubekelaphambili yakho ngephrofayela
 login-to-get-started = Ngena ngemvume noma bhalisa ukuze uqalise
@@ -390,6 +398,7 @@ report-offensive-speech-detail = Isiqeshana sinolimi olungenanhlonipho noma oluh
 toward-next-goal = Ibheke enhlosweni elilandelayo
 todays-recorded-progress = Inqubekelaphambili yanamuhla yeCommon Voice kuziqeshana eziqoshiwe
 todays-validated-progress = Inqubekelaphambili yanamuhla yeCommon Voice kuziqeshana iqinisekisiwe
+set-visibility = Hlela ukubonakala kwami
 visibility-overlay-note = Qaphela: Uma kusethelwe kokuthi 'Kuyabonakala', lesi silungiselelo singashintshwa sisuka <profileLink>Ikhasi Lephrofayela</profileLink>
 show-ranking = Bonisa izinga lami
 
@@ -413,6 +422,7 @@ help-reach-hours-general-pluralized =
         [one] Siza iCommon Voice ifinyelele { $hours } ihora
        *[other] { $hours } amahora ngolimi olunomgomo womuntu siqu
     }
+set-a-goal = Zibekele umgomo
 activity-needed-calculation-plural =
     { NUMBER($totalHours) ->
         [one] { $totalHours } ihora  lifinyeleleka esikhathini esingaphezudlwana nje kuka
@@ -493,6 +503,7 @@ demo-account-sign-up = Thumela isixhumanisi sokubhalisa
 ## Demo Contribute
 
 demo-contribute-card-header = Ulungele ukwengeza izwi lakho noma ukuboleka indlebe yakho?
+demo-listen-subtitle = Usulungele ukufaka isandla?
 
 ## Demo Dashboard
 
@@ -536,6 +547,7 @@ contribution-background-voices-example-1-title = Ama-dinosaurs amakhulu e-Triass
 ## HEADER/FOOTER
 
 sc-footer-translate = Humusha leli khasi
+sc-footer-report-copyright = Bika izinkinga zelungelo lobunikazi
 
 ## HOME
 
@@ -587,6 +599,7 @@ sc-stats-summary = Umqoqi Wemisho weCommon Voice uqoqe  { $sentenceCount } imish
 ## ADD
 
 sc-submit-err-select-lang = Sicela ukhethe ulimi.
+sc-submit-err-add-sentences = Sicela wengeze imisho.
 sc-submit-err-confirm-pd = Sicela uqinisekise ukuthi le misho ayisizinda somphakathi.
 sc-submit-prompt =
     .message = Imisho ayithunyelwanga, uqinisekile ukuthi ufuna ukuhamba?
@@ -700,6 +713,7 @@ sc-lang-info-rejected =
 
 ## LOGIN
 
+sc-login-err-try-again = Ngicela uzame futhi.
 
 ## PROFILE
 
@@ -735,6 +749,7 @@ sc-review-form-review-failure = Isibuyekezo asikwazanga ukugcineka. Sicela uzame
 
 ## SETTINGS
 
+sc-settings-reset-skipped = Setha kabusha imisho eyeqiwe
 sc-settings-skipped-decription = Ngaphambilini weqe imisho ngenkathi ubuyekeza. Ukusetha kabusha imisho eyeqiwe kuzokhombisa yonke imisho eyeqiwe futhi. Lokhu kuzimele olimini.
 sc-settings-show-all-button = Khombisa yonke imisho eyeqiwe futhi
 sc-settings-failed = Ayikwazanga ukushintsha izilungiselelo. Ngicela uzame futhi.
