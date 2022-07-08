@@ -286,6 +286,11 @@ request-language-button = Cela lulwimi
 
 status-title = Inchubo yemsebenti wonkhe: buka kutsi sesihambe sigamu lesinganani!
 status-contribute = Lekelela Ngelivi Lakho
+status-hours =
+    { $hours ->
+        [one] Linye lihora lelicinisekisiwe kwamanje!
+       *[other] { $hours } Emahora lacinisekisiwe kwamanje!
+    }
 # Variables:
 # $goal - number of hours representing the next goal
 status-goal = Next Goals: { $goal }
@@ -372,6 +377,8 @@ faq-title = Imibuto levame kubutwa
 faq-what-cv-q = Yini Common Voice?
 faq-why-important-q = Kumcoka ngani loku?
 faq-how-get-q = Ngingayitfola njani le data yaka Common Voice?
+faq-why-mission-q = Leni Common Voice abe yincenye yemshikashika wa Mozilla?
+faq-what-cv-and-deepspeech-q = Yini umehluko wa Common Coice na Deep Speech?
 faq-why-my-lang-q = Leni lulwimi lwami lungangetwa?
 faq-how-calc-hours-q = Common Voice uwabala njani ema hora?
 faq-where-src-from-2-q = Umtfombo wemagama uchamukaphi?
@@ -395,6 +402,7 @@ about-localization-subtitle = Emagama lasekhasini langcondvomshina ahumushwe nga
 about-sentence-collection-title = Kukolekwa kwemisho
 about-sentence-collection-subtitle = Imisho ikolekelwa kutsi bantfu bawafundze baphimisele.
 about-new-lang-title = Kusungulwa kwelulwimi lolusha.
+about-new-lang-subtitle = Sisungula likhasi la Common Voice ngalolulwimi.
 about-voice-contrib-title = Kulekelela ngelivi
 about-voice-contrib-subtitle = Bantfu bayeta batonikela ngemavi abo.
 about-voice-validation-title = Kucinisekisa Livi
@@ -705,6 +713,7 @@ show-ranking = Khombisa sigaba sami
 
 get-started-goals = Vele ucale ngemagoli
 create-custom-goal = Yakha ligoli lakho
+goal-type = Nhloboni yeligoli lofuna kuyakha?
 both-speak-and-listen = Kokubili
 both-speak-and-listen-long = Kokubili (khuluma phindze ulalele)
 daily-goal = Umgomo welilanga
@@ -767,6 +776,7 @@ download-request-button = Download
 download-request-description = { $clipCount } emafayela emavi latfwebuliwe, linani lemafayela lagciniwe { $size }. Aphupha nini { $expires }.
 download-request-archive-single = Lifayela linye le ZIP lelicuketse
 download-request-archive-multiple = Hlephula kube{ $archiveCount } ngemafayela e ZIP lacuketse
+download-request-assembling-description = Emafayela akho asahlanganiswa. Sicela uphindze uhlole futsi.
 download-request-refresh-button = Vuselela
 download-request-modal-title = Download Links
 download-request-modal-description = Nawa ema link eku download amafayela laku ZIP.
