@@ -87,7 +87,7 @@ faq-why-important-a =
     Go dira gore go lemoga mantswe e nne selo se se tlwaelegileng thata, re kgobokanya disampole tsa mantswe mo dipuong tse di buiwang thata mmogo le babui ba palo e potlana ba gantsi ba tseelwang kwa tlase ke ditirelo tsa kgwebo tsa go lemoga mantswe. Go phasalatsa tshedimosetso ya mantswe a a farologaneng go tla matlafatsa badiri, bagwebi, le batho botlhe ka kakaretso gore ba samagane le bothata jono ka bobone.
 faq-how-get-a = Tshedimosetso ya Common Voice e ka itseelwa mo laesenseng ya <licenseLink>CC0</licenseLink> mo <datasetLink>tsebeng ya rona ya Tshedimosetso</datasetLink>. Gape o ka itseela tshedimosetso e nngwe e e leng teng mo go yone tsebe eo.
 faq-when-release2-a = Ga jaana karolo ya dipuo tse dintsi ya tshedimosetso ya Common Voice e kgobokanngwa le go phepafadiwa ke morafe. Fa o batla go re thusa go tlisa Common Voice mo dipuong tse disha, leba <sentenceCollectorLink>Thulusu ya go Kgobokanya Dipolelo</sentenceCollectorLink> go tsenya dipolelo tse disha mo tshedimosetsong, le Mozilla <pontoonLink>Pontoon</pontoonLink> go ranola webosaete ka boyone. Dipuo tse disha di tsenngwa mo Common Voice go aba mantswe fa dipolelo tse di dumeletsweng di le 5000 di kgobokantswe.
-faq-why-mission-a = Mozilla e batla go boloka webosaete e bulegetse mongwe le mongwe e bile e kgona go fitlhelesega. Go dira jalo, re tlhoka go matlafatsa badiri ba webosaete ka diporojeke tse di jaaka Common Voice. Fa dithekenoloji tsa mantswe di ntse di oketsega go feta dithulaganyo tse di tswalegileng, re dumela gore di tshwanetse go direla batho botlhe ka go lekana. Seo se raya go beeletsa mo dipuong tse dintsi le go dirisana le digalo tse di farologaneng le dipalopalo fa ba dira le go tlhatlhoba dithekenoloji tsa mantswe. Common Voice ke sedirisiwa  se mongwe le mongwe le ditlhopha tsa Mozilla le badiri go ralala lefatshe ba setse ba se dirisa le mo diporojekeng tsa rona.
+faq-why-mission-a = Mozilla e batla go boloka webosaete e bulegetse mongwe le mongwe e bile e kgona go fitlhelesega. Go dira jalo, re tlhoka go matlafatsa badiri ba webosaete ka diporojeke tse di jaaka Common Voice. Fa dithekenoloji tsa mantswe di ntse di oketsega go feta dithulaganyo tse di tswalegileng, re dumela gore di tshwanetse go direla batho botlhe ka go lekana. Seo se raya go beeletsa mo dipuong tse dintsi le go dirisana le digalo tse di farologaneng le dipalopalo fa ba dira le go tlhatlhoba dithekenoloji tsa mantswe. Common Voice ke sedirisiwa se mongwe le mongwe le ditlhopha tsa Mozilla le badiri go ralala lefatshe ba setse ba se dirisa le mo diporojekeng tsa rona.
 faq-what-cv-and-deepspeech-a = Tshedimosetso ya Common Voice e tlaleletsa thulaganyo ya Mozilla ya go lemoga mantswe ya Deep Speech. Karolo ya ntlha ya Deep Speech e golotswe ka November 2017 mme e ntse e tswelela e tlhabologa fa e sa le ka nako eo. Mmogo le tshedimosetso ya Common Voice, re dumela gore thekenoloji eno ya go lemoga mantswe e tshwanetse ya fitlhelelwa ke mongwe le mongwe. Re solofela gore dithekenoloji tseno di tla letla badiri go dira dikuno le ditirelo tse di botlhale.
 faq-is-goal-assistant-a = Mokgele wa tshedimosetso ya Common Voice ke go dira gore mongwe le mongwe mo lefatsheng a dire thulaganyo ya go lemoga puo, go lemoga sebui, kgotsa thulaganyo epe e nngwe e e batlang tshedimosetso ya lentswe. Thuso ya lentswe ke nngwe ya mefuta ya dithulaganyo tse o ka dirisang tshedimosetso go e dira.
 faq-do-want-native-a = Se tota re se batlang ke lentswe la gago! Karolo ya boikaelelo jwa Common Voice ke go kgobokanya digalo tse di farologaneng kafa go ka kgonegang ka gone gore ditirelo tsa go lemoga mantswe di direle batho botlhe ka go lekana. Seno se raya gore diabe tsa batho ba e seng babui ba tlholego le tsone di botlhokwa thata.
@@ -120,7 +120,7 @@ how-does-it-work-text = Re batla tshedimosetso ya batho ba bantsi ya mantswe. Ab
 
 about-no-votes-text = Fa modirisi a gana polelo, e boela kwa Moleng. Fa kgatiso ya lentswe e ganwa lekgetlho la bobedi, e romelwa kwa Clip Graveyard.
 about-clip-graveyard-text =
-    Clip Graveyard e na le dikgatiso tsa mantswe tse di sa  kgonang tsena mo tshedimosetsong ya Common Voice. Fela jaaka tshedimosetso, Clip Graveyard le yone e ka itseelwa.
+    Clip Graveyard e na le dikgatiso tsa mantswe tse di sa kgonang tsena mo tshedimosetsong ya Common Voice. Fela jaaka tshedimosetso, Clip Graveyard le yone e ka itseelwa.
     
     Re rata go leboga batho le mekgatlho e e latelang ka thuso ya bone mo porojekeng:
 about-get-involved-text-2 =
@@ -131,7 +131,7 @@ about-get-involved-text-2 =
 ## Community Playbook Content
 ## What is a language
 
-about-playbook-what-is-language-content-1 = Go na le ditsela tse dintsi tsa go akanya ka puo. Ka ntlha ya dikao tsa go lemoga puo, Common Voice e akantsha go tlhoma mogopolo mo 'botlhaleng jo bo utlwalang', kgotsa 'a babui ba puo eno gantsi ba a tlhalognyana fa ba leka go dira jalo?'
+about-playbook-what-is-language-content-1 = Go na le ditsela tse dintsi tsa go akanya ka puo. Ka ntlha ya dikao tsa go lemoga puo, Common Voice e akantsha go tlhoma mogopolo mo ‘botlhaleng jo bo utlwalang’, kgotsa ‘a babui ba puo eno gantsi ba a tlhalognyana fa ba leka go dira jalo?’
 about-playbook-what-is-language-content-2 = Re batla gore dikao tsa puo di tlhaloganye botoka bontsi jwa dibui. Gore seno se direge, tshedimosetso ya mantswe e tshwanetse go akaretsa batho ba bantsi ba ba farologaneng.
 about-playbook-what-is-language-content-3 = Dipuo dingwe di farologana thata ka thutapuo, tlotlofoko le tsela ya go bitsa mafoko. Ka ntlha ya seno, re <ctaLink>tlisa ‘Mefuta e e Farologaneng’</ctaLink> ka 2022. Seno se dira gore batho ba kgone go tlhaola dipuo tsa bone mo tshedimosetsong e ntsi.
 
@@ -174,7 +174,7 @@ about-playbook-how-grow-language-content-7 = Bona ba bangwe ba ba amegang. E ka 
 
 ## How to validate
 
-about-playbook-how-validate-content-2 = <strong>O se ka wa gana dikgatiso tsa mantswe a sebui 'se sa bue' ka tsela e e tshwanang le ya gago</strong> - seno se botlhokwa gore go lemoga mantswe go direle mongwe le mongwe botoka.
+about-playbook-how-validate-content-2 = <strong>O se ka wa gana dikgatiso tsa mantswe a sebui ‘se sa bue’ ka tsela e e tshwanang le ya gago</strong> - seno se botlhokwa gore go lemoga mantswe go direle mongwe le mongwe botoka.
 about-playbook-how-validate-content-3 = Fa o akanya gore tsela e le bidiwang ka yone e dira gore <strong>go se ka ga kgonega go tlhaloganya</strong>, kgotsa go na le <strong>modumo o montsi kwa morago</strong>, kgotsa go na le <strong>batho ba bangwe ba le bone ba buang</strong>, o tshwanetse go gana kgatiso eo. <accuracyLink>Bona tshedimosetso e e oketsegileng mo ditshwanelegong tsa rona tsa go nepa</accuracyLink>.
 
 ## How to access dataset
