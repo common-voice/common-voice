@@ -96,6 +96,8 @@ status-hours =
 
 ## ProfileForm
 
+profile-form-username =
+    .label = Igama Lomsebenzisi
 profile-form-variant =
     .label = Uhlobo luni lwe-{ $language } olukhulumayo?
 profile-form-variant-default-value = Akukho okuhlukile okukhethiwe
@@ -179,7 +181,9 @@ about-localization-subtitle = Umbhalo wewebhusayithi uhunyushelwa kulolo limi.
 about-sentence-collection-subtitle = Imisho iqoqwa ukuze abantu bayifundele phezulu.
 about-new-lang-title = Ukwethulwa Kolimi Olusha
 about-new-lang-subtitle = Sethula isayithi le-Common Voice ngalolu limi.
+about-voice-contrib-title = Ukunikela Ngezwi
 about-voice-contrib-subtitle = Abantu bafike banikele ngamaphimbo abo.
+about-voice-validation-title = Ukuqinisekiswa Kwezwi
 about-voice-validation-subtitle = Abanye abantu baqinisekisa lezo ziqeshana zezwi.
 about-dataset-release-subtitle = Sikhipha idathasethi njalo ezinyangeni ezi-3.
 about-subscribe-text = Ingabe ufuna ukuhlala uxhumene ne-Common Voice?
@@ -298,6 +302,7 @@ overall-hr-total = Isamba samahora sesisonke
 number-of-voices = Inombolo Yamazwi
 confirm-size = Ulungele ukuqalisa ukuloda kwe-<b>{ $size }</b>
 confirm-no-identify = <b>Uyavuma</b> ukungazami ukucacisa ukuthi ungubani izikhulumi kudathasethi yeCommon Voice
+validated-hours = Amahora Aqinisekisiwe
 whats-inside = Yini engaphakathi kwedathasethi yeCommon Voice?
 want-dataset-update = Ufuna izibuyekezo uma sikhipha inguqulo entsha yedathasethi yeCommon Voice? Bhalisela iphephandaba lethu.
 get-started-speech = Qalisa Ngokuqaphela Inkulumo
@@ -367,6 +372,7 @@ request-language-error =
 ## Languages Overview
 
 language-section-in-progress-new-description = Lezi zilimi okwamanje zingaphansi kokuthuthukiswa komphakathi. <localizationGlossaryLink>Ukwenziwa kwasendaweni kwewebhusayithi</localizationGlossaryLink> ne-<sesentenceCollectionGlossaryLink>iqoqo lemisho</sentenceCollectionGlossaryLink> kuyadingeka ukuze kuqaliswe.
+language-validation-progress = Inqubekelaphambili Yokuqinisekisa
 
 ## Contribution
 
@@ -454,6 +460,9 @@ clips-you-recorded = Iziqeshana Oziqophile
 clips-you-validated = Iziqeshana oziqinisekisile
 todays-recorded-progress = Inqubekelaphambili yanamuhla yeCommon Voice kuziqeshana eziqoshiwe
 todays-validated-progress = Inqubekelaphambili yanamuhla yeCommon Voice kuziqeshana iqinisekisiwe
+top-contributors = Abanikeli Abaphezulu
+validated-clips = Iziqeshana Eziqinisekisiwe
+total-approved = Isamba Esigunyaziwe
 set-visibility = Hlela ukubonakala kwami
 visibility-overlay-note = Qaphela: Uma kusethelwe kokuthi 'Kuyabonakala', lesi silungiselelo singashintshwa sisuka <profileLink>Ikhasi Lephrofayela</profileLink>
 show-ranking = Bonisa izinga lami
@@ -529,6 +538,7 @@ download-info = Sitshele ukuthi yini ongathanda ukuyiloda:
 download-profile-info = Kufaka phakathi i-imeyili, igama olisebenzisayo nolwazi lwezibalo zabantu, olutholakala ngokushesha
 download-profile-size = Ama-byte ambalwa
 download-recordings-info = Kuhlanganisa ama-mp3 nemisho ehlobene, kungase kuthathe isikhathi ukulungiselela
+download-recordings-size = Ngokuvamile ama-megabytes
 download-recordings-unavailable = Awukwazi ukucela ukurekhodwa kwakho ngenkathi esinye isicelo sisaqhubeka.
 download-recently-requested = Ungacela ukukhishwa okusha kokurekhodiwe njalo ezinsukwini ezingu-{ $days }.
 download-start = Loda idatha yephrofayela
@@ -597,6 +607,7 @@ contribution-misreadings-example-5-title = Sizophuma siyothenga ikhofi.
 contribution-misreadings-example-6-title = Siyaphuma ukuyothenga ikhofi.
 contribution-misreadings-example-7-title = Sizophuma siyothola ikhofi.
 contribution-misreadings-example-8-title = Inyosi yadlula ngesivinini.
+contribution-varying-pronunciations-title = Ukuphimisa amagama ngokuhlukahlukana
 contribution-varying-pronunciations-example-1-title = Ekhanda ugqoke ibharethi.
 contribution-varying-pronunciations-example-1-explanation = [I-‘Beret’ ILUNGILE noma ngabe isigcizelelo sikuhlamvu wokuqala (UK) noma wesibili (US)]
 contribution-varying-pronunciations-example-2-title = Isandla sakhe sasiphakanyisiwe.
