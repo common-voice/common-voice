@@ -8,6 +8,7 @@ loading = Loading…
 email-opt-in-info-title = Ngenela luhla lweliposi lembane lwa Common Voice.
 indicates-required = Tindzawo letimakwe ngenkhanyeti (*) tidzingekile.
 not-available-abbreviation = N/A
+banner-error-slow-1 = Siyacolisa, Common Voice uyahamba kancane. Siyayibonga inshisekelo yakho.
 banner-error-slow-link = Lukasi lenchubo
 error-something-went-wrong = Siyacolisa, kukhona lokungakahambi kahle
 
@@ -243,6 +244,7 @@ email-subscription-title = bhalisela tindzaba letihamba embili ngeliposi lembane
 
 benefits = Inzuzo
 rich-data = { "" }
+keep-track = Hlala wati ngenchubo yakho netinhlola kuletinye tilwimi.
 view-goals = Buka inchubo yakho mayicatsaniswa nenchubo yemsebenti jikelele.
 
 ## What's public
@@ -460,12 +462,14 @@ about-playbook-how-record-content-5 = <accuracyLink> Bona lokunengi eluhleni lwe
 
 ## How to grow language
 
+about-playbook-how-grow-language = Singalikhulisa kanjani lulwimi ngalokukhonsako ka Common Voice?
 about-playbook-how-grow-language-content-2 = Imicimbi
 about-playbook-how-grow-language-content-4 = Tinkhundla tekuchumana
 about-playbook-how-grow-language-content-6 = Kubambisana nekuchumana
 
 ## How to validate
 
+about-playbook-how-validate = Ngitokwati kanjani kutsi kumele ngivumele lifayela lelitfwebuliwe?
 
 ## How to access dataset
 
@@ -591,6 +595,7 @@ request-language-form-info =
     .label = Umniningwane ngalolulwimi
 request-language-form-info-explanation-list-1 = Emagama elulwimi lwakho
 request-language-form-info-explanation-list-2 = </addLink>Ema Code aka ISO </addLink> uma khona lowatiko
+request-language-form-info-explanation-list-3 = Ema-link emakhasi angcondvomshina langasita kutsi sicondzisise lolulwimi.
 request-language-google-recaptcha-required = reCAPTCHA uyadzingeka uma ufuna kuchubeka
 request-language-google-recaptcha-error = Kukhona lokuhambe kabi nge reCAPTCHA. Sicela uphindze wetame futsi.
 # Success page
@@ -722,6 +727,7 @@ easy-difficulty = Kumelula
 average-difficulty = Lokusemkhatsini
 difficult-difficulty = Kulikhuni
 pro-difficulty = Pro
+lose-goal-progress-warning = Ngekulungisa umbhalo weligoli lakho, ungalahlakelwa yinchubo yakho.
 want-to-continue = Uyafuna kuchubeka?
 finish-editing = Cedzela kulungisa kucala?
 lose-changes-warning = Kuhamba nyalo kusho kutsi utolahlekelwa tingucuko lotentile
@@ -818,6 +824,7 @@ demo-listen-subtitle = Ulungele kulekelela?
 
 ## Demo Dashboard
 
+demo-dashboard-card-header = Likhasi lakho likwenta uhlale wati ngenchubo yakho kanye neyemmango.
 
 ## Validation criteria
 
@@ -826,12 +833,14 @@ contribution-criteria-link = Condzisisa luhla lwekulekelela
 contribution-criteria-page-title = Luhla lwekulekelela
 contribution-for-example = kubekisa
 contribution-misreadings-title = Lokufundvwe kabi
+contribution-misreadings-description-extended-list-1 = Kushoda <strong>'A'</strong> or <strong>'The'</strong> ekucaleni kwale recording.
 contribution-misreadings-description-extended-list-2 = Kushoda <strong>'s'</strong> ekugcineni kweligama.
 contribution-misreadings-description-extended-list-5 = Kutsatsa emahlandla kufundza ligama.
 contribution-misreadings-example-1-title = Ema dinosaur lamakhulu ase Triassic.
 contribution-misreadings-example-2-title = I dinosaur lenkhulu yase Triassic.
 contribution-misreadings-example-2-explanation = [Should be ‘dinosaurs’]
 contribution-misreadings-example-3-title = Ema dinosaur lamakhulu ase Triassi-
+contribution-misreadings-example-3-explanation = [Recording cut off before the end of the last word]
 contribution-misreadings-example-4-title = Ema-dinosaurs lamakhulu ase Triassic. Yebo.
 contribution-misreadings-example-4-explanation = [More has been recorded than the required text]
 contribution-misreadings-example-5-title = Siyaphuma siyotfola likhofi.
@@ -940,6 +949,8 @@ sc-submit-err-select-lang = Khetsa lulwimi
 sc-submit-err-add-sentences = Sicela wengete imisho
 sc-submit-err-add-source = Sicela ungete umtfombo
 sc-submit-err-confirm-pd = Sicela ucinisekise kusti lemisho atotfolwa sive
+sc-submit-prompt =
+    .message = Imisho ayikamikiswa, unesiciniseko sekutsi ufuna kuhamba?
 sc-submit-title = Ngeta imisho
 sc-submit-select-language =
     .labelText = Khetsa Lulwimi
@@ -971,6 +982,8 @@ sc-add-err-submission = Inkinga yekumikisa
 
 ## ADD SENTENCES CONFIRMATION
 
+sc-confirm-are-you-sure =
+    .message = Imisho ayikamikiswa, unesiciniseko sekutsi ufuna kuhamba?
 sc-confirm-sentences-title = Cinisekisa Imisho Lemisha
 # Variables:
 #   $countOfSentences (Number) - Number of sentences the user has filled in the submission form
