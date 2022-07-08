@@ -18,6 +18,7 @@ error-something-went-wrong = Uxolo, kukhona okungahmabnga kahle
 ## Languages
 
 sat = Santali (Ol Chiki)
+zh-HK = Chinese (Hong Kong)
 
 # [/]
 
@@ -27,6 +28,7 @@ sat = Santali (Ol Chiki)
 content-license-text = Okuqukethwe kutholakala ngaphansi <licenseLink> Ilayisensi  ye-Creative Commons </licenseLink>
 share-title = Sisize sithole abanye abanganikela ngamazwi abo!
 share-text = Siza ukufundisa imishini ukuthi abantu bangempela bakhuluma kanjani, nikela ngezwi lakho ku-{ $link }
+back-top = Buyela Phezulu
 
 ## Home Page
 
@@ -37,6 +39,7 @@ help-us-title = Sisize siqinisekise imisho!
 help-us-explain = Cindezela okuthi dlala, lalela futhi usitshele: ingabe bawukhulume kahle lo musho ongezansi?
 no-clips-to-validate = Kubonakala sengathi azikho iziqeshana ongazilalela ngalolu limi. Sisize sigcwalise ulayini ngokurekhoda okunye manje.
 toggle-play-tooltip = Cindezela{ shortcut-play-toggle } ukuze uguqule imodi yokudlala
+speak-subtitle = Nikela ngezwi lakho
 speak-paragraph = Ukuqopha iziqeshana zezwi kuyingxenye ebalulekile yokwakha idathasethi yethu evulekile; abanye bangathi kumnandi futhi.
 listen-subtitle = Sisize siqinisekise amazwi
 voices-online = Amazwi a-Online Manje
@@ -71,12 +74,14 @@ username-email-not-demographic = Igama olisebenzisayo kanye ne-imeyili yakho nge
 
 ## Speak Shortcuts
 
+shortcut-discard-ongoing-recording-label = Lahla ukurekhoda okuqhubekayo
 request-language-text = Awuboni ulimi lwakho ku-Common Voice okwamanje?
 request-language-button = Cela Ulimi
 
 ## ProjectStatus
 
 status-title = Sisonke isimo sephrojekthi: bona ukuthi sesihambe kangakanani!
+status-contribute = Nikela Ngezwi Lakho
 status-hours =
     { $hours ->
         [one] Ihora elilodwa eliqinisekisiwe kuze kube manje!
@@ -99,6 +104,7 @@ thanks-for-account = Siyabonga ngokuqinisekisa i-akhawunti yakho, manje asakhe i
 why-demographic = Kungani kubalulekile lokhu?
 accept-privacy = Ngilungile uma uphatha lolu lwazi njengoba uchaza kokuthi <privacyLink>Inqubomgomo Yobumfihlo</privacyLink> ye-Mozilla
 login-signup = Ngena / Bhalisa
+download-profile = Loda Idatha Yami
 skip-submission-feedback = Yeqa Impendulo Yokuthunyelwe
 skip-submission-note = Qaphela: Usazodinga ukukhetha phakathi kokuthi Khuluma noma Lalela ukuze ushintshe uhlobo lomnikelo.
 help-accent = Udinga usizo oluthile ngokuphimisa?
@@ -107,6 +113,7 @@ help-variants = Udinga usizo oluthile ngokuhlukile?
 ## Profile - Email
 
 browse-file-title = Hudula bese udedela noma <browseWrap>Phequlula</browseWrap>
+connect-gravatar = Xhuma nge-Gravatar
 gravatar_not_found = Ayikho i-gravatar etholakele ye-imeyili yakho
 file_too_large = Ifayela elikhethiwe likhulu kakhulu
 
@@ -177,6 +184,7 @@ about-is-it-valid-text = Isiqeshana sezwi simakwa ngokuthi "sivumelekile" uma um
 about-yes-votes = ≥ 2 Amavoti athi Yebo
 about-yes-votes-text = Ukwenza kube yidathasethi yeCommon Voice, isiqeshana sezwi kufanele siqinisekiswe ngabasebenzisi ababili abahlukene.
 about-no-votes = ≥ 2 Amavoti athi Cha
+about-dataset-new = Idathasethi YeCommon Voice
 about-dataset-new-text = Idathasethi yeCommon Voice iqukethe amakhulu ezinkulungwane zamasampuli ezwi asiza onjiniyela bakhe amathuluzi okwazi izwi.
 about-stay-in-touch = Ngihlala kanjani ngithintana?
 about-stay-in-touch-text-1 = <emailFragment>Bhalisa</emailFragment> ohlwini lwethu lwama-imeyili ukuze ufunde ukuthi ungaba nengxenye kanjani emikhankasweni, imicimbi kanye nezici zokuklama ngokuhlanganyela ku-Common Voice.
@@ -262,6 +270,7 @@ data-download-modal = Usuzoqalisa ukuloda kwe-<size>GB</size>, qhubeka?
 data-subtitle = Sakha isethi yedatha evulekile netholakala esidlangalaleni yamazwi wonke umuntu angayisebenzisela ukuqeqesha izinhlelo zokusebenza ezikwazi ukukhuluma.
 data-get-started = <speechBlogLink>Qalisa Ngokuqaphela Inkulumo</speechBlogLink>
 data-other-title = Amanye amadathasethi ezwi
+data-bundle-button = Loda  i-Dataset Bundle
 data-bundle-description = Idatha yeCommon Voice kanye nawo wonke amanye amadathasethi ezwi ngenhla.
 data-download-singleword-title = Loda Ingxenye Yethagethi Yegama Elilodwa
 data-download-singleword-callout-v2 = Lena ingxenye yokusetshenziswa eqhutshwayo equkethe idatha ukuze inike amandla ukubonwa kwedijithi ekhulunyiwe kanye nokutholwa yebo / cha.
@@ -271,6 +280,7 @@ review-aborted = Ukulodiwe kunqanyuliwe. Uyafuna ukususa okurekhodiwe kwakho?
 review-submit-title = Buyekeza futhi uthumele
 review-submit-msg = Siyabonga ngokurekhoda!<lineBreak></lineBreak>Manje buyekeza futhi uhambise iziqeshana zakho ngezansi.
 review-keep-recordings = Gcina okuqoshiwe
+review-delete-recordings = Susa okwami okuqoshiwe
 
 ## Datasets Page
 
@@ -391,6 +401,7 @@ login-to-get-started = Ngena ngemvume noma bhalisa ukuze uqalise
 target-segment-first-card = Udlala iqhaza engxenyeni yethu yokuqala esiqondiswe kuyo
 target-segment-generic-card = Udlala iqhaza engxenyeni eqondiwe
 target-segment-first-banner = Siza wakhe engxenye yokuqala eqondiwe yeCommon Voice kokuthi { $locale }
+target-segment-add-voice = Engeza Izwi Lakho
 
 ## Reporting
 
@@ -400,6 +411,7 @@ report-offensive-language-detail = Umusho unolimi olungenanhlonipho noma olunenh
 report-grammar-or-spelling = Iphutha lohlelo lolimi / isipelingi
 report-grammar-or-spelling-detail = Umusho unephutha lohlelo noma lokubhalwa kwegama.
 report-different-language-detail = Ibhalwe ngolimi oluhlukile kunalokhu engikukhulumayo.
+report-difficult-pronounce = Kunzima ukuphimisa
 report-difficult-pronounce-detail = Iqukethe amagama noma imishwana okunzima ukuyifunda noma ukuyibiza.
 report-offensive-speech-detail = Isiqeshana sinolimi olungenanhlonipho noma oluhlambalazayo.
 
@@ -409,6 +421,8 @@ report-offensive-speech-detail = Isiqeshana sinolimi olungenanhlonipho noma oluh
 ## Dashboard
 
 toward-next-goal = Ibheke enhlosweni elilandelayo
+clips-you-recorded = Iziqeshana Oziqophile
+clips-you-validated = Iziqeshana oziqinisekisile
 todays-recorded-progress = Inqubekelaphambili yanamuhla yeCommon Voice kuziqeshana eziqoshiwe
 todays-validated-progress = Inqubekelaphambili yanamuhla yeCommon Voice kuziqeshana iqinisekisiwe
 set-visibility = Hlela ukubonakala kwami
@@ -458,6 +472,11 @@ receiving-emails-info =
     Okwamanje umiselwe ukuthola ama-imeyili afana nezikhumbuzi zegoli, 
     izibuyekezo zenqubekelaphambili zami kanye nezincwadi zezindaba mayelana ne-Common Voice
 not-receiving-emails-info = Okwamanje usethelwe <bold>CHA</bold> ukuthola ama-imeyili afana nezikhumbuzi zegoli, mina izibuyekezo zenqubekelaphambili kanye nezincwadi zezindaba mayelana ne-Common Voice
+n-clips-pluralized =
+    { NUMBER($count) ->
+        [one] { $count } isiqeshana
+       *[other] { $count } iziqeshana
+    }
 help-share-goal = Sisize sithole amazwi engeziwe, wabelane ngenjongo yakho
 # $type is one of share-goal-type-*
 share-n-daily-contribution-goal = Yabelana nge-{ $count } Inhloso yakho Yansuku Zonke Yeziqeshana we-{ $type }
@@ -478,6 +497,7 @@ return-to-edit-goal = Buyela lapha ukuze ushintshe injongo yakho noma nini.
 
 download-info = Sitshele ukuthi yini ongathanda ukuyiloda:
 download-profile-info = Kufaka phakathi i-imeyili, igama olisebenzisayo nolwazi lwezibalo zabantu, olutholakala ngokushesha
+download-profile-size = Ama-byte ambalwa
 download-recordings-info = Kuhlanganisa ama-mp3 nemisho ehlobene, kungase kuthathe isikhathi ukulungiselela
 download-recordings-unavailable = Awukwazi ukucela ukurekhodwa kwakho ngenkathi esinye isicelo sisaqhubeka.
 download-recently-requested = Ungacela ukukhishwa okusha kokurekhodiwe njalo ezinsukwini ezingu-{ $days }.
@@ -507,6 +527,7 @@ demo-welcome-subheader = Unentshisekelo yokufunda okwengeziwe nokuba negalelo ku
 ## Demo Datasets
 
 demo-language-select-card-header = I-Common Voice iyidathasethi yezwi enkulu kunazo zonke emhlabeni etholakala esidlangalaleni, enezilimi eziningi.
+demo-eofy-header = Ukukhishwa Kokuphela Konyaka kuka-2019
 demo-eofy-sub_header = Idathasethi Yezwi, Ilungele Ukulodwa
 
 ## Demo Account
@@ -580,6 +601,7 @@ sc-languages-fetch-error = Sehlulekile ukulanda izilimi ezitholakalayo. Iminikel
 
 sc-howto-addlang-title = Yengeza izilimi ozosebenza ngazo
 sc-howto-addlang-text = Uma usungenile ungakhetha izilimi zakho esigabeni sephrofayela.
+sc-howto-addsen-title = Engeza imisho emisha
 sc-howto-cite-title = Ungacaphuna Kanjani
 sc-howto-cite-item-1 = Ungafaka iwebhusayithi, isb "Common Voice - https://commonvoice.mozilla.org/"
 sc-howto-cite-item-2 = Ungasebenzisa isitayela sereferensi yezemfundo, isb isitayela sase-Harvard "Mozilla (2021) Common Voice. Itholakala ku https://commonvoice.mozilla.org/ (Kufinyelelwe: 15th September 2021)"
@@ -601,6 +623,8 @@ sc-howto-findpd-subtitle-2 = Hlanganyela nezinhlangano zendawo noma abantu ngaba
 
 sc-my-loading = Loda imisho yakho...
 sc-my-no-sentences = Ayikho imisho etholakele!
+sc-my-delete = Susa imisho ekhethiwe
+sc-my-deleting = Susa imisho ekhethiwe...
 sc-my-err-failed-delete = Yehlulekile ukususa imisho ekhethiwe… Sicela uzame futhi!
 
 ## REJECTED
@@ -661,6 +685,7 @@ sc-add-lang-process-notice = Uma ulimi lwakho lungekho ohlwini lapha, ungalucela
 
 sc-confirm-are-you-sure =
     .message = Imisho ayithunyelwanga, uqinisekile ukuthi ufuna ukuhamba?
+sc-confirm-sentences-title = Qinisekisa Imisho Emisha
 # Variables:
 #   $countOfSentences (Number) - Number of sentences the user has filled in the submission form
 sc-confirm-sentences-found =
