@@ -16,6 +16,9 @@
 
 ## Home Page
 
+wall-of-text-start =
+    Lentswe ke la tlholego, lentswe ke la motho. Ke gone ka moo re kgatlhegelang go direla metšhine ya rona thekenoloji e e berekang ya mantswe. Mme go dira dithulaganyo tsa mantswe, go tlhokega tshedimosetso e ntsi thata
+    ya mantswe.
 wall-of-text-more-mobile =
     Batho ba bantsi ga ba kgone go fitlhelela bontsi jwa tshedimosetso e e dirisiwang ke dikhampani tse dikgolo. Re akanya
     gore seo se kgoreletsa go tlhama dilo. Ka jalo re simolotse Project Common Voice, porojeke e e thusang gore
@@ -24,6 +27,10 @@ wall-of-text-more-desktop =
     Jaanong o ka aba lentswe la gago go re thusa go dira tshedimosetso ya mantswe e mongwe le mongwe a ka e dirisang
     go dira dithulaganyo tsa didirisiwa le webosaete. Bala polelo go thusa motšhine go ithuta gore batho ba bua jang. Leba tiro ya
     baabi ba bangwe go tokafatsa boleng. Go motlhofo fela jalo!
+wall-of-text-first =
+    Lentswe ke la tlholego, lentswe ke la motho. Ke gone ka moo re itumelelang go direla metšhine ya rona
+    thekenoloji e e berekang ya mantswe. Mme go dira dithulaganyo tsa mantswe, badiri ba tlhoka tshedimosetso e ntsi thata
+    ya mantswe.
 wall-of-text-second =
     Batho ba bantsi ga ba kgone go fitlhelela bontsi jwa tshedimosetso e e dirisiwang ke dikhampani tse dikgolo. Re akanya
     gore seo se kgoreletsa go tlhama dilo. Ka jalo re simolotse Common Voice, porojeke e e thusang gore
@@ -115,6 +122,10 @@ about-playbook-how-add-language-translating-content-2 =
     mme fa e se na puo ya gago, o ka <pontoonRequestLink>kopa gore e tsenngwe</pontoonRequestLink>.
     Mme go dira gore puo e nne teng mo porojekeng ya Common Voice,
     <githubRepoLink>kopa puo e ntšha mo GitHub</githubRepoLink>. <localizationFragment>Bona tshedimosetso e e oketsegileng mo webosaeteng ya thanolo</localizationFragment>.
+about-playbook-how-add-language-collecting-sentences-content-2 =
+    O ka <sentenceCollectorLinkAdd>tsenya dipolelo di le mmalwa</sentenceCollectorLinkAdd>,
+    kgotsa o ka <bulkImportDocsLink>tsenya tse dintsi o dirisa Github</bulkImportDocsLink>.
+    Gopola gore dipolelo di tshwanetse go nna <licenseLink>CC0 (kgotsa lefelo la botlhe)</licenseLink>, kgotsa o ka ikwalela tsa gago.
 
 ## How does localization work
 
@@ -131,8 +142,10 @@ about-playbook-how-add-sentences-content-2 = Dipolelo di tshwanetse go sekasekwa
 
 ## How to grow language
 
+about-playbook-how-grow-language-content-1 = Go dira ditshono tsa gore batho ba bantsi ba nne le seabe mo Common Voice go tlhomamisa gore tshedimosetso e thusa batho ba bantsi kafa go ka kgonegang ka gone. Re dirile didirisiwa le dithempoleite tse o ka di dirisang.
 about-playbook-how-grow-language-content-3 = O ka dira ditiragalo go thusa batho go aba. Go motlhofo go feta jaaka o akanya. O ka e dira mo inthanete ka kgolagano ya bidio kgotsa wa e dira ka namana fa go sireletsegile go dira jalo. <eventTemplate>Leba dithempoleite le didirisiwa tsa rona tsa go dira ditiragalo</eventTemplate>.
 about-playbook-how-grow-language-content-5 = O ka dirisa metswedi ya mafaratlhatlha a boitapoloso go fetisa molaetsa. Abalana mekwalo e e bontshang gore ke eng go le botlhokwa, mme o golagane le batho ba bangwe ba ba buang ka dikgang tse di jaaka ditshwanelo tsa puo, lentswe, kgotsa go tlhoka tekatekano mo thekenolojing. Bona dikakantsho tse dingwe ka <campaignLink>go dira letsholo, go akaretsa tshedimosetso e o ka e dirisang gape</campaignLink>.
+about-playbook-how-grow-language-content-7 = Bona ba bangwe ba ba amegang. E ka nna diyunibesithi, dikolo tsa dipuo, ditlhopha tsa dikemedi kgotsa merafe ya tshedimosetso ya saense. Dira sengwe mme o tlhalose sentle gore ba ka thusa jang le gore ka ntlha yang. <outreachTemplates>Bona ditimeile tsa rona tsa thempoleite ya go thusa</outreachTemplates>.
 
 ## How to validate
 
@@ -148,6 +161,7 @@ about-playbook-how-project-governance-content-1 = Mozilla Common Voice e kgonega
 
 ## Glossary
 
+hours-validated-explanation = Palo ya diura tsa kgatiso ya mantswe e e tlhomamisitsweng ke badirisi ba le 2 mo go ba le 3 ka tlhopho ya "Ee". Seno se bontsha botswelelopele jwa porojeke ka kakaretso ya mokgele wa diura tse 10k.
 
 ## Error pages
 
@@ -169,6 +183,7 @@ dataset-description-hours =
     Matseno mangwe le mangwe mo tshedimosetsong a na le MP3 e e tlhomologileng le faele e e tsamaisanang le yone ya mokwalo. Bontsi jwa diura tse <b>{ $total }</b> tse di gatisitsweng mo tshedimosetsong le tsone di akaretsa tshedimosetso ya dipalopalo jaaka dingwaga, bong, le segalo se se ka thusang go thapisa go nepa ga dithulaganyo tse di lemogang mantswe.
     
     Ga jaana tshedimosetso e na le diura tse <b>{ $valid }</b> tse di tlhomamisitsweng mo dipuong tse <b>{ $languages }</b>, mme ka metlha re tsenya mantswe le dipuo tse di oketsegileng. Leba <languagesLink>tsebe ya rona ya Dipuo</languagesLink> go kopa puo kgotsa go simolola go aba.
+resource-deepspeech-info = Thulaganyo ya go lemoga mantswe ya Mozilla ya Deep Speech e ka dirisiwa go dira dithulaganyo tsa go lemoga puo. Bala <githubLink>dintlhakakaretso tsa rona tsa Github</githubLink> kgotsa nna karolo ya <discourseLink>DeepSpeech Discourse</discourseLink> go ithuta gore o ka simolola jang.
 
 ## Download Modal
 
@@ -181,6 +196,11 @@ dataset-description-hours =
 
 ## Request Language Pages
 
+request-language-explanation-1 =
+    Tlhola gore a puo ya gago e kwadilwe mo lenaaneng la
+    <languagesPageLink>tsebe ya Dipuo Tsa Common Voice</languagesPageLink>.
+    Fa e seyo, tlatsa foromo eno mme re tla go <strong>romelela imeile
+    e e tlhalosang gore o ka tsenya puo ya gago jang</strong>.
 
 ## Languages Overview
 
@@ -225,6 +245,7 @@ download-request-link-single = Gape o ka kgona go kopisa le go manega di-URL tse
 
 ## Demo Account
 
+demo-account-card-body = Kafa mojeng re bontsha mesola mme re tlhalosa gore ke tshedimosetso efe e re e phasalatsang. Dirisa dilinki tse di fa tlase go simolola akhaonto ya Common Voice mo sedirisiweng sa gago.
 
 ## Demo Contribute
 
