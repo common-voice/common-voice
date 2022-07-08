@@ -20,6 +20,7 @@ error-something-went-wrong = Uxolo, kukhona okungahmabnga kahle
 
 nan-tw = Isi-Taiwanese (Minnan)
 sat = Santali (Ol Chiki)
+st = Southern Sotho
 tok = Toki Pona
 zh-HK = Chinese (Hong Kong)
 
@@ -28,6 +29,7 @@ zh-HK = Chinese (Hong Kong)
 
 ## Layout
 
+speak-now = Khuluma manje
 content-license-text = Okuqukethwe kutholakala ngaphansi <licenseLink> Ilayisensi  ye-Creative Commons </licenseLink>
 share-title = Sisize sithole abanye abanganikela ngamazwi abo!
 share-text = Siza ukufundisa imishini ukuthi abantu bangempela bakhuluma kanjani, nikela ngezwi lakho ku-{ $link }
@@ -38,6 +40,7 @@ back-top = Buyela Phezulu
 home-title = I-Common Voice iwuhlelo lwe-Mozilla lokusiza ukufundisa imishini ukuthi abantu bangempela bakhuluma kanjani.
 default-tagline = I-Mozilla Common Voice iyisinyathelo sokusiza ukufundisa imishini ukuthi abantu bangempela bakhuluma kanjani.
 home-cta = Khuluma, unikele lapha!
+wall-of-text-start = { "" }
 help-us-title = Sisize siqinisekise imisho!
 help-us-explain = Cindezela okuthi dlala, lalela futhi usitshele: ingabe bawukhulume kahle lo musho ongezansi?
 no-clips-to-validate = Kubonakala sengathi azikho iziqeshana ongazilalela ngalolu limi. Sisize sigcwalise ulayini ngokurekhoda okunye manje.
