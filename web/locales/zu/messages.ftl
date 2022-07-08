@@ -169,6 +169,7 @@ faq-why-10k-hours-a = Leli cishe inani lamahora adingekayo ukuqeqesha isistimu y
 faq-how-calc-hours-q = I-Common Voice iwabala kanjani amahora?
 faq-where-src-from-2-q = Uvelaphi umbhalo owumthombo?
 faq-why-not-ask-read-q = Kungani ungaceli abantu ukuthi bafunde ezincwadini noma izindatshana zeWikipedia ngezilimi ezahlukene?
+faq-why-not-ask-read-a = Ukwenza lolwazi olukuCommon Voice lube wusizo kakhulu, sithathe isinqumo sokuba sivumele umbhalo otholokala phansi kweCreative Commons (CC0) license kuphela. Ukusebenzisa izinga leCC0 kuchaza ukuthi kuba nzima kakhulu ukuthola umthombo wombhalo kepha uvumela noma ubani ukuba asebenzise idatha yezwi etholakalayo ngaphandle kwemikhawulo noma imvume ebuya kuMozilla. Ekugcineni, sifuna lolwazi oluqoqiwe lwezilimi eziningi ukuba lube wusizo kakhulu kuwo wonke umuntu, abacwaningi, amanyuvesi, amabhizinisi asaqala phansi, uhulumeni, izinhlangano zokuhlalisana nabantu kanye nabantu abazithandelayo.
 faq-why-account-q = Kungani kufanele ngibhalisele i-akhawunti?
 faq-is-account-public-q = Ingabe ulwazi lwe-akhawunti yami lusesidlangalaleni?
 faq-how-privacy-q = Uqinisekisa kanjani ukungaziwa nobumfihlo babantu abanikele ngamazwi abo?
@@ -327,6 +328,10 @@ confirm-size = Ulungele ukuqalisa ukuloda kwe-<b>{ $size }</b>
 confirm-no-identify = <b>Uyavuma</b> ukungazami ukucacisa ukuthi ungubani izikhulumi kudathasethi yeCommon Voice
 validated-hours = Amahora Aqinisekisiwe
 whats-inside = Yini engaphakathi kwedathasethi yeCommon Voice?
+dataset-description-hours =
+    Konke okulotshiwe kwidathasethi kuphuma ne-MP3 oyingqayizivele kanye nombhalo ohambelanayo . Okuningi <b>{ $total }</b> okwamahora aqoshiwe kwidathasethi analokhu, ulwazi ngezibalo zabantu njengeminyaka yabo, ubulili kanye nendlela abakhuluma ngayo ukuqinisekisa ukuba bezonemba izinjini zokuqashelwa kwenkulumo. 
+    
+    Okwamanje, idathasethi <b>{ $valid }</b> iqukethe amahora aqinisekisiweyo <b>{ $languages }</b> ngezilimi, kepha sihlezi sengeza ngamanye amazwi nezilimi. Bheka le <languagesLink>Ikhasi lezilimi</languagesLink> ukucela ulimi thizeni noma uqale ukuxhasa.
 want-dataset-update = Ufuna izibuyekezo uma sikhipha inguqulo entsha yedathasethi yeCommon Voice? Bhalisela iphephandaba lethu.
 get-started-speech = Qalisa Ngokuqaphela Inkulumo
 other-datasets = Amanye Amadathasethi Ezwi
@@ -688,6 +693,7 @@ sc-howto-review-criteria-4 = Uma umusho uhambisana nemibandela, chofoza inkinobh
 sc-howto-review-criteria-6 = Uma uphelelwa imisho okufanele uyibuyekeze, sicela usisize siqoqe imisho eminingi!
 sc-howto-findpd-title = Ukuthola imisho ekhona Kusizinda Somphakathi
 sc-howto-findpd-subtitle = Babheke ku-inthanethi
+sc-howto-findpd-text-2 = Khumbula ukuthi sidinga imvume yokushicilela le misho, ngakho ke qiniseka ukuba umbhalo wakho ungowe<wikipediaLink>isizinda sikawonke wonke</wikipediaLink>. Uma ingekho inkomba ecacile, thola umnini wombhalo, umbuze ukuthi uyafuna yini ukunikela ngombhalo wakhe esizindeni sikawonke wonke. Uma evuma, mcathulise ngenqubo ye <cc0WaiverLink>Isivumelwano Sokunikela</cc0WaiverLink>. Uma bengavumi ukunikela, awuvumelekile ukusebenzisa lowo mbhalo.
 sc-howto-findpd-tips = Nawa amathiphu okuthola imisho:
 sc-howto-findpd-tips-1 = Imithombo engcono kakhulu ongayibheka amaphodikasti, okulotshiweyo, imibhalo yamamuvi nanoma yini engaba khona ingaqukatha izingxoxo zansuku zonke.
 sc-howto-findpd-tips-3 = Ngeshwa asikwazi ukuba nezindatshana ze-Wikimedia okwamanje. Ngakho-ke ungakopishi ukunamathisela kusuka lapho.
