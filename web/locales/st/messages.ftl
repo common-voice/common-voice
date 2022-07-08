@@ -170,6 +170,7 @@ goal-share-text = Ke sa tswa iketsetsa sepheo sa ho fana ka lentswe ho #CommonVo
 
 ## HOW-TO
 
+sc-howto-cite-item-3 = Bakeng sa mongolo wa setjhaba o sa fumaneheng marang-rang, o ka sebedisa mokgwa wa ditshupiso tsa thuto, mohlala, mokgwa wa Harvard "Jess (2021) dithothokiso tsa ka tsa laecence ya setjhaba"
 
 ## MY SENTENCES
 
