@@ -17,6 +17,7 @@
 ## Home Page
 
 wall-of-text-more-desktop = Gona bjale o ka nea ka lentšu la gago go re thuša go aga dathabeise ya lentšu e bolegielgo yeo mang le mang a ka e šomiša go dira mananeotiriši a mafsa a didirišwa le wepesaete. Bala mafoko go thuša metšhene go ithuta gore na batho ba kgonthe ba bolela bjang. Lebediša mošomo wa baneedi ba babgwe go kaonefatša boemo. Go bonolo gakaalo!
+wall-of-text-second = Bogolo bja datha e dirišwago ke dikhampani tše dikgolo ga e hwetšagale ke bontši bja batho. Re nagana gore seo se šitiša go tšweletša mekgwa e mefsa. Ka gona re hlomile Common Voice, morero wa go thuša go dira gore temošo ya lentšu e bolege le go hwetšwa ke motho yo mongwe le yo mongwe.
 
 ## Account Benefits
 
