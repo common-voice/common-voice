@@ -223,6 +223,7 @@ home-cta = Khuluma, faka umbono lapha!
 wall-of-text-first = { "" }
 show-wall-of-text = Fundza Kabanti
 help-us-title = Sisite sicinisekise imisho
+help-us-explain = Chafata dlala, lalela & usitjele: Bawukhulume ngalokufanele yini umusho longentasi?
 vote-yes = Yebo
 vote-no = Cha
 toggle-play-tooltip = Chafata { shortcut-play-toggle } utokhona kudlala
@@ -256,6 +257,7 @@ view-goals = Buka inchubo yakho mayicatsaniswa nenchubo yemsebenti jikelele.
 
 whats-public = Yini lokungabonwa sive?
 email-not-public = Angeke liposi lakho lembane libonwe sive.
+recordings-and-locale-public = Linani lema recording netilwimi losita kuwo kutowentiwa kutsi kutfolwe sive sonkhe.
 username-optin-public = Ungakhetsa kwenta ligama lakho libonwe sive noma uligcine lingatiwa.
 username-email-not-demographic = Ligama lakho kanye neliposi lembane ngeke kumbandzakanywe nale data letokhishwa
 
@@ -427,9 +429,10 @@ about-subscribe-text = Uyafuna kuhlala uchumene na Common Voice?
 about-speak = Khuluma
 about-speak-text = Labasitako batfwebula ticephu temavi ngekufundza ebhange lemisho lenikelwe.
 about-listen-queue = Lidelezi lekulalela
-about-listen-queue-text = { "" }
+about-listen-queue-text = Emavi latfwebuliwe afakwa elayinini lekumikiswa lelilungiselela kutsi alalelwe.
 about-listen = Lalela
 about-is-it-valid = Lesicephu singiso yini?
+about-is-it-valid-text = Livi lelitfwebuliwe limakwa "valid" uma livotelwa Yebo.
 about-yes-votes = 2 wema voti latsi Yebo
 about-no-votes = 2 wema voti latsi Cha
 about-dataset-new = Common Voice Dataset
@@ -487,6 +490,7 @@ about-playbook-how-grow-language-content-6 = Kubambisana nekuchumana
 ## How to validate
 
 about-playbook-how-validate = Ngitokwati kanjani kutsi kumele ngivumele lifayela lelitfwebuliwe?
+about-playbook-how-validate-content-1 = Uma ungakhona <strong>balalele</strong> futsi <strong>ubacondzisise</strong>, kujwayelekile<strong>kukahle kubavumela</strong>.
 
 ## How to access dataset
 
