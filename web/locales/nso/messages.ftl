@@ -90,6 +90,7 @@ about-clip-graveyard-text = Setsopolwa sa Graveyard se na le dirakolo tša lent�
 ## What is a language
 
 about-playbook-what-is-language-content-1 = Go na le ditsela tše dintši tše o ka naganago ka polelo. Ka morero wa mehlala wa tlhathollo ya mantšu, Common Voice e bontšha maikutlo tlhokomelo go ‘kwešišano ya bohlale’, goba ‘na diboledi tša dipolelo tše ba ka kwešišanago gantši ge ba ka leka go dira bjalo?’.
+about-playbook-what-is-language-content-3 = Dipolelo tše dingwe di na le phapano e kgolo ya popolelo, tlotlontšu le mmiletšo ya mantšu. Ka lona lebaka le, re hlagiša <ctaLink> ‘Mehuta e fapanego’ </ctaLink> ka 2022. Se se nea setšhaba mokgwa wa go kgetholla maleme bona ka gare ga dathasete e kgolwanyane.
 
 ## How do I add a language
 
@@ -127,6 +128,7 @@ about-playbook-how-access-dataset-content-1 = O ka ya go <datasetsPage>letlakale
 
 ## How are decisions made
 
+about-playbook-how-project-governance-content-1 = Common Voice ya Mozilla gore go kgonegale e dirilwe ke setšhaba se fapa-fapanego sa bahlohleletši, ditsebi tša maleme, bo-rathutamahlale a datha, barutegi le baentšineare ya mananeo go tšwa lefaseng ka moka. Morero o tsamaiša ke Motheo wa Mozilla.
 
 ## Glossary
 
@@ -247,6 +249,7 @@ sc-howto-addsen-item-4 = Maswao-dikga. Maswao a kgethegilego le maswao-dikga a p
 sc-howto-addsen-item-5 = Mangwalo a tšwago ka ntle ga naga. Magwalo a swanetše go nepagala ka polelo yeo e bolelwago. Ka mohlala,  “ж” ke tlhaka ya alefabete ya se Russia eupša le ka mohla ga e dirišwe ka Seisimane ka gona ga ya swanela go bonagala mongwalong ofe goba ofe a Seisimane.
 sc-howto-addsen-post-1 = Re kgetha mafoko a tlhago/poledišano. Lege phapano ya sefonetiki le mantšu a fapanego mafokong a bohlokwa, re leka go dira gore mafoko a go gatišwa di be bose kudu ka moo re ka kgonago. Ka gona go ka ba monate ge o ka leka go boloka mafoko a gago a be a tlhago/kopanelago kamoo go ka kgonegalago.
 sc-howto-cite-pre-1 = Go bohlokwa gore o bolele moo o hweditšego lengwalo la tumelelo ya setšhaba go phema go ngwalolla tsebišo le go e utswa le go dumelela go boela bakeng sa <copyrightIssuesLink>mathata a tša ditokelo tša molao</copyrightIssuesLink>. Ditsela tše sego kae tše mmalwa tša go tsopola mošomo.
+sc-howto-review-criteria-5 = Ge e ba lefoko ga le fihlelele kritheriya tša ka godimo, tobetsa setobetšwa sa “Gana”. Ge e ba o sa kgonthišege ka lefoko, o ka boela wa e taboga gomme o fetele go e latelago.
 sc-howto-findpd-text-2 = Gopola gore re hloka tumelelo ya go phatlalatša dipolelo tšeo, ke kamoo re kgonthišetša gore mengwalo ke ya<wikipediaLink> batho ka moka</wikipediaLink>. Ge goba a gona dipontšho molaleng, boledišana le motho yo temana yeo e leng ya gagwe gomme o botšiša gore e ba ba nyaka go neela temana ya bona Sebakeng sa Setšhaba. Ge e ba ba nyaka, ba thuše go tsena mogatong a <cc0WaiverLink>Tumelelano ya Meneelo</cc0WaiverLink> . Ge e ba ga ba nyake go tsena tiragalo ya temana, ke moka wa dumelelwa go diriša temana yeo.
 sc-howto-findpd-partner-1 = Go na le mekgatlo e mentši ya setšhaba e ka nyakago go šomišana gomme e šetše e na le ditemana tše dintši tšeo ba ka neelago ka tšona go etša go lefelong la batho bohle. Ikgokaganye le diyunibesithi tša lefelong leo, Mebušo le mekgatlo e bulegilego go bolela ka morero le go kgopela thušo ya bona.
 sc-howto-findpd-partner-2 = Ditsebi tša maleme tše hlwahlwa le tšona di ka thuša, leka go ikopanya le setsebi sa maleme sa diyunibesithi ya lefelong leo (bobedi bja barutiši le baithuti) le go bona gore na ba ka thuša go kgoboketša mafoko e fapanego ya polelo ya geno.
