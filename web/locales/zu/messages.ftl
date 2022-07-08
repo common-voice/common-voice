@@ -18,6 +18,8 @@ error-something-went-wrong = Uxolo, kukhona okungahmabnga kahle
 
 ## Languages
 
+dsb = Sorbian, Lower
+hsb = Sorbian, Upper
 nan-tw = Isi-Taiwanese (Minnan)
 sat = Santali (Ol Chiki)
 st = Southern Sotho
@@ -250,6 +252,7 @@ about-playbook-how-record-content-5 = <accuracyLink>Bona okwengeziwe ngemibandel
 ## How to grow language
 
 about-playbook-how-grow-language = Singalukhulisa kanjani ngokuphumelelayo ulimi ku-Common Voice?
+about-playbook-how-grow-language-content-4 = Izinkundla zokuxhumana
 about-playbook-how-grow-language-content-6 = Ubambiswano namanethiwekhi
 about-playbook-how-grow-language-content-8 = <strong>Yakha ubuciko!</strong> Umphakathi wakho wolimi uzohluka, futhi lezi izindlela ezimbalwa zokuqalisa.
 
