@@ -124,6 +124,8 @@ request-language-explanation-2 = Hape re tla <strong>tsebisa mookamedi wa setjha
 
 ## Custom Goals
 
+# LINK will be replaced with the current URL
+goal-share-text = Ke sa tswa iketsetsa sepheo sa ho fana ka lentswe ho #CommonVoice -- ikopanye le nna ho thusa ho ruta metjhini hore na batho ba nnete ba bua jwang { $link }
 
 ## Profile Delete
 
