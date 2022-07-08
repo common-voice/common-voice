@@ -174,6 +174,7 @@ how-does-it-work-title-v2 = Isebenza kanjani i-Common Voice?
 ## How does it work section
 
 about-language-req-subtitle = Umuntu ucela ukwengezwa ulimi.
+about-localization-title = I-localisation yewebhusayithi
 about-localization-subtitle = Umbhalo wewebhusayithi uhunyushelwa kulolo limi.
 about-sentence-collection-subtitle = Imisho iqoqwa ukuze abantu bayifundele phezulu.
 about-new-lang-title = Ukwethulwa Kolimi Olusha
