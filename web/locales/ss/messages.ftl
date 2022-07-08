@@ -342,6 +342,7 @@ settings = Settings
 edit-profile = Lungisa likhasi lelichaza kabanti ngawe
 profile-create-success = Imphumelelo, likhasi lelichaza kabanti ngawe lakhekile!
 profile-close = Vala
+thanks-for-account = Siyabonga kucinisekisa kutsi le-account ngeyakho, nyalo asakhe likhasi lelichaza kabanti ngawe.
 why-demographic = Kumcoka ngani loku?
 accept-privacy-title = Umgomo wekugcina tindzaba tiyimfihlo.
 login-identity = Login Identity
@@ -379,8 +380,10 @@ faq-title = Imibuto levame kubutwa
 faq-what-cv-q = Yini Common Voice?
 faq-why-important-q = Kumcoka ngani loku?
 faq-how-get-q = Ngingayitfola njani le data yaka Common Voice?
+faq-when-release2-q = Utayikhipha nini i-data yaka Common Voice ngalolunye lulwimi?
 faq-why-mission-q = Leni Common Voice abe yincenye yemshikashika wa Mozilla?
 faq-what-cv-and-deepspeech-q = Yini umehluko wa Common Coice na Deep Speech?
+faq-why-different-speakers-q = Utidzingelani tikhulumi letehlukene ngelulwimi ngalunye?
 faq-why-my-lang-q = Leni lulwimi lwami lungangetwa?
 faq-how-calc-hours-q = Common Voice uwabala njani ema hora?
 faq-where-src-from-2-q = Umtfombo wemagama uchamukaphi?
@@ -507,6 +510,7 @@ data-download-button = Download Common Voice Data
 data-download-yes = Yebo
 data-download-deny = Cha
 data-download-license = License: <licenseLink>CC-0</licenseLink>
+data-download-modal = khani utocala ku download <size>{ $size }GB</size>, chubeka?
 data-get-started = <speechBlogLink>Cala manje nge Speech recognition</speechBlogLink>
 data-other-title = Lamanye ema-Datasets emavi...
 data-other-goto = Hamba ku { $name }
@@ -658,6 +662,8 @@ listen-instruction = { $actionType }<playIcon></playIcon> bawukhulume kahle lomu
 listen-again-instruction = Umsebenti lomuhle!<playIcon></playIcon> lalela uma ulungele
 listen-3rd-time-instruction = 2 phasi, wente kahle! <playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon>Kwekugcina!
+listen-empty-state = Sesiphelelwe ticephu letitfwebuliwe kutsi singachubeka sitfwebule ngalolulwimi...
+speak-empty-state = Sesiphelelwe imisho lesingayitfwebula ngalolwimi...
 speak-empty-state-cta = Nikela imisho
 record-button-label = Tfwebula livi lakho
 share-title-new = <bold>Sisite </bold>sitfole emavi lamanengi
@@ -858,6 +864,7 @@ contribution-background-noise-example-2-fixed-title = The giant dino <strong>[co
 contribution-background-noise-example-2-explanation = [Part of the text can’t be heard]
 contribution-background-noise-example-3-fixed-title = <strong>[Crackle]</strong> ema-dinasaur lamakhulu ase <strong>[crackle]</strong> -riassic.
 contribution-background-voices-title = Emavi langemuva
+contribution-background-voices-example-1-title = Ema-dinosaurs lamakhulu ase Triassic. <strong>[read by one voice]</strong>
 contribution-background-voices-example-1-explanation = Uyeta? <strong>[lokubitwe ngulomunye]</strong>
 contribution-volume-title = Linani lemsindvo
 contribution-reader-effects-title = Reader Effects
@@ -942,6 +949,11 @@ sc-rejected-none-found = Kute imisho lejikisiwe letfoliwe!
 
 sc-stats-title = Tibalo
 sc-stats-updating = Updating…
+sc-stats-error = Asikakhoni kulandza letinombolo. Sicela ubuye wetame futsi.
+# Variables:
+#   $sentenceCount (Number) - Total number of sentences uploaded through Sentence Collector
+#   $languageCount (Number) - Total number of languages these sentences represent
+sc-stats-summary = Sentence Collector wa Common Voice ukweleke { $sentenceCount } wemisho { $languageCount } ngetilwimi!
 
 ## ADD
 
