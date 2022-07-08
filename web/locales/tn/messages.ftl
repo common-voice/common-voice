@@ -55,6 +55,8 @@ faq-why-important-a =
     
     Go dira gore go lemoga mantswe e nne selo se se tlwaelegileng thata, re kgobokanya disampole tsa mantswe mo dipuong tse di buiwang thata mmogo le babui ba palo e potlana ba gantsi ba tseelwang kwa tlase ke ditirelo tsa kgwebo tsa go lemoga mantswe. Go phasalatsa tshedimosetso ya mantswe a a farologaneng go tla matlafatsa badiri, bagwebi, le batho botlhe ka kakaretso gore ba samagane le bothata jono ka bobone.
 faq-why-mission-a = Mozilla e batla go boloka webosaete e bulegetse mongwe le mongwe e bile e kgona go fitlhelesega. Go dira jalo, re tlhoka go matlafatsa badiri ba webosaete ka diporojeke tse di jaaka Common Voice. Fa dithekenoloji tsa mantswe di ntse di oketsega go feta dithulaganyo tse di tswalegileng, re dumela gore di tshwanetse go direla batho botlhe ka go lekana. Seo se raya go beeletsa mo dipuong tse dintsi le go dirisana le digalo tse di farologaneng le dipalopalo fa ba dira le go tlhatlhoba dithekenoloji tsa mantswe. Common Voice ke sedirisiwa  se mongwe le mongwe le ditlhopha tsa Mozilla le badiri go ralala lefatshe ba setse ba se dirisa le mo diporojekeng tsa rona.
+faq-what-quality-a = Re batla gore tshedimosetso ya Common Voice e bontshe boleng jwa modumo o thulaganyo ya go fetolela puo go mokwalo e tla o utlwang mo nageng, ka jalo re batla mefuta e e farologaneng. Mo godimo ga dibui tse di farologaneng, tshedimosetso e e nang le boleng jo bo farologaneng jwa modumo e tla ruta thulaganyo e e fetolelang puo go mokwalo go lepalepana le maemo a a sa tshwaneng a a leng teng mo lefatsheng, go tloga ka modumo o o utlwalang kwa morago fa batho ba bua go ya go modumo wa koloi. Fela fa kgatiso ya lentswe la gago e tlhaloganyesega, e tla bo e siametse tshedimosetso eo.
+faq-why-not-ask-read-a = Go dira gore tshedimosetso ya Common Voice e nne mosola kafa go ka kgonegang ka gone, re dirile tshwetso ya go letlelela fela mokwalo o o leng teng mo laesenseng ya Creative Commons (CC0). Go dirisa molawana wa CC0 go raya gore go thata go bona le go kgobokanya mokwalo wa konokono, mme go letla gore mongwe le mongwe a dirise tshedimosetso e e felelang ka gone ya mantswe kwantle ga dithibelo tsa tiriso kgotsa tetlelelo ya Mozilla. Kwa bofelong, re batla gore tshedimosetso ya dipuo tse dintsi e nne mosola go mongwe le mongwe kafa go ka kgonegang ka gone, go akaretsa babatlisisi, diyunibesithi, dithulaganyo tsa tshimologo, dipuso, mekgatlho ya boikaelelo jwa loago, le batho ba ba dirang dilo go itlosa bodutu.
 faq-what-determine-identity-a =
     Tshedimosetso ya Common Voice ke sedirisiwa se se leng teng sa batho botlhe se se ka dirisiwang go thapisa dithulaganyo tse di farologaneng tsa puo. Go sireletsa tshireletsego ya baabi ba rona, re kopa gore mongwe le mongwe yo a itseelang tshedimosetso ya Common Voice a tlotle bosephiri jwa baabi.
     
@@ -108,6 +110,10 @@ about-header-description-v2 =
 
 ## Datasets Page
 
+dataset-description-hours =
+    Matseno mangwe le mangwe mo tshedimosetsong a na le MP3 e e tlhomologileng le faele e e tsamaisanang le yone ya mokwalo. Bontsi jwa diura tse <b>{ $total }</b> tse di gatisitsweng mo tshedimosetsong le tsone di akaretsa tshedimosetso ya dipalopalo jaaka dingwaga, bong, le segalo se se ka thusang go thapisa go nepa ga dithulaganyo tse di lemogang mantswe.
+    
+    Ga jaana tshedimosetso e na le diura tse <b>{ $valid }</b> tse di tlhomamisitsweng mo dipuong tse <b>{ $languages }</b>, mme ka metlha re tsenya mantswe le dipuo tse di oketsegileng. Leba <languagesLink>tsebe ya rona ya Dipuo</languagesLink> go kopa puo kgotsa go simolola go aba.
 
 ## Download Modal
 
@@ -182,6 +188,7 @@ about-header-description-v2 =
 
 ## HOW-TO
 
+sc-howto-findpd-text-2 = Gopola gore re tlhoka tetla ya go phasalatsa dipolelo tseo, ka jalo ka metlha tlhomamisa gore mokwalo ke wa <wikipediaLink>lefelong la botlhe</wikipediaLink>. Fa go se na sepe se se bontshang ka tlhamalalo, ikgolaganye le motho yo mokwalo e leng wa gagwe mme o mmotse gore o batla go abela Lefelo la Botlhe mokwalo wa gagwe. Fa a batla go dira jalo, mo thuse gore a tsene mo thulaganyong ya <cc0WaiverLink>Tumalano ya Dikabo</cc0WaiverLink>. Fa a sa batle go aba mokwalo oo, ga o letlelelwe go o dirisa.
 
 ## MY SENTENCES
 
