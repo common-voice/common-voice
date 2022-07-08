@@ -1,5 +1,7 @@
 ## General
 
+yes-receive-emails = Yebo, ngitfumele liposi lembane. Ngingatsandza kuhlala ngati kabanti ngenchubo yalomsebenti we Common Voice
+privacy-info = Siyetsembisa kutsi imininingwane yakho sitoyiphatsa ngebunono. Fundza kabanti ku  <privacyLink>Privacy Notice</privacyLink>
 return-to-cv = Buyela ku Common Voice
 email-input =
     .label = Liposi lembane
