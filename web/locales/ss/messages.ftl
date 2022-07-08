@@ -9,6 +9,7 @@ email-opt-in-info-title = Ngenela luhla lweliposi lembane lwa Common Voice.
 indicates-required = Tindzawo letimakwe ngenkhanyeti (*) tidzingekile.
 not-available-abbreviation = N/A
 banner-error-slow-1 = Siyacolisa, Common Voice uyahamba kancane. Siyayibonga inshisekelo yakho.
+banner-error-slow-2 = Kunekugcwala kwemgwaco wetfu futsi sisaphenya lenkinga.
 banner-error-slow-link = Lukasi lenchubo
 error-something-went-wrong = Siyacolisa, kukhona lokungakahambi kahle
 
@@ -217,6 +218,7 @@ logout = Phuma
 
 ## Home Page
 
+home-title = Common Voice lichaza lelidlalwa nguMozilla lelisita kufundzisa imishina kutsi bantfu mbamba bakhuluma kanjani.
 home-cta = Khuluma, faka umbono lapha!
 wall-of-text-first = { "" }
 show-wall-of-text = Fundza Kabanti
@@ -245,7 +247,9 @@ email-subscription-title = bhalisela tindzaba letihamba embili ngeliposi lembane
 
 benefits = Inzuzo
 rich-data = { "" }
+improve-audio = Umniningwane wakho ulekelela le data yemavi latfwebuliwe ekuceceshene tinsita tekuva inkhulumo kutsi ibe ngulekhaliphile.
 keep-track = Hlala wati ngenchubo yakho netinhlola kuletinye tilwimi.
+compare-progress = Buka kutsi inchubo yakho ihamba njani uma icatsaniswa nalabanye labahlanganyele mhlaba wonkhe jikelele.
 view-goals = Buka inchubo yakho mayicatsaniswa nenchubo yemsebenti jikelele.
 
 ## What's public
@@ -253,6 +257,7 @@ view-goals = Buka inchubo yakho mayicatsaniswa nenchubo yemsebenti jikelele.
 whats-public = Yini lokungabonwa sive?
 email-not-public = Angeke liposi lakho lembane libonwe sive.
 username-optin-public = Ungakhetsa kwenta ligama lakho libonwe sive noma uligcine lingatiwa.
+username-email-not-demographic = Ligama lakho kanye neliposi lembane ngeke kumbandzakanywe nale data letokhishwa
 
 ## Speak & Listen Shortcuts
 
@@ -388,6 +393,7 @@ faq-what-cv-and-deepspeech-q = Yini umehluko wa Common Coice na Deep Speech?
 faq-is-goal-assistant-q = Ngabe umgomo wa Common Voice kwakha umsiti wemavi?
 faq-why-different-speakers-q = Utidzingelani tikhulumi letehlukene ngelulwimi ngalunye?
 faq-why-my-lang-q = Leni lulwimi lwami lungangetwa?
+faq-why-10k-hours-q = Leni emahora langu 10,000 lacinisekisiwe ngelulwimi abe ligoli lekutfwebula livi?
 faq-how-calc-hours-q = Common Voice uwabala njani ema hora?
 faq-where-src-from-2-q = Umtfombo wemagama uchamukaphi?
 faq-why-account-q = Kudzingeke ngani kutsi ngibhalisele i-account?
@@ -456,15 +462,18 @@ about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollec
 
 about-playbook-how-localize = Le-site ye localization isebenta njani?
 about-playbook-how-localize-content-1 = Kuhumushwa kwelikhasi la Common Voice kwenteka ku<strong>Pontoon</strong>.
+about-playbook-how-localize-content-4 = Lelikhasi litawusungulwa uma selifike ku 75% kutsi liphele.
 about-playbook-how-localize-content-5 = Bukela i-video yetfu lechaza kabanti kuze usitakale.
 
 ## How to add sentences
 
 about-playbook-how-add-sentences = Ngiyingeta njani imisho?
+about-playbook-how-add-sentences-content-3 = Ungasebentisa <scraperLink>umhlungi wemisho</scraperLink> kusekela imisho lemifisha lephuma ku Wikipedia
 
 ## How to record quality
 
 about-playbook-how-record-quality = Ngikhona njani kutfwebula ticephu letisezingeni lelisecophelweni lelisetulu?
+about-playbook-how-record-content-2 = Gwema imisindvo ngemuva- kumele kube lula kukuva.
 about-playbook-how-record-content-3 = Fundza lemisho ngekucophelela-ungashiyi, ungashintji futsi ungangeti emagama.
 about-playbook-how-record-content-5 = <accuracyLink> Bona lokunengi eluhleni lwekungaphazami </accuracyLink>
 
@@ -563,6 +572,7 @@ subscribe = Bhalisa
 get-started-speech = Vele ucale nge Speech Recognition
 other-datasets = Lamanye ema-Datasets emavi
 feedback-q = Unawo umbiko longasitjela wona?
+resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ livulekele <docsLink>sikhwama sesive</docsLink> bacwaningi labatfutfukisa ingcayizivela yetindlela te AI
 community-playbook = Bhukwana wemmango
 data-other-ted-name = TED-LIUM Corpus
 go-discourse = Hamba ku Discourse
@@ -675,6 +685,9 @@ listen-last-time-instruction = <playIcon></playIcon>Kwekugcina!
 listen-empty-state = Sesiphelelwe ticephu letitfwebuliwe kutsi singachubeka sitfwebule ngalolulwimi...
 speak-empty-state = Sesiphelelwe imisho lesingayitfwebula ngalolwimi...
 speak-empty-state-cta = Nikela imisho
+speak-loading-error =
+    Asikakhoni kutfola imisho longayikhuluma.
+    Sicela uphidze wetame futsi
 record-button-label = Tfwebula livi lakho
 share-title-new = <bold>Sisite </bold>sitfole emavi lamanengi
 keep-track-profile = Gcina inchubo yakho ngelikhasi lelichaza kabanti ngawe
@@ -792,6 +805,7 @@ download-profile-size = A few bytes
 download-recordings-title = Lokutfwebuliwe
 download-recordings-info = Imisho lehlobene ingatsatsa lichi kutsi ilunge
 download-recordings-size = Typically megabytes
+download-recordings-unavailable = Angeke ukhone kucela i-recording uma lesinye sicelo sisachubeka.
 download-recently-requested = Ungacelwa kukhishelwa i-recording yakho onkhe{ $days } malanga.
 download-size = Linani
 download-selected = Lokukhetsiwe
@@ -992,6 +1006,7 @@ sc-submit-ph-read-how-to =
     .placeholder = Fundza Kanjani wetfu uma ute siciniseko sekwenaba
 sc-submit-button =
     .submitText = Mikisa
+sc-submit-filtered = Imisho lesefiwe ngenca yekufeyila timfanelo  (sicela umikise losekulungisiwe kube misho lemisha):
 sc-submit-guidelines = Sicela uhlole <howToLink>umkhombandlela</howToLink>.
 
 ## ADD LANGUAGE
@@ -1109,8 +1124,17 @@ sc-review-form-button-approve-shortcut = Y
 sc-review-form-button-reject-shortcut = N
 # Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
 sc-review-form-button-skip-shortcut = S
+sc-review-form-keyboard-usage-custom = Ungasebentisa tindlela tekujubelisa ku keyboard:  { sc-review-form-button-approve-shortcut } kuVuma,  { sc-review-form-button-reject-shortcut } Kwala, { sc-review-form-button-skip-shortcut } kweca
 sc-review-form-button-submit =
     .submitText = Cedza kubuyeketa
+# Variables:
+#   $sentences (Number) - Number of sentences the user has reviewed in this session
+sc-review-form-reviewed-message =
+    { $sentences ->
+        [0] Kute umusho lobuketiwe.
+        [one] 1 umusho lobuketiwe. Siyabonga!
+       *[other] { $sentences } Imisho lesevele ibuketiwe. Siyabonga!
+    }
 sc-review-form-review-failure = Kubuyeketwa akusaseveki. Sicela ubuye wetame futsi.
 sc-review-link = Buyeketa
 
