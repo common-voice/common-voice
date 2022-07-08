@@ -385,6 +385,7 @@ faq-how-get-q = Ngingayitfola njani le data yaka Common Voice?
 faq-when-release2-q = Utayikhipha nini i-data yaka Common Voice ngalolunye lulwimi?
 faq-why-mission-q = Leni Common Voice abe yincenye yemshikashika wa Mozilla?
 faq-what-cv-and-deepspeech-q = Yini umehluko wa Common Coice na Deep Speech?
+faq-is-goal-assistant-q = Ngabe umgomo wa Common Voice kwakha umsiti wemavi?
 faq-why-different-speakers-q = Utidzingelani tikhulumi letehlukene ngelulwimi ngalunye?
 faq-why-my-lang-q = Leni lulwimi lwami lungangetwa?
 faq-how-calc-hours-q = Common Voice uwabala njani ema hora?
@@ -463,6 +464,7 @@ about-playbook-how-add-sentences = Ngiyingeta njani imisho?
 ## How to record quality
 
 about-playbook-how-record-quality = Ngikhona njani kutfwebula ticephu letisezingeni lelisecophelweni lelisetulu?
+about-playbook-how-record-content-3 = Fundza lemisho ngekucophelela-ungashiyi, ungashintji futsi ungangeti emagama.
 about-playbook-how-record-content-5 = <accuracyLink> Bona lokunengi eluhleni lwekungaphazami </accuracyLink>
 
 ## How to grow language
@@ -496,6 +498,7 @@ glossary = Luhla lwemagama
 localization = Localization
 localization-explanation = { "" }
 sentence-collection = Kukolekwa kwemisho
+hours-recorded-explanation = Linani lema hora ekutfwebula emavi lesiwakolekile kute kube ngunamuhla.
 sst = Inkhulumo iyiswa emagameni (STT)
 sst-explanation = Bucwephesha be Speech-to-text (STT) bushintja livi kube ngumbhalo.
 de-identified = Kususwe imininingwane yemniyo
@@ -528,6 +531,7 @@ terms-agree = Ngiyavuma
 terms-disagree = Angivumi
 review-aborted = Kutfumela kumisiwe. Uyafuna kwesula ema-recording akho?
 review-submit-title = Buyeketa & Mikisa
+review-submit-msg = Siyabonga kutfwebula! <lineBreak></lineBreak>Nyalo buyeketa bese umikisa ticephu takho letitfwebuliwe langentasi.
 review-recording = Buyeketa
 review-rerecord = Tfwebula kabusha
 review-cancel = Yekela kumiskisa
@@ -688,6 +692,7 @@ report-offensive-language-detail = Lelisentenisi linenhlamba futsi liyalulata.
 report-grammar-or-spelling = Grammatical / spelling error
 report-grammar-or-spelling-detail = Lomusho unemaphutsa ekuhlelweni nasekubhalweni kwawo
 report-different-language = Lulwimi lolwehlukile
+report-different-language-detail = Kubhalwe ngelulwimi loluhlukile kunalele ngilikhulumako.
 report-difficult-pronounce = Kulukhuni kuyisho
 report-offensive-speech = Inkhulumo lecansulako
 report-offensive-speech-detail = Lesiceshana sinetinhlamba futsi siyalulata.
