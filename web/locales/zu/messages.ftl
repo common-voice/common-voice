@@ -66,6 +66,7 @@ join-newsletter = Joyina ngokuzikhethela ohlwini lwethu lwe-imeyili ukuze uthole
 
 ## What's public
 
+whats-public = Yini Esesidlangalaleni?
 email-not-public = Ngeke senze i-imeyili yakho ibe sesidlangalaleni.
 recordings-and-locale-public = Inombolo yokurekhodwa nokuthi iziphi izilimi onikela kuzo kuzoba sesidlangalaleni.
 username-optin-public = Ungakhetha ukwenza igama olisebenzisayo libe sesidlangalaleni noma lingaziwa.
@@ -194,6 +195,7 @@ about-dataset-new-text = Idathasethi yeCommon Voice iqukethe amakhulu ezinkulung
 about-stay-in-touch = Ngihlala kanjani ngithintana?
 about-stay-in-touch-text-1 = <emailFragment>Bhalisa</emailFragment> ohlwini lwethu lwama-imeyili ukuze ufunde ukuthi ungaba nengxenye kanjani emikhankasweni, imicimbi kanye nezici zokuklama ngokuhlanganyela ku-Common Voice.
 about-stay-in-touch-text-2 = Ungakwazi ukuhlangana nabanye emiphakathini yolimi lwe-Mozilla ngokujoyina <discourseLink>Discourse</discourseLink> yezingxoxo zezihloko, noma <matrixLink>Matrix</matrixLink> ukuze uthole iseluleko esisheshayo.
+about-nav-why-common-voice = Kungani ?
 about-nav-how-it-works-2 = Isebenza kanjani i-Common Voice?
 about-nav-playbook = Funda ukuthi libanjwa kanjani iqhaza
 
@@ -445,6 +447,7 @@ validations =
 
 ## Dashboard
 
+your-languages = Izilimi Zakho
 toward-next-goal = Ibheke enhlosweni elilandelayo
 clips-you-recorded = Iziqeshana Oziqophile
 clips-you-validated = Iziqeshana oziqinisekisile
@@ -460,6 +463,7 @@ get-started-goals = Qalisa ngemigomo
 create-custom-goal = Yakha umgomo wangokwezifiso
 goal-type = Hlobo luni lomgomo ofuna ukulakha?
 both-speak-and-listen-long = Kokubili (Khuluma futhi Ulalele)
+weekly-goal = Injongo Yamaviki Onke
 lose-goal-progress-warning = Ngokushintsha injongo yakho, ungase ulahlekelwe inqubekelaphambili okukhona.
 want-to-continue = Ufuna ukuqhubeka?
 finish-editing = Qedela ukuhlela kuqala?
@@ -538,6 +542,7 @@ download-request-link-text = I-Zip #{ $offset } ye-{ $total }
 
 ## Landing
 
+welcome-staff = Siyabamukela { $company } abasebenzi!
 help-contribute = Ungasiza ukwakha isethi yedatha ehlukahlukene, yomthombo ovulekile ngokudala iphrofayela yeCommon Voice futhi unikele ngezwi lakho.
 login-company = Ngena / Bhalisa nge-imeyili ye-{ $company }
 profile-not-required = Ukuba nephrofayela akudingekile ukuthi unikele nakuba kusiza, bona ukuthi kungani ngezansi.
@@ -794,6 +799,7 @@ sc-login-err-try-again = Ngicela uzame futhi.
 
 sc-personal-err-lang-not-found = Ayikwazanga ukususa ulimi: ulimi alutholakali
 sc-personal-err-remove = Ayikwazanga ukususa ulimi
+sc-personal-your-languages = Izilimi Zakho:
 # Variables:
 #   $sentences (Number) - Number of sentences that were added by the currently logged in user for this language
 sc-personal-added-by-you = { $sentences } kwengezwe nguwe
