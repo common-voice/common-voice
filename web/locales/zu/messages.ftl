@@ -130,7 +130,7 @@ help-variants = Udinga usizo oluthile ngokuhlukile?
 
 ## Profile - Email
 
-browse-file-title = Hudula bese udedela noma <browseWrap>Phequlula</browseWrap>
+browse-file-title = Layisha ifayela lesithombe
 connect-gravatar = Xhuma nge-Gravatar
 gravatar_not_found = Ayikho i-gravatar etholakele ye-imeyili yakho
 file_too_large = Ifayela elikhethiwe likhulu kakhulu
@@ -312,6 +312,7 @@ datasets-headline = Sakha umthombo ovulekile, isethi yedatha yezilimi eziningi y
 validated-hr-total = Isamba samahora esiqinisekiswe u-Hr. Isamba
 overall-hr-total = Isamba samahora sesisonke
 number-of-voices = Inombolo Yamazwi
+email-to-download = Faka i-imeyili ukuze udownlode
 confirm-size = Ulungele ukuqalisa ukuloda kwe-<b>{ $size }</b>
 confirm-no-identify = <b>Uyavuma</b> ukungazami ukucacisa ukuthi ungubani izikhulumi kudathasethi yeCommon Voice
 validated-hours = Amahora Aqinisekisiwe
@@ -621,6 +622,7 @@ contribution-misreadings-example-4-explanation = [Okurekhodiwe kuningi kunaloku 
 contribution-misreadings-example-5-title = Sizophuma siyothenga ikhofi.
 contribution-misreadings-example-6-title = Siyaphuma ukuyothenga ikhofi.
 contribution-misreadings-example-7-title = Sizophuma siyothola ikhofi.
+contribution-misreadings-example-7-explanation = [Ungabibikho u-‘a’ embhalweni wokuqala]
 contribution-misreadings-example-8-title = Inyosi yadlula ngesivinini.
 contribution-varying-pronunciations-title = Ukuphimisa amagama ngokuhlukahlukana
 contribution-varying-pronunciations-example-1-title = Ekhanda ugqoke ibharethi.
@@ -631,8 +633,10 @@ contribution-background-noise-description-extended = Uma ukurekhodwa kunqamuka, 
 contribution-background-noise-example-1-fixed-title = <strong>[ukuthimula]</strong> Ama-dinosaurs amakhulu we-<strong>[ukukhwehlela]</strong> we-Triassic.
 contribution-background-noise-example-2-fixed-title = I-dino enkulu <strong>[ukukhwehlela]</strong> i-Triassic.
 contribution-background-noise-example-2-explanation = Ingxenye yombhalo ayizwakali
+contribution-background-noise-example-3-fixed-title = <strong>[Crackle]</strong> ama-dinosaurs amakhulu we-<strong>[crackle]</strong> -riassic.
 contribution-background-voices-description-extended = Uma ukurekhodwa kunqamuka, noma kunokuqhekeka, yenqaba ngaphandle kokuba wonke umbhalo ungazwakala.
 contribution-background-voices-example-1-title = Ama-dinosaurs amakhulu e-Triassic. <strong>[funda ngezwi elilodwa]</strong>
+contribution-background-voices-example-1-explanation = Uyeza? <strong>[called by another]</strong>
 
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
