@@ -82,6 +82,7 @@ about-clip-graveyard-text = Setsopolwa sa Graveyard se na le dirakolo tša lent�
 ## Community Playbook Content
 ## What is a language
 
+about-playbook-what-is-language-content-1 = Go na le ditsela tše dintši tše o ka naganago ka polelo. Ka morero wa mehlala wa tlhathollo ya mantšu, Common Voice e bontšha maikutlo tlhokomelo go ‘kwešišano ya bohlale’, goba ‘na diboledi tša dipolelo tše ba ka kwešišanago gantši ge ba ka leka go dira bjalo?’.
 
 ## How do I add a language
 
@@ -110,6 +111,7 @@ about-playbook-how-grow-language-content-5 = O ka šomiša lekgotla la polediša
 
 ## How to validate
 
+about-playbook-how-validate-content-3 = Ge e ba o nagana gore mokgwa wa go piletšo ya mantšu e dira gore go<strong> se ke gwa kgonega go kwešišana</strong>, goba go na <strong> lešata le lentši</strong>, goba go ba le<strong>batho ba bagwe bao ba bolelago</strong>, bjale o ka gana setsopolwa seo. <accuracyLink>Bona tshedimošo ye nngwe ya kritheriya ya go nepagala</accuracyLink>.
 
 ## How to access dataset
 
@@ -167,12 +169,14 @@ dataset-description-hours =
 
 ## Dashboard
 
+visibility-explainer = Peakanyo ye e laola ke ponagalo ya kelo ya baetapele. Ge e fihlilwe, tšwelopele ya gago e tla ba sephiring. Se se bolela gore seswantšho sa gago, leina le tšwelopele di ka se bonagale godimo ga kelo ya baetapele. Hlokomela gore mpshafatšo ya kelo ya baetapele itšea ~{ $minutes }metsotso go hlagiša diphetogo.
 
 ## Custom Goals
 
 
 ## Profile Delete
 
+remove-info = Re tla hlahloba kgopelo ya gago ya go tloša direkhoto tša lentšu la gago dathaseteng. Ge e ba kgopelo ya gago e amogetšwe, re tla ikgokaganya le bao ba taonelouteng dathasete gomme re tla ba kgopela gore le bona ba phumole direkhoto tša lentšu la gago.
 
 ## Profile Download
 
@@ -227,6 +231,7 @@ sc-howto-addsen-item-1 = Mafoko ka moka ao o wa rometšego a swanetše go ba ka 
 sc-howto-addsen-item-2 = Dinomoro. Ga se gwa swanela go ba le dinoromo mangwalong a mothopo gobane di ka baka mathata ge o hlaboša lentšu. Tsela yeo palo e balwago ka gona e ithekgile ka kamano ya taba gomme e ka hlagiša gakantšhago go dathasete. Ka mohlala, palo ya “2409” e ka balwa ka nepo e le “mašome-pedi le metšo nne lefeela le senyane” le “dikete tše pedi le makgolo a mane le metšo e senyane”.
 sc-howto-addsen-item-3 = Dikhutsofatšo le mantšu a khutsofadišwego go swana le “USA”  goba “ICE” di swanetše go phengwa mongwalong wa mothopo  ka baka la gore di ka balwa ka tsela e sa dumelelanago le mopeleto wa tšona. Go oketša moo, go ka ba le dipalo tše dintši tše nepagetšego bakeng sa khutsofatšo e le nngwe. Ka mohlala, khutsofatšo “ICE” e ka bitšwa “I-C-E” goba e le lentšung letee.
 sc-howto-addsen-item-4 = Maswao-dikga. Maswao a kgethegilego le maswao-dikga a polelo e swanetše go akaretšwa feela ge go hlokagala. Ka mohlala, aphostrofi e akaretšwa mantšung a Seisemane bjalo ka “o seke” le “re” gomme e swanetše go tsentšhwa mothopong wa tša mongwalong, eupša ga go bonolo gore o hloke leswao le ikgethegilego bjalo ka “@” goba “#”.
+sc-howto-addsen-item-5 = Mangwalo a tšwago ka ntle ga naga. Magwalo a swanetše go nepagala ka polelo yeo e bolelwago. Ka mohlala,  “ж” ke tlhaka ya alefabete ya se Russia eupša le ka mohla ga e dirišwe ka Seisimane ka gona ga ya swanela go bonagala mongwalong ofe goba ofe a Seisimane.
 sc-howto-addsen-post-1 = Re kgetha mafoko a tlhago/poledišano. Lege phapano ya sefonetiki le mantšu a fapanego mafokong a bohlokwa, re leka go dira gore mafoko a go gatišwa di be bose kudu ka moo re ka kgonago. Ka gona go ka ba monate ge o ka leka go boloka mafoko a gago a be a tlhago/kopanelago kamoo go ka kgonegalago.
 sc-howto-findpd-text-2 = Gopola gore re hloka tumelelo ya go phatlalatša dipolelo tšeo, ke kamoo re kgonthišetša gore mengwalo ke ya<wikipediaLink> batho ka moka</wikipediaLink>. Ge goba a gona dipontšho molaleng, boledišana le motho yo temana yeo e leng ya gagwe gomme o botšiša gore e ba ba nyaka go neela temana ya bona Sebakeng sa Setšhaba. Ge e ba ba nyaka, ba thuše go tsena mogatong a <cc0WaiverLink>Tumelelano ya Meneelo</cc0WaiverLink> . Ge e ba ga ba nyake go tsena tiragalo ya temana, ke moka wa dumelelwa go diriša temana yeo.
 sc-howto-findpd-partner-1 = Go na le mekgatlo e mentši ya setšhaba e ka nyakago go šomišana gomme e šetše e na le ditemana tše dintši tšeo ba ka neelago ka tšona go etša go lefelong la batho bohle. Ikgokaganye le diyunibesithi tša lefelong leo, Mebušo le mekgatlo e bulegilego go bolela ka morero le go kgopela thušo ya bona.
