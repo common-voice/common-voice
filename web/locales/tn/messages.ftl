@@ -127,6 +127,7 @@ about-get-involved-text-2 =
     A o batla go thusa go dira gore Common Voice e nne botoka go gaisa?
     Go gontle! Golagana le rona ka imeile kgotsa diforamo tsa <discourseLink>Discourse</discourseLink>, romela mathata a webosaete ka <githubLink>GitHub</githubLink>, kgotsa nna karolo ya puisano ya morafe ya
     <matrixLink>Matrix</matrixLink>.
+about-stay-in-touch-text-1 = <emailFragment>Ikwadise</emailFragment> mo lenaaneng la rona la melaetsa go ithuta gore gore o ka tsaya karolo jang mo matsholong, mo ditiragalong le mo dikarolong tsa go tlhama mo Common Voice.
 
 ## Community Playbook Content
 ## What is a language
@@ -356,6 +357,14 @@ sc-my-description = Tsebe eno e go naya dintlhakakaretso tsa dipolelo tsotlhe ts
 
 ## ADD LANGUAGE
 
+# Variables:
+#   $duplicates (Number) - Number of sentences which got rejected because they are duplicates
+sc-add-result =
+    { $duplicates ->
+        [0] Mela e e rometsweng. { $duplicates } mela e gannwe ka gore e a ipoeletsa.
+        [one] Mela e e rometsweng. { $duplicates } mola o gannwe ka gore o a ipoeletsa.
+       *[other] Mela e e rometsweng. { $duplicates } mela e gannwe ka gore e a ipoeletsa.
+    }
 
 ## ADD SENTENCES CONFIRMATION
 
