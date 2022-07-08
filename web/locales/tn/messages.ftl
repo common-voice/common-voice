@@ -8,12 +8,15 @@ email-opt-in-privacy-v2 = Ka go tlhopha go amogela diimeile o bontsha gore o sia
 
 ## Languages
 
+ab = Abkhaz
+ace = Se-Acehne
 
 # [/]
 
 
 ## Layout
 
+about = Ka ga
 
 ## Home Page
 
@@ -60,6 +63,8 @@ demographic-deidentified-clarity-2 = Tshedimosetso e e rometsweng ka go ithaopa 
 
 ## ProfileForm
 
+profile-form-accent =
+    .label = Puo
 why-profile-text =
     Ka go naya tshedimosetso nngwe ka wena, tshedimosetso ya lentswe e o e romelang kwa Common Voice e tla nna mosola thata mo dithulaganyong tsa Speech
     Recognition tse di dirisang tshedimosetso eno go tokafatsa go nepa ga tsone.
@@ -287,6 +292,7 @@ download-request-link-single = Gape o ka kgona go kopisa le go manega di-URL tse
 ## Demo Datasets
 
 demo-language-select-card-body = Re leboga dikabo go tswa go batho ba feta 259k mo dipuong di feta 50, tshedimosetso eno e dirisiwa go thapisa dithulaganyo tsa puo go araba botoka mantswe a batho.
+demo-account = Akhaonto
 
 ## Demo Account
 
@@ -318,6 +324,7 @@ contribution-just-unsure-description = Fa o kopana le sengwe se dikaelo tseno di
 
 ## HEADER/FOOTER
 
+sc-header-add = Tsenya
 
 ## HOME
 
