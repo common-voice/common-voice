@@ -145,6 +145,10 @@ change-email-setings = Shintsha i-imeyili yakho ngezilungiselelo ngaphansi kokut
 
 faq-title = Imibuzo Ejwayelekile Ukubuzwa
 faq-what-cv-q = Iyini i-Common Voice?
+faq-what-cv-a-2 =
+    Ubuchwepheshe bamazwi aqoshiwe buguqula indlela yokusebenzisana nemishini kepha izinhlelo ezitholakalayo ziyabiza futhi ziphethwe izinkampani. IMozilla Common Voice isinyathelo sokwenza ubuchwepheshe bamazwi aqoshiwe ukuba bufinyelelle kangcono kuwo wonke umuntu. ICommon Voice ulwazi olukhulu lwamazwi olunikelwe emhlabeni wonke jikelele olwenza noma ngabe yimuphi umuntu ukuba lifundise izinhlelo zokusebenza zamazwi aqoshiwe ngazo zonke izilimi.
+    
+    Iziqephu zamazwi aqoshiwe ngezilimi ezikhulunywawo ngokubanzi akuzona zodwa eziqoqwayo kodwa, nalezi ezikhulunywa izigodi zabantu ezincane, Ukushicilelela ulwazi olubanzi lwamazwi aqoshiwe kuzonikeza onjiniyela, osomabhizinisi kanye nemiphakathi amandla wokuba balungise lenkinga.
 faq-why-important-q = Kungani ibalulekile?
 faq-why-important-a =
     Ukukhuluma indlela evamise ukusetshenziswa ukuxhumana nabantu kanti ubuchwepheshe bamazwi busenzela lokhu kube lula ngokusilethela lobuchwepheshe kumakhompyutha ethu nakomakhalekhukhwini bethu. Sifuna ukuxhasa onjiniyela ukuze bekwazi ukuwakha izinhlelo zokusebenza zamazwi aqoshiwe, njengabatoliki abasebenza esikhathini sangempela kanye nabasizi abakwazi ukukhuluma ngezinkundla ezidijithali. Okwamanje, ulwazi oludingekayo lokwakha amazwi izinhlelo zokusebenza zamazwi aqoshiwe ziyabiza futhi zinabanikazi. Siyathemba ukuthi iCommon Voice dataset izonikeza onjiniyela konke abakudingayo ukuze basungule futhi benze ubuchwepheshe bokukhuluma butholakale ngezilimi zabo. 
@@ -181,6 +185,9 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Kungani iCommon Voice?
+about-header-description-v2 =
+    <p> iCommon Voice idathasethi yamazwi aqoshiwe atholakala esidlangalaleni oluphethwe abaxhasi abavolontiyayo emhlabeni wonke. Abantu abafuna ukwakha izinhlelo zokusebenza zamazwi aqoshiwe bangasebenzisa lolulwazi lwamazwi aqoshiwe ukufundisa imishini.</p>
+    <p> Okwamanje, ulwazi oluqoshiwe lwamazwi luphethwe izinkampani, lokhu cindezelela izindlela zokusungula. Ulwazi oluqoshiwe lwamazwi lumelwe kancane ebantwini abangakhulumi isiNgisi, abantu bebala elinsundu, abantu abaxhwalile, abantu besifazane kanye nabantu bomakhakha weLGBTQIA+. Lokhu kusho ukuthi uchwepheshe bamazwi alusebenzi ezilimini eziningi, kanti lapho lisebenza khona, alisebenzi ngokulingana kahle kuwo wonke umuntu. Sifuna ukushintsha lokho ngokuhlanganisa abantu bakuzozonke izindawo ukuba babelane izwi labo.</p>
 how-does-it-work-title-v2 = Isebenza kanjani i-Common Voice?
 
 ## How does it work section
