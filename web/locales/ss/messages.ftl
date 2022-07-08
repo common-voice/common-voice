@@ -219,6 +219,7 @@ logout = Phuma
 ## Home Page
 
 home-title = Common Voice lichaza lelidlalwa nguMozilla lelisita kufundzisa imishina kutsi bantfu mbamba bakhuluma kanjani.
+default-tagline = Le Mozilla Common Voice lichaza lelisita kufundzisa imishina kutsi bantfu mbamba bakhuluma kanjani.
 home-cta = Khuluma, faka umbono lapha!
 wall-of-text-first = { "" }
 show-wall-of-text = Fundza Kabanti
@@ -252,6 +253,7 @@ improve-audio = Umniningwane wakho ulekelela le data yemavi latfwebuliwe ekucece
 keep-track = Hlala wati ngenchubo yakho netinhlola kuletinye tilwimi.
 compare-progress = Buka kutsi inchubo yakho ihamba njani uma icatsaniswa nalabanye labahlanganyele mhlaba wonkhe jikelele.
 view-goals = Buka inchubo yakho mayicatsaniswa nenchubo yemsebenti jikelele.
+join-newsletter = Ngekutsandza kwakho, ngenela luhla lwetfu lweliposi lembane utotfola lokusha nemininingwane yalomsebenti.
 
 ## What's public
 
@@ -751,6 +753,7 @@ validated-clips = Leticinisikesiwe Ticephu
 total-approved = Lokuvunyiwe sekukonkhe
 overall-accuracy = Overall Accuracy
 set-visibility = Setha kubonakala kwami
+visibility-overlay-note = Nakisisa: Uma kuna "Visible", ungakhona kushintja <profileLink>Likhasi</profileLink>.
 show-ranking = Khombisa sigaba sami
 
 ## Custom Goals
