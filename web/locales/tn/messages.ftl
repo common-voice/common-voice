@@ -259,6 +259,8 @@ visibility-explainer = Seting eno e laola tsela e o bonang lenaane la baetapele 
 
 ## Custom Goals
 
+# LINK will be replaced with the current URL
+goal-share-text = Ke fetsa go dira maikaelelo a botho a go abelana ka lentswe go #CommonVoice -- dira le nna mme o nthuse go ruta metšhine  gore batho ba mmatota ba bua jang { $link }
 
 ## Profile Delete
 
@@ -332,6 +334,7 @@ sc-howto-addsen-item-5 = Ditlhaka tsa seeng. Ditlhaka di tshwanetse go dumelelwa
 sc-howto-addsen-item-6 = Dipuo di ka nna le <validationRulesLink>melao ya tsone ya go tlhomamisa</validationRulesLink> mmogo le dipatlafalo tse dingwe. Fa go se na faele e e rileng ya go tlhomamisa puo eo, re dirisa melao e e tlwaelegileng ya Seesemane.
 sc-howto-addsen-post-1 = Re rata dipolelo tsa tlholego/motlotlo. Le fa pharologano ya sefonotiki le mafoko mo dipolelong e le botlhokwa, re leka sotlhe se re ka se kgonang go dira gore dipolelo tsa kgatiso di kgatlhe. Go ne go tla nna gontle fa o ne o ka leka gore dipolelo tsa gago e nne tsa tlholego/akaretsang.
 sc-howto-cite-pre-1 = Go botlhokwa go kwala gore o bone kae dilaesense tsa batho botlhe go tila go utswa tshedimosetso le go letla ditatediso mo <copyrightIssuesLink>mathata a tetlokhopi</copyrightIssuesLink>. Fano ke ditsela di le mmalwa tse o ka umakang tiro eno ka tsone.
+sc-howto-cite-item-3 = Fa o dirisa tshedimosetso ya batho botlhe mme e seyo mo inthaneteng, o ka dirisa mokgwa wa thutego wa go ntsha tshupiso, ka sekai, mokgwa wa Harvard "Jess (2021) My Public licence poems"
 sc-howto-review-criteria-5 = Fa polelo e sa fitlhelele ditshwanelego tse di fa godimo, tobetsa konopo ya "Gana." Fa o a tlhomamisege ka polelo , o ka e tlola mme wa fetela mo go e e latelang.
 sc-howto-findpd-text-2 = Gopola gore re tlhoka tetla ya go phasalatsa dipolelo tseo, ka jalo ka metlha tlhomamisa gore mokwalo ke wa <wikipediaLink>lefelong la botlhe</wikipediaLink>. Fa go se na sepe se se bontshang ka tlhamalalo, ikgolaganye le motho yo mokwalo e leng wa gagwe mme o mmotse gore o batla go abela Lefelo la Botlhe mokwalo wa gagwe. Fa a batla go dira jalo, mo thuse gore a tsene mo thulaganyong ya <cc0WaiverLink>Tumalano ya Dikabo</cc0WaiverLink>. Fa a sa batle go aba mokwalo oo, ga o letlelelwe go o dirisa.
 sc-howto-findpd-tips-2 = Mananeo a puso, dibuka le ditlhogo le tsone di siame, mme e re ka gantsi mokwalo o na le go gagamala thata, ga di botlhokwa go le kalo.
@@ -356,6 +359,7 @@ sc-my-description = Tsebe eno e go naya dintlhakakaretso tsa dipolelo tsotlhe ts
 
 ## ADD SENTENCES CONFIRMATION
 
+sc-confirm-uploading = Mela e a tsenngwa. Seno se ka tsaya metsotso e le mmalwa go ikaegile ka palo ya mela e e tsenngwang. Tsweetswee o se ka wa tswala webosaete eno.
 
 ## LANGUAGE INFO
 
