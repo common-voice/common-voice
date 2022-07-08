@@ -96,6 +96,7 @@ thanks-for-account = Siyabonga ngokuqinisekisa i-akhawunti yakho, manje asakhe i
 why-demographic = Kungani kubalulekile lokhu?
 accept-privacy = Ngilungile uma uphatha lolu lwazi njengoba uchaza kokuthi <privacyLink>Inqubomgomo Yobumfihlo</privacyLink> ye-Mozilla
 login-signup = Ngena / Bhalisa
+skip-submission-feedback = Yeqa Impendulo Yokuthunyelwe
 skip-submission-note = Qaphela: Usazodinga ukukhetha phakathi kokuthi Khuluma noma Lalela ukuze ushintshe uhlobo lomnikelo.
 help-accent = Udinga usizo oluthile ngokuphimisa?
 help-variants = Udinga usizo oluthile ngokuhlukile?
@@ -348,6 +349,7 @@ record-three-more-instruction = Sekusele okuthathu!
 record-again-instruction = Kuhle!<recordIcon></recordIcon> Qopha isiqeshana sakho esilandelayo
 record-again-instruction2 = Qhubeka, uqophe futhi <recordIcon></recordIcon>
 review-tooltip = Buyekeza futhi uqophe kabusha iziqeshana lapha njengoba uhamba
+share-clip = Yabelana ngesiqeshana sakho
 review-instruction = Buyekeza futhi uqophe kabusha iziqeshana uma kudingeka
 record-abort-text = Ukuhamba manje kusho ukuthi uzolahlekelwa ukuqhubeka kwakho
 record-abort-delete = Phuma futhi Susa iziqeshana
@@ -389,6 +391,7 @@ toward-next-goal = Ibheke enhlosweni elilandelayo
 todays-recorded-progress = Inqubekelaphambili yanamuhla yeCommon Voice kuziqeshana eziqoshiwe
 todays-validated-progress = Inqubekelaphambili yanamuhla yeCommon Voice kuziqeshana iqinisekisiwe
 visibility-overlay-note = Qaphela: Uma kusethelwe kokuthi 'Kuyabonakala', lesi silungiselelo singashintshwa sisuka <profileLink>Ikhasi Lephrofayela</profileLink>
+show-ranking = Bonisa izinga lami
 
 ## Custom Goals
 
@@ -436,6 +439,7 @@ help-share-goal = Sisize sithole amazwi engeziwe, wabelane ngenjongo yakho
 share-n-daily-contribution-goal = Yabelana nge-{ $count } Inhloso yakho Yansuku Zonke Yeziqeshana we-{ $type }
 # $type is one of share-goal-type-*
 share-n-weekly-contribution-goal = Yabelana nge-{ $count } Inhloso yakho Yamaviki Onke Yeziqeshana we-{ $type }
+share-goal-type-both = Ukukhuluma Nokulalela
 # LINK will be replaced with the current URL
 goal-share-text = Ngisanda kwakheka umgomo womuntu siqu wokunikela ngezwi ku-#CommonVoice -- ngijoyine futhi usize ukufundisa imishini ukuthi abantu bangempela bakhuluma kanjani { $link }
 weekly-goal-created = Injongo yakho yeviki idaliwe
