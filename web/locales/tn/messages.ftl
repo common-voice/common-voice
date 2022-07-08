@@ -62,6 +62,7 @@ why-profile-text =
     Recognition tse di dirisang tshedimosetso eno go tokafatsa go nepa ga tsone.
 why-demographic-explanation-2 = Tshedimosetso ya botlhokaina jaaka dingwaga, bong le segalo di tla thusa go tokafatsa go nepa ga didirisiwa tsa go lemoga mantswe. Leinatiriso le imeile ya gago di ka se amanngwe le tshedimosetso ya gago e e rometsweng, mme o ka tlhopha gore a o batla go senola kgotsa go fitlha leinatiriso la gago.
 help-accent-explanation = Segalo sa gago ke tsela e o bitsang mafoko ka yone. Se ka tlhotlhelediwa ke lefelo le o kileng wa tshela mo go lone, dipuo tse dingwe tse o kgonang go di bua, le dilo tse dingwe tse dintsi. O ka abalana tshedimosetso nngwe le nngwe e o akanyang gore e botlhokwa fano.
+help-variants-explanation = Dipuo ke mofuta o o rileng wa leleme - ka sekai, le buiwa ke batho ba ba nnang mo lefelong kgotsa mo morafeng o le mongwe. Ka dinako dingwe di bidiwa diteme.
 
 ## Profile - Email
 
@@ -89,7 +90,11 @@ faq-do-want-native-a = Se tota re se batlang ke lentswe la gago! Karolo ya boika
 faq-why-different-speakers-a =
     Tshedimosetso e ntsi ya puo e thapisiwa ka go gatelela thata dipalopalo tse di rileng, se se felelang ka go tsaya letlhakore mo <articleLink>setlhopheng sa banna le se se mo magareng</articleLink>. Digalo le medumo e e sa gatelelweng mo tshedimosetsong ya go thapisa gantsi di amanngwa le batho ba ba setseng ba tseelwa kwa tlase. Gape metšhine e mentsi e thatafalelwa ke go tlhalogaya mantswe a basadi.
     Ke gone ka moo re batlang mefuta e e farologaneng mo tshedimosetsong ya rona!
+faq-why-my-lang-a =
+    Common Voice ke thulaganyo e e batlang batho ba bantsi, mme dipuo tsotlhe di tsentswe ke baithaopi.
+    Re ka rata go tsenya puo ya gago! <languageRequestLink>Botsa ka go tsenya puo ya gago.</languageRequestLink>
 faq-what-quality-a = Re batla gore tshedimosetso ya Common Voice e bontshe boleng jwa modumo o thulaganyo ya go fetolela puo go mokwalo e tla o utlwang mo nageng, ka jalo re batla mefuta e e farologaneng. Mo godimo ga dibui tse di farologaneng, tshedimosetso e e nang le boleng jo bo farologaneng jwa modumo e tla ruta thulaganyo e e fetolelang puo go mokwalo go lepalepana le maemo a a sa tshwaneng a a leng teng mo lefatsheng, go tloga ka modumo o o utlwalang kwa morago fa batho ba bua go ya go modumo wa koloi. Fela fa kgatiso ya lentswe la gago e tlhaloganyesega, e tla bo e siametse tshedimosetso eo.
+faq-how-calc-hours-a = Re bala diura ka go fopholetsa kakaretso ya boleele jwa kgatiso nngwe le ngwe, re bo re atisa palo eo ka palogotlhe ya dikgatiso tsa dipuo tsotlhe.
 faq-where-src-from-2-a =
     Mokwalo wa rona o dirilwe ka dikabo tsa mmatota le dipuisano tsa mekwalo ya difilimi jaaka <italic>It’s a Wonderful Life</italic>.
     
@@ -108,15 +113,21 @@ about-header-description-v2 =
 
 ## How does it work section
 
+about-no-votes-text = Fa modirisi a gana polelo, e boela kwa Moleng. Fa kgatiso ya lentswe e ganwa lekgetlho la bobedi, e romelwa kwa Clip Graveyard.
 about-clip-graveyard-text =
     Clip Graveyard e na le dikgatiso tsa mantswe tse di sa  kgonang tsena mo tshedimosetsong ya Common Voice. Fela jaaka tshedimosetso, Clip Graveyard le yone e ka itseelwa.
     
     Re rata go leboga batho le mekgatlho e e latelang ka thuso ya bone mo porojekeng:
+about-get-involved-text-2 =
+    A o batla go thusa go dira gore Common Voice e nne botoka go gaisa?
+    Go gontle! Golagana le rona ka imeile kgotsa diforamo tsa <discourseLink>Discourse</discourseLink>, romela mathata a webosaete ka <githubLink>GitHub</githubLink>, kgotsa nna karolo ya puisano ya morafe ya
+    <matrixLink>Matrix</matrixLink>.
 
 ## Community Playbook Content
 ## What is a language
 
 about-playbook-what-is-language-content-1 = Go na le ditsela tse dintsi tsa go akanya ka puo. Ka ntlha ya dikao tsa go lemoga puo, Common Voice e akantsha go tlhoma mogopolo mo 'botlhaleng jo bo utlwalang', kgotsa 'a babui ba puo eno gantsi ba a tlhalognyana fa ba leka go dira jalo?'
+about-playbook-what-is-language-content-2 = Re batla gore dikao tsa puo di tlhaloganye botoka bontsi jwa dibui. Gore seno se direge, tshedimosetso ya mantswe e tshwanetse go akaretsa batho ba bantsi ba ba farologaneng.
 about-playbook-what-is-language-content-3 = Dipuo dingwe di farologana thata ka thutapuo, tlotlofoko le tsela ya go bitsa mafoko. Ka ntlha ya seno, re <ctaLink>tlisa ‘Mefuta e e Farologaneng’</ctaLink> ka 2022. Seno se dira gore batho ba kgone go tlhaola dipuo tsa bone mo tshedimosetsong e ntsi.
 
 ## How do I add a language
@@ -154,6 +165,7 @@ about-playbook-how-grow-language-content-7 = Bona ba bangwe ba ba amegang. E ka 
 
 ## How to validate
 
+about-playbook-how-validate-content-2 = <strong>O se ka wa gana dikgatiso tsa mantswe a sebui 'se sa bue' ka tsela e e tshwanang le ya gago</strong> - seno se botlhokwa gore go lemoga mantswe go direle mongwe le mongwe botoka.
 about-playbook-how-validate-content-3 = Fa o akanya gore tsela e le bidiwang ka yone e dira gore <strong>go se ka ga kgonega go tlhaloganya</strong>, kgotsa go na le <strong>modumo o montsi kwa morago</strong>, kgotsa go na le <strong>batho ba bangwe ba le bone ba buang</strong>, o tshwanetse go gana kgatiso eo. <accuracyLink>Bona tshedimosetso e e oketsegileng mo ditshwanelegong tsa rona tsa go nepa</accuracyLink>.
 
 ## How to access dataset
@@ -167,6 +179,7 @@ about-playbook-how-project-governance-content-1 = Mozilla Common Voice e kgonega
 ## Glossary
 
 hours-validated-explanation = Palo ya diura tsa kgatiso ya mantswe e e tlhomamisitsweng ke badirisi ba le 2 mo go ba le 3 ka tlhopho ya "Ee". Seno se bontsha botswelelopele jwa porojeke ka kakaretso ya mokgele wa diura tse 10k.
+de-identified-explanation = Thulaganyo e ka yone tshedimosetso ya porofaele ya moabi e fitlhegileng mo dikgatisong tsa mantswe fa e baakanyeditswe go itseelwa jaaka karolo ya tshedimosetso.
 
 ## Error pages
 
@@ -247,6 +260,7 @@ download-request-link-single = Gape o ka kgona go kopisa le go manega di-URL tse
 
 ## Demo Datasets
 
+demo-language-select-card-body = Re leboga dikabo go tswa go batho ba feta 259k mo dipuong di feta 50, tshedimosetso eno e dirisiwa go thapisa dithulaganyo tsa puo go araba botoka mantswe a batho.
 
 ## Demo Account
 
@@ -262,6 +276,7 @@ demo-dashboard-card-body = Mo kgatisong nngwe le nngwe ya lentswe e e abilweng, 
 
 ## Validation criteria
 
+contribution-misreadings-description = Fa o reeditse, tlhatlhoba ka kelotlhoko gore a se se gatisitsweng ke sone tota se se kwadilweng; se gane le fa go na le diphoso tse dinnye tota. <br />Diphoso tse di tlwaelegileng thata di akaretsa:
 contribution-varying-pronunciations-description = Nna kelotlhoko pele o gana kgatiso ka go bo mmadi a sa bitsa lefoko sentle, o gateletse mo lefelong le e seng lone, kgotsa gongwe o itlhokomolositse letshwao la potso. Go na le ditsela tse dintsi tsa go bitsa mafoko lefatshe ka bophara, tse dingwe ka tsone o ka tswang o ise o di utlwe mo lefelong la gago. Tsweetswee anaanela ba ba ka tswang ba bua ka tsela e e farologaneng le e o buang ka yone.
 contribution-varying-pronunciations-description-extended = Kafa letlhakoreng le lengwe, fa o akanya gore gongwe mmadi ga a ise a kopane le lefoko leo, mme o fopholetsa fela ka tsela e e sa siamang tsela e le bidiwang ka yone, tsweetswee e gane. Fa o sa tlhomamisege, dirisa konopo ya tlola.
 contribution-background-noise-description = Re batla gore go ithuta ga metšhine go kgone go lepalepana le medumo e mentsi e e kwa morago, le medumo e e kwa godimo e ka amogelesega fa fela e sa go thibele go utlwa mokwalo otlhe. Mmino o o lelang kwa morago go didimetse o siame; mmino o o kwa godimo thata mo o go thibelang go utlwa mafoko otlhe ga wa siama.
@@ -292,6 +307,7 @@ sc-howto-addsen-item-2 = Dinomoro. Ga go a tshwanela ga nna le dinomoro mo mokwa
 sc-howto-addsen-item-3 = Dikhutshwafatso. Dikhutshwafatso tse di jaaka "USA" kgotsa "ICE" di tshwanetse go tilwa mo mokwalong wa konokono gonne di ka balwa ka tsela e e sa dumalaneng le mopeleto wa tsone. Gape, go ka nna le ditsela di le mmalwa tse di nepileng tsa go bitsa khutshwafatso e le nngwe. Ka sekai, khutshwafatso "ICE" e ka bidiwa "I-C-E" kgotsa ya bidiwa jaaka lefoko le le lengwe.
 sc-howto-addsen-item-4 = Matshwao a puiso. Matshwao a a kgethegileng le matshwao a puiso di tshwanetse go tsengwa fela fa tota go tlhokega. Ka sekai, phegelwanagodimo e teng mo mafokong a Seesemane jaaka "don't" le "we're" mme e tshwanetse go akarediwa mo mokwalong wa konokono, mme ga se gantsi o ka tlhokang go dirisa letshwao le lekgethegileng jaaka "@" kgotsa "#".
 sc-howto-addsen-item-5 = Ditlhaka tsa seeng. Ditlhaka di tshwanetse go dumelelwa mo puong e e buiwang. Ka sekai, “ж” ke tlhaka e e dirisiwang mo puong ya se-Russia mme ga e dirisiwe mo Seesemaneng, ka jalo ga ya tshwanela go tlhagelela mo mokwalong ope wa Seesemane.
+sc-howto-addsen-item-6 = Dipuo di ka nna le <validationRulesLink>melao ya tsone ya go tlhomamisa</validationRulesLink> mmogo le dipatlafalo tse dingwe. Fa go se na faele e e rileng ya go tlhomamisa puo eo, re dirisa melao e e tlwaelegileng ya Seesemane.
 sc-howto-addsen-post-1 = Re rata dipolelo tsa tlholego/motlotlo. Le fa pharologano ya sefonotiki le mafoko mo dipolelong e le botlhokwa, re leka sotlhe se re ka se kgonang go dira gore dipolelo tsa kgatiso di kgatlhe. Go ne go tla nna gontle fa o ne o ka leka gore dipolelo tsa gago e nne tsa tlholego/akaretsang.
 sc-howto-cite-pre-1 = Go botlhokwa go kwala gore o bone kae dilaesense tsa batho botlhe go tila go utswa tshedimosetso le go letla ditatediso mo <copyrightIssuesLink>mathata a tetlokhopi</copyrightIssuesLink>. Fano ke ditsela di le mmalwa tse o ka umakang tiro eno ka tsone.
 sc-howto-review-criteria-5 = Fa polelo e sa fitlhelele ditshwanelego tse di fa godimo, tobetsa konopo ya "Gana." Fa o a tlhomamisege ka polelo , o ka e tlola mme wa fetela mo go e e latelang.
