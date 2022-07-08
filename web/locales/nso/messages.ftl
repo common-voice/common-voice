@@ -178,9 +178,11 @@ visibility-explainer = Peakanyo ye e laola ke ponagalo ya kelo ya baetapele. Ge 
 ## Profile Delete
 
 remove-info = Re tla hlahloba kgopelo ya gago ya go tloša direkhoto tša lentšu la gago dathaseteng. Ge e ba kgopelo ya gago e amogetšwe, re tla ikgokaganya le bao ba taonelouteng dathasete gomme re tla ba kgopela gore le bona ba phumole direkhoto tša lentšu la gago.
+why-delete-recordings = Dipego tša Common Voice di dirišwa ke barutegi, dikgwebo-potlana, le ba go fišegelwa go tseba ka mantšu go thuša go eteletša le go godiša methopo ye e hwetšagalago phatlalatša bjalo ka mehuta ya mantšu.                                                                                                                                                          Na o ka re tsebiša gore ke ka baka la eng o nyaka gore direkhoto tša gago di phumolwe?
 
 ## Profile Download
 
+download-request-link-single = O ka kopisa le go beya di-URL tše tobegilego go sesepetša digogwa wa gago o ratago. Di tla felelwa ke nako ka morago ga diiri tše 12, eupša o ka boela latlakaleng le go hlagiša tše di mpsha ka nako le ge e le efe.
 
 ## Landing
 
@@ -267,6 +269,7 @@ sc-my-description = Letlakaleng le le go nea kakaretšo ya mafoko ka moka ao o w
 
 ## REVIEW CRITERIA
 
+sc-criteria-item-5-2 = Ge e ba lefoko ga le fihlelele kritheriya ya ka godimo, tobetsa; Gana; setobetšwa sa ka go letshadi. Ge e ba o sa kgonthišege ka lefoko, o ka boela wa e taboga gomme o fetele go e latelago.
 
 ## REVIEW
 
