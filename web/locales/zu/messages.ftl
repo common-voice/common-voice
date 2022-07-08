@@ -388,6 +388,7 @@ request-language-error =
 ## Languages Overview
 
 language-section-in-progress-new-description = Lezi zilimi okwamanje zingaphansi kokuthuthukiswa komphakathi. <localizationGlossaryLink>Ukwenziwa kwasendaweni kwewebhusayithi</localizationGlossaryLink> ne-<sesentenceCollectionGlossaryLink>iqoqo lemisho</sentenceCollectionGlossaryLink> kuyadingeka ukuze kuqaliswe.
+languages-show-more = Buka Okuningi
 language-validation-progress = Inqubekelaphambili Yokuqinisekisa
 
 ## Contribution
