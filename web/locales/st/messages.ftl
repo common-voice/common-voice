@@ -15,6 +15,12 @@ an = Aragonese
 ar = Arabic
 as = Assamese
 ast = Asturian
+az = Azerbaijani
+ba = Bashkir
+bas = Basaa
+be = Belarusian
+bn = Bengali
+eu = Basque
 hy-AM = Armenian
 sq = Albanian
 
@@ -32,6 +38,7 @@ all-locales = Koafela
 
 ## Account Benefits
 
+benefits = Melemo
 
 ## What's public
 
@@ -140,6 +147,7 @@ request-language-explanation-2 = Hape re tla <strong>tsebisa mookamedi wa setjha
 
 ## Dashboard
 
+awards = Dikgau
 
 ## Custom Goals
 
@@ -160,6 +168,7 @@ goal-share-text = Ke sa tswa iketsetsa sepheo sa ho fana ka lentswe ho #CommonVo
 
 ## Demo Datasets
 
+card-button-back = Morao
 demo-account = Ak'haonte
 
 ## Demo Account
