@@ -234,6 +234,7 @@ vote-yes = Yebo
 vote-no = Cha
 toggle-play-tooltip = Chafata { shortcut-play-toggle } utokhona kudlala
 speak-subtitle = Nikela livi lakho
+speak-paragraph = Kutfwebula inkhulumo kumcoka kakhulu kule Dataset yetfu, lomunye angatsi bunandzi bakhona.
 speak-goal-text = Ticephu letiftwebuliwe
 listen-subtitle = Sisite sicinisekise emavi
 listen-goal-text = Ticephu leticinisikesiwe
@@ -568,6 +569,7 @@ about-playbook-how-validate-content-4 = Uma inkhulumo ijikiswe bantfu lababili, 
 
 about-playbook-how-access-dataset = Ngiyitfola njani, futsi ngiyisebentisa njani le dataset?
 about-playbook-how-access-dataset-content-1 = Ungaya <datasetsPage>ekhasini lelwati</datasetsPage>, ufike ukhetse sigaba kanye ne(ti) lwimi lotifunako, bese uyatitsatsa! Lamafayela ane <metadataLink>lwati lolujulile</metadataLink>, lolufaka ekhatsi indzawo kanye nelwati siciniseko. Utodzingeka kutsi ufake i email yakho kute utsatse lolwati.
+about-playbook-how-access-dataset-content-2 = Uma ufuna emathulusi ekwakha ema modeli e ASR, ungachumana nalabanye bantfu kulommango <discourseLink>ku Discourse</discourseLink>.
 
 ## How are decisions made
 
@@ -604,6 +606,7 @@ data-download-yes = Yebo
 data-download-deny = Cha
 data-download-license = License: <licenseLink>CC-0</licenseLink>
 data-download-modal = khani utocala ku download <size>{ $size }GB</size>, chubeka?
+data-subtitle = Sakha iDataset levulekele sive lenemaphimbo langasetjentiswa nguwonkhe muntfu kucecesha tinsita tebucwephesha letisebentisa inkhulumo.
 data-explanatory-text = Siyetsemba kutsi lelanani lelisetulu kanye nemtfombo welwati  wesive utowakha bucwephesha nekuchudzelana kwetemabhizinisi lokunemphilo ebucwephesheni bekukhuluma lobusekelwe mishina. Lona ngumetamo wemhlaba wonkhe futsi simema wonkhe umuntfu kutsi adlale indzima. Inhloso yetfu kusita bucwephesha benkhulumo bufake wonkhe, bukhombise kwehlukana kwetilimi temhlaba.
 data-get-started = <speechBlogLink>Cala manje nge Speech recognition</speechBlogLink>
 data-other-title = Lamanye ema-Datasets emavi...
@@ -616,6 +619,7 @@ dataset-date = Lusuku
 license = License: <licenseLink>{ $license }</licenseLink>
 license-mixed = Lokubhicene
 data-download-singleword-title = Download the Single Word Target Segment
+data-download-singleword-callout-v2 = Lesigamu sisebenta ngabofeleba sicuketse imininingwane letolekela kuvakala kuviwa kwetinombolo letikhulunyiwe kanye nekuva yebo / cha.
 review-terms = Ngekusebentisa Common Voice, uyavumelana <termsLink>nemigomo yetfu</termsLink> ne<privacyLink>mibandzela</privacyLink>
 terms-agree = Ngiyavuma
 terms-disagree = Angivumi
@@ -705,6 +709,7 @@ contact-required = *kudzingekile
 
 request-language-title = Sicelo Selulwimi
 request-language-success-title = Sicelo selulwimi simikiswe ngemphumelelo, siyabonga!
+request-language-success-content = Sitochumana mayelana nemininingwane yekutsi ungalungeta njani lulwimi lwakho kuCommon Voice madvutane.
 select-language = Khetsa Lulwimi...
 other-language = Lolunye Lulwimi
 
@@ -946,6 +951,7 @@ download-selected = Lokukhetsiwe
 download-start = Download profile data
 download-request = Cela leticephu letitfwebuliwe
 download-requests = Past recordings download requests
+download-requests-info = Uma ucela ema recording akho, siyawahlanganisa abe yi ZIP file yinye noma abe manengi. Nati ticelo takho taphambilini
 download-request-button = Download
 download-request-description = { $clipCount } emafayela emavi latfwebuliwe, linani lemafayela lagciniwe { $size }. Aphupha nini { $expires }.
 download-request-archive-single = Lifayela linye le ZIP lelicuketse
