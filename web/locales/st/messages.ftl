@@ -99,6 +99,7 @@ ms = Malay
 mt = Maltese
 my = Burmese
 myv = Erzya
+nan-tw = Taiwanese (Minnan)
 ne-NP = Nepali
 nia = Nias
 nl = Dutch
@@ -129,12 +130,25 @@ sv-SE = Swedish
 sw = Swahili
 syr = Syriac
 ta = Tamil
+te = Telugu
 tg = Tajik
+th = Thai
+ti = Tigrinya
+tig = Tigre
+tk = Turkmen
 tl = Tagalog
 tn = Setswana
+tr = Turkish
 tt = Tatar
 ty = Tahitian
+uby = Ubykh
+udm = Udmurt
+uk = Ukrainian
+ur = Urdu
+ve = Tshivenda
+vec = Venetian
 yue = Cantonese
+zh-TW = Chinese (Taiwan)
 
 # [/]
 
@@ -148,6 +162,7 @@ profile = Profaele
 help = Thusa
 contact = Tshwara
 privacy = Lekunutu
+terms = Dipehelo
 cookies = Di-cookie
 faq = FAQ
 
@@ -156,6 +171,7 @@ faq = FAQ
 no-clips-to-validate = Ho bonahala eka ha ho na di-clip tsa ho mamela ka puo ena. Re thuse ho tlatsa letoto ka ho rekota tse ding hona jwale.
 vote-no = Tjhe
 all-locales = Koafela
+today = Kajeno
 
 ## Account Benefits
 
@@ -323,6 +339,7 @@ request-language-explanation-2 = Hape re tla <strong>tsebisa mookamedi wa setjha
 
 language-section-launched = E qadilwe
 language-meter-in-progress = Kgatelopele
+language-total-progress = Kakaretso
 language-search-input =
     .placeholder = Batla
 language-speakers = Dibui
@@ -421,6 +438,7 @@ sc-header-statistics = Dipalo-palo
 sc-header-profile = Profaele
 sc-footer-discourse = Discourse
 sc-footer-privacy = Lekunutu
+sc-footer-terms = Dipehelo
 sc-footer-cookies = Di-cookie
 sc-logout-button = Tswa
 
@@ -446,6 +464,7 @@ sc-my-source = Mohlodi: { $source }
 ## STATS
 
 sc-stats-title = Dipalo-palo
+sc-stats-updating = E ntse e ntlafatsa...
 
 ## ADD
 
@@ -468,6 +487,7 @@ sc-confirm-uploading = Dipolelo di ntse di kenngwa. Sena se ka nka metsotso e mm
 
 ## LANGUAGE INFO
 
+sc-lang-info-title-total = Kakaretso
 sc-lang-info-title-personal = Tsa botho
 
 ## LOGIN
