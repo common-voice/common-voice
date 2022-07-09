@@ -175,6 +175,7 @@ about-playbook-how-add-sentences-content-2 = Dipolelo di tshwanetse go sekasekwa
 ## How to record quality
 
 about-playbook-how-record-content-1 = Bua ka lentswe la gago le le tlwaelegileng! Tsela e o buang ka yone e amogelesegile fano - re batla segalo sa lentswe la gago jaaka se ntse, e bile re batla modumo, setaele le molodi wa gago o o tlwaelegileng.
+about-playbook-how-record-content-4 = Tlhomamisa gore polatefomo e a rekota pele o simolola go bua, le gore o emisa go rekota fa o setse o feditse.
 
 ## How to grow language
 
