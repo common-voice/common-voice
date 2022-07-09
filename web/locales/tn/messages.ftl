@@ -236,6 +236,7 @@ contact-required = *e a tlhokega
 
 ## Request Language Modal
 
+request-language-success-content = Re tla ikgolaganya le wena mo nakong e e sa fediseng pelo ka tshedimosetso e e oketsegileng ya gore o ka tsenya jang puo ya gago mo Common Voice.
 
 ## Request Language Pages
 
@@ -286,6 +287,7 @@ why-delete-recordings =
 
 ## Profile Download
 
+download-requests-info = Fa o kopa dikgatiso tsa gago, re di kopanya go di dira faele e le nngwe kgotsa di le mmalwa tsa ZIP. Tseno ke dikopo tsa gago tsa nako e e fetileng.
 download-request-link-single = Gape o ka kgona go kopisa le go manega di-URL tse di tlhamaletseng mo lefelong la gago la mmamoratwa la go itseela dilo. Di tla felelwa ke nako mo diureng tse 12, mme o ka boela mo tsebeng eno go dira tse disha nako nngwe le nngwe.
 
 ## Landing
