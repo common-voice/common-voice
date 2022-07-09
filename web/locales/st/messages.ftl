@@ -77,7 +77,7 @@ kbd = Kabardian
 ki = Kikuyu
 kk = Kazakh
 km = Khmer
-kmr = { "" }
+kmr = Kurmanji Kurdish
 ko = Korean
 kpv = Komi-Zyrian
 kw = Cornish
@@ -111,6 +111,7 @@ pl = Polish
 ps = Pashto
 pt = Portuguese
 quc = K'iche'
+rm-sursilv = Romansh Sursilvan
 ro = Romanian
 ru = Russian
 rw = Kinyarwanda
@@ -143,8 +144,10 @@ tt = Tatar
 ty = Tahitian
 uby = Ubykh
 udm = Udmurt
+ug = Uyghur
 uk = Ukrainian
 ur = Urdu
+uz = Uzbek
 ve = Tshivenda
 vec = Venetian
 yue = Cantonese
@@ -314,6 +317,7 @@ data-other-librispeech-description = LibriSpeech ke kakaretso ya dihora tse ka b
 more = Tse ding
 close = Kwala
 download = Download
+dataset-version = Mofuta
 
 ## Download Modal
 
