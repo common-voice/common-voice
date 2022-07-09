@@ -188,6 +188,7 @@ about-playbook-how-grow-language-content-7 = Bona ba bangwe ba ba amegang. E ka 
 
 about-playbook-how-validate-content-2 = <strong>O se ka wa gana dikgatiso tsa mantswe a sebui ‘se sa bue’ ka tsela e e tshwanang le ya gago</strong> - seno se botlhokwa gore go lemoga mantswe go direle mongwe le mongwe botoka.
 about-playbook-how-validate-content-3 = Fa o akanya gore tsela e le bidiwang ka yone e dira gore <strong>go se ka ga kgonega go tlhaloganya</strong>, kgotsa go na le <strong>modumo o montsi kwa morago</strong>, kgotsa go na le <strong>batho ba bangwe ba le bone ba buang</strong>, o tshwanetse go gana kgatiso eo. <accuracyLink>Bona tshedimosetso e e oketsegileng mo ditshwanelegong tsa rona tsa go nepa</accuracyLink>.
+about-playbook-how-validate-content-4 = Fa kgatiso e gannwe ke batho ba le 2, e tsenngwa mo karolong e nngwe ya rekoto ya tshedimosetso.
 
 ## How to access dataset
 
