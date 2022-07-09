@@ -428,6 +428,7 @@ faq-why-different-speakers-a =
     Lwati lolugciniwe lwetinkhulumo luceceshwe ngalokwecile kwetibalo letitsite tebantfu lokuholela ekwehlukeni ngekutsi <articleLink>labadvuna nalabasemkhatsini ngelizinga</articleLink>. Emaphimbo netilwimi tesigodzi letivame kumelwa kancane etinhlobeni telwati ekuceceshweni lokuvamile tibu mbaniswa nemacembu ebantfu laba bandlululekile. Imishini leminingi ibuye itfole bumetima kucondza emavi ebantfu besifazane.
     Kungakho emtfonjeni wetfu welwati sifuna kwehlukahlukana!
 faq-why-my-lang-q = Leni lulwimi lwami lungangetwa?
+faq-what-quality-q = Kumele libe nganani lizinga le-quality yenkhulumo letfwetjuliwe kuze isebentiswe kule dataset?
 faq-what-quality-a = Sifuna ticheme telwati taka Common Voice kutsi tivete umsindvo longuwo enjini ni yenkhulumo yemsindo injini yenkhulumo-nembhalo letoyiva esigangeni, ngako-ke sifuna kwehlukahluka. Ngalokungetiwe umphakatsi lohlukahlukene wetikhulumi, ticheme telwati  letinemsindvo longiwo lutofundzisa injini yenkhulumo nembhalo kute ikhona kumela timo lehlukahlukene temhlaba mbamba, kusukela ngemuva kukhuluma nemsindvo wemoto. Uma nje ticheshana takho tivakala, kufanele tilunge ngalokwanele kutsi tingaba etichemeni telwati.
 faq-why-10k-hours-q = Leni emahora langu 10,000 lacinisekisiwe ngelulwimi abe ligoli lekutfwebula livi?
 faq-why-10k-hours-a = Leli linani lemahora ladzingekile kuze kuceceshwe umkhiciti we speech-to-text system
@@ -439,6 +440,7 @@ faq-why-account-q = Kudzingeke ngani kutsi ngibhalisele i-account?
 faq-is-account-public-q = Imininingwane yami ibonwa sive?
 faq-how-privacy-q = Ucinisekisa kanjani kungatiwa nekufihleka kwetimfihlo tebantfu labanikele ngemavi abo?
 faq-how-privacy-a = Tonkhe ticeshana temavi latfwebuliwe tisuswa yonkhe imininingwane yemnikati uma lonikelako afaka lwati lwetibalo ngelikhasi lakhe, lolo lwati luyasuswa buniyo kuleticeshana temavi ngaphambilini kwekutsi tingasetjentwa futsi atifike esiveni ekhasi labo.
+faq-what-determine-identity-q = Kusho kutsini kutsi angikhoni ku "determine the identity" yemuntfu lokhulumako kule dataset yaka Common Voice?
 faq-what-determine-identity-a =
     "Umtfombo welwati we-Common Voice uvulekile futsi lotfolakala esiveni ungasetjentiswa kucecesha tinhlobonhlobo tetinhlelo tekusebenta letikwati kukhuluma. Kute kuvikelwe kuphepha kwabanikeli betfu, sicela wonkhe umuntfu losebentisa lwati lwe Common Voice kutsi ahloniphe timfihlo talabo labanikele.
     
@@ -482,8 +484,10 @@ about-listen-text = Labasebentisa lobucwephesha ngibo labaphasisa kucondza kwale
 about-is-it-valid = Lesicephu singiso yini?
 about-is-it-valid-text = Livi lelitfwebuliwe limakwa "valid" uma livotelwa Yebo.
 about-yes-votes = 2 wema voti latsi Yebo
+about-yes-votes-text = Kuze ukhone kuba kule Dataset yaka Voice Command, inkhulumo kumele iphasiswe bantfu lababili labehlukene.
 about-no-votes = 2 wema voti latsi Cha
 about-dataset-new = Common Voice Dataset
+about-dataset-new-text = Le Dataset yaka Voice Command icuketse emakhulu latinkhulungwane etinkhulumo letitfwebuliwe letisita batfutfukisi kwakha emathulusi ekwemukela tinkhulumo letitfwebuliwe.
 about-clip-graveyard = Clip Graveyard
 about-clip-graveyard-text = I Clip Graveyard icutseke ticeshana temavi langakhoni kungena kulombhudvu welwati wa Common Voice. Njengalombhukudvu, le Clip Graveyard nayo ivulekelwe kucashunwa. Sitawutsandza kubonga naba bantfu labalandzelako kanye netinhlangano ngelisuto  kulomsebenti.
 about-get-involved = Hlanganyela
@@ -538,6 +542,7 @@ about-playbook-how-add-sentences-content-4 = Imisho lesavunyiwe ihanjiswa nga Le
 about-playbook-how-record-quality = Ngikhona njani kutfwebula ticephu letisezingeni lelisecophelweni lelisetulu?
 about-playbook-how-record-content-2 = Gwema imisindvo ngemuva- kumele kube lula kukuva.
 about-playbook-how-record-content-3 = Fundza lemisho ngekucophelela-ungashiyi, ungashintji futsi ungangeti emagama.
+about-playbook-how-record-content-4 = Ciniseka kutsi uyatfwebula ungakacali kukhuluma, nekutsi kugcina kutfwebula uma ucedza kukhuluma.
 about-playbook-how-record-content-5 = <accuracyLink> Bona lokunengi eluhleni lwekungaphazami </accuracyLink>
 
 ## How to grow language
@@ -548,6 +553,7 @@ about-playbook-how-grow-language-content-3 = Ungayichuba imicimbi kusita bantfu 
 about-playbook-how-grow-language-content-4 = Tinkhundla tekuchumana
 about-playbook-how-grow-language-content-5 = Ungasebentisa tinkhundla tekuchumana kute usakate lomlayeto. Yabelana ngalokutfunyelwe lokuchaza kutsi kubaluleke kanganani, bese utsintsana nalabanye bantfu labakhuluma ngetindzaba letinjengemalungelo etilwimi, i-voice AI, noma  imibono ngetebuchwephesha. Buka teluleko letiningi <campaignLink>ngekusebentisa umkhankhaso wekuchumana nebantfu, lonelwati longa phindze ulisebentise</campaignLink>.
 about-playbook-how-grow-language-content-6 = Kubambisana nekuchumana
+about-playbook-how-grow-language-content-8 = <strong>Get creative!</strong> Bani nemibono! umango wakho welulwimi utohluka, leti tindlela letincane nje tekucala.
 
 ## How to validate
 
@@ -556,6 +562,7 @@ about-playbook-how-validate-content-1 = Uma ungakhona <strong>balalele</strong> 
 about-playbook-how-validate-content-3 =
     Uma ucabanga kutsi kuphimisela kwenta kutsi <strong> kungakhonakali kucondzisisa </strong>, noma<strong>kunemsindvo lomningi </strong>
     longemuva, noma kukhona nabanye bantfu labakhulumako, kufanele usijikise lesiceshana.<accuracyLink> Buka lwati lolwengetiwe kumibandzela yethu yekucinisekisa</accuracyLink>.
+about-playbook-how-validate-content-4 = Uma inkhulumo ijikiswe bantfu lababili, ikhishwa kulomunye umkhakha wale dataset.
 
 ## How to access dataset
 
@@ -624,6 +631,7 @@ review-delete-recordings = Yesula ticephu tami latitfwebuliwe
 ## Datasets Page
 
 datasets-heading = Datasets
+datasets-headline = Sakha iDataset levulekele sive, tilwimi letehlukahlukene emavi langasebentiswa ngunome ngabe ngubani kufundzisa tinsita tebucwephesha leti lasebentisa emavi.
 datasets-positioning =
     Sikholelwa kutsi ticheme telwati lwesive, lungatfolakala lutokhutsata kwakha lokusha nekucdzelana kwetemabhizinisi lokunemphilo ngetebuchwephesha benkhulumo lobusekelwe yimishina.
     
@@ -663,7 +671,9 @@ data-other-ted-name = TED-LIUM Corpus
 data-other-ted-description =
     Liphephandzaba TED-LUM lakhiwa netinkhulumo letitfwebulie netinchazelo tato lokutfolakala kule 
     TED website.
+data-other-voxforge-description = VoxForge wasungulelwa kukweleka tinkhulumo letichazelwe kusebenta ngetinjini tekuva livi tamahhala
 go-discourse = Hamba ku Discourse
+missing-language = Lulwimi lwakho aluveli kule Dataset? Kucela lophetse lulwimi ekhasini letfu lelulwimi.
 go-languages-page = Buyela ekhasini letilwimi
 ready-to-validate = Ulungele kusita ngekucinisekisa imisho?
 more = Lokunengi
@@ -713,6 +723,9 @@ request-language-google-recaptcha-error = Kukhona lokuhambe kabi nge reCAPTCHA. 
 # Success page
 request-language-success-heading = Siyabonga! Utfumele sicelo lesisha selulwimi
 request-language-success-list-1 = Kumele utfole liposi lembane masinyane lelitakuchazela ngetindlela tekufika elwimini lwakho ku Common Voice.
+request-language-error =
+    Mhlawumbe asikasitfoli leso sicelo. Sicela utfumele liposi lembane 
+    ku <emailLink>{ $email }</emailLink>sitobuya kuwe!
 
 ## Languages Overview
 
@@ -887,6 +900,8 @@ activity-needed-calculation-plural =
 how-many-per-day = Kuhle! Tingaphi ticephu lotitfwebula ngelilanga?
 how-many-a-week = Kuhle! Tingaphi ticephu lotitfwebula ngeliviki?
 which-goal-type = Ufuna kukhuluma, kulalela, noma kokubili?
+receiving-emails-info = Usethelwe kutsi utfole emapoli embane lafaka ekhatsi kukhunjutwa ngemagoli, inchubo yami, kanye netincwadzi nga Common Voice
+not-receiving-emails-info = Kwamanje, usethelwe kutsi <bold>HHAYI</bold> ungatfoli liposi lembane lekufaka ekhatsi kukhunjutwa ngemagoli, inchubo netincwadzi mayelana na Common Voice
 help-share-goal = Sisite sitfole emavi lamanengi, yaba ligoli lakho
 confirm-goal = Cinisekisa umgomo
 goal-interval-weekly = Ngemaviki
@@ -940,6 +955,7 @@ download-request-metadata-link = Imisho lemagama
 ## Landing
 
 welcome-staff = Siyanemukela { $company } tisebenti!
+help-contribute = Ungasita kwakha i-database lehlukile ngekwakha likhasi lelichaza kabanti ngawe ku Common Voice upindze wengete liphimbo lakho.
 login-company = Ngena / Bhalisa nge email ye { $company }
 profile-not-required = Kuba nelikhasi lelichaza kabanti ngawe akudzingeki, kepha kulusito, buka kutsi leni langentasi
 read-more-about = Fundza kabanti ekhasini lelichaza Kabanti ngatsi
@@ -983,6 +999,7 @@ demo-dashboard-card-body = Kuso sonkhe siceshana selivi lesinikelwe, nato tonkhe
 contribution-criteria-nav = Luhla
 contribution-criteria-link = Condzisisa luhla lwekulekelela
 contribution-criteria-page-title = Luhla lwekulekelela
+contribution-criteria-page-description = Condzisisa kutsi ufunani uma ulalela tinkhulumo kute utokwati kwenta kutfwebula tinkhulumo kunotse!
 contribution-for-example = kubekisa
 contribution-misreadings-title = Lokufundvwe kabi
 contribution-misreadings-description-extended-list-1 = Kushoda <strong>'A'</strong> or <strong>'The'</strong> ekucaleni kwale recording.
@@ -1179,6 +1196,12 @@ sc-confirm-sentences-found =
         [0] Kute imisho letfolakele
         [one] munye umusho lotfolakele
        *[other] { $countOfSentences } imisho letfolakele
+    }
+sc-confirm-already-reviewed =
+    { $countOfReviewed ->
+        [0] Kute umusho losovelwe ucinisekisiwe
+        [one] 1 umusho losovele ucinisikisiwe. Muhle umsebenti!
+       *[other] { $countOfReviewed } imisho seyivele icinisekisiwe. Muhle umsebenti!
     }
 # Variables:
 #   $readyCount (Number) - Number of sentences ready to be uploaded
