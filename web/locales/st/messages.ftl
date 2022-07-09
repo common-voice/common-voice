@@ -31,13 +31,25 @@ co = Corsican
 cs = Czech
 cv = Chuvash
 da = Danish
+de = German
 dv = Dhivehi
 dyu = Dioula
+en = Senyesemane
+eo = Esperanto
+et = Estonian
 eu = Basque
+ff = Fulah
+fi = Finnish
+fo = Faroese
+fr = Sefora
+fy-NL = Frisian
+gl = Galician
 hr = Croatian
 hy-AM = Armenian
+ka = Georgian
 kw = Cornish
 my = Burmese
+myv = Erzya
 nl = Dutch
 sq = Albanian
 yue = Cantonese
@@ -51,6 +63,7 @@ datasets = Dipokello tsa data
 about = Ka
 contact = Tshwara
 cookies = Di-cookie
+faq = FAQ
 
 ## Home Page
 
@@ -72,16 +85,22 @@ benefits = Melemo
 
 ## Speak Shortcuts
 
+shortcut-discard-ongoing-recording = ESC
 
 ## ProjectStatus
 
+english = Sekgowa
 
 ## ProfileForm
 
 profile-form-age =
     .label = Dilemo
+profile-form-gender-2 =
+    .label = Bong
+female = E motshehadi
 dashboard = Dashboard
 avatar = Avatar
+goals = Dipheo
 profile-close = Kwala
 edit = Lokisa
 
@@ -119,6 +138,7 @@ about-stay-in-touch-text-1 = <emailFragment>Ingodise</emailFragment> ho lenane l
 
 ## How to grow language
 
+about-playbook-how-grow-language-content-2 = Diketsahalo
 
 ## How to validate
 
@@ -131,10 +151,12 @@ about-stay-in-touch-text-1 = <emailFragment>Ingodise</emailFragment> ho lenane l
 
 ## Glossary
 
+glossary = Bukana ya mantswe
 de-identified = E tlositsweng dintlha tsa botho
 
 ## Error pages
 
+error-code = Phoso { $code }
 
 ## Data
 
@@ -142,6 +164,7 @@ de-identified = E tlositsweng dintlha tsa botho
 ## Datasets Page
 
 datasets-heading = Dipokello tsa data
+size-gigabyte = GB
 download-language = Download-a { $language }
 resource-playbook-info = <playbookLink>Fumana tataiso e thusang</playbookLink> leetong lohle la Common Voice, ho tloha sebakeng sa lehae ho isa tshebedisong ya dataset, mmoho le mokgwa wa ho hokahana le setjhaba sa rona.
 data-other-librispeech-description = LibriSpeech ke kakaretso ya dihora tse ka bang 1000 tsa 16Khz tse balwang ka puo ya Senyesemane e nkilweng dibukeng tsa audio tse balwang ho tswa morerong wa LibriVox.
@@ -182,6 +205,7 @@ continue = Tswela pele
 ## Dashboard
 
 awards = Dikgau
+everyone = Bohle
 
 ## Custom Goals
 
