@@ -15,6 +15,7 @@ ady = Adyghe
 am = Amharic
 an = Aragonese
 ar = Arabic
+arn = Mapudungun
 as = Assamese
 ast = Asturian
 az = Azerbaijani
@@ -79,7 +80,16 @@ lg = Luganda
 lij = Ligurian
 lt = Lithuanian
 lv = Latvian
+mai = Maithili
+mdf = Moksha
+mg = Malagasy
 mk = Macedonian
+ml = Malayalam
+mn = Mongolian
+mos = Mossi
+mr = Marathi
+ms = Malay
+mt = Maltese
 my = Burmese
 myv = Erzya
 nl = Dutch
@@ -118,6 +128,9 @@ benefits = Melemo
 
 ## Listen Shortcuts
 
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = n
 
 ## Speak Shortcuts
 
@@ -136,6 +149,7 @@ profile-form-age =
 profile-form-gender-2 =
     .label = Bong
 hidden = E patilwe
+male = E motona
 female = E motshehadi
 dashboard = Dashboard
 avatar = Avatar
@@ -201,6 +215,7 @@ error-code = Phoso { $code }
 
 ## Data
 
+license-mixed = E tswakantswe
 
 ## Datasets Page
 
@@ -208,9 +223,11 @@ datasets-heading = Dipokello tsa data
 language = Puo
 cv-license = Laesense
 size-gigabyte = GB
+size-megabyte = MB
 download-language = Download-a { $language }
 resource-playbook-info = <playbookLink>Fumana tataiso e thusang</playbookLink> leetong lohle la Common Voice, ho tloha sebakeng sa lehae ho isa tshebedisong ya dataset, mmoho le mokgwa wa ho hokahana le setjhaba sa rona.
 data-other-librispeech-description = LibriSpeech ke kakaretso ya dihora tse ka bang 1000 tsa 16Khz tse balwang ka puo ya Senyesemane e nkilweng dibukeng tsa audio tse balwang ho tswa morerong wa LibriVox.
+more = Tse ding
 close = Kwala
 download = Download
 
@@ -219,6 +236,8 @@ download = Download
 
 ## Contact Modal
 
+contact-form-message =
+    .label = Molaetsa
 contact-required = *E ya hlokahala
 
 ## Request Language Modal
@@ -295,6 +314,7 @@ demo-account = Ak'haonte
 ## Validation criteria
 
 contribution-criteria-nav = Ditekanyetso
+contribution-misreadings-title = Ho se bale hantle
 
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
@@ -363,6 +383,8 @@ sc-confirm-uploading = Dipolelo di ntse di kenngwa. Sena se ka nka metsotso e mm
 ## REVIEW
 
 sc-review-form-button-approve = Amohela
+# Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
+sc-review-form-button-reject-shortcut = N
 
 ## SETTINGS
 
