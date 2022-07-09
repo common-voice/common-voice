@@ -2,6 +2,7 @@
 
 email-input =
     .label = Email
+not-available-abbreviation = N/A
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -92,7 +93,11 @@ ms = Malay
 mt = Maltese
 my = Burmese
 myv = Erzya
+ne-NP = Nepali
+nia = Nias
 nl = Dutch
+oc = Occitan
+or = Odia
 quc = K'iche'
 rw = Kinyarwanda
 sq = Albanian
@@ -114,6 +119,7 @@ faq = FAQ
 ## Home Page
 
 no-clips-to-validate = Ho bonahala eka ha ho na di-clip tsa ho mamela ka puo ena. Re thuse ho tlatsa letoto ka ho rekota tse ding hona jwale.
+vote-no = Tjhe
 all-locales = Koafela
 
 ## Account Benefits
@@ -128,6 +134,9 @@ benefits = Melemo
 
 ## Listen Shortcuts
 
+# Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-play-toggle = p
 # Must be one letter that appears in the { vote-no } string.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
 shortcut-vote-no = n
@@ -151,11 +160,15 @@ profile-form-gender-2 =
 hidden = E patilwe
 male = E motona
 female = E motshehadi
+# Gender
+other = Tse ding
 dashboard = Dashboard
 avatar = Avatar
 goals = Dipheo
 profile-close = Kwala
 edit = Lokisa
+off = E kwetswe
+on = E butswe
 
 ## Profile - Email
 
@@ -174,6 +187,7 @@ edit = Lokisa
 about-listen-queue = Mola wa ho mamela
 about-listen = Mamela
 about-stay-in-touch-text-1 = <emailFragment>Ingodise</emailFragment> ho lenane la rona la mangolo ho ithuta hore na o ka nka karolo jwang matsholong, diketsahalong le dikarolo tsa moralo o kopanetsweng ho Common Voice.
+about-nav-partners = Balekane
 
 ## Community Playbook Content
 ## What is a language
@@ -215,6 +229,7 @@ error-code = Phoso { $code }
 
 ## Data
 
+data-download-deny = Tjhe
 license-mixed = E tswakantswe
 
 ## Datasets Page
@@ -236,6 +251,8 @@ download = Download
 
 ## Contact Modal
 
+contact-form-name =
+    .label = Lebitso
 contact-form-message =
     .label = Molaetsa
 contact-required = *E ya hlokahala
@@ -299,6 +316,7 @@ download-request-button = Download
 
 ## Demo Datasets
 
+card-button-next = E latelang
 card-button-back = Morao
 demo-account = Ak'haonte
 
