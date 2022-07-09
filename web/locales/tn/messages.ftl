@@ -279,6 +279,7 @@ visibility-explainer = Seting eno e laola tsela e o bonang lenaane la baetapele 
 
 ## Custom Goals
 
+not-receiving-emails-info = Gone jaanong o dirile gore o <bold>SE KA</bold> wa amogela diimeile tse di jaaka dikgopotso tsa maikaelelo, ditlhabololo tsa kgatelopele ya me le makwalodikgang a Common Voice
 # LINK will be replaced with the current URL
 goal-share-text = Ke fetsa go dira maikaelelo a botho a go abelana ka lentswe go #CommonVoice -- dira le nna mme o nthuse go ruta metšhine  gore batho ba mmatota ba bua jang { $link }
 
@@ -299,6 +300,7 @@ download-request-link-single = Gape o ka kgona go kopisa le go manega di-URL tse
 
 ## Landing
 
+help-contribute = O ka thusa rekoto eno ya tshedimosetso e kgolo e bile e le ya batho botlhe ka go tlhama porofaele ya Common Voice le go abelana ka lentswe la gago.
 
 ## DemoLayout
 
@@ -397,8 +399,8 @@ sc-add-result =
 sc-confirm-already-reviewed =
     { $countOfReviewed ->
         [0] Ga go na mola o o setseng o sekasekilwe.
-        [one] { "" }
-       *[other] { "" }
+        [one] Mola o le 1 o setse o sekasekilwe. O berekile!
+       *[other] *Mela e { $countOfReviewed } e setse e sekasekilwe. O berekile!
     }
 sc-confirm-uploading = Mela e a tsenngwa. Seno se ka tsaya metsotso e le mmalwa go ikaegile ka palo ya mela e e tsenngwang. Tsweetswee o se ka wa tswala webosaete eno.
 
