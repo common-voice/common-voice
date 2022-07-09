@@ -42,6 +42,7 @@ yue = Cantonese
 
 ## Layout
 
+datasets = Pokello ya data
 about = Ka
 contact = Tshwara
 cookies = Di-cookie
