@@ -39,6 +39,7 @@ wall-of-text-second =
     Batho ba bantsi ga ba kgone go fitlhelela bontsi jwa tshedimosetso e e dirisiwang ke dikhampani tse dikgolo. Re akanya
     gore seo se kgoreletsa go tlhama dilo. Ka jalo re simolotse Common Voice, porojeke e e thusang gore
     mongwe le mongwe a kgone go bona le go fitlhelela temogo ya mantswe.
+no-clips-to-validate = Go lebega go se na dikgatiso dipe tse di tlhokang go reediwa mo puong eno. Re thuse go di oketsa ka go rekota dingwe gone jaanong.
 listen-paragraph = Go tlhomamisa dikgatiso tse di abilweng le gone go botlhokwa mo maikaelelong a Common Voice. Reetsa mme o re thuse go dira tshedimosetso e e nang le boleng ya mantswe.
 
 ## Account Benefits
@@ -220,6 +221,7 @@ dataset-description-hours =
     Ga jaana tshedimosetso e na le diura tse <b>{ $valid }</b> tse di tlhomamisitsweng mo dipuong tse <b>{ $languages }</b>, mme ka metlha re tsenya mantswe le dipuo tse di oketsegileng. Leba <languagesLink>tsebe ya rona ya Dipuo</languagesLink> go kopa puo kgotsa go simolola go aba.
 resource-deepspeech-info = Thulaganyo ya go lemoga mantswe ya Mozilla ya Deep Speech e ka dirisiwa go dira dithulaganyo tsa go lemoga puo. Bala <githubLink>dintlhakakaretso tsa rona tsa Github</githubLink> kgotsa nna karolo ya <discourseLink>DeepSpeech Discourse</discourseLink> go ithuta gore o ka simolola jang.
 resource-playbook-info = <playbookLink>Bona kaelo e e thusang</playbookLink> ka loeto lotlhe lwa Common Voice, go tloga ka go ranolela go fitlha ka tiriso ya tshedimosetso, mmogo le go ikgolaganya le batho ba lefelo la rona.
+data-other-librispeech-description = LibriSpeech ke direkoto tsa diura di ka nna 1000 tsa 16Khz tse di balang mela ya Seesemane tse di tsewang mo dibukeng tsa mantswe tsa porojeke ya LibriVox.
 data-other-tatoeba-description = Tatoeba ke tshedimosetso e kgolo ya dipolelo, dithanolo, le kgatiso ya mantswe a a buiwang e e dirisiwang go ithuta puo. Karolo eno e e itseelwang e na le Seemane se se buiwang se se gatisitsweng ke morafe wa bone.
 
 ## Download Modal
@@ -380,6 +382,14 @@ sc-confirm-uploading = Mela e a tsenngwa. Seno se ka tsaya metsotso e le mmalwa 
 
 ## LANGUAGE INFO
 
+# Variables:
+#   $unreviewedSentencesByYou (Number) - Number of sentences the user can still review
+sc-lang-info-left-for-you =
+    { $unreviewedSentencesByYou ->
+        [0] Ga go na mela e e setseng e o tlhokang go e sekaseka.
+        [one] Mola o le 1 o o setseng o o tlhokang go o sekaseka.
+       *[other] *Mela e e setseng e le { $unreviewedSentencesByYou } e o tlhokang go e sekaseka.
+    }
 
 ## LOGIN
 
