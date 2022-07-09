@@ -38,6 +38,7 @@ yue = Cantonese
 ## Layout
 
 about = Ka
+contact = Tshwara
 
 ## Home Page
 
@@ -149,11 +150,13 @@ request-language-explanation-2 = Hape re tla <strong>tsebisa mookamedi wa setjha
 ## Contribution
 
 action-click = Penya
+contribute = Kenya letsoho
 
 ## Reporting
 
 report-other-comment =
     .placeholder = Hlahisa Maikutlo
+continue = Tswela pele
 
 ## Goals
 
