@@ -393,6 +393,10 @@ change-email-setings = Shintja liposi lakho lembane kuma settings ngaphasi kwala
 faq-title = Imibuto levame kubutwa
 faq-what-cv-q = Yini Common Voice?
 faq-why-important-q = Kumcoka ngani loku?
+faq-why-important-a =
+    Inkhulumo yindlela yemvelo yekutsi sikhone kuchumana sodvwa kantsi futsi buchwephesha bebemaphimbo buletsa loku kalula kubo ngcondvomshina kanye nabo mashala ekukhukhwini. Sifuna kuniketa batfutfukisi betebucwephesha umfutfo kute bakhe tinhlelo tekuchumana ngekulalela ngenkhulumo njengeku humusha ngaleso sikhatsi kanye netinsita tebuchwephesha letisebenta ngemavi. Kepha kwanyalo luningi lwalolwati lwemavi lekwakha leti tinsita lidulile futsi lisemtsetfweni. Siyetsemba kutsi le Common Voice dataset itobaniketa batfutfukisi betebuchwephesha naku labakudzingako kute basungule futsi bakhe lobuchwephesha benkhulumo ngelulwimi lwabo.
+    
+    Kute wakhe lobuchwephesha bekuva inkhulumo busebente mhlaba wonkhe, sikweleka tinkhulumo letehlukahlukene ngetilwimi letijwayelekile kanye nateleto letikhulunywa tive letincane letingatiwa tinsita tenkhuluma letatiwako. Kusakata lolwati letinkhulumo kutolekelela bonjinela, bosomabhizinisi, kanye nawo wonkhe umkhakha wetetinkhuluma kutsi uvala tikhala letikhona emkhatsini wabo.
 faq-how-get-q = Ngingayitfola njani le data yaka Common Voice?
 faq-when-release2-q = Utayikhipha nini i-data yaka Common Voice ngalolunye lulwimi?
 faq-why-mission-q = Leni Common Voice abe yincenye yemshikashika wa Mozilla?
