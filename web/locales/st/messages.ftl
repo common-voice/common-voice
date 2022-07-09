@@ -74,9 +74,12 @@ ko = Korean
 kpv = Komi-Zyrian
 kw = Cornish
 ky = Kyrgyz
+lb = Luxembourgish
+lg = Luganda
 lij = Ligurian
-lt = { "" }
+lt = Lithuanian
 lv = Latvian
+mk = Macedonian
 my = Burmese
 myv = Erzya
 nl = Dutch
@@ -257,6 +260,7 @@ everyone = Bohle
 both-speak-and-listen = Bobedi
 easy-difficulty = E bonolo
 difficult-difficulty = E thata
+share-goal-type-listen = E ntse mametse
 # LINK will be replaced with the current URL
 goal-share-text = Ke sa tswa iketsetsa sepheo sa ho fana ka lentswe ho #CommonVoice -- ikopanye le nna ho thusa ho ruta metjhini hore na batho ba nnete ba bua jwang { $link }
 
@@ -304,6 +308,7 @@ sc-header-how-to = Mokgwa wa ho
 sc-header-add = Eketsa
 sc-footer-discourse = Discourse
 sc-footer-cookies = Di-cookie
+sc-logout-button = Tswa
 
 ## HOME
 
