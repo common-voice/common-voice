@@ -228,6 +228,7 @@ resource-deepspeech-info = Thulaganyo ya go lemoga mantswe ya Mozilla ya Deep Sp
 resource-playbook-info = <playbookLink>Bona kaelo e e thusang</playbookLink> ka loeto lotlhe lwa Common Voice, go tloga ka go ranolela go fitlha ka tiriso ya tshedimosetso, mmogo le go ikgolaganya le batho ba lefelo la rona.
 data-other-librispeech-description = LibriSpeech ke direkoto tsa diura di ka nna 1000 tsa 16Khz tse di balang mela ya Seesemane tse di tsewang mo dibukeng tsa mantswe tsa porojeke ya LibriVox.
 data-other-tatoeba-description = Tatoeba ke tshedimosetso e kgolo ya dipolelo, dithanolo, le kgatiso ya mantswe a a buiwang e e dirisiwang go ithuta puo. Karolo eno e e itseelwang e na le Seemane se se buiwang se se gatisitsweng ke morafe wa bone.
+your-feedback = A o na le dikakantsho tsa gore re ka tokafatsa jang direkoto tsa tshedimosetso ya Common Voice? Re itsise mo Discourse
 
 ## Download Modal
 
@@ -393,6 +394,12 @@ sc-add-result =
 
 ## ADD SENTENCES CONFIRMATION
 
+sc-confirm-already-reviewed =
+    { $countOfReviewed ->
+        [0] Ga go na mola o o setseng o sekasekilwe.
+        [one] { "" }
+       *[other] { "" }
+    }
 sc-confirm-uploading = Mela e a tsenngwa. Seno se ka tsaya metsotso e le mmalwa go ikaegile ka palo ya mela e e tsenngwang. Tsweetswee o se ka wa tswala webosaete eno.
 
 ## LANGUAGE INFO
