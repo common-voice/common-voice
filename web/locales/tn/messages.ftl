@@ -207,6 +207,7 @@ error-content-503 = Webosaete e tla bo e boetse mo maemong ka bonako jo bo kgone
 
 ## Data
 
+data-subtitle = Re aga rekoto ya tshedimosetso ya mantswe e mongwe le mongwe a ka e dirisang go thapisa dithulaganyo tse di kgonang go dirisa mantswe.
 data-explanatory-text = Re dumela gore tshedimosetso e kgolo le e e phasaladitsweng ya mantswe e rotloetsa go tlhama le kgaisano ya kgwebo mo thekenolojing e e ikaegileng ka go ithuta ga metšhine. Ano ke matsapa a lefatshe lotlhe mme re laletsa mongwe le mongwe go tsaya karolo. Boikaelelo jwa rona ke go thusa thekenoloji ya go bua gore e akaretse dilo tse dintsi, e bontshe pharologano ya mantswe go ralala lefatshe.
 
 ## Datasets Page
