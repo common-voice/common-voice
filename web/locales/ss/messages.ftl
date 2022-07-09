@@ -392,6 +392,10 @@ change-email-setings = Shintja liposi lakho lembane kuma settings ngaphasi kwala
 
 faq-title = Imibuto levame kubutwa
 faq-what-cv-q = Yini Common Voice?
+faq-what-cv-a-2 =
+    Buchwephesha bekuva livi buyayishintja indlela lesisebentisana ngayo nemishini, kodvwa tinsita tetfu tebuchwephesha letitfolakalako nyalo tiyabita futsi tinebanikati. I- Common Voice iyincenye yesinyatselo sa-Mozilla sekwenta lobuchwephesha bekuva emavi bube ncono futsi bufinyeleleke kuwo wonkhe umuntfu. I-Common Voice ngumtfombo welwati wemhlaba wemavi lanikelwe lovumela noma ngubani kutsi aceceshe ngekushesha futsi kalula tinhlelo tekusebenta letisebentisa ema mavi kuto tonkhe tilwimi.
+    
+    Asikweleki kuphela ticeshana nemavi tetilwimi letikhulunywa linengi kuphela kepha nakuleto telinani lelincane letikhulumi. Kusakata ticheme letehlukahlukene temavi kutonika emandla bonjiniyela, bosomabhizinisi, nemiphakatsi kutsi ibhekane nalo mkhatsi ngokwabo.
 faq-why-important-q = Kumcoka ngani loku?
 faq-why-important-a =
     Inkhulumo yindlela yemvelo yekutsi sikhone kuchumana sodvwa kantsi futsi buchwephesha bebemaphimbo buletsa loku kalula kubo ngcondvomshina kanye nabo mashala ekukhukhwini. Sifuna kuniketa batfutfukisi betebucwephesha umfutfo kute bakhe tinhlelo tekuchumana ngekulalela ngenkhulumo njengeku humusha ngaleso sikhatsi kanye netinsita tebuchwephesha letisebenta ngemavi. Kepha kwanyalo luningi lwalolwati lwemavi lekwakha leti tinsita lidulile futsi lisemtsetfweni. Siyetsemba kutsi le Common Voice dataset itobaniketa batfutfukisi betebuchwephesha naku labakudzingako kute basungule futsi bakhe lobuchwephesha benkhulumo ngelulwimi lwabo.
@@ -400,6 +404,7 @@ faq-why-important-a =
 faq-how-get-q = Ngingayitfola njani le data yaka Common Voice?
 faq-when-release2-q = Utayikhipha nini i-data yaka Common Voice ngalolunye lulwimi?
 faq-why-mission-q = Leni Common Voice abe yincenye yemshikashika wa Mozilla?
+faq-why-mission-a = I-Mozilla itinikele ekugcineni likhatsi langcondvomshina livuliwe futsi lifinyeleleka kuwo wonkhe umuntfu. Kute sente loko sidzinga kuniketa batfutfukisi belikhasi langcondvomshina emandla ngemisebenti lefana ne-Common Voice. Njengoba buchwephesha belivi bukhula ngetulu kwetinhlelo tekusebenta te-niche, sikholwa kutsi kufanele tinikete bonkhe basebentisi ngalokulinganako. Loko kusho kutjala timali ngetilimi letiningi futsi kuvumeleke kuphumisela lokuhlukahlukene kanye netibalo tebantu lapho kwakhiwa futsi kuhlolwa buchwepheshe belivi. I-Common Voice iyinsita yesive letfolakala kuwo wonkhe umuntfu futsi emacembu e-Mozilla nabonjinela emhlabeni jikelele sebevele bayawusebentisa lomsebenti wetfu.
 faq-what-cv-and-deepspeech-q = Yini umehluko wa Common Coice na Deep Speech?
 faq-is-goal-assistant-q = Ngabe umgomo wa Common Voice kwakha umsiti wemavi?
 faq-why-different-speakers-q = Utidzingelani tikhulumi letehlukene ngelulwimi ngalunye?
@@ -408,9 +413,14 @@ faq-why-10k-hours-q = Leni emahora langu 10,000 lacinisekisiwe ngelulwimi abe li
 faq-why-10k-hours-a = Leli linani lemahora ladzingekile kuze kuceceshwe umkhiciti we speech-to-text system
 faq-how-calc-hours-q = Common Voice uwabala njani ema hora?
 faq-where-src-from-2-q = Umtfombo wemagama uchamukaphi?
+faq-why-not-ask-read-a = Kute sente lomtfombo welwati waka Common Voice kutsi ube yinsita sikhetse kutsi sivumele kuphela umtfombo wemagama lokhona ngephansi kwemvume ye Creative Commons CC0. Kusebentisa lemigomo ye CC0 kusho kutsi kulukhuni kakuhlu kutfola nekukweleka umtfombo wemagama, konja kuvumela noma ngangubani kusebentisa lomphumela we lwati lelivi ngaphandle wekuba nemkhawulo wekuwusebentisa noma imvumo lesuka ka Mozilla. Ekugcineni, sifuna kwakha lomtfombo welwati wetilwimi letehlukene kutsi usebentiseke kuwonkhe wonkhe, kufaka ekhatsi bacwaningi, emanyuvesi, labacalako, bohulumende, tinhlangangano tesive kanye nalabatilibatisako.
 faq-why-account-q = Kudzingeke ngani kutsi ngibhalisele i-account?
 faq-is-account-public-q = Imininingwane yami ibonwa sive?
 faq-how-privacy-q = Ucinisekisa kanjani kungatiwa nekufihleka kwetimfihlo tebantfu labanikele ngemavi abo?
+faq-what-determine-identity-a =
+    "Umtfombo welwati we-Common Voice uvulekile futsi lotfolakala esiveni ungasetjentiswa kucecesha tinhlobonhlobo tetinhlelo tekusebenta letikwati kukhuluma. Kute kuvikelwe kuphepha kwabanikeli betfu, sicela wonkhe umuntfu losebentisa lwati lwe Common Voice kutsi ahloniphe timfihlo talabo labanikele.
+    
+    Tonkhe ticeshana telivi kulomtfombo wetfu welwati tisuswa imininingwane webaniyo. Uma utsatsa leticeshana, uyavuma kutsi ngeke uzame kubona kutsi ngubani lolonikele. Loko kusho kutsi ngeke utame kuhlanganisa lwati  kanye nemuntfu lonikele. Kepha, ungasebentisa ticeshana telwati kucecesha kwenkhulumo, kubona sikhulumi, noma letinye tinhlelo tekusebenta, ngekwesibonelo, ngekuchumanisa lwati  lokusemtfombeni wetfu kanye nalolunye nelalomunye umtfombo."
 faq-what-is-cv = Yini Common Voice?
 faq-using-cv = Kusebentisa Common Voice
 faq-search-for-answers =
@@ -419,6 +429,9 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Leni Common Voice?
+about-header-description-v2 =
+    "<p>I- Common Voice ngumtfombo welwati wesive, lonikwe emandla ngemavi ema volontiya emhlaba wonkhe jikelele. Bantfu labafuna kwakha tinhlelo temavi tekusebenta bangasebentisa lwati kucecesha tinsita tekufundza umshini.</p>
+    <p>Kwanyalo, ticeshana telwati lwemavi letiningi tiphetswe tinkampani, letikhinyabeta umkhicito lomusha. Ticeshana telwati yelivi nato atimeleli kahle : labangakhulumi siNgisi, bantfu belibala, bantfu labakhubatekile, besifazane kanye nebantfu be-LGBTQIA+. Loku kusho kutsi buchwephesha bokusebentisa livi abusebenti nhlobo etilimini letiningi, futsi lapho busebenta khona, bungase bungasebenti kahle kuwo wonkhe umuntfu. Sifuna kushintsha loko ngekuhlanganisa bantfu yonkhe indzawo kute babelane ngemavi abo.</p>"
 how-does-it-work-title-v2 = Common Voice usebenta njani?
 
 ## How does it work section
@@ -913,6 +926,7 @@ contribution-misreadings-example-7-explanation = [No ‘a’ in the original tex
 contribution-misreadings-example-8-title = The bumblebee sped by.
 contribution-varying-pronunciations-title = Tindlela tekukhuluma letehlukahlukene
 contribution-varying-pronunciations-example-1-title = Enhloko yakhe bekagcoke i-beret.
+contribution-varying-pronunciations-example-1-explanation = [‘Beret’ is OK whether with stress on the first syllable (UK) or the second (US)]
 contribution-varying-pronunciations-example-2-title = Sandla sakhe besiphakam-ile.
 contribution-varying-pronunciations-example-2-explanation = [‘Raised’ in English is always pronounced as one syllable, not two]
 contribution-background-noise-title = Imisindvo lengemuva
@@ -1138,6 +1152,7 @@ sc-criteria-item-6 = Uma uphelelwa imisho longayibuketa, sicela usisite sikwelek
 
 ## REVIEW
 
+sc-review-lang-not-selected = Kute lulwimi lolukhetsile. Buyela e<profileLink>Khasini</profileLink> ukhetse khona lulwimi.
 sc-review-title = Buyeketa imisho
 sc-review-loading = Sisafaka imisho…
 sc-review-select-language = Sicela ukhetse lulwimi lotobuyeketa ngalo imisho.
