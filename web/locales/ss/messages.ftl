@@ -1,6 +1,9 @@
 ## General
 
 yes-receive-emails = Yebo, ngitfumele liposi lembane. Ngingatsandza kuhlala ngati kabanti ngenchubo yalomsebenti we Common Voice
+stayintouch =
+    Tsine ka Mozilla sakha umphakatsi etikwe bucwephesha bemavi
+    Singajabula kuhlala sichumene kulokusha, imtfombo lemisha ye data futsi kwati kutsi uyisebentisa njani le data.
 privacy-info = Siyetsembisa kutsi imininingwane yakho sitoyiphatsa ngebunono. Fundza kabanti ku  <privacyLink>Privacy Notice</privacyLink>
 return-to-cv = Buyela ku Common Voice
 email-input =
@@ -10,6 +13,7 @@ loading = Loading…
 email-opt-in-info = Ngingatsandza kutfola liposi lembane lekufaka ekhatsi kukhumbutwa ngemagoli ami, inchubo yami kanye nemaphephandzaba nga Common Voice.
 email-opt-in-info-title = Ngenela luhla lweliposi lembane lwa Common Voice.
 email-opt-in-info-sub-with-challenge = Tfola liposi lembane lekufaka ekhatsi kukhumbutwa ngemagoli akho, inchubo yakho kanye netindzatjana nga Common Voice.
+email-opt-in-privacy-v2 = Ngekuvuma kutsi wemukela imiyaleto kusho kutsi ute inkinga yekutsi Mozilla ekuphatseni lolwati njengoba kuchaziwe ku Mozilla's<privacyLink>Privacy Policy</privacyLink>
 indicates-required = Tindzawo letimakwe ngenkhanyeti (*) tidzingekile.
 not-available-abbreviation = N/A
 banner-error-slow-1 = Siyacolisa, Common Voice uyahamba kancane. Siyayibonga inshisekelo yakho.
@@ -1025,6 +1029,11 @@ how-many-a-week = Kuhle! Tingaphi ticephu lotitfwebula ngeliviki?
 which-goal-type = Ufuna kukhuluma, kulalela, noma kokubili?
 receiving-emails-info = Usethelwe kutsi utfole emapoli embane lafaka ekhatsi kukhunjutwa ngemagoli, inchubo yami, kanye netincwadzi nga Common Voice
 not-receiving-emails-info = Kwamanje, usethelwe kutsi <bold>HHAYI</bold> ungatfoli liposi lembane lekufaka ekhatsi kukhunjutwa ngemagoli, inchubo netincwadzi mayelana na Common Voice
+n-clips-pluralized =
+    { NUMBER($count) ->
+        [one] Sicephu
+       *[other] Ticephu
+    }
 help-share-goal = Sisite sitfole emavi lamanengi, yaba ligoli lakho
 confirm-goal = Cinisekisa umgomo
 goal-interval-weekly = Ngemaviki
