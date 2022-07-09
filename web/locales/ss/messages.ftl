@@ -7,6 +7,7 @@ email-input =
     .label = Liposi lembane
 submit-form-action = Mikisa
 loading = Loading…
+email-opt-in-info = Ngingatsandza kutfola liposi lembane lekufaka ekhatsi kukhumbutwa ngemagoli ami, inchubo yami kanye nemaphephandzaba nga Common Voice.
 email-opt-in-info-title = Ngenela luhla lweliposi lembane lwa Common Voice.
 email-opt-in-info-sub-with-challenge = Tfola liposi lembane lekufaka ekhatsi kukhumbutwa ngemagoli akho, inchubo yakho kanye netindzatjana nga Common Voice.
 indicates-required = Tindzawo letimakwe ngenkhanyeti (*) tidzingekile.
@@ -420,6 +421,7 @@ faq-what-cv-and-deepspeech-q = Yini umehluko wa Common Coice na Deep Speech?
 faq-what-cv-and-deepspeech-a = I-Common Voice dataset ihambisana nenjini ye-Mozilla levulekile yekucaphela Livi Lenkhulumo Lelijulile. Sigaba sekucala se-Deep Speech yakhululwa nge Lweti 2017 futsi isachubeka nekuvela kusukela ngaleso sikhatsi. Sikanye nemntfombo welwati we Common Voice, sikholelwa kutsi lobu buchwephesha bokubona livi kufanele butfolakale kuwo wonkhe umuntfu. Sitsemba kutsi lobu buchwepheshe butokwenta batfutfukisi kutsi bakwati kwakha ligagasi lemikhicito lemisha nemisebenti.
 faq-is-goal-assistant-q = Ngabe umgomo wa Common Voice kwakha umsiti wemavi?
 faq-is-goal-assistant-a = Umgomo we Common Voice kuvumela noma ngubani emhlabeni kutsi akhe bucwephesha bekulalela inkhulumo, bekuva sikhulumi, noma ke nguliphi luhlobo lwebucwephesha lobudzinga emavi. Insita yelivi incenye nje yetindlela letinengi tebucwephesha longayisebentisa kulomtfombo welwati kwakha.
+faq-do-want-native-q = Ngingumuntfu lukhuluma ngendlela letse pheceleti, niyalifuna yini livi lami?
 faq-do-want-native-a = Yebo, vele siyalidzinga livi lakho. Incenye yalesikuhlosile Common Voice kukweleka tinhlobo letiningi temavi kute letinsita tekuva emavi tisebentele wonkhe umuntfu. Loku kusho kutsi umnikelo losuka kubantfu etikhululumini letingiseto temdzabu umcoka.
 faq-why-different-speakers-q = Utidzingelani tikhulumi letehlukene ngelulwimi ngalunye?
 faq-why-different-speakers-a =
@@ -529,6 +531,7 @@ about-playbook-how-localize-content-5 = Bukela i-video yetfu lechaza kabanti kuz
 about-playbook-how-add-sentences = Ngiyingeta njani imisho?
 about-playbook-how-add-sentences-content-2 = Imisho kufanele ibuyeketwe futsi yemukelwe bantfu lababili kute ifakwe ku Common Voice. Yakha imihlahlandlela yelulwimi lwakho <languageGuidelinesLink>lapha</languageGuidelinesLink>. Imisho kufanele ibe <licenseLink>emehlweni emphakatsi</licenseLink> fuths ibe mifishane kunemagama langu-15. Ungacela umnikati wembhalo kutsi akwentele <waiverLink>CC0 usebentisa inchubo yetfu yekuyekelela</waiverLink>, futsi usitfumelele ku-commonvoice@mozilla.com
 about-playbook-how-add-sentences-content-3 = Ungasebentisa <scraperLink>umhlungi wemisho</scraperLink> kusekela imisho lemifisha lephuma ku Wikipedia
+about-playbook-how-add-sentences-content-4 = Imisho lesavunyiwe ihanjiswa nga Lesine, bese itfolakala esikhatsini lesitako.
 
 ## How to record quality
 
@@ -648,13 +651,18 @@ dataset-description-hours =
     Ngakunye lokufakwako kulomtfombo kucukets i-MP3 leyehlukile kanye nelifayela lembhalo lelihambisana nayo.Lamaningi ema <b>{ $total }</b> lacoshiwe kulomtfombo wetfu afaka ekhatsi lwati lwe lwetibalo tebantu letifana neminyaka, bulili, nendlela yokukhuluma lengasita kucecesha bucoftfo kwetinjini tekuva inkhulumo.
     
     Lomtfombo welwati kwanyalo ucuketse <b>{ $valid }</b> amahora lacinisekisiwe <b>{ $languages }</b> tilwimi, kodvwa sihlala sengeta amavi netilimi. Buka <languagesLink>likhasi Tilwimi</languagesLink> kucela lulwimi noma ucale ukunikele.
+want-dataset-update = Uyafuna kwati ngalokuhamba embili uma sikhipha inhlobo lensha ye dataset yaka Common Voice? Bhalisa kuleliphephandzaba letfu.
 subscribe = Bhalisa
 get-started-speech = Vele ucale nge Speech Recognition
 other-datasets = Lamanye ema-Datasets emavi
 feedback-q = Unawo umbiko longasitjela wona?
 resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ livulekele <docsLink>sikhwama sesive</docsLink> bacwaningi labatfutfukisa ingcayizivela yetindlela te AI
+resource-coqui-info = <coquiLink>Coqui</coquiLink>utimisele kuvula lobucwephesha lobu. Lomsebenti ufaka ekhatsi kufundza lokujilile ngetinjini te STT na TTS.
 community-playbook = Bhukwana wemmango
 data-other-ted-name = TED-LIUM Corpus
+data-other-ted-description =
+    Liphephandzaba TED-LUM lakhiwa netinkhulumo letitfwebulie netinchazelo tato lokutfolakala kule 
+    TED website.
 go-discourse = Hamba ku Discourse
 go-languages-page = Buyela ekhasini letilwimi
 ready-to-validate = Ulungele kusita ngekucinisekisa imisho?
@@ -704,10 +712,12 @@ request-language-google-recaptcha-required = reCAPTCHA uyadzingeka uma ufuna kuc
 request-language-google-recaptcha-error = Kukhona lokuhambe kabi nge reCAPTCHA. Sicela uphindze wetame futsi.
 # Success page
 request-language-success-heading = Siyabonga! Utfumele sicelo lesisha selulwimi
+request-language-success-list-1 = Kumele utfole liposi lembane masinyane lelitakuchazela ngetindlela tekufika elwimini lwakho ku Common Voice.
 
 ## Languages Overview
 
 language-section-in-progress = Kuyachubeka
+language-section-in-progress-new-description = Letilwimi tisatfutfukiswa ngummango. <localizationGlossaryLink>Website localization</localizationGlossaryLink>kanye <sentenceCollectionGlossaryLink> nekukwelekwa kwemisho </sentenceCollectionGlossaryLink> kuyadzigeka kulokusungulwa!
 language-section-launched = Kusunguliwe
 language-section-launched-description = { "" }
 languages-show-more = Bona Lokunengi
@@ -860,6 +870,20 @@ help-reach-hours-general-pluralized =
     }
 set-a-goal = Setha ligoli
 cant-decide = Awukhoni kukhetsa?
+activity-needed-calculation-plural =
+    { NUMBER($totalHours) ->
+        [one] { $totalHours } lihora lingenteka ngeku
+       *[other] { $totalHours } emohora lingenteka ngeku
+    } { NUMBER($periodMonths) ->
+        [one] { $periodMonths } inyanga uma
+       *[other] { $periodMonths } tinyanga uma
+    } { NUMBER($people) ->
+        [one] { $people } umuntfu uyatfwebula
+       *[other] { $people } bantfu bayatfwebula
+    } { NUMBER($clipsPerDay) ->
+        [one] { $clipsPerDay } sicephu ngelilanga
+       *[other] { $clipsPerDay } ticephu ngelilanga
+    }
 how-many-per-day = Kuhle! Tingaphi ticephu lotitfwebula ngelilanga?
 how-many-a-week = Kuhle! Tingaphi ticephu lotitfwebula ngeliviki?
 which-goal-type = Ufuna kukhuluma, kulalela, noma kokubili?
