@@ -9,6 +9,14 @@
 
 ab = Abkhaz
 ace = Acehnese
+ady = Adyghe
+am = Amharic
+an = Aragonese
+ar = Arabic
+as = Assamese
+ast = Asturian
+hy-AM = Armenian
+sq = Albanian
 
 # [/]
 
@@ -20,6 +28,7 @@ about = Ka
 ## Home Page
 
 no-clips-to-validate = Ho bonahala eka ha ho na di-clip tsa ho mamela ka puo ena. Re thuse ho tlatsa letoto ka ho rekota tse ding hona jwale.
+all-locales = Koafela
 
 ## Account Benefits
 
@@ -41,6 +50,9 @@ no-clips-to-validate = Ho bonahala eka ha ho na di-clip tsa ho mamela ka puo ena
 
 ## ProfileForm
 
+profile-form-age =
+    .label = Dilemo
+avatar = Avatar
 
 ## Profile - Email
 
@@ -222,6 +234,7 @@ sc-confirm-uploading = Dipolelo di ntse di kenngwa. Sena se ka nka metsotso e mm
 
 ## REVIEW
 
+sc-review-form-button-approve = Amohela
 
 ## SETTINGS
 
