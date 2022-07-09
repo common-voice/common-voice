@@ -672,6 +672,7 @@ data-other-ted-description =
     Liphephandzaba TED-LUM lakhiwa netinkhulumo letitfwebulie netinchazelo tato lokutfolakala kule 
     TED website.
 data-other-voxforge-description = VoxForge wasungulelwa kukweleka tinkhulumo letichazelwe kusebenta ngetinjini tekuva livi tamahhala
+your-feedback = Unayo imibono lengeta Common Voice abe ncono? Satise ku Discourse.
 go-discourse = Hamba ku Discourse
 missing-language = Lulwimi lwakho aluveli kule Dataset? Kucela lophetse lulwimi ekhasini letfu lelulwimi.
 go-languages-page = Buyela ekhasini letilwimi
