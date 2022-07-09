@@ -13,6 +13,7 @@ not-available-abbreviation = N/A
 ab = Abkhaz
 ace = Acehnese
 ady = Adyghe
+af = Seafrikanse
 am = Amharic
 an = Aragonese
 ar = Arabic
@@ -30,9 +31,12 @@ bs = Bosnian
 bxr = Buryat
 ca = Catalan
 cak = Kaqchikel
+ckb = Central Kurdish
+cnh = Hakha Chin
 co = Corsican
 cs = Czech
 cv = Chuvash
+cy = Welsh
 da = Danish
 de = German
 dv = Dhivehi
@@ -40,6 +44,7 @@ dyu = Dioula
 el = Segerike
 en = Senyesemane
 eo = Esperanto
+es = Spanish
 et = Estonian
 eu = Basque
 fa = Persian
@@ -217,6 +222,7 @@ on = E butswe
 
 ## How does it work section
 
+about-speak = Bua
 about-listen-queue = Mola wa ho mamela
 about-listen = Mamela
 about-stay-in-touch-text-1 = <emailFragment>Ingodise</emailFragment> ho lenane la rona la mangolo ho ithuta hore na o ka nka karolo jwang matsholong, diketsahalong le dikarolo tsa moralo o kopanetsweng ho Common Voice.
@@ -274,6 +280,7 @@ language = Puo
 # File size in gigabytes
 size = Boholo
 cv-license = Laesense
+splits = E arohane
 size-gigabyte = GB
 size-megabyte = MB
 download-language = Download-a { $language }
@@ -309,6 +316,7 @@ language-section-launched = E qadilwe
 language-meter-in-progress = Kgatelopele
 language-search-input =
     .placeholder = Batla
+language-speakers = Dibui
 sentences = Dipolelo
 language-validation-hours = Dihora
 
@@ -329,9 +337,11 @@ continue = Tswela pele
 
 ## Goals
 
+streaks = Melapo
 
 ## Dashboard
 
+stats = Dipalo-palo
 awards = Dikgau
 everyone = Bohle
 
@@ -341,6 +351,7 @@ both-speak-and-listen = Bobedi
 easy-difficulty = E bonolo
 difficult-difficulty = E thata
 pro-difficulty = Pro
+share-goal-type-speak = E ntse e bua
 share-goal-type-listen = E ntse mametse
 # LINK will be replaced with the current URL
 goal-share-text = Ke sa tswa iketsetsa sepheo sa ho fana ka lentswe ho #CommonVoice -- ikopanye le nna ho thusa ho ruta metjhini hore na batho ba nnete ba bua jwang { $link }
@@ -395,6 +406,7 @@ sc-header-home = Hae
 sc-header-how-to = Mokgwa wa ho
 sc-header-add = Eketsa
 sc-header-review = Hlahloba
+sc-header-statistics = Dipalo-palo
 sc-header-profile = Profaele
 sc-footer-discourse = Discourse
 sc-footer-privacy = Lekunutu
@@ -413,12 +425,16 @@ sc-howto-cite-item-3 = Bakeng sa mongolo wa setjhaba o sa fumaneheng marang-rang
 
 ## MY SENTENCES
 
+# Variables:
+#   $source (String) - Associated source the user filled out when uploading the sentence
+sc-my-source = Mohlodi: { $source }
 
 ## REJECTED
 
 
 ## STATS
 
+sc-stats-title = Dipalo-palo
 
 ## ADD
 
