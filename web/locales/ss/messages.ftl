@@ -224,6 +224,7 @@ logout = Phuma
 home-title = Common Voice lichaza lelidlalwa nguMozilla lelisita kufundzisa imishina kutsi bantfu mbamba bakhuluma kanjani.
 default-tagline = Le Mozilla Common Voice lichaza lelisita kufundzisa imishina kutsi bantfu mbamba bakhuluma kanjani.
 home-cta = Khuluma, faka umbono lapha!
+wall-of-text-more-desktop = Nyalo unganikela ngesicephu selivi lakho kusisita sakhe umtfombo welwati welive longasetjentiswa nguwonkhe umuntfu kute akhe tinsita tebucwephesha tetincingo kanye nelikhasi langcondvomshina. Fundza lemisho kusita lomshina kutsi ufundze kutsi bantfu bakhuluma njani. Hlola umsebenti walabanye balekeleleli  kutfutfukisa lizinga. Kulula kanjalo!
 wall-of-text-first = { "" }
 show-wall-of-text = Fundza Kabanti
 help-us-title = Sisite sicinisekise imisho
@@ -357,8 +358,10 @@ settings = Settings
 edit-profile = Lungisa likhasi lelichaza kabanti ngawe
 profile-create-success = Imphumelelo, likhasi lelichaza kabanti ngawe lakhekile!
 profile-close = Vala
+profile-explanation = Landzelela inchubo yakho ngelikhasi lelichaza kabanti ngawe kuze usite i data yetfu yemavi kutsi ibe ngulecondzile.
 thanks-for-account = Siyabonga kucinisekisa kutsi le-account ngeyakho, nyalo asakhe likhasi lelichaza kabanti ngawe.
 why-demographic = Kumcoka ngani loku?
+why-demographic-explanation-2 = Lwati lolufihlakele njenge mnyaka, bulili kanye netici tisita kutfutfukisa lwati msindvo lolubese lusetjentiswa kucecesha tinjini teftu tebucwephesha tekuva emagama. Ligama lolisebentisile ne email ngeke kuhlanganiswe nelwati lolutfomele futsi ungakhetsa kutsi lelogama latiwe sive noma uligcine liyimfihlo.
 accept-privacy = Ngite inkinga kutsi uphatse lomniningwane njengoba uchazile ku Mozilla's <privacyLink>Privacy Policy</privacyLink>
 accept-privacy-title = Umgomo wekugcina tindzaba tiyimfihlo.
 login-identity = Login Identity
@@ -413,6 +416,7 @@ faq-why-mission-a = I-Mozilla itinikele ekugcineni likhatsi langcondvomshina liv
 faq-what-cv-and-deepspeech-q = Yini umehluko wa Common Coice na Deep Speech?
 faq-what-cv-and-deepspeech-a = I-Common Voice dataset ihambisana nenjini ye-Mozilla levulekile yekucaphela Livi Lenkhulumo Lelijulile. Sigaba sekucala se-Deep Speech yakhululwa nge Lweti 2017 futsi isachubeka nekuvela kusukela ngaleso sikhatsi. Sikanye nemntfombo welwati we Common Voice, sikholelwa kutsi lobu buchwephesha bokubona livi kufanele butfolakale kuwo wonkhe umuntfu. Sitsemba kutsi lobu buchwepheshe butokwenta batfutfukisi kutsi bakwati kwakha ligagasi lemikhicito lemisha nemisebenti.
 faq-is-goal-assistant-q = Ngabe umgomo wa Common Voice kwakha umsiti wemavi?
+faq-is-goal-assistant-a = Umgomo we Common Voice kuvumela noma ngubani emhlabeni kutsi akhe bucwephesha bekulalela inkhulumo, bekuva sikhulumi, noma ke nguliphi luhlobo lwebucwephesha lobudzinga emavi. Insita yelivi incenye nje yetindlela letinengi tebucwephesha longayisebentisa kulomtfombo welwati kwakha.
 faq-why-different-speakers-q = Utidzingelani tikhulumi letehlukene ngelulwimi ngalunye?
 faq-why-different-speakers-a =
     Lwati lolugciniwe lwetinkhulumo luceceshwe ngalokwecile kwetibalo letitsite tebantfu lokuholela ekwehlukeni ngekutsi <articleLink>labadvuna nalabasemkhatsini ngelizinga</articleLink>. Emaphimbo netilwimi tesigodzi letivame kumelwa kancane etinhlobeni telwati ekuceceshweni lokuvamile tibu mbaniswa nemacembu ebantfu laba bandlululekile. Imishini leminingi ibuye itfole bumetima kucondza emavi ebantfu besifazane.
@@ -428,6 +432,7 @@ faq-why-not-ask-read-a = Kute sente lomtfombo welwati waka Common Voice kutsi ub
 faq-why-account-q = Kudzingeke ngani kutsi ngibhalisele i-account?
 faq-is-account-public-q = Imininingwane yami ibonwa sive?
 faq-how-privacy-q = Ucinisekisa kanjani kungatiwa nekufihleka kwetimfihlo tebantfu labanikele ngemavi abo?
+faq-how-privacy-a = Tonkhe ticeshana temavi latfwebuliwe tisuswa yonkhe imininingwane yemnikati uma lonikelako afaka lwati lwetibalo ngelikhasi lakhe, lolo lwati luyasuswa buniyo kuleticeshana temavi ngaphambilini kwekutsi tingasetjentwa futsi atifike esiveni ekhasi labo.
 faq-what-determine-identity-a =
     "Umtfombo welwati we-Common Voice uvulekile futsi lotfolakala esiveni ungasetjentiswa kucecesha tinhlobonhlobo tetinhlelo tekusebenta letikwati kukhuluma. Kute kuvikelwe kuphepha kwabanikeli betfu, sicela wonkhe umuntfu losebentisa lwati lwe Common Voice kutsi ahloniphe timfihlo talabo labanikele.
     
@@ -474,6 +479,7 @@ about-yes-votes = 2 wema voti latsi Yebo
 about-no-votes = 2 wema voti latsi Cha
 about-dataset-new = Common Voice Dataset
 about-clip-graveyard = Clip Graveyard
+about-clip-graveyard-text = I Clip Graveyard icutseke ticeshana temavi langakhoni kungena kulombhudvu welwati wa Common Voice. Njengalombhukudvu, le Clip Graveyard nayo ivulekelwe kucashunwa. Sitawutsandza kubonga naba bantfu labalandzelako kanye netinhlangano ngelisuto  kulomsebenti.
 about-get-involved = Hlanganyela
 about-stay-in-touch = Ngihlala njani ngichumene nani?
 about-stay-in-touch-button = Bhalisa
@@ -494,6 +500,10 @@ about-playbook-what-is-language = Yini lulwimi ku Common Voice?
 about-playbook-how-add-language = Ngilungeta njani lulwimi?
 about-playbook-how-add-language-translating-heading = Sisahumusha lelikhasi
 about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Bukela umkhombandlela wetfu wekutsi usetjentiswa kanjani Pontoon.</translateVideoLink>
+about-playbook-how-add-language-translating-content-2 =
+    Sisebentisa lithulusi laka Mozilla lelibitwa ngekutsi ngu <pontoonLink>Pontoon</pontoonLink> kuhumusha. Pontoon unetilwimi letiningi, 
+    konja uma kute lwakho lulwimi <pontoonRequestLink>ungacela kutsi lakho lulwimi lwengetwe</pontoonRequestLink>.
+    Bese, kute lelilwimi lube khona ku-Common Voice project, cela lulwlimi lolusha ka <githubRepoLink>GitHub</githubRepoLink>. <localizationFragment>Buka lokunengi ngekuhumusha ekhasini</localizationFragment>.
 about-playbook-how-add-language-collecting-sentences-heading = Kukweleka imisho
 about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>Bukela umkhombandlela ngekutsi imisho ikolekwa njani</sentenceCollectorVideo>.
 about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>Bona lokunengi kunhlanganisela yemasho</sentenceCollectorFragment>.
@@ -502,6 +512,7 @@ about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollec
 
 about-playbook-how-localize = Le-site ye localization isebenta njani?
 about-playbook-how-localize-content-1 = Kuhumushwa kwelikhasi la Common Voice kwenteka ku<strong>Pontoon</strong>.
+about-playbook-how-localize-content-3 = Kuhumusha kususwa eSingisini, konja ungatibona <strong>Tiphakamiso </strong>kuletinye tilimi. Chafata lesitfonjana ekhasini, bese uchafata sichumanisi sekulinganisa <strong>Setilungo</strong> bese wengeta lulwimi lolukhulumako. Entasi ngesekudla ekoneni kuneluhla wetihumusho letibitwa ngekutsi ma <strong>Locales</strong>. Letihumusho tivela khasini ngekulandselana.
 about-playbook-how-localize-content-4 = Lelikhasi litawusungulwa uma selifike ku 75% kutsi liphele.
 about-playbook-how-localize-content-5 = Bukela i-video yetfu lechaza kabanti kuze usitakale.
 
@@ -523,6 +534,7 @@ about-playbook-how-record-content-5 = <accuracyLink> Bona lokunengi eluhleni lwe
 about-playbook-how-grow-language = Singalikhulisa kanjani lulwimi ngalokukhonsako ka Common Voice?
 about-playbook-how-grow-language-content-2 = Imicimbi
 about-playbook-how-grow-language-content-4 = Tinkhundla tekuchumana
+about-playbook-how-grow-language-content-5 = Ungasebentisa tinkhundla tekuchumana kute usakate lomlayeto. Yabelana ngalokutfunyelwe lokuchaza kutsi kubaluleke kanganani, bese utsintsana nalabanye bantfu labakhuluma ngetindzaba letinjengemalungelo etilwimi, i-voice AI, noma  imibono ngetebuchwephesha. Buka teluleko letiningi <campaignLink>ngekusebentisa umkhankhaso wekuchumana nebantfu, lonelwati longa phindze ulisebentise</campaignLink>.
 about-playbook-how-grow-language-content-6 = Kubambisana nekuchumana
 
 ## How to validate
@@ -569,6 +581,7 @@ data-download-yes = Yebo
 data-download-deny = Cha
 data-download-license = License: <licenseLink>CC-0</licenseLink>
 data-download-modal = khani utocala ku download <size>{ $size }GB</size>, chubeka?
+data-explanatory-text = Siyetsemba kutsi lelanani lelisetulu kanye nemtfombo welwati  wesive utowakha bucwephesha nekuchudzelana kwetemabhizinisi lokunemphilo ebucwephesheni bekukhuluma lobusekelwe mishina. Lona ngumetamo wemhlaba wonkhe futsi simema wonkhe umuntfu kutsi adlale indzima. Inhloso yetfu kusita bucwephesha benkhulumo bufake wonkhe, bukhombise kwehlukana kwetilimi temhlaba.
 data-get-started = <speechBlogLink>Cala manje nge Speech recognition</speechBlogLink>
 data-other-title = Lamanye ema-Datasets emavi...
 data-other-goto = Hamba ku { $name }
@@ -613,6 +626,7 @@ email-to-download = Faka i-email utokhona ku-download
 confirm-size = Ulungele kucala i-download ye  <b>{ $size }</b>
 size-gigabyte = GB
 size-megabyte = MB
+confirm-no-identify = <b>Uyavuma</b> kungazami kufuna kwati kabanti ngetikhulumi kule Dataset yaka Common Voice.
 download-language = Download { $language }
 validated-hours = Lacinisekisiwe emahora
 recorded-hours = Latfwebuliwe emahora
@@ -919,11 +933,13 @@ demo-account-sign-up = Tfumela i-link yekubhalisa
 ## Demo Contribute
 
 demo-contribute-card-header = Ulungele kungeta livi lakho noma ke kupha indlebe?
+demo-contribute-card-body-v2 = Manje njengoba sewati lokunengana nge-Common Voice, yini ungakuzami? Chafata lesitfombe sembhobho utocala kufundza imisho ngekuphimisela. <br/><br/>Uma ukhetsa kubuyeketa iminikelo yelivi yalabanye bantfu, chafata lesitfombe sekudlala. Utosita kucinisekisa kutsi lokutfwebuliwe kuyafana nemisho lebhalwe kumabona kudze.
 demo-listen-subtitle = Ulungele kulekelela?
 
 ## Demo Dashboard
 
 demo-dashboard-card-header = Likhasi lakho likwenta uhlale wati ngenchubo yakho kanye neyemmango.
+demo-dashboard-card-body = Kuso sonkhe siceshana selivi lesinikelwe, nato tonkhe ticeshana temsindvo leticinisekisiwe, likhasi lakho liyabuyeketwa kute kuvele inchubekela phambili yakho ngelulwimi ngalunye lonikela kulo. Yebo, unganikela ngalokungetulu kwakunye!<br/><br/> Sebentisa likhasi lakho kute ulandzelele tibalo takho, ubone kutsi wenta kanjani ngekuhambisana nalabanye emphakatsini, futsi ubeke imigomo yekunikela yemalanga onkhe noma emaviki.
 
 ## Validation criteria
 
@@ -956,6 +972,7 @@ contribution-varying-pronunciations-example-1-explanation = [‘Beret’ is OK w
 contribution-varying-pronunciations-example-2-title = Sandla sakhe besiphakam-ile.
 contribution-varying-pronunciations-example-2-explanation = [‘Raised’ in English is always pronounced as one syllable, not two]
 contribution-background-noise-title = Imisindvo lengemuva
+contribution-background-noise-description = Sifuna ema-algorithms ekufundza imishini kutsi ikwati kuphatsa tinhlobonhlobo temisindvo lengemuva, futsi imisindvo lemikhulu ingamukelwa kuphela nje uma ingakuvimbeli kutsi uve wonkhe umbhalo. Umculo longemuva lophansi ULUNGILE; umculo losetulu ngalokuvimba kutsi ungeva igama ngalinye.
 contribution-background-noise-example-1-fixed-title = <strong>[Sneeze]</strong> ema-dinosaur lamakhulu e <strong>[cough]</strong> Triassic.
 contribution-background-noise-example-2-fixed-title = The giant dino <strong>[cough]</strong> the Triassic.
 contribution-background-noise-example-2-explanation = [Part of the text can’t be heard]
@@ -965,6 +982,7 @@ contribution-background-voices-description = Ihabhu lengemuva lephansi ilungile,
 contribution-background-voices-example-1-title = Ema-dinosaurs lamakhulu ase Triassic. <strong>[read by one voice]</strong>
 contribution-background-voices-example-1-explanation = Uyeta? <strong>[lokubitwe ngulomunye]</strong>
 contribution-volume-title = Linani lemsindvo
+contribution-volume-description = Kutoba khona kuhluka kwemvelo ngekwelinani lebafundzi. Yicitse kuphela uma linani lisetulu ngendlela yekutsi nalokutfwebuliwe kuyephatamiseka, noma (ngalokujwayelekile) uma liphansi kangangekutsi awukhoni kuva lokushiwoko  ngaphandle kwalokubhaliwe.
 contribution-reader-effects-title = Reader Effects
 contribution-just-unsure-title = Ute siciniseko?
 see-more = <chevron></chevron>Bona lokunengi
@@ -1012,7 +1030,11 @@ sc-languages-fetch-error = Sehlulekile kutfola tilwimi letikhona. Kwengetwa kwam
 sc-howto-title = Kwentiwa njani
 sc-howto-addlang-title = Kungeta tilwimi lotosebenta ngato
 sc-howto-addsen-title = Ngeta imisho lemisha
+sc-howto-addsen-item-1 = Yonkhe imisho loyimikisako kumele ibe ngephansi  <wikipediaLink>kwemvume ye Public Domain (CC-0) </wikipediaLink>. Kusekela umsebenti longekho phanse mvumo yemphakatsi, sakhe <cc0WaiverLink>umfanekiso weSivumelwane Sekunikela</cc0WaiverLink> lesitosebenta uma umnikwati we copyright afuna kunikela ku Common Voice.
+sc-howto-addsen-item-2 = Tinombolo. Akukameli kube netinombolo embhalweni longumtfombo ngoba ungabangela tinkinga uma tifundvwa ngkuphimisela. Indlela inombolo lefundwa ngayo incike kumniyo futsi ingase yetfule kudideka ku dataset. Sibonelo, inombolo "2409" ingafundwa kahle ngetindlela letimbili ngekutsi "emashumi lamabili nane zero nesishiyagalolunye" kanye "netinkulungwane letimbili nemakhulu lamane nesishiyagalolunye".
 sc-howto-addsen-item-3 = Tifinyeto kanye netibekisa magama. Tifinyeto netibekisa magama tifana nekutsi “USA” noma “ICE” kufanele kugwenywe kulomtfombo wemagama ngoba tingafundzeka ngendlela lengahambisani nendlela lebhalwa ngayo. Kwengeta, kungase kube nekufundvwa lokungiko lokuningi kwesifinyeto sinye. Sibonelo, sifinyeto lesitsi "ICE" singabitwa ngekutsi "I-C-E" noma njengeligama linye.
+sc-howto-addsen-item-4 = Timphawu tekubhala. Timphawu letikhetsekile netimphawu tekubhala kufanele tifakwe kuphela uma kunesidzingo. Sibonelo, i-apostrophe iyafakwa emagameni esiNgisi njengekutsi “ungakwenti” kanye nekutsi “sikhona” futhi kufanele afakwe embhalweni longumtfombo, kodvwa akunakwenteka kutsi utodzinga luphawu lolukhethekile lolufana na-“@” noma “#. ”
+sc-howto-addsen-post-1 = Sinconota tinkhulumiswano letimdalo. Yize kunekwehlukana kwemagama asetincingweni nalamanye lahlukene, siyetama kwenta kutfwebula kwemisho kube ngulokumnandzi ngayoyonkhe indlela. Ingako kungaba kahle kuchubeka kugcina imisho yakho ingekwe mvelo/iheha ngayoyonkhe indlela.
 sc-howto-cite-title = Indlela yeku-Cite
 sc-howto-cite-item-1 = Ungangeta lelikhasi langcondvomshina, e.g "Common Voice - https://commonvoice.mozilla.org/"
 sc-howto-review-title = Buyeketa imisho
@@ -1027,6 +1049,7 @@ sc-howto-findpd-text-2 = Khumbula kutsi sidzinga imvumo kucala yekusakata leyo m
 sc-howto-findpd-tips = Nati tinsita tekutfola imisho
 sc-howto-findpd-tips-3 = Siyacolisa, ngeke sikhone kuba nemaphephandzaba aka Wikimedia kwamanje. Sicela ungakopi khona.
 sc-howto-findpd-subtitle-2 = Timbandzakanye netinkapani noma tinhlangano talakhaya.
+sc-howto-findpd-partner-1 = Tinengi tinhlangano letingafuna kuhlanganyela futsi lesetinemibhalo lemingi letinganikela ngayo njengensita yesive. Chumana nelikolishi lelidvute nawe, Hulumende kanye netinhlangano temitfombo levulekile kutokhuluma ngalomsebenti futsi ucelel nelisito.
 
 ## MY SENTENCES
 
@@ -1123,6 +1146,9 @@ sc-confirm-ready =
         [one] 1 umusho lolungele kumikiswa!
        *[other] { $readyCount } Imisho lelungele kumikiswa!
     }
+# Variables:
+#   $countOfUnreviewed (Number) - Number of sentences unreviewed before the upload
+sc-confirm-unreviewed = { $countOfUnreviewed }Imisho ayikabuyeketwa. Uma ufuna, ungayibuyeketa nyalo imisho ungakamikisi.
 sc-confirm-button-text = Vuma
 
 ## LANGUAGE INFO
