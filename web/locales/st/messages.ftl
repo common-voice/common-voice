@@ -8,6 +8,7 @@
 ## Languages
 
 ab = Abkhaz
+ace = Acehnese
 
 # [/]
 
@@ -147,6 +148,7 @@ goal-share-text = Ke sa tswa iketsetsa sepheo sa ho fana ka lentswe ho #CommonVo
 
 ## Demo Datasets
 
+demo-account = Ak'haonte
 
 ## Demo Account
 
@@ -167,6 +169,7 @@ goal-share-text = Ke sa tswa iketsetsa sepheo sa ho fana ka lentswe ho #CommonVo
 
 ## HEADER/FOOTER
 
+sc-header-add = Eketsa
 
 ## HOME
 
