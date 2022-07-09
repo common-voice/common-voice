@@ -494,6 +494,7 @@ about-clip-graveyard-text = I Clip Graveyard icutseke ticeshana temavi langakhon
 about-get-involved = Hlanganyela
 about-stay-in-touch = Ngihlala njani ngichumene nani?
 about-stay-in-touch-button = Bhalisa
+about-stay-in-touch-text-2 = Ungahlangana nalabanye kulommango waMozilla welulwimi ngekungenela  <discourseLink>Discourse</discourseLink> mayelana ngetinkhulumo ngetindzaba letishisako, noma <matrixLink>Matrix</matrixLink> Matrix ngeteluleko letisheshako.
 about-nav-why-common-voice = Leni ?
 about-nav-how-it-works = Kanjani ?
 about-nav-partners = Balingani
@@ -932,6 +933,10 @@ share-goal = Yaba ligoli lami
 
 keep = Gcina
 remove = Susa
+remove-info =
+    Sitawusibuka sicelo sakho sekususa emavi akho latfwebuliwe emtfombeni wetfu welwati. Uma
+    sicelo sakho sesemukelwe, sitocela utsintsane nalabo lasebanelwati lwakho futsi sibacele kutsi
+    bawasuse nabo lamavi latfwebuliwe akho.
 profile-form-delete = Yesula likhasi
 
 ## Profile Download
@@ -1109,6 +1114,7 @@ sc-howto-addsen-item-5 =
 sc-howto-addsen-post-1 = Sinconota tinkhulumiswano letimdalo. Yize kunekwehlukana kwemagama asetincingweni nalamanye lahlukene, siyetama kwenta kutfwebula kwemisho kube ngulokumnandzi ngayoyonkhe indlela. Ingako kungaba kahle kuchubeka kugcina imisho yakho ingekwe mvelo/iheha ngayoyonkhe indlela.
 sc-howto-cite-title = Indlela yeku-Cite
 sc-howto-cite-item-1 = Ungangeta lelikhasi langcondvomshina, e.g "Common Voice - https://commonvoice.mozilla.org/"
+sc-howto-cite-item-2 = Ungasebentisa nendlela yeku reference lesebentiswa etikolweni lefaka ekhatsi Harvard style "Mozilla (2021) Common Voice. Lekhona ku https://commonvoice.mozilla.org/ (Accessed: 15th September 2021)"
 sc-howto-review-title = Buyeketa imisho
 sc-howto-review-subtitle = Ciniseka kutsi imisho ihlangabeta loluhla lolulandzelako:
 sc-howto-review-criteria-1 = Lomusho kumele ubhaleke kahle.
@@ -1119,6 +1125,7 @@ sc-howto-findpd-title = Kutfola imisho levele ikhona ku Public Domain
 sc-howto-findpd-subtitle = Phenya ku-internet
 sc-howto-findpd-text-2 = Khumbula kutsi sidzinga imvumo kucala yekusakata leyo misho, ngako ciniseka kutsi umbhalo ngewa<wikipediaLink>Likhasi lesive</wikipediaLink>. Uma kungekho inkhomba lecacile, finyelela kumuntfu kulomnikati walombhalo futsi ubute kutsi uyafuna yini kufaka umbhalo wakhe Ekhasini Lesivei. Uma afuna, basite bachubeke <cc0WaiverLink>Yesivumelwano Seminikelo</cc0WaiverLink> inchubo. Uma bangafuni kunikela ngembhalo, awukavunyelwa kusebentisa lowo mbhalo.
 sc-howto-findpd-tips = Nati tinsita tekutfola imisho
+sc-howto-findpd-tips-1 = Imitfombo lencono longayibuka ngema podcasts, ticeshana, imibhalo yemafilimu noma ke nanoma ngabe yini lengaba netinkhulumo temihla onkhe
 sc-howto-findpd-tips-3 = Siyacolisa, ngeke sikhone kuba nemaphephandzaba aka Wikimedia kwamanje. Sicela ungakopi khona.
 sc-howto-findpd-subtitle-2 = Timbandzakanye netinkapani noma tinhlangano talakhaya.
 sc-howto-findpd-partner-1 = Tinengi tinhlangano letingafuna kuhlanganyela futsi lesetinemibhalo lemingi letinganikela ngayo njengensita yesive. Chumana nelikolishi lelidvute nawe, Hulumende kanye netinhlangano temitfombo levulekile kutokhuluma ngalomsebenti futsi ucelel nelisito.
