@@ -374,6 +374,9 @@ skip-submission-note = Nakisisa: Usetodzinga kukhetsa emkhatsini wa khuluma na L
 off = Valiwe
 on = Vuliwe
 help-accent = Udzinga lusito ngendlela yekukhuluma?
+help-accent-explanation =
+    Sichi sakho sekukhuluma yindlela yakho losho ngayo emagama. Ingabunjwa yindzawo lapho uhleti khona,
+    letinye tilwimi lotikhulumako kantsi futsi naletinye tintfo. Ungasipha lolunye lwati lova ngatsi lomcukwa lana.
 help-variants = Udzinga lusito ngetinhlobo?
 
 ## Profile - Email
@@ -417,6 +420,7 @@ faq-what-cv-and-deepspeech-q = Yini umehluko wa Common Coice na Deep Speech?
 faq-what-cv-and-deepspeech-a = I-Common Voice dataset ihambisana nenjini ye-Mozilla levulekile yekucaphela Livi Lenkhulumo Lelijulile. Sigaba sekucala se-Deep Speech yakhululwa nge Lweti 2017 futsi isachubeka nekuvela kusukela ngaleso sikhatsi. Sikanye nemntfombo welwati we Common Voice, sikholelwa kutsi lobu buchwephesha bokubona livi kufanele butfolakale kuwo wonkhe umuntfu. Sitsemba kutsi lobu buchwepheshe butokwenta batfutfukisi kutsi bakwati kwakha ligagasi lemikhicito lemisha nemisebenti.
 faq-is-goal-assistant-q = Ngabe umgomo wa Common Voice kwakha umsiti wemavi?
 faq-is-goal-assistant-a = Umgomo we Common Voice kuvumela noma ngubani emhlabeni kutsi akhe bucwephesha bekulalela inkhulumo, bekuva sikhulumi, noma ke nguliphi luhlobo lwebucwephesha lobudzinga emavi. Insita yelivi incenye nje yetindlela letinengi tebucwephesha longayisebentisa kulomtfombo welwati kwakha.
+faq-do-want-native-a = Yebo, vele siyalidzinga livi lakho. Incenye yalesikuhlosile Common Voice kukweleka tinhlobo letiningi temavi kute letinsita tekuva emavi tisebentele wonkhe umuntfu. Loku kusho kutsi umnikelo losuka kubantfu etikhululumini letingiseto temdzabu umcoka.
 faq-why-different-speakers-q = Utidzingelani tikhulumi letehlukene ngelulwimi ngalunye?
 faq-why-different-speakers-a =
     Lwati lolugciniwe lwetinkhulumo luceceshwe ngalokwecile kwetibalo letitsite tebantfu lokuholela ekwehlukeni ngekutsi <articleLink>labadvuna nalabasemkhatsini ngelizinga</articleLink>. Emaphimbo netilwimi tesigodzi letivame kumelwa kancane etinhlobeni telwati ekuceceshweni lokuvamile tibu mbaniswa nemacembu ebantfu laba bandlululekile. Imishini leminingi ibuye itfole bumetima kucondza emavi ebantfu besifazane.
@@ -494,6 +498,9 @@ about-nav-playbook = Fundza kuhlanganyela
 ## What is a language
 
 about-playbook-what-is-language = Yini lulwimi ku Common Voice?
+about-playbook-what-is-language-content-1 =
+    Tiningi tindlela tekucabanga ngelulwimi. Ngetinjongo tekuva kahle inkhulumo, i Common Voice 
+    igcile kakhulu ku 'mutua intelligibility', noma 'tikhulumi talolwimi lolu tiyevana yini umatezama?'
 
 ## How do I add a language
 
@@ -512,6 +519,7 @@ about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollec
 
 about-playbook-how-localize = Le-site ye localization isebenta njani?
 about-playbook-how-localize-content-1 = Kuhumushwa kwelikhasi la Common Voice kwenteka ku<strong>Pontoon</strong>.
+about-playbook-how-localize-content-2 = <pontoonAccountLink>Yakha likhasi lakho</pontoonAccountLink> uma ute. Bese ukhetsa lulwimi <strong>('Licembu')</strong> futsi bese ukhetsa project, <pontoonCvLink>Common Voice</pontoonCvLink>, Kutoba nemafayela lafuna kuhumushwa. Khetsa yinye. Itabese ikhomba emagama ngeSingisi kanye nelibhokisi utowahumusha.
 about-playbook-how-localize-content-3 = Kuhumusha kususwa eSingisini, konja ungatibona <strong>Tiphakamiso </strong>kuletinye tilimi. Chafata lesitfonjana ekhasini, bese uchafata sichumanisi sekulinganisa <strong>Setilungo</strong> bese wengeta lulwimi lolukhulumako. Entasi ngesekudla ekoneni kuneluhla wetihumusho letibitwa ngekutsi ma <strong>Locales</strong>. Letihumusho tivela khasini ngekulandselana.
 about-playbook-how-localize-content-4 = Lelikhasi litawusungulwa uma selifike ku 75% kutsi liphele.
 about-playbook-how-localize-content-5 = Bukela i-video yetfu lechaza kabanti kuze usitakale.
@@ -533,6 +541,7 @@ about-playbook-how-record-content-5 = <accuracyLink> Bona lokunengi eluhleni lwe
 
 about-playbook-how-grow-language = Singalikhulisa kanjani lulwimi ngalokukhonsako ka Common Voice?
 about-playbook-how-grow-language-content-2 = Imicimbi
+about-playbook-how-grow-language-content-3 = Ungayichuba imicimbi kusita bantfu kutsi banikele. Kulula kunendlela longayicabanga. Ungayenta ngebucwephesha usebentise lithulusi le videoconferencing, noma wena nje matfupha kuphephile. <eventTemplate>Hlola tifanekiso kanye netinsita tekuchuba imicimbi</eventTemplate>.
 about-playbook-how-grow-language-content-4 = Tinkhundla tekuchumana
 about-playbook-how-grow-language-content-5 = Ungasebentisa tinkhundla tekuchumana kute usakate lomlayeto. Yabelana ngalokutfunyelwe lokuchaza kutsi kubaluleke kanganani, bese utsintsana nalabanye bantfu labakhuluma ngetindzaba letinjengemalungelo etilwimi, i-voice AI, noma  imibono ngetebuchwephesha. Buka teluleko letiningi <campaignLink>ngekusebentisa umkhankhaso wekuchumana nebantfu, lonelwati longa phindze ulisebentise</campaignLink>.
 about-playbook-how-grow-language-content-6 = Kubambisana nekuchumana
@@ -541,10 +550,14 @@ about-playbook-how-grow-language-content-6 = Kubambisana nekuchumana
 
 about-playbook-how-validate = Ngitokwati kanjani kutsi kumele ngivumele lifayela lelitfwebuliwe?
 about-playbook-how-validate-content-1 = Uma ungakhona <strong>balalele</strong> futsi <strong>ubacondzisise</strong>, kujwayelekile<strong>kukahle kubavumela</strong>.
+about-playbook-how-validate-content-3 =
+    Uma ucabanga kutsi kuphimisela kwenta kutsi <strong> kungakhonakali kucondzisisa </strong>, noma<strong>kunemsindvo lomningi </strong>
+    longemuva, noma kukhona nabanye bantfu labakhulumako, kufanele usijikise lesiceshana.<accuracyLink> Buka lwati lolwengetiwe kumibandzela yethu yekucinisekisa</accuracyLink>.
 
 ## How to access dataset
 
 about-playbook-how-access-dataset = Ngiyitfola njani, futsi ngiyisebentisa njani le dataset?
+about-playbook-how-access-dataset-content-1 = Ungaya <datasetsPage>ekhasini lelwati</datasetsPage>, ufike ukhetse sigaba kanye ne(ti) lwimi lotifunako, bese uyatitsatsa! Lamafayela ane <metadataLink>lwati lolujulile</metadataLink>, lolufaka ekhatsi indzawo kanye nelwati siciniseko. Utodzingeka kutsi ufake i email yakho kute utsatse lolwati.
 
 ## How are decisions made
 
@@ -967,6 +980,7 @@ contribution-misreadings-example-7-explanation = [No ‘a’ in the original tex
 contribution-misreadings-example-8-title = The bumblebee sped by.
 contribution-varying-pronunciations-title = Tindlela tekukhuluma letehlukahlukene
 contribution-varying-pronunciations-description = Caphela ngaphambi kwekutsi ucitse siceshana lapho lofundzako angakasho kahle ligama, noma ufake kucindzetela endzaweni lengasiyo, noma ke kungenteka ushiye umbuto. Tinengi tindlela tekusho letisetjentiswa mhlaba wonkhe, letinye longakativa emphakatsini wangakini. Sicela ufake umkhawulo wekubonga kulabo labakhuluma ngendlela lengafani neyakho.
+contribution-varying-pronunciations-description-extended = Kulokunye, uma ucabanga kutsi lofundzako akazange sekadibane naleligama ngaphambilini, futsi kulula kulisho kabi, sicela ulicitse. Uma ungakaciniseki, sebentisa libhathini lalokulandzelako.
 contribution-varying-pronunciations-example-1-title = Enhloko yakhe bekagcoke i-beret.
 contribution-varying-pronunciations-example-1-explanation = [‘Beret’ is OK whether with stress on the first syllable (UK) or the second (US)]
 contribution-varying-pronunciations-example-2-title = Sandla sakhe besiphakam-ile.
@@ -984,6 +998,7 @@ contribution-background-voices-example-1-explanation = Uyeta? <strong>[lokubitwe
 contribution-volume-title = Linani lemsindvo
 contribution-volume-description = Kutoba khona kuhluka kwemvelo ngekwelinani lebafundzi. Yicitse kuphela uma linani lisetulu ngendlela yekutsi nalokutfwebuliwe kuyephatamiseka, noma (ngalokujwayelekile) uma liphansi kangangekutsi awukhoni kuva lokushiwoko  ngaphandle kwalokubhaliwe.
 contribution-reader-effects-title = Reader Effects
+contribution-reader-effects-description = Liningi lemalekhodi ngewebantfu labakhuluma ngemavi abo endalo. Ungawemukela lawo langakajwayeleki lawo lamenyetiwe, lahletjiwe noma lawo ke 'lanekugcizelela ' emavi. Sicela uwacitse emalekhodi lahlatjeliwe noma lentiwe nga ngcondvomshina.
 contribution-just-unsure-title = Ute siciniseko?
 see-more = <chevron></chevron>Bona lokunengi
 see-less = <chevron></chevron>Bona lokuncane
@@ -1034,6 +1049,9 @@ sc-howto-addsen-item-1 = Yonkhe imisho loyimikisako kumele ibe ngephansi  <wikip
 sc-howto-addsen-item-2 = Tinombolo. Akukameli kube netinombolo embhalweni longumtfombo ngoba ungabangela tinkinga uma tifundvwa ngkuphimisela. Indlela inombolo lefundwa ngayo incike kumniyo futsi ingase yetfule kudideka ku dataset. Sibonelo, inombolo "2409" ingafundwa kahle ngetindlela letimbili ngekutsi "emashumi lamabili nane zero nesishiyagalolunye" kanye "netinkulungwane letimbili nemakhulu lamane nesishiyagalolunye".
 sc-howto-addsen-item-3 = Tifinyeto kanye netibekisa magama. Tifinyeto netibekisa magama tifana nekutsi “USA” noma “ICE” kufanele kugwenywe kulomtfombo wemagama ngoba tingafundzeka ngendlela lengahambisani nendlela lebhalwa ngayo. Kwengeta, kungase kube nekufundvwa lokungiko lokuningi kwesifinyeto sinye. Sibonelo, sifinyeto lesitsi "ICE" singabitwa ngekutsi "I-C-E" noma njengeligama linye.
 sc-howto-addsen-item-4 = Timphawu tekubhala. Timphawu letikhetsekile netimphawu tekubhala kufanele tifakwe kuphela uma kunesidzingo. Sibonelo, i-apostrophe iyafakwa emagameni esiNgisi njengekutsi “ungakwenti” kanye nekutsi “sikhona” futhi kufanele afakwe embhalweni longumtfombo, kodvwa akunakwenteka kutsi utodzinga luphawu lolukhethekile lolufana na-“@” noma “#. ”
+sc-howto-addsen-item-5 =
+    Tincwadzi tekuhamba. Tincwadzi kumele tibe ngito ngetilwimi letikhulunywako. Kubekisa, kunenhlavu lekhona 
+    emagameni ase Russia konja akukameli asetjentiswe Esingisini futsi akukameli avele kumsuka we Sinigisi.
 sc-howto-addsen-post-1 = Sinconota tinkhulumiswano letimdalo. Yize kunekwehlukana kwemagama asetincingweni nalamanye lahlukene, siyetama kwenta kutfwebula kwemisho kube ngulokumnandzi ngayoyonkhe indlela. Ingako kungaba kahle kuchubeka kugcina imisho yakho ingekwe mvelo/iheha ngayoyonkhe indlela.
 sc-howto-cite-title = Indlela yeku-Cite
 sc-howto-cite-item-1 = Ungangeta lelikhasi langcondvomshina, e.g "Common Voice - https://commonvoice.mozilla.org/"
