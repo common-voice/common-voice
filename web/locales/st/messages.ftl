@@ -42,6 +42,7 @@ en = Senyesemane
 eo = Esperanto
 et = Estonian
 eu = Basque
+fa = Persian
 ff = Fulah
 fi = Finnish
 fo = Faroese
@@ -98,6 +99,10 @@ nia = Nias
 nl = Dutch
 oc = Occitan
 or = Odia
+pa-IN = Punjabi
+pl = Polish
+ps = Pashto
+pt = Portuguese
 quc = K'iche'
 rw = Kinyarwanda
 sq = Albanian
@@ -111,8 +116,10 @@ yue = Cantonese
 datasets = Dipokello tsa data
 languages = Dipuo
 about = Ka
+profile = Profaele
 help = Thusa
 contact = Tshwara
+privacy = Lekunutu
 cookies = Di-cookie
 faq = FAQ
 
@@ -137,12 +144,17 @@ benefits = Melemo
 # Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-play-toggle = p
+shortcut-play-toggle-label = Bapala/Emisa
 # Must be one letter that appears in the { vote-no } string.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
 shortcut-vote-no = n
 
 ## Speak Shortcuts
 
+# Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-record-toggle = r
+shortcut-record-toggle-label = Rekota/Ema
 shortcut-discard-ongoing-recording = ESC
 
 ## ProjectStatus
@@ -231,6 +243,7 @@ error-code = Phoso { $code }
 
 data-download-deny = Tjhe
 license-mixed = E tswakantswe
+review-rerecord = Rekota hape
 
 ## Datasets Page
 
@@ -269,6 +282,7 @@ request-language-explanation-2 = Hape re tla <strong>tsebisa mookamedi wa setjha
 ## Languages Overview
 
 language-section-launched = E qadilwe
+language-meter-in-progress = Kgatelopele
 language-validation-hours = Dihora
 
 ## Contribution
@@ -296,6 +310,7 @@ everyone = Bohle
 both-speak-and-listen = Bobedi
 easy-difficulty = E bonolo
 difficult-difficulty = E thata
+pro-difficulty = Pro
 share-goal-type-listen = E ntse mametse
 # LINK will be replaced with the current URL
 goal-share-text = Ke sa tswa iketsetsa sepheo sa ho fana ka lentswe ho #CommonVoice -- ikopanye le nna ho thusa ho ruta metjhini hore na batho ba nnete ba bua jwang { $link }
@@ -306,7 +321,10 @@ keep = Boloka
 
 ## Profile Download
 
+download-profile-title = Profaele
+download-recordings-title = Direkoto
 download-request-button = Download
+download-request-refresh-button = Kgatholla
 
 ## Landing
 
@@ -344,7 +362,9 @@ contribution-misreadings-title = Ho se bale hantle
 sc-header-home = Hae
 sc-header-how-to = Mokgwa wa ho
 sc-header-add = Eketsa
+sc-header-profile = Profaele
 sc-footer-discourse = Discourse
+sc-footer-privacy = Lekunutu
 sc-footer-cookies = Di-cookie
 sc-logout-button = Tswa
 
@@ -388,12 +408,16 @@ sc-confirm-uploading = Dipolelo di ntse di kenngwa. Sena se ka nka metsotso e mm
 
 ## LANGUAGE INFO
 
+sc-lang-info-title-personal = Tsa botho
 
 ## LOGIN
 
 
 ## PROFILE
 
+# Variables:
+#   $username (String) - eMail address of the logged in user
+sc-profile-title = Profaele: { $username }
 
 ## REVIEW CRITERIA
 
