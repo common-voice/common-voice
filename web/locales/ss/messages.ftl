@@ -86,6 +86,7 @@ hy-AM = Armenian
 hyw = Armenian Western
 ia = Interlingua
 id = Indonesian
+ie = Interlingue
 ig = Igbo
 is = Icelandic
 it = Sitaliyane
