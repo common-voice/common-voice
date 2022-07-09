@@ -42,6 +42,7 @@
       "validHrs": 2275.28
     },
     "fa": {
+      "duration": 1371049,
       "buckets": {
         "dev": 9937,
         "invalidated": 13320,
@@ -69,10 +70,10 @@
       "users": 4088,
       "size": 10118159391,
       "checksum": "c298ceacbe35edbc0ed948c068afbd87c2076768a5e70ebe7f4166f7e053e4a8",
-      "avgDurationSecs": null,
-      "validDurationSecs": null,
-      "totalHrs": null,
-      "validHrs": null
+      "avgDurationSecs": 4.0,
+      "validDurationSecs": 1177704,
+      "totalHrs": 380.85,
+      "validHrs": 327.14
     },
     "fr": {
       "buckets": {
