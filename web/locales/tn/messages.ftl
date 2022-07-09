@@ -125,7 +125,9 @@ how-does-it-work-text = Re batla tshedimosetso ya batho ba bantsi ya mantswe. Ab
 
 ## How does it work section
 
+about-yes-votes-text = Gore kgatiso ya lentswe e tsene mo rekotong ya tshedimosetso ya Common Voice, e tshwanetse ya bo e tlhomamisitswe ke badirisi ba babedi.
 about-no-votes-text = Fa modirisi a gana polelo, e boela kwa Moleng. Fa kgatiso ya lentswe e ganwa lekgetlho la bobedi, e romelwa kwa Clip Graveyard.
+about-dataset-new-text = Rekoto ya Tshedimosetso ya Common Voice e na le disampole tsa mantswe di le makgolo a le diketekete tse di thusang badiri go tlhama dithulusu tse di lemogang mantswe.
 about-clip-graveyard-text =
     Clip Graveyard e na le dikgatiso tsa mantswe tse di sa kgonang tsena mo tshedimosetsong ya Common Voice. Fela jaaka tshedimosetso, Clip Graveyard le yone e ka itseelwa.
     
@@ -227,6 +229,7 @@ dataset-description-hours =
 resource-deepspeech-info = Thulaganyo ya go lemoga mantswe ya Mozilla ya Deep Speech e ka dirisiwa go dira dithulaganyo tsa go lemoga puo. Bala <githubLink>dintlhakakaretso tsa rona tsa Github</githubLink> kgotsa nna karolo ya <discourseLink>DeepSpeech Discourse</discourseLink> go ithuta gore o ka simolola jang.
 resource-playbook-info = <playbookLink>Bona kaelo e e thusang</playbookLink> ka loeto lotlhe lwa Common Voice, go tloga ka go ranolela go fitlha ka tiriso ya tshedimosetso, mmogo le go ikgolaganya le batho ba lefelo la rona.
 data-other-librispeech-description = LibriSpeech ke direkoto tsa diura di ka nna 1000 tsa 16Khz tse di balang mela ya Seesemane tse di tsewang mo dibukeng tsa mantswe tsa porojeke ya LibriVox.
+data-other-voxforge-description = VoxForge e ne e diretswe go phutha puo e e kwalolotsweng gore e dirisiwe e dirisa Metswedi ya  Mahala ya go Lemoga Puo e e Dirisiwang ke Batho Botlhe.
 data-other-tatoeba-description = Tatoeba ke tshedimosetso e kgolo ya dipolelo, dithanolo, le kgatiso ya mantswe a a buiwang e e dirisiwang go ithuta puo. Karolo eno e e itseelwang e na le Seemane se se buiwang se se gatisitsweng ke morafe wa bone.
 your-feedback = A o na le dikakantsho tsa gore re ka tokafatsa jang direkoto tsa tshedimosetso ya Common Voice? Re itsise mo Discourse
 
@@ -259,6 +262,7 @@ request-language-success-list-3 =
     Fa o bona go feta malatsinyana re sa bue sepe,
     ikgolaganye le rona mo <emailLink>{ $email }</emailLink>
     mme re tla boela kwa go wena!
+request-language-error = Re ka tswa re ise re amogele kopo eo. Tsweetswee re romelele imeile ka tlhamalalo mo <emailLink>{ $email }</emailLink> mme re tla boela kwa go wena!
 
 ## Languages Overview
 
@@ -324,6 +328,7 @@ demo-dashboard-card-body = Mo kgatisong nngwe le nngwe ya lentswe e e abilweng, 
 
 ## Validation criteria
 
+contribution-criteria-page-description = Tlhaloganya gore o tshwanetse go batla eng fa o reeditse dikgatiso tsa mantswe mme o thuse go dira gore dikgatiso tsa gago tsa mantswe di tshwanele!
 contribution-misreadings-description = Fa o reeditse, tlhatlhoba ka kelotlhoko gore a se se gatisitsweng ke sone tota se se kwadilweng; se gane le fa go na le diphoso tse dinnye tota. <br />Diphoso tse di tlwaelegileng thata di akaretsa:
 contribution-varying-pronunciations-description = Nna kelotlhoko pele o gana kgatiso ka go bo mmadi a sa bitsa lefoko sentle, o gateletse mo lefelong le e seng lone, kgotsa gongwe o itlhokomolositse letshwao la potso. Go na le ditsela tse dintsi tsa go bitsa mafoko lefatshe ka bophara, tse dingwe ka tsone o ka tswang o ise o di utlwe mo lefelong la gago. Tsweetswee anaanela ba ba ka tswang ba bua ka tsela e e farologaneng le e o buang ka yone.
 contribution-varying-pronunciations-description-extended = Kafa letlhakoreng le lengwe, fa o akanya gore gongwe mmadi ga a ise a kopane le lefoko leo, mme o fopholetsa fela ka tsela e e sa siamang tsela e le bidiwang ka yone, tsweetswee e gane. Fa o sa tlhomamisege, dirisa konopo ya tlola.
