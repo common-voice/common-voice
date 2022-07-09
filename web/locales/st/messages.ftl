@@ -110,8 +110,17 @@ ru = Russian
 rw = Kinyarwanda
 sah = Sakha
 sc = Sardinian
+scn = Sicilian
+shi = Shilha
+si = Sinhala
+sk = Slovak
 skr = Saraiki
+sl = Slovenian
+so = Somali
 sq = Albanian
+sr = Serbian
+ss = Siswati
+tn = Setswana
 yue = Cantonese
 
 # [/]
@@ -188,6 +197,7 @@ other = Tse ding
 dashboard = Dashboard
 avatar = Avatar
 goals = Dipheo
+settings = Ditlhophiso
 profile-close = Kwala
 edit = Lokisa
 off = E kwetswe
@@ -261,6 +271,8 @@ review-rerecord = Rekota hape
 
 datasets-heading = Dipokello tsa data
 language = Puo
+# File size in gigabytes
+size = Boholo
 cv-license = Laesense
 size-gigabyte = GB
 size-megabyte = MB
@@ -297,6 +309,7 @@ language-section-launched = E qadilwe
 language-meter-in-progress = Kgatelopele
 language-search-input =
     .placeholder = Batla
+sentences = Dipolelo
 language-validation-hours = Dihora
 
 ## Contribution
@@ -304,6 +317,8 @@ language-validation-hours = Dihora
 action-click = Penya
 contribute = Kenya letsoho
 listen = Mamela
+skip = Tlola
+shortcuts = Dikgaoletso
 
 ## Reporting
 
@@ -338,6 +353,7 @@ keep = Boloka
 
 download-profile-title = Profaele
 download-recordings-title = Direkoto
+download-size = Boholo
 download-selected = E kgethilwe
 download-request-button = Download
 download-request-refresh-button = Kgatholla
@@ -442,7 +458,11 @@ sc-personal-remove-button = tlosa
 
 ## REVIEW
 
+# Variables:
+#   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
+sc-review-form-source = Mohlodi: { $sentenceSource }
 sc-review-form-button-reject = Hana
+sc-review-form-button-skip = Tlola
 sc-review-form-button-approve = Amohela
 # Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
 sc-review-form-button-reject-shortcut = N
@@ -452,6 +472,7 @@ sc-review-link = Hlahloba
 
 ## SETTINGS
 
+sc-settings-title = Ditlhophiso
 sc-settings-skipped-decription = O ile wa tlola dipolelo ha o ntse o hlahloba. Ho hlophisa botjha dipolelo tse tlotsweng ho tla bontsha dipolelo tsohle tse tlotsweng hape. Sena se ikemetse ho puo.
 
 # [/SentenceCollector]
