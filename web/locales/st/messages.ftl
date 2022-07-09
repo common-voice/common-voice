@@ -7,12 +7,14 @@
 
 ## Languages
 
+ab = Abkhaz
 
 # [/]
 
 
 ## Layout
 
+about = Ka
 
 ## Home Page
 
@@ -102,6 +104,7 @@ data-other-librispeech-description = LibriSpeech ke kakaretso ya dihora tse ka b
 
 ## Contact Modal
 
+contact-required = *E ya hlokahala
 
 ## Request Language Modal
 
