@@ -25,9 +25,14 @@ br = Breton
 bs = Bosnian
 bxr = Buryat
 ca = Catalan
+co = Corsican
+cs = Czech
 cv = Chuvash
+da = Danish
 eu = Basque
+hr = Croatian
 hy-AM = Armenian
+kw = Cornish
 my = Burmese
 sq = Albanian
 yue = Cantonese
@@ -39,6 +44,7 @@ yue = Cantonese
 
 about = Ka
 contact = Tshwara
+cookies = Di-cookie
 
 ## Home Page
 
@@ -68,6 +74,7 @@ benefits = Melemo
 
 profile-form-age =
     .label = Dilemo
+dashboard = Dashboard
 avatar = Avatar
 profile-close = Kwala
 
@@ -199,6 +206,7 @@ demo-account = Ak'haonte
 
 ## Validation criteria
 
+contribution-criteria-nav = Ditekanyetso
 
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
@@ -208,6 +216,7 @@ demo-account = Ak'haonte
 ## HEADER/FOOTER
 
 sc-header-add = Eketsa
+sc-footer-cookies = Di-cookie
 
 ## HOME
 
