@@ -152,6 +152,8 @@ action-click = Penya
 
 ## Reporting
 
+report-other-comment =
+    .placeholder = Hlahisa Maikutlo
 
 ## Goals
 
@@ -239,6 +241,7 @@ sc-add-result =
 
 ## ADD SENTENCES CONFIRMATION
 
+sc-confirm-button-text = Netefatsa
 sc-confirm-uploading = Dipolelo di ntse di kenngwa. Sena se ka nka metsotso e mmalwa ho latela palo ya dipolelo tse kentsweng. Ka kopo seke wa kwala sebaka sena sa marang-rang.
 
 ## LANGUAGE INFO
