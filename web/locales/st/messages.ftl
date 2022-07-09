@@ -97,6 +97,7 @@ myv = Erzya
 ne-NP = Nepali
 nia = Nias
 nl = Dutch
+nyn = Runyankole
 oc = Occitan
 or = Odia
 pa-IN = Punjabi
@@ -104,7 +105,12 @@ pl = Polish
 ps = Pashto
 pt = Portuguese
 quc = K'iche'
+ro = Romanian
+ru = Russian
 rw = Kinyarwanda
+sah = Sakha
+sc = Sardinian
+skr = Saraiki
 sq = Albanian
 yue = Cantonese
 
@@ -138,6 +144,8 @@ benefits = Melemo
 
 ## Speak & Listen Shortcuts
 
+# Must be one letter that appears in the translated { skip } string.
+shortcut-skip = s
 
 ## Listen Shortcuts
 
@@ -156,6 +164,7 @@ shortcut-vote-no = n
 shortcut-record-toggle = r
 shortcut-record-toggle-label = Rekota/Ema
 shortcut-discard-ongoing-recording = ESC
+shortcut-submit = Kgutla
 
 ## ProjectStatus
 
@@ -170,6 +179,8 @@ profile-form-age =
 profile-form-gender-2 =
     .label = Bong
 hidden = E patilwe
+profile-form-submit-save = Boloka
+profile-form-submit-saved = E bolokilwe
 male = E motona
 female = E motshehadi
 # Gender
@@ -243,6 +254,7 @@ error-code = Phoso { $code }
 
 data-download-deny = Tjhe
 license-mixed = E tswakantswe
+review-recording = Hlahloba
 review-rerecord = Rekota hape
 
 ## Datasets Page
@@ -283,6 +295,8 @@ request-language-explanation-2 = Hape re tla <strong>tsebisa mookamedi wa setjha
 
 language-section-launched = E qadilwe
 language-meter-in-progress = Kgatelopele
+language-search-input =
+    .placeholder = Batla
 language-validation-hours = Dihora
 
 ## Contribution
@@ -293,6 +307,7 @@ listen = Mamela
 
 ## Reporting
 
+report = Tlaleha
 report-other-comment =
     .placeholder = Hlahisa Maikutlo
 continue = Tswela pele
@@ -323,6 +338,7 @@ keep = Boloka
 
 download-profile-title = Profaele
 download-recordings-title = Direkoto
+download-selected = E kgethilwe
 download-request-button = Download
 download-request-refresh-button = Kgatholla
 
@@ -362,6 +378,7 @@ contribution-misreadings-title = Ho se bale hantle
 sc-header-home = Hae
 sc-header-how-to = Mokgwa wa ho
 sc-header-add = Eketsa
+sc-header-review = Hlahloba
 sc-header-profile = Profaele
 sc-footer-discourse = Discourse
 sc-footer-privacy = Lekunutu
@@ -418,15 +435,20 @@ sc-lang-info-title-personal = Tsa botho
 # Variables:
 #   $username (String) - eMail address of the logged in user
 sc-profile-title = Profaele: { $username }
+sc-personal-remove-button = tlosa
 
 ## REVIEW CRITERIA
 
 
 ## REVIEW
 
+sc-review-form-button-reject = Hana
 sc-review-form-button-approve = Amohela
 # Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
 sc-review-form-button-reject-shortcut = N
+# Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
+sc-review-form-button-skip-shortcut = S
+sc-review-link = Hlahloba
 
 ## SETTINGS
 
