@@ -125,7 +125,15 @@ so = Somali
 sq = Albanian
 sr = Serbian
 ss = Siswati
+sv-SE = Swedish
+sw = Swahili
+syr = Syriac
+ta = Tamil
+tg = Tajik
+tl = Tagalog
 tn = Setswana
+tt = Tatar
+ty = Tahitian
 yue = Cantonese
 
 # [/]
@@ -284,6 +292,7 @@ splits = E arohane
 size-gigabyte = GB
 size-megabyte = MB
 download-language = Download-a { $language }
+subscribe = Ngodisa
 resource-playbook-info = <playbookLink>Fumana tataiso e thusang</playbookLink> leetong lohle la Common Voice, ho tloha sebakeng sa lehae ho isa tshebedisong ya dataset, mmoho le mokgwa wa ho hokahana le setjhaba sa rona.
 data-other-librispeech-description = LibriSpeech ke kakaretso ya dihora tse ka bang 1000 tsa 16Khz tse balwang ka puo ya Senyesemane e nkilweng dibukeng tsa audio tse balwang ho tswa morerong wa LibriVox.
 more = Tse ding
@@ -323,6 +332,7 @@ language-validation-hours = Dihora
 ## Contribution
 
 action-click = Penya
+action-tap = Tlanya
 contribute = Kenya letsoho
 listen = Mamela
 skip = Tlola
@@ -333,6 +343,7 @@ shortcuts = Dikgaoletso
 report = Tlaleha
 report-other-comment =
     .placeholder = Hlahisa Maikutlo
+success = Katleho
 continue = Tswela pele
 
 ## Goals
