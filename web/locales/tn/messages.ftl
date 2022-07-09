@@ -189,6 +189,7 @@ about-playbook-how-validate-content-3 = Fa o akanya gore tsela e le bidiwang ka 
 ## How to access dataset
 
 about-playbook-how-access-dataset-content-1 = O ka ya kwa <datasetsPage>tsebeng ya tshedimosetso</datasetsPage>, tlhopha mofuta le (di)puo e o e batlang, o bo o e itseela! Difaele di na le <metadataLink>tshedimosetso e e amanang e e tlhalosang</metadataLink>, jaaka tshedimosetso ya dipalopalo le ya go netefatsa. O tla tlhoka go kwala aterese ya imeile gore o itseele tshedimosetso.
+about-playbook-how-access-dataset-content-2 = Fa e le gore o batla didirisiwa tsa go aga mefuta ya ASR, o ka ikgolaganya le batho ba bangwe mo karolong eno <discourseLink>mo Discourse</discourseLink>.
 
 ## How are decisions made
 
