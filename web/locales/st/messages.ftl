@@ -34,6 +34,7 @@ da = Danish
 de = German
 dv = Dhivehi
 dyu = Dioula
+el = Segerike
 en = Senyesemane
 eo = Esperanto
 et = Estonian
