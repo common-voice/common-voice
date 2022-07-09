@@ -45,10 +45,23 @@ fo = Faroese
 fr = Sefora
 fy-NL = Frisian
 gl = Galician
+gn = Guarani
+ha = Hausa
+he = Seheberu
 hr = Croatian
+ht = Haitian
+hu = Hungarian
 hy-AM = Armenian
+ia = Interlingua
+id = Indonesian
+ie = Interlingue
+ig = Igbo
+is = Icelandic
 ka = Georgian
+kmr = { "" }
 kw = Cornish
+lij = { "" }
+lt = { "" }
 my = Burmese
 myv = Erzya
 nl = Dutch
@@ -62,6 +75,7 @@ yue = Cantonese
 
 datasets = Dipokello tsa data
 about = Ka
+help = Thusa
 contact = Tshwara
 cookies = Di-cookie
 faq = FAQ
@@ -98,6 +112,7 @@ profile-form-age =
     .label = Dilemo
 profile-form-gender-2 =
     .label = Bong
+hidden = E patilwe
 female = E motshehadi
 dashboard = Dashboard
 avatar = Avatar
@@ -188,6 +203,7 @@ request-language-explanation-2 = Hape re tla <strong>tsebisa mookamedi wa setjha
 
 ## Languages Overview
 
+language-validation-hours = Dihora
 
 ## Contribution
 
@@ -254,6 +270,8 @@ contribution-criteria-nav = Ditekanyetso
 
 ## HEADER/FOOTER
 
+sc-header-home = Hae
+sc-header-how-to = Mokgwa wa ho
 sc-header-add = Eketsa
 sc-footer-discourse = Discourse
 sc-footer-cookies = Di-cookie
