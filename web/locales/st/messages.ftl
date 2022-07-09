@@ -27,6 +27,7 @@ br = Breton
 bs = Bosnian
 bxr = Buryat
 ca = Catalan
+cak = Kaqchikel
 co = Corsican
 cs = Czech
 cv = Chuvash
@@ -44,6 +45,7 @@ fi = Finnish
 fo = Faroese
 fr = Sefora
 fy-NL = Frisian
+ga-IE = Irish
 gl = Galician
 gn = Guarani
 ha = Hausa
@@ -57,14 +59,29 @@ id = Indonesian
 ie = Interlingue
 ig = Igbo
 is = Icelandic
+it = Italian
+izh = Izhorian
+ja = Japanese
 ka = Georgian
+kaa = Karakalpak
+kab = Kabyle
+kbd = Kabardian
+ki = Kikuyu
+kk = Kazakh
+km = Khmer
 kmr = { "" }
+ko = Korean
+kpv = Komi-Zyrian
 kw = Cornish
-lij = { "" }
+ky = Kyrgyz
+lij = Ligurian
 lt = { "" }
+lv = Latvian
 my = Burmese
 myv = Erzya
 nl = Dutch
+quc = K'iche'
+rw = Kinyarwanda
 sq = Albanian
 yue = Cantonese
 
@@ -74,6 +91,7 @@ yue = Cantonese
 ## Layout
 
 datasets = Dipokello tsa data
+languages = Dipuo
 about = Ka
 help = Thusa
 contact = Tshwara
@@ -108,6 +126,8 @@ english = Sekgowa
 
 ## ProfileForm
 
+profile-form-language =
+    .label = Puo
 profile-form-age =
     .label = Dilemo
 profile-form-gender-2 =
@@ -134,6 +154,8 @@ edit = Lokisa
 
 ## How does it work section
 
+about-listen-queue = Mola wa ho mamela
+about-listen = Mamela
 about-stay-in-touch-text-1 = <emailFragment>Ingodise</emailFragment> ho lenane la rona la mangolo ho ithuta hore na o ka nka karolo jwang matsholong, diketsahalong le dikarolo tsa moralo o kopanetsweng ho Common Voice.
 
 ## Community Playbook Content
@@ -180,6 +202,8 @@ error-code = Phoso { $code }
 ## Datasets Page
 
 datasets-heading = Dipokello tsa data
+language = Puo
+cv-license = Laesense
 size-gigabyte = GB
 download-language = Download-a { $language }
 resource-playbook-info = <playbookLink>Fumana tataiso e thusang</playbookLink> leetong lohle la Common Voice, ho tloha sebakeng sa lehae ho isa tshebedisong ya dataset, mmoho le mokgwa wa ho hokahana le setjhaba sa rona.
@@ -196,6 +220,8 @@ contact-required = *E ya hlokahala
 
 ## Request Language Modal
 
+request-language-form-language =
+    .label = Puo
 
 ## Request Language Pages
 
@@ -203,12 +229,14 @@ request-language-explanation-2 = Hape re tla <strong>tsebisa mookamedi wa setjha
 
 ## Languages Overview
 
+language-section-launched = E qadilwe
 language-validation-hours = Dihora
 
 ## Contribution
 
 action-click = Penya
 contribute = Kenya letsoho
+listen = Mamela
 
 ## Reporting
 
@@ -234,6 +262,7 @@ goal-share-text = Ke sa tswa iketsetsa sepheo sa ho fana ka lentswe ho #CommonVo
 
 ## Profile Delete
 
+keep = Boloka
 
 ## Profile Download
 
