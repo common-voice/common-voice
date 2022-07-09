@@ -19,10 +19,18 @@ az = Azerbaijani
 ba = Bashkir
 bas = Basaa
 be = Belarusian
+bg = Bulgarian
 bn = Bengali
+br = Breton
+bs = Bosnian
+bxr = Buryat
+ca = Catalan
+cv = Chuvash
 eu = Basque
 hy-AM = Armenian
+my = Burmese
 sq = Albanian
+yue = Cantonese
 
 # [/]
 
@@ -60,6 +68,7 @@ benefits = Melemo
 profile-form-age =
     .label = Dilemo
 avatar = Avatar
+profile-close = Kwala
 
 ## Profile - Email
 
@@ -118,6 +127,7 @@ about-stay-in-touch-text-1 = <emailFragment>Ingodise</emailFragment> ho lenane l
 
 resource-playbook-info = <playbookLink>Fumana tataiso e thusang</playbookLink> leetong lohle la Common Voice, ho tloha sebakeng sa lehae ho isa tshebedisong ya dataset, mmoho le mokgwa wa ho hokahana le setjhaba sa rona.
 data-other-librispeech-description = LibriSpeech ke kakaretso ya dihora tse ka bang 1000 tsa 16Khz tse balwang ka puo ya Senyesemane e nkilweng dibukeng tsa audio tse balwang ho tswa morerong wa LibriVox.
+close = Kwala
 
 ## Download Modal
 
@@ -138,6 +148,7 @@ request-language-explanation-2 = Hape re tla <strong>tsebisa mookamedi wa setjha
 
 ## Contribution
 
+action-click = Penya
 
 ## Reporting
 
@@ -151,6 +162,7 @@ awards = Dikgau
 
 ## Custom Goals
 
+both-speak-and-listen = Bobedi
 # LINK will be replaced with the current URL
 goal-share-text = Ke sa tswa iketsetsa sepheo sa ho fana ka lentswe ho #CommonVoice -- ikopanye le nna ho thusa ho ruta metjhini hore na batho ba nnete ba bua jwang { $link }
 
