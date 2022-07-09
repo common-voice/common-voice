@@ -1,5 +1,7 @@
 ## General
 
+email-input =
+    .label = Email
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -29,11 +31,14 @@ co = Corsican
 cs = Czech
 cv = Chuvash
 da = Danish
+dv = Dhivehi
+dyu = Dioula
 eu = Basque
 hr = Croatian
 hy-AM = Armenian
 kw = Cornish
 my = Burmese
+nl = Dutch
 sq = Albanian
 yue = Cantonese
 
@@ -42,7 +47,7 @@ yue = Cantonese
 
 ## Layout
 
-datasets = Pokello ya data
+datasets = Dipokello tsa data
 about = Ka
 contact = Tshwara
 cookies = Di-cookie
@@ -78,6 +83,7 @@ profile-form-age =
 dashboard = Dashboard
 avatar = Avatar
 profile-close = Kwala
+edit = Lokisa
 
 ## Profile - Email
 
@@ -125,6 +131,7 @@ about-stay-in-touch-text-1 = <emailFragment>Ingodise</emailFragment> ho lenane l
 
 ## Glossary
 
+de-identified = E tlositsweng dintlha tsa botho
 
 ## Error pages
 
@@ -134,9 +141,12 @@ about-stay-in-touch-text-1 = <emailFragment>Ingodise</emailFragment> ho lenane l
 
 ## Datasets Page
 
+datasets-heading = Dipokello tsa data
+download-language = Download-a { $language }
 resource-playbook-info = <playbookLink>Fumana tataiso e thusang</playbookLink> leetong lohle la Common Voice, ho tloha sebakeng sa lehae ho isa tshebedisong ya dataset, mmoho le mokgwa wa ho hokahana le setjhaba sa rona.
 data-other-librispeech-description = LibriSpeech ke kakaretso ya dihora tse ka bang 1000 tsa 16Khz tse balwang ka puo ya Senyesemane e nkilweng dibukeng tsa audio tse balwang ho tswa morerong wa LibriVox.
 close = Kwala
+download = Download
 
 ## Download Modal
 
@@ -176,6 +186,8 @@ awards = Dikgau
 ## Custom Goals
 
 both-speak-and-listen = Bobedi
+easy-difficulty = E bonolo
+difficult-difficulty = E thata
 # LINK will be replaced with the current URL
 goal-share-text = Ke sa tswa iketsetsa sepheo sa ho fana ka lentswe ho #CommonVoice -- ikopanye le nna ho thusa ho ruta metjhini hore na batho ba nnete ba bua jwang { $link }
 
@@ -184,6 +196,7 @@ goal-share-text = Ke sa tswa iketsetsa sepheo sa ho fana ka lentswe ho #CommonVo
 
 ## Profile Download
 
+download-request-button = Download
 
 ## Landing
 
@@ -217,6 +230,7 @@ contribution-criteria-nav = Ditekanyetso
 ## HEADER/FOOTER
 
 sc-header-add = Eketsa
+sc-footer-discourse = Discourse
 sc-footer-cookies = Di-cookie
 
 ## HOME
