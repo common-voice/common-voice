@@ -209,6 +209,7 @@ error-content-503 = Webosaete e tla bo e boetse mo maemong ka bonako jo bo kgone
 
 data-subtitle = Re aga rekoto ya tshedimosetso ya mantswe e mongwe le mongwe a ka e dirisang go thapisa dithulaganyo tse di kgonang go dirisa mantswe.
 data-explanatory-text = Re dumela gore tshedimosetso e kgolo le e e phasaladitsweng ya mantswe e rotloetsa go tlhama le kgaisano ya kgwebo mo thekenolojing e e ikaegileng ka go ithuta ga metšhine. Ano ke matsapa a lefatshe lotlhe mme re laletsa mongwe le mongwe go tsaya karolo. Boikaelelo jwa rona ke go thusa thekenoloji ya go bua gore e akaretse dilo tse dintsi, e bontshe pharologano ya mantswe go ralala lefatshe.
+data-download-singleword-callout-v2 = Eno ke karolwana e e berekang e e nang le tshedimosetso ya go matlafatsa mokgwa wa go dirisa puo le o o kgonang go lemoga ee / nnyaa.
 
 ## Datasets Page
 
@@ -253,6 +254,10 @@ request-language-success-list-2 =
     Motsamaisi wa morafe wa rona o tla ikgolaganya le wena go go naya
     tshegetso e e oketsegileng, le go go itsise gore a go
     batho ba ba berekang ka puo ya gago
+request-language-success-list-3 =
+    Fa o bona go feta malatsinyana re sa bue sepe,
+    ikgolaganye le rona mo <emailLink>{ $email }</emailLink>
+    mme re tla boela kwa go wena!
 
 ## Languages Overview
 
@@ -320,7 +325,9 @@ contribution-misreadings-description = Fa o reeditse, tlhatlhoba ka kelotlhoko g
 contribution-varying-pronunciations-description = Nna kelotlhoko pele o gana kgatiso ka go bo mmadi a sa bitsa lefoko sentle, o gateletse mo lefelong le e seng lone, kgotsa gongwe o itlhokomolositse letshwao la potso. Go na le ditsela tse dintsi tsa go bitsa mafoko lefatshe ka bophara, tse dingwe ka tsone o ka tswang o ise o di utlwe mo lefelong la gago. Tsweetswee anaanela ba ba ka tswang ba bua ka tsela e e farologaneng le e o buang ka yone.
 contribution-varying-pronunciations-description-extended = Kafa letlhakoreng le lengwe, fa o akanya gore gongwe mmadi ga a ise a kopane le lefoko leo, mme o fopholetsa fela ka tsela e e sa siamang tsela e le bidiwang ka yone, tsweetswee e gane. Fa o sa tlhomamisege, dirisa konopo ya tlola.
 contribution-background-noise-description = Re batla gore go ithuta ga metšhine go kgone go lepalepana le medumo e mentsi e e kwa morago, le medumo e e kwa godimo e ka amogelesega fa fela e sa go thibele go utlwa mokwalo otlhe. Mmino o o lelang kwa morago go didimetse o siame; mmino o o kwa godimo thata mo o go thibelang go utlwa mafoko otlhe ga wa siama.
+contribution-background-noise-description-extended = Fa kgatiso e kgaoga kgotsa e gagasha, e gane, ntle le fa mafoko otlhe a kgona go utlwiwa.
 contribution-background-voices-description = Tlhakatlhakano e e utlwalang mo lefelong le le didimetseng e siame, mme ga re batle mantswe a a oketsegileng a a ka dirang gore motšhine o se ka wa lemoga mafoko a a sa kwalwang. Fa o ka utlwa mafoko a a farologaneng le a a kwadilweng, kgatiso eo e tshwanetswe go ganwa. Gantsi seno se direga fa TV e tlogetswe e tshubilwe, kgotsa fa go na le motlotlo o o tsweletseng fa gaufi.
+contribution-background-voices-description-extended = Fa kgatiso e kgaoga kgotsa e gagasha, e gane, ntle le fa mafoko otlhe a kgona go utlwiwa.
 contribution-volume-description = Go tla nna le dipharologano tsa tlholego mo bolumong ya babadi. Gana fela fa bolumo e le kwa godimo thata mo kgatiso e kgaogang, kgotsa (se se tlwaelegileng thata) fa e le kwa tlase thata mo o sa utlweng se se buiwang kwantle ga go leba se se kwadilweng.
 contribution-reader-effects-description = Dikgatiso tse dintsi ke tsa batho ba ba buang ka lentswe la bone la tlholego. O ka amogela kgatiso nngwe e e sa tlwaelegang ya go goa, go seba, kgotsa e e buiwang ka tsela e e ‘kgatlhang’. Tsweetswee gana dikgatiso tse go opelwang le tse di dirisang lentswe le le dirilweng ka khomputara.
 contribution-just-unsure-description = Fa o kopana le sengwe se dikaelo tseno di sa bueng ka sone, tsweetswee tlhopha go ya ka tsela e e molemolemo e o e akanyang. Fa tota o sa kgone go dira tshwetso, dirisa konopo ya go tlola mme o ye kwa kgatisong e e latelang.
