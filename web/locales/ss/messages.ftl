@@ -724,6 +724,10 @@ request-language-google-recaptcha-error = Kukhona lokuhambe kabi nge reCAPTCHA. 
 # Success page
 request-language-success-heading = Siyabonga! Utfumele sicelo lesisha selulwimi
 request-language-success-list-1 = Kumele utfole liposi lembane masinyane lelitakuchazela ngetindlela tekufika elwimini lwakho ku Common Voice.
+request-language-success-list-3 =
+    Uma singakakutsintsi emalangeni lambalwa letako, 
+    chumana natsi ku <emailLink>{ $email }</emailLink>,
+    sitobuya kuwe!
 request-language-error =
     Mhlawumbe asikasitfoli leso sicelo. Sicela utfumele liposi lembane 
     ku <emailLink>{ $email }</emailLink>sitobuya kuwe!
@@ -1029,12 +1033,14 @@ contribution-varying-pronunciations-example-2-title = Sandla sakhe besiphakam-il
 contribution-varying-pronunciations-example-2-explanation = [‘Raised’ in English is always pronounced as one syllable, not two]
 contribution-background-noise-title = Imisindvo lengemuva
 contribution-background-noise-description = Sifuna ema-algorithms ekufundza imishini kutsi ikwati kuphatsa tinhlobonhlobo temisindvo lengemuva, futsi imisindvo lemikhulu ingamukelwa kuphela nje uma ingakuvimbeli kutsi uve wonkhe umbhalo. Umculo longemuva lophansi ULUNGILE; umculo losetulu ngalokuvimba kutsi ungeva igama ngalinye.
+contribution-background-noise-description-extended = Uma le recording igamuka, noma inekukhwehlela, yicitse ngaphandle ke uma ukhona kuva lencenye lemagama.
 contribution-background-noise-example-1-fixed-title = <strong>[Sneeze]</strong> ema-dinosaur lamakhulu e <strong>[cough]</strong> Triassic.
 contribution-background-noise-example-2-fixed-title = The giant dino <strong>[cough]</strong> the Triassic.
 contribution-background-noise-example-2-explanation = [Part of the text can’t be heard]
 contribution-background-noise-example-3-fixed-title = <strong>[Crackle]</strong> ema-dinasaur lamakhulu ase <strong>[crackle]</strong> -riassic.
 contribution-background-voices-title = Emavi langemuva
 contribution-background-voices-description = Ihabhu lengemuva lephansi ilungile, kodvwa asiwafuni emavi lengatiwe langase abangele i-algorithm yemshini kutsi ibone emagama langekho kulokubhaliwe. Uma uva emagama lahlukene ngaphandle kwalawo embhalo, lesiceshana kufanele sijikiswe. Ngalokuvamile loku kwenteka lapho i-TV ishiywe ivuliwe, noma lapho kunenkhulumo lechubekako edvute.
+contribution-background-voices-description-extended = Uma le recording igamuka, noma inekukhwehlela, yicitse ngaphandle ke uma ukhona kuva lencenye lemagama.
 contribution-background-voices-example-1-title = Ema-dinosaurs lamakhulu ase Triassic. <strong>[read by one voice]</strong>
 contribution-background-voices-example-1-explanation = Uyeta? <strong>[lokubitwe ngulomunye]</strong>
 contribution-volume-title = Linani lemsindvo
