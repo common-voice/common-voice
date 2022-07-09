@@ -275,6 +275,7 @@ x-weeks-short =
 help-make-dataset = Sisite kwakha i-datset lesezingeni lelisetulu futsi lengatfolwa sive sonkhe.
 sign-up-account = bhalisela kuvula i-account
 email-subscription-title = bhalisela tindzaba letihamba embili ngeliposi lembane
+email-subscription-title-new = Bhalisela incwajana, inkhumbuto yemagoli kanye nenchubekala phambili ya Common Voice
 
 ## Account Benefits
 
@@ -394,6 +395,7 @@ accept-privacy = Ngite inkinga kutsi uphatse lomniningwane njengoba uchazile ku 
 accept-privacy-title = Umgomo wekugcina tindzaba tiyimfihlo.
 login-identity = Login Identity
 login-signup = Ngena / Bhalisa
+edit = Hlela
 email-subscriptions = Lababhalise ngeliposi lembane
 download-profile = Download My Data
 contribution-experience = Sipiliyoni sekulekelela
@@ -425,6 +427,7 @@ remove-avatar = Remove Avatar
 ## Profile - Email
 
 manage-subscriptions = Naka lababhalise ngeliposi lembane
+manage-email-subscriptions = Naka lababhalise ngeliposi lembane
 email-already-used = Leliposi lembane selivele lisetjentiswe kulenye i-account
 add-language = Ngeta Lulwimi
 change-email-setings = Shintja liposi lakho lembane kuma settings ngaphasi kwalapho ungena khona
@@ -721,6 +724,7 @@ datasets-positioning =
     Umtfombo welwati wetilwimi letiningi te-Common Voice seyivele iluhlobo leticheme letinkhulu telwati kunawo onkhe ,konja akusiyo yodvwa.
     
     Buka kulelikhasi njengendzawo yekubuka letinye ticheme telwati loluvulekile futsi, njengoba i- Common Voice ichubeka ikhula, likhaya letibuyeteko tekwatisa.
+language = Lulwimi
 # File size in gigabytes
 size = Linani
 validated-hr-total = Linani la Hr. lelicinisekisiwe
@@ -794,6 +798,8 @@ contact-required = *kudzingekile
 ## Request Language Modal
 
 request-language-title = Sicelo Selulwimi
+request-language-form-language =
+    .label = Lulwimi
 request-language-success-title = Sicelo selulwimi simikiswe ngemphumelelo, siyabonga!
 request-language-success-content = Sitochumana mayelana nemininingwane yekutsi ungalungeta njani lulwimi lwakho kuCommon Voice madvutane.
 select-language = Khetsa Lulwimi...
@@ -863,6 +869,11 @@ clips-with-count-pluralized =
     }
 goal-help-recording = Usite Common Voice kufinyelela ku <goalPercentage></goalPercentage> wemagoli etfu { $goalValue } ekutfwebula ngelilanga
 goal-help-validation = Usite Common Voice kufinyelela ku <goalPercentage></goalPercentage> wemagoli etfu { $goalValue } ekucinisekisa ngelilanga
+contribute-more =
+    { $count ->
+        [one] Ready to do { $count } more?
+       *[other] Ready to do { $count } more?
+    }
 record-cta = Cala kutfwebula
 record-platform-not-supported = Siyacolisa, inkhundla yakho ayikasekelwa kwamanje.
 record-platform-not-supported-desktop = Kubongcondvomshina, ungalekelela ngeku download....
@@ -1090,6 +1101,7 @@ download-request = Cela leticephu letitfwebuliwe
 download-requests = Past recordings download requests
 download-requests-info = Uma ucela ema recording akho, siyawahlanganisa abe yi ZIP file yinye noma abe manengi. Nati ticelo takho taphambilini
 download-request-button = Download
+download-request-title = { $created }
 download-request-description = { $clipCount } emafayela emavi latfwebuliwe, linani lemafayela lagciniwe { $size }. Aphupha nini { $expires }.
 download-request-archive-single = Lifayela linye le ZIP lelicuketse
 download-request-archive-multiple = Hlephula kube{ $archiveCount } ngemafayela e ZIP lacuketse
@@ -1158,6 +1170,7 @@ contribution-misreadings-title = Lokufundvwe kabi
 contribution-misreadings-description = Uma ulalele, hlolisisa kutsi itfwebuleke kahle yini kunaku lokubhaliwe; yijikise uma kunemaphutsa noma ngabe kuncane kanganani. <br />Emaphutsa lajwayelekile afaka ekhatsi:
 contribution-misreadings-description-extended-list-1 = Kushoda <strong>'A'</strong> or <strong>'The'</strong> ekucaleni kwale recording.
 contribution-misreadings-description-extended-list-2 = Kushoda <strong>'s'</strong> ekugcineni kweligama.
+contribution-misreadings-description-extended-list-3 = Kufundza tifinyeto letingekho letifaka ekhatsi, "We're" esikhundleni sa "We are", nome vice versa.
 contribution-misreadings-description-extended-list-4 = Kushiywa siphetfo seligama ngekujuba le recording ngekushesha.
 contribution-misreadings-description-extended-list-5 = Kutsatsa emahlandla kufundza ligama.
 contribution-misreadings-example-1-title = Ema dinosaur lamakhulu ase Triassic.
@@ -1173,6 +1186,7 @@ contribution-misreadings-example-6-explanation = [Should be “We are”]
 contribution-misreadings-example-7-title = Siyaphuma siyotfola likhofi.
 contribution-misreadings-example-7-explanation = [No ‘a’ in the original text]
 contribution-misreadings-example-8-title = The bumblebee sped by.
+contribution-misreadings-example-8-explanation = [Mismatched content]
 contribution-varying-pronunciations-title = Tindlela tekukhuluma letehlukahlukene
 contribution-varying-pronunciations-description = Caphela ngaphambi kwekutsi ucitse siceshana lapho lofundzako angakasho kahle ligama, noma ufake kucindzetela endzaweni lengasiyo, noma ke kungenteka ushiye umbuto. Tinengi tindlela tekusho letisetjentiswa mhlaba wonkhe, letinye longakativa emphakatsini wangakini. Sicela ufake umkhawulo wekubonga kulabo labakhuluma ngendlela lengafani neyakho.
 contribution-varying-pronunciations-description-extended = Kulokunye, uma ucabanga kutsi lofundzako akazange sekadibane naleligama ngaphambilini, futsi kulula kulisho kabi, sicela ulicitse. Uma ungakaciniseki, sebentisa libhathini lalokulandzelako.
@@ -1233,6 +1247,7 @@ sc-logout-button = Phuma
 sc-home-title = Wemukelekile lakukwelekwa khona imisho ka Common Voice
 sc-home-intro = Lomkweleki wemisho uyincenye ye <commonVoiceLink>Common Voice</commonVoiceLink>. Ivumela labanikelako kutsi bakweleke phindze bacinisekise imisho leyakhiwe ngumphakatsi. Ungalisebentisa lelithulusi kudvonsa kanye nekuhlanta lokuncane kuya kulokusemkhatsini lokutfolile noma lokukwelekile. Yonkhe imisho kumele ibe yinsita yemphakatsi. Imisho legunyatiwe itfunyelwa lisontfo linye ekhasini laka Common Voice futsi ikhishwe ekhasini laka Common Voice ngemsebenti lomusha.
 sc-home-collect-title = Imisho lekwelekiwe
+sc-home-collect-text = Sisite ngekubhala noma kukweleka imisho mayelana nesive.
 sc-home-review-title = Buyeketa imisho
 sc-home-review-text = Sisite sibuyekete imisho kutsi ingiwo yini futsi iyahambelana yini nemigomo
 
@@ -1244,6 +1259,7 @@ sc-languages-fetch-error = Sehlulekile kutfola tilwimi letikhona. Kwengetwa kwam
 
 sc-howto-title = Kwentiwa njani
 sc-howto-addlang-title = Kungeta tilwimi lotosebenta ngato
+sc-howto-addlang-text = Uma sewungenile ungakhona kukhetsa lulwimi lwakho emakhasini.
 sc-howto-addsen-title = Ngeta imisho lemisha
 sc-howto-addsen-item-1 = Yonkhe imisho loyimikisako kumele ibe ngephansi  <wikipediaLink>kwemvume ye Public Domain (CC-0) </wikipediaLink>. Kusekela umsebenti longekho phanse mvumo yemphakatsi, sakhe <cc0WaiverLink>umfanekiso weSivumelwane Sekunikela</cc0WaiverLink> lesitosebenta uma umnikwati we copyright afuna kunikela ku Common Voice.
 sc-howto-addsen-item-2 = Tinombolo. Akukameli kube netinombolo embhalweni longumtfombo ngoba ungabangela tinkinga uma tifundvwa ngkuphimisela. Indlela inombolo lefundwa ngayo incike kumniyo futsi ingase yetfule kudideka ku dataset. Sibonelo, inombolo "2409" ingafundwa kahle ngetindlela letimbili ngekutsi "emashumi lamabili nane zero nesishiyagalolunye" kanye "netinkulungwane letimbili nemakhulu lamane nesishiyagalolunye".
@@ -1264,6 +1280,7 @@ sc-howto-review-subtitle = Ciniseka kutsi imisho ihlangabeta loluhla lolulandzel
 sc-howto-review-criteria-1 = Lomusho kumele ubhaleke kahle.
 sc-howto-review-criteria-2 = Lomusho kumele ube bete emaphutsa.
 sc-howto-review-criteria-3 = Lomusho kumele ukhulumeke.
+sc-howto-review-criteria-4 = Uma umusho uhambelana neluhla, chafata "Approve".
 sc-howto-review-criteria-5 =
     Uma umusho ungahlangabetani nalemibandzela lengenhla, chafata le bhathini la ""Reject"". Uma
     ute siciniseko ngemusho, ungaweca futsi uchubekele kulomunye.
