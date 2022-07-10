@@ -34,6 +34,7 @@ bs = Se-Bosnian
 bxr = Se-Buryat
 ca = Se-Catalan
 cak = Se-Kaqchikel
+cnh = Se-Hakha Chin
 co = Se-Corsican
 cs = Czech
 cv = Se-Chuvash
@@ -101,6 +102,7 @@ myv = Se-Erzya
 ne-NP = Se-Nepali
 nia = Se-Nias
 nl = Se-Dutch
+nyn = Ma-Runyankole
 oc = Se-Occitan
 or = Se-Odia
 pa-IN = Se-punjabi
@@ -108,8 +110,14 @@ pl = Mopoliši
 ps = Se-Pashto
 pt = Sepotokisi
 quc = Se-K'iche'
+ro = Se-Romania
+ru = Se-Russia
 rw = Se-Kinyarwanda
+sah = Se-Sakha
+sc = Se-Sardinia
+skr = Se-Saraiki
 sq = Se-Albania
+sr = Se-Serbia
 yue = Se-Cantonese
 
 # [/]
@@ -170,6 +178,7 @@ shortcut-vote-no = n
 shortcut-record-toggle = r
 shortcut-record-toggle-label = Pego/Ema
 shortcut-discard-ongoing-recording = ESC
+shortcut-submit = Bušetša
 
 ## ProjectStatus
 
@@ -186,6 +195,8 @@ profile-form-age =
 profile-form-gender-2 =
     .label = Bong
 hidden = Fihlilwego
+profile-form-submit-save = Boloka
+profile-form-submit-saved = Bolokegile
 male = Monna
 female = Mosadi
 # Gender
@@ -321,6 +332,7 @@ dataset-date = Letšatši
 license = Laesense: <licenseLink>{ $license }</licenseLink>
 license-mixed = Tswakane
 data-download-singleword-callout-v2 = Se ke karolo e hlohloletšwago ke seripa sa go ba le datha go matlafatša temogo ya dinomoro tše bolelwago le go bonwa ga ee/aowa.
+review-recording = Hlahloba
 review-rerecord = Rekhota gape
 
 ## Datasets Page
@@ -383,7 +395,10 @@ request-language-error = Re ka be re sa hwetša kgopelo yeo. Ka kgopelo re romel
 language-section-in-progress-new-description = Maleme a gona bjale a ka tlase ga tšwelopele ya setšhaba. <localizationGlossaryLink>wepesaeteng ya kgauswi</localizationGlossaryLink> le <sentenceCollectionGlossaryLink> kgoboketšo ya mantšu</sentenceCollectionGlossaryLink> e nyakega go thoma.
 language-section-launched = Hloma
 language-meter-in-progress = Tšwelopele
+language-search-input =
+    .placeholder = Nyakiša
 localized = Lekanyeditšwego
+sentences = Mafoko
 language-validation-hours = Diiri
 
 ## Contribution
@@ -394,6 +409,8 @@ listen = Theeletša
 
 ## Reporting
 
+report = Pego
+report-title = Tliša pego
 report-other-comment =
     .placeholder = Tshwayotshwayo
 continue = Tšwela pele
@@ -437,6 +454,7 @@ goal-share-text = Ke fetša go hlangwa pakane ya go neela ka lentšu go #CommonV
 ## Profile Delete
 
 keep = Boloka
+remove = Ntšha
 keep-info = Dipego tša gago tša lentšu tšeo di sa tsebjego di tla šala go dathasete ya Common Voice. Ka morago ga go phumola profaele ya gago o ka sa kgona go romela kgopelo ya go phumola direkhoto tša gago go dathasete.
 remove-info = Re tla hlahloba kgopelo ya gago ya go tloša direkhoto tša lentšu la gago dathaseteng. Ge e ba kgopelo ya gago e amogetšwe, re tla ikgokaganya le bao ba taonelouteng dathasete gomme re tla ba kgopela gore le bona ba phumole direkhoto tša lentšu la gago.
 why-delete-recordings = Dipego tša Common Voice di dirišwa ke barutegi, dikgwebo-potlana, le ba go fišegelwa go tseba ka mantšu go thuša go eteletša le go godiša methopo ye e hwetšagalago phatlalatša bjalo ka mehuta ya mantšu.                                                                                                                                                          Na o ka re tsebiša gore ke ka baka la eng o nyaka gore direkhoto tša gago di phumolwe?
@@ -445,6 +463,7 @@ why-delete-recordings = Dipego tša Common Voice di dirišwa ke barutegi, dikgwe
 
 download-profile-title = Pego
 download-recordings-title = Dikgatišo
+download-selected = Kgethilwego
 download-requests-info = Ge o kgopela dipego, re ya di bokanya ka gare ga faele ya ZIP e tee goba tše dintši. Mo ke dikgopelo tša gago tša nakong e fetilego.
 download-request-button = Goga go tšwa inthaneteng
 download-request-refresh-button = Mpshafatša
@@ -499,6 +518,7 @@ contribution-just-unsure-description = Ge e ba o kopana le selo seo dikeletšo t
 sc-header-home = Gae
 sc-header-how-to = Go ithuta go
 sc-header-add = Oketša
+sc-header-review = Ahla-ahla
 sc-header-profile = Profaele
 sc-footer-discourse = Discourse
 sc-footer-privacy = Bo Noši
@@ -584,6 +604,7 @@ sc-lang-info-left-for-you =
 # Variables:
 #   $username (String) - eMail address of the logged in user
 sc-profile-title = Profaele: { $username }
+sc-personal-remove-button = Tloša
 
 ## REVIEW CRITERIA
 
@@ -591,9 +612,13 @@ sc-criteria-item-5-2 = Ge e ba lefoko ga le fihlelele kritheriya ya ka godimo, t
 
 ## REVIEW
 
+sc-review-form-button-reject = Gana
 sc-review-form-button-approve = Amogela
 # Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
 sc-review-form-button-reject-shortcut = N
+# Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
+sc-review-form-button-skip-shortcut = S
+sc-review-link = Poeletšo
 
 ## SETTINGS
 
