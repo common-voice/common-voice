@@ -304,6 +304,7 @@ accept-privacy-title = Leano la Lekunutu
 login-identity = Boitsebiso ba ho Kena
 edit = Lokisa
 email-subscriptions = Dipeeletso tsa Email
+download-profile = Download-a Data ya Ka
 contribution-experience = Boiphihlelo ba Monehelo
 off = E kwetswe
 on = E butswe
@@ -323,6 +324,7 @@ add-language = Kenya Puo
 
 ## FAQ
 
+faq-title = Dipotso Tse Botswang Kgafetsa
 
 ## ABOUT US
 
@@ -431,6 +433,7 @@ community-playbook = Buka ya ho bapala ya setjhaba
 resource-playbook-info = <playbookLink>Fumana tataiso e thusang</playbookLink> leetong lohle la Common Voice, ho tloha sebakeng sa lehae ho isa tshebedisong ya dataset, mmoho le mokgwa wa ho hokahana le setjhaba sa rona.
 data-other-librispeech-description = LibriSpeech ke kakaretso ya dihora tse ka bang 1000 tsa 16Khz tse balwang ka puo ya Senyesemane e nkilweng dibukeng tsa audio tse balwang ho tswa morerong wa LibriVox.
 data-other-ted-name = TED-LIUM Corpus
+go-discourse = Eya ho Discourse
 more = Tse ding
 close = Kwala
 download = Download
@@ -559,6 +562,7 @@ weekly-goal = Sepheo sa beke le beke
 easy-difficulty = E bonolo
 difficult-difficulty = E thata
 pro-difficulty = Pro
+finish-editing = Qetela ho lokisa pele?
 cant-decide = Ha o kgone ho etsa qeto?
 n-clips-pluralized =
     { NUMBER($count) ->
@@ -585,6 +589,7 @@ download-recordings-title = Direkoto
 download-recordings-size = Ka tlwaelo ke megabytes
 download-size = Boholo
 download-selected = E kgethilwe
+download-start = Download-a data ya profaele
 download-request = Kopa tse rekotilweng
 download-request-button = Download
 download-request-refresh-button = Kgatholla
