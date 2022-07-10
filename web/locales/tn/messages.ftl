@@ -25,6 +25,7 @@ ba = Se-Bashkir
 bas = Se-Basaa
 bg = Se-Bulgaria
 br = Se-Breton
+bs = Se-Bosnia
 bxr = Se-Buryat
 eu = Se-Basque
 hy-AM = Se-Armania
@@ -289,6 +290,7 @@ missing-language = Ga o bone puo ya gago e tlhaga mo Rekotong ya Tshedimosetso? 
 
 ## Download Modal
 
+download-helpus = Re thuse go aga setšhaba ka thekenoloji ya lentswe, nna o ikgolaganya ka imeile.
 
 ## Contact Modal
 
@@ -344,6 +346,11 @@ visibility-overlay-note = Ela tlhoko: Fa e beilwe mo go 'Bonagala', o ka kgona g
 
 both-speak-and-listen = Ka bobedi
 average-difficulty = Palogare
+help-reach-hours-general-pluralized =
+    { NUMBER($hours) ->
+        [one] Thusa Common Voice go fitlhelela ura e le { $hours } mo puong ka maikaelelo a batho
+       *[other] Thusa Common Voice go fitlhelela diura di le { $hours } mo puong ka maikaelelo a batho
+    }
 receiving-emails-info = Gone jaanong o dirile gore o amogele diimeile tse di jaaka dikgopotso tsa maikaelelo, ditlhabololo tsa kgatelopele ya me le makwalodikgang a Common Voice
 not-receiving-emails-info = Gone jaanong o dirile gore o <bold>SE KA</bold> wa amogela diimeile tse di jaaka dikgopotso tsa maikaelelo, ditlhabololo tsa kgatelopele ya me le makwalodikgang a Common Voice
 # LINK will be replaced with the current URL
