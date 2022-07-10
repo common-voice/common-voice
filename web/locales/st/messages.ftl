@@ -422,6 +422,7 @@ everyone = Bohle
 ## Custom Goals
 
 both-speak-and-listen = Bobedi
+daily-goal = Sepheo sa Letsatsi le Letsatsi
 easy-difficulty = E bonolo
 difficult-difficulty = E thata
 pro-difficulty = Pro
