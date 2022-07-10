@@ -215,6 +215,7 @@ speak-goal-text = Di-clip di rekotilwe
 listen-goal-text = Di-clip di netefaditswe
 hours-recorded = Dihora tse Rekotilweng
 hours-validated = Dihora tse netefaditsweng
+voices-online = Mantswe a Marang-rang Hona Jwale
 todays-progress = Tswelopele ya kajeno
 help-reach-goal = Re thuse ho fihlela { $goal }
 all-locales = Koafela
@@ -297,6 +298,7 @@ male = E motona
 female = E motshehadi
 # Gender
 other = Tse ding
+why-profile-title = Hobaneng profaele?
 dashboard = Dashboard
 build-profile = Haha Profaele
 avatar = Avatar
@@ -331,11 +333,13 @@ add-language = Kenya Puo
 ## FAQ
 
 faq-title = Dipotso Tse Botswang Kgafetsa
+faq-using-cv = Ho Sebedisa Common Voice
 faq-search-for-answers =
     .label = Batlana le dikarabo
 
 ## ABOUT US
 
+about-title = Hobaneng Common Voice?
 
 ## How does it work section
 
@@ -349,6 +353,7 @@ about-speak = Bua
 about-listen-queue = Mola wa ho mamela
 about-listen = Mamela
 about-yes-votes = ≥ 2 Dikgetho tsa E
+about-no-votes = ≥ 2 Ha ho dikgetho
 about-dataset-new = Pokello ya Data ya Common Voice
 about-clip-graveyard = Di-clip tsa Mabitleng
 about-get-involved = Nka karolo
@@ -391,6 +396,7 @@ about-playbook-how-grow-language-content-6 = Dikamano le marang-rang
 
 ## How are decisions made
 
+about-playbook-how-project-governance-content-5 = Boleng le temoho.
 about-playbook-how-project-governance-content-6 = Boikarabello ka kopanelo.
 
 ## Glossary
@@ -430,6 +436,7 @@ datasets-heading = Dipokello tsa data
 language = Puo
 # File size in gigabytes
 size = Boholo
+validated-hr-total = Kakaretso ya Dihora tse netefaditsweng
 cv-license = Laesense
 audio-format = Sebopeho sa audio
 number-of-voices = Palo ya Mantswe
@@ -478,6 +485,9 @@ other-language = Puo e nngwe
 ## Request Language Pages
 
 request-language-explanation-2 = Hape re tla <strong>tsebisa mookamedi wa setjhaba sa rona hore o na le thahasello</strong>, kahoo ba ka o fa tshehetso e feng kapa feng e eketsehileng kapa dintlha tseo o ka di hlokang.
+request-language-form-email =
+    .label = Aterese ya hao ya email
+request-language-form-info-explanation-list-2 = <isoCodeLink>Dik'houtu tsa ISO</isoCodeLink> haeba di tsejwa
 
 ## Languages Overview
 
@@ -625,6 +635,7 @@ download-request = Kopa tse rekotilweng
 download-request-button = Download
 download-request-refresh-button = Kgatholla
 download-request-modal-title = Download-a dihokahanyo
+download-request-link-text = Zip #{ $offset } ya { $kakaretso }
 download-request-metadata-link = Mongolo wa polelo
 
 ## Landing
