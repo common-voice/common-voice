@@ -21,6 +21,7 @@ wall-of-text-more-mobile = Bogolo bja datha e dirišwago ke dikhampani tše dikg
 wall-of-text-more-desktop = Gona bjale o ka nea ka lentšu la gago go re thuša go aga dathabeise ya lentšu e bolegielgo yeo mang le mang a ka e šomiša go dira mananeotiriši a mafsa a didirišwa le wepesaete. Bala mafoko go thuša metšhene go ithuta gore na batho ba kgonthe ba bolela bjang. Lebediša mošomo wa baneedi ba babgwe go kaonefatša boemo. Go bonolo gakaalo!
 wall-of-text-second = Bogolo bja datha e dirišwago ke dikhampani tše dikgolo ga e hwetšagale ke bontši bja batho. Re nagana gore seo se šitiša go tšweletša mekgwa e mefsa. Ka gona re hlomile Common Voice, morero wa go thuša go dira gore temošo ya lentšu e bolege le go hwetšwa ke motho yo mongwe le yo mongwe.
 no-clips-to-validate = Go bonagala nkare ga gona ditsopolwana tše o ka di theeletšago ka polelo e. Re thuše go tlatša lenaneotetelo ka go rekhota gona bjale.
+speak-paragraph = Go gatiša dipego tša lentšu ke karolo e bohlokwa ya go aga dathasete ya rena e bulegilego; ba bangwe ba ka re ke karolo ya go thabiša le yona.
 
 ## Account Benefits
 
@@ -87,6 +88,7 @@ about-header-description-v2 = Theknolotši ya go tlhathollo lentšu e fetola tse
 
 about-clip-graveyard-text = Setsopolwa sa Graveyard se na le dirakolo tša lentšu tše di sa fihlaho go dathasete ya Common Voice. Bjalo ka dathasete, setsopolwa sa Graveyard ya hwetšagala bakeng sa go tanelouta.                               Re ka rata go leboga batho le mekgatlo e latelago ka thušo ya bona morerong o:
 about-stay-in-touch-text-1 = <emailFragment>Ngwadiša</emailFragment> go lethamong la rena la mangwalo go ithutha gore na o ka tšea karolo bjang masolong, ditiragalo le dikarolo tša moralo o kopanetšego go Common Voice.
+about-stay-in-touch-text-2 = O ka kopana le ba bangwe ba setšhaba sa polelo ya Mozilla ka go ikopanya go <discourseLink>Discourse</discourseLink> go hwetša poledišano ya ditaba, goba <matrixLink>Matrikse</matrixLink> go hwetša keletšo ya kapejana.
 
 ## Community Playbook Content
 ## What is a language
@@ -127,6 +129,7 @@ about-playbook-how-validate-content-3 = Ge e ba o nagana gore mokgwa wa go pilet
 ## How to access dataset
 
 about-playbook-how-access-dataset-content-1 = O ka ya go <datasetsPage>letlakaleng la di-dathasete</datasetsPage>, kgetha mohuta le (di)polelo tšeo o di nyakago, gomme o di taneloute! Difaele di na le <metadataLink>methadatha a linki</metadataLink>, bjalo ka tsebišo ya palo ya batho le datha e netefatšwego. O tla hloka go nea ka aterese ya e-meile go tanelouta dathasete.
+about-playbook-how-access-dataset-content-2 = Ge e ba o nyaka didirišwa tša go aga mehuta ya ASR, o ka ikopanya le batho ba bangwe ba sehlopha se <discourseLink>go Discourse</discourseLink>.
 
 ## How are decisions made
 
@@ -141,7 +144,9 @@ error-content-503 = Saete e tla thekgwa kapejana ka mo go ka kgonegago. Bakeng s
 
 ## Data
 
+data-subtitle = Re aga tatelano ya dathasete ya lentšu e bulegilego le go phatlalatšwa gore batho ka moka ba ka e berikšago go tlwaetša ditirišo tša go dumela polelo.
 data-explanatory-text = Re dumela gore dathasete tša lentšu tše dikgolo di tla hwetšagala phatlalatša di kgothaletša go tšweletša mekgwa e mefsa le tlhodišano ya kgwebo e matla go theknolotši ya go mantšu e thekgilwego ke motšhene. Se ke boiteko ba lefase ka moka gomme re mema motho yo mongwe le yo mongwe go tšea karoko. Boikemišetšo bja rena ke go thuša theknolotši le poledišano gore e tsentšhwe batho ka moka, e bonagatše mehuta e fapa-fapanego ya mantšu a tšwago lefaseng ka bophara.
+data-download-singleword-callout-v2 = Se ke karolo e hlohloletšwago ke seripa sa go ba le datha go matlafatša temogo ya dinomoro tše bolelwago le go bonwa ga ee/aowa.
 
 ## Datasets Page
 
@@ -166,10 +171,12 @@ data-other-librispeech-description = LibriSpeech ke pokello ya dipego ya diiri  
 
 ## Request Language Modal
 
+request-language-success-content = Re tla ikgokaganya le wena ka tsebišo e oketšegilego mabapi le gore o ka tsenya polelo ya gago go Common Voice kapejana.
 
 ## Request Language Pages
 
 request-language-explanation-2 = Le rena re tla <strong>tsebiša moetapele wa badudi gore o na le kgahlego </strong>, gore ba go fe thekgo e oketšegilego goba tsebo e o ka e hlokago.
+request-language-success-list-3 = Ge e ba o sa kwe go tšwa go rena ka morago ga matšatši a mmalwa a tlago, ikgokaganye le rena go <emailLink>{ $email }</emailLink>re tla boela go wena!
 
 ## Languages Overview
 
@@ -200,6 +207,7 @@ why-delete-recordings = Dipego tša Common Voice di dirišwa ke barutegi, dikgwe
 
 ## Profile Download
 
+download-requests-info = Ge o kgopela dipego, re ya di bokanya ka gare ga faele ya ZIP e tee goba tše dintši. Mo ke dikgopelo tša gago tša nakong e fetilego.
 download-request-link-single = O ka kopisa le go beya di-URL tše tobegilego go sesepetša digogwa wa gago o ratago. Di tla felelwa ke nako ka morago ga diiri tše 12, eupša o ka boela latlakaleng le go hlagiša tše di mpsha ka nako le ge e le efe.
 
 ## Landing
@@ -256,9 +264,11 @@ sc-howto-addsen-item-4 = Maswao-dikga. Maswao a kgethegilego le maswao-dikga a p
 sc-howto-addsen-item-5 = Mangwalo a tšwago ka ntle ga naga. Magwalo a swanetše go nepagala ka polelo yeo e bolelwago. Ka mohlala,  “ж” ke tlhaka ya alefabete ya se Russia eupša le ka mohla ga e dirišwe ka Seisimane ka gona ga ya swanela go bonagala mongwalong ofe goba ofe a Seisimane.
 sc-howto-addsen-post-1 = Re kgetha mafoko a tlhago/poledišano. Lege phapano ya sefonetiki le mantšu a fapanego mafokong a bohlokwa, re leka go dira gore mafoko a go gatišwa di be bose kudu ka moo re ka kgonago. Ka gona go ka ba monate ge o ka leka go boloka mafoko a gago a be a tlhago/kopanelago kamoo go ka kgonegalago.
 sc-howto-cite-pre-1 = Go bohlokwa gore o bolele moo o hweditšego lengwalo la tumelelo ya setšhaba go phema go ngwalolla tsebišo le go e utswa le go dumelela go boela bakeng sa <copyrightIssuesLink>mathata a tša ditokelo tša molao</copyrightIssuesLink>. Ditsela tše sego kae tše mmalwa tša go tsopola mošomo.
+sc-howto-cite-item-2 = O ka berikiša tshupišo ya thuto, e.g setaele sa Harvard "Mozilla (2021) Common Voice. E lego gona go https://commonvoice.mozilla.org/ (Accessed: 15th September 2021)"
 sc-howto-cite-item-3 = Bakeng sa mangwalong a setšhaba ga a hwetšegale inthaneteng, o ka berekiša tshupišo ya thuto e.g setaele sa Harvard "Jess (2021) My Public licence poems"
 sc-howto-review-criteria-5 = Ge e ba lefoko ga le fihlelele kritheriya tša ka godimo, tobetsa setobetšwa sa “Gana”. Ge e ba o sa kgonthišege ka lefoko, o ka boela wa e taboga gomme o fetele go e latelago.
 sc-howto-findpd-text-2 = Gopola gore re hloka tumelelo ya go phatlalatša dipolelo tšeo, ke kamoo re kgonthišetša gore mengwalo ke ya<wikipediaLink> batho ka moka</wikipediaLink>. Ge goba a gona dipontšho molaleng, boledišana le motho yo temana yeo e leng ya gagwe gomme o botšiša gore e ba ba nyaka go neela temana ya bona Sebakeng sa Setšhaba. Ge e ba ba nyaka, ba thuše go tsena mogatong a <cc0WaiverLink>Tumelelano ya Meneelo</cc0WaiverLink> . Ge e ba ga ba nyake go tsena tiragalo ya temana, ke moka wa dumelelwa go diriša temana yeo.
+sc-howto-findpd-tips-1 = Methopo e kaonekaone yeo o ka e nyakago ke di-podcast, di-transcript, mengwalong ya difilimi le eng goba eng e ka bago gona go polediišano tša letšatši le letšatši.
 sc-howto-findpd-partner-1 = Go na le mekgatlo e mentši ya setšhaba e ka nyakago go šomišana gomme e šetše e na le ditemana tše dintši tšeo ba ka neelago ka tšona go etša go lefelong la batho bohle. Ikgokaganye le diyunibesithi tša lefelong leo, Mebušo le mekgatlo e bulegilego go bolela ka morero le go kgopela thušo ya bona.
 sc-howto-findpd-partner-2 = Ditsebi tša maleme tše hlwahlwa le tšona di ka thuša, leka go ikopanya le setsebi sa maleme sa diyunibesithi ya lefelong leo (bobedi bja barutiši le baithuti) le go bona gore na ba ka thuša go kgoboketša mafoko e fapanego ya polelo ya geno.
 
