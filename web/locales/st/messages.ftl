@@ -135,6 +135,7 @@ ro = Romanian
 ru = Russian
 rw = Kinyarwanda
 sah = Sakha
+sat = Santali (Ol Chiki)
 sc = Sardinian
 scn = Sicilian
 shi = Shilha
@@ -308,6 +309,7 @@ edit = Lokisa
 email-subscriptions = Dipeeletso tsa Email
 download-profile = Download-a Data ya Ka
 contribution-experience = Boiphihlelo ba Monehelo
+skip-submission-feedback = Tlola Maikutlo a Thomello
 off = E kwetswe
 on = E butswe
 
@@ -327,6 +329,8 @@ add-language = Kenya Puo
 ## FAQ
 
 faq-title = Dipotso Tse Botswang Kgafetsa
+faq-search-for-answers =
+    .label = Batlana le dikarabo
 
 ## ABOUT US
 
@@ -409,6 +413,7 @@ data-bundle-button = Download-a Sephuthelwana sa Polokelo ya Data
 release-version = Mofuta
 license-mixed = E tswakantswe
 terms-agree = Kea dumela
+review-submit-title = Hlahloba mme o Kenye
 review-recording = Hlahloba
 review-rerecord = Rekota hape
 review-cancel = Hlakola ho Romela
@@ -461,6 +466,7 @@ contact-required = *E ya hlokahala
 request-language-title = Kopo ya Puo
 request-language-form-language =
     .label = Puo
+select-language = Kgetha Puo...
 other-language = Puo e nngwe
 
 ## Request Language Pages
@@ -501,6 +507,8 @@ record-cancel = Hlakola ho rekota hape
 record-stop-instruction = { $actionType }<stopIcon></stopIcon> ha o qetile
 record-three-more-instruction = Tse tharo tse tlang ho tsamaea!
 record-last-instruction = <recordIcon></recordIcon> Ya ho qetela!
+share-clip = Arolelana clip ya hao
+share-common-voice = Arolelana Common Voice
 record-submit-tooltip = { $actionType } romela ha e se e loketse
 clips-uploaded = Di-clip di kentswe
 record-abort-submit = Romella di-clip
@@ -560,6 +568,8 @@ recorded-clips = Di-clip tse Rekotilweng
 validated-clips = Di-clip tse netefaditsweng
 total-approved = Kakaretso e Amohetsweng
 overall-accuracy = Ho Nepa Ka Kakaretso
+set-visibility = Beha ponahalo ya ka
+show-ranking = Bontsha boemo ba ka
 
 ## Custom Goals
 
@@ -570,6 +580,7 @@ easy-difficulty = E bonolo
 difficult-difficulty = E thata
 pro-difficulty = Pro
 finish-editing = Qetela ho lokisa pele?
+set-a-goal = Ipehele sepheo
 cant-decide = Ha o kgone ho etsa qeto?
 n-clips-pluralized =
     { NUMBER($count) ->
@@ -580,8 +591,10 @@ confirm-goal = Netefatsa sepheo
 goal-interval-weekly = Beke le beke
 share-goal-type-speak = E ntse e bua
 share-goal-type-listen = E ntse mametse
+share-goal-type-both = Ho Bua le ho Mamela
 # LINK will be replaced with the current URL
 goal-share-text = Ke sa tswa iketsetsa sepheo sa ho fana ka lentswe ho #CommonVoice -- ikopanye le nna ho thusa ho ruta metjhini hore na batho ba nnete ba bua jwang { $link }
+share-goal = Arolelana sepheo sa ka
 
 ## Profile Delete
 
@@ -784,6 +797,7 @@ sc-review-link = Hlahloba
 
 sc-settings-title = Ditlhophiso
 sc-settings-ui-language = Puo ya Sehokelo
+sc-settings-reset-skipped = Seta botjha dipolelo tse tlotsweng
 sc-settings-skipped-decription = O ile wa tlola dipolelo ha o ntse o hlahloba. Ho hlophisa botjha dipolelo tse tlotsweng ho tla bontsha dipolelo tsohle tse tlotsweng hape. Sena se ikemetse ho puo.
 
 # [/SentenceCollector]
