@@ -13,20 +13,27 @@ ab = Se-Abkhaz
 ace = Se-Acehnese
 ady = Adyghe
 af = Se-Afrikanse
-am = Ma-Amharic
-an = Ma-Aragonese
-ar = Ma-Arabic
+am = Se-Amharic
+an = Se-Aragonese
+ar = Se-Arabic
 as = Ma-Assamese
 ast = Ma-Asturia
 az = Ma-Azerbaijani
 ba = Ma-Bashkir
 bas = Ma-Basaa
 be = Ma-Belarusian
+bg = Se-Bulgaria
 bn = Se-Bengali
+br = Se-Breton
 bs = Se-Bosnian
+bxr = Se-Buryat
+ca = Se-Catalan
+cv = Se-Chuvash
 eu = Ma-Basque
 hy-AM = Ma-Armenia
-sq = Ma-Albania
+my = Se-Burmese
+sq = Se-Albania
+yue = Se-Cantonese
 
 # [/]
 
@@ -70,6 +77,7 @@ profile-form-accent =
 profile-form-age =
     .label = Mengwaga
 avatar = Avatar
+profile-close = Tswalela
 why-demographic-explanation-2 = Datha ya modiriši ye o sa tsebjego bjalo ka mengwaga, le bong bja motho, le mmolelo ao a thuša go go kaonefatša datha ya odio e šomišago go eteletša nepagatšo ya di-entšene a tlhathollo ya mantšu. Leina la gago la mošomiši le e-meile di ka se itswalanye le datha yeo e rometšego, gomme o ka kgetha gore na leina la gago la mošomiši le phatlalatšwe goba le se tsebje.
 help-accent-explanation = Mmolelo wa gago ke tsela yeo o bitšago matšu ka gona. Seo se ka bopša ke moo o dutšego gona, dipolelo tše dingwe tšeo o di bolelago le dibopego tše dingwe. O ka abelana tsebišo le ge e le efe yeo o naganago gore e bohlokwa mo.
 
@@ -203,6 +211,7 @@ data-other-librispeech-description = LibriSpeech ke pokello ya dipego ya diiri  
 data-other-voxforge-description = VoxForge e beilwe go kgobokanya polelo e fetotšwego gore e berikišwe ka Mahala le Mothopo o Bulegilego wa Di-entšene tša Tlhathollo ya Polelo.
 your-feedback = Afa o nale dikgopolo gore re ka dirang gore dathasete ya Common Voice e be kaone? Re tsebiše go Discourse
 missing-language = Ga o bone polelo ya gago bonagatša go dathasete? Go kgopela polelo e ya go letlakala la rena la Dipolelo.
+close = Kgaufsi
 
 ## Download Modal
 
@@ -228,9 +237,12 @@ language-section-in-progress-new-description = Maleme a gona bjale a ka tlase ga
 
 ## Contribution
 
+action-click = Klika
 
 ## Reporting
 
+report-other-comment =
+    .placeholder = Tshwayotshwayo
 
 ## Goals
 
@@ -242,6 +254,7 @@ visibility-explainer = Peakanyo ye e laola ke ponagalo ya kelo ya baetapele. Ge 
 
 ## Custom Goals
 
+both-speak-and-listen = Bobedi
 average-difficulty = Palo-gare
 activity-needed-calculation-plural =
     { NUMBER($totalHours) ->
