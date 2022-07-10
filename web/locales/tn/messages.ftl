@@ -220,6 +220,7 @@ data-download-singleword-callout-v2 = Eno ke karolwana e e berekang e e nang le 
 
 ## Datasets Page
 
+datasets-headline = Re aga rekoto ya tshedimosetso ya mantswe ya dipuo tse dintsi e mongwe le mongwe a ka e dirisang go thapisa dithulaganyo tse di kgonang go dirisa mantswe.
 datasets-positioning =
     Re dumela gore tshedimosetso e kgolo, e e phasaladitsweng e e leng teng e tla rotloetsa go tlhama le kgaisano e e siameng ya kgwebo mo thekenolojing e e ikaegileng ka metšhine e e ithutang puo.
     
