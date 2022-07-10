@@ -276,6 +276,7 @@ about-speak = Bua
 about-listen-queue = Mola wa ho mamela
 about-listen = Mamela
 about-clip-graveyard = Di-clip tsa Mabitleng
+about-get-involved = Nka karolo
 about-stay-in-touch-text-1 = <emailFragment>Ingodise</emailFragment> ho lenane la rona la mangolo ho ithuta hore na o ka nka karolo jwang matsholong, diketsahalong le dikarolo tsa moralo o kopanetsweng ho Common Voice.
 about-nav-partners = Balekane
 
@@ -448,6 +449,7 @@ download-request-refresh-button = Kgatholla
 
 card-button-next = E latelang
 card-button-back = Morao
+demo-language-select-label = Sheba Dipuo
 demo-account = Ak'haonte
 
 ## Demo Account
@@ -462,6 +464,7 @@ demo-account = Ak'haonte
 ## Validation criteria
 
 contribution-criteria-nav = Ditekanyetso
+contribution-for-example = Mohlala
 contribution-misreadings-title = Ho se bale hantle
 contribution-misreadings-example-8-explanation = [Ditaba tse sa tsamaisaneng]
 contribution-background-noise-title = Lerata le ka morao
