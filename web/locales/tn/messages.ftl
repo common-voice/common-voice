@@ -1,6 +1,7 @@
 ## General
 
 yes-receive-emails = Ee, nthomeleleng diimeile. Nka rata go nna mo dinakong ka Porojeke ya Common Voice.
+privacy-info = Re go solofetsa go tshwara tshedimosetso ya gago ka kelotlhoko. Bala mo go oketsegileng mo <privacyLink>Kitsiso ya Bosephiri</privacyLink>.
 email-opt-in-info = Nka rata go amogela diimeile tse di jaaka dikgopotso tsa maikaelelo, ditlhabololo tsa kgatelopele ya me le makwalodikgang a Common Voice.
 email-opt-in-info-sub-with-challenge = Amogela diimeile tse di jaaka dikgwetlho le dikgopotso tsa maikaelelo, ditlhabololo tsa kgatelopele, le makwalodikgang a Common Voice.
 email-opt-in-privacy-v2 = Ka go tlhopha go amogela diimeile o bontsha gore o siame ka gore Mozilla e tshware tshedimosetso eno jaaka go tlhalosiwa mo <privacyLink>Pholising ya Polokodiphiri</privacyLink>ya Mozilla.
@@ -13,9 +14,11 @@ email-opt-in-privacy-v2 = Ka go tlhopha go amogela diimeile o bontsha gore o sia
 
 ab = Abkhaz
 ace = Se-Acehne
+af = Se-Afrikaans
 am = Se-Amharic
 an = Se-Aragon
 ar = Se-Arabia
+sq = Se-Albania
 
 # [/]
 
@@ -74,6 +77,8 @@ demographic-deidentified-clarity-2 = Tshedimosetso e e rometsweng ka go ithaopa 
 
 profile-form-accent =
     .label = Puo
+profile-form-age =
+    .label = Dingwaga
 why-profile-text =
     Ka go naya tshedimosetso nngwe ka wena, tshedimosetso ya lentswe e o e romelang kwa Common Voice e tla nna mosola thata mo dithulaganyong tsa Speech
     Recognition tse di dirisang tshedimosetso eno go tokafatsa go nepa ga tsone.
@@ -297,6 +302,7 @@ language-section-launched-description = Mo dipuong tseno tse di simolotsweng, we
 
 ## Contribution
 
+listen-loading-error = Ga re a kgona go bona dikgatiso tsa mantswe tse o ka di reetsang. Tsweetswee leka gape moragonyana.
 
 ## Reporting
 
@@ -404,6 +410,7 @@ sc-howto-review-criteria-5 = Fa polelo e sa fitlhelele ditshwanelego tse di fa g
 sc-howto-findpd-text-2 = Gopola gore re tlhoka tetla ya go phasalatsa dipolelo tseo, ka jalo ka metlha tlhomamisa gore mokwalo ke wa <wikipediaLink>lefelong la botlhe</wikipediaLink>. Fa go se na sepe se se bontshang ka tlhamalalo, ikgolaganye le motho yo mokwalo e leng wa gagwe mme o mmotse gore o batla go abela Lefelo la Botlhe mokwalo wa gagwe. Fa a batla go dira jalo, mo thuse gore a tsene mo thulaganyong ya <cc0WaiverLink>Tumalano ya Dikabo</cc0WaiverLink>. Fa a sa batle go aba mokwalo oo, ga o letlelelwe go o dirisa.
 sc-howto-findpd-tips-1 = Metswedi e e siameng thata e o ka e batlang ke di-podcast, ditokomane tse di kopolotsweng, disekerepiti tsa difilimi le sengwe le sengwe se se nang le metlotlo ya letsatsi le letsatsi.
 sc-howto-findpd-tips-2 = Mananeo a puso, dibuka le ditlhogo le tsone di siame, mme e re ka gantsi mokwalo o na le go gagamala thata, ga di botlhokwa go le kalo.
+sc-howto-findpd-tips-3 = Ka maswabi ga re ise re kgone go nna le diathikele tsa Wikimedia. Ka jalo o se ka wa kopolola o bo o tsenya go tswa koo.
 sc-howto-findpd-partner-1 = Go na le mekgatlho e mentsi ya puso e e ka batlang go nna le seabe mme e setse e na le mekwalo e mentsi e e ka e abang. Ikgolaganye le diyunibesithi tsa selegae, Dipuso le mekgatlho e mengwe go bua ka porojeke mme o ba kope thuso.
 sc-howto-findpd-partner-2 = Baitseanape ba baitsepuo le bone ba ka thusa, leka go ikgolaganya le diyunibesithi tsa selegae tsa baitsepuo (barutisi le baithuti) mme o bone gore a ba ka thusa go kgobokanya dipolelo tse di farologaneng tsa medumo ka puo ya gago.
 
