@@ -348,6 +348,7 @@ about-dataset-release-title = Tokollo ya Pokello ya Data
 about-speak = Bua
 about-listen-queue = Mola wa ho mamela
 about-listen = Mamela
+about-yes-votes = ≥ 2 Dikgetho tsa E
 about-dataset-new = Pokello ya Data ya Common Voice
 about-clip-graveyard = Di-clip tsa Mabitleng
 about-get-involved = Nka karolo
@@ -405,6 +406,7 @@ error-code = Phoso { $code }
 
 ## Data
 
+data-download-button = Download-a Data ya Common Voice
 data-download-yes = Ee
 data-download-deny = Tjhe
 data-download-license = Laesense: <licenseLink>CC-0</licenseLink>
@@ -432,6 +434,7 @@ cv-license = Laesense
 audio-format = Sebopeho sa audio
 number-of-voices = Palo ya Mantswe
 splits = E arohane
+email-to-download = Kenya Email ho Download-a
 size-gigabyte = GB
 size-megabyte = MB
 download-language = Download-a { $language }
@@ -581,6 +584,7 @@ show-ranking = Bontsha boemo ba ka
 
 get-started-goals = Qalella ka dipheo
 both-speak-and-listen = Bobedi
+both-speak-and-listen-long = Ka bobedi (Bua le ho Mamela)
 daily-goal = Sepheo sa Letsatsi le Letsatsi
 weekly-goal = Sepheo sa beke le beke
 easy-difficulty = E bonolo
@@ -734,9 +738,11 @@ sc-submit-err-add-sentences = Ka kopo kenya dipolelo
 sc-submit-title = Kenya Dipolelo
 sc-submit-select-language =
     .labelText = Kgetha Puo
+sc-submit-add-sentences = Kenya <wikipediaLink>setjhabeng </wikipediaLink> dipolelo
 
 ## ADD LANGUAGE
 
+sc-add-lang-could-not-add = Ha e ya kgona ho kenya puo
 sc-add-lang-sec-button = Kenya Puo
 # Variables:
 #   $duplicates (Number) - Number of sentences which got rejected because they are duplicates
@@ -773,6 +779,7 @@ sc-login-err-try-again = Ka kopo leka hape
 # Variables:
 #   $username (String) - eMail address of the logged in user
 sc-profile-title = Profaele: { $username }
+sc-personal-err-remove = Ha e ya kgona ho tlosa puo
 sc-personal-your-languages = Dipuo tsa hao:
 sc-personal-remove-button = tlosa
 # Variables:
