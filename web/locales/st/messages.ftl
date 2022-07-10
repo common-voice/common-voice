@@ -316,6 +316,7 @@ about-listen-queue = Mola wa ho mamela
 about-listen = Mamela
 about-clip-graveyard = Di-clip tsa Mabitleng
 about-get-involved = Nka karolo
+about-stay-in-touch-button = Ngodisa
 about-stay-in-touch-text-1 = <emailFragment>Ingodise</emailFragment> ho lenane la rona la mangolo ho ithuta hore na o ka nka karolo jwang matsholong, diketsahalong le dikarolo tsa moralo o kopanetsweng ho Common Voice.
 about-nav-how-it-works = Jwang ?
 about-nav-partners = Balekane
@@ -341,6 +342,7 @@ about-playbook-how-add-language-collecting-sentences-heading = Ho bokella dipole
 ## How to grow language
 
 about-playbook-how-grow-language-content-2 = Diketsahalo
+about-playbook-how-grow-language-content-4 = Metjha ya ditaba ya setjhaba
 
 ## How to validate
 
