@@ -104,6 +104,7 @@ faq-why-different-speakers-a =
 faq-why-my-lang-a =
     Common Voice ke thulaganyo e e batlang batho ba bantsi, mme dipuo tsotlhe di tsentswe ke baithaopi.
     Re ka rata go tsenya puo ya gago! <languageRequestLink>Botsa ka go tsenya puo ya gago.</languageRequestLink>
+faq-what-quality-q = Go tlhokega boleng bofe jwa kgatiso ya lentswe gore e dirisiwe mo rekotong ya tshedimosetso?
 faq-what-quality-a = Re batla gore tshedimosetso ya Common Voice e bontshe boleng jwa modumo o thulaganyo ya go fetolela puo go mokwalo e tla o utlwang mo nageng, ka jalo re batla mefuta e e farologaneng. Mo godimo ga dibui tse di farologaneng, tshedimosetso e e nang le boleng jo bo farologaneng jwa modumo e tla ruta thulaganyo e e fetolelang puo go mokwalo go lepalepana le maemo a a sa tshwaneng a a leng teng mo lefatsheng, go tloga ka modumo o o utlwalang kwa morago fa batho ba bua go ya go modumo wa koloi. Fela fa kgatiso ya lentswe la gago e tlhaloganyesega, e tla bo e siametse tshedimosetso eo.
 faq-how-calc-hours-a = Re bala diura ka go fopholetsa kakaretso ya boleele jwa kgatiso nngwe le ngwe, re bo re atisa palo eo ka palogotlhe ya dikgatiso tsa dipuo tsotlhe.
 faq-where-src-from-2-a =
@@ -111,6 +112,7 @@ faq-where-src-from-2-a =
     
     O ka leba dipolelo tsa rona mo faeleng eno ya <githubLink>GitHub</githubLink>.
 faq-why-not-ask-read-a = Go dira gore tshedimosetso ya Common Voice e nne mosola kafa go ka kgonegang ka gone, re dirile tshwetso ya go letlelela fela mokwalo o o leng teng mo laesenseng ya Creative Commons (CC0). Go dirisa molawana wa CC0 go raya gore go thata go bona le go kgobokanya mokwalo wa konokono, mme go letla gore mongwe le mongwe a dirise tshedimosetso e e felelang ka gone ya mantswe kwantle ga dithibelo tsa tiriso kgotsa tetlelelo ya Mozilla. Kwa bofelong, re batla gore tshedimosetso ya dipuo tse dintsi e nne mosola go mongwe le mongwe kafa go ka kgonegang ka gone, go akaretsa babatlisisi, diyunibesithi, dithulaganyo tsa tshimologo, dipuso, mekgatlho ya boikaelelo jwa loago, le batho ba ba dirang dilo go itlosa bodutu.
+faq-what-determine-identity-q = Go tewa jang fa go twe ga ke kgone go "lemoga boikitsiso" jwa babui ba ba mo direkotong tsa tshedimosetso mo Common Voice?
 faq-what-determine-identity-a =
     Tshedimosetso ya Common Voice ke sedirisiwa se se leng teng sa batho botlhe se se ka dirisiwang go thapisa dithulaganyo tse di farologaneng tsa puo. Go sireletsa tshireletsego ya baabi ba rona, re kopa gore mongwe le mongwe yo a itseelang tshedimosetso ya Common Voice a tlotle bosephiri jwa baabi.
     
