@@ -541,6 +541,11 @@ easy-difficulty = E bonolo
 difficult-difficulty = E thata
 pro-difficulty = Pro
 cant-decide = Ha o kgone ho etsa qeto?
+n-clips-pluralized =
+    { NUMBER($count) ->
+        [one] clip
+       *[other] di-clip
+    }
 confirm-goal = Netefatsa sepheo
 goal-interval-weekly = Beke le beke
 share-goal-type-speak = E ntse e bua
@@ -556,6 +561,7 @@ profile-form-delete = Hlakola Profaele
 ## Profile Download
 
 download-profile-title = Profaele
+download-profile-size = Di-byte tse mmalwa
 download-recordings-title = Direkoto
 download-recordings-size = Ka tlwaelo ke megabytes
 download-size = Boholo
@@ -578,6 +584,7 @@ welcome-staff = Amohela { $company } basebetsi!
 card-button-next = E latelang
 card-button-back = Morao
 demo-language-select-label = Sheba Dipuo
+demo-eofy-header = Phatlalatso ya Qetello ya Selemo ya 2019
 demo-account = Ak'haonte
 
 ## Demo Account
@@ -638,6 +645,7 @@ sc-home-review-title = Hlahloba Dipolelo
 ## HOW-TO
 
 sc-howto-title = Mokgwa wa ho
+sc-howto-addsen-title = Kenya dipolelo tse ntjha
 sc-howto-cite-item-3 = Bakeng sa mongolo wa setjhaba o sa fumaneheng marang-rang, o ka sebedisa mokgwa wa ditshupiso tsa thuto, mohlala, mokgwa wa Harvard "Jess (2021) dithothokiso tsa ka tsa laecence ya setjhaba"
 sc-howto-review-title = Hlahloba Dipolelo
 
