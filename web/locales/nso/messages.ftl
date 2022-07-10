@@ -46,6 +46,7 @@ en = Sekgowa
 eo = Se-Esperanto
 et = Se-Estonia
 eu = Ma-Basque
+fa = Seperesia
 ff = Se-Fulah
 fi = Finnish
 fo = Faroese
@@ -102,6 +103,10 @@ nia = Se-Nias
 nl = Se-Dutch
 oc = Se-Occitan
 or = Se-Odia
+pa-IN = Se-punjabi
+pl = Mopoliši
+ps = Se-Pashto
+pt = Sepotokisi
 quc = Se-K'iche'
 rw = Se-Kinyarwanda
 sq = Se-Albania
@@ -115,8 +120,10 @@ yue = Se-Cantonese
 datasets = Di-dathasete
 languages = Maleme
 about = Mabapi le
+profile = Setshwanso
 help = Thuša
 contact = Kgokagana
+privacy = Sephiri
 cookies = Dikhuki
 faq = Dipotšišo tše di Botšišwago Gantši
 logout = { "" }
@@ -148,6 +155,7 @@ shortcut-skip = s
 # Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-play-toggle = p
+shortcut-play-toggle-label = Bapala/ Ema
 # Must be one letter that appears in the { vote-yes } string.
 # Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
 shortcut-vote-yes = y
@@ -160,6 +168,7 @@ shortcut-vote-no = n
 # Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-record-toggle = r
+shortcut-record-toggle-label = Pego/Ema
 shortcut-discard-ongoing-recording = ESC
 
 ## ProjectStatus
@@ -179,6 +188,8 @@ profile-form-gender-2 =
 hidden = Fihlilwego
 male = Monna
 female = Mosadi
+# Gender
+other = Bjo bongwe
 dashboard = Dashboard
 avatar = Avatar
 goals = Dipakane
@@ -239,6 +250,7 @@ about-dataset-new-text = Dathasete ya Common Voice e nale di pego tše makgolo l
 about-clip-graveyard-text = Setsopolwa sa Graveyard se na le dirakolo tša lentšu tše di sa fihlaho go dathasete ya Common Voice. Bjalo ka dathasete, setsopolwa sa Graveyard ya hwetšagala bakeng sa go tanelouta.                               Re ka rata go leboga batho le mekgatlo e latelago ka thušo ya bona morerong o:
 about-stay-in-touch-text-1 = <emailFragment>Ngwadiša</emailFragment> go lethamong la rena la mangwalo go ithutha gore na o ka tšea karolo bjang masolong, ditiragalo le dikarolo tša moralo o kopanetšego go Common Voice.
 about-stay-in-touch-text-2 = O ka kopana le ba bangwe ba setšhaba sa polelo ya Mozilla ka go ikopanya go <discourseLink>Discourse</discourseLink> go hwetša poledišano ya ditaba, goba <matrixLink>Matrikse</matrixLink> go hwetša keletšo ya kapejana.
+about-nav-partners = Badirišani
 
 ## Community Playbook Content
 ## What is a language
@@ -309,6 +321,7 @@ dataset-date = Letšatši
 license = Laesense: <licenseLink>{ $license }</licenseLink>
 license-mixed = Tswakane
 data-download-singleword-callout-v2 = Se ke karolo e hlohloletšwago ke seripa sa go ba le datha go matlafatša temogo ya dinomoro tše bolelwago le go bonwa ga ee/aowa.
+review-rerecord = Rekhota gape
 
 ## Datasets Page
 
@@ -369,6 +382,7 @@ request-language-error = Re ka be re sa hwetša kgopelo yeo. Ka kgopelo re romel
 
 language-section-in-progress-new-description = Maleme a gona bjale a ka tlase ga tšwelopele ya setšhaba. <localizationGlossaryLink>wepesaeteng ya kgauswi</localizationGlossaryLink> le <sentenceCollectionGlossaryLink> kgoboketšo ya mantšu</sentenceCollectionGlossaryLink> e nyakega go thoma.
 language-section-launched = Hloma
+language-meter-in-progress = Tšwelopele
 localized = Lekanyeditšwego
 language-validation-hours = Diiri
 
@@ -399,6 +413,7 @@ both-speak-and-listen = Bobedi
 easy-difficulty = Bonolo
 average-difficulty = Palo-gare
 difficult-difficulty = Bothatha
+pro-difficulty = Thekgo
 activity-needed-calculation-plural =
     { NUMBER($totalHours) ->
         [one] [one] { $totalHours } iri e ya fihlelelwa ka godimo ga
@@ -428,8 +443,11 @@ why-delete-recordings = Dipego tša Common Voice di dirišwa ke barutegi, dikgwe
 
 ## Profile Download
 
+download-profile-title = Pego
+download-recordings-title = Dikgatišo
 download-requests-info = Ge o kgopela dipego, re ya di bokanya ka gare ga faele ya ZIP e tee goba tše dintši. Mo ke dikgopelo tša gago tša nakong e fetilego.
 download-request-button = Goga go tšwa inthaneteng
+download-request-refresh-button = Mpshafatša
 download-request-link-single = O ka kopisa le go beya di-URL tše tobegilego go sesepetša digogwa wa gago o ratago. Di tla felelwa ke nako ka morago ga diiri tše 12, eupša o ka boela latlakaleng le go hlagiša tše di mpsha ka nako le ge e le efe.
 
 ## Landing
@@ -481,7 +499,9 @@ contribution-just-unsure-description = Ge e ba o kopana le selo seo dikeletšo t
 sc-header-home = Gae
 sc-header-how-to = Go ithuta go
 sc-header-add = Oketša
+sc-header-profile = Profaele
 sc-footer-discourse = Discourse
+sc-footer-privacy = Bo Noši
 sc-footer-cookies = Cookies
 sc-logout-button = Go tšwa
 
@@ -546,6 +566,7 @@ sc-confirm-uploading = Mafoko a tsenywa. Se se ka tšea metsotso e mmalwa go ya 
 
 ## LANGUAGE INFO
 
+sc-lang-info-title-personal = Ya motho ka noši
 # Variables:
 #   $unreviewedSentencesByYou (Number) - Number of sentences the user can still review
 sc-lang-info-left-for-you =
@@ -560,6 +581,9 @@ sc-lang-info-left-for-you =
 
 ## PROFILE
 
+# Variables:
+#   $username (String) - eMail address of the logged in user
+sc-profile-title = Profaele: { $username }
 
 ## REVIEW CRITERIA
 
