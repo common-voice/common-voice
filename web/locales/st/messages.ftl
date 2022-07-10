@@ -499,6 +499,7 @@ download-profile-title = Profaele
 download-recordings-title = Direkoto
 download-size = Boholo
 download-selected = E kgethilwe
+download-request = Kopa tse rekotilweng
 download-request-button = Download
 download-request-refresh-button = Kgatholla
 download-request-modal-title = Download-a dihokahanyo
@@ -630,6 +631,7 @@ sc-personal-remove-button = tlosa
 
 ## REVIEW CRITERIA
 
+sc-criteria-title = Mekgwa ya Tlhatlhobo
 
 ## REVIEW
 
