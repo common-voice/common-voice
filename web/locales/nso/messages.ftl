@@ -65,6 +65,7 @@ faq-when-release2-a = Mohuta wa maleme a mantši dathasete ya Common Voice e dut
 faq-why-mission-a = Mozilla e ikemišeditše go boloka mologo o botšwe ebile o hwetšagala ke batho bohle. Go dira bjalo re hloka go matlafatša babopi ba wepesaete ka mediro ya go swana le Common Voice. Ge ditheknolotši tša go hlaboša lentšu di dutše di ata go matlafatša tswalano ya ditišwa, re dumela gore di swanetše go hlankela badiriši ka moka go lekana. Seo se bolela gore go beeletša karolo ya maleme a mantši le go amogela mmelelo o fapanego gammogo le teka-tekano ya palo ya batho ge o aga le go tlhahloba ditheknolotši tša mantšu. Common Voice ke mothopo wa setšhaba wo o hwetšagala ke motho yo mongwe le yo mongwe, gomme dihlopha tša Mozilla le batšweletši lefaseng ka bophara ba šetše ba šomiša seo mananeo a bona.
 faq-what-cv-and-deepspeech-a = Dathasete ya Common Voice e dumelelana le entšene Deep South ya Mozilla e bolegilego ya go tlhatholla Polelong. Phetolelo ya mathomo ya polelong e tseneletšego ya Deep Speech e lokoloktšwe ka November 2017 gomme esale e tšwela pele ka go fetoga go tloga ka nako yeo. Gotee le dathasete ya Common Voice, re dumela gore theknolotši e e bulegilego go lemoša lentšu e swanetše go hwetšwa ke motho yo mongwe le yo mongwe. Re holofela gore ditheknolotši tše di tla thuša batšweletši go aga ditšweletšwa ke ditirelo tše di mpsha tše dintši.
 faq-is-goal-assistant-a = Boikemišetšo bja dathasete ya Common Voice ke go thuša motho lege e le ofe goba ofe lefaseng go aga tlhathollo ya mantšu , tlhathollo ya diboledi, goba mohuta ofe goba ofe wa sedirišwa se hlokago datha ya lentšu. Mothuši wa lentšu ke e nngwe feela ya mehuta e mentši ya didirišwa tšeo di šomišago go aga dathasete.
+faq-do-want-native-q = Ga ke seboledi sa polelo ya lefelong le ebile ke bolela ka segalo, le sa nyaka lentšu la ka na?
 faq-do-want-native-a = Ee, ka go kgethega re nyaka lentšu la gago! Karolo ya boikemišetšo bja Common Voice ke go kgobokanetša mmelelo e mentši ya go fapa-fapana ka moo go ka kgonegago e le gore tlhathollo e amogetšwego ya lentšu e šoma gabotse go batho bohle. Seo se bolela gore meneelo e tšwago go diboledi tšeo di sego tša matswalo a moo a bohlokwa kudu.
 faq-why-different-speakers-a =
     Bontši bja dathabeise di eteletšwa go bontšha palo e feteletšego ya palo ya batho e sekametšego go lebana le<articleLink> banna le maemo a magareng</articleLink>. Mmolelo le mebolelwana ao a atišago go sekametšego go emelwa ka tlase go di datha sete di eteletšwe gantši di tswalaganywago le dihlopha tša batho bao ba šetšego ba boeletšwe ka thoko. Metšene e mentši le yona e thatafalelwa go kwešiša mantšu a basadi. 
@@ -170,6 +171,7 @@ dataset-description-hours =
     
     Dathasete ga bjale di na le <b>{ $valid }</b> diiri tšeo di netegaditšwego ka dipolelo<b>{ $languages }</b>, eupša re dula ka mehla re okeditše mantšu le maleme a mangwe. Ela hlogo <languagesLink>letlakaleng la rena la Dipolelo</languagesLink> go kgopela polelo goba go thoma go neela.
 want-dataset-update = O nyaka di mpshafatšo ge re lokolla di bešene tše mpsha tša dathasete ya Common Voice? Ngwadiša go lengwalo la rena la ditaba.
+resource-coqui-info = <coquiLink>Coqui</coquiLink> e neetšwego go bula thekinolotši ya mantšu. Mediro ya tšona o akaretša thuto e tseneletšego yeo e leng sedirišwa sa STT le TTS.
 resource-playbook-info = <playbookLink>Hwetša keletšo ya maleba </playbookLink> go leeto le feletšego la Common Voice, go tšwa mo o dulago gona go ya go tirišo ya datha, le gore le kopana bjang le setšhaba sa rena.
 data-other-librispeech-description = LibriSpeech ke pokello ya dipego ya diiri  tše ka bago tše 1000 tša 16Khz tše di balwago ka polelo ya Seisemane e tšwerego dipukeng tša odio tše balwago tša go tšwa  morerong wa LibriVox.
 data-other-voxforge-description = VoxForge e beilwe go kgobokanya polelo e fetotšwego gore e berikišwe ka Mahala le Mothopo o Bulegilego wa Di-entšene tša Tlhathollo ya Polelo.
@@ -189,11 +191,13 @@ request-language-success-content = Re tla ikgokaganya le wena ka tsebišo e oket
 ## Request Language Pages
 
 request-language-explanation-2 = Le rena re tla <strong>tsebiša moetapele wa badudi gore o na le kgahlego </strong>, gore ba go fe thekgo e oketšegilego goba tsebo e o ka e hlokago.
+request-language-success-list-1 = O tla hwetša e-meile ka moragonyana e hlalosago megato ya go tsenya polelo ya gago go Common Voice
 request-language-success-list-3 = Ge e ba o sa kwe go tšwa go rena ka morago ga matšatši a mmalwa a tlago, ikgokaganye le rena go <emailLink>{ $email }</emailLink>re tla boela go wena!
 request-language-error = Re ka be re sa hwetša kgopelo yeo. Ka kgopelo re romele e-meile go lebanya le rena go <emailLink>{ $email }</emailLink> re tla boela go wena!
 
 ## Languages Overview
 
+language-section-in-progress-new-description = Maleme a gona bjale a ka tlase ga tšwelopele ya setšhaba. <localizationGlossaryLink>wepesaeteng ya kgauswi</localizationGlossaryLink> le <sentenceCollectionGlossaryLink> kgoboketšo ya mantšu</sentenceCollectionGlossaryLink> e nyakega go thoma.
 
 ## Contribution
 
@@ -210,6 +214,20 @@ visibility-explainer = Peakanyo ye e laola ke ponagalo ya kelo ya baetapele. Ge 
 
 ## Custom Goals
 
+activity-needed-calculation-plural =
+    { NUMBER($totalHours) ->
+        [one] [one] { $totalHours } iri e ya fihlelelwa ka godimo ga
+       *[other] *[other] { $totalHours } diiri di ya fihlelelwa ka godimo ga
+    } { NUMBER($periodMonths) ->
+        [one] [one] { $periodMonths } kgwedi ge e ba
+       *[other] *[other] { $periodMonths } dikgwedi ge e ba
+    } { NUMBER($people) ->
+        [one] [one] { $people } motho o rekhota
+       *[other] *[other] { $people } batho o rekhota
+    } { NUMBER($clipsPerDay) ->
+        [one] [one] { $clipsPerDay } pego ka letšatši.
+       *[other] *[other] { $clipsPerDay } dipego ka letšatši.
+    }
 receiving-emails-info = Gona bjale o loketše go hwetša di-emeile tša go swana le dikgopotšo tša dipakane, sebontšhatšwelopele le mangwalo a ditaba tša Common Voice.
 not-receiving-emails-info = Gona bjale o ka <bold>GANA</bold> go hwetša lenaneo la poso la dikgopotšo tša dipakane,  sebontšhatšwelopele le mangwalo a ditaba tša Common Voice
 # LINK will be replaced with the current URL
