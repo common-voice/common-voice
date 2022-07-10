@@ -24,6 +24,7 @@ ast = Se-Asturia
 ba = Se-Bashkir
 bas = Se-Basaa
 bg = Se-Bulgaria
+br = Se-Breton
 bxr = Se-Buryat
 eu = Se-Basque
 hy-AM = Se-Armania
@@ -59,6 +60,7 @@ wall-of-text-second =
     Batho ba bantsi ga ba kgone go fitlhelela bontsi jwa tshedimosetso e e dirisiwang ke dikhampani tse dikgolo. Re akanya
     gore seo se kgoreletsa go tlhama dilo. Ka jalo re simolotse Common Voice, porojeke e e thusang gore
     mongwe le mongwe a kgone go bona le go fitlhelela temogo ya mantswe.
+help-us-explain = Tobetsa tshameka, reetsa & re bolelele: a ba buile mola o o fa tlase ka tsela e e nepagetseng?
 no-clips-to-validate = Go lebega go se na dikgatiso dipe tse di tlhokang go reediwa mo puong eno. Re thuse go di oketsa ka go rekota dingwe gone jaanong.
 speak-paragraph = Go rekota mantswe ke karolo e e botlhokwa thata e e thusang go aga rekoto ya tshedimosetso; ba bangwe ba ka re gape ke karolo e e itumedisang.
 listen-paragraph = Go tlhomamisa dikgatiso tse di abilweng le gone go botlhokwa mo maikaelelong a Common Voice. Reetsa mme o re thuse go dira tshedimosetso e e nang le boleng ya mantswe.
@@ -71,6 +73,7 @@ join-newsletter = O ka itlhophela go tsena mo lenaaneng la rona la makwalo go am
 
 ## What's public
 
+recordings-and-locale-public = Palo ya dikgatiso le dipuo tse o nnang le seabe mo go tsone di tla bonwa ke batho botlhe.
 demographic-deidentified-clarity-2 = Tshedimosetso e e rometsweng ka go ithaopa (s.k. dingwaga, bong, puo, le segalo) e ka se phasaladiwe mo porofaeleng ya gago, e bile e ka se amanngwe le akhaoto ya gago mo tshedimosetsong. Dikgatiso tsa batho tsa mantswe di tla amanngwa le tshedimosetso ya dipalopalo ka maikaelelo a tshekatsheko e e nepileng thata - ka sekai, mmatlisisi a ka batla go tota mofuta wa thapiso go karolo e e rileng ya dipalopalo.
 
 ## Speak & Listen Shortcuts
@@ -160,7 +163,9 @@ how-does-it-work-text = Re batla tshedimosetso ya batho ba bantsi ya mantswe. Ab
 
 ## How does it work section
 
+about-listen-queue-text = Dikgatiso tsa mantswe di tsena mo moleng wa go romelwa o o dirang gore di siamele go reediwa.
 about-listen-text = Badirisi ba tlhomamisa gore a direkoting tse go abalanweng ka tsone di nepagetse, ba tlhola gore a sebui se bala mela sentle.
+about-is-it-valid-text = Kgatiso ya lentswe e tshwaiwa e "siame" fa modirisi a e neile tlhopho ya Ee.
 about-yes-votes-text = Gore kgatiso ya lentswe e tsene mo rekotong ya tshedimosetso ya Common Voice, e tshwanetse ya bo e tlhomamisitswe ke badirisi ba babedi.
 about-no-votes-text = Fa modirisi a gana polelo, e boela kwa Moleng. Fa kgatiso ya lentswe e ganwa lekgetlho la bobedi, e romelwa kwa Clip Graveyard.
 about-dataset-new-text = Rekoto ya Tshedimosetso ya Common Voice e na le disampole tsa mantswe di le makgolo a le diketekete tse di thusang badiri go tlhama dithulusu tse di lemogang mantswe.
@@ -224,6 +229,7 @@ about-playbook-how-grow-language-content-8 = <strong>Itlhamele!</strong> Batho b
 
 ## How to validate
 
+about-playbook-how-validate-content-1 = Fa o nne o ka kgona go <strong>ba utlwa</strong> le go <strong>ba tlhaloganya</strong>, gantsi go <strong>siame go di amogela</strong>.
 about-playbook-how-validate-content-2 = <strong>O se ka wa gana dikgatiso tsa mantswe a sebui ‘se sa bue’ ka tsela e e tshwanang le ya gago</strong> - seno se botlhokwa gore go lemoga mantswe go direle mongwe le mongwe botoka.
 about-playbook-how-validate-content-3 = Fa o akanya gore tsela e le bidiwang ka yone e dira gore <strong>go se ka ga kgonega go tlhaloganya</strong>, kgotsa go na le <strong>modumo o montsi kwa morago</strong>, kgotsa go na le <strong>batho ba bangwe ba le bone ba buang</strong>, o tshwanetse go gana kgatiso eo. <accuracyLink>Bona tshedimosetso e e oketsegileng mo ditshwanelegong tsa rona tsa go nepa</accuracyLink>.
 about-playbook-how-validate-content-4 = Fa kgatiso e gannwe ke batho ba le 2, e tsenngwa mo karolong e nngwe ya rekoto ya tshedimosetso.
@@ -336,6 +342,7 @@ visibility-overlay-note = Ela tlhoko: Fa e beilwe mo go 'Bonagala', o ka kgona g
 
 ## Custom Goals
 
+both-speak-and-listen = Ka bobedi
 average-difficulty = Palogare
 receiving-emails-info = Gone jaanong o dirile gore o amogele diimeile tse di jaaka dikgopotso tsa maikaelelo, ditlhabololo tsa kgatelopele ya me le makwalodikgang a Common Voice
 not-receiving-emails-info = Gone jaanong o dirile gore o <bold>SE KA</bold> wa amogela diimeile tse di jaaka dikgopotso tsa maikaelelo, ditlhabololo tsa kgatelopele ya me le makwalodikgang a Common Voice
@@ -503,6 +510,7 @@ sc-lang-info-left-for-you =
 
 ## REVIEW CRITERIA
 
+sc-criteria-item-4 = Fa mola o dumalana le dintlha tsa go tshwanelega, tobetsa konopo ya &quot;E Siame&quot; e e ka fa mojeng.
 sc-criteria-item-5-2 = Fa polelo e sa fitlhelele ditshwanelego tse di fa godimo, tobetsa konopo ya &quot;Gana&quot; kafa molemeng. Fa o sa tlhomamisege ka polelo, o ka e tlola mme wa ya kwa go e e latelang.
 sc-criteria-item-6 = Fa o felelwa ke mela e e sekasekiwang, tsweetswee re thuse go kgobokanya mela e e oketsegileng!
 
