@@ -97,6 +97,7 @@ ml = Malayalam
 mn = Mongolian
 mos = Mossi
 mr = Marathi
+mrj = Hill Mari
 ms = Malay
 mt = Maltese
 my = Burmese
@@ -189,6 +190,8 @@ vote-yes = Ee
 vote-no = Tjhe
 speak-goal-text = Di-clip di rekotilwe
 listen-goal-text = Di-clip di netefaditswe
+hours-recorded = Dihora tse Rekotilweng
+hours-validated = Dihora tse netefaditsweng
 all-locales = Koafela
 today = Kajeno
 
@@ -285,6 +288,7 @@ about-listen = Mamela
 about-clip-graveyard = Di-clip tsa Mabitleng
 about-get-involved = Nka karolo
 about-stay-in-touch-text-1 = <emailFragment>Ingodise</emailFragment> ho lenane la rona la mangolo ho ithuta hore na o ka nka karolo jwang matsholong, diketsahalong le dikarolo tsa moralo o kopanetsweng ho Common Voice.
+about-nav-how-it-works = Jwang ?
 about-nav-partners = Balekane
 
 ## Community Playbook Content
@@ -333,6 +337,7 @@ data-download-deny = Tjhe
 data-other-download = Download-a Data
 release-version = Mofuta
 license-mixed = E tswakantswe
+terms-agree = Kea dumela
 review-recording = Hlahloba
 review-rerecord = Rekota hape
 review-cancel = Hlakola ho Romela
@@ -381,6 +386,7 @@ request-language-explanation-2 = Hape re tla <strong>tsebisa mookamedi wa setjha
 
 ## Languages Overview
 
+language-section-in-progress = E ntse tswelapele
 language-section-launched = E qadilwe
 language-meter-in-progress = Kgatelopele
 language-total-progress = Kakaretso
@@ -520,6 +526,7 @@ sc-home-collect-title = Bokella dipolelo
 
 ## HOW-TO
 
+sc-howto-title = Mokgwa wa ho
 sc-howto-cite-item-3 = Bakeng sa mongolo wa setjhaba o sa fumaneheng marang-rang, o ka sebedisa mokgwa wa ditshupiso tsa thuto, mohlala, mokgwa wa Harvard "Jess (2021) dithothokiso tsa ka tsa laecence ya setjhaba"
 
 ## MY SENTENCES
