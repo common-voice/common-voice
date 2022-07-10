@@ -58,6 +58,7 @@ gl = Galician
 gn = Guarani
 ha = Hausa
 he = Seheberu
+hi = Hindi
 hr = Croatian
 ht = Haitian
 hu = Hungarian
@@ -101,9 +102,11 @@ mt = Maltese
 my = Burmese
 myv = Erzya
 nan-tw = Taiwanese (Minnan)
+nd = IsiNdebele (Leboya)
 ne-NP = Nepali
 nia = Nias
 nl = Dutch
+nr = IsiNdebele (Borwa)
 nyn = Runyankole
 oc = Occitan
 om = Afaan Ormoo
@@ -594,6 +597,7 @@ sc-review-link = Hlahloba
 ## SETTINGS
 
 sc-settings-title = Ditlhophiso
+sc-settings-ui-language = Puo ya Sehokelo
 sc-settings-skipped-decription = O ile wa tlola dipolelo ha o ntse o hlahloba. Ho hlophisa botjha dipolelo tse tlotsweng ho tla bontsha dipolelo tsohle tse tlotsweng hape. Sena se ikemetse ho puo.
 
 # [/SentenceCollector]
