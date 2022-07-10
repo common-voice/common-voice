@@ -14,10 +14,14 @@ email-opt-in-privacy-v2 = Ka go tlhopha go amogela diimeile o bontsha gore o sia
 
 ab = Abkhaz
 ace = Se-Acehne
+ady = Se-Adyghe
 af = Se-Afrikaans
 am = Se-Amharic
 an = Se-Aragon
 ar = Se-Arabia
+ba = Se-Bashkir
+bas = Se-Basaa
+eu = Se-Basque
 sq = Se-Albania
 
 # [/]
@@ -56,6 +60,7 @@ all-locales = Tsotlhe
 ## Account Benefits
 
 rich-data = Dira gore tshedimosetso ya gago e o e rometseng e nne ntsi kafa go kgonegang ka gone ka go naya tshedimosetso ya dipalopalo e e sa tsenngwang maina. Re tlosa tshedimosetso yotlhe e e itsiseng batho mo tshedimosetsong ya dipalopalo pele re e phasalatsa.
+join-newsletter = O ka itlhophela go tsena mo lenaaneng la rona la makwalo go amogela ditlhabololo le tshedimosetso e ntšha ka porojeke.
 
 ## What's public
 
@@ -121,6 +126,7 @@ faq-why-my-lang-a =
     Re ka rata go tsenya puo ya gago! <languageRequestLink>Botsa ka go tsenya puo ya gago.</languageRequestLink>
 faq-what-quality-q = Go tlhokega boleng bofe jwa kgatiso ya lentswe gore e dirisiwe mo rekotong ya tshedimosetso?
 faq-what-quality-a = Re batla gore tshedimosetso ya Common Voice e bontshe boleng jwa modumo o thulaganyo ya go fetolela puo go mokwalo e tla o utlwang mo nageng, ka jalo re batla mefuta e e farologaneng. Mo godimo ga dibui tse di farologaneng, tshedimosetso e e nang le boleng jo bo farologaneng jwa modumo e tla ruta thulaganyo e e fetolelang puo go mokwalo go lepalepana le maemo a a sa tshwaneng a a leng teng mo lefatsheng, go tloga ka modumo o o utlwalang kwa morago fa batho ba bua go ya go modumo wa koloi. Fela fa kgatiso ya lentswe la gago e tlhaloganyesega, e tla bo e siametse tshedimosetso eo.
+faq-why-10k-hours-a = Tseno ke diura tse di fopholediwang gore di ka dirisiwa go ruta metšhine ya mafoko-go-puo gore e dire.
 faq-how-calc-hours-a = Re bala diura ka go fopholetsa kakaretso ya boleele jwa kgatiso nngwe le ngwe, re bo re atisa palo eo ka palogotlhe ya dikgatiso tsa dipuo tsotlhe.
 faq-where-src-from-2-a =
     Mokwalo wa rona o dirilwe ka dikabo tsa mmatota le dipuisano tsa mekwalo ya difilimi jaaka <italic>It’s a Wonderful Life</italic>.
@@ -223,6 +229,7 @@ about-playbook-how-project-governance-content-1 = Mozilla Common Voice e kgonega
 
 ## Glossary
 
+localization-explanation = Ono ke mokgwa wa rona wa go ranola le go dira gore tshedimosetso ya rona e tsamaisane le dipuo di le dintsi.
 hours-validated-explanation = Palo ya diura tsa kgatiso ya mantswe e e tlhomamisitsweng ke badirisi ba le 2 mo go ba le 3 ka tlhopho ya “Ee”. Seno se bontsha botswelelopele jwa porojeke ka kakaretso ya mokgele wa diura tse 10k.
 de-identified-explanation = Thulaganyo e ka yone tshedimosetso ya porofaele ya moabi e fitlhegileng mo dikgatisong tsa mantswe fa e baakanyeditswe go itseelwa jaaka karolo ya tshedimosetso.
 
@@ -347,6 +354,7 @@ profile-not-required = Ga o tlhoke go nna le porofaele gore o thuse, mme gone go
 ## Demo Datasets
 
 demo-language-select-card-body = Re leboga dikabo go tswa go batho ba feta 259k mo dipuong di feta 50, tshedimosetso eno e dirisiwa go thapisa dithulaganyo tsa puo go araba botoka mantswe a batho.
+card-button-back = Morago
 demo-account = Akhaonto
 
 ## Demo Account
