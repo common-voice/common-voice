@@ -34,13 +34,26 @@ co = Se-Corsican
 cs = Czech
 cv = Se-Chuvash
 da = Se-Danish
+de = Sejeremane
 dv = Se-Dhivehi
 dyu = Se-Dioula
+en = Sekgowa
+eo = Se-Esperanto
+et = Se-Estonia
 eu = Ma-Basque
+ff = Se-Fulah
+fi = Finnish
+fo = Faroese
+fr = Sefora
+fy-NL = Se-Frisian
+gl = Se-Galician
 hr = Se-Croatia
 hy-AM = Ma-Armenia
+ig = Se-Igbo
+ka = Se-Georgia
 kw = Se-Cornish
 my = Se-Burmese
+myv = Se-Erzya
 nl = Se-Dutch
 sq = Se-Albania
 yue = Se-Cantonese
@@ -54,6 +67,7 @@ datasets = Di-dathasete
 about = Mabapi le
 contact = Kgokagana
 cookies = Dikhuki
+faq = Dipotšišo tše di Botšišwago Gantši
 
 ## Home Page
 
@@ -79,9 +93,11 @@ benefits = Mehola
 
 ## Speak Shortcuts
 
+shortcut-discard-ongoing-recording = ESC
 
 ## ProjectStatus
 
+english = Seisemane
 
 ## ProfileForm
 
@@ -89,6 +105,9 @@ profile-form-accent =
     .label = Mokgwa
 profile-form-age =
     .label = Mengwaga
+profile-form-gender-2 =
+    .label = Bong
+female = Mosadi
 dashboard = Dashboard
 avatar = Avatar
 profile-close = Tswalela
@@ -175,6 +194,7 @@ about-playbook-how-record-content-4 = Kgonthišetša gore sethaleng se ya rekhot
 
 ## How to grow language
 
+about-playbook-how-grow-language-content-2 = Ditiragalo
 about-playbook-how-grow-language-content-3 = O ka tsamaiša ditiragalo go thuša batho go neela. Go bonolo go feta kamoo o naganago ka gona. O ka e dira inthaneteng ka go diriša lenaneo la bidio inthaneteng, goba motho ka nama ge e ba go bolokegile. <eventTemplate>Lebelela dithempleite tša rena le ditlabakelo tša go tsamaiša ditiragalo</eventTemplate>.
 about-playbook-how-grow-language-content-5 = O ka šomiša lekgotla la poledišano ya inthaneteng go kgona go iša molaetša go batho ka moka. Abelana melaetša e hlalosago gore na ke baka la eng go le bohlokwa, gomme o ikgokaganye le batho ba bangwe bao ba bolelago ka mathata a go swana le ditokelo tša polelo, lentšu la AI, goba tshekamelo go theknolotši. Bona dikeletšo tše dingwe mabapi le<campaignLink> go tsamaiša lesolo  la setšhaba, go akaretša le diteng tšeo o ka di šomišago gape</campaignLink>.
 about-playbook-how-grow-language-content-8 = <strong>Diriša bohlale!!</strong> Polelo ya geno e tla ba moswananoši, tše ke ditsela tše mmalwa tša go thoma.
@@ -200,6 +220,7 @@ de-identified = Kgetholla gape
 ## Error pages
 
 error-content-503 = Saete e tla thekgwa kapejana ka mo go ka kgonegago. Bakeng sa tsebišo ya morago-rago bjale, ka kgopelo ikgokaganye le <matrixLink>poledišano ya setšhaba ya Matrix</matrixLink>  goba etela <githubLink>GitHub</githubLink> goba <discourseLink>diforamo tša rena tša Discourse</discourseLink> go romela le go šetša tokollo ya boiphihlelo bja saete.
+error-code = Phošo { $code }
 
 ## Data
 
@@ -218,6 +239,7 @@ datasets-positioning =
      Dathasete ya maleme a mantši ya Common Voice e šetše e le e kgolo kudu go fetišiša e hwetšagalago  phatlalatša ya mehuta ya yona, eupša ga se yona feela.
     
      Lebelela letlakaleng e le dišupišo bakeng sa mothopo o bulegilego wa dathasete ya lentšu, gomme ge Common Voice e tšwela pela, legae la mphsafatšo tša rena tša tokololo.
+size-gigabyte = GB
 download-language = Tanelouto { $language }
 dataset-description-hours =
     Engwe le engwe yeo e tsenego dathasete e na le MP3 e fapanego le faele e tsamaišanago le mongwalo. Bontši bja <b>{ $total }</b> diiri tšeo gatišitšwego ka gare ga dathasete di akaretša gape le boitsebošo bja dintlha tša palo ya batho bjalo ka mengwaga, le bong bja motho, le mmolelo seo a ka thušago go eteletša go nepagetša ga tlhathollo ya mantšu tša temogo. 
@@ -272,6 +294,7 @@ continue = Tšwela pele
 ## Dashboard
 
 awards = Difoka
+everyone = Yo mongwe le yo mongwe
 visibility-explainer = Peakanyo ye e laola ke ponagalo ya kelo ya baetapele. Ge e fihlilwe, tšwelopele ya gago e tla ba sephiring. Se se bolela gore seswantšho sa gago, leina le tšwelopele di ka se bonagale godimo ga kelo ya baetapele. Hlokomela gore mpshafatšo ya kelo ya baetapele itšea ~{ $minutes }metsotso go hlagiša diphetogo.
 
 ## Custom Goals
