@@ -183,6 +183,7 @@ about-playbook-how-grow-language-content-1 = Go dira ditshono tsa gore batho ba 
 about-playbook-how-grow-language-content-3 = O ka dira ditiragalo go thusa batho go aba. Go motlhofo go feta jaaka o akanya. O ka e dira mo inthanete ka kgolagano ya bidio kgotsa wa e dira ka namana fa go sireletsegile go dira jalo. <eventTemplate>Leba dithempoleite le didirisiwa tsa rona tsa go dira ditiragalo</eventTemplate>.
 about-playbook-how-grow-language-content-5 = O ka dirisa metswedi ya mafaratlhatlha a boitapoloso go fetisa molaetsa. Abalana mekwalo e e bontshang gore ke eng go le botlhokwa, mme o golagane le batho ba bangwe ba ba buang ka dikgang tse di jaaka ditshwanelo tsa puo, lentswe, kgotsa go tlhoka tekatekano mo thekenolojing. Bona dikakantsho tse dingwe ka <campaignLink>go dira letsholo, go akaretsa tshedimosetso e o ka e dirisang gape</campaignLink>.
 about-playbook-how-grow-language-content-7 = Bona ba bangwe ba ba amegang. E ka nna diyunibesithi, dikolo tsa dipuo, ditlhopha tsa dikemedi kgotsa merafe ya tshedimosetso ya saense. Dira sengwe mme o tlhalose sentle gore ba ka thusa jang le gore ka ntlha yang. <outreachTemplates>Bona ditimeile tsa rona tsa thempoleite ya go thusa</outreachTemplates>.
+about-playbook-how-grow-language-content-8 = <strong>Itlhamele!</strong> Batho ba ba buang puo ya gago ba tlile go tlhomologa, mme tseno ke ditsela di le mmalwa tsa go simolola.
 
 ## How to validate
 
@@ -234,6 +235,7 @@ data-other-librispeech-description = LibriSpeech ke direkoto tsa diura di ka nna
 data-other-voxforge-description = VoxForge e ne e diretswe go phutha puo e e kwalolotsweng gore e dirisiwe e dirisa Metswedi ya  Mahala ya go Lemoga Puo e e Dirisiwang ke Batho Botlhe.
 data-other-tatoeba-description = Tatoeba ke tshedimosetso e kgolo ya dipolelo, dithanolo, le kgatiso ya mantswe a a buiwang e e dirisiwang go ithuta puo. Karolo eno e e itseelwang e na le Seemane se se buiwang se se gatisitsweng ke morafe wa bone.
 your-feedback = A o na le dikakantsho tsa gore re ka tokafatsa jang direkoto tsa tshedimosetso ya Common Voice? Re itsise mo Discourse
+missing-language = Ga o bone puo ya gago e tlhaga mo Rekotong ya Tshedimosetso? Go kopa puo, ya kwa tsebeng ya rona ya Dipuo.
 
 ## Download Modal
 
@@ -285,6 +287,7 @@ visibility-explainer = Seting eno e laola tsela e o bonang lenaane la baetapele 
 
 ## Custom Goals
 
+receiving-emails-info = Gone jaanong o dirile gore o amogele diimeile tse di jaaka dikgopotso tsa maikaelelo, ditlhabololo tsa kgatelopele ya me le makwalodikgang a Common Voice
 not-receiving-emails-info = Gone jaanong o dirile gore o <bold>SE KA</bold> wa amogela diimeile tse di jaaka dikgopotso tsa maikaelelo, ditlhabololo tsa kgatelopele ya me le makwalodikgang a Common Voice
 # LINK will be replaced with the current URL
 goal-share-text = Ke fetsa go dira maikaelelo a botho a go abelana ka lentswe go #CommonVoice -- dira le nna mme o nthuse go ruta metšhine  gore batho ba mmatota ba bua jang { $link }
