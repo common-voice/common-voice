@@ -216,6 +216,7 @@ listen-goal-text = Di-clip di netefaditswe
 hours-recorded = Dihora tse Rekotilweng
 hours-validated = Dihora tse netefaditsweng
 todays-progress = Tswelopele ya kajeno
+help-reach-goal = Re thuse ho fihlela { $goal }
 all-locales = Koafela
 today = Kajeno
 x-weeks-short =
@@ -261,6 +262,7 @@ shortcut-discard-ongoing-recording = ESC
 shortcut-discard-ongoing-recording-label = Lahla rekoto entse tswelapele
 shortcut-submit = Kgutla
 shortcut-submit-label = Romella di-clip
+request-language-button = Kopa Puo
 
 ## ProjectStatus
 
@@ -443,6 +445,7 @@ resource-playbook-info = <playbookLink>Fumana tataiso e thusang</playbookLink> l
 data-other-librispeech-description = LibriSpeech ke kakaretso ya dihora tse ka bang 1000 tsa 16Khz tse balwang ka puo ya Senyesemane e nkilweng dibukeng tsa audio tse balwang ho tswa morerong wa LibriVox.
 data-other-ted-name = TED-LIUM Corpus
 go-discourse = Eya ho Discourse
+go-languages-page = Eya Leqepheng la Dipuo
 more = Tse ding
 close = Kwala
 download = Download
@@ -513,8 +516,10 @@ record-submit-tooltip = { $actionType } romela ha e se e loketse
 clips-uploaded = Di-clip di kentswe
 record-abort-submit = Romella di-clip
 record-abort-continue = Qetela ho rekota
+record-abort-delete = Tswa mme o Hlakole di-clip
 listen-last-time-instruction = <playIcon></playIcon>Ya ho qetela!
 speak-empty-state-cta = Nehelana ka dipolelo
+record-button-label = Rekota lentswe la hao
 target-segment-add-voice = Kenya Lentswe la hao
 target-segment-learn-more = Ithute haholwanyane
 
@@ -524,6 +529,7 @@ report = Tlaleha
 report-title = Romela tlaleho
 report-offensive-language = Puo e kgopisang
 report-offensive-language-detail = { "" }
+report-grammar-or-spelling = Phoso ya sebopeho-puo / mopeleto
 report-different-language = Puo e fapaneng
 report-difficult-pronounce = Ho thata ho bitsa
 report-offensive-speech = Puo e kgopisang
@@ -573,6 +579,7 @@ show-ranking = Bontsha boemo ba ka
 
 ## Custom Goals
 
+get-started-goals = Qalella ka dipheo
 both-speak-and-listen = Bobedi
 daily-goal = Sepheo sa Letsatsi le Letsatsi
 weekly-goal = Sepheo sa beke le beke
@@ -637,6 +644,7 @@ demo-account = Ak'haonte
 
 ## Demo Contribute
 
+demo-listen-subtitle = Na o ikemiseditse ho kenya letsoho?
 
 ## Demo Dashboard
 
@@ -676,6 +684,7 @@ sc-header-profile = Profaele
 sc-footer-discourse = Discourse
 sc-footer-report-bugs = Tlaleha bothata bo sa lebellwang
 sc-footer-translate = Fetolela leqephe lena
+sc-footer-report-copyright = Tlaleha ditaba tsa ditokelo tsa sengodi
 sc-footer-privacy = Lekunutu
 sc-footer-terms = Dipehelo
 sc-footer-cookies = Di-cookie
@@ -721,6 +730,7 @@ sc-stats-updating = E ntse e ntlafatsa...
 
 ## ADD
 
+sc-submit-err-add-sentences = Ka kopo kenya dipolelo
 sc-submit-title = Kenya Dipolelo
 sc-submit-select-language =
     .labelText = Kgetha Puo
@@ -756,6 +766,7 @@ sc-lang-info-review-now = <reviewLink>Hlahloba hona jwale!</reviewLink>
 ## LOGIN
 
 sc-login-err-failed = Ho kena ho hlolehile
+sc-login-err-try-again = Ka kopo leka hape
 
 ## PROFILE
 
