@@ -9,8 +9,8 @@ email-opt-in-info = Ke tla rata go hwetša di e-meile tša go swana le dikgopot�
 
 ## Languages
 
-ab = Ma-Abkhaz
-ace = Ma-Acehnese
+ab = Se-Abkhaz
+ace = Se-Acehnese
 ady = Adyghe
 af = Se-Afrikanse
 am = Ma-Amharic
@@ -18,6 +18,13 @@ an = Ma-Aragonese
 ar = Ma-Arabic
 as = Ma-Assamese
 ast = Ma-Asturia
+az = Ma-Azerbaijani
+ba = Ma-Bashkir
+bas = Ma-Basaa
+be = Ma-Belarusian
+bn = Se-Bengali
+bs = Se-Bosnian
+eu = Ma-Basque
 hy-AM = Ma-Armenia
 sq = Ma-Albania
 
@@ -39,6 +46,7 @@ all-locales = Ka moka
 
 ## Account Benefits
 
+benefits = Mehola
 
 ## What's public
 
@@ -61,6 +69,7 @@ profile-form-accent =
     .label = Mokgwa
 profile-form-age =
     .label = Mengwaga
+avatar = Avatar
 why-demographic-explanation-2 = Datha ya modiriši ye o sa tsebjego bjalo ka mengwaga, le bong bja motho, le mmolelo ao a thuša go go kaonefatša datha ya odio e šomišago go eteletša nepagatšo ya di-entšene a tlhathollo ya mantšu. Leina la gago la mošomiši le e-meile di ka se itswalanye le datha yeo e rometšego, gomme o ka kgetha gore na leina la gago la mošomiši le phatlalatšwe goba le se tsebje.
 help-accent-explanation = Mmolelo wa gago ke tsela yeo o bitšago matšu ka gona. Seo se ka bopša ke moo o dutšego gona, dipolelo tše dingwe tšeo o di bolelago le dibopego tše dingwe. O ka abelana tsebišo le ge e le efe yeo o naganago gore e bohlokwa mo.
 
@@ -228,10 +237,12 @@ language-section-in-progress-new-description = Maleme a gona bjale a ka tlase ga
 
 ## Dashboard
 
+awards = Difoka
 visibility-explainer = Peakanyo ye e laola ke ponagalo ya kelo ya baetapele. Ge e fihlilwe, tšwelopele ya gago e tla ba sephiring. Se se bolela gore seswantšho sa gago, leina le tšwelopele di ka se bonagale godimo ga kelo ya baetapele. Hlokomela gore mpshafatšo ya kelo ya baetapele itšea ~{ $minutes }metsotso go hlagiša diphetogo.
 
 ## Custom Goals
 
+average-difficulty = Palo-gare
 activity-needed-calculation-plural =
     { NUMBER($totalHours) ->
         [one] [one] { $totalHours } iri e ya fihlelelwa ka godimo ga
@@ -271,6 +282,7 @@ help-contribute = O ka thuša go aga di dathasete tše di fapanego tša mothopo 
 
 ## Demo Datasets
 
+card-button-back = Morago
 demo-account = Akhaonte
 
 ## Demo Account
