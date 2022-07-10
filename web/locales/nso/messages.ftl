@@ -1,6 +1,8 @@
 ## General
 
 stayintouch = Rena ba Mozilla re aga setšhaba mabapi le theknolotši ya lentšu. Re lakatša go dula re ikgokagantše le diphetogo, methopo e mpsha ya datha le go kwa ka mo go oketšegilego ka mokgwa wa go diriša datha tšeo.
+email-input =
+    .label = E-meile
 email-opt-in-info = Ke tla rata go hwetša di e-meile tša go swana le dikgopotšo tša  dipakane, sebontšhatšwelopele le magwalo a ditaba  tša Common Voice.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
@@ -28,10 +30,18 @@ br = Se-Breton
 bs = Se-Bosnian
 bxr = Se-Buryat
 ca = Se-Catalan
+co = Se-Corsican
+cs = Czech
 cv = Se-Chuvash
+da = Se-Danish
+dv = Se-Dhivehi
+dyu = Se-Dioula
 eu = Ma-Basque
+hr = Se-Croatia
 hy-AM = Ma-Armenia
+kw = Se-Cornish
 my = Se-Burmese
+nl = Se-Dutch
 sq = Se-Albania
 yue = Se-Cantonese
 
@@ -40,7 +50,10 @@ yue = Se-Cantonese
 
 ## Layout
 
+datasets = Di-dathasete
 about = Mabapi le
+contact = Kgokagana
+cookies = Dikhuki
 
 ## Home Page
 
@@ -76,9 +89,11 @@ profile-form-accent =
     .label = Mokgwa
 profile-form-age =
     .label = Mengwaga
+dashboard = Dashboard
 avatar = Avatar
 profile-close = Tswalela
 why-demographic-explanation-2 = Datha ya modiriši ye o sa tsebjego bjalo ka mengwaga, le bong bja motho, le mmolelo ao a thuša go go kaonefatša datha ya odio e šomišago go eteletša nepagatšo ya di-entšene a tlhathollo ya mantšu. Leina la gago la mošomiši le e-meile di ka se itswalanye le datha yeo e rometšego, gomme o ka kgetha gore na leina la gago la mošomiši le phatlalatšwe goba le se tsebje.
+edit = Rulaganya
 help-accent-explanation = Mmolelo wa gago ke tsela yeo o bitšago matšu ka gona. Seo se ka bopša ke moo o dutšego gona, dipolelo tše dingwe tšeo o di bolelago le dibopego tše dingwe. O ka abelana tsebišo le ge e le efe yeo o naganago gore e bohlokwa mo.
 
 ## Profile - Email
@@ -180,6 +195,7 @@ about-playbook-how-project-governance-content-1 = Common Voice ya Mozilla gore g
 
 ## Glossary
 
+de-identified = Kgetholla gape
 
 ## Error pages
 
@@ -189,10 +205,12 @@ error-content-503 = Saete e tla thekgwa kapejana ka mo go ka kgonegago. Bakeng s
 
 data-subtitle = Re aga tatelano ya dathasete ya lentšu e bulegilego le go phatlalatšwa gore batho ka moka ba ka e berikšago go tlwaetša ditirišo tša go dumela polelo.
 data-explanatory-text = Re dumela gore dathasete tša lentšu tše dikgolo di tla hwetšagala phatlalatša di kgothaletša go tšweletša mekgwa e mefsa le tlhodišano ya kgwebo e matla go theknolotši ya go mantšu e thekgilwego ke motšhene. Se ke boiteko ba lefase ka moka gomme re mema motho yo mongwe le yo mongwe go tšea karoko. Boikemišetšo bja rena ke go thuša theknolotši le poledišano gore e tsentšhwe batho ka moka, e bonagatše mehuta e fapa-fapanego ya mantšu a tšwago lefaseng ka bophara.
+dataset-date = Letšatši
 data-download-singleword-callout-v2 = Se ke karolo e hlohloletšwago ke seripa sa go ba le datha go matlafatša temogo ya dinomoro tše bolelwago le go bonwa ga ee/aowa.
 
 ## Datasets Page
 
+datasets-heading = Di-dathasete
 datasets-headline = Re aga dathasete e bulegilego, ya go ba le dipolelo tše dintši ya mantšu a ka šomišago ke mang le mang go tlwaetša tirišo ye dumelago polelo.
 datasets-positioning =
     Re dumela gore dathasete tša lentšu tše dikgolo di tla hwetšagala phatlalatša di kgothaletša go tšweletša mekgwa e mefsa le tlhodišano ya kgwebo e matla go theknolotši ya mantšu e thekgilwego ke motšhene.
@@ -200,6 +218,7 @@ datasets-positioning =
      Dathasete ya maleme a mantši ya Common Voice e šetše e le e kgolo kudu go fetišiša e hwetšagalago  phatlalatša ya mehuta ya yona, eupša ga se yona feela.
     
      Lebelela letlakaleng e le dišupišo bakeng sa mothopo o bulegilego wa dathasete ya lentšu, gomme ge Common Voice e tšwela pela, legae la mphsafatšo tša rena tša tokololo.
+download-language = Tanelouto { $language }
 dataset-description-hours =
     Engwe le engwe yeo e tsenego dathasete e na le MP3 e fapanego le faele e tsamaišanago le mongwalo. Bontši bja <b>{ $total }</b> diiri tšeo gatišitšwego ka gare ga dathasete di akaretša gape le boitsebošo bja dintlha tša palo ya batho bjalo ka mengwaga, le bong bja motho, le mmolelo seo a ka thušago go eteletša go nepagetša ga tlhathollo ya mantšu tša temogo. 
     
@@ -212,6 +231,7 @@ data-other-voxforge-description = VoxForge e beilwe go kgobokanya polelo e fetot
 your-feedback = Afa o nale dikgopolo gore re ka dirang gore dathasete ya Common Voice e be kaone? Re tsebiše go Discourse
 missing-language = Ga o bone polelo ya gago bonagatša go dathasete? Go kgopela polelo e ya go letlakala la rena la Dipolelo.
 close = Kgaufsi
+download = Tanelouto
 
 ## Download Modal
 
@@ -238,11 +258,13 @@ language-section-in-progress-new-description = Maleme a gona bjale a ka tlase ga
 ## Contribution
 
 action-click = Klika
+contribute = Neela
 
 ## Reporting
 
 report-other-comment =
     .placeholder = Tshwayotshwayo
+continue = Tšwela pele
 
 ## Goals
 
@@ -255,7 +277,9 @@ visibility-explainer = Peakanyo ye e laola ke ponagalo ya kelo ya baetapele. Ge 
 ## Custom Goals
 
 both-speak-and-listen = Bobedi
+easy-difficulty = Bonolo
 average-difficulty = Palo-gare
+difficult-difficulty = Bothatha
 activity-needed-calculation-plural =
     { NUMBER($totalHours) ->
         [one] [one] { $totalHours } iri e ya fihlelelwa ka godimo ga
@@ -284,6 +308,7 @@ why-delete-recordings = Dipego tša Common Voice di dirišwa ke barutegi, dikgwe
 ## Profile Download
 
 download-requests-info = Ge o kgopela dipego, re ya di bokanya ka gare ga faele ya ZIP e tee goba tše dintši. Mo ke dikgopelo tša gago tša nakong e fetilego.
+download-request-button = Goga go tšwa inthaneteng
 download-request-link-single = O ka kopisa le go beya di-URL tše tobegilego go sesepetša digogwa wa gago o ratago. Di tla felelwa ke nako ka morago ga diiri tše 12, eupša o ka boela latlakaleng le go hlagiša tše di mpsha ka nako le ge e le efe.
 
 ## Landing
@@ -311,6 +336,7 @@ demo-dashboard-card-body = Bakeng sa setsopolwana se sengwe le sengwe sa lentšu
 
 ## Validation criteria
 
+contribution-criteria-nav = Kriteria
 contribution-criteria-page-description = Kwešiša gore ke eng se o swanetše go se lebelela ge o theeletša dipego gomme o thutše go dira direkhoto tša gago tša lentšu di hume!
 contribution-varying-pronunciations-description = Eba šedi pele o gana setsopolwana ka baka la gore mmadi ga a bitša lentšu ka tsela e fošagetšego, o beile kgateletšo lefelong le fošagetšego, goba go bonagala a hlokomologile letswao la potšišo. Go na le mehuta e mentši ya go bitšwa ga mantšu e didirišwago lefaseng ka bophara, yeo mohlomongwe o se ke wa ekwa setšhabeng sa geno. Ka kgopelo nea ka moedi wa tebogo go bao ba bolelago ka tsela e fapanego le ya gago.
 contribution-varying-pronunciations-description-extended = Ka lehlakoreng le lengwe, ge e ba o nagana gore mohlomogwe mmadi ga se ka ka ka gahlana le lentšu pele, gomme o dira kgakanyo e fošagetšego ka mokgwa wa piletšo ya mantšu, ka kgopelo gana. Ge e ba o sa kgonthišege, šomiša setobetšwa sa go taboga.
@@ -330,6 +356,8 @@ contribution-just-unsure-description = Ge e ba o kopana le selo seo dikeletšo t
 ## HEADER/FOOTER
 
 sc-header-add = Oketša
+sc-footer-discourse = Discourse
+sc-footer-cookies = Cookies
 
 ## HOME
 
@@ -387,6 +415,7 @@ sc-confirm-already-reviewed =
         [one] [one] lefoko le le 1 le hlahlobilwe. O šomile botse!
        *[other] *[other] { $sentences } mafoko a šetše a hlahlobilwe. O šomile botse!
     }
+sc-confirm-button-text = Kgonthišetša
 sc-confirm-uploading = Mafoko a tsenywa. Se se ka tšea metsotso e mmalwa go ya ka gore ke mafoko a ma kae a tsenywago. Re kgopela o se ke wa tswalela wepesaete.
 
 ## LANGUAGE INFO
