@@ -3,6 +3,7 @@
 stayintouch = Rena ba Mozilla re aga setšhaba mabapi le theknolotši ya lentšu. Re lakatša go dula re ikgokagantše le diphetogo, methopo e mpsha ya datha le go kwa ka mo go oketšegilego ka mokgwa wa go diriša datha tšeo.
 email-input =
     .label = E-meile
+loading = Loading...
 email-opt-in-info = Ke tla rata go hwetša di e-meile tša go swana le dikgopotšo tša  dipakane, sebontšhatšwelopele le magwalo a ditaba  tša Common Voice.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
@@ -77,6 +78,9 @@ ko = Se-Korea
 kpv = Se-Komi-Zyrian
 kw = Se-Cornish
 ky = Se-Kyrgyz
+lij = Se-Ligurian
+lt = Ma-Lithuanian
+lv = Se-Latvian
 my = Se-Burmese
 myv = Se-Erzya
 nl = Se-Dutch
@@ -91,6 +95,7 @@ yue = Se-Cantonese
 ## Layout
 
 datasets = Di-dathasete
+languages = Maleme
 about = Mabapi le
 help = Thuša
 contact = Kgokagana
@@ -190,6 +195,8 @@ about-header-description-v2 = Theknolotši ya go tlhathollo lentšu e fetola tse
 
 ## How does it work section
 
+about-listen-queue = Lenaneotetelo la go theeletša
+about-listen = Ekwa
 about-yes-votes-text = Go e dira gore e tsene go dathasete ya Common Voice, pego ya lentšu e swanetše go netefatšwa ke bašomiši ba babedi ba go fapana.
 about-dataset-new-text = Dathasete ya Common Voice e nale di pego tše makgolo le dikete ya mehlala ya manntšu e thušago ba batšweletša ba agang sedirišwa sa temogo ya lentšu.
 about-clip-graveyard-text = Setsopolwa sa Graveyard se na le dirakolo tša lentšu tše di sa fihlaho go dathasete ya Common Voice. Bjalo ka dathasete, setsopolwa sa Graveyard ya hwetšagala bakeng sa go tanelouta.                               Re ka rata go leboga batho le mekgatlo e latelago ka thušo ya bona morerong o:
@@ -248,6 +255,7 @@ about-playbook-how-project-governance-content-1 = Common Voice ya Mozilla gore g
 ## Glossary
 
 glossary = Pukuntšu
+localization = Go lekanyeditša
 de-identified = Kgetholla gape
 
 ## Error pages
@@ -260,6 +268,7 @@ error-code = Phošo { $code }
 data-subtitle = Re aga tatelano ya dathasete ya lentšu e bulegilego le go phatlalatšwa gore batho ka moka ba ka e berikšago go tlwaetša ditirišo tša go dumela polelo.
 data-explanatory-text = Re dumela gore dathasete tša lentšu tše dikgolo di tla hwetšagala phatlalatša di kgothaletša go tšweletša mekgwa e mefsa le tlhodišano ya kgwebo e matla go theknolotši ya go mantšu e thekgilwego ke motšhene. Se ke boiteko ba lefase ka moka gomme re mema motho yo mongwe le yo mongwe go tšea karoko. Boikemišetšo bja rena ke go thuša theknolotši le poledišano gore e tsentšhwe batho ka moka, e bonagatše mehuta e fapa-fapanego ya mantšu a tšwago lefaseng ka bophara.
 dataset-date = Letšatši
+license = Laesense: <licenseLink>{ $license }</licenseLink>
 data-download-singleword-callout-v2 = Se ke karolo e hlohloletšwago ke seripa sa go ba le datha go matlafatša temogo ya dinomoro tše bolelwago le go bonwa ga ee/aowa.
 
 ## Datasets Page
@@ -272,6 +281,8 @@ datasets-positioning =
      Dathasete ya maleme a mantši ya Common Voice e šetše e le e kgolo kudu go fetišiša e hwetšagalago  phatlalatša ya mehuta ya yona, eupša ga se yona feela.
     
      Lebelela letlakaleng e le dišupišo bakeng sa mothopo o bulegilego wa dathasete ya lentšu, gomme ge Common Voice e tšwela pela, legae la mphsafatšo tša rena tša tokololo.
+language = Leleme
+cv-license = Laesense
 size-gigabyte = GB
 download-language = Tanelouto { $language }
 dataset-description-hours =
@@ -297,6 +308,9 @@ contact-required = *nyakega
 
 ## Request Language Modal
 
+request-language-form-language =
+    .label = Polelo
+request-language-success-title = { "" }
 request-language-success-content = Re tla ikgokaganya le wena ka tsebišo e oketšegilego mabapi le gore o ka tsenya polelo ya gago go Common Voice kapejana.
 
 ## Request Language Pages
@@ -309,12 +323,15 @@ request-language-error = Re ka be re sa hwetša kgopelo yeo. Ka kgopelo re romel
 ## Languages Overview
 
 language-section-in-progress-new-description = Maleme a gona bjale a ka tlase ga tšwelopele ya setšhaba. <localizationGlossaryLink>wepesaeteng ya kgauswi</localizationGlossaryLink> le <sentenceCollectionGlossaryLink> kgoboketšo ya mantšu</sentenceCollectionGlossaryLink> e nyakega go thoma.
+language-section-launched = Hloma
+localized = Lekanyeditšwego
 language-validation-hours = Diiri
 
 ## Contribution
 
 action-click = Klika
 contribute = Neela
+listen = Theeletša
 
 ## Reporting
 
@@ -353,6 +370,7 @@ activity-needed-calculation-plural =
     }
 receiving-emails-info = Gona bjale o loketše go hwetša di-emeile tša go swana le dikgopotšo tša dipakane, sebontšhatšwelopele le mangwalo a ditaba tša Common Voice.
 not-receiving-emails-info = Gona bjale o ka <bold>GANA</bold> go hwetša lenaneo la poso la dikgopotšo tša dipakane,  sebontšhatšwelopele le mangwalo a ditaba tša Common Voice
+share-goal-type-listen = Theeleditše
 # LINK will be replaced with the current URL
 goal-share-text = Ke fetša go hlangwa pakane ya go neela ka lentšu go #CommonVoice -- a re hlakane gomme re thuše go ruta metšhene gore na batho ba nnete ba bolela bjang { $link }
 
@@ -418,6 +436,7 @@ sc-header-how-to = Go ithuta go
 sc-header-add = Oketša
 sc-footer-discourse = Discourse
 sc-footer-cookies = Cookies
+sc-logout-button = Logout
 
 ## HOME
 
