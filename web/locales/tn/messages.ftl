@@ -1,5 +1,6 @@
 ## General
 
+yes-receive-emails = Ee, nthomeleleng diimeile. Nka rata go nna mo dinakong ka Porojeke ya Common Voice.
 email-opt-in-info = Nka rata go amogela diimeile tse di jaaka dikgopotso tsa maikaelelo, ditlhabololo tsa kgatelopele ya me le makwalodikgang a Common Voice.
 email-opt-in-info-sub-with-challenge = Amogela diimeile tse di jaaka dikgwetlho le dikgopotso tsa maikaelelo, ditlhabololo tsa kgatelopele, le makwalodikgang a Common Voice.
 email-opt-in-privacy-v2 = Ka go tlhopha go amogela diimeile o bontsha gore o siame ka gore Mozilla e tshware tshedimosetso eno jaaka go tlhalosiwa mo <privacyLink>Pholising ya Polokodiphiri</privacyLink>ya Mozilla.
@@ -12,6 +13,9 @@ email-opt-in-privacy-v2 = Ka go tlhopha go amogela diimeile o bontsha gore o sia
 
 ab = Abkhaz
 ace = Se-Acehne
+am = Se-Amharic
+an = Se-Aragon
+ar = Se-Arabia
 
 # [/]
 
@@ -44,6 +48,7 @@ wall-of-text-second =
 no-clips-to-validate = Go lebega go se na dikgatiso dipe tse di tlhokang go reediwa mo puong eno. Re thuse go di oketsa ka go rekota dingwe gone jaanong.
 speak-paragraph = Go rekota mantswe ke karolo e e botlhokwa thata e e thusang go aga rekoto ya tshedimosetso; ba bangwe ba ka re gape ke karolo e e itumedisang.
 listen-paragraph = Go tlhomamisa dikgatiso tse di abilweng le gone go botlhokwa mo maikaelelong a Common Voice. Reetsa mme o re thuse go dira tshedimosetso e e nang le boleng ya mantswe.
+all-locales = Tsotlhe
 
 ## Account Benefits
 
@@ -123,6 +128,7 @@ faq-what-determine-identity-a =
     Tshedimosetso ya Common Voice ke sedirisiwa se se leng teng sa batho botlhe se se ka dirisiwang go thapisa dithulaganyo tse di farologaneng tsa puo. Go sireletsa tshireletsego ya baabi ba rona, re kopa gore mongwe le mongwe yo a itseelang tshedimosetso ya Common Voice a tlotle bosephiri jwa baabi.
     
     Dikgatiso tsotlhe tsa mantswe di tlositswe tshedimosetso e e tlhaolang motho. Fa o itseela tshedimosetso, o dumela gore o ka se leke go lemoga gore moabi ke mang. Seno se raya gore o ka se leke go amanya tshedimosetso e e mo dataset le tshedimosetso epe ya botho ya moabi. Mme gone, o ka dirisa tshedimosetso eo go thapisa go lemoga mantswe, go lemoga sebui, kgotsa dithulaganyo tse dingwe, ka go golaganya tshedimosetso e e mo dataset le tshedimosetso e nngwe e e setseng e le mo dataset.
+faq-description = Common Voice ke karolo ya letsholo la Mozilla la go thusa go ruta metšhine gore batho ba mmatota ba bua jang.
 
 ## ABOUT US
 
@@ -327,6 +333,7 @@ download-request-link-single = Gape o ka kgona go kopisa le go manega di-URL tse
 ## Landing
 
 help-contribute = O ka thusa rekoto eno ya tshedimosetso e kgolo e bile e le ya batho botlhe ka go tlhama porofaele ya Common Voice le go abelana ka lentswe la gago.
+profile-not-required = Ga o tlhoke go nna le porofaele gore o thuse, mme gone go a thusa. Bona gore ka ntlha yang fa tlase.
 
 ## DemoLayout
 
@@ -355,6 +362,7 @@ contribution-misreadings-description = Fa o reeditse, tlhatlhoba ka kelotlhoko g
 contribution-misreadings-description-extended-list-3 = Go bala mafoko a a seyong, jaaka "Ra" go na le go re "Re a," kgotsa ka tsela e e farologaneng.
 contribution-varying-pronunciations-description = Nna kelotlhoko pele o gana kgatiso ka go bo mmadi a sa bitsa lefoko sentle, o gateletse mo lefelong le e seng lone, kgotsa gongwe o itlhokomolositse letshwao la potso. Go na le ditsela tse dintsi tsa go bitsa mafoko lefatshe ka bophara, tse dingwe ka tsone o ka tswang o ise o di utlwe mo lefelong la gago. Tsweetswee anaanela ba ba ka tswang ba bua ka tsela e e farologaneng le e o buang ka yone.
 contribution-varying-pronunciations-description-extended = Kafa letlhakoreng le lengwe, fa o akanya gore gongwe mmadi ga a ise a kopane le lefoko leo, mme o fopholetsa fela ka tsela e e sa siamang tsela e le bidiwang ka yone, tsweetswee e gane. Fa o sa tlhomamisege, dirisa konopo ya tlola.
+contribution-varying-pronunciations-example-1-explanation = [‘Berethe’ e siame le fa go gatelelwa ditlhaka tsa ntlha (UK) kgotsa tsa bofelo (US)]
 contribution-background-noise-description = Re batla gore go ithuta ga metšhine go kgone go lepalepana le medumo e mentsi e e kwa morago, le medumo e e kwa godimo e ka amogelesega fa fela e sa go thibele go utlwa mokwalo otlhe. Mmino o o lelang kwa morago go didimetse o siame; mmino o o kwa godimo thata mo o go thibelang go utlwa mafoko otlhe ga wa siama.
 contribution-background-noise-description-extended = Fa kgatiso e kgaoga kgotsa e gagasha, e gane, ntle le fa mafoko otlhe a kgona go utlwiwa.
 contribution-background-voices-description = Tlhakatlhakano e e utlwalang mo lefelong le le didimetseng e siame, mme ga re batle mantswe a a oketsegileng a a ka dirang gore motšhine o se ka wa lemoga mafoko a a sa kwalwang. Fa o ka utlwa mafoko a a farologaneng le a a kwadilweng, kgatiso eo e tshwanetswe go ganwa. Gantsi seno se direga fa TV e tlogetswe e tshubilwe, kgotsa fa go na le motlotlo o o tsweletseng fa gaufi.
@@ -433,6 +441,14 @@ sc-confirm-already-reviewed =
        *[other] *Mela e { $countOfReviewed } e setse e sekasekilwe. O berekile!
     }
 # Variables:
+#   $readyCount (Number) - Number of sentences ready to be uploaded
+sc-confirm-ready =
+    { $readyCount ->
+        [0] Ga go na mola o o siametseng go romelwa!
+        [one] Mola o le 1 o siametse go romelwa!
+       *[other] *Mela e le { $readyCount } e siametse go romelwa!
+    }
+# Variables:
 #   $countOfUnreviewed (Number) - Number of sentences unreviewed before the upload
 sc-confirm-unreviewed = Mela e le { $countOfUnreviewed } ga e ise e sekasekwe. Fa o batla, o ka nna wa sekaseka mela ya gago gone jaanong pele o e romela.
 sc-confirm-uploading = Mela e a tsenngwa. Seno se ka tsaya metsotso e le mmalwa go ikaegile ka palo ya mela e e tsenngwang. Tsweetswee o se ka wa tswala webosaete eno.
@@ -460,6 +476,7 @@ sc-criteria-item-5-2 = Fa polelo e sa fitlhelele ditshwanelego tse di fa godimo,
 
 ## REVIEW
 
+sc-review-lang-not-selected = Ga o ise o tlhophe dipuo dipe. Tsweetswee ya kwa <profileLink>Porofaeleng</profileLink> ya gago gore o tlhophe dipuo.
 sc-review-form-usage = Swaepela kafa mojeng go amogela polelo. Swaepela kafa molemeng go e gana. Swaepela kwa godimo go e tlola. <strong>O se ka wa lebala go romela tshekatsheko ya gago!</strong>
 sc-review-form-button-approve = Amogela
 
