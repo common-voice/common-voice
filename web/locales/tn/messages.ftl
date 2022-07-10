@@ -76,6 +76,8 @@ all-locales = Tsotlhe
 
 benefits = Mesola
 rich-data = Dira gore tshedimosetso ya gago e o e rometseng e nne ntsi kafa go kgonegang ka gone ka go naya tshedimosetso ya dipalopalo e e sa tsenngwang maina. Re tlosa tshedimosetso yotlhe e e itsiseng batho mo tshedimosetsong ya dipalopalo pele re e phasalatsa.
+improve-audio = Tshedimosetso ya porofaele e tokafatsa tshedimosetso ya lentswe e e dirisiwang go thapisa didirisiwa tse di kgonang go lemoga puo gore di nepagale.
+compare-progress = Bona gore kgatelopele ya gago e kae fa e bapisiwa le ya batsayakarolo ba bangwe mo lefatsheng lotlhe.
 join-newsletter = O ka itlhophela go tsena mo lenaaneng la rona la makwalo go amogela ditlhabololo le tshedimosetso e ntšha ka porojeke.
 
 ## What's public
@@ -106,6 +108,7 @@ why-profile-text =
     Ka go naya tshedimosetso nngwe ka wena, tshedimosetso ya lentswe e o e romelang kwa Common Voice e tla nna mosola thata mo dithulaganyong tsa Speech
     Recognition tse di dirisang tshedimosetso eno go tokafatsa go nepa ga tsone.
 avatar = Setshwantsho
+profile-close = Tswala
 profile-explanation = Ela tlhoko kgatelopele ya gago o dirisa porofaele mme o thuse tshedimosetso ya rona ya mantswe gore e nepagale thata.
 why-demographic-explanation-2 = Tshedimosetso ya botlhokaina jaaka dingwaga, bong le segalo di tla thusa go tokafatsa go nepa ga didirisiwa tsa go lemoga mantswe. Leinatiriso le imeile ya gago di ka se amanngwe le tshedimosetso ya gago e e rometsweng, mme o ka tlhopha gore a o batla go senola kgotsa go fitlha leinatiriso la gago.
 accept-privacy = Ga ke na bothata le gore lo dirise tshedimosetso eno jaaka lo tlhalosa mo <privacyLink>Molawaneng wa Polokodiphiri</privacyLink> wa Mozilla
@@ -216,6 +219,7 @@ about-playbook-how-add-language-collecting-sentences-content-2 =
 
 about-playbook-how-localize-content-2 = <pontoonAccountLink>Dira akhaonto</pontoonAccountLink> fa o se na yone. Go tswa foo, tlhopha puo ya gago <strong>(‘Team’)</strong> o bo o tlhopha porojeke, <pontoonCvLink>Common Voice</pontoonCvLink>. Go tla bo go na le difaele tse di ranolwang. Tobetsa mo go e nngwe, mme e tla bontsha mafoko a Seesemane le lebokoso la go a ranola.
 about-playbook-how-localize-content-3 = Go ranolwa go tswa mo Seesemaneng, mme o ka bona <strong>Dikakantsho</strong> ka dipuo tse dingwe. Tobetsa letshwao la <strong>Porofaele</strong>, go tswa foo linki ya <strong>Diseting</strong> o bo o tsenya dipuo dipe tse o di buang. Kwa sekhutlhong se se kwa tlase kafa mojeng go tla nna le lenaane la dithanolo tse di bidiwang <strong>Locales</strong>. Dithanolo di bonala mo webosaeteng morago ga letsatsi le le lengwe.
+about-playbook-how-localize-content-4 = Saete e siametse go tlhaga fa e setse e tsamaya mo 75% gore e fediwe.
 
 ## How to add sentences
 
@@ -344,6 +348,9 @@ speak-loading-error = Ga re a kgona go bona mela e o ka e buang. Tsweetswee leka
 
 ## Reporting
 
+report-difficult-pronounce-detail = E na le mafoko kgotsa dipolelo tse go leng thata go di bala kgotsa go di bitsa.
+report-other-comment =
+    .placeholder = Tshwaelo
 continue = Tswelela
 
 ## Goals
@@ -401,6 +408,7 @@ demo-account = Akhaonto
 
 ## Demo Account
 
+demo-account-card-header = Ga o tlhoke go nna le akhaonto gore o thuse, mme gone go mosola.
 demo-account-card-body = Kafa mojeng re bontsha mesola mme re tlhalosa gore ke tshedimosetso efe e re e phasalatsang. Dirisa dilinki tse di fa tlase go simolola akhaonto ya Common Voice mo sedirisiweng sa gago.
 
 ## Demo Contribute
@@ -446,6 +454,7 @@ sc-languages-fetch-error = Ga re a kgona go tla ka dipuo tse di gone. Go ka se k
 
 ## HOW-TO
 
+sc-howto-addlang-text = Fa o setse o tsene, o kgona go tlhopha dipuo tsa gago mo karolong ya porofaele.
 sc-howto-addsen-item-1 = Dipolelo tsotlhe tse o di romelang di tshwanetse tsa nna kafa tlase ga laesense ya </wikipediaLink>Lefelo la Botlhe (CC-0)<wikipediaLink>. Go tshegetsa go akarediwa ga tiro e e seng kafa tlase ga laesense ya puso, re dirile <cc0WaiverLink>thempoleite ya Tumalano ya Dikabo</cc0WaiverLink> go dira ditiro tse mong wa tetlokhopi a batlang go di abela Common Voice.
 sc-howto-addsen-item-2 = Dinomoro. Ga go a tshwanela ga nna le dinomoro mo mokwalong gonne di ka baka mathata fa go balelwa kwa godimo. Tsela e nomoro e balwang ka one e ikaegile ka se go buiwang ka sone mme e ka tlhakatlhakanya tshedimosetso. Ka seka, nomoro “2409” e ka balwa ka nepo e le “masomeamabedinne lefela robongwe” le ”dikete tse pedi makgolo a mane le borobongwe”.
 sc-howto-addsen-item-3 = Dikhutshwafatso. Dikhutshwafatso tse di jaaka “USA” kgotsa “ICE” di tshwanetse go tilwa mo mokwalong wa konokono gonne di ka balwa ka tsela e e sa dumalaneng le mopeleto wa tsone. Gape, go ka nna le ditsela di le mmalwa tse di nepileng tsa go bitsa khutshwafatso e le nngwe. Ka sekai, khutshwafatso “ICE” e ka bidiwa “I-C-E” kgotsa ya bidiwa jaaka lefoko le le lengwe.
@@ -511,6 +520,7 @@ sc-confirm-ready =
 # Variables:
 #   $countOfUnreviewed (Number) - Number of sentences unreviewed before the upload
 sc-confirm-unreviewed = Mela e le { $countOfUnreviewed } ga e ise e sekasekwe. Fa o batla, o ka nna wa sekaseka mela ya gago gone jaanong pele o e romela.
+sc-confirm-button-text = Tlhomamisa
 sc-confirm-uploading = Mela e a tsenngwa. Seno se ka tsaya metsotso e le mmalwa go ikaegile ka palo ya mela e e tsenngwang. Tsweetswee o se ka wa tswala webosaete eno.
 
 ## LANGUAGE INFO
