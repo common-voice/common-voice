@@ -250,8 +250,10 @@ build-profile = Haha Profaele
 avatar = Avatar
 goals = Dipheo
 settings = Ditlhophiso
+edit-profile = Fetola Profaele
 profile-close = Kwala
 edit = Lokisa
+email-subscriptions = Dipeeletso tsa Email
 off = E kwetswe
 on = E butswe
 
@@ -272,6 +274,7 @@ add-language = Kenya Puo
 
 ## How does it work section
 
+about-dataset-release-title = Tokollo ya Pokello ya Data
 about-speak = Bua
 about-listen-queue = Mola wa ho mamela
 about-listen = Mamela
@@ -323,6 +326,7 @@ error-code = Phoso { $code }
 
 data-download-yes = Ee
 data-download-deny = Tjhe
+data-other-download = Download-a Data
 release-version = Mofuta
 license-mixed = E tswakantswe
 review-recording = Hlahloba
@@ -392,11 +396,13 @@ record-cancel = Hlakola ho rekota hape
 record-stop-instruction = { $actionType }<stopIcon></stopIcon> ha o qetile
 record-last-instruction = <recordIcon></recordIcon> Ya ho qetela!
 clips-uploaded = Di-clip di kentswe
+record-abort-continue = Qetela ho rekota
 listen-last-time-instruction = <playIcon></playIcon>Ya ho qetela!
 
 ## Reporting
 
 report = Tlaleha
+report-different-language = Puo e fapaneng
 report-other-comment =
     .placeholder = Hlahisa Maikutlo
 success = Katleho
@@ -429,6 +435,7 @@ goal-share-text = Ke sa tswa iketsetsa sepheo sa ho fana ka lentswe ho #CommonVo
 ## Profile Delete
 
 keep = Boloka
+profile-form-delete = Hlakola Profaele
 
 ## Profile Download
 
@@ -438,6 +445,7 @@ download-size = Boholo
 download-selected = E kgethilwe
 download-request-button = Download
 download-request-refresh-button = Kgatholla
+download-request-modal-title = Download-a dihokahanyo
 
 ## Landing
 
@@ -571,6 +579,8 @@ sc-review-form-button-approve-shortcut = Ee
 sc-review-form-button-reject-shortcut = N
 # Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
 sc-review-form-button-skip-shortcut = S
+sc-review-form-button-submit =
+    .submitText = Qetela ho hlahloba
 sc-review-link = Hlahloba
 
 ## SETTINGS
