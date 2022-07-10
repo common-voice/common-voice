@@ -232,6 +232,7 @@ dataset-description-hours =
     Matseno mangwe le mangwe mo tshedimosetsong a na le MP3 e e tlhomologileng le faele e e tsamaisanang le yone ya mokwalo. Bontsi jwa diura tse <b>{ $total }</b> tse di gatisitsweng mo tshedimosetsong le tsone di akaretsa tshedimosetso ya dipalopalo jaaka dingwaga, bong, le segalo se se ka thusang go thapisa go nepa ga dithulaganyo tse di lemogang mantswe.
     
     Ga jaana tshedimosetso e na le diura tse <b>{ $valid }</b> tse di tlhomamisitsweng mo dipuong tse <b>{ $languages }</b>, mme ka metlha re tsenya mantswe le dipuo tse di oketsegileng. Leba <languagesLink>tsebe ya rona ya Dipuo</languagesLink> go kopa puo kgotsa go simolola go aba.
+want-dataset-update = A o batla re go itsise fa re golola tokololo e ntšha ya rekoto ya tshedimosetso ya Common Voice? Ikwadisetse makwalodikgang a rona.
 resource-deepspeech-info = Thulaganyo ya go lemoga mantswe ya Mozilla ya Deep Speech e ka dirisiwa go dira dithulaganyo tsa go lemoga puo. Bala <githubLink>dintlhakakaretso tsa rona tsa Github</githubLink> kgotsa nna karolo ya <discourseLink>DeepSpeech Discourse</discourseLink> go ithuta gore o ka simolola jang.
 resource-playbook-info = <playbookLink>Bona kaelo e e thusang</playbookLink> ka loeto lotlhe lwa Common Voice, go tloga ka go ranolela go fitlha ka tiriso ya tshedimosetso, mmogo le go ikgolaganya le batho ba lefelo la rona.
 data-other-librispeech-description = LibriSpeech ke direkoto tsa diura di ka nna 1000 tsa 16Khz tse di balang mela ya Seesemane tse di tsewang mo dibukeng tsa mantswe tsa porojeke ya LibriVox.
