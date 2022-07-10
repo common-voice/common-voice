@@ -280,8 +280,8 @@ sc-my-description = Letlakaleng le le go nea kakaretšo ya mafoko ka moka ao o w
 sc-add-result =
     { $duplicates ->
         [0] [0] Mafoko a rometšego. { $duplicates } mafoko a ile a ganwa ka ge e le dilo tše pedi tša go swana.
-        [one] { "" }
-       *[other] { "" }
+        [one] [one] Mafoko a rometšego.  { $duplicates }  lefoko le ile la ganwa ka ge e le dilo tše pedi tša go swana.
+       *[other] *[other]  Mafoko a rometšego.  { $duplicates }  mafoko a ile a ganwa ka ge e le dilo tše pedi tša go swana.
     }
 
 ## ADD SENTENCES CONFIRMATION
