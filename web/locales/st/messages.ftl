@@ -256,6 +256,8 @@ english = Sekgowa
 
 ## ProfileForm
 
+profile-form-username =
+    .label = Lebitso la mosebedisi
 profile-form-native-language =
     .label = Puo ya Letswele
 profile-form-additional-language =
@@ -482,6 +484,7 @@ you = Wena
 everyone = Bohle
 contribution-activity = Mosebetsi wa Monehelo
 recorded-clips = Di-clip tse Rekotilweng
+validated-clips = Di-clip tse netefaditsweng
 overall-accuracy = Ho Nepa Ka Kakaretso
 
 ## Custom Goals
@@ -508,6 +511,7 @@ profile-form-delete = Hlakola Profaele
 
 download-profile-title = Profaele
 download-recordings-title = Direkoto
+download-recordings-size = Ka tlwaelo ke megabytes
 download-size = Boholo
 download-selected = E kgethilwe
 download-request = Kopa tse rekotilweng
