@@ -411,6 +411,7 @@ sc-my-description = Tsebe eno e go naya dintlhakakaretso tsa dipolelo tsotlhe ts
 
 ## ADD
 
+sc-submit-confirm = Ke tlhomamisa gore mela eno ke ya <wikipediaLink>batho botlhe</wikipediaLink> e bile ke na le tetla ya go e tsenya.
 
 ## ADD LANGUAGE
 
