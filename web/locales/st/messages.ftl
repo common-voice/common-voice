@@ -140,6 +140,7 @@ tk = Turkmen
 tl = Tagalog
 tn = Setswana
 tr = Turkish
+ts = Xitsonga
 tt = Tatar
 ty = Tahitian
 uby = Ubykh
@@ -150,6 +151,10 @@ ur = Urdu
 uz = Uzbek
 ve = Tshivenda
 vec = Venetian
+vi = Vietnamese
+vot = Votic
+xh = Xhosa
+yi = Yiddish
 yo = Yoruba
 yue = Cantonese
 zh-TW = Chinese (Taiwan)
@@ -173,6 +178,7 @@ faq = FAQ
 ## Home Page
 
 no-clips-to-validate = Ho bonahala eka ha ho na di-clip tsa ho mamela ka puo ena. Re thuse ho tlatsa letoto ka ho rekota tse ding hona jwale.
+vote-yes = Ee
 vote-no = Tjhe
 all-locales = Koafela
 today = Kajeno
@@ -195,6 +201,9 @@ shortcut-skip = s
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-play-toggle = p
 shortcut-play-toggle-label = Bapala/Emisa
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = Ee
 # Must be one letter that appears in the { vote-no } string.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
 shortcut-vote-no = n
@@ -214,6 +223,8 @@ english = Sekgowa
 
 ## ProfileForm
 
+profile-form-additional-language =
+    .label = Puo ya tlatsetso
 profile-form-language =
     .label = Puo
 profile-form-age =
@@ -221,6 +232,7 @@ profile-form-age =
 profile-form-gender-2 =
     .label = Bong
 hidden = E patilwe
+visible = E Bonahalang
 profile-form-submit-save = Boloka
 profile-form-submit-saved = E bolokilwe
 male = E motona
@@ -241,6 +253,7 @@ on = E butswe
 
 ## Profile - Email
 
+add-language = Kenya Puo
 
 ## FAQ
 
@@ -296,6 +309,7 @@ error-code = Phoso { $code }
 
 ## Data
 
+data-download-yes = Ee
 data-download-deny = Tjhe
 release-version = Mofuta
 license-mixed = E tswakantswe
@@ -360,6 +374,8 @@ contribute = Kenya letsoho
 listen = Mamela
 skip = Tlola
 shortcuts = Dikgaoletso
+record-last-instruction = <recordIcon></recordIcon> Ya ho qetela!
+listen-last-time-instruction = <playIcon></playIcon>Ya ho qetela!
 
 ## Reporting
 
@@ -386,6 +402,7 @@ both-speak-and-listen = Bobedi
 easy-difficulty = E bonolo
 difficult-difficulty = E thata
 pro-difficulty = Pro
+goal-interval-weekly = Beke le beke
 share-goal-type-speak = E ntse e bua
 share-goal-type-listen = E ntse mametse
 # LINK will be replaced with the current URL
@@ -429,6 +446,8 @@ demo-account = Ak'haonte
 
 contribution-criteria-nav = Ditekanyetso
 contribution-misreadings-title = Ho se bale hantle
+contribution-volume-title = Bophahamo ba modumo
+see-more = <chevron></chevron>Bona tse ding
 
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
@@ -475,9 +494,11 @@ sc-stats-updating = E ntse e ntlafatsa...
 
 ## ADD
 
+sc-submit-title = Kenya Dipolelo
 
 ## ADD LANGUAGE
 
+sc-add-lang-sec-button = Kenya Puo
 # Variables:
 #   $duplicates (Number) - Number of sentences which got rejected because they are duplicates
 sc-add-result =
@@ -496,6 +517,7 @@ sc-confirm-uploading = Dipolelo di ntse di kenngwa. Sena se ka nka metsotso e mm
 
 sc-lang-info-title-total = Kakaretso
 sc-lang-info-title-personal = Tsa botho
+sc-lang-info-review-now = <reviewLink>Hlahloba hona jwale!</reviewLink>
 
 ## LOGIN
 
@@ -518,6 +540,8 @@ sc-review-form-source = Mohlodi: { $sentenceSource }
 sc-review-form-button-reject = Hana
 sc-review-form-button-skip = Tlola
 sc-review-form-button-approve = Amohela
+# Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
+sc-review-form-button-approve-shortcut = Ee
 # Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
 sc-review-form-button-reject-shortcut = N
 # Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
