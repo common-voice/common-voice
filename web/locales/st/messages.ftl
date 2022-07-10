@@ -317,7 +317,10 @@ add-language = Kenya Puo
 
 ## How does it work section
 
+about-localization-title = Ho etsa sebaka sa marang rang selehae
 about-sentence-collection-title = Pokello ya Dipolelo
+about-voice-contrib-title = Nehelano ya Lentswe
+about-voice-validation-title = Netefatso ya Lentswe
 about-dataset-release-title = Tokollo ya Pokello ya Data
 about-speak = Bua
 about-listen-queue = Mola wa ho mamela
@@ -400,6 +403,7 @@ splits = E arohane
 size-gigabyte = GB
 size-megabyte = MB
 download-language = Download-a { $language }
+validated-hours = Dihora tse netefaditsweng
 recorded-hours = Dihora tse Rekotilweng
 subscribe = Ngodisa
 feedback-q = O na le Maikutlo?
@@ -449,6 +453,7 @@ language-search-input =
 language-speakers = Dibui
 sentences = Dipolelo
 language-validation-hours = Dihora
+language-validation-progress = Kgatelo pele ya Netefatso
 
 ## Contribution
 
@@ -552,6 +557,7 @@ download-request-metadata-link = Mongolo wa polelo
 
 ## Landing
 
+welcome-staff = Amohela { $company } basebetsi!
 
 ## DemoLayout
 
@@ -580,6 +586,7 @@ contribution-for-example = Mohlala
 contribution-misreadings-title = Ho se bale hantle
 contribution-misreadings-example-2-explanation = [E tlameha e be 'dikgodumodumo']
 contribution-misreadings-example-8-explanation = [Ditaba tse sa tsamaisaneng]
+contribution-varying-pronunciations-title = Qapodiso tse fapaneng
 contribution-background-noise-title = Lerata le ka morao
 contribution-background-voices-title = Mantswe a ka morao
 contribution-volume-title = Bophahamo ba modumo
