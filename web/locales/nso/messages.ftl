@@ -85,6 +85,7 @@ about-header-description-v2 = Theknolotši ya go tlhathollo lentšu e fetola tse
 ## How does it work section
 
 about-clip-graveyard-text = Setsopolwa sa Graveyard se na le dirakolo tša lentšu tše di sa fihlaho go dathasete ya Common Voice. Bjalo ka dathasete, setsopolwa sa Graveyard ya hwetšagala bakeng sa go tanelouta.                               Re ka rata go leboga batho le mekgatlo e latelago ka thušo ya bona morerong o:
+about-stay-in-touch-text-1 = <emailFragment>Ngwadiša</emailFragment> go lethamong la rena la mangwalo go ithutha gore na o ka tšea karolo bjang masolong, ditiragalo le dikarolo tša moralo o kopanetšego go Common Voice.
 
 ## Community Playbook Content
 ## What is a language
@@ -166,6 +167,7 @@ resource-playbook-info = <playbookLink>Hwetša keletšo ya maleba </playbookLink
 
 ## Request Language Pages
 
+request-language-explanation-2 = Le rena re tla <strong>tsebiša moetapele wa badudi gore o na le kgahlego </strong>, gore ba go fe thekgo e oketšegilego goba tsebo e o ka e hlokago.
 
 ## Languages Overview
 
@@ -185,6 +187,8 @@ visibility-explainer = Peakanyo ye e laola ke ponagalo ya kelo ya baetapele. Ge 
 
 ## Custom Goals
 
+# LINK will be replaced with the current URL
+goal-share-text = Ke fetša go hlangwa pakane ya go neela ka lentšu go #CommonVoice -- a re hlakane gomme re thuše go ruta metšhene gore na batho ba nnete ba bolela bjang { $link }
 
 ## Profile Delete
 
@@ -250,6 +254,7 @@ sc-howto-addsen-item-4 = Maswao-dikga. Maswao a kgethegilego le maswao-dikga a p
 sc-howto-addsen-item-5 = Mangwalo a tšwago ka ntle ga naga. Magwalo a swanetše go nepagala ka polelo yeo e bolelwago. Ka mohlala,  “ж” ke tlhaka ya alefabete ya se Russia eupša le ka mohla ga e dirišwe ka Seisimane ka gona ga ya swanela go bonagala mongwalong ofe goba ofe a Seisimane.
 sc-howto-addsen-post-1 = Re kgetha mafoko a tlhago/poledišano. Lege phapano ya sefonetiki le mantšu a fapanego mafokong a bohlokwa, re leka go dira gore mafoko a go gatišwa di be bose kudu ka moo re ka kgonago. Ka gona go ka ba monate ge o ka leka go boloka mafoko a gago a be a tlhago/kopanelago kamoo go ka kgonegalago.
 sc-howto-cite-pre-1 = Go bohlokwa gore o bolele moo o hweditšego lengwalo la tumelelo ya setšhaba go phema go ngwalolla tsebišo le go e utswa le go dumelela go boela bakeng sa <copyrightIssuesLink>mathata a tša ditokelo tša molao</copyrightIssuesLink>. Ditsela tše sego kae tše mmalwa tša go tsopola mošomo.
+sc-howto-cite-item-3 = Bakeng sa mangwalong a setšhaba ga a hwetšegale inthaneteng, o ka berekiša tshupišo ya thuto e.g setaele sa Harvard "Jess (2021) My Public licence poems"
 sc-howto-review-criteria-5 = Ge e ba lefoko ga le fihlelele kritheriya tša ka godimo, tobetsa setobetšwa sa “Gana”. Ge e ba o sa kgonthišege ka lefoko, o ka boela wa e taboga gomme o fetele go e latelago.
 sc-howto-findpd-text-2 = Gopola gore re hloka tumelelo ya go phatlalatša dipolelo tšeo, ke kamoo re kgonthišetša gore mengwalo ke ya<wikipediaLink> batho ka moka</wikipediaLink>. Ge goba a gona dipontšho molaleng, boledišana le motho yo temana yeo e leng ya gagwe gomme o botšiša gore e ba ba nyaka go neela temana ya bona Sebakeng sa Setšhaba. Ge e ba ba nyaka, ba thuše go tsena mogatong a <cc0WaiverLink>Tumelelano ya Meneelo</cc0WaiverLink> . Ge e ba ga ba nyake go tsena tiragalo ya temana, ke moka wa dumelelwa go diriša temana yeo.
 sc-howto-findpd-partner-1 = Go na le mekgatlo e mentši ya setšhaba e ka nyakago go šomišana gomme e šetše e na le ditemana tše dintši tšeo ba ka neelago ka tšona go etša go lefelong la batho bohle. Ikgokaganye le diyunibesithi tša lefelong leo, Mebušo le mekgatlo e bulegilego go bolela ka morero le go kgopela thušo ya bona.
@@ -270,9 +275,18 @@ sc-my-description = Letlakaleng le le go nea kakaretšo ya mafoko ka moka ao o w
 
 ## ADD LANGUAGE
 
+# Variables:
+#   $duplicates (Number) - Number of sentences which got rejected because they are duplicates
+sc-add-result =
+    { $duplicates ->
+        [0] [0] Mafoko a rometšego. { $duplicates } mafoko a ile a ganwa ka ge e le dilo tše pedi tša go swana.
+        [one] { "" }
+       *[other] { "" }
+    }
 
 ## ADD SENTENCES CONFIRMATION
 
+sc-confirm-uploading = Mafoko a tsenywa. Se se ka tšea metsotso e mmalwa go ya ka gore ke mafoko a ma kae a tsenywago. Re kgopela o se ke wa tswalela wepesaete.
 
 ## LANGUAGE INFO
 
