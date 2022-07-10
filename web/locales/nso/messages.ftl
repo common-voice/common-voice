@@ -5,6 +5,7 @@ email-input =
     .label = E-meile
 loading = Loading...
 email-opt-in-info = Ke tla rata go hwetša di e-meile tša go swana le dikgopotšo tša  dipakane, sebontšhatšwelopele le magwalo a ditaba  tša Common Voice.
+not-available-abbreviation = Ga e gona
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -19,6 +20,7 @@ af = Se-Afrikanse
 am = Se-Amharic
 an = Se-Aragonese
 ar = Se-Arabic
+arn = Se-Mapudungun
 as = Ma-Assamese
 ast = Ma-Asturia
 az = Ma-Azerbaijani
@@ -78,9 +80,21 @@ ko = Se-Korea
 kpv = Se-Komi-Zyrian
 kw = Se-Cornish
 ky = Se-Kyrgyz
+lb = Se-Luxembourgish
+lg = Se-Luganda
 lij = Se-Ligurian
 lt = Ma-Lithuanian
 lv = Se-Latvian
+mai = Se-Maithili
+mdf = Se-Moksha
+mg = Se-Malagasy
+mk = Se-Macedonian
+ml = Se-Malayalam
+mn = Se-Mongolia
+mos = Ma-Mossi
+mr = Se-Marathi
+ms = Se-Malay
+mt = Se-Maltese
 my = Se-Burmese
 myv = Se-Erzya
 nl = Se-Dutch
@@ -101,6 +115,7 @@ help = Thuša
 contact = Kgokagana
 cookies = Dikhuki
 faq = Dipotšišo tše di Botšišwago Gantši
+logout = { "" }
 
 ## Home Page
 
@@ -123,6 +138,9 @@ benefits = Mehola
 
 ## Listen Shortcuts
 
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = n
 
 ## Speak Shortcuts
 
@@ -143,6 +161,7 @@ profile-form-age =
 profile-form-gender-2 =
     .label = Bong
 hidden = Fihlilwego
+male = Monna
 female = Mosadi
 dashboard = Dashboard
 avatar = Avatar
@@ -269,6 +288,7 @@ data-subtitle = Re aga tatelano ya dathasete ya lentšu e bulegilego le go phatl
 data-explanatory-text = Re dumela gore dathasete tša lentšu tše dikgolo di tla hwetšagala phatlalatša di kgothaletša go tšweletša mekgwa e mefsa le tlhodišano ya kgwebo e matla go theknolotši ya go mantšu e thekgilwego ke motšhene. Se ke boiteko ba lefase ka moka gomme re mema motho yo mongwe le yo mongwe go tšea karoko. Boikemišetšo bja rena ke go thuša theknolotši le poledišano gore e tsentšhwe batho ka moka, e bonagatše mehuta e fapa-fapanego ya mantšu a tšwago lefaseng ka bophara.
 dataset-date = Letšatši
 license = Laesense: <licenseLink>{ $license }</licenseLink>
+license-mixed = Tswakane
 data-download-singleword-callout-v2 = Se ke karolo e hlohloletšwago ke seripa sa go ba le datha go matlafatša temogo ya dinomoro tše bolelwago le go bonwa ga ee/aowa.
 
 ## Datasets Page
@@ -284,6 +304,7 @@ datasets-positioning =
 language = Leleme
 cv-license = Laesense
 size-gigabyte = GB
+size-megabyte = MB
 download-language = Tanelouto { $language }
 dataset-description-hours =
     Engwe le engwe yeo e tsenego dathasete e na le MP3 e fapanego le faele e tsamaišanago le mongwalo. Bontši bja <b>{ $total }</b> diiri tšeo gatišitšwego ka gare ga dathasete di akaretša gape le boitsebošo bja dintlha tša palo ya batho bjalo ka mengwaga, le bong bja motho, le mmolelo seo a ka thušago go eteletša go nepagetša ga tlhathollo ya mantšu tša temogo. 
@@ -296,6 +317,7 @@ data-other-librispeech-description = LibriSpeech ke pokello ya dipego ya diiri  
 data-other-voxforge-description = VoxForge e beilwe go kgobokanya polelo e fetotšwego gore e berikišwe ka Mahala le Mothopo o Bulegilego wa Di-entšene tša Tlhathollo ya Polelo.
 your-feedback = Afa o nale dikgopolo gore re ka dirang gore dathasete ya Common Voice e be kaone? Re tsebiše go Discourse
 missing-language = Ga o bone polelo ya gago bonagatša go dathasete? Go kgopela polelo e ya go letlakala la rena la Dipolelo.
+more = Fetago
 close = Kgaufsi
 download = Tanelouto
 
@@ -304,6 +326,10 @@ download = Tanelouto
 
 ## Contact Modal
 
+contact-form-name =
+    .label = Leina
+contact-form-message =
+    .label = Molaetša
 contact-required = *nyakega
 
 ## Request Language Modal
@@ -414,6 +440,7 @@ demo-dashboard-card-body = Bakeng sa setsopolwana se sengwe le sengwe sa lentšu
 
 contribution-criteria-nav = Kriteria
 contribution-criteria-page-description = Kwešiša gore ke eng se o swanetše go se lebelela ge o theeletša dipego gomme o thutše go dira direkhoto tša gago tša lentšu di hume!
+contribution-misreadings-title = Di balo tše fošagetšego
 contribution-varying-pronunciations-description = Eba šedi pele o gana setsopolwana ka baka la gore mmadi ga a bitša lentšu ka tsela e fošagetšego, o beile kgateletšo lefelong le fošagetšego, goba go bonagala a hlokomologile letswao la potšišo. Go na le mehuta e mentši ya go bitšwa ga mantšu e didirišwago lefaseng ka bophara, yeo mohlomongwe o se ke wa ekwa setšhabeng sa geno. Ka kgopelo nea ka moedi wa tebogo go bao ba bolelago ka tsela e fapanego le ya gago.
 contribution-varying-pronunciations-description-extended = Ka lehlakoreng le lengwe, ge e ba o nagana gore mohlomogwe mmadi ga se ka ka ka gahlana le lentšu pele, gomme o dira kgakanyo e fošagetšego ka mokgwa wa piletšo ya mantšu, ka kgopelo gana. Ge e ba o sa kgonthišege, šomiša setobetšwa sa go taboga.
 contribution-background-noise-description = Re nyaka gore alkoritheme ya go ithuta ya motšhene e kgone go šoma le lešata le fapanego, ešita le mašata a magolo ao a ka amogelwago ge feela le sa go thibele go kwa mongwalo ka moka. Mmino wa bokamorago wa llela fase o LOKILE; mmino o wa godimo ka mo go lekanego go go thibela go kwa lentšu le lengwe le lengwe ga wa lokela.
@@ -436,7 +463,7 @@ sc-header-how-to = Go ithuta go
 sc-header-add = Oketša
 sc-footer-discourse = Discourse
 sc-footer-cookies = Cookies
-sc-logout-button = Logout
+sc-logout-button = Go tšwa
 
 ## HOME
 
@@ -521,6 +548,8 @@ sc-criteria-item-5-2 = Ge e ba lefoko ga le fihlelele kritheriya ya ka godimo, t
 ## REVIEW
 
 sc-review-form-button-approve = Amogela
+# Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
+sc-review-form-button-reject-shortcut = N
 
 ## SETTINGS
 
