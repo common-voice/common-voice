@@ -114,6 +114,7 @@ nia = Nias
 nl = Dutch
 nn-NO = Norwegian Nynorsk
 nr = IsiNdebele (Borwa)
+nso = Sesotho sa Lebowa
 nyn = Runyankole
 oc = Occitan
 om = Afaan Ormoo
@@ -243,10 +244,15 @@ shortcut-submit = Kgutla
 
 ## ProjectStatus
 
+# Variables:
+# $goal - number of hours representing the next goal
+status-goal = Dipheo tse Latelang: { $goal }
 english = Sekgowa
 
 ## ProfileForm
 
+profile-form-native-language =
+    .label = Puo ya Letswele
 profile-form-additional-language =
     .label = Puo ya tlatsetso
 profile-form-language =
@@ -387,6 +393,7 @@ dataset-version = Mofuta
 
 ## Download Modal
 
+download-no = Tjhe Kea Leboha
 
 ## Contact Modal
 
@@ -540,6 +547,7 @@ sc-header-home = Hae
 sc-header-how-to = Mokgwa wa ho
 sc-header-add = Eketsa
 sc-header-review = Hlahloba
+sc-header-my = Dipolelo tsa ka
 sc-header-statistics = Dipalo-palo
 sc-header-profile = Profaele
 sc-footer-discourse = Discourse
@@ -562,6 +570,7 @@ sc-howto-cite-item-3 = Bakeng sa mongolo wa setjhaba o sa fumaneheng marang-rang
 
 ## MY SENTENCES
 
+sc-my-title = Dipolelo tsa ka
 # Variables:
 #   $source (String) - Associated source the user filled out when uploading the sentence
 sc-my-source = Mohlodi: { $source }
