@@ -39,6 +39,7 @@ cv = Chuvash
 cy = Welsh
 da = Danish
 de = German
+dsb = Sorbian, Tlase
 dv = Dhivehi
 dyu = Dioula
 el = Segerike
@@ -61,6 +62,7 @@ ha = Hausa
 he = Seheberu
 hi = Hindi
 hr = Croatian
+hsb = Sorbian, Hodimo
 ht = Haitian
 hu = Hungarian
 hy-AM = Armenian
@@ -143,6 +145,7 @@ so = Somali
 sq = Albanian
 sr = Serbian
 ss = Siswati
+st = Sesotho sa Borwa
 sv-SE = Swedish
 sw = Swahili
 syr = Syriac
@@ -182,6 +185,7 @@ zu = Zulu
 
 ## Layout
 
+speak-now = Bua hona jwale
 datasets = Dipokello tsa data
 languages = Dipuo
 about = Ka
@@ -351,6 +355,7 @@ about-playbook-how-project-governance-content-6 = Boikarabello ka kopanelo.
 ## Glossary
 
 glossary = Bukana ya mantswe
+sst = Puo-ho-sengolwa (STT)
 de-identified = E tlositsweng dintlha tsa botho
 
 ## Error pages
@@ -440,6 +445,7 @@ contribute = Kenya letsoho
 listen = Mamela
 skip = Tlola
 shortcuts = Dikgaoletso
+record-cta = Qala ho rekota
 record-cancel = Hlakola ho rekota hape
 record-stop-instruction = { $actionType }<stopIcon></stopIcon> ha o qetile
 record-last-instruction = <recordIcon></recordIcon> Ya ho qetela!
