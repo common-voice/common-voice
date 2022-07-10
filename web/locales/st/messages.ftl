@@ -107,20 +107,24 @@ mt = Maltese
 my = Burmese
 myv = Erzya
 nan-tw = Taiwanese (Minnan)
+nb-NO = Norwegian Bokmål
 nd = IsiNdebele (Leboya)
 ne-NP = Nepali
 nia = Nias
 nl = Dutch
+nn-NO = Norwegian Nynorsk
 nr = IsiNdebele (Borwa)
 nyn = Runyankole
 oc = Occitan
 om = Afaan Ormoo
 or = Odia
 pa-IN = Punjabi
+pap-AW = Papiamento (Aruba)
 pl = Polish
 ps = Pashto
 pt = Portuguese
 quc = K'iche'
+quy = Quechua Chanka
 rm-sursilv = Romansh Sursilvan
 ro = Romanian
 ru = Russian
@@ -191,6 +195,7 @@ logout = Tswa
 
 ## Home Page
 
+show-wall-of-text = Bala Haholwanyane
 no-clips-to-validate = Ho bonahala eka ha ho na di-clip tsa ho mamela ka puo ena. Re thuse ho tlatsa letoto ka ho rekota tse ding hona jwale.
 vote-yes = Ee
 vote-no = Tjhe
@@ -232,6 +237,7 @@ shortcut-vote-no = n
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-record-toggle = r
 shortcut-record-toggle-label = Rekota/Ema
+shortcut-rerecord-toggle-label = Rekota clip hape
 shortcut-discard-ongoing-recording = ESC
 shortcut-submit = Kgutla
 
@@ -266,6 +272,7 @@ goals = Dipheo
 settings = Ditlhophiso
 edit-profile = Fetola Profaele
 profile-close = Kwala
+accept-privacy-title = Leano la Lekunutu
 login-identity = Boitsebiso ba ho Kena
 edit = Lokisa
 email-subscriptions = Dipeeletso tsa Email
@@ -395,6 +402,7 @@ contact-required = *E ya hlokahala
 request-language-title = Kopo ya Puo
 request-language-form-language =
     .label = Puo
+other-language = Puo e nngwe
 
 ## Request Language Pages
 
@@ -432,7 +440,10 @@ target-segment-learn-more = Ithute haholwanyane
 ## Reporting
 
 report = Tlaleha
+report-offensive-language = Puo e kgopisang
+report-offensive-language-detail = { "" }
 report-different-language = Puo e fapaneng
+report-offensive-speech = Puo e kgopisang
 report-other-comment =
     .placeholder = Hlahisa Maikutlo
 success = Katleho
@@ -450,6 +461,7 @@ awards = Dikgau
 you = Wena
 everyone = Bohle
 contribution-activity = Mosebetsi wa Monehelo
+overall-accuracy = Ho Nepa Ka Kakaretso
 
 ## Custom Goals
 
