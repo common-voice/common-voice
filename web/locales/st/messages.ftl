@@ -216,6 +216,11 @@ hours-validated = Dihora tse netefaditsweng
 todays-progress = Tswelopele ya kajeno
 all-locales = Koafela
 today = Kajeno
+x-weeks-short =
+    { $count ->
+        [one] Beke
+       *[other] beke
+    }
 
 ## Account Benefits
 
@@ -514,6 +519,11 @@ recordings =
         [one] rekoto
        *[other] direkoto
     }
+validations =
+    { $count ->
+        [one] Netefatso
+       *[other] Dinetefatso
+    }
 
 ## Dashboard
 
@@ -689,6 +699,9 @@ sc-add-err-submission = Phoso ya Thomello
 ## ADD SENTENCES CONFIRMATION
 
 sc-confirm-sentences-title = Netefatsa Dipolelo tse Ntjha
+# Variables:
+#   $countOfInvalidated (Number) - Number of sentences the user rejected in the review form before submission
+sc-confirm-rejected-by-you = { $countOfInvalidated } e hannweng ke wena
 sc-confirm-button-text = Netefatsa
 sc-confirm-uploading = Dipolelo di ntse di kenngwa. Sena se ka nka metsotso e mmalwa ho latela palo ya dipolelo tse kentsweng. Ka kopo seke wa kwala sebaka sena sa marang-rang.
 
@@ -709,6 +722,9 @@ sc-login-err-failed = Ho kena ho hlolehile
 sc-profile-title = Profaele: { $username }
 sc-personal-your-languages = Dipuo tsa hao:
 sc-personal-remove-button = tlosa
+# Variables:
+#   $sentences (Number) - Number of sentences that were added by the currently logged in user for this language
+sc-personal-added-by-you = { $sentences } tse kentsweng ke wena
 
 ## REVIEW CRITERIA
 
