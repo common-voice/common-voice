@@ -366,6 +366,7 @@ about-playbook-how-add-language-collecting-sentences-heading = Ho bokella dipole
 
 about-playbook-how-grow-language-content-2 = Diketsahalo
 about-playbook-how-grow-language-content-4 = Metjha ya ditaba ya setjhaba
+about-playbook-how-grow-language-content-6 = Dikamano le marang-rang
 
 ## How to validate
 
@@ -393,6 +394,7 @@ error-code = Phoso { $code }
 data-download-yes = Ee
 data-download-deny = Tjhe
 data-download-license = Laesense: <licenseLink>CC-0</licenseLink>
+data-other-title = Dipokello tsa data tse ding
 data-other-goto = Eya ho { $name }
 data-other-download = Download-a Data
 release-version = Mofuta
@@ -411,6 +413,7 @@ language = Puo
 size = Boholo
 cv-license = Laesense
 audio-format = Sebopeho sa audio
+number-of-voices = Palo ya Mantswe
 splits = E arohane
 size-gigabyte = GB
 size-megabyte = MB
@@ -418,6 +421,7 @@ download-language = Download-a { $language }
 validated-hours = Dihora tse netefaditsweng
 recorded-hours = Dihora tse Rekotilweng
 subscribe = Ngodisa
+other-datasets = Dipokello tsa Data tse Ding
 feedback-q = O na le Maikutlo?
 community-playbook = Buka ya ho bapala ya setjhaba
 resource-playbook-info = <playbookLink>Fumana tataiso e thusang</playbookLink> leetong lohle la Common Voice, ho tloha sebakeng sa lehae ho isa tshebedisong ya dataset, mmoho le mokgwa wa ho hokahana le setjhaba sa rona.
