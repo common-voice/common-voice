@@ -150,6 +150,7 @@ ur = Urdu
 uz = Uzbek
 ve = Tshivenda
 vec = Venetian
+yo = Yoruba
 yue = Cantonese
 zh-TW = Chinese (Taiwan)
 
@@ -296,6 +297,7 @@ error-code = Phoso { $code }
 ## Data
 
 data-download-deny = Tjhe
+release-version = Mofuta
 license-mixed = E tswakantswe
 review-recording = Hlahloba
 review-rerecord = Rekota hape
@@ -375,6 +377,7 @@ streaks = Melapo
 
 stats = Dipalo-palo
 awards = Dikgau
+you = Wena
 everyone = Bohle
 
 ## Custom Goals
