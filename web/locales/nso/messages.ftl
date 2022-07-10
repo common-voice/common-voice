@@ -1,6 +1,7 @@
 ## General
 
 stayintouch = Rena ba Mozilla re aga setšhaba mabapi le theknolotši ya lentšu. Re lakatša go dula re ikgokagantše le diphetogo, methopo e mpsha ya datha le go kwa ka mo go oketšegilego ka mokgwa wa go diriša datha tšeo.
+email-opt-in-info = Ke tla rata go hwetša di e-meile tša go swana le dikgopotšo tša  dipakane, sebontšhatšwelopele le magwalo a ditaba  tša Common Voice.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -68,6 +69,7 @@ faq-do-want-native-a = Ee, ka go kgethega re nyaka lentšu la gago! Karolo ya bo
 faq-why-different-speakers-a =
     Bontši bja dathabeise di eteletšwa go bontšha palo e feteletšego ya palo ya batho e sekametšego go lebana le<articleLink> banna le maemo a magareng</articleLink>. Mmolelo le mebolelwana ao a atišago go sekametšego go emelwa ka tlase go di datha sete di eteletšwe gantši di tswalaganywago le dihlopha tša batho bao ba šetšego ba boeletšwe ka thoko. Metšene e mentši le yona e thatafalelwa go kwešiša mantšu a basadi. 
     Ke kamoo polokelong ya rena ya lentšu re nyakang mehuta e fapa-fapanego!"
+faq-what-quality-q = Ke kgato efe ya khwalithi ya odio e nyakegago go pego ya lentšu gore e berekišwe go dathasete?
 faq-what-quality-a = Re nyaka gore dathasete ya Common Voice e bonagatše seka sa theetšwago temogo ya sefetošetšamantšung dingwalwa e tla kwala nageng, kamoo re nyaka mehuta e fapa-fapanego. Go tlaleletša ntle le diboledi tše dintši tša go fapana, dathasete e nago le odio yeo e fapanego e tla ruta temogo ya sefetošetšamantšung dingwalwa go berekišana le maemo a fapanego a lefase, go tloga bokamorago go bolela le lešata ka koloi. Ge feela o dikarolwana tša lentšu la gago le sa kwagale, le tla swanela go ba se se loketšego dathasete.
 faq-where-src-from-2-a =
     Mothopo wa rena wa mangwalo o dirilwe ka meneelo wa batsenyaletsogo ba mathomo gotee le dipoledišano tšeo di tšwago go mengwalong ya difilimi tša setšhaba tša go swana le <italic>It's a Wonderful Life</italic>. 
@@ -75,6 +77,7 @@ faq-where-src-from-2-a =
     O ka lebelela mafoko a rena a mothopo ka <githubLink>foltareng yeo ya GitHub</githubLink>. "
 faq-why-not-ask-read-a = Go dira gore dathasete ya Common Voice e be molemo ka moo go ka kgonegago, re tšere sephetho sa go dumelela mothopo wa mogwalo feela go hwetšagala ka tlase ga laesense ya Creative Commons (CC0). Go šomiša maemo a CC0 go bolela gore go boima kudu go hwetša le go kgoboketša mothopo wa mogwalo, eupša go dumelela mang le mang go šomiša dintlha tša lentšu ka ntle ga dithibelo tša ditirišo goba tumelelo go tšwa go Mozilla. Mafelelong, re nyaka go dira gore dathasete ya maleme a mantši/polelo e ntši e be molemo ka moo go ka kgonegago go motho yo mongwe le yo mongwe, go akaretša banyakišiši, diyunibesithi, ba thomago, mebušo, mekgatlo ya merero ya setšhaba, le batho ba ratago go itloša bodutu.
 faq-how-privacy-a = Dikarolo ka moka tša lentšu go dathasete di hlakotšwe boitsebišo bja motho. Ge moneedi a nea datha tša palo ya batho ka profaele ya bona, tsebišo yeo e itlhaotše go tšwa ditsopolwa tša lentšu pele e ka tlangwa go taneloutiwa go dathasete gomme ga go mohla e phatlalatšwa letlakaleng la boemo bja rena.
+faq-what-determine-identity-q = Go ra go reng gore ga ke kgone go "Utolla boitsebišo" ka diboledi go dathasete ya Common Voice?
 faq-what-determine-identity-a =
     "The Common Voice dathasete ke se dirišwa seo se bolegilego ebile se hwetšagala phatlalatša se ka be rekišwa go eteletšwa mehuta e fapanego ya disebedišwa tša go kgona go bolela. Go sireletša tšhireletšo baneedi ba rena, re kgopela motho yo mongwe le yo mongwe yo a taoneloutago Common Voice go hlompha sephiring sa baneedi. 
     
@@ -124,10 +127,12 @@ about-playbook-how-record-content-4 = Kgonthišetša gore sethaleng se ya rekhot
 
 about-playbook-how-grow-language-content-3 = O ka tsamaiša ditiragalo go thuša batho go neela. Go bonolo go feta kamoo o naganago ka gona. O ka e dira inthaneteng ka go diriša lenaneo la bidio inthaneteng, goba motho ka nama ge e ba go bolokegile. <eventTemplate>Lebelela dithempleite tša rena le ditlabakelo tša go tsamaiša ditiragalo</eventTemplate>.
 about-playbook-how-grow-language-content-5 = O ka šomiša lekgotla la poledišano ya inthaneteng go kgona go iša molaetša go batho ka moka. Abelana melaetša e hlalosago gore na ke baka la eng go le bohlokwa, gomme o ikgokaganye le batho ba bangwe bao ba bolelago ka mathata a go swana le ditokelo tša polelo, lentšu la AI, goba tshekamelo go theknolotši. Bona dikeletšo tše dingwe mabapi le<campaignLink> go tsamaiša lesolo  la setšhaba, go akaretša le diteng tšeo o ka di šomišago gape</campaignLink>.
+about-playbook-how-grow-language-content-8 = <strong>Diriša bohlale!!</strong> Polelo ya geno e tla ba moswananoši, tše ke ditsela tše mmalwa tša go thoma.
 
 ## How to validate
 
 about-playbook-how-validate-content-3 = Ge e ba o nagana gore mokgwa wa go piletšo ya mantšu e dira gore go<strong> se ke gwa kgonega go kwešišana</strong>, goba go na <strong> lešata le lentši</strong>, goba go ba le<strong>batho ba bagwe bao ba bolelago</strong>, bjale o ka gana setsopolwa seo. <accuracyLink>Bona tshedimošo ye nngwe ya kritheriya ya go nepagala</accuracyLink>.
+about-playbook-how-validate-content-4 = Ge e le gore pego e ganwe ke batho ba babedi (2), e tla lokollwa ka gare ga sehlopha se fapanego sa dathasete.
 
 ## How to access dataset
 
@@ -153,6 +158,7 @@ data-download-singleword-callout-v2 = Se ke karolo e hlohloletšwago ke seripa s
 
 ## Datasets Page
 
+datasets-headline = Re aga dathasete e bulegilego, ya go ba le dipolelo tše dintši ya mantšu a ka šomišago ke mang le mang go tlwaetša tirišo ye dumelago polelo.
 datasets-positioning =
     Re dumela gore dathasete tša lentšu tše dikgolo di tla hwetšagala phatlalatša di kgothaletša go tšweletša mekgwa e mefsa le tlhodišano ya kgwebo e matla go theknolotši ya mantšu e thekgilwego ke motšhene.
     
@@ -163,10 +169,12 @@ dataset-description-hours =
     Engwe le engwe yeo e tsenego dathasete e na le MP3 e fapanego le faele e tsamaišanago le mongwalo. Bontši bja <b>{ $total }</b> diiri tšeo gatišitšwego ka gare ga dathasete di akaretša gape le boitsebošo bja dintlha tša palo ya batho bjalo ka mengwaga, le bong bja motho, le mmolelo seo a ka thušago go eteletša go nepagetša ga tlhathollo ya mantšu tša temogo. 
     
     Dathasete ga bjale di na le <b>{ $valid }</b> diiri tšeo di netegaditšwego ka dipolelo<b>{ $languages }</b>, eupša re dula ka mehla re okeditše mantšu le maleme a mangwe. Ela hlogo <languagesLink>letlakaleng la rena la Dipolelo</languagesLink> go kgopela polelo goba go thoma go neela.
+want-dataset-update = O nyaka di mpshafatšo ge re lokolla di bešene tše mpsha tša dathasete ya Common Voice? Ngwadiša go lengwalo la rena la ditaba.
 resource-playbook-info = <playbookLink>Hwetša keletšo ya maleba </playbookLink> go leeto le feletšego la Common Voice, go tšwa mo o dulago gona go ya go tirišo ya datha, le gore le kopana bjang le setšhaba sa rena.
 data-other-librispeech-description = LibriSpeech ke pokello ya dipego ya diiri  tše ka bago tše 1000 tša 16Khz tše di balwago ka polelo ya Seisemane e tšwerego dipukeng tša odio tše balwago tša go tšwa  morerong wa LibriVox.
 data-other-voxforge-description = VoxForge e beilwe go kgobokanya polelo e fetotšwego gore e berikišwe ka Mahala le Mothopo o Bulegilego wa Di-entšene tša Tlhathollo ya Polelo.
 your-feedback = Afa o nale dikgopolo gore re ka dirang gore dathasete ya Common Voice e be kaone? Re tsebiše go Discourse
+missing-language = Ga o bone polelo ya gago bonagatša go dathasete? Go kgopela polelo e ya go letlakala la rena la Dipolelo.
 
 ## Download Modal
 
@@ -202,6 +210,7 @@ visibility-explainer = Peakanyo ye e laola ke ponagalo ya kelo ya baetapele. Ge 
 
 ## Custom Goals
 
+receiving-emails-info = Gona bjale o loketše go hwetša di-emeile tša go swana le dikgopotšo tša dipakane, sebontšhatšwelopele le mangwalo a ditaba tša Common Voice.
 not-receiving-emails-info = Gona bjale o ka <bold>GANA</bold> go hwetša lenaneo la poso la dikgopotšo tša dipakane,  sebontšhatšwelopele le mangwalo a ditaba tša Common Voice
 # LINK will be replaced with the current URL
 goal-share-text = Ke fetša go hlangwa pakane ya go neela ka lentšu go #CommonVoice -- a re hlakane gomme re thuše go ruta metšhene gore na batho ba nnete ba bolela bjang { $link }
