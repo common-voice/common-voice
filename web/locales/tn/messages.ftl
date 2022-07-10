@@ -19,10 +19,15 @@ af = Se-Afrikaans
 am = Se-Amharic
 an = Se-Aragon
 ar = Se-Arabia
+as = Se-Assam
 ast = Se-Asturia
 ba = Se-Bashkir
 bas = Se-Basaa
+bg = Se-Bulgaria
+bxr = Se-Buryat
 eu = Se-Basque
+hy-AM = Se-Armania
+my = Se-Burma
 sq = Se-Albania
 
 # [/]
@@ -92,6 +97,7 @@ why-profile-text =
 avatar = Setshwantsho
 profile-explanation = Ela tlhoko kgatelopele ya gago o dirisa porofaele mme o thuse tshedimosetso ya rona ya mantswe gore e nepagale thata.
 why-demographic-explanation-2 = Tshedimosetso ya botlhokaina jaaka dingwaga, bong le segalo di tla thusa go tokafatsa go nepa ga didirisiwa tsa go lemoga mantswe. Leinatiriso le imeile ya gago di ka se amanngwe le tshedimosetso ya gago e e rometsweng, mme o ka tlhopha gore a o batla go senola kgotsa go fitlha leinatiriso la gago.
+accept-privacy = Ga ke na bothata le gore lo dirise tshedimosetso eno jaaka lo tlhalosa mo <privacyLink>Molawaneng wa Polokodiphiri</privacyLink> wa Mozilla
 skip-submission-description = Ka nako ya thomelo ya dikabo, maikutlo a tla tlolwa morago ga go tobetsa 'Romela'. Kabo e tla tswelela ka tlhamalalo ka dikgatiso kgotsa ditlhomamiso tse 5 tse di latelang.
 skip-submission-note = Ela tlhoko: O santse o tlhoka go tlhopha magareng ga Bua kgotsa Reetsa gore o fetole botsayakarolo jwa gago.
 help-accent-explanation = Segalo sa gago ke tsela e o bitsang mafoko ka yone. Se ka tlhotlhelediwa ke lefelo le o kileng wa tshela mo go lone, dipuo tse dingwe tse o kgonang go di bua, le dilo tse dingwe tse dintsi. O ka abalana tshedimosetso nngwe le nngwe e o akanyang gore e botlhokwa fano.
@@ -137,6 +143,7 @@ faq-where-src-from-2-a =
     O ka leba dipolelo tsa rona mo faeleng eno ya <githubLink>GitHub</githubLink>.
 faq-why-not-ask-read-q = Goreng o sa kope batho go bala dibuka kgotsa ditlhogo tsa Wikipedia ka dipuo tse di farologaneng?
 faq-why-not-ask-read-a = Go dira gore tshedimosetso ya Common Voice e nne mosola kafa go ka kgonegang ka gone, re dirile tshwetso ya go letlelela fela mokwalo o o leng teng mo laesenseng ya Creative Commons (CC0). Go dirisa molawana wa CC0 go raya gore go thata go bona le go kgobokanya mokwalo wa konokono, mme go letla gore mongwe le mongwe a dirise tshedimosetso e e felelang ka gone ya mantswe kwantle ga dithibelo tsa tiriso kgotsa tetlelelo ya Mozilla. Kwa bofelong, re batla gore tshedimosetso ya dipuo tse dintsi e nne mosola go mongwe le mongwe kafa go ka kgonegang ka gone, go akaretsa babatlisisi, diyunibesithi, dithulaganyo tsa tshimologo, dipuso, mekgatlho ya boikaelelo jwa loago, le batho ba ba dirang dilo go itlosa bodutu.
+faq-how-privacy-q = Lo tlhomamisa jang gore go nna tshedimosetso le diphiri tsa batho ba ba abelanang mantswe ga di phasaladiwe?
 faq-what-determine-identity-q = Go tewa jang fa go twe ga ke kgone go "lemoga boikitsiso" jwa babui ba ba mo direkotong tsa tshedimosetso mo Common Voice?
 faq-what-determine-identity-a =
     Tshedimosetso ya Common Voice ke sedirisiwa se se leng teng sa batho botlhe se se ka dirisiwang go thapisa dithulaganyo tse di farologaneng tsa puo. Go sireletsa tshireletsego ya baabi ba rona, re kopa gore mongwe le mongwe yo a itseelang tshedimosetso ya Common Voice a tlotle bosephiri jwa baabi.
@@ -233,6 +240,7 @@ about-playbook-how-project-governance-content-1 = Mozilla Common Voice e kgonega
 ## Glossary
 
 localization-explanation = Ono ke mokgwa wa rona wa go ranola le go dira gore tshedimosetso ya rona e tsamaisane le dipuo di le dintsi.
+sentence-collection-explanation = Go amogela mela go tswa mo lefelong la batho botlhe, kgotsa go kwalela lefelo la batho botlhe e mesha.
 hours-validated-explanation = Palo ya diura tsa kgatiso ya mantswe e e tlhomamisitsweng ke badirisi ba le 2 mo go ba le 3 ka tlhopho ya “Ee”. Seno se bontsha botswelelopele jwa porojeke ka kakaretso ya mokgele wa diura tse 10k.
 de-identified-explanation = Thulaganyo e ka yone tshedimosetso ya porofaele ya moabi e fitlhegileng mo dikgatisong tsa mantswe fa e baakanyeditswe go itseelwa jaaka karolo ya tshedimosetso.
 
@@ -421,6 +429,7 @@ sc-howto-cite-pre-1 = Go botlhokwa go kwala gore o bone kae dilaesense tsa batho
 sc-howto-cite-item-2 = O ka dirisa mokgwa wa thutego wa go ntsha tshupiso, ka sekai, mokgwa wa Harvard "Mozilla (2021) Common Voice. E gone mo https://commonvoice.mozilla.org/ (E fitlheletswe ka: September 15 2021)"
 sc-howto-cite-item-3 = Fa o dirisa tshedimosetso ya batho botlhe mme e seyo mo inthaneteng, o ka dirisa mokgwa wa thutego wa go ntsha tshupiso, ka sekai, mokgwa wa Harvard "Jess (2021) My Public licence poems"
 sc-howto-review-criteria-5 = Fa polelo e sa fitlhelele ditshwanelego tse di fa godimo, tobetsa konopo ya "Gana." Fa o a tlhomamisege ka polelo , o ka e tlola mme wa fetela mo go e e latelang.
+sc-howto-review-criteria-6 = Fa o felelwa ke mela e e sekasekiwang, tsweetswee re thuse go kgobokanya mela e e oketsegileng!
 sc-howto-findpd-text-2 = Gopola gore re tlhoka tetla ya go phasalatsa dipolelo tseo, ka jalo ka metlha tlhomamisa gore mokwalo ke wa <wikipediaLink>lefelong la botlhe</wikipediaLink>. Fa go se na sepe se se bontshang ka tlhamalalo, ikgolaganye le motho yo mokwalo e leng wa gagwe mme o mmotse gore o batla go abela Lefelo la Botlhe mokwalo wa gagwe. Fa a batla go dira jalo, mo thuse gore a tsene mo thulaganyong ya <cc0WaiverLink>Tumalano ya Dikabo</cc0WaiverLink>. Fa a sa batle go aba mokwalo oo, ga o letlelelwe go o dirisa.
 sc-howto-findpd-tips-1 = Metswedi e e siameng thata e o ka e batlang ke di-podcast, ditokomane tse di kopolotsweng, disekerepiti tsa difilimi le sengwe le sengwe se se nang le metlotlo ya letsatsi le letsatsi.
 sc-howto-findpd-tips-2 = Mananeo a puso, dibuka le ditlhogo le tsone di siame, mme e re ka gantsi mokwalo o na le go gagamala thata, ga di botlhokwa go le kalo.
@@ -452,6 +461,7 @@ sc-add-result =
         [one] Mela e e rometsweng. { $duplicates } mola o gannwe ka gore o a ipoeletsa.
        *[other] Mela e e rometsweng. { $duplicates } mela e gannwe ka gore e a ipoeletsa.
     }
+sc-add-lang-process-notice = Fa puo ya gago e sa tlhage fano, o ka e kopa ka <languageProcessLink>tsela eno</languageProcessLink>.
 
 ## ADD SENTENCES CONFIRMATION
 
@@ -494,6 +504,7 @@ sc-lang-info-left-for-you =
 ## REVIEW CRITERIA
 
 sc-criteria-item-5-2 = Fa polelo e sa fitlhelele ditshwanelego tse di fa godimo, tobetsa konopo ya &quot;Gana&quot; kafa molemeng. Fa o sa tlhomamisege ka polelo, o ka e tlola mme wa ya kwa go e e latelang.
+sc-criteria-item-6 = Fa o felelwa ke mela e e sekasekiwang, tsweetswee re thuse go kgobokanya mela e e oketsegileng!
 
 ## REVIEW
 
