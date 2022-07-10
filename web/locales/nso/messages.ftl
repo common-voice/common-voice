@@ -131,11 +131,27 @@ sv-SE = Se-Swedish
 sw = Se-Swahili
 syr = Se-Syriac
 ta = Se-Tamil
+te = Se-Telugu
 tg = Se-Tajik
+th = Se-Thai
+ti = Se-Tigrinya
+tig = Se-Tigre
+tk = Se-Turkmen
 tl = Se-Tagalog
 tn = Setswana
+tr = Se-Turkish
 tt = Se-Tatar
+tw = Se-Twi
 ty = Se-Tahitia
+uby = Se-Ubykh
+udm = Se-Udmurt
+ug = Se-Uyghur
+uk = Se-Ukrainia
+ur = Se-Urdu
+uz = Se-Uzbek
+ve = Se-Venda
+vec = Se-Venetian
+vi = se-Vietnamese
 yue = Se-Cantonese
 
 # [/]
@@ -151,6 +167,7 @@ profile = Setshwanso
 help = Thuša
 contact = Kgokagana
 privacy = Sephiri
+terms = Mantšu
 cookies = Dikhuki
 faq = Dipotšišo tše di Botšišwago Gantši
 logout = { "" }
@@ -164,6 +181,7 @@ no-clips-to-validate = Go bonagala nkare ga gona ditsopolwana tše o ka di theel
 vote-no = Aowa
 speak-paragraph = Go gatiša dipego tša lentšu ke karolo e bohlokwa ya go aga dathasete ya rena e bulegilego; ba bangwe ba ka re ke karolo ya go thabiša le yona.
 all-locales = Ka moka
+today = Lehono
 
 ## Account Benefits
 
@@ -214,6 +232,7 @@ profile-form-age =
 profile-form-gender-2 =
     .label = Bong
 hidden = Fihlilwego
+visible = Bonagala
 profile-form-submit-save = Boloka
 profile-form-submit-saved = Bolokegile
 male = Monna
@@ -349,6 +368,7 @@ error-code = Phošo { $code }
 data-download-deny = Aowa
 data-subtitle = Re aga tatelano ya dathasete ya lentšu e bulegilego le go phatlalatšwa gore batho ka moka ba ka e berikšago go tlwaetša ditirišo tša go dumela polelo.
 data-explanatory-text = Re dumela gore dathasete tša lentšu tše dikgolo di tla hwetšagala phatlalatša di kgothaletša go tšweletša mekgwa e mefsa le tlhodišano ya kgwebo e matla go theknolotši ya go mantšu e thekgilwego ke motšhene. Se ke boiteko ba lefase ka moka gomme re mema motho yo mongwe le yo mongwe go tšea karoko. Boikemišetšo bja rena ke go thuša theknolotši le poledišano gore e tsentšhwe batho ka moka, e bonagatše mehuta e fapa-fapanego ya mantšu a tšwago lefaseng ka bophara.
+release-version = Bešene
 dataset-date = Letšatši
 license = Laesense: <licenseLink>{ $license }</licenseLink>
 license-mixed = Tswakane
@@ -389,6 +409,7 @@ missing-language = Ga o bone polelo ya gago bonagatša go dathasete? Go kgopela 
 more = Fetago
 close = Kgaufsi
 download = Tanelouto
+dataset-version = Version
 
 ## Download Modal
 
@@ -420,6 +441,7 @@ request-language-error = Re ka be re sa hwetša kgopelo yeo. Ka kgopelo re romel
 language-section-in-progress-new-description = Maleme a gona bjale a ka tlase ga tšwelopele ya setšhaba. <localizationGlossaryLink>wepesaeteng ya kgauswi</localizationGlossaryLink> le <sentenceCollectionGlossaryLink> kgoboketšo ya mantšu</sentenceCollectionGlossaryLink> e nyakega go thoma.
 language-section-launched = Hloma
 language-meter-in-progress = Tšwelopele
+language-total-progress = Palo-moka
 language-search-input =
     .placeholder = Nyakiša
 language-speakers = Diboledi
@@ -538,6 +560,7 @@ contribution-background-noise-description = Re nyaka gore alkoritheme ya go ithu
 contribution-background-noise-description-extended = Ge e ba kgatišo e ka arogana, goba e nale go kgakgatha, e ganwe ntle le gore mongwalo o feletšego e sa kwagala.
 contribution-background-voices-description = Lefelong la bokamorago le se nago lešata le LOKILE, eupša ga re nyake mantšu a mangwe a ka dirago gore mokgwa wa motšhene o kgetholwe mantšu ao a se be gona mongwalong. Ge e ba o ka kwa mantšu a phapano go ao a lego mongwalong, setsopolwana se swanetše go ganwa. Se se tlwaetše go diragala moo TV e tlogetšwego, goba moo poledišano e diragalago kgauswi le moo.
 contribution-background-voices-description-extended = Ge e ba kgatišo e ka arogana, goba e nale go kgakgatha, e ganwe ntle le gore mongwalo o feletšego e sa kwagala.
+contribution-volume-title = Bolumo
 contribution-volume-description = Go tla ba le phaphano ya tlhago ya modumo magareng ga babadi. Gana feela ge e ba modumo o le godimo kudu moo rekhotilwego e sa kwale botse, goba (seo se tlwaelegilego kudu) ge e ba e le tlase moo e sa kwale gore go boletšwe eng ka ntle le go lebelela mo go ngwadilego.
 contribution-reader-effects-description = Dikgatišo tše dintši ke tša batho bao ba bolelago lentšu ka bona la tlhago. O ka amogela rekhoto e sa tlwaelegago ya nako le nako e goeletša, e sebela, goba ka go hlakodiša molaleng ka lentšu le ‘makatšago’. Ka kgopelo gana direkhoto tšeo di opelwago le tšeo di dirišago lentšu leo le dirilwego ka khomphutha.
 contribution-just-unsure-description = Ge e ba o kopana le selo seo dikeletšo tšeo di se ke tša akaretšwa, ka kgopelo kgetha go ya ka kahlolo ya gago e botse. Ge e ba ruri o ka se kgone go tšea sephetho, diriša setobetšwa sa go taboga gomme o fetele go kgatišo e latelago.
@@ -557,6 +580,7 @@ sc-header-statistics = Dipego
 sc-header-profile = Profaele
 sc-footer-discourse = Discourse
 sc-footer-privacy = Bo Noši
+sc-footer-terms = Leina
 sc-footer-cookies = Cookies
 sc-logout-button = Go tšwa
 
@@ -600,6 +624,7 @@ sc-my-source = Mothopo: { $source }
 ## STATS
 
 sc-stats-title = Dipalo-palo
+sc-stats-updating = E ya mpshafatšwa...
 
 ## ADD
 
@@ -630,6 +655,7 @@ sc-confirm-uploading = Mafoko a tsenywa. Se se ka tšea metsotso e mmalwa go ya 
 
 ## LANGUAGE INFO
 
+sc-lang-info-title-total = Feletšego
 sc-lang-info-title-personal = Ya motho ka noši
 # Variables:
 #   $unreviewedSentencesByYou (Number) - Number of sentences the user can still review
