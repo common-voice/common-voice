@@ -278,6 +278,7 @@ profile-form-additional-language =
     .label = Puo ya tlatsetso
 profile-form-language =
     .label = Puo
+profile-form-variant-default-value = Ha ho mofuta o kgethilweng
 profile-form-age =
     .label = Dilemo
 profile-form-gender-2 =
@@ -317,6 +318,7 @@ remove-avatar = Tlosa Avatar
 ## Profile - Email
 
 manage-subscriptions = Laola Dipeeletso
+manage-email-subscriptions = Laola Dipeeletso tsa Email
 add-language = Kenya Puo
 
 ## FAQ
@@ -329,6 +331,7 @@ add-language = Kenya Puo
 
 about-localization-title = Ho etsa sebaka sa marang rang selehae
 about-sentence-collection-title = Pokello ya Dipolelo
+about-new-lang-title = Ho Qala Puo e Ntjha
 about-voice-contrib-title = Nehelano ya Lentswe
 about-voice-validation-title = Netefatso ya Lentswe
 about-dataset-release-title = Tokollo ya Pokello ya Data
@@ -403,6 +406,7 @@ terms-agree = Kea dumela
 review-recording = Hlahloba
 review-rerecord = Rekota hape
 review-cancel = Hlakola ho Romela
+review-keep-recordings = Boloka direkoto
 review-delete-recordings = Hlakola direkoto tsa ka
 
 ## Datasets Page
@@ -485,6 +489,7 @@ clips-with-count-pluralized =
        *[other] Di-Clip
     }
 record-cta = Qala ho rekota
+record-no-mic-found = Ha ho maekerofounu e fumanweng.
 record-cancel = Hlakola ho rekota hape
 record-stop-instruction = { $actionType }<stopIcon></stopIcon> ha o qetile
 record-last-instruction = <recordIcon></recordIcon> Ya ho qetela!
@@ -592,6 +597,7 @@ welcome-staff = Amohela { $company } basebetsi!
 
 ## DemoLayout
 
+demo-get-started = Ha Re Qale
 
 ## Demo Datasets
 
@@ -646,6 +652,7 @@ sc-footer-report-bugs = Tlaleha bothata bo sa lebellwang
 sc-footer-privacy = Lekunutu
 sc-footer-terms = Dipehelo
 sc-footer-cookies = Di-cookie
+sc-login-signup-button = Kena / Ngodisa
 sc-logout-button = Tswa
 
 ## HOME
@@ -660,12 +667,15 @@ sc-home-review-title = Hlahloba Dipolelo
 
 sc-howto-title = Mokgwa wa ho
 sc-howto-addsen-title = Kenya dipolelo tse ntjha
+sc-howto-cite-title = Mokgwa wa ho Qotsa
 sc-howto-cite-item-3 = Bakeng sa mongolo wa setjhaba o sa fumaneheng marang-rang, o ka sebedisa mokgwa wa ditshupiso tsa thuto, mohlala, mokgwa wa Harvard "Jess (2021) dithothokiso tsa ka tsa laecence ya setjhaba"
 sc-howto-review-title = Hlahloba Dipolelo
 
 ## MY SENTENCES
 
 sc-my-title = Dipolelo tsa ka
+sc-my-loading = E kenya dipolelo tsa hao...
+sc-my-no-sentences = Ha ho dipolelo tse fumanweng!
 # Variables:
 #   $source (String) - Associated source the user filled out when uploading the sentence
 sc-my-source = Mohlodi: { $source }
@@ -675,6 +685,7 @@ sc-my-deleting = Ho hlakola dipolelo tse kgethilweng...
 ## REJECTED
 
 sc-rejected-title = Dipolelo tse hannweng
+sc-rejected-loading = E kenya dipolelo tse hannweng...
 
 ## STATS
 
@@ -732,6 +743,7 @@ sc-personal-added-by-you = { $sentences } tse kentsweng ke wena
 
 ## REVIEW CRITERIA
 
+sc-criteria-modal = ⓘ Mekgwa ya Tlhatlhabo
 sc-criteria-title = Mekgwa ya Tlhatlhobo
 
 ## REVIEW
