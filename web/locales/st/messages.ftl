@@ -249,11 +249,13 @@ shortcut-record-toggle = r
 shortcut-record-toggle-label = Rekota/Ema
 shortcut-rerecord-toggle-label = Rekota clip hape
 shortcut-discard-ongoing-recording = ESC
+shortcut-discard-ongoing-recording-label = Lahla rekoto entse tswelapele
 shortcut-submit = Kgutla
 shortcut-submit-label = Romella di-clip
 
 ## ProjectStatus
 
+status-contribute = Fana ka Lentswe la Hao
 # Variables:
 # $goal - number of hours representing the next goal
 status-goal = Dipheo tse Latelang: { $goal }
@@ -300,6 +302,7 @@ on = E butswe
 
 ## Profile - Email
 
+connect-gravatar = Kopana le Gravatar
 avatar-uploaded = Avatar e kentswe
 max-file-size = { $kb }kb boholo ka ho fetisisa
 remove-avatar = Tlosa Avatar
@@ -325,6 +328,7 @@ about-dataset-release-title = Tokollo ya Pokello ya Data
 about-speak = Bua
 about-listen-queue = Mola wa ho mamela
 about-listen = Mamela
+about-dataset-new = Pokello ya Data ya Common Voice
 about-clip-graveyard = Di-clip tsa Mabitleng
 about-get-involved = Nka karolo
 about-stay-in-touch-button = Ngodisa
@@ -390,6 +394,7 @@ terms-agree = Kea dumela
 review-recording = Hlahloba
 review-rerecord = Rekota hape
 review-cancel = Hlakola ho Romela
+review-delete-recordings = Hlakola direkoto tsa ka
 
 ## Datasets Page
 
@@ -486,6 +491,7 @@ report = Tlaleha
 report-offensive-language = Puo e kgopisang
 report-offensive-language-detail = { "" }
 report-different-language = Puo e fapaneng
+report-difficult-pronounce = Ho thata ho bitsa
 report-offensive-speech = Puo e kgopisang
 report-other-comment =
     .placeholder = Hlahisa Maikutlo
@@ -510,6 +516,7 @@ recordings =
 
 your-languages = Dipuo tsa Hao
 goal-reached = Sepheo se fihletswe
+clips-you-validated = Di-clip tseo O di Netefaditseng
 stats = Dipalo-palo
 awards = Dikgau
 you = Wena
@@ -636,6 +643,8 @@ sc-my-title = Dipolelo tsa ka
 # Variables:
 #   $source (String) - Associated source the user filled out when uploading the sentence
 sc-my-source = Mohlodi: { $source }
+sc-my-delete = Hlakola dipolelo tse kgethilweng...
+sc-my-deleting = Ho hlakola dipolelo tse kgethilweng...
 
 ## REJECTED
 
@@ -667,6 +676,7 @@ sc-add-err-submission = Phoso ya Thomello
 
 ## ADD SENTENCES CONFIRMATION
 
+sc-confirm-sentences-title = Netefatsa Dipolelo tse Ntjha
 sc-confirm-button-text = Netefatsa
 sc-confirm-uploading = Dipolelo di ntse di kenngwa. Sena se ka nka metsotso e mmalwa ho latela palo ya dipolelo tse kentsweng. Ka kopo seke wa kwala sebaka sena sa marang-rang.
 
