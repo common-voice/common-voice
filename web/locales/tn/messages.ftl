@@ -24,6 +24,7 @@ ast = Se-Asturia
 ba = Se-Bashkir
 bas = Se-Basaa
 bg = Se-Bulgaria
+bn = Se-Bengali
 br = Se-Breton
 bs = Se-Bosnia
 bxr = Se-Buryat
@@ -41,6 +42,7 @@ about = Ka ga
 
 ## Home Page
 
+home-title = Common Voice ke letsholo la Mozilla la go thusa go ruta metšhine gore batho ba mmatota ba bua jang.
 default-tagline = Mozilla Common Voice ke letsholo la go thusa go ruta metšhine gore batho ba mmatota ba bua jang.
 wall-of-text-start =
     Lentswe ke la tlholego, lentswe ke la motho. Ke gone ka moo re kgatlhegelang go direla metšhine ya rona thekenoloji e e berekang ya mantswe. Mme go dira dithulaganyo tsa mantswe, go tlhokega tshedimosetso e ntsi thata
@@ -69,6 +71,7 @@ all-locales = Tsotlhe
 
 ## Account Benefits
 
+benefits = Mesola
 rich-data = Dira gore tshedimosetso ya gago e o e rometseng e nne ntsi kafa go kgonegang ka gone ka go naya tshedimosetso ya dipalopalo e e sa tsenngwang maina. Re tlosa tshedimosetso yotlhe e e itsiseng batho mo tshedimosetsong ya dipalopalo pele re e phasalatsa.
 join-newsletter = O ka itlhophela go tsena mo lenaaneng la rona la makwalo go amogela ditlhabololo le tshedimosetso e ntšha ka porojeke.
 
@@ -76,6 +79,7 @@ join-newsletter = O ka itlhophela go tsena mo lenaaneng la rona la makwalo go am
 
 recordings-and-locale-public = Palo ya dikgatiso le dipuo tse o nnang le seabe mo go tsone di tla bonwa ke batho botlhe.
 demographic-deidentified-clarity-2 = Tshedimosetso e e rometsweng ka go ithaopa (s.k. dingwaga, bong, puo, le segalo) e ka se phasaladiwe mo porofaeleng ya gago, e bile e ka se amanngwe le akhaoto ya gago mo tshedimosetsong. Dikgatiso tsa batho tsa mantswe di tla amanngwa le tshedimosetso ya dipalopalo ka maikaelelo a tshekatsheko e e nepileng thata - ka sekai, mmatlisisi a ka batla go tota mofuta wa thapiso go karolo e e rileng ya dipalopalo.
+username-email-not-demographic = Leinatiriso la gago le imeile ga di na go ammangwa le tshedimosetso e e phasaladiwang.
 
 ## Speak & Listen Shortcuts
 
@@ -218,6 +222,7 @@ about-playbook-how-add-sentences-content-4 = Mela e e tlhomamisitsweng e romelwa
 ## How to record quality
 
 about-playbook-how-record-content-1 = Bua ka lentswe la gago le le tlwaelegileng! Tsela e o buang ka yone e amogelesegile fano - re batla segalo sa lentswe la gago jaaka se ntse, e bile re batla modumo, setaele le molodi wa gago o o tlwaelegileng.
+about-playbook-how-record-content-2 = Tila medumo e mentsi e e mo lemoragong - go tshwanetse ga nna motlhofo go go utlwa.
 about-playbook-how-record-content-4 = Tlhomamisa gore polatefomo e a rekota pele o simolola go bua, le gore o emisa go rekota fa o setse o feditse.
 
 ## How to grow language
@@ -278,6 +283,7 @@ dataset-description-hours =
     
     Ga jaana tshedimosetso e na le diura tse <b>{ $valid }</b> tse di tlhomamisitsweng mo dipuong tse <b>{ $languages }</b>, mme ka metlha re tsenya mantswe le dipuo tse di oketsegileng. Leba <languagesLink>tsebe ya rona ya Dipuo</languagesLink> go kopa puo kgotsa go simolola go aba.
 want-dataset-update = A o batla re go itsise fa re golola tokololo e ntšha ya rekoto ya tshedimosetso ya Common Voice? Ikwadisetse makwalodikgang a rona.
+resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ ke <docsLink>sediriswa sa batho botlhe</docsLink> se babatlisisi ba se dirisang go tlhama mokgwa wa puisano wa mefuta ya AI.
 resource-deepspeech-info = Thulaganyo ya go lemoga mantswe ya Mozilla ya Deep Speech e ka dirisiwa go dira dithulaganyo tsa go lemoga puo. Bala <githubLink>dintlhakakaretso tsa rona tsa Github</githubLink> kgotsa nna karolo ya <discourseLink>DeepSpeech Discourse</discourseLink> go ithuta gore o ka simolola jang.
 resource-coqui-info = <coquiLink>Coqui</coquiLink> e ineetse mo thekenolojing ya go dirisa puo. Diporojeke tsa bone di akaretsa thuto e e tseneletseng e e ikaegileng ka mefuta ya STT le TTS.
 resource-playbook-info = <playbookLink>Bona kaelo e e thusang</playbookLink> ka loeto lotlhe lwa Common Voice, go tloga ka go ranolela go fitlha ka tiriso ya tshedimosetso, mmogo le go ikgolaganya le batho ba lefelo la rona.
@@ -368,6 +374,7 @@ why-delete-recordings =
 
 ## Profile Download
 
+download-recordings-unavailable = Ga o kgone go kopa dikgatiso tsa gago fa kopo e nngwe e setse e diragadiwa.
 download-requests-info = Fa o kopa dikgatiso tsa gago, re di kopanya go di dira faele e le nngwe kgotsa di le mmalwa tsa ZIP. Tseno ke dikopo tsa gago tsa nako e e fetileng.
 download-request-link-single = Gape o ka kgona go kopisa le go manega di-URL tse di tlhamaletseng mo lefelong la gago la mmamoratwa la go itseela dilo. Di tla felelwa ke nako mo diureng tse 12, mme o ka boela mo tsebeng eno go dira tse disha nako nngwe le nngwe.
 
@@ -464,6 +471,7 @@ sc-my-description = Tsebe eno e go naya dintlhakakaretso tsa dipolelo tsotlhe ts
 ## ADD
 
 sc-submit-confirm = Ke tlhomamisa gore mela eno ke ya <wikipediaLink>batho botlhe</wikipediaLink> e bile ke na le tetla ya go e tsenya.
+sc-submit-filtered = Mela e fokoditswe ka gonne ga go a fitlhelelwa ditekanyetso (tsweetswee romela dithanolo tse di siameng jaaka mela e mesha):
 
 ## ADD LANGUAGE
 
@@ -526,6 +534,14 @@ sc-criteria-item-6 = Fa o felelwa ke mela e e sekasekiwang, tsweetswee re thuse 
 sc-review-lang-not-selected = Ga o ise o tlhophe dipuo dipe. Tsweetswee ya kwa <profileLink>Porofaeleng</profileLink> ya gago gore o tlhophe dipuo.
 sc-review-form-usage = Swaepela kafa mojeng go amogela polelo. Swaepela kafa molemeng go e gana. Swaepela kwa godimo go e tlola. <strong>O se ka wa lebala go romela tshekatsheko ya gago!</strong>
 sc-review-form-button-approve = Amogela
+# Variables:
+#   $sentences (Number) - Number of sentences the user has reviewed in this session
+sc-review-form-reviewed-message =
+    { $sentences ->
+        [0] Ga go na mela e e sekasekilweng.
+        [one] Go sekasekilwe mola o le 1. Re a leboga!
+       *[other] *Go sekasekilwe mela e le { $sentences }. Re a leboga!
+    }
 
 ## SETTINGS
 
