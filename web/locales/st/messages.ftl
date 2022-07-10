@@ -3,6 +3,7 @@
 email-input =
     .label = Email
 not-available-abbreviation = N/A
+banner-error-slow-link = Leqephe la Boemo
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -158,6 +159,7 @@ tig = Tigre
 tk = Turkmen
 tl = Tagalog
 tn = Setswana
+tok = Toki Pona
 tr = Turkish
 ts = Xitsonga
 tt = Tatar
@@ -209,6 +211,7 @@ speak-goal-text = Di-clip di rekotilwe
 listen-goal-text = Di-clip di netefaditswe
 hours-recorded = Dihora tse Rekotilweng
 hours-validated = Dihora tse netefaditsweng
+todays-progress = Tswelopele ya kajeno
 all-locales = Koafela
 today = Kajeno
 
@@ -246,6 +249,7 @@ shortcut-record-toggle-label = Rekota/Ema
 shortcut-rerecord-toggle-label = Rekota clip hape
 shortcut-discard-ongoing-recording = ESC
 shortcut-submit = Kgutla
+shortcut-submit-label = Romella di-clip
 
 ## ProjectStatus
 
@@ -359,6 +363,7 @@ about-playbook-how-project-governance-content-6 = Boikarabello ka kopanelo.
 ## Glossary
 
 glossary = Bukana ya mantswe
+sentence-collection = Pokello ya Dipolelo
 sst = Puo-ho-sengolwa (STT)
 de-identified = E tlositsweng dintlha tsa botho
 
@@ -398,6 +403,7 @@ feedback-q = O na le Maikutlo?
 community-playbook = Buka ya ho bapala ya setjhaba
 resource-playbook-info = <playbookLink>Fumana tataiso e thusang</playbookLink> leetong lohle la Common Voice, ho tloha sebakeng sa lehae ho isa tshebedisong ya dataset, mmoho le mokgwa wa ho hokahana le setjhaba sa rona.
 data-other-librispeech-description = LibriSpeech ke kakaretso ya dihora tse ka bang 1000 tsa 16Khz tse balwang ka puo ya Senyesemane e nkilweng dibukeng tsa audio tse balwang ho tswa morerong wa LibriVox.
+data-other-ted-name = TED-LIUM Corpus
 more = Tse ding
 close = Kwala
 download = Download
@@ -454,6 +460,7 @@ record-cancel = Hlakola ho rekota hape
 record-stop-instruction = { $actionType }<stopIcon></stopIcon> ha o qetile
 record-last-instruction = <recordIcon></recordIcon> Ya ho qetela!
 clips-uploaded = Di-clip di kentswe
+record-abort-submit = Romella di-clip
 record-abort-continue = Qetela ho rekota
 listen-last-time-instruction = <playIcon></playIcon>Ya ho qetela!
 speak-empty-state-cta = Nehelana ka dipolelo
@@ -483,8 +490,10 @@ awards = Dikgau
 you = Wena
 everyone = Bohle
 contribution-activity = Mosebetsi wa Monehelo
+top-contributors = Bafani ba ka hodimo
 recorded-clips = Di-clip tse Rekotilweng
 validated-clips = Di-clip tse netefaditsweng
+total-approved = Kakaretso e Amohetsweng
 overall-accuracy = Ho Nepa Ka Kakaretso
 
 ## Custom Goals
@@ -518,6 +527,7 @@ download-request = Kopa tse rekotilweng
 download-request-button = Download
 download-request-refresh-button = Kgatholla
 download-request-modal-title = Download-a dihokahanyo
+download-request-metadata-link = Mongolo wa polelo
 
 ## Landing
 
@@ -624,6 +634,7 @@ sc-add-result =
         [one] Polelo e fanweng. { $duplicates } polelo e hannwe e le kopi.
        *[other] Dipolelo tse fanweng. { $duplicates } dipolelo di hannwe e le dikopi.
     }
+sc-add-err-submission = Phoso ya Thomello
 
 ## ADD SENTENCES CONFIRMATION
 
