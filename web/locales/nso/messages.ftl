@@ -109,6 +109,7 @@ nia = Se-Nias
 nl = Se-Dutch
 nyn = Se-Runyankole
 oc = Se-Occitan
+om = Se-Afaan Ormoo
 or = Se-Odia
 pa-IN = Se-punjabi
 pl = Mopoliši
@@ -192,6 +193,11 @@ vote-no = Aowa
 speak-paragraph = Go gatiša dipego tša lentšu ke karolo e bohlokwa ya go aga dathasete ya rena e bulegilego; ba bangwe ba ka re ke karolo ya go thabiša le yona.
 all-locales = Ka moka
 today = Lehono
+x-years-short =
+    { $count ->
+        [one] { "" }
+       *[other] *[other] { $count }y
+    }
 
 ## Account Benefits
 
@@ -233,6 +239,8 @@ english = Seisemane
 
 ## ProfileForm
 
+profile-form-additional-language =
+    .label = Leleme le oketšegilego
 profile-form-language =
     .label = Leleme
 profile-form-accent =
@@ -262,9 +270,11 @@ help-accent-explanation = Mmolelo wa gago ke tsela yeo o bitšago matšu ka gona
 
 ## Profile - Email
 
+max-file-size = { $kb }kb max
 
 ## Profile - Email
 
+add-language = Oketša polelo
 
 ## FAQ
 
@@ -471,6 +481,8 @@ listen = Theeletša
 skip = Tshela
 shortcuts = Kgaoletšo
 record-stop-instruction = { $actionType }<stopIcon></stopIcon> ge o feditše.
+record-last-instruction = <recordIcon></recordIcon> Ya mafelelo!
+listen-last-time-instruction = <playIcon></playIcon>Ya mafelelo!
 
 ## Reporting
 
@@ -581,6 +593,8 @@ contribution-volume-title = Bolumo
 contribution-volume-description = Go tla ba le phaphano ya tlhago ya modumo magareng ga babadi. Gana feela ge e ba modumo o le godimo kudu moo rekhotilwego e sa kwale botse, goba (seo se tlwaelegilego kudu) ge e ba e le tlase moo e sa kwale gore go boletšwe eng ka ntle le go lebelela mo go ngwadilego.
 contribution-reader-effects-description = Dikgatišo tše dintši ke tša batho bao ba bolelago lentšu ka bona la tlhago. O ka amogela rekhoto e sa tlwaelegago ya nako le nako e goeletša, e sebela, goba ka go hlakodiša molaleng ka lentšu le ‘makatšago’. Ka kgopelo gana direkhoto tšeo di opelwago le tšeo di dirišago lentšu leo le dirilwego ka khomphutha.
 contribution-just-unsure-description = Ge e ba o kopana le selo seo dikeletšo tšeo di se ke tša akaretšwa, ka kgopelo kgetha go ya ka kahlolo ya gago e botse. Ge e ba ruri o ka se kgone go tšea sephetho, diriša setobetšwa sa go taboga gomme o fetele go kgatišo e latelago.
+see-more = <chevron></chevron>Bona tša go feta
+see-less = <chevron></chevron>Bona tše nyenyane
 
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
@@ -645,11 +659,13 @@ sc-stats-updating = E ya mpshafatšwa...
 
 ## ADD
 
+sc-submit-title = Tsenya Mafoko
 sc-submit-button =
     .submitText = Romela
 
 ## ADD LANGUAGE
 
+sc-add-lang-sec-button = Oketša leleme
 # Variables:
 #   $duplicates (Number) - Number of sentences which got rejected because they are duplicates
 sc-add-result =
@@ -682,6 +698,7 @@ sc-lang-info-left-for-you =
         [one] [one] Go nale lefoko le le 1 le šetšego gore o le tlhahlobe.
        *[other] *[other] { $unreviewedSentencesByYou } mafoko a šetšego a gore o wa tlhahlobe.
     }
+sc-lang-info-review-now = <reviewLink>Hlahloba bjale!</reviewLink>
 
 ## LOGIN
 
