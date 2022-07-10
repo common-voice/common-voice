@@ -357,6 +357,8 @@ language-section-launched-description = Mo dipuong tseno tse di simolotsweng, we
 ## Contribution
 
 action-click = Tobetsa
+goal-help-recording = O thusitse Common Voice gore e fitlhelele <goalPercentage></goalPercentage> ya maikaelelo a rona a letsatsi a go gatisa { $goalValue }!
+goal-help-validation = O thusitse Common Voice gore e fitlhelele <goalPercentage></goalPercentage> ya maikaelelo a rona a letsatsi a go tlhomamisa { $goalValue }!
 listen-loading-error = Ga re a kgona go bona dikgatiso tsa mantswe tse o ka di reetsang. Tsweetswee leka gape moragonyana.
 speak-loading-error = Ga re a kgona go bona mela e o ka e buang. Tsweetswee leka gape moragonyana.
 
@@ -445,6 +447,7 @@ contribution-misreadings-description-extended-list-3 = Go bala mafoko a a seyong
 contribution-varying-pronunciations-description = Nna kelotlhoko pele o gana kgatiso ka go bo mmadi a sa bitsa lefoko sentle, o gateletse mo lefelong le e seng lone, kgotsa gongwe o itlhokomolositse letshwao la potso. Go na le ditsela tse dintsi tsa go bitsa mafoko lefatshe ka bophara, tse dingwe ka tsone o ka tswang o ise o di utlwe mo lefelong la gago. Tsweetswee anaanela ba ba ka tswang ba bua ka tsela e e farologaneng le e o buang ka yone.
 contribution-varying-pronunciations-description-extended = Kafa letlhakoreng le lengwe, fa o akanya gore gongwe mmadi ga a ise a kopane le lefoko leo, mme o fopholetsa fela ka tsela e e sa siamang tsela e le bidiwang ka yone, tsweetswee e gane. Fa o sa tlhomamisege, dirisa konopo ya tlola.
 contribution-varying-pronunciations-example-1-explanation = [‘Berethe’ e siame le fa go gatelelwa ditlhaka tsa ntlha (UK) kgotsa tsa bofelo (US)]
+contribution-varying-pronunciations-example-2-explanation = [Ka dinako tsotlhe ‘Raised’ ka Seesemane o bidiwa e le lefoko le le lengwe, e seng a mabedi]
 contribution-background-noise-description = Re batla gore go ithuta ga metšhine go kgone go lepalepana le medumo e mentsi e e kwa morago, le medumo e e kwa godimo e ka amogelesega fa fela e sa go thibele go utlwa mokwalo otlhe. Mmino o o lelang kwa morago go didimetse o siame; mmino o o kwa godimo thata mo o go thibelang go utlwa mafoko otlhe ga wa siama.
 contribution-background-noise-description-extended = Fa kgatiso e kgaoga kgotsa e gagasha, e gane, ntle le fa mafoko otlhe a kgona go utlwiwa.
 contribution-background-voices-description = Tlhakatlhakano e e utlwalang mo lefelong le le didimetseng e siame, mme ga re batle mantswe a a oketsegileng a a ka dirang gore motšhine o se ka wa lemoga mafoko a a sa kwalwang. Fa o ka utlwa mafoko a a farologaneng le a a kwadilweng, kgatiso eo e tshwanetswe go ganwa. Gantsi seno se direga fa TV e tlogetswe e tshubilwe, kgotsa fa go na le motlotlo o o tsweletseng fa gaufi.
@@ -482,6 +485,7 @@ sc-howto-addsen-item-5 = Ditlhaka tsa seeng. Ditlhaka di tshwanetse go dumelelwa
 sc-howto-addsen-item-6 = Dipuo di ka nna le <validationRulesLink>melao ya tsone ya go tlhomamisa</validationRulesLink> mmogo le dipatlafalo tse dingwe. Fa go se na faele e e rileng ya go tlhomamisa puo eo, re dirisa melao e e tlwaelegileng ya Seesemane.
 sc-howto-addsen-post-1 = Re rata dipolelo tsa tlholego/motlotlo. Le fa pharologano ya sefonotiki le mafoko mo dipolelong e le botlhokwa, re leka sotlhe se re ka se kgonang go dira gore dipolelo tsa kgatiso di kgatlhe. Go ne go tla nna gontle fa o ne o ka leka gore dipolelo tsa gago e nne tsa tlholego/akaretsang.
 sc-howto-cite-pre-1 = Go botlhokwa go kwala gore o bone kae dilaesense tsa batho botlhe go tila go utswa tshedimosetso le go letla ditatediso mo <copyrightIssuesLink>mathata a tetlokhopi</copyrightIssuesLink>. Fano ke ditsela di le mmalwa tse o ka umakang tiro eno ka tsone.
+sc-howto-cite-item-1 = O ka akaretsa webosaete, ka sekai,  "Common Voice - https://commonvoice.mozilla.org/"
 sc-howto-cite-item-2 = O ka dirisa mokgwa wa thutego wa go ntsha tshupiso, ka sekai, mokgwa wa Harvard "Mozilla (2021) Common Voice. E gone mo https://commonvoice.mozilla.org/ (E fitlheletswe ka: September 15 2021)"
 sc-howto-cite-item-3 = Fa o dirisa tshedimosetso ya batho botlhe mme e seyo mo inthaneteng, o ka dirisa mokgwa wa thutego wa go ntsha tshupiso, ka sekai, mokgwa wa Harvard "Jess (2021) My Public licence poems"
 sc-howto-review-criteria-5 = Fa polelo e sa fitlhelele ditshwanelego tse di fa godimo, tobetsa konopo ya "Gana." Fa o a tlhomamisege ka polelo , o ka e tlola mme wa fetela mo go e e latelang.
