@@ -254,6 +254,7 @@ edit-profile = Fetola Profaele
 profile-close = Kwala
 edit = Lokisa
 email-subscriptions = Dipeeletso tsa Email
+contribution-experience = Boiphihlelo ba Monehelo
 off = E kwetswe
 on = E butswe
 
@@ -346,6 +347,7 @@ size-gigabyte = GB
 size-megabyte = MB
 download-language = Download-a { $language }
 subscribe = Ngodisa
+community-playbook = Buka ya ho bapala ya setjhaba
 resource-playbook-info = <playbookLink>Fumana tataiso e thusang</playbookLink> leetong lohle la Common Voice, ho tloha sebakeng sa lehae ho isa tshebedisong ya dataset, mmoho le mokgwa wa ho hokahana le setjhaba sa rona.
 data-other-librispeech-description = LibriSpeech ke kakaretso ya dihora tse ka bang 1000 tsa 16Khz tse balwang ka puo ya Senyesemane e nkilweng dibukeng tsa audio tse balwang ho tswa morerong wa LibriVox.
 more = Tse ding
@@ -358,6 +360,7 @@ dataset-version = Mofuta
 
 ## Contact Modal
 
+contact-title = Foromo ya ho ikopanya
 contact-form-name =
     .label = Lebitso
 contact-form-message =
@@ -398,6 +401,7 @@ record-last-instruction = <recordIcon></recordIcon> Ya ho qetela!
 clips-uploaded = Di-clip di kentswe
 record-abort-continue = Qetela ho rekota
 listen-last-time-instruction = <playIcon></playIcon>Ya ho qetela!
+speak-empty-state-cta = Nehelana ka dipolelo
 
 ## Reporting
 
@@ -418,6 +422,7 @@ stats = Dipalo-palo
 awards = Dikgau
 you = Wena
 everyone = Bohle
+contribution-activity = Mosebetsi wa Monehelo
 
 ## Custom Goals
 
@@ -427,6 +432,7 @@ easy-difficulty = E bonolo
 difficult-difficulty = E thata
 pro-difficulty = Pro
 cant-decide = Ha o kgone ho etsa qeto?
+confirm-goal = Netefatsa sepheo
 goal-interval-weekly = Beke le beke
 share-goal-type-speak = E ntse e bua
 share-goal-type-listen = E ntse mametse
@@ -473,6 +479,7 @@ demo-account = Ak'haonte
 ## Validation criteria
 
 contribution-criteria-nav = Ditekanyetso
+contribution-criteria-page-title = Mekgwa ya ho Nehelana
 contribution-for-example = Mohlala
 contribution-misreadings-title = Ho se bale hantle
 contribution-misreadings-example-8-explanation = [Ditaba tse sa tsamaisaneng]
