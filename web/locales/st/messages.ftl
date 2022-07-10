@@ -209,6 +209,7 @@ show-wall-of-text = Bala Haholwanyane
 no-clips-to-validate = Ho bonahala eka ha ho na di-clip tsa ho mamela ka puo ena. Re thuse ho tlatsa letoto ka ho rekota tse ding hona jwale.
 vote-yes = Ee
 vote-no = Tjhe
+speak-subtitle = Nehelana ka lentswe la hao
 speak-goal-text = Di-clip di rekotilwe
 listen-goal-text = Di-clip di netefaditswe
 hours-recorded = Dihora tse Rekotilweng
@@ -299,6 +300,7 @@ avatar = Avatar
 goals = Dipheo
 settings = Ditlhophiso
 edit-profile = Fetola Profaele
+profile-create-success = Katleho, profaele e entswe!
 profile-close = Kwala
 accept-privacy-title = Leano la Lekunutu
 login-identity = Boitsebiso ba ho Kena
@@ -356,6 +358,7 @@ about-nav-get-involved = Nka karolo
 
 ## How do I add a language
 
+about-playbook-how-add-language-translating-heading = Ho fetolela sebaka sa marang-rang
 about-playbook-how-add-language-collecting-sentences-heading = Ho bokella dipolelo
 
 ## How does localization work
@@ -402,6 +405,7 @@ data-download-license = Laesense: <licenseLink>CC-0</licenseLink>
 data-other-title = Dipokello tsa data tse ding
 data-other-goto = Eya ho { $name }
 data-other-download = Download-a Data
+data-bundle-button = Download-a Sephuthelwana sa Polokelo ya Data
 release-version = Mofuta
 license-mixed = E tswakantswe
 terms-agree = Kea dumela
@@ -495,6 +499,7 @@ record-cta = Qala ho rekota
 record-no-mic-found = Ha ho maekerofounu e fumanweng.
 record-cancel = Hlakola ho rekota hape
 record-stop-instruction = { $actionType }<stopIcon></stopIcon> ha o qetile
+record-three-more-instruction = Tse tharo tse tlang ho tsamaea!
 record-last-instruction = <recordIcon></recordIcon> Ya ho qetela!
 record-submit-tooltip = { $actionType } romela ha e se e loketse
 clips-uploaded = Di-clip di kentswe
@@ -508,6 +513,7 @@ target-segment-learn-more = Ithute haholwanyane
 ## Reporting
 
 report = Tlaleha
+report-title = Romela tlaleho
 report-offensive-language = Puo e kgopisang
 report-offensive-language-detail = { "" }
 report-different-language = Puo e fapaneng
@@ -540,6 +546,7 @@ validations =
 ## Dashboard
 
 your-languages = Dipuo tsa Hao
+toward-next-goal = Ho leba sepheong se latelang
 goal-reached = Sepheo se fihletswe
 clips-you-recorded = Di-clip tseo O di Rekotileng
 clips-you-validated = Di-clip tseo O di Netefaditseng
@@ -624,6 +631,7 @@ demo-account = Ak'haonte
 ## Validation criteria
 
 contribution-criteria-nav = Ditekanyetso
+contribution-criteria-link = Utlwisisa mekgwa ya ho fana
 contribution-criteria-page-title = Mekgwa ya ho Nehelana
 contribution-for-example = Mohlala
 contribution-misreadings-title = Ho se bale hantle
@@ -654,6 +662,7 @@ sc-header-statistics = Dipalo-palo
 sc-header-profile = Profaele
 sc-footer-discourse = Discourse
 sc-footer-report-bugs = Tlaleha bothata bo sa lebellwang
+sc-footer-translate = Fetolela leqephe lena
 sc-footer-privacy = Lekunutu
 sc-footer-terms = Dipehelo
 sc-footer-cookies = Di-cookie
