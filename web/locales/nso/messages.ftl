@@ -37,6 +37,7 @@ da = Se-Danish
 de = Sejeremane
 dv = Se-Dhivehi
 dyu = Se-Dioula
+el = Se-Greek
 en = Sekgowa
 eo = Se-Esperanto
 et = Se-Estonia
@@ -47,9 +48,16 @@ fo = Faroese
 fr = Sefora
 fy-NL = Se-Frisian
 gl = Se-Galician
+gn = Se-Guarani
+ha = Se-Hausa
+he = Se-Heberu
+hi = Se-Hindi
 hr = Se-Croatia
+ht = Se-Haitian
+hu = Se-Hungarian
 hy-AM = Ma-Armenia
 ig = Se-Igbo
+is = Se-Icelandic
 ka = Se-Georgia
 kw = Se-Cornish
 my = Se-Burmese
@@ -65,6 +73,7 @@ yue = Se-Cantonese
 
 datasets = Di-dathasete
 about = Mabapi le
+help = Thuša
 contact = Kgokagana
 cookies = Dikhuki
 faq = Dipotšišo tše di Botšišwago Gantši
@@ -107,9 +116,11 @@ profile-form-age =
     .label = Mengwaga
 profile-form-gender-2 =
     .label = Bong
+hidden = Fihlilwego
 female = Mosadi
 dashboard = Dashboard
 avatar = Avatar
+goals = Dipakane
 profile-close = Tswalela
 why-demographic-explanation-2 = Datha ya modiriši ye o sa tsebjego bjalo ka mengwaga, le bong bja motho, le mmolelo ao a thuša go go kaonefatša datha ya odio e šomišago go eteletša nepagatšo ya di-entšene a tlhathollo ya mantšu. Leina la gago la mošomiši le e-meile di ka se itswalanye le datha yeo e rometšego, gomme o ka kgetha gore na leina la gago la mošomiši le phatlalatšwe goba le se tsebje.
 edit = Rulaganya
@@ -215,6 +226,7 @@ about-playbook-how-project-governance-content-1 = Common Voice ya Mozilla gore g
 
 ## Glossary
 
+glossary = Pukuntšu
 de-identified = Kgetholla gape
 
 ## Error pages
@@ -276,6 +288,7 @@ request-language-error = Re ka be re sa hwetša kgopelo yeo. Ka kgopelo re romel
 ## Languages Overview
 
 language-section-in-progress-new-description = Maleme a gona bjale a ka tlase ga tšwelopele ya setšhaba. <localizationGlossaryLink>wepesaeteng ya kgauswi</localizationGlossaryLink> le <sentenceCollectionGlossaryLink> kgoboketšo ya mantšu</sentenceCollectionGlossaryLink> e nyakega go thoma.
+language-validation-hours = Diiri
 
 ## Contribution
 
@@ -378,6 +391,8 @@ contribution-just-unsure-description = Ge e ba o kopana le selo seo dikeletšo t
 
 ## HEADER/FOOTER
 
+sc-header-home = Gae
+sc-header-how-to = Go ithuta go
 sc-header-add = Oketša
 sc-footer-discourse = Discourse
 sc-footer-cookies = Cookies
