@@ -179,6 +179,7 @@ yi = Yiddish
 yo = Yoruba
 yue = Cantonese
 zh-CN = Chinese (China)
+zh-HK = Chinese (Hong Kong)
 zh-TW = Chinese (Taiwan)
 zu = Zulu
 
@@ -199,6 +200,7 @@ terms = Dipehelo
 cookies = Di-cookie
 faq = FAQ
 link-copied = Hokahanyo e kopiditswe
+back-top = Kgutlela Hodimo
 logout = Tswa
 
 ## Home Page
@@ -483,6 +485,7 @@ record-abort-submit = Romella di-clip
 record-abort-continue = Qetela ho rekota
 listen-last-time-instruction = <playIcon></playIcon>Ya ho qetela!
 speak-empty-state-cta = Nehelana ka dipolelo
+target-segment-add-voice = Kenya Lentswe la hao
 target-segment-learn-more = Ithute haholwanyane
 
 ## Reporting
@@ -516,6 +519,7 @@ recordings =
 
 your-languages = Dipuo tsa Hao
 goal-reached = Sepheo se fihletswe
+clips-you-recorded = Di-clip tseo O di Rekotileng
 clips-you-validated = Di-clip tseo O di Netefaditseng
 stats = Dipalo-palo
 awards = Dikgau
