@@ -20,6 +20,7 @@ stayintouch = Rena ba Mozilla re aga setšhaba mabapi le theknolotši ya lentšu
 wall-of-text-more-mobile = Bogolo bja datha e dirišwago ke dikhampani tše dikgolo ga e hwetšagale ke bontši bja batho. Re nagana gore seo se šitiša go tšweletša mekgwa e mefsa. Ka gona re hlomile Morero wa Common Voice, morero wa go thuša go dira gore temošo ya lentšu e bolege le go hwetšwa ke motho yo mongwe le yo mongwe.
 wall-of-text-more-desktop = Gona bjale o ka nea ka lentšu la gago go re thuša go aga dathabeise ya lentšu e bolegielgo yeo mang le mang a ka e šomiša go dira mananeotiriši a mafsa a didirišwa le wepesaete. Bala mafoko go thuša metšhene go ithuta gore na batho ba kgonthe ba bolela bjang. Lebediša mošomo wa baneedi ba babgwe go kaonefatša boemo. Go bonolo gakaalo!
 wall-of-text-second = Bogolo bja datha e dirišwago ke dikhampani tše dikgolo ga e hwetšagale ke bontši bja batho. Re nagana gore seo se šitiša go tšweletša mekgwa e mefsa. Ka gona re hlomile Common Voice, morero wa go thuša go dira gore temošo ya lentšu e bolege le go hwetšwa ke motho yo mongwe le yo mongwe.
+no-clips-to-validate = Go bonagala nkare ga gona ditsopolwana tše o ka di theeletšago ka polelo e. Re thuše go tlatša lenaneotetelo ka go rekhota gona bjale.
 
 ## Account Benefits
 
@@ -155,6 +156,7 @@ dataset-description-hours =
     
     Dathasete ga bjale di na le <b>{ $valid }</b> diiri tšeo di netegaditšwego ka dipolelo<b>{ $languages }</b>, eupša re dula ka mehla re okeditše mantšu le maleme a mangwe. Ela hlogo <languagesLink>letlakaleng la rena la Dipolelo</languagesLink> go kgopela polelo goba go thoma go neela.
 resource-playbook-info = <playbookLink>Hwetša keletšo ya maleba </playbookLink> go leeto le feletšego la Common Voice, go tšwa mo o dulago gona go ya go tirišo ya datha, le gore le kopana bjang le setšhaba sa rena.
+data-other-librispeech-description = LibriSpeech ke pokello ya dipego ya diiri  tše ka bago tše 1000 tša 16Khz tše di balwago ka polelo ya Seisemane e tšwerego dipukeng tša odio tše balwago tša go tšwa  morerong wa LibriVox.
 
 ## Download Modal
 
@@ -290,6 +292,14 @@ sc-confirm-uploading = Mafoko a tsenywa. Se se ka tšea metsotso e mmalwa go ya 
 
 ## LANGUAGE INFO
 
+# Variables:
+#   $unreviewedSentencesByYou (Number) - Number of sentences the user can still review
+sc-lang-info-left-for-you =
+    { $unreviewedSentencesByYou ->
+        [0] [0] Ga gona mafoko šetšego gona gore o a tlhahlobe.
+        [one] [one] Go nale lefoko le le 1 le šetšego gore o le tlhahlobe.
+       *[other] *[other] { $unreviewedSentencesByYou } mafoko a šetšego a gore o wa tlhahlobe.
+    }
 
 ## LOGIN
 
@@ -306,6 +316,7 @@ sc-criteria-item-5-2 = Ge e ba lefoko ga le fihlelele kritheriya ya ka godimo, t
 
 ## SETTINGS
 
+sc-settings-skipped-decription = Nakong e fetilego o tshetše mafoko ge o dutše o hlahloba. Go setalefsa mafoko a fetilwego go tla bontšha mafoko ka moka a fetilwego. Se se ikemetše ka polelo.
 
 # [/SentenceCollector]
 
