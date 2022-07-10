@@ -316,6 +316,7 @@ add-language = Kenya Puo
 
 ## How does it work section
 
+about-sentence-collection-title = Pokello ya Dipolelo
 about-dataset-release-title = Tokollo ya Pokello ya Data
 about-speak = Bua
 about-listen-queue = Mola wa ho mamela
@@ -455,6 +456,11 @@ contribute = Kenya letsoho
 listen = Mamela
 skip = Tlola
 shortcuts = Dikgaoletso
+clips-with-count-pluralized =
+    { $count ->
+        [one] Clip
+       *[other] Di-Clip
+    }
 record-cta = Qala ho rekota
 record-cancel = Hlakola ho rekota hape
 record-stop-instruction = { $actionType }<stopIcon></stopIcon> ha o qetile
@@ -481,6 +487,16 @@ continue = Tswela pele
 ## Goals
 
 streaks = Melapo
+days =
+    { $count ->
+        [one] Letsatsi
+       *[other] Matsatsi
+    }
+recordings =
+    { $count ->
+        [one] rekoto
+       *[other] direkoto
+    }
 
 ## Dashboard
 
