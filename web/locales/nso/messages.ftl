@@ -115,9 +115,17 @@ ru = Se-Russia
 rw = Se-Kinyarwanda
 sah = Se-Sakha
 sc = Se-Sardinia
+scn = Se-Sisilia
+shi = Se-Shilha
+si = Se-Sinhala
+sk = Se-Slovak
 skr = Se-Saraiki
+sl = Se-Slovenia
+so = Se-Somali
 sq = Se-Albania
 sr = Se-Serbia
+ss = Seswati
+tn = Setswana
 yue = Se-Cantonese
 
 # [/]
@@ -204,6 +212,7 @@ other = Bjo bongwe
 dashboard = Dashboard
 avatar = Avatar
 goals = Dipakane
+settings = Dilaolatirišo
 profile-close = Tswalela
 why-demographic-explanation-2 = Datha ya modiriši ye o sa tsebjego bjalo ka mengwaga, le bong bja motho, le mmolelo ao a thuša go go kaonefatša datha ya odio e šomišago go eteletša nepagatšo ya di-entšene a tlhathollo ya mantšu. Leina la gago la mošomiši le e-meile di ka se itswalanye le datha yeo e rometšego, gomme o ka kgetha gore na leina la gago la mošomiši le phatlalatšwe goba le se tsebje.
 edit = Rulaganya
@@ -346,6 +355,8 @@ datasets-positioning =
     
      Lebelela letlakaleng e le dišupišo bakeng sa mothopo o bulegilego wa dathasete ya lentšu, gomme ge Common Voice e tšwela pela, legae la mphsafatšo tša rena tša tokololo.
 language = Leleme
+# File size in gigabytes
+size = Bogolo
 cv-license = Laesense
 size-gigabyte = GB
 size-megabyte = MB
@@ -406,6 +417,8 @@ language-validation-hours = Diiri
 action-click = Klika
 contribute = Neela
 listen = Theeletša
+skip = Tshela
+shortcuts = Kgaoletšo
 
 ## Reporting
 
@@ -463,6 +476,7 @@ why-delete-recordings = Dipego tša Common Voice di dirišwa ke barutegi, dikgwe
 
 download-profile-title = Pego
 download-recordings-title = Dikgatišo
+download-size = Bogolo bja yona
 download-selected = Kgethilwego
 download-requests-info = Ge o kgopela dipego, re ya di bokanya ka gare ga faele ya ZIP e tee goba tše dintši. Mo ke dikgopelo tša gago tša nakong e fetilego.
 download-request-button = Goga go tšwa inthaneteng
@@ -552,6 +566,9 @@ sc-howto-findpd-partner-2 = Ditsebi tša maleme tše hlwahlwa le tšona di ka th
 ## MY SENTENCES
 
 sc-my-description = Letlakaleng le le go nea kakaretšo ya mafoko ka moka ao o wa rometšego. Gape o ka phumola tšeo se šetšego di rometšwe ge e ba go nhlokagala, ka go swaya lepokisana la kgauswi le yona ke moka o tobetsa; Phumola mafoko a kgethilwego; ka tlase. Ka kgopelo tloša mafoko ge feela go hlokagala, ka mohlala ge e ba o hlokometše ka morago ga tiragalo gore lefoko le šireleditšwe ke ditokelo tša molao.
+# Variables:
+#   $source (String) - Associated source the user filled out when uploading the sentence
+sc-my-source = Mothopo: { $source }
 
 ## REJECTED
 
@@ -612,7 +629,11 @@ sc-criteria-item-5-2 = Ge e ba lefoko ga le fihlelele kritheriya ya ka godimo, t
 
 ## REVIEW
 
+# Variables:
+#   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
+sc-review-form-source = Mothopo: { $sentenceSource }
 sc-review-form-button-reject = Gana
+sc-review-form-button-skip = Taboga
 sc-review-form-button-approve = Amogela
 # Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
 sc-review-form-button-reject-shortcut = N
@@ -622,6 +643,7 @@ sc-review-link = Poeletšo
 
 ## SETTINGS
 
+sc-settings-title = Dilaolatirišo
 sc-settings-skipped-decription = Nakong e fetilego o tshetše mafoko ge o dutše o hlahloba. Go setalefsa mafoko a fetilwego go tla bontšha mafoko ka moka a fetilwego. Se se ikemetše ka polelo.
 
 # [/SentenceCollector]
