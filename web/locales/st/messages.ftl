@@ -291,6 +291,7 @@ on = E butswe
 
 avatar-uploaded = Avatar e kentswe
 max-file-size = { $kb }kb boholo ka ho fetisisa
+remove-avatar = Tlosa Avatar
 
 ## Profile - Email
 
@@ -382,6 +383,7 @@ splits = E arohane
 size-gigabyte = GB
 size-megabyte = MB
 download-language = Download-a { $language }
+recorded-hours = Dihora tse Rekotilweng
 subscribe = Ngodisa
 feedback-q = O na le Maikutlo?
 community-playbook = Buka ya ho bapala ya setjhaba
@@ -471,6 +473,7 @@ awards = Dikgau
 you = Wena
 everyone = Bohle
 contribution-activity = Mosebetsi wa Monehelo
+recorded-clips = Di-clip tse Rekotilweng
 overall-accuracy = Ho Nepa Ka Kakaretso
 
 ## Custom Goals
@@ -551,10 +554,12 @@ sc-header-home = Hae
 sc-header-how-to = Mokgwa wa ho
 sc-header-add = Eketsa
 sc-header-review = Hlahloba
+sc-header-rejected = Dipolelo tse hannweng
 sc-header-my = Dipolelo tsa ka
 sc-header-statistics = Dipalo-palo
 sc-header-profile = Profaele
 sc-footer-discourse = Discourse
+sc-footer-report-bugs = Tlaleha bothata bo sa lebellwang
 sc-footer-privacy = Lekunutu
 sc-footer-terms = Dipehelo
 sc-footer-cookies = Di-cookie
@@ -583,6 +588,7 @@ sc-my-source = Mohlodi: { $source }
 
 ## REJECTED
 
+sc-rejected-title = Dipolelo tse hannweng
 
 ## STATS
 
