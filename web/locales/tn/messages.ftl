@@ -71,6 +71,7 @@ profile-form-accent =
 why-profile-text =
     Ka go naya tshedimosetso nngwe ka wena, tshedimosetso ya lentswe e o e romelang kwa Common Voice e tla nna mosola thata mo dithulaganyong tsa Speech
     Recognition tse di dirisang tshedimosetso eno go tokafatsa go nepa ga tsone.
+profile-explanation = Ela tlhoko kgatelopele ya gago o dirisa porofaele mme o thuse tshedimosetso ya rona ya mantswe gore e nepagale thata.
 why-demographic-explanation-2 = Tshedimosetso ya botlhokaina jaaka dingwaga, bong le segalo di tla thusa go tokafatsa go nepa ga didirisiwa tsa go lemoga mantswe. Leinatiriso le imeile ya gago di ka se amanngwe le tshedimosetso ya gago e e rometsweng, mme o ka tlhopha gore a o batla go senola kgotsa go fitlha leinatiriso la gago.
 skip-submission-description = Ka nako ya thomelo ya dikabo, maikutlo a tla tlolwa morago ga go tobetsa 'Romela'. Kabo e tla tswelela ka tlhamalalo ka dikgatiso kgotsa ditlhomamiso tse 5 tse di latelang.
 help-accent-explanation = Segalo sa gago ke tsela e o bitsang mafoko ka yone. Se ka tlhotlhelediwa ke lefelo le o kileng wa tshela mo go lone, dipuo tse dingwe tse o kgonang go di bua, le dilo tse dingwe tse dintsi. O ka abalana tshedimosetso nngwe le nngwe e o akanyang gore e botlhokwa fano.
@@ -113,6 +114,7 @@ faq-where-src-from-2-a =
     Mokwalo wa rona o dirilwe ka dikabo tsa mmatota le dipuisano tsa mekwalo ya difilimi jaaka <italic>It’s a Wonderful Life</italic>.
     
     O ka leba dipolelo tsa rona mo faeleng eno ya <githubLink>GitHub</githubLink>.
+faq-why-not-ask-read-q = Goreng o sa kope batho go bala dibuka kgotsa ditlhogo tsa Wikipedia ka dipuo tse di farologaneng?
 faq-why-not-ask-read-a = Go dira gore tshedimosetso ya Common Voice e nne mosola kafa go ka kgonegang ka gone, re dirile tshwetso ya go letlelela fela mokwalo o o leng teng mo laesenseng ya Creative Commons (CC0). Go dirisa molawana wa CC0 go raya gore go thata go bona le go kgobokanya mokwalo wa konokono, mme go letla gore mongwe le mongwe a dirise tshedimosetso e e felelang ka gone ya mantswe kwantle ga dithibelo tsa tiriso kgotsa tetlelelo ya Mozilla. Kwa bofelong, re batla gore tshedimosetso ya dipuo tse dintsi e nne mosola go mongwe le mongwe kafa go ka kgonegang ka gone, go akaretsa babatlisisi, diyunibesithi, dithulaganyo tsa tshimologo, dipuso, mekgatlho ya boikaelelo jwa loago, le batho ba ba dirang dilo go itlosa bodutu.
 faq-what-determine-identity-q = Go tewa jang fa go twe ga ke kgone go "lemoga boikitsiso" jwa babui ba ba mo direkotong tsa tshedimosetso mo Common Voice?
 faq-what-determine-identity-a =
@@ -231,6 +233,7 @@ datasets-positioning =
     
     Leba tsebe eno jaaka tshupiso go bona tshedimosetso e nngwe ya mantswe, mme jaaka Common Voice e tswelela go gola, e nna legae la ditlhabololo tsa rona.
 why-email = <b>Goreng imeile?</b> Re ka tlhoka go ikgolaganya le wena mo isagweng malebana le diphetogo tsa tshedimosetso, imeile ke tsela e re ikgolaganyang ka yone.
+confirm-no-identify = <b>O dumela</b>go sa leke go lemoga boikitsiso jwa babui ba ba mo rekotong ya tshedimosetso ya Common Voice
 dataset-description-hours =
     Matseno mangwe le mangwe mo tshedimosetsong a na le MP3 e e tlhomologileng le faele e e tsamaisanang le yone ya mokwalo. Bontsi jwa diura tse <b>{ $total }</b> tse di gatisitsweng mo tshedimosetsong le tsone di akaretsa tshedimosetso ya dipalopalo jaaka dingwaga, bong, le segalo se se ka thusang go thapisa go nepa ga dithulaganyo tse di lemogang mantswe.
     
@@ -346,6 +349,7 @@ demo-dashboard-card-body = Mo kgatisong nngwe le nngwe ya lentswe e e abilweng, 
 
 contribution-criteria-page-description = Tlhaloganya gore o tshwanetse go batla eng fa o reeditse dikgatiso tsa mantswe mme o thuse go dira gore dikgatiso tsa gago tsa mantswe di tshwanele!
 contribution-misreadings-description = Fa o reeditse, tlhatlhoba ka kelotlhoko gore a se se gatisitsweng ke sone tota se se kwadilweng; se gane le fa go na le diphoso tse dinnye tota. <br />Diphoso tse di tlwaelegileng thata di akaretsa:
+contribution-misreadings-description-extended-list-3 = Go bala mafoko a a seyong, jaaka "Ra" go na le go re "Re a," kgotsa ka tsela e e farologaneng.
 contribution-varying-pronunciations-description = Nna kelotlhoko pele o gana kgatiso ka go bo mmadi a sa bitsa lefoko sentle, o gateletse mo lefelong le e seng lone, kgotsa gongwe o itlhokomolositse letshwao la potso. Go na le ditsela tse dintsi tsa go bitsa mafoko lefatshe ka bophara, tse dingwe ka tsone o ka tswang o ise o di utlwe mo lefelong la gago. Tsweetswee anaanela ba ba ka tswang ba bua ka tsela e e farologaneng le e o buang ka yone.
 contribution-varying-pronunciations-description-extended = Kafa letlhakoreng le lengwe, fa o akanya gore gongwe mmadi ga a ise a kopane le lefoko leo, mme o fopholetsa fela ka tsela e e sa siamang tsela e le bidiwang ka yone, tsweetswee e gane. Fa o sa tlhomamisege, dirisa konopo ya tlola.
 contribution-background-noise-description = Re batla gore go ithuta ga metšhine go kgone go lepalepana le medumo e mentsi e e kwa morago, le medumo e e kwa godimo e ka amogelesega fa fela e sa go thibele go utlwa mokwalo otlhe. Mmino o o lelang kwa morago go didimetse o siame; mmino o o kwa godimo thata mo o go thibelang go utlwa mafoko otlhe ga wa siama.
@@ -371,6 +375,7 @@ sc-home-intro = Sekgobokanyi sa Dipolelo ke karolo ya <commonVoiceLink>Common Vo
 
 ## GENERAL
 
+sc-languages-fetch-error = Ga re a kgona go tla ka dipuo tse di gone. Go ka se kgonege go tsaya karolo ga jaana. Tsweetswee leka gape moragonyana.
 
 ## HOW-TO
 
@@ -423,6 +428,9 @@ sc-confirm-already-reviewed =
         [one] Mola o le 1 o setse o sekasekilwe. O berekile!
        *[other] *Mela e { $countOfReviewed } e setse e sekasekilwe. O berekile!
     }
+# Variables:
+#   $countOfUnreviewed (Number) - Number of sentences unreviewed before the upload
+sc-confirm-unreviewed = Mela e le { $countOfUnreviewed } ga e ise e sekasekwe. Fa o batla, o ka nna wa sekaseka mela ya gago gone jaanong pele o e romela.
 sc-confirm-uploading = Mela e a tsenngwa. Seno se ka tsaya metsotso e le mmalwa go ikaegile ka palo ya mela e e tsenngwang. Tsweetswee o se ka wa tswala webosaete eno.
 
 ## LANGUAGE INFO
