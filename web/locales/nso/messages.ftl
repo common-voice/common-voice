@@ -9,12 +9,24 @@ email-opt-in-info = Ke tla rata go hwetša di e-meile tša go swana le dikgopot�
 
 ## Languages
 
+ab = Ma-Abkhaz
+ace = Ma-Acehnese
+ady = Adyghe
+af = Se-Afrikanse
+am = Ma-Amharic
+an = Ma-Aragonese
+ar = Ma-Arabic
+as = Ma-Assamese
+ast = Ma-Asturia
+hy-AM = Ma-Armenia
+sq = Ma-Albania
 
 # [/]
 
 
 ## Layout
 
+about = Mabapi le
 
 ## Home Page
 
@@ -23,6 +35,7 @@ wall-of-text-more-desktop = Gona bjale o ka nea ka lentšu la gago go re thuša 
 wall-of-text-second = Bogolo bja datha e dirišwago ke dikhampani tše dikgolo ga e hwetšagale ke bontši bja batho. Re nagana gore seo se šitiša go tšweletša mekgwa e mefsa. Ka gona re hlomile Common Voice, morero wa go thuša go dira gore temošo ya lentšu e bolege le go hwetšwa ke motho yo mongwe le yo mongwe.
 no-clips-to-validate = Go bonagala nkare ga gona ditsopolwana tše o ka di theeletšago ka polelo e. Re thuše go tlatša lenaneotetelo ka go rekhota gona bjale.
 speak-paragraph = Go gatiša dipego tša lentšu ke karolo e bohlokwa ya go aga dathasete ya rena e bulegilego; ba bangwe ba ka re ke karolo ya go thabiša le yona.
+all-locales = Ka moka
 
 ## Account Benefits
 
@@ -44,6 +57,10 @@ speak-paragraph = Go gatiša dipego tša lentšu ke karolo e bohlokwa ya go aga 
 
 ## ProfileForm
 
+profile-form-accent =
+    .label = Mokgwa
+profile-form-age =
+    .label = Mengwaga
 why-demographic-explanation-2 = Datha ya modiriši ye o sa tsebjego bjalo ka mengwaga, le bong bja motho, le mmolelo ao a thuša go go kaonefatša datha ya odio e šomišago go eteletša nepagatšo ya di-entšene a tlhathollo ya mantšu. Leina la gago la mošomiši le e-meile di ka se itswalanye le datha yeo e rometšego, gomme o ka kgetha gore na leina la gago la mošomiši le phatlalatšwe goba le se tsebje.
 help-accent-explanation = Mmolelo wa gago ke tsela yeo o bitšago matšu ka gona. Seo se ka bopša ke moo o dutšego gona, dipolelo tše dingwe tšeo o di bolelago le dibopego tše dingwe. O ka abelana tsebišo le ge e le efe yeo o naganago gore e bohlokwa mo.
 
@@ -183,6 +200,7 @@ missing-language = Ga o bone polelo ya gago bonagatša go dathasete? Go kgopela 
 
 ## Contact Modal
 
+contact-required = *nyakega
 
 ## Request Language Modal
 
@@ -253,6 +271,7 @@ help-contribute = O ka thuša go aga di dathasete tše di fapanego tša mothopo 
 
 ## Demo Datasets
 
+demo-account = Akhaonte
 
 ## Demo Account
 
@@ -285,6 +304,7 @@ contribution-just-unsure-description = Ge e ba o kopana le selo seo dikeletšo t
 
 ## HEADER/FOOTER
 
+sc-header-add = Oketša
 
 ## HOME
 
@@ -367,6 +387,7 @@ sc-criteria-item-5-2 = Ge e ba lefoko ga le fihlelele kritheriya ya ka godimo, t
 
 ## REVIEW
 
+sc-review-form-button-approve = Amogela
 
 ## SETTINGS
 
