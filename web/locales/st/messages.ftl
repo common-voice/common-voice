@@ -56,6 +56,7 @@ fy-NL = Frisian
 ga-IE = Irish
 gl = Galician
 gn = Guarani
+gom = Goan Konkani
 ha = Hausa
 he = Seheberu
 hi = Hindi
@@ -290,6 +291,7 @@ about-get-involved = Nka karolo
 about-stay-in-touch-text-1 = <emailFragment>Ingodise</emailFragment> ho lenane la rona la mangolo ho ithuta hore na o ka nka karolo jwang matsholong, diketsahalong le dikarolo tsa moralo o kopanetsweng ho Common Voice.
 about-nav-how-it-works = Jwang ?
 about-nav-partners = Balekane
+about-nav-get-involved = Nka karolo
 
 ## Community Playbook Content
 ## What is a language
@@ -334,6 +336,7 @@ error-code = Phoso { $code }
 
 data-download-yes = Ee
 data-download-deny = Tjhe
+data-other-goto = Eya ho { $name }
 data-other-download = Download-a Data
 release-version = Mofuta
 license-mixed = E tswakantswe
@@ -355,6 +358,7 @@ size-gigabyte = GB
 size-megabyte = MB
 download-language = Download-a { $language }
 subscribe = Ngodisa
+feedback-q = O na le Maikutlo?
 community-playbook = Buka ya ho bapala ya setjhaba
 resource-playbook-info = <playbookLink>Fumana tataiso e thusang</playbookLink> leetong lohle la Common Voice, ho tloha sebakeng sa lehae ho isa tshebedisong ya dataset, mmoho le mokgwa wa ho hokahana le setjhaba sa rona.
 data-other-librispeech-description = LibriSpeech ke kakaretso ya dihora tse ka bang 1000 tsa 16Khz tse balwang ka puo ya Senyesemane e nkilweng dibukeng tsa audio tse balwang ho tswa morerong wa LibriVox.
@@ -427,6 +431,7 @@ streaks = Melapo
 
 ## Dashboard
 
+goal-reached = Sepheo se fihletswe
 stats = Dipalo-palo
 awards = Dikgau
 you = Wena
