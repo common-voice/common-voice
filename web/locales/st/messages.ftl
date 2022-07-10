@@ -62,6 +62,7 @@ hr = Croatian
 ht = Haitian
 hu = Hungarian
 hy-AM = Armenian
+hyw = Armenian ya Bophirimela
 ia = Interlingua
 id = Indonesian
 ie = Interlingue
@@ -105,6 +106,7 @@ nia = Nias
 nl = Dutch
 nyn = Runyankole
 oc = Occitan
+om = Afaan Ormoo
 or = Odia
 pa-IN = Punjabi
 pl = Polish
@@ -157,6 +159,7 @@ xh = Xhosa
 yi = Yiddish
 yo = Yoruba
 yue = Cantonese
+zh-CN = Chinese (China)
 zh-TW = Chinese (Taiwan)
 zu = Zulu
 
@@ -243,6 +246,7 @@ female = E motshehadi
 # Gender
 other = Tse ding
 dashboard = Dashboard
+build-profile = Haha Profaele
 avatar = Avatar
 goals = Dipheo
 settings = Ditlhophiso
@@ -253,6 +257,7 @@ on = E butswe
 
 ## Profile - Email
 
+avatar-uploaded = Avatar e kentswe
 max-file-size = { $kb }kb boholo ka ho fetisisa
 
 ## Profile - Email
@@ -321,6 +326,7 @@ release-version = Mofuta
 license-mixed = E tswakantswe
 review-recording = Hlahloba
 review-rerecord = Rekota hape
+review-cancel = Hlakola ho Romela
 
 ## Datasets Page
 
@@ -329,6 +335,7 @@ language = Puo
 # File size in gigabytes
 size = Boholo
 cv-license = Laesense
+audio-format = Sebopeho sa audio
 splits = E arohane
 size-gigabyte = GB
 size-megabyte = MB
@@ -380,6 +387,7 @@ contribute = Kenya letsoho
 listen = Mamela
 skip = Tlola
 shortcuts = Dikgaoletso
+record-cancel = Hlakola ho rekota hape
 record-stop-instruction = { $actionType }<stopIcon></stopIcon> ha o qetile
 record-last-instruction = <recordIcon></recordIcon> Ya ho qetela!
 clips-uploaded = Di-clip di kentswe
@@ -410,6 +418,7 @@ both-speak-and-listen = Bobedi
 easy-difficulty = E bonolo
 difficult-difficulty = E thata
 pro-difficulty = Pro
+cant-decide = Ha o kgone ho etsa qeto?
 goal-interval-weekly = Beke le beke
 share-goal-type-speak = E ntse e bua
 share-goal-type-listen = E ntse mametse
@@ -455,6 +464,8 @@ demo-account = Ak'haonte
 contribution-criteria-nav = Ditekanyetso
 contribution-misreadings-title = Ho se bale hantle
 contribution-misreadings-example-8-explanation = [Ditaba tse sa tsamaisaneng]
+contribution-background-noise-title = Lerata le ka morao
+contribution-background-voices-title = Mantswe a ka morao
 contribution-volume-title = Bophahamo ba modumo
 see-more = <chevron></chevron>Bona tse ding
 see-less = <chevron></chevron>Bona hanyane
@@ -566,3 +577,5 @@ sc-settings-skipped-decription = O ile wa tlola dipolelo ha o ntse o hlahloba. H
 
 # [/SentenceCollector]
 
+localization-select =
+    .label = kgetha puo/sebaka sa lehae
