@@ -81,6 +81,7 @@ ki = Kikuyu
 kk = Kazakh
 km = Khmer
 kmr = Kurmanji Kurdish
+knn = Konkani (Devanagari)
 ko = Korean
 kpv = Komi-Zyrian
 kw = Cornish
@@ -391,6 +392,7 @@ contact-required = *E ya hlokahala
 
 ## Request Language Modal
 
+request-language-title = Kopo ya Puo
 request-language-form-language =
     .label = Puo
 
@@ -511,6 +513,7 @@ contribution-misreadings-example-8-explanation = [Ditaba tse sa tsamaisaneng]
 contribution-background-noise-title = Lerata le ka morao
 contribution-background-voices-title = Mantswe a ka morao
 contribution-volume-title = Bophahamo ba modumo
+contribution-just-unsure-title = Feela ha o na bonnete?
 see-more = <chevron></chevron>Bona tse ding
 see-less = <chevron></chevron>Bona hanyane
 
