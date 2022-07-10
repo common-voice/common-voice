@@ -153,6 +153,7 @@ dataset-description-hours =
     Engwe le engwe yeo e tsenego dathasete e na le MP3 e fapanego le faele e tsamaišanago le mongwalo. Bontši bja <b>{ $total }</b> diiri tšeo gatišitšwego ka gare ga dathasete di akaretša gape le boitsebošo bja dintlha tša palo ya batho bjalo ka mengwaga, le bong bja motho, le mmolelo seo a ka thušago go eteletša go nepagetša ga tlhathollo ya mantšu tša temogo. 
     
     Dathasete ga bjale di na le <b>{ $valid }</b> diiri tšeo di netegaditšwego ka dipolelo<b>{ $languages }</b>, eupša re dula ka mehla re okeditše mantšu le maleme a mangwe. Ela hlogo <languagesLink>letlakaleng la rena la Dipolelo</languagesLink> go kgopela polelo goba go thoma go neela.
+resource-playbook-info = <playbookLink>Hwetša keletšo ya maleba </playbookLink> go leeto le feletšego la Common Voice, go tšwa mo o dulago gona go ya go tirišo ya datha, le gore le kopana bjang le setšhaba sa rena.
 
 ## Download Modal
 
