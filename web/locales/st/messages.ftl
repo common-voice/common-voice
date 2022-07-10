@@ -520,6 +520,7 @@ overall-accuracy = Ho Nepa Ka Kakaretso
 
 both-speak-and-listen = Bobedi
 daily-goal = Sepheo sa Letsatsi le Letsatsi
+weekly-goal = Sepheo sa beke le beke
 easy-difficulty = E bonolo
 difficult-difficulty = E thata
 pro-difficulty = Pro
