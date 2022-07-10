@@ -19,6 +19,7 @@ af = Se-Afrikaans
 am = Se-Amharic
 an = Se-Aragon
 ar = Se-Arabia
+ast = Se-Asturia
 ba = Se-Bashkir
 bas = Se-Basaa
 eu = Se-Basque
@@ -33,6 +34,7 @@ about = Ka ga
 
 ## Home Page
 
+default-tagline = Mozilla Common Voice ke letsholo la go thusa go ruta metšhine gore batho ba mmatota ba bua jang.
 wall-of-text-start =
     Lentswe ke la tlholego, lentswe ke la motho. Ke gone ka moo re kgatlhegelang go direla metšhine ya rona thekenoloji e e berekang ya mantswe. Mme go dira dithulaganyo tsa mantswe, go tlhokega tshedimosetso e ntsi thata
     ya mantswe.
@@ -87,6 +89,7 @@ profile-form-age =
 why-profile-text =
     Ka go naya tshedimosetso nngwe ka wena, tshedimosetso ya lentswe e o e romelang kwa Common Voice e tla nna mosola thata mo dithulaganyong tsa Speech
     Recognition tse di dirisang tshedimosetso eno go tokafatsa go nepa ga tsone.
+avatar = Setshwantsho
 profile-explanation = Ela tlhoko kgatelopele ya gago o dirisa porofaele mme o thuse tshedimosetso ya rona ya mantswe gore e nepagale thata.
 why-demographic-explanation-2 = Tshedimosetso ya botlhokaina jaaka dingwaga, bong le segalo di tla thusa go tokafatsa go nepa ga didirisiwa tsa go lemoga mantswe. Leinatiriso le imeile ya gago di ka se amanngwe le tshedimosetso ya gago e e rometsweng, mme o ka tlhopha gore a o batla go senola kgotsa go fitlha leinatiriso la gago.
 skip-submission-description = Ka nako ya thomelo ya dikabo, maikutlo a tla tlolwa morago ga go tobetsa 'Romela'. Kabo e tla tswelela ka tlhamalalo ka dikgatiso kgotsa ditlhomamiso tse 5 tse di latelang.
@@ -319,10 +322,13 @@ listen-loading-error = Ga re a kgona go bona dikgatiso tsa mantswe tse o ka di r
 
 ## Dashboard
 
+awards = Dikgele
 visibility-explainer = Seting eno e laola tsela e o bonang lenaane la baetapele ka yone. Fa e fitlhegile, kgatelopele ya gago e tla nna ya poraefete. Seno se raya gore setshwantsho sa gago, leinatiriso la gago le kgatelopele ya gago ga di kitla di bonala mo lenaaneng la baetapele. Ela tlhoko gore go tlhabolola lenaane la baetapele go tsaya metsotso e le ~{ $minutes } go bontsha diphetogo.
+visibility-overlay-note = Ela tlhoko: Fa e beilwe mo go 'Bonagala', o ka kgona go fetola seting eno mo <profileLink>tsebeng ya Porofaele</profileLink>
 
 ## Custom Goals
 
+average-difficulty = Palogare
 receiving-emails-info = Gone jaanong o dirile gore o amogele diimeile tse di jaaka dikgopotso tsa maikaelelo, ditlhabololo tsa kgatelopele ya me le makwalodikgang a Common Voice
 not-receiving-emails-info = Gone jaanong o dirile gore o <bold>SE KA</bold> wa amogela diimeile tse di jaaka dikgopotso tsa maikaelelo, ditlhabololo tsa kgatelopele ya me le makwalodikgang a Common Voice
 # LINK will be replaced with the current URL
