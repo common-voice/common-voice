@@ -292,6 +292,7 @@ profile-form-language =
 profile-form-variant =
     .label = O bua mofuta ofe wa { $language }?
 profile-form-variant-default-value = Ha ho mofuta o kgethilweng
+profile-form-custom-accent-placeholder-2 = Qala ho ngola ho hlalosa tsela ya ho bitsa mantswe ya hao
 profile-form-age =
     .label = Dilemo
 profile-form-gender-2 =
@@ -545,6 +546,7 @@ record-three-more-instruction = Tse tharo tse tlang ho tsamaea!
 record-last-instruction = <recordIcon></recordIcon> Ya ho qetela!
 share-clip = Arolelana clip ya hao
 share-common-voice = Arolelana Common Voice
+review-instruction = Hlahloba le ho rekota di-clip hape ha ho hlokahala
 record-submit-tooltip = { $actionType } romela ha e se e loketse
 clips-uploaded = Di-clip di kentswe
 record-abort-text = Ho tsamaea hona jwale ho bolela hore o tla lahlehelwa ke tswelo-pele ya hao
@@ -637,6 +639,10 @@ n-clips-pluralized =
     }
 confirm-goal = Netefatsa sepheo
 goal-interval-weekly = Beke le beke
+# $type is one of share-goal-type-*
+share-n-daily-contribution-goal = Arolelana { $count } Sepheo sa hao sa Clip sa Letsatsi bakeng sa { $type }
+# $type is one of share-goal-type-*
+share-n-weekly-contribution-goal = Arolelana { $count } Sepheo sa hao sa Clip sa Beke bakeng sa { $type }
 share-goal-type-speak = E ntse e bua
 share-goal-type-listen = E ntse mametse
 share-goal-type-both = Ho Bua le ho Mamela
@@ -672,6 +678,7 @@ download-request-metadata-link = Mongolo wa polelo
 ## Landing
 
 welcome-staff = Amohela { $company } basebetsi!
+read-more-about = Bala haholwanyane ho leqephe la About la rona
 
 ## DemoLayout
 
@@ -764,6 +771,7 @@ sc-howto-review-title = Hlahloba Dipolelo
 sc-howto-review-criteria-1 = Polelo e tlameha ho peletwa ka nepo.
 sc-howto-review-criteria-2 = Polelo e tlameha ho nepahala ho ya ka sebopeho-puo.
 sc-howto-findpd-title = Ho fumana dipolelo tse teng Setjhabeng
+sc-howto-findpd-subtitle = Di batle ho marang-rang
 sc-howto-findpd-tips = Ditlhahiso ke tsena tsa ho fumana dipolelo:
 
 ## MY SENTENCES
@@ -857,6 +865,8 @@ sc-criteria-item-2 = Polelo e tlameha ho nepahala ho ya ka sebopeho-puo.
 
 sc-review-title = Hlahloba Dipolelo
 sc-review-loading = E kenya dipolelo...
+sc-review-form-prompt =
+    .message = Dipolelo tse hlahlobilweng ha dia romellwa, na o tiile?
 # Variables:
 #   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
 sc-review-form-source = Mohlodi: { $sentenceSource }
