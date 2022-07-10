@@ -5,6 +5,7 @@ privacy-info = Re go solofetsa go tshwara tshedimosetso ya gago ka kelotlhoko. B
 email-opt-in-info = Nka rata go amogela diimeile tse di jaaka dikgopotso tsa maikaelelo, ditlhabololo tsa kgatelopele ya me le makwalodikgang a Common Voice.
 email-opt-in-info-sub-with-challenge = Amogela diimeile tse di jaaka dikgwetlho le dikgopotso tsa maikaelelo, ditlhabololo tsa kgatelopele, le makwalodikgang a Common Voice.
 email-opt-in-privacy-v2 = Ka go tlhopha go amogela diimeile o bontsha gore o siame ka gore Mozilla e tshware tshedimosetso eno jaaka go tlhalosiwa mo <privacyLink>Pholising ya Polokodiphiri</privacyLink>ya Mozilla.
+banner-error-slow-2 = Re itemogela pharakano e ntsi mme gone jaanong re batlisisa ka mathata ao.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -23,6 +24,7 @@ as = Se-Assam
 ast = Se-Asturia
 ba = Se-Bashkir
 bas = Se-Basaa
+be = Se-Belarusian
 bg = Se-Bulgaria
 bn = Se-Bengali
 br = Se-Breton
@@ -39,6 +41,7 @@ sq = Se-Albania
 ## Layout
 
 about = Ka ga
+contact = Ikgolaganye
 
 ## Home Page
 
@@ -143,6 +146,7 @@ faq-why-my-lang-a =
     Re ka rata go tsenya puo ya gago! <languageRequestLink>Botsa ka go tsenya puo ya gago.</languageRequestLink>
 faq-what-quality-q = Go tlhokega boleng bofe jwa kgatiso ya lentswe gore e dirisiwe mo rekotong ya tshedimosetso?
 faq-what-quality-a = Re batla gore tshedimosetso ya Common Voice e bontshe boleng jwa modumo o thulaganyo ya go fetolela puo go mokwalo e tla o utlwang mo nageng, ka jalo re batla mefuta e e farologaneng. Mo godimo ga dibui tse di farologaneng, tshedimosetso e e nang le boleng jo bo farologaneng jwa modumo e tla ruta thulaganyo e e fetolelang puo go mokwalo go lepalepana le maemo a a sa tshwaneng a a leng teng mo lefatsheng, go tloga ka modumo o o utlwalang kwa morago fa batho ba bua go ya go modumo wa koloi. Fela fa kgatiso ya lentswe la gago e tlhaloganyesega, e tla bo e siametse tshedimosetso eo.
+faq-why-10k-hours-q = Goreng diura tse di tlhomamisitsweng ka puo tse 10 000 e ke tsone maikaelelo a go tsenya kgatiso?
 faq-why-10k-hours-a = Tseno ke diura tse di fopholediwang gore di ka dirisiwa go ruta metšhine ya mafoko-go-puo gore e dire.
 faq-how-calc-hours-a = Re bala diura ka go fopholetsa kakaretso ya boleele jwa kgatiso nngwe le ngwe, re bo re atisa palo eo ka palogotlhe ya dikgatiso tsa dipuo tsotlhe.
 faq-where-src-from-2-a =
@@ -217,6 +221,7 @@ about-playbook-how-localize-content-3 = Go ranolwa go tswa mo Seesemaneng, mme o
 
 about-playbook-how-add-sentences-content-1 = <strong>Kgobokanyo ya Dipolelo</strong> ke sedirisiwa sa go kgobokanya le go netefatsa dipolelo tsa karolo ya batho botlhe. O tla <scAccountLink>tlhoka go dira akhaonto</scAccountLink>. Go tswa foo, tsenya puo ya gago mo <strong>Porofaeleng</strong> ya gago. O ka <strong>Tsenya</strong> dipolelo kgotsa wa <strong>Sekaseka</strong> dipolelo tse di tsentsweng mo nakong e e fetileng.
 about-playbook-how-add-sentences-content-2 = Dipolelo di tshwanetse go sekasekwa le go dumelelwa ke batho ba babedi gore di akarediwe mo Common Voice. O dira dikaelo tsa puo ya gago <languageGuidelinesLink>fano</languageGuidelinesLink>. Dipolelo di tshwanetse go nna mo <licenseLink>lefelong la botlhe</licenseLink> mme di nne kwa tlase ga mafoko a le 15. O ka kopa mong wa mokwalo gore a o dire <waiverLink>CC0 o dirisa thulaganyo ya rona ya go fetisa</waiverLink>, o bo o re romelela mo commonvoice@mozilla.com
+about-playbook-how-add-sentences-content-3 = O ka dirisa <scraperLink>sekgaoganya Mela</scraperLink> go lekanya mela e mekhutshwane mo Wikipedia.
 about-playbook-how-add-sentences-content-4 = Mela e e tlhomamisitsweng e romelwa ka bo-Laboraro mme e nna gone morago ga tokololo e e latelang.
 
 ## How to record quality
@@ -335,9 +340,11 @@ language-section-launched-description = Mo dipuong tseno tse di simolotsweng, we
 ## Contribution
 
 listen-loading-error = Ga re a kgona go bona dikgatiso tsa mantswe tse o ka di reetsang. Tsweetswee leka gape moragonyana.
+speak-loading-error = Ga re a kgona go bona mela e o ka e buang. Tsweetswee leka gape moragonyana.
 
 ## Reporting
 
+continue = Tswelela
 
 ## Goals
 
@@ -534,6 +541,7 @@ sc-criteria-item-6 = Fa o felelwa ke mela e e sekasekiwang, tsweetswee re thuse 
 sc-review-lang-not-selected = Ga o ise o tlhophe dipuo dipe. Tsweetswee ya kwa <profileLink>Porofaeleng</profileLink> ya gago gore o tlhophe dipuo.
 sc-review-form-usage = Swaepela kafa mojeng go amogela polelo. Swaepela kafa molemeng go e gana. Swaepela kwa godimo go e tlola. <strong>O se ka wa lebala go romela tshekatsheko ya gago!</strong>
 sc-review-form-button-approve = Amogela
+sc-review-form-keyboard-usage-custom = Gape o ka dirisa Ditlhabanyetso Tsa Khiiboto: { sc-review-form-button-approve-shortcut } go Amogela, { sc-review-form-button-reject-shortcut } go Gana, { sc-review-form-button-skip-shortcut } go Tlola
 # Variables:
 #   $sentences (Number) - Number of sentences the user has reviewed in this session
 sc-review-form-reviewed-message =
