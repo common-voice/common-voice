@@ -158,6 +158,7 @@ yi = Yiddish
 yo = Yoruba
 yue = Cantonese
 zh-TW = Chinese (Taiwan)
+zu = Zulu
 
 # [/]
 
@@ -180,6 +181,8 @@ faq = FAQ
 no-clips-to-validate = Ho bonahala eka ha ho na di-clip tsa ho mamela ka puo ena. Re thuse ho tlatsa letoto ka ho rekota tse ding hona jwale.
 vote-yes = Ee
 vote-no = Tjhe
+speak-goal-text = Di-clip di rekotilwe
+listen-goal-text = Di-clip di netefaditswe
 all-locales = Koafela
 today = Kajeno
 
@@ -250,6 +253,7 @@ on = E butswe
 
 ## Profile - Email
 
+max-file-size = { $kb }kb boholo ka ho fetisisa
 
 ## Profile - Email
 
@@ -266,6 +270,7 @@ add-language = Kenya Puo
 about-speak = Bua
 about-listen-queue = Mola wa ho mamela
 about-listen = Mamela
+about-clip-graveyard = Di-clip tsa Mabitleng
 about-stay-in-touch-text-1 = <emailFragment>Ingodise</emailFragment> ho lenane la rona la mangolo ho ithuta hore na o ka nka karolo jwang matsholong, diketsahalong le dikarolo tsa moralo o kopanetsweng ho Common Voice.
 about-nav-partners = Balekane
 
@@ -275,6 +280,7 @@ about-nav-partners = Balekane
 
 ## How do I add a language
 
+about-playbook-how-add-language-collecting-sentences-heading = Ho bokella dipolelo
 
 ## How does localization work
 
@@ -374,7 +380,9 @@ contribute = Kenya letsoho
 listen = Mamela
 skip = Tlola
 shortcuts = Dikgaoletso
+record-stop-instruction = { $actionType }<stopIcon></stopIcon> ha o qetile
 record-last-instruction = <recordIcon></recordIcon> Ya ho qetela!
+clips-uploaded = Di-clip di kentswe
 listen-last-time-instruction = <playIcon></playIcon>Ya ho qetela!
 
 ## Reporting
@@ -446,8 +454,10 @@ demo-account = Ak'haonte
 
 contribution-criteria-nav = Ditekanyetso
 contribution-misreadings-title = Ho se bale hantle
+contribution-misreadings-example-8-explanation = [Ditaba tse sa tsamaisaneng]
 contribution-volume-title = Bophahamo ba modumo
 see-more = <chevron></chevron>Bona tse ding
+see-less = <chevron></chevron>Bona hanyane
 
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
@@ -470,6 +480,7 @@ sc-logout-button = Tswa
 
 ## HOME
 
+sc-home-collect-title = Bokella dipolelo
 
 ## GENERAL
 
