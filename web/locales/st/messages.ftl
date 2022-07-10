@@ -221,6 +221,7 @@ benefits = Melemo
 
 ## What's public
 
+whats-public = Phatlalatsa ke Eng?
 
 ## Speak & Listen Shortcuts
 
@@ -325,6 +326,7 @@ about-clip-graveyard = Di-clip tsa Mabitleng
 about-get-involved = Nka karolo
 about-stay-in-touch-button = Ngodisa
 about-stay-in-touch-text-1 = <emailFragment>Ingodise</emailFragment> ho lenane la rona la mangolo ho ithuta hore na o ka nka karolo jwang matsholong, diketsahalong le dikarolo tsa moralo o kopanetsweng ho Common Voice.
+about-nav-why-common-voice = Hobaneng ?
 about-nav-how-it-works = Jwang ?
 about-nav-partners = Balekane
 about-nav-get-involved = Nka karolo
@@ -465,6 +467,7 @@ record-cta = Qala ho rekota
 record-cancel = Hlakola ho rekota hape
 record-stop-instruction = { $actionType }<stopIcon></stopIcon> ha o qetile
 record-last-instruction = <recordIcon></recordIcon> Ya ho qetela!
+record-submit-tooltip = { $actionType } romela ha e se e loketse
 clips-uploaded = Di-clip di kentswe
 record-abort-submit = Romella di-clip
 record-abort-continue = Qetela ho rekota
@@ -500,6 +503,7 @@ recordings =
 
 ## Dashboard
 
+your-languages = Dipuo tsa Hao
 goal-reached = Sepheo se fihletswe
 stats = Dipalo-palo
 awards = Dikgau
@@ -573,6 +577,7 @@ contribution-criteria-nav = Ditekanyetso
 contribution-criteria-page-title = Mekgwa ya ho Nehelana
 contribution-for-example = Mohlala
 contribution-misreadings-title = Ho se bale hantle
+contribution-misreadings-example-2-explanation = [E tlameha e be 'dikgodumodumo']
 contribution-misreadings-example-8-explanation = [Ditaba tse sa tsamaisaneng]
 contribution-background-noise-title = Lerata le ka morao
 contribution-background-voices-title = Mantswe a ka morao
@@ -672,6 +677,7 @@ sc-login-err-failed = Ho kena ho hlolehile
 # Variables:
 #   $username (String) - eMail address of the logged in user
 sc-profile-title = Profaele: { $username }
+sc-personal-your-languages = Dipuo tsa hao:
 sc-personal-remove-button = tlosa
 
 ## REVIEW CRITERIA
