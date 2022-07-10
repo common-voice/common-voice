@@ -202,6 +202,7 @@ privacy = Lekunutu
 terms = Dipehelo
 cookies = Di-cookie
 faq = FAQ
+content-license-text = Ditaba di fumaneha tlas'a <licenseLink>laesense ya Creative Commons</licenseLink>
 link-copied = Hokahanyo e kopiditswe
 back-top = Kgutlela Hodimo
 logout = Tswa
@@ -210,11 +211,13 @@ logout = Tswa
 
 home-cta = Bua, kenya letsoho mona!
 show-wall-of-text = Bala Haholwanyane
+help-us-title = Re thuse ho netefatsa dipolelo!
 no-clips-to-validate = Ho bonahala eka ha ho na di-clip tsa ho mamela ka puo ena. Re thuse ho tlatsa letoto ka ho rekota tse ding hona jwale.
 vote-yes = Ee
 vote-no = Tjhe
 speak-subtitle = Nehelana ka lentswe la hao
 speak-goal-text = Di-clip di rekotilwe
+listen-subtitle = Re thuse ho netefatsa mantswe
 listen-goal-text = Di-clip di netefaditswe
 hours-recorded = Dihora tse Rekotilweng
 hours-validated = Dihora tse netefaditsweng
@@ -357,6 +360,7 @@ about-dataset-release-title = Tokollo ya Pokello ya Data
 about-speak = Bua
 about-listen-queue = Mola wa ho mamela
 about-listen = Mamela
+about-is-it-valid = Na clip yee e nepahetse?
 about-yes-votes = ≥ 2 Dikgetho tsa E
 about-no-votes = ≥ 2 Ha ho dikgetho
 about-dataset-new = Pokello ya Data ya Common Voice
@@ -430,6 +434,7 @@ data-bundle-button = Download-a Sephuthelwana sa Polokelo ya Data
 release-version = Mofuta
 license-mixed = E tswakantswe
 terms-agree = Kea dumela
+terms-disagree = Ha ke dumele
 review-submit-title = Hlahloba mme o Kenye
 review-recording = Hlahloba
 review-rerecord = Rekota hape
@@ -454,6 +459,7 @@ size-megabyte = MB
 download-language = Download-a { $language }
 validated-hours = Dihora tse netefaditsweng
 recorded-hours = Dihora tse Rekotilweng
+whats-inside = Ho na le eng ka har'a pokello ya data ya Common Voice?
 subscribe = Ngodisa
 other-datasets = Dipokello tsa Data tse Ding
 feedback-q = O na le Maikutlo?
@@ -494,6 +500,9 @@ other-language = Puo e nngwe
 request-language-explanation-2 = Hape re tla <strong>tsebisa mookamedi wa setjhaba sa rona hore o na le thahasello</strong>, kahoo ba ka o fa tshehetso e feng kapa feng e eketsehileng kapa dintlha tseo o ka di hlokang.
 request-language-form-email =
     .label = Aterese ya hao ya email
+request-language-form-info =
+    .label = Tlhahisoleseding ka puo
+request-language-form-info-explanation-list-1 = Mabitso a puo ya hao
 request-language-form-info-explanation-list-2 = <isoCodeLink>Dik'houtu tsa ISO</isoCodeLink> haeba di tsejwa
 
 ## Languages Overview
@@ -534,9 +543,11 @@ share-clip = Arolelana clip ya hao
 share-common-voice = Arolelana Common Voice
 record-submit-tooltip = { $actionType } romela ha e se e loketse
 clips-uploaded = Di-clip di kentswe
+record-abort-text = Ho tsamaea hona jwale ho bolela hore o tla lahlehelwa ke tswelo-pele ya hao
 record-abort-submit = Romella di-clip
 record-abort-continue = Qetela ho rekota
 record-abort-delete = Tswa mme o Hlakole di-clip
+listen-again-instruction = Mosebetsi o motle!<playIcon></playIcon> Mamela hape ha o se o itokisitse
 listen-last-time-instruction = <playIcon></playIcon>Ya ho qetela!
 speak-empty-state-cta = Nehelana ka dipolelo
 record-button-label = Rekota lentswe la hao
@@ -610,6 +621,7 @@ easy-difficulty = E bonolo
 difficult-difficulty = E thata
 pro-difficulty = Pro
 finish-editing = Qetela ho lokisa pele?
+lose-changes-warning = Ho tsamaea hona jwale ho bolela hore o tla lahlehelwa ke diphetoho tsa hao
 build-custom-goal = Aha sepheo se etseditsweng wena feela
 set-a-goal = Ipehele sepheo
 cant-decide = Ha o kgone ho etsa qeto?
@@ -625,6 +637,8 @@ share-goal-type-listen = E ntse mametse
 share-goal-type-both = Ho Bua le ho Mamela
 # LINK will be replaced with the current URL
 goal-share-text = Ke sa tswa iketsetsa sepheo sa ho fana ka lentswe ho #CommonVoice -- ikopanye le nna ho thusa ho ruta metjhini hore na batho ba nnete ba bua jwang { $link }
+weekly-goal-created = Sepheo sa hao sa beke se entswe
+daily-goal-created = Sepheo sa hao sa letsatsi le letsatsi se entswe
 share-goal = Arolelana sepheo sa ka
 
 ## Profile Delete
@@ -689,7 +703,9 @@ contribution-misreadings-example-2-explanation = [E tlameha e be 'dikgodumodumo'
 contribution-misreadings-example-8-title = Notshi e ile ya feta ka lebelo.
 contribution-misreadings-example-8-explanation = [Ditaba tse sa tsamaisaneng]
 contribution-varying-pronunciations-title = Qapodiso tse fapaneng
+contribution-varying-pronunciations-example-2-title = Letsoho la hae le ne le phahamisitswe.
 contribution-background-noise-title = Lerata le ka morao
+contribution-background-noise-example-2-explanation = [Karolo e nngwe ya mongolo ha e utluwe]
 contribution-background-voices-title = Mantswe a ka morao
 contribution-volume-title = Bophahamo ba modumo
 contribution-just-unsure-title = Feela ha o na bonnete?
@@ -736,6 +752,8 @@ sc-howto-addsen-title = Kenya dipolelo tse ntjha
 sc-howto-cite-title = Mokgwa wa ho Qotsa
 sc-howto-cite-item-3 = Bakeng sa mongolo wa setjhaba o sa fumaneheng marang-rang, o ka sebedisa mokgwa wa ditshupiso tsa thuto, mohlala, mokgwa wa Harvard "Jess (2021) dithothokiso tsa ka tsa laecence ya setjhaba"
 sc-howto-review-title = Hlahloba Dipolelo
+sc-howto-findpd-title = Ho fumana dipolelo tse teng Setjhabeng
+sc-howto-findpd-tips = Ditlhahiso ke tsena tsa ho fumana dipolelo:
 
 ## MY SENTENCES
 
@@ -752,6 +770,7 @@ sc-my-deleting = Ho hlakola dipolelo tse kgethilweng...
 
 sc-rejected-title = Dipolelo tse hannweng
 sc-rejected-loading = E kenya dipolelo tse hannweng...
+sc-rejected-none-found = Ha ho dipolelo tse hannweng tse fumanweng!
 
 ## STATS
 
@@ -808,6 +827,7 @@ sc-login-err-try-again = Ka kopo leka hape
 # Variables:
 #   $username (String) - eMail address of the logged in user
 sc-profile-title = Profaele: { $username }
+sc-personal-err-lang-not-found = Ha e kgone ho tlosa puo: puo ha e fumanehe
 sc-personal-err-remove = Ha e ya kgona ho tlosa puo
 sc-personal-your-languages = Dipuo tsa hao:
 sc-personal-remove-button = tlosa
@@ -846,6 +866,7 @@ sc-settings-title = Ditlhophiso
 sc-settings-ui-language = Puo ya Sehokelo
 sc-settings-reset-skipped = Seta botjha dipolelo tse tlotsweng
 sc-settings-skipped-decription = O ile wa tlola dipolelo ha o ntse o hlahloba. Ho hlophisa botjha dipolelo tse tlotsweng ho tla bontsha dipolelo tsohle tse tlotsweng hape. Sena se ikemetse ho puo.
+sc-settings-failed = Ha e kgone ho fetola ditlhophiso. Ka kopo leka hape.
 
 # [/SentenceCollector]
 
