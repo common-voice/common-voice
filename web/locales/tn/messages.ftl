@@ -459,6 +459,7 @@ sc-criteria-item-5-2 = Fa polelo e sa fitlhelele ditshwanelego tse di fa godimo,
 ## REVIEW
 
 sc-review-form-usage = Swaepela kafa mojeng go amogela polelo. Swaepela kafa molemeng go e gana. Swaepela kwa godimo go e tlola. <strong>O se ka wa lebala go romela tshekatsheko ya gago!</strong>
+sc-review-form-button-approve = Amogela
 
 ## SETTINGS
 
