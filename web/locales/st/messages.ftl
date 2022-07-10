@@ -185,6 +185,7 @@ privacy = Lekunutu
 terms = Dipehelo
 cookies = Di-cookie
 faq = FAQ
+link-copied = Hokahanyo e kopiditswe
 logout = Tswa
 
 ## Home Page
@@ -247,6 +248,8 @@ profile-form-age =
     .label = Dilemo
 profile-form-gender-2 =
     .label = Bong
+leaderboard-visibility =
+    .label = Ponahalo Boto ya boetapele
 hidden = E patilwe
 visible = E Bonahalang
 profile-form-submit-save = Boloka
@@ -342,6 +345,7 @@ error-code = Phoso { $code }
 
 data-download-yes = Ee
 data-download-deny = Tjhe
+data-download-license = Laesense: <licenseLink>CC-0</licenseLink>
 data-other-goto = Eya ho { $name }
 data-other-download = Download-a Data
 release-version = Mofuta
@@ -421,6 +425,7 @@ clips-uploaded = Di-clip di kentswe
 record-abort-continue = Qetela ho rekota
 listen-last-time-instruction = <playIcon></playIcon>Ya ho qetela!
 speak-empty-state-cta = Nehelana ka dipolelo
+target-segment-learn-more = Ithute haholwanyane
 
 ## Reporting
 
@@ -597,6 +602,7 @@ sc-personal-remove-button = tlosa
 
 ## REVIEW
 
+sc-review-loading = E kenya dipolelo...
 # Variables:
 #   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
 sc-review-form-source = Mohlodi: { $sentenceSource }
