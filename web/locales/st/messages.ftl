@@ -289,6 +289,8 @@ profile-form-additional-language =
     .label = Puo ya tlatsetso
 profile-form-language =
     .label = Puo
+profile-form-variant =
+    .label = O bua mofuta ofe wa { $language }?
 profile-form-variant-default-value = Ha ho mofuta o kgethilweng
 profile-form-age =
     .label = Dilemo
@@ -327,6 +329,7 @@ on = E butswe
 
 browse-file-title = Kenya faele ya setshwantsho
 connect-gravatar = Kopana le Gravatar
+file_too_large = Faele e kgethilweng e kgolo haholo
 avatar-uploaded = Avatar e kentswe
 max-file-size = { $kb }kb boholo ka ho fetisisa
 remove-avatar = Tlosa Avatar
@@ -384,6 +387,7 @@ about-playbook-how-add-language-collecting-sentences-heading = Ho bokella dipole
 
 ## How does localization work
 
+about-playbook-how-localize-content-5 = Shebella setsebi sa rona sa video ho o thusa
 
 ## How to add sentences
 
@@ -551,6 +555,7 @@ listen-again-instruction = Mosebetsi o motle!<playIcon></playIcon> Mamela hape h
 listen-last-time-instruction = <playIcon></playIcon>Ya ho qetela!
 speak-empty-state-cta = Nehelana ka dipolelo
 record-button-label = Rekota lentswe la hao
+target-segment-generic-card = O kenya letsoho karolong e lebeletsweng
 target-segment-add-voice = Kenya Lentswe la hao
 target-segment-learn-more = Ithute haholwanyane
 
@@ -699,12 +704,16 @@ contribution-criteria-link = Utlwisisa mekgwa ya ho fana
 contribution-criteria-page-title = Mekgwa ya ho Nehelana
 contribution-for-example = Mohlala
 contribution-misreadings-title = Ho se bale hantle
+contribution-misreadings-example-2-title = Kgodumodumo e kgolo tsa Triassic.
 contribution-misreadings-example-2-explanation = [E tlameha e be 'dikgodumodumo']
+contribution-misreadings-example-3-title = Dikgodumodumo tse kgolo tsa Triassic-.
+contribution-misreadings-example-6-title = Re il'o fumana kofi.
 contribution-misreadings-example-8-title = Notshi e ile ya feta ka lebelo.
 contribution-misreadings-example-8-explanation = [Ditaba tse sa tsamaisaneng]
 contribution-varying-pronunciations-title = Qapodiso tse fapaneng
 contribution-varying-pronunciations-example-2-title = Letsoho la hae le ne le phahamisitswe.
 contribution-background-noise-title = Lerata le ka morao
+contribution-background-noise-example-2-fixed-title = Kgodumodumo e kgolo <strong>[cough]</strong> Triassic.
 contribution-background-noise-example-2-explanation = [Karolo e nngwe ya mongolo ha e utluwe]
 contribution-background-voices-title = Mantswe a ka morao
 contribution-volume-title = Bophahamo ba modumo
@@ -752,6 +761,8 @@ sc-howto-addsen-title = Kenya dipolelo tse ntjha
 sc-howto-cite-title = Mokgwa wa ho Qotsa
 sc-howto-cite-item-3 = Bakeng sa mongolo wa setjhaba o sa fumaneheng marang-rang, o ka sebedisa mokgwa wa ditshupiso tsa thuto, mohlala, mokgwa wa Harvard "Jess (2021) dithothokiso tsa ka tsa laecence ya setjhaba"
 sc-howto-review-title = Hlahloba Dipolelo
+sc-howto-review-criteria-1 = Polelo e tlameha ho peletwa ka nepo.
+sc-howto-review-criteria-2 = Polelo e tlameha ho nepahala ho ya ka sebopeho-puo.
 sc-howto-findpd-title = Ho fumana dipolelo tse teng Setjhabeng
 sc-howto-findpd-tips = Ditlhahiso ke tsena tsa ho fumana dipolelo:
 
@@ -839,6 +850,8 @@ sc-personal-added-by-you = { $sentences } tse kentsweng ke wena
 
 sc-criteria-modal = ⓘ Mekgwa ya Tlhatlhabo
 sc-criteria-title = Mekgwa ya Tlhatlhobo
+sc-criteria-item-1 = Polelo e tlameha ho peletwa ka nepo.
+sc-criteria-item-2 = Polelo e tlameha ho nepahala ho ya ka sebopeho-puo.
 
 ## REVIEW
 
