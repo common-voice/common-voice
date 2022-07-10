@@ -86,6 +86,8 @@ about-header-description-v2 = Theknolotši ya go tlhathollo lentšu e fetola tse
 
 ## How does it work section
 
+about-yes-votes-text = Go e dira gore e tsene go dathasete ya Common Voice, pego ya lentšu e swanetše go netefatšwa ke bašomiši ba babedi ba go fapana.
+about-dataset-new-text = Dathasete ya Common Voice e nale di pego tše makgolo le dikete ya mehlala ya manntšu e thušago ba batšweletša ba agang sedirišwa sa temogo ya lentšu.
 about-clip-graveyard-text = Setsopolwa sa Graveyard se na le dirakolo tša lentšu tše di sa fihlaho go dathasete ya Common Voice. Bjalo ka dathasete, setsopolwa sa Graveyard ya hwetšagala bakeng sa go tanelouta.                               Re ka rata go leboga batho le mekgatlo e latelago ka thušo ya bona morerong o:
 about-stay-in-touch-text-1 = <emailFragment>Ngwadiša</emailFragment> go lethamong la rena la mangwalo go ithutha gore na o ka tšea karolo bjang masolong, ditiragalo le dikarolo tša moralo o kopanetšego go Common Voice.
 about-stay-in-touch-text-2 = O ka kopana le ba bangwe ba setšhaba sa polelo ya Mozilla ka go ikopanya go <discourseLink>Discourse</discourseLink> go hwetša poledišano ya ditaba, goba <matrixLink>Matrikse</matrixLink> go hwetša keletšo ya kapejana.
@@ -116,6 +118,7 @@ about-playbook-how-add-sentences-content-2 =
 
 ## How to record quality
 
+about-playbook-how-record-content-4 = Kgonthišetša gore sethaleng se ya rekhota pele o thoma go bolela, le gore se ema fela ge o feditše.
 
 ## How to grow language
 
@@ -162,6 +165,7 @@ dataset-description-hours =
     Dathasete ga bjale di na le <b>{ $valid }</b> diiri tšeo di netegaditšwego ka dipolelo<b>{ $languages }</b>, eupša re dula ka mehla re okeditše mantšu le maleme a mangwe. Ela hlogo <languagesLink>letlakaleng la rena la Dipolelo</languagesLink> go kgopela polelo goba go thoma go neela.
 resource-playbook-info = <playbookLink>Hwetša keletšo ya maleba </playbookLink> go leeto le feletšego la Common Voice, go tšwa mo o dulago gona go ya go tirišo ya datha, le gore le kopana bjang le setšhaba sa rena.
 data-other-librispeech-description = LibriSpeech ke pokello ya dipego ya diiri  tše ka bago tše 1000 tša 16Khz tše di balwago ka polelo ya Seisemane e tšwerego dipukeng tša odio tše balwago tša go tšwa  morerong wa LibriVox.
+data-other-voxforge-description = VoxForge e beilwe go kgobokanya polelo e fetotšwego gore e berikišwe ka Mahala le Mothopo o Bulegilego wa Di-entšene tša Tlhathollo ya Polelo.
 your-feedback = Afa o nale dikgopolo gore re ka dirang gore dathasete ya Common Voice e be kaone? Re tsebiše go Discourse
 
 ## Download Modal
@@ -178,6 +182,7 @@ request-language-success-content = Re tla ikgokaganya le wena ka tsebišo e oket
 
 request-language-explanation-2 = Le rena re tla <strong>tsebiša moetapele wa badudi gore o na le kgahlego </strong>, gore ba go fe thekgo e oketšegilego goba tsebo e o ka e hlokago.
 request-language-success-list-3 = Ge e ba o sa kwe go tšwa go rena ka morago ga matšatši a mmalwa a tlago, ikgokaganye le rena go <emailLink>{ $email }</emailLink>re tla boela go wena!
+request-language-error = Re ka be re sa hwetša kgopelo yeo. Ka kgopelo re romele e-meile go lebanya le rena go <emailLink>{ $email }</emailLink> re tla boela go wena!
 
 ## Languages Overview
 
@@ -197,6 +202,7 @@ visibility-explainer = Peakanyo ye e laola ke ponagalo ya kelo ya baetapele. Ge 
 
 ## Custom Goals
 
+not-receiving-emails-info = Gona bjale o ka <bold>GANA</bold> go hwetša lenaneo la poso la dikgopotšo tša dipakane,  sebontšhatšwelopele le mangwalo a ditaba tša Common Voice
 # LINK will be replaced with the current URL
 goal-share-text = Ke fetša go hlangwa pakane ya go neela ka lentšu go #CommonVoice -- a re hlakane gomme re thuše go ruta metšhene gore na batho ba nnete ba bolela bjang { $link }
 
@@ -213,6 +219,7 @@ download-request-link-single = O ka kopisa le go beya di-URL tše tobegilego go 
 
 ## Landing
 
+help-contribute = O ka thuša go aga di dathasete tše di fapanego tša mothopo o bulegilego ka go hlangwa profaele ya Common Voice le go neela lentšu la gago.
 
 ## DemoLayout
 
@@ -233,6 +240,7 @@ demo-dashboard-card-body = Bakeng sa setsopolwana se sengwe le sengwe sa lentšu
 
 ## Validation criteria
 
+contribution-criteria-page-description = Kwešiša gore ke eng se o swanetše go se lebelela ge o theeletša dipego gomme o thutše go dira direkhoto tša gago tša lentšu di hume!
 contribution-varying-pronunciations-description = Eba šedi pele o gana setsopolwana ka baka la gore mmadi ga a bitša lentšu ka tsela e fošagetšego, o beile kgateletšo lefelong le fošagetšego, goba go bonagala a hlokomologile letswao la potšišo. Go na le mehuta e mentši ya go bitšwa ga mantšu e didirišwago lefaseng ka bophara, yeo mohlomongwe o se ke wa ekwa setšhabeng sa geno. Ka kgopelo nea ka moedi wa tebogo go bao ba bolelago ka tsela e fapanego le ya gago.
 contribution-varying-pronunciations-description-extended = Ka lehlakoreng le lengwe, ge e ba o nagana gore mohlomogwe mmadi ga se ka ka ka gahlana le lentšu pele, gomme o dira kgakanyo e fošagetšego ka mokgwa wa piletšo ya mantšu, ka kgopelo gana. Ge e ba o sa kgonthišege, šomiša setobetšwa sa go taboga.
 contribution-background-noise-description = Re nyaka gore alkoritheme ya go ithuta ya motšhene e kgone go šoma le lešata le fapanego, ešita le mašata a magolo ao a ka amogelwago ge feela le sa go thibele go kwa mongwalo ka moka. Mmino wa bokamorago wa llela fase o LOKILE; mmino o wa godimo ka mo go lekanego go go thibela go kwa lentšu le lengwe le lengwe ga wa lokela.
@@ -301,6 +309,12 @@ sc-add-result =
 
 ## ADD SENTENCES CONFIRMATION
 
+sc-confirm-already-reviewed =
+    { $countOfReviewed ->
+        [0] 0] Ga gona lefoko le ahlolotšwego.
+        [one] [one] lefoko le le 1 le hlahlobilwe. O šomile botse!
+       *[other] *[other] { $sentences } mafoko a šetše a hlahlobilwe. O šomile botse!
+    }
 sc-confirm-uploading = Mafoko a tsenywa. Se se ka tšea metsotso e mmalwa go ya ka gore ke mafoko a ma kae a tsenywago. Re kgopela o se ke wa tswalela wepesaete.
 
 ## LANGUAGE INFO
