@@ -1,6 +1,7 @@
 ## General
 
 email-opt-in-info = Nka rata go amogela diimeile tse di jaaka dikgopotso tsa maikaelelo, ditlhabololo tsa kgatelopele ya me le makwalodikgang a Common Voice.
+email-opt-in-info-sub-with-challenge = Amogela diimeile tse di jaaka dikgwetlho le dikgopotso tsa maikaelelo, ditlhabololo tsa kgatelopele, le makwalodikgang a Common Voice.
 email-opt-in-privacy-v2 = Ka go tlhopha go amogela diimeile o bontsha gore o siame ka gore Mozilla e tshware tshedimosetso eno jaaka go tlhalosiwa mo <privacyLink>Pholising ya Polokodiphiri</privacyLink>ya Mozilla.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
@@ -131,6 +132,7 @@ how-does-it-work-text = Re batla tshedimosetso ya batho ba bantsi ya mantswe. Ab
 
 ## How does it work section
 
+about-listen-text = Badirisi ba tlhomamisa gore a direkoting tse go abalanweng ka tsone di nepagetse, ba tlhola gore a sebui se bala mela sentle.
 about-yes-votes-text = Gore kgatiso ya lentswe e tsene mo rekotong ya tshedimosetso ya Common Voice, e tshwanetse ya bo e tlhomamisitswe ke badirisi ba babedi.
 about-no-votes-text = Fa modirisi a gana polelo, e boela kwa Moleng. Fa kgatiso ya lentswe e ganwa lekgetlho la bobedi, e romelwa kwa Clip Graveyard.
 about-dataset-new-text = Rekoto ya Tshedimosetso ya Common Voice e na le disampole tsa mantswe di le makgolo a le diketekete tse di thusang badiri go tlhama dithulusu tse di lemogang mantswe.
