@@ -30,6 +30,7 @@ bn = Se-Bengali
 br = Se-Breton
 bs = Se-Bosnia
 bxr = Se-Buryat
+cv = Se-Chuvash
 eu = Se-Basque
 hy-AM = Se-Armania
 my = Se-Burma
@@ -71,6 +72,7 @@ no-clips-to-validate = Go lebega go se na dikgatiso dipe tse di tlhokang go reed
 speak-paragraph = Go rekota mantswe ke karolo e e botlhokwa thata e e thusang go aga rekoto ya tshedimosetso; ba bangwe ba ka re gape ke karolo e e itumedisang.
 listen-paragraph = Go tlhomamisa dikgatiso tse di abilweng le gone go botlhokwa mo maikaelelong a Common Voice. Reetsa mme o re thuse go dira tshedimosetso e e nang le boleng ya mantswe.
 all-locales = Tsotlhe
+email-subscription-title-new = Ikwadisetse go amogela makwalodikgang a Common Voice, dikgopotso tsa maikaelelo le ditlhabololo tsa kgatelopele
 
 ## Account Benefits
 
@@ -175,6 +177,7 @@ how-does-it-work-text = Re batla tshedimosetso ya batho ba bantsi ya mantswe. Ab
 
 ## How does it work section
 
+about-speak-text = Batsayakarolo ba gatisa mantswe a bone ka go bala mo bontsintsing jwa mela e e abilweng.
 about-listen-queue-text = Dikgatiso tsa mantswe di tsena mo moleng wa go romelwa o o dirang gore di siamele go reediwa.
 about-listen-text = Badirisi ba tlhomamisa gore a direkoting tse go abalanweng ka tsone di nepagetse, ba tlhola gore a sebui se bala mela sentle.
 about-is-it-valid-text = Kgatiso ya lentswe e tshwaiwa e "siame" fa modirisi a e neile tlhopho ya Ee.
@@ -262,6 +265,7 @@ about-playbook-how-project-governance-content-1 = Mozilla Common Voice e kgonega
 
 localization-explanation = Ono ke mokgwa wa rona wa go ranola le go dira gore tshedimosetso ya rona e tsamaisane le dipuo di le dintsi.
 sentence-collection-explanation = Go amogela mela go tswa mo lefelong la batho botlhe, kgotsa go kwalela lefelo la batho botlhe e mesha.
+hours-recorded-explanation = Palo ya diura tsa direkoting tse re setseng re di amogetse go fitlha jaana.
 hours-validated-explanation = Palo ya diura tsa kgatiso ya mantswe e e tlhomamisitsweng ke badirisi ba le 2 mo go ba le 3 ka tlhopho ya “Ee”. Seno se bontsha botswelelopele jwa porojeke ka kakaretso ya mokgele wa diura tse 10k.
 de-identified-explanation = Thulaganyo e ka yone tshedimosetso ya porofaele ya moabi e fitlhegileng mo dikgatisong tsa mantswe fa e baakanyeditswe go itseelwa jaaka karolo ya tshedimosetso.
 
@@ -275,6 +279,8 @@ error-content-503 = Webosaete e tla bo e boetse mo maemong ka bonako jo bo kgone
 data-subtitle = Re aga rekoto ya tshedimosetso ya mantswe e mongwe le mongwe a ka e dirisang go thapisa dithulaganyo tse di kgonang go dirisa mantswe.
 data-explanatory-text = Re dumela gore tshedimosetso e kgolo le e e phasaladitsweng ya mantswe e rotloetsa go tlhama le kgaisano ya kgwebo mo thekenolojing e e ikaegileng ka go ithuta ga metšhine. Ano ke matsapa a lefatshe lotlhe mme re laletsa mongwe le mongwe go tsaya karolo. Boikaelelo jwa rona ke go thusa thekenoloji ya go bua gore e akaretse dilo tse dintsi, e bontshe pharologano ya mantswe go ralala lefatshe.
 data-download-singleword-callout-v2 = Eno ke karolwana e e berekang e e nang le tshedimosetso ya go matlafatsa mokgwa wa go dirisa puo le o o kgonang go lemoga ee / nnyaa.
+review-terms = Ka go dirisa Common Voice, o dumalana le <termsLink>Melawana</termsLink> le <privacyLink>Kitsiso ya Polokodiphiri</privacyLink>
+review-submit-msg = Re lebogela go gatisa!<lineBreak></lineBreak>Jaanong o ka sekaseka o bo romela dikgatiso tsa gago fa tlase.
 
 ## Datasets Page
 
@@ -302,6 +308,7 @@ data-other-voxforge-description = VoxForge e ne e diretswe go phutha puo e e kwa
 data-other-tatoeba-description = Tatoeba ke tshedimosetso e kgolo ya dipolelo, dithanolo, le kgatiso ya mantswe a a buiwang e e dirisiwang go ithuta puo. Karolo eno e e itseelwang e na le Seemane se se buiwang se se gatisitsweng ke morafe wa bone.
 your-feedback = A o na le dikakantsho tsa gore re ka tokafatsa jang direkoto tsa tshedimosetso ya Common Voice? Re itsise mo Discourse
 missing-language = Ga o bone puo ya gago e tlhaga mo Rekotong ya Tshedimosetso? Go kopa puo, ya kwa tsebeng ya rona ya Dipuo.
+close = Tswala
 
 ## Download Modal
 
@@ -325,6 +332,7 @@ request-language-explanation-1 =
 request-language-explanation-2 =
     Gape re tla <strong>itsise motsamaisi wa lefelo la rona gore o a kgatlhega
     </strong>, gore a kgone go go naya tshegetso e e oketsegileng kgotsa tshedimosetso e o ka e tlhokang.
+request-language-form-info-explanation = Tsenya tshedimosetso e ntsi ka fa o ka kgonang ka teng ka puo. Seno se ka akaretsa:
 request-language-success-list-1 = O tshwanetse go amogela email mo bogautshwaneng e e tlhalosang dikgato tsa go tsenya puo ya gago mo Common Voice
 request-language-success-list-2 =
     Motsamaisi wa morafe wa rona o tla ikgolaganya le wena go go naya
@@ -343,6 +351,7 @@ language-section-launched-description = Mo dipuong tseno tse di simolotsweng, we
 
 ## Contribution
 
+action-click = Tobetsa
 listen-loading-error = Ga re a kgona go bona dikgatiso tsa mantswe tse o ka di reetsang. Tsweetswee leka gape moragonyana.
 speak-loading-error = Ga re a kgona go bona mela e o ka e buang. Tsweetswee leka gape moragonyana.
 
@@ -389,6 +398,7 @@ why-delete-recordings =
 ## Profile Download
 
 download-recordings-unavailable = Ga o kgone go kopa dikgatiso tsa gago fa kopo e nngwe e setse e diragadiwa.
+download-recently-requested = O ka kopa go ntsha dikgatiso tsa gago malatsi mangwe le mangwe a le { $days }.
 download-requests-info = Fa o kopa dikgatiso tsa gago, re di kopanya go di dira faele e le nngwe kgotsa di le mmalwa tsa ZIP. Tseno ke dikopo tsa gago tsa nako e e fetileng.
 download-request-link-single = Gape o ka kgona go kopisa le go manega di-URL tse di tlhamaletseng mo lefelong la gago la mmamoratwa la go itseela dilo. Di tla felelwa ke nako mo diureng tse 12, mme o ka boela mo tsebeng eno go dira tse disha nako nngwe le nngwe.
 
@@ -525,6 +535,14 @@ sc-confirm-uploading = Mela e a tsenngwa. Seno se ka tsaya metsotso e le mmalwa 
 
 ## LANGUAGE INFO
 
+# Variables:
+#   $totalInReview (Number) - Number of sentences currently in the review state for this language
+sc-lang-info-in-review =
+    { $totalInReview ->
+        [0] Ga go na mela e e sekasekiwang.
+        [one] Go na le mola o le 1 o o sekasekiwang.
+       *[other] *Mela e le { $totalInReview } e e sekasekiwang.
+    }
 # Variables:
 #   $unreviewedSentencesByYou (Number) - Number of sentences the user can still review
 sc-lang-info-left-for-you =
