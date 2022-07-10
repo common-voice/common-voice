@@ -30,6 +30,7 @@ br = Se-Breton
 bs = Se-Bosnian
 bxr = Se-Buryat
 ca = Se-Catalan
+cak = Se-Kaqchikel
 co = Se-Corsican
 cs = Czech
 cv = Se-Chuvash
@@ -47,6 +48,7 @@ fi = Finnish
 fo = Faroese
 fr = Sefora
 fy-NL = Se-Frisian
+ga-IE = Se-Irish
 gl = Se-Galician
 gn = Se-Guarani
 ha = Se-Hausa
@@ -56,13 +58,30 @@ hr = Se-Croatia
 ht = Se-Haitian
 hu = Se-Hungarian
 hy-AM = Ma-Armenia
+ia = Se-Interlingua
+id = Se-Indonesia
+ie = Se-Interlingue
 ig = Se-Igbo
 is = Se-Icelandic
+it = Setaliana
+izh = Se-Izhorian
+ja = Se-Japane
 ka = Se-Georgia
+kaa = Se-Karakalpak
+kab = Se-Kabyle
+kbd = Se-Kabardian
+ki = Se-kikuyu
+kk = Se-Kazakh
+km = Se-khmer
+ko = Se-Korea
+kpv = Se-Komi-Zyrian
 kw = Se-Cornish
+ky = Se-Kyrgyz
 my = Se-Burmese
 myv = Se-Erzya
 nl = Se-Dutch
+quc = Se-K'iche'
+rw = Se-Kinyarwanda
 sq = Se-Albania
 yue = Se-Cantonese
 
@@ -110,6 +129,8 @@ english = Seisemane
 
 ## ProfileForm
 
+profile-form-language =
+    .label = Leleme
 profile-form-accent =
     .label = Mokgwa
 profile-form-age =
@@ -337,6 +358,7 @@ goal-share-text = Ke fetša go hlangwa pakane ya go neela ka lentšu go #CommonV
 
 ## Profile Delete
 
+keep = Boloka
 keep-info = Dipego tša gago tša lentšu tšeo di sa tsebjego di tla šala go dathasete ya Common Voice. Ka morago ga go phumola profaele ya gago o ka sa kgona go romela kgopelo ya go phumola direkhoto tša gago go dathasete.
 remove-info = Re tla hlahloba kgopelo ya gago ya go tloša direkhoto tša lentšu la gago dathaseteng. Ge e ba kgopelo ya gago e amogetšwe, re tla ikgokaganya le bao ba taonelouteng dathasete gomme re tla ba kgopela gore le bona ba phumole direkhoto tša lentšu la gago.
 why-delete-recordings = Dipego tša Common Voice di dirišwa ke barutegi, dikgwebo-potlana, le ba go fišegelwa go tseba ka mantšu go thuša go eteletša le go godiša methopo ye e hwetšagalago phatlalatša bjalo ka mehuta ya mantšu.                                                                                                                                                          Na o ka re tsebiša gore ke ka baka la eng o nyaka gore direkhoto tša gago di phumolwe?
