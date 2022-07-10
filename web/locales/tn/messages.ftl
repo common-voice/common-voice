@@ -30,11 +30,13 @@ bn = Se-Bengali
 br = Se-Breton
 bs = Se-Bosnia
 bxr = Se-Buryat
+ca = Se-Catalan
 cv = Se-Chuvash
 eu = Se-Basque
 hy-AM = Se-Armania
 my = Se-Burma
 sq = Se-Albania
+yue = Se-Canton
 
 # [/]
 
@@ -43,6 +45,7 @@ sq = Se-Albania
 
 about = Ka ga
 contact = Ikgolaganye
+share-text = Thusa go ruta metšhine  gore batho ba mmatota ba bua jang, abelana ka lentswe la gago mo { $link }
 
 ## Home Page
 
@@ -140,6 +143,7 @@ faq-how-get-a = Tshedimosetso ya Common Voice e ka itseelwa mo laesenseng ya <li
 faq-when-release2-a = Ga jaana karolo ya dipuo tse dintsi ya tshedimosetso ya Common Voice e kgobokanngwa le go phepafadiwa ke morafe. Fa o batla go re thusa go tlisa Common Voice mo dipuong tse disha, leba <sentenceCollectorLink>Thulusu ya go Kgobokanya Dipolelo</sentenceCollectorLink> go tsenya dipolelo tse disha mo tshedimosetsong, le Mozilla <pontoonLink>Pontoon</pontoonLink> go ranola webosaete ka boyone. Dipuo tse disha di tsenngwa mo Common Voice go aba mantswe fa dipolelo tse di dumeletsweng di le 5000 di kgobokantswe.
 faq-why-mission-a = Mozilla e batla go boloka webosaete e bulegetse mongwe le mongwe e bile e kgona go fitlhelesega. Go dira jalo, re tlhoka go matlafatsa badiri ba webosaete ka diporojeke tse di jaaka Common Voice. Fa dithekenoloji tsa mantswe di ntse di oketsega go feta dithulaganyo tse di tswalegileng, re dumela gore di tshwanetse go direla batho botlhe ka go lekana. Seo se raya go beeletsa mo dipuong tse dintsi le go dirisana le digalo tse di farologaneng le dipalopalo fa ba dira le go tlhatlhoba dithekenoloji tsa mantswe. Common Voice ke sedirisiwa se mongwe le mongwe le ditlhopha tsa Mozilla le badiri go ralala lefatshe ba setse ba se dirisa le mo diporojekeng tsa rona.
 faq-what-cv-and-deepspeech-a = Tshedimosetso ya Common Voice e tlaleletsa thulaganyo ya Mozilla ya go lemoga mantswe ya Deep Speech. Karolo ya ntlha ya Deep Speech e golotswe ka November 2017 mme e ntse e tswelela e tlhabologa fa e sa le ka nako eo. Mmogo le tshedimosetso ya Common Voice, re dumela gore thekenoloji eno ya go lemoga mantswe e tshwanetse ya fitlhelelwa ke mongwe le mongwe. Re solofela gore dithekenoloji tseno di tla letla badiri go dira dikuno le ditirelo tse di botlhale.
+faq-is-goal-assistant-q = A maikaelelo a Common Voice ke go tlhama mothusi wa lentswe?
 faq-is-goal-assistant-a = Mokgele wa tshedimosetso ya Common Voice ke go dira gore mongwe le mongwe mo lefatsheng a dire thulaganyo ya go lemoga puo, go lemoga sebui, kgotsa thulaganyo epe e nngwe e e batlang tshedimosetso ya lentswe. Thuso ya lentswe ke nngwe ya mefuta ya dithulaganyo tse o ka dirisang tshedimosetso go e dira.
 faq-do-want-native-q = Ga se puo ya gaetsho e bile ga ke e bue jaaka beng ba yone, a lo santse lo batla lentswe la me?
 faq-do-want-native-a = Se tota re se batlang ke lentswe la gago! Karolo ya boikaelelo jwa Common Voice ke go kgobokanya digalo tse di farologaneng kafa go ka kgonegang ka gone gore ditirelo tsa go lemoga mantswe di direle batho botlhe ka go lekana. Seno se raya gore diabe tsa batho ba e seng babui ba tlholego le tsone di botlhokwa thata.
@@ -235,6 +239,7 @@ about-playbook-how-add-sentences-content-4 = Mela e e tlhomamisitsweng e romelwa
 
 about-playbook-how-record-content-1 = Bua ka lentswe la gago le le tlwaelegileng! Tsela e o buang ka yone e amogelesegile fano - re batla segalo sa lentswe la gago jaaka se ntse, e bile re batla modumo, setaele le molodi wa gago o o tlwaelegileng.
 about-playbook-how-record-content-2 = Tila medumo e mentsi e e mo lemoragong - go tshwanetse ga nna motlhofo go go utlwa.
+about-playbook-how-record-content-3 = Bala mela ka kelotlhoko - o se ka wa tlola, wa fetola kgotsa wa itsenyetsa mafoko.
 about-playbook-how-record-content-4 = Tlhomamisa gore polatefomo e a rekota pele o simolola go bua, le gore o emisa go rekota fa o setse o feditse.
 
 ## How to grow language
@@ -357,6 +362,7 @@ speak-loading-error = Ga re a kgona go bona mela e o ka e buang. Tsweetswee leka
 
 ## Reporting
 
+report-different-language-detail = E kwadilwe ka puo e e farologaneng le e ke e buang.
 report-difficult-pronounce-detail = E na le mafoko kgotsa dipolelo tse go leng thata go di bala kgotsa go di bitsa.
 report-other-comment =
     .placeholder = Tshwaelo
@@ -397,6 +403,7 @@ why-delete-recordings =
 
 ## Profile Download
 
+download-recordings-info = E akaretsa di-mp3 le mela e e tsamaisanang le yone, go ka tsaya nakonyana gore di rulaganngwe
 download-recordings-unavailable = Ga o kgone go kopa dikgatiso tsa gago fa kopo e nngwe e setse e diragadiwa.
 download-recently-requested = O ka kopa go ntsha dikgatiso tsa gago malatsi mangwe le mangwe a le { $days }.
 download-requests-info = Fa o kopa dikgatiso tsa gago, re di kopanya go di dira faele e le nngwe kgotsa di le mmalwa tsa ZIP. Tseno ke dikopo tsa gago tsa nako e e fetileng.
@@ -412,6 +419,7 @@ profile-not-required = Ga o tlhoke go nna le porofaele gore o thuse, mme gone go
 
 ## Demo Datasets
 
+demo-language-select-card-header = Common Voice ke rekoto ya tshedimosetso ya mantswe ya dipuo tse dintsi e batho mo lefatsheng lotlhe ba kgonang go e fitlhelela.
 demo-language-select-card-body = Re leboga dikabo go tswa go batho ba feta 259k mo dipuong di feta 50, tshedimosetso eno e dirisiwa go thapisa dithulaganyo tsa puo go araba botoka mantswe a batho.
 card-button-back = Morago
 demo-account = Akhaonto
@@ -457,6 +465,7 @@ sc-header-add = Tsenya
 ## HOME
 
 sc-home-intro = Sekgobokanyi sa Dipolelo ke karolo ya <commonVoiceLink>Common Voice</commonVoiceLink>. Se letla baabi go tsaya le go tlhomamisa dipolelo tse di dirilweng ke baagi. Gape o ka dirisa sedirisiwa seno go tsenya le go phepafatsa dikarolo tse dinnye go ya go tse di mo magareng tsa lefelo la botlhe tse o di fitlhetseng kgotsa tse o di kgobokantseng. Dipolelo tsotlhe di tshwanetse go nna tsa Lefelo la Botlhe. Dipolelo tse di dumeletsweng di romelwa beke le beke kwa bobolokelong jwa Common Voice mme nako le nako fa go nna le tlhabololo nngwe le nngwe e ntšha di gololelwe mo webosaeteng ya Common Voice.
+sc-home-review-text = Re thuse go sekaseka mela gore a e nepagetse go ya ka dikaelo.
 
 ## GENERAL
 
