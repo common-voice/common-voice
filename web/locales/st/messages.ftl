@@ -1,9 +1,11 @@
 ## General
 
+return-to-cv = Kgutlela ho Common Voice
 email-input =
     .label = Email
 not-available-abbreviation = N/A
 banner-error-slow-link = Leqephe la Boemo
+error-something-went-wrong = Tshwarelo, ho na le ho hong ho fosahetseng
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -206,6 +208,7 @@ logout = Tswa
 
 ## Home Page
 
+home-cta = Bua, kenya letsoho mona!
 show-wall-of-text = Bala Haholwanyane
 no-clips-to-validate = Ho bonahala eka ha ho na di-clip tsa ho mamela ka puo ena. Re thuse ho tlatsa letoto ka ho rekota tse ding hona jwale.
 vote-yes = Ee
@@ -319,6 +322,7 @@ on = E butswe
 
 ## Profile - Email
 
+browse-file-title = Kenya faele ya setshwantsho
 connect-gravatar = Kopana le Gravatar
 avatar-uploaded = Avatar e kentswe
 max-file-size = { $kb }kb boholo ka ho fetisisa
@@ -333,6 +337,7 @@ add-language = Kenya Puo
 ## FAQ
 
 faq-title = Dipotso Tse Botswang Kgafetsa
+faq-what-cv-q = Common Voice ke Eng?
 faq-using-cv = Ho Sebedisa Common Voice
 faq-search-for-answers =
     .label = Batlana le dikarabo
@@ -396,6 +401,7 @@ about-playbook-how-grow-language-content-6 = Dikamano le marang-rang
 
 ## How are decisions made
 
+about-playbook-how-project-governance-content-3 = Lekunutu, tshireletso le ponaletso.
 about-playbook-how-project-governance-content-5 = Boleng le temoho.
 about-playbook-how-project-governance-content-6 = Boikarabello ka kopanelo.
 
@@ -408,6 +414,7 @@ de-identified = E tlositsweng dintlha tsa botho
 
 ## Error pages
 
+error-title-503 = Re tobane le nako e sa lebellwang ya ho se sebetse
 error-code = Phoso { $code }
 
 ## Data
@@ -550,6 +557,7 @@ report-other-comment =
     .placeholder = Hlahisa Maikutlo
 success = Katleho
 continue = Tswela pele
+report-success = Tlaleho e fetisitswe ka katleho
 
 ## Goals
 
@@ -593,6 +601,7 @@ show-ranking = Bontsha boemo ba ka
 ## Custom Goals
 
 get-started-goals = Qalella ka dipheo
+create-custom-goal = Etsa sepheo se etseditsweng wena feela
 both-speak-and-listen = Bobedi
 both-speak-and-listen-long = Ka bobedi (Bua le ho Mamela)
 daily-goal = Sepheo sa Letsatsi le Letsatsi
@@ -601,6 +610,7 @@ easy-difficulty = E bonolo
 difficult-difficulty = E thata
 pro-difficulty = Pro
 finish-editing = Qetela ho lokisa pele?
+build-custom-goal = Aha sepheo se etseditsweng wena feela
 set-a-goal = Ipehele sepheo
 cant-decide = Ha o kgone ho etsa qeto?
 n-clips-pluralized =
@@ -632,7 +642,9 @@ download-size = Boholo
 download-selected = E kgethilwe
 download-start = Download-a data ya profaele
 download-request = Kopa tse rekotilweng
+download-requests = Dikopo tsa ho download-a direkoto tse fetileng
 download-request-button = Download
+download-request-archive-single = Faele e le nngwe ya ZIP e nang le
 download-request-refresh-button = Kgatholla
 download-request-modal-title = Download-a dihokahanyo
 download-request-link-text = Zip #{ $offset } ya { $kakaretso }
@@ -645,6 +657,7 @@ welcome-staff = Amohela { $company } basebetsi!
 ## DemoLayout
 
 demo-get-started = Ha Re Qale
+demo-welcome = Rea o amohela ho Common Voice
 
 ## Demo Datasets
 
@@ -656,6 +669,7 @@ demo-account = Ak'haonte
 
 ## Demo Account
 
+demo-account-sign-up = Romella sehokelo sa ho ingodisa
 
 ## Demo Contribute
 
@@ -672,6 +686,7 @@ contribution-criteria-page-title = Mekgwa ya ho Nehelana
 contribution-for-example = Mohlala
 contribution-misreadings-title = Ho se bale hantle
 contribution-misreadings-example-2-explanation = [E tlameha e be 'dikgodumodumo']
+contribution-misreadings-example-8-title = Notshi e ile ya feta ka lebelo.
 contribution-misreadings-example-8-explanation = [Ditaba tse sa tsamaisaneng]
 contribution-varying-pronunciations-title = Qapodiso tse fapaneng
 contribution-background-noise-title = Lerata le ka morao
@@ -745,11 +760,14 @@ sc-stats-updating = E ntse e ntlafatsa...
 
 ## ADD
 
+sc-submit-err-select-lang = Ka kopo kgetha puo.
 sc-submit-err-add-sentences = Ka kopo kenya dipolelo
+sc-submit-err-add-source = Ka kopo kenya mohlodi.
 sc-submit-title = Kenya Dipolelo
 sc-submit-select-language =
     .labelText = Kgetha Puo
 sc-submit-add-sentences = Kenya <wikipediaLink>setjhabeng </wikipediaLink> dipolelo
+sc-submit-guidelines = Ka kopo sheba <howToLink>ditataiso</howToLink>.
 
 ## ADD LANGUAGE
 
