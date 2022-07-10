@@ -127,6 +127,7 @@ pt = Portuguese
 quc = K'iche'
 quy = Quechua Chanka
 rm-sursilv = Romansh Sursilvan
+rm-vallader = Romansh Vallader
 ro = Romanian
 ru = Russian
 rw = Kinyarwanda
@@ -419,6 +420,8 @@ request-language-explanation-2 = Hape re tla <strong>tsebisa mookamedi wa setjha
 
 language-section-in-progress = E ntse tswelapele
 language-section-launched = E qadilwe
+languages-show-more = Sheba Haholo
+languages-show-less = Sheba hanyane
 language-meter-in-progress = Kgatelopele
 language-total-progress = Kakaretso
 language-search-input =
@@ -559,6 +562,7 @@ sc-logout-button = Tswa
 ## HOME
 
 sc-home-collect-title = Bokella dipolelo
+sc-home-review-title = Hlahloba Dipolelo
 
 ## GENERAL
 
@@ -567,6 +571,7 @@ sc-home-collect-title = Bokella dipolelo
 
 sc-howto-title = Mokgwa wa ho
 sc-howto-cite-item-3 = Bakeng sa mongolo wa setjhaba o sa fumaneheng marang-rang, o ka sebedisa mokgwa wa ditshupiso tsa thuto, mohlala, mokgwa wa Harvard "Jess (2021) dithothokiso tsa ka tsa laecence ya setjhaba"
+sc-howto-review-title = Hlahloba Dipolelo
 
 ## MY SENTENCES
 
@@ -586,6 +591,8 @@ sc-stats-updating = E ntse e ntlafatsa...
 ## ADD
 
 sc-submit-title = Kenya Dipolelo
+sc-submit-select-language =
+    .labelText = Kgetha Puo
 
 ## ADD LANGUAGE
 
@@ -626,6 +633,7 @@ sc-personal-remove-button = tlosa
 
 ## REVIEW
 
+sc-review-title = Hlahloba Dipolelo
 sc-review-loading = E kenya dipolelo...
 # Variables:
 #   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
