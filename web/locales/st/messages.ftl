@@ -93,9 +93,11 @@ lv = Latvian
 mai = Maithili
 mdf = Moksha
 mg = Malagasy
+mhr = Meadow Mari
 mk = Macedonian
 ml = Malayalam
 mn = Mongolian
+mni = Meetei Lon
 mos = Mossi
 mr = Marathi
 mrj = Hill Mari
@@ -183,6 +185,7 @@ privacy = Lekunutu
 terms = Dipehelo
 cookies = Di-cookie
 faq = FAQ
+logout = Tswa
 
 ## Home Page
 
@@ -259,6 +262,7 @@ goals = Dipheo
 settings = Ditlhophiso
 edit-profile = Fetola Profaele
 profile-close = Kwala
+login-identity = Boitsebiso ba ho Kena
 edit = Lokisa
 email-subscriptions = Dipeeletso tsa Email
 contribution-experience = Boiphihlelo ba Monehelo
@@ -272,6 +276,7 @@ max-file-size = { $kb }kb boholo ka ho fetisisa
 
 ## Profile - Email
 
+manage-subscriptions = Laola Dipeeletso
 add-language = Kenya Puo
 
 ## FAQ
@@ -322,6 +327,7 @@ about-playbook-how-grow-language-content-2 = Diketsahalo
 
 ## How are decisions made
 
+about-playbook-how-project-governance-content-6 = Boikarabello ka kopanelo.
 
 ## Glossary
 
@@ -577,6 +583,7 @@ sc-lang-info-review-now = <reviewLink>Hlahloba hona jwale!</reviewLink>
 
 ## LOGIN
 
+sc-login-err-failed = Ho kena ho hlolehile
 
 ## PROFILE
 
