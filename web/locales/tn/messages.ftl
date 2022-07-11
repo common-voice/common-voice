@@ -50,6 +50,7 @@ sq = Se-Albania
 th = Se-Thai
 ti = Se-Tigrinya
 tig = Se-Tigre
+tk = Se-Turkmen
 tr = Se-Turkey
 ts = Setsonga
 ug = Se-Uyghur
