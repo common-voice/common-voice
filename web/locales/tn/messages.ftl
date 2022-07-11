@@ -489,6 +489,7 @@ continue = Tswelela
 
 ## Goals
 
+streaks = Meraladi
 
 ## Dashboard
 
@@ -650,6 +651,9 @@ sc-howto-findpd-partner-2 = Baitseanape ba baitsepuo le bone ba ka thusa, leka g
 
 sc-my-description = Tsebe eno e go naya dintlhakakaretso tsa dipolelo tsotlhe tse o di rometseng. Gape o ka phimola mela e e rometsweng fa go tlhokega, ka go tshwaya lebokoso gaufi le one le go tobetsa &quot;Phimola polelo e e tlhophilweng&quot; kwa tlase. Tsweetswee tlosa dipolelo fela fa tota go tlhokega, ka sekai, fa o lemoga morago ga ntlha nngwe gore polelo eo e na le tshireletso ya tetlokhopi.
 # Variables:
+#   $batchId (String) - A unique ID identifying the submission of sentences - sentences uploaded together all have the same batch ID
+sc-my-submission = Go romela: { $batchId }
+# Variables:
 #   $source (String) - Associated source the user filled out when uploading the sentence
 sc-my-source = Motswedi: { $source }
 
@@ -672,6 +676,8 @@ sc-submit-prompt =
     .message = Mela ga ya romelwa, a o tlhomamisegile gore o batla go tswa?
 sc-submit-title = Tsenya Dipolelo
 sc-submit-confirm = Ke tlhomamisa gore mela eno ke ya <wikipediaLink>batho botlhe</wikipediaLink> e bile ke na le tetla ya go e tsenya.
+sc-submit-button =
+    .submitText = Romela
 sc-submit-filtered = Mela e fokoditswe ka gonne ga go a fitlhelelwa ditekanyetso (tsweetswee romela dithanolo tse di siameng jaaka mela e mesha):
 
 ## ADD LANGUAGE
