@@ -24,7 +24,13 @@ error-something-went-wrong = Hi rivaleli, ku ni nchumu lowu nga famba kahle
 
 ## Languages
 
+af = Xibunu
+am = Xiamhari
+an = XIaragon
+ar = Xiarabu
 arn = Mapudungun
+as = Xiassam
+ast = Xi-Asturia
 az = Xiazerbaijani
 ba = Xibashkir
 bas = Xibasaa
@@ -69,6 +75,7 @@ hr = Xicroatia
 hsb = Xisorbian, xa le Henhla
 ht = Xihaiti
 hu = Xihungary
+hy-AM = Xiarimeniya
 hyw = Xiarmenia xa le Vupela-dyambu
 ia = Interlingua
 id = Xiindonesia
@@ -146,6 +153,7 @@ sk = Xislovakia
 skr = Saraiki
 sl = Xislovenia
 so = Xisomali
+sq = Xialbania
 sr = Xiserbia
 ss = Xiswati
 st = Xisotho xa le Dzongeni
@@ -252,6 +260,7 @@ todays-progress = Nhluvuko wa Namuntlha
 help-reach-goal = Hi pfuni ku fikelela eka { $goal }
 read-terms-q = Xana u hlayile Mimpimanyeto ya hina?
 ready-to-record = Xana u lunghekele ku nyikela hi rito ra wena?
+all-locales = Hinkwaswo
 today = Namuntlha
 x-weeks-short =
     { $count ->
@@ -346,6 +355,8 @@ profile-form-variant-default-value = Ku hava muxaka lowu hlawuriweke
 profile-form-custom-accent-help-text =
     .label = Xana u nga yi hlamusela njhani ndlela leyi u vulavulaka ha yona?
 profile-form-custom-accent-placeholder-2 = Sungula ku thayipa ku hlamusela ndlela leyi u vulavulaka ha yona
+profile-form-age =
+    .label = Malembe
 profile-form-gender-2 =
     .label = Rimbewu
 leaderboard-visibility =
@@ -365,6 +376,7 @@ why-profile-title = Ha yini ku ri ni phurofayili?
 why-profile-text = Hi ku nyika vuxokoxoko byo karhi mayelana na wena, data ya mpfumawulo leyi u yi rhumelaka eka Common Voice yi ta pfuna swinene eka tinjhini to Lemuka Rito leti tirhisaka datha leyi ku antswisa ku pakanisa ka tona.
 dashboard = Dexibodo
 build-profile = Aka Profayile ya Xivumbeko
+avatar = Xipopana
 goals = Tikapani
 settings = Switirhisiwa
 edit-profile = Hlela Xivumbeko
@@ -398,7 +410,7 @@ browse-file = Koka u tlhela u hoxa kumbe <browseWrap>Pfula-pfula</browseWrap>
 connect-gravatar = Ku hlangana na Gravatar
 gravatar_not_found = Ku hava gravatar leyi kumiweke eka email ya wena
 file_too_large = Fayili leyi hlawuriweke i yikulu swinene
-avatar-uploaded = Avatar yi uploadiwile
+avatar-uploaded = Xipopana xi uploadiwile
 max-file-size = { $kb }kb ku tlula mpimo
 remove-avatar = Susa Avatar
 
@@ -580,6 +592,8 @@ about-playbook-how-grow-language-content-7 = Kuma van’wana lava nga na maka. S
 
 ## How to validate
 
+about-playbook-how-validate = Xana ndzi nga swi tivisa ku yini loko ndzi fanele ndzi pfumelela xiphemu xa rito?
+about-playbook-how-validate-content-1 = Loko a wu swi kota <strong>ku va twa</strong> naswona <strong>u swi twisisa</strong>,hi ntolovelo <strong>i swinene ku pfumelela</strong>.
 about-playbook-how-validate-content-2 = <strong>U nga ali swiphemu laha muvalavuli a vulavulaka hi 'mpfumawulo wa yena’ lowu hambaneke na wa wena</strong> - leswi i swa nkoka leswaku ku lemuka rito ku tirha ku antswa eka un’wana na un’wana.
 about-playbook-how-validate-content-3 = Loko u ehleketa leswaku mavitanelo ya kona ya endla leswaku <strong>swi nga koteki ku swi twisisa</strong>, kumbe ku na <strong>mpfumawulo wo tala wa le ndzhaku</strong>, kumbe ku na <strong>vanhu van'wana lava vulavulaka na vona</strong>, kutani wena u fanele ku ala xiphemu xa kona. <accuracyLink>Vona vuxokoxoko byo tala eka swipimelo swa hina swa ku pakanisa</accuracyLink>.
 about-playbook-how-validate-content-4 = Loko xiphemu xi ariwile hi vanhu va 2, xi humesiwa eka xirungulwana xo hambana xa rungula.
@@ -1289,6 +1303,7 @@ sc-review-form-usage = Swipa kuya exineneni ku pfumelela xivulwa. Swipa kuya exi
 sc-review-form-source = Xihlovo: { $SentenceSource }
 sc-review-form-button-reject = Ala
 sc-review-form-button-skip = Tlula
+sc-review-form-button-approve = Amukela
 # Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
 sc-review-form-button-approve-shortcut = Y
 # Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
