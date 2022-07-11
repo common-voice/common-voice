@@ -1,11 +1,13 @@
 ## General
 
+yes-receive-emails = Ee, nthomelle di-email. Nka rata ho dula ke tseba ka morero wa Common Voice.
 stayintouch = Rona ba Mozilla re haha setjhaba mabapi le thekenoloji e sebetsang ka lentswe. Re ka lakatsa ho dula re tseba ka dintlafatso, mehlodi e metjha ya data le ho utlwa haholwanyane ka hore na o sebedisa data ena jwang.
 return-to-cv = Kgutlela ho Common Voice
 email-input =
     .label = Email
 email-opt-in-info = Ke kopa ho fumana di-email tse kang dikgopotso tsa sepheo, ditlaleho tsa tswelopele ya ka le dikoranta tse mabapi le Common Voice.
 email-opt-in-info-title = Kena lethathamong la mangolo la Common Voice
+email-opt-in-info-sub-with-challenge = Fumana di-email tse kang phephetso le dikgopotso tsa sepheo, ditlaleho tsa tswelopele, le dikoranta ka Common Voice.
 indicates-required = Dibaka tse tshwauweng ka naledi (*) di a hlokahala.
 not-available-abbreviation = N/A
 banner-error-slow-1 = Tshwarelo, Common Voice e sebetsa butle. Re leboha thahasello ya hao.
@@ -382,11 +384,13 @@ email-subscriptions = Dipeeletso tsa Email
 download-profile = Download-a Data ya Ka
 contribution-experience = Boiphihlelo ba Monehelo
 skip-submission-feedback = Tlola Maikutlo a Thomello
+skip-submission-note = Tlhokomediso:O ntse o tla hloka ho kgetha pakeng tsa ho Bua kapa ho Mamela ho fetola mofuta wa monehelo.
 off = E kwetswe
 on = E butswe
 help-accent = O hloka thuso ka mokgwa wa ho bua?
 help-accent-explanation = Puo ya hao ke tsela eo o bitsang mantswe ka eona. E ka boptjwa ke moo o kileng wa phela teng, dipuo tse ding tseo o di buang le dintlha tse ding tse ngata. O ka arolelana ka dintlha di feng kapa di feng tseo o utlwang eka di ka ba bohlokwa mona.
 help-variants = O hloka thuso ka mefuta e fapaneng?
+help-variants-explanation = Variants ke mofuta o itseng wa puo - mohlala, e arolelalanwa ke ba phelang tikolohong kapa setjhabeng. Ka dinako tse ding tsena di bitswa maleme.
 
 ## Profile - Email
 
@@ -438,15 +442,20 @@ faq-why-different-speakers-a =
     Boholo ba di-database tsa puo di kwetlisitswe ka boemedi bo fetelletseng ba dintlha tsa palo ya batho e itseng e leng se bakang leeme ho <articleLink>banna le ba maemo a ditjhelete a mahareng</articleLink>. Ditsela tsa puo le maleme a atisang ho ba le boemedi bo fokolang kahare ho dipokello tsa data tsa kwetliso ka tlwaelo a amahanngwa le dihlopha tsa batho tse se ntse di kgethollwa. Metjhini e mengata e boela e thatafallwa ke ho utlwa mantswe a basadi.
     Ke ka hoo re batlang mefuta e fapaneng ho database ya mantswe!
 faq-why-my-lang-q = Ke hobane'ng ha puo ya ka e so kenyeletswe?
+faq-why-my-lang-a =
+    Common Voice ke sethala sa batho ba bangata, mme dipuo kaofela di kentswe ke baithaopi.
+    Re ka rata hore o kenye puo ya hao!<languageRequestLink>Botsa ka ho kenya puo ya hao</languageRequestLink>
 faq-what-quality-q = Ke boemo bofe ba boleng ba audio bo hlokahalang hore clip ya lentswe e sebediswe ho pokello ya data?
 faq-what-quality-a = Re batla hore pokello ya data ya Common Voice e bonahatse boleng ba audio boo enjene ya puo-ho-ya-ho-sengolwa e tla e utlwa hara thota, kahoo re batla mefuta e fapaneng. Ka tlatselletsa ho mefuta-futa ya ditjhaba tsa dibui, pokello ya data e nang le di-audio tse boleng bo fapaneng e tla ruta enjene ya puo-ho-ya-ho-sengolwa ho sebetsana le maemo a lefatshe a fapaneng, ho tloha ho dipuisano tse kamorao ho isa ho lerata la koloi. Ha feela sekotwana sa lentswe sa hao se utlwahala, se tla be se lokile ho lekana bakeng sa pokello ya data.
 faq-why-10k-hours-q = Hobaneng dihora tse 10,000 tse netefaditsweng e le sepheo sa puo ka nngwe ya ho nka audio?
 faq-how-calc-hours-q = Common Voice e bala dihora jwang?
+faq-how-calc-hours-a = Re bala dihora ka ho hakanya karolelano ya bolele ba rekoto ka nngwe, mme re ngatafatse nomoro eo ka kakaretso ya nomoro ya direkoto dipuong tsohle.
 faq-where-src-from-2-q = mongolo mohlodi o tswa hokae?
 faq-where-src-from-2-a =
     Sengolwa-sa-mathomo sa rona se entswe ka menehelo ya bafani ba mantlha hammoho le dipuisano tse tswang ho dingodilweng tsa difilimi tsa setjhaba tse kang <italic>It's a Wonderful Life</italic>.
     
     O ka sheba dipolelo-tsa-mathomo tsa rona ho <githubLink>faele ya GitHub</githubLink>.
+faq-why-not-ask-read-q = Hobaneng o sa kope batho ho bala ho tswa dibukeng kapa dingodilweng tsa Wikipedia ka dipuo tse fapaneng?
 faq-why-not-ask-read-a = Ho etsa hore pokello ya data ya Common Voice e be molemo ka moo ho ka kgonehang re nkile qeto ya ho dumella sengolwa-sa-mathomo se fumanehang feela tlasa laesense ya Creative Commons (CC0). Ho sebedisa maemo a CC0 ho bolela hore ho thata ho fumana le ho bokella sengolwa-sa-mathomo, empa ho dumella mang kapa mang ho sebedisa data ya mantswe ntle le dithibelo tsa tshebediso kapa tumello ho tswa ho Mozilla. Qetellong, re batla ho etsa hore pokello ya data ya puo tse ngata e be molemo haholo ka moo ho ka kgonehang ho bohle, ho kenyelletsa bafuputsi,diunivesithi, ba qalang dikgwebo, mebuso, mekgatlo ya merero ya setjhaba, le batho ba ratang ho itlosa bodutu.
 faq-why-account-q = Hobaneng ke lokela ho ingodisa bakeng sa ak'haonte?
 faq-is-account-public-q = Na dintlha tsa ak'haonte ya ka di phatlalatsa?
@@ -458,6 +467,7 @@ faq-what-determine-identity-a =
     Kaofela dikotwana tsa lentswe tse kahara pokello ya data di hlwekiswa ho tlosa dintlha tse tsebahatsang motho. Ha o download-a pokello ya data, o dumela hore o ke ke wa leka ho fumana boitsebiso ba mang kapa mang ba bafani. Hoo ho bolela hore o ke ke wa leka ho hokanya dintlha tse kahara pokello ya data ho dintlha tsa boitsebiso tsa botho tsa mofani. Leha ho le jwalo, o ka sebedisa pokello ya data ho kwetlisa temoho ya puo, temoho ya sebui, kapa disebediswa tse ding, mohlala, ho kopanya dintlha tse ka hara pokello ya data ho dintlha tse ding tse neng di se di le teng ka hara pokello ya data.
 faq-what-is-cv = Common Voice ke Eng?
 faq-using-cv = Ho Sebedisa Common Voice
+faq-description = Common Voice ke karolo ya boikitlaetso ba Mozilla ba ho thusa ho ruta metjhini hore na batho ba nnete ba bua jwang.
 faq-search-for-answers =
     .label = Batlana le dikarabo
 
@@ -489,10 +499,12 @@ about-speak = Bua
 about-speak-text = Batshehetsi ba rekota di-clip tsa mantswe ka ho bala ho tswa bankeng ya dipolelo tse fanweng.
 about-listen-queue = Mola wa ho mamela
 about-listen = Mamela
+about-listen-text = Basebedisi ba netefatsa ho nepahala ha di-clip tse fanweng, ho lekola hore sebui se bala polelo ka nepo.
 about-is-it-valid = Na clip yee e nepahetse?
 about-yes-votes = ≥ 2 Dikgetho tsa E
 about-yes-votes-text = Ho kengwa ka hara pokello ya data ya Common Voice, clip ya lentswe e tlameha ho netefatswa ke basebedisi ba babedi ba arohaneng.
 about-no-votes = ≥ 2 Ha ho dikgetho
+about-no-votes-text = Ha mosebedisi a hana sekotwana sa lentswe e kgutlela Lethathamong. Haeba e hanwa lekgetlo la bobedi, sekotwana sa lentswe e iswa ho Lebitla la dikotwana.
 about-dataset-new = Pokello ya Data ya Common Voice
 about-dataset-new-text = Pokello ya data ya Common Voice e na le mehlala ya mantswe e dikete tse makgolo tse thusang batho ba ntlafatsang ho haha ​​​​disebediswa tsa ho elellwa lentswe.
 about-clip-graveyard = Di-clip tsa Mabitleng
@@ -612,6 +624,7 @@ hours-validated-explanation = Palo ya dihora tsa ho rekota lentswe di netefadits
 sst = Puo-ho-sengolwa (STT)
 sst-explanation = Dithekenoloji tsa Puo ho ya ho mongolo (STT) di fetolela data ya lentswe ho ba mongolo.
 de-identified = E tlositsweng dintlha tsa botho
+de-identified-explanation = Mokgwa oo ka oona dintlha tsa profaele ya motlatsi di patilweng ho dikotwana tsa lentswe tseo a faneng ka tsona ha di pakelwa bakeng sa ho download-wa e le karolo ya pokello ya data.
 
 ## Error pages
 
@@ -695,6 +708,7 @@ data-other-librispeech-description = LibriSpeech ke kakaretso ya dihora tse ka b
 data-other-ted-name = TED-LIUM Corpus
 data-other-ted-description = TED-LIUM corpus e entswe ho tswa ho dipuo tsa audio mme dingodilweng tsa tsona di fumaneha marang-rang a TED.
 data-other-voxforge-description = VoxForge e thehilwe ho bokella puo e ngotsweng hore e sebediswe le dienjene tsa Mahala mme tsa Mohlodi o Bulehileng wa Temoho ya Puo.
+data-other-tatoeba-description = Tatoeba ke database e kgolo ya dipolelo, diphetolelo, le audio e builweng e sebediswang boithutong ba puo. Download ena e na le Sekgowa se builweng se rekotilweng ke setjhaba sa yona.
 your-feedback = O na le maikutlo a hore na re ka etsa jwang hore pokello ya data ya Common Voice e be betere? Re tsebise ho Discourse
 go-discourse = Eya ho Discourse
 missing-language = Ha o bone puo ya hao e hlaha ho Dataset? Ho kopa puo eya ho leqephe la rona la Dipuo.
@@ -822,6 +836,9 @@ listen-again-instruction = Mosebetsi o motle!<playIcon></playIcon> Mamela hape h
 listen-3rd-time-instruction = 2 fatshe, pele ya pele!<playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon>Ya ho qetela!
 listen-empty-state = Re feletswe ke di-clip tse lokelang ho netefatswa ho puo ena...
+listen-loading-error =
+    Ha rea ​​kgona ho fumana di-clip tsa audio hore o ka di mamela. 
+    Ke kopa o leke hape hamorao.
 speak-empty-state = Re feletswe ke dipolelo tseo re lokelang ho di rekota ka puo ena...
 speak-empty-state-cta = Nehelana ka dipolelo
 speak-loading-error =
@@ -1010,6 +1027,7 @@ download-request-link-single = O ka boela wa kopitsa le ho manamisa URL ka ho th
 welcome-staff = Amohela { $company } basebetsi!
 help-contribute = O ka thusa ho aha pokello ya data e fapaneng, ya mohlodio bulehileng ka ho theha profaele ya hao ya Common Voice le ho kenya lentswe la hao.
 login-company = Kena / Ingodise ka { $company } email
+profile-not-required = Ho ba le profaele ha ho hlokahale ho kenya letsoho leha ho le molemo, bona hore na hobaneng mona ka tlase.
 read-more-about = Bala haholwanyane ho leqephe la About la rona
 
 ## DemoLayout
@@ -1021,6 +1039,7 @@ demo-welcome-subheader = Na o thahasella ho ithuta haholwanyane le ho kenya lets
 ## Demo Datasets
 
 demo-language-select-card-header = Common Voice ke pokello ya data ya mantswe e kgolo ka ho fetisisa lefatsheng e fumanehang phatlalatsa, e nang le dipuo tse ngata.
+demo-language-select-card-body = Ka lebaka la tlatsetso e tswang ho batho ba fetang 259k dipuong tse fetang 50, data ena e sebediswa ho kwetlisa disebediswa tse sebetsang ka puo ho araba hantle ho lentswe la motho.
 card-button-next = E latelang
 card-button-back = Morao
 demo-language-select-label = Sheba Dipuo
@@ -1076,6 +1095,7 @@ contribution-varying-pronunciations-title = Qapodiso tse fapaneng
 contribution-varying-pronunciations-description = Eba hlokolosi pele o hana sekotwana ka lebaka la hore mmadi ha bitsa lentswe hantle, o behile kgatello ya maikutlo sebakeng se fosahetseng, kapa ho bonahala a iphapanyeditse letswaho-potso. Hona le ditsela tse fapaneng tsa ho bitsa mantswe tse sebediswang lefatshe ka bophara, tse ding tseo o ka tswang o so di utlwe setjhabeng sa heno. Ka kopo fana ka moedi wa kananelo ho ba ka buang ka mokgwa o fapaneng le wa hao.
 contribution-varying-pronunciations-description-extended = Ka lehlakoreng le leng, haeba o nahana hore mohlomong mmali ha a e-s'o ka a kopana le lentswe pele, mme o mpa a nahana ka mokgwa o fosahetseng oa ho bitsa mantswe, ka kopo, hana. Haeba o sena bonnete, sebedisa konopo ya tlola.
 contribution-varying-pronunciations-example-1-title = Hloohong o ne a rwetse berete.
+contribution-varying-pronunciations-example-1-explanation = ['Beret' e lokile ebang ke ka kgatello ya lentswe la pele (UK) kapa la bobeli (US)]
 contribution-varying-pronunciations-example-2-title = Letsoho la hae le ne le phahamisitswe.
 contribution-varying-pronunciations-example-2-explanation = [‘Ho phahamiswa’ ka Senyesemane kamehla ho bitswa jwalo ka senoko se le seng, eseng tse pedi]
 contribution-background-noise-title = Lerata le ka morao
@@ -1132,6 +1152,7 @@ sc-home-review-text = Re thuse ka ho hlahloba dipolelo bakeng sa nepahalo ho lat
 
 ## GENERAL
 
+sc-languages-fetch-error = Re hlotswe ho lata dipuo tse fumanehang. Menehelo ha e kgonehe hajwale. Ka kopo leka hape hamorao.
 
 ## HOW-TO
 
@@ -1144,6 +1165,7 @@ sc-howto-addsen-item-2 = Dinomoro. Ha hwa lokela hoba teng dinomoro ho sengolwa-
 sc-howto-addsen-item-3 = Dikgutsufatso le mantswe a kgutsufaditsweng. Dikgutsufatso le mantswe a kgutsufaditsweng tse kang "USA" kapa "ICE" di lokela ho qojwa sengolweng-sa-mathomo hobane di ka balwa ka tsela e sa dumellaneng le mopeleto wa tsona. Ho feta moo, ho ka ba le mekgwa ya ho bala e mengata e nepahetseng bakeng sa kgutsufatso e le nngwe. Mohlala, kgutsufatso ya lentswe "ICE" e ka bitswa "I-C-E" kapa e le lentswe le le leng.
 sc-howto-addsen-item-4 = Matshwao a Puo. Matshwao a puo a kgethehileng a kenyelletswe feela ha ho hlokahala. Mohlala, sehonyetso se kenyelletswa mantsweng a sekgowa jwaloka "don't" le " we're" mme a tshwanela ho kenyelletswa ho sengolwa-sa-mathomo, empa ho ka se etsahale hore ebe o tla hloka matshwao a kgethehileng a kang "@" kapa "#".
 sc-howto-addsen-item-5 = Ditlhaku tse molata. Ditlhaku di tlameha ho ba tse sebetsang puuong e buuwang. Mohlala,  “ж” ke tlhaku e teng ho ditlhaku tsa Se-Russia empa ha e so ka ba e sebediswa Sekgoweng mme ha ya lokela ho hlaha ho sengolwa-sa-mathomo se feng kapa se feng sa Sekgowa.
+sc-howto-addsen-item-6 = Dipuo di kaba le<validationRulesLink>melao ya netefatso ya tsona</validationRulesLink>le ditlhoko tse eketsehileng. Haeba ho se na faele ya netefatso e itseng bakeng sa puo, re sebedisa melao e akaretsang ya Sekgowa.
 sc-howto-addsen-post-1 = Re thabela dipolelo tsa tlhaho/moqoqo. Leha mefuta e fapaneng ya difonetiki le mantswe a fapaneng kahara dipolelo a le bohlokwa, re leka ho etsa ho rekota ha dipolelo ho be monate ka moo ho ka kgonehang. Kahoo ho ka ba hantle ha o ka leka ho etsa hore dipolelo tsa hao ebe tse hohelang kamoo ho ka kgonahalang.
 sc-howto-cite-title = Mokgwa wa ho Qotsa
 sc-howto-cite-pre-1 = Ho bohlokwa hore o bontshe moo o fumaneng laesense ya setjhaba ho qoba boshodu le ho dumella tshalo-morao ya <copyrightIssuesLink>mathata a ditokelo</copyrightIssuesLink>. Mona ke mekgwa e mmalwa eo o ka qotsang mosebetsi.
@@ -1162,6 +1184,7 @@ sc-howto-findpd-subtitle = Di batle ho marang-rang
 sc-howto-findpd-text-2 = Hopola hore re hloka tumello ho phatlalatsa dipolelo tseo, kahoo kamehla etsa bonnete ba hore sengolwa ke <wikipediaLink>sa setjhaba se phatlalatsa</wikipediaLink>. Haeba ho se letho le bontshang ka ho hlaka, buisana le motho eo sengolwa e leng sa hae mme o botse hore na o batla ho tlatsetsa ka sengolwa sa hae ho Tsa Setjhaba. Haeba ba batla, ba thuse ho kena tshebetsong ya<cc0WaiverLink>Tumello ya Bafani</cc0WaiverLink>. Haeba ba sa batle ho tlatsetsa ka sengolwa, jwale ha wa dumellwa ho sebedisa sengolwa seo.
 sc-howto-findpd-tips = Ditlhahiso ke tsena tsa ho fumana dipolelo:
 sc-howto-findpd-tips-1 = Mehlodi e metle eo o ka e batlang ke di-podcasts, dingodilweng, dingodilweng tsa difilimi le eng kapa eng e ka kgonang ho ba dipuisano tsa letsatsi le letsatsi.
+sc-howto-findpd-tips-3 = Ka bomadimabe ha re kgone ho ba le dingodilweng tsa Wikimedia hajwale. Kahoo o se ke wa kopitsa ho tloha moo.
 sc-howto-findpd-subtitle-2 = Sebedisana le mekgatlo ya lehae kapa batho ka bomong
 sc-howto-findpd-partner-1 = Ho na le mekgatlo e mengata ya setjhaba e ka batlang ho sebedisana mme e se e ntse e e-na le dingolwa tse ngata tseo ba ka fanang ka tsona setjhabeng. Ikopanye le diunivesithi tsa lehae, Mebuso le mekgatlo ya tse buletsweng bohle ho bua ka morero le ho kopa thuso ya bona.
 sc-howto-findpd-partner-2 = Ditsebi tse hlwahlwa tsa dipuo le tsona di ka thusa, leka ho ikopanya le diunivesithi tsa lehae tsa botsebi ba dipuo bo hlwahlwa (bobedi matichere le baithuti) mme o bone na di ka thusa ho bokella mefuta-futa ya dipolelo tse nang le medumo e mefuta-futa puong ya hao.
@@ -1212,6 +1235,7 @@ sc-submit-add-sentences = Kenya <wikipediaLink>setjhabeng </wikipediaLink> dipol
 sc-submit-from-where = Dipolelo tsee<wikipediaLink>tsa setjhaba</wikipediaLink> di tswa hokae?
 sc-submit-ph-read-how-to =
     .placeholder = Bala Mokgwa wa rona wa ho etsa haeba o se na bonnete ba ho etsa
+sc-submit-confirm = Ke netefatsa hore dipolelo tsena ke<wikipediaLink>tsa setjhaba</wikipediaLink> mme ke na le tumello ya ho di kenya.
 sc-submit-guidelines = Ka kopo sheba <howToLink>ditataiso</howToLink>.
 
 ## ADD LANGUAGE
@@ -1259,6 +1283,14 @@ sc-confirm-already-reviewed =
         [0] Ha ho polelo e seng e hlahlobilwe.
         [one] Polelo e 1 e se e hlahlobilwe. Mosebetsi o motle!
        *[other] { $countOfReviewed } dipolelo di se di hlahlobilwe. Mosebetsi o motle!
+    }
+# Variables:
+#   $readyCount (Number) - Number of sentences ready to be uploaded
+sc-confirm-ready =
+    { $readyCount ->
+        [0] Ha ho polelo e loketseng ho romelwa!
+        [one] Polelo e 1 e loketse ho romelwa!
+       *[other] { $readyCount } dipolelo tse seng di loketse ho romellwa!
     }
 # Variables:
 #   $countOfUnreviewed (Number) - Number of sentences unreviewed before the upload
@@ -1346,6 +1378,7 @@ sc-criteria-item-5-2 = Haeba polelo e sa fihlelle ditekanyetso tse ka hodimo, pe
 
 ## REVIEW
 
+sc-review-lang-not-selected = Ha wa kgetha dipuo di feng kapa di feng. Ka kopo e ya ho <profileLink>Profaele</profileLink> ho kgetha dipuo.
 sc-review-title = Hlahloba Dipolelo
 sc-review-loading = E kenya dipolelo...
 sc-review-select-language = Ka kopo, kgetha puo eo o tla hlahloba dipolelo.

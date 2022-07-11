@@ -6,6 +6,7 @@ get-involved-text =
 get-involved-form-title = Ingodise bakeng sa { $lang } dintlafatso:
 get-involved-opt-in = Ee, nthomelle di-email. Nka thabela ho dula ke tseba ka tswelopele ya puo ena ho Common Voice.
 get-involved-stayintouch = Rona ba Mozilla re haha setjhaba mabapi le thekenoloji e sebetsang ka lentswe. Re ka lakatsa ho dula re tseba ka dintlafatso, mehlodi e metjha ya data le ho utlwa haholwanyane ka hore na o sebedisa data ena jwang.
+get-involved-privacy-info = Re tshepisa ho sebetsana le ditaba tsa hao ka hloko. Bala haholwanyane ho <privacyLink>Tsebiso ya Lekunutu</privacyLink>.
 get-involved-success-title = O atlehile ho ingodisa ho tlatsetsa ho { $language }. Rea leboha.
 get-involved-success-text = Re tla ikopanya le wena ka dintlha tse ding ha di ntse di fumaneha.
 get-involved-return-to-languages = Kgutlela ho Dipuo
