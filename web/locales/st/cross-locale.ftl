@@ -1,5 +1,6 @@
 ## Languages
 
+contribute = Kenya letsoho
 get-involved-button = Nka karolo
 get-involved-title = Kenya letsoho ho { $lang }
 get-involved-text =

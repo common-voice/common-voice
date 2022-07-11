@@ -2,6 +2,7 @@
 
 yes-receive-emails = Ee, nthomelle di-email. Nka rata ho dula ke tseba ka morero wa Common Voice.
 stayintouch = Rona ba Mozilla re haha setjhaba mabapi le thekenoloji e sebetsang ka lentswe. Re ka lakatsa ho dula re tseba ka dintlafatso, mehlodi e metjha ya data le ho utlwa haholwanyane ka hore na o sebedisa data ena jwang.
+privacy-info = Re tshepisa ho sebetsana le ditaba tsa hao ka hloko. Bala haholwanyane ho <privacyLink>Tsebiso ya Lekunutu</privacyLink>.
 return-to-cv = Kgutlela ho Common Voice
 email-input =
     .label = Email
@@ -177,6 +178,7 @@ tok = Toki Pona
 tr = Turkish
 ts = Xitsonga
 tt = Tatar
+tw = Twi
 ty = Tahitian
 uby = Ubykh
 udm = Udmurt
@@ -202,6 +204,7 @@ zu = Zulu
 
 ## Layout
 
+speak = Bua
 speak-now = Bua hona jwale
 datasets = Dipokello tsa data
 languages = Dipuo
