@@ -72,6 +72,7 @@ username-email-not-demographic = Username yaṋu na email a zwi nga paṱekanyis
 
 ## Speak Shortcuts
 
+request-language-text = Naa a ni athu u vhona luambo lwaṋu kha Common Voice na zwino?
 
 ## ProjectStatus
 
@@ -102,6 +103,8 @@ help-variants-explanation = Dzi Variants ndi mufuda wo khetheaho wa luambo – u
 
 ## Profile - Email
 
+email-already-used = Email yo no shumisiwa u ita iṅwe akhantu
+change-email-setings = Shandukisani email yaṋu kha Setiṅi fhasi ha Login Identity
 
 ## FAQ
 
@@ -192,11 +195,13 @@ about-playbook-how-add-language-content-1 =
     Tsha u thoma, sedzani arali luambo lwaṋu <languageLink>lwo no ḓi vha hone</languageLink>.
      Arali lu siho, ni nga <languageRequestLink>humbela u dzhenisa luambo lwaṋu </languageRequestLink>.
      Hu na zwiteṅwa zwivhili. Fhethu ha u ṱalutshedzela, na ha u kuvhanganya mitaladzi
+about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Sedzani vidio yashu ya u dededza uri Pontoon i shumisa hani</translateVideoLink>
 about-playbook-how-add-language-translating-content-2 =
     Ri shumisa tshishumiswa tsha Mozilla tshine tsha pfi <pontoonLink>Pontoon</pontoonLink> u ṱalutshedzela. Pontoon i na nyambo nnzhi,
      arali luambo lwaṋu lu siho ni nga ita <pontoonRequestLink> khumbelo ya uri luambo lwaṋu lu dzheniswe</pontoonRequestLink>.
      Nga zwenezwo, u itela uri luambo lwaṋu lu kone u vha tshipiḓa tsha thandela tsha Common Voice,
      <githubRepoLink>itani khumbelo ya luambo luswa kha GitHub</githubRepoLink>. <localizationFragment>Vhonani zwo engedzeaho kha siaṱari ḽa u ṱalutshedzela</localizationFragment>.
+about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>Vhonani vidio yashu ya u dededza uri tsha u Kuvhanganya Mitaladzi tshi shuma hani</sentenceCollectorVideo>.
 about-playbook-how-add-language-collecting-sentences-content-2 =
     Ni nga <sentenceCollectorLinkAdd>dzhenisa mitaladzi i si gathi</sentenceCollectorLinkAdd>,
     kana ni nga <bulkImportDocsLink> imphotha minzhi-minzhi nga u shumisa Github</bulkImportDocsLink>.
@@ -395,6 +400,7 @@ help-reach-hours-general-pluralized =
         [one] Thusani Common Voice u swikelele { $hours } awara kha luambo nga tshipikwa tshe muthu a ḓivhetshela
        *[other] Thusani Common Voice u swikelele { $hours } dzi awara kha luambo nga tshipikwa tshe muthu a ḓivhetshela
     }
+which-goal-type = Ni khou ṱoḓa u Amba, u Thetshelesa kana u ita zwoṱhe?
 receiving-emails-info = Zwa zwino ni kha mutevhe wa vhane vha ḓo wana email dzi ngaho dza u ni humbudza nga ha zwipikwa, mvela phanḓa yaṋu na maswa maswa nga ha Common Voice
 not-receiving-emails-info = Zwa zwino no pangiwa kha u <bold>U SA</bold> wana milaedza nga email yo no nga khumbudzo dza zwipikwa, mvela phanḓa yaṋu na newsletters nga ha Common Voice
 help-share-goal = Ri thuseni u wana maipfi manzhi, sherani tshipikwa tshaṋu
@@ -419,6 +425,7 @@ download-recordings-info = Zwi katela mp3 na mitaladzi i tshimbidzanaho nadzo, z
 download-recordings-unavailable = Ni nga si kone u humbela zwe na rekhoda ngeno hu tshi kha ḓi vha na zwiṅwe zwe na zwi humbela zwi re nḓilani.
 download-recently-requested = Ni nga humbela uri ni dzhie zwe na rekhoda { $days } ḓuvha ḽiṅwe na ḽiṅwe.
 download-requests-info = Musi ni tshi humbela zwe na rekhoda, ri zwi panga kha faela ya ZIP nthihi kana nnzhi. Khumbelo dzaṋu dza tshifhinga tsho fhiraho khedzi:
+download-request-description = { $clipCount } maipfi o rekhodiwaho, saizi ya zwo vhulungwaho { $size }. Fhelelwa nga tshifhinga { $expires }.
 download-request-assembling-description = Faela dzaṋu dzi khou dzudzanyiwa. Sedzani hafhu hu si kale.
 download-request-modal-description = Ḽinki khedzi dza u downḽoda faela dzaṋu dza ZIP.
 download-request-link-single = Ni nga kopa u ṋambatedza nga ho livhaho kha URLs u ya kha hune na ṱoḓa uri zwe na downḽouda zwi dzule hone. Zwi ḓo fhelelwa nga tshifhinga nga murahu ha awara dza 12, fhedzi ni nga dovha na vhuyelela kha ḽeneḽi siaṱari uri ni dovhe ni ite dziṅwe nga tshifhinga tshine na funa.
@@ -441,6 +448,8 @@ demo-language-select-card-body = Ri livhuwa vhathu vho shelaho mulenzhe vha fhir
 
 demo-account-card-header = A zwi ṱoḓei uri ni vhe na akhantu uri ni kone u nikela, fhedzi zwi a thusa.
 demo-account-card-body = Ro ita zwithu zwavhuḓi nga u ṱalutshedza mbuyelo na u bvisela khagala uri ndi zwithu zwifhio zwine ra zwi ita uri zwi vhonwe nga nnyi na nnyi. Shumisani ḽinki dzi re afho fhasi uri ni thome u ita akhantu yaṋu ya Common Voice kha tshishumiswa tshaṋu.
+demo-account-enter-email =
+    .label = Dzhenisani email uri ri ni rumele ḽinki ya u ḓiṅwalisa
 
 ## Demo Contribute
 
@@ -460,6 +469,7 @@ contribution-misreadings-description-extended-list-1 = Ho shotha <strong>'A'</st
 contribution-misreadings-description-extended-list-3 = U vhala zwithu zwi si hoho, sa tsumbo "we're" nṱhani ha "we are" kana vaisa versa.
 contribution-misreadings-description-extended-list-4 = Ho shotha ipfi ḽa u fhedzisela ngauri rekhodo yo khathuwa ngau ṱavhanya
 contribution-misreadings-example-3-explanation = [Zwo rekhodiwaho zwo khathuwa ipfi ḽa u fhedza ḽi sa athu fhelela]
+contribution-misreadings-example-4-explanation = [Ho rekhodiwa zwi fhiraho mafhungo a ṱoḓeaho]
 contribution-misreadings-example-5-title = Ri khou ya u nwa gofhi.
 contribution-misreadings-example-7-title = Ri khou ya u nwa gofhi.
 contribution-varying-pronunciations-description = Ni ṱhogomele uri ni sa ri zwo rekhodiwaho a si zwone nga ṅwambo wa uri muvhali ha ngo bula zwavhuḓi ipfi, kana o ombedzela fhethu hu si hone, kana khamusi o litsha u vhala tshiga tsha u vhudzisa. Hu na kubulele kwa maipfi kwo fhambananaho u mona na shango, kuṅwe kwa hone khamusi a ni athu u ku pfa vhuponi ha haṋu. Ri humbela uri ni ṱanganedze vhane vha amba nga nḓila yo fhambanaho na yaṋu.
@@ -468,6 +478,7 @@ contribution-varying-pronunciations-example-1-explanation = [‘Beret’ ḽo lu
 contribution-varying-pronunciations-example-2-explanation = [Ipfi ḽa Luisimane 'Raised' musi ḽi tshi bulwa hu ombedzelwa dungo ḽithihi tshifhinga tshoṱhe, hu si mavhili]
 contribution-background-noise-description = Ri ḓo ṱoḓa uri algorithm dza machine learning dzi kone u fhambanyisa phosho i re nga murahu, na phosho ya khulwane i nga tendela, fhedzi a yo ngo tea u thivhela uri ni pfe zwoṱhe zwo ambiwaho. Muzika u re fhasi wo tendelwa; muzika u ne wa khou ita phosho lune ni si kone u pfa maipfi oṱhe ane muṅwe a khou a amba a wo ngo tendelwa.
 contribution-background-noise-description-extended = Arali rekhodo yo khathuwa, kana i na manzaranzara, i haneni nga nnḓani ha musi mafhungo oṱhe a tshi khou pfala.
+contribution-background-noise-example-1-fixed-title = <strong>[Sneeze]</strong> Dinosaurs khulu ya <strong>[cough]</strong> Triassic.
 contribution-background-voices-description = Fhethu hu re na vhathu fhedzi ho fhumuaho ho luga, fhedzi a ri ṱoḓi uri hu pfale maṅwe maipfi ane a nga ita uri mitshini ya algorithm i ḓivhe zwiṅwe zwine zwa khou ambiwa zwi songo ṅwalwaho. Arali ni tshi khou pfa maipfi o khetheaho a siho kha mitaladzi yo ṅwalwaho, zwo rekhodiwaho a zwo ngo tendelwa. Zwenezwi zwi nga itea musi TV yo sala i tshi khou tamba, kana hu na vhathu vhane vha khou amba tsini na henefho.
 contribution-background-voices-description-extended = Arali rekhodo yo khathuwa, kana i na manzaranzara, i haneni nga nnḓani ha musi mafhungo oṱhe a tshi khou pfala.
 contribution-background-voices-example-1-title = Dinosaurs khulu ya Triassic. <strong>[read by one voice]</strong>
@@ -520,9 +531,12 @@ sc-howto-findpd-partner-2 = Vhaḓivhi vha luambo na vhone vha nga thusa, i ya n
 ## MY SENTENCES
 
 sc-my-description = Heḽi siaṱari ḽi ni sumbedza mitaladzi yoṱhe ye na i rumela. Ni nga phumula na mitaladzi ine no no i rumela arali zwi tshi ṱoḓea, nga u maka bogisi ḽi re tsini nawo na u puṱedza kha &quot;Delete selected sentences&quot; zwi re fhasi. Ri humbela uri ni bvise mitaladzi arali zwo tea fhedzi, sa tsumbo, arali na vhona uri mutaladzi wo tsireledzwa nga mulayo wa khophi ya vhuṋe.
+sc-my-err-fetching = Ho itea vhukhakhi ni tshi khou lingedza u dzhia mitaladzi yaṋu. Ri humbela uri ni lingedze hafhu.
+sc-my-err-failed-delete = A zwo ngo konadzea u ḓilita mitaladzi... Ri humbela uri ni lingedze hafhu!
 
 ## REJECTED
 
+sc-rejected-err-fetching = Ho itea vhukhakhi ni tshi khou lingedza u dzhia mitaladzi yo haniwaho. Ri humbela uri ni lingedze hafhu.
 
 ## STATS
 
@@ -544,6 +558,7 @@ sc-submit-filtered = Mitaladzi yo fiḽithariwaho ngauri a yo ngo swikelea ṱho
 
 ## ADD LANGUAGE
 
+sc-add-lang-sec-label = Pangani luambo lune na khou ṱoḓa u shela mulenzhe ngalwo
 # Variables:
 #   $duplicates (Number) - Number of sentences which got rejected because they are duplicates
 sc-add-result =
