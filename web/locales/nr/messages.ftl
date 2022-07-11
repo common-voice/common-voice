@@ -212,6 +212,9 @@ default-tagline =
 home-cta = Khuluma, nikela endaweni le!
 wall-of-text-more-mobile = Woke umuntu
 wall-of-text-more-desktop = Nje ungakghona ukunikela ngephimbo lakho bona usisize sakhe ibulungelo elivulekele woke umuntu abantu abangalisebenzisa ukwakha ama-apps weensetjenziswa namkha amazinzolwazi. Funda imitjho yabanye abanikeli bona uthuthukise izinga layo. Kulula ngaleyo ndlela!
+wall-of-text-second =
+    Ukwaziswa okunengi okusetjenziswa makhampani amakhulu akufunyanwa babantu abanengi. Sicabanga bona lokhu kuvimba ituthuko. Yeke senze iCommon Voice, yenza ama-voice recognition asetjenziswe ngendlela etjhaphulukileko
+    begodu akghone ukusetjenziswa ngibo boke abantu
 show-wall-of-text = Funda okwengeziweko
 help-us-title = Imitjho
 help-us-explain =
@@ -400,6 +403,7 @@ skip-submission-note =
     NokuKhuluma nokuLalela bona utjhugulule indlela onganikela ngayo.
 off = Qima
 help-accent = Utlhoga isizo ngokuphimisela?
+help-accent-explanation = Kunendlela obiza ngayo amagama. iya ngokuthi uhlala kuphi, ngiwaphi amanye amalimi okghona ukuwakhuluma nokunye okunengi. Ungafaka nanyana ngikuphi ukwaziswa ucabanga bona kuyatlhogeka la.
 help-variants = Utlhoga isizo ngemihlobohlobo?
 
 ## Profile - Email
@@ -551,6 +555,7 @@ about-nav-playbook = Funda ukuthi ungasiza njani
 ## What is a language
 
 about-playbook-what-is-language = Ngiliphi ilimi elikuCommon Voice?
+about-playbook-what-is-language-content-1 = Zinengi iindlela zokucabanga ngelimi. Ngehloso yokwenza amathulusi akghona ukuhlukanisa amaphimbo, i-Common Voice ihlongoza bona udzimelele ‘ngokuvumelana nokuzwisisana bona kukhulunywa ngendlela engafaniko’, namkha ‘abantu abakhuluma ilimeli bangakghona na ukuzwisisana nange balinga ukwenza njalo?’
 
 ## How do I add a language
 
@@ -612,6 +617,7 @@ about-playbook-how-grow-language =
     Singalithuthukisa njani ilimi ngokuphumeleleko 
     kuCommon Voice?
 about-playbook-how-grow-language-content-2 = Izehlakalo
+about-playbook-how-grow-language-content-3 = Ungenza imibuthwano usize abantu bona banikele. Kulula kunendlela ongacabanga ngayo. Ungakwenze lokho online usebenzisa amathulusi we-videoconferencing, namkha ungahlangana nabantu nakuphephile <eventTemplate> ukwenza njalo. Hlola amathulusethu wokuraga imibuthwalo enjalo</eventTemplate>.
 about-playbook-how-grow-language-content-4 = Zokuthintana
 about-playbook-how-grow-language-content-5 = Ungasebenzisa amahlelo wezethungelelwano ukurhatjha umlayezo. Faka umlayezo ohlathululako bona kubayini lokhu kuqakathekile, thintana nabanye abantu abakhuluma ngamalungelo wamalimi,I-voice AI, namkha i-bias in tech. Fumana iinyeleliso ezingeziweko <campaignLink> zokuthi ungaliraga njani ijima lezokuthintana, kuhlanganise nezinto ongazisebenzisa ngokubuyelelweko</campaignLink>.
 about-playbook-how-grow-language-content-6 = Ukubambisana nezokuthintana
@@ -621,6 +627,7 @@ about-playbook-how-grow-language-content-8 = <strong>Yiba sikghwari!</strong> Il
 
 about-playbook-how-validate = Ngingazi njani ukuthi kufuze ngiwuphasise umutjho?
 about-playbook-how-validate-content-1 = Nange ukghona <strong>ukubezwa</strong> begodu <strong>ubazwisisa</strong>, kungaba kuhle <strong>uphasise</strong>.
+about-playbook-how-validate-content-3 = Nange ucabanga bona amatshwayo wokufunda angenza kube<strong> budisi bona abantu bazwisise</strong>, namkha<strong> likhulu itjhada</strong> elizwakala ngemuva, namkha<strong> kunabanye abantu abakhulumako</strong>, yeke kufuze ungalamukeli iphimbo. <accuracyLink>Qala ukwaziswa okungeziweko ku-accuracy criteria yethu</accuracyLink>.
 about-playbook-how-validate-content-4 = Nange okurekhodiweko kwaliwa babantu aba-2, kukhutjhwa ngomunye umhlobo webulungelo.
 
 ## How to access dataset
@@ -972,6 +979,7 @@ validated-clips = Iinqetjhana eziqinisekisiweko
 total-approved = Inomboro yokuphasisiweko
 overall-accuracy = Ukunemba
 set-visibility = Tjengisa nangikhona
+visibility-explainer = Ihlelweni lilawula ukubonakala kwelawulo lakho. Lapho lifihliweko, ituthukwakho izokufihleka. Lokho kutjho bona isithombe sakho, ibizo lakho netuthukwakho angeze ibonakale. Tjheja bona ukuthomisela phasi i-leaderboard kungathatha ~{ $minutes } umzuzu bona amatjhuguluko owenzileko abonakale.
 visibility-overlay-note = Tjheja: Amasethingi wengcenye ethi 'Bonakala' angatjhugululwa la <profileLink>ekhasini lePhrofayili</profileLink>
 show-ranking = Veza ukutshwaya kwami
 
@@ -1048,6 +1056,10 @@ return-to-edit-goal = Buyela la bona ulungise imigomakho nanyana kunini.
 
 ## Profile Delete
 
+remove-info = Sizokuhlola isibawo sakho sokufuna ukususa iphimbo lakho ebulungelweni. Isibawo sakho nasivunyiwe, sizokuthintana nalabo abadawnlode iphimbo lakho ebulungelweni sibatjela bona nabo basule iphimbo lakho.
+why-delete-recordings =
+    I-Common Voice recordings isetjenziswa mikhakha yezefundo, amabhizinisi amancani, nabantu abathanda ama-voice recognition bona babandule begodu bakhuluse iinsetjenziswa zemitjhini ekhulumako.
+    Ungakghona na ukusitjela bona kubayini ufuna okurekhodileko kusulwe?
 profile-form-delete = Susa Iphrofayili
 
 ## Profile Download
@@ -1202,6 +1214,7 @@ contribution-background-voices-example-1-explanation =
 contribution-volume-title = Ivolomu
 contribution-volume-description = Indlela abantu abafunda ngayo izokuhluka. Kwale kwaphela nange itjhada umuntu afunde ngalo liphezulu khulu kangangokuthi kuqunteke akutjhoko, namkha (okujayeleke khulu) liphasi khulu kangangokuthi akuzwakali bona kuthiwani ngaphandle kokuthi kuqalwe okutloliweko.
 contribution-reader-effects-title = Iinkunupe zokufunda
+contribution-reader-effects-description = Okunengi okurekhodiweko kwenziwe ngephimbo lemvelo. Ungakwamukela ukufunda namkha iphimbo elizwakalela phezulu, elizwakalela phasi, ngitjho nelizwakala ‘sabudrama’. Sibawa ungawamukeli amaphimbo azwakala ngasuthi ayavuma namkha amaphimbo enziwe ngekhomphyutha.
 contribution-just-unsure-title = Awuqiniseki?
 see-more = <chevron></chevron>Veza okwengeziweko
 see-less = <chevron></chevron>Veza okuncani
@@ -1262,6 +1275,7 @@ sc-howto-addsen-item-1 = Yoke imitjho oyithumelako kufuze ibe nemvumo <wikipedia
 sc-howto-addsen-item-2 = Iinomboro. Akukafuzi kube neenomboro emitlolweni ngombana kubamraro ukuzifundela phezulu. Indlela iinomboro ezifundeka ngayo kuya ngendlela umutjho otloleke ngayo begodu kungabangela ihlangahlangano. Ngokwesibonelo, inomboro “2409” ingafundeka ngeendlela ezimbili ezivumelekileko “amatjhumi amane naboziro abalithoba” namkha “iinkulungwana namakhulu amane nalithoba”.
 sc-howto-addsen-item-3 = Ukufitjhanaswa nokurhunyezwa kwamagama. Amagama atlolwe ngokufitjhaniswa namkha ngokurhunyezwa njengala  “USA” namkha “ICE” kufuze abalekelwe nakutlolwako ngombana angabizwa ngendlela ehlukileko kunele atloleke ngayo. Ukungenzelela kilokho, kungaba neendlela ezinengi ezilungileko zokubiza isirhunyezo sinye. Ngokwesibonelo, ibizo elitlolwe ngokufitjhanisa elithi  “ICE” lingafundeka bunjesi “I-C-E” namkha lifundeke njengebizo linye.
 sc-howto-addsen-item-4 = Amatshwayo wokufunda. Amatshwayo wokufunda akhethekileko kufuze asetjenziswe kwaphela nekunetlhogeko yokwenza njalo. Ngokwesibonelo, isibabazo siyafakwa emabizweni wesiNgisi afana nalawa “ungenzi njalo” namkha “thina” begodu kufuze atlolwe phasi, kodwana akukajayeliki bona kungatlhogeka kusetjenziswe amatshwayo anjenga la “@” or “#.”
+sc-howto-addsen-item-5 = Iincwadi ezivela kwezinye iinarha. Amaletha kufuze ahlolwe ngokwelimi elikhulunywako. Ngokwesibonelo, inga-kghani incwadi itlolwe ngamaledere wesiRussian kodwana angasetjenziswako ngesiNgisi.
 sc-howto-addsen-post-1 = Siyibona ngcono imitjho esakulumiswano. Ngitjho nanyana amagama kanengi aziwa babantu abafundileko aqakathekile kodwana silinga ukwenza imitjho erekhodiweko ibe mnandi ngendlela esingakghona ngayo. Yeke kungaba kuhle bona wenze imitjhwakho ibe lula begodu abantu bakuthabele ukuyilalela ngendlela ongakghona ngayo.
 sc-howto-cite-title = Indlela yokudzubhula
 sc-howto-cite-item-1 = Ungahlanganisa newebhusayidi, isb. "Common Voice - https://commonvoice.mozilla.org/"
@@ -1508,6 +1522,7 @@ sc-criteria-item-3 = Imitjho kufuze ikhulumeke.
 sc-criteria-item-4 =
     Nange umutjho uhlangabezana nakho koke okutlhogekako gandelela 
     i- &quot; engehlangothini lesokudla &quot;Phasile&quot.
+sc-criteria-item-5-2 = Nangabe umutjho awuyifikeleli imibandela elandelako, gandelela ikinobho ;ethi-Reject; engasesandleni sesincele. Nawungaqinisekiko ngomutjho, angaweqa uye kolandelako.
 sc-criteria-item-6 =
     Nange ingasekho imitjho ongayibuyekeza sibawa
     usisize sifumane imitjho eyengeziweko!
