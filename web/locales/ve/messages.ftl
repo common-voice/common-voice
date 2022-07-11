@@ -45,8 +45,10 @@ wall-of-text-first =
 wall-of-text-second = Data nnzhi dzi shumiswaho nga khamphani khulwane, vhathu vhanzhi a vha koni u dzi swikelela. Ri vhona u nga zwi khou ita uri hu si vhe na bvela phanḓa. Ndi ngazwo ro thoma thandela ya Common Voice, thandela ine ya ḓo thusa uri u ḓivha ipfi zwi vhe zwa vhathu vhoṱhe na uri vha kone u zwi swikela.
 help-us-explain = Puṱedzani tsha u puḽeya, thetshelesa & ri vhudzeni: Naa vho amba zwi re kha mutaladzi u re afho fhasi?
 no-clips-to-validate = Zwi vhonala u nga a hu na zwo rekhodiwaho zwine na nga zwi thetshelesa nga holwu luambo. Ri thuseni u egedza mutevhe wa zwo rekhodiwaho nga u rekhoda zwiṅwe zwino.
+toggle-play-tooltip = Puṱedzani { shortcut-play-toggle } bathene ya u puḽeya
 speak-paragraph = U rekhoda maipfi ndi tshipiḓa tsha u ita dataset yashu; vhaṅwe vha nga ri na tshenetshi ndi tshipiḓa tshi takadzaho.
 listen-paragraph = U khwaṱhisedza uri zwo rekhodiwaho ndi zwone ndi tshipikwa tsha ndeme vhukuma tsha Common Voice. Thetshelesani nahone ni ri thuse uri ri ite maipfi a vhuimo ha nṱha ane a ḓo kona u shumiswa nga nnyi na nnyi.
+ready-to-record = Naa no lugela u nikela nga ipfi ḽaṋu?
 help-make-dataset = Ri thuseni uri ri ite dataset ya vhuimo ha nṱha ya nnyi na nnyi
 sign-up-account = Itani Akhantu
 email-subscription-title = Ḓiṅwaliseni uri ni wane dzi apudeiti nga email
@@ -104,7 +106,9 @@ accept-privacy = Ndi a tenda uri ni fare zwenezwi zwidodombedzwa samusi no ṱal
 accept-privacy-title = Mulayo wa Tshiphiri
 skip-submission-description = Musi ni tshi khou rumela zwe na shela mulenzhe hu ḓo pfukiwa feedback nga murahu ha u puṱedza ipfi 'Submit'. Ni ḓo bvela phanḓa na u shela muledzhe nga u rekhoda dza 5 dzi tevhelaho kana u dzi thembendela.
 skip-submission-note = Ṱhogomelani hezwi: Ni kha ḓi ḓo tea uri ni nange u Amba kana u Thetshelesa uri ni shandule mufuda wa u nikela.
+help-accent = Ni khou ṱoḓa thuso kha kuambele?
 help-accent-explanation = Kuambele ndi nḓila ine na bula ngayo maipfi. Zwenezwi zwi nga ḓitika nga hune na dzula hone, dziṅwe nyambo dzine na dzi amba na zwiṅwe zwithu zwinzhi. Ni nga ri vhudza zwenezwi zwithu zwine na pfa u nga zwi a tshimbidzana na zwenezwi hafha.
+help-variants = Ni khou ṱoḓa thuso nga dzinwe dzi varienti?
 help-variants-explanation = Dzi Variants ndi mufuda wo khetheaho wa luambo – une sa tsumbo wa ambiwa nga vhathu vha dzulaho fhethu ho khetheaho kana vhupo. Nga tshiṅwe tshifhinga zwenezwi zwi vhidzwa dzi dialect.
 
 ## Profile - Email
@@ -334,10 +338,12 @@ data-other-voxforge-description = VoxForge yo iteliwa u dzhia tshipitzhi tsho is
 data-other-tatoeba-description = Tatoeba ndi database khulu ya mitaladzi, zwo ṱalutshedzwaho, na odio dzi ambaho dzi shumiselwaho u guda luambo. Zwenezwi zwithu zwine wa nga zwi download zwi nga Luisiamane luambiwaho, zwo rekhodiwa nga vhadzulapo vhalwo.
 your-feedback = Naa ni na mihumbulo ya uri ri nga khwinifhadza hani dataset ya Common Voice? Ri tsivhudzeni kha Discourse
 missing-language = Naa a ni vhoni luambo lwaṋu kha dataset? U ita khumbelo ya luambo, iyani kha siaṱari ḽa Dzinyambo.
+ready-to-validate = Naa no lugela u thusa u khwaṱhisedza mitaladzi?
 
 ## Download Modal
 
 download-helpus = Ri thuseni u fhaṱa tshigwada tsha maipfi a thekhinolodzhi, kha ri dzule ri tshi kwamana nga email.
+download-back = Humelani kha dzi Dataset dza Common Voice
 
 ## Contact Modal
 
@@ -470,6 +476,7 @@ why-delete-recordings =
 
 ## Profile Download
 
+download-q = Ni khou tea u downḽoda data dzaṋu?
 download-info = Ri vhudzeni zwine na nga tama u zwi downḽoda:
 download-profile-info = U katela email, username na zwidodombedzwa zwa muthu, zwi a wanala nga u ṱavhanya
 download-recordings-info = Zwi katela mp3 na mitaladzi i tshimbidzanaho nadzo, zwi nga dzhia tshifhinga u zwi lugiselela
