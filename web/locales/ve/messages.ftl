@@ -89,6 +89,7 @@ status-hours =
 
 profile-form-variant =
     .label = Ni amba varianti { $language } ifhio ya luambo?
+profile-form-custom-accent-placeholder-2 = Thomani u thaipha uri ni kone u ṱalusa kuambele kwaṋu
 why-profile-text =
     Nga u ri vhudza zwiṅwe zwidodombedzwa zwaṋu, data ya odio ine na i rumela kha Common Voice i ḓo kona u shumiswa zwavhuḓi kha mitshini ya u Ḓivha
     Ipfi ine ya ḓo shumisa yeneyi data u itela uri i kone u vha ya khwine-khwine uri i shume zwavhuḓi.
@@ -371,6 +372,7 @@ record-platform-not-supported = Ri humbela pfarelo, puḽatifomo yaṋu a yi tik
 record-platform-not-supported-desktop = Kha tshishumiswa tsha desktop ni nga shela mulenzhe nga u downḽoda…
 record-platform-not-supported-ios-non-safari = Kha iOS ri humbela uri ni bvele phanḓa ni tshi shumisa Safari u itela uri ni kone u rekhoda…
 review-tooltip = Ṱolisisani & ni dovholole u rekhoda ni tshi khou bvela phanḓa
+review-instruction = Ṱolisisani & dovhololani u rekhoda arali zwo fanela
 record-abort-text = Na ṱuwa zwino ni ḓo xelelwa nga mvela phanḓa yaṋu
 listen-again-instruction = Mushumo wavhuḓi!<playIcon></playIcon> Dovhani ni thetshele musi no lugela
 listen-empty-state = Ro fhelelwa nga zwo rekhodiwaho zwine zwa ṱoḓa u khwaṱhisedzwa...
@@ -425,6 +427,10 @@ which-goal-type = Ni khou ṱoḓa u Amba, u Thetshelesa kana u ita zwoṱhe?
 receiving-emails-info = Zwa zwino ni kha mutevhe wa vhane vha ḓo wana email dzi ngaho dza u ni humbudza nga ha zwipikwa, mvela phanḓa yaṋu na maswa maswa nga ha Common Voice
 not-receiving-emails-info = Zwa zwino no pangiwa kha u <bold>U SA</bold> wana milaedza nga email yo no nga khumbudzo dza zwipikwa, mvela phanḓa yaṋu na newsletters nga ha Common Voice
 help-share-goal = Ri thuseni u wana maipfi manzhi, sherani tshipikwa tshaṋu
+# $type is one of share-goal-type-*
+share-n-daily-contribution-goal = Sherani { $count } Tshipikwa tshaṋu tsha u Rekhoda tsha Ḓuvha{ $type }
+# $type is one of share-goal-type-*
+share-n-weekly-contribution-goal = Sherani { $count } Tshipikwa tshaṋu tsha u Rekhoda tsha Vhege { $type }
 # LINK will be replaced with the current URL
 goal-share-text = Ndo ḓiitela tshipikwa tshau nikela nga ipfi kha #CommonVoice – shelani mulenzhe na nṋe kha u funza mitshini uri vhathu vha vhukuma vha ambisa hani { $link }
 weekly-goal-created = Tshipikwa tshaṋu tsha vhege tsho itiwa
@@ -460,6 +466,7 @@ download-request-link-single = Ni nga kopa u ṋambatedza nga ho livhaho kha URL
 help-contribute = Ni nga thusa kha u ita dataset khulwane ya nnyi na nnyi nga u ita Profaiḽi ya Common Voice na u nikela nga ipfi ḽaṋu.
 login-company = Log In / Sign Up na { $company } email
 profile-not-required = A zwi ṱoḓei uri ni vhe na profaiḽi uri ni nikele, fhedzi zwi a thusa, ṱhogomelani uri ndi ngani a fho fhasi.
+read-more-about = Vhalani zwinzhi kha siaṱari la Ngaha
 
 ## DemoLayout
 
@@ -561,6 +568,7 @@ sc-howto-review-criteria-4 = Arali mutaladzi u tshi swikelea ṱhoḓea, puṱed
 sc-howto-review-criteria-5 = Arali mutaladzi u sa swikeleli ṱhoḓea dzi re afho nṱha, puṱedzani gunubu ya "Hana". Arali ni si na vhungoho ha uri mutaladzi a si wone, ni nga u pfukha na pfukela kha u no khou tevhela..
 sc-howto-review-criteria-6 = Arali na fhelelwa nga mitaladzi ya u ṱolisisa, ri humbela uri ni ri thuse nga u kuvhanganya miṅwe mitaladzi minzhi!
 sc-howto-findpd-title = U wana mitaladzi yo no vha ho hone Fhethu ha Tshitshavha Tshoṱhe
+sc-howto-findpd-subtitle = Zwi ṱoḓeni kha Inthanethe
 sc-howto-findpd-text-2 = Ni humbule uri ri ṱoḓa tendelo uri ri anḓadze yeneyo mitaladzi, ni dzule ni tshi ita vhungoho ha uri zwo ṅwalwaho ndi zwa <wikipediaLink>fhethu ha tshitshavha tshoṱhe</wikipediaLink>. Arali hu songo bvelwa khagala, vhudzisani muṋe wazwo arali a tshi ṱoḓa uri zwe a shela ngazwo mulenzhe zwi anḓadzwe Fhethu ha Tshitshavha Tshoṱhe. Arali vha tshi zwi takalela, vha thuseni uri vha vhale <cc0WaiverLink>Thendelo ya Vhashelaho mulenzhe</cc0WaiverLink>. Arali vha sa ṱoḓi u nikela nga zwo ṅwaliwaho, a no ngo tendelwa u shumisa zwo ṅwaliwaho.
 sc-howto-findpd-tips = Khezwi zwiṅwe zwine na nga zwi ita uri ni wane mitaladzi:
 sc-howto-findpd-tips-1 = Fhethu havhuḓi hune na nga wana hone zwithu ndi kha dzi podcast, maipfi a ṅwalwaho a tshi bva kha matambwa, maipfi a zwiṱori zwa thelevishini, na tshiṅwe na tshiṅwe tshine tsha nga vha tshi na nyambedzano dza ḓuvha na ḓuvha.
@@ -714,6 +722,8 @@ sc-criteria-item-6 = Arali na fhelelwa nga mitaladzi ya u ṱolisisa, ri humbela
 sc-review-lang-not-selected = A ni a thu u nanga na luambo na luthihi. Ri umbela uri ni ye kha <profileLink>Profaiḽi</profileLink> yaṋu uri ni nange nyambo.
 sc-review-select-language = Ri humbela uri ni nange luambo uri ni kone u ṱolisisa mutaladzi.
 sc-review-no-sentences = A hu na mutaladzi une wa ṱoḓa u ṱoliwa. <addLink>Pangani miṅwe mitaladzi zwino!</addLink>
+sc-review-form-prompt =
+    .message = Mitaladzi yo ṱolisiswaho a yo ngo rumelwa, ni na vhuṱanzi?
 sc-review-form-usage = Swaipelani kha tsha u ḽa u itela uri ni kone u amba uri mutaladzi ndi wone. U amba uri a si wone swaipelani kha tsha monde. Swaipelani nṱha u itela u pfuka. <strong>Ni songo hangwa u rumela zwe na ṱolisisa!</strong>
 sc-review-form-keyboard-usage-custom = Ni nga dovha hafhu na shumisa shortcuts dza Keyboard: { sc-review-form-button-approve-shortcut } u Khwaṱhisedza, { sc-review-form-button-reject-shortcut } u Hana, { sc-review-form-button-skip-shortcut } u Pfukha
 # Variables:
