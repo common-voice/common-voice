@@ -4,6 +4,7 @@ return-to-cv = Kgutlela ho Common Voice
 email-input =
     .label = Email
 email-opt-in-info-title = Kena lethathamong la mangolo la Common Voice
+indicates-required = Dibaka tse tshwauweng ka naledi (*) di a hlokahala.
 not-available-abbreviation = N/A
 banner-error-slow-link = Leqephe la Boemo
 error-something-went-wrong = Tshwarelo, ho na le ho hong ho fosahetseng
@@ -204,6 +205,7 @@ terms = Dipehelo
 cookies = Di-cookie
 faq = FAQ
 content-license-text = Ditaba di fumaneha tlas'a <licenseLink>laesense ya Creative Commons</licenseLink>
+share-title = Re thuse ho fumana ba bang ho nehela ka mantswe a bona!
 link-copied = Hokahanyo e kopiditswe
 back-top = Kgutlela Hodimo
 logout = Tswa
@@ -275,6 +277,7 @@ shortcut-discard-ongoing-recording = ESC
 shortcut-discard-ongoing-recording-label = Lahla rekoto entse tswelapele
 shortcut-submit = Kgutla
 shortcut-submit-label = Romella di-clip
+request-language-text = Na ha o so bone puo ya hao ho Common Voice?
 request-language-button = Kopa Puo
 
 ## ProjectStatus
@@ -353,13 +356,16 @@ remove-avatar = Tlosa Avatar
 
 manage-subscriptions = Laola Dipeeletso
 manage-email-subscriptions = Laola Dipeeletso tsa Email
+email-already-used = Email e se ntse e sebediswa bakeng sa ak'haonte e fapaneng
 add-language = Kenya Puo
+change-email-setings = Fetola email ya hao ka Ditlhophiso tlasa Boitsebiso ba ho Kena
 
 ## FAQ
 
 faq-title = Dipotso Tse Botswang Kgafetsa
 faq-what-cv-q = Common Voice ke Eng?
 faq-why-important-q = Ke hobane'ng ha e le ya bohlokwa?
+faq-how-get-q = Ebe nka fumana data ya Common Voice jwang?
 faq-how-calc-hours-q = Common Voice e bala dihora jwang?
 faq-is-account-public-q = Na dintlha tsa ak'haonte ya ka di phatlalatsa?
 faq-what-is-cv = Common Voice ke Eng?
@@ -409,7 +415,9 @@ about-nav-playbook = Ithute ho nka karolo
 
 about-playbook-how-add-language = Ke kenya puo jwang?
 about-playbook-how-add-language-translating-heading = Ho fetolela sebaka sa marang-rang
+about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Sheba tataiso ya rona ya ho sebedisa Pontoon.</translateVideoLink>
 about-playbook-how-add-language-collecting-sentences-heading = Ho bokella dipolelo
+about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>Sheba tataiso ya rona mabapi le ho sebedisa Mobokelli wa Dipolelo</sentenceCollectorVideo>.
 about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>Sheba haholwanyane mabapi le pokello ya dipolelo</sentenceCollectorFragment>.
 
 ## How does localization work
@@ -436,6 +444,7 @@ about-playbook-how-grow-language-content-6 = Dikamano le marang-rang
 
 ## How to access dataset
 
+about-playbook-how-access-dataset = Ebe ke fumana le ho sebedisa pokello ya data jwang?
 
 ## How are decisions made
 
@@ -615,6 +624,7 @@ share-title-new = <bold>Re thuse</bold> ho fumana mantswe a mang
 keep-track-profile = Beha tswelopele ya hao leihlo ka profaele
 login-to-get-started = Kena kapa ingodise ho qalella
 target-segment-generic-card = O kenya letsoho karolong e lebeletsweng
+target-segment-first-banner = Thusa ho etsa karolo ya pele ya Common Voice ka { $locale }
 target-segment-add-voice = Kenya Lentswe la hao
 target-segment-learn-more = Ithute haholwanyane
 
@@ -692,11 +702,13 @@ set-a-goal = Ipehele sepheo
 cant-decide = Ha o kgone ho etsa qeto?
 how-many-per-day = E ntle! Ke di-clip tse kae ka letsatsi?
 how-many-a-week = E ntle! Ke di-clip tse kae ka beke?
+which-goal-type = Na o batla ho Bua, ho Mamela, kapa di le pedi?
 n-clips-pluralized =
     { NUMBER($count) ->
         [one] clip
        *[other] di-clip
     }
+help-share-goal = Re thuse ho fumana mantswe a mang hape, arolelana ka sepheo sa hao.
 confirm-goal = Netefatsa sepheo
 goal-interval-weekly = Beke le beke
 # $type is one of share-goal-type-*
@@ -730,6 +742,7 @@ download-start = Download-a data ya profaele
 download-request = Kopa tse rekotilweng
 download-requests = Dikopo tsa ho download-a direkoto tse fetileng
 download-request-button = Download
+download-request-description = { $clipCount } di-clip tsa mantswe, ka kakaretso di lekane { $size }. E fellwa ke nako { $expires }.
 download-request-archive-single = Faele e le nngwe ya ZIP e nang le
 download-request-archive-multiple = Arolela ho { $archiveCount } difaele tsa ZIP tse nang le
 download-request-refresh-button = Kgatholla
@@ -758,6 +771,8 @@ demo-account = Ak'haonte
 
 ## Demo Account
 
+demo-account-enter-email =
+    .label = Kenya email ho romela hokahanyo ya ho ngodisa
 demo-account-sign-up = Romella sehokelo sa ho ingodisa
 
 ## Demo Contribute
@@ -777,6 +792,7 @@ contribution-misreadings-title = Ho se bale hantle
 contribution-misreadings-example-2-title = Kgodumodumo e kgolo tsa Triassic.
 contribution-misreadings-example-2-explanation = [E tlameha e be 'dikgodumodumo']
 contribution-misreadings-example-3-title = Dikgodumodumo tse kgolo tsa Triassic-.
+contribution-misreadings-example-4-explanation = [Ho tlalehilwe tse ngata ho feta mongolo o hlokahalang]
 contribution-misreadings-example-6-title = Re il'o fumana kofi.
 contribution-misreadings-example-7-explanation = [Ha ho ‘a’ mongolong wa pele]
 contribution-misreadings-example-8-title = Notshi e ile ya feta ka lebelo.
@@ -784,6 +800,7 @@ contribution-misreadings-example-8-explanation = [Ditaba tse sa tsamaisaneng]
 contribution-varying-pronunciations-title = Qapodiso tse fapaneng
 contribution-varying-pronunciations-example-2-title = Letsoho la hae le ne le phahamisitswe.
 contribution-background-noise-title = Lerata le ka morao
+contribution-background-noise-example-1-fixed-title = <strong>[Sneeze]</strong> dikgodumodumo tse kgolo tsa<strong>[cough]</strong> Triassic.
 contribution-background-noise-example-2-fixed-title = Kgodumodumo e kgolo <strong>[cough]</strong> Triassic.
 contribution-background-noise-example-2-explanation = [Karolo e nngwe ya mongolo ha e utluwe]
 contribution-background-voices-title = Mantswe a ka morao
@@ -846,17 +863,20 @@ sc-howto-findpd-subtitle-2 = Sebedisana le mekgatlo ya lehae kapa batho ka bomon
 
 sc-my-title = Dipolelo tsa ka
 sc-my-loading = E kenya dipolelo tsa hao...
+sc-my-err-fetching = Phoso ha re lata dipolelo tsa hao. Ka kopo leka hape.
 sc-my-no-sentences = Ha ho dipolelo tse fumanweng!
 # Variables:
 #   $source (String) - Associated source the user filled out when uploading the sentence
 sc-my-source = Mohlodi: { $source }
 sc-my-delete = Hlakola dipolelo tse kgethilweng...
 sc-my-deleting = Ho hlakola dipolelo tse kgethilweng...
+sc-my-err-failed-delete = E hlolehile ho hlakola dipolelo tse kgethilweng...Ka kopo leka hape!
 
 ## REJECTED
 
 sc-rejected-title = Dipolelo tse hannweng
 sc-rejected-loading = E kenya dipolelo tse hannweng...
+sc-rejected-err-fetching = Phoso ha re lata dipolelo tsa hao tse hannweng. Ka kopo leka hape.
 sc-rejected-none-found = Ha ho dipolelo tse hannweng tse fumanweng!
 
 ## STATS
@@ -878,6 +898,7 @@ sc-submit-guidelines = Ka kopo sheba <howToLink>ditataiso</howToLink>.
 ## ADD LANGUAGE
 
 sc-add-lang-could-not-add = Ha e ya kgona ho kenya puo
+sc-add-lang-sec-label = Kenya puo eo o batlang ho kenya letsoho ho yona
 sc-add-lang-sec-button = Kenya Puo
 sc-add-err-unexpected = Karabelo e neng e sa lebellwa e kgutlisitswe ho tswa ho server
 # Variables:
@@ -922,6 +943,7 @@ sc-personal-remove-button = tlosa
 # Variables:
 #   $sentences (Number) - Number of sentences that were added by the currently logged in user for this language
 sc-personal-added-by-you = { $sentences } tse kentsweng ke wena
+sc-personal-not-added = Ha o so kenye dipuo tse ding hohang.
 
 ## REVIEW CRITERIA
 
