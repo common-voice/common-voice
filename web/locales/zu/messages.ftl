@@ -24,6 +24,7 @@ kmr = Kurmanji Kurdish
 knn = Konkani (Devanagari)
 mhr = Meadow Mari
 mni = Meetei Lon
+mrj = Hill Mari
 nan-tw = Isi-Taiwanese (Minnan)
 nb-NO = Norwegian Bokmål
 nd = IsiNdebele (North)
@@ -66,6 +67,8 @@ toggle-play-tooltip = Cindezela{ shortcut-play-toggle } ukuze uguqule imodi yoku
 speak-subtitle = Nikela ngezwi lakho
 speak-paragraph = Ukuqopha iziqeshana zezwi kuyingxenye ebalulekile yokwakha idathasethi yethu evulekile; abanye bangathi kumnandi futhi.
 listen-subtitle = Sisize siqinisekise amazwi
+hours-recorded = Amahora Aqoshiwe
+hours-validated = Amahora Aqinisekisiwe
 voices-online = Amazwi a-Online Manje
 todays-progress = Inqubekelaphambili Yanamuhla
 help-reach-goal = Sisize sifinyelele ku-{ $goal }
@@ -250,6 +253,7 @@ about-stay-in-touch-button = Bhalisa
 about-stay-in-touch-text-1 = <emailFragment>Bhalisa</emailFragment> ohlwini lwethu lwama-imeyili ukuze ufunde ukuthi ungaba nengxenye kanjani emikhankasweni, imicimbi kanye nezici zokuklama ngokuhlanganyela ku-Common Voice.
 about-stay-in-touch-text-2 = Ungakwazi ukuhlangana nabanye emiphakathini yolimi lwe-Mozilla ngokujoyina <discourseLink>Discourse</discourseLink> yezingxoxo zezihloko, noma <matrixLink>Matrix</matrixLink> ukuze uthole iseluleko esisheshayo.
 about-nav-why-common-voice = Kungani ?
+about-nav-how-it-works = Kanjani?
 about-nav-how-it-works-2 = Isebenza kanjani i-Common Voice?
 about-nav-playbook = Funda ukuthi libanjwa kanjani iqhaza
 
@@ -728,6 +732,7 @@ sc-languages-fetch-error = Sehlulekile ukulanda izilimi ezitholakalayo. Iminikel
 
 ## HOW-TO
 
+sc-howto-title = Kwenziwa kanjani
 sc-howto-addlang-title = Yengeza izilimi ozosebenza ngazo
 sc-howto-addlang-text = Uma usungenile ungakhetha izilimi zakho esigabeni sephrofayela.
 sc-howto-addsen-title = Engeza imisho emisha
