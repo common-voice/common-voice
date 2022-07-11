@@ -201,7 +201,7 @@ dataset-description-hours =
     
     Dataset i na <b>{ $valid }</b> awara dzo teaho <b>{ $languages }</b> luambo, fhedzi ri dzula ri tshi khou panga maipfi o engedzeaho na dzinyambo. Sedzani <languagesLink>siaṱari ḽa Nyambo dzashu</languagesLink> u itela khumbelo ya luambo kana ni thome u shela mulenzhe.
 resource-deepspeech-info = Tshishumiswa tsha Mozilla tsha u ḓivha ipfi tshine tsha nga shumiswa nga nnyi na nnyi tsha Deep Speech tshi nga shumiswa kha u ita app dzi ḓivhaho ipfi. Vhalani samari yashu <githubLink>Github</githubLink> kana ni dzhenelele kha <discourseLink>DeepSpeech Discourse</discourseLink> uri ni gude nga ha uri ni nga thoma hani.
-resource-playbook-info = <playbookLink>Wanani thuso</playbookLink> nga ha u shumisa Common Voice, u bva kha localization u ya kha kushumisele kwa dataset, na u kwanamana na community yaṋu.
+resource-playbook-info = <playbookLink>Wanani thuso</playbookLink> nga ha u shumisa Common Voice, u bva kha localization u ya kha kushumisele kwa dataset, na nga ha nḓila ine na nga kwamana ngayo na vhadzulapo vha vhuponi haṋu.
 data-other-tatoeba-description = Tatoeba ndi database khulu ya mitaladzi, zwo ṱalutshedzwaho, na odio dzi ambaho dzi shumiselwaho u guda luambo. Zwenezwi zwithu zwine wa nga zwi download zwi nga Luisiamane luambiwaho, zwo rekhodiwa nga vhadzulapo vhalwo.
 
 ## Download Modal
@@ -246,6 +246,8 @@ visibility-explainer = Hedzi sethiṅi dzi langa u vhonala haṋu kha leaderboar
 
 ## Custom Goals
 
+# LINK will be replaced with the current URL
+goal-share-text = Ndo ḓiitela tshipikwa tshau nikela nga ipfi kha #CommonVoice – shelani mulenzhe na nṋe kha u funza mitshini uri vhathu vha vhukuma vha ambisa hani { $link }
 
 ## Profile Delete
 
@@ -343,6 +345,7 @@ sc-my-description = Heḽi siaṱari ḽi ni sumbedza mitaladzi yoṱhe ye na i 
 
 ## ADD SENTENCES CONFIRMATION
 
+sc-confirm-uploading = Mitaladzi i khou apuḽodiwa. Hezwi zwi nga dzhia tshifhinga mimunithi i si gathi nahone zwi ḓitika nga tshivhalo tsha mitaladzi ine ya khou pangiwa. Ri humbela uri ni songo vala website heyi.
 
 ## LANGUAGE INFO
 
