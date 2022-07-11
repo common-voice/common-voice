@@ -52,6 +52,8 @@ ti = Se-Tigrinya
 tig = Se-Tigre
 ts = Setsonga
 ug = Se-Uyghur
+uz = Se-Uzbek
+vec = Se-Venice
 vot = Se-Votic
 xh = Sexhosa
 yi = Se-Yiddish
@@ -357,6 +359,7 @@ error-content-503 = Webosaete e tla bo e boetse mo maemong ka bonako jo bo kgone
 data-download-modal = O tloga o simolola download ya <size>{ $size }GB</size>, a o a tswelela?
 data-subtitle = Re aga rekoto ya tshedimosetso ya mantswe e mongwe le mongwe a ka e dirisang go thapisa dithulaganyo tse di kgonang go dirisa mantswe.
 data-explanatory-text = Re dumela gore tshedimosetso e kgolo le e e phasaladitsweng ya mantswe e rotloetsa go tlhama le kgaisano ya kgwebo mo thekenolojing e e ikaegileng ka go ithuta ga metšhine. Ano ke matsapa a lefatshe lotlhe mme re laletsa mongwe le mongwe go tsaya karolo. Boikaelelo jwa rona ke go thusa thekenoloji ya go bua gore e akaretse dilo tse dintsi, e bontshe pharologano ya mantswe go ralala lefatshe.
+release-version = Thanolelo
 data-download-singleword-callout-v2 = Eno ke karolwana e e berekang e e nang le tshedimosetso ya go matlafatsa mokgwa wa go dirisa puo le o o kgonang go lemoga ee / nnyaa.
 review-terms = Ka go dirisa Common Voice, o dumalana le <termsLink>Melawana</termsLink> le <privacyLink>Kitsiso ya Polokodiphiri</privacyLink>
 review-aborted = Go tsenngwa go emisitswe. A o batla go phimola dikgatiso tsa gago?
@@ -393,6 +396,7 @@ data-other-tatoeba-description = Tatoeba ke tshedimosetso e kgolo ya dipolelo, d
 your-feedback = A o na le dikakantsho tsa gore re ka tokafatsa jang direkoto tsa tshedimosetso ya Common Voice? Re itsise mo Discourse
 missing-language = Ga o bone puo ya gago e tlhaga mo Rekotong ya Tshedimosetso? Go kopa puo, ya kwa tsebeng ya rona ya Dipuo.
 close = Tswala
+dataset-version = Thanolelo
 
 ## Download Modal
 
