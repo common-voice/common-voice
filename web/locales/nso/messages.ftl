@@ -237,6 +237,7 @@ hours-validated = Diiri di Kgonthišitšwe
 voices-online = Mantšu a Inthaneteng ga Bjale
 todays-progress = Tšwelopele ya Lehono
 help-reach-goal = Re thuše re fihle go { $goal }
+read-terms-q = O badile Mareo a rena?
 all-locales = Ka moka
 today = Lehono
 x-weeks-short =
@@ -357,6 +358,7 @@ help-variants-explanation = Mehuta e fapa-fapanego ke mohuta o itseng wa polelo 
 ## Profile - Email
 
 browse-file-title = Tsenya faele ya senepe netwekeng.
+browse-file = Go rwala lego bea goba <browseWrap>Praosa</browseWrap>
 connect-gravatar = Kgokaganya le Gravatar
 avatar-uploaded = Tsenya Motšeakarolo
 max-file-size = { $kb }kb max
@@ -472,6 +474,7 @@ about-playbook-how-localize-content-3 = Phetolelo e tšwa go Seisemane, eupša o
 
 ## How to add sentences
 
+about-playbook-how-add-sentences = Nka oketša mafoko bjang?
 about-playbook-how-add-sentences-content-1 = <strong>Molekgetho wa Mafoko</strong> ke sedirišwa sa go kgoboketša le go netefatša dipolelo tša setšhaba. O tla hloka<scAccountLink>go hlangwa akhaonte</scAccountLink>. Ke moka, tsentšha polelo ya gago go <strong>profaeleng ya gago</strong>. O ka <strong>tsenya mafoko</strong> goba wa <strong>ahla-ahla </strong> mafoko a tsentšhitšego nakong e fetilego.
 about-playbook-how-add-sentences-content-2 =
     "Mafoko a swanela go hlahlobja le go amagelwa ke batho ba babedi gore di tsenywe mo go Common Voice. O hlangwa tlhahlo mabapi le tša polelo ya geno
@@ -507,8 +510,10 @@ about-playbook-how-access-dataset-content-2 = Ge e ba o nyaka didirišwa tša go
 
 ## How are decisions made
 
+about-playbook-how-project-governance = Le tšea dipheto tša projeke bjang?
 about-playbook-how-project-governance-content-1 = Common Voice ya Mozilla gore go kgonegale e dirilwe ke setšhaba se fapa-fapanego sa bahlohleletši, ditsebi tša maleme, bo-rathutamahlale a datha, barutegi le baentšineare ya mananeo go tšwa lefaseng ka moka. Morero o tsamaiša ke Motheo wa Mozilla.
 about-playbook-how-project-governance-content-3 = Sephiri, tšhireletso le Ponatšago.
+about-playbook-how-project-governance-content-4 = Go tšea karolo ga setšhaba le go tšea dipheto.
 about-playbook-how-project-governance-content-5 = Boleng le temogo.
 about-playbook-how-project-governance-content-6 = Kwešišano ya boikarabelo.
 
@@ -520,6 +525,7 @@ sentence-collection = Kgobokanyo ya Mafoko
 hours-validated-explanation = Palo ya diiri tša go rekhota lentšu tše netefaditšwego ke bašomiši ba 2 go ba 3 ka bouto ya “Ee”. Tše di swaya tšwelopele go fihlela le go lebana le  modiro wa kakaretšo ya diiri tše 10K.
 sst = Sefetošetšadigwalwa  mantšung (STT)
 de-identified = Kgetholla gape
+de-identified-explanation = Nakong yeo ba tshedimošo ya profaele ya moneedi e širwa ke dipego tša go neealwa ge di phuthetšwe go tanelouto ka ge di le karolo ya datha-set.
 
 ## Error pages
 
@@ -584,6 +590,7 @@ dataset-description-hours =
     Dathasete ga bjale di na le <b>{ $valid }</b> diiri tšeo di netegaditšwego ka dipolelo<b>{ $languages }</b>, eupša re dula ka mehla re okeditše mantšu le maleme a mangwe. Ela hlogo <languagesLink>letlakaleng la rena la Dipolelo</languagesLink> go kgopela polelo goba go thoma go neela.
 want-dataset-update = O nyaka di mpshafatšo ge re lokolla di bešene tše mpsha tša dathasete ya Common Voice? Ngwadiša go lengwalo la rena la ditaba.
 subscribe = Ngwadiša
+get-started-speech = Thoma ka go Tlhathollo ya Polelo
 other-datasets = Di-dathasete tše dingwe tša mantšu
 feedback-q = O nale Tshwayotshwayo
 resource-deepspeech-info = Mothopo o bolegilego wa Mozilla ya entšene ya go lemoša lentšu. Polelong e Tseneletšego e ka šomišwa go aga lenaneoditirišo ya tlhathollo ya mantšu. Bala <githubLink>kakaretšo ya rena ya Github</githubLink>goba ikgokagane le <discourseLink>Discourse ya Polelong e Tseneletšegogo </discourseLink>go ithuta kamoo o ka thomago ka gona.
@@ -593,6 +600,7 @@ resource-playbook-info = <playbookLink>Hwetša keletšo ya maleba </playbookLink
 data-other-librispeech-description = LibriSpeech ke pokello ya dipego ya diiri  tše ka bago tše 1000 tša 16Khz tše di balwago ka polelo ya Seisemane e tšwerego dipukeng tša odio tše balwago tša go tšwa  morerong wa LibriVox.
 data-other-ted-name = TED-LIUM Corpus
 data-other-voxforge-description = VoxForge e beilwe go kgobokanya polelo e fetotšwego gore e berikišwe ka Mahala le Mothopo o Bulegilego wa Di-entšene tša Tlhathollo ya Polelo.
+data-other-tatoeba-description = Tatoeba ke dathabeise e kgolo ya mafoko, diphetolelo, le mantšu a go bolelwago a odio bakeng sa go dirišwa go ithuta polelo. Tanelouto e e na le Seisemane se se bolelwago sa go rekhotiwa ke setšhaba sa gabo rena.
 your-feedback = Afa o nale dikgopolo gore re ka dirang gore dathasete ya Common Voice e be kaone? Re tsebiše go Discourse
 go-discourse = Eya Discourse
 missing-language = Ga o bone polelo ya gago bonagatša go dathasete? Go kgopela polelo e ya go letlakala la rena la Dipolelo.
@@ -631,6 +639,7 @@ other-language = Malema a mangwe
 
 ## Request Language Pages
 
+request-language-heading = Botšiša ka polelo e mphsa
 request-language-explanation-1 = Lebelela gore na polelo ya geno e lokeletšwe letlakaleng la polelo ya<languagesPageLink> letlakaleng la dipolelo tša Common Voice</languagesPageLink>. Ge e ba go se bjalo, tlatša fomo ye gomme re tla <strong>go romela e-meile e hlalosago monkgwa wa go hloma polelo ya ya geno </strong>.
 request-language-explanation-2 = Le rena re tla <strong>tsebiša moetapele wa badudi gore o na le kgahlego </strong>, gore ba go fe thekgo e oketšegilego goba tsebo e o ka e hlokago.
 request-language-form-email =
@@ -685,6 +694,7 @@ record-cancel = Khansela go rekhota gape
 record-instruction = { $actionType }<recordIcon></recordIcon> ke moka balela mafoko godimo
 record-stop-instruction = { $actionType }<stopIcon></stopIcon> ge o feditše.
 record-three-more-instruction = Go setše tše tharo!
+record-again-instruction = Ga Botse! <recordlcon></recordlcon>Rekhota pego ya gago e latelago
 record-last-instruction = <recordIcon></recordIcon> Ya mafelelo!
 share-clip = Abelana ka pego ya gago
 share-common-voice = Abelana ka Common Voice
@@ -768,6 +778,7 @@ easy-difficulty = Bonolo
 average-difficulty = Palo-gare
 difficult-difficulty = Bothatha
 pro-difficulty = Thekgo
+want-to-continue = O nyaka go tšwela pele?
 build-custom-goal = Aga pakane e swanelegilego
 set-a-goal = Ipeele pakane
 cant-decide = Ga o kgone go kgetha?
