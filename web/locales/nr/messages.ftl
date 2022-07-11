@@ -427,12 +427,19 @@ change-email-setings =
 
 faq-title = Imibuzo Ebuzwa Qobe
 faq-what-cv-q = Yini iCommon Voice?
+faq-what-cv-a-2 =
+    I-Voice recognition technology itjhugulula indlela esisebenzisa ngayo imitjhini, kodwana iinsetjenziswa ezikhona nje zibiza khulu begodu zinabanikazi bazo. I-Mozilla Common Voice lijima elenza bona ama-voice recognition technologies abe ngcono begodu afumaneke bulula kiwo woke umuntu. I-Common Voice libulungelo elikhulu lephasi loke lamaphimbo wabantu anikelwe ngokuzithandela avumela woke umuntu bona akghone ukubandula ama-voice-enabled apps ngawo woke amalimi.
+    Asibutheleli amalimi akhulunywa khulu kwaphela kodwana sibuthelela namalimi angakhulunywa khulu. Ukugadangisa amalimi amanengi kuzokukhuthaza abatlami, abosomabhizinisi, nemiphakathi bona ivale isikhalesi yona ngokwayo.
 faq-why-important-q = Kubayini lokhu kuqakathekile?
+faq-why-important-a =
+    Kanengi ukukhuluma kuyindlela ephuma phambili yokukhulumisana begodu izinto zetheknoloji ezisebenzisa iphimbo zikwenza kube bulula lokho kumakhompyutha nakezinye iinsetjenziswa eziphathwako. Sifuna ukukhuthaza abatlami bona benze iinsetjengiswa ezikghona ukwazi amaphimbi njengama real-time translators nama-voice-enabled digital assistants. Kodwana okwanje ilwazi elitlhogekako malungana namaphimbo bona kwakhiwe ama apps la libiza khulu begodu linabanikazi balo. Sithemba bona i-Common Voice dataset izokunikela abatlami abakutlhogako bona benze izinto zetheknologi ezikghona ukwazi nokuhlukanisa amaphimbo bona zifumaneke ngelimi lethu.
+    Ukwenza imitjhini ekghona ukwazi nokuhlukanisa amaphimbo ifumaneke ephasini loke, sibuthelela amaphimbo wamalimi akhulunywa khulu kuhlanganise nalawo angakhulunywa khulu, lawo eqiselwa amehlo bakhangisi beensentjenziswa ezithileko zamaphimbo. Ukugadangisa ibulungelo lamaphimbo ahlukahlukeneko kuzokukhuthaza abatlami, abosomabhizinisi, kuhlanganise nawo woke umphakathi wabakhulumisani bona uvale isikhalesi wona ngokwawo.
 faq-how-get-q = Ngingalifumana njani ihlelo leCommon Voice?
 faq-when-release2-q =
     Nizolitjhaphulula nini ihlelo leCommmon Voice 
     ngamanye amalimi?
 faq-why-mission-q = Kubayini  iCommon Voice iyingcenye yehlelo leMozilla
+faq-why-mission-a = I-Mozilla izimisele bona yenze i-web le ikghone ukusetjenziswa ngiwo woke umuntu. Bona senze njalo sitlhoga ukukhuthaza abantu abenza ama-web sisebenzisa amajima anjengama-Common Voice. Njengombana ama-voice technologies asetjenziswa babantu abanengi, sithemba bona azokusiza abantu ngendlela efanako. Lokho kutjho bona kulingwe amalimi angeziweko akhulunywa ngendlela engafaniko eendaweni ezingafaniko nakuhlolwa imitjhini le. I-Common Voice isisetjenziswa somphakathi esingafumaneka kiwo woke umuntu begodu isiqhema nabatlami be-Mozilla ephasini loke sele bayisebenzisa emisebenzinabo.
 faq-what-cv-and-deepspeech-q =
     Uyini umehluko hlangana ne-Common Voice 
     ne-Deep Speech?
@@ -454,12 +461,16 @@ faq-why-10k-hours-a =
 faq-how-calc-hours-q = ICommon Voice iwabala njani ama-awara?
 faq-where-src-from-2-q = Ukuphi umthombo wemitlolo?
 faq-why-not-ask-read-q = Kubayini ungakhuthazi abantu bona bafunde iincwadi namkha iinhloko eziku-Wikipedia ngamalimi ahlukahlukeneko?
+faq-why-not-ask-read-a = Bona senze i-Common Voice dataset isebenze kuhle siqunte ukuvumela kwaphela okutloliweko okukhambisana nemvumo ye-Creative Commons (CC0). Ukusebenzisa iinkambiso ze-CC0 kwenza kube budisi ukufumana okutloliweko, kodwana kuvumela nanyana ngubani bona akghone ukusebenzisa ukwaziswa kwelimi ngaphandle kwemibandela namkha imvumo ye-Mozilla. Ngokukhamba kwesikhathi, sifuna ukwenza ibulungelo lamalimi ahlukahlukeneko lifumaneke kiwo woke umuntu, kuhlanganise abarhubhululi, amayunivesithi, amabhizinisi, urhulumende, iinhlangano zehlala kuhle ngitjho nanyana ngubani othandako.
 faq-why-account-q = Kubayini kufuze ngivule i-akhawundi?
 faq-is-account-public-q = I-akhawundi yami yemininingwana isebenza njani?
 faq-how-privacy-q =
     Uqinisekisa njani ukuthi
     abantu abanikela ngamaphimbo wabo abaziwa?
 faq-what-determine-identity-q = Kutjho ukuthini ukuthi "angikghoni ukwazi bona ngubani okhulumako" ebulungelweni leCommon Voice
+faq-what-determine-identity-a =
+    I-The Common Voice dataset sisetjenziswa esitjhaphulukileko nesenzelwe umphakathi begodu singasetjenziswa ukubandula abantu abahlukahlukeneko abangakghoni ukukhuluma. Bona sivikele abantu abahlanganyela ejimeneli, sibawa woke umuntu odawnloda ku-Common Voice dataset bona ahloniphe abahlanganyeli.
+    Kiwo woke amaphimbo arekhodiweko kususwe izinto ezingaveza ukuthi liphimbo lakabani leli. Nawudownlodako ebulungelweneli, uyavuma bona angeze ulinge ukufumana ukuthi ngewabobani amaphimbo wabahlanganyeli. Lokho kutjho bona angeze ufake ukwaziswa komuntu onikele ngephimbo lakhe. Kodwana ungakghona ukusebenzisa ibulungelweli ukubandula ukuhlukanisa amaphimbo, ukuhlukanisa ukukhuluma namkha ezinye izinto, ngokwesibonelo, ukufaka ukwaziswa esele kukhona ebulungelweni.
 faq-what-is-cv = faq-what-cv-qYini iCommon Voice?
 faq-using-cv = Ukusebenzisa iCommon Voice
 faq-description = Iphimbo elijayelekileko liyingcenye yegadango elithethwe yi-Mozilla bona ifundise imitjhini ukuthi abantu bamambala bakhuluma njani.
@@ -469,6 +480,9 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Kubayini iCommon Voice?
+about-header-description-v2 =
+    <p>I-Common Voice libulungelo lamaphimbo elingasetjenziswa mphakathi, elenziwa mavolonthiya anikele ngamaphimbawo ephasini loke. Abantu abafuna ukwakha imitjhini yamaphimbo bangakghona ukusebenzisa ibulungelweli bona babandule imitjhini ekhulumako.</p>
+    <p>Sikhuluma nje, amabulungelo amanengi ngewamakhamphani athileko, okuyinto evimba ituthuko. Ama-Voice datasets abuye angajameli kuhle: Abantu abangakhulumi isiNgisi, abantu abanzima, abantu abarholopheleko, abantu bengubo nabantu abane-LGBTQIA+ . Lokho kutjho bona ama-voice-enabled technology akasebenzi emalimini amanengi, begodu lapho asebenza khona, akasebenzi ngendlela efanako kiwo woke umuntu. Sifuna ukukutjhugulula lokho ngokuthi sivumele woke umuntu bona anikele ngephimbo lakhe.</p>
 how-does-it-work-title-v2 = Isebenza njani iCommon Voice?
 
 ## How does it work section
@@ -1222,6 +1236,7 @@ sc-howto-review-criteria-6 =
     usisize sifumane imitjho eyengeziweko!
 sc-howto-findpd-title = Ukufumana imitjho ekhona ku-Public Domain
 sc-howto-findpd-subtitle = Zifune ku-inthanethi
+sc-howto-findpd-text-2 = Khumbula bona sitlhoga imvumo bona sikghone ukugadangisa imitjho le, yeke qinisekisa ngaso soke isikhathi bona okutloliweko kungakghona ukusetjenziswa mphakathi <wikipediaLink>public domain</wikipediaLink>.  Yenza isiqinisekiso sokobana okuthathi ihlangothi, thintana nomuntu otlolileko umbuze bona uyafuna na ukufaka akutlolileko ebulungelweni lomphakathi. Nangabe uyafuna, msize ukufunda <cc0WaiverLink> Isivumelwano Sokunikela (Contributions Agreement process) </cc0WaiverLink>. Nangabe akafuni ukunikela ngakutlolileko, awukavumeleki ukukusebenzisa.
 sc-howto-findpd-tips = Nanzi ezinye iinyeleliso zokufumana imitjho:
 sc-howto-findpd-tips-1 = Imithombo ekhamba phambili ongaqala kiyo maphimbo arekhodiweko, okutloliweko, iinkripthi zamamuvi namkha nanyana ngimuphi umthombo othembekileko emumethe imikhulumiswano yaqobe lilanga.
 sc-howto-findpd-tips-3 =
