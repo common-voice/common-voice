@@ -110,20 +110,25 @@ ms = Se-Malay
 mt = Se-Maltese
 my = Se-Burmese
 myv = Se-Erzya
+nb-NO = Se-Norwegian Bokmål
 nd = Setebele (Leboa)
 ne-NP = Se-Nepali
 nia = Se-Nias
 nl = Se-Dutch
+nn-NO = Se-Norwegian Nynorsk
 nr = Setebele (Borwa)
+nso = Sesotho sa Leboa
 nyn = Se-Runyankole
 oc = Se-Occitan
 om = Se-Afaan Ormoo
 or = Se-Odia
 pa-IN = Se-punjabi
+pap-AW = Se-Papiamento (Aruba)
 pl = Mopoliši
 ps = Se-Pashto
 pt = Sepotokisi
 quc = Se-K'iche'
+quy = Se-Quechua Chanka
 ro = Se-Romania
 ru = Se-Russia
 rw = Se-Kinyarwanda
@@ -198,6 +203,7 @@ logout = Etšwa
 wall-of-text-more-mobile = Bogolo bja datha e dirišwago ke dikhampani tše dikgolo ga e hwetšagale ke bontši bja batho. Re nagana gore seo se šitiša go tšweletša mekgwa e mefsa. Ka gona re hlomile Morero wa Common Voice, morero wa go thuša go dira gore temošo ya lentšu e bolege le go hwetšwa ke motho yo mongwe le yo mongwe.
 wall-of-text-more-desktop = Gona bjale o ka nea ka lentšu la gago go re thuša go aga dathabeise ya lentšu e bolegielgo yeo mang le mang a ka e šomiša go dira mananeotiriši a mafsa a didirišwa le wepesaete. Bala mafoko go thuša metšhene go ithuta gore na batho ba kgonthe ba bolela bjang. Lebediša mošomo wa baneedi ba babgwe go kaonefatša boemo. Go bonolo gakaalo!
 wall-of-text-second = Bogolo bja datha e dirišwago ke dikhampani tše dikgolo ga e hwetšagale ke bontši bja batho. Re nagana gore seo se šitiša go tšweletša mekgwa e mefsa. Ka gona re hlomile Common Voice, morero wa go thuša go dira gore temošo ya lentšu e bolege le go hwetšwa ke motho yo mongwe le yo mongwe.
+show-wall-of-text = Bala ka mo go Oketšegilego
 no-clips-to-validate = Go bonagala nkare ga gona ditsopolwana tše o ka di theeletšago ka polelo e. Re thuše go tlatša lenaneotetelo ka go rekhota gona bjale.
 vote-yes = Ee
 vote-no = Aowa
@@ -245,15 +251,21 @@ shortcut-vote-no = n
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-record-toggle = r
 shortcut-record-toggle-label = Pego/Ema
+shortcut-rerecord-toggle-label = Rekhota pego ya odio gape
 shortcut-discard-ongoing-recording = ESC
 shortcut-submit = Bušetša
 
 ## ProjectStatus
 
+# Variables:
+# $goal - number of hours representing the next goal
+status-goal = Dipakane tše Latelang: { $goal }
 english = Seisemane
 
 ## ProfileForm
 
+profile-form-native-language =
+    .label = Polelo ya Geno
 profile-form-additional-language =
     .label = Leleme le oketšegilego
 profile-form-language =
@@ -268,6 +280,8 @@ leaderboard-visibility =
     .label = Kelo ya Baetapele e Bonagalago
 hidden = Fihlilwego
 visible = Bonagala
+native-language =
+    .label = Leleme la Geno
 profile-form-submit-save = Boloka
 profile-form-submit-saved = Bolokegile
 male = Monna
@@ -282,6 +296,7 @@ settings = Dilaolatirišo
 edit-profile = Lokiša Profaele
 profile-close = Tswalela
 why-demographic-explanation-2 = Datha ya modiriši ye o sa tsebjego bjalo ka mengwaga, le bong bja motho, le mmolelo ao a thuša go go kaonefatša datha ya odio e šomišago go eteletša nepagatšo ya di-entšene a tlhathollo ya mantšu. Leina la gago la mošomiši le e-meile di ka se itswalanye le datha yeo e rometšego, gomme o ka kgetha gore na leina la gago la mošomiši le phatlalatšwe goba le se tsebje.
+accept-privacy-title = Khupamarama ya Molao
 login-identity = Tsenya Boitšhupo
 edit = Rulaganya
 email-subscriptions = E-meile ya Boingwadišetšo
@@ -474,6 +489,7 @@ dataset-version = Version
 
 ## Download Modal
 
+download-no = Aowa kea Leboga
 
 ## Contact Modal
 
@@ -491,6 +507,7 @@ request-language-form-language =
     .label = Polelo
 request-language-success-title = { "" }
 request-language-success-content = Re tla ikgokaganya le wena ka tsebišo e oketšegilego mabapi le gore o ka tsenya polelo ya gago go Common Voice kapejana.
+other-language = Malema a mangwe
 
 ## Request Language Pages
 
@@ -534,7 +551,9 @@ target-segment-learn-more = Ithute ka mo go oketšegilego
 
 report = Pego
 report-title = Tliša pego
+report-offensive-language = Leleme le kgopišago
 report-different-language = Polelo e fapanego
+report-offensive-speech = Polelo e kodutlago
 report-other-comment =
     .placeholder = Tshwayotshwayo
 success = Katlego
@@ -552,6 +571,7 @@ awards = Difoka
 you = Wena
 everyone = Yo mongwe le yo mongwe
 contribution-activity = Meneelo ya Modiro
+overall-accuracy = Nepagetša ka Moka
 visibility-explainer = Peakanyo ye e laola ke ponagalo ya kelo ya baetapele. Ge e fihlilwe, tšwelopele ya gago e tla ba sephiring. Se se bolela gore seswantšho sa gago, leina le tšwelopele di ka se bonagale godimo ga kelo ya baetapele. Hlokomela gore mpshafatšo ya kelo ya baetapele itšea ~{ $minutes }metsotso go hlagiša diphetogo.
 
 ## Custom Goals
@@ -667,6 +687,7 @@ sc-header-home = Gae
 sc-header-how-to = Go ithuta go
 sc-header-add = Oketša
 sc-header-review = Ahla-ahla
+sc-header-my = Mafoko a ka
 sc-header-statistics = Dipego
 sc-header-profile = Profaele
 sc-footer-discourse = Discourse
@@ -703,6 +724,7 @@ sc-howto-findpd-partner-2 = Ditsebi tša maleme tše hlwahlwa le tšona di ka th
 
 ## MY SENTENCES
 
+sc-my-title = Mafoko a ka
 sc-my-description = Letlakaleng le le go nea kakaretšo ya mafoko ka moka ao o wa rometšego. Gape o ka phumola tšeo se šetšego di rometšwe ge e ba go nhlokagala, ka go swaya lepokisana la kgauswi le yona ke moka o tobetsa; Phumola mafoko a kgethilwego; ka tlase. Ka kgopelo tloša mafoko ge feela go hlokagala, ka mohlala ge e ba o hlokometše ka morago ga tiragalo gore lefoko le šireleditšwe ke ditokelo tša molao.
 # Variables:
 #   $batchId (String) - A unique ID identifying the submission of sentences - sentences uploaded together all have the same batch ID
