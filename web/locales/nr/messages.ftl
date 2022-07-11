@@ -231,6 +231,7 @@ speak-subtitle = Dawuniloda iphimbo lakho
 speak-paragraph = Iinqetjhada zamaphimbo ezirekhodiweko ziyingcenye eqakathekileko yokwakha ihlelo lethu; abanye bangathi, le yingcenye ethabisako.
 speak-goal-text = Iinqetjhana ezirekhodiweko
 listen-subtitle = Sisiza siqinisekise amaphimbo
+listen-paragraph = Ukuhlolisisa okurekhodiweko kuqakatheke ngendllela efanako emsebenzini we-Common Voice. Lalela begodu usisize ukwenza ibulungelo elinokwaziswa okugasetjenziswa ngendlela etjhaphulukileko.
 listen-goal-text = Iinqetjhana eziqinisekisiweko
 hours-recorded = Ama-awara wokurekhoda
 hours-validated = Ama-awara aqinisekisiweko
@@ -411,6 +412,7 @@ off = Qima
 help-accent = Utlhoga isizo ngokuphimisela?
 help-accent-explanation = Kunendlela obiza ngayo amagama. iya ngokuthi uhlala kuphi, ngiwaphi amanye amalimi okghona ukuwakhuluma nokunye okunengi. Ungafaka nanyana ngikuphi ukwaziswa ucabanga bona kuyatlhogeka la.
 help-variants = Utlhoga isizo ngemihlobohlobo?
+help-variants-explanation = Ukuhluka kwamalimi kuyingcenye yelimi - ngokwesibonelo kufakwa ngilabo abahlala eendaweni ezingafaniko emphakathini. Ngezinye iinkhathi lokho kubizwa ngokuthi ma-dialects.
 
 ## Profile - Email
 
@@ -515,6 +517,7 @@ about-header-description-v2 =
     <p>I-Common Voice libulungelo lamaphimbo elingasetjenziswa mphakathi, elenziwa mavolonthiya anikele ngamaphimbawo ephasini loke. Abantu abafuna ukwakha imitjhini yamaphimbo bangakghona ukusebenzisa ibulungelweli bona babandule imitjhini ekhulumako.</p>
     <p>Sikhuluma nje, amabulungelo amanengi ngewamakhamphani athileko, okuyinto evimba ituthuko. Ama-Voice datasets abuye angajameli kuhle: Abantu abangakhulumi isiNgisi, abantu abanzima, abantu abarholopheleko, abantu bengubo nabantu abane-LGBTQIA+ . Lokho kutjho bona ama-voice-enabled technology akasebenzi emalimini amanengi, begodu lapho asebenza khona, akasebenzi ngendlela efanako kiwo woke umuntu. Sifuna ukukutjhugulula lokho ngokuthi sivumele woke umuntu bona anikele ngephimbo lakhe.</p>
 how-does-it-work-title-v2 = Isebenza njani iCommon Voice?
+how-does-it-work-text = Senza ibulungelo lamaphimbo elingasetjenziswa ngokutjhaphulukileko. Nikela ngephimbo lakho, qinisekisa lokho abantu abakurekhodileko, yenza bona ibulungelo libe ngcono kiwo woke umuntu.
 
 ## How does it work section
 
@@ -555,7 +558,9 @@ about-clip-graveyard-text =
     I-The Clip Graveyard inamaphimbo angakaphumeleli ukuba sebulungelweni leCommon Voice dataset. Njengombana nayo ilibulungelo, iGraveyard iyafumaneka bona idawnlodwe.
     Sithanda ukuthokoza iinhlangano ezilandelako ngesizo lazo emsebenzini lo:
 about-get-involved = Zibandakanye
-about-get-involved-text-2 = Siyathokoza ngokuthi ube nekareko yokunikela { $lang }. Sisebenza budisi bona senze woke amalimi alungele ukufakwa ebulungelweni begodu sihlala sithintana neenqhema sizinikela ukwaziswa okutjha ngama-email. Nawufuna ukunikela, sibawa ufake i-email yakho ngaphasi.
+about-get-involved-text-2 =
+    Uyafuna ukusiza ukwenza i-Common Voice ibe ngcono?
+    Kuhle lokho! Thintana nathi nge-email namkha<discourseLink>Discourse</discourseLink> ngeforamu, thumela imiraro ku<githubLink>GitHub</githubLink>namkha uhlanganyele<matrixLink>Matrix</matrixLink>community chat.
 about-stay-in-touch = Ngingahlala njani nginelwazi?
 about-stay-in-touch-button = Zitlolise
 about-stay-in-touch-text-1 = <emailFragment>Zitlolise ku</emailFragment> bona ufunde ukuthi ungasifaka njani isandla emajimeni, ezenzakalweni nokuthuthukisa ubujamo be-Common Voice.
@@ -577,6 +582,10 @@ about-playbook-what-is-language-content-2 = Sifuna abafundi bethu bajayele iindl
 ## How do I add a language
 
 about-playbook-how-add-language = Ngingalifaka njani ilimi?
+about-playbook-how-add-language-content-1 =
+    Kokuthoma, hlola ukuthi ilimi lakho<languageLink> likhona na</languageLink>.
+    Nange lingekho<languageRequestLink>, buza ukuthi ungalifaka njani ilimi lakho</languageRequestLink>.
+    Kuneengaba ezimbili. Ukutjhugulula nokubuthelela imitjho
 about-playbook-how-add-language-translating-heading = Indawo yokutjhugulula
 about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Bukela iinqophiso zethu kubona isetjenziswa njani iPontoon.</translateVideoLink>
 about-playbook-how-add-language-translating-content-2 =
@@ -688,10 +697,12 @@ hours-recorded-explanation =
 hours-validated-explanation = Isibalo sokurekhodiweko okuphasiswe babantu aba-2 ebantwini aba- 3 abavowude ngo “Iye”. Lokho kuveza ituthuko yomgomo wama-awara eli-10k.
 sst = Ikulumo-kuya-kokutloliweko (STT)
 sst-explanation = Ikulumo etlolwa phasi (STT) itjhugululwa iba liphimbo
+de-identified-explanation = Indlela eyenza kuhluke hlangana kwephrofayili yomuntu onikela ngephimbo lakhe nemininingwana ngaye lokha umuntu nakadawnloda njengengcenye yebulungelo.
 
 ## Error pages
 
 error-title-404 = Asilifumani ikhasi olifunako
+error-content-404 = Mhlamunye i<homepageLink>homepage</homepageLink> yethu izokusiza? Bona ubuze imibuzo, sibawa uhlanganyele ne<matrixLink>Matrix community chat</matrixLink>, tjheja ukuvezwa kwemiraro ku<githubLink>GitHub</githubLink> namkha uvakatjhele iforamu ye-<discourseLink>yeDiscourse forums</discourseLink>.
 error-title-503 = Siqalene nebesingakakulindeli
 error-content-503 = Ikhaseli lizokubulungwa ndawana msinya. Nawufuna ukwaziswa kwamva, sibawa uhlanganyele<matrixLink> neMatrix community chat</matrixLink> namkha uvakatjhele i-<githubLink>GitHub</githubLink> namkha <discourseLink> i Discourse forums</discourseLink> bona unikele bewuhlole ikhasi lethu lezinto esihlangabezana nazo.
 error-code = Umtjhapho { $code }
@@ -750,6 +761,7 @@ audio-format = Ihlelo lomdumo
 number-of-voices = Inani lamaphimbo
 splits = Ukuhlukanisa
 email-to-download = Faka i-email bona udawunilowude
+why-email = <b>Kubayini kutlhogeka i-email?</b> Kungatlhogeka sithintane nawe esikhathini esizako malungana namatjhuguluko asebulungelweni, i-email yenza sikghone ukuthintana nawe.
 confirm-size =
     Ukulungele ukuthoma ukudawuniloda i 
     <b>{ $size }</b>
@@ -777,6 +789,7 @@ data-other-librispeech-description = I-LibriSpeech mitlolo engathatha pheze ama-
 data-other-ted-name = IsiTED-LIUM Corpus
 data-other-ted-description = I-TED-LIUM yenziwe ithathelwa eenkulumweni ezigadangisiweko begodu okutloliweko kuyafumaneka kuzinzolwazi yeTED.
 data-other-voxforge-description = IVoForge yahlonywa bona kubuthelelwe ikulumo etlolwe phasi bona isetjenziswe Ngokutjhaphulukileko.
+data-other-tatoeba-description = I-Tatoeba libulungelo elikhulu lemitjho, amatjhugululo, namatjhada akhulunywako asetjenziselwa ukufunda ilimi. Idawnlodi le inesiNgisi esirekhodwe mphakathi osikhulumako.
 your-feedback = Kghani unemibono yokuthi singayithuthukisa njani i-Common Voice siyenze ibengcono? Ungasazisa ngokusitlolela namkha ngenye indlela
 go-discourse = Tjhinga ekulumweni
 missing-language = { "" }
@@ -844,6 +857,7 @@ request-language-google-recaptcha-error =
 # Success page
 request-language-success-heading = Siyathokoza! Uthumele isibawo sokufumana ilwazi ngelimi elitjha
 request-language-success-list-1 = Uzokufumana i-email kungasikade ezokuhlathululela ngamagadango okufuze uwathathe bona ilimi lakho lifakwe ku-Common Voice
+request-language-success-list-2 = Imanenja yomphakathethu izokuthinta bona ikunikele isekelo elingeziweko, begodu izokwazisa nangabe sele ukhona umphakathi osebenza ngelimi lakho
 request-language-success-list-3 =
     "Nange ungezwa litho elivela kithi bekudlule amalangana, 
     yenza ilandelela ku <emailLink>{ $email }</emailLink> 
@@ -1088,6 +1102,7 @@ return-to-edit-goal = Buyela la bona ulungise imigomakho nanyana kunini.
 
 ## Profile Delete
 
+delete-q = Nawe ungathanda bona iphimbo lakho lisulwe ebulungelweni lethu, namkha ukhetha ukuthi lihlala ebulungelweni le-Common Voice dataset?
 keep-info = Iphimbo lakho elirekhodiweko elingaziwa mumuntu lizokuhlala ebulungelweni le-Common Voice dataset. Nawulasula iprofayili yakho angeze usakghona ukufaka isibawa sokusula okurekhodileko ebulungelweni
 remove-info = Sizokuhlola isibawo sakho sokufuna ukususa iphimbo lakho ebulungelweni. Isibawo sakho nasivunyiwe, sizokuthintana nalabo abadawnlode iphimbo lakho ebulungelweni sibatjela bona nabo basule iphimbo lakho.
 why-delete-recordings =
@@ -1340,6 +1355,7 @@ sc-howto-findpd-subtitle = Zifune ku-inthanethi
 sc-howto-findpd-text-2 = Khumbula bona sitlhoga imvumo bona sikghone ukugadangisa imitjho le, yeke qinisekisa ngaso soke isikhathi bona okutloliweko kungakghona ukusetjenziswa mphakathi <wikipediaLink>public domain</wikipediaLink>.  Yenza isiqinisekiso sokobana okuthathi ihlangothi, thintana nomuntu otlolileko umbuze bona uyafuna na ukufaka akutlolileko ebulungelweni lomphakathi. Nangabe uyafuna, msize ukufunda <cc0WaiverLink> Isivumelwano Sokunikela (Contributions Agreement process) </cc0WaiverLink>. Nangabe akafuni ukunikela ngakutlolileko, awukavumeleki ukukusebenzisa.
 sc-howto-findpd-tips = Nanzi ezinye iinyeleliso zokufumana imitjho:
 sc-howto-findpd-tips-1 = Imithombo ekhamba phambili ongaqala kiyo maphimbo arekhodiweko, okutloliweko, iinkripthi zamamuvi namkha nanyana ngimuphi umthombo othembekileko emumethe imikhulumiswano yaqobe lilanga.
+sc-howto-findpd-tips-2 = Iinsetjenziswa zakaRhulumende, iincwadi neenhloko nazo zilungile kodwana kanengi zitlolwa ngendlela yabantu abafundileko yeke akusizizinto esiqalelele kizo khulu.
 sc-howto-findpd-tips-3 =
     Ngebhadi azikho iinhloko esizifumanako ku-Wikimedia.
     Yeke ungakopi namkha ufake okuthileko endaweni le.
