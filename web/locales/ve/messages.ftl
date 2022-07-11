@@ -54,6 +54,7 @@ join-newsletter = Ni nga khetha u vha tshipiḓa tsha vha re kha mutevhe wa emai
 ## What's public
 
 recordings-and-locale-public = Tshivhalo tsha zwo rekhodiwaho na nyambo dze na nikela khadzo zwi ḓo vhoniwa nga munwe na munwe.
+username-optin-public = Ni nga nanga u ita uri username yaṋu i vhonwe nga nnyi na nnyi kana u i dzumba.
 demographic-deidentified-clarity-2 = Data ine ya nga rumelwa ya mafhungo a zwidodombedzwa zwa muthu (sa tsumbo. miṅwaha, mbeu, luambo, na kuambele) a zwi nga itwi uri zwi wanwe nga vhathu vhoṱhe kha profile yaṋu, nahone a zwi nga ṱumanyiwi na akhantu yaṋu kha dataset. Odio iṅwe na iṅwe yo rekhodiwaho i ḓo tshimbidzana na zwidodombedzwa zwa muthu u itela uri dzi kone u ṱolisiswa nga nḓila yo teaho – sa tsumbo, muṱoḓisisi a nga vha a tshi khou ṱoḓa u gudisa tshishumiswa a tshi itela vhathu vha vhubvo ho khetheaho.
 username-email-not-demographic = Username yaṋu na email a zwi nga paṱekanyisiwi na data i no ḓo anḓadziwa.
 
@@ -97,6 +98,7 @@ faq-why-important-a =
     
     U itela uri u ḓivha ipfi zwi vhe zwithu zwa shango ḽoṱhe, ri khou kuvhanganya maipfi nga nyambo dzi ambeswaho na nga dzine dza vha na vhathu vha si gathi dzine kanzhi dza sa dzhielwe nṱha kha tshumelo dza ḓivha ipfi. U itela uri maipfi a kone u wanala kha tshitshavha zwi ḓo ita uri vha bveledzi vha manḓafhadziwe, vhathomi vha mabindu, na vhathu vhoṱhe vha kone u dzhia vhukando nga honohu u salela murahu hu re hone.
 faq-how-get-a = Dataset ya Common Voice i hone uri i danuḽodiwe nga fhasi ha <licenseLink>CC0</licenseLink> lisentsi ya <datasetLink>siaṱari ḽa Dataset</datasetLink>. Ni nga download na dziṅwe dataset dzo vhalaho dzo itelwaho nnyi na nnyi kha siaṱari ḽi fanaho.
+faq-when-release2-q = Ni ḓo riḽiza lini data ya Common Voice nga dziṅwe nyambo?
 faq-when-release2-a = Version ya nyambo nnzhi dza Common Voice dataset i khou kuvhanganyiwa na u kunakiswa zwa zwino. Arali ni tshi ṱoḓa u thusa Common Voice uri i vhe na nyambo ntswa, i yani ni sedze <sentenceCollectorLink>Tshishumiswa tsha u Kuvhangaya Mitaladzi</sentenceCollectorLink> uri ni kone u dzhenisa mitaladzi miswa kha dataset, na Mozilla <pontoonLink>Pontoon</pontoonLink> ni tshi ṱoḓa u ṱalutshedza website yone ine. Nyambo ntswa dzi pangiwa kha Common Voice sa ipfi ḽa o shelaho mulenzhe nga murahu ha u kuvhanganyiwa ha mitaladzi ya 5000 yo tendelwaho.
 faq-why-mission-a = Mozilla yo ḓiimisela u ita uri web yavho i dzule i hone nahone i tshi swikelelwa nga vhathu vhoṱhe. Uri ri kone u ita zwenezwi ri tea u manḓafhadza vhasiki vha dzi web nga dzi thendela dzi fanaho na Common Voice. Samusi zwishumiswa zwa thekhinoḽodzhi zwi pfaho ipfi zwi tshi khou aluwa zwi tshi ya lune zwa ḓo vha zwihulu vhukuma, ri tenda uri zwi tea u shumela vhathu vhoṱhe nahone nga u lingana. Zwenezwi zwi amba u tikedza nyambo nnzhi na u ṱanganedza kubulele kwa maipfi na vhubvo ho fhambananaho musi hu tshi khou itwa na u lingwa zwishumiswa zwa thekhinolodzhi zwi pfaho ipfi. Common Voice ndi zwithu zwine zwa nga wanwa nga muṅwe na muṅwe nahone vhashumi vha Mozilla na vha bveledzi shangoni ḽoṱhe vho no thoma u i shumisa kha dzithendela dzavho
 faq-what-cv-and-deepspeech-a = Common Voice dataset i tshimbidzana na Mozilla ine ya nga shumiswa nga nnyi na nnyi ya zwishumiswa zwa u ḓivha ipfi zwa engine Deep Speech. Version ya u thoma ya Deep Speech yo itwa nga Ḽara 2017 nahone yo bvela phanḓa i tshi shanduka u bva tshetsho. Ri tenda uri roṱhe na Common Voice dataset, tshenetshi tshishumiswa tsha thekhinolodzhi tsha open source voice recognition tshi tea u waniwa nga vhathu vhoṱhe. Ri fhulufhela uri yeneyi thekhinolodzhi i ḓo ita uri vhabveledzi vha ite zwithu zwinzhi na tshumelo nnzhi.
@@ -104,6 +106,7 @@ faq-is-goal-assistant-q = Naa tshipikwa tsha Common Voice ndi u ita voice assist
 faq-is-goal-assistant-a = Tshipikwa tsha Common Voice dataset ndi u ita uri naho e nnyi shangoni a kone u ita zwishumiswa zwa u ḓivha ipfi, zwa u ḓivha muambi, kana app naho i ifhio ine ya shumisa ipfi. App ya ipfi ḽine ḽa kona u ni thusa, ndi iṅwe ya dzi app nnzhi ine na nga shumisa dataset uri ni i ite.
 faq-do-want-native-q = A si luambo lwanga lwa ḓamuni nahone ndi na kuambele kwanga, ni kha ḓi ṱoḓa ipfi ḽanga?
 faq-do-want-native-a = Ee, ri khou ṱoḓa ipfi ḽaṋu! Tshiṅwe tsha zwipikwa zwa Common Voice ndi u kuvhanganya kuambele kunzhi kwo fhambananaho nga hune zwa ḓo konadzea ngaho u itela uri zwishumiswa zwa u ḓivha ipfi zwi shume zwavhuḓi kha vhathu vhoṱhe. Zwenezwi zwi amba uri na vhane vha si vhe vhaṋe vha luambo, u nikela havho ndi ha ndeme.
+faq-why-different-speakers-q = Ndi ngani ni tshi ṱoḓa vhaambi vho fhambananaho vhanzhi kha luambo luthihi?
 faq-why-different-speakers-a =
     Datasets nnzhi dza u amba dzi re hone dzi gudiswa hu na vhaimeleli vha nnzhi vha vhubvo ho khetheaho zwa ita uri dzi imeleleswe <articleLink>vhanna na vhathu vhuimo ha vhukati</articleLink>. Kuambele na dzi dialect dzi sa imelelwi zwavhuḓi musi hu tshi itwa dzi data set dza u gudisa dzi tshimbidzana na zwigwada zwa vhathu vhane vha si dzhielwe nṱha. Mitshini minzhi i a konḓelwa na u pfesesa maipfi a vhafumakadzi.
     Ndi ngazwo kha database yashu ri tshi khou ṱoḓa maipfi o fhambananaho!
@@ -236,6 +239,7 @@ error-content-503 = Saiti i ḓo bekapiwa nga u ṱavhanya. Uri ni wane zwithu z
 
 ## Data
 
+data-download-modal = Ni khou thoma u downḽoda <size>{ $size }GB</size>, naa ni ṱoḓa u isa phanḓa?
 data-subtitle = Ri khou ita dataset i ne ya ḓo shumiswa nga nnyi na nnyi nga muṅwe na muṅwe ya maipfi ane vhathu vhoṱhe vha nga kona u a shumisa u gudisa dzi application dzine dza kona u u amba.
 data-explanatory-text = Ri tenda uri tshitshavha tshihulu tshi re hone tshi ḓo vhuyelwa nga dataset ya maipfi zwa ita uri hu thomiwe zwithu zwiswa nahone ha vha na miṱaṱisano yavhuḓi kha zwa vhurengisi zwi tshimbidzanaho na thekhinolodzi ya u amba ya machine-learning. Zwenezwi ndi mutingati wa shango ḽoṱhe nga vhuphara nahone ri khou ramba muṅwe na muṅwe uri a shele mulenzhe. Tshipikwa tshashu ndi uri zwishumiswa zwa u amba zwa thekhinolodzhi zwi katele vhunzhi ha vhathu, hu pfale maipfi o fhambananaho u mona na shango ḽoṱhe.
 data-download-singleword-callout-v2 = Hetshi ndi tshipiḓa tshi langiwaho nga kushumisele tshi re na data ine ya mannḓafhadza digit recognition na ine ya ḓivha ee / hai.
@@ -312,6 +316,7 @@ goal-help-validation = No thusa Common Voice u swikelela <goalPercentage></goalP
 listen-loading-error =
     A ro ngo kona u wana odio dzo rekhodiwaho dza maipfi uri inwi ni kone u dzi thetshelesa.
      Ri humbela uri ni lingedze nga vhuya.
+speak-empty-state = Ro fhelelwa nga mitaladzi ya u rekhoda nga holwu luambo...
 speak-loading-error =
     "A ro ngo kona u wana mitaladzi ine na ḓo i vhala.
      Ri humbela uri ni lingedze nga vhuya."
@@ -431,6 +436,7 @@ sc-howto-addsen-item-5 = Maḽeḓere a si ho  kha luambo. Hu tea u shumiswa ma�
 sc-howto-addsen-item-6 = Nyambo dzi nga vha na <validationRulesLink>milayo yadzo ya u khwaṱhisedza </validationRulesLink> na ṱhoḓea dzo engedzeaho. Arali hu si na faela yo khetheaho ya u khwaṱhisedza ya luambo, ri ḓo shumisa milayo ine ya shumiswa kha Luisimane.
 sc-howto-addsen-post-1 = Ri takalela mitaladzi yo itwaho nga lwa nzulele/nga nḓila ya u ambedzana. Naho fonotiki yo angalala nahone maipfi o fhambananaho e a ndeme kha mutaladzi, ri khou lingedza u ita uri mitaladzi yo rekhodiwaho i vhe i takadzaho nga hune zwa ḓo konadzea ngaho. Ndi ngazwo zwi tshi ḓo vha zwavhuḓi arali na lingedza u ita uri mitaladzi yaṋu i itwe nga lwa nzulele/nḓila ya u ambedzana.
 sc-howto-cite-pre-1 = Ndi zwa ndeme uri ni sumbedze referentsi ya he na wana hone lasentsi ya vhathu vhoṱhe u itela uri ni iledze u pfi no tswa mushumo wa vhaṅwe na u tendela uri vhaṅwe vha kone u ḓivha he na wana hone zwithu <copyrightIssuesLink>thaidzo dza copyright</copyrightIssuesLink>. Hedzi ndi dziṅwe nḓila dza u sumbedza uri mushumo no u wana ngafhi.
+sc-howto-cite-item-1 = Ni nga katela na website, e.g "Common Voice - https://commonvoice.mozilla.org/"
 sc-howto-cite-item-2 = Ni nga shumisa tshi taela tsha academic ni tshi ita dzi referentsi, sa tsumbo Harvard style "Mozilla (2021) Common Voice. Zwi wanala kha https://commonvoice.mozilla.org/ (Accessed: 15th Khumbvumedzi 2021)"
 sc-howto-cite-item-3 = Arali zwo ṅwalwaho zwa fhethu ha tshitshavha tshoṱhe zwi si ho onḽaini, ni nga shumisa tshitaela tsha academic reference. Sa tsumbo, Harvard style "Jess (2021) My Public licence poems"
 sc-howto-review-criteria-5 = Arali mutaladzi u sa swikeleli ṱhoḓea dzi re afho nṱha, puṱedzani gunubu ya "Hana". Arali ni si na vhungoho ha uri mutaladzi a si wone, ni nga u pfukha na pfukela kha u no khou tevhela..
