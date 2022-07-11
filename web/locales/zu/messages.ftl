@@ -22,16 +22,32 @@ error-something-went-wrong = Uxolo, kukhona okungahmabnga kahle
 ## Languages
 
 arn = Mapudungun
+cak = Kaqchikel
 ckb = Central Kurdish
 cnh = Hakha Chin
 cy = Welsh
 dsb = Sorbian, Lower
 es = Spanish
 fa = Persian
+ga-IE = Irish
 gom = Goan Konkani
 hsb = Sorbian, Upper
+hu = Hungarian
 hyw = Armenian Western
+ia = Interlingua
+id = Indonesian
+ie = Interlingue
+ig = Igbo
+is = Icelandic
+it = Italian
+izh = Izhorian
+ja = Japanese
+kaa = Karakalpak
+kab = Kabyle
+kbd = Kabardian
 ki = Kikuyu
+kk = Kazakh
+km = Khmer
 kmr = Kurmanji Kurdish
 knn = Konkani (Devanagari)
 ko = Korean
@@ -72,6 +88,7 @@ pap-AW = Papiamento (Aruba)
 pl = Polish
 ps = Pashto
 pt = Portuguese
+quc = K'iche'
 quy = Quechua Chanka
 rm-sursilv = Romansh Sursilvan
 rm-vallader = Romansh Vallader
@@ -668,6 +685,7 @@ language-search-input =
 language-speakers = Izikhulumi
 localized = Okwasendaweni
 sentences = Imisho
+language-validation-hours = Amahora
 language-validation-progress = Inqubekelaphambili Yokuqinisekisa
 
 ## Contribution
@@ -860,6 +878,7 @@ return-to-edit-goal = Buyela lapha ukuze ushintshe injongo yakho noma nini.
 
 ## Profile Delete
 
+keep = Gcina
 remove = Susa
 profile-form-delete = Susa iphrofayela
 
@@ -989,6 +1008,8 @@ see-less = <chevron></chevron>Bona okuncane
 
 ## HEADER/FOOTER
 
+sc-header-home = Ikhaya
+sc-header-how-to = Kwenziwa kanjani
 sc-header-review = Buyekeza
 sc-header-rejected = Imisho Enqatshiwe
 sc-header-my = Imisho Yami
