@@ -7,6 +7,7 @@ submit-form-action = Tsenya
 loading = Loading...
 email-opt-in-info = Ke tla rata go hwetša di e-meile tša go swana le dikgopotšo tša  dipakane, sebontšhatšwelopele le magwalo a ditaba  tša Common Voice.
 not-available-abbreviation = Ga e gona
+banner-error-slow-link = Boemo bja Letlakala
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -43,6 +44,7 @@ cv = Se-Chuvash
 cy = Se-Welsh
 da = Se-Danish
 de = Sejeremane
+dsb = Se-Sorbian, Lower
 dv = Se-Dhivehi
 dyu = Se-Dioula
 el = Se-Greek
@@ -65,6 +67,7 @@ ha = Se-Hausa
 he = Se-Heberu
 hi = Se-Hindi
 hr = Se-Croatia
+hsb = Se-Sorbian, Upper
 ht = Se-Haitian
 hu = Se-Hungarian
 hy-AM = Se-Armenia
@@ -110,6 +113,7 @@ ms = Se-Malay
 mt = Se-Maltese
 my = Se-Burmese
 myv = Se-Erzya
+nan-tw = Se-Taiwanese (Minnan)
 nb-NO = Se-Norwegian Bokmål
 nd = Setebele (Leboa)
 ne-NP = Se-Nepali
@@ -146,6 +150,7 @@ so = Se-Somali
 sq = Se-Albania
 sr = Se-Serbia
 ss = Seswati
+st = Sesotho
 sv-SE = Se-Swedish
 sw = Se-Swahili
 syr = Se-Syriac
@@ -158,6 +163,7 @@ tig = Se-Tigre
 tk = Se-Turkmen
 tl = Se-Tagalog
 tn = Setswana
+tok = Se-Toki Pona
 tr = Se-Turkish
 ts = Setsonga
 tt = Se-Tatar
@@ -187,6 +193,7 @@ zu = SeZulu
 ## Layout
 
 speak = Bolela
+speak-now = Bjale Bolela
 datasets = Di-dathasete
 languages = Maleme
 about = Mabapi le
@@ -214,6 +221,7 @@ speak-goal-text = Ditsopolwa di begilwe
 listen-goal-text = Ditsopolwa di kgonthišitšwe
 hours-recorded = Diiri di Begilwego
 hours-validated = Diiri di Kgonthišitšwe
+todays-progress = Tšwelopele ya Lehono
 all-locales = Ka moka
 today = Lehono
 x-years-short =
@@ -256,6 +264,7 @@ shortcut-record-toggle-label = Pego/Ema
 shortcut-rerecord-toggle-label = Rekhota pego ya odio gape
 shortcut-discard-ongoing-recording = ESC
 shortcut-submit = Bušetša
+shortcut-submit-label = Tsenya dipego
 
 ## ProjectStatus
 
@@ -366,6 +375,7 @@ about-no-votes = ≥ 2 Aowa dikgetho
 about-dataset-new-text = Dathasete ya Common Voice e nale di pego tše makgolo le dikete ya mehlala ya manntšu e thušago ba batšweletša ba agang sedirišwa sa temogo ya lentšu.
 about-clip-graveyard = Setsopolwa sa Graveyard
 about-clip-graveyard-text = Setsopolwa sa Graveyard se na le dirakolo tša lentšu tše di sa fihlaho go dathasete ya Common Voice. Bjalo ka dathasete, setsopolwa sa Graveyard ya hwetšagala bakeng sa go tanelouta.                               Re ka rata go leboga batho le mekgatlo e latelago ka thušo ya bona morerong o:
+about-stay-in-touch-button = Ngwadiša
 about-stay-in-touch-text-1 = <emailFragment>Ngwadiša</emailFragment> go lethamong la rena la mangwalo go ithutha gore na o ka tšea karolo bjang masolong, ditiragalo le dikarolo tša moralo o kopanetšego go Common Voice.
 about-stay-in-touch-text-2 = O ka kopana le ba bangwe ba setšhaba sa polelo ya Mozilla ka go ikopanya go <discourseLink>Discourse</discourseLink> go hwetša poledišano ya ditaba, goba <matrixLink>Matrikse</matrixLink> go hwetša keletšo ya kapejana.
 about-nav-how-it-works = Bjang?
@@ -405,6 +415,7 @@ about-playbook-how-record-content-4 = Kgonthišetša gore sethaleng se ya rekhot
 
 about-playbook-how-grow-language-content-2 = Ditiragalo
 about-playbook-how-grow-language-content-3 = O ka tsamaiša ditiragalo go thuša batho go neela. Go bonolo go feta kamoo o naganago ka gona. O ka e dira inthaneteng ka go diriša lenaneo la bidio inthaneteng, goba motho ka nama ge e ba go bolokegile. <eventTemplate>Lebelela dithempleite tša rena le ditlabakelo tša go tsamaiša ditiragalo</eventTemplate>.
+about-playbook-how-grow-language-content-4 = Poledišano ya  inthaneteng
 about-playbook-how-grow-language-content-5 = O ka šomiša lekgotla la poledišano ya inthaneteng go kgona go iša molaetša go batho ka moka. Abelana melaetša e hlalosago gore na ke baka la eng go le bohlokwa, gomme o ikgokaganye le batho ba bangwe bao ba bolelago ka mathata a go swana le ditokelo tša polelo, lentšu la AI, goba tshekamelo go theknolotši. Bona dikeletšo tše dingwe mabapi le<campaignLink> go tsamaiša lesolo  la setšhaba, go akaretša le diteng tšeo o ka di šomišago gape</campaignLink>.
 about-playbook-how-grow-language-content-8 = <strong>Diriša bohlale!!</strong> Polelo ya geno e tla ba moswananoši, tše ke ditsela tše mmalwa tša go thoma.
 
@@ -428,6 +439,7 @@ about-playbook-how-project-governance-content-6 = Kwešišano ya boikarabelo.
 glossary = Pukuntšu
 localization = Go lekanyeditša
 sentence-collection = Kgobokanyo ya Mafoko
+sst = Sefetošetšadigwalwa  mantšung (STT)
 de-identified = Kgetholla gape
 
 ## Error pages
@@ -484,6 +496,7 @@ resource-coqui-info = <coquiLink>Coqui</coquiLink> e neetšwego go bula thekinol
 community-playbook = Puku ya Tshedimošo ya Setšhaba
 resource-playbook-info = <playbookLink>Hwetša keletšo ya maleba </playbookLink> go leeto le feletšego la Common Voice, go tšwa mo o dulago gona go ya go tirišo ya datha, le gore le kopana bjang le setšhaba sa rena.
 data-other-librispeech-description = LibriSpeech ke pokello ya dipego ya diiri  tše ka bago tše 1000 tša 16Khz tše di balwago ka polelo ya Seisemane e tšwerego dipukeng tša odio tše balwago tša go tšwa  morerong wa LibriVox.
+data-other-ted-name = TED-LIUM Corpus
 data-other-voxforge-description = VoxForge e beilwe go kgobokanya polelo e fetotšwego gore e berikišwe ka Mahala le Mothopo o Bulegilego wa Di-entšene tša Tlhathollo ya Polelo.
 your-feedback = Afa o nale dikgopolo gore re ka dirang gore dathasete ya Common Voice e be kaone? Re tsebiše go Discourse
 missing-language = Ga o bone polelo ya gago bonagatša go dathasete? Go kgopela polelo e ya go letlakala la rena la Dipolelo.
@@ -545,10 +558,12 @@ contribute = Neela
 listen = Theeletša
 skip = Tshela
 shortcuts = Kgaoletšo
+record-cta = Thoma pego
 record-cancel = Khansela go rekhota gape
 record-stop-instruction = { $actionType }<stopIcon></stopIcon> ge o feditše.
 record-last-instruction = <recordIcon></recordIcon> Ya mafelelo!
 clips-uploaded = Ditsopolwa di Tsene
+record-abort-submit = Romela ditsopolwa
 record-abort-continue = Fetša kgatišo
 listen-last-time-instruction = <playIcon></playIcon>Ya mafelelo!
 speak-empty-state-cta = Neela ka mafoko
@@ -776,6 +791,7 @@ sc-add-result =
         [one] [one] Mafoko a rometšego.  { $duplicates }  lefoko le ile la ganwa ka ge e le dilo tše pedi tša go swana.
        *[other] *[other]  Mafoko a rometšego.  { $duplicates }  mafoko a ile a ganwa ka ge e le dilo tše pedi tša go swana.
     }
+sc-add-err-submission = Phošo ya go Romela
 
 ## ADD SENTENCES CONFIRMATION
 
