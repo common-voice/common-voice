@@ -5,6 +5,7 @@ privacy-info = Re go solofetsa go tshwara tshedimosetso ya gago ka kelotlhoko. B
 email-opt-in-info = Nka rata go amogela diimeile tse di jaaka dikgopotso tsa maikaelelo, ditlhabololo tsa kgatelopele ya me le makwalodikgang a Common Voice.
 email-opt-in-info-sub-with-challenge = Amogela diimeile tse di jaaka dikgwetlho le dikgopotso tsa maikaelelo, ditlhabololo tsa kgatelopele, le makwalodikgang a Common Voice.
 email-opt-in-privacy-v2 = Ka go tlhopha go amogela diimeile o bontsha gore o siame ka gore Mozilla e tshware tshedimosetso eno jaaka go tlhalosiwa mo <privacyLink>Pholising ya Polokodiphiri</privacyLink>ya Mozilla.
+banner-error-slow-1 = Tshwarelo, Common Voice e bonya. Re lebogela go bontsha kgatlhego ga gago.
 banner-error-slow-2 = Re itemogela pharakano e ntsi mme gone jaanong re batlisisa ka mathata ao.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
@@ -35,6 +36,7 @@ ckb = Se-Central Kurdish
 co = Se-Corsica
 cs = Se-Czech
 cv = Se-Chuvash
+cy = Se-Wales
 da = Se-Denmark
 es = Se-Spain
 eu = Se-Basque
@@ -48,6 +50,8 @@ sq = Se-Albania
 th = Se-Thai
 ti = Se-Tigrinya
 tig = Se-Tigre
+ts = Setsonga
+xh = Sexhosa
 yi = Se-Yiddish
 yo = Se-Yoruba
 yue = Se-Canton
@@ -512,6 +516,7 @@ demo-contribute-card-body-v2 = E re ka jaanong o itse go le gontsinyana ka Commo
 
 ## Demo Dashboard
 
+demo-dashboard-card-header = Didesheboto tsa botho di go thusa gore o nne mo dinakong ka kgatelopele ya batho ka bongwe le ya batho botlhe.
 demo-dashboard-card-body = Mo kgatisong nngwe le nngwe ya lentswe e e abilweng, le kgatiso nngwe le nngwe e e tlhomamisiwang, desheboto ya akhaonto ya gago e a tlhabololwa go bontsha kgatelopele ya gago ya bosheng mo puong nngwe le nngwe e o abang mo go yone. Ee, o ka kgona go abela puo e feta e le nngwe!<br/><br/> Dirisa didesheboto go bona dipalopalo tsa gago, go bona gore o dira jang fa go bapisiwa le batho ba bangwe, mme o ipeele mekgele ya letsatsi le letsatsi kgotsa ya beke le beke ya go aba.
 
 ## Validation criteria
@@ -599,6 +604,8 @@ sc-stats-summary = Kgobokanyo ya Mela ya Common Voice e setse e kgobokantse mela
 
 ## ADD
 
+sc-submit-prompt =
+    .message = Mela ga ya romelwa, a o tlhomamisegile gore o batla go tswa?
 sc-submit-title = Tsenya Dipolelo
 sc-submit-confirm = Ke tlhomamisa gore mela eno ke ya <wikipediaLink>batho botlhe</wikipediaLink> e bile ke na le tetla ya go e tsenya.
 sc-submit-filtered = Mela e fokoditswe ka gonne ga go a fitlhelelwa ditekanyetso (tsweetswee romela dithanolo tse di siameng jaaka mela e mesha):
@@ -618,6 +625,8 @@ sc-add-lang-process-notice = Fa puo ya gago e sa tlhage fano, o ka e kopa ka <la
 
 ## ADD SENTENCES CONFIRMATION
 
+sc-confirm-are-you-sure =
+    .message = Mela ga ya romelwa, a o tlhomamisegile gore o batla go tswa?
 sc-confirm-already-reviewed =
     { $countOfReviewed ->
         [0] Ga go na mola o o setseng o sekasekilwe.
