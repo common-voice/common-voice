@@ -35,6 +35,7 @@ cs = Se-Czech
 cv = Se-Chuvash
 da = Se-Denmark
 eu = Se-Basque
+hr = Se-Croatia
 hy-AM = Se-Armania
 my = Se-Burma
 sq = Se-Albania
@@ -84,6 +85,7 @@ email-subscription-title-new = Ikwadisetse go amogela makwalodikgang a Common Vo
 benefits = Mesola
 rich-data = Dira gore tshedimosetso ya gago e o e rometseng e nne ntsi kafa go kgonegang ka gone ka go naya tshedimosetso ya dipalopalo e e sa tsenngwang maina. Re tlosa tshedimosetso yotlhe e e itsiseng batho mo tshedimosetsong ya dipalopalo pele re e phasalatsa.
 improve-audio = Tshedimosetso ya porofaele e tokafatsa tshedimosetso ya lentswe e e dirisiwang go thapisa didirisiwa tse di kgonang go lemoga puo gore di nepagale.
+keep-track = hr
 compare-progress = Bona gore kgatelopele ya gago e kae fa e bapisiwa le ya batsayakarolo ba bangwe mo lefatsheng lotlhe.
 join-newsletter = O ka itlhophela go tsena mo lenaaneng la rona la makwalo go amogela ditlhabololo le tshedimosetso e ntšha ka porojeke.
 
