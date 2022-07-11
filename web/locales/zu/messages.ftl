@@ -789,6 +789,11 @@ clips-with-count-pluralized =
     }
 goal-help-recording = Usize i-Common Voice ukufinyelela <goalPercentage></goalPercentage> kwinhlonso yethu yokurekhoda yansuku zonke { $goalValue }!
 goal-help-validation = Usize i-Common Voice ukufinyelela <goalPercentage></goalPercentage> kwinhlonso yethu yokuqinisekisa wansuku zonke { $goalValue }!
+contribute-more =
+    { $count ->
+        [one] { "" }
+       *[other] Ilungele ukwenza { $count } okwengeziwe?
+    }
 record-cta = Qala ukuqopha
 record-platform-not-supported = Siyaxolisa, inkundla yakho ayisekelwe okwamanje.
 record-platform-not-supported-desktop = Kumadivayisi edeskithophu ungadlala iqhaza ngokuloda...
@@ -857,6 +862,7 @@ report-other-comment =
     .placeholder = Ukuphawula
 success = Impumelelo
 continue = Qhubeka
+report-success = Umbiko uphasiswe ngempumelelo
 
 ## Goals
 
@@ -1070,6 +1076,7 @@ contribution-misreadings-example-4-title = Ama-dinosaurs amakhulu e-Triassic. Ye
 contribution-misreadings-example-4-explanation = [Okurekhodiwe kuningi kunaloku okudingekayo embhalweni]
 contribution-misreadings-example-5-title = Sizophuma siyothenga ikhofi.
 contribution-misreadings-example-6-title = Siyaphuma ukuyothenga ikhofi.
+contribution-misreadings-example-6-explanation = [Kufanele kube u-“Siya”]
 contribution-misreadings-example-7-title = Sizophuma siyothola ikhofi.
 contribution-misreadings-example-7-explanation = [Ungabibikho u-‘a’ embhalweni wokuqala]
 contribution-misreadings-example-8-title = Inyosi yadlula ngesivinini.
@@ -1207,6 +1214,7 @@ sc-stats-summary = Umqoqi Wemisho weCommon Voice uqoqe  { $sentenceCount } imish
 
 sc-submit-err-select-lang = Sicela ukhethe ulimi.
 sc-submit-err-add-sentences = Sicela wengeze imisho.
+sc-submit-err-add-source = Sicela wengeze umthombo.
 sc-submit-err-confirm-pd = Sicela uqinisekise ukuthi le misho ayisizinda somphakathi.
 sc-submit-prompt =
     .message = Imisho ayithunyelwanga, uqinisekile ukuthi ufuna ukuhamba?
