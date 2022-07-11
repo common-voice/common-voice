@@ -305,6 +305,11 @@ visibility-overlay-note = Ṱhogomelani hezwi: Musi yo setiwa kha u 'Vhonala', h
 
 ## Custom Goals
 
+help-reach-hours-general-pluralized =
+    { NUMBER($hours) ->
+        [one] Thusani Common Voice u swikelele { $hours } awara kha luambo nga tshipikwa tshe muthu a ḓivhetshela
+       *[other] Thusani Common Voice u swikelele { $hours } dzi awara kha luambo nga tshipikwa tshe muthu a ḓivhetshela
+    }
 receiving-emails-info = Zwa zwino ni kha mutevhe wa vhane vha ḓo wana email dzi ngaho dza u ni humbudza nga ha zwipikwa, mvela phanḓa yaṋu na maswa maswa nga ha Common Voice
 not-receiving-emails-info = Zwa zwino no pangiwa kha u <bold>U SA</bold> wana milaedza nga email yo no nga khumbudzo dza zwipikwa, mvela phanḓa yaṋu na newsletters nga ha Common Voice
 # LINK will be replaced with the current URL
@@ -415,6 +420,7 @@ sc-my-description = Heḽi siaṱari ḽi ni sumbedza mitaladzi yoṱhe ye na i 
 ## ADD
 
 sc-submit-confirm = Ndi a khwaṱhisedza uri heyi mitaladzi ndi ya <wikipediaLink>fhethu ha tshitshavha tshoṱhe </wikipediaLink> nahone ndi na thendelo ya u i apuḽoda.
+sc-submit-filtered = Mitaladzi yo fiḽithariwaho ngauri a yo ngo swikelea ṱhoḓea (ri humbela uri ni rumele zwe na khakhulula sa mitaladzi miswa):
 
 ## ADD LANGUAGE
 
