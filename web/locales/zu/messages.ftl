@@ -446,6 +446,7 @@ validated-hr-total = Isamba samahora esiqinisekiswe u-Hr. Isamba
 overall-hr-total = Isamba samahora sesisonke
 audio-format = Ifomethi yomsindo
 number-of-voices = Inombolo Yamazwi
+splits = Ukuhlukana
 email-to-download = Faka i-imeyili ukuze udownlode
 confirm-size = Ulungele ukuqalisa ukuloda kwe-<b>{ $size }</b>
 confirm-no-identify = <b>Uyavuma</b> ukungazami ukucacisa ukuthi ungubani izikhulumi kudathasethi yeCommon Voice
@@ -616,6 +617,7 @@ success = Impumelelo
 
 ## Goals
 
+streaks = Ama-streak
 days =
     { $count ->
         [one] Usuku
@@ -641,6 +643,7 @@ clips-you-recorded = Iziqeshana Oziqophile
 clips-you-validated = Iziqeshana oziqinisekisile
 todays-recorded-progress = Inqubekelaphambili yanamuhla yeCommon Voice kuziqeshana eziqoshiwe
 todays-validated-progress = Inqubekelaphambili yanamuhla yeCommon Voice kuziqeshana iqinisekisiwe
+stats = Izibalo
 you = Wena
 contribution-activity = Umsebenzi Wokufaka isandla
 top-contributors = Abanikeli Abaphezulu
@@ -710,6 +713,7 @@ goal-interval-weekly = Njalo ngeviki
 share-n-daily-contribution-goal = Yabelana nge-{ $count } Inhloso yakho Yansuku Zonke Yeziqeshana we-{ $type }
 # $type is one of share-goal-type-*
 share-n-weekly-contribution-goal = Yabelana nge-{ $count } Inhloso yakho Yamaviki Onke Yeziqeshana we-{ $type }
+share-goal-type-speak = Ukukhuluma
 share-goal-type-both = Ukukhuluma Nokulalela
 # LINK will be replaced with the current URL
 goal-share-text = Ngisanda kwakheka umgomo womuntu siqu wokunikela ngezwi ku-#CommonVoice -- ngijoyine futhi usize ukufundisa imishini ukuthi abantu bangempela bakhuluma kanjani { $link }
@@ -838,6 +842,7 @@ see-less = <chevron></chevron>Bona okuncane
 
 sc-header-rejected = Imisho Enqatshiwe
 sc-header-my = Imisho Yami
+sc-header-statistics = Izibalo
 sc-footer-report-bugs = Bika Iziphazamisi
 sc-footer-translate = Humusha leli khasi
 sc-footer-report-copyright = Bika izinkinga zelungelo lobunikazi
@@ -888,6 +893,9 @@ sc-howto-findpd-subtitle-2 = Hlanganyela nezinhlangano zendawo noma abantu ngaba
 sc-my-title = Imisho Yami
 sc-my-loading = Loda imisho yakho...
 sc-my-no-sentences = Ayikho imisho etholakele!
+# Variables:
+#   $batchId (String) - A unique ID identifying the submission of sentences - sentences uploaded together all have the same batch ID
+sc-my-submission = Okuthunyelwe: { $batchId }
 sc-my-delete = Susa imisho ekhethiwe
 sc-my-deleting = Susa imisho ekhethiwe...
 sc-my-err-failed-delete = Yehlulekile ukususa imisho ekhethiwe… Sicela uzame futhi!
@@ -901,6 +909,7 @@ sc-rejected-none-found = Ayikho imisho enqatshiwe etholiwe!
 
 ## STATS
 
+sc-stats-title = Izibalo
 sc-stats-updating = Iyabuyekeza...
 sc-stats-error = Asikwazanga ukulanda izibalo. Sicela uzame futhi emuva kwesikhathi.
 # Variables:
