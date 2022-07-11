@@ -314,11 +314,14 @@ profile-form-additional-language =
     .label = Leleme le oketšegilego
 profile-form-language =
     .label = Leleme
+profile-form-variant =
+    .label = Ke se fe se swanego le{ $lang } se o se bolelago?
 profile-form-variant-default-value = Ga gona le mebolelo e kgethilwego
 profile-form-accent =
     .label = Mokgwa
 profile-form-custom-accent-help-text =
     .label = O ka hlalosa bjang mokgwa wa gago wa go bolela?
+profile-form-custom-accent-placeholder-2 = Thoma go thaepa go hlalosa mokgwa wa gago wa go bolela
 profile-form-age =
     .label = Mengwaga
 profile-form-gender-2 =
@@ -370,6 +373,7 @@ browse-file-title = Tsenya faele ya senepe netwekeng.
 browse-file = Go rwala lego bea goba <browseWrap>Praosa</browseWrap>
 connect-gravatar = Kgokaganya le Gravatar
 gravatar_not_found = Ga go gravator e hwetšagalago ya e-meile ya gago
+file_too_large = Faele e kgethilweng e kgolo kudu
 avatar-uploaded = Tsenya Motšeakarolo
 max-file-size = { $kb }kb max
 remove-avatar = Tloša Motšeakarolo
@@ -494,6 +498,7 @@ about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollec
 about-playbook-how-localize = Bo bereka bjang bo kgauswi bja wepesaete?
 about-playbook-how-localize-content-2 = <pontoonAccountLink>Hlangwa akhaonte</pontoonAccountLink> ge e ba o se na yona. Ke moka, o kgetha polelo <strong> (‘Sehlopha’)</strong> ebe o kgetha morero, <pontoonCvLink>Common Voice</pontoonCvLink>. Go tla ba le difaele tše tla fetolelwa. klika go e le nngwe, ke moka e bontšha mantšu a Seisemane lepokisana go e fetolela.
 about-playbook-how-localize-content-3 = Phetolelo e tšwa go Seisemane, eupša o ka bona <strong>Ditšhišinyo</strong>  ka dipolelong tše dingwe. Tobetsa <strong>aekhone ya Profaele</strong> aekhone, ke moka  <strong>Selaelatirišo</strong>  linke yaebe o tsenya dipolelo tšeo o di bolelago. Ka tlase ga sona ka letsogong le letona go tla ba le lenaneo la diphetolelo e bitšwago <strong>Locales</strong>. Diphetolelo di bontšha saeteng ka morago ga letšatši letee.
+about-playbook-how-localize-content-5 = Lebelela vidio ya rena e tlalosang go go thuša
 
 ## How to add sentences
 
@@ -611,6 +616,7 @@ size-megabyte = MB
 download-language = Tanelouto { $language }
 validated-hours = Diiri tše Kgonthišitšwego
 recorded-hours = Diiri tše Begilwego
+whats-inside = Ke eng e leng ka gare ga dathasete ya Common Voice?
 dataset-description-hours =
     Engwe le engwe yeo e tsenego dathasete e na le MP3 e fapanego le faele e tsamaišanago le mongwalo. Bontši bja <b>{ $total }</b> diiri tšeo gatišitšwego ka gare ga dathasete di akaretša gape le boitsebošo bja dintlha tša palo ya batho bjalo ka mengwaga, le bong bja motho, le mmolelo seo a ka thušago go eteletša go nepagetša ga tlhathollo ya mantšu tša temogo. 
     
@@ -643,7 +649,7 @@ dataset-version = Version
 download-title = Tanelouto ya gago e thomile.
 download-form-email =
     .label = Tsenya e-meile
-    .value = Rea Leboga, re tla boela go wena.
+    .value = Rea leboga, re tla boledišana le wena
 download-back = Boela go dathasete ya Common Voice
 download-no = Aowa kea Leboga
 
@@ -745,6 +751,7 @@ listen-last-time-instruction = <playIcon></playIcon>Ya mafelelo!
 speak-empty-state-cta = Neela ka mafoko
 record-button-label = Gatiša lentšu la gago
 share-title-new = <bold>Re thuše </bold> re hwetše mantšu a mangwe
+target-segment-generic-card = O tlaleletša go karolo ya nepo
 target-segment-add-voice = Tsenya Lentšu la Gago
 target-segment-learn-more = Ithute ka mo go oketšegilego
 
@@ -844,11 +851,17 @@ n-clips-pluralized =
     }
 confirm-goal = Tiišetša Pakane
 goal-interval-weekly = Beke le beke
+# $type is one of share-goal-type-*
+share-n-daily-contribution-goal = Abelana ka { $count } Pakane ya gago ya Letšatši ya Pego ya { $type }
+# $type is one of share-goal-type-*
+share-n-weekly-contribution-goal = Abelana ka { $count } Pakane ya gago ya Beke ya Pego ya { $type }
 share-goal-type-speak = Go bolela
 share-goal-type-listen = Theeleditše
 share-goal-type-both = Go Bolela le go Theeletša
 # LINK will be replaced with the current URL
 goal-share-text = Ke fetša go hlangwa pakane ya go neela ka lentšu go #CommonVoice -- a re hlakane gomme re thuše go ruta metšhene gore na batho ba nnete ba bolela bjang { $link }
+weekly-goal-created = Pakane ya gago ya beke e hlangwe
+daily-goal-created = Pakane ya gago ya letšatši e bopilwe
 share-goal = Abelana ka pakane yaka
 
 ## Profile Delete
@@ -928,7 +941,12 @@ contribution-criteria-page-description = Kwešiša gore ke eng se o swanetše go
 contribution-for-example = Ka mohlala
 contribution-misreadings-title = Di balo tše fošagetšego
 contribution-misreadings-description = Ge o theeditše, hlahloba ka kelohloko gore na seo se gatišitšwego ke sona seo se ngwadilwego; gana ge e ba go na le diphošo tše nyenyane. <br />Diphošo tše di tlwaelegilego kudu di akaretša:
+contribution-misreadings-example-1-title = Dinosaur e kgolo ya Triassic.
+contribution-misreadings-example-2-title = Dinosaur e kgolo ya Triassic.
 contribution-misreadings-example-2-explanation = [Should be ‘dinosaurs’]
+contribution-misreadings-example-3-title = Dinosaur e kgolo ya Triassi-.
+contribution-misreadings-example-4-title = Dinosaur e kgolo ya Triassic. Ee.
+contribution-misreadings-example-6-title = Re ilo go hwetša kofi.
 contribution-misreadings-example-6-explanation = [Should be “We are”]
 contribution-misreadings-example-7-explanation = [No ‘a’ in the original text]
 contribution-misreadings-example-8-title = Nose e ile ya feta ka lebelo.
@@ -940,6 +958,8 @@ contribution-varying-pronunciations-example-2-title = Letsogo la gagwe le emiši
 contribution-background-noise-title = Lešata la Bokamorago
 contribution-background-noise-description = Re nyaka gore alkoritheme ya go ithuta ya motšhene e kgone go šoma le lešata le fapanego, ešita le mašata a magolo ao a ka amogelwago ge feela le sa go thibele go kwa mongwalo ka moka. Mmino wa bokamorago wa llela fase o LOKILE; mmino o wa godimo ka mo go lekanego go go thibela go kwa lentšu le lengwe le lengwe ga wa lokela.
 contribution-background-noise-description-extended = Ge e ba kgatišo e ka arogana, goba e nale go kgakgatha, e ganwe ntle le gore mongwalo o feletšego e sa kwagala.
+contribution-background-noise-example-2-fixed-title = Dino e kgolo <strong>[cough]</strong> di Triassic.
+contribution-background-noise-example-2-explanation = [Part of the text can’t be heard]
 contribution-background-noise-example-3-fixed-title = <strong>[Crackle]</strong> dinosaurs e kgolo ya <strong>[crackle]</strong> -riassic.
 contribution-background-voices-title = Mantšu a Bokamorago
 contribution-background-voices-description = Lefelong la bokamorago le se nago lešata le LOKILE, eupša ga re nyake mantšu a mangwe a ka dirago gore mokgwa wa motšhene o kgetholwe mantšu ao a se be gona mongwalong. Ge e ba o ka kwa mantšu a phapano go ao a lego mongwalong, setsopolwana se swanetše go ganwa. Se se tlwaetše go diragala moo TV e tlogetšwego, goba moo poledišano e diragalago kgauswi le moo.
@@ -1005,6 +1025,8 @@ sc-howto-cite-pre-1 = Go bohlokwa gore o bolele moo o hweditšego lengwalo la tu
 sc-howto-cite-item-2 = O ka berikiša tshupišo ya thuto, e.g setaele sa Harvard "Mozilla (2021) Common Voice. E lego gona go https://commonvoice.mozilla.org/ (Accessed: 15th September 2021)"
 sc-howto-cite-item-3 = Bakeng sa mangwalong a setšhaba ga a hwetšegale inthaneteng, o ka berekiša tshupišo ya thuto e.g setaele sa Harvard "Jess (2021) My Public licence poems"
 sc-howto-review-title = Ahlola Mafoko
+sc-howto-review-criteria-1 = Lefoko le swanetše go ngwalwa ka nepo.
+sc-howto-review-criteria-2 = Lefoko le swanetše go nepagala ka popopolelo.
 sc-howto-review-criteria-3 = Lefoko le swanetše gore le kgone go bolelwa.
 sc-howto-review-criteria-5 = Ge e ba lefoko ga le fihlelele kritheriya tša ka godimo, tobetsa setobetšwa sa “Gana”. Ge e ba o sa kgonthišege ka lefoko, o ka boela wa e taboga gomme o fetele go e latelago.
 sc-howto-findpd-subtitle = Di nyake Inthaneteng
@@ -1122,6 +1144,8 @@ sc-personal-added-by-you = { $sentences } di tsentšwego ke wena
 
 sc-criteria-modal = ⓘ Hlahloba Kriteria
 sc-criteria-title = Hlahloba Kriteria
+sc-criteria-item-1 = Lefoko le swanetše go ngwalwa ka nepo.
+sc-criteria-item-2 = Lefoko le swanetše go nepagala ka popopolelo.
 sc-criteria-item-3 = Lefoko le swanetše gore le kgone go bolelwa.
 sc-criteria-item-5-2 = Ge e ba lefoko ga le fihlelele kritheriya ya ka godimo, tobetsa; Gana; setobetšwa sa ka go letshadi. Ge e ba o sa kgonthišege ka lefoko, o ka boela wa e taboga gomme o fetele go e latelago.
 
