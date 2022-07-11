@@ -460,6 +460,7 @@ language-speakers = Dibui
 action-click = Tobetsa
 goal-help-recording = O thusitse Common Voice gore e fitlhelele <goalPercentage></goalPercentage> ya maikaelelo a rona a letsatsi a go gatisa { $goalValue }!
 goal-help-validation = O thusitse Common Voice gore e fitlhelele <goalPercentage></goalPercentage> ya maikaelelo a rona a letsatsi a go tlhomamisa { $goalValue }!
+record-platform-not-supported = Re maswabi, polatefomo  ya gago ga e tshegediwe gone jaanong.
 record-platform-not-supported-ios-non-safari = Mo iOS tsweetswee tswelela ka Safari go dira gore e kgone go gatisa…
 record-cancel = Khansela go Rekota Sesha
 record-stop-instruction = { $actionType }<stopIcon></stopIcon> fa o feditse
