@@ -42,6 +42,7 @@ hr = Se-Croatia
 hy-AM = Se-Armania
 hyw = Se-Armenia sa Bophirima
 my = Se-Burma
+om = Se-Afaan Ormoo
 so = Se-Somali
 sq = Se-Albania
 th = Se-Thai
@@ -145,6 +146,8 @@ username-email-not-demographic = Leinatiriso la gago le imeile ga di na go amman
 
 ## ProfileForm
 
+profile-form-additional-language =
+    .label = Puo e Nngwe Gape
 profile-form-accent =
     .label = Puo
 profile-form-age =
@@ -183,6 +186,7 @@ faq-why-important-a =
     
     Go dira gore go lemoga mantswe e nne selo se se tlwaelegileng thata, re kgobokanya disampole tsa mantswe mo dipuong tse di buiwang thata mmogo le babui ba palo e potlana ba gantsi ba tseelwang kwa tlase ke ditirelo tsa kgwebo tsa go lemoga mantswe. Go phasalatsa tshedimosetso ya mantswe a a farologaneng go tla matlafatsa badiri, bagwebi, le batho botlhe ka kakaretso gore ba samagane le bothata jono ka bobone.
 faq-how-get-a = Tshedimosetso ya Common Voice e ka itseelwa mo laesenseng ya <licenseLink>CC0</licenseLink> mo <datasetLink>tsebeng ya rona ya Tshedimosetso</datasetLink>. Gape o ka itseela tshedimosetso e nngwe e e leng teng mo go yone tsebe eo.
+faq-when-release2-q = Lo tla golola leng tshedimosetso ya Common Voice ka dipuo tse dingwe?
 faq-when-release2-a = Ga jaana karolo ya dipuo tse dintsi ya tshedimosetso ya Common Voice e kgobokanngwa le go phepafadiwa ke morafe. Fa o batla go re thusa go tlisa Common Voice mo dipuong tse disha, leba <sentenceCollectorLink>Thulusu ya go Kgobokanya Dipolelo</sentenceCollectorLink> go tsenya dipolelo tse disha mo tshedimosetsong, le Mozilla <pontoonLink>Pontoon</pontoonLink> go ranola webosaete ka boyone. Dipuo tse disha di tsenngwa mo Common Voice go aba mantswe fa dipolelo tse di dumeletsweng di le 5000 di kgobokantswe.
 faq-why-mission-a = Mozilla e batla go boloka webosaete e bulegetse mongwe le mongwe e bile e kgona go fitlhelesega. Go dira jalo, re tlhoka go matlafatsa badiri ba webosaete ka diporojeke tse di jaaka Common Voice. Fa dithekenoloji tsa mantswe di ntse di oketsega go feta dithulaganyo tse di tswalegileng, re dumela gore di tshwanetse go direla batho botlhe ka go lekana. Seo se raya go beeletsa mo dipuong tse dintsi le go dirisana le digalo tse di farologaneng le dipalopalo fa ba dira le go tlhatlhoba dithekenoloji tsa mantswe. Common Voice ke sedirisiwa se mongwe le mongwe le ditlhopha tsa Mozilla le badiri go ralala lefatshe ba setse ba se dirisa le mo diporojekeng tsa rona.
 faq-what-cv-and-deepspeech-a = Tshedimosetso ya Common Voice e tlaleletsa thulaganyo ya Mozilla ya go lemoga mantswe ya Deep Speech. Karolo ya ntlha ya Deep Speech e golotswe ka November 2017 mme e ntse e tswelela e tlhabologa fa e sa le ka nako eo. Mmogo le tshedimosetso ya Common Voice, re dumela gore thekenoloji eno ya go lemoga mantswe e tshwanetse ya fitlhelelwa ke mongwe le mongwe. Re solofela gore dithekenoloji tseno di tla letla badiri go dira dikuno le ditirelo tse di botlhale.
@@ -190,6 +194,7 @@ faq-is-goal-assistant-q = A maikaelelo a Common Voice ke go tlhama mothusi wa le
 faq-is-goal-assistant-a = Mokgele wa tshedimosetso ya Common Voice ke go dira gore mongwe le mongwe mo lefatsheng a dire thulaganyo ya go lemoga puo, go lemoga sebui, kgotsa thulaganyo epe e nngwe e e batlang tshedimosetso ya lentswe. Thuso ya lentswe ke nngwe ya mefuta ya dithulaganyo tse o ka dirisang tshedimosetso go e dira.
 faq-do-want-native-q = Ga se puo ya gaetsho e bile ga ke e bue jaaka beng ba yone, a lo santse lo batla lentswe la me?
 faq-do-want-native-a = Se tota re se batlang ke lentswe la gago! Karolo ya boikaelelo jwa Common Voice ke go kgobokanya digalo tse di farologaneng kafa go ka kgonegang ka gone gore ditirelo tsa go lemoga mantswe di direle batho botlhe ka go lekana. Seno se raya gore diabe tsa batho ba e seng babui ba tlholego le tsone di botlhokwa thata.
+faq-why-different-speakers-q = Goreng lo tlhoka batho ba bantsi jaana ba ba farologaneng ba puo nngwe le nngwe?
 faq-why-different-speakers-a =
     Tshedimosetso e ntsi ya puo e thapisiwa ka go gatelela thata dipalopalo tse di rileng, se se felelang ka go tsaya letlhakore mo <articleLink>setlhopheng sa banna le se se mo magareng</articleLink>. Digalo le medumo e e sa gatelelweng mo tshedimosetsong ya go thapisa gantsi di amanngwa le batho ba ba setseng ba tseelwa kwa tlase. Gape metšhine e mentsi e thatafalelwa ke go tlhalogaya mantswe a basadi.
     Ke gone ka moo re batlang mefuta e e farologaneng mo tshedimosetsong ya rona!
@@ -327,6 +332,7 @@ error-content-503 = Webosaete e tla bo e boetse mo maemong ka bonako jo bo kgone
 
 ## Data
 
+data-download-modal = O tloga o simolola download ya <size>{ $size }GB</size>, a o a tswelela?
 data-subtitle = Re aga rekoto ya tshedimosetso ya mantswe e mongwe le mongwe a ka e dirisang go thapisa dithulaganyo tse di kgonang go dirisa mantswe.
 data-explanatory-text = Re dumela gore tshedimosetso e kgolo le e e phasaladitsweng ya mantswe e rotloetsa go tlhama le kgaisano ya kgwebo mo thekenolojing e e ikaegileng ka go ithuta ga metšhine. Ano ke matsapa a lefatshe lotlhe mme re laletsa mongwe le mongwe go tsaya karolo. Boikaelelo jwa rona ke go thusa thekenoloji ya go bua gore e akaretse dilo tse dintsi, e bontshe pharologano ya mantswe go ralala lefatshe.
 data-download-singleword-callout-v2 = Eno ke karolwana e e berekang e e nang le tshedimosetso ya go matlafatsa mokgwa wa go dirisa puo le o o kgonang go lemoga ee / nnyaa.
@@ -415,8 +421,10 @@ goal-help-validation = O thusitse Common Voice gore e fitlhelele <goalPercentage
 record-cancel = Khansela go Rekota Sesha
 record-stop-instruction = { $actionType }<stopIcon></stopIcon> fa o feditse
 clips-uploaded = Dibidio di tsentswe
+listen-empty-state = Re feletswe ke dikgatiso tse re ka di tlhomamisang ka puo eno...
 listen-loading-error = Ga re a kgona go bona dikgatiso tsa mantswe tse o ka di reetsang. Tsweetswee leka gape moragonyana.
-speak-empty-state-cta = Aba dipolelo
+speak-empty-state = Re feletswe ke mela e re ka e gatisang ka puo eno...
+speak-empty-state-cta = Aba mela
 speak-loading-error = Ga re a kgona go bona mela e o ka e buang. Tsweetswee leka gape moragonyana.
 
 ## Reporting
@@ -518,6 +526,7 @@ contribution-background-noise-description-extended = Fa kgatiso e kgaoga kgotsa 
 contribution-background-voices-title = Mantswe mo Lemoragong
 contribution-background-voices-description = Tlhakatlhakano e e utlwalang mo lefelong le le didimetseng e siame, mme ga re batle mantswe a a oketsegileng a a ka dirang gore motšhine o se ka wa lemoga mafoko a a sa kwalwang. Fa o ka utlwa mafoko a a farologaneng le a a kwadilweng, kgatiso eo e tshwanetswe go ganwa. Gantsi seno se direga fa TV e tlogetswe e tshubilwe, kgotsa fa go na le motlotlo o o tsweletseng fa gaufi.
 contribution-background-voices-description-extended = Fa kgatiso e kgaoga kgotsa e gagasha, e gane, ntle le fa mafoko otlhe a kgona go utlwiwa.
+contribution-background-voices-example-1-title = Di-dinosaur tse dikgolo tsa Triassic. <strong>[read by one voice]</strong>
 contribution-volume-description = Go tla nna le dipharologano tsa tlholego mo bolumong ya babadi. Gana fela fa bolumo e le kwa godimo thata mo kgatiso e kgaogang, kgotsa (se se tlwaelegileng thata) fa e le kwa tlase thata mo o sa utlweng se se buiwang kwantle ga go leba se se kwadilweng.
 contribution-reader-effects-description = Dikgatiso tse dintsi ke tsa batho ba ba buang ka lentswe la bone la tlholego. O ka amogela kgatiso nngwe e e sa tlwaelegang ya go goa, go seba, kgotsa e e buiwang ka tsela e e ‘kgatlhang’. Tsweetswee gana dikgatiso tse go opelwang le tse di dirisang lentswe le le dirilweng ka khomputara.
 contribution-just-unsure-description = Fa o kopana le sengwe se dikaelo tseno di sa bueng ka sone, tsweetswee tlhopha go ya ka tsela e e molemolemo e o e akanyang. Fa tota o sa kgone go dira tshwetso, dirisa konopo ya go tlola mme o ye kwa kgatisong e e latelang.
@@ -576,14 +585,17 @@ sc-my-source = Motswedi: { $source }
 
 ## STATS
 
+sc-stats-error = Ga re a kgona go tla ka dipalopalo. Tsweetswee leka gape moragonyana.
 
 ## ADD
 
+sc-submit-title = Tsenya Dipolelo
 sc-submit-confirm = Ke tlhomamisa gore mela eno ke ya <wikipediaLink>batho botlhe</wikipediaLink> e bile ke na le tetla ya go e tsenya.
 sc-submit-filtered = Mela e fokoditswe ka gonne ga go a fitlhelelwa ditekanyetso (tsweetswee romela dithanolo tse di siameng jaaka mela e mesha):
 
 ## ADD LANGUAGE
 
+sc-add-lang-sec-button = Tsenya Puo
 # Variables:
 #   $duplicates (Number) - Number of sentences which got rejected because they are duplicates
 sc-add-result =
