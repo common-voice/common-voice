@@ -44,10 +44,23 @@ rm-sursilv = Romansh Sursilvan
 rm-vallader = Xirhoma xa Vallader
 sat = Santali (Ol Chiki)
 st = Xisotho xa le Dzongeni
+te = Xitelugu
+th = Xithai
+ti = Xitigrinya
+tig = Tigre
+tk = Turkmen
 tok = Toki Pona
+tr = Xiturkey
 ts = Xitsonga
+tt = Xitatar
+tw = Twi
+uby = Ubykh
+udm = Udmurt
 ug = Xi-Uyghur
+uk = Xiukraine
+ur = Xiurdu
 uz = Xiuzbek
+ve = Xivenda
 vec = Xivenetia
 vi = Xivietnam
 vot = Votic
@@ -65,6 +78,7 @@ zu = Xizulu
 ## Layout
 
 speak-now = Vulavula sweswi
+terms = Swiga
 content-license-text = Vuxokoxoko byi kumeka ehansi ka <licenseLink>Layisense ya Creative Commons</licenseLink>
 link-copied = Link Yi Kopiwile
 back-top = Ku Vuyela Ehenhla
@@ -109,6 +123,7 @@ todays-progress = Nhluvuko wa Namuntlha
 help-reach-goal = Hi pfuni ku fikelela eka { $goal }
 read-terms-q = Xana u hlayile Mimpimanyeto ya hina?
 ready-to-record = Xana u lunghekele ku nyikela hi rito ra wena?
+today = Namuntlha
 x-weeks-short =
     { $count ->
         [one] Vhiki
@@ -431,6 +446,7 @@ data-other-download = Dhata yo downloada
 data-bundle-button = Downloada Xiyenge xa ​​Dataset
 release-version = Nkandziyiso
 data-download-singleword-title = Downloda Xiyenge xa ​​Rito rin’we leri kongomisiweke
+review-terms = Hi ku tirhisa Common Voice, u pfumelelana na hina <termsLink> Minkarhi</termsLink> na  <privacyLink>Xitiviso xa Vuhlayiseki</privacyLink>
 terms-agree = Ndza pfumela
 terms-disagree = A ndzi pfumeli
 review-aborted = Ku Hoxa ku herisiwile. Xana u lava ku susa swilo leswi u swi rhekhodiweke?
@@ -527,6 +543,7 @@ language-section-in-progress-new-description = Tindzimi leti sweswi ti le hansi 
 language-section-launched-description = Eka tindzimi leti ti sunguriweke webusayiti yi <localizationGlossaryLink>humelerile </localizationGlossaryLink>, naswona yi na <sentenceCollectionGlossaryLink>swivulwa leswi swi nga hlengeteriwa</sentenceCollectionGlossaryLink> ku pfumelela ku ya emahlwheni <speakLink>Vulavua</speakLink> u <listenLink>Yingisela</listenLink> minyikelo.
 languages-show-more = Vona Swin'wana
 languages-show-less = Vona Switsongo
+language-total-progress = Hinkwaswo
 language-validation-progress = Nhluvuko wa ku Tiyisisa
 
 ## Contribution
@@ -785,6 +802,7 @@ sc-header-my = Swivulwa swa Mina
 sc-footer-report-bugs = Xiviko xa Swihoxo
 sc-footer-translate = Hundzuluxela tluka leri
 sc-footer-report-copyright = Xiya timhaka ta mfanelo ya vutshila
+sc-footer-terms = Swiga
 sc-login-signup-button = Nghena / Tsarisa
 sc-logout-button = Humela ehandle
 
@@ -847,6 +865,7 @@ sc-rejected-none-found = Ku hava swivulwa leswi ariweke leswi kumiweke!
 
 ## STATS
 
+sc-stats-updating = Ku pfuxetiwa ka...
 
 ## ADD
 
@@ -879,6 +898,7 @@ sc-confirm-rejected-by-you = { $countOfInvalidated } yi ariwile hi wena
 
 ## LANGUAGE INFO
 
+sc-lang-info-title-total = Hinkwaswo
 sc-lang-info-review-now = <reviewLink>Pfuxeta sweswi!</reviewLink>
 sc-lang-info-add-more = <addLink>Engetela swivulwa swin'wana sweswi!</addLink>
 
