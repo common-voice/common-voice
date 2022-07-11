@@ -3,6 +3,7 @@
 return-to-cv = Kgutlela ho Common Voice
 email-input =
     .label = Email
+email-opt-in-info-title = Kena lethathamong la mangolo la Common Voice
 not-available-abbreviation = N/A
 banner-error-slow-link = Leqephe la Boemo
 error-something-went-wrong = Tshwarelo, ho na le ho hong ho fosahetseng
@@ -292,6 +293,8 @@ profile-form-language =
 profile-form-variant =
     .label = O bua mofuta ofe wa { $language }?
 profile-form-variant-default-value = Ha ho mofuta o kgethilweng
+profile-form-custom-accent-help-text =
+    .label = O ka hlalosa mokgwa wa hao wa ho bitsa mantswe jwang?
 profile-form-custom-accent-placeholder-2 = Qala ho ngola ho hlalosa tsela ya ho bitsa mantswe ya hao
 profile-form-age =
     .label = Dilemo
@@ -330,6 +333,7 @@ on = E butswe
 
 browse-file-title = Kenya faele ya setshwantsho
 connect-gravatar = Kopana le Gravatar
+gravatar_not_found = Ha ho gravatar e fumanweng bakeng sa email ya hao
 file_too_large = Faele e kgethilweng e kgolo haholo
 avatar-uploaded = Avatar e kentswe
 max-file-size = { $kb }kb boholo ka ho fetisisa
@@ -345,6 +349,7 @@ add-language = Kenya Puo
 
 faq-title = Dipotso Tse Botswang Kgafetsa
 faq-what-cv-q = Common Voice ke Eng?
+faq-how-calc-hours-q = Common Voice e bala dihora jwang?
 faq-using-cv = Ho Sebedisa Common Voice
 faq-search-for-answers =
     .label = Batlana le dikarabo
@@ -359,7 +364,9 @@ about-localization-title = Ho etsa sebaka sa marang rang selehae
 about-sentence-collection-title = Pokello ya Dipolelo
 about-new-lang-title = Ho Qala Puo e Ntjha
 about-voice-contrib-title = Nehelano ya Lentswe
+about-voice-contrib-subtitle = Batho ba tla mme ba nehelane ka mantswe a bona.
 about-voice-validation-title = Netefatso ya Lentswe
+about-voice-validation-subtitle = Batho ba bang ba netefatsa di-clip tseo tsa mantswe.
 about-dataset-release-title = Tokollo ya Pokello ya Data
 about-speak = Bua
 about-listen-queue = Mola wa ho mamela
@@ -370,6 +377,7 @@ about-no-votes = ≥ 2 Ha ho dikgetho
 about-dataset-new = Pokello ya Data ya Common Voice
 about-clip-graveyard = Di-clip tsa Mabitleng
 about-get-involved = Nka karolo
+about-stay-in-touch = Nka buisana le lona jwang?
 about-stay-in-touch-button = Ngodisa
 about-stay-in-touch-text-1 = <emailFragment>Ingodise</emailFragment> ho lenane la rona la mangolo ho ithuta hore na o ka nka karolo jwang matsholong, diketsahalong le dikarolo tsa moralo o kopanetsweng ho Common Voice.
 about-nav-why-common-voice = Hobaneng ?
@@ -383,6 +391,7 @@ about-nav-get-involved = Nka karolo
 
 ## How do I add a language
 
+about-playbook-how-add-language = Ke kenya puo jwang?
 about-playbook-how-add-language-translating-heading = Ho fetolela sebaka sa marang-rang
 about-playbook-how-add-language-collecting-sentences-heading = Ho bokella dipolelo
 
@@ -497,6 +506,7 @@ contact-required = *E ya hlokahala
 request-language-title = Kopo ya Puo
 request-language-form-language =
     .label = Puo
+request-language-success-title = Kopo ya puo e rometswe ka katleho, rea leboha.
 select-language = Kgetha Puo...
 other-language = Puo e nngwe
 
@@ -632,6 +642,8 @@ lose-changes-warning = Ho tsamaea hona jwale ho bolela hore o tla lahlehelwa ke 
 build-custom-goal = Aha sepheo se etseditsweng wena feela
 set-a-goal = Ipehele sepheo
 cant-decide = Ha o kgone ho etsa qeto?
+how-many-per-day = E ntle! Ke di-clip tse kae ka letsatsi?
+how-many-a-week = E ntle! Ke di-clip tse kae ka beke?
 n-clips-pluralized =
     { NUMBER($count) ->
         [one] clip
@@ -773,6 +785,7 @@ sc-howto-review-criteria-2 = Polelo e tlameha ho nepahala ho ya ka sebopeho-puo.
 sc-howto-findpd-title = Ho fumana dipolelo tse teng Setjhabeng
 sc-howto-findpd-subtitle = Di batle ho marang-rang
 sc-howto-findpd-tips = Ditlhahiso ke tsena tsa ho fumana dipolelo:
+sc-howto-findpd-subtitle-2 = Sebedisana le mekgatlo ya lehae kapa batho ka bomong
 
 ## MY SENTENCES
 
