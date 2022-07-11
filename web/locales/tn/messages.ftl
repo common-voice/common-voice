@@ -446,6 +446,7 @@ record-cancel = Khansela go Rekota Sesha
 record-stop-instruction = { $actionType }<stopIcon></stopIcon> fa o feditse
 record-last-instruction = <recordIcon></recordIcon> Ya bofelo!
 clips-uploaded = Dibidio di tsentswe
+listen-last-time-instruction = <playIcon></playIcon>Ya bofelo!
 listen-empty-state = Re feletswe ke dikgatiso tse re ka di tlhomamisang ka puo eno...
 listen-loading-error = Ga re a kgona go bona dikgatiso tsa mantswe tse o ka di reetsang. Tsweetswee leka gape moragonyana.
 speak-empty-state = Re feletswe ke mela e re ka e gatisang ka puo eno...
@@ -501,6 +502,7 @@ why-delete-recordings =
 
 ## Profile Download
 
+download-profile-info = E akaretsa imeile, leinatiriso le tshedimosetso ya dipalopalo, e e gone ka yone nako eo
 download-recordings-info = E akaretsa di-mp3 le mela e e tsamaisanang le yone, go ka tsaya nakonyana gore di rulaganngwe
 download-recordings-unavailable = Ga o kgone go kopa dikgatiso tsa gago fa kopo e nngwe e setse e diragadiwa.
 download-recently-requested = O ka kopa go ntsha dikgatiso tsa gago malatsi mangwe le mangwe a le { $days }.
@@ -515,6 +517,7 @@ profile-not-required = Ga o tlhoke go nna le porofaele gore o thuse, mme gone go
 
 ## DemoLayout
 
+demo-welcome-subheader = A o kgatlhegela go itse mo go oketsegileng le go nna le seabe mo porojekeng?
 
 ## Demo Datasets
 
