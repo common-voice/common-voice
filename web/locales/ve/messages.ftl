@@ -195,6 +195,7 @@ about-get-involved-text-2 =
     Ndi zwavhuḓi! Ri kwameni nga email kana <discourseLink>Discourse kha</discourseLink>
     dzi foramu, ni rumele thaidzo dzine na ṱangana nadzo kha saiti <githubLink>GitHub</githubLink>, kana ni dzhene kha
     <matrixLink>Matrix</matrixLink> nyambedzano dza vhadzulapo."
+about-stay-in-touch = Ndi nga dzula hani ndi tshi kwamana navho?
 about-stay-in-touch-text-1 = <emailFragment>Ḓiṅwaliseni</emailFragment> kha mutevhe wa mailing yashu ni gude uri ni nga dzhenelela hani kha mafulo, dzi event, na co-design features kha CommonVoice.
 about-stay-in-touch-text-2 = Ni nga ṱangana na vhaṅwe kha zwigwada zwa luambo zwa Mozilla nga u dzhena na vha tshipiḓa <discourseLink>Discourse</discourseLink> u wana nyambedzano, kana <matrixLink>Matrix</matrixLink> u wana tsivhudzo nga tshihaḓu.
 
@@ -208,6 +209,7 @@ about-playbook-what-is-language-content-3 = Dziṅwe nyambo dzi na phambano khul
 
 ## How do I add a language
 
+about-playbook-how-add-language = Ndi pangisa hani luambo?
 about-playbook-how-add-language-content-1 =
     Tsha u thoma, sedzani arali luambo lwaṋu <languageLink>lwo no ḓi vha hone</languageLink>.
      Arali lu siho, ni nga <languageRequestLink>humbela u dzhenisa luambo lwaṋu </languageRequestLink>.
@@ -274,6 +276,7 @@ about-playbook-how-access-dataset-content-2 = Arali ni tshi khou ṱoḓa zwishu
 
 about-playbook-how-project-governance-content-1 = Common Voice ya Mozilla i khou itwa u ri i vhe hone nga vhadzulapo vho fhambananaho vha vhaḓisi vha tshanduko, vhaḓivhi vha luambo, data scientists, magudedzi na dziinzhiniara dza dzi software vha bvaho shangoni nga vhuphara. Yeneyi thandela i khou ṱhogomelwa nga Foundation ya Mozilla.
 about-playbook-how-project-governance-content-2 = Zwi ri langaho zwo thewa kha hedzi phuphu:
+about-playbook-how-project-governance-content-7 = <governanceLink>Vhalani nga vhuḓalo nga ha uri ri langiwa hani</governanceLink>
 
 ## Glossary
 
@@ -296,6 +299,7 @@ data-download-modal = Ni khou thoma u downḽoda <size>{ $size }GB</size>, naa n
 data-subtitle = Ri khou ita dataset i ne ya ḓo shumiswa nga nnyi na nnyi nga muṅwe na muṅwe ya maipfi ane vhathu vhoṱhe vha nga kona u a shumisa u gudisa dzi application dzine dza kona u u amba.
 data-explanatory-text = Ri tenda uri tshitshavha tshihulu tshi re hone tshi ḓo vhuyelwa nga dataset ya maipfi zwa ita uri hu thomiwe zwithu zwiswa nahone ha vha na miṱaṱisano yavhuḓi kha zwa vhurengisi zwi tshimbidzanaho na thekhinolodzi ya u amba ya machine-learning. Zwenezwi ndi mutingati wa shango ḽoṱhe nga vhuphara nahone ri khou ramba muṅwe na muṅwe uri a shele mulenzhe. Tshipikwa tshashu ndi uri zwishumiswa zwa u amba zwa thekhinolodzhi zwi katele vhunzhi ha vhathu, hu pfale maipfi o fhambananaho u mona na shango ḽoṱhe.
 data-bundle-description = Common Voice data na dziṅwe dzi dataset dza maipfi dzi re afho nṱha.
+data-download-singleword-title = Downḽodani Thagete ya Tshipiḓa tsha Ipfi Ḽithihi
 data-download-singleword-callout-v2 = Hetshi ndi tshipiḓa tshi langiwaho nga kushumisele tshi re na data ine ya mannḓafhadza digit recognition na ine ya ḓivha ee / hai.
 review-terms = Nga u shumisa Common Voice, ni khou tendelana na <termsLink>Milayo ya Kushumisele</termsLink>na<privacyLink>Milayo ya Tshiphiri</privacyLink>
 review-aborted = U apuḽoda ho imiswa. Naa ni khou ṱoḓa u diḽita zwe na rekhoda?
@@ -431,6 +435,8 @@ help-reach-hours-general-pluralized =
         [one] Thusani Common Voice u swikelele { $hours } awara kha luambo nga tshipikwa tshe muthu a ḓivhetshela
        *[other] Thusani Common Voice u swikelele { $hours } dzi awara kha luambo nga tshipikwa tshe muthu a ḓivhetshela
     }
+how-many-per-day = Ndi zwavhuḓi! Hu ṱoḓea rekhodo nngana nga ḓuvha?
+how-many-a-week = Ndi zwavhuḓi! Hu ṱoḓea rekhodo nngana nga vhege?
 which-goal-type = Ni khou ṱoḓa u Amba, u Thetshelesa kana u ita zwoṱhe?
 receiving-emails-info = Zwa zwino ni kha mutevhe wa vhane vha ḓo wana email dzi ngaho dza u ni humbudza nga ha zwipikwa, mvela phanḓa yaṋu na maswa maswa nga ha Common Voice
 not-receiving-emails-info = Zwa zwino no pangiwa kha u <bold>U SA</bold> wana milaedza nga email yo no nga khumbudzo dza zwipikwa, mvela phanḓa yaṋu na newsletters nga ha Common Voice
@@ -529,9 +535,11 @@ contribution-background-noise-description-extended = Arali rekhodo yo khathuwa, 
 contribution-background-noise-example-1-fixed-title = <strong>[Sneeze]</strong> Dinosaurs khulu ya <strong>[cough]</strong> Triassic.
 contribution-background-noise-example-2-fixed-title = Dino khulu <strong>[cough]</strong> ya Triassic.
 contribution-background-noise-example-2-explanation = [Tshipiḓa tsha mafhungo a tshi pfali]
+contribution-background-noise-example-3-fixed-title = <strong>[crackle]</strong> dinosaurs khulu ya <strong>[crackle]</strong> -riassic.
 contribution-background-voices-description = Fhethu hu re na vhathu fhedzi ho fhumuaho ho luga, fhedzi a ri ṱoḓi uri hu pfale maṅwe maipfi ane a nga ita uri mitshini ya algorithm i ḓivhe zwiṅwe zwine zwa khou ambiwa zwi songo ṅwalwaho. Arali ni tshi khou pfa maipfi o khetheaho a siho kha mitaladzi yo ṅwalwaho, zwo rekhodiwaho a zwo ngo tendelwa. Zwenezwi zwi nga itea musi TV yo sala i tshi khou tamba, kana hu na vhathu vhane vha khou amba tsini na henefho.
 contribution-background-voices-description-extended = Arali rekhodo yo khathuwa, kana i na manzaranzara, i haneni nga nnḓani ha musi mafhungo oṱhe a tshi khou pfala.
 contribution-background-voices-example-1-title = Dinosaurs khulu ya Triassic. <strong>[read by one voice]</strong>
+contribution-background-voices-example-1-explanation = Ni khou ḓa? <strong>[khou vhidzwa nga muṅwe]</strong>
 contribution-volume-description = Hu ḓo vha na u fhambana-fhambana ha volumu dza vhavhali. I iledzeni arali volumu ya hone i nṱhesa lune ya khathuwa, kana (zwiṅwe zwo ḓoweleaho) arali i fhasi lune ni si kone u pfa zwine zwa khou ambiwa ni songo sedza mafhungo o ṅwalwaho.
 contribution-reader-effects-description = Zwithu zwinzhi zwo rekhodiwaho ndi zwa vhathu vha tshi khou amba nga ipfi ḽavho ḽa vhukuma. Ni nga ṱanganedza zwithu zwi sa itei tshifhinga tshoṱhe kha zwo rekhodiwaho zwine zwa vha u tzhema, u hevhedza, kana u amba nga ipfi ḽa ane a nga u khou ita ‘ḽitambwa’. Ri humbela uri ni songo tendela zwo rekhodiwaho hu tshi khou imbiwa na zwe ha shumiswa maipfi a dzi khomphuyutha.
 contribution-just-unsure-description = Arali na ṱangana na zwithu zwine zwi si vhe hone kha hovhu vhulivhisi, ri humbela uri ni khethe u shumisa khaṱhulo yaṋu. Arali ni sa koni u dzhia phetho, puṱedzani button ya u pfukha nahone ni fhirele kha zwo rekhodiwaho zwi tevhelaho.
