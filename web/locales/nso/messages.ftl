@@ -236,6 +236,7 @@ benefits = Mehola
 
 ## What's public
 
+whats-public = Ke eng ya go Phatlalatšwa?
 
 ## Speak & Listen Shortcuts
 
@@ -275,6 +276,8 @@ english = Seisemane
 
 ## ProfileForm
 
+profile-form-username =
+    .label = Leina la Mošomiši
 profile-form-native-language =
     .label = Polelo ya Geno
 profile-form-additional-language =
@@ -364,7 +367,10 @@ about-header-description-v2 = Theknolotši ya go tlhathollo lentšu e fetola tse
 
 ## How does it work section
 
+about-localization-title = Wepesaete ya Lefelong
 about-sentence-collection-title = Kgobokanyo ya Mafoko
+about-voice-contrib-title = Go Neela ka Lentšu
+about-voice-validation-title = Kgonthišišo ya Lentšu
 about-dataset-release-title = Lokollo ya Dathasete
 about-speak = Bolela
 about-listen-queue = Lenaneotetelo la go theeletša
@@ -378,6 +384,7 @@ about-clip-graveyard-text = Setsopolwa sa Graveyard se na le dirakolo tša lent�
 about-stay-in-touch-button = Ngwadiša
 about-stay-in-touch-text-1 = <emailFragment>Ngwadiša</emailFragment> go lethamong la rena la mangwalo go ithutha gore na o ka tšea karolo bjang masolong, ditiragalo le dikarolo tša moralo o kopanetšego go Common Voice.
 about-stay-in-touch-text-2 = O ka kopana le ba bangwe ba setšhaba sa polelo ya Mozilla ka go ikopanya go <discourseLink>Discourse</discourseLink> go hwetša poledišano ya ditaba, goba <matrixLink>Matrikse</matrixLink> go hwetša keletšo ya kapejana.
+about-nav-why-common-voice = Go ba neng?
 about-nav-how-it-works = Bjang?
 about-nav-partners = Badirišani
 about-nav-get-involved = Go ba karolo
@@ -484,6 +491,7 @@ splits = Aroganago
 size-gigabyte = GB
 size-megabyte = MB
 download-language = Tanelouto { $language }
+validated-hours = Diiri tše Kgonthišitšwego
 recorded-hours = Diiri tše Begilwego
 dataset-description-hours =
     Engwe le engwe yeo e tsenego dathasete e na le MP3 e fapanego le faele e tsamaišanago le mongwalo. Bontši bja <b>{ $total }</b> diiri tšeo gatišitšwego ka gare ga dathasete di akaretša gape le boitsebošo bja dintlha tša palo ya batho bjalo ka mengwaga, le bong bja motho, le mmolelo seo a ka thušago go eteletša go nepagetša ga tlhathollo ya mantšu tša temogo. 
@@ -549,6 +557,7 @@ language-speakers = Diboledi
 localized = Lekanyeditšwego
 sentences = Mafoko
 language-validation-hours = Diiri
+language-validation-progress = Kgonthišišo ya Tšwelopele
 
 ## Contribution
 
@@ -593,7 +602,10 @@ awards = Difoka
 you = Wena
 everyone = Yo mongwe le yo mongwe
 contribution-activity = Meneelo ya Modiro
+top-contributors = Baneedi ba Phagamego
 recorded-clips = Ditsopolwa tšeo di Gatišitšwego
+validated-clips = Dipego  tše di Kgonthišitšwego
+total-approved = Palo-moka e Amogetšwego
 overall-accuracy = Nepagetša ka Moka
 visibility-explainer = Peakanyo ye e laola ke ponagalo ya kelo ya baetapele. Ge e fihlilwe, tšwelopele ya gago e tla ba sephiring. Se se bolela gore seswantšho sa gago, leina le tšwelopele di ka se bonagale godimo ga kelo ya baetapele. Hlokomela gore mpshafatšo ya kelo ya baetapele itšea ~{ $minutes }metsotso go hlagiša diphetogo.
 
@@ -601,6 +613,7 @@ visibility-explainer = Peakanyo ye e laola ke ponagalo ya kelo ya baetapele. Ge 
 
 both-speak-and-listen = Bobedi
 daily-goal = Pakane ya ka Mehla
+weekly-goal = Pakane ya Beke
 easy-difficulty = Bonolo
 average-difficulty = Palo-gare
 difficult-difficulty = Bothatha
@@ -642,6 +655,7 @@ profile-form-delete = Phumola Profaele
 
 download-profile-title = Pego
 download-recordings-title = Dikgatišo
+download-recordings-size = Megabytes e tlwaelegilego
 download-size = Bogolo bja yona
 download-selected = Kgethilwego
 download-request = Kgopela dipego
@@ -654,6 +668,7 @@ download-request-link-single = O ka kopisa le go beya di-URL tše tobegilego go 
 
 ## Landing
 
+welcome-staff = Rea go amogela { $company } bašomi!
 help-contribute = O ka thuša go aga di dathasete tše di fapanego tša mothopo o bulegilego ka go hlangwa profaele ya Common Voice le go neela lentšu la gago.
 
 ## DemoLayout
@@ -685,6 +700,7 @@ contribution-criteria-page-description = Kwešiša gore ke eng se o swanetše go
 contribution-for-example = Ka mohlala
 contribution-misreadings-title = Di balo tše fošagetšego
 contribution-misreadings-example-8-explanation = [Mismatched content]
+contribution-varying-pronunciations-title = Dipiletšo tša Mantšu tše Fapanego
 contribution-varying-pronunciations-description = Eba šedi pele o gana setsopolwana ka baka la gore mmadi ga a bitša lentšu ka tsela e fošagetšego, o beile kgateletšo lefelong le fošagetšego, goba go bonagala a hlokomologile letswao la potšišo. Go na le mehuta e mentši ya go bitšwa ga mantšu e didirišwago lefaseng ka bophara, yeo mohlomongwe o se ke wa ekwa setšhabeng sa geno. Ka kgopelo nea ka moedi wa tebogo go bao ba bolelago ka tsela e fapanego le ya gago.
 contribution-varying-pronunciations-description-extended = Ka lehlakoreng le lengwe, ge e ba o nagana gore mohlomogwe mmadi ga se ka ka ka gahlana le lentšu pele, gomme o dira kgakanyo e fošagetšego ka mokgwa wa piletšo ya mantšu, ka kgopelo gana. Ge e ba o sa kgonthišege, šomiša setobetšwa sa go taboga.
 contribution-background-noise-title = Lešata la Bokamorago
