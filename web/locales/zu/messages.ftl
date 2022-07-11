@@ -136,6 +136,7 @@ browse-file-title = Layisha ifayela lesithombe
 connect-gravatar = Xhuma nge-Gravatar
 gravatar_not_found = Ayikho i-gravatar etholakele ye-imeyili yakho
 file_too_large = Ifayela elikhethiwe likhulu kakhulu
+remove-avatar = Susa i-Avatar
 
 ## Profile - Email
 
@@ -329,6 +330,7 @@ email-to-download = Faka i-imeyili ukuze udownlode
 confirm-size = Ulungele ukuqalisa ukuloda kwe-<b>{ $size }</b>
 confirm-no-identify = <b>Uyavuma</b> ukungazami ukucacisa ukuthi ungubani izikhulumi kudathasethi yeCommon Voice
 validated-hours = Amahora Aqinisekisiwe
+recorded-hours = Amahora Aqoshiwe
 whats-inside = Yini engaphakathi kwedathasethi yeCommon Voice?
 dataset-description-hours =
     Konke okulotshiwe kwidathasethi kuphuma ne-MP3 oyingqayizivele kanye nombhalo ohambelanayo . Okuningi <b>{ $total }</b> okwamahora aqoshiwe kwidathasethi analokhu, ulwazi ngezibalo zabantu njengeminyaka yabo, ubulili kanye nendlela abakhuluma ngayo ukuqinisekisa ukuba bezonemba izinjini zokuqashelwa kwenkulumo. 
@@ -496,6 +498,7 @@ clips-you-validated = Iziqeshana oziqinisekisile
 todays-recorded-progress = Inqubekelaphambili yanamuhla yeCommon Voice kuziqeshana eziqoshiwe
 todays-validated-progress = Inqubekelaphambili yanamuhla yeCommon Voice kuziqeshana iqinisekisiwe
 top-contributors = Abanikeli Abaphezulu
+recorded-clips = Iziqeshana eziqoshiwe
 validated-clips = Iziqeshana Eziqinisekisiwe
 total-approved = Isamba Esigunyaziwe
 set-visibility = Hlela ukubonakala kwami
@@ -577,6 +580,7 @@ download-recordings-size = Ngokuvamile ama-megabytes
 download-recordings-unavailable = Awukwazi ukucela ukurekhodwa kwakho ngenkathi esinye isicelo sisaqhubeka.
 download-recently-requested = Ungacela ukukhishwa okusha kokurekhodiwe njalo ezinsukwini ezingu-{ $days }.
 download-start = Loda idatha yephrofayela
+download-request = Cela okuqoshiwe
 download-requests = Izicelo zokuloda okuqoshiwe okwedlule
 download-requests-info = Uma ucela okuqoshiwe kwakho, sikuhlanganisa kube ifayela le-ZIP elilodwa noma amaningi. Nazi izicelo zakho ezedlule:
 download-request-description = { $clipCount } iziqeshana zezwi, isamba sikasayizi wengobo yomlando { $size }. Iphelelwa yisikhathi { $expires }.
@@ -665,6 +669,8 @@ contribution-background-voices-example-1-explanation = Uyeza? <strong>[called by
 
 ## HEADER/FOOTER
 
+sc-header-rejected = Imisho Enqatshiwe
+sc-footer-report-bugs = Bika Iziphazamisi
 sc-footer-translate = Humusha leli khasi
 sc-footer-report-copyright = Bika izinkinga zelungelo lobunikazi
 sc-login-signup-button = Ngena / Bhalisa
@@ -673,6 +679,7 @@ sc-login-signup-button = Ngena / Bhalisa
 
 sc-home-title = Siyakwamukela Kumqoqi Wemisho yeCommon Voice
 sc-home-collect-text = Sisize ngokubhala noma ukuqoqa imisho Yesizinda Somphakathi.
+sc-home-review-title = Buyekeza imisho
 sc-home-review-text = Sisize ngokubuyekeza imisho ngokunemba ngokweziqondiso.
 
 ## GENERAL
@@ -688,6 +695,7 @@ sc-howto-cite-title = Ungacaphuna Kanjani
 sc-howto-cite-item-1 = Ungafaka iwebhusayithi, isb "Common Voice - https://commonvoice.mozilla.org/"
 sc-howto-cite-item-2 = Ungasebenzisa isitayela sereferensi yezemfundo, isb isitayela sase-Harvard "Mozilla (2021) Common Voice. Itholakala ku https://commonvoice.mozilla.org/ (Kufinyelelwe: 15th September 2021)"
 sc-howto-cite-item-3 = Ngombhalo wesizinda esisesidlangalaleni ongatholakali ku-inthanethi, ungasebenzisa isitayela sereferensi yezemfundo isb isitayela saseHarvard "Jess (2021) Izinkondlo Zami Zelayisensi Yomphakathi"
+sc-howto-review-title = Buyekeza imisho
 sc-howto-review-subtitle = Qiniseka ukuthi umusho uhambiselana nemibandela elandelayo:
 sc-howto-review-criteria-1 = Umusho kumele ubhalwe ngendlela efanele.
 sc-howto-review-criteria-2 = Umusho kumele uhambisane nohlelo lolimi.
@@ -712,6 +720,7 @@ sc-my-err-failed-delete = Yehlulekile ukususa imisho ekhethiwe… Sicela uzame f
 
 ## REJECTED
 
+sc-rejected-title = Imisho Enqatshiwe
 sc-rejected-loading = Loda imisho enqatshiwe...
 sc-rejected-err-fetching = Iphutha ngenkathi silanda imisho enqatshiwe. Ngicela uzame futhi.
 sc-rejected-none-found = Ayikho imisho enqatshiwe etholiwe!
@@ -863,6 +872,7 @@ sc-personal-not-added = Awukangezi izilimi okwamanje.
 ## REVIEW CRITERIA
 
 sc-criteria-modal = ⓘ Imibandela yokubuyekeza
+sc-criteria-title = Buyekeza Imibandela
 sc-criteria-make-sure = Qiniseka ukuthi umusho uhambiselana nemibandela elandelayo:
 sc-criteria-item-2 = Umusho kumele uhambisane nohlelo lolimi.
 sc-criteria-item-3 = Umusho kumele ukhulumeke.
