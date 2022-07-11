@@ -6,6 +6,7 @@ email-input =
 email-opt-in-info-title = Kena lethathamong la mangolo la Common Voice
 indicates-required = Dibaka tse tshwauweng ka naledi (*) di a hlokahala.
 not-available-abbreviation = N/A
+banner-error-slow-2 = Re fumana sephethephethe se sengata mme re ntse re etsa dipatlisiso hajwale.
 banner-error-slow-link = Leqephe la Boemo
 error-something-went-wrong = Tshwarelo, ho na le ho hong ho fosahetseng
 
@@ -243,6 +244,8 @@ email-subscription-title = ingodise bakeng sa email ya dintlafatso
 ## Account Benefits
 
 benefits = Melemo
+improve-audio = Dintlha tsa profaele di ntlafatsa data ya audio e sebediswang ho kwetlisa nepahalo ya temoho ya puo.
+compare-progress = Sheba kamoo tswelopele ya hao e bapiswang le batshehetsi ba bang lefatsheng ka bophara.
 
 ## What's public
 
@@ -368,6 +371,7 @@ faq-what-cv-q = Common Voice ke Eng?
 faq-why-important-q = Ke hobane'ng ha e le ya bohlokwa?
 faq-how-get-q = Ebe nka fumana data ya Common Voice jwang?
 faq-why-my-lang-q = Ke hobane'ng ha puo ya ka e so kenyeletswe?
+faq-why-10k-hours-q = Hobaneng dihora tse 10,000 tse netefaditsweng e le sepheo sa puo ka nngwe ya ho nka audio?
 faq-how-calc-hours-q = Common Voice e bala dihora jwang?
 faq-where-src-from-2-q = mongolo mohlodi o tswa hokae?
 faq-is-account-public-q = Na dintlha tsa ak'haonte ya ka di phatlalatsa?
@@ -428,6 +432,7 @@ about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollec
 ## How does localization work
 
 about-playbook-how-localize = Ebe localization ya sebaka sa marang rang e etswa jwang?
+about-playbook-how-localize-content-4 = Sebaka sa marang-rang se loketse ho phatlalatswa ha se fihla ho phethwa hwa 75%.
 about-playbook-how-localize-content-5 = Shebella setsebi sa rona sa video ho o thusa
 
 ## How to add sentences
@@ -625,6 +630,9 @@ listen-again-instruction = Mosebetsi o motle!<playIcon></playIcon> Mamela hape h
 listen-3rd-time-instruction = 2 fatshe, pele ya pele!<playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon>Ya ho qetela!
 speak-empty-state-cta = Nehelana ka dipolelo
+speak-loading-error =
+    "Ha rea ​​kgona ho o fumanela dipolelo tseo o ka di buang.
+     Re kopa o leke hape hamorao"
 record-button-label = Rekota lentswe la hao
 share-title-new = <bold>Re thuse</bold> ho fumana mantswe a mang
 keep-track-profile = Beha tswelopele ya hao leihlo ka profaele
@@ -643,6 +651,7 @@ report-offensive-language-detail = Polelo e na le puo e hlokang tlhompho kapa e 
 report-grammar-or-spelling = Phoso ya sebopeho-puo / mopeleto
 report-different-language = Puo e fapaneng
 report-difficult-pronounce = Ho thata ho bitsa
+report-difficult-pronounce-detail = E na le mantswe kapa dipolelwana tseo ho leng thata ho di bala kapa ho di bitsa.
 report-offensive-speech = Puo e kgopisang
 report-offensive-speech-detail = Clip e na le puo e hlokang tlhompho kapa e hlabang.
 report-other-comment =
@@ -863,6 +872,7 @@ sc-home-review-title = Hlahloba Dipolelo
 
 sc-howto-title = Mokgwa wa ho
 sc-howto-addlang-title = Ho kenya dipuo tse tlo sebetswa
+sc-howto-addlang-text = Ha o se o kene o ka kgetha dipuo tsa hao ho tswa karolong ya profaele.
 sc-howto-addsen-title = Kenya dipolelo tse ntjha
 sc-howto-cite-title = Mokgwa wa ho Qotsa
 sc-howto-cite-item-3 = Bakeng sa mongolo wa setjhaba o sa fumaneheng marang-rang, o ka sebedisa mokgwa wa ditshupiso tsa thuto, mohlala, mokgwa wa Harvard "Jess (2021) dithothokiso tsa ka tsa laecence ya setjhaba"
