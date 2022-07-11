@@ -68,6 +68,7 @@ hr = Se-Croatia
 ht = Se-Haitian
 hu = Se-Hungarian
 hy-AM = Se-Armenia
+hyw = Se-Armenian Western
 ia = Se-Interlingua
 id = Se-Indonesia
 ie = Se-Interlingue
@@ -258,7 +259,7 @@ female = Mosadi
 # Gender
 other = Bjo bongwe
 dashboard = Dashboard
-avatar = Avatar
+avatar = Motšeakarolo
 goals = Dipakane
 settings = Dilaolatirišo
 profile-close = Tswalela
@@ -270,7 +271,9 @@ help-accent-explanation = Mmolelo wa gago ke tsela yeo o bitšago matšu ka gona
 
 ## Profile - Email
 
+avatar-uploaded = Tsenya Motšeakarolo
 max-file-size = { $kb }kb max
+remove-avatar = Tloša Motšeakarolo
 
 ## Profile - Email
 
@@ -413,6 +416,7 @@ language = Leleme
 # File size in gigabytes
 size = Bogolo
 cv-license = Laesense
+audio-format = Fomete ya Odio
 splits = Aroganago
 size-gigabyte = GB
 size-megabyte = MB
@@ -585,8 +589,10 @@ contribution-misreadings-title = Di balo tše fošagetšego
 contribution-misreadings-example-8-explanation = [Mismatched content]
 contribution-varying-pronunciations-description = Eba šedi pele o gana setsopolwana ka baka la gore mmadi ga a bitša lentšu ka tsela e fošagetšego, o beile kgateletšo lefelong le fošagetšego, goba go bonagala a hlokomologile letswao la potšišo. Go na le mehuta e mentši ya go bitšwa ga mantšu e didirišwago lefaseng ka bophara, yeo mohlomongwe o se ke wa ekwa setšhabeng sa geno. Ka kgopelo nea ka moedi wa tebogo go bao ba bolelago ka tsela e fapanego le ya gago.
 contribution-varying-pronunciations-description-extended = Ka lehlakoreng le lengwe, ge e ba o nagana gore mohlomogwe mmadi ga se ka ka ka gahlana le lentšu pele, gomme o dira kgakanyo e fošagetšego ka mokgwa wa piletšo ya mantšu, ka kgopelo gana. Ge e ba o sa kgonthišege, šomiša setobetšwa sa go taboga.
+contribution-background-noise-title = Lešata la Bokamorago
 contribution-background-noise-description = Re nyaka gore alkoritheme ya go ithuta ya motšhene e kgone go šoma le lešata le fapanego, ešita le mašata a magolo ao a ka amogelwago ge feela le sa go thibele go kwa mongwalo ka moka. Mmino wa bokamorago wa llela fase o LOKILE; mmino o wa godimo ka mo go lekanego go go thibela go kwa lentšu le lengwe le lengwe ga wa lokela.
 contribution-background-noise-description-extended = Ge e ba kgatišo e ka arogana, goba e nale go kgakgatha, e ganwe ntle le gore mongwalo o feletšego e sa kwagala.
+contribution-background-voices-title = Mantšu a Bokamorago
 contribution-background-voices-description = Lefelong la bokamorago le se nago lešata le LOKILE, eupša ga re nyake mantšu a mangwe a ka dirago gore mokgwa wa motšhene o kgetholwe mantšu ao a se be gona mongwalong. Ge e ba o ka kwa mantšu a phapano go ao a lego mongwalong, setsopolwana se swanetše go ganwa. Se se tlwaetše go diragala moo TV e tlogetšwego, goba moo poledišano e diragalago kgauswi le moo.
 contribution-background-voices-description-extended = Ge e ba kgatišo e ka arogana, goba e nale go kgakgatha, e ganwe ntle le gore mongwalo o feletšego e sa kwagala.
 contribution-volume-title = Bolumo
