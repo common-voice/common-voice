@@ -5,6 +5,7 @@ privacy-info = Ri fulufhedzisa u ṱhogomela zwidodombedza zwaṋu nga nḓila y
 email-opt-in-info = Ndi nga takalela u wana email dzi nga ho dzine dza nkhumbudza nga ha zwipikwa zwanga, mvela phanḓa yanga na maswa maswa nga ha Common Voice.
 email-opt-in-info-sub-with-challenge = Wanani milaedza nga email yo nonga khumbudzo ya zwipikwa, mvela phanḓa, na maswa maswa a Common Voice.
 email-opt-in-privacy-v2 = Nga u ṱanganedza uri ni ṱoḓa u wana dzi email ni tenda uri zwo luga uri Mozilla i fare zwidodombedzwa zwenezwi u ya nga nḓila ye zwa ṱalutshedzwa ngayo kha Mozilla’s <privacyLink>Poḽisi ya Tshiphiri</privacyLink>.
+banner-error-slow-1 = Pfarelo, Common Voice i khou shuma nga thotho. Ri a livhuwa u vha haṋu na dzangalelo.
 banner-error-slow-2 = Hu na trafiki ine ya khou itea kha saiti, ri khou ita ṱhoduluso ya heyi thaidzo.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
@@ -76,6 +77,7 @@ why-profile-text =
     Nga u ri vhudza zwiṅwe zwidodombedzwa zwaṋu, data ya odio ine na i rumela kha Common Voice i ḓo kona u shumiswa zwavhuḓi kha mitshini ya u Ḓivha
     Ipfi ine ya ḓo shumisa yeneyi data u itela uri i kone u vha ya khwine-khwine uri i shume zwavhuḓi.
 profile-explanation = Dzulani ni tshi ṱola mvela phanḓa yaṋu nga profaiḽi nahone ni thuse data yashu ya maipfi uri i vhe na zwithu zwi re zwone.
+thanks-for-account = Ro livhuwa uri no khwaṱhisedza akhantu yaṋu, zwino kha ri ite profaiḽi yaṋu.
 why-demographic-explanation-2 = Zwidodombedzwa zwa tshiphiri sa miṅwaha, mbeu, na kuambele zwi thusa u khwinisa data ya odio ine ya shumiswa u gudisa tshishumiswa tsha u ḓivha ipfi. Username na email yaṋu a zwi nga vuwi zwo ṱumanywa na zwithu zwe na rumela, nahone ni nga khetha uri username yaṋu i vhonwe nga vhathu vhoṱhe kana i sa vhonwe.
 accept-privacy = Ndi a tenda uri ni fare zwenezwi zwidodombedzwa samusi no ṱalutshedza kha Mozilla <privacyLink>Mulayo wa u Tshiphiri</privacyLink>
 accept-privacy-title = Mulayo wa Tshiphiri
@@ -313,6 +315,7 @@ language-section-launched-description = Kha hedzi nyambo dzo no ḓi dzheniswaho
 
 goal-help-recording = No thusa Common Voice u swikelela <goalPercentage></goalPercentage> tsha ḓuvha { $goalValue } tshipikwa tsha u rekhoda!
 goal-help-validation = No thusa Common Voice u swikelela <goalPercentage></goalPercentage> tsha ḓuvha { $goalValue } tshipikwa tsha u khwaṱhisedza!
+listen-empty-state = Ro fhelelwa nga zwo rekhodiwaho zwine zwa ṱoḓa u khwaṱhisedzwa...
 listen-loading-error =
     A ro ngo kona u wana odio dzo rekhodiwaho dza maipfi uri inwi ni kone u dzi thetshelesa.
      Ri humbela uri ni lingedze nga vhuya.
@@ -388,6 +391,7 @@ demo-contribute-card-body-v2 = Samusi zwino ni tshi vho ḓivha zwinzhi nyana ng
 
 ## Demo Dashboard
 
+demo-dashboard-card-header = Dashboard yaṋu i ni sumbedza mvela phanḓa yaṋu na ya vhadzulapo.
 demo-dashboard-card-body = Kha kupiḓa kuṅwe na kuṅwe kwa ipfi kwo nikeliwaho, na odio iṅwe na iṅwe yo ambiwaho ya rweliwa ṱari, akhantu yaṋu i ḓo sumbedza mvelaphanḓa dza nyambo dzoṱhe dze na shela khadzo mulenzhe. Ee, zwi a konadzea u shela mulenzhe kha dzi fhiraho mbili!<br/><br/> Shumisani dashboard u itela u vhona zwe na ita, ni vhone nḓila ine na khou shuma ngayo ni tshi vhambedzwa na vhaṅwe vhuponi haṋu, ni ḓivhetshele tshipikwa tsha ḓuvha kana tsha vhege tsha u shela mulenzhe.
 
 ## Validation criteria
@@ -404,6 +408,7 @@ contribution-background-noise-description = Ri ḓo ṱoḓa uri algorithm dza m
 contribution-background-noise-description-extended = Arali rekhodo yo khathuwa, kana i na manzaranzara, i haneni nga nnḓani ha musi mafhungo oṱhe a tshi khou pfala.
 contribution-background-voices-description = Fhethu hu re na vhathu fhedzi ho fhumuaho ho luga, fhedzi a ri ṱoḓi uri hu pfale maṅwe maipfi ane a nga ita uri mitshini ya algorithm i ḓivhe zwiṅwe zwine zwa khou ambiwa zwi songo ṅwalwaho. Arali ni tshi khou pfa maipfi o khetheaho a siho kha mitaladzi yo ṅwalwaho, zwo rekhodiwaho a zwo ngo tendelwa. Zwenezwi zwi nga itea musi TV yo sala i tshi khou tamba, kana hu na vhathu vhane vha khou amba tsini na henefho.
 contribution-background-voices-description-extended = Arali rekhodo yo khathuwa, kana i na manzaranzara, i haneni nga nnḓani ha musi mafhungo oṱhe a tshi khou pfala.
+contribution-background-voices-example-1-title = Dinosaurs khulu ya Triassic. <strong>[read by one voice]</strong>
 contribution-volume-description = Hu ḓo vha na u fhambana-fhambana ha volumu dza vhavhali. I iledzeni arali volumu ya hone i nṱhesa lune ya khathuwa, kana (zwiṅwe zwo ḓoweleaho) arali i fhasi lune ni si kone u pfa zwine zwa khou ambiwa ni songo sedza mafhungo o ṅwalwaho.
 contribution-reader-effects-description = Zwithu zwinzhi zwo rekhodiwaho ndi zwa vhathu vha tshi khou amba nga ipfi ḽavho ḽa vhukuma. Ni nga ṱanganedza zwithu zwi sa itei tshifhinga tshoṱhe kha zwo rekhodiwaho zwine zwa vha u tzhema, u hevhedza, kana u amba nga ipfi ḽa ane a nga u khou ita ‘ḽitambwa’. Ri humbela uri ni songo tendela zwo rekhodiwaho hu tshi khou imbiwa na zwe ha shumiswa maipfi a dzi khomphuyutha.
 contribution-just-unsure-description = Arali na ṱangana na zwithu zwine zwi si vhe hone kha hovhu vhulivhisi, ri humbela uri ni khethe u shumisa khaṱhulo yaṋu. Arali ni sa koni u dzhia phetho, puṱedzani button ya u pfukha nahone ni fhirele kha zwo rekhodiwaho zwi tevhelaho.
@@ -456,9 +461,16 @@ sc-my-description = Heḽi siaṱari ḽi ni sumbedza mitaladzi yoṱhe ye na i 
 
 ## STATS
 
+sc-stats-error = A ro ngo kona u dzhia mbalo-mbalo. Ri humbela uri ni lingedze nga vhuya.
+# Variables:
+#   $sentenceCount (Number) - Total number of sentences uploaded through Sentence Collector
+#   $languageCount (Number) - Total number of languages these sentences represent
+sc-stats-summary = Tsha u Kuvhanganya Mitaladzi tsha Common Voice tsho kuvhanganya { $sentenceCount } mitaladzi nga dzi { $languageCount } nyambo!
 
 ## ADD
 
+sc-submit-prompt =
+    .message = Mitaladzi a yo ngo rumelwa, naa ni na vhungoho ha uri ni khou ṱoḓa u ṱuwa?
 sc-submit-confirm = Ndi a khwaṱhisedza uri heyi mitaladzi ndi ya <wikipediaLink>fhethu ha tshitshavha tshoṱhe </wikipediaLink> nahone ndi na thendelo ya u i apuḽoda.
 sc-submit-filtered = Mitaladzi yo fiḽithariwaho ngauri a yo ngo swikelea ṱhoḓea (ri humbela uri ni rumele zwe na khakhulula sa mitaladzi miswa):
 
@@ -476,6 +488,8 @@ sc-add-lang-process-notice = Arali luambo lwaṋu lu si ho hafha, ni nga lu humb
 
 ## ADD SENTENCES CONFIRMATION
 
+sc-confirm-are-you-sure =
+    .message = Mitaladzi a yo ngo rumelwa, naa ni na vhungoho ha uri ni khou ṱoḓa u ṱuwa?
 sc-confirm-already-reviewed =
     { $countOfReviewed ->
         [0] [0] A hu na mutaladzi wo no ṱoliwaho.
