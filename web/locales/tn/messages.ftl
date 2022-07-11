@@ -441,6 +441,7 @@ language-speakers = Dibui
 action-click = Tobetsa
 goal-help-recording = O thusitse Common Voice gore e fitlhelele <goalPercentage></goalPercentage> ya maikaelelo a rona a letsatsi a go gatisa { $goalValue }!
 goal-help-validation = O thusitse Common Voice gore e fitlhelele <goalPercentage></goalPercentage> ya maikaelelo a rona a letsatsi a go tlhomamisa { $goalValue }!
+record-platform-not-supported-ios-non-safari = Mo iOS tsweetswee tswelela ka Safari go dira gore e kgone go gatisa…
 record-cancel = Khansela go Rekota Sesha
 record-stop-instruction = { $actionType }<stopIcon></stopIcon> fa o feditse
 record-last-instruction = <recordIcon></recordIcon> Ya bofelo!
@@ -530,6 +531,7 @@ demo-account-card-body = Kafa mojeng re bontsha mesola mme re tlhalosa gore ke t
 
 ## Demo Contribute
 
+demo-contribute-card-header = A o ipaakanyeditse go tsenya lentswe la gago kgotsa go re adima tsebe?
 demo-contribute-card-body-v2 = E re ka jaanong o itse go le gontsinyana ka Common Voice, goreng o sa e leke? Tobetsa letshwao la maekerofouno go simolola go balela dipolelo kwa godimo. <br/><br/>Fa o rata go sekaseka diabo tsa mantswe a batho ba bangwe, tobetsa letshwao la tshameka. O tla thusa go tlhomamisa gore a dikgatiso di tsamaisana le mela e e kwadilweng mo sekerining.
 
 ## Demo Dashboard
@@ -543,6 +545,7 @@ contribution-criteria-nav = Mokgwa
 contribution-criteria-page-description = Tlhaloganya gore o tshwanetse go batla eng fa o reeditse dikgatiso tsa mantswe mme o thuse go dira gore dikgatiso tsa gago tsa mantswe di tshwanele!
 contribution-misreadings-description = Fa o reeditse, tlhatlhoba ka kelotlhoko gore a se se gatisitsweng ke sone tota se se kwadilweng; se gane le fa go na le diphoso tse dinnye tota. <br />Diphoso tse di tlwaelegileng thata di akaretsa:
 contribution-misreadings-description-extended-list-1 = Ga go na <strong>'A'</strong> kgotsa <strong>'Le'</strong> kwa tshimologong ya kgatiso.
+contribution-misreadings-description-extended-list-2 = Go tlhaela <strong>'ng'</strong> kwa bofelong jwa lefoko.
 contribution-misreadings-description-extended-list-3 = Go bala mafoko a a seyong, jaaka "Ra" go na le go re "Re a," kgotsa ka tsela e e farologaneng.
 contribution-misreadings-description-extended-list-4 = Go tlhaela lefoko la bofelo ka ntlha ya go khutlisa kgatiso ka bonako.
 contribution-misreadings-example-3-explanation = [Kgatiso e kgaogile pele lefoko la bofelo le felela]
@@ -722,6 +725,7 @@ sc-review-form-reviewed-message =
         [one] Go sekasekilwe mola o le 1. Re a leboga!
        *[other] *Go sekasekilwe mela e le { $sentences }. Re a leboga!
     }
+sc-review-form-review-failure = E o e sekasekileng ga e a bolokega. Tsweetswee leka gape moragonyana.
 
 ## SETTINGS
 
