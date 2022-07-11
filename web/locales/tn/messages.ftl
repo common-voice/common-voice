@@ -47,6 +47,7 @@ hyw = Se-Armenia sa Bophirima
 my = Se-Burma
 om = Se-Afaan Ormoo
 pa-IN = Se-Punjabi
+sc = Se-Sardinia
 scn = Se-Sicily
 shi = Se-Shilha
 si = Se-Sinhala
@@ -194,6 +195,8 @@ profile-form-accent =
 profile-form-age =
     .label = Dingwaga
 visible = E a bonala
+profile-form-submit-save = Boloka
+profile-form-submit-saved = E bolokilwe
 why-profile-text =
     Ka go naya tshedimosetso nngwe ka wena, tshedimosetso ya lentswe e o e romelang kwa Common Voice e tla nna mosola thata mo dithulaganyong tsa Speech
     Recognition tse di dirisang tshedimosetso eno go tokafatsa go nepa ga tsone.
@@ -629,6 +632,7 @@ see-less = <chevron></chevron>Bona tse di fokoditsweng
 
 sc-header-add = Tsenya
 sc-header-statistics = Dipalopalo
+sc-header-profile = Porofaele
 sc-footer-terms = Melawana
 
 ## HOME
