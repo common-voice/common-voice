@@ -31,6 +31,7 @@ wall-of-text-first =
      kha mitshini yashu. Fhedzi u ita sisiṱemu dza ipfi, vhabveledzi vha ṱoḓa data ya maipfi manzhi vhukuma.
 wall-of-text-second = Data nnzhi dzi shumiswaho nga khamphani khulwane, vhathu vhanzhi a vha koni u dzi swikelela. Ri vhona u nga zwi khou ita uri hu si vhe na bvela phanḓa. Ndi ngazwo ro thoma thandela ya Common Voice, thandela ine ya ḓo thusa uri u ḓivha ipfi zwi vhe zwa vhathu vhoṱhe na uri vha kone u zwi swikela.
 no-clips-to-validate = Zwi vhonala u nga a hu na zwo rekhodiwaho zwine na nga zwi thetshelesa nga holwu luambo. Ri thuseni u egedza mutevhe wa zwo rekhodiwaho nga u rekhoda zwiṅwe zwino.
+speak-paragraph = U rekhoda maipfi ndi tshipiḓa tsha u ita dataset yashu; vhaṅwe vha nga ri na tshenetshi ndi tshipiḓa tshi takadzaho.
 listen-paragraph = U khwaṱhisedza uri zwo rekhodiwaho ndi zwone ndi tshipikwa tsha ndeme vhukuma tsha Common Voice. Thetshelesani nahone ni ri thuse uri ri ite maipfi a vhuimo ha nṱha ane a ḓo kona u shumiswa nga nnyi na nnyi.
 
 ## Account Benefits
@@ -171,6 +172,7 @@ about-playbook-how-validate-content-3 = Arali ni tshi humbula uri kubulele kwa m
 ## How to access dataset
 
 about-playbook-how-access-dataset-content-1 = Ni nga ya kha <datasetsPage>siaṱari ḽa dataset</datasetsPage>, ni khethe version na luambo (nyambo) lune na ṱoḓa, nahone ni lu danuḽode! Faela dzi na <metadataLink>metadata i tshimbidzanaho na</metadataLink>, zwithu zwi ngaho zwidodombedzwa zwa muthu na khwaṱhisedzo ya data. Ni ḓo tea uri ni ḓise email aḓiresi yaṋu u itela uri ni kone u downḽouda dataset.
+about-playbook-how-access-dataset-content-2 = Arali ni tshi khou ṱoḓa zwishumiwa zwa u ita ASR models, ni nga kwama vhaṅwe vhathu kha community <discourseLink>kha Discourse</discourseLink>.
 
 ## How are decisions made
 
@@ -188,7 +190,9 @@ error-content-503 = Saiti i ḓo bekapiwa nga u ṱavhanya. Uri ni wane zwithu z
 
 ## Data
 
+data-subtitle = Ri khou ita dataset i ne ya ḓo shumiswa nga nnyi na nnyi nga muṅwe na muṅwe ya maipfi ane vhathu vhoṱhe vha nga kona u a shumisa u gudisa dzi application dzine dza kona u u amba.
 data-explanatory-text = Ri tenda uri tshitshavha tshihulu tshi re hone tshi ḓo vhuyelwa nga dataset ya maipfi zwa ita uri hu thomiwe zwithu zwiswa nahone ha vha na miṱaṱisano yavhuḓi kha zwa vhurengisi zwi tshimbidzanaho na thekhinolodzi ya u amba ya machine-learning. Zwenezwi ndi mutingati wa shango ḽoṱhe nga vhuphara nahone ri khou ramba muṅwe na muṅwe uri a shele mulenzhe. Tshipikwa tshashu ndi uri zwishumiswa zwa u amba zwa thekhinolodzhi zwi katele vhunzhi ha vhathu, hu pfale maipfi o fhambananaho u mona na shango ḽoṱhe.
+data-download-singleword-callout-v2 = Hetshi ndi tshipiḓa tshi langiwaho nga kushumisele tshi re na data ine ya mannḓafhadza digit recognition na ine ya ḓivha ee / hai.
 
 ## Datasets Page
 
@@ -217,6 +221,7 @@ contact-required = *Zwi ya todea
 
 ## Request Language Modal
 
+request-language-success-content = Ri ḓo ni kwama hu si kale uri ri ni vhudze zwinzhi nga ha uri lumbo lwaṋu ni nga lu panga haṋi kha Common Voice.
 
 ## Request Language Pages
 
@@ -230,6 +235,7 @@ request-language-success-list-2 =
     Minidzhere washu wa vhadzulapo u ḓo ni kwama uri a ni 
     tikedze nga ho engedzeaho, nahone u ḓo ni ḓivhadza arali hu na vho no
     thomaho u shuma nga luambo lwaṋu
+request-language-success-list-3 = Arali ra sa vhuya murahu kha inwi nga murahu ha maḓuvha a si gathi, ri kwameni kha <emailLink>{ $email }</emailLink> ri ḓo vhuya murahu kha inwi!
 
 ## Languages Overview
 
@@ -265,6 +271,7 @@ why-delete-recordings =
 
 ## Profile Download
 
+download-requests-info = Musi ni tshi humbela zwe na rekhoda, ri zwi panga kha faela ya ZIP nthihi kana nnzhi. Khumbelo dzaṋu dza tshifhinga tsho fhiraho khedzi:
 download-request-link-single = Ni nga kopa u ṋambatedza nga ho livhaho kha URLs u ya kha hune na ṱoḓa uri zwe na downḽouda zwi dzule hone. Zwi ḓo fhelelwa nga tshifhinga nga murahu ha awara dza 12, fhedzi ni nga dovha na vhuyelela kha ḽeneḽi siaṱari uri ni dovhe ni ite dziṅwe nga tshifhinga tshine na funa.
 
 ## Landing
@@ -296,6 +303,7 @@ contribution-varying-pronunciations-description = Ni ṱhogomele uri ni sa ri zw
 contribution-varying-pronunciations-description-extended = Kha ḽiṅwe sia, arali ni tshi vhona u nga muvhali ha athu vhuya a ṱangana na iḽo ipfi, nahone ho tou humbulelwa kubulele kwaḽo, ni songo zwi tendela. Arali ni si na vhungoho, shumisani gunubu ya u pfuka.
 contribution-background-noise-description = Ri ḓo ṱoḓa uri algorithm dza machine learning dzi kone u fhambanyisa phosho i re nga murahu, na phosho ya khulwane i nga tendela, fhedzi a yo ngo tea u thivhela uri ni pfe zwoṱhe zwo ambiwaho. Muzika u re fhasi wo tendelwa; muzika u ne wa khou ita phosho lune ni si kone u pfa maipfi oṱhe ane muṅwe a khou a amba a wo ngo tendelwa.
 contribution-background-voices-description = Fhethu hu re na vhathu fhedzi ho fhumuaho ho luga, fhedzi a ri ṱoḓi uri hu pfale maṅwe maipfi ane a nga ita uri mitshini ya algorithm i ḓivhe zwiṅwe zwine zwa khou ambiwa zwi songo ṅwalwaho. Arali ni tshi khou pfa maipfi o khetheaho a siho kha mitaladzi yo ṅwalwaho, zwo rekhodiwaho a zwo ngo tendelwa. Zwenezwi zwi nga itea musi TV yo sala i tshi khou tamba, kana hu na vhathu vhane vha khou amba tsini na henefho.
+contribution-background-voices-description-extended = Arali rekhodo yo khathuwa, kana i na manzaranzara, i haneni nga nnḓani ha musi mafhungo oṱhe a tshi khou pfala.
 contribution-volume-description = Hu ḓo vha na u fhambana-fhambana ha volumu dza vhavhali. I iledzeni arali volumu ya hone i nṱhesa lune ya khathuwa, kana (zwiṅwe zwo ḓoweleaho) arali i fhasi lune ni si kone u pfa zwine zwa khou ambiwa ni songo sedza mafhungo o ṅwalwaho.
 contribution-reader-effects-description = Zwithu zwinzhi zwo rekhodiwaho ndi zwa vhathu vha tshi khou amba nga ipfi ḽavho ḽa vhukuma. Ni nga ṱanganedza zwithu zwi sa itei tshifhinga tshoṱhe kha zwo rekhodiwaho zwine zwa vha u tzhema, u hevhedza, kana u amba nga ipfi ḽa ane a nga u khou ita ‘ḽitambwa’. Ri humbela uri ni songo tendela zwo rekhodiwaho hu tshi khou imbiwa na zwe ha shumiswa maipfi a dzi khomphuyutha.
 contribution-just-unsure-description = Arali na ṱangana na zwithu zwine zwi si vhe hone kha hovhu vhulivhisi, ri humbela uri ni khethe u shumisa khaṱhulo yaṋu. Arali ni sa koni u dzhia phetho, puṱedzani button ya u pfukha nahone ni fhirele kha zwo rekhodiwaho zwi tevhelaho.
