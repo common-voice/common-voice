@@ -216,6 +216,7 @@ help-us-title = Re thuse ho netefatsa dipolelo!
 no-clips-to-validate = Ho bonahala eka ha ho na di-clip tsa ho mamela ka puo ena. Re thuse ho tlatsa letoto ka ho rekota tse ding hona jwale.
 vote-yes = Ee
 vote-no = Tjhe
+toggle-play-tooltip = Tobetsa { shortcut-play-toggle } ho fetola mokgwa wa ho bapala
 speak-subtitle = Nehelana ka lentswe la hao
 speak-goal-text = Di-clip di rekotilwe
 listen-subtitle = Re thuse ho netefatsa mantswe
@@ -225,6 +226,7 @@ hours-validated = Dihora tse netefaditsweng
 voices-online = Mantswe a Marang-rang Hona Jwale
 todays-progress = Tswelopele ya kajeno
 help-reach-goal = Re thuse ho fihlela { $goal }
+ready-to-record = O ikemiseditse ho nehelana ka lentswe la hao?
 all-locales = Koafela
 today = Kajeno
 x-weeks-short =
@@ -232,6 +234,8 @@ x-weeks-short =
         [one] Beke
        *[other] beke
     }
+sign-up-account = Ngodisa bakeng sa ak'haonte
+email-subscription-title = ingodise bakeng sa email ya dintlafatso
 
 ## Account Benefits
 
@@ -321,6 +325,7 @@ profile-create-success = Katleho, profaele e entswe!
 profile-close = Kwala
 accept-privacy-title = Leano la Lekunutu
 login-identity = Boitsebiso ba ho Kena
+login-signup = Kena / Ngodisa
 edit = Lokisa
 email-subscriptions = Dipeeletso tsa Email
 download-profile = Download-a Data ya Ka
@@ -328,6 +333,8 @@ contribution-experience = Boiphihlelo ba Monehelo
 skip-submission-feedback = Tlola Maikutlo a Thomello
 off = E kwetswe
 on = E butswe
+help-accent = O hloka thuso ka mokgwa wa ho bua?
+help-variants = O hloka thuso ka mefuta e fapaneng?
 
 ## Profile - Email
 
@@ -350,6 +357,7 @@ add-language = Kenya Puo
 faq-title = Dipotso Tse Botswang Kgafetsa
 faq-what-cv-q = Common Voice ke Eng?
 faq-how-calc-hours-q = Common Voice e bala dihora jwang?
+faq-is-account-public-q = Na dintlha tsa ak'haonte ya ka di phatlalatsa?
 faq-using-cv = Ho Sebedisa Common Voice
 faq-search-for-answers =
     .label = Batlana le dikarabo
@@ -357,6 +365,7 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Hobaneng Common Voice?
+how-does-it-work-title-v2 = Common Voice e sebetsa jwang?
 
 ## How does it work section
 
@@ -384,6 +393,8 @@ about-nav-why-common-voice = Hobaneng ?
 about-nav-how-it-works = Jwang ?
 about-nav-partners = Balekane
 about-nav-get-involved = Nka karolo
+about-nav-how-it-works-2 = Common Voice e sebetsa jwang?
+about-nav-playbook = Ithute ho nka karolo
 
 ## Community Playbook Content
 ## What is a language
@@ -397,6 +408,7 @@ about-playbook-how-add-language-collecting-sentences-heading = Ho bokella dipole
 
 ## How does localization work
 
+about-playbook-how-localize = Ebe localization ya sebaka sa marang rang e etswa jwang?
 about-playbook-how-localize-content-5 = Shebella setsebi sa rona sa video ho o thusa
 
 ## How to add sentences
@@ -484,6 +496,7 @@ data-other-librispeech-description = LibriSpeech ke kakaretso ya dihora tse ka b
 data-other-ted-name = TED-LIUM Corpus
 go-discourse = Eya ho Discourse
 go-languages-page = Eya Leqepheng la Dipuo
+ready-to-validate = O ikemiseditse ho thusa ho netefatsa dipolelo?
 more = Tse ding
 close = Kwala
 download = Download
@@ -552,9 +565,13 @@ clips-with-count-pluralized =
 record-cta = Qala ho rekota
 record-must-allow-microphone = O tlameha ho dumella tshebediso ya maekrofounu.
 record-no-mic-found = Ha ho maekerofounu e fumanweng.
+record-error-too-short = Rekoto e ne e le kgutshwanyane haholo.
+record-error-too-long = Rekgoto e ne e le telele haholo.
+record-error-too-quiet = Rekoto e ne e thotse haholo.
 record-cancel = Hlakola ho rekota hape
 record-stop-instruction = { $actionType }<stopIcon></stopIcon> ha o qetile
 record-three-more-instruction = Tse tharo tse tlang ho tsamaea!
+record-again-instruction2 = Pele ya pele, rekota hape <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon> Ya ho qetela!
 share-clip = Arolelana clip ya hao
 share-common-voice = Arolelana Common Voice
@@ -674,6 +691,7 @@ profile-form-delete = Hlakola Profaele
 
 ## Profile Download
 
+download-q = O hloka ho downlad-a data ya hao?
 download-profile-title = Profaele
 download-profile-size = Di-byte tse mmalwa
 download-recordings-title = Direkoto
@@ -685,6 +703,7 @@ download-request = Kopa tse rekotilweng
 download-requests = Dikopo tsa ho download-a direkoto tse fetileng
 download-request-button = Download
 download-request-archive-single = Faele e le nngwe ya ZIP e nang le
+download-request-archive-multiple = Arolela ho { $archiveCount } difaele tsa ZIP tse nang le
 download-request-refresh-button = Kgatholla
 download-request-modal-title = Download-a dihokahanyo
 download-request-link-text = Zip #{ $offset } ya { $kakaretso }
@@ -787,6 +806,7 @@ sc-howto-cite-item-3 = Bakeng sa mongolo wa setjhaba o sa fumaneheng marang-rang
 sc-howto-review-title = Hlahloba Dipolelo
 sc-howto-review-criteria-1 = Polelo e tlameha ho peletwa ka nepo.
 sc-howto-review-criteria-2 = Polelo e tlameha ho nepahala ho ya ka sebopeho-puo.
+sc-howto-review-criteria-3 = Polelo e tlameha ho bueha.
 sc-howto-findpd-title = Ho fumana dipolelo tse teng Setjhabeng
 sc-howto-findpd-subtitle = Di batle ho marang-rang
 sc-howto-findpd-tips = Ditlhahiso ke tsena tsa ho fumana dipolelo:
@@ -879,6 +899,7 @@ sc-criteria-modal = ⓘ Mekgwa ya Tlhatlhabo
 sc-criteria-title = Mekgwa ya Tlhatlhobo
 sc-criteria-item-1 = Polelo e tlameha ho peletwa ka nepo.
 sc-criteria-item-2 = Polelo e tlameha ho nepahala ho ya ka sebopeho-puo.
+sc-criteria-item-3 = Polelo e tlameha ho bueha.
 
 ## REVIEW
 
@@ -908,7 +929,11 @@ sc-settings-title = Ditlhophiso
 sc-settings-ui-language = Puo ya Sehokelo
 sc-settings-reset-skipped = Seta botjha dipolelo tse tlotsweng
 sc-settings-skipped-decription = O ile wa tlola dipolelo ha o ntse o hlahloba. Ho hlophisa botjha dipolelo tse tlotsweng ho tla bontsha dipolelo tsohle tse tlotsweng hape. Sena se ikemetse ho puo.
+sc-settings-show-all-button = Bontsha dipolelo tse tlotsweng hape
 sc-settings-failed = Ha e kgone ho fetola ditlhophiso. Ka kopo leka hape.
+sc-validation-no-numbers = Polelo ha ya lokela ho ba le dipalo
+sc-validation-no-symbols = Polelo ha ya lokela ho ba le matshwao
+sc-validation-no-abbreviations = Polelo ha ya lokela ho ba le dikgutsufatso
 
 # [/SentenceCollector]
 
