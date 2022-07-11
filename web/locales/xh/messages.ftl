@@ -172,6 +172,7 @@ goal-share-text = Ndisandula ukwenza injongo yam yokunikela ngelizwi kwi #Common
 
 ## HOW-TO
 
+sc-howto-cite-item-2 = Unokusebenzisa isitayile sereferensi sezemfundo, umz. isitayile seHarvard "Mozilla (2021) Common Voice. Ifumaneka apha https://commonvoice.mozilla.org/ (Ijongwe: nge-15 kaSeptemba 2021)"
 sc-howto-cite-item-3 = Kumbhalo wesizinda sikawonke-wonke ongafumanekiyo kwi-intanethi, ungasebenzisa isimbo sereferensi yezemfundo umz. isimbo saseHarvard "Jess (2021) Imibongo yam yelayisensi kawonke"
 
 ## MY SENTENCES
@@ -203,6 +204,14 @@ sc-confirm-uploading = Izivakalisi ziyalayishwa. Oku kungathatha imizuzu emininz
 
 ## LANGUAGE INFO
 
+# Variables:
+#   $unreviewedSentencesByYou (Number) - Number of sentences the user can still review
+sc-lang-info-left-for-you =
+    { $unreviewedSentencesByYou ->
+        [0] Akukho zivakalisi eziseleyo ukuba uzihlole.
+        [one] Si-1 isivakalisi esishiyekileyo ukuba usihlole.
+       *[other] { $unreviewedSentencesByYou } izivakalisi ezishiyekileyo ukuze uzihlole.
+    }
 
 ## LOGIN
 
