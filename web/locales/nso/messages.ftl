@@ -291,6 +291,7 @@ whats-public = Ke eng ya go Phatlalatšwa?
 email-not-public = Re ka se phatlalatše e-meile ya gago.
 recordings-and-locale-public = Palo ya dipego le dipolelo tšeo o di neetšego di tla phatlalatšwa.
 username-optin-public = O ka kgetha go phatlaletša leina la mošomiši goba ya go se tsebje.
+demographic-deidentified-clarity-2 = Tekano ya palo ya batho yeo e rometšwego ka datha (mohlala. mengwaga, bong, leleme, le mmolelo) di ka se tša phatlalatšwa go profaele ya gago, gomme di ka se tswalaganywa le akhaonte ya gago ka dathaseteng. Ditsopolwana tša odio di tla tswalanywa le datha tša palo ya batho ka morero wa tsheka-tsheko o nepagetšego kudu – ka mohlala, monyakišiši a ka nyaka go lebiša mohlala wa eteletšo go karolo e itseng ya palo ya batho.
 username-email-not-demographic = Leina la gago la mošomiši le e-meile di ka se kopantšhwe le datha e re tlo e phatlalatša.
 
 ## Speak & Listen Shortcuts
