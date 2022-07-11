@@ -40,6 +40,8 @@ hr = Se-Croatia
 hy-AM = Se-Armania
 my = Se-Burma
 sq = Se-Albania
+ti = Se-Tigrinya
+tig = Se-Tigre
 yue = Se-Canton
 
 # [/]
@@ -79,6 +81,7 @@ no-clips-to-validate = Go lebega go se na dikgatiso dipe tse di tlhokang go reed
 speak-paragraph = Go rekota mantswe ke karolo e e botlhokwa thata e e thusang go aga rekoto ya tshedimosetso; ba bangwe ba ka re gape ke karolo e e itumedisang.
 listen-paragraph = Go tlhomamisa dikgatiso tse di abilweng le gone go botlhokwa mo maikaelelong a Common Voice. Reetsa mme o re thuse go dira tshedimosetso e e nang le boleng ya mantswe.
 all-locales = Tsotlhe
+today = Gompieno
 x-years-short =
     { $count ->
         [one]
@@ -369,6 +372,7 @@ request-language-error = Re ka tswa re ise re amogele kopo eo. Tsweetswee re rom
 
 language-section-in-progress-new-description = Ga jaana dipuo tseno di tokafadiwa ke badirisi. <localizationGlossaryLink>Go ranola webosaete</localizationGlossaryLink> le <sentenceCollectionGlossaryLink>go kgobokanya mela</sentenceCollectionGlossaryLink> go a tlhokega go diragatsa.
 language-section-launched-description = Mo dipuong tseno tse di simolotsweng, webosaete e <localizationGlossaryLink>dirilwe ya selegae</localizationGlossaryLink> ka katlego, mme e na le <sentenceCollectionGlossaryLink>dipolelo tse di lekaneng tse di phuthilweng</sentenceCollectionGlossaryLink> go letla dikabo tse di tswelelang tsa <speakLink>Bua</speakLink> le <listenLink>Reetsa</listenLink>.
+language-total-progress = Palogotlhe
 
 ## Contribution
 
