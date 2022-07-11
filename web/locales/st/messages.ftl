@@ -6,6 +6,7 @@ email-input =
 email-opt-in-info-title = Kena lethathamong la mangolo la Common Voice
 indicates-required = Dibaka tse tshwauweng ka naledi (*) di a hlokahala.
 not-available-abbreviation = N/A
+banner-error-slow-1 = Tshwarelo, Common Voice e sebetsa butle. Re leboha thahasello ya hao.
 banner-error-slow-2 = Re fumana sephethephethe se sengata mme re ntse re etsa dipatlisiso hajwale.
 banner-error-slow-link = Leqephe la Boemo
 error-something-went-wrong = Tshwarelo, ho na le ho hong ho fosahetseng
@@ -247,6 +248,7 @@ email-subscription-title-new = Ingodise bakeng sa dikoranta tsa Common Voice, di
 
 benefits = Melemo
 improve-audio = Dintlha tsa profaele di ntlafatsa data ya audio e sebediswang ho kwetlisa nepahalo ya temoho ya puo.
+keep-track = Boloka tlaleho ya tswelopele ya hao le dipalo ho dipuo tse ngata.
 compare-progress = Sheba kamoo tswelopele ya hao e bapiswang le batshehetsi ba bang lefatsheng ka bophara.
 
 ## What's public
@@ -290,6 +292,11 @@ request-language-button = Kopa Puo
 ## ProjectStatus
 
 status-contribute = Fana ka Lentswe la Hao
+status-hours =
+    { $hours ->
+        [one] { "" }
+       *[other] { "" }
+    }
 # Variables:
 # $goal - number of hours representing the next goal
 status-goal = Dipheo tse Latelang: { $goal }
@@ -334,6 +341,7 @@ settings = Ditlhophiso
 edit-profile = Fetola Profaele
 profile-create-success = Katleho, profaele e entswe!
 profile-close = Kwala
+thanks-for-account = Rea leboha ka ho netefatsa ak'haonte ya hao, jwale ha re theheng profaele ya hao.
 why-demographic = Ke hobane’ng ha see se le bohlokwa?
 accept-privacy-title = Leano la Lekunutu
 login-identity = Boitsebiso ba ho Kena
@@ -386,6 +394,7 @@ faq-why-mission-a = Mozilla e ikemiseditse ho boloka marang-rang a butswe ebile 
 faq-is-goal-assistant-q = Na sepheo sa Common Voice ke ho aha mothusi wa lentswe?
 faq-why-different-speakers-q = Ke hobaneng ha o hloka dibui tse ngata tse fapaneng puo ka nngwe?
 faq-why-my-lang-q = Ke hobane'ng ha puo ya ka e so kenyeletswe?
+faq-what-quality-a = Re batla hore pokello ya data ya Common Voice e bonahatse boleng ba audio boo enjene ya puo-ho-ya-ho-sengolwa e tla e utlwa hara thota, kahoo re batla mefuta e fapaneng. Ka tlatselletsa ho mefuta-futa ya ditjhaba tsa dibui, pokello ya data e nang le di-audio tse boleng bo fapaneng e tla ruta enjene ya puo-ho-ya-ho-sengolwa ho sebetsana le maemo a lefatshe a fapaneng, ho tloha ho dipuisano tse kamorao ho isa ho lerata la koloi. Ha feela sekotwana sa lentswe sa hao se utlwahala, se tla be se lokile ho lekana bakeng sa pokello ya data.
 faq-why-10k-hours-q = Hobaneng dihora tse 10,000 tse netefaditsweng e le sepheo sa puo ka nngwe ya ho nka audio?
 faq-how-calc-hours-q = Common Voice e bala dihora jwang?
 faq-where-src-from-2-q = mongolo mohlodi o tswa hokae?
@@ -471,12 +480,14 @@ about-playbook-how-record-content-5 = <accuracyLink>Sheba haholwanyane ka mokgwa
 
 ## How to grow language
 
+about-playbook-how-grow-language = Re ka hodisa puo ka katleho jwang ho Common Voice?
 about-playbook-how-grow-language-content-2 = Diketsahalo
 about-playbook-how-grow-language-content-4 = Metjha ya ditaba ya setjhaba
 about-playbook-how-grow-language-content-6 = Dikamano le marang-rang
 
 ## How to validate
 
+about-playbook-how-validate = Ke tseba jwang hore nka amohela clip ya lentswe?
 
 ## How to access dataset
 
@@ -549,6 +560,10 @@ download-language = Download-a { $language }
 validated-hours = Dihora tse netefaditsweng
 recorded-hours = Dihora tse Rekotilweng
 whats-inside = Ho na le eng ka har'a pokello ya data ya Common Voice?
+dataset-description-hours =
+    Ntho e nngwe le e nngwe e kentsweng ka hara pokello ya data e na le MP3 e ikgethileng le faele ya sengolwa e tsamaellanang le yona. Bongata ba <b>{ $total }</b> dihora tse rekotilweng kahara pokello ya data di boetse di kenyelletsa metadata ya dintlha tsa palo ya batho jwaloka dilemo, bong le tsela ya puo tse ka thusang ho kwetlisa nepahalo ya dienjene tse elellwang puo. 
+    
+    Pokello ya data hajwale e na le <b>{ $valid }</b>dihora tse netefaditsweng ka <b>{ $languages }</b> dipuo, empa re dula re eketsa mantswe le dipuo tse ding. Sheba <languagesLink> Leqephe la Dipuo la rona</languagesLink> ho kopa puo kapa ho qala ho tlatsetsa.
 subscribe = Ngodisa
 get-started-speech = Qala ka Temoho ya Puo
 other-datasets = Dipokello tsa Data tse Ding
@@ -599,6 +614,7 @@ request-language-form-info =
 request-language-form-info-explanation = Eketsa dintlha tse ngata kamoo o ka kgonang ka puo. Sena se ka kenyelletsa:
 request-language-form-info-explanation-list-1 = Mabitso a puo ya hao
 request-language-form-info-explanation-list-2 = <isoCodeLink>Dik'houtu tsa ISO</isoCodeLink> haeba di tsejwa
+request-language-form-info-explanation-list-3 = Dihokelo tsa dibaka tsa marang-rang tse ka re thusang ho utlwisisa puo eo
 
 ## Languages Overview
 
@@ -748,6 +764,7 @@ weekly-goal = Sepheo sa beke le beke
 easy-difficulty = E bonolo
 difficult-difficulty = E thata
 pro-difficulty = Pro
+lose-goal-progress-warning = Ka ho hlophisa sepheo sa hao, o ka lahlehelwa ke tswelopele ya hao e teng.
 want-to-continue = O batla ho tswelapele?
 finish-editing = Qetela ho lokisa pele?
 lose-changes-warning = Ho tsamaea hona jwale ho bolela hore o tla lahlehelwa ke diphetoho tsa hao
@@ -842,6 +859,7 @@ demo-listen-subtitle = Na o ikemiseditse ho kenya letsoho?
 
 ## Demo Dashboard
 
+demo-dashboard-card-header = Di-dashboard tsa hao di o boloka o le morao-rao mabapi le tswelopele ya motho ka mong le ya setjhaba.
 
 ## Validation criteria
 
@@ -850,10 +868,12 @@ contribution-criteria-link = Utlwisisa mekgwa ya ho fana
 contribution-criteria-page-title = Mekgwa ya ho Nehelana
 contribution-for-example = Mohlala
 contribution-misreadings-title = Ho se bale hantle
+contribution-misreadings-description-extended-list-1 = Ha ho na <strong>'A'</strong> kapa <strong>'The'</strong> qalong ya rekoto.
 contribution-misreadings-description-extended-list-5 = Ho leka makgetlo a mmalwa ho bala lentswe.
 contribution-misreadings-example-2-title = Kgodumodumo e kgolo tsa Triassic.
 contribution-misreadings-example-2-explanation = [E tlameha e be 'dikgodumodumo']
 contribution-misreadings-example-3-title = Dikgodumodumo tse kgolo tsa Triassic-.
+contribution-misreadings-example-3-explanation = [Rekoto e kgaotswe pele lentswe la ho qetela le felella]
 contribution-misreadings-example-4-title = Dikgodumodumo tse kgolo tsa Triassic. Ee.
 contribution-misreadings-example-4-explanation = [Ho tlalehilwe tse ngata ho feta mongolo o hlokahalang]
 contribution-misreadings-example-5-title = Re il'o fumana kofi.
@@ -870,6 +890,7 @@ contribution-background-noise-example-1-fixed-title = <strong>[Sneeze]</strong> 
 contribution-background-noise-example-2-fixed-title = Kgodumodumo e kgolo <strong>[cough]</strong> Triassic.
 contribution-background-noise-example-2-explanation = [Karolo e nngwe ya mongolo ha e utluwe]
 contribution-background-voices-title = Mantswe a ka morao
+contribution-background-voices-example-1-title = Dikgodumodumo tse kgolo tsa Triassic. <strong>[e balwe ka lentswe le le leng]</strong>
 contribution-volume-title = Bophahamo ba modumo
 contribution-just-unsure-title = Feela ha o na bonnete?
 see-more = <chevron></chevron>Bona tse ding
@@ -903,6 +924,12 @@ sc-logout-button = Tswa
 ## HOME
 
 sc-home-title = Rea o amohela ho MMokelli wa Dipolelo wa Common voice
+sc-home-intro =
+    "Mmokelli wa dipolelo ke karolo ya<commonVoiceLink>Common Voice</commonVoiceLink>. E dumella bafani ho bokella le ho netefatsa dipolelo tse entsweng ke setjhaba. O ka sebedisa sesebediswa sena ho tlisa kahare le ho hlwekisa dingolwa tsa setjhaba tse nyane ho isa ho tse bohareng tseo o di fumaneng kapa o di bokelletseng. Dipolelo kaofela di tlameha hore ebe Tsa Setjhaba. Dipolelo tse amohetsweng di romellwa beke e nngwe le e nngwe ho polokelo ya Common Voice mme di ntshetswa setsing sa marang-rang sa Common Voice ka thomello e nngwe le e nngwe e ntjha.
+    
+    
+    
+    "
 sc-home-collect-title = Bokella dipolelo
 sc-home-review-title = Hlahloba Dipolelo
 sc-home-review-text = Re thuse ka ho hlahloba dipolelo bakeng sa nepahalo ho latela ditataiso.
@@ -924,8 +951,10 @@ sc-howto-review-subtitle = Etsa bonnete ba hore polelo e fihlela mekgwa e latela
 sc-howto-review-criteria-1 = Polelo e tlameha ho peletwa ka nepo.
 sc-howto-review-criteria-2 = Polelo e tlameha ho nepahala ho ya ka sebopeho-puo.
 sc-howto-review-criteria-3 = Polelo e tlameha ho bueha.
+sc-howto-review-criteria-4 = Haeba polelo e kopana le ditekanyetso, tobetsa konopo ya "Amohela".
 sc-howto-findpd-title = Ho fumana dipolelo tse teng Setjhabeng
 sc-howto-findpd-subtitle = Di batle ho marang-rang
+sc-howto-findpd-text-2 = Hopola hore re hloka tumello ho phatlalatsa dipolelo tseo, kahoo kamehla etsa bonnete ba hore sengolwa ke <wikipediaLink>sa setjhaba se phatlalatsa</wikipediaLink>. Haeba ho se letho le bontshang ka ho hlaka, buisana le motho eo sengolwa e leng sa hae mme o botse hore na o batla ho tlatsetsa ka sengolwa sa hae ho Tsa Setjhaba. Haeba ba batla, ba thuse ho kena tshebetsong ya<cc0WaiverLink>Tumello ya Bafani</cc0WaiverLink>. Haeba ba sa batle ho tlatsetsa ka sengolwa, jwale ha wa dumellwa ho sebedisa sengolwa seo.
 sc-howto-findpd-tips = Ditlhahiso ke tsena tsa ho fumana dipolelo:
 sc-howto-findpd-subtitle-2 = Sebedisana le mekgatlo ya lehae kapa batho ka bomong
 
@@ -954,12 +983,18 @@ sc-rejected-none-found = Ha ho dipolelo tse hannweng tse fumanweng!
 sc-stats-title = Dipalo-palo
 sc-stats-updating = E ntse e ntlafatsa...
 sc-stats-error = Ha rea ​​kgona ho lata dipalo palo. Ka kopo leka hape hamorao.
+# Variables:
+#   $sentenceCount (Number) - Total number of sentences uploaded through Sentence Collector
+#   $languageCount (Number) - Total number of languages these sentences represent
+sc-stats-summary = Mobokelli wa dipolelo wa Common Voice o bokelletse { $sentenceCount } dipolelo ka { $languageCount } dipuo!
 
 ## ADD
 
 sc-submit-err-select-lang = Ka kopo kgetha puo.
 sc-submit-err-add-sentences = Ka kopo kenya dipolelo
 sc-submit-err-add-source = Ka kopo kenya mohlodi.
+sc-submit-prompt =
+    .message = Dipolelo ha dia romellwa, na o tiile o batla ho tsamaya?
 sc-submit-title = Kenya Dipolelo
 sc-submit-select-language =
     .labelText = Kgetha Puo
@@ -985,6 +1020,8 @@ sc-add-err-submission = Phoso ya Thomello
 
 ## ADD SENTENCES CONFIRMATION
 
+sc-confirm-are-you-sure =
+    .message = Dipolelo ha dia romellwa, na o tiile o batla ho tsamaya?
 sc-confirm-sentences-title = Netefatsa Dipolelo tse Ntjha
 # Variables:
 #   $countOfInvalidated (Number) - Number of sentences the user rejected in the review form before submission
