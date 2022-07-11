@@ -40,10 +40,12 @@ nr = IsiNdebele (South)
 nso = Northern Sotho
 nyn = Runyankole
 om = Afaan Ormoo
+pa-IN = Punjabi
 pap-AW = Papiamento (Aruba)
 quy = Quechua Chanka
 rm-sursilv = Romansh Sursilvan
 rm-vallader = Romansh Vallader
+ro = Romanian
 ru = Russian
 sah = Sakha
 sat = Santali (Ol Chiki)
@@ -101,6 +103,7 @@ zu = Zulu
 
 speak = Khuluma
 speak-now = Khuluma manje
+profile = Iphrofayela
 terms = Imigomo
 content-license-text = Okuqukethwe kutholakala ngaphansi <licenseLink> Ilayisensi  ye-Creative Commons </licenseLink>
 share-title = Sisize sithole abanye abanganikela ngamazwi abo!
@@ -188,8 +191,13 @@ shortcut-vote-yes = y
 
 ## Speak Shortcuts
 
+# Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-record-toggle = r
+shortcut-record-toggle-label = Qopha/Yeka
 shortcut-rerecord-toggle-label = Qopha isiqeshana kabusha
 shortcut-discard-ongoing-recording-label = Lahla ukurekhoda okuqhubekayo
+shortcut-submit = Buyela
 shortcut-submit-label = Thumela iziqeshana
 request-language-text = Awuboni ulimi lwakho ku-Common Voice okwamanje?
 request-language-button = Cela Ulimi
@@ -354,6 +362,10 @@ about-no-votes = ≥ 2 Amavoti athi Cha
 about-dataset-new = Idathasethi YeCommon Voice
 about-dataset-new-text = Idathasethi yeCommon Voice iqukethe amakhulu ezinkulungwane zamasampuli ezwi asiza onjiniyela bakhe amathuluzi okwazi izwi.
 about-clip-graveyard = Amathuna eziqeshana
+about-clip-graveyard-text =
+    iClip Graveyard yilapho kuneziqephu eziqoshiwe ezingafinyelelanga emthonjeni weCommon Voice. Njengomthombo, iClipGraveyard iyatholakala. 
+    
+    Sithanda ukubonga lababantu nalezinhlangano ngokusiza kwabo kuleprojekthi:
 about-get-involved = Zibandakanye
 about-stay-in-touch = Ngihlala kanjani ngithintana?
 about-stay-in-touch-button = Bhalisa
@@ -467,6 +479,8 @@ terms-disagree = Angivumi
 review-aborted = Ukulodiwe kunqanyuliwe. Uyafuna ukususa okurekhodiwe kwakho?
 review-submit-title = Buyekeza futhi uthumele
 review-submit-msg = Siyabonga ngokurekhoda!<lineBreak></lineBreak>Manje buyekeza futhi uhambise iziqeshana zakho ngezansi.
+review-recording = Buyekeza
+review-rerecord = Qopha kabusha
 review-cancel = Khansela i-submission
 review-keep-recordings = Gcina okuqoshiwe
 review-delete-recordings = Susa okwami okuqoshiwe
@@ -577,6 +591,7 @@ language-section-in-progress = Kuyaqhubeka
 language-section-in-progress-new-description = Lezi zilimi okwamanje zingaphansi kokuthuthukiswa komphakathi. <localizationGlossaryLink>Ukwenziwa kwasendaweni kwewebhusayithi</localizationGlossaryLink> ne-<sesentenceCollectionGlossaryLink>iqoqo lemisho</sentenceCollectionGlossaryLink> kuyadingeka ukuze kuqaliswe.
 languages-show-more = Buka Okuningi
 languages-show-less = Bona Okuncane
+language-meter-in-progress = Inqubekela phambili
 language-total-progress = Isamba
 language-search-input =
     .placeholder = Cinga
@@ -647,6 +662,7 @@ target-segment-learn-more = Funda kabanzi
 
 ## Reporting
 
+report = Bika
 report-title = Thumela umbiko
 report-ask = Yiziphi izinkinga ohlangabezana nazo ngalo musho?
 report-offensive-language = Ulimi olucasulayo
@@ -709,6 +725,7 @@ goal-type = Hlobo luni lomgomo ofuna ukulakha?
 both-speak-and-listen-long = Kokubili (Khuluma futhi Ulalele)
 daily-goal = Inhloso Yansuku Zonke
 weekly-goal = Injongo Yamaviki Onke
+pro-difficulty = Chwephese
 lose-goal-progress-warning = Ngokushintsha injongo yakho, ungase ulahlekelwe inqubekelaphambili okukhona.
 want-to-continue = Ufuna ukuqhubeka?
 finish-editing = Qedela ukuhlela kuqala?
@@ -770,13 +787,16 @@ return-to-edit-goal = Buyela lapha ukuze ushintshe injongo yakho noma nini.
 
 ## Profile Delete
 
+remove = Susa
 profile-form-delete = Susa iphrofayela
 
 ## Profile Download
 
 download-info = Sitshele ukuthi yini ongathanda ukuyiloda:
+download-profile-title = Iphrofayela
 download-profile-info = Kufaka phakathi i-imeyili, igama olisebenzisayo nolwazi lwezibalo zabantu, olutholakala ngokushesha
 download-profile-size = Ama-byte ambalwa
+download-recordings-title = Okuqoshiwe
 download-recordings-info = Kuhlanganisa ama-mp3 nemisho ehlobene, kungase kuthathe isikhathi ukulungiselela
 download-recordings-size = Ngokuvamile ama-megabytes
 download-recordings-unavailable = Awukwazi ukucela ukurekhodwa kwakho ngenkathi esinye isicelo sisaqhubeka.
@@ -791,6 +811,7 @@ download-request-description = { $clipCount } iziqeshana zezwi, isamba sikasayiz
 download-request-archive-single = Ifayela le-ZIP elilodwa eliqukethe
 download-request-archive-multiple = Hlukanisa kube { $archiveCount } amafayela e-ZIP aqukethe
 download-request-assembling-description = Amafayela akho ayahlanganiswa. Sicela uhlole futhi ngokuhamba kwesikhathi.
+download-request-refresh-button = Vuselela
 download-request-modal-title = Downloda Izixhumanisi
 download-request-modal-description = Nazi izixhumanisi zokuloda amafayela akho e-ZIP.
 download-request-link-text = I-Zip #{ $offset } ye-{ $total }
@@ -892,12 +913,15 @@ see-less = <chevron></chevron>Bona okuncane
 
 ## HEADER/FOOTER
 
+sc-header-review = Buyekeza
 sc-header-rejected = Imisho Enqatshiwe
 sc-header-my = Imisho Yami
 sc-header-statistics = Izibalo
+sc-header-profile = Iphrofayela
 sc-footer-report-bugs = Bika Iziphazamisi
 sc-footer-translate = Humusha leli khasi
 sc-footer-report-copyright = Bika izinkinga zelungelo lobunikazi
+sc-footer-privacy = Ubumfihlo
 sc-footer-terms = Imigomo
 sc-login-signup-button = Ngena / Bhalisa
 sc-logout-button = Phuma
@@ -1114,9 +1138,13 @@ sc-login-err-try-again = Ngicela uzame futhi.
 
 ## PROFILE
 
+# Variables:
+#   $username (String) - eMail address of the logged in user
+sc-profile-title = Iphrofayela: { $username }
 sc-personal-err-lang-not-found = Ayikwazanga ukususa ulimi: ulimi alutholakali
 sc-personal-err-remove = Ayikwazanga ukususa ulimi
 sc-personal-your-languages = Izilimi Zakho:
+sc-personal-remove-button = susa
 # Variables:
 #   $sentences (Number) - Number of sentences that were added by the currently logged in user for this language
 sc-personal-added-by-you = { $sentences } kwengezwe nguwe
@@ -1144,6 +1172,7 @@ sc-review-form-prompt =
 # Variables:
 #   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
 sc-review-form-source = Umthombo: { $sentenceSource }
+sc-review-form-button-reject = Nqaba
 sc-review-form-button-skip = Yeqa
 # Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
 sc-review-form-button-approve-shortcut = Y
@@ -1161,6 +1190,7 @@ sc-review-form-reviewed-message =
        *[other] { $sentences } ibuyekeziwe. Ngiyabonga!
     }
 sc-review-form-review-failure = Isibuyekezo asikwazanga ukugcineka. Sicela uzame futhi emuva kwesikhathi.
+sc-review-link = Buyekeza
 
 ## SETTINGS
 
