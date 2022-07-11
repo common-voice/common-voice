@@ -475,6 +475,7 @@ profile-not-required = Ga o tlhoke go nna le porofaele gore o thuse, mme gone go
 demo-language-select-card-header = Common Voice ke rekoto ya tshedimosetso ya mantswe ya dipuo tse dintsi e batho mo lefatsheng lotlhe ba kgonang go e fitlhelela.
 demo-language-select-card-body = Re leboga dikabo go tswa go batho ba feta 259k mo dipuong di feta 50, tshedimosetso eno e dirisiwa go thapisa dithulaganyo tsa puo go araba botoka mantswe a batho.
 card-button-back = Morago
+demo-language-select-label = Leba Dipuo
 demo-account = Akhaonto
 
 ## Demo Account
@@ -503,6 +504,7 @@ contribution-varying-pronunciations-example-1-explanation = [‘Berethe’ e sia
 contribution-varying-pronunciations-example-2-explanation = [Ka dinako tsotlhe ‘Raised’ ka Seesemane o bidiwa e le lefoko le le lengwe, e seng a mabedi]
 contribution-background-noise-description = Re batla gore go ithuta ga metšhine go kgone go lepalepana le medumo e mentsi e e kwa morago, le medumo e e kwa godimo e ka amogelesega fa fela e sa go thibele go utlwa mokwalo otlhe. Mmino o o lelang kwa morago go didimetse o siame; mmino o o kwa godimo thata mo o go thibelang go utlwa mafoko otlhe ga wa siama.
 contribution-background-noise-description-extended = Fa kgatiso e kgaoga kgotsa e gagasha, e gane, ntle le fa mafoko otlhe a kgona go utlwiwa.
+contribution-background-voices-title = Mantswe mo Lemoragong
 contribution-background-voices-description = Tlhakatlhakano e e utlwalang mo lefelong le le didimetseng e siame, mme ga re batle mantswe a a oketsegileng a a ka dirang gore motšhine o se ka wa lemoga mafoko a a sa kwalwang. Fa o ka utlwa mafoko a a farologaneng le a a kwadilweng, kgatiso eo e tshwanetswe go ganwa. Gantsi seno se direga fa TV e tlogetswe e tshubilwe, kgotsa fa go na le motlotlo o o tsweletseng fa gaufi.
 contribution-background-voices-description-extended = Fa kgatiso e kgaoga kgotsa e gagasha, e gane, ntle le fa mafoko otlhe a kgona go utlwiwa.
 contribution-volume-description = Go tla nna le dipharologano tsa tlholego mo bolumong ya babadi. Gana fela fa bolumo e le kwa godimo thata mo kgatiso e kgaogang, kgotsa (se se tlwaelegileng thata) fa e le kwa tlase thata mo o sa utlweng se se buiwang kwantle ga go leba se se kwadilweng.
