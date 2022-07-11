@@ -88,6 +88,14 @@ listen-paragraph = Go tlhomamisa dikgatiso tse di abilweng le gone go botlhokwa 
 listen-goal-text = Dibidio di tlhomamisitswe
 all-locales = Tsotlhe
 today = Gompieno
+x-months-short =
+    { $count ->
+        [one]
+            "{ $count ->
+               *[other] { $count }mo
+            }"
+       *[other] { "" }
+    }
 x-years-short =
     { $count ->
         [one]
@@ -389,6 +397,7 @@ language-speakers = Dibui
 action-click = Tobetsa
 goal-help-recording = O thusitse Common Voice gore e fitlhelele <goalPercentage></goalPercentage> ya maikaelelo a rona a letsatsi a go gatisa { $goalValue }!
 goal-help-validation = O thusitse Common Voice gore e fitlhelele <goalPercentage></goalPercentage> ya maikaelelo a rona a letsatsi a go tlhomamisa { $goalValue }!
+record-stop-instruction = { $actionType }<stopIcon></stopIcon> fa o feditse
 listen-loading-error = Ga re a kgona go bona dikgatiso tsa mantswe tse o ka di reetsang. Tsweetswee leka gape moragonyana.
 speak-empty-state-cta = Aba dipolelo
 speak-loading-error = Ga re a kgona go bona mela e o ka e buang. Tsweetswee leka gape moragonyana.
