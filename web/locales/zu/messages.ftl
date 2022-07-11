@@ -244,6 +244,7 @@ change-email-setings = Shintsha i-imeyili yakho ngezilungiselelo ngaphansi kokut
 
 faq-title = Imibuzo Ejwayelekile Ukubuzwa
 faq-what-cv-q = Iyini i-Common Voice?
+faq-what-cv-a = Ubuchwepheshe bamazwi aqoshiwe buguqula indlela esisebenzisana nayo ngemishini, kodwa izinhlelo ezitholakalayo zamanje ziyabiza futhi ziphethwe abantu. ICommon Voice ingxenye yeMozilla eyisinyathelo sokwenza ubuchwepheshe bamazwi aqoshiwe ukuze abengcono, atholakale kuwo wonke umuntu. ICommon Voice umthombo wamazwi aqoshiwe avumela wonke umuntu ukuba aqeqeshe ngokushesha izinhlelo zokusebenza zamazwi, ngezilimi zonke.
 faq-what-cv-a-2 =
     Ubuchwepheshe bamazwi aqoshiwe buguqula indlela yokusebenzisana nemishini kepha izinhlelo ezitholakalayo ziyabiza futhi ziphethwe izinkampani. IMozilla Common Voice isinyathelo sokwenza ubuchwepheshe bamazwi aqoshiwe ukuba bufinyelelle kangcono kuwo wonke umuntu. ICommon Voice ulwazi olukhulu lwamazwi olunikelwe emhlabeni wonke jikelele olwenza noma ngabe yimuphi umuntu ukuba lifundise izinhlelo zokusebenza zamazwi aqoshiwe ngazo zonke izilimi.
     
@@ -263,6 +264,9 @@ faq-what-cv-and-deepspeech-a = Idathasethi yeCommon Voice ihambelana nomthombo w
 faq-is-goal-assistant-q = Ingabe umgomo we-Common Voice ukwakha umsizi wezwi?
 faq-do-want-native-q = Mina ngingumuntu ongeyena owomdabu futhi ngikhuluma ngendlela ehlukile, usafuna izwi lami?
 faq-why-different-speakers-q = Kungani udinga izikhulumi eziningi kangaka ezihlukene ngolimi ngalunye?
+faq-why-different-speakers-a =
+    Imininingwane egciniwe yenkulumo iqeqeshwe ngokumelela ngokweqile kwezibalo ezithile zabantu okuholela ekuchemaniseni <articleLink>abesilisa nasezingeni eliphakathi</articleLink>. Izindlela zokuphimisa nezilimi zesigodi ezivame ukumelwa kancane kumasethi edatha yokuqeqeshwa ngokuvamile zihlotshaniswa namaqembu abantu asebebandlululwe kakade.Imishini eminingi ibuye ibe nzima ukuqonda amazwi abantu besifazane.
+    Yingakho kwidathsethi yethu yezwi sifuna ukuhlukahluka!
 faq-why-my-lang-q = Kungani ulimi lwami lungakafakwa?
 faq-what-quality-q = Iliphi izinga lekhwalithi yomsindo elidingekayo ukuze isiqeshana sezwi sisetshenziswe kudathasethi?
 faq-what-quality-a = Sifuna idathasethi yeCommon Voice ibonakalise izinga le njini yenkulumo-kuya-umbhalo ezozwakala endle, ngakho ke sifuna izinhlobonhlobo. Ngaphezu komphakathi ohlukahlukene wabakhulumi, ulwazi oluqoqiwe unezinhlobo zokulalelwayo oluzofundisa injini yenkulumo-kuya-kumbhalo ukuba ukwazi ukumelana nezinhlobo ngezinhlobo zezimo ezangempela, njengokhuluma emotweni eyenza umsindo ngemuva. Uma ukuqopha kwakho kuzwakala nje, kuzoba kuhle kakhulu kulolwazi oluqoqiwe.
@@ -357,6 +361,7 @@ about-playbook-how-localize-content-5 = Buka umchazi wethu wevidiyo ukuze usize
 ## How to add sentences
 
 about-playbook-how-add-sentences = Ngiyengeza kanjani imisho?
+about-playbook-how-add-sentences-content-2 = Imisho kufanele ibuyekezwe nokuthi yamukelwe abantu ababili ukuze izofakwa kuCommon Voice. Yakha imihlahlandlela yolimi lakho <languageGuidelinesLink>la</languageGuidelinesLink>. Imisho kufanele ibe e <licenseLink>mthonjeni womphakathi</licenseLink> namagama angenhla kuka-15. Ungabuza umnikazi wombhalo ukuwenza <waiverLink>CC0 usebenzisa inqubo yethu yokuyeka</waiverLink>, sithumele ku commonvoice@mozilla.com
 about-playbook-how-add-sentences-content-3 = Ungasebenzisa <i-scraperLink>Isikhiphi semisho</scraperLink> ukuze usebenzise imisho emifushane kusuka ku-Wikipedia.
 about-playbook-how-add-sentences-content-4 = Imisho eqinisekisiwe ithunyelwa ngaphandle ngoLwesithathu, futhi iyatholakala ngemva kokukhishwa okulandelayo.
 
@@ -538,6 +543,7 @@ language-section-in-progress-new-description = Lezi zilimi okwamanje zingaphansi
 languages-show-more = Buka Okuningi
 languages-show-less = Bona Okuncane
 language-total-progress = Isamba
+language-speakers = Izikhulumi
 language-validation-progress = Inqubekelaphambili Yokuqinisekisa
 
 ## Contribution
@@ -779,11 +785,13 @@ demo-account-sign-up = Thumela isixhumanisi sokubhalisa
 ## Demo Contribute
 
 demo-contribute-card-header = Ulungele ukwengeza izwi lakho noma ukuboleka indlebe yakho?
+demo-contribute-card-body-v2 = Manje njengoba sewazi okwengeziwe nge-Common Voice, kungani ungazami? Chofoza isithonjana semakrofoni ukuze uqale ukufunda imisho ngokuphimisela. <br/><br/>Uma ukhetha ukubuyekeza iminikelo yezwi yabanye abantu, chofoza isithonjana sokudlala. Uzosiza ukuqinisekisa ukuthi okurekhodiwe kufana nemisho ebhalwe esikrinini.
 demo-listen-subtitle = Usulungele ukufaka isandla?
 
 ## Demo Dashboard
 
 demo-dashboard-card-header = Amadeshibhodi omuntu siqu akugcina unolwazi lwakamuva ngenqubekelaphambili yomuntu ngamunye kanye nomphakathi.
+demo-dashboard-card-body = Zonke iziqephu eziqoshiwe zamazwi ezinikelwe nazo zonke eziqinisekisiweyo, i-akhawonti yakho iyabuykezwa ukuzindla kwinqubekelaphambili kulelo nalelo limi onikele kulo. Yebo, unganikela kwizilimi eziningi!<br/><br/> Sebenzisa amadeshbhodi ukulandelela inqubekelaphambili yakho, ubheke ohambisana nabo emphakathini, zibekele imigomo yamalanga noma yezinsuku zonke.
 
 ## Validation criteria
 
@@ -817,6 +825,7 @@ contribution-varying-pronunciations-example-1-explanation = [I-‘Beret’ ILUNG
 contribution-varying-pronunciations-example-2-title = Isandla sakhe sasiphakanyisiwe.
 contribution-varying-pronunciations-example-2-explanation = [Igama elesiNgisi u'Raised' liphinyiswa ngohlamvu olulodwa, hhayi ezimbili]
 contribution-background-noise-title = Umsindo Ongemuva
+contribution-background-noise-description = Sifuna inqubo yokufunda ngemishini  ikwazi ukuphatha izindlela ezahlukene zomsindo ongemuva, neminye imisindo ephezulu engamukeleka enikeziwe ukuze ukuzwakala kungavimbeki konke emibhalweni. Umculo wangasemuva okhalela phansi ulungile, kodwa umculo ukhalela phezulu ovimba wonke amagama awuvumelekanga.
 contribution-background-noise-description-extended = Uma ukurekhodwa kunqamuka, noma kunokuqhekeka, yenqaba ngaphandle kokuba wonke umbhalo ungazwakala.
 contribution-background-noise-example-1-fixed-title = <strong>[ukuthimula]</strong> Ama-dinosaurs amakhulu we-<strong>[ukukhwehlela]</strong> we-Triassic.
 contribution-background-noise-example-2-fixed-title = I-dino enkulu <strong>[ukukhwehlela]</strong> i-Triassic.
@@ -869,6 +878,8 @@ sc-howto-title = Kwenziwa kanjani
 sc-howto-addlang-title = Yengeza izilimi ozosebenza ngazo
 sc-howto-addlang-text = Uma usungenile ungakhetha izilimi zakho esigabeni sephrofayela.
 sc-howto-addsen-title = Engeza imisho emisha
+sc-howto-addsen-item-2 = Izinombolo. Akufanelanga kube nezinombolo emthonjeni obhaliwe ngoba zingadala izinkinga uma zifundelwa phezulu. Indlela ekufundwa ngayo inombolo ihambelana nomongo, lokhu kungadala indida emthonjeni. Isibonelo, inombolo u "2409" ingafundwa ngezindlela ezimbili, "Amashumi amabili nane - iqanda nesishiyagalolunye" kanye "Izinkulungwane ezimbili namakhulu amane nesishiyagalolunye."
+sc-howto-addsen-item-3 = Izifinyezo kanye nama-Akhronimi. Izifinyenzo kanye nama-akhronimi njengo "USA" noma "ICE" kufanele kugwenywe kumbhalo womthombo ngoba zingafundwa ngendlela engahambelani nokubizelwa kwawo. Ngaphezu kwalokho, kungaba nezindlela eziningi zokufunda isifinyenzo. Isibonelo, i-akhronimi "ICE" ingaphinyiswa kanje "I-C-E" noma njengegama elilodwa.
 sc-howto-cite-title = Ungacaphuna Kanjani
 sc-howto-cite-item-1 = Ungafaka iwebhusayithi, isb "Common Voice - https://commonvoice.mozilla.org/"
 sc-howto-cite-item-2 = Ungasebenzisa isitayela sereferensi yezemfundo, isb isitayela sase-Harvard "Mozilla (2021) Common Voice. Itholakala ku https://commonvoice.mozilla.org/ (Kufinyelelwe: 15th September 2021)"
@@ -891,6 +902,7 @@ sc-howto-findpd-subtitle-2 = Hlanganyela nezinhlangano zendawo noma abantu ngaba
 ## MY SENTENCES
 
 sc-my-title = Imisho Yami
+sc-my-description = Le khasi likubonisa yonke imisho oyithumelile. Ungakwazi nokususa osewukuthumele uma kunesidingo ngokumaka ibhokisi eliseduze kwayo, ucindezele ku &quot;Susa imisho ekhethiwe&quot; ezansi. Sicela ususe imisho uma kunesidingo ngempela, isibonelo, uma uqahe ngemuva ukuba umusho unelungelo lobunikazi obuvikelwe.
 sc-my-loading = Loda imisho yakho...
 sc-my-no-sentences = Ayikho imisho etholakele!
 # Variables:
