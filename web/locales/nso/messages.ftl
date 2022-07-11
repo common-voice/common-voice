@@ -594,7 +594,7 @@ about-playbook-how-grow-language-content-4 = Poledišano ya  inthaneteng
 about-playbook-how-grow-language-content-5 = O ka šomiša lekgotla la poledišano ya inthaneteng go kgona go iša molaetša go batho ka moka. Abelana melaetša e hlalosago gore na ke baka la eng go le bohlokwa, gomme o ikgokaganye le batho ba bangwe bao ba bolelago ka mathata a go swana le ditokelo tša polelo, lentšu la AI, goba tshekamelo go theknolotši. Bona dikeletšo tše dingwe mabapi le<campaignLink> go tsamaiša lesolo  la setšhaba, go akaretša le diteng tšeo o ka di šomišago gape</campaignLink>.
 about-playbook-how-grow-language-content-6 = Tirišano le dinetweke
 about-playbook-how-grow-language-content-7 = Hwetša ba bagwe bao ba tshwenyegago. Seo se ka ba diyunibesithi, dikolo tša maleme, dihlopha sa bathekgi goba setšhaba sa thutamahlale ya datha. Katanela go fihlilela ditokelelo gomme o hlalose gabotse gore na na ka thuša bjang le gore na ke ka baka la eng.  <outreachTemplates>Lebelela di-emeile tša rena tša thempleite</outreachTemplates>.
-about-playbook-how-grow-language-content-8 = <strong>Diriša bohlale!!</strong> Polelo ya geno e tla ba moswananoši, tše ke ditsela mmalwa tša go thoma.
+about-playbook-how-grow-language-content-8 = <strong>Diriša bohlale!!</strong> Polelo ya geno e tla ba moswananoši, tše ke ditsela tše mmalwa tša go thoma.
 
 ## How to validate
 
@@ -781,7 +781,9 @@ request-language-google-recaptcha-error = Go nale se phošo e diregilego ka reCA
 request-language-success-heading = Rea leboga! O rometše khwiri e mpsha ka polelo.
 request-language-success-list-1 = O tla hwetša e-meile ka moragonyana e hlalosago megato ya go tsenya polelo ya gago go Common Voice
 request-language-success-list-2 = Molaodi wa rena wa setšhaba o tla ikgokaganya le wena go neelana ka thekgo e oketšegilego, le ge go tsebiša ge e ba go šetše go na le setšhaba se šomago ka polelo ya geno.
-request-language-success-list-3 = Ge e ba o sa kwe go tšwa go rena ka morago ga matšatši a mmalwa a tlago, ikgokaganye le rena go <emailLink>{ $email }</emailLink>re tla boela go wena!
+request-language-success-list-3 =
+    Ge e ba o sa kwe go tšwa go rena ka morago ga matšatši a mmalwa a tlago, e kgokagane le rena go <emailLink>{ $email }</emailLink> 
+    gomme re tla boela go wena!
 request-language-error = Re ka be re sa hwetša kgopelo yeo. Ka kgopelo re romele e-meile go lebanya le rena go <emailLink>{ $email }</emailLink> re tla boela go wena!
 
 ## Languages Overview
@@ -1319,7 +1321,7 @@ sc-confirm-already-reviewed =
     { $countOfReviewed ->
         [0] 0] Ga gona lefoko le ahlolotšwego.
         [one] [one] lefoko le le 1 le hlahlobilwe. O šomile botse!
-       *[other] *[other] { $sentences } mafoko a šetše a hlahlobilwe. O šomile botse!
+       *[other] { $countOfReviewed } mafoko a šetše a hlahlobilwe. O šomile botse!
     }
 # Variables:
 #   $readyCount (Number) - Number of sentences ready to be uploaded
