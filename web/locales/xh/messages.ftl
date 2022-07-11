@@ -17,6 +17,7 @@
 ## Home Page
 
 no-clips-to-validate = Kubonakala ngathi akukho zikliphu zokumamela kolu lwimi. Sincede sigcwalise umgca ngokurekhoda ezinye ngoku.
+speak-paragraph = Ukurekhoda iikliphu zelizwi yinxalenye yolwakhiwo lwedatha yethu evulekileyo; abanye bangathi yeyona nto imnandi.
 
 ## Account Benefits
 
@@ -54,6 +55,7 @@ no-clips-to-validate = Kubonakala ngathi akukho zikliphu zokumamela kolu lwimi. 
 ## How does it work section
 
 about-stay-in-touch-text-1 = <emailFragment>Sign up</emailFragment> kuluhlu lwethu lokuposa ukuze ufunde ukuba ungathatha njani inxaxheba kwimikhankaso, iminyhadala kunye neempawu zokuyila ngokubambisana kwiCommon Voice.
+about-stay-in-touch-text-2 = Ungadibana nabanye boluntu lolwimi lwaseMozilla ngokujoyina <discourseLink>Discourse</discourseLink> kumakhonco ezihloko, okanye <matrixLink>Matrix</matrixLink> ukufumana ingcebiso ekhawulezileyo.
 
 ## Community Playbook Content
 ## What is a language
@@ -79,6 +81,7 @@ about-stay-in-touch-text-1 = <emailFragment>Sign up</emailFragment> kuluhlu lwet
 
 ## How to access dataset
 
+about-playbook-how-access-dataset-content-2 = Ukuba ujonge izixhobo zokwakha iimodeli ze-ASR, ungaqhagamshela nabanye abantu ekuhlaleni <discourseLink>on Discourse</discourseLink>.
 
 ## How are decisions made
 
@@ -91,10 +94,12 @@ about-stay-in-touch-text-1 = <emailFragment>Sign up</emailFragment> kuluhlu lwet
 
 ## Data
 
+data-subtitle = Sakha uluhlu lwedatha lwamazwi oluvulelekileyo nolufumaneka esidlangalaleni wonke umntu anokuthi alusebenzise ukuqeqesha usetyenziso olusebenzisa intetho.
 
 ## Datasets Page
 
 resource-playbook-info = <playbookLink>Fumana isikhokelo esiluncedo</playbookLink> kulo lonke uhambo lweCommon Voice, ukusuka ekuhlaleni ukuya kusetyenziso lwedatha, kunye nendlela yokunxibelelana noluntu lwethu.
+data-other-librispeech-description = ILibriSpeech yikopus emalunga ne-1000 leeyure ze-16Khz yokufunda intetho yesiNgesi ethathwe kwiincwadi ezivakalayo ezifundwayo kwiprojekthi yeLibriVox.
 
 ## Download Modal
 
@@ -104,6 +109,7 @@ resource-playbook-info = <playbookLink>Fumana isikhokelo esiluncedo</playbookLin
 
 ## Request Language Modal
 
+request-language-success-content = Siza kuqhagamshelana ngolwazi oluthe vetshe malunga nendlela yokongeza ulwimi lwakho kwi-Common Voice kungekudala.
 
 ## Request Language Pages
 
@@ -134,6 +140,7 @@ goal-share-text = Ndisandula ukwenza injongo yam yokunikela ngelizwi kwi #Common
 
 ## Profile Download
 
+download-requests-info = Xa ucela ushicilelo lwakho, siyaluqokelela lube yifayile yeZIP enye okanye ezininzi.Nazi izicelo zakho zangaphambili:
 
 ## Landing
 
@@ -174,6 +181,7 @@ goal-share-text = Ndisandula ukwenza injongo yam yokunikela ngelizwi kwi #Common
 
 sc-howto-cite-item-2 = Unokusebenzisa isitayile sereferensi sezemfundo, umz. isitayile seHarvard "Mozilla (2021) Common Voice. Ifumaneka apha https://commonvoice.mozilla.org/ (Ijongwe: nge-15 kaSeptemba 2021)"
 sc-howto-cite-item-3 = Kumbhalo wesizinda sikawonke-wonke ongafumanekiyo kwi-intanethi, ungasebenzisa isimbo sereferensi yezemfundo umz. isimbo saseHarvard "Jess (2021) Imibongo yam yelayisensi kawonke"
+sc-howto-findpd-tips-1 = Eyona mithombo ilungileyo onokuthi uyijonge ziipodcasts, imibhalo ekhutshelweyo, izikripthi zemuvi kunye nantoni na enokuthi iqulathe iincoko zemihla ngemihla.
 
 ## MY SENTENCES
 
