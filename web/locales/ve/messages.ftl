@@ -30,6 +30,7 @@ wall-of-text-first =
     Ipfi ndi ḽa vhukuma, ipfi ndi muthu. Ndi ngazwo ri tshi takalela u ita zwishumiswa zwa thekhinoḽodzhi zwi shumisaho ipfi
      kha mitshini yashu. Fhedzi u ita sisiṱemu dza ipfi, vhabveledzi vha ṱoḓa data ya maipfi manzhi vhukuma.
 wall-of-text-second = Data nnzhi dzi shumiswaho nga khamphani khulwane, vhathu vhanzhi a vha koni u dzi swikelela. Ri vhona u nga zwi khou ita uri hu si vhe na bvela phanḓa. Ndi ngazwo ro thoma thandela ya Common Voice, thandela ine ya ḓo thusa uri u ḓivha ipfi zwi vhe zwa vhathu vhoṱhe na uri vha kone u zwi swikela.
+no-clips-to-validate = Zwi vhonala u nga a hu na zwo rekhodiwaho zwine na nga zwi thetshelesa nga holwu luambo. Ri thuseni u egedza mutevhe wa zwo rekhodiwaho nga u rekhoda zwiṅwe zwino.
 listen-paragraph = U khwaṱhisedza uri zwo rekhodiwaho ndi zwone ndi tshipikwa tsha ndeme vhukuma tsha Common Voice. Thetshelesani nahone ni ri thuse uri ri ite maipfi a vhuimo ha nṱha ane a ḓo kona u shumiswa nga nnyi na nnyi.
 
 ## Account Benefits
@@ -115,6 +116,7 @@ about-get-involved-text-2 =
     Ndi zwavhuḓi! Ri kwameni nga email kana <discourseLink>Discourse kha</discourseLink>
     dzi foramu, ni rumele thaidzo dzine na ṱangana nadzo kha saiti <githubLink>GitHub</githubLink>, kana ni dzhene kha
     <matrixLink>Matrix</matrixLink> nyambedzano dza vhadzulapo."
+about-stay-in-touch-text-1 = <emailFragment>Ḓiṅwaliseni</emailFragment> kha mutevhe wa mailing yashu ni gude uri ni nga dzhenelela hani kha mafulo, dzi event, na co-design features kha CommonVoice.
 
 ## Community Playbook Content
 ## What is a language
@@ -202,6 +204,7 @@ dataset-description-hours =
     Dataset i na <b>{ $valid }</b> awara dzo teaho <b>{ $languages }</b> luambo, fhedzi ri dzula ri tshi khou panga maipfi o engedzeaho na dzinyambo. Sedzani <languagesLink>siaṱari ḽa Nyambo dzashu</languagesLink> u itela khumbelo ya luambo kana ni thome u shela mulenzhe.
 resource-deepspeech-info = Tshishumiswa tsha Mozilla tsha u ḓivha ipfi tshine tsha nga shumiswa nga nnyi na nnyi tsha Deep Speech tshi nga shumiswa kha u ita app dzi ḓivhaho ipfi. Vhalani samari yashu <githubLink>Github</githubLink> kana ni dzhenelele kha <discourseLink>DeepSpeech Discourse</discourseLink> uri ni gude nga ha uri ni nga thoma hani.
 resource-playbook-info = <playbookLink>Wanani thuso</playbookLink> nga ha u shumisa Common Voice, u bva kha localization u ya kha kushumisele kwa dataset, na nga ha nḓila ine na nga kwamana ngayo na vhadzulapo vha vhuponi haṋu.
+data-other-librispeech-description = LibriSpeech ndi corpus i ṱoḓaho u vha awara dza 1000 dza 16Khz dza u vhala tshipitzhi tsha Luisimane u bva kha dzibugu dza odio dza project ya LibriVox.
 data-other-tatoeba-description = Tatoeba ndi database khulu ya mitaladzi, zwo ṱalutshedzwaho, na odio dzi ambaho dzi shumiselwaho u guda luambo. Zwenezwi zwithu zwine wa nga zwi download zwi nga Luisiamane luambiwaho, zwo rekhodiwa nga vhadzulapo vhalwo.
 
 ## Download Modal
@@ -321,6 +324,7 @@ sc-howto-addsen-item-5 = Maḽeḓere a si ho  kha luambo. Hu tea u shumiswa ma�
 sc-howto-addsen-item-6 = Nyambo dzi nga vha na <validationRulesLink>milayo yadzo ya u khwaṱhisedza </validationRulesLink> na ṱhoḓea dzo engedzeaho. Arali hu si na faela yo khetheaho ya u khwaṱhisedza ya luambo, ri ḓo shumisa milayo ine ya shumiswa kha Luisimane.
 sc-howto-addsen-post-1 = Ri takalela mitaladzi yo itwaho nga lwa nzulele/nga nḓila ya u ambedzana. Naho fonotiki yo angalala nahone maipfi o fhambananaho e a ndeme kha mutaladzi, ri khou lingedza u ita uri mitaladzi yo rekhodiwaho i vhe i takadzaho nga hune zwa ḓo konadzea ngaho. Ndi ngazwo zwi tshi ḓo vha zwavhuḓi arali na lingedza u ita uri mitaladzi yaṋu i itwe nga lwa nzulele/nḓila ya u ambedzana.
 sc-howto-cite-pre-1 = Ndi zwa ndeme uri ni sumbedze referentsi ya he na wana hone lasentsi ya vhathu vhoṱhe u itela uri ni iledze u pfi no tswa mushumo wa vhaṅwe na u tendela uri vhaṅwe vha kone u ḓivha he na wana hone zwithu <copyrightIssuesLink>thaidzo dza copyright</copyrightIssuesLink>. Hedzi ndi dziṅwe nḓila dza u sumbedza uri mushumo no u wana ngafhi.
+sc-howto-cite-item-3 = Arali zwo ṅwalwaho zwa fhethu ha tshitshavha tshoṱhe zwi si ho onḽaini, ni nga shumisa tshitaela tsha academic reference. Sa tsumbo, Harvard style "Jess (2021) My Public licence poems"
 sc-howto-review-criteria-5 = Arali mutaladzi u sa swikeleli ṱhoḓea dzi re afho nṱha, puṱedzani gunubu ya "Hana". Arali ni si na vhungoho ha uri mutaladzi a si wone, ni nga u pfukha na pfukela kha u no khou tevhela..
 sc-howto-findpd-text-2 = Ni humbule uri ri ṱoḓa tendelo uri ri anḓadze yeneyo mitaladzi, ni dzule ni tshi ita vhungoho ha uri zwo ṅwalwaho ndi zwa <wikipediaLink>fhethu ha tshitshavha tshoṱhe</wikipediaLink>. Arali hu songo bvelwa khagala, vhudzisani muṋe wazwo arali a tshi ṱoḓa uri zwe a shela ngazwo mulenzhe zwi anḓadzwe Fhethu ha Tshitshavha Tshoṱhe. Arali vha tshi zwi takalela, vha thuseni uri vha vhale <cc0WaiverLink>Thendelo ya Vhashelaho mulenzhe</cc0WaiverLink>. Arali vha sa ṱoḓi u nikela nga zwo ṅwaliwaho, a no ngo tendelwa u shumisa zwo ṅwaliwaho.
 sc-howto-findpd-tips-2 = Vhulivhisi vhu bvaho kha muvhuso, dzibugu na dzi athikiḽi, ndi ha ndeme, fhedzi ngauri muṅwalo u fomala nga maanḓa, vhu sala vhu si ha ndeme nga u to ralo.
@@ -342,6 +346,14 @@ sc-my-description = Heḽi siaṱari ḽi ni sumbedza mitaladzi yoṱhe ye na i 
 
 ## ADD LANGUAGE
 
+# Variables:
+#   $duplicates (Number) - Number of sentences which got rejected because they are duplicates
+sc-add-result =
+    { $duplicates ->
+        [0] [0] Mitaladzi yo rumelwaho. { $duplicates } Mitaladzi a yo ngo ṱanganedziwa ngauri yo vha i tshi khou dovholola.
+        [one] [one] Mitaladzi yo rumelwaho. { $duplicates } Mitaladzi yo rumelwaho a yo ngo ṱanganedziwa ngauri yo vha i tshi khou dovholola.
+       *[other] *[other] Mitaladzi yo rumelwaho. { $duplicates } Mitaladzi yo rumelwaho a yo ngo ṱanganedziwa ngauri yo vha i tshi khou dovholola.
+    }
 
 ## ADD SENTENCES CONFIRMATION
 
@@ -366,6 +378,7 @@ sc-review-form-usage = Swaipelani kha tsha u ḽa u itela uri ni kone u amba uri
 
 ## SETTINGS
 
+sc-settings-skipped-decription = Murahuni no pfukha mitaladzi ni tshi khou vhalulula. U risetha mitaladzi yo pfukhiwaho zwi ḓo sumbedza mitaladzi yoṱhe ye na i pfukha. Hezwi zwi itea kha luambo luthihi nga tshetsho tshifhinga.
 
 # [/SentenceCollector]
 
