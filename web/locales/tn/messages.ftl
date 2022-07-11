@@ -51,6 +51,7 @@ th = Se-Thai
 ti = Se-Tigrinya
 tig = Se-Tigre
 ts = Setsonga
+ug = Se-Uyghur
 vot = Se-Votic
 xh = Sexhosa
 yi = Se-Yiddish
@@ -568,6 +569,8 @@ contribution-volume-title = Bolumo
 contribution-volume-description = Go tla nna le dipharologano tsa tlholego mo bolumong ya babadi. Gana fela fa bolumo e le kwa godimo thata mo kgatiso e kgaogang, kgotsa (se se tlwaelegileng thata) fa e le kwa tlase thata mo o sa utlweng se se buiwang kwantle ga go leba se se kwadilweng.
 contribution-reader-effects-description = Dikgatiso tse dintsi ke tsa batho ba ba buang ka lentswe la bone la tlholego. O ka amogela kgatiso nngwe e e sa tlwaelegang ya go goa, go seba, kgotsa e e buiwang ka tsela e e ‘kgatlhang’. Tsweetswee gana dikgatiso tse go opelwang le tse di dirisang lentswe le le dirilweng ka khomputara.
 contribution-just-unsure-description = Fa o kopana le sengwe se dikaelo tseno di sa bueng ka sone, tsweetswee tlhopha go ya ka tsela e e molemolemo e o e akanyang. Fa tota o sa kgone go dira tshwetso, dirisa konopo ya go tlola mme o ye kwa kgatisong e e latelang.
+see-more = <chevron></chevron>Bona tse di oketsegileng
+see-less = <chevron></chevron>Bona tse di fokoditsweng
 
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
