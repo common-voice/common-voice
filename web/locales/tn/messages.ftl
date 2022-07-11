@@ -2,6 +2,7 @@
 
 yes-receive-emails = Ee, nthomeleleng diimeile. Nka rata go nna mo dinakong ka Porojeke ya Common Voice.
 privacy-info = Re go solofetsa go tshwara tshedimosetso ya gago ka kelotlhoko. Bala mo go oketsegileng mo <privacyLink>Kitsiso ya Bosephiri</privacyLink>.
+submit-form-action = Romela
 email-opt-in-info = Nka rata go amogela diimeile tse di jaaka dikgopotso tsa maikaelelo, ditlhabololo tsa kgatelopele ya me le makwalodikgang a Common Voice.
 email-opt-in-info-sub-with-challenge = Amogela diimeile tse di jaaka dikgwetlho le dikgopotso tsa maikaelelo, ditlhabololo tsa kgatelopele, le makwalodikgang a Common Voice.
 email-opt-in-privacy-v2 = Ka go tlhopha go amogela diimeile o bontsha gore o siame ka gore Mozilla e tshware tshedimosetso eno jaaka go tlhalosiwa mo <privacyLink>Pholising ya Polokodiphiri</privacyLink>ya Mozilla.
@@ -47,17 +48,20 @@ my = Se-Burma
 om = Se-Afaan Ormoo
 so = Se-Somali
 sq = Se-Albania
+te = Se-Telugu
 th = Se-Thai
 ti = Se-Tigrinya
 tig = Se-Tigre
 tk = Se-Turkmen
 tr = Se-Turkey
 ts = Setsonga
+tt = Se-Tartar
 tw = Se-Twi
 uby = Se-Ubykh
 udm = Se-Udmurt
 ug = Se-Uyghur
 uk = Se-Ukrain
+ur = Se-Urdu
 uz = Se-Uzbek
 ve = Sevenda
 vec = Se-Venice
@@ -655,6 +659,7 @@ sc-my-source = Motswedi: { $source }
 ## STATS
 
 sc-stats-title = Dipalopalo
+sc-stats-updating = E a tlhabololwa
 sc-stats-error = Ga re a kgona go tla ka dipalopalo. Tsweetswee leka gape moragonyana.
 # Variables:
 #   $sentenceCount (Number) - Total number of sentences uploaded through Sentence Collector
