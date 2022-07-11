@@ -881,6 +881,7 @@ record-button-label = Rekota lentswe la hao
 share-title-new = <bold>Re thuse</bold> ho fumana mantswe a mang
 keep-track-profile = Beha tswelopele ya hao leihlo ka profaele
 login-to-get-started = Kena kapa ingodise ho qalella
+target-segment-first-card = O kenya letsoho karolong ya sepheo sa rona sa pele
 target-segment-generic-card = O kenya letsoho karolong e lebeletsweng
 target-segment-first-banner = Thusa ho etsa karolo ya pele ya Common Voice ka { $locale }
 target-segment-add-voice = Kenya Lentswe la hao
