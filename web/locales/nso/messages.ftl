@@ -218,6 +218,7 @@ show-wall-of-text = Bala ka mo go Oketšegilego
 no-clips-to-validate = Go bonagala nkare ga gona ditsopolwana tše o ka di theeletšago ka polelo e. Re thuše go tlatša lenaneotetelo ka go rekhota gona bjale.
 vote-yes = Ee
 vote-no = Aowa
+speak-subtitle = Neela lentšu la gago
 speak-paragraph = Go gatiša dipego tša lentšu ke karolo e bohlokwa ya go aga dathasete ya rena e bulegilego; ba bangwe ba ka re ke karolo ya go thabiša le yona.
 speak-goal-text = Ditsopolwa di begilwe
 listen-goal-text = Ditsopolwa di kgonthišitšwe
@@ -271,11 +272,13 @@ shortcut-record-toggle = r
 shortcut-record-toggle-label = Pego/Ema
 shortcut-rerecord-toggle-label = Rekhota pego ya odio gape
 shortcut-discard-ongoing-recording = ESC
+shortcut-discard-ongoing-recording-label = Phumola kgatišo e diragalago
 shortcut-submit = Bušetša
 shortcut-submit-label = Tsenya dipego
 
 ## ProjectStatus
 
+status-contribute = Neela Lentšu la Gago
 # Variables:
 # $goal - number of hours representing the next goal
 status-goal = Dipakane tše Latelang: { $goal }
@@ -321,6 +324,7 @@ accept-privacy-title = Khupamarama ya Molao
 login-identity = Tsenya Boitšhupo
 edit = Rulaganya
 email-subscriptions = E-meile ya Boingwadišetšo
+download-profile = Tanelouta Datha Yaka
 contribution-experience = Go fana ka Ditiragalotšweletšwa
 off = Tima
 on = Tšhuma
@@ -433,6 +437,7 @@ about-playbook-how-grow-language-content-2 = Ditiragalo
 about-playbook-how-grow-language-content-3 = O ka tsamaiša ditiragalo go thuša batho go neela. Go bonolo go feta kamoo o naganago ka gona. O ka e dira inthaneteng ka go diriša lenaneo la bidio inthaneteng, goba motho ka nama ge e ba go bolokegile. <eventTemplate>Lebelela dithempleite tša rena le ditlabakelo tša go tsamaiša ditiragalo</eventTemplate>.
 about-playbook-how-grow-language-content-4 = Poledišano ya  inthaneteng
 about-playbook-how-grow-language-content-5 = O ka šomiša lekgotla la poledišano ya inthaneteng go kgona go iša molaetša go batho ka moka. Abelana melaetša e hlalosago gore na ke baka la eng go le bohlokwa, gomme o ikgokaganye le batho ba bangwe bao ba bolelago ka mathata a go swana le ditokelo tša polelo, lentšu la AI, goba tshekamelo go theknolotši. Bona dikeletšo tše dingwe mabapi le<campaignLink> go tsamaiša lesolo  la setšhaba, go akaretša le diteng tšeo o ka di šomišago gape</campaignLink>.
+about-playbook-how-grow-language-content-7 = Hwetša ba bagwe bao ba tshwenyegago. Seo se ka ba diyunibesithi, dikolo tša maleme, dihlopha sa bathekgi goba setšhaba sa thutamahlale ya datha. Katanela go fihlilela ditokelelo gomme o hlalose gabotse gore na na ka thuša bjang le gore na ke ka baka la eng.  <outreachTemplates>Lebelela di-emeile tša rena tša thempleite</outreachTemplates>.
 about-playbook-how-grow-language-content-8 = <strong>Diriša bohlale!!</strong> Polelo ya geno e tla ba moswananoši, tše ke ditsela tše mmalwa tša go thoma.
 
 ## How to validate
@@ -455,6 +460,7 @@ about-playbook-how-project-governance-content-6 = Kwešišano ya boikarabelo.
 glossary = Pukuntšu
 localization = Go lekanyeditša
 sentence-collection = Kgobokanyo ya Mafoko
+hours-validated-explanation = Palo ya diiri tša go rekhota lentšu tše netefaditšwego ke bašomiši ba 2 go ba 3 ka bouto ya “Ee”. Tše di swaya tšwelopele go fihlela le go lebana le  modiro wa kakaretšo ya diiri tše 10K.
 sst = Sefetošetšadigwalwa  mantšung (STT)
 de-identified = Kgetholla gape
 
@@ -472,6 +478,7 @@ data-subtitle = Re aga tatelano ya dathasete ya lentšu e bulegilego le go phatl
 data-explanatory-text = Re dumela gore dathasete tša lentšu tše dikgolo di tla hwetšagala phatlalatša di kgothaletša go tšweletša mekgwa e mefsa le tlhodišano ya kgwebo e matla go theknolotši ya go mantšu e thekgilwego ke motšhene. Se ke boiteko ba lefase ka moka gomme re mema motho yo mongwe le yo mongwe go tšea karoko. Boikemišetšo bja rena ke go thuša theknolotši le poledišano gore e tsentšhwe batho ka moka, e bonagatše mehuta e fapa-fapanego ya mantšu a tšwago lefaseng ka bophara.
 data-other-goto = Eya go { $name }
 data-other-download = Tanelouto ya Datha
+data-bundle-button = Tanelouta dathasete di dikgobokane
 release-version = Bešene
 dataset-date = Letšatši
 license = Laesense: <licenseLink>{ $license }</licenseLink>
@@ -480,6 +487,7 @@ data-download-singleword-callout-v2 = Se ke karolo e hlohloletšwago ke seripa s
 terms-agree = Kea dumela
 review-recording = Hlahloba
 review-rerecord = Rekhota gape
+review-delete-recordings = Phumola dikgatišo tšaka
 
 ## Datasets Page
 
@@ -509,6 +517,7 @@ dataset-description-hours =
 want-dataset-update = O nyaka di mpshafatšo ge re lokolla di bešene tše mpsha tša dathasete ya Common Voice? Ngwadiša go lengwalo la rena la ditaba.
 subscribe = Ngwadiša
 feedback-q = O nale Tshwayotshwayo
+resource-deepspeech-info = Mothopo o bolegilego wa Mozilla ya entšene ya go lemoša lentšu. Polelong e Tseneletšego e ka šomišwa go aga lenaneoditirišo ya tlhathollo ya mantšu. Bala <githubLink>kakaretšo ya rena ya Github</githubLink>goba ikgokagane le <discourseLink>Discourse ya Polelong e Tseneletšegogo </discourseLink>go ithuta kamoo o ka thomago ka gona.
 resource-coqui-info = <coquiLink>Coqui</coquiLink> e neetšwego go bula thekinolotši ya mantšu. Mediro ya tšona o akaretša thuto e tseneletšego yeo e leng sedirišwa sa STT le TTS.
 community-playbook = Puku ya Tshedimošo ya Setšhaba
 resource-playbook-info = <playbookLink>Hwetša keletšo ya maleba </playbookLink> go leeto le feletšego la Common Voice, go tšwa mo o dulago gona go ya go tirišo ya datha, le gore le kopana bjang le setšhaba sa rena.
@@ -600,6 +609,7 @@ report = Pego
 report-title = Tliša pego
 report-offensive-language = Leleme le kgopišago
 report-different-language = Polelo e fapanego
+report-difficult-pronounce = Go thatha go wa bitša
 report-offensive-speech = Polelo e kodutlago
 report-other-comment =
     .placeholder = Tshwayotshwayo
@@ -698,6 +708,7 @@ download-recordings-title = Dikgatišo
 download-recordings-size = Megabytes e tlwaelegilego
 download-size = Bogolo bja yona
 download-selected = Kgethilwego
+download-start = Tanelouta datha ya profaela
 download-request = Kgopela dipego
 download-requests-info = Ge o kgopela dipego, re ya di bokanya ka gare ga faele ya ZIP e tee goba tše dintši. Mo ke dikgopelo tša gago tša nakong e fetilego.
 download-request-button = Goga go tšwa inthaneteng
@@ -821,6 +832,8 @@ sc-my-submission = Go tsenya tshedimošo: { $batchId }
 # Variables:
 #   $source (String) - Associated source the user filled out when uploading the sentence
 sc-my-source = Mothopo: { $source }
+sc-my-delete = Phumola mafoko a kgetilwego
+sc-my-deleting = Re phumola mafoko a kgethilwego
 
 ## REJECTED
 
