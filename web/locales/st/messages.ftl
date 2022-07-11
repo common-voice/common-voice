@@ -379,6 +379,10 @@ faq-why-10k-hours-q = Hobaneng dihora tse 10,000 tse netefaditsweng e le sepheo 
 faq-how-calc-hours-q = Common Voice e bala dihora jwang?
 faq-where-src-from-2-q = mongolo mohlodi o tswa hokae?
 faq-is-account-public-q = Na dintlha tsa ak'haonte ya ka di phatlalatsa?
+faq-what-determine-identity-a =
+    Pokello ya data ya Common Voice ke sesebediswa se bulehileng mme se fumanehang phatlalatsa se ka sebediswang ho kwetlisa mefuta-futa ya disebediswa tse sebetsang ka puo. Ho sireletsa polokeho ya bafani ba rona, re kopa bohle ba download-ang pokello ya data ya Common Voice ba hlomphe boinotshi ba bafani. 
+    
+    Kaofela dikotwana tsa lentswe tse kahara pokello ya data di hlwekiswa ho tlosa dintlha tse tsebahatsang motho. Ha o download-a pokello ya data, o dumela hore o ke ke wa leka ho fumana boitsebiso ba mang kapa mang ba bafani. Hoo ho bolela hore o ke ke wa leka ho hokanya dintlha tse kahara pokello ya data ho dintlha tsa boitsebiso tsa botho tsa mofani. Leha ho le jwalo, o ka sebedisa pokello ya data ho kwetlisa temoho ya puo, temoho ya sebui, kapa disebediswa tse ding, mohlala, ho kopanya dintlha tse ka hara pokello ya data ho dintlha tse ding tse neng di se di le teng ka hara pokello ya data.
 faq-what-is-cv = Common Voice ke Eng?
 faq-using-cv = Ho Sebedisa Common Voice
 faq-search-for-answers =
