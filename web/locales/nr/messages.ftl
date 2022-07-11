@@ -438,11 +438,13 @@ faq-how-get-q = Ngingalifumana njani ihlelo leCommon Voice?
 faq-when-release2-q =
     Nizolitjhaphulula nini ihlelo leCommmon Voice 
     ngamanye amalimi?
+faq-when-release2-a = Sikhuluma nje ihlobo le-Common Voice enamaphimbo ahlukahlukeneko isahlolwa begodu ilungiswa bona ibe sezingeni elifanele umphakathi. Nange ufuna ukusisiza sifake amalimi amatjha ku-Common Voice sibawa uyokuhlola <sentenceCollectorLink>Sentence Collection Tool</sentenceCollectorLink> yokufaka imitjho emitjha ebulungelweni, neMozilla Pontoon <pontoonLink>Pontoon</pontoonLink> bona itjhugulule izinzolwazi yona ngokwayo. Amalimi amatjha afakwa ku-Common Voice bona kunikelwe ngawo nasele kuhlolisiswe bekwabuthelelwe imitjho ezii-5000.
 faq-why-mission-q = Kubayini  iCommon Voice iyingcenye yehlelo leMozilla
 faq-why-mission-a = I-Mozilla izimisele bona yenze i-web le ikghone ukusetjenziswa ngiwo woke umuntu. Bona senze njalo sitlhoga ukukhuthaza abantu abenza ama-web sisebenzisa amajima anjengama-Common Voice. Njengombana ama-voice technologies asetjenziswa babantu abanengi, sithemba bona azokusiza abantu ngendlela efanako. Lokho kutjho bona kulingwe amalimi angeziweko akhulunywa ngendlela engafaniko eendaweni ezingafaniko nakuhlolwa imitjhini le. I-Common Voice isisetjenziswa somphakathi esingafumaneka kiwo woke umuntu begodu isiqhema nabatlami be-Mozilla ephasini loke sele bayisebenzisa emisebenzinabo.
 faq-what-cv-and-deepspeech-q =
     Uyini umehluko hlangana ne-Common Voice 
     ne-Deep Speech?
+faq-what-cv-and-deepspeech-a = I-The Common Voice dataset ikhambisana kuhle ne-Mozilla’s open source voice recognition engine Deep Speech. Ingcenye yokuthoma yeDeep Speech yatjhatjhululwa ngoNovember 2017 begodu yaragela phambili ikhona kusukela kwalokho. Thina kuhlanganise ne-Common Voice dataset, sikholwa bona woke umuntu kufuze akghona ukusebenzisa i-voice recognition technology. Sithemba bona itheknoloji le izokwenza abatlami bakghone ukwakha izinto neensetjenziswa eziphumelelako.
 faq-is-goal-assistant-q =
     Kghani umngomo weCommon Voice kukwenza amaphimbo 
     azosisiza?
@@ -452,6 +454,7 @@ faq-why-different-speakers-q =
     elimini elilodwa?
 faq-why-my-lang-q = Kubayini ilimi lami lingakafakwa?
 faq-what-quality-q = Okurekhodiweko kufuze kube kiliphi izinga bona iphimbo lisetjenziswe ebulungelweni?
+faq-what-quality-a = Sifuna bona i-Common Voice dataset iveze izinga eliphuma phambili begodu likhambisane nalokho okutloliweko, yeke sifuna kube ngokuhlukahlukeneko. Ukungezelela emphakathini onabantu abakhuluma amalimi angafaniko, ibulungelo elinamaphimbo ahlukahlukeleko lizokufundisa i-enjini yephimbo elikhambasana nokutloliweko bona likghona ukuqalana nobujamo bamambala, kusukela etjhadeli labantu abakhulumako kuya etjhadele leenkoloyi. Nange iphimbo lakho izwakala kuhle, lizokulungela ukuba sebulungelweni.
 faq-why-10k-hours-q =
     Kubayini ama-awara azi-10 000 atlhogeka bona kurekhodwe
     ngelimi ngalinye?
@@ -679,6 +682,10 @@ review-keep-recordings = Bulunga okurekhodiweko
 
 datasets-heading = Ukuhlelwa kwemininingwana
 datasets-headline = Sakha umthombo wawo woke umuntu, amaphimbo wamalimi ahlukahlukeneko angasetjenziswa nginanyana ngubani bona azifundise ikulumo eyamukelekako.
+datasets-positioning =
+    Sithemba bona nange ama-voice datasets afunyanwa babantu abanengi azokukhuthaza ituthuko begodu enze amaphaliswano kwezentengiselwano nemitjhinini yetheknoloji yokufundisa.
+    Ngitjho nanyana kungasi ngiyo kwaphela kodwana i-Common Voice’s multi-language dataset ilibulungelo elifunyanwa babantu abanengi.
+    Qala ikhaseli njengokwaziswa kweminye imihlobo yamabulungelo wamaphimbo, kuzokuthi njengombana i-Common Voice iragela phambili idlondlobala, ikhaya lokutjhatjhululwa kwezinto ezitjha.
 validated-hr-total = Inani eliqinisekisweko le-Hr
 overall-hr-total = Inani lakho koke Hr
 cv-license = Ilayisense
@@ -696,6 +703,10 @@ download-language = Dawunilowuda { $language }
 validated-hours = Ama-awara aqinisekisiweko
 recorded-hours = Ama-awara wokurekhoda
 whats-inside = Khuyini engaphakathi kwehlelo le-Common Voice?
+dataset-description-hours =
+    Ingcenye enye nenye esebulungelweni line-MP3 begodu ikhambisana nefayili. Ama-awara <b>{ $total }</b> amanengi okurekhodiweko ebulungelweni kuhlanganisa ukwaziswa okunjengeminyaka, ubulili, nehlobo lekulumo elizokusiza ubize kuhle amagama.
+    
+    Okwanje ibulungelweli <b>{ $valid }</b> linama-awara aqinisekisiweko wamalimi, <b>{ $languages }</b> kodwana sihlala sifaka amalimi namaphimbo angeziweko. Qala ikhasi lethu <languagesLink>Languages page</languagesLink> lamalimi nawufuna ilimi elithileko namkha nawufuna ukuthoma ukunikela.
 want-dataset-update = Ufuna sikwazise nasikhupha ihlelo elitjha leCommon Voice? Zitlolise engcenyenethu yeendaba.
 get-started-speech = Thoma ngokuhlola iphimbo
 other-datasets = Elinye ihlelo lamaphimbo
@@ -1136,6 +1147,7 @@ contribution-misreadings-example-7-explanation = [Awa kuno ‘a’ emtlolweni wo
 contribution-misreadings-example-8-title = Ikhamba ngebelo le.
 contribution-misreadings-example-8-explanation = [Okungatlhogekiko]
 contribution-varying-pronunciations-title = Ukuphimisela okuhlukahlukeneko
+contribution-varying-pronunciations-description = Tjheja ngaphambi kobana wale okurekhodiweko ngebanga lokuthi ucabanga bona umfundi akakabizi kuhle ibizo, ugandelele endaweni engakafaneli namkha akakahloniphi itshwayo lombuzo. Kuneendlela ezinengi zokubiza amagama ephasini mazombe, ezinye zakhona kungenzeka awukhenge wazizwa emphakathini ohlala kiwo. Sibawa ubabuke labo abakhuluma ngendlela ehlukileko kunawe.
 contribution-varying-pronunciations-example-1-title = Umbethe ibherede ehlokwakhe.
 contribution-varying-pronunciations-example-1-explanation = [‘Berete’ ngu Iye kungakhathaliseki bona ugandelelwa kokothoma e- (UK) namkha kwesibili e- (US)]
 contribution-varying-pronunciations-example-2-title = Isandla sakhe besiphakamile.
@@ -1153,6 +1165,7 @@ contribution-background-noise-example-3-fixed-title =
     <strong>[Crackle]</strong> iingorho ze
     <strong>[crackle]</strong> -riassic.
 contribution-background-voices-title = Amezwi angemuva
+contribution-background-voices-description = Ukuzwakala kwamatjhada amanengi kulungile, kodwana asifuni amaphimbo amanengi azokubangela bona umtjhini ufumane amabizo angakatlolwa phasi. Nakwenzeka uzwe amagama amanengi ngaphandle kwalayo atloliweko, ungawamukeli. Kanengi lokho kwenzeka nakutjhiywe iTV idlala, namkha nakunabantu abakhulumako eduze.
 contribution-background-voices-description-extended = Nange okurekhodiweko kuqunteka namkha kutjhitjhiza kususe ngaphandle kwalokha okhunye kuzwakala.
 contribution-background-voices-example-1-title =
     Ingorho yeTriassic. 
@@ -1194,6 +1207,7 @@ sc-logout-button = Phuma
 ## HOME
 
 sc-home-title = Uyamukelwa ku-Common Voice Collector
+sc-home-intro = Ihlangano yokubuthelela amalimi iyingcenye <commonVoiceLink> ye-Common Voice </commonVoiceLink>. Ivumela abahlanganyeli bona babuthelele begodu bahlolisise imitjho eyenziwe mphakathi. Ungakghona ukusebenzisa ithuluzeli bona ufake bewuhlwengise amabulungelo womphakathi amancani kuya kwamakhulu owafumeneko namkha owabutheleleko. Yoke imitjho kufuze ibe yi-Public Domain. Imitjho efumene imvumo ifakwa qobe veke ku-Common Voice repository begodu itjhatjhululwa ezinzolwazini ye-Common Voice qobe nakufunyelwe okuthileko okutjha.
 sc-home-collect-title = Buthelela imitjho
 sc-home-collect-text =
     Sisiza ngokutlola namkha ngokubuthelele imitjho 
