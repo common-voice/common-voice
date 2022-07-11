@@ -46,6 +46,7 @@ hy-AM = Se-Armania
 hyw = Se-Armenia sa Bophirima
 my = Se-Burma
 om = Se-Afaan Ormoo
+pa-IN = Se-Punjabi
 scn = Se-Sicily
 shi = Se-Shilha
 si = Se-Sinhala
@@ -171,6 +172,10 @@ shortcut-vote-yes = e
 
 ## Speak Shortcuts
 
+# Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-record-toggle = r
+shortcut-record-toggle-label = Rekota/Emisa
 
 ## ProjectStatus
 
@@ -390,6 +395,7 @@ data-download-singleword-callout-v2 = Eno ke karolwana e e berekang e e nang le 
 review-terms = Ka go dirisa Common Voice, o dumalana le <termsLink>Melawana</termsLink> le <privacyLink>Kitsiso ya Polokodiphiri</privacyLink>
 review-aborted = Go tsenngwa go emisitswe. A o batla go phimola dikgatiso tsa gago?
 review-submit-msg = Re lebogela go gatisa!<lineBreak></lineBreak>Jaanong o ka sekaseka o bo romela dikgatiso tsa gago fa tlase.
+review-rerecord = Rekota sesha
 review-cancel = Khansela go Romela
 
 ## Datasets Page
@@ -466,6 +472,7 @@ request-language-error = Re ka tswa re ise re amogele kopo eo. Tsweetswee re rom
 
 language-section-in-progress-new-description = Ga jaana dipuo tseno di tokafadiwa ke badirisi. <localizationGlossaryLink>Go ranola webosaete</localizationGlossaryLink> le <sentenceCollectionGlossaryLink>go kgobokanya mela</sentenceCollectionGlossaryLink> go a tlhokega go diragatsa.
 language-section-launched-description = Mo dipuong tseno tse di simolotsweng, webosaete e <localizationGlossaryLink>dirilwe ya selegae</localizationGlossaryLink> ka katlego, mme e na le <sentenceCollectionGlossaryLink>dipolelo tse di lekaneng tse di phuthilweng</sentenceCollectionGlossaryLink> go letla dikabo tse di tswelelang tsa <speakLink>Bua</speakLink> le <listenLink>Reetsa</listenLink>.
+language-meter-in-progress = Kgatelopele
 language-total-progress = Palogotlhe
 language-speakers = Dibui
 
