@@ -327,6 +327,7 @@ download-helpus = Re thuse go aga setšhaba ka thekenoloji ya lentswe, nna o ikg
 
 ## Contact Modal
 
+contact-title = Foromo ya go Ikgolaganya
 contact-required = *e a tlhokega
 
 ## Request Language Modal
@@ -366,6 +367,7 @@ action-click = Tobetsa
 goal-help-recording = O thusitse Common Voice gore e fitlhelele <goalPercentage></goalPercentage> ya maikaelelo a rona a letsatsi a go gatisa { $goalValue }!
 goal-help-validation = O thusitse Common Voice gore e fitlhelele <goalPercentage></goalPercentage> ya maikaelelo a rona a letsatsi a go tlhomamisa { $goalValue }!
 listen-loading-error = Ga re a kgona go bona dikgatiso tsa mantswe tse o ka di reetsang. Tsweetswee leka gape moragonyana.
+speak-empty-state-cta = Aba dipolelo
 speak-loading-error = Ga re a kgona go bona mela e o ka e buang. Tsweetswee leka gape moragonyana.
 
 ## Reporting
@@ -396,6 +398,7 @@ help-reach-hours-general-pluralized =
     }
 receiving-emails-info = Gone jaanong o dirile gore o amogele diimeile tse di jaaka dikgopotso tsa maikaelelo, ditlhabololo tsa kgatelopele ya me le makwalodikgang a Common Voice
 not-receiving-emails-info = Gone jaanong o dirile gore o <bold>SE KA</bold> wa amogela diimeile tse di jaaka dikgopotso tsa maikaelelo, ditlhabololo tsa kgatelopele ya me le makwalodikgang a Common Voice
+confirm-goal = Tlhomamisa Maikaelelo
 # LINK will be replaced with the current URL
 goal-share-text = Ke fetsa go dira maikaelelo a botho a go abelana ka lentswe go #CommonVoice -- dira le nna mme o nthuse go ruta metšhine  gore batho ba mmatota ba bua jang { $link }
 
