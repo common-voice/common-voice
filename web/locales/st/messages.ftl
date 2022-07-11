@@ -340,6 +340,7 @@ help-variants = O hloka thuso ka mefuta e fapaneng?
 ## Profile - Email
 
 browse-file-title = Kenya faele ya setshwantsho
+browse-file = Hula mme o dihele kapa <browseWrap>Sheba</browseWrap>
 connect-gravatar = Kopana le Gravatar
 gravatar_not_found = Ha ho gravatar e fumanweng bakeng sa email ya hao
 file_too_large = Faele e kgethilweng e kgolo haholo
@@ -435,6 +436,7 @@ about-playbook-how-grow-language-content-6 = Dikamano le marang-rang
 
 about-playbook-how-project-governance = Diqeto tsa morero di etswa jwang?
 about-playbook-how-project-governance-content-3 = Lekunutu, tshireletso le ponaletso.
+about-playbook-how-project-governance-content-4 = Ho kenya letsoho ha setjhaba le ho etsa diqeto.
 about-playbook-how-project-governance-content-5 = Boleng le temoho.
 about-playbook-how-project-governance-content-6 = Boikarabello ka kopanelo.
 about-playbook-how-project-governance-content-7 = <governanceLink>Bala haholwanyane ka moo re buswang ka teng</governanceLink>
@@ -530,6 +532,7 @@ other-language = Puo e nngwe
 
 ## Request Language Pages
 
+request-language-heading = Botsa ka puo e ntjha
 request-language-explanation-2 = Hape re tla <strong>tsebisa mookamedi wa setjhaba sa rona hore o na le thahasello</strong>, kahoo ba ka o fa tshehetso e feng kapa feng e eketsehileng kapa dintlha tseo o ka di hlokang.
 request-language-form-email =
     .label = Aterese ya hao ya email
@@ -662,6 +665,7 @@ weekly-goal = Sepheo sa beke le beke
 easy-difficulty = E bonolo
 difficult-difficulty = E thata
 pro-difficulty = Pro
+want-to-continue = O batla ho tswelapele?
 finish-editing = Qetela ho lokisa pele?
 lose-changes-warning = Ho tsamaea hona jwale ho bolela hore o tla lahlehelwa ke diphetoho tsa hao
 build-custom-goal = Aha sepheo se etseditsweng wena feela
@@ -805,6 +809,7 @@ sc-home-review-title = Hlahloba Dipolelo
 ## HOW-TO
 
 sc-howto-title = Mokgwa wa ho
+sc-howto-addlang-title = Ho kenya dipuo tse tlo sebetswa
 sc-howto-addsen-title = Kenya dipolelo tse ntjha
 sc-howto-cite-title = Mokgwa wa ho Qotsa
 sc-howto-cite-item-3 = Bakeng sa mongolo wa setjhaba o sa fumaneheng marang-rang, o ka sebedisa mokgwa wa ditshupiso tsa thuto, mohlala, mokgwa wa Harvard "Jess (2021) dithothokiso tsa ka tsa laecence ya setjhaba"
