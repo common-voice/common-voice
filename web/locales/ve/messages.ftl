@@ -5,6 +5,7 @@ privacy-info = Ri fulufhedzisa u ṱhogomela zwidodombedza zwaṋu nga nḓila y
 email-opt-in-info = Ndi nga takalela u wana email dzi nga ho dzine dza nkhumbudza nga ha zwipikwa zwanga, mvela phanḓa yanga na maswa maswa nga ha Common Voice.
 email-opt-in-info-sub-with-challenge = Wanani milaedza nga email yo nonga khumbudzo ya zwipikwa, mvela phanḓa, na maswa maswa a Common Voice.
 email-opt-in-privacy-v2 = Nga u ṱanganedza uri ni ṱoḓa u wana dzi email ni tenda uri zwo luga uri Mozilla i fare zwidodombedzwa zwenezwi u ya nga nḓila ye zwa ṱalutshedzwa ngayo kha Mozilla’s <privacyLink>Poḽisi ya Tshiphiri</privacyLink>.
+banner-error-slow-2 = Hu na trafiki ine ya khou itea kha saiti, ri khou ita ṱhoduluso ya heyi thaidzo.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -44,6 +45,8 @@ listen-paragraph = U khwaṱhisedza uri zwo rekhodiwaho ndi zwone ndi tshipikwa 
 ## Account Benefits
 
 rich-data = Itani uri zwe na rumela zwi vhe zwi zwa khwine-khwine nga u rumela zwidodombedzwa zwa tshiphiri zwa uri ni bva ngafhi. Ri ita uri zwenezwi zwidodombedzwa zwi bviswe sa zwe zwa rumelwa zwi sa athu ya vhathuni.
+improve-audio = Zwidodombedzwa zwa profaiḽi zwi khwinisa data ya odio ine ya shumiswa u gudisa zwa u ḓivha ipfi nga nḓila kwayo.
+compare-progress = Vhonani uri mvela phanḓa yaṋu i hani ni tshi i vhambedza na ya vhaṅwe vho nikelaho u mona na shango ḽoṱhe.
 join-newsletter = Ni nga khetha u vha tshipiḓa tsha vha re kha mutevhe wa email dzashu vhane vha wana apudeiti na mafhungo maswa maswa nga ha yeneyi thandela.
 
 ## What's public
@@ -106,6 +109,7 @@ faq-why-my-lang-a =
      Ri nga takalela uri na inwi ni dzhenise luambo lwaṋu! <languageRequestLink>Vhudzisani nga ha uri ni nga dzhenisa hani luambo lwaṋu.</languageRequestLink>
 faq-what-quality-q = Hu ṱoḓea odio dzi re kha vhuimo ha hani uri dzi kone u shumisiwa kha dataset?
 faq-what-quality-a = Ri khou ṱoḓa uri Common Voice dataset i vhe na odio ine tshishumiswa tsha u pfa maipfi tsha a ṅwala; tsha ḓo a pfa mashangoni a kule, ndi ngazwo ri tshi khou ṱoḓa maipfi o fhambananaho. Zwiṅwe zwine ra zwi ṱoḓa nga nnḓa ha vhaambi vho fhambananaho, dataset ine ya vha na odio dzo fhambananaho i ḓo thusa tshishumiswa tsha u pfa maipfi tsha a ṅwala uri tshi imedzane na nyimelo dzo fhambananaho dza vhukuma, dzi ngaho u amba hu na goloi ine ya khou ita phosho. Tsha ndeme ndi tsha uri ipfi ḽanu ḽo rekhodiwaho ḽivhe ḽo tsha, ḽi tea u vha ḽi ḽavhuḓi uri ḽi dzhene kha dataset.
+faq-why-10k-hours-q = Ndi ngani awara dza 10,000 dzi dzone dzi no ṱoḓea sa tshipikwa kha luambo uri hu itwe odio?
 faq-why-10k-hours-a = Hetshi ndi tshivhalo tsha awara nga u angaredza dzi no ṱoḓea u funza sisṱemu ya bveledza speech-to-text.
 faq-how-calc-hours-a = Ri vhala dzi awara nga u angaredza tshikhala tsha zwiṅwe na zwiṅwe zwo rekhodiwaho, nahone ra andisa yeneyo nomboro nga ṱhanganyeḽo ya zwoṱhe zwo rekhodiwaho nga nyambo dzoṱhe.
 faq-where-src-from-2-a =
@@ -128,6 +132,7 @@ how-does-it-work-text = Ri khou lingedza u wana maipfi kha tshitshavha uri ri it
 
 ## How does it work section
 
+about-speak-text = Vhane shela mulenzhe vha rekhoda maipfi nga u vhala mitaladzi yo nikelwaho.
 about-listen-queue-text = Maipfi o rekhodiwaho a pangiwa kha mutevhe wa u rumela une wa a ita uri a lugele u thetshelesiwa.
 about-listen-text = Vhashumisi vha khwaṱhisedza rekhodo dzo nikelwaho, vha tshi sedza uri muambi o vhala mutaladzi zwone naa.
 about-is-it-valid-text = Rekhodo i makiwa u pfi "khwaṱhisedzwa" musi mushumisi a tshi i khetha ngauri Ee.
@@ -173,11 +178,13 @@ about-playbook-how-add-language-collecting-sentences-content-2 =
 
 about-playbook-how-localize-content-2 = <pontoonAccountLink>Itani akhanthu</pontoonAccountLink> arali ni sa athu u vha nayo. Ni kone u khetha luambo <strong>(‘Team’)</strong> nahone ni kone u khetha thandela, <pontoonCvLink>Common Voice</pontoonCvLink>. Hu ḓo vha na dzi faela dzine na ḓo dzi ṱalutshedzela. Puṱedzani iṅwe yadzo, i ḓo kona u ni sumbedza maipfi nga Luisimane na bogisi ḽine na ḓo ṱalutshedzela khaḽo.
 about-playbook-how-localize-content-3 = Hu ṱalutshedzeliwa zwi tshi bva kha Luisimane, fhedzi ni nga vhona <strong>Nyeletshedzo</strong> nga dziṅwe nyambo. Puṱedzani <strong>Phurofaiḽi</strong> icon, ni kone u ya kha <strong>Sethiṅi</strong> ḽinki nahone ni dzhenise nyambo dzine na dzi amba. Fhasi-fhasi kha tsha monde kha khona hu ḓo vha hu na mutevhe wa zwo ṱalutshedzelwaho zwi vhidzwaho <strong>Locales</strong>. Zwo ṱalutshedzwaho zwi dzhena kha website nga murahu ha ḓuvha ḽithihi.
+about-playbook-how-localize-content-4 = Saiti yo lugela u ḽontsha musi i tshi vha 75% tsini na u fhela.
 
 ## How to add sentences
 
 about-playbook-how-add-sentences-content-1 = <strong>Tsha u Kuvhanganya Mitaladzi</strong> ndi tshishumiwa tsha u kuvhanganya na u khwaṱhisedza mitaladzi i bvaho kha tshitshavha. Ni ḓo tea uri <scAccountLink>ni ite akhanthu</scAccountLink>. Ni kone u dzhenisa luambo lwaṋu <strong>Phurofaiḽi </strong>. Ni nga kona u <strong>Panga</strong> mitaladzi kana u <strong>Ṱolisia</strong> mitaladzi yo dzheniswaho tshifhingani tsho fhiraho.
 about-playbook-how-add-sentences-content-2 = Mitaladzi i tea u ṱolisiswa nahone vhathu vha vhili ndi vhone vhane vha tea u amba uri yo tea u dzhena kha Common Voice. Ni tou ḓiitela vhulivhisi kha luambo lwaṋu <languageGuidelinesLink>hafha</languageGuidelinesLink>. Mitaladzi i tea uvha kha <licenseLink>fhethu ha tshitshavha tshoṱhe</licenseLink> nahone i tea u vha i vhupfufhi ha maipfi a sa fhiri 15. Ni nga humbela muṋe wa mafhungo uri a ite <waiverLink>CC0 ni tshi shumisa waiver process</waiverLink>, nahone ni ri rumele mulaedza kha commonvoice@mozilla.com
+about-playbook-how-add-sentences-content-3 = Ni nga shumisa tshau <scraperLink>extraktha mitaladzi</scraperLink> u mannḓafhadza mitaladzi mipfufhi u bva kha Wikipedia.
 about-playbook-how-add-sentences-content-4 = Mitaladzi yo khwaṱhisedzwaho i a expotiwa nga Ḽavhuraru ḽiṅwe na ḽiṅwe, nahone i a wanala nga murahu kha zwo bviswaho zwi tevhelaho.
 
 ## How to record quality
@@ -227,6 +234,7 @@ error-content-503 = Saiti i ḓo bekapiwa nga u ṱavhanya. Uri ni wane zwithu z
 data-subtitle = Ri khou ita dataset i ne ya ḓo shumiswa nga nnyi na nnyi nga muṅwe na muṅwe ya maipfi ane vhathu vhoṱhe vha nga kona u a shumisa u gudisa dzi application dzine dza kona u u amba.
 data-explanatory-text = Ri tenda uri tshitshavha tshihulu tshi re hone tshi ḓo vhuyelwa nga dataset ya maipfi zwa ita uri hu thomiwe zwithu zwiswa nahone ha vha na miṱaṱisano yavhuḓi kha zwa vhurengisi zwi tshimbidzanaho na thekhinolodzi ya u amba ya machine-learning. Zwenezwi ndi mutingati wa shango ḽoṱhe nga vhuphara nahone ri khou ramba muṅwe na muṅwe uri a shele mulenzhe. Tshipikwa tshashu ndi uri zwishumiswa zwa u amba zwa thekhinolodzhi zwi katele vhunzhi ha vhathu, hu pfale maipfi o fhambananaho u mona na shango ḽoṱhe.
 data-download-singleword-callout-v2 = Hetshi ndi tshipiḓa tshi langiwaho nga kushumisele tshi re na data ine ya mannḓafhadza digit recognition na ine ya ḓivha ee / hai.
+review-terms = Nga u shumisa Common Voice, ni khou tendelana na <termsLink>Milayo ya Kushumisele</termsLink>na<privacyLink>Milayo ya Tshiphiri</privacyLink>
 
 ## Datasets Page
 
@@ -295,9 +303,13 @@ language-section-launched-description = Kha hedzi nyambo dzo no ḓi dzheniswaho
 listen-loading-error =
     A ro ngo kona u wana odio dzo rekhodiwaho dza maipfi uri inwi ni kone u dzi thetshelesa.
      Ri humbela uri ni lingedze nga vhuya.
+speak-loading-error =
+    "A ro ngo kona u wana mitaladzi ine na ḓo i vhala.
+     Ri humbela uri ni lingedze nga vhuya."
 
 ## Reporting
 
+report-difficult-pronounce-detail = I na maipfi kana mibulo ine ya konḓa u i vhala kana u i bula.
 
 ## Goals
 
@@ -349,6 +361,7 @@ demo-language-select-card-body = Ri livhuwa vhathu vho shelaho mulenzhe vha fhir
 
 ## Demo Account
 
+demo-account-card-header = A zwi ṱoḓei uri ni vhe na akhantu uri ni kone u nikela, fhedzi zwi a thusa.
 demo-account-card-body = Ro ita zwithu zwavhuḓi nga u ṱalutshedza mbuyelo na u bvisela khagala uri ndi zwithu zwifhio zwine ra zwi ita uri zwi vhonwe nga nnyi na nnyi. Shumisani ḽinki dzi re afho fhasi uri ni thome u ita akhantu yaṋu ya Common Voice kha tshishumiswa tshaṋu.
 
 ## Demo Contribute
@@ -394,6 +407,7 @@ sc-languages-fetch-error = Ro balelwa u dzhia nyambo dzi re hone. A zwi konadzei
 
 ## HOW-TO
 
+sc-howto-addlang-text = Musi no ḽoga kha akhantu yaṋu ni nga nanga nyambo dzaṋu kha tshipiḓa tsha profaiḽi.
 sc-howto-addsen-item-1 = Mitaladzi yoṱhe ye na i rumela i tea u vha <wikipediaLink>Fhethu ha Tshitshavha Tshoṱhe (CC-0) ḽaisentsi</wikipediaLink>. U itela u tikedza u katelwa ha mushumo u si ho fhasi ha ḽaisentsi ya nnyi na nnyi, ro ita <cc0WaiverLink>themphuḽethi ya Thendelano ya u Shela mulenzhe </cc0WaiverLink> kha mushumo une muthu a re na kopi ya vhuṋe a ṱoḓa u nikela ngawo kha Common Voice.
 sc-howto-addsen-item-2 = Nomboro. Source text a yo ngo tea u vha na dzi nomboro ngauri zwi nga vhanga thaidzo musi dzo vhalelwa nṱha. Nḓila ine nomboro ya vhalwa ngayo zwi ḓitika nga mafhungo a re kha honoyo mutaladzi nahone zwi nga ḓisa nḓaḓo kha dataset. Sa tsumbo, nomboro ya “2409” i nga vhalwa sa “twenty-four zero nine” kana “two thousand four hundred nine” zwoṱhe zwa vha zwi zwone.
 sc-howto-addsen-item-3 = Upfufhifhadzwa na dzi Acronym. Upfufhifhadzwa na dzi acronym dzi ngaho “USA” kana “ICE” zwi tea u iledzwa kha luambo ho thomiwaho u ṅwaliwa ngalwo ngauri dzi nga vhalwa nga nḓila ine i si tshimbidzane na kupeḽeṱelwa kwadzo. Zwiṅwe hafhu, hu na nḓila nnzhi dzo teaho dza u vhala zwo pfufhifhadzwaho. Sa tsumbo, acronym ine ya pfi “ICE” i nga bulwa sa “I-C-E” kana sa ipfi ḽithihi.
@@ -487,6 +501,7 @@ sc-criteria-item-6 = Arali na fhelelwa nga mitaladzi ya u ṱolisisa, ri humbela
 
 sc-review-lang-not-selected = A ni a thu u nanga na luambo na luthihi. Ri umbela uri ni ye kha <profileLink>Profaiḽi</profileLink> yaṋu uri ni nange nyambo.
 sc-review-form-usage = Swaipelani kha tsha u ḽa u itela uri ni kone u amba uri mutaladzi ndi wone. U amba uri a si wone swaipelani kha tsha monde. Swaipelani nṱha u itela u pfuka. <strong>Ni songo hangwa u rumela zwe na ṱolisisa!</strong>
+sc-review-form-keyboard-usage-custom = Ni nga dovha hafhu na shumisa shortcuts dza Keyboard: { sc-review-form-button-approve-shortcut } u Khwaṱhisedza, { sc-review-form-button-reject-shortcut } u Hana, { sc-review-form-button-skip-shortcut } u Pfukha
 # Variables:
 #   $sentences (Number) - Number of sentences the user has reviewed in this session
 sc-review-form-reviewed-message =
