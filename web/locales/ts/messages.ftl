@@ -2,6 +2,7 @@
 
 yes-receive-emails = Ina, ndzi rhumeleni ti-email. Ndzi tsakela ku tshama ndzi ri karhi ndzi tivisiwa hi tsima ra Common Voice.
 stayintouch = Hina a Mozilla hi le ku akeni ka muganga wa vaaki ku rhendzela thekinoloji ya rito. Hi tsakela ku tshama hi ri eku hlanganiseni na swintshuxo, swihlovo leswintshwa swa datha na ku twa swo tala hi ndlela leyi u tirhisaka datha leyi ha yona.
+privacy-info = Hi tshembisa ku khoma rungula ra wena hi vukheta. Hlaya swo tala eka <privacyLink>Xitiviso xa Vuhlayiseki</privacyLink> ya hina.
 return-to-cv = Vuyela eka Common Voice
 email-input =
     .label = Imeyili
@@ -39,6 +40,7 @@ ba = Xibashkir
 bas = Xibasaa
 be = Xibelarus
 bg = Xibulgaria
+bn = Xibengali
 br = Xibreton
 bs = Xibosnia
 bxr = Xiburyat
@@ -915,11 +917,13 @@ validations =
 your-languages = Tindzimi ta wena
 toward-next-goal = Ku ya eka pakani leyi landzelaka
 goal-reached = Pakani yi fikeleriwile
+clips-you-recorded = Swiphemu Leswi U swi Rekhodeke
 clips-you-validated = Swiphemu Leswi U nga swi Tiyisisa
 todays-recorded-progress = Common Voice ya namuntlha yi ya emahlweni eka swiphemu leswi rhekhodiweke
 todays-validated-progress = Nhluvuko wa namuntlha wa Common Voice eka swiphemu wu tiyisisiwile
 stats = Tinhlayo
 awards = Masagwadi
+you = Wena
 everyone = Un’wana ni un’wana
 contribution-activity = Ntirho wa ku Hoxa xandla
 top-contributors = Vahoxaxandla va le Henhla
@@ -940,6 +944,7 @@ goal-type = Xana u lava ku aka pakani ya njhani?
 both-speak-and-listen = Hivumbirhi
 both-speak-and-listen-long = Havumbirhi bya swona (Vulavula U Yingisela)
 daily-goal = Pakani ya Siku na Siku
+weekly-goal = Pakani ya Vhiki na Vhiki
 easy-difficulty = Olovaka
 average-difficulty = Avhareji
 difficult-difficulty = Tikela
@@ -961,6 +966,20 @@ help-reach-hours-general-pluralized =
     }
 set-a-goal = Vekela pakani
 cant-decide = A wu swi koti ku endla xiboho?
+activity-needed-calculation-plural =
+    { NUMBER($totalHours) ->
+        [one] { $totalHours } awara yi fikeleleka hi ku tlulanyana
+       *[other] { $totalHours } tiawara ti fikeleleka hi ku tlulanyana
+    } { NUMBER($periodMonths) ->
+        [one] { $periodMonths } n'hweti loko
+       *[other] { $periodMonths } tin’hweti loko
+    } { NUMBER($people) ->
+        [one] { $people } rhekhodo ya munhu
+       *[other] { $people } ti rhekhodo ta vanhu
+    } { NUMBER($clipsPerDay) ->
+        [one] { $clipsPerDay } swiphemu hi siku.
+       *[other] { $clipsPerDay } swiphemu hi siku.
+    }
 how-many-per-day = Swikulu! Xana i swiphemu swingani hi siku?
 how-many-a-week = Swikulu! Xana i swiphemu swingani  hi vhiki?
 which-goal-type = Xana u lava ku Vulavula, Ku Yingisela kumbe hi vumbirhi bya swona?
@@ -983,6 +1002,8 @@ share-n-weekly-contribution-goal = Avelana hi { $count } Xiphemu xa Pakani ya Vh
 share-goal-type-speak = Ku vulavula
 share-goal-type-listen = Yingisela
 share-goal-type-both = Ku Vulavula Ni Ku Yingisela
+# LINK will be replaced with the current URL
+goal-share-text = Ndza ha ku endla pakani ya munhu hi xiyexe ya munyikelo wa rito eka #CommonVoice -- famba na mina ni ku pfuna ku dyondzisa michini ndlela leyi vanhu va xiviri va vulavulaka hi yona { $link }
 weekly-goal-created = Pakani ya wena ya vhiki na vhiki yi tumbuluxiwile
 daily-goal-created = Pakani ya wena ya siku na siku yi tumbuluxiwile
 track-progress = Landzelela nhluvuko laha na le ka tluka ra wena ra tinhlayohlayo.
@@ -1021,6 +1042,7 @@ download-request = Kombela swilo leswi rhekhodiweke
 download-requests = Swikombelo swo dawuniloda leswi rhekhodiweke leswi hundzeke
 download-requests-info = Loko u kombela tirhekhodo ta wena, hi ti hlengeleta ti va fayili yin’we kumbe to tala ta ZIP. Hi leswi swikombelo swa wena swa nkarhi lowu hundzeke:
 download-request-button = Kopa
+download-request-title = { $created }
 download-request-description = { $clipCount } swiphemu swa rito, mpimo hinkwawo wa akhavhiyu { $size }. Ku hela nkarhi { $expires }.
 download-request-archive-single = Fayili yin’we ya ZIP leyi nga na
 download-request-archive-multiple = Ku avanyisa hi { $archiveCount } tifayela ta ZIP leti nga na
@@ -1048,6 +1070,7 @@ demo-welcome-subheader = Xana wa swi tsakela ku dyondza kumbe na ku hoxa xandla 
 
 ## Demo Datasets
 
+demo-language-select-card-header = Common Voice i dataset ya rito ya tindzimi to tala leyi kumekaka erivaleni emisaveni hinkwayo.
 demo-language-select-card-body = Hikwalaho ka la va nga hoxa xandla ku suka eka vanhu vo tlula 259k hi tindzimi to tlula 50, datha leyi yi tirhisiwa ku letela switirhisiwa leswi pfunaka ku vulavula ku hlamula ku antswa eka rito ra munhu.
 card-button-next = Landzelaka
 card-button-back = Ndzhaku
@@ -1093,11 +1116,13 @@ contribution-misreadings-example-1-title = Ti- dinosaur letikulu ta nkarhi wa Tr
 contribution-misreadings-example-2-title = Ti-dinosaur letikulu ta nkarhi wa Triassic.
 contribution-misreadings-example-2-explanation = [Swi fanele swi ri ‘ti-dinosaur’]
 contribution-misreadings-example-3-title = Ti- dinosaur letikulu ta le Triassi-.
+contribution-misreadings-example-3-explanation = [Ku rhekhoda ku tsemiwa ku nga si hela rito ro hetelela]
 contribution-misreadings-example-4-title = Ti-dinosaur letikulu ta nkarhi wa Triassic. Ina.
 contribution-misreadings-example-4-explanation = [Ku rhekhodiwile swo tala ku tlula tsalwa leri lavekaka]
 contribution-misreadings-example-5-title = Hi huma hi ya teka kofi.
 contribution-misreadings-example-6-title = Hi huma hi ya teka kofi.
 contribution-misreadings-example-6-explanation = [Swi fanele swi va “Hi hina”]
+contribution-misreadings-example-7-title = Hi huma hi ya teka kofi.
 contribution-misreadings-example-7-explanation = [Ku hava ‘a’ eka tsalwa ro sungula].
 contribution-misreadings-example-8-title = Bumblebee yi hundze hi rivilo.
 contribution-misreadings-example-8-explanation = [Nhundzu leyi nga fambelaniki]
@@ -1105,17 +1130,20 @@ contribution-varying-pronunciations-title = Ku Hambana-hambana ka Mavitanelo
 contribution-varying-pronunciations-description = Vana ni vuxiyaxiya u nga si ala xiphemu laha muhlayi nga vula rito hi ndlela leyi nga tolovelekanga, a nga veka  ntshikilelo endhawini leyi hoxeke kumbe swi tikomba onge u honise mfungho wa xivutiso. Ku ni mavitanelo yo hambana-hambana lama tirhisiwaka emisaveni hinkwayo, lawa man’wana ya wona ma nga ha vaka u nga ma twanga emugangeni wa ka n’wina. Hi kombela u hlonipha lava vuluvulaka hi ndlela leyi hambaneke na wena.
 contribution-varying-pronunciations-description-extended = Hi hala tlhelo, loko u ehleketa leswaku kumbexana muhlayi a nga si tshama a hlangana na rito leri, naswona u endla ntsena ku ringanyeta loku hoxeke eka mavitanelo ya rona, hi kombela u ala. Loko u nga tiyiseki, tsopeta tlula.
 contribution-varying-pronunciations-example-1-title = Enhlokweni yakwe a ambale berete.
+contribution-varying-pronunciations-example-1-explanation = [‘Beret’ yi lulamile hambi hi ku tshikileriwa eka xitwari xo sungula (UK) kumbe xa vumbirhi (US)]
 contribution-varying-pronunciations-example-2-title = Voko ra yena a ri yimisi-wile
 contribution-varying-pronunciations-example-2-explanation = [‘Raised’ hi Xinghezi minkarhi hinkwayo yi vitaniwa tanihi xitwari xin’we, ku nga ri swimbirhi].
 contribution-background-noise-title = Mpfumawulo wa le ndzhaku
 contribution-background-noise-description = Hi lava leswaku tialgorithm to dyondza hi muchini ti kota ku khoma mpfumawulo wo hambana-hambana wa le ndzhaku, naswona hambi ku ri mimpfumawulo leyi tlakukeke swinene yi nga amukeriwa ntsena loko yi nga ku siveli ku twa tsalwa hinkwaro. Vuyimbeleri bya le ndzhaku lebyi rhuleke byi lulamile; vuyimbeleri lebyi tlakukeke lerova byi ku sivela ku twa rito rin’wana ni rin’wana a hi rona.
 contribution-background-noise-description-extended = Loko rhekhodo yi tshoveka, kumbe yi ri na ku rhurhumela, ala handle ka loko tsalwa hinkwaro ra ha twiwa.
+contribution-background-noise-example-1-fixed-title = <strong>[Sneeze]</strong> Ti dinosaur letikulu ta <strong>[cough]</strong> Triassic.
 contribution-background-noise-example-2-fixed-title = Xihontlovila xa dino <strong>[cough]</strong> xa Triassic.
 contribution-background-noise-example-2-explanation = [Xiphemu xa tsalwa a xi twiwi]
 contribution-background-noise-example-3-fixed-title = <strong>[Crackle]</strong> ti-dinosaur letikulu ta <strong>[crackle]</strong> -riassic.
 contribution-background-voices-title = Marito ya le ndzhaku
 contribution-background-voices-description = Mpfumawulo wa le ndzhaku lowu rhuleke wu lulamile, kambe a hi lavi marito lama engetelekeke lama nga endlaka leswaku algorithm ya muchini yi vona marito lama nga riki kona eka tsalwa leri tsariweke. Loko u kota ku twa marito yo hambana handle ka ya tsalwa, xiphemu xi fanele ku ariwa. Hi ntolovelo leswi swi humelela laha TV yi tshikiweke yi pfuriwile, kumbe laha ku nga na mbulavurisano lowu yaka ekusuhi.
 contribution-background-voices-description-extended = Loko rhekhodo yi tshoveka, kumbe yi ri na ku rhurhumela, ala handle ka loko tsalwa hinkwaro ra ha twiwa.
+contribution-background-voices-example-1-title = Ti-dinosaur letikulu ta nkarhi wa Triassic<strong>[read by one voice]</strong>
 contribution-background-voices-example-1-explanation = Xana wa ta? <strong>[called by another]</strong>
 contribution-volume-title = Vholumu
 contribution-volume-description = Ku ta va na ku hambana ka ntumbuluko eka vholumo exikarhi ka vahlayi. Ala ntsena loko vholumo yi ri ehenhla swinene lerova rhekhodo ya vona i tshovekaka, kumbe (hi ntolovelo) loko yi ri ehansi swinene lerova u nga swi koti ku twa leswi vuriwaka handle ko kombetela eka tsalwa leri tsariweke.
@@ -1162,6 +1190,7 @@ sc-home-review-text = Hi pfuneni hi ku pfuxeta swivulwa leswaku swi lulamile hi 
 
 ## GENERAL
 
+sc-languages-fetch-error = Hi tsandzekile ku teka tindzimi leti nga kona. Minyikelo sweswi a yi koteki. Hi kombela u ringeta nakambe endzhaku ka nkarhi.
 
 ## HOW-TO
 
@@ -1178,6 +1207,8 @@ sc-howto-addsen-item-6 = Tindzimi ti nga va na <validationRulesLink>milawu ya to
 sc-howto-addsen-post-1 = Hi tsakela swivulwa swa ntumbuluko/swivulwa swa mbulavurisano. Hambileswi ku hambana ka fonetiki na marito yo hambana eka swivulwa swi nga swa nkoka, hi ringeta ku endla leswaku ku rhekhoda swivulwa swi tsakisa hilaha swi nga kotekaka hakona. Hikwalaho swi nga va swinene loko u nga ringeta ku hlayisa swivulwa swa wena swi ri swa ntumbuluko/swi nghenelela hilaha swi nga kotekaka hakona.
 sc-howto-cite-title = Ndlela yo Tshaha
 sc-howto-cite-pre-1 = I swa nkoka leswaku u kombetela laha u kumeke layisense ya mani na mani ku papalata ku yiva na ku pfumelela ku landzelerisa eka <copyrightIssuesLink>timhaka ta mfanelo ya vutshila</copyrightIssuesLink>. Hi leti tindlela ti nga ri tingani leti u nga tshahaka ntirho ha tona.
+sc-howto-cite-item-1 = U nga katsa webusayiti, e.g "Common Voice - https://commonvoice.mozilla.org/"
+sc-howto-cite-item-2 = U nga tirhisa endlelo ra dyondzo ro kombetela, hi xikombiso, endlelo ra Harvard "Mozilla (2021) Common Voice. Yi kumeka eka https://commonvoice.mozilla.org/ (Accessed: 15th September 2021)"
 sc-howto-review-title = Pfuxeta Swivulwa
 sc-howto-review-subtitle = Tiyisisa leswaku xivulwa xi fikelela swipimelo leswi landzelaka:
 sc-howto-review-criteria-1 = Xivulwa xi fanele ku peletiwa hi ndlela leyinene.
@@ -1268,6 +1299,14 @@ sc-add-result =
         [one] Swivulwa leswi nga nyikeriwa.{ $duplicates } xivulwa xi ariwe tanihi kopi.
        *[other] Swivulwa leswi nga nyikeriwa. { $duplicates }swivulwa swi ariwe tanihi tikopi.
     }
+# Variables:
+#   $sentences (Number) - Number of sentences which failed to be saved to the database - could be several different reasons
+sc-add-err-failed =
+    { $sentences ->
+        [0] Ku hava swivulwa leswi tsandzekeke
+        [one] 1 xivulwa xi tsandzekile
+       *[other] { $sentences } swivulwa swi tsandzekile
+    }
 sc-add-err-submission = Xihoxo xa ku Rhumela
 
 ## ADD SENTENCES CONFIRMATION
@@ -1275,6 +1314,14 @@ sc-add-err-submission = Xihoxo xa ku Rhumela
 sc-confirm-are-you-sure =
     .message = Swivulwa a swi rhumeriwanga, xana u tiyisile leswaku u lava ku famba?
 sc-confirm-sentences-title = Tiyisisa Swivulwa Leswintshwa
+# Variables:
+#   $countOfSentences (Number) - Number of sentences the user has filled in the submission form
+sc-confirm-sentences-found =
+    { $countOfSentences ->
+        [0] Ku hava swivulwa leswi kumiweke.
+        [one] 1 xivulwa xi kumiwile.
+       *[other] { $countOfSentence } swivulwa swi kumiwile.
+    }
 # Variables:
 #   $countOfInvalidated (Number) - Number of sentences the user rejected in the review form before submission
 sc-confirm-rejected-by-you = { $countOfInvalidated } yi ariwile hi wena
@@ -1303,6 +1350,14 @@ sc-confirm-uploading = Swivulwa swi le ku nghenisiweni. Leswi swi nga ha teka ti
 sc-lang-info-title-total = Hinkwaswo
 sc-lang-info-title-personal = Ximunhu
 # Variables:
+#   $totalSentences (Number) - Number of sentences uploaded in total for this language
+sc-lang-info-total =
+    { $totalSentences ->
+        [0] Ku hava swivulwa hinkwaswo.
+        [one] 1 xivulwa hinkwaxo.
+       *[other] { $totalSentence } swivulwa hinkwaswo.
+    }
+# Variables:
 #   $totalInReview (Number) - Number of sentences currently in the review state for this language
 sc-lang-info-in-review =
     { $totalInReview ->
@@ -1327,6 +1382,14 @@ sc-lang-info-validated =
         [0] Ku hava swivulwa hinkwaswo.
         [one] 1 xivulwa hinkwaxo.
        *[other] { $totalSentence } swivulwa hinkwaswo.
+    }
+# Variables:
+#   $rejectedSentences (Number) - Number of sentences which have been rejected for this language
+sc-lang-info-rejected =
+    { $rejectedSentences ->
+        [0] Ku hava swivulwa leswi ariweke.
+        [one] 1 xivulwa lexi ariweke.
+       *[other] { $rejectedSentence } swivulwa leswi ariweke.
     }
 
 ## LOGIN
