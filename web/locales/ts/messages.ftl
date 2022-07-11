@@ -9,6 +9,7 @@ email-opt-in-privacy-v2 = Hi ku hlawula ku nghena ku amukela ti-imeyili u vula l
 indicates-required = Tinsimu leti funghiweke hi nyeleti (*) ta laveka.
 banner-error-slow-1 = Kombela ndzivalelo, Common Voice yi famba hi ku nonoka. Ndza khensa ku tsakela ka n'wina.
 banner-error-slow-2 = Hi kuma ntlimbano yo tala naswona sweswi hi le ku lavisiseni ka timhaka leti.
+banner-error-slow-link = Tluka ra Xiyimo
 error-something-went-wrong = Hi rivaleli, ku ni nchumu lowu nga famba kahle
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
@@ -17,7 +18,9 @@ error-something-went-wrong = Hi rivaleli, ku ni nchumu lowu nga famba kahle
 
 ## Languages
 
+nan-tw = Xitaiwan (Minnan)
 sat = Santali (Ol Chiki)
+tok = Toki Pona
 zh-HK = Xichayina (Hong Kong)
 
 # [/]
@@ -56,6 +59,7 @@ speak-subtitle = Nyikela hi rito ra wena
 listen-subtitle = Hi pfune ku tiyisisa ma ritu
 listen-paragraph = Ku tiyisisa swiphemu leswi nyikeriweke i swa nkoka hi ndlela leyi fanaka eka vurhumiwa bya Common Voice. Yingisela u hi pfuna ku tumbuluxa datha ya rito ya xihlovo lexi pfulekeke xa ku xixima.
 voices-online = Marito Ya Le Ka Inthanete Sweswi
+todays-progress = Nhluvuko wa Namuntlha
 help-reach-goal = Hi pfuni ku fikelela eka { $goal }
 read-terms-q = Xana u hlayile Mimpimanyeto ya hina?
 ready-to-record = Xana u lunghekele ku nyikela hi rito ra wena?
@@ -87,6 +91,7 @@ demographic-deidentified-clarity-2 = Data ya nhlayo ya vaaki leyi rhumeriweke hi
 ## Speak Shortcuts
 
 shortcut-discard-ongoing-recording-label = Lahla ku rhekhodiwa loku yaka emahlweni
+shortcut-submit-label = Rhumela swiphemuphemu
 request-language-button = Kombela Ririmi
 
 ## ProjectStatus
@@ -294,6 +299,8 @@ about-playbook-how-project-governance-content-7 = <governanceLink>Hlaya swo tala
 ## Glossary
 
 hours-validated-explanation = Nhlayo ya tiawara to rhekhoda rito leti tiyisisiweke hi vatirhisi va 2 eka va 3 hi vhoti ya “Ina”. Leswi swi fungha nhluvuko ku ya eka pakani ya tiawara ta 10k ya phurojeke hinkwayo.
+sst = Nkulumo-ku-ya-eka-tsalwa (STT) .
+sst-explanation = Tithekinoloji ta mbulavulo ku ya eka tsalwa (STT) ti hundzula datha ya rito yi va tsalwa.
 de-identified-explanation = Endlelo leri hi rona vuxokoxoko bya phurofayili ya muhoxa xandla byi fihliwaka eka swiphemu swa vona swa rito leswi nyikeriweke loko swi pakiwile leswaku swi ta kopiwa tanihi xiphemu xa dataset.
 
 ## Error pages
@@ -341,6 +348,7 @@ other-datasets = Tidathaseti tin’wana ta Rito
 resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ i <docsLink>xitirhisiwa xa xihlovo lexi pfulekeke</docsLink> eka valavisisi lava endlaka timodeli ta xiyimo xa le henhla ta AI ya mbulavurisano.
 resource-deepspeech-info = Injhini yo tiva rito ya xihlovo lexi pfulekeke ya Mozilla leyi nge Deep Speech yi nga tirhisiwa ku aka switirhisiwa swo tiva mbulavulo. Hlaya <githubLink>nkatsakanyo wa hina wa Github</githubLink> kutani u joyina <discourseLink>DeepSpeech Discourse</discourseLink> ku dyondza ndlela yo sungula.
 resource-playbook-info = <playbookLink>Kuma nkongomiso lowu pfunaka</playbookLink> eka riendzo hinkwaro ra Common voice, ku huma eka ku akelana ku ya ka matirhiselo ya rungula, xikan’we ni ndlela yo ku ti hlanganisa ni muganga wa ka hina.
+data-other-ted-name = Xiyenge xa ​​TED-LIUM
 data-other-tatoeba-description = Tatoeba i database leyikulu ya swi vulwa vuhundzuluxeri ni mpfumawulo lowu vulavuriwaka lowu tirhisiwaka eku dyondzeni ka ririmi. Fayili leyi yi dawunilodiweke yi na Xinghezi lexi vulavuriwaka lexi rhekhodiweke hi vaaki va vona.
 go-discourse = Famba eka Discourse
 go-languages-page = Famba eka Pheji ra ma Rimi
@@ -404,6 +412,7 @@ contribute-more =
         [one] $count ->
        *[other] U lunghekele ku endla { $count } swo tala?
     }
+record-cta = Sungula ku rhekhoda
 record-must-allow-microphone = U fanele u pfumelela ku nghena eka microphone.
 record-no-mic-found = Ku hava xikurisa-marito lexi kumiweke.
 record-error-too-short = Ku rhekhodiwa a ku ri komile swinene.
@@ -419,6 +428,7 @@ review-instruction = Pfuxeta & u rhekhoda swiphemu loko swi laveka
 record-submit-tooltip = { $actionType } rhumela loko u lunghekile
 record-abort-title = Hetisa ku rhekhoda ku sungula?
 record-abort-text = Ku famba sweswi swi vula leswaku u ta lahlekeriwa hi nhluvuko wa wena
+record-abort-submit = Rhumela swiphemuphemu
 record-abort-delete = Huma & Susa swiphemu
 listen-instruction = { $actionType }<playIcon></playIcon> xana va vulavule kahle xivulwa?
 listen-again-instruction = Ntirho lowukulu!<playIcon></playIcon> Yingisela nakambe loko u lunghekile
@@ -465,7 +475,9 @@ toward-next-goal = Ku ya eka pakani leyi landzelaka
 clips-you-validated = Swiphemu Leswi U nga swi Tiyisisa
 todays-recorded-progress = Common Voice ya namuntlha yi ya emahlweni eka swiphemu leswi rhekhodiweke
 todays-validated-progress = Nhluvuko wa namuntlha wa Common Voice eka swiphemu wu tiyisisiwile
+top-contributors = Vahoxaxandla va le Henhla
 validated-clips = Swiphemu leswi Tiyisisiweke
+total-approved = Nhlayo hinkwayo leyi pfumeleriweke
 set-visibility = Vekela ku vonakala ka mina
 visibility-explainer = Xiyimiso lexi xi lawula ku vonakala ka huvo ya varhangeri ya wena. Loko u tumbetiwe, nhluvuko wa wena wu ta va wa xihundla. Leswi swi vula leswaku xifaniso xa wena, vito ra mutirhisi na nhluvuko a swi nge humeleli eka bodo ya varhangeri. Xiya leswaku ku pfuxetiwa ka huvo ya varhangeri swi teka ~{ $minutes }min ku tata ku cinca.
 show-ranking = Kombisa xiyimo xa mina
@@ -517,6 +529,7 @@ download-profile-info = Ku katsa na email, vito ra mutirhisi & vuxokoxoko bya nh
 download-profile-size = Tibayiti ti nga ri tingani
 download-recordings-title = ti rhekhodo
 download-recordings-info = Ku katsa na ti-mp3 na swivulwa leswi fambelanaka na swona, swi nga teka nkarhi wo karhi ku tilulamisela
+download-recordings-size = Hi ntolovelo ti-megabyte
 download-recordings-unavailable = A wu nge kombeli swi rhekhodo swa wena loko xikombelo xin’wana se xi ri karhi xi endliwa.
 download-recently-requested = U nga kombela ku tekiwa lokuntshwa ka tirhekhodo ta wena endzhaku ka masiku man’wana na man’wana ya { $days }.
 download-start = Downloada rungula ra xivumbeko
@@ -677,6 +690,7 @@ sc-submit-guidelines = Hi kombela u languta <howToLink>swiletelo</howToLink>.
 
 sc-add-lang-could-not-add = A swi koteki ku engetela ririmi
 sc-add-err-unexpected = Nhlamulo leyi nga languteriwangiki yi vuyile ku suka eka sevha
+sc-add-err-submission = Xihoxo xa ku Rhumela
 
 ## ADD SENTENCES CONFIRMATION
 
