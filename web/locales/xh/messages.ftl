@@ -16,6 +16,7 @@
 
 ## Home Page
 
+no-clips-to-validate = Kubonakala ngathi akukho zikliphu zokumamela kolu lwimi. Sincede sigcwalise umgca ngokurekhoda ezinye ngoku.
 
 ## Account Benefits
 
@@ -191,9 +192,9 @@ sc-howto-cite-item-3 = Kumbhalo wesizinda sikawonke-wonke ongafumanekiyo kwi-int
 #   $duplicates (Number) - Number of sentences which got rejected because they are duplicates
 sc-add-result =
     { $duplicates ->
-        [0] [0] Izivakalisi ezingenisiweyo. { $duplicates } izivakalisi ziye zakhatywa njengeziphindwaphindwayo.                                                                                                                                                         [one] Kungeniswe izivakalisi. { $duplicates } isivakalisi siye sakhatywa njengesiphindiweyo.                                                                                                                                                               *[other] Kungeniswe izivakalisi. { $duplicates } izivakalisi ziye zakhatywa njenge ziphindwaphindwayo.
-        [one] { "" }
-       *[other] { "" }
+        [0] Izivakalisi ezingenisiweyo. { $duplicates } izivakalisi ziye zakhatywa njengeziphindwaphindwayo.
+        [one] Kungeniswe izivakalisi. { $duplicates } isivakalisi siye sakhatywa njengesiphindiweyo.
+       *[other] Kungeniswe izivakalisi. { $duplicates } izivakalisi ziye zakhatywa njenge ziphindwaphindwayo.
     }
 
 ## ADD SENTENCES CONFIRMATION
@@ -217,6 +218,7 @@ sc-confirm-uploading = Izivakalisi ziyalayishwa. Oku kungathatha imizuzu emininz
 
 ## SETTINGS
 
+sc-settings-skipped-decription = Ngaphambili utsibe izivakalisi ngelixa uphonononga.Ukuseta kwakhona izivakalisi ezitsityiweyo kuya kubonisa zonke izivakalisi ezitsityiweyo kwakhona. Oku kukuzimela kulwimi.
 
 # [/SentenceCollector]
 
