@@ -31,6 +31,7 @@ br = Se-Breton
 bs = Se-Bosnia
 bxr = Se-Buryat
 ca = Se-Catalan
+ckb = Se-Central Kurdish
 co = Se-Corsica
 cs = Se-Czech
 cv = Se-Chuvash
@@ -46,6 +47,7 @@ th = Se-Thai
 ti = Se-Tigrinya
 tig = Se-Tigre
 yue = Se-Canton
+zh-CN = Se-China (China)
 zh-TW = Se-China (Taiwan)
 
 # [/]
