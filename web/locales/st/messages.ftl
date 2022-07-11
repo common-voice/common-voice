@@ -422,6 +422,7 @@ about-playbook-how-grow-language-content-6 = Dikamano le marang-rang
 about-playbook-how-project-governance-content-3 = Lekunutu, tshireletso le ponaletso.
 about-playbook-how-project-governance-content-5 = Boleng le temoho.
 about-playbook-how-project-governance-content-6 = Boikarabello ka kopanelo.
+about-playbook-how-project-governance-content-7 = <governanceLink>Bala haholwanyane ka moo re buswang ka teng</governanceLink>
 
 ## Glossary
 
@@ -549,6 +550,7 @@ clips-with-count-pluralized =
        *[other] Di-Clip
     }
 record-cta = Qala ho rekota
+record-must-allow-microphone = O tlameha ho dumella tshebediso ya maekrofounu.
 record-no-mic-found = Ha ho maekerofounu e fumanweng.
 record-cancel = Hlakola ho rekota hape
 record-stop-instruction = { $actionType }<stopIcon></stopIcon> ha o qetile
@@ -563,6 +565,7 @@ record-abort-text = Ho tsamaea hona jwale ho bolela hore o tla lahlehelwa ke tsw
 record-abort-submit = Romella di-clip
 record-abort-continue = Qetela ho rekota
 record-abort-delete = Tswa mme o Hlakole di-clip
+listen-instruction = { $actionType }<playIcon></playIcon> na ba buile polelo eo ka nepo?
 listen-again-instruction = Mosebetsi o motle!<playIcon></playIcon> Mamela hape ha o se o itokisitse
 listen-last-time-instruction = <playIcon></playIcon>Ya ho qetela!
 speak-empty-state-cta = Nehelana ka dipolelo
@@ -727,6 +730,7 @@ contribution-misreadings-example-2-title = Kgodumodumo e kgolo tsa Triassic.
 contribution-misreadings-example-2-explanation = [E tlameha e be 'dikgodumodumo']
 contribution-misreadings-example-3-title = Dikgodumodumo tse kgolo tsa Triassic-.
 contribution-misreadings-example-6-title = Re il'o fumana kofi.
+contribution-misreadings-example-7-explanation = [Ha ho ‘a’ mongolong wa pele]
 contribution-misreadings-example-8-title = Notshi e ile ya feta ka lebelo.
 contribution-misreadings-example-8-explanation = [Ditaba tse sa tsamaisaneng]
 contribution-varying-pronunciations-title = Qapodiso tse fapaneng
