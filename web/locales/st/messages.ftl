@@ -207,6 +207,7 @@ cookies = Di-cookie
 faq = FAQ
 content-license-text = Ditaba di fumaneha tlas'a <licenseLink>laesense ya Creative Commons</licenseLink>
 share-title = Re thuse ho fumana ba bang ho nehela ka mantswe a bona!
+share-text = Thusa ho ruta metjhini hore na batho ba nnete ba bua jwang, fana ka lentswe la hao ho { $link }
 link-copied = Hokahanyo e kopiditswe
 back-top = Kgutlela Hodimo
 logout = Tswa
@@ -240,6 +241,7 @@ x-weeks-short =
     }
 sign-up-account = Ngodisa bakeng sa ak'haonte
 email-subscription-title = ingodise bakeng sa email ya dintlafatso
+email-subscription-title-new = Ingodise bakeng sa dikoranta tsa Common Voice, dikgopotso tsa sepheo le ditlaleho tsa tswelopele
 
 ## Account Benefits
 
@@ -251,6 +253,7 @@ compare-progress = Sheba kamoo tswelopele ya hao e bapiswang le batshehetsi ba b
 
 whats-public = Phatlalatsa ke Eng?
 email-not-public = Re ke ke ra etsa hore email ya hao e phatlalatswe.
+username-optin-public = O ka kgetha ho etsa hore lebitso la hao la mosebedisi le phatlalatswe kapa le se ke la tsejwa.
 
 ## Speak & Listen Shortcuts
 
@@ -368,16 +371,25 @@ change-email-setings = Fetola email ya hao ka Ditlhophiso tlasa Boitsebiso ba ho
 
 faq-title = Dipotso Tse Botswang Kgafetsa
 faq-what-cv-q = Common Voice ke Eng?
+faq-what-cv-a-2 =
+    Thekenoloji e elellwang lentswe e fetola tsela yeo re sebedisanang le metjhini ka yona, empa ditsamaiso tse teng hona jwale di turu ebile di ruilwe ke batho ba itseng. Common Voice ke karolo ya boikitlaetso ba Mozilla ba ho etsa hore thekenoloji e elellwang lentswe e be betere le hore e fumanehe ho bohle. Common Voice ke database e kgolo haholo ya lefatshe ka bophara ya mantswe a nehetsweng e dumellang mang kapa mang hore a kwetlise ka potlako le ka bonolo disebediswa tse sebetsang ka lentswe ho puo e nngwe le e nngwe.
+    
+    Ha re bokelle feela mehlala ya mantswe a dipuo tse buuwang haholo empa le ho dipuo tse buuwang ke ditjhaba tse fokolang ka palo. Ho phatlalatsa pokello ya data e mefuta-futa ya mantswe ho tla matlafatsa dihahi tsa marang-rang, bahwebi, le ditjhaba kaofela tsa puo ho sebetsana le sekgeo sena ka bo bona.
 faq-why-important-q = Ke hobane'ng ha e le ya bohlokwa?
 faq-why-important-a =
     Puo hangata ke tsela ya tlhaho eo re buisanang mmoho ka eona mme dithekenoloji tsa lentswe di tlisa boiketlo boo ba puisano ho dik'homphuta le disebediswa tsa mohala tsa rona. Re batla ho matlafatsa batho ba ntlafatsang ho haha disebediswa tse hlollang tse elellwang lentswe jwaloka bafetoledi ba nako ya nnete le bathusi ba digital ba sebetsang ka lentswe. Empa hajwale boholo ba data ya lentswe e hlokahalang ho haha disebediswa tsa mofuta ona e ya tura mme e ruilwe ke batho ba itseng. Re tshepa hore pokello ya data ya Common Voice e tla fa bahahi ba marang-rang seo ba se hlokang ho qapa le ho etsa thekenoloji ya puo e fumanehe ka puo tseo e leng tsa bona. 
     
     Ho etsa hore thekenoloji e elellwang lentswe e pharalle le lefatshe, re ntse re bokella mehlala ya mantswe dipuong tse buuwang haholo mmoho le ho dipuo tse buuwang ke ditjhaba tse fokolang ka palo tseo hangata di nyenyefatswang ke dikgwebo tse fanang ka ditshebeletso tsa thekenoloji e elellwang puo.
 faq-how-get-q = Ebe nka fumana data ya Common Voice jwang?
+faq-when-release2-q = O tla lokolla data ya Common Voice neng ka dipuo tse ding?
+faq-why-mission-a = Mozilla e ikemiseditse ho boloka marang-rang a butswe ebile a fumaneha ho bohle. Ho etsa jwalo re hloka ho matlafatsa baetsi ba marang-rang ka merero e kang Common Voice. Ha dithekenoloji tsa lentswe di ntse di kenella tshebetsong ho feta, re dumela hore di tlameha ho sebeletsa basebedisi bohle ka ho lekana. Hona ho bolela ho tsetela dipuong tse ngata le ho amohela ditsela tsa puo tse fapaneng le batho ba fapaneng ha ho hahwa ​​​​le ho lekola dithekenoloji tsa lentswe. Common Voice ke sesebediswa sa setjhaba se fumanehang ho bohle, mme dihlopha tsa Mozilla le dihahi tsa marang-rang tsa lefatshe ka bophara di se ntse di e sebedisa le ho merero ya rona.
+faq-is-goal-assistant-q = Na sepheo sa Common Voice ke ho aha mothusi wa lentswe?
+faq-why-different-speakers-q = Ke hobaneng ha o hloka dibui tse ngata tse fapaneng puo ka nngwe?
 faq-why-my-lang-q = Ke hobane'ng ha puo ya ka e so kenyeletswe?
 faq-why-10k-hours-q = Hobaneng dihora tse 10,000 tse netefaditsweng e le sepheo sa puo ka nngwe ya ho nka audio?
 faq-how-calc-hours-q = Common Voice e bala dihora jwang?
 faq-where-src-from-2-q = mongolo mohlodi o tswa hokae?
+faq-why-not-ask-read-a = Ho etsa hore pokello ya data ya Common Voice e be molemo ka moo ho ka kgonehang re nkile qeto ya ho dumella sengolwa-sa-mathomo se fumanehang feela tlasa laesense ya Creative Commons (CC0). Ho sebedisa maemo a CC0 ho bolela hore ho thata ho fumana le ho bokella sengolwa-sa-mathomo, empa ho dumella mang kapa mang ho sebedisa data ya mantswe ntle le dithibelo tsa tshebediso kapa tumello ho tswa ho Mozilla. Qetellong, re batla ho etsa hore pokello ya data ya puo tse ngata e be molemo haholo ka moo ho ka kgonehang ho bohle, ho kenyelletsa bafuputsi,diunivesithi, ba qalang dikgwebo, mebuso, mekgatlo ya merero ya setjhaba, le batho ba ratang ho itlosa bodutu.
 faq-is-account-public-q = Na dintlha tsa ak'haonte ya ka di phatlalatsa?
 faq-what-determine-identity-a =
     Pokello ya data ya Common Voice ke sesebediswa se bulehileng mme se fumanehang phatlalatsa se ka sebediswang ho kwetlisa mefuta-futa ya disebediswa tse sebetsang ka puo. Ho sireletsa polokeho ya bafani ba rona, re kopa bohle ba download-ang pokello ya data ya Common Voice ba hlomphe boinotshi ba bafani. 
@@ -391,6 +403,9 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Hobaneng Common Voice?
+about-header-description-v2 =
+    <p>Common Voice ke pokello ya data ya mantswe e fumanehang phatlalatsa, e matlafatswang ke mantswe a bafani ba ithaopileng lefatshe ka bophara. Batho ba batlang ho haha disebediswa tsa lentswe ba ka sebedisa pokello ya data ho kwetlisa di-model tsa ho ithuta ka motjhini.</p>
+    <p>Hajwale, boholo ba dipokello tsa data di ruilwe ke dik'hamphani, tse kginang ho etswa ha dintho tse ntjha. Dipokello tsa data tsa mantswe di boela ha di emele hantle: batho ba sa buueng Sekgowa, batho ba mmala, batho ba nang le bokowa, basadi le batho ba LGBTQIA+. Hona ho bolela hore thekenoloji e sebetsang ka mantswe ha e sebetse ho hang bakeng sa dipuo tse ngata, mme le moo e sebetsang, ha e sebetse hantle ka tekano bakeng sa bohle. Re batla ho fetola hono ka ho bokella batho hohle hore ba arolelane ka mantswe a bona.</p>
 how-does-it-work-title-v2 = Common Voice e sebetsa jwang?
 
 ## How does it work section
@@ -451,6 +466,7 @@ about-playbook-how-add-sentences-content-3 = O ka sebedisa <scraperLink>Sesebedi
 
 ## How to record quality
 
+about-playbook-how-record-content-3 = Bala polelo ka hloko - seke wa fosa, wa fetola kapa wa eketsa mantswe.
 about-playbook-how-record-content-5 = <accuracyLink>Sheba haholwanyane ka mokgwa wa nepahalo.</accuracyLink>
 
 ## How to grow language
@@ -495,6 +511,7 @@ data-download-button = Download-a Data ya Common Voice
 data-download-yes = Ee
 data-download-deny = Tjhe
 data-download-license = Laesense: <licenseLink>CC-0</licenseLink>
+data-download-modal = O mothating wa ho qala ho download-a <size>{ $size }GB</size>,e tswelepele?
 data-get-started = <speechBlogLink>Qalella  ka Temoho ya Puo</speechBlogLink>
 data-other-title = Dipokello tsa data tse ding
 data-other-goto = Eya ho { $name }
@@ -611,6 +628,8 @@ clips-with-count-pluralized =
         [one] Clip
        *[other] Di-Clip
     }
+goal-help-recording = O thusitse Common Voice ho fihlela <goalPercentage></goalPercentage> sepheo sa rona sa letsatsi le letsatsi { $goalValue } sa ho rekota!
+goal-help-validation = O thusitse Common Voice ho fihlela <goalPercentage></goalPercentage> ya sepheo sa rona sa letsatsi le letsatsi sa { $goalValue } netefatso!
 contribute-more =
     { $count ->
         [one] { "" }
@@ -643,6 +662,8 @@ listen-instruction = { $actionType }<playIcon></playIcon> na ba buile polelo eo 
 listen-again-instruction = Mosebetsi o motle!<playIcon></playIcon> Mamela hape ha o se o itokisitse
 listen-3rd-time-instruction = 2 fatshe, pele ya pele!<playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon>Ya ho qetela!
+listen-empty-state = Re feletswe ke di-clip tse lokelang ho netefatswa ho puo ena...
+speak-empty-state = Re feletswe ke dipolelo tseo re lokelang ho di rekota ka puo ena...
 speak-empty-state-cta = Nehelana ka dipolelo
 speak-loading-error =
     "Ha rea ​​kgona ho o fumanela dipolelo tseo o ka di buang.
@@ -664,6 +685,7 @@ report-offensive-language = Puo e kgopisang
 report-offensive-language-detail = Polelo e na le puo e hlokang tlhompho kapa e hlabang.
 report-grammar-or-spelling = Phoso ya sebopeho-puo / mopeleto
 report-different-language = Puo e fapaneng
+report-different-language-detail = E ngotswe ka puo e fapaneng le eo ke e buang.
 report-difficult-pronounce = Ho thata ho bitsa
 report-difficult-pronounce-detail = E na le mantswe kapa dipolelwana tseo ho leng thata ho di bala kapa ho di bitsa.
 report-offensive-speech = Puo e kgopisang
@@ -769,6 +791,7 @@ download-info = Re bolelle seo o ka ratang ho se download-a:
 download-profile-title = Profaele
 download-profile-size = Di-byte tse mmalwa
 download-recordings-title = Direkoto
+download-recordings-info = E kenyelletsa di-mp3 le dipolelo tse amanang, ho ka nka nako ho itokisetsa
 download-recordings-size = Ka tlwaelo ke megabytes
 download-recently-requested = O ka kopa ho direkoto tsa hao ka mora a mang le a mang { $days } matsatsi.
 download-size = Boholo
@@ -798,6 +821,7 @@ demo-welcome = Rea o amohela ho Common Voice
 
 ## Demo Datasets
 
+demo-language-select-card-header = Common Voice ke pokello ya data ya mantswe e kgolo ka ho fetisisa lefatsheng e fumanehang phatlalatsa, e nang le dipuo tse ngata.
 card-button-next = E latelang
 card-button-back = Morao
 demo-language-select-label = Sheba Dipuo
@@ -840,6 +864,7 @@ contribution-misreadings-example-8-explanation = [Ditaba tse sa tsamaisaneng]
 contribution-varying-pronunciations-title = Qapodiso tse fapaneng
 contribution-varying-pronunciations-example-1-title = Hloohong o ne a rwetse berete.
 contribution-varying-pronunciations-example-2-title = Letsoho la hae le ne le phahamisitswe.
+contribution-varying-pronunciations-example-2-explanation = [‘Ho phahamiswa’ ka Senyesemane kamehla ho bitswa jwalo ka senoko se le seng, eseng tse pedi]
 contribution-background-noise-title = Lerata le ka morao
 contribution-background-noise-example-1-fixed-title = <strong>[Sneeze]</strong> dikgodumodumo tse kgolo tsa<strong>[cough]</strong> Triassic.
 contribution-background-noise-example-2-fixed-title = Kgodumodumo e kgolo <strong>[cough]</strong> Triassic.
@@ -880,6 +905,7 @@ sc-logout-button = Tswa
 sc-home-title = Rea o amohela ho MMokelli wa Dipolelo wa Common voice
 sc-home-collect-title = Bokella dipolelo
 sc-home-review-title = Hlahloba Dipolelo
+sc-home-review-text = Re thuse ka ho hlahloba dipolelo bakeng sa nepahalo ho latela ditataiso.
 
 ## GENERAL
 
@@ -891,6 +917,7 @@ sc-howto-addlang-title = Ho kenya dipuo tse tlo sebetswa
 sc-howto-addlang-text = Ha o se o kene o ka kgetha dipuo tsa hao ho tswa karolong ya profaele.
 sc-howto-addsen-title = Kenya dipolelo tse ntjha
 sc-howto-cite-title = Mokgwa wa ho Qotsa
+sc-howto-cite-item-1 = O ka kenyelletsa sebaka sa Marang-rang, mohlala, "Common Voice - https://commonvoice.mozilla.org/"
 sc-howto-cite-item-3 = Bakeng sa mongolo wa setjhaba o sa fumaneheng marang-rang, o ka sebedisa mokgwa wa ditshupiso tsa thuto, mohlala, mokgwa wa Harvard "Jess (2021) dithothokiso tsa ka tsa laecence ya setjhaba"
 sc-howto-review-title = Hlahloba Dipolelo
 sc-howto-review-subtitle = Etsa bonnete ba hore polelo e fihlela mekgwa e latelang:
@@ -926,6 +953,7 @@ sc-rejected-none-found = Ha ho dipolelo tse hannweng tse fumanweng!
 
 sc-stats-title = Dipalo-palo
 sc-stats-updating = E ntse e ntlafatsa...
+sc-stats-error = Ha rea ​​kgona ho lata dipalo palo. Ka kopo leka hape hamorao.
 
 ## ADD
 
