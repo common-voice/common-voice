@@ -117,6 +117,7 @@ about-get-involved-text-2 =
     dzi foramu, ni rumele thaidzo dzine na ṱangana nadzo kha saiti <githubLink>GitHub</githubLink>, kana ni dzhene kha
     <matrixLink>Matrix</matrixLink> nyambedzano dza vhadzulapo."
 about-stay-in-touch-text-1 = <emailFragment>Ḓiṅwaliseni</emailFragment> kha mutevhe wa mailing yashu ni gude uri ni nga dzhenelela hani kha mafulo, dzi event, na co-design features kha CommonVoice.
+about-stay-in-touch-text-2 = Ni nga ṱangana na vhaṅwe kha zwigwada zwa luambo zwa Mozilla nga u dzhena na vha tshipiḓa <discourseLink>Discourse</discourseLink> u wana nyambedzano, kana <matrixLink>Matrix</matrixLink> u wana tsivhudzo nga tshihaḓu.
 
 ## Community Playbook Content
 ## What is a language
@@ -324,9 +325,11 @@ sc-howto-addsen-item-5 = Maḽeḓere a si ho  kha luambo. Hu tea u shumiswa ma�
 sc-howto-addsen-item-6 = Nyambo dzi nga vha na <validationRulesLink>milayo yadzo ya u khwaṱhisedza </validationRulesLink> na ṱhoḓea dzo engedzeaho. Arali hu si na faela yo khetheaho ya u khwaṱhisedza ya luambo, ri ḓo shumisa milayo ine ya shumiswa kha Luisimane.
 sc-howto-addsen-post-1 = Ri takalela mitaladzi yo itwaho nga lwa nzulele/nga nḓila ya u ambedzana. Naho fonotiki yo angalala nahone maipfi o fhambananaho e a ndeme kha mutaladzi, ri khou lingedza u ita uri mitaladzi yo rekhodiwaho i vhe i takadzaho nga hune zwa ḓo konadzea ngaho. Ndi ngazwo zwi tshi ḓo vha zwavhuḓi arali na lingedza u ita uri mitaladzi yaṋu i itwe nga lwa nzulele/nḓila ya u ambedzana.
 sc-howto-cite-pre-1 = Ndi zwa ndeme uri ni sumbedze referentsi ya he na wana hone lasentsi ya vhathu vhoṱhe u itela uri ni iledze u pfi no tswa mushumo wa vhaṅwe na u tendela uri vhaṅwe vha kone u ḓivha he na wana hone zwithu <copyrightIssuesLink>thaidzo dza copyright</copyrightIssuesLink>. Hedzi ndi dziṅwe nḓila dza u sumbedza uri mushumo no u wana ngafhi.
+sc-howto-cite-item-2 = Ni nga shumisa tshi taela tsha academic ni tshi ita dzi referentsi, sa tsumbo Harvard style "Mozilla (2021) Common Voice. Zwi wanala kha https://commonvoice.mozilla.org/ (Accessed: 15th Khumbvumedzi 2021)"
 sc-howto-cite-item-3 = Arali zwo ṅwalwaho zwa fhethu ha tshitshavha tshoṱhe zwi si ho onḽaini, ni nga shumisa tshitaela tsha academic reference. Sa tsumbo, Harvard style "Jess (2021) My Public licence poems"
 sc-howto-review-criteria-5 = Arali mutaladzi u sa swikeleli ṱhoḓea dzi re afho nṱha, puṱedzani gunubu ya "Hana". Arali ni si na vhungoho ha uri mutaladzi a si wone, ni nga u pfukha na pfukela kha u no khou tevhela..
 sc-howto-findpd-text-2 = Ni humbule uri ri ṱoḓa tendelo uri ri anḓadze yeneyo mitaladzi, ni dzule ni tshi ita vhungoho ha uri zwo ṅwalwaho ndi zwa <wikipediaLink>fhethu ha tshitshavha tshoṱhe</wikipediaLink>. Arali hu songo bvelwa khagala, vhudzisani muṋe wazwo arali a tshi ṱoḓa uri zwe a shela ngazwo mulenzhe zwi anḓadzwe Fhethu ha Tshitshavha Tshoṱhe. Arali vha tshi zwi takalela, vha thuseni uri vha vhale <cc0WaiverLink>Thendelo ya Vhashelaho mulenzhe</cc0WaiverLink>. Arali vha sa ṱoḓi u nikela nga zwo ṅwaliwaho, a no ngo tendelwa u shumisa zwo ṅwaliwaho.
+sc-howto-findpd-tips-1 = Fhethu havhuḓi hune na nga wana hone zwithu ndi kha dzi podcast, maipfi a ṅwalwaho a tshi bva kha matambwa, maipfi a zwiṱori zwa thelevishini, na tshiṅwe na tshiṅwe tshine tsha nga vha tshi na nyambedzano dza ḓuvha na ḓuvha.
 sc-howto-findpd-tips-2 = Vhulivhisi vhu bvaho kha muvhuso, dzibugu na dzi athikiḽi, ndi ha ndeme, fhedzi ngauri muṅwalo u fomala nga maanḓa, vhu sala vhu si ha ndeme nga u to ralo.
 sc-howto-findpd-partner-1 = Hu na madzangano manzhi a vhathu ane a nga ṱoḓa u shela mulenzhe nahone vha nga vha vho no ḓi vha na mafhungo ane vha ṱoḓa u nikela ngao sa ane a nga shumiswa nga vhathu vhoṱhe. Iyani dziyunivesithi dza vhuponi ha haṋu, Mivhusoni na kha madzangano a u thusa vhathu vhoṱhe ni ambe navho nga ha yeneyi thandela nahone ni humbele thuso yavho.
 sc-howto-findpd-partner-2 = Vhaḓivhi vha luambo na vhone vha nga thusa, i ya na kha universithi dza vhuponi haṋu dza vhaḓivhi vha luambo (vhadededzi na vhagudiswa) nahone ni vhone arali vha tshi nga kona u thusa nga u kuvhanganya mitaladzi i re na mibvumo yo fhambananaho nga luambo lwaṋu.
@@ -361,6 +364,14 @@ sc-confirm-uploading = Mitaladzi i khou apuḽodiwa. Hezwi zwi nga dzhia tshifhi
 
 ## LANGUAGE INFO
 
+# Variables:
+#   $unreviewedSentencesByYou (Number) - Number of sentences the user can still review
+sc-lang-info-left-for-you =
+    { $unreviewedSentencesByYou ->
+        [0] [0] A hu tshena mitaladzi yo salaho uri ni i ṱolisise
+        [one] [one] ho sala mutaladzi wa 1 uri ni u ṱolisise
+       *[other] *[other] { $unreviewedSentencesByYou } mitaladzi yo salaho uri ni i ṱolisise.
+    }
 
 ## LOGIN
 
