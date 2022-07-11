@@ -38,15 +38,25 @@ nd = IsiNdebele (North)
 nn-NO = Norwegian Nynorsk
 nr = IsiNdebele (South)
 nso = Northern Sotho
+nyn = Runyankole
 om = Afaan Ormoo
 pap-AW = Papiamento (Aruba)
 quy = Quechua Chanka
 rm-sursilv = Romansh Sursilvan
 rm-vallader = Romansh Vallader
+ru = Russian
+sah = Sakha
 sat = Santali (Ol Chiki)
+sc = Sardinian
+scn = Sicilian
+shi = Shilha
+si = Sinhala
 sk = Slovak
+skr = Saraiki
 sl = Slovenian
 so = Somali
+sr = Serbian
+ss = Siswati
 st = Southern Sotho
 sv-SE = Swedish
 sw = Swahili
@@ -59,6 +69,7 @@ ti = Tigrinya
 tig = Tigre
 tk = Turkmen
 tl = Tagalog
+tn = Setswana
 tok = Toki Pona
 tr = Turkish
 ts = Xitsonga
@@ -166,6 +177,8 @@ username-email-not-demographic = Igama olisebenzisayo kanye ne-imeyili yakho nge
 
 ## Speak & Listen Shortcuts
 
+# Must be one letter that appears in the translated { skip } string.
+shortcut-skip = s
 
 ## Listen Shortcuts
 
@@ -212,13 +225,17 @@ leaderboard-visibility =
     .label = Ukubonakala Kwebhodi labaphambili
 visible = Kubonakala
 profile-form-add-accent = Engeza ukuphimisa kwangokwezifiso okusha "{ $inputValue }"
+profile-form-submit-save = Gcina
+profile-form-submit-saved = Okugciniwe
 why-profile-title = Kungani kunephrofayili?
 build-profile = Akha iphrofayela
+settings = Izilungiselelo
 edit-profile = Hlela iphrofayela
 profile-create-success = Impumelelo, iphrofayela yakhekile!
 profile-explanation = Landelela inqubekela-phambili yakho ngephrofayela futhi usize idatha yethu yezwi inembe kakhulu.
 thanks-for-account = Siyabonga ngokuqinisekisa i-akhawunti yakho, manje asakhe iphrofayela yakho.
 why-demographic = Kungani kubalulekile lokhu?
+why-demographic-explanation-2 = Imininingwane efihliwe enjengeminyaka, ubulili kanye nendlela yokukhuluma isisiza ukuba sithuthukise ulwazi lomsindo osetshenziswayo ukuze kuqeqeshe ukunemba izinjini zokuqoshwa kwamazwi. Igama olisebenzisayo kanye ne-emeyili yakho ngeke ihlanganiswe naloku okunikelayo, futhi ungakhetha ukuba wenza igama olisebenzisayo laziwe umphakathi noma uyalifihla.
 accept-privacy = Ngilungile uma uphatha lolu lwazi njengoba uchaza kokuthi <privacyLink>Inqubomgomo Yobumfihlo</privacyLink> ye-Mozilla
 accept-privacy-title = Inqubomgomo yobumfihlo
 login-identity = Umazisi wokungena
@@ -289,6 +306,7 @@ faq-why-not-ask-read-a = Ukwenza lolwazi olukuCommon Voice lube wusizo kakhulu, 
 faq-why-account-q = Kungani kufanele ngibhalisele i-akhawunti?
 faq-is-account-public-q = Ingabe ulwazi lwe-akhawunti yami lusesidlangalaleni?
 faq-how-privacy-q = Uqinisekisa kanjani ukungaziwa nobumfihlo babantu abanikele ngamazwi abo?
+faq-how-privacy-a = Zonke iziqeshana zezwi kudathasethi zisulwa ngolwazi oluhlonza umuntu. Uma umnikeli ehlinzeka ngedatha yezibalo ngephrofayili yakhe, lolo lwazi alukhonjwa eziqeshaneni zabo zezwi ngaphambi kokuthi luhlanganiswe ukuze ludawunilode kudathasethi futhi awenziwa esidlangalaleni ekhasini labo lephrofayela.
 faq-what-determine-identity-q = Kusho ukuthini ukuthi angikwazi “ukunquma ubunikazi” bezikhulumi kudathasethi yeCommon Voice?
 faq-what-determine-identity-a =
     Idathasethi yeCommon Voice ivulelekile kuwo wonke umuntu, iyinsiza engakwazi ukusetshenziswa ukufundisa izinhlelo zokusebenza zamazwi aqoshiwe ezibanzi. Ukuvikela ubumfihlo kwabaxhasi bethu, sicela wonke umuntu ozosebenzisa iCommon Voice dataset ukuba ahloniphe ubumfihlo babaxhasi. 
@@ -462,6 +480,8 @@ datasets-positioning =
     Idathasethi yezilimi eziningi ye-Common Voice isivele iyidathasethi yezwi enkulu kunazo zonke etholakala esidlangalaleni yohlobo lwayo, kodwa akusiyo yodwa.
     
     Bheka kuleli khasi njengehabhu yereferensi yamanye amasethi edatha ezwi omthombo ovulekile futhi, njengoba iCommon Voice liqhubeka likhula, ikhaya lezibuyekezo zethu zokukhishwa.
+# File size in gigabytes
+size = Usayizi
 validated-hr-total = Isamba samahora esiqinisekiswe u-Hr. Isamba
 overall-hr-total = Isamba samahora sesisonke
 audio-format = Ifomethi yomsindo
@@ -558,13 +578,17 @@ language-section-in-progress-new-description = Lezi zilimi okwamanje zingaphansi
 languages-show-more = Buka Okuningi
 languages-show-less = Bona Okuncane
 language-total-progress = Isamba
+language-search-input =
+    .placeholder = Cinga
 language-speakers = Izikhulumi
+sentences = Imisho
 language-validation-progress = Inqubekelaphambili Yokuqinisekisa
 
 ## Contribution
 
 action-tap = Thepha
 skip = Yeqa
+shortcuts = Izinqamuleli
 clips-with-count-pluralized =
     { $count ->
         [one] <bold>{ $count }</bold> Isiqeshana
@@ -757,6 +781,8 @@ download-recordings-info = Kuhlanganisa ama-mp3 nemisho ehlobene, kungase kuthat
 download-recordings-size = Ngokuvamile ama-megabytes
 download-recordings-unavailable = Awukwazi ukucela ukurekhodwa kwakho ngenkathi esinye isicelo sisaqhubeka.
 download-recently-requested = Ungacela ukukhishwa okusha kokurekhodiwe njalo ezinsukwini ezingu-{ $days }.
+download-size = Usayizi
+download-selected = Ikhethiwe
 download-start = Loda idatha yephrofayela
 download-request = Cela okuqoshiwe
 download-requests = Izicelo zokuloda okuqoshiwe okwedlule
@@ -853,6 +879,7 @@ contribution-background-voices-description-extended = Uma ukurekhodwa kunqamuka,
 contribution-background-voices-example-1-title = Ama-dinosaurs amakhulu e-Triassic. <strong>[funda ngezwi elilodwa]</strong>
 contribution-background-voices-example-1-explanation = Uyeza? <strong>[called by another]</strong>
 contribution-volume-title = Ivolumu
+contribution-volume-description = Kuzoba khona ukuhluka okungokwemvelo kwevolumu phakathi kwabafundi. Yenqaba kuphela uma ivolumu iphezulu kangangokuthi ukurekhoda kuyaphuka, noma (ngokuvamile) uma iphansi kangangokuthi awukwazi ukuzwa okushiwo ngaphandle kokubhekisela embhalweni obhaliwe.
 contribution-reader-effects-title = Imiphumela Yomfundi
 contribution-just-unsure-title = Awuqinisekile nje kuphela?
 see-more = <chevron></chevron>Buka Okuningi
@@ -894,8 +921,11 @@ sc-howto-title = Kwenziwa kanjani
 sc-howto-addlang-title = Yengeza izilimi ozosebenza ngazo
 sc-howto-addlang-text = Uma usungenile ungakhetha izilimi zakho esigabeni sephrofayela.
 sc-howto-addsen-title = Engeza imisho emisha
+sc-howto-addsen-item-1 = Yonke imisho oyihambisayo kufanele ibe ngaphansi kwe <wikipediaLink>Ilayisensi Yomthombo Womphakathi (CC-0)</wikipediaLink>. Ukuxhasa ukufakwa komsebenzi ongekho ngaphansi kwelayisensi lo mphakathi, sakhe <cc0WaiverLink> Isivumelwano Seminikelo yesifanekiso</cc0WaiverLink> yemisebenzi lapho umnikazi welungelo lobunikazi ethanda ukunikela ngayo kuCommonVoice
 sc-howto-addsen-item-2 = Izinombolo. Akufanelanga kube nezinombolo emthonjeni obhaliwe ngoba zingadala izinkinga uma zifundelwa phezulu. Indlela ekufundwa ngayo inombolo ihambelana nomongo, lokhu kungadala indida emthonjeni. Isibonelo, inombolo u "2409" ingafundwa ngezindlela ezimbili, "Amashumi amabili nane - iqanda nesishiyagalolunye" kanye "Izinkulungwane ezimbili namakhulu amane nesishiyagalolunye."
 sc-howto-addsen-item-3 = Izifinyezo kanye nama-Akhronimi. Izifinyenzo kanye nama-akhronimi njengo "USA" noma "ICE" kufanele kugwenywe kumbhalo womthombo ngoba zingafundwa ngendlela engahambelani nokubizelwa kwawo. Ngaphezu kwalokho, kungaba nezindlela eziningi zokufunda isifinyenzo. Isibonelo, i-akhronimi "ICE" ingaphinyiswa kanje "I-C-E" noma njengegama elilodwa.
+sc-howto-addsen-item-4 = Izimpawu zenkulumo. Izimpawu ezikhethekile nezimpawu zankulumo kufanele zifakwe kuphela uma kudingeka ngempela. Isibonelo, i-aphostrofi efakwa emagameni esiNgisi anjengo "don't" no "we're" kufanele ifakwe emthonjeni wombhalo kodwa akuvamanga ukuthi izimpawu ezinjengo "@"noma "#" zizodingeka.
+sc-howto-addsen-post-1 = Sincamela imisho eyemvelo/exoxayo. Indlela yokukhuluma ehlikahlukene namagama ahlukahlukene emishweni abalulekile, kepha sizama ukuqopha imisho emnandi. Ngalokho ke, kungakuhle uma ungazama ukwenza imisho yakho eyemvelo noma ibandakanye kakhulu.
 sc-howto-cite-title = Ungacaphuna Kanjani
 sc-howto-cite-item-1 = Ungafaka iwebhusayithi, isb "Common Voice - https://commonvoice.mozilla.org/"
 sc-howto-cite-item-2 = Ungasebenzisa isitayela sereferensi yezemfundo, isb isitayela sase-Harvard "Mozilla (2021) Common Voice. Itholakala ku https://commonvoice.mozilla.org/ (Kufinyelelwe: 15th September 2021)"
@@ -914,6 +944,7 @@ sc-howto-findpd-tips = Nawa amathiphu okuthola imisho:
 sc-howto-findpd-tips-1 = Imithombo engcono kakhulu ongayibheka amaphodikasti, okulotshiweyo, imibhalo yamamuvi nanoma yini engaba khona ingaqukatha izingxoxo zansuku zonke.
 sc-howto-findpd-tips-3 = Ngeshwa asikwazi ukuba nezindatshana ze-Wikimedia okwamanje. Ngakho-ke ungakopishi ukunamathisela kusuka lapho.
 sc-howto-findpd-subtitle-2 = Hlanganyela nezinhlangano zendawo noma abantu ngabanye
+sc-howto-findpd-partner-1 = Ziningi izinhlangano ezingafuna ukusebenzisana futhi ezinombhalo omningi ezingawunikela kumthombo womphakathi. Finyelela kumanyuvesi wendawo, kuhulumeni kanye nezinsiza ezivulelekile zezinhlangano, ukukhuluma ngaleprojekthi, ucele usizo.
 
 ## MY SENTENCES
 
@@ -1113,8 +1144,11 @@ sc-review-form-prompt =
 # Variables:
 #   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
 sc-review-form-source = Umthombo: { $sentenceSource }
+sc-review-form-button-skip = Yeqa
 # Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
 sc-review-form-button-approve-shortcut = Y
+# Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
+sc-review-form-button-skip-shortcut = S
 sc-review-form-keyboard-usage-custom = Ungasebenzisa futhi Izinqamuleli Zekhibhodi: { sc-review-form-button-approve-shortcut } ukuze Ukugunyaza, { sc-review-form-button-reject-shortcut } Ukunqaba, { sc-review-form-button-skip-shortcut } Ukweqa
 sc-review-form-button-submit =
     .submitText = Qeda Ukubukeza
@@ -1130,6 +1164,7 @@ sc-review-form-review-failure = Isibuyekezo asikwazanga ukugcineka. Sicela uzame
 
 ## SETTINGS
 
+sc-settings-title = Izilungiselelo
 sc-settings-ui-language = Ulimi Lwe-interface
 sc-settings-reset-skipped = Setha kabusha imisho eyeqiwe
 sc-settings-skipped-decription = Ngaphambilini weqe imisho ngenkathi ubuyekeza. Ukusetha kabusha imisho eyeqiwe kuzokhombisa yonke imisho eyeqiwe futhi. Lokhu kuzimele olimini.
