@@ -16,6 +16,10 @@
 
 ## Home Page
 
+wall-of-text-more-mobile =
+    Data nnzhi i shumiswaho nga khamphani khulwane, vhathu vhanzhi a vha koni u i swikelela. Ri vhona u nga
+     zwi khou ita uri hu si vhe na bvela phanḓa. Ndi ngazwo ro thoma thandela ya Common Voice, thandela ine ya ḓo thusa uri u ḓivha ipfi
+     zwi vhe zwa vhathu vhoṱhe na uri vha kone u zwi swikela.
 wall-of-text-more-desktop =
     Zwino ni nga nikela nga ipfi ḽaṋu u itela uri thusa uri ri vhe na dataset ya nnyi na nnyi ine muṅwe na muṅwe a nga kona u i shumisa 
     uri hu konwe u itiwa dzi app dza zwithu zwiswa zwa thekhinolodzi na dzi web. Vhalani mutaladzi u itela uri ni kone u thusa mutshini uri u gude nḓila ine vhathu vha vhukuma vha amba ngayo. Ṱolani mushumo wa vhaṅwe
@@ -68,6 +72,10 @@ faq-why-different-speakers-a =
     Datasets nnzhi dza u amba dzi re hone dzi gudiswa hu na vhaimeleli vha nnzhi vha vhubvo ho khetheaho zwa ita uri dzi imeleleswe <articleLink>vhanna na vhathu vhuimo ha vhukati</articleLink>. Kuambele na dzi dialect dzi sa imelelwi zwavhuḓi musi hu tshi itwa dzi data set dza u gudisa dzi tshimbidzana na zwigwada zwa vhathu vhane vha si dzhielwe nṱha. Mitshini minzhi i a konḓelwa na u pfesesa maipfi a vhafumakadzi.
     Ndi ngazwo kha database yashu ri tshi khou ṱoḓa maipfi o fhambananaho!
 faq-what-quality-a = Ri khou ṱoḓa uri Common Voice dataset i vhe na odio ine tshishumiswa tsha u pfa maipfi tsha a ṅwala; tsha ḓo a pfa mashangoni a kule, ndi ngazwo ri tshi khou ṱoḓa maipfi o fhambananaho. Zwiṅwe zwine ra zwi ṱoḓa nga nnḓa ha vhaambi vho fhambananaho, dataset ine ya vha na odio dzo fhambananaho i ḓo thusa tshishumiswa tsha u pfa maipfi tsha a ṅwala uri tshi imedzane na nyimelo dzo fhambananaho dza vhukuma, dzi ngaho u amba hu na goloi ine ya khou ita phosho. Tsha ndeme ndi tsha uri ipfi ḽanu ḽo rekhodiwaho ḽivhe ḽo tsha, ḽi tea u vha ḽi ḽavhuḓi uri ḽi dzhene kha dataset.
+faq-where-src-from-2-a =
+    source text yashu yo itwa nga vhasheli mulenzhe vha u to u thoma na nga mafhungo a bvaho kha zwiṱori wa thelevishini zwi fanaho na <italic>It’s a Wonderful Life</italic>.
+    
+     Ni nga vhona mitaladzi yashu ya u thoma kha <githubLink>GitHub folder</githubLink>.
 faq-why-not-ask-read-a = Uri yeneyi dataset ya Common Voice i shume nga nḓila yavhuḓisa ro dzhia phetho ya u tendela fhedzi source text (luambo lwe mafhungo a thoma u ṅwalwa ngalwo) i wanalaho kha Creative Commons (CC0) lisentsi. Musi ri tshi shumisa CC0 zwi amba uri zwi ḓo konḓa u wana na u kuvhanganya source text, fhedzi i tendela uri naho e nnyi a shumise maipfi a sa kalelwi tshivhalo kana u wana thendelo kha Mozilla. Tshipikwa tshashu ndi u ita uri dataset ya dzi nyambo nnzhi i shumiswe zwavhuḓi nga hune zwa nga konadzea ngaho nga vhathu vhoṱhe, u katela na vhaṱoḓisisi, dziyunivesithi, vhathomi vha mabindu, mivhuso, madzangano a zwa matshilisano na vhane vha zwi shumisela u ḓitakadza.
 faq-how-privacy-a = Maipfi oṱhe a re kha dataset o itwa uri a si tsha ḓivhea uri ndi a vhonnyi. Musi ane a shela mulenzhe a tshi amba zwidodombedzwa zwawe kha profile yawe, zwenezwo zwidodombedzwa a zwi tendelwi uri zwi dzhene kha ipfi ḽo rekhodiwaho musi zwi sa athu ṱanganyiswa u itela uri zwi danuḽodiwe kha dataset nahone a zwi nga vuwi zwo itwa uri zwi ḓivhiwe nga tshitshavha kha siaṱari ḽa profile dzavho.
 
@@ -104,6 +112,7 @@ about-playbook-how-localize-content-3 = Hu ṱalutshedzeliwa zwi tshi bva kha Lu
 
 ## How to add sentences
 
+about-playbook-how-add-sentences-content-1 = <strong>Tsha u Kuvhanganya Mitaladzi</strong> ndi tshishumiwa tsha u kuvhanganya na u khwaṱhisedza mitaladzi i bvaho kha tshitshavha. Ni ḓo tea uri <scAccountLink>ni ite akhanthu</scAccountLink>. Ni kone u dzhenisa luambo lwaṋu <strong>Phurofaiḽi </strong>. Ni nga kona u <strong>Panga</strong> mitaladzi kana u <strong>Ṱolisia</strong> mitaladzi yo dzheniswaho tshifhingani tsho fhiraho.
 about-playbook-how-add-sentences-content-2 = Mitaladzi i tea u ṱolisiswa nahone vhathu vha vhili ndi vhone vhane vha tea u amba uri yo tea u dzhena kha Common Voice. Ni tou ḓiitela vhulivhisi kha luambo lwaṋu <languageGuidelinesLink>hafha</languageGuidelinesLink>. Mitaladzi i tea uvha kha <licenseLink>fhethu ha tshitshavha tshoṱhe</licenseLink> nahone i tea u vha i vhupfufhi ha maipfi a sa fhiri 15. Ni nga humbela muṋe wa mafhungo uri a ite <waiverLink>CC0 ni tshi shumisa waiver process</waiverLink>, nahone ni ri rumele mulaedza kha commonvoice@mozilla.com
 
 ## How to record quality
@@ -130,6 +139,7 @@ about-playbook-how-access-dataset-content-1 = Ni nga ya kha <datasetsPage>siaṱ
 
 ## Error pages
 
+error-content-503 = Saiti i ḓo bekapiwa nga u ṱavhanya. Uri ni wane zwithu zwa zwino-zwino, ri humbela uri ni vhe tshipiḓa tsha <matrixLink>nyambedzano kha Matrix community chat</matrixLink> kana ni dalele <githubLink>GitHub</githubLink> kana <discourseLink>Foramu dzashu dza Discourse</discourseLink> uri ni kone u rumela na u vhona thaidzo dzine na ṱangana nadzo ni kha saiti.
 
 ## Data
 
@@ -181,6 +191,7 @@ visibility-explainer = Hedzi sethiṅi dzi langa u vhonala haṋu kha leaderboar
 
 ## Profile Delete
 
+keep-info = Ipfi ḽaṋu ḽe na ḽi rekhoda zwi sa ḓivhei ḽi ḓo dzula ḽi kha dataset ya Common Voice. Arali na phumula profile yaṋu, a ni tsha ḓo kona u rumela khumbelo ya u bvisa zwe na rekhoda kha dataset
 remove-info = Ri ḓo ṱolisisa khumbelo yaṋu ya u bvisa zwe na rekhoda kha dataset. Arali khumbelo yaṋu ya ṱanganedzwa, ri ḓo kwama vhe vha download yeneyo dataset nahone ra vha humbela uri vha bvise ipfi ḽaṋu na henefho.
 why-delete-recordings =
     Zwo rekhodiwaho nga Common Voice zwi shumiswa nga magudedzi, nga mabindu maṱuku, na nga vhane vha funa zwishumiswa zwa u ḓivha ipfi uri vha thuse kha u gudisa na nyaluwo ya u wanala ha maipfi o rekhodiwaho.
@@ -189,6 +200,7 @@ why-delete-recordings =
 
 ## Profile Download
 
+download-request-link-single = Ni nga kopa u ṋambatedza nga ho livhaho kha URLs u ya kha hune na ṱoḓa uri zwe na downḽouda zwi dzule hone. Zwi ḓo fhelelwa nga tshifhinga nga murahu ha awara dza 12, fhedzi ni nga dovha na vhuyelela kha ḽeneḽi siaṱari uri ni dovhe ni ite dziṅwe nga tshifhinga tshine na funa.
 
 ## Landing
 
@@ -218,6 +230,7 @@ contribution-background-noise-description = Ri ḓo ṱoḓa uri algorithm dza m
 contribution-background-voices-description = Fhethu hu re na vhathu fhedzi ho fhumuaho ho luga, fhedzi a ri ṱoḓi uri hu pfale maṅwe maipfi ane a nga ita uri mitshini ya algorithm i ḓivhe zwiṅwe zwine zwa khou ambiwa zwi songo ṅwalwaho. Arali ni tshi khou pfa maipfi o khetheaho a siho kha mitaladzi yo ṅwalwaho, zwo rekhodiwaho a zwo ngo tendelwa. Zwenezwi zwi nga itea musi TV yo sala i tshi khou tamba, kana hu na vhathu vhane vha khou amba tsini na henefho.
 contribution-volume-description = Hu ḓo vha na u fhambana-fhambana ha volumu dza vhavhali. I iledzeni arali volumu ya hone i nṱhesa lune ya khathuwa, kana (zwiṅwe zwo ḓoweleaho) arali i fhasi lune ni si kone u pfa zwine zwa khou ambiwa ni songo sedza mafhungo o ṅwalwaho.
 contribution-reader-effects-description = Zwithu zwinzhi zwo rekhodiwaho ndi zwa vhathu vha tshi khou amba nga ipfi ḽavho ḽa vhukuma. Ni nga ṱanganedza zwithu zwi sa itei tshifhinga tshoṱhe kha zwo rekhodiwaho zwine zwa vha u tzhema, u hevhedza, kana u amba nga ipfi ḽa ane a nga u khou ita ‘ḽitambwa’. Ri humbela uri ni songo tendela zwo rekhodiwaho hu tshi khou imbiwa na zwe ha shumiswa maipfi a dzi khomphuyutha.
+contribution-just-unsure-description = Arali na ṱangana na zwithu zwine zwi si vhe hone kha hovhu vhulivhisi, ri humbela uri ni khethe u shumisa khaṱhulo yaṋu. Arali ni sa koni u dzhia phetho, puṱedzani button ya u pfukha nahone ni fhirele kha zwo rekhodiwaho zwi tevhelaho.
 
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
@@ -242,8 +255,10 @@ sc-howto-addsen-item-3 = Upfufhifhadzwa na dzi Acronym. Upfufhifhadzwa na dzi ac
 sc-howto-addsen-item-4 = Zwiga zwa u vhala. Tswayo dzo khetheaho na zwiga zwa u vhala zwi tea u katelwa arali zwi zwa ndeme vhukuma. Sa tsumbo, kha Luisimane tshiḓevhe tshi katelwa kha maipfi angaho “don’t” na “we’re” nahone a tea u katelwa kha source text (luambo lwe zwa ṅwalwa ngalo), fhedzi a zwi nga anzeli u itea uri ni shumise tswayo dzi ngaho “@” or “#.”
 sc-howto-addsen-item-5 = Maḽeḓere a si ho  kha luambo. Hu tea u shumiswa maḽeḓere ane a vha hone kha luambo lune lwa khou ambiwa. Sa tsumbo, ḽeḓere heḽi “ж” ndi ḽine ḽa wanala kha kuṅwalele luambo lwa Tshirashia fhedzi a ḽiho kha Luisimane nahone ndi ngazwo ḽi songo tea u vha hone kha source text ya Luisimane naho i ifhio.
 sc-howto-addsen-post-1 = Ri takalela mitaladzi yo itwaho nga lwa nzulele/nga nḓila ya u ambedzana. Naho fonotiki yo angalala nahone maipfi o fhambananaho e a ndeme kha mutaladzi, ri khou lingedza u ita uri mitaladzi yo rekhodiwaho i vhe i takadzaho nga hune zwa ḓo konadzea ngaho. Ndi ngazwo zwi tshi ḓo vha zwavhuḓi arali na lingedza u ita uri mitaladzi yaṋu i itwe nga lwa nzulele/nḓila ya u ambedzana.
+sc-howto-cite-pre-1 = Ndi zwa ndeme uri ni sumbedze referentsi ya he na wana hone lasentsi ya vhathu vhoṱhe u itela uri ni iledze u pfi no tswa mushumo wa vhaṅwe na u tendela uri vhaṅwe vha kone u ḓivha he na wana hone zwithu <copyrightIssuesLink>thaidzo dza copyright</copyrightIssuesLink>. Hedzi ndi dziṅwe nḓila dza u sumbedza uri mushumo no u wana ngafhi.
 sc-howto-findpd-text-2 = Ni humbule uri ri ṱoḓa tendelo uri ri anḓadze yeneyo mitaladzi, ni dzule ni tshi ita vhungoho ha uri zwo ṅwalwaho ndi zwa <wikipediaLink>fhethu ha tshitshavha tshoṱhe</wikipediaLink>. Arali hu songo bvelwa khagala, vhudzisani muṋe wazwo arali a tshi ṱoḓa uri zwe a shela ngazwo mulenzhe zwi anḓadzwe Fhethu ha Tshitshavha Tshoṱhe. Arali vha tshi zwi takalela, vha thuseni uri vha vhale <cc0WaiverLink>Thendelo ya Vhashelaho mulenzhe</cc0WaiverLink>. Arali vha sa ṱoḓi u nikela nga zwo ṅwaliwaho, a no ngo tendelwa u shumisa zwo ṅwaliwaho.
 sc-howto-findpd-partner-1 = Hu na madzangano manzhi a vhathu ane a nga ṱoḓa u shela mulenzhe nahone vha nga vha vho no ḓi vha na mafhungo ane vha ṱoḓa u nikela ngao sa ane a nga shumiswa nga vhathu vhoṱhe. Iyani dziyunivesithi dza vhuponi ha haṋu, Mivhusoni na kha madzangano a u thusa vhathu vhoṱhe ni ambe navho nga ha yeneyi thandela nahone ni humbele thuso yavho.
+sc-howto-findpd-partner-2 = Vhaḓivhi vha luambo na vhone vha nga thusa, i ya na kha universithi dza vhuponi haṋu dza vhaḓivhi vha luambo (vhadededzi na vhagudiswa) nahone ni vhone arali vha tshi nga kona u thusa nga u kuvhanganya mitaladzi i re na mibvumo yo fhambananaho nga luambo lwaṋu.
 
 ## MY SENTENCES
 
