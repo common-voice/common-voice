@@ -51,6 +51,7 @@ th = Se-Thai
 ti = Se-Tigrinya
 tig = Se-Tigre
 ts = Setsonga
+vot = Se-Votic
 xh = Sexhosa
 yi = Se-Yiddish
 yo = Se-Yoruba
@@ -125,7 +126,7 @@ email-subscription-title-new = Ikwadisetse go amogela makwalodikgang a Common Vo
 benefits = Mesola
 rich-data = Dira gore tshedimosetso ya gago e o e rometseng e nne ntsi kafa go kgonegang ka gone ka go naya tshedimosetso ya dipalopalo e e sa tsenngwang maina. Re tlosa tshedimosetso yotlhe e e itsiseng batho mo tshedimosetsong ya dipalopalo pele re e phasalatsa.
 improve-audio = Tshedimosetso ya porofaele e tokafatsa tshedimosetso ya lentswe e e dirisiwang go thapisa didirisiwa tse di kgonang go lemoga puo gore di nepagale.
-keep-track = hr
+keep-track = Nna o etse tlhoko kgatelopele ya gago le dimeteriki tsa dipuo tse dintsi.
 compare-progress = Bona gore kgatelopele ya gago e kae fa e bapisiwa le ya batsayakarolo ba bangwe mo lefatsheng lotlhe.
 join-newsletter = O ka itlhophela go tsena mo lenaaneng la rona la makwalo go amogela ditlhabololo le tshedimosetso e ntšha ka porojeke.
 
@@ -304,6 +305,7 @@ about-playbook-how-record-content-4 = Tlhomamisa gore polatefomo e a rekota pele
 
 ## How to grow language
 
+about-playbook-how-grow-language = Re ka godisa puo jang ka katlego mo Common Voice?
 about-playbook-how-grow-language-content-1 = Go dira ditshono tsa gore batho ba bantsi ba nne le seabe mo Common Voice go tlhomamisa gore tshedimosetso e thusa batho ba bantsi kafa go ka kgonegang ka gone. Re dirile didirisiwa le dithempoleite tse o ka di dirisang.
 about-playbook-how-grow-language-content-3 = O ka dira ditiragalo go thusa batho go aba. Go motlhofo go feta jaaka o akanya. O ka e dira mo inthanete ka kgolagano ya bidio kgotsa wa e dira ka namana fa go sireletsegile go dira jalo. <eventTemplate>Leba dithempoleite le didirisiwa tsa rona tsa go dira ditiragalo</eventTemplate>.
 about-playbook-how-grow-language-content-5 = O ka dirisa metswedi ya mafaratlhatlha a boitapoloso go fetisa molaetsa. Abalana mekwalo e e bontshang gore ke eng go le botlhokwa, mme o golagane le batho ba bangwe ba ba buang ka dikgang tse di jaaka ditshwanelo tsa puo, lentswe, kgotsa go tlhoka tekatekano mo thekenolojing. Bona dikakantsho tse dingwe ka <campaignLink>go dira letsholo, go akaretsa tshedimosetso e o ka e dirisang gape</campaignLink>.
@@ -312,7 +314,8 @@ about-playbook-how-grow-language-content-8 = <strong>Itlhamele!</strong> Batho b
 
 ## How to validate
 
-about-playbook-how-validate-content-1 = Fa o nne o ka kgona go <strong>ba utlwa</strong> le go <strong>ba tlhaloganya</strong>, gantsi go <strong>siame go di amogela</strong>.
+about-playbook-how-validate = Ke tla itse jang gore a ke tshwanetse go amogela kgatiso ya lentswe?
+about-playbook-how-validate-content-1 = Fa o ne o ka kgona go <strong>ba utlwa</strong> le go <strong>ba tlhaloganya</strong>, gantsi go <strong>siame go di amogela</strong>.
 about-playbook-how-validate-content-2 = <strong>O se ka wa gana dikgatiso tsa mantswe a sebui ‘se sa bue’ ka tsela e e tshwanang le ya gago</strong> - seno se botlhokwa gore go lemoga mantswe go direle mongwe le mongwe botoka.
 about-playbook-how-validate-content-3 = Fa o akanya gore tsela e le bidiwang ka yone e dira gore <strong>go se ka ga kgonega go tlhaloganya</strong>, kgotsa go na le <strong>modumo o montsi kwa morago</strong>, kgotsa go na le <strong>batho ba bangwe ba le bone ba buang</strong>, o tshwanetse go gana kgatiso eo. <accuracyLink>Bona tshedimosetso e e oketsegileng mo ditshwanelegong tsa rona tsa go nepa</accuracyLink>.
 about-playbook-how-validate-content-4 = Fa kgatiso e gannwe ke batho ba le 2, e tsenngwa mo karolong e nngwe ya rekoto ya tshedimosetso.
@@ -404,6 +407,7 @@ request-language-explanation-2 =
     Gape re tla <strong>itsise motsamaisi wa lefelo la rona gore o a kgatlhega
     </strong>, gore a kgone go go naya tshegetso e e oketsegileng kgotsa tshedimosetso e o ka e tlhokang.
 request-language-form-info-explanation = Tsenya tshedimosetso e ntsi ka fa o ka kgonang ka teng ka puo. Seno se ka akaretsa:
+request-language-form-info-explanation-list-3 = Dilinki tsa diwebosaete tse di ka re thusang go tlhaloganya puo
 request-language-success-list-1 = O tshwanetse go amogela email mo bogautshwaneng e e tlhalosang dikgato tsa go tsenya puo ya gago mo Common Voice
 request-language-success-list-2 =
     Motsamaisi wa morafe wa rona o tla ikgolaganya le wena go go naya
@@ -459,6 +463,7 @@ visibility-overlay-note = Ela tlhoko: Fa e beilwe mo go 'Bonagala', o ka kgona g
 
 both-speak-and-listen = Ka bobedi
 average-difficulty = Palogare
+lose-goal-progress-warning = Fa o baakanya maikaelelo a gago, o ka nna wa latlhegelwa ke kgatelopele ya gago e e gone.
 help-reach-hours-general-pluralized =
     { NUMBER($hours) ->
         [one] Thusa Common Voice go fitlhelela ura e le { $hours } mo puong ka maikaelelo a batho
@@ -468,6 +473,7 @@ cant-decide = Ga o kgone go dira tshwetso?
 receiving-emails-info = Gone jaanong o dirile gore o amogele diimeile tse di jaaka dikgopotso tsa maikaelelo, ditlhabololo tsa kgatelopele ya me le makwalodikgang a Common Voice
 not-receiving-emails-info = Gone jaanong o dirile gore o <bold>SE KA</bold> wa amogela diimeile tse di jaaka dikgopotso tsa maikaelelo, ditlhabololo tsa kgatelopele ya me le makwalodikgang a Common Voice
 confirm-goal = Tlhomamisa Maikaelelo
+goal-interval-weekly = Ka Beke
 # LINK will be replaced with the current URL
 goal-share-text = Ke fetsa go dira maikaelelo a botho a go abelana ka lentswe go #CommonVoice -- dira le nna mme o nthuse go ruta metšhine  gore batho ba mmatota ba bua jang { $link }
 
@@ -524,6 +530,7 @@ demo-dashboard-card-body = Mo kgatisong nngwe le nngwe ya lentswe e e abilweng, 
 contribution-criteria-nav = Mokgwa
 contribution-criteria-page-description = Tlhaloganya gore o tshwanetse go batla eng fa o reeditse dikgatiso tsa mantswe mme o thuse go dira gore dikgatiso tsa gago tsa mantswe di tshwanele!
 contribution-misreadings-description = Fa o reeditse, tlhatlhoba ka kelotlhoko gore a se se gatisitsweng ke sone tota se se kwadilweng; se gane le fa go na le diphoso tse dinnye tota. <br />Diphoso tse di tlwaelegileng thata di akaretsa:
+contribution-misreadings-description-extended-list-1 = Ga go na <strong>'A'</strong> kgotsa <strong>'Le'</strong> kwa tshimologong ya kgatiso.
 contribution-misreadings-description-extended-list-3 = Go bala mafoko a a seyong, jaaka "Ra" go na le go re "Re a," kgotsa ka tsela e e farologaneng.
 contribution-misreadings-description-extended-list-4 = Go tlhaela lefoko la bofelo ka ntlha ya go khutlisa kgatiso ka bonako.
 contribution-misreadings-example-8-explanation = [Diteng tse di sa tshwaneng]
@@ -538,6 +545,7 @@ contribution-background-voices-title = Mantswe mo Lemoragong
 contribution-background-voices-description = Tlhakatlhakano e e utlwalang mo lefelong le le didimetseng e siame, mme ga re batle mantswe a a oketsegileng a a ka dirang gore motšhine o se ka wa lemoga mafoko a a sa kwalwang. Fa o ka utlwa mafoko a a farologaneng le a a kwadilweng, kgatiso eo e tshwanetswe go ganwa. Gantsi seno se direga fa TV e tlogetswe e tshubilwe, kgotsa fa go na le motlotlo o o tsweletseng fa gaufi.
 contribution-background-voices-description-extended = Fa kgatiso e kgaoga kgotsa e gagasha, e gane, ntle le fa mafoko otlhe a kgona go utlwiwa.
 contribution-background-voices-example-1-title = Di-dinosaur tse dikgolo tsa Triassic. <strong>[read by one voice]</strong>
+contribution-volume-title = Bolumo
 contribution-volume-description = Go tla nna le dipharologano tsa tlholego mo bolumong ya babadi. Gana fela fa bolumo e le kwa godimo thata mo kgatiso e kgaogang, kgotsa (se se tlwaelegileng thata) fa e le kwa tlase thata mo o sa utlweng se se buiwang kwantle ga go leba se se kwadilweng.
 contribution-reader-effects-description = Dikgatiso tse dintsi ke tsa batho ba ba buang ka lentswe la bone la tlholego. O ka amogela kgatiso nngwe e e sa tlwaelegang ya go goa, go seba, kgotsa e e buiwang ka tsela e e ‘kgatlhang’. Tsweetswee gana dikgatiso tse go opelwang le tse di dirisang lentswe le le dirilweng ka khomputara.
 contribution-just-unsure-description = Fa o kopana le sengwe se dikaelo tseno di sa bueng ka sone, tsweetswee tlhopha go ya ka tsela e e molemolemo e o e akanyang. Fa tota o sa kgone go dira tshwetso, dirisa konopo ya go tlola mme o ye kwa kgatisong e e latelang.
@@ -575,6 +583,7 @@ sc-howto-cite-pre-1 = Go botlhokwa go kwala gore o bone kae dilaesense tsa batho
 sc-howto-cite-item-1 = O ka akaretsa webosaete, ka sekai,  "Common Voice - https://commonvoice.mozilla.org/"
 sc-howto-cite-item-2 = O ka dirisa mokgwa wa thutego wa go ntsha tshupiso, ka sekai, mokgwa wa Harvard "Mozilla (2021) Common Voice. E gone mo https://commonvoice.mozilla.org/ (E fitlheletswe ka: September 15 2021)"
 sc-howto-cite-item-3 = Fa o dirisa tshedimosetso ya batho botlhe mme e seyo mo inthaneteng, o ka dirisa mokgwa wa thutego wa go ntsha tshupiso, ka sekai, mokgwa wa Harvard "Jess (2021) My Public licence poems"
+sc-howto-review-criteria-4 = Fa mola o tsamaisana le dintlha tsa tshwanelego, tobetsa konopo ya "Amogela."
 sc-howto-review-criteria-5 = Fa polelo e sa fitlhelele ditshwanelego tse di fa godimo, tobetsa konopo ya "Gana." Fa o a tlhomamisege ka polelo , o ka e tlola mme wa fetela mo go e e latelang.
 sc-howto-review-criteria-6 = Fa o felelwa ke mela e e sekasekiwang, tsweetswee re thuse go kgobokanya mela e e oketsegileng!
 sc-howto-findpd-text-2 = Gopola gore re tlhoka tetla ya go phasalatsa dipolelo tseo, ka jalo ka metlha tlhomamisa gore mokwalo ke wa <wikipediaLink>lefelong la botlhe</wikipediaLink>. Fa go se na sepe se se bontshang ka tlhamalalo, ikgolaganye le motho yo mokwalo e leng wa gagwe mme o mmotse gore o batla go abela Lefelo la Botlhe mokwalo wa gagwe. Fa a batla go dira jalo, mo thuse gore a tsene mo thulaganyong ya <cc0WaiverLink>Tumalano ya Dikabo</cc0WaiverLink>. Fa a sa batle go aba mokwalo oo, ga o letlelelwe go o dirisa.
