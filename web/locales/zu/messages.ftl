@@ -23,6 +23,10 @@ error-something-went-wrong = Uxolo, kukhona okungahmabnga kahle
 
 ## Languages
 
+ab = Abkhaz
+ace = Acehnese
+ady = Adyghe
+af = Afrikaans
 am = Amharic
 an = Aragonese
 ar = Arabic
@@ -202,6 +206,7 @@ speak = Khuluma
 speak-now = Khuluma manje
 datasets = Amadathasethi
 languages = Izilimi
+about = Mayelana
 profile = Iphrofayela
 help = Usizo
 contact = Xhumana
@@ -344,6 +349,8 @@ profile-form-language =
 profile-form-variant =
     .label = Uhlobo luni lwe-{ $language } olukhulumayo?
 profile-form-variant-default-value = Akukho okuhlukile okukhethiwe
+profile-form-accent =
+    .label = Indela yokukhuluma
 profile-form-custom-accent-help-text =
     .label = Ungakuchaza kanjani ukuphimisela kwakho?
 profile-form-custom-accent-placeholder-2 = Qala ukuthayipha ukuze uchaze indlela ophimisa ngayo
@@ -706,6 +713,7 @@ contact-form-name =
     .label = Igama
 contact-form-message =
     .label = Umyalezo
+contact-required = *okudingekayo
 
 ## Request Language Modal
 
@@ -1021,6 +1029,7 @@ card-button-back = Emuva
 demo-language-select-label = Phequlula Izilimi
 demo-eofy-header = Ukukhishwa Kokuphela Konyaka kuka-2019
 demo-eofy-sub_header = Idathasethi Yezwi, Ilungele Ukulodwa
+demo-account = I-akhawunti
 
 ## Demo Account
 
@@ -1101,6 +1110,7 @@ see-less = <chevron></chevron>Bona okuncane
 
 sc-header-home = Ikhaya
 sc-header-how-to = Kwenziwa kanjani
+sc-header-add = Engeza
 sc-header-review = Buyekeza
 sc-header-rejected = Imisho Enqatshiwe
 sc-header-my = Imisho Yami
