@@ -208,6 +208,7 @@ data-other-tatoeba-description = Tatoeba ndi database khulu ya mitaladzi, zwo แน
 
 ## Contact Modal
 
+contact-required = *Zwi ya todea
 
 ## Request Language Modal
 
