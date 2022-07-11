@@ -107,6 +107,7 @@ how-does-it-work-text = Ri khou lingedza u wana maipfi kha tshitshavha uri ri it
 
 ## How does it work section
 
+about-yes-votes-text = Uri ipfi ḽo rekhodiwaho ḽi vhe tshipiḓa tsha dataset ya Common Voice, ḽi tea u vha ḽo khwaṱhisedzwa nga vhathu vhavhili.
 about-no-votes-text = Musi muthu a tshi ri ipfi ḽo rekhodiwaho a ḽo ngo tea, ḽi ḓo humela kha mutevhe. Arali ha pfi a ḽo ngo tea lwa vhuvhili, ipfi ḽeneḽo ḽi ya fhethu hune ha pfi Clip Graveyard.
 about-clip-graveyard-text =
     Fhethu hu vhidzwaho The Clip Graveyard hu wanala maipfi a songo teaho e a kundelwa u vha tshipiḓa tsha dataset ya Common Voice. U fana na dataset, na yeneyi Clip Graveyard i nga danuḽodiwa.
@@ -210,7 +211,9 @@ dataset-description-hours =
 resource-deepspeech-info = Tshishumiswa tsha Mozilla tsha u ḓivha ipfi tshine tsha nga shumiswa nga nnyi na nnyi tsha Deep Speech tshi nga shumiswa kha u ita app dzi ḓivhaho ipfi. Vhalani samari yashu <githubLink>Github</githubLink> kana ni dzhenelele kha <discourseLink>DeepSpeech Discourse</discourseLink> uri ni gude nga ha uri ni nga thoma hani.
 resource-playbook-info = <playbookLink>Wanani thuso</playbookLink> nga ha u shumisa Common Voice, u bva kha localization u ya kha kushumisele kwa dataset, na nga ha nḓila ine na nga kwamana ngayo na vhadzulapo vha vhuponi haṋu.
 data-other-librispeech-description = LibriSpeech ndi corpus i ṱoḓaho u vha awara dza 1000 dza 16Khz dza u vhala tshipitzhi tsha Luisimane u bva kha dzibugu dza odio dza project ya LibriVox.
+data-other-voxforge-description = VoxForge yo iteliwa u dzhia tshipitzhi tsho isiwaho kha maipfi u itela u shumisa kha Source Speech Recognition Engines dza mahala dzi no swikelelwa nga muṅwe na muṅwe.
 data-other-tatoeba-description = Tatoeba ndi database khulu ya mitaladzi, zwo ṱalutshedzwaho, na odio dzi ambaho dzi shumiselwaho u guda luambo. Zwenezwi zwithu zwine wa nga zwi download zwi nga Luisiamane luambiwaho, zwo rekhodiwa nga vhadzulapo vhalwo.
+your-feedback = Naa ni na mihumbulo ya uri ri nga khwinifhadza hani dataset ya Common Voice? Ri tsivhudzeni kha Discourse
 
 ## Download Modal
 
@@ -236,6 +239,7 @@ request-language-success-list-2 =
     tikedze nga ho engedzeaho, nahone u ḓo ni ḓivhadza arali hu na vho no
     thomaho u shuma nga luambo lwaṋu
 request-language-success-list-3 = Arali ra sa vhuya murahu kha inwi nga murahu ha maḓuvha a si gathi, ri kwameni kha <emailLink>{ $email }</emailLink> ri ḓo vhuya murahu kha inwi!
+request-language-error = Ri nga vha ri songo wana khumbelo heyo. Ri humbela uri ni ri kwame thwi kha <emailLink>{ $email }</emailLink> ri ḓo vhuya kha inwi.
 
 ## Languages Overview
 
@@ -256,6 +260,7 @@ visibility-explainer = Hedzi sethiṅi dzi langa u vhonala haṋu kha leaderboar
 
 ## Custom Goals
 
+not-receiving-emails-info = Zwa zwino no pangiwa kha u <bold>U SA</bold> wana milaedza nga email yo no nga khumbudzo dza zwipikwa, mvela phanḓa yaṋu na newsletters nga ha Common Voice
 # LINK will be replaced with the current URL
 goal-share-text = Ndo ḓiitela tshipikwa tshau nikela nga ipfi kha #CommonVoice – shelani mulenzhe na nṋe kha u funza mitshini uri vhathu vha vhukuma vha ambisa hani { $link }
 
@@ -276,6 +281,7 @@ download-request-link-single = Ni nga kopa u ṋambatedza nga ho livhaho kha URL
 
 ## Landing
 
+help-contribute = Ni nga thusa kha u ita dataset khulwane ya nnyi na nnyi nga u ita Profaiḽi ya Common Voice na u nikela nga ipfi ḽaṋu.
 
 ## DemoLayout
 
@@ -298,10 +304,12 @@ demo-dashboard-card-body = Kha kupiḓa kuṅwe na kuṅwe kwa ipfi kwo nikeliwa
 
 ## Validation criteria
 
+contribution-criteria-page-description = Pfesesani uri hu ṱoḓea mini musi ni tshi thetshelesa zwo rekhodiwaho u itela uri zwi ni thuse u rekhoda ipfi ḽaṋu nga nḓila yavhuḓisa.
 contribution-misreadings-description = Musi no thetshelesa, ni sedze zwavhuḓi uri zwo rekhodiwaho zwi fana na zwo ṅwaliwaho kokotolo; ni hanele zwo rekhodiwa arali hu na vhukhakhi naho vhu vhuṱuku. <br />Vhukhakhi ho ḓoweleaho vhu katela:
 contribution-varying-pronunciations-description = Ni ṱhogomele uri ni sa ri zwo rekhodiwaho a si zwone nga ṅwambo wa uri muvhali ha ngo bula zwavhuḓi ipfi, kana o ombedzela fhethu hu si hone, kana khamusi o litsha u vhala tshiga tsha u vhudzisa. Hu na kubulele kwa maipfi kwo fhambananaho u mona na shango, kuṅwe kwa hone khamusi a ni athu u ku pfa vhuponi ha haṋu. Ri humbela uri ni ṱanganedze vhane vha amba nga nḓila yo fhambanaho na yaṋu.
 contribution-varying-pronunciations-description-extended = Kha ḽiṅwe sia, arali ni tshi vhona u nga muvhali ha athu vhuya a ṱangana na iḽo ipfi, nahone ho tou humbulelwa kubulele kwaḽo, ni songo zwi tendela. Arali ni si na vhungoho, shumisani gunubu ya u pfuka.
 contribution-background-noise-description = Ri ḓo ṱoḓa uri algorithm dza machine learning dzi kone u fhambanyisa phosho i re nga murahu, na phosho ya khulwane i nga tendela, fhedzi a yo ngo tea u thivhela uri ni pfe zwoṱhe zwo ambiwaho. Muzika u re fhasi wo tendelwa; muzika u ne wa khou ita phosho lune ni si kone u pfa maipfi oṱhe ane muṅwe a khou a amba a wo ngo tendelwa.
+contribution-background-noise-description-extended = Arali rekhodo yo khathuwa, kana i na manzaranzara, i haneni nga nnḓani ha musi mafhungo oṱhe a tshi khou pfala.
 contribution-background-voices-description = Fhethu hu re na vhathu fhedzi ho fhumuaho ho luga, fhedzi a ri ṱoḓi uri hu pfale maṅwe maipfi ane a nga ita uri mitshini ya algorithm i ḓivhe zwiṅwe zwine zwa khou ambiwa zwi songo ṅwalwaho. Arali ni tshi khou pfa maipfi o khetheaho a siho kha mitaladzi yo ṅwalwaho, zwo rekhodiwaho a zwo ngo tendelwa. Zwenezwi zwi nga itea musi TV yo sala i tshi khou tamba, kana hu na vhathu vhane vha khou amba tsini na henefho.
 contribution-background-voices-description-extended = Arali rekhodo yo khathuwa, kana i na manzaranzara, i haneni nga nnḓani ha musi mafhungo oṱhe a tshi khou pfala.
 contribution-volume-description = Hu ḓo vha na u fhambana-fhambana ha volumu dza vhavhali. I iledzeni arali volumu ya hone i nṱhesa lune ya khathuwa, kana (zwiṅwe zwo ḓoweleaho) arali i fhasi lune ni si kone u pfa zwine zwa khou ambiwa ni songo sedza mafhungo o ṅwalwaho.
@@ -368,6 +376,12 @@ sc-add-result =
 
 ## ADD SENTENCES CONFIRMATION
 
+sc-confirm-already-reviewed =
+    { $countOfReviewed ->
+        [0] [0] A hu na mutaladzi wo no ṱoliwaho.
+        [one] [one] hu na mutaladzi wa 1 wo no ṱoliwaho. Mushumo wavhuḓi!
+       *[other] *[other] { $countOfReviewed } mitaladzi yo no ṱoliwa. Mushumo wavhuḓi!
+    }
 sc-confirm-uploading = Mitaladzi i khou apuḽodiwa. Hezwi zwi nga dzhia tshifhinga mimunithi i si gathi nahone zwi ḓitika nga tshivhalo tsha mitaladzi ine ya khou pangiwa. Ri humbela uri ni songo vala website heyi.
 
 ## LANGUAGE INFO
