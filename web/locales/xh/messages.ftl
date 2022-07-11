@@ -125,6 +125,7 @@ about-playbook-how-add-language-translating-content-2 =
 
 ## How does localization work
 
+about-playbook-how-localize-content-2 = <pontoonAccountLink>Yenza iakhawunti</pontoonAccountLink> ukuba awunayo. Emva koko, khetha ulwimi lwakho <strong>(‘Iqela’)</strong> kwaye emva koko ukhethe iprojekthi, <pontoonCvLink>ICommon Voice</pontoonCvLink>. Kuya kubakho iifayile zokuguqulela. Cofa kwenye, emva koko ibonise amagama esiNgesi kunye nebhokisi yokuwaguqulela.
 about-playbook-how-localize-content-3 = Inguqulelo isuka kwisiNgesi, kodwa ungabona <strong>Iingcebiso</strong> ngezinye iilwimi. Cofa le linki<strong>I-profayile</strong>, emva koko <strong>Useto</strong> kwaye wongeze naziphi na iilwimi ozithethayo. Kwikona esezantsi ekunene kuya kuba kho udweliso lweenguqulelo ezibizwa ngokuba <strong>zi-Locales</strong>. Iinguqulelo zibonakala kwi-saythi emva kosuku olunye.
 
 ## How to add sentences
