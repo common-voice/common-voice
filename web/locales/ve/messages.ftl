@@ -19,6 +19,7 @@ banner-error-slow-2 = Hu na trafiki ine ya khou itea kha saiti, ri khou ita ṱh
 
 ## Layout
 
+share-text = Thusani u gudisa mitshini uri vhathu vhavhukuma vha ambisa hani, nikelani nga ipfi ḽaṋu { $link }
 
 ## Home Page
 
@@ -41,6 +42,7 @@ help-us-explain = Puṱedzani tsha u puḽeya, thetshelesa & ri vhudzeni: Naa vh
 no-clips-to-validate = Zwi vhonala u nga a hu na zwo rekhodiwaho zwine na nga zwi thetshelesa nga holwu luambo. Ri thuseni u egedza mutevhe wa zwo rekhodiwaho nga u rekhoda zwiṅwe zwino.
 speak-paragraph = U rekhoda maipfi ndi tshipiḓa tsha u ita dataset yashu; vhaṅwe vha nga ri na tshenetshi ndi tshipiḓa tshi takadzaho.
 listen-paragraph = U khwaṱhisedza uri zwo rekhodiwaho ndi zwone ndi tshipikwa tsha ndeme vhukuma tsha Common Voice. Thetshelesani nahone ni ri thuse uri ri ite maipfi a vhuimo ha nṱha ane a ḓo kona u shumiswa nga nnyi na nnyi.
+email-subscription-title-new = Ḓiṅwaliseni uri ni wane maswa maswa a Common Voice, khumbudzo ya zwipikwa na apudeiti dza mvela phanḓa.
 
 ## Account Benefits
 
@@ -98,6 +100,7 @@ faq-how-get-a = Dataset ya Common Voice i hone uri i danuḽodiwe nga fhasi ha <
 faq-when-release2-a = Version ya nyambo nnzhi dza Common Voice dataset i khou kuvhanganyiwa na u kunakiswa zwa zwino. Arali ni tshi ṱoḓa u thusa Common Voice uri i vhe na nyambo ntswa, i yani ni sedze <sentenceCollectorLink>Tshishumiswa tsha u Kuvhangaya Mitaladzi</sentenceCollectorLink> uri ni kone u dzhenisa mitaladzi miswa kha dataset, na Mozilla <pontoonLink>Pontoon</pontoonLink> ni tshi ṱoḓa u ṱalutshedza website yone ine. Nyambo ntswa dzi pangiwa kha Common Voice sa ipfi ḽa o shelaho mulenzhe nga murahu ha u kuvhanganyiwa ha mitaladzi ya 5000 yo tendelwaho.
 faq-why-mission-a = Mozilla yo ḓiimisela u ita uri web yavho i dzule i hone nahone i tshi swikelelwa nga vhathu vhoṱhe. Uri ri kone u ita zwenezwi ri tea u manḓafhadza vhasiki vha dzi web nga dzi thendela dzi fanaho na Common Voice. Samusi zwishumiswa zwa thekhinoḽodzhi zwi pfaho ipfi zwi tshi khou aluwa zwi tshi ya lune zwa ḓo vha zwihulu vhukuma, ri tenda uri zwi tea u shumela vhathu vhoṱhe nahone nga u lingana. Zwenezwi zwi amba u tikedza nyambo nnzhi na u ṱanganedza kubulele kwa maipfi na vhubvo ho fhambananaho musi hu tshi khou itwa na u lingwa zwishumiswa zwa thekhinolodzhi zwi pfaho ipfi. Common Voice ndi zwithu zwine zwa nga wanwa nga muṅwe na muṅwe nahone vhashumi vha Mozilla na vha bveledzi shangoni ḽoṱhe vho no thoma u i shumisa kha dzithendela dzavho
 faq-what-cv-and-deepspeech-a = Common Voice dataset i tshimbidzana na Mozilla ine ya nga shumiswa nga nnyi na nnyi ya zwishumiswa zwa u ḓivha ipfi zwa engine Deep Speech. Version ya u thoma ya Deep Speech yo itwa nga Ḽara 2017 nahone yo bvela phanḓa i tshi shanduka u bva tshetsho. Ri tenda uri roṱhe na Common Voice dataset, tshenetshi tshishumiswa tsha thekhinolodzhi tsha open source voice recognition tshi tea u waniwa nga vhathu vhoṱhe. Ri fhulufhela uri yeneyi thekhinolodzhi i ḓo ita uri vhabveledzi vha ite zwithu zwinzhi na tshumelo nnzhi.
+faq-is-goal-assistant-q = Naa tshipikwa tsha Common Voice ndi u ita voice assistant?
 faq-is-goal-assistant-a = Tshipikwa tsha Common Voice dataset ndi u ita uri naho e nnyi shangoni a kone u ita zwishumiswa zwa u ḓivha ipfi, zwa u ḓivha muambi, kana app naho i ifhio ine ya shumisa ipfi. App ya ipfi ḽine ḽa kona u ni thusa, ndi iṅwe ya dzi app nnzhi ine na nga shumisa dataset uri ni i ite.
 faq-do-want-native-q = A si luambo lwanga lwa ḓamuni nahone ndi na kuambele kwanga, ni kha ḓi ṱoḓa ipfi ḽanga?
 faq-do-want-native-a = Ee, ri khou ṱoḓa ipfi ḽaṋu! Tshiṅwe tsha zwipikwa zwa Common Voice ndi u kuvhanganya kuambele kunzhi kwo fhambananaho nga hune zwa ḓo konadzea ngaho u itela uri zwishumiswa zwa u ḓivha ipfi zwi shume zwavhuḓi kha vhathu vhoṱhe. Zwenezwi zwi amba uri na vhane vha si vhe vhaṋe vha luambo, u nikela havho ndi ha ndeme.
@@ -191,6 +194,7 @@ about-playbook-how-add-sentences-content-4 = Mitaladzi yo khwaṱhisedzwaho i a 
 
 about-playbook-how-record-content-1 = Ambani nga ipfi ḽaṋu ḽo ḓoweleaho! Nḓila ine na amba ngayo yo ṱanganedzwa hafha – ri khou ṱoḓa kubulele kwaṋu kwo tou ralo, nahone ri ṱoḓa volumu ine na amba ngayo nga misi, tshiṱale na u gonya na u tsa ha ipfi ḽaṋu.
 about-playbook-how-record-content-2 = Ṱutshelani kule na phosho khulu - zwi tea u leluwa u ni pfa.
+about-playbook-how-record-content-3 = Vhalani mutaladzi zwavhuḓi - ni songo pfuka maipfi, u a shandukisa kana u a engedza.
 about-playbook-how-record-content-4 = Ivhani na vhungoho ha uri thulusi i ne na khou i shumisa u rekhoda i khou u rekhoda ni sa athu thoma u amba, na uri i a ima musi no fhedza.
 
 ## How to grow language
@@ -221,6 +225,7 @@ about-playbook-how-project-governance-content-1 = Common Voice ya Mozilla i khou
 
 localization-explanation = Heyi ndi nḓila yashu ya u ḓologa na u ita uri mafhungo ashu a tshimbidzane na vhathu vha vhupo hunzhi (nyambo).
 sentence-collection-explanation = U kuvhanganya mitaladzi u bva kha fhethu ha tshitshavha tshoṱhe, kana ni ṅwalele fhethu ha tshitshavha tshoṱhe mitaladzi miswa.
+hours-recorded-explanation = Tshivhalo tsha dzi awara dza maipfi o rekhodiwaho e ra a kuvhanganya u swikela zwino.
 hours-validated-explanation = U vhaliwa ha awara dza maipfi o rekhodiwaho o no khwaṱhisedzwaho nga vhathu 2 kha 3 ngauri vha khethe uri “Ee”. Zwenezwi zwi sumbedza uri thandela i ngafhi kha tshipikwa tsha awara dza 10k.
 de-identified-explanation = Ndi nḓila ya u ita uri zwidodombedzwa zwi re kha profile zwi si vhoniwe kha maipfi o rekhodiwaho a nikelwa musi o no itwa uri a kone u downlodiwa sa tshipiḓa tsha dataset.
 
@@ -235,6 +240,7 @@ data-subtitle = Ri khou ita dataset i ne ya ḓo shumiswa nga nnyi na nnyi nga m
 data-explanatory-text = Ri tenda uri tshitshavha tshihulu tshi re hone tshi ḓo vhuyelwa nga dataset ya maipfi zwa ita uri hu thomiwe zwithu zwiswa nahone ha vha na miṱaṱisano yavhuḓi kha zwa vhurengisi zwi tshimbidzanaho na thekhinolodzi ya u amba ya machine-learning. Zwenezwi ndi mutingati wa shango ḽoṱhe nga vhuphara nahone ri khou ramba muṅwe na muṅwe uri a shele mulenzhe. Tshipikwa tshashu ndi uri zwishumiswa zwa u amba zwa thekhinolodzhi zwi katele vhunzhi ha vhathu, hu pfale maipfi o fhambananaho u mona na shango ḽoṱhe.
 data-download-singleword-callout-v2 = Hetshi ndi tshipiḓa tshi langiwaho nga kushumisele tshi re na data ine ya mannḓafhadza digit recognition na ine ya ḓivha ee / hai.
 review-terms = Nga u shumisa Common Voice, ni khou tendelana na <termsLink>Milayo ya Kushumisele</termsLink>na<privacyLink>Milayo ya Tshiphiri</privacyLink>
+review-submit-msg = Ro livhuwa no rekhoda!<lineBreak></lineBreak>Zwino ṱolisisani ni rumele zwe na rekhoda hafha fhasi.
 
 ## Datasets Page
 
@@ -283,6 +289,7 @@ request-language-explanation-1 =
      Arali zwi songo ralo, ḓadzani heyi fomo nahone ri ḓo ni <strong>rumela email ine ya ḓo ni thusa
      u ṱalutshedza uri luambo lwaṋu lu nga dzheniswa hani </strong>.
 request-language-explanation-2 = Ri ḓo <strong>vhudza minidzhere wa vhadzulapo vha vhuponi haṋu uri ni na dzangalelo ḽa hezwi</strong>, u itela uri vha ni tikedze kana u ni vhudza mafhungo ane na nga a ṱoḓa.
+request-language-form-info-explanation = Pangani mafhungo manzhi nga hune na nga kona nga ha holwu luambo. Zwenezwi zwi katela:
 request-language-success-list-1 =
     Ni tea u wana email hu si kale ine ya ḓo ni ṱalutshedza
      maga ane a tea u dzhiiwa uri hu pangiwe luambo lwaṋu kha Commn Voice
@@ -300,6 +307,8 @@ language-section-launched-description = Kha hedzi nyambo dzo no ḓi dzheniswaho
 
 ## Contribution
 
+goal-help-recording = No thusa Common Voice u swikelela <goalPercentage></goalPercentage> tsha ḓuvha { $goalValue } tshipikwa tsha u rekhoda!
+goal-help-validation = No thusa Common Voice u swikelela <goalPercentage></goalPercentage> tsha ḓuvha { $goalValue } tshipikwa tsha u khwaṱhisedza!
 listen-loading-error =
     A ro ngo kona u wana odio dzo rekhodiwaho dza maipfi uri inwi ni kone u dzi thetshelesa.
      Ri humbela uri ni lingedze nga vhuya.
@@ -309,6 +318,7 @@ speak-loading-error =
 
 ## Reporting
 
+report-different-language-detail = Zwo ṅwaliwa nga luambo lu sa fani na lune nṋe nda khou amba ngalwo.
 report-difficult-pronounce-detail = I na maipfi kana mibulo ine ya konḓa u i vhala kana u i bula.
 
 ## Goals
@@ -343,7 +353,9 @@ why-delete-recordings =
 
 ## Profile Download
 
+download-recordings-info = Zwi katela mp3 na mitaladzi i tshimbidzanaho nadzo, zwi nga dzhia tshifhinga u zwi lugiselela
 download-recordings-unavailable = Ni nga si kone u humbela zwe na rekhoda ngeno hu tshi kha ḓi vha na zwiṅwe zwe na zwi humbela zwi re nḓilani.
+download-recently-requested = Ni nga humbela uri ni dzhie zwe na rekhoda { $days } ḓuvha ḽiṅwe na ḽiṅwe.
 download-requests-info = Musi ni tshi humbela zwe na rekhoda, ri zwi panga kha faela ya ZIP nthihi kana nnzhi. Khumbelo dzaṋu dza tshifhinga tsho fhiraho khedzi:
 download-request-link-single = Ni nga kopa u ṋambatedza nga ho livhaho kha URLs u ya kha hune na ṱoḓa uri zwe na downḽouda zwi dzule hone. Zwi ḓo fhelelwa nga tshifhinga nga murahu ha awara dza 12, fhedzi ni nga dovha na vhuyelela kha ḽeneḽi siaṱari uri ni dovhe ni ite dziṅwe nga tshifhinga tshine na funa.
 
@@ -357,6 +369,7 @@ profile-not-required = A zwi ṱoḓei uri ni vhe na profaiḽi uri ni nikele, f
 
 ## Demo Datasets
 
+demo-language-select-card-header = Common Voice ndi dataset khulwanesa ya nnyi na nnyi i re hone shangoni ḽoṱhe, ine ya vha nga maipfi a re nga nyambo nnzhi.
 demo-language-select-card-body = Ri livhuwa vhathu vho shelaho mulenzhe vha fhiraho 259k u bva kha nyambo dzi fhiraho 50, yeneyi data i khou shumiselwa u gudisa app dzi ḓivhaho ipfi uri dzi kone u fhindula khwine ipfi ḽa muthu.
 
 ## Demo Account
@@ -381,6 +394,7 @@ contribution-misreadings-description-extended-list-4 = Ho shotha ipfi ḽa u fhe
 contribution-varying-pronunciations-description = Ni ṱhogomele uri ni sa ri zwo rekhodiwaho a si zwone nga ṅwambo wa uri muvhali ha ngo bula zwavhuḓi ipfi, kana o ombedzela fhethu hu si hone, kana khamusi o litsha u vhala tshiga tsha u vhudzisa. Hu na kubulele kwa maipfi kwo fhambananaho u mona na shango, kuṅwe kwa hone khamusi a ni athu u ku pfa vhuponi ha haṋu. Ri humbela uri ni ṱanganedze vhane vha amba nga nḓila yo fhambanaho na yaṋu.
 contribution-varying-pronunciations-description-extended = Kha ḽiṅwe sia, arali ni tshi vhona u nga muvhali ha athu vhuya a ṱangana na iḽo ipfi, nahone ho tou humbulelwa kubulele kwaḽo, ni songo zwi tendela. Arali ni si na vhungoho, shumisani gunubu ya u pfuka.
 contribution-varying-pronunciations-example-1-explanation = [‘Beret’ ḽo luga hu si na ndavha uri ḽo ombedzelwa kha dungo ḽa u thoma (UK) kana kha dungo ḽavhuvhili (US]
+contribution-varying-pronunciations-example-2-explanation = [Ipfi ḽa Luisimane 'Raised' musi ḽi tshi bulwa hu ombedzelwa dungo ḽithihi tshifhinga tshoṱhe, hu si mavhili]
 contribution-background-noise-description = Ri ḓo ṱoḓa uri algorithm dza machine learning dzi kone u fhambanyisa phosho i re nga murahu, na phosho ya khulwane i nga tendela, fhedzi a yo ngo tea u thivhela uri ni pfe zwoṱhe zwo ambiwaho. Muzika u re fhasi wo tendelwa; muzika u ne wa khou ita phosho lune ni si kone u pfa maipfi oṱhe ane muṅwe a khou a amba a wo ngo tendelwa.
 contribution-background-noise-description-extended = Arali rekhodo yo khathuwa, kana i na manzaranzara, i haneni nga nnḓani ha musi mafhungo oṱhe a tshi khou pfala.
 contribution-background-voices-description = Fhethu hu re na vhathu fhedzi ho fhumuaho ho luga, fhedzi a ri ṱoḓi uri hu pfale maṅwe maipfi ane a nga ita uri mitshini ya algorithm i ḓivhe zwiṅwe zwine zwa khou ambiwa zwi songo ṅwalwaho. Arali ni tshi khou pfa maipfi o khetheaho a siho kha mitaladzi yo ṅwalwaho, zwo rekhodiwaho a zwo ngo tendelwa. Zwenezwi zwi nga itea musi TV yo sala i tshi khou tamba, kana hu na vhathu vhane vha khou amba tsini na henefho.
@@ -400,6 +414,7 @@ contribution-just-unsure-description = Arali na ṱangana na zwithu zwine zwi si
 ## HOME
 
 sc-home-intro = Tshau Kuvhanganya mitaladzi ndi <commonVoiceLink>Common Voice</commonVoiceLink>. I tendela vhashelaho mulenzhe uri vha kuvhanganye na u ita vhungoho ha mitaladzi yo itwaho nga vhadzulapo ndi yone. Ni nga shumisa tshenetshi tshishumiswa u import na u kunakisa small-to-medium-sized public domain corpus dze na wana na dze na kuvhanganya. Mitaladzi yoṱhe i tea u vha ya Public Domain. Mitaladzi ine ya pfi ndi yone-yone i ya expoteliwa kha Common Voice repository vhege iṅwe na iṅwe nahone ya bviselwa kha website ya Common Voice musi hu tshi bviswa zwithu zwiswa.
+sc-home-review-text = Ri thuseni u ṱolisisa mitaladzi uri ni vhone arali yo tea u ya nga vhulivhisi.
 
 ## GENERAL
 
@@ -476,6 +491,14 @@ sc-confirm-uploading = Mitaladzi i khou apuḽodiwa. Hezwi zwi nga dzhia tshifhi
 
 ## LANGUAGE INFO
 
+# Variables:
+#   $totalInReview (Number) - Number of sentences currently in the review state for this language
+sc-lang-info-in-review =
+    { $totalInReview ->
+        [0] [0] A hu na mutaladzi wo ṱoliwaho.
+        [one] [one] mutaladzi 1 wo ṱoliwa.
+       *[other] *[other] { $totalInReview } mitaladzi ine ya khou ṱoliwa.
+    }
 # Variables:
 #   $unreviewedSentencesByYou (Number) - Number of sentences the user can still review
 sc-lang-info-left-for-you =
