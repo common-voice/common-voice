@@ -397,6 +397,7 @@ about-voice-validation-subtitle = Batho ba bang ba netefatsa di-clip tseo tsa ma
 about-dataset-release-title = Tokollo ya Pokello ya Data
 about-dataset-release-subtitle = Re lokolla dataset ka mor'a dikgwedi tse ding le tse ding tse 3.
 about-speak = Bua
+about-speak-text = Batshehetsi ba rekota di-clip tsa mantswe ka ho bala ho tswa bankeng ya dipolelo tse fanweng.
 about-listen-queue = Mola wa ho mamela
 about-listen = Mamela
 about-is-it-valid = Na clip yee e nepahetse?
@@ -492,6 +493,7 @@ data-bundle-button = Download-a Sephuthelwana sa Polokelo ya Data
 release-version = Mofuta
 license-mixed = E tswakantswe
 data-download-singleword-title = Download karolo e lebisitsweng ya lentswe le le leng
+review-terms = Ka ho sebedisa Common Voice, o dumellana le <termsLink>Dipehelo</termsLink> le <privacyLink>Tsebiso ya Lekunutu</privacyLink>
 terms-agree = Kea dumela
 terms-disagree = Ha ke dumele
 review-submit-title = Hlahloba mme o Kenye
@@ -566,6 +568,7 @@ request-language-form-email =
     .label = Aterese ya hao ya email
 request-language-form-info =
     .label = Tlhahisoleseding ka puo
+request-language-form-info-explanation = Eketsa dintlha tse ngata kamoo o ka kgonang ka puo. Sena se ka kenyelletsa:
 request-language-form-info-explanation-list-1 = Mabitso a puo ya hao
 request-language-form-info-explanation-list-2 = <isoCodeLink>Dik'houtu tsa ISO</isoCodeLink> haeba di tsejwa
 
@@ -792,6 +795,7 @@ demo-account = Ak'haonte
 
 ## Demo Account
 
+demo-account-card-header = Ho ba le ak'haonte ha ho hlokahale bakeng sa ho kenya letsoho, le hoja ho thusa.
 demo-account-enter-email =
     .label = Kenya email ho romela hokahanyo ya ho ngodisa
 demo-account-sign-up = Romella sehokelo sa ho ingodisa
