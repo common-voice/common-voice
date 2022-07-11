@@ -1,5 +1,6 @@
 ## Languages
 
+contribute = { "" }
 get-involved-text =
     Re lebogela go kgatlhegela ga gago go nna le seabe mo { $lang }. Re dira ka natla gore puo nngwe le nngwe e bo e siametse go simolola mme re
     dira gore ditlopha di nne di na le tshedimosetso ka imeile. Fa o batla go aba, tsweetswee kwala imeile ya gago fa tlase.

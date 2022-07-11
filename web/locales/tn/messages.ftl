@@ -31,6 +31,7 @@ br = Se-Breton
 bs = Se-Bosnia
 bxr = Se-Buryat
 ca = Se-Catalan
+co = Se-Corsica
 cs = Se-Czech
 cv = Se-Chuvash
 da = Se-Denmark
