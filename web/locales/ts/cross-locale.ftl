@@ -1,5 +1,6 @@
 ## Languages
 
+contribute = Hoxa Xandla
 get-involved-button = Hlanganyela
 get-involved-title = Hoxa xandla eka { $lang } .
 get-involved-text =
