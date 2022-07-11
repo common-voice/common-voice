@@ -5,6 +5,7 @@ privacy-info = Ri fulufhedzisa u ṱhogomela zwidodombedza zwaṋu nga nḓila y
 email-opt-in-info = Ndi nga takalela u wana email dzi nga ho dzine dza nkhumbudza nga ha zwipikwa zwanga, mvela phanḓa yanga na maswa maswa nga ha Common Voice.
 email-opt-in-info-sub-with-challenge = Wanani milaedza nga email yo nonga khumbudzo ya zwipikwa, mvela phanḓa, na maswa maswa a Common Voice.
 email-opt-in-privacy-v2 = Nga u ṱanganedza uri ni ṱoḓa u wana dzi email ni tenda uri zwo luga uri Mozilla i fare zwidodombedzwa zwenezwi u ya nga nḓila ye zwa ṱalutshedzwa ngayo kha Mozilla’s <privacyLink>Poḽisi ya Tshiphiri</privacyLink>.
+indicates-required = Mitaladzi i re na hetshi tshiga(*) i ya ṱoḓea.
 banner-error-slow-1 = Pfarelo, Common Voice i khou shuma nga thotho. Ri a livhuwa u vha haṋu na dzangalelo.
 banner-error-slow-2 = Hu na trafiki ine ya khou itea kha saiti, ri khou ita ṱhoduluso ya heyi thaidzo.
 
@@ -20,6 +21,7 @@ banner-error-slow-2 = Hu na trafiki ine ya khou itea kha saiti, ri khou ita ṱh
 
 ## Layout
 
+share-title = Ri thuseni u wana vhaṅwe vhane vha nga nikela nga maipfi avho!
 share-text = Thusani u gudisa mitshini uri vhathu vhavhukuma vha ambisa hani, nikelani nga ipfi ḽaṋu { $link }
 
 ## Home Page
@@ -108,6 +110,7 @@ faq-why-important-a =
     U amba ndi yone nḓila ine ra davhidzana ngayo nahone zwishumiswa zwa u ḓivha ipfi zwa tekhinolodzhi zwi khou ḓisa zwenezwi zwithu zwavhuḓi kha dzi khomphuyutha dzashu na kha dzi ṱhingo. Ri ṱoḓa u tikedza vhane vha ita dzi apps dzi mangadzaho dzine dza pfa u tshi amba, dzingaho real- time translators na voice-enable digital assistants. Zwa zwino vhunzhi ha voice data ine ya ṱoḓea u ita dzenedzi dzi apps i khou ḓuresa nahone i na vhane vhayo. Ri fhulufhela uri dataset ya Common voice i ḓo thusa vha bveledzi uri vha kone u thoma na u ita zwishumiswa zwa u pfa ipfi zwa thekhinolodzi nga dzi nyambo dzavho. 
     
     U itela uri u ḓivha ipfi zwi vhe zwithu zwa shango ḽoṱhe, ri khou kuvhanganya maipfi nga nyambo dzi ambeswaho na nga dzine dza vha na vhathu vha si gathi dzine kanzhi dza sa dzhielwe nṱha kha tshumelo dza ḓivha ipfi. U itela uri maipfi a kone u wanala kha tshitshavha zwi ḓo ita uri vha bveledzi vha manḓafhadziwe, vhathomi vha mabindu, na vhathu vhoṱhe vha kone u dzhia vhukando nga honohu u salela murahu hu re hone.
+faq-how-get-q = Ndi nga wanisa hani data ya Common Voice?
 faq-how-get-a = Dataset ya Common Voice i hone uri i danuḽodiwe nga fhasi ha <licenseLink>CC0</licenseLink> lisentsi ya <datasetLink>siaṱari ḽa Dataset</datasetLink>. Ni nga download na dziṅwe dataset dzo vhalaho dzo itelwaho nnyi na nnyi kha siaṱari ḽi fanaho.
 faq-when-release2-q = Ni ḓo riḽiza lini data ya Common Voice nga dziṅwe nyambo?
 faq-when-release2-a = Version ya nyambo nnzhi dza Common Voice dataset i khou kuvhanganyiwa na u kunakiswa zwa zwino. Arali ni tshi ṱoḓa u thusa Common Voice uri i vhe na nyambo ntswa, i yani ni sedze <sentenceCollectorLink>Tshishumiswa tsha u Kuvhangaya Mitaladzi</sentenceCollectorLink> uri ni kone u dzhenisa mitaladzi miswa kha dataset, na Mozilla <pontoonLink>Pontoon</pontoonLink> ni tshi ṱoḓa u ṱalutshedza website yone ine. Nyambo ntswa dzi pangiwa kha Common Voice sa ipfi ḽa o shelaho mulenzhe nga murahu ha u kuvhanganyiwa ha mitaladzi ya 5000 yo tendelwaho.
@@ -240,6 +243,7 @@ about-playbook-how-validate-content-4 = Arali zwo rekhodiwaho zwa haniwa nga vha
 
 ## How to access dataset
 
+about-playbook-how-access-dataset = Ndi nga kona hani u wana na u shumisa dataset?
 about-playbook-how-access-dataset-content-1 = Ni nga ya kha <datasetsPage>siaṱari ḽa dataset</datasetsPage>, ni khethe version na luambo (nyambo) lune na ṱoḓa, nahone ni lu danuḽode! Faela dzi na <metadataLink>metadata i tshimbidzanaho na</metadataLink>, zwithu zwi ngaho zwidodombedzwa zwa muthu na khwaṱhisedzo ya data. Ni ḓo tea uri ni ḓise email aḓiresi yaṋu u itela uri ni kone u downḽouda dataset.
 about-playbook-how-access-dataset-content-2 = Arali ni tshi khou ṱoḓa zwishumiwa zwa u ita ASR models, ni nga kwama vhaṅwe vhathu kha community <discourseLink>kha Discourse</discourseLink>.
 
@@ -358,6 +362,9 @@ speak-empty-state = Ro fhelelwa nga mitaladzi ya u rekhoda nga holwu luambo...
 speak-loading-error =
     "A ro ngo kona u wana mitaladzi ine na ḓo i vhala.
      Ri humbela uri ni lingedze nga vhuya."
+keep-track-profile = Dzulani ni tshi ḓivha mvela phanḓa yaṋu nga profaiḽi
+login-to-get-started = Ḽogani kana sign up uri ni kone u thoma
+target-segment-first-banner = Ri thuseni u ita tshipikwa tsha tshipiḓa tsha u thoma tsha Common Voice kha { $locale }
 
 ## Reporting
 
@@ -390,6 +397,7 @@ help-reach-hours-general-pluralized =
     }
 receiving-emails-info = Zwa zwino ni kha mutevhe wa vhane vha ḓo wana email dzi ngaho dza u ni humbudza nga ha zwipikwa, mvela phanḓa yaṋu na maswa maswa nga ha Common Voice
 not-receiving-emails-info = Zwa zwino no pangiwa kha u <bold>U SA</bold> wana milaedza nga email yo no nga khumbudzo dza zwipikwa, mvela phanḓa yaṋu na newsletters nga ha Common Voice
+help-share-goal = Ri thuseni u wana maipfi manzhi, sherani tshipikwa tshaṋu
 # LINK will be replaced with the current URL
 goal-share-text = Ndo ḓiitela tshipikwa tshau nikela nga ipfi kha #CommonVoice – shelani mulenzhe na nṋe kha u funza mitshini uri vhathu vha vhukuma vha ambisa hani { $link }
 track-progress = Sedzani mvela phanḓa yaṋu hafha na kha siaṱari laṋu ḽa mbalo-mbalo.
