@@ -1,5 +1,6 @@
 ## Languages
 
+contribute = Faka isandla
 get-involved-button = Zibandakanye
 get-involved-title = Nikela kwi { $lang }
 get-involved-form-title = Bhalisela izibuyekezo ze-{ $lang }:

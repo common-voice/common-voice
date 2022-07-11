@@ -27,7 +27,10 @@ arn = Mapudungun
 cak = Kaqchikel
 ckb = Central Kurdish
 cnh = Hakha Chin
+co = Corsican
+cs = Czech
 cy = Welsh
+da = Danish
 de = German
 dsb = Sorbian, Lower
 dv = Dhivehi
@@ -50,6 +53,7 @@ gom = Goan Konkani
 ha = Hausa
 he = Hebrew
 hi = Hindi
+hr = Croatian
 hsb = Sorbian, Upper
 ht = Haitian
 hu = Hungarian
@@ -73,6 +77,7 @@ kmr = Kurmanji Kurdish
 knn = Konkani (Devanagari)
 ko = Korean
 kpv = Komi-Zyrian
+kw = Cornish
 ky = Kyrgyz
 lb = Luxembourgish
 lg = Luganda
@@ -174,11 +179,14 @@ zu = Zulu
 
 speak = Khuluma
 speak-now = Khuluma manje
+datasets = Amadathasethi
 languages = Izilimi
 profile = Iphrofayela
 help = Usizo
+contact = Xhumana
 privacy = Ubumfihlo
 terms = Imigomo
+cookies = Ama-cookies
 faq = FAQ
 content-license-text = Okuqukethwe kutholakala ngaphansi <licenseLink> Ilayisensi  ye-Creative Commons </licenseLink>
 share-title = Sisize sithole abanye abanganikela ngamazwi abo!
@@ -330,6 +338,7 @@ female = Owesifazane
 # Gender
 other = Okunye
 why-profile-title = Kungani kunephrofayili?
+dashboard = Ideshibhodi
 build-profile = Akha iphrofayela
 goals = Izinhloso
 settings = Izilungiselelo
@@ -600,6 +609,7 @@ review-delete-recordings = Susa okwami okuqoshiwe
 
 ## Datasets Page
 
+datasets-heading = Amadathasethi
 datasets-headline = Sakha umthombo ovulekile, isethi yedatha yezilimi eziningi yamazwi noma ubani angayisebenzisa ukuze aqeqeshe izinhlelo zokusebenza ezikwazi ukukhuluma.
 datasets-positioning =
     Sikholelwa ukuthi amasethi edatha ezwi amakhulu, atholakala esidlangalaleni azokhuthaza ukuqamba okusha nokuncintisana kwezentengiso okunempilo kubuchwepheshe benkulumo obusekelwe emshinini.
@@ -731,6 +741,7 @@ language-validation-progress = Inqubekelaphambili Yokuqinisekisa
 ## Contribution
 
 action-tap = Thepha
+contribute = Faka isandla
 listen = Lalela
 skip = Yeqa
 shortcuts = Izinqamuleli
@@ -805,7 +816,10 @@ report-difficult-pronounce = Kunzima ukuphimisa
 report-difficult-pronounce-detail = Iqukethe amagama noma imishwana okunzima ukuyifunda noma ukuyibiza.
 report-offensive-speech = Inkulumo ecasulayo
 report-offensive-speech-detail = Isiqeshana sinolimi olungenanhlonipho noma oluhlambalazayo.
+report-other-comment =
+    .placeholder = Ukuphawula
 success = Impumelelo
+continue = Qhubeka
 
 ## Goals
 
@@ -1065,6 +1079,7 @@ sc-footer-translate = Humusha leli khasi
 sc-footer-report-copyright = Bika izinkinga zelungelo lobunikazi
 sc-footer-privacy = Ubumfihlo
 sc-footer-terms = Imigomo
+sc-footer-cookies = Ama-cookies
 sc-login-signup-button = Ngena / Bhalisa
 sc-logout-button = Phuma
 
@@ -1225,6 +1240,7 @@ sc-confirm-ready =
 # Variables:
 #   $countOfUnreviewed (Number) - Number of sentences unreviewed before the upload
 sc-confirm-unreviewed = Imisho engu-{ $countOfUnreviewed } ayibuyekeziwe. Uma ufuna, ungabuyekeza nemisho yakho manje ngaphambi kokuyihambisa.
+sc-confirm-button-text = Qinisekisa
 sc-confirm-uploading = Imisho iyalayishwa. Lokhu kungathatha imizuzu embalwa kuya ngenani lemisho eyengeziwe. Sicela ungayivali le webhusayithi.
 
 ## LANGUAGE INFO
