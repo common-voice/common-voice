@@ -3,6 +3,7 @@
 yes-receive-emails = Ina, ndzi rhumeleni ti-email. Ndzi tsakela ku tshama ndzi ri karhi ndzi tivisiwa hi tsima ra Common Voice.
 stayintouch = Hina a Mozilla hi le ku akeni ka muganga wa vaaki ku rhendzela thekinoloji ya rito. Hi tsakela ku tshama hi ri eku hlanganiseni na swintshuxo, swihlovo leswintshwa swa datha na ku twa swo tala hi ndlela leyi u tirhisaka datha leyi ha yona.
 return-to-cv = Vuyela eka Common Voice
+submit-form-action = Rhumela
 email-opt-in-info = Ndzi tsakela ku amukela ti-imeyili to fana na switsundzuxo swa tipakani, swintshuxo swa mina swa nhluvuko na swiphephana swa mahungu mayelana na Common Voice.
 email-opt-in-info-title = Joyina nxaxamelo wa poso wa Common Voice
 email-opt-in-info-sub-with-challenge = Amukela ti-imeyili to fana na switsundzuxo swa ntlhontlho na pakani, ku pfuxetiwa ka nhluvuko, na swiphephana swa mahungu mayelana na Common Voice.
@@ -44,16 +45,23 @@ rm-sursilv = Romansh Sursilvan
 rm-vallader = Xirhoma xa Vallader
 sat = Santali (Ol Chiki)
 st = Xisotho xa le Dzongeni
+sv-SE = Xisweden
+sw = Xiswahili
+syr = Xisiriya
+ta = Tamil
 te = Xitelugu
+tg = Tajik
 th = Xithai
 ti = Xitigrinya
 tig = Tigre
 tk = Turkmen
+tl = Xitagalog
 tok = Toki Pona
 tr = Xiturkey
 ts = Xitsonga
 tt = Xitatar
 tw = Twi
+ty = Xitahiti
 uby = Ubykh
 udm = Udmurt
 ug = Xi-Uyghur
@@ -311,6 +319,7 @@ about-voice-validation-title = Ku Tiyisisiwa ka Rito
 about-voice-validation-subtitle = \Vanhu van’wana va tiyisekisa swiphemu sweswo swa rito.
 about-dataset-release-title = Ku Humesiwa ka Dataset
 about-dataset-release-subtitle = Hi humesa dataset endzhaku ka tin’hweti tin’wana na tin’wana ta 3.
+about-subscribe-text = Xana u lava ku tshama u ri eku hlanganiseni na Common Voice?
 about-is-it-valid = Xana xiphemu xa ritu i lexi twalaka?
 about-is-it-valid-text = Xiphemu xa rito xi funghiwa "xa tirha" loko mutirhisi a xi nyika vhoti ya Ina.
 about-yes-votes = ≥ 2 Ina tivhoti
@@ -386,6 +395,7 @@ about-playbook-how-add-sentences-content-4 = Swivulwa leswi tiyisisiweke swi rhu
 ## How to record quality
 
 about-playbook-how-record-content-1 = Vulavula hi rito ra wena leri nga toloveka! Ndlela leyi u vulavulaka hi yona ya amukeleka laha - hi lava mavulavulelo ya wena tani hi leswi yi nga xiswona, naswona hi lava mpfumawulo wa wena wo toloveleka, na xitayela hi ku helela.
+about-playbook-how-record-content-4 = Tiyiseka leswaku pulatifomo yi rhekhoda u nga si sungula ku vulavula, ni leswaku yi yima ntsena loko u hetile.
 about-playbook-how-record-content-5 = <accuracyLink>Vona swo tala eka swipimelo swa ku pakanisa.</accuracyLink>
 
 ## How to grow language
@@ -451,6 +461,7 @@ terms-agree = Ndza pfumela
 terms-disagree = A ndzi pfumeli
 review-aborted = Ku Hoxa ku herisiwile. Xana u lava ku susa swilo leswi u swi rhekhodiweke?
 review-submit-title = Pfuxeta & Rhumela
+review-submit-msg = Ndza khensa ku rhekhoda!!<lineBreak></lineBreak>Sweswi languta u tlhela u rhumela ti clip ta wena laha hansi.
 review-cancel = Khansela Ku Rhumela
 review-keep-recordings = Hlayisa swilo leswi rhekhodiweke
 review-delete-recordings = Susa swilo leswi ndzi swi rhekhodiweke
@@ -467,6 +478,7 @@ validated-hr-total = Ku tiyisisiwile Hr. Hinkwaswo
 overall-hr-total = Hi ku angarhela Hr. Hinkwaswo
 audio-format = Xivumbeko xa rungula leri yingiseriwaka
 number-of-voices = Nhlayo ya Marito
+splits = Ku avana
 email-to-download = Hosha imeyili ku downloda
 why-email = <b>Ha yini hi tirhisa imeyili?</b> Swi nga endleka hi lava ku tihlanganisa na wena enkarhini lowu taka mayelana na ku cinca eka dataset, imeyili yi hi nyika ndhawu yo tihlanganisa.
 validated-hours = Tiawara leti Tiyisisiweke
@@ -477,6 +489,7 @@ dataset-description-hours =
     
     Sweswi dataset yi na <b>{ $valid }</b> tiawara leti tiyisisiweke hi tindzimi ta <b>{ $languages }</b>, kambe hi tshama hi ri karhi hi engetela marito yo tala na tindzimi. Languta eka tluka ra hina ra <languagesLink>Tluka ra tindzimi</languagesLink> ku kombela ririmi kutani ku sungula ku hoxa xandla.
 want-dataset-update = Xana u lava ku pfuxetiwa loko hi humesa vuhundzuluxeri lebyintshwa bya rungula ra Common Voice? Tsarisa eka phephahungu ra hina.
+subscribe = Xikhokhelo
 get-started-speech = Sungula Hi Ku Lemuka Ku Vulavula
 other-datasets = Tidathaseti tin’wana ta Rito
 feedback-q = Xana U Ni Vuyelo?
@@ -548,6 +561,7 @@ language-validation-progress = Nhluvuko wa ku Tiyisisa
 
 ## Contribution
 
+action-tap = Tirhisa
 clips-with-count-pluralized =
     { $count ->
         [one] <bold>{ $count }</bold> Xiphemu
@@ -606,10 +620,12 @@ report-difficult-pronounce = Swi tika ku swi vitana
 report-difficult-pronounce-detail = Yi ni marito kumbe swiga leswi swi tikaka ku swi hlaya kumbe ku swi vitana.
 report-offensive-speech = Nkulumo leyi khunguvanyisaka
 report-offensive-speech-detail = Xivulwa lexi xi na ririmi ro pfumala xichavo kumbe leri khunguvanyisaka.
+success = Humelela
 report-success = Xiviko xi pasisiwile hi ndlela leyi humelelaka
 
 ## Goals
 
+streaks = Swirhendzevutana
 days =
     { $count ->
         [one] Siku
@@ -634,6 +650,7 @@ goal-reached = Pakani yi fikeleriwile
 clips-you-validated = Swiphemu Leswi U nga swi Tiyisisa
 todays-recorded-progress = Common Voice ya namuntlha yi ya emahlweni eka swiphemu leswi rhekhodiweke
 todays-validated-progress = Nhluvuko wa namuntlha wa Common Voice eka swiphemu wu tiyisisiwile
+stats = Tinhlayo
 contribution-activity = Ntirho wa ku Hoxa xandla
 top-contributors = Vahoxaxandla va le Henhla
 recorded-clips = Swiphemu leswi rhekhodiweke
@@ -673,6 +690,7 @@ share-n-weekly-contribution-goal = Avelana hi { $count } Xiphemu xa Pakani ya Vh
 share-goal-type-both = Ku Vulavula Ni Ku Yingisela
 weekly-goal-created = Pakani ya wena ya vhiki na vhiki yi tumbuluxiwile
 daily-goal-created = Pakani ya wena ya siku na siku yi tumbuluxiwile
+track-progress = Landzelela nhluvuko laha na le ka tluka ra wena ra tinhlayohlayo.
 return-to-edit-goal = Vuya laha ku hlela pakani ya wena nkarhi wihi na wihi.
 share-goal = Avelana hi pakani ya mina
 
@@ -799,6 +817,7 @@ see-less = <chevron></chevron>Vona switsongo
 
 sc-header-rejected = Swivulwa leswi ariweke
 sc-header-my = Swivulwa swa Mina
+sc-header-statistics = Tinhlayo ta tinhlayo
 sc-footer-report-bugs = Xiviko xa Swihoxo
 sc-footer-translate = Hundzuluxela tluka leri
 sc-footer-report-copyright = Xiya timhaka ta mfanelo ya vutshila
@@ -854,6 +873,9 @@ sc-my-title = Swivulwa swa Mina
 sc-my-description = Tluka leri ri ku nyika nkatsakanyo wa swivulwa swa wena hinkwaswo leswi u swi rhumeleke. U nga ha tlhela u susa swivulwa leswi se swi rhumeriweke loko swi laveka, hi ku fungha bokisi ro kambela leri nga ekusuhi na rona ivi u tikhoma eka &quot;Susa swivulwa leswi hlawuriweke&quot; ehansi. Hi kombela u susa swivulwa ntsena loko swi laveka hi ku helela, xikombiso loko u xiye endzhaku ka mhaka ya leswaku xivulwa xi sirhelelekile hi mfanelo ya vutshila.
 sc-my-loading = Ku layicha swivulwa swa wena...
 sc-my-no-sentences = Ku hava swivulwa leswi kumiweke!
+# Variables:
+#   $batchId (String) - A unique ID identifying the submission of sentences - sentences uploaded together all have the same batch ID
+sc-my-submission = Ku rhumela: { $batchId }
 sc-my-delete = Susa swivulwa leswi hlawuriweke
 sc-my-deleting = Ku susa swivulwa leswi hlawuriweke...
 
@@ -865,13 +887,22 @@ sc-rejected-none-found = Ku hava swivulwa leswi ariweke leswi kumiweke!
 
 ## STATS
 
+sc-stats-title = Tinhlayo ta tinhlayo
 sc-stats-updating = Ku pfuxetiwa ka...
+sc-stats-error = A hi swi kotanga ku teka tinhlayohlayo. Hi kombela u ringeta nakambe endzhaku ka nkarhi.
+# Variables:
+#   $sentenceCount (Number) - Total number of sentences uploaded through Sentence Collector
+#   $languageCount (Number) - Total number of languages these sentences represent
+sc-stats-summary = Muhlengeleti wa Swivulwa swa Rito leri Tolovelekeke u hlengeletile swivulwa swa { $sentenceCount } hi tindzimi ta { $languageCount }!
 
 ## ADD
 
 sc-submit-err-select-lang = Hi kombela u hlawula ririmi.
 sc-submit-err-add-sentences = Hi kombela u engetela swivulwa.
 sc-submit-err-add-source = Hi kombela u engetela xihlovo.
+sc-submit-err-confirm-pd = Hi kombela u tiyisisa leswaku swivulwa leswi i swa mani na mani.
+sc-submit-prompt =
+    .message = Swivulwa a swi rhumeriwanga, xana u tiyisile leswaku u lava ku famba?
 sc-submit-title = Engetela Swivulwa
 sc-submit-select-language =
     .labelText = Hlawula Ririmi
@@ -879,6 +910,11 @@ sc-submit-add-sentences = Engetela <wikipediaLink>ndhawu ya mani na mani</wikipe
 sc-submit-ph-one-per-line =
     .placeholder = Xivulwa xin’we hi ntila
 sc-submit-from-where = Xana swivulwa leswi swa <wikipediaLink>ndhawu ya mani na mani</wikipediaLink> swi huma kwihi?
+sc-submit-ph-read-how-to =
+    .placeholder = Hlaya Ndlela ya hina loko u nga tiyiseki leswaku u nga nghenisa vhoko njhani.
+sc-submit-confirm = Ndzi tiyisisa leswaku swivulwa leswi i <wikipediaLink>ndhawu ya mani na mani</wikipediaLink> naswona ndzi na mpfumelelo wo swi hoxa.
+sc-submit-button =
+    .submitText = Rhumela
 sc-submit-filtered = Swivulwa leswi sefiweke hikwalaho ka swilaveko leswi tsandzekaka (hi kombela u rhumela tivhidiyo leti nga cinciki tanihi swivulwa leswintshwa):
 sc-submit-guidelines = Hi kombela u languta <howToLink>swiletelo</howToLink>.
 
@@ -891,10 +927,15 @@ sc-add-err-submission = Xihoxo xa ku Rhumela
 
 ## ADD SENTENCES CONFIRMATION
 
+sc-confirm-are-you-sure =
+    .message = Swivulwa a swi rhumeriwanga, xana u tiyisile leswaku u lava ku famba?
 sc-confirm-sentences-title = Tiyisisa Swivulwa Leswintshwa
 # Variables:
 #   $countOfInvalidated (Number) - Number of sentences the user rejected in the review form before submission
 sc-confirm-rejected-by-you = { $countOfInvalidated } yi ariwile hi wena
+# Variables:
+#   $countOfUnreviewed (Number) - Number of sentences unreviewed before the upload
+sc-confirm-unreviewed = { $countOfUnreviewed } swivulwa a swi kamberiwanga. Loko u swi lava, u nga ha tlhela u kambisisa swivulwa swa wena sweswi u nga si swi rhumela.
 
 ## LANGUAGE INFO
 
