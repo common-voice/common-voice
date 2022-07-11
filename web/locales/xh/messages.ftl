@@ -149,6 +149,7 @@ about-playbook-how-validate-content-4 = Ukuba ikliphu yaliwe ngabantu aba-2, ikh
 
 ## How to access dataset
 
+about-playbook-how-access-dataset-content-1 = Ungaya kwi <datasetsPage>iphepha leedatha</datasetsPage>, khetha inguqulelo kunye nolwimi (ii) olufunayo, kwaye ulukhuphele! Iifayile zine <metadataLink>metadata ehambelanayo</metadataLink>, njengolwazi lwedemografi kunye nedatha yokuqinisekisa. Kuya kufuneka unikeze idilesi ye-imeyile ukuze ukhuphele idataset.
 about-playbook-how-access-dataset-content-2 = Ukuba ujonge izixhobo zokwakha iimodeli ze-ASR, ungaqhagamshela nabanye abantu ekuhlaleni <discourseLink>on Discourse</discourseLink>.
 
 ## How are decisions made
@@ -293,6 +294,7 @@ contribution-background-noise-description-extended = Ukuba ushicilelo luyaqhawuk
 contribution-background-voices-description = Ingxolo yangasemva ezolileyo ilungile, kodwa asifuni amazwi ongezelelweyo anokubangela ukuba umatshini uchonge amagama angekho kumbhalo obhaliweyo. Ukuba unokuva amagama ahlukileyo kulawo wombhalo, ikliphu kufuneka ingamkelwa. Ngokuqhelekileyo oku kwenzeka apho kushiywe umabonakude edlala, okanye apho kukho incoko eqhubekayo kwakufitshane.
 contribution-background-voices-description-extended = Ukuba ushicilelo luyaqhawuka, okanye luziziqendu, lwale ngaphandle kokuba sonke isicatshulwa sinokuviwa.
 contribution-volume-description = Kuya kubakho ukuhluka kwendalo kwinqanaba lokukhwaza phakathi kwabafundi. Yala ukushicilela isandi ukuba izinga lokukhwaza liphambili kakhulu de lube luyaqhawuka ushicilelo, okanye (ngokuqhelekileyo) ukuba inqanaba lokukhwaza liphantsi kakhulu ukuba awukwazi ukuva oko kuthethwayo ngaphandle kokujonga koko kubhaliweyo.
+contribution-reader-effects-description = Iirhekhodi ezinintsi zezabantu abancokola ngezwi labo lwendalo. Unokwamkela ushicilelo olungelulo oluqhelekileyo olukhwazwayo, olusebezayo, okanye oluhanjiswa ngokucacileyo ngelizwi ‘elimangalisayo’. Nceda ungalwamnkeli ushicilelo olungumculo kunye nabo basebenzisa ilizwi elenziwe yikhompyuter.
 
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
