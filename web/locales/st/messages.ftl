@@ -1003,8 +1003,8 @@ lose-changes-warning = Ho tsamaea hona jwale ho bolela hore o tla lahlehelwa ke 
 build-custom-goal = Aha sepheo se etseditsweng wena feela
 help-reach-hours-pluralized =
     { NUMBER($hours) ->
-        [one] Thusa hore re fihlelle { $hours } hora ka { $language } ka sepheo sa hao
-       *[other] Thusa hore re fihlelle { $hours } dihora ka { $language } ka sepheo sa hao
+        [one] Thusa hore re fihlelle { $hours } hora ho { $language } ka sepheo sa hao
+       *[other] Thusa hore re fihlelle { $hours } dihora ho { $language } ka sepheo sa hao
     }
 help-reach-hours-general-pluralized =
     { NUMBER($hours) ->
