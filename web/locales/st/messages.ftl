@@ -359,6 +359,9 @@ female = E motshehadi
 # Gender
 other = Tse ding
 why-profile-title = Hobaneng profaele?
+why-profile-text =
+    Ka ho fana ka dintlha tse ding ka wena, data ya audio yeo o e romellang ho Common Voice e tla ba molemo haholo ho dienjene tsa Temoho ya Puo 
+    tse sebedisang data ena ho ntlafatsa nepahalo ya tsona.
 dashboard = Dashboard
 build-profile = Haha Profaele
 avatar = Avatar
@@ -367,6 +370,7 @@ settings = Ditlhophiso
 edit-profile = Fetola Profaele
 profile-create-success = Katleho, profaele e entswe!
 profile-close = Kwala
+profile-explanation = Boloka tlaleho ya tswelopele ya hao ka profile mme o thuse data ya lentswe ya rona ho nepahala.
 thanks-for-account = Rea leboha ka ho netefatsa ak'haonte ya hao, jwale ha re theheng profaele ya hao.
 why-demographic = Ke hobane’ng ha see se le bohlokwa?
 why-demographic-explanation-2 = Dintlha tsa mosebedisi tse sa tsebahaleng jwaloka dilemo, bong, le tsela ya puo di thusa ho ntlafatsa data ya audio e sebediswang ho kwetlisa nepahalo ya dienjene tse elellwang puo. Lebitso la mosebedisi la hao le email di ke ke tsa amahangwa le dintlha tse romelletsweng ya hao, mme o ka kgetha na o etsa lebitso la mosebedisi la hao le be phatlalatsa kapa le se ke la tsebahala.
@@ -418,6 +422,7 @@ faq-why-important-a =
     
     Ho etsa hore thekenoloji e elellwang lentswe e pharalle le lefatshe, re ntse re bokella mehlala ya mantswe dipuong tse buuwang haholo mmoho le ho dipuo tse buuwang ke ditjhaba tse fokolang ka palo tseo hangata di nyenyefatswang ke dikgwebo tse fanang ka ditshebeletso tsa thekenoloji e elellwang puo.
 faq-how-get-q = Ebe nka fumana data ya Common Voice jwang?
+faq-how-get-a = Pokello ya data ya Common Voice e ya fumaneha bakeng sa download tlasa<licenceLink>CC0</licenceLink>laecense ho<datasetLink>leqephe la Dipokello tsa data la rona</datasetLink>. O ka boela wa download-a dipokello tsa data tse ding tse ngata tse fumanehang phatlalatsa leqepheng le tshwanang.
 faq-when-release2-q = O tla lokolla data ya Common Voice neng ka dipuo tse ding?
 faq-when-release2-a = Mofuta wa dipuo tse ngata wa pokello ya data wa Common Voice hajwale o ntse o kopanngwa le ho hlwekiswa ke setjhaba. Haeba o ka thabela ho re thusa ho tlisa Common Voice ho dipuo tse ntjha, tsa mo sheba <sentenceCollectorLink>Sesebediswa se Bokellang Dipolelo</sentenceCollectorLink> bakeng sa ho kenya dipolelo tse ntjha ho pokello ya data, le ho Mozilla <pontoonLink>Pontoon</pontoonLink> bakeng sa ho toloka sebaka sa marang-rang ka bo sona. Dipuo tse ntjha di kenyelletswa ho Common Voice bakeng sa tlatsetso ya lentswe ha dipolello tse 5000 tse amohetsweng di se di bokelletswe.
 faq-why-mission-q = Hobaneng ha Common Voice e le karolo ya thomo ya Mozilla?
@@ -517,6 +522,7 @@ about-nav-playbook = Ithute ho nka karolo
 
 about-playbook-what-is-language = Puo ho Common Voice ke eng?
 about-playbook-what-is-language-content-1 = Ho na le mekgwa e mengata ya ho nahana ka puo. Bakeng sa di-model tse elellwang puo, Common Voice e kgothaletsa ho tsepamisa maikutlo ho 'kutlwisisano' kapa ‘na dibui tsa puo ee di ya utlwisisana boholo ha di leka ho etsa jwalo?'
+about-playbook-what-is-language-content-2 = Re batla hore di-model tsa puo di be betere ho utlwisisa mefuta e fapaneng ya dibui. Ho re sena se etsahale, pokello ya data ya lentswe e tlameha ho emela batho ba bangata ba fapaneng.
 about-playbook-what-is-language-content-3 = Dipuo tse ding di na le phapang e kgolo haholo ho sebopeho-puo, tlotlontswe le pitso ya mantswe. Ka lebaka lena, re <ctaLink>tsebisa 'Mefuta e fapaneng’</ctaLink> ka 2022. Hona ho fa ditjhaba mokgwa wa ho kgetholla dipuo tsa bona ka hara pokello ya data e kgolwanyane.
 
 ## How do I add a language
@@ -531,6 +537,10 @@ about-playbook-how-add-language-translating-content-2 =
     <githubRepoLink>kopa puo e ntjha ho GitHub</githubRepoLink>. <localizationFragment>Sheba tse ding hape ho setsi sa marang-rang sa botoloki</localizationFragment>.
 about-playbook-how-add-language-collecting-sentences-heading = Ho bokella dipolelo
 about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>Sheba tataiso ya rona mabapi le ho sebedisa Mobokelli wa Dipolelo</sentenceCollectorVideo>.
+about-playbook-how-add-language-collecting-sentences-content-2 =
+    O ka <sentenceCollectorLinkAdd>kenya dipalo tse nyane tsa dipolelo</sentenceCollectorLinkAdd>,
+    kapa o ka etsa <bulkImportDocsLink>wa kenya tsa kantle ka bongata o sebedisa Github</bulkImportDocsLink>.
+    Hopola hore dipolelo di hloka ho <licenseLink>CC0 (kapa phatlalatsa)</licenseLink>, kapa o ka ingolla tsa hao.
 about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>Sheba haholwanyane mabapi le pokello ya dipolelo</sentenceCollectorFragment>.
 
 ## How does localization work
@@ -548,10 +558,12 @@ about-playbook-how-add-sentences = Ke kenya dipolelo jwang?
 about-playbook-how-add-sentences-content-1 = <strong>Mmokelli wa Dipolelo</strong> ke sesebediswa sa ho bokella le ho netefatsa dipolelo tse phatlalatswang setjhabeng. O tla <scAccountLink> hloka ho etsa ak'haonte </scAccountLink>. Ebe, o kenya puo ya hao ho <strong>Profile</strong>. O ka <strong>Kenya</strong>dipolelo kapa wa<strong>Hlahloba</strong> dipolelo tse kentsweng kgale.
 about-playbook-how-add-sentences-content-2 = Dipolelo di tlameha ho hlahlojwa le ho amohelwa ke batho ba babedi hore di kenyelletswe ho Common Voice. O etsa ditataiso tsa puo ya hao<languageGuidelinesLink> mona</languageGuidelinesLink>. Dipolelo di tlameha<licenseLink> ho ba tse ka bonwang ke setjhaba</licenseLink> mme di be ka tlase ho mantswe a 15. O ka kopa mong'a sengolwa hore a e etse<waiverLink> CC0 ka ho sebedisa mokgwa wa rona wa ho nyahlatsa</waiverLink>, mme a re romelle yona ho commonvoice@mozilla.com
 about-playbook-how-add-sentences-content-3 = O ka sebedisa <scraperLink>Sesebediswa se hulang dipolelo</scraperLink> ho sebedisa dipolelo tse kgutshwanyane ho tloha Wikipedia.
+about-playbook-how-add-sentences-content-4 = Dipolelo tse netefaditsweng di fetisetswa kantle laboraro le leng le le leng mme dia fumaneha kamora tokollo e latelang.
 
 ## How to record quality
 
 about-playbook-how-record-quality = Nka rekota clip ya lentswe ya boleng bo hodimo jwang?
+about-playbook-how-record-content-1 = Bua ke lentswe la hao le tlwalehileng! Mokgwa oo o buang ka wona o amohelehile mona - re batla tsela ya hao ya puo e le jwalo, mme re batla bophahamo ba hao ba lentswe, setaele le modumo wa lentswe tse tlwaelehileng.
 about-playbook-how-record-content-3 = Bala polelo ka hloko - seke wa fosa, wa fetola kapa wa eketsa mantswe.
 about-playbook-how-record-content-4 = Etsa bonnete ba hore sethala sea rekota pele o qala ho bua, le hore se ema feela ha o qetile.
 about-playbook-how-record-content-5 = <accuracyLink>Sheba haholwanyane ka mokgwa wa nepahalo.</accuracyLink>
@@ -570,6 +582,7 @@ about-playbook-how-grow-language-content-7 = Batla ba bang ba tsotellang. Bao e 
 ## How to validate
 
 about-playbook-how-validate = Ke tseba jwang hore nka amohela clip ya lentswe?
+about-playbook-how-validate-content-2 = <strong>Se ke wa hana dikotwana moo mmui 'a nang le tsela ya puo' e fapaneng ho ya hao</strong> - hona ho bohlokwa bakeng sa hore temoho ya lentswe e sebetse betere bakeng sa bohle.
 about-playbook-how-validate-content-3 = Haeba o nahana hore pitso ya mantswe e etsa hore <strong>kutlwisiso e se ke ya kgonahala</strong>, kapa ho na le <strong>lerata le kamorao le lengata</strong>, kapa ho na le <strong>batho ba bang ba buang</strong>, o tshwanela ho hana sekotwana. <accuracyLink>Sheba dintlha tse ding ho ditekanyetso tsa nepahalo tsa rona</accuracyLink>.
 about-playbook-how-validate-content-4 = Haeba clip e hanwa ke batho ba 2, e lokollelwa ka hara sehlopha se fapaneng sa pokello ya data.
 
@@ -660,6 +673,7 @@ email-to-download = Kenya Email ho Download-a
 confirm-size = O se o ikemiseditse ho download-a <b>{ $size }</b>
 size-gigabyte = GB
 size-megabyte = MB
+confirm-no-identify = <b> O dumela<b> ho se leke ho fumana boitsebiso ba dibui tse ka ho pokello ya data ya Common Voice.
 download-language = Download-a { $language }
 validated-hours = Dihora tse netefaditsweng
 recorded-hours = Dihora tse Rekotilweng
@@ -679,6 +693,7 @@ community-playbook = Buka ya ho bapala ya setjhaba
 resource-playbook-info = <playbookLink>Fumana tataiso e thusang</playbookLink> leetong lohle la Common Voice, ho tloha sebakeng sa lehae ho isa tshebedisong ya dataset, mmoho le mokgwa wa ho hokahana le setjhaba sa rona.
 data-other-librispeech-description = LibriSpeech ke kakaretso ya dihora tse ka bang 1000 tsa 16Khz ya puo e badilweng ya Sekgowa e nkilweng dibukeng tse badilweng tsa audio ho tswa morerong wa LibriVox.
 data-other-ted-name = TED-LIUM Corpus
+data-other-ted-description = TED-LIUM corpus e entswe ho tswa ho dipuo tsa audio mme dingodilweng tsa tsona di fumaneha marang-rang a TED.
 data-other-voxforge-description = VoxForge e thehilwe ho bokella puo e ngotsweng hore e sebediswe le dienjene tsa Mahala mme tsa Mohlodi o Bulehileng wa Temoho ya Puo.
 your-feedback = O na le maikutlo a hore na re ka etsa jwang hore pokello ya data ya Common Voice e be betere? Re tsebise ho Discourse
 go-discourse = Eya ho Discourse
@@ -733,6 +748,7 @@ request-language-google-recaptcha-required = reCAPTCHA e ya hlokahala haeba o ba
 request-language-google-recaptcha-error = Ho bile le phoso ka reCAPTCHA. Ka kopo leka hape.
 # Success page
 request-language-success-heading = Rea leboha! O rometse potso ya puo e ntjha
+request-language-success-list-1 = O lokela ho fumana email haufinyane e hlalosang mehato ya ho kenya puo ya hao ho Common Voice
 request-language-success-list-3 =
     Haeba o sa utlwe ho tswa ho rona ka mor'a matsatsi a seng makae, 
     ikopanya le <emailLink>{ $email }</emailLink>
@@ -742,6 +758,7 @@ request-language-error = E ka nna yaba ha rea ​​fumana kopo eo. Ka kopo re r
 ## Languages Overview
 
 language-section-in-progress = E ntse tswelapele
+language-section-in-progress-new-description = Dipuo tsena hajwale di tlasa ntshetsopele ya setjhaba. <localizationGlossaryLink> Localization ya sebaka sa Marang-rang</localizationGlossaryLink> le <sentenceCollectionGlossaryLink>pokello ya dipolelo</sentenceCollectionGlossaryLink> dia hlokahala bakeng sa ho qala.
 language-section-launched = E qadilwe
 languages-show-more = Sheba Haholo
 languages-show-less = Sheba hanyane
@@ -1038,8 +1055,10 @@ contribution-criteria-page-title = Mekgwa ya ho Nehelana
 contribution-criteria-page-description = Utlwisisa seo o lokelang ho se sheba ha o mametse di-clip tsa mantswe mme o thuse ho etsa hore direkoto tsa hao tsa lentswe di be monate le ho feta!
 contribution-for-example = Mohlala
 contribution-misreadings-title = Ho se bale hantle
+contribution-misreadings-description = Ha o mametse, sheba ka hloko hore se rekotilweng ke sona hantle se ngotsweng; hana haeba ho na le diphoso le tse nyane. <br /> Diphoso tse tlwaelehileng haholo di kenyelletsa:
 contribution-misreadings-description-extended-list-1 = Ha ho na <strong>'A'</strong> kapa <strong>'The'</strong> qalong ya rekoto.
 contribution-misreadings-description-extended-list-2 = Ho haella <strong>'s'</strong> qetellong ya lentswe.
+contribution-misreadings-description-extended-list-3 = Ho bala dikgakanyo tse siyo, jwalo ka "We're" ho fapana le "We are", kapa ka tsela e fapaneng.
 contribution-misreadings-description-extended-list-5 = Ho leka makgetlo a mmalwa ho bala lentswe.
 contribution-misreadings-example-2-title = Kgodumodumo e kgolo tsa Triassic.
 contribution-misreadings-example-2-explanation = [E tlameha e be 'dikgodumodumo']
@@ -1241,6 +1260,9 @@ sc-confirm-already-reviewed =
         [one] Polelo e 1 e se e hlahlobilwe. Mosebetsi o motle!
        *[other] { $countOfReviewed } dipolelo di se di hlahlobilwe. Mosebetsi o motle!
     }
+# Variables:
+#   $countOfUnreviewed (Number) - Number of sentences unreviewed before the upload
+sc-confirm-unreviewed = { $countOfUnreviewed } ya dipolelo ha ya hlahlojwa. Haeba o batla, o ka boela wa hlahloba dipolelo tsa hao hona jwale pele o di romela.
 sc-confirm-button-text = Netefatsa
 sc-confirm-uploading = Dipolelo di ntse di kenngwa. Sena se ka nka metsotso e mmalwa ho latela palo ya dipolelo tse kentsweng. Ka kopo seke wa kwala sebaka sena sa marang-rang.
 
