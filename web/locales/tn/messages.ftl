@@ -40,6 +40,7 @@ es = Se-Spain
 eu = Se-Basque
 hr = Se-Croatia
 hy-AM = Se-Armania
+hyw = Se-Armenia sa Bophirima
 my = Se-Burma
 so = Se-Somali
 sq = Se-Albania
@@ -126,6 +127,7 @@ join-newsletter = O ka itlhophela go tsena mo lenaaneng la rona la makwalo go am
 ## What's public
 
 recordings-and-locale-public = Palo ya dikgatiso le dipuo tse o nnang le seabe mo go tsone di tla bonwa ke batho botlhe.
+username-optin-public = O ka tlhopha gore leinatiriso la gago le bonwe ke batho botlhe kgotsa go nna tlhokaina.
 demographic-deidentified-clarity-2 = Tshedimosetso e e rometsweng ka go ithaopa (s.k. dingwaga, bong, puo, le segalo) e ka se phasaladiwe mo porofaeleng ya gago, e bile e ka se amanngwe le akhaoto ya gago mo tshedimosetsong. Dikgatiso tsa batho tsa mantswe di tla amanngwa le tshedimosetso ya dipalopalo ka maikaelelo a tshekatsheko e e nepileng thata - ka sekai, mmatlisisi a ka batla go tota mofuta wa thapiso go karolo e e rileng ya dipalopalo.
 username-email-not-demographic = Leinatiriso la gago le imeile ga di na go ammangwa le tshedimosetso e e phasaladiwang.
 
@@ -342,6 +344,7 @@ datasets-positioning =
     
     Leba tsebe eno jaaka tshupiso go bona tshedimosetso e nngwe ya mantswe, mme jaaka Common Voice e tswelela go gola, e nna legae la ditlhabololo tsa rona.
 cv-license = Laesense
+audio-format = Kgatiso e e Reediwang
 why-email = <b>Goreng imeile?</b> Re ka tlhoka go ikgolaganya le wena mo isagweng malebana le diphetogo tsa tshedimosetso, imeile ke tsela e re ikgolaganyang ka yone.
 confirm-no-identify = <b>O dumela</b>go sa leke go lemoga boikitsiso jwa babui ba ba mo rekotong ya tshedimosetso ya Common Voice
 dataset-description-hours =
