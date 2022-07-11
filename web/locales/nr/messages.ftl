@@ -830,6 +830,7 @@ dataset-description-hours =
     
     Okwanje ibulungelweli <b>{ $valid }</b> linama-awara aqinisekisiweko wamalimi, <b>{ $languages }</b> kodwana sihlala sifaka amalimi namaphimbo angeziweko. Qala ikhasi lethu <languagesLink>Languages page</languagesLink> lamalimi nawufuna ilimi elithileko namkha nawufuna ukuthoma ukunikela.
 want-dataset-update = Ufuna sikwazise nasikhupha ihlelo elitjha leCommon Voice? Zitlolise engcenyenethu yeendaba.
+subscribe = Hlanganyela
 get-started-speech = Thoma ngokuhlola iphimbo
 other-datasets = Elinye ihlelo lamaphimbo
 feedback-q = Uwufumene umbiko obuyako?
@@ -848,6 +849,9 @@ go-discourse = Tjhinga ekulumweni
 missing-language = { "" }
 go-languages-page = Ngena ekhasini lamalimi
 ready-to-validate = Ukulungele ukusiza ngokuphasisa imitjho?
+more = Okungeziweko
+close = Vala
+download = Dawunilowuda
 dataset-version = Umbono
 
 ## Download Modal
@@ -930,6 +934,8 @@ language-total-progress = Pheleleko
 language-search-input =
     .placeholder = Funa
 language-speakers = Iinkhulumi
+localized = Yenza kujayeleke
+sentences = Imitjho
 language-validation-hours = Ama-awara
 language-validation-progress = Ituthuko eqinisekisiweko
 
@@ -937,6 +943,10 @@ language-validation-progress = Ituthuko eqinisekisiweko
 
 action-click = vala
 action-tap = IsiTap
+contribute = Nikela
+listen = Lalela
+skip = Dlula
+shortcuts = Ukufitjhanisa
 clips-with-count-pluralized =
     { $count ->
         [one] Isiqetjhana
@@ -955,6 +965,9 @@ contribute-more =
     }
 record-cta = Thoma ukurekhoda
 record-platform-not-supported = Sibawa usilibalele okufunako akufumaneki.
+record-platform-not-supported-desktop =
+    Nawusebenzisa ikhomphuyutha ehlala etafuleni unganikela 
+    ngokudawuniloda...
 record-platform-not-supported-ios-non-safari =
     Ku-iOS sibawa uragele phambili ngeSafari bona ukghone 
     ukurekhoda...
@@ -1047,11 +1060,23 @@ report-offensive-speech = Ikulumo elumelako
 report-offensive-speech-detail = Okurekhodiweko kunamezwi adelelako namkha alumelako.
 report-other-comment =
     .placeholder = Umbono
+success = Ipumelelo
+continue = Ragela phambili
 report-success = Umbiko uphasile
 
 ## Goals
 
 streaks = Amatshwayo
+days =
+    { $count ->
+        [one] Ilanga
+       *[other] Amalanga
+    }
+recordings =
+    { $count ->
+        [one] Into erekhodiweko
+       *[other] Izinto ezirekhodiweko
+    }
 validations =
     { $count ->
         [one] Eqinisekisiweko
@@ -1071,6 +1096,8 @@ todays-validated-progress =
     kuCommon Voice
 stats = Iimbalobalo
 awards = Abonongorwana
+you = Wena
+everyone = Woke umuntu
 contribution-activity = Umsebenzi womnikelo
 top-contributors = Umnikelo ophezulu
 recorded-clips = Rekhoda Iinqetjhana
@@ -1089,6 +1116,7 @@ create-custom-goal = Zibekele umngomo
 goal-type = Ngimuphi umgomo ofuna ukuzibekela wona?
 both-speak-and-listen = Kokubili
 both-speak-and-listen-long = Kokubili (Ukukhuluma nokuLalela)
+daily-goal = Imigomo yaqobe langa
 weekly-goal = Umgomo Weveke
 easy-difficulty = Lula
 average-difficulty = Isilinganiso
@@ -1098,6 +1126,7 @@ lose-goal-progress-warning =
     Nawutjhentjha umgomo ungalahlekelwa 
     yituthukwakho.
 want-to-continue = Ufuna ukuragela phambili?
+finish-editing = Qedelela ukulungisa qangi
 lose-changes-warning = Nawuphuma nje uzokulahlekelwa matjhuguluko owenzileko
 build-custom-goal = Zibekele umngomo ojayelekileko
 help-reach-hours-pluralized =
@@ -1152,10 +1181,13 @@ weekly-goal-created = Imigomo yakho yeveke sele ihleliwe
 daily-goal-created = Imigomo yakho yelanga sele ihleliwe
 track-progress = Fumana ituthukwakho la nekhasi lakho leembalobalo.
 return-to-edit-goal = Buyela la bona ulungise imigomakho nanyana kunini.
+share-goal = Yabelana ngomgomami
 
 ## Profile Delete
 
 delete-q = Nawe ungathanda bona iphimbo lakho lisulwe ebulungelweni lethu, namkha ukhetha ukuthi lihlala ebulungelweni le-Common Voice dataset?
+keep = Bulunga
+remove = Susa
 keep-info = Iphimbo lakho elirekhodiweko elingaziwa mumuntu lizokuhlala ebulungelweni le-Common Voice dataset. Nawulasula iprofayili yakho angeze usakghona ukufaka isibawa sokusula okurekhodileko ebulungelweni
 remove-info = Sizokuhlola isibawo sakho sokufuna ukususa iphimbo lakho ebulungelweni. Isibawo sakho nasivunyiwe, sizokuthintana nalabo abadawnlode iphimbo lakho ebulungelweni sibatjela bona nabo basule iphimbo lakho.
 why-delete-recordings =
@@ -1485,6 +1517,8 @@ sc-submit-ph-read-how-to =
 sc-submit-confirm =
     Ngiyaqinisekisa bona imitjho le
     <wikipediaLink>yehlelo lomphakathi</wikipediaLink> begodu nginamalungelo wokuyifaka.
+sc-submit-button =
+    .submitText = Thumela
 sc-submit-filtered = Imitjho efakiweko ayikaphasi ngebanga lokungahlangabezani neemfuneko (sibawa ufake imitjho emitjha elungisiweko)
 sc-submit-guidelines =
     Sivaba uqale i 
