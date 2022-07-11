@@ -21,6 +21,7 @@ email-opt-in-privacy-v2 = Nga u ṱanganedza uri ni ṱoḓa u wana dzi email ni
 
 ## Home Page
 
+home-title = Common Voice ndi mushumo wa Mozilla wa u thusa mitshini uri i gude nḓila ine vhathu vha vhukuma vha amba ngayo.
 default-tagline = Mozilla Common Voice ndi nḓila ya u thusa u funza mitshini nga nḓila ine vhathu vhavhukuma vha amba ngayo.
 wall-of-text-start = Ipfi ndi ḽa vhukuma, ipfi ndi muthu. Ndi ngazwo ri tshi takadzwa nga u ita zwishumiswa zwa thekhinolodzhi zwi shumisaho ipfi kha mitshini yashu. Fhedzi u itela uri ri ite dzi sisiṱemu dza maipfi, hu ṱoḓea data ya maipfi manzhi vhukuma.
 wall-of-text-more-mobile =
@@ -49,6 +50,7 @@ join-newsletter = Ni nga khetha u vha tshipiḓa tsha vha re kha mutevhe wa emai
 
 recordings-and-locale-public = Tshivhalo tsha zwo rekhodiwaho na nyambo dze na nikela khadzo zwi ḓo vhoniwa nga munwe na munwe.
 demographic-deidentified-clarity-2 = Data ine ya nga rumelwa ya mafhungo a zwidodombedzwa zwa muthu (sa tsumbo. miṅwaha, mbeu, luambo, na kuambele) a zwi nga itwi uri zwi wanwe nga vhathu vhoṱhe kha profile yaṋu, nahone a zwi nga ṱumanyiwi na akhantu yaṋu kha dataset. Odio iṅwe na iṅwe yo rekhodiwaho i ḓo tshimbidzana na zwidodombedzwa zwa muthu u itela uri dzi kone u ṱolisiswa nga nḓila yo teaho – sa tsumbo, muṱoḓisisi a nga vha a tshi khou ṱoḓa u gudisa tshishumiswa a tshi itela vhathu vha vhubvo ho khetheaho.
+username-email-not-demographic = Username yaṋu na email a zwi nga paṱekanyisiwi na data i no ḓo anḓadziwa.
 
 ## Speak & Listen Shortcuts
 
@@ -181,6 +183,7 @@ about-playbook-how-add-sentences-content-4 = Mitaladzi yo khwaṱhisedzwaho i a 
 ## How to record quality
 
 about-playbook-how-record-content-1 = Ambani nga ipfi ḽaṋu ḽo ḓoweleaho! Nḓila ine na amba ngayo yo ṱanganedzwa hafha – ri khou ṱoḓa kubulele kwaṋu kwo tou ralo, nahone ri ṱoḓa volumu ine na amba ngayo nga misi, tshiṱale na u gonya na u tsa ha ipfi ḽaṋu.
+about-playbook-how-record-content-2 = Ṱutshelani kule na phosho khulu - zwi tea u leluwa u ni pfa.
 about-playbook-how-record-content-4 = Ivhani na vhungoho ha uri thulusi i ne na khou i shumisa u rekhoda i khou u rekhoda ni sa athu thoma u amba, na uri i a ima musi no fhedza.
 
 ## How to grow language
@@ -241,6 +244,7 @@ dataset-description-hours =
     
     Dataset i na <b>{ $valid }</b> awara dzo teaho <b>{ $languages }</b> luambo, fhedzi ri dzula ri tshi khou panga maipfi o engedzeaho na dzinyambo. Sedzani <languagesLink>siaṱari ḽa Nyambo dzashu</languagesLink> u itela khumbelo ya luambo kana ni thome u shela mulenzhe.
 want-dataset-update = Ni khou ṱoḓa u kwamiwa ri tshi bvisa dataset ntswa ya Common Voice? Ḓiṅwaliseni kha vhane vha ṱoḓa u wana maswa maswa.
+resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ ndi <docsLink>thulusi ya nnyi na nnyi</docsLink> ya vhaṱoḓulusi vhane vha khou ita state-of-the-art conversational AI models.
 resource-deepspeech-info = Tshishumiswa tsha Mozilla tsha u ḓivha ipfi tshine tsha nga shumiswa nga nnyi na nnyi tsha Deep Speech tshi nga shumiswa kha u ita app dzi ḓivhaho ipfi. Vhalani samari yashu <githubLink>Github</githubLink> kana ni dzhenelele kha <discourseLink>DeepSpeech Discourse</discourseLink> uri ni gude nga ha uri ni nga thoma hani.
 resource-coqui-info = <coquiLink>Coqui</coquiLink> yo ḓinekedzela kha zwishumiswa zwa speech zwa thekhinolodzi zwa nnyi na nnyi. Thandela dzavho dzi katela deep learning based STT na TTS engines.
 resource-playbook-info = <playbookLink>Wanani thuso</playbookLink> nga ha u shumisa Common Voice, u bva kha localization u ya kha kushumisele kwa dataset, na nga ha nḓila ine na nga kwamana ngayo na vhadzulapo vha vhuponi haṋu.
@@ -327,6 +331,7 @@ why-delete-recordings =
 
 ## Profile Download
 
+download-recordings-unavailable = Ni nga si kone u humbela zwe na rekhoda ngeno hu tshi kha ḓi vha na zwiṅwe zwe na zwi humbela zwi re nḓilani.
 download-requests-info = Musi ni tshi humbela zwe na rekhoda, ri zwi panga kha faela ya ZIP nthihi kana nnzhi. Khumbelo dzaṋu dza tshifhinga tsho fhiraho khedzi:
 download-request-link-single = Ni nga kopa u ṋambatedza nga ho livhaho kha URLs u ya kha hune na ṱoḓa uri zwe na downḽouda zwi dzule hone. Zwi ḓo fhelelwa nga tshifhinga nga murahu ha awara dza 12, fhedzi ni nga dovha na vhuyelela kha ḽeneḽi siaṱari uri ni dovhe ni ite dziṅwe nga tshifhinga tshine na funa.
 
@@ -482,6 +487,14 @@ sc-criteria-item-6 = Arali na fhelelwa nga mitaladzi ya u ṱolisisa, ri humbela
 
 sc-review-lang-not-selected = A ni a thu u nanga na luambo na luthihi. Ri umbela uri ni ye kha <profileLink>Profaiḽi</profileLink> yaṋu uri ni nange nyambo.
 sc-review-form-usage = Swaipelani kha tsha u ḽa u itela uri ni kone u amba uri mutaladzi ndi wone. U amba uri a si wone swaipelani kha tsha monde. Swaipelani nṱha u itela u pfuka. <strong>Ni songo hangwa u rumela zwe na ṱolisisa!</strong>
+# Variables:
+#   $sentences (Number) - Number of sentences the user has reviewed in this session
+sc-review-form-reviewed-message =
+    { $sentences ->
+        [0] [0] A hu na mitaladzi yo ṱoliwaho.
+        [one] [one] mutaladzi 1 wo ṱoliwa. Khou livhuwa!
+       *[other] *[other] { $sentences } mitaladzi yo ṱoliwa. Khou livhuwa!
+    }
 
 ## SETTINGS
 
