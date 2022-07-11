@@ -220,6 +220,7 @@ logout = Tswa
 
 ## Home Page
 
+home-title = Common Voice ke mohato wa Mozilla wa ho thusa ho ruta metjhini hore na batho ba nnete ba bua jwang.
 default-tagline = Mozilla Common Voice ke mohato wa ho thusa ho ruta metjhini hore na batho ba nnete ba bua jwang.
 home-cta = Bua, kenya letsoho mona!
 wall-of-text-start =
@@ -967,6 +968,11 @@ help-reach-hours-pluralized =
         [one] Thusa hore re fihlelle { $hours } hora ka { $language } ka sepheo sa hao
        *[other] Thusa hore re fihlelle { $hours } dihora ka { $language } ka sepheo sa hao
     }
+help-reach-hours-general-pluralized =
+    { NUMBER($hours) ->
+        [one] Thusa Common Voice e fihlele { $hours } hora puong ka sepheo sa hao
+       *[other] Thusa Common Voice e fihlele { $hours } dihora puong ka sepheo sa hao
+    }
 set-a-goal = Ipehele sepheo
 cant-decide = Ha o kgone ho etsa qeto?
 activity-needed-calculation-plural =
@@ -1269,6 +1275,7 @@ sc-submit-from-where = Dipolelo tsee<wikipediaLink>tsa setjhaba</wikipediaLink> 
 sc-submit-ph-read-how-to =
     .placeholder = Bala Mokgwa wa rona wa ho etsa haeba o se na bonnete ba ho etsa
 sc-submit-confirm = Ke netefatsa hore dipolelo tsena ke<wikipediaLink>tsa setjhaba</wikipediaLink> mme ke na le tumello ya ho di kenya.
+sc-submit-filtered = Dipolelo tse siuweng ka lebaka la ditlhoko tse hlolehileng (ka kopo fana ka mefuta e tsitsitseng e le dipolelo tse ntjha):
 sc-submit-guidelines = Ka kopo sheba <howToLink>ditataiso</howToLink>.
 
 ## ADD LANGUAGE
