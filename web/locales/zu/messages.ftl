@@ -99,6 +99,10 @@ home-title = I-Common Voice iwuhlelo lwe-Mozilla lokusiza ukufundisa imishini uk
 default-tagline = I-Mozilla Common Voice iyisinyathelo sokusiza ukufundisa imishini ukuthi abantu bangempela bakhuluma kanjani.
 home-cta = Khuluma, unikele lapha!
 wall-of-text-start = { "" }
+wall-of-text-more-desktop =
+    Manje unganikela ngezwi lakho ukuze usisize sakhe isizindalwazi sezwi esinomthombo ovulekile esingasetshenziswa yinoma ubani
+    ukwenza izinhlelo zokusebenza ezintsha zamadivayisi kanye newebhu. Funda umusho ukuze usize imishini ifunde ukuthi abantu bangempela bakhuluma kanjani. Hlola umsebenzi wabanye
+    abahlanganyeli ukuthuthukisa ikhwalithi. Kulula kanjalo!
 show-wall-of-text = Funda kabanzi
 help-us-title = Sisize siqinisekise imisho!
 help-us-explain = Cindezela okuthi dlala, lalela futhi usitshele: ingabe bawukhulume kahle lo musho ongezansi?
@@ -377,6 +381,7 @@ about-playbook-how-record-content-5 = <accuracyLink>Bona okwengeziwe ngemibandel
 
 about-playbook-how-grow-language = Singalukhulisa kanjani ngokuphumelelayo ulimi ku-Common Voice?
 about-playbook-how-grow-language-content-4 = Izinkundla zokuxhumana
+about-playbook-how-grow-language-content-5 = Ungasabenzisa izinkundla zokuxhumana ukudlulisa lo mlayezo. Yabelana ngemilayezo echaza ukubaluleka kwayo, uthintane nabanye abantu abakhuluma ngezinkinga ezifana namalungelo aphethelene nezilimi, nobuchwepheshe bamazwi, nokuchema kwesobuchwepheshe. Bheka isaluleko esengeziwe ku <campaignLink>ukuphatha umkhankaso wokuxhumana nabantu, nokuqukethwe ongaphinda ukusebenzise</campaignLink>.
 about-playbook-how-grow-language-content-6 = Ubambiswano namanethiwekhi
 about-playbook-how-grow-language-content-8 = <strong>Yakha ubuciko!</strong> Umphakathi wakho wolimi uzohluka, futhi lezi izindlela ezimbalwa zokuqalisa.
 
@@ -419,6 +424,7 @@ data-download-yes = Yebo
 data-download-license = Ilayisensi: <licenseLink>CC-0<licenseLink>
 data-download-modal = Usuzoqalisa ukuloda kwe-<size>GB</size>, qhubeka?
 data-subtitle = Sakha isethi yedatha evulekile netholakala esidlangalaleni yamazwi wonke umuntu angayisebenzisela ukuqeqesha izinhlelo zokusebenza ezikwazi ukukhuluma.
+data-explanatory-text = Sikholelwa ukuthi umthombo omkhulu wamazwi aqoshiwe ukhuthaza ukusungula ukuncintshisana kwezentengiso okunempilo ekufundeni okusemishinini ngobuchwepheshe benkulumo. Lona umzamo womhlaba wonke, simema wonke umuntu ukuba athathe iqhaza. Inhloso yethu ukusiza kubuchwepheshe benkulumo ukuba buhlanganise, buzindle ukuhlukahlukana kwamazwi emhlabeni wonke jikelele.
 data-get-started = <speechBlogLink>Qalisa Ngokuqaphela Inkulumo</speechBlogLink>
 data-other-title = Amanye amadathasethi ezwi
 data-other-goto = Iya ku { $name }
