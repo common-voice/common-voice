@@ -7,6 +7,8 @@ get-involved-text =
     Ndza khensa ku tsakela ka n'wina ku hoxa xandla eka { $lang }. Hi tirha hi matimba ku endla leswaku ririmi rin’wana na rin’wana ri lunghekela ku sunguriwa no hlayisiwa
     swipano swi pfuxetiwile hi ku tirhisa imeyili. Loko u lava ku hoxa xandla, hi kombela u nyika email ya wena laha hansi.
 get-involved-form-title = Tsarisa ku kuma swintshuxo swa { $lang }:
+get-involved-email =
+    .label = Imeyili
 get-involved-opt-in = Ina, ndzi rhumeleni ti-email. Ndzi tsakela ku tshama ndzi ri karhi ndzi tivisiwa hi nhluvuko wa ririmi leri eka Common Voice.
 get-involved-submit = Rhumela
 get-involved-stayintouch = Hina a Mozilla hi le ku akeni ka muganga wa vaaki ku rhendzela thekinoloji ya rito. Hi tsakela ku tshama hi ri eku hlanganiseni na swintshuxo, swihlovo leswintshwa swa datha na ku twa swo tala hi ndlela leyi u tirhisaka datha leyi ha yona.
