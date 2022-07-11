@@ -46,6 +46,8 @@ hy-AM = Se-Armania
 hyw = Se-Armenia sa Bophirima
 my = Se-Burma
 om = Se-Afaan Ormoo
+scn = Se-Sicily
+shi = Se-Shilha
 sl = Se-Slovania
 so = Se-Somali
 sq = Se-Albania
@@ -250,6 +252,7 @@ faq-why-not-ask-read-q = Goreng o sa kope batho go bala dibuka kgotsa ditlhogo t
 faq-why-not-ask-read-a = Go dira gore tshedimosetso ya Common Voice e nne mosola kafa go ka kgonegang ka gone, re dirile tshwetso ya go letlelela fela mokwalo o o leng teng mo laesenseng ya Creative Commons (CC0). Go dirisa molawana wa CC0 go raya gore go thata go bona le go kgobokanya mokwalo wa konokono, mme go letla gore mongwe le mongwe a dirise tshedimosetso e e felelang ka gone ya mantswe kwantle ga dithibelo tsa tiriso kgotsa tetlelelo ya Mozilla. Kwa bofelong, re batla gore tshedimosetso ya dipuo tse dintsi e nne mosola go mongwe le mongwe kafa go ka kgonegang ka gone, go akaretsa babatlisisi, diyunibesithi, dithulaganyo tsa tshimologo, dipuso, mekgatlho ya boikaelelo jwa loago, le batho ba ba dirang dilo go itlosa bodutu.
 faq-why-account-q = Goreng ke tlhoka go ikwadisa gore ke nne le akhaonto?
 faq-how-privacy-q = Lo tlhomamisa jang gore go nna tshedimosetso le diphiri tsa batho ba ba abelanang mantswe ga di phasaladiwe?
+faq-how-privacy-a = Dikgatiso tsotlhe tsa mantswe mo tshedimosetsong di tlositswe tshedimosetso e e senolang gore motho ke mang. Fa moabi a naya tshedimoseetso ya dipalopalo ka porofaele ya gagwe, tshedimosetso eo e a tloswa mo dikgatisong tsa bone tsa mantswe pele di direlwa go ka itseelwa mo tshedimosetsong mme ga e dirwe ya batho botlhe mo tsebeng ya bone ya porofaele.
 faq-what-determine-identity-q = Go tewa jang fa go twe ga ke kgone go "lemoga boikitsiso" jwa babui ba ba mo direkotong tsa tshedimosetso mo Common Voice?
 faq-what-determine-identity-a =
     Tshedimosetso ya Common Voice ke sedirisiwa se se leng teng sa batho botlhe se se ka dirisiwang go thapisa dithulaganyo tse di farologaneng tsa puo. Go sireletsa tshireletsego ya baabi ba rona, re kopa gore mongwe le mongwe yo a itseelang tshedimosetso ya Common Voice a tlotle bosephiri jwa baabi.
@@ -466,6 +469,7 @@ language-speakers = Dibui
 ## Contribution
 
 action-click = Tobetsa
+shortcuts = Ditlhabanyetso
 goal-help-recording = O thusitse Common Voice gore e fitlhelele <goalPercentage></goalPercentage> ya maikaelelo a rona a letsatsi a go gatisa { $goalValue }!
 goal-help-validation = O thusitse Common Voice gore e fitlhelele <goalPercentage></goalPercentage> ya maikaelelo a rona a letsatsi a go tlhomamisa { $goalValue }!
 record-platform-not-supported = Re maswabi, polatefomo  ya gago ga e tshegediwe gone jaanong.
