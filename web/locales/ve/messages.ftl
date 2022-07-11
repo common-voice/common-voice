@@ -97,6 +97,7 @@ profile-form-variant =
 profile-form-custom-accent-help-text =
     .label = Ni nga ṱalusa hani kuambele kwaṋu?
 profile-form-custom-accent-placeholder-2 = Thomani u thaipha uri ni kone u ṱalusa kuambele kwaṋu
+profile-form-add-accent = Pangani kuambele kuswa "{ $inputValue }"
 why-profile-text =
     Nga u ri vhudza zwiṅwe zwidodombedzwa zwaṋu, data ya odio ine na i rumela kha Common Voice i ḓo kona u shumiswa zwavhuḓi kha mitshini ya u Ḓivha
     Ipfi ine ya ḓo shumisa yeneyi data u itela uri i kone u vha ya khwine-khwine uri i shume zwavhuḓi.
@@ -236,6 +237,7 @@ about-playbook-how-add-language-collecting-sentences-content-2 =
     Ni nga <sentenceCollectorLinkAdd>dzhenisa mitaladzi i si gathi</sentenceCollectorLinkAdd>,
     kana ni nga <bulkImportDocsLink> imphotha minzhi-minzhi nga u shumisa Github</bulkImportDocsLink>.
     Ni humbule uri mitaladzi itea u vha <licenseLink>CC0 (kana public domain)</licenseLink>, kana ni nga ṅwana waṋu.
+about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>Vhonani zwo engedzeaho kha u kuvhanganya mitaladzi </sentenceCollectorFragment>.
 
 ## How does localization work
 
@@ -260,6 +262,7 @@ about-playbook-how-record-content-1 = Ambani nga ipfi ḽaṋu ḽo ḓoweleaho!
 about-playbook-how-record-content-2 = Ṱutshelani kule na phosho khulu - zwi tea u leluwa u ni pfa.
 about-playbook-how-record-content-3 = Vhalani mutaladzi zwavhuḓi - ni songo pfuka maipfi, u a shandukisa kana u a engedza.
 about-playbook-how-record-content-4 = Ivhani na vhungoho ha uri thulusi i ne na khou i shumisa u rekhoda i khou u rekhoda ni sa athu thoma u amba, na uri i a ima musi no fhedza.
+about-playbook-how-record-content-5 = <accuracyLink>Vhonani zwo engedzeaho nga ha nḓila ya u amba uri zwithu ndi zwone.</accuracyLink>
 
 ## How to grow language
 
@@ -288,6 +291,7 @@ about-playbook-how-access-dataset-content-2 = Arali ni tshi khou ṱoḓa zwishu
 
 about-playbook-how-project-governance = Tsheo dza thandela dzi dzhiiwa hani?
 about-playbook-how-project-governance-content-2 = Zwi ri langaho zwo thewa kha hedzi phuphu:
+about-playbook-how-project-governance-content-4 = U longa tshanḓa kha tshigwada na u dzhia tsheo.
 about-playbook-how-project-governance-content-7 = <governanceLink>Vhalani nga vhuḓalo nga ha uri ri langiwa hani</governanceLink>
 
 ## Glossary
@@ -310,6 +314,7 @@ error-content-503 = Saiti i ḓo bekapiwa nga u ṱavhanya. Uri ni wane zwithu z
 data-download-modal = Ni khou thoma u downḽoda <size>{ $size }GB</size>, naa ni ṱoḓa u isa phanḓa?
 data-subtitle = Ri khou ita dataset i ne ya ḓo shumiswa nga nnyi na nnyi nga muṅwe na muṅwe ya maipfi ane vhathu vhoṱhe vha nga kona u a shumisa u gudisa dzi application dzine dza kona u u amba.
 data-explanatory-text = Ri tenda uri tshitshavha tshihulu tshi re hone tshi ḓo vhuyelwa nga dataset ya maipfi zwa ita uri hu thomiwe zwithu zwiswa nahone ha vha na miṱaṱisano yavhuḓi kha zwa vhurengisi zwi tshimbidzanaho na thekhinolodzi ya u amba ya machine-learning. Zwenezwi ndi mutingati wa shango ḽoṱhe nga vhuphara nahone ri khou ramba muṅwe na muṅwe uri a shele mulenzhe. Tshipikwa tshashu ndi uri zwishumiswa zwa u amba zwa thekhinolodzhi zwi katele vhunzhi ha vhathu, hu pfale maipfi o fhambananaho u mona na shango ḽoṱhe.
+data-get-started = <speechBlogLink>Thomani na Speech Recognition</speechBlogLink>
 data-bundle-description = Common Voice data na dziṅwe dzi dataset dza maipfi dzi re afho nṱha.
 data-download-singleword-title = Downḽodani Thagete ya Tshipiḓa tsha Ipfi Ḽithihi
 data-download-singleword-callout-v2 = Hetshi ndi tshipiḓa tshi langiwaho nga kushumisele tshi re na data ine ya mannḓafhadza digit recognition na ine ya ḓivha ee / hai.
@@ -364,6 +369,7 @@ request-language-success-content = Ri ḓo ni kwama hu si kale uri ri ni vhudze 
 
 ## Request Language Pages
 
+request-language-heading = Vhudzisani nga ha luambo luswa
 request-language-explanation-1 =
     Sedzani arali luambo lwaṋu lu hone kha mutevhe wa
      <languagesPageLink>siaṱari ḽa Nyambo dza Common Voice</languagesPageLink>.
@@ -409,6 +415,7 @@ review-instruction = Ṱolisisani & dovhololani u rekhoda arali zwo fanela
 record-abort-text = Na ṱuwa zwino ni ḓo xelelwa nga mvela phanḓa yaṋu
 listen-instruction = { $actionType }<playIcon></playIcon> naa vho bula mutaladzi nga nga nḓila yone?
 listen-again-instruction = Mushumo wavhuḓi!<playIcon></playIcon> Dovhani ni thetshele musi no lugela
+listen-3rd-time-instruction = No fhedza mbili, isani phanḓa nga u rali!<playIcon></playIcon>
 listen-empty-state = Ro fhelelwa nga zwo rekhodiwaho zwine zwa ṱoḓa u khwaṱhisedzwa...
 listen-loading-error =
     A ro ngo kona u wana odio dzo rekhodiwaho dza maipfi uri inwi ni kone u dzi thetshelesa.
@@ -417,6 +424,7 @@ speak-empty-state = Ro fhelelwa nga mitaladzi ya u rekhoda nga holwu luambo...
 speak-loading-error =
     "A ro ngo kona u wana mitaladzi ine na ḓo i vhala.
      Ri humbela uri ni lingedze nga vhuya."
+share-title-new = <bold>Ri thuseni</bold> ri wane maipfi manzhi
 keep-track-profile = Dzulani ni tshi ḓivha mvela phanḓa yaṋu nga profaiḽi
 login-to-get-started = Ḽogani kana sign up uri ni kone u thoma
 target-segment-first-card = Ni khou shela mulenzhe kha tshipiḓa tsha tshipikwa tshashu tsha u thoma
@@ -446,6 +454,7 @@ visibility-overlay-note = Ṱhogomelani hezwi: Musi yo setiwa kha u 'Vhonala', h
 
 goal-type = Ndi tshipikwa ḓe tshine na khou ṱoḓa u tshi ita?
 lose-goal-progress-warning = Nga u editha tshipikwa tshaṋu, ni nga xelelwa nga mvela phanḓa ya zwe na zwi ita.
+want-to-continue = Ni khou ṱoḓa u isa phanḓa?
 lose-changes-warning = Na ṱuwa zwino ni ḓo xelelwa nga tshanduko dzaṋu
 help-reach-hours-pluralized =
     { NUMBER($hours) ->
@@ -591,6 +600,7 @@ sc-languages-fetch-error = Ro balelwa u dzhia nyambo dzi re hone. A zwi konadzei
 
 ## HOW-TO
 
+sc-howto-addlang-title = Pangani nyambo dzine na ḓo shuma ngadzo
 sc-howto-addlang-text = Musi no ḽoga kha akhantu yaṋu ni nga nanga nyambo dzaṋu kha tshipiḓa tsha profaiḽi.
 sc-howto-addsen-item-1 = Mitaladzi yoṱhe ye na i rumela i tea u vha <wikipediaLink>Fhethu ha Tshitshavha Tshoṱhe (CC-0) ḽaisentsi</wikipediaLink>. U itela u tikedza u katelwa ha mushumo u si ho fhasi ha ḽaisentsi ya nnyi na nnyi, ro ita <cc0WaiverLink>themphuḽethi ya Thendelano ya u Shela mulenzhe </cc0WaiverLink> kha mushumo une muthu a re na kopi ya vhuṋe a ṱoḓa u nikela ngawo kha Common Voice.
 sc-howto-addsen-item-2 = Nomboro. Source text a yo ngo tea u vha na dzi nomboro ngauri zwi nga vhanga thaidzo musi dzo vhalelwa nṱha. Nḓila ine nomboro ya vhalwa ngayo zwi ḓitika nga mafhungo a re kha honoyo mutaladzi nahone zwi nga ḓisa nḓaḓo kha dataset. Sa tsumbo, nomboro ya “2409” i nga vhalwa sa “twenty-four zero nine” kana “two thousand four hundred nine” zwoṱhe zwa vha zwi zwone.
