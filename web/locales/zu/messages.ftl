@@ -18,6 +18,7 @@ error-something-went-wrong = Uxolo, kukhona okungahmabnga kahle
 
 ## Languages
 
+ckb = Central Kurdish
 cnh = Hakha Chin
 dsb = Sorbian, Lower
 gom = Goan Konkani
@@ -40,7 +41,9 @@ rm-vallader = Romansh Vallader
 sat = Santali (Ol Chiki)
 st = Southern Sotho
 tok = Toki Pona
+zh-CN = Chinese (China)
 zh-HK = Chinese (Hong Kong)
+zh-TW = Chinese (Taiwan)
 
 # [/]
 
@@ -147,6 +150,7 @@ leaderboard-visibility =
     .label = Ukubonakala Kwebhodi labaphambili
 profile-form-add-accent = Engeza ukuphimisa kwangokwezifiso okusha "{ $inputValue }"
 why-profile-title = Kungani kunephrofayili?
+build-profile = Akha iphrofayela
 edit-profile = Hlela iphrofayela
 profile-create-success = Impumelelo, iphrofayela yakhekile!
 profile-explanation = Landelela inqubekela-phambili yakho ngephrofayela futhi usize idatha yethu yezwi inembe kakhulu.
@@ -170,6 +174,7 @@ browse-file-title = Layisha ifayela lesithombe
 connect-gravatar = Xhuma nge-Gravatar
 gravatar_not_found = Ayikho i-gravatar etholakele ye-imeyili yakho
 file_too_large = Ifayela elikhethiwe likhulu kakhulu
+avatar-uploaded = I-avatar ilodiwe
 remove-avatar = Susa i-Avatar
 
 ## Profile - Email
@@ -363,6 +368,7 @@ terms-disagree = Angivumi
 review-aborted = Ukulodiwe kunqanyuliwe. Uyafuna ukususa okurekhodiwe kwakho?
 review-submit-title = Buyekeza futhi uthumele
 review-submit-msg = Siyabonga ngokurekhoda!<lineBreak></lineBreak>Manje buyekeza futhi uhambise iziqeshana zakho ngezansi.
+review-cancel = Khansela i-submission
 review-keep-recordings = Gcina okuqoshiwe
 review-delete-recordings = Susa okwami okuqoshiwe
 
@@ -480,6 +486,7 @@ record-no-mic-found = Awukho umbhobho otholiwe.
 record-error-too-short = Ukuqopha bekukufushane kakhulu.
 record-error-too-long = Ukuqopha bekukude kakhulu.
 record-error-too-quiet = Ukuqopha bekuthule kakhulu.
+record-cancel = Khansela ukuqoshwa kabusha
 record-instruction = { $actionType }<recordIcon></recordIcon> bese uwufundela phezulu umusho
 record-three-more-instruction = Sekusele okuthathu!
 record-again-instruction = Kuhle!<recordIcon></recordIcon> Qopha isiqeshana sakho esilandelayo
@@ -592,6 +599,7 @@ help-reach-hours-general-pluralized =
        *[other] { $hours } amahora ngolimi olunomgomo womuntu siqu
     }
 set-a-goal = Zibekele umgomo
+cant-decide = Awukwazi ukuthatha isinqumo
 activity-needed-calculation-plural =
     { NUMBER($totalHours) ->
         [one] { $totalHours } ihora  lifinyeleleka esikhathini esingaphezudlwana nje kuka
@@ -675,6 +683,7 @@ demo-welcome-subheader = Unentshisekelo yokufunda okwengeziwe nokuba negalelo ku
 ## Demo Datasets
 
 demo-language-select-card-header = I-Common Voice iyidathasethi yezwi enkulu kunazo zonke emhlabeni etholakala esidlangalaleni, enezilimi eziningi.
+demo-language-select-label = Phequlula Izilimi
 demo-eofy-header = Ukukhishwa Kokuphela Konyaka kuka-2019
 demo-eofy-sub_header = Idathasethi Yezwi, Ilungele Ukulodwa
 
@@ -722,11 +731,13 @@ contribution-varying-pronunciations-example-1-title = Ekhanda ugqoke ibharethi.
 contribution-varying-pronunciations-example-1-explanation = [I-‘Beret’ ILUNGILE noma ngabe isigcizelelo sikuhlamvu wokuqala (UK) noma wesibili (US)]
 contribution-varying-pronunciations-example-2-title = Isandla sakhe sasiphakanyisiwe.
 contribution-varying-pronunciations-example-2-explanation = [Igama elesiNgisi u'Raised' liphinyiswa ngohlamvu olulodwa, hhayi ezimbili]
+contribution-background-noise-title = Umsindo Ongemuva
 contribution-background-noise-description-extended = Uma ukurekhodwa kunqamuka, noma kunokuqhekeka, yenqaba ngaphandle kokuba wonke umbhalo ungazwakala.
 contribution-background-noise-example-1-fixed-title = <strong>[ukuthimula]</strong> Ama-dinosaurs amakhulu we-<strong>[ukukhwehlela]</strong> we-Triassic.
 contribution-background-noise-example-2-fixed-title = I-dino enkulu <strong>[ukukhwehlela]</strong> i-Triassic.
 contribution-background-noise-example-2-explanation = Ingxenye yombhalo ayizwakali
 contribution-background-noise-example-3-fixed-title = <strong>[Crackle]</strong> ama-dinosaurs amakhulu we-<strong>[crackle]</strong> -riassic.
+contribution-background-voices-title = Umsindo Ongemuva
 contribution-background-voices-description-extended = Uma ukurekhodwa kunqamuka, noma kunokuqhekeka, yenqaba ngaphandle kokuba wonke umbhalo ungazwakala.
 contribution-background-voices-example-1-title = Ama-dinosaurs amakhulu e-Triassic. <strong>[funda ngezwi elilodwa]</strong>
 contribution-background-voices-example-1-explanation = Uyeza? <strong>[called by another]</strong>
