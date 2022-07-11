@@ -68,7 +68,9 @@ no-clips-to-validate = Kubonakala sengathi azikho iziqeshana ongazilalela ngalol
 toggle-play-tooltip = Cindezela{ shortcut-play-toggle } ukuze uguqule imodi yokudlala
 speak-subtitle = Nikela ngezwi lakho
 speak-paragraph = Ukuqopha iziqeshana zezwi kuyingxenye ebalulekile yokwakha idathasethi yethu evulekile; abanye bangathi kumnandi futhi.
+speak-goal-text = Iziqeshana eziqoshiwe
 listen-subtitle = Sisize siqinisekise amazwi
+listen-goal-text = Iziqeshana ziqinisekisiwe
 hours-recorded = Amahora Aqoshiwe
 hours-validated = Amahora Aqinisekisiwe
 voices-online = Amazwi a-Online Manje
@@ -254,6 +256,7 @@ about-yes-votes-text = Ukwenza kube yidathasethi yeCommon Voice, isiqeshana sezw
 about-no-votes = ≥ 2 Amavoti athi Cha
 about-dataset-new = Idathasethi YeCommon Voice
 about-dataset-new-text = Idathasethi yeCommon Voice iqukethe amakhulu ezinkulungwane zamasampuli ezwi asiza onjiniyela bakhe amathuluzi okwazi izwi.
+about-clip-graveyard = Amathuna eziqeshana
 about-get-involved = Zibandakanye
 about-stay-in-touch = Ngihlala kanjani ngithintana?
 about-stay-in-touch-button = Bhalisa
@@ -276,6 +279,7 @@ about-playbook-what-is-language-content-1 = { "" }
 about-playbook-how-add-language = Ngilufaka kanjani ulimi?
 about-playbook-how-add-language-translating-heading = Ukuhumusha isayithi
 about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Buka umhlahlandlela wethu wokuthi usetshenziswa kanjani iPontoon.</translateVideoLink>
+about-playbook-how-add-language-collecting-sentences-heading = Ukuqoqa imisho
 about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>Bukela umhlahlandlela wethu wokusebenzisa Umqoqi Wemisho</sentenceCollectorVideo>.
 about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>Bona okwengeziwe ngokuqoqwa kwemisho</sentenceCollectorFragment>.
 
@@ -384,6 +388,7 @@ other-datasets = Amanye Amadathasethi Ezwi
 feedback-q = Unayo Impendulo?
 resource-nemo-info = I-<githubLink>NVIDIA NeMo</githubLink>™ iyi-<docsLink>ikhithi yamathuluzi yomthombo ovulekile</docsLink> yabacwaningi abakha amamodeli e-AI engxoxo esezingeni eliphezulu.
 resource-coqui-info = I-<coquiLink>Coqui</coquiLink> inikezelwe ekuvuleni ubuchwepheshe benkulumo. Amaphrojekthi abo ahlanganisa ukufunda okujulile okusekelwe ku-STT kanye nezinjini ze-TTS.
+community-playbook = I-Playbook yomphakathi
 resource-playbook-info = <playbookLink>Thola isiqondiso esiwusizo</playbookLink> kulo lonke uhambo lwe-Common Voice, kusukela ekwenzeni okwasendaweni kuya ekusetshenzisweni kwedathasethi, kanye nendlela yokuxhumana nomphakathi wethu.
 data-other-librispeech-description = I-LibriSpeech iyikhophasi cishe yamahora angu-1000 we-16Khz  yenkulumo yesiNgisi efundiwe ethathwe kuma-audiobook afundiwe kusukela kuphrojekthi ye-LibriVox.
 data-other-ted-name = TED-LIUM Corpus
@@ -407,6 +412,7 @@ download-no = Cha ngiyabonga
 
 ## Contact Modal
 
+contact-title = Ifomu Lokuxhumana
 
 ## Request Language Modal
 
@@ -482,6 +488,7 @@ review-tooltip = Buyekeza futhi uqophe kabusha iziqeshana lapha njengoba uhamba
 share-clip = Yabelana ngesiqeshana sakho
 share-common-voice = Yabelana ngeCommon Voice
 review-instruction = Buyekeza futhi uqophe kabusha iziqeshana uma kudingeka
+clips-uploaded = Iziqeshana zilodiwe
 record-abort-title = Qedela ukuqopha kuqala?
 record-abort-text = Ukuhamba manje kusho ukuthi uzolahlekelwa ukuqhubeka kwakho
 record-abort-submit = Thumela iziqeshana
@@ -612,6 +619,7 @@ n-clips-pluralized =
        *[other] { $count } iziqeshana
     }
 help-share-goal = Sisize sithole amazwi engeziwe, wabelane ngenjongo yakho
+confirm-goal = Qinisekisa Inhloso
 # $type is one of share-goal-type-*
 share-n-daily-contribution-goal = Yabelana nge-{ $count } Inhloso yakho Yansuku Zonke Yeziqeshana we-{ $type }
 # $type is one of share-goal-type-*
@@ -743,6 +751,7 @@ sc-logout-button = Phuma
 ## HOME
 
 sc-home-title = Siyakwamukela Kumqoqi Wemisho yeCommon Voice
+sc-home-collect-title = Qoqa imisho
 sc-home-collect-text = Sisize ngokubhala noma ukuqoqa imisho Yesizinda Somphakathi.
 sc-home-review-title = Buyekeza imisho
 sc-home-review-text = Sisize ngokubuyekeza imisho ngokunemba ngokweziqondiso.
@@ -984,3 +993,5 @@ sc-validation-no-abbreviations = Umusho akufanele ube nezifinyezo
 
 # [/SentenceCollector]
 
+localization-select =
+    .label = Khetha ulimi/ukwasendaweni
