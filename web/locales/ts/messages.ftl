@@ -4,6 +4,7 @@ yes-receive-emails = Ina, ndzi rhumeleni ti-email. Ndzi tsakela ku tshama ndzi r
 stayintouch = Hina a Mozilla hi le ku akeni ka muganga wa vaaki ku rhendzela thekinoloji ya rito. Hi tsakela ku tshama hi ri eku hlanganiseni na swintshuxo, swihlovo leswintshwa swa datha na ku twa swo tala hi ndlela leyi u tirhisaka datha leyi ha yona.
 return-to-cv = Vuyela eka Common Voice
 submit-form-action = Rhumela
+loading = Ku layicha...
 email-opt-in-info = Ndzi tsakela ku amukela ti-imeyili to fana na switsundzuxo swa tipakani, swintshuxo swa mina swa nhluvuko na swiphephana swa mahungu mayelana na Common Voice.
 email-opt-in-info-title = Joyina nxaxamelo wa poso wa Common Voice
 email-opt-in-info-sub-with-challenge = Amukela ti-imeyili to fana na switsundzuxo swa ntlhontlho na pakani, ku pfuxetiwa ka nhluvuko, na swiphephana swa mahungu mayelana na Common Voice.
@@ -34,6 +35,8 @@ hyw = Xiarmenia xa le Vupela-dyambu
 kmr = Xikurd xa Kurmanji
 knn = Xikonkani (Xidevanagari) .
 lb = Xiluxembourg
+lg = Xiluganda
+lt = Xilithuania
 mai = Maithili
 mdf = Moksha
 mg = Ximalagaxi
@@ -379,6 +382,7 @@ how-does-it-work-text = Hi le ku kumeni ka ntshungu eka dataset ya xihlovo lexi 
 ## How does it work section
 
 about-localization-title = Ku Endliwa ka Website ya Ndhawu
+about-localization-subtitle = Tsalwa ra webusayiti ri hundzuluxeriwa hi ririmi rero.
 about-sentence-collection-title = Nhlengeleto wa Swivulwa
 about-sentence-collection-subtitle = Swivulwa swi hlengeletiwa leswaku vanhu va swi hlayela ehenhla.
 about-new-lang-title = Ku Simekiwa Ka Ririmi Lerintshwa
@@ -391,6 +395,8 @@ about-dataset-release-subtitle = Hi humesa dataset endzhaku ka tin’hweti tin�
 about-subscribe-text = Xana u lava ku tshama u ri eku hlanganiseni na Common Voice?
 about-speak = Vulavula
 about-speak-text = Va hoxa xandla va rhekhoda swiphemu swa rito hi ku hlaya ebangi ya swivulwa leswi nyikeriweke.
+about-listen-queue = Yingisela-Fola
+about-listen-queue-text = Swiphemu swa rito swi nghenisiwa eka layini yo rhumela leyi swi lunghiselelaka ku yingisela.
 about-is-it-valid = Xana xiphemu xa ritu i lexi twalaka?
 about-is-it-valid-text = Xiphemu xa rito xi funghiwa "xa tirha" loko mutirhisi a xi nyika vhoti ya Ina.
 about-yes-votes = ≥ 2 Ina tivhoti
@@ -502,6 +508,8 @@ about-playbook-how-project-governance-content-7 = <governanceLink>Hlaya swo tala
 
 ## Glossary
 
+localization = Ku vekiwa ka ndhawu
+localization-explanation = Leri i endlelo ra hina ro hundzuluxela na ku cinca swilo swa hina eka tindhawu to tala (tindzimi).
 sentence-collection = Nhlengeleto wa Swivulwa
 sentence-collection-explanation = Ku hlengeleta swivulwa eka ndhawu ya mani na mani, kumbe ku tsala swintshwa eka ndhawu ya mani na mani.
 hours-recorded-explanation = Nhlayo ya tiawara to rhekhoda rito hi yi hlengelete ku fikela sweswi.
@@ -652,6 +660,7 @@ language-total-progress = Hinkwaswo
 language-search-input =
     .placeholder = Secha
 language-speakers = Swivulavuri
+localized = Ku vekiwa ka ndhawu
 sentences = Swivulwa
 language-validation-progress = Nhluvuko wa ku Tiyisisa
 
@@ -671,6 +680,7 @@ contribute-more =
        *[other] U lunghekele ku endla { $count } swo tala?
     }
 record-cta = Sungula ku rhekhoda
+record-platform-not-supported-desktop = Eka switirhisiwa swa khompyuta u nga hoxa xandla hi ku dawuniloda...
 record-must-allow-microphone = U fanele u pfumelela ku nghena eka microphone.
 record-no-mic-found = Ku hava xikurisa-marito lexi kumiweke.
 record-error-too-short = Ku rhekhodiwa a ku ri komile swinene.
@@ -801,6 +811,7 @@ share-n-daily-contribution-goal = Avelana hi { $count } Xiphemu xa Pakani ya Sik
 # $type is one of share-goal-type-*
 share-n-weekly-contribution-goal = Avelana hi { $count } Xiphemu xa Pakani ya Vhiki na Vhiki ya { $type } .
 share-goal-type-speak = Ku vulavula
+share-goal-type-listen = Yingisela
 share-goal-type-both = Ku Vulavula Ni Ku Yingisela
 weekly-goal-created = Pakani ya wena ya vhiki na vhiki yi tumbuluxiwile
 daily-goal-created = Pakani ya wena ya siku na siku yi tumbuluxiwile
