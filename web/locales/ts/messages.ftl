@@ -23,16 +23,33 @@ error-something-went-wrong = Hi rivaleli, ku ni nchumu lowu nga famba kahle
 ## Languages
 
 arn = Mapudungun
+cak = Kaqchikel
 ckb = Xikurd xa le xikarhi
 cnh = Hakha Chin
 cy = Xi Wales
 dsb = Xisorbian, xa le Hansi
 es = Xipaniya
 fa = Xiperesiya
+ga-IE = Xi-Irish
 gom = Xikonkani xa le Goan
+hi = Xihindi
 hsb = Xisorbian, xa le Henhla
+hu = Xihungary
 hyw = Xiarmenia xa le Vupela-dyambu
+ia = Interlingua
+id = Xiindonesia
+ie = Interlingue
+ig = Xiigbo
+is = XiIceland
+it = Xintariyana
+izh = Izhorian
+ja = Xijapani
+kaa = Karakalpak
+kab = Kabyle
+kbd = Xikabardian
 ki = Kikuyu
+kk = Xikazakhstan
+km = Khmer
 kmr = Xikurd xa Kurmanji
 knn = Xikonkani (Xidevanagari) .
 ko = Xikorea
@@ -73,6 +90,7 @@ pap-AW = Papiamento (Xihlala xa le Aruba)
 pl = Xipolish
 ps = Xipashto
 pt = Xiputukezi
+quc = K'iche'
 quy = Xiquechua xa Chanka
 rm-sursilv = Romansh Sursilvan
 rm-vallader = Xirhoma xa Vallader
@@ -173,10 +191,12 @@ wall-of-text-second =
 show-wall-of-text = Hlaya Swin’wana
 help-us-title = Hi pfuni ku tiyisisa swivulwa!
 help-us-explain = Cinekela eka tlanga, yingisela & hi byele: xana va vulavule kahle xivulwa lexi nga laha hansi?
+no-clips-to-validate = Ku vonaka onge a ku na swilo leswi u nga swi yingisela eka ririmi leri. Hi pfune leswaku hi siva mpfhuka hi ku rekhoda yin’wana sweswi.
 vote-yes = Ina
 vote-no = E-e
 toggle-play-tooltip = Cinekela { shortcut-play-toggle } ku cinca movha wo tlanga
 speak-subtitle = Nyikela hi rito ra wena
+speak-paragraph = Ku rhekhoda rito i xiphemu xa nkoka xa ku aka rungula ra hina leri pfulekeke; van’wana va nga vula leswaku na yona i xiphemu xo tsakisa.
 speak-goal-text = Swiphemu leswi rhekhodiweke
 listen-subtitle = Hi pfune ku tiyisisa ma ritu
 listen-paragraph = Ku tiyisisa swiphemu leswi nyikeriweke i swa nkoka hi ndlela leyi fanaka eka vurhumiwa bya Common Voice. Yingisela u hi pfuna ku tumbuluxa datha ya rito ya xihlovo lexi pfulekeke xa ku xixima.
@@ -204,6 +224,7 @@ x-years-short =
         [one] $count ->
        *[other] { $count }y
     }
+help-make-dataset = Hi pfuneni ku aka tidathaseti ya xiyimo xa le henhla, leyi pfulekeke erivaleni.
 sign-up-account = Tsarisa ku kuma akhawunti
 email-subscription-title = tsarisa ku kuma swintshuxo swa email
 email-subscription-title-new = Tsarisa eka swiphephana swa mahungu swa Common Voice, switsundzuxo swa tipakani na ku pfuxetiwa ka nhluvuko.
@@ -679,6 +700,7 @@ language-search-input =
 language-speakers = Swivulavuri
 localized = Ku vekiwa ka ndhawu
 sentences = Swivulwa
+language-validation-hours = Tiawara
 language-validation-progress = Nhluvuko wa ku Tiyisisa
 
 ## Contribution
@@ -845,6 +867,7 @@ share-goal = Avelana hi pakani ya mina
 ## Profile Delete
 
 delete-q = Xana u nga tsakela ku kombela leswaku swi rhekhodo swa wena swa rito na swona swi susiwa, kumbe u tsakela ku swi hlayisa eka dataset ya Common Voice?
+keep = Hlayisa
 remove = Susa
 keep-info = Swi rhekhodo swa wena swa rito leswi nga tiviwiki swi ta tshama eka dataset ya Common Voice. Loko u susa phurofayili ya wena a wu nge he swi koti ku rhumela xikombelo xo susa tirhekhodo ta wena eka dataset
 remove-info = Hi ta kambisisa xikombelo xa wena xo susa tirhekhodo ta wena ta rito eka dataset. Loko xikombelo xa wena xi amukeriwile, hi ta tihlanganisa na lava va nga kopa dataset hi kombela leswaku va susa swi rhekhodo swa wena swa rito na swona.
@@ -976,6 +999,8 @@ see-less = <chevron></chevron>Vona switsongo
 
 ## HEADER/FOOTER
 
+sc-header-home = Kaya
+sc-header-how-to = Ndlela-yo
 sc-header-review = Hlela hi vuntshwa
 sc-header-rejected = Swivulwa leswi ariweke
 sc-header-my = Swivulwa swa Mina
