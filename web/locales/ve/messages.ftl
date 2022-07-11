@@ -16,6 +16,7 @@
 
 ## Home Page
 
+wall-of-text-start = Ipfi ndi ḽa vhukuma, ipfi ndi muthu. Ndi ngazwo ri tshi takadzwa nga u ita zwishumiswa zwa thekhinolodzhi zwi shumisaho ipfi kha mitshini yashu. Fhedzi u itela uri ri ite dzi sisiṱemu dza maipfi, hu ṱoḓea data ya maipfi manzhi vhukuma.
 wall-of-text-more-mobile =
     Data nnzhi i shumiswaho nga khamphani khulwane, vhathu vhanzhi a vha koni u i swikelela. Ri vhona u nga
      zwi khou ita uri hu si vhe na bvela phanḓa. Ndi ngazwo ro thoma thandela ya Common Voice, thandela ine ya ḓo thusa uri u ḓivha ipfi
@@ -24,6 +25,9 @@ wall-of-text-more-desktop =
     Zwino ni nga nikela nga ipfi ḽaṋu u itela uri thusa uri ri vhe na dataset ya nnyi na nnyi ine muṅwe na muṅwe a nga kona u i shumisa 
     uri hu konwe u itiwa dzi app dza zwithu zwiswa zwa thekhinolodzi na dzi web. Vhalani mutaladzi u itela uri ni kone u thusa mutshini uri u gude nḓila ine vhathu vha vhukuma vha amba ngayo. Ṱolani mushumo wa vhaṅwe
     vhe vha shela mulenzhe uri mushumo u kone u vha wa khwine-khwine. Zwo leluwa!
+wall-of-text-first =
+    Ipfi ndi ḽa vhukuma, ipfi ndi muthu. Ndi ngazwo ri tshi takalela u ita zwishumiswa zwa thekhinoḽodzhi zwi shumisaho ipfi
+     kha mitshini yashu. Fhedzi u ita sisiṱemu dza ipfi, vhabveledzi vha ṱoḓa data ya maipfi manzhi vhukuma.
 wall-of-text-second = Data nnzhi dzi shumiswaho nga khamphani khulwane, vhathu vhanzhi a vha koni u dzi swikelela. Ri vhona u nga zwi khou ita uri hu si vhe na bvela phanḓa. Ndi ngazwo ro thoma thandela ya Common Voice, thandela ine ya ḓo thusa uri u ḓivha ipfi zwi vhe zwa vhathu vhoṱhe na uri vha kone u zwi swikela.
 
 ## Account Benefits
@@ -96,6 +100,7 @@ about-clip-graveyard-text =
 ## What is a language
 
 about-playbook-what-is-language-content-1 = Hu na nḓila nnzhi dza u humbula nga luambo. Musi hu tshi itelwa zwishumiswa zwa u ḓivha ipfi, Common Voice i eletshedza uri ri livhise ṱhogomelo kha ‘u pfana ha vhathu vha nyambo dzi sa fani’, kana uri ‘naa vha ambi vha holwu luambo vha nga kona u pfana zwavhuḓi arali vha lingedza u ita ngauralo?’
+about-playbook-what-is-language-content-3 = Dziṅwe nyambo dzi na phambano khulu kha girama dzadzo, na kha maipfi na kubulele. Ndi ngazwo ri tshi khou <ctaLink>ḓisa dzi ‘Variants’ dza luambo</ctaLink> nga 2022. Zwenezwi zwi thusa vhadzulapo uri vha kone u ḓivha nyambo dzavho kha dataset khulu i re hone.
 
 ## How do I add a language
 
@@ -122,6 +127,7 @@ about-playbook-how-add-sentences-content-2 = Mitaladzi i tea u ṱolisiswa nahon
 
 about-playbook-how-grow-language-content-3 = Ni nga ita na mutambo wa u thusa vhathu uri vha shele mulenzhe. Zwenezwi zwo leluwa. Ni nga zwi ita muyani nga zwishumiswa zwa videoconferentsi, kana nga ho livhaho ni tshi khou vhonana na vhatu arali zwo tsireledzea. <eventTemplate>Ni vhone themphuḽeithi yashu na zwithu zwa uri hu vhe na mutambo</eventTemplate>.
 about-playbook-how-grow-language-content-5 = Ni nga shumisa social media platforms u itela u ḓivhadza vhaṅwe nga ha zwenezwi. Vha rumeleni milaedze i ṱalutshedzaho uri ndi ngani zwi zwa ndeme, nahone ni kwamane na vhaṅwe uri ni kone u amba navho nga ha pfanelo dza dzi nyambo, voice AI, kana tshiṱalula tshi re hone kha zwishumiswa zwa thekhinolodzhi. Vhonani nyeletshedzo dzo engedzeaho nga ha <campaignLink>u ita dzi campaign, na u vhona mafhungo ane na nga dovha na a shumisa </campaignLink>.
+about-playbook-how-grow-language-content-7 = Wanani vhaṅwe vha re na ndavha. Vha nga vha dzi yunivesithi, zwikolo zwi funzaho luambo, zwigwada zwa vha ambeli kana zwigwada zwa vhorasantsi. Ambani navho nahone ni vha ṱalutshedze zwavhuḓi nḓila ine vha nga ni thusa ngayo na uri ndi ngani. <outreachTemplates>Vhonani themphuḽethi yashu ya email ya nḓila ine ra swikelela vhathu </outreachTemplates>.
 
 ## How to validate
 
@@ -133,9 +139,11 @@ about-playbook-how-access-dataset-content-1 = Ni nga ya kha <datasetsPage>siaṱ
 
 ## How are decisions made
 
+about-playbook-how-project-governance-content-1 = Common Voice ya Mozilla i khou itwa u ri i vhe hone nga vhadzulapo vho fhambananaho vha vhaḓisi vha tshanduko, vhaḓivhi vha luambo, data scientists, magudedzi na dziinzhiniara dza dzi software vha bvaho shangoni nga vhuphara. Yeneyi thandela i khou ṱhogomelwa nga Foundation ya Mozilla.
 
 ## Glossary
 
+hours-validated-explanation = U vhaliwa ha awara dza maipfi o rekhodiwaho o no khwaṱhisedzwaho nga vhathu 2 kha 3 ngauri vha khethe uri “Ee”. Zwenezwi zwi sumbedza uri thandela i ngafhi kha tshipikwa tsha awara dza 10k.
 
 ## Error pages
 
@@ -157,6 +165,7 @@ dataset-description-hours =
     Tshiteṅwa tshiṅwe na tshiṅwe tsha dataset tshi na MP3 yo khetheaho na mafhungo a tshimbidzanaho natsho. Vhunzhi ha <b>{ $total }</b> dzi awara dzo rekhodiwa kha dzi dataset dzi katela metadata ine ya amba nga ha zwidodombedzwa zwa muthu zwi ngaho miṅwaha, mbeu na kuambele zwine zwa nga thusa kha u gudisa zwavhuḓi tshishumiswa tsha u pfa ipfi.
     
     Dataset i na <b>{ $valid }</b> awara dzo teaho <b>{ $languages }</b> luambo, fhedzi ri dzula ri tshi khou panga maipfi o engedzeaho na dzinyambo. Sedzani <languagesLink>siaṱari ḽa Nyambo dzashu</languagesLink> u itela khumbelo ya luambo kana ni thome u shela mulenzhe.
+resource-deepspeech-info = Tshishumiswa tsha Mozilla tsha u ḓivha ipfi tshine tsha nga shumiswa nga nnyi na nnyi tsha Deep Speech tshi nga shumiswa kha u ita app dzi ḓivhaho ipfi. Vhalani samari yashu <githubLink>Github</githubLink> kana ni dzhenelele kha <discourseLink>DeepSpeech Discourse</discourseLink> uri ni gude nga ha uri ni nga thoma hani.
 
 ## Download Modal
 
@@ -256,6 +265,7 @@ sc-howto-addsen-item-4 = Zwiga zwa u vhala. Tswayo dzo khetheaho na zwiga zwa u 
 sc-howto-addsen-item-5 = Maḽeḓere a si ho  kha luambo. Hu tea u shumiswa maḽeḓere ane a vha hone kha luambo lune lwa khou ambiwa. Sa tsumbo, ḽeḓere heḽi “ж” ndi ḽine ḽa wanala kha kuṅwalele luambo lwa Tshirashia fhedzi a ḽiho kha Luisimane nahone ndi ngazwo ḽi songo tea u vha hone kha source text ya Luisimane naho i ifhio.
 sc-howto-addsen-post-1 = Ri takalela mitaladzi yo itwaho nga lwa nzulele/nga nḓila ya u ambedzana. Naho fonotiki yo angalala nahone maipfi o fhambananaho e a ndeme kha mutaladzi, ri khou lingedza u ita uri mitaladzi yo rekhodiwaho i vhe i takadzaho nga hune zwa ḓo konadzea ngaho. Ndi ngazwo zwi tshi ḓo vha zwavhuḓi arali na lingedza u ita uri mitaladzi yaṋu i itwe nga lwa nzulele/nḓila ya u ambedzana.
 sc-howto-cite-pre-1 = Ndi zwa ndeme uri ni sumbedze referentsi ya he na wana hone lasentsi ya vhathu vhoṱhe u itela uri ni iledze u pfi no tswa mushumo wa vhaṅwe na u tendela uri vhaṅwe vha kone u ḓivha he na wana hone zwithu <copyrightIssuesLink>thaidzo dza copyright</copyrightIssuesLink>. Hedzi ndi dziṅwe nḓila dza u sumbedza uri mushumo no u wana ngafhi.
+sc-howto-review-criteria-5 = Arali mutaladzi u sa swikeleli ṱhoḓea dzi re afho nṱha, puṱedzani gunubu ya "Hana". Arali ni si na vhungoho ha uri mutaladzi a si wone, ni nga u pfukha na pfukela kha u no khou tevhela..
 sc-howto-findpd-text-2 = Ni humbule uri ri ṱoḓa tendelo uri ri anḓadze yeneyo mitaladzi, ni dzule ni tshi ita vhungoho ha uri zwo ṅwalwaho ndi zwa <wikipediaLink>fhethu ha tshitshavha tshoṱhe</wikipediaLink>. Arali hu songo bvelwa khagala, vhudzisani muṋe wazwo arali a tshi ṱoḓa uri zwe a shela ngazwo mulenzhe zwi anḓadzwe Fhethu ha Tshitshavha Tshoṱhe. Arali vha tshi zwi takalela, vha thuseni uri vha vhale <cc0WaiverLink>Thendelo ya Vhashelaho mulenzhe</cc0WaiverLink>. Arali vha sa ṱoḓi u nikela nga zwo ṅwaliwaho, a no ngo tendelwa u shumisa zwo ṅwaliwaho.
 sc-howto-findpd-partner-1 = Hu na madzangano manzhi a vhathu ane a nga ṱoḓa u shela mulenzhe nahone vha nga vha vho no ḓi vha na mafhungo ane vha ṱoḓa u nikela ngao sa ane a nga shumiswa nga vhathu vhoṱhe. Iyani dziyunivesithi dza vhuponi ha haṋu, Mivhusoni na kha madzangano a u thusa vhathu vhoṱhe ni ambe navho nga ha yeneyi thandela nahone ni humbele thuso yavho.
 sc-howto-findpd-partner-2 = Vhaḓivhi vha luambo na vhone vha nga thusa, i ya na kha universithi dza vhuponi haṋu dza vhaḓivhi vha luambo (vhadededzi na vhagudiswa) nahone ni vhone arali vha tshi nga kona u thusa nga u kuvhanganya mitaladzi i re na mibvumo yo fhambananaho nga luambo lwaṋu.
