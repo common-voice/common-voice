@@ -14,14 +14,16 @@ email-opt-in-info-sub-with-challenge =
     Fumana ama-email akhuluma ngephaliswano, iinkhumbuzo zemigomo,
     ituthuko yamva nje neendaba zeCommon Voice.
 email-opt-in-privacy-v2 = Ngokuthi ukhethe ukufaka ama-emails kutjho ukuthi uyavuma bona iMozilla izokusebenza ngokwaziswokho ngendlela esele ihlathululwe kuMozilla’s Privacy Policy<privacyLink>Privacy Policy</privacyLink>.
-indicates-required = Isitsonga
+indicates-required = Iindawana ezitshwaywe nge (*) ziyatlhogeka.
 not-available-abbreviation = N/A
-banner-error-slow-1 = IsiKabyle
+banner-error-slow-1 =
+    Usilibalele iCommon Voice ikhamba kabuthaka. Siyathokoza 
+    ngokuba nekareko.
 banner-error-slow-2 =
     Sinomjeje omude khulu begodu sisafunisisa
     ukuthi kubayini.
-banner-error-slow-link = Ubujamo bekhasi
-error-something-went-wrong = Usilibalele kunento engakhambi kuhle
+banner-error-slow-link = Ubujamo Bekhasi
+error-something-went-wrong = Usilibalele, kunento engakhambi kuhle
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
