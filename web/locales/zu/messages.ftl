@@ -3,6 +3,8 @@
 yes-receive-emails = Yebo, ngithumele ama-imeyili. Ngingathanda ukuhlala nginolwazi nge-Common Voice Project.
 privacy-info = Sithembisa ukuphatha imininingwane yakho ngokucophelela. Funda kabanzi kwi<privacyLink>Isaziso Sobumfihlo</privacyLink>.
 return-to-cv = Buyela kwiCommon Voice
+email-input =
+    .label = I-imeyli
 submit-form-action = Ukuhambisa
 loading = Iyaloda...
 email-opt-in-info = Ngingathanda ukuthola ama-imeyili afana nezikhumbuzi zemigomo, izibuyekezo zami zokuqhubeka nezincwadi zezindaba ezimayelana ne-Common Voice.
@@ -28,7 +30,11 @@ cnh = Hakha Chin
 cy = Welsh
 de = German
 dsb = Sorbian, Lower
+dv = Dhivehi
+dyu = Dioula
 el = Greek
+en = English
+eo = Esperanto
 es = Spanish
 et = Estonian
 fa = Persian
@@ -86,11 +92,13 @@ mr = Marathi
 mrj = Hill Mari
 ms = Malay
 mt = Maltese
+myv = Erzya
 nan-tw = Isi-Taiwanese (Minnan)
 nb-NO = Norwegian Bokmål
 nd = IsiNdebele (North)
 ne-NP = Nepali
 nia = Nias
+nl = Dutch
 nn-NO = Norwegian Nynorsk
 nr = IsiNdebele (South)
 nso = Northern Sotho
@@ -271,6 +279,7 @@ shortcut-vote-no = n
 shortcut-record-toggle = r
 shortcut-record-toggle-label = Qopha/Yeka
 shortcut-rerecord-toggle-label = Qopha isiqeshana kabusha
+shortcut-discard-ongoing-recording = ESC
 shortcut-discard-ongoing-recording-label = Lahla ukurekhoda okuqhubekayo
 shortcut-submit = Buyela
 shortcut-submit-label = Thumela iziqeshana
@@ -289,6 +298,7 @@ status-hours =
 # Variables:
 # $goal - number of hours representing the next goal
 status-goal = Inhloso elandelayo: { $goal }
+english = English
 
 ## ProfileForm
 
@@ -333,6 +343,7 @@ accept-privacy = Ngilungile uma uphatha lolu lwazi njengoba uchaza kokuthi <priv
 accept-privacy-title = Inqubomgomo yobumfihlo
 login-identity = Umazisi wokungena
 login-signup = Ngena / Bhalisa
+edit = Hlela
 email-subscriptions = Okubhaliselwe Nge-imeyili
 download-profile = Loda Idatha Yami
 contribution-experience = Umuzwa Wokufaka Isandla
@@ -546,11 +557,13 @@ sentence-collection-explanation = Ukuqoqa imisho esizindeni somphakathi, noma uk
 hours-recorded-explanation = Isibalo samahora okuqoshwa kwezwi esiwaqoqile kuze kube manje.
 sst = Inkulumo-kuya-umbhalo
 sst-explanation = Ubuchwepheshe beSpeech-to-text (STT) buguqula idatha yezwi ibe umbhalo.
+de-identified = Susa ukubonakala
 
 ## Error pages
 
 error-title-404 = Asikwazanga ukukutholela lelo khasi
 error-title-503 = Sibhekene nesikhathi sokungasebenzi esingalindelekile
+error-code = Error { $code }
 
 ## Data
 
@@ -568,6 +581,7 @@ data-other-download = Downloda Idatha
 data-bundle-button = Loda  i-Dataset Bundle
 data-bundle-description = Idatha yeCommon Voice kanye nawo wonke amanye amadathasethi ezwi ngenhla.
 release-version = Inguqulo
+dataset-date = Usuku
 license = Ilayisensi: <licenseLink>{ $license }</licenseLink>
 license-mixed = Kuxutshiwe
 data-download-singleword-title = Loda Ingxenye Yethagethi Yegama Elilodwa
@@ -607,6 +621,7 @@ confirm-size = Ulungele ukuqalisa ukuloda kwe-<b>{ $size }</b>
 size-gigabyte = GB
 size-megabyte = MB
 confirm-no-identify = <b>Uyavuma</b> ukungazami ukucacisa ukuthi ungubani izikhulumi kudathasethi yeCommon Voice
+download-language = Downloda { $language }
 validated-hours = Amahora Aqinisekisiwe
 recorded-hours = Amahora Aqoshiwe
 whats-inside = Yini engaphakathi kwedathasethi yeCommon Voice?
@@ -633,6 +648,7 @@ missing-language = Awuboni ulimi lwakho luboniswa Kusethi Yedatha? Ukucela ulimi
 go-languages-page = Iya Ekhasini Lezilimi
 ready-to-validate = Ulungele ukusiza ukuqinisekisa imisho?
 more = Okwengeziwe
+download = Downloda
 dataset-version = Inguqulo
 
 ## Download Modal
@@ -840,6 +856,8 @@ goal-type = Hlobo luni lomgomo ofuna ukulakha?
 both-speak-and-listen-long = Kokubili (Khuluma futhi Ulalele)
 daily-goal = Inhloso Yansuku Zonke
 weekly-goal = Injongo Yamaviki Onke
+easy-difficulty = Kulula
+difficult-difficulty = Kunzima
 pro-difficulty = Chwephese
 lose-goal-progress-warning = Ngokushintsha injongo yakho, ungase ulahlekelwe inqubekelaphambili okukhona.
 want-to-continue = Ufuna ukuqhubeka?
@@ -924,6 +942,7 @@ download-start = Loda idatha yephrofayela
 download-request = Cela okuqoshiwe
 download-requests = Izicelo zokuloda okuqoshiwe okwedlule
 download-requests-info = Uma ucela okuqoshiwe kwakho, sikuhlanganisa kube ifayela le-ZIP elilodwa noma amaningi. Nazi izicelo zakho ezedlule:
+download-request-button = Downloda
 download-request-description = { $clipCount } iziqeshana zezwi, isamba sikasayizi wengobo yomlando { $size }. Iphelelwa yisikhathi { $expires }.
 download-request-archive-single = Ifayela le-ZIP elilodwa eliqukethe
 download-request-archive-multiple = Hlukanisa kube { $archiveCount } amafayela e-ZIP aqukethe
@@ -1040,6 +1059,7 @@ sc-header-rejected = Imisho Enqatshiwe
 sc-header-my = Imisho Yami
 sc-header-statistics = Izibalo
 sc-header-profile = Iphrofayela
+sc-footer-discourse = Inkulumo
 sc-footer-report-bugs = Bika Iziphazamisi
 sc-footer-translate = Humusha leli khasi
 sc-footer-report-copyright = Bika izinkinga zelungelo lobunikazi
