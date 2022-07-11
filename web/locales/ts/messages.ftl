@@ -21,6 +21,7 @@ error-something-went-wrong = Hi rivaleli, ku ni nchumu lowu nga famba kahle
 
 ckb = Xikurd xa le xikarhi
 cnh = Hakha Chin
+cy = Xi Wales
 dsb = Xisorbian, xa le Hansi
 gom = Xikonkani xa le Goan
 hsb = Xisorbian, xa le Henhla
@@ -44,9 +45,19 @@ rm-vallader = Xirhoma xa Vallader
 sat = Santali (Ol Chiki)
 st = Xisotho xa le Dzongeni
 tok = Toki Pona
+ts = Xitsonga
+ug = Xi-Uyghur
+uz = Xiuzbek
+vec = Xivenetia
+vi = Xivietnam
+vot = Votic
+xh = Xixhosa
+yi = Xiyidixi
+yo = Xiyoruba
 zh-CN = Xichayina (Chayina)
 zh-HK = Xichayina (Hong Kong)
 zh-TW = Xichayina (Taiwan)
+zu = Xizulu
 
 # [/]
 
@@ -83,6 +94,8 @@ wall-of-text-second =
     naswona yi fikeleleka eka un’wana ni un’wana.
 show-wall-of-text = Hlaya Swin’wana
 help-us-title = Hi pfuni ku tiyisisa swivulwa!
+vote-yes = Ina
+vote-no = E-e
 toggle-play-tooltip = Cinekela { shortcut-play-toggle } ku cinca movha wo tlanga
 speak-subtitle = Nyikela hi rito ra wena
 speak-goal-text = Swiphemu leswi rhekhodiweke
@@ -113,6 +126,7 @@ x-years-short =
     }
 sign-up-account = Tsarisa ku kuma akhawunti
 email-subscription-title = tsarisa ku kuma swintshuxo swa email
+email-subscription-title-new = Tsarisa eka swiphephana swa mahungu swa Common Voice, switsundzuxo swa tipakani na ku pfuxetiwa ka nhluvuko.
 
 ## Account Benefits
 
@@ -130,9 +144,21 @@ demographic-deidentified-clarity-2 = Data ya nhlayo ya vaaki leyi rhumeriweke hi
 
 ## Listen Shortcuts
 
+# Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-play-toggle = p
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = y
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = n
 
 ## Speak Shortcuts
 
+# Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-record-toggle = r
 shortcut-rerecord-toggle-label = Rhekhoda xiphemu nakambe
 shortcut-discard-ongoing-recording-label = Lahla ku rhekhodiwa loku yaka emahlweni
 shortcut-submit-label = Rhumela swiphemuphemu
@@ -161,6 +187,7 @@ profile-form-custom-accent-help-text =
 profile-form-custom-accent-placeholder-2 = Sungula ku thayipa ku hlamusela ndlela leyi u vulavulaka ha yona
 leaderboard-visibility =
     .label = Ku vonakala ka bodo ya Murhangeri
+visible = Swi vonaka
 native-language =
     .label = Ririmi ra Rixaka
 profile-form-add-accent = Engetela xitwari lexintshwa xa ntolovelo "{ $inputValue }".
@@ -394,6 +421,7 @@ error-content-503 = Sayiti yi ta tlhela yi pfuxetiwa hi ku hatlisa hilaha swi ng
 ## Data
 
 data-download-button = Downloda Rungula ra Common Voice
+data-download-yes = Ina
 data-download-license = Layisense: <licenseLink>CC-0</licenseLink>
 data-explanatory-text = Hi tshemba leswaku tidathaseti ta rito letikulu na leti kumekaka erivaleni ti kurisa vutumbuluxi na mphikizano wa mabindzu lowu hanyeke kahle eka thekinoloji ya mbulavulo leyi simekiweke eka dyondzo ya michini. Leri i matshalatshala ya misava hinkwayo naswona hi rhamba un’wana ni un’wana ku hlanganyela. Xikongomelo xa hina i ku pfuna theknoloji ya mbulavulo ku va yi katsa hinkwavo, ku kombisa ku hambana ka marito ku suka emisaveni hinkwayo.
 data-get-started = <speechBlogLink>Sungula hi ku lemuka mbulavulo</speechBlogLink>
@@ -401,6 +429,7 @@ data-other-title = Tidathaseti tin’wana ta rito...
 data-other-goto = Yana eka { $name }
 data-other-download = Dhata yo downloada
 data-bundle-button = Downloada Xiyenge xa ​​Dataset
+release-version = Nkandziyiso
 data-download-singleword-title = Downloda Xiyenge xa ​​Rito rin’we leri kongomisiweke
 terms-agree = Ndza pfumela
 terms-disagree = A ndzi pfumeli
@@ -431,6 +460,7 @@ dataset-description-hours =
     Nyingiso wun’wana na wun’wana eka dataset wu na MP3 yo hlawuleka na fayili ya tsalwa leyi fambelanaka na yona. Tiawara to tala leti rhekhodiweke ta <b>{ $total }</b> eka dataset ti tlhela ti katsa rungula yo kari ya nhlayo ya vaaki ku fana na malembe, rimbewu, na mavalavulelo leswi nga pfunaka ku letela ku pakanisa ka tinjhini to lemuka mbulavulo.
     
     Sweswi dataset yi na <b>{ $valid }</b> tiawara leti tiyisisiweke hi tindzimi ta <b>{ $languages }</b>, kambe hi tshama hi ri karhi hi engetela marito yo tala na tindzimi. Languta eka tluka ra hina ra <languagesLink>Tluka ra tindzimi</languagesLink> ku kombela ririmi kutani ku sungula ku hoxa xandla.
+want-dataset-update = Xana u lava ku pfuxetiwa loko hi humesa vuhundzuluxeri lebyintshwa bya rungula ra Common Voice? Tsarisa eka phephahungu ra hina.
 get-started-speech = Sungula Hi Ku Lemuka Ku Vulavula
 other-datasets = Tidathaseti tin’wana ta Rito
 feedback-q = Xana U Ni Vuyelo?
@@ -443,6 +473,7 @@ data-other-tatoeba-description = Tatoeba i database leyikulu ya swi vulwa vuhund
 go-discourse = Famba eka Discourse
 go-languages-page = Famba eka Pheji ra ma Rimi
 ready-to-validate = Xana u lunghekele ku pfuneta ku tiyisisa swivulwa?
+dataset-version = Nkandziyiso
 
 ## Download Modal
 
@@ -617,6 +648,7 @@ n-clips-pluralized =
     }
 help-share-goal = Hi pfuneni ku kuma marito yo tala, avelana pakani ya wena
 confirm-goal = Tiyisisa Pakani
+goal-interval-weekly = Vhiki na vhiki
 # $type is one of share-goal-type-*
 share-n-daily-contribution-goal = Avelana hi { $count } Xiphemu xa Pakani ya Siku na Siku ya { $type } .
 # $type is one of share-goal-type-*
@@ -732,6 +764,7 @@ contribution-background-noise-example-3-fixed-title = <strong>[Crackle]</strong>
 contribution-background-voices-title = Marito ya le ndzhaku
 contribution-background-voices-description = Mpfumawulo wa le ndzhaku lowu rhuleke wu lulamile, kambe a hi lavi marito lama engetelekeke lama nga endlaka leswaku algorithm ya muchini yi vona marito lama nga riki kona eka tsalwa leri tsariweke. Loko u kota ku twa marito yo hambana handle ka ya tsalwa, xiphemu xi fanele ku ariwa. Hi ntolovelo leswi swi humelela laha TV yi tshikiweke yi pfuriwile, kumbe laha ku nga na mbulavurisano lowu yaka ekusuhi.
 contribution-background-voices-example-1-explanation = Xana wa ta? <strong>[called by another]</strong>
+contribution-volume-title = Vholumu
 contribution-volume-description = Ku ta va na ku hambana ka ntumbuluko eka vholumo exikarhi ka vahlayi. Ala ntsena loko vholumo yi ri ehenhla swinene lerova rhekhodo ya vona i tshovekaka, kumbe (hi ntolovelo) loko yi ri ehansi swinene lerova u nga swi koti ku twa leswi vuriwaka handle ko kombetela eka tsalwa leri tsariweke.
 contribution-reader-effects-title = Vuyelo Bya Muhlayi
 contribution-reader-effects-description = Swifaniso swo tala leswi rhekhodiweke i swa vanhu lava vulavulaka hi rito ra vona ra ntumbuluko. U nga amukela rhekhodo ya nkarhi na nkarhi leyi nga riki yo toloveleka leyi huwelelaka, yi hleveteriwa, kumbe leyi nga erivaleni leswaku yi nyikeriwa hi rito ro ‘hlamarisa’. Hi kombela u ala swilo leswi rhekhodiweke ni leswi tirhisaka rito leri endliweke hi khompyuta.
@@ -827,6 +860,7 @@ sc-submit-add-sentences = Engetela <wikipediaLink>ndhawu ya mani na mani</wikipe
 sc-submit-ph-one-per-line =
     .placeholder = Xivulwa xin’we hi ntila
 sc-submit-from-where = Xana swivulwa leswi swa <wikipediaLink>ndhawu ya mani na mani</wikipediaLink> swi huma kwihi?
+sc-submit-filtered = Swivulwa leswi sefiweke hikwalaho ka swilaveko leswi tsandzekaka (hi kombela u rhumela tivhidiyo leti nga cinciki tanihi swivulwa leswintshwa):
 sc-submit-guidelines = Hi kombela u languta <howToLink>swiletelo</howToLink>.
 
 ## ADD LANGUAGE
