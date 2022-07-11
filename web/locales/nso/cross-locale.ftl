@@ -1,6 +1,7 @@
 ## Languages
 
 contribute = Thuša
+get-involved-button = Akaretša
 get-involved-title = Neela go { $lang }
 get-involved-email =
     .label = Lenaneo la poso

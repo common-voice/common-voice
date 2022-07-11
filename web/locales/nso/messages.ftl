@@ -267,9 +267,11 @@ build-profile = Aga Profaele
 avatar = Motšeakarolo
 goals = Dipakane
 settings = Dilaolatirišo
+edit-profile = Lokiša Profaele
 profile-close = Tswalela
 why-demographic-explanation-2 = Datha ya modiriši ye o sa tsebjego bjalo ka mengwaga, le bong bja motho, le mmolelo ao a thuša go go kaonefatša datha ya odio e šomišago go eteletša nepagatšo ya di-entšene a tlhathollo ya mantšu. Leina la gago la mošomiši le e-meile di ka se itswalanye le datha yeo e rometšego, gomme o ka kgetha gore na leina la gago la mošomiši le phatlalatšwe goba le se tsebje.
 edit = Rulaganya
+email-subscriptions = E-meile ya Boingwadišetšo
 contribution-experience = Go fana ka Ditiragalotšweletšwa
 off = Tima
 on = Tšhuma
@@ -335,6 +337,7 @@ about-clip-graveyard-text = Setsopolwa sa Graveyard se na le dirakolo tša lent�
 about-stay-in-touch-text-1 = <emailFragment>Ngwadiša</emailFragment> go lethamong la rena la mangwalo go ithutha gore na o ka tšea karolo bjang masolong, ditiragalo le dikarolo tša moralo o kopanetšego go Common Voice.
 about-stay-in-touch-text-2 = O ka kopana le ba bangwe ba setšhaba sa polelo ya Mozilla ka go ikopanya go <discourseLink>Discourse</discourseLink> go hwetša poledišano ya ditaba, goba <matrixLink>Matrikse</matrixLink> go hwetša keletšo ya kapejana.
 about-nav-partners = Badirišani
+about-nav-get-involved = Go ba karolo
 
 ## Community Playbook Content
 ## What is a language
@@ -403,6 +406,8 @@ data-download-yes = Ee
 data-download-deny = Aowa
 data-subtitle = Re aga tatelano ya dathasete ya lentšu e bulegilego le go phatlalatšwa gore batho ka moka ba ka e berikšago go tlwaetša ditirišo tša go dumela polelo.
 data-explanatory-text = Re dumela gore dathasete tša lentšu tše dikgolo di tla hwetšagala phatlalatša di kgothaletša go tšweletša mekgwa e mefsa le tlhodišano ya kgwebo e matla go theknolotši ya go mantšu e thekgilwego ke motšhene. Se ke boiteko ba lefase ka moka gomme re mema motho yo mongwe le yo mongwe go tšea karoko. Boikemišetšo bja rena ke go thuša theknolotši le poledišano gore e tsentšhwe batho ka moka, e bonagatše mehuta e fapa-fapanego ya mantšu a tšwago lefaseng ka bophara.
+data-other-goto = Eya go { $name }
+data-other-download = Tanelouto ya Datha
 release-version = Bešene
 dataset-date = Letšatši
 license = Laesense: <licenseLink>{ $license }</licenseLink>
@@ -499,6 +504,7 @@ record-cancel = Khansela go rekhota gape
 record-stop-instruction = { $actionType }<stopIcon></stopIcon> ge o feditše.
 record-last-instruction = <recordIcon></recordIcon> Ya mafelelo!
 clips-uploaded = Ditsopolwa di Tsene
+record-abort-continue = Fetša kgatišo
 listen-last-time-instruction = <playIcon></playIcon>Ya mafelelo!
 speak-empty-state-cta = Neela ka mafoko
 
@@ -506,6 +512,7 @@ speak-empty-state-cta = Neela ka mafoko
 
 report = Pego
 report-title = Tliša pego
+report-different-language = Polelo e fapanego
 report-other-comment =
     .placeholder = Tshwayotshwayo
 success = Katlego
@@ -563,6 +570,7 @@ remove = Ntšha
 keep-info = Dipego tša gago tša lentšu tšeo di sa tsebjego di tla šala go dathasete ya Common Voice. Ka morago ga go phumola profaele ya gago o ka sa kgona go romela kgopelo ya go phumola direkhoto tša gago go dathasete.
 remove-info = Re tla hlahloba kgopelo ya gago ya go tloša direkhoto tša lentšu la gago dathaseteng. Ge e ba kgopelo ya gago e amogetšwe, re tla ikgokaganya le bao ba taonelouteng dathasete gomme re tla ba kgopela gore le bona ba phumole direkhoto tša lentšu la gago.
 why-delete-recordings = Dipego tša Common Voice di dirišwa ke barutegi, dikgwebo-potlana, le ba go fišegelwa go tseba ka mantšu go thuša go eteletša le go godiša methopo ye e hwetšagalago phatlalatša bjalo ka mehuta ya mantšu.                                                                                                                                                          Na o ka re tsebiša gore ke ka baka la eng o nyaka gore direkhoto tša gago di phumolwe?
+profile-form-delete = Phumola Profaele
 
 ## Profile Download
 
@@ -573,6 +581,7 @@ download-selected = Kgethilwego
 download-requests-info = Ge o kgopela dipego, re ya di bokanya ka gare ga faele ya ZIP e tee goba tše dintši. Mo ke dikgopelo tša gago tša nakong e fetilego.
 download-request-button = Goga go tšwa inthaneteng
 download-request-refresh-button = Mpshafatša
+download-request-modal-title = Tanelouta di-Linke
 download-request-link-single = O ka kopisa le go beya di-URL tše tobegilego go sesepetša digogwa wa gago o ratago. Di tla felelwa ke nako ka morago ga diiri tše 12, eupša o ka boela latlakaleng le go hlagiša tše di mpsha ka nako le ge e le efe.
 
 ## Landing
@@ -605,6 +614,7 @@ demo-dashboard-card-body = Bakeng sa setsopolwana se sengwe le sengwe sa lentšu
 contribution-criteria-nav = Kriteria
 contribution-criteria-page-title = Ditiragalotšeletšwa tša Kriteria
 contribution-criteria-page-description = Kwešiša gore ke eng se o swanetše go se lebelela ge o theeletša dipego gomme o thutše go dira direkhoto tša gago tša lentšu di hume!
+contribution-for-example = Ka mohlala
 contribution-misreadings-title = Di balo tše fošagetšego
 contribution-misreadings-example-8-explanation = [Mismatched content]
 contribution-varying-pronunciations-description = Eba šedi pele o gana setsopolwana ka baka la gore mmadi ga a bitša lentšu ka tsela e fošagetšego, o beile kgateletšo lefelong le fošagetšego, goba go bonagala a hlokomologile letswao la potšišo. Go na le mehuta e mentši ya go bitšwa ga mantšu e didirišwago lefaseng ka bophara, yeo mohlomongwe o se ke wa ekwa setšhabeng sa geno. Ka kgopelo nea ka moedi wa tebogo go bao ba bolelago ka tsela e fapanego le ya gago.
@@ -755,6 +765,8 @@ sc-review-form-button-approve-shortcut = Y
 sc-review-form-button-reject-shortcut = N
 # Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
 sc-review-form-button-skip-shortcut = S
+sc-review-form-button-submit =
+    .submitText = Fetša Hlahlobo
 sc-review-link = Poeletšo
 
 ## SETTINGS
