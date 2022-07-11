@@ -706,6 +706,7 @@ card-button-next = E latelang
 card-button-back = Morao
 demo-language-select-label = Sheba Dipuo
 demo-eofy-header = Phatlalatso ya Qetello ya Selemo ya 2019
+demo-eofy-sub_header = Pokello ya Lentswe, Itokisetse ho download-a
 demo-account = Ak'haonte
 
 ## Demo Account
@@ -828,6 +829,7 @@ sc-submit-guidelines = Ka kopo sheba <howToLink>ditataiso</howToLink>.
 
 sc-add-lang-could-not-add = Ha e ya kgona ho kenya puo
 sc-add-lang-sec-button = Kenya Puo
+sc-add-err-unexpected = Karabelo e neng e sa lebellwa e kgutlisitswe ho tswa ho server
 # Variables:
 #   $duplicates (Number) - Number of sentences which got rejected because they are duplicates
 sc-add-result =
