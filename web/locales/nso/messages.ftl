@@ -98,9 +98,11 @@ lv = Se-Latvian
 mai = Se-Maithili
 mdf = Se-Moksha
 mg = Se-Malagasy
+mhr = Se-Meadow Mari
 mk = Se-Macedonian
 ml = Se-Malayalam
 mn = Se-Mongolia
+mni = Se-Meetei Lon
 mos = Se-Mossi
 mr = Se-Marathi
 mrj = Se-Hill Mari
@@ -188,7 +190,8 @@ privacy = Sephiri
 terms = Mantšu
 cookies = Dikhuki
 faq = Dipotšišo tše di Botšišwago Gantši
-logout = { "" }
+link-copied = Linke e kopotšwe
+logout = Etšwa
 
 ## Home Page
 
@@ -279,6 +282,7 @@ settings = Dilaolatirišo
 edit-profile = Lokiša Profaele
 profile-close = Tswalela
 why-demographic-explanation-2 = Datha ya modiriši ye o sa tsebjego bjalo ka mengwaga, le bong bja motho, le mmolelo ao a thuša go go kaonefatša datha ya odio e šomišago go eteletša nepagatšo ya di-entšene a tlhathollo ya mantšu. Leina la gago la mošomiši le e-meile di ka se itswalanye le datha yeo e rometšego, gomme o ka kgetha gore na leina la gago la mošomiši le phatlalatšwe goba le se tsebje.
+login-identity = Tsenya Boitšhupo
 edit = Rulaganya
 email-subscriptions = E-meile ya Boingwadišetšo
 contribution-experience = Go fana ka Ditiragalotšweletšwa
@@ -294,6 +298,7 @@ remove-avatar = Tloša Motšeakarolo
 
 ## Profile - Email
 
+manage-subscriptions = Taolo ya Dipeeletšo
 add-language = Oketša polelo
 
 ## FAQ
@@ -398,6 +403,7 @@ about-playbook-how-access-dataset-content-2 = Ge e ba o nyaka didirišwa tša go
 ## How are decisions made
 
 about-playbook-how-project-governance-content-1 = Common Voice ya Mozilla gore go kgonegale e dirilwe ke setšhaba se fapa-fapanego sa bahlohleletši, ditsebi tša maleme, bo-rathutamahlale a datha, barutegi le baentšineare ya mananeo go tšwa lefaseng ka moka. Morero o tsamaiša ke Motheo wa Mozilla.
+about-playbook-how-project-governance-content-6 = Kwešišano ya boikarabelo.
 
 ## Glossary
 
@@ -414,6 +420,7 @@ error-code = Phošo { $code }
 
 data-download-yes = Ee
 data-download-deny = Aowa
+data-download-license = Laesense: <licenseLink>CC-0</licenseLink>
 data-subtitle = Re aga tatelano ya dathasete ya lentšu e bulegilego le go phatlalatšwa gore batho ka moka ba ka e berikšago go tlwaetša ditirišo tša go dumela polelo.
 data-explanatory-text = Re dumela gore dathasete tša lentšu tše dikgolo di tla hwetšagala phatlalatša di kgothaletša go tšweletša mekgwa e mefsa le tlhodišano ya kgwebo e matla go theknolotši ya go mantšu e thekgilwego ke motšhene. Se ke boiteko ba lefase ka moka gomme re mema motho yo mongwe le yo mongwe go tšea karoko. Boikemišetšo bja rena ke go thuša theknolotši le poledišano gore e tsentšhwe batho ka moka, e bonagatše mehuta e fapa-fapanego ya mantšu a tšwago lefaseng ka bophara.
 data-other-goto = Eya go { $name }
@@ -757,6 +764,7 @@ sc-lang-info-review-now = <reviewLink>Hlahloba bjale!</reviewLink>
 
 ## LOGIN
 
+sc-login-err-failed = Go tsena go ganne
 
 ## PROFILE
 
@@ -771,6 +779,7 @@ sc-criteria-item-5-2 = Ge e ba lefoko ga le fihlelele kritheriya ya ka godimo, t
 
 ## REVIEW
 
+sc-review-loading = Mafoko a tsena
 # Variables:
 #   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
 sc-review-form-source = Mothopo: { $sentenceSource }
