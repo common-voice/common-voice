@@ -247,6 +247,7 @@ benefits = Melemo
 ## What's public
 
 whats-public = Phatlalatsa ke Eng?
+email-not-public = Re ke ke ra etsa hore email ya hao e phatlalatswe.
 
 ## Speak & Listen Shortcuts
 
@@ -366,7 +367,9 @@ faq-title = Dipotso Tse Botswang Kgafetsa
 faq-what-cv-q = Common Voice ke Eng?
 faq-why-important-q = Ke hobane'ng ha e le ya bohlokwa?
 faq-how-get-q = Ebe nka fumana data ya Common Voice jwang?
+faq-why-my-lang-q = Ke hobane'ng ha puo ya ka e so kenyeletswe?
 faq-how-calc-hours-q = Common Voice e bala dihora jwang?
+faq-where-src-from-2-q = mongolo mohlodi o tswa hokae?
 faq-is-account-public-q = Na dintlha tsa ak'haonte ya ka di phatlalatsa?
 faq-what-is-cv = Common Voice ke Eng?
 faq-using-cv = Ho Sebedisa Common Voice
@@ -388,6 +391,7 @@ about-voice-contrib-subtitle = Batho ba tla mme ba nehelane ka mantswe a bona.
 about-voice-validation-title = Netefatso ya Lentswe
 about-voice-validation-subtitle = Batho ba bang ba netefatsa di-clip tseo tsa mantswe.
 about-dataset-release-title = Tokollo ya Pokello ya Data
+about-dataset-release-subtitle = Re lokolla dataset ka mor'a dikgwedi tse ding le tse ding tse 3.
 about-speak = Bua
 about-listen-queue = Mola wa ho mamela
 about-listen = Mamela
@@ -410,6 +414,7 @@ about-nav-playbook = Ithute ho nka karolo
 ## Community Playbook Content
 ## What is a language
 
+about-playbook-what-is-language = Puo ho Common Voice ke eng?
 
 ## How do I add a language
 
@@ -464,6 +469,7 @@ de-identified = E tlositsweng dintlha tsa botho
 
 ## Error pages
 
+error-title-404 = Ha rea ​​o fumanela leqephe leo
 error-title-503 = Re tobane le nako e sa lebellwang ya ho se sebetse
 error-code = Phoso { $code }
 
@@ -633,11 +639,12 @@ target-segment-learn-more = Ithute haholwanyane
 report = Tlaleha
 report-title = Romela tlaleho
 report-offensive-language = Puo e kgopisang
-report-offensive-language-detail = { "" }
+report-offensive-language-detail = Polelo e na le puo e hlokang tlhompho kapa e hlabang.
 report-grammar-or-spelling = Phoso ya sebopeho-puo / mopeleto
 report-different-language = Puo e fapaneng
 report-difficult-pronounce = Ho thata ho bitsa
 report-offensive-speech = Puo e kgopisang
+report-offensive-speech-detail = Clip e na le puo e hlokang tlhompho kapa e hlabang.
 report-other-comment =
     .placeholder = Hlahisa Maikutlo
 success = Katleho
@@ -670,6 +677,8 @@ toward-next-goal = Ho leba sepheong se latelang
 goal-reached = Sepheo se fihletswe
 clips-you-recorded = Di-clip tseo O di Rekotileng
 clips-you-validated = Di-clip tseo O di Netefaditseng
+todays-recorded-progress = Tshebetso ya kajeno ya Common Voice di-cliping tsa mantswe e rekotilwe
+todays-validated-progress = Tshebetso ya kajeno ya Common Voice di-cliping tsa mantswe e netefaditswe
 stats = Dipalo-palo
 awards = Dikgau
 you = Wena
@@ -722,6 +731,7 @@ share-goal-type-both = Ho Bua le ho Mamela
 goal-share-text = Ke sa tswa iketsetsa sepheo sa ho fana ka lentswe ho #CommonVoice -- ikopanye le nna ho thusa ho ruta metjhini hore na batho ba nnete ba bua jwang { $link }
 weekly-goal-created = Sepheo sa hao sa beke se entswe
 daily-goal-created = Sepheo sa hao sa letsatsi le letsatsi se entswe
+return-to-edit-goal = Kgutlela mona ho hlophisa sepheo sa hao neng kapa neng.
 share-goal = Arolelana sepheo sa ka
 
 ## Profile Delete
@@ -732,6 +742,7 @@ profile-form-delete = Hlakola Profaele
 ## Profile Download
 
 download-q = O hloka ho downlad-a data ya hao?
+download-info = Re bolelle seo o ka ratang ho se download-a:
 download-profile-title = Profaele
 download-profile-size = Di-byte tse mmalwa
 download-recordings-title = Direkoto
@@ -753,6 +764,7 @@ download-request-metadata-link = Mongolo wa polelo
 ## Landing
 
 welcome-staff = Amohela { $company } basebetsi!
+login-company = Kena / Ingodise ka { $company } email
 read-more-about = Bala haholwanyane ho leqephe la About la rona
 
 ## DemoLayout
@@ -789,15 +801,19 @@ contribution-criteria-link = Utlwisisa mekgwa ya ho fana
 contribution-criteria-page-title = Mekgwa ya ho Nehelana
 contribution-for-example = Mohlala
 contribution-misreadings-title = Ho se bale hantle
+contribution-misreadings-description-extended-list-5 = Ho leka makgetlo a mmalwa ho bala lentswe.
 contribution-misreadings-example-2-title = Kgodumodumo e kgolo tsa Triassic.
 contribution-misreadings-example-2-explanation = [E tlameha e be 'dikgodumodumo']
 contribution-misreadings-example-3-title = Dikgodumodumo tse kgolo tsa Triassic-.
+contribution-misreadings-example-4-title = Dikgodumodumo tse kgolo tsa Triassic. Ee.
 contribution-misreadings-example-4-explanation = [Ho tlalehilwe tse ngata ho feta mongolo o hlokahalang]
+contribution-misreadings-example-5-title = Re il'o fumana kofi.
 contribution-misreadings-example-6-title = Re il'o fumana kofi.
 contribution-misreadings-example-7-explanation = [Ha ho ‘a’ mongolong wa pele]
 contribution-misreadings-example-8-title = Notshi e ile ya feta ka lebelo.
 contribution-misreadings-example-8-explanation = [Ditaba tse sa tsamaisaneng]
 contribution-varying-pronunciations-title = Qapodiso tse fapaneng
+contribution-varying-pronunciations-example-1-title = Hloohong o ne a rwetse berete.
 contribution-varying-pronunciations-example-2-title = Letsoho la hae le ne le phahamisitswe.
 contribution-background-noise-title = Lerata le ka morao
 contribution-background-noise-example-1-fixed-title = <strong>[Sneeze]</strong> dikgodumodumo tse kgolo tsa<strong>[cough]</strong> Triassic.
@@ -836,6 +852,7 @@ sc-logout-button = Tswa
 
 ## HOME
 
+sc-home-title = Rea o amohela ho MMokelli wa Dipolelo wa Common voice
 sc-home-collect-title = Bokella dipolelo
 sc-home-review-title = Hlahloba Dipolelo
 
@@ -893,6 +910,7 @@ sc-submit-title = Kenya Dipolelo
 sc-submit-select-language =
     .labelText = Kgetha Puo
 sc-submit-add-sentences = Kenya <wikipediaLink>setjhabeng </wikipediaLink> dipolelo
+sc-submit-from-where = Dipolelo tsee<wikipediaLink>tsa setjhaba</wikipediaLink> di tswa hokae?
 sc-submit-guidelines = Ka kopo sheba <howToLink>ditataiso</howToLink>.
 
 ## ADD LANGUAGE
@@ -958,6 +976,7 @@ sc-criteria-item-3 = Polelo e tlameha ho bueha.
 
 sc-review-title = Hlahloba Dipolelo
 sc-review-loading = E kenya dipolelo...
+sc-review-select-language = Ka kopo, kgetha puo eo o tla hlahloba dipolelo.
 sc-review-no-sentences = Ha ho na dipolelo tsa lokelwang ho hlahlojwa. <addLink>Kenya dipolelo tse ding hape hona jwale!</addLink>
 sc-review-form-prompt =
     .message = Dipolelo tse hlahlobilweng ha dia romellwa, na o tiile?
