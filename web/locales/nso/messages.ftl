@@ -256,6 +256,7 @@ x-years-short =
         [one] { "" }
        *[other] *[other] { $count }y
     }
+help-make-dataset = Re thuše re age dathasete ya khwalithi ya go phagama kudu, le e phatlaletšwego
 sign-up-account = Ngwadiša go hwetša akhaonte
 email-subscription-title = ngwadiša go hwetša mpshafatšo go e-meile
 
@@ -601,6 +602,7 @@ data-other-title = Di-dathasete tše dingwe tša mantšu...
 data-other-goto = Eya go { $name }
 data-other-download = Tanelouto ya Datha
 data-bundle-button = Tanelouta dathasete di dikgobokane
+data-bundle-description = Datha ya Common Voice le di-dathasete tše dingwe tša lentšu ka godimo.
 release-version = Bešene
 dataset-date = Letšatši
 license = Laesense: <licenseLink>{ $license }</licenseLink>
@@ -870,6 +872,11 @@ pro-difficulty = Thekgo
 want-to-continue = O nyaka go tšwela pele?
 lose-changes-warning = Go tšwa gona bjale go bolela gore o tlo lahlagelwa ke diphetogo tša gago
 build-custom-goal = Aga pakane e swanelegilego
+help-reach-hours-pluralized =
+    { NUMBER($hours) ->
+        [one] Re thuše go fihlela { $hours } iri { $language } ka pakane ya gago
+       *[other] Re thuše go fihlela { $hours } diiri { $language } ka pakane ya gago
+    }
 set-a-goal = Ipeele pakane
 cant-decide = Ga o kgone go kgetha?
 activity-needed-calculation-plural =
@@ -944,6 +951,7 @@ download-request-archive-single = Faele e tee ya ZIP e nang le
 download-request-archive-multiple = Aroganya go { $archiveCount } di faele tša ZIP tše swerego
 download-request-refresh-button = Mpshafatša
 download-request-modal-title = Tanelouta di-Linke
+download-request-modal-description = Di-linke tša go tanelouta di faele tša ZIP ke tše.
 download-request-link-text = Zip #{ $offset } tša { $total }
 download-request-metadata-link = Mafoko a lengwalo
 download-request-link-single = O ka kopisa le go beya di-URL tše tobegilego go sesepetša digogwa wa gago o ratago. Di tla felelwa ke nako ka morago ga diiri tše 12, eupša o ka boela latlakaleng le go hlagiša tše di mpsha ka nako le ge e le efe.
@@ -1064,6 +1072,7 @@ sc-logout-button = Go tšwa
 sc-home-title = Re ya go amogela go Molekgetho wa Mafoko ya Common Voice
 sc-home-intro = Molekgetho wa Mafoko ke karolo ya<commonVoiceLink> Common Voice</commonVoiceLink>. E dumelela gore baneedi go kgoboketša le go netefatša mafoko a hlangwego ke setšhaba. O ka šomiša sedirišwa se go tsenya le go hlwekiša sehlopha sa setšhaba se senyenyane go iša bogareng bja seo se hwetšalago goba o se kgoboketšego. Mafoko ka moka di swanetše go ba Lefelong la Setšhaba. Mafoko ao a amogetšwego a romelwa beke e nngwe le e nngwe polokelong ya Common Voice gomme di lokolwa wepesaeteng ya Common Voice ga go romelwa selo sengwe le se sengwe se sefsa.
 sc-home-collect-title = Kgobokanya mafoko
+sc-home-collect-text = Re thuše ka go ngwala goba go kgoboketša mafoko a mafelong a batho bohle.
 sc-home-review-title = Poeletšo ya mafoko
 
 ## GENERAL
@@ -1201,6 +1210,14 @@ sc-confirm-uploading = Mafoko a tsenywa. Se se ka tšea metsotso e mmalwa go ya 
 sc-lang-info-title-total = Feletšego
 sc-lang-info-title-personal = Ya motho ka noši
 # Variables:
+#   $totalSentences (Number) - Number of sentences uploaded in total for this language
+sc-lang-info-total =
+    { $totalSentences ->
+        [0] Ga gona mafoko a palo-moka.
+        [one] 1 palo-moka ya mafoko.
+       *[other] { $totalSentences } palo-moka ya mafoko.
+    }
+# Variables:
 #   $unreviewedSentencesByYou (Number) - Number of sentences the user can still review
 sc-lang-info-left-for-you =
     { $unreviewedSentencesByYou ->
@@ -1210,6 +1227,14 @@ sc-lang-info-left-for-you =
     }
 sc-lang-info-review-now = <reviewLink>Hlahloba bjale!</reviewLink>
 sc-lang-info-add-more = <addLink>Tsenya mafoko a mangwe bjale!</addLink>
+# Variables:
+#   $validatedSentences (Number) - Number of sentences which have been approved for this language
+sc-lang-info-validated =
+    { $validatedSentences ->
+        [0] Ga gona mafoko a kgonthašitšwego.
+        [one] lefoko le 1 le kgonthašitšwe.
+       *[other] { $validatedSentences } mafoko a kgonthašitšwego.
+    }
 # Variables:
 #   $rejectedSentences (Number) - Number of sentences which have been rejected for this language
 sc-lang-info-rejected =
