@@ -146,6 +146,7 @@ profile-form-age =
 why-profile-text =
     Ka go naya tshedimosetso nngwe ka wena, tshedimosetso ya lentswe e o e romelang kwa Common Voice e tla nna mosola thata mo dithulaganyong tsa Speech
     Recognition tse di dirisang tshedimosetso eno go tokafatsa go nepa ga tsone.
+build-profile = Aga Porofaele
 avatar = Setshwantsho
 profile-close = Tswala
 profile-explanation = Ela tlhoko kgatelopele ya gago o dirisa porofaele mme o thuse tshedimosetso ya rona ya mantswe gore e nepagale thata.
@@ -324,6 +325,7 @@ data-explanatory-text = Re dumela gore tshedimosetso e kgolo le e e phasaladitsw
 data-download-singleword-callout-v2 = Eno ke karolwana e e berekang e e nang le tshedimosetso ya go matlafatsa mokgwa wa go dirisa puo le o o kgonang go lemoga ee / nnyaa.
 review-terms = Ka go dirisa Common Voice, o dumalana le <termsLink>Melawana</termsLink> le <privacyLink>Kitsiso ya Polokodiphiri</privacyLink>
 review-submit-msg = Re lebogela go gatisa!<lineBreak></lineBreak>Jaanong o ka sekaseka o bo romela dikgatiso tsa gago fa tlase.
+review-cancel = Khansela go Romela
 
 ## Datasets Page
 
@@ -402,6 +404,7 @@ language-speakers = Dibui
 action-click = Tobetsa
 goal-help-recording = O thusitse Common Voice gore e fitlhelele <goalPercentage></goalPercentage> ya maikaelelo a rona a letsatsi a go gatisa { $goalValue }!
 goal-help-validation = O thusitse Common Voice gore e fitlhelele <goalPercentage></goalPercentage> ya maikaelelo a rona a letsatsi a go tlhomamisa { $goalValue }!
+record-cancel = Khansela go Rekota Sesha
 record-stop-instruction = { $actionType }<stopIcon></stopIcon> fa o feditse
 clips-uploaded = Dibidio di tsentswe
 listen-loading-error = Ga re a kgona go bona dikgatiso tsa mantswe tse o ka di reetsang. Tsweetswee leka gape moragonyana.
@@ -434,6 +437,7 @@ help-reach-hours-general-pluralized =
         [one] Thusa Common Voice go fitlhelela ura e le { $hours } mo puong ka maikaelelo a batho
        *[other] Thusa Common Voice go fitlhelela diura di le { $hours } mo puong ka maikaelelo a batho
     }
+cant-decide = Ga o kgone go dira tshwetso?
 receiving-emails-info = Gone jaanong o dirile gore o amogele diimeile tse di jaaka dikgopotso tsa maikaelelo, ditlhabololo tsa kgatelopele ya me le makwalodikgang a Common Voice
 not-receiving-emails-info = Gone jaanong o dirile gore o <bold>SE KA</bold> wa amogela diimeile tse di jaaka dikgopotso tsa maikaelelo, ditlhabololo tsa kgatelopele ya me le makwalodikgang a Common Voice
 confirm-goal = Tlhomamisa Maikaelelo
