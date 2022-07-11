@@ -11,6 +11,7 @@ email-opt-in-info-title = Ngwadiša go lenaneo la baamogedi ba e-meile ba Common
 email-opt-in-privacy-v2 = Ge o kgetha go amogela di-emeile o ka bolela gore ga go na molato ge Mozilla e diriša tsebišo ye bjalo ka ge go hlalositšwe ka <privacyLink>Molao wa Lekunutu</privacyLink> wa Mozilla.
 indicates-required = Mafelwana a go swawa ka setlankana sa naletšana (*) di a hlokagala.
 not-available-abbreviation = Ga e gona
+banner-error-slow-1 = Maswabi, Common Voice e šoma ka go nanya. Re leboga kgahlego ya gago.
 banner-error-slow-link = Boemo bja Letlakala
 error-something-went-wrong = Maswabi, go nale phošo e diregilego
 
@@ -213,6 +214,7 @@ cookies = Dikhuki
 faq = Dipotšišo tše di Botšišwago Gantši
 content-license-text = Diteng di gona ka fase ga<licenseLink>Laesense ya Creative Commons</licenseLink>
 share-title = Re thuše re hwetše ba bangwe ba go neela mantšu a bona!
+share-text = Re thuše re rute metšhene gore batho ba bolela bjang, neela lentšu la gago go { $link }
 link-copied = Linke e kopotšwe
 back-top = Boela godimo
 logout = Etšwa
@@ -259,6 +261,7 @@ x-years-short =
 help-make-dataset = Re thuše re age dathasete ya khwalithi ya go phagama kudu, le e phatlaletšwego
 sign-up-account = Ngwadiša go hwetša akhaonte
 email-subscription-title = ngwadiša go hwetša mpshafatšo go e-meile
+email-subscription-title-new = Ngwadiša go lengwalo la ditaba la Common Voice, dikgopotšo tša pakane le di tsebišo ka tšwelopele
 
 ## Account Benefits
 
@@ -271,6 +274,7 @@ view-goals = Lebelela tšwelopele ya gago o e lebantše le di pakane tša gago l
 
 whats-public = Ke eng ya go Phatlalatšwa?
 email-not-public = Re ka se phatlalatše e-meile ya gago.
+username-optin-public = O ka kgetha go phatlaletša leina la mošomiši goba ya go se tsebje.
 
 ## Speak & Listen Shortcuts
 
@@ -363,6 +367,7 @@ settings = Dilaolatirišo
 edit-profile = Lokiša Profaele
 profile-create-success = Katlego, profaele e hlangwe!
 profile-close = Tswalela
+thanks-for-account = Rea leboga go tiišetša akhoante ya gago, bjale a re age profaele ya gago.
 why-demographic = Ke ka baka la'ng e le bohlokwa?
 why-demographic-explanation-2 = Datha ya modiriši ye o sa tsebjego bjalo ka mengwaga, le bong bja motho, le mmolelo ao a thuša go go kaonefatša datha ya odio e šomišago go eteletša nepagatšo ya di-entšene a tlhathollo ya mantšu. Leina la gago la mošomiši le e-meile di ka se itswalanye le datha yeo e rometšego, gomme o ka kgetha gore na leina la gago la mošomiši le phatlalatšwe goba le se tsebje.
 accept-privacy-title = Khupamarama ya Molao
@@ -413,14 +418,17 @@ faq-why-important-a =
     Go dira gore tlhathollo ya mantšu e lemogwe lefaseng ka bophara, re kgoboketša disampole tša mantšu ka dipolelo tše di bolelwago ke batho ba bantši kudu le baboledi ba dihlopha tše nyenyane tšeo di sa hlokomelegilego ke ditshebeletšo tša dikgwebo. Go phatlalatša pokelelo ya datha tšeo di fapanego go tla matlafatša ba hlagišo, bo rakgwebo, le setšhaba ka moka sa dipolelo go rarolla sekgoba se ka bobona.
 faq-how-get-q = Nka hwetša datha ya Common Voice bjang?
 faq-how-get-a = Dathasete ya Common Voice e hwetšagala bakeng sa go tanelouta ka tlase ga <licenseLink>CC0</licenseLink>laesense ya <datasetLink> letlakaleng la rena la Di-dathasete</datasetLink>. O ka tanelouta didirišwa tše dingwe tše mmalwa tšeo di hwetšagalago phatlalatša letlakaleng la go swana.
+faq-when-release2-q = Le tlo lokolla neng datha ya Common Voice ka dipolelo tše dingwe?
 faq-when-release2-a = Mohuta wa maleme a mantši dathasete ya Common Voice e dutše e tšwelapele go hlakana le go hlwekiša. Ge e ba o rata go re thuša go tliša Common Voice malemeng a ma mpsha, eya o lebelela <sentenceCollectorLink>Sedirišwa sa go Kgobokanetša Mafoko</sentenceCollectorLink> bakeng sa go oketša mafoko a ma mpsha go dathasete le Mozilla <pontoonLink>Pontoon</pontoonLink>  bakeng sa go fetolela wepesaete ya bosona. Dipolelo tše mpsha di tsenywa go Common Voice bakeng sa tlaleletšo ya lentšu ga go se go kgoboketšego mafoko a amogetšwego a 5000.
 faq-why-mission-q = Go baneng Common Voice e le karolo ya morero wa Mozilla?
 faq-why-mission-a = Mozilla e ikemišeditše go boloka mologo o botšwe ebile o hwetšagala ke batho bohle. Go dira bjalo re hloka go matlafatša babopi ba wepesaete ka mediro ya go swana le Common Voice. Ge ditheknolotši tša go hlaboša lentšu di dutše di ata go matlafatša tswalano ya ditišwa, re dumela gore di swanetše go hlankela badiriši ka moka go lekana. Seo se bolela gore go beeletša karolo ya maleme a mantši le go amogela mmelelo o fapanego gammogo le teka-tekano ya palo ya batho ge o aga le go tlhahloba ditheknolotši tša mantšu. Common Voice ke mothopo wa setšhaba wo o hwetšagala ke motho yo mongwe le yo mongwe, gomme dihlopha tša Mozilla le batšweletši lefaseng ka bophara ba šetše ba šomiša seo mananeo a bona.
 faq-what-cv-and-deepspeech-q = Phapano ke efe magareng a Common Voice le Deep Speech?
 faq-what-cv-and-deepspeech-a = Dathasete ya Common Voice e dumelelana le entšene Deep South ya Mozilla e bolegilego ya go tlhatholla Polelong. Phetolelo ya mathomo ya polelong e tseneletšego ya Deep Speech e lokoloktšwe ka November 2017 gomme esale e tšwela pele ka go fetoga go tloga ka nako yeo. Gotee le dathasete ya Common Voice, re dumela gore theknolotši e e bulegilego go lemoša lentšu e swanetše go hwetšwa ke motho yo mongwe le yo mongwe. Re holofela gore ditheknolotši tše di tla thuša batšweletši go aga ditšweletšwa ke ditirelo tše di mpsha tše dintši.
+faq-is-goal-assistant-q = Ke pakane ya Common Voice go aga mothutši wa lentšu?
 faq-is-goal-assistant-a = Boikemišetšo bja dathasete ya Common Voice ke go thuša motho lege e le ofe goba ofe lefaseng go aga tlhathollo ya mantšu , tlhathollo ya diboledi, goba mohuta ofe goba ofe wa sedirišwa se hlokago datha ya lentšu. Mothuši wa lentšu ke e nngwe feela ya mehuta e mentši ya didirišwa tšeo di šomišago go aga dathasete.
 faq-do-want-native-q = Ga ke seboledi sa polelo ya lefelong le ebile ke bolela ka segalo, le sa nyaka lentšu la ka na?
 faq-do-want-native-a = Ee, ka go kgethega re nyaka lentšu la gago! Karolo ya boikemišetšo bja Common Voice ke go kgobokanetša mmelelo e mentši ya go fapa-fapana ka moo go ka kgonegago e le gore tlhathollo e amogetšwego ya lentšu e šoma gabotse go batho bohle. Seo se bolela gore meneelo e tšwago go diboledi tšeo di sego tša matswalo a moo a bohlokwa kudu.
+faq-why-different-speakers-q = Ke ka baka la'ng o hloka diboledi tše dintši tše di fapanego bakeng sa polelo e nngwe le e nngwe?
 faq-why-different-speakers-a =
     Bontši bja dathabeise di eteletšwa go bontšha palo e feteletšego ya palo ya batho e sekametšego go lebana le<articleLink> banna le maemo a magareng</articleLink>. Mmolelo le mebolelwana ao a atišago go sekametšego go emelwa ka tlase go di datha sete di eteletšwe gantši di tswalaganywago le dihlopha tša batho bao ba šetšego ba boeletšwe ka thoko. Metšene e mentši le yona e thatafalelwa go kwešiša mantšu a basadi. 
     Ke kamoo polokelong ya rena ya lentšu re nyakang mehuta e fapa-fapanego!"
@@ -544,6 +552,7 @@ about-playbook-how-add-sentences-content-2 =
 
 about-playbook-how-record-quality = Ke gatiša bjang pego ya khwalithi e phagamego kudu?
 about-playbook-how-record-content-1 = Bolela ka lentšu la gago le le tlwaelegilego! Tsela yeo o bolelago ka yona e amogelegile mo - re nyaka mmolelo wa gago kamoo o lego ka gona, gomme re nyaka modumo wa gago wa lentšu o tlwaelegilego, setaele le segalo sa lentšu.
+about-playbook-how-record-content-3 = Bala lefoko ka kelohloko - o se ke wa tshela, le go fetola goba wa oketša mantšu.
 about-playbook-how-record-content-4 = Kgonthišetša gore sethaleng se ya rekhota pele o thoma go bolela, le gore se ema fela ge o feditše.
 about-playbook-how-record-content-5 = <accuracyLink>Bona se se fetago ka mo go nepagetšego ka kriteria.</accuracyLink>
 
@@ -588,6 +597,7 @@ about-playbook-how-project-governance-content-7 = <governanceLink>Bala ka mo go 
 glossary = Pukuntšu
 localization = Go lekanyeditša
 sentence-collection = Kgobokanyo ya Mafoko
+hours-recorded-explanation = Dibalwa tša di pego tše re di kgobokeditšego go fihla ga bjale.
 hours-validated-explanation = Palo ya diiri tša go rekhota lentšu tše netefaditšwego ke bašomiši ba 2 go ba 3 ka bouto ya “Ee”. Tše di swaya tšwelopele go fihlela le go lebana le  modiro wa kakaretšo ya diiri tše 10K.
 sst = Sefetošetšadigwalwa  mantšung (STT)
 sst-explanation = Dithekinolotši tša Sefetošetšadigwalwa mantšung (STT) di fetola di datha tša lentšu go mangwalo.
@@ -608,6 +618,7 @@ data-download-button = Tanelouta Datha ya Common Voice
 data-download-yes = Ee
 data-download-deny = Aowa
 data-download-license = Laesense: <licenseLink>CC-0</licenseLink>
+data-download-modal = O thoma tanelouto ya<size>{ $size }GB</size>, Re tšwele pele?
 data-subtitle = Re aga tatelano ya dathasete ya lentšu e bulegilego le go phatlalatšwa gore batho ka moka ba ka e berikšago go tlwaetša ditirišo tša go dumela polelo.
 data-explanatory-text = Re dumela gore dathasete tša lentšu tše dikgolo di tla hwetšagala phatlalatša di kgothaletša go tšweletša mekgwa e mefsa le tlhodišano ya kgwebo e matla go theknolotši ya go mantšu e thekgilwego ke motšhene. Se ke boiteko ba lefase ka moka gomme re mema motho yo mongwe le yo mongwe go tšea karoko. Boikemišetšo bja rena ke go thuša theknolotši le poledišano gore e tsentšhwe batho ka moka, e bonagatše mehuta e fapa-fapanego ya mantšu a tšwago lefaseng ka bophara.
 data-get-started = <speechBlogLink>Thoma ka Tlhathollo ya Mantšu </speechBlogLink>
@@ -626,6 +637,7 @@ terms-agree = Kea dumela
 terms-disagree = Ga ke dumele
 review-aborted = Go tsenya ga faele go ganne. O nyaka go phumola di pego tša gago?
 review-submit-title = Hlahloba o Romele
+review-submit-msg = Re leboga pego ya gago!<lineBreak></lineBreak> Ga bjale hlahloba o tsenye pego tša gago mo tlase.
 review-recording = Hlahloba
 review-rerecord = Rekhota gape
 review-keep-recordings = Boloka dipego
@@ -766,6 +778,8 @@ clips-with-count-pluralized =
         [one] <bold>{ $count }</bold> Pego
        *[other] <bold>{ $count }</bold> Dipego
     }
+goal-help-recording = O thušitše Common Voice e fihle <goalPercentage></goalPercentage> ya letšatši le letšatši ya { $goalValue } pakane ya go gatiša.
+goal-help-validation = O thušitše Common Voice e fihle <goalPercentage></goalPercentage>  ya letšatši le letšatši ya{ $goalValue } pakane ya go gatiša.
 contribute-more =
     { $count ->
         [one] { "" }
@@ -801,6 +815,8 @@ listen-instruction = { $actionType }<playIcon></playIcon>  na ba boletše lefoko
 listen-again-instruction = O šomile gabotse! !<playIcon></playIcon> Theeletša gape ge o ikemišeditše
 listen-3rd-time-instruction = Tše 2 di feditšwe, Swarang le tiiše!<playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon>Ya mafelelo!
+listen-empty-state = Re feletšwe ke di pego tša go kgonthišiša ka polelo e...
+speak-empty-state = Re feletšwe ke mafoko a gatiša pego ka polelo e...
 speak-empty-state-cta = Neela ka mafoko
 record-button-label = Gatiša lentšu la gago
 share-title-new = <bold>Re thuše </bold> re hwetše mantšu a mangwe
@@ -822,6 +838,7 @@ report-offensive-language-detail = Lefoko le nale mantšu a hlokago hlompho goba
 report-grammar-or-spelling = Popopolelo/ Phošo mopeletong
 report-grammar-or-spelling-detail = Lefoko le nale phošo ya popopolelo le ya go peletwa.
 report-different-language = Polelo e fapanego
+report-different-language-detail = E ngwetšwe ka polelo e fapanego le polelo yeo ke e bolelago.
 report-difficult-pronounce = Go thatha go wa bitša
 report-offensive-speech = Polelo e kodutlago
 report-offensive-speech-detail = Setsopolwa se na le polelo e hlokago hlompho goba e kgopišago.
@@ -957,7 +974,9 @@ download-profile-title = Pego
 download-profile-info = Di akaretša e-meile, leina la mošomiši le tshedimošo ya teka tekano ya palo ya gago, e hwetšagala gona bjale
 download-profile-size = Di-bytes tše mmalwa
 download-recordings-title = Dikgatišo
+download-recordings-info = E akaretša di-mp3 le mafoko a tswalanego, di ka tšea nako go di lokiša
 download-recordings-size = Megabytes e tlwaelegilego
+download-recently-requested = O ka kgopela go ntšha ga dikgatišo tša gago tše mpsha ka matšatši a mangwe le a mangwe a { $days }.
 download-size = Bogolo bja yona
 download-selected = Kgethilwego
 download-start = Tanelouta datha ya profaela
@@ -991,6 +1010,7 @@ demo-welcome-subheader = O kgahlegele go ithuta go feta le go neela go projeke.
 
 ## Demo Datasets
 
+demo-language-select-card-header = Common Voice ke dathasete e kgolo kudu go fetišiša ya mantšu a maleme a mantši a go hwetšagala lefaseng phatlalatšwa.
 demo-language-select-card-body = Ka baka la thušo ya batsenyaletsogo go tšwa go batho ba fetago 259k ka maleme a fetago 50, datha tšeo di dirišwa go eteletša di dirišwa tše di kgonago go bolela go arabela gabotse  lentšung la motho.
 card-button-next = Latelago
 card-button-back = Morago
@@ -1048,6 +1068,7 @@ contribution-varying-pronunciations-description = Eba šedi pele o gana setsopol
 contribution-varying-pronunciations-description-extended = Ka lehlakoreng le lengwe, ge e ba o nagana gore mohlomogwe mmadi ga se ka ka ka gahlana le lentšu pele, gomme o dira kgakanyo e fošagetšego ka mokgwa wa piletšo ya mantšu, ka kgopelo gana. Ge e ba o sa kgonthišege, šomiša setobetšwa sa go taboga.
 contribution-varying-pronunciations-example-1-title = O apere berete godimo ga tlogo ya gagwe.
 contribution-varying-pronunciations-example-2-title = Letsogo la gagwe le emišitšwe.
+contribution-varying-pronunciations-example-2-explanation = [‘Raised’ in English is always pronounced as one syllable, not two]
 contribution-background-noise-title = Lešata la Bokamorago
 contribution-background-noise-description = Re nyaka gore alkoritheme ya go ithuta ya motšhene e kgone go šoma le lešata le fapanego, ešita le mašata a magolo ao a ka amogelwago ge feela le sa go thibele go kwa mongwalo ka moka. Mmino wa bokamorago wa llela fase o LOKILE; mmino o wa godimo ka mo go lekanego go go thibela go kwa lentšu le lengwe le lengwe ga wa lokela.
 contribution-background-noise-description-extended = Ge e ba kgatišo e ka arogana, goba e nale go kgakgatha, e ganwe ntle le gore mongwalo o feletšego e sa kwagala.
@@ -1058,6 +1079,7 @@ contribution-background-noise-example-3-fixed-title = <strong>[Crackle]</strong>
 contribution-background-voices-title = Mantšu a Bokamorago
 contribution-background-voices-description = Lefelong la bokamorago le se nago lešata le LOKILE, eupša ga re nyake mantšu a mangwe a ka dirago gore mokgwa wa motšhene o kgetholwe mantšu ao a se be gona mongwalong. Ge e ba o ka kwa mantšu a phapano go ao a lego mongwalong, setsopolwana se swanetše go ganwa. Se se tlwaetše go diragala moo TV e tlogetšwego, goba moo poledišano e diragalago kgauswi le moo.
 contribution-background-voices-description-extended = Ge e ba kgatišo e ka arogana, goba e nale go kgakgatha, e ganwe ntle le gore mongwalo o feletšego e sa kwagala.
+contribution-background-voices-example-1-title = Dinosaur e kgolo ya Trassic. <strong>[read by one voice]</strong>
 contribution-background-voices-example-1-explanation = Wa tla na? <strong>[called by another]</strong>
 contribution-volume-title = Bolumo
 contribution-volume-description = Go tla ba le phaphano ya tlhago ya modumo magareng ga babadi. Gana feela ge e ba modumo o le godimo kudu moo rekhotilwego e sa kwale botse, goba (seo se tlwaelegilego kudu) ge e ba e le tlase moo e sa kwale gore go boletšwe eng ka ntle le go lebelela mo go ngwadilego.
@@ -1100,6 +1122,7 @@ sc-home-intro = Molekgetho wa Mafoko ke karolo ya<commonVoiceLink> Common Voice<
 sc-home-collect-title = Kgobokanya mafoko
 sc-home-collect-text = Re thuše ka go ngwala goba go kgoboketša mafoko a mafelong a batho bohle.
 sc-home-review-title = Poeletšo ya mafoko
+sc-home-review-text = Re thuše ka go hlahloba mafoko bakeng sa go nepagala go tsamayelana le ditlhahlo.
 
 ## GENERAL
 
@@ -1118,6 +1141,7 @@ sc-howto-addsen-item-6 = Dipolelo di ka ba le <validationRulesLink>melao ya yona
 sc-howto-addsen-post-1 = Re kgetha mafoko a tlhago/poledišano. Lege phapano ya sefonetiki le mantšu a fapanego mafokong a bohlokwa, re leka go dira gore mafoko a go gatišwa di be bose kudu ka moo re ka kgonago. Ka gona go ka ba monate ge o ka leka go boloka mafoko a gago a be a tlhago/kopanelago kamoo go ka kgonegalago.
 sc-howto-cite-title = Kamoo go Bontšhago ka gona
 sc-howto-cite-pre-1 = Go bohlokwa gore o bolele moo o hweditšego lengwalo la tumelelo ya setšhaba go phema go ngwalolla tsebišo le go e utswa le go dumelela go boela bakeng sa <copyrightIssuesLink>mathata a tša ditokelo tša molao</copyrightIssuesLink>. Ditsela tše sego kae tše mmalwa tša go tsopola mošomo.
+sc-howto-cite-item-1 = O ka akaretša wepesaete, e.g "Common Voice- https://commonvoice.mozilla.org/"
 sc-howto-cite-item-2 = O ka berikiša tshupišo ya thuto, e.g setaele sa Harvard "Mozilla (2021) Common Voice. E lego gona go https://commonvoice.mozilla.org/ (Accessed: 15th September 2021)"
 sc-howto-cite-item-3 = Bakeng sa mangwalong a setšhaba ga a hwetšegale inthaneteng, o ka berekiša tshupišo ya thuto e.g setaele sa Harvard "Jess (2021) My Public licence poems"
 sc-howto-review-title = Ahlola Mafoko
@@ -1165,6 +1189,11 @@ sc-rejected-none-found = Mafoko a ganwego a hwetšagale!
 
 sc-stats-title = Dipalo-palo
 sc-stats-updating = E ya mpshafatšwa...
+sc-stats-error = Ga se re kgone go lata dipalo-palo. Re kgopela o leke gape ka morago.
+# Variables:
+#   $sentenceCount (Number) - Total number of sentences uploaded through Sentence Collector
+#   $languageCount (Number) - Total number of languages these sentences represent
+sc-stats-summary = Molekgetho wa Mafoko a Common Voice o kgobokeditše { $sentenceCount } mafoko a { $languageCount } a maleme!
 
 ## ADD
 
@@ -1173,7 +1202,7 @@ sc-submit-err-add-sentences = Ka kgopelo tsenya mafoko.
 sc-submit-err-add-source = Ka kgopelo tsenya mothopo.
 sc-submit-err-confirm-pd = Ka kgopelo netefatša gore mafoko a ke ya mafelong a batho bohle.
 sc-submit-prompt =
-    .message = Mafoko ga a romelwa, na o na le bonnete ba gore o nyaka go tšwa?
+    .message = Ga se o tsenya mafoko, na o kgonthišiša gore o nyaka go tšwa?
 sc-submit-title = Tsenya Mafoko
 sc-submit-select-language =
     .labelText = Kgetha Leleme
@@ -1247,6 +1276,14 @@ sc-lang-info-total =
         [0] Ga gona mafoko a palo-moka.
         [one] 1 palo-moka ya mafoko.
        *[other] { $totalSentences } palo-moka ya mafoko.
+    }
+# Variables:
+#   $totalInReview (Number) - Number of sentences currently in the review state for this language
+sc-lang-info-in-review =
+    { $totalInReview ->
+        [0] Ga gona mafoko a hlahlobjago.
+        [one] Lefoko le 1 le a hlahlobja.
+       *[other] { $totalInReview } mafoko a hlahlobjago.
     }
 # Variables:
 #   $unreviewedSentencesByYou (Number) - Number of sentences the user can still review
