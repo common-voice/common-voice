@@ -338,6 +338,11 @@ request-language-button = Kombela Ririmi
 ## ProjectStatus
 
 status-contribute = Hoxa Xandla Hi Rito Ra Wena
+status-hours =
+    { $hours ->
+        [one] Awara yin’we leyi tiyisisiweke ku fikela sweswi!
+       *[other] { $hours } tiawara leti tiyisisiweke ku fikela sweswi!
+    }
 # Variables:
 # $goal - number of hours representing the next goal
 status-goal = Tipakani leti landzelaka: { $goal }
@@ -944,6 +949,16 @@ want-to-continue = Xana u lava ku ya emahlweni?
 finish-editing = Hetisa ku hlela kusungula?
 lose-changes-warning = Ku famba sweswi swi vula leswaku u ta lahlekeriwa hi ku cinca ka wena
 build-custom-goal = Aka pakani ya ntolovelo
+help-reach-hours-pluralized =
+    { NUMBER($hours) ->
+        [one] { $hours } awara eka { $language } hi xikongomelo xa munhu hi xiyexe
+       *[other] { $hours } tiawara eka { $language } hi xikongomelo xa munhu hi xiyexe
+    }
+help-reach-hours-general-pluralized =
+    { NUMBER($hours) ->
+        [one] { $hours } awara hi ririmi leri nga na xikongomelo xa munhu hi xiyexe
+       *[other] { $hours } tiawara hi ririmi leri nga na xikongomelo xa munhu hi xiyexe
+    }
 set-a-goal = Vekela pakani
 cant-decide = A wu swi koti ku endla xiboho?
 how-many-per-day = Swikulu! Xana i swiphemu swingani hi siku?
@@ -1270,6 +1285,14 @@ sc-confirm-already-reviewed =
        *[other] { $countOfReviewed } swivulwa se swi pfuxetiwile. Ntirho lowukulu!
     }
 # Variables:
+#   $readyCount (Number) - Number of sentences ready to be uploaded
+sc-confirm-ready =
+    { $readyCount ->
+        [0] ku hava xivulwa lexi lunghekeleke ku rhumeriwa!
+        [one] 1  xivulwa xi lunghekele ku rhumeriwa!
+       *[other] { $readyCount } swivulwa swi lunghekele ku rhumeriwa!
+    }
+# Variables:
 #   $countOfUnreviewed (Number) - Number of sentences unreviewed before the upload
 sc-confirm-unreviewed = { $countOfUnreviewed } swivulwa a swi kamberiwanga. Loko u swi lava, u nga ha tlhela u kambisisa swivulwa swa wena sweswi u nga si swi rhumela.
 sc-confirm-button-text = Tiyisa
@@ -1280,6 +1303,14 @@ sc-confirm-uploading = Swivulwa swi le ku nghenisiweni. Leswi swi nga ha teka ti
 sc-lang-info-title-total = Hinkwaswo
 sc-lang-info-title-personal = Ximunhu
 # Variables:
+#   $totalInReview (Number) - Number of sentences currently in the review state for this language
+sc-lang-info-in-review =
+    { $totalInReview ->
+        [0] Ku hava swivulwa eka nkambisiso.
+        [one] 1 xivulwa eka nxopaxopo.
+       *[other] { $totalInReview } swivulwa leswi nga eku pfuxeteni.
+    }
+# Variables:
 #   $unreviewedSentencesByYou (Number) - Number of sentences the user can still review
 sc-lang-info-left-for-you =
     { $unreviewedSentencesByYou ->
@@ -1289,6 +1320,14 @@ sc-lang-info-left-for-you =
     }
 sc-lang-info-review-now = <reviewLink>Pfuxeta sweswi!</reviewLink>
 sc-lang-info-add-more = <addLink>Engetela swivulwa swin'wana sweswi!</addLink>
+# Variables:
+#   $validatedSentences (Number) - Number of sentences which have been approved for this language
+sc-lang-info-validated =
+    { $validatedSentences ->
+        [0] Ku hava swivulwa hinkwaswo.
+        [one] 1 xivulwa hinkwaxo.
+       *[other] { $totalSentence } swivulwa hinkwaswo.
+    }
 
 ## LOGIN
 
@@ -1344,6 +1383,14 @@ sc-review-form-button-reject-shortcut = N
 sc-review-form-button-skip-shortcut = S
 sc-review-form-button-submit =
     .submitText = Hetisa Ndzavisiso
+# Variables:
+#   $sentences (Number) - Number of sentences the user has reviewed in this session
+sc-review-form-reviewed-message =
+    { $sentences ->
+        [0] Ku hava swivulwa leswi kamberiweke.
+        [one] 1 xivulwa xi pfuxetiwile. Inkomu!
+       *[other] { $sentences } swivulwa leswi kamberiweke. Inkomu!
+    }
 sc-review-form-review-failure = Ndzavisiso a wu nga ta hlayisiwa. Hi kombela u ringeta nakambe endzhaku ka nkarhi.
 sc-review-link = Hlela hi vuntshwa
 
