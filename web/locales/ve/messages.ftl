@@ -52,6 +52,7 @@ rich-data = Itani uri zwe na rumela zwi vhe zwi zwa khwine-khwine nga u rumela z
 improve-audio = Zwidodombedzwa zwa profaiḽi zwi khwinisa data ya odio ine ya shumiswa u gudisa zwa u ḓivha ipfi nga nḓila kwayo.
 keep-track = Dzulani ni tshi sedza mvela phanḓa yaṋu na zwe na khunyedza kha nyambo dzo fhambananaho.
 compare-progress = Vhonani uri mvela phanḓa yaṋu i hani ni tshi i vhambedza na ya vhaṅwe vho nikelaho u mona na shango ḽoṱhe.
+view-goals = Sedzani mvela phanḓa yaṋu nga u i vhambedza na tshiphikwa tsha thandela.
 join-newsletter = Ni nga khetha u vha tshipiḓa tsha vha re kha mutevhe wa email dzashu vhane vha wana apudeiti na mafhungo maswa maswa nga ha yeneyi thandela.
 
 ## What's public
@@ -135,6 +136,7 @@ faq-where-src-from-2-a =
      Ni nga vhona mitaladzi yashu ya u thoma kha <githubLink>GitHub folder</githubLink>.
 faq-why-not-ask-read-q = Ndi ngani ni sa humbeli vhathu uri vha vhale dzibugu kana thero dzi re kha Wikipedia nga nyambo dzo fhambananaho?
 faq-why-not-ask-read-a = Uri yeneyi dataset ya Common Voice i shume nga nḓila yavhuḓisa ro dzhia phetho ya u tendela fhedzi source text (luambo lwe mafhungo a thoma u ṅwalwa ngalwo) i wanalaho kha Creative Commons (CC0) lisentsi. Musi ri tshi shumisa CC0 zwi amba uri zwi ḓo konḓa u wana na u kuvhanganya source text, fhedzi i tendela uri naho e nnyi a shumise maipfi a sa kalelwi tshivhalo kana u wana thendelo kha Mozilla. Tshipikwa tshashu ndi u ita uri dataset ya dzi nyambo nnzhi i shumiswe zwavhuḓi nga hune zwa nga konadzea ngaho nga vhathu vhoṱhe, u katela na vhaṱoḓisisi, dziyunivesithi, vhathomi vha mabindu, mivhuso, madzangano a zwa matshilisano na vhane vha zwi shumisela u ḓitakadza.
+faq-why-account-q = Ndi ngani ndi tshi tea u ita akhantu?
 faq-how-privacy-q = Ni zwi kona hani u ita uri vhathu vho nikelaho nga maipfi vha si ḓivhiwe nahone zwi vhe zwa tshiphiri?
 faq-how-privacy-a = Maipfi oṱhe a re kha dataset o itwa uri a si tsha ḓivhea uri ndi a vhonnyi. Musi ane a shela mulenzhe a tshi amba zwidodombedzwa zwawe kha profile yawe, zwenezwo zwidodombedzwa a zwi tendelwi uri zwi dzhene kha ipfi ḽo rekhodiwaho musi zwi sa athu ṱanganyiswa u itela uri zwi danuḽodiwe kha dataset nahone a zwi nga vuwi zwo itwa uri zwi ḓivhiwe nga tshitshavha kha siaṱari ḽa profile dzavho.
 faq-what-determine-identity-q = Zwi amba mini uri a thi koni "u ḓivha" vhaambi vha re kha dataset ya Common Voice?
@@ -149,7 +151,9 @@ how-does-it-work-text = Ri khou lingedza u wana maipfi kha tshitshavha uri ri it
 
 ## How does it work section
 
+about-localization-subtitle = Mafhungo a re kha heyi website o ḓologiwa nga holuya luambo.
 about-new-lang-subtitle = Ro ḽontsha saiti ya Common Voice nga holwu luambo.
+about-subscribe-text = Naa ni ṱoḓa u dzula no kwamana na Common Voice?
 about-speak-text = Vhane shela mulenzhe vha rekhoda maipfi nga u vhala mitaladzi yo nikelwaho.
 about-listen-queue-text = Maipfi o rekhodiwaho a pangiwa kha mutevhe wa u rumela une wa a ita uri a lugele u thetshelesiwa.
 about-listen-text = Vhashumisi vha khwaṱhisedza rekhodo dzo nikelwaho, vha tshi sedza uri muambi o vhala mutaladzi zwone naa.
@@ -246,6 +250,7 @@ localization-explanation = Heyi ndi nḓila yashu ya u ḓologa na u ita uri maf
 sentence-collection-explanation = U kuvhanganya mitaladzi u bva kha fhethu ha tshitshavha tshoṱhe, kana ni ṅwalele fhethu ha tshitshavha tshoṱhe mitaladzi miswa.
 hours-recorded-explanation = Tshivhalo tsha dzi awara dza maipfi o rekhodiwaho e ra a kuvhanganya u swikela zwino.
 hours-validated-explanation = U vhaliwa ha awara dza maipfi o rekhodiwaho o no khwaṱhisedzwaho nga vhathu 2 kha 3 ngauri vha khethe uri “Ee”. Zwenezwi zwi sumbedza uri thandela i ngafhi kha tshipikwa tsha awara dza 10k.
+sst-explanation = Thekhinolodzi dza Speech-to-text (STT) dzi shandukisaho ipfi dza ita uri hu vhe mafhungo o ṅwalwaho.
 de-identified-explanation = Ndi nḓila ya u ita uri zwidodombedzwa zwi re kha profile zwi si vhoniwe kha maipfi o rekhodiwaho a nikelwa musi o no itwa uri a kone u downlodiwa sa tshipiḓa tsha dataset.
 
 ## Error pages
@@ -274,6 +279,7 @@ datasets-positioning =
     
     Sedzani kha siaṱari heḽi sa referentsi ya hub u itela u wana dziṅwe dataset dzine dza nga shumiswa nga vhathu vhoṱhe, samusi Common Voice i tshi khou bvela phanḓa na u aluwa, ndi hone haya hune ha ḓo vha na dzi updates dzashu.
 why-email = <b>Ndi ngani hu tshi ṱoḓea email?</b> Ri nga tea u ni kwama tshifhingani tshi ḓaho nga nṱhani ha tshanduko dzo iteaho kha dataset, email i ita uri ri kone u ni kwama.
+confirm-size = No lugela u thoma u downḽoda zwithu zwa <b>{ $size }</b>
 confirm-no-identify = <b>Ni khou tenda</b> uri a ni nga lingedzi u ḓivha muambi kha dataset ya Common Voice
 dataset-description-hours =
     Tshiteṅwa tshiṅwe na tshiṅwe tsha dataset tshi na MP3 yo khetheaho na mafhungo a tshimbidzanaho natsho. Vhunzhi ha <b>{ $total }</b> dzi awara dzo rekhodiwa kha dzi dataset dzi katela metadata ine ya amba nga ha zwidodombedzwa zwa muthu zwi ngaho miṅwaha, mbeu na kuambele zwine zwa nga thusa kha u gudisa zwavhuḓi tshishumiswa tsha u pfa ipfi.
@@ -313,6 +319,9 @@ request-language-explanation-1 =
 request-language-explanation-2 = Ri ḓo <strong>vhudza minidzhere wa vhadzulapo vha vhuponi haṋu uri ni na dzangalelo ḽa hezwi</strong>, u itela uri vha ni tikedze kana u ni vhudza mafhungo ane na nga a ṱoḓa.
 request-language-form-info-explanation = Pangani mafhungo manzhi nga hune na nga kona nga ha holwu luambo. Zwenezwi zwi katela:
 request-language-form-info-explanation-list-3 = Ḽinki dza website dzine dza nga ri thusa u pfesesa luambo
+request-language-google-recaptcha-error = Hu na zwo khakheaho nga reCAPTCHA. Ri humbela uri ni lingedze hafhu.Hu na zwo khakheaho nga reCAPTCHA. Ri humbela uri ni lingedze hafhu.
+# Success page
+request-language-success-heading = Ro livhuwa. No ita khumbelo ya luambo luswa.
 request-language-success-list-1 =
     Ni tea u wana email hu si kale ine ya ḓo ni ṱalutshedza
      maga ane a tea u dzhiiwa uri hu pangiwe luambo lwaṋu kha Commn Voice
@@ -332,6 +341,7 @@ language-section-launched-description = Kha hedzi nyambo dzo no ḓi dzheniswaho
 
 goal-help-recording = No thusa Common Voice u swikelela <goalPercentage></goalPercentage> tsha ḓuvha { $goalValue } tshipikwa tsha u rekhoda!
 goal-help-validation = No thusa Common Voice u swikelela <goalPercentage></goalPercentage> tsha ḓuvha { $goalValue } tshipikwa tsha u khwaṱhisedza!
+record-platform-not-supported = Ri humbela pfarelo, puḽatifomo yaṋu a yi tikedziwi zwa zwino.
 record-platform-not-supported-ios-non-safari = Kha iOS ri humbela uri ni bvele phanḓa ni tshi shumisa Safari u itela uri ni kone u rekhoda…
 listen-empty-state = Ro fhelelwa nga zwo rekhodiwaho zwine zwa ṱoḓa u khwaṱhisedzwa...
 listen-loading-error =
@@ -344,6 +354,8 @@ speak-loading-error =
 
 ## Reporting
 
+report-ask = Ndi thaidzo dzifhio dzine na khou ṱangana nadzo kha hoyu mutaladzi?
+report-grammar-or-spelling-detail = Hoyu mutaladzi u na vhukhakhi ha grama kana ha mupeḽeṱo.
 report-different-language-detail = Zwo ṅwaliwa nga luambo lu sa fani na lune nṋe nda khou amba ngalwo.
 report-difficult-pronounce-detail = I na maipfi kana mibulo ine ya konḓa u i vhala kana u i bula.
 
@@ -373,6 +385,7 @@ receiving-emails-info = Zwa zwino ni kha mutevhe wa vhane vha ḓo wana email dz
 not-receiving-emails-info = Zwa zwino no pangiwa kha u <bold>U SA</bold> wana milaedza nga email yo no nga khumbudzo dza zwipikwa, mvela phanḓa yaṋu na newsletters nga ha Common Voice
 # LINK will be replaced with the current URL
 goal-share-text = Ndo ḓiitela tshipikwa tshau nikela nga ipfi kha #CommonVoice – shelani mulenzhe na nṋe kha u funza mitshini uri vhathu vha vhukuma vha ambisa hani { $link }
+track-progress = Sedzani mvela phanḓa yaṋu hafha na kha siaṱari laṋu ḽa mbalo-mbalo.
 
 ## Profile Delete
 
@@ -432,6 +445,8 @@ contribution-misreadings-description-extended-list-1 = Ho shotha <strong>'A'</st
 contribution-misreadings-description-extended-list-3 = U vhala zwithu zwi si hoho, sa tsumbo "we're" nṱhani ha "we are" kana vaisa versa.
 contribution-misreadings-description-extended-list-4 = Ho shotha ipfi ḽa u fhedzisela ngauri rekhodo yo khathuwa ngau ṱavhanya
 contribution-misreadings-example-3-explanation = [Zwo rekhodiwaho zwo khathuwa ipfi ḽa u fhedza ḽi sa athu fhelela]
+contribution-misreadings-example-5-title = Ri khou ya u nwa gofhi.
+contribution-misreadings-example-7-title = Ri khou ya u nwa gofhi.
 contribution-varying-pronunciations-description = Ni ṱhogomele uri ni sa ri zwo rekhodiwaho a si zwone nga ṅwambo wa uri muvhali ha ngo bula zwavhuḓi ipfi, kana o ombedzela fhethu hu si hone, kana khamusi o litsha u vhala tshiga tsha u vhudzisa. Hu na kubulele kwa maipfi kwo fhambananaho u mona na shango, kuṅwe kwa hone khamusi a ni athu u ku pfa vhuponi ha haṋu. Ri humbela uri ni ṱanganedze vhane vha amba nga nḓila yo fhambanaho na yaṋu.
 contribution-varying-pronunciations-description-extended = Kha ḽiṅwe sia, arali ni tshi vhona u nga muvhali ha athu vhuya a ṱangana na iḽo ipfi, nahone ho tou humbulelwa kubulele kwaḽo, ni songo zwi tendela. Arali ni si na vhungoho, shumisani gunubu ya u pfuka.
 contribution-varying-pronunciations-example-1-explanation = [‘Beret’ ḽo luga hu si na ndavha uri ḽo ombedzelwa kha dungo ḽa u thoma (UK) kana kha dungo ḽavhuvhili (US]
@@ -518,12 +533,28 @@ sc-add-result =
         [one] [one] Mitaladzi yo rumelwaho. { $duplicates } Mitaladzi yo rumelwaho a yo ngo ṱanganedziwa ngauri yo vha i tshi khou dovholola.
        *[other] *[other] Mitaladzi yo rumelwaho. { $duplicates } Mitaladzi yo rumelwaho a yo ngo ṱanganedziwa ngauri yo vha i tshi khou dovholola.
     }
+# Variables:
+#   $sentences (Number) - Number of sentences which failed to be saved to the database - could be several different reasons
+sc-add-err-failed =
+    { $sentences ->
+        [0] [0] A hu na mitaladzi yo feilaho
+        [one] [one] mutaladzi 1 wo feila
+       *[other] *[other] { $sentences } mitaladzi yo feila
+    }
 sc-add-lang-process-notice = Arali luambo lwaṋu lu si ho hafha, ni nga lu humbela nga <languageProcessLink>heyi nḓila</languageProcessLink>.
 
 ## ADD SENTENCES CONFIRMATION
 
 sc-confirm-are-you-sure =
     .message = Mitaladzi a yo ngo rumelwa, naa ni na vhungoho ha uri ni khou ṱoḓa u ṱuwa?
+# Variables:
+#   $countOfSentences (Number) - Number of sentences the user has filled in the submission form
+sc-confirm-sentences-found =
+    { $countOfSentences ->
+        [0] [0] A hu na mitaladzi yo wanalaho.
+        [one] [one] ho wanala mutaladzi 1.
+       *[other] *[other] { $countOfSentences } ho wanala mitaladzi.
+    }
 sc-confirm-already-reviewed =
     { $countOfReviewed ->
         [0] [0] A hu na mutaladzi wo no ṱoliwaho.
@@ -545,6 +576,14 @@ sc-confirm-uploading = Mitaladzi i khou apuḽodiwa. Hezwi zwi nga dzhia tshifhi
 
 ## LANGUAGE INFO
 
+# Variables:
+#   $totalSentences (Number) - Number of sentences uploaded in total for this language
+sc-lang-info-total =
+    { $totalSentences ->
+        [0] [0] a hu na thothaḽi ya mitaladzi.
+        [one] [one] hu na thothaḽi ya mutaladzi 1.
+       *[other] *[other] { $totalSentences } thothaḽi ya mitaladzi.
+    }
 # Variables:
 #   $totalInReview (Number) - Number of sentences currently in the review state for this language
 sc-lang-info-in-review =
@@ -568,6 +607,14 @@ sc-lang-info-validated =
         [0] [0] A hu na mitaladzi yo khwaṱhisedzwaho.
         [one] [one] mutaladzi wa 1 wo khwaṱhisedzwa.
        *[other] *[other] { $validatedSentences } mitaladzi yo khwaṱhisedzwaho.
+    }
+# Variables:
+#   $rejectedSentences (Number) - Number of sentences which have been rejected for this language
+sc-lang-info-rejected =
+    { $rejectedSentences ->
+        [0] [0] A hu na mitaladzi yo haniwaho.
+        [one] [one] ho haniwa mutaladzi 1.
+       *[other] *[other] { $rejectedSentences } ho haniwa mitaladzi.
     }
 
 ## LOGIN
