@@ -48,7 +48,8 @@ no-clips-to-validate = Zwi vhonala u nga a hu na zwo rekhodiwaho zwine na nga zw
 speak-paragraph = U rekhoda maipfi ndi tshipiḓa tsha u ita dataset yashu; vhaṅwe vha nga ri na tshenetshi ndi tshipiḓa tshi takadzaho.
 listen-paragraph = U khwaṱhisedza uri zwo rekhodiwaho ndi zwone ndi tshipikwa tsha ndeme vhukuma tsha Common Voice. Thetshelesani nahone ni ri thuse uri ri ite maipfi a vhuimo ha nṱha ane a ḓo kona u shumiswa nga nnyi na nnyi.
 help-make-dataset = Ri thuseni uri ri ite dataset ya vhuimo ha nṱha ya nnyi na nnyi
-email-subscription-title-new = Ḓiṅwaliseni uri ni wane maswa maswa a Common Voice, khumbudzo ya zwipikwa na apudeiti dza mvela phanḓa.
+sign-up-account = Itani Akhantu
+email-subscription-title = Ḓiṅwaliseni uri ni wane dzi apudeiti nga email
 
 ## Account Benefits
 
@@ -383,9 +384,14 @@ goal-help-validation = No thusa Common Voice u swikelela <goalPercentage></goalP
 record-platform-not-supported = Ri humbela pfarelo, puḽatifomo yaṋu a yi tikedziwi zwa zwino.
 record-platform-not-supported-desktop = Kha tshishumiswa tsha desktop ni nga shela mulenzhe nga u downḽoda…
 record-platform-not-supported-ios-non-safari = Kha iOS ri humbela uri ni bvele phanḓa ni tshi shumisa Safari u itela uri ni kone u rekhoda…
+record-must-allow-microphone = Ni tea u tendela uri makrofouni i shumiswe.
+record-error-too-short = Zwo rekhodiwaho zwo vha zwi zwi pfufhisa.
+record-error-too-long = Zwo rekhodiwaho zwo vha zwo lapfesa.
+record-error-too-quiet = Zwo rekhodiwaho zwo vha zwi fhasisa.
 review-tooltip = Ṱolisisani & ni dovholole u rekhoda ni tshi khou bvela phanḓa
 review-instruction = Ṱolisisani & dovhololani u rekhoda arali zwo fanela
 record-abort-text = Na ṱuwa zwino ni ḓo xelelwa nga mvela phanḓa yaṋu
+listen-instruction = { $actionType }<playIcon></playIcon> naa vho bula mutaladzi nga nga nḓila yone?
 listen-again-instruction = Mushumo wavhuḓi!<playIcon></playIcon> Dovhani ni thetshele musi no lugela
 listen-empty-state = Ro fhelelwa nga zwo rekhodiwaho zwine zwa ṱoḓa u khwaṱhisedzwa...
 listen-loading-error =
@@ -471,6 +477,7 @@ download-recordings-unavailable = Ni nga si kone u humbela zwe na rekhoda ngeno 
 download-recently-requested = Ni nga humbela uri ni dzhie zwe na rekhoda { $days } ḓuvha ḽiṅwe na ḽiṅwe.
 download-requests-info = Musi ni tshi humbela zwe na rekhoda, ri zwi panga kha faela ya ZIP nthihi kana nnzhi. Khumbelo dzaṋu dza tshifhinga tsho fhiraho khedzi:
 download-request-description = { $clipCount } maipfi o rekhodiwaho, saizi ya zwo vhulungwaho { $size }. Fhelelwa nga tshifhinga { $expires }.
+download-request-archive-multiple = Khethekanyani kha { $archiveCount } faela dza ZIP dzi re na
 download-request-assembling-description = Faela dzaṋu dzi khou dzudzanyiwa. Sedzani hafhu hu si kale.
 download-request-modal-description = Ḽinki khedzi dza u downḽoda faela dzaṋu dza ZIP.
 download-request-link-single = Ni nga kopa u ṋambatedza nga ho livhaho kha URLs u ya kha hune na ṱoḓa uri zwe na downḽouda zwi dzule hone. Zwi ḓo fhelelwa nga tshifhinga nga murahu ha awara dza 12, fhedzi ni nga dovha na vhuyelela kha ḽeneḽi siaṱari uri ni dovhe ni ite dziṅwe nga tshifhinga tshine na funa.
@@ -490,6 +497,7 @@ demo-welcome-subheader = Naa ni a takalela u guda zwinzhi na u shela mulenzhe kh
 
 demo-language-select-card-header = Common Voice ndi dataset khulwanesa ya nnyi na nnyi i re hone shangoni ḽoṱhe, ine ya vha nga maipfi a re nga nyambo nnzhi.
 demo-language-select-card-body = Ri livhuwa vhathu vho shelaho mulenzhe vha fhiraho 259k u bva kha nyambo dzi fhiraho 50, yeneyi data i khou shumiselwa u gudisa app dzi ḓivhaho ipfi uri dzi kone u fhindula khwine ipfi ḽa muthu.
+demo-eofy-sub_header = Dataset ya Maipfi, yo Lugelwa u Downḽodiwa
 
 ## Demo Account
 
@@ -525,6 +533,7 @@ contribution-misreadings-example-4-explanation = [Ho rekhodiwa zwi fhiraho mafhu
 contribution-misreadings-example-5-title = Ri khou ya u nwa gofhi.
 contribution-misreadings-example-6-title = Ri khou ya u nwa gofhi
 contribution-misreadings-example-7-title = Ri khou ya u nwa gofhi.
+contribution-misreadings-example-7-explanation = [A hu na 'a' kha maṅwalwa a u thoma]
 contribution-varying-pronunciations-description = Ni ṱhogomele uri ni sa ri zwo rekhodiwaho a si zwone nga ṅwambo wa uri muvhali ha ngo bula zwavhuḓi ipfi, kana o ombedzela fhethu hu si hone, kana khamusi o litsha u vhala tshiga tsha u vhudzisa. Hu na kubulele kwa maipfi kwo fhambananaho u mona na shango, kuṅwe kwa hone khamusi a ni athu u ku pfa vhuponi ha haṋu. Ri humbela uri ni ṱanganedze vhane vha amba nga nḓila yo fhambanaho na yaṋu.
 contribution-varying-pronunciations-description-extended = Kha ḽiṅwe sia, arali ni tshi vhona u nga muvhali ha athu vhuya a ṱangana na iḽo ipfi, nahone ho tou humbulelwa kubulele kwaḽo, ni songo zwi tendela. Arali ni si na vhungoho, shumisani gunubu ya u pfuka.
 contribution-varying-pronunciations-example-1-title = Ṱhohoni yawe o ambara muṅadzi.
@@ -580,6 +589,7 @@ sc-howto-cite-item-3 = Arali zwo ṅwalwaho zwa fhethu ha tshitshavha tshoṱhe 
 sc-howto-review-subtitle = Itani vhungoho ha uri mutaladzi u swikelela ṱhoḓea dzi tevhelaho:
 sc-howto-review-criteria-1 = Mutaladzi u tea u peḽeṱiwa nga nḓila yo teaho.
 sc-howto-review-criteria-2 = Mutaladzi u tea u vha na grama yo teaho.
+sc-howto-review-criteria-3 = Mitaladzi i tea u ambea.
 sc-howto-review-criteria-4 = Arali mutaladzi u tshi swikelea ṱhoḓea, puṱedzani bathene ya u "Phasisa".
 sc-howto-review-criteria-5 = Arali mutaladzi u sa swikeleli ṱhoḓea dzi re afho nṱha, puṱedzani gunubu ya "Hana". Arali ni si na vhungoho ha uri mutaladzi a si wone, ni nga u pfukha na pfukela kha u no khou tevhela..
 sc-howto-review-criteria-6 = Arali na fhelelwa nga mitaladzi ya u ṱolisisa, ri humbela uri ni ri thuse nga u kuvhanganya miṅwe mitaladzi minzhi!
@@ -625,6 +635,7 @@ sc-submit-filtered = Mitaladzi yo fiḽithariwaho ngauri a yo ngo swikelea ṱho
 ## ADD LANGUAGE
 
 sc-add-lang-sec-label = Pangani luambo lune na khou ṱoḓa u shela mulenzhe ngalwo
+sc-add-err-unexpected = Ho vhuya phindulo i songo lavhelelwaho u bva kha server
 # Variables:
 #   $duplicates (Number) - Number of sentences which got rejected because they are duplicates
 sc-add-result =
@@ -730,6 +741,7 @@ sc-personal-not-added = A ni athu u panga luambo na luthihi u swika zwino.
 sc-criteria-make-sure = Itani vhungoho ha uri mutaladzi u swikelela ṱhoḓea dzi tevhelaho:
 sc-criteria-item-1 = Mutaladzi u tea u peḽeṱiwa nga nḓila yo teaho.
 sc-criteria-item-2 = Mutaladzi u tea u vha na grama yo teaho.
+sc-criteria-item-3 = Mitaladzi i tea u ambea.
 sc-criteria-item-4 = Aali mutaladzi wo swikelela ṱhoḓea, puṱedzani &quot;Approve&quot; bathane i re kha tshanḓa tsha uḽa.
 sc-criteria-item-5-2 = Arali mutaladzi u sa swikeleli ṱhoḓea dzi re afho nṱha, puṱedzani &quot;Reject&quot; gunubu i re kha tsha monde. Arali ni si na vhungoho ha uri mutaladzi a si wone, ni nga u pfukha na pfukela kha u no khou tevhela.
 sc-criteria-item-6 = Arali na fhelelwa nga mitaladzi ya u ṱolisisa, ri humbela uri ni ri thuse nga u kuvhanganya miṅwe mitaladzi minzhi!
@@ -756,9 +768,13 @@ sc-review-form-review-failure = Zwe na ṱolisisa a zwi ngo vhulungea kana u sei
 ## SETTINGS
 
 sc-settings-skipped-decription = Murahuni no pfukha mitaladzi ni tshi khou vhalulula. U risetha mitaladzi yo pfukhiwaho zwi ḓo sumbedza mitaladzi yoṱhe ye na i pfukha. Hezwi zwi itea kha luambo luthihi nga tshetsho tshifhinga.
+sc-settings-show-all-button = Sumbedza mitaladzi yoṱhe yo pfukhiwaho
 sc-settings-failed = A zwo ngo konadzea u shandukisa dzi setiṅi. Ri humbela uri ni dovhe ni lingedze.
 # VALIDATION
 sc-validation-number-of-words = Mutaladzi u tea u vha na mapfi a 1 u swika kha 14
+sc-validation-no-numbers = Mitaladzi a yo ngo tea u vha na dzi nomboro
+sc-validation-no-symbols = Mitaladzi a yo ngo tea u vha na zwiga
+sc-validation-no-abbreviations = Mitaladzi a yo ngo tea u vha na zwo pfufhifhadzwaho
 
 # [/SentenceCollector]
 
