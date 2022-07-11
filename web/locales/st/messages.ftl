@@ -471,6 +471,7 @@ data-other-download = Download-a Data
 data-bundle-button = Download-a Sephuthelwana sa Polokelo ya Data
 release-version = Mofuta
 license-mixed = E tswakantswe
+data-download-singleword-title = Download karolo e lebisitsweng ya lentswe le le leng
 terms-agree = Kea dumela
 terms-disagree = Ha ke dumele
 review-submit-title = Hlahloba mme o Kenye
@@ -582,6 +583,7 @@ contribute-more =
        *[other] O ikemiseditse ho etsa { $count } tse ding?
     }
 record-cta = Qala ho rekota
+record-platform-not-supported-desktop = Ho disebediswa tsa desktop o ka kenya letsoho ka ho download-a...
 record-must-allow-microphone = O tlameha ho dumella tshebediso ya maekrofounu.
 record-no-mic-found = Ha ho maekerofounu e fumanweng.
 record-error-too-short = Rekoto e ne e le kgutshwanyane haholo.
@@ -610,6 +612,8 @@ listen-last-time-instruction = <playIcon></playIcon>Ya ho qetela!
 speak-empty-state-cta = Nehelana ka dipolelo
 record-button-label = Rekota lentswe la hao
 share-title-new = <bold>Re thuse</bold> ho fumana mantswe a mang
+keep-track-profile = Beha tswelopele ya hao leihlo ka profaele
+login-to-get-started = Kena kapa ingodise ho qalella
 target-segment-generic-card = O kenya letsoho karolong e lebeletsweng
 target-segment-add-voice = Kenya Lentswe la hao
 target-segment-learn-more = Ithute haholwanyane
@@ -829,6 +833,7 @@ sc-howto-addsen-title = Kenya dipolelo tse ntjha
 sc-howto-cite-title = Mokgwa wa ho Qotsa
 sc-howto-cite-item-3 = Bakeng sa mongolo wa setjhaba o sa fumaneheng marang-rang, o ka sebedisa mokgwa wa ditshupiso tsa thuto, mohlala, mokgwa wa Harvard "Jess (2021) dithothokiso tsa ka tsa laecence ya setjhaba"
 sc-howto-review-title = Hlahloba Dipolelo
+sc-howto-review-subtitle = Etsa bonnete ba hore polelo e fihlela mekgwa e latelang:
 sc-howto-review-criteria-1 = Polelo e tlameha ho peletwa ka nepo.
 sc-howto-review-criteria-2 = Polelo e tlameha ho nepahala ho ya ka sebopeho-puo.
 sc-howto-review-criteria-3 = Polelo e tlameha ho bueha.
@@ -922,6 +927,7 @@ sc-personal-added-by-you = { $sentences } tse kentsweng ke wena
 
 sc-criteria-modal = ⓘ Mekgwa ya Tlhatlhabo
 sc-criteria-title = Mekgwa ya Tlhatlhobo
+sc-criteria-make-sure = Etsa bonnete ba hore polelo e fihlela mekgwa e latelang:
 sc-criteria-item-1 = Polelo e tlameha ho peletwa ka nepo.
 sc-criteria-item-2 = Polelo e tlameha ho nepahala ho ya ka sebopeho-puo.
 sc-criteria-item-3 = Polelo e tlameha ho bueha.
@@ -930,6 +936,7 @@ sc-criteria-item-3 = Polelo e tlameha ho bueha.
 
 sc-review-title = Hlahloba Dipolelo
 sc-review-loading = E kenya dipolelo...
+sc-review-no-sentences = Ha ho na dipolelo tsa lokelwang ho hlahlojwa. <addLink>Kenya dipolelo tse ding hape hona jwale!</addLink>
 sc-review-form-prompt =
     .message = Dipolelo tse hlahlobilweng ha dia romellwa, na o tiile?
 # Variables:
