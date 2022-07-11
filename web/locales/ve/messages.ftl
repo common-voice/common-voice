@@ -381,15 +381,18 @@ target-segment-first-banner = Ri thuseni u ita tshipikwa tsha tshipiḓa tsha u 
 ## Reporting
 
 report-ask = Ndi thaidzo dzifhio dzine na khou ṱangana nadzo kha hoyu mutaladzi?
+report-offensive-language-detail = Hoyu mutaladzi u na mafhungo ane a nyadza kana a songo kunaho.
 report-grammar-or-spelling-detail = Hoyu mutaladzi u na vhukhakhi ha grama kana ha mupeḽeṱo.
 report-different-language-detail = Zwo ṅwaliwa nga luambo lu sa fani na lune nṋe nda khou amba ngalwo.
 report-difficult-pronounce-detail = I na maipfi kana mibulo ine ya konḓa u i vhala kana u i bula.
+report-offensive-speech-detail = Heyi rekhodo i na mafhungo ane a nyadza kana a songo kunaho.
 
 ## Goals
 
 
 ## Dashboard
 
+todays-recorded-progress = Mvela phanḓa ya ṋamusi ya Common Voice ya zwo rekhodiwaho
 todays-validated-progress = Mvela phanḓa ya ṋamusi ya Common Voice ya rekhodo dzo khwaṱhisedzwaho
 visibility-explainer = Hedzi sethiṅi dzi langa u vhonala haṋu kha leaderboard. Musi dzi kha u dzumbama, mvela phanḓa yaṋu a i nga vhonwi. Zwenezwi zwi amba uri tshinepe tshaṋu, user name na bvela phanḓa yaṋu a zwi nga bveleli kha leaderboard. Ni ṱhogomele uri yeneyi leaderboard i dzhia minete ~{ $minutes } uri i sumbedzwe zwe na shandula.
 visibility-overlay-note = Ṱhogomelani hezwi: Musi yo setiwa kha u 'Vhonala', heyi setiṅi i nga shandukisiwa kha <profileLink> siaṱari ḽa Profaiḽi</profileLink>
@@ -428,6 +431,7 @@ why-delete-recordings =
 
 ## Profile Download
 
+download-info = Ri vhudzeni zwine na nga tama u zwi downḽoda:
 download-profile-info = U katela email, username na zwidodombedzwa zwa muthu, zwi a wanala nga u ṱavhanya
 download-recordings-info = Zwi katela mp3 na mitaladzi i tshimbidzanaho nadzo, zwi nga dzhia tshifhinga u zwi lugiselela
 download-recordings-unavailable = Ni nga si kone u humbela zwe na rekhoda ngeno hu tshi kha ḓi vha na zwiṅwe zwe na zwi humbela zwi re nḓilani.
@@ -476,7 +480,9 @@ contribution-misreadings-description = Musi no thetshelesa, ni sedze zwavhuḓi 
 contribution-misreadings-description-extended-list-1 = Ho shotha <strong>'A'</strong> kana <strong>'The'</strong> mathomoni a zwo rekhodiwaho.
 contribution-misreadings-description-extended-list-3 = U vhala zwithu zwi si hoho, sa tsumbo "we're" nṱhani ha "we are" kana vaisa versa.
 contribution-misreadings-description-extended-list-4 = Ho shotha ipfi ḽa u fhedzisela ngauri rekhodo yo khathuwa ngau ṱavhanya
+contribution-misreadings-description-extended-list-5 = U lingedza lwo vhalaho u vhala ipfi.
 contribution-misreadings-example-3-explanation = [Zwo rekhodiwaho zwo khathuwa ipfi ḽa u fhedza ḽi sa athu fhelela]
+contribution-misreadings-example-4-title = Dinosaurs khulu ya Triassic. Ee.
 contribution-misreadings-example-4-explanation = [Ho rekhodiwa zwi fhiraho mafhungo a ṱoḓeaho]
 contribution-misreadings-example-5-title = Ri khou ya u nwa gofhi.
 contribution-misreadings-example-7-title = Ri khou ya u nwa gofhi.
