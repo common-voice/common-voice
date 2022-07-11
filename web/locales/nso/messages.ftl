@@ -264,6 +264,7 @@ email-subscription-title = ngwadiša go hwetša mpshafatšo go e-meile
 
 benefits = Mehola
 rich-data = Dira gore datha ya gago yeo o e rometšwego e be e ntši kamoo go ka kgonegago ka gona ka go nea ka datha ya go se tsebje. Re itlhaola datha ka moka ka palo ya batho pele re e phatlalatša.
+keep-track = Dula o tseba boemo bja gago bja tšwelopele le di metrike tša dipolelo tše dintši.
 view-goals = Lebelela tšwelopele ya gago o e lebantše le di pakane tša gago le tša projeke.
 
 ## What's public
@@ -307,6 +308,11 @@ request-language-button = Kgopela polelo
 
 status-title = Bontši ba boemo bja projeke: bona gore o fihla bokgoleng bofe!
 status-contribute = Neela Lentšu la Gago
+status-hours =
+    { $hours ->
+        [one] Iri e tee e kgonthašitšwego go fihlela bjale!
+       *[other] { $hours } diiri tše kgonthašitšwego go fihlela bjale!
+    }
 # Variables:
 # $goal - number of hours representing the next goal
 status-goal = Dipakane tše Latelang: { $goal }
@@ -543,6 +549,7 @@ about-playbook-how-record-content-5 = <accuracyLink>Bona se se fetago ka mo go n
 
 ## How to grow language
 
+about-playbook-how-grow-language = Re ka godiša polelo bjang ka katlego go Common Voice?
 about-playbook-how-grow-language-content-1 = Go hlagwa menyetla ya gore batho bao ba fapa-fapanego ba tsentšha letsogo go Common Voice go netefatša gore dathasete e hlankela batho ba bantši kamoo go ka kgonegago. Re hlangwe ditlabakelo le dithempleite tšeo o ka di šomišago!
 about-playbook-how-grow-language-content-2 = Ditiragalo
 about-playbook-how-grow-language-content-3 = O ka tsamaiša ditiragalo go thuša batho go neela. Go bonolo go feta kamoo o naganago ka gona. O ka e dira inthaneteng ka go diriša lenaneo la bidio inthaneteng, goba motho ka nama ge e ba go bolokegile. <eventTemplate>Lebelela dithempleite tša rena le ditlabakelo tša go tsamaiša ditiragalo</eventTemplate>.
@@ -554,6 +561,7 @@ about-playbook-how-grow-language-content-8 = <strong>Diriša bohlale!!</strong> 
 
 ## How to validate
 
+about-playbook-how-validate = Ke tseba bjang gore na nka amogela pego?
 about-playbook-how-validate-content-2 = <strong>O se ke wa gana ditsopolwa moo seboledi ‘seo se nago le mmolelo’ woo o fapanego le wa gago</strong> - seo se bohlokwa gore temogo ya lentšu e šome kaone bakeng sa batho bohle.
 about-playbook-how-validate-content-3 = Ge e ba o nagana gore mokgwa wa go piletšo ya mantšu e dira gore go<strong> se ke gwa kgonega go kwešišana</strong>, goba go na <strong> lešata le lentši</strong>, goba go ba le<strong>batho ba bagwe bao ba bolelago</strong>, bjale o ka gana setsopolwa seo. <accuracyLink>Bona tshedimošo ye nngwe ya kritheriya ya go nepagala</accuracyLink>.
 about-playbook-how-validate-content-4 = Ge e le gore pego e ganwe ke batho ba babedi (2), e tla lokollwa ka gare ga sehlopha se fapanego sa dathasete.
@@ -717,6 +725,7 @@ request-language-form-info =
     .label = Tsebišo mabapi le leleme
 request-language-form-info-explanation-list-1 = Maina a leleme la gago
 request-language-form-info-explanation-list-2 = <isoCodeLink>ISO Khoutu</isoCodeLink> ge e ba e tsebja.
+request-language-form-info-explanation-list-3 = Di-linke tša wepesaete tše di ka re thušago go kwešiša polelo
 request-language-google-recaptcha-required = reCAPTCHA e ya nyakega ge e ba o nyaka go tšwelapele
 request-language-google-recaptcha-error = Go nale se phošo e diregilego ka reCAPTCHA. Re kgopela o leke gape.
 # Success page
@@ -877,6 +886,7 @@ easy-difficulty = Bonolo
 average-difficulty = Palo-gare
 difficult-difficulty = Bothatha
 pro-difficulty = Thekgo
+lose-goal-progress-warning = Ka go thulaganya pakane ya gago, o ka lahlalelwa ke tšwelopelo ya gago e bego gona.
 want-to-continue = O nyaka go tšwela pele?
 lose-changes-warning = Go tšwa gona bjale go bolela gore o tlo lahlagelwa ke diphetogo tša gago
 build-custom-goal = Aga pakane e swanelegilego
@@ -958,6 +968,7 @@ download-request-button = Goga go tšwa inthaneteng
 download-request-description = { $clipCount } ditsopolwa tša lentšu, palo-moka ya bogolo bja lotela ruri { $size }. E felelwa ke nako { $expires }.
 download-request-archive-single = Faele e tee ya ZIP e nang le
 download-request-archive-multiple = Aroganya go { $archiveCount } di faele tša ZIP tše swerego
+download-request-assembling-description = Difaele tša gago di ya kopantšwa. Re kgopela o lebelele gape ka morago.
 download-request-refresh-button = Mpshafatša
 download-request-modal-title = Tanelouta di-Linke
 download-request-modal-description = Di-linke tša go tanelouta di faele tša ZIP ke tše.
@@ -1003,6 +1014,7 @@ demo-listen-subtitle = O ikemeditše go neela?
 
 ## Demo Dashboard
 
+demo-dashboard-card-header = Boitšhupo bja dashboard bo tla go tsebiša seo se diregago ka tšwelopele ya motho le ya naga.
 demo-dashboard-card-body = Bakeng sa setsopolwana se sengwe le sengwe sa lentšu le neetšwego, gomme setsopolwana se sengwe le se sengwe sa odio se kgonthišwe, di-dashpoto tša akhaonto ya gago di a kaonefatšwa go bontšha tšwelo pele ya gago ya moragorago go ye nngwe le ye nngwe ya lpolelong yeo o neelago go yona. Ee, o ka neela go tše fetago e tee!<br/><br/> Šomiša di-dashpoto go latela dipalo-palo tša gago, go bona gore na o šoma bjang le batho ba bangwe setšhabeng, gomme o beele dipakane tša letšatši le letšatši goba tša beke le beke.
 
 ## Validation criteria
@@ -1014,12 +1026,14 @@ contribution-criteria-page-description = Kwešiša gore ke eng se o swanetše go
 contribution-for-example = Ka mohlala
 contribution-misreadings-title = Di balo tše fošagetšego
 contribution-misreadings-description = Ge o theeditše, hlahloba ka kelohloko gore na seo se gatišitšwego ke sona seo se ngwadilwego; gana ge e ba go na le diphošo tše nyenyane. <br />Diphošo tše di tlwaelegilego kudu di akaretša:
+contribution-misreadings-description-extended-list-1 = Go hloka <strong>'A'</strong> goba <strong>'The'</strong> mathomong a pego.
 contribution-misreadings-description-extended-list-2 = Go hloka<strong>'s'</strong> mafelelong a lentšu.
 contribution-misreadings-description-extended-list-5 = Tšea maiteko a mmalwa a go bala lentšu.
 contribution-misreadings-example-1-title = Dinosaur e kgolo ya Triassic.
 contribution-misreadings-example-2-title = Dinosaur e kgolo ya Triassic.
 contribution-misreadings-example-2-explanation = [Should be ‘dinosaurs’]
 contribution-misreadings-example-3-title = Dinosaur e kgolo ya Triassi-.
+contribution-misreadings-example-3-explanation = [Recording cut off before the end of the last word]
 contribution-misreadings-example-4-title = Dinosaur e kgolo ya Triassic. Ee.
 contribution-misreadings-example-4-explanation = [More has been recorded than the required text]
 contribution-misreadings-example-5-title = Re ilo go hwetša kofi.
@@ -1111,6 +1125,7 @@ sc-howto-review-subtitle = Netefatša gore lefoko le latela kriteria ye:
 sc-howto-review-criteria-1 = Lefoko le swanetše go ngwalwa ka nepo.
 sc-howto-review-criteria-2 = Lefoko le swanetše go nepagala ka popopolelo.
 sc-howto-review-criteria-3 = Lefoko le swanetše gore le kgone go bolelwa.
+sc-howto-review-criteria-4 = Ge e ba lefoko le lebane le kriteria, klika konotswana ya "Amogela"
 sc-howto-review-criteria-5 = Ge e ba lefoko ga le fihlelele kritheriya tša ka godimo, tobetsa setobetšwa sa “Gana”. Ge e ba o sa kgonthišege ka lefoko, o ka boela wa e taboga gomme o fetele go e latelago.
 sc-howto-findpd-title = Go hwetša mafoko a go ba gona Lefelong la Setšhaba.
 sc-howto-findpd-subtitle = Di nyake Inthaneteng
@@ -1157,6 +1172,8 @@ sc-submit-err-select-lang = Ka kgopelo kgetha polelo.
 sc-submit-err-add-sentences = Ka kgopelo tsenya mafoko.
 sc-submit-err-add-source = Ka kgopelo tsenya mothopo.
 sc-submit-err-confirm-pd = Ka kgopelo netefatša gore mafoko a ke ya mafelong a batho bohle.
+sc-submit-prompt =
+    .message = Mafoko ga a romelwa, na o na le bonnete ba gore o nyaka go tšwa?
 sc-submit-title = Tsenya Mafoko
 sc-submit-select-language =
     .labelText = Kgetha Leleme
@@ -1196,6 +1213,8 @@ sc-add-err-submission = Phošo ya go Romela
 
 ## ADD SENTENCES CONFIRMATION
 
+sc-confirm-are-you-sure =
+    .message = Mafoko ga a romelwa, na o na le bonnete ba gore o nyaka go tšwa?
 sc-confirm-sentences-title = Tiišetša Mafoko a ma Mphsa
 # Variables:
 #   $countOfSentences (Number) - Number of sentences the user has filled in the submission form
