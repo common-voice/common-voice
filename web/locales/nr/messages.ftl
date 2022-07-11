@@ -484,6 +484,7 @@ faq-why-10k-hours-a =
     Lawa ma-awara okungenzeka
     ayatlhogeka bona ufake ikulumo emtjhinini.
 faq-how-calc-hours-q = ICommon Voice iwabala njani ama-awara?
+faq-how-calc-hours-a = Sibala ama-awara ngokuthi silinganisele isikhathi sokurekhodiweko kunye, bese sibuyelela inomboro leyo ngesilinganiso esipheleleko sokurekhodiweko ngamalimi woke.
 faq-where-src-from-2-q = Ukuphi umthombo wemitlolo?
 faq-where-src-from-2-a =
     Okutloliweko kwethu kwenziwe banikeli kuhlanganise nemikhulumiswano eyenzeka emphakathini eenkripthini  <italic>zamamuvi njengesithi-Wonderful Life</italic>.
@@ -547,7 +548,7 @@ about-is-it-valid-text = Okurekhodiweko kutshwaywa ngokuthi "Kuphasile" lokha ok
 about-yes-votes = Kunamavowudi ama-≥ 2
 about-yes-votes-text = Bona uphumelele ukungena ehlelweni le-Common Voice iphimbo kufuze liphasiswe babantu ababili abahlukileko.
 about-no-votes = Kunamavowudi ama≥ 2
-about-no-votes-text = Kunamavowudi ama≥ 2
+about-no-votes-text = Nange umuntu ala iphimbo elithileko libuyala ku-Queue. Nalaliwa kwesibili, iphimbo litjinga ku-Clip Graveyard.
 about-dataset-new = I-Common Voice Dataset
 about-clip-graveyard = Iinqetjhana ezilahliweko
 about-clip-graveyard-text =
