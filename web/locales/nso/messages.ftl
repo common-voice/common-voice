@@ -184,6 +184,7 @@ yi = Se-Yiddish
 yo = Se-Yoruba
 yue = Se-Cantonese
 zh-CN = Se-China (China)
+zh-HK = Se-China (Hong Kong)
 zh-TW = Se-China (Taiwan)
 zu = SeZulu
 
@@ -205,6 +206,7 @@ terms = Mantšu
 cookies = Dikhuki
 faq = Dipotšišo tše di Botšišwago Gantši
 link-copied = Linke e kopotšwe
+back-top = Boela godimo
 logout = Etšwa
 
 ## Home Page
@@ -224,6 +226,11 @@ hours-validated = Diiri di Kgonthišitšwe
 todays-progress = Tšwelopele ya Lehono
 all-locales = Ka moka
 today = Lehono
+x-weeks-short =
+    { $count ->
+        [one] Beke
+       *[other] { $count }wk
+    }
 x-years-short =
     { $count ->
         [one] { "" }
@@ -321,6 +328,7 @@ help-accent-explanation = Mmolelo wa gago ke tsela yeo o bitšago matšu ka gona
 
 ## Profile - Email
 
+connect-gravatar = Kgokaganya le Gravatar
 avatar-uploaded = Tsenya Motšeakarolo
 max-file-size = { $kb }kb max
 remove-avatar = Tloša Motšeakarolo
@@ -378,6 +386,7 @@ about-listen = Ekwa
 about-yes-votes = ≥ 2 Ee dikgetho
 about-yes-votes-text = Go e dira gore e tsene go dathasete ya Common Voice, pego ya lentšu e swanetše go netefatšwa ke bašomiši ba babedi ba go fapana.
 about-no-votes = ≥ 2 Aowa dikgetho
+about-dataset-new = Dathasete ya Common Voice
 about-dataset-new-text = Dathasete ya Common Voice e nale di pego tše makgolo le dikete ya mehlala ya manntšu e thušago ba batšweletša ba agang sedirišwa sa temogo ya lentšu.
 about-clip-graveyard = Setsopolwa sa Graveyard
 about-clip-graveyard-text = Setsopolwa sa Graveyard se na le dirakolo tša lentšu tše di sa fihlaho go dathasete ya Common Voice. Bjalo ka dathasete, setsopolwa sa Graveyard ya hwetšagala bakeng sa go tanelouta.                               Re ka rata go leboga batho le mekgatlo e latelago ka thušo ya bona morerong o:
@@ -567,15 +576,22 @@ contribute = Neela
 listen = Theeletša
 skip = Tshela
 shortcuts = Kgaoletšo
+clips-with-count-pluralized =
+    { $count ->
+        [one] <bold>{ $count }</bold> Pego
+       *[other] <bold>{ $count }</bold> Dipego
+    }
 record-cta = Thoma pego
 record-cancel = Khansela go rekhota gape
 record-stop-instruction = { $actionType }<stopIcon></stopIcon> ge o feditše.
 record-last-instruction = <recordIcon></recordIcon> Ya mafelelo!
+record-submit-tooltip = { $actionType } tsenya ge o lokile
 clips-uploaded = Ditsopolwa di Tsene
 record-abort-submit = Romela ditsopolwa
 record-abort-continue = Fetša kgatišo
 listen-last-time-instruction = <playIcon></playIcon>Ya mafelelo!
 speak-empty-state-cta = Neela ka mafoko
+target-segment-add-voice = Tsenya Lentšu la Gago
 target-segment-learn-more = Ithute ka mo go oketšegilego
 
 ## Reporting
@@ -593,10 +609,28 @@ continue = Tšwela pele
 ## Goals
 
 streaks = Mothaledi
+days =
+    { $count ->
+        [one] Letšatši
+       *[other] Matšatši
+    }
+recordings =
+    { $count ->
+        [one] Kgatišo
+       *[other] Dikgatišo
+    }
+validations =
+    { $count ->
+        [one] Kgonthišišo
+       *[other] Dikgonthišišo
+    }
 
 ## Dashboard
 
+your-languages = Maleme a Geno
 goal-reached = Go fihlelela pakane
+clips-you-recorded = Di-Odio tše O di Gatišitšego
+clips-you-validated = Di-Odio tše O di Kgonthišitšego
 stats = Di-Stats
 awards = Difoka
 you = Wena
@@ -635,6 +669,11 @@ activity-needed-calculation-plural =
     }
 receiving-emails-info = Gona bjale o loketše go hwetša di-emeile tša go swana le dikgopotšo tša dipakane, sebontšhatšwelopele le mangwalo a ditaba tša Common Voice.
 not-receiving-emails-info = Gona bjale o ka <bold>GANA</bold> go hwetša lenaneo la poso la dikgopotšo tša dipakane,  sebontšhatšwelopele le mangwalo a ditaba tša Common Voice
+n-clips-pluralized =
+    { NUMBER($count) ->
+        [one] { $count } setsopolwa
+       *[other] { $count } ditsopolwa
+    }
 confirm-goal = Tiišetša Pakane
 goal-interval-weekly = Beke le beke
 share-goal-type-speak = Go bolela
@@ -654,6 +693,7 @@ profile-form-delete = Phumola Profaele
 ## Profile Download
 
 download-profile-title = Pego
+download-profile-size = Di-bytes tše mmalwa
 download-recordings-title = Dikgatišo
 download-recordings-size = Megabytes e tlwaelegilego
 download-size = Bogolo bja yona
@@ -679,6 +719,7 @@ help-contribute = O ka thuša go aga di dathasete tše di fapanego tša mothopo 
 card-button-next = Latelago
 card-button-back = Morago
 demo-language-select-label = Poraosa Maleme
+demo-eofy-header = 2019 Lokollo ya Mafelelong a Ngwaga
 demo-account = Akhaonte
 
 ## Demo Account
@@ -699,6 +740,7 @@ contribution-criteria-page-title = Ditiragalotšeletšwa tša Kriteria
 contribution-criteria-page-description = Kwešiša gore ke eng se o swanetše go se lebelela ge o theeletša dipego gomme o thutše go dira direkhoto tša gago tša lentšu di hume!
 contribution-for-example = Ka mohlala
 contribution-misreadings-title = Di balo tše fošagetšego
+contribution-misreadings-example-2-explanation = [Should be ‘dinosaurs’]
 contribution-misreadings-example-8-explanation = [Mismatched content]
 contribution-varying-pronunciations-title = Dipiletšo tša Mantšu tše Fapanego
 contribution-varying-pronunciations-description = Eba šedi pele o gana setsopolwana ka baka la gore mmadi ga a bitša lentšu ka tsela e fošagetšego, o beile kgateletšo lefelong le fošagetšego, goba go bonagala a hlokomologile letswao la potšišo. Go na le mehuta e mentši ya go bitšwa ga mantšu e didirišwago lefaseng ka bophara, yeo mohlomongwe o se ke wa ekwa setšhabeng sa geno. Ka kgopelo nea ka moedi wa tebogo go bao ba bolelago ka tsela e fapanego le ya gago.
@@ -752,6 +794,7 @@ sc-home-review-title = Poeletšo ya mafoko
 ## HOW-TO
 
 sc-howto-title = Dira bjang
+sc-howto-addsen-title = Tsenya mafoko a ma Mphsa
 sc-howto-addsen-item-1 = Mafoko ka moka ao o wa rometšego a swanetše go ba ka tlase ga<wikipediaLink> laesense ya Mafelong a Batho Bohle (CC-0)</wikipediaLink>. Ho thekga go akeretšwa ga mošomo o sego ka tlase ga laesense ya setšhaba, re hlangwe <cc0WaiverLink>thempleite ya Dumelano ya Neelano</cc0WaiverLink> bakeng sa mešomo moo mong wa ditokelo tša molao a ka rata go neela dintlha go Common Voice.
 sc-howto-addsen-item-2 = Dinomoro. Ga se gwa swanela go ba le dinoromo mangwalong a mothopo gobane di ka baka mathata ge o hlaboša lentšu. Tsela yeo palo e balwago ka gona e ithekgile ka kamano ya taba gomme e ka hlagiša gakantšhago go dathasete. Ka mohlala, palo ya “2409” e ka balwa ka nepo e le “mašome-pedi le metšo nne lefeela le senyane” le “dikete tše pedi le makgolo a mane le metšo e senyane”.
 sc-howto-addsen-item-3 = Dikhutsofatšo le mantšu a khutsofadišwego go swana le “USA”  goba “ICE” di swanetše go phengwa mongwalong wa mothopo  ka baka la gore di ka balwa ka tsela e sa dumelelanago le mopeleto wa tšona. Go oketša moo, go ka ba le dipalo tše dintši tše nepagetšego bakeng sa khutsofatšo e le nngwe. Ka mohlala, khutsofatšo “ICE” e ka bitšwa “I-C-E” goba e le lentšung letee.
@@ -811,6 +854,10 @@ sc-add-err-submission = Phošo ya go Romela
 
 ## ADD SENTENCES CONFIRMATION
 
+sc-confirm-sentences-title = Tiišetša Mafoko a ma Mphsa
+# Variables:
+#   $countOfInvalidated (Number) - Number of sentences the user rejected in the review form before submission
+sc-confirm-rejected-by-you = { $countOfInvalidated } di ganwego ke wena
 sc-confirm-already-reviewed =
     { $countOfReviewed ->
         [0] 0] Ga gona lefoko le ahlolotšwego.
@@ -843,7 +890,11 @@ sc-login-err-failed = Go tsena go ganne
 # Variables:
 #   $username (String) - eMail address of the logged in user
 sc-profile-title = Profaele: { $username }
+sc-personal-your-languages = Maleme a Gago:
 sc-personal-remove-button = Tloša
+# Variables:
+#   $sentences (Number) - Number of sentences that were added by the currently logged in user for this language
+sc-personal-added-by-you = { $sentences } di tsentšwego ke wena
 
 ## REVIEW CRITERIA
 
