@@ -24,11 +24,13 @@ error-something-went-wrong = Uxolo, kukhona okungahmabnga kahle
 ## Languages
 
 arn = Mapudungun
+ca = Catalan
 cak = Kaqchikel
 ckb = Central Kurdish
 cnh = Hakha Chin
 co = Corsican
 cs = Czech
+cv = Chuvash
 cy = Welsh
 da = Danish
 de = German
@@ -167,6 +169,7 @@ vot = Votic
 xh = Xhosa
 yi = Yiddish
 yo = Yoruba
+yue = Cantonese
 zh-CN = Chinese (China)
 zh-HK = Chinese (Hong Kong)
 zh-TW = Chinese (Taiwan)
@@ -344,6 +347,7 @@ goals = Izinhloso
 settings = Izilungiselelo
 edit-profile = Hlela iphrofayela
 profile-create-success = Impumelelo, iphrofayela yakhekile!
+profile-close = Vala
 profile-explanation = Landelela inqubekela-phambili yakho ngephrofayela futhi usize idatha yethu yezwi inembe kakhulu.
 thanks-for-account = Siyabonga ngokuqinisekisa i-akhawunti yakho, manje asakhe iphrofayela yakho.
 why-demographic = Kungani kubalulekile lokhu?
@@ -658,6 +662,7 @@ missing-language = Awuboni ulimi lwakho luboniswa Kusethi Yedatha? Ukucela ulimi
 go-languages-page = Iya Ekhasini Lezilimi
 ready-to-validate = Ulungele ukusiza ukuqinisekisa imisho?
 more = Okwengeziwe
+close = Vala
 download = Downloda
 dataset-version = Inguqulo
 
@@ -740,6 +745,7 @@ language-validation-progress = Inqubekelaphambili Yokuqinisekisa
 
 ## Contribution
 
+action-click = Chofoza
 action-tap = Thepha
 contribute = Faka isandla
 listen = Lalela
