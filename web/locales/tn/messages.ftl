@@ -89,6 +89,7 @@ wall-of-text-second =
     mongwe le mongwe a kgone go bona le go fitlhelela temogo ya mantswe.
 help-us-explain = Tobetsa tshameka, reetsa & re bolelele: a ba buile mola o o fa tlase ka tsela e e nepagetseng?
 no-clips-to-validate = Go lebega go se na dikgatiso dipe tse di tlhokang go reediwa mo puong eno. Re thuse go di oketsa ka go rekota dingwe gone jaanong.
+vote-yes = Ee
 speak-paragraph = Go rekota mantswe ke karolo e e botlhokwa thata e e thusang go aga rekoto ya tshedimosetso; ba bangwe ba ka re gape ke karolo e e itumedisang.
 speak-goal-text = Dibidio di rekotilwe
 listen-paragraph = Go tlhomamisa dikgatiso tse di abilweng le gone go botlhokwa mo maikaelelong a Common Voice. Reetsa mme o re thuse go dira tshedimosetso e e nang le boleng ya mantswe.
