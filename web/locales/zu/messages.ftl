@@ -20,6 +20,7 @@ error-something-went-wrong = Uxolo, kukhona okungahmabnga kahle
 
 ckb = Central Kurdish
 cnh = Hakha Chin
+cy = Welsh
 dsb = Sorbian, Lower
 gom = Goan Konkani
 hsb = Sorbian, Upper
@@ -44,6 +45,7 @@ sat = Santali (Ol Chiki)
 st = Southern Sotho
 tok = Toki Pona
 ts = Xitsonga
+xh = Xhosa
 yi = Yiddish
 yo = Yoruba
 zh-CN = Chinese (China)
@@ -658,6 +660,7 @@ n-clips-pluralized =
     }
 help-share-goal = Sisize sithole amazwi engeziwe, wabelane ngenjongo yakho
 confirm-goal = Qinisekisa Inhloso
+goal-interval-weekly = Njalo ngeviki
 # $type is one of share-goal-type-*
 share-n-daily-contribution-goal = Yabelana nge-{ $count } Inhloso yakho Yansuku Zonke Yeziqeshana we-{ $type }
 # $type is one of share-goal-type-*
