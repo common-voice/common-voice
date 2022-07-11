@@ -49,6 +49,7 @@ tig = Se-Tigre
 yue = Se-Canton
 zh-CN = Se-China (China)
 zh-TW = Se-China (Taiwan)
+zu = Se-Zulu
 
 # [/]
 
@@ -425,6 +426,7 @@ continue = Tswelela
 ## Dashboard
 
 awards = Dikgele
+you = Wena
 visibility-explainer = Seting eno e laola tsela e o bonang lenaane la baetapele ka yone. Fa e fitlhegile, kgatelopele ya gago e tla nna ya poraefete. Seno se raya gore setshwantsho sa gago, leinatiriso la gago le kgatelopele ya gago ga di kitla di bonala mo lenaaneng la baetapele. Ela tlhoko gore go tlhabolola lenaane la baetapele go tsaya metsotso e le ~{ $minutes } go bontsha diphetogo.
 visibility-overlay-note = Ela tlhoko: Fa e beilwe mo go 'Bonagala', o ka kgona go fetola seting eno mo <profileLink>tsebeng ya Porofaele</profileLink>
 
