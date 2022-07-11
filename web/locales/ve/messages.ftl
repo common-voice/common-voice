@@ -104,6 +104,7 @@ help-variants-explanation = Dzi Variants ndi mufuda wo khetheaho wa luambo – u
 
 ## Profile - Email
 
+file_too_large = Faela ye na i nanga ndi khulwanesa
 
 ## Profile - Email
 
@@ -221,6 +222,7 @@ about-playbook-how-localize-content-1 = U ḓologa kana u ṱalutshedza saiti ya
 about-playbook-how-localize-content-2 = <pontoonAccountLink>Itani akhanthu</pontoonAccountLink> arali ni sa athu u vha nayo. Ni kone u khetha luambo <strong>(‘Team’)</strong> nahone ni kone u khetha thandela, <pontoonCvLink>Common Voice</pontoonCvLink>. Hu ḓo vha na dzi faela dzine na ḓo dzi ṱalutshedzela. Puṱedzani iṅwe yadzo, i ḓo kona u ni sumbedza maipfi nga Luisimane na bogisi ḽine na ḓo ṱalutshedzela khaḽo.
 about-playbook-how-localize-content-3 = Hu ṱalutshedzeliwa zwi tshi bva kha Luisimane, fhedzi ni nga vhona <strong>Nyeletshedzo</strong> nga dziṅwe nyambo. Puṱedzani <strong>Phurofaiḽi</strong> icon, ni kone u ya kha <strong>Sethiṅi</strong> ḽinki nahone ni dzhenise nyambo dzine na dzi amba. Fhasi-fhasi kha tsha monde kha khona hu ḓo vha hu na mutevhe wa zwo ṱalutshedzelwaho zwi vhidzwaho <strong>Locales</strong>. Zwo ṱalutshedzwaho zwi dzhena kha website nga murahu ha ḓuvha ḽithihi.
 about-playbook-how-localize-content-4 = Saiti yo lugela u ḽontsha musi i tshi vha 75% tsini na u fhela.
+about-playbook-how-localize-content-5 = Vhonani vidio yashu ya u ṱalutshedza uri ni thusalee
 
 ## How to add sentences
 
@@ -493,6 +495,9 @@ contribution-misreadings-description-extended-list-1 = Ho shotha <strong>'A'</st
 contribution-misreadings-description-extended-list-3 = U vhala zwithu zwi si hoho, sa tsumbo "we're" nṱhani ha "we are" kana vaisa versa.
 contribution-misreadings-description-extended-list-4 = Ho shotha ipfi ḽa u fhedzisela ngauri rekhodo yo khathuwa ngau ṱavhanya
 contribution-misreadings-description-extended-list-5 = U lingedza lwo vhalaho u vhala ipfi.
+contribution-misreadings-example-1-title = Dinosaurs khulu ya Triassic.
+contribution-misreadings-example-2-title = Dinosaur khulu ya Triassi-.
+contribution-misreadings-example-3-title = Dinosaurs khulu ya Triassi-.
 contribution-misreadings-example-3-explanation = [Zwo rekhodiwaho zwo khathuwa ipfi ḽa u fhedza ḽi sa athu fhelela]
 contribution-misreadings-example-4-title = Dinosaurs khulu ya Triassic. Ee.
 contribution-misreadings-example-4-explanation = [Ho rekhodiwa zwi fhiraho mafhungo a ṱoḓeaho]
@@ -507,6 +512,7 @@ contribution-varying-pronunciations-example-2-explanation = [Ipfi ḽa Luisimane
 contribution-background-noise-description = Ri ḓo ṱoḓa uri algorithm dza machine learning dzi kone u fhambanyisa phosho i re nga murahu, na phosho ya khulwane i nga tendela, fhedzi a yo ngo tea u thivhela uri ni pfe zwoṱhe zwo ambiwaho. Muzika u re fhasi wo tendelwa; muzika u ne wa khou ita phosho lune ni si kone u pfa maipfi oṱhe ane muṅwe a khou a amba a wo ngo tendelwa.
 contribution-background-noise-description-extended = Arali rekhodo yo khathuwa, kana i na manzaranzara, i haneni nga nnḓani ha musi mafhungo oṱhe a tshi khou pfala.
 contribution-background-noise-example-1-fixed-title = <strong>[Sneeze]</strong> Dinosaurs khulu ya <strong>[cough]</strong> Triassic.
+contribution-background-noise-example-2-fixed-title = Dino khulu <strong>[cough]</strong> ya Triassic.
 contribution-background-noise-example-2-explanation = [Tshipiḓa tsha mafhungo a tshi pfali]
 contribution-background-voices-description = Fhethu hu re na vhathu fhedzi ho fhumuaho ho luga, fhedzi a ri ṱoḓi uri hu pfale maṅwe maipfi ane a nga ita uri mitshini ya algorithm i ḓivhe zwiṅwe zwine zwa khou ambiwa zwi songo ṅwalwaho. Arali ni tshi khou pfa maipfi o khetheaho a siho kha mitaladzi yo ṅwalwaho, zwo rekhodiwaho a zwo ngo tendelwa. Zwenezwi zwi nga itea musi TV yo sala i tshi khou tamba, kana hu na vhathu vhane vha khou amba tsini na henefho.
 contribution-background-voices-description-extended = Arali rekhodo yo khathuwa, kana i na manzaranzara, i haneni nga nnḓani ha musi mafhungo oṱhe a tshi khou pfala.
@@ -549,6 +555,8 @@ sc-howto-cite-item-1 = Ni nga katela na website, e.g "Common Voice - https://com
 sc-howto-cite-item-2 = Ni nga shumisa tshi taela tsha academic ni tshi ita dzi referentsi, sa tsumbo Harvard style "Mozilla (2021) Common Voice. Zwi wanala kha https://commonvoice.mozilla.org/ (Accessed: 15th Khumbvumedzi 2021)"
 sc-howto-cite-item-3 = Arali zwo ṅwalwaho zwa fhethu ha tshitshavha tshoṱhe zwi si ho onḽaini, ni nga shumisa tshitaela tsha academic reference. Sa tsumbo, Harvard style "Jess (2021) My Public licence poems"
 sc-howto-review-subtitle = Itani vhungoho ha uri mutaladzi u swikelela ṱhoḓea dzi tevhelaho:
+sc-howto-review-criteria-1 = Mutaladzi u tea u peḽeṱiwa nga nḓila yo teaho.
+sc-howto-review-criteria-2 = Mutaladzi u tea u vha na grama yo teaho.
 sc-howto-review-criteria-4 = Arali mutaladzi u tshi swikelea ṱhoḓea, puṱedzani bathene ya u "Phasisa".
 sc-howto-review-criteria-5 = Arali mutaladzi u sa swikeleli ṱhoḓea dzi re afho nṱha, puṱedzani gunubu ya "Hana". Arali ni si na vhungoho ha uri mutaladzi a si wone, ni nga u pfukha na pfukela kha u no khou tevhela..
 sc-howto-review-criteria-6 = Arali na fhelelwa nga mitaladzi ya u ṱolisisa, ri humbela uri ni ri thuse nga u kuvhanganya miṅwe mitaladzi minzhi!
@@ -695,6 +703,8 @@ sc-personal-not-added = A ni athu u panga luambo na luthihi u swika zwino.
 ## REVIEW CRITERIA
 
 sc-criteria-make-sure = Itani vhungoho ha uri mutaladzi u swikelela ṱhoḓea dzi tevhelaho:
+sc-criteria-item-1 = Mutaladzi u tea u peḽeṱiwa nga nḓila yo teaho.
+sc-criteria-item-2 = Mutaladzi u tea u vha na grama yo teaho.
 sc-criteria-item-4 = Aali mutaladzi wo swikelela ṱhoḓea, puṱedzani &quot;Approve&quot; bathane i re kha tshanḓa tsha uḽa.
 sc-criteria-item-5-2 = Arali mutaladzi u sa swikeleli ṱhoḓea dzi re afho nṱha, puṱedzani &quot;Reject&quot; gunubu i re kha tsha monde. Arali ni si na vhungoho ha uri mutaladzi a si wone, ni nga u pfukha na pfukela kha u no khou tevhela.
 sc-criteria-item-6 = Arali na fhelelwa nga mitaladzi ya u ṱolisisa, ri humbela uri ni ri thuse nga u kuvhanganya miṅwe mitaladzi minzhi!
