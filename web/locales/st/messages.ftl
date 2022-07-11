@@ -4,6 +4,7 @@ stayintouch = Rona ba Mozilla re haha setjhaba mabapi le thekenoloji e sebetsang
 return-to-cv = Kgutlela ho Common Voice
 email-input =
     .label = Email
+email-opt-in-info = Ke kopa ho fumana di-email tse kang dikgopotso tsa sepheo, ditlaleho tsa tswelopele ya ka le dikoranta tse mabapi le Common Voice.
 email-opt-in-info-title = Kena lethathamong la mangolo la Common Voice
 indicates-required = Dibaka tse tshwauweng ka naledi (*) di a hlokahala.
 not-available-abbreviation = N/A
@@ -217,6 +218,10 @@ logout = Tswa
 ## Home Page
 
 home-cta = Bua, kenya letsoho mona!
+wall-of-text-start =
+    Lentswe ke la tlhaho, lentswe ke la motho. Ke ka lebaka leo re hloletsweng ke ho etsa thekenoloji ya lentswe 
+    bakeng sa metjhini ya rona. Empa ho etsa ditsamaiso tsa mantswe, data e kgolo haholo
+    e ya hlokahala.
 wall-of-text-more-mobile =
     Boholo ba data e sebediswang ke dik'hamphani tse kgolo ha e fumanehe ho boholo ba batho. Re nahana hore hona
     ho sitisa ho etsa dintho tse ntjha. Ke ka hoo re qadileng Common Voice, morero wa ho thusa ho etsa hore thekenoloji e elellwang mantswe 
@@ -224,6 +229,10 @@ wall-of-text-more-mobile =
 wall-of-text-more-desktop =
     Hona jwale o ka fana ka lentswe la hao ho re thusa ho haha database ya lentswe e buletsweng bohle yeo mang kapa mang a ka e sebedisang 
     ho etsa disebediswa tse ntjha tsa disebediswa le marang-rang. Bala polelo ho thusa metjhini ho ithuta kamoo batho ba phelang ba buang. Sheba mosebetsi wa bafani ba bang ho ntlafatsa boleng. Ho bonolo jwalo!
+wall-of-text-first =
+    Lentswe ke la tlhaho, lentswe ke la motho. Ke ka lebaka leo re thabetseng ho etsa thekenoloji ya lentswe 
+    bakeng sa metjhini ya rona. Empa ho etsa ditsamaiso tsa mantswe, bahahi ba marang-rang  ba hloka 
+    data ya mantswe e kgolo haholo.
 wall-of-text-second =
     Boholo ba data e sebediswang ke dik'hamphani tse kgolo ha e fumanehe ho boholo ba batho. Re nahana hore hona
     ho sitisa ho etsa dintho tse ntjha. Ke ka hoo re qadileng Common Voice, morero wa ho thusa ho etsa hore thekenoloji e elellwang mantswe 
@@ -417,6 +426,7 @@ faq-what-cv-and-deepspeech-q = Phapano ke efe dipakeng tsa Common Voice le Deep 
 faq-what-cv-and-deepspeech-a = Pokello ya data ya Common Voice e dumellana le enjene e bitswang Deep Speech e elellwang lentswe ya Mozilla e buletsweng bohle. Mofuta wa pele wa Deep Speech o lokollotswe Pulungwana 2017 mme o tswetsepele ho fetoha ho tloha hono. Mmoho le pokello ya data ya Common Voice, re dumela hore thekenoloji ena ya lentswe e buletsweng bohle e fumanehe ho bohle. Ke tshepo ya rona hore dithekenoloji tsena di tla dumella dihahi tsa marang-rang ho haha leqhubu la dihlahiswa le ditshebeletso tse ntjha.
 faq-is-goal-assistant-q = Na sepheo sa Common Voice ke ho aha mothusi wa lentswe?
 faq-is-goal-assistant-a = Sepheo sa pokello ya data ya Common Voice ke ho nolofalletsa mang le mang lefatsheng ho haha sesebediswa se sebetsang ka ho elellwa puo, ho elellwa sebui, kapa mofuta o feng kapa o feng wa sesebediswa o hlokang data ya mantswe. Mothusi wa lentswe ke e nngwe ya mefuta e mengata ya disebediswa tseo o ka sebedisang pokello ya data ho di haha.
+faq-do-want-native-q = Ke sebui se seng letswallwa mme ke bitsa mantswe ka mokgwa o fapaneng, na o ntse o batla lentswe la ka?
 faq-do-want-native-a = E, re batla haholoholo lentswe la hao! Karolo e nngwe ya sepheo sa Common Voice ke ho bokella ditsela tsa puo tse ngata tse fapaneng hore ditshebeletso tsa temoho ya mantswe di sebetse hantle ka mokgwa o tshwanang ho bohle. Hona ho bolela hore menehelo e tswang ho batho bao e seng matswallwa are bohlokwa ho feta.
 faq-why-different-speakers-q = Ke hobaneng ha o hloka dibui tse ngata tse fapaneng puo ka nngwe?
 faq-why-different-speakers-a =
@@ -549,11 +559,13 @@ about-playbook-how-record-content-5 = <accuracyLink>Sheba haholwanyane ka mokgwa
 ## How to grow language
 
 about-playbook-how-grow-language = Re ka hodisa puo ka katleho jwang ho Common Voice?
+about-playbook-how-grow-language-content-1 = Ho theha menyetla ya hore batho ba fapaneng ba kenye letsoho ho Common Voice ho netefatsa hore pokello ya data e sebeletsa batho ba bangata kamoo ho ka kgonehang. Re entse disebediswa le mehlala eo o ka e sebedisang!
 about-playbook-how-grow-language-content-2 = Diketsahalo
 about-playbook-how-grow-language-content-3 = O ka tsamaisa diketsahalo ho thusa batho hore ba tlatsetse. Ho bonolo ho feta kamoo o nahanang. O ka e etsa ka marang-rang ka sesebediswa sa seboka-sa-video, kapa ka seqo haeba ho bolokehile ho etsa jwalo. <eventTemplate>Sheba mehlala le disebediswa tsa rona tsa ho tsamaisa diketsahalo</eventTemplate>.
 about-playbook-how-grow-language-content-4 = Metjha ya ditaba ya setjhaba
 about-playbook-how-grow-language-content-5 = O ka sebedisa marang-rang a setjhaba ho fetisa molaetsa. Arolelana diposo tse hlalosang hore na ke hobaneng ho le bohlokwa, mme ikopanye le batho ba bang ba buang ka ditaba tse kang ditokelo tsa puo, AI ya lentswe, kapa leeme kahara thekenoloji. Sheba dikeletso tse ding mabapi le<campaignLink> ho tsamaisa letsholo la setjhaba, ho kenyelletsa le ditaba tseo o ka di sebedisang hape</campaignLink>.
 about-playbook-how-grow-language-content-6 = Dikamano le marang-rang
+about-playbook-how-grow-language-content-7 = Batla ba bang ba tsotellang. Bao e ka ba diunivesithi, dihlopha tsa babuelelli kapa dihlopha tsa mahlale a data. Ikopanye le bona mme o hlalose hantle na bona ba ka thusa jwang le hobaneng. <outreachTemplates>Sheba mehlala ya rona ho di-email tsa phihlello</outreachTemplates>.
 
 ## How to validate
 
@@ -583,6 +595,7 @@ about-playbook-how-project-governance-content-7 = <governanceLink>Bala haholwany
 glossary = Bukana ya mantswe
 sentence-collection = Pokello ya Dipolelo
 hours-recorded-explanation = Palo ya dihora tsa ho rekota lentswe tseo re di bokeletseng ho fihlela jwale.
+hours-validated-explanation = Palo ya dihora tsa ho rekota lentswe di netefaditswe ke basebedisi ba 2 ka hara ba 3 ka kgetho ya "E". Tsena di tshwaya tswelopele ya ho fihlela sepheo sa morero sa kakaretso ya dihora tse 10k.
 sst = Puo-ho-sengolwa (STT)
 sst-explanation = Dithekenoloji tsa Puo ho ya ho mongolo (STT) di fetolela data ya lentswe ho ba mongolo.
 de-identified = E tlositsweng dintlha tsa botho
@@ -628,6 +641,7 @@ review-delete-recordings = Hlakola direkoto tsa ka
 ## Datasets Page
 
 datasets-heading = Dipokello tsa data
+datasets-headline = Re theha pokello ya data ya mantswe ya dipuo tse ngata e mohlodi o bulehileng, eo mang kapa mang a ka e sebedisang ho kwetlisa di-application tse sebetsang ka puo.
 datasets-positioning =
     Re dumela hore dipokello tsa data tse kgolo le tse fumanehang phatlalatsa di kgothaletsa dintho tse ntjha le tlhodisano e ntle ya dikgwebo ho thekenoloji ya puo e thehilweng hodima ho ithuta motjhini.
     
@@ -654,10 +668,13 @@ dataset-description-hours =
     Ntho e nngwe le e nngwe e kentsweng ka hara pokello ya data e na le MP3 e ikgethileng le faele ya sengolwa e tsamaellanang le yona. Bongata ba <b>{ $total }</b> dihora tse rekotilweng kahara pokello ya data di boetse di kenyelletsa metadata ya dintlha tsa palo ya batho jwaloka dilemo, bong le tsela ya puo tse ka thusang ho kwetlisa nepahalo ya dienjene tse elellwang puo. 
     
     Pokello ya data hajwale e na le <b>{ $valid }</b>dihora tse netefaditsweng ka <b>{ $languages }</b> dipuo, empa re dula re eketsa mantswe le dipuo tse ding. Sheba <languagesLink> Leqephe la Dipuo la rona</languagesLink> ho kopa puo kapa ho qala ho tlatsetsa.
+want-dataset-update = Na o batla ditaba tsa morao-rao ha re lokolla mofuta o motjha wa pokello ya data ya Common Voice? Ngodisa ho koranta ya rona.
 subscribe = Ngodisa
 get-started-speech = Qala ka Temoho ya Puo
 other-datasets = Dipokello tsa Data tse Ding
 feedback-q = O na le Maikutlo?
+resource-deepspeech-info = Enjene e bitswang Deep Speech e elellwang lentswe e buletsweng bohle ya Mozilla e ka sebediswa ho haha di-application tse elellwang puo. Bala <githubLink>kakaretso ya Github</githubLink>kapa kenela <discourseLink>DeepSpeech Discourse</discourseLink> ho ithuta hore na o qala jwang.
+resource-coqui-info = <coquiLink>Coqui</coquiLink> e inehetse ho thekenoloji ya puo e bulehileng. Merero ya bona e kenyelletsa boithuto bo tebileng bo thehilweng ho enjene tsa STT le TTS.
 community-playbook = Buka ya ho bapala ya setjhaba
 resource-playbook-info = <playbookLink>Fumana tataiso e thusang</playbookLink> leetong lohle la Common Voice, ho tloha sebakeng sa lehae ho isa tshebedisong ya dataset, mmoho le mokgwa wa ho hokahana le setjhaba sa rona.
 data-other-librispeech-description = LibriSpeech ke kakaretso ya dihora tse ka bang 1000 tsa 16Khz ya puo e badilweng ya Sekgowa e nkilweng dibukeng tse badilweng tsa audio ho tswa morerong wa LibriVox.
@@ -700,6 +717,9 @@ other-language = Puo e nngwe
 ## Request Language Pages
 
 request-language-heading = Botsa ka puo e ntjha
+request-language-explanation-1 =
+    Sheba na puo ya hao e thathahamisitswe ho <languagesPageLink>leqephe la Dipuo la Common Voice</languagesPageLink>. 
+    Haeba ho se jwalo, tlatsa foromo ena mme re tla <strong> o romella email e molemo e hlalosang hore na o ka theha puo ya hao jwang</strong>.
 request-language-explanation-2 = Hape re tla <strong>tsebisa mookamedi wa setjhaba sa rona hore o na le thahasello</strong>, kahoo ba ka o fa tshehetso e feng kapa feng e eketsehileng kapa dintlha tseo o ka di hlokang.
 request-language-form-email =
     .label = Aterese ya hao ya email
@@ -886,6 +906,20 @@ help-reach-hours-pluralized =
     }
 set-a-goal = Ipehele sepheo
 cant-decide = Ha o kgone ho etsa qeto?
+activity-needed-calculation-plural =
+    { NUMBER($totalHours) ->
+        [one] { $totalHours } hora e ka fihlellwang ka mora
+       *[other] { $totalHours } dihora tse ka fihlellwang ka mora
+    } { NUMBER($periodMonths) ->
+        [one] { $periodMonths } kgwedi haeba
+       *[other] { $periodMonths } dikgwedi haeba
+    }{ "" }{ NUMBER($people) ->
+        [one] { $people } motho a rekota
+       *[other] { $people } batho ba rekota
+    }{ "" }{ NUMBER($clipsPerDay) ->
+        [one] { $clipsPerDay } clip ka letsatsi.
+       *[other] { $clipsPerDay } di-clip ka letsatsi.
+    }
 how-many-per-day = E ntle! Ke di-clip tse kae ka letsatsi?
 how-many-a-week = E ntle! Ke di-clip tse kae ka beke?
 which-goal-type = Na o batla ho Bua, ho Mamela, kapa di le pedi?
@@ -980,6 +1014,7 @@ demo-account = Ak'haonte
 ## Demo Account
 
 demo-account-card-header = Ho ba le ak'haonte ha ho hlokahale bakeng sa ho kenya letsoho, le hoja ho thusa.
+demo-account-card-body = Ka ho le letona re hlalosa melemo le ho hlakisa hore na ke dintlha di feng tseo re di phatlalatsang. Sebedisa dikgokahano tse ka tlase ho qala ka ak'haonte ya Common Voice ho sesebediswa sa hao.
 demo-account-enter-email =
     .label = Kenya email ho romela hokahanyo ya ho ngodisa
 demo-account-sign-up = Romella sehokelo sa ho ingodisa
