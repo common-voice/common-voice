@@ -92,7 +92,8 @@ share-text = Thusa go ruta metšhine  gore batho ba mmatota ba bua jang, abelana
 home-title = Common Voice ke letsholo la Mozilla la go thusa go ruta metšhine gore batho ba mmatota ba bua jang.
 default-tagline = Mozilla Common Voice ke letsholo la go thusa go ruta metšhine gore batho ba mmatota ba bua jang.
 wall-of-text-start =
-    Lentswe ke la tlholego, lentswe ke la motho. Ke gone ka moo re kgatlhegelang go direla metšhine ya rona thekenoloji e e berekang ya mantswe. Mme go dira dithulaganyo tsa mantswe, go tlhokega tshedimosetso e ntsi thata
+    Lentswe ke la tlholego, lentswe ke la motho. Ke gone ka moo re itumelelang go direla metšhine ya rona
+    thekenoloji e e berekang ya mantswe. Mme go dira dithulaganyo tsa mantswe, badiri ba tlhoka tshedimosetso e ntsi thata
     ya mantswe.
 wall-of-text-more-mobile =
     Batho ba bantsi ga ba kgone go fitlhelela bontsi jwa tshedimosetso e e dirisiwang ke dikhampani tse dikgolo. Re akanya
@@ -281,7 +282,8 @@ about-clip-graveyard-text =
     Re rata go leboga batho le mekgatlho e e latelang ka thuso ya bone mo porojekeng:
 about-get-involved-text-2 =
     A o batla go thusa go dira gore Common Voice e nne botoka go gaisa?
-    Go gontle! Golagana le rona ka imeile kgotsa diforamo tsa <discourseLink>Discourse</discourseLink>, romela mathata a webosaete ka <githubLink>GitHub</githubLink>, kgotsa nna karolo ya puisano ya morafe ya
+    Go gontle! Golagana le rona ka imeile kgotsa diforamo tsa <discourseLink>Discourse</discourseLink>,
+    romela mathata a webosaete ka <githubLink>GitHub</githubLink>, kgotsa nna karolo ya puisano ya morafe ya
     <matrixLink>Matrix</matrixLink>.
 about-stay-in-touch-text-1 = <emailFragment>Ikwadise</emailFragment> mo lenaaneng la rona la melaetsa go ithuta gore gore o ka tsaya karolo jang mo matsholong, mo ditiragalong le mo dikarolong tsa go tlhama mo Common Voice.
 about-stay-in-touch-text-2 = O ka kopana le bangwe ba badirisi ba puo mo Mozilla ka go nna karolo ya<discourseLink>Discourse</discourseLink> go bona metlotlo ya ditlhogo kgotsa <matrixLink>Matrix</matrixLink> go bona maele a ka bonako.
