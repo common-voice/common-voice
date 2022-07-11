@@ -830,7 +830,7 @@ goal-help-validation = O thušitše Common Voice e fihle <goalPercentage></goalP
 contribute-more =
     { $count ->
         [one] { "" }
-       *[other] loketše go dira { $count } go feta?
+       *[other] Loketše go dira { $count } go feta?
     }
 record-cta = Thoma pego
 record-platform-not-supported = Re maswabi, sethala se sa gago ga se se thekgwe ga bjale.
