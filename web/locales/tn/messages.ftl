@@ -46,6 +46,7 @@ th = Se-Thai
 ti = Se-Tigrinya
 tig = Se-Tigre
 yue = Se-Canton
+zh-TW = Se-China (Taiwan)
 
 # [/]
 
