@@ -59,6 +59,7 @@ join-newsletter = Ni nga khetha u vha tshipiḓa tsha vha re kha mutevhe wa emai
 
 ## What's public
 
+email-not-public = A ri nga iti uri email yaṋu i vhonwe nga nnyi na nnyi.
 recordings-and-locale-public = Tshivhalo tsha zwo rekhodiwaho na nyambo dze na nikela khadzo zwi ḓo vhoniwa nga munwe na munwe.
 username-optin-public = Ni nga nanga u ita uri username yaṋu i vhonwe nga nnyi na nnyi kana u i dzumba.
 demographic-deidentified-clarity-2 = Data ine ya nga rumelwa ya mafhungo a zwidodombedzwa zwa muthu (sa tsumbo. miṅwaha, mbeu, luambo, na kuambele) a zwi nga itwi uri zwi wanwe nga vhathu vhoṱhe kha profile yaṋu, nahone a zwi nga ṱumanyiwi na akhantu yaṋu kha dataset. Odio iṅwe na iṅwe yo rekhodiwaho i ḓo tshimbidzana na zwidodombedzwa zwa muthu u itela uri dzi kone u ṱolisiswa nga nḓila yo teaho – sa tsumbo, muṱoḓisisi a nga vha a tshi khou ṱoḓa u gudisa tshishumiswa a tshi itela vhathu vha vhubvo ho khetheaho.
@@ -129,6 +130,7 @@ faq-why-different-speakers-q = Ndi ngani ni tshi ṱoḓa vhaambi vho fhambanana
 faq-why-different-speakers-a =
     Datasets nnzhi dza u amba dzi re hone dzi gudiswa hu na vhaimeleli vha nnzhi vha vhubvo ho khetheaho zwa ita uri dzi imeleleswe <articleLink>vhanna na vhathu vhuimo ha vhukati</articleLink>. Kuambele na dzi dialect dzi sa imelelwi zwavhuḓi musi hu tshi itwa dzi data set dza u gudisa dzi tshimbidzana na zwigwada zwa vhathu vhane vha si dzhielwe nṱha. Mitshini minzhi i a konḓelwa na u pfesesa maipfi a vhafumakadzi.
     Ndi ngazwo kha database yashu ri tshi khou ṱoḓa maipfi o fhambananaho!
+faq-why-my-lang-q = Ndi ngani luambo lwanga lu sa athu pangiwa?
 faq-why-my-lang-a =
     Common Voice ndi fhethu hune ha kuvhanganyiwa hone maipfi o wanwaho kha vhathu, nahone nyambo dzoṱhe dzo dzheniswa nga vho maḓilonga.
      Ri nga takalela uri na inwi ni dzhenise luambo lwaṋu! <languageRequestLink>Vhudzisani nga ha uri ni nga dzhenisa hani luambo lwaṋu.</languageRequestLink>
@@ -137,6 +139,7 @@ faq-what-quality-a = Ri khou ṱoḓa uri Common Voice dataset i vhe na odio ine
 faq-why-10k-hours-q = Ndi ngani awara dza 10,000 dzi dzone dzi no ṱoḓea sa tshipikwa kha luambo uri hu itwe odio?
 faq-why-10k-hours-a = Hetshi ndi tshivhalo tsha awara nga u angaredza dzi no ṱoḓea u funza sisṱemu ya bveledza speech-to-text.
 faq-how-calc-hours-a = Ri vhala dzi awara nga u angaredza tshikhala tsha zwiṅwe na zwiṅwe zwo rekhodiwaho, nahone ra andisa yeneyo nomboro nga ṱhanganyeḽo ya zwoṱhe zwo rekhodiwaho nga nyambo dzoṱhe.
+faq-where-src-from-2-q = Source text i bva ngafhi?
 faq-where-src-from-2-a =
     source text yashu yo itwa nga vhasheli mulenzhe vha u to u thoma na nga mafhungo a bvaho kha zwiṱori wa thelevishini zwi fanaho na <italic>It’s a Wonderful Life</italic>.
     
@@ -162,6 +165,7 @@ about-language-req-subtitle = Hu na we a humbela uri luambo lu pangiwe.
 about-localization-subtitle = Mafhungo a re kha heyi website o ḓologiwa nga holuya luambo.
 about-sentence-collection-subtitle = Mitaladzi i kuvhanganyiwa uri vhathu vha i vhalele nṱha.
 about-new-lang-subtitle = Ro ḽontsha saiti ya Common Voice nga holwu luambo.
+about-dataset-release-subtitle = Ri riḽiza dataset nga murahu ha miṅwedzi miraru tshifhinga tshoṱhe.
 about-subscribe-text = Naa ni ṱoḓa u dzula no kwamana na Common Voice?
 about-speak-text = Vhane shela mulenzhe vha rekhoda maipfi nga u vhala mitaladzi yo nikelwaho.
 about-listen-queue-text = Maipfi o rekhodiwaho a pangiwa kha mutevhe wa u rumela une wa a ita uri a lugele u thetshelesiwa.
@@ -185,6 +189,7 @@ about-stay-in-touch-text-2 = Ni nga ṱangana na vhaṅwe kha zwigwada zwa luamb
 ## Community Playbook Content
 ## What is a language
 
+about-playbook-what-is-language = Luambo ndi mini kha Common Voice?
 about-playbook-what-is-language-content-1 = Hu na nḓila nnzhi dza u humbula nga luambo. Musi hu tshi itelwa zwishumiswa zwa u ḓivha ipfi, Common Voice i eletshedza uri ri livhise ṱhogomelo kha ‘u pfana ha vhathu vha nyambo dzi sa fani’, kana uri ‘naa vha ambi vha holwu luambo vha nga kona u pfana zwavhuḓi arali vha lingedza u ita ngauralo?’
 about-playbook-what-is-language-content-2 = Ri ṱoḓa uri zwishumiswa zwa u ḓivha ipfi zwi kone u pfesesa vhaambi vho fhambananaho khwine. Uri zwenezwi zwi konadzee, dataset i tea u vha i na vhathu vhanzhi vho fhambananaho.
 about-playbook-what-is-language-content-3 = Dziṅwe nyambo dzi na phambano khulu kha girama dzadzo, na kha maipfi na kubulele. Ndi ngazwo ri tshi khou <ctaLink>ḓisa dzi ‘Variants’ dza luambo</ctaLink> nga 2022. Zwenezwi zwi thusa vhadzulapo uri vha kone u ḓivha nyambo dzavho kha dataset khulu i re hone.
@@ -268,6 +273,7 @@ de-identified-explanation = Ndi nḓila ya u ita uri zwidodombedzwa zwi re kha p
 
 ## Error pages
 
+error-title-404 = A ro ngo kona u ni wanela heḽia siaṱari
 error-content-404 = Khamusi <homepageLink>homepage yashu</homepageLink> i ḓo thusa? U itela u vhudzisa mbudziso, ri humbela ni dzhene kha <matrixLink>Matrix community chat</matrixLink>, ni sedze na thaidzo dzine na ṱanga nadzo kha saiti nga u ya kha <githubLink>GitHub</githubLink> kana nga u dalela <discourseLink>foramu yashu ya Discourse </discourseLink>.
 error-content-503 = Saiti i ḓo bekapiwa nga u ṱavhanya. Uri ni wane zwithu zwa zwino-zwino, ri humbela uri ni vhe tshipiḓa tsha <matrixLink>nyambedzano kha Matrix community chat</matrixLink> kana ni dalele <githubLink>GitHub</githubLink> kana <discourseLink>Foramu dzashu dza Discourse</discourseLink> uri ni kone u rumela na u vhona thaidzo dzine na ṱangana nadzo ni kha saiti.
 
@@ -369,6 +375,7 @@ speak-loading-error =
      Ri humbela uri ni lingedze nga vhuya."
 keep-track-profile = Dzulani ni tshi ḓivha mvela phanḓa yaṋu nga profaiḽi
 login-to-get-started = Ḽogani kana sign up uri ni kone u thoma
+target-segment-first-card = Ni khou shela mulenzhe kha tshipiḓa tsha tshipikwa tshashu tsha u thoma
 target-segment-first-banner = Ri thuseni u ita tshipikwa tsha tshipiḓa tsha u thoma tsha Common Voice kha { $locale }
 
 ## Reporting
@@ -383,6 +390,7 @@ report-difficult-pronounce-detail = I na maipfi kana mibulo ine ya konḓa u i v
 
 ## Dashboard
 
+todays-validated-progress = Mvela phanḓa ya ṋamusi ya Common Voice ya rekhodo dzo khwaṱhisedzwaho
 visibility-explainer = Hedzi sethiṅi dzi langa u vhonala haṋu kha leaderboard. Musi dzi kha u dzumbama, mvela phanḓa yaṋu a i nga vhonwi. Zwenezwi zwi amba uri tshinepe tshaṋu, user name na bvela phanḓa yaṋu a zwi nga bveleli kha leaderboard. Ni ṱhogomele uri yeneyi leaderboard i dzhia minete ~{ $minutes } uri i sumbedzwe zwe na shandula.
 visibility-overlay-note = Ṱhogomelani hezwi: Musi yo setiwa kha u 'Vhonala', heyi setiṅi i nga shandukisiwa kha <profileLink> siaṱari ḽa Profaiḽi</profileLink>
 
@@ -496,6 +504,7 @@ contribution-just-unsure-description = Arali na ṱangana na zwithu zwine zwi si
 
 ## HOME
 
+sc-home-title = No ṱanganedzwa kha tsha u Kuvhanganya Mitaladzi tsha Common Voice
 sc-home-intro = Tshau Kuvhanganya mitaladzi ndi <commonVoiceLink>Common Voice</commonVoiceLink>. I tendela vhashelaho mulenzhe uri vha kuvhanganye na u ita vhungoho ha mitaladzi yo itwaho nga vhadzulapo ndi yone. Ni nga shumisa tshenetshi tshishumiswa u import na u kunakisa small-to-medium-sized public domain corpus dze na wana na dze na kuvhanganya. Mitaladzi yoṱhe i tea u vha ya Public Domain. Mitaladzi ine ya pfi ndi yone-yone i ya expoteliwa kha Common Voice repository vhege iṅwe na iṅwe nahone ya bviselwa kha website ya Common Voice musi hu tshi bviswa zwithu zwiswa.
 sc-home-collect-text = Ri thuseni nga u ṅwala kala u kuvhanganya mitaladzi ya Fhethu ha Tshitshavha Tshoṱhe.
 sc-home-review-text = Ri thuseni u ṱolisisa mitaladzi uri ni vhone arali yo tea u ya nga vhulivhisi.
@@ -551,6 +560,7 @@ sc-stats-summary = Tsha u Kuvhanganya Mitaladzi tsha Common Voice tsho kuvhangan
 sc-submit-err-confirm-pd = Ri humbela uri ni khwaṱhisedze uri heyi mitaladzi ndi ya fhethu ha tshitshavha tshoṱhe.
 sc-submit-prompt =
     .message = Mitaladzi a yo ngo rumelwa, naa ni na vhungoho ha uri ni khou ṱoḓa u ṱuwa?
+sc-submit-from-where = I bva ngafhi iyi mitaladzi ya<wikipediaLink>fhethu ha tshitshavha tshoṱhe?</wikipediaLink>
 sc-submit-ph-read-how-to =
     .placeholder = Vhalani How-to yashu arali ni si na vhutanzi
 sc-submit-confirm = Ndi a khwaṱhisedza uri heyi mitaladzi ndi ya <wikipediaLink>fhethu ha tshitshavha tshoṱhe </wikipediaLink> nahone ndi na thendelo ya u i apuḽoda.
@@ -656,6 +666,7 @@ sc-lang-info-rejected =
 
 ## PROFILE
 
+sc-personal-not-added = A ni athu u panga luambo na luthihi u swika zwino.
 
 ## REVIEW CRITERIA
 
