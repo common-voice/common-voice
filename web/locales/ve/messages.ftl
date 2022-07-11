@@ -16,6 +16,10 @@
 
 ## Home Page
 
+wall-of-text-more-desktop =
+    Zwino ni nga nikela nga ipfi ḽaṋu u itela uri thusa uri ri vhe na dataset ya nnyi na nnyi ine muṅwe na muṅwe a nga kona u i shumisa 
+    uri hu konwe u itiwa dzi app dza zwithu zwiswa zwa thekhinolodzi na dzi web. Vhalani mutaladzi u itela uri ni kone u thusa mutshini uri u gude nḓila ine vhathu vha vhukuma vha amba ngayo. Ṱolani mushumo wa vhaṅwe
+    vhe vha shela mulenzhe uri mushumo u kone u vha wa khwine-khwine. Zwo leluwa!
 
 ## Account Benefits
 
@@ -89,6 +93,7 @@ about-playbook-how-add-sentences-content-2 = Mitaladzi i tea u ṱolisiswa nahon
 
 ## How to grow language
 
+about-playbook-how-grow-language-content-5 = Ni nga shumisa social media platforms u itela u ḓivhadza vhaṅwe nga ha zwenezwi. Vha rumeleni milaedze i ṱalutshedzaho uri ndi ngani zwi zwa ndeme, nahone ni kwamane na vhaṅwe uri ni kone u amba navho nga ha pfanelo dza dzi nyambo, voice AI, kana tshiṱalula tshi re hone kha zwishumiswa zwa thekhinolodzhi. Vhonani nyeletshedzo dzo engedzeaho nga ha <campaignLink>u ita dzi campaign, na u vhona mafhungo ane na nga dovha na a shumisa </campaignLink>.
 
 ## How to validate
 
@@ -107,6 +112,7 @@ about-playbook-how-add-sentences-content-2 = Mitaladzi i tea u ṱolisiswa nahon
 
 ## Data
 
+data-explanatory-text = Ri tenda uri tshitshavha tshihulu tshi re hone tshi ḓo vhuyelwa nga dataset ya maipfi zwa ita uri hu thomiwe zwithu zwiswa nahone ha vha na miṱaṱisano yavhuḓi kha zwa vhurengisi zwi tshimbidzanaho na thekhinolodzi ya u amba ya machine-learning. Zwenezwi ndi mutingati wa shango ḽoṱhe nga vhuphara nahone ri khou ramba muṅwe na muṅwe uri a shele mulenzhe. Tshipikwa tshashu ndi uri zwishumiswa zwa u amba zwa thekhinolodzhi zwi katele vhunzhi ha vhathu, hu pfale maipfi o fhambananaho u mona na shango ḽoṱhe.
 
 ## Datasets Page
 
