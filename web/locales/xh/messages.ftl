@@ -76,6 +76,7 @@ faq-what-determine-identity-q = Kuthetha ukuthini ukuba andinako "ukuchonga isaz
 faq-what-determine-identity-a =
     I-Common Voice dataset sisixhobo esamkelayo nesifumanekayo emntwini wonke esingasetyenziselwa ukuqeqesha i-apps gabalala ezakhelwe intetho. Ukugcina ukhuseleko (ukugcina abaxhasi bethu bekhuselekile)lwabaxhasi bethu, sicela wonke umntu okhuphela I-Common Voice dataset ukuba ahloniphe imfihlo yabaxhasi.
     Zonke ikliphu ezikwi dataset zisusiwe ulwazi lobuqu oluchaza umntu ngamnye. Xa ukhuphela i-dataset, uyavuma ukuba awungekhe ulinge ukufumanisa ukuba ngubani na nawuphi na umxhasi. Oko kuthetha ukuba awunakuzama ukudibanisa ulwazi olukwi dataset kulwazi lomntu siqu lomxhasi. Nangona kunjalo, ungathi usebenzise isethi yedatha ukuqeqesha i-speech recognition, ukuqondwa kwesithethi, okanye ezinye iinkqubo, ngomzekelo, ngokunxibelelanisa ulwazi olukwidathabheyisi nolunye ulwazi olusele lukwi dataset.
+faq-description = Icommon Voice yinxalenye yenyathelo likaMozilla lokunceda ukufundisa oomatshini indlela abantu bokwenyani abathetha ngayo.
 
 ## ABOUT US
 
@@ -223,6 +224,7 @@ download-requests-info = Xa ucela ushicilelo lwakho, siyaluqokelela lube yifayil
 ## Landing
 
 help-contribute = Unokunceda ukwakha iseti yedatha eyahlukeneyo, evulekileyo ngokudala iphrofayili yeCommon Voice kunye nogalelo lelizwi lakho.
+profile-not-required = Ukuba neprofayile akufuneki ukuba ube nogalelo nangona kuluncedo, bona ukuba kutheni ngezantsi
 
 ## DemoLayout
 
@@ -305,6 +307,14 @@ sc-confirm-already-reviewed =
         [0] Akukho sivakalisi sele sihlaziywe.
         [one] Isivakalisi esi-1 sele sihlaziyiwe. Mhle umsebenzi!
        *[other] { $countOfReviewed } izivakalisi sele zijongiwe. Mhle umsebenzi!
+    }
+# Variables:
+#   $readyCount (Number) - Number of sentences ready to be uploaded
+sc-confirm-ready =
+    { $readyCount ->
+        [0] Akukho sivakalisi esilungele ukungeniswa!
+        [one] Si-1 isivakalisi esilungele ukungeniswa!
+       *[other] { $readyCount } izivakalisi zilungele ukungeniswa!
     }
 # Variables:
 #   $countOfUnreviewed (Number) - Number of sentences unreviewed before the upload
