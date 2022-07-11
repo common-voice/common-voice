@@ -57,6 +57,7 @@ tw = Se-Twi
 uby = Se-Ubykh
 udm = Se-Udmurt
 ug = Se-Uyghur
+uk = Se-Ukrain
 uz = Se-Uzbek
 ve = Sevenda
 vec = Se-Venice
