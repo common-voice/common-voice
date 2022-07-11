@@ -317,6 +317,7 @@ shortcut-vote-no = n
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-record-toggle = r
 shortcut-record-toggle-label = Pego/Ema
+shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Rekhota pego ya odio gape
 shortcut-discard-ongoing-recording = ESC
 shortcut-discard-ongoing-recording-label = Phumola kgatišo e diragalago
@@ -523,6 +524,7 @@ about-dataset-new = Dathasete ya Common Voice
 about-dataset-new-text = Dathasete ya Common Voice e nale di pego tše makgolo le dikete ya mehlala ya manntšu e thušago ba batšweletša ba agang sedirišwa sa temogo ya lentšu.
 about-clip-graveyard = Setsopolwa sa Graveyard
 about-clip-graveyard-text = Setsopolwa sa Graveyard se na le dirakolo tša lentšu tše di sa fihlaho go dathasete ya Common Voice. Bjalo ka dathasete, setsopolwa sa Graveyard ya hwetšagala bakeng sa go tanelouta.                               Re ka rata go leboga batho le mekgatlo e latelago ka thušo ya bona morerong o:
+about-get-involved = Go ba karolo
 about-get-involved-text-2 =
     O nyaka go thuša go dira Common Voice gore e be kaone? 
     Seo se a kgahliša! Ikgokaganye ka e-meile goba <discourseLink>Discourse </discourseLink>diforamo, romela ditokollo tša saete go <githubLink>GitHub</githubLink>, goba ikgokaganye le <matrixLink>poledišano ya setšhaba ya Matrix<matrixLink>.
@@ -677,6 +679,7 @@ review-submit-title = Hlahloba o Romele
 review-submit-msg = Re leboga pego ya gago!<lineBreak></lineBreak> Ga bjale hlahloba o tsenye pego tša gago mo tlase.
 review-recording = Hlahloba
 review-rerecord = Rekhota gape
+review-cancel = Khansela Tshedimošo
 review-keep-recordings = Boloka dipego
 review-delete-recordings = Phumola dikgatišo tšaka
 
@@ -851,6 +854,7 @@ share-common-voice = Abelana ka Common Voice
 review-instruction = Hlahloba o dira di pego gape ge e ba go hlokagala
 record-submit-tooltip = { $actionType } tsenya ge o lokile
 clips-uploaded = Ditsopolwa di Tsene
+record-abort-title = Fetša go gatiša pele?
 record-abort-text = Go tšwa gona bjale go bolela gore o tlo lahlagelwa ke tšwelopele ya gago
 record-abort-submit = Romela ditsopolwa
 record-abort-continue = Fetša kgatišo
