@@ -1,5 +1,6 @@
 ## General
 
+email-opt-in-info = Ndi nga takalela u wana email dzi nga ho dzine dza nkhumbudza nga ha zwipikwa zwanga, mvela phanḓa yanga na maswa maswa nga ha Common Voice.
 email-opt-in-privacy-v2 = Nga u ṱanganedza uri ni ṱoḓa u wana dzi email ni tenda uri zwo luga uri Mozilla i fare zwidodombedzwa zwenezwi u ya nga nḓila ye zwa ṱalutshedzwa ngayo kha Mozilla’s <privacyLink>Poḽisi ya Tshiphiri</privacyLink>.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
@@ -203,6 +204,7 @@ data-download-singleword-callout-v2 = Hetshi ndi tshipiḓa tshi langiwaho nga k
 
 ## Datasets Page
 
+datasets-headline = Ri khou ita dataset ya maipfi ya nnyi na nnyi, ya nyambo nnzhi dzine muṅwe na muṅwe a nga dzi shumisa u funza dzi application dzi no funzea maipfi.
 datasets-positioning =
     Ri tenda uri dzi dataset khulu dza maipfi dzine dza nga wanwa nga vhathu vhoṱhe dzi ḓo ita uri hu thomiwe zwithu zwiswa na u ita uri hu vhe na zwa vhuvhambadzi zwavhuḓi siani ḽa zwa machine-learning kha zwa zwishumiswa zwa thekhinolodzhi zwi ḓivhaho ipfi.
     
@@ -214,6 +216,7 @@ dataset-description-hours =
     Tshiteṅwa tshiṅwe na tshiṅwe tsha dataset tshi na MP3 yo khetheaho na mafhungo a tshimbidzanaho natsho. Vhunzhi ha <b>{ $total }</b> dzi awara dzo rekhodiwa kha dzi dataset dzi katela metadata ine ya amba nga ha zwidodombedzwa zwa muthu zwi ngaho miṅwaha, mbeu na kuambele zwine zwa nga thusa kha u gudisa zwavhuḓi tshishumiswa tsha u pfa ipfi.
     
     Dataset i na <b>{ $valid }</b> awara dzo teaho <b>{ $languages }</b> luambo, fhedzi ri dzula ri tshi khou panga maipfi o engedzeaho na dzinyambo. Sedzani <languagesLink>siaṱari ḽa Nyambo dzashu</languagesLink> u itela khumbelo ya luambo kana ni thome u shela mulenzhe.
+want-dataset-update = Ni khou ṱoḓa u kwamiwa ri tshi bvisa dataset ntswa ya Common Voice? Ḓiṅwaliseni kha vhane vha ṱoḓa u wana maswa maswa.
 resource-deepspeech-info = Tshishumiswa tsha Mozilla tsha u ḓivha ipfi tshine tsha nga shumiswa nga nnyi na nnyi tsha Deep Speech tshi nga shumiswa kha u ita app dzi ḓivhaho ipfi. Vhalani samari yashu <githubLink>Github</githubLink> kana ni dzhenelele kha <discourseLink>DeepSpeech Discourse</discourseLink> uri ni gude nga ha uri ni nga thoma hani.
 resource-playbook-info = <playbookLink>Wanani thuso</playbookLink> nga ha u shumisa Common Voice, u bva kha localization u ya kha kushumisele kwa dataset, na nga ha nḓila ine na nga kwamana ngayo na vhadzulapo vha vhuponi haṋu.
 data-other-librispeech-description = LibriSpeech ndi corpus i ṱoḓaho u vha awara dza 1000 dza 16Khz dza u vhala tshipitzhi tsha Luisimane u bva kha dzibugu dza odio dza project ya LibriVox.
