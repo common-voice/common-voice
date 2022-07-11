@@ -46,6 +46,7 @@ hy-AM = Se-Armania
 hyw = Se-Armenia sa Bophirima
 my = Se-Burma
 om = Se-Afaan Ormoo
+sl = Se-Slovania
 so = Se-Somali
 sq = Se-Albania
 te = Se-Telugu
