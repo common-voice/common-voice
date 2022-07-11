@@ -20,7 +20,14 @@ error-something-went-wrong = Uxolo, kukhona okungahmabnga kahle
 
 dsb = Sorbian, Lower
 hsb = Sorbian, Upper
+mhr = Meadow Mari
+mni = Meetei Lon
 nan-tw = Isi-Taiwanese (Minnan)
+nb-NO = Norwegian Bokmål
+nn-NO = Norwegian Nynorsk
+nso = Northern Sotho
+pap-AW = Papiamento (Aruba)
+quy = Quechua Chanka
 rm-sursilv = Romansh Sursilvan
 rm-vallader = Romansh Vallader
 sat = Santali (Ol Chiki)
@@ -45,6 +52,7 @@ home-title = I-Common Voice iwuhlelo lwe-Mozilla lokusiza ukufundisa imishini uk
 default-tagline = I-Mozilla Common Voice iyisinyathelo sokusiza ukufundisa imishini ukuthi abantu bangempela bakhuluma kanjani.
 home-cta = Khuluma, unikele lapha!
 wall-of-text-start = { "" }
+show-wall-of-text = Funda kabanzi
 help-us-title = Sisize siqinisekise imisho!
 help-us-explain = Cindezela okuthi dlala, lalela futhi usitshele: ingabe bawukhulume kahle lo musho ongezansi?
 no-clips-to-validate = Kubonakala sengathi azikho iziqeshana ongazilalela ngalolu limi. Sisize sigcwalise ulayini ngokurekhoda okunye manje.
@@ -91,6 +99,7 @@ username-email-not-demographic = Igama olisebenzisayo kanye ne-imeyili yakho nge
 
 ## Speak Shortcuts
 
+shortcut-rerecord-toggle-label = Qopha isiqeshana kabusha
 shortcut-discard-ongoing-recording-label = Lahla ukurekhoda okuqhubekayo
 shortcut-submit-label = Thumela iziqeshana
 request-language-text = Awuboni ulimi lwakho ku-Common Voice okwamanje?
@@ -105,11 +114,16 @@ status-hours =
         [one] Ihora elilodwa eliqinisekisiwe kuze kube manje!
        *[other] { $hours } amahora aqinisekisiwe kuze kube manje!
     }
+# Variables:
+# $goal - number of hours representing the next goal
+status-goal = Inhloso elandelayo: { $goal }
 
 ## ProfileForm
 
 profile-form-username =
     .label = Igama Lomsebenzisi
+profile-form-native-language =
+    .label = Ulimi olukhulunywayo endaweni
 profile-form-variant =
     .label = Uhlobo luni lwe-{ $language } olukhulumayo?
 profile-form-variant-default-value = Akukho okuhlukile okukhethiwe
@@ -123,6 +137,7 @@ profile-explanation = Landelela inqubekela-phambili yakho ngephrofayela futhi us
 thanks-for-account = Siyabonga ngokuqinisekisa i-akhawunti yakho, manje asakhe iphrofayela yakho.
 why-demographic = Kungani kubalulekile lokhu?
 accept-privacy = Ngilungile uma uphatha lolu lwazi njengoba uchaza kokuthi <privacyLink>Inqubomgomo Yobumfihlo</privacyLink> ye-Mozilla
+accept-privacy-title = Inqubomgomo yobumfihlo
 login-signup = Ngena / Bhalisa
 download-profile = Loda Idatha Yami
 skip-submission-feedback = Yeqa Impendulo Yokuthunyelwe
@@ -286,6 +301,7 @@ about-playbook-how-project-governance-content-2 = Ukubusa kwethu kusekelwe phezu
 about-playbook-how-project-governance-content-3 = Ubumfihlo, ukuphepha kanye nokungafihli lutho.
 about-playbook-how-project-governance-content-4 = Ukubamba iqhaza komphakathi kanye nokwenza izinqumo.
 about-playbook-how-project-governance-content-5 = Inani nokuqashelwa.
+about-playbook-how-project-governance-content-6 = Ukuziphendulela ngokuhlanganyela.
 about-playbook-how-project-governance-content-7 = <governanceLink>Funda kabanzi mayelana nendlela esibuswa ngayo</governanceLink>
 
 ## Glossary
@@ -360,6 +376,7 @@ download-form-email =
     .label = Faka i-imeyili yakho
     .value = Siyabonga, sizokuthinta.
 download-back = Buyela kwidathasethi ye-Common Voice
+download-no = Cha ngiyabonga
 
 ## Contact Modal
 
@@ -369,6 +386,7 @@ download-back = Buyela kwidathasethi ye-Common Voice
 request-language-success-title = Isicelo solimi sithunyelwe ngempumelelo, siyabonga.
 request-language-success-content = Sizothintana ngolwazi olwengeziwe mayelana nendlela yokwengeza ulimi lwakho ku-Common Voice maduze nje.
 select-language = Khetha Ulimi...
+other-language = Olunye Ulimi
 
 ## Request Language Pages
 
@@ -463,12 +481,14 @@ target-segment-add-voice = Engeza Izwi Lakho
 
 report-title = Thumela umbiko
 report-ask = Yiziphi izinkinga ohlangabezana nazo ngalo musho?
+report-offensive-language = Ulimi olucasulayo
 report-offensive-language-detail = Umusho unolimi olungenanhlonipho noma olunenhlamba.
 report-grammar-or-spelling = Iphutha lohlelo lolimi / isipelingi
 report-grammar-or-spelling-detail = Umusho unephutha lohlelo noma lokubhalwa kwegama.
 report-different-language-detail = Ibhalwe ngolimi oluhlukile kunalokhu engikukhulumayo.
 report-difficult-pronounce = Kunzima ukuphimisa
 report-difficult-pronounce-detail = Iqukethe amagama noma imishwana okunzima ukuyifunda noma ukuyibiza.
+report-offensive-speech = Inkulumo ecasulayo
 report-offensive-speech-detail = Isiqeshana sinolimi olungenanhlonipho noma oluhlambalazayo.
 
 ## Goals
@@ -501,6 +521,7 @@ top-contributors = Abanikeli Abaphezulu
 recorded-clips = Iziqeshana eziqoshiwe
 validated-clips = Iziqeshana Eziqinisekisiwe
 total-approved = Isamba Esigunyaziwe
+overall-accuracy = Ukunemba Sekukonke
 set-visibility = Hlela ukubonakala kwami
 visibility-overlay-note = Qaphela: Uma kusethelwe kokuthi 'Kuyabonakala', lesi silungiselelo singashintshwa sisuka <profileLink>Ikhasi Lephrofayela</profileLink>
 show-ranking = Bonisa izinga lami
@@ -661,6 +682,7 @@ contribution-background-noise-example-3-fixed-title = <strong>[Crackle]</strong>
 contribution-background-voices-description-extended = Uma ukurekhodwa kunqamuka, noma kunokuqhekeka, yenqaba ngaphandle kokuba wonke umbhalo ungazwakala.
 contribution-background-voices-example-1-title = Ama-dinosaurs amakhulu e-Triassic. <strong>[funda ngezwi elilodwa]</strong>
 contribution-background-voices-example-1-explanation = Uyeza? <strong>[called by another]</strong>
+contribution-reader-effects-title = Imiphumela Yomfundi
 
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
@@ -670,6 +692,7 @@ contribution-background-voices-example-1-explanation = Uyeza? <strong>[called by
 ## HEADER/FOOTER
 
 sc-header-rejected = Imisho Enqatshiwe
+sc-header-my = Imisho Yami
 sc-footer-report-bugs = Bika Iziphazamisi
 sc-footer-translate = Humusha leli khasi
 sc-footer-report-copyright = Bika izinkinga zelungelo lobunikazi
@@ -712,6 +735,7 @@ sc-howto-findpd-subtitle-2 = Hlanganyela nezinhlangano zendawo noma abantu ngaba
 
 ## MY SENTENCES
 
+sc-my-title = Imisho Yami
 sc-my-loading = Loda imisho yakho...
 sc-my-no-sentences = Ayikho imisho etholakele!
 sc-my-delete = Susa imisho ekhethiwe
