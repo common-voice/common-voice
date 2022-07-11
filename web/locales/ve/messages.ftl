@@ -103,6 +103,7 @@ why-profile-text =
     Ipfi ine ya ḓo shumisa yeneyi data u itela uri i kone u vha ya khwine-khwine uri i shume zwavhuḓi.
 profile-explanation = Dzulani ni tshi ṱola mvela phanḓa yaṋu nga profaiḽi nahone ni thuse data yashu ya maipfi uri i vhe na zwithu zwi re zwone.
 thanks-for-account = Ro livhuwa uri no khwaṱhisedza akhantu yaṋu, zwino kha ri ite profaiḽi yaṋu.
+why-demographic = Ndi ngani zwi zwa ndeme?
 why-demographic-explanation-2 = Zwidodombedzwa zwa tshiphiri sa miṅwaha, mbeu, na kuambele zwi thusa u khwinisa data ya odio ine ya shumiswa u gudisa tshishumiswa tsha u ḓivha ipfi. Username na email yaṋu a zwi nga vuwi zwo ṱumanywa na zwithu zwe na rumela, nahone ni nga khetha uri username yaṋu i vhonwe nga vhathu vhoṱhe kana i sa vhonwe.
 accept-privacy = Ndi a tenda uri ni fare zwenezwi zwidodombedzwa samusi no ṱalutshedza kha Mozilla <privacyLink>Mulayo wa u Tshiphiri</privacyLink>
 accept-privacy-title = Mulayo wa Tshiphiri
@@ -116,6 +117,7 @@ help-variants-explanation = Dzi Variants ndi mufuda wo khetheaho wa luambo – u
 
 ## Profile - Email
 
+browse-file-title = Apuḽodani tshinepe
 gravatar_not_found = A hu ngo waniwa gravatar ya email yaṋu
 file_too_large = Faela ye na i nanga ndi khulwanesa
 
@@ -126,7 +128,9 @@ change-email-setings = Shandukisani email yaṋu kha Setiṅi fhasi ha Login Ide
 
 ## FAQ
 
+faq-what-cv-q = Common Voice ndi mini?
 faq-what-cv-a = Zwishumiswa zwa thekhinolodzhi zwi ḓivhaho ipfi zwi khou shandula nḓila ine ra shumisana ngayo na mitshini, fhedzi zwa zwino sisiṱemu dzi re hone dzi a ḓura nahone a dzo ngo itelwa vhathu vhoṱhe. Common Voice ndi tshipiḓa tsho itwaho nga Mozilla u itela uri zwi shumiswa zwi ḓivhaho ipfi zwa thekhinolodzhi zwi vhe khwine nahone zwi wanwe nga vhathu vhoṱhe. Common Voice ndi database khulu ya maipfi ye vhathu vha a nikela nga maipfi nahone i tendela vhathu vhoṱhe vha tshi gudisa app dza u ḓivha ipfi nga u ṱavhanya nahone nga ho leluwaho nga luambo luṅwe na luṅwe lu re hone.
+faq-why-important-q = Ndi ngani zwi zwa ndeme?
 faq-why-important-a =
     U amba ndi yone nḓila ine ra davhidzana ngayo nahone zwishumiswa zwa u ḓivha ipfi zwa tekhinolodzhi zwi khou ḓisa zwenezwi zwithu zwavhuḓi kha dzi khomphuyutha dzashu na kha dzi ṱhingo. Ri ṱoḓa u tikedza vhane vha ita dzi apps dzi mangadzaho dzine dza pfa u tshi amba, dzingaho real- time translators na voice-enable digital assistants. Zwa zwino vhunzhi ha voice data ine ya ṱoḓea u ita dzenedzi dzi apps i khou ḓuresa nahone i na vhane vhayo. Ri fhulufhela uri dataset ya Common voice i ḓo thusa vha bveledzi uri vha kone u thoma na u ita zwishumiswa zwa u pfa ipfi zwa thekhinolodzi nga dzi nyambo dzavho. 
     
@@ -169,6 +173,7 @@ faq-is-account-public-q = Naa zwidodobedzwa zwa akhantu yanga ndi zwa tshitshavh
 faq-how-privacy-q = Ni zwi kona hani u ita uri vhathu vho nikelaho nga maipfi vha si ḓivhiwe nahone zwi vhe zwa tshiphiri?
 faq-how-privacy-a = Maipfi oṱhe a re kha dataset o itwa uri a si tsha ḓivhea uri ndi a vhonnyi. Musi ane a shela mulenzhe a tshi amba zwidodombedzwa zwawe kha profile yawe, zwenezwo zwidodombedzwa a zwi tendelwi uri zwi dzhene kha ipfi ḽo rekhodiwaho musi zwi sa athu ṱanganyiswa u itela uri zwi danuḽodiwe kha dataset nahone a zwi nga vuwi zwo itwa uri zwi ḓivhiwe nga tshitshavha kha siaṱari ḽa profile dzavho.
 faq-what-determine-identity-q = Zwi amba mini uri a thi koni "u ḓivha" vhaambi vha re kha dataset ya Common Voice?
+faq-what-is-cv = Common Voice ndi mini?
 faq-description = Common Voice ndi tshipiḓa tsha Mozilla tshi thusaho u funza mitshihi nḓila ine vhathu vha vhukuma vha amba ngayo.
 
 ## ABOUT US
@@ -307,6 +312,7 @@ de-identified-explanation = Ndi nḓila ya u ita uri zwidodombedzwa zwi re kha p
 
 error-title-404 = A ro ngo kona u ni wanela heḽia siaṱari
 error-content-404 = Khamusi <homepageLink>homepage yashu</homepageLink> i ḓo thusa? U itela u vhudzisa mbudziso, ri humbela ni dzhene kha <matrixLink>Matrix community chat</matrixLink>, ni sedze na thaidzo dzine na ṱanga nadzo kha saiti nga u ya kha <githubLink>GitHub</githubLink> kana nga u dalela <discourseLink>foramu yashu ya Discourse </discourseLink>.
+error-title-503 = Ri khou ṱangana na thaidzo ya u sa shuma ha site zwazwino
 error-content-503 = Saiti i ḓo bekapiwa nga u ṱavhanya. Uri ni wane zwithu zwa zwino-zwino, ri humbela uri ni vhe tshipiḓa tsha <matrixLink>nyambedzano kha Matrix community chat</matrixLink> kana ni dalele <githubLink>GitHub</githubLink> kana <discourseLink>Foramu dzashu dza Discourse</discourseLink> uri ni kone u rumela na u vhona thaidzo dzine na ṱangana nadzo ni kha saiti.
 
 ## Data
@@ -355,6 +361,7 @@ ready-to-validate = Naa no lugela u thusa u khwaṱhisedza mitaladzi?
 
 ## Download Modal
 
+download-title = No thoma u downḽoda
 download-helpus = Ri thuseni u fhaṱa tshigwada tsha maipfi a thekhinolodzhi, kha ri dzule ri tshi kwamana nga email.
 download-back = Humelani kha dzi Dataset dza Common Voice
 
@@ -401,6 +408,11 @@ language-section-launched-description = Kha hedzi nyambo dzo no ḓi dzheniswaho
 
 goal-help-recording = No thusa Common Voice u swikelela <goalPercentage></goalPercentage> tsha ḓuvha { $goalValue } tshipikwa tsha u rekhoda!
 goal-help-validation = No thusa Common Voice u swikelela <goalPercentage></goalPercentage> tsha ḓuvha { $goalValue } tshipikwa tsha u khwaṱhisedza!
+contribute-more =
+    { $count ->
+        [one] $count ->
+       *[other] Naa no lugela u ita { $count } zwinzhi?
+    }
 record-platform-not-supported = Ri humbela pfarelo, puḽatifomo yaṋu a yi tikedziwi zwa zwino.
 record-platform-not-supported-desktop = Kha tshishumiswa tsha desktop ni nga shela mulenzhe nga u downḽoda…
 record-platform-not-supported-ios-non-safari = Kha iOS ri humbela uri ni bvele phanḓa ni tshi shumisa Safari u itela uri ni kone u rekhoda…
@@ -408,6 +420,7 @@ record-must-allow-microphone = Ni tea u tendela uri makrofouni i shumiswe.
 record-error-too-short = Zwo rekhodiwaho zwo vha zwi zwi pfufhisa.
 record-error-too-long = Zwo rekhodiwaho zwo vha zwo lapfesa.
 record-error-too-quiet = Zwo rekhodiwaho zwo vha zwi fhasisa.
+record-instruction = { $actionType }<recordIcon></recordIcon> ni kone u vhalela mitaladzi nṱha
 record-again-instruction = Ndi zwavhuḓi!<recordIcon></recordIcon>Rekhodani zwine zwa khou tevhela
 record-again-instruction2 = Isani phanḓa nga u ralo, rekhodani hafhu <recordIcon></recordIcon>
 review-tooltip = Ṱolisisani & ni dovholole u rekhoda ni tshi khou bvela phanḓa
@@ -517,6 +530,7 @@ read-more-about = Vhalani zwinzhi kha siaṱari la Ngaha
 
 ## DemoLayout
 
+demo-welcome = No ṱanganedziwa kha Common Voice
 demo-welcome-subheader = Naa ni a takalela u guda zwinzhi na u shela mulenzhe kha heyi thandela?
 
 ## Demo Datasets
@@ -560,6 +574,7 @@ contribution-misreadings-example-5-title = Ri khou ya u nwa gofhi.
 contribution-misreadings-example-6-title = Ri khou ya u nwa gofhi
 contribution-misreadings-example-7-title = Ri khou ya u nwa gofhi.
 contribution-misreadings-example-7-explanation = [A hu na 'a' kha maṅwalwa a u thoma]
+contribution-misreadings-example-8-title = Notshi yo gidima i tshi fhira nga hanefha
 contribution-varying-pronunciations-description = Ni ṱhogomele uri ni sa ri zwo rekhodiwaho a si zwone nga ṅwambo wa uri muvhali ha ngo bula zwavhuḓi ipfi, kana o ombedzela fhethu hu si hone, kana khamusi o litsha u vhala tshiga tsha u vhudzisa. Hu na kubulele kwa maipfi kwo fhambananaho u mona na shango, kuṅwe kwa hone khamusi a ni athu u ku pfa vhuponi ha haṋu. Ri humbela uri ni ṱanganedze vhane vha amba nga nḓila yo fhambanaho na yaṋu.
 contribution-varying-pronunciations-description-extended = Kha ḽiṅwe sia, arali ni tshi vhona u nga muvhali ha athu vhuya a ṱangana na iḽo ipfi, nahone ho tou humbulelwa kubulele kwaḽo, ni songo zwi tendela. Arali ni si na vhungoho, shumisani gunubu ya u pfuka.
 contribution-varying-pronunciations-example-1-title = Ṱhohoni yawe o ambara muṅadzi.
