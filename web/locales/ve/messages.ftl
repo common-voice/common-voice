@@ -89,6 +89,7 @@ faq-why-different-speakers-a =
 faq-why-my-lang-a =
     Common Voice ndi fhethu hune ha kuvhanganyiwa hone maipfi o wanwaho kha vhathu, nahone nyambo dzoṱhe dzo dzheniswa nga vho maḓilonga.
      Ri nga takalela uri na inwi ni dzhenise luambo lwaṋu! <languageRequestLink>Vhudzisani nga ha uri ni nga dzhenisa hani luambo lwaṋu.</languageRequestLink>
+faq-what-quality-q = Hu ṱoḓea odio dzi re kha vhuimo ha hani uri dzi kone u shumisiwa kha dataset?
 faq-what-quality-a = Ri khou ṱoḓa uri Common Voice dataset i vhe na odio ine tshishumiswa tsha u pfa maipfi tsha a ṅwala; tsha ḓo a pfa mashangoni a kule, ndi ngazwo ri tshi khou ṱoḓa maipfi o fhambananaho. Zwiṅwe zwine ra zwi ṱoḓa nga nnḓa ha vhaambi vho fhambananaho, dataset ine ya vha na odio dzo fhambananaho i ḓo thusa tshishumiswa tsha u pfa maipfi tsha a ṅwala uri tshi imedzane na nyimelo dzo fhambananaho dza vhukuma, dzi ngaho u amba hu na goloi ine ya khou ita phosho. Tsha ndeme ndi tsha uri ipfi ḽanu ḽo rekhodiwaho ḽivhe ḽo tsha, ḽi tea u vha ḽi ḽavhuḓi uri ḽi dzhene kha dataset.
 faq-how-calc-hours-a = Ri vhala dzi awara nga u angaredza tshikhala tsha zwiṅwe na zwiṅwe zwo rekhodiwaho, nahone ra andisa yeneyo nomboro nga ṱhanganyeḽo ya zwoṱhe zwo rekhodiwaho nga nyambo dzoṱhe.
 faq-where-src-from-2-a =
@@ -97,6 +98,7 @@ faq-where-src-from-2-a =
      Ni nga vhona mitaladzi yashu ya u thoma kha <githubLink>GitHub folder</githubLink>.
 faq-why-not-ask-read-a = Uri yeneyi dataset ya Common Voice i shume nga nḓila yavhuḓisa ro dzhia phetho ya u tendela fhedzi source text (luambo lwe mafhungo a thoma u ṅwalwa ngalwo) i wanalaho kha Creative Commons (CC0) lisentsi. Musi ri tshi shumisa CC0 zwi amba uri zwi ḓo konḓa u wana na u kuvhanganya source text, fhedzi i tendela uri naho e nnyi a shumise maipfi a sa kalelwi tshivhalo kana u wana thendelo kha Mozilla. Tshipikwa tshashu ndi u ita uri dataset ya dzi nyambo nnzhi i shumiswe zwavhuḓi nga hune zwa nga konadzea ngaho nga vhathu vhoṱhe, u katela na vhaṱoḓisisi, dziyunivesithi, vhathomi vha mabindu, mivhuso, madzangano a zwa matshilisano na vhane vha zwi shumisela u ḓitakadza.
 faq-how-privacy-a = Maipfi oṱhe a re kha dataset o itwa uri a si tsha ḓivhea uri ndi a vhonnyi. Musi ane a shela mulenzhe a tshi amba zwidodombedzwa zwawe kha profile yawe, zwenezwo zwidodombedzwa a zwi tendelwi uri zwi dzhene kha ipfi ḽo rekhodiwaho musi zwi sa athu ṱanganyiswa u itela uri zwi danuḽodiwe kha dataset nahone a zwi nga vuwi zwo itwa uri zwi ḓivhiwe nga tshitshavha kha siaṱari ḽa profile dzavho.
+faq-what-determine-identity-q = Zwi amba mini uri a thi koni "u ḓivha" vhaambi vha re kha dataset ya Common Voice?
 
 ## ABOUT US
 
@@ -109,6 +111,7 @@ how-does-it-work-text = Ri khou lingedza u wana maipfi kha tshitshavha uri ri it
 
 about-yes-votes-text = Uri ipfi ḽo rekhodiwaho ḽi vhe tshipiḓa tsha dataset ya Common Voice, ḽi tea u vha ḽo khwaṱhisedzwa nga vhathu vhavhili.
 about-no-votes-text = Musi muthu a tshi ri ipfi ḽo rekhodiwaho a ḽo ngo tea, ḽi ḓo humela kha mutevhe. Arali ha pfi a ḽo ngo tea lwa vhuvhili, ipfi ḽeneḽo ḽi ya fhethu hune ha pfi Clip Graveyard.
+about-dataset-new-text = Dataset ya Common Voice i na maipfi o rekhodiwaho a zwigidi na zwigidi ane vhabveledzi vha a shumisa u ita zwishumiswa zwa u kona u ṱalukanya maipfi.
 about-clip-graveyard-text =
     Fhethu hu vhidzwaho The Clip Graveyard hu wanala maipfi a songo teaho e a kundelwa u vha tshipiḓa tsha dataset ya Common Voice. U fana na dataset, na yeneyi Clip Graveyard i nga danuḽodiwa.
     
@@ -157,6 +160,7 @@ about-playbook-how-add-sentences-content-2 = Mitaladzi i tea u ṱolisiswa nahon
 ## How to record quality
 
 about-playbook-how-record-content-1 = Ambani nga ipfi ḽaṋu ḽo ḓoweleaho! Nḓila ine na amba ngayo yo ṱanganedzwa hafha – ri khou ṱoḓa kubulele kwaṋu kwo tou ralo, nahone ri ṱoḓa volumu ine na amba ngayo nga misi, tshiṱale na u gonya na u tsa ha ipfi ḽaṋu.
+about-playbook-how-record-content-4 = Ivhani na vhungoho ha uri thulusi i ne na khou i shumisa u rekhoda i khou u rekhoda ni sa athu thoma u amba, na uri i a ima musi no fhedza.
 
 ## How to grow language
 
@@ -164,11 +168,13 @@ about-playbook-how-grow-language-content-1 = U ita zwikhala zwa uri vhathu vho f
 about-playbook-how-grow-language-content-3 = Ni nga ita na mutambo wa u thusa vhathu uri vha shele mulenzhe. Zwenezwi zwo leluwa. Ni nga zwi ita muyani nga zwishumiswa zwa videoconferentsi, kana nga ho livhaho ni tshi khou vhonana na vhatu arali zwo tsireledzea. <eventTemplate>Ni vhone themphuḽeithi yashu na zwithu zwa uri hu vhe na mutambo</eventTemplate>.
 about-playbook-how-grow-language-content-5 = Ni nga shumisa social media platforms u itela u ḓivhadza vhaṅwe nga ha zwenezwi. Vha rumeleni milaedze i ṱalutshedzaho uri ndi ngani zwi zwa ndeme, nahone ni kwamane na vhaṅwe uri ni kone u amba navho nga ha pfanelo dza dzi nyambo, voice AI, kana tshiṱalula tshi re hone kha zwishumiswa zwa thekhinolodzhi. Vhonani nyeletshedzo dzo engedzeaho nga ha <campaignLink>u ita dzi campaign, na u vhona mafhungo ane na nga dovha na a shumisa </campaignLink>.
 about-playbook-how-grow-language-content-7 = Wanani vhaṅwe vha re na ndavha. Vha nga vha dzi yunivesithi, zwikolo zwi funzaho luambo, zwigwada zwa vha ambeli kana zwigwada zwa vhorasantsi. Ambani navho nahone ni vha ṱalutshedze zwavhuḓi nḓila ine vha nga ni thusa ngayo na uri ndi ngani. <outreachTemplates>Vhonani themphuḽethi yashu ya email ya nḓila ine ra swikelela vhathu </outreachTemplates>.
+about-playbook-how-grow-language-content-8 = <strong>Ivhani na Vhutsila!</strong> Community ya luambo lwaṋu a i nga fani na dziṅwe, nahone hedzi ndi dziṅwe dza nḓila dzi si gathi dza u ni thusa u thoma.
 
 ## How to validate
 
 about-playbook-how-validate-content-2 = <strong>Ni songo hana zwo rekhodiwaho ngauri muambi u na ‘kuambele’ kune ku si fane na kwaṋu </strong> - zwenezwi ndi zwa ndeme arali ri tshi ṱoḓa uri zwishumiswa zwa u ḓivha ipfi zwi shume khwine kha vhathu vhoṱhe.
 about-playbook-how-validate-content-3 = Arali ni tshi humbula uri kubulele kwa maipfi ku ita uri <strong>zwi konḓe u pfana</strong>, kana hu na <strong>phosho ine ya khou pfala</strong>, kana hu na <strong>vhaṅwe vhathu vhane vha khou amba </strong>, zwenezwi zwi ḓo ita uri ni si ṱanganedze zwo rekhodiwaho. <accuracyLink>Vhonani zwinzhi nga ha nḓila ine ra vhona uri zwithu zwo tea </accuracyLink>.
+about-playbook-how-validate-content-4 = Arali zwo rekhodiwaho zwa haniwa nga vhathu vhavhili, zwi iswa kha iṅwe subset ya dataset.
 
 ## How to access dataset
 
@@ -214,6 +220,7 @@ data-other-librispeech-description = LibriSpeech ndi corpus i ṱoḓaho u vha a
 data-other-voxforge-description = VoxForge yo iteliwa u dzhia tshipitzhi tsho isiwaho kha maipfi u itela u shumisa kha Source Speech Recognition Engines dza mahala dzi no swikelelwa nga muṅwe na muṅwe.
 data-other-tatoeba-description = Tatoeba ndi database khulu ya mitaladzi, zwo ṱalutshedzwaho, na odio dzi ambaho dzi shumiselwaho u guda luambo. Zwenezwi zwithu zwine wa nga zwi download zwi nga Luisiamane luambiwaho, zwo rekhodiwa nga vhadzulapo vhalwo.
 your-feedback = Naa ni na mihumbulo ya uri ri nga khwinifhadza hani dataset ya Common Voice? Ri tsivhudzeni kha Discourse
+missing-language = Naa a ni vhoni luambo lwaṋu kha dataset? U ita khumbelo ya luambo, iyani kha siaṱari ḽa Dzinyambo.
 
 ## Download Modal
 
@@ -260,6 +267,7 @@ visibility-explainer = Hedzi sethiṅi dzi langa u vhonala haṋu kha leaderboar
 
 ## Custom Goals
 
+receiving-emails-info = Zwa zwino ni kha mutevhe wa vhane vha ḓo wana email dzi ngaho dza u ni humbudza nga ha zwipikwa, mvela phanḓa yaṋu na maswa maswa nga ha Common Voice
 not-receiving-emails-info = Zwa zwino no pangiwa kha u <bold>U SA</bold> wana milaedza nga email yo no nga khumbudzo dza zwipikwa, mvela phanḓa yaṋu na newsletters nga ha Common Voice
 # LINK will be replaced with the current URL
 goal-share-text = Ndo ḓiitela tshipikwa tshau nikela nga ipfi kha #CommonVoice – shelani mulenzhe na nṋe kha u funza mitshini uri vhathu vha vhukuma vha ambisa hani { $link }
