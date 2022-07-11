@@ -7,6 +7,7 @@ email-input =
 submit-form-action = Tsenya
 loading = Loading...
 email-opt-in-info = Ke tla rata go hwetša di e-meile tša go swana le dikgopotšo tša  dipakane, sebontšhatšwelopele le magwalo a ditaba  tša Common Voice.
+email-opt-in-privacy-v2 = Ge o kgetha go amogela di-emeile o ka bolela gore ga go na molato ge Mozilla e diriša tsebišo ye bjalo ka ge go hlalositšwe ka <privacyLink>Molao wa Lekunutu</privacyLink> wa Mozilla.
 not-available-abbreviation = Ga e gona
 banner-error-slow-link = Boemo bja Letlakala
 
@@ -326,6 +327,7 @@ avatar = Motšeakarolo
 goals = Dipakane
 settings = Dilaolatirišo
 edit-profile = Lokiša Profaele
+profile-create-success = Katlego, profaele e hlangwe!
 profile-close = Tswalela
 why-demographic-explanation-2 = Datha ya modiriši ye o sa tsebjego bjalo ka mengwaga, le bong bja motho, le mmolelo ao a thuša go go kaonefatša datha ya odio e šomišago go eteletša nepagatšo ya di-entšene a tlhathollo ya mantšu. Leina la gago la mošomiši le e-meile di ka se itswalanye le datha yeo e rometšego, gomme o ka kgetha gore na leina la gago la mošomiši le phatlalatšwe goba le se tsebje.
 accept-privacy-title = Khupamarama ya Molao
@@ -335,6 +337,8 @@ edit = Rulaganya
 email-subscriptions = E-meile ya Boingwadišetšo
 download-profile = Tanelouta Datha Yaka
 contribution-experience = Go fana ka Ditiragalotšweletšwa
+skip-submission-feedback = Tshela Tsebišo ya Tshedimošo
+skip-submission-description = Nakong ya tlhagišo ya moneelo a maikutlo a tla fetišwa ka morago ga go tobetsa ‘Romela’. Moneelo o tla tšwelapele go lebanya le sete e latelago ya direkhoto tše 5 goba dinetefatšo.
 off = Tima
 on = Tšhuma
 help-accent-explanation = Mmolelo wa gago ke tsela yeo o bitšago matšu ka gona. Seo se ka bopša ke moo o dutšego gona, dipolelo tše dingwe tšeo o di bolelago le dibopego tše dingwe. O ka abelana tsebišo le ge e le efe yeo o naganago gore e bohlokwa mo.
@@ -626,7 +630,9 @@ record-cta = Thoma pego
 record-no-mic-found = Maekrofone ga e hwetšagale.
 record-cancel = Khansela go rekhota gape
 record-stop-instruction = { $actionType }<stopIcon></stopIcon> ge o feditše.
+record-three-more-instruction = Go setše tše tharo!
 record-last-instruction = <recordIcon></recordIcon> Ya mafelelo!
+share-clip = Abelana ka pego ya gago
 share-common-voice = Abelana ka Common Voice
 record-submit-tooltip = { $actionType } tsenya ge o lokile
 clips-uploaded = Ditsopolwa di Tsene
@@ -673,6 +679,7 @@ validations =
 ## Dashboard
 
 your-languages = Maleme a Geno
+toward-next-goal = Go yela go pakane e latelago!
 goal-reached = Go fihlelela pakane
 clips-you-recorded = Di-Odio tše O di Gatišitšego
 clips-you-validated = Di-Odio tše O di Kgonthišitšego
@@ -688,6 +695,7 @@ total-approved = Palo-moka e Amogetšwego
 overall-accuracy = Nepagetša ka Moka
 set-visibility = Bontšha ponagalo yaka
 visibility-explainer = Peakanyo ye e laola ke ponagalo ya kelo ya baetapele. Ge e fihlilwe, tšwelopele ya gago e tla ba sephiring. Se se bolela gore seswantšho sa gago, leina le tšwelopele di ka se bonagale godimo ga kelo ya baetapele. Hlokomela gore mpshafatšo ya kelo ya baetapele itšea ~{ $minutes }metsotso go hlagiša diphetogo.
+show-ranking = Bontšha boemo bjaka
 
 ## Custom Goals
 
@@ -725,8 +733,10 @@ confirm-goal = Tiišetša Pakane
 goal-interval-weekly = Beke le beke
 share-goal-type-speak = Go bolela
 share-goal-type-listen = Theeleditše
+share-goal-type-both = Go Bolela le go Theeletša
 # LINK will be replaced with the current URL
 goal-share-text = Ke fetša go hlangwa pakane ya go neela ka lentšu go #CommonVoice -- a re hlakane gomme re thuše go ruta metšhene gore na batho ba nnete ba bolela bjang { $link }
+share-goal = Abelana ka pakane yaka
 
 ## Profile Delete
 
