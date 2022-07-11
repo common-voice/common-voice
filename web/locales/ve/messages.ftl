@@ -258,6 +258,7 @@ error-content-503 = Saiti i ḓo bekapiwa nga u ṱavhanya. Uri ni wane zwithu z
 data-download-modal = Ni khou thoma u downḽoda <size>{ $size }GB</size>, naa ni ṱoḓa u isa phanḓa?
 data-subtitle = Ri khou ita dataset i ne ya ḓo shumiswa nga nnyi na nnyi nga muṅwe na muṅwe ya maipfi ane vhathu vhoṱhe vha nga kona u a shumisa u gudisa dzi application dzine dza kona u u amba.
 data-explanatory-text = Ri tenda uri tshitshavha tshihulu tshi re hone tshi ḓo vhuyelwa nga dataset ya maipfi zwa ita uri hu thomiwe zwithu zwiswa nahone ha vha na miṱaṱisano yavhuḓi kha zwa vhurengisi zwi tshimbidzanaho na thekhinolodzi ya u amba ya machine-learning. Zwenezwi ndi mutingati wa shango ḽoṱhe nga vhuphara nahone ri khou ramba muṅwe na muṅwe uri a shele mulenzhe. Tshipikwa tshashu ndi uri zwishumiswa zwa u amba zwa thekhinolodzhi zwi katele vhunzhi ha vhathu, hu pfale maipfi o fhambananaho u mona na shango ḽoṱhe.
+data-bundle-description = Common Voice data na dziṅwe dzi dataset dza maipfi dzi re afho nṱha.
 data-download-singleword-callout-v2 = Hetshi ndi tshipiḓa tshi langiwaho nga kushumisele tshi re na data ine ya mannḓafhadza digit recognition na ine ya ḓivha ee / hai.
 review-terms = Nga u shumisa Common Voice, ni khou tendelana na <termsLink>Milayo ya Kushumisele</termsLink>na<privacyLink>Milayo ya Tshiphiri</privacyLink>
 review-aborted = U apuḽoda ho imiswa. Naa ni khou ṱoḓa u diḽita zwe na rekhoda?
@@ -358,6 +359,11 @@ visibility-overlay-note = Ṱhogomelani hezwi: Musi yo setiwa kha u 'Vhonala', h
 
 goal-type = Ndi tshipikwa ḓe tshine na khou ṱoḓa u tshi ita?
 lose-goal-progress-warning = Nga u editha tshipikwa tshaṋu, ni nga xelelwa nga mvela phanḓa ya zwe na zwi ita.
+help-reach-hours-pluralized =
+    { NUMBER($hours) ->
+        [one] Thusani ri swikelele { $hours } awara { $language } nga tshipikwa tshaṋu
+       *[other] Thusani ri swikelele { $hours } dzi awara { $language } nga tshipikwa tshaṋu
+    }
 help-reach-hours-general-pluralized =
     { NUMBER($hours) ->
         [one] Thusani Common Voice u swikelele { $hours } awara kha luambo nga tshipikwa tshe muthu a ḓivhetshela
@@ -554,6 +560,14 @@ sc-lang-info-left-for-you =
         [0] [0] A hu tshena mitaladzi yo salaho uri ni i ṱolisise
         [one] [one] ho sala mutaladzi wa 1 uri ni u ṱolisise
        *[other] *[other] { $unreviewedSentencesByYou } mitaladzi yo salaho uri ni i ṱolisise.
+    }
+# Variables:
+#   $validatedSentences (Number) - Number of sentences which have been approved for this language
+sc-lang-info-validated =
+    { $validatedSentences ->
+        [0] [0] A hu na mitaladzi yo khwaṱhisedzwaho.
+        [one] [one] mutaladzi wa 1 wo khwaṱhisedzwa.
+       *[other] *[other] { $validatedSentences } mitaladzi yo khwaṱhisedzwaho.
     }
 
 ## LOGIN
