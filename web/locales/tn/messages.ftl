@@ -55,6 +55,7 @@ tr = Se-Turkey
 ts = Setsonga
 tw = Se-Twi
 uby = Se-Ubykh
+udm = Se-Udmurt
 ug = Se-Uyghur
 uz = Se-Uzbek
 ve = Sevenda
@@ -240,6 +241,7 @@ faq-where-src-from-2-a =
     O ka leba dipolelo tsa rona mo faeleng eno ya <githubLink>GitHub</githubLink>.
 faq-why-not-ask-read-q = Goreng o sa kope batho go bala dibuka kgotsa ditlhogo tsa Wikipedia ka dipuo tse di farologaneng?
 faq-why-not-ask-read-a = Go dira gore tshedimosetso ya Common Voice e nne mosola kafa go ka kgonegang ka gone, re dirile tshwetso ya go letlelela fela mokwalo o o leng teng mo laesenseng ya Creative Commons (CC0). Go dirisa molawana wa CC0 go raya gore go thata go bona le go kgobokanya mokwalo wa konokono, mme go letla gore mongwe le mongwe a dirise tshedimosetso e e felelang ka gone ya mantswe kwantle ga dithibelo tsa tiriso kgotsa tetlelelo ya Mozilla. Kwa bofelong, re batla gore tshedimosetso ya dipuo tse dintsi e nne mosola go mongwe le mongwe kafa go ka kgonegang ka gone, go akaretsa babatlisisi, diyunibesithi, dithulaganyo tsa tshimologo, dipuso, mekgatlho ya boikaelelo jwa loago, le batho ba ba dirang dilo go itlosa bodutu.
+faq-why-account-q = Goreng ke tlhoka go ikwadisa gore ke nne le akhaonto?
 faq-how-privacy-q = Lo tlhomamisa jang gore go nna tshedimosetso le diphiri tsa batho ba ba abelanang mantswe ga di phasaladiwe?
 faq-what-determine-identity-q = Go tewa jang fa go twe ga ke kgone go "lemoga boikitsiso" jwa babui ba ba mo direkotong tsa tshedimosetso mo Common Voice?
 faq-what-determine-identity-a =
@@ -472,6 +474,7 @@ speak-loading-error = Ga re a kgona go bona mela e o ka e buang. Tsweetswee leka
 
 ## Reporting
 
+report-ask = O itemogela mathata afe ka mola ono?
 report-different-language-detail = E kwadilwe ka puo e e farologaneng le e ke e buang.
 report-difficult-pronounce-detail = E na le mafoko kgotsa dipolelo tse go leng thata go di bala kgotsa go di bitsa.
 report-other-comment =
