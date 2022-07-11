@@ -163,6 +163,8 @@ xh = SeXhosa
 yi = Se-Yiddish
 yo = Se-Yoruba
 yue = Se-Cantonese
+zh-CN = Se-China (China)
+zh-TW = Se-China (Taiwan)
 zu = SeZulu
 
 # [/]
@@ -192,6 +194,8 @@ no-clips-to-validate = Go bonagala nkare ga gona ditsopolwana tše o ka di theel
 vote-yes = Ee
 vote-no = Aowa
 speak-paragraph = Go gatiša dipego tša lentšu ke karolo e bohlokwa ya go aga dathasete ya rena e bulegilego; ba bangwe ba ka re ke karolo ya go thabiša le yona.
+speak-goal-text = Ditsopolwa di begilwe
+listen-goal-text = Ditsopolwa di kgonthišitšwe
 all-locales = Ka moka
 today = Lehono
 x-years-short =
@@ -259,6 +263,7 @@ female = Mosadi
 # Gender
 other = Bjo bongwe
 dashboard = Dashboard
+build-profile = Aga Profaele
 avatar = Motšeakarolo
 goals = Dipakane
 settings = Dilaolatirišo
@@ -323,6 +328,7 @@ about-yes-votes = ≥ 2 Ee dikgetho
 about-yes-votes-text = Go e dira gore e tsene go dathasete ya Common Voice, pego ya lentšu e swanetše go netefatšwa ke bašomiši ba babedi ba go fapana.
 about-no-votes = ≥ 2 Aowa dikgetho
 about-dataset-new-text = Dathasete ya Common Voice e nale di pego tše makgolo le dikete ya mehlala ya manntšu e thušago ba batšweletša ba agang sedirišwa sa temogo ya lentšu.
+about-clip-graveyard = Setsopolwa sa Graveyard
 about-clip-graveyard-text = Setsopolwa sa Graveyard se na le dirakolo tša lentšu tše di sa fihlaho go dathasete ya Common Voice. Bjalo ka dathasete, setsopolwa sa Graveyard ya hwetšagala bakeng sa go tanelouta.                               Re ka rata go leboga batho le mekgatlo e latelago ka thušo ya bona morerong o:
 about-stay-in-touch-text-1 = <emailFragment>Ngwadiša</emailFragment> go lethamong la rena la mangwalo go ithutha gore na o ka tšea karolo bjang masolong, ditiragalo le dikarolo tša moralo o kopanetšego go Common Voice.
 about-stay-in-touch-text-2 = O ka kopana le ba bangwe ba setšhaba sa polelo ya Mozilla ka go ikopanya go <discourseLink>Discourse</discourseLink> go hwetša poledišano ya ditaba, goba <matrixLink>Matrikse</matrixLink> go hwetša keletšo ya kapejana.
@@ -484,8 +490,10 @@ contribute = Neela
 listen = Theeletša
 skip = Tshela
 shortcuts = Kgaoletšo
+record-cancel = Khansela go rekhota gape
 record-stop-instruction = { $actionType }<stopIcon></stopIcon> ge o feditše.
 record-last-instruction = <recordIcon></recordIcon> Ya mafelelo!
+clips-uploaded = Ditsopolwa di Tsene
 listen-last-time-instruction = <playIcon></playIcon>Ya mafelelo!
 
 ## Reporting
@@ -516,6 +524,7 @@ easy-difficulty = Bonolo
 average-difficulty = Palo-gare
 difficult-difficulty = Bothatha
 pro-difficulty = Thekgo
+cant-decide = Ga o kgone go kgetha?
 activity-needed-calculation-plural =
     { NUMBER($totalHours) ->
         [one] [one] { $totalHours } iri e ya fihlelelwa ka godimo ga
@@ -568,6 +577,7 @@ help-contribute = O ka thuša go aga di dathasete tše di fapanego tša mothopo 
 
 card-button-next = Latelago
 card-button-back = Morago
+demo-language-select-label = Poraosa Maleme
 demo-account = Akhaonte
 
 ## Demo Account
@@ -624,6 +634,7 @@ sc-logout-button = Go tšwa
 ## HOME
 
 sc-home-intro = Molekgetho wa Mafoko ke karolo ya<commonVoiceLink> Common Voice</commonVoiceLink>. E dumelela gore baneedi go kgoboketša le go netefatša mafoko a hlangwego ke setšhaba. O ka šomiša sedirišwa se go tsenya le go hlwekiša sehlopha sa setšhaba se senyenyane go iša bogareng bja seo se hwetšalago goba o se kgoboketšego. Mafoko ka moka di swanetše go ba Lefelong la Setšhaba. Mafoko ao a amogetšwego a romelwa beke e nngwe le e nngwe polokelong ya Common Voice gomme di lokolwa wepesaeteng ya Common Voice ga go romelwa selo sengwe le se sengwe se sefsa.
+sc-home-collect-title = Kgobokanya mafoko
 
 ## GENERAL
 
@@ -743,3 +754,5 @@ sc-settings-skipped-decription = Nakong e fetilego o tshetše mafoko ge o dutše
 
 # [/SentenceCollector]
 
+localization-select =
+    .label = Kgetha polelo/polelo ya tikologong
