@@ -347,7 +347,7 @@ status-title = Boemo ba morero bo akaretsang: bona na re tlile hole hakakang!
 status-contribute = Fana ka Lentswe la Hao
 status-hours =
     { $hours ->
-        [one] Hora e le nngwe e netefaditso hakana
+        [one] Hora e le nngwe e netefaditswe ho fihlela jwale!
        *[other] dihora tse netefaditsweng ho fihlela jwale!
     }
 # Variables:
@@ -758,7 +758,7 @@ resource-coqui-info = <coquiLink>Coqui</coquiLink> e inehetse ho thekenoloji ya 
 community-playbook = Buka ya ho bapala ya setjhaba
 resource-playbook-info = <playbookLink>Fumana tataiso e thusang</playbookLink> leetong lohle la Common Voice, ho tloha ho localisation ho isa tshebedisong ya pokello ya data, mmoho le mokgwa wa ho hokahana le setjhaba sa rona.
 data-other-librispeech-description = LibriSpeech ke kakaretso ya dihora tse ka bang 1000 tsa 16Khz ya puo e badilweng ya Sekgowa e nkilweng dibukeng tse badilweng tsa audio ho tswa morerong wa LibriVox.
-data-other-ted-name = TED-LIUM Corpus
+data-other-ted-name = Dingolwa tsa TED-LIUM
 data-other-ted-description = TED-LIUM corpus e entswe ho tswa ho dipuo tsa audio mme dingodilweng tsa tsona di fumaneha marang-rang a TED.
 data-other-voxforge-description = VoxForge e thehilwe ho bokella puo e ngotsweng hore e sebediswe le dienjene tsa Mahala mme tsa Mohlodi o Bulehileng wa Temoho ya Puo.
 data-other-tatoeba-description = Tatoeba ke database e kgolo ya dipolelo, diphetolelo, le audio e builweng e sebediswang boithutong ba puo. Download ena e na le Sekgowa se builweng se rekotilweng ke setjhaba sa yona.
@@ -1166,6 +1166,7 @@ contribution-misreadings-example-4-title = Dikgodumodumo tse kgolo tsa Triassic.
 contribution-misreadings-example-4-explanation = [Ho tlalehilwe tse ngata ho feta mongolo o hlokahalang]
 contribution-misreadings-example-5-title = Re il'o fumana kofi.
 contribution-misreadings-example-6-title = Re il'o fumana kofi.
+contribution-misreadings-example-6-explanation = [E lokela ho ba "Re"]
 contribution-misreadings-example-7-title = Re il'o fumana kofi.
 contribution-misreadings-example-7-explanation = [Ha ho ‘a’ mongolong wa pele]
 contribution-misreadings-example-8-title = Notshi e ile ya feta ka lebelo.
@@ -1319,6 +1320,8 @@ sc-submit-title = Kenya Dipolelo
 sc-submit-select-language =
     .labelText = Kgetha Puo
 sc-submit-add-sentences = Kenya <wikipediaLink>setjhabeng </wikipediaLink> dipolelo
+sc-submit-ph-one-per-line =
+    .placeholder = Polelo e le nngwe moleng
 sc-submit-from-where = Dipolelo tsee<wikipediaLink>tsa setjhaba</wikipediaLink> di tswa hokae?
 sc-submit-ph-read-how-to =
     .placeholder = Bala Mokgwa wa rona wa ho etsa haeba o se na bonnete ba ho etsa
@@ -1421,6 +1424,7 @@ sc-lang-info-left-for-you =
        *[other] { $unreviewedSentencesByYou } dipolelo tse setseng hore o di hlahlobe.
     }
 sc-lang-info-review-now = <reviewLink>Hlahloba hona jwale!</reviewLink>
+sc-lang-info-add-more = addLink>Kenya dipolelo tse ding hona jwale!</addLink>
 # Variables:
 #   $validatedSentences (Number) - Number of sentences which have been approved for this language
 sc-lang-info-validated =
@@ -1491,6 +1495,7 @@ sc-review-form-button-approve-shortcut = Ee
 sc-review-form-button-reject-shortcut = N
 # Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
 sc-review-form-button-skip-shortcut = S
+sc-review-form-keyboard-usage-custom = O ka boela wa sebedisa Dikgaoletso tsa Keyboard: { sc-review-form-button-approve-shortcut } ho Amohela,  { sc-review-form-button-reject-shortcut } ho Hana, { sc-review-form-button-skip-shortcut } ho Tlola
 sc-review-form-button-submit =
     .submitText = Qetela ho hlahloba
 # Variables:
