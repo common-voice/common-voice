@@ -270,6 +270,7 @@ settings = Dilaolatirišo
 profile-close = Tswalela
 why-demographic-explanation-2 = Datha ya modiriši ye o sa tsebjego bjalo ka mengwaga, le bong bja motho, le mmolelo ao a thuša go go kaonefatša datha ya odio e šomišago go eteletša nepagatšo ya di-entšene a tlhathollo ya mantšu. Leina la gago la mošomiši le e-meile di ka se itswalanye le datha yeo e rometšego, gomme o ka kgetha gore na leina la gago la mošomiši le phatlalatšwe goba le se tsebje.
 edit = Rulaganya
+contribution-experience = Go fana ka Ditiragalotšweletšwa
 off = Tima
 on = Tšhuma
 help-accent-explanation = Mmolelo wa gago ke tsela yeo o bitšago matšu ka gona. Seo se ka bopša ke moo o dutšego gona, dipolelo tše dingwe tšeo o di bolelago le dibopego tše dingwe. O ka abelana tsebišo le ge e le efe yeo o naganago gore e bohlokwa mo.
@@ -321,6 +322,7 @@ about-header-description-v2 = Theknolotši ya go tlhathollo lentšu e fetola tse
 
 ## How does it work section
 
+about-dataset-release-title = Lokollo ya Dathasete
 about-speak = Bolela
 about-listen-queue = Lenaneotetelo la go theeletša
 about-listen = Ekwa
@@ -345,6 +347,7 @@ about-playbook-what-is-language-content-3 = Dipolelo tše dingwe di na le phapan
 about-playbook-how-add-language-translating-content-2 =
     Re šomiša sedirišwa sa Mozilla se bitšwago <pontoonLink>Pontoon</pontoonLink>  bakeng sa diphetolelo. Pontoon e na le dipolelo tše dintši, eupša ge e ba e se na ya gago o ka <pontoonRequestLink>kgopela gore polelo ya geno e tsenywe</pontoonRequestLink>. 
     Ke moka, o dire gore polelo e hwetšegale modirong wa Common Voice, <githubRepoLink>kgopela polelo e mpsha go GitHub</githubRepoLink>. <localizationFragment>Bona diphetolelo tše oketšegilego mo saete</localizationFragment>.
+about-playbook-how-add-language-collecting-sentences-heading = Kgoboketša mafoko
 
 ## How does localization work
 
@@ -434,6 +437,7 @@ dataset-description-hours =
 want-dataset-update = O nyaka di mpshafatšo ge re lokolla di bešene tše mpsha tša dathasete ya Common Voice? Ngwadiša go lengwalo la rena la ditaba.
 subscribe = Ngwadiša
 resource-coqui-info = <coquiLink>Coqui</coquiLink> e neetšwego go bula thekinolotši ya mantšu. Mediro ya tšona o akaretša thuto e tseneletšego yeo e leng sedirišwa sa STT le TTS.
+community-playbook = Puku ya Tshedimošo ya Setšhaba
 resource-playbook-info = <playbookLink>Hwetša keletšo ya maleba </playbookLink> go leeto le feletšego la Common Voice, go tšwa mo o dulago gona go ya go tirišo ya datha, le gore le kopana bjang le setšhaba sa rena.
 data-other-librispeech-description = LibriSpeech ke pokello ya dipego ya diiri  tše ka bago tše 1000 tša 16Khz tše di balwago ka polelo ya Seisemane e tšwerego dipukeng tša odio tše balwago tša go tšwa  morerong wa LibriVox.
 data-other-voxforge-description = VoxForge e beilwe go kgobokanya polelo e fetotšwego gore e berikišwe ka Mahala le Mothopo o Bulegilego wa Di-entšene tša Tlhathollo ya Polelo.
@@ -449,6 +453,7 @@ dataset-version = Version
 
 ## Contact Modal
 
+contact-title = Lengwalo la Dikgokaganyo
 contact-form-name =
     .label = Leina
 contact-form-message =
@@ -495,6 +500,7 @@ record-stop-instruction = { $actionType }<stopIcon></stopIcon> ge o feditše.
 record-last-instruction = <recordIcon></recordIcon> Ya mafelelo!
 clips-uploaded = Ditsopolwa di Tsene
 listen-last-time-instruction = <playIcon></playIcon>Ya mafelelo!
+speak-empty-state-cta = Neela ka mafoko
 
 ## Reporting
 
@@ -515,11 +521,13 @@ stats = Di-Stats
 awards = Difoka
 you = Wena
 everyone = Yo mongwe le yo mongwe
+contribution-activity = Meneelo ya Modiro
 visibility-explainer = Peakanyo ye e laola ke ponagalo ya kelo ya baetapele. Ge e fihlilwe, tšwelopele ya gago e tla ba sephiring. Se se bolela gore seswantšho sa gago, leina le tšwelopele di ka se bonagale godimo ga kelo ya baetapele. Hlokomela gore mpshafatšo ya kelo ya baetapele itšea ~{ $minutes }metsotso go hlagiša diphetogo.
 
 ## Custom Goals
 
 both-speak-and-listen = Bobedi
+daily-goal = Pakane ya ka Mehla
 easy-difficulty = Bonolo
 average-difficulty = Palo-gare
 difficult-difficulty = Bothatha
@@ -541,6 +549,7 @@ activity-needed-calculation-plural =
     }
 receiving-emails-info = Gona bjale o loketše go hwetša di-emeile tša go swana le dikgopotšo tša dipakane, sebontšhatšwelopele le mangwalo a ditaba tša Common Voice.
 not-receiving-emails-info = Gona bjale o ka <bold>GANA</bold> go hwetša lenaneo la poso la dikgopotšo tša dipakane,  sebontšhatšwelopele le mangwalo a ditaba tša Common Voice
+confirm-goal = Tiišetša Pakane
 goal-interval-weekly = Beke le beke
 share-goal-type-speak = Go bolela
 share-goal-type-listen = Theeleditše
@@ -594,6 +603,7 @@ demo-dashboard-card-body = Bakeng sa setsopolwana se sengwe le sengwe sa lentšu
 ## Validation criteria
 
 contribution-criteria-nav = Kriteria
+contribution-criteria-page-title = Ditiragalotšeletšwa tša Kriteria
 contribution-criteria-page-description = Kwešiša gore ke eng se o swanetše go se lebelela ge o theeletša dipego gomme o thutše go dira direkhoto tša gago tša lentšu di hume!
 contribution-misreadings-title = Di balo tše fošagetšego
 contribution-misreadings-example-8-explanation = [Mismatched content]
