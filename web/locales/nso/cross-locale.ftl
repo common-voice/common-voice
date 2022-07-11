@@ -11,4 +11,5 @@ get-involved-opt-in = Ee, nromela di-emeile. Ke tla rata go boledišana le lena 
 get-involved-submit = Lokela
 get-involved-stayintouch = Rena ba Mozilla re aga setšhaba mabapi le theknolotši ya lentšu. Re lakatša go dula re ikgokagantše le diphetogo, methopo e mpsha ya datha le go kwa ka mo go oketšegilego ka mokgwa wa go diriša datha tšeo.
 get-involved-success-title = O ngwaditšitše ka katlego go neela ka { $language }. Rea leboga.
+get-involved-success-text = Re tla ikgokaganya le wena ka tsebo e nngwe ge e ba gona.
 get-involved-return-to-languages = Boela go Maleme
