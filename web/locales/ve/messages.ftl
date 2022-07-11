@@ -246,6 +246,9 @@ request-language-explanation-1 =
      Arali zwi songo ralo, ḓadzani heyi fomo nahone ri ḓo ni <strong>rumela email ine ya ḓo ni thusa
      u ṱalutshedza uri luambo lwaṋu lu nga dzheniswa hani </strong>.
 request-language-explanation-2 = Ri ḓo <strong>vhudza minidzhere wa vhadzulapo vha vhuponi haṋu uri ni na dzangalelo ḽa hezwi</strong>, u itela uri vha ni tikedze kana u ni vhudza mafhungo ane na nga a ṱoḓa.
+request-language-success-list-1 =
+    Ni tea u wana email hu si kale ine ya ḓo ni ṱalutshedza
+     maga ane a tea u dzhiiwa uri hu pangiwe luambo lwaṋu kha Commn Voice
 request-language-success-list-2 =
     Minidzhere washu wa vhadzulapo u ḓo ni kwama uri a ni 
     tikedze nga ho engedzeaho, nahone u ḓo ni ḓivhadza arali hu na vho no
