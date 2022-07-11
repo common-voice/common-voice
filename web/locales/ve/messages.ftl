@@ -2,6 +2,7 @@
 
 yes-receive-emails = Ee, vha nthumele email. Ndi nga takalela u dzula ndi tshi vhudziwa nga ha thandela dza Common Voice.
 privacy-info = Ri fulufhedzisa u ṱhogomela zwidodombedza zwaṋu nga nḓila yavhuḓi. Vhalani nga vhuḓalo kha <privacyLink>u Tsireledza zwa Tshiphiri </privacyLink> zwashu.
+return-to-cv = Humelani kha Common Voice
 email-opt-in-info = Ndi nga takalela u wana email dzi nga ho dzine dza nkhumbudza nga ha zwipikwa zwanga, mvela phanḓa yanga na maswa maswa nga ha Common Voice.
 email-opt-in-info-title = Ivhani tshipiḓa tsha vhane vha wana email dza Common Voice
 email-opt-in-info-sub-with-challenge = Wanani milaedza nga email yo nonga khumbudzo ya zwipikwa, mvela phanḓa, na maswa maswa a Common Voice.
@@ -9,6 +10,7 @@ email-opt-in-privacy-v2 = Nga u ṱanganedza uri ni ṱoḓa u wana dzi email ni
 indicates-required = Mitaladzi i re na hetshi tshiga(*) i ya ṱoḓea.
 banner-error-slow-1 = Pfarelo, Common Voice i khou shuma nga thotho. Ri a livhuwa u vha haṋu na dzangalelo.
 banner-error-slow-2 = Hu na trafiki ine ya khou itea kha saiti, ri khou ita ṱhoduluso ya heyi thaidzo.
+error-something-went-wrong = Pfarelo, hu na zwi songo tshimbilaho zwavhuḓi
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -30,6 +32,7 @@ share-text = Thusani u gudisa mitshini uri vhathu vhavhukuma vha ambisa hani, ni
 
 home-title = Common Voice ndi mushumo wa Mozilla wa u thusa mitshini uri i gude nḓila ine vhathu vha vhukuma vha amba ngayo.
 default-tagline = Mozilla Common Voice ndi nḓila ya u thusa u funza mitshini nga nḓila ine vhathu vhavhukuma vha amba ngayo.
+home-cta = Ambani, nikelani hanefha!
 wall-of-text-start = Ipfi ndi ḽa vhukuma, ipfi ndi muthu. Ndi ngazwo ri tshi takadzwa nga u ita zwishumiswa zwa thekhinolodzhi zwi shumisaho ipfi kha mitshini yashu. Fhedzi u itela uri ri ite dzi sisiṱemu dza maipfi, hu ṱoḓea data ya maipfi manzhi vhukuma.
 wall-of-text-more-mobile =
     Data nnzhi i shumiswaho nga khamphani khulwane, vhathu vhanzhi a vha koni u i swikelela. Ri vhona u nga
@@ -296,6 +299,7 @@ about-playbook-how-access-dataset-content-2 = Arali ni tshi khou ṱoḓa zwishu
 
 about-playbook-how-project-governance = Tsheo dza thandela dzi dzhiiwa hani?
 about-playbook-how-project-governance-content-2 = Zwi ri langaho zwo thewa kha hedzi phuphu:
+about-playbook-how-project-governance-content-3 = Zwa tshiphirini, tshireledzo na u vhonala
 about-playbook-how-project-governance-content-4 = U longa tshanḓa kha tshigwada na u dzhia tsheo.
 about-playbook-how-project-governance-content-7 = <governanceLink>Vhalani nga vhuḓalo nga ha uri ri langiwa hani</governanceLink>
 
@@ -452,6 +456,7 @@ report-grammar-or-spelling-detail = Hoyu mutaladzi u na vhukhakhi ha grama kana 
 report-different-language-detail = Zwo ṅwaliwa nga luambo lu sa fani na lune nṋe nda khou amba ngalwo.
 report-difficult-pronounce-detail = I na maipfi kana mibulo ine ya konḓa u i vhala kana u i bula.
 report-offensive-speech-detail = Heyi rekhodo i na mafhungo ane a nyadza kana a songo kunaho.
+report-success = Muvhigo wo phasa
 
 ## Goals
 
@@ -516,6 +521,7 @@ download-recordings-unavailable = Ni nga si kone u humbela zwe na rekhoda ngeno 
 download-recently-requested = Ni nga humbela uri ni dzhie zwe na rekhoda { $days } ḓuvha ḽiṅwe na ḽiṅwe.
 download-requests-info = Musi ni tshi humbela zwe na rekhoda, ri zwi panga kha faela ya ZIP nthihi kana nnzhi. Khumbelo dzaṋu dza tshifhinga tsho fhiraho khedzi:
 download-request-description = { $clipCount } maipfi o rekhodiwaho, saizi ya zwo vhulungwaho { $size }. Fhelelwa nga tshifhinga { $expires }.
+download-request-archive-single = Pfarelo, hu na zwi songo tshimbilaho zwavhuḓi
 download-request-archive-multiple = Khethekanyani kha { $archiveCount } faela dza ZIP dzi re na
 download-request-assembling-description = Faela dzaṋu dzi khou dzudzanyiwa. Sedzani hafhu hu si kale.
 download-request-modal-description = Ḽinki khedzi dza u downḽoda faela dzaṋu dza ZIP.
@@ -545,6 +551,7 @@ demo-account-card-header = A zwi ṱoḓei uri ni vhe na akhantu uri ni kone u n
 demo-account-card-body = Ro ita zwithu zwavhuḓi nga u ṱalutshedza mbuyelo na u bvisela khagala uri ndi zwithu zwifhio zwine ra zwi ita uri zwi vhonwe nga nnyi na nnyi. Shumisani ḽinki dzi re afho fhasi uri ni thome u ita akhantu yaṋu ya Common Voice kha tshishumiswa tshaṋu.
 demo-account-enter-email =
     .label = Dzhenisani email uri ri ni rumele ḽinki ya u ḓiṅwalisa
+demo-account-sign-up = Rumelani ḽinki ya u ḓiṅwalisa
 
 ## Demo Contribute
 
@@ -665,6 +672,7 @@ sc-stats-summary = Tsha u Kuvhanganya Mitaladzi tsha Common Voice tsho kuvhangan
 
 ## ADD
 
+sc-submit-err-select-lang = Ri humbela uri ni nange luambo
 sc-submit-err-confirm-pd = Ri humbela uri ni khwaṱhisedze uri heyi mitaladzi ndi ya fhethu ha tshitshavha tshoṱhe.
 sc-submit-prompt =
     .message = Mitaladzi a yo ngo rumelwa, naa ni na vhungoho ha uri ni khou ṱoḓa u ṱuwa?
@@ -673,6 +681,7 @@ sc-submit-ph-read-how-to =
     .placeholder = Vhalani How-to yashu arali ni si na vhutanzi
 sc-submit-confirm = Ndi a khwaṱhisedza uri heyi mitaladzi ndi ya <wikipediaLink>fhethu ha tshitshavha tshoṱhe </wikipediaLink> nahone ndi na thendelo ya u i apuḽoda.
 sc-submit-filtered = Mitaladzi yo fiḽithariwaho ngauri a yo ngo swikelea ṱhoḓea (ri humbela uri ni rumele zwe na khakhulula sa mitaladzi miswa):
+sc-submit-guidelines = Ri humbela uri ni sedze <howToLink>vhulivhisi</howToLink>.
 
 ## ADD LANGUAGE
 
