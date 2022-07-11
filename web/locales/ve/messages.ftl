@@ -35,6 +35,7 @@ wall-of-text-first =
     Ipfi ndi ḽa vhukuma, ipfi ndi muthu. Ndi ngazwo ri tshi takalela u ita zwishumiswa zwa thekhinoḽodzhi zwi shumisaho ipfi
      kha mitshini yashu. Fhedzi u ita sisiṱemu dza ipfi, vhabveledzi vha ṱoḓa data ya maipfi manzhi vhukuma.
 wall-of-text-second = Data nnzhi dzi shumiswaho nga khamphani khulwane, vhathu vhanzhi a vha koni u dzi swikelela. Ri vhona u nga zwi khou ita uri hu si vhe na bvela phanḓa. Ndi ngazwo ro thoma thandela ya Common Voice, thandela ine ya ḓo thusa uri u ḓivha ipfi zwi vhe zwa vhathu vhoṱhe na uri vha kone u zwi swikela.
+help-us-explain = Puṱedzani tsha u puḽeya, thetshelesa & ri vhudzeni: Naa vho amba zwi re kha mutaladzi u re afho fhasi?
 no-clips-to-validate = Zwi vhonala u nga a hu na zwo rekhodiwaho zwine na nga zwi thetshelesa nga holwu luambo. Ri thuseni u egedza mutevhe wa zwo rekhodiwaho nga u rekhoda zwiṅwe zwino.
 speak-paragraph = U rekhoda maipfi ndi tshipiḓa tsha u ita dataset yashu; vhaṅwe vha nga ri na tshenetshi ndi tshipiḓa tshi takadzaho.
 listen-paragraph = U khwaṱhisedza uri zwo rekhodiwaho ndi zwone ndi tshipikwa tsha ndeme vhukuma tsha Common Voice. Thetshelesani nahone ni ri thuse uri ri ite maipfi a vhuimo ha nṱha ane a ḓo kona u shumiswa nga nnyi na nnyi.
@@ -46,6 +47,7 @@ join-newsletter = Ni nga khetha u vha tshipiḓa tsha vha re kha mutevhe wa emai
 
 ## What's public
 
+recordings-and-locale-public = Tshivhalo tsha zwo rekhodiwaho na nyambo dze na nikela khadzo zwi ḓo vhoniwa nga munwe na munwe.
 demographic-deidentified-clarity-2 = Data ine ya nga rumelwa ya mafhungo a zwidodombedzwa zwa muthu (sa tsumbo. miṅwaha, mbeu, luambo, na kuambele) a zwi nga itwi uri zwi wanwe nga vhathu vhoṱhe kha profile yaṋu, nahone a zwi nga ṱumanyiwi na akhantu yaṋu kha dataset. Odio iṅwe na iṅwe yo rekhodiwaho i ḓo tshimbidzana na zwidodombedzwa zwa muthu u itela uri dzi kone u ṱolisiswa nga nḓila yo teaho – sa tsumbo, muṱoḓisisi a nga vha a tshi khou ṱoḓa u gudisa tshishumiswa a tshi itela vhathu vha vhubvo ho khetheaho.
 
 ## Speak & Listen Shortcuts
@@ -124,7 +126,9 @@ how-does-it-work-text = Ri khou lingedza u wana maipfi kha tshitshavha uri ri it
 
 ## How does it work section
 
+about-listen-queue-text = Maipfi o rekhodiwaho a pangiwa kha mutevhe wa u rumela une wa a ita uri a lugele u thetshelesiwa.
 about-listen-text = Vhashumisi vha khwaṱhisedza rekhodo dzo nikelwaho, vha tshi sedza uri muambi o vhala mutaladzi zwone naa.
+about-is-it-valid-text = Rekhodo i makiwa u pfi "khwaṱhisedzwa" musi mushumisi a tshi i khetha ngauri Ee.
 about-yes-votes-text = Uri ipfi ḽo rekhodiwaho ḽi vhe tshipiḓa tsha dataset ya Common Voice, ḽi tea u vha ḽo khwaṱhisedzwa nga vhathu vhavhili.
 about-no-votes-text = Musi muthu a tshi ri ipfi ḽo rekhodiwaho a ḽo ngo tea, ḽi ḓo humela kha mutevhe. Arali ha pfi a ḽo ngo tea lwa vhuvhili, ipfi ḽeneḽo ḽi ya fhethu hune ha pfi Clip Graveyard.
 about-dataset-new-text = Dataset ya Common Voice i na maipfi o rekhodiwaho a zwigidi na zwigidi ane vhabveledzi vha a shumisa u ita zwishumiswa zwa u kona u ṱalukanya maipfi.
@@ -189,6 +193,7 @@ about-playbook-how-grow-language-content-8 = <strong>Ivhani na Vhutsila!</strong
 
 ## How to validate
 
+about-playbook-how-validate-content-1 = Arali ni tshi kona u <strong>vha pfa</strong> na<strong>u vha pfesesa</strong>, kanzhi <strong>zwo tea u amba uri ndi yone-yone</strong>.
 about-playbook-how-validate-content-2 = <strong>Ni songo hana zwo rekhodiwaho ngauri muambi u na ‘kuambele’ kune ku si fane na kwaṋu </strong> - zwenezwi ndi zwa ndeme arali ri tshi ṱoḓa uri zwishumiswa zwa u ḓivha ipfi zwi shume khwine kha vhathu vhoṱhe.
 about-playbook-how-validate-content-3 = Arali ni tshi humbula uri kubulele kwa maipfi ku ita uri <strong>zwi konḓe u pfana</strong>, kana hu na <strong>phosho ine ya khou pfala</strong>, kana hu na <strong>vhaṅwe vhathu vhane vha khou amba </strong>, zwenezwi zwi ḓo ita uri ni si ṱanganedze zwo rekhodiwaho. <accuracyLink>Vhonani zwinzhi nga ha nḓila ine ra vhona uri zwithu zwo tea </accuracyLink>.
 about-playbook-how-validate-content-4 = Arali zwo rekhodiwaho zwa haniwa nga vhathu vhavhili, zwi iswa kha iṅwe subset ya dataset.
@@ -205,6 +210,7 @@ about-playbook-how-project-governance-content-1 = Common Voice ya Mozilla i khou
 ## Glossary
 
 localization-explanation = Heyi ndi nḓila yashu ya u ḓologa na u ita uri mafhungo ashu a tshimbidzane na vhathu vha vhupo hunzhi (nyambo).
+sentence-collection-explanation = U kuvhanganya mitaladzi u bva kha fhethu ha tshitshavha tshoṱhe, kana ni ṅwalele fhethu ha tshitshavha tshoṱhe mitaladzi miswa.
 hours-validated-explanation = U vhaliwa ha awara dza maipfi o rekhodiwaho o no khwaṱhisedzwaho nga vhathu 2 kha 3 ngauri vha khethe uri “Ee”. Zwenezwi zwi sumbedza uri thandela i ngafhi kha tshipikwa tsha awara dza 10k.
 de-identified-explanation = Ndi nḓila ya u ita uri zwidodombedzwa zwi re kha profile zwi si vhoniwe kha maipfi o rekhodiwaho a nikelwa musi o no itwa uri a kone u downlodiwa sa tshipiḓa tsha dataset.
 
@@ -247,6 +253,7 @@ missing-language = Naa a ni vhoni luambo lwaṋu kha dataset? U ita khumbelo ya 
 
 ## Download Modal
 
+download-helpus = Ri thuseni u fhaṱa tshigwada tsha maipfi a thekhinolodzhi, kha ri dzule ri tshi kwamana nga email.
 
 ## Contact Modal
 
@@ -461,6 +468,7 @@ sc-lang-info-left-for-you =
 
 ## REVIEW CRITERIA
 
+sc-criteria-item-4 = Aali mutaladzi wo swikelela ṱhoḓea, puṱedzani &quot;Approve&quot; bathane i re kha tshanḓa tsha uḽa.
 sc-criteria-item-5-2 = Arali mutaladzi u sa swikeleli ṱhoḓea dzi re afho nṱha, puṱedzani &quot;Reject&quot; gunubu i re kha tsha monde. Arali ni si na vhungoho ha uri mutaladzi a si wone, ni nga u pfukha na pfukela kha u no khou tevhela.
 sc-criteria-item-6 = Arali na fhelelwa nga mitaladzi ya u ṱolisisa, ri humbela uri ni ri thuse nga u kuvhanganya miṅwe mitaladzi minzhi!
 
