@@ -45,6 +45,7 @@ content-license-text = Okuqukethwe kutholakala ngaphansi <licenseLink> Ilayisens
 share-title = Sisize sithole abanye abanganikela ngamazwi abo!
 share-text = Siza ukufundisa imishini ukuthi abantu bangempela bakhuluma kanjani, nikela ngezwi lakho ku-{ $link }
 back-top = Buyela Phezulu
+logout = Phuma
 
 ## Home Page
 
@@ -138,6 +139,7 @@ thanks-for-account = Siyabonga ngokuqinisekisa i-akhawunti yakho, manje asakhe i
 why-demographic = Kungani kubalulekile lokhu?
 accept-privacy = Ngilungile uma uphatha lolu lwazi njengoba uchaza kokuthi <privacyLink>Inqubomgomo Yobumfihlo</privacyLink> ye-Mozilla
 accept-privacy-title = Inqubomgomo yobumfihlo
+login-identity = Umazisi wokungena
 login-signup = Ngena / Bhalisa
 download-profile = Loda Idatha Yami
 skip-submission-feedback = Yeqa Impendulo Yokuthunyelwe
@@ -155,6 +157,7 @@ remove-avatar = Susa i-Avatar
 
 ## Profile - Email
 
+manage-subscriptions = Lawula Okubhaliselwe
 manage-email-subscriptions = Phatha Okubhaliselwe Kwe-imeyili
 email-already-used = I-imeyili isivele isetshenziselwa enye i-akhawunti ehlukile
 change-email-setings = Shintsha i-imeyili yakho ngezilungiselelo ngaphansi kokuthi Ukungena koMazisi
@@ -697,6 +700,7 @@ sc-footer-report-bugs = Bika Iziphazamisi
 sc-footer-translate = Humusha leli khasi
 sc-footer-report-copyright = Bika izinkinga zelungelo lobunikazi
 sc-login-signup-button = Ngena / Bhalisa
+sc-logout-button = Phuma
 
 ## HOME
 
@@ -881,6 +885,7 @@ sc-lang-info-rejected =
 
 ## LOGIN
 
+sc-login-err-failed = Ukungena kwehlulekile
 sc-login-err-try-again = Ngicela uzame futhi.
 
 ## PROFILE
@@ -907,6 +912,7 @@ sc-criteria-item-6 = Uma uphelelwa imisho okufanele uyibuyekeze, sicela usisize 
 
 sc-review-lang-not-selected = Awukhethanga noma yiziphi izilimi. Sicela uye <profileLink>Iphrofayela</profileLink> yakho ukuze ukhethe izilimi.
 sc-review-title = Buyekeza imisho
+sc-review-loading = Ilayisha imisho...
 sc-review-select-language = Sicela ukhethe ulimi ozobuyekeza imisho.
 sc-review-no-sentences = Ayikho imisho ezobuyekezwa. <addLink>Engeza eminye imisho manje!</addLink>
 sc-review-form-prompt =
