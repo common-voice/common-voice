@@ -23,6 +23,7 @@ cnh = Hakha Chin
 dsb = Sorbian, Lower
 gom = Goan Konkani
 hsb = Sorbian, Upper
+hyw = Armenian Western
 kmr = Kurmanji Kurdish
 knn = Konkani (Devanagari)
 mhr = Meadow Mari
@@ -34,6 +35,7 @@ nd = IsiNdebele (North)
 nn-NO = Norwegian Nynorsk
 nr = IsiNdebele (South)
 nso = Northern Sotho
+om = Afaan Ormoo
 pap-AW = Papiamento (Aruba)
 quy = Quechua Chanka
 rm-sursilv = Romansh Sursilvan
@@ -41,9 +43,13 @@ rm-vallader = Romansh Vallader
 sat = Santali (Ol Chiki)
 st = Southern Sotho
 tok = Toki Pona
+ts = Xitsonga
+yi = Yiddish
+yo = Yoruba
 zh-CN = Chinese (China)
 zh-HK = Chinese (Hong Kong)
 zh-TW = Chinese (Taiwan)
+zu = Zulu
 
 # [/]
 
@@ -68,6 +74,7 @@ show-wall-of-text = Funda kabanzi
 help-us-title = Sisize siqinisekise imisho!
 help-us-explain = Cindezela okuthi dlala, lalela futhi usitshele: ingabe bawukhulume kahle lo musho ongezansi?
 no-clips-to-validate = Kubonakala sengathi azikho iziqeshana ongazilalela ngalolu limi. Sisize sigcwalise ulayini ngokurekhoda okunye manje.
+vote-yes = Yebo
 toggle-play-tooltip = Cindezela{ shortcut-play-toggle } ukuze uguqule imodi yokudlala
 speak-subtitle = Nikela ngezwi lakho
 speak-paragraph = Ukuqopha iziqeshana zezwi kuyingxenye ebalulekile yokwakha idathasethi yethu evulekile; abanye bangathi kumnandi futhi.
@@ -85,6 +92,16 @@ x-weeks-short =
     { $count ->
         [one] Iviki
        *[other] { $count }wk
+    }
+x-months-short =
+    { $count ->
+        [one] { $count }mo
+       *[other] { "" }
+    }
+x-years-short =
+    { $count ->
+        [one] { "" }
+       *[other] { $count }y
     }
 help-make-dataset = Sisize sakhe idathasethi elezinga eliphezulu, nevulelekile esidlangalaleni
 sign-up-account = Bhalisela i-akhawunti
@@ -112,6 +129,9 @@ username-email-not-demographic = Igama olisebenzisayo kanye ne-imeyili yakho nge
 
 ## Listen Shortcuts
 
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = y
 
 ## Speak Shortcuts
 
@@ -140,6 +160,8 @@ profile-form-username =
     .label = Igama Lomsebenzisi
 profile-form-native-language =
     .label = Ulimi olukhulunywayo endaweni
+profile-form-additional-language =
+    .label = Ulimi Olwengeziwe
 profile-form-variant =
     .label = Uhlobo luni lwe-{ $language } olukhulumayo?
 profile-form-variant-default-value = Akukho okuhlukile okukhethiwe
@@ -175,6 +197,7 @@ connect-gravatar = Xhuma nge-Gravatar
 gravatar_not_found = Ayikho i-gravatar etholakele ye-imeyili yakho
 file_too_large = Ifayela elikhethiwe likhulu kakhulu
 avatar-uploaded = I-avatar ilodiwe
+max-file-size = { $kb }kb max
 remove-avatar = Susa i-Avatar
 
 ## Profile - Email
@@ -182,6 +205,7 @@ remove-avatar = Susa i-Avatar
 manage-subscriptions = Lawula Okubhaliselwe
 manage-email-subscriptions = Phatha Okubhaliselwe Kwe-imeyili
 email-already-used = I-imeyili isivele isetshenziselwa enye i-akhawunti ehlukile
+add-language = Engeza Ulimi
 change-email-setings = Shintsha i-imeyili yakho ngezilungiselelo ngaphansi kokuthi Ukungena koMazisi
 
 ## FAQ
@@ -351,6 +375,7 @@ error-title-503 = Sibhekene nesikhathi sokungasebenzi esingalindelekile
 ## Data
 
 data-download-button = Loda Idatha yeCommon Voice
+data-download-yes = Yebo
 data-download-license = Ilayisensi: <licenseLink>CC-0<licenseLink>
 data-download-modal = Usuzoqalisa ukuloda kwe-<size>GB</size>, qhubeka?
 data-subtitle = Sakha isethi yedatha evulekile netholakala esidlangalaleni yamazwi wonke umuntu angayisebenzisela ukuqeqesha izinhlelo zokusebenza ezikwazi ukukhuluma.
@@ -377,6 +402,7 @@ review-delete-recordings = Susa okwami okuqoshiwe
 datasets-headline = Sakha umthombo ovulekile, isethi yedatha yezilimi eziningi yamazwi noma ubani angayisebenzisa ukuze aqeqeshe izinhlelo zokusebenza ezikwazi ukukhuluma.
 validated-hr-total = Isamba samahora esiqinisekiswe u-Hr. Isamba
 overall-hr-total = Isamba samahora sesisonke
+audio-format = Ifomethi yomsindo
 number-of-voices = Inombolo Yamazwi
 email-to-download = Faka i-imeyili ukuze udownlode
 confirm-size = Ulungele ukuqalisa ukuloda kwe-<b>{ $size }</b>
@@ -488,9 +514,11 @@ record-error-too-long = Ukuqopha bekukude kakhulu.
 record-error-too-quiet = Ukuqopha bekuthule kakhulu.
 record-cancel = Khansela ukuqoshwa kabusha
 record-instruction = { $actionType }<recordIcon></recordIcon> bese uwufundela phezulu umusho
+record-stop-instruction = { $actionType }<stopIcon></stopIcon> uma sekwenziwe
 record-three-more-instruction = Sekusele okuthathu!
 record-again-instruction = Kuhle!<recordIcon></recordIcon> Qopha isiqeshana sakho esilandelayo
 record-again-instruction2 = Qhubeka, uqophe futhi <recordIcon></recordIcon>
+record-last-instruction = <recordIcon></recordIcon>Owokugcina!
 review-tooltip = Buyekeza futhi uqophe kabusha iziqeshana lapha njengoba uhamba
 share-clip = Yabelana ngesiqeshana sakho
 share-common-voice = Yabelana ngeCommon Voice
@@ -504,6 +532,7 @@ record-abort-delete = Phuma futhi Susa iziqeshana
 listen-instruction = { $actionType }<playIcon></playIcon> ingabe bawukhulume kahle umusho?
 listen-again-instruction = Umsebenzi omuhle!<playIcon></playIcon> Lalela futhi uma usulungile
 listen-3rd-time-instruction = 2 phansi, qhubeka kanjalo!<playIcon></playIcon>
+listen-last-time-instruction = <playIcon></playIcon>Owokugcina!
 listen-empty-state = Siphelelwe iziqeshana ezizoqinisekiswa ngalolu limi...
 listen-loading-error =
     Asikwazanga ukuthola iziqeshana zomsindo ozozilalela.
@@ -565,6 +594,7 @@ clips-you-recorded = Iziqeshana Oziqophile
 clips-you-validated = Iziqeshana oziqinisekisile
 todays-recorded-progress = Inqubekelaphambili yanamuhla yeCommon Voice kuziqeshana eziqoshiwe
 todays-validated-progress = Inqubekelaphambili yanamuhla yeCommon Voice kuziqeshana iqinisekisiwe
+you = Wena
 contribution-activity = Umsebenzi Wokufaka isandla
 top-contributors = Abanikeli Abaphezulu
 recorded-clips = Iziqeshana eziqoshiwe
@@ -726,6 +756,7 @@ contribution-misreadings-example-6-title = Siyaphuma ukuyothenga ikhofi.
 contribution-misreadings-example-7-title = Sizophuma siyothola ikhofi.
 contribution-misreadings-example-7-explanation = [Ungabibikho u-‘a’ embhalweni wokuqala]
 contribution-misreadings-example-8-title = Inyosi yadlula ngesivinini.
+contribution-misreadings-example-8-explanation = [Okuqukethwe okungafani]
 contribution-varying-pronunciations-title = Ukuphimisa amagama ngokuhlukahlukana
 contribution-varying-pronunciations-example-1-title = Ekhanda ugqoke ibharethi.
 contribution-varying-pronunciations-example-1-explanation = [I-‘Beret’ ILUNGILE noma ngabe isigcizelelo sikuhlamvu wokuqala (UK) noma wesibili (US)]
@@ -743,6 +774,8 @@ contribution-background-voices-example-1-title = Ama-dinosaurs amakhulu e-Triass
 contribution-background-voices-example-1-explanation = Uyeza? <strong>[called by another]</strong>
 contribution-reader-effects-title = Imiphumela Yomfundi
 contribution-just-unsure-title = Awuqinisekile nje kuphela?
+see-more = <chevron></chevron>Buka Okuningi
+see-less = <chevron></chevron>Bona okuncane
 
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
@@ -827,6 +860,7 @@ sc-submit-err-add-sentences = Sicela wengeze imisho.
 sc-submit-err-confirm-pd = Sicela uqinisekise ukuthi le misho ayisizinda somphakathi.
 sc-submit-prompt =
     .message = Imisho ayithunyelwanga, uqinisekile ukuthi ufuna ukuhamba?
+sc-submit-title = Engeza Imisho
 sc-submit-select-language =
     .labelText = Khetha Ulimi
 sc-submit-add-sentences = Engeza <wikipediaLink>isizinda somphakathi</wikipediaLink> imisho
@@ -843,6 +877,7 @@ sc-submit-guidelines = Sicela uhlole <howToLink>imihlahlandlela</howToLink>.
 
 sc-add-lang-could-not-add = Ayikwazanga ukwengeza ulimi
 sc-add-lang-sec-label = Engeza ulimi ofuna ukufaka isandla kulo
+sc-add-lang-sec-button = Engeza Ulimi
 sc-add-err-unexpected = Impendulo engalindelekile ibuyisiwe iqhamuka kwi-server
 # Variables:
 #   $duplicates (Number) - Number of sentences which got rejected because they are duplicates
@@ -924,6 +959,7 @@ sc-lang-info-left-for-you =
         [one] umusho ongu-1 osele ukuthi uwubuyekeze.
        *[other] { $unreviewedSentencesByYou } imisho esele ukuthi uyibuyekeze.
     }
+sc-lang-info-review-now = <reviewLink>Buyekeza manje!<reviewLink>
 sc-lang-info-add-more = <addLink>Engeza eminye imisho manje!</addLink>
 # Variables:
 #   $validatedSentences (Number) - Number of sentences which have been approved for this language
@@ -976,6 +1012,8 @@ sc-review-select-language = Sicela ukhethe ulimi ozobuyekeza imisho.
 sc-review-no-sentences = Ayikho imisho ezobuyekezwa. <addLink>Engeza eminye imisho manje!</addLink>
 sc-review-form-prompt =
     .message = Imisho ebuyekeziwe ayithunyelwanga, uqinisekile?
+# Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
+sc-review-form-button-approve-shortcut = Y
 sc-review-form-keyboard-usage-custom = Ungasebenzisa futhi Izinqamuleli Zekhibhodi: { sc-review-form-button-approve-shortcut } ukuze Ukugunyaza, { sc-review-form-button-reject-shortcut } Ukunqaba, { sc-review-form-button-skip-shortcut } Ukweqa
 sc-review-form-button-submit =
     .submitText = Qeda Ukubukeza
