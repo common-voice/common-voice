@@ -240,6 +240,7 @@ about-playbook-how-add-language-translating-content-2 =
     mme fa e se na puo ya gago, o ka <pontoonRequestLink>kopa gore e tsenngwe</pontoonRequestLink>.
     Mme go dira gore puo e nne teng mo porojekeng ya Common Voice,
     <githubRepoLink>kopa puo e ntšha mo GitHub</githubRepoLink>. <localizationFragment>Bona tshedimosetso e e oketsegileng mo webosaeteng ya thanolo</localizationFragment>.
+about-playbook-how-add-language-collecting-sentences-heading = Go phutha dipolelo
 about-playbook-how-add-language-collecting-sentences-content-2 =
     O ka <sentenceCollectorLinkAdd>tsenya dipolelo di le mmalwa</sentenceCollectorLinkAdd>,
     kgotsa o ka <bulkImportDocsLink>tsenya tse dintsi o dirisa Github</bulkImportDocsLink>.
@@ -330,6 +331,7 @@ want-dataset-update = A o batla re go itsise fa re golola tokololo e ntšha ya r
 resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ ke <docsLink>sediriswa sa batho botlhe</docsLink> se babatlisisi ba se dirisang go tlhama mokgwa wa puisano wa mefuta ya AI.
 resource-deepspeech-info = Thulaganyo ya go lemoga mantswe ya Mozilla ya Deep Speech e ka dirisiwa go dira dithulaganyo tsa go lemoga puo. Bala <githubLink>dintlhakakaretso tsa rona tsa Github</githubLink> kgotsa nna karolo ya <discourseLink>DeepSpeech Discourse</discourseLink> go ithuta gore o ka simolola jang.
 resource-coqui-info = <coquiLink>Coqui</coquiLink> e ineetse mo thekenolojing ya go dirisa puo. Diporojeke tsa bone di akaretsa thuto e e tseneletseng e e ikaegileng ka mefuta ya STT le TTS.
+community-playbook = Buka ya Motshameko ya Baagi
 resource-playbook-info = <playbookLink>Bona kaelo e e thusang</playbookLink> ka loeto lotlhe lwa Common Voice, go tloga ka go ranolela go fitlha ka tiriso ya tshedimosetso, mmogo le go ikgolaganya le batho ba lefelo la rona.
 data-other-librispeech-description = LibriSpeech ke direkoto tsa diura di ka nna 1000 tsa 16Khz tse di balang mela ya Seesemane tse di tsewang mo dibukeng tsa mantswe tsa porojeke ya LibriVox.
 data-other-ted-description = Tshedimosetso ya TED-LIUM e dirilwe go dirisiwa dipuo tsa mantswe le ditlankana tsa bone tse di kopolotsweng tse di mo websaeteng ya TED.
@@ -498,6 +500,7 @@ sc-header-add = Tsenya
 ## HOME
 
 sc-home-intro = Sekgobokanyi sa Dipolelo ke karolo ya <commonVoiceLink>Common Voice</commonVoiceLink>. Se letla baabi go tsaya le go tlhomamisa dipolelo tse di dirilweng ke baagi. Gape o ka dirisa sedirisiwa seno go tsenya le go phepafatsa dikarolo tse dinnye go ya go tse di mo magareng tsa lefelo la botlhe tse o di fitlhetseng kgotsa tse o di kgobokantseng. Dipolelo tsotlhe di tshwanetse go nna tsa Lefelo la Botlhe. Dipolelo tse di dumeletsweng di romelwa beke le beke kwa bobolokelong jwa Common Voice mme nako le nako fa go nna le tlhabololo nngwe le nngwe e ntšha di gololelwe mo webosaeteng ya Common Voice.
+sc-home-collect-title = Phutha dipolelo
 sc-home-review-text = Re thuse go sekaseka mela gore a e nepagetse go ya ka dikaelo.
 
 ## GENERAL
