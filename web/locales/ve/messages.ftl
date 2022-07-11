@@ -48,6 +48,7 @@ no-clips-to-validate = Zwi vhonala u nga a hu na zwo rekhodiwaho zwine na nga zw
 toggle-play-tooltip = Puṱedzani { shortcut-play-toggle } bathene ya u puḽeya
 speak-paragraph = U rekhoda maipfi ndi tshipiḓa tsha u ita dataset yashu; vhaṅwe vha nga ri na tshenetshi ndi tshipiḓa tshi takadzaho.
 listen-paragraph = U khwaṱhisedza uri zwo rekhodiwaho ndi zwone ndi tshipikwa tsha ndeme vhukuma tsha Common Voice. Thetshelesani nahone ni ri thuse uri ri ite maipfi a vhuimo ha nṱha ane a ḓo kona u shumiswa nga nnyi na nnyi.
+read-terms-q = No no vhala Milayo ya Kushumisela yashu?
 ready-to-record = Naa no lugela u nikela nga ipfi ḽaṋu?
 help-make-dataset = Ri thuseni uri ri ite dataset ya vhuimo ha nṱha ya nnyi na nnyi
 sign-up-account = Itani Akhantu
@@ -104,6 +105,7 @@ thanks-for-account = Ro livhuwa uri no khwaṱhisedza akhantu yaṋu, zwino kha 
 why-demographic-explanation-2 = Zwidodombedzwa zwa tshiphiri sa miṅwaha, mbeu, na kuambele zwi thusa u khwinisa data ya odio ine ya shumiswa u gudisa tshishumiswa tsha u ḓivha ipfi. Username na email yaṋu a zwi nga vuwi zwo ṱumanywa na zwithu zwe na rumela, nahone ni nga khetha uri username yaṋu i vhonwe nga vhathu vhoṱhe kana i sa vhonwe.
 accept-privacy = Ndi a tenda uri ni fare zwenezwi zwidodombedzwa samusi no ṱalutshedza kha Mozilla <privacyLink>Mulayo wa u Tshiphiri</privacyLink>
 accept-privacy-title = Mulayo wa Tshiphiri
+login-signup = Log In / Sign Up
 skip-submission-description = Musi ni tshi khou rumela zwe na shela mulenzhe hu ḓo pfukiwa feedback nga murahu ha u puṱedza ipfi 'Submit'. Ni ḓo bvela phanḓa na u shela muledzhe nga u rekhoda dza 5 dzi tevhelaho kana u dzi thembendela.
 skip-submission-note = Ṱhogomelani hezwi: Ni kha ḓi ḓo tea uri ni nange u Amba kana u Thetshelesa uri ni shandule mufuda wa u nikela.
 help-accent = Ni khou ṱoḓa thuso kha kuambele?
@@ -162,6 +164,7 @@ faq-where-src-from-2-a =
 faq-why-not-ask-read-q = Ndi ngani ni sa humbeli vhathu uri vha vhale dzibugu kana thero dzi re kha Wikipedia nga nyambo dzo fhambananaho?
 faq-why-not-ask-read-a = Uri yeneyi dataset ya Common Voice i shume nga nḓila yavhuḓisa ro dzhia phetho ya u tendela fhedzi source text (luambo lwe mafhungo a thoma u ṅwalwa ngalwo) i wanalaho kha Creative Commons (CC0) lisentsi. Musi ri tshi shumisa CC0 zwi amba uri zwi ḓo konḓa u wana na u kuvhanganya source text, fhedzi i tendela uri naho e nnyi a shumise maipfi a sa kalelwi tshivhalo kana u wana thendelo kha Mozilla. Tshipikwa tshashu ndi u ita uri dataset ya dzi nyambo nnzhi i shumiswe zwavhuḓi nga hune zwa nga konadzea ngaho nga vhathu vhoṱhe, u katela na vhaṱoḓisisi, dziyunivesithi, vhathomi vha mabindu, mivhuso, madzangano a zwa matshilisano na vhane vha zwi shumisela u ḓitakadza.
 faq-why-account-q = Ndi ngani ndi tshi tea u ita akhantu?
+faq-is-account-public-q = Naa zwidodobedzwa zwa akhantu yanga ndi zwa tshitshavha tshoṱhe?
 faq-how-privacy-q = Ni zwi kona hani u ita uri vhathu vho nikelaho nga maipfi vha si ḓivhiwe nahone zwi vhe zwa tshiphiri?
 faq-how-privacy-a = Maipfi oṱhe a re kha dataset o itwa uri a si tsha ḓivhea uri ndi a vhonnyi. Musi ane a shela mulenzhe a tshi amba zwidodombedzwa zwawe kha profile yawe, zwenezwo zwidodombedzwa a zwi tendelwi uri zwi dzhene kha ipfi ḽo rekhodiwaho musi zwi sa athu ṱanganyiswa u itela uri zwi danuḽodiwe kha dataset nahone a zwi nga vuwi zwo itwa uri zwi ḓivhiwe nga tshitshavha kha siaṱari ḽa profile dzavho.
 faq-what-determine-identity-q = Zwi amba mini uri a thi koni "u ḓivha" vhaambi vha re kha dataset ya Common Voice?
@@ -172,6 +175,7 @@ faq-description = Common Voice ndi tshipiḓa tsha Mozilla tshi thusaho u funza 
 about-header-description-v2 =
     <p>Common Voice ndi dataset ine ya nga wanwa nga muṅwe na muṅwe, yo itwaho nga vho maḓilonga vha bvaho shangoni ḽoṱhe. Vhathu vha ṱoḓaho u ita app dzi pfaho maipfi vha nga shumisa dataset hei u itela u gudisa mitshini uri i kone u ḓivha zwenezwi.</p>
      <p>Zwa zwino, maipfi a re kha dzi dataset nnzhi ndi a dzi khamphani, zwine zwa imisisa mvelaphanḓa bvela phanḓa. Maipfi a re kha dzi dataset ha imeleli zwavhuḓi vhane si ambe Luisimane, vhathu vha si vhaisimane, kana vha holefhali, vhafumakadzi na vhathu vha LGBTQIA+. Zwenezwi zwi amba uri zwishumiswa zwine zwa pfa maipfi zwa thekhinolodzhi a zwi shumi nga nyambo nnzhi nahone hune zwa shuma, a zwi shumi zwavhuḓi kha vhathu vhoṱhe. Ri khou ṱoḓa u shandula zwenezwi nga u ita mutingati wa uri vhathu vhoṱhe huṅwe na huṅwe vha ri rekhodele ipfi ḽavho.</p>
+how-does-it-work-title-v2 = Common Voice i shumisa hani?
 how-does-it-work-text = Ri khou lingedza u wana maipfi kha tshitshavha uri ri ite dataset ine ya ḓo shumiswa nga nnyi na nnyi. Nikelani nga ipfi ḽaṋu, khwaṱhisedzani uri zwe vhaṅwe vha rekhoda ndi zwone, itelani vhathu vhoṱhe dataset ya khwine khwine.
 
 ## How does it work section
@@ -203,6 +207,8 @@ about-get-involved-text-2 =
 about-stay-in-touch = Ndi nga dzula hani ndi tshi kwamana navho?
 about-stay-in-touch-text-1 = <emailFragment>Ḓiṅwaliseni</emailFragment> kha mutevhe wa mailing yashu ni gude uri ni nga dzhenelela hani kha mafulo, dzi event, na co-design features kha CommonVoice.
 about-stay-in-touch-text-2 = Ni nga ṱangana na vhaṅwe kha zwigwada zwa luambo zwa Mozilla nga u dzhena na vha tshipiḓa <discourseLink>Discourse</discourseLink> u wana nyambedzano, kana <matrixLink>Matrix</matrixLink> u wana tsivhudzo nga tshihaḓu.
+about-nav-how-it-works-2 = Common Voice i shumisa hani?
+about-nav-playbook = Gudani uri ni nga dzhelelela hani
 
 ## Community Playbook Content
 ## What is a language
@@ -233,7 +239,7 @@ about-playbook-how-add-language-collecting-sentences-content-2 =
 
 ## How does localization work
 
-about-playbook-how-localize-content-1 = U ḓologa kana u ṱalutshedza saiti ya Common Voice hu itiwa kha <strong>Pontoon</strong>.
+about-playbook-how-localize = Hu itiwa hani uri saiti i shumele vha vhuponi ha henefho?
 about-playbook-how-localize-content-2 = <pontoonAccountLink>Itani akhanthu</pontoonAccountLink> arali ni sa athu u vha nayo. Ni kone u khetha luambo <strong>(‘Team’)</strong> nahone ni kone u khetha thandela, <pontoonCvLink>Common Voice</pontoonCvLink>. Hu ḓo vha na dzi faela dzine na ḓo dzi ṱalutshedzela. Puṱedzani iṅwe yadzo, i ḓo kona u ni sumbedza maipfi nga Luisimane na bogisi ḽine na ḓo ṱalutshedzela khaḽo.
 about-playbook-how-localize-content-3 = Hu ṱalutshedzeliwa zwi tshi bva kha Luisimane, fhedzi ni nga vhona <strong>Nyeletshedzo</strong> nga dziṅwe nyambo. Puṱedzani <strong>Phurofaiḽi</strong> icon, ni kone u ya kha <strong>Sethiṅi</strong> ḽinki nahone ni dzhenise nyambo dzine na dzi amba. Fhasi-fhasi kha tsha monde kha khona hu ḓo vha hu na mutevhe wa zwo ṱalutshedzelwaho zwi vhidzwaho <strong>Locales</strong>. Zwo ṱalutshedzwaho zwi dzhena kha website nga murahu ha ḓuvha ḽithihi.
 about-playbook-how-localize-content-4 = Saiti yo lugela u ḽontsha musi i tshi vha 75% tsini na u fhela.
@@ -241,6 +247,7 @@ about-playbook-how-localize-content-5 = Vhonani vidio yashu ya u ṱalutshedza u
 
 ## How to add sentences
 
+about-playbook-how-add-sentences = Ndi pangisa hani mitaladzi?
 about-playbook-how-add-sentences-content-1 = <strong>Tsha u Kuvhanganya Mitaladzi</strong> ndi tshishumiwa tsha u kuvhanganya na u khwaṱhisedza mitaladzi i bvaho kha tshitshavha. Ni ḓo tea uri <scAccountLink>ni ite akhanthu</scAccountLink>. Ni kone u dzhenisa luambo lwaṋu <strong>Phurofaiḽi </strong>. Ni nga kona u <strong>Panga</strong> mitaladzi kana u <strong>Ṱolisia</strong> mitaladzi yo dzheniswaho tshifhingani tsho fhiraho.
 about-playbook-how-add-sentences-content-2 = Mitaladzi i tea u ṱolisiswa nahone vhathu vha vhili ndi vhone vhane vha tea u amba uri yo tea u dzhena kha Common Voice. Ni tou ḓiitela vhulivhisi kha luambo lwaṋu <languageGuidelinesLink>hafha</languageGuidelinesLink>. Mitaladzi i tea uvha kha <licenseLink>fhethu ha tshitshavha tshoṱhe</licenseLink> nahone i tea u vha i vhupfufhi ha maipfi a sa fhiri 15. Ni nga humbela muṋe wa mafhungo uri a ite <waiverLink>CC0 ni tshi shumisa waiver process</waiverLink>, nahone ni ri rumele mulaedza kha commonvoice@mozilla.com
 about-playbook-how-add-sentences-content-3 = Ni nga shumisa tshau <scraperLink>extraktha mitaladzi</scraperLink> u mannḓafhadza mitaladzi mipfufhi u bva kha Wikipedia.
@@ -279,7 +286,7 @@ about-playbook-how-access-dataset-content-2 = Arali ni tshi khou ṱoḓa zwishu
 
 ## How are decisions made
 
-about-playbook-how-project-governance-content-1 = Common Voice ya Mozilla i khou itwa u ri i vhe hone nga vhadzulapo vho fhambananaho vha vhaḓisi vha tshanduko, vhaḓivhi vha luambo, data scientists, magudedzi na dziinzhiniara dza dzi software vha bvaho shangoni nga vhuphara. Yeneyi thandela i khou ṱhogomelwa nga Foundation ya Mozilla.
+about-playbook-how-project-governance = Tsheo dza thandela dzi dzhiiwa hani?
 about-playbook-how-project-governance-content-2 = Zwi ri langaho zwo thewa kha hedzi phuphu:
 about-playbook-how-project-governance-content-7 = <governanceLink>Vhalani nga vhuḓalo nga ha uri ri langiwa hani</governanceLink>
 
@@ -328,6 +335,7 @@ dataset-description-hours =
     
     Dataset i na <b>{ $valid }</b> awara dzo teaho <b>{ $languages }</b> luambo, fhedzi ri dzula ri tshi khou panga maipfi o engedzeaho na dzinyambo. Sedzani <languagesLink>siaṱari ḽa Nyambo dzashu</languagesLink> u itela khumbelo ya luambo kana ni thome u shela mulenzhe.
 want-dataset-update = Ni khou ṱoḓa u kwamiwa ri tshi bvisa dataset ntswa ya Common Voice? Ḓiṅwaliseni kha vhane vha ṱoḓa u wana maswa maswa.
+get-started-speech = Thomani na Recognition ya Tshipitzhi
 resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ ndi <docsLink>thulusi ya nnyi na nnyi</docsLink> ya vhaṱoḓulusi vhane vha khou ita state-of-the-art conversational AI models.
 resource-deepspeech-info = Tshishumiswa tsha Mozilla tsha u ḓivha ipfi tshine tsha nga shumiswa nga nnyi na nnyi tsha Deep Speech tshi nga shumiswa kha u ita app dzi ḓivhaho ipfi. Vhalani samari yashu <githubLink>Github</githubLink> kana ni dzhenelele kha <discourseLink>DeepSpeech Discourse</discourseLink> uri ni gude nga ha uri ni nga thoma hani.
 resource-coqui-info = <coquiLink>Coqui</coquiLink> yo ḓinekedzela kha zwishumiswa zwa speech zwa thekhinolodzi zwa nnyi na nnyi. Thandela dzavho dzi katela deep learning based STT na TTS engines.
@@ -394,6 +402,8 @@ record-must-allow-microphone = Ni tea u tendela uri makrofouni i shumiswe.
 record-error-too-short = Zwo rekhodiwaho zwo vha zwi zwi pfufhisa.
 record-error-too-long = Zwo rekhodiwaho zwo vha zwo lapfesa.
 record-error-too-quiet = Zwo rekhodiwaho zwo vha zwi fhasisa.
+record-again-instruction = Ndi zwavhuḓi!<recordIcon></recordIcon>Rekhodani zwine zwa khou tevhela
+record-again-instruction2 = Isani phanḓa nga u ralo, rekhodani hafhu <recordIcon></recordIcon>
 review-tooltip = Ṱolisisani & ni dovholole u rekhoda ni tshi khou bvela phanḓa
 review-instruction = Ṱolisisani & dovhololani u rekhoda arali zwo fanela
 record-abort-text = Na ṱuwa zwino ni ḓo xelelwa nga mvela phanḓa yaṋu
