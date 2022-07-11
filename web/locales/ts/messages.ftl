@@ -92,6 +92,7 @@ profile-create-success = U humelelrile, phurofayili yi endliwile!
 why-demographic = Hi yini leswi swi ri na mhaka?
 why-demographic-explanation-2 = Data ya vatirhisi leyi nga fihliwa yo fana na malembe, rimbewu, na mavulavulelo yi pfuneta ku antswisa data ya mpfumawulo leyi tirhisiwaka ku letela ku pakanisa ka tinjhini to tiva mbulavulo. Vito ra wena ra mutirhisi na imeyili a swi nge pfuki swi fambelanisiwile na data ya wena leyi rhumeriweke, naswona u nga hlawula loko u ta endla vito ra wena ra mutirhisi ri va ra mani na mani kumbe ri nga tiviwi.
 login-signup = Nghena / Tsarisa
+download-profile = Downloada rungula Ra Mina
 skip-submission-feedback = Tlula Vuyelo Bya Ku Rhumela
 skip-submission-note = Xiya: Wa ha ta lava ku hlawula exikarhi ka Vulavula kumbe Yingisela ku cinca muxaka wa munyikelo.
 help-accent = Xana u lava mpfuno wo karhi hi mavulavulelo?
@@ -405,6 +406,8 @@ why-delete-recordings =
 
 download-q = Xana u lava ku downloada rungula ra wena?
 download-info = Hi byele leswi u lavaka ku swi downloada:
+download-profile-title = Phurofayili
+download-start = Downloada rungula ra xivumbeko
 download-requests = Swikombelo swo dawuniloda leswi rhekhodiweke leswi hundzeke
 download-requests-info = Loko u kombela tirhekhodo ta wena, hi ti hlengeleta ti va fayili yin’we kumbe to tala ta ZIP. Hi leswi swikombelo swa wena swa nkarhi lowu hundzeke:
 download-request-archive-single = Fayili yin’we ya ZIP leyi nga na
