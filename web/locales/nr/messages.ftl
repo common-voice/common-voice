@@ -103,11 +103,15 @@ kk = IsiKazakh
 km = IsiKhmer
 kmr = IsiKurmanji Kurdish
 knn = IsiKonkani (Devanagari)
+ko = IsiKorean
 kpv = IsiKomi-Zyrian
+kw = IsiCornish
 ky = IsiKyrgyz
 lb = IsiLuxembourgish
+lg = IsiLuganda
 lij = IsiLiguria
 lt = IsiLithuania
+lv = IsiLatvian
 mai = IsiMaithili
 mdf = IsiMoksha
 mg = IsiMalagasy
@@ -134,6 +138,7 @@ nr = IsiNdebele (Sewula)
 nso = IsiSotho seTlhagwini
 nyn = IsiRunyankole
 oc = Isi-Occita
+om = Isi-Afaan Ormoo
 or = Isi-Odia
 pa-IN = IsiPunjabi
 pap-AW = IsiPapiamento (Aruba)
@@ -146,6 +151,7 @@ rm-sursilv = IsiRomansh Sursilvan
 rm-vallader = IsiRomansh Vallader
 ro = IsiRomania
 ru = IsiRussia
+rw = IsiKunyarwanda
 sah = IsiSakha
 sat = IsiSantali (Ol Chiki)
 sc = IsiSardinia
@@ -173,13 +179,24 @@ tk = IsiTurkmen
 tl = IsiTagalog
 tn = IsiTswana
 tok = IsiToki Pona
+tr = IsiTurkish
+ts = IsiXitsonga
 tt = IsiTatar
+tw = IsiTwi
 ty = IsiTahitian
 uby = Isi-Ubykh
 udm = Isi-Udmurt
+ug = Isi-Uyghur
+uk = Isi-Ukrainian
+ur = Isi-Urdu
+uz = Isi-Uzbek
+ve = IsiTshivenda
 vec = IsiVenetia
+vi = IsiVietnamese
 vot = IsiVotic
 xh = IsiXhosa
+yi = IsiYeddish
+yo = IsiYoruba
 yue = IsiCantonese
 zh-CN = IsiChinese (China)
 zh-HK = IsiChinese (Hong Kong)
@@ -194,9 +211,12 @@ zu = IsiZulu
 speak = Khuluma
 speak-now = Khuluma nje
 datasets = Ukuhlelwa kwemininingwana
+languages = Amalimi
+about = Malungana
 profile = Iphrofayili
 help = Isizo
 contact = Thintana
+privacy = Ifihlo
 terms = Imigomo
 cookies = Amafayela amancani
 faq = I-FAQ
@@ -252,6 +272,7 @@ help-reach-goal = Sisiza sithome { $goal }
 read-terms-q = Uyifundile imibandela yethu?
 ready-to-record = Ukulungele ukunikela ngephimbo lakho?
 all-locales = Koke
+today = Namhlanjesi
 x-weeks-short =
     { $count ->
         [one] Iveke
@@ -321,6 +342,9 @@ shortcut-play-toggle-label = Dlala/Jama
 # Must be one letter that appears in the { vote-yes } string.
 # Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
 shortcut-vote-yes = { "" }
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = n
 
 ## Speak Shortcuts
 
@@ -349,6 +373,7 @@ status-hours =
 # Variables:
 # $goal - number of hours representing the next goal
 status-goal = Umngomo olandelako: { $goal }
+english = IsiNgisi
 
 ## ProfileForm
 
@@ -376,11 +401,15 @@ leaderboard-visibility =
     .label = Ukubonakala kwebhodi
 hidden = Kufihlekileko
 visible = Bonakalako
+native-language =
+    .label = Ilimi owalimunyako
 profile-form-add-accent = Faka indlela ejayelekileko yokuphimisela "{ $inputValue }"
 profile-form-submit-save = Bulunga
 profile-form-submit-saved = Ibulungiwe
 male = Umuntu omduna
 female = Umuntu wengubo
+# Gender
+other = Okhunye
 why-profile-title = Kubayini iprhofayili?
 why-profile-text =
     Ngokuthi unikele ukwaziswa ngawe, iphimbo olithumele kuCommon Voice lizokusiza khulu kumaSpeech
@@ -388,6 +417,7 @@ why-profile-text =
 dashboard = Ideshibhodi
 build-profile = Yakha iphrofayili
 avatar = Isi-Avatar
+goals = Imigomo
 settings = Amasethingi
 edit-profile = Lungisa
 profile-create-success = Ukghonile ukwenza iphrofayili!
@@ -418,6 +448,7 @@ skip-submission-note =
     Tjheja: Kusafuze ukhethe hlangana
     NokuKhuluma nokuLalela bona utjhugulule indlela onganikela ngayo.
 off = Qima
+on = phezulu
 help-accent = Utlhoga isizo ngokuphimisela?
 help-accent-explanation = Kunendlela obiza ngayo amagama. iya ngokuthi uhlala kuphi, ngiwaphi amanye amalimi okghona ukuwakhuluma nokunye okunengi. Ungafaka nanyana ngikuphi ukwaziswa ucabanga bona kuyatlhogeka la.
 help-variants = Utlhoga isizo ngemihlobohlobo?
@@ -554,6 +585,7 @@ about-listen-queue = Lalela
 about-listen-queue-text =
     Iinqetjhana ezilalelwako zifakwa erhelweni
     elilungiselela ukulalelwa.
+about-listen = Lalela
 about-listen-text = Abasebenzisa ihlelweli bayaqinisekisa bona amaphimbo abanikela ngawo, anembile ngokuqala bona isikhulumi sifunda imitjho kuhle.
 about-is-it-valid = Isiqetjhada sisemthethweni?
 about-is-it-valid-text = Okurekhodiweko kutshwaywa ngokuthi "Kuphasile" lokha okusebenzisako nakakuvowudela ngo-Iye.
