@@ -4,10 +4,12 @@ yes-receive-emails = Yebo, ngithumele ama-imeyili. Ngingathanda ukuhlala nginolw
 privacy-info = Sithembisa ukuphatha imininingwane yakho ngokucophelela. Funda kabanzi kwi<privacyLink>Isaziso Sobumfihlo</privacyLink>.
 return-to-cv = Buyela kwiCommon Voice
 submit-form-action = Ukuhambisa
+loading = Iyaloda...
 email-opt-in-info = Ngingathanda ukuthola ama-imeyili afana nezikhumbuzi zemigomo, izibuyekezo zami zokuqhubeka nezincwadi zezindaba ezimayelana ne-Common Voice.
 email-opt-in-info-title = Joyina uhlu lwamakheli e-Common Voice
 email-opt-in-info-sub-with-challenge = Thola ama-imeyili afana nezikhumbuzi zenselele nezinjongo, izibuyekezo zenqubekelaphambili, nezincwadi zezindaba ezimayelana ne-Common Voice.
 indicates-required = Izinkambu ezimakwe ngenkanyezi (*) ziyadingeka.
+not-available-abbreviation = N/A
 banner-error-slow-1 = Uxolo, iCommon Voice isebenza kancane. Siyabonga ngentshisekelo yakho.
 banner-error-slow-2 = Sithola ithrafikhi eningi futhi okwamanje siphenya izinkinga.
 banner-error-slow-link = Ikhasi Lezimo
@@ -19,6 +21,7 @@ error-something-went-wrong = Uxolo, kukhona okungahmabnga kahle
 
 ## Languages
 
+arn = Mapudungun
 ckb = Central Kurdish
 cnh = Hakha Chin
 cy = Welsh
@@ -30,12 +33,28 @@ hsb = Sorbian, Upper
 hyw = Armenian Western
 kmr = Kurmanji Kurdish
 knn = Konkani (Devanagari)
+lb = Luxembourgish
+lg = Luganda
+lij = Ligurian
+lt = Lithuanian
+lv = Latvian
+mai = Maithili
+mdf = Moksha
+mg = Malagasy
 mhr = Meadow Mari
+mk = Macedonian
+ml = Malayalam
+mn = Mongolian
 mni = Meetei Lon
+mos = Mossi
+mr = Marathi
 mrj = Hill Mari
+ms = Malay
+mt = Maltese
 nan-tw = Isi-Taiwanese (Minnan)
 nb-NO = Norwegian Bokmål
 nd = IsiNdebele (North)
+ne-NP = Nepali
 nia = Nias
 nn-NO = Norwegian Nynorsk
 nr = IsiNdebele (South)
@@ -110,6 +129,7 @@ zu = Zulu
 
 speak = Khuluma
 speak-now = Khuluma manje
+languages = Izilimi
 profile = Iphrofayela
 privacy = Ubumfihlo
 terms = Imigomo
@@ -239,6 +259,8 @@ profile-form-native-language =
     .label = Ulimi olukhulunywayo endaweni
 profile-form-additional-language =
     .label = Ulimi Olwengeziwe
+profile-form-language =
+    .label = Ulimi
 profile-form-variant =
     .label = Uhlobo luni lwe-{ $language } olukhulumayo?
 profile-form-variant-default-value = Akukho okuhlukile okukhethiwe
@@ -251,6 +273,8 @@ visible = Kubonakala
 profile-form-add-accent = Engeza ukuphimisa kwangokwezifiso okusha "{ $inputValue }"
 profile-form-submit-save = Gcina
 profile-form-submit-saved = Okugciniwe
+male = Owesilisa
+female = Owesifazane
 # Gender
 other = Okunye
 why-profile-title = Kungani kunephrofayili?
@@ -318,6 +342,7 @@ faq-what-cv-and-deepspeech-a = Idathasethi yeCommon Voice ihambelana nomthombo w
 faq-is-goal-assistant-q = Ingabe umgomo we-Common Voice ukwakha umsizi wezwi?
 faq-is-goal-assistant-a = Inhloso wedathasethi iCommon Voice ukuvumela noma ubani emhlabeni ukuthi akhe ukunakwa kwenkulumo, ukuqashelwa kwesipikha, nanoma yiluphi olunye uhlobo lohlelo lokusebenza oludinga idatha yezwi. Umsizi wezwi ungolunye lwezinhlobo eziningi zezinhlelo zokusebenza ongazisebenzisa isethi yedatha ukuze wakhe. Umgomo wedathasethi yeCommon Voice ukuvumela noma ubani emhlabeni ukuthi akhe ukunakwa kwenkulumo, ukuqashelwa kwesipikha, nanoma yiluphi olunye uhlobo lohlelo lokusebenza oludinga idatha yezwi. Umsizi wezwi ungolunye lwezinhlobo eziningi zezinhlelo zokusebenza ongazisebenzisa isethi yedatha ukuze wakhe.
 faq-do-want-native-q = Mina ngingumuntu ongeyena owomdabu futhi ngikhuluma ngendlela ehlukile, usafuna izwi lami?
+faq-do-want-native-a = Yebo, sifuna ikakhulukazi elakho izwi. Enye inhloso yeCommon Voice ukuqoqa izindlela zokukhuluma eziningi ezahlukahlukene ukuze lokuqoshwa kwamazwi kuzosebenzela wonke umuntu ngokulinganayo. Lokhu kuchaza ukuthi iminikelo ephuma ebantwini abangabona abomdabu ibaluleke kakhulu.
 faq-why-different-speakers-q = Kungani udinga izikhulumi eziningi kangaka ezihlukene ngolimi ngalunye?
 faq-why-different-speakers-a =
     Imininingwane egciniwe yenkulumo iqeqeshwe ngokumelela ngokweqile kwezibalo ezithile zabantu okuholela ekuchemaniseni <articleLink>abesilisa nasezingeni eliphakathi</articleLink>. Izindlela zokuphimisa nezilimi zesigodi ezivame ukumelwa kancane kumasethi edatha yokuqeqeshwa ngokuvamile zihlotshaniswa namaqembu abantu asebebandlululwe kakade.Imishini eminingi ibuye ibe nzima ukuqonda amazwi abantu besifazane.
@@ -372,7 +397,9 @@ about-dataset-release-subtitle = Sikhipha idathasethi njalo ezinyangeni ezi-3.
 about-subscribe-text = Ingabe ufuna ukuhlala uxhumene ne-Common Voice?
 about-speak = Khuluma
 about-speak-text = Abanikeli baqopha iziqeshana zezwi ngokufunda ebhange lemisho enikelwe.
+about-listen-queue = Lalela-Umugqa
 about-listen-queue-text = Iziqeshana zezwi zifakwa emugqeni wokuhambisa ozilungiselela ukulalelwa.
+about-listen = Lalela
 about-listen-text = Abasebenzisi baqinisekisa ukunemba kweziqeshana ezinikelwe, behlola ukuthi isikhulumi siwufunde kahle umusho.
 about-is-it-valid = Ingabe isiqeshana sivumelekile?
 about-is-it-valid-text = Isiqeshana sezwi simakwa ngokuthi "sivumelekile" uma umsebenzisi esinikeza ivoti likaYebo.
@@ -418,6 +445,7 @@ about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollec
 
 about-playbook-how-localize = Ngabe i-localization yesayithi isebenza kanjani?
 about-playbook-how-localize-content-1 = Ukuhunyushwa kwesayithi le-Common Voice kwenzeka <strong>e-Pontoon</strong>.
+about-playbook-how-localize-content-2 = <pontoonAccountLink>Yenza i-akhowonti</pontoonAccountLink> uma ungenayo. Bese, khetha ulimi lakho <strong>('Team')</strong> bese ukhetha iprojekthi, <pontoonCvLink>iCommon Voice</pontoonCvLink>. Uzothola amafayela wokuwahumusha. Cindezela elilodwa, lizobonisa amagama esiNgisi nebhokisi lokuwahumusha.
 about-playbook-how-localize-content-3 = Ukumusha kusuka esiNgisini, kodwa uyabona <strong>Iziphakamiso</strong> kwezinye izilimi. Cindezela u<strong>Profayili</strong>isithonjana, bese <strong>izilungiselelo</strong> ukuxhumanisa nokwengeza ezinye izilimi ozikhulumayo. Ekhoneni elingenzansi kwesokudla, kunohlu lwemihumusho ebizwa <strong>Locales</strong>. Imihumusho izobonakala kusayithi emuva kosuku ololodwa.
 about-playbook-how-localize-content-4 = Isayithi lizolungela ukwethulwa uma sesifinyelele ekuqedweni okungu-75%.
 about-playbook-how-localize-content-5 = Buka umchazi wethu wevidiyo ukuze usize
@@ -452,6 +480,7 @@ about-playbook-how-validate = Ngazi kanjani ukuthi ngigunyaze isiqeshana sezwi?
 ## How to access dataset
 
 about-playbook-how-access-dataset = Ngifinyelela futhi ngisebenzise kanjani idathasethi?
+about-playbook-how-access-dataset-content-1 = Ungaya kwi<datasetsPage>Khasi lolwazi oluqoqiwe</datasetsPage> khetha indlela nolimi olufunayo, bese uyalidawnloda! Lamafayela ano <metadataLink> methadatha ehlobene</metadataLink> njengomniningwane omayelana nezibalo zabantu kanye nomniningwane wokubaqinisekisa. Udinga okunikela ngekheli lakho le-emiyili ukufaka lolwazi oluqoqiwe.
 about-playbook-how-access-dataset-content-2 = Uma ufuna amathuluzi okwakha amamodeli e-ASR, ungakwazi ukuxhumana nabanye abantu emphakathini <discourseLink>on Discourse</discourseLink>.
 
 ## How are decisions made
@@ -466,6 +495,7 @@ about-playbook-how-project-governance-content-7 = <governanceLink>Funda kabanzi 
 
 ## Glossary
 
+localization = Ukwenziwa njengokwasendaweni
 localization-explanation = Lena inqubo yethu yokuhumusha nokulungisa okuqukethwe kwethu ezindaweni eziningi (izilimi).
 sentence-collection-explanation = Ukuqoqa imisho esizindeni somphakathi, noma ukubhala emisha esizindeni somphakathi.
 hours-recorded-explanation = Isibalo samahora okuqoshwa kwezwi esiwaqoqile kuze kube manje.
@@ -493,6 +523,8 @@ data-other-download = Downloda Idatha
 data-bundle-button = Loda  i-Dataset Bundle
 data-bundle-description = Idatha yeCommon Voice kanye nawo wonke amanye amadathasethi ezwi ngenhla.
 release-version = Inguqulo
+license = Ilayisensi: <licenseLink>{ $license }</licenseLink>
+license-mixed = Kuxutshiwe
 data-download-singleword-title = Loda Ingxenye Yethagethi Yegama Elilodwa
 data-download-singleword-callout-v2 = Lena ingxenye yokusetshenziswa eqhutshwayo equkethe idatha ukuze inike amandla ukubonwa kwedijithi ekhulunyiwe kanye nokutholwa yebo / cha.
 review-terms = Ngokusebenzisa iCommon Voice, uyavumelana <termsLink>Nemigomo</termsLink> kanye <privacyLink>Nesaziso Sobumfihlo</privacyLink>
@@ -520,11 +552,13 @@ datasets-positioning =
 size = Usayizi
 validated-hr-total = Isamba samahora esiqinisekiswe u-Hr. Isamba
 overall-hr-total = Isamba samahora sesisonke
+cv-license = Ilayisensi
 audio-format = Ifomethi yomsindo
 number-of-voices = Inombolo Yamazwi
 splits = Ukuhlukana
 email-to-download = Faka i-imeyili ukuze udownlode
 confirm-size = Ulungele ukuqalisa ukuloda kwe-<b>{ $size }</b>
+size-megabyte = MB
 confirm-no-identify = <b>Uyavuma</b> ukungazami ukucacisa ukuthi ungubani izikhulumi kudathasethi yeCommon Voice
 validated-hours = Amahora Aqinisekisiwe
 recorded-hours = Amahora Aqoshiwe
@@ -551,6 +585,7 @@ go-discourse = Iya kokuthi Discourse
 missing-language = Awuboni ulimi lwakho luboniswa Kusethi Yedatha? Ukucela ulimi qonda ekhasini lethu leZilimi.
 go-languages-page = Iya Ekhasini Lezilimi
 ready-to-validate = Ulungele ukusiza ukuqinisekisa imisho?
+more = Okwengeziwe
 dataset-version = Inguqulo
 
 ## Download Modal
@@ -566,10 +601,16 @@ download-no = Cha ngiyabonga
 ## Contact Modal
 
 contact-title = Ifomu Lokuxhumana
+contact-form-name =
+    .label = Igama
+contact-form-message =
+    .label = Umyalezo
 
 ## Request Language Modal
 
 request-language-title = Isicelo solimi
+request-language-form-language =
+    .label = Ulimi
 request-language-success-title = Isicelo solimi sithunyelwe ngempumelelo, siyabonga.
 request-language-success-content = Sizothintana ngolwazi olwengeziwe mayelana nendlela yokwengeza ulimi lwakho ku-Common Voice maduze nje.
 select-language = Khetha Ulimi...
@@ -611,6 +652,7 @@ request-language-error =
 
 language-section-in-progress = Kuyaqhubeka
 language-section-in-progress-new-description = Lezi zilimi okwamanje zingaphansi kokuthuthukiswa komphakathi. <localizationGlossaryLink>Ukwenziwa kwasendaweni kwewebhusayithi</localizationGlossaryLink> ne-<sesentenceCollectionGlossaryLink>iqoqo lemisho</sentenceCollectionGlossaryLink> kuyadingeka ukuze kuqaliswe.
+language-section-launched = Yethuliwe
 languages-show-more = Buka Okuningi
 languages-show-less = Bona Okuncane
 language-meter-in-progress = Inqubekela phambili
@@ -618,12 +660,14 @@ language-total-progress = Isamba
 language-search-input =
     .placeholder = Cinga
 language-speakers = Izikhulumi
+localized = Okwasendaweni
 sentences = Imisho
 language-validation-progress = Inqubekelaphambili Yokuqinisekisa
 
 ## Contribution
 
 action-tap = Thepha
+listen = Lalela
 skip = Yeqa
 shortcuts = Izinqamuleli
 clips-with-count-pluralized =
@@ -799,6 +843,7 @@ share-n-daily-contribution-goal = Yabelana nge-{ $count } Inhloso yakho Yansuku 
 # $type is one of share-goal-type-*
 share-n-weekly-contribution-goal = Yabelana nge-{ $count } Inhloso yakho Yamaviki Onke Yeziqeshana we-{ $type }
 share-goal-type-speak = Ukukhuluma
+share-goal-type-listen = Ukulalela
 share-goal-type-both = Ukukhuluma Nokulalela
 # LINK will be replaced with the current URL
 goal-share-text = Ngisanda kwakheka umgomo womuntu siqu wokunikela ngezwi ku-#CommonVoice -- ngijoyine futhi usize ukufundisa imishini ukuthi abantu bangempela bakhuluma kanjani { $link }
@@ -885,6 +930,7 @@ contribution-criteria-link = Qonda imibandela yokunikela
 contribution-criteria-page-title = Imibandela Yokufaka Izandla
 contribution-criteria-page-description = Qonda ukuthi yini okufanele uyibheke lapho ulalele iziqeshana zezwi futhi usize ukwenza izwi elirekhodiwe lakho licebe kakhulu!
 contribution-for-example = ngokwesibonelo
+contribution-misreadings-title = Ukungafundi kahle
 contribution-misreadings-description-extended-list-1 = Kushoda <strong>'A'</strong> noma <strong>'The'</strong>. ekuqaleni kokuqoshwa.
 contribution-misreadings-description-extended-list-2 = Ishoda ngo-<strong>'s'</strong> ekupheleni kwegama.
 contribution-misreadings-description-extended-list-3 = Ukufunda izifinyezo ezingekho, njengokuthi "We're" esikhundleni sokuthi "We are", noma okuphambene nalokho.
@@ -905,7 +951,7 @@ contribution-misreadings-example-8-title = Inyosi yadlula ngesivinini.
 contribution-misreadings-example-8-explanation = [Okuqukethwe okungafani]
 contribution-varying-pronunciations-title = Ukuphimisa amagama ngokuhlukahlukana
 contribution-varying-pronunciations-description = Qaphela ngaphambi kokuba wale okuqoshiwe ngenxa yokuthi umfundi engabizanga kahle igama, ebeke ingcindezi endaweni okungasiyona noma enganakanga umbuzo. Ziningi izindlela zokuphimisela ezisetshenziswa emhlabeni, ezinye zazo ongakaze wazizwa emphakathini wakho. Sicela ube nozwelo kulaba abangakhulumi njengawe.
-contribution-varying-pronunciations-description-extended = Qaphela ngaphambi kokuba wale okuqoshiwe ngenxa yokuthi umfundi engabizanga kahle igama, ebeke ingcindezi endaweni okungasiyona noma enganakanga umbuzo. Ziningi izindlela zokuphimisela ezisetshenziswa emhlabeni, ezinye zazo ongakaze wazizwa emphakathini wakho. Sicela ube nozwelo kulaba abangakhulumi njengawe.
+contribution-varying-pronunciations-description-extended = Ngakwesinye isandla, uma ucabanga ukuthi umfundi akakaze wahlangana nalelo gama ngaphambilini, noma uliphimisa ngendlela engeyikho, sicela unqabe. Uma ungaqinisekanga, sebenzisa inkinobho yokweqa.
 contribution-varying-pronunciations-example-1-title = Ekhanda ugqoke ibharethi.
 contribution-varying-pronunciations-example-1-explanation = [I-‘Beret’ ILUNGILE noma ngabe isigcizelelo sikuhlamvu wokuqala (UK) noma wesibili (US)]
 contribution-varying-pronunciations-example-2-title = Isandla sakhe sasiphakanyisiwe.
@@ -925,6 +971,7 @@ contribution-background-voices-example-1-explanation = Uyeza? <strong>[called by
 contribution-volume-title = Ivolumu
 contribution-volume-description = Kuzoba khona ukuhluka okungokwemvelo kwevolumu phakathi kwabafundi. Yenqaba kuphela uma ivolumu iphezulu kangangokuthi ukurekhoda kuyaphuka, noma (ngokuvamile) uma iphansi kangangokuthi awukwazi ukuzwa okushiwo ngaphandle kokubhekisela embhalweni obhaliwe.
 contribution-reader-effects-title = Imiphumela Yomfundi
+contribution-reader-effects-description = Okurekhodiwe okuningi okwabantu abakhuluma ngezwi labo lemvelo. Ungamukela ukurekhodwa okungajwayelekile ngezikhathi ezithile okumemezayo, kuhletshwayo, noma okulethwa ngokusobala ngezwi ‘elimangalisayo’. Sicela wenqabe okurekhodiwe okuculwa kanye nalabo abasebenzisa izwi elenziwe ngekhompuyutha.
 contribution-just-unsure-title = Awuqinisekile nje kuphela?
 see-more = <chevron></chevron>Buka Okuningi
 see-less = <chevron></chevron>Bona okuncane
@@ -1200,6 +1247,8 @@ sc-review-form-button-reject = Nqaba
 sc-review-form-button-skip = Yeqa
 # Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
 sc-review-form-button-approve-shortcut = Y
+# Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
+sc-review-form-button-reject-shortcut = N
 # Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
 sc-review-form-button-skip-shortcut = S
 sc-review-form-keyboard-usage-custom = Ungasebenzisa futhi Izinqamuleli Zekhibhodi: { sc-review-form-button-approve-shortcut } ukuze Ukugunyaza, { sc-review-form-button-reject-shortcut } Ukunqaba, { sc-review-form-button-skip-shortcut } Ukweqa
