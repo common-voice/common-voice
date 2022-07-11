@@ -46,6 +46,7 @@ sq = Se-Albania
 th = Se-Thai
 ti = Se-Tigrinya
 tig = Se-Tigre
+yo = Se-Yoruba
 yue = Se-Canton
 zh-CN = Se-China (China)
 zh-TW = Se-China (Taiwan)
