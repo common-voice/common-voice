@@ -450,6 +450,7 @@ about-clip-graveyard-text = Setsopolwa sa Graveyard se na le dirakolo tša lent�
 about-get-involved-text-2 =
     O nyaka go thuša go dira Common Voice gore e be kaone? 
     Seo se a kgahliša! Ikgokaganye ka e-meile goba <discourseLink>Discourse </discourseLink>diforamo, romela ditokollo tša saete go <githubLink>GitHub</githubLink>, goba ikgokaganye le <matrixLink>poledišano ya setšhaba ya Matrix<matrixLink>.
+about-stay-in-touch = Ke ka dula ke boledišana le lena bjang?
 about-stay-in-touch-button = Ngwadiša
 about-stay-in-touch-text-1 = <emailFragment>Ngwadiša</emailFragment> go lethamong la rena la mangwalo go ithutha gore na o ka tšea karolo bjang masolong, ditiragalo le dikarolo tša moralo o kopanetšego go Common Voice.
 about-stay-in-touch-text-2 = O ka kopana le ba bangwe ba setšhaba sa polelo ya Mozilla ka go ikopanya go <discourseLink>Discourse</discourseLink> go hwetša poledišano ya ditaba, goba <matrixLink>Matrikse</matrixLink> go hwetša keletšo ya kapejana.
@@ -469,6 +470,7 @@ about-playbook-what-is-language-content-3 = Dipolelo tše dingwe di na le phapan
 
 ## How do I add a language
 
+about-playbook-how-add-language = Ke tlaleletša leleme bjang?
 about-playbook-how-add-language-content-1 =
     Sa pele, hlahloba gore na polelo ya geno <languageLink>e šetše e le gona</languageLink>. Ge e ba ga go bjalo, o ka <languageRequestLink>kgopela mabapi le go tsenya polelo ya geno</languageRequestLink>. 
     Go na le megato e mebedi. Go fetolela saete, le go kgoboketša mafoko.
