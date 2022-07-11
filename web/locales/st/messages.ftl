@@ -226,6 +226,7 @@ hours-validated = Dihora tse netefaditsweng
 voices-online = Mantswe a Marang-rang Hona Jwale
 todays-progress = Tswelopele ya kajeno
 help-reach-goal = Re thuse ho fihlela { $goal }
+read-terms-q = Na o badile Dipehelo tsa rona?
 ready-to-record = O ikemiseditse ho nehelana ka lentswe la hao?
 all-locales = Koafela
 today = Kajeno
@@ -413,6 +414,7 @@ about-playbook-how-localize-content-5 = Shebella setsebi sa rona sa video ho o t
 
 ## How to add sentences
 
+about-playbook-how-add-sentences = Ke kenya dipolelo jwang?
 
 ## How to record quality
 
@@ -431,6 +433,7 @@ about-playbook-how-grow-language-content-6 = Dikamano le marang-rang
 
 ## How are decisions made
 
+about-playbook-how-project-governance = Diqeto tsa morero di etswa jwang?
 about-playbook-how-project-governance-content-3 = Lekunutu, tshireletso le ponaletso.
 about-playbook-how-project-governance-content-5 = Boleng le temoho.
 about-playbook-how-project-governance-content-6 = Boikarabello ka kopanelo.
@@ -488,6 +491,7 @@ validated-hours = Dihora tse netefaditsweng
 recorded-hours = Dihora tse Rekotilweng
 whats-inside = Ho na le eng ka har'a pokello ya data ya Common Voice?
 subscribe = Ngodisa
+get-started-speech = Qala ka Temoho ya Puo
 other-datasets = Dipokello tsa Data tse Ding
 feedback-q = O na le Maikutlo?
 community-playbook = Buka ya ho bapala ya setjhaba
@@ -571,6 +575,7 @@ record-error-too-quiet = Rekoto e ne e thotse haholo.
 record-cancel = Hlakola ho rekota hape
 record-stop-instruction = { $actionType }<stopIcon></stopIcon> ha o qetile
 record-three-more-instruction = Tse tharo tse tlang ho tsamaea!
+record-again-instruction = E ntle!<recordIcon></recordIcon> Rekota clip ya hao e latelang
 record-again-instruction2 = Pele ya pele, rekota hape <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon> Ya ho qetela!
 share-clip = Arolelana clip ya hao
