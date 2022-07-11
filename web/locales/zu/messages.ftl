@@ -21,6 +21,8 @@ error-something-went-wrong = Uxolo, kukhona okungahmabnga kahle
 dsb = Sorbian, Lower
 hsb = Sorbian, Upper
 nan-tw = Isi-Taiwanese (Minnan)
+rm-sursilv = Romansh Sursilvan
+rm-vallader = Romansh Vallader
 sat = Santali (Ol Chiki)
 st = Southern Sotho
 tok = Toki Pona
@@ -402,6 +404,7 @@ request-language-error =
 
 language-section-in-progress-new-description = Lezi zilimi okwamanje zingaphansi kokuthuthukiswa komphakathi. <localizationGlossaryLink>Ukwenziwa kwasendaweni kwewebhusayithi</localizationGlossaryLink> ne-<sesentenceCollectionGlossaryLink>iqoqo lemisho</sentenceCollectionGlossaryLink> kuyadingeka ukuze kuqaliswe.
 languages-show-more = Buka Okuningi
+languages-show-less = Bona Okuncane
 language-validation-progress = Inqubekelaphambili Yokuqinisekisa
 
 ## Contribution
@@ -869,6 +872,7 @@ sc-criteria-item-6 = Uma uphelelwa imisho okufanele uyibuyekeze, sicela usisize 
 ## REVIEW
 
 sc-review-lang-not-selected = Awukhethanga noma yiziphi izilimi. Sicela uye <profileLink>Iphrofayela</profileLink> yakho ukuze ukhethe izilimi.
+sc-review-title = Buyekeza imisho
 sc-review-select-language = Sicela ukhethe ulimi ozobuyekeza imisho.
 sc-review-no-sentences = Ayikho imisho ezobuyekezwa. <addLink>Engeza eminye imisho manje!</addLink>
 sc-review-form-prompt =
