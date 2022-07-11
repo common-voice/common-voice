@@ -137,6 +137,9 @@ username-email-not-demographic = Leinatiriso la gago le imeile ga di na go amman
 
 ## Listen Shortcuts
 
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = e
 
 ## Speak Shortcuts
 
@@ -159,6 +162,7 @@ build-profile = Aga Porofaele
 avatar = Setshwantsho
 profile-close = Tswala
 profile-explanation = Ela tlhoko kgatelopele ya gago o dirisa porofaele mme o thuse tshedimosetso ya rona ya mantswe gore e nepagale thata.
+thanks-for-account = Re lebogela go tlhomamisa akhaonto ya gago, jaanong a re dire porofaele ya gago.
 why-demographic-explanation-2 = Tshedimosetso ya botlhokaina jaaka dingwaga, bong le segalo di tla thusa go tokafatsa go nepa ga didirisiwa tsa go lemoga mantswe. Leinatiriso le imeile ya gago di ka se amanngwe le tshedimosetso ya gago e e rometsweng, mme o ka tlhopha gore a o batla go senola kgotsa go fitlha leinatiriso la gago.
 accept-privacy = Ga ke na bothata le gore lo dirise tshedimosetso eno jaaka lo tlhalosa mo <privacyLink>Molawaneng wa Polokodiphiri</privacyLink> wa Mozilla
 skip-submission-description = Ka nako ya thomelo ya dikabo, maikutlo a tla tlolwa morago ga go tobetsa 'Romela'. Kabo e tla tswelela ka tlhamalalo ka dikgatiso kgotsa ditlhomamiso tse 5 tse di latelang.
@@ -173,6 +177,7 @@ max-file-size = { $kb }kb bogolo
 
 ## Profile - Email
 
+add-language = Tsenya Puo
 
 ## FAQ
 
@@ -420,6 +425,7 @@ goal-help-recording = O thusitse Common Voice gore e fitlhelele <goalPercentage>
 goal-help-validation = O thusitse Common Voice gore e fitlhelele <goalPercentage></goalPercentage> ya maikaelelo a rona a letsatsi a go tlhomamisa { $goalValue }!
 record-cancel = Khansela go Rekota Sesha
 record-stop-instruction = { $actionType }<stopIcon></stopIcon> fa o feditse
+record-last-instruction = <recordIcon></recordIcon> Ya bofelo!
 clips-uploaded = Dibidio di tsentswe
 listen-empty-state = Re feletswe ke dikgatiso tse re ka di tlhomamisang ka puo eno...
 listen-loading-error = Ga re a kgona go bona dikgatiso tsa mantswe tse o ka di reetsang. Tsweetswee leka gape moragonyana.
@@ -586,6 +592,10 @@ sc-my-source = Motswedi: { $source }
 ## STATS
 
 sc-stats-error = Ga re a kgona go tla ka dipalopalo. Tsweetswee leka gape moragonyana.
+# Variables:
+#   $sentenceCount (Number) - Total number of sentences uploaded through Sentence Collector
+#   $languageCount (Number) - Total number of languages these sentences represent
+sc-stats-summary = Kgobokanyo ya Mela ya Common Voice e setse e kgobokantse mela e le { $sentenceCount } ka dipuo di le { $languageCount }!
 
 ## ADD
 
@@ -647,6 +657,7 @@ sc-lang-info-left-for-you =
         [one] Mola o le 1 o o setseng o o tlhokang go o sekaseka.
        *[other] *Mela e e setseng e le { $unreviewedSentencesByYou } e o tlhokang go e sekaseka.
     }
+sc-lang-info-review-now = <reviewLink>Sekaseka jaanong!</reviewLink>
 
 ## LOGIN
 
@@ -668,6 +679,8 @@ sc-review-form-usage = Swaepela kafa mojeng go amogela polelo. Swaepela kafa mol
 #   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
 sc-review-form-source = Motswedi: { $sentenceSource }
 sc-review-form-button-approve = Amogela
+# Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
+sc-review-form-button-approve-shortcut = E
 sc-review-form-keyboard-usage-custom = Gape o ka dirisa Ditlhabanyetso Tsa Khiiboto: { sc-review-form-button-approve-shortcut } go Amogela, { sc-review-form-button-reject-shortcut } go Gana, { sc-review-form-button-skip-shortcut } go Tlola
 # Variables:
 #   $sentences (Number) - Number of sentences the user has reviewed in this session
