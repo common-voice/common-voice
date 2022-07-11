@@ -24,6 +24,7 @@ cnh = Hakha Chin
 cy = Welsh
 dsb = Sorbian, Lower
 es = Spanish
+fa = Persian
 gom = Goan Konkani
 hsb = Sorbian, Upper
 hyw = Armenian Western
@@ -35,13 +36,19 @@ mrj = Hill Mari
 nan-tw = Isi-Taiwanese (Minnan)
 nb-NO = Norwegian Bokmål
 nd = IsiNdebele (North)
+nia = Nias
 nn-NO = Norwegian Nynorsk
 nr = IsiNdebele (South)
 nso = Northern Sotho
 nyn = Runyankole
+oc = Occitan
 om = Afaan Ormoo
+or = Odia
 pa-IN = Punjabi
 pap-AW = Papiamento (Aruba)
+pl = Polish
+ps = Pashto
+pt = Portuguese
 quy = Quechua Chanka
 rm-sursilv = Romansh Sursilvan
 rm-vallader = Romansh Vallader
@@ -104,6 +111,7 @@ zu = Zulu
 speak = Khuluma
 speak-now = Khuluma manje
 profile = Iphrofayela
+privacy = Ubumfihlo
 terms = Imigomo
 content-license-text = Okuqukethwe kutholakala ngaphansi <licenseLink> Ilayisensi  ye-Creative Commons </licenseLink>
 share-title = Sisize sithole abanye abanganikela ngamazwi abo!
@@ -127,6 +135,7 @@ help-us-title = Sisize siqinisekise imisho!
 help-us-explain = Cindezela okuthi dlala, lalela futhi usitshele: ingabe bawukhulume kahle lo musho ongezansi?
 no-clips-to-validate = Kubonakala sengathi azikho iziqeshana ongazilalela ngalolu limi. Sisize sigcwalise ulayini ngokurekhoda okunye manje.
 vote-yes = Yebo
+vote-no = Cha
 toggle-play-tooltip = Cindezela{ shortcut-play-toggle } ukuze uguqule imodi yokudlala
 speak-subtitle = Nikela ngezwi lakho
 speak-paragraph = Ukuqopha iziqeshana zezwi kuyingxenye ebalulekile yokwakha idathasethi yethu evulekile; abanye bangathi kumnandi futhi.
@@ -185,9 +194,16 @@ shortcut-skip = s
 
 ## Listen Shortcuts
 
+# Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-play-toggle = p
+shortcut-play-toggle-label = Dlala/Yeka
 # Must be one letter that appears in the { vote-yes } string.
 # Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
 shortcut-vote-yes = y
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = n
 
 ## Speak Shortcuts
 
@@ -235,6 +251,8 @@ visible = Kubonakala
 profile-form-add-accent = Engeza ukuphimisa kwangokwezifiso okusha "{ $inputValue }"
 profile-form-submit-save = Gcina
 profile-form-submit-saved = Okugciniwe
+# Gender
+other = Okunye
 why-profile-title = Kungani kunephrofayili?
 build-profile = Akha iphrofayela
 settings = Izilungiselelo
@@ -253,6 +271,8 @@ download-profile = Loda Idatha Yami
 contribution-experience = Umuzwa Wokufaka Isandla
 skip-submission-feedback = Yeqa Impendulo Yokuthunyelwe
 skip-submission-note = Qaphela: Usazodinga ukukhetha phakathi kokuthi Khuluma noma Lalela ukuze ushintshe uhlobo lomnikelo.
+off = Valiwe
+on = Vuliwe
 help-accent = Udinga usizo oluthile ngokuphimisa?
 help-variants = Udinga usizo oluthile ngokuhlukile?
 
@@ -373,6 +393,7 @@ about-stay-in-touch-text-1 = <emailFragment>Bhalisa</emailFragment> ohlwini lwet
 about-stay-in-touch-text-2 = Ungakwazi ukuhlangana nabanye emiphakathini yolimi lwe-Mozilla ngokujoyina <discourseLink>Discourse</discourseLink> yezingxoxo zezihloko, noma <matrixLink>Matrix</matrixLink> ukuze uthole iseluleko esisheshayo.
 about-nav-why-common-voice = Kungani ?
 about-nav-how-it-works = Kanjani?
+about-nav-partners = Ozakwethu
 about-nav-get-involved = Zibandakanye
 about-nav-how-it-works-2 = Isebenza kanjani i-Common Voice?
 about-nav-playbook = Funda ukuthi libanjwa kanjani iqhaza
@@ -460,6 +481,7 @@ error-title-503 = Sibhekene nesikhathi sokungasebenzi esingalindelekile
 
 data-download-button = Loda Idatha yeCommon Voice
 data-download-yes = Yebo
+data-download-deny = Cha
 data-download-license = Ilayisensi: <licenseLink>CC-0<licenseLink>
 data-download-modal = Usuzoqalisa ukuloda kwe-<size>GB</size>, qhubeka?
 data-subtitle = Sakha isethi yedatha evulekile netholakala esidlangalaleni yamazwi wonke umuntu angayisebenzisela ukuqeqesha izinhlelo zokusebenza ezikwazi ukukhuluma.
@@ -834,6 +856,7 @@ demo-welcome-subheader = Unentshisekelo yokufunda okwengeziwe nokuba negalelo ku
 ## Demo Datasets
 
 demo-language-select-card-header = I-Common Voice iyidathasethi yezwi enkulu kunazo zonke emhlabeni etholakala esidlangalaleni, enezilimi eziningi.
+card-button-next = Okulandelayo
 demo-language-select-label = Phequlula Izilimi
 demo-eofy-header = Ukukhishwa Kokuphela Konyaka kuka-2019
 demo-eofy-sub_header = Idathasethi Yezwi, Ilungele Ukulodwa
@@ -1088,6 +1111,7 @@ sc-confirm-uploading = Imisho iyalayishwa. Lokhu kungathatha imizuzu embalwa kuy
 ## LANGUAGE INFO
 
 sc-lang-info-title-total = Isamba
+sc-lang-info-title-personal = Okomuntu siqu
 # Variables:
 #   $totalSentences (Number) - Number of sentences uploaded in total for this language
 sc-lang-info-total =
