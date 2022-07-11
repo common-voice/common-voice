@@ -243,6 +243,7 @@ wall-of-text-second =
     e bulelwe bohle.
 show-wall-of-text = Bala Haholwanyane
 help-us-title = Re thuse ho netefatsa dipolelo!
+help-us-explain = Tobetsa bapala, mamela mme o re bolelle: na ba buile polelo e ka tlase ka nepo?
 no-clips-to-validate = Ho bonahala eka ha ho na di-clip tsa ho mamela ka puo ena. Re thuse ho tlatsa letoto ka ho rekota tse ding hona jwale.
 vote-yes = Ee
 vote-no = Tjhe
@@ -286,6 +287,7 @@ join-newsletter = Ka boikgethelo kena lenaneng la rona la mangolo bakeng sa ditl
 
 whats-public = Phatlalatsa ke Eng?
 email-not-public = Re ke ke ra etsa hore email ya hao e phatlalatswe.
+recordings-and-locale-public = Palo ya dikgatiso le dipuo tseo o kenyang letsoho ho tsona di tla phatlalatswa.
 username-optin-public = O ka kgetha ho etsa hore lebitso la hao la mosebedisi le phatlalatswe kapa le se ke la tsejwa.
 demographic-deidentified-clarity-2 = Dintlha tsa palo ya batho tse rometsweng ka boikgethelo (mohlala, dilemo, bong, puo, le tsela ya puo) di ke ke tsa phatlalatswa ho profaele ya hao, mme di ke ke tsa hokelwa ho ak'haonte ya hao kahara pokello ya data. Dikotwana tsa audio ka bonngwe di tla amahanngwa le dintlha tsa palo ya batho bakeng sa tlhahlobo e nepehahetseng - mohlala, mofuputsi a ka batla ho lebisa model o kwetlisang ho karolo e itseng ya palo ya batho.
 
@@ -610,6 +612,7 @@ about-playbook-how-grow-language-content-7 = Batla ba bang ba tsotellang. Bao e 
 ## How to validate
 
 about-playbook-how-validate = Ke tseba jwang hore nka amohela clip ya lentswe?
+about-playbook-how-validate-content-1 = Haeba o ka di <strong>utlwa</strong> le ho <strong>di utlwisisa</strong>, hangata ho <strong>ho molemo ho di amohela</strong>.
 about-playbook-how-validate-content-2 = <strong>Se ke wa hana dikotwana moo mmui 'a nang le tsela ya puo' e fapaneng ho ya hao</strong> - hona ho bohlokwa bakeng sa hore temoho ya lentswe e sebetse betere bakeng sa bohle.
 about-playbook-how-validate-content-3 = Haeba o nahana hore pitso ya mantswe e etsa hore <strong>kutlwisiso e se ke ya kgonahala</strong>, kapa ho na le <strong>lerata le kamorao le lengata</strong>, kapa ho na le <strong>batho ba bang ba buang</strong>, o tshwanela ho hana sekotwana. <accuracyLink>Sheba dintlha tse ding ho ditekanyetso tsa nepahalo tsa rona</accuracyLink>.
 about-playbook-how-validate-content-4 = Haeba clip e hanwa ke batho ba 2, e lokollelwa ka hara sehlopha se fapaneng sa pokello ya data.
@@ -742,6 +745,7 @@ dataset-version = Mofuta
 ## Download Modal
 
 download-title = Download ya hao e qadile.
+download-helpus = Re thuse ho aha setjhaba mabapi le thekenoloji ya lentswe, dula re buisana ka email.
 download-no = Tjhe Kea Leboha
 
 ## Contact Modal
@@ -1404,6 +1408,7 @@ sc-criteria-make-sure = Etsa bonnete ba hore polelo e fihlela mekgwa e latelang:
 sc-criteria-item-1 = Polelo e tlameha ho peletwa ka nepo.
 sc-criteria-item-2 = Polelo e tlameha ho nepahala ho ya ka sebopeho-puo.
 sc-criteria-item-3 = Polelo e tlameha ho bueha.
+sc-criteria-item-4 = Haeba polelo e fihlella ditekanyets, tobetsa konopo ya &quot;Amohela&quot; konopo ka ho le letona.
 sc-criteria-item-5-2 = Haeba polelo e sa fihlelle ditekanyetso tse ka hodimo, penya &quot;Hana&quot; konopo e ka ho le letshehadi. Haeba o sena bonnete ka polelo, o ka boela wa e tlola mme o fetele ho e latelang.
 sc-criteria-item-6 = Haeba o fellwa ke dipolelo tseo o lokelang ho di hlahloba, ka kopo re thuse ho bokella dipolelo tse ding!
 
