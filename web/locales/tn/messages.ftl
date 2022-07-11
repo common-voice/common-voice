@@ -48,9 +48,12 @@ my = Se-Burma
 om = Se-Afaan Ormoo
 scn = Se-Sicily
 shi = Se-Shilha
+si = Se-Sinhala
+sk = Se-Slovak
 sl = Se-Slovania
 so = Se-Somali
 sq = Se-Albania
+ss = Seswati
 te = Se-Telugu
 th = Se-Thai
 ti = Se-Tigrinya
@@ -469,6 +472,7 @@ language-speakers = Dibui
 ## Contribution
 
 action-click = Tobetsa
+skip = Tlola
 shortcuts = Ditlhabanyetso
 goal-help-recording = O thusitse Common Voice gore e fitlhelele <goalPercentage></goalPercentage> ya maikaelelo a rona a letsatsi a go gatisa { $goalValue }!
 goal-help-validation = O thusitse Common Voice gore e fitlhelele <goalPercentage></goalPercentage> ya maikaelelo a rona a letsatsi a go tlhomamisa { $goalValue }!
@@ -542,6 +546,7 @@ download-profile-info = E akaretsa imeile, leinatiriso le tshedimosetso ya dipal
 download-recordings-info = E akaretsa di-mp3 le mela e e tsamaisanang le yone, go ka tsaya nakonyana gore di rulaganngwe
 download-recordings-unavailable = Ga o kgone go kopa dikgatiso tsa gago fa kopo e nngwe e setse e diragadiwa.
 download-recently-requested = O ka kopa go ntsha dikgatiso tsa gago malatsi mangwe le mangwe a le { $days }.
+download-size = Bogolo
 download-requests-info = Fa o kopa dikgatiso tsa gago, re di kopanya go di dira faele e le nngwe kgotsa di le mmalwa tsa ZIP. Tseno ke dikopo tsa gago tsa nako e e fetileng.
 download-request-assembling-description = Difaele tsa gago di a kokoanngwa. Tsweetswee tlhola gape moragonyana.
 download-request-modal-description = Tseno ke dilinki tsa go itseela difaele tsa gago tsa ZIP.
@@ -764,6 +769,7 @@ sc-review-form-usage = Swaepela kafa mojeng go amogela polelo. Swaepela kafa mol
 # Variables:
 #   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
 sc-review-form-source = Motswedi: { $sentenceSource }
+sc-review-form-button-skip = Tlola
 sc-review-form-button-approve = Amogela
 # Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
 sc-review-form-button-approve-shortcut = E
