@@ -1,12 +1,14 @@
 ## General
 
 yes-receive-emails = Ina, ndzi rhumeleni ti-email. Ndzi tsakela ku tshama ndzi ri karhi ndzi tivisiwa hi tsima ra Common Voice.
+return-to-cv = Vuyela eka Common Voice
 email-opt-in-info = Ndzi tsakela ku amukela ti-imeyili to fana na switsundzuxo swa tipakani, swintshuxo swa mina swa nhluvuko na swiphephana swa mahungu mayelana na Common Voice.
 email-opt-in-info-title = Joyina nxaxamelo wa poso wa Common Voice
 email-opt-in-info-sub-with-challenge = Amukela ti-imeyili to fana na switsundzuxo swa ntlhontlho na pakani, ku pfuxetiwa ka nhluvuko, na swiphephana swa mahungu mayelana na Common Voice.
 indicates-required = Tinsimu leti funghiweke hi nyeleti (*) ta laveka.
 banner-error-slow-1 = Kombela ndzivalelo, Common Voice yi famba hi ku nonoka. Ndza khensa ku tsakela ka n'wina.
 banner-error-slow-2 = Hi kuma ntlimbano yo tala naswona sweswi hi le ku lavisiseni ka timhaka leti.
+error-something-went-wrong = Hi rivaleli, ku ni nchumu lowu nga famba kahle
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -24,6 +26,7 @@ content-license-text = Vuxokoxoko byi kumeka ehansi ka <licenseLink>Layisense ya
 
 ## Home Page
 
+home-cta = Vulavula, hoxa xandla laha!
 wall-of-text-start =
     Rito i ra ntumbuluko, rito i ra munhu. Hi yona mhaka leyi hi tsakisiwaka hi ku tumbuluxa rito leri tirhisiwaka
     theknoloji ya michini ya hina. Kambe ku tumbuluxa tisisiteme ta rito, nhlayo leyikulu swinene ya rito
@@ -88,6 +91,7 @@ help-variants-explanation = Swihlawuhlawu i xivumbeko xo karhi xa ririmi - xikom
 
 ## Profile - Email
 
+browse-file-title = Layicha fayili ya xifaniso
 browse-file = Koka u tlhela u hoxa kumbe <browseWrap>Pfula-pfula</browseWrap>
 gravatar_not_found = Ku hava gravatar leyi kumiweke eka email ya wena
 file_too_large = Fayili leyi hlawuriweke i yikulu swinene
@@ -97,6 +101,7 @@ file_too_large = Fayili leyi hlawuriweke i yikulu swinene
 
 ## FAQ
 
+faq-what-cv-q = Xana Common Voice i yini?
 faq-why-important-q = Ha yini swi ri swa nkoka?
 faq-how-get-a = Dataset ya Common Voice yi kumeka ku kopiwa ehansi ka layisense ya <licenseLink>CC0</licenseLink> eka <datasetLink>pheji ya hina ya Datasets</datasetLink>. U nga ha tlhela u kopa tidathaseti tin’wana to hlayanyana leti kumekaka erivaleni eka tluka rin’we.
 faq-is-goal-assistant-a = Xikongomelo xa dataset ya Common Voice i ku endla leswaku un’wana na un’wana emisaveni a kota ku aka ku tiva ka mbulavulo, ku tiva swivulavuri, kumbe muxaka wun’wana na wun’wana wa xitirhisiwa lexi lavaka datha ya rito. Mupfuni wa rito i yin’wana ntsena ya tinxaka to tala ta switirhisiwa leswi u nga tirhisaka dataset ku swi aka.
@@ -199,6 +204,7 @@ about-playbook-how-access-dataset-content-1 = U nga ya eka <datasetsPage>pheji y
 
 about-playbook-how-project-governance = Xana swiboho swa phurojeke swi endliwa njhani?
 about-playbook-how-project-governance-content-1 = Mozilla Common Voice yi endliwe ku ri yi koteka hi vaaki vo hambana va valweri, vativi va tindzimi, vativi va sayense ya data, swidyondzeki na vanjhiniyara va software ku suka emisaveni hinkwayo. Phurojeke leyi yi fambisiwa hi Mozilla Foundation.
+about-playbook-how-project-governance-content-3 = Vuhlayiseki bya xihundla, vuhlayiseki na ku va erivaleni.
 about-playbook-how-project-governance-content-4 = Ku nghenelela ka vaaki na ku endla swiboho.
 about-playbook-how-project-governance-content-7 = <governanceLink>Hlaya swo tala hi ndlela leyi hi lawuriwaka ha yona</governanceLink>
 
@@ -210,6 +216,7 @@ de-identified-explanation = Endlelo leri hi rona vuxokoxoko bya phurofayili ya m
 ## Error pages
 
 error-title-404 = A hi swi kotanga ku ku kumela pheji rero
+error-title-503 = Hi hlangene na nkarhi wo yima lowu nga languteriwangiki
 error-content-503 = Sayiti yi ta tlhela yi pfuxetiwa hi ku hatlisa hilaha swi nga kotekaka hakona. Ku kuma vuxokoxoko bya sweswinyana, hi kombela u joyina <matrixLink> maganga a Matrix chat</matrixLink> kumbe u endzela <githubLink>GitHub</githubLink> kumbe <discourseLink>tiforamu ta hina ta Discourse</discourseLink> ku rhumela na ku langutisisa timhaka ta ntokoto wa sayiti.
 
 ## Data
@@ -248,6 +255,7 @@ request-language-explanation-1 =
     <languagesPageLink>Tluka ra Tindzimi ta Common Voice</languagesPageLink>.
     Loko swi nga ri tano, tata fomo leyi hi ta ku <strong>rhumela email leyi pfunaka
     ku hlamusela ndlela yo endla leswaku ririmi ra wena ri vekiwa</strong>.
+request-language-form-info-explanation-list-1 = Mavito ya ririmi ra wena
 request-language-success-list-2 =
     Mufambisi wa hina wa vaaki u ta fikelela eka wena ku ku nyika
     nseketelo lowu engetelekeke, ni ku ku tivisa ku ri loko se ku ri kona vaaki lava tirhaka eka ririmi ra wena.
@@ -282,6 +290,7 @@ target-segment-generic-card = U hoxa xandla eka xiyenge lexi kongomisiweke
 
 report-offensive-language-detail = Xivulwa lexi xi na ririmi ro pfumala xichavo kumbe leri khunguvanyisaka.
 report-offensive-speech-detail = Xivulwa lexi xi na ririmi ro pfumala xichavo kumbe leri khunguvanyisaka.
+report-success = Xiviko xi pasisiwile hi ndlela leyi humelelaka
 
 ## Goals
 
@@ -319,6 +328,9 @@ why-delete-recordings =
 
 download-q = Xana u lava ku downloada rungula ra wena?
 download-info = Hi byele leswi u lavaka ku swi downloada:
+download-requests = Swikombelo swo dawuniloda leswi rhekhodiweke leswi hundzeke
+download-requests-info = Loko u kombela tirhekhodo ta wena, hi ti hlengeleta ti va fayili yin’we kumbe to tala ta ZIP. Hi leswi swikombelo swa wena swa nkarhi lowu hundzeke:
+download-request-archive-single = Fayili yin’we ya ZIP leyi nga na
 download-request-archive-multiple = Ku avanyisa hi { $archiveCount } tifayela ta ZIP leti nga na
 download-request-link-single = U nga ha tlhela u kopa ni ku namarheta ti-URL leti kongomeke eka mufambisi wa wena wo kopa lowu u wu tsakelaka. Ti ta hela endzhaku ka tiawara ta 12, kambe u nga vuya eka tluka leri ku humesa letintshwa nkarhi wihi na wihi.
 
@@ -329,6 +341,8 @@ read-more-about = Hlaya swo tala eka tluka ra hina ra Malunghana
 
 ## DemoLayout
 
+demo-welcome = Mi amukeriwile eka Common Voice
+demo-welcome-subheader = Xana wa swi tsakela ku dyondza kumbe na ku hoxa xandla eka phurojeke?
 
 ## Demo Datasets
 
@@ -338,6 +352,7 @@ demo-eofy-sub_header = Dataset ya Rito, Yi Lunghekele ku Dawuniloda
 ## Demo Account
 
 demo-account-card-body = Eka tlhelo ra xinene hi boxa mimpfuno ni ku hlamusela leswaku hi rihi rungula leri hi ri endlaka erivaleni. Tirhisa swihlanganisi leswi nga laha hansi ku sungula hi akhawunti ya Common Voice eka xitirhisiwa xa wena.
+demo-account-sign-up = Rhumela link yo tsarisa
 
 ## Demo Contribute
 
@@ -361,6 +376,7 @@ contribution-misreadings-example-4-explanation = [Ku rhekhodiwile swo tala ku tl
 contribution-misreadings-example-5-title = Hi huma hi ya teka kofi.
 contribution-misreadings-example-6-title = Hi huma hi ya teka kofi.
 contribution-misreadings-example-7-explanation = [Ku hava ‘a’ eka tsalwa ro sungula].
+contribution-misreadings-example-8-title = Bumblebee yi hundze hi rivilo.
 contribution-varying-pronunciations-description-extended = Hi hala tlhelo, loko u ehleketa leswaku kumbexana muhlayi a nga si tshama a hlangana na rito leri, naswona u endla ntsena ku ringanyeta loku hoxeke eka mavitanelo ya rona, hi kombela u ala. Loko u nga tiyiseki, tsopeta tlula.
 contribution-varying-pronunciations-example-1-title = Enhlokweni yakwe a ambale berete.
 contribution-background-noise-example-2-fixed-title = Xihontlovila xa dino <strong>[cough]</strong> xa Triassic.
@@ -415,13 +431,19 @@ sc-howto-findpd-partner-2 = Vativi va tindzimi va nga tlhela va pfuna, va ringet
 
 ## REJECTED
 
+sc-rejected-none-found = Ku hava swivulwa leswi ariweke leswi kumiweke!
 
 ## STATS
 
 
 ## ADD
 
+sc-submit-err-select-lang = Hi kombela u hlawula ririmi.
+sc-submit-err-add-source = Hi kombela u engetela xihlovo.
+sc-submit-ph-one-per-line =
+    .placeholder = Xivulwa xin’we hi ntila
 sc-submit-from-where = Xana swivulwa leswi swa <wikipediaLink>ndhawu ya mani na mani</wikipediaLink> swi huma kwihi?
+sc-submit-guidelines = Hi kombela u languta <howToLink>swiletelo</howToLink>.
 
 ## ADD LANGUAGE
 
