@@ -2,7 +2,7 @@
 
 yes-receive-emails = Iye, ngithumelani ama-email. Ngingakuthabela ukufumana imininingwana ngephrojekthi yeCommon Voice.
 stayintouch = Thina eMozilla sakha umphakathi wetheknoloji yamaphimbo. Singathabela ukuhlala sinokwaziswa kwamva, ukwaziswa kweensetjenziswa nokuzwa bona ukusebenzisa njani ukwaziswokhu.
-privacy-info = { "" }
+privacy-info = Sithembisa ukugcina imininingwana yakho iyifihlo. Funda okwengeziweko ngesaZiso sethu sezinto eziyiFihlo <privacyLink>Nemigomo</privacyLink>.
 return-to-cv = Buyela kuCommon Voice
 email-input =
     .label = I-Email
