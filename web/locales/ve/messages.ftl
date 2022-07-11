@@ -1,5 +1,6 @@
 ## General
 
+email-opt-in-privacy-v2 = Nga u ṱanganedza uri ni ṱoḓa u wana dzi email ni tenda uri zwo luga uri Mozilla i fare zwidodombedzwa zwenezwi u ya nga nḓila ye zwa ṱalutshedzwa ngayo kha Mozilla’s <privacyLink>Poḽisi ya Tshiphiri</privacyLink>.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -57,6 +58,7 @@ why-profile-text =
     Nga u ri vhudza zwiṅwe zwidodombedzwa zwaṋu, data ya odio ine na i rumela kha Common Voice i ḓo kona u shumiswa zwavhuḓi kha mitshini ya u Ḓivha
     Ipfi ine ya ḓo shumisa yeneyi data u itela uri i kone u vha ya khwine-khwine uri i shume zwavhuḓi.
 why-demographic-explanation-2 = Zwidodombedzwa zwa tshiphiri sa miṅwaha, mbeu, na kuambele zwi thusa u khwinisa data ya odio ine ya shumiswa u gudisa tshishumiswa tsha u ḓivha ipfi. Username na email yaṋu a zwi nga vuwi zwo ṱumanywa na zwithu zwe na rumela, nahone ni nga khetha uri username yaṋu i vhonwe nga vhathu vhoṱhe kana i sa vhonwe.
+skip-submission-description = Musi ni tshi khou rumela zwe na shela mulenzhe hu ḓo pfukiwa feedback nga murahu ha u puṱedza ipfi 'Submit'. Ni ḓo bvela phanḓa na u shela muledzhe nga u rekhoda dza 5 dzi tevhelaho kana u dzi thembendela.
 help-accent-explanation = Kuambele ndi nḓila ine na bula ngayo maipfi. Zwenezwi zwi nga ḓitika nga hune na dzula hone, dziṅwe nyambo dzine na dzi amba na zwiṅwe zwithu zwinzhi. Ni nga ri vhudza zwenezwi zwithu zwine na pfa u nga zwi a tshimbidzana na zwenezwi hafha.
 help-variants-explanation = Dzi Variants ndi mufuda wo khetheaho wa luambo – une sa tsumbo wa ambiwa nga vhathu vha dzulaho fhethu ho khetheaho kana vhupo. Nga tshiṅwe tshifhinga zwenezwi zwi vhidzwa dzi dialect.
 
@@ -224,6 +226,7 @@ request-language-success-list-2 =
 
 ## Languages Overview
 
+language-section-launched-description = Kha hedzi nyambo dzo no ḓi dzheniswaho dzo dzhena zwavhuḓi kha website <localizationGlossaryLink>localized</localizationGlossaryLink>, nahone hu na mitaladzi <sentenceCollectionGlossaryLink> yo kuvhanganwaho yo eḓaho </sentenceCollectionGlossaryLink> u itela uri hu vhe na bvela phanḓa <speakLink>Ambani</speakLink> ni <listenLink>Tshetshelese</listenLink> zwo shelwaho mulenzhe.
 
 ## Contribution
 
