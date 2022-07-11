@@ -3,6 +3,7 @@
 yes-receive-emails = Ee, vha nthumele email. Ndi nga takalela u dzula ndi tshi vhudziwa nga ha thandela dza Common Voice.
 privacy-info = Ri fulufhedzisa u ṱhogomela zwidodombedza zwaṋu nga nḓila yavhuḓi. Vhalani nga vhuḓalo kha <privacyLink>u Tsireledza zwa Tshiphiri </privacyLink> zwashu.
 email-opt-in-info = Ndi nga takalela u wana email dzi nga ho dzine dza nkhumbudza nga ha zwipikwa zwanga, mvela phanḓa yanga na maswa maswa nga ha Common Voice.
+email-opt-in-info-title = Ivhani tshipiḓa tsha vhane vha wana email dza Common Voice
 email-opt-in-info-sub-with-challenge = Wanani milaedza nga email yo nonga khumbudzo ya zwipikwa, mvela phanḓa, na maswa maswa a Common Voice.
 email-opt-in-privacy-v2 = Nga u ṱanganedza uri ni ṱoḓa u wana dzi email ni tenda uri zwo luga uri Mozilla i fare zwidodombedzwa zwenezwi u ya nga nḓila ye zwa ṱalutshedzwa ngayo kha Mozilla’s <privacyLink>Poḽisi ya Tshiphiri</privacyLink>.
 indicates-required = Mitaladzi i re na hetshi tshiga(*) i ya ṱoḓea.
@@ -89,6 +90,8 @@ status-hours =
 
 profile-form-variant =
     .label = Ni amba varianti { $language } ifhio ya luambo?
+profile-form-custom-accent-help-text =
+    .label = Ni nga ṱalusa hani kuambele kwaṋu?
 profile-form-custom-accent-placeholder-2 = Thomani u thaipha uri ni kone u ṱalusa kuambele kwaṋu
 why-profile-text =
     Nga u ri vhudza zwiṅwe zwidodombedzwa zwaṋu, data ya odio ine na i rumela kha Common Voice i ḓo kona u shumiswa zwavhuḓi kha mitshini ya u Ḓivha
@@ -105,6 +108,7 @@ help-variants-explanation = Dzi Variants ndi mufuda wo khetheaho wa luambo – u
 
 ## Profile - Email
 
+gravatar_not_found = A hu ngo waniwa gravatar ya email yaṋu
 file_too_large = Faela ye na i nanga ndi khulwanesa
 
 ## Profile - Email
@@ -143,6 +147,7 @@ faq-what-quality-q = Hu ṱoḓea odio dzi re kha vhuimo ha hani uri dzi kone u 
 faq-what-quality-a = Ri khou ṱoḓa uri Common Voice dataset i vhe na odio ine tshishumiswa tsha u pfa maipfi tsha a ṅwala; tsha ḓo a pfa mashangoni a kule, ndi ngazwo ri tshi khou ṱoḓa maipfi o fhambananaho. Zwiṅwe zwine ra zwi ṱoḓa nga nnḓa ha vhaambi vho fhambananaho, dataset ine ya vha na odio dzo fhambananaho i ḓo thusa tshishumiswa tsha u pfa maipfi tsha a ṅwala uri tshi imedzane na nyimelo dzo fhambananaho dza vhukuma, dzi ngaho u amba hu na goloi ine ya khou ita phosho. Tsha ndeme ndi tsha uri ipfi ḽanu ḽo rekhodiwaho ḽivhe ḽo tsha, ḽi tea u vha ḽi ḽavhuḓi uri ḽi dzhene kha dataset.
 faq-why-10k-hours-q = Ndi ngani awara dza 10,000 dzi dzone dzi no ṱoḓea sa tshipikwa kha luambo uri hu itwe odio?
 faq-why-10k-hours-a = Hetshi ndi tshivhalo tsha awara nga u angaredza dzi no ṱoḓea u funza sisṱemu ya bveledza speech-to-text.
+faq-how-calc-hours-q = Common Voice i vhalelisa hani dzi awara?
 faq-how-calc-hours-a = Ri vhala dzi awara nga u angaredza tshikhala tsha zwiṅwe na zwiṅwe zwo rekhodiwaho, nahone ra andisa yeneyo nomboro nga ṱhanganyeḽo ya zwoṱhe zwo rekhodiwaho nga nyambo dzoṱhe.
 faq-where-src-from-2-q = Source text i bva ngafhi?
 faq-where-src-from-2-a =
@@ -170,6 +175,8 @@ about-language-req-subtitle = Hu na we a humbela uri luambo lu pangiwe.
 about-localization-subtitle = Mafhungo a re kha heyi website o ḓologiwa nga holuya luambo.
 about-sentence-collection-subtitle = Mitaladzi i kuvhanganyiwa uri vhathu vha i vhalele nṱha.
 about-new-lang-subtitle = Ro ḽontsha saiti ya Common Voice nga holwu luambo.
+about-voice-contrib-subtitle = Vhathu vha ḓa vha nikela nga maipfi avho.
+about-voice-validation-subtitle = Vhaṅwe vho khwaṱhisedza hezwo zwo rekhodiwaho
 about-dataset-release-subtitle = Ri riḽiza dataset nga murahu ha miṅwedzi miraru tshifhinga tshoṱhe.
 about-subscribe-text = Naa ni ṱoḓa u dzula no kwamana na Common Voice?
 about-speak-text = Vhane shela mulenzhe vha rekhoda maipfi nga u vhala mitaladzi yo nikelwaho.
@@ -333,6 +340,7 @@ contact-required = *Zwi ya todea
 
 ## Request Language Modal
 
+request-language-success-title = Khumbelo ya luambo yo rumeliwa zwavhuḓi, ro livhuwa.
 request-language-success-content = Ri ḓo ni kwama hu si kale uri ri ni vhudze zwinzhi nga ha uri lumbo lwaṋu ni nga lu panga haṋi kha Common Voice.
 
 ## Request Language Pages
@@ -573,6 +581,7 @@ sc-howto-findpd-text-2 = Ni humbule uri ri ṱoḓa tendelo uri ri anḓadze yen
 sc-howto-findpd-tips = Khezwi zwiṅwe zwine na nga zwi ita uri ni wane mitaladzi:
 sc-howto-findpd-tips-1 = Fhethu havhuḓi hune na nga wana hone zwithu ndi kha dzi podcast, maipfi a ṅwalwaho a tshi bva kha matambwa, maipfi a zwiṱori zwa thelevishini, na tshiṅwe na tshiṅwe tshine tsha nga vha tshi na nyambedzano dza ḓuvha na ḓuvha.
 sc-howto-findpd-tips-2 = Vhulivhisi vhu bvaho kha muvhuso, dzibugu na dzi athikiḽi, ndi ha ndeme, fhedzi ngauri muṅwalo u fomala nga maanḓa, vhu sala vhu si ha ndeme nga u to ralo.
+sc-howto-findpd-subtitle-2 = Shumisanani na madzangano a vhuponi haṋu kana muthu nga eṱhe
 sc-howto-findpd-partner-1 = Hu na madzangano manzhi a vhathu ane a nga ṱoḓa u shela mulenzhe nahone vha nga vha vho no ḓi vha na mafhungo ane vha ṱoḓa u nikela ngao sa ane a nga shumiswa nga vhathu vhoṱhe. Iyani dziyunivesithi dza vhuponi ha haṋu, Mivhusoni na kha madzangano a u thusa vhathu vhoṱhe ni ambe navho nga ha yeneyi thandela nahone ni humbele thuso yavho.
 sc-howto-findpd-partner-2 = Vhaḓivhi vha luambo na vhone vha nga thusa, i ya na kha universithi dza vhuponi haṋu dza vhaḓivhi vha luambo (vhadededzi na vhagudiswa) nahone ni vhone arali vha tshi nga kona u thusa nga u kuvhanganya mitaladzi i re na mibvumo yo fhambananaho nga luambo lwaṋu.
 
