@@ -291,6 +291,7 @@ email-not-public = Re ke ke ra etsa hore email ya hao e phatlalatswe.
 recordings-and-locale-public = Palo ya dikgatiso le dipuo tseo o kenyang letsoho ho tsona di tla phatlalatswa.
 username-optin-public = O ka kgetha ho etsa hore lebitso la hao la mosebedisi le phatlalatswe kapa le se ke la tsejwa.
 demographic-deidentified-clarity-2 = Dintlha tsa palo ya batho tse rometsweng ka boikgethelo (mohlala, dilemo, bong, puo, le tsela ya puo) di ke ke tsa phatlalatswa ho profaele ya hao, mme di ke ke tsa hokelwa ho ak'haonte ya hao kahara pokello ya data. Dikotwana tsa audio ka bonngwe di tla amahanngwa le dintlha tsa palo ya batho bakeng sa tlhahlobo e nepehahetseng - mohlala, mofuputsi a ka batla ho lebisa model o kwetlisang ho karolo e itseng ya palo ya batho.
+username-email-not-demographic = Lebitso la hao la mosebedisi le email di ke ke tsa amahanngwa le data e phatlaladitsweng.
 
 ## Speak & Listen Shortcuts
 
@@ -595,6 +596,7 @@ about-playbook-how-add-sentences-content-4 = Dipolelo tse netefaditsweng di feti
 
 about-playbook-how-record-quality = Nka rekota clip ya lentswe ya boleng bo hodimo jwang?
 about-playbook-how-record-content-1 = Bua ke lentswe la hao le tlwalehileng! Mokgwa oo o buang ka wona o amohelehile mona - re batla tsela ya hao ya puo e le jwalo, mme re batla bophahamo ba hao ba lentswe, setaele le modumo wa lentswe tse tlwaelehileng.
+about-playbook-how-record-content-2 = Qoba lerata la kamorao le lengata haholo - ho lokela ho ba bonolo ho o utlwa.
 about-playbook-how-record-content-3 = Bala polelo ka hloko - seke wa fosa, wa fetola kapa wa eketsa mantswe.
 about-playbook-how-record-content-4 = Etsa bonnete ba hore sethala sea rekota pele o qala ho bua, le hore se ema feela ha o qetile.
 about-playbook-how-record-content-5 = <accuracyLink>Sheba haholwanyane ka mokgwa wa nepahalo.</accuracyLink>
@@ -724,6 +726,7 @@ subscribe = Ngodisa
 get-started-speech = Qala ka Temoho ya Puo
 other-datasets = Dipokello tsa Data tse Ding
 feedback-q = O na le Maikutlo?
+resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ ke <docsLink>sesebediswa sa mohlodi o bulehileng</docsLink> bakeng sa bafuputsi ba hlahisang di-model AI tse qoqang tsa boemo bo phahameng haholo.
 resource-deepspeech-info = Enjene e bitswang Deep Speech e elellwang lentswe e buletsweng bohle ya Mozilla e ka sebediswa ho haha di-application tse elellwang puo. Bala <githubLink>kakaretso ya Github</githubLink>kapa kenela <discourseLink>DeepSpeech Discourse</discourseLink> ho ithuta hore na o qala jwang.
 resource-coqui-info = <coquiLink>Coqui</coquiLink> e inehetse ho thekenoloji ya puo e bulehileng. Merero ya bona e kenyelletsa boithuto bo tebileng bo thehilweng ho enjene tsa STT le TTS.
 community-playbook = Buka ya ho bapala ya setjhaba
@@ -1039,6 +1042,7 @@ download-profile-size = Di-byte tse mmalwa
 download-recordings-title = Direkoto
 download-recordings-info = E kenyelletsa di-mp3 le dipolelo tse amanang, ho ka nka nako ho itokisetsa
 download-recordings-size = Ka tlwaelo ke megabytes
+download-recordings-unavailable = O ke ke wa kopa direkoto tsa hao ha kopo e nngwe e ntse e tswelapele.
 download-recently-requested = O ka kopa ho direkoto tsa hao ka mora a mang le a mang { $days } matsatsi.
 download-size = Boholo
 download-selected = E kgethilwe
@@ -1443,6 +1447,14 @@ sc-review-form-button-reject-shortcut = N
 sc-review-form-button-skip-shortcut = S
 sc-review-form-button-submit =
     .submitText = Qetela ho hlahloba
+# Variables:
+#   $sentences (Number) - Number of sentences the user has reviewed in this session
+sc-review-form-reviewed-message =
+    { $sentences ->
+        [0] Ha ho dipolelo tse hlahlobuweng.
+        [one] polelo e 1 e hlahlobuwe. Rea leboha!
+       *[other] dipolelo tse hlahlubuweng. Rea leboha!
+    }
 sc-review-form-review-failure = Maikutlo haa kgona ho bolokwa. Ka kopo leka hape hamorao.
 sc-review-link = Hlahloba
 
