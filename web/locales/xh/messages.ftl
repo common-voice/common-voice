@@ -187,6 +187,14 @@ sc-howto-cite-item-3 = Kumbhalo wesizinda sikawonke-wonke ongafumanekiyo kwi-int
 
 ## ADD LANGUAGE
 
+# Variables:
+#   $duplicates (Number) - Number of sentences which got rejected because they are duplicates
+sc-add-result =
+    { $duplicates ->
+        [0] [0] Izivakalisi ezingenisiweyo. { $duplicates } izivakalisi ziye zakhatywa njengeziphindwaphindwayo.                                                                                                                                                         [one] Kungeniswe izivakalisi. { $duplicates } isivakalisi siye sakhatywa njengesiphindiweyo.                                                                                                                                                               *[other] Kungeniswe izivakalisi. { $duplicates } izivakalisi ziye zakhatywa njenge ziphindwaphindwayo.
+        [one] { "" }
+       *[other] { "" }
+    }
 
 ## ADD SENTENCES CONFIRMATION
 
