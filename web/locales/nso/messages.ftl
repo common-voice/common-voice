@@ -260,6 +260,11 @@ x-weeks-short =
         [one] Beke
        *[other] { $count }wk
     }
+x-months-short =
+    { $count ->
+        [one] { "" }
+       *[other] { $count }mo
+    }
 x-years-short =
     { $count ->
         [one] { "" }
