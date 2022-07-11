@@ -365,6 +365,7 @@ record-platform-not-supported = Ri humbela pfarelo, puḽatifomo yaṋu a yi tik
 record-platform-not-supported-desktop = Kha tshishumiswa tsha desktop ni nga shela mulenzhe nga u downḽoda…
 record-platform-not-supported-ios-non-safari = Kha iOS ri humbela uri ni bvele phanḓa ni tshi shumisa Safari u itela uri ni kone u rekhoda…
 review-tooltip = Ṱolisisani & ni dovholole u rekhoda ni tshi khou bvela phanḓa
+record-abort-text = Na ṱuwa zwino ni ḓo xelelwa nga mvela phanḓa yaṋu
 listen-empty-state = Ro fhelelwa nga zwo rekhodiwaho zwine zwa ṱoḓa u khwaṱhisedzwa...
 listen-loading-error =
     A ro ngo kona u wana odio dzo rekhodiwaho dza maipfi uri inwi ni kone u dzi thetshelesa.
@@ -401,6 +402,7 @@ visibility-overlay-note = Ṱhogomelani hezwi: Musi yo setiwa kha u 'Vhonala', h
 
 goal-type = Ndi tshipikwa ḓe tshine na khou ṱoḓa u tshi ita?
 lose-goal-progress-warning = Nga u editha tshipikwa tshaṋu, ni nga xelelwa nga mvela phanḓa ya zwe na zwi ita.
+lose-changes-warning = Na ṱuwa zwino ni ḓo xelelwa nga tshanduko dzaṋu
 help-reach-hours-pluralized =
     { NUMBER($hours) ->
         [one] Thusani ri swikelele { $hours } awara { $language } nga tshipikwa tshaṋu
@@ -418,6 +420,7 @@ help-share-goal = Ri thuseni u wana maipfi manzhi, sherani tshipikwa tshaṋu
 # LINK will be replaced with the current URL
 goal-share-text = Ndo ḓiitela tshipikwa tshau nikela nga ipfi kha #CommonVoice – shelani mulenzhe na nṋe kha u funza mitshini uri vhathu vha vhukuma vha ambisa hani { $link }
 track-progress = Sedzani mvela phanḓa yaṋu hafha na kha siaṱari laṋu ḽa mbalo-mbalo.
+return-to-edit-goal = Vhuyelani hafha uri ni kone u shandukisa tshipikwa tshaṋu tshifhinga tshiṅwe na tshiṅwe.
 
 ## Profile Delete
 
@@ -445,6 +448,7 @@ download-request-link-single = Ni nga kopa u ṋambatedza nga ho livhaho kha URL
 ## Landing
 
 help-contribute = Ni nga thusa kha u ita dataset khulwane ya nnyi na nnyi nga u ita Profaiḽi ya Common Voice na u nikela nga ipfi ḽaṋu.
+login-company = Log In / Sign Up na { $company } email
 profile-not-required = A zwi ṱoḓei uri ni vhe na profaiḽi uri ni nikele, fhedzi zwi a thusa, ṱhogomelani uri ndi ngani a fho fhasi.
 
 ## DemoLayout
@@ -488,6 +492,7 @@ contribution-misreadings-example-5-title = Ri khou ya u nwa gofhi.
 contribution-misreadings-example-7-title = Ri khou ya u nwa gofhi.
 contribution-varying-pronunciations-description = Ni ṱhogomele uri ni sa ri zwo rekhodiwaho a si zwone nga ṅwambo wa uri muvhali ha ngo bula zwavhuḓi ipfi, kana o ombedzela fhethu hu si hone, kana khamusi o litsha u vhala tshiga tsha u vhudzisa. Hu na kubulele kwa maipfi kwo fhambananaho u mona na shango, kuṅwe kwa hone khamusi a ni athu u ku pfa vhuponi ha haṋu. Ri humbela uri ni ṱanganedze vhane vha amba nga nḓila yo fhambanaho na yaṋu.
 contribution-varying-pronunciations-description-extended = Kha ḽiṅwe sia, arali ni tshi vhona u nga muvhali ha athu vhuya a ṱangana na iḽo ipfi, nahone ho tou humbulelwa kubulele kwaḽo, ni songo zwi tendela. Arali ni si na vhungoho, shumisani gunubu ya u pfuka.
+contribution-varying-pronunciations-example-1-title = Ṱhohoni yawe o ambara muṅadzi.
 contribution-varying-pronunciations-example-1-explanation = [‘Beret’ ḽo luga hu si na ndavha uri ḽo ombedzelwa kha dungo ḽa u thoma (UK) kana kha dungo ḽavhuvhili (US]
 contribution-varying-pronunciations-example-2-explanation = [Ipfi ḽa Luisimane 'Raised' musi ḽi tshi bulwa hu ombedzelwa dungo ḽithihi tshifhinga tshoṱhe, hu si mavhili]
 contribution-background-noise-description = Ri ḓo ṱoḓa uri algorithm dza machine learning dzi kone u fhambanyisa phosho i re nga murahu, na phosho ya khulwane i nga tendela, fhedzi a yo ngo tea u thivhela uri ni pfe zwoṱhe zwo ambiwaho. Muzika u re fhasi wo tendelwa; muzika u ne wa khou ita phosho lune ni si kone u pfa maipfi oṱhe ane muṅwe a khou a amba a wo ngo tendelwa.
@@ -538,6 +543,7 @@ sc-howto-review-criteria-4 = Arali mutaladzi u tshi swikelea ṱhoḓea, puṱed
 sc-howto-review-criteria-5 = Arali mutaladzi u sa swikeleli ṱhoḓea dzi re afho nṱha, puṱedzani gunubu ya "Hana". Arali ni si na vhungoho ha uri mutaladzi a si wone, ni nga u pfukha na pfukela kha u no khou tevhela..
 sc-howto-review-criteria-6 = Arali na fhelelwa nga mitaladzi ya u ṱolisisa, ri humbela uri ni ri thuse nga u kuvhanganya miṅwe mitaladzi minzhi!
 sc-howto-findpd-text-2 = Ni humbule uri ri ṱoḓa tendelo uri ri anḓadze yeneyo mitaladzi, ni dzule ni tshi ita vhungoho ha uri zwo ṅwalwaho ndi zwa <wikipediaLink>fhethu ha tshitshavha tshoṱhe</wikipediaLink>. Arali hu songo bvelwa khagala, vhudzisani muṋe wazwo arali a tshi ṱoḓa uri zwe a shela ngazwo mulenzhe zwi anḓadzwe Fhethu ha Tshitshavha Tshoṱhe. Arali vha tshi zwi takalela, vha thuseni uri vha vhale <cc0WaiverLink>Thendelo ya Vhashelaho mulenzhe</cc0WaiverLink>. Arali vha sa ṱoḓi u nikela nga zwo ṅwaliwaho, a no ngo tendelwa u shumisa zwo ṅwaliwaho.
+sc-howto-findpd-tips = Khezwi zwiṅwe zwine na nga zwi ita uri ni wane mitaladzi:
 sc-howto-findpd-tips-1 = Fhethu havhuḓi hune na nga wana hone zwithu ndi kha dzi podcast, maipfi a ṅwalwaho a tshi bva kha matambwa, maipfi a zwiṱori zwa thelevishini, na tshiṅwe na tshiṅwe tshine tsha nga vha tshi na nyambedzano dza ḓuvha na ḓuvha.
 sc-howto-findpd-tips-2 = Vhulivhisi vhu bvaho kha muvhuso, dzibugu na dzi athikiḽi, ndi ha ndeme, fhedzi ngauri muṅwalo u fomala nga maanḓa, vhu sala vhu si ha ndeme nga u to ralo.
 sc-howto-findpd-partner-1 = Hu na madzangano manzhi a vhathu ane a nga ṱoḓa u shela mulenzhe nahone vha nga vha vho no ḓi vha na mafhungo ane vha ṱoḓa u nikela ngao sa ane a nga shumiswa nga vhathu vhoṱhe. Iyani dziyunivesithi dza vhuponi ha haṋu, Mivhusoni na kha madzangano a u thusa vhathu vhoṱhe ni ambe navho nga ha yeneyi thandela nahone ni humbele thuso yavho.
@@ -684,6 +690,7 @@ sc-criteria-item-6 = Arali na fhelelwa nga mitaladzi ya u ṱolisisa, ri humbela
 ## REVIEW
 
 sc-review-lang-not-selected = A ni a thu u nanga na luambo na luthihi. Ri umbela uri ni ye kha <profileLink>Profaiḽi</profileLink> yaṋu uri ni nange nyambo.
+sc-review-select-language = Ri humbela uri ni nange luambo uri ni kone u ṱolisisa mutaladzi.
 sc-review-no-sentences = A hu na mutaladzi une wa ṱoḓa u ṱoliwa. <addLink>Pangani miṅwe mitaladzi zwino!</addLink>
 sc-review-form-usage = Swaipelani kha tsha u ḽa u itela uri ni kone u amba uri mutaladzi ndi wone. U amba uri a si wone swaipelani kha tsha monde. Swaipelani nṱha u itela u pfuka. <strong>Ni songo hangwa u rumela zwe na ṱolisisa!</strong>
 sc-review-form-keyboard-usage-custom = Ni nga dovha hafhu na shumisa shortcuts dza Keyboard: { sc-review-form-button-approve-shortcut } u Khwaṱhisedza, { sc-review-form-button-reject-shortcut } u Hana, { sc-review-form-button-skip-shortcut } u Pfukha
