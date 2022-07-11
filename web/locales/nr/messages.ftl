@@ -594,6 +594,9 @@ about-yes-votes-text = Bona uphumelele ukungena ehlelweni le-Common Voice iphimb
 about-no-votes = Kunamavowudi ama≥ 2
 about-no-votes-text = Nange umuntu ala iphimbo elithileko libuyala ku-Queue. Nalaliwa kwesibili, iphimbo litjinga ku-Clip Graveyard.
 about-dataset-new = I-Common Voice Dataset
+about-dataset-new-text =
+    Ihlelo le-Common Voice lineenkulungwana 
+    neengidi zeenqetjhana zamaphimbo asibonelo asiza abathuthukisi bona bakhe ithulusi lokuhlola iphimbo.
 about-clip-graveyard = Iinqetjhana ezilahliweko
 about-clip-graveyard-text =
     I-The Clip Graveyard inamaphimbo angakaphumeleli ukuba sebulungelweni leCommon Voice dataset. Njengombana nayo ilibulungelo, iGraveyard iyafumaneka bona idawnlodwe.
@@ -619,6 +622,7 @@ about-nav-playbook = Funda ukuthi ungasiza njani
 about-playbook-what-is-language = Ngiliphi ilimi elikuCommon Voice?
 about-playbook-what-is-language-content-1 = Zinengi iindlela zokucabanga ngelimi. Ngehloso yokwenza amathulusi akghona ukuhlukanisa amaphimbo, i-Common Voice ihlongoza bona udzimelele ‘ngokuvumelana nokuzwisisana bona kukhulunywa ngendlela engafaniko’, namkha ‘abantu abakhuluma ilimeli bangakghona na ukuzwisisana nange balinga ukwenza njalo?’
 about-playbook-what-is-language-content-2 = Sifuna abafundi bethu bajayele iindlela ezihlukahlukeneko zokukhuluma. Bona lokho kwenzeke, ibulungelo lethu lamaphimbo kufuze lenziwe babantu abahlukahlukeneko.
+about-playbook-what-is-language-content-3 = Amanye amalimi amanengi ahluke khulu ngokwegrama, ivokheblari nendlela okusetjenziswa ngayo amatshwayo wokufunda. Ngebangelo, ngikho <ctaLink>sethula i ‘Variants’</ctaLink> ngo-2022. Lokhu kunikela imiphakathi iindlela zokuhlukanisa amalimabo emabulungelweni amakhulu.
 
 ## How do I add a language
 
@@ -726,9 +730,11 @@ about-playbook-how-project-governance-content-7 = <governanceLink>Funda okwengez
 ## Glossary
 
 glossary = Isithasiselo
+localization = Ukujayeza
 localization-explanation =
     Le yindlela yethu yokutjhugulula nokuvumelanisa esikwenzako
     (namalimi) amanengi wendabuko.
+sentence-collection = Imitjho eminengi
 sentence-collection-explanation =
     Ukuthatha imitjho endaweni yomphakathi namkha
     ukutlola okutjha endaweni yomphakathi.
@@ -738,6 +744,7 @@ hours-recorded-explanation =
 hours-validated-explanation = Isibalo sokurekhodiweko okuphasiswe babantu aba-2 ebantwini aba- 3 abavowude ngo “Iye”. Lokho kuveza ituthuko yomgomo wama-awara eli-10k.
 sst = Ikulumo-kuya-kokutloliweko (STT)
 sst-explanation = Ikulumo etlolwa phasi (STT) itjhugululwa iba liphimbo
+de-identified = Fihla
 de-identified-explanation = Indlela eyenza kuhluke hlangana kwephrofayili yomuntu onikela ngephimbo lakhe nemininingwana ngaye lokha umuntu nakadawnloda njengengcenye yebulungelo.
 
 ## Error pages
@@ -769,6 +776,7 @@ data-bundle-description =
     amaphimbo ngehla.
 release-version = Umbono
 dataset-date = Ilanga
+license = Ilayisensi: <licenseLink>{ $license }</licenseLink>
 license-mixed = Okuhlanganisiweko
 data-download-singleword-title = Dawuniloda iGama Linye Olifunako
 data-download-singleword-callout-v2 = Leli lihlelo elisiza ngamaphimbo arekhodiweko elikghona ukuvuma namkha ukwala
@@ -786,6 +794,7 @@ review-recording = Buyekeza
 review-rerecord = Rekhoda kabutjha
 review-cancel = Susa okuthumeleko
 review-keep-recordings = Bulunga okurekhodiweko
+review-delete-recordings = Sula engikurekhodileko
 
 ## Datasets Page
 
@@ -795,6 +804,9 @@ datasets-positioning =
     Sithemba bona nange ama-voice datasets afunyanwa babantu abanengi azokukhuthaza ituthuko begodu enze amaphaliswano kwezentengiselwano nemitjhinini yetheknoloji yokufundisa.
     Ngitjho nanyana kungasi ngiyo kwaphela kodwana i-Common Voice’s multi-language dataset ilibulungelo elifunyanwa babantu abanengi.
     Qala ikhaseli njengokwaziswa kweminye imihlobo yamabulungelo wamaphimbo, kuzokuthi njengombana i-Common Voice iragela phambili idlondlobala, ikhaya lokutjhatjhululwa kwezinto ezitjha.
+language = Ilimi
+# File size in gigabytes
+size = Isilinganiso
 validated-hr-total = Inani eliqinisekisweko le-Hr
 overall-hr-total = Inani lakho koke Hr
 cv-license = Ilayisense
