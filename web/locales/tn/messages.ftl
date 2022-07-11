@@ -54,6 +54,7 @@ ts = Setsonga
 ug = Se-Uyghur
 uz = Se-Uzbek
 vec = Se-Venice
+vi = Se-Vietnam
 vot = Se-Votic
 xh = Sexhosa
 yi = Se-Yiddish
@@ -168,6 +169,7 @@ profile-form-accent =
     .label = Puo
 profile-form-age =
     .label = Dingwaga
+visible = E a bonala
 why-profile-text =
     Ka go naya tshedimosetso nngwe ka wena, tshedimosetso ya lentswe e o e romelang kwa Common Voice e tla nna mosola thata mo dithulaganyong tsa Speech
     Recognition tse di dirisang tshedimosetso eno go tokafatsa go nepa ga tsone.
@@ -471,6 +473,7 @@ continue = Tswelela
 
 ## Dashboard
 
+stats = Dipalopalo
 awards = Dikgele
 you = Wena
 visibility-explainer = Seting eno e laola tsela e o bonang lenaane la baetapele ka yone. Fa e fitlhegile, kgatelopele ya gago e tla nna ya poraefete. Seno se raya gore setshwantsho sa gago, leinatiriso la gago le kgatelopele ya gago ga di kitla di bonala mo lenaaneng la baetapele. Ela tlhoko gore go tlhabolola lenaane la baetapele go tsaya metsotso e le ~{ $minutes } go bontsha diphetogo.
@@ -584,6 +587,7 @@ see-less = <chevron></chevron>Bona tse di fokoditsweng
 ## HEADER/FOOTER
 
 sc-header-add = Tsenya
+sc-header-statistics = Dipalopalo
 sc-footer-terms = Melawana
 
 ## HOME
@@ -632,6 +636,7 @@ sc-my-source = Motswedi: { $source }
 
 ## STATS
 
+sc-stats-title = Dipalopalo
 sc-stats-error = Ga re a kgona go tla ka dipalopalo. Tsweetswee leka gape moragonyana.
 # Variables:
 #   $sentenceCount (Number) - Total number of sentences uploaded through Sentence Collector
