@@ -5,6 +5,8 @@ stayintouch = Rona ba Mozilla re haha setjhaba mabapi le thekenoloji e sebetsang
 return-to-cv = Kgutlela ho Common Voice
 email-input =
     .label = Email
+submit-form-action = Romella
+loading = E ya kenya...
 email-opt-in-info = Ke kopa ho fumana di-email tse kang dikgopotso tsa sepheo, ditlaleho tsa tswelopele ya ka le dikoranta tse mabapi le Common Voice.
 email-opt-in-info-title = Kena lethathamong la mangolo la Common Voice
 email-opt-in-info-sub-with-challenge = Fumana di-email tse kang phephetso le dikgopotso tsa sepheo, ditlaleho tsa tswelopele, le dikoranta ka Common Voice.
@@ -25,7 +27,7 @@ error-something-went-wrong = Tshwarelo, ho na le ho hong ho fosahetseng
 ab = Abkhaz
 ace = Acehnese
 ady = Adyghe
-af = Seafrikanse
+af = Afrikaans
 am = Amharic
 an = Aragonese
 ar = Arabic
@@ -269,6 +271,16 @@ x-weeks-short =
         [one] Beke
        *[other] beke
     }
+x-months-short =
+    { $count ->
+        [one] { "" }
+       *[other] { $count } dikgwedi
+    }
+x-years-short =
+    { $count ->
+        [one] { "" }
+       *[other] { $count } dilemo
+    }
 help-make-dataset = Re thuse ho aha pokello ya data ya boleng bo hodimo, e bulehileng phatlalatsa
 sign-up-account = Ngodisa bakeng sa ak'haonte
 email-subscription-title = ingodise bakeng sa email ya dintlafatso
@@ -352,6 +364,8 @@ profile-form-language =
 profile-form-variant =
     .label = O bua mofuta ofe wa { $language }?
 profile-form-variant-default-value = Ha ho mofuta o kgethilweng
+profile-form-accent =
+    .label = Pitso ya mantswe
 profile-form-custom-accent-help-text =
     .label = O ka hlalosa mokgwa wa hao wa ho bitsa mantswe jwang?
 profile-form-custom-accent-placeholder-2 = Qala ho ngola ho hlalosa tsela ya ho bitsa mantswe ya hao
@@ -496,7 +510,7 @@ how-does-it-work-text = Re etsa pokello ya data ya mantswe e tswang ho batho ba 
 ## How does it work section
 
 about-language-req-subtitle = Motho e mong o kopa hore a ekeletswe puo.
-about-localization-title = Ho etsa sebaka sa marang rang selehae
+about-localization-title = Localization ya sebaka sa marang rang
 about-localization-subtitle = Mongolo wa sebaka sa Marang-rang o fetolelwa puong eo.
 about-sentence-collection-title = Pokello ya Dipolelo
 about-sentence-collection-subtitle = Dipolelo di bokellwa hore batho ba di balle hodimo.
@@ -640,6 +654,7 @@ about-playbook-how-project-governance-content-7 = <governanceLink>Bala haholwany
 ## Glossary
 
 glossary = Bukana ya mantswe
+localization = Localization
 localization-explanation = Ena ke tshebetso ya rona ya ho fetolela le ho fetola ditaba tsa rona bakeng sa dibaka tse ngata (dipuo).
 sentence-collection = Pokello ya Dipolelo
 sentence-collection-explanation = Ho bokella dipolelo ho tswa sebakeng sa setjhaba, kapa ho ngola tse ntjha bakeng sa phatlalatso ya setjhaba.
@@ -815,6 +830,7 @@ language-total-progress = Kakaretso
 language-search-input =
     .placeholder = Batla
 language-speakers = Dibui
+localized = E entswe selehae
 sentences = Dipolelo
 language-validation-hours = Dihora
 language-validation-progress = Kgatelo pele ya Netefatso
@@ -961,6 +977,7 @@ both-speak-and-listen-long = Ka bobedi (Bua le ho Mamela)
 daily-goal = Sepheo sa Letsatsi le Letsatsi
 weekly-goal = Sepheo sa beke le beke
 easy-difficulty = E bonolo
+average-difficulty = E bohareng
 difficult-difficulty = E thata
 pro-difficulty = Pro
 lose-goal-progress-warning = Ka ho hlophisa sepheo sa hao, o ka lahlehelwa ke tswelopele ya hao e teng.
@@ -1155,6 +1172,7 @@ contribution-background-voices-example-1-title = Dikgodumodumo tse kgolo tsa Tri
 contribution-background-voices-example-1-explanation = O wa tla? <strong>[o bitswa ke e mong]</strong>
 contribution-volume-title = Bophahamo ba modumo
 contribution-volume-description = Ho tla ba le mefuta e fapaneng ya tlhaho ya bophahamo ba modumo pakeng tsa babadi. Hana ha feela bophahamo ba modumo bo le hodimo hoo rekoto e kgaohang, kapa (ho tlwaelehileng haholo) o le tlase hoo o sa utlweng se buuwang ntle le ho sheba sengolwa.
+contribution-reader-effects-title = Diphello tsa Mmadi
 contribution-reader-effects-description = Boholo ba direkoto ke tsa batho ba buang ka lentswe la bona la tlhaho. O ka amohela rekoto e seng maemong ya hwane le hwane e hweletsang, e hweshetsang  kapa e hlakileng hore e entswe ka lentswe le nang le 'terama'. Ka kopo hana direkoto tse binwang le tse sebedisang lentswe le entsweng ka k'homphuta.
 contribution-just-unsure-title = Feela ha o na bonnete?
 contribution-just-unsure-description = Haeba o ka thulana le ntho e nngwe yeo ditataiso di sa e ameng, ka kopo kgetha ho latela kahlolo ya hao e ntle. Haeba o sa kgone ho nka qeto, sebedisa konopo ya feta mme o ee ho rekoto e latelang.
@@ -1244,6 +1262,9 @@ sc-my-loading = E kenya dipolelo tsa hao...
 sc-my-err-fetching = Phoso ha re lata dipolelo tsa hao. Ka kopo leka hape.
 sc-my-no-sentences = Ha ho dipolelo tse fumanweng!
 # Variables:
+#   $batchId (String) - A unique ID identifying the submission of sentences - sentences uploaded together all have the same batch ID
+sc-my-submission = Tlhahiso: { $batchId }
+# Variables:
 #   $source (String) - Associated source the user filled out when uploading the sentence
 sc-my-source = Mohlodi: { $source }
 sc-my-delete = Hlakola dipolelo tse kgethilweng...
@@ -1283,6 +1304,8 @@ sc-submit-from-where = Dipolelo tsee<wikipediaLink>tsa setjhaba</wikipediaLink> 
 sc-submit-ph-read-how-to =
     .placeholder = Bala Mokgwa wa rona wa ho etsa haeba o se na bonnete ba ho etsa
 sc-submit-confirm = Ke netefatsa hore dipolelo tsena ke<wikipediaLink>tsa setjhaba</wikipediaLink> mme ke na le tumello ya ho di kenya.
+sc-submit-button =
+    .submitText = Romella
 sc-submit-filtered = Dipolelo tse siuweng ka lebaka la ditlhoko tse hlolehileng (ka kopo fana ka mefuta e tsitsitseng e le dipolelo tse ntjha):
 sc-submit-guidelines = Ka kopo sheba <howToLink>ditataiso</howToLink>.
 
@@ -1479,4 +1502,4 @@ sc-validation-no-abbreviations = Polelo ha ya lokela ho ba le dikgutsufatso
 # [/SentenceCollector]
 
 localization-select =
-    .label = kgetha puo/sebaka sa lehae
+    .label = kgetha puo/localization
