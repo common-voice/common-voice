@@ -92,6 +92,7 @@
 
 ## Datasets Page
 
+resource-playbook-info = <playbookLink>Fumana isikhokelo esiluncedo</playbookLink> kulo lonke uhambo lweCommon Voice, ukusuka ekuhlaleni ukuya kusetyenziso lwedatha, kunye nendlela yokunxibelelana noluntu lwethu.
 
 ## Download Modal
 
