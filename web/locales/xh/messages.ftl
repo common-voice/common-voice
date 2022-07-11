@@ -25,6 +25,7 @@ speak-paragraph = Ukurekhoda iikliphu zelizwi yinxalenye yolwakhiwo lwedatha yet
 
 ## What's public
 
+demographic-deidentified-clarity-2 = Idatha yedemographic efakwe ngokuzithandela (umzekelo, ubudala, isini, ulwimi, kunye ne-accent) akungekhe yenziwe ifumaneke okanye ibonwe ngu wonke-wonke kwiprofayile yakho, kwaye ayisokuze idityaniswe ne-akhawunti yakho kwidathasethi. Iikliphu yesandi nganye iya kunxulunyaniswa nedatha ye-demographic ngenjongo yohlalutyo oluchanekileyo - umzekelo, umphandi unokufuna ukujolisa imodeli yoqeqesho kwicandelo elithile labantu.
 
 ## Speak & Listen Shortcuts
 
@@ -49,6 +50,7 @@ speak-paragraph = Ukurekhoda iikliphu zelizwi yinxalenye yolwakhiwo lwedatha yet
 
 ## FAQ
 
+faq-what-cv-a = Itekhnoloji yokuqonda ilizwi iguqula indlela esisebenzisana ngayo noomatshini, kodwa iinkqubo ezikhoyo ngoku zibiza imali eninzi kwaye zinobunikazi. I- Common Voice yinxalenye lenyathelo lokwenza itekhnoloji yokuqondwa kwelizwi ibengcono kwaye ifikeleleke kumntu wonke. I-Common Voice liziko ledatha elikhulu lehlabathi lamazwi angumnikelo avumela nabani na ukuba aqeqeshe ngokukhawuleza nangokulula ii voice-enabled apps kuzo zonke iilwimi ngokunokwenzeka.
 faq-what-cv-a-2 =
     Itekhnoloji yokuqonda ilizwi iguqula indlela esisebenzisana ngayo noomatshini, kodwa iinkqubo ezikhoyo ngoku zibiza imali eninzi kwaye zinobunikazi. I- Common Voice yinxalenye lenyathelo lokwenza itekhnoloji yokuqondwa kwelizwi ibengcono kwaye ifikeleleke kumntu wonke. ICommon Voice liziko ledatha elikhulu lehlabathi lamazwi angumnikelo avumela nabani na ukuba aqeqeshe ngokukhawuleza nangokulula ii voice-enabled apps kuzo zonke iilwimi ngokunokwenzeka.
     Asiqokeleli kuphela iisampulu zelizwi kwiilwimi ezithethwa ngabantu abanintsi kodwa nakwezo zithethwa ngabantu abambalwa. Ukupapasha isethi yedatha yamazwi ahlukeneyo kuya kuxhobisa abaphuhlisi, oosomashishini, kunye noluntu ukuba basombulule lo msantsa ngokokwabo.
@@ -56,7 +58,9 @@ faq-why-important-a =
     Intetho ihlala iyeyona ndlela yendalo esinxibelelana ngayo kunye nabanye abantu kwaye ubuchwepheshe bale mihla bokubandakanya ilizwi buzisa olo ncedo kwikhompyutha zethu nakwizixhobo eziphathwayo. Sifuna ukuxhobisa abaphuhlisi ukwakha i-apps eziva amazwi abantu ngokumangalisayo njengabaguquleli bexesha lokwenyani kwakunye ne- voice-enabled digital assistants.
     Kodwa ngoku uninzi lwedatha efunekayo yelizwi ukwakha ezi ntlobo ze-apps iyabiza kakhulu kwaye zinobunikazi. Siyathemba ukuba Common Voice dataset iya kunika abaphuhlisi into abayidingayo ukuze bavelise izinto ezintsha kwaye benze ubuchwepheshe bokuthetha bufumaneke ngolwimi lwabo.
     Ukwenza ukuqondwa kwelizwi kubeyinto eyaziwayo ngakumbi kwihlabathi jikelele, siqokelela iisampulu zamazwi kwiilwimi ezithethwa ngabantu abaninzi kunye nezo zithethwa ngabantu abambalwa ezisoloko zingahoywanga ziinkonzo zorhwebo zokuqaphela ilizwi. Ukupapasha i-dataset yamazwi eyahlukeneyo kuya kuxhobisa abaphuhlisi, oosomashishini, kunye noluntu lwentetho luphela ukujongana nalo msantsa ngokokwabo.
+faq-when-release2-a = Uguqulelo lweelwimi ezininzi lweSeti yedatha yeCommon Voice ngoku lujongene nokudityaniswa nokucocwa kwenkxaso yoluntu. Ukuba ungathanda ukusinceda ukuzisa iCommon Voice kwiilwimi ezintsha, yiya kujonga <sentenceCollectorLink>isixhobo sokuQokelelwa kwesivakalisi</sentenceCollectorLink> ukongeza izivakalisi ezitsha kwidatha-sethi, kunye neMozilla <pontoonLink>Pontoon</pontoonLink> yokuguqulela iwebhusayithi ngokwayo. Iilwimi ezintsha zongezwa ku-Common Voice kugalelo lwe lizwi xa izivakalisi eziyi 5000 ezivunyiweyo ziqokelelwe.
 faq-why-mission-a = IMozilla izinikele ekugcineni iwebhu ivuliwe kwaye ifikeleleka kumntu wonke. Ukwenza oko kufuneka sixhobise abaqulunqi bewebhu ngeeprojekthi ezifana neCommon Voice. Njengoko iiteknoloji zokuqonda ilizwi zikhula ngaphaya kwezicelo eziqhelekileyo, sikholelwa ukuba kufuneka banikeze ngokulinganayo ngeenkonzo kubo bonke abayisebenzisayo. Oko kuthetha ukuba ukutyala kwiilwimi ezininzi kunye nokwamkela ii-accents ezahlukeneyo kunye ne-demographics xa kuqulunqwa kunye naxa kuvavanywa itekhnoloji yelizwi (voice technologies). Common Voice sisixhobo soluntu esifumaneka kuye wonke umntu kwaye amaqela eMozilla kunye nabaphuhlisi kwihlabathi liphela sele besisebenzisa kwiiprojekthi zethu ngokunjalo.
+faq-what-cv-and-deepspeech-a = Iseti yedatha yeCommon Voice incedisana ne-injini ye-Mozilla open source yokuqonda ilizwi, iNtetho eNzulu (Deep Speech). Inguqulelo yokuqala yeNtetho eNzulu (Deep Speech) yakhutshwa ngoNovemba ka-2017 kwaye iqhubekile nokutshintsha ukususela ngoko. Kunye neseti yedatha yeCommon Voice, sikholelwa ukuba obu buchwephesha be-open source yokuqonda ilizwi kufuneka bufumaneke kumntu wonke. Siyathemba ukuba obu-buchwephetshe buya kwenza ukuba abaphuhlisi bakhe iimveliso kunye neenkonzo ezintsha.
 faq-do-want-native-q = Andisiso isithethi solulwimi ndithetha ndine-accent, usafuna ilizwi lam?
 faq-what-quality-q = Ngowuphi umgangatho wesandi ofunekayo ukuze iklipu yelizwi isetyenziswe kwiseti yedatha?
 faq-what-quality-a = Sifuna iseti yedatha yeCommon Voice ibonise umgangatho wesandi esizakuviwa yi-injini yokuthetha esa isandi kumbhalo (speech-to-text engine), ngoko ke sijonga iindidi ezahlukeneyo. Ukongeza kuluntu oluthetha iilwimi ezahlukeneyo, iseti yedatha enomgangatho wesandi esahluka-hlukeneyo iya kufundisa i-injini yokuthetha eguqulela/esa isandi ukuya kumbhalo ukujongana neemeko ezahlukeneyo zamanyani ehlabathini, ukusuka kwintetho yangasemva ukuya kwingxolo yemoto. Logama nje ikliphu yakho yelizwi ivakala, kufanele ukuba ilunge ngokwaneleyo kwiseti yedatha.
@@ -125,6 +129,10 @@ data-download-singleword-callout-v2 = Le yimeko yokusetyenziswa eqhutywa licande
 ## Datasets Page
 
 datasets-headline = Sakha umthombo ovulelekileyo, iseti yedatha yeelwimi ezininzi yamazwi anokuthi nabani na akwazi ukuwasebenzisa ukuqeqesha usetyenziso lwentetho.
+datasets-positioning =
+    Sikholelwa ukuba iiseti ezinkulu zedatha zelizwi, ezifumanekayo kuwonke-wonke ziya kukhuthaza ukusungula izinto ezintsha kunye nokhuphiswano olusempilweni lwentengiso kumatshini wokufunda ngokusekwe kubuchwepheshe bentetho.
+    I-datasethi yeelwimi ezininzi zeCommon Voice sele iyeyona inkulu ifumanekayo ku wonke-wonke, kodwa ayisiyiyo yodwa.
+    Jonga kweli phepha njenge salathisi sezinye iiseti zedatha zezwi ezivulekileyo kwaye, njengoko iCommon Voice iqhubeka ikhula, indawo yokukhupha iindaba ezintsha zethu.
 dataset-description-hours =
     Ungeniso  ngalunye kwidathasethi liquka iMP3 eyodwa kunye nefayile yombhalo ehambelana nayo. Uninzi <b>{ $total }</b> lweeyure ezirekhodiweyo kuluhlu lwedatha zikwaquka idatha yedemografi efana neminyaka, isini, kunye ne-accent enokunceda ukuqeqesha ubunyani kweenjini zokuqaphela intetho. 
     
@@ -207,7 +215,10 @@ help-contribute = Unokunceda ukwakha iseti yedatha eyahlukeneyo, evulekileyo ngo
 ## Validation criteria
 
 contribution-criteria-page-description = Qonda into omawuyijonge xa umamele iiklip zelizwi kwaye uncede wenze urekhodo lwelizwi lakho lutyebe!
+contribution-varying-pronunciations-description = Lumka ngaphambi kokuba wale ikliphu kuba lowo uthe walifunda engalibizanga ngokungamnkelekanga igama, othe wagxininisa kwindawo engafanelekanga, okanye uye akaluhoya uphawu lombuzo. Kukho iintlobo ngeentlobo zokubizwa kwamagama asetyenziswayo kwihlabathi jikelele, ekusenokwenzeka ukuba awuzange waziva kwindawo ohlala kuyo. Nceda wamkele futhi uxabise abo banokuthetha ngokwahlukileyo kuwe.
+contribution-varying-pronunciations-description-extended = Lumka ngaphambi kokuba wale ikliphu kuba lowo uthe walifunda engalibizanga ngokungamnkelekanga igama, othe wagxininisa kwindawo engafanelekanga, okanye uye akaluhoya uphawu lombuzo. Kukho iintlobo ngeentlobo zokubizwa kwamagama asetyenziswayo kwihlabathi jikelele, ekusenokwenzeka ukuba awuzange waziva kwindawo ohlala kuyo. Nceda wamkele futhi uxabise abo banokuthetha ngokwahlukileyo kuwe.
 contribution-background-noise-description-extended = Ukuba ushicilelo luyaqhawuka, okanye luziziqendu, lwale ngaphandle kokuba sonke isicatshulwa sinokuviwa.
+contribution-background-voices-description = Ingxolo yangasemva ezolileyo ilungile, kodwa asifuni amazwi ongezelelweyo anokubangela ukuba umatshini uchonge amagama angekho kumbhalo obhaliweyo. Ukuba unokuva amagama ahlukileyo kulawo wombhalo, ikliphu kufuneka ingamkelwa. Ngokuqhelekileyo oku kwenzeka apho kushiywe umabonakude edlala, okanye apho kukho incoko eqhubekayo kwakufitshane.
 contribution-background-voices-description-extended = Ukuba ushicilelo luyaqhawuka, okanye luziziqendu, lwale ngaphandle kokuba sonke isicatshulwa sinokuviwa.
 
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
@@ -220,6 +231,7 @@ contribution-background-voices-description-extended = Ukuba ushicilelo luyaqhawu
 
 ## HOME
 
+sc-home-intro = Umqokeleli wezivakalisi yinxalenye  <commonVoiceLink>ye-Common Voice</commonVoiceLink>. Ivumela abaxhasi ukuba baqokelele kwaye baqinisekise (bapasise) izivakalisi eziqulunqwe luluntu. Unokusebenzisa esi sixhobo ukungenisa kunye nokucoca i-corpus oyiqokeleleyo kwindawo yoluntu ukusukela kwencinci-ephakathi-ukuya kwenkullu. Zonke izivakalisi kufuneka zibe kanti zidalelwe uwonke-wonke. Izivakalisi ezivunyiweyo zikhutshelwa ngaphandle kwiveki nganye kwindawo yokugcina i-Common Voice kwaye zikhutshwe kwiwebhusayithi ye-Common Voice kuko konke ukusasaza okutsha.
 
 ## GENERAL
 
