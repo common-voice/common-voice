@@ -429,6 +429,7 @@ faq-where-src-from-2-a =
     
     O ka lebelela mafoko a rena a mothopo ka <githubLink>foltareng yeo ya GitHub</githubLink>. "
 faq-why-not-ask-read-a = Go dira gore dathasete ya Common Voice e be molemo ka moo go ka kgonegago, re tšere sephetho sa go dumelela mothopo wa mogwalo feela go hwetšagala ka tlase ga laesense ya Creative Commons (CC0). Go šomiša maemo a CC0 go bolela gore go boima kudu go hwetša le go kgoboketša mothopo wa mogwalo, eupša go dumelela mang le mang go šomiša dintlha tša lentšu ka ntle ga dithibelo tša ditirišo goba tumelelo go tšwa go Mozilla. Mafelelong, re nyaka go dira gore dathasete ya maleme a mantši/polelo e ntši e be molemo ka moo go ka kgonegago go motho yo mongwe le yo mongwe, go akaretša banyakišiši, diyunibesithi, ba thomago, mebušo, mekgatlo ya merero ya setšhaba, le batho ba ratago go itloša bodutu.
+faq-why-account-q = Ke le baka la'ng la go ngwadiša akhaonto?
 faq-is-account-public-q = Afa tshedimošo ya akhaonte yaka e phatlaleditšwe?
 faq-how-privacy-a = Dikarolo ka moka tša lentšu go dathasete di hlakotšwe boitsebišo bja motho. Ge moneedi a nea datha tša palo ya batho ka profaele ya bona, tsebišo yeo e itlhaotše go tšwa ditsopolwa tša lentšu pele e ka tlangwa go taneloutiwa go dathasete gomme ga go mohla e phatlalatšwa letlakaleng la boemo bja rena.
 faq-what-determine-identity-q = Go ra go reng gore ga ke kgone go "Utolla boitsebišo" ka diboledi go dathasete ya Common Voice?
@@ -635,6 +636,7 @@ number-of-voices = Palo ya Mantšu
 splits = Aroganago
 email-to-download = Tsenya E-meile go Tanelouta
 why-email = <b>Ke lebaka la eng ka e-meile?</b> Re ka hloka go ikgokaganya le wena nakong e tlago mabapi le diphetogo tša dathasete, e-meile e re fa sebaka sa go ikgokaganya.
+confirm-size = O lokišetše go thoma ka tanelouto ya <b>{ $size }</b>
 size-gigabyte = GB
 size-megabyte = MB
 download-language = Tanelouto { $language }
@@ -1161,11 +1163,27 @@ sc-add-result =
         [one] [one] Mafoko a rometšego.  { $duplicates }  lefoko le ile la ganwa ka ge e le dilo tše pedi tša go swana.
        *[other] *[other]  Mafoko a rometšego.  { $duplicates }  mafoko a ile a ganwa ka ge e le dilo tše pedi tša go swana.
     }
+# Variables:
+#   $sentences (Number) - Number of sentences which failed to be saved to the database - could be several different reasons
+sc-add-err-failed =
+    { $sentences ->
+        [0] Ga gona mafoko a paletšwego
+        [one] Lefoko le le 1 le paletšwe.
+       *[other] { $sentences } mafoko a paletšwego
+    }
 sc-add-err-submission = Phošo ya go Romela
 
 ## ADD SENTENCES CONFIRMATION
 
 sc-confirm-sentences-title = Tiišetša Mafoko a ma Mphsa
+# Variables:
+#   $countOfSentences (Number) - Number of sentences the user has filled in the submission form
+sc-confirm-sentences-found =
+    { $countOfSentences ->
+        [0] [0] Ga gona mafoko a hweditšwego
+        [one] [one] lefoko le le 1 le hweditšwe
+       *[other] { $countOfSentences } mafoko a hweditšwe
+    }
 # Variables:
 #   $countOfInvalidated (Number) - Number of sentences the user rejected in the review form before submission
 sc-confirm-rejected-by-you = { $countOfInvalidated } di ganwego ke wena
@@ -1192,6 +1210,14 @@ sc-lang-info-left-for-you =
     }
 sc-lang-info-review-now = <reviewLink>Hlahloba bjale!</reviewLink>
 sc-lang-info-add-more = <addLink>Tsenya mafoko a mangwe bjale!</addLink>
+# Variables:
+#   $rejectedSentences (Number) - Number of sentences which have been rejected for this language
+sc-lang-info-rejected =
+    { $rejectedSentences ->
+        [0] Ga gona mafoko a ganwego.
+        [one] lefoko le le 1 le ganwe.
+       *[other] { $rejectedSentences } mafoko a ganwego.
+    }
 
 ## LOGIN
 
