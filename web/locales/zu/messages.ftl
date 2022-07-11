@@ -156,6 +156,7 @@ login-identity = Umazisi wokungena
 login-signup = Ngena / Bhalisa
 email-subscriptions = Okubhaliselwe Nge-imeyili
 download-profile = Loda Idatha Yami
+contribution-experience = Umuzwa Wokufaka Isandla
 skip-submission-feedback = Yeqa Impendulo Yokuthunyelwe
 skip-submission-note = Qaphela: Usazodinga ukukhetha phakathi kokuthi Khuluma noma Lalela ukuze ushintshe uhlobo lomnikelo.
 help-accent = Udinga usizo oluthile ngokuphimisa?
@@ -240,6 +241,7 @@ about-voice-contrib-title = Ukunikela Ngezwi
 about-voice-contrib-subtitle = Abantu bafike banikele ngamaphimbo abo.
 about-voice-validation-title = Ukuqinisekiswa Kwezwi
 about-voice-validation-subtitle = Abanye abantu baqinisekisa lezo ziqeshana zezwi.
+about-dataset-release-title = Ukukhishwa kwedathasethi
 about-dataset-release-subtitle = Sikhipha idathasethi njalo ezinyangeni ezi-3.
 about-subscribe-text = Ingabe ufuna ukuhlala uxhumene ne-Common Voice?
 about-speak-text = Abanikeli baqopha iziqeshana zezwi ngokufunda ebhange lemisho enikelwe.
@@ -493,6 +495,7 @@ listen-loading-error =
     Asikwazanga ukuthola iziqeshana zomsindo ozozilalela.
     Sicela uzame futhi emuva kwesikhathi.
 speak-empty-state = Siphelelwe yimisho okumele siyiqophe ngalolu limi...
+speak-empty-state-cta = Nikela ngemisho
 speak-loading-error =
     Asikwazanga ukukutholela umusho ukuthi ukhulume.
     Sicela uzame futhi emuva kwesikhathi.
@@ -514,6 +517,7 @@ report-offensive-language = Ulimi olucasulayo
 report-offensive-language-detail = Umusho unolimi olungenanhlonipho noma olunenhlamba.
 report-grammar-or-spelling = Iphutha lohlelo lolimi / isipelingi
 report-grammar-or-spelling-detail = Umusho unephutha lohlelo noma lokubhalwa kwegama.
+report-different-language = Ulimi oluhlukile
 report-different-language-detail = Ibhalwe ngolimi oluhlukile kunalokhu engikukhulumayo.
 report-difficult-pronounce = Kunzima ukuphimisa
 report-difficult-pronounce-detail = Iqukethe amagama noma imishwana okunzima ukuyifunda noma ukuyibiza.
@@ -547,6 +551,7 @@ clips-you-recorded = Iziqeshana Oziqophile
 clips-you-validated = Iziqeshana oziqinisekisile
 todays-recorded-progress = Inqubekelaphambili yanamuhla yeCommon Voice kuziqeshana eziqoshiwe
 todays-validated-progress = Inqubekelaphambili yanamuhla yeCommon Voice kuziqeshana iqinisekisiwe
+contribution-activity = Umsebenzi Wokufaka isandla
 top-contributors = Abanikeli Abaphezulu
 recorded-clips = Iziqeshana eziqoshiwe
 validated-clips = Iziqeshana Eziqinisekisiwe
@@ -562,6 +567,7 @@ get-started-goals = Qalisa ngemigomo
 create-custom-goal = Yakha umgomo wangokwezifiso
 goal-type = Hlobo luni lomgomo ofuna ukulakha?
 both-speak-and-listen-long = Kokubili (Khuluma futhi Ulalele)
+daily-goal = Inhloso Yansuku Zonke
 weekly-goal = Injongo Yamaviki Onke
 lose-goal-progress-warning = Ngokushintsha injongo yakho, ungase ulahlekelwe inqubekelaphambili okukhona.
 want-to-continue = Ufuna ukuqhubeka?
@@ -620,6 +626,7 @@ return-to-edit-goal = Buyela lapha ukuze ushintshe injongo yakho noma nini.
 
 ## Profile Delete
 
+profile-form-delete = Susa iphrofayela
 
 ## Profile Download
 
@@ -682,6 +689,7 @@ demo-dashboard-card-header = Amadeshibhodi omuntu siqu akugcina unolwazi lwakamu
 ## Validation criteria
 
 contribution-criteria-link = Qonda imibandela yokunikela
+contribution-criteria-page-title = Imibandela Yokufaka Izandla
 contribution-criteria-page-description = Qonda ukuthi yini okufanele uyibheke lapho ulalele iziqeshana zezwi futhi usize ukwenza izwi elirekhodiwe lakho licebe kakhulu!
 contribution-for-example = ngokwesibonelo
 contribution-misreadings-description-extended-list-1 = Kushoda <strong>'A'</strong> noma <strong>'The'</strong>. ekuqaleni kokuqoshwa.
