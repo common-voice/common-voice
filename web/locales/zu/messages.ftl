@@ -23,6 +23,7 @@ ckb = Central Kurdish
 cnh = Hakha Chin
 cy = Welsh
 dsb = Sorbian, Lower
+es = Spanish
 gom = Goan Konkani
 hsb = Sorbian, Upper
 hyw = Armenian Western
@@ -43,6 +44,9 @@ quy = Quechua Chanka
 rm-sursilv = Romansh Sursilvan
 rm-vallader = Romansh Vallader
 sat = Santali (Ol Chiki)
+sk = Slovak
+sl = Slovenian
+so = Somali
 st = Southern Sotho
 sv-SE = Swedish
 sw = Swahili
@@ -84,6 +88,7 @@ zu = Zulu
 
 ## Layout
 
+speak = Khuluma
 speak-now = Khuluma manje
 terms = Imigomo
 content-license-text = Okuqukethwe kutholakala ngaphansi <licenseLink> Ilayisensi  ye-Creative Commons </licenseLink>
@@ -266,6 +271,7 @@ faq-why-mission-a = iMozilla izimisele ngokwenza iwebhu ukuba ivuleleke futhi if
 faq-what-cv-and-deepspeech-q = Uyini umehluko phakathi kweCommon Voice kanye neDeep Speech?
 faq-what-cv-and-deepspeech-a = Idathasethi yeCommon Voice ihambelana nomthombo weMozilla ovulelekile wenjini yamazwi aqoshiwe eyiDeep Speech. IDeep Speech yokuqala yakhishwa ngoNovemba waka2017, yaqhubeka nokuguquka kusukela lokho. Ngokusebenzisana nomthombo weCommon Voice, sikholwa ukuthi lo mthombo ovulelekile wobuchwepheshe bamazwi aqoshiwe kufanele ukwazi ukutholwa yiwo wonke umuntu. Siyathemba ukuthi lobuchwepheshe buzokwenza onjiniyela ukuba bakwazwi ukwakha nokusungula imikhiqizo namsevisi.
 faq-is-goal-assistant-q = Ingabe umgomo we-Common Voice ukwakha umsizi wezwi?
+faq-is-goal-assistant-a = Inhloso wedathasethi iCommon Voice ukuvumela noma ubani emhlabeni ukuthi akhe ukunakwa kwenkulumo, ukuqashelwa kwesipikha, nanoma yiluphi olunye uhlobo lohlelo lokusebenza oludinga idatha yezwi. Umsizi wezwi ungolunye lwezinhlobo eziningi zezinhlelo zokusebenza ongazisebenzisa isethi yedatha ukuze wakhe. Umgomo wedathasethi yeCommon Voice ukuvumela noma ubani emhlabeni ukuthi akhe ukunakwa kwenkulumo, ukuqashelwa kwesipikha, nanoma yiluphi olunye uhlobo lohlelo lokusebenza oludinga idatha yezwi. Umsizi wezwi ungolunye lwezinhlobo eziningi zezinhlelo zokusebenza ongazisebenzisa isethi yedatha ukuze wakhe.
 faq-do-want-native-q = Mina ngingumuntu ongeyena owomdabu futhi ngikhuluma ngendlela ehlukile, usafuna izwi lami?
 faq-why-different-speakers-q = Kungani udinga izikhulumi eziningi kangaka ezihlukene ngolimi ngalunye?
 faq-why-different-speakers-a =
@@ -318,6 +324,7 @@ about-voice-validation-subtitle = Abanye abantu baqinisekisa lezo ziqeshana zezw
 about-dataset-release-title = Ukukhishwa kwedathasethi
 about-dataset-release-subtitle = Sikhipha idathasethi njalo ezinyangeni ezi-3.
 about-subscribe-text = Ingabe ufuna ukuhlala uxhumene ne-Common Voice?
+about-speak = Khuluma
 about-speak-text = Abanikeli baqopha iziqeshana zezwi ngokufunda ebhange lemisho enikelwe.
 about-listen-queue-text = Iziqeshana zezwi zifakwa emugqeni wokuhambisa ozilungiselela ukulalelwa.
 about-listen-text = Abasebenzisi baqinisekisa ukunemba kweziqeshana ezinikelwe, behlola ukuthi isikhulumi siwufunde kahle umusho.
@@ -351,6 +358,7 @@ about-playbook-what-is-language-content-1 = { "" }
 about-playbook-how-add-language = Ngilufaka kanjani ulimi?
 about-playbook-how-add-language-translating-heading = Ukuhumusha isayithi
 about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Buka umhlahlandlela wethu wokuthi usetshenziswa kanjani iPontoon.</translateVideoLink>
+about-playbook-how-add-language-translating-content-2 = Sisebenzisa ithuluzi leMozilla elibizwa <pontoonLink>Pontoon</pontoonLink> lokuhumusha. IPontoon inezilimi eziningi, kodwa uma elakho lingekho ungs <pontoonRequestLink>cela ulimi lakho lwengezwe</pontoonRequestLink>. Ukwenza ulimi lakho lutholakale kwiprojekthi yeCommon Voice, <githubRepoLink>cela ulimi olusha kuGitHub</githubRepoLink>. <localizationFragment>Bheka okunye ngokuhumusha</localizationFragment>.
 about-playbook-how-add-language-collecting-sentences-heading = Ukuqoqa imisho
 about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>Bukela umhlahlandlela wethu wokusebenzisa Umqoqi Wemisho</sentenceCollectorVideo>.
 about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>Bona okwengeziwe ngokuqoqwa kwemisho</sentenceCollectorFragment>.
@@ -359,6 +367,7 @@ about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollec
 
 about-playbook-how-localize = Ngabe i-localization yesayithi isebenza kanjani?
 about-playbook-how-localize-content-1 = Ukuhunyushwa kwesayithi le-Common Voice kwenzeka <strong>e-Pontoon</strong>.
+about-playbook-how-localize-content-3 = Ukumusha kusuka esiNgisini, kodwa uyabona <strong>Iziphakamiso</strong> kwezinye izilimi. Cindezela u<strong>Profayili</strong>isithonjana, bese <strong>izilungiselelo</strong> ukuxhumanisa nokwengeza ezinye izilimi ozikhulumayo. Ekhoneni elingenzansi kwesokudla, kunohlu lwemihumusho ebizwa <strong>Locales</strong>. Imihumusho izobonakala kusayithi emuva kosuku ololodwa.
 about-playbook-how-localize-content-4 = Isayithi lizolungela ukwethulwa uma sesifinyelele ekuqedweni okungu-75%.
 about-playbook-how-localize-content-5 = Buka umchazi wethu wevidiyo ukuze usize
 
@@ -555,6 +564,7 @@ language-validation-progress = Inqubekelaphambili Yokuqinisekisa
 ## Contribution
 
 action-tap = Thepha
+skip = Yeqa
 clips-with-count-pluralized =
     { $count ->
         [one] <bold>{ $count }</bold> Isiqeshana
@@ -914,6 +924,9 @@ sc-my-no-sentences = Ayikho imisho etholakele!
 # Variables:
 #   $batchId (String) - A unique ID identifying the submission of sentences - sentences uploaded together all have the same batch ID
 sc-my-submission = Okuthunyelwe: { $batchId }
+# Variables:
+#   $source (String) - Associated source the user filled out when uploading the sentence
+sc-my-source = Umthombo: { $source }
 sc-my-delete = Susa imisho ekhethiwe
 sc-my-deleting = Susa imisho ekhethiwe...
 sc-my-err-failed-delete = Yehlulekile ukususa imisho ekhethiwe… Sicela uzame futhi!
@@ -1097,6 +1110,9 @@ sc-review-select-language = Sicela ukhethe ulimi ozobuyekeza imisho.
 sc-review-no-sentences = Ayikho imisho ezobuyekezwa. <addLink>Engeza eminye imisho manje!</addLink>
 sc-review-form-prompt =
     .message = Imisho ebuyekeziwe ayithunyelwanga, uqinisekile?
+# Variables:
+#   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
+sc-review-form-source = Umthombo: { $sentenceSource }
 # Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
 sc-review-form-button-approve-shortcut = Y
 sc-review-form-keyboard-usage-custom = Ungasebenzisa futhi Izinqamuleli Zekhibhodi: { sc-review-form-button-approve-shortcut } ukuze Ukugunyaza, { sc-review-form-button-reject-shortcut } Ukunqaba, { sc-review-form-button-skip-shortcut } Ukweqa
