@@ -9,3 +9,4 @@ get-involved-stayintouch = Hina a Mozilla hi le ku akeni ka muganga wa vaaki ku 
 get-involved-privacy-info = Hi tshembisa ku khoma rungula ra wena hi vukheta. Hlaya swo tala eka <privacyLink>Xitiviso xa Vuhlayiseki</privacyLink> ya hina.
 get-involved-success-title = U tsarisile hi ndlela leyi humelelaka ku hoxa xandla eka { $language }. Inkomu.
 get-involved-success-text = Hi ta tihlanganisa na vuxokoxoko byo tala loko byi ri karhi byi kumeka.
+get-involved-return-to-languages = Vuyela eka Tindzimi
