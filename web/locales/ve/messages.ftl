@@ -49,6 +49,7 @@ email-subscription-title-new = Ḓiṅwaliseni uri ni wane maswa maswa a Common 
 
 rich-data = Itani uri zwe na rumela zwi vhe zwi zwa khwine-khwine nga u rumela zwidodombedzwa zwa tshiphiri zwa uri ni bva ngafhi. Ri ita uri zwenezwi zwidodombedzwa zwi bviswe sa zwe zwa rumelwa zwi sa athu ya vhathuni.
 improve-audio = Zwidodombedzwa zwa profaiḽi zwi khwinisa data ya odio ine ya shumiswa u gudisa zwa u ḓivha ipfi nga nḓila kwayo.
+keep-track = Dzulani ni tshi sedza mvela phanḓa yaṋu na zwe na khunyedza kha nyambo dzo fhambananaho.
 compare-progress = Vhonani uri mvela phanḓa yaṋu i hani ni tshi i vhambedza na ya vhaṅwe vho nikelaho u mona na shango ḽoṱhe.
 join-newsletter = Ni nga khetha u vha tshipiḓa tsha vha re kha mutevhe wa email dzashu vhane vha wana apudeiti na mafhungo maswa maswa nga ha yeneyi thandela.
 
@@ -70,6 +71,11 @@ username-email-not-demographic = Username yaṋu na email a zwi nga paṱekanyis
 
 ## ProjectStatus
 
+status-hours =
+    { $hours ->
+        [one] [one] Awara nthihi yo khwaṱhisedzwa u swika zwino!
+       *[other] *[other] { $hours } dzi awara dzo khwaṱhisedzwaho u swika zwino!
+    }
 
 ## ProfileForm
 
@@ -204,6 +210,7 @@ about-playbook-how-record-content-4 = Ivhani na vhungoho ha uri thulusi i ne na 
 
 ## How to grow language
 
+about-playbook-how-grow-language = Ri nga ita hani uri luambo lu hule nga nḓila i bvelelaho kha Common Voice?
 about-playbook-how-grow-language-content-1 = U ita zwikhala zwa uri vhathu vho fhambananaho vha kone u shela mulenzhe kha Common Voice zwi ita uri dataset i shumele vhathu vhanzhi nga hune zwa nga konadzea ngaho. Ro ita zwithu zwine na nga zwi shumisa na dzi themphuḽethi!
 about-playbook-how-grow-language-content-3 = Ni nga ita na mutambo wa u thusa vhathu uri vha shele mulenzhe. Zwenezwi zwo leluwa. Ni nga zwi ita muyani nga zwishumiswa zwa videoconferentsi, kana nga ho livhaho ni tshi khou vhonana na vhatu arali zwo tsireledzea. <eventTemplate>Ni vhone themphuḽeithi yashu na zwithu zwa uri hu vhe na mutambo</eventTemplate>.
 about-playbook-how-grow-language-content-5 = Ni nga shumisa social media platforms u itela u ḓivhadza vhaṅwe nga ha zwenezwi. Vha rumeleni milaedze i ṱalutshedzaho uri ndi ngani zwi zwa ndeme, nahone ni kwamane na vhaṅwe uri ni kone u amba navho nga ha pfanelo dza dzi nyambo, voice AI, kana tshiṱalula tshi re hone kha zwishumiswa zwa thekhinolodzhi. Vhonani nyeletshedzo dzo engedzeaho nga ha <campaignLink>u ita dzi campaign, na u vhona mafhungo ane na nga dovha na a shumisa </campaignLink>.
@@ -212,6 +219,7 @@ about-playbook-how-grow-language-content-8 = <strong>Ivhani na Vhutsila!</strong
 
 ## How to validate
 
+about-playbook-how-validate = Ndi nga zwi ḓivha hani uri zwo rekhodiwaho ndi zwi phasise?
 about-playbook-how-validate-content-1 = Arali ni tshi kona u <strong>vha pfa</strong> na<strong>u vha pfesesa</strong>, kanzhi <strong>zwo tea u amba uri ndi yone-yone</strong>.
 about-playbook-how-validate-content-2 = <strong>Ni songo hana zwo rekhodiwaho ngauri muambi u na ‘kuambele’ kune ku si fane na kwaṋu </strong> - zwenezwi ndi zwa ndeme arali ri tshi ṱoḓa uri zwishumiswa zwa u ḓivha ipfi zwi shume khwine kha vhathu vhoṱhe.
 about-playbook-how-validate-content-3 = Arali ni tshi humbula uri kubulele kwa maipfi ku ita uri <strong>zwi konḓe u pfana</strong>, kana hu na <strong>phosho ine ya khou pfala</strong>, kana hu na <strong>vhaṅwe vhathu vhane vha khou amba </strong>, zwenezwi zwi ḓo ita uri ni si ṱanganedze zwo rekhodiwaho. <accuracyLink>Vhonani zwinzhi nga ha nḓila ine ra vhona uri zwithu zwo tea </accuracyLink>.
@@ -296,6 +304,7 @@ request-language-explanation-1 =
      u ṱalutshedza uri luambo lwaṋu lu nga dzheniswa hani </strong>.
 request-language-explanation-2 = Ri ḓo <strong>vhudza minidzhere wa vhadzulapo vha vhuponi haṋu uri ni na dzangalelo ḽa hezwi</strong>, u itela uri vha ni tikedze kana u ni vhudza mafhungo ane na nga a ṱoḓa.
 request-language-form-info-explanation = Pangani mafhungo manzhi nga hune na nga kona nga ha holwu luambo. Zwenezwi zwi katela:
+request-language-form-info-explanation-list-3 = Ḽinki dza website dzine dza nga ri thusa u pfesesa luambo
 request-language-success-list-1 =
     Ni tea u wana email hu si kale ine ya ḓo ni ṱalutshedza
      maga ane a tea u dzhiiwa uri hu pangiwe luambo lwaṋu kha Commn Voice
@@ -339,6 +348,7 @@ visibility-overlay-note = Ṱhogomelani hezwi: Musi yo setiwa kha u 'Vhonala', h
 
 ## Custom Goals
 
+lose-goal-progress-warning = Nga u editha tshipikwa tshaṋu, ni nga xelelwa nga mvela phanḓa ya zwe na zwi ita.
 help-reach-hours-general-pluralized =
     { NUMBER($hours) ->
         [one] Thusani Common Voice u swikelele { $hours } awara kha luambo nga tshipikwa tshe muthu a ḓivhetshela
@@ -365,6 +375,7 @@ download-recordings-info = Zwi katela mp3 na mitaladzi i tshimbidzanaho nadzo, z
 download-recordings-unavailable = Ni nga si kone u humbela zwe na rekhoda ngeno hu tshi kha ḓi vha na zwiṅwe zwe na zwi humbela zwi re nḓilani.
 download-recently-requested = Ni nga humbela uri ni dzhie zwe na rekhoda { $days } ḓuvha ḽiṅwe na ḽiṅwe.
 download-requests-info = Musi ni tshi humbela zwe na rekhoda, ri zwi panga kha faela ya ZIP nthihi kana nnzhi. Khumbelo dzaṋu dza tshifhinga tsho fhiraho khedzi:
+download-request-assembling-description = Faela dzaṋu dzi khou dzudzanyiwa. Sedzani hafhu hu si kale.
 download-request-link-single = Ni nga kopa u ṋambatedza nga ho livhaho kha URLs u ya kha hune na ṱoḓa uri zwe na downḽouda zwi dzule hone. Zwi ḓo fhelelwa nga tshifhinga nga murahu ha awara dza 12, fhedzi ni nga dovha na vhuyelela kha ḽeneḽi siaṱari uri ni dovhe ni ite dziṅwe nga tshifhinga tshine na funa.
 
 ## Landing
@@ -398,8 +409,10 @@ demo-dashboard-card-body = Kha kupiḓa kuṅwe na kuṅwe kwa ipfi kwo nikeliwa
 
 contribution-criteria-page-description = Pfesesani uri hu ṱoḓea mini musi ni tshi thetshelesa zwo rekhodiwaho u itela uri zwi ni thuse u rekhoda ipfi ḽaṋu nga nḓila yavhuḓisa.
 contribution-misreadings-description = Musi no thetshelesa, ni sedze zwavhuḓi uri zwo rekhodiwaho zwi fana na zwo ṅwaliwaho kokotolo; ni hanele zwo rekhodiwa arali hu na vhukhakhi naho vhu vhuṱuku. <br />Vhukhakhi ho ḓoweleaho vhu katela:
+contribution-misreadings-description-extended-list-1 = Ho shotha <strong>'A'</strong> kana <strong>'The'</strong> mathomoni a zwo rekhodiwaho.
 contribution-misreadings-description-extended-list-3 = U vhala zwithu zwi si hoho, sa tsumbo "we're" nṱhani ha "we are" kana vaisa versa.
 contribution-misreadings-description-extended-list-4 = Ho shotha ipfi ḽa u fhedzisela ngauri rekhodo yo khathuwa ngau ṱavhanya
+contribution-misreadings-example-3-explanation = [Zwo rekhodiwaho zwo khathuwa ipfi ḽa u fhedza ḽi sa athu fhelela]
 contribution-varying-pronunciations-description = Ni ṱhogomele uri ni sa ri zwo rekhodiwaho a si zwone nga ṅwambo wa uri muvhali ha ngo bula zwavhuḓi ipfi, kana o ombedzela fhethu hu si hone, kana khamusi o litsha u vhala tshiga tsha u vhudzisa. Hu na kubulele kwa maipfi kwo fhambananaho u mona na shango, kuṅwe kwa hone khamusi a ni athu u ku pfa vhuponi ha haṋu. Ri humbela uri ni ṱanganedze vhane vha amba nga nḓila yo fhambanaho na yaṋu.
 contribution-varying-pronunciations-description-extended = Kha ḽiṅwe sia, arali ni tshi vhona u nga muvhali ha athu vhuya a ṱangana na iḽo ipfi, nahone ho tou humbulelwa kubulele kwaḽo, ni songo zwi tendela. Arali ni si na vhungoho, shumisani gunubu ya u pfuka.
 contribution-varying-pronunciations-example-1-explanation = [‘Beret’ ḽo luga hu si na ndavha uri ḽo ombedzelwa kha dungo ḽa u thoma (UK) kana kha dungo ḽavhuvhili (US]
@@ -444,6 +457,7 @@ sc-howto-cite-pre-1 = Ndi zwa ndeme uri ni sumbedze referentsi ya he na wana hon
 sc-howto-cite-item-1 = Ni nga katela na website, e.g "Common Voice - https://commonvoice.mozilla.org/"
 sc-howto-cite-item-2 = Ni nga shumisa tshi taela tsha academic ni tshi ita dzi referentsi, sa tsumbo Harvard style "Mozilla (2021) Common Voice. Zwi wanala kha https://commonvoice.mozilla.org/ (Accessed: 15th Khumbvumedzi 2021)"
 sc-howto-cite-item-3 = Arali zwo ṅwalwaho zwa fhethu ha tshitshavha tshoṱhe zwi si ho onḽaini, ni nga shumisa tshitaela tsha academic reference. Sa tsumbo, Harvard style "Jess (2021) My Public licence poems"
+sc-howto-review-criteria-4 = Arali mutaladzi u tshi swikelea ṱhoḓea, puṱedzani bathene ya u "Phasisa".
 sc-howto-review-criteria-5 = Arali mutaladzi u sa swikeleli ṱhoḓea dzi re afho nṱha, puṱedzani gunubu ya "Hana". Arali ni si na vhungoho ha uri mutaladzi a si wone, ni nga u pfukha na pfukela kha u no khou tevhela..
 sc-howto-review-criteria-6 = Arali na fhelelwa nga mitaladzi ya u ṱolisisa, ri humbela uri ni ri thuse nga u kuvhanganya miṅwe mitaladzi minzhi!
 sc-howto-findpd-text-2 = Ni humbule uri ri ṱoḓa tendelo uri ri anḓadze yeneyo mitaladzi, ni dzule ni tshi ita vhungoho ha uri zwo ṅwalwaho ndi zwa <wikipediaLink>fhethu ha tshitshavha tshoṱhe</wikipediaLink>. Arali hu songo bvelwa khagala, vhudzisani muṋe wazwo arali a tshi ṱoḓa uri zwe a shela ngazwo mulenzhe zwi anḓadzwe Fhethu ha Tshitshavha Tshoṱhe. Arali vha tshi zwi takalela, vha thuseni uri vha vhale <cc0WaiverLink>Thendelo ya Vhashelaho mulenzhe</cc0WaiverLink>. Arali vha sa ṱoḓi u nikela nga zwo ṅwaliwaho, a no ngo tendelwa u shumisa zwo ṅwaliwaho.
