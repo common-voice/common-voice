@@ -369,6 +369,10 @@ change-email-setings = Fetola email ya hao ka Ditlhophiso tlasa Boitsebiso ba ho
 faq-title = Dipotso Tse Botswang Kgafetsa
 faq-what-cv-q = Common Voice ke Eng?
 faq-why-important-q = Ke hobane'ng ha e le ya bohlokwa?
+faq-why-important-a =
+    Puo hangata ke tsela ya tlhaho eo re buisanang mmoho ka eona mme dithekenoloji tsa lentswe di tlisa boiketlo boo ba puisano ho dik'homphuta le disebediswa tsa mohala tsa rona. Re batla ho matlafatsa batho ba ntlafatsang ho haha disebediswa tse hlollang tse elellwang lentswe jwaloka bafetoledi ba nako ya nnete le bathusi ba digital ba sebetsang ka lentswe. Empa hajwale boholo ba data ya lentswe e hlokahalang ho haha disebediswa tsa mofuta ona e ya tura mme e ruilwe ke batho ba itseng. Re tshepa hore pokello ya data ya Common Voice e tla fa bahahi ba marang-rang seo ba se hlokang ho qapa le ho etsa thekenoloji ya puo e fumanehe ka puo tseo e leng tsa bona. 
+    
+    Ho etsa hore thekenoloji e elellwang lentswe e pharalle le lefatshe, re ntse re bokella mehlala ya mantswe dipuong tse buuwang haholo mmoho le ho dipuo tse buuwang ke ditjhaba tse fokolang ka palo tseo hangata di nyenyefatswang ke dikgwebo tse fanang ka ditshebeletso tsa thekenoloji e elellwang puo.
 faq-how-get-q = Ebe nka fumana data ya Common Voice jwang?
 faq-why-my-lang-q = Ke hobane'ng ha puo ya ka e so kenyeletswe?
 faq-why-10k-hours-q = Hobaneng dihora tse 10,000 tse netefaditsweng e le sepheo sa puo ka nngwe ya ho nka audio?
@@ -439,6 +443,7 @@ about-playbook-how-localize-content-5 = Shebella setsebi sa rona sa video ho o t
 ## How to add sentences
 
 about-playbook-how-add-sentences = Ke kenya dipolelo jwang?
+about-playbook-how-add-sentences-content-3 = O ka sebedisa <scraperLink>Sesebediswa se hulang dipolelo</scraperLink> ho sebedisa dipolelo tse kgutshwanyane ho tloha Wikipedia.
 
 ## How to record quality
 
@@ -470,6 +475,7 @@ about-playbook-how-project-governance-content-7 = <governanceLink>Bala haholwany
 
 glossary = Bukana ya mantswe
 sentence-collection = Pokello ya Dipolelo
+hours-recorded-explanation = Palo ya dihora tsa ho rekota lentswe tseo re di bokeletseng ho fihlela jwale.
 sst = Puo-ho-sengolwa (STT)
 de-identified = E tlositsweng dintlha tsa botho
 
@@ -497,6 +503,7 @@ review-terms = Ka ho sebedisa Common Voice, o dumellana le <termsLink>Dipehelo</
 terms-agree = Kea dumela
 terms-disagree = Ha ke dumele
 review-submit-title = Hlahloba mme o Kenye
+review-submit-msg = Rea leboha ka ho rekota!<lineBreak></lineBreak>Jwale hlahloba mme o romelle di-clip tsa hao ka tlase.
 review-recording = Hlahloba
 review-rerecord = Rekota hape
 review-cancel = Hlakola ho Romela
@@ -759,6 +766,7 @@ download-profile-title = Profaele
 download-profile-size = Di-byte tse mmalwa
 download-recordings-title = Direkoto
 download-recordings-size = Ka tlwaelo ke megabytes
+download-recently-requested = O ka kopa ho direkoto tsa hao ka mora a mang le a mang { $days } matsatsi.
 download-size = Boholo
 download-selected = E kgethilwe
 download-start = Download-a data ya profaele
@@ -956,6 +964,14 @@ sc-confirm-uploading = Dipolelo di ntse di kenngwa. Sena se ka nka metsotso e mm
 
 sc-lang-info-title-total = Kakaretso
 sc-lang-info-title-personal = Tsa botho
+# Variables:
+#   $totalInReview (Number) - Number of sentences currently in the review state for this language
+sc-lang-info-in-review =
+    { $totalInReview ->
+        [0] Ha ho dipolelo tse hlahlobuweng.
+        [one] Polelo e 1 e hlalobuweng.
+       *[other] { $totalInReview } dipolelo tse ntsengdi hlahlojwa.
+    }
 sc-lang-info-review-now = <reviewLink>Hlahloba hona jwale!</reviewLink>
 
 ## LOGIN
