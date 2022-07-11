@@ -174,6 +174,10 @@ about-playbook-what-is-language-content-3 = Ezinye iilwimi zinoguquko olukhulu k
 
 ## How do I add a language
 
+about-playbook-how-add-language-content-1 =
+    Okokuqala, khangela ukuba ulwimi lwakho <languageLink>selukhona na</languageLink>.
+    Ukuba akunjalo, unako <languageRequestLink>ukubuza malunga nokongeza ulwimi lwakho</languageRequestLink>.
+    Kukho izigaba ezibini. Isayithi yokuguqulela, kunye nokuqokelela izivakalisi.
 about-playbook-how-add-language-translating-content-2 =
     Sisebenzisa isixhobo seMozilla esibizwa <pontoonLink>Pontoon</pontoonLink> ukuguqulela. IPontoon ineelwimi ezininzi,
     kodwa ukuba ayinayo eyakho unga <pontoonRequestLink>cela ukuba ulwimi lwakho longezwe</pontoonRequestLink>.
@@ -241,6 +245,7 @@ de-identified-explanation = Inkqubo apho ulwazi lweprofayile yomntu owenze ugale
 
 ## Error pages
 
+error-content-404 = Mhlawumbi <homepageLink>i-homepage</homepageLink> iya kunceda? Ukubuza umbuzo, nceda ujoyine <matrixLink>Ingxoxo ye-Matrix yoluntu</matrixLink>, jonga imiba yesayithi usebenzisa <githubLink>iGitHub</githubLink> okanye undwendwele <intethoLink>iiforum zethu zeNtetho</discourseLink>.
 error-content-503 = Isaythi iyakubuyiselwa ngokukhawuleza. Ngolwazi lwamva nje, nceda ujoyine <matrixLink>Ingxoxo yeMatrix yasekuhlaleni</matrixLink> okanye undwendwele <githubLink>i-GitHub</githubLink> okanye <discourseLink>iiforam zethu zeNtetho</discourseLink> ukuze ungenise kwaye ujonge imiba yamava esayithi.
 
 ## Data
@@ -260,6 +265,7 @@ datasets-positioning =
     Sikholelwa ukuba iiseti ezinkulu zedatha zelizwi, ezifumanekayo kuwonke-wonke ziya kukhuthaza ukusungula izinto ezintsha kunye nokhuphiswano olusempilweni lwentengiso kumatshini wokufunda ngokusekwe kubuchwepheshe bentetho.
     I-datasethi yeelwimi ezininzi zeCommon Voice sele iyeyona inkulu ifumanekayo ku wonke-wonke, kodwa ayisiyiyo yodwa.
     Jonga kweli phepha njenge salathisi sezinye iiseti zedatha zezwi ezivulekileyo kwaye, njengoko iCommon Voice iqhubeka ikhula, indawo yokukhupha iindaba ezintsha zethu.
+why-email = <b>Kutheni kudingeka imeyile nje?</b> Kusenokufuneka siqhagamshelane nawe kwixesha elizayo malunga notshintsho kwi dataset, i-imeyile isinika indawo yoqhagamshelwano.
 confirm-no-identify = <b>Uyavuma</b> ukungazami ukumisela izazisi zezithethi kwidatha seti yeCommon Voice
 dataset-description-hours =
     Ungeniso  ngalunye kwidathasethi liquka iMP3 eyodwa kunye nefayile yombhalo ehambelana nayo. Uninzi <b>{ $total }</b> lweeyure ezirekhodiweyo kuluhlu lwedatha zikwaquka idatha yedemografi efana neminyaka, isini, kunye ne-accent enokunceda ukuqeqesha ubunyani kweenjini zokuqaphela intetho. 
@@ -470,6 +476,7 @@ sc-howto-review-criteria-5 = Ukuba isivakalisi asihambelani nale migaqo ingasent
 sc-howto-review-criteria-6 = Ukuba uphelelwa zizivakalisi zokuphonononga, nceda usincede siqokelele izivakalisi ezininzi!
 sc-howto-findpd-text-2 = Ukwenza i-Common Voice dataset ibe luncedo kangangoko siye sagqiba ukuvumela kuphela i- source text ekhoyo phantsi kwelayisensi ye-Creative Commons (CC0) Ukusebenzisa umgangatho weCC0 kuthetha ukuba kunzima kakhulu ukufumana nokuqokelela i-source text, kodwa ivumela nabani na ukuba asebenzise isiphumo sedatha yelizwi ngaphandle kwezithintelo zosetyenziso okanye isigunyaziso esivela kwiMozilla. Ekugqibeleni, sifuna ukwenza iseti yedatha yeelwimi-ngeelwimi ibe luncedo kangangoko kumntu wonke, ukubandakanywa abaphandi, iiyunivesithi, iziqalo (start-ups), oorhulumente, imibutho yeenjongo zentlalo, kwakunye nabo bathanda izinto zokuzonwabisa.
 sc-howto-findpd-tips-1 = Eyona mithombo ilungileyo onokuthi uyijonge ziipodcasts, imibhalo ekhutshelweyo, izikripthi zemuvi kunye nantoni na enokuthi iqulathe iincoko zemihla ngemihla.
+sc-howto-findpd-tips-2 = Iinkqubo zikaRhulumente, iincwadi kunye namanqaku nazo zilungile nangona kunjalo njengoko umbhalo uthandeka ukuba usesikweni olohlotyana kodwa awubalulekanga kangako.
 sc-howto-findpd-tips-3 = Ngelishwa asikwazi ukuba namanqaku e-Wikimedia okwangoku.Ngoko ke musa ukukopa uncamathisele ukusuka apho.
 sc-howto-findpd-partner-1 = Kukho imibutho emininzi yoluntu enokufuna ukusebenzisana kwaye sele inemibhalo eminintsi enokunikela ngayo kuluntu luka wonke-wonke. Fikelela kwiiyunivesithi ezikungqongileyo, ooRhulumente kunye nemibutho evulelekileyo yokuthetha ngale projekthi kwaye ucele uncedo lwabo.
 sc-howto-findpd-partner-2 = Iingcaphephe zolwimi nazo zinganceda, zizame ukufikelela kwiiyunivesithi zeelwimi zasekuhlaleni (ootitshala nabafundi) kwaye zibone ukuba zinganceda na ekuqokeleleni iseti yezandi ezahlukeneyo zezivakalisi kulwimi lwakho.
