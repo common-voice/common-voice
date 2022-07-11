@@ -79,6 +79,14 @@ no-clips-to-validate = Go lebega go se na dikgatiso dipe tse di tlhokang go reed
 speak-paragraph = Go rekota mantswe ke karolo e e botlhokwa thata e e thusang go aga rekoto ya tshedimosetso; ba bangwe ba ka re gape ke karolo e e itumedisang.
 listen-paragraph = Go tlhomamisa dikgatiso tse di abilweng le gone go botlhokwa mo maikaelelong a Common Voice. Reetsa mme o re thuse go dira tshedimosetso e e nang le boleng ya mantswe.
 all-locales = Tsotlhe
+x-years-short =
+    { $count ->
+        [one]
+            "{ $count ->
+               *[other] { $count }y
+            }"
+       *[other] { "" }
+    }
 email-subscription-title-new = Ikwadisetse go amogela makwalodikgang a Common Voice, dikgopotso tsa maikaelelo le ditlhabololo tsa kgatelopele
 
 ## Account Benefits
@@ -129,6 +137,7 @@ help-variants-explanation = Dipuo ke mofuta o o rileng wa leleme - ka sekai, le 
 
 ## Profile - Email
 
+max-file-size = { $kb }kb bogolo
 
 ## Profile - Email
 
@@ -558,6 +567,7 @@ sc-confirm-uploading = Mela e a tsenngwa. Seno se ka tsaya metsotso e le mmalwa 
 
 ## LANGUAGE INFO
 
+sc-lang-info-title-total = Palogotlhe
 # Variables:
 #   $totalInReview (Number) - Number of sentences currently in the review state for this language
 sc-lang-info-in-review =
