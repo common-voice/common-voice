@@ -278,6 +278,11 @@ x-months-short =
         [one] { $count }mo
        *[other] { $count }mo
     }
+x-years-short =
+    { $count ->
+        [one] { "" }
+       *[other] { $count }y
+    }
 help-make-dataset = Sisite kwakha i-datset lesezingeni lelisetulu futsi lengatfolwa sive sonkhe.
 sign-up-account = bhalisela kuvula i-account
 email-subscription-title = bhalisela tindzaba letihamba embili ngeliposi lembane
@@ -326,6 +331,7 @@ shortcut-vote-no = n
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-record-toggle = r
 shortcut-record-toggle-label = Tfwebula/Mani
+shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Tfwebula kabusha sicephu
 shortcut-discard-ongoing-recording = ESC
 shortcut-discard-ongoing-recording-label = Lahla sicephu lesisatfwebulwa
