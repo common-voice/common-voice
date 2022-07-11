@@ -5,6 +5,7 @@ stayintouch = Thina kwaMozilla sakha uluntu malunga neteknoloji yelizwi. Singath
 privacy-info = Sithembisa ukuphatha ulwazi lwakho ngenkathalo. Funda ngakumbi kwi <privacyLink>Sazisi sabucala</privacyLink> yethu.
 email-opt-in-info = Ndingathanda ukufumana ii-imeyile ezifana nezikhumbuzi zenjongo, uhlaziyo lwam lwenkqubela phambili kunye neeleta zeendaba malunga neCommon Voice.
 email-opt-in-info-sub-with-challenge = Fumana ii-imeyile ezinjengomngeni kunye nezikhumbuzi zenjongo, uhlaziyo lwenkqubela phambili, kunye neeleta zeendaba malunga neCommon Voice.
+email-opt-in-privacy-v2 = Ngokuvuma ukufumana iimeyile uyavuma ukuba kulungile noMozzilla aphathe olu lwazi njengoko kucacisiwe kwi Mozzilla <privacyLink>Umgaqo-nkqubo wabucala</privacyLink>.
 banner-error-slow-1 = Uxolo, iCommon Voice isebenza ngokucotha. Enkosi ngomdla wakho.
 banner-error-slow-2 = Sifumana itrafiki eninzi kwaye ngoku siphanda le iingxaki.
 
@@ -39,10 +40,12 @@ wall-of-text-second =
 help-us-explain = Cinezela dlala, mamela kwaye usixelele: ngaba basithetha ngokuchanekileyo esi sivakalisi singezantsi?
 no-clips-to-validate = Kubonakala ngathi akukho zikliphu zokumamela kolu lwimi. Sincede sigcwalise umgca ngokurekhoda ezinye ngoku.
 speak-paragraph = Ukurekhoda iikliphu zelizwi yinxalenye yolwakhiwo lwedatha yethu evulekileyo; abanye bangathi yeyona nto imnandi.
+listen-paragraph = Ukuqinisekisa iikliphu ezinikezelweyo kubalulekile ngokulinganayo kwimishini yeCommon Voice. Phulaphula kwaye usincede senze idatha yelizwi esemgangathweni
 email-subscription-title-new = Bhalisela iindaba zeCommon Voice, izikhumbuzo zenjongo kunye nohlaziyo lwenkqubela phambili
 
 ## Account Benefits
 
+rich-data = Yenza idatha yakho engenisiweyo ityebe kangangoko ngokunikezela ngedatha yedemografi engaziwa. Asiyichongi yonke idatha yedemografi phambi kokuba siyenze ifumaneke ku-wonke-wonke.
 improve-audio = Ulwazi lweprofayili luphucula idatha ye-audio esetyenziswe ekwaluleni intetho yokuqatshelwa kwentetho.
 keep-track = Gcina umkhondo wenkqubela phambili yakho kunye nee-metrikhi kuzo zonke iilwimi ezininzi.
 compare-progress = Jonga ukuba inkqubela yakho ithelekiswa njani nakwabanye abanikeli kwihlabathi liphela.
@@ -81,6 +84,7 @@ profile-explanation = Gcina umkhondo wenkqubela yakho ngeprofayile kwaye uncede 
 thanks-for-account = Enkosi ngokuqinisekisa i-akhawunti yakho, ngoku masikhe iprofayile yakho.
 why-demographic-explanation-2 = Iincukhaca ezingachazwanga njengeminyaka, isini, kunye ne- accent zinceda ukuphucula idatha yesandi esetyenziswayo ukuqeqesha ukuchaneka kweenjini zokuqondwa kwentetho. Igama lomsebenzisi lakho kunye ne-imeyile soze linxulunyaniswe nedatha oyingenisileyo, kwaye unokukhetha ukuba wenze igama lomsebenzisi lakho lifikelele ku-wonke wonke okanye lingaziwa.
 accept-privacy = Ndilungile ngokuphatha olu lwazi njengoko luchazwa <privacyLink>Kumgaqo-nkqubo</privacyLink> weMozilla
+skip-submission-description = Ngexesha lokungeniswa kogalelo ingxelo iya kutsitywa emva kokucofa u-'Thumela'. Ugalelo luya kuqhubeka ngokuthe ngqo kunye nesethi elandelayo yorekhodo oluhlanu okanye ukuqinisekiswa.
 skip-submission-note = Qaphela: Kusafuneka ukhethe phakathi kokuThetha okanye ukuMamela ukutshintsha uhlobo lomnikelo.
 help-accent-explanation = I-accent yakho yindlela owabiza ngayo amagama. Inokubunjwa yindawo obuhlala kuyo, ezinye iilwimi ozithethayo kunye nezinye izinto ezininzi. Ungabelana ngalo naluphi na ulwazi ocinga ukuba lufanelekile apha.
 help-variants-explanation = Ukwahluka-hlukana kulwimi luhlobo oluthile lolwimi- umzekelo ekwabelwana ngawo ngabo bahlala kummandla okanye kwindawo enye. Ngamanye amaxesha ezi zibizwa ngokuba zii-dialects
@@ -143,6 +147,7 @@ faq-description = Icommon Voice yinxalenye yenyathelo likaMozilla lokunceda ukuf
 about-header-description-v2 =
     <p>I-Common Voice yidatha yelizwi ekhoyo kuwonke-wonke, inikwa amandla ngamazwi wabaxhasi avolontiyayo kwihlabathi liphela. Abantu abafuna ukwakha i-apps zelizwi banokusebenzisa idataset ukuqeqesha omatshini abafundayo (machine learning models).</p>
     </p>Okwangoku, uninzi voice datasets zezenkampani, ezithintela ukuqamba izinto ezintsha. Voice datasets nazo azimelanga: abantu abangathethi siNgesi, abantu bebala, abantu abakhubazekileyo, abafazi kunye nabantu beLGBTQIA+. Oku kuthetha ukuba itekhnoloji eyenziwe ngelizwi ayisebenzi kwaphela kwiilwimi ezininzi, kwaye apho isebenza khona, isenokungasebenzi ngokulinganayo kumntu wonke. Sifuna ukuyitshintsha loo nto ngokuhlanganisa (moilize) abantu kuyo yonke indawo ukuba babelane ngelizwi labo (to share their voice).</p>
+how-does-it-work-text = Sithumela isethi yedatha evulekileyo yamazwi. Nikela ngelizwi lakho, qinisekisa ukuchaneka kweeklip zabanye abantu, yenza iseti yedatha ibengcono kumntu wonke.
 
 ## How does it work section
 
@@ -319,6 +324,7 @@ request-language-error = Kusenokwenzeka ukuba asisifumananga eso sicelo.Nceda us
 ## Languages Overview
 
 language-section-in-progress-new-description = Ezi lwimi ngoku ziphantsi kophuhliso loluntu. <localizationGlossaryLink> i-localization yeWebhusayithi</localizationGlossaryLink> kwaye <sentenceCollectionGlossaryLink> ukuqokelelwa kwezivakalisi</sentenceCollectionGlossaryLink> kuyadingeka ukuqaliswa.
+language-section-launched-description = Kwezi lwimi ziqaliweyo iwebhusayithi iye yasebenza ngempumelelo <localizationGlossaryLink>localized</localizationGlossaryLink>, kwaye inokwanela <sentenceCollectionGlossaryLink>izivakalisi eziqokelelweyo</sentenceCollectionGlossaryLink> ukuvumela ukuqhubeka<speakLink>Speak</speakLink> kwaye <listenLink> iminikelo</listenLink>.
 
 ## Contribution
 
@@ -377,6 +383,7 @@ goal-share-text = Ndisandula ukwenza injongo yam yokunikela ngelizwi kwi #Common
 
 ## Profile Delete
 
+delete-q = Ingaba ungathanda ukucela ukuba ushicilelo lwelizwi lakho lucinywe, okanye ukhetha ukuzigcina kwiseti yedatha ye Common Voice?
 keep-info = Ushicilelo lwakho lwelizwi olungachazwanga luza kuhlala lukwi dathasethi yeCommon Voice. Ukuba uthe wacima iprofayile yakho awuzukukwazi ukungenisa isicelo sokususa ushicilelo lwakho kwidathasethi
 remove-info = Siza kujonga isicelo sakho sokususa ilizwi elirekhodiweyo kwidathasethi. Ukuba isicelo sakho samkelwe, siya kuqhagamshelana nabo bakhuphele i-dathasethi kwaye sibacele ukuba basuse ilizwi elirekhodiweyo.
 why-delete-recordings = Ukurekhodwa kwe-Common Voice kusetyenziswa ngabafundi, amashishini amancinci, kunye nabathandi bokuqonda ilizwi ukunceda ukuqeqesha kunye nokukhulisa izixhobo ezifumaneka kuwonke-wonke ezifana neemodeli zelizwi.
@@ -572,6 +579,7 @@ sc-criteria-item-6 = Ukuba uphelelwa zizivakalisi zokuphonononga, nceda usincede
 ## REVIEW
 
 sc-review-lang-not-selected = Awukhethanga naziphi na iilwimi.Nceda uye kwi <profileLink>Profile</profileLink> yakho ukukhetha iilwimi.
+sc-review-form-usage = Swayipha ekunene ukuze uvume isivakalisi. Swayipha ekhohlo ukusala isivakalisi. Swayiphela phezulu ukuze uyitsibe. <strong>Ungalibali ukuthumela ingxelo yakho!</strong>
 sc-review-form-keyboard-usage-custom = Unokusebenzisa kwakhona iindlela ezimfutshane zekhibhodi  { sc-review-form-button-approve-shortcut } ukuvuma { sc-review-form-button-reject-shortcut } ukwala { sc-review-form-button-skip-shortcut } nokutsiba
 # Variables:
 #   $sentences (Number) - Number of sentences the user has reviewed in this session
