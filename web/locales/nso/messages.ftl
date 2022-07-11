@@ -462,6 +462,7 @@ about-voice-validation-title = Kgonthišišo ya Lentšu
 about-voice-validation-subtitle = Batho ba bangwe ba kgonthiša di pego tša mantšu.
 about-dataset-release-title = Lokollo ya Dathasete
 about-dataset-release-subtitle = Re ntšha dathasete ka morago ga dikgwedi tše dingwe le tše dingwe tše 3.
+about-subscribe-text = O nyaka go dula o boledišana le Common Voice?
 about-speak = Bolela
 about-listen-queue = Lenaneotetelo la go theeletša
 about-listen = Ekwa
@@ -752,6 +753,7 @@ contribute-more =
        *[other] loketše go dira { $count } go feta?
     }
 record-cta = Thoma pego
+record-platform-not-supported = Re maswabi, sethala se sa gago ga se se thekgwe ga bjale.
 record-platform-not-supported-desktop = Go katšete Teskhethopo o ka neela ka go tanelouta…
 record-must-allow-microphone = O swanetše o dumelele go berikišwa ga maekrofone.
 record-no-mic-found = Maekrofone ga e hwetšagale.
@@ -794,6 +796,7 @@ target-segment-learn-more = Ithute ka mo go oketšegilego
 
 report = Pego
 report-title = Tliša pego
+report-ask = Ke mathata a feng ao o lebelanego le wona ka lefoko le?
 report-offensive-language = Leleme le kgopišago
 report-offensive-language-detail = Lefoko le nale mantšu a hlokago hlompho goba a kgopišago.
 report-grammar-or-spelling = Popopolelo/ Phošo mopeletong
@@ -1000,6 +1003,7 @@ contribution-misreadings-example-4-explanation = [More has been recorded than th
 contribution-misreadings-example-5-title = Re ilo go hwetša kofi.
 contribution-misreadings-example-6-title = Re ilo go hwetša kofi.
 contribution-misreadings-example-6-explanation = [Should be “We are”]
+contribution-misreadings-example-7-title = Re ya tšwa go hwetša kofi.
 contribution-misreadings-example-7-explanation = [No ‘a’ in the original text]
 contribution-misreadings-example-8-title = Nose e ile ya feta ka lebelo.
 contribution-misreadings-example-8-explanation = [Mismatched content]
