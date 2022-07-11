@@ -43,8 +43,21 @@ rm-sursilv = Romansh Sursilvan
 rm-vallader = Romansh Vallader
 sat = Santali (Ol Chiki)
 st = Southern Sotho
+tk = Turkmen
 tok = Toki Pona
+tr = Turkish
 ts = Xitsonga
+tw = Twi
+uby = Ubykh
+udm = Udmurt
+ug = Uyghur
+uk = Ukrainian
+ur = Urdu
+uz = Uzbek
+ve = Tshivenda
+vec = Venetian
+vi = Vietnamese
+vot = Votic
 xh = Xhosa
 yi = Yiddish
 yo = Yoruba
@@ -172,6 +185,7 @@ profile-form-custom-accent-help-text =
 profile-form-custom-accent-placeholder-2 = Qala ukuthayipha ukuze uchaze indlela ophimisa ngayo
 leaderboard-visibility =
     .label = Ukubonakala Kwebhodi labaphambili
+visible = Kubonakala
 profile-form-add-accent = Engeza ukuphimisa kwangokwezifiso okusha "{ $inputValue }"
 why-profile-title = Kungani kunephrofayili?
 build-profile = Akha iphrofayela
@@ -233,6 +247,7 @@ faq-do-want-native-q = Mina ngingumuntu ongeyena owomdabu futhi ngikhuluma ngend
 faq-why-different-speakers-q = Kungani udinga izikhulumi eziningi kangaka ezihlukene ngolimi ngalunye?
 faq-why-my-lang-q = Kungani ulimi lwami lungakafakwa?
 faq-what-quality-q = Iliphi izinga lekhwalithi yomsindo elidingekayo ukuze isiqeshana sezwi sisetshenziswe kudathasethi?
+faq-what-quality-a = Sifuna idathasethi yeCommon Voice ibonakalise izinga le njini yenkulumo-kuya-umbhalo ezozwakala endle, ngakho ke sifuna izinhlobonhlobo. Ngaphezu komphakathi ohlukahlukene wabakhulumi, ulwazi oluqoqiwe unezinhlobo zokulalelwayo oluzofundisa injini yenkulumo-kuya-kumbhalo ukuba ukwazi ukumelana nezinhlobo ngezinhlobo zezimo ezangempela, njengokhuluma emotweni eyenza umsindo ngemuva. Uma ukuqopha kwakho kuzwakala nje, kuzoba kuhle kakhulu kulolwazi oluqoqiwe.
 faq-why-10k-hours-q = Kungani amahora angu-10,000 aqinisekisiwe kuwumgomo wolimi ngalunye lokuthwebula umsindo?
 faq-why-10k-hours-a = Leli cishe inani lamahora adingekayo ukuqeqesha isistimu yokukhiqiza inkulumo-iya-kumbhalo.
 faq-how-calc-hours-q = I-Common Voice iwabala kanjani amahora?
@@ -387,6 +402,7 @@ data-other-goto = Iya ku { $name }
 data-other-download = Downloda Idatha
 data-bundle-button = Loda  i-Dataset Bundle
 data-bundle-description = Idatha yeCommon Voice kanye nawo wonke amanye amadathasethi ezwi ngenhla.
+release-version = Inguqulo
 data-download-singleword-title = Loda Ingxenye Yethagethi Yegama Elilodwa
 data-download-singleword-callout-v2 = Lena ingxenye yokusetshenziswa eqhutshwayo equkethe idatha ukuze inike amandla ukubonwa kwedijithi ekhulunyiwe kanye nokutholwa yebo / cha.
 review-terms = Ngokusebenzisa iCommon Voice, uyavumelana <termsLink>Nemigomo</termsLink> kanye <privacyLink>Nesaziso Sobumfihlo</privacyLink>
@@ -433,6 +449,7 @@ go-discourse = Iya kokuthi Discourse
 missing-language = Awuboni ulimi lwakho luboniswa Kusethi Yedatha? Ukucela ulimi qonda ekhasini lethu leZilimi.
 go-languages-page = Iya Ekhasini Lezilimi
 ready-to-validate = Ulungele ukusiza ukuqinisekisa imisho?
+dataset-version = Inguqulo
 
 ## Download Modal
 
@@ -775,6 +792,7 @@ contribution-background-voices-title = Umsindo Ongemuva
 contribution-background-voices-description-extended = Uma ukurekhodwa kunqamuka, noma kunokuqhekeka, yenqaba ngaphandle kokuba wonke umbhalo ungazwakala.
 contribution-background-voices-example-1-title = Ama-dinosaurs amakhulu e-Triassic. <strong>[funda ngezwi elilodwa]</strong>
 contribution-background-voices-example-1-explanation = Uyeza? <strong>[called by another]</strong>
+contribution-volume-title = Ivolumu
 contribution-reader-effects-title = Imiphumela Yomfundi
 contribution-just-unsure-title = Awuqinisekile nje kuphela?
 see-more = <chevron></chevron>Buka Okuningi
@@ -798,6 +816,7 @@ sc-logout-button = Phuma
 ## HOME
 
 sc-home-title = Siyakwamukela Kumqoqi Wemisho yeCommon Voice
+sc-home-intro = Umqoqi wemisho uyingxenye ye<commonVoiceLink>Common Voice</commonVoiceLink>. Ivumela abaxhasi ukuba baqoqe futhi baqinisekise imisho eyakhiwe umphakathi. Ungasebenzisa lethuluzi ukungenise nokuhlanzekisa isizinda somphakathi esincane-kuya-kwesiphakathi osuyitholile nosuyiqoqile. Yonke imisho kufanele ibe esizindeni sikawonke wonke. Imishisho evunyiwe kumele ithelekiswe kwinqolobane yeCommon Voice iviki ngeviki bese ikhululwe kuwebsayithi yeCommon Voice njalo uma kukhona okusha.
 sc-home-collect-title = Qoqa imisho
 sc-home-collect-text = Sisize ngokubhala noma ukuqoqa imisho Yesizinda Somphakathi.
 sc-home-review-title = Buyekeza imisho
@@ -850,6 +869,7 @@ sc-rejected-none-found = Ayikho imisho enqatshiwe etholiwe!
 
 ## STATS
 
+sc-stats-updating = Iyabuyekeza...
 sc-stats-error = Asikwazanga ukulanda izibalo. Sicela uzame futhi emuva kwesikhathi.
 # Variables:
 #   $sentenceCount (Number) - Total number of sentences uploaded through Sentence Collector
