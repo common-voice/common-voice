@@ -314,6 +314,7 @@ about-playbook-how-add-sentences-content-4 = Mela e e tlhomamisitsweng e romelwa
 
 ## How to record quality
 
+about-playbook-how-record-quality = Ke rekota jang kgatiso ya lentswe ya maemo a a kwa godimo?
 about-playbook-how-record-content-1 = Bua ka lentswe la gago le le tlwaelegileng! Tsela e o buang ka yone e amogelesegile fano - re batla segalo sa lentswe la gago jaaka se ntse, e bile re batla modumo, setaele le molodi wa gago o o tlwaelegileng.
 about-playbook-how-record-content-2 = Tila medumo e mentsi e e mo lemoragong - go tshwanetse ga nna motlhofo go go utlwa.
 about-playbook-how-record-content-3 = Bala mela ka kelotlhoko - o se ka wa tlola, wa fetola kgotsa wa itsenyetsa mafoko.
@@ -520,6 +521,7 @@ download-recordings-unavailable = Ga o kgone go kopa dikgatiso tsa gago fa kopo 
 download-recently-requested = O ka kopa go ntsha dikgatiso tsa gago malatsi mangwe le mangwe a le { $days }.
 download-requests-info = Fa o kopa dikgatiso tsa gago, re di kopanya go di dira faele e le nngwe kgotsa di le mmalwa tsa ZIP. Tseno ke dikopo tsa gago tsa nako e e fetileng.
 download-request-assembling-description = Difaele tsa gago di a kokoanngwa. Tsweetswee tlhola gape moragonyana.
+download-request-modal-description = Tseno ke dilinki tsa go itseela difaele tsa gago tsa ZIP.
 download-request-link-single = Gape o ka kgona go kopisa le go manega di-URL tse di tlhamaletseng mo lefelong la gago la mmamoratwa la go itseela dilo. Di tla felelwa ke nako mo diureng tse 12, mme o ka boela mo tsebeng eno go dira tse disha nako nngwe le nngwe.
 
 ## Landing
@@ -598,6 +600,7 @@ sc-footer-terms = Melawana
 
 sc-home-intro = Sekgobokanyi sa Dipolelo ke karolo ya <commonVoiceLink>Common Voice</commonVoiceLink>. Se letla baabi go tsaya le go tlhomamisa dipolelo tse di dirilweng ke baagi. Gape o ka dirisa sedirisiwa seno go tsenya le go phepafatsa dikarolo tse dinnye go ya go tse di mo magareng tsa lefelo la botlhe tse o di fitlhetseng kgotsa tse o di kgobokantseng. Dipolelo tsotlhe di tshwanetse go nna tsa Lefelo la Botlhe. Dipolelo tse di dumeletsweng di romelwa beke le beke kwa bobolokelong jwa Common Voice mme nako le nako fa go nna le tlhabololo nngwe le nngwe e ntšha di gololelwe mo webosaeteng ya Common Voice.
 sc-home-collect-title = Phutha dipolelo
+sc-home-collect-text = Re thuse ka go kwala kgotsa go kgobokanya mela ya Lefelo la Botlhe.
 sc-home-review-text = Re thuse go sekaseka mela gore a e nepagetse go ya ka dikaelo.
 
 ## GENERAL
