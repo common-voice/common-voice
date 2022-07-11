@@ -31,8 +31,12 @@ fa = Persian
 gom = Goan Konkani
 hsb = Sorbian, Upper
 hyw = Armenian Western
+ki = Kikuyu
 kmr = Kurmanji Kurdish
 knn = Konkani (Devanagari)
+ko = Korean
+kpv = Komi-Zyrian
+ky = Kyrgyz
 lb = Luxembourgish
 lg = Luganda
 lij = Ligurian
@@ -73,6 +77,7 @@ rm-sursilv = Romansh Sursilvan
 rm-vallader = Romansh Vallader
 ro = Romanian
 ru = Russian
+rw = { "" }
 sah = Sakha
 sat = Santali (Ol Chiki)
 sc = Sardinian
@@ -548,6 +553,7 @@ datasets-positioning =
     Idathasethi yezilimi eziningi ye-Common Voice isivele iyidathasethi yezwi enkulu kunazo zonke etholakala esidlangalaleni yohlobo lwayo, kodwa akusiyo yodwa.
     
     Bheka kuleli khasi njengehabhu yereferensi yamanye amasethi edatha ezwi omthombo ovulekile futhi, njengoba iCommon Voice liqhubeka likhula, ikhaya lezibuyekezo zethu zokukhishwa.
+language = Ulimi
 # File size in gigabytes
 size = Usayizi
 validated-hr-total = Isamba samahora esiqinisekiswe u-Hr. Isamba
