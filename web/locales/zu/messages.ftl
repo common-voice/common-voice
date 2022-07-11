@@ -20,11 +20,15 @@ error-something-went-wrong = Uxolo, kukhona okungahmabnga kahle
 
 dsb = Sorbian, Lower
 hsb = Sorbian, Upper
+kmr = Kurmanji Kurdish
+knn = Konkani (Devanagari)
 mhr = Meadow Mari
 mni = Meetei Lon
 nan-tw = Isi-Taiwanese (Minnan)
 nb-NO = Norwegian Bokmål
+nd = IsiNdebele (North)
 nn-NO = Norwegian Nynorsk
+nr = IsiNdebele (South)
 nso = Northern Sotho
 pap-AW = Papiamento (Aruba)
 quy = Quechua Chanka
@@ -44,6 +48,7 @@ speak-now = Khuluma manje
 content-license-text = Okuqukethwe kutholakala ngaphansi <licenseLink> Ilayisensi  ye-Creative Commons </licenseLink>
 share-title = Sisize sithole abanye abanganikela ngamazwi abo!
 share-text = Siza ukufundisa imishini ukuthi abantu bangempela bakhuluma kanjani, nikela ngezwi lakho ku-{ $link }
+link-copied = Isixhumanisi Sikopishiwe
 back-top = Buyela Phezulu
 logout = Phuma
 
@@ -131,6 +136,8 @@ profile-form-variant-default-value = Akukho okuhlukile okukhethiwe
 profile-form-custom-accent-help-text =
     .label = Ungakuchaza kanjani ukuphimisela kwakho?
 profile-form-custom-accent-placeholder-2 = Qala ukuthayipha ukuze uchaze indlela ophimisa ngayo
+leaderboard-visibility =
+    .label = Ukubonakala Kwebhodi labaphambili
 profile-form-add-accent = Engeza ukuphimisa kwangokwezifiso okusha "{ $inputValue }"
 why-profile-title = Kungani kunephrofayili?
 profile-create-success = Impumelelo, iphrofayela yakhekile!
@@ -323,6 +330,7 @@ error-title-503 = Sibhekene nesikhathi sokungasebenzi esingalindelekile
 ## Data
 
 data-download-button = Loda Idatha yeCommon Voice
+data-download-license = Ilayisensi: <licenseLink>CC-0<licenseLink>
 data-download-modal = Usuzoqalisa ukuloda kwe-<size>GB</size>, qhubeka?
 data-subtitle = Sakha isethi yedatha evulekile netholakala esidlangalaleni yamazwi wonke umuntu angayisebenzisela ukuqeqesha izinhlelo zokusebenza ezikwazi ukukhuluma.
 data-get-started = <speechBlogLink>Qalisa Ngokuqaphela Inkulumo</speechBlogLink>
@@ -332,6 +340,7 @@ data-bundle-description = Idatha yeCommon Voice kanye nawo wonke amanye amadatha
 data-download-singleword-title = Loda Ingxenye Yethagethi Yegama Elilodwa
 data-download-singleword-callout-v2 = Lena ingxenye yokusetshenziswa eqhutshwayo equkethe idatha ukuze inike amandla ukubonwa kwedijithi ekhulunyiwe kanye nokutholwa yebo / cha.
 review-terms = Ngokusebenzisa iCommon Voice, uyavumelana <termsLink>Nemigomo</termsLink> kanye <privacyLink>Nesaziso Sobumfihlo</privacyLink>
+terms-agree = Ngiyavuma
 terms-disagree = Angivumi
 review-aborted = Ukulodiwe kunqanyuliwe. Uyafuna ukususa okurekhodiwe kwakho?
 review-submit-title = Buyekeza futhi uthumele
@@ -386,6 +395,7 @@ download-no = Cha ngiyabonga
 
 ## Request Language Modal
 
+request-language-title = Isicelo solimi
 request-language-success-title = Isicelo solimi sithunyelwe ngempumelelo, siyabonga.
 request-language-success-content = Sizothintana ngolwazi olwengeziwe mayelana nendlela yokwengeza ulimi lwakho ku-Common Voice maduze nje.
 select-language = Khetha Ulimi...
@@ -425,6 +435,7 @@ request-language-error =
 
 ## Languages Overview
 
+language-section-in-progress = Kuyaqhubeka
 language-section-in-progress-new-description = Lezi zilimi okwamanje zingaphansi kokuthuthukiswa komphakathi. <localizationGlossaryLink>Ukwenziwa kwasendaweni kwewebhusayithi</localizationGlossaryLink> ne-<sesentenceCollectionGlossaryLink>iqoqo lemisho</sentenceCollectionGlossaryLink> kuyadingeka ukuze kuqaliswe.
 languages-show-more = Buka Okuningi
 languages-show-less = Bona Okuncane
@@ -479,6 +490,7 @@ target-segment-first-card = Udlala iqhaza engxenyeni yethu yokuqala esiqondiswe 
 target-segment-generic-card = Udlala iqhaza engxenyeni eqondiwe
 target-segment-first-banner = Siza wakhe engxenye yokuqala eqondiwe yeCommon Voice kokuthi { $locale }
 target-segment-add-voice = Engeza Izwi Lakho
+target-segment-learn-more = Funda kabanzi
 
 ## Reporting
 
@@ -686,6 +698,7 @@ contribution-background-voices-description-extended = Uma ukurekhodwa kunqamuka,
 contribution-background-voices-example-1-title = Ama-dinosaurs amakhulu e-Triassic. <strong>[funda ngezwi elilodwa]</strong>
 contribution-background-voices-example-1-explanation = Uyeza? <strong>[called by another]</strong>
 contribution-reader-effects-title = Imiphumela Yomfundi
+contribution-just-unsure-title = Awuqinisekile nje kuphela?
 
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
@@ -930,6 +943,7 @@ sc-review-form-review-failure = Isibuyekezo asikwazanga ukugcineka. Sicela uzame
 
 ## SETTINGS
 
+sc-settings-ui-language = Ulimi Lwe-interface
 sc-settings-reset-skipped = Setha kabusha imisho eyeqiwe
 sc-settings-skipped-decription = Ngaphambilini weqe imisho ngenkathi ubuyekeza. Ukusetha kabusha imisho eyeqiwe kuzokhombisa yonke imisho eyeqiwe futhi. Lokhu kuzimele olimini.
 sc-settings-show-all-button = Khombisa yonke imisho eyeqiwe futhi
