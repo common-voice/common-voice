@@ -19,47 +19,22 @@ const dbConfig = {
   database: MYSQLDBNAME,
 };
 
-const TOTAL_STATS = [
-  'totalDuration',
-  'totalValidDurationSecs',
-  'totalHrs',
-  'totalValidHrs',
-];
+const TOTAL_STATS = ['totalDuration', 'totalValidDurationSecs'];
 
-async function importContributableLocales(locales) {
-  const sentencesPath = path.join(__dirname, '..', 'server', 'data');
-  const oldContributable = JSON.parse(
-    fs.readFileSync(path.join(dataPath, 'contributable.json'), 'utf-8')
-  );
-  const names = fs.readdirSync(sentencesPath).filter(name => {
-    if (oldContributable.includes(name)) {
-      return true;
-    }
-    if (name === 'LICENSE') {
-      return false;
-    }
-    const localeSentencesPath = path.join(sentencesPath, name);
-    const count = fs
-      .readdirSync(localeSentencesPath)
-      .reduce(
-        (count, sentencesFile) =>
-          sentencesFile.endsWith('.txt')
-            ? count +
-              fs
-                .readFileSync(
-                  path.join(localeSentencesPath, sentencesFile),
-                  'utf-8'
-                )
-                .split('\n').length
-            : count,
-        0
-      );
-    return count > locales[name].targetSentenceCount;
-  });
-  saveDataJSON('contributable', names.sort());
+const secondsToMilliseconds = seconds => seconds * 1000;
+
+async function updateTotals(db) {
+  db(`
+    UPDATE datasets
+    SET clips_duration = ?
+    SET clips_valid_duration = ?
+    WHERE id IN (?)
+  `);
 }
 
-const getTotalStats = statistics => {};
+const getTotalStats = statistics => {
+  return TOTAL_STATS.map(key => statistics[key]);
+};
 
 async function loadStatisticFiles() {
   const releaseFilePaths = await fs.readdir(RELEASE_DIR_PATH);
@@ -67,8 +42,11 @@ async function loadStatisticFiles() {
   for (const releaseFilePath of releaseFilePaths) {
     const statisticsPath = path.join(RELEASE_DIR_PATH, releaseFilePath);
 
-    const statistics = await fs.readFile(statisticsPath, 'utf-8');
-    console.log(statistics);
+    const statistics = JSON.parse(await fs.readFile(statisticsPath, 'utf-8'));
+    let totalReleaseStats = getTotalStats(statistics);
+    totalReleaseStats[1] = secondsToMilliseconds(totalReleaseStats[1]);
+    console.log('totalReleaseStats', totalReleaseStats);
+    // break;
   }
 }
 
@@ -81,25 +59,9 @@ async function importLocales() {
       const db = promisify(connection.query).bind(connection);
       let locales = {};
 
-      db(`select * from locales`)
-        .then(data => {
-          locales = data.reduce((obj, locale) => {
-            obj[locale.name] = {
-              name: locale.name,
-              id: locale.id,
-              targetSentenceCount: locale.target_sentence_count,
-            };
-            return obj;
-          }, {});
-        })
-        .finally(async () => {
-          await Promise.all([
-            importPontoonLocales(),
-            importContributableLocales(locales),
-            buildLocaleNativeNameMapping(),
-          ]);
-          connection.destroy();
-        });
+      await db(`select * from locales`);
+
+      connection.destroy();
     });
   } catch (error) {
     console.error(error);
