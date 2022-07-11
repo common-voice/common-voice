@@ -35,11 +35,14 @@ co = Se-Corsica
 cs = Se-Czech
 cv = Se-Chuvash
 da = Se-Denmark
+es = Se-Spain
 eu = Se-Basque
 hr = Se-Croatia
 hy-AM = Se-Armania
 my = Se-Burma
+so = Se-Somali
 sq = Se-Albania
+th = Se-Thai
 ti = Se-Tigrinya
 tig = Se-Tigre
 yue = Se-Canton
@@ -49,8 +52,10 @@ yue = Se-Canton
 
 ## Layout
 
+speak = Bua
 about = Ka ga
 contact = Ikgolaganye
+terms = Melawana
 share-text = Thusa go ruta metšhine  gore batho ba mmatota ba bua jang, abelana ka lentswe la gago mo { $link }
 
 ## Home Page
@@ -198,6 +203,7 @@ how-does-it-work-text = Re batla tshedimosetso ya batho ba bantsi ya mantswe. Ab
 
 ## How does it work section
 
+about-speak = Bua
 about-speak-text = Batsayakarolo ba gatisa mantswe a bone ka go bala mo bontsintsing jwa mela e e abilweng.
 about-listen-queue-text = Dikgatiso tsa mantswe di tsena mo moleng wa go romelwa o o dirang gore di siamele go reediwa.
 about-listen-text = Badirisi ba tlhomamisa gore a direkoting tse go abalanweng ka tsone di nepagetse, ba tlhola gore a sebui se bala mela sentle.
@@ -373,6 +379,7 @@ request-language-error = Re ka tswa re ise re amogele kopo eo. Tsweetswee re rom
 language-section-in-progress-new-description = Ga jaana dipuo tseno di tokafadiwa ke badirisi. <localizationGlossaryLink>Go ranola webosaete</localizationGlossaryLink> le <sentenceCollectionGlossaryLink>go kgobokanya mela</sentenceCollectionGlossaryLink> go a tlhokega go diragatsa.
 language-section-launched-description = Mo dipuong tseno tse di simolotsweng, webosaete e <localizationGlossaryLink>dirilwe ya selegae</localizationGlossaryLink> ka katlego, mme e na le <sentenceCollectionGlossaryLink>dipolelo tse di lekaneng tse di phuthilweng</sentenceCollectionGlossaryLink> go letla dikabo tse di tswelelang tsa <speakLink>Bua</speakLink> le <listenLink>Reetsa</listenLink>.
 language-total-progress = Palogotlhe
+language-speakers = Dibui
 
 ## Contribution
 
@@ -523,6 +530,9 @@ sc-howto-findpd-partner-2 = Baitseanape ba baitsepuo le bone ba ka thusa, leka g
 ## MY SENTENCES
 
 sc-my-description = Tsebe eno e go naya dintlhakakaretso tsa dipolelo tsotlhe tse o di rometseng. Gape o ka phimola mela e e rometsweng fa go tlhokega, ka go tshwaya lebokoso gaufi le one le go tobetsa &quot;Phimola polelo e e tlhophilweng&quot; kwa tlase. Tsweetswee tlosa dipolelo fela fa tota go tlhokega, ka sekai, fa o lemoga morago ga ntlha nngwe gore polelo eo e na le tshireletso ya tetlokhopi.
+# Variables:
+#   $source (String) - Associated source the user filled out when uploading the sentence
+sc-my-source = Motswedi: { $source }
 
 ## REJECTED
 
@@ -605,6 +615,9 @@ sc-criteria-item-6 = Fa o felelwa ke mela e e sekasekiwang, tsweetswee re thuse 
 
 sc-review-lang-not-selected = Ga o ise o tlhophe dipuo dipe. Tsweetswee ya kwa <profileLink>Porofaeleng</profileLink> ya gago gore o tlhophe dipuo.
 sc-review-form-usage = Swaepela kafa mojeng go amogela polelo. Swaepela kafa molemeng go e gana. Swaepela kwa godimo go e tlola. <strong>O se ka wa lebala go romela tshekatsheko ya gago!</strong>
+# Variables:
+#   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
+sc-review-form-source = Motswedi: { $sentenceSource }
 sc-review-form-button-approve = Amogela
 sc-review-form-keyboard-usage-custom = Gape o ka dirisa Ditlhabanyetso Tsa Khiiboto: { sc-review-form-button-approve-shortcut } go Amogela, { sc-review-form-button-reject-shortcut } go Gana, { sc-review-form-button-skip-shortcut } go Tlola
 # Variables:
