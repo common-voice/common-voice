@@ -73,6 +73,7 @@ username-email-not-demographic = Username yaṋu na email a zwi nga paṱekanyis
 
 ## ProjectStatus
 
+status-title = Mbalo-mbalo dza thandela yoṱhe nga u angaredza: vhonani uri ro no khunyeldza zwifhioi!
 status-hours =
     { $hours ->
         [one] [one] Awara nthihi yo khwaṱhisedzwa u swika zwino!
@@ -151,7 +152,9 @@ how-does-it-work-text = Ri khou lingedza u wana maipfi kha tshitshavha uri ri it
 
 ## How does it work section
 
+about-language-req-subtitle = Hu na we a humbela uri luambo lu pangiwe.
 about-localization-subtitle = Mafhungo a re kha heyi website o ḓologiwa nga holuya luambo.
+about-sentence-collection-subtitle = Mitaladzi i kuvhanganyiwa uri vhathu vha i vhalele nṱha.
 about-new-lang-subtitle = Ro ḽontsha saiti ya Common Voice nga holwu luambo.
 about-subscribe-text = Naa ni ṱoḓa u dzula no kwamana na Common Voice?
 about-speak-text = Vhane shela mulenzhe vha rekhoda maipfi nga u vhala mitaladzi yo nikelwaho.
@@ -243,6 +246,7 @@ about-playbook-how-access-dataset-content-2 = Arali ni tshi khou ṱoḓa zwishu
 ## How are decisions made
 
 about-playbook-how-project-governance-content-1 = Common Voice ya Mozilla i khou itwa u ri i vhe hone nga vhadzulapo vho fhambananaho vha vhaḓisi vha tshanduko, vhaḓivhi vha luambo, data scientists, magudedzi na dziinzhiniara dza dzi software vha bvaho shangoni nga vhuphara. Yeneyi thandela i khou ṱhogomelwa nga Foundation ya Mozilla.
+about-playbook-how-project-governance-content-2 = Zwi ri langaho zwo thewa kha hedzi phuphu:
 
 ## Glossary
 
@@ -319,6 +323,7 @@ request-language-explanation-1 =
 request-language-explanation-2 = Ri ḓo <strong>vhudza minidzhere wa vhadzulapo vha vhuponi haṋu uri ni na dzangalelo ḽa hezwi</strong>, u itela uri vha ni tikedze kana u ni vhudza mafhungo ane na nga a ṱoḓa.
 request-language-form-info-explanation = Pangani mafhungo manzhi nga hune na nga kona nga ha holwu luambo. Zwenezwi zwi katela:
 request-language-form-info-explanation-list-3 = Ḽinki dza website dzine dza nga ri thusa u pfesesa luambo
+request-language-google-recaptcha-required = reCAPTCHA a khou ṱoḓea arali ni tshi khou ṱoḓa u ya phanḓa
 request-language-google-recaptcha-error = Hu na zwo khakheaho nga reCAPTCHA. Ri humbela uri ni lingedze hafhu.Hu na zwo khakheaho nga reCAPTCHA. Ri humbela uri ni lingedze hafhu.
 # Success page
 request-language-success-heading = Ro livhuwa. No ita khumbelo ya luambo luswa.
@@ -342,7 +347,9 @@ language-section-launched-description = Kha hedzi nyambo dzo no ḓi dzheniswaho
 goal-help-recording = No thusa Common Voice u swikelela <goalPercentage></goalPercentage> tsha ḓuvha { $goalValue } tshipikwa tsha u rekhoda!
 goal-help-validation = No thusa Common Voice u swikelela <goalPercentage></goalPercentage> tsha ḓuvha { $goalValue } tshipikwa tsha u khwaṱhisedza!
 record-platform-not-supported = Ri humbela pfarelo, puḽatifomo yaṋu a yi tikedziwi zwa zwino.
+record-platform-not-supported-desktop = Kha tshishumiswa tsha desktop ni nga shela mulenzhe nga u downḽoda…
 record-platform-not-supported-ios-non-safari = Kha iOS ri humbela uri ni bvele phanḓa ni tshi shumisa Safari u itela uri ni kone u rekhoda…
+review-tooltip = Ṱolisisani & ni dovholole u rekhoda ni tshi khou bvela phanḓa
 listen-empty-state = Ro fhelelwa nga zwo rekhodiwaho zwine zwa ṱoḓa u khwaṱhisedzwa...
 listen-loading-error =
     A ro ngo kona u wana odio dzo rekhodiwaho dza maipfi uri inwi ni kone u dzi thetshelesa.
@@ -492,6 +499,7 @@ sc-howto-cite-pre-1 = Ndi zwa ndeme uri ni sumbedze referentsi ya he na wana hon
 sc-howto-cite-item-1 = Ni nga katela na website, e.g "Common Voice - https://commonvoice.mozilla.org/"
 sc-howto-cite-item-2 = Ni nga shumisa tshi taela tsha academic ni tshi ita dzi referentsi, sa tsumbo Harvard style "Mozilla (2021) Common Voice. Zwi wanala kha https://commonvoice.mozilla.org/ (Accessed: 15th Khumbvumedzi 2021)"
 sc-howto-cite-item-3 = Arali zwo ṅwalwaho zwa fhethu ha tshitshavha tshoṱhe zwi si ho onḽaini, ni nga shumisa tshitaela tsha academic reference. Sa tsumbo, Harvard style "Jess (2021) My Public licence poems"
+sc-howto-review-subtitle = Itani vhungoho ha uri mutaladzi u swikelela ṱhoḓea dzi tevhelaho:
 sc-howto-review-criteria-4 = Arali mutaladzi u tshi swikelea ṱhoḓea, puṱedzani bathene ya u "Phasisa".
 sc-howto-review-criteria-5 = Arali mutaladzi u sa swikeleli ṱhoḓea dzi re afho nṱha, puṱedzani gunubu ya "Hana". Arali ni si na vhungoho ha uri mutaladzi a si wone, ni nga u pfukha na pfukela kha u no khou tevhela..
 sc-howto-review-criteria-6 = Arali na fhelelwa nga mitaladzi ya u ṱolisisa, ri humbela uri ni ri thuse nga u kuvhanganya miṅwe mitaladzi minzhi!
@@ -518,8 +526,11 @@ sc-stats-summary = Tsha u Kuvhanganya Mitaladzi tsha Common Voice tsho kuvhangan
 
 ## ADD
 
+sc-submit-err-confirm-pd = Ri humbela uri ni khwaṱhisedze uri heyi mitaladzi ndi ya fhethu ha tshitshavha tshoṱhe.
 sc-submit-prompt =
     .message = Mitaladzi a yo ngo rumelwa, naa ni na vhungoho ha uri ni khou ṱoḓa u ṱuwa?
+sc-submit-ph-read-how-to =
+    .placeholder = Vhalani How-to yashu arali ni si na vhutanzi
 sc-submit-confirm = Ndi a khwaṱhisedza uri heyi mitaladzi ndi ya <wikipediaLink>fhethu ha tshitshavha tshoṱhe </wikipediaLink> nahone ndi na thendelo ya u i apuḽoda.
 sc-submit-filtered = Mitaladzi yo fiḽithariwaho ngauri a yo ngo swikelea ṱhoḓea (ri humbela uri ni rumele zwe na khakhulula sa mitaladzi miswa):
 
@@ -625,6 +636,7 @@ sc-lang-info-rejected =
 
 ## REVIEW CRITERIA
 
+sc-criteria-make-sure = Itani vhungoho ha uri mutaladzi u swikelela ṱhoḓea dzi tevhelaho:
 sc-criteria-item-4 = Aali mutaladzi wo swikelela ṱhoḓea, puṱedzani &quot;Approve&quot; bathane i re kha tshanḓa tsha uḽa.
 sc-criteria-item-5-2 = Arali mutaladzi u sa swikeleli ṱhoḓea dzi re afho nṱha, puṱedzani &quot;Reject&quot; gunubu i re kha tsha monde. Arali ni si na vhungoho ha uri mutaladzi a si wone, ni nga u pfukha na pfukela kha u no khou tevhela.
 sc-criteria-item-6 = Arali na fhelelwa nga mitaladzi ya u ṱolisisa, ri humbela uri ni ri thuse nga u kuvhanganya miṅwe mitaladzi minzhi!
@@ -632,6 +644,7 @@ sc-criteria-item-6 = Arali na fhelelwa nga mitaladzi ya u ṱolisisa, ri humbela
 ## REVIEW
 
 sc-review-lang-not-selected = A ni a thu u nanga na luambo na luthihi. Ri umbela uri ni ye kha <profileLink>Profaiḽi</profileLink> yaṋu uri ni nange nyambo.
+sc-review-no-sentences = A hu na mutaladzi une wa ṱoḓa u ṱoliwa. <addLink>Pangani miṅwe mitaladzi zwino!</addLink>
 sc-review-form-usage = Swaipelani kha tsha u ḽa u itela uri ni kone u amba uri mutaladzi ndi wone. U amba uri a si wone swaipelani kha tsha monde. Swaipelani nṱha u itela u pfuka. <strong>Ni songo hangwa u rumela zwe na ṱolisisa!</strong>
 sc-review-form-keyboard-usage-custom = Ni nga dovha hafhu na shumisa shortcuts dza Keyboard: { sc-review-form-button-approve-shortcut } u Khwaṱhisedza, { sc-review-form-button-reject-shortcut } u Hana, { sc-review-form-button-skip-shortcut } u Pfukha
 # Variables:
