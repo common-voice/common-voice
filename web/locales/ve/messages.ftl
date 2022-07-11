@@ -201,6 +201,7 @@ dataset-description-hours =
     
     Dataset i na <b>{ $valid }</b> awara dzo teaho <b>{ $languages }</b> luambo, fhedzi ri dzula ri tshi khou panga maipfi o engedzeaho na dzinyambo. Sedzani <languagesLink>siaṱari ḽa Nyambo dzashu</languagesLink> u itela khumbelo ya luambo kana ni thome u shela mulenzhe.
 resource-deepspeech-info = Tshishumiswa tsha Mozilla tsha u ḓivha ipfi tshine tsha nga shumiswa nga nnyi na nnyi tsha Deep Speech tshi nga shumiswa kha u ita app dzi ḓivhaho ipfi. Vhalani samari yashu <githubLink>Github</githubLink> kana ni dzhenelele kha <discourseLink>DeepSpeech Discourse</discourseLink> uri ni gude nga ha uri ni nga thoma hani.
+resource-playbook-info = <playbookLink>Wanani thuso</playbookLink> nga ha u shumisa Common Voice, u bva kha localization u ya kha kushumisele kwa dataset, na u kwanamana na community yaṋu.
 data-other-tatoeba-description = Tatoeba ndi database khulu ya mitaladzi, zwo ṱalutshedzwaho, na odio dzi ambaho dzi shumiselwaho u guda luambo. Zwenezwi zwithu zwine wa nga zwi download zwi nga Luisiamane luambiwaho, zwo rekhodiwa nga vhadzulapo vhalwo.
 
 ## Download Modal
@@ -220,6 +221,7 @@ request-language-explanation-1 =
      <languagesPageLink>siaṱari ḽa Nyambo dza Common Voice</languagesPageLink>.
      Arali zwi songo ralo, ḓadzani heyi fomo nahone ri ḓo ni <strong>rumela email ine ya ḓo ni thusa
      u ṱalutshedza uri luambo lwaṋu lu nga dzheniswa hani </strong>.
+request-language-explanation-2 = Ri ḓo <strong>vhudza minidzhere wa vhadzulapo vha vhuponi haṋu uri ni na dzangalelo ḽa hezwi</strong>, u itela uri vha ni tikedze kana u ni vhudza mafhungo ane na nga a ṱoḓa.
 request-language-success-list-2 =
     Minidzhere washu wa vhadzulapo u ḓo ni kwama uri a ni 
     tikedze nga ho engedzeaho, nahone u ḓo ni ḓivhadza arali hu na vho no
