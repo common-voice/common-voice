@@ -13,6 +13,7 @@ email-opt-in-info-title = Ngenela ihlelo leCommon Voice
 email-opt-in-info-sub-with-challenge =
     Fumana ama-email akhuluma ngephaliswano, iinkhumbuzo zemigomo,
     ituthuko yamva nje neendaba zeCommon Voice.
+email-opt-in-privacy-v2 = Ngokuthi ukhethe ukufaka ama-emails kutjho ukuthi uyavuma bona iMozilla izokusebenza ngokwaziswokho ngendlela esele ihlathululwe kuMozilla’s Privacy Policy<privacyLink>Privacy Policy</privacyLink>.
 indicates-required = Isitsonga
 not-available-abbreviation = N/A
 banner-error-slow-1 = IsiKabyle
@@ -270,6 +271,7 @@ email-subscription-title-new =
 ## Account Benefits
 
 benefits = Iinzuzo
+rich-data = Yenza imininingwana oyithumeleko ibe mihle ngendlela ongakghona ngayo ngokuthi ufake koke ukwaziswa okutlhogekako ngawe okungekhe kwanikelwa abanye abantu. Koke ukwaziswa osinikela khona ngawe angekhe sikwenze kwazeke emphakathini.
 improve-audio =
     Imininingwana yephrofayili ithuthukisa ihlelo lokurekhodiweko
     ekulumweni yokufundisa enembileko.
@@ -320,6 +322,7 @@ shortcut-vote-yes = { "" }
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-record-toggle = r
 shortcut-record-toggle-label = Rekhoda/Jama
+shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Rekhoda kabutjha
 shortcut-discard-ongoing-recording = PHUMA
 shortcut-discard-ongoing-recording-label = Susa okurekhodwako
@@ -402,8 +405,8 @@ contribution-experience = Nikela Ngelwazi
 skip-submission-feedback = Yeqa uMlayezo oBuyako
 skip-submission-description =
     { $count ->
-        [one] "Eqinisekisiweko"
-       *[other] "Eziqinisekisiweko"
+        [one] Hlangana nesikhathi sokunikela ukwahlulela kwakho kuzokweqiwa ngemva kobana ugandelele 'uSubmit'. Ukunikela kuzokuragela phambili ngemva kokurekhoda oku-5 namkha ukuhlola.
+       *[other] { "" }
     }
 skip-submission-note =
     Tjheja: Kusafuze ukhethe hlangana
@@ -869,7 +872,7 @@ request-language-error = Kungenzeka asikasifumani isibaweso. Sibawa usithumele i
 language-section-in-progress = Iyaraga
 language-section-in-progress-new-description = Umphakathi usawathuthukisa amalimi la. <localizationGlossaryLink>Izinzolwazi yelocalization</localizationGlossaryLink> begodu <sentenceCollectionGlossaryLink>kutlhogeka imitjho</sentenceCollectionGlossaryLink> bona afakwe ngokusemthethweni.
 language-section-launched = Yethulwa ngokusemthethweni
-language-section-launched-description = Ilimi lendabuko
+language-section-launched-description = Ukwethulwa kwezinzolwazi le kuphumelele <localizationGlossaryLink>localized</localizationGlossaryLink>, begodu imitjho<sentenceCollectionGlossaryLink> ebuthelelweko minengi ngokwaneleko <sentenceCollectionGlossaryLink>ukwenzela</sentenceCollectionGlossaryLink> bona kuregelwe phambili uku<speakLink>Khuluma</speakLink>noku <listenLink>Mamela</listenLink>okunikelweko.
 languages-show-more = Veza okunengi
 languages-show-less = Veza okuncani
 language-meter-in-progress = Ituthuko
@@ -1137,6 +1140,7 @@ download-request = Bawa okurekhodiweko
 download-requests = Iimbawo ezidlulileko zokudawunilowuda imitjho
 download-requests-info = Nawubawa okurekhodileko, sikuhlanganisa ndawonye sikufake efayilini yinye namkha emafayilini amanengi we-ZIP. Nakhu okubawe esikhathini esidlulileko:
 download-request-button = Dawunilowuda
+download-request-title = { $created }
 download-request-description = { $clipCount } amaphimbo, inani lokubulungiweko { $size }. Phelelwe sikhathi { $expires }.
 download-request-archive-single = Ifayela ye-ZIP emumethe
 download-request-archive-multiple = Zihlukaniswe zaba yi { $archiveCount } kumafayela we-ZIP
@@ -1596,6 +1600,7 @@ sc-review-no-sentences =
     imitjho engeziweko khona nje!</addLink>
 sc-review-form-prompt =
     .message = Uyaqiniseka bona uyibuyekezile imitjho engakakhanjiswa?
+sc-review-form-usage = Khambisa umunwakho uwise ngasandleni sokuhla ukuphasisa umutjho. Khambisa umunwakho uwise ngesandleni sesinceni ukuwala. Akhambisa umunwakho uwusephezulu ukweqa. <strong>Ungakhohlwa ukuthumela ukwahlulela kwakho!</strong>
 # Variables:
 #   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
 sc-review-form-source = Umthombo: { $sentenceSource }
