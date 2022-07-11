@@ -24,6 +24,9 @@ error-something-went-wrong = Hi rivaleli, ku ni nchumu lowu nga famba kahle
 
 ## Languages
 
+ab = Xi-Abkhaz
+ace = Xiacehnese
+ady = Xi-Adyghe
 af = Xibunu
 am = Xiamhari
 an = XIaragon
@@ -203,6 +206,7 @@ speak = Vulavula
 speak-now = Vulavula sweswi
 datasets = Tidhataseti
 languages = Tindzimi
+about = Malunghana
 profile = Phurofayili
 contact = Khumbana
 privacy = Xihundla
@@ -352,6 +356,8 @@ profile-form-language =
 profile-form-variant =
     .label = Hi yihi muxaka wa { $language } lowu u wu vulavulaka?
 profile-form-variant-default-value = Ku hava muxaka lowu hlawuriweke
+profile-form-accent =
+    .label = Mavulavulelo
 profile-form-custom-accent-help-text =
     .label = Xana u nga yi hlamusela njhani ndlela leyi u vulavulaka ha yona?
 profile-form-custom-accent-placeholder-2 = Sungula ku thayipa ku hlamusela ndlela leyi u vulavulaka ha yona
@@ -460,6 +466,7 @@ faq-where-src-from-2-a =
     
     U nga languta swivulwa swa hina swa xihlovo eka <githubLink>folda leyi ya GitHub</githubLink>.
 faq-why-not-ask-read-a = Ku endla leswaku dataset ya Common Voice yi pfuna hinkwako ku kotekaka hi teke xiboho xo pfumelela tsalwa ra xihlovo leri kumekaka ehansi ka layisense ya Creative Commons (CC0) ntsena. Ku tirhisa mpimanyeto wa CC0 swi vula leswaku swa tika swinene ku kuma na ku hlengeleta tsalwa ra xihlovo, kambe swi pfumelela mani na mani ku tirhisa datha ya rito leyi humelelaka handle ka swipimelo swa matirhiselo kumbe mpfumelelo ku suka eka Mozilla. Eku heteleleni, hi lava ku endla leswaku dataset ya tindzimi to tala yi pfuna hi nkwako laha swi kotekaka kona eka un’wana na un’wana, ku katsa na valavisisi, tiyunivhesiti, swibinndzwana, mimfumo, tinhlengeletano ta xikongomelo xa ntshamisano, na lava tsakelaka ku titsakisa.
+faq-why-account-q = Ha yini ndzi fanele ndzi tsarisa eka akhawunti?
 faq-is-account-public-q = Xana rungula ra akhawunti ya mina ya le rivaleni?
 faq-how-privacy-a = Swiphemu hinkwaswo swa rito eka dataset swi hlantswiwa hi rungula leri kombisaka munhu. Loko muhoxa xandla a nyika datha ya nhlayo ya vaaki hi ku tirhisa phurofayili ya vona, vuxokoxoko byebyo byi susiwa eka swiphemu swa vona swa rito byi nga si hlanganisiwa ku dawuniloda eka sete ya datha naswona a byi si tshama byi endliwa erivaleni eka tluka ra vona ra phurofayili.
 faq-what-determine-identity-q = Xana swi vula yini leswaku a ndzi swi koti ku “kumisisa vutivi” bya swivulavuri eka rungula ra Common Voice?
@@ -735,6 +742,7 @@ contact-form-name =
     .label = Vito
 contact-form-message =
     .label = Hungu
+contact-required = *xilaveko
 
 ## Request Language Modal
 
@@ -1031,6 +1039,7 @@ card-button-back = Ndzhaku
 demo-language-select-label = Pfula Tindzimi
 demo-eofy-header = Nkandziyiso wa 2019 wa Makumu ya Lembe
 demo-eofy-sub_header = Dataset ya Rito, Yi Lunghekele ku Dawuniloda
+demo-account = Rungula
 
 ## Demo Account
 
@@ -1111,6 +1120,7 @@ see-less = <chevron></chevron>Vona switsongo
 
 sc-header-home = Kaya
 sc-header-how-to = Ndlela-yo
+sc-header-add = Engetela
 sc-header-review = Hlela hi vuntshwa
 sc-header-rejected = Swivulwa leswi ariweke
 sc-header-my = Swivulwa swa Mina
@@ -1235,6 +1245,14 @@ sc-add-lang-could-not-add = A swi koteki ku engetela ririmi
 sc-add-lang-sec-label = Engetela ririmi leri u lavaka ku hoxa xandla eka rona
 sc-add-lang-sec-button = Engetela Ririmi
 sc-add-err-unexpected = Nhlamulo leyi nga languteriwangiki yi vuyile ku suka eka sevha
+# Variables:
+#   $duplicates (Number) - Number of sentences which got rejected because they are duplicates
+sc-add-result =
+    { $duplicates ->
+        [0] Swivulwa leswi nga nyikeriwa. { $duplicates } swivulwa swi ariwe tanihi tikopi.
+        [one] Swivulwa leswi nga nyikeriwa.{ $duplicates } xivulwa xi ariwe tanihi kopi.
+       *[other] Swivulwa leswi nga nyikeriwa. { $duplicates }swivulwa swi ariwe tanihi tikopi.
+    }
 sc-add-err-submission = Xihoxo xa ku Rhumela
 
 ## ADD SENTENCES CONFIRMATION
@@ -1245,6 +1263,12 @@ sc-confirm-sentences-title = Tiyisisa Swivulwa Leswintshwa
 # Variables:
 #   $countOfInvalidated (Number) - Number of sentences the user rejected in the review form before submission
 sc-confirm-rejected-by-you = { $countOfInvalidated } yi ariwile hi wena
+sc-confirm-already-reviewed =
+    { $countOfReviewed ->
+        [0] Ku hava xivulwa lexi se xi kambisisiweke.
+        [one] xivulwa 1 se xi pfuxetiwile. Ntirho lowukulu!
+       *[other] { $countOfReviewed } swivulwa se swi pfuxetiwile. Ntirho lowukulu!
+    }
 # Variables:
 #   $countOfUnreviewed (Number) - Number of sentences unreviewed before the upload
 sc-confirm-unreviewed = { $countOfUnreviewed } swivulwa a swi kamberiwanga. Loko u swi lava, u nga ha tlhela u kambisisa swivulwa swa wena sweswi u nga si swi rhumela.
@@ -1255,6 +1279,14 @@ sc-confirm-uploading = Swivulwa swi le ku nghenisiweni. Leswi swi nga ha teka ti
 
 sc-lang-info-title-total = Hinkwaswo
 sc-lang-info-title-personal = Ximunhu
+# Variables:
+#   $unreviewedSentencesByYou (Number) - Number of sentences the user can still review
+sc-lang-info-left-for-you =
+    { $unreviewedSentencesByYou ->
+        [0] Ku hava swivulwa eka wena leswaku u kambisisa.
+        [one] 1 ya xivulwa lexi seleke eka wena leswaku u kambisisa.
+       *[other] { $unreviewedSentencesByYou } swivulwa leswi seleke leswaku u kambisisa.
+    }
 sc-lang-info-review-now = <reviewLink>Pfuxeta sweswi!</reviewLink>
 sc-lang-info-add-more = <addLink>Engetela swivulwa swin'wana sweswi!</addLink>
 
