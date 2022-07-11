@@ -211,7 +211,7 @@ default-tagline =
     ekufundiseni imitjhini bona abantu bamambala bakhuluma njani.
 home-cta = Khuluma, nikela endaweni le!
 wall-of-text-more-mobile = Woke umuntu
-wall-of-text-more-desktop = { "" }
+wall-of-text-more-desktop = Nje ungakghona ukunikela ngephimbo lakho bona usisize sakhe ibulungelo elivulekele woke umuntu abantu abangalisebenzisa ukwakha ama-apps weensetjenziswa namkha amazinzolwazi. Funda imitjho yabanye abanikeli bona uthuthukise izinga layo. Kulula ngaleyo ndlela!
 show-wall-of-text = Funda okwengeziweko
 help-us-title = Imitjho
 help-us-explain =
@@ -378,6 +378,7 @@ thanks-for-account =
     Siyathokoza ngokuqinisekisa i-akhawundi yakho, njeke asenze 
     iphrofayili yakho.
 why-demographic = Kubayini lokhu kuqakathekile?
+why-demographic-explanation-2 = Ukwaziswa okunjengomnyaka, ubulili, namkha indlela yokukhuluma kusiza ukuthuthukisa ukwaziswa kwezinto ezirekhodiweko bona kuqinisekiswe ukunemba kwemitjhini yamaphimbo. Ibizo owaziwa ngalo ne-email yakho angekhe kuhlanganiswe nokwaziswa okuthumeleko, begodu ungakhetha bona ufuna ukwaziwa namkha awa.
 accept-privacy =
     Anginamraro wokobana nibe nemininingwana le
     njengombana kuhlathululiwe<privacyLink> emibandeleni yeMozilla</privacyLink>
@@ -450,7 +451,9 @@ faq-what-cv-and-deepspeech-a = I-The Common Voice dataset ikhambisana kuhle ne-M
 faq-is-goal-assistant-q =
     Kghani umngomo weCommon Voice kukwenza amaphimbo 
     azosisiza?
+faq-is-goal-assistant-a = Umgomo weCommon Voice dataset kukwenza woke umuntu ephasini bona kghone ukwakha ispeaker recognition, namkha elinye nelinye ihlobo lesisetjenziswa esisebenzisa ukwaziswa kwamaphimbo. I-voice assistant ngenye yemihlobo eminengi yeensetjenziswa zokwakha ibulungelo.
 faq-do-want-native-q = Leli akusililimi engilimunyileko begodu kuyezwakala lokho nangikhulumako. Nisalifuna iphimbo lami?
+faq-do-want-native-a = Iye, sifuna iphimbo lakho ngokukhethekileko! Enye ingcenye yehloso yeCommon Voice kukuthi sibuthelele iindlela ezinengi zokukhuluma ngendlela esingakghona ngayo ukwenzela bona i-voice recognition services  isebenze ngendlela efanako ebantwini boke. Lokho kutjho bona nabantu okungasi babantu bendabuko nabo kuqakathekile bona banikele.
 faq-why-different-speakers-q =
     Kubayini sitlhoga abantu abanengi 
     elimini elilodwa?
@@ -475,6 +478,7 @@ faq-is-account-public-q = I-akhawundi yami yemininingwana isebenza njani?
 faq-how-privacy-q =
     Uqinisekisa njani ukuthi
     abantu abanikela ngamaphimbo wabo abaziwa?
+faq-how-privacy-a = Zisusiwe izinto ezingenza bona kwazeke bona ngubani okhulumako kiwo woke amaphimbo arekhodiweko. Nange umuntu onikelako anikela ukwaziswa kwephimbo imininingwana ngaye ayihlanganiswa nokwaziswokho ayifakwa ekhasini lapho woke umuntu akghona ukubona khona.
 faq-what-determine-identity-q = Kutjho ukuthini ukuthi "angikghoni ukwazi bona ngubani okhulumako" ebulungelweni leCommon Voice
 faq-what-determine-identity-a =
     I-The Common Voice dataset sisetjenziswa esitjhaphulukileko nesenzelwe umphakathi begodu singasetjenziswa ukubandula abantu abahlukahlukeneko abangakghoni ukukhuluma. Bona sivikele abantu abahlanganyela ejimeneli, sibawa woke umuntu odawnloda ku-Common Voice dataset bona ahloniphe abahlanganyeli.
@@ -528,7 +532,9 @@ about-no-votes = Kunamavowudi ama≥ 2
 about-no-votes-text = Kunamavowudi ama≥ 2
 about-dataset-new = I-Common Voice Dataset
 about-clip-graveyard = Iinqetjhana ezilahliweko
-about-clip-graveyard-text = { "" }
+about-clip-graveyard-text =
+    I-The Clip Graveyard inamaphimbo angakaphumeleli ukuba sebulungelweni leCommon Voice dataset. Njengombana nayo ilibulungelo, iGraveyard iyafumaneka bona idawnlodwe.
+    Sithanda ukuthokoza iinhlangano ezilandelako ngesizo lazo emsebenzini lo:
 about-get-involved = Zibandakanye
 about-stay-in-touch = Ngingahlala njani nginelwazi?
 about-stay-in-touch-button = Zitlolise
@@ -551,6 +557,11 @@ about-playbook-what-is-language = Ngiliphi ilimi elikuCommon Voice?
 about-playbook-how-add-language = Ngingalifaka njani ilimi?
 about-playbook-how-add-language-translating-heading = Indawo yokutjhugulula
 about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Bukela iinqophiso zethu kubona isetjenziswa njani iPontoon.</translateVideoLink>
+about-playbook-how-add-language-translating-content-2 =
+    Sisebenzisa ithulusi leMozilla elibizwa ngokuthi yi<pontoonLink>Pontoon</pontoonLink> yokutjhugulula. IPontoon inamalimi amanengi,
+    kodwana ilimi lakho nalingekho <pontoonRequestLink> ungafaka isibawo sokuthi lifakwe </pontoonRequestLink>.
+    Ngemva kwalokho, bona ilimi libe khona kuCommon Voice project,
+    bawa ilimi elitjha <githubRepoLink> kuGitHub. </githubRepoLink>. <localizationFragment> Qala amahlangothi ahlukahlukeneko wamatjhugululo </localizationFragment>.
 about-playbook-how-add-language-collecting-sentences-heading = Buthelela imitjho
 about-playbook-how-add-language-collecting-sentences-content-1 =
     <sentenceCollectorVideo>Bukela 
@@ -565,6 +576,7 @@ about-playbook-how-localize = Ikhasi lamalimi wendabuko lisebena njani?
 about-playbook-how-localize-content-1 =
     Ukutjhugululwa kweCommon Voice kwenzeka 
     ku <strong>Pontoon</strong>.
+about-playbook-how-localize-content-3 = Ukutjhugulula ususela esiNgisini, kodwana ungabona <strong>Suggestions</strong> nezinye iinhlongozo zamanye amalimi. Gandelela <strong>Profile</strong> itshwayo leProfile, ngemva kwalokho ilinki <strong>Settings</strong> yamaSettings bese ukhetha amalimi owakhulumako. Phasi ngasesandleni sokudla kuzokuba nerhelo lokutjhugululweko  <strong>Locales</strong> okubizwa ngokuthi maLocales. Okutjhugululweko kuzokuvela ngemva kwelanga linye.
 about-playbook-how-localize-content-4 =
     Ikhaseli lizabe likulungele ukwethulwa ngokusemthethweni
     nasele lifikelele ku-70%.
@@ -1185,6 +1197,7 @@ contribution-background-voices-example-1-explanation =
     Uyeza? <strong>[called by 
     another]</strong>
 contribution-volume-title = Ivolomu
+contribution-volume-description = Indlela abantu abafunda ngayo izokuhluka. Kwale kwaphela nange itjhada umuntu afunde ngalo liphezulu khulu kangangokuthi kuqunteke akutjhoko, namkha (okujayeleke khulu) liphasi khulu kangangokuthi akuzwakali bona kuthiwani ngaphandle kokuthi kuqalwe okutloliweko.
 contribution-reader-effects-title = Iinkunupe zokufunda
 contribution-just-unsure-title = Awuqiniseki?
 see-more = <chevron></chevron>Veza okwengeziweko
@@ -1242,8 +1255,11 @@ sc-howto-addlang-text =
     Nasele uthungele ungakghona ukukhetha amalimi
     owafunako erhelweni.
 sc-howto-addsen-title = Faka imitjho emitjha
+sc-howto-addsen-item-1 = Yoke imitjho oyithumelako kufuze ibe nemvumo <wikipediaLink>yePublic Domain (CC-0) licence</wikipediaLink>. Bona sisekele imisebenzi engasi ngaphasi kwemvumo yepublic licence <cc0WaiverLink> senze isivumelwano sokunikela </cc0WaiverLink> lapho abanikazi bokutloliweko bangakghona ukunikela ngomsebenzabo ku-Common Voice.
 sc-howto-addsen-item-2 = Iinomboro. Akukafuzi kube neenomboro emitlolweni ngombana kubamraro ukuzifundela phezulu. Indlela iinomboro ezifundeka ngayo kuya ngendlela umutjho otloleke ngayo begodu kungabangela ihlangahlangano. Ngokwesibonelo, inomboro “2409” ingafundeka ngeendlela ezimbili ezivumelekileko “amatjhumi amane naboziro abalithoba” namkha “iinkulungwana namakhulu amane nalithoba”.
 sc-howto-addsen-item-3 = Ukufitjhanaswa nokurhunyezwa kwamagama. Amagama atlolwe ngokufitjhaniswa namkha ngokurhunyezwa njengala  “USA” namkha “ICE” kufuze abalekelwe nakutlolwako ngombana angabizwa ngendlela ehlukileko kunele atloleke ngayo. Ukungenzelela kilokho, kungaba neendlela ezinengi ezilungileko zokubiza isirhunyezo sinye. Ngokwesibonelo, ibizo elitlolwe ngokufitjhanisa elithi  “ICE” lingafundeka bunjesi “I-C-E” namkha lifundeke njengebizo linye.
+sc-howto-addsen-item-4 = Amatshwayo wokufunda. Amatshwayo wokufunda akhethekileko kufuze asetjenziswe kwaphela nekunetlhogeko yokwenza njalo. Ngokwesibonelo, isibabazo siyafakwa emabizweni wesiNgisi afana nalawa “ungenzi njalo” namkha “thina” begodu kufuze atlolwe phasi, kodwana akukajayeliki bona kungatlhogeka kusetjenziswe amatshwayo anjenga la “@” or “#.”
+sc-howto-addsen-post-1 = Siyibona ngcono imitjho esakulumiswano. Ngitjho nanyana amagama kanengi aziwa babantu abafundileko aqakathekile kodwana silinga ukwenza imitjho erekhodiweko ibe mnandi ngendlela esingakghona ngayo. Yeke kungaba kuhle bona wenze imitjhwakho ibe lula begodu abantu bakuthabele ukuyilalela ngendlela ongakghona ngayo.
 sc-howto-cite-title = Indlela yokudzubhula
 sc-howto-cite-item-1 = Ungahlanganisa newebhusayidi, isb. "Common Voice - https://commonvoice.mozilla.org/"
 sc-howto-cite-item-2 = Ungasebenzisa indlela yokutlola yefundo ephakamileko isb. Harvard style "Mozilla (2021) Common Voice. Efumaneka ku-https://commonvoice.mozilla.org/ (Accessed: 15th September 2021)"
@@ -1270,6 +1286,7 @@ sc-howto-findpd-tips-3 =
     Ngebhadi azikho iinhloko esizifumanako ku-Wikimedia.
     Yeke ungakopi namkha ufake okuthileko endaweni le.
 sc-howto-findpd-subtitle-2 = Zihlanganise neenhlangano zangekhethu namkha nabantu ngabanye
+sc-howto-findpd-partner-1 = Zinengi iinhlangano ezingafuna ukusebenzisana nathi begodu sele zinokunengi okutloliweko ezinganikela ngakho ebulungelweni lethu lomphakathi. Thintana namayunivesithi, uRhulumende, iinhlangano ezizijameleko ukhulume nazo uzibawe bona zisisize.
 
 ## MY SENTENCES
 
