@@ -221,6 +221,7 @@ about-is-it-valid-text = Kgatiso ya lentswe e tshwaiwa e "siame" fa modirisi a e
 about-yes-votes-text = Gore kgatiso ya lentswe e tsene mo rekotong ya tshedimosetso ya Common Voice, e tshwanetse ya bo e tlhomamisitswe ke badirisi ba babedi.
 about-no-votes-text = Fa modirisi a gana polelo, e boela kwa Moleng. Fa kgatiso ya lentswe e ganwa lekgetlho la bobedi, e romelwa kwa Clip Graveyard.
 about-dataset-new-text = Rekoto ya Tshedimosetso ya Common Voice e na le disampole tsa mantswe di le makgolo a le diketekete tse di thusang badiri go tlhama dithulusu tse di lemogang mantswe.
+about-clip-graveyard = Lebitla la Bidio
 about-clip-graveyard-text =
     Clip Graveyard e na le dikgatiso tsa mantswe tse di sa kgonang tsena mo tshedimosetsong ya Common Voice. Fela jaaka tshedimosetso, Clip Graveyard le yone e ka itseelwa.
     
@@ -651,3 +652,5 @@ sc-settings-skipped-decription = O tlodile mela kwa morago fa o ntse o sekaseka.
 
 # [/SentenceCollector]
 
+localization-select =
+    .label = Tlhopa puo/go dira go nne ga lefelo
