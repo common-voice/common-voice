@@ -576,6 +576,7 @@ about-playbook-how-localize = Ikhasi lamalimi wendabuko lisebena njani?
 about-playbook-how-localize-content-1 =
     Ukutjhugululwa kweCommon Voice kwenzeka 
     ku <strong>Pontoon</strong>.
+about-playbook-how-localize-content-2 = <pontoonAccountLink>Yenza i-akhawudi </pontoonAccountLink> nawunganayo. Ngemva kwalokho, khetha ilimi lakho <strong>(‘Team’)</strong> begodu ngemva kwalokho ukhethe umsebenzi <pontoonCvLink>Common Voice</pontoonCvLink>. Kuzokuba namafayili ekufuze atjhugululwe. Gandelela kwelinye lawo, lizokuveza amagama wesiNgisi nebhoksi ongawatjhugululela kilo.
 about-playbook-how-localize-content-3 = Ukutjhugulula ususela esiNgisini, kodwana ungabona <strong>Suggestions</strong> nezinye iinhlongozo zamanye amalimi. Gandelela <strong>Profile</strong> itshwayo leProfile, ngemva kwalokho ilinki <strong>Settings</strong> yamaSettings bese ukhetha amalimi owakhulumako. Phasi ngasesandleni sokudla kuzokuba nerhelo lokutjhugululweko  <strong>Locales</strong> okubizwa ngokuthi maLocales. Okutjhugululweko kuzokuvela ngemva kwelanga linye.
 about-playbook-how-localize-content-4 =
     Ikhaseli lizabe likulungele ukwethulwa ngokusemthethweni
@@ -625,6 +626,7 @@ about-playbook-how-validate-content-4 = Nange okurekhodiweko kwaliwa babantu aba
 ## How to access dataset
 
 about-playbook-how-access-dataset = Ngingalifumana namkha ngilisebenzise njani ihlelweli?
+about-playbook-how-access-dataset-content-1 = Ungatjhinga <datasetsPage>datasets page</datasetsPage> ekhasini lebulungelo, khetha ihlobo nelimi namkha amalimi owafunako, bese uyawadownloda! Amafayili la  <metadataLink>associated metadata</metadataLink> akhambisana nokwaziswa kwawo, okunjengehlobo labantu nemininingwana yokuphumelelisa ukwaziswokhu. Kufuze ufake i-email yakho nawuzokukghona ukudawnloda ebulungelweneli.
 about-playbook-how-access-dataset-content-2 = Nange funa amathulusi wokwakha amahlelo we-ASR, ungazihlanganisa nabanye abantu emphakathini <discourseLink>eBulungelweni</discourseLink>.
 
 ## How are decisions made
@@ -1170,6 +1172,7 @@ contribution-misreadings-example-8-title = Ikhamba ngebelo le.
 contribution-misreadings-example-8-explanation = [Okungatlhogekiko]
 contribution-varying-pronunciations-title = Ukuphimisela okuhlukahlukeneko
 contribution-varying-pronunciations-description = Tjheja ngaphambi kobana wale okurekhodiweko ngebanga lokuthi ucabanga bona umfundi akakabizi kuhle ibizo, ugandelele endaweni engakafaneli namkha akakahloniphi itshwayo lombuzo. Kuneendlela ezinengi zokubiza amagama ephasini mazombe, ezinye zakhona kungenzeka awukhenge wazizwa emphakathini ohlala kiwo. Sibawa ubabuke labo abakhuluma ngendlela ehlukileko kunawe.
+contribution-varying-pronunciations-description-extended = Ngakwelinye ihlangothi, nawucabanga bona umfundi kungenzeka akhenge khekahlangane nebizo ngaphambilini, begodu uyaqagela ukuthi ibizo elithileko lingabizwa njani, ungalamukeli. Nawungaqiniseki ngalokho, gandelela ikinobho yokweqa skip.
 contribution-varying-pronunciations-example-1-title = Umbethe ibherede ehlokwakhe.
 contribution-varying-pronunciations-example-1-explanation = [‘Berete’ ngu Iye kungakhathaliseki bona ugandelelwa kokothoma e- (UK) namkha kwesibili e- (US)]
 contribution-varying-pronunciations-example-2-title = Isandla sakhe besiphakamile.
