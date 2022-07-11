@@ -21,6 +21,7 @@ banner-error-slow-2 = Hu na trafiki ine ya khou itea kha saiti, ri khou ita ṱh
 
 ## Layout
 
+content-license-text = Mafhungo a wanala kha <licenseLink>Creative Commons ḽaisentsi</licenseLink>
 share-title = Ri thuseni u wana vhaṅwe vhane vha nga nikela nga maipfi avho!
 share-text = Thusani u gudisa mitshini uri vhathu vhavhukuma vha ambisa hani, nikelani nga ipfi ḽaṋu { $link }
 
@@ -86,6 +87,8 @@ status-hours =
 
 ## ProfileForm
 
+profile-form-variant =
+    .label = Ni amba varianti { $language } ifhio ya luambo?
 why-profile-text =
     Nga u ri vhudza zwiṅwe zwidodombedzwa zwaṋu, data ya odio ine na i rumela kha Common Voice i ḓo kona u shumiswa zwavhuḓi kha mitshini ya u Ḓivha
     Ipfi ine ya ḓo shumisa yeneyi data u itela uri i kone u vha ya khwine-khwine uri i shume zwavhuḓi.
@@ -300,6 +303,7 @@ datasets-positioning =
 why-email = <b>Ndi ngani hu tshi ṱoḓea email?</b> Ri nga tea u ni kwama tshifhingani tshi ḓaho nga nṱhani ha tshanduko dzo iteaho kha dataset, email i ita uri ri kone u ni kwama.
 confirm-size = No lugela u thoma u downḽoda zwithu zwa <b>{ $size }</b>
 confirm-no-identify = <b>Ni khou tenda</b> uri a ni nga lingedzi u ḓivha muambi kha dataset ya Common Voice
+whats-inside = Hu na mini nga ngomu ha dataset ya Common Voice?
 dataset-description-hours =
     Tshiteṅwa tshiṅwe na tshiṅwe tsha dataset tshi na MP3 yo khetheaho na mafhungo a tshimbidzanaho natsho. Vhunzhi ha <b>{ $total }</b> dzi awara dzo rekhodiwa kha dzi dataset dzi katela metadata ine ya amba nga ha zwidodombedzwa zwa muthu zwi ngaho miṅwaha, mbeu na kuambele zwine zwa nga thusa kha u gudisa zwavhuḓi tshishumiswa tsha u pfa ipfi.
     
@@ -366,6 +370,7 @@ record-platform-not-supported-desktop = Kha tshishumiswa tsha desktop ni nga she
 record-platform-not-supported-ios-non-safari = Kha iOS ri humbela uri ni bvele phanḓa ni tshi shumisa Safari u itela uri ni kone u rekhoda…
 review-tooltip = Ṱolisisani & ni dovholole u rekhoda ni tshi khou bvela phanḓa
 record-abort-text = Na ṱuwa zwino ni ḓo xelelwa nga mvela phanḓa yaṋu
+listen-again-instruction = Mushumo wavhuḓi!<playIcon></playIcon> Dovhani ni thetshele musi no lugela
 listen-empty-state = Ro fhelelwa nga zwo rekhodiwaho zwine zwa ṱoḓa u khwaṱhisedzwa...
 listen-loading-error =
     A ro ngo kona u wana odio dzo rekhodiwaho dza maipfi uri inwi ni kone u dzi thetshelesa.
@@ -377,6 +382,7 @@ speak-loading-error =
 keep-track-profile = Dzulani ni tshi ḓivha mvela phanḓa yaṋu nga profaiḽi
 login-to-get-started = Ḽogani kana sign up uri ni kone u thoma
 target-segment-first-card = Ni khou shela mulenzhe kha tshipiḓa tsha tshipikwa tshashu tsha u thoma
+target-segment-generic-card = Ni khou shela mulenzhe kha tshipiḓa tsha tshipikwa
 target-segment-first-banner = Ri thuseni u ita tshipikwa tsha tshipiḓa tsha u thoma tsha Common Voice kha { $locale }
 
 ## Reporting
@@ -419,6 +425,8 @@ not-receiving-emails-info = Zwa zwino no pangiwa kha u <bold>U SA</bold> wana mi
 help-share-goal = Ri thuseni u wana maipfi manzhi, sherani tshipikwa tshaṋu
 # LINK will be replaced with the current URL
 goal-share-text = Ndo ḓiitela tshipikwa tshau nikela nga ipfi kha #CommonVoice – shelani mulenzhe na nṋe kha u funza mitshini uri vhathu vha vhukuma vha ambisa hani { $link }
+weekly-goal-created = Tshipikwa tshaṋu tsha vhege tsho itiwa
+daily-goal-created = Tshipikwa tshaṋu tsha ḓuvha tsho itiwa
 track-progress = Sedzani mvela phanḓa yaṋu hafha na kha siaṱari laṋu ḽa mbalo-mbalo.
 return-to-edit-goal = Vhuyelani hafha uri ni kone u shandukisa tshipikwa tshaṋu tshifhinga tshiṅwe na tshiṅwe.
 
@@ -489,6 +497,7 @@ contribution-misreadings-example-3-explanation = [Zwo rekhodiwaho zwo khathuwa i
 contribution-misreadings-example-4-title = Dinosaurs khulu ya Triassic. Ee.
 contribution-misreadings-example-4-explanation = [Ho rekhodiwa zwi fhiraho mafhungo a ṱoḓeaho]
 contribution-misreadings-example-5-title = Ri khou ya u nwa gofhi.
+contribution-misreadings-example-6-title = Ri khou ya u nwa gofhi
 contribution-misreadings-example-7-title = Ri khou ya u nwa gofhi.
 contribution-varying-pronunciations-description = Ni ṱhogomele uri ni sa ri zwo rekhodiwaho a si zwone nga ṅwambo wa uri muvhali ha ngo bula zwavhuḓi ipfi, kana o ombedzela fhethu hu si hone, kana khamusi o litsha u vhala tshiga tsha u vhudzisa. Hu na kubulele kwa maipfi kwo fhambananaho u mona na shango, kuṅwe kwa hone khamusi a ni athu u ku pfa vhuponi ha haṋu. Ri humbela uri ni ṱanganedze vhane vha amba nga nḓila yo fhambanaho na yaṋu.
 contribution-varying-pronunciations-description-extended = Kha ḽiṅwe sia, arali ni tshi vhona u nga muvhali ha athu vhuya a ṱangana na iḽo ipfi, nahone ho tou humbulelwa kubulele kwaḽo, ni songo zwi tendela. Arali ni si na vhungoho, shumisani gunubu ya u pfuka.
@@ -498,6 +507,7 @@ contribution-varying-pronunciations-example-2-explanation = [Ipfi ḽa Luisimane
 contribution-background-noise-description = Ri ḓo ṱoḓa uri algorithm dza machine learning dzi kone u fhambanyisa phosho i re nga murahu, na phosho ya khulwane i nga tendela, fhedzi a yo ngo tea u thivhela uri ni pfe zwoṱhe zwo ambiwaho. Muzika u re fhasi wo tendelwa; muzika u ne wa khou ita phosho lune ni si kone u pfa maipfi oṱhe ane muṅwe a khou a amba a wo ngo tendelwa.
 contribution-background-noise-description-extended = Arali rekhodo yo khathuwa, kana i na manzaranzara, i haneni nga nnḓani ha musi mafhungo oṱhe a tshi khou pfala.
 contribution-background-noise-example-1-fixed-title = <strong>[Sneeze]</strong> Dinosaurs khulu ya <strong>[cough]</strong> Triassic.
+contribution-background-noise-example-2-explanation = [Tshipiḓa tsha mafhungo a tshi pfali]
 contribution-background-voices-description = Fhethu hu re na vhathu fhedzi ho fhumuaho ho luga, fhedzi a ri ṱoḓi uri hu pfale maṅwe maipfi ane a nga ita uri mitshini ya algorithm i ḓivhe zwiṅwe zwine zwa khou ambiwa zwi songo ṅwalwaho. Arali ni tshi khou pfa maipfi o khetheaho a siho kha mitaladzi yo ṅwalwaho, zwo rekhodiwaho a zwo ngo tendelwa. Zwenezwi zwi nga itea musi TV yo sala i tshi khou tamba, kana hu na vhathu vhane vha khou amba tsini na henefho.
 contribution-background-voices-description-extended = Arali rekhodo yo khathuwa, kana i na manzaranzara, i haneni nga nnḓani ha musi mafhungo oṱhe a tshi khou pfala.
 contribution-background-voices-example-1-title = Dinosaurs khulu ya Triassic. <strong>[read by one voice]</strong>
@@ -542,6 +552,7 @@ sc-howto-review-subtitle = Itani vhungoho ha uri mutaladzi u swikelela ṱhoḓe
 sc-howto-review-criteria-4 = Arali mutaladzi u tshi swikelea ṱhoḓea, puṱedzani bathene ya u "Phasisa".
 sc-howto-review-criteria-5 = Arali mutaladzi u sa swikeleli ṱhoḓea dzi re afho nṱha, puṱedzani gunubu ya "Hana". Arali ni si na vhungoho ha uri mutaladzi a si wone, ni nga u pfukha na pfukela kha u no khou tevhela..
 sc-howto-review-criteria-6 = Arali na fhelelwa nga mitaladzi ya u ṱolisisa, ri humbela uri ni ri thuse nga u kuvhanganya miṅwe mitaladzi minzhi!
+sc-howto-findpd-title = U wana mitaladzi yo no vha ho hone Fhethu ha Tshitshavha Tshoṱhe
 sc-howto-findpd-text-2 = Ni humbule uri ri ṱoḓa tendelo uri ri anḓadze yeneyo mitaladzi, ni dzule ni tshi ita vhungoho ha uri zwo ṅwalwaho ndi zwa <wikipediaLink>fhethu ha tshitshavha tshoṱhe</wikipediaLink>. Arali hu songo bvelwa khagala, vhudzisani muṋe wazwo arali a tshi ṱoḓa uri zwe a shela ngazwo mulenzhe zwi anḓadzwe Fhethu ha Tshitshavha Tshoṱhe. Arali vha tshi zwi takalela, vha thuseni uri vha vhale <cc0WaiverLink>Thendelo ya Vhashelaho mulenzhe</cc0WaiverLink>. Arali vha sa ṱoḓi u nikela nga zwo ṅwaliwaho, a no ngo tendelwa u shumisa zwo ṅwaliwaho.
 sc-howto-findpd-tips = Khezwi zwiṅwe zwine na nga zwi ita uri ni wane mitaladzi:
 sc-howto-findpd-tips-1 = Fhethu havhuḓi hune na nga wana hone zwithu ndi kha dzi podcast, maipfi a ṅwalwaho a tshi bva kha matambwa, maipfi a zwiṱori zwa thelevishini, na tshiṅwe na tshiṅwe tshine tsha nga vha tshi na nyambedzano dza ḓuvha na ḓuvha.
@@ -678,6 +689,7 @@ sc-lang-info-rejected =
 
 ## PROFILE
 
+sc-personal-err-lang-not-found = A zwo ngo konadzea u bvisa luambo: luambo a lwo ngo wanala
 sc-personal-not-added = A ni athu u panga luambo na luthihi u swika zwino.
 
 ## REVIEW CRITERIA
@@ -707,6 +719,7 @@ sc-review-form-review-failure = Zwe na ṱolisisa a zwi ngo vhulungea kana u sei
 ## SETTINGS
 
 sc-settings-skipped-decription = Murahuni no pfukha mitaladzi ni tshi khou vhalulula. U risetha mitaladzi yo pfukhiwaho zwi ḓo sumbedza mitaladzi yoṱhe ye na i pfukha. Hezwi zwi itea kha luambo luthihi nga tshetsho tshifhinga.
+sc-settings-failed = A zwo ngo konadzea u shandukisa dzi setiṅi. Ri humbela uri ni dovhe ni lingedze.
 # VALIDATION
 sc-validation-number-of-words = Mutaladzi u tea u vha na mapfi a 1 u swika kha 14
 
