@@ -726,6 +726,8 @@ sc-review-form-reviewed-message =
 ## SETTINGS
 
 sc-settings-skipped-decription = O tlodile mela kwa morago fa o ntse o sekaseka. Go rulaganya sesha mela e e tlodilweng go tla bontsha gape mela yotlhe e o e tlodileng. Seno ga se a ikaega ka puo.
+# VALIDATION
+sc-validation-number-of-words = Mola o tshwanetse go nna le mafoko a a magareng ga 1 le 14 (a a feletseng)
 
 # [/SentenceCollector]
 
