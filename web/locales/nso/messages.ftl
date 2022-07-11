@@ -379,6 +379,7 @@ settings = Dilaolatirišo
 edit-profile = Lokiša Profaele
 profile-create-success = Katlego, profaele e hlangwe!
 profile-close = Tswalela
+profile-explanation = Dula o tseba boemo bja tšwelopele yagago ka profaele le go thuša datha ya rena ya lentšu go nepagala kudu.
 thanks-for-account = Rea leboga go tiišetša akhoante ya gago, bjale a re age profaele ya gago.
 why-demographic = Ke ka baka la'ng e le bohlokwa?
 why-demographic-explanation-2 = Datha ya modiriši ye o sa tsebjego bjalo ka mengwaga, le bong bja motho, le mmolelo ao a thuša go go kaonefatša datha ya odio e šomišago go eteletša nepagatšo ya di-entšene a tlhathollo ya mantšu. Leina la gago la mošomiši le e-meile di ka se itswalanye le datha yeo e rometšego, gomme o ka kgetha gore na leina la gago la mošomiši le phatlalatšwe goba le se tsebje.
@@ -572,6 +573,7 @@ about-playbook-how-add-sentences-content-2 =
     "Mafoko a swanela go hlahlobja le go amagelwa ke batho ba babedi gore di tsenywe mo go Common Voice. O hlangwa tlhahlo mabapi le tša polelo ya geno
     <languageGuidelinesLink> mo</languageGuidelinesLink>. Mafoko a swanetše go ba<licenseLink> lefelong la batho bohle</licenseLink>  gomme le be kopana go fetwa/ka tlase ga mantšu a 15. O ka kgopela mong wa mongwalo go e dira <waiverLink>CC0 o šomiša mokgwa wa rena wa go tlogela</waiverLink>, gomme o re romele go commonvoice@mozilla.com"
 about-playbook-how-add-sentences-content-3 = O ka šomiša <scraperLink>leswao la kgaoganyo ya Lefoko</scraperLink> go šomiša mafoko a fokotšegilego a go tšwa go Wikipedia.
+about-playbook-how-add-sentences-content-4 = Mafoko a kgonthišitšweng a romelwa ka laboraro, a tle a be gona ka morago ga tše tlo lokollwa tše latelago.
 
 ## How to record quality
 
@@ -592,7 +594,7 @@ about-playbook-how-grow-language-content-4 = Poledišano ya  inthaneteng
 about-playbook-how-grow-language-content-5 = O ka šomiša lekgotla la poledišano ya inthaneteng go kgona go iša molaetša go batho ka moka. Abelana melaetša e hlalosago gore na ke baka la eng go le bohlokwa, gomme o ikgokaganye le batho ba bangwe bao ba bolelago ka mathata a go swana le ditokelo tša polelo, lentšu la AI, goba tshekamelo go theknolotši. Bona dikeletšo tše dingwe mabapi le<campaignLink> go tsamaiša lesolo  la setšhaba, go akaretša le diteng tšeo o ka di šomišago gape</campaignLink>.
 about-playbook-how-grow-language-content-6 = Tirišano le dinetweke
 about-playbook-how-grow-language-content-7 = Hwetša ba bagwe bao ba tshwenyegago. Seo se ka ba diyunibesithi, dikolo tša maleme, dihlopha sa bathekgi goba setšhaba sa thutamahlale ya datha. Katanela go fihlilela ditokelelo gomme o hlalose gabotse gore na na ka thuša bjang le gore na ke ka baka la eng.  <outreachTemplates>Lebelela di-emeile tša rena tša thempleite</outreachTemplates>.
-about-playbook-how-grow-language-content-8 = <strong>Diriša bohlale!!</strong> Polelo ya geno e tla ba moswananoši, tše ke ditsela tše mmalwa tša go thoma.
+about-playbook-how-grow-language-content-8 = <strong>Diriša bohlale!!</strong> Polelo ya geno e tla ba moswananoši, tše ke ditsela mmalwa tša go thoma.
 
 ## How to validate
 
@@ -676,7 +678,7 @@ review-delete-recordings = Phumola dikgatišo tšaka
 ## Datasets Page
 
 datasets-heading = Di-dathasete
-datasets-headline = Re aga dathasete e bulegilego, ya go ba le dipolelo tše dintši ya mantšu a ka šomišago ke mang le mang go tlwaetša tirišo ye dumelago polelo.
+datasets-headline = Re aga dathasete e bulegilego, ya go ba le dipolelo tše dintši ya mantšu a ka šomišago ke mang le mang go tlwaetša tirišo ye dumelang polelo.
 datasets-positioning =
     Re dumela gore dathasete tša lentšu tše dikgolo di tla hwetšagala phatlalatša di kgothaletša go tšweletša mekgwa e mefsa le tlhodišano ya kgwebo e matla go theknolotši ya mantšu e thekgilwego ke motšhene.
     
@@ -718,6 +720,7 @@ community-playbook = Puku ya Tshedimošo ya Setšhaba
 resource-playbook-info = <playbookLink>Hwetša keletšo ya maleba </playbookLink> go leeto le feletšego la Common Voice, go tšwa mo o dulago gona go ya go tirišo ya datha, le gore le kopana bjang le setšhaba sa rena.
 data-other-librispeech-description = LibriSpeech ke pokello ya dipego ya diiri  tše ka bago tše 1000 tša 16Khz tše di balwago ka polelo ya Seisemane e tšwerego dipukeng tša odio tše balwago tša go tšwa  morerong wa LibriVox.
 data-other-ted-name = TED-LIUM Corpus
+data-other-ted-description = TE-LIUM coepus e dirilwe go odio tša go bolela le direkhoto tša yona di gona go wepesaete ya TEB.
 data-other-voxforge-description = VoxForge e beilwe go kgobokanya polelo e fetotšwego gore e berikišwe ka Mahala le Mothopo o Bulegilego wa Di-entšene tša Tlhathollo ya Polelo.
 data-other-tatoeba-description = Tatoeba ke dathabeise e kgolo ya mafoko, diphetolelo, le mantšu a go bolelwago a odio bakeng sa go dirišwa go ithuta polelo. Tanelouto e e na le Seisemane se se bolelwago sa go rekhotiwa ke setšhaba sa gabo rena.
 your-feedback = Afa o nale dikgopolo gore re ka dirang gore dathasete ya Common Voice e be kaone? Re tsebiše go Discourse
@@ -975,7 +978,7 @@ how-many-per-day = Go ka botse! Ke di pego tše kae ka letšatši?
 how-many-a-week = Seo se a kgahiša! Ke ditsopolwa tše kae ka beke?
 which-goal-type = O nyaka go bolela, go Theeletša goba ka bobedi?
 receiving-emails-info = Gona bjale o loketše go hwetša di-emeile tša go swana le dikgopotšo tša dipakane, sebontšhatšwelopele le mangwalo a ditaba tša Common Voice.
-not-receiving-emails-info = Gona bjale o ka <bold>GANA</bold> go hwetša lenaneo la poso la dikgopotšo tša dipakane,  sebontšhatšwelopele le mangwalo a ditaba tša Common Voice
+not-receiving-emails-info = Gona bjale o <bold>GANA</bold> go hwetša lenaneo la poso la dikgopotšo tša dipakane, sebontšhatšwelopele le mangwalo a ditaba tša Common Voice
 n-clips-pluralized =
     { NUMBER($count) ->
         [one] { $count } setsopolwa
@@ -1094,6 +1097,7 @@ contribution-misreadings-title = Di balo tše fošagetšego
 contribution-misreadings-description = Ge o theeditše, hlahloba ka kelohloko gore na seo se gatišitšwego ke sona seo se ngwadilwego; gana ge e ba go na le diphošo tše nyenyane. <br />Diphošo tše di tlwaelegilego kudu di akaretša:
 contribution-misreadings-description-extended-list-1 = Go hloka <strong>'A'</strong> goba <strong>'The'</strong> mathomong a pego.
 contribution-misreadings-description-extended-list-2 = Go hloka<strong>'s'</strong> mafelelong a lentšu.
+contribution-misreadings-description-extended-list-3 = Go bala mantšu a fokoditšwego a se ng wona bjale ka "Re' go e na le "Rea', goba bjalo le bjalo.
 contribution-misreadings-description-extended-list-4 = Go hlaela ke pheletšo ya mafelelo a lentšu gobane o timile pego kapela kudu.
 contribution-misreadings-description-extended-list-5 = Tšea maiteko a mmalwa a go bala lentšu.
 contribution-misreadings-example-1-title = Dinosaur e kgolo ya Triassic.
