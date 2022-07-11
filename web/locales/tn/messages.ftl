@@ -301,6 +301,7 @@ datasets-positioning =
     Tshedimosetso ya Common Voice ya dipuo tse dintsi ke tshedimosetso e kgolo ya batho botlhe e e leng teng ya mantswe, mme ga se yone fela.
     
     Leba tsebe eno jaaka tshupiso go bona tshedimosetso e nngwe ya mantswe, mme jaaka Common Voice e tswelela go gola, e nna legae la ditlhabololo tsa rona.
+cv-license = Laesense
 why-email = <b>Goreng imeile?</b> Re ka tlhoka go ikgolaganya le wena mo isagweng malebana le diphetogo tsa tshedimosetso, imeile ke tsela e re ikgolaganyang ka yone.
 confirm-no-identify = <b>O dumela</b>go sa leke go lemoga boikitsiso jwa babui ba ba mo rekotong ya tshedimosetso ya Common Voice
 dataset-description-hours =
