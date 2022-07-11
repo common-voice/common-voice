@@ -632,6 +632,7 @@ about-playbook-how-grow-language-content-4 = Metjha ya ditaba ya setjhaba
 about-playbook-how-grow-language-content-5 = O ka sebedisa marang-rang a setjhaba ho fetisa molaetsa. Arolelana diposo tse hlalosang hore na ke hobaneng ho le bohlokwa, mme ikopanye le batho ba bang ba buang ka ditaba tse kang ditokelo tsa puo, AI ya lentswe, kapa leeme kahara thekenoloji. Sheba dikeletso tse ding mabapi le<campaignLink> ho tsamaisa letsholo la setjhaba, ho kenyelletsa le ditaba tseo o ka di sebedisang hape</campaignLink>.
 about-playbook-how-grow-language-content-6 = Dikamano le marang-rang
 about-playbook-how-grow-language-content-7 = Batla ba bang ba tsotellang. Bao e ka ba diunivesithi, dihlopha tsa babuelelli kapa dihlopha tsa mahlale a data. Ikopanye le bona mme o hlalose hantle na bona ba ka thusa jwang le hobaneng. <outreachTemplates>Sheba mehlala ya rona ho di-email tsa phihlello</outreachTemplates>.
+about-playbook-how-grow-language-content-8 = <strong>E-ba le boiqapi!</strong> Puo ya heno e tla ikgetha, mme tsena ke ditsela tse seng kae feela tsa ho qalalella.
 
 ## How to validate
 
@@ -697,6 +698,7 @@ data-bundle-button = Download-a Sephuthelwana sa Polokelo ya Data
 data-bundle-description = Data ya Common Voice le dipokello tsa data ding kaofela tse ka hodimo.
 release-version = Mofuta
 dataset-date = Letsatsi
+license = Laesense: <licenseLink>{ $license }</licenseLink>
 license-mixed = E tswakantswe
 data-download-singleword-title = Download karolo e lebisitsweng ya lentswe le le leng
 data-download-singleword-callout-v2 = Ena ke karolo e tsamaiswang ke use case e nang le data ho matlafatsa temoho ya palo e buuweng le temoho ya ee / tjhe.
@@ -777,6 +779,7 @@ download-helpus = Re thuse ho aha setjhaba mabapi le thekenoloji ya lentswe, dul
 download-form-email =
     .label = Kenya email ya hao.
     .value = Rea leboha, re tla buisana.
+download-back = Kgutlela ho dipokello tsa data tsa Common Voice
 download-no = Tjhe Kea Leboha
 
 ## Contact Modal
@@ -888,6 +891,7 @@ share-common-voice = Arolelana Common Voice
 review-instruction = Hlahloba le ho rekota di-clip hape ha ho hlokahala
 record-submit-tooltip = { $actionType } romela ha e se e loketse
 clips-uploaded = Di-clip di kentswe
+record-abort-title = Qetela ho rekota pele?
 record-abort-text = Ho tsamaea hona jwale ho bolela hore o tla lahlehelwa ke tswelo-pele ya hao
 record-abort-submit = Romella di-clip
 record-abort-continue = Qetela ho rekota
@@ -976,6 +980,7 @@ total-approved = Kakaretso e Amohetsweng
 overall-accuracy = Ho Nepa Ka Kakaretso
 set-visibility = Beha ponahalo ya ka
 visibility-explainer = Tlhophiso ena e laola ponahalo ya boto-ya-baetapele. Ha e patehile, tswelopele ya hao e tla ba lekunutu. Hona ho bolela hore setshwantsho sa hao, lebitso la mosebedisi le tswelopele ya hao ha di na hlaha ho boto-ya-baetapele. Hlokomela hore ntjhafatso ya boto-ya-baetapele e nka ~{ $minutes } metsoso ho bontsha diphetoho.
+visibility-overlay-note = Tlhokomediso: Ha e behetswe ho 'Bonahala', tlhophiso ena e ka fetolwa ho tswa ho <profileLink>Leqephe la Profaele</profileLink>
 show-ranking = Bontsha boemo ba ka
 
 ## Custom Goals
@@ -1054,6 +1059,7 @@ share-goal = Arolelana sepheo sa ka
 
 delete-q = Na o ka rata ho kopa direkoto tsa mantswe tsa hao di hlakolwe, kapa o kgetha ho di boloka kahara pokello ya data ya Common Voice?
 keep = Boloka
+remove = Tlosa
 keep-info = Direkoto tsa hao tsa lentswe tse sa tsejweng di tla sala ho pokello ya data ya Common Voice. Hang ha o hlakola profaele ya hao o ke ke wa hlola o kgona ho fana ka kopo ya ho tlosa direkoto tsa hao ho pokello ya data.
 remove-info = Re tla hlahloba kopo ya hao ya ho tlosa direkoto tsa lentswe la hao ho pokello ya data. Haeba kopo ya hao e amohelehile, re tla ikopanya le ba neng ba se ba download-ile pokello ya data mme re kope hore ba tlose direkoto tsa lentswe la hao le bona.
 why-delete-recordings =
@@ -1081,6 +1087,7 @@ download-request = Kopa tse rekotilweng
 download-requests = Dikopo tsa ho download-a direkoto tse fetileng
 download-requests-info = Ha o kopa direkoto tsa hao, re di kopanya hore e be faele e le nngwe kapa tse ngata tsa ZIP. Dikopo tsa hao tsa nakong e fetileng ke tsena:
 download-request-button = Download
+download-request-title = { $created }
 download-request-description = { $clipCount } di-clip tsa mantswe, ka kakaretso di lekane { $size }. E fellwa ke nako { $expires }.
 download-request-archive-single = Faele e le nngwe ya ZIP e nang le
 download-request-archive-multiple = Arolela ho { $archiveCount } difaele tsa ZIP tse nang le
@@ -1150,6 +1157,7 @@ contribution-misreadings-description-extended-list-2 = Ho haella <strong>'s'</st
 contribution-misreadings-description-extended-list-3 = Ho bala dikgakanyo tse siyo, jwalo ka "We're" ho fapana le "We are", kapa ka tsela e fapaneng.
 contribution-misreadings-description-extended-list-4 = Ho nyametse bofelo ba lentswe la ho qetela ka lebaka la ho kgaola ho rekota kapele haholo.
 contribution-misreadings-description-extended-list-5 = Ho leka makgetlo a mmalwa ho bala lentswe.
+contribution-misreadings-example-1-title = Dikgodumodumo tse kgolo tsa Triassic.
 contribution-misreadings-example-2-title = Kgodumodumo e kgolo tsa Triassic.
 contribution-misreadings-example-2-explanation = [E tlameha e be 'dikgodumodumo']
 contribution-misreadings-example-3-title = Dikgodumodumo tse kgolo tsa Triassic-.
