@@ -324,6 +324,7 @@ settings = Ditlhophiso
 edit-profile = Fetola Profaele
 profile-create-success = Katleho, profaele e entswe!
 profile-close = Kwala
+why-demographic = Ke hobane’ng ha see se le bohlokwa?
 accept-privacy-title = Leano la Lekunutu
 login-identity = Boitsebiso ba ho Kena
 login-signup = Kena / Ngodisa
@@ -358,8 +359,10 @@ add-language = Kenya Puo
 
 faq-title = Dipotso Tse Botswang Kgafetsa
 faq-what-cv-q = Common Voice ke Eng?
+faq-why-important-q = Ke hobane'ng ha e le ya bohlokwa?
 faq-how-calc-hours-q = Common Voice e bala dihora jwang?
 faq-is-account-public-q = Na dintlha tsa ak'haonte ya ka di phatlalatsa?
+faq-what-is-cv = Common Voice ke Eng?
 faq-using-cv = Ho Sebedisa Common Voice
 faq-search-for-answers =
     .label = Batlana le dikarabo
@@ -407,6 +410,7 @@ about-nav-playbook = Ithute ho nka karolo
 about-playbook-how-add-language = Ke kenya puo jwang?
 about-playbook-how-add-language-translating-heading = Ho fetolela sebaka sa marang-rang
 about-playbook-how-add-language-collecting-sentences-heading = Ho bokella dipolelo
+about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>Sheba haholwanyane mabapi le pokello ya dipolelo</sentenceCollectorFragment>.
 
 ## How does localization work
 
@@ -419,6 +423,7 @@ about-playbook-how-add-sentences = Ke kenya dipolelo jwang?
 
 ## How to record quality
 
+about-playbook-how-record-content-5 = <accuracyLink>Sheba haholwanyane ka mokgwa wa nepahalo.</accuracyLink>
 
 ## How to grow language
 
@@ -459,6 +464,7 @@ data-download-button = Download-a Data ya Common Voice
 data-download-yes = Ee
 data-download-deny = Tjhe
 data-download-license = Laesense: <licenseLink>CC-0</licenseLink>
+data-get-started = <speechBlogLink>Qalella  ka Temoho ya Puo</speechBlogLink>
 data-other-title = Dipokello tsa data tse ding
 data-other-goto = Eya ho { $name }
 data-other-download = Download-a Data
@@ -510,6 +516,7 @@ dataset-version = Mofuta
 
 ## Download Modal
 
+download-title = Download ya hao e qadile.
 download-no = Tjhe Kea Leboha
 
 ## Contact Modal
@@ -569,6 +576,11 @@ clips-with-count-pluralized =
         [one] Clip
        *[other] Di-Clip
     }
+contribute-more =
+    { $count ->
+        [one] { "" }
+       *[other] O ikemiseditse ho etsa { $count } tse ding?
+    }
 record-cta = Qala ho rekota
 record-must-allow-microphone = O tlameha ho dumella tshebediso ya maekrofounu.
 record-no-mic-found = Ha ho maekerofounu e fumanweng.
@@ -576,6 +588,7 @@ record-error-too-short = Rekoto e ne e le kgutshwanyane haholo.
 record-error-too-long = Rekgoto e ne e le telele haholo.
 record-error-too-quiet = Rekoto e ne e thotse haholo.
 record-cancel = Hlakola ho rekota hape
+record-instruction = { $actionType } <recordIcon></recordIcon> ebe o bala polelo eo o hweleditse
 record-stop-instruction = { $actionType }<stopIcon></stopIcon> ha o qetile
 record-three-more-instruction = Tse tharo tse tlang ho tsamaea!
 record-again-instruction = E ntle!<recordIcon></recordIcon> Rekota clip ya hao e latelang
@@ -592,9 +605,11 @@ record-abort-continue = Qetela ho rekota
 record-abort-delete = Tswa mme o Hlakole di-clip
 listen-instruction = { $actionType }<playIcon></playIcon> na ba buile polelo eo ka nepo?
 listen-again-instruction = Mosebetsi o motle!<playIcon></playIcon> Mamela hape ha o se o itokisitse
+listen-3rd-time-instruction = 2 fatshe, pele ya pele!<playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon>Ya ho qetela!
 speak-empty-state-cta = Nehelana ka dipolelo
 record-button-label = Rekota lentswe la hao
+share-title-new = <bold>Re thuse</bold> ho fumana mantswe a mang
 target-segment-generic-card = O kenya letsoho karolong e lebeletsweng
 target-segment-add-voice = Kenya Lentswe la hao
 target-segment-learn-more = Ithute haholwanyane
