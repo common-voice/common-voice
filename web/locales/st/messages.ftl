@@ -272,7 +272,7 @@ today = Kajeno
 x-weeks-short =
     { $count ->
         [one] Beke
-       *[other] beke
+       *[other] { $count }beke
     }
 x-months-short =
     { $count ->
@@ -769,6 +769,9 @@ dataset-version = Mofuta
 
 download-title = Download ya hao e qadile.
 download-helpus = Re thuse ho aha setjhaba mabapi le thekenoloji ya lentswe, dula re buisana ka email.
+download-form-email =
+    .label = Kenya email ya hao.
+    .value = Rea leboha, re tla buisana.
 download-no = Tjhe Kea Leboha
 
 ## Contact Modal
