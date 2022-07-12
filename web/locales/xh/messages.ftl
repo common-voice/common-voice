@@ -30,6 +30,7 @@ ckb = iCentral Kardish
 cnh = iHakha Chin
 co = iCorsican
 cs = IsiCzech
+cv = iChuvash
 cy = iWelsh
 da = IsiDanish
 de = IsiJamani
@@ -180,6 +181,7 @@ speak-now = Thetha ngoku
 datasets = Iiseti zeDatha
 profile = Iprofayili
 help = Uncedo
+contact = Umqhagamshelwa
 privacy = Ubumfihlo
 terms = Imigaqo/ amagama
 cookies = iCookies
@@ -353,6 +355,7 @@ goals = Iinjongo
 settings = Iisetingi
 edit-profile = Hlengahlengisa iProfayile
 profile-create-success = Iphumelele, iprofayile yenziwe!
+profile-close = Vala
 profile-explanation = Gcina umkhondo wenkqubela yakho ngeprofayile kwaye uncede idatha yethu yelizwi ichaneke ngakumbi.
 thanks-for-account = Enkosi ngokuqinisekisa i-akhawunti yakho, ngoku masikhe iprofayile yakho.
 why-demographic = Kutheni lento ibalulekile?
@@ -712,6 +715,7 @@ missing-language = Awuboni ulwimi lwakho luboniswa kwiSeti yedatha? Ukucela ulwi
 go-languages-page = Yiya kwicala leeLwimi
 ready-to-validate = Ingaba ukulungele ukunceda ukuqinisekisa izivakalisi?
 more = Ngaphezulu
+close = Vala
 download = Khuphela
 dataset-version = Inguqulelo
 
@@ -796,6 +800,7 @@ language-validation-progress = Inkqubela phambili yoQinisekiso
 
 ## Contribution
 
+action-click = Cofa
 action-tap = Cofa
 contribute = Yiba nogalelo
 listen = Mamela
@@ -878,6 +883,8 @@ report-difficult-pronounce = Kunzima ukubiza
 report-difficult-pronounce-detail = Inamagama okanye amabinzana ekunzima ukuwafunda okanye ukwabiza.
 report-offensive-speech = Intetho ekhubekisayo
 report-offensive-speech-detail = Ikliphu inolwimi olukrwada okanye olukhubekisayo.
+report-other-comment =
+    .placeholder = nika ingxelo
 success = Impumelelo
 continue = Qhubeka
 report-success = Ingxelo ipasiswe ngempumelelo
@@ -1321,6 +1328,7 @@ sc-confirm-ready =
 # Variables:
 #   $countOfUnreviewed (Number) - Number of sentences unreviewed before the upload
 sc-confirm-unreviewed = { $countOfUnreviewed } izivakalisi azihlaziywa. Ukuba uyafuna, unokujonga kwakhona izivakalisi zakho ngoku phambi kokuba uzingenise.
+sc-confirm-button-text = Qinisekisa
 sc-confirm-uploading = Izivakalisi ziyalayishwa. Oku kungathatha imizuzu emininzi ngokuxhomekeke kwinani lezivakalisi ezongeziweyo.Nceda ungayivali le webhusayithi.
 
 ## LANGUAGE INFO
