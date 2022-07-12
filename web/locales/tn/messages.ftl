@@ -338,6 +338,8 @@ profile-form-gender-2 =
     .label = Bong
 hidden = E fitlhegile
 visible = E a bonala
+native-language =
+    .label = Puo ya Kwa Gae
 profile-form-submit-save = Boloka
 profile-form-submit-saved = E bolokilwe
 why-profile-title = Goreng porofaele?
@@ -576,6 +578,7 @@ about-playbook-how-validate-content-4 = Fa kgatiso e gannwe ke batho ba le 2, e 
 
 ## How to access dataset
 
+about-playbook-how-access-dataset = Ke fitlhelela jang le go dirisa rekoto ya tshedimosetso?
 about-playbook-how-access-dataset-content-1 = O ka ya kwa <datasetsPage>tsebeng ya tshedimosetso</datasetsPage>, tlhopha mofuta le (di)puo e o e batlang, o bo o e itseela! Difaele di na le <metadataLink>tshedimosetso e e amanang e e tlhalosang</metadataLink>, jaaka tshedimosetso ya dipalopalo le ya go netefatsa. O tla tlhoka go kwala aterese ya imeile gore o itseele tshedimosetso.
 about-playbook-how-access-dataset-content-2 = Fa e le gore o batla didirisiwa tsa go aga mefuta ya ASR, o ka ikgolaganya le batho ba bangwe mo karolong eno <discourseLink>mo Discourse</discourseLink>.
 
@@ -587,6 +590,7 @@ about-playbook-how-project-governance-content-2 = Bolaodi jwa rona bo theilwe mo
 about-playbook-how-project-governance-content-3 = Polokodiphiri, tshireletso le go sa fitlhe sepe.
 about-playbook-how-project-governance-content-4 = Go tsaya karolo le go dira ditshwetso ga baagi.
 about-playbook-how-project-governance-content-5 = Boleng le go lemogiwa.
+about-playbook-how-project-governance-content-6 = Maikarabelo a maphata ka bobedi.
 about-playbook-how-project-governance-content-7 = <governanceLink>Bala mo go oketsegileng ka ga go re re laolwa jang</governanceLink>
 
 ## Glossary
