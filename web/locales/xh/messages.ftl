@@ -418,7 +418,9 @@ about-dataset-release-subtitle = Sikhupha idatha seti rhoqo kwiinyanga ezi-3.
 about-subscribe-text = Ingaba ufuna ukuhlala unxulumene neCommon Voice?
 about-speak = Thetha
 about-speak-text = Abanogalelo barekhoda iikliphu zelizwi ngokufunda ukusuka kwibhanki yezivakalisi ezinikezelweyo.
+about-listen-queue = Mamela-Umgca
 about-listen-queue-text = Iikliphu zelizwi zifakwa kumgca wothumelo olulungele ukumamela.
+about-listen = Mamela
 about-listen-text = Abasebenzisi baqinisekisa ukuchaneka kweekliphu ezinikezelweyo, bejonga ukuba isithethi sifunda isivakalisi ngokuchanekileyo.
 about-is-it-valid = Ingaba lekliphu iqinisekisiwe?
 about-is-it-valid-text = Ikliphu yelizwi iphawulwa "isemthethweni" xa umsebenzisi eyinika ivoti ethi Ewe.
@@ -898,6 +900,7 @@ share-n-daily-contribution-goal = Yabelana ngeyakho { $count } Ikliphu ngeNjongo
 # $type is one of share-goal-type-*
 share-n-weekly-contribution-goal = Yabelana ngeyakho { $count } Ikliphu ngeNjongo yosuku lwe { $type }
 share-goal-type-speak = Ukuthetha
+share-goal-type-listen = Ukumamela
 share-goal-type-both = Ukuthetha nokuMamela
 # LINK will be replaced with the current URL
 goal-share-text = Ndisandula ukwenza injongo yam yokunikela ngelizwi kwi #CommonVoice--ndijoyine kwaye uncede ukufundisa oomatshini indlela abantu bokwenyani abathetha ngayo { $link }
