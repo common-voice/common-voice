@@ -986,6 +986,7 @@ return-to-edit-goal = Buyela lapha ukuze ushintshe injongo yakho noma nini.
 
 keep = Gcina
 remove = Susa
+remove-info = Isicelo sakho sokususa amazwi akho aqoshiwe kwisizinda sizosibhekisiswa. Uma isicelo sakho sivunywa, sizoxhumana nabo bonke asebasifakile kumadivayisi abo, sibacele ukuba bawasuse nabo.
 profile-form-delete = Susa iphrofayela
 
 ## Profile Download
