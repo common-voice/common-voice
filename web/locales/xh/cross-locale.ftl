@@ -1,7 +1,7 @@
 ## Languages
 
 contribute = Yenza igalelo
-get-involved-button = Bandakanyeka
+get-involved-button = Yiba yinxalenye
 get-involved-text = Siyabulela ngokuthi ubenomdla wokufaka ugalelo kwi- { $lang }. Sisebenza nzima ukuze lonke ulwimi lulungele ukuqaliswa kwaye sigcine amaqela ehlaziyiwe nge-imeyile. Ukuba ufuna ukwenza ugalelo, nceda ufake i-imeyile yakho ngezantsi.
 get-involved-form-title = Bhalisa ukufumana uhlaziyo lwe { $lang }:
 get-involved-opt-in = Ewe, ndithumelele ii-imeyile.Ndingathanda ukuhlala ndinolwazi malunga nenkqubela phambili yolu lwimi kwi-Common Voice.
