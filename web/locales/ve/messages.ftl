@@ -645,6 +645,7 @@ about-playbook-how-project-governance-content-2 = Zwi ri langaho zwo thewa kha h
 about-playbook-how-project-governance-content-3 = Zwa tshiphirini, tshireledzo na u vhonala
 about-playbook-how-project-governance-content-4 = U longa tshanḓa kha tshigwada na u dzhia tsheo.
 about-playbook-how-project-governance-content-5 = U dzhiiwa i ya ndeme na u ḓivhiwa.
+about-playbook-how-project-governance-content-6 = Mutual accountability.
 about-playbook-how-project-governance-content-7 = <governanceLink>Vhalani nga vhuḓalo nga ha uri ri langiwa hani</governanceLink>
 
 ## Glossary
@@ -960,6 +961,7 @@ top-contributors = Vha Shelaho Muleznhe vha re Nṱhesa
 recorded-clips = Zwo Rekhodiwaho
 validated-clips = Dzi rekhodo dzo Khwaṱhisedzwaho
 total-approved = Thothaḽi ya zwo Phasiswaho
+overall-accuracy = Zwoṱhe zwi re zwone nga u angaredza
 set-visibility = Itani uri ndi vhonale
 visibility-explainer = Hedzi sethiṅi dzi langa u vhonala haṋu kha leaderboard. Musi dzi kha u dzumbama, mvela phanḓa yaṋu a i nga vhonwi. Zwenezwi zwi amba uri tshinepe tshaṋu, user name na bvela phanḓa yaṋu a zwi nga bveleli kha leaderboard. Ni ṱhogomele uri yeneyi leaderboard i dzhia minete ~{ $minutes } uri i sumbedzwe zwe na shandula.
 visibility-overlay-note = Ṱhogomelani hezwi: Musi yo setiwa kha u 'Vhonala', heyi setiṅi i nga shandukisiwa kha <profileLink> siaṱari ḽa Profaiḽi</profileLink>
@@ -1183,6 +1185,7 @@ sc-header-home = Hayani
 sc-header-how-to = Nga zwiita hani
 sc-header-add = Panga/ Dzhenisa
 sc-header-rejected = Mitaladzi yo Haniwaho
+sc-header-my = Mitaladzi yanga
 sc-footer-discourse = Discourse
 sc-footer-report-bugs = Vhigani zwi sa Tshimbili zwavhuḓi
 sc-footer-translate = Ḓologani heḽi siaṱari
@@ -1241,6 +1244,7 @@ sc-howto-findpd-partner-2 = Vhaḓivhi vha luambo na vhone vha nga thusa, i ya n
 
 ## MY SENTENCES
 
+sc-my-title = Mitaladzi yanga
 sc-my-description = Heḽi siaṱari ḽi ni sumbedza mitaladzi yoṱhe ye na i rumela. Ni nga phumula na mitaladzi ine no no i rumela arali zwi tshi ṱoḓea, nga u maka bogisi ḽi re tsini nawo na u puṱedza kha &quot;Delete selected sentences&quot; zwi re fhasi. Ri humbela uri ni bvise mitaladzi arali zwo tea fhedzi, sa tsumbo, arali na vhona uri mutaladzi wo tsireledzwa nga mulayo wa khophi ya vhuṋe.
 sc-my-loading = U ḽouda mitaladzi yaṋu...
 sc-my-err-fetching = Ho itea vhukhakhi ni tshi khou lingedza u dzhia mitaladzi yaṋu. Ri humbela uri ni lingedze hafhu.
@@ -1399,6 +1403,7 @@ sc-lang-info-rejected =
 
 ## LOGIN
 
+sc-login-err-failed = A no ngo Kona u Ḽoga
 sc-login-err-try-again = Ri humbela uri ni dovhe hafhu.
 
 ## PROFILE
