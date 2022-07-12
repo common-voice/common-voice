@@ -571,6 +571,7 @@ about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollec
 ## How does localization work
 
 about-playbook-how-localize = Hu itiwa hani uri saiti i shumele vha vhuponi ha henefho?
+about-playbook-how-localize-content-1 = U ḓologa kana u ṱalutshedza saiti ya Common Voice hu itiwa kha <strong>Pontoon</strong>.
 about-playbook-how-localize-content-2 = <pontoonAccountLink>Itani akhanthu</pontoonAccountLink> arali ni sa athu u vha nayo. Ni kone u khetha luambo <strong>(‘Team’)</strong> nahone ni kone u khetha thandela, <pontoonCvLink>Common Voice</pontoonCvLink>. Hu ḓo vha na dzi faela dzine na ḓo dzi ṱalutshedzela. Puṱedzani iṅwe yadzo, i ḓo kona u ni sumbedza maipfi nga Luisimane na bogisi ḽine na ḓo ṱalutshedzela khaḽo.
 about-playbook-how-localize-content-3 = Hu ṱalutshedzeliwa zwi tshi bva kha Luisimane, fhedzi ni nga vhona <strong>Nyeletshedzo</strong> nga dziṅwe nyambo. Puṱedzani <strong>Phurofaiḽi</strong> icon, ni kone u ya kha <strong>Sethiṅi</strong> ḽinki nahone ni dzhenise nyambo dzine na dzi amba. Fhasi-fhasi kha tsha monde kha khona hu ḓo vha hu na mutevhe wa zwo ṱalutshedzelwaho zwi vhidzwaho <strong>Locales</strong>. Zwo ṱalutshedzwaho zwi dzhena kha website nga murahu ha ḓuvha ḽithihi.
 about-playbook-how-localize-content-4 = Saiti yo lugela u ḽontsha musi i tshi vha 75% tsini na u fhela.
@@ -597,6 +598,7 @@ about-playbook-how-record-content-5 = <accuracyLink>Vhonani zwo engedzeaho nga h
 
 about-playbook-how-grow-language = Ri nga ita hani uri luambo lu hule nga nḓila i bvelelaho kha Common Voice?
 about-playbook-how-grow-language-content-1 = U ita zwikhala zwa uri vhathu vho fhambananaho vha kone u shela mulenzhe kha Common Voice zwi ita uri dataset i shumele vhathu vhanzhi nga hune zwa nga konadzea ngaho. Ro ita zwithu zwine na nga zwi shumisa na dzi themphuḽethi!
+about-playbook-how-grow-language-content-2 = Events
 about-playbook-how-grow-language-content-3 = Ni nga ita na mutambo wa u thusa vhathu uri vha shele mulenzhe. Zwenezwi zwo leluwa. Ni nga zwi ita muyani nga zwishumiswa zwa videoconferentsi, kana nga ho livhaho ni tshi khou vhonana na vhatu arali zwo tsireledzea. <eventTemplate>Ni vhone themphuḽeithi yashu na zwithu zwa uri hu vhe na mutambo</eventTemplate>.
 about-playbook-how-grow-language-content-4 = Social media
 about-playbook-how-grow-language-content-5 = Ni nga shumisa social media platforms u itela u ḓivhadza vhaṅwe nga ha zwenezwi. Vha rumeleni milaedze i ṱalutshedzaho uri ndi ngani zwi zwa ndeme, nahone ni kwamane na vhaṅwe uri ni kone u amba navho nga ha pfanelo dza dzi nyambo, voice AI, kana tshiṱalula tshi re hone kha zwishumiswa zwa thekhinolodzhi. Vhonani nyeletshedzo dzo engedzeaho nga ha <campaignLink>u ita dzi campaign, na u vhona mafhungo ane na nga dovha na a shumisa </campaignLink>.
@@ -621,6 +623,7 @@ about-playbook-how-access-dataset-content-2 = Arali ni tshi khou ṱoḓa zwishu
 ## How are decisions made
 
 about-playbook-how-project-governance = Tsheo dza thandela dzi dzhiiwa hani?
+about-playbook-how-project-governance-content-1 = Common Voice ya Mozilla i khou itwa u ri i vhe hone nga vhadzulapo vho fhambananaho vha vhaḓisi vha tshanduko, vhaḓivhi vha luambo, data scientists, magudedzi na dziinzhiniara dza dzi software vha bvaho shangoni nga vhuphara. Yeneyi thandela i khou ṱhogomelwa nga Foundation ya Mozilla.
 about-playbook-how-project-governance-content-2 = Zwi ri langaho zwo thewa kha hedzi phuphu:
 about-playbook-how-project-governance-content-3 = Zwa tshiphirini, tshireledzo na u vhonala
 about-playbook-how-project-governance-content-4 = U longa tshanḓa kha tshigwada na u dzhia tsheo.
@@ -629,6 +632,8 @@ about-playbook-how-project-governance-content-7 = <governanceLink>Vhalani nga vh
 
 ## Glossary
 
+glossary = Glossary
+localization = U Ita uri I Shume Vhuponi ha Henefho
 localization-explanation = Heyi ndi nḓila yashu ya u ḓologa na u ita uri mafhungo ashu a tshimbidzane na vhathu vha vhupo hunzhi (nyambo).
 sentence-collection = Kuvhanganya Mitaladzi
 sentence-collection-explanation = U kuvhanganya mitaladzi u bva kha fhethu ha tshitshavha tshoṱhe, kana ni ṅwalele fhethu ha tshitshavha tshoṱhe mitaladzi miswa.
@@ -636,6 +641,7 @@ hours-recorded-explanation = Tshivhalo tsha dzi awara dza maipfi o rekhodiwaho e
 hours-validated-explanation = U vhaliwa ha awara dza maipfi o rekhodiwaho o no khwaṱhisedzwaho nga vhathu 2 kha 3 ngauri vha khethe uri “Ee”. Zwenezwi zwi sumbedza uri thandela i ngafhi kha tshipikwa tsha awara dza 10k.
 sst = Speech-to-text (STT)
 sst-explanation = Thekhinolodzi dza Speech-to-text (STT) dzi shandukisaho ipfi dza ita uri hu vhe mafhungo o ṅwalwaho.
+de-identified = De-identified
 de-identified-explanation = Ndi nḓila ya u ita uri zwidodombedzwa zwi re kha profile zwi si vhoniwe kha maipfi o rekhodiwaho a nikelwa musi o no itwa uri a kone u downlodiwa sa tshipiḓa tsha dataset.
 
 ## Error pages
@@ -644,17 +650,27 @@ error-title-404 = A ro ngo kona u ni wanela heḽia siaṱari
 error-content-404 = Khamusi <homepageLink>homepage yashu</homepageLink> i ḓo thusa? U itela u vhudzisa mbudziso, ri humbela ni dzhene kha <matrixLink>Matrix community chat</matrixLink>, ni sedze na thaidzo dzine na ṱanga nadzo kha saiti nga u ya kha <githubLink>GitHub</githubLink> kana nga u dalela <discourseLink>foramu yashu ya Discourse </discourseLink>.
 error-title-503 = Ri khou ṱangana na thaidzo ya u sa shuma ha site zwazwino
 error-content-503 = Saiti i ḓo bekapiwa nga u ṱavhanya. Uri ni wane zwithu zwa zwino-zwino, ri humbela uri ni vhe tshipiḓa tsha <matrixLink>nyambedzano kha Matrix community chat</matrixLink> kana ni dalele <githubLink>GitHub</githubLink> kana <discourseLink>Foramu dzashu dza Discourse</discourseLink> uri ni kone u rumela na u vhona thaidzo dzine na ṱangana nadzo ni kha saiti.
+error-code = Vhukhakhi { $code }
 
 ## Data
 
 data-download-button = Downḽodani Data ya Common Voice
+data-download-yes = Ee
+data-download-deny = Hai
+data-download-license = Ḽaisentsi: <licenseLink>CC-0</licenseLink>
 data-download-modal = Ni khou thoma u downḽoda <size>{ $size }GB</size>, naa ni ṱoḓa u isa phanḓa?
 data-subtitle = Ri khou ita dataset i ne ya ḓo shumiswa nga nnyi na nnyi nga muṅwe na muṅwe ya maipfi ane vhathu vhoṱhe vha nga kona u a shumisa u gudisa dzi application dzine dza kona u u amba.
 data-explanatory-text = Ri tenda uri tshitshavha tshihulu tshi re hone tshi ḓo vhuyelwa nga dataset ya maipfi zwa ita uri hu thomiwe zwithu zwiswa nahone ha vha na miṱaṱisano yavhuḓi kha zwa vhurengisi zwi tshimbidzanaho na thekhinolodzi ya u amba ya machine-learning. Zwenezwi ndi mutingati wa shango ḽoṱhe nga vhuphara nahone ri khou ramba muṅwe na muṅwe uri a shele mulenzhe. Tshipikwa tshashu ndi uri zwishumiswa zwa u amba zwa thekhinolodzhi zwi katele vhunzhi ha vhathu, hu pfale maipfi o fhambananaho u mona na shango ḽoṱhe.
 data-get-started = <speechBlogLink>Thomani na Speech Recognition</speechBlogLink>
 data-other-title = Dataset dza maṅwe maipfi....
+data-other-goto = Iyani kha { $name }
+data-other-download = Downḽodani Data
 data-bundle-button = Downḽodani Dataset nnzhi-nnzhi
 data-bundle-description = Common Voice data na dziṅwe dzi dataset dza maipfi dzi re afho nṱha.
+release-version = Vershini
+dataset-date = Datumu
+license = Ḽaisentsi: <licenseLink>{ $license }</licenseLink>: <licenseLink>{ $license }</licenseLink>
+license-mixed = Mixed
 data-download-singleword-title = Downḽodani Thagete ya Tshipiḓa tsha Ipfi Ḽithihi
 data-download-singleword-callout-v2 = Hetshi ndi tshipiḓa tshi langiwaho nga kushumisele tshi re na data ine ya mannḓafhadza digit recognition na ine ya ḓivha ee / hai.
 review-terms = Nga u shumisa Common Voice, ni khou tendelana na <termsLink>Milayo ya Kushumisele</termsLink>na<privacyLink>Milayo ya Tshiphiri</privacyLink>
