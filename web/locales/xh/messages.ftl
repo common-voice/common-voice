@@ -45,9 +45,11 @@ rm-vallader = iRomansh Vllader
 sat = iSantali (Ol Chiki)
 st = iSouthern Sotho
 tok = iToki Pona
+yo = iYoruba
 zh-CN = iChinise (isiChina)
 zh-HK = iChinese (Hong Kong)
 zh-TW = iChinise (iTaiwan)
+zu = IsiZulu
 
 # [/]
 
@@ -99,6 +101,11 @@ x-weeks-short =
     { $count ->
         [one] Iveki
        *[other] { $count }wk
+    }
+x-months-short =
+    { $count ->
+        [one] { "" }
+       *[other] { $count }mo
     }
 x-years-short =
     { $count ->
@@ -601,6 +608,7 @@ record-error-too-long = Irekhodingi ibinde.
 record-error-too-quiet = Irekhodingi ibithule.
 record-cancel = Rhoxisa ukuRekhodwa kwakhona
 record-instruction = { $actionType }<recordIcon></recordIcon>  emva koko ufunde isivakalisi ngokuvakalayo
+record-stop-instruction = { $actionType }<stopIcon></stopIcon> xa ugqibile
 record-three-more-instruction = Kusheke ezintantu!
 record-again-instruction = Kuhle!<recordIcon></recordIcon> Rekhoda ikliphu yakho elandelayo
 record-again-instruction2 = Qhuba njalo, rekhoda kwakhona <recordIcon></recordIcon>
@@ -682,6 +690,7 @@ clips-you-recorded = Iikliphu ozirekhodileyo
 clips-you-validated = Iikliphu oziqinisekisileyo
 todays-recorded-progress = Inkqubela yanamhlanje yeCommon Voice kwiikliphu ezirekhodiweyo
 todays-validated-progress = Inkqubela yanamhlanje yeCommon Voice kwiikliphu iqinisekisiwe
+you = Wena
 contribution-activity = Umsebenzi wegalelo
 recorded-clips = Iikliphu ezirekhodishiweyo
 validated-clips = Iikliphu eziqinisekisiweyo
