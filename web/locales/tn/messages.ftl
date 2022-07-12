@@ -181,6 +181,7 @@ terms = Melawana
 content-license-text = Diteng di gone mo <licenseLink> laesenseng ya Creative Commons</licenseLink>
 share-text = Thusa go ruta metšhine  gore batho ba mmatota ba bua jang, abelana ka lentswe la gago mo { $link }
 back-top = Boela Kwa Godimo
+logout = Tswa
 
 ## Home Page
 
@@ -360,6 +361,7 @@ why-demographic = Goreng seno se le botlhokwa?
 why-demographic-explanation-2 = Tshedimosetso ya botlhokaina jaaka dingwaga, bong le segalo di tla thusa go tokafatsa go nepa ga didirisiwa tsa go lemoga mantswe. Leinatiriso le imeile ya gago di ka se amanngwe le tshedimosetso ya gago e e rometsweng, mme o ka tlhopha gore a o batla go senola kgotsa go fitlha leinatiriso la gago.
 accept-privacy = Ga ke na bothata le gore lo dirise tshedimosetso eno jaaka lo tlhalosa mo <privacyLink>Molawaneng wa Polokodiphiri</privacyLink> wa Mozilla
 accept-privacy-title = Pholisi ya Polokodiphiri
+login-identity = Boitshupo Jwa go Tsena
 login-signup = Tsena / Ikwadise
 download-profile = Itseele Tshedimosetso ya Me
 skip-submission-feedback = Tlola go Romela Pegelo
@@ -1340,6 +1342,7 @@ sc-lang-info-rejected =
 
 ## LOGIN
 
+sc-login-err-failed = Ga o a kgona go tsena
 sc-login-err-try-again = Tsweetswee leka gape.
 
 ## PROFILE
@@ -1369,6 +1372,7 @@ sc-criteria-item-6 = Fa o felelwa ke mela e e sekasekiwang, tsweetswee re thuse 
 
 sc-review-lang-not-selected = Ga o ise o tlhophe dipuo dipe. Tsweetswee ya kwa <profileLink>Porofaeleng</profileLink> ya gago gore o tlhophe dipuo.
 sc-review-title = Sekaseka Mela
+sc-review-loading = E tsenya mela...
 sc-review-select-language = Tsweetswee tlhopha puo go sekaseka mela.
 sc-review-no-sentences = Ga go na mela e e tlhokang go sekasekiwa. <addLink>Tsenya mela e e oketsegileng jaanong!</addLink>
 sc-review-form-prompt =
