@@ -43,6 +43,7 @@ cs = Se-Czech
 cv = Se-Chuvash
 cy = Se-Wales
 da = Se-Denmark
+de = Sejeremane
 dsb = Se-Sorbia, sa kwa Tlase
 el = Segerika
 es = Se-Spain
@@ -63,6 +64,7 @@ ig = Se-Igbo
 is = Se-Iceland
 izh = Se-Izhoria
 ja = Sejapane
+ka = Se-Georgia
 kaa = Se-Karakalpak
 kab = Se-Kabyle
 kbd = Se-Kabardia
@@ -476,7 +478,8 @@ about-playbook-how-project-governance-content-1 = Mozilla Common Voice e kgonega
 
 ## Glossary
 
-localization = Thanolelo
+glossary = Lenaane la Mafoko
+localization = Thanolo
 localization-explanation = Ono ke mokgwa wa rona wa go ranola le go dira gore tshedimosetso ya rona e tsamaisane le dipuo di le dintsi.
 sentence-collection-explanation = Go amogela mela go tswa mo lefelong la batho botlhe, kgotsa go kwalela lefelo la batho botlhe e mesha.
 hours-recorded-explanation = Palo ya diura tsa direkoting tse re setseng re di amogetse go fitlha jaana.
