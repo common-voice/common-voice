@@ -815,6 +815,8 @@ language-section-launched-description = Kha hedzi nyambo dzo no ḓi dzheniswaho
 languages-show-more = Vhonani Zwo Engedzeaho
 languages-show-less = Vhonani Zwiṱuku
 language-meter-in-progress = Zwe na zwi ita
+language-search-input =
+    .placeholder = Ṱoḓa
 language-speakers = Vhaambi
 localized = Localized
 sentences = Mitaladzi
@@ -824,6 +826,7 @@ language-validation-progress = Mvela phanḓa yo Khwaṱhisedzwaho
 ## Contribution
 
 action-click = Puṱedza
+shortcuts = Shortcut
 clips-with-count-pluralized =
     { $count ->
         [one] Zwo Rekhodiwaho
@@ -954,6 +957,7 @@ both-speak-and-listen-long = Zwoṱhe (Ambani na u Thetshelesa)
 weekly-goal = Tshipikwa tsha Vhege
 easy-difficulty = Leluwa
 average-difficulty = Vhukati
+pro-difficulty = Konḓa
 lose-goal-progress-warning = Nga u editha tshipikwa tshaṋu, ni nga xelelwa nga mvela phanḓa ya zwe na zwi ita.
 want-to-continue = Ni khou ṱoḓa u isa phanḓa?
 finish-editing = Fhedzani u editha u thoma?
@@ -1013,6 +1017,7 @@ share-goal = Sherani tshipikwa tshanga
 ## Profile Delete
 
 delete-q = Naa ni ṱoḓa na u ita khumbelo ya u phumula ipfi ḽaṋu ḽe na ḽi rekhoda, kana ni takalela uri zwi dzule zwi kha dataset ya Common Voice?
+remove = Bvisa
 keep-info = Ipfi ḽaṋu ḽe na ḽi rekhoda zwi sa ḓivhei ḽi ḓo dzula ḽi kha dataset ya Common Voice. Arali na phumula profile yaṋu, a ni tsha ḓo kona u rumela khumbelo ya u bvisa zwe na rekhoda kha dataset
 remove-info = Ri ḓo ṱolisisa khumbelo yaṋu ya u bvisa zwe na rekhoda kha dataset. Arali khumbelo yaṋu ya ṱanganedzwa, ri ḓo kwama vhe vha download yeneyo dataset nahone ra vha humbela uri vha bvise ipfi ḽaṋu na henefho.
 why-delete-recordings =
@@ -1030,6 +1035,7 @@ download-recordings-info = Zwi katela mp3 na mitaladzi i tshimbidzanaho nadzo, z
 download-recordings-size = Typically megabytes
 download-recordings-unavailable = Ni nga si kone u humbela zwe na rekhoda ngeno hu tshi kha ḓi vha na zwiṅwe zwe na zwi humbela zwi re nḓilani.
 download-recently-requested = Ni nga humbela uri ni dzhie zwe na rekhoda { $days } ḓuvha ḽiṅwe na ḽiṅwe.
+download-selected = Nangani
 download-start = Downḽodani data ya profaiḽi
 download-request = Humbelani zwo rekhodiwaho
 download-requests = Khumbelo ya u downḽoda zwo rekhodiwaho kale
@@ -1361,6 +1367,7 @@ sc-profile-title = Profaiḽi: { $username }
 sc-personal-err-lang-not-found = A zwo ngo konadzea u bvisa luambo: luambo a lwo ngo wanala
 sc-personal-err-remove = A yo ngo kona u bvisa luambo
 sc-personal-your-languages = Nyambo dzaṋu
+sc-personal-remove-button = Bvisa
 # Variables:
 #   $sentences (Number) - Number of sentences that were added by the currently logged in user for this language
 sc-personal-added-by-you = { $sentences } pangiwa nga inwi
@@ -1391,6 +1398,8 @@ sc-review-form-button-reject = Hanela
 sc-review-form-button-approve = Tendelwa
 # Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
 sc-review-form-button-reject-shortcut = N
+# Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
+sc-review-form-button-skip-shortcut = S
 sc-review-form-keyboard-usage-custom = Ni nga dovha hafhu na shumisa shortcuts dza Keyboard: { sc-review-form-button-approve-shortcut } u Khwaṱhisedza, { sc-review-form-button-reject-shortcut } u Hana, { sc-review-form-button-skip-shortcut } u Pfukha
 # Variables:
 #   $sentences (Number) - Number of sentences the user has reviewed in this session
