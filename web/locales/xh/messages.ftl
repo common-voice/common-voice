@@ -30,16 +30,23 @@ ckb = iCentral Kardish
 cnh = iHakha Chin
 cy = iWelsh
 dsb = iSorbian, Lower
+el = IsiGrike
 es = iSpanish
 fa = iPersian
+gn = iGuarani
 gom = iGoan Konkani
+ha = IsiHausa
+he = IsiHebhere
+hi = IsiHindi
 hsb = iSorbian, Upper
+ht = IsiHaitian
+hu = IsiHungarian
 hyw = iArmenian Western
 ia = Isi-Interlingua
 id = Isi-Indonesian
 ie = Isi-Interlingue
 ig = Isi-Igbo
-is = Isi-Icelandic
+is = i-Icelandic
 it = IsiTaliyane
 izh = i-Izhorian
 ja = NgokwesiJaphane
@@ -152,6 +159,7 @@ zu = IsiZulu
 speak = Thetha
 speak-now = Thetha ngoku
 profile = Iprofayili
+help = Uncedo
 privacy = Ubumfihlo
 terms = Imigaqo/ amagama
 content-license-text = Umxholo okhoyo phantsi kwe <licenseLink>Creative Commons license</licenseLink>
@@ -298,6 +306,7 @@ profile-form-custom-accent-help-text =
 profile-form-custom-accent-placeholder-2 = Qalisa ukuchwetheza ukuchaza isivakalisi sakho
 leaderboard-visibility =
     .label = Ukubonaka kwebhodi yabaphambili
+hidden = Ifihliwe
 visible = Iyabonakala
 native-language =
     .label = Ulwimi lenkobe
@@ -743,6 +752,7 @@ language-search-input =
 language-speakers = Izithethi
 localized = Eyasekuhlaleli
 sentences = Izivakalisi
+language-validation-hours = Iiyure
 language-validation-progress = Inkqubela phambili yoQinisekiso
 
 ## Contribution
@@ -1083,6 +1093,8 @@ see-less = <chevron></chevron> Bona okuncinci
 
 ## HEADER/FOOTER
 
+sc-header-home = Ekhaya
+sc-header-how-to = Kwenziwa-njani
 sc-header-review = Uphononongo
 sc-header-rejected = Izivakalisi ezikhatywayo
 sc-header-my = Izivakalisi zam
