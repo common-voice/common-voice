@@ -389,6 +389,7 @@ login-signup = Log In / Sign Up
 edit = Editha
 email-subscriptions = Email Subscriptions
 download-profile = Downḽodani Data Dzanga
+contribution-experience = Tshenzhelo ya u Shela Mulenzhe
 skip-submission-feedback = Pfukhani u rumela Fidibeke
 skip-submission-description = Musi ni tshi khou rumela zwe na shela mulenzhe hu ḓo pfukiwa feedback nga murahu ha u puṱedza ipfi 'Submit'. Ni ḓo bvela phanḓa na u shela muledzhe nga u rekhoda dza 5 dzi tevhelaho kana u dzi thembendela.
 skip-submission-note = Ṱhogomelani hezwi: Ni kha ḓi ḓo tea uri ni nange u Amba kana u Thetshelesa uri ni shandule mufuda wa u nikela.
@@ -412,8 +413,10 @@ remove-avatar = Bvisani Avatar
 
 ## Profile - Email
 
+manage-subscriptions = Langani dzi Subscription
 manage-email-subscriptions = Langani Email Subscription
 email-already-used = Email yo no shumisiwa u ita iṅwe akhantu
+add-language = Pangani Luambo
 change-email-setings = Shandukisani email yaṋu kha Setiṅi fhasi ha Login Identity
 
 ## FAQ
@@ -421,6 +424,10 @@ change-email-setings = Shandukisani email yaṋu kha Setiṅi fhasi ha Login Ide
 faq-title = Mbudziso dzi anzelaho u vhudzisiwa
 faq-what-cv-q = Common Voice ndi mini?
 faq-what-cv-a = Zwishumiswa zwa thekhinolodzhi zwi ḓivhaho ipfi zwi khou shandula nḓila ine ra shumisana ngayo na mitshini, fhedzi zwa zwino sisiṱemu dzi re hone dzi a ḓura nahone a dzo ngo itelwa vhathu vhoṱhe. Common Voice ndi tshipiḓa tsho itwaho nga Mozilla u itela uri zwi shumiswa zwi ḓivhaho ipfi zwa thekhinolodzhi zwi vhe khwine nahone zwi wanwe nga vhathu vhoṱhe. Common Voice ndi database khulu ya maipfi ye vhathu vha a nikela nga maipfi nahone i tendela vhathu vhoṱhe vha tshi gudisa app dza u ḓivha ipfi nga u ṱavhanya nahone nga ho leluwaho nga luambo luṅwe na luṅwe lu re hone.
+faq-what-cv-a-2 =
+    Zwishumiswa zwa thekhinoḽodzhi zwi ḓivhaho ipfi zwi khou shandula nḓila ine ra shumisa ngayo na mitshini, fhedzi dzi system dzi re hone zwino dzi ya ḓura nahone a dzo ngo itelwa muṅwe na muṅwe. Common Voice ine ya pfi Mozilla ndi ndugiselelo ine ya khou lingedza u ita uri zwishumiswa zwa thekhinoḽodzhi zwi ḓivhaho ipfi zwi vhe khwine nahone zwi wanwe nga vhathu vhoṱhe. Common Voice ndi database khulwane ine ya vha na maipfi o rekhodiwaho nga u ḓifunela, ine ya nga waniwa nga muthu naho e nnyi nga u ṱavhanya nahone a gudisa dzi apps dzine dza kona u ḓivha ipfi, arali zwi tshi konadzea nga nyambo dzoṱhe. 
+    
+    A ri khou kuvhanganya maipfi a vhathu vhane luambo lwavho lwa ambeswa fhezi, ri khou kuvhanganya na ane vhathu vha hone vha vha vhaṱuku. U ita uri ane maipfi o fhambananaho a waniwe zwi ḓo maḓafhadza vhabveledzi, vhathomi vha mabindu, na vhadzulapo vhane vha ṱoḓa uri hu sitsha vha na henei ṱhahelo.
 faq-why-important-q = Ndi ngani zwi zwa ndeme?
 faq-why-important-a =
     U amba ndi yone nḓila ine ra davhidzana ngayo nahone zwishumiswa zwa u ḓivha ipfi zwa tekhinolodzhi zwi khou ḓisa zwenezwi zwithu zwavhuḓi kha dzi khomphuyutha dzashu na kha dzi ṱhingo. Ri ṱoḓa u tikedza vhane vha ita dzi apps dzi mangadzaho dzine dza pfa u tshi amba, dzingaho real- time translators na voice-enable digital assistants. Zwa zwino vhunzhi ha voice data ine ya ṱoḓea u ita dzenedzi dzi apps i khou ḓuresa nahone i na vhane vhayo. Ri fhulufhela uri dataset ya Common voice i ḓo thusa vha bveledzi uri vha kone u thoma na u ita zwishumiswa zwa u pfa ipfi zwa thekhinolodzi nga dzi nyambo dzavho. 
@@ -492,9 +499,12 @@ about-voice-contrib-title = U Nikela nga Ipfi
 about-voice-contrib-subtitle = Vhathu vha ḓa vha nikela nga maipfi avho.
 about-voice-validation-title = U Khwaṱhisedza Ipfi
 about-voice-validation-subtitle = Vhaṅwe vho khwaṱhisedza hezwo zwo rekhodiwaho
-about-dataset-release-subtitle = Ri riḽiza dataset nga murahu ha miṅwedzi miraru tshifhinga tshoṱhe.
+about-dataset-release-title = U Riḽizwa ha Dataset
+about-dataset-release-subtitle = Ri riḽiza dataset nga murahu ha miṅwedzi 3 tshifhinga tshoṱhe.
 about-subscribe-text = Naa ni ṱoḓa u dzula no kwamana na Common Voice?
+about-speak = Ambani
 about-speak-text = Vhane shela mulenzhe vha rekhoda maipfi nga u vhala mitaladzi yo nikelwaho.
+about-listen-queue = Thetshelesani - Mutevhe
 about-listen-queue-text = Maipfi o rekhodiwaho a pangiwa kha mutevhe wa u rumela une wa a ita uri a lugele u thetshelesiwa.
 about-listen = Thetshelesani
 about-listen-text = Vhashumisi vha khwaṱhisedza rekhodo dzo nikelwaho, vha tshi sedza uri muambi o vhala mutaladzi zwone naa.
@@ -506,10 +516,12 @@ about-no-votes = ≥ 2 Hai Khetha
 about-no-votes-text = Musi muthu a tshi ri ipfi ḽo rekhodiwaho a ḽo ngo tea, ḽi ḓo humela kha mutevhe. Arali ha pfi a ḽo ngo tea lwa vhuvhili, ipfi ḽeneḽo ḽi ya fhethu hune ha pfi Clip Graveyard.
 about-dataset-new = Dataset ya Common Voice
 about-dataset-new-text = Dataset ya Common Voice i na maipfi o rekhodiwaho a zwigidi na zwigidi ane vhabveledzi vha a shumisa u ita zwishumiswa zwa u kona u ṱalukanya maipfi.
+about-clip-graveyard = Clip Graveyard
 about-clip-graveyard-text =
     Fhethu hu vhidzwaho The Clip Graveyard hu wanala maipfi a songo teaho e a kundelwa u vha tshipiḓa tsha dataset ya Common Voice. U fana na dataset, na yeneyi Clip Graveyard i nga danuḽodiwa.
     
     Ri tama u livhuwa vhathu vha tevhelaho na madzangano nge vha ri thusa kha yeneyi thandela:
+about-get-involved = Shelani Mulenzhe
 about-get-involved-text-2 =
     "Naa ni a ṱoḓa u thusa uri Common Voice i vhe ya khwine-khwine?
     Ndi zwavhuḓi! Ri kwameni nga email kana <discourseLink>Discourse kha</discourseLink>
@@ -520,6 +532,9 @@ about-stay-in-touch-button = Sign up
 about-stay-in-touch-text-1 = <emailFragment>Ḓiṅwaliseni</emailFragment> kha mutevhe wa mailing yashu ni gude uri ni nga dzhenelela hani kha mafulo, dzi event, na co-design features kha CommonVoice.
 about-stay-in-touch-text-2 = Ni nga ṱangana na vhaṅwe kha zwigwada zwa luambo zwa Mozilla nga u dzhena na vha tshipiḓa <discourseLink>Discourse</discourseLink> u wana nyambedzano, kana <matrixLink>Matrix</matrixLink> u wana tsivhudzo nga tshihaḓu.
 about-nav-why-common-voice = Ngani ?
+about-nav-how-it-works = Hani?
+about-nav-partners = Vhashumisani
+about-nav-get-involved = Shelani Mulenzhe
 about-nav-how-it-works-2 = Common Voice i shumisa hani?
 about-nav-playbook = Gudani uri ni nga dzhelelela hani
 
@@ -545,6 +560,7 @@ about-playbook-how-add-language-translating-content-2 =
      arali luambo lwaṋu lu siho ni nga ita <pontoonRequestLink> khumbelo ya uri luambo lwaṋu lu dzheniswe</pontoonRequestLink>.
      Nga zwenezwo, u itela uri luambo lwaṋu lu kone u vha tshipiḓa tsha thandela tsha Common Voice,
      <githubRepoLink>itani khumbelo ya luambo luswa kha GitHub</githubRepoLink>. <localizationFragment>Vhonani zwo engedzeaho kha siaṱari ḽa u ṱalutshedzela</localizationFragment>.
+about-playbook-how-add-language-collecting-sentences-heading = U kuvhanganya Mitaladzi
 about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>Vhonani vidio yashu ya u dededza uri tsha u Kuvhanganya Mitaladzi tshi shuma hani</sentenceCollectorVideo>.
 about-playbook-how-add-language-collecting-sentences-content-2 =
     Ni nga <sentenceCollectorLinkAdd>dzhenisa mitaladzi i si gathi</sentenceCollectorLinkAdd>,
