@@ -59,10 +59,12 @@ nan-tw = Se-Taiwan (Minnan)
 nyn = Se-Runyankole
 om = Se-Afaan Ormoo
 pa-IN = Se-Punjabi
+pl = Se-Polish
 pt = Sepotokisi
 ro = Se-Romania
 ru = Se-Russia
 rw = Se-Kinyarwanda
+sah = Se-Sakha
 sc = Se-Sardinia
 scn = Se-Sicily
 shi = Se-Shilha
@@ -193,6 +195,7 @@ shortcut-skip = t
 
 ## Listen Shortcuts
 
+shortcut-play-toggle-label = Tshameka/Emisa
 # Must be one letter that appears in the { vote-yes } string.
 # Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
 shortcut-vote-yes = e
@@ -699,6 +702,7 @@ sc-header-statistics = Dipalopalo
 sc-header-profile = Porofaele
 sc-footer-privacy = Bosephiri
 sc-footer-terms = Melawana
+sc-logout-button = Tswa
 
 ## HOME
 
@@ -811,6 +815,7 @@ sc-confirm-uploading = Mela e a tsenngwa. Seno se ka tsaya metsotso e le mmalwa 
 ## LANGUAGE INFO
 
 sc-lang-info-title-total = Palogotlhe
+sc-lang-info-title-personal = Tsa Botho
 # Variables:
 #   $totalInReview (Number) - Number of sentences currently in the review state for this language
 sc-lang-info-in-review =
