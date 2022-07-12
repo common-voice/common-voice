@@ -1,6 +1,7 @@
 ## Languages
 
 contribute = Shelani Mulenzhe
+get-involved-button = Shelani Mulenzhe
 get-involved-title = Shelani Mulenzhe
 get-involved-text =
     Ri livhuwa u vha haṋu na dzangalelo ḽa u ṱoḓa u shela mulenzhe { $lang }. Ri shuma nga maanḓa uri luambo luṅwe na luṅwe lu kone u ḽontshiwa na u dzula

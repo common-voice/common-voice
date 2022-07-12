@@ -210,6 +210,7 @@ contact = Zwidodombedzwa
 privacy = Tshiphiri
 terms = Milayo Yashu
 cookies = Cookies
+faq = FAQ
 content-license-text = Mafhungo a wanala kha <licenseLink>Creative Commons ḽaisentsi</licenseLink>
 share-title = Ri thuseni u wana vhaṅwe vhane vha nga nikela nga maipfi avho!
 share-text = Thusani u gudisa mitshini uri vhathu vhavhukuma vha ambisa hani, nikelani nga ipfi ḽaṋu { $link }
@@ -947,6 +948,7 @@ create-custom-goal = Itani tshipikwa tsho ḓoweleaho
 goal-type = Ndi tshipikwa ḓe tshine na khou ṱoḓa u tshi ita?
 both-speak-and-listen-long = Zwoṱhe (Ambani na u Thetshelesa)
 weekly-goal = Tshipikwa tsha Vhege
+easy-difficulty = Leluwa
 average-difficulty = Vhukati
 lose-goal-progress-warning = Nga u editha tshipikwa tshaṋu, ni nga xelelwa nga mvela phanḓa ya zwe na zwi ita.
 want-to-continue = Ni khou ṱoḓa u isa phanḓa?
@@ -1133,8 +1135,11 @@ contribution-just-unsure-description = Arali na ṱangana na zwithu zwine zwi si
 
 ## HEADER/FOOTER
 
+sc-header-home = Hayani
+sc-header-how-to = Nga zwiita hani
 sc-header-add = Panga/ Dzhenisa
 sc-header-rejected = Mitaladzi yo Haniwaho
+sc-footer-discourse = Discourse
 sc-footer-report-bugs = Vhigani zwi sa Tshimbili zwavhuḓi
 sc-footer-translate = Ḓologani heḽi siaṱari
 sc-footer-report-copyright = Vhigani thaidzo dza kopi ya vhuṋe
