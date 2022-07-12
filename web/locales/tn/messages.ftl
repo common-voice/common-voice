@@ -45,6 +45,7 @@ da = Se-Denmark
 dsb = Se-Sorbia, sa kwa Tlase
 es = Se-Spain
 eu = Se-Basque
+gn = Se-Guarani
 ha = Se-Hausa
 he = Sehebera
 hr = Se-Croatia
@@ -568,7 +569,9 @@ record-cancel = Khansela go Rekota Sesha
 record-stop-instruction = { $actionType }<stopIcon></stopIcon> fa o feditse
 record-last-instruction = <recordIcon></recordIcon> Ya bofelo!
 clips-uploaded = Dibidio di tsentswe
+record-abort-text = Fa o tswa gone jaanong o tla latlhegelwa ke kgatelopele e o e dirileng
 record-abort-submit = Romela dibidio
+listen-again-instruction = O berekile!<playIcon></playIcon> Reetsa gape fa o ipaakantse
 listen-last-time-instruction = <playIcon></playIcon>Ya bofelo!
 listen-empty-state = Re feletswe ke dikgatiso tse re ka di tlhomamisang ka puo eno...
 listen-loading-error = Ga re a kgona go bona dikgatiso tsa mantswe tse o ka di reetsang. Tsweetswee leka gape moragonyana.
@@ -610,6 +613,7 @@ both-speak-and-listen = Ka bobedi
 average-difficulty = Palogare
 pro-difficulty = Pro
 lose-goal-progress-warning = Fa o baakanya maikaelelo a gago, o ka nna wa latlhegelwa ke kgatelopele ya gago e e gone.
+lose-changes-warning = Fa o tswa gone jaanong o tla latlhegelwa ke diphetogo tse o di dirileng
 help-reach-hours-general-pluralized =
     { NUMBER($hours) ->
         [one] Thusa Common Voice go fitlhelela ura e le { $hours } mo puong ka maikaelelo a batho
@@ -660,6 +664,7 @@ download-request-link-single = Gape o ka kgona go kopisa le go manega di-URL tse
 ## Landing
 
 help-contribute = O ka thusa rekoto eno ya tshedimosetso e kgolo e bile e le ya batho botlhe ka go tlhama porofaele ya Common Voice le go abelana ka lentswe la gago.
+login-company = Tsena / Ikwadise ka imeile ya { $company }
 profile-not-required = Ga o tlhoke go nna le porofaele gore o thuse, mme gone go a thusa. Bona gore ka ntlha yang fa tlase.
 
 ## DemoLayout
@@ -707,6 +712,7 @@ contribution-misreadings-example-7-title = Re a tswa re ya go batla kofi.
 contribution-misreadings-example-8-explanation = [Diteng tse di sa tshwaneng]
 contribution-varying-pronunciations-description = Nna kelotlhoko pele o gana kgatiso ka go bo mmadi a sa bitsa lefoko sentle, o gateletse mo lefelong le e seng lone, kgotsa gongwe o itlhokomolositse letshwao la potso. Go na le ditsela tse dintsi tsa go bitsa mafoko lefatshe ka bophara, tse dingwe ka tsone o ka tswang o ise o di utlwe mo lefelong la gago. Tsweetswee anaanela ba ba ka tswang ba bua ka tsela e e farologaneng le e o buang ka yone.
 contribution-varying-pronunciations-description-extended = Kafa letlhakoreng le lengwe, fa o akanya gore gongwe mmadi ga a ise a kopane le lefoko leo, mme o fopholetsa fela ka tsela e e sa siamang tsela e le bidiwang ka yone, tsweetswee e gane. Fa o sa tlhomamisege, dirisa konopo ya tlola.
+contribution-varying-pronunciations-example-1-title = Mo tlhogong ya gagwe o ne a rwele berethe.
 contribution-varying-pronunciations-example-1-explanation = [‘Berethe’ e siame le fa go gatelelwa ditlhaka tsa ntlha (UK) kgotsa tsa bofelo (US)]
 contribution-varying-pronunciations-example-2-explanation = [Ka dinako tsotlhe ‘Raised’ ka Seesemane o bidiwa e le lefoko le le lengwe, e seng a mabedi]
 contribution-background-noise-title = Modumo kwa Lemoragong
@@ -768,7 +774,9 @@ sc-howto-cite-item-3 = Fa o dirisa tshedimosetso ya batho botlhe mme e seyo mo i
 sc-howto-review-criteria-4 = Fa mola o tsamaisana le dintlha tsa tshwanelego, tobetsa konopo ya "Amogela."
 sc-howto-review-criteria-5 = Fa polelo e sa fitlhelele ditshwanelego tse di fa godimo, tobetsa konopo ya "Gana." Fa o a tlhomamisege ka polelo , o ka e tlola mme wa fetela mo go e e latelang.
 sc-howto-review-criteria-6 = Fa o felelwa ke mela e e sekasekiwang, tsweetswee re thuse go kgobokanya mela e e oketsegileng!
+sc-howto-findpd-title = Re batla dipolelo tse di gone mo Lefelong la Botlhe
 sc-howto-findpd-text-2 = Gopola gore re tlhoka tetla ya go phasalatsa dipolelo tseo, ka jalo ka metlha tlhomamisa gore mokwalo ke wa <wikipediaLink>lefelong la botlhe</wikipediaLink>. Fa go se na sepe se se bontshang ka tlhamalalo, ikgolaganye le motho yo mokwalo e leng wa gagwe mme o mmotse gore o batla go abela Lefelo la Botlhe mokwalo wa gagwe. Fa a batla go dira jalo, mo thuse gore a tsene mo thulaganyong ya <cc0WaiverLink>Tumalano ya Dikabo</cc0WaiverLink>. Fa a sa batle go aba mokwalo oo, ga o letlelelwe go o dirisa.
+sc-howto-findpd-tips = Tseno ke dikakantsho dingwe tsa go bona mela:
 sc-howto-findpd-tips-1 = Metswedi e e siameng thata e o ka e batlang ke di-podcast, ditokomane tse di kopolotsweng, disekerepiti tsa difilimi le sengwe le sengwe se se nang le metlotlo ya letsatsi le letsatsi.
 sc-howto-findpd-tips-2 = Mananeo a puso, dibuka le ditlhogo le tsone di siame, mme e re ka gantsi mokwalo o na le go gagamala thata, ga di botlhokwa go le kalo.
 sc-howto-findpd-tips-3 = Ka maswabi ga re ise re kgone go nna le diathikele tsa Wikimedia. Ka jalo o se ka wa kopolola o bo o tsenya go tswa koo.
@@ -876,6 +884,7 @@ sc-lang-info-review-now = <reviewLink>Sekaseka jaanong!</reviewLink>
 
 ## PROFILE
 
+sc-personal-err-lang-not-found = Ga re a kgona go ntsha puo: puo ga e a bonwa
 sc-personal-remove-button = tlosa
 sc-personal-not-added = Ga o ise o tsenye dipuo dipe.
 
@@ -888,6 +897,7 @@ sc-criteria-item-6 = Fa o felelwa ke mela e e sekasekiwang, tsweetswee re thuse 
 ## REVIEW
 
 sc-review-lang-not-selected = Ga o ise o tlhophe dipuo dipe. Tsweetswee ya kwa <profileLink>Porofaeleng</profileLink> ya gago gore o tlhophe dipuo.
+sc-review-select-language = Tsweetswee tlhopha puo go sekaseka mela.
 sc-review-form-usage = Swaepela kafa mojeng go amogela polelo. Swaepela kafa molemeng go e gana. Swaepela kwa godimo go e tlola. <strong>O se ka wa lebala go romela tshekatsheko ya gago!</strong>
 # Variables:
 #   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
