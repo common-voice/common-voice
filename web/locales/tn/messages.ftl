@@ -923,6 +923,7 @@ sc-stats-summary = Kgobokanyo ya Mela ya Common Voice e setse e kgobokantse mela
 
 ## ADD
 
+sc-submit-err-add-sentences = Tsweetswee tsenya dipolelo.
 sc-submit-prompt =
     .message = Mela ga ya romelwa, a o tlhomamisegile gore o batla go tswa?
 sc-submit-title = Tsenya Dipolelo
@@ -996,6 +997,7 @@ sc-lang-info-review-now = <reviewLink>Sekaseka jaanong!</reviewLink>
 
 ## LOGIN
 
+sc-login-err-try-again = Tsweetswee leka gape.
 
 ## PROFILE
 
