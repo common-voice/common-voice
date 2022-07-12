@@ -879,6 +879,7 @@ sc-my-source = Motswedi: { $source }
 
 ## REJECTED
 
+sc-rejected-loading = E tsenya dipolelo tse di gannweng...
 
 ## STATS
 
