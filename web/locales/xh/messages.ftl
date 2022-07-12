@@ -164,6 +164,7 @@ why-profile-title = Kutheni kufuneka iProfayile?
 why-profile-text =
     Ngokubonelela ngolwazi malunga nawe, idatha yesandi oyithumelayo kwi-Common Voice iya kuba luncedo ngakumbi kwiNtetho
     Iinjini zokuqaphela ezisebenzisa le datha ukuphucula ukuchaneka kwazo.
+edit-profile = Hlengahlengisa iProfayile
 profile-create-success = Iphumelele, iprofayile yenziwe!
 profile-explanation = Gcina umkhondo wenkqubela yakho ngeprofayile kwaye uncede idatha yethu yelizwi ichaneke ngakumbi.
 thanks-for-account = Enkosi ngokuqinisekisa i-akhawunti yakho, ngoku masikhe iprofayile yakho.
@@ -173,7 +174,9 @@ accept-privacy = Ndilungile ngokuphatha olu lwazi njengoko luchazwa <privacyLink
 accept-privacy-title = Umthetho wabuCala
 login-identity = Isazisi sokungena
 login-signup = Ngena / Bhalisa
+email-subscriptions = Imirhumo ye-imeyile
 download-profile = Khuphela iDatha yam
+contribution-experience = Amava ngegalelo
 skip-submission-feedback = Tsiba iNgxelo yokuNgenisa
 skip-submission-description = Ngexesha lokungeniswa kogalelo ingxelo iya kutsitywa emva kokucofa u-'Thumela'. Ugalelo luya kuqhubeka ngokuthe ngqo kunye nesethi elandelayo yorekhodo oluhlanu okanye ukuqinisekiswa.
 skip-submission-note = Qaphela: Kusafuneka ukhethe phakathi kokuThetha okanye ukuMamela ukutshintsha uhlobo lomnikelo.
@@ -280,6 +283,7 @@ about-voice-contrib-title = Igalelo leLizwi
 about-voice-contrib-subtitle = Abantu beza banikele ngamazwi abo.
 about-voice-validation-title = Ukuqinisekiswa kwelizwi
 about-voice-validation-subtitle = Abanye abantu bayaziqinisekisa ezo kliphu zelizwi.
+about-dataset-release-title = Ukukhutshwa kweSeti yedatha
 about-dataset-release-subtitle = Sikhupha idatha seti rhoqo kwiinyanga ezi-3.
 about-subscribe-text = Ingaba ufuna ukuhlala unxulumene neCommon Voice?
 about-speak-text = Abanogalelo barekhoda iikliphu zelizwi ngokufunda ukusuka kwibhanki yezivakalisi ezinikezelweyo.
@@ -296,6 +300,7 @@ about-dataset-new-text = I-Common Voice Dataset iqulethe amakhulu amawaka eesamp
 about-clip-graveyard-text =
     I-Clip Graveyard  iqulathe iikliphu zelizwi ezingazange zingene kwi-Common Voice dataset. Kanye njenge dataset, i-Clip Graveyard iyafumaneka ukuze ikhutshelwe.
     Sithanda ukubulela aba bantu balandelayo kunye nemibutho ngoncedo lwabo malunga neprojekthi:
+about-get-involved = Yiba yinxalenye
 about-get-involved-text-2 =
     Ngaba uyafuna ukunceda ukwenza i-Common Voice ibengcono?
     Kakhulu! Qhagamshelana nge-meyile okanye <discourseLink>Discourse</discourseLink>
@@ -307,6 +312,7 @@ about-stay-in-touch-text-1 = <emailFragment>Sign up</emailFragment> kuluhlu lwet
 about-stay-in-touch-text-2 = Ungadibana nabanye boluntu lolwimi lwaseMozilla ngokujoyina <discourseLink>Discourse</discourseLink> kumakhonco ezihloko, okanye <matrixLink>Matrix</matrixLink> ukufumana ingcebiso ekhawulezileyo.
 about-nav-why-common-voice = Ngoba?
 about-nav-how-it-works = Njani ?
+about-nav-get-involved = Yiba yinxalenye
 about-nav-how-it-works-2 = Isebenza njani iCommon Voice?
 about-nav-playbook = Funda indlela yokuthatha inxaxheba
 
@@ -429,6 +435,7 @@ data-explanatory-text = Sikholelwa ukuba ii-voice dataset ezinkulu nezifumanekay
 data-get-started = <speechBlogLink>Qalisa nokuqonda ulwimi</speechBlogLink>
 data-other-title = Ezinye iidatasethi zelizwi...
 data-other-goto = Yiya ku { $name }
+data-other-download = Khuphela iDatha
 data-bundle-button = Khuphela i-Dataset Bundle
 data-bundle-description = Idatha yeCommon Voice kunye nazo zonke ezinye iidatha zelizwi ngaphezulu.
 data-download-singleword-title = Khuphela iCandelo legama elinye ekujoliswe kulo
@@ -580,6 +587,7 @@ record-submit-tooltip = { $actionType } ngenisa xa ukulungele
 record-abort-title = Gqibezela ukurekhoda kuqala?
 record-abort-text = Ukuhamba ngoku kuthetha ukuba uyakuphulukana nenkqubela phambili yakho
 record-abort-submit = Ngenisa iiKliphu
+record-abort-continue = Gqibezela ukurekhoda
 record-abort-delete = Phuma kwaye uCime iikliphu
 listen-instruction = { $actionType }<playIcon></playIcon> ingaba basithetha ngokuchanekileyo isivakalisi?
 listen-again-instruction = Mhle umsebenzi! <playIcon></playIcon>  Mamela kwakhona xa sele ulungile
@@ -610,6 +618,7 @@ report-offensive-language = Ulwimi olukhubekisayo
 report-offensive-language-detail = Isivakalisi sinolwimi olukrwada okanye olukhubekisayo.
 report-grammar-or-spelling = Impazamo yegrama/ yopelo
 report-grammar-or-spelling-detail = Isivakalisi sinempazamo yegrama okanye yopelo.
+report-different-language = Ulwimi olwahlukileyo
 report-different-language-detail = Kubhalwe ngolwimi olwahlukileyo kunento endiyithethayo.
 report-difficult-pronounce = Kunzima ukubiza
 report-difficult-pronounce-detail = Inamagama okanye amabinzana ekunzima ukuwafunda okanye ukwabiza.
@@ -659,6 +668,7 @@ get-started-goals = Qalisa ngenjongo
 create-custom-goal = Yenza iNjongo yesiNtu
 goal-type = Loluphi uhlobo lwenjongo ofuna ukwakha?
 both-speak-and-listen-long = Zombini (Thetha kwaye Mamela)
+daily-goal = Injongo yeMihla ngeMihla
 weekly-goal = Injongo yeVeki
 lose-goal-progress-warning = Ngokuhlela injongo yakho, unokuphulukana nenkqubela phambili yakho esele ikho.
 want-to-continue = Ingaba uyafuna ukuqhubeka?
@@ -720,6 +730,7 @@ delete-q = Ingaba ungathanda ukucela ukuba ushicilelo lwelizwi lakho lucinywe, o
 keep-info = Ushicilelo lwakho lwelizwi olungachazwanga luza kuhlala lukwi dathasethi yeCommon Voice. Ukuba uthe wacima iprofayile yakho awuzukukwazi ukungenisa isicelo sokususa ushicilelo lwakho kwidathasethi
 remove-info = Siza kujonga isicelo sakho sokususa ilizwi elirekhodiweyo kwidathasethi. Ukuba isicelo sakho samkelwe, siya kuqhagamshelana nabo bakhuphele i-dathasethi kwaye sibacele ukuba basuse ilizwi elirekhodiweyo.
 why-delete-recordings = Ukurekhodwa kwe-Common Voice kusetyenziswa ngabafundi, amashishini amancinci, kunye nabathandi bokuqonda ilizwi ukunceda ukuqeqesha kunye nokukhulisa izixhobo ezifumaneka kuwonke-wonke ezifana neemodeli zelizwi.
+profile-form-delete = Cima iProfayile
 
 ## Profile Download
 
@@ -740,6 +751,7 @@ download-request-description = Iikliphu zelizwi, ubungakanani obupheleleyo bogci
 download-request-archive-single = Ifayile ye-ZIP enye equlathe
 download-request-archive-multiple = Yahlula kwi { $archiveCount } iifayile zeZIP eziqulathe
 download-request-assembling-description = Iifayile zakho ziyahlanganiswa. Nceda ujonge kwakhona kamva.
+download-request-modal-title = Khuphela iiLinki
 download-request-modal-description = Nazi iilinki zokukhuphela iifayile zakho ze-ZIP.
 download-request-link-text = iZip #{ $offset } ye { $total }
 download-request-metadata-link = Isicatshulwa sesivakalisi
@@ -788,7 +800,9 @@ demo-dashboard-card-body = Kwikliphu nganye yelizwi ekunikelwe ngayo, kunye nekl
 ## Validation criteria
 
 contribution-criteria-link = Qonda iindlela zokunikela
+contribution-criteria-page-title = Indlela yokunikela
 contribution-criteria-page-description = Qonda into omawuyijonge xa umamele iiklip zelizwi kwaye uncede wenze urekhodo lwelizwi lakho lutyebe!
+contribution-for-example = umzekelo
 contribution-misreadings-description = Xa uphulaphule, khangela ngenyameko enkulu ukuba oko kurekhodiweyo kuyiloo nto kanye ebhaliweyo na; yala ukuba kukho iimpazamo ezincinci. <br /> Iimpazamo eziqhelekileyo zibandakanya:
 contribution-misreadings-description-extended-list-1 = Kushota i<strong>'A'</strong> okanye <strong>'The'</strong> ekuqaleni kwerekhodingi.
 contribution-misreadings-description-extended-list-2 = Ilahlekile i <strong> 's' </strong> ekupheleni kwegama.
@@ -1081,6 +1095,8 @@ sc-review-form-prompt =
     .message = Izivakalisi eziphononongiweyo azingeniswanga, uqinisekile?
 sc-review-form-usage = Swayipha ekunene ukuze uvume isivakalisi. Swayipha ekhohlo ukusala isivakalisi. Swayiphela phezulu ukuze uyitsibe. <strong>Ungalibali ukuthumela ingxelo yakho!</strong>
 sc-review-form-keyboard-usage-custom = Unokusebenzisa kwakhona iindlela ezimfutshane zekhibhodi  { sc-review-form-button-approve-shortcut } ukuvuma { sc-review-form-button-reject-shortcut } ukwala { sc-review-form-button-skip-shortcut } nokutsiba
+sc-review-form-button-submit =
+    .submitText = Gqibezela uphononongo
 # Variables:
 #   $sentences (Number) - Number of sentences the user has reviewed in this session
 sc-review-form-reviewed-message =
