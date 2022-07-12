@@ -570,6 +570,7 @@ data-download-deny = Nyaa
 data-download-modal = O tloga o simolola download ya <size>{ $size }GB</size>, a o a tswelela?
 data-subtitle = Re aga rekoto ya tshedimosetso ya mantswe e mongwe le mongwe a ka e dirisang go thapisa dithulaganyo tse di kgonang go dirisa mantswe.
 data-explanatory-text = Re dumela gore tshedimosetso e kgolo le e e phasaladitsweng ya mantswe e rotloetsa go tlhama le kgaisano ya kgwebo mo thekenolojing e e ikaegileng ka go ithuta ga metšhine. Ano ke matsapa a lefatshe lotlhe mme re laletsa mongwe le mongwe go tsaya karolo. Boikaelelo jwa rona ke go thusa thekenoloji ya go bua gore e akaretse dilo tse dintsi, e bontshe pharologano ya mantswe go ralala lefatshe.
+data-get-started = <speechBlogLink>Simolola ka Temogopuo</speechBlogLink>
 data-other-title = Direkoto tse dingwe tsa tshedimosetso ya mantswe...
 data-bundle-button = Itseele Di-bundle Tsa Rekoto ya Tshedimosetso
 data-bundle-description = Tshedimosetso ya Common Voice le direkoto tsotlhe tsa tshedimosetso ya mantswe fa godimo.
@@ -653,6 +654,7 @@ select-language = Tlhopha Puo...
 
 ## Request Language Pages
 
+request-language-heading = Botsa ka puo e ntšha
 request-language-explanation-1 =
     Tlhola gore a puo ya gago e kwadilwe mo lenaaneng la
     <languagesPageLink>tsebe ya Dipuo Tsa Common Voice</languagesPageLink>.
@@ -731,6 +733,7 @@ record-abort-text = Fa o tswa gone jaanong o tla latlhegelwa ke kgatelopele e o 
 record-abort-submit = Romela dibidio
 listen-instruction = { $actionType }<playIcon></playIcon> a ba buile mola ka tsela e e nepagetseng?
 listen-again-instruction = O berekile!<playIcon></playIcon> Reetsa gape fa o ipaakantse
+listen-3rd-time-instruction = O feditse tse 2, tshwara fela jalo!<playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon>Ya bofelo!
 listen-empty-state = Re feletswe ke dikgatiso tse re ka di tlhomamisang ka puo eno...
 listen-loading-error = Ga re a kgona go bona dikgatiso tsa mantswe tse o ka di reetsang. Tsweetswee leka gape moragonyana.
@@ -1002,6 +1005,7 @@ sc-languages-fetch-error = Ga re a kgona go tla ka dipuo tse di gone. Go ka se k
 
 ## HOW-TO
 
+sc-howto-addlang-title = Go tsenya dipuo tse o ka dirang ka tsone
 sc-howto-addlang-text = Fa o setse o tsene, o kgona go tlhopha dipuo tsa gago mo karolong ya porofaele.
 sc-howto-addsen-title = Tsenya dipolelo tse disha
 sc-howto-addsen-item-1 = Dipolelo tsotlhe tse o di romelang di tshwanetse tsa nna kafa tlase ga laesense ya </wikipediaLink>Lefelo la Botlhe (CC-0)<wikipediaLink>. Go tshegetsa go akarediwa ga tiro e e seng kafa tlase ga laesense ya puso, re dirile <cc0WaiverLink>thempoleite ya Tumalano ya Dikabo</cc0WaiverLink> go dira ditiro tse mong wa tetlokhopi a batlang go di abela Common Voice.
