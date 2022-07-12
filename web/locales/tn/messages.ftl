@@ -318,6 +318,8 @@ status-hours =
 
 profile-form-username =
     .label = Leinatiriso
+profile-form-native-language =
+    .label = Puo ya Kwa Gae
 profile-form-additional-language =
     .label = Puo e Nngwe Gape
 profile-form-language =
@@ -688,6 +690,7 @@ dataset-version = Thanolelo
 download-title = Selo se o se itseelang se simolotse go tsena.
 download-helpus = Re thuse go aga setšhaba ka thekenoloji ya lentswe, nna o ikgolaganya ka imeile.
 download-back = Boela Kwa Direkotong Tsa Tshedimosetso Tsa Common Voice
+download-no = Nyaa ke Siame
 
 ## Contact Modal
 
@@ -816,6 +819,8 @@ speak-empty-state-cta = Aba mela
 speak-loading-error = Ga re a kgona go bona mela e o ka e buang. Tsweetswee leka gape moragonyana.
 record-button-label = Rekota lentswe la gago
 share-title-new = <bold>Re thuse</bold> go bona mantswe a a oketsegileng
+keep-track-profile = Boloka kgatelopele ya gago ka porofaele
+login-to-get-started = Tsena kgotsa ikwadise go simolola
 target-segment-first-card = O abelana go karolwana ya rona ya ntlha ya puo
 target-segment-generic-card = O abelana go karolwana ya puo
 target-segment-add-voice = Tsenya Lentswe la Gago
@@ -1109,6 +1114,7 @@ sc-header-how-to = Nka dira jang
 sc-header-add = Tsenya
 sc-header-review = Sekaseka
 sc-header-rejected = Mela e e Gannweng
+sc-header-my = Mela ya Me
 sc-header-statistics = Dipalopalo
 sc-header-profile = Porofaele
 sc-footer-report-bugs = Bega Dibaerase
@@ -1169,6 +1175,7 @@ sc-howto-findpd-partner-2 = Baitseanape ba baitsepuo le bone ba ka thusa, leka g
 
 ## MY SENTENCES
 
+sc-my-title = Mela ya Me
 sc-my-description = Tsebe eno e go naya dintlhakakaretso tsa dipolelo tsotlhe tse o di rometseng. Gape o ka phimola mela e e rometsweng fa go tlhokega, ka go tshwaya lebokoso gaufi le one le go tobetsa &quot;Phimola polelo e e tlhophilweng&quot; kwa tlase. Tsweetswee tlosa dipolelo fela fa tota go tlhokega, ka sekai, fa o lemoga morago ga ntlha nngwe gore polelo eo e na le tshireletso ya tetlokhopi.
 # Variables:
 #   $batchId (String) - A unique ID identifying the submission of sentences - sentences uploaded together all have the same batch ID
