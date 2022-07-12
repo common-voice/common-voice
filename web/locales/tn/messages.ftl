@@ -55,12 +55,14 @@ sk = Se-Slovak
 sl = Se-Slovania
 so = Se-Somali
 sq = Se-Albania
+sr = Se-Serbia
 ss = Seswati
 te = Se-Telugu
 th = Se-Thai
 ti = Se-Tigrinya
 tig = Se-Tigre
 tk = Se-Turkmen
+tn = Setswana
 tr = Se-Turkey
 ts = Setsonga
 tt = Se-Tartar
@@ -477,7 +479,10 @@ language-section-in-progress-new-description = Ga jaana dipuo tseno di tokafadiw
 language-section-launched-description = Mo dipuong tseno tse di simolotsweng, webosaete e <localizationGlossaryLink>dirilwe ya selegae</localizationGlossaryLink> ka katlego, mme e na le <sentenceCollectionGlossaryLink>dipolelo tse di lekaneng tse di phuthilweng</sentenceCollectionGlossaryLink> go letla dikabo tse di tswelelang tsa <speakLink>Bua</speakLink> le <listenLink>Reetsa</listenLink>.
 language-meter-in-progress = Kgatelopele
 language-total-progress = Palogotlhe
+language-search-input =
+    .placeholder = Senka
 language-speakers = Dibui
+sentences = Dipolelo
 
 ## Contribution
 
@@ -557,6 +562,7 @@ download-recordings-info = E akaretsa di-mp3 le mela e e tsamaisanang le yone, g
 download-recordings-unavailable = Ga o kgone go kopa dikgatiso tsa gago fa kopo e nngwe e setse e diragadiwa.
 download-recently-requested = O ka kopa go ntsha dikgatiso tsa gago malatsi mangwe le mangwe a le { $days }.
 download-size = Bogolo
+download-selected = E tlhophilwe
 download-requests-info = Fa o kopa dikgatiso tsa gago, re di kopanya go di dira faele e le nngwe kgotsa di le mmalwa tsa ZIP. Tseno ke dikopo tsa gago tsa nako e e fetileng.
 download-request-assembling-description = Difaele tsa gago di a kokoanngwa. Tsweetswee tlhola gape moragonyana.
 download-request-modal-description = Tseno ke dilinki tsa go itseela difaele tsa gago tsa ZIP.
