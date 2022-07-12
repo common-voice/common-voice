@@ -396,6 +396,7 @@ about-playbook-how-localize-content-1 = Thanolo ya webosaete ya Common Voice e d
 about-playbook-how-localize-content-2 = <pontoonAccountLink>Dira akhaonto</pontoonAccountLink> fa o se na yone. Go tswa foo, tlhopha puo ya gago <strong>(‘Team’)</strong> o bo o tlhopha porojeke, <pontoonCvLink>Common Voice</pontoonCvLink>. Go tla bo go na le difaele tse di ranolwang. Tobetsa mo go e nngwe, mme e tla bontsha mafoko a Seesemane le lebokoso la go a ranola.
 about-playbook-how-localize-content-3 = Go ranolwa go tswa mo Seesemaneng, mme o ka bona <strong>Dikakantsho</strong> ka dipuo tse dingwe. Tobetsa letshwao la <strong>Porofaele</strong>, go tswa foo linki ya <strong>Diseting</strong> o bo o tsenya dipuo dipe tse o di buang. Kwa sekhutlhong se se kwa tlase kafa mojeng go tla nna le lenaane la dithanolo tse di bidiwang <strong>Locales</strong>. Dithanolo di bonala mo webosaeteng morago ga letsatsi le le lengwe.
 about-playbook-how-localize-content-4 = Saete e siametse go tlhaga fa e setse e tsamaya mo 75% gore e fediwe.
+about-playbook-how-localize-content-5 = Leba tlhaloso ya rona ya bidio go go thusa
 
 ## How to add sentences
 
@@ -717,6 +718,7 @@ contribution-misreadings-example-3-explanation = [Kgatiso e kgaogile pele lefoko
 contribution-misreadings-example-4-title = Di-dinosaur tse dikgolo tsa Triassic. Ee.
 contribution-misreadings-example-4-explanation = [Go gatisitswe mo gontsi go gaisa mokwalo o o tlhokegang]
 contribution-misreadings-example-5-title = Re a tswa re ya go batla kofi.
+contribution-misreadings-example-6-title = Re a tswa re ya go batla kofi.
 contribution-misreadings-example-7-title = Re a tswa re ya go batla kofi.
 contribution-misreadings-example-8-explanation = [Diteng tse di sa tshwaneng]
 contribution-varying-pronunciations-description = Nna kelotlhoko pele o gana kgatiso ka go bo mmadi a sa bitsa lefoko sentle, o gateletse mo lefelong le e seng lone, kgotsa gongwe o itlhokomolositse letshwao la potso. Go na le ditsela tse dintsi tsa go bitsa mafoko lefatshe ka bophara, tse dingwe ka tsone o ka tswang o ise o di utlwe mo lefelong la gago. Tsweetswee anaanela ba ba ka tswang ba bua ka tsela e e farologaneng le e o buang ka yone.
