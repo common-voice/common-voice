@@ -549,6 +549,7 @@ goal-share-text = Ke fetsa go dira maikaelelo a botho a go abelana ka lentswe go
 ## Profile Delete
 
 delete-q = A o batla go kopa gore dikgatiso tsa lentswe la gago di phimolwe le tsone, kgotsa o batla go di boloka mo tshedimosetsong ya Common Voice?
+remove = Tlosa
 keep-info = Dikgatiso tsa gago tsa mantswe tse di sa ntsheng tshedimosetso ya gago di tla tswelela di le mo tshedimosetsong ya Common Voice. Fa o sena go phimola porofaele ya gago o ka se tlhole o kgona go romela kopo ya go tlosa dikgatiso tsa gago mo tshedimosetsong
 remove-info = Re tla sekaseka kopo ya gago ya go tlosa dikgatiso tsa gago tsa mantswe mo tshedimosetsong. Fa kopo ya gago e dumeletswe, re tla ikgolaganya le batho ba ba itseetseng tshedimosetso le go ba kopa gore le bone ba tlose dikgatiso tsa gago tsa mantswe.
 why-delete-recordings =
@@ -566,6 +567,7 @@ download-size = Bogolo
 download-selected = E tlhophilwe
 download-requests-info = Fa o kopa dikgatiso tsa gago, re di kopanya go di dira faele e le nngwe kgotsa di le mmalwa tsa ZIP. Tseno ke dikopo tsa gago tsa nako e e fetileng.
 download-request-assembling-description = Difaele tsa gago di a kokoanngwa. Tsweetswee tlhola gape moragonyana.
+download-request-refresh-button = Ntšhafatsa
 download-request-modal-description = Tseno ke dilinki tsa go itseela difaele tsa gago tsa ZIP.
 download-request-link-single = Gape o ka kgona go kopisa le go manega di-URL tse di tlhamaletseng mo lefelong la gago la mmamoratwa la go itseela dilo. Di tla felelwa ke nako mo diureng tse 12, mme o ka boela mo tsebeng eno go dira tse disha nako nngwe le nngwe.
 
@@ -773,6 +775,7 @@ sc-lang-info-review-now = <reviewLink>Sekaseka jaanong!</reviewLink>
 
 ## PROFILE
 
+sc-personal-remove-button = tlosa
 
 ## REVIEW CRITERIA
 
@@ -787,6 +790,7 @@ sc-review-form-usage = Swaepela kafa mojeng go amogela polelo. Swaepela kafa mol
 # Variables:
 #   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
 sc-review-form-source = Motswedi: { $sentenceSource }
+sc-review-form-button-reject = Gana
 sc-review-form-button-skip = Tlola
 sc-review-form-button-approve = Amogela
 # Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
