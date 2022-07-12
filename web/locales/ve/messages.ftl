@@ -10,6 +10,7 @@ email-opt-in-info-title = Ivhani tshipiḓa tsha vhane vha wana email dza Common
 email-opt-in-info-sub-with-challenge = Wanani milaedza nga email yo nonga khumbudzo ya zwipikwa, mvela phanḓa, na maswa maswa a Common Voice.
 email-opt-in-privacy-v2 = Nga u ṱanganedza uri ni ṱoḓa u wana dzi email ni tenda uri zwo luga uri Mozilla i fare zwidodombedzwa zwenezwi u ya nga nḓila ye zwa ṱalutshedzwa ngayo kha Mozilla’s <privacyLink>Poḽisi ya Tshiphiri</privacyLink>.
 indicates-required = Mitaladzi i re na hetshi tshiga(*) i ya ṱoḓea.
+not-available-abbreviation = N/A
 banner-error-slow-1 = Pfarelo, Common Voice i khou shuma nga thotho. Ri a livhuwa u vha haṋu na dzangalelo.
 banner-error-slow-2 = Hu na trafiki ine ya khou itea kha saiti, ri khou ita ṱhoduluso ya heyi thaidzo.
 banner-error-slow-link = Siaṱari ḽa Status
@@ -673,7 +674,7 @@ data-bundle-description = Common Voice data na dziṅwe dzi dataset dza maipfi d
 release-version = Vershini
 dataset-date = Datumu
 license = Ḽaisentsi: <licenseLink>{ $license }</licenseLink>: <licenseLink>{ $license }</licenseLink>
-license-mixed = Mixed
+license-mixed = Ṱanganana
 data-download-singleword-title = Downḽodani Thagete ya Tshipiḓa tsha Ipfi Ḽithihi
 data-download-singleword-callout-v2 = Hetshi ndi tshipiḓa tshi langiwaho nga kushumisele tshi re na data ine ya mannḓafhadza digit recognition na ine ya ḓivha ee / hai.
 review-terms = Nga u shumisa Common Voice, ni khou tendelana na <termsLink>Milayo ya Kushumisele</termsLink>na<privacyLink>Milayo ya Tshiphiri</privacyLink>
@@ -811,7 +812,7 @@ language-section-in-progress = Zwi Khou Bvela Phanḓa
 language-section-in-progress-new-description = Hedzi nyambo dzi kha ḓi shumiwa <localizationGlossaryLink>u ḓologa Website</localizationGlossaryLink> na<sentenceCollectionGlossaryLink>u kuvhanganya mitaladzi </sentenceCollectionGlossaryLink> zwi a ṱoḓea uri hu ḽontshiwe.
 language-section-launched = Ḽontshiwa
 language-section-launched-description = Kha hedzi nyambo dzo no ḓi dzheniswaho dzo dzhena zwavhuḓi kha website <localizationGlossaryLink>localized</localizationGlossaryLink>, nahone hu na mitaladzi <sentenceCollectionGlossaryLink> yo kuvhanganwaho yo eḓaho </sentenceCollectionGlossaryLink> u itela uri hu vhe na bvela phanḓa <speakLink>Ambani</speakLink> ni <listenLink>Tshetshelese</listenLink> zwo shelwaho mulenzhe.
-languages-show-more = Vhonani Zwinzhi
+languages-show-more = Vhonani Zwo Engedzeaho
 languages-show-less = Vhonani Zwiṱuku
 language-speakers = Vhaambi
 localized = Localized
@@ -1061,6 +1062,7 @@ demo-welcome-subheader = Naa ni a takalela u guda zwinzhi na u shela mulenzhe kh
 
 demo-language-select-card-header = Common Voice ndi dataset khulwanesa ya nnyi na nnyi i re hone shangoni ḽoṱhe, ine ya vha nga maipfi a re nga nyambo nnzhi.
 demo-language-select-card-body = Ri livhuwa vhathu vho shelaho mulenzhe vha fhiraho 259k u bva kha nyambo dzi fhiraho 50, yeneyi data i khou shumiselwa u gudisa app dzi ḓivhaho ipfi uri dzi kone u fhindula khwine ipfi ḽa muthu.
+card-button-next = Tevhela
 card-button-back = Murahu
 demo-eofy-header = 2019 riḽiziwaho mafheloni a nwaha
 demo-eofy-sub_header = Dataset ya Maipfi, yo Lugelwa u Downḽodiwa
@@ -1381,6 +1383,8 @@ sc-review-form-prompt =
     .message = Mitaladzi yo ṱolisiswaho a yo ngo rumelwa, ni na vhuṱanzi?
 sc-review-form-usage = Swaipelani kha tsha u ḽa u itela uri ni kone u amba uri mutaladzi ndi wone. U amba uri a si wone swaipelani kha tsha monde. Swaipelani nṱha u itela u pfuka. <strong>Ni songo hangwa u rumela zwe na ṱolisisa!</strong>
 sc-review-form-button-approve = Tendelwa
+# Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
+sc-review-form-button-reject-shortcut = N
 sc-review-form-keyboard-usage-custom = Ni nga dovha hafhu na shumisa shortcuts dza Keyboard: { sc-review-form-button-approve-shortcut } u Khwaṱhisedza, { sc-review-form-button-reject-shortcut } u Hana, { sc-review-form-button-skip-shortcut } u Pfukha
 # Variables:
 #   $sentences (Number) - Number of sentences the user has reviewed in this session
