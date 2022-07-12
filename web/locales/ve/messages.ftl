@@ -814,6 +814,7 @@ language-section-launched = Ḽontshiwa
 language-section-launched-description = Kha hedzi nyambo dzo no ḓi dzheniswaho dzo dzhena zwavhuḓi kha website <localizationGlossaryLink>localized</localizationGlossaryLink>, nahone hu na mitaladzi <sentenceCollectionGlossaryLink> yo kuvhanganwaho yo eḓaho </sentenceCollectionGlossaryLink> u itela uri hu vhe na bvela phanḓa <speakLink>Ambani</speakLink> ni <listenLink>Tshetshelese</listenLink> zwo shelwaho mulenzhe.
 languages-show-more = Vhonani Zwo Engedzeaho
 languages-show-less = Vhonani Zwiṱuku
+language-meter-in-progress = Zwe na zwi ita
 language-speakers = Vhaambi
 localized = Localized
 sentences = Mitaladzi
@@ -1305,6 +1306,7 @@ sc-confirm-uploading = Mitaladzi i khou apuḽodiwa. Hezwi zwi nga dzhia tshifhi
 
 ## LANGUAGE INFO
 
+sc-lang-info-title-personal = Personal
 # Variables:
 #   $totalSentences (Number) - Number of sentences uploaded in total for this language
 sc-lang-info-total =
@@ -1353,6 +1355,9 @@ sc-login-err-try-again = Ri humbela uri ni dovhe hafhu.
 
 ## PROFILE
 
+# Variables:
+#   $username (String) - eMail address of the logged in user
+sc-profile-title = Profaiḽi: { $username }
 sc-personal-err-lang-not-found = A zwo ngo konadzea u bvisa luambo: luambo a lwo ngo wanala
 sc-personal-err-remove = A yo ngo kona u bvisa luambo
 sc-personal-your-languages = Nyambo dzaṋu
@@ -1382,6 +1387,7 @@ sc-review-no-sentences = A hu na mutaladzi une wa ṱoḓa u ṱoliwa. <addLink>
 sc-review-form-prompt =
     .message = Mitaladzi yo ṱolisiswaho a yo ngo rumelwa, ni na vhuṱanzi?
 sc-review-form-usage = Swaipelani kha tsha u ḽa u itela uri ni kone u amba uri mutaladzi ndi wone. U amba uri a si wone swaipelani kha tsha monde. Swaipelani nṱha u itela u pfuka. <strong>Ni songo hangwa u rumela zwe na ṱolisisa!</strong>
+sc-review-form-button-reject = Hanela
 sc-review-form-button-approve = Tendelwa
 # Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
 sc-review-form-button-reject-shortcut = N
