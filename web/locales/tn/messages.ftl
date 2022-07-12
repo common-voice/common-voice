@@ -214,6 +214,7 @@ todays-progress =
             }
        *[other] Days
     }
+read-terms-q = A o badile Melawana ya rona?
 ready-to-record = A o ipaakanyeditse go abelana ka lentswe la gago?
 all-locales = Tsotlhe
 today = Gompieno
@@ -350,6 +351,7 @@ help-variants-explanation = Dipuo ke mofuta o o rileng wa leleme - ka sekai, le 
 
 ## Profile - Email
 
+browse-file = E goge o bo o e latlhela kgotsa o <browseWrap>Senke</browseWrap>
 gravatar_not_found = Ga go a bonwa setshwantsho sepe se se amanang le imeile ya gago
 file_too_large = Faele e e tlhophilweng e kgolo thata
 avatar-uploaded = Setshwantsho se tsentswe
@@ -403,6 +405,7 @@ faq-where-src-from-2-a =
 faq-why-not-ask-read-q = Goreng o sa kope batho go bala dibuka kgotsa ditlhogo tsa Wikipedia ka dipuo tse di farologaneng?
 faq-why-not-ask-read-a = Go dira gore tshedimosetso ya Common Voice e nne mosola kafa go ka kgonegang ka gone, re dirile tshwetso ya go letlelela fela mokwalo o o leng teng mo laesenseng ya Creative Commons (CC0). Go dirisa molawana wa CC0 go raya gore go thata go bona le go kgobokanya mokwalo wa konokono, mme go letla gore mongwe le mongwe a dirise tshedimosetso e e felelang ka gone ya mantswe kwantle ga dithibelo tsa tiriso kgotsa tetlelelo ya Mozilla. Kwa bofelong, re batla gore tshedimosetso ya dipuo tse dintsi e nne mosola go mongwe le mongwe kafa go ka kgonegang ka gone, go akaretsa babatlisisi, diyunibesithi, dithulaganyo tsa tshimologo, dipuso, mekgatlho ya boikaelelo jwa loago, le batho ba ba dirang dilo go itlosa bodutu.
 faq-why-account-q = Goreng ke tlhoka go ikwadisa gore ke nne le akhaonto?
+faq-is-account-public-q = A tshedimosetso ya akhaonte ya me e bonwa ke batho botlhe?
 faq-how-privacy-q = Lo tlhomamisa jang gore go nna tshedimosetso le diphiri tsa batho ba ba abelanang mantswe ga di phasaladiwe?
 faq-how-privacy-a = Dikgatiso tsotlhe tsa mantswe mo tshedimosetsong di tlositswe tshedimosetso e e senolang gore motho ke mang. Fa moabi a naya tshedimoseetso ya dipalopalo ka porofaele ya gagwe, tshedimosetso eo e a tloswa mo dikgatisong tsa bone tsa mantswe pele di direlwa go ka itseelwa mo tshedimosetsong mme ga e dirwe ya batho botlhe mo tsebeng ya bone ya porofaele.
 faq-what-determine-identity-q = Go tewa jang fa go twe ga ke kgone go "lemoga boikitsiso" jwa babui ba ba mo direkotong tsa tshedimosetso mo Common Voice?
@@ -420,6 +423,7 @@ faq-search-for-answers =
 about-header-description-v2 =
     <p>Common Voice ke tshedimosetso e e leng teng go batho botlhe, e e matlafadiwang ke mantswe a baabi ba baithaopi lefatshe ka bophara. Batho ba ba batlang go dira dithulaganyo tsa mantswe ba ka dirisa tshedimosetso eo go thapisa mefuta ya metšhine e e kgonang go ithuta.</p>
     <p>Gone jaanong, ditshedimosetso tse dintsi ke tsa dikhampani, mme seo se kgoreletsa go tlhamiwa. Ditshedimosetso tsa mantswe le tsone di gone mo dikarolong tseno tse di tseelwang kwa tlase: batho ba ba sa bueng Seesemane, batho ba mmala, batho ba ba nang le bogole, basadi le batho ba LGBTQIA+. Seno se raya gore tshedimosetso ya mantswe ga e bereke mo dipuong tse dintsi, mme fa e berekang gone, e ka nna ya se berekele mongwe le mongwe sentle. Re batla go fetola seo ka go kgothaletsa batho gongwe le gongwe go ntsha mantswe a bone.</p>
+how-does-it-work-title-v2 = Common Voice e dira jang?
 how-does-it-work-text = Re batla tshedimosetso ya batho ba bantsi ya mantswe. Aba lentswe la gago, tlhomamisa go nepa ga dikgatiso tsa batho ba bangwe, dira gore tshedimosetso e nne botoka go batho botlhe.
 
 ## How does it work section
@@ -455,6 +459,7 @@ about-stay-in-touch-button = Ikwadise
 about-stay-in-touch-text-1 = <emailFragment>Ikwadise</emailFragment> mo lenaaneng la rona la melaetsa go ithuta gore gore o ka tsaya karolo jang mo matsholong, mo ditiragalong le mo dikarolong tsa go tlhama mo Common Voice.
 about-stay-in-touch-text-2 = O ka kopana le bangwe ba badirisi ba puo mo Mozilla ka go nna karolo ya<discourseLink>Discourse</discourseLink> go bona metlotlo ya ditlhogo kgotsa <matrixLink>Matrix</matrixLink> go bona maele a ka bonako.
 about-nav-partners = Balekane
+about-nav-how-it-works-2 = Common Voice e dira jang?
 about-nav-playbook = Ithute go tsaya karolo
 
 ## Community Playbook Content
@@ -488,6 +493,7 @@ about-playbook-how-add-language-collecting-sentences-content-2 =
 
 ## How does localization work
 
+about-playbook-how-localize = Go ranolela webosaete go dira jang?
 about-playbook-how-localize-content-1 = Thanolo ya webosaete ya Common Voice e direga mo <strong>Pontoon</strong>.
 about-playbook-how-localize-content-2 = <pontoonAccountLink>Dira akhaonto</pontoonAccountLink> fa o se na yone. Go tswa foo, tlhopha puo ya gago <strong>(‘Team’)</strong> o bo o tlhopha porojeke, <pontoonCvLink>Common Voice</pontoonCvLink>. Go tla bo go na le difaele tse di ranolwang. Tobetsa mo go e nngwe, mme e tla bontsha mafoko a Seesemane le lebokoso la go a ranola.
 about-playbook-how-localize-content-3 = Go ranolwa go tswa mo Seesemaneng, mme o ka bona <strong>Dikakantsho</strong> ka dipuo tse dingwe. Tobetsa letshwao la <strong>Porofaele</strong>, go tswa foo linki ya <strong>Diseting</strong> o bo o tsenya dipuo dipe tse o di buang. Kwa sekhutlhong se se kwa tlase kafa mojeng go tla nna le lenaane la dithanolo tse di bidiwang <strong>Locales</strong>. Dithanolo di bonala mo webosaeteng morago ga letsatsi le le lengwe.
@@ -496,6 +502,7 @@ about-playbook-how-localize-content-5 = Leba tlhaloso ya rona ya bidio go go thu
 
 ## How to add sentences
 
+about-playbook-how-add-sentences = Ke tsenya mela jang?
 about-playbook-how-add-sentences-content-1 = <strong>Kgobokanyo ya Dipolelo</strong> ke sedirisiwa sa go kgobokanya le go netefatsa dipolelo tsa karolo ya batho botlhe. O tla <scAccountLink>tlhoka go dira akhaonto</scAccountLink>. Go tswa foo, tsenya puo ya gago mo <strong>Porofaeleng</strong> ya gago. O ka <strong>Tsenya</strong> dipolelo kgotsa wa <strong>Sekaseka</strong> dipolelo tse di tsentsweng mo nakong e e fetileng.
 about-playbook-how-add-sentences-content-2 = Dipolelo di tshwanetse go sekasekwa le go dumelelwa ke batho ba babedi gore di akarediwe mo Common Voice. O dira dikaelo tsa puo ya gago <languageGuidelinesLink>fano</languageGuidelinesLink>. Dipolelo di tshwanetse go nna mo <licenseLink>lefelong la botlhe</licenseLink> mme di nne kwa tlase ga mafoko a le 15. O ka kopa mong wa mokwalo gore a o dire <waiverLink>CC0 o dirisa thulaganyo ya rona ya go fetisa</waiverLink>, o bo o re romelela mo commonvoice@mozilla.com
 about-playbook-how-add-sentences-content-3 = O ka dirisa <scraperLink>sekgaoganya Mela</scraperLink> go lekanya mela e mekhutshwane mo Wikipedia.
@@ -535,7 +542,9 @@ about-playbook-how-access-dataset-content-2 = Fa e le gore o batla didirisiwa ts
 
 ## How are decisions made
 
+about-playbook-how-project-governance = Ditshwetso ka diporojeke di dirwa jang?
 about-playbook-how-project-governance-content-1 = Mozilla Common Voice e kgonega ka ntlha ya balweladiphetogo, baitsepuo, baitsesaense ba tshedimosetso, barutegi le banjenere ba dirweboleta go ralala lefatshe. Porojeke e etelelwa pele ke Mozilla Foundation.
+about-playbook-how-project-governance-content-4 = Go tsaya karolo le go dira ditshwetso ga baagi.
 about-playbook-how-project-governance-content-7 = <governanceLink>Bala mo go oketsegileng ka ga go re re laolwa jang</governanceLink>
 
 ## Glossary
@@ -602,6 +611,7 @@ dataset-description-hours =
     Ga jaana tshedimosetso e na le diura tse <b>{ $valid }</b> tse di tlhomamisitsweng mo dipuong tse <b>{ $languages }</b>, mme ka metlha re tsenya mantswe le dipuo tse di oketsegileng. Leba <languagesLink>tsebe ya rona ya Dipuo</languagesLink> go kopa puo kgotsa go simolola go aba.
 want-dataset-update = A o batla re go itsise fa re golola tokololo e ntšha ya rekoto ya tshedimosetso ya Common Voice? Ikwadisetse makwalodikgang a rona.
 subscribe = Ikwadise
+get-started-speech = Simolola ka Temogopuo
 resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ ke <docsLink>sediriswa sa batho botlhe</docsLink> se babatlisisi ba se dirisang go tlhama mokgwa wa puisano wa mefuta ya AI.
 resource-deepspeech-info = Thulaganyo ya go lemoga mantswe ya Mozilla ya Deep Speech e ka dirisiwa go dira dithulaganyo tsa go lemoga puo. Bala <githubLink>dintlhakakaretso tsa rona tsa Github</githubLink> kgotsa nna karolo ya <discourseLink>DeepSpeech Discourse</discourseLink> go ithuta gore o ka simolola jang.
 resource-coqui-info = <coquiLink>Coqui</coquiLink> e ineetse mo thekenolojing ya go dirisa puo. Diporojeke tsa bone di akaretsa thuto e e tseneletseng e e ikaegileng ka mefuta ya STT le TTS.
@@ -709,6 +719,7 @@ record-error-too-quiet = Kgatiso e ne e didimetse thata.
 record-cancel = Khansela go Rekota Sesha
 record-stop-instruction = { $actionType }<stopIcon></stopIcon> fa o feditse
 record-three-more-instruction = Go setse di le tharo!
+record-again-instruction = Go gontle!<recordIcon></recordIcon> Dira kgatiso e e latelang
 record-again-instruction2 = Tshwara fela jalo, gatisa gape <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon> Ya bofelo!
 share-clip = Abelana ka bidio ya gago
@@ -799,6 +810,7 @@ both-speak-and-listen = Ka bobedi
 average-difficulty = Palogare
 pro-difficulty = Pro
 lose-goal-progress-warning = Fa o baakanya maikaelelo a gago, o ka nna wa latlhegelwa ke kgatelopele ya gago e e gone.
+want-to-continue = A o batla go tswelela?
 lose-changes-warning = Fa o tswa gone jaanong o tla latlhegelwa ke diphetogo tse o di dirileng
 help-reach-hours-general-pluralized =
     { NUMBER($hours) ->
