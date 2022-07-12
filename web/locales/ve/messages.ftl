@@ -20,17 +20,27 @@ error-something-went-wrong = Pfarelo, hu na zwi songo tshimbilaho zwavhuḓi
 
 ## Languages
 
+ab = Abkhaz
 ast = Asturian
+az = Azerbaijani
+cs = Czech
 dsb = Sorbian, Lower
 et = Estonian
 hsb = Sorbian, Upper
 hyw = Armenian Western
+izh = Izhorian
+kk = Kazakh
+kpv = Komi-Zyrian
+ky = Kyrgyz
+myv = Erzya
 nan-tw = Taiwanese (Minnan)
 rm-sursilv = Romansh Sursilvan
 rm-vallader = Romansh Vallader
 sat = Santali (Ol Chiki)
 st = Southern Sotho
 tok = Toki Pona
+uz = Uzbek
+zh-CN = Chinese (China)
 zh-HK = Chinese (Hong Kong)
 zh-TW = Chinese (Taiwan)
 zu = Zulu
@@ -446,6 +456,7 @@ why-email = <b>Ndi ngani hu tshi ṱoḓea email?</b> Ri nga tea u ni kwama tshi
 confirm-size = No lugela u thoma u downḽoda zwithu zwa <b>{ $size }</b>
 confirm-no-identify = <b>Ni khou tenda</b> uri a ni nga lingedzi u ḓivha muambi kha dataset ya Common Voice
 validated-hours = Awara dzo Khwaṱhisedzwaho
+recorded-hours = Mitaladzi yo Haniwaho
 whats-inside = Hu na mini nga ngomu ha dataset ya Common Voice?
 dataset-description-hours =
     Tshiteṅwa tshiṅwe na tshiṅwe tsha dataset tshi na MP3 yo khetheaho na mafhungo a tshimbidzanaho natsho. Vhunzhi ha <b>{ $total }</b> dzi awara dzo rekhodiwa kha dzi dataset dzi katela metadata ine ya amba nga ha zwidodombedzwa zwa muthu zwi ngaho miṅwaha, mbeu na kuambele zwine zwa nga thusa kha u gudisa zwavhuḓi tshishumiswa tsha u pfa ipfi.
@@ -813,6 +824,7 @@ contribution-just-unsure-description = Arali na ṱangana na zwithu zwine zwi si
 
 ## HEADER/FOOTER
 
+sc-header-rejected = Mitaladzi yo Haniwaho
 sc-footer-report-bugs = Vhigani zwi sa Tshimbili zwavhuḓi
 sc-footer-translate = Ḓologani heḽi siaṱari
 sc-footer-report-copyright = Vhigani thaidzo dza kopi ya vhuṋe
