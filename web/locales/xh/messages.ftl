@@ -158,6 +158,7 @@ browse-file = Tsala kwaye ulahle okanye <browseWrap>Ukhangele</browseWrap>
 connect-gravatar = Qhagamshelana neGravatar
 gravatar_not_found = Akukho gravatar ifunyenweyo kwi-imeyile yakho
 file_too_large = Ifayile ekhethiweyo inkulu kakhulu.
+remove-avatar = Susa i-avatar
 
 ## Profile - Email
 
