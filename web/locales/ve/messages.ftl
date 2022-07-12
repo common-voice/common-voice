@@ -281,6 +281,7 @@ x-years-short =
 help-make-dataset = Ri thuseni uri ri ite dataset ya vhuimo ha nṱha ya nnyi na nnyi
 sign-up-account = Itani Akhantu
 email-subscription-title = Ḓiṅwaliseni uri ni wane dzi apudeiti nga email
+email-subscription-title-new = Ḓiṅwaliseni uri ni wane maswa maswa a Common Voice, khumbudzo ya zwipikwa na apudeiti dza mvela phanḓa.
 
 ## Account Benefits
 
@@ -1169,6 +1170,7 @@ contribution-background-voices-example-1-title = Dinosaurs khulu ya Triassic. <s
 contribution-background-voices-example-1-explanation = Ni khou ḓa? <strong>[khou vhidzwa nga muṅwe]</strong>
 contribution-volume-title = Volumu
 contribution-volume-description = Hu ḓo vha na u fhambana-fhambana ha volumu dza vhavhali. I iledzeni arali volumu ya hone i nṱhesa lune ya khathuwa, kana (zwiṅwe zwo ḓoweleaho) arali i fhasi lune ni si kone u pfa zwine zwa khou ambiwa ni songo sedza mafhungo o ṅwalwaho.
+contribution-reader-effects-title = Mvelelo dzine dza itwa nga Vhavhali
 contribution-reader-effects-description = Zwithu zwinzhi zwo rekhodiwaho ndi zwa vhathu vha tshi khou amba nga ipfi ḽavho ḽa vhukuma. Ni nga ṱanganedza zwithu zwi sa itei tshifhinga tshoṱhe kha zwo rekhodiwaho zwine zwa vha u tzhema, u hevhedza, kana u amba nga ipfi ḽa ane a nga u khou ita ‘ḽitambwa’. Ri humbela uri ni songo tendela zwo rekhodiwaho hu tshi khou imbiwa na zwe ha shumiswa maipfi a dzi khomphuyutha.
 contribution-just-unsure-description = Arali na ṱangana na zwithu zwine zwi si vhe hone kha hovhu vhulivhisi, ri humbela uri ni khethe u shumisa khaṱhulo yaṋu. Arali ni sa koni u dzhia phetho, puṱedzani button ya u pfukha nahone ni fhirele kha zwo rekhodiwaho zwi tevhelaho.
 see-more = <chevron></chevron>Vhonani zwinzhi
