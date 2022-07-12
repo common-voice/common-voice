@@ -10,6 +10,7 @@ email-opt-in-privacy-v2 = Nga u ṱanganedza uri ni ṱoḓa u wana dzi email ni
 indicates-required = Mitaladzi i re na hetshi tshiga(*) i ya ṱoḓea.
 banner-error-slow-1 = Pfarelo, Common Voice i khou shuma nga thotho. Ri a livhuwa u vha haṋu na dzangalelo.
 banner-error-slow-2 = Hu na trafiki ine ya khou itea kha saiti, ri khou ita ṱhoduluso ya heyi thaidzo.
+banner-error-slow-link = Siaṱari ḽa Status
 error-something-went-wrong = Pfarelo, hu na zwi songo tshimbilaho zwavhuḓi
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
@@ -18,7 +19,11 @@ error-something-went-wrong = Pfarelo, hu na zwi songo tshimbilaho zwavhuḓi
 
 ## Languages
 
+dsb = Sorbian, Lower
+hsb = Sorbian, Upper
+nan-tw = Taiwanese (Minnan)
 sat = Santali (Ol Chiki)
+st = Southern Sotho
 tok = Toki Pona
 zh-HK = Chinese (Hong Kong)
 
@@ -27,6 +32,7 @@ zh-HK = Chinese (Hong Kong)
 
 ## Layout
 
+speak-now = Ambani zwino
 content-license-text = Mafhungo a wanala kha <licenseLink>Creative Commons ḽaisentsi</licenseLink>
 share-title = Ri thuseni u wana vhaṅwe vhane vha nga nikela nga maipfi avho!
 share-text = Thusani u gudisa mitshini uri vhathu vhavhukuma vha ambisa hani, nikelani nga ipfi ḽaṋu { $link }
@@ -94,6 +100,7 @@ username-email-not-demographic = Username yaṋu na email a zwi nga paṱekanyis
 ## Speak Shortcuts
 
 shortcut-discard-ongoing-recording-label = Diḽitani zwine na khou zwi rekhoda
+shortcut-submit-label = U Rumela zwo rekhodiwaho
 request-language-text = Naa a ni athu u vhona luambo lwaṋu kha Common Voice na zwino?
 request-language-button = Itani khumbelo ya Luambo
 
@@ -349,6 +356,7 @@ localization-explanation = Heyi ndi nḓila yashu ya u ḓologa na u ita uri maf
 sentence-collection-explanation = U kuvhanganya mitaladzi u bva kha fhethu ha tshitshavha tshoṱhe, kana ni ṅwalele fhethu ha tshitshavha tshoṱhe mitaladzi miswa.
 hours-recorded-explanation = Tshivhalo tsha dzi awara dza maipfi o rekhodiwaho e ra a kuvhanganya u swikela zwino.
 hours-validated-explanation = U vhaliwa ha awara dza maipfi o rekhodiwaho o no khwaṱhisedzwaho nga vhathu 2 kha 3 ngauri vha khethe uri “Ee”. Zwenezwi zwi sumbedza uri thandela i ngafhi kha tshipikwa tsha awara dza 10k.
+sst = Speech-to-text (STT)
 sst-explanation = Thekhinolodzi dza Speech-to-text (STT) dzi shandukisaho ipfi dza ita uri hu vhe mafhungo o ṅwalwaho.
 de-identified-explanation = Ndi nḓila ya u ita uri zwidodombedzwa zwi re kha profile zwi si vhoniwe kha maipfi o rekhodiwaho a nikelwa musi o no itwa uri a kone u downlodiwa sa tshipiḓa tsha dataset.
 
@@ -409,6 +417,7 @@ resource-deepspeech-info = Tshishumiswa tsha Mozilla tsha u ḓivha ipfi tshine 
 resource-coqui-info = <coquiLink>Coqui</coquiLink> yo ḓinekedzela kha zwishumiswa zwa speech zwa thekhinolodzi zwa nnyi na nnyi. Thandela dzavho dzi katela deep learning based STT na TTS engines.
 resource-playbook-info = <playbookLink>Wanani thuso</playbookLink> nga ha u shumisa Common Voice, u bva kha localization u ya kha kushumisele kwa dataset, na nga ha nḓila ine na nga kwamana ngayo na vhadzulapo vha vhuponi haṋu.
 data-other-librispeech-description = LibriSpeech ndi corpus i ṱoḓaho u vha awara dza 1000 dza 16Khz dza u vhala tshipitzhi tsha Luisimane u bva kha dzibugu dza odio dza project ya LibriVox.
+data-other-ted-name = TED-LIUM Corpus
 data-other-ted-description = TED-LIUM corpus dzo itiwa u bva kha odio dza maambiwa na maṅwalwa adzo are hone kha website ya TED
 data-other-voxforge-description = VoxForge yo iteliwa u dzhia tshipitzhi tsho isiwaho kha maipfi u itela u shumisa kha Source Speech Recognition Engines dza mahala dzi no swikelelwa nga muṅwe na muṅwe.
 data-other-tatoeba-description = Tatoeba ndi database khulu ya mitaladzi, zwo ṱalutshedzwaho, na odio dzi ambaho dzi shumiselwaho u guda luambo. Zwenezwi zwithu zwine wa nga zwi download zwi nga Luisiamane luambiwaho, zwo rekhodiwa nga vhadzulapo vhalwo.
@@ -480,6 +489,7 @@ contribute-more =
         [one] $count ->
        *[other] Naa no lugela u ita { $count } zwinzhi?
     }
+record-cta = Thomani u rekhoda
 record-platform-not-supported = Ri humbela pfarelo, puḽatifomo yaṋu a yi tikedziwi zwa zwino.
 record-platform-not-supported-desktop = Kha tshishumiswa tsha desktop ni nga shela mulenzhe nga u downḽoda…
 record-platform-not-supported-ios-non-safari = Kha iOS ri humbela uri ni bvele phanḓa ni tshi shumisa Safari u itela uri ni kone u rekhoda…
@@ -499,6 +509,7 @@ review-instruction = Ṱolisisani & dovhololani u rekhoda arali zwo fanela
 record-submit-tooltip = { $actionType } Rumelani musi no lugela
 record-abort-title = Fhedzani u rekhoda u thoma?
 record-abort-text = Na ṱuwa zwino ni ḓo xelelwa nga mvela phanḓa yaṋu
+record-abort-submit = U Rumela zwo rekhodiwaho
 record-abort-delete = Ibvani & Ḓilitani zwo rekhodiwaho
 listen-instruction = { $actionType }<playIcon></playIcon> naa vho bula mutaladzi nga nga nḓila yone?
 listen-again-instruction = Mushumo wavhuḓi!<playIcon></playIcon> Dovhani ni thetshele musi no lugela
@@ -827,6 +838,7 @@ sc-add-err-failed =
         [one] [one] mutaladzi 1 wo feila
        *[other] *[other] { $sentences } mitaladzi yo feila
     }
+sc-add-err-submission = Vhukhakhi ho iteaho hu tshi khou Rumelwa
 sc-add-lang-process-notice = Arali luambo lwaṋu lu si ho hafha, ni nga lu humbela nga <languageProcessLink>heyi nḓila</languageProcessLink>.
 
 ## ADD SENTENCES CONFIRMATION
