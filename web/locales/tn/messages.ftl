@@ -180,6 +180,7 @@ privacy = Bosephiri
 terms = Melawana
 content-license-text = Diteng di gone mo <licenseLink> laesenseng ya Creative Commons</licenseLink>
 share-text = Thusa go ruta metšhine  gore batho ba mmatota ba bua jang, abelana ka lentswe la gago mo { $link }
+link-copied = Linki e Kopolotswe
 back-top = Boela Kwa Godimo
 logout = Tswa
 
