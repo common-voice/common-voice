@@ -31,6 +31,8 @@ cnh = iHakha Chin
 cy = iWelsh
 de = IsiJamani
 dsb = iSorbian, Lower
+dv = iDhivehi
+dyu = iDioula
 el = IsiGrike
 en = IsiNgesi
 eo = I-Esperanto
@@ -94,6 +96,7 @@ nb-NO = iNorwegain Bokmål
 nd = IsiNdebele (Emtla)
 ne-NP = iNepali
 nia = iNias
+nl = IsiDatshi
 nn-NO = iNorwegain Nynorsk
 nr = isiNdebele (Entshona)
 nso = iNorthen Sotho
@@ -169,6 +172,7 @@ zu = IsiZulu
 
 speak = Thetha
 speak-now = Thetha ngoku
+datasets = Iiseti zeDatha
 profile = Iprofayili
 help = Uncedo
 privacy = Ubumfihlo
@@ -350,6 +354,7 @@ accept-privacy = Ndilungile ngokuphatha olu lwazi njengoko luchazwa <privacyLink
 accept-privacy-title = Umthetho wabuCala
 login-identity = Isazisi sokungena
 login-signup = Ngena / Bhalisa
+edit = Hlela
 email-subscriptions = Imirhumo ye-imeyile
 download-profile = Khuphela iDatha yam
 contribution-experience = Amava ngegalelo
@@ -606,6 +611,7 @@ hours-recorded-explanation = Kubalwa kweeyure zokurekhoda ilizwi eziqokelelweyo 
 hours-validated-explanation = Isibalo seeyure zokurekhoda kwezwi eziye zaqinisekiswa ngabasebenzisi aba-2 kwaba-3 ngevoti ethi "Ewe". La manqaku aphawula inkqubela phambili kwiprojekthi iyonke kwiinjongo zeeyure ezimisiweyo ezili-10.
 sst = Intetho egqithiselwa kwisicatshulwa (STT)
 sst-explanation = Itekhnoloji yentetho ukuya kwisicatshulwa (STT) iguqula idatha yelizwi iyise kwilizwi.
+de-identified = Ayichazwanga
 de-identified-explanation = Inkqubo apho ulwazi lweprofayile yomntu owenze ugalelo lufihliwe kwiikliphu zabo zelizwi abanikele ngalo xa zikhutshelwa njengenxalenye ye-dataset.
 
 ## Error pages
@@ -632,6 +638,7 @@ data-other-download = Khuphela iDatha
 data-bundle-button = Khuphela i-Dataset Bundle
 data-bundle-description = Idatha yeCommon Voice kunye nazo zonke ezinye iidatha zelizwi ngaphezulu.
 release-version = Inguqulelo
+dataset-date = umhla
 license-mixed = Ixubene
 data-download-singleword-title = Khuphela iCandelo legama elinye ekujoliswe kulo
 data-download-singleword-callout-v2 = Le yimeko yokusetyenziswa eqhutywa licandelo eliqulathe idatha kumandla athethiweyo ukuqondwa kwedijithi kwaye ewe / hayi akukho ubhaqo.
@@ -649,6 +656,7 @@ review-delete-recordings = Cima irekhodingi zam
 
 ## Datasets Page
 
+datasets-heading = Iiseti zeDatha
 datasets-headline = Sakha umthombo ovulelekileyo, iseti yedatha yeelwimi ezininzi yamazwi anokuthi nabani na akwazi ukuwasebenzisa ukuqeqesha usetyenziso lwentetho.
 datasets-positioning =
     Sikholelwa ukuba iiseti ezinkulu zedatha zelizwi, ezifumanekayo kuwonke-wonke ziya kukhuthaza ukusungula izinto ezintsha kunye nokhuphiswano olusempilweni lwentengiso kumatshini wokufunda ngokusekwe kubuchwepheshe bentetho.
@@ -668,6 +676,7 @@ confirm-size = Ulungele ukuqalisa ukhuphelo lwe <b>{ $size }</b>
 size-gigabyte = I-GB
 size-megabyte = MB
 confirm-no-identify = <b>Uyavuma</b> ukungazami ukumisela izazisi zezithethi kwidatha seti yeCommon Voice
+download-language = Khuphela  { $language }
 validated-hours = Iiyure eziqinisekisiweyo
 recorded-hours = Iiyure ezirekhodiweyo
 whats-inside = Kukho ntoni kwidatha seti yeCommon Voice?
@@ -696,6 +705,7 @@ missing-language = Awuboni ulwimi lwakho luboniswa kwiSeti yedatha? Ukucela ulwi
 go-languages-page = Yiya kwicala leeLwimi
 ready-to-validate = Ingaba ukulungele ukunceda ukuqinisekisa izivakalisi?
 more = Ngaphezulu
+download = Khuphela
 dataset-version = Inguqulelo
 
 ## Download Modal
@@ -912,6 +922,8 @@ goal-type = Loluphi uhlobo lwenjongo ofuna ukwakha?
 both-speak-and-listen-long = Zombini (Thetha kwaye Mamela)
 daily-goal = Injongo yeMihla ngeMihla
 weekly-goal = Injongo yeVeki
+easy-difficulty = Ilula
+difficult-difficulty = inzima
 pro-difficulty = Pro
 lose-goal-progress-warning = Ngokuhlela injongo yakho, unokuphulukana nenkqubela phambili yakho esele ikho.
 want-to-continue = Ingaba uyafuna ukuqhubeka?
@@ -1000,6 +1012,7 @@ download-start = Khuphela idatha yeprofayile
 download-request = Cela iirekhodingi
 download-requests = Izicelo zokukhuphela ezirekhodiweyo ezidlulileyo
 download-requests-info = Xa ucela ushicilelo lwakho, siyaluqokelela lube yifayile yeZIP enye okanye ezininzi.Nazi izicelo zakho zangaphambili:
+download-request-button = Khuphela
 download-request-title = { $created }
 download-request-description = Iikliphu zelizwi, ubungakanani obupheleleyo bogcino ezi { $clipCount }  { $size }. Ziphelelwa{ $expires }
 download-request-archive-single = Ifayile ye-ZIP enye equlathe
@@ -1123,6 +1136,7 @@ sc-header-rejected = Izivakalisi ezikhatywayo
 sc-header-my = Izivakalisi zam
 sc-header-statistics = Amanani
 sc-header-profile = iprofayili
+sc-footer-discourse = Intetho
 sc-footer-report-bugs = Zixele iiBugs
 sc-footer-translate = Guqulela eliphepha
 sc-footer-report-copyright = Xela imiba yelungelo lokushicilela
