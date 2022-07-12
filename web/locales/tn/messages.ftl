@@ -50,6 +50,7 @@ kpv = Se-Komi-Zyria
 ky = Se-Kyrgyz
 lij = Se-Liguria
 lt = Se-Lithuania
+lv = Se-Latvia
 my = Se-Burma
 nan-tw = Se-Taiwan (Minnan)
 nyn = Se-Runyankole
@@ -104,6 +105,7 @@ zu = Se-Zulu
 ## Layout
 
 speak = Bua
+languages = Dipuo
 about = Ka ga
 profile = Porofaele
 contact = Ikgolaganye
@@ -211,6 +213,8 @@ status-hours =
 
 profile-form-additional-language =
     .label = Puo e Nngwe Gape
+profile-form-language =
+    .label = Puo
 profile-form-accent =
     .label = Puo
 profile-form-age =
@@ -474,6 +478,8 @@ contact-required = *e a tlhokega
 
 ## Request Language Modal
 
+request-language-form-language =
+    .label = Puo
 request-language-success-content = Re tla ikgolaganya le wena mo nakong e e sa fediseng pelo ka tshedimosetso e e oketsegileng ya gore o ka tsenya jang puo ya gago mo Common Voice.
 
 ## Request Language Pages
@@ -502,6 +508,7 @@ request-language-error = Re ka tswa re ise re amogele kopo eo. Tsweetswee re rom
 ## Languages Overview
 
 language-section-in-progress-new-description = Ga jaana dipuo tseno di tokafadiwa ke badirisi. <localizationGlossaryLink>Go ranola webosaete</localizationGlossaryLink> le <sentenceCollectionGlossaryLink>go kgobokanya mela</sentenceCollectionGlossaryLink> go a tlhokega go diragatsa.
+language-section-launched = E thankgolotswe
 language-section-launched-description = Mo dipuong tseno tse di simolotsweng, webosaete e <localizationGlossaryLink>dirilwe ya selegae</localizationGlossaryLink> ka katlego, mme e na le <sentenceCollectionGlossaryLink>dipolelo tse di lekaneng tse di phuthilweng</sentenceCollectionGlossaryLink> go letla dikabo tse di tswelelang tsa <speakLink>Bua</speakLink> le <listenLink>Reetsa</listenLink>.
 language-meter-in-progress = Kgatelopele
 language-total-progress = Palogotlhe
