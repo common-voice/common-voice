@@ -49,8 +49,11 @@ lij = Se-Liguria
 lt = Se-Lithuania
 my = Se-Burma
 nan-tw = Se-Taiwan (Minnan)
+nyn = Se-Runyankole
 om = Se-Afaan Ormoo
 pa-IN = Se-Punjabi
+ro = Se-Romania
+ru = Se-Russia
 sc = Se-Sardinia
 scn = Se-Sicily
 shi = Se-Shilha
@@ -172,6 +175,8 @@ username-email-not-demographic = Leinatiriso la gago le imeile ga di na go amman
 
 ## Speak & Listen Shortcuts
 
+# Must be one letter that appears in the translated { skip } string.
+shortcut-skip = t
 
 ## Listen Shortcuts
 
@@ -656,6 +661,7 @@ see-less = <chevron></chevron>Bona tse di fokoditsweng
 ## HEADER/FOOTER
 
 sc-header-add = Tsenya
+sc-header-review = Sekaseka
 sc-header-statistics = Dipalopalo
 sc-header-profile = Porofaele
 sc-footer-terms = Melawana
@@ -812,6 +818,8 @@ sc-review-form-button-skip = Tlola
 sc-review-form-button-approve = Amogela
 # Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
 sc-review-form-button-approve-shortcut = E
+# Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
+sc-review-form-button-skip-shortcut = T
 sc-review-form-keyboard-usage-custom = Gape o ka dirisa Ditlhabanyetso Tsa Khiiboto: { sc-review-form-button-approve-shortcut } go Amogela, { sc-review-form-button-reject-shortcut } go Gana, { sc-review-form-button-skip-shortcut } go Tlola
 # Variables:
 #   $sentences (Number) - Number of sentences the user has reviewed in this session
@@ -822,6 +830,7 @@ sc-review-form-reviewed-message =
        *[other] *Go sekasekilwe mela e le { $sentences }. Re a leboga!
     }
 sc-review-form-review-failure = E o e sekasekileng ga e a bolokega. Tsweetswee leka gape moragonyana.
+sc-review-link = Sekaseka
 
 ## SETTINGS
 
