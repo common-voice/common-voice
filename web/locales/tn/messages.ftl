@@ -56,6 +56,7 @@ hsb = Se-Sorbia, sa kwa Godimo
 ht = Se-Haiti
 hy-AM = Se-Armania
 hyw = Se-Armenia sa Bophirima
+izh = Se-Izhoria
 ja = Sejapane
 kaa = Se-Karakalpak
 kab = Se-Kabyle
