@@ -102,6 +102,7 @@ pl = Se-Polish
 ps = Se-Pashto
 pt = Sepotokisi
 quc = Se-K'iche'
+rm-sursilv = Se-Romansh Sursilvan
 rm-vallader = Se-Romansh Vallader
 ro = Se-Romania
 ru = Se-Russia
@@ -1102,6 +1103,7 @@ sc-home-title = Re a go amogela mo Kgobokanyong ya Mela ya Common Voice
 sc-home-intro = Sekgobokanyi sa Dipolelo ke karolo ya <commonVoiceLink>Common Voice</commonVoiceLink>. Se letla baabi go tsaya le go tlhomamisa dipolelo tse di dirilweng ke baagi. Gape o ka dirisa sedirisiwa seno go tsenya le go phepafatsa dikarolo tse dinnye go ya go tse di mo magareng tsa lefelo la botlhe tse o di fitlhetseng kgotsa tse o di kgobokantseng. Dipolelo tsotlhe di tshwanetse go nna tsa Lefelo la Botlhe. Dipolelo tse di dumeletsweng di romelwa beke le beke kwa bobolokelong jwa Common Voice mme nako le nako fa go nna le tlhabololo nngwe le nngwe e ntšha di gololelwe mo webosaeteng ya Common Voice.
 sc-home-collect-title = Phutha dipolelo
 sc-home-collect-text = Re thuse ka go kwala kgotsa go kgobokanya mela ya Lefelo la Botlhe.
+sc-home-review-title = Sekaseka mela
 sc-home-review-text = Re thuse go sekaseka mela gore a e nepagetse go ya ka dikaelo.
 
 ## GENERAL
@@ -1125,6 +1127,7 @@ sc-howto-cite-pre-1 = Go botlhokwa go kwala gore o bone kae dilaesense tsa batho
 sc-howto-cite-item-1 = O ka akaretsa webosaete, ka sekai,  "Common Voice - https://commonvoice.mozilla.org/"
 sc-howto-cite-item-2 = O ka dirisa mokgwa wa thutego wa go ntsha tshupiso, ka sekai, mokgwa wa Harvard "Mozilla (2021) Common Voice. E gone mo https://commonvoice.mozilla.org/ (E fitlheletswe ka: September 15 2021)"
 sc-howto-cite-item-3 = Fa o dirisa tshedimosetso ya batho botlhe mme e seyo mo inthaneteng, o ka dirisa mokgwa wa thutego wa go ntsha tshupiso, ka sekai, mokgwa wa Harvard "Jess (2021) My Public licence poems"
+sc-howto-review-title = Sekaseka Mela
 sc-howto-review-criteria-1 = Mola o tshwanetse wa bo o peletilwe sentle.
 sc-howto-review-criteria-2 = Mola o tshwanetse wa bo o kwadilwe sentle.
 sc-howto-review-criteria-3 = Mola o tshwanetse go buega.
@@ -1316,6 +1319,7 @@ sc-personal-not-added = Ga o ise o tsenye dipuo dipe.
 ## REVIEW CRITERIA
 
 sc-criteria-modal = ⓘ Mokgwa wa go Sekaseka
+sc-criteria-title = Sekaseka Mokgwa
 sc-criteria-item-1 = Mola o tshwanetse wa bo o peletilwe sentle.
 sc-criteria-item-2 = Mola o tshwanetse wa bo o kwadilwe sentle.
 sc-criteria-item-3 = Mola o tshwanetse go buega.
@@ -1326,6 +1330,7 @@ sc-criteria-item-6 = Fa o felelwa ke mela e e sekasekiwang, tsweetswee re thuse 
 ## REVIEW
 
 sc-review-lang-not-selected = Ga o ise o tlhophe dipuo dipe. Tsweetswee ya kwa <profileLink>Porofaeleng</profileLink> ya gago gore o tlhophe dipuo.
+sc-review-title = Sekaseka Mela
 sc-review-select-language = Tsweetswee tlhopha puo go sekaseka mela.
 sc-review-form-prompt =
     .message = Mela e e sekasekilweng ga ya romelwa, a o tlhomamisegile?
