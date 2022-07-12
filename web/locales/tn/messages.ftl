@@ -641,6 +641,7 @@ listen-loading-error = Ga re a kgona go bona dikgatiso tsa mantswe tse o ka di r
 speak-empty-state = Re feletswe ke mela e re ka e gatisang ka puo eno...
 speak-empty-state-cta = Aba mela
 speak-loading-error = Ga re a kgona go bona mela e o ka e buang. Tsweetswee leka gape moragonyana.
+record-button-label = Rekota lentswe la gago
 target-segment-first-card = O abelana go karolwana ya rona ya ntlha ya puo
 target-segment-generic-card = O abelana go karolwana ya puo
 
@@ -762,6 +763,7 @@ demo-account-card-body = Kafa mojeng re bontsha mesola mme re tlhalosa gore ke t
 
 demo-contribute-card-header = A o ipaakanyeditse go tsenya lentswe la gago kgotsa go re adima tsebe?
 demo-contribute-card-body-v2 = E re ka jaanong o itse go le gontsinyana ka Common Voice, goreng o sa e leke? Tobetsa letshwao la maekerofouno go simolola go balela dipolelo kwa godimo. <br/><br/>Fa o rata go sekaseka diabo tsa mantswe a batho ba bangwe, tobetsa letshwao la tshameka. O tla thusa go tlhomamisa gore a dikgatiso di tsamaisana le mela e e kwadilweng mo sekerining.
+demo-listen-subtitle = A o ipaakanyeditse go aba?
 
 ## Demo Dashboard
 
