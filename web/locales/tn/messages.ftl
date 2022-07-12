@@ -492,6 +492,7 @@ about-playbook-how-add-language-collecting-sentences-content-2 =
     O ka <sentenceCollectorLinkAdd>tsenya dipolelo di le mmalwa</sentenceCollectorLinkAdd>,
     kgotsa o ka <bulkImportDocsLink>tsenya tse dintsi o dirisa Github</bulkImportDocsLink>.
     Gopola gore dipolelo di tshwanetse go nna <licenseLink>CC0 (kgotsa lefelo la botlhe)</licenseLink>, kgotsa o ka ikwalela tsa gago.
+about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>Bona mo go oketsegileng ka go kokoanya mela</sentenceCollectorFragment>.
 
 ## How does localization work
 
@@ -517,6 +518,7 @@ about-playbook-how-record-content-1 = Bua ka lentswe la gago le le tlwaelegileng
 about-playbook-how-record-content-2 = Tila medumo e mentsi e e mo lemoragong - go tshwanetse ga nna motlhofo go go utlwa.
 about-playbook-how-record-content-3 = Bala mela ka kelotlhoko - o se ka wa tlola, wa fetola kgotsa wa itsenyetsa mafoko.
 about-playbook-how-record-content-4 = Tlhomamisa gore polatefomo e a rekota pele o simolola go bua, le gore o emisa go rekota fa o setse o feditse.
+about-playbook-how-record-content-5 = <accuracyLink>Bona mo go oketsegileng ka ditlhokego wa go nepagala.</accuracyLink>
 
 ## How to grow language
 
@@ -735,6 +737,7 @@ share-common-voice = Abelana ka Common Voice
 review-instruction = Sekaseka dikgatiso & gatisa sesha fa go tlhokega
 record-submit-tooltip = { $actionType } e romele fa e setse e siametse
 clips-uploaded = Dibidio di tsentswe
+record-abort-title = Fetsa go gatisa pele?
 record-abort-text = Fa o tswa gone jaanong o tla latlhegelwa ke kgatelopele e o e dirileng
 record-abort-submit = Romela dibidio
 listen-instruction = { $actionType }<playIcon></playIcon> a ba buile mola ka tsela e e nepagetseng?
@@ -747,6 +750,7 @@ speak-empty-state = Re feletswe ke mela e re ka e gatisang ka puo eno...
 speak-empty-state-cta = Aba mela
 speak-loading-error = Ga re a kgona go bona mela e o ka e buang. Tsweetswee leka gape moragonyana.
 record-button-label = Rekota lentswe la gago
+share-title-new = <bold>Re thuse</bold> go bona mantswe a a oketsegileng
 target-segment-first-card = O abelana go karolwana ya rona ya ntlha ya puo
 target-segment-generic-card = O abelana go karolwana ya puo
 target-segment-add-voice = Tsenya Lentswe la Gago
@@ -820,6 +824,7 @@ average-difficulty = Palogare
 pro-difficulty = Pro
 lose-goal-progress-warning = Fa o baakanya maikaelelo a gago, o ka nna wa latlhegelwa ke kgatelopele ya gago e e gone.
 want-to-continue = A o batla go tswelela?
+finish-editing = Fetsa go baakanya pele?
 lose-changes-warning = Fa o tswa gone jaanong o tla latlhegelwa ke diphetogo tse o di dirileng
 help-reach-hours-general-pluralized =
     { NUMBER($hours) ->
@@ -945,6 +950,7 @@ contribution-misreadings-description-extended-list-4 = Go tlhaela lefoko la bofe
 contribution-misreadings-description-extended-list-5 = E leka makgetlo a le mmalwa go bala lefoko.
 contribution-misreadings-example-1-title = Di-dinosaur tse dikgolo tsa Triassic.
 contribution-misreadings-example-2-title = Dinosaur e dikgolo ya Triassic.
+contribution-misreadings-example-2-explanation = [Should be ‘dinosaurs’]
 contribution-misreadings-example-3-title = Di-dinosaur tse dikgolo tsa Triassi-.
 contribution-misreadings-example-3-explanation = [Kgatiso e kgaogile pele lefoko la bofelo le felela]
 contribution-misreadings-example-4-title = Di-dinosaur tse dikgolo tsa Triassic. Ee.
