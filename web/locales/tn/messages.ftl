@@ -1027,6 +1027,9 @@ sc-login-err-try-again = Tsweetswee leka gape.
 
 sc-personal-err-lang-not-found = Ga re a kgona go ntsha puo: puo ga e a bonwa
 sc-personal-remove-button = tlosa
+# Variables:
+#   $sentences (Number) - Number of sentences that were added by the currently logged in user for this language
+sc-personal-added-by-you = { $sentences } di tsentswe ke wena
 sc-personal-not-added = Ga o ise o tsenye dipuo dipe.
 
 ## REVIEW CRITERIA
