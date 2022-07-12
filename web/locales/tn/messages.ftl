@@ -103,6 +103,7 @@ ro = Se-Romania
 ru = Se-Russia
 rw = Se-Kinyarwanda
 sah = Se-Sakha
+sat = Se-Santali (Ol Chiki)
 sc = Se-Sardinia
 scn = Se-Sicily
 shi = Se-Shilha
@@ -147,6 +148,7 @@ yi = Se-Yiddish
 yo = Se-Yoruba
 yue = Se-Canton
 zh-CN = Se-China (China)
+zh-HK = Se-China (Hong Kong)
 zh-TW = Se-China (Taiwan)
 zu = Se-Zulu
 
@@ -166,6 +168,7 @@ privacy = Bosephiri
 terms = Melawana
 content-license-text = Diteng di gone mo <licenseLink> laesenseng ya Creative Commons</licenseLink>
 share-text = Thusa go ruta metšhine  gore batho ba mmatota ba bua jang, abelana ka lentswe la gago mo { $link }
+back-top = Boela Kwa Godimo
 
 ## Home Page
 
@@ -558,6 +561,7 @@ datasets-positioning =
 overall-hr-total = Palogotlhe ya Diura Tsotlhe
 cv-license = Laesense
 audio-format = Kgatiso e e Reediwang
+number-of-voices = Palo ya Mantswe
 splits = Tse di kgaoganeng
 why-email = <b>Goreng imeile?</b> Re ka tlhoka go ikgolaganya le wena mo isagweng malebana le diphetogo tsa tshedimosetso, imeile ke tsela e re ikgolaganyang ka yone.
 confirm-size = O ipaakanyeditse go simolola go itseela <b>{ $size }</b>
@@ -678,6 +682,7 @@ speak-loading-error = Ga re a kgona go bona mela e o ka e buang. Tsweetswee leka
 record-button-label = Rekota lentswe la gago
 target-segment-first-card = O abelana go karolwana ya rona ya ntlha ya puo
 target-segment-generic-card = O abelana go karolwana ya puo
+target-segment-add-voice = Tsenya Lentswe la Gago
 
 ## Reporting
 
@@ -701,6 +706,7 @@ streaks = Meraladi
 ## Dashboard
 
 toward-next-goal = Go ya maikaelelong a a latelang
+clips-you-recorded = Dibidio tse o di Rekotileng
 todays-recorded-progress = Kgatelopele ya gompieno ya Common Voice ya dikgatiso tse di dirilweng
 todays-validated-progress = Kgatelopele ya gompieno ya Common Voice ya dikgatiso tse di tlhomamisitsweng
 stats = Dipalopalo
@@ -770,6 +776,7 @@ why-delete-recordings =
 download-info = Re bolelele gore o ka rata go itseela eng:
 download-profile-title = Porofaele
 download-profile-info = E akaretsa imeile, leinatiriso le tshedimosetso ya dipalopalo, e e gone ka yone nako eo
+download-profile-size = Dibaete di le mmalwa
 download-recordings-title = Tse di rekotilweng
 download-recordings-info = E akaretsa di-mp3 le mela e e tsamaisanang le yone, go ka tsaya nakonyana gore di rulaganngwe
 download-recordings-unavailable = Ga o kgone go kopa dikgatiso tsa gago fa kopo e nngwe e setse e diragadiwa.
@@ -901,6 +908,7 @@ sc-languages-fetch-error = Ga re a kgona go tla ka dipuo tse di gone. Go ka se k
 ## HOW-TO
 
 sc-howto-addlang-text = Fa o setse o tsene, o kgona go tlhopha dipuo tsa gago mo karolong ya porofaele.
+sc-howto-addsen-title = Tsenya dipolelo tse disha
 sc-howto-addsen-item-1 = Dipolelo tsotlhe tse o di romelang di tshwanetse tsa nna kafa tlase ga laesense ya </wikipediaLink>Lefelo la Botlhe (CC-0)<wikipediaLink>. Go tshegetsa go akarediwa ga tiro e e seng kafa tlase ga laesense ya puso, re dirile <cc0WaiverLink>thempoleite ya Tumalano ya Dikabo</cc0WaiverLink> go dira ditiro tse mong wa tetlokhopi a batlang go di abela Common Voice.
 sc-howto-addsen-item-2 = Dinomoro. Ga go a tshwanela ga nna le dinomoro mo mokwalong gonne di ka baka mathata fa go balelwa kwa godimo. Tsela e nomoro e balwang ka one e ikaegile ka se go buiwang ka sone mme e ka tlhakatlhakanya tshedimosetso. Ka seka, nomoro “2409” e ka balwa ka nepo e le “masomeamabedinne lefela robongwe” le ”dikete tse pedi makgolo a mane le borobongwe”.
 sc-howto-addsen-item-3 = Dikhutshwafatso. Dikhutshwafatso tse di jaaka “USA” kgotsa “ICE” di tshwanetse go tilwa mo mokwalong wa konokono gonne di ka balwa ka tsela e e sa dumalaneng le mopeleto wa tsone. Gape, go ka nna le ditsela di le mmalwa tse di nepileng tsa go bitsa khutshwafatso e le nngwe. Ka sekai, khutshwafatso “ICE” e ka bidiwa “I-C-E” kgotsa ya bidiwa jaaka lefoko le le lengwe.
