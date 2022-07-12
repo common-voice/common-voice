@@ -266,6 +266,7 @@ join-newsletter = O ka itlhophela go tsena mo lenaaneng la rona la makwalo go am
 
 ## What's public
 
+whats-public = Ke Eng se se Bonwang ke Batho Botlhe?
 email-not-public = Ga re kitla re phatlalatsa imeile ya gago.
 recordings-and-locale-public = Palo ya dikgatiso le dipuo tse o nnang le seabe mo go tsone di tla bonwa ke batho botlhe.
 username-optin-public = O ka tlhopha gore leinatiriso la gago le bonwe ke batho botlhe kgotsa go nna tlhokaina.
