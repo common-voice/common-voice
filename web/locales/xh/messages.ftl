@@ -51,6 +51,7 @@ toggle-play-tooltip = Cinezela u { shortcut-play-toggle } ukutshintsha indlela y
 speak-paragraph = Ukurekhoda iikliphu zelizwi yinxalenye yolwakhiwo lwedatha yethu evulekileyo; abanye bangathi yeyona nto imnandi.
 listen-subtitle = Sincede siqinisekise amazwi
 listen-paragraph = Ukuqinisekisa iikliphu ezinikezelweyo kubalulekile ngokulinganayo kwimishini yeCommon Voice. Phulaphula kwaye usincede senze idatha yelizwi esemgangathweni
+voices-online = Amazwi akwi-Intanethi ngoku
 help-reach-goal = Sincede sifikelele ku { $goal }
 read-terms-q = Ngaba uyifundile iMiqathango yethu?
 ready-to-record = Ingaba ukulungele ukunikela ngelizwi lakho?
@@ -103,6 +104,7 @@ profile-form-custom-accent-help-text =
     .label = Ungayichza njani i-accent yakho?
 profile-form-custom-accent-placeholder-2 = Qalisa ukuchwetheza ukuchaza isivakalisi sakho
 profile-form-add-accent = Yongeza i-accent entsha  "{ $inputValue }"
+why-profile-title = Kutheni kufuneka iProfayile?
 why-profile-text =
     Ngokubonelela ngolwazi malunga nawe, idatha yesandi oyithumelayo kwi-Common Voice iya kuba luncedo ngakumbi kwiNtetho
     Iinjini zokuqaphela ezisebenzisa le datha ukuphucula ukuchaneka kwazo.
@@ -189,6 +191,7 @@ faq-description = Icommon Voice yinxalenye yenyathelo likaMozilla lokunceda ukuf
 
 ## ABOUT US
 
+about-title = Kutheni funeka ndikhethe iCommon Voice?
 about-header-description-v2 =
     <p>I-Common Voice yidatha yelizwi ekhoyo kuwonke-wonke, inikwa amandla ngamazwi wabaxhasi avolontiyayo kwihlabathi liphela. Abantu abafuna ukwakha i-apps zelizwi banokusebenzisa idataset ukuqeqesha omatshini abafundayo (machine learning models).</p>
     </p>Okwangoku, uninzi voice datasets zezenkampani, ezithintela ukuqamba izinto ezintsha. Voice datasets nazo azimelanga: abantu abangathethi siNgesi, abantu bebala, abantu abakhubazekileyo, abafazi kunye nabantu beLGBTQIA+. Oku kuthetha ukuba itekhnoloji eyenziwe ngelizwi ayisebenzi kwaphela kwiilwimi ezininzi, kwaye apho isebenza khona, isenokungasebenzi ngokulinganayo kumntu wonke. Sifuna ukuyitshintsha loo nto ngokuhlanganisa (moilize) abantu kuyo yonke indawo ukuba babelane ngelizwi labo (to share their voice).</p>
@@ -210,7 +213,9 @@ about-listen-queue-text = Iikliphu zelizwi zifakwa kumgca wothumelo olulungele u
 about-listen-text = Abasebenzisi baqinisekisa ukuchaneka kweekliphu ezinikezelweyo, bejonga ukuba isithethi sifunda isivakalisi ngokuchanekileyo.
 about-is-it-valid = Ingaba lekliphu iqinisekisiwe?
 about-is-it-valid-text = Ikliphu yelizwi iphawulwa "isemthethweni" xa umsebenzisi eyinika ivoti ethi Ewe.
+about-yes-votes = ≥ Zi-2 iivoti ezingu-Ewe
 about-yes-votes-text = Ukufikelela kwidatha yeCommon Voice, ikliphu yelizwi kufuneka iqinisekiswe ngabasebenzisi ababini abohlukeneyo.
+about-no-votes = ≥ Zi-2 iivoti einguHayi
 about-no-votes-text = Xa umsebenzisi esala iklipu yelizwi ibuyela ekufoleni. Ukuba yaliwe okwesibini, iklipu yelizwi ithi isiwe kwi Clip Graveyard.
 about-dataset-new-text = I-Common Voice Dataset iqulethe amakhulu amawaka eesampuli zezwi ezinceda abaphuhlisi bakhe izixhobo zokuqaphela ilizwi.
 about-clip-graveyard-text =
@@ -311,6 +316,7 @@ about-playbook-how-project-governance-content-1 = IMozilla Common Voice yenziwa 
 about-playbook-how-project-governance-content-2 = Ulawulo lwethu lusekwe kwezi ntsika i:
 about-playbook-how-project-governance-content-3 = Ubumfihlo, ukhuseleko kunye nokungafihli.
 about-playbook-how-project-governance-content-4 = Ukuthatha inxaxheba koluntu kunye nokwenza izigqibo.
+about-playbook-how-project-governance-content-5 = Ixabiso kunye nokuqatshelwa.
 about-playbook-how-project-governance-content-7 = <governanceLink>Read more about how we're governed</governanceLink>
 
 ## Glossary
@@ -351,6 +357,7 @@ datasets-positioning =
     Sikholelwa ukuba iiseti ezinkulu zedatha zelizwi, ezifumanekayo kuwonke-wonke ziya kukhuthaza ukusungula izinto ezintsha kunye nokhuphiswano olusempilweni lwentengiso kumatshini wokufunda ngokusekwe kubuchwepheshe bentetho.
     I-datasethi yeelwimi ezininzi zeCommon Voice sele iyeyona inkulu ifumanekayo ku wonke-wonke, kodwa ayisiyiyo yodwa.
     Jonga kweli phepha njenge salathisi sezinye iiseti zedatha zezwi ezivulekileyo kwaye, njengoko iCommon Voice iqhubeka ikhula, indawo yokukhupha iindaba ezintsha zethu.
+validated-hr-total = Itotali yeyure eqinisekisiweyo
 email-to-download = Ngenisa Imeyile ukuze Ukhuphele
 why-email = <b>Kutheni kudingeka imeyile nje?</b> Kusenokufuneka siqhagamshelane nawe kwixesha elizayo malunga notshintsho kwi dataset, i-imeyile isinika indawo yoqhagamshelwano.
 confirm-size = Ulungele ukuqalisa ukhuphelo lwe <b>{ $size }</b>
@@ -401,12 +408,15 @@ request-language-explanation-1 =
     Ukuba akunjalo, gcwalisa le fomu kwaye thina siya <strong>kuthumelela i-imeyile eluncedo
     ukucacisa indlela yokumisela ulwimi lwakho</strong>.
 request-language-explanation-2 = <playbookLink>Fumana isikhokelo esiluncedo</playbookLink> kulo lonke uhambo lweCommon Voice, ukusuka ekuhlaleni ukuya kusetyenziso lwedatha, kunye nendlela yokunxibelelana noluntu lwethu.
+request-language-form-email =
+    .label = Idilesi ye-imeyile yakho
 request-language-form-info =
     .label = Ulwazi malunga nolwimi
 request-language-form-info-explanation =
     Yongeza ulwazi oluninzi kangangoko unakho malunga nolwimi. Oku
     kunokubandakanya:
 request-language-form-info-explanation-list-1 = Amagama olwimi lwakho
+request-language-form-info-explanation-list-2 = <isoCodeLink>ISO Codes</isoCodeLink> ukuba iyaziwa
 request-language-form-info-explanation-list-3 = Amakhonkco aya kwiwebhusayithi ezinookusinceda ukuba siqonde ulwimi
 request-language-google-recaptcha-required = I-reCAPTCHA iyadingeka ukuba ufuna ukuqhubeka
 request-language-google-recaptcha-error = Kukho into ehambe ngempazamo kwi-reCAPTCHA. Zama kwakhona ngelinye ixesha.
@@ -494,9 +504,11 @@ visibility-overlay-note = Qaphela: Xa imiselwe 'Iyabonakala', olu seto lungatshi
 get-started-goals = Qalisa ngenjongo
 create-custom-goal = Yenza iNjongo yesiNtu
 goal-type = Loluphi uhlobo lwenjongo ofuna ukwakha?
+both-speak-and-listen-long = Zombini (Thetha kwaye Mamela)
 lose-goal-progress-warning = Ngokuhlela injongo yakho, unokuphulukana nenkqubela phambili yakho esele ikho.
 want-to-continue = Ingaba uyafuna ukuqhubeka?
 lose-changes-warning = Ukuhamba ngoku kuthetha ukuba uza kuphulukana notshintsho lwakho
+build-custom-goal = Yakha injongo yesiNtu
 help-reach-hours-pluralized =
     { NUMBER($hours) ->
         [one] Nceda sifikelele { $hours } iyure kwi { $language } njongo yobuqu
@@ -560,6 +572,7 @@ download-request-archive-single = Ifayile ye-ZIP enye equlathe
 download-request-archive-multiple = Yahlula kwi { $archiveCount } iifayile zeZIP eziqulathe
 download-request-assembling-description = Iifayile zakho ziyahlanganiswa. Nceda ujonge kwakhona kamva.
 download-request-modal-description = Nazi iilinki zokukhuphela iifayile zakho ze-ZIP.
+download-request-link-text = iZip #{ $offset } ye { $total }
 download-request-link-single = Unokukopa kwaye uncamathisele ii-URL ezithe ngqo kwindawo yokukhuphela oyithandayo. Ziya kuphelelwa kwiiyure ezili-12, kodwa ungabuyela kweli phepha ukwenza ezintsha nangaliphi na ixesha.
 
 ## Landing
@@ -716,6 +729,7 @@ sc-submit-err-add-source = Nceda wongeze umthombo.
 sc-submit-err-confirm-pd = Nceda uqinisekise ukuba ezi zivakalisi zezikawonke wonke.
 sc-submit-prompt =
     .message = Izivakalisi azingangeniswanga, ngaba uqinisekile ukuba ufuna ukuhamba?
+sc-submit-add-sentences = Yongeza izivakalisi <wikipediaLink>zikawonke wonke</wikipediaLink>
 sc-submit-ph-one-per-line =
     .placeholder = Isivakalisi esinye kumgca ngamnye
 sc-submit-from-where = Zivela phi ezi zivakalisi <wikipediaLink>zikawonke wonke</wikipediaLink>?
@@ -727,6 +741,7 @@ sc-submit-guidelines = Nceda utshekitshe i <howToLink>izikhokelo</howToLink>.
 
 ## ADD LANGUAGE
 
+sc-add-lang-could-not-add = Ayikwazanga ukongeza ulwimi
 sc-add-lang-sec-label = Yongeza ulwimi ofuna ukufaka isandla kulo
 sc-add-err-unexpected = Impendulo ebingalindelekanga ibuyiselwe kwiseva
 # Variables:
@@ -804,6 +819,7 @@ sc-lang-info-left-for-you =
         [one] Si-1 isivakalisi esishiyekileyo ukuba usihlole.
        *[other] { $unreviewedSentencesByYou } izivakalisi ezishiyekileyo ukuze uzihlole.
     }
+sc-lang-info-add-more = <addLink>Yongeza izivakalisi ngoku!</addLink>
 # Variables:
 #   $validatedSentences (Number) - Number of sentences which have been approved for this language
 sc-lang-info-validated =
@@ -827,6 +843,7 @@ sc-lang-info-rejected =
 ## PROFILE
 
 sc-personal-err-lang-not-found = Ayikwazanga ukususa ulwimi: ulwimi alufunyenwanga
+sc-personal-err-remove = Ayikwazanga ukususa ulwimi
 sc-personal-not-added = Awufakanga naziphi na iilwimi okwangoku.
 
 ## REVIEW CRITERIA
