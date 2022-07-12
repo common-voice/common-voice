@@ -42,6 +42,7 @@ nr = isiNdebele (Entshona)
 nso = iNorthen Sotho
 nyn = iRunyankole
 om = iAfaan Ornoo
+pa-IN = iPunjabi
 pap-AW = iPapiamento (Aruba)
 quy = iQuechua Chanka
 rm-sursilv = iRomansh Sursilvan
@@ -104,6 +105,7 @@ zu = IsiZulu
 
 speak = Thetha
 speak-now = Thetha ngoku
+profile = Iprofayili
 terms = Imigaqo/ amagama
 content-license-text = Umxholo okhoyo phantsi kwe <licenseLink>Creative Commons license</licenseLink>
 share-title = Sincede sifumane abanye abaza kunikela ngelizwi labo!
@@ -665,6 +667,7 @@ language-section-in-progress-new-description = Ezi lwimi ngoku ziphantsi kophuhl
 language-section-launched-description = Kwezi lwimi ziqaliweyo iwebhusayithi iye yasebenza ngempumelelo <localizationGlossaryLink>localized</localizationGlossaryLink>, kwaye inokwanela <sentenceCollectionGlossaryLink>izivakalisi eziqokelelweyo</sentenceCollectionGlossaryLink> ukuvumela ukuqhubeka<speakLink>Speak</speakLink> kwaye <listenLink> iminikelo</listenLink>.
 languages-show-more = Bona okuninzi
 languages-show-less = Bona kancinci
+language-meter-in-progress = Inkqubela
 language-total-progress = Itotali
 language-search-input =
     .placeholder = Khangela
@@ -805,6 +808,7 @@ goal-type = Loluphi uhlobo lwenjongo ofuna ukwakha?
 both-speak-and-listen-long = Zombini (Thetha kwaye Mamela)
 daily-goal = Injongo yeMihla ngeMihla
 weekly-goal = Injongo yeVeki
+pro-difficulty = Pro
 lose-goal-progress-warning = Ngokuhlela injongo yakho, unokuphulukana nenkqubela phambili yakho esele ikho.
 want-to-continue = Ingaba uyafuna ukuqhubeka?
 finish-editing = Gqibezela ukuhlela kuqala?
@@ -876,7 +880,7 @@ profile-form-delete = Cima iProfayile
 
 download-q = Ingaba ufuna ukukhuphela idatha yakho?
 download-info = Sixelele into ongathanda ukuyikhuphela:
-download-profile-title = iProfayili
+download-profile-title = Iprofayili
 download-profile-info = Kubandakanya i-imeyile, igama lomsebenzisi kunye nolwazi le-demographic, luyafumaneka kwangoko
 download-profile-size = Iibhayithi ezimbalwa
 download-recordings-title = Iirekhodingi
@@ -890,6 +894,7 @@ download-start = Khuphela idatha yeprofayile
 download-request = Cela iirekhodingi
 download-requests = Izicelo zokukhuphela ezirekhodiweyo ezidlulileyo
 download-requests-info = Xa ucela ushicilelo lwakho, siyaluqokelela lube yifayile yeZIP enye okanye ezininzi.Nazi izicelo zakho zangaphambili:
+download-request-title = { $created }
 download-request-description = Iikliphu zelizwi, ubungakanani obupheleleyo bogcino ezi { $clipCount }  { $size }. Ziphelelwa{ $expires }
 download-request-archive-single = Ifayile ye-ZIP enye equlathe
 download-request-archive-multiple = Yahlula kwi { $archiveCount } iifayile zeZIP eziqulathe
@@ -1007,9 +1012,11 @@ sc-header-review = Uphononongo
 sc-header-rejected = Izivakalisi ezikhatywayo
 sc-header-my = Izivakalisi zam
 sc-header-statistics = Amanani
+sc-header-profile = iprofayili
 sc-footer-report-bugs = Zixele iiBugs
 sc-footer-translate = Guqulela eliphepha
 sc-footer-report-copyright = Xela imiba yelungelo lokushicilela
+sc-footer-privacy = Ubumfihlo
 sc-footer-terms = Imigaqo/ amagama
 sc-login-signup-button = Ngena / Bhalisa
 
@@ -1233,6 +1240,9 @@ sc-login-err-try-again = Nceda zama kwakhona
 
 ## PROFILE
 
+# Variables:
+#   $username (String) - eMail address of the logged in user
+sc-profile-title = Iprofayile: { $username }
 sc-personal-err-lang-not-found = Ayikwazanga ukususa ulwimi: ulwimi alufunyenwanga
 sc-personal-err-remove = Ayikwazanga ukususa ulwimi
 sc-personal-your-languages = Iilwimi zakho:
