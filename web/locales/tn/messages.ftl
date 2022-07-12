@@ -102,6 +102,7 @@ pl = Se-Polish
 ps = Se-Pashto
 pt = Sepotokisi
 quc = Se-K'iche'
+rm-vallader = Se-Romansh Vallader
 ro = Se-Romania
 ru = Se-Russia
 rw = Se-Kinyarwanda
@@ -441,9 +442,11 @@ how-does-it-work-text = Re batla tshedimosetso ya batho ba bantsi ya mantswe. Ab
 
 ## How does it work section
 
+about-language-req-subtitle = Mongwe o kopa gore puo e tsenngwe.
 about-localization-title = Thanolo ya Webosaete
 about-localization-subtitle = Mokwalo ya webosaete o ranolwetswe mo puong eo.
 about-sentence-collection-title = Setlhopha sa Dipolelo
+about-sentence-collection-subtitle = Mela e kgobokanngwa gore batho ba e balele kwa godimo.
 about-new-lang-subtitle = Re simolola webosaete ya Common Voice ka puo eno.
 about-voice-contrib-title = Go Neelana ka Lentswe
 about-voice-contrib-subtitle = Batho ba a tla ba bo ba abelana ka mantswe a bone.
@@ -582,6 +585,7 @@ sentence-collection-explanation = Go amogela mela go tswa mo lefelong la batho b
 hours-recorded-explanation = Palo ya diura tsa direkoting tse re setseng re di amogetse go fitlha jaana.
 hours-validated-explanation = Palo ya diura tsa kgatiso ya mantswe e e tlhomamisitsweng ke badirisi ba le 2 mo go ba le 3 ka tlhopho ya “Ee”. Seno se bontsha botswelelopele jwa porojeke ka kakaretso ya mokgele wa diura tse 10k.
 sst = Puo-go-mokwalo (STT)
+sst-explanation = Thekenoloji ya Puo-go-mokwalo (STT) e fetolela tshedimosetso ya mantswe mo mokwalong.
 de-identified-explanation = Thulaganyo e ka yone tshedimosetso ya porofaele ya moabi e fitlhegileng mo dikgatisong tsa mantswe fa e baakanyeditswe go itseelwa jaaka karolo ya tshedimosetso.
 
 ## Error pages
@@ -709,6 +713,7 @@ request-language-form-info-explanation = Tsenya tshedimosetso e ntsi ka fa o ka 
 request-language-form-info-explanation-list-1 = Maina a puo ya gago
 request-language-form-info-explanation-list-2 = <isoCodeLink>Dikhouto tsa ISO</isoCodeLink> fa di itsiwe
 request-language-form-info-explanation-list-3 = Dilinki tsa diwebosaete tse di ka re thusang go tlhaloganya puo
+request-language-google-recaptcha-error = Sengwe ga se a tsamaya sentle ka reCAPTCHA. Tsweetsee leka gape.
 # Success page
 request-language-success-heading = Re a leboga! O rometse kopo ya puo e ntšha
 request-language-success-list-1 = O tshwanetse go amogela email mo bogautshwaneng e e tlhalosang dikgato tsa go tsenya puo ya gago mo Common Voice
@@ -776,6 +781,7 @@ record-three-more-instruction = Go setse di le tharo!
 record-again-instruction = Go gontle!<recordIcon></recordIcon> Dira kgatiso e e latelang
 record-again-instruction2 = Tshwara fela jalo, gatisa gape <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon> Ya bofelo!
+review-tooltip = Sekaseka & dira dikgatiso sesha fano fa o ntse o ya
 share-clip = Abelana ka bidio ya gago
 share-common-voice = Abelana ka Common Voice
 review-instruction = Sekaseka dikgatiso & gatisa sesha fa go tlhokega
@@ -1177,6 +1183,8 @@ sc-submit-add-sentences = Tsenya mela ya <wikipediaLink>lefelo la botlhe</wikipe
 sc-submit-ph-one-per-line =
     .placeholder = Polelo e le nngwe mo moleng
 sc-submit-from-where = Mela eno ya <wikipediaLink>lefelo la botlhe</wikipediaLink> e tswa kae?
+sc-submit-ph-read-how-to =
+    .placeholder = Bala Kafa o Ka fa o sa tlhomamisege gore o ka bona dilo jang
 sc-submit-confirm = Ke tlhomamisa gore mela eno ke ya <wikipediaLink>batho botlhe</wikipediaLink> e bile ke na le tetla ya go e tsenya.
 sc-submit-button =
     .submitText = Romela
