@@ -710,6 +710,7 @@ overall-hr-total = Nga u angaredza Hr. Thothaḽi
 cv-license = Ḽaisentsi
 audio-format = Fomete ya Odio
 number-of-voices = Tshivhalo tsha maipfi
+splits = Ṱhukhula
 email-to-download = Pangani email uri ni kone u downḽoda
 why-email = <b>Ndi ngani hu tshi ṱoḓea email?</b> Ri nga tea u ni kwama tshifhingani tshi ḓaho nga nṱhani ha tshanduko dzo iteaho kha dataset, email i ita uri ri kone u ni kwama.
 confirm-size = No lugela u thoma u downḽoda zwithu zwa <b>{ $size }</b>
@@ -829,6 +830,7 @@ language-validation-progress = Mvela phanḓa yo Khwaṱhisedzwaho
 ## Contribution
 
 action-click = Puṱedza
+action-tap = Tap
 shortcuts = Shortcut
 clips-with-count-pluralized =
     { $count ->
@@ -1140,6 +1142,7 @@ contribution-background-voices-description = Fhethu hu re na vhathu fhedzi ho fh
 contribution-background-voices-description-extended = Arali rekhodo yo khathuwa, kana i na manzaranzara, i haneni nga nnḓani ha musi mafhungo oṱhe a tshi khou pfala.
 contribution-background-voices-example-1-title = Dinosaurs khulu ya Triassic. <strong>[read by one voice]</strong>
 contribution-background-voices-example-1-explanation = Ni khou ḓa? <strong>[khou vhidzwa nga muṅwe]</strong>
+contribution-volume-title = Volumu
 contribution-volume-description = Hu ḓo vha na u fhambana-fhambana ha volumu dza vhavhali. I iledzeni arali volumu ya hone i nṱhesa lune ya khathuwa, kana (zwiṅwe zwo ḓoweleaho) arali i fhasi lune ni si kone u pfa zwine zwa khou ambiwa ni songo sedza mafhungo o ṅwalwaho.
 contribution-reader-effects-description = Zwithu zwinzhi zwo rekhodiwaho ndi zwa vhathu vha tshi khou amba nga ipfi ḽavho ḽa vhukuma. Ni nga ṱanganedza zwithu zwi sa itei tshifhinga tshoṱhe kha zwo rekhodiwaho zwine zwa vha u tzhema, u hevhedza, kana u amba nga ipfi ḽa ane a nga u khou ita ‘ḽitambwa’. Ri humbela uri ni songo tendela zwo rekhodiwaho hu tshi khou imbiwa na zwe ha shumiswa maipfi a dzi khomphuyutha.
 contribution-just-unsure-description = Arali na ṱangana na zwithu zwine zwi si vhe hone kha hovhu vhulivhisi, ri humbela uri ni khethe u shumisa khaṱhulo yaṋu. Arali ni sa koni u dzhia phetho, puṱedzani button ya u pfukha nahone ni fhirele kha zwo rekhodiwaho zwi tevhelaho.
@@ -1215,6 +1218,9 @@ sc-my-description = Heḽi siaṱari ḽi ni sumbedza mitaladzi yoṱhe ye na i 
 sc-my-loading = U ḽouda mitaladzi yaṋu...
 sc-my-err-fetching = Ho itea vhukhakhi ni tshi khou lingedza u dzhia mitaladzi yaṋu. Ri humbela uri ni lingedze hafhu.
 sc-my-no-sentences = A hu na mitaladzi yo wanalaho!
+# Variables:
+#   $source (String) - Associated source the user filled out when uploading the sentence
+sc-my-source = Vhubvo: { $source }
 sc-my-delete = Diḽitani mitaladzi yo nangiwaho
 sc-my-deleting = Ni khou Diḽita mitaladzi yo nangiwaho…
 sc-my-err-failed-delete = A zwo ngo konadzea u ḓilita mitaladzi... Ri humbela uri ni lingedze hafhu!
@@ -1228,6 +1234,7 @@ sc-rejected-none-found = A hu na mitaladzi yo haniwaho yo wanalaho!
 
 ## STATS
 
+sc-stats-title = Mbalo-mbalo
 sc-stats-error = A ro ngo kona u dzhia mbalo-mbalo. Ri humbela uri ni lingedze nga vhuya.
 # Variables:
 #   $sentenceCount (Number) - Total number of sentences uploaded through Sentence Collector
@@ -1316,6 +1323,7 @@ sc-confirm-uploading = Mitaladzi i khou apuḽodiwa. Hezwi zwi nga dzhia tshifhi
 
 ## LANGUAGE INFO
 
+sc-lang-info-title-total = Thothaḽi
 sc-lang-info-title-personal = Personal
 # Variables:
 #   $totalSentences (Number) - Number of sentences uploaded in total for this language
@@ -1398,6 +1406,9 @@ sc-review-no-sentences = A hu na mutaladzi une wa ṱoḓa u ṱoliwa. <addLink>
 sc-review-form-prompt =
     .message = Mitaladzi yo ṱolisiswaho a yo ngo rumelwa, ni na vhuṱanzi?
 sc-review-form-usage = Swaipelani kha tsha u ḽa u itela uri ni kone u amba uri mutaladzi ndi wone. U amba uri a si wone swaipelani kha tsha monde. Swaipelani nṱha u itela u pfuka. <strong>Ni songo hangwa u rumela zwe na ṱolisisa!</strong>
+# Variables:
+#   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
+sc-review-form-source = Vhubvo: { $sentenceSource }
 sc-review-form-button-reject = Hanela
 sc-review-form-button-skip = Fhira
 sc-review-form-button-approve = Tendelwa
