@@ -71,6 +71,7 @@ username-email-not-demographic = Igama lakho lomsebenzisi kunye ne-imeyile aziyi
 
 ## ProjectStatus
 
+status-title = Imeko yeprojekthi iyonke: jonga ukuba sifikelele kude kangakanani!
 status-hours =
     { $hours ->
         [one] Kuqinisekiswe iyure enye okwangok!
@@ -154,6 +155,9 @@ how-does-it-work-text = Sithumela isethi yedatha evulekileyo yamazwi. Nikela nge
 
 ## How does it work section
 
+about-language-req-subtitle = Umntu ucele kongezwe ulwimi.
+about-localization-subtitle = Itekisi yewebhu iguqulelwa kolo lwimi.
+about-sentence-collection-subtitle = Izivakalisi ziqokelelwa ukuba abantu bafunde ngokuvakalayo.
 about-new-lang-subtitle = Sisungula i-site yeCommon Voice kolu lwimi.
 about-subscribe-text = Ingaba ufuna ukuhlala unxulumene neCommon Voice?
 about-speak-text = Abanogalelo barekhoda iikliphu zelizwi ngokufunda ukusuka kwibhanki yezivakalisi ezinikezelweyo.
@@ -251,6 +255,7 @@ localization-explanation = Le yinkqubo yethu yokuguqulela kunye nokulungelelanis
 sentence-collection-explanation = Ukuqokelela izivakalisi kwindawo yoluntu, okanye ukubhala ezintsha kwindawo yoluntu.
 hours-recorded-explanation = Kubalwa kweeyure zokurekhoda ilizwi eziqokelelweyo ukuza kuthi ga ngoku.
 hours-validated-explanation = Isibalo seeyure zokurekhoda kwezwi eziye zaqinisekiswa ngabasebenzisi aba-2 kwaba-3 ngevoti ethi "Ewe". La manqaku aphawula inkqubela phambili kwiprojekthi iyonke kwiinjongo zeeyure ezimisiweyo ezili-10.
+sst-explanation = Itekhnoloji yentetho ukuya kwisicatshulwa (STT) iguqula idatha yelizwi iyise kwilizwi.
 de-identified-explanation = Inkqubo apho ulwazi lweprofayile yomntu owenze ugalelo lufihliwe kwiikliphu zabo zelizwi abanikele ngalo xa zikhutshelwa njengenxalenye ye-dataset.
 
 ## Error pages
@@ -318,6 +323,10 @@ request-language-form-info-explanation =
     Yongeza ulwazi oluninzi kangangoko unakho malunga nolwimi. Oku
     kunokubandakanya:
 request-language-form-info-explanation-list-3 = Amakhonkco aya kwiwebhusayithi ezinookusinceda ukuba siqonde ulwimi
+request-language-google-recaptcha-required = I-reCAPTCHA iyadingeka ukuba ufuna ukuqhubeka
+request-language-google-recaptcha-error = Kukho into ehambe ngempazamo kwi-reCAPTCHA. Zama kwakhona ngelinye ixesha.
+# Success page
+request-language-success-heading = Enkosi! Uthumele isicelo solwimi olutsha
 request-language-success-list-1 = Kuya kufuneka ufumane i-imeyile ngokukhawuleza echaza amanyathelo okufumana ulwimi lwakho longezwe kwiCommon Voice
 request-language-success-list-2 =
     Umphathi wethu woluntu uya kufikelela kuwe ukuze akunike
@@ -339,6 +348,7 @@ goal-help-recording = Uncede iCommon Voice ifikelele ku<goalPercentage></goalPer
 goal-help-validation = Uncede iCommon Voice ifikelele ku<goalPercentage></goalPercentage> yosuku{ $goalValue } lenjongo yokuqinisekisa!
 record-platform-not-supported = Uxolo, iqonga lakho alixhaswanga okwangoku.
 record-platform-not-supported-ios-non-safari = Kwi-iOS nceda uqhubeke neSafari ukuvula ukurekhoda…
+review-tooltip = Hlaziya kwaye urekhode iikliphu kwakhona apha njengoko uhamba
 listen-empty-state = Siphelelwe ziikliphu zokuqinisekisa kolu lwimi…
 listen-loading-error =
     Asikwazanga kufumana naziphi na iikliphu zeaudio ukuze umamele.
@@ -351,6 +361,7 @@ speak-loading-error =
 ## Reporting
 
 report-ask = Yeyiphi imiba onayo ngesi sivakalisi?
+report-grammar-or-spelling-detail = Isivakalisi sinempazamo yegrama okanye yopelo.
 report-different-language-detail = Kubhalwe ngolwimi olwahlukileyo kunento endiyithethayo.
 report-difficult-pronounce-detail = Inamagama okanye amabinzana ekunzima ukuwafunda okanye ukwabiza.
 
@@ -525,8 +536,11 @@ sc-stats-summary = Isiqokeleli seCommon Voice siqokelele I { $sentenceCount } ye
 
 ## ADD
 
+sc-submit-err-confirm-pd = Nceda uqinisekise ukuba ezi zivakalisi zezikawonke wonke.
 sc-submit-prompt =
     .message = Izivakalisi azingangeniswanga, ngaba uqinisekile ukuba ufuna ukuhamba?
+sc-submit-ph-read-how-to =
+    .placeholder = Funda indlela yokwenza ukuba awuqinisekanga ukuba ungayichazanga njani
 sc-submit-confirm = Ndiyaqinisekisa ukuba ezi zivakalisi zikwi <wikipediaLink>ndawo kawonke wonke</wikipediaLink> kwaye ndinemvume yokuzifaka.
 sc-submit-filtered = Izivakalisi ezihluziweyo ngenxa yokungaphumeleli kweemfuno (nceda ungenise iinguqulelo ezisisigxina njengezivakalisi ezitsha):
 
