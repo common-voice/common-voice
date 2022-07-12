@@ -325,6 +325,7 @@ error-content-503 = Saiti i ḓo bekapiwa nga u ṱavhanya. Uri ni wane zwithu z
 
 ## Data
 
+data-download-button = Downḽodani Data ya Common Voice
 data-download-modal = Ni khou thoma u downḽoda <size>{ $size }GB</size>, naa ni ṱoḓa u isa phanḓa?
 data-subtitle = Ri khou ita dataset i ne ya ḓo shumiswa nga nnyi na nnyi nga muṅwe na muṅwe ya maipfi ane vhathu vhoṱhe vha nga kona u a shumisa u gudisa dzi application dzine dza kona u u amba.
 data-explanatory-text = Ri tenda uri tshitshavha tshihulu tshi re hone tshi ḓo vhuyelwa nga dataset ya maipfi zwa ita uri hu thomiwe zwithu zwiswa nahone ha vha na miṱaṱisano yavhuḓi kha zwa vhurengisi zwi tshimbidzanaho na thekhinolodzi ya u amba ya machine-learning. Zwenezwi ndi mutingati wa shango ḽoṱhe nga vhuphara nahone ri khou ramba muṅwe na muṅwe uri a shele mulenzhe. Tshipikwa tshashu ndi uri zwishumiswa zwa u amba zwa thekhinolodzhi zwi katele vhunzhi ha vhathu, hu pfale maipfi o fhambananaho u mona na shango ḽoṱhe.
@@ -346,6 +347,7 @@ datasets-positioning =
      Dataset ya nyambo nnzhi dza Common Voice yo no ḓi vha dataset khulwanesa ine ya wanala tshitshavhani, fhedzi a si yone i yoṱhe.
     
     Sedzani kha siaṱari heḽi sa referentsi ya hub u itela u wana dziṅwe dataset dzine dza nga shumiswa nga vhathu vhoṱhe, samusi Common Voice i tshi khou bvela phanḓa na u aluwa, ndi hone haya hune ha ḓo vha na dzi updates dzashu.
+email-to-download = Pangani email uri ni kone u downḽoda
 why-email = <b>Ndi ngani hu tshi ṱoḓea email?</b> Ri nga tea u ni kwama tshifhingani tshi ḓaho nga nṱhani ha tshanduko dzo iteaho kha dataset, email i ita uri ri kone u ni kwama.
 confirm-size = No lugela u thoma u downḽoda zwithu zwa <b>{ $size }</b>
 confirm-no-identify = <b>Ni khou tenda</b> uri a ni nga lingedzi u ḓivha muambi kha dataset ya Common Voice
@@ -439,6 +441,7 @@ record-again-instruction2 = Isani phanḓa nga u ralo, rekhodani hafhu <recordIc
 review-tooltip = Ṱolisisani & ni dovholole u rekhoda ni tshi khou bvela phanḓa
 review-instruction = Ṱolisisani & dovhololani u rekhoda arali zwo fanela
 record-abort-text = Na ṱuwa zwino ni ḓo xelelwa nga mvela phanḓa yaṋu
+record-abort-delete = Ibvani & Ḓilitani zwo rekhodiwaho
 listen-instruction = { $actionType }<playIcon></playIcon> naa vho bula mutaladzi nga nga nḓila yone?
 listen-again-instruction = Mushumo wavhuḓi!<playIcon></playIcon> Dovhani ni thetshele musi no lugela
 listen-3rd-time-instruction = No fhedza mbili, isani phanḓa nga u rali!<playIcon></playIcon>
@@ -480,10 +483,13 @@ visibility-overlay-note = Ṱhogomelani hezwi: Musi yo setiwa kha u 'Vhonala', h
 
 ## Custom Goals
 
+get-started-goals = Thomani u ḓiitela zwipikwa
+create-custom-goal = Itani tshipikwa tsho ḓoweleaho
 goal-type = Ndi tshipikwa ḓe tshine na khou ṱoḓa u tshi ita?
 lose-goal-progress-warning = Nga u editha tshipikwa tshaṋu, ni nga xelelwa nga mvela phanḓa ya zwe na zwi ita.
 want-to-continue = Ni khou ṱoḓa u isa phanḓa?
 lose-changes-warning = Na ṱuwa zwino ni ḓo xelelwa nga tshanduko dzaṋu
+build-custom-goal = Itani tshipikwa tsho ḓoweleaho
 help-reach-hours-pluralized =
     { NUMBER($hours) ->
         [one] Thusani ri swikelele { $hours } awara { $language } nga tshipikwa tshaṋu
@@ -701,6 +707,7 @@ sc-submit-guidelines = Ri humbela uri ni sedze <howToLink>vhulivhisi</howToLink>
 
 ## ADD LANGUAGE
 
+sc-add-lang-could-not-add = A yo ngo kona u panga luambo
 sc-add-lang-sec-label = Pangani luambo lune na khou ṱoḓa u shela mulenzhe ngalwo
 sc-add-err-unexpected = Ho vhuya phindulo i songo lavhelelwaho u bva kha server
 # Variables:
@@ -801,6 +808,7 @@ sc-lang-info-rejected =
 ## PROFILE
 
 sc-personal-err-lang-not-found = A zwo ngo konadzea u bvisa luambo: luambo a lwo ngo wanala
+sc-personal-err-remove = A yo ngo kona u bvisa luambo
 sc-personal-not-added = A ni athu u panga luambo na luthihi u swika zwino.
 
 ## REVIEW CRITERIA
