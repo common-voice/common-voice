@@ -48,6 +48,7 @@ hyw = Se-Armenia sa Bophirima
 lij = Se-Liguria
 lt = Se-Lithuania
 my = Se-Burma
+nan-tw = Se-Taiwan (Minnan)
 om = Se-Afaan Ormoo
 pa-IN = Se-Punjabi
 sc = Se-Sardinia
@@ -55,6 +56,7 @@ scn = Se-Sicily
 shi = Se-Shilha
 si = Se-Sinhala
 sk = Se-Slovak
+skr = Se-Saraiki
 sl = Se-Slovania
 so = Se-Somali
 sq = Se-Albania
@@ -183,6 +185,7 @@ shortcut-vote-yes = e
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-record-toggle = r
 shortcut-record-toggle-label = Rekota/Emisa
+shortcut-submit-label = Romela dibidio
 
 ## ProjectStatus
 
@@ -385,6 +388,7 @@ about-playbook-how-project-governance-content-1 = Mozilla Common Voice e kgonega
 
 ## Glossary
 
+localization = Thanolelo
 localization-explanation = Ono ke mokgwa wa rona wa go ranola le go dira gore tshedimosetso ya rona e tsamaisane le dipuo di le dintsi.
 sentence-collection-explanation = Go amogela mela go tswa mo lefelong la batho botlhe, kgotsa go kwalela lefelo la batho botlhe e mesha.
 hours-recorded-explanation = Palo ya diura tsa direkoting tse re setseng re di amogetse go fitlha jaana.
@@ -437,6 +441,7 @@ resource-coqui-info = <coquiLink>Coqui</coquiLink> e ineetse mo thekenolojing ya
 community-playbook = Buka ya Motshameko ya Baagi
 resource-playbook-info = <playbookLink>Bona kaelo e e thusang</playbookLink> ka loeto lotlhe lwa Common Voice, go tloga ka go ranolela go fitlha ka tiriso ya tshedimosetso, mmogo le go ikgolaganya le batho ba lefelo la rona.
 data-other-librispeech-description = LibriSpeech ke direkoto tsa diura di ka nna 1000 tsa 16Khz tse di balang mela ya Seesemane tse di tsewang mo dibukeng tsa mantswe tsa porojeke ya LibriVox.
+data-other-ted-name = TED-LIUM Corpus
 data-other-ted-description = Tshedimosetso ya TED-LIUM e dirilwe go dirisiwa dipuo tsa mantswe le ditlankana tsa bone tse di kopolotsweng tse di mo websaeteng ya TED.
 data-other-voxforge-description = VoxForge e ne e diretswe go phutha puo e e kwalolotsweng gore e dirisiwe e dirisa Metswedi ya  Mahala ya go Lemoga Puo e e Dirisiwang ke Batho Botlhe.
 data-other-tatoeba-description = Tatoeba ke tshedimosetso e kgolo ya dipolelo, dithanolo, le kgatiso ya mantswe a a buiwang e e dirisiwang go ithuta puo. Karolo eno e e itseelwang e na le Seemane se se buiwang se se gatisitsweng ke morafe wa bone.
@@ -506,6 +511,7 @@ record-cancel = Khansela go Rekota Sesha
 record-stop-instruction = { $actionType }<stopIcon></stopIcon> fa o feditse
 record-last-instruction = <recordIcon></recordIcon> Ya bofelo!
 clips-uploaded = Dibidio di tsentswe
+record-abort-submit = Romela dibidio
 listen-last-time-instruction = <playIcon></playIcon>Ya bofelo!
 listen-empty-state = Re feletswe ke dikgatiso tse re ka di tlhomamisang ka puo eno...
 listen-loading-error = Ga re a kgona go bona dikgatiso tsa mantswe tse o ka di reetsang. Tsweetswee leka gape moragonyana.
@@ -733,6 +739,7 @@ sc-add-result =
         [one] Mela e e rometsweng. { $duplicates } mola o gannwe ka gore o a ipoeletsa.
        *[other] Mela e e rometsweng. { $duplicates } mela e gannwe ka gore e a ipoeletsa.
     }
+sc-add-err-submission = Phoso ka go Romela
 sc-add-lang-process-notice = Fa puo ya gago e sa tlhage fano, o ka e kopa ka <languageProcessLink>tsela eno</languageProcessLink>.
 
 ## ADD SENTENCES CONFIRMATION
