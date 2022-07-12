@@ -109,6 +109,7 @@ why-profile-title = Ndi ngani profaiḽi?
 why-profile-text =
     Nga u ri vhudza zwiṅwe zwidodombedzwa zwaṋu, data ya odio ine na i rumela kha Common Voice i ḓo kona u shumiswa zwavhuḓi kha mitshini ya u Ḓivha
     Ipfi ine ya ḓo shumisa yeneyi data u itela uri i kone u vha ya khwine-khwine uri i shume zwavhuḓi.
+profile-create-success = Zwo tshimbila, profile yo itiwa!
 profile-explanation = Dzulani ni tshi ṱola mvela phanḓa yaṋu nga profaiḽi nahone ni thuse data yashu ya maipfi uri i vhe na zwithu zwi re zwone.
 thanks-for-account = Ro livhuwa uri no khwaṱhisedza akhantu yaṋu, zwino kha ri ite profaiḽi yaṋu.
 why-demographic = Ndi ngani zwi zwa ndeme?
@@ -116,6 +117,7 @@ why-demographic-explanation-2 = Zwidodombedzwa zwa tshiphiri sa miṅwaha, mbeu,
 accept-privacy = Ndi a tenda uri ni fare zwenezwi zwidodombedzwa samusi no ṱalutshedza kha Mozilla <privacyLink>Mulayo wa u Tshiphiri</privacyLink>
 accept-privacy-title = Mulayo wa Tshiphiri
 login-signup = Log In / Sign Up
+skip-submission-feedback = Pfukhani u rumela Fidibeke
 skip-submission-description = Musi ni tshi khou rumela zwe na shela mulenzhe hu ḓo pfukiwa feedback nga murahu ha u puṱedza ipfi 'Submit'. Ni ḓo bvela phanḓa na u shela muledzhe nga u rekhoda dza 5 dzi tevhelaho kana u dzi thembendela.
 skip-submission-note = Ṱhogomelani hezwi: Ni kha ḓi ḓo tea uri ni nange u Amba kana u Thetshelesa uri ni shandule mufuda wa u nikela.
 help-accent = Ni khou ṱoḓa thuso kha kuambele?
@@ -394,6 +396,7 @@ contact-required = *Zwi ya todea
 
 request-language-success-title = Khumbelo ya luambo yo rumeliwa zwavhuḓi, ro livhuwa.
 request-language-success-content = Ri ḓo ni kwama hu si kale uri ri ni vhudze zwinzhi nga ha uri lumbo lwaṋu ni nga lu panga haṋi kha Common Voice.
+select-language = Nangani luambo
 
 ## Request Language Pages
 
@@ -448,9 +451,12 @@ record-error-too-short = Zwo rekhodiwaho zwo vha zwi zwi pfufhisa.
 record-error-too-long = Zwo rekhodiwaho zwo vha zwo lapfesa.
 record-error-too-quiet = Zwo rekhodiwaho zwo vha zwi fhasisa.
 record-instruction = { $actionType }<recordIcon></recordIcon> ni kone u vhalela mitaladzi nṱha
+record-three-more-instruction = Ho sala tharu!
 record-again-instruction = Ndi zwavhuḓi!<recordIcon></recordIcon>Rekhodani zwine zwa khou tevhela
 record-again-instruction2 = Isani phanḓa nga u ralo, rekhodani hafhu <recordIcon></recordIcon>
 review-tooltip = Ṱolisisani & ni dovholole u rekhoda ni tshi khou bvela phanḓa
+share-clip = Sherani zwe na rekhoda
+share-common-voice = Sherani Common Voice
 review-instruction = Ṱolisisani & dovhololani u rekhoda arali zwo fanela
 record-abort-text = Na ṱuwa zwino ni ḓo xelelwa nga mvela phanḓa yaṋu
 record-abort-delete = Ibvani & Ḓilitani zwo rekhodiwaho
@@ -474,6 +480,7 @@ target-segment-first-banner = Ri thuseni u ita tshipikwa tsha tshipiḓa tsha u 
 
 ## Reporting
 
+report-title = Rumelani muvhigo
 report-ask = Ndi thaidzo dzifhio dzine na khou ṱangana nadzo kha hoyu mutaladzi?
 report-offensive-language-detail = Hoyu mutaladzi u na mafhungo ane a nyadza kana a songo kunaho.
 report-grammar-or-spelling = Vhukhakhi ha grama / mupeḽeṱo
@@ -488,10 +495,13 @@ report-success = Muvhigo wo phasa
 
 ## Dashboard
 
+toward-next-goal = Tsini na thipikwa tshi tevhelaho
 todays-recorded-progress = Mvela phanḓa ya ṋamusi ya Common Voice ya zwo rekhodiwaho
 todays-validated-progress = Mvela phanḓa ya ṋamusi ya Common Voice ya rekhodo dzo khwaṱhisedzwaho
+set-visibility = Itani uri ndi vhonale
 visibility-explainer = Hedzi sethiṅi dzi langa u vhonala haṋu kha leaderboard. Musi dzi kha u dzumbama, mvela phanḓa yaṋu a i nga vhonwi. Zwenezwi zwi amba uri tshinepe tshaṋu, user name na bvela phanḓa yaṋu a zwi nga bveleli kha leaderboard. Ni ṱhogomele uri yeneyi leaderboard i dzhia minete ~{ $minutes } uri i sumbedzwe zwe na shandula.
 visibility-overlay-note = Ṱhogomelani hezwi: Musi yo setiwa kha u 'Vhonala', heyi setiṅi i nga shandukisiwa kha <profileLink> siaṱari ḽa Profaiḽi</profileLink>
+show-ranking = Sumbedzani uri ndi kha vhuimo vhufhio
 
 ## Custom Goals
 
@@ -513,6 +523,7 @@ help-reach-hours-general-pluralized =
         [one] Thusani Common Voice u swikelele { $hours } awara kha luambo nga tshipikwa tshe muthu a ḓivhetshela
        *[other] Thusani Common Voice u swikelele { $hours } dzi awara kha luambo nga tshipikwa tshe muthu a ḓivhetshela
     }
+set-a-goal = Itani tshipikwa
 how-many-per-day = Ndi zwavhuḓi! Hu ṱoḓea rekhodo nngana nga ḓuvha?
 how-many-a-week = Ndi zwavhuḓi! Hu ṱoḓea rekhodo nngana nga vhege?
 which-goal-type = Ni khou ṱoḓa u Amba, u Thetshelesa kana u ita zwoṱhe?
@@ -523,6 +534,7 @@ help-share-goal = Ri thuseni u wana maipfi manzhi, sherani tshipikwa tshaṋu
 share-n-daily-contribution-goal = Sherani { $count } Tshipikwa tshaṋu tsha u Rekhoda tsha Ḓuvha{ $type }
 # $type is one of share-goal-type-*
 share-n-weekly-contribution-goal = Sherani { $count } Tshipikwa tshaṋu tsha u Rekhoda tsha Vhege { $type }
+share-goal-type-both = U Amba na u Thetshelesa
 # LINK will be replaced with the current URL
 goal-share-text = Ndo ḓiitela tshipikwa tshau nikela nga ipfi kha #CommonVoice – shelani mulenzhe na nṋe kha u funza mitshini uri vhathu vha vhukuma vha ambisa hani { $link }
 weekly-goal-created = Tshipikwa tshaṋu tsha vhege tsho itiwa
@@ -641,6 +653,7 @@ contribution-just-unsure-description = Arali na ṱangana na zwithu zwine zwi si
 
 ## HEADER/FOOTER
 
+sc-footer-translate = Ḓologani heḽi siaṱari
 
 ## HOME
 
@@ -711,6 +724,8 @@ sc-submit-err-add-source = Ri humbela uri ni pange hune zwa bva hone.
 sc-submit-err-confirm-pd = Ri humbela uri ni khwaṱhisedze uri heyi mitaladzi ndi ya fhethu ha tshitshavha tshoṱhe.
 sc-submit-prompt =
     .message = Mitaladzi a yo ngo rumelwa, naa ni na vhungoho ha uri ni khou ṱoḓa u ṱuwa?
+sc-submit-select-language =
+    .labelText = Nangani luambo
 sc-submit-add-sentences = Pangani <wikipediaLink>mitaladzi ya </wikipediaLink> fhethu ha tshitshavha tshoṱhe
 sc-submit-ph-one-per-line =
     .placeholder = Mutaladzi muthihi kha ḽaini nthihis
