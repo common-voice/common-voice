@@ -22,6 +22,7 @@ error-something-went-wrong = Uxolo, kukho into engahambanga kakuhle
 
 ckb = iCentral Kardish
 cnh = iHakha Chin
+cy = iWelsh
 dsb = iSorbian, Lower
 gom = iGoan Konkani
 hsb = iSorbian, Upper
@@ -44,7 +45,26 @@ rm-sursilv = iRomansh Sursilvan
 rm-vallader = iRomansh Vllader
 sat = iSantali (Ol Chiki)
 st = iSouthern Sotho
+th = iThai
+ti = iTigrinya
+tig = iTigre
+tk = iTurkmen
 tok = iToki Pona
+tr = iTurkish
+ts = iXitsonga
+tw = iTwi
+uby = i-Ubykh
+udm = i-Udmurt
+ug = i-Uyghur
+uk = i-Ukrainian
+ur = i-Urdu
+uz = i-Uzbek
+ve = iTshivenda
+vec = iVenetian
+vi = iVietnamese
+vot = iVotic
+xh = IsiXhosa
+yi = iYiddish
 yo = iYoruba
 zh-CN = iChinise (isiChina)
 zh-HK = iChinese (Hong Kong)
@@ -83,6 +103,8 @@ show-wall-of-text = Funda Ngakumbi
 help-us-title = Sincede siqinisekise izivakalisi!
 help-us-explain = Cinezela dlala, mamela kwaye usixelele: ngaba basithetha ngokuchanekileyo esi sivakalisi singezantsi?
 no-clips-to-validate = Kubonakala ngathi akukho zikliphu zokumamela kolu lwimi. Sincede sigcwalise umgca ngokurekhoda ezinye ngoku.
+vote-yes = Ewe
+vote-no = Hayi
 toggle-play-tooltip = Cinezela u { shortcut-play-toggle } ukutshintsha indlela yokudlala
 speak-subtitle = Nikela ngelizwi lakho
 speak-paragraph = Ukurekhoda iikliphu zelizwi yinxalenye yolwakhiwo lwedatha yethu evulekileyo; abanye bangathi yeyona nto imnandi.
@@ -97,6 +119,7 @@ todays-progress = Inkqubela yaNamhlanje
 help-reach-goal = Sincede sifikelele ku { $goal }
 read-terms-q = Ngaba uyifundile iMiqathango yethu?
 ready-to-record = Ingaba ukulungele ukunikela ngelizwi lakho?
+today = Namhlanje
 x-weeks-short =
     { $count ->
         [one] Iveki
@@ -140,9 +163,21 @@ username-email-not-demographic = Igama lakho lomsebenzisi kunye ne-imeyile aziyi
 
 ## Listen Shortcuts
 
+# Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-play-toggle = p
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = y
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = n
 
 ## Speak Shortcuts
 
+# Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-record-toggle = r
 shortcut-rerecord-toggle-label = Rekhodisha ikliphu kwakhona
 shortcut-discard-ongoing-recording-label = Lahla irekhodingi eqhubekayo
 shortcut-submit-label = Ngenisa iiKliphu
@@ -178,6 +213,7 @@ profile-form-custom-accent-help-text =
 profile-form-custom-accent-placeholder-2 = Qalisa ukuchwetheza ukuchaza isivakalisi sakho
 leaderboard-visibility =
     .label = Ukubonaka kwebhodi yabaphambili
+visible = Iyabonakala
 native-language =
     .label = Ulwimi lenkobe
 profile-form-add-accent = Yongeza i-accent entsha  "{ $inputValue }"
@@ -455,6 +491,7 @@ error-content-503 = Isaythi iyakubuyiselwa ngokukhawuleza. Ngolwazi lwamva nje, 
 ## Data
 
 data-download-button = Khuphela iDatha yeCommon Voice
+data-download-yes = Ewe
 data-download-license = Ilayisensi: <licenseLink>CC-0</licenseLink>
 data-download-modal = Ngoku uza kuqalisa ukhuphelo lwe <size>{ $size }GB</size>, uyaqhubeka?
 data-subtitle = Sakha uluhlu lwedatha lwamazwi oluvulelekileyo nolufumaneka esidlangalaleni wonke umntu anokuthi alusebenzise ukuqeqesha usetyenziso olusebenzisa intetho.
@@ -465,6 +502,7 @@ data-other-goto = Yiya ku { $name }
 data-other-download = Khuphela iDatha
 data-bundle-button = Khuphela i-Dataset Bundle
 data-bundle-description = Idatha yeCommon Voice kunye nazo zonke ezinye iidatha zelizwi ngaphezulu.
+release-version = Inguqulelo
 data-download-singleword-title = Khuphela iCandelo legama elinye ekujoliswe kulo
 data-download-singleword-callout-v2 = Le yimeko yokusetyenziswa eqhutywa licandelo eliqulathe idatha kumandla athethiweyo ukuqondwa kwedijithi kwaye ewe / hayi akukho ubhaqo.
 review-terms = Ngokusebenzisa iCommon Voice uvuma  <termsLink>imiqathango</termsLink> kunye <privacyLink>neSazisi saBucala</privacyLink>
@@ -518,6 +556,7 @@ go-discourse = Yiya kwiDiscourse
 missing-language = Awuboni ulwimi lwakho luboniswa kwiSeti yedatha? Ukucela ulwimi yiya kwiphepha lethu leeLwimi.
 go-languages-page = Yiya kwicala leeLwimi
 ready-to-validate = Ingaba ukulungele ukunceda ukuqinisekisa izivakalisi?
+dataset-version = Inguqulelo
 
 ## Download Modal
 
@@ -581,6 +620,7 @@ language-section-in-progress-new-description = Ezi lwimi ngoku ziphantsi kophuhl
 language-section-launched-description = Kwezi lwimi ziqaliweyo iwebhusayithi iye yasebenza ngempumelelo <localizationGlossaryLink>localized</localizationGlossaryLink>, kwaye inokwanela <sentenceCollectionGlossaryLink>izivakalisi eziqokelelweyo</sentenceCollectionGlossaryLink> ukuvumela ukuqhubeka<speakLink>Speak</speakLink> kwaye <listenLink> iminikelo</listenLink>.
 languages-show-more = Bona okuninzi
 languages-show-less = Bona kancinci
+language-total-progress = Itotali
 language-validation-progress = Inkqubela phambili yoQinisekiso
 
 ## Contribution
@@ -752,6 +792,7 @@ n-clips-pluralized =
     }
 help-share-goal = Sincede sifumane amazwi amaninzi, yabelana nenjongo yakho
 confirm-goal = Qinisekisa Injongo
+goal-interval-weekly = Ngeveki
 # $type is one of share-goal-type-*
 share-n-daily-contribution-goal = Yabelana ngeyakho { $count } Ikliphu ngeNjongo yosuku lwe { $type }
 # $type is one of share-goal-type-*
@@ -883,6 +924,7 @@ contribution-background-voices-description = Ingxolo yangasemva ezolileyo ilungi
 contribution-background-voices-description-extended = Ukuba ushicilelo luyaqhawuka, okanye luziziqendu, lwale ngaphandle kokuba sonke isicatshulwa sinokuviwa.
 contribution-background-voices-example-1-title = Idinosaure enkulu yeTriassic <strong>[read by one voice]</strong>
 contribution-background-voices-example-1-explanation = Uyeza? <strong>[called by another]</strong>
+contribution-volume-title = Umthamo
 contribution-volume-description = Kuya kubakho ukuhluka kwendalo kwinqanaba lokukhwaza phakathi kwabafundi. Yala ukushicilela isandi ukuba izinga lokukhwaza liphambili kakhulu de lube luyaqhawuka ushicilelo, okanye (ngokuqhelekileyo) ukuba inqanaba lokukhwaza liphantsi kakhulu ukuba awukwazi ukuva oko kuthethwayo ngaphandle kokujonga koko kubhaliweyo.
 contribution-reader-effects-title = Iziphumo zomfundi
 contribution-reader-effects-description = Iirhekhodi ezinintsi zezabantu abancokola ngezwi labo lwendalo. Unokwamkela ushicilelo olungelulo oluqhelekileyo olukhwazwayo, olusebezayo, okanye oluhanjiswa ngokucacileyo ngelizwi ‘elimangalisayo’. Nceda ungalwamnkeli ushicilelo olungumculo kunye nabo basebenzisa ilizwi elenziwe yikhompyuter.
@@ -975,6 +1017,7 @@ sc-rejected-none-found = Akukho zivakalisi zaliweyo zifunyenweyo!
 
 ## STATS
 
+sc-stats-updating = Iyahlaziya…
 sc-stats-error = Asikwazanga kulanda izibalo. Nceda uzame kwakhona mva.
 # Variables:
 #   $sentenceCount (Number) - Total number of sentences uploaded through Sentence Collector
@@ -1064,6 +1107,7 @@ sc-confirm-uploading = Izivakalisi ziyalayishwa. Oku kungathatha imizuzu emininz
 
 ## LANGUAGE INFO
 
+sc-lang-info-title-total = Itotali
 # Variables:
 #   $totalSentences (Number) - Number of sentences uploaded in total for this language
 sc-lang-info-total =
