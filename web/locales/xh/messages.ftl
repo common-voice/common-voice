@@ -3,6 +3,7 @@
 yes-receive-emails = Ewe, ndithumele ii-imeyile.Ndingathanda ukuhlala ndinolwazi malunga neProjekthi yeCommon Voice.
 stayintouch = Thina kwaMozilla sakha uluntu malunga neteknoloji yelizwi. Singathanda ukuhlala sinxibelelana ne-updates,i-data sources ezintsha kwaye sive ngakumbi malunga nendlela oyisebenzisa ngayo le datha.
 privacy-info = Sithembisa ukuphatha ulwazi lwakho ngenkathalo. Funda ngakumbi kwi <privacyLink>Sazisi sabucala</privacyLink> yethu.
+return-to-cv = Buyela kuCommon Voice
 email-opt-in-info = Ndingathanda ukufumana ii-imeyile ezifana nezikhumbuzi zenjongo, uhlaziyo lwam lwenkqubela phambili kunye neeleta zeendaba malunga neCommon Voice.
 email-opt-in-info-title = Joyina uluhlu lwe-imeyile lweCommon Voice
 email-opt-in-info-sub-with-challenge = Fumana ii-imeyile ezinjengomngeni kunye nezikhumbuzi zenjongo, uhlaziyo lwenkqubela phambili, kunye neeleta zeendaba malunga neCommon Voice.
@@ -10,6 +11,7 @@ email-opt-in-privacy-v2 = Ngokuvuma ukufumana iimeyile uyavuma ukuba kulungile n
 indicates-required = Imimandla ephawulwe ngeenkwenkwezi (*) iyafuneka.
 banner-error-slow-1 = Uxolo, iCommon Voice isebenza ngokucotha. Enkosi ngomdla wakho.
 banner-error-slow-2 = Sifumana itrafiki eninzi kwaye ngoku siphanda le iingxaki.
+error-something-went-wrong = Uxolo, kukho into engahambanga kakuhle
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -31,6 +33,7 @@ share-text = Nceda ufundise oomatshini indlela abantu bokwenyani, abathetha nayo
 
 home-title = Icommon Voice linyathelo likaMozilla lokunceda ukufundisa oomatshini indlela abantu bokwenyani abathetha ngayo.
 default-tagline = I-Mozilla Common Voice linyathelo lokunceda ukufundisa oomatshini indlela abantu bokwenyani abathetha ngayo.
+home-cta = Thetha, unikele apha!
 wall-of-text-start = Ilizwi yinto edaliweyo, ilizwi ngumntu. Yiyo loo nto sivuyayo ngokwenza itekhnoloji yelizwi esebenzisekayo koomatshini bethu. Kodwa ukwenza iinkqubo zelizwi, abaphuhlisi bafuna inani elikhulu kakhulu yedatha yelizwi
 wall-of-text-more-mobile =
     Uninzi lwedatha esetyenziswa ziinkampani ezinkulu azifumaneki kuninzi lwabantu. Sicinga
@@ -115,6 +118,7 @@ help-variants-explanation = Ukwahluka-hlukana kulwimi luhlobo oluthile lolwimi- 
 
 ## Profile - Email
 
+browse-file-title = Layisha ifayile yomfanekiso
 browse-file = Tsala kwaye ulahle okanye <browseWrap>Ukhangele</browseWrap>
 gravatar_not_found = Akukho gravatar ifunyenweyo kwi-imeyile yakho
 file_too_large = Ifayile ekhethiweyo inkulu kakhulu.
@@ -301,6 +305,7 @@ about-playbook-how-access-dataset-content-2 = Ukuba ujonge izixhobo zokwakha iim
 about-playbook-how-project-governance = Zenziwa njani izigqibo zeprojekthi?
 about-playbook-how-project-governance-content-1 = IMozilla Common Voice yenziwa ngamatsha ntliziyo oluntu ahlukeneyo ukuba ibekhona, iingcali zeelwimi, izazinzulu zedatha, izifundiswa kunye neenjineli zesoftware ezivela kwihlabathi liphela. Iprojekthi ilawulwa yiMozilla Foundation.
 about-playbook-how-project-governance-content-2 = Ulawulo lwethu lusekwe kwezi ntsika i:
+about-playbook-how-project-governance-content-3 = Ubumfihlo, ukhuseleko kunye nokungafihli.
 about-playbook-how-project-governance-content-4 = Ukuthatha inxaxheba koluntu kunye nokwenza izigqibo.
 about-playbook-how-project-governance-content-7 = <governanceLink>Read more about how we're governed</governanceLink>
 
@@ -317,6 +322,7 @@ de-identified-explanation = Inkqubo apho ulwazi lweprofayile yomntu owenze ugale
 
 error-title-404 = Asikwazanga ukukufumanela elo phepha
 error-content-404 = Mhlawumbi <homepageLink>i-homepage</homepageLink> iya kunceda? Ukubuza umbuzo, nceda ujoyine <matrixLink>Ingxoxo ye-Matrix yoluntu</matrixLink>, jonga imiba yesayithi usebenzisa <githubLink>iGitHub</githubLink> okanye undwendwele <intethoLink>iiforum zethu zeNtetho</discourseLink>.
+error-title-503 = Sijongene nengxaki elingalindelekanga
 error-content-503 = Isaythi iyakubuyiselwa ngokukhawuleza. Ngolwazi lwamva nje, nceda ujoyine <matrixLink>Ingxoxo yeMatrix yasekuhlaleni</matrixLink> okanye undwendwele <githubLink>i-GitHub</githubLink> okanye <discourseLink>iiforam zethu zeNtetho</discourseLink> ukuze ungenise kwaye ujonge imiba yamava esayithi.
 
 ## Data
@@ -458,6 +464,7 @@ report-grammar-or-spelling-detail = Isivakalisi sinempazamo yegrama okanye yopel
 report-different-language-detail = Kubhalwe ngolwimi olwahlukileyo kunento endiyithethayo.
 report-difficult-pronounce-detail = Inamagama okanye amabinzana ekunzima ukuwafunda okanye ukwabiza.
 report-offensive-speech-detail = Ikliphu inolwimi olukrwada okanye olukhubekisayo.
+report-success = Ingxelo ipasiswe ngempumelelo
 
 ## Goals
 
@@ -533,6 +540,7 @@ download-recordings-unavailable = Awukwazi ukucela iirekhodingi zakho ngelixa es
 download-recently-requested = Ungacela uluhlu okutsha lweerekhodi zakho qho emva kweentsuku ezi{ $days }.
 download-requests-info = Xa ucela ushicilelo lwakho, siyaluqokelela lube yifayile yeZIP enye okanye ezininzi.Nazi izicelo zakho zangaphambili:
 download-request-description = Iikliphu zelizwi, ubungakanani obupheleleyo bogcino ezi { $clipCount }  { $size }. Ziphelelwa{ $expires }
+download-request-archive-single = Ifayile ye-ZIP enye equlathe
 download-request-archive-multiple = Yahlula kwi { $archiveCount } iifayile zeZIP eziqulathe
 download-request-assembling-description = Iifayile zakho ziyahlanganiswa. Nceda ujonge kwakhona kamva.
 download-request-modal-description = Nazi iilinki zokukhuphela iifayile zakho ze-ZIP.
@@ -547,6 +555,7 @@ read-more-about = Funda ngakumbi kwiphepha lethu Malunga nathi
 
 ## DemoLayout
 
+demo-welcome = Wamnkelekile kuCommon Voice
 demo-welcome-subheader = Ingaba unomdla wokufunda ngakumbi kwaye ubenegalelo kwiprojekthi?
 
 ## Demo Datasets
@@ -561,6 +570,7 @@ demo-account-card-header = Ukuba ne-akhawunti akufuneki ukuba ubenogalelo, nango
 demo-account-card-body = Ekunene sichaza izibonelelo kwaye sicacise ukuba loluphi ulwazi esilwenza lufikeleleke ku wonke-wonke. Sebenzisa amakhonkco angezantsi ukuze uqalise nge akhawunti yeCommon Voice kwisixhobo sakho.
 demo-account-enter-email =
     .label = Faka i-imeyile yokuthumela ikhonkco lokubhalisa
+demo-account-sign-up = Thumela ilinki yokubhalisa
 
 ## Demo Contribute
 
@@ -591,6 +601,7 @@ contribution-misreadings-example-5-title = Siyahamba siyokufumana ikofu.
 contribution-misreadings-example-6-title = Siyokufumana ikofu.
 contribution-misreadings-example-7-title = Siyokufumana ikofu.
 contribution-misreadings-example-7-explanation = [Akukho 'a' kumbhalo oyi orijinali]
+contribution-misreadings-example-8-title = Inyosi yagqitha.
 contribution-varying-pronunciations-description = Lumka ngaphambi kokuba wale ikliphu kuba lowo uthe walifunda engalibizanga ngokungamnkelekanga igama, othe wagxininisa kwindawo engafanelekanga, okanye uye akaluhoya uphawu lombuzo. Kukho iintlobo ngeentlobo zokubizwa kwamagama asetyenziswayo kwihlabathi jikelele, ekusenokwenzeka ukuba awuzange waziva kwindawo ohlala kuyo. Nceda wamkele futhi uxabise abo banokuthetha ngokwahlukileyo kuwe.
 contribution-varying-pronunciations-description-extended = Lumka ngaphambi kokuba wale ikliphu kuba lowo uthe walifunda engalibizanga ngokungamnkelekanga igama, othe wagxininisa kwindawo engafanelekanga, okanye uye akaluhoya uphawu lombuzo. Kukho iintlobo ngeentlobo zokubizwa kwamagama asetyenziswayo kwihlabathi jikelele, ekusenokwenzeka ukuba awuzange waziva kwindawo ohlala kuyo. Nceda wamkele futhi uxabise abo banokuthetha ngokwahlukileyo kuwe.
 contribution-varying-pronunciations-example-1-title = Entloko ebenxibe ibharethi.
@@ -682,6 +693,8 @@ sc-stats-summary = Isiqokeleli seCommon Voice siqokelele I { $sentenceCount } ye
 
 ## ADD
 
+sc-submit-err-select-lang = Nceda khetha ulwimi.
+sc-submit-err-add-source = Nceda wongeze umthombo.
 sc-submit-err-confirm-pd = Nceda uqinisekise ukuba ezi zivakalisi zezikawonke wonke.
 sc-submit-prompt =
     .message = Izivakalisi azingangeniswanga, ngaba uqinisekile ukuba ufuna ukuhamba?
@@ -690,6 +703,7 @@ sc-submit-ph-read-how-to =
     .placeholder = Funda indlela yokwenza ukuba awuqinisekanga ukuba ungayichazanga njani
 sc-submit-confirm = Ndiyaqinisekisa ukuba ezi zivakalisi zikwi <wikipediaLink>ndawo kawonke wonke</wikipediaLink> kwaye ndinemvume yokuzifaka.
 sc-submit-filtered = Izivakalisi ezihluziweyo ngenxa yokungaphumeleli kweemfuno (nceda ungenise iinguqulelo ezisisigxina njengezivakalisi ezitsha):
+sc-submit-guidelines = Nceda utshekitshe i <howToLink>izikhokelo</howToLink>.
 
 ## ADD LANGUAGE
 
