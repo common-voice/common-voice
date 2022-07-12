@@ -256,6 +256,7 @@ shortcut-record-toggle = r
 shortcut-record-toggle-label = Rekota/Emisa
 shortcut-submit = Busetsa
 shortcut-submit-label = Romela dibidio
+request-language-button = Kopa Puo
 
 ## ProjectStatus
 
@@ -821,6 +822,7 @@ sc-header-review = Sekaseka
 sc-header-statistics = Dipalopalo
 sc-header-profile = Porofaele
 sc-footer-translate = Ranola tsebe eno
+sc-footer-report-copyright = Bega mathata a tetlokhopi
 sc-footer-privacy = Bosephiri
 sc-footer-terms = Melawana
 sc-logout-button = Tswa
@@ -1006,6 +1008,7 @@ sc-review-link = Sekaseka
 ## SETTINGS
 
 sc-settings-title = Diseting
+sc-settings-reset-skipped = Rulaganya sesha dipolelo tse di tlodilweng
 sc-settings-skipped-decription = O tlodile mela kwa morago fa o ntse o sekaseka. Go rulaganya sesha mela e e tlodilweng go tla bontsha gape mela yotlhe e o e tlodileng. Seno ga se a ikaega ka puo.
 sc-settings-failed = Ga re a kgona go fetola diseting. Tsweetswee leka gape.
 # VALIDATION
