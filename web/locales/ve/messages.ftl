@@ -209,6 +209,7 @@ help = Thuso
 contact = Zwidodombedzwa
 privacy = Tshiphiri
 terms = Milayo Yashu
+cookies = Cookies
 content-license-text = Mafhungo a wanala kha <licenseLink>Creative Commons ḽaisentsi</licenseLink>
 share-title = Ri thuseni u wana vhaṅwe vhane vha nga nikela nga maipfi avho!
 share-text = Thusani u gudisa mitshini uri vhathu vhavhukuma vha ambisa hani, nikelani nga ipfi ḽaṋu { $link }
@@ -1082,6 +1083,7 @@ demo-dashboard-card-body = Kha kupiḓa kuṅwe na kuṅwe kwa ipfi kwo nikeliwa
 
 ## Validation criteria
 
+contribution-criteria-nav = Ṱhoḓea
 contribution-criteria-link = U pfesesa nḓila ya u nikela
 contribution-criteria-page-description = Pfesesani uri hu ṱoḓea mini musi ni tshi thetshelesa zwo rekhodiwaho u itela uri zwi ni thuse u rekhoda ipfi ḽaṋu nga nḓila yavhuḓisa.
 contribution-for-example = sa tsumbo
