@@ -74,6 +74,7 @@ mai = Se-Maithili
 mg = Se-Malagasy
 mk = Se-Macedonia
 ml = Se-Malayalam
+mos = Se-Mossi
 ms = Se-Malay
 my = Se-Burma
 nan-tw = Se-Taiwan (Minnan)
@@ -523,6 +524,7 @@ data-other-voxforge-description = VoxForge e ne e diretswe go phutha puo e e kwa
 data-other-tatoeba-description = Tatoeba ke tshedimosetso e kgolo ya dipolelo, dithanolo, le kgatiso ya mantswe a a buiwang e e dirisiwang go ithuta puo. Karolo eno e e itseelwang e na le Seemane se se buiwang se se gatisitsweng ke morafe wa bone.
 your-feedback = A o na le dikakantsho tsa gore re ka tokafatsa jang direkoto tsa tshedimosetso ya Common Voice? Re itsise mo Discourse
 missing-language = Ga o bone puo ya gago e tlhaga mo Rekotong ya Tshedimosetso? Go kopa puo, ya kwa tsebeng ya rona ya Dipuo.
+more = Mo go Oketsegileng
 close = Tswala
 dataset-version = Thanolelo
 
@@ -937,6 +939,8 @@ sc-review-form-button-skip = Tlola
 sc-review-form-button-approve = Amogela
 # Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
 sc-review-form-button-approve-shortcut = E
+# Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
+sc-review-form-button-reject-shortcut = N
 # Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
 sc-review-form-button-skip-shortcut = T
 sc-review-form-keyboard-usage-custom = Gape o ka dirisa Ditlhabanyetso Tsa Khiiboto: { sc-review-form-button-approve-shortcut } go Amogela, { sc-review-form-button-reject-shortcut } go Gana, { sc-review-form-button-skip-shortcut } go Tlola
