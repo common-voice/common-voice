@@ -379,6 +379,7 @@ female = Owesifazane
 # Gender
 other = Okunye
 why-profile-title = Kungani kunephrofayili?
+why-profile-text = Ngokunikezela ngeminye imininingwane ngawe, idatha yomsindo eqoshiwe kuCommon Voice izoba usizo olukhulu kwinkulumo. Izinjini zokuqashelwa ezisebenzisa ledatha zithuthukisa ukuqonda kwazo.
 dashboard = Ideshibhodi
 build-profile = Akha iphrofayela
 avatar = I-avatar
