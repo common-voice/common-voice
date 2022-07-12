@@ -52,6 +52,7 @@ nan-tw = Se-Taiwan (Minnan)
 nyn = Se-Runyankole
 om = Se-Afaan Ormoo
 pa-IN = Se-Punjabi
+pt = Sepotokisi
 ro = Se-Romania
 ru = Se-Russia
 sc = Se-Sardinia
@@ -102,6 +103,7 @@ speak = Bua
 about = Ka ga
 profile = Porofaele
 contact = Ikgolaganye
+privacy = Bosephiri
 terms = Melawana
 share-text = Thusa go ruta metšhine  gore batho ba mmatota ba bua jang, abelana ka lentswe la gago mo { $link }
 
@@ -528,6 +530,7 @@ speak-loading-error = Ga re a kgona go bona mela e o ka e buang. Tsweetswee leka
 
 ## Reporting
 
+report = Bega
 report-ask = O itemogela mathata afe ka mola ono?
 report-different-language-detail = E kwadilwe ka puo e e farologaneng le e ke e buang.
 report-difficult-pronounce-detail = E na le mafoko kgotsa dipolelo tse go leng thata go di bala kgotsa go di bitsa.
@@ -552,6 +555,7 @@ visibility-overlay-note = Ela tlhoko: Fa e beilwe mo go 'Bonagala', o ka kgona g
 goal-type = O batla go ikagela boikaelelo jo bo ntseng jang?
 both-speak-and-listen = Ka bobedi
 average-difficulty = Palogare
+pro-difficulty = Pro
 lose-goal-progress-warning = Fa o baakanya maikaelelo a gago, o ka nna wa latlhegelwa ke kgatelopele ya gago e e gone.
 help-reach-hours-general-pluralized =
     { NUMBER($hours) ->
@@ -581,6 +585,7 @@ why-delete-recordings =
 
 ## Profile Download
 
+download-profile-title = Porofaele
 download-profile-info = E akaretsa imeile, leinatiriso le tshedimosetso ya dipalopalo, e e gone ka yone nako eo
 download-recordings-title = Tse di rekotilweng
 download-recordings-info = E akaretsa di-mp3 le mela e e tsamaisanang le yone, go ka tsaya nakonyana gore di rulaganngwe
@@ -666,6 +671,7 @@ sc-header-add = Tsenya
 sc-header-review = Sekaseka
 sc-header-statistics = Dipalopalo
 sc-header-profile = Porofaele
+sc-footer-privacy = Bosephiri
 sc-footer-terms = Melawana
 
 ## HOME
