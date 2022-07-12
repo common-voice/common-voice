@@ -1,6 +1,7 @@
 ## General
 
 yes-receive-emails = Ee, vha nthumele email. Ndi nga takalela u dzula ndi tshi vhudziwa nga ha thandela dza Common Voice.
+stayintouch = Riṋe vha ha Mozilla ri khou livhisa ṱhogomelo yashu kha u ita zwishumiswa zwa thekhinolodzhi zwi shumisaho ipfi. Ri ṱoḓa uri ri dzule ri na tshifhingani, ri na data source ntswa na u pfa zwo engedzeaho nga ha nḓila ine na khou shumisa yeneyi data.
 privacy-info = Ri fulufhedzisa u ṱhogomela zwidodombedza zwaṋu nga nḓila yavhuḓi. Vhalani nga vhuḓalo kha <privacyLink>u Tsireledza zwa Tshiphiri </privacyLink> zwashu.
 return-to-cv = Humelani kha Common Voice
 email-opt-in-info = Ndi nga takalela u wana email dzi nga ho dzine dza nkhumbudza nga ha zwipikwa zwanga, mvela phanḓa yanga na maswa maswa nga ha Common Voice.
@@ -19,8 +20,11 @@ error-something-went-wrong = Pfarelo, hu na zwi songo tshimbilaho zwavhuḓi
 
 ## Languages
 
+ast = Asturian
 dsb = Sorbian, Lower
+et = Estonian
 hsb = Sorbian, Upper
+hyw = Armenian Western
 nan-tw = Taiwanese (Minnan)
 sat = Santali (Ol Chiki)
 st = Southern Sotho
@@ -64,6 +68,7 @@ speak-subtitle = Nikelani nga ipfi ḽaṋu
 speak-paragraph = U rekhoda maipfi ndi tshipiḓa tsha u ita dataset yashu; vhaṅwe vha nga ri na tshenetshi ndi tshipiḓa tshi takadzaho.
 listen-subtitle = Ri thuseni u khwaṱhisedza maipfi
 listen-paragraph = U khwaṱhisedza uri zwo rekhodiwaho ndi zwone ndi tshipikwa tsha ndeme vhukuma tsha Common Voice. Thetshelesani nahone ni ri thuse uri ri ite maipfi a vhuimo ha nṱha ane a ḓo kona u shumiswa nga nnyi na nnyi.
+listen-goal-text = Zwo Khwaṱhisedzwaho
 voices-online = Maipfi onḽaini zwino
 todays-progress = Mvela Phanḓa ya Ṋamusi
 help-reach-goal = Ri thuseni u swikelela { $goal }
@@ -98,12 +103,28 @@ username-email-not-demographic = Username yaṋu na email a zwi nga paṱekanyis
 
 ## Speak & Listen Shortcuts
 
+# Must be one letter that appears in the translated { skip } string.
+shortcut-skip = s
 
 ## Listen Shortcuts
 
+# Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-play-toggle = p
+shortcut-play-toggle-label = Puḽeya/Ima
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = y
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = n
 
 ## Speak Shortcuts
 
+# Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-record-toggle = r
+shortcut-record-toggle-label = Rekhonani/Imani
 shortcut-discard-ongoing-recording-label = Diḽitani zwine na khou zwi rekhoda
 shortcut-submit = Humelani
 shortcut-submit-label = U Rumela zwo rekhodiwaho
@@ -119,6 +140,10 @@ status-hours =
         [one] [one] Awara nthihi yo khwaṱhisedzwa u swika zwino!
        *[other] *[other] { $hours } dzi awara dzo khwaṱhisedzwaho u swika zwino!
     }
+# Variables:
+# $goal - number of hours representing the next goal
+status-goal = Tshipikwa tshi tevhelaho
+english = Luisimane
 
 ## ProfileForm
 
@@ -246,6 +271,7 @@ about-dataset-release-subtitle = Ri riḽiza dataset nga murahu ha miṅwedzi mi
 about-subscribe-text = Naa ni ṱoḓa u dzula no kwamana na Common Voice?
 about-speak-text = Vhane shela mulenzhe vha rekhoda maipfi nga u vhala mitaladzi yo nikelwaho.
 about-listen-queue-text = Maipfi o rekhodiwaho a pangiwa kha mutevhe wa u rumela une wa a ita uri a lugele u thetshelesiwa.
+about-listen = Thetshelesani
 about-listen-text = Vhashumisi vha khwaṱhisedza rekhodo dzo nikelwaho, vha tshi sedza uri muambi o vhala mutaladzi zwone naa.
 about-is-it-valid = Naa zwo rekhodiwaho ndi zwone?
 about-is-it-valid-text = Rekhodo i makiwa u pfi "khwaṱhisedzwa" musi mushumisi a tshi i khetha ngauri Ee.
@@ -363,6 +389,7 @@ about-playbook-how-project-governance-content-7 = <governanceLink>Vhalani nga vh
 ## Glossary
 
 localization-explanation = Heyi ndi nḓila yashu ya u ḓologa na u ita uri mafhungo ashu a tshimbidzane na vhathu vha vhupo hunzhi (nyambo).
+sentence-collection = Kuvhanganya Mitaladzi
 sentence-collection-explanation = U kuvhanganya mitaladzi u bva kha fhethu ha tshitshavha tshoṱhe, kana ni ṅwalele fhethu ha tshitshavha tshoṱhe mitaladzi miswa.
 hours-recorded-explanation = Tshivhalo tsha dzi awara dza maipfi o rekhodiwaho e ra a kuvhanganya u swikela zwino.
 hours-validated-explanation = U vhaliwa ha awara dza maipfi o rekhodiwaho o no khwaṱhisedzwaho nga vhathu 2 kha 3 ngauri vha khethe uri “Ee”. Zwenezwi zwi sumbedza uri thandela i ngafhi kha tshipikwa tsha awara dza 10k.
