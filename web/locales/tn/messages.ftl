@@ -203,6 +203,15 @@ speak-paragraph = Go rekota mantswe ke karolo e e botlhokwa thata e e thusang go
 speak-goal-text = Dibidio di rekotilwe
 listen-paragraph = Go tlhomamisa dikgatiso tse di abilweng le gone go botlhokwa mo maikaelelong a Common Voice. Reetsa mme o re thuse go dira tshedimosetso e e nang le boleng ya mantswe.
 listen-goal-text = Dibidio di tlhomamisitswe
+todays-progress =
+    { $count ->
+        [one]
+            { $count ->
+                [one] Day
+               *[other] Days
+            }
+       *[other] Days
+    }
 all-locales = Tsotlhe
 today = Gompieno
 x-weeks-short =
@@ -417,6 +426,7 @@ about-listen-text = Badirisi ba tlhomamisa gore a direkoting tse go abalanweng k
 about-is-it-valid-text = Kgatiso ya lentswe e tshwaiwa e "siame" fa modirisi a e neile tlhopho ya Ee.
 about-yes-votes-text = Gore kgatiso ya lentswe e tsene mo rekotong ya tshedimosetso ya Common Voice, e tshwanetse ya bo e tlhomamisitswe ke badirisi ba babedi.
 about-no-votes-text = Fa modirisi a gana polelo, e boela kwa Moleng. Fa kgatiso ya lentswe e ganwa lekgetlho la bobedi, e romelwa kwa Clip Graveyard.
+about-dataset-new = Rekoto ya Tshedimosetso ya Common Voice
 about-dataset-new-text = Rekoto ya Tshedimosetso ya Common Voice e na le disampole tsa mantswe di le makgolo a le diketekete tse di thusang badiri go tlhama dithulusu tse di lemogang mantswe.
 about-clip-graveyard = Lebitla la Bidio
 about-clip-graveyard-text =
@@ -657,6 +667,15 @@ action-tap = Konya
 listen = Reetsa
 skip = Tlola
 shortcuts = Ditlhabanyetso
+clips-with-count-pluralized =
+    { $count ->
+        [one]
+            { $count ->
+                [one] <bold>{ $count }</bold> Clip
+               *[other] <bold>{ $count }</bold> Clips
+            }
+       *[other] { "" }
+    }
 goal-help-recording = O thusitse Common Voice gore e fitlhelele <goalPercentage></goalPercentage> ya maikaelelo a rona a letsatsi a go gatisa { $goalValue }!
 goal-help-validation = O thusitse Common Voice gore e fitlhelele <goalPercentage></goalPercentage> ya maikaelelo a rona a letsatsi a go tlhomamisa { $goalValue }!
 record-cta = Simolola go rekota
@@ -669,6 +688,7 @@ record-last-instruction = <recordIcon></recordIcon> Ya bofelo!
 share-clip = Abelana ka bidio ya gago
 share-common-voice = Abelana ka Common Voice
 review-instruction = Sekaseka dikgatiso & gatisa sesha fa go tlhokega
+record-submit-tooltip = { $actionType } e romele fa e setse e siametse
 clips-uploaded = Dibidio di tsentswe
 record-abort-text = Fa o tswa gone jaanong o tla latlhegelwa ke kgatelopele e o e dirileng
 record-abort-submit = Romela dibidio
@@ -707,6 +727,7 @@ streaks = Meraladi
 
 toward-next-goal = Go ya maikaelelong a a latelang
 clips-you-recorded = Dibidio tse o di Rekotileng
+clips-you-validated = Dibidio Tse o di Tlhomamisitseng
 todays-recorded-progress = Kgatelopele ya gompieno ya Common Voice ya dikgatiso tse di dirilweng
 todays-validated-progress = Kgatelopele ya gompieno ya Common Voice ya dikgatiso tse di tlhomamisitsweng
 stats = Dipalopalo
@@ -994,6 +1015,7 @@ sc-add-lang-process-notice = Fa puo ya gago e sa tlhage fano, o ka e kopa ka <la
 
 sc-confirm-are-you-sure =
     .message = Mela ga ya romelwa, a o tlhomamisegile gore o batla go tswa?
+sc-confirm-sentences-title = Tlhomamisa Dipolelo Tse Disha
 # Variables:
 #   $countOfInvalidated (Number) - Number of sentences the user rejected in the review form before submission
 sc-confirm-rejected-by-you = { $countOfInvalidated } e gannwe ke wena
