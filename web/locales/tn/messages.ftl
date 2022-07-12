@@ -9,6 +9,7 @@ email-opt-in-info-sub-with-challenge = Amogela diimeile tse di jaaka dikgwetlho 
 email-opt-in-privacy-v2 = Ka go tlhopha go amogela diimeile o bontsha gore o siame ka gore Mozilla e tshware tshedimosetso eno jaaka go tlhalosiwa mo <privacyLink>Pholising ya Polokodiphiri</privacyLink>ya Mozilla.
 banner-error-slow-1 = Tshwarelo, Common Voice e bonya. Re lebogela go bontsha kgatlhego ga gago.
 banner-error-slow-2 = Re itemogela pharakano e ntsi mme gone jaanong re batlisisa ka mathata ao.
+banner-error-slow-link = Tsebe ya Boemo
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -71,6 +72,7 @@ so = Se-Somali
 sq = Se-Albania
 sr = Se-Serbia
 ss = Seswati
+st = Sesotho sa Lebowa
 te = Se-Telugu
 th = Se-Thai
 ti = Se-Tigrinya
@@ -105,6 +107,7 @@ zu = Se-Zulu
 ## Layout
 
 speak = Bua
+speak-now = Bua jaanong
 languages = Dipuo
 about = Ka ga
 profile = Porofaele
@@ -295,6 +298,7 @@ faq-what-determine-identity-a =
     Tshedimosetso ya Common Voice ke sedirisiwa se se leng teng sa batho botlhe se se ka dirisiwang go thapisa dithulaganyo tse di farologaneng tsa puo. Go sireletsa tshireletsego ya baabi ba rona, re kopa gore mongwe le mongwe yo a itseelang tshedimosetso ya Common Voice a tlotle bosephiri jwa baabi.
     
     Dikgatiso tsotlhe tsa mantswe di tlositswe tshedimosetso e e tlhaolang motho. Fa o itseela tshedimosetso, o dumela gore o ka se leke go lemoga gore moabi ke mang. Seno se raya gore o ka se leke go amanya tshedimosetso e e mo dataset le tshedimosetso epe ya botho ya moabi. Mme gone, o ka dirisa tshedimosetso eo go thapisa go lemoga mantswe, go lemoga sebui, kgotsa dithulaganyo tse dingwe, ka go golaganya tshedimosetso e e mo dataset le tshedimosetso e nngwe e e setseng e le mo dataset.
+faq-using-cv = Go Dirisa Lentswe le le Tshwanang
 faq-description = Common Voice ke karolo ya letsholo la Mozilla la go thusa go ruta metšhine gore batho ba mmatota ba bua jang.
 
 ## ABOUT US
@@ -409,6 +413,7 @@ localization-explanation = Ono ke mokgwa wa rona wa go ranola le go dira gore ts
 sentence-collection-explanation = Go amogela mela go tswa mo lefelong la batho botlhe, kgotsa go kwalela lefelo la batho botlhe e mesha.
 hours-recorded-explanation = Palo ya diura tsa direkoting tse re setseng re di amogetse go fitlha jaana.
 hours-validated-explanation = Palo ya diura tsa kgatiso ya mantswe e e tlhomamisitsweng ke badirisi ba le 2 mo go ba le 3 ka tlhopho ya “Ee”. Seno se bontsha botswelelopele jwa porojeke ka kakaretso ya mokgele wa diura tse 10k.
+sst = Speech-to-text (STT)
 de-identified-explanation = Thulaganyo e ka yone tshedimosetso ya porofaele ya moabi e fitlhegileng mo dikgatisong tsa mantswe fa e baakanyeditswe go itseelwa jaaka karolo ya tshedimosetso.
 
 ## Error pages
@@ -526,6 +531,7 @@ skip = Tlola
 shortcuts = Ditlhabanyetso
 goal-help-recording = O thusitse Common Voice gore e fitlhelele <goalPercentage></goalPercentage> ya maikaelelo a rona a letsatsi a go gatisa { $goalValue }!
 goal-help-validation = O thusitse Common Voice gore e fitlhelele <goalPercentage></goalPercentage> ya maikaelelo a rona a letsatsi a go tlhomamisa { $goalValue }!
+record-cta = Simolola go rekota
 record-platform-not-supported = Re maswabi, polatefomo  ya gago ga e tshegediwe gone jaanong.
 record-platform-not-supported-ios-non-safari = Mo iOS tsweetswee tswelela ka Safari go dira gore e kgone go gatisa…
 record-cancel = Khansela go Rekota Sesha
