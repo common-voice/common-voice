@@ -19,6 +19,7 @@ error-something-went-wrong = Pfarelo, hu na zwi songo tshimbilaho zwavhuḓi
 ## Languages
 
 sat = Santali (Ol Chiki)
+tok = Toki Pona
 zh-HK = Chinese (Hong Kong)
 
 # [/]
@@ -58,6 +59,7 @@ speak-paragraph = U rekhoda maipfi ndi tshipiḓa tsha u ita dataset yashu; vha�
 listen-subtitle = Ri thuseni u khwaṱhisedza maipfi
 listen-paragraph = U khwaṱhisedza uri zwo rekhodiwaho ndi zwone ndi tshipikwa tsha ndeme vhukuma tsha Common Voice. Thetshelesani nahone ni ri thuse uri ri ite maipfi a vhuimo ha nṱha ane a ḓo kona u shumiswa nga nnyi na nnyi.
 voices-online = Maipfi onḽaini zwino
+todays-progress = Mvela Phanḓa ya Ṋamusi
 help-reach-goal = Ri thuseni u swikelela { $goal }
 read-terms-q = No no vhala Milayo ya Kushumisela yashu?
 ready-to-record = Naa no lugela u nikela nga ipfi ḽaṋu?
@@ -107,6 +109,8 @@ status-hours =
 
 ## ProfileForm
 
+profile-form-username =
+    .label = User Name
 profile-form-variant =
     .label = Ni amba varianti { $language } ifhio ya luambo?
 profile-form-variant-default-value = A hu na varianti yo nangiwaho
@@ -219,7 +223,9 @@ about-localization-subtitle = Mafhungo a re kha heyi website o ḓologiwa nga ho
 about-sentence-collection-subtitle = Mitaladzi i kuvhanganyiwa uri vhathu vha i vhalele nṱha.
 about-new-lang-title = Luambo luswa lwo ḽontshiwa
 about-new-lang-subtitle = Ro ḽontsha saiti ya Common Voice nga holwu luambo.
+about-voice-contrib-title = U Nikela nga Ipfi
 about-voice-contrib-subtitle = Vhathu vha ḓa vha nikela nga maipfi avho.
+about-voice-validation-title = U Khwaṱhisedza Ipfi
 about-voice-validation-subtitle = Vhaṅwe vho khwaṱhisedza hezwo zwo rekhodiwaho
 about-dataset-release-subtitle = Ri riḽiza dataset nga murahu ha miṅwedzi miraru tshifhinga tshoṱhe.
 about-subscribe-text = Naa ni ṱoḓa u dzula no kwamana na Common Voice?
@@ -389,6 +395,7 @@ email-to-download = Pangani email uri ni kone u downḽoda
 why-email = <b>Ndi ngani hu tshi ṱoḓea email?</b> Ri nga tea u ni kwama tshifhingani tshi ḓaho nga nṱhani ha tshanduko dzo iteaho kha dataset, email i ita uri ri kone u ni kwama.
 confirm-size = No lugela u thoma u downḽoda zwithu zwa <b>{ $size }</b>
 confirm-no-identify = <b>Ni khou tenda</b> uri a ni nga lingedzi u ḓivha muambi kha dataset ya Common Voice
+validated-hours = Awara dzo Khwaṱhisedzwaho
 whats-inside = Hu na mini nga ngomu ha dataset ya Common Voice?
 dataset-description-hours =
     Tshiteṅwa tshiṅwe na tshiṅwe tsha dataset tshi na MP3 yo khetheaho na mafhungo a tshimbidzanaho natsho. Vhunzhi ha <b>{ $total }</b> dzi awara dzo rekhodiwa kha dzi dataset dzi katela metadata ine ya amba nga ha zwidodombedzwa zwa muthu zwi ngaho miṅwaha, mbeu na kuambele zwine zwa nga thusa kha u gudisa zwavhuḓi tshishumiswa tsha u pfa ipfi.
@@ -462,6 +469,7 @@ request-language-error = Ri nga vha ri songo wana khumbelo heyo. Ri humbela uri 
 
 language-section-in-progress-new-description = Hedzi nyambo dzi kha ḓi shumiwa <localizationGlossaryLink>u ḓologa Website</localizationGlossaryLink> na<sentenceCollectionGlossaryLink>u kuvhanganya mitaladzi </sentenceCollectionGlossaryLink> zwi a ṱoḓea uri hu ḽontshiwe.
 language-section-launched-description = Kha hedzi nyambo dzo no ḓi dzheniswaho dzo dzhena zwavhuḓi kha website <localizationGlossaryLink>localized</localizationGlossaryLink>, nahone hu na mitaladzi <sentenceCollectionGlossaryLink> yo kuvhanganwaho yo eḓaho </sentenceCollectionGlossaryLink> u itela uri hu vhe na bvela phanḓa <speakLink>Ambani</speakLink> ni <listenLink>Tshetshelese</listenLink> zwo shelwaho mulenzhe.
+language-validation-progress = Mvela phanḓa yo Khwaṱhisedzwaho
 
 ## Contribution
 
@@ -536,6 +544,9 @@ clips-you-recorded = Zwo rekhodiwaho
 clips-you-validated = Zwo rekhodiwaho zwe na zwi khaṱhisedza uri ndi zwone
 todays-recorded-progress = Mvela phanḓa ya ṋamusi ya Common Voice ya zwo rekhodiwaho
 todays-validated-progress = Mvela phanḓa ya ṋamusi ya Common Voice ya rekhodo dzo khwaṱhisedzwaho
+top-contributors = Vha Shelaho Muleznhe vha re Nṱhesa
+validated-clips = Dzi rekhodo dzo Khwaṱhisedzwaho
+total-approved = Thothaḽi ya zwo Phasiswaho
 set-visibility = Itani uri ndi vhonale
 visibility-explainer = Hedzi sethiṅi dzi langa u vhonala haṋu kha leaderboard. Musi dzi kha u dzumbama, mvela phanḓa yaṋu a i nga vhonwi. Zwenezwi zwi amba uri tshinepe tshaṋu, user name na bvela phanḓa yaṋu a zwi nga bveleli kha leaderboard. Ni ṱhogomele uri yeneyi leaderboard i dzhia minete ~{ $minutes } uri i sumbedzwe zwe na shandula.
 visibility-overlay-note = Ṱhogomelani hezwi: Musi yo setiwa kha u 'Vhonala', heyi setiṅi i nga shandukisiwa kha <profileLink> siaṱari ḽa Profaiḽi</profileLink>
@@ -599,6 +610,7 @@ download-info = Ri vhudzeni zwine na nga tama u zwi downḽoda:
 download-profile-info = U katela email, username na zwidodombedzwa zwa muthu, zwi a wanala nga u ṱavhanya
 download-profile-size = Bytes dzi si gathi
 download-recordings-info = Zwi katela mp3 na mitaladzi i tshimbidzanaho nadzo, zwi nga dzhia tshifhinga u zwi lugiselela
+download-recordings-size = Typically megabytes
 download-recordings-unavailable = Ni nga si kone u humbela zwe na rekhoda ngeno hu tshi kha ḓi vha na zwiṅwe zwe na zwi humbela zwi re nḓilani.
 download-recently-requested = Ni nga humbela uri ni dzhie zwe na rekhoda { $days } ḓuvha ḽiṅwe na ḽiṅwe.
 download-start = Downḽodani data ya profaiḽi
@@ -673,6 +685,7 @@ contribution-misreadings-example-6-explanation = [I tea u vha "We are"]
 contribution-misreadings-example-7-title = Ri khou ya u nwa gofhi.
 contribution-misreadings-example-7-explanation = [A hu na 'a' kha maṅwalwa a u thoma]
 contribution-misreadings-example-8-title = Notshi yo gidima i tshi fhira nga hanefha
+contribution-varying-pronunciations-title = U fhambanyisa zwiga zwa u vhala
 contribution-varying-pronunciations-description = Ni ṱhogomele uri ni sa ri zwo rekhodiwaho a si zwone nga ṅwambo wa uri muvhali ha ngo bula zwavhuḓi ipfi, kana o ombedzela fhethu hu si hone, kana khamusi o litsha u vhala tshiga tsha u vhudzisa. Hu na kubulele kwa maipfi kwo fhambananaho u mona na shango, kuṅwe kwa hone khamusi a ni athu u ku pfa vhuponi ha haṋu. Ri humbela uri ni ṱanganedze vhane vha amba nga nḓila yo fhambanaho na yaṋu.
 contribution-varying-pronunciations-description-extended = Kha ḽiṅwe sia, arali ni tshi vhona u nga muvhali ha athu vhuya a ṱangana na iḽo ipfi, nahone ho tou humbulelwa kubulele kwaḽo, ni songo zwi tendela. Arali ni si na vhungoho, shumisani gunubu ya u pfuka.
 contribution-varying-pronunciations-example-1-title = Ṱhohoni yawe o ambara muṅadzi.
