@@ -364,6 +364,7 @@ add-language = Tsenya Puo
 
 ## FAQ
 
+faq-title = Dipotso Tse Gantsi di Bodiwang
 faq-what-cv-a = Thekenoloji ya go lemoga mantswe e tlisa diphetogo mo tseleng e re dirisanang le metšhine ka yone, mme ditsamaiso tse di leng teng ga jaana di a tura e bile ke tsa poraefete. Mozilla Common Voice ke kgato e e tokafatsang thekenoloji ya go lemoga mantswe le go dira gore mongwe le mongwe a kgone go e fitlhelela. Common Voice ke tshedimosetso e kgolo tota ya lefatshe lotlhe ya mantswe a a abilweng e e letlang gore mongwe le mongwe a thapise dithulaganyo tsa mantswe ka bonako le ka tsela e e motlhofo ka puo nngwe le nngwe.
 faq-what-cv-a-2 =
     Thekenoloji ya go lemoga mantswe e tlisa diphetogo mo tseleng e re dirisanang le metšhine ka yone, mme ditsamaiso tse di leng teng ga jaana di a tura e bile ke tsa poraefete. Mozilla Common Voice ke kgato e e tokafatsang thekenoloji ya go lemoga mantswe le go dira gore mongwe le mongwe a kgone go e fitlhelela. Common Voice ke tshedimosetso e kgolo tota ya lefatshe lotlhe ya mantswe a a abilweng e e letlang gore mongwe le mongwe a thapise dithulaganyo tsa mantswe ka bonako le ka tsela e e motlhofo ka puo nngwe le nngwe.
@@ -586,6 +587,7 @@ review-submit-msg = Re lebogela go gatisa!<lineBreak></lineBreak>Jaanong o ka se
 review-recording = Sekaseka
 review-rerecord = Rekota sesha
 review-cancel = Khansela go Romela
+review-keep-recordings = Boloka dikgatiso
 review-delete-recordings = Phimola dikgatiso tsa me
 
 ## Datasets Page
@@ -627,6 +629,7 @@ data-other-ted-description = Tshedimosetso ya TED-LIUM e dirilwe go dirisiwa dip
 data-other-voxforge-description = VoxForge e ne e diretswe go phutha puo e e kwalolotsweng gore e dirisiwe e dirisa Metswedi ya  Mahala ya go Lemoga Puo e e Dirisiwang ke Batho Botlhe.
 data-other-tatoeba-description = Tatoeba ke tshedimosetso e kgolo ya dipolelo, dithanolo, le kgatiso ya mantswe a a buiwang e e dirisiwang go ithuta puo. Karolo eno e e itseelwang e na le Seemane se se buiwang se se gatisitsweng ke morafe wa bone.
 your-feedback = A o na le dikakantsho tsa gore re ka tokafatsa jang direkoto tsa tshedimosetso ya Common Voice? Re itsise mo Discourse
+go-discourse = Ya kwa Discourse
 missing-language = Ga o bone puo ya gago e tlhaga mo Rekotong ya Tshedimosetso? Go kopa puo, ya kwa tsebeng ya rona ya Dipuo.
 ready-to-validate = A o ipaakanyeditse go tlhomamisa mela?
 more = Mo go Oketsegileng
@@ -1018,6 +1021,7 @@ sc-howto-addsen-item-4 = Matshwao a puiso. Matshwao a a kgethegileng le matshwao
 sc-howto-addsen-item-5 = Ditlhaka tsa seeng. Ditlhaka di tshwanetse go dumelelwa mo puong e e buiwang. Ka sekai, “ж” ke tlhaka e e dirisiwang mo puong ya se-Russia mme ga e dirisiwe mo Seesemaneng, ka jalo ga ya tshwanela go tlhagelela mo mokwalong ope wa Seesemane.
 sc-howto-addsen-item-6 = Dipuo di ka nna le <validationRulesLink>melao ya tsone ya go tlhomamisa</validationRulesLink> mmogo le dipatlafalo tse dingwe. Fa go se na faele e e rileng ya go tlhomamisa puo eo, re dirisa melao e e tlwaelegileng ya Seesemane.
 sc-howto-addsen-post-1 = Re rata dipolelo tsa tlholego/motlotlo. Le fa pharologano ya sefonotiki le mafoko mo dipolelong e le botlhokwa, re leka sotlhe se re ka se kgonang go dira gore dipolelo tsa kgatiso di kgatlhe. Go ne go tla nna gontle fa o ne o ka leka gore dipolelo tsa gago e nne tsa tlholego/akaretsang.
+sc-howto-cite-title = Tsela ya go Nopola
 sc-howto-cite-pre-1 = Go botlhokwa go kwala gore o bone kae dilaesense tsa batho botlhe go tila go utswa tshedimosetso le go letla ditatediso mo <copyrightIssuesLink>mathata a tetlokhopi</copyrightIssuesLink>. Fano ke ditsela di le mmalwa tse o ka umakang tiro eno ka tsone.
 sc-howto-cite-item-1 = O ka akaretsa webosaete, ka sekai,  "Common Voice - https://commonvoice.mozilla.org/"
 sc-howto-cite-item-2 = O ka dirisa mokgwa wa thutego wa go ntsha tshupiso, ka sekai, mokgwa wa Harvard "Mozilla (2021) Common Voice. E gone mo https://commonvoice.mozilla.org/ (E fitlheletswe ka: September 15 2021)"
@@ -1159,6 +1163,7 @@ sc-personal-not-added = Ga o ise o tsenye dipuo dipe.
 
 ## REVIEW CRITERIA
 
+sc-criteria-modal = ⓘ Mokgwa wa go Sekaseka
 sc-criteria-item-1 = Mola o tshwanetse wa bo o peletilwe sentle.
 sc-criteria-item-2 = Mola o tshwanetse wa bo o kwadilwe sentle.
 sc-criteria-item-3 = Mola o tshwanetse go buega.
