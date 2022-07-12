@@ -646,6 +646,7 @@ target-segment-generic-card = O abelana go karolwana ya puo
 ## Reporting
 
 report = Bega
+report-title = Romela pego
 report-ask = O itemogela mathata afe ka mola ono?
 report-offensive-language-detail = Mola o na le puo ya lenyatso kgotsa e e kgopisang.
 report-different-language-detail = E kwadilwe ka puo e e farologaneng le e ke e buang.
@@ -693,6 +694,7 @@ confirm-goal = Tlhomamisa Maikaelelo
 goal-interval-weekly = Ka Beke
 share-goal-type-speak = E a bua
 share-goal-type-listen = O reeditse
+share-goal-type-both = Go Bua le go Reetsa
 # LINK will be replaced with the current URL
 goal-share-text = Ke fetsa go dira maikaelelo a botho a go abelana ka lentswe go #CommonVoice -- dira le nna mme o nthuse go ruta metšhine  gore batho ba mmatota ba bua jang { $link }
 weekly-goal-created = Maikaelelo a gago a beke a dirilwe
