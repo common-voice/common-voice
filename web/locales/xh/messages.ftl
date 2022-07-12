@@ -25,6 +25,7 @@ ckb = iCentral Kardish
 cnh = iHakha Chin
 cy = iWelsh
 dsb = iSorbian, Lower
+es = iSpanish
 gom = iGoan Konkani
 hsb = iSorbian, Upper
 hyw = iArmenian Western
@@ -86,6 +87,7 @@ zu = IsiZulu
 
 ## Layout
 
+speak = Thetha
 speak-now = Thetha ngoku
 terms = Imigaqo/ amagama
 content-license-text = Umxholo okhoyo phantsi kwe <licenseLink>Creative Commons license</licenseLink>
@@ -171,6 +173,8 @@ username-email-not-demographic = Igama lakho lomsebenzisi kunye ne-imeyile aziyi
 
 ## Speak & Listen Shortcuts
 
+# Must be one letter that appears in the translated { skip } string.
+shortcut-skip = s
 
 ## Listen Shortcuts
 
@@ -189,6 +193,7 @@ shortcut-vote-no = n
 # Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-record-toggle = r
+shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Rekhodisha ikliphu kwakhona
 shortcut-discard-ongoing-recording-label = Lahla irekhodingi eqhubekayo
 shortcut-submit-label = Ngenisa iiKliphu
@@ -358,6 +363,7 @@ about-voice-validation-subtitle = Abanye abantu bayaziqinisekisa ezo kliphu zeli
 about-dataset-release-title = Ukukhutshwa kweSeti yedatha
 about-dataset-release-subtitle = Sikhupha idatha seti rhoqo kwiinyanga ezi-3.
 about-subscribe-text = Ingaba ufuna ukuhlala unxulumene neCommon Voice?
+about-speak = Thetha
 about-speak-text = Abanogalelo barekhoda iikliphu zelizwi ngokufunda ukusuka kwibhanki yezivakalisi ezinikezelweyo.
 about-listen-queue-text = Iikliphu zelizwi zifakwa kumgca wothumelo olulungele ukumamela.
 about-listen-text = Abasebenzisi baqinisekisa ukuchaneka kweekliphu ezinikezelweyo, bejonga ukuba isithethi sifunda isivakalisi ngokuchanekileyo.
@@ -366,10 +372,10 @@ about-is-it-valid-text = Ikliphu yelizwi iphawulwa "isemthethweni" xa umsebenzis
 about-yes-votes = ≥ Zi-2 iivoti ezingu-Ewe
 about-yes-votes-text = Ukufikelela kwidatha yeCommon Voice, ikliphu yelizwi kufuneka iqinisekiswe ngabasebenzisi ababini abohlukeneyo.
 about-no-votes = ≥ Zi-2 iivoti einguHayi
-about-no-votes-text = Xa umsebenzisi esala iklipu yelizwi ibuyela ekufoleni. Ukuba yaliwe okwesibini, iklipu yelizwi ithi isiwe kwi Clip Graveyard.
+about-no-votes-text = Xa umsebenzisi esala iklipu yelizwi ibuyela ekufoleni. Ukuba yaliwe okwesibini, iklipu yelizwi ithi isiwe kwiClip Graveyard.
 about-dataset-new = Idatasethi kaCommon Voice
 about-dataset-new-text = I-Common Voice Dataset iqulethe amakhulu amawaka eesampuli zezwi ezinceda abaphuhlisi bakhe izixhobo zokuqaphela ilizwi.
-about-clip-graveyard = iClip Graveyard
+about-clip-graveyard = i-Clip Graveyard
 about-clip-graveyard-text =
     I-Clip Graveyard  iqulathe iikliphu zelizwi ezingazange zingene kwi-Common Voice dataset. Kanye njenge dataset, i-Clip Graveyard iyafumaneka ukuze ikhutshelwe.
     Sithanda ukubulela aba bantu balandelayo kunye nemibutho ngoncedo lwabo malunga neprojekthi:
@@ -537,6 +543,7 @@ validated-hr-total = Itotali yeyure eqinisekisiweyo
 overall-hr-total = Itotali yeyure iyonke
 audio-format = I-audio format
 number-of-voices = Inani laMazwi
+splits = Ukwahlukana
 email-to-download = Ngenisa Imeyile ukuze Ukhuphele
 why-email = <b>Kutheni kudingeka imeyile nje?</b> Kusenokufuneka siqhagamshelane nawe kwixesha elizayo malunga notshintsho kwi dataset, i-imeyile isinika indawo yoqhagamshelwano.
 confirm-size = Ulungele ukuqalisa ukhuphelo lwe <b>{ $size }</b>
@@ -633,6 +640,7 @@ language-section-launched-description = Kwezi lwimi ziqaliweyo iwebhusayithi iye
 languages-show-more = Bona okuninzi
 languages-show-less = Bona kancinci
 language-total-progress = Itotali
+language-speakers = Izithethi
 language-validation-progress = Inkqubela phambili yoQinisekiso
 
 ## Contribution
@@ -745,6 +753,7 @@ clips-you-recorded = Iikliphu ozirekhodileyo
 clips-you-validated = Iikliphu oziqinisekisileyo
 todays-recorded-progress = Inkqubela yanamhlanje yeCommon Voice kwiikliphu ezirekhodiweyo
 todays-validated-progress = Inkqubela yanamhlanje yeCommon Voice kwiikliphu iqinisekisiwe
+stats = Amanani
 you = Wena
 contribution-activity = Umsebenzi wegalelo
 recorded-clips = Iikliphu ezirekhodishiweyo
@@ -812,6 +821,7 @@ goal-interval-weekly = Ngeveki
 share-n-daily-contribution-goal = Yabelana ngeyakho { $count } Ikliphu ngeNjongo yosuku lwe { $type }
 # $type is one of share-goal-type-*
 share-n-weekly-contribution-goal = Yabelana ngeyakho { $count } Ikliphu ngeNjongo yosuku lwe { $type }
+share-goal-type-speak = Ukuthetha
 share-goal-type-both = Ukuthetha nokuMamela
 # LINK will be replaced with the current URL
 goal-share-text = Ndisandula ukwenza injongo yam yokunikela ngelizwi kwi #CommonVoice--ndijoyine kwaye uncede ukufundisa oomatshini indlela abantu bokwenyani abathetha ngayo { $link }
@@ -920,6 +930,7 @@ contribution-misreadings-example-6-explanation = [Kufuneka ku "We are"]
 contribution-misreadings-example-7-title = Siyokufumana ikofu.
 contribution-misreadings-example-7-explanation = [Akukho 'a' kumbhalo oyi orijinali]
 contribution-misreadings-example-8-title = Inyosi yagqitha.
+contribution-misreadings-example-8-explanation = [Umxholo ongahambelaniyo]
 contribution-varying-pronunciations-title = IiNdlela Ezahlukeneyo zokubizwa kwamagama
 contribution-varying-pronunciations-description = Lumka ngaphambi kokuba wale ikliphu kuba lowo uthe walifunda engalibizanga ngokungamnkelekanga igama, othe wagxininisa kwindawo engafanelekanga, okanye uye akaluhoya uphawu lombuzo. Kukho iintlobo ngeentlobo zokubizwa kwamagama asetyenziswayo kwihlabathi jikelele, ekusenokwenzeka ukuba awuzange waziva kwindawo ohlala kuyo. Nceda wamkele futhi uxabise abo banokuthetha ngokwahlukileyo kuwe.
 contribution-varying-pronunciations-description-extended = Lumka ngaphambi kokuba wale ikliphu kuba lowo uthe walifunda engalibizanga ngokungamnkelekanga igama, othe wagxininisa kwindawo engafanelekanga, okanye uye akaluhoya uphawu lombuzo. Kukho iintlobo ngeentlobo zokubizwa kwamagama asetyenziswayo kwihlabathi jikelele, ekusenokwenzeka ukuba awuzange waziva kwindawo ohlala kuyo. Nceda wamkele futhi uxabise abo banokuthetha ngokwahlukileyo kuwe.
@@ -957,6 +968,7 @@ see-less = <chevron></chevron> Bona okuncinci
 
 sc-header-rejected = Izivakalisi ezikhatywayo
 sc-header-my = Izivakalisi zam
+sc-header-statistics = Amanani
 sc-footer-report-bugs = Zixele iiBugs
 sc-footer-translate = Guqulela eliphepha
 sc-footer-report-copyright = Xela imiba yelungelo lokushicilela
@@ -1023,6 +1035,9 @@ sc-my-no-sentences = Akukho zivakalisi zifunyenweyo!
 # Variables:
 #   $batchId (String) - A unique ID identifying the submission of sentences - sentences uploaded together all have the same batch ID
 sc-my-submission = Ukungeniswa: { $batchId }
+# Variables:
+#   $source (String) - Associated source the user filled out when uploading the sentence
+sc-my-source = Umthombo: { $source }
 sc-my-delete = Cima izivakalisi ezikhethiweyo
 sc-my-deleting = Kucinywa izivakalisi ezikhethiweyo…
 sc-my-err-failed-delete = Ayiphumelelanga ukucima izivakalisi ezikhethiweyo... Nceda uzame kwakhona!
@@ -1036,6 +1051,7 @@ sc-rejected-none-found = Akukho zivakalisi zaliweyo zifunyenweyo!
 
 ## STATS
 
+sc-stats-title = Amanani
 sc-stats-updating = Iyahlaziya…
 sc-stats-error = Asikwazanga kulanda izibalo. Nceda uzame kwakhona mva.
 # Variables:
@@ -1209,6 +1225,9 @@ sc-review-no-sentences = Akukho zivakalisi zokuphononongwa. <addLink>Yongeza izi
 sc-review-form-prompt =
     .message = Izivakalisi eziphononongiweyo azingeniswanga, uqinisekile?
 sc-review-form-usage = Swayipha ekunene ukuze uvume isivakalisi. Swayipha ekhohlo ukusala isivakalisi. Swayiphela phezulu ukuze uyitsibe. <strong>Ungalibali ukuthumela ingxelo yakho!</strong>
+# Variables:
+#   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
+sc-review-form-source = Umthombo: { $sentenceSource }
 sc-review-form-keyboard-usage-custom = Unokusebenzisa kwakhona iindlela ezimfutshane zekhibhodi  { sc-review-form-button-approve-shortcut } ukuvuma { sc-review-form-button-reject-shortcut } ukwala { sc-review-form-button-skip-shortcut } nokutsiba
 sc-review-form-button-submit =
     .submitText = Gqibezela uphononongo
