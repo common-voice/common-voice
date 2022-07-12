@@ -1205,6 +1205,7 @@ sc-languages-fetch-error = Ro balelwa u dzhia nyambo dzi re hone. A zwi konadzei
 
 ## HOW-TO
 
+sc-howto-title = Ni nga ita hani
 sc-howto-addlang-title = Pangani nyambo dzine na ḓo shuma ngadzo
 sc-howto-addlang-text = Musi no ḽoga kha akhantu yaṋu ni nga nanga nyambo dzaṋu kha tshipiḓa tsha profaiḽi.
 sc-howto-addsen-title = Pangani mitaladzi miswa
@@ -1430,6 +1431,7 @@ sc-criteria-item-6 = Arali na fhelelwa nga mitaladzi ya u ṱolisisa, ri humbela
 
 sc-review-lang-not-selected = A ni a thu u nanga na luambo na luthihi. Ri umbela uri ni ye kha <profileLink>Profaiḽi</profileLink> yaṋu uri ni nange nyambo.
 sc-review-title = Ṱolisisani Mitaladzi
+sc-review-loading = Mitaladzi ḽoudiwa…
 sc-review-select-language = Ri humbela uri ni nange luambo uri ni kone u ṱolisisa mutaladzi.
 sc-review-no-sentences = A hu na mutaladzi une wa ṱoḓa u ṱoliwa. <addLink>Pangani miṅwe mitaladzi zwino!</addLink>
 sc-review-form-prompt =
@@ -1462,6 +1464,7 @@ sc-review-form-review-failure = Zwe na ṱolisisa a zwi ngo vhulungea kana u sei
 
 ## SETTINGS
 
+sc-settings-ui-language = Luambo lwa Interface
 sc-settings-reset-skipped = Risetani mitaladzi yo pfukhiwaho
 sc-settings-skipped-decription = Murahuni no pfukha mitaladzi ni tshi khou vhalulula. U risetha mitaladzi yo pfukhiwaho zwi ḓo sumbedza mitaladzi yoṱhe ye na i pfukha. Hezwi zwi itea kha luambo luthihi nga tshetsho tshifhinga.
 sc-settings-show-all-button = Sumbedza mitaladzi yoṱhe yo pfukhiwaho
