@@ -5,6 +5,7 @@ privacy-info = Re go solofetsa go tshwara tshedimosetso ya gago ka kelotlhoko. B
 submit-form-action = Romela
 loading = E a Tsenya...
 email-opt-in-info = Nka rata go amogela diimeile tse di jaaka dikgopotso tsa maikaelelo, ditlhabololo tsa kgatelopele ya me le makwalodikgang a Common Voice.
+email-opt-in-info-title = Nna karolo ya lenaane la thomelo ya melaetsa la Common Voice
 email-opt-in-info-sub-with-challenge = Amogela diimeile tse di jaaka dikgwetlho le dikgopotso tsa maikaelelo, ditlhabololo tsa kgatelopele, le makwalodikgang a Common Voice.
 email-opt-in-privacy-v2 = Ka go tlhopha go amogela diimeile o bontsha gore o siame ka gore Mozilla e tshware tshedimosetso eno jaaka go tlhalosiwa mo <privacyLink>Pholising ya Polokodiphiri</privacyLink>ya Mozilla.
 not-available-abbreviation = Ga e yo
@@ -307,6 +308,8 @@ profile-form-variant =
     .label = O bua mofuta ofe wa { $language }?
 profile-form-accent =
     .label = Puo
+profile-form-custom-accent-help-text =
+    .label = O ka tlhalosa jang puo ya gago?
 profile-form-custom-accent-placeholder-2 = Simolola go kwala go tlhalosa puo ya gago
 profile-form-age =
     .label = Dingwaga
@@ -340,6 +343,7 @@ help-variants-explanation = Dipuo ke mofuta o o rileng wa leleme - ka sekai, le 
 
 ## Profile - Email
 
+gravatar_not_found = Ga go a bonwa setshwantsho sepe se se amanang le imeile ya gago
 file_too_large = Faele e e tlhophilweng e kgolo thata
 avatar-uploaded = Setshwantsho se tsentswe
 max-file-size = { $kb }kb bogolo
@@ -382,6 +386,7 @@ faq-what-quality-q = Go tlhokega boleng bofe jwa kgatiso ya lentswe gore e diris
 faq-what-quality-a = Re batla gore tshedimosetso ya Common Voice e bontshe boleng jwa modumo o thulaganyo ya go fetolela puo go mokwalo e tla o utlwang mo nageng, ka jalo re batla mefuta e e farologaneng. Mo godimo ga dibui tse di farologaneng, tshedimosetso e e nang le boleng jo bo farologaneng jwa modumo e tla ruta thulaganyo e e fetolelang puo go mokwalo go lepalepana le maemo a a sa tshwaneng a a leng teng mo lefatsheng, go tloga ka modumo o o utlwalang kwa morago fa batho ba bua go ya go modumo wa koloi. Fela fa kgatiso ya lentswe la gago e tlhaloganyesega, e tla bo e siametse tshedimosetso eo.
 faq-why-10k-hours-q = Goreng diura tse di tlhomamisitsweng ka puo tse 10 000 e ke tsone maikaelelo a go tsenya kgatiso?
 faq-why-10k-hours-a = Tseno ke diura tse di fopholediwang gore di ka dirisiwa go ruta metšhine ya mafoko-go-puo gore e dire.
+faq-how-calc-hours-q = Common Voice e bala diura jang?
 faq-how-calc-hours-a = Re bala diura ka go fopholetsa kakaretso ya boleele jwa kgatiso nngwe le ngwe, re bo re atisa palo eo ka palogotlhe ya dikgatiso tsa dipuo tsotlhe.
 faq-where-src-from-2-q = Mokwalo wa ntlhantlha o tswa kae?
 faq-where-src-from-2-a =
@@ -438,6 +443,7 @@ about-get-involved-text-2 =
     Go gontle! Golagana le rona ka imeile kgotsa diforamo tsa <discourseLink>Discourse</discourseLink>,
     romela mathata a webosaete ka <githubLink>GitHub</githubLink>, kgotsa nna karolo ya puisano ya morafe ya
     <matrixLink>Matrix</matrixLink>.
+about-stay-in-touch = Ke ikgolaganya jang le lona?
 about-stay-in-touch-button = Ikwadise
 about-stay-in-touch-text-1 = <emailFragment>Ikwadise</emailFragment> mo lenaaneng la rona la melaetsa go ithuta gore gore o ka tsaya karolo jang mo matsholong, mo ditiragalong le mo dikarolong tsa go tlhama mo Common Voice.
 about-stay-in-touch-text-2 = O ka kopana le bangwe ba badirisi ba puo mo Mozilla ka go nna karolo ya<discourseLink>Discourse</discourseLink> go bona metlotlo ya ditlhogo kgotsa <matrixLink>Matrix</matrixLink> go bona maele a ka bonako.
@@ -453,6 +459,7 @@ about-playbook-what-is-language-content-3 = Dipuo dingwe di farologana thata ka 
 
 ## How do I add a language
 
+about-playbook-how-add-language = Ke tsenya puo jang?
 about-playbook-how-add-language-content-1 =
     Sa ntlha, tlhola gore a puo ya gago <languageLink>e setse e le teng</languageLink>.
     Fa e seyo, o ka <languageRequestLink>botsa ka go tsenya puo ya gago</languageRequestLink>.
@@ -618,6 +625,7 @@ contact-required = *e a tlhokega
 
 request-language-form-language =
     .label = Puo
+request-language-success-title = Kopo ya puo e kgonne go romelwa ka katlego, malebo.
 request-language-success-content = Re tla ikgolaganya le wena mo nakong e e sa fediseng pelo ka tshedimosetso e e oketsegileng ya gore o ka tsenya jang puo ya gago mo Common Voice.
 select-language = Tlhopha Puo...
 
@@ -659,6 +667,7 @@ language-speakers = Dibui
 localized = E ranoletswe
 sentences = Dipolelo
 language-validation-hours = Diura
+language-validation-progress = Kgatelopele ya go Tlhomamisa
 
 ## Contribution
 
@@ -722,12 +731,30 @@ continue = Tswelela
 ## Goals
 
 streaks = Meraladi
+days =
+    { $count ->
+        [one]
+            "{ $count ->
+                [one] Day
+               *[other] Days
+            }"
+       *[other] { "" }
+    }
 recordings =
     { $count ->
         [one]
             "{ $count ->
                 [one] Recording
                *[other] Recordings
+            }"
+       *[other] { "" }
+    }
+validations =
+    { $count ->
+        [one]
+            "{ $count ->
+                [one] Validation
+               *[other] Validations
             }"
        *[other] { "" }
     }
@@ -762,6 +789,7 @@ help-reach-hours-general-pluralized =
     }
 set-a-goal = Baya Maikaelelo
 cant-decide = Ga o kgone go dira tshwetso?
+how-many-per-day = Go gontle! Dikgatiso di le kae ka letsatsi?
 receiving-emails-info = Gone jaanong o dirile gore o amogele diimeile tse di jaaka dikgopotso tsa maikaelelo, ditlhabololo tsa kgatelopele ya me le makwalodikgang a Common Voice
 not-receiving-emails-info = Gone jaanong o dirile gore o <bold>SE KA</bold> wa amogela diimeile tse di jaaka dikgopotso tsa maikaelelo, ditlhabololo tsa kgatelopele ya me le makwalodikgang a Common Voice
 n-clips-pluralized =
