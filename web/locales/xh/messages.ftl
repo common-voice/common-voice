@@ -10,6 +10,7 @@ email-opt-in-info-title = Joyina uluhlu lwe-imeyile lweCommon Voice
 email-opt-in-info-sub-with-challenge = Fumana ii-imeyile ezinjengomngeni kunye nezikhumbuzi zenjongo, uhlaziyo lwenkqubela phambili, kunye neeleta zeendaba malunga neCommon Voice.
 email-opt-in-privacy-v2 = Ngokuvuma ukufumana iimeyile uyavuma ukuba kulungile noMozzilla aphathe olu lwazi njengoko kucacisiwe kwi Mozzilla <privacyLink>Umgaqo-nkqubo wabucala</privacyLink>.
 indicates-required = Imimandla ephawulwe ngeenkwenkwezi (*) iyafuneka.
+not-available-abbreviation = N/A
 banner-error-slow-1 = Uxolo, iCommon Voice isebenza ngokucotha. Enkosi ngomdla wakho.
 banner-error-slow-2 = Sifumana itrafiki eninzi kwaye ngoku siphanda le iingxaki.
 banner-error-slow-link = Iphepha le-status
@@ -26,24 +27,36 @@ cnh = iHakha Chin
 cy = iWelsh
 dsb = iSorbian, Lower
 es = iSpanish
+fa = iPersian
 gom = iGoan Konkani
 hsb = iSorbian, Upper
 hyw = iArmenian Western
 kmr = iKurmanji Kurdish
 knn = iKonkani (Devenagari)
+mdf = iMoksha
 mhr = iMeadow Mari
+mn = iMongolian
 mni = iMeetei Lon
+mos = iMossi
+mr = iMarathi
 mrj = iHill Mari
 nan-tw = iTaiwanese (Minnan)
 nb-NO = iNorwegain Bokmål
 nd = IsiNdebele (Emtla)
+ne-NP = iNepali
+nia = iNias
 nn-NO = iNorwegain Nynorsk
 nr = isiNdebele (Entshona)
 nso = iNorthen Sotho
 nyn = iRunyankole
+oc = i-Occitan
 om = iAfaan Ornoo
+or = i-Odia
 pa-IN = iPunjabi
 pap-AW = iPapiamento (Aruba)
+pl = iPolish
+ps = iPashto
+pt = iPortuguese
 quy = iQuechua Chanka
 rm-sursilv = iRomansh Sursilvan
 rm-vallader = iRomansh Vllader
@@ -106,6 +119,7 @@ zu = IsiZulu
 speak = Thetha
 speak-now = Thetha ngoku
 profile = Iprofayili
+privacy = Ubumfihlo
 terms = Imigaqo/ amagama
 content-license-text = Umxholo okhoyo phantsi kwe <licenseLink>Creative Commons license</licenseLink>
 share-title = Sincede sifumane abanye abaza kunikela ngelizwi labo!
@@ -198,6 +212,7 @@ shortcut-skip = s
 # Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-play-toggle = p
+shortcut-play-toggle-label = Dlala/Yeka
 # Must be one letter that appears in the { vote-yes } string.
 # Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
 shortcut-vote-yes = y
@@ -254,6 +269,8 @@ native-language =
 profile-form-add-accent = Yongeza i-accent entsha  "{ $inputValue }"
 profile-form-submit-save = Gcina
 profile-form-submit-saved = Igciniwe
+# Gender
+other = Enye
 why-profile-title = Kutheni kufuneka iProfayile?
 why-profile-text =
     Ngokubonelela ngolwazi malunga nawe, idatha yesandi oyithumelayo kwi-Common Voice iya kuba luncedo ngakumbi kwiNtetho
@@ -276,6 +293,8 @@ contribution-experience = Amava ngegalelo
 skip-submission-feedback = Tsiba iNgxelo yokuNgenisa
 skip-submission-description = Ngexesha lokungeniswa kogalelo ingxelo iya kutsitywa emva kokucofa u-'Thumela'. Ugalelo luya kuqhubeka ngokuthe ngqo kunye nesethi elandelayo yorekhodo oluhlanu okanye ukuqinisekiswa.
 skip-submission-note = Qaphela: Kusafuneka ukhethe phakathi kokuThetha okanye ukuMamela ukutshintsha uhlobo lomnikelo.
+off = Icimile
+on = Ilayitile
 help-accent = Udinga uncedo nge-accent?
 help-accent-explanation = I-accent yakho yindlela owabiza ngayo amagama. Inokubunjwa yindawo obuhlala kuyo, ezinye iilwimi ozithethayo kunye nezinye izinto ezininzi. Ungabelana ngalo naluphi na ulwazi ocinga ukuba lufanelekile apha.
 help-variants = Ingaba ufuna uncedo ngeendlela ezahlukeneyo?
@@ -413,6 +432,7 @@ about-stay-in-touch-text-1 = <emailFragment>Sign up</emailFragment> kuluhlu lwet
 about-stay-in-touch-text-2 = Ungadibana nabanye boluntu lolwimi lwaseMozilla ngokujoyina <discourseLink>Discourse</discourseLink> kumakhonco ezihloko, okanye <matrixLink>Matrix</matrixLink> ukufumana ingcebiso ekhawulezileyo.
 about-nav-why-common-voice = Ngoba?
 about-nav-how-it-works = Njani ?
+about-nav-partners = Amaqabane
 about-nav-get-involved = Yiba yinxalenye
 about-nav-how-it-works-2 = Isebenza njani iCommon Voice?
 about-nav-playbook = Funda indlela yokuthatha inxaxheba
@@ -531,6 +551,7 @@ error-content-503 = Isaythi iyakubuyiselwa ngokukhawuleza. Ngolwazi lwamva nje, 
 
 data-download-button = Khuphela iDatha yeCommon Voice
 data-download-yes = Ewe
+data-download-deny = Hayi
 data-download-license = Ilayisensi: <licenseLink>CC-0</licenseLink>
 data-download-modal = Ngoku uza kuqalisa ukhuphelo lwe <size>{ $size }GB</size>, uyaqhubeka?
 data-subtitle = Sakha uluhlu lwedatha lwamazwi oluvulelekileyo nolufumaneka esidlangalaleni wonke umntu anokuthi alusebenzise ukuqeqesha usetyenziso olusebenzisa intetho.
@@ -542,6 +563,7 @@ data-other-download = Khuphela iDatha
 data-bundle-button = Khuphela i-Dataset Bundle
 data-bundle-description = Idatha yeCommon Voice kunye nazo zonke ezinye iidatha zelizwi ngaphezulu.
 release-version = Inguqulelo
+license-mixed = Ixubene
 data-download-singleword-title = Khuphela iCandelo legama elinye ekujoliswe kulo
 data-download-singleword-callout-v2 = Le yimeko yokusetyenziswa eqhutywa licandelo eliqulathe idatha kumandla athethiweyo ukuqondwa kwedijithi kwaye ewe / hayi akukho ubhaqo.
 review-terms = Ngokusebenzisa iCommon Voice uvuma  <termsLink>imiqathango</termsLink> kunye <privacyLink>neSazisi saBucala</privacyLink>
@@ -574,7 +596,7 @@ email-to-download = Ngenisa Imeyile ukuze Ukhuphele
 why-email = <b>Kutheni kudingeka imeyile nje?</b> Kusenokufuneka siqhagamshelane nawe kwixesha elizayo malunga notshintsho kwi dataset, i-imeyile isinika indawo yoqhagamshelwano.
 confirm-size = Ulungele ukuqalisa ukhuphelo lwe <b>{ $size }</b>
 size-gigabyte = I-GB
-size-megabyte = I-MB
+size-megabyte = MB
 confirm-no-identify = <b>Uyavuma</b> ukungazami ukumisela izazisi zezithethi kwidatha seti yeCommon Voice
 validated-hours = Iiyure eziqinisekisiweyo
 recorded-hours = Iiyure ezirekhodiweyo
@@ -603,6 +625,7 @@ go-discourse = Yiya kwiDiscourse
 missing-language = Awuboni ulwimi lwakho luboniswa kwiSeti yedatha? Ukucela ulwimi yiya kwiphepha lethu leeLwimi.
 go-languages-page = Yiya kwicala leeLwimi
 ready-to-validate = Ingaba ukulungele ukunceda ukuqinisekisa izivakalisi?
+more = Ngaphezulu
 dataset-version = Inguqulelo
 
 ## Download Modal
@@ -618,6 +641,10 @@ download-no = Hayi Enkosi
 ## Contact Modal
 
 contact-title = Ifomu yoqhagamshelwano
+contact-form-name =
+    .label = Igama
+contact-form-message =
+    .label = Umyalezo
 
 ## Request Language Modal
 
@@ -924,6 +951,7 @@ demo-welcome-subheader = Ingaba unomdla wokufunda ngakumbi kwaye ubenegalelo kwi
 
 demo-language-select-card-header = iCommon Voice ngenkulu kwihlabathi efumaneka esidlangalaleni, i-datata yelizwi elihlukeneyo.
 demo-language-select-card-body = Enkosi kwiminikelo evela kubantu abangaphezu kwe-259k kwiilwimi ezingaphezu kwama-50, le datha isetyenziselwa ukuqeqesha i-apps ezidalelwe intetho ukuze ziphendule ngcono ilizwi lomntu.
+card-button-next = Elandelayo
 demo-language-select-label = Bhrawuza iiLwimi
 demo-eofy-header = Ukukhutshwa kokuphela konyaka ka-2019
 demo-eofy-sub_header = Iseti yedatha yelizwi, ilungele ukuKhutshelwa
@@ -953,6 +981,7 @@ contribution-criteria-link = Qonda iindlela zokunikela
 contribution-criteria-page-title = Indlela yokunikela
 contribution-criteria-page-description = Qonda into omawuyijonge xa umamele iiklip zelizwi kwaye uncede wenze urekhodo lwelizwi lakho lutyebe!
 contribution-for-example = umzekelo
+contribution-misreadings-title = Ukufunda kakubi
 contribution-misreadings-description = Xa uphulaphule, khangela ngenyameko enkulu ukuba oko kurekhodiweyo kuyiloo nto kanye ebhaliweyo na; yala ukuba kukho iimpazamo ezincinci. <br /> Iimpazamo eziqhelekileyo zibandakanya:
 contribution-misreadings-description-extended-list-1 = Kushota i<strong>'A'</strong> okanye <strong>'The'</strong> ekuqaleni kwerekhodingi.
 contribution-misreadings-description-extended-list-2 = Ilahlekile i <strong> 's' </strong> ekupheleni kwegama.
@@ -1190,6 +1219,7 @@ sc-confirm-uploading = Izivakalisi ziyalayishwa. Oku kungathatha imizuzu emininz
 ## LANGUAGE INFO
 
 sc-lang-info-title-total = Itotali
+sc-lang-info-title-personal = Okomntu
 # Variables:
 #   $totalSentences (Number) - Number of sentences uploaded in total for this language
 sc-lang-info-total =
