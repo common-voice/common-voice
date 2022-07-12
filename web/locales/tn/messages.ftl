@@ -855,6 +855,8 @@ sc-howto-cite-pre-1 = Go botlhokwa go kwala gore o bone kae dilaesense tsa batho
 sc-howto-cite-item-1 = O ka akaretsa webosaete, ka sekai,  "Common Voice - https://commonvoice.mozilla.org/"
 sc-howto-cite-item-2 = O ka dirisa mokgwa wa thutego wa go ntsha tshupiso, ka sekai, mokgwa wa Harvard "Mozilla (2021) Common Voice. E gone mo https://commonvoice.mozilla.org/ (E fitlheletswe ka: September 15 2021)"
 sc-howto-cite-item-3 = Fa o dirisa tshedimosetso ya batho botlhe mme e seyo mo inthaneteng, o ka dirisa mokgwa wa thutego wa go ntsha tshupiso, ka sekai, mokgwa wa Harvard "Jess (2021) My Public licence poems"
+sc-howto-review-criteria-1 = Mola o tshwanetse wa bo o peletilwe sentle.
+sc-howto-review-criteria-2 = Mola o tshwanetse wa bo o kwadilwe sentle.
 sc-howto-review-criteria-4 = Fa mola o tsamaisana le dintlha tsa tshwanelego, tobetsa konopo ya "Amogela."
 sc-howto-review-criteria-5 = Fa polelo e sa fitlhelele ditshwanelego tse di fa godimo, tobetsa konopo ya "Gana." Fa o a tlhomamisege ka polelo , o ka e tlola mme wa fetela mo go e e latelang.
 sc-howto-review-criteria-6 = Fa o felelwa ke mela e e sekasekiwang, tsweetswee re thuse go kgobokanya mela e e oketsegileng!
@@ -975,6 +977,8 @@ sc-personal-not-added = Ga o ise o tsenye dipuo dipe.
 
 ## REVIEW CRITERIA
 
+sc-criteria-item-1 = Mola o tshwanetse wa bo o peletilwe sentle.
+sc-criteria-item-2 = Mola o tshwanetse wa bo o kwadilwe sentle.
 sc-criteria-item-4 = Fa mola o dumalana le dintlha tsa go tshwanelega, tobetsa konopo ya &quot;E Siame&quot; e e ka fa mojeng.
 sc-criteria-item-5-2 = Fa polelo e sa fitlhelele ditshwanelego tse di fa godimo, tobetsa konopo ya &quot;Gana&quot; kafa molemeng. Fa o sa tlhomamisege ka polelo, o ka e tlola mme wa ya kwa go e e latelang.
 sc-criteria-item-6 = Fa o felelwa ke mela e e sekasekiwang, tsweetswee re thuse go kgobokanya mela e e oketsegileng!
