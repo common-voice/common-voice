@@ -2,11 +2,11 @@
 
 contribute = Aba
 get-involved-button = Nna le Seabe
-get-involved-title = Abela
+get-involved-title = Abela { $lang }
 get-involved-text =
     Re lebogela go kgatlhegela ga gago go nna le seabe mo { $lang }. Re dira ka natla gore puo nngwe le nngwe e bo e siametse go simolola mme re
     dira gore ditlopha di nne di na le tshedimosetso ka imeile. Fa o batla go aba, tsweetswee kwala imeile ya gago fa tlase.
-get-involved-form-title = Ikwadisetse { $lang } ditlhabololo:
+get-involved-form-title = Ikwadisetse ditlhabololo tsa { $lang }:
 get-involved-email =
     .label = Imeile
 get-involved-opt-in = Ee, nthomeleleng diimeile. Nka rata go nna ke le mo dinakong ka kgatelopele ya puo eno mo Common Voice.
