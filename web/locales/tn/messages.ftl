@@ -199,6 +199,7 @@ help-us-explain = Tobetsa tshameka, reetsa & re bolelele: a ba buile mola o o fa
 no-clips-to-validate = Go lebega go se na dikgatiso dipe tse di tlhokang go reediwa mo puong eno. Re thuse go di oketsa ka go rekota dingwe gone jaanong.
 vote-yes = Ee
 vote-no = Nyaa
+toggle-play-tooltip = Tobetsa { shortcut-play-toggle } go nna o tshameka
 speak-subtitle = Abelana ka lentswe la gago
 speak-paragraph = Go rekota mantswe ke karolo e e botlhokwa thata e e thusang go aga rekoto ya tshedimosetso; ba bangwe ba ka re gape ke karolo e e itumedisang.
 speak-goal-text = Dibidio di rekotilwe
@@ -213,6 +214,7 @@ todays-progress =
             }
        *[other] Days
     }
+ready-to-record = A o ipaakanyeditse go abelana ka lentswe la gago?
 all-locales = Tsotlhe
 today = Gompieno
 x-weeks-short =
@@ -241,6 +243,8 @@ x-years-short =
        *[other] { "" }
     }
 help-make-dataset = Re thuse go aga rekoto ya tshedimosetso ya phatlalatsa, ya maemo a a kwa godimo
+sign-up-account = Ikwadise go nna le akhaonto
+email-subscription-title = ikwadisetse ditlhabololo tsa imeile
 email-subscription-title-new = Ikwadisetse go amogela makwalodikgang a Common Voice, dikgopotso tsa maikaelelo le ditlhabololo tsa kgatelopele
 
 ## Account Benefits
@@ -528,6 +532,7 @@ about-playbook-how-access-dataset-content-2 = Fa e le gore o batla didirisiwa ts
 ## How are decisions made
 
 about-playbook-how-project-governance-content-1 = Mozilla Common Voice e kgonega ka ntlha ya balweladiphetogo, baitsepuo, baitsesaense ba tshedimosetso, barutegi le banjenere ba dirweboleta go ralala lefatshe. Porojeke e etelelwa pele ke Mozilla Foundation.
+about-playbook-how-project-governance-content-7 = <governanceLink>Bala mo go oketsegileng ka ga go re re laolwa jang</governanceLink>
 
 ## Glossary
 
@@ -557,6 +562,7 @@ data-bundle-button = Itseele Di-bundle Tsa Rekoto ya Tshedimosetso
 data-bundle-description = Tshedimosetso ya Common Voice le direkoto tsotlhe tsa tshedimosetso ya mantswe fa godimo.
 release-version = Thanolelo
 license = Laesense: <licenseLink>{ $license }</licenseLink>
+data-download-singleword-title = Itseele Dikarolwana Tsa Lefoko le le Lengwe la Puo
 data-download-singleword-callout-v2 = Eno ke karolwana e e berekang e e nang le tshedimosetso ya go matlafatsa mokgwa wa go dirisa puo le o o kgonang go lemoga ee / nnyaa.
 review-terms = Ka go dirisa Common Voice, o dumalana le <termsLink>Melawana</termsLink> le <privacyLink>Kitsiso ya Polokodiphiri</privacyLink>
 review-aborted = Go tsenngwa go emisitswe. A o batla go phimola dikgatiso tsa gago?
@@ -604,6 +610,7 @@ data-other-voxforge-description = VoxForge e ne e diretswe go phutha puo e e kwa
 data-other-tatoeba-description = Tatoeba ke tshedimosetso e kgolo ya dipolelo, dithanolo, le kgatiso ya mantswe a a buiwang e e dirisiwang go ithuta puo. Karolo eno e e itseelwang e na le Seemane se se buiwang se se gatisitsweng ke morafe wa bone.
 your-feedback = A o na le dikakantsho tsa gore re ka tokafatsa jang direkoto tsa tshedimosetso ya Common Voice? Re itsise mo Discourse
 missing-language = Ga o bone puo ya gago e tlhaga mo Rekotong ya Tshedimosetso? Go kopa puo, ya kwa tsebeng ya rona ya Dipuo.
+ready-to-validate = A o ipaakanyeditse go tlhomamisa mela?
 more = Mo go Oketsegileng
 close = Tswala
 dataset-version = Thanolelo
@@ -611,6 +618,7 @@ dataset-version = Thanolelo
 ## Download Modal
 
 download-helpus = Re thuse go aga setšhaba ka thekenoloji ya lentswe, nna o ikgolaganya ka imeile.
+download-back = Boela Kwa Direkotong Tsa Tshedimosetso Tsa Common Voice
 
 ## Contact Modal
 
@@ -690,6 +698,10 @@ goal-help-validation = O thusitse Common Voice gore e fitlhelele <goalPercentage
 record-cta = Simolola go rekota
 record-platform-not-supported = Re maswabi, polatefomo  ya gago ga e tshegediwe gone jaanong.
 record-platform-not-supported-ios-non-safari = Mo iOS tsweetswee tswelela ka Safari go dira gore e kgone go gatisa…
+record-must-allow-microphone = O tshwanetse go letlelela go dirisa maekerofouno.
+record-error-too-short = Kgatiso e ne e le khutshwane thata.
+record-error-too-long = Kgatiso e ne e le telele thata.
+record-error-too-quiet = Kgatiso e ne e didimetse thata.
 record-cancel = Khansela go Rekota Sesha
 record-stop-instruction = { $actionType }<stopIcon></stopIcon> fa o feditse
 record-three-more-instruction = Go setse di le tharo!
@@ -701,6 +713,7 @@ record-submit-tooltip = { $actionType } e romele fa e setse e siametse
 clips-uploaded = Dibidio di tsentswe
 record-abort-text = Fa o tswa gone jaanong o tla latlhegelwa ke kgatelopele e o e dirileng
 record-abort-submit = Romela dibidio
+listen-instruction = { $actionType }<playIcon></playIcon> a ba buile mola ka tsela e e nepagetseng?
 listen-again-instruction = O berekile!<playIcon></playIcon> Reetsa gape fa o ipaakantse
 listen-last-time-instruction = <playIcon></playIcon>Ya bofelo!
 listen-empty-state = Re feletswe ke dikgatiso tse re ka di tlhomamisang ka puo eno...
@@ -790,6 +803,7 @@ help-reach-hours-general-pluralized =
 set-a-goal = Baya Maikaelelo
 cant-decide = Ga o kgone go dira tshwetso?
 how-many-per-day = Go gontle! Dikgatiso di le kae ka letsatsi?
+how-many-a-week = Go gontle! Dikgatiso di le kae ka beke?
 receiving-emails-info = Gone jaanong o dirile gore o amogele diimeile tse di jaaka dikgopotso tsa maikaelelo, ditlhabololo tsa kgatelopele ya me le makwalodikgang a Common Voice
 not-receiving-emails-info = Gone jaanong o dirile gore o <bold>SE KA</bold> wa amogela diimeile tse di jaaka dikgopotso tsa maikaelelo, ditlhabololo tsa kgatelopele ya me le makwalodikgang a Common Voice
 n-clips-pluralized =
@@ -844,6 +858,7 @@ download-selected = E tlhophilwe
 download-start = Itseele tshedimosetso ya porofaele
 download-requests-info = Fa o kopa dikgatiso tsa gago, re di kopanya go di dira faele e le nngwe kgotsa di le mmalwa tsa ZIP. Tseno ke dikopo tsa gago tsa nako e e fetileng.
 download-request-description = Dikgatiso tsa mantswe tse { $clipCount }, bogolo jotlhe jwa akhaefe { $size }. E felelwa ke nako { $expires }.
+download-request-archive-multiple = E kgaoganye mo  difaeleng tsa ZIP di le { $archiveCount } tse di gone
 download-request-assembling-description = Difaele tsa gago di a kokoanngwa. Tsweetswee tlhola gape moragonyana.
 download-request-refresh-button = Ntšhafatsa
 download-request-modal-description = Tseno ke dilinki tsa go itseela difaele tsa gago tsa ZIP.
@@ -870,6 +885,7 @@ card-button-next = E e Latelang
 card-button-back = Morago
 demo-language-select-label = Leba Dipuo
 demo-eofy-header = Tokololo ya Bofelo Jwa Ngwaga ya 2019
+demo-eofy-sub_header = Rekoto ya Tshedimosetso ya Mantswe, e Siametse go Itseelwa.
 demo-account = Akhaonto
 
 ## Demo Account
@@ -909,6 +925,7 @@ contribution-misreadings-example-4-explanation = [Go gatisitswe mo gontsi go gai
 contribution-misreadings-example-5-title = Re a tswa re ya go batla kofi.
 contribution-misreadings-example-6-title = Re a tswa re ya go batla kofi.
 contribution-misreadings-example-7-title = Re a tswa re ya go batla kofi.
+contribution-misreadings-example-7-explanation = [Ga go na ‘a’ mo mafokong a ntlhantlha]
 contribution-misreadings-example-8-explanation = [Diteng tse di sa tshwaneng]
 contribution-varying-pronunciations-description = Nna kelotlhoko pele o gana kgatiso ka go bo mmadi a sa bitsa lefoko sentle, o gateletse mo lefelong le e seng lone, kgotsa gongwe o itlhokomolositse letshwao la potso. Go na le ditsela tse dintsi tsa go bitsa mafoko lefatshe ka bophara, tse dingwe ka tsone o ka tswang o ise o di utlwe mo lefelong la gago. Tsweetswee anaanela ba ba ka tswang ba bua ka tsela e e farologaneng le e o buang ka yone.
 contribution-varying-pronunciations-description-extended = Kafa letlhakoreng le lengwe, fa o akanya gore gongwe mmadi ga a ise a kopane le lefoko leo, mme o fopholetsa fela ka tsela e e sa siamang tsela e le bidiwang ka yone, tsweetswee e gane. Fa o sa tlhomamisege, dirisa konopo ya tlola.
@@ -921,10 +938,12 @@ contribution-background-noise-description-extended = Fa kgatiso e kgaoga kgotsa 
 contribution-background-noise-example-1-fixed-title = <strong>[Sneeze]</strong> Di-dinosaur tse dikgolo tsa <strong>[cough]</strong> Triassic.
 contribution-background-noise-example-2-fixed-title = Dino <strong>[cough]</strong> e kgolo ya Triassic.
 contribution-background-noise-example-2-explanation = [Karolo ya mokwalo ga e utlwale]
+contribution-background-noise-example-3-fixed-title = <strong>[Crackle]<strong> di-dinosaur tse dikgolo tsa <strong>[crackle]</strong> -riassic.
 contribution-background-voices-title = Mantswe mo Lemoragong
 contribution-background-voices-description = Tlhakatlhakano e e utlwalang mo lefelong le le didimetseng e siame, mme ga re batle mantswe a a oketsegileng a a ka dirang gore motšhine o se ka wa lemoga mafoko a a sa kwalwang. Fa o ka utlwa mafoko a a farologaneng le a a kwadilweng, kgatiso eo e tshwanetswe go ganwa. Gantsi seno se direga fa TV e tlogetswe e tshubilwe, kgotsa fa go na le motlotlo o o tsweletseng fa gaufi.
 contribution-background-voices-description-extended = Fa kgatiso e kgaoga kgotsa e gagasha, e gane, ntle le fa mafoko otlhe a kgona go utlwiwa.
 contribution-background-voices-example-1-title = Di-dinosaur tse dikgolo tsa Triassic. <strong>[read by one voice]</strong>
+contribution-background-voices-example-1-explanation = A o etla? <strong>[called by another]</strong>
 contribution-volume-title = Bolumo
 contribution-volume-description = Go tla nna le dipharologano tsa tlholego mo bolumong ya babadi. Gana fela fa bolumo e le kwa godimo thata mo kgatiso e kgaogang, kgotsa (se se tlwaelegileng thata) fa e le kwa tlase thata mo o sa utlweng se se buiwang kwantle ga go leba se se kwadilweng.
 contribution-reader-effects-description = Dikgatiso tse dintsi ke tsa batho ba ba buang ka lentswe la bone la tlholego. O ka amogela kgatiso nngwe e e sa tlwaelegang ya go goa, go seba, kgotsa e e buiwang ka tsela e e ‘kgatlhang’. Tsweetswee gana dikgatiso tse go opelwang le tse di dirisang lentswe le le dirilweng ka khomputara.
@@ -980,6 +999,7 @@ sc-howto-cite-item-2 = O ka dirisa mokgwa wa thutego wa go ntsha tshupiso, ka se
 sc-howto-cite-item-3 = Fa o dirisa tshedimosetso ya batho botlhe mme e seyo mo inthaneteng, o ka dirisa mokgwa wa thutego wa go ntsha tshupiso, ka sekai, mokgwa wa Harvard "Jess (2021) My Public licence poems"
 sc-howto-review-criteria-1 = Mola o tshwanetse wa bo o peletilwe sentle.
 sc-howto-review-criteria-2 = Mola o tshwanetse wa bo o kwadilwe sentle.
+sc-howto-review-criteria-3 = Mola o tshwanetse go buega.
 sc-howto-review-criteria-4 = Fa mola o tsamaisana le dintlha tsa tshwanelego, tobetsa konopo ya "Amogela."
 sc-howto-review-criteria-5 = Fa polelo e sa fitlhelele ditshwanelego tse di fa godimo, tobetsa konopo ya "Gana." Fa o a tlhomamisege ka polelo , o ka e tlola mme wa fetela mo go e e latelang.
 sc-howto-review-criteria-6 = Fa o felelwa ke mela e e sekasekiwang, tsweetswee re thuse go kgobokanya mela e e oketsegileng!
@@ -1037,6 +1057,7 @@ sc-submit-filtered = Mela e fokoditswe ka gonne ga go a fitlhelelwa ditekanyetso
 ## ADD LANGUAGE
 
 sc-add-lang-sec-button = Tsenya Puo
+sc-add-err-unexpected = Phetolo e e sa solofelwang go tswa kwa sefareng
 # Variables:
 #   $duplicates (Number) - Number of sentences which got rejected because they are duplicates
 sc-add-result =
@@ -1115,6 +1136,7 @@ sc-personal-not-added = Ga o ise o tsenye dipuo dipe.
 
 sc-criteria-item-1 = Mola o tshwanetse wa bo o peletilwe sentle.
 sc-criteria-item-2 = Mola o tshwanetse wa bo o kwadilwe sentle.
+sc-criteria-item-3 = Mola o tshwanetse go buega.
 sc-criteria-item-4 = Fa mola o dumalana le dintlha tsa go tshwanelega, tobetsa konopo ya &quot;E Siame&quot; e e ka fa mojeng.
 sc-criteria-item-5-2 = Fa polelo e sa fitlhelele ditshwanelego tse di fa godimo, tobetsa konopo ya &quot;Gana&quot; kafa molemeng. Fa o sa tlhomamisege ka polelo, o ka e tlola mme wa ya kwa go e e latelang.
 sc-criteria-item-6 = Fa o felelwa ke mela e e sekasekiwang, tsweetswee re thuse go kgobokanya mela e e oketsegileng!
@@ -1155,9 +1177,13 @@ sc-review-link = Sekaseka
 sc-settings-title = Diseting
 sc-settings-reset-skipped = Rulaganya sesha dipolelo tse di tlodilweng
 sc-settings-skipped-decription = O tlodile mela kwa morago fa o ntse o sekaseka. Go rulaganya sesha mela e e tlodilweng go tla bontsha gape mela yotlhe e o e tlodileng. Seno ga se a ikaega ka puo.
+sc-settings-show-all-button = Bontsha ela yotlhe e e tlodilweng gape
 sc-settings-failed = Ga re a kgona go fetola diseting. Tsweetswee leka gape.
 # VALIDATION
 sc-validation-number-of-words = Mola o tshwanetse go nna le mafoko a a magareng ga 1 le 14 (a a feletseng)
+sc-validation-no-numbers = Mola ga wa tshwanela go nna le dinomoro
+sc-validation-no-symbols = Mola ga wa tshwanela go nna le matshwao
+sc-validation-no-abbreviations = Mola ga wa tshwanela go nna le mafoko a a khutshwafaditsweng
 
 # [/SentenceCollector]
 
