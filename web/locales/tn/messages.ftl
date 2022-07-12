@@ -639,6 +639,7 @@ confirm-size = O ipaakanyeditse go simolola go itseela <b>{ $size }</b>
 size-gigabyte = GB
 size-megabyte = MB
 confirm-no-identify = <b>O dumela</b>go sa leke go lemoga boikitsiso jwa babui ba ba mo rekotong ya tshedimosetso ya Common Voice
+validated-hours = Diura Tse di Tlhomamisitsweng
 whats-inside = Ke eng se se mo rekotong ya tshedimosetso ya Common Voice?
 dataset-description-hours =
     Matseno mangwe le mangwe mo tshedimosetsong a na le MP3 e e tlhomologileng le faele e e tsamaisanang le yone ya mokwalo. Bontsi jwa diura tse <b>{ $total }</b> tse di gatisitsweng mo tshedimosetsong le tsone di akaretsa tshedimosetso ya dipalopalo jaaka dingwaga, bong, le segalo se se ka thusang go thapisa go nepa ga dithulaganyo tse di lemogang mantswe.
@@ -1019,6 +1020,7 @@ contribution-misreadings-example-7-title = Re a tswa re ya go batla kofi.
 contribution-misreadings-example-7-explanation = [Ga go na ‘a’ mo mafokong a ntlhantlha]
 contribution-misreadings-example-8-title = Notshi e ile ya itlhaganela.
 contribution-misreadings-example-8-explanation = [Diteng tse di sa tshwaneng]
+contribution-varying-pronunciations-title = Go Bitsa Mafoko Go go Sa Tshwaneng
 contribution-varying-pronunciations-description = Nna kelotlhoko pele o gana kgatiso ka go bo mmadi a sa bitsa lefoko sentle, o gateletse mo lefelong le e seng lone, kgotsa gongwe o itlhokomolositse letshwao la potso. Go na le ditsela tse dintsi tsa go bitsa mafoko lefatshe ka bophara, tse dingwe ka tsone o ka tswang o ise o di utlwe mo lefelong la gago. Tsweetswee anaanela ba ba ka tswang ba bua ka tsela e e farologaneng le e o buang ka yone.
 contribution-varying-pronunciations-description-extended = Kafa letlhakoreng le lengwe, fa o akanya gore gongwe mmadi ga a ise a kopane le lefoko leo, mme o fopholetsa fela ka tsela e e sa siamang tsela e le bidiwang ka yone, tsweetswee e gane. Fa o sa tlhomamisege, dirisa konopo ya tlola.
 contribution-varying-pronunciations-example-1-title = Mo tlhogong ya gagwe o ne a rwele berethe.
