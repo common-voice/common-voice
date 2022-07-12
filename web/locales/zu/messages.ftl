@@ -576,6 +576,7 @@ about-playbook-how-grow-language-content-8 = <strong>Yakha ubuciko!</strong> Ump
 ## How to validate
 
 about-playbook-how-validate = Ngazi kanjani ukuthi ngigunyaze isiqeshana sezwi?
+about-playbook-how-validate-content-3 = Uma ucabanga ukuthi ukuphinyiswa kwamagama kwenza <strong>kungaqondeki</strong>, noma kuno <strong>msindo ongasemuva</strong>, noma kuna <strong>banye abantu abakhulumayo</strong>, kuzomele unqabe lesosiqephu. <accuracyLink>Bheka ulwazi olubanzi ngemibandela yokuqonda nqo</accuracyLink>.
 
 ## How to access dataset
 
@@ -1158,6 +1159,7 @@ sc-howto-addsen-item-1 = Yonke imisho oyihambisayo kufanele ibe ngaphansi kwe <w
 sc-howto-addsen-item-2 = Izinombolo. Akufanelanga kube nezinombolo emthonjeni obhaliwe ngoba zingadala izinkinga uma zifundelwa phezulu. Indlela ekufundwa ngayo inombolo ihambelana nomongo, lokhu kungadala indida emthonjeni. Isibonelo, inombolo u "2409" ingafundwa ngezindlela ezimbili, "Amashumi amabili nane - iqanda nesishiyagalolunye" kanye "Izinkulungwane ezimbili namakhulu amane nesishiyagalolunye."
 sc-howto-addsen-item-3 = Izifinyezo kanye nama-Akhronimi. Izifinyenzo kanye nama-akhronimi njengo "USA" noma "ICE" kufanele kugwenywe kumbhalo womthombo ngoba zingafundwa ngendlela engahambelani nokubizelwa kwawo. Ngaphezu kwalokho, kungaba nezindlela eziningi zokufunda isifinyenzo. Isibonelo, i-akhronimi "ICE" ingaphinyiswa kanje "I-C-E" noma njengegama elilodwa.
 sc-howto-addsen-item-4 = Izimpawu zenkulumo. Izimpawu ezikhethekile nezimpawu zankulumo kufanele zifakwe kuphela uma kudingeka ngempela. Isibonelo, i-aphostrofi efakwa emagameni esiNgisi anjengo "don't" no "we're" kufanele ifakwe emthonjeni wombhalo kodwa akuvamanga ukuthi izimpawu ezinjengo "@"noma "#" zizodingeka.
+sc-howto-addsen-item-5 = Izinhlamvu zamagama ezingajwayelekile. Izinhlamvu zamagama kufanele zivumeleke olimini olukhulunywayo. Isibonelo, “ж” inhlamvu olimini lwesi-Russia kepha alisetshenziswa esiNgisini, ngakho-ke akufanelanga livele kumbhalo wesiNgisi.
 sc-howto-addsen-post-1 = Sincamela imisho eyemvelo/exoxayo. Indlela yokukhuluma ehlikahlukene namagama ahlukahlukene emishweni abalulekile, kepha sizama ukuqopha imisho emnandi. Ngalokho ke, kungakuhle uma ungazama ukwenza imisho yakho eyemvelo noma ibandakanye kakhulu.
 sc-howto-cite-title = Ungacaphuna Kanjani
 sc-howto-cite-item-1 = Ungafaka iwebhusayithi, isb "Common Voice - https://commonvoice.mozilla.org/"
