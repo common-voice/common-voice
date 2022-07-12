@@ -72,6 +72,7 @@ nan-tw = Se-Taiwan (Minnan)
 nyn = Se-Runyankole
 oc = Se-Occitan
 om = Se-Afaan Ormoo
+or = Se-Odia
 pa-IN = Se-Punjabi
 pl = Se-Polish
 pt = Sepotokisi
@@ -213,6 +214,9 @@ shortcut-skip = t
 
 ## Listen Shortcuts
 
+# Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-play-toggle = t
 shortcut-play-toggle-label = Tshameka/Emisa
 # Must be one letter that appears in the { vote-yes } string.
 # Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
@@ -264,6 +268,8 @@ why-demographic-explanation-2 = Tshedimosetso ya botlhokaina jaaka dingwaga, bon
 accept-privacy = Ga ke na bothata le gore lo dirise tshedimosetso eno jaaka lo tlhalosa mo <privacyLink>Molawaneng wa Polokodiphiri</privacyLink> wa Mozilla
 skip-submission-description = Ka nako ya thomelo ya dikabo, maikutlo a tla tlolwa morago ga go tobetsa 'Romela'. Kabo e tla tswelela ka tlhamalalo ka dikgatiso kgotsa ditlhomamiso tse 5 tse di latelang.
 skip-submission-note = Ela tlhoko: O santse o tlhoka go tlhopha magareng ga Bua kgotsa Reetsa gore o fetole botsayakarolo jwa gago.
+off = E timile
+on = E tshubile
 help-accent-explanation = Segalo sa gago ke tsela e o bitsang mafoko ka yone. Se ka tlhotlhelediwa ke lefelo le o kileng wa tshela mo go lone, dipuo tse dingwe tse o kgonang go di bua, le dilo tse dingwe tse dintsi. O ka abalana tshedimosetso nngwe le nngwe e o akanyang gore e botlhokwa fano.
 help-variants-explanation = Dipuo ke mofuta o o rileng wa leleme - ka sekai, le buiwa ke batho ba ba nnang mo lefelong kgotsa mo morafeng o le mongwe. Ka dinako dingwe di bidiwa diteme.
 
@@ -364,6 +370,7 @@ about-get-involved-text-2 =
 about-stay-in-touch-button = Ikwadise
 about-stay-in-touch-text-1 = <emailFragment>Ikwadise</emailFragment> mo lenaaneng la rona la melaetsa go ithuta gore gore o ka tsaya karolo jang mo matsholong, mo ditiragalong le mo dikarolong tsa go tlhama mo Common Voice.
 about-stay-in-touch-text-2 = O ka kopana le bangwe ba badirisi ba puo mo Mozilla ka go nna karolo ya<discourseLink>Discourse</discourseLink> go bona metlotlo ya ditlhogo kgotsa <matrixLink>Matrix</matrixLink> go bona maele a ka bonako.
+about-nav-partners = Balekane
 
 ## Community Playbook Content
 ## What is a language
