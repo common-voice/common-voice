@@ -598,6 +598,7 @@ language-search-input =
 language-speakers = Dibui
 localized = E ranoletswe
 sentences = Dipolelo
+language-validation-hours = Diura
 
 ## Contribution
 
@@ -789,6 +790,7 @@ see-less = <chevron></chevron>Bona tse di fokoditsweng
 
 ## HEADER/FOOTER
 
+sc-header-how-to = Nka dira jang
 sc-header-add = Tsenya
 sc-header-review = Sekaseka
 sc-header-statistics = Dipalopalo
