@@ -95,6 +95,7 @@ request-language-button = Itani khumbelo ya Luambo
 ## ProjectStatus
 
 status-title = Mbalo-mbalo dza thandela yoṱhe nga u angaredza: vhonani uri ro no khunyeldza zwifhioi!
+status-contribute = Nikelani nga Ipfi Ḽaṋu
 status-hours =
     { $hours ->
         [one] [one] Awara nthihi yo khwaṱhisedzwa u swika zwino!
@@ -134,6 +135,7 @@ help-variants-explanation = Dzi Variants ndi mufuda wo khetheaho wa luambo – u
 ## Profile - Email
 
 browse-file-title = Apuḽodani tshinepe
+connect-gravatar = Khonekithani na Gravatar
 gravatar_not_found = A hu ngo waniwa gravatar ya email yaṋu
 file_too_large = Faela ye na i nanga ndi khulwanesa
 
@@ -226,6 +228,7 @@ about-yes-votes = ≥ 2 Ee Khetha
 about-yes-votes-text = Uri ipfi ḽo rekhodiwaho ḽi vhe tshipiḓa tsha dataset ya Common Voice, ḽi tea u vha ḽo khwaṱhisedzwa nga vhathu vhavhili.
 about-no-votes = ≥ 2 Hai Khetha
 about-no-votes-text = Musi muthu a tshi ri ipfi ḽo rekhodiwaho a ḽo ngo tea, ḽi ḓo humela kha mutevhe. Arali ha pfi a ḽo ngo tea lwa vhuvhili, ipfi ḽeneḽo ḽi ya fhethu hune ha pfi Clip Graveyard.
+about-dataset-new = Dataset ya Common Voice
 about-dataset-new-text = Dataset ya Common Voice i na maipfi o rekhodiwaho a zwigidi na zwigidi ane vhabveledzi vha a shumisa u ita zwishumiswa zwa u kona u ṱalukanya maipfi.
 about-clip-graveyard-text =
     Fhethu hu vhidzwaho The Clip Graveyard hu wanala maipfi a songo teaho e a kundelwa u vha tshipiḓa tsha dataset ya Common Voice. U fana na dataset, na yeneyi Clip Graveyard i nga danuḽodiwa.
@@ -363,6 +366,7 @@ review-aborted = U apuḽoda ho imiswa. Naa ni khou ṱoḓa u diḽita zwe na r
 review-submit-title = Ṱolisisani ni rumele
 review-submit-msg = Ro livhuwa no rekhoda!<lineBreak></lineBreak>Zwino ṱolisisani ni rumele zwe na rekhoda hafha fhasi.
 review-keep-recordings = Dzulani na zwe na rekhoda
+review-delete-recordings = Diḽitani zwe na rekhoda
 
 ## Datasets Page
 
@@ -520,6 +524,8 @@ report-success = Muvhigo wo phasa
 ## Dashboard
 
 toward-next-goal = Tsini na thipikwa tshi tevhelaho
+clips-you-recorded = Zwo rekhodiwaho
+clips-you-validated = Zwo rekhodiwaho zwe na zwi khaṱhisedza uri ndi zwone
 todays-recorded-progress = Mvela phanḓa ya ṋamusi ya Common Voice ya zwo rekhodiwaho
 todays-validated-progress = Mvela phanḓa ya ṋamusi ya Common Voice ya rekhodo dzo khwaṱhisedzwaho
 set-visibility = Itani uri ndi vhonale
@@ -800,6 +806,7 @@ sc-add-lang-process-notice = Arali luambo lwaṋu lu si ho hafha, ni nga lu humb
 
 sc-confirm-are-you-sure =
     .message = Mitaladzi a yo ngo rumelwa, naa ni na vhungoho ha uri ni khou ṱoḓa u ṱuwa?
+sc-confirm-sentences-title = Khwaṱhisedzani mitaladzi miswa
 # Variables:
 #   $countOfSentences (Number) - Number of sentences the user has filled in the submission form
 sc-confirm-sentences-found =
