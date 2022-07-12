@@ -41,9 +41,11 @@ cs = Se-Czech
 cv = Se-Chuvash
 cy = Se-Wales
 da = Se-Denmark
+dsb = Se-Sorbia, sa kwa Tlase
 es = Se-Spain
 eu = Se-Basque
 hr = Se-Croatia
+hsb = Se-Sorbia, sa kwa Godimo
 hy-AM = Se-Armania
 hyw = Se-Armenia sa Bophirima
 ko = Se-Korea
@@ -332,6 +334,7 @@ about-get-involved-text-2 =
     Go gontle! Golagana le rona ka imeile kgotsa diforamo tsa <discourseLink>Discourse</discourseLink>,
     romela mathata a webosaete ka <githubLink>GitHub</githubLink>, kgotsa nna karolo ya puisano ya morafe ya
     <matrixLink>Matrix</matrixLink>.
+about-stay-in-touch-button = Ikwadise
 about-stay-in-touch-text-1 = <emailFragment>Ikwadise</emailFragment> mo lenaaneng la rona la melaetsa go ithuta gore gore o ka tsaya karolo jang mo matsholong, mo ditiragalong le mo dikarolong tsa go tlhama mo Common Voice.
 about-stay-in-touch-text-2 = O ka kopana le bangwe ba badirisi ba puo mo Mozilla ka go nna karolo ya<discourseLink>Discourse</discourseLink> go bona metlotlo ya ditlhogo kgotsa <matrixLink>Matrix</matrixLink> go bona maele a ka bonako.
 
@@ -386,6 +389,7 @@ about-playbook-how-record-content-4 = Tlhomamisa gore polatefomo e a rekota pele
 about-playbook-how-grow-language = Re ka godisa puo jang ka katlego mo Common Voice?
 about-playbook-how-grow-language-content-1 = Go dira ditshono tsa gore batho ba bantsi ba nne le seabe mo Common Voice go tlhomamisa gore tshedimosetso e thusa batho ba bantsi kafa go ka kgonegang ka gone. Re dirile didirisiwa le dithempoleite tse o ka di dirisang.
 about-playbook-how-grow-language-content-3 = O ka dira ditiragalo go thusa batho go aba. Go motlhofo go feta jaaka o akanya. O ka e dira mo inthanete ka kgolagano ya bidio kgotsa wa e dira ka namana fa go sireletsegile go dira jalo. <eventTemplate>Leba dithempoleite le didirisiwa tsa rona tsa go dira ditiragalo</eventTemplate>.
+about-playbook-how-grow-language-content-4 = Metswedi ya go Ikgolaganya
 about-playbook-how-grow-language-content-5 = O ka dirisa metswedi ya mafaratlhatlha a boitapoloso go fetisa molaetsa. Abalana mekwalo e e bontshang gore ke eng go le botlhokwa, mme o golagane le batho ba bangwe ba ba buang ka dikgang tse di jaaka ditshwanelo tsa puo, lentswe, kgotsa go tlhoka tekatekano mo thekenolojing. Bona dikakantsho tse dingwe ka <campaignLink>go dira letsholo, go akaretsa tshedimosetso e o ka e dirisang gape</campaignLink>.
 about-playbook-how-grow-language-content-7 = Bona ba bangwe ba ba amegang. E ka nna diyunibesithi, dikolo tsa dipuo, ditlhopha tsa dikemedi kgotsa merafe ya tshedimosetso ya saense. Dira sengwe mme o tlhalose sentle gore ba ka thusa jang le gore ka ntlha yang. <outreachTemplates>Bona ditimeile tsa rona tsa thempoleite ya go thusa</outreachTemplates>.
 about-playbook-how-grow-language-content-8 = <strong>Itlhamele!</strong> Batho ba ba buang puo ya gago ba tlile go tlhomologa, mme tseno ke ditsela di le mmalwa tsa go simolola.
