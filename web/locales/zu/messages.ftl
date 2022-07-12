@@ -231,6 +231,7 @@ wall-of-text-more-desktop =
     Manje unganikela ngezwi lakho ukuze usisize sakhe isizindalwazi sezwi esinomthombo ovulekile esingasetshenziswa yinoma ubani
     ukwenza izinhlelo zokusebenza ezintsha zamadivayisi kanye newebhu. Funda umusho ukuze usize imishini ifunde ukuthi abantu bangempela bakhuluma kanjani. Hlola umsebenzi wabanye
     abahlanganyeli ukuthuthukisa ikhwalithi. Kulula kanjalo!
+wall-of-text-second = Idatha eningi esetshenziswa izinkampani ezinkulu ayivamile ukutholokala ebantwini abaningi. Sicabanga ukuthi lokho kuthiba imibono emisha. Yingakho sethula iCommon Voice, iphrojekthi ezosiza ukwenza ukuqoshwa kwamazwi kuvuleleke wonke umuntu.
 show-wall-of-text = Funda kabanzi
 help-us-title = Sisize siqinisekise imisho!
 help-us-explain = Cindezela okuthi dlala, lalela futhi usitshele: ingabe bawukhulume kahle lo musho ongezansi?
@@ -906,6 +907,7 @@ validated-clips = Iziqeshana Eziqinisekisiwe
 total-approved = Isamba Esigunyaziwe
 overall-accuracy = Ukunemba Sekukonke
 set-visibility = Hlela ukubonakala kwami
+visibility-explainer = Le silungiselelo silawula ukubonakala kwebhodi labaphambili. Uma kufihliwe, inqubekelaphambili yakho izofihleka. Lokhu kusho ukuthi isithombe sakho, igama lakho olisebenzisayo nenqubekelaphambili yakho ngeke ivele kwibhodi labaphambili. Qaphela, ibhodi labaphambili livuselelwa ~{ $minutes }min ukuveza izinguquko.
 visibility-overlay-note = Qaphela: Uma kusethelwe kokuthi 'Kuyabonakala', lesi silungiselelo singashintshwa sisuka <profileLink>Ikhasi Lephrofayela</profileLink>
 show-ranking = Bonisa izinga lami
 
@@ -987,6 +989,10 @@ return-to-edit-goal = Buyela lapha ukuze ushintshe injongo yakho noma nini.
 keep = Gcina
 remove = Susa
 remove-info = Isicelo sakho sokususa amazwi akho aqoshiwe kwisizinda sizosibhekisiswa. Uma isicelo sakho sivunywa, sizoxhumana nabo bonke asebasifakile kumadivayisi abo, sibacele ukuba bawasuse nabo.
+why-delete-recordings =
+    Amazwi aqoshiwe weCommon Voice asetshenziswa izifundiswa, amabhizinisi amancane, nabantu abantu abathanda amazwi aqoshiwe ukusiza ekufundiseni nokukhulisa emphakathini izinsiza ezinjengama modela amazwi. 
+    
+    Ungasitshela ukuba kungani ufuna okwakho okuqoshiwe kususwe?
 profile-form-delete = Susa iphrofayela
 
 ## Profile Download
@@ -1373,6 +1379,7 @@ sc-criteria-make-sure = Qiniseka ukuthi umusho uhambiselana nemibandela elandela
 sc-criteria-item-2 = Umusho kumele uhambisane nohlelo lolimi.
 sc-criteria-item-3 = Umusho kumele ukhulumeke.
 sc-criteria-item-4 = Uma umusho uhlangabezana nemibandela, chofoza okuthi &quot;Vumela&quot; inkinobho kwesokudla.
+sc-criteria-item-5-2 = Uma imisho ingahambelani nemibandela eshiwo ngaphezulu, cindezela u &quot;Nqaba&quot; inkinobho engakwesokunxele. Uma ungaqinisekanga ngomusho, ungaweqa wenze olandelayelo.
 sc-criteria-item-6 = Uma uphelelwa imisho okufanele uyibuyekeze, sicela usisize siqoqe imisho eminingi!
 
 ## REVIEW
