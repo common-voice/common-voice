@@ -40,12 +40,26 @@ nd = IsiNdebele (Emtla)
 nn-NO = iNorwegain Nynorsk
 nr = isiNdebele (Entshona)
 nso = iNorthen Sotho
+nyn = iRunyankole
 om = iAfaan Ornoo
 pap-AW = iPapiamento (Aruba)
 quy = iQuechua Chanka
 rm-sursilv = iRomansh Sursilvan
 rm-vallader = iRomansh Vllader
+ro = iRomanian
+ru = iRussian
+sah = iSakha
 sat = iSantali (Ol Chiki)
+sc = iSardinian
+scn = iSicilian
+shi = iShilha
+si = iSinhala
+sk = iSlovak
+skr = iSaraiki
+sl = iSlovenian
+so = iSomali
+sr = iSerbain
+ss = IsiSwati
 st = iSouthern Sotho
 sv-SE = iSwedish
 sw = iSwahili
@@ -58,6 +72,7 @@ ti = iTigrinya
 tig = iTigre
 tk = iTurkmen
 tl = iTagalog
+tn = iSetswana
 tok = iToki Pona
 tr = iTurkish
 ts = iXitsonga
@@ -193,9 +208,11 @@ shortcut-vote-no = n
 # Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-record-toggle = r
+shortcut-record-toggle-label = Rhekhoda/Yima
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Rekhodisha ikliphu kwakhona
 shortcut-discard-ongoing-recording-label = Lahla irekhodingi eqhubekayo
+shortcut-submit = Buya
 shortcut-submit-label = Ngenisa iiKliphu
 request-language-text = Awukaluboni ulwimi lwakho kwi-Common Voice okwangoku?
 request-language-button = Cela uLwimi
@@ -233,11 +250,14 @@ visible = Iyabonakala
 native-language =
     .label = Ulwimi lenkobe
 profile-form-add-accent = Yongeza i-accent entsha  "{ $inputValue }"
+profile-form-submit-save = Gcina
+profile-form-submit-saved = Igciniwe
 why-profile-title = Kutheni kufuneka iProfayile?
 why-profile-text =
     Ngokubonelela ngolwazi malunga nawe, idatha yesandi oyithumelayo kwi-Common Voice iya kuba luncedo ngakumbi kwiNtetho
     Iinjini zokuqaphela ezisebenzisa le datha ukuphucula ukuchaneka kwazo.
 build-profile = Yakha iProfayile
+settings = Iisetingi
 edit-profile = Hlengahlengisa iProfayile
 profile-create-success = Iphumelele, iprofayile yenziwe!
 profile-explanation = Gcina umkhondo wenkqubela yakho ngeprofayile kwaye uncede idatha yethu yelizwi ichaneke ngakumbi.
@@ -528,6 +548,8 @@ terms-disagree = Andivumelani
 review-aborted = Ukhutshelo luyekile. Ufuna ukucima iirekhodingi zakho?
 review-submit-title = Phonononga kwaye ungenise
 review-submit-msg = Enkosi ngokurekhoda!<lineBreak></lineBreak> Ngoku hlaziya kwaye ungenise iikliphu zakho ngezantsi.
+review-recording = Uphononongo
+review-rerecord = Rekhoda kwakhona
 review-cancel = Rhoxisa ukuNgeniswa
 review-keep-recordings = Gcina iirekhodingi
 review-delete-recordings = Cima irekhodingi zam
@@ -539,6 +561,8 @@ datasets-positioning =
     Sikholelwa ukuba iiseti ezinkulu zedatha zelizwi, ezifumanekayo kuwonke-wonke ziya kukhuthaza ukusungula izinto ezintsha kunye nokhuphiswano olusempilweni lwentengiso kumatshini wokufunda ngokusekwe kubuchwepheshe bentetho.
     I-datasethi yeelwimi ezininzi zeCommon Voice sele iyeyona inkulu ifumanekayo ku wonke-wonke, kodwa ayisiyiyo yodwa.
     Jonga kweli phepha njenge salathisi sezinye iiseti zedatha zezwi ezivulekileyo kwaye, njengoko iCommon Voice iqhubeka ikhula, indawo yokukhupha iindaba ezintsha zethu.
+# File size in gigabytes
+size = Ubukhulu
 validated-hr-total = Itotali yeyure eqinisekisiweyo
 overall-hr-total = Itotali yeyure iyonke
 audio-format = I-audio format
@@ -547,6 +571,8 @@ splits = Ukwahlukana
 email-to-download = Ngenisa Imeyile ukuze Ukhuphele
 why-email = <b>Kutheni kudingeka imeyile nje?</b> Kusenokufuneka siqhagamshelane nawe kwixesha elizayo malunga notshintsho kwi dataset, i-imeyile isinika indawo yoqhagamshelwano.
 confirm-size = Ulungele ukuqalisa ukhuphelo lwe <b>{ $size }</b>
+size-gigabyte = I-GB
+size-megabyte = I-MB
 confirm-no-identify = <b>Uyavuma</b> ukungazami ukumisela izazisi zezithethi kwidatha seti yeCommon Voice
 validated-hours = Iiyure eziqinisekisiweyo
 recorded-hours = Iiyure ezirekhodiweyo
@@ -640,12 +666,17 @@ language-section-launched-description = Kwezi lwimi ziqaliweyo iwebhusayithi iye
 languages-show-more = Bona okuninzi
 languages-show-less = Bona kancinci
 language-total-progress = Itotali
+language-search-input =
+    .placeholder = Khangela
 language-speakers = Izithethi
+sentences = Izivakalisi
 language-validation-progress = Inkqubela phambili yoQinisekiso
 
 ## Contribution
 
 action-tap = Cofa
+skip = Tsiba
+shortcuts = Iindlela ezimfutshane
 clips-with-count-pluralized =
     { $count ->
         [one] <bold>{ $count }</bold> Ikliphu
@@ -710,6 +741,7 @@ target-segment-learn-more = Funda ngakumbi
 
 ## Reporting
 
+report = Ingxelo
 report-title = Ngenisa ingxelo
 report-ask = Yeyiphi imiba onayo ngesi sivakalisi?
 report-offensive-language = Ulwimi olukhubekisayo
@@ -834,6 +866,7 @@ share-goal = Yabelana ngenjongo yam
 ## Profile Delete
 
 delete-q = Ingaba ungathanda ukucela ukuba ushicilelo lwelizwi lakho lucinywe, okanye ukhetha ukuzigcina kwiseti yedatha ye Common Voice?
+remove = Susa
 keep-info = Ushicilelo lwakho lwelizwi olungachazwanga luza kuhlala lukwi dathasethi yeCommon Voice. Ukuba uthe wacima iprofayile yakho awuzukukwazi ukungenisa isicelo sokususa ushicilelo lwakho kwidathasethi
 remove-info = Siza kujonga isicelo sakho sokususa ilizwi elirekhodiweyo kwidathasethi. Ukuba isicelo sakho samkelwe, siya kuqhagamshelana nabo bakhuphele i-dathasethi kwaye sibacele ukuba basuse ilizwi elirekhodiweyo.
 why-delete-recordings = Ukurekhodwa kwe-Common Voice kusetyenziswa ngabafundi, amashishini amancinci, kunye nabathandi bokuqonda ilizwi ukunceda ukuqeqesha kunye nokukhulisa izixhobo ezifumaneka kuwonke-wonke ezifana neemodeli zelizwi.
@@ -846,10 +879,13 @@ download-info = Sixelele into ongathanda ukuyikhuphela:
 download-profile-title = iProfayili
 download-profile-info = Kubandakanya i-imeyile, igama lomsebenzisi kunye nolwazi le-demographic, luyafumaneka kwangoko
 download-profile-size = Iibhayithi ezimbalwa
+download-recordings-title = Iirekhodingi
 download-recordings-info = Kubandakanya ii-mp3s kunye nezivakalisi ezinxulumene noko, zinokuthatha ixesha ukulungiselela
 download-recordings-size = I-megabytes eziqhelekileyo
 download-recordings-unavailable = Awukwazi ukucela iirekhodingi zakho ngelixa esinye isicelo sele siqhubeka.
 download-recently-requested = Ungacela uluhlu okutsha lweerekhodi zakho qho emva kweentsuku ezi{ $days }.
+download-size = Ubukhulu
+download-selected = Ikhethiwe
 download-start = Khuphela idatha yeprofayile
 download-request = Cela iirekhodingi
 download-requests = Izicelo zokukhuphela ezirekhodiweyo ezidlulileyo
@@ -858,6 +894,7 @@ download-request-description = Iikliphu zelizwi, ubungakanani obupheleleyo bogci
 download-request-archive-single = Ifayile ye-ZIP enye equlathe
 download-request-archive-multiple = Yahlula kwi { $archiveCount } iifayile zeZIP eziqulathe
 download-request-assembling-description = Iifayile zakho ziyahlanganiswa. Nceda ujonge kwakhona kamva.
+download-request-refresh-button = Hlaziya
 download-request-modal-title = Khuphela iiLinki
 download-request-modal-description = Nazi iilinki zokukhuphela iifayile zakho ze-ZIP.
 download-request-link-text = iZip #{ $offset } ye { $total }
@@ -966,6 +1003,7 @@ see-less = <chevron></chevron> Bona okuncinci
 
 ## HEADER/FOOTER
 
+sc-header-review = Uphononongo
 sc-header-rejected = Izivakalisi ezikhatywayo
 sc-header-my = Izivakalisi zam
 sc-header-statistics = Amanani
@@ -1198,6 +1236,7 @@ sc-login-err-try-again = Nceda zama kwakhona
 sc-personal-err-lang-not-found = Ayikwazanga ukususa ulwimi: ulwimi alufunyenwanga
 sc-personal-err-remove = Ayikwazanga ukususa ulwimi
 sc-personal-your-languages = Iilwimi zakho:
+sc-personal-remove-button = susa
 # Variables:
 #   $sentences (Number) - Number of sentences that were added by the currently logged in user for this language
 sc-personal-added-by-you = { $sentences } yongezwe nguwe
@@ -1228,6 +1267,12 @@ sc-review-form-usage = Swayipha ekunene ukuze uvume isivakalisi. Swayipha ekhohl
 # Variables:
 #   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
 sc-review-form-source = Umthombo: { $sentenceSource }
+sc-review-form-button-reject = Yala
+sc-review-form-button-skip = Tsiba
+# Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
+sc-review-form-button-reject-shortcut = N
+# Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
+sc-review-form-button-skip-shortcut = S
 sc-review-form-keyboard-usage-custom = Unokusebenzisa kwakhona iindlela ezimfutshane zekhibhodi  { sc-review-form-button-approve-shortcut } ukuvuma { sc-review-form-button-reject-shortcut } ukwala { sc-review-form-button-skip-shortcut } nokutsiba
 sc-review-form-button-submit =
     .submitText = Gqibezela uphononongo
@@ -1240,9 +1285,11 @@ sc-review-form-reviewed-message =
        *[other] { $sentences } isivakalisi sijongwe. Enkosi!
     }
 sc-review-form-review-failure = Uhlaziyo alukwazanga kugcinwa. Nceda uzame kwakhona mva.
+sc-review-link = Uphononongo
 
 ## SETTINGS
 
+sc-settings-title = Iisetingi
 sc-settings-ui-language = Ulwimi lwesiNxulumaniso
 sc-settings-reset-skipped = Seta kwakhona izivakalisi ezitsityiweyo
 sc-settings-skipped-decription = Ngaphambili utsibe izivakalisi ngelixa uphonononga.Ukuseta kwakhona izivakalisi ezitsityiweyo kuya kubonisa zonke izivakalisi ezitsityiweyo kwakhona. Oku kukuzimela kulwimi.
