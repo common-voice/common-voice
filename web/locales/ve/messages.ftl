@@ -69,6 +69,11 @@ todays-progress = Mvela Phanḓa ya Ṋamusi
 help-reach-goal = Ri thuseni u swikelela { $goal }
 read-terms-q = No no vhala Milayo ya Kushumisela yashu?
 ready-to-record = Naa no lugela u nikela nga ipfi ḽaṋu?
+x-weeks-short =
+    { $count ->
+        [one] vhege
+       *[other] { $count }wk
+    }
 help-make-dataset = Ri thuseni uri ri ite dataset ya vhuimo ha nṱha ya nnyi na nnyi
 sign-up-account = Itani Akhantu
 email-subscription-title = Ḓiṅwaliseni uri ni wane dzi apudeiti nga email
@@ -492,6 +497,11 @@ language-validation-progress = Mvela phanḓa yo Khwaṱhisedzwaho
 
 ## Contribution
 
+clips-with-count-pluralized =
+    { $count ->
+        [one] Zwo Rekhodiwaho
+       *[other] Zwo Rekhodiwaho
+    }
 goal-help-recording = No thusa Common Voice u swikelela <goalPercentage></goalPercentage> tsha ḓuvha { $goalValue } tshipikwa tsha u rekhoda!
 goal-help-validation = No thusa Common Voice u swikelela <goalPercentage></goalPercentage> tsha ḓuvha { $goalValue } tshipikwa tsha u khwaṱhisedza!
 contribute-more =
@@ -556,6 +566,21 @@ report-success = Muvhigo wo phasa
 
 ## Goals
 
+days =
+    { $count ->
+        [one] ḓuvha
+       *[other] Maḓuvha
+    }
+recordings =
+    { $count ->
+        [one] zwo rekhodiwaho
+       *[other] zwo rekhodiwaho
+    }
+validations =
+    { $count ->
+        [one] Khwaṱhisedzwaho
+       *[other] zwo  Khwaṱhisedzwaho
+    }
 
 ## Dashboard
 
@@ -615,6 +640,11 @@ how-many-a-week = Ndi zwavhuḓi! Hu ṱoḓea rekhodo nngana nga vhege?
 which-goal-type = Ni khou ṱoḓa u Amba, u Thetshelesa kana u ita zwoṱhe?
 receiving-emails-info = Zwa zwino ni kha mutevhe wa vhane vha ḓo wana email dzi ngaho dza u ni humbudza nga ha zwipikwa, mvela phanḓa yaṋu na maswa maswa nga ha Common Voice
 not-receiving-emails-info = Zwa zwino no pangiwa kha u <bold>U SA</bold> wana milaedza nga email yo no nga khumbudzo dza zwipikwa, mvela phanḓa yaṋu na newsletters nga ha Common Voice
+n-clips-pluralized =
+    { NUMBER($count) ->
+        [one] { $count } zwo rekhodiwaho
+       *[other] { $count } zwo rekhodiwaho
+    }
 help-share-goal = Ri thuseni u wana maipfi manzhi, sherani tshipikwa tshaṋu
 # $type is one of share-goal-type-*
 share-n-daily-contribution-goal = Sherani { $count } Tshipikwa tshaṋu tsha u Rekhoda tsha Ḓuvha{ $type }
