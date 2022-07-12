@@ -366,6 +366,7 @@ record-platform-not-supported = Uxolo, iqonga lakho alixhaswanga okwangoku.
 record-platform-not-supported-desktop = Kwizixhobo zedesktop unokunikela ngokukhuphela…
 record-platform-not-supported-ios-non-safari = Kwi-iOS nceda uqhubeke neSafari ukuvula ukurekhoda…
 review-tooltip = Hlaziya kwaye urekhode iikliphu kwakhona apha njengoko uhamba
+record-abort-text = Ukuhamba ngoku kuthetha ukuba uyakuphulukana nenkqubela phambili yakho
 listen-empty-state = Siphelelwe ziikliphu zokuqinisekisa kolu lwimi…
 listen-loading-error =
     Asikwazanga kufumana naziphi na iikliphu zeaudio ukuze umamele.
@@ -402,6 +403,7 @@ visibility-overlay-note = Qaphela: Xa imiselwe 'Iyabonakala', olu seto lungatshi
 
 goal-type = Loluphi uhlobo lwenjongo ofuna ukwakha?
 lose-goal-progress-warning = Ngokuhlela injongo yakho, unokuphulukana nenkqubela phambili yakho esele ikho.
+lose-changes-warning = Ukuhamba ngoku kuthetha ukuba uza kuphulukana notshintsho lwakho
 help-reach-hours-pluralized =
     { NUMBER($hours) ->
         [one] Nceda sifikelele { $hours } iyure kwi { $language } njongo yobuqu
@@ -458,6 +460,7 @@ download-request-link-single = Unokukopa kwaye uncamathisele ii-URL ezithe ngqo 
 ## Landing
 
 help-contribute = Unokunceda ukwakha iseti yedatha eyahlukeneyo, evulekileyo ngokudala iphrofayili yeCommon Voice kunye nogalelo lelizwi lakho.
+login-company = Ngena / Bhalisa nge-imeyile ye { $company }
 profile-not-required = Ukuba neprofayile akufuneki ukuba ube nogalelo nangona kuluncedo, bona ukuba kutheni ngezantsi
 
 ## DemoLayout
@@ -502,6 +505,7 @@ contribution-misreadings-example-5-title = Siyahamba siyokufumana ikofu.
 contribution-misreadings-example-7-title = Siyokufumana ikofu.
 contribution-varying-pronunciations-description = Lumka ngaphambi kokuba wale ikliphu kuba lowo uthe walifunda engalibizanga ngokungamnkelekanga igama, othe wagxininisa kwindawo engafanelekanga, okanye uye akaluhoya uphawu lombuzo. Kukho iintlobo ngeentlobo zokubizwa kwamagama asetyenziswayo kwihlabathi jikelele, ekusenokwenzeka ukuba awuzange waziva kwindawo ohlala kuyo. Nceda wamkele futhi uxabise abo banokuthetha ngokwahlukileyo kuwe.
 contribution-varying-pronunciations-description-extended = Lumka ngaphambi kokuba wale ikliphu kuba lowo uthe walifunda engalibizanga ngokungamnkelekanga igama, othe wagxininisa kwindawo engafanelekanga, okanye uye akaluhoya uphawu lombuzo. Kukho iintlobo ngeentlobo zokubizwa kwamagama asetyenziswayo kwihlabathi jikelele, ekusenokwenzeka ukuba awuzange waziva kwindawo ohlala kuyo. Nceda wamkele futhi uxabise abo banokuthetha ngokwahlukileyo kuwe.
+contribution-varying-pronunciations-example-1-title = Entloko ebenxibe ibharethi.
 contribution-varying-pronunciations-example-1-explanation = [‘Beret’ ulungile nokuba ugxininiso lukho pha kumagama asekuqaleni (UK) okanye kwawesibini (US)]
 contribution-varying-pronunciations-example-2-explanation = [‘Ukuphakanyiswa’ ngesiNgesi uhlala ebizwa njengegama elinye, hayi elineziqingatha ezimbini]
 contribution-background-noise-description = Sifuna ukuba umatshini wokufunda i-algorithms ukwazi ukumelana nengxolo eyahluka-hlukeneyo, kunye nengxolo etsholo phezulu inokwamkelwa ukuba ayikuthinteli ukuba uve itext iphela. Umculo ovakalayo ozolileyo ulungile; umculo ongxola ongxola kakhulu de ukukuthintela ukuba ungeva igama negama awamnkelekanga.
