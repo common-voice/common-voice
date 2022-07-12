@@ -4,6 +4,7 @@ yes-receive-emails = Ewe, ndithumele ii-imeyile.Ndingathanda ukuhlala ndinolwazi
 stayintouch = Thina kwaMozilla sakha uluntu malunga neteknoloji yelizwi. Singathanda ukuhlala sinxibelelana ne-updates,i-data sources ezintsha kwaye sive ngakumbi malunga nendlela oyisebenzisa ngayo le datha.
 privacy-info = Sithembisa ukuphatha ulwazi lwakho ngenkathalo. Funda ngakumbi kwi <privacyLink>Sazisi sabucala</privacyLink> yethu.
 return-to-cv = Buyela kuCommon Voice
+submit-form-action = Ngenisa
 email-opt-in-info = Ndingathanda ukufumana ii-imeyile ezifana nezikhumbuzi zenjongo, uhlaziyo lwam lwenkqubela phambili kunye neeleta zeendaba malunga neCommon Voice.
 email-opt-in-info-title = Joyina uluhlu lwe-imeyile lweCommon Voice
 email-opt-in-info-sub-with-challenge = Fumana ii-imeyile ezinjengomngeni kunye nezikhumbuzi zenjongo, uhlaziyo lwenkqubela phambili, kunye neeleta zeendaba malunga neCommon Voice.
@@ -718,6 +719,7 @@ report-success = Ingxelo ipasiswe ngempumelelo
 
 ## Goals
 
+streaks = Imivimbo
 days =
     { $count ->
         [one] iLanga
@@ -1018,6 +1020,9 @@ sc-my-description = Eli phepha likunika isishwankathelo sazo zonke izivakalisi o
 sc-my-loading = Ilayisha izivakalisi zakho…
 sc-my-err-fetching = Kubekho impazamo xa kulandwa izivakalisi zakho. Nceda zama kwakhona.
 sc-my-no-sentences = Akukho zivakalisi zifunyenweyo!
+# Variables:
+#   $batchId (String) - A unique ID identifying the submission of sentences - sentences uploaded together all have the same batch ID
+sc-my-submission = Ukungeniswa: { $batchId }
 sc-my-delete = Cima izivakalisi ezikhethiweyo
 sc-my-deleting = Kucinywa izivakalisi ezikhethiweyo…
 sc-my-err-failed-delete = Ayiphumelelanga ukucima izivakalisi ezikhethiweyo... Nceda uzame kwakhona!
@@ -1056,6 +1061,8 @@ sc-submit-from-where = Zivela phi ezi zivakalisi <wikipediaLink>zikawonke wonke<
 sc-submit-ph-read-how-to =
     .placeholder = Funda indlela yokwenza ukuba awuqinisekanga ukuba ungayichazanga njani
 sc-submit-confirm = Ndiyaqinisekisa ukuba ezi zivakalisi zikwi <wikipediaLink>ndawo kawonke wonke</wikipediaLink> kwaye ndinemvume yokuzifaka.
+sc-submit-button =
+    .submitText = Ngenisa
 sc-submit-filtered = Izivakalisi ezihluziweyo ngenxa yokungaphumeleli kweemfuno (nceda ungenise iinguqulelo ezisisigxina njengezivakalisi ezitsha):
 sc-submit-guidelines = Nceda utshekitshe i <howToLink>izikhokelo</howToLink>.
 
