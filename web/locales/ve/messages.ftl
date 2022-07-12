@@ -103,6 +103,7 @@ status-hours =
 
 profile-form-variant =
     .label = Ni amba varianti { $language } ifhio ya luambo?
+profile-form-variant-default-value = A hu na varianti yo nangiwaho
 profile-form-custom-accent-help-text =
     .label = Ni nga ṱalusa hani kuambele kwaṋu?
 profile-form-custom-accent-placeholder-2 = Thomani u thaipha uri ni kone u ṱalusa kuambele kwaṋu
@@ -135,6 +136,7 @@ file_too_large = Faela ye na i nanga ndi khulwanesa
 
 ## Profile - Email
 
+manage-email-subscriptions = Langani Email Subscription
 email-already-used = Email yo no shumisiwa u ita iṅwe akhantu
 change-email-setings = Shandukisani email yaṋu kha Setiṅi fhasi ha Login Identity
 
@@ -205,6 +207,7 @@ how-does-it-work-text = Ri khou lingedza u wana maipfi kha tshitshavha uri ri it
 about-language-req-subtitle = Hu na we a humbela uri luambo lu pangiwe.
 about-localization-subtitle = Mafhungo a re kha heyi website o ḓologiwa nga holuya luambo.
 about-sentence-collection-subtitle = Mitaladzi i kuvhanganyiwa uri vhathu vha i vhalele nṱha.
+about-new-lang-title = Luambo luswa lwo ḽontshiwa
 about-new-lang-subtitle = Ro ḽontsha saiti ya Common Voice nga holwu luambo.
 about-voice-contrib-subtitle = Vhathu vha ḓa vha nikela nga maipfi avho.
 about-voice-validation-subtitle = Vhaṅwe vho khwaṱhisedza hezwo zwo rekhodiwaho
@@ -354,6 +357,7 @@ terms-disagree = A thi tendelani nazwo
 review-aborted = U apuḽoda ho imiswa. Naa ni khou ṱoḓa u diḽita zwe na rekhoda?
 review-submit-title = Ṱolisisani ni rumele
 review-submit-msg = Ro livhuwa no rekhoda!<lineBreak></lineBreak>Zwino ṱolisisani ni rumele zwe na rekhoda hafha fhasi.
+review-keep-recordings = Dzulani na zwe na rekhoda
 
 ## Datasets Page
 
@@ -366,6 +370,7 @@ datasets-positioning =
     Sedzani kha siaṱari heḽi sa referentsi ya hub u itela u wana dziṅwe dataset dzine dza nga shumiswa nga vhathu vhoṱhe, samusi Common Voice i tshi khou bvela phanḓa na u aluwa, ndi hone haya hune ha ḓo vha na dzi updates dzashu.
 validated-hr-total = Khwaṱhisedza Hr. Thothaḽi
 overall-hr-total = Nga u angaredza Hr. Thothaḽi
+number-of-voices = Tshivhalo tsha maipfi
 email-to-download = Pangani email uri ni kone u downḽoda
 why-email = <b>Ndi ngani hu tshi ṱoḓea email?</b> Ri nga tea u ni kwama tshifhingani tshi ḓaho nga nṱhani ha tshanduko dzo iteaho kha dataset, email i ita uri ri kone u ni kwama.
 confirm-size = No lugela u thoma u downḽoda zwithu zwa <b>{ $size }</b>
@@ -456,6 +461,7 @@ record-platform-not-supported = Ri humbela pfarelo, puḽatifomo yaṋu a yi tik
 record-platform-not-supported-desktop = Kha tshishumiswa tsha desktop ni nga shela mulenzhe nga u downḽoda…
 record-platform-not-supported-ios-non-safari = Kha iOS ri humbela uri ni bvele phanḓa ni tshi shumisa Safari u itela uri ni kone u rekhoda…
 record-must-allow-microphone = Ni tea u tendela uri makrofouni i shumiswe.
+record-no-mic-found = A hu na makrofounu yo wanalaho.
 record-error-too-short = Zwo rekhodiwaho zwo vha zwi zwi pfufhisa.
 record-error-too-long = Zwo rekhodiwaho zwo vha zwo lapfesa.
 record-error-too-quiet = Zwo rekhodiwaho zwo vha zwi fhasisa.
@@ -588,6 +594,7 @@ read-more-about = Vhalani zwinzhi kha siaṱari la Ngaha
 
 ## DemoLayout
 
+demo-get-started = Kha Ri Thome
 demo-welcome = No ṱanganedziwa kha Common Voice
 demo-welcome-subheader = Naa ni a takalela u guda zwinzhi na u shela mulenzhe kha heyi thandela?
 
@@ -666,6 +673,7 @@ contribution-just-unsure-description = Arali na ṱangana na zwithu zwine zwi si
 
 sc-footer-translate = Ḓologani heḽi siaṱari
 sc-footer-report-copyright = Vhigani thaidzo dza kopi ya vhuṋe
+sc-login-signup-button = Ḽogani / Signup
 
 ## HOME
 
@@ -713,11 +721,14 @@ sc-howto-findpd-partner-2 = Vhaḓivhi vha luambo na vhone vha nga thusa, i ya n
 ## MY SENTENCES
 
 sc-my-description = Heḽi siaṱari ḽi ni sumbedza mitaladzi yoṱhe ye na i rumela. Ni nga phumula na mitaladzi ine no no i rumela arali zwi tshi ṱoḓea, nga u maka bogisi ḽi re tsini nawo na u puṱedza kha &quot;Delete selected sentences&quot; zwi re fhasi. Ri humbela uri ni bvise mitaladzi arali zwo tea fhedzi, sa tsumbo, arali na vhona uri mutaladzi wo tsireledzwa nga mulayo wa khophi ya vhuṋe.
+sc-my-loading = U ḽouda mitaladzi yaṋu...
 sc-my-err-fetching = Ho itea vhukhakhi ni tshi khou lingedza u dzhia mitaladzi yaṋu. Ri humbela uri ni lingedze hafhu.
+sc-my-no-sentences = A hu na mitaladzi yo wanalaho!
 sc-my-err-failed-delete = A zwo ngo konadzea u ḓilita mitaladzi... Ri humbela uri ni lingedze hafhu!
 
 ## REJECTED
 
+sc-rejected-loading = U ḽouda mitaladzi yo haniwaho...
 sc-rejected-err-fetching = Ho itea vhukhakhi ni tshi khou lingedza u dzhia mitaladzi yo haniwaho. Ri humbela uri ni lingedze hafhu.
 sc-rejected-none-found = A hu na mitaladzi yo haniwaho yo wanalaho!
 
@@ -859,6 +870,7 @@ sc-personal-not-added = A ni athu u panga luambo na luthihi u swika zwino.
 
 ## REVIEW CRITERIA
 
+sc-criteria-modal = ⓘ Nḓila ya u Ṱolisisa
 sc-criteria-make-sure = Itani vhungoho ha uri mutaladzi u swikelela ṱhoḓea dzi tevhelaho:
 sc-criteria-item-1 = Mutaladzi u tea u peḽeṱiwa nga nḓila yo teaho.
 sc-criteria-item-2 = Mutaladzi u tea u vha na grama yo teaho.
