@@ -205,6 +205,7 @@ about-subscribe-text = Ingaba ufuna ukuhlala unxulumene neCommon Voice?
 about-speak-text = Abanogalelo barekhoda iikliphu zelizwi ngokufunda ukusuka kwibhanki yezivakalisi ezinikezelweyo.
 about-listen-queue-text = Iikliphu zelizwi zifakwa kumgca wothumelo olulungele ukumamela.
 about-listen-text = Abasebenzisi baqinisekisa ukuchaneka kweekliphu ezinikezelweyo, bejonga ukuba isithethi sifunda isivakalisi ngokuchanekileyo.
+about-is-it-valid = Ingaba lekliphu iqinisekisiwe?
 about-is-it-valid-text = Ikliphu yelizwi iphawulwa "isemthethweni" xa umsebenzisi eyinika ivoti ethi Ewe.
 about-yes-votes-text = Ukufikelela kwidatha yeCommon Voice, ikliphu yelizwi kufuneka iqinisekiswe ngabasebenzisi ababini abohlukeneyo.
 about-no-votes-text = Xa umsebenzisi esala iklipu yelizwi ibuyela ekufoleni. Ukuba yaliwe okwesibini, iklipu yelizwi ithi isiwe kwi Clip Graveyard.
@@ -396,6 +397,7 @@ request-language-explanation-2 = <playbookLink>Fumana isikhokelo esiluncedo</pla
 request-language-form-info-explanation =
     Yongeza ulwazi oluninzi kangangoko unakho malunga nolwimi. Oku
     kunokubandakanya:
+request-language-form-info-explanation-list-1 = Amagama olwimi lwakho
 request-language-form-info-explanation-list-3 = Amakhonkco aya kwiwebhusayithi ezinookusinceda ukuba siqonde ulwimi
 request-language-google-recaptcha-required = I-reCAPTCHA iyadingeka ukuba ufuna ukuqhubeka
 request-language-google-recaptcha-error = Kukho into ehambe ngempazamo kwi-reCAPTCHA. Zama kwakhona ngelinye ixesha.
@@ -538,6 +540,7 @@ download-profile-info = Kubandakanya i-imeyile, igama lomsebenzisi kunye nolwazi
 download-recordings-info = Kubandakanya ii-mp3s kunye nezivakalisi ezinxulumene noko, zinokuthatha ixesha ukulungiselela
 download-recordings-unavailable = Awukwazi ukucela iirekhodingi zakho ngelixa esinye isicelo sele siqhubeka.
 download-recently-requested = Ungacela uluhlu okutsha lweerekhodi zakho qho emva kweentsuku ezi{ $days }.
+download-requests = Izicelo zokukhuphela ezirekhodiweyo ezidlulileyo
 download-requests-info = Xa ucela ushicilelo lwakho, siyaluqokelela lube yifayile yeZIP enye okanye ezininzi.Nazi izicelo zakho zangaphambili:
 download-request-description = Iikliphu zelizwi, ubungakanani obupheleleyo bogcino ezi { $clipCount }  { $size }. Ziphelelwa{ $expires }
 download-request-archive-single = Ifayile ye-ZIP enye equlathe
@@ -682,6 +685,7 @@ sc-my-err-failed-delete = Ayiphumelelanga ukucima izivakalisi ezikhethiweyo... N
 ## REJECTED
 
 sc-rejected-err-fetching = Kubekho impazamo xa kulandwa izivakalisi ezikhatywayo. Nceda zama kwakhona.
+sc-rejected-none-found = Akukho zivakalisi zaliweyo zifunyenweyo!
 
 ## STATS
 
@@ -698,6 +702,8 @@ sc-submit-err-add-source = Nceda wongeze umthombo.
 sc-submit-err-confirm-pd = Nceda uqinisekise ukuba ezi zivakalisi zezikawonke wonke.
 sc-submit-prompt =
     .message = Izivakalisi azingangeniswanga, ngaba uqinisekile ukuba ufuna ukuhamba?
+sc-submit-ph-one-per-line =
+    .placeholder = Isivakalisi esinye kumgca ngamnye
 sc-submit-from-where = Zivela phi ezi zivakalisi <wikipediaLink>zikawonke wonke</wikipediaLink>?
 sc-submit-ph-read-how-to =
     .placeholder = Funda indlela yokwenza ukuba awuqinisekanga ukuba ungayichazanga njani
