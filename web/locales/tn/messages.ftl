@@ -190,6 +190,7 @@ shortcut-vote-yes = e
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-record-toggle = r
 shortcut-record-toggle-label = Rekota/Emisa
+shortcut-submit = Busetsa
 shortcut-submit-label = Romela dibidio
 
 ## ProjectStatus
@@ -417,6 +418,7 @@ data-download-singleword-callout-v2 = Eno ke karolwana e e berekang e e nang le 
 review-terms = Ka go dirisa Common Voice, o dumalana le <termsLink>Melawana</termsLink> le <privacyLink>Kitsiso ya Polokodiphiri</privacyLink>
 review-aborted = Go tsenngwa go emisitswe. A o batla go phimola dikgatiso tsa gago?
 review-submit-msg = Re lebogela go gatisa!<lineBreak></lineBreak>Jaanong o ka sekaseka o bo romela dikgatiso tsa gago fa tlase.
+review-recording = Sekaseka
 review-rerecord = Rekota sesha
 review-cancel = Khansela go Romela
 
