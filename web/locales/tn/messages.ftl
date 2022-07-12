@@ -296,6 +296,7 @@ profile-explanation = Ela tlhoko kgatelopele ya gago o dirisa porofaele mme o th
 thanks-for-account = Re lebogela go tlhomamisa akhaonto ya gago, jaanong a re dire porofaele ya gago.
 why-demographic-explanation-2 = Tshedimosetso ya botlhokaina jaaka dingwaga, bong le segalo di tla thusa go tokafatsa go nepa ga didirisiwa tsa go lemoga mantswe. Leinatiriso le imeile ya gago di ka se amanngwe le tshedimosetso ya gago e e rometsweng, mme o ka tlhopha gore a o batla go senola kgotsa go fitlha leinatiriso la gago.
 accept-privacy = Ga ke na bothata le gore lo dirise tshedimosetso eno jaaka lo tlhalosa mo <privacyLink>Molawaneng wa Polokodiphiri</privacyLink> wa Mozilla
+skip-submission-feedback = Tlola go Romela Pegelo
 skip-submission-description = Ka nako ya thomelo ya dikabo, maikutlo a tla tlolwa morago ga go tobetsa 'Romela'. Kabo e tla tswelela ka tlhamalalo ka dikgatiso kgotsa ditlhomamiso tse 5 tse di latelang.
 skip-submission-note = Ela tlhoko: O santse o tlhoka go tlhopha magareng ga Bua kgotsa Reetsa gore o fetole botsayakarolo jwa gago.
 off = E timile
@@ -669,6 +670,7 @@ you = Wena
 set-visibility = Dira gore ke bonale
 visibility-explainer = Seting eno e laola tsela e o bonang lenaane la baetapele ka yone. Fa e fitlhegile, kgatelopele ya gago e tla nna ya poraefete. Seno se raya gore setshwantsho sa gago, leinatiriso la gago le kgatelopele ya gago ga di kitla di bonala mo lenaaneng la baetapele. Ela tlhoko gore go tlhabolola lenaane la baetapele go tsaya metsotso e le ~{ $minutes } go bontsha diphetogo.
 visibility-overlay-note = Ela tlhoko: Fa e beilwe mo go 'Bonagala', o ka kgona go fetola seting eno mo <profileLink>tsebeng ya Porofaele</profileLink>
+show-ranking = Bontsha gore ke wa bokae
 
 ## Custom Goals
 
