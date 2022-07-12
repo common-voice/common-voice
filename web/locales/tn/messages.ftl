@@ -198,6 +198,7 @@ wall-of-text-second =
     Batho ba bantsi ga ba kgone go fitlhelela bontsi jwa tshedimosetso e e dirisiwang ke dikhampani tse dikgolo. Re akanya
     gore seo se kgoreletsa go tlhama dilo. Ka jalo re simolotse Common Voice, porojeke e e thusang gore
     mongwe le mongwe a kgone go bona le go fitlhelela temogo ya mantswe.
+help-us-title = Re thuse go tlhomamisa mela!
 help-us-explain = Tobetsa tshameka, reetsa & re bolelele: a ba buile mola o o fa tlase ka tsela e e nepagetseng?
 no-clips-to-validate = Go lebega go se na dikgatiso dipe tse di tlhokang go reediwa mo puong eno. Re thuse go di oketsa ka go rekota dingwe gone jaanong.
 vote-yes = Ee
@@ -206,6 +207,7 @@ toggle-play-tooltip = Tobetsa { shortcut-play-toggle } go nna o tshameka
 speak-subtitle = Abelana ka lentswe la gago
 speak-paragraph = Go rekota mantswe ke karolo e e botlhokwa thata e e thusang go aga rekoto ya tshedimosetso; ba bangwe ba ka re gape ke karolo e e itumedisang.
 speak-goal-text = Dibidio di rekotilwe
+listen-subtitle = Re thuse go tlhomamisa mantswe
 listen-paragraph = Go tlhomamisa dikgatiso tse di abilweng le gone go botlhokwa mo maikaelelong a Common Voice. Reetsa mme o re thuse go dira tshedimosetso e e nang le boleng ya mantswe.
 listen-goal-text = Dibidio di tlhomamisitswe
 todays-progress =
@@ -217,6 +219,7 @@ todays-progress =
             }
        *[other] Days
     }
+help-reach-goal = Re thuse go { $goal }
 read-terms-q = A o badile Melawana ya rona?
 ready-to-record = A o ipaakanyeditse go abelana ka lentswe la gago?
 all-locales = Tsotlhe
@@ -452,6 +455,7 @@ about-listen-queue = Mola wa theetso
 about-listen-queue-text = Dikgatiso tsa mantswe di tsena mo moleng wa go romelwa o o dirang gore di siamele go reediwa.
 about-listen = Reetsa
 about-listen-text = Badirisi ba tlhomamisa gore a direkoting tse go abalanweng ka tsone di nepagetse, ba tlhola gore a sebui se bala mela sentle.
+about-is-it-valid = A kgatiso e siame?
 about-is-it-valid-text = Kgatiso ya lentswe e tshwaiwa e "siame" fa modirisi a e neile tlhopho ya Ee.
 about-yes-votes-text = Gore kgatiso ya lentswe e tsene mo rekotong ya tshedimosetso ya Common Voice, e tshwanetse ya bo e tlhomamisitswe ke badirisi ba babedi.
 about-no-votes-text = Fa modirisi a gana polelo, e boela kwa Moleng. Fa kgatiso ya lentswe e ganwa lekgetlho la bobedi, e romelwa kwa Clip Graveyard.
@@ -584,6 +588,7 @@ error-content-503 = Webosaete e tla bo e boetse mo maemong ka bonako jo bo kgone
 
 ## Data
 
+data-download-button = Itseele Tshedimosetso ya Common Voice
 data-download-deny = Nyaa
 data-download-modal = O tloga o simolola download ya <size>{ $size }GB</size>, a o a tswelela?
 data-subtitle = Re aga rekoto ya tshedimosetso ya mantswe e mongwe le mongwe a ka e dirisang go thapisa dithulaganyo tse di kgonang go dirisa mantswe.
@@ -597,6 +602,7 @@ license = Laesense: <licenseLink>{ $license }</licenseLink>
 data-download-singleword-title = Itseele Dikarolwana Tsa Lefoko le le Lengwe la Puo
 data-download-singleword-callout-v2 = Eno ke karolwana e e berekang e e nang le tshedimosetso ya go matlafatsa mokgwa wa go dirisa puo le o o kgonang go lemoga ee / nnyaa.
 review-terms = Ka go dirisa Common Voice, o dumalana le <termsLink>Melawana</termsLink> le <privacyLink>Kitsiso ya Polokodiphiri</privacyLink>
+terms-disagree = Ga ke dumele
 review-aborted = Go tsenngwa go emisitswe. A o batla go phimola dikgatiso tsa gago?
 review-submit-title = Sekaseka & Romela
 review-submit-msg = Re lebogela go gatisa!<lineBreak></lineBreak>Jaanong o ka sekaseka o bo romela dikgatiso tsa gago fa tlase.
@@ -620,6 +626,7 @@ cv-license = Laesense
 audio-format = Kgatiso e e Reediwang
 number-of-voices = Palo ya Mantswe
 splits = Tse di kgaoganeng
+email-to-download = Tsenya Email Gore o Itseele
 why-email = <b>Goreng imeile?</b> Re ka tlhoka go ikgolaganya le wena mo isagweng malebana le diphetogo tsa tshedimosetso, imeile ke tsela e re ikgolaganyang ka yone.
 confirm-size = O ipaakanyeditse go simolola go itseela <b>{ $size }</b>
 size-gigabyte = GB
@@ -647,6 +654,7 @@ data-other-tatoeba-description = Tatoeba ke tshedimosetso e kgolo ya dipolelo, d
 your-feedback = A o na le dikakantsho tsa gore re ka tokafatsa jang direkoto tsa tshedimosetso ya Common Voice? Re itsise mo Discourse
 go-discourse = Ya kwa Discourse
 missing-language = Ga o bone puo ya gago e tlhaga mo Rekotong ya Tshedimosetso? Go kopa puo, ya kwa tsebeng ya rona ya Dipuo.
+go-languages-page = Ya Kwa Tsebeng ya Dipuo
 ready-to-validate = A o ipaakanyeditse go tlhomamisa mela?
 more = Mo go Oketsegileng
 close = Tswala
@@ -686,6 +694,8 @@ request-language-explanation-1 =
 request-language-explanation-2 =
     Gape re tla <strong>itsise motsamaisi wa lefelo la rona gore o a kgatlhega
     </strong>, gore a kgone go go naya tshegetso e e oketsegileng kgotsa tshedimosetso e o ka e tlhokang.
+request-language-form-info =
+    .label = Tshedimosetso ka puo
 request-language-form-info-explanation = Tsenya tshedimosetso e ntsi ka fa o ka kgonang ka teng ka puo. Seno se ka akaretsa:
 request-language-form-info-explanation-list-1 = Maina a puo ya gago
 request-language-form-info-explanation-list-3 = Dilinki tsa diwebosaete tse di ka re thusang go tlhaloganya puo
@@ -762,6 +772,7 @@ clips-uploaded = Dibidio di tsentswe
 record-abort-title = Fetsa go gatisa pele?
 record-abort-text = Fa o tswa gone jaanong o tla latlhegelwa ke kgatelopele e o e dirileng
 record-abort-submit = Romela dibidio
+record-abort-delete = Tswa & Phimola dikgatiso
 listen-instruction = { $actionType }<playIcon></playIcon> a ba buile mola ka tsela e e nepagetseng?
 listen-again-instruction = O berekile!<playIcon></playIcon> Reetsa gape fa o ipaakantse
 listen-3rd-time-instruction = O feditse tse 2, tshwara fela jalo!<playIcon></playIcon>
@@ -783,6 +794,7 @@ report = Bega
 report-title = Romela pego
 report-ask = O itemogela mathata afe ka mola ono?
 report-offensive-language-detail = Mola o na le puo ya lenyatso kgotsa e e kgopisang.
+report-grammar-or-spelling = Phoso ya thutapuo / mopeleto
 report-different-language-detail = E kwadilwe ka puo e e farologaneng le e ke e buang.
 report-difficult-pronounce = Go thata go le bitsa
 report-difficult-pronounce-detail = E na le mafoko kgotsa dipolelo tse go leng thata go di bala kgotsa go di bitsa.
@@ -842,6 +854,8 @@ show-ranking = Bontsha gore ke wa bokae
 
 ## Custom Goals
 
+get-started-goals = Simolola ka maikaelelo
+create-custom-goal = Itirele Boikaelelo Jo o Ka bo Kgonang
 goal-type = O batla go ikagela boikaelelo jo bo ntseng jang?
 both-speak-and-listen = Ka bobedi
 weekly-goal = Boikaelelo Jwa Beke
@@ -995,6 +1009,7 @@ contribution-varying-pronunciations-description = Nna kelotlhoko pele o gana kga
 contribution-varying-pronunciations-description-extended = Kafa letlhakoreng le lengwe, fa o akanya gore gongwe mmadi ga a ise a kopane le lefoko leo, mme o fopholetsa fela ka tsela e e sa siamang tsela e le bidiwang ka yone, tsweetswee e gane. Fa o sa tlhomamisege, dirisa konopo ya tlola.
 contribution-varying-pronunciations-example-1-title = Mo tlhogong ya gagwe o ne a rwele berethe.
 contribution-varying-pronunciations-example-1-explanation = [‘Berethe’ e siame le fa go gatelelwa ditlhaka tsa ntlha (UK) kgotsa tsa bofelo (US)]
+contribution-varying-pronunciations-example-2-title = Seatla sa gagwe se ne se tsholedi-tswe.
 contribution-varying-pronunciations-example-2-explanation = [Ka dinako tsotlhe ‘Raised’ ka Seesemane o bidiwa e le lefoko le le lengwe, e seng a mabedi]
 contribution-background-noise-title = Modumo kwa Lemoragong
 contribution-background-noise-description = Re batla gore go ithuta ga metšhine go kgone go lepalepana le medumo e mentsi e e kwa morago, le medumo e e kwa godimo e ka amogelesega fa fela e sa go thibele go utlwa mokwalo otlhe. Mmino o o lelang kwa morago go didimetse o siame; mmino o o kwa godimo thata mo o go thibelang go utlwa mafoko otlhe ga wa siama.
