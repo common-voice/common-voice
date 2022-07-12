@@ -32,6 +32,7 @@ cy = iWelsh
 de = IsiJamani
 dsb = iSorbian, Lower
 el = IsiGrike
+en = IsiNgesi
 eo = I-Esperanto
 es = iSpanish
 et = I-Estonian
@@ -87,6 +88,7 @@ mr = iMarathi
 mrj = iHill Mari
 ms = iMalay
 mt = iMaltese
+myv = I-Erzya
 nan-tw = iTaiwanese (Minnan)
 nb-NO = iNorwegain Bokmål
 nd = IsiNdebele (Emtla)
@@ -298,6 +300,7 @@ status-hours =
 # Variables:
 # $goal - number of hours representing the next goal
 status-goal = Iinjongo ezilandelayo: { $goal }
+english = IsiNgesi
 
 ## ProfileForm
 
@@ -611,6 +614,7 @@ error-title-404 = Asikwazanga ukukufumanela elo phepha
 error-content-404 = Mhlawumbi <homepageLink>i-homepage</homepageLink> iya kunceda? Ukubuza umbuzo, nceda ujoyine <matrixLink>Ingxoxo ye-Matrix yoluntu</matrixLink>, jonga imiba yesayithi usebenzisa <githubLink>iGitHub</githubLink> okanye undwendwele <intethoLink>iiforum zethu zeNtetho</discourseLink>.
 error-title-503 = Sijongene nengxaki elingalindelekanga
 error-content-503 = Isaythi iyakubuyiselwa ngokukhawuleza. Ngolwazi lwamva nje, nceda ujoyine <matrixLink>Ingxoxo yeMatrix yasekuhlaleni</matrixLink> okanye undwendwele <githubLink>i-GitHub</githubLink> okanye <discourseLink>iiforam zethu zeNtetho</discourseLink> ukuze ungenise kwaye ujonge imiba yamava esayithi.
+error-code = Impazamo  { $code }
 
 ## Data
 
