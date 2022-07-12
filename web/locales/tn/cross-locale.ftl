@@ -1,6 +1,6 @@
 ## Languages
 
-contribute = { "" }
+contribute = Aba
 get-involved-title = Abela
 get-involved-text =
     Re lebogela go kgatlhegela ga gago go nna le seabe mo { $lang }. Re dira ka natla gore puo nngwe le nngwe e bo e siametse go simolola mme re
