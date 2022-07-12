@@ -20,8 +20,13 @@ error-something-went-wrong = Uxolo, kukho into engahambanga kakuhle
 
 ## Languages
 
+dsb = iSorbian, Lower
+hsb = iSorbian, Upper
 nan-tw = iTaiwanese (Minnan)
+rm-sursilv = iRomansh Sursilvan
+rm-vallader = iRomansh Vllader
 sat = iSantali (Ol Chiki)
+st = iSouthern Sotho
 tok = iToki Pona
 zh-HK = iChinese (Hong Kong)
 
@@ -234,6 +239,7 @@ how-does-it-work-text = Sithumela isethi yedatha evulekileyo yamazwi. Nikela nge
 about-language-req-subtitle = Umntu ucele kongezwe ulwimi.
 about-localization-title = iLocalisation yeWebhusayithi
 about-localization-subtitle = Itekisi yewebhu iguqulelwa kolo lwimi.
+about-sentence-collection-title = Ingqokelela yezivakalisi
 about-sentence-collection-subtitle = Izivakalisi ziqokelelwa ukuba abantu bafunde ngokuvakalayo.
 about-new-lang-title = Ukuphehlelelwa kolwimi olutsha
 about-new-lang-subtitle = Sisungula i-site yeCommon Voice kolu lwimi.
@@ -263,6 +269,7 @@ about-get-involved-text-2 =
     iiforam, ngenisa imiba yesayithi usebenzisa <githubLink>GitHub</githubLink>, okanye ujoyine
     <matrixLink>Matrix</matrixLink> incoko yoluntu.
 about-stay-in-touch = Ndinganxibelelana njani?
+about-stay-in-touch-button = Bhalisa
 about-stay-in-touch-text-1 = <emailFragment>Sign up</emailFragment> kuluhlu lwethu lokuposa ukuze ufunde ukuba ungathatha njani inxaxheba kwimikhankaso, iminyhadala kunye neempawu zokuyila ngokubambisana kwiCommon Voice.
 about-stay-in-touch-text-2 = Ungadibana nabanye boluntu lolwimi lwaseMozilla ngokujoyina <discourseLink>Discourse</discourseLink> kumakhonco ezihloko, okanye <matrixLink>Matrix</matrixLink> ukufumana ingcebiso ekhawulezileyo.
 about-nav-why-common-voice = Ngoba?
@@ -329,6 +336,7 @@ about-playbook-how-record-content-5 = <accuracyLink>Bona ngakumbi kwiikhrayither
 about-playbook-how-grow-language = Singalukhulisa njani ngokufanelekileyo ulwimi kwiCommon Voice?
 about-playbook-how-grow-language-content-1 = Ukudala amathuba okuba abantu abahlukeneyo babe nogalelo kwiCommon Voice liqinisekisa ukuba i-dathasethi izisa iinkonzo kubantu abaninzi kangangoko. Senze izixhobo kunye neetemplate onokuzisebenzisa!
 about-playbook-how-grow-language-content-3 = Ungaqhuba imisitho ukunceda abantu ukuba bafake isandla. Kulula kunokuba ucinga. Ungayenza kwi-intanethi ngesixhobo se-videoconferencing, okanye ngokobuqu ukuba ikhuselekile. <eventTemplate>Jonga iitemplates zethu kunye nezixhobo zokuqhuba imisitho</eventTemplate>.
+about-playbook-how-grow-language-content-4 = Amakhasi onxibelelwano
 about-playbook-how-grow-language-content-5 = Unokusebenzisa amakhasi onxibelelwano ukuhambisa umyalezo. Yabelana ngee-posts ezichaza ukuba kutheni kubalulekile, kwaye uqhagamshelane nabanye abantu abathetha ngemiba efana namalungelo olwimi, iVoice AI, okanye utyekelo kwicala le tech. Bona iingcebiso ezingakumbi <campaignLink>ukuqhuba iphulo loluntu, kuquka umxholo onokuphinda uwusebenzise</campaignLink>.
 about-playbook-how-grow-language-content-6 = Intsebenziswano kunye nothungelwano
 about-playbook-how-grow-language-content-7 = Fumana abanye abakhathalayo. Kusenokuba ziiyunivesithi, izikolo zolwimi, amaqela athethelela abanye abantu okanye uluntu lwenzululwazi yedatha. Fikelela kubo uze ucacise ngokucacileyo ukuba banokunceda njani kwaye kutheni. <outreachTemplates>Jonga ii-imeyile zethu zokufikelela kwitemplate</outreachTemplates>.
@@ -361,6 +369,7 @@ about-playbook-how-project-governance-content-7 = <governanceLink>Funda ngakumbi
 ## Glossary
 
 localization-explanation = Le yinkqubo yethu yokuguqulela kunye nokulungelelanisa umxholo wethu kwiingingqi ezininzi (iilwimi).
+sentence-collection = Ingqokelela yezivakalisi
 sentence-collection-explanation = Ukuqokelela izivakalisi kwindawo yoluntu, okanye ukubhala ezintsha kwindawo yoluntu.
 hours-recorded-explanation = Kubalwa kweeyure zokurekhoda ilizwi eziqokelelweyo ukuza kuthi ga ngoku.
 hours-validated-explanation = Isibalo seeyure zokurekhoda kwezwi eziye zaqinisekiswa ngabasebenzisi aba-2 kwaba-3 ngevoti ethi "Ewe". La manqaku aphawula inkqubela phambili kwiprojekthi iyonke kwiinjongo zeeyure ezimisiweyo ezili-10.
@@ -488,6 +497,8 @@ request-language-error = Kusenokwenzeka ukuba asisifumananga eso sicelo.Nceda us
 
 language-section-in-progress-new-description = Ezi lwimi ngoku ziphantsi kophuhliso loluntu. <localizationGlossaryLink> i-localization yeWebhusayithi</localizationGlossaryLink> kwaye <sentenceCollectionGlossaryLink> ukuqokelelwa kwezivakalisi</sentenceCollectionGlossaryLink> kuyadingeka ukuqaliswa.
 language-section-launched-description = Kwezi lwimi ziqaliweyo iwebhusayithi iye yasebenza ngempumelelo <localizationGlossaryLink>localized</localizationGlossaryLink>, kwaye inokwanela <sentenceCollectionGlossaryLink>izivakalisi eziqokelelweyo</sentenceCollectionGlossaryLink> ukuvumela ukuqhubeka<speakLink>Speak</speakLink> kwaye <listenLink> iminikelo</listenLink>.
+languages-show-more = Bona okuninzi
+languages-show-less = Bona kancinci
 language-validation-progress = Inkqubela phambili yoQinisekiso
 
 ## Contribution
@@ -672,6 +683,7 @@ download-recordings-size = I-megabytes eziqhelekileyo
 download-recordings-unavailable = Awukwazi ukucela iirekhodingi zakho ngelixa esinye isicelo sele siqhubeka.
 download-recently-requested = Ungacela uluhlu okutsha lweerekhodi zakho qho emva kweentsuku ezi{ $days }.
 download-start = Khuphela idatha yeprofayile
+download-request = Cela iirekhodingi
 download-requests = Izicelo zokukhuphela ezirekhodiweyo ezidlulileyo
 download-requests-info = Xa ucela ushicilelo lwakho, siyaluqokelela lube yifayile yeZIP enye okanye ezininzi.Nazi izicelo zakho zangaphambili:
 download-request-description = Iikliphu zelizwi, ubungakanani obupheleleyo bogcino ezi { $clipCount }  { $size }. Ziphelelwa{ $expires }
@@ -680,6 +692,7 @@ download-request-archive-multiple = Yahlula kwi { $archiveCount } iifayile zeZIP
 download-request-assembling-description = Iifayile zakho ziyahlanganiswa. Nceda ujonge kwakhona kamva.
 download-request-modal-description = Nazi iilinki zokukhuphela iifayile zakho ze-ZIP.
 download-request-link-text = iZip #{ $offset } ye { $total }
+download-request-metadata-link = Isicatshulwa sesivakalisi
 download-request-link-single = Unokukopa kwaye uncamathisele ii-URL ezithe ngqo kwindawo yokukhuphela oyithandayo. Ziya kuphelelwa kwiiyure ezili-12, kodwa ungabuyela kweli phepha ukwenza ezintsha nangaliphi na ixesha.
 
 ## Landing
@@ -782,6 +795,7 @@ sc-login-signup-button = Ngena / Bhalisa
 sc-home-title = Wamkelekile kuMqokeleli wesivakalisi seCommon Voice
 sc-home-intro = Umqokeleli wezivakalisi yinxalenye  <commonVoiceLink>ye-Common Voice</commonVoiceLink>. Ivumela abaxhasi ukuba baqokelele kwaye baqinisekise (bapasise) izivakalisi eziqulunqwe luluntu. Unokusebenzisa esi sixhobo ukungenisa kunye nokucoca i-corpus oyiqokeleleyo kwindawo yoluntu ukusukela kwencinci-ephakathi-ukuya kwenkullu. Zonke izivakalisi kufuneka zibe kanti zidalelwe uwonke-wonke. Izivakalisi ezivunyiweyo zikhutshelwa ngaphandle kwiveki nganye kwindawo yokugcina i-Common Voice kwaye zikhutshwe kwiwebhusayithi ye-Common Voice kuko konke ukusasaza okutsha.
 sc-home-collect-text = Sincede ngokubhala okanye ukuqokelela izivakalisi zesizinda zoluntu.
+sc-home-review-title = Phonononga izivakalisi
 sc-home-review-text = Sincede ngokuphonononga izivakalisi ngokuchaneka ngokwezikhokelo.
 
 ## GENERAL
@@ -805,6 +819,7 @@ sc-howto-cite-pre-1 = Kubalulekile ukuba ureferense apho ufumene khona iphepha-m
 sc-howto-cite-item-1 = Unokubandakanya iwebhusayithi, umzekelo "iCommon Voice- https://commonvoice.mozilla.org/"
 sc-howto-cite-item-2 = Unokusebenzisa isitayile sereferensi sezemfundo, umz. isitayile seHarvard "Mozilla (2021) Common Voice. Ifumaneka apha https://commonvoice.mozilla.org/ (Ijongwe: nge-15 kaSeptemba 2021)"
 sc-howto-cite-item-3 = Kumbhalo wesizinda sikawonke-wonke ongafumanekiyo kwi-intanethi, ungasebenzisa isimbo sereferensi yezemfundo umz. isimbo saseHarvard "Jess (2021) Imibongo yam yelayisensi kawonke"
+sc-howto-review-title = Phonononga izivakalisi
 sc-howto-review-subtitle = Qinisekisa ukuba isivakalisi siyahlangabezana nale migaqo ilandelayo:
 sc-howto-review-criteria-1 = Isivakalisi masipelwe ngokuchanekileyo.
 sc-howto-review-criteria-2 = Isivakalisi masichaneke ngokwegrama.
@@ -855,6 +870,8 @@ sc-submit-err-add-source = Nceda wongeze umthombo.
 sc-submit-err-confirm-pd = Nceda uqinisekise ukuba ezi zivakalisi zezikawonke wonke.
 sc-submit-prompt =
     .message = Izivakalisi azingangeniswanga, ngaba uqinisekile ukuba ufuna ukuhamba?
+sc-submit-select-language =
+    .labelText = Khetha Ulwimi
 sc-submit-add-sentences = Yongeza izivakalisi <wikipediaLink>zikawonke wonke</wikipediaLink>
 sc-submit-ph-one-per-line =
     .placeholder = Isivakalisi esinye kumgca ngamnye
@@ -985,6 +1002,7 @@ sc-personal-not-added = Awufakanga naziphi na iilwimi okwangoku.
 ## REVIEW CRITERIA
 
 sc-criteria-modal = ⓘ Phonononga ikhrayitheriya
+sc-criteria-title = Phonononga ikhrayitheriya
 sc-criteria-make-sure = Qinisekisa ukuba isivakalisi siyahlangabezana nale migaqo ilandelayo:
 sc-criteria-item-1 = Isivakalisi masipelwe ngokuchanekileyo.
 sc-criteria-item-2 = Isivakalisi masichaneke ngokwegrama.
@@ -996,6 +1014,7 @@ sc-criteria-item-6 = Ukuba uphelelwa zizivakalisi zokuphonononga, nceda usincede
 ## REVIEW
 
 sc-review-lang-not-selected = Awukhethanga naziphi na iilwimi.Nceda uye kwi <profileLink>Profile</profileLink> yakho ukukhetha iilwimi.
+sc-review-title = Phonononga izivakalisi
 sc-review-select-language = Nceda ukhethe ulwimi lokuphonononga izivakalisi.
 sc-review-no-sentences = Akukho zivakalisi zokuphononongwa. <addLink>Yongeza izivakalisi ngoku!</addLink>
 sc-review-form-prompt =
