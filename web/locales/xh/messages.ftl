@@ -28,7 +28,10 @@ arn = iMapudungun
 cak = iKaqchikel
 ckb = iCentral Kardish
 cnh = iHakha Chin
+co = iCorsican
+cs = IsiCzech
 cy = iWelsh
+da = IsiDanish
 de = IsiJamani
 dsb = iSorbian, Lower
 dv = iDhivehi
@@ -49,6 +52,7 @@ gom = iGoan Konkani
 ha = IsiHausa
 he = IsiHebhere
 hi = IsiHindi
+hr = IsiCroatian
 hsb = iSorbian, Upper
 ht = IsiHaitian
 hu = IsiHungarian
@@ -72,6 +76,7 @@ kmr = iKurmanji Kurdish
 knn = iKonkani (Devenagari)
 ko = IsiKorea
 kpv = iKomi-Zyrian
+kw = iCornish
 ky = iKyrgyz
 lb = iLuxembourgish
 lg = iLuganda
@@ -177,6 +182,7 @@ profile = Iprofayili
 help = Uncedo
 privacy = Ubumfihlo
 terms = Imigaqo/ amagama
+cookies = iCookies
 faq = I-FAQ
 content-license-text = Umxholo okhoyo phantsi kwe <licenseLink>Creative Commons license</licenseLink>
 share-title = Sincede sifumane abanye abaza kunikela ngelizwi labo!
@@ -341,6 +347,7 @@ why-profile-title = Kutheni kufuneka iProfayile?
 why-profile-text =
     Ngokubonelela ngolwazi malunga nawe, idatha yesandi oyithumelayo kwi-Common Voice iya kuba luncedo ngakumbi kwiNtetho
     Iinjini zokuqaphela ezisebenzisa le datha ukuphucula ukuchaneka kwazo.
+dashboard = iDashboard
 build-profile = Yakha iProfayile
 goals = Iinjongo
 settings = Iisetingi
@@ -790,6 +797,7 @@ language-validation-progress = Inkqubela phambili yoQinisekiso
 ## Contribution
 
 action-tap = Cofa
+contribute = Yiba nogalelo
 listen = Mamela
 skip = Tsiba
 shortcuts = Iindlela ezimfutshane
@@ -871,6 +879,7 @@ report-difficult-pronounce-detail = Inamagama okanye amabinzana ekunzima ukuwafu
 report-offensive-speech = Intetho ekhubekisayo
 report-offensive-speech-detail = Ikliphu inolwimi olukrwada okanye olukhubekisayo.
 success = Impumelelo
+continue = Qhubeka
 report-success = Ingxelo ipasiswe ngempumelelo
 
 ## Goals
@@ -1069,6 +1078,7 @@ demo-dashboard-card-body = Kwikliphu nganye yelizwi ekunikelwe ngayo, kunye nekl
 
 ## Validation criteria
 
+contribution-criteria-nav = Ikhrayitheriya
 contribution-criteria-link = Qonda iindlela zokunikela
 contribution-criteria-page-title = Indlela yokunikela
 contribution-criteria-page-description = Qonda into omawuyijonge xa umamele iiklip zelizwi kwaye uncede wenze urekhodo lwelizwi lakho lutyebe!
@@ -1142,6 +1152,7 @@ sc-footer-translate = Guqulela eliphepha
 sc-footer-report-copyright = Xela imiba yelungelo lokushicilela
 sc-footer-privacy = Ubumfihlo
 sc-footer-terms = Imigaqo/ amagama
+sc-footer-cookies = iCookies
 sc-login-signup-button = Ngena / Bhalisa
 sc-logout-button = Phuma
 
