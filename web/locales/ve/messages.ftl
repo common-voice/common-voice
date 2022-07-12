@@ -26,10 +26,14 @@ et = Estonian
 hsb = Sorbian, Upper
 hyw = Armenian Western
 nan-tw = Taiwanese (Minnan)
+rm-sursilv = Romansh Sursilvan
+rm-vallader = Romansh Vallader
 sat = Santali (Ol Chiki)
 st = Southern Sotho
 tok = Toki Pona
 zh-HK = Chinese (Hong Kong)
+zh-TW = Chinese (Taiwan)
+zu = Zulu
 
 # [/]
 
@@ -184,6 +188,7 @@ browse-file = Kokodzani ni laṱele kana <browseWrap>ni fhenḓe-fhenḓe</brows
 connect-gravatar = Khonekithani na Gravatar
 gravatar_not_found = A hu ngo waniwa gravatar ya email yaṋu
 file_too_large = Faela ye na i nanga ndi khulwanesa
+remove-avatar = Bvisani Tshinepe
 
 ## Profile - Email
 
@@ -706,8 +711,10 @@ download-recordings-size = Typically megabytes
 download-recordings-unavailable = Ni nga si kone u humbela zwe na rekhoda ngeno hu tshi kha ḓi vha na zwiṅwe zwe na zwi humbela zwi re nḓilani.
 download-recently-requested = Ni nga humbela uri ni dzhie zwe na rekhoda { $days } ḓuvha ḽiṅwe na ḽiṅwe.
 download-start = Downḽodani data ya profaiḽi
+download-request = Humbelani zwo rekhodiwaho
 download-requests = Khumbelo ya u downḽoda zwo rekhodiwaho kale
 download-requests-info = Musi ni tshi humbela zwe na rekhoda, ri zwi panga kha faela ya ZIP nthihi kana nnzhi. Khumbelo dzaṋu dza tshifhinga tsho fhiraho khedzi:
+download-request-button = Downḽodani
 download-request-description = { $clipCount } maipfi o rekhodiwaho, saizi ya zwo vhulungwaho { $size }. Fhelelwa nga tshifhinga { $expires }.
 download-request-archive-single = Pfarelo, hu na zwi songo tshimbilaho zwavhuḓi
 download-request-archive-multiple = Khethekanyani kha { $archiveCount } faela dza ZIP dzi re na
@@ -806,6 +813,7 @@ contribution-just-unsure-description = Arali na ṱangana na zwithu zwine zwi si
 
 ## HEADER/FOOTER
 
+sc-footer-report-bugs = Vhigani zwi sa Tshimbili zwavhuḓi
 sc-footer-translate = Ḓologani heḽi siaṱari
 sc-footer-report-copyright = Vhigani thaidzo dza kopi ya vhuṋe
 sc-login-signup-button = Ḽogani / Signup
@@ -815,6 +823,7 @@ sc-login-signup-button = Ḽogani / Signup
 sc-home-title = No ṱanganedzwa kha tsha u Kuvhanganya Mitaladzi tsha Common Voice
 sc-home-intro = Tshau Kuvhanganya mitaladzi ndi <commonVoiceLink>Common Voice</commonVoiceLink>. I tendela vhashelaho mulenzhe uri vha kuvhanganye na u ita vhungoho ha mitaladzi yo itwaho nga vhadzulapo ndi yone. Ni nga shumisa tshenetshi tshishumiswa u import na u kunakisa small-to-medium-sized public domain corpus dze na wana na dze na kuvhanganya. Mitaladzi yoṱhe i tea u vha ya Public Domain. Mitaladzi ine ya pfi ndi yone-yone i ya expoteliwa kha Common Voice repository vhege iṅwe na iṅwe nahone ya bviselwa kha website ya Common Voice musi hu tshi bviswa zwithu zwiswa.
 sc-home-collect-text = Ri thuseni nga u ṅwala kala u kuvhanganya mitaladzi ya Fhethu ha Tshitshavha Tshoṱhe.
+sc-home-review-title = Ṱolisisani Mitaladzi
 sc-home-review-text = Ri thuseni u ṱolisisa mitaladzi uri ni vhone arali yo tea u ya nga vhulivhisi.
 
 ## GENERAL
@@ -838,6 +847,7 @@ sc-howto-cite-pre-1 = Ndi zwa ndeme uri ni sumbedze referentsi ya he na wana hon
 sc-howto-cite-item-1 = Ni nga katela na website, e.g "Common Voice - https://commonvoice.mozilla.org/"
 sc-howto-cite-item-2 = Ni nga shumisa tshi taela tsha academic ni tshi ita dzi referentsi, sa tsumbo Harvard style "Mozilla (2021) Common Voice. Zwi wanala kha https://commonvoice.mozilla.org/ (Accessed: 15th Khumbvumedzi 2021)"
 sc-howto-cite-item-3 = Arali zwo ṅwalwaho zwa fhethu ha tshitshavha tshoṱhe zwi si ho onḽaini, ni nga shumisa tshitaela tsha academic reference. Sa tsumbo, Harvard style "Jess (2021) My Public licence poems"
+sc-howto-review-title = Ṱolisisani Mitaladzi
 sc-howto-review-subtitle = Itani vhungoho ha uri mutaladzi u swikelela ṱhoḓea dzi tevhelaho:
 sc-howto-review-criteria-1 = Mutaladzi u tea u peḽeṱiwa nga nḓila yo teaho.
 sc-howto-review-criteria-2 = Mutaladzi u tea u vha na grama yo teaho.
@@ -867,6 +877,7 @@ sc-my-err-failed-delete = A zwo ngo konadzea u ḓilita mitaladzi... Ri humbela 
 
 ## REJECTED
 
+sc-rejected-title = Mitaladzi yo Haniwaho
 sc-rejected-loading = U ḽouda mitaladzi yo haniwaho...
 sc-rejected-err-fetching = Ho itea vhukhakhi ni tshi khou lingedza u dzhia mitaladzi yo haniwaho. Ri humbela uri ni lingedze hafhu.
 sc-rejected-none-found = A hu na mitaladzi yo haniwaho yo wanalaho!
@@ -1019,6 +1030,7 @@ sc-personal-not-added = A ni athu u panga luambo na luthihi u swika zwino.
 ## REVIEW CRITERIA
 
 sc-criteria-modal = ⓘ Nḓila ya u Ṱolisisa
+sc-criteria-title = Nḓila dza u Ṱolisisa
 sc-criteria-make-sure = Itani vhungoho ha uri mutaladzi u swikelela ṱhoḓea dzi tevhelaho:
 sc-criteria-item-1 = Mutaladzi u tea u peḽeṱiwa nga nḓila yo teaho.
 sc-criteria-item-2 = Mutaladzi u tea u vha na grama yo teaho.
@@ -1030,6 +1042,7 @@ sc-criteria-item-6 = Arali na fhelelwa nga mitaladzi ya u ṱolisisa, ri humbela
 ## REVIEW
 
 sc-review-lang-not-selected = A ni a thu u nanga na luambo na luthihi. Ri umbela uri ni ye kha <profileLink>Profaiḽi</profileLink> yaṋu uri ni nange nyambo.
+sc-review-title = Ṱolisisani Mitaladzi
 sc-review-select-language = Ri humbela uri ni nange luambo uri ni kone u ṱolisisa mutaladzi.
 sc-review-no-sentences = A hu na mutaladzi une wa ṱoḓa u ṱoliwa. <addLink>Pangani miṅwe mitaladzi zwino!</addLink>
 sc-review-form-prompt =
