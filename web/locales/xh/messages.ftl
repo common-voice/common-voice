@@ -43,9 +43,14 @@ wall-of-text-second =
     oko kumisa ukwenza izinto ngakutsha. Ke siqale i-Common Voice, iprojekthi yokunceda ukwenza ukuqondwa kwelizwi kuvuleleke kwaye ifikeleleka kumntu wonke.
 help-us-explain = Cinezela dlala, mamela kwaye usixelele: ngaba basithetha ngokuchanekileyo esi sivakalisi singezantsi?
 no-clips-to-validate = Kubonakala ngathi akukho zikliphu zokumamela kolu lwimi. Sincede sigcwalise umgca ngokurekhoda ezinye ngoku.
+toggle-play-tooltip = Cinezela u { shortcut-play-toggle } ukutshintsha indlela yokudlala
 speak-paragraph = Ukurekhoda iikliphu zelizwi yinxalenye yolwakhiwo lwedatha yethu evulekileyo; abanye bangathi yeyona nto imnandi.
 listen-paragraph = Ukuqinisekisa iikliphu ezinikezelweyo kubalulekile ngokulinganayo kwimishini yeCommon Voice. Phulaphula kwaye usincede senze idatha yelizwi esemgangathweni
+read-terms-q = Ngaba uyifundile iMiqathango yethu?
+ready-to-record = Ingaba ukulungele ukunikela ngelizwi lakho?
 help-make-dataset = Sincede sakhe umgangatho ophezulu, idatha seti evuleke kuluntu
+sign-up-account = Bhalisa ukufumana i-akhawunti
+email-subscription-title = bhalisa ukufumana i-imeyile
 email-subscription-title-new = Bhalisela iindaba zeCommon Voice, izikhumbuzo zenjongo kunye nohlaziyo lwenkqubela phambili
 
 ## Account Benefits
@@ -91,20 +96,26 @@ profile-form-variant =
 profile-form-custom-accent-help-text =
     .label = Ungayichza njani i-accent yakho?
 profile-form-custom-accent-placeholder-2 = Qalisa ukuchwetheza ukuchaza isivakalisi sakho
+profile-form-add-accent = Yongeza i-accent entsha  "{ $inputValue }"
 why-profile-text =
     Ngokubonelela ngolwazi malunga nawe, idatha yesandi oyithumelayo kwi-Common Voice iya kuba luncedo ngakumbi kwiNtetho
     Iinjini zokuqaphela ezisebenzisa le datha ukuphucula ukuchaneka kwazo.
 profile-explanation = Gcina umkhondo wenkqubela yakho ngeprofayile kwaye uncede idatha yethu yelizwi ichaneke ngakumbi.
 thanks-for-account = Enkosi ngokuqinisekisa i-akhawunti yakho, ngoku masikhe iprofayile yakho.
+why-demographic = Kutheni lento ibalulekile?
 why-demographic-explanation-2 = Iincukhaca ezingachazwanga njengeminyaka, isini, kunye ne- accent zinceda ukuphucula idatha yesandi esetyenziswayo ukuqeqesha ukuchaneka kweenjini zokuqondwa kwentetho. Igama lomsebenzisi lakho kunye ne-imeyile soze linxulunyaniswe nedatha oyingenisileyo, kwaye unokukhetha ukuba wenze igama lomsebenzisi lakho lifikelele ku-wonke wonke okanye lingaziwa.
 accept-privacy = Ndilungile ngokuphatha olu lwazi njengoko luchazwa <privacyLink>Kumgaqo-nkqubo</privacyLink> weMozilla
+login-signup = Ngena / Bhalisa
 skip-submission-description = Ngexesha lokungeniswa kogalelo ingxelo iya kutsitywa emva kokucofa u-'Thumela'. Ugalelo luya kuqhubeka ngokuthe ngqo kunye nesethi elandelayo yorekhodo oluhlanu okanye ukuqinisekiswa.
 skip-submission-note = Qaphela: Kusafuneka ukhethe phakathi kokuThetha okanye ukuMamela ukutshintsha uhlobo lomnikelo.
+help-accent = Udinga uncedo nge-accent?
 help-accent-explanation = I-accent yakho yindlela owabiza ngayo amagama. Inokubunjwa yindawo obuhlala kuyo, ezinye iilwimi ozithethayo kunye nezinye izinto ezininzi. Ungabelana ngalo naluphi na ulwazi ocinga ukuba lufanelekile apha.
+help-variants = Ingaba ufuna uncedo ngeendlela ezahlukeneyo?
 help-variants-explanation = Ukwahluka-hlukana kulwimi luhlobo oluthile lolwimi- umzekelo ekwabelwana ngawo ngabo bahlala kummandla okanye kwindawo enye. Ngamanye amaxesha ezi zibizwa ngokuba zii-dialects
 
 ## Profile - Email
 
+browse-file = Tsala kwaye ulahle okanye <browseWrap>Ukhangele</browseWrap>
 gravatar_not_found = Akukho gravatar ifunyenweyo kwi-imeyile yakho
 file_too_large = Ifayile ekhethiweyo inkulu kakhulu.
 
@@ -115,10 +126,12 @@ change-email-setings = Guqula i-imeyile yakho usebenzisa iiSetingi phantsi kwesa
 
 ## FAQ
 
+faq-what-cv-q = Yintoni iCommon Voice?
 faq-what-cv-a = Itekhnoloji yokuqonda ilizwi iguqula indlela esisebenzisana ngayo noomatshini, kodwa iinkqubo ezikhoyo ngoku zibiza imali eninzi kwaye zinobunikazi. I- Common Voice yinxalenye lenyathelo lokwenza itekhnoloji yokuqondwa kwelizwi ibengcono kwaye ifikeleleke kumntu wonke. I-Common Voice liziko ledatha elikhulu lehlabathi lamazwi angumnikelo avumela nabani na ukuba aqeqeshe ngokukhawuleza nangokulula ii voice-enabled apps kuzo zonke iilwimi ngokunokwenzeka.
 faq-what-cv-a-2 =
     Itekhnoloji yokuqonda ilizwi iguqula indlela esisebenzisana ngayo noomatshini, kodwa iinkqubo ezikhoyo ngoku zibiza imali eninzi kwaye zinobunikazi. I- Common Voice yinxalenye lenyathelo lokwenza itekhnoloji yokuqondwa kwelizwi ibengcono kwaye ifikeleleke kumntu wonke. ICommon Voice liziko ledatha elikhulu lehlabathi lamazwi angumnikelo avumela nabani na ukuba aqeqeshe ngokukhawuleza nangokulula ii voice-enabled apps kuzo zonke iilwimi ngokunokwenzeka.
     Asiqokeleli kuphela iisampulu zelizwi kwiilwimi ezithethwa ngabantu abanintsi kodwa nakwezo zithethwa ngabantu abambalwa. Ukupapasha isethi yedatha yamazwi ahlukeneyo kuya kuxhobisa abaphuhlisi, oosomashishini, kunye noluntu ukuba basombulule lo msantsa ngokokwabo.
+faq-why-important-q = Kutheni ibalulekile?
 faq-why-important-a =
     Intetho ihlala iyeyona ndlela yendalo esinxibelelana ngayo kunye nabanye abantu kwaye ubuchwepheshe bale mihla bokubandakanya ilizwi buzisa olo ncedo kwikhompyutha zethu nakwizixhobo eziphathwayo. Sifuna ukuxhobisa abaphuhlisi ukwakha i-apps eziva amazwi abantu ngokumangalisayo njengabaguquleli bexesha lokwenyani kwakunye ne- voice-enabled digital assistants.
     Kodwa ngoku uninzi lwedatha efunekayo yelizwi ukwakha ezi ntlobo ze-apps iyabiza kakhulu kwaye zinobunikazi. Siyathemba ukuba Common Voice dataset iya kunika abaphuhlisi into abayidingayo ukuze bavelise izinto ezintsha kwaye benze ubuchwepheshe bokuthetha bufumaneke ngolwimi lwabo.
@@ -157,12 +170,14 @@ faq-where-src-from-2-a =
 faq-why-not-ask-read-q = Kutheni ungaceli abantu ukuba bafunde kwiincwadi okanye amanqaku eWikipedia ngeelwimi ezahlukeneyo?
 faq-why-not-ask-read-a = Ukwenza i-Common Voice dataset ibe luncedo kangangoko siye sagqiba ukuvumela kuphela i- source text ekhoyo phantsi kwelayisensi ye-Creative Commons (CC0) Ukusebenzisa umgangatho weCC0 kuthetha ukuba kunzima kakhulu ukufumana nokuqokelela i-source text, kodwa ivumela nabani na ukuba asebenzise isiphumo sedatha yelizwi ngaphandle kwezithintelo zosetyenziso okanye isigunyaziso esivela kwiMozilla. Ekugqibeleni, sifuna ukwenza iseti yedatha yeelwimi-ngeelwimi ibe luncedo kangangoko kumntu wonke, ukubandakanywa abaphandi, iiyunivesithi, iziqalo (start-ups), oorhulumente, imibutho yeenjongo zentlalo, kwakunye nabo bathanda izinto zokuzonwabisa.
 faq-why-account-q = Kutheni le nto ndifanele ndibhalisele i-akhawunti?
+faq-is-account-public-q = Ngaba ulwazi lwe-akhawunti yam lusesidlangalaleni?
 faq-how-privacy-q = Uqinisekisa njani ukungaziwa kunye nemfihlo yabantu abanikele ngamazwi abo?
 faq-how-privacy-a = Zonke iikliphu zelizwi kwi dataset zisuswa kwanto enokuthi ibonakalise isazisi somntu. Xa umxhasi enikezela ngeencukhaca mayela naye idemographic, olo lwazi luchazwa kwiiklip zelizwi ngaphambi kokuba ludityaniswe lukhutshelwe kwi-dataset kwaye alwenziwa luvele kumntu wonke.
 faq-what-determine-identity-q = Kuthetha ukuthini ukuba andinako "ukuchonga isazisi" sezithethi kwidatha seti yeCommon Voice?
 faq-what-determine-identity-a =
     I-Common Voice dataset sisixhobo esamkelayo nesifumanekayo emntwini wonke esingasetyenziselwa ukuqeqesha i-apps gabalala ezakhelwe intetho. Ukugcina ukhuseleko (ukugcina abaxhasi bethu bekhuselekile)lwabaxhasi bethu, sicela wonke umntu okhuphela I-Common Voice dataset ukuba ahloniphe imfihlo yabaxhasi.
     Zonke ikliphu ezikwi dataset zisusiwe ulwazi lobuqu oluchaza umntu ngamnye. Xa ukhuphela i-dataset, uyavuma ukuba awungekhe ulinge ukufumanisa ukuba ngubani na nawuphi na umxhasi. Oko kuthetha ukuba awunakuzama ukudibanisa ulwazi olukwi dataset kulwazi lomntu siqu lomxhasi. Nangona kunjalo, ungathi usebenzise isethi yedatha ukuqeqesha i-speech recognition, ukuqondwa kwesithethi, okanye ezinye iinkqubo, ngomzekelo, ngokunxibelelanisa ulwazi olukwidathabheyisi nolunye ulwazi olusele lukwi dataset.
+faq-what-is-cv = Yintoni iCommon Voice?
 faq-description = Icommon Voice yinxalenye yenyathelo likaMozilla lokunceda ukufundisa oomatshini indlela abantu bokwenyani abathetha ngayo.
 
 ## ABOUT US
@@ -170,6 +185,7 @@ faq-description = Icommon Voice yinxalenye yenyathelo likaMozilla lokunceda ukuf
 about-header-description-v2 =
     <p>I-Common Voice yidatha yelizwi ekhoyo kuwonke-wonke, inikwa amandla ngamazwi wabaxhasi avolontiyayo kwihlabathi liphela. Abantu abafuna ukwakha i-apps zelizwi banokusebenzisa idataset ukuqeqesha omatshini abafundayo (machine learning models).</p>
     </p>Okwangoku, uninzi voice datasets zezenkampani, ezithintela ukuqamba izinto ezintsha. Voice datasets nazo azimelanga: abantu abangathethi siNgesi, abantu bebala, abantu abakhubazekileyo, abafazi kunye nabantu beLGBTQIA+. Oku kuthetha ukuba itekhnoloji eyenziwe ngelizwi ayisebenzi kwaphela kwiilwimi ezininzi, kwaye apho isebenza khona, isenokungasebenzi ngokulinganayo kumntu wonke. Sifuna ukuyitshintsha loo nto ngokuhlanganisa (moilize) abantu kuyo yonke indawo ukuba babelane ngelizwi labo (to share their voice).</p>
+how-does-it-work-title-v2 = Isebenza njani iCommon Voice?
 how-does-it-work-text = Sithumela isethi yedatha evulekileyo yamazwi. Nikela ngelizwi lakho, qinisekisa ukuchaneka kweeklip zabanye abantu, yenza iseti yedatha ibengcono kumntu wonke.
 
 ## How does it work section
@@ -200,6 +216,8 @@ about-get-involved-text-2 =
 about-stay-in-touch = Ndinganxibelelana njani?
 about-stay-in-touch-text-1 = <emailFragment>Sign up</emailFragment> kuluhlu lwethu lokuposa ukuze ufunde ukuba ungathatha njani inxaxheba kwimikhankaso, iminyhadala kunye neempawu zokuyila ngokubambisana kwiCommon Voice.
 about-stay-in-touch-text-2 = Ungadibana nabanye boluntu lolwimi lwaseMozilla ngokujoyina <discourseLink>Discourse</discourseLink> kumakhonco ezihloko, okanye <matrixLink>Matrix</matrixLink> ukufumana ingcebiso ekhawulezileyo.
+about-nav-how-it-works-2 = Isebenza njani iCommon Voice?
+about-nav-playbook = Funda indlela yokuthatha inxaxheba
 
 ## Community Playbook Content
 ## What is a language
@@ -227,9 +245,11 @@ about-playbook-how-add-language-collecting-sentences-content-2 =
     Unako <sentenceCollectorLinkAdd>ukongeza amanani amancinci ezivakalisi</sentenceCollectorLinkAdd>,
     okanye ungenza <bulkImportDocsLink>amanintsi angaphandle usebenzisa iGithub</bulkImportDocsLink>.
     Khumbula ukuba izivakalisi kufuneka zibe <licenseLink>CC0 (okanye indawo kaWonke wonke)</licenseLink>, okanye ungabhala eyakho.
+about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>Bona ngakumbu kuqokelelo lwezivakalisi</sentenceCollectorFragment>.
 
 ## How does localization work
 
+about-playbook-how-localize = Isebenza njani indawo yokuhlala?
 about-playbook-how-localize-content-1 = Uguqulelo lwe-site yeCommon Voice lwenzeka ku <strong>Pontoon</strong>.
 about-playbook-how-localize-content-2 = <pontoonAccountLink>Yenza iakhawunti</pontoonAccountLink> ukuba awunayo. Emva koko, khetha ulwimi lwakho <strong>(‘Iqela’)</strong> kwaye emva koko ukhethe iprojekthi, <pontoonCvLink>ICommon Voice</pontoonCvLink>. Kuya kubakho iifayile zokuguqulela. Cofa kwenye, emva koko ibonise amagama esiNgesi kunye nebhokisi yokuwaguqulela.
 about-playbook-how-localize-content-3 = Inguqulelo isuka kwisiNgesi, kodwa ungabona <strong>Iingcebiso</strong> ngezinye iilwimi. Cofa le linki<strong>I-profayile</strong>, emva koko <strong>Useto</strong> kwaye wongeze naziphi na iilwimi ozithethayo. Kwikona esezantsi ekunene kuya kuba kho udweliso lweenguqulelo ezibizwa ngokuba <strong>zi-Locales</strong>. Iinguqulelo zibonakala kwi-saythi emva kosuku olunye.
@@ -238,6 +258,7 @@ about-playbook-how-localize-content-5 = Bukela umchazi wethu wevidiyo ukunceda
 
 ## How to add sentences
 
+about-playbook-how-add-sentences = Ndizongeza njani zivakalisi?
 about-playbook-how-add-sentences-content-1 = <strong>Umqokeleli wezivakalisi</strong> sisixhobo sokuqokelela kunye nokuqinisekisa izivakalisi ezifikeleleka kuwonke-wonke. Uya <scAccountLink>kudinga ukwenza i-akhawunti</scAccountLink>. Emva koko, yongeza ulwimi lwakho kwi-<strong>Profayile</strong>. Unako<strong>ukongeza</strong> izivakalisi okanye <strong>Jonga kwakhona</strong> izivakalisi ezongeziweyo ngaphambili.
 about-playbook-how-add-sentences-content-2 = Izivakalisi kufuneka zijongwe kwakhona kwaye zamkelwe ngabantu ababini phambi kokuba zifakwe kwi Common Voice. Wakha izikhokelo zolwimi lwakho<languageGuidelinesLink>apha</languageGuidelinesLink>. izivakalisi kufuneka zibonakale <licenseLink>kuwonke-wonke </licenseLink> kwaye zibengaphantsi kwamagama ali-15. Ungacela umnikazi wombhalo ayenze<waiverLink>CC0 esebenzisa inkqubo yethu ye-waiver </waiverLink>, uyithumele kuthi apha ku- commonvoice@mozilla.com
 about-playbook-how-add-sentences-content-3 = Ungasebenzisa I <scraperLink>Sentence extractor</scraperLink>  ukunyusa izivakalisi ezimfutshane ezivela kwi-Wikipedia.
@@ -250,6 +271,7 @@ about-playbook-how-record-content-1 = Thetha ngelizwi lakho eliqhelekileyo! Indl
 about-playbook-how-record-content-2 = Yiphephe ingxolo eninzi engasemva - kufuneka kube lula ukukuva.
 about-playbook-how-record-content-3 = Funda isivakalisi ngononophelo - ungaphosi, utshintshe okanye wongeze amagama.
 about-playbook-how-record-content-4 = Qinisekisa ukuba iqonga liyarekhoda ngaphambi kokuba uqalise ukuthetha, kwaye liyayeka kuphela wakuba ugqibile.
+about-playbook-how-record-content-5 = <accuracyLink>Bona ngakumbi kwiikhrayitheriya zokuchaneka.</accuracyLink>
 
 ## How to grow language
 
@@ -276,8 +298,11 @@ about-playbook-how-access-dataset-content-2 = Ukuba ujonge izixhobo zokwakha iim
 
 ## How are decisions made
 
+about-playbook-how-project-governance = Zenziwa njani izigqibo zeprojekthi?
 about-playbook-how-project-governance-content-1 = IMozilla Common Voice yenziwa ngamatsha ntliziyo oluntu ahlukeneyo ukuba ibekhona, iingcali zeelwimi, izazinzulu zedatha, izifundiswa kunye neenjineli zesoftware ezivela kwihlabathi liphela. Iprojekthi ilawulwa yiMozilla Foundation.
 about-playbook-how-project-governance-content-2 = Ulawulo lwethu lusekwe kwezi ntsika i:
+about-playbook-how-project-governance-content-4 = Ukuthatha inxaxheba koluntu kunye nokwenza izigqibo.
+about-playbook-how-project-governance-content-7 = <governanceLink>Read more about how we're governed</governanceLink>
 
 ## Glossary
 
@@ -299,7 +324,9 @@ error-content-503 = Isaythi iyakubuyiselwa ngokukhawuleza. Ngolwazi lwamva nje, 
 data-download-modal = Ngoku uza kuqalisa ukhuphelo lwe <size>{ $size }GB</size>, uyaqhubeka?
 data-subtitle = Sakha uluhlu lwedatha lwamazwi oluvulelekileyo nolufumaneka esidlangalaleni wonke umntu anokuthi alusebenzise ukuqeqesha usetyenziso olusebenzisa intetho.
 data-explanatory-text = Sikholelwa ukuba ii-voice dataset ezinkulu nezifumanekayo kuwonke-wonke zikhuthaza ukusungula izinto ezintsha kunye nokhuphiswano olusempilweni lwentengiso kumatshini wokufunda ngokusekwe kubuchwepheshe bentetho. Lo ngumzamo obandakanya ihlabathi jikelele kwaye simema wonke umntu ukuba athathe inxaxheba. Injongo yethu kukunceda ubuchwephetshe balemihla bentetho ibandakanye kakhulu, kwaye ibonise iyantlukwano yamazwi abantu kwihlabathi jikelele.
+data-get-started = <speechBlogLink>Qalisa nokuqonda ulwimi</speechBlogLink>
 data-bundle-description = Idatha yeCommon Voice kunye nazo zonke ezinye iidatha zelizwi ngaphezulu.
+data-download-singleword-title = Khuphela iCandelo legama elinye ekujoliswe kulo
 data-download-singleword-callout-v2 = Le yimeko yokusetyenziswa eqhutywa licandelo eliqulathe idatha kumandla athethiweyo ukuqondwa kwedijithi kwaye ewe / hayi akukho ubhaqo.
 review-terms = Ngokusebenzisa iCommon Voice uvuma  <termsLink>imiqathango</termsLink> kunye <privacyLink>neSazisi saBucala</privacyLink>
 review-aborted = Ukhutshelo luyekile. Ufuna ukucima iirekhodingi zakho?
@@ -321,6 +348,7 @@ dataset-description-hours =
     
     Idataset okwangoku ineeyure <b>{ $valid }</b> eziqinisekisiweyo <b>{ $languages }</b> kwiilwimi kodwa sihlala sisongeza amazwi kunye neelwimi ezininzi. Jonga kwi <languagesLink>phepha lethu lo lwimi</languagesLink>leeLwimi ukucela ulwimi (request a language) okanye uqalise ukufaka isandla.
 want-dataset-update = Ingaba uyafuna uhlaziyo xa sikhupha inguqulelo entsha yeSeti yedatha yeCommon Voice? Bhalisa kwileta yethu yeendaba.
+get-started-speech = Qalisa ngokuQwalasela iNtetho
 resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ yi <docsLink>open-source toolkit</docsLink> kubaphandi abaphuhlisa imifuziselo ye-AI yokuncokola.
 resource-deepspeech-info = INjii ye-Mozilla open source yokuqonda ilizwi nentetho enzulu inokusetyenziselwa ukwakha usetyenziso lokuqondwa kwentetho. Funda <githubLink>Github amagqabantshintshi</githubLink> okanye ujoyine <discourseLink>DeepSpeech Discourse</discourseLink> ukufunda indlela yokuqalisa.
 resource-coqui-info = I <coquiLink>Coqui</coquiLink> inikezelwe kwi-teknoloji yentetho evulekileyo. Iiprojekthi zabo ziquka ukufunda okunzulu okusekelwe kwi-STT kunye neenjini ze-TTS.
@@ -331,13 +359,16 @@ data-other-voxforge-description = IVoxForge yamiselwa ukuba iqokelele intetho ek
 data-other-tatoeba-description = ITatoeba nguvimba weenkcukacha omkhulu wezivakalisi, iinguqulelo, kunye nesandi esithethwayo ukuze sisetyenziswe ekufundeni ulwimi. Olu khutshelo (the download) luqulathe IsiNgesi esithethwayo esirekhodwe luluntu lwaso.
 your-feedback = Ingaba unayo imibono malunga nendlela esinokuyenza ngayo i-database ye-Common Voice ibe ngcono? Sazise kwiDiscourse
 missing-language = Awuboni ulwimi lwakho luboniswa kwiSeti yedatha? Ukucela ulwimi yiya kwiphepha lethu leeLwimi.
+ready-to-validate = Ingaba ukulungele ukunceda ukuqinisekisa izivakalisi?
 
 ## Download Modal
 
+download-title = Ukhuphelo lwakho luqalile.
 download-helpus = Sincede sakhe uluntu malunga netekhnoloji yelizwi, hlala unxibelelana nge-imeyile.
 download-form-email =
     .label = { "" }
     .value = Enkosi, siza kuqhagamshelana nawe.
+download-back = Buyela kwiidatha seti zeCommon Voice
 
 ## Contact Modal
 
@@ -349,6 +380,7 @@ request-language-success-content = Siza kuqhagamshelana ngolwazi oluthe vetshe m
 
 ## Request Language Pages
 
+request-language-heading = Buza ngolwimi olutsha
 request-language-explanation-1 =
     Khangela ukuba ulwimi lwakho ludweliswe na kwi
     <languagesPageLink>phepha le Common Voice leeLwimi</languagesPageLink>.
@@ -382,13 +414,27 @@ language-section-launched-description = Kwezi lwimi ziqaliweyo iwebhusayithi iye
 
 goal-help-recording = Uncede iCommon Voice ifikelele ku<goalPercentage></goalPercentage> yosuku{ $goalValue } lenjongo yokurekhoda!
 goal-help-validation = Uncede iCommon Voice ifikelele ku<goalPercentage></goalPercentage> yosuku{ $goalValue } lenjongo yokuqinisekisa!
+contribute-more =
+    { $count ->
+        [one] Ikulungele ukwenza { $count } ngaphezulu?
+       *[other] Ikulungele ukwenza { $count } ngaphezulu?
+    }
 record-platform-not-supported = Uxolo, iqonga lakho alixhaswanga okwangoku.
 record-platform-not-supported-desktop = Kwizixhobo zedesktop unokunikela ngokukhuphela…
 record-platform-not-supported-ios-non-safari = Kwi-iOS nceda uqhubeke neSafari ukuvula ukurekhoda…
+record-must-allow-microphone = Kufuneka uvumele ukufikelela kumakrofoni.
+record-error-too-short = Irekhodingi ibimfutshane kakhulu
+record-error-too-long = Irekhodingi ibinde.
+record-error-too-quiet = Irekhodingi ibithule.
+record-instruction = { $actionType }<recordIcon></recordIcon>  emva koko ufunde isivakalisi ngokuvakalayo
+record-again-instruction = Kuhle!<recordIcon></recordIcon> Rekhoda ikliphu yakho elandelayo
+record-again-instruction2 = Qhuba njalo, rekhoda kwakhona <recordIcon></recordIcon>
 review-tooltip = Hlaziya kwaye urekhode iikliphu kwakhona apha njengoko uhamba
 review-instruction = Phonononga kwaye urekhode kwakhona iiklip ukuba kuyafuneka
 record-abort-text = Ukuhamba ngoku kuthetha ukuba uyakuphulukana nenkqubela phambili yakho
+listen-instruction = { $actionType }<playIcon></playIcon> ingaba basithetha ngokuchanekileyo isivakalisi?
 listen-again-instruction = Mhle umsebenzi! <playIcon></playIcon>  Mamela kwakhona xa sele ulungile
+listen-3rd-time-instruction = Zi-2 eziphantsi, qhubeka njalo!<playIcon></playIcon>
 listen-empty-state = Siphelelwe ziikliphu zokuqinisekisa kolu lwimi…
 listen-loading-error =
     Asikwazanga kufumana naziphi na iikliphu zeaudio ukuze umamele.
@@ -397,6 +443,7 @@ speak-empty-state = Siphelelwe ziikliphu zokurekhoda kolu lwimi...
 speak-loading-error =
     Asikwazanga ukufumana izivakalisi ukuba uthethe. 
      Nceda uzame kwakhona kamva.
+share-title-new = <bold>Help us</bold> fumana amazwi amaninzi
 keep-track-profile = Gcina umkhondo wenkqubela yakho ngeprofayile
 login-to-get-started = Ngena okanye ubhalise ukuze uqalise
 target-segment-first-card = Uncedisa kwisegmenti yethu yokuqala ekujoliswe kuyo
@@ -426,6 +473,7 @@ visibility-overlay-note = Qaphela: Xa imiselwe 'Iyabonakala', olu seto lungatshi
 
 goal-type = Loluphi uhlobo lwenjongo ofuna ukwakha?
 lose-goal-progress-warning = Ngokuhlela injongo yakho, unokuphulukana nenkqubela phambili yakho esele ikho.
+want-to-continue = Ingaba uyafuna ukuqhubeka?
 lose-changes-warning = Ukuhamba ngoku kuthetha ukuba uza kuphulukana notshintsho lwakho
 help-reach-hours-pluralized =
     { NUMBER($hours) ->
@@ -452,6 +500,7 @@ activity-needed-calculation-plural =
        *[other] { $clipsPerDay } iikliphu ngelanga
     }
 how-many-per-day = Kuhle! Zingaphi iikliphu ngelanga?
+how-many-a-week = Kuhle! Zingaphi iikliphu ngeveki?
 which-goal-type = Ingaba uyafuna ukuthetha, mamela okanye zombini?
 receiving-emails-info = Ngoku usetelwe ukufumana ii-imeyile ezinjengezikhumbuzi zenjongo, uhlaziyo lwam lwenkqubela phambili kunye neeleta zeendaba malunga Common Voice
 not-receiving-emails-info = Ngoku usetelwe u<bold>KUNGA</bold> fumani ii-imeyile ezifana nezikhumbuzi zenjongo, uhlaziyo lwam lwenkqubela phambili kunye neeleta zeendaba malunga ne-Common Voice.
@@ -476,6 +525,7 @@ why-delete-recordings = Ukurekhodwa kwe-Common Voice kusetyenziswa ngabafundi, a
 
 ## Profile Download
 
+download-q = Ingaba ufuna ukukhuphela idatha yakho?
 download-info = Sixelele into ongathanda ukuyikhuphela:
 download-profile-info = Kubandakanya i-imeyile, igama lomsebenzisi kunye nolwazi le-demographic, luyafumaneka kwangoko
 download-recordings-info = Kubandakanya ii-mp3s kunye nezivakalisi ezinxulumene noko, zinokuthatha ixesha ukulungiselela
@@ -483,6 +533,7 @@ download-recordings-unavailable = Awukwazi ukucela iirekhodingi zakho ngelixa es
 download-recently-requested = Ungacela uluhlu okutsha lweerekhodi zakho qho emva kweentsuku ezi{ $days }.
 download-requests-info = Xa ucela ushicilelo lwakho, siyaluqokelela lube yifayile yeZIP enye okanye ezininzi.Nazi izicelo zakho zangaphambili:
 download-request-description = Iikliphu zelizwi, ubungakanani obupheleleyo bogcino ezi { $clipCount }  { $size }. Ziphelelwa{ $expires }
+download-request-archive-multiple = Yahlula kwi { $archiveCount } iifayile zeZIP eziqulathe
 download-request-assembling-description = Iifayile zakho ziyahlanganiswa. Nceda ujonge kwakhona kamva.
 download-request-modal-description = Nazi iilinki zokukhuphela iifayile zakho ze-ZIP.
 download-request-link-single = Unokukopa kwaye uncamathisele ii-URL ezithe ngqo kwindawo yokukhuphela oyithandayo. Ziya kuphelelwa kwiiyure ezili-12, kodwa ungabuyela kweli phepha ukwenza ezintsha nangaliphi na ixesha.
@@ -502,6 +553,7 @@ demo-welcome-subheader = Ingaba unomdla wokufunda ngakumbi kwaye ubenegalelo kwi
 
 demo-language-select-card-header = iCommon Voice ngenkulu kwihlabathi efumaneka esidlangalaleni, i-datata yelizwi elihlukeneyo.
 demo-language-select-card-body = Enkosi kwiminikelo evela kubantu abangaphezu kwe-259k kwiilwimi ezingaphezu kwama-50, le datha isetyenziselwa ukuqeqesha i-apps ezidalelwe intetho ukuze ziphendule ngcono ilizwi lomntu.
+demo-eofy-sub_header = Iseti yedatha yelizwi, ilungele ukuKhutshelwa
 
 ## Demo Account
 
@@ -538,6 +590,7 @@ contribution-misreadings-example-4-explanation = [Okurekhodiweyo kungaphaya koml
 contribution-misreadings-example-5-title = Siyahamba siyokufumana ikofu.
 contribution-misreadings-example-6-title = Siyokufumana ikofu.
 contribution-misreadings-example-7-title = Siyokufumana ikofu.
+contribution-misreadings-example-7-explanation = [Akukho 'a' kumbhalo oyi orijinali]
 contribution-varying-pronunciations-description = Lumka ngaphambi kokuba wale ikliphu kuba lowo uthe walifunda engalibizanga ngokungamnkelekanga igama, othe wagxininisa kwindawo engafanelekanga, okanye uye akaluhoya uphawu lombuzo. Kukho iintlobo ngeentlobo zokubizwa kwamagama asetyenziswayo kwihlabathi jikelele, ekusenokwenzeka ukuba awuzange waziva kwindawo ohlala kuyo. Nceda wamkele futhi uxabise abo banokuthetha ngokwahlukileyo kuwe.
 contribution-varying-pronunciations-description-extended = Lumka ngaphambi kokuba wale ikliphu kuba lowo uthe walifunda engalibizanga ngokungamnkelekanga igama, othe wagxininisa kwindawo engafanelekanga, okanye uye akaluhoya uphawu lombuzo. Kukho iintlobo ngeentlobo zokubizwa kwamagama asetyenziswayo kwihlabathi jikelele, ekusenokwenzeka ukuba awuzange waziva kwindawo ohlala kuyo. Nceda wamkele futhi uxabise abo banokuthetha ngokwahlukileyo kuwe.
 contribution-varying-pronunciations-example-1-title = Entloko ebenxibe ibharethi.
@@ -548,9 +601,11 @@ contribution-background-noise-description-extended = Ukuba ushicilelo luyaqhawuk
 contribution-background-noise-example-1-fixed-title = <strong>[Sneeze]</strong> Iidinosaure ezinkulu <strong>[cough]</strong> ze-Triassic.
 contribution-background-noise-example-2-fixed-title = I-dino enkulu <strong>[cough]</strong> i-Triassic.
 contribution-background-noise-example-2-explanation = [Inxalenye yombhalo ayivakali]
+contribution-background-noise-example-3-fixed-title = <strong>[Crackle]</strong>  i-dinosaurs ezinkulu ze <strong>[crackle]</strong> -riassic.
 contribution-background-voices-description = Ingxolo yangasemva ezolileyo ilungile, kodwa asifuni amazwi ongezelelweyo anokubangela ukuba umatshini uchonge amagama angekho kumbhalo obhaliweyo. Ukuba unokuva amagama ahlukileyo kulawo wombhalo, ikliphu kufuneka ingamkelwa. Ngokuqhelekileyo oku kwenzeka apho kushiywe umabonakude edlala, okanye apho kukho incoko eqhubekayo kwakufitshane.
 contribution-background-voices-description-extended = Ukuba ushicilelo luyaqhawuka, okanye luziziqendu, lwale ngaphandle kokuba sonke isicatshulwa sinokuviwa.
 contribution-background-voices-example-1-title = Idinosaure enkulu yeTriassic <strong>[read by one voice]</strong>
+contribution-background-voices-example-1-explanation = Uyeza? <strong>[called by another]</strong>
 contribution-volume-description = Kuya kubakho ukuhluka kwendalo kwinqanaba lokukhwaza phakathi kwabafundi. Yala ukushicilela isandi ukuba izinga lokukhwaza liphambili kakhulu de lube luyaqhawuka ushicilelo, okanye (ngokuqhelekileyo) ukuba inqanaba lokukhwaza liphantsi kakhulu ukuba awukwazi ukuva oko kuthethwayo ngaphandle kokujonga koko kubhaliweyo.
 contribution-reader-effects-description = Iirhekhodi ezinintsi zezabantu abancokola ngezwi labo lwendalo. Unokwamkela ushicilelo olungelulo oluqhelekileyo olukhwazwayo, olusebezayo, okanye oluhanjiswa ngokucacileyo ngelizwi ‘elimangalisayo’. Nceda ungalwamnkeli ushicilelo olungumculo kunye nabo basebenzisa ilizwi elenziwe yikhompyuter.
 contribution-just-unsure-description = Ukuba ufumana into engaqukwanga kwezi zikhokelo, nceda uvote ngokwesigqibo sakho. Ukuba ngenene awukwazi ukwenza isigqibo, sebenzisa iqhosha lokutsiba kwaye uye kushicilelo olulandelayo.
@@ -576,6 +631,7 @@ sc-languages-fetch-error = Asiphumelelanga ukulanda iilwimi ezifumanekayo. Imini
 
 ## HOW-TO
 
+sc-howto-addlang-title = Ukongeza iilwimi onokusebenza nazo
 sc-howto-addlang-text = Nje ukuba ungene unokukhetha iilwimi zakho kwicandelo leprofayili.
 sc-howto-addsen-item-1 = Zonke izivakalisi ozingenisayo kufuneka zibe phantsi kwe <wikipediaLink>ndawo kaWonke-wonke (CC-0) ilayisenisi</wikipediaLink>. Ukuxhasa ukubandakanywa komsebenzi ongekho phantsi kwelayisensi kawonke-wonke, senze <cc0WaiverLink>Ithemplate yesiVumelwano sabaxhasi</cc0WaiverLink> kwimisebenzi apho umnini welungelo lokushicilela angathanda ukufaka isandla kwizinto eziphathekayo kwi-Common Voice.
 sc-howto-addsen-item-2 = Amanani. Akufunekanga kubekho manani kwi source text kuba anokubangela iingxaki xa efundelwa ngaphandle. Indlela inani elifundwa ngayo ixhomekeke kumxholo kwaye ingazisa ukubhideka kwidathasethi. Umzekelo, inani "2409" linokufundwa ngokuchanekileyo njengawo omabini "amashumi amabini anesine iqanda ithoba" kunye "namawaka amabini anamakhulu amane anesithoba".
@@ -591,6 +647,7 @@ sc-howto-cite-item-3 = Kumbhalo wesizinda sikawonke-wonke ongafumanekiyo kwi-int
 sc-howto-review-subtitle = Qinisekisa ukuba isivakalisi siyahlangabezana nale migaqo ilandelayo:
 sc-howto-review-criteria-1 = Isivakalisi masipelwe ngokuchanekileyo.
 sc-howto-review-criteria-2 = Isivakalisi masichaneke ngokwegrama.
+sc-howto-review-criteria-3 = Isivakalisi masithetheke.
 sc-howto-review-criteria-4 = Ukuba isivakalisi sihlangabezana neekhrayitheriya, cofa iqhosha "Ukuvuma".
 sc-howto-review-criteria-5 = Ukuba isivakalisi asihambelani nale migaqo ingasentla, cofa iqhosha elithi "Yala". Ukuba awuqinisekanga ngesivakalisi, usenokusitsiba uye kwesilandelayo.
 sc-howto-review-criteria-6 = Ukuba uphelelwa zizivakalisi zokuphonononga, nceda usincede siqokelele izivakalisi ezininzi!
@@ -637,6 +694,7 @@ sc-submit-filtered = Izivakalisi ezihluziweyo ngenxa yokungaphumeleli kweemfuno 
 ## ADD LANGUAGE
 
 sc-add-lang-sec-label = Yongeza ulwimi ofuna ukufaka isandla kulo
+sc-add-err-unexpected = Impendulo ebingalindelekanga ibuyiselwe kwiseva
 # Variables:
 #   $duplicates (Number) - Number of sentences which got rejected because they are duplicates
 sc-add-result =
@@ -742,6 +800,7 @@ sc-personal-not-added = Awufakanga naziphi na iilwimi okwangoku.
 sc-criteria-make-sure = Qinisekisa ukuba isivakalisi siyahlangabezana nale migaqo ilandelayo:
 sc-criteria-item-1 = Isivakalisi masipelwe ngokuchanekileyo.
 sc-criteria-item-2 = Isivakalisi masichaneke ngokwegrama.
+sc-criteria-item-3 = Isivakalisi masithetheke.
 sc-criteria-item-4 = Ukuba isivakalisi siyahlangabezana nemilinganiselo, cofa iqhosha elithi &quot;Vumela&quot; iqhosha ekunene.
 sc-criteria-item-5-2 = Ukuba isivakalisi asihlangabezani nezi nqobo zingentla, cofa iqhosha elithi &quot;reject&quot; iqhosha elisekhohlo. Ukuba awuqinisekanga ngesivakalisi, usenokusitsiba uye kwelandelayo.
 sc-criteria-item-6 = Ukuba uphelelwa zizivakalisi zokuphonononga, nceda usincede siqokelele izivakalisi ezininzi!
@@ -768,9 +827,13 @@ sc-review-form-review-failure = Uhlaziyo alukwazanga kugcinwa. Nceda uzame kwakh
 ## SETTINGS
 
 sc-settings-skipped-decription = Ngaphambili utsibe izivakalisi ngelixa uphonononga.Ukuseta kwakhona izivakalisi ezitsityiweyo kuya kubonisa zonke izivakalisi ezitsityiweyo kwakhona. Oku kukuzimela kulwimi.
+sc-settings-show-all-button = Bonisa zonke izivakalisi ezitsityweyo
 sc-settings-failed = Ayikwazanga ukutshintsha isetingi. Nceda zama kwakhona.
 # VALIDATION
 sc-validation-number-of-words = Isivakalisi kufuneka siqulethe phakathi kwe-1 ne-14 (ebandakanya) amagama
+sc-validation-no-numbers = Isivakalisi akufunekanga sibe namanani
+sc-validation-no-symbols = Isivakalisi akufunekanga sibe neesimboli
+sc-validation-no-abbreviations = Isivakalisi akufunekanga sibe nezishunqulelo
 
 # [/SentenceCollector]
 
