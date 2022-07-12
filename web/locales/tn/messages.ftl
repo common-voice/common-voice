@@ -269,6 +269,7 @@ request-language-button = Kopa Puo
 
 ## ProjectStatus
 
+status-contribute = Abelana ka Lentswe la Gago
 status-hours =
     { $hours ->
         [one] Go tlhomamisitswe ura e le nngwe go fitlha ga jaana!
@@ -785,6 +786,7 @@ demo-language-select-card-body = Re leboga dikabo go tswa go batho ba feta 259k 
 card-button-next = E e Latelang
 card-button-back = Morago
 demo-language-select-label = Leba Dipuo
+demo-eofy-header = Tokololo ya Bofelo Jwa Ngwaga ya 2019
 demo-account = Akhaonto
 
 ## Demo Account
