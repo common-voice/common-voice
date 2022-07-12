@@ -76,6 +76,7 @@ mg = Se-Malagasy
 mk = Se-Macedonia
 ml = Se-Malayalam
 mos = Se-Mossi
+mr = Se-Marathi
 ms = Se-Malay
 my = Se-Burma
 nan-tw = Se-Taiwan (Minnan)
@@ -483,6 +484,7 @@ error-content-503 = Webosaete e tla bo e boetse mo maemong ka bonako jo bo kgone
 
 ## Data
 
+data-download-deny = Nyaa
 data-download-modal = O tloga o simolola download ya <size>{ $size }GB</size>, a o a tswelela?
 data-subtitle = Re aga rekoto ya tshedimosetso ya mantswe e mongwe le mongwe a ka e dirisang go thapisa dithulaganyo tse di kgonang go dirisa mantswe.
 data-explanatory-text = Re dumela gore tshedimosetso e kgolo le e e phasaladitsweng ya mantswe e rotloetsa go tlhama le kgaisano ya kgwebo mo thekenolojing e e ikaegileng ka go ithuta ga metšhine. Ano ke matsapa a lefatshe lotlhe mme re laletsa mongwe le mongwe go tsaya karolo. Boikaelelo jwa rona ke go thusa thekenoloji ya go bua gore e akaretse dilo tse dintsi, e bontshe pharologano ya mantswe go ralala lefatshe.
@@ -511,6 +513,7 @@ audio-format = Kgatiso e e Reediwang
 splits = Tse di kgaoganeng
 why-email = <b>Goreng imeile?</b> Re ka tlhoka go ikgolaganya le wena mo isagweng malebana le diphetogo tsa tshedimosetso, imeile ke tsela e re ikgolaganyang ka yone.
 confirm-size = O ipaakanyeditse go simolola go itseela <b>{ $size }</b>
+size-megabyte = MB
 confirm-no-identify = <b>O dumela</b>go sa leke go lemoga boikitsiso jwa babui ba ba mo rekotong ya tshedimosetso ya Common Voice
 whats-inside = Ke eng se se mo rekotong ya tshedimosetso ya Common Voice?
 dataset-description-hours =
@@ -543,6 +546,8 @@ download-helpus = Re thuse go aga setšhaba ka thekenoloji ya lentswe, nna o ikg
 contact-title = Foromo ya go Ikgolaganya
 contact-form-name =
     .label = Leina
+contact-form-message =
+    .label = Molaetsa
 contact-required = *e a tlhokega
 
 ## Request Language Modal
@@ -737,6 +742,7 @@ demo-dashboard-card-body = Mo kgatisong nngwe le nngwe ya lentswe e e abilweng, 
 
 contribution-criteria-nav = Mokgwa
 contribution-criteria-page-description = Tlhaloganya gore o tshwanetse go batla eng fa o reeditse dikgatiso tsa mantswe mme o thuse go dira gore dikgatiso tsa gago tsa mantswe di tshwanele!
+contribution-misreadings-title = Tse di sa balwang sentle
 contribution-misreadings-description = Fa o reeditse, tlhatlhoba ka kelotlhoko gore a se se gatisitsweng ke sone tota se se kwadilweng; se gane le fa go na le diphoso tse dinnye tota. <br />Diphoso tse di tlwaelegileng thata di akaretsa:
 contribution-misreadings-description-extended-list-1 = Ga go na <strong>'A'</strong> kgotsa <strong>'Le'</strong> kwa tshimologong ya kgatiso.
 contribution-misreadings-description-extended-list-2 = Go tlhaela <strong>'ng'</strong> kwa bofelong jwa lefoko.
