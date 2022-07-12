@@ -687,6 +687,7 @@ request-language-explanation-2 =
     Gape re tla <strong>itsise motsamaisi wa lefelo la rona gore o a kgatlhega
     </strong>, gore a kgone go go naya tshegetso e e oketsegileng kgotsa tshedimosetso e o ka e tlhokang.
 request-language-form-info-explanation = Tsenya tshedimosetso e ntsi ka fa o ka kgonang ka teng ka puo. Seno se ka akaretsa:
+request-language-form-info-explanation-list-1 = Maina a puo ya gago
 request-language-form-info-explanation-list-3 = Dilinki tsa diwebosaete tse di ka re thusang go tlhaloganya puo
 request-language-success-list-1 = O tshwanetse go amogela email mo bogautshwaneng e e tlhalosang dikgato tsa go tsenya puo ya gago mo Common Voice
 request-language-success-list-2 =
@@ -1094,6 +1095,7 @@ sc-my-deleting = E phimola dipolelo tse di tlhophilweng...
 ## REJECTED
 
 sc-rejected-loading = E tsenya dipolelo tse di gannweng...
+sc-rejected-none-found = Ga go a fitlhelwa dipolelo dipe tse di gannweng!
 
 ## STATS
 
@@ -1115,6 +1117,8 @@ sc-submit-prompt =
 sc-submit-title = Tsenya Dipolelo
 sc-submit-select-language =
     .labelText = Tlhopha Puo
+sc-submit-ph-one-per-line =
+    .placeholder = Polelo e le nngwe mo moleng
 sc-submit-from-where = Mela eno ya <wikipediaLink>lefelo la botlhe</wikipediaLink> e tswa kae?
 sc-submit-confirm = Ke tlhomamisa gore mela eno ke ya <wikipediaLink>batho botlhe</wikipediaLink> e bile ke na le tetla ya go e tsenya.
 sc-submit-button =
