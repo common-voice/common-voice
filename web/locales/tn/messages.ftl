@@ -210,6 +210,7 @@ speak-goal-text = Dibidio di rekotilwe
 listen-subtitle = Re thuse go tlhomamisa mantswe
 listen-paragraph = Go tlhomamisa dikgatiso tse di abilweng le gone go botlhokwa mo maikaelelong a Common Voice. Reetsa mme o re thuse go dira tshedimosetso e e nang le boleng ya mantswe.
 listen-goal-text = Dibidio di tlhomamisitswe
+voices-online = Mantswe a a mo Inthaneteng Jaanong
 todays-progress =
     { $count ->
         [one]
@@ -331,6 +332,7 @@ hidden = E fitlhegile
 visible = E a bonala
 profile-form-submit-save = Boloka
 profile-form-submit-saved = E bolokilwe
+why-profile-title = Goreng porofaele?
 why-profile-text =
     Ka go naya tshedimosetso nngwe ka wena, tshedimosetso ya lentswe e o e romelang kwa Common Voice e tla nna mosola thata mo dithulaganyong tsa Speech
     Recognition tse di dirisang tshedimosetso eno go tokafatsa go nepa ga tsone.
@@ -433,6 +435,7 @@ faq-search-for-answers =
 
 ## ABOUT US
 
+about-title = Goreng Common Voice?
 about-header-description-v2 =
     <p>Common Voice ke tshedimosetso e e leng teng go batho botlhe, e e matlafadiwang ke mantswe a baabi ba baithaopi lefatshe ka bophara. Batho ba ba batlang go dira dithulaganyo tsa mantswe ba ka dirisa tshedimosetso eo go thapisa mefuta ya metšhine e e kgonang go ithuta.</p>
     <p>Gone jaanong, ditshedimosetso tse dintsi ke tsa dikhampani, mme seo se kgoreletsa go tlhamiwa. Ditshedimosetso tsa mantswe le tsone di gone mo dikarolong tseno tse di tseelwang kwa tlase: batho ba ba sa bueng Seesemane, batho ba mmala, batho ba ba nang le bogole, basadi le batho ba LGBTQIA+. Seno se raya gore tshedimosetso ya mantswe ga e bereke mo dipuong tse dintsi, mme fa e berekang gone, e ka nna ya se berekele mongwe le mongwe sentle. Re batla go fetola seo ka go kgothaletsa batho gongwe le gongwe go ntsha mantswe a bone.</p>
@@ -457,7 +460,9 @@ about-listen = Reetsa
 about-listen-text = Badirisi ba tlhomamisa gore a direkoting tse go abalanweng ka tsone di nepagetse, ba tlhola gore a sebui se bala mela sentle.
 about-is-it-valid = A kgatiso e siame?
 about-is-it-valid-text = Kgatiso ya lentswe e tshwaiwa e "siame" fa modirisi a e neile tlhopho ya Ee.
+about-yes-votes = ≥ Ditlhopho tse 2 tsa Ee
 about-yes-votes-text = Gore kgatiso ya lentswe e tsene mo rekotong ya tshedimosetso ya Common Voice, e tshwanetse ya bo e tlhomamisitswe ke badirisi ba babedi.
+about-no-votes = ≥ Ditlhopho tse 2 tsa Nnyaa
 about-no-votes-text = Fa modirisi a gana polelo, e boela kwa Moleng. Fa kgatiso ya lentswe e ganwa lekgetlho la bobedi, e romelwa kwa Clip Graveyard.
 about-dataset-new = Rekoto ya Tshedimosetso ya Common Voice
 about-dataset-new-text = Rekoto ya Tshedimosetso ya Common Voice e na le disampole tsa mantswe di le makgolo a le diketekete tse di thusang badiri go tlhama dithulusu tse di lemogang mantswe.
@@ -566,6 +571,7 @@ about-playbook-how-project-governance = Ditshwetso ka diporojeke di dirwa jang?
 about-playbook-how-project-governance-content-1 = Mozilla Common Voice e kgonega ka ntlha ya balweladiphetogo, baitsepuo, baitsesaense ba tshedimosetso, barutegi le banjenere ba dirweboleta go ralala lefatshe. Porojeke e etelelwa pele ke Mozilla Foundation.
 about-playbook-how-project-governance-content-3 = Polokodiphiri, tshireletso le go sa fitlhe sepe.
 about-playbook-how-project-governance-content-4 = Go tsaya karolo le go dira ditshwetso ga baagi.
+about-playbook-how-project-governance-content-5 = Boleng le go lemogiwa.
 about-playbook-how-project-governance-content-7 = <governanceLink>Bala mo go oketsegileng ka ga go re re laolwa jang</governanceLink>
 
 ## Glossary
@@ -621,6 +627,7 @@ datasets-positioning =
     Tshedimosetso ya Common Voice ya dipuo tse dintsi ke tshedimosetso e kgolo ya batho botlhe e e leng teng ya mantswe, mme ga se yone fela.
     
     Leba tsebe eno jaaka tshupiso go bona tshedimosetso e nngwe ya mantswe, mme jaaka Common Voice e tswelela go gola, e nna legae la ditlhabololo tsa rona.
+validated-hr-total = Palogotlhe ya Diura Tse di Tlhomamisitsweng
 overall-hr-total = Palogotlhe ya Diura Tsotlhe
 cv-license = Laesense
 audio-format = Kgatiso e e Reediwang
@@ -694,10 +701,13 @@ request-language-explanation-1 =
 request-language-explanation-2 =
     Gape re tla <strong>itsise motsamaisi wa lefelo la rona gore o a kgatlhega
     </strong>, gore a kgone go go naya tshegetso e e oketsegileng kgotsa tshedimosetso e o ka e tlhokang.
+request-language-form-email =
+    .label = Aterese ya gago ya imeile
 request-language-form-info =
     .label = Tshedimosetso ka puo
 request-language-form-info-explanation = Tsenya tshedimosetso e ntsi ka fa o ka kgonang ka teng ka puo. Seno se ka akaretsa:
 request-language-form-info-explanation-list-1 = Maina a puo ya gago
+request-language-form-info-explanation-list-2 = <isoCodeLink>Dikhouto tsa ISO</isoCodeLink> fa di itsiwe
 request-language-form-info-explanation-list-3 = Dilinki tsa diwebosaete tse di ka re thusang go tlhaloganya puo
 request-language-success-list-1 = O tshwanetse go amogela email mo bogautshwaneng e e tlhalosang dikgato tsa go tsenya puo ya gago mo Common Voice
 request-language-success-list-2 =
@@ -858,6 +868,7 @@ get-started-goals = Simolola ka maikaelelo
 create-custom-goal = Itirele Boikaelelo Jo o Ka bo Kgonang
 goal-type = O batla go ikagela boikaelelo jo bo ntseng jang?
 both-speak-and-listen = Ka bobedi
+both-speak-and-listen-long = Ka bobedi (Go Bua le go Reetsa)
 weekly-goal = Boikaelelo Jwa Beke
 average-difficulty = Palogare
 pro-difficulty = Pro
@@ -865,6 +876,7 @@ lose-goal-progress-warning = Fa o baakanya maikaelelo a gago, o ka nna wa latlhe
 want-to-continue = A o batla go tswelela?
 finish-editing = Fetsa go baakanya pele?
 lose-changes-warning = Fa o tswa gone jaanong o tla latlhegelwa ke diphetogo tse o di dirileng
+build-custom-goal = Itirele boikaelelo jo o ka bo kgonang
 help-reach-hours-general-pluralized =
     { NUMBER($hours) ->
         [one] Thusa Common Voice go fitlhelela ura e le { $hours } mo puong ka maikaelelo a batho
@@ -935,6 +947,7 @@ download-request-archive-multiple = E kgaoganye mo  difaeleng tsa ZIP di le { $a
 download-request-assembling-description = Difaele tsa gago di a kokoanngwa. Tsweetswee tlhola gape moragonyana.
 download-request-refresh-button = Ntšhafatsa
 download-request-modal-description = Tseno ke dilinki tsa go itseela difaele tsa gago tsa ZIP.
+download-request-link-text = # ya Zip{ $offset } ya { $total }
 download-request-metadata-link = Mokwalo wa polelo
 download-request-link-single = Gape o ka kgona go kopisa le go manega di-URL tse di tlhamaletseng mo lefelong la gago la mmamoratwa la go itseela dilo. Di tla felelwa ke nako mo diureng tse 12, mme o ka boela mo tsebeng eno go dira tse disha nako nngwe le nngwe.
 
@@ -1001,6 +1014,7 @@ contribution-misreadings-example-4-title = Di-dinosaur tse dikgolo tsa Triassic.
 contribution-misreadings-example-4-explanation = [Go gatisitswe mo gontsi go gaisa mokwalo o o tlhokegang]
 contribution-misreadings-example-5-title = Re a tswa re ya go batla kofi.
 contribution-misreadings-example-6-title = Re a tswa re ya go batla kofi.
+contribution-misreadings-example-6-explanation = [E tshwanetse go nna “Re”]
 contribution-misreadings-example-7-title = Re a tswa re ya go batla kofi.
 contribution-misreadings-example-7-explanation = [Ga go na ‘a’ mo mafokong a ntlhantlha]
 contribution-misreadings-example-8-title = Notshi e ile ya itlhaganela.
@@ -1132,6 +1146,7 @@ sc-submit-prompt =
 sc-submit-title = Tsenya Dipolelo
 sc-submit-select-language =
     .labelText = Tlhopha Puo
+sc-submit-add-sentences = Tsenya mela ya <wikipediaLink>lefelo la botlhe</wikipediaLink>
 sc-submit-ph-one-per-line =
     .placeholder = Polelo e le nngwe mo moleng
 sc-submit-from-where = Mela eno ya <wikipediaLink>lefelo la botlhe</wikipediaLink> e tswa kae?
@@ -1143,6 +1158,7 @@ sc-submit-guidelines = Tsweetswee tlhola <howToLink>dikaelo</howToLink>.
 
 ## ADD LANGUAGE
 
+sc-add-lang-could-not-add = Ga ya kgona go tsenya puo
 sc-add-lang-sec-button = Tsenya Puo
 sc-add-err-unexpected = Phetolo e e sa solofelwang go tswa kwa sefareng
 # Variables:
@@ -1205,6 +1221,7 @@ sc-lang-info-left-for-you =
        *[other] *Mela e e setseng e le { $unreviewedSentencesByYou } e o tlhokang go e sekaseka.
     }
 sc-lang-info-review-now = <reviewLink>Sekaseka jaanong!</reviewLink>
+sc-lang-info-add-more = <addLink>Tsenya mela e e oketsegileng jaanong!</addLink>
 
 ## LOGIN
 
@@ -1213,6 +1230,7 @@ sc-login-err-try-again = Tsweetswee leka gape.
 ## PROFILE
 
 sc-personal-err-lang-not-found = Ga re a kgona go ntsha puo: puo ga e a bonwa
+sc-personal-err-remove = Ga ya kgona go ntsha puo
 sc-personal-your-languages = Dipuo tsa gago:
 sc-personal-remove-button = tlosa
 # Variables:
