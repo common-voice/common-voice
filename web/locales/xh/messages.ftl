@@ -23,6 +23,7 @@ error-something-went-wrong = Uxolo, kukho into engahambanga kakuhle
 dsb = iSorbian, Lower
 hsb = iSorbian, Upper
 nan-tw = iTaiwanese (Minnan)
+quy = iQuechua Chanka
 rm-sursilv = iRomansh Sursilvan
 rm-vallader = iRomansh Vllader
 sat = iSantali (Ol Chiki)
@@ -56,6 +57,7 @@ wall-of-text-first = Ilizwi yinto edaliweyo, ilizwi ngumntu. Yiyo loo nto sivuya
 wall-of-text-second =
     Uninzi lwedatha esetyenziswa ziinkampani ezinkulu azifumaneki kuninzi lwabantu. Sicinga ukuba
     oko kumisa ukwenza izinto ngakutsha. Ke siqale i-Common Voice, iprojekthi yokunceda ukwenza ukuqondwa kwelizwi kuvuleleke kwaye ifikeleleka kumntu wonke.
+show-wall-of-text = Funda Ngakumbi
 help-us-title = Sincede siqinisekise izivakalisi!
 help-us-explain = Cinezela dlala, mamela kwaye usixelele: ngaba basithetha ngokuchanekileyo esi sivakalisi singezantsi?
 no-clips-to-validate = Kubonakala ngathi akukho zikliphu zokumamela kolu lwimi. Sincede sigcwalise umgca ngokurekhoda ezinye ngoku.
@@ -105,6 +107,7 @@ username-email-not-demographic = Igama lakho lomsebenzisi kunye ne-imeyile aziyi
 
 ## Speak Shortcuts
 
+shortcut-rerecord-toggle-label = Rekhodisha ikliphu kwakhona
 shortcut-discard-ongoing-recording-label = Lahla irekhodingi eqhubekayo
 shortcut-submit-label = Ngenisa iiKliphu
 request-language-text = Awukaluboni ulwimi lwakho kwi-Common Voice okwangoku?
@@ -420,6 +423,7 @@ why-email = <b>Kutheni kudingeka imeyile nje?</b> Kusenokufuneka siqhagamshelane
 confirm-size = Ulungele ukuqalisa ukhuphelo lwe <b>{ $size }</b>
 confirm-no-identify = <b>Uyavuma</b> ukungazami ukumisela izazisi zezithethi kwidatha seti yeCommon Voice
 validated-hours = Iiyure eziqinisekisiweyo
+recorded-hours = Iiyure ezirekhodiweyo
 whats-inside = Kukho ntoni kwidatha seti yeCommon Voice?
 dataset-description-hours =
     Ungeniso  ngalunye kwidathasethi liquka iMP3 eyodwa kunye nefayile yombhalo ehambelana nayo. Uninzi <b>{ $total }</b> lweeyure ezirekhodiweyo kuluhlu lwedatha zikwaquka idatha yedemografi efana neminyaka, isini, kunye ne-accent enokunceda ukuqeqesha ubunyani kweenjini zokuqaphela intetho. 
@@ -597,6 +601,7 @@ clips-you-recorded = Iikliphu ozirekhodileyo
 clips-you-validated = Iikliphu oziqinisekisileyo
 todays-recorded-progress = Inkqubela yanamhlanje yeCommon Voice kwiikliphu ezirekhodiweyo
 todays-validated-progress = Inkqubela yanamhlanje yeCommon Voice kwiikliphu iqinisekisiwe
+recorded-clips = Iikliphu ezirekhodishiweyo
 validated-clips = Iikliphu eziqinisekisiweyo
 total-approved = Itotali iVunyiwe
 set-visibility = Seta ukubonakala kwam
@@ -777,6 +782,7 @@ contribution-background-voices-description-extended = Ukuba ushicilelo luyaqhawu
 contribution-background-voices-example-1-title = Idinosaure enkulu yeTriassic <strong>[read by one voice]</strong>
 contribution-background-voices-example-1-explanation = Uyeza? <strong>[called by another]</strong>
 contribution-volume-description = Kuya kubakho ukuhluka kwendalo kwinqanaba lokukhwaza phakathi kwabafundi. Yala ukushicilela isandi ukuba izinga lokukhwaza liphambili kakhulu de lube luyaqhawuka ushicilelo, okanye (ngokuqhelekileyo) ukuba inqanaba lokukhwaza liphantsi kakhulu ukuba awukwazi ukuva oko kuthethwayo ngaphandle kokujonga koko kubhaliweyo.
+contribution-reader-effects-title = Iziphumo zomfundi
 contribution-reader-effects-description = Iirhekhodi ezinintsi zezabantu abancokola ngezwi labo lwendalo. Unokwamkela ushicilelo olungelulo oluqhelekileyo olukhwazwayo, olusebezayo, okanye oluhanjiswa ngokucacileyo ngelizwi ‘elimangalisayo’. Nceda ungalwamnkeli ushicilelo olungumculo kunye nabo basebenzisa ilizwi elenziwe yikhompyuter.
 contribution-just-unsure-description = Ukuba ufumana into engaqukwanga kwezi zikhokelo, nceda uvote ngokwesigqibo sakho. Ukuba ngenene awukwazi ukwenza isigqibo, sebenzisa iqhosha lokutsiba kwaye uye kushicilelo olulandelayo.
 
@@ -787,6 +793,7 @@ contribution-just-unsure-description = Ukuba ufumana into engaqukwanga kwezi zik
 
 ## HEADER/FOOTER
 
+sc-header-rejected = Izivakalisi ezikhatywayo
 sc-footer-report-bugs = Zixele iiBugs
 sc-footer-translate = Guqulela eliphepha
 sc-footer-report-copyright = Xela imiba yelungelo lokushicilela
@@ -852,6 +859,7 @@ sc-my-err-failed-delete = Ayiphumelelanga ukucima izivakalisi ezikhethiweyo... N
 
 ## REJECTED
 
+sc-rejected-title = Izivakalisi ezikhatywayo
 sc-rejected-loading = Ilayisha izivakalisi ezikhatyiweyo...
 sc-rejected-err-fetching = Kubekho impazamo xa kulandwa izivakalisi ezikhatywayo. Nceda zama kwakhona.
 sc-rejected-none-found = Akukho zivakalisi zaliweyo zifunyenweyo!
