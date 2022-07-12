@@ -18,6 +18,7 @@ error-something-went-wrong = Pfarelo, hu na zwi songo tshimbilaho zwavhuḓi
 
 ## Languages
 
+sat = Santali (Ol Chiki)
 
 # [/]
 
@@ -87,6 +88,7 @@ username-email-not-demographic = Username yaṋu na email a zwi nga paṱekanyis
 ## Speak Shortcuts
 
 request-language-text = Naa a ni athu u vhona luambo lwaṋu kha Common Voice na zwino?
+request-language-button = Itani khumbelo ya Luambo
 
 ## ProjectStatus
 
@@ -186,6 +188,8 @@ faq-what-determine-identity-q = Zwi amba mini uri a thi koni "u ḓivha" vhaambi
 faq-what-is-cv = Common Voice ndi mini?
 faq-using-cv = U shumisa Common Voice
 faq-description = Common Voice ndi tshipiḓa tsha Mozilla tshi thusaho u funza mitshihi nḓila ine vhathu vha vhukuma vha amba ngayo.
+faq-search-for-answers =
+    .label = Ṱoḓani phindulo
 
 ## ABOUT US
 
@@ -291,6 +295,7 @@ about-playbook-how-grow-language = Ri nga ita hani uri luambo lu hule nga nḓil
 about-playbook-how-grow-language-content-1 = U ita zwikhala zwa uri vhathu vho fhambananaho vha kone u shela mulenzhe kha Common Voice zwi ita uri dataset i shumele vhathu vhanzhi nga hune zwa nga konadzea ngaho. Ro ita zwithu zwine na nga zwi shumisa na dzi themphuḽethi!
 about-playbook-how-grow-language-content-3 = Ni nga ita na mutambo wa u thusa vhathu uri vha shele mulenzhe. Zwenezwi zwo leluwa. Ni nga zwi ita muyani nga zwishumiswa zwa videoconferentsi, kana nga ho livhaho ni tshi khou vhonana na vhatu arali zwo tsireledzea. <eventTemplate>Ni vhone themphuḽeithi yashu na zwithu zwa uri hu vhe na mutambo</eventTemplate>.
 about-playbook-how-grow-language-content-5 = Ni nga shumisa social media platforms u itela u ḓivhadza vhaṅwe nga ha zwenezwi. Vha rumeleni milaedze i ṱalutshedzaho uri ndi ngani zwi zwa ndeme, nahone ni kwamane na vhaṅwe uri ni kone u amba navho nga ha pfanelo dza dzi nyambo, voice AI, kana tshiṱalula tshi re hone kha zwishumiswa zwa thekhinolodzhi. Vhonani nyeletshedzo dzo engedzeaho nga ha <campaignLink>u ita dzi campaign, na u vhona mafhungo ane na nga dovha na a shumisa </campaignLink>.
+about-playbook-how-grow-language-content-6 = Vhushumisani na dzinetiworke
 about-playbook-how-grow-language-content-7 = Wanani vhaṅwe vha re na ndavha. Vha nga vha dzi yunivesithi, zwikolo zwi funzaho luambo, zwigwada zwa vha ambeli kana zwigwada zwa vhorasantsi. Ambani navho nahone ni vha ṱalutshedze zwavhuḓi nḓila ine vha nga ni thusa ngayo na uri ndi ngani. <outreachTemplates>Vhonani themphuḽethi yashu ya email ya nḓila ine ra swikelela vhathu </outreachTemplates>.
 about-playbook-how-grow-language-content-8 = <strong>Ivhani na Vhutsila!</strong> Community ya luambo lwaṋu a i nga fani na dziṅwe, nahone hedzi ndi dziṅwe dza nḓila dzi si gathi dza u ni thusa u thoma.
 
@@ -340,12 +345,14 @@ data-download-modal = Ni khou thoma u downḽoda <size>{ $size }GB</size>, naa n
 data-subtitle = Ri khou ita dataset i ne ya ḓo shumiswa nga nnyi na nnyi nga muṅwe na muṅwe ya maipfi ane vhathu vhoṱhe vha nga kona u a shumisa u gudisa dzi application dzine dza kona u u amba.
 data-explanatory-text = Ri tenda uri tshitshavha tshihulu tshi re hone tshi ḓo vhuyelwa nga dataset ya maipfi zwa ita uri hu thomiwe zwithu zwiswa nahone ha vha na miṱaṱisano yavhuḓi kha zwa vhurengisi zwi tshimbidzanaho na thekhinolodzi ya u amba ya machine-learning. Zwenezwi ndi mutingati wa shango ḽoṱhe nga vhuphara nahone ri khou ramba muṅwe na muṅwe uri a shele mulenzhe. Tshipikwa tshashu ndi uri zwishumiswa zwa u amba zwa thekhinolodzhi zwi katele vhunzhi ha vhathu, hu pfale maipfi o fhambananaho u mona na shango ḽoṱhe.
 data-get-started = <speechBlogLink>Thomani na Speech Recognition</speechBlogLink>
+data-other-title = Dataset dza maṅwe maipfi....
 data-bundle-description = Common Voice data na dziṅwe dzi dataset dza maipfi dzi re afho nṱha.
 data-download-singleword-title = Downḽodani Thagete ya Tshipiḓa tsha Ipfi Ḽithihi
 data-download-singleword-callout-v2 = Hetshi ndi tshipiḓa tshi langiwaho nga kushumisele tshi re na data ine ya mannḓafhadza digit recognition na ine ya ḓivha ee / hai.
 review-terms = Nga u shumisa Common Voice, ni khou tendelana na <termsLink>Milayo ya Kushumisele</termsLink>na<privacyLink>Milayo ya Tshiphiri</privacyLink>
 terms-disagree = A thi tendelani nazwo
 review-aborted = U apuḽoda ho imiswa. Naa ni khou ṱoḓa u diḽita zwe na rekhoda?
+review-submit-title = Ṱolisisani ni rumele
 review-submit-msg = Ro livhuwa no rekhoda!<lineBreak></lineBreak>Zwino ṱolisisani ni rumele zwe na rekhoda hafha fhasi.
 
 ## Datasets Page
@@ -358,6 +365,7 @@ datasets-positioning =
     
     Sedzani kha siaṱari heḽi sa referentsi ya hub u itela u wana dziṅwe dataset dzine dza nga shumiswa nga vhathu vhoṱhe, samusi Common Voice i tshi khou bvela phanḓa na u aluwa, ndi hone haya hune ha ḓo vha na dzi updates dzashu.
 validated-hr-total = Khwaṱhisedza Hr. Thothaḽi
+overall-hr-total = Nga u angaredza Hr. Thothaḽi
 email-to-download = Pangani email uri ni kone u downḽoda
 why-email = <b>Ndi ngani hu tshi ṱoḓea email?</b> Ri nga tea u ni kwama tshifhingani tshi ḓaho nga nṱhani ha tshanduko dzo iteaho kha dataset, email i ita uri ri kone u ni kwama.
 confirm-size = No lugela u thoma u downḽoda zwithu zwa <b>{ $size }</b>
@@ -369,6 +377,7 @@ dataset-description-hours =
     Dataset i na <b>{ $valid }</b> awara dzo teaho <b>{ $languages }</b> luambo, fhedzi ri dzula ri tshi khou panga maipfi o engedzeaho na dzinyambo. Sedzani <languagesLink>siaṱari ḽa Nyambo dzashu</languagesLink> u itela khumbelo ya luambo kana ni thome u shela mulenzhe.
 want-dataset-update = Ni khou ṱoḓa u kwamiwa ri tshi bvisa dataset ntswa ya Common Voice? Ḓiṅwaliseni kha vhane vha ṱoḓa u wana maswa maswa.
 get-started-speech = Thomani na Recognition ya Tshipitzhi
+other-datasets = Dataset dza maṅwe maipfi
 resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ ndi <docsLink>thulusi ya nnyi na nnyi</docsLink> ya vhaṱoḓulusi vhane vha khou ita state-of-the-art conversational AI models.
 resource-deepspeech-info = Tshishumiswa tsha Mozilla tsha u ḓivha ipfi tshine tsha nga shumiswa nga nnyi na nnyi tsha Deep Speech tshi nga shumiswa kha u ita app dzi ḓivhaho ipfi. Vhalani samari yashu <githubLink>Github</githubLink> kana ni dzhenelele kha <discourseLink>DeepSpeech Discourse</discourseLink> uri ni gude nga ha uri ni nga thoma hani.
 resource-coqui-info = <coquiLink>Coqui</coquiLink> yo ḓinekedzela kha zwishumiswa zwa speech zwa thekhinolodzi zwa nnyi na nnyi. Thandela dzavho dzi katela deep learning based STT na TTS engines.
@@ -471,6 +480,7 @@ speak-empty-state = Ro fhelelwa nga mitaladzi ya u rekhoda nga holwu luambo...
 speak-loading-error =
     "A ro ngo kona u wana mitaladzi ine na ḓo i vhala.
      Ri humbela uri ni lingedze nga vhuya."
+record-button-label = Rekhodani ipfi ḽaṋu
 share-title-new = <bold>Ri thuseni</bold> ri wane maipfi manzhi
 keep-track-profile = Dzulani ni tshi ḓivha mvela phanḓa yaṋu nga profaiḽi
 login-to-get-started = Ḽogani kana sign up uri ni kone u thoma
@@ -599,6 +609,7 @@ demo-account-sign-up = Rumelani ḽinki ya u ḓiṅwalisa
 
 demo-contribute-card-header = Naa no lugela u panga ipfi ḽaṋu kana u hadzima nḓevhe yaṋu?
 demo-contribute-card-body-v2 = Samusi zwino ni tshi vho ḓivha zwinzhi nyana nga ha Common Voice, ndi ngani ni sa zwi lingedzi? Puṱedzani kha icon ya khudzaipfi u ri ni thome u vhalela nṱha. <br/><br/>Arali ni tshi funa ni nga ṱolisisa maipfi e vhaṅwe vha shela ngao mulenzhe, puṱedza icon ya u tamba. Ni ḓo kona u khwaṱhisedza uri zwo rekhodiwaho zwi tshimbidzana na mitaladzi yo ṅwalwaho kha tshikirini.
+demo-listen-subtitle = Naa no lugela u nikela?
 
 ## Demo Dashboard
 
@@ -654,6 +665,7 @@ contribution-just-unsure-description = Arali na ṱangana na zwithu zwine zwi si
 ## HEADER/FOOTER
 
 sc-footer-translate = Ḓologani heḽi siaṱari
+sc-footer-report-copyright = Vhigani thaidzo dza kopi ya vhuṋe
 
 ## HOME
 
@@ -720,6 +732,7 @@ sc-stats-summary = Tsha u Kuvhanganya Mitaladzi tsha Common Voice tsho kuvhangan
 ## ADD
 
 sc-submit-err-select-lang = Ri humbela uri ni nange luambo
+sc-submit-err-add-sentences = Ri humbela uri ni pange mitaladzi.
 sc-submit-err-add-source = Ri humbela uri ni pange hune zwa bva hone.
 sc-submit-err-confirm-pd = Ri humbela uri ni khwaṱhisedze uri heyi mitaladzi ndi ya fhethu ha tshitshavha tshoṱhe.
 sc-submit-prompt =
@@ -836,6 +849,7 @@ sc-lang-info-rejected =
 
 ## LOGIN
 
+sc-login-err-try-again = Ri humbela uri ni dovhe hafhu.
 
 ## PROFILE
 
@@ -874,6 +888,7 @@ sc-review-form-review-failure = Zwe na ṱolisisa a zwi ngo vhulungea kana u sei
 
 ## SETTINGS
 
+sc-settings-reset-skipped = Risetani mitaladzi yo pfukhiwaho
 sc-settings-skipped-decription = Murahuni no pfukha mitaladzi ni tshi khou vhalulula. U risetha mitaladzi yo pfukhiwaho zwi ḓo sumbedza mitaladzi yoṱhe ye na i pfukha. Hezwi zwi itea kha luambo luthihi nga tshetsho tshifhinga.
 sc-settings-show-all-button = Sumbedza mitaladzi yoṱhe yo pfukhiwaho
 sc-settings-failed = A zwo ngo konadzea u shandukisa dzi setiṅi. Ri humbela uri ni dovhe ni lingedze.
