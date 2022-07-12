@@ -75,6 +75,8 @@ kbd = Se-Kabardia
 ki = Se-Kikuyu
 kk = Se-Kazakh
 km = Se-Khmer
+kmr = Se-Kurmanji Kurdish
+knn = Se-Konkani (Devanagari)
 ko = Se-Korea
 kpv = Se-Komi-Zyria
 ky = Se-Kyrgyz
@@ -308,6 +310,7 @@ shortcut-rerecord-toggle-label = Dira dikgatiso gape
 shortcut-discard-ongoing-recording-label = Latlha go rekota go ntseng go tswelela
 shortcut-submit = Busetsa
 shortcut-submit-label = Romela dikgatiso
+request-language-text = A ga o ise o bone puo ya gago mo Common Voice?
 request-language-button = Kopa Puo
 
 ## ProjectStatus
@@ -342,6 +345,8 @@ profile-form-age =
     .label = Dingwaga
 profile-form-gender-2 =
     .label = Bong
+leaderboard-visibility =
+    .label = Ponalo Ya ba Ba di Gogang Kwa Pele
 hidden = E fitlhegile
 visible = E a bonala
 native-language =
@@ -389,7 +394,9 @@ remove-avatar = Ntsha Setshwantsho
 
 ## Profile - Email
 
+email-already-used = Imeile e setse e dirisitswe mo akhaonteng e nngwe
 add-language = Tsenya Puo
+change-email-setings = Fetola imeile ya gago ka Diseting mo tlase ga Boitshupo Jwa go Tsena
 
 ## FAQ
 
@@ -716,6 +723,7 @@ contact-required = *e a tlhokega
 
 ## Request Language Modal
 
+request-language-title = Kopo ya Puo
 request-language-form-language =
     .label = Puo
 request-language-success-title = Kopo ya puo e kgonne go romelwa ka katlego, malebo.
@@ -954,6 +962,7 @@ activity-needed-calculation-plural =
     }
 how-many-per-day = Go gontle! Dikgatiso di le kae ka letsatsi?
 how-many-a-week = Go gontle! Dikgatiso di le kae ka beke?
+which-goal-type = A o batla go Bua, go Reetsa kgotsa ka bobedi?
 receiving-emails-info = Gone jaanong o dirile gore o amogele diimeile tse di jaaka dikgopotso tsa maikaelelo, ditlhabololo tsa kgatelopele ya me le makwalodikgang a Common Voice
 not-receiving-emails-info = Gone jaanong o dirile gore o <bold>SE KA</bold> wa amogela diimeile tse di jaaka dikgopotso tsa maikaelelo, ditlhabololo tsa kgatelopele ya me le makwalodikgang a Common Voice
 n-clips-pluralized =
@@ -1052,6 +1061,8 @@ demo-account = Akhaonto
 
 demo-account-card-header = Ga o tlhoke go nna le akhaonto gore o thuse, mme gone go mosola.
 demo-account-card-body = Kafa mojeng re bontsha mesola mme re tlhalosa gore ke tshedimosetso efe e re e phasalatsang. Dirisa dilinki tse di fa tlase go simolola akhaonto ya Common Voice mo sedirisiweng sa gago.
+demo-account-enter-email =
+    .label = Tsenya imeile gore o romelelwe linki ya go ikwadisa
 demo-account-sign-up = Romela linki ya go ikwadisa
 
 ## Demo Contribute
@@ -1247,6 +1258,7 @@ sc-submit-guidelines = Tsweetswee tlhola <howToLink>dikaelo</howToLink>.
 ## ADD LANGUAGE
 
 sc-add-lang-could-not-add = Ga ya kgona go tsenya puo
+sc-add-lang-sec-label = Tsenya puo e o batlang go thusa ka yone
 sc-add-lang-sec-button = Tsenya Puo
 sc-add-err-unexpected = Phetolo e e sa solofelwang go tswa kwa sefareng
 # Variables:
