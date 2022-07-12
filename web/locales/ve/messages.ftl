@@ -100,6 +100,7 @@ username-email-not-demographic = Username yaṋu na email a zwi nga paṱekanyis
 ## Speak Shortcuts
 
 shortcut-discard-ongoing-recording-label = Diḽitani zwine na khou zwi rekhoda
+shortcut-submit = Humelani
 shortcut-submit-label = U Rumela zwo rekhodiwaho
 request-language-text = Naa a ni athu u vhona luambo lwaṋu kha Common Voice na zwino?
 request-language-button = Itani khumbelo ya Luambo
@@ -149,6 +150,7 @@ help-variants-explanation = Dzi Variants ndi mufuda wo khetheaho wa luambo – u
 ## Profile - Email
 
 browse-file-title = Apuḽodani tshinepe
+browse-file = Kokodzani ni laṱele kana <browseWrap>ni fhenḓe-fhenḓe</browseWrap>
 connect-gravatar = Khonekithani na Gravatar
 gravatar_not_found = A hu ngo waniwa gravatar ya email yaṋu
 file_too_large = Faela ye na i nanga ndi khulwanesa
@@ -434,6 +436,9 @@ ready-to-validate = Naa no lugela u thusa u khwaṱhisedza mitaladzi?
 
 download-title = No thoma u downḽoda
 download-helpus = Ri thuseni u fhaṱa tshigwada tsha maipfi a thekhinolodzhi, kha ri dzule ri tshi kwamana nga email.
+download-form-email =
+    .label = Ṅwalani email yaṋu
+    .value = Ro livhuwa, ri ḓo ni kwama.
 download-back = Humelani kha dzi Dataset dza Common Voice
 
 ## Contact Modal
