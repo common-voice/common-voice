@@ -131,6 +131,7 @@ tig = Se-Tigre
 tk = Se-Turkmen
 tl = Se-Tagalog
 tn = Setswana
+tok = Se-Toki Pona
 tr = Se-Turkey
 ts = Setsonga
 tt = Se-Tartar
@@ -291,7 +292,7 @@ shortcut-record-toggle = r
 shortcut-record-toggle-label = Rekota/Emisa
 shortcut-discard-ongoing-recording-label = Latlha go rekota go ntseng go tswelela
 shortcut-submit = Busetsa
-shortcut-submit-label = Romela dibidio
+shortcut-submit-label = Romela dikgatiso
 request-language-button = Kopa Puo
 
 ## ProjectStatus
@@ -756,7 +757,7 @@ contribute-more =
         [one] { "" }
        *[other] *[other] A o ipaakanyeditse go dira { $count } mo go oketsegileng?
     }
-record-cta = Simolola go rekota
+record-cta = Simolola go kgatisa
 record-platform-not-supported = Re maswabi, polatefomo  ya gago ga e tshegediwe gone jaanong.
 record-platform-not-supported-ios-non-safari = Mo iOS tsweetswee tswelela ka Safari go dira gore e kgone go gatisa…
 record-must-allow-microphone = O tshwanetse go letlelela go dirisa maekerofouno.
@@ -777,7 +778,7 @@ record-submit-tooltip = { $actionType } e romele fa e setse e siametse
 clips-uploaded = Dibidio di tsentswe
 record-abort-title = Fetsa go gatisa pele?
 record-abort-text = Fa o tswa gone jaanong o tla latlhegelwa ke kgatelopele e o e dirileng
-record-abort-submit = Romela dibidio
+record-abort-submit = Romela dikgatiso
 record-abort-delete = Tswa & Phimola dikgatiso
 listen-instruction = { $actionType }<playIcon></playIcon> a ba buile mola ka tsela e e nepagetseng?
 listen-again-instruction = O berekile!<playIcon></playIcon> Reetsa gape fa o ipaakantse
@@ -875,6 +876,11 @@ want-to-continue = A o batla go tswelela?
 finish-editing = Fetsa go baakanya pele?
 lose-changes-warning = Fa o tswa gone jaanong o tla latlhegelwa ke diphetogo tse o di dirileng
 build-custom-goal = Itirele boikaelelo jo o ka bo kgonang
+help-reach-hours-pluralized =
+    { NUMBER($hours) ->
+        [one] Thusa go fitlhelela ura e le { $hours } mo { $language } ka maikaelelo a botho
+       *[other] Thusa go fitlhelela diura tse { $hours } mo { $language } ka maikaelelo a botho
+    }
 help-reach-hours-general-pluralized =
     { NUMBER($hours) ->
         [one] Thusa Common Voice go fitlhelela ura e le { $hours } mo puong ka maikaelelo a batho
@@ -1183,7 +1189,15 @@ sc-add-result =
         [one] Mela e e rometsweng. { $duplicates } mola o gannwe ka gore o a ipoeletsa.
        *[other] Mela e e rometsweng. { $duplicates } mela e gannwe ka gore e a ipoeletsa.
     }
-sc-add-err-submission = Phoso ka go Romela
+# Variables:
+#   $sentences (Number) - Number of sentences which failed to be saved to the database - could be several different reasons
+sc-add-err-failed =
+    { $sentences ->
+        [0] Ga go na mela e e padileng
+        [one] Mola o le 1 o padile
+       *[other] Mela e le { $sentences } e padle
+    }
+sc-add-err-submission = Phoso ya go Romela
 sc-add-lang-process-notice = Fa puo ya gago e sa tlhage fano, o ka e kopa ka <languageProcessLink>tsela eno</languageProcessLink>.
 
 ## ADD SENTENCES CONFIRMATION
@@ -1191,6 +1205,14 @@ sc-add-lang-process-notice = Fa puo ya gago e sa tlhage fano, o ka e kopa ka <la
 sc-confirm-are-you-sure =
     .message = Mela ga ya romelwa, a o tlhomamisegile gore o batla go tswa?
 sc-confirm-sentences-title = Tlhomamisa Dipolelo Tse Disha
+# Variables:
+#   $countOfSentences (Number) - Number of sentences the user has filled in the submission form
+sc-confirm-sentences-found =
+    { $countOfSentences ->
+        [0] Ga go a fitlhelwa mela epe.
+        [one] Go fitlhetswe mola o le 1.
+       *[other] Go fitlhetswe mela e le { $countOfSentences }.
+    }
 # Variables:
 #   $countOfInvalidated (Number) - Number of sentences the user rejected in the review form before submission
 sc-confirm-rejected-by-you = { $countOfInvalidated } e gannwe ke wena
@@ -1219,6 +1241,14 @@ sc-confirm-uploading = Mela e a tsenngwa. Seno se ka tsaya metsotso e le mmalwa 
 sc-lang-info-title-total = Palogotlhe
 sc-lang-info-title-personal = Tsa Botho
 # Variables:
+#   $totalSentences (Number) - Number of sentences uploaded in total for this language
+sc-lang-info-total =
+    { $totalSentences ->
+        [0] Ga go na palogotlhe ya mela.
+        [one] Palogotlhe ya mola o le 1.
+       *[other] Palogotlhe ya mela e le { $totalSentences }.
+    }
+# Variables:
 #   $totalInReview (Number) - Number of sentences currently in the review state for this language
 sc-lang-info-in-review =
     { $totalInReview ->
@@ -1236,6 +1266,22 @@ sc-lang-info-left-for-you =
     }
 sc-lang-info-review-now = <reviewLink>Sekaseka jaanong!</reviewLink>
 sc-lang-info-add-more = <addLink>Tsenya mela e e oketsegileng jaanong!</addLink>
+# Variables:
+#   $validatedSentences (Number) - Number of sentences which have been approved for this language
+sc-lang-info-validated =
+    { $validatedSentences ->
+        [0] Ga go na mela e e tlhomamisitsweng.
+        [one] Mola o le 1 o o tlhomamisitsweng.
+       *[other] Mela e le { $validatedSentences } e e tlhomamisitsweng.
+    }
+# Variables:
+#   $rejectedSentences (Number) - Number of sentences which have been rejected for this language
+sc-lang-info-rejected =
+    { $rejectedSentences ->
+        [0] Ga go na mela e e gannweng.
+        [one] Go gannwe mola o le 1.
+       *[other] Go gannwe mela e le { $rejectedSentences }.
+    }
 
 ## LOGIN
 
