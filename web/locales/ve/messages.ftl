@@ -706,7 +706,10 @@ number-of-voices = Tshivhalo tsha maipfi
 email-to-download = Pangani email uri ni kone u downḽoda
 why-email = <b>Ndi ngani hu tshi ṱoḓea email?</b> Ri nga tea u ni kwama tshifhingani tshi ḓaho nga nṱhani ha tshanduko dzo iteaho kha dataset, email i ita uri ri kone u ni kwama.
 confirm-size = No lugela u thoma u downḽoda zwithu zwa <b>{ $size }</b>
+size-gigabyte = GB
+size-megabyte = MB
 confirm-no-identify = <b>Ni khou tenda</b> uri a ni nga lingedzi u ḓivha muambi kha dataset ya Common Voice
+download-language = Downloḓa { $language }
 validated-hours = Awara dzo Khwaṱhisedzwaho
 recorded-hours = Awara dzo Rekhodiwaho
 whats-inside = Hu na mini nga ngomu ha dataset ya Common Voice?
@@ -715,11 +718,14 @@ dataset-description-hours =
     
     Dataset i na <b>{ $valid }</b> awara dzo teaho <b>{ $languages }</b> luambo, fhedzi ri dzula ri tshi khou panga maipfi o engedzeaho na dzinyambo. Sedzani <languagesLink>siaṱari ḽa Nyambo dzashu</languagesLink> u itela khumbelo ya luambo kana ni thome u shela mulenzhe.
 want-dataset-update = Ni khou ṱoḓa u kwamiwa ri tshi bvisa dataset ntswa ya Common Voice? Ḓiṅwaliseni kha vhane vha ṱoḓa u wana maswa maswa.
+subscribe = Ḓiṅwaliseni
 get-started-speech = Thomani na Recognition ya Tshipitzhi
 other-datasets = Dataset dza maṅwe maipfi
+feedback-q = Ni na Fidibeke?
 resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ ndi <docsLink>thulusi ya nnyi na nnyi</docsLink> ya vhaṱoḓulusi vhane vha khou ita state-of-the-art conversational AI models.
 resource-deepspeech-info = Tshishumiswa tsha Mozilla tsha u ḓivha ipfi tshine tsha nga shumiswa nga nnyi na nnyi tsha Deep Speech tshi nga shumiswa kha u ita app dzi ḓivhaho ipfi. Vhalani samari yashu <githubLink>Github</githubLink> kana ni dzhenelele kha <discourseLink>DeepSpeech Discourse</discourseLink> uri ni gude nga ha uri ni nga thoma hani.
 resource-coqui-info = <coquiLink>Coqui</coquiLink> yo ḓinekedzela kha zwishumiswa zwa speech zwa thekhinolodzi zwa nnyi na nnyi. Thandela dzavho dzi katela deep learning based STT na TTS engines.
+community-playbook = Community Playbook
 resource-playbook-info = <playbookLink>Wanani thuso</playbookLink> nga ha u shumisa Common Voice, u bva kha localization u ya kha kushumisele kwa dataset, na nga ha nḓila ine na nga kwamana ngayo na vhadzulapo vha vhuponi haṋu.
 data-other-librispeech-description = LibriSpeech ndi corpus i ṱoḓaho u vha awara dza 1000 dza 16Khz dza u vhala tshipitzhi tsha Luisimane u bva kha dzibugu dza odio dza project ya LibriVox.
 data-other-ted-name = TED-LIUM Corpus
@@ -731,6 +737,10 @@ go-discourse = Iyani kha Discourse
 missing-language = Naa a ni vhoni luambo lwaṋu kha dataset? U ita khumbelo ya luambo, iyani kha siaṱari ḽa Dzinyambo.
 go-languages-page = Iyani kha siaṱari ḽa dzi Nyambo
 ready-to-validate = Naa no lugela u thusa u khwaṱhisedza mitaladzi?
+more = Zwo Engedzeaho
+close = Valani
+download = Downḽodani
+dataset-version = Vershini
 
 ## Download Modal
 
@@ -740,16 +750,26 @@ download-form-email =
     .label = Ṅwalani email yaṋu
     .value = Ro livhuwa, ri ḓo ni kwama.
 download-back = Humelani kha dzi Dataset dza Common Voice
+download-no = Hai Ndo Livhuwa
 
 ## Contact Modal
 
+contact-title = Fomo ya Zwa Vhukwamani
+contact-form-name =
+    .label = Dzina
+contact-form-message =
+    .label = Mulaedza
 contact-required = *Zwi ya todea
 
 ## Request Language Modal
 
+request-language-title = Khumbelo ya Luambo
+request-language-form-language =
+    .label = Luambo
 request-language-success-title = Khumbelo ya luambo yo rumeliwa zwavhuḓi, ro livhuwa.
 request-language-success-content = Ri ḓo ni kwama hu si kale uri ri ni vhudze zwinzhi nga ha uri lumbo lwaṋu ni nga lu panga haṋi kha Common Voice.
 select-language = Nangani luambo
+other-language = Dziṅwe Nyambo
 
 ## Request Language Pages
 
