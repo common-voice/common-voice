@@ -1180,6 +1180,7 @@ contribution-criteria-nav = Mokgwa
 contribution-criteria-link = Tlhaloganya mokgwa wa go abelana
 contribution-criteria-page-title = Dintlha tsa go Aba
 contribution-criteria-page-description = Tlhaloganya gore o tshwanetse go batla eng fa o reeditse dikgatiso tsa mantswe mme o thuse go dira gore dikgatiso tsa gago tsa mantswe di tshwanele!
+contribution-for-example = ka sekai
 contribution-misreadings-title = Tse di sa balwang sentle
 contribution-misreadings-description = Fa o reeditse, tlhatlhoba ka kelotlhoko gore a se se gatisitsweng ke sone tota se se kwadilweng; se gane le fa go na le diphoso tse dinnye tota. <br />Diphoso tse di tlwaelegileng thata di akaretsa:
 contribution-misreadings-description-extended-list-1 = Ga go na <strong>'A'</strong> kgotsa <strong>'Le'</strong> kwa tshimologong ya kgatiso.
@@ -1244,11 +1245,14 @@ sc-header-rejected = Mela e e Gannweng
 sc-header-my = Mela ya Me
 sc-header-statistics = Dipalopalo
 sc-header-profile = Porofaele
+sc-footer-discourse = Discourse
 sc-footer-report-bugs = Bega Dibaerase
 sc-footer-translate = Ranola tsebe eno
 sc-footer-report-copyright = Bega mathata a tetlokhopi
 sc-footer-privacy = Bosephiri
 sc-footer-terms = Melawana
+sc-footer-cookies = Dikhukhi
+sc-login-signup-button = Tsena / Ikwadise
 sc-logout-button = Tswa
 
 ## HOME
@@ -1266,6 +1270,7 @@ sc-languages-fetch-error = Ga re a kgona go tla ka dipuo tse di gone. Go ka se k
 
 ## HOW-TO
 
+sc-howto-title = Kafa
 sc-howto-addlang-title = Go tsenya dipuo tse o ka dirang ka tsone
 sc-howto-addlang-text = Fa o setse o tsene, o kgona go tlhopha dipuo tsa gago mo karolong ya porofaele.
 sc-howto-addsen-title = Tsenya dipolelo tse disha
@@ -1304,7 +1309,9 @@ sc-howto-findpd-partner-2 = Baitseanape ba baitsepuo le bone ba ka thusa, leka g
 
 sc-my-title = Mela ya Me
 sc-my-description = Tsebe eno e go naya dintlhakakaretso tsa dipolelo tsotlhe tse o di rometseng. Gape o ka phimola mela e e rometsweng fa go tlhokega, ka go tshwaya lebokoso gaufi le one le go tobetsa &quot;Phimola polelo e e tlhophilweng&quot; kwa tlase. Tsweetswee tlosa dipolelo fela fa tota go tlhokega, ka sekai, fa o lemoga morago ga ntlha nngwe gore polelo eo e na le tshireletso ya tetlokhopi.
+sc-my-loading = E tsenya mela ya gago...
 sc-my-err-fetching = Go nnile le phoso fa go tsewa mela ya gago. Tsweetswee leka gape.
+sc-my-no-sentences = Ga go a bonwa mela epe!
 # Variables:
 #   $batchId (String) - A unique ID identifying the submission of sentences - sentences uploaded together all have the same batch ID
 sc-my-submission = Go romela: { $batchId }
@@ -1470,6 +1477,9 @@ sc-login-err-try-again = Tsweetswee leka gape.
 
 ## PROFILE
 
+# Variables:
+#   $username (String) - eMail address of the logged in user
+sc-profile-title = Porofaele: { $username }
 sc-personal-err-lang-not-found = Ga re a kgona go ntsha puo: puo ga e a bonwa
 sc-personal-err-remove = Ga ya kgona go ntsha puo
 sc-personal-your-languages = Dipuo tsa gago:
@@ -1514,6 +1524,8 @@ sc-review-form-button-reject-shortcut = N
 # Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
 sc-review-form-button-skip-shortcut = T
 sc-review-form-keyboard-usage-custom = Gape o ka dirisa Ditlhabanyetso Tsa Khiiboto: { sc-review-form-button-approve-shortcut } go Amogela, { sc-review-form-button-reject-shortcut } go Gana, { sc-review-form-button-skip-shortcut } go Tlola
+sc-review-form-button-submit =
+    .submitText = Fetsa Tshekatsheko
 # Variables:
 #   $sentences (Number) - Number of sentences the user has reviewed in this session
 sc-review-form-reviewed-message =
@@ -1528,6 +1540,7 @@ sc-review-link = Sekaseka
 ## SETTINGS
 
 sc-settings-title = Diseting
+sc-settings-ui-language = Puo ya go Ikgokaganya
 sc-settings-reset-skipped = Rulaganya sesha dipolelo tse di tlodilweng
 sc-settings-skipped-decription = O tlodile mela kwa morago fa o ntse o sekaseka. Go rulaganya sesha mela e e tlodilweng go tla bontsha gape mela yotlhe e o e tlodileng. Seno ga se a ikaega ka puo.
 sc-settings-show-all-button = Bontsha ela yotlhe e e tlodilweng gape
