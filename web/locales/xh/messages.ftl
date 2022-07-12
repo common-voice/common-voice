@@ -11,6 +11,7 @@ email-opt-in-privacy-v2 = Ngokuvuma ukufumana iimeyile uyavuma ukuba kulungile n
 indicates-required = Imimandla ephawulwe ngeenkwenkwezi (*) iyafuneka.
 banner-error-slow-1 = Uxolo, iCommon Voice isebenza ngokucotha. Enkosi ngomdla wakho.
 banner-error-slow-2 = Sifumana itrafiki eninzi kwaye ngoku siphanda le iingxaki.
+banner-error-slow-link = Iphepha le-status
 error-something-went-wrong = Uxolo, kukho into engahambanga kakuhle
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
@@ -19,6 +20,7 @@ error-something-went-wrong = Uxolo, kukho into engahambanga kakuhle
 
 ## Languages
 
+nan-tw = iTaiwanese (Minnan)
 sat = iSantali (Ol Chiki)
 tok = iToki Pona
 zh-HK = iChinese (Hong Kong)
@@ -28,6 +30,7 @@ zh-HK = iChinese (Hong Kong)
 
 ## Layout
 
+speak-now = Thetha ngoku
 content-license-text = Umxholo okhoyo phantsi kwe <licenseLink>Creative Commons license</licenseLink>
 share-title = Sincede sifumane abanye abaza kunikela ngelizwi labo!
 share-text = Nceda ufundise oomatshini indlela abantu bokwenyani, abathetha nayo, nikela ngelizwi lakho kwi-{ $link }
@@ -98,6 +101,7 @@ username-email-not-demographic = Igama lakho lomsebenzisi kunye ne-imeyile aziyi
 ## Speak Shortcuts
 
 shortcut-discard-ongoing-recording-label = Lahla irekhodingi eqhubekayo
+shortcut-submit-label = Ngenisa iiKliphu
 request-language-text = Awukaluboni ulwimi lwakho kwi-Common Voice okwangoku?
 request-language-button = Cela uLwimi
 
@@ -360,6 +364,7 @@ localization-explanation = Le yinkqubo yethu yokuguqulela kunye nokulungelelanis
 sentence-collection-explanation = Ukuqokelela izivakalisi kwindawo yoluntu, okanye ukubhala ezintsha kwindawo yoluntu.
 hours-recorded-explanation = Kubalwa kweeyure zokurekhoda ilizwi eziqokelelweyo ukuza kuthi ga ngoku.
 hours-validated-explanation = Isibalo seeyure zokurekhoda kwezwi eziye zaqinisekiswa ngabasebenzisi aba-2 kwaba-3 ngevoti ethi "Ewe". La manqaku aphawula inkqubela phambili kwiprojekthi iyonke kwiinjongo zeeyure ezimisiweyo ezili-10.
+sst = Intetho egqithiselwa kwisicatshulwa (STT)
 sst-explanation = Itekhnoloji yentetho ukuya kwisicatshulwa (STT) iguqula idatha yelizwi iyise kwilizwi.
 de-identified-explanation = Inkqubo apho ulwazi lweprofayile yomntu owenze ugalelo lufihliwe kwiikliphu zabo zelizwi abanikele ngalo xa zikhutshelwa njengenxalenye ye-dataset.
 
@@ -418,6 +423,7 @@ resource-deepspeech-info = INjii ye-Mozilla open source yokuqonda ilizwi nenteth
 resource-coqui-info = I <coquiLink>Coqui</coquiLink> inikezelwe kwi-teknoloji yentetho evulekileyo. Iiprojekthi zabo ziquka ukufunda okunzulu okusekelwe kwi-STT kunye neenjini ze-TTS.
 resource-playbook-info = <playbookLink>Fumana isikhokelo esiluncedo</playbookLink> kulo lonke uhambo lweCommon Voice, ukusuka ekuhlaleni ukuya kusetyenziso lwedatha, kunye nendlela yokunxibelelana noluntu lwethu.
 data-other-librispeech-description = ILibriSpeech yikopus emalunga ne-1000 leeyure ze-16Khz yokufunda intetho yesiNgesi ethathwe kwiincwadi ezivakalayo ezifundwayo kwiprojekthi yeLibriVox.
+data-other-ted-name = TED-LIUM Corpus
 data-other-ted-description = I-TED-LIUM corpus yenziwe ngeentetho ezivakalayo kunye noshicilelo lwabo olufumaneka kwiwebhusayithi yeTED.
 data-other-voxforge-description = IVoxForge yamiselwa ukuba iqokelele intetho ekhutshelweyo ukuze isetyenziswe kunye neeNjini zokuQatshelwa kweNtetho yasimahla kunye neVulekileyo.
 data-other-tatoeba-description = ITatoeba nguvimba weenkcukacha omkhulu wezivakalisi, iinguqulelo, kunye nesandi esithethwayo ukuze sisetyenziswe ekufundeni ulwimi. Olu khutshelo (the download) luqulathe IsiNgesi esithethwayo esirekhodwe luluntu lwaso.
@@ -498,6 +504,7 @@ contribute-more =
         [one] Ikulungele ukwenza { $count } ngaphezulu?
        *[other] Ikulungele ukwenza { $count } ngaphezulu?
     }
+record-cta = Qala urekhodisha
 record-platform-not-supported = Uxolo, iqonga lakho alixhaswanga okwangoku.
 record-platform-not-supported-desktop = Kwizixhobo zedesktop unokunikela ngokukhuphela…
 record-platform-not-supported-ios-non-safari = Kwi-iOS nceda uqhubeke neSafari ukuvula ukurekhoda…
@@ -517,6 +524,7 @@ review-instruction = Phonononga kwaye urekhode kwakhona iiklip ukuba kuyafuneka
 record-submit-tooltip = { $actionType } ngenisa xa ukulungele
 record-abort-title = Gqibezela ukurekhoda kuqala?
 record-abort-text = Ukuhamba ngoku kuthetha ukuba uyakuphulukana nenkqubela phambili yakho
+record-abort-submit = Ngenisa iiKliphu
 record-abort-delete = Phuma kwaye uCime iikliphu
 listen-instruction = { $actionType }<playIcon></playIcon> ingaba basithetha ngokuchanekileyo isivakalisi?
 listen-again-instruction = Mhle umsebenzi! <playIcon></playIcon>  Mamela kwakhona xa sele ulungile
@@ -733,6 +741,7 @@ contribution-misreadings-example-4-title = Iidinosaurs ezinkulu zeTriassic. Ewe.
 contribution-misreadings-example-4-explanation = [Okurekhodiweyo kungaphaya komlinganiselo wamagama odingekayo]
 contribution-misreadings-example-5-title = Siyahamba siyokufumana ikofu.
 contribution-misreadings-example-6-title = Siyokufumana ikofu.
+contribution-misreadings-example-6-explanation = [Kufuneka ku "We are"]
 contribution-misreadings-example-7-title = Siyokufumana ikofu.
 contribution-misreadings-example-7-explanation = [Akukho 'a' kumbhalo oyi orijinali]
 contribution-misreadings-example-8-title = Inyosi yagqitha.
@@ -877,6 +886,7 @@ sc-add-err-failed =
         [one] Si-1 isivakalisi esingaphumelelanga
        *[other] { $sentences } izivakalisi ezingaphumelelanga
     }
+sc-add-err-submission = Kubekho impazamo ekungeniseni
 sc-add-lang-process-notice = Ukuba ulwimi lwakho aludweliswanga apha, ungalucela ku <languageProcessLink>le nkqubo</languageProcessLink>.
 
 ## ADD SENTENCES CONFIRMATION
