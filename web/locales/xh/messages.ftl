@@ -22,7 +22,13 @@ error-something-went-wrong = Uxolo, kukho into engahambanga kakuhle
 
 dsb = iSorbian, Lower
 hsb = iSorbian, Upper
+mhr = iMeadow Mari
+mni = iMeetei Lon
 nan-tw = iTaiwanese (Minnan)
+nb-NO = iNorwegain Bokmål
+nn-NO = iNorwegain Nynorsk
+nso = iNorthen Sotho
+pap-AW = iPapiamento (Aruba)
 quy = iQuechua Chanka
 rm-sursilv = iRomansh Sursilvan
 rm-vallader = iRomansh Vllader
@@ -41,6 +47,7 @@ content-license-text = Umxholo okhoyo phantsi kwe <licenseLink>Creative Commons 
 share-title = Sincede sifumane abanye abaza kunikela ngelizwi labo!
 share-text = Nceda ufundise oomatshini indlela abantu bokwenyani, abathetha nayo, nikela ngelizwi lakho kwi-{ $link }
 back-top = Buyela Phezulu
+logout = Phuma
 
 ## Home Page
 
@@ -122,17 +129,24 @@ status-hours =
         [one] Kuqinisekiswe iyure enye okwangok!
        *[other] { $hours } iiyure eziqinisekisweyo okwangoku!
     }
+# Variables:
+# $goal - number of hours representing the next goal
+status-goal = Iinjongo ezilandelayo: { $goal }
 
 ## ProfileForm
 
 profile-form-username =
     .label = Igama lomsebenzisi
+profile-form-native-language =
+    .label = Ulwimi lenkobe
 profile-form-variant =
     .label = Loluphi ulwimi olwahlukileyo { $language } oluthethayo?
 profile-form-variant-default-value = Akukho mahluko ukhethiweyo
 profile-form-custom-accent-help-text =
     .label = Ungayichza njani i-accent yakho?
 profile-form-custom-accent-placeholder-2 = Qalisa ukuchwetheza ukuchaza isivakalisi sakho
+native-language =
+    .label = Ulwimi lenkobe
 profile-form-add-accent = Yongeza i-accent entsha  "{ $inputValue }"
 why-profile-title = Kutheni kufuneka iProfayile?
 why-profile-text =
@@ -144,6 +158,8 @@ thanks-for-account = Enkosi ngokuqinisekisa i-akhawunti yakho, ngoku masikhe ipr
 why-demographic = Kutheni lento ibalulekile?
 why-demographic-explanation-2 = Iincukhaca ezingachazwanga njengeminyaka, isini, kunye ne- accent zinceda ukuphucula idatha yesandi esetyenziswayo ukuqeqesha ukuchaneka kweenjini zokuqondwa kwentetho. Igama lomsebenzisi lakho kunye ne-imeyile soze linxulunyaniswe nedatha oyingenisileyo, kwaye unokukhetha ukuba wenze igama lomsebenzisi lakho lifikelele ku-wonke wonke okanye lingaziwa.
 accept-privacy = Ndilungile ngokuphatha olu lwazi njengoko luchazwa <privacyLink>Kumgaqo-nkqubo</privacyLink> weMozilla
+accept-privacy-title = Umthetho wabuCala
+login-identity = Isazisi sokungena
 login-signup = Ngena / Bhalisa
 download-profile = Khuphela iDatha yam
 skip-submission-feedback = Tsiba iNgxelo yokuNgenisa
@@ -165,6 +181,7 @@ remove-avatar = Susa i-avatar
 
 ## Profile - Email
 
+manage-subscriptions = Lawula abaRhumi
 manage-email-subscriptions = Lawula imirhumo ye-imeyile
 email-already-used = I-imeyile sele isetyenziselwa kwi-akhawunti eyahlukileyo
 change-email-setings = Guqula i-imeyile yakho usebenzisa iiSetingi phantsi kwesazisi sokuNgena.
@@ -368,6 +385,7 @@ about-playbook-how-project-governance-content-2 = Ulawulo lwethu lusekwe kwezi n
 about-playbook-how-project-governance-content-3 = Ubumfihlo, ukhuseleko kunye nokungafihli.
 about-playbook-how-project-governance-content-4 = Ukuthatha inxaxheba koluntu kunye nokwenza izigqibo.
 about-playbook-how-project-governance-content-5 = Ixabiso kunye nokuqatshelwa.
+about-playbook-how-project-governance-content-6 = Uxanduva lokuphendula.
 about-playbook-how-project-governance-content-7 = <governanceLink>Funda ngakumbi malunga nendlela esilawulwa ngayo</governanceLink>
 
 ## Glossary
@@ -455,6 +473,7 @@ download-form-email =
     .label = Faka i-imeyile yakho
     .value = Enkosi, siza kuqhagamshelana nawe.
 download-back = Buyela kwiidatha seti zeCommon Voice
+download-no = Hayi Enkosi
 
 ## Contact Modal
 
@@ -464,6 +483,7 @@ download-back = Buyela kwiidatha seti zeCommon Voice
 request-language-success-title = Isicelo solwimi singeniswe ngempumelelo, enkosi.
 request-language-success-content = Siza kuqhagamshelana ngolwazi oluthe vetshe malunga nendlela yokongeza ulwimi lwakho kwi-Common Voice kungekudala.
 select-language = Khetha uLwimi...
+other-language = Olunye Ulwimi
 
 ## Request Language Pages
 
@@ -566,12 +586,14 @@ target-segment-add-voice = Yangeza ilwizi lakho
 
 report-title = Ngenisa ingxelo
 report-ask = Yeyiphi imiba onayo ngesi sivakalisi?
+report-offensive-language = Ulwimi olukhubekisayo
 report-offensive-language-detail = Isivakalisi sinolwimi olukrwada okanye olukhubekisayo.
 report-grammar-or-spelling = Impazamo yegrama/ yopelo
 report-grammar-or-spelling-detail = Isivakalisi sinempazamo yegrama okanye yopelo.
 report-different-language-detail = Kubhalwe ngolwimi olwahlukileyo kunento endiyithethayo.
 report-difficult-pronounce = Kunzima ukubiza
 report-difficult-pronounce-detail = Inamagama okanye amabinzana ekunzima ukuwafunda okanye ukwabiza.
+report-offensive-speech = Intetho ekhubekisayo
 report-offensive-speech-detail = Ikliphu inolwimi olukrwada okanye olukhubekisayo.
 report-success = Ingxelo ipasiswe ngempumelelo
 
@@ -604,6 +626,7 @@ todays-validated-progress = Inkqubela yanamhlanje yeCommon Voice kwiikliphu iqin
 recorded-clips = Iikliphu ezirekhodishiweyo
 validated-clips = Iikliphu eziqinisekisiweyo
 total-approved = Itotali iVunyiwe
+overall-accuracy = Ukuchaneka kuKonke
 set-visibility = Seta ukubonakala kwam
 visibility-explainer = Olu seto lulawula ukubonakala kwebhodi yabaphambili. Xa ufihliwe, inkqubela yakho iya kuba yeyabucala. Oku kuthetha ukuba umfanekiso wakho, igama lomsebenzisi lakho kunye nenkqubela phambili ayizukubonakala kwi-leaderboard. Qaphela ukuba uhlaziyo lwe-leaderboard luthatha imizuzu ~{ $minutes } ukuqokelela utshintsho.
 visibility-overlay-note = Qaphela: Xa imiselwe 'Iyabonakala', olu seto lungatshintshwa ukusuka kwi <profileLink>Profayile</profileLink>
@@ -794,6 +817,7 @@ contribution-just-unsure-description = Ukuba ufumana into engaqukwanga kwezi zik
 ## HEADER/FOOTER
 
 sc-header-rejected = Izivakalisi ezikhatywayo
+sc-header-my = Izivakalisi zam
 sc-footer-report-bugs = Zixele iiBugs
 sc-footer-translate = Guqulela eliphepha
 sc-footer-report-copyright = Xela imiba yelungelo lokushicilela
@@ -849,6 +873,7 @@ sc-howto-findpd-partner-2 = Iingcaphephe zolwimi nazo zinganceda, zizame ukufike
 
 ## MY SENTENCES
 
+sc-my-title = Izivakalisi zam
 sc-my-description = Eli phepha likunika isishwankathelo sazo zonke izivakalisi ozingenisileyo. Unako kwakhona ukucima izivakalisi esele zingenisiwe ukuba kuyafuneka, ngokutikisha ibhokisi yokuphawula ecaleni kwayo kwaye ucofe ku ;Cima izivakalisi ezikhethiweyo; emazantsi. Nceda ususe kuphela izivakalisi ukuba kuyimfuneko nyani, umzekelo ukuba uqaphele emva kokuba isivakalisi si- copyright protected.
 sc-my-loading = Ilayisha izivakalisi zakho…
 sc-my-err-fetching = Kubekho impazamo xa kulandwa izivakalisi zakho. Nceda zama kwakhona.
@@ -997,6 +1022,7 @@ sc-lang-info-rejected =
 
 ## LOGIN
 
+sc-login-err-failed = Ukungena akuphumelelanga
 sc-login-err-try-again = Nceda zama kwakhona
 
 ## PROFILE
@@ -1025,6 +1051,7 @@ sc-criteria-item-6 = Ukuba uphelelwa zizivakalisi zokuphonononga, nceda usincede
 
 sc-review-lang-not-selected = Awukhethanga naziphi na iilwimi.Nceda uye kwi <profileLink>Profile</profileLink> yakho ukukhetha iilwimi.
 sc-review-title = Phonononga izivakalisi
+sc-review-loading = Izivakalisi ziyalayishwa…
 sc-review-select-language = Nceda ukhethe ulwimi lokuphonononga izivakalisi.
 sc-review-no-sentences = Akukho zivakalisi zokuphononongwa. <addLink>Yongeza izivakalisi ngoku!</addLink>
 sc-review-form-prompt =
