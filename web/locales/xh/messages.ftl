@@ -786,6 +786,7 @@ contribution-just-unsure-description = Ukuba ufumana into engaqukwanga kwezi zik
 
 ## HEADER/FOOTER
 
+sc-footer-report-bugs = Zixele iiBugs
 sc-footer-translate = Guqulela eliphepha
 sc-footer-report-copyright = Xela imiba yelungelo lokushicilela
 sc-login-signup-button = Ngena / Bhalisa
