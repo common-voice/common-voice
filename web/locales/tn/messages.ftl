@@ -45,8 +45,11 @@ da = Se-Denmark
 dsb = Se-Sorbia, sa kwa Tlase
 es = Se-Spain
 eu = Se-Basque
+ha = Se-Hausa
+he = Sehebera
 hr = Se-Croatia
 hsb = Se-Sorbia, sa kwa Godimo
+ht = Se-Haiti
 hy-AM = Se-Armania
 hyw = Se-Armenia sa Bophirima
 ja = Sejapane
@@ -578,8 +581,10 @@ target-segment-first-card = O abelana go karolwana ya rona ya ntlha ya puo
 
 report = Bega
 report-ask = O itemogela mathata afe ka mola ono?
+report-offensive-language-detail = Mola o na le puo ya lenyatso kgotsa e e kgopisang.
 report-different-language-detail = E kwadilwe ka puo e e farologaneng le e ke e buang.
 report-difficult-pronounce-detail = E na le mafoko kgotsa dipolelo tse go leng thata go di bala kgotsa go di bitsa.
+report-offensive-speech-detail = Kgatiso e na le puo ya lenyatso kgotsa e e kgopisang.
 report-other-comment =
     .placeholder = Tshwaelo
 continue = Tswelela
@@ -619,6 +624,7 @@ share-goal-type-speak = E a bua
 share-goal-type-listen = O reeditse
 # LINK will be replaced with the current URL
 goal-share-text = Ke fetsa go dira maikaelelo a botho a go abelana ka lentswe go #CommonVoice -- dira le nna mme o nthuse go ruta metšhine  gore batho ba mmatota ba bua jang { $link }
+return-to-edit-goal = Boela fano nako nngwe le nngwe go baakanya maikaelelo a gago
 
 ## Profile Delete
 
@@ -634,6 +640,7 @@ why-delete-recordings =
 
 ## Profile Download
 
+download-info = Re bolelele gore o ka rata go itseela eng:
 download-profile-title = Porofaele
 download-profile-info = E akaretsa imeile, leinatiriso le tshedimosetso ya dipalopalo, e e gone ka yone nako eo
 download-recordings-title = Tse di rekotilweng
@@ -691,7 +698,9 @@ contribution-misreadings-description-extended-list-1 = Ga go na <strong>'A'</str
 contribution-misreadings-description-extended-list-2 = Go tlhaela <strong>'ng'</strong> kwa bofelong jwa lefoko.
 contribution-misreadings-description-extended-list-3 = Go bala mafoko a a seyong, jaaka "Ra" go na le go re "Re a," kgotsa ka tsela e e farologaneng.
 contribution-misreadings-description-extended-list-4 = Go tlhaela lefoko la bofelo ka ntlha ya go khutlisa kgatiso ka bonako.
+contribution-misreadings-description-extended-list-5 = E leka makgetlo a le mmalwa go bala lefoko.
 contribution-misreadings-example-3-explanation = [Kgatiso e kgaogile pele lefoko la bofelo le felela]
+contribution-misreadings-example-4-title = Di-dinosaur tse dikgolo tsa Triassic. Ee.
 contribution-misreadings-example-4-explanation = [Go gatisitswe mo gontsi go gaisa mokwalo o o tlhokegang]
 contribution-misreadings-example-5-title = Re a tswa re ya go batla kofi.
 contribution-misreadings-example-7-title = Re a tswa re ya go batla kofi.
