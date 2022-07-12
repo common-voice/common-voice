@@ -84,6 +84,7 @@ hy-AM = Se-Armania
 hyw = Se-Armenia sa Bophirima
 ia = Dipuo tse di Kopaneng
 id = Se-Indonesia
+ie = Dipuo tse di kopaneng
 ig = Se-Igbo
 is = Se-Iceland
 izh = Se-Izhoria
