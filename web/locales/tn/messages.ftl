@@ -202,6 +202,15 @@ listen-paragraph = Go tlhomamisa dikgatiso tse di abilweng le gone go botlhokwa 
 listen-goal-text = Dibidio di tlhomamisitswe
 all-locales = Tsotlhe
 today = Gompieno
+x-weeks-short =
+    { $count ->
+        [one]
+            { $count ->
+                [one] Week
+               *[other] { $count }wk
+            }
+       *[other] { "" }
+    }
 x-months-short =
     { $count ->
         [one]
