@@ -195,6 +195,7 @@ help-us-explain = Tobetsa tshameka, reetsa & re bolelele: a ba buile mola o o fa
 no-clips-to-validate = Go lebega go se na dikgatiso dipe tse di tlhokang go reediwa mo puong eno. Re thuse go di oketsa ka go rekota dingwe gone jaanong.
 vote-yes = Ee
 vote-no = Nyaa
+speak-subtitle = Abelana ka lentswe la gago
 speak-paragraph = Go rekota mantswe ke karolo e e botlhokwa thata e e thusang go aga rekoto ya tshedimosetso; ba bangwe ba ka re gape ke karolo e e itumedisang.
 speak-goal-text = Dibidio di rekotilwe
 listen-paragraph = Go tlhomamisa dikgatiso tse di abilweng le gone go botlhokwa mo maikaelelong a Common Voice. Reetsa mme o re thuse go dira tshedimosetso e e nang le boleng ya mantswe.
@@ -261,6 +262,7 @@ shortcut-vote-no = n
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-record-toggle = r
 shortcut-record-toggle-label = Rekota/Emisa
+shortcut-discard-ongoing-recording-label = Latlha go rekota go ntseng go tswelela
 shortcut-submit = Busetsa
 shortcut-submit-label = Romela dibidio
 request-language-button = Kopa Puo
@@ -521,6 +523,7 @@ data-download-modal = O tloga o simolola download ya <size>{ $size }GB</size>, a
 data-subtitle = Re aga rekoto ya tshedimosetso ya mantswe e mongwe le mongwe a ka e dirisang go thapisa dithulaganyo tse di kgonang go dirisa mantswe.
 data-explanatory-text = Re dumela gore tshedimosetso e kgolo le e e phasaladitsweng ya mantswe e rotloetsa go tlhama le kgaisano ya kgwebo mo thekenolojing e e ikaegileng ka go ithuta ga metšhine. Ano ke matsapa a lefatshe lotlhe mme re laletsa mongwe le mongwe go tsaya karolo. Boikaelelo jwa rona ke go thusa thekenoloji ya go bua gore e akaretse dilo tse dintsi, e bontshe pharologano ya mantswe go ralala lefatshe.
 data-other-title = Direkoto tse dingwe tsa tshedimosetso ya mantswe...
+data-bundle-button = Itseele Di-bundle Tsa Rekoto ya Tshedimosetso
 data-bundle-description = Tshedimosetso ya Common Voice le direkoto tsotlhe tsa tshedimosetso ya mantswe fa godimo.
 release-version = Thanolelo
 license = Laesense: <licenseLink>{ $license }</licenseLink>
@@ -531,6 +534,7 @@ review-submit-msg = Re lebogela go gatisa!<lineBreak></lineBreak>Jaanong o ka se
 review-recording = Sekaseka
 review-rerecord = Rekota sesha
 review-cancel = Khansela go Romela
+review-delete-recordings = Phimola dikgatiso tsa me
 
 ## Datasets Page
 
@@ -672,6 +676,7 @@ report-title = Romela pego
 report-ask = O itemogela mathata afe ka mola ono?
 report-offensive-language-detail = Mola o na le puo ya lenyatso kgotsa e e kgopisang.
 report-different-language-detail = E kwadilwe ka puo e e farologaneng le e ke e buang.
+report-difficult-pronounce = Go thata go le bitsa
 report-difficult-pronounce-detail = E na le mafoko kgotsa dipolelo tse go leng thata go di bala kgotsa go di bitsa.
 report-offensive-speech-detail = Kgatiso e na le puo ya lenyatso kgotsa e e kgopisang.
 report-other-comment =
@@ -912,6 +917,8 @@ sc-my-submission = Go romela: { $batchId }
 # Variables:
 #   $source (String) - Associated source the user filled out when uploading the sentence
 sc-my-source = Motswedi: { $source }
+sc-my-delete = Phimola dipolelo tse di tlhophilweng
+sc-my-deleting = E phimola dipolelo tse di tlhophilweng...
 
 ## REJECTED
 
