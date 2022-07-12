@@ -1200,12 +1200,18 @@ see-less = <chevron></chevron>Vhonani zwiṱuku
 sc-header-home = Hayani
 sc-header-how-to = Nga zwiita hani
 sc-header-add = Panga/ Dzhenisa
+sc-header-review = Ṱolisisa
 sc-header-rejected = Mitaladzi yo Haniwaho
 sc-header-my = Mitaladzi yanga
+sc-header-statistics = Mbalo-mbalo
+sc-header-profile = Profaiḽi
 sc-footer-discourse = Discourse
 sc-footer-report-bugs = Vhigani zwi sa Tshimbili zwavhuḓi
 sc-footer-translate = Ḓologani heḽi siaṱari
 sc-footer-report-copyright = Vhigani thaidzo dza kopi ya vhuṋe
+sc-footer-privacy = Tshiphiri
+sc-footer-terms = Milayo Yashu
+sc-footer-cookies = Cookies
 sc-login-signup-button = Ḽogani / Signup
 sc-logout-button = Logout
 
@@ -1254,6 +1260,7 @@ sc-howto-findpd-text-2 = Ni humbule uri ri ṱoḓa tendelo uri ri anḓadze yen
 sc-howto-findpd-tips = Khezwi zwiṅwe zwine na nga zwi ita uri ni wane mitaladzi:
 sc-howto-findpd-tips-1 = Fhethu havhuḓi hune na nga wana hone zwithu ndi kha dzi podcast, maipfi a ṅwalwaho a tshi bva kha matambwa, maipfi a zwiṱori zwa thelevishini, na tshiṅwe na tshiṅwe tshine tsha nga vha tshi na nyambedzano dza ḓuvha na ḓuvha.
 sc-howto-findpd-tips-2 = Vhulivhisi vhu bvaho kha muvhuso, dzibugu na dzi athikiḽi, ndi ha ndeme, fhedzi ngauri muṅwalo u fomala nga maanḓa, vhu sala vhu si ha ndeme nga u to ralo.
+sc-howto-findpd-tips-3 = Mashudumavhi a ri koni u wana thero dza Wikimedia zwa zwino. Ni songo kopa na u pesṱa zwithu zwi bvaho hanengei.
 sc-howto-findpd-subtitle-2 = Shumisanani na madzangano a vhuponi haṋu kana muthu nga eṱhe
 sc-howto-findpd-partner-1 = Hu na madzangano manzhi a vhathu ane a nga ṱoḓa u shela mulenzhe nahone vha nga vha vho no ḓi vha na mafhungo ane vha ṱoḓa u nikela ngao sa ane a nga shumiswa nga vhathu vhoṱhe. Iyani dziyunivesithi dza vhuponi ha haṋu, Mivhusoni na kha madzangano a u thusa vhathu vhoṱhe ni ambe navho nga ha yeneyi thandela nahone ni humbele thuso yavho.
 sc-howto-findpd-partner-2 = Vhaḓivhi vha luambo na vhone vha nga thusa, i ya na kha universithi dza vhuponi haṋu dza vhaḓivhi vha luambo (vhadededzi na vhagudiswa) nahone ni vhone arali vha tshi nga kona u thusa nga u kuvhanganya mitaladzi i re na mibvumo yo fhambananaho nga luambo lwaṋu.
@@ -1265,6 +1272,9 @@ sc-my-description = Heḽi siaṱari ḽi ni sumbedza mitaladzi yoṱhe ye na i 
 sc-my-loading = U ḽouda mitaladzi yaṋu...
 sc-my-err-fetching = Ho itea vhukhakhi ni tshi khou lingedza u dzhia mitaladzi yaṋu. Ri humbela uri ni lingedze hafhu.
 sc-my-no-sentences = A hu na mitaladzi yo wanalaho!
+# Variables:
+#   $batchId (String) - A unique ID identifying the submission of sentences - sentences uploaded together all have the same batch ID
+sc-my-submission = Zwo rumelwaho: { $batchId }
 # Variables:
 #   $source (String) - Associated source the user filled out when uploading the sentence
 sc-my-source = Vhubvo: { $source }
@@ -1282,6 +1292,7 @@ sc-rejected-none-found = A hu na mitaladzi yo haniwaho yo wanalaho!
 ## STATS
 
 sc-stats-title = Mbalo-mbalo
+sc-stats-updating = Khou Apudeita…
 sc-stats-error = A ro ngo kona u dzhia mbalo-mbalo. Ri humbela uri ni lingedze nga vhuya.
 # Variables:
 #   $sentenceCount (Number) - Total number of sentences uploaded through Sentence Collector
@@ -1306,6 +1317,8 @@ sc-submit-from-where = I bva ngafhi iyi mitaladzi ya<wikipediaLink>fhethu ha tsh
 sc-submit-ph-read-how-to =
     .placeholder = Vhalani How-to yashu arali ni si na vhutanzi
 sc-submit-confirm = Ndi a khwaṱhisedza uri heyi mitaladzi ndi ya <wikipediaLink>fhethu ha tshitshavha tshoṱhe </wikipediaLink> nahone ndi na thendelo ya u i apuḽoda.
+sc-submit-button =
+    .submitText = Rumelani
 sc-submit-filtered = Mitaladzi yo fiḽithariwaho ngauri a yo ngo swikelea ṱhoḓea (ri humbela uri ni rumele zwe na khakhulula sa mitaladzi miswa):
 sc-submit-guidelines = Ri humbela uri ni sedze <howToLink>vhulivhisi</howToLink>.
 
@@ -1482,9 +1495,11 @@ sc-review-form-reviewed-message =
        *[other] *[other] { $sentences } mitaladzi yo ṱoliwa. Khou livhuwa!
     }
 sc-review-form-review-failure = Zwe na ṱolisisa a zwi ngo vhulungea kana u seivea. Ri humbela uri ni lingedze hafhu nga murahu nyana.
+sc-review-link = Ṱolisisa
 
 ## SETTINGS
 
+sc-settings-title = Setiṅi
 sc-settings-ui-language = Luambo lwa Interface
 sc-settings-reset-skipped = Risetani mitaladzi yo pfukhiwaho
 sc-settings-skipped-decription = Murahuni no pfukha mitaladzi ni tshi khou vhalulula. U risetha mitaladzi yo pfukhiwaho zwi ḓo sumbedza mitaladzi yoṱhe ye na i pfukha. Hezwi zwi itea kha luambo luthihi nga tshetsho tshifhinga.
