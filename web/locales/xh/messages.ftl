@@ -45,14 +45,23 @@ rm-sursilv = iRomansh Sursilvan
 rm-vallader = iRomansh Vllader
 sat = iSantali (Ol Chiki)
 st = iSouthern Sotho
+sv-SE = iSwedish
+sw = iSwahili
+syr = iSyriac
+ta = iTamil
+te = iTelugu
+tg = iTajik
 th = iThai
 ti = iTigrinya
 tig = iTigre
 tk = iTurkmen
+tl = iTagalog
 tok = iToki Pona
 tr = iTurkish
 ts = iXitsonga
+tt = iTatar
 tw = iTwi
+ty = iTahitian
 uby = i-Ubykh
 udm = i-Udmurt
 ug = i-Uyghur
@@ -77,6 +86,7 @@ zu = IsiZulu
 ## Layout
 
 speak-now = Thetha ngoku
+terms = Imigaqo/ amagama
 content-license-text = Umxholo okhoyo phantsi kwe <licenseLink>Creative Commons license</licenseLink>
 share-title = Sincede sifumane abanye abaza kunikela ngelizwi labo!
 share-text = Nceda ufundise oomatshini indlela abantu bokwenyani, abathetha nayo, nikela ngelizwi lakho kwi-{ $link }
@@ -538,6 +548,7 @@ dataset-description-hours =
     
     Idataset okwangoku ineeyure <b>{ $valid }</b> eziqinisekisiweyo <b>{ $languages }</b> kwiilwimi kodwa sihlala sisongeza amazwi kunye neelwimi ezininzi. Jonga kwi <languagesLink>phepha lethu lo lwimi</languagesLink>leeLwimi ukucela ulwimi (request a language) okanye uqalise ukufaka isandla.
 want-dataset-update = Ingaba uyafuna uhlaziyo xa sikhupha inguqulelo entsha yeSeti yedatha yeCommon Voice? Bhalisa kwileta yethu yeendaba.
+subscribe = Rhuma
 get-started-speech = Qalisa ngokuQwalasela iNtetho
 other-datasets = Ezinye iidata seti zeLizwi
 feedback-q = Unayo impendulo?
@@ -625,6 +636,7 @@ language-validation-progress = Inkqubela phambili yoQinisekiso
 
 ## Contribution
 
+action-tap = Cofa
 clips-with-count-pluralized =
     { $count ->
         [one] <bold>{ $count }</bold> Ikliphu
@@ -701,6 +713,7 @@ report-difficult-pronounce = Kunzima ukubiza
 report-difficult-pronounce-detail = Inamagama okanye amabinzana ekunzima ukuwafunda okanye ukwabiza.
 report-offensive-speech = Intetho ekhubekisayo
 report-offensive-speech-detail = Ikliphu inolwimi olukrwada okanye olukhubekisayo.
+success = Impumelelo
 report-success = Ingxelo ipasiswe ngempumelelo
 
 ## Goals
@@ -945,6 +958,7 @@ sc-header-my = Izivakalisi zam
 sc-footer-report-bugs = Zixele iiBugs
 sc-footer-translate = Guqulela eliphepha
 sc-footer-report-copyright = Xela imiba yelungelo lokushicilela
+sc-footer-terms = Imigaqo/ amagama
 sc-login-signup-button = Ngena / Bhalisa
 
 ## HOME
