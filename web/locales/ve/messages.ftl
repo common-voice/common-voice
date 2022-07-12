@@ -46,11 +46,14 @@ wall-of-text-first =
     Ipfi ndi ḽa vhukuma, ipfi ndi muthu. Ndi ngazwo ri tshi takalela u ita zwishumiswa zwa thekhinoḽodzhi zwi shumisaho ipfi
      kha mitshini yashu. Fhedzi u ita sisiṱemu dza ipfi, vhabveledzi vha ṱoḓa data ya maipfi manzhi vhukuma.
 wall-of-text-second = Data nnzhi dzi shumiswaho nga khamphani khulwane, vhathu vhanzhi a vha koni u dzi swikelela. Ri vhona u nga zwi khou ita uri hu si vhe na bvela phanḓa. Ndi ngazwo ro thoma thandela ya Common Voice, thandela ine ya ḓo thusa uri u ḓivha ipfi zwi vhe zwa vhathu vhoṱhe na uri vha kone u zwi swikela.
+help-us-title = Ri thuseni u khwaṱhisedza mitaladzi!
 help-us-explain = Puṱedzani tsha u puḽeya, thetshelesa & ri vhudzeni: Naa vho amba zwi re kha mutaladzi u re afho fhasi?
 no-clips-to-validate = Zwi vhonala u nga a hu na zwo rekhodiwaho zwine na nga zwi thetshelesa nga holwu luambo. Ri thuseni u egedza mutevhe wa zwo rekhodiwaho nga u rekhoda zwiṅwe zwino.
 toggle-play-tooltip = Puṱedzani { shortcut-play-toggle } bathene ya u puḽeya
 speak-paragraph = U rekhoda maipfi ndi tshipiḓa tsha u ita dataset yashu; vhaṅwe vha nga ri na tshenetshi ndi tshipiḓa tshi takadzaho.
+listen-subtitle = Ri thuseni u khwaṱhisedza maipfi
 listen-paragraph = U khwaṱhisedza uri zwo rekhodiwaho ndi zwone ndi tshipikwa tsha ndeme vhukuma tsha Common Voice. Thetshelesani nahone ni ri thuse uri ri ite maipfi a vhuimo ha nṱha ane a ḓo kona u shumiswa nga nnyi na nnyi.
+help-reach-goal = Ri thuseni u swikelela { $goal }
 read-terms-q = No no vhala Milayo ya Kushumisela yashu?
 ready-to-record = Naa no lugela u nikela nga ipfi ḽaṋu?
 help-make-dataset = Ri thuseni uri ri ite dataset ya vhuimo ha nṱha ya nnyi na nnyi
@@ -200,6 +203,7 @@ about-subscribe-text = Naa ni ṱoḓa u dzula no kwamana na Common Voice?
 about-speak-text = Vhane shela mulenzhe vha rekhoda maipfi nga u vhala mitaladzi yo nikelwaho.
 about-listen-queue-text = Maipfi o rekhodiwaho a pangiwa kha mutevhe wa u rumela une wa a ita uri a lugele u thetshelesiwa.
 about-listen-text = Vhashumisi vha khwaṱhisedza rekhodo dzo nikelwaho, vha tshi sedza uri muambi o vhala mutaladzi zwone naa.
+about-is-it-valid = Naa zwo rekhodiwaho ndi zwone?
 about-is-it-valid-text = Rekhodo i makiwa u pfi "khwaṱhisedzwa" musi mushumisi a tshi i khetha ngauri Ee.
 about-yes-votes-text = Uri ipfi ḽo rekhodiwaho ḽi vhe tshipiḓa tsha dataset ya Common Voice, ḽi tea u vha ḽo khwaṱhisedzwa nga vhathu vhavhili.
 about-no-votes-text = Musi muthu a tshi ri ipfi ḽo rekhodiwaho a ḽo ngo tea, ḽi ḓo humela kha mutevhe. Arali ha pfi a ḽo ngo tea lwa vhuvhili, ipfi ḽeneḽo ḽi ya fhethu hune ha pfi Clip Graveyard.
@@ -329,6 +333,7 @@ data-bundle-description = Common Voice data na dziṅwe dzi dataset dza maipfi d
 data-download-singleword-title = Downḽodani Thagete ya Tshipiḓa tsha Ipfi Ḽithihi
 data-download-singleword-callout-v2 = Hetshi ndi tshipiḓa tshi langiwaho nga kushumisele tshi re na data ine ya mannḓafhadza digit recognition na ine ya ḓivha ee / hai.
 review-terms = Nga u shumisa Common Voice, ni khou tendelana na <termsLink>Milayo ya Kushumisele</termsLink>na<privacyLink>Milayo ya Tshiphiri</privacyLink>
+terms-disagree = A thi tendelani nazwo
 review-aborted = U apuḽoda ho imiswa. Naa ni khou ṱoḓa u diḽita zwe na rekhoda?
 review-submit-msg = Ro livhuwa no rekhoda!<lineBreak></lineBreak>Zwino ṱolisisani ni rumele zwe na rekhoda hafha fhasi.
 
@@ -361,6 +366,7 @@ data-other-voxforge-description = VoxForge yo iteliwa u dzhia tshipitzhi tsho is
 data-other-tatoeba-description = Tatoeba ndi database khulu ya mitaladzi, zwo ṱalutshedzwaho, na odio dzi ambaho dzi shumiselwaho u guda luambo. Zwenezwi zwithu zwine wa nga zwi download zwi nga Luisiamane luambiwaho, zwo rekhodiwa nga vhadzulapo vhalwo.
 your-feedback = Naa ni na mihumbulo ya uri ri nga khwinifhadza hani dataset ya Common Voice? Ri tsivhudzeni kha Discourse
 missing-language = Naa a ni vhoni luambo lwaṋu kha dataset? U ita khumbelo ya luambo, iyani kha siaṱari ḽa Dzinyambo.
+go-languages-page = Iyani kha siaṱari ḽa dzi Nyambo
 ready-to-validate = Naa no lugela u thusa u khwaṱhisedza mitaladzi?
 
 ## Download Modal
@@ -387,7 +393,10 @@ request-language-explanation-1 =
      Arali zwi songo ralo, ḓadzani heyi fomo nahone ri ḓo ni <strong>rumela email ine ya ḓo ni thusa
      u ṱalutshedza uri luambo lwaṋu lu nga dzheniswa hani </strong>.
 request-language-explanation-2 = Ri ḓo <strong>vhudza minidzhere wa vhadzulapo vha vhuponi haṋu uri ni na dzangalelo ḽa hezwi</strong>, u itela uri vha ni tikedze kana u ni vhudza mafhungo ane na nga a ṱoḓa.
+request-language-form-info =
+    .label = Zwidodombedzwa nga ha luambo
 request-language-form-info-explanation = Pangani mafhungo manzhi nga hune na nga kona nga ha holwu luambo. Zwenezwi zwi katela:
+request-language-form-info-explanation-list-1 = Madzina a Luambo lwaṋu
 request-language-form-info-explanation-list-3 = Ḽinki dza website dzine dza nga ri thusa u pfesesa luambo
 request-language-google-recaptcha-required = reCAPTCHA a khou ṱoḓea arali ni tshi khou ṱoḓa u ya phanḓa
 request-language-google-recaptcha-error = Hu na zwo khakheaho nga reCAPTCHA. Ri humbela uri ni lingedze hafhu.Hu na zwo khakheaho nga reCAPTCHA. Ri humbela uri ni lingedze hafhu.
@@ -452,6 +461,7 @@ target-segment-first-banner = Ri thuseni u ita tshipikwa tsha tshipiḓa tsha u 
 
 report-ask = Ndi thaidzo dzifhio dzine na khou ṱangana nadzo kha hoyu mutaladzi?
 report-offensive-language-detail = Hoyu mutaladzi u na mafhungo ane a nyadza kana a songo kunaho.
+report-grammar-or-spelling = Vhukhakhi ha grama / mupeḽeṱo
 report-grammar-or-spelling-detail = Hoyu mutaladzi u na vhukhakhi ha grama kana ha mupeḽeṱo.
 report-different-language-detail = Zwo ṅwaliwa nga luambo lu sa fani na lune nṋe nda khou amba ngalwo.
 report-difficult-pronounce-detail = I na maipfi kana mibulo ine ya konḓa u i vhala kana u i bula.
@@ -519,6 +529,7 @@ download-profile-info = U katela email, username na zwidodombedzwa zwa muthu, zw
 download-recordings-info = Zwi katela mp3 na mitaladzi i tshimbidzanaho nadzo, zwi nga dzhia tshifhinga u zwi lugiselela
 download-recordings-unavailable = Ni nga si kone u humbela zwe na rekhoda ngeno hu tshi kha ḓi vha na zwiṅwe zwe na zwi humbela zwi re nḓilani.
 download-recently-requested = Ni nga humbela uri ni dzhie zwe na rekhoda { $days } ḓuvha ḽiṅwe na ḽiṅwe.
+download-requests = Khumbelo ya u downḽoda zwo rekhodiwaho kale
 download-requests-info = Musi ni tshi humbela zwe na rekhoda, ri zwi panga kha faela ya ZIP nthihi kana nnzhi. Khumbelo dzaṋu dza tshifhinga tsho fhiraho khedzi:
 download-request-description = { $clipCount } maipfi o rekhodiwaho, saizi ya zwo vhulungwaho { $size }. Fhelelwa nga tshifhinga { $expires }.
 download-request-archive-single = Pfarelo, hu na zwi songo tshimbilaho zwavhuḓi
@@ -586,6 +597,7 @@ contribution-varying-pronunciations-description = Ni ṱhogomele uri ni sa ri zw
 contribution-varying-pronunciations-description-extended = Kha ḽiṅwe sia, arali ni tshi vhona u nga muvhali ha athu vhuya a ṱangana na iḽo ipfi, nahone ho tou humbulelwa kubulele kwaḽo, ni songo zwi tendela. Arali ni si na vhungoho, shumisani gunubu ya u pfuka.
 contribution-varying-pronunciations-example-1-title = Ṱhohoni yawe o ambara muṅadzi.
 contribution-varying-pronunciations-example-1-explanation = [‘Beret’ ḽo luga hu si na ndavha uri ḽo ombedzelwa kha dungo ḽa u thoma (UK) kana kha dungo ḽavhuvhili (US]
+contribution-varying-pronunciations-example-2-title = Tshanḓa tshawe tsho vha tsho i-ma.
 contribution-varying-pronunciations-example-2-explanation = [Ipfi ḽa Luisimane 'Raised' musi ḽi tshi bulwa hu ombedzelwa dungo ḽithihi tshifhinga tshoṱhe, hu si mavhili]
 contribution-background-noise-description = Ri ḓo ṱoḓa uri algorithm dza machine learning dzi kone u fhambanyisa phosho i re nga murahu, na phosho ya khulwane i nga tendela, fhedzi a yo ngo tea u thivhela uri ni pfe zwoṱhe zwo ambiwaho. Muzika u re fhasi wo tendelwa; muzika u ne wa khou ita phosho lune ni si kone u pfa maipfi oṱhe ane muṅwe a khou a amba a wo ngo tendelwa.
 contribution-background-noise-description-extended = Arali rekhodo yo khathuwa, kana i na manzaranzara, i haneni nga nnḓani ha musi mafhungo oṱhe a tshi khou pfala.
@@ -661,6 +673,7 @@ sc-my-err-failed-delete = A zwo ngo konadzea u ḓilita mitaladzi... Ri humbela 
 ## REJECTED
 
 sc-rejected-err-fetching = Ho itea vhukhakhi ni tshi khou lingedza u dzhia mitaladzi yo haniwaho. Ri humbela uri ni lingedze hafhu.
+sc-rejected-none-found = A hu na mitaladzi yo haniwaho yo wanalaho!
 
 ## STATS
 
@@ -673,9 +686,12 @@ sc-stats-summary = Tsha u Kuvhanganya Mitaladzi tsha Common Voice tsho kuvhangan
 ## ADD
 
 sc-submit-err-select-lang = Ri humbela uri ni nange luambo
+sc-submit-err-add-source = Ri humbela uri ni pange hune zwa bva hone.
 sc-submit-err-confirm-pd = Ri humbela uri ni khwaṱhisedze uri heyi mitaladzi ndi ya fhethu ha tshitshavha tshoṱhe.
 sc-submit-prompt =
     .message = Mitaladzi a yo ngo rumelwa, naa ni na vhungoho ha uri ni khou ṱoḓa u ṱuwa?
+sc-submit-ph-one-per-line =
+    .placeholder = Mutaladzi muthihi kha ḽaini nthihis
 sc-submit-from-where = I bva ngafhi iyi mitaladzi ya<wikipediaLink>fhethu ha tshitshavha tshoṱhe?</wikipediaLink>
 sc-submit-ph-read-how-to =
     .placeholder = Vhalani How-to yashu arali ni si na vhutanzi
