@@ -942,6 +942,7 @@ create-custom-goal = Itani tshipikwa tsho ḓoweleaho
 goal-type = Ndi tshipikwa ḓe tshine na khou ṱoḓa u tshi ita?
 both-speak-and-listen-long = Zwoṱhe (Ambani na u Thetshelesa)
 weekly-goal = Tshipikwa tsha Vhege
+average-difficulty = Vhukati
 lose-goal-progress-warning = Nga u editha tshipikwa tshaṋu, ni nga xelelwa nga mvela phanḓa ya zwe na zwi ita.
 want-to-continue = Ni khou ṱoḓa u isa phanḓa?
 finish-editing = Fhedzani u editha u thoma?
@@ -1051,6 +1052,7 @@ demo-welcome-subheader = Naa ni a takalela u guda zwinzhi na u shela mulenzhe kh
 
 demo-language-select-card-header = Common Voice ndi dataset khulwanesa ya nnyi na nnyi i re hone shangoni ḽoṱhe, ine ya vha nga maipfi a re nga nyambo nnzhi.
 demo-language-select-card-body = Ri livhuwa vhathu vho shelaho mulenzhe vha fhiraho 259k u bva kha nyambo dzi fhiraho 50, yeneyi data i khou shumiselwa u gudisa app dzi ḓivhaho ipfi uri dzi kone u fhindula khwine ipfi ḽa muthu.
+card-button-back = Murahu
 demo-eofy-header = 2019 riḽiziwaho mafheloni a nwaha
 demo-eofy-sub_header = Dataset ya Maipfi, yo Lugelwa u Downḽodiwa
 demo-account = Akhantu
@@ -1125,6 +1127,7 @@ contribution-just-unsure-description = Arali na ṱangana na zwithu zwine zwi si
 
 ## HEADER/FOOTER
 
+sc-header-add = Panga/ Dzhenisa
 sc-header-rejected = Mitaladzi yo Haniwaho
 sc-footer-report-bugs = Vhigani zwi sa Tshimbili zwavhuḓi
 sc-footer-translate = Ḓologani heḽi siaṱari
@@ -1361,6 +1364,7 @@ sc-review-no-sentences = A hu na mutaladzi une wa ṱoḓa u ṱoliwa. <addLink>
 sc-review-form-prompt =
     .message = Mitaladzi yo ṱolisiswaho a yo ngo rumelwa, ni na vhuṱanzi?
 sc-review-form-usage = Swaipelani kha tsha u ḽa u itela uri ni kone u amba uri mutaladzi ndi wone. U amba uri a si wone swaipelani kha tsha monde. Swaipelani nṱha u itela u pfuka. <strong>Ni songo hangwa u rumela zwe na ṱolisisa!</strong>
+sc-review-form-button-approve = Tendelwa
 sc-review-form-keyboard-usage-custom = Ni nga dovha hafhu na shumisa shortcuts dza Keyboard: { sc-review-form-button-approve-shortcut } u Khwaṱhisedza, { sc-review-form-button-reject-shortcut } u Hana, { sc-review-form-button-skip-shortcut } u Pfukha
 # Variables:
 #   $sentences (Number) - Number of sentences the user has reviewed in this session
