@@ -527,7 +527,7 @@ about-nav-playbook = Funda ukuthi libanjwa kanjani iqhaza
 ## What is a language
 
 about-playbook-what-is-language = Luyini ulimi ku-Common Voice?
-about-playbook-what-is-language-content-1 = { "" }
+about-playbook-what-is-language-content-1 = Ziningi izindlela zokucabanga ngelimi. Ngenxa yamamodela wokuqoshwa kwenkulumo, iCommon Voice iphakamisa ukugxila 'kukuqondana okuvumelanayo', noma 'izikhulumi zalolimi ziyakwazi na ukuqondana uma zizama?'
 
 ## How do I add a language
 
