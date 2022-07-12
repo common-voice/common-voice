@@ -4,6 +4,7 @@ yes-receive-emails = Ee, vha nthumele email. Ndi nga takalela u dzula ndi tshi v
 stayintouch = Riṋe vha ha Mozilla ri khou livhisa ṱhogomelo yashu kha u ita zwishumiswa zwa thekhinolodzhi zwi shumisaho ipfi. Ri ṱoḓa uri ri dzule ri na tshifhingani, ri na data source ntswa na u pfa zwo engedzeaho nga ha nḓila ine na khou shumisa yeneyi data.
 privacy-info = Ri fulufhedzisa u ṱhogomela zwidodombedza zwaṋu nga nḓila yavhuḓi. Vhalani nga vhuḓalo kha <privacyLink>u Tsireledza zwa Tshiphiri </privacyLink> zwashu.
 return-to-cv = Humelani kha Common Voice
+loading = Zwi khou Ḽouda…
 email-opt-in-info = Ndi nga takalela u wana email dzi nga ho dzine dza nkhumbudza nga ha zwipikwa zwanga, mvela phanḓa yanga na maswa maswa nga ha Common Voice.
 email-opt-in-info-title = Ivhani tshipiḓa tsha vhane vha wana email dza Common Voice
 email-opt-in-info-sub-with-challenge = Wanani milaedza nga email yo nonga khumbudzo ya zwipikwa, mvela phanḓa, na maswa maswa a Common Voice.
@@ -813,6 +814,7 @@ language-section-launched-description = Kha hedzi nyambo dzo no ḓi dzheniswaho
 languages-show-more = Vhonani Zwinzhi
 languages-show-less = Vhonani Zwiṱuku
 language-speakers = Vhaambi
+localized = Localized
 sentences = Mitaladzi
 language-validation-hours = Dzi awara
 language-validation-progress = Mvela phanḓa yo Khwaṱhisedzwaho
@@ -1089,6 +1091,7 @@ contribution-criteria-nav = Ṱhoḓea
 contribution-criteria-link = U pfesesa nḓila ya u nikela
 contribution-criteria-page-description = Pfesesani uri hu ṱoḓea mini musi ni tshi thetshelesa zwo rekhodiwaho u itela uri zwi ni thuse u rekhoda ipfi ḽaṋu nga nḓila yavhuḓisa.
 contribution-for-example = sa tsumbo
+contribution-misreadings-title = U vhala zwi si zwone
 contribution-misreadings-description = Musi no thetshelesa, ni sedze zwavhuḓi uri zwo rekhodiwaho zwi fana na zwo ṅwaliwaho kokotolo; ni hanele zwo rekhodiwa arali hu na vhukhakhi naho vhu vhuṱuku. <br />Vhukhakhi ho ḓoweleaho vhu katela:
 contribution-misreadings-description-extended-list-1 = Ho shotha <strong>'A'</strong> kana <strong>'The'</strong> mathomoni a zwo rekhodiwaho.
 contribution-misreadings-description-extended-list-3 = U vhala zwithu zwi si hoho, sa tsumbo "we're" nṱhani ha "we are" kana vaisa versa.
@@ -1144,6 +1147,7 @@ sc-footer-report-bugs = Vhigani zwi sa Tshimbili zwavhuḓi
 sc-footer-translate = Ḓologani heḽi siaṱari
 sc-footer-report-copyright = Vhigani thaidzo dza kopi ya vhuṋe
 sc-login-signup-button = Ḽogani / Signup
+sc-logout-button = Logout
 
 ## HOME
 
