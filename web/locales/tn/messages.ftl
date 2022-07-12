@@ -719,6 +719,15 @@ set-a-goal = Baya Maikaelelo
 cant-decide = Ga o kgone go dira tshwetso?
 receiving-emails-info = Gone jaanong o dirile gore o amogele diimeile tse di jaaka dikgopotso tsa maikaelelo, ditlhabololo tsa kgatelopele ya me le makwalodikgang a Common Voice
 not-receiving-emails-info = Gone jaanong o dirile gore o <bold>SE KA</bold> wa amogela diimeile tse di jaaka dikgopotso tsa maikaelelo, ditlhabololo tsa kgatelopele ya me le makwalodikgang a Common Voice
+n-clips-pluralized =
+    { NUMBER($count) ->
+        [one]
+            { NUMBER($count) ->
+                [one] { $count } bidio e-[nngwe] { $count }
+               *[other] { $count } clips
+            }"
+       *[other] *dibidio tse [tse dingwe] { $count }
+    }
 confirm-goal = Tlhomamisa Maikaelelo
 goal-interval-weekly = Ka Beke
 # $type is one of share-goal-type-*
