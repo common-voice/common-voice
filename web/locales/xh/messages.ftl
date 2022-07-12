@@ -22,6 +22,7 @@ banner-error-slow-2 = Sifumana itrafiki eninzi kwaye ngoku siphanda le iingxaki.
 
 ## Layout
 
+content-license-text = Umxholo okhoyo phantsi kwe <licenseLink>Creative Commons license</licenseLink>
 share-title = Sincede sifumane abanye abaza kunikela ngelizwi labo!
 share-text = Nceda ufundise oomatshini indlela abantu bokwenyani, abathetha nayo, nikela ngelizwi lakho kwi-{ $link }
 
@@ -84,6 +85,8 @@ status-hours =
 
 ## ProfileForm
 
+profile-form-variant =
+    .label = Loluphi ulwimi olwahlukileyo { $language } oluthethayo?
 why-profile-text =
     Ngokubonelela ngolwazi malunga nawe, idatha yesandi oyithumelayo kwi-Common Voice iya kuba luncedo ngakumbi kwiNtetho
     Iinjini zokuqaphela ezisebenzisa le datha ukuphucula ukuchaneka kwazo.
@@ -379,6 +382,7 @@ speak-loading-error =
 keep-track-profile = Gcina umkhondo wenkqubela yakho ngeprofayile
 login-to-get-started = Ngena okanye ubhalise ukuze uqalise
 target-segment-first-card = Uncedisa kwisegmenti yethu yokuqala ekujoliswe kuyo
+target-segment-generic-card = Unogalelo kwicandelo ekujoliswe kulo
 target-segment-first-banner = Nceda wenze icandelo lokuqala ekujoliswe kulo leCommon Voice kwi { $locale }
 
 ## Reporting
@@ -435,6 +439,8 @@ not-receiving-emails-info = Ngoku usetelwe u<bold>KUNGA</bold> fumani ii-imeyile
 help-share-goal = Sincede sifumane amazwi amaninzi, yabelana nenjongo yakho
 # LINK will be replaced with the current URL
 goal-share-text = Ndisandula ukwenza injongo yam yokunikela ngelizwi kwi #CommonVoice--ndijoyine kwaye uncede ukufundisa oomatshini indlela abantu bokwenyani abathetha ngayo { $link }
+weekly-goal-created = Injongo yakho yeveki yenziwe
+daily-goal-created = Injongo yakho yemihla ngemihla yenziwe
 track-progress = Khuphela inkqubela phambili apha nakwiphepha lakho le-Stats.
 return-to-edit-goal = Buyela apha ukuze uhlele injongo yakho nangaliphi na ixesha.
 
@@ -512,6 +518,7 @@ contribution-varying-pronunciations-example-2-explanation = [â€˜Ukuphakanyiswaâ€
 contribution-background-noise-description = Sifuna ukuba umatshini wokufunda i-algorithms ukwazi ukumelana nengxolo eyahluka-hlukeneyo, kunye nengxolo etsholo phezulu inokwamkelwa ukuba ayikuthinteli ukuba uve itext iphela. Umculo ovakalayo ozolileyo ulungile; umculo ongxola ongxola kakhulu de ukukuthintela ukuba ungeva igama negama awamnkelekanga.
 contribution-background-noise-description-extended = Ukuba ushicilelo luyaqhawuka, okanye luziziqendu, lwale ngaphandle kokuba sonke isicatshulwa sinokuviwa.
 contribution-background-noise-example-1-fixed-title = <strong>[Sneeze]</strong> Iidinosaure ezinkulu <strong>[cough]</strong> ze-Triassic.
+contribution-background-noise-example-2-explanation = [Inxalenye yombhalo ayivakali]
 contribution-background-voices-description = Ingxolo yangasemva ezolileyo ilungile, kodwa asifuni amazwi ongezelelweyo anokubangela ukuba umatshini uchonge amagama angekho kumbhalo obhaliweyo. Ukuba unokuva amagama ahlukileyo kulawo wombhalo, ikliphu kufuneka ingamkelwa. Ngokuqhelekileyo oku kwenzeka apho kushiywe umabonakude edlala, okanye apho kukho incoko eqhubekayo kwakufitshane.
 contribution-background-voices-description-extended = Ukuba ushicilelo luyaqhawuka, okanye luziziqendu, lwale ngaphandle kokuba sonke isicatshulwa sinokuviwa.
 contribution-background-voices-example-1-title = Idinosaure enkulu yeTriassic <strong>[read by one voice]</strong>
@@ -556,6 +563,7 @@ sc-howto-review-subtitle = Qinisekisa ukuba isivakalisi siyahlangabezana nale mi
 sc-howto-review-criteria-4 = Ukuba isivakalisi sihlangabezana neekhrayitheriya, cofa iqhosha "Ukuvuma".
 sc-howto-review-criteria-5 = Ukuba isivakalisi asihambelani nale migaqo ingasentla, cofa iqhosha elithi "Yala". Ukuba awuqinisekanga ngesivakalisi, usenokusitsiba uye kwesilandelayo.
 sc-howto-review-criteria-6 = Ukuba uphelelwa zizivakalisi zokuphonononga, nceda usincede siqokelele izivakalisi ezininzi!
+sc-howto-findpd-title = Ukufumana izivakalisi ezikhoyo kwiDomain yoLuntu
 sc-howto-findpd-text-2 = Ukwenza i-Common Voice dataset ibe luncedo kangangoko siye sagqiba ukuvumela kuphela i- source text ekhoyo phantsi kwelayisensi ye-Creative Commons (CC0) Ukusebenzisa umgangatho weCC0 kuthetha ukuba kunzima kakhulu ukufumana nokuqokelela i-source text, kodwa ivumela nabani na ukuba asebenzise isiphumo sedatha yelizwi ngaphandle kwezithintelo zosetyenziso okanye isigunyaziso esivela kwiMozilla. Ekugqibeleni, sifuna ukwenza iseti yedatha yeelwimi-ngeelwimi ibe luncedo kangangoko kumntu wonke, ukubandakanywa abaphandi, iiyunivesithi, iziqalo (start-ups), oorhulumente, imibutho yeenjongo zentlalo, kwakunye nabo bathanda izinto zokuzonwabisa.
 sc-howto-findpd-tips = Nanga amanye amacebiso okufumana izivakalisi:
 sc-howto-findpd-tips-1 = Eyona mithombo ilungileyo onokuthi uyijonge ziipodcasts, imibhalo ekhutshelweyo, izikripthi zemuvi kunye nantoni na enokuthi iqulathe iincoko zemihla ngemihla.
@@ -693,6 +701,7 @@ sc-lang-info-rejected =
 
 ## PROFILE
 
+sc-personal-err-lang-not-found = Ayikwazanga ukususa ulwimi: ulwimi alufunyenwanga
 sc-personal-not-added = Awufakanga naziphi na iilwimi okwangoku.
 
 ## REVIEW CRITERIA
@@ -722,6 +731,7 @@ sc-review-form-review-failure = Uhlaziyo alukwazanga kugcinwa. Nceda uzame kwakh
 ## SETTINGS
 
 sc-settings-skipped-decription = Ngaphambili utsibe izivakalisi ngelixa uphonononga.Ukuseta kwakhona izivakalisi ezitsityiweyo kuya kubonisa zonke izivakalisi ezitsityiweyo kwakhona. Oku kukuzimela kulwimi.
+sc-settings-failed = Ayikwazanga ukutshintsha isetingi. Nceda zama kwakhona.
 # VALIDATION
 sc-validation-number-of-words = Isivakalisi kufuneka siqulethe phakathi kwe-1 ne-14 (ebandakanya) amagama
 
