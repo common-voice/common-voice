@@ -489,6 +489,10 @@ faq-is-account-public-q = Naa zwidodobedzwa zwa akhantu yanga ndi zwa tshitshavh
 faq-how-privacy-q = Ni zwi kona hani u ita uri vhathu vho nikelaho nga maipfi vha si ḓivhiwe nahone zwi vhe zwa tshiphiri?
 faq-how-privacy-a = Maipfi oṱhe a re kha dataset o itwa uri a si tsha ḓivhea uri ndi a vhonnyi. Musi ane a shela mulenzhe a tshi amba zwidodombedzwa zwawe kha profile yawe, zwenezwo zwidodombedzwa a zwi tendelwi uri zwi dzhene kha ipfi ḽo rekhodiwaho musi zwi sa athu ṱanganyiswa u itela uri zwi danuḽodiwe kha dataset nahone a zwi nga vuwi zwo itwa uri zwi ḓivhiwe nga tshitshavha kha siaṱari ḽa profile dzavho.
 faq-what-determine-identity-q = Zwi amba mini uri a thi koni "u ḓivha" vhaambi vha re kha dataset ya Common Voice?
+faq-what-determine-identity-a =
+    Dataset ya Common Voice dataset ndi tshi shumiswa tshine tsha nga shumiswa nga nnyi na nnyi, tshine tsha nga shumiswa u gudisa application dzi konaho u amba. Uri ri tsireledze vho shelaho mulenzhe, ri humbela vhoṱhe vhane vha downḽoda dataset ya Common Voice uri vha ṱhonifhe zwidodombedzwa zwa tshiphiri zwa vho shelaho mulenzhe.¶
+    
+    Maipfi oṱhe o rekhodiwaho o itwa uri a si tsha vha na zwidodombedzwa zwa muthu. Musi ni tshi downḽoda dataset, ni khou tenda uri a ni nga lingedzi u ḓivha vho shelaho mulenzhe. Zwenezwi zwi amba uri a ni nga lingedzi u ṱumanya zwi re kha dataset na zwidodombedzwa zwa muthu o shelaho mulenzhe. Fhedzi ni nga shumisa dataset u gudisa zwishumiswa zwa u ḓivha ipfi, zwine zwa ḓivha muthu ane a khou amba, kana dziṅwe application, sa tsumbo nga u ḽinka zwidodombedzwa zwi re kha dataset na zwiṅwe zwidodombedzwa zwo no ḓivha ho hone.
 faq-what-is-cv = Common Voice ndi mini?
 faq-using-cv = U shumisa Common Voice
 faq-description = Common Voice ndi tshipiḓa tsha Mozilla tshi thusaho u funza mitshihi nḓila ine vhathu vha vhukuma vha amba ngayo.
