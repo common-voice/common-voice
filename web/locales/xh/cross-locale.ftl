@@ -9,3 +9,4 @@ get-involved-stayintouch = Thina kwaMozilla sakha uluntu malunga neteknoloji yel
 get-involved-privacy-info = Sithembisa ukuphatha ulwazi lwakho ngenkathalo. Funda ngakumbi kwi <privacyLink>Sazisi sabucala</privacyLink> sethu.
 get-involved-success-title = Ubhalisele ngempumelelo ukwenza ugalelo kwi-{ $language }. Enkosi.
 get-involved-success-text = Siza kunxibelelana ngolwazi oluthe vetshe xa luthe lwakhona.
+get-involved-return-to-languages = Buyela kwiiLwimi

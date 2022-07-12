@@ -19,6 +19,7 @@ error-something-went-wrong = Uxolo, kukho into engahambanga kakuhle
 
 ## Languages
 
+sat = iSantali (Ol Chiki)
 
 # [/]
 
@@ -86,6 +87,7 @@ username-email-not-demographic = Igama lakho lomsebenzisi kunye ne-imeyile aziyi
 ## Speak Shortcuts
 
 request-language-text = Awukaluboni ulwimi lwakho kwi-Common Voice okwangoku?
+request-language-button = Cela uLwimi
 
 ## ProjectStatus
 
@@ -191,6 +193,8 @@ faq-what-determine-identity-a =
 faq-what-is-cv = Yintoni iCommon Voice?
 faq-using-cv = Usebenzisa iCommon Voice
 faq-description = Icommon Voice yinxalenye yenyathelo likaMozilla lokunceda ukufundisa oomatshini indlela abantu bokwenyani abathetha ngayo.
+faq-search-for-answers =
+    .label = Khangela iimphendulo
 
 ## ABOUT US
 
@@ -352,6 +356,7 @@ data-download-singleword-callout-v2 = Le yimeko yokusetyenziswa eqhutywa licande
 review-terms = Ngokusebenzisa iCommon Voice uvuma  <termsLink>imiqathango</termsLink> kunye <privacyLink>neSazisi saBucala</privacyLink>
 terms-disagree = Andivumelani
 review-aborted = Ukhutshelo luyekile. Ufuna ukucima iirekhodingi zakho?
+review-submit-title = Phonononga kwaye ungenise
 review-submit-msg = Enkosi ngokurekhoda!<lineBreak></lineBreak> Ngoku hlaziya kwaye ungenise iikliphu zakho ngezantsi.
 
 ## Datasets Page
@@ -402,6 +407,7 @@ download-back = Buyela kwiidatha seti zeCommon Voice
 
 request-language-success-title = Isicelo solwimi singeniswe ngempumelelo, enkosi.
 request-language-success-content = Siza kuqhagamshelana ngolwazi oluthe vetshe malunga nendlela yokongeza ulwimi lwakho kwi-Common Voice kungekudala.
+select-language = Khetha uLwimi...
 
 ## Request Language Pages
 
@@ -478,6 +484,7 @@ speak-empty-state = Siphelelwe ziikliphu zokurekhoda kolu lwimi...
 speak-loading-error =
     Asikwazanga ukufumana izivakalisi ukuba uthethe. 
      Nceda uzame kwakhona kamva.
+record-button-label = Rekhoda ilizwi lakho
 share-title-new = <bold>Ncedisana nathi</bold> fumana amazwi amaninzi
 keep-track-profile = Gcina umkhondo wenkqubela yakho ngeprofayile
 login-to-get-started = Ngena okanye ubhalise ukuze uqalise
@@ -505,6 +512,7 @@ report-success = Ingxelo ipasiswe ngempumelelo
 toward-next-goal = Ukuya kwinqaku elilandelayo
 todays-recorded-progress = Inkqubela yanamhlanje yeCommon Voice kwiikliphu ezirekhodiweyo
 todays-validated-progress = Inkqubela yanamhlanje yeCommon Voice kwiikliphu iqinisekisiwe
+set-visibility = Seta ukubonakala kwam
 visibility-explainer = Olu seto lulawula ukubonakala kwebhodi yabaphambili. Xa ufihliwe, inkqubela yakho iya kuba yeyabucala. Oku kuthetha ukuba umfanekiso wakho, igama lomsebenzisi lakho kunye nenkqubela phambili ayizukubonakala kwi-leaderboard. Qaphela ukuba uhlaziyo lwe-leaderboard luthatha imizuzu ~{ $minutes } ukuqokelela utshintsho.
 visibility-overlay-note = Qaphela: Xa imiselwe 'Iyabonakala', olu seto lungatshintshwa ukusuka kwi <profileLink>Profayile</profileLink>
 show-ranking = Bonisa umgangatho wam
@@ -529,6 +537,7 @@ help-reach-hours-general-pluralized =
         [one] Nceda iCommon Voice ifikelel ku { $hours } iyure ngolwimi olunenjongo yobuqu
        *[other] Nceda iCommon Voice ifikelel ku { $hours } iiyure ngolwimi olunenjongo yobuqu
     }
+set-a-goal = Seta injongo
 activity-needed-calculation-plural =
     { NUMBER($totalHours) ->
         [one] { $totalHours } Iyure iinokufezekiswa nje kuphengela ngee
@@ -617,6 +626,7 @@ demo-account-sign-up = Thumela ilinki yokubhalisa
 
 demo-contribute-card-header = Ulungele ukongeza izwi lakho okanye umamele?
 demo-contribute-card-body-v2 = Ngoku ekubeni usazi kancinci malunga ne Common Voice, kutheni ungayizami? Cofa iqhosha lombhobho ukuze uqalise ukufunda izivakalisi ngokuvakalayo/ukuzifundela ngaphandle. <br/><br/>Ukuba ukhetha ukuhlola ugalelo lwamazwi abanye abantu, cofa iqhosha lokudlala. Uya kunceda ukuqinisekisa ukuba ushicilelo luhambelana nezivakalisi ezibhalwe kwisikrini.
+demo-listen-subtitle = Ukulungele ukufaka isandla?
 
 ## Demo Dashboard
 
@@ -672,6 +682,7 @@ contribution-just-unsure-description = Ukuba ufumana into engaqukwanga kwezi zik
 ## HEADER/FOOTER
 
 sc-footer-translate = Guqulela eliphepha
+sc-footer-report-copyright = Xela imiba yelungelo lokushicilela
 
 ## HOME
 
@@ -853,6 +864,7 @@ sc-lang-info-rejected =
 
 ## LOGIN
 
+sc-login-err-try-again = Nceda zama kwakhona
 
 ## PROFILE
 
@@ -891,6 +903,7 @@ sc-review-form-review-failure = Uhlaziyo alukwazanga kugcinwa. Nceda uzame kwakh
 
 ## SETTINGS
 
+sc-settings-reset-skipped = Seta kwakhona izivakalisi ezitsityiweyo
 sc-settings-skipped-decription = Ngaphambili utsibe izivakalisi ngelixa uphonononga.Ukuseta kwakhona izivakalisi ezitsityiweyo kuya kubonisa zonke izivakalisi ezitsityiweyo kwakhona. Oku kukuzimela kulwimi.
 sc-settings-show-all-button = Bonisa zonke izivakalisi ezitsityweyo
 sc-settings-failed = Ayikwazanga ukutshintsha isetingi. Nceda zama kwakhona.
