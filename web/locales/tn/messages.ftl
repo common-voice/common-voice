@@ -310,6 +310,7 @@ how-does-it-work-text = Re batla tshedimosetso ya batho ba bantsi ya mantswe. Ab
 
 ## How does it work section
 
+about-sentence-collection-title = Setlhopha sa Dipolelo
 about-new-lang-subtitle = Re simolola webosaete ya Common Voice ka puo eno.
 about-speak = Bua
 about-speak-text = Batsayakarolo ba gatisa mantswe a bone ka go bala mo bontsintsing jwa mela e e abilweng.
@@ -617,6 +618,7 @@ download-requests-info = Fa o kopa dikgatiso tsa gago, re di kopanya go di dira 
 download-request-assembling-description = Difaele tsa gago di a kokoanngwa. Tsweetswee tlhola gape moragonyana.
 download-request-refresh-button = Ntšhafatsa
 download-request-modal-description = Tseno ke dilinki tsa go itseela difaele tsa gago tsa ZIP.
+download-request-metadata-link = Mokwalo wa polelo
 download-request-link-single = Gape o ka kgona go kopisa le go manega di-URL tse di tlhamaletseng mo lefelong la gago la mmamoratwa la go itseela dilo. Di tla felelwa ke nako mo diureng tse 12, mme o ka boela mo tsebeng eno go dira tse disha nako nngwe le nngwe.
 
 ## Landing
@@ -757,6 +759,8 @@ sc-stats-summary = Kgobokanyo ya Mela ya Common Voice e setse e kgobokantse mela
 sc-submit-prompt =
     .message = Mela ga ya romelwa, a o tlhomamisegile gore o batla go tswa?
 sc-submit-title = Tsenya Dipolelo
+sc-submit-select-language =
+    .labelText = Tlhopha Puo
 sc-submit-confirm = Ke tlhomamisa gore mela eno ke ya <wikipediaLink>batho botlhe</wikipediaLink> e bile ke na le tetla ya go e tsenya.
 sc-submit-button =
     .submitText = Romela
