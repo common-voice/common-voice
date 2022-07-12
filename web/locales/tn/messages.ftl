@@ -211,15 +211,7 @@ listen-subtitle = Re thuse go tlhomamisa mantswe
 listen-paragraph = Go tlhomamisa dikgatiso tse di abilweng le gone go botlhokwa mo maikaelelong a Common Voice. Reetsa mme o re thuse go dira tshedimosetso e e nang le boleng ya mantswe.
 listen-goal-text = Dibidio di tlhomamisitswe
 voices-online = Mantswe a a mo Inthaneteng Jaanong
-todays-progress =
-    { $count ->
-        [one]
-            { $count ->
-                [one] Day
-               *[other] Days
-            }
-       *[other] Days
-    }
+todays-progress = Kgatelopele ya Gompieno
 help-reach-goal = Re thuse go { $goal }
 read-terms-q = A o badile Melawana ya rona?
 ready-to-record = A o ipaakanyeditse go abelana ka lentswe la gago?
@@ -313,6 +305,8 @@ status-hours =
 
 ## ProfileForm
 
+profile-form-username =
+    .label = Leinatiriso
 profile-form-additional-language =
     .label = Puo e Nngwe Gape
 profile-form-language =
@@ -656,7 +650,7 @@ resource-coqui-info = <coquiLink>Coqui</coquiLink> e ineetse mo thekenolojing ya
 community-playbook = Buka ya Motshameko ya Baagi
 resource-playbook-info = <playbookLink>Bona kaelo e e thusang</playbookLink> ka loeto lotlhe lwa Common Voice, go tloga ka go ranolela go fitlha ka tiriso ya tshedimosetso, mmogo le go ikgolaganya le batho ba lefelo la rona.
 data-other-librispeech-description = LibriSpeech ke direkoto tsa diura di ka nna 1000 tsa 16Khz tse di balang mela ya Seesemane tse di tsewang mo dibukeng tsa mantswe tsa porojeke ya LibriVox.
-data-other-ted-name = TED-LIUM Corpus
+data-other-ted-name = Tshedimosetso ya TED-LIUM
 data-other-ted-description = Tshedimosetso ya TED-LIUM e dirilwe go dirisiwa dipuo tsa mantswe le ditlankana tsa bone tse di kopolotsweng tse di mo websaeteng ya TED.
 data-other-voxforge-description = VoxForge e ne e diretswe go phutha puo e e kwalolotsweng gore e dirisiwe e dirisa Metswedi ya  Mahala ya go Lemoga Puo e e Dirisiwang ke Batho Botlhe.
 data-other-tatoeba-description = Tatoeba ke tshedimosetso e kgolo ya dipolelo, dithanolo, le kgatiso ya mantswe a a buiwang e e dirisiwang go ithuta puo. Karolo eno e e itseelwang e na le Seemane se se buiwang se se gatisitsweng ke morafe wa bone.
@@ -859,6 +853,8 @@ todays-validated-progress = Kgatelopele ya gompieno ya Common Voice ya dikgatiso
 stats = Dipalopalo
 awards = Dikgele
 you = Wena
+top-contributors = Baabi ba ba Kwa Godimo
+validated-clips = Dikgatiso Tse di Tlhomamisitsweng
 set-visibility = Dira gore ke bonale
 visibility-explainer = Seting eno e laola tsela e o bonang lenaane la baetapele ka yone. Fa e fitlhegile, kgatelopele ya gago e tla nna ya poraefete. Seno se raya gore setshwantsho sa gago, leinatiriso la gago le kgatelopele ya gago ga di kitla di bonala mo lenaaneng la baetapele. Ela tlhoko gore go tlhabolola lenaane la baetapele go tsaya metsotso e le ~{ $minutes } go bontsha diphetogo.
 visibility-overlay-note = Ela tlhoko: Fa e beilwe mo go 'Bonagala', o ka kgona go fetola seting eno mo <profileLink>tsebeng ya Porofaele</profileLink>
@@ -886,6 +882,20 @@ help-reach-hours-general-pluralized =
     }
 set-a-goal = Baya Maikaelelo
 cant-decide = Ga o kgone go dira tshwetso?
+activity-needed-calculation-plural =
+    { NUMBER($totalHours) ->
+        [one] [one] { $totalHours } ura
+       *[other] *[other] { $totalHours } diura
+    } { NUMBER($periodMonths) ->
+        [one] [one] { $periodMonths } kgwedi
+       *[other] *[other] { $periodMonths } dikgwedi
+    } { NUMBER($people) ->
+        [one] [one] { $people } motho
+       *[other] *[other] { $people } batho
+    } { NUMBER($clipsPerDay) ->
+        [one] [one] { $clipsPerDay } kgatiso
+       *[other] *[other] { $clipsPerDay } dikgatiso
+    }
 how-many-per-day = Go gontle! Dikgatiso di le kae ka letsatsi?
 how-many-a-week = Go gontle! Dikgatiso di le kae ka beke?
 receiving-emails-info = Gone jaanong o dirile gore o amogele diimeile tse di jaaka dikgopotso tsa maikaelelo, ditlhabololo tsa kgatelopele ya me le makwalodikgang a Common Voice
@@ -936,6 +946,7 @@ download-profile-info = E akaretsa imeile, leinatiriso le tshedimosetso ya dipal
 download-profile-size = Dibaete di le mmalwa
 download-recordings-title = Tse di rekotilweng
 download-recordings-info = E akaretsa di-mp3 le mela e e tsamaisanang le yone, go ka tsaya nakonyana gore di rulaganngwe
+download-recordings-size = Di-megabyte tse di sa reng sepe
 download-recordings-unavailable = Ga o kgone go kopa dikgatiso tsa gago fa kopo e nngwe e setse e diragadiwa.
 download-recently-requested = O ka kopa go ntsha dikgatiso tsa gago malatsi mangwe le mangwe a le { $days }.
 download-size = Bogolo
@@ -1005,7 +1016,7 @@ contribution-misreadings-description = Fa o reeditse, tlhatlhoba ka kelotlhoko g
 contribution-misreadings-description-extended-list-1 = Ga go na <strong>'A'</strong> kgotsa <strong>'Le'</strong> kwa tshimologong ya kgatiso.
 contribution-misreadings-description-extended-list-2 = Go tlhaela <strong>'ng'</strong> kwa bofelong jwa lefoko.
 contribution-misreadings-description-extended-list-3 = Go bala mafoko a a seyong, jaaka "Ra" go na le go re "Re a," kgotsa ka tsela e e farologaneng.
-contribution-misreadings-description-extended-list-4 = Go tlhaela lefoko la bofelo ka ntlha ya go khutlisa kgatiso ka bonako.
+contribution-misreadings-description-extended-list-4 = Go tlhaela lefoko la bofelo fa le felela ka ntlha ya go khutlisa kgatiso ka bonako.
 contribution-misreadings-description-extended-list-5 = E leka makgetlo a le mmalwa go bala lefoko.
 contribution-misreadings-example-1-title = Di-dinosaur tse dikgolo tsa Triassic.
 contribution-misreadings-example-2-title = Dinosaur e dikgolo ya Triassic.
