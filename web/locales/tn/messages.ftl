@@ -7,6 +7,7 @@ loading = E a Tsenya...
 email-opt-in-info = Nka rata go amogela diimeile tse di jaaka dikgopotso tsa maikaelelo, ditlhabololo tsa kgatelopele ya me le makwalodikgang a Common Voice.
 email-opt-in-info-sub-with-challenge = Amogela diimeile tse di jaaka dikgwetlho le dikgopotso tsa maikaelelo, ditlhabololo tsa kgatelopele, le makwalodikgang a Common Voice.
 email-opt-in-privacy-v2 = Ka go tlhopha go amogela diimeile o bontsha gore o siame ka gore Mozilla e tshware tshedimosetso eno jaaka go tlhalosiwa mo <privacyLink>Pholising ya Polokodiphiri</privacyLink>ya Mozilla.
+not-available-abbreviation = Ga e yo
 banner-error-slow-1 = Tshwarelo, Common Voice e bonya. Re lebogela go bontsha kgatlhego ga gago.
 banner-error-slow-2 = Re itemogela pharakano e ntsi mme gone jaanong re batlisisa ka mathata ao.
 banner-error-slow-link = Tsebe ya Boemo
@@ -78,6 +79,8 @@ mos = Se-Mossi
 ms = Se-Malay
 my = Se-Burma
 nan-tw = Se-Taiwan (Minnan)
+ne-NP = Se-Nepal
+nia = Se-Nias
 nyn = Se-Runyankole
 oc = Se-Occitan
 om = Se-Afaan Ormoo
@@ -231,6 +234,9 @@ shortcut-play-toggle-label = Tshameka/Emisa
 # Must be one letter that appears in the { vote-yes } string.
 # Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
 shortcut-vote-yes = e
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = n
 
 ## Speak Shortcuts
 
@@ -535,6 +541,8 @@ download-helpus = Re thuse go aga setšhaba ka thekenoloji ya lentswe, nna o ikg
 ## Contact Modal
 
 contact-title = Foromo ya go Ikgolaganya
+contact-form-name =
+    .label = Leina
 contact-required = *e a tlhokega
 
 ## Request Language Modal
@@ -705,6 +713,7 @@ demo-welcome-subheader = A o kgatlhegela go itse mo go oketsegileng le go nna le
 
 demo-language-select-card-header = Common Voice ke rekoto ya tshedimosetso ya mantswe ya dipuo tse dintsi e batho mo lefatsheng lotlhe ba kgonang go e fitlhelela.
 demo-language-select-card-body = Re leboga dikabo go tswa go batho ba feta 259k mo dipuong di feta 50, tshedimosetso eno e dirisiwa go thapisa dithulaganyo tsa puo go araba botoka mantswe a batho.
+card-button-next = E e Latelang
 card-button-back = Morago
 demo-language-select-label = Leba Dipuo
 demo-account = Akhaonto
