@@ -336,13 +336,16 @@ profile-explanation = Ela tlhoko kgatelopele ya gago o dirisa porofaele mme o th
 thanks-for-account = Re lebogela go tlhomamisa akhaonto ya gago, jaanong a re dire porofaele ya gago.
 why-demographic-explanation-2 = Tshedimosetso ya botlhokaina jaaka dingwaga, bong le segalo di tla thusa go tokafatsa go nepa ga didirisiwa tsa go lemoga mantswe. Leinatiriso le imeile ya gago di ka se amanngwe le tshedimosetso ya gago e e rometsweng, mme o ka tlhopha gore a o batla go senola kgotsa go fitlha leinatiriso la gago.
 accept-privacy = Ga ke na bothata le gore lo dirise tshedimosetso eno jaaka lo tlhalosa mo <privacyLink>Molawaneng wa Polokodiphiri</privacyLink> wa Mozilla
+login-signup = Tsena / Ikwadise
 download-profile = Itseele Tshedimosetso ya Me
 skip-submission-feedback = Tlola go Romela Pegelo
 skip-submission-description = Ka nako ya thomelo ya dikabo, maikutlo a tla tlolwa morago ga go tobetsa 'Romela'. Kabo e tla tswelela ka tlhamalalo ka dikgatiso kgotsa ditlhomamiso tse 5 tse di latelang.
 skip-submission-note = Ela tlhoko: O santse o tlhoka go tlhopha magareng ga Bua kgotsa Reetsa gore o fetole botsayakarolo jwa gago.
 off = E timile
 on = E tshubile
+help-accent = A o tlhoka thuso ka puo?
 help-accent-explanation = Segalo sa gago ke tsela e o bitsang mafoko ka yone. Se ka tlhotlhelediwa ke lefelo le o kileng wa tshela mo go lone, dipuo tse dingwe tse o kgonang go di bua, le dilo tse dingwe tse dintsi. O ka abalana tshedimosetso nngwe le nngwe e o akanyang gore e botlhokwa fano.
+help-variants = A o tlhoka thuso ka dipharologano mo puong?
 help-variants-explanation = Dipuo ke mofuta o o rileng wa leleme - ka sekai, le buiwa ke batho ba ba nnang mo lefelong kgotsa mo morafeng o le mongwe. Ka dinako dingwe di bidiwa diteme.
 
 ## Profile - Email
@@ -452,6 +455,7 @@ about-stay-in-touch-button = Ikwadise
 about-stay-in-touch-text-1 = <emailFragment>Ikwadise</emailFragment> mo lenaaneng la rona la melaetsa go ithuta gore gore o ka tsaya karolo jang mo matsholong, mo ditiragalong le mo dikarolong tsa go tlhama mo Common Voice.
 about-stay-in-touch-text-2 = O ka kopana le bangwe ba badirisi ba puo mo Mozilla ka go nna karolo ya<discourseLink>Discourse</discourseLink> go bona metlotlo ya ditlhogo kgotsa <matrixLink>Matrix</matrixLink> go bona maele a ka bonako.
 about-nav-partners = Balekane
+about-nav-playbook = Ithute go tsaya karolo
 
 ## Community Playbook Content
 ## What is a language
@@ -705,6 +709,7 @@ record-error-too-quiet = Kgatiso e ne e didimetse thata.
 record-cancel = Khansela go Rekota Sesha
 record-stop-instruction = { $actionType }<stopIcon></stopIcon> fa o feditse
 record-three-more-instruction = Go setse di le tharo!
+record-again-instruction2 = Tshwara fela jalo, gatisa gape <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon> Ya bofelo!
 share-clip = Abelana ka bidio ya gago
 share-common-voice = Abelana ka Common Voice
@@ -845,6 +850,7 @@ why-delete-recordings =
 
 ## Profile Download
 
+download-q = A o tlhoka go itseela tshedimosetso ya gago?
 download-info = Re bolelele gore o ka rata go itseela eng:
 download-profile-title = Porofaele
 download-profile-info = E akaretsa imeile, leinatiriso le tshedimosetso ya dipalopalo, e e gone ka yone nako eo
