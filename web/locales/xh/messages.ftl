@@ -41,6 +41,7 @@ help-us-explain = Cinezela dlala, mamela kwaye usixelele: ngaba basithetha ngoku
 no-clips-to-validate = Kubonakala ngathi akukho zikliphu zokumamela kolu lwimi. Sincede sigcwalise umgca ngokurekhoda ezinye ngoku.
 speak-paragraph = Ukurekhoda iikliphu zelizwi yinxalenye yolwakhiwo lwedatha yethu evulekileyo; abanye bangathi yeyona nto imnandi.
 listen-paragraph = Ukuqinisekisa iikliphu ezinikezelweyo kubalulekile ngokulinganayo kwimishini yeCommon Voice. Phulaphula kwaye usincede senze idatha yelizwi esemgangathweni
+help-make-dataset = Sincede sakhe umgangatho ophezulu, idatha seti evuleke kuluntu
 email-subscription-title-new = Bhalisela iindaba zeCommon Voice, izikhumbuzo zenjongo kunye nohlaziyo lwenkqubela phambili
 
 ## Account Benefits
@@ -209,6 +210,7 @@ about-playbook-how-add-sentences-content-4 = Izivakalisi eziye zaqinisekiswa zit
 
 ## How to record quality
 
+about-playbook-how-record-quality = Ndiyirekhoda njani ikliphu yelizwi ekumgangatho ophezulu?
 about-playbook-how-record-content-1 = Thetha ngelizwi lakho eliqhelekileyo! Indlela othetha ngayo yamkelekile apha-sifuna isivakalisi sakho njengoko sinjalo, kwaye sifuna i-accent yakho wesiqhelo, isitayile kunye nelizwi.
 about-playbook-how-record-content-2 = Yiphephe ingxolo eninzi engasemva - kufuneka kube lula ukukuva.
 about-playbook-how-record-content-3 = Funda isivakalisi ngononophelo - ungaphosi, utshintshe okanye wongeze amagama.
@@ -258,6 +260,7 @@ error-content-503 = Isaythi iyakubuyiselwa ngokukhawuleza. Ngolwazi lwamva nje, 
 data-download-modal = Ngoku uza kuqalisa ukhuphelo lwe <size>{ $size }GB</size>, uyaqhubeka?
 data-subtitle = Sakha uluhlu lwedatha lwamazwi oluvulelekileyo nolufumaneka esidlangalaleni wonke umntu anokuthi alusebenzise ukuqeqesha usetyenziso olusebenzisa intetho.
 data-explanatory-text = Sikholelwa ukuba ii-voice dataset ezinkulu nezifumanekayo kuwonke-wonke zikhuthaza ukusungula izinto ezintsha kunye nokhuphiswano olusempilweni lwentengiso kumatshini wokufunda ngokusekwe kubuchwepheshe bentetho. Lo ngumzamo obandakanya ihlabathi jikelele kwaye simema wonke umntu ukuba athathe inxaxheba. Injongo yethu kukunceda ubuchwephetshe balemihla bentetho ibandakanye kakhulu, kwaye ibonise iyantlukwano yamazwi abantu kwihlabathi jikelele.
+data-bundle-description = Idatha yeCommon Voice kunye nazo zonke ezinye iidatha zelizwi ngaphezulu.
 data-download-singleword-callout-v2 = Le yimeko yokusetyenziswa eqhutywa licandelo eliqulathe idatha kumandla athethiweyo ukuqondwa kwedijithi kwaye ewe / hayi akukho ubhaqo.
 review-terms = Ngokusebenzisa iCommon Voice uvuma  <termsLink>imiqathango</termsLink> kunye <privacyLink>neSazisi saBucala</privacyLink>
 review-aborted = Ukhutshelo luyekile. Ufuna ukucima iirekhodingi zakho?
@@ -357,6 +360,11 @@ visibility-overlay-note = Qaphela: Xa imiselwe 'Iyabonakala', olu seto lungatshi
 
 goal-type = Loluphi uhlobo lwenjongo ofuna ukwakha?
 lose-goal-progress-warning = Ngokuhlela injongo yakho, unokuphulukana nenkqubela phambili yakho esele ikho.
+help-reach-hours-pluralized =
+    { NUMBER($hours) ->
+        [one] Nceda sifikelele { $hours } iyure kwi { $language } njongo yobuqu
+       *[other] Nceda sifikelele { $hours } iiyure kwi { $language } njongo yobuqu
+    }
 help-reach-hours-general-pluralized =
     { NUMBER($hours) ->
         [one] Nceda iCommon Voice ifikelel ku { $hours } iyure ngolwimi olunenjongo yobuqu
@@ -390,11 +398,13 @@ why-delete-recordings = Ukurekhodwa kwe-Common Voice kusetyenziswa ngabafundi, a
 
 ## Profile Download
 
+download-profile-info = Kubandakanya i-imeyile, igama lomsebenzisi kunye nolwazi le-demographic, luyafumaneka kwangoko
 download-recordings-info = Kubandakanya ii-mp3s kunye nezivakalisi ezinxulumene noko, zinokuthatha ixesha ukulungiselela
 download-recordings-unavailable = Awukwazi ukucela iirekhodingi zakho ngelixa esinye isicelo sele siqhubeka.
 download-recently-requested = Ungacela uluhlu okutsha lweerekhodi zakho qho emva kweentsuku ezi{ $days }.
 download-requests-info = Xa ucela ushicilelo lwakho, siyaluqokelela lube yifayile yeZIP enye okanye ezininzi.Nazi izicelo zakho zangaphambili:
 download-request-assembling-description = Iifayile zakho ziyahlanganiswa. Nceda ujonge kwakhona kamva.
+download-request-modal-description = Nazi iilinki zokukhuphela iifayile zakho ze-ZIP.
 download-request-link-single = Unokukopa kwaye uncamathisele ii-URL ezithe ngqo kwindawo yokukhuphela oyithandayo. Ziya kuphelelwa kwiiyure ezili-12, kodwa ungabuyela kweli phepha ukwenza ezintsha nangaliphi na ixesha.
 
 ## Landing
@@ -404,6 +414,7 @@ profile-not-required = Ukuba neprofayile akufuneki ukuba ube nogalelo nangona ku
 
 ## DemoLayout
 
+demo-welcome-subheader = Ingaba unomdla wokufunda ngakumbi kwaye ubenegalelo kwiprojekthi?
 
 ## Demo Datasets
 
@@ -458,6 +469,7 @@ contribution-just-unsure-description = Ukuba ufumana into engaqukwanga kwezi zik
 ## HOME
 
 sc-home-intro = Umqokeleli wezivakalisi yinxalenye  <commonVoiceLink>ye-Common Voice</commonVoiceLink>. Ivumela abaxhasi ukuba baqokelele kwaye baqinisekise (bapasise) izivakalisi eziqulunqwe luluntu. Unokusebenzisa esi sixhobo ukungenisa kunye nokucoca i-corpus oyiqokeleleyo kwindawo yoluntu ukusukela kwencinci-ephakathi-ukuya kwenkullu. Zonke izivakalisi kufuneka zibe kanti zidalelwe uwonke-wonke. Izivakalisi ezivunyiweyo zikhutshelwa ngaphandle kwiveki nganye kwindawo yokugcina i-Common Voice kwaye zikhutshwe kwiwebhusayithi ye-Common Voice kuko konke ukusasaza okutsha.
+sc-home-collect-text = Sincede ngokubhala okanye ukuqokelela izivakalisi zesizinda zoluntu.
 sc-home-review-text = Sincede ngokuphonononga izivakalisi ngokuchaneka ngokwezikhokelo.
 
 ## GENERAL
