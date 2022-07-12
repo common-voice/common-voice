@@ -817,6 +817,7 @@ language-validation-progress = Mvela phanḓa yo Khwaṱhisedzwaho
 
 ## Contribution
 
+action-click = Puṱedza
 clips-with-count-pluralized =
     { $count ->
         [one] Zwo Rekhodiwaho
@@ -892,6 +893,9 @@ report-difficult-pronounce = Zwi a konḓa u zwi bula
 report-difficult-pronounce-detail = I na maipfi kana mibulo ine ya konḓa u i vhala kana u i bula.
 report-offensive-speech = Luambo lwa u Nyadza
 report-offensive-speech-detail = Heyi rekhodo i na mafhungo ane a nyadza kana a songo kunaho.
+report-other-comment =
+    .placeholder = Fhindula
+continue = Bvela phanḓa
 report-success = Muvhigo wo phasa
 
 ## Goals
@@ -1283,6 +1287,7 @@ sc-confirm-ready =
 # Variables:
 #   $countOfUnreviewed (Number) - Number of sentences unreviewed before the upload
 sc-confirm-unreviewed = { $countOfUnreviewed } mitaladzi i songo ṱoliwaho. Arali ni khou ṱoḓa, ni nga kona u ṱolisisa yeneyo mitaladzi yaṋu ni sa athu u i rumela.
+sc-confirm-button-text = Khwaṱhisedza
 sc-confirm-uploading = Mitaladzi i khou apuḽodiwa. Hezwi zwi nga dzhia tshifhinga mimunithi i si gathi nahone zwi ḓitika nga tshivhalo tsha mitaladzi ine ya khou pangiwa. Ri humbela uri ni songo vala website heyi.
 
 ## LANGUAGE INFO
