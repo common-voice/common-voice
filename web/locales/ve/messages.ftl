@@ -227,6 +227,7 @@ how-does-it-work-text = Ri khou lingedza u wana maipfi kha tshitshavha uri ri it
 about-language-req-subtitle = Hu na we a humbela uri luambo lu pangiwe.
 about-localization-title = U ita uri website i shume vhuponi ha henefho
 about-localization-subtitle = Mafhungo a re kha heyi website o ḓologiwa nga holuya luambo.
+about-sentence-collection-title = Kuvhanganya Mitaladzi
 about-sentence-collection-subtitle = Mitaladzi i kuvhanganyiwa uri vhathu vha i vhalele nṱha.
 about-new-lang-title = Luambo luswa lwo ḽontshiwa
 about-new-lang-subtitle = Ro ḽontsha saiti ya Common Voice nga holwu luambo.
@@ -257,6 +258,7 @@ about-get-involved-text-2 =
     dzi foramu, ni rumele thaidzo dzine na ṱangana nadzo kha saiti <githubLink>GitHub</githubLink>, kana ni dzhene kha
     <matrixLink>Matrix</matrixLink> nyambedzano dza vhadzulapo."
 about-stay-in-touch = Ndi nga dzula hani ndi tshi kwamana navho?
+about-stay-in-touch-button = Sign up
 about-stay-in-touch-text-1 = <emailFragment>Ḓiṅwaliseni</emailFragment> kha mutevhe wa mailing yashu ni gude uri ni nga dzhenelela hani kha mafulo, dzi event, na co-design features kha CommonVoice.
 about-stay-in-touch-text-2 = Ni nga ṱangana na vhaṅwe kha zwigwada zwa luambo zwa Mozilla nga u dzhena na vha tshipiḓa <discourseLink>Discourse</discourseLink> u wana nyambedzano, kana <matrixLink>Matrix</matrixLink> u wana tsivhudzo nga tshihaḓu.
 about-nav-why-common-voice = Ngani ?
@@ -322,6 +324,7 @@ about-playbook-how-record-content-5 = <accuracyLink>Vhonani zwo engedzeaho nga h
 about-playbook-how-grow-language = Ri nga ita hani uri luambo lu hule nga nḓila i bvelelaho kha Common Voice?
 about-playbook-how-grow-language-content-1 = U ita zwikhala zwa uri vhathu vho fhambananaho vha kone u shela mulenzhe kha Common Voice zwi ita uri dataset i shumele vhathu vhanzhi nga hune zwa nga konadzea ngaho. Ro ita zwithu zwine na nga zwi shumisa na dzi themphuḽethi!
 about-playbook-how-grow-language-content-3 = Ni nga ita na mutambo wa u thusa vhathu uri vha shele mulenzhe. Zwenezwi zwo leluwa. Ni nga zwi ita muyani nga zwishumiswa zwa videoconferentsi, kana nga ho livhaho ni tshi khou vhonana na vhatu arali zwo tsireledzea. <eventTemplate>Ni vhone themphuḽeithi yashu na zwithu zwa uri hu vhe na mutambo</eventTemplate>.
+about-playbook-how-grow-language-content-4 = Social media
 about-playbook-how-grow-language-content-5 = Ni nga shumisa social media platforms u itela u ḓivhadza vhaṅwe nga ha zwenezwi. Vha rumeleni milaedze i ṱalutshedzaho uri ndi ngani zwi zwa ndeme, nahone ni kwamane na vhaṅwe uri ni kone u amba navho nga ha pfanelo dza dzi nyambo, voice AI, kana tshiṱalula tshi re hone kha zwishumiswa zwa thekhinolodzhi. Vhonani nyeletshedzo dzo engedzeaho nga ha <campaignLink>u ita dzi campaign, na u vhona mafhungo ane na nga dovha na a shumisa </campaignLink>.
 about-playbook-how-grow-language-content-6 = Vhushumisani na dzinetiworke
 about-playbook-how-grow-language-content-7 = Wanani vhaṅwe vha re na ndavha. Vha nga vha dzi yunivesithi, zwikolo zwi funzaho luambo, zwigwada zwa vha ambeli kana zwigwada zwa vhorasantsi. Ambani navho nahone ni vha ṱalutshedze zwavhuḓi nḓila ine vha nga ni thusa ngayo na uri ndi ngani. <outreachTemplates>Vhonani themphuḽethi yashu ya email ya nḓila ine ra swikelela vhathu </outreachTemplates>.
@@ -478,6 +481,8 @@ request-language-error = Ri nga vha ri songo wana khumbelo heyo. Ri humbela uri 
 
 language-section-in-progress-new-description = Hedzi nyambo dzi kha ḓi shumiwa <localizationGlossaryLink>u ḓologa Website</localizationGlossaryLink> na<sentenceCollectionGlossaryLink>u kuvhanganya mitaladzi </sentenceCollectionGlossaryLink> zwi a ṱoḓea uri hu ḽontshiwe.
 language-section-launched-description = Kha hedzi nyambo dzo no ḓi dzheniswaho dzo dzhena zwavhuḓi kha website <localizationGlossaryLink>localized</localizationGlossaryLink>, nahone hu na mitaladzi <sentenceCollectionGlossaryLink> yo kuvhanganwaho yo eḓaho </sentenceCollectionGlossaryLink> u itela uri hu vhe na bvela phanḓa <speakLink>Ambani</speakLink> ni <listenLink>Tshetshelese</listenLink> zwo shelwaho mulenzhe.
+languages-show-more = Vhonani Zwinzhi
+languages-show-less = Vhonani Zwiṱuku
 language-validation-progress = Mvela phanḓa yo Khwaṱhisedzwaho
 
 ## Contribution
@@ -632,6 +637,7 @@ download-request-archive-single = Pfarelo, hu na zwi songo tshimbilaho zwavhuḓ
 download-request-archive-multiple = Khethekanyani kha { $archiveCount } faela dza ZIP dzi re na
 download-request-assembling-description = Faela dzaṋu dzi khou dzudzanyiwa. Sedzani hafhu hu si kale.
 download-request-modal-description = Ḽinki khedzi dza u downḽoda faela dzaṋu dza ZIP.
+download-request-metadata-link = Mafhungo a re kha mutaladzi
 download-request-link-single = Ni nga kopa u ṋambatedza nga ho livhaho kha URLs u ya kha hune na ṱoḓa uri zwe na downḽouda zwi dzule hone. Zwi ḓo fhelelwa nga tshifhinga nga murahu ha awara dza 12, fhedzi ni nga dovha na vhuyelela kha ḽeneḽi siaṱari uri ni dovhe ni ite dziṅwe nga tshifhinga tshine na funa.
 
 ## Landing
