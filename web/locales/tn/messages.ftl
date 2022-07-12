@@ -215,6 +215,7 @@ contact = Ikgolaganye
 privacy = Bosephiri
 terms = Melawana
 cookies = Dikhukhi
+faq = Dipotso tse Gantsi di Bodiwang
 content-license-text = Diteng di gone mo <licenseLink> laesenseng ya Creative Commons</licenseLink>
 share-title = Re thuse go bona ba bangwe gore ba abelane ka mantswe a bone!
 share-text = Thusa go ruta metšhine  gore batho ba mmatota ba bua jang, abelana ka lentswe la gago mo { $link }
@@ -260,6 +261,8 @@ speak-goal-text = Dibidio di rekotilwe
 listen-subtitle = Re thuse go tlhomamisa mantswe
 listen-paragraph = Go tlhomamisa dikgatiso tse di abilweng le gone go botlhokwa mo maikaelelong a Common Voice. Reetsa mme o re thuse go dira tshedimosetso e e nang le boleng ya mantswe.
 listen-goal-text = Dibidio di tlhomamisitswe
+hours-recorded = Diura tse di Gatisitsweng
+hours-validated = Diura tse di Tlhomamisitsweng
 voices-online = Mantswe a a mo Inthaneteng Jaanong
 todays-progress = Kgatelopele ya Gompieno
 help-reach-goal = Re thuse go { $goal }
@@ -340,7 +343,9 @@ shortcut-vote-no = n
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-record-toggle = r
 shortcut-record-toggle-label = Rekota/Emisa
+shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Dira dikgatiso gape
+shortcut-discard-ongoing-recording = Tswa
 shortcut-discard-ongoing-recording-label = Latlha go rekota go ntseng go tswelela
 shortcut-submit = Busetsa
 shortcut-submit-label = Romela dikgatiso
@@ -356,6 +361,10 @@ status-hours =
         [one] Go tlhomamisitswe ura e le nngwe go fitlha ga jaana!
        *[other] *Go tlhomamisitswe diura di le { $hours } go tla go fitlha ga jaana!
     }
+# Variables:
+# $goal - number of hours representing the next goal
+status-goal = Maikaelelo a a Latelang: { $goal }
+english = Seesemane
 
 ## ProfileForm
 
@@ -385,16 +394,23 @@ hidden = E fitlhegile
 visible = E a bonala
 native-language =
     .label = Puo ya Kwa Gae
+profile-form-add-accent = Tsenya puo e ntšha e e tlwaelegileng "{ $inputValue }"
 profile-form-submit-save = Boloka
 profile-form-submit-saved = E bolokilwe
+male = Monna
+female = Mosadi
+# Gender
+other = Yo mongwe
 why-profile-title = Goreng porofaele?
 why-profile-text =
     Ka go naya tshedimosetso nngwe ka wena, tshedimosetso ya lentswe e o e romelang kwa Common Voice e tla nna mosola thata mo dithulaganyong tsa Speech
     Recognition tse di dirisang tshedimosetso eno go tokafatsa go nepa ga tsone.
+dashboard = Desheboto
 build-profile = Aga Porofaele
 avatar = Setshwantsho
 goals = Maikaelelo
 settings = Diseting
+edit-profile = Baakanya Porofaele
 profile-create-success = O atlegile, porofaele e dirilwe!
 profile-close = Tswala
 profile-explanation = Ela tlhoko kgatelopele ya gago o dirisa porofaele mme o thuse tshedimosetso ya rona ya mantswe gore e nepagale thata.
@@ -405,7 +421,10 @@ accept-privacy = Ga ke na bothata le gore lo dirise tshedimosetso eno jaaka lo t
 accept-privacy-title = Pholisi ya Polokodiphiri
 login-identity = Boitshupo Jwa go Tsena
 login-signup = Tsena / Ikwadise
+edit = Baakanya
+email-subscriptions = Dipeeletso tsa Imeile
 download-profile = Itseele Tshedimosetso ya Me
+contribution-experience = Maitemogelo a go Aba
 skip-submission-feedback = Tlola go Romela Pegelo
 skip-submission-description = Ka nako ya thomelo ya dikabo, maikutlo a tla tlolwa morago ga go tobetsa 'Romela'. Kabo e tla tswelela ka tlhamalalo ka dikgatiso kgotsa ditlhomamiso tse 5 tse di latelang.
 skip-submission-note = Ela tlhoko: O santse o tlhoka go tlhopha magareng ga Bua kgotsa Reetsa gore o fetole botsayakarolo jwa gago.
@@ -420,6 +439,7 @@ help-variants-explanation = Dipuo ke mofuta o o rileng wa leleme - ka sekai, le 
 
 browse-file-title = Tsenya faele ya setshwantsho
 browse-file = E goge o bo o e latlhela kgotsa o <browseWrap>Senke</browseWrap>
+connect-gravatar = Golagana le Setshwantsho
 gravatar_not_found = Ga go a bonwa setshwantsho sepe se se amanang le imeile ya gago
 file_too_large = Faele e e tlhophilweng e kgolo thata
 avatar-uploaded = Setshwantsho se tsentswe
@@ -428,6 +448,8 @@ remove-avatar = Ntsha Setshwantsho
 
 ## Profile - Email
 
+manage-subscriptions = Laola Dipeeletso
+manage-email-subscriptions = Laola Dipeeletso tsa Imeile
 email-already-used = Imeile e setse e dirisitswe mo akhaonteng e nngwe
 add-language = Tsenya Puo
 change-email-setings = Fetola imeile ya gago ka Diseting mo tlase ga Boitshupo Jwa go Tsena
@@ -510,6 +532,7 @@ about-localization-title = Thanolo ya Webosaete
 about-localization-subtitle = Mokwalo ya webosaete o ranolwetswe mo puong eo.
 about-sentence-collection-title = Setlhopha sa Dipolelo
 about-sentence-collection-subtitle = Mela e kgobokanngwa gore batho ba e balele kwa godimo.
+about-new-lang-title = Go Thankgolola Puo e Ntšha
 about-new-lang-subtitle = Re simolola webosaete ya Common Voice ka puo eno.
 about-voice-contrib-title = Go Neelana ka Lentswe
 about-voice-contrib-subtitle = Batho ba a tla ba bo ba abelana ka mantswe a bone.
