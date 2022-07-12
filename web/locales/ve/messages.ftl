@@ -591,6 +591,20 @@ help-reach-hours-general-pluralized =
        *[other] Thusani Common Voice u swikelele { $hours } dzi awara kha luambo nga tshipikwa tshe muthu a ḓivhetshela
     }
 set-a-goal = Itani tshipikwa
+activity-needed-calculation-plural =
+    { NUMBER($totalHours) ->
+        [one] { $totalHours } awara i nga swikelelea nga murahu ha
+       *[other] { $totalHours } dzi awara dzi nga swikelelea nga murahu ha
+    }{ NUMBER($periodMonths) ->
+        [one] { $periodMonths } ṅwedzi
+       *[other] { $periodMonths } miṅwedzi
+    } { NUMBER($people) ->
+        [one] { $people } muthu rekhonani
+       *[other] { $people } vhathu rekhodani
+    } { NUMBER($clipsPerDay) ->
+        [one] rekhodo nthihi { $clipsPerDay } nga ḓuvha.
+       *[other] rekhodo nnzhi { $clipsPerDay } nga ḓuvha.
+    }
 how-many-per-day = Ndi zwavhuḓi! Hu ṱoḓea rekhodo nngana nga ḓuvha?
 how-many-a-week = Ndi zwavhuḓi! Hu ṱoḓea rekhodo nngana nga vhege?
 which-goal-type = Ni khou ṱoḓa u Amba, u Thetshelesa kana u ita zwoṱhe?
