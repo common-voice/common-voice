@@ -1,6 +1,7 @@
 ## General
 
 yes-receive-emails = Yebo, ngithumele ama-imeyili. Ngingathanda ukuhlala nginolwazi nge-Common Voice Project.
+stayintouch = Thina kwa-Mozilla sakha umphakathi mayelana nobuchwepheshe bezwi. Sithanda ukuhlala sithintana nezibuyekezo, imithombo emisha yedatha futhi sizwe kabanzi mayelana nokuthi uyisebenzisa kanjani le datha.
 privacy-info = Sithembisa ukuphatha imininingwane yakho ngokucophelela. Funda kabanzi kwi<privacyLink>Isaziso Sobumfihlo</privacyLink>.
 return-to-cv = Buyela kwiCommon Voice
 email-input =
@@ -534,6 +535,7 @@ about-nav-playbook = Funda ukuthi libanjwa kanjani iqhaza
 
 about-playbook-what-is-language = Luyini ulimi ku-Common Voice?
 about-playbook-what-is-language-content-1 = Ziningi izindlela zokucabanga ngelimi. Ngenxa yamamodela wokuqoshwa kwenkulumo, iCommon Voice iphakamisa ukugxila 'kukuqondana okuvumelanayo', noma 'izikhulumi zalolimi ziyakwazi na ukuqondana uma zizama?'
+about-playbook-what-is-language-content-3 = Ezinye izilimi zihluke kakhulu ngokuhlelo lolimi, isilulumagama kanye nokuphimisa. Ngalesosizathu, si <ctaLink>sethula i'Variants'</ctaLink> ngo 2022. Lokhu kunikea imiphakathi indlela yokuhlukanisa izilimi zabo ngaphakathi kwolwazi oluqoqiwe olukhulu.
 
 ## How do I add a language
 
