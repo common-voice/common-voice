@@ -538,6 +538,7 @@ about-voice-contrib-title = Go Neelana ka Lentswe
 about-voice-contrib-subtitle = Batho ba a tla ba bo ba abelana ka mantswe a bone.
 about-voice-validation-title = Go Tlhomamisa Lentswe
 about-voice-validation-subtitle = Batho ba bangwe ba tlhomamisa dkgatiso tseo tsa mantswe.
+about-dataset-release-title = Go Golola Rekoto ya Tshedimosetso
 about-dataset-release-subtitle = Re golola rekoto ya tshedimosetso dikgwedi dingwe le dingwe di le 3.
 about-subscribe-text = A o batla go nna o ikgolaganya le Common Voice?
 about-speak = Bua
@@ -559,6 +560,7 @@ about-clip-graveyard-text =
     Clip Graveyard e na le dikgatiso tsa mantswe tse di sa kgonang tsena mo tshedimosetsong ya Common Voice. Fela jaaka tshedimosetso, Clip Graveyard le yone e ka itseelwa.
     
     Re rata go leboga batho le mekgatlho e e latelang ka thuso ya bone mo porojekeng:
+about-get-involved = Nna le seabe
 about-get-involved-text-2 =
     A o batla go thusa go dira gore Common Voice e nne botoka go gaisa?
     Go gontle! Golagana le rona ka imeile kgotsa diforamo tsa <discourseLink>Discourse</discourseLink>,
@@ -569,7 +571,9 @@ about-stay-in-touch-button = Ikwadise
 about-stay-in-touch-text-1 = <emailFragment>Ikwadise</emailFragment> mo lenaaneng la rona la melaetsa go ithuta gore gore o ka tsaya karolo jang mo matsholong, mo ditiragalong le mo dikarolong tsa go tlhama mo Common Voice.
 about-stay-in-touch-text-2 = O ka kopana le bangwe ba badirisi ba puo mo Mozilla ka go nna karolo ya<discourseLink>Discourse</discourseLink> go bona metlotlo ya ditlhogo kgotsa <matrixLink>Matrix</matrixLink> go bona maele a ka bonako.
 about-nav-why-common-voice = Goreng ?
+about-nav-how-it-works = Jang?
 about-nav-partners = Balekane
+about-nav-get-involved = Nna le seabe
 about-nav-how-it-works-2 = Common Voice e dira jang?
 about-nav-playbook = Ithute go tsaya karolo
 
@@ -633,6 +637,7 @@ about-playbook-how-record-content-5 = <accuracyLink>Bona mo go oketsegileng ka d
 
 about-playbook-how-grow-language = Re ka godisa puo jang ka katlego mo Common Voice?
 about-playbook-how-grow-language-content-1 = Go dira ditshono tsa gore batho ba bantsi ba nne le seabe mo Common Voice go tlhomamisa gore tshedimosetso e thusa batho ba bantsi kafa go ka kgonegang ka gone. Re dirile didirisiwa le dithempoleite tse o ka di dirisang.
+about-playbook-how-grow-language-content-2 = Ditiragalo
 about-playbook-how-grow-language-content-3 = O ka dira ditiragalo go thusa batho go aba. Go motlhofo go feta jaaka o akanya. O ka e dira mo inthanete ka kgolagano ya bidio kgotsa wa e dira ka namana fa go sireletsegile go dira jalo. <eventTemplate>Leba dithempoleite le didirisiwa tsa rona tsa go dira ditiragalo</eventTemplate>.
 about-playbook-how-grow-language-content-4 = Metswedi ya go Ikgolaganya
 about-playbook-how-grow-language-content-5 = O ka dirisa metswedi ya mafaratlhatlha a boitapoloso go fetisa molaetsa. Abalana mekwalo e e bontshang gore ke eng go le botlhokwa, mme o golagane le batho ba bangwe ba ba buang ka dikgang tse di jaaka ditshwanelo tsa puo, lentswe, kgotsa go tlhoka tekatekano mo thekenolojing. Bona dikakantsho tse dingwe ka <campaignLink>go dira letsholo, go akaretsa tshedimosetso e o ka e dirisang gape</campaignLink>.
@@ -670,11 +675,13 @@ about-playbook-how-project-governance-content-7 = <governanceLink>Bala mo go oke
 glossary = Lenaane la Mafoko
 localization = Thanolo
 localization-explanation = Ono ke mokgwa wa rona wa go ranola le go dira gore tshedimosetso ya rona e tsamaisane le dipuo di le dintsi.
+sentence-collection = Setlhopha sa Dipolelo
 sentence-collection-explanation = Go amogela mela go tswa mo lefelong la batho botlhe, kgotsa go kwalela lefelo la batho botlhe e mesha.
 hours-recorded-explanation = Palo ya diura tsa direkoting tse re setseng re di amogetse go fitlha jaana.
 hours-validated-explanation = Palo ya diura tsa kgatiso ya mantswe e e tlhomamisitsweng ke badirisi ba le 2 mo go ba le 3 ka tlhopho ya “Ee”. Seno se bontsha botswelelopele jwa porojeke ka kakaretso ya mokgele wa diura tse 10k.
 sst = Puo-go-mokwalo (STT)
 sst-explanation = Thekenoloji ya Puo-go-mokwalo (STT) e fetolela tshedimosetso ya mantswe mo mokwalong.
+de-identified = Go tlosiwa tshedimosetso e e go tlhaolang
 de-identified-explanation = Thulaganyo e ka yone tshedimosetso ya porofaele ya moabi e fitlhegileng mo dikgatisong tsa mantswe fa e baakanyeditswe go itseelwa jaaka karolo ya tshedimosetso.
 
 ## Error pages
@@ -683,10 +690,12 @@ error-title-404 = Ga re a kgona go bona tsebe e o e batlang
 error-content-404 = Gongwe <homepageLink>tsebe ya rona ya tshimologo</homepageLink> e tla thusa? Go botsa potso, tsweetswee nna karolo ya <matrixLink>puisano ya morafe wa Matrix</matrixLink>, tlhokomela dikgang tsa webosaete ka <githubLink>GitHub</githubLink> kgotsa etela <discourseLink>diforamo tsa rona tsa Discourse</discourseLink>.
 error-title-503 = Re itemogela kemisotiro ya tshoganyetso
 error-content-503 = Webosaete e tla bo e boetse mo maemong ka bonako jo bo kgonegang. Go bona tshedimosetso ya bosheng, tsweetswee nna karolo ya <matrixLink>puisano ya setlhopha sa Matrix</matrixLink> kgotsa etela <githubLink>GitHub</githubLink> kgotsa <discourseLink>diforamo tsa rona tsa Discourse</discourseLink> go romela le go tlhokomela mathata a webosaete.
+error-code = Phoso { $code }
 
 ## Data
 
 data-download-button = Itseele Tshedimosetso ya Common Voice
+data-download-yes = Ee
 data-download-deny = Nyaa
 data-download-license = Laesense: <licenseLink>CC-0</licenseLink>
 data-download-modal = O tloga o simolola download ya <size>{ $size }GB</size>, a o a tswelela?
@@ -694,13 +703,18 @@ data-subtitle = Re aga rekoto ya tshedimosetso ya mantswe e mongwe le mongwe a k
 data-explanatory-text = Re dumela gore tshedimosetso e kgolo le e e phasaladitsweng ya mantswe e rotloetsa go tlhama le kgaisano ya kgwebo mo thekenolojing e e ikaegileng ka go ithuta ga metšhine. Ano ke matsapa a lefatshe lotlhe mme re laletsa mongwe le mongwe go tsaya karolo. Boikaelelo jwa rona ke go thusa thekenoloji ya go bua gore e akaretse dilo tse dintsi, e bontshe pharologano ya mantswe go ralala lefatshe.
 data-get-started = <speechBlogLink>Simolola ka Temogopuo</speechBlogLink>
 data-other-title = Direkoto tse dingwe tsa tshedimosetso ya mantswe...
+data-other-goto = Ya go { $name }
+data-other-download = Itseele Tshedimosetso
 data-bundle-button = Itseele Di-bundle Tsa Rekoto ya Tshedimosetso
 data-bundle-description = Tshedimosetso ya Common Voice le direkoto tsotlhe tsa tshedimosetso ya mantswe fa godimo.
 release-version = Thanolelo
+dataset-date = Letlha
 license = Laesense: <licenseLink>{ $license }</licenseLink>
+license-mixed = E kopane
 data-download-singleword-title = Itseele Dikarolwana Tsa Lefoko le le Lengwe la Puo
 data-download-singleword-callout-v2 = Eno ke karolwana e e berekang e e nang le tshedimosetso ya go matlafatsa mokgwa wa go dirisa puo le o o kgonang go lemoga ee / nnyaa.
 review-terms = Ka go dirisa Common Voice, o dumalana le <termsLink>Melawana</termsLink> le <privacyLink>Kitsiso ya Polokodiphiri</privacyLink>
+terms-agree = Ke a dumela
 terms-disagree = Ga ke dumele
 review-aborted = Go tsenngwa go emisitswe. A o batla go phimola dikgatiso tsa gago?
 review-submit-title = Sekaseka & Romela
@@ -713,6 +727,7 @@ review-delete-recordings = Phimola dikgatiso tsa me
 
 ## Datasets Page
 
+datasets-heading = Direkoto tsa tshedimosetso
 datasets-headline = Re aga rekoto ya tshedimosetso ya mantswe ya dipuo tse dintsi e mongwe le mongwe a ka e dirisang go thapisa dithulaganyo tse di kgonang go dirisa mantswe.
 datasets-positioning =
     Re dumela gore tshedimosetso e kgolo, e e phasaladitsweng e e leng teng e tla rotloetsa go tlhama le kgaisano e e siameng ya kgwebo mo thekenolojing e e ikaegileng ka metšhine e e ithutang puo.
@@ -720,6 +735,9 @@ datasets-positioning =
     Tshedimosetso ya Common Voice ya dipuo tse dintsi ke tshedimosetso e kgolo ya batho botlhe e e leng teng ya mantswe, mme ga se yone fela.
     
     Leba tsebe eno jaaka tshupiso go bona tshedimosetso e nngwe ya mantswe, mme jaaka Common Voice e tswelela go gola, e nna legae la ditlhabololo tsa rona.
+language = Puo
+# File size in gigabytes
+size = Bogolo
 validated-hr-total = Palogotlhe ya Diura Tse di Tlhomamisitsweng
 overall-hr-total = Palogotlhe ya Diura Tsotlhe
 cv-license = Laesense
@@ -732,6 +750,7 @@ confirm-size = O ipaakanyeditse go simolola go itseela <b>{ $size }</b>
 size-gigabyte = GB
 size-megabyte = MB
 confirm-no-identify = <b>O dumela</b>go sa leke go lemoga boikitsiso jwa babui ba ba mo rekotong ya tshedimosetso ya Common Voice
+download-language = Itseele { $language }
 validated-hours = Diura Tse di Tlhomamisitsweng
 recorded-hours = Diura Tse di Kgatisitsweng
 whats-inside = Ke eng se se mo rekotong ya tshedimosetso ya Common Voice?
@@ -743,6 +762,7 @@ want-dataset-update = A o batla re go itsise fa re golola tokololo e ntšha ya r
 subscribe = Ikwadise
 get-started-speech = Simolola ka Temogopuo
 other-datasets = Direkoto Tsa Tshedimosetso Tsa Mantswe Tse Dingwe
+feedback-q = A o Na le Pegelo?
 resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ ke <docsLink>sediriswa sa batho botlhe</docsLink> se babatlisisi ba se dirisang go tlhama mokgwa wa puisano wa mefuta ya AI.
 resource-deepspeech-info = Thulaganyo ya go lemoga mantswe ya Mozilla ya Deep Speech e ka dirisiwa go dira dithulaganyo tsa go lemoga puo. Bala <githubLink>dintlhakakaretso tsa rona tsa Github</githubLink> kgotsa nna karolo ya <discourseLink>DeepSpeech Discourse</discourseLink> go ithuta gore o ka simolola jang.
 resource-coqui-info = <coquiLink>Coqui</coquiLink> e ineetse mo thekenolojing ya go dirisa puo. Diporojeke tsa bone di akaretsa thuto e e tseneletseng e e ikaegileng ka mefuta ya STT le TTS.
