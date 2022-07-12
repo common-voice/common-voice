@@ -3,6 +3,7 @@
 yes-receive-emails = Ee, nthomeleleng diimeile. Nka rata go nna mo dinakong ka Porojeke ya Common Voice.
 privacy-info = Re go solofetsa go tshwara tshedimosetso ya gago ka kelotlhoko. Bala mo go oketsegileng mo <privacyLink>Kitsiso ya Bosephiri</privacyLink>.
 submit-form-action = Romela
+loading = E a Tsenya...
 email-opt-in-info = Nka rata go amogela diimeile tse di jaaka dikgopotso tsa maikaelelo, ditlhabololo tsa kgatelopele ya me le makwalodikgang a Common Voice.
 email-opt-in-info-sub-with-challenge = Amogela diimeile tse di jaaka dikgwetlho le dikgopotso tsa maikaelelo, ditlhabololo tsa kgatelopele, le makwalodikgang a Common Voice.
 email-opt-in-privacy-v2 = Ka go tlhopha go amogela diimeile o bontsha gore o siame ka gore Mozilla e tshware tshedimosetso eno jaaka go tlhalosiwa mo <privacyLink>Pholising ya Polokodiphiri</privacyLink>ya Mozilla.
@@ -45,6 +46,7 @@ hr = Se-Croatia
 hy-AM = Se-Armania
 hyw = Se-Armenia sa Bophirima
 lij = Se-Liguria
+lt = Se-Lithuania
 my = Se-Burma
 om = Se-Afaan Ormoo
 pa-IN = Se-Punjabi
@@ -288,7 +290,9 @@ how-does-it-work-text = Re batla tshedimosetso ya batho ba bantsi ya mantswe. Ab
 about-new-lang-subtitle = Re simolola webosaete ya Common Voice ka puo eno.
 about-speak = Bua
 about-speak-text = Batsayakarolo ba gatisa mantswe a bone ka go bala mo bontsintsing jwa mela e e abilweng.
+about-listen-queue = Mola wa theetso
 about-listen-queue-text = Dikgatiso tsa mantswe di tsena mo moleng wa go romelwa o o dirang gore di siamele go reediwa.
+about-listen = Reetsa
 about-listen-text = Badirisi ba tlhomamisa gore a direkoting tse go abalanweng ka tsone di nepagetse, ba tlhola gore a sebui se bala mela sentle.
 about-is-it-valid-text = Kgatiso ya lentswe e tshwaiwa e "siame" fa modirisi a e neile tlhopho ya Ee.
 about-yes-votes-text = Gore kgatiso ya lentswe e tsene mo rekotong ya tshedimosetso ya Common Voice, e tshwanetse ya bo e tlhomamisitswe ke badirisi ba babedi.
@@ -491,6 +495,7 @@ sentences = Dipolelo
 ## Contribution
 
 action-click = Tobetsa
+listen = Reetsa
 skip = Tlola
 shortcuts = Ditlhabanyetso
 goal-help-recording = O thusitse Common Voice gore e fitlhelele <goalPercentage></goalPercentage> ya maikaelelo a rona a letsatsi a go gatisa { $goalValue }!
@@ -546,6 +551,7 @@ not-receiving-emails-info = Gone jaanong o dirile gore o <bold>SE KA</bold> wa a
 confirm-goal = Tlhomamisa Maikaelelo
 goal-interval-weekly = Ka Beke
 share-goal-type-speak = E a bua
+share-goal-type-listen = O reeditse
 # LINK will be replaced with the current URL
 goal-share-text = Ke fetsa go dira maikaelelo a botho a go abelana ka lentswe go #CommonVoice -- dira le nna mme o nthuse go ruta metšhine  gore batho ba mmatota ba bua jang { $link }
 
