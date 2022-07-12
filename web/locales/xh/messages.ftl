@@ -24,6 +24,10 @@ error-something-went-wrong = Uxolo, kukho into engahambanga kakuhle
 
 ## Languages
 
+ab = iAbkhaz
+ace = iAcehnese
+ady = i-Adyghe
+af = IsiAfrikansi
 arn = iMapudungun
 cak = iKaqchikel
 ckb = iCentral Kardish
@@ -179,6 +183,7 @@ zu = IsiZulu
 speak = Thetha
 speak-now = Thetha ngoku
 datasets = Iiseti zeDatha
+about = Malunga
 profile = Iprofayili
 help = Uncedo
 contact = Umqhagamshelwa
@@ -327,6 +332,8 @@ profile-form-language =
 profile-form-variant =
     .label = Loluphi ulwimi olwahlukileyo { $language } oluthethayo?
 profile-form-variant-default-value = Akukho mahluko ukhethiweyo
+profile-form-accent =
+    .label = Ilizwi
 profile-form-custom-accent-help-text =
     .label = Ungayichza njani i-accent yakho?
 profile-form-custom-accent-placeholder-2 = Qalisa ukuchwetheza ukuchaza isivakalisi sakho
@@ -736,6 +743,7 @@ contact-form-name =
     .label = Igama
 contact-form-message =
     .label = Umyalezo
+contact-required = Iyafuneka
 
 ## Request Language Modal
 
@@ -1063,6 +1071,7 @@ card-button-next = Elandelayo
 demo-language-select-label = Bhrawuza iiLwimi
 demo-eofy-header = Ukukhutshwa kokuphela konyaka ka-2019
 demo-eofy-sub_header = Iseti yedatha yelizwi, ilungele ukuKhutshelwa
+demo-account = Iakhawunti
 
 ## Demo Account
 
@@ -1148,6 +1157,7 @@ see-less = <chevron></chevron> Bona okuncinci
 
 sc-header-home = Ekhaya
 sc-header-how-to = Kwenziwa-njani
+sc-header-add = Yongeza
 sc-header-review = Uphononongo
 sc-header-rejected = Izivakalisi ezikhatywayo
 sc-header-my = Izivakalisi zam
