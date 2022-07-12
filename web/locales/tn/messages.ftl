@@ -201,6 +201,7 @@ wall-of-text-second =
     Batho ba bantsi ga ba kgone go fitlhelela bontsi jwa tshedimosetso e e dirisiwang ke dikhampani tse dikgolo. Re akanya
     gore seo se kgoreletsa go tlhama dilo. Ka jalo re simolotse Common Voice, porojeke e e thusang gore
     mongwe le mongwe a kgone go bona le go fitlhelela temogo ya mantswe.
+show-wall-of-text = Bala mo go Oketsegileng
 help-us-title = Re thuse go tlhomamisa mela!
 help-us-explain = Tobetsa tshameka, reetsa & re bolelele: a ba buile mola o o fa tlase ka tsela e e nepagetseng?
 no-clips-to-validate = Go lebega go se na dikgatiso dipe tse di tlhokang go reediwa mo puong eno. Re thuse go di oketsa ka go rekota dingwe gone jaanong.
@@ -293,6 +294,7 @@ shortcut-vote-no = n
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-record-toggle = r
 shortcut-record-toggle-label = Rekota/Emisa
+shortcut-rerecord-toggle-label = Dira dikgatiso gape
 shortcut-discard-ongoing-recording-label = Latlha go rekota go ntseng go tswelela
 shortcut-submit = Busetsa
 shortcut-submit-label = Romela dikgatiso
@@ -300,6 +302,7 @@ request-language-button = Kopa Puo
 
 ## ProjectStatus
 
+status-title = Seemo sa porojeke ka kakaretso: bona gore re tswa kgakala jang!
 status-contribute = Abelana ka Lentswe la Gago
 status-hours =
     { $hours ->
@@ -366,6 +369,7 @@ gravatar_not_found = Ga go a bonwa setshwantsho sepe se se amanang le imeile ya 
 file_too_large = Faele e e tlhophilweng e kgolo thata
 avatar-uploaded = Setshwantsho se tsentswe
 max-file-size = { $kb }kb bogolo
+remove-avatar = Ntsha Setshwantsho
 
 ## Profile - Email
 
@@ -644,6 +648,7 @@ size-gigabyte = GB
 size-megabyte = MB
 confirm-no-identify = <b>O dumela</b>go sa leke go lemoga boikitsiso jwa babui ba ba mo rekotong ya tshedimosetso ya Common Voice
 validated-hours = Diura Tse di Tlhomamisitsweng
+recorded-hours = Diura Tse di Kgatisitsweng
 whats-inside = Ke eng se se mo rekotong ya tshedimosetso ya Common Voice?
 dataset-description-hours =
     Matseno mangwe le mangwe mo tshedimosetsong a na le MP3 e e tlhomologileng le faele e e tsamaisanang le yone ya mokwalo. Bontsi jwa diura tse <b>{ $total }</b> tse di gatisitsweng mo tshedimosetsong le tsone di akaretsa tshedimosetso ya dipalopalo jaaka dingwaga, bong, le segalo se se ka thusang go thapisa go nepa ga dithulaganyo tse di lemogang mantswe.
@@ -868,6 +873,7 @@ stats = Dipalopalo
 awards = Dikgele
 you = Wena
 top-contributors = Baabi ba ba Kwa Godimo
+recorded-clips = Dikgatiso
 validated-clips = Dikgatiso Tse di Tlhomamisitsweng
 set-visibility = Dira gore ke bonale
 visibility-explainer = Seting eno e laola tsela e o bonang lenaane la baetapele ka yone. Fa e fitlhegile, kgatelopele ya gago e tla nna ya poraefete. Seno se raya gore setshwantsho sa gago, leinatiriso la gago le kgatelopele ya gago ga di kitla di bonala mo lenaaneng la baetapele. Ela tlhoko gore go tlhabolola lenaane la baetapele go tsaya metsotso e le ~{ $minutes } go bontsha diphetogo.
@@ -972,6 +978,7 @@ download-recently-requested = O ka kopa go ntsha dikgatiso tsa gago malatsi mang
 download-size = Bogolo
 download-selected = E tlhophilwe
 download-start = Itseele tshedimosetso ya porofaele
+download-request = Kopa dikgatiso
 download-requests = Dikopo tsa go itseela dikgatiso tse di fetileng
 download-requests-info = Fa o kopa dikgatiso tsa gago, re di kopanya go di dira faele e le nngwe kgotsa di le mmalwa tsa ZIP. Tseno ke dikopo tsa gago tsa nako e e fetileng.
 download-request-description = Dikgatiso tsa mantswe tse { $clipCount }, bogolo jotlhe jwa akhaefe { $size }. E felelwa ke nako { $expires }.
@@ -1073,6 +1080,7 @@ contribution-background-voices-example-1-title = Di-dinosaur tse dikgolo tsa Tri
 contribution-background-voices-example-1-explanation = A o etla? <strong>[called by another]</strong>
 contribution-volume-title = Bolumo
 contribution-volume-description = Go tla nna le dipharologano tsa tlholego mo bolumong ya babadi. Gana fela fa bolumo e le kwa godimo thata mo kgatiso e kgaogang, kgotsa (se se tlwaelegileng thata) fa e le kwa tlase thata mo o sa utlweng se se buiwang kwantle ga go leba se se kwadilweng.
+contribution-reader-effects-title = Seabe sa Mmadi
 contribution-reader-effects-description = Dikgatiso tse dintsi ke tsa batho ba ba buang ka lentswe la bone la tlholego. O ka amogela kgatiso nngwe e e sa tlwaelegang ya go goa, go seba, kgotsa e e buiwang ka tsela e e ‘kgatlhang’. Tsweetswee gana dikgatiso tse go opelwang le tse di dirisang lentswe le le dirilweng ka khomputara.
 contribution-just-unsure-description = Fa o kopana le sengwe se dikaelo tseno di sa bueng ka sone, tsweetswee tlhopha go ya ka tsela e e molemolemo e o e akanyang. Fa tota o sa kgone go dira tshwetso, dirisa konopo ya go tlola mme o ye kwa kgatisong e e latelang.
 see-more = <chevron></chevron>Bona tse di oketsegileng
@@ -1089,8 +1097,10 @@ sc-header-home = Tsebe ya Tshimologo
 sc-header-how-to = Nka dira jang
 sc-header-add = Tsenya
 sc-header-review = Sekaseka
+sc-header-rejected = Mela e e Gannweng
 sc-header-statistics = Dipalopalo
 sc-header-profile = Porofaele
+sc-footer-report-bugs = Bega Dibaerase
 sc-footer-translate = Ranola tsebe eno
 sc-footer-report-copyright = Bega mathata a tetlokhopi
 sc-footer-privacy = Bosephiri
@@ -1159,6 +1169,7 @@ sc-my-deleting = E phimola dipolelo tse di tlhophilweng...
 
 ## REJECTED
 
+sc-rejected-title = Mela e e Gannweng
 sc-rejected-loading = E tsenya dipolelo tse di gannweng...
 sc-rejected-none-found = Ga go a fitlhelwa dipolelo dipe tse di gannweng!
 
@@ -1177,6 +1188,7 @@ sc-stats-summary = Kgobokanyo ya Mela ya Common Voice e setse e kgobokantse mela
 sc-submit-err-select-lang = Tsweetswee tlhopha puo.
 sc-submit-err-add-sentences = Tsweetswee tsenya dipolelo.
 sc-submit-err-add-source = Tsweetswee tsenya motswedi.
+sc-submit-err-confirm-pd = Tsweetswee tlhomamisa gore mela eno e mo lefelong la botlhe.
 sc-submit-prompt =
     .message = Mela ga ya romelwa, a o tlhomamisegile gore o batla go tswa?
 sc-submit-title = Tsenya Dipolelo
