@@ -19,6 +19,7 @@ error-something-went-wrong = Pfarelo, hu na zwi songo tshimbilaho zwavhuḓi
 ## Languages
 
 sat = Santali (Ol Chiki)
+zh-HK = Chinese (Hong Kong)
 
 # [/]
 
@@ -28,6 +29,7 @@ sat = Santali (Ol Chiki)
 content-license-text = Mafhungo a wanala kha <licenseLink>Creative Commons ḽaisentsi</licenseLink>
 share-title = Ri thuseni u wana vhaṅwe vhane vha nga nikela nga maipfi avho!
 share-text = Thusani u gudisa mitshini uri vhathu vhavhukuma vha ambisa hani, nikelani nga ipfi ḽaṋu { $link }
+back-top = Humelani nṱha
 
 ## Home Page
 
@@ -504,6 +506,7 @@ login-to-get-started = Ḽogani kana sign up uri ni kone u thoma
 target-segment-first-card = Ni khou shela mulenzhe kha tshipiḓa tsha tshipikwa tshashu tsha u thoma
 target-segment-generic-card = Ni khou shela mulenzhe kha tshipiḓa tsha tshipikwa
 target-segment-first-banner = Ri thuseni u ita tshipikwa tsha tshipiḓa tsha u thoma tsha Common Voice kha { $locale }
+target-segment-add-voice = Pangani ipfi ḽaṋu
 
 ## Reporting
 
@@ -588,6 +591,7 @@ why-delete-recordings =
 download-q = Ni khou tea u downḽoda data dzaṋu?
 download-info = Ri vhudzeni zwine na nga tama u zwi downḽoda:
 download-profile-info = U katela email, username na zwidodombedzwa zwa muthu, zwi a wanala nga u ṱavhanya
+download-profile-size = Bytes dzi si gathi
 download-recordings-info = Zwi katela mp3 na mitaladzi i tshimbidzanaho nadzo, zwi nga dzhia tshifhinga u zwi lugiselela
 download-recordings-unavailable = Ni nga si kone u humbela zwe na rekhoda ngeno hu tshi kha ḓi vha na zwiṅwe zwe na zwi humbela zwi re nḓilani.
 download-recently-requested = Ni nga humbela uri ni dzhie zwe na rekhoda { $days } ḓuvha ḽiṅwe na ḽiṅwe.
@@ -618,6 +622,7 @@ demo-welcome-subheader = Naa ni a takalela u guda zwinzhi na u shela mulenzhe kh
 
 demo-language-select-card-header = Common Voice ndi dataset khulwanesa ya nnyi na nnyi i re hone shangoni ḽoṱhe, ine ya vha nga maipfi a re nga nyambo nnzhi.
 demo-language-select-card-body = Ri livhuwa vhathu vho shelaho mulenzhe vha fhiraho 259k u bva kha nyambo dzi fhiraho 50, yeneyi data i khou shumiselwa u gudisa app dzi ḓivhaho ipfi uri dzi kone u fhindula khwine ipfi ḽa muthu.
+demo-eofy-header = 2019 riḽiziwaho mafheloni a nwaha
 demo-eofy-sub_header = Dataset ya Maipfi, yo Lugelwa u Downḽodiwa
 
 ## Demo Account
@@ -706,6 +711,7 @@ sc-languages-fetch-error = Ro balelwa u dzhia nyambo dzi re hone. A zwi konadzei
 
 sc-howto-addlang-title = Pangani nyambo dzine na ḓo shuma ngadzo
 sc-howto-addlang-text = Musi no ḽoga kha akhantu yaṋu ni nga nanga nyambo dzaṋu kha tshipiḓa tsha profaiḽi.
+sc-howto-addsen-title = Pangani mitaladzi miswa
 sc-howto-addsen-item-1 = Mitaladzi yoṱhe ye na i rumela i tea u vha <wikipediaLink>Fhethu ha Tshitshavha Tshoṱhe (CC-0) ḽaisentsi</wikipediaLink>. U itela u tikedza u katelwa ha mushumo u si ho fhasi ha ḽaisentsi ya nnyi na nnyi, ro ita <cc0WaiverLink>themphuḽethi ya Thendelano ya u Shela mulenzhe </cc0WaiverLink> kha mushumo une muthu a re na kopi ya vhuṋe a ṱoḓa u nikela ngawo kha Common Voice.
 sc-howto-addsen-item-2 = Nomboro. Source text a yo ngo tea u vha na dzi nomboro ngauri zwi nga vhanga thaidzo musi dzo vhalelwa nṱha. Nḓila ine nomboro ya vhalwa ngayo zwi ḓitika nga mafhungo a re kha honoyo mutaladzi nahone zwi nga ḓisa nḓaḓo kha dataset. Sa tsumbo, nomboro ya “2409” i nga vhalwa sa “twenty-four zero nine” kana “two thousand four hundred nine” zwoṱhe zwa vha zwi zwone.
 sc-howto-addsen-item-3 = Upfufhifhadzwa na dzi Acronym. Upfufhifhadzwa na dzi acronym dzi ngaho “USA” kana “ICE” zwi tea u iledzwa kha luambo ho thomiwaho u ṅwaliwa ngalwo ngauri dzi nga vhalwa nga nḓila ine i si tshimbidzane na kupeḽeṱelwa kwadzo. Zwiṅwe hafhu, hu na nḓila nnzhi dzo teaho dza u vhala zwo pfufhifhadzwaho. Sa tsumbo, acronym ine ya pfi “ICE” i nga bulwa sa “I-C-E” kana sa ipfi ḽithihi.
