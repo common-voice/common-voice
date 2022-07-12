@@ -440,6 +440,7 @@ faq-why-important-a =
     
     Ukwenza ukuqoshwa kwamazwi butholakale jikelele, siqoqa iziqephu zamazwi angezilimi ezikhulunywa ngokubanzi nalezi ezikhulunywa imiphakathi emincinyane ezingavamisanga ukunakwa ezohwebo zokuqoshwa kwamazwi. Ukushicilela ulwazi oluqoqiwe olubanzi lwamazwi kuzoxhasa onjiniyela, osomabhizinisi nayo yonke imiphakathi yezindlela zokuxhumana ukunciphisa lesikhala.
 faq-how-get-q = Ngingayithola kanjani idatha yeCommon Voice?
+faq-how-get-a = Idathasethi yeCommon Voice iyatholakala ku <licenseLink>CC0</licenseLink> ilayisense ku <datasetLink>ikhasi lolwazi lethu oluqoqiwe</datasetLink>. Ungakwazi nokuzifakela olunye lolwazi oluqoqiwe oluthokala kulo leli khasi.
 faq-when-release2-q = Uzoyikhulula nini idatha yeCommon Voice ngezinye izilimi?
 faq-when-release2-a = Idathasethi yohlobo yezilimi eziningi yeCommon Voice okwamanje ihlanganiswa nokuhlanzwa okusekelwa umphakathi. Uma ungathanda ukusisiza ukuthi silethe Izwi Elivamile ezilimini ezintsha, hamba uhlole <sentenceCollectorLink>Ithuluzi Lokuqoqa Imisho</sentenceCollectorLink> ukuze ungeze imisho emisha kudathasethi, kanye ne-Mozilla <pontoonLink>Pontoon</pontoonLink> ukuze uhumushe iwebhusayithi. uqobo. Izilimi ezintsha zengezwa ku-Common Voice ukuze kufakwe izwi lapho imisho egunyaziwe engu-5000 isiqoqiwe.
 faq-why-mission-q = Kungani i-Common Voice iyingxenye yemishini ye-Mozilla?
@@ -551,6 +552,7 @@ about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Buka
 about-playbook-how-add-language-translating-content-2 = Sisebenzisa ithuluzi leMozilla elibizwa <pontoonLink>Pontoon</pontoonLink> lokuhumusha. IPontoon inezilimi eziningi, kodwa uma elakho lingekho ungs <pontoonRequestLink>cela ulimi lakho lwengezwe</pontoonRequestLink>. Ukwenza ulimi lakho lutholakale kwiprojekthi yeCommon Voice, <githubRepoLink>cela ulimi olusha kuGitHub</githubRepoLink>. <localizationFragment>Bheka okunye ngokuhumusha</localizationFragment>.
 about-playbook-how-add-language-collecting-sentences-heading = Ukuqoqa imisho
 about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>Bukela umhlahlandlela wethu wokusebenzisa Umqoqi Wemisho</sentenceCollectorVideo>.
+about-playbook-how-add-language-collecting-sentences-content-2 = Ungakwazi <sentenceCollectorLinkAdd>ukufaka imisho embalwa</sentenceCollectorLinkAdd>, noma unga <bulkImportDocsLink>ngenisa inqwaba ngokusebenzisa iGithub</bulkImportDocsLink>. Khumbula ukuthi imisho kufanele ibe <licenseLink>CC0 (noma esizindeni somphakathi)</licenseLink>, noma ungazibhalela eyakho.
 about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>Bona okwengeziwe ngokuqoqwa kwemisho</sentenceCollectorFragment>.
 
 ## How does localization work
@@ -573,6 +575,7 @@ about-playbook-how-add-sentences-content-4 = Imisho eqinisekisiwe ithunyelwa nga
 ## How to record quality
 
 about-playbook-how-record-quality = Ngiqopha kanjani isiqeshana sezwi sezinga eliphezulu?
+about-playbook-how-record-content-1 = Khuluma ngezwi lakho elijwayelekile! Indlela okhuluma ngayo yamukelekile lapha - sifuna indlela ophimisa ngayo njengoba injalo, futhi sifuna ivolumu yakho evamile, isitayela nokuphimbo.
 about-playbook-how-record-content-2 = Gwema umsindo omningi wangemuva - kufanele kube lula ukukuzwa.
 about-playbook-how-record-content-3 = Funda umusho ngokucophelela - ungaphuthi, ungashintshi noma wengeze amagama.
 about-playbook-how-record-content-4 = Qiniseka ukuthi inkundla iyarekhoda ngaphambi kokuthi uqale ukukhuluma, nokuthi iyama kuphela uma usuqedile.
@@ -581,6 +584,7 @@ about-playbook-how-record-content-5 = <accuracyLink>Bona okwengeziwe ngemibandel
 ## How to grow language
 
 about-playbook-how-grow-language = Singalukhulisa kanjani ngokuphumelelayo ulimi ku-Common Voice?
+about-playbook-how-grow-language-content-1 = Ukudala amathuba wokuhlukahlukana kwabantu ukuba baxhase iCommon Voice kuqiniseka ukuthi ulwazi oluqoqiwe lusiza abantu abaningi. Sidale izinsiza nezifanekiso ongakwazi ukuzisebenzisa!
 about-playbook-how-grow-language-content-2 = Imicimbi
 about-playbook-how-grow-language-content-3 = Ungakwazi ukuqhuba imicimbi ukunceda abantu ukuba baxhase. Kulula kunalokhu okucabangayo. Ungakwenza lokhu  ku-inthanethi ngethuluzi lenkomfa yevidiyo, noma wena siqu sakho uma kuphephile. <eventTemplate>Bheka izifanekiso nezinsiza zethu zokuqhuba imicimbi</eventTemplate>.
 about-playbook-how-grow-language-content-4 = Izinkundla zokuxhumana
@@ -751,6 +755,7 @@ other-language = Olunye Ulimi
 ## Request Language Pages
 
 request-language-heading = Buza ngolimi olusha
+request-language-explanation-1 = Hlola ukuthi ulimi lakho libaliwe ku <languagesPageLink> ikhasi lezilimi kuCommon Voice</languagesPageLink>. Uma lungekho ulimi lakho, gcwalisa lelifomu, thina sizo <strong> kuthumela i-emeyili echaza ukuthi ungalufaka kanjani ulimi lwakho</strong>.
 request-language-explanation-2 =
     Sizokwazisa <strong>nomphathi wethu womphakathi
     ukuthi unentshisekelo</strong>, ngakho bangakunikeza noma ikuphi
@@ -1071,6 +1076,7 @@ demo-account = I-akhawunti
 ## Demo Account
 
 demo-account-card-header = Ukuba ne-akhawunti akudingekile ukuthi unikele, nakuba kuwusizo.
+demo-account-card-body = Ngakwesokudla sichaza izinzuzo futhi sicacise ukuthi yiluphi ulwazi esilwenza lube esidlangalaleni. Sebenzisa izixhumanisi ezingezansi ukuze uqalise nge-akhawunti ye-Common Voice kudivayisi yakho.
 demo-account-enter-email =
     .label = Faka i-imeyili ukuze uthumele isixhumanisi sokubhalisa
 demo-account-sign-up = Thumela isixhumanisi sokubhalisa
