@@ -108,12 +108,14 @@ why-profile-title = Kutheni kufuneka iProfayile?
 why-profile-text =
     Ngokubonelela ngolwazi malunga nawe, idatha yesandi oyithumelayo kwi-Common Voice iya kuba luncedo ngakumbi kwiNtetho
     Iinjini zokuqaphela ezisebenzisa le datha ukuphucula ukuchaneka kwazo.
+profile-create-success = Iphumelele, iprofayile yenziwe!
 profile-explanation = Gcina umkhondo wenkqubela yakho ngeprofayile kwaye uncede idatha yethu yelizwi ichaneke ngakumbi.
 thanks-for-account = Enkosi ngokuqinisekisa i-akhawunti yakho, ngoku masikhe iprofayile yakho.
 why-demographic = Kutheni lento ibalulekile?
 why-demographic-explanation-2 = Iincukhaca ezingachazwanga njengeminyaka, isini, kunye ne- accent zinceda ukuphucula idatha yesandi esetyenziswayo ukuqeqesha ukuchaneka kweenjini zokuqondwa kwentetho. Igama lomsebenzisi lakho kunye ne-imeyile soze linxulunyaniswe nedatha oyingenisileyo, kwaye unokukhetha ukuba wenze igama lomsebenzisi lakho lifikelele ku-wonke wonke okanye lingaziwa.
 accept-privacy = Ndilungile ngokuphatha olu lwazi njengoko luchazwa <privacyLink>Kumgaqo-nkqubo</privacyLink> weMozilla
 login-signup = Ngena / Bhalisa
+skip-submission-feedback = Tsiba iNgxelo yokuNgenisa
 skip-submission-description = Ngexesha lokungeniswa kogalelo ingxelo iya kutsitywa emva kokucofa u-'Thumela'. Ugalelo luya kuqhubeka ngokuthe ngqo kunye nesethi elandelayo yorekhodo oluhlanu okanye ukuqinisekiswa.
 skip-submission-note = Qaphela: Kusafuneka ukhethe phakathi kokuThetha okanye ukuMamela ukutshintsha uhlobo lomnikelo.
 help-accent = Udinga uncedo nge-accent?
@@ -187,6 +189,7 @@ faq-what-determine-identity-a =
     I-Common Voice dataset sisixhobo esamkelayo nesifumanekayo emntwini wonke esingasetyenziselwa ukuqeqesha i-apps gabalala ezakhelwe intetho. Ukugcina ukhuseleko (ukugcina abaxhasi bethu bekhuselekile)lwabaxhasi bethu, sicela wonke umntu okhuphela I-Common Voice dataset ukuba ahloniphe imfihlo yabaxhasi.
     Zonke ikliphu ezikwi dataset zisusiwe ulwazi lobuqu oluchaza umntu ngamnye. Xa ukhuphela i-dataset, uyavuma ukuba awungekhe ulinge ukufumanisa ukuba ngubani na nawuphi na umxhasi. Oko kuthetha ukuba awunakuzama ukudibanisa ulwazi olukwi dataset kulwazi lomntu siqu lomxhasi. Nangona kunjalo, ungathi usebenzise isethi yedatha ukuqeqesha i-speech recognition, ukuqondwa kwesithethi, okanye ezinye iinkqubo, ngomzekelo, ngokunxibelelanisa ulwazi olukwidathabheyisi nolunye ulwazi olusele lukwi dataset.
 faq-what-is-cv = Yintoni iCommon Voice?
+faq-using-cv = Usebenzisa iCommon Voice
 faq-description = Icommon Voice yinxalenye yenyathelo likaMozilla lokunceda ukufundisa oomatshini indlela abantu bokwenyani abathetha ngayo.
 
 ## ABOUT US
@@ -247,6 +250,7 @@ about-playbook-how-add-language-content-1 =
     Okokuqala, khangela ukuba ulwimi lwakho <languageLink>selukhona na</languageLink>.
     Ukuba akunjalo, unako <languageRequestLink>ukubuza malunga nokongeza ulwimi lwakho</languageRequestLink>.
     Kukho izigaba ezibini. Isayithi yokuguqulela, kunye nokuqokelela izivakalisi.
+about-playbook-how-add-language-translating-heading = Guqulela le-site
 about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Jonga isikhokelo sethu sendlela yokusebenzisa iPontoon.</translateVideoLink>
 about-playbook-how-add-language-translating-content-2 =
     Sisebenzisa isixhobo seMozilla esibizwa <pontoonLink>Pontoon</pontoonLink> ukuguqulela. IPontoon ineelwimi ezininzi,
@@ -317,7 +321,7 @@ about-playbook-how-project-governance-content-2 = Ulawulo lwethu lusekwe kwezi n
 about-playbook-how-project-governance-content-3 = Ubumfihlo, ukhuseleko kunye nokungafihli.
 about-playbook-how-project-governance-content-4 = Ukuthatha inxaxheba koluntu kunye nokwenza izigqibo.
 about-playbook-how-project-governance-content-5 = Ixabiso kunye nokuqatshelwa.
-about-playbook-how-project-governance-content-7 = <governanceLink>Read more about how we're governed</governanceLink>
+about-playbook-how-project-governance-content-7 = <governanceLink>Funda ngakumbi malunga nendlela esilawulwa ngayo</governanceLink>
 
 ## Glossary
 
@@ -454,9 +458,12 @@ record-error-too-short = Irekhodingi ibimfutshane kakhulu
 record-error-too-long = Irekhodingi ibinde.
 record-error-too-quiet = Irekhodingi ibithule.
 record-instruction = { $actionType }<recordIcon></recordIcon>  emva koko ufunde isivakalisi ngokuvakalayo
+record-three-more-instruction = Kusheke ezintantu!
 record-again-instruction = Kuhle!<recordIcon></recordIcon> Rekhoda ikliphu yakho elandelayo
 record-again-instruction2 = Qhuba njalo, rekhoda kwakhona <recordIcon></recordIcon>
 review-tooltip = Hlaziya kwaye urekhode iikliphu kwakhona apha njengoko uhamba
+share-clip = Yabela ikliphu yakho
+share-common-voice = Yabelana ngeCommon Voice
 review-instruction = Phonononga kwaye urekhode kwakhona iiklip ukuba kuyafuneka
 record-abort-text = Ukuhamba ngoku kuthetha ukuba uyakuphulukana nenkqubela phambili yakho
 record-abort-delete = Phuma kwaye uCime iikliphu
@@ -471,7 +478,7 @@ speak-empty-state = Siphelelwe ziikliphu zokurekhoda kolu lwimi...
 speak-loading-error =
     Asikwazanga ukufumana izivakalisi ukuba uthethe. 
      Nceda uzame kwakhona kamva.
-share-title-new = <bold>Help us</bold> fumana amazwi amaninzi
+share-title-new = <bold>Ncedisana nathi</bold> fumana amazwi amaninzi
 keep-track-profile = Gcina umkhondo wenkqubela yakho ngeprofayile
 login-to-get-started = Ngena okanye ubhalise ukuze uqalise
 target-segment-first-card = Uncedisa kwisegmenti yethu yokuqala ekujoliswe kuyo
@@ -480,6 +487,7 @@ target-segment-first-banner = Nceda wenze icandelo lokuqala ekujoliswe kulo leCo
 
 ## Reporting
 
+report-title = Ngenisa ingxelo
 report-ask = Yeyiphi imiba onayo ngesi sivakalisi?
 report-offensive-language-detail = Isivakalisi sinolwimi olukrwada okanye olukhubekisayo.
 report-grammar-or-spelling = Impazamo yegrama/ yopelo
@@ -494,10 +502,12 @@ report-success = Ingxelo ipasiswe ngempumelelo
 
 ## Dashboard
 
+toward-next-goal = Ukuya kwinqaku elilandelayo
 todays-recorded-progress = Inkqubela yanamhlanje yeCommon Voice kwiikliphu ezirekhodiweyo
 todays-validated-progress = Inkqubela yanamhlanje yeCommon Voice kwiikliphu iqinisekisiwe
 visibility-explainer = Olu seto lulawula ukubonakala kwebhodi yabaphambili. Xa ufihliwe, inkqubela yakho iya kuba yeyabucala. Oku kuthetha ukuba umfanekiso wakho, igama lomsebenzisi lakho kunye nenkqubela phambili ayizukubonakala kwi-leaderboard. Qaphela ukuba uhlaziyo lwe-leaderboard luthatha imizuzu ~{ $minutes } ukuqokelela utshintsho.
 visibility-overlay-note = Qaphela: Xa imiselwe 'Iyabonakala', olu seto lungatshintshwa ukusuka kwi <profileLink>Profayile</profileLink>
+show-ranking = Bonisa umgangatho wam
 
 ## Custom Goals
 
@@ -543,12 +553,14 @@ help-share-goal = Sincede sifumane amazwi amaninzi, yabelana nenjongo yakho
 share-n-daily-contribution-goal = Yabelana ngeyakho { $count } Ikliphu ngeNjongo yosuku lwe { $type }
 # $type is one of share-goal-type-*
 share-n-weekly-contribution-goal = Yabelana ngeyakho { $count } Ikliphu ngeNjongo yosuku lwe { $type }
+share-goal-type-both = Ukuthetha nokuMamela
 # LINK will be replaced with the current URL
 goal-share-text = Ndisandula ukwenza injongo yam yokunikela ngelizwi kwi #CommonVoice--ndijoyine kwaye uncede ukufundisa oomatshini indlela abantu bokwenyani abathetha ngayo { $link }
 weekly-goal-created = Injongo yakho yeveki yenziwe
 daily-goal-created = Injongo yakho yemihla ngemihla yenziwe
 track-progress = Khuphela inkqubela phambili apha nakwiphepha lakho le-Stats.
 return-to-edit-goal = Buyela apha ukuze uhlele injongo yakho nangaliphi na ixesha.
+share-goal = Yabelana ngenjongo yam
 
 ## Profile Delete
 
@@ -613,6 +625,7 @@ demo-dashboard-card-body = Kwikliphu nganye yelizwi ekunikelwe ngayo, kunye nekl
 
 ## Validation criteria
 
+contribution-criteria-link = Qonda iindlela zokunikela
 contribution-criteria-page-description = Qonda into omawuyijonge xa umamele iiklip zelizwi kwaye uncede wenze urekhodo lwelizwi lakho lutyebe!
 contribution-misreadings-description = Xa uphulaphule, khangela ngenyameko enkulu ukuba oko kurekhodiweyo kuyiloo nto kanye ebhaliweyo na; yala ukuba kukho iimpazamo ezincinci. <br /> Iimpazamo eziqhelekileyo zibandakanya:
 contribution-misreadings-description-extended-list-1 = Kushota i<strong>'A'</strong> okanye <strong>'The'</strong> ekuqaleni kwerekhodingi.
@@ -658,6 +671,7 @@ contribution-just-unsure-description = Ukuba ufumana into engaqukwanga kwezi zik
 
 ## HEADER/FOOTER
 
+sc-footer-translate = Guqulela eliphepha
 
 ## HOME
 
