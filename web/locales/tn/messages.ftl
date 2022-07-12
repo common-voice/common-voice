@@ -9,6 +9,7 @@ email-opt-in-info = Nka rata go amogela diimeile tse di jaaka dikgopotso tsa mai
 email-opt-in-info-title = Nna karolo ya lenaane la thomelo ya melaetsa la Common Voice
 email-opt-in-info-sub-with-challenge = Amogela diimeile tse di jaaka dikgwetlho le dikgopotso tsa maikaelelo, ditlhabololo tsa kgatelopele, le makwalodikgang a Common Voice.
 email-opt-in-privacy-v2 = Ka go tlhopha go amogela diimeile o bontsha gore o siame ka gore Mozilla e tshware tshedimosetso eno jaaka go tlhalosiwa mo <privacyLink>Pholising ya Polokodiphiri</privacyLink>ya Mozilla.
+indicates-required = Dikarolo tse di tshwailweng ka naletsana (*) di a tlhokega.
 not-available-abbreviation = Ga e yo
 banner-error-slow-1 = Tshwarelo, Common Voice e bonya. Re lebogela go bontsha kgatlhego ga gago.
 banner-error-slow-2 = Re itemogela pharakano e ntsi mme gone jaanong re batlisisa ka mathata ao.
@@ -179,6 +180,7 @@ contact = Ikgolaganye
 privacy = Bosephiri
 terms = Melawana
 content-license-text = Diteng di gone mo <licenseLink> laesenseng ya Creative Commons</licenseLink>
+share-title = Re thuse go bona ba bangwe gore ba abelane ka mantswe a bone!
 share-text = Thusa go ruta metšhine  gore batho ba mmatota ba bua jang, abelana ka lentswe la gago mo { $link }
 link-copied = Linki e Kopolotswe
 back-top = Boela Kwa Godimo
@@ -403,6 +405,7 @@ faq-why-important-a =
     Gantsi puo ke tsela ya tlholego e re buisanang ka yone mme dithekenoloji tsa lentswe di tlisa seo mo dikhomputareng le mo megaleng ya rona ya letheka. Re batla go matlafatsa badiri gore ba dire dithulaganyo tse di kgatlhang tsa go lemoga mantswe jaaka baranodi ba mmatota le bathusi ba thekenoloji ba mantswe. Mme gone jaanong bontsi jwa tshedimosetso ya mantswe e e tlhokegang go dira dithulaganyo tseno e a tura e bile ke tsa poraefete. Re solofela gore tshedimosetso ya Common Voice e tla naya badiri se ba se tlhokang go tlhama le go dira gore thekenoloji ya puo e nne teng ka leleme la bone.
     
     Go dira gore go lemoga mantswe e nne selo se se tlwaelegileng thata, re kgobokanya disampole tsa mantswe mo dipuong tse di buiwang thata mmogo le babui ba palo e potlana ba gantsi ba tseelwang kwa tlase ke ditirelo tsa kgwebo tsa go lemoga mantswe. Go phasalatsa tshedimosetso ya mantswe a a farologaneng go tla matlafatsa badiri, bagwebi, le batho botlhe ka kakaretso gore ba samagane le bothata jono ka bobone.
+faq-how-get-q = Nka bona jang tshedimosetso ya Common Voice?
 faq-how-get-a = Tshedimosetso ya Common Voice e ka itseelwa mo laesenseng ya <licenseLink>CC0</licenseLink> mo <datasetLink>tsebeng ya rona ya Tshedimosetso</datasetLink>. Gape o ka itseela tshedimosetso e nngwe e e leng teng mo go yone tsebe eo.
 faq-when-release2-q = Lo tla golola leng tshedimosetso ya Common Voice ka dipuo tse dingwe?
 faq-when-release2-a = Ga jaana karolo ya dipuo tse dintsi ya tshedimosetso ya Common Voice e kgobokanngwa le go phepafadiwa ke morafe. Fa o batla go re thusa go tlisa Common Voice mo dipuong tse disha, leba <sentenceCollectorLink>Thulusu ya go Kgobokanya Dipolelo</sentenceCollectorLink> go tsenya dipolelo tse disha mo tshedimosetsong, le Mozilla <pontoonLink>Pontoon</pontoonLink> go ranola webosaete ka boyone. Dipuo tse disha di tsenngwa mo Common Voice go aba mantswe fa dipolelo tse di dumeletsweng di le 5000 di kgobokantswe.
@@ -621,6 +624,7 @@ error-content-503 = Webosaete e tla bo e boetse mo maemong ka bonako jo bo kgone
 
 data-download-button = Itseele Tshedimosetso ya Common Voice
 data-download-deny = Nyaa
+data-download-license = Laesense: <licenseLink>CC-0</licenseLink>
 data-download-modal = O tloga o simolola download ya <size>{ $size }GB</size>, a o a tswelela?
 data-subtitle = Re aga rekoto ya tshedimosetso ya mantswe e mongwe le mongwe a ka e dirisang go thapisa dithulaganyo tse di kgonang go dirisa mantswe.
 data-explanatory-text = Re dumela gore tshedimosetso e kgolo le e e phasaladitsweng ya mantswe e rotloetsa go tlhama le kgaisano ya kgwebo mo thekenolojing e e ikaegileng ka go ithuta ga metšhine. Ano ke matsapa a lefatshe lotlhe mme re laletsa mongwe le mongwe go tsaya karolo. Boikaelelo jwa rona ke go thusa thekenoloji ya go bua gore e akaretse dilo tse dintsi, e bontshe pharologano ya mantswe go ralala lefatshe.
@@ -832,7 +836,9 @@ keep-track-profile = Boloka kgatelopele ya gago ka porofaele
 login-to-get-started = Tsena kgotsa ikwadise go simolola
 target-segment-first-card = O abelana go karolwana ya rona ya ntlha ya puo
 target-segment-generic-card = O abelana go karolwana ya puo
+target-segment-first-banner = Thusa go dira karolwana ya ntlha ya Common Voice ka { $locale }
 target-segment-add-voice = Tsenya Lentswe la Gago
+target-segment-learn-more = Ithute mo go Oketsegileng
 
 ## Reporting
 
@@ -959,6 +965,7 @@ n-clips-pluralized =
             }"
        *[other] *dibidio tse [tse dingwe] { $count }
     }
+help-share-goal = Re thuse go bona mantswe a a oketsegileng, abelana ka maikaelelo a gago
 confirm-goal = Tlhomamisa Maikaelelo
 goal-interval-weekly = Ka Beke
 # $type is one of share-goal-type-*
@@ -1186,6 +1193,7 @@ sc-howto-findpd-partner-2 = Baitseanape ba baitsepuo le bone ba ka thusa, leka g
 
 sc-my-title = Mela ya Me
 sc-my-description = Tsebe eno e go naya dintlhakakaretso tsa dipolelo tsotlhe tse o di rometseng. Gape o ka phimola mela e e rometsweng fa go tlhokega, ka go tshwaya lebokoso gaufi le one le go tobetsa &quot;Phimola polelo e e tlhophilweng&quot; kwa tlase. Tsweetswee tlosa dipolelo fela fa tota go tlhokega, ka sekai, fa o lemoga morago ga ntlha nngwe gore polelo eo e na le tshireletso ya tetlokhopi.
+sc-my-err-fetching = Go nnile le phoso fa go tsewa mela ya gago. Tsweetswee leka gape.
 # Variables:
 #   $batchId (String) - A unique ID identifying the submission of sentences - sentences uploaded together all have the same batch ID
 sc-my-submission = Go romela: { $batchId }
@@ -1194,11 +1202,13 @@ sc-my-submission = Go romela: { $batchId }
 sc-my-source = Motswedi: { $source }
 sc-my-delete = Phimola dipolelo tse di tlhophilweng
 sc-my-deleting = E phimola dipolelo tse di tlhophilweng...
+sc-my-err-failed-delete = Ga re a kgona go phimola mela e e tlhophilweng... Tsweetswee leka gape!
 
 ## REJECTED
 
 sc-rejected-title = Mela e e Gannweng
 sc-rejected-loading = E tsenya dipolelo tse di gannweng...
+sc-rejected-err-fetching = Go nnile le phoso fa go tsewa mela e e gannweng. Tsweetswee leka gape.
 sc-rejected-none-found = Ga go a fitlhelwa dipolelo dipe tse di gannweng!
 
 ## STATS
