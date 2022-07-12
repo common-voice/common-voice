@@ -70,6 +70,7 @@ username-email-not-demographic = Igama lakho lomsebenzisi kunye ne-imeyile aziyi
 
 ## Speak Shortcuts
 
+request-language-text = Awukaluboni ulwimi lwakho kwi-Common Voice okwangoku?
 
 ## ProjectStatus
 
@@ -99,6 +100,8 @@ help-variants-explanation = Ukwahluka-hlukana kulwimi luhlobo oluthile lolwimi- 
 
 ## Profile - Email
 
+email-already-used = I-imeyile sele isetyenziselwa kwi-akhawunti eyahlukileyo
+change-email-setings = Guqula i-imeyile yakho usebenzisa iiSetingi phantsi kwesazisi sokuNgena.
 
 ## FAQ
 
@@ -194,11 +197,13 @@ about-playbook-how-add-language-content-1 =
     Okokuqala, khangela ukuba ulwimi lwakho <languageLink>selukhona na</languageLink>.
     Ukuba akunjalo, unako <languageRequestLink>ukubuza malunga nokongeza ulwimi lwakho</languageRequestLink>.
     Kukho izigaba ezibini. Isayithi yokuguqulela, kunye nokuqokelela izivakalisi.
+about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Jonga isikhokelo sethu sendlela yokusebenzisa iPontoon.</translateVideoLink>
 about-playbook-how-add-language-translating-content-2 =
     Sisebenzisa isixhobo seMozilla esibizwa <pontoonLink>Pontoon</pontoonLink> ukuguqulela. IPontoon ineelwimi ezininzi,
     kodwa ukuba ayinayo eyakho unga <pontoonRequestLink>cela ukuba ulwimi lwakho longezwe</pontoonRequestLink>.
     Ke, ukwenza ulwimi lufumaneke kwiprojekthi yeVoice Common,
     <githubRepoLink>cela ulwimi olutsha kwi-GitHub</githubRepoLink>. <localizationFragment>Bona ngakumbi kwisiza uguqulo</localizationFragment>
+about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>Jonga isikhokelo sethu sokusebenzisa isiqokeleli sezivakalisi</sentenceCollectorVideo>.
 about-playbook-how-add-language-collecting-sentences-content-2 =
     Unako <sentenceCollectorLinkAdd>ukongeza amanani amancinci ezivakalisi</sentenceCollectorLinkAdd>,
     okanye ungenza <bulkImportDocsLink>amanintsi angaphandle usebenzisa iGithub</bulkImportDocsLink>.
@@ -410,6 +415,7 @@ activity-needed-calculation-plural =
         [one] { $clipsPerDay } ikliphu ngelanga
        *[other] { $clipsPerDay } iikliphu ngelanga
     }
+which-goal-type = Ingaba uyafuna ukuthetha, mamela okanye zombini?
 receiving-emails-info = Ngoku usetelwe ukufumana ii-imeyile ezinjengezikhumbuzi zenjongo, uhlaziyo lwam lwenkqubela phambili kunye neeleta zeendaba malunga Common Voice
 not-receiving-emails-info = Ngoku usetelwe u<bold>KUNGA</bold> fumani ii-imeyile ezifana nezikhumbuzi zenjongo, uhlaziyo lwam lwenkqubela phambili kunye neeleta zeendaba malunga ne-Common Voice.
 help-share-goal = Sincede sifumane amazwi amaninzi, yabelana nenjongo yakho
@@ -431,6 +437,7 @@ download-recordings-info = Kubandakanya ii-mp3s kunye nezivakalisi ezinxulumene 
 download-recordings-unavailable = Awukwazi ukucela iirekhodingi zakho ngelixa esinye isicelo sele siqhubeka.
 download-recently-requested = Ungacela uluhlu okutsha lweerekhodi zakho qho emva kweentsuku ezi{ $days }.
 download-requests-info = Xa ucela ushicilelo lwakho, siyaluqokelela lube yifayile yeZIP enye okanye ezininzi.Nazi izicelo zakho zangaphambili:
+download-request-description = Iikliphu zelizwi, ubungakanani obupheleleyo bogcino ezi { $clipCount }  { $size }. Ziphelelwa{ $expires }
 download-request-assembling-description = Iifayile zakho ziyahlanganiswa. Nceda ujonge kwakhona kamva.
 download-request-modal-description = Nazi iilinki zokukhuphela iifayile zakho ze-ZIP.
 download-request-link-single = Unokukopa kwaye uncamathisele ii-URL ezithe ngqo kwindawo yokukhuphela oyithandayo. Ziya kuphelelwa kwiiyure ezili-12, kodwa ungabuyela kweli phepha ukwenza ezintsha nangaliphi na ixesha.
@@ -453,6 +460,8 @@ demo-language-select-card-body = Enkosi kwiminikelo evela kubantu abangaphezu kw
 
 demo-account-card-header = Ukuba ne-akhawunti akufuneki ukuba ubenogalelo, nangona kuluncedo.
 demo-account-card-body = Ekunene sichaza izibonelelo kwaye sicacise ukuba loluphi ulwazi esilwenza lufikeleleke ku wonke-wonke. Sebenzisa amakhonkco angezantsi ukuze uqalise nge akhawunti yeCommon Voice kwisixhobo sakho.
+demo-account-enter-email =
+    .label = Faka i-imeyile yokuthumela ikhonkco lokubhalisa
 
 ## Demo Contribute
 
@@ -473,6 +482,7 @@ contribution-misreadings-description-extended-list-2 = Ilahlekile i <strong> 's'
 contribution-misreadings-description-extended-list-3 = Ukufunda izifinyezo ezingekhoyo ngokwenyani, ezinjengokuthi "We're" endaweni yokuthi "We are", okanye ngokutshintshana.
 contribution-misreadings-description-extended-list-4 = Ukuphoswa sisiphelo segama lokugqibela ngokuqhawula ukurekhoda ngokukhawuleza.
 contribution-misreadings-example-3-explanation = [Ushicelelo luthe lwaqhawuka off phambi kwegama lokugqibela]
+contribution-misreadings-example-4-explanation = [Okurekhodiweyo kungaphaya komlinganiselo wamagama odingekayo]
 contribution-misreadings-example-7-title = Siyokufumana ikofu.
 contribution-varying-pronunciations-description = Lumka ngaphambi kokuba wale ikliphu kuba lowo uthe walifunda engalibizanga ngokungamnkelekanga igama, othe wagxininisa kwindawo engafanelekanga, okanye uye akaluhoya uphawu lombuzo. Kukho iintlobo ngeentlobo zokubizwa kwamagama asetyenziswayo kwihlabathi jikelele, ekusenokwenzeka ukuba awuzange waziva kwindawo ohlala kuyo. Nceda wamkele futhi uxabise abo banokuthetha ngokwahlukileyo kuwe.
 contribution-varying-pronunciations-description-extended = Lumka ngaphambi kokuba wale ikliphu kuba lowo uthe walifunda engalibizanga ngokungamnkelekanga igama, othe wagxininisa kwindawo engafanelekanga, okanye uye akaluhoya uphawu lombuzo. Kukho iintlobo ngeentlobo zokubizwa kwamagama asetyenziswayo kwihlabathi jikelele, ekusenokwenzeka ukuba awuzange waziva kwindawo ohlala kuyo. Nceda wamkele futhi uxabise abo banokuthetha ngokwahlukileyo kuwe.
@@ -480,6 +490,7 @@ contribution-varying-pronunciations-example-1-explanation = [‘Beret’ ulungil
 contribution-varying-pronunciations-example-2-explanation = [‘Ukuphakanyiswa’ ngesiNgesi uhlala ebizwa njengegama elinye, hayi elineziqingatha ezimbini]
 contribution-background-noise-description = Sifuna ukuba umatshini wokufunda i-algorithms ukwazi ukumelana nengxolo eyahluka-hlukeneyo, kunye nengxolo etsholo phezulu inokwamkelwa ukuba ayikuthinteli ukuba uve itext iphela. Umculo ovakalayo ozolileyo ulungile; umculo ongxola ongxola kakhulu de ukukuthintela ukuba ungeva igama negama awamnkelekanga.
 contribution-background-noise-description-extended = Ukuba ushicilelo luyaqhawuka, okanye luziziqendu, lwale ngaphandle kokuba sonke isicatshulwa sinokuviwa.
+contribution-background-noise-example-1-fixed-title = <strong>[Sneeze]</strong> Iidinosaure ezinkulu <strong>[cough]</strong> ze-Triassic.
 contribution-background-voices-description = Ingxolo yangasemva ezolileyo ilungile, kodwa asifuni amazwi ongezelelweyo anokubangela ukuba umatshini uchonge amagama angekho kumbhalo obhaliweyo. Ukuba unokuva amagama ahlukileyo kulawo wombhalo, ikliphu kufuneka ingamkelwa. Ngokuqhelekileyo oku kwenzeka apho kushiywe umabonakude edlala, okanye apho kukho incoko eqhubekayo kwakufitshane.
 contribution-background-voices-description-extended = Ukuba ushicilelo luyaqhawuka, okanye luziziqendu, lwale ngaphandle kokuba sonke isicatshulwa sinokuviwa.
 contribution-background-voices-example-1-title = Idinosaure enkulu yeTriassic <strong>[read by one voice]</strong>
@@ -533,10 +544,12 @@ sc-howto-findpd-partner-2 = Iingcaphephe zolwimi nazo zinganceda, zizame ukufike
 ## MY SENTENCES
 
 sc-my-description = Eli phepha likunika isishwankathelo sazo zonke izivakalisi ozingenisileyo. Unako kwakhona ukucima izivakalisi esele zingenisiwe ukuba kuyafuneka, ngokutikisha ibhokisi yokuphawula ecaleni kwayo kwaye ucofe ku ;Cima izivakalisi ezikhethiweyo; emazantsi. Nceda ususe kuphela izivakalisi ukuba kuyimfuneko nyani, umzekelo ukuba uqaphele emva kokuba isivakalisi si- copyright protected.
+sc-my-err-fetching = Kubekho impazamo xa kulandwa izivakalisi zakho. Nceda zama kwakhona.
 sc-my-err-failed-delete = Ayiphumelelanga ukucima izivakalisi ezikhethiweyo... Nceda uzame kwakhona!
 
 ## REJECTED
 
+sc-rejected-err-fetching = Kubekho impazamo xa kulandwa izivakalisi ezikhatywayo. Nceda zama kwakhona.
 
 ## STATS
 
@@ -558,6 +571,7 @@ sc-submit-filtered = Izivakalisi ezihluziweyo ngenxa yokungaphumeleli kweemfuno 
 
 ## ADD LANGUAGE
 
+sc-add-lang-sec-label = Yongeza ulwimi ofuna ukufaka isandla kulo
 # Variables:
 #   $duplicates (Number) - Number of sentences which got rejected because they are duplicates
 sc-add-result =
