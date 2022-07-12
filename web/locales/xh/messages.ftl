@@ -38,6 +38,8 @@ kmr = iKurmanji Kurdish
 knn = iKonkani (Devenagari)
 lb = iLuxembourgish
 lg = iLuganda
+lij = iLigurian
+lv = IsiLatvian
 mai = iMaithili
 mdf = iMoksha
 mg = iMalagasy
@@ -603,6 +605,7 @@ datasets-positioning =
 size = Ubukhulu
 validated-hr-total = Itotali yeyure eqinisekisiweyo
 overall-hr-total = Itotali yeyure iyonke
+cv-license = Ilaysensi
 audio-format = I-audio format
 number-of-voices = Inani laMazwi
 splits = Ukwahlukana
@@ -705,6 +708,7 @@ request-language-error = Kusenokwenzeka ukuba asisifumananga eso sicelo.Nceda us
 
 language-section-in-progress = Iyaqhubeka
 language-section-in-progress-new-description = Ezi lwimi ngoku ziphantsi kophuhliso loluntu. <localizationGlossaryLink> i-localization yeWebhusayithi</localizationGlossaryLink> kwaye <sentenceCollectionGlossaryLink> ukuqokelelwa kwezivakalisi</sentenceCollectionGlossaryLink> kuyadingeka ukuqaliswa.
+language-section-launched = Ukuqalwa
 language-section-launched-description = Kwezi lwimi ziqaliweyo iwebhusayithi iye yasebenza ngempumelelo <localizationGlossaryLink>localized</localizationGlossaryLink>, kwaye inokwanela <sentenceCollectionGlossaryLink>izivakalisi eziqokelelweyo</sentenceCollectionGlossaryLink> ukuvumela ukuqhubeka<speakLink>Speak</speakLink> kwaye <listenLink> iminikelo</listenLink>.
 languages-show-more = Bona okuninzi
 languages-show-less = Bona kancinci
@@ -720,6 +724,7 @@ language-validation-progress = Inkqubela phambili yoQinisekiso
 ## Contribution
 
 action-tap = Cofa
+listen = Mamela
 skip = Tsiba
 shortcuts = Iindlela ezimfutshane
 clips-with-count-pluralized =
