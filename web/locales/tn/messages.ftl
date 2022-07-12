@@ -977,6 +977,9 @@ sc-add-lang-process-notice = Fa puo ya gago e sa tlhage fano, o ka e kopa ka <la
 
 sc-confirm-are-you-sure =
     .message = Mela ga ya romelwa, a o tlhomamisegile gore o batla go tswa?
+# Variables:
+#   $countOfInvalidated (Number) - Number of sentences the user rejected in the review form before submission
+sc-confirm-rejected-by-you = { $countOfInvalidated } e gannwe ke wena
 sc-confirm-already-reviewed =
     { $countOfReviewed ->
         [0] Ga go na mola o o setseng o sekasekilwe.
