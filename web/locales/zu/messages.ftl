@@ -395,6 +395,7 @@ skip-submission-note = Qaphela: Usazodinga ukukhetha phakathi kokuthi Khuluma no
 off = Valiwe
 on = Vuliwe
 help-accent = Udinga usizo oluthile ngokuphimisa?
+help-accent-explanation = Indlela yakho yokukhuluma, indlela yokuphimisa amagama. Ingathelelwa indawo lapho ohlale khona, yiziphi ezinye izilimi ozikhulumayo, niminye imithelela eminingi. Ungabelana eminye imininingwane obona ukuthi ifanelekile lana.
 help-variants = Udinga usizo oluthile ngokuhlukile?
 
 ## Profile - Email
