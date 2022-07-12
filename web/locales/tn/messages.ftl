@@ -560,6 +560,7 @@ why-delete-recordings =
 ## Profile Download
 
 download-profile-info = E akaretsa imeile, leinatiriso le tshedimosetso ya dipalopalo, e e gone ka yone nako eo
+download-recordings-title = Tse di rekotilweng
 download-recordings-info = E akaretsa di-mp3 le mela e e tsamaisanang le yone, go ka tsaya nakonyana gore di rulaganngwe
 download-recordings-unavailable = Ga o kgone go kopa dikgatiso tsa gago fa kopo e nngwe e setse e diragadiwa.
 download-recently-requested = O ka kopa go ntsha dikgatiso tsa gago malatsi mangwe le mangwe a le { $days }.
