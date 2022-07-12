@@ -4,6 +4,8 @@ yes-receive-emails = Ewe, ndithumele ii-imeyile.Ndingathanda ukuhlala ndinolwazi
 stayintouch = Thina kwaMozilla sakha uluntu malunga neteknoloji yelizwi. Singathanda ukuhlala sinxibelelana ne-updates,i-data sources ezintsha kwaye sive ngakumbi malunga nendlela oyisebenzisa ngayo le datha.
 privacy-info = Sithembisa ukuphatha ulwazi lwakho ngenkathalo. Funda ngakumbi kwi <privacyLink>Sazisi sabucala</privacyLink> yethu.
 return-to-cv = Buyela kuCommon Voice
+email-input =
+    .label = i-Imeyile
 submit-form-action = Ngenisa
 email-opt-in-info = Ndingathanda ukufumana ii-imeyile ezifana nezikhumbuzi zenjongo, uhlaziyo lwam lwenkqubela phambili kunye neeleta zeendaba malunga neCommon Voice.
 email-opt-in-info-title = Joyina uluhlu lwe-imeyile lweCommon Voice
@@ -22,6 +24,7 @@ error-something-went-wrong = Uxolo, kukho into engahambanga kakuhle
 
 ## Languages
 
+arn = iMapudungun
 ckb = iCentral Kardish
 cnh = iHakha Chin
 cy = iWelsh
@@ -33,13 +36,21 @@ hsb = iSorbian, Upper
 hyw = iArmenian Western
 kmr = iKurmanji Kurdish
 knn = iKonkani (Devenagari)
+lb = iLuxembourgish
+lg = iLuganda
+mai = iMaithili
 mdf = iMoksha
+mg = iMalagasy
 mhr = iMeadow Mari
+mk = iMacedonian
+ml = iMalayalam
 mn = iMongolian
 mni = iMeetei Lon
 mos = iMossi
 mr = iMarathi
 mrj = iHill Mari
+ms = iMalay
+mt = iMaltese
 nan-tw = iTaiwanese (Minnan)
 nb-NO = iNorwegain Bokmål
 nd = IsiNdebele (Emtla)
@@ -269,6 +280,7 @@ native-language =
 profile-form-add-accent = Yongeza i-accent entsha  "{ $inputValue }"
 profile-form-submit-save = Gcina
 profile-form-submit-saved = Igciniwe
+male = Indoda
 # Gender
 other = Enye
 why-profile-title = Kutheni kufuneka iProfayile?
@@ -699,6 +711,7 @@ language-total-progress = Itotali
 language-search-input =
     .placeholder = Khangela
 language-speakers = Izithethi
+localized = Eyasekuhlaleli
 sentences = Izivakalisi
 language-validation-progress = Inkqubela phambili yoQinisekiso
 
@@ -1048,6 +1061,7 @@ sc-footer-report-copyright = Xela imiba yelungelo lokushicilela
 sc-footer-privacy = Ubumfihlo
 sc-footer-terms = Imigaqo/ amagama
 sc-login-signup-button = Ngena / Bhalisa
+sc-logout-button = Phuma
 
 ## HOME
 
@@ -1309,6 +1323,8 @@ sc-review-form-usage = Swayipha ekunene ukuze uvume isivakalisi. Swayipha ekhohl
 sc-review-form-source = Umthombo: { $sentenceSource }
 sc-review-form-button-reject = Yala
 sc-review-form-button-skip = Tsiba
+# Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
+sc-review-form-button-approve-shortcut = Y
 # Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
 sc-review-form-button-reject-shortcut = N
 # Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
