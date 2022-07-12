@@ -268,6 +268,16 @@ x-weeks-short =
         [one] vhege
        *[other] { $count }wk
     }
+x-months-short =
+    { $count ->
+        [one] { "" }
+       *[other] { $count }mo
+    }
+x-years-short =
+    { $count ->
+        [one] { "" }
+       *[other] { $count }y
+    }
 help-make-dataset = Ri thuseni uri ri ite dataset ya vhuimo ha nṱha ya nnyi na nnyi
 sign-up-account = Itani Akhantu
 email-subscription-title = Ḓiṅwaliseni uri ni wane dzi apudeiti nga email
@@ -853,6 +863,7 @@ record-no-mic-found = A hu na makrofounu yo wanalaho.
 record-error-too-short = Zwo rekhodiwaho zwo vha zwi zwi pfufhisa.
 record-error-too-long = Zwo rekhodiwaho zwo vha zwo lapfesa.
 record-error-too-quiet = Zwo rekhodiwaho zwo vha zwi fhasisa.
+record-cancel = Khantselani u dovha u rekhoda
 record-instruction = { $actionType }<recordIcon></recordIcon> ni kone u vhalela mitaladzi nṱha
 record-stop-instruction = { $actionType }<stopIcon></stopIcon> musi no fhedza
 record-three-more-instruction = Ho sala tharu!
@@ -864,6 +875,7 @@ share-clip = Sherani zwe na rekhoda
 share-common-voice = Sherani Common Voice
 review-instruction = Ṱolisisani & dovhololani u rekhoda arali zwo fanela
 record-submit-tooltip = { $actionType } Rumelani musi no lugela
+clips-uploaded = Rekhodo dzo Apuḽodiwaho
 record-abort-title = Fhedzani u rekhoda u thoma?
 record-abort-text = Na ṱuwa zwino ni ḓo xelelwa nga mvela phanḓa yaṋu
 record-abort-submit = U Rumela zwo rekhodiwaho
@@ -959,9 +971,11 @@ get-started-goals = Thomani u ḓiitela zwipikwa
 create-custom-goal = Itani tshipikwa tsho ḓoweleaho
 goal-type = Ndi tshipikwa ḓe tshine na khou ṱoḓa u tshi ita?
 both-speak-and-listen-long = Zwoṱhe (Ambani na u Thetshelesa)
+daily-goal = Tshipikwa tsha ḓuvha
 weekly-goal = Tshipikwa tsha Vhege
 easy-difficulty = Leluwa
 average-difficulty = Vhukati
+difficult-difficulty = Konḓa
 pro-difficulty = Konḓa
 lose-goal-progress-warning = Nga u editha tshipikwa tshaṋu, ni nga xelelwa nga mvela phanḓa ya zwe na zwi ita.
 want-to-continue = Ni khou ṱoḓa u isa phanḓa?
@@ -979,6 +993,7 @@ help-reach-hours-general-pluralized =
        *[other] Thusani Common Voice u swikelele { $hours } dzi awara kha luambo nga tshipikwa tshe muthu a ḓivhetshela
     }
 set-a-goal = Itani tshipikwa
+cant-decide = A ni koni u dzhia phetho?
 activity-needed-calculation-plural =
     { NUMBER($totalHours) ->
         [one] { $totalHours } awara i nga swikelelea nga murahu ha
@@ -1004,6 +1019,8 @@ n-clips-pluralized =
        *[other] { $count } zwo rekhodiwaho
     }
 help-share-goal = Ri thuseni u wana maipfi manzhi, sherani tshipikwa tshaṋu
+confirm-goal = Khaṱhisedzani tshipikwa
+goal-interval-weekly = Nga vhege
 # $type is one of share-goal-type-*
 share-n-daily-contribution-goal = Sherani { $count } Tshipikwa tshaṋu tsha u Rekhoda tsha Ḓuvha{ $type }
 # $type is one of share-goal-type-*
@@ -1029,6 +1046,7 @@ why-delete-recordings =
     Zwo rekhodiwaho nga Common Voice zwi shumiswa nga magudedzi, nga mabindu maṱuku, na nga vhane vha funa zwishumiswa zwa u ḓivha ipfi uri vha thuse kha u gudisa na nyaluwo ya u wanala ha maipfi o rekhodiwaho.
     
     Naa ni nga ri ḓivhadza uri ndi ngani ni tshi khou ṱoḓa u diḽita zwe na rekhoda?
+profile-form-delete = Diḽita Profaiḽi
 
 ## Profile Download
 
@@ -1052,6 +1070,7 @@ download-request-archive-single = Pfarelo, hu na zwi songo tshimbilaho zwavhuḓ
 download-request-archive-multiple = Khethekanyani kha { $archiveCount } faela dza ZIP dzi re na
 download-request-assembling-description = Faela dzaṋu dzi khou dzudzanyiwa. Sedzani hafhu hu si kale.
 download-request-refresh-button = Refresh
+download-request-modal-title = Downḽodani Ḽinki
 download-request-modal-description = Ḽinki khedzi dza u downḽoda faela dzaṋu dza ZIP.
 download-request-link-text = Zip #{ $offset } ya { $total }
 download-request-metadata-link = Mafhungo a re kha mutaladzi
@@ -1077,6 +1096,7 @@ demo-language-select-card-header = Common Voice ndi dataset khulwanesa ya nnyi n
 demo-language-select-card-body = Ri livhuwa vhathu vho shelaho mulenzhe vha fhiraho 259k u bva kha nyambo dzi fhiraho 50, yeneyi data i khou shumiselwa u gudisa app dzi ḓivhaho ipfi uri dzi kone u fhindula khwine ipfi ḽa muthu.
 card-button-next = Tevhela
 card-button-back = Murahu
+demo-language-select-label = Sedzani Nyambo
 demo-eofy-header = 2019 riḽiziwaho mafheloni a nwaha
 demo-eofy-sub_header = Dataset ya Maipfi, yo Lugelwa u Downḽodiwa
 demo-account = Akhantu
@@ -1104,6 +1124,7 @@ demo-dashboard-card-body = Kha kupiḓa kuṅwe na kuṅwe kwa ipfi kwo nikeliwa
 
 contribution-criteria-nav = Ṱhoḓea
 contribution-criteria-link = U pfesesa nḓila ya u nikela
+contribution-criteria-page-title = Zwi Ṱoḓeaho hu tshi Shelwa Mulenzhe
 contribution-criteria-page-description = Pfesesani uri hu ṱoḓea mini musi ni tshi thetshelesa zwo rekhodiwaho u itela uri zwi ni thuse u rekhoda ipfi ḽaṋu nga nḓila yavhuḓisa.
 contribution-for-example = sa tsumbo
 contribution-misreadings-title = U vhala zwi si zwone
@@ -1125,6 +1146,7 @@ contribution-misreadings-example-6-explanation = [I tea u vha "We are"]
 contribution-misreadings-example-7-title = Ri khou ya u nwa gofhi.
 contribution-misreadings-example-7-explanation = [A hu na 'a' kha maṅwalwa a u thoma]
 contribution-misreadings-example-8-title = Notshi yo gidima i tshi fhira nga hanefha
+contribution-misreadings-example-8-explanation = [A zwi fani]
 contribution-varying-pronunciations-title = U fhambanyisa zwiga zwa u vhala
 contribution-varying-pronunciations-description = Ni ṱhogomele uri ni sa ri zwo rekhodiwaho a si zwone nga ṅwambo wa uri muvhali ha ngo bula zwavhuḓi ipfi, kana o ombedzela fhethu hu si hone, kana khamusi o litsha u vhala tshiga tsha u vhudzisa. Hu na kubulele kwa maipfi kwo fhambananaho u mona na shango, kuṅwe kwa hone khamusi a ni athu u ku pfa vhuponi ha haṋu. Ri humbela uri ni ṱanganedze vhane vha amba nga nḓila yo fhambanaho na yaṋu.
 contribution-varying-pronunciations-description-extended = Kha ḽiṅwe sia, arali ni tshi vhona u nga muvhali ha athu vhuya a ṱangana na iḽo ipfi, nahone ho tou humbulelwa kubulele kwaḽo, ni songo zwi tendela. Arali ni si na vhungoho, shumisani gunubu ya u pfuka.
@@ -1132,6 +1154,7 @@ contribution-varying-pronunciations-example-1-title = Ṱhohoni yawe o ambara mu
 contribution-varying-pronunciations-example-1-explanation = [‘Beret’ ḽo luga hu si na ndavha uri ḽo ombedzelwa kha dungo ḽa u thoma (UK) kana kha dungo ḽavhuvhili (US]
 contribution-varying-pronunciations-example-2-title = Tshanḓa tshawe tsho vha tsho i-ma.
 contribution-varying-pronunciations-example-2-explanation = [Ipfi ḽa Luisimane 'Raised' musi ḽi tshi bulwa hu ombedzelwa dungo ḽithihi tshifhinga tshoṱhe, hu si mavhili]
+contribution-background-noise-title = Phoso ine ya khou Pfala
 contribution-background-noise-description = Ri ḓo ṱoḓa uri algorithm dza machine learning dzi kone u fhambanyisa phosho i re nga murahu, na phosho ya khulwane i nga tendela, fhedzi a yo ngo tea u thivhela uri ni pfe zwoṱhe zwo ambiwaho. Muzika u re fhasi wo tendelwa; muzika u ne wa khou ita phosho lune ni si kone u pfa maipfi oṱhe ane muṅwe a khou a amba a wo ngo tendelwa.
 contribution-background-noise-description-extended = Arali rekhodo yo khathuwa, kana i na manzaranzara, i haneni nga nnḓani ha musi mafhungo oṱhe a tshi khou pfala.
 contribution-background-noise-example-1-fixed-title = <strong>[Sneeze]</strong> Dinosaurs khulu ya <strong>[cough]</strong> Triassic.
@@ -1146,6 +1169,8 @@ contribution-volume-title = Volumu
 contribution-volume-description = Hu ḓo vha na u fhambana-fhambana ha volumu dza vhavhali. I iledzeni arali volumu ya hone i nṱhesa lune ya khathuwa, kana (zwiṅwe zwo ḓoweleaho) arali i fhasi lune ni si kone u pfa zwine zwa khou ambiwa ni songo sedza mafhungo o ṅwalwaho.
 contribution-reader-effects-description = Zwithu zwinzhi zwo rekhodiwaho ndi zwa vhathu vha tshi khou amba nga ipfi ḽavho ḽa vhukuma. Ni nga ṱanganedza zwithu zwi sa itei tshifhinga tshoṱhe kha zwo rekhodiwaho zwine zwa vha u tzhema, u hevhedza, kana u amba nga ipfi ḽa ane a nga u khou ita ‘ḽitambwa’. Ri humbela uri ni songo tendela zwo rekhodiwaho hu tshi khou imbiwa na zwe ha shumiswa maipfi a dzi khomphuyutha.
 contribution-just-unsure-description = Arali na ṱangana na zwithu zwine zwi si vhe hone kha hovhu vhulivhisi, ri humbela uri ni khethe u shumisa khaṱhulo yaṋu. Arali ni sa koni u dzhia phetho, puṱedzani button ya u pfukha nahone ni fhirele kha zwo rekhodiwaho zwi tevhelaho.
+see-more = <chevron></chevron>Vhonani zwinzhi
+see-less = <chevron></chevron>Vhonani zwiṱuku
 
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
@@ -1169,6 +1194,7 @@ sc-logout-button = Logout
 
 sc-home-title = No ṱanganedzwa kha tsha u Kuvhanganya Mitaladzi tsha Common Voice
 sc-home-intro = Tshau Kuvhanganya mitaladzi ndi <commonVoiceLink>Common Voice</commonVoiceLink>. I tendela vhashelaho mulenzhe uri vha kuvhanganye na u ita vhungoho ha mitaladzi yo itwaho nga vhadzulapo ndi yone. Ni nga shumisa tshenetshi tshishumiswa u import na u kunakisa small-to-medium-sized public domain corpus dze na wana na dze na kuvhanganya. Mitaladzi yoṱhe i tea u vha ya Public Domain. Mitaladzi ine ya pfi ndi yone-yone i ya expoteliwa kha Common Voice repository vhege iṅwe na iṅwe nahone ya bviselwa kha website ya Common Voice musi hu tshi bviswa zwithu zwiswa.
+sc-home-collect-title = Kuvhanganyani mitaladzi
 sc-home-collect-text = Ri thuseni nga u ṅwala kala u kuvhanganya mitaladzi ya Fhethu ha Tshitshavha Tshoṱhe.
 sc-home-review-title = Ṱolisisani Mitaladzi
 sc-home-review-text = Ri thuseni u ṱolisisa mitaladzi uri ni vhone arali yo tea u ya nga vhulivhisi.
@@ -1249,6 +1275,7 @@ sc-submit-err-add-source = Ri humbela uri ni pange hune zwa bva hone.
 sc-submit-err-confirm-pd = Ri humbela uri ni khwaṱhisedze uri heyi mitaladzi ndi ya fhethu ha tshitshavha tshoṱhe.
 sc-submit-prompt =
     .message = Mitaladzi a yo ngo rumelwa, naa ni na vhungoho ha uri ni khou ṱoḓa u ṱuwa?
+sc-submit-title = Pangani Mitaladzi
 sc-submit-select-language =
     .labelText = Nangani luambo
 sc-submit-add-sentences = Pangani <wikipediaLink>mitaladzi ya </wikipediaLink> fhethu ha tshitshavha tshoṱhe
@@ -1265,6 +1292,7 @@ sc-submit-guidelines = Ri humbela uri ni sedze <howToLink>vhulivhisi</howToLink>
 
 sc-add-lang-could-not-add = A yo ngo kona u panga luambo
 sc-add-lang-sec-label = Pangani luambo lune na khou ṱoḓa u shela mulenzhe ngalwo
+sc-add-lang-sec-button = Pangani Luambo
 sc-add-err-unexpected = Ho vhuya phindulo i songo lavhelelwaho u bva kha server
 # Variables:
 #   $duplicates (Number) - Number of sentences which got rejected because they are duplicates
@@ -1349,6 +1377,7 @@ sc-lang-info-left-for-you =
         [one] [one] ho sala mutaladzi wa 1 uri ni u ṱolisise
        *[other] *[other] { $unreviewedSentencesByYou } mitaladzi yo salaho uri ni i ṱolisise.
     }
+sc-lang-info-review-now = <reviewLink>Ṱolisisani zwino!</reviewLink>
 sc-lang-info-add-more = <addLink>Pangani mitaladzi yo engedzeaho zwino!</addLink>
 # Variables:
 #   $validatedSentences (Number) - Number of sentences which have been approved for this language
@@ -1412,11 +1441,15 @@ sc-review-form-source = Vhubvo: { $sentenceSource }
 sc-review-form-button-reject = Hanela
 sc-review-form-button-skip = Fhira
 sc-review-form-button-approve = Tendelwa
+# Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
+sc-review-form-button-approve-shortcut = Y
 # Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
 sc-review-form-button-reject-shortcut = N
 # Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
 sc-review-form-button-skip-shortcut = S
 sc-review-form-keyboard-usage-custom = Ni nga dovha hafhu na shumisa shortcuts dza Keyboard: { sc-review-form-button-approve-shortcut } u Khwaṱhisedza, { sc-review-form-button-reject-shortcut } u Hana, { sc-review-form-button-skip-shortcut } u Pfukha
+sc-review-form-button-submit =
+    .submitText = Fhedzani u Ṱolisisa
 # Variables:
 #   $sentences (Number) - Number of sentences the user has reviewed in this session
 sc-review-form-reviewed-message =
@@ -1441,3 +1474,5 @@ sc-validation-no-abbreviations = Mitaladzi a yo ngo tea u vha na zwo pfufhifhadz
 
 # [/SentenceCollector]
 
+localization-select =
+    .label = Nangani luambo
