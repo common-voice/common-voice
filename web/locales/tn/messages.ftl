@@ -475,6 +475,7 @@ about-playbook-how-grow-language-content-1 = Go dira ditshono tsa gore batho ba 
 about-playbook-how-grow-language-content-3 = O ka dira ditiragalo go thusa batho go aba. Go motlhofo go feta jaaka o akanya. O ka e dira mo inthanete ka kgolagano ya bidio kgotsa wa e dira ka namana fa go sireletsegile go dira jalo. <eventTemplate>Leba dithempoleite le didirisiwa tsa rona tsa go dira ditiragalo</eventTemplate>.
 about-playbook-how-grow-language-content-4 = Metswedi ya go Ikgolaganya
 about-playbook-how-grow-language-content-5 = O ka dirisa metswedi ya mafaratlhatlha a boitapoloso go fetisa molaetsa. Abalana mekwalo e e bontshang gore ke eng go le botlhokwa, mme o golagane le batho ba bangwe ba ba buang ka dikgang tse di jaaka ditshwanelo tsa puo, lentswe, kgotsa go tlhoka tekatekano mo thekenolojing. Bona dikakantsho tse dingwe ka <campaignLink>go dira letsholo, go akaretsa tshedimosetso e o ka e dirisang gape</campaignLink>.
+about-playbook-how-grow-language-content-6 = Ditirisanommogo le dineteweke
 about-playbook-how-grow-language-content-7 = Bona ba bangwe ba ba amegang. E ka nna diyunibesithi, dikolo tsa dipuo, ditlhopha tsa dikemedi kgotsa merafe ya tshedimosetso ya saense. Dira sengwe mme o tlhalose sentle gore ba ka thusa jang le gore ka ntlha yang. <outreachTemplates>Bona ditimeile tsa rona tsa thempoleite ya go thusa</outreachTemplates>.
 about-playbook-how-grow-language-content-8 = <strong>Itlhamele!</strong> Batho ba ba buang puo ya gago ba tlile go tlhomologa, mme tseno ke ditsela di le mmalwa tsa go simolola.
 
@@ -518,6 +519,7 @@ data-download-deny = Nyaa
 data-download-modal = O tloga o simolola download ya <size>{ $size }GB</size>, a o a tswelela?
 data-subtitle = Re aga rekoto ya tshedimosetso ya mantswe e mongwe le mongwe a ka e dirisang go thapisa dithulaganyo tse di kgonang go dirisa mantswe.
 data-explanatory-text = Re dumela gore tshedimosetso e kgolo le e e phasaladitsweng ya mantswe e rotloetsa go tlhama le kgaisano ya kgwebo mo thekenolojing e e ikaegileng ka go ithuta ga metšhine. Ano ke matsapa a lefatshe lotlhe mme re laletsa mongwe le mongwe go tsaya karolo. Boikaelelo jwa rona ke go thusa thekenoloji ya go bua gore e akaretse dilo tse dintsi, e bontshe pharologano ya mantswe go ralala lefatshe.
+data-other-title = Direkoto tse dingwe tsa tshedimosetso ya mantswe...
 data-bundle-description = Tshedimosetso ya Common Voice le direkoto tsotlhe tsa tshedimosetso ya mantswe fa godimo.
 release-version = Thanolelo
 license = Laesense: <licenseLink>{ $license }</licenseLink>
@@ -538,6 +540,7 @@ datasets-positioning =
     Tshedimosetso ya Common Voice ya dipuo tse dintsi ke tshedimosetso e kgolo ya batho botlhe e e leng teng ya mantswe, mme ga se yone fela.
     
     Leba tsebe eno jaaka tshupiso go bona tshedimosetso e nngwe ya mantswe, mme jaaka Common Voice e tswelela go gola, e nna legae la ditlhabololo tsa rona.
+overall-hr-total = Palogotlhe ya Diura Tsotlhe
 cv-license = Laesense
 audio-format = Kgatiso e e Reediwang
 splits = Tse di kgaoganeng
@@ -765,6 +768,7 @@ read-more-about = Bala mo go oketsegileng mo tsebeng ya Ka Ga
 
 ## DemoLayout
 
+demo-get-started = A re Simolole
 demo-welcome-subheader = A o kgatlhegela go itse mo go oketsegileng le go nna le seabe mo porojekeng?
 
 ## Demo Datasets
