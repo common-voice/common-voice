@@ -804,10 +804,15 @@ request-language-error = Ri nga vha ri songo wana khumbelo heyo. Ri humbela uri 
 
 ## Languages Overview
 
+language-section-in-progress = Zwi Khou Bvela Phanḓa
 language-section-in-progress-new-description = Hedzi nyambo dzi kha ḓi shumiwa <localizationGlossaryLink>u ḓologa Website</localizationGlossaryLink> na<sentenceCollectionGlossaryLink>u kuvhanganya mitaladzi </sentenceCollectionGlossaryLink> zwi a ṱoḓea uri hu ḽontshiwe.
+language-section-launched = Ḽontshiwa
 language-section-launched-description = Kha hedzi nyambo dzo no ḓi dzheniswaho dzo dzhena zwavhuḓi kha website <localizationGlossaryLink>localized</localizationGlossaryLink>, nahone hu na mitaladzi <sentenceCollectionGlossaryLink> yo kuvhanganwaho yo eḓaho </sentenceCollectionGlossaryLink> u itela uri hu vhe na bvela phanḓa <speakLink>Ambani</speakLink> ni <listenLink>Tshetshelese</listenLink> zwo shelwaho mulenzhe.
 languages-show-more = Vhonani Zwinzhi
 languages-show-less = Vhonani Zwiṱuku
+language-speakers = Vhaambi
+sentences = Mitaladzi
+language-validation-hours = Dzi awara
 language-validation-progress = Mvela phanḓa yo Khwaṱhisedzwaho
 
 ## Contribution
@@ -834,9 +839,11 @@ record-error-too-short = Zwo rekhodiwaho zwo vha zwi zwi pfufhisa.
 record-error-too-long = Zwo rekhodiwaho zwo vha zwo lapfesa.
 record-error-too-quiet = Zwo rekhodiwaho zwo vha zwi fhasisa.
 record-instruction = { $actionType }<recordIcon></recordIcon> ni kone u vhalela mitaladzi nṱha
+record-stop-instruction = { $actionType }<stopIcon></stopIcon> musi no fhedza
 record-three-more-instruction = Ho sala tharu!
 record-again-instruction = Ndi zwavhuḓi!<recordIcon></recordIcon>Rekhodani zwine zwa khou tevhela
 record-again-instruction2 = Isani phanḓa nga u ralo, rekhodani hafhu <recordIcon></recordIcon>
+record-last-instruction = <recordIcon></recordIcon> Ndi ya u Fhedza!
 review-tooltip = Ṱolisisani & ni dovholole u rekhoda ni tshi khou bvela phanḓa
 share-clip = Sherani zwe na rekhoda
 share-common-voice = Sherani Common Voice
@@ -845,15 +852,18 @@ record-submit-tooltip = { $actionType } Rumelani musi no lugela
 record-abort-title = Fhedzani u rekhoda u thoma?
 record-abort-text = Na ṱuwa zwino ni ḓo xelelwa nga mvela phanḓa yaṋu
 record-abort-submit = U Rumela zwo rekhodiwaho
+record-abort-continue = Fhedzani u rekhoda
 record-abort-delete = Ibvani & Ḓilitani zwo rekhodiwaho
 listen-instruction = { $actionType }<playIcon></playIcon> naa vho bula mutaladzi nga nga nḓila yone?
 listen-again-instruction = Mushumo wavhuḓi!<playIcon></playIcon> Dovhani ni thetshele musi no lugela
 listen-3rd-time-instruction = No fhedza mbili, isani phanḓa nga u rali!<playIcon></playIcon>
+listen-last-time-instruction = <playIcon></playIcon> Ho sala ya u Fhedza!
 listen-empty-state = Ro fhelelwa nga zwo rekhodiwaho zwine zwa ṱoḓa u khwaṱhisedzwa...
 listen-loading-error =
     A ro ngo kona u wana odio dzo rekhodiwaho dza maipfi uri inwi ni kone u dzi thetshelesa.
      Ri humbela uri ni lingedze nga vhuya.
 speak-empty-state = Ro fhelelwa nga mitaladzi ya u rekhoda nga holwu luambo...
+speak-empty-state-cta = Nikelani Mitaladzi
 speak-loading-error =
     "A ro ngo kona u wana mitaladzi ine na ḓo i vhala.
      Ri humbela uri ni lingedze nga vhuya."
@@ -865,17 +875,22 @@ target-segment-first-card = Ni khou shela mulenzhe kha tshipiḓa tsha tshipikwa
 target-segment-generic-card = Ni khou shela mulenzhe kha tshipiḓa tsha tshipikwa
 target-segment-first-banner = Ri thuseni u ita tshipikwa tsha tshipiḓa tsha u thoma tsha Common Voice kha { $locale }
 target-segment-add-voice = Pangani ipfi ḽaṋu
+target-segment-learn-more = Gudani zwo Engedzeaho
 
 ## Reporting
 
+report = Muvhigo
 report-title = Rumelani muvhigo
 report-ask = Ndi thaidzo dzifhio dzine na khou ṱangana nadzo kha hoyu mutaladzi?
+report-offensive-language = Luambo lwa u Semana
 report-offensive-language-detail = Hoyu mutaladzi u na mafhungo ane a nyadza kana a songo kunaho.
 report-grammar-or-spelling = Vhukhakhi ha grama / mupeḽeṱo
 report-grammar-or-spelling-detail = Hoyu mutaladzi u na vhukhakhi ha grama kana ha mupeḽeṱo.
+report-different-language = Luambo lwo fhambananaho
 report-different-language-detail = Zwo ṅwaliwa nga luambo lu sa fani na lune nṋe nda khou amba ngalwo.
 report-difficult-pronounce = Zwi a konḓa u zwi bula
 report-difficult-pronounce-detail = I na maipfi kana mibulo ine ya konḓa u i vhala kana u i bula.
+report-offensive-speech = Luambo lwa u Nyadza
 report-offensive-speech-detail = Heyi rekhodo i na mafhungo ane a nyadza kana a songo kunaho.
 report-success = Muvhigo wo phasa
 
@@ -901,10 +916,16 @@ validations =
 
 your-languages = Nyambo dzaṋu
 toward-next-goal = Tsini na thipikwa tshi tevhelaho
+goal-reached = Tshipikwa tsho swikelelwa
 clips-you-recorded = Zwo rekhodiwaho
 clips-you-validated = Zwo rekhodiwaho zwe na zwi khaṱhisedza uri ndi zwone
 todays-recorded-progress = Mvela phanḓa ya ṋamusi ya Common Voice ya zwo rekhodiwaho
 todays-validated-progress = Mvela phanḓa ya ṋamusi ya Common Voice ya rekhodo dzo khwaṱhisedzwaho
+stats = Mbalo-Mbalo
+awards = Tshiphuga
+you = Inwi
+everyone = Vhoṱhe
+contribution-activity = Mishumo ya u Shela Mulenzhe
 top-contributors = Vha Shelaho Muleznhe vha re Nṱhesa
 recorded-clips = Zwo Rekhodiwaho
 validated-clips = Dzi rekhodo dzo Khwaṱhisedzwaho
@@ -966,6 +987,8 @@ help-share-goal = Ri thuseni u wana maipfi manzhi, sherani tshipikwa tshaṋu
 share-n-daily-contribution-goal = Sherani { $count } Tshipikwa tshaṋu tsha u Rekhoda tsha Ḓuvha{ $type }
 # $type is one of share-goal-type-*
 share-n-weekly-contribution-goal = Sherani { $count } Tshipikwa tshaṋu tsha u Rekhoda tsha Vhege { $type }
+share-goal-type-speak = U khou Amba
+share-goal-type-listen = U khou Thetshelesa
 share-goal-type-both = U Amba na u Thetshelesa
 # LINK will be replaced with the current URL
 goal-share-text = Ndo ḓiitela tshipikwa tshau nikela nga ipfi kha #CommonVoice – shelani mulenzhe na nṋe kha u funza mitshini uri vhathu vha vhukuma vha ambisa hani { $link }
@@ -973,6 +996,7 @@ weekly-goal-created = Tshipikwa tshaṋu tsha vhege tsho itiwa
 daily-goal-created = Tshipikwa tshaṋu tsha ḓuvha tsho itiwa
 track-progress = Sedzani mvela phanḓa yaṋu hafha na kha siaṱari laṋu ḽa mbalo-mbalo.
 return-to-edit-goal = Vhuyelani hafha uri ni kone u shandukisa tshipikwa tshaṋu tshifhinga tshiṅwe na tshiṅwe.
+share-goal = Sherani tshipikwa tshanga
 
 ## Profile Delete
 
@@ -1003,7 +1027,9 @@ download-request-description = { $clipCount } maipfi o rekhodiwaho, saizi ya zwo
 download-request-archive-single = Pfarelo, hu na zwi songo tshimbilaho zwavhuḓi
 download-request-archive-multiple = Khethekanyani kha { $archiveCount } faela dza ZIP dzi re na
 download-request-assembling-description = Faela dzaṋu dzi khou dzudzanyiwa. Sedzani hafhu hu si kale.
+download-request-refresh-button = Refresh
 download-request-modal-description = Ḽinki khedzi dza u downḽoda faela dzaṋu dza ZIP.
+download-request-link-text = Zip #{ $offset } ya { $total }
 download-request-metadata-link = Mafhungo a re kha mutaladzi
 download-request-link-single = Ni nga kopa u ṋambatedza nga ho livhaho kha URLs u ya kha hune na ṱoḓa uri zwe na downḽouda zwi dzule hone. Zwi ḓo fhelelwa nga tshifhinga nga murahu ha awara dza 12, fhedzi ni nga dovha na vhuyelela kha ḽeneḽi siaṱari uri ni dovhe ni ite dziṅwe nga tshifhinga tshine na funa.
 
@@ -1027,6 +1053,7 @@ demo-language-select-card-header = Common Voice ndi dataset khulwanesa ya nnyi n
 demo-language-select-card-body = Ri livhuwa vhathu vho shelaho mulenzhe vha fhiraho 259k u bva kha nyambo dzi fhiraho 50, yeneyi data i khou shumiselwa u gudisa app dzi ḓivhaho ipfi uri dzi kone u fhindula khwine ipfi ḽa muthu.
 demo-eofy-header = 2019 riḽiziwaho mafheloni a nwaha
 demo-eofy-sub_header = Dataset ya Maipfi, yo Lugelwa u Downḽodiwa
+demo-account = Akhantu
 
 ## Demo Account
 
@@ -1051,6 +1078,7 @@ demo-dashboard-card-body = Kha kupiḓa kuṅwe na kuṅwe kwa ipfi kwo nikeliwa
 
 contribution-criteria-link = U pfesesa nḓila ya u nikela
 contribution-criteria-page-description = Pfesesani uri hu ṱoḓea mini musi ni tshi thetshelesa zwo rekhodiwaho u itela uri zwi ni thuse u rekhoda ipfi ḽaṋu nga nḓila yavhuḓisa.
+contribution-for-example = sa tsumbo
 contribution-misreadings-description = Musi no thetshelesa, ni sedze zwavhuḓi uri zwo rekhodiwaho zwi fana na zwo ṅwaliwaho kokotolo; ni hanele zwo rekhodiwa arali hu na vhukhakhi naho vhu vhuṱuku. <br />Vhukhakhi ho ḓoweleaho vhu katela:
 contribution-misreadings-description-extended-list-1 = Ho shotha <strong>'A'</strong> kana <strong>'The'</strong> mathomoni a zwo rekhodiwaho.
 contribution-misreadings-description-extended-list-3 = U vhala zwithu zwi si hoho, sa tsumbo "we're" nṱhani ha "we are" kana vaisa versa.
