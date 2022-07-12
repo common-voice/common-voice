@@ -118,7 +118,7 @@ so = Se-Somali
 sq = Se-Albania
 sr = Se-Serbia
 ss = Seswati
-st = Sesotho sa Lebowa
+st = Sesotho sa Borwa
 sv-SE = Se-Sweden
 sw = Se-Swahili
 syr = Se-Syria
@@ -255,6 +255,7 @@ rich-data = Dira gore tshedimosetso ya gago e o e rometseng e nne ntsi kafa go k
 improve-audio = Tshedimosetso ya porofaele e tokafatsa tshedimosetso ya lentswe e e dirisiwang go thapisa didirisiwa tse di kgonang go lemoga puo gore di nepagale.
 keep-track = Nna o etse tlhoko kgatelopele ya gago le dimeteriki tsa dipuo tse dintsi.
 compare-progress = Bona gore kgatelopele ya gago e kae fa e bapisiwa le ya batsayakarolo ba bangwe mo lefatsheng lotlhe.
+view-goals = Leba kgatelopele ya gago ya maikaelelo a botho le a porojeke.
 join-newsletter = O ka itlhophela go tsena mo lenaaneng la rona la makwalo go amogela ditlhabololo le tshedimosetso e ntšha ka porojeke.
 
 ## What's public
@@ -441,6 +442,7 @@ how-does-it-work-text = Re batla tshedimosetso ya batho ba bantsi ya mantswe. Ab
 ## How does it work section
 
 about-localization-title = Thanolo ya Webosaete
+about-localization-subtitle = Mokwalo ya webosaete o ranolwetswe mo puong eo.
 about-sentence-collection-title = Setlhopha sa Dipolelo
 about-new-lang-subtitle = Re simolola webosaete ya Common Voice ka puo eno.
 about-voice-contrib-title = Go Neelana ka Lentswe
@@ -448,6 +450,7 @@ about-voice-contrib-subtitle = Batho ba a tla ba bo ba abelana ka mantswe a bone
 about-voice-validation-title = Go Tlhomamisa Lentswe
 about-voice-validation-subtitle = Batho ba bangwe ba tlhomamisa dkgatiso tseo tsa mantswe.
 about-dataset-release-subtitle = Re golola rekoto ya tshedimosetso dikgwedi dingwe le dingwe di le 3.
+about-subscribe-text = A o batla go nna o ikgolaganya le Common Voice?
 about-speak = Bua
 about-speak-text = Batsayakarolo ba gatisa mantswe a bone ka go bala mo bontsintsing jwa mela e e abilweng.
 about-listen-queue = Mola wa theetso
@@ -578,7 +581,7 @@ localization-explanation = Ono ke mokgwa wa rona wa go ranola le go dira gore ts
 sentence-collection-explanation = Go amogela mela go tswa mo lefelong la batho botlhe, kgotsa go kwalela lefelo la batho botlhe e mesha.
 hours-recorded-explanation = Palo ya diura tsa direkoting tse re setseng re di amogetse go fitlha jaana.
 hours-validated-explanation = Palo ya diura tsa kgatiso ya mantswe e e tlhomamisitsweng ke badirisi ba le 2 mo go ba le 3 ka tlhopho ya “Ee”. Seno se bontsha botswelelopele jwa porojeke ka kakaretso ya mokgele wa diura tse 10k.
-sst = Speech-to-text (STT)
+sst = Puo-go-mokwalo (STT)
 de-identified-explanation = Thulaganyo e ka yone tshedimosetso ya porofaele ya moabi e fitlhegileng mo dikgatisong tsa mantswe fa e baakanyeditswe go itseelwa jaaka karolo ya tshedimosetso.
 
 ## Error pages
@@ -706,6 +709,8 @@ request-language-form-info-explanation = Tsenya tshedimosetso e ntsi ka fa o ka 
 request-language-form-info-explanation-list-1 = Maina a puo ya gago
 request-language-form-info-explanation-list-2 = <isoCodeLink>Dikhouto tsa ISO</isoCodeLink> fa di itsiwe
 request-language-form-info-explanation-list-3 = Dilinki tsa diwebosaete tse di ka re thusang go tlhaloganya puo
+# Success page
+request-language-success-heading = Re a leboga! O rometse kopo ya puo e ntšha
 request-language-success-list-1 = O tshwanetse go amogela email mo bogautshwaneng e e tlhalosang dikgato tsa go tsenya puo ya gago mo Common Voice
 request-language-success-list-2 =
     Motsamaisi wa morafe wa rona o tla ikgolaganya le wena go go naya
@@ -758,7 +763,7 @@ contribute-more =
        *[other] *[other] A o ipaakanyeditse go dira { $count } mo go oketsegileng?
     }
 record-cta = Simolola go kgatisa
-record-platform-not-supported = Re maswabi, polatefomo  ya gago ga e tshegediwe gone jaanong.
+record-platform-not-supported = Re maswabi, polatefomo ya gago ga e tshegediwe gone jaanong.
 record-platform-not-supported-ios-non-safari = Mo iOS tsweetswee tswelela ka Safari go dira gore e kgone go gatisa…
 record-must-allow-microphone = O tshwanetse go letlelela go dirisa maekerofouno.
 record-error-too-short = Kgatiso e ne e le khutshwane thata.
@@ -802,6 +807,7 @@ report-title = Romela pego
 report-ask = O itemogela mathata afe ka mola ono?
 report-offensive-language-detail = Mola o na le puo ya lenyatso kgotsa e e kgopisang.
 report-grammar-or-spelling = Phoso ya thutapuo / mopeleto
+report-grammar-or-spelling-detail = Mola o na le phoso ya thutapuo kgotsa ya mopeleto.
 report-different-language-detail = E kwadilwe ka puo e e farologaneng le e ke e buang.
 report-difficult-pronounce = Go thata go le bitsa
 report-difficult-pronounce-detail = E na le mafoko kgotsa dipolelo tse go leng thata go di bala kgotsa go di bitsa.
@@ -928,6 +934,7 @@ share-goal-type-both = Go Bua le go Reetsa
 goal-share-text = Ke fetsa go dira maikaelelo a botho a go abelana ka lentswe go #CommonVoice -- dira le nna mme o nthuse go ruta metšhine  gore batho ba mmatota ba bua jang { $link }
 weekly-goal-created = Maikaelelo a gago a beke a dirilwe
 daily-goal-created = Maikaelelo a gago a letsatsi a dirilwe
+track-progress = Leba kgatelopele fano le mo tsebeng ya dipalopalo.
 return-to-edit-goal = Boela fano nako nngwe le nngwe go baakanya maikaelelo a gago
 share-goal = Abelana ka maikaelelo a me
 
