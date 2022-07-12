@@ -34,7 +34,10 @@ fa = iPersian
 gom = iGoan Konkani
 hsb = iSorbian, Upper
 hyw = iArmenian Western
+kaa = iKarakalpak
 ki = IsiKikuyu
+kk = IsiKazakh
+km = NgokwesiKhmer
 kmr = iKurmanji Kurdish
 knn = iKonkani (Devenagari)
 ko = IsiKorea
@@ -79,6 +82,7 @@ rm-sursilv = iRomansh Sursilvan
 rm-vallader = iRomansh Vllader
 ro = iRomanian
 ru = iRussian
+rw = IsiKinyarwanda
 sah = iSakha
 sat = iSantali (Ol Chiki)
 sc = iSardinian
@@ -926,6 +930,7 @@ share-goal = Yabelana ngenjongo yam
 ## Profile Delete
 
 delete-q = Ingaba ungathanda ukucela ukuba ushicilelo lwelizwi lakho lucinywe, okanye ukhetha ukuzigcina kwiseti yedatha ye Common Voice?
+keep = Gcina
 remove = Susa
 keep-info = Ushicilelo lwakho lwelizwi olungachazwanga luza kuhlala lukwi dathasethi yeCommon Voice. Ukuba uthe wacima iprofayile yakho awuzukukwazi ukungenisa isicelo sokususa ushicilelo lwakho kwidathasethi
 remove-info = Siza kujonga isicelo sakho sokususa ilizwi elirekhodiweyo kwidathasethi. Ukuba isicelo sakho samkelwe, siya kuqhagamshelana nabo bakhuphele i-dathasethi kwaye sibacele ukuba basuse ilizwi elirekhodiweyo.
