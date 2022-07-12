@@ -722,6 +722,15 @@ continue = Tswelela
 ## Goals
 
 streaks = Meraladi
+recordings =
+    { $count ->
+        [one]
+            "{ $count ->
+                [one] Recording
+               *[other] Recordings
+            }"
+       *[other] { "" }
+    }
 
 ## Dashboard
 
