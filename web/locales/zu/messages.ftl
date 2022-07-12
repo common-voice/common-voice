@@ -227,6 +227,7 @@ home-title = I-Common Voice iwuhlelo lwe-Mozilla lokusiza ukufundisa imishini uk
 default-tagline = I-Mozilla Common Voice iyisinyathelo sokusiza ukufundisa imishini ukuthi abantu bangempela bakhuluma kanjani.
 home-cta = Khuluma, unikele lapha!
 wall-of-text-start = { "" }
+wall-of-text-more-mobile = Ulwazi oluningi olusetshenziswa izinkampani ezinkulu aluvamanga ukutholokala ebantwini abaningi. Sicabanga ukuthi lokho kuthiba imibono emisha. Yingakho sethula iPhrojekthi kaCommon Voice, iphrojekthi ezosiza ukwenza ukuqoshwa kwamazwi kuvuleleke wonke umuntu.
 wall-of-text-more-desktop =
     Manje unganikela ngezwi lakho ukuze usisize sakhe isizindalwazi sezwi esinomthombo ovulekile esingasetshenziswa yinoma ubani
     ukwenza izinhlelo zokusebenza ezintsha zamadivayisi kanye newebhu. Funda umusho ukuze usize imishini ifunde ukuthi abantu bangempela bakhuluma kanjani. Hlola umsebenzi wabanye
@@ -453,6 +454,10 @@ faq-why-10k-hours-q = Kungani amahora angu-10,000 aqinisekisiwe kuwumgomo wolimi
 faq-why-10k-hours-a = Leli cishe inani lamahora adingekayo ukuqeqesha isistimu yokukhiqiza inkulumo-iya-kumbhalo.
 faq-how-calc-hours-q = I-Common Voice iwabala kanjani amahora?
 faq-where-src-from-2-q = Uvelaphi umbhalo owumthombo?
+faq-where-src-from-2-a =
+    Umbhalo wethu womthombo wakhiwe iminikelo womnikeli wangempela kanye nekulumompendulwano ebuya esizindeni somphakathi yemidlalo yakumabonakude njenge <italic>It's a Wonderful Life</italic>. 
+    
+    Ungabheka umthombo wethu wemisho la <githubLink>Ifolda yeGitHub</githubLink>
 faq-why-not-ask-read-q = Kungani ungaceli abantu ukuthi bafunde ezincwadini noma izindatshana zeWikipedia ngezilimi ezahlukene?
 faq-why-not-ask-read-a = Ukwenza lolwazi olukuCommon Voice lube wusizo kakhulu, sithathe isinqumo sokuba sivumele umbhalo otholokala phansi kweCreative Commons (CC0) license kuphela. Ukusebenzisa izinga leCC0 kuchaza ukuthi kuba nzima kakhulu ukuthola umthombo wombhalo kepha uvumela noma ubani ukuba asebenzise idatha yezwi etholakalayo ngaphandle kwemikhawulo noma imvume ebuya kuMozilla. Ekugcineni, sifuna lolwazi oluqoqiwe lwezilimi eziningi ukuba lube wusizo kakhulu kuwo wonke umuntu, abacwaningi, amanyuvesi, amabhizinisi asaqala phansi, uhulumeni, izinhlangano zokuhlalisana nabantu kanye nabantu abazithandelayo.
 faq-why-account-q = Kungani kufanele ngibhalisele i-akhawunti?
@@ -552,6 +557,7 @@ about-playbook-how-localize-content-5 = Buka umchazi wethu wevidiyo ukuze usize
 ## How to add sentences
 
 about-playbook-how-add-sentences = Ngiyengeza kanjani imisho?
+about-playbook-how-add-sentences-content-1 = <strong>Umqoqi Womusho</strong> ithuluzi lokuqoqa nokuqinisekisa imisho yomthombo womphakathi. Uzo </scAccountLink>dinga ukwenza i-akhawunti<scAccountLink>. Bese ufaka ulimi lakho ku <strong>Profayili</strong>. Unga <strong>Faka</strong> imisho noma <strong>Uhlole</strong> imisho ebifakiwe phambilini.
 about-playbook-how-add-sentences-content-2 = Imisho kufanele ibuyekezwe nokuthi yamukelwe abantu ababili ukuze izofakwa kuCommon Voice. Yakha imihlahlandlela yolimi lakho <languageGuidelinesLink>la</languageGuidelinesLink>. Imisho kufanele ibe e <licenseLink>mthonjeni womphakathi</licenseLink> namagama angenhla kuka-15. Ungabuza umnikazi wombhalo ukuwenza <waiverLink>CC0 usebenzisa inqubo yethu yokuyeka</waiverLink>, sithumele ku commonvoice@mozilla.com
 about-playbook-how-add-sentences-content-3 = Ungasebenzisa <i-scraperLink>Isikhiphi semisho</scraperLink> ukuze usebenzise imisho emifushane kusuka ku-Wikipedia.
 about-playbook-how-add-sentences-content-4 = Imisho eqinisekisiwe ithunyelwa ngaphandle ngoLwesithathu, futhi iyatholakala ngemva kokukhishwa okulandelayo.
@@ -610,6 +616,7 @@ de-identified = Susa ukubonakala
 
 error-title-404 = Asikwazanga ukukutholela lelo khasi
 error-title-503 = Sibhekene nesikhathi sokungasebenzi esingalindelekile
+error-content-503 = Isayithi lizobuya ngokushesha ngangokunokwenzeka. Ukuthola umniningwane wezakamuva, sicela ujoyine i <matrixLink>Umphakathi wokuxoxisana wematrix</matrixLink> noma vakashela i<githubLink>GitHub</githubLink> noma <discourseLink> amaforamu wethu e-Discourse</discourseLink> ukuhambisa noma ukuqapha izinkinga ohlangabezana nazo ezimayelana nesayithi.
 error-code = Error { $code }
 
 ## Data
@@ -988,6 +995,7 @@ return-to-edit-goal = Buyela lapha ukuze ushintshe injongo yakho noma nini.
 
 keep = Gcina
 remove = Susa
+keep-info = Amazwi wenu aqoshiwe afihliwe azohlala kwidathasethi yeCommon Voice. Uma ususa imininingwane yakho, angeke usakwazi ukuthumela isicelo sokususa konke okuqophile kwidathasethi.
 remove-info = Isicelo sakho sokususa amazwi akho aqoshiwe kwisizinda sizosibhekisiswa. Uma isicelo sakho sivunywa, sizoxhumana nabo bonke asebasifakile kumadivayisi abo, sibacele ukuba bawasuse nabo.
 why-delete-recordings =
     Amazwi aqoshiwe weCommon Voice asetshenziswa izifundiswa, amabhizinisi amancane, nabantu abantu abathanda amazwi aqoshiwe ukusiza ekufundiseni nokukhulisa emphakathini izinsiza ezinjengama modela amazwi. 
@@ -1022,6 +1030,7 @@ download-request-modal-title = Downloda Izixhumanisi
 download-request-modal-description = Nazi izixhumanisi zokuloda amafayela akho e-ZIP.
 download-request-link-text = I-Zip #{ $offset } ye-{ $total }
 download-request-metadata-link = Umbhalo womusho
+download-request-link-single = Ungakopisha futhi unamathisele amaURL aqondile kumaneja oyithandayo. Azophelelwa isikhathi emuva kwamahora awu-12, kodwa ungabuyela kule likhasi ukukhanda amasha noma nini.
 
 ## Landing
 
@@ -1115,6 +1124,7 @@ contribution-volume-description = Kuzoba khona ukuhluka okungokwemvelo kwevolumu
 contribution-reader-effects-title = Imiphumela Yomfundi
 contribution-reader-effects-description = Okurekhodiwe okuningi okwabantu abakhuluma ngezwi labo lemvelo. Ungamukela ukurekhodwa okungajwayelekile ngezikhathi ezithile okumemezayo, kuhletshwayo, noma okulethwa ngokusobala ngezwi ‘elimangalisayo’. Sicela wenqabe okurekhodiwe okuculwa kanye nalabo abasebenzisa izwi elenziwe ngekhompuyutha.
 contribution-just-unsure-title = Awuqinisekile nje kuphela?
+contribution-just-unsure-description = Uma uthola into kulemihlahlandlela engabalwanga, sicela uvote ngendlela yakho yokwahlulela. Uma ungakwazi ukwenza isinqumo, sebenzisa inkinobho yokweqela kokuqoshiwe okulandelayo.
 see-more = <chevron></chevron>Buka Okuningi
 see-less = <chevron></chevron>Bona okuncane
 
@@ -1169,6 +1179,7 @@ sc-howto-addsen-item-4 = Izimpawu zenkulumo. Izimpawu ezikhethekile nezimpawu za
 sc-howto-addsen-item-5 = Izinhlamvu zamagama ezingajwayelekile. Izinhlamvu zamagama kufanele zivumeleke olimini olukhulunywayo. Isibonelo, “ж” inhlamvu olimini lwesi-Russia kepha alisetshenziswa esiNgisini, ngakho-ke akufanelanga livele kumbhalo wesiNgisi.
 sc-howto-addsen-post-1 = Sincamela imisho eyemvelo/exoxayo. Indlela yokukhuluma ehlikahlukene namagama ahlukahlukene emishweni abalulekile, kepha sizama ukuqopha imisho emnandi. Ngalokho ke, kungakuhle uma ungazama ukwenza imisho yakho eyemvelo noma ibandakanye kakhulu.
 sc-howto-cite-title = Ungacaphuna Kanjani
+sc-howto-cite-pre-1 = Kubalulekile ukusho ukuthi uyithole kuphi ilayisensi yomphakathi khona uzogwema ukukopa nokuthi uvumele ukulandelela ku <copyrightIssuesLink>izindaba zamalungelo obunikazi</copyrightIssuesLink>. Nazi izindlela zokulandisa umsebenzi.
 sc-howto-cite-item-1 = Ungafaka iwebhusayithi, isb "Common Voice - https://commonvoice.mozilla.org/"
 sc-howto-cite-item-2 = Ungasebenzisa isitayela sereferensi yezemfundo, isb isitayela sase-Harvard "Mozilla (2021) Common Voice. Itholakala ku https://commonvoice.mozilla.org/ (Kufinyelelwe: 15th September 2021)"
 sc-howto-cite-item-3 = Ngombhalo wesizinda esisesidlangalaleni ongatholakali ku-inthanethi, ungasebenzisa isitayela sereferensi yezemfundo isb isitayela saseHarvard "Jess (2021) Izinkondlo Zami Zelayisensi Yomphakathi"
@@ -1187,6 +1198,7 @@ sc-howto-findpd-tips-1 = Imithombo engcono kakhulu ongayibheka amaphodikasti, ok
 sc-howto-findpd-tips-3 = Ngeshwa asikwazi ukuba nezindatshana ze-Wikimedia okwamanje. Ngakho-ke ungakopishi ukunamathisela kusuka lapho.
 sc-howto-findpd-subtitle-2 = Hlanganyela nezinhlangano zendawo noma abantu ngabanye
 sc-howto-findpd-partner-1 = Ziningi izinhlangano ezingafuna ukusebenzisana futhi ezinombhalo omningi ezingawunikela kumthombo womphakathi. Finyelela kumanyuvesi wendawo, kuhulumeni kanye nezinsiza ezivulelekile zezinhlangano, ukukhuluma ngaleprojekthi, ucele usizo.
+sc-howto-findpd-partner-2 = Ochwepheshe bezilimi nabo bangasiza ngokufinyelela kwizazi zezilimi zasemanyuvesi wendawo (othisha nabafundi) babone ukuthi bangahlanganisa kanjani imisindo ehlukahlukene yemisho ngolimi lakho.
 
 ## MY SENTENCES
 
