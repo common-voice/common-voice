@@ -756,6 +756,7 @@ demo-dashboard-card-body = Mo kgatisong nngwe le nngwe ya lentswe e e abilweng, 
 ## Validation criteria
 
 contribution-criteria-nav = Mokgwa
+contribution-criteria-link = Tlhaloganya mokgwa wa go abelana
 contribution-criteria-page-description = Tlhaloganya gore o tshwanetse go batla eng fa o reeditse dikgatiso tsa mantswe mme o thuse go dira gore dikgatiso tsa gago tsa mantswe di tshwanele!
 contribution-misreadings-title = Tse di sa balwang sentle
 contribution-misreadings-description = Fa o reeditse, tlhatlhoba ka kelotlhoko gore a se se gatisitsweng ke sone tota se se kwadilweng; se gane le fa go na le diphoso tse dinnye tota. <br />Diphoso tse di tlwaelegileng thata di akaretsa:
