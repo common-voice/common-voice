@@ -45,6 +45,9 @@ eu = Se-Basque
 hr = Se-Croatia
 hy-AM = Se-Armania
 hyw = Se-Armenia sa Bophirima
+ko = Se-Korea
+kpv = Se-Komi-Zyria
+ky = Se-Kyrgyz
 lij = Se-Liguria
 lt = Se-Lithuania
 my = Se-Burma
@@ -55,6 +58,7 @@ pa-IN = Se-Punjabi
 pt = Sepotokisi
 ro = Se-Romania
 ru = Se-Russia
+rw = Se-Kinyarwanda
 sc = Se-Sardinia
 scn = Se-Sicily
 shi = Se-Shilha
@@ -504,6 +508,7 @@ language-total-progress = Palogotlhe
 language-search-input =
     .placeholder = Senka
 language-speakers = Dibui
+localized = E ranoletswe
 sentences = Dipolelo
 
 ## Contribution
