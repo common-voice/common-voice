@@ -76,6 +76,7 @@ join-newsletter = Ni nga khetha u vha tshipiḓa tsha vha re kha mutevhe wa emai
 
 ## What's public
 
+whats-public = Ndi zwifhio zwa Tshitshavha?
 email-not-public = A ri nga iti uri email yaṋu i vhonwe nga nnyi na nnyi.
 recordings-and-locale-public = Tshivhalo tsha zwo rekhodiwaho na nyambo dze na nikela khadzo zwi ḓo vhoniwa nga munwe na munwe.
 username-optin-public = Ni nga nanga u ita uri username yaṋu i vhonwe nga nnyi na nnyi kana u i dzumba.
@@ -213,6 +214,7 @@ how-does-it-work-text = Ri khou lingedza u wana maipfi kha tshitshavha uri ri it
 ## How does it work section
 
 about-language-req-subtitle = Hu na we a humbela uri luambo lu pangiwe.
+about-localization-title = U ita uri website i shume vhuponi ha henefho
 about-localization-subtitle = Mafhungo a re kha heyi website o ḓologiwa nga holuya luambo.
 about-sentence-collection-subtitle = Mitaladzi i kuvhanganyiwa uri vhathu vha i vhalele nṱha.
 about-new-lang-title = Luambo luswa lwo ḽontshiwa
@@ -244,6 +246,7 @@ about-get-involved-text-2 =
 about-stay-in-touch = Ndi nga dzula hani ndi tshi kwamana navho?
 about-stay-in-touch-text-1 = <emailFragment>Ḓiṅwaliseni</emailFragment> kha mutevhe wa mailing yashu ni gude uri ni nga dzhenelela hani kha mafulo, dzi event, na co-design features kha CommonVoice.
 about-stay-in-touch-text-2 = Ni nga ṱangana na vhaṅwe kha zwigwada zwa luambo zwa Mozilla nga u dzhena na vha tshipiḓa <discourseLink>Discourse</discourseLink> u wana nyambedzano, kana <matrixLink>Matrix</matrixLink> u wana tsivhudzo nga tshihaḓu.
+about-nav-why-common-voice = Ngani ?
 about-nav-how-it-works-2 = Common Voice i shumisa hani?
 about-nav-playbook = Gudani uri ni nga dzhelelela hani
 
@@ -485,6 +488,7 @@ review-tooltip = Ṱolisisani & ni dovholole u rekhoda ni tshi khou bvela phan�
 share-clip = Sherani zwe na rekhoda
 share-common-voice = Sherani Common Voice
 review-instruction = Ṱolisisani & dovhololani u rekhoda arali zwo fanela
+record-submit-tooltip = { $actionType } Rumelani musi no lugela
 record-abort-title = Fhedzani u rekhoda u thoma?
 record-abort-text = Na ṱuwa zwino ni ḓo xelelwa nga mvela phanḓa yaṋu
 record-abort-delete = Ibvani & Ḓilitani zwo rekhodiwaho
@@ -526,6 +530,7 @@ report-success = Muvhigo wo phasa
 
 ## Dashboard
 
+your-languages = Nyambo dzaṋu
 toward-next-goal = Tsini na thipikwa tshi tevhelaho
 clips-you-recorded = Zwo rekhodiwaho
 clips-you-validated = Zwo rekhodiwaho zwe na zwi khaṱhisedza uri ndi zwone
@@ -542,6 +547,7 @@ get-started-goals = Thomani u ḓiitela zwipikwa
 create-custom-goal = Itani tshipikwa tsho ḓoweleaho
 goal-type = Ndi tshipikwa ḓe tshine na khou ṱoḓa u tshi ita?
 both-speak-and-listen-long = Zwoṱhe (Ambani na u Thetshelesa)
+weekly-goal = Tshipikwa tsha Vhege
 lose-goal-progress-warning = Nga u editha tshipikwa tshaṋu, ni nga xelelwa nga mvela phanḓa ya zwe na zwi ita.
 want-to-continue = Ni khou ṱoḓa u isa phanḓa?
 finish-editing = Fhedzani u editha u thoma?
@@ -607,6 +613,7 @@ download-request-link-single = Ni nga kopa u ṋambatedza nga ho livhaho kha URL
 
 ## Landing
 
+welcome-staff = No ṱanganedzwa { $company } vhashumi!
 help-contribute = Ni nga thusa kha u ita dataset khulwane ya nnyi na nnyi nga u ita Profaiḽi ya Common Voice na u nikela nga ipfi ḽaṋu.
 login-company = Log In / Sign Up na { $company } email
 profile-not-required = A zwi ṱoḓei uri ni vhe na profaiḽi uri ni nikele, fhedzi zwi a thusa, ṱhogomelani uri ndi ngani a fho fhasi.
@@ -655,6 +662,7 @@ contribution-misreadings-description-extended-list-4 = Ho shotha ipfi ḽa u fhe
 contribution-misreadings-description-extended-list-5 = U lingedza lwo vhalaho u vhala ipfi.
 contribution-misreadings-example-1-title = Dinosaurs khulu ya Triassic.
 contribution-misreadings-example-2-title = Dinosaur khulu ya Triassi-.
+contribution-misreadings-example-2-explanation = [ Tea u vha 'dinosaurs']
 contribution-misreadings-example-3-title = Dinosaurs khulu ya Triassi-.
 contribution-misreadings-example-3-explanation = [Zwo rekhodiwaho zwo khathuwa ipfi ḽa u fhedza ḽi sa athu fhelela]
 contribution-misreadings-example-4-title = Dinosaurs khulu ya Triassic. Ee.
@@ -821,6 +829,9 @@ sc-confirm-sentences-found =
         [one] [one] ho wanala mutaladzi 1.
        *[other] *[other] { $countOfSentences } ho wanala mitaladzi.
     }
+# Variables:
+#   $countOfInvalidated (Number) - Number of sentences the user rejected in the review form before submission
+sc-confirm-rejected-by-you = { $countOfInvalidated } haniwa nga inwi
 sc-confirm-already-reviewed =
     { $countOfReviewed ->
         [0] [0] A hu na mutaladzi wo no ṱoliwaho.
@@ -892,6 +903,10 @@ sc-login-err-try-again = Ri humbela uri ni dovhe hafhu.
 
 sc-personal-err-lang-not-found = A zwo ngo konadzea u bvisa luambo: luambo a lwo ngo wanala
 sc-personal-err-remove = A yo ngo kona u bvisa luambo
+sc-personal-your-languages = Nyambo dzaṋu
+# Variables:
+#   $sentences (Number) - Number of sentences that were added by the currently logged in user for this language
+sc-personal-added-by-you = { $sentences } pangiwa nga inwi
 sc-personal-not-added = A ni athu u panga luambo na luthihi u swika zwino.
 
 ## REVIEW CRITERIA
