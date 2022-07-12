@@ -204,6 +204,7 @@ why-profile-text =
     Recognition tse di dirisang tshedimosetso eno go tokafatsa go nepa ga tsone.
 build-profile = Aga Porofaele
 avatar = Setshwantsho
+settings = Diseting
 profile-close = Tswala
 profile-explanation = Ela tlhoko kgatelopele ya gago o dirisa porofaele mme o thuse tshedimosetso ya rona ya mantswe gore e nepagale thata.
 thanks-for-account = Re lebogela go tlhomamisa akhaonto ya gago, jaanong a re dire porofaele ya gago.
@@ -803,6 +804,7 @@ sc-review-form-review-failure = E o e sekasekileng ga e a bolokega. Tsweetswee l
 
 ## SETTINGS
 
+sc-settings-title = Diseting
 sc-settings-skipped-decription = O tlodile mela kwa morago fa o ntse o sekaseka. Go rulaganya sesha mela e e tlodilweng go tla bontsha gape mela yotlhe e o e tlodileng. Seno ga se a ikaega ka puo.
 # VALIDATION
 sc-validation-number-of-words = Mola o tshwanetse go nna le mafoko a a magareng ga 1 le 14 (a a feletseng)
