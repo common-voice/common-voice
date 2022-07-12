@@ -382,15 +382,19 @@ target-segment-first-banner = Nceda wenze icandelo lokuqala ekujoliswe kulo leCo
 ## Reporting
 
 report-ask = Yeyiphi imiba onayo ngesi sivakalisi?
+report-offensive-language-detail = Isivakalisi sinolwimi olukrwada okanye olukhubekisayo.
 report-grammar-or-spelling-detail = Isivakalisi sinempazamo yegrama okanye yopelo.
 report-different-language-detail = Kubhalwe ngolwimi olwahlukileyo kunento endiyithethayo.
 report-difficult-pronounce-detail = Inamagama okanye amabinzana ekunzima ukuwafunda okanye ukwabiza.
+report-offensive-speech-detail = Ikliphu inolwimi olukrwada okanye olukhubekisayo.
 
 ## Goals
 
 
 ## Dashboard
 
+todays-recorded-progress = Inkqubela yanamhlanje yeCommon Voice kwiikliphu ezirekhodiweyo
+todays-validated-progress = Inkqubela yanamhlanje yeCommon Voice kwiikliphu iqinisekisiwe
 visibility-explainer = Olu seto lulawula ukubonakala kwebhodi yabaphambili. Xa ufihliwe, inkqubela yakho iya kuba yeyabucala. Oku kuthetha ukuba umfanekiso wakho, igama lomsebenzisi lakho kunye nenkqubela phambili ayizukubonakala kwi-leaderboard. Qaphela ukuba uhlaziyo lwe-leaderboard luthatha imizuzu ~{ $minutes } ukuqokelela utshintsho.
 visibility-overlay-note = Qaphela: Xa imiselwe 'Iyabonakala', olu seto lungatshintshwa ukusuka kwi <profileLink>Profayile</profileLink>
 
@@ -429,6 +433,7 @@ help-share-goal = Sincede sifumane amazwi amaninzi, yabelana nenjongo yakho
 # LINK will be replaced with the current URL
 goal-share-text = Ndisandula ukwenza injongo yam yokunikela ngelizwi kwi #CommonVoice--ndijoyine kwaye uncede ukufundisa oomatshini indlela abantu bokwenyani abathetha ngayo { $link }
 track-progress = Khuphela inkqubela phambili apha nakwiphepha lakho le-Stats.
+return-to-edit-goal = Buyela apha ukuze uhlele injongo yakho nangaliphi na ixesha.
 
 ## Profile Delete
 
@@ -439,6 +444,7 @@ why-delete-recordings = Ukurekhodwa kwe-Common Voice kusetyenziswa ngabafundi, a
 
 ## Profile Download
 
+download-info = Sixelele into ongathanda ukuyikhuphela:
 download-profile-info = Kubandakanya i-imeyile, igama lomsebenzisi kunye nolwazi le-demographic, luyafumaneka kwangoko
 download-recordings-info = Kubandakanya ii-mp3s kunye nezivakalisi ezinxulumene noko, zinokuthatha ixesha ukulungiselela
 download-recordings-unavailable = Awukwazi ukucela iirekhodingi zakho ngelixa esinye isicelo sele siqhubeka.
@@ -488,8 +494,11 @@ contribution-misreadings-description-extended-list-1 = Kushota i<strong>'A'</str
 contribution-misreadings-description-extended-list-2 = Ilahlekile i <strong> 's' </strong> ekupheleni kwegama.
 contribution-misreadings-description-extended-list-3 = Ukufunda izifinyezo ezingekhoyo ngokwenyani, ezinjengokuthi "We're" endaweni yokuthi "We are", okanye ngokutshintshana.
 contribution-misreadings-description-extended-list-4 = Ukuphoswa sisiphelo segama lokugqibela ngokuqhawula ukurekhoda ngokukhawuleza.
+contribution-misreadings-description-extended-list-5 = Ukuthatha iinzame ezininzi zokufunda igama.
 contribution-misreadings-example-3-explanation = [Ushicelelo luthe lwaqhawuka off phambi kwegama lokugqibela]
+contribution-misreadings-example-4-title = Iidinosaurs ezinkulu zeTriassic. Ewe.
 contribution-misreadings-example-4-explanation = [Okurekhodiweyo kungaphaya komlinganiselo wamagama odingekayo]
+contribution-misreadings-example-5-title = Siyahamba siyokufumana ikofu.
 contribution-misreadings-example-7-title = Siyokufumana ikofu.
 contribution-varying-pronunciations-description = Lumka ngaphambi kokuba wale ikliphu kuba lowo uthe walifunda engalibizanga ngokungamnkelekanga igama, othe wagxininisa kwindawo engafanelekanga, okanye uye akaluhoya uphawu lombuzo. Kukho iintlobo ngeentlobo zokubizwa kwamagama asetyenziswayo kwihlabathi jikelele, ekusenokwenzeka ukuba awuzange waziva kwindawo ohlala kuyo. Nceda wamkele futhi uxabise abo banokuthetha ngokwahlukileyo kuwe.
 contribution-varying-pronunciations-description-extended = Lumka ngaphambi kokuba wale ikliphu kuba lowo uthe walifunda engalibizanga ngokungamnkelekanga igama, othe wagxininisa kwindawo engafanelekanga, okanye uye akaluhoya uphawu lombuzo. Kukho iintlobo ngeentlobo zokubizwa kwamagama asetyenziswayo kwihlabathi jikelele, ekusenokwenzeka ukuba awuzange waziva kwindawo ohlala kuyo. Nceda wamkele futhi uxabise abo banokuthetha ngokwahlukileyo kuwe.
@@ -690,6 +699,7 @@ sc-criteria-item-6 = Ukuba uphelelwa zizivakalisi zokuphonononga, nceda usincede
 ## REVIEW
 
 sc-review-lang-not-selected = Awukhethanga naziphi na iilwimi.Nceda uye kwi <profileLink>Profile</profileLink> yakho ukukhetha iilwimi.
+sc-review-select-language = Nceda ukhethe ulwimi lokuphonononga izivakalisi.
 sc-review-no-sentences = Akukho zivakalisi zokuphononongwa. <addLink>Yongeza izivakalisi ngoku!</addLink>
 sc-review-form-usage = Swayipha ekunene ukuze uvume isivakalisi. Swayipha ekhohlo ukusala isivakalisi. Swayiphela phezulu ukuze uyitsibe. <strong>Ungalibali ukuthumela ingxelo yakho!</strong>
 sc-review-form-keyboard-usage-custom = Unokusebenzisa kwakhona iindlela ezimfutshane zekhibhodi  { sc-review-form-button-approve-shortcut } ukuvuma { sc-review-form-button-reject-shortcut } ukwala { sc-review-form-button-skip-shortcut } nokutsiba
