@@ -54,6 +54,7 @@ he = Sehebera
 hr = Se-Croatia
 hsb = Se-Sorbia, sa kwa Godimo
 ht = Se-Haiti
+hu = Se-Hungary
 hy-AM = Se-Armania
 hyw = Se-Armenia sa Bophirima
 id = Se-Indonesia
