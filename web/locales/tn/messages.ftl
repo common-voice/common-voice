@@ -780,12 +780,16 @@ go-languages-page = Ya Kwa Tsebeng ya Dipuo
 ready-to-validate = A o ipaakanyeditse go tlhomamisa mela?
 more = Mo go Oketsegileng
 close = Tswala
+download = Itseele
 dataset-version = Thanolelo
 
 ## Download Modal
 
 download-title = Selo se o se itseelang se simolotse go tsena.
 download-helpus = Re thuse go aga setšhaba ka thekenoloji ya lentswe, nna o ikgolaganya ka imeile.
+download-form-email =
+    .label = Tsenya imeile ya gago.
+    .value = Re a leboga, re tla ikgolaganya le wena.
 download-back = Boela Kwa Direkotong Tsa Tshedimosetso Tsa Common Voice
 download-no = Nyaa ke Siame
 
@@ -827,6 +831,7 @@ request-language-form-info-explanation = Tsenya tshedimosetso e ntsi ka fa o ka 
 request-language-form-info-explanation-list-1 = Maina a puo ya gago
 request-language-form-info-explanation-list-2 = <isoCodeLink>Dikhouto tsa ISO</isoCodeLink> fa di itsiwe
 request-language-form-info-explanation-list-3 = Dilinki tsa diwebosaete tse di ka re thusang go tlhaloganya puo
+request-language-google-recaptcha-required = reCAPTCHA e a tlhokega fa o batla go tswelela
 request-language-google-recaptcha-error = Sengwe ga se a tsamaya sentle ka reCAPTCHA. Tsweetsee leka gape.
 # Success page
 request-language-success-heading = Re a leboga! O rometse kopo ya puo e ntšha
@@ -843,6 +848,7 @@ request-language-error = Re ka tswa re ise re amogele kopo eo. Tsweetswee re rom
 
 ## Languages Overview
 
+language-section-in-progress = E a Tswelela
 language-section-in-progress-new-description = Ga jaana dipuo tseno di tokafadiwa ke badirisi. <localizationGlossaryLink>Go ranola webosaete</localizationGlossaryLink> le <sentenceCollectionGlossaryLink>go kgobokanya mela</sentenceCollectionGlossaryLink> go a tlhokega go diragatsa.
 language-section-launched = E thankgolotswe
 language-section-launched-description = Mo dipuong tseno tse di simolotsweng, webosaete e <localizationGlossaryLink>dirilwe ya selegae</localizationGlossaryLink> ka katlego, mme e na le <sentenceCollectionGlossaryLink>dipolelo tse di lekaneng tse di phuthilweng</sentenceCollectionGlossaryLink> go letla dikabo tse di tswelelang tsa <speakLink>Bua</speakLink> le <listenLink>Reetsa</listenLink>.
@@ -862,6 +868,7 @@ language-validation-progress = Kgatelopele ya go Tlhomamisa
 
 action-click = Tobetsa
 action-tap = Konya
+contribute = Aba
 listen = Reetsa
 skip = Tlola
 shortcuts = Ditlhabanyetso
@@ -886,6 +893,7 @@ record-platform-not-supported = Re maswabi, polatefomo ya gago ga e tshegediwe g
 record-platform-not-supported-desktop = Mo didirisiweng tsa desekethopo, o ka tsaya karolo ka go itseela...
 record-platform-not-supported-ios-non-safari = Mo iOS tsweetswee tswelela ka Safari go dira gore e kgone go gatisa…
 record-must-allow-microphone = O tshwanetse go letlelela go dirisa maekerofouno.
+record-no-mic-found = Ga go a fitlhelwa maekerofouno ope.
 record-error-too-short = Kgatiso e ne e le khutshwane thata.
 record-error-too-long = Kgatiso e ne e le telele thata.
 record-error-too-quiet = Kgatiso e ne e didimetse thata.
@@ -905,6 +913,7 @@ clips-uploaded = Dibidio di tsentswe
 record-abort-title = Fetsa go gatisa pele?
 record-abort-text = Fa o tswa gone jaanong o tla latlhegelwa ke kgatelopele e o e dirileng
 record-abort-submit = Romela dikgatiso
+record-abort-continue = Fetsa kgatiso
 record-abort-delete = Tswa & Phimola dikgatiso
 listen-instruction = { $actionType }<playIcon></playIcon> a ba buile mola ka tsela e e nepagetseng?
 listen-again-instruction = O berekile!<playIcon></playIcon> Reetsa gape fa o ipaakantse
@@ -934,6 +943,7 @@ report-offensive-language = Puo e e kgopisang
 report-offensive-language-detail = Mola o na le puo ya lenyatso kgotsa e e kgopisang.
 report-grammar-or-spelling = Phoso ya thutapuo / mopeleto
 report-grammar-or-spelling-detail = Mola o na le phoso ya thutapuo kgotsa ya mopeleto.
+report-different-language = Puo e e farologaneng
 report-different-language-detail = E kwadilwe ka puo e e farologaneng le e ke e buang.
 report-difficult-pronounce = Go thata go le bitsa
 report-difficult-pronounce-detail = E na le mafoko kgotsa dipolelo tse go leng thata go di bala kgotsa go di bitsa.
@@ -980,6 +990,7 @@ validations =
 
 your-languages = Dipuo Tsa Gago
 toward-next-goal = Go ya maikaelelong a a latelang
+goal-reached = Boikaelelo bo fitlheletswe
 clips-you-recorded = Dibidio tse o di Rekotileng
 clips-you-validated = Dibidio Tse o di Tlhomamisitseng
 todays-recorded-progress = Kgatelopele ya gompieno ya Common Voice ya dikgatiso tse di dirilweng
@@ -987,9 +998,12 @@ todays-validated-progress = Kgatelopele ya gompieno ya Common Voice ya dikgatiso
 stats = Dipalopalo
 awards = Dikgele
 you = Wena
+everyone = Mongwe le mongwe
+contribution-activity = Tiro ya go Aba
 top-contributors = Baabi ba ba Kwa Godimo
 recorded-clips = Dikgatiso
 validated-clips = Dikgatiso Tse di Tlhomamisitsweng
+total-approved = Palogotlhe ya tse di Amogetsweng
 overall-accuracy = Go Nepa ka Kakaretso
 set-visibility = Dira gore ke bonale
 visibility-explainer = Seting eno e laola tsela e o bonang lenaane la baetapele ka yone. Fa e fitlhegile, kgatelopele ya gago e tla nna ya poraefete. Seno se raya gore setshwantsho sa gago, leinatiriso la gago le kgatelopele ya gago ga di kitla di bonala mo lenaaneng la baetapele. Ela tlhoko gore go tlhabolola lenaane la baetapele go tsaya metsotso e le ~{ $minutes } go bontsha diphetogo.
@@ -1003,8 +1017,11 @@ create-custom-goal = Itirele Boikaelelo Jo o Ka bo Kgonang
 goal-type = O batla go ikagela boikaelelo jo bo ntseng jang?
 both-speak-and-listen = Ka bobedi
 both-speak-and-listen-long = Ka bobedi (Go Bua le go Reetsa)
+daily-goal = Boikaelelo jwa Letsatsi
 weekly-goal = Boikaelelo Jwa Beke
+easy-difficulty = Motlhofo
 average-difficulty = Palogare
+difficult-difficulty = Thata
 pro-difficulty = Pro
 lose-goal-progress-warning = Fa o baakanya maikaelelo a gago, o ka nna wa latlhegelwa ke kgatelopele ya gago e e gone.
 want-to-continue = A o batla go tswelela?
@@ -1080,6 +1097,7 @@ why-delete-recordings =
     Dikgatiso tsa Common Voice di dirisiwa ke barutegi, dikgwebo tse dinnye, le batho ba ba tlhagafalelang go lemoga mantswe go thusa go thapisa le go godisa didirisiwa tse di leng teng gotlhe jaaka dikao tsa mantswe.
     
     A o ka re bolelela gore ke eng o batla gore dikgatiso tsa gago di phimolwe?
+profile-form-delete = Phimola Porofaele
 
 ## Profile Download
 
@@ -1099,11 +1117,14 @@ download-start = Itseele tshedimosetso ya porofaele
 download-request = Kopa dikgatiso
 download-requests = Dikopo tsa go itseela dikgatiso tse di fetileng
 download-requests-info = Fa o kopa dikgatiso tsa gago, re di kopanya go di dira faele e le nngwe kgotsa di le mmalwa tsa ZIP. Tseno ke dikopo tsa gago tsa nako e e fetileng.
+download-request-button = Itseele
+download-request-title = { $created }
 download-request-description = Dikgatiso tsa mantswe tse { $clipCount }, bogolo jotlhe jwa akhaefe { $size }. E felelwa ke nako { $expires }.
 download-request-archive-single = E na le faele e le nngwe ya ZIP
 download-request-archive-multiple = E kgaoganye mo  difaeleng tsa ZIP di le { $archiveCount } tse di gone
 download-request-assembling-description = Difaele tsa gago di a kokoanngwa. Tsweetswee tlhola gape moragonyana.
 download-request-refresh-button = Ntšhafatsa
+download-request-modal-title = Itseele Dilinki
 download-request-modal-description = Tseno ke dilinki tsa go itseela difaele tsa gago tsa ZIP.
 download-request-link-text = # ya Zip{ $offset } ya { $total }
 download-request-metadata-link = Mokwalo wa polelo
@@ -1157,6 +1178,7 @@ demo-dashboard-card-body = Mo kgatisong nngwe le nngwe ya lentswe e e abilweng, 
 
 contribution-criteria-nav = Mokgwa
 contribution-criteria-link = Tlhaloganya mokgwa wa go abelana
+contribution-criteria-page-title = Dintlha tsa go Aba
 contribution-criteria-page-description = Tlhaloganya gore o tshwanetse go batla eng fa o reeditse dikgatiso tsa mantswe mme o thuse go dira gore dikgatiso tsa gago tsa mantswe di tshwanele!
 contribution-misreadings-title = Tse di sa balwang sentle
 contribution-misreadings-description = Fa o reeditse, tlhatlhoba ka kelotlhoko gore a se se gatisitsweng ke sone tota se se kwadilweng; se gane le fa go na le diphoso tse dinnye tota. <br />Diphoso tse di tlwaelegileng thata di akaretsa:
