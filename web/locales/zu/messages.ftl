@@ -227,12 +227,18 @@ logout = Phuma
 home-title = I-Common Voice iwuhlelo lwe-Mozilla lokusiza ukufundisa imishini ukuthi abantu bangempela bakhuluma kanjani.
 default-tagline = I-Mozilla Common Voice iyisinyathelo sokusiza ukufundisa imishini ukuthi abantu bangempela bakhuluma kanjani.
 home-cta = Khuluma, unikele lapha!
-wall-of-text-start = { "" }
+wall-of-text-start =
+    Izwi lingokwemvelo, izwi lingumuntu. Yingakho sikuthakasela ukudala izwi elisebenzisekayo
+    ubuchwepheshe bemishini yethu. Kodwa ukwakha izinhlelo zezwi, inani elikhulu kakhulu lezwi
+    idatha iyadingeka.
 wall-of-text-more-mobile = Ulwazi oluningi olusetshenziswa izinkampani ezinkulu aluvamanga ukutholokala ebantwini abaningi. Sicabanga ukuthi lokho kuthiba imibono emisha. Yingakho sethula iPhrojekthi kaCommon Voice, iphrojekthi ezosiza ukwenza ukuqoshwa kwamazwi kuvuleleke wonke umuntu.
 wall-of-text-more-desktop =
     Manje unganikela ngezwi lakho ukuze usisize sakhe isizindalwazi sezwi esinomthombo ovulekile esingasetshenziswa yinoma ubani
     ukwenza izinhlelo zokusebenza ezintsha zamadivayisi kanye newebhu. Funda umusho ukuze usize imishini ifunde ukuthi abantu bangempela bakhuluma kanjani. Hlola umsebenzi wabanye
     abahlanganyeli ukuthuthukisa ikhwalithi. Kulula kanjalo!
+wall-of-text-first =
+    Izwi lingokwemvelo, izwi lingumuntu. Yingakho sikuthakasela ukudala izwi elisebenzisekayo
+    ubuchwepheshe bemishini yethu. Kodwa ukuze bakhe amasistimu ezwi, abathuthukisi badinga inani elikhulu kakhulu lezwi idatha
 wall-of-text-second = Idatha eningi esetshenziswa izinkampani ezinkulu ayivamile ukutholokala ebantwini abaningi. Sicabanga ukuthi lokho kuthiba imibono emisha. Yingakho sethula iCommon Voice, iphrojekthi ezosiza ukwenza ukuqoshwa kwamazwi kuvuleleke wonke umuntu.
 show-wall-of-text = Funda kabanzi
 help-us-title = Sisize siqinisekise imisho!
@@ -535,7 +541,7 @@ about-nav-playbook = Funda ukuthi libanjwa kanjani iqhaza
 
 about-playbook-what-is-language = Luyini ulimi ku-Common Voice?
 about-playbook-what-is-language-content-1 = Ziningi izindlela zokucabanga ngelimi. Ngenxa yamamodela wokuqoshwa kwenkulumo, iCommon Voice iphakamisa ukugxila 'kukuqondana okuvumelanayo', noma 'izikhulumi zalolimi ziyakwazi na ukuqondana uma zizama?'
-about-playbook-what-is-language-content-3 = Ezinye izilimi zihluke kakhulu ngokuhlelo lolimi, isilulumagama kanye nokuphimisa. Ngalesosizathu, si <ctaLink>sethula i'Variants'</ctaLink> ngo 2022. Lokhu kunikea imiphakathi indlela yokuhlukanisa izilimi zabo ngaphakathi kwolwazi oluqoqiwe olukhulu.
+about-playbook-what-is-language-content-3 = Ezinye izilimi zihluke kakhulu ngokuhlelo lolimi, isilulumagama kanye nokuphimisa. Ngalesosizathu, si <ctaLink>sethula i'Variants'</ctaLink> ngo 2022. Lokhu kunikea imiphakathi indlela yokuhlukanisa izilimi zabo ngaphakathi kwedathasethi enkulu.
 
 ## How do I add a language
 
@@ -580,6 +586,7 @@ about-playbook-how-grow-language-content-3 = Ungakwazi ukuqhuba imicimbi ukunced
 about-playbook-how-grow-language-content-4 = Izinkundla zokuxhumana
 about-playbook-how-grow-language-content-5 = Ungasabenzisa izinkundla zokuxhumana ukudlulisa lo mlayezo. Yabelana ngemilayezo echaza ukubaluleka kwayo, uthintane nabanye abantu abakhuluma ngezinkinga ezifana namalungelo aphethelene nezilimi, nobuchwepheshe bamazwi, nokuchema kwesobuchwepheshe. Bheka isaluleko esengeziwe ku <campaignLink>ukuphatha umkhankaso wokuxhumana nabantu, nokuqukethwe ongaphinda ukusebenzise</campaignLink>.
 about-playbook-how-grow-language-content-6 = Ubambiswano namanethiwekhi
+about-playbook-how-grow-language-content-7 = Thola abanye abanendaba. Kungaba amanyuvesi, izikole zezilimi, amaqembu amela izilimi noma imiphakathi yedatha sayensi. Finyelela futhi uchaze kahle ukuthi bangasiza kanjani nkuthi kungani. <outreachTemplates> Bheka izifanekiso zama-emeyili wethu wokufinyelela ebantwini</outreachTemplates>.
 about-playbook-how-grow-language-content-8 = <strong>Yakha ubuciko!</strong> Umphakathi wakho wolimi uzohluka, futhi lezi izindlela ezimbalwa zokuqalisa.
 
 ## How to validate
@@ -596,6 +603,7 @@ about-playbook-how-access-dataset-content-2 = Uma ufuna amathuluzi okwakha amamo
 ## How are decisions made
 
 about-playbook-how-project-governance = Zenziwa kanjani izinqumo zephrojekthi?
+about-playbook-how-project-governance-content-1 = iMozilla Common Voice yenziwa umphakathi ohlakahlukene wezishoshovu, izazi zezilimi, ososayensi bolwazi, izifundiswa nonjiniyela bazeinhlelo zamakhompyutha.
 about-playbook-how-project-governance-content-2 = Ukubusa kwethu kusekelwe phezu kwezinsika:
 about-playbook-how-project-governance-content-3 = Ubumfihlo, ukuphepha kanye nokungafihli lutho.
 about-playbook-how-project-governance-content-4 = Ukubamba iqhaza komphakathi kanye nokwenza izinqumo.
@@ -610,6 +618,7 @@ localization = Ukwenziwa njengokwasendaweni
 localization-explanation = Lena inqubo yethu yokuhumusha nokulungisa okuqukethwe kwethu ezindaweni eziningi (izilimi).
 sentence-collection-explanation = Ukuqoqa imisho esizindeni somphakathi, noma ukubhala emisha esizindeni somphakathi.
 hours-recorded-explanation = Isibalo samahora okuqoshwa kwezwi esiwaqoqile kuze kube manje.
+hours-validated-explanation = Ukubalwa kwamahora wamazwi aqoshiwe aqinisekisiwe ngabantu abangu-2 kwaba-3 ngo Yebo. Lokhu kubonisa inqubekela phambili ngasekufinyeleleni kwisifezo samahora awu-10k.
 sst = Inkulumo-kuya-umbhalo
 sst-explanation = Ubuchwepheshe beSpeech-to-text (STT) buguqula idatha yezwi ibe umbhalo.
 de-identified = Susa ukubonakala
@@ -692,6 +701,7 @@ get-started-speech = Qalisa Ngokuqaphela Inkulumo
 other-datasets = Amanye Amadathasethi Ezwi
 feedback-q = Unayo Impendulo?
 resource-nemo-info = I-<githubLink>NVIDIA NeMo</githubLink>™ iyi-<docsLink>ikhithi yamathuluzi yomthombo ovulekile</docsLink> yabacwaningi abakha amamodeli e-AI engxoxo esezingeni eliphezulu.
+resource-deepspeech-info = Injini yeDeep Speech eyinsiza evulelekile yakwaMozilla yamazwi aqoshiwe ingasetshenziswa ukwakha izinhlelo zokusebenza zamazwi aqoshiwe. Funda i <githubLink>i-overview yeGithub</githubLink> noma joyina <discourseLink>UkukhulumaOkujulile</discourseLink> ukufunda ukuthi ungaqala kanjani.
 resource-coqui-info = I-<coquiLink>Coqui</coquiLink> inikezelwe ekuvuleni ubuchwepheshe benkulumo. Amaphrojekthi abo ahlanganisa ukufunda okujulile okusekelwe ku-STT kanye nezinjini ze-TTS.
 community-playbook = I-Playbook yomphakathi
 resource-playbook-info = <playbookLink>Thola isiqondiso esiwusizo</playbookLink> kulo lonke uhambo lwe-Common Voice, kusukela ekwenzeni okwasendaweni kuya ekusetshenzisweni kwedathasethi, kanye nendlela yokuxhumana nomphakathi wethu.
@@ -1191,6 +1201,7 @@ sc-howto-review-criteria-1 = Umusho kumele ubhalwe ngendlela efanele.
 sc-howto-review-criteria-2 = Umusho kumele uhambisane nohlelo lolimi.
 sc-howto-review-criteria-3 = Umusho kumele ukhulumeke.
 sc-howto-review-criteria-4 = Uma umusho uhambisana nemibandela, chofoza inkinobho ethi "Vumela".
+sc-howto-review-criteria-5 = Uma umusho ungalandeli lemibandela engaphezulu, cindezela inkinobho ka "Reject". Uma ngabe ungaqinisekanga ngomusho, ungaweqa uye kulowo olandelayo.
 sc-howto-review-criteria-6 = Uma uphelelwa imisho okufanele uyibuyekeze, sicela usisize siqoqe imisho eminingi!
 sc-howto-findpd-title = Ukuthola imisho ekhona Kusizinda Somphakathi
 sc-howto-findpd-subtitle = Babheke ku-inthanethi
