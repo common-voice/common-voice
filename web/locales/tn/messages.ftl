@@ -43,6 +43,7 @@ cv = Se-Chuvash
 cy = Se-Wales
 da = Se-Denmark
 dsb = Se-Sorbia, sa kwa Tlase
+el = Segerika
 es = Se-Spain
 eu = Se-Basque
 gn = Se-Guarani
@@ -131,6 +132,7 @@ profile = Porofaele
 contact = Ikgolaganye
 privacy = Bosephiri
 terms = Melawana
+content-license-text = Diteng di gone mo <licenseLink> laesenseng ya Creative Commons</licenseLink>
 share-text = Thusa go ruta metšhine  gore batho ba mmatota ba bua jang, abelana ka lentswe la gago mo { $link }
 
 ## Home Page
@@ -237,6 +239,8 @@ profile-form-additional-language =
     .label = Puo e Nngwe Gape
 profile-form-language =
     .label = Puo
+profile-form-variant =
+    .label = O bua mofuta ofe wa { $language }?
 profile-form-accent =
     .label = Puo
 profile-form-age =
@@ -249,6 +253,7 @@ why-profile-text =
     Recognition tse di dirisang tshedimosetso eno go tokafatsa go nepa ga tsone.
 build-profile = Aga Porofaele
 avatar = Setshwantsho
+goals = Maikaelelo
 settings = Diseting
 profile-close = Tswala
 profile-explanation = Ela tlhoko kgatelopele ya gago o dirisa porofaele mme o thuse tshedimosetso ya rona ya mantswe gore e nepagale thata.
@@ -481,6 +486,7 @@ splits = Tse di kgaoganeng
 why-email = <b>Goreng imeile?</b> Re ka tlhoka go ikgolaganya le wena mo isagweng malebana le diphetogo tsa tshedimosetso, imeile ke tsela e re ikgolaganyang ka yone.
 confirm-size = O ipaakanyeditse go simolola go itseela <b>{ $size }</b>
 confirm-no-identify = <b>O dumela</b>go sa leke go lemoga boikitsiso jwa babui ba ba mo rekotong ya tshedimosetso ya Common Voice
+whats-inside = Ke eng se se mo rekotong ya tshedimosetso ya Common Voice?
 dataset-description-hours =
     Matseno mangwe le mangwe mo tshedimosetsong a na le MP3 e e tlhomologileng le faele e e tsamaisanang le yone ya mokwalo. Bontsi jwa diura tse <b>{ $total }</b> tse di gatisitsweng mo tshedimosetsong le tsone di akaretsa tshedimosetso ya dipalopalo jaaka dingwaga, bong, le segalo se se ka thusang go thapisa go nepa ga dithulaganyo tse di lemogang mantswe.
     
@@ -579,6 +585,7 @@ speak-empty-state = Re feletswe ke mela e re ka e gatisang ka puo eno...
 speak-empty-state-cta = Aba mela
 speak-loading-error = Ga re a kgona go bona mela e o ka e buang. Tsweetswee leka gape moragonyana.
 target-segment-first-card = O abelana go karolwana ya rona ya ntlha ya puo
+target-segment-generic-card = O abelana go karolwana ya puo
 
 ## Reporting
 
@@ -628,6 +635,8 @@ share-goal-type-speak = E a bua
 share-goal-type-listen = O reeditse
 # LINK will be replaced with the current URL
 goal-share-text = Ke fetsa go dira maikaelelo a botho a go abelana ka lentswe go #CommonVoice -- dira le nna mme o nthuse go ruta metšhine  gore batho ba mmatota ba bua jang { $link }
+weekly-goal-created = Maikaelelo a gago a beke a dirilwe
+daily-goal-created = Maikaelelo a gago a letsatsi a dirilwe
 return-to-edit-goal = Boela fano nako nngwe le nngwe go baakanya maikaelelo a gago
 
 ## Profile Delete
@@ -719,6 +728,7 @@ contribution-background-noise-title = Modumo kwa Lemoragong
 contribution-background-noise-description = Re batla gore go ithuta ga metšhine go kgone go lepalepana le medumo e mentsi e e kwa morago, le medumo e e kwa godimo e ka amogelesega fa fela e sa go thibele go utlwa mokwalo otlhe. Mmino o o lelang kwa morago go didimetse o siame; mmino o o kwa godimo thata mo o go thibelang go utlwa mafoko otlhe ga wa siama.
 contribution-background-noise-description-extended = Fa kgatiso e kgaoga kgotsa e gagasha, e gane, ntle le fa mafoko otlhe a kgona go utlwiwa.
 contribution-background-noise-example-1-fixed-title = <strong>[Sneeze]</strong> Di-dinosaur tse dikgolo tsa <strong>[cough]</strong> Triassic.
+contribution-background-noise-example-2-explanation = [Karolo ya mokwalo ga e utlwale]
 contribution-background-voices-title = Mantswe mo Lemoragong
 contribution-background-voices-description = Tlhakatlhakano e e utlwalang mo lefelong le le didimetseng e siame, mme ga re batle mantswe a a oketsegileng a a ka dirang gore motšhine o se ka wa lemoga mafoko a a sa kwalwang. Fa o ka utlwa mafoko a a farologaneng le a a kwadilweng, kgatiso eo e tshwanetswe go ganwa. Gantsi seno se direga fa TV e tlogetswe e tshubilwe, kgotsa fa go na le motlotlo o o tsweletseng fa gaufi.
 contribution-background-voices-description-extended = Fa kgatiso e kgaoga kgotsa e gagasha, e gane, ntle le fa mafoko otlhe a kgona go utlwiwa.
@@ -925,6 +935,7 @@ sc-review-link = Sekaseka
 
 sc-settings-title = Diseting
 sc-settings-skipped-decription = O tlodile mela kwa morago fa o ntse o sekaseka. Go rulaganya sesha mela e e tlodilweng go tla bontsha gape mela yotlhe e o e tlodileng. Seno ga se a ikaega ka puo.
+sc-settings-failed = Ga re a kgona go fetola diseting. Tsweetswee leka gape.
 # VALIDATION
 sc-validation-number-of-words = Mola o tshwanetse go nna le mafoko a a magareng ga 1 le 14 (a a feletseng)
 
