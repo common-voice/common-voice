@@ -11,3 +11,4 @@ get-involved-stayintouch = Rona mo Mozilla re dira morafe o o tla dirisang theke
 get-involved-privacy-info = Re go solofetsa go tshwara tshedimosetso ya gago ka kelotlhoko. Bala mo go oketsegileng mo <privacyLink>Kitsiso ya Bosephiri</privacyLink>.
 get-involved-success-title = O kgonne go ikwadisetsa go abelana mo { $language } ka katlego. Re a leboga.
 get-involved-success-text = Re tla ikgolaganya le wena ka tshedimosetso e e oketsegileng fa e nna gone.
+get-involved-return-to-languages = Boela Kwa Dipuong

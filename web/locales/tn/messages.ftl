@@ -290,6 +290,7 @@ build-profile = Aga Porofaele
 avatar = Setshwantsho
 goals = Maikaelelo
 settings = Diseting
+profile-create-success = O atlegile, porofaele e dirilwe!
 profile-close = Tswala
 profile-explanation = Ela tlhoko kgatelopele ya gago o dirisa porofaele mme o thuse tshedimosetso ya rona ya mantswe gore e nepagale thata.
 thanks-for-account = Re lebogela go tlhomamisa akhaonto ya gago, jaanong a re dire porofaele ya gago.
@@ -415,6 +416,7 @@ about-playbook-how-add-language-content-1 =
     Sa ntlha, tlhola gore a puo ya gago <languageLink>e setse e le teng</languageLink>.
     Fa e seyo, o ka <languageRequestLink>botsa ka go tsenya puo ya gago</languageRequestLink>.
     Go na le magato a le mabedi. Go ranola webosaete le go kgobokanya dipolelo
+about-playbook-how-add-language-translating-heading = E ranola saete
 about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Leba kaedi ya rona e e buang ka tsela ya go dirisa Pontoon.</translateVideoLink>
 about-playbook-how-add-language-translating-content-2 =
     Re dirisa thulusu ya Mozilla e e bidiwang <pontoonLink>Pontoon</pontoonLink> go dira dithanolo. Pontoon e na le dipuo tse dintsi,
@@ -569,6 +571,7 @@ contact-required = *e a tlhokega
 request-language-form-language =
     .label = Puo
 request-language-success-content = Re tla ikgolaganya le wena mo nakong e e sa fediseng pelo ka tshedimosetso e e oketsegileng ya gore o ka tsenya jang puo ya gago mo Common Voice.
+select-language = Tlhopha Puo...
 
 ## Request Language Pages
 
@@ -622,7 +625,10 @@ record-platform-not-supported = Re maswabi, polatefomo  ya gago ga e tshegediwe 
 record-platform-not-supported-ios-non-safari = Mo iOS tsweetswee tswelela ka Safari go dira gore e kgone go gatisa…
 record-cancel = Khansela go Rekota Sesha
 record-stop-instruction = { $actionType }<stopIcon></stopIcon> fa o feditse
+record-three-more-instruction = Go setse di le tharo!
 record-last-instruction = <recordIcon></recordIcon> Ya bofelo!
+share-clip = Abelana ka bidio ya gago
+share-common-voice = Abelana ka Lentswe le le Tshwanang
 clips-uploaded = Dibidio di tsentswe
 record-abort-text = Fa o tswa gone jaanong o tla latlhegelwa ke kgatelopele e o e dirileng
 record-abort-submit = Romela dibidio
@@ -654,11 +660,13 @@ streaks = Meraladi
 
 ## Dashboard
 
+toward-next-goal = Go ya maikaelelong a a latelang
 todays-recorded-progress = Kgatelopele ya gompieno ya Common Voice ya dikgatiso tse di dirilweng
 todays-validated-progress = Kgatelopele ya gompieno ya Common Voice ya dikgatiso tse di tlhomamisitsweng
 stats = Dipalopalo
 awards = Dikgele
 you = Wena
+set-visibility = Dira gore ke bonale
 visibility-explainer = Seting eno e laola tsela e o bonang lenaane la baetapele ka yone. Fa e fitlhegile, kgatelopele ya gago e tla nna ya poraefete. Seno se raya gore setshwantsho sa gago, leinatiriso la gago le kgatelopele ya gago ga di kitla di bonala mo lenaaneng la baetapele. Ela tlhoko gore go tlhabolola lenaane la baetapele go tsaya metsotso e le ~{ $minutes } go bontsha diphetogo.
 visibility-overlay-note = Ela tlhoko: Fa e beilwe mo go 'Bonagala', o ka kgona go fetola seting eno mo <profileLink>tsebeng ya Porofaele</profileLink>
 
@@ -675,6 +683,7 @@ help-reach-hours-general-pluralized =
         [one] Thusa Common Voice go fitlhelela ura e le { $hours } mo puong ka maikaelelo a batho
        *[other] Thusa Common Voice go fitlhelela diura di le { $hours } mo puong ka maikaelelo a batho
     }
+set-a-goal = Baya Maikaelelo
 cant-decide = Ga o kgone go dira tshwetso?
 receiving-emails-info = Gone jaanong o dirile gore o amogele diimeile tse di jaaka dikgopotso tsa maikaelelo, ditlhabololo tsa kgatelopele ya me le makwalodikgang a Common Voice
 not-receiving-emails-info = Gone jaanong o dirile gore o <bold>SE KA</bold> wa amogela diimeile tse di jaaka dikgopotso tsa maikaelelo, ditlhabololo tsa kgatelopele ya me le makwalodikgang a Common Voice
@@ -687,6 +696,7 @@ goal-share-text = Ke fetsa go dira maikaelelo a botho a go abelana ka lentswe go
 weekly-goal-created = Maikaelelo a gago a beke a dirilwe
 daily-goal-created = Maikaelelo a gago a letsatsi a dirilwe
 return-to-edit-goal = Boela fano nako nngwe le nngwe go baakanya maikaelelo a gago
+share-goal = Abelana ka maikaelelo a me
 
 ## Profile Delete
 
@@ -806,6 +816,7 @@ sc-header-add = Tsenya
 sc-header-review = Sekaseka
 sc-header-statistics = Dipalopalo
 sc-header-profile = Porofaele
+sc-footer-translate = Ranola tsebe eno
 sc-footer-privacy = Bosephiri
 sc-footer-terms = Melawana
 sc-logout-button = Tswa
