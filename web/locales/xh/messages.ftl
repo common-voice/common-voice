@@ -101,6 +101,7 @@ help-variants-explanation = Ukwahluka-hlukana kulwimi luhlobo oluthile lolwimi- 
 
 ## Profile - Email
 
+file_too_large = Ifayile ekhethiweyo inkulu kakhulu.
 
 ## Profile - Email
 
@@ -223,6 +224,7 @@ about-playbook-how-localize-content-1 = Uguqulelo lwe-site yeCommon Voice lwenze
 about-playbook-how-localize-content-2 = <pontoonAccountLink>Yenza iakhawunti</pontoonAccountLink> ukuba awunayo. Emva koko, khetha ulwimi lwakho <strong>(‘Iqela’)</strong> kwaye emva koko ukhethe iprojekthi, <pontoonCvLink>ICommon Voice</pontoonCvLink>. Kuya kubakho iifayile zokuguqulela. Cofa kwenye, emva koko ibonise amagama esiNgesi kunye nebhokisi yokuwaguqulela.
 about-playbook-how-localize-content-3 = Inguqulelo isuka kwisiNgesi, kodwa ungabona <strong>Iingcebiso</strong> ngezinye iilwimi. Cofa le linki<strong>I-profayile</strong>, emva koko <strong>Useto</strong> kwaye wongeze naziphi na iilwimi ozithethayo. Kwikona esezantsi ekunene kuya kuba kho udweliso lweenguqulelo ezibizwa ngokuba <strong>zi-Locales</strong>. Iinguqulelo zibonakala kwi-saythi emva kosuku olunye.
 about-playbook-how-localize-content-4 = I-site  ilungele ukusungulwa xa ifikelela kwi-75%.
+about-playbook-how-localize-content-5 = Bukela umchazi wethu wevidiyo ukunceda
 
 ## How to add sentences
 
@@ -303,6 +305,7 @@ datasets-positioning =
 why-email = <b>Kutheni kudingeka imeyile nje?</b> Kusenokufuneka siqhagamshelane nawe kwixesha elizayo malunga notshintsho kwi dataset, i-imeyile isinika indawo yoqhagamshelwano.
 confirm-size = Ulungele ukuqalisa ukhuphelo lwe <b>{ $size }</b>
 confirm-no-identify = <b>Uyavuma</b> ukungazami ukumisela izazisi zezithethi kwidatha seti yeCommon Voice
+whats-inside = Kukho ntoni kwidatha seti yeCommon Voice?
 dataset-description-hours =
     Ungeniso  ngalunye kwidathasethi liquka iMP3 eyodwa kunye nefayile yombhalo ehambelana nayo. Uninzi <b>{ $total }</b> lweeyure ezirekhodiweyo kuluhlu lwedatha zikwaquka idatha yedemografi efana neminyaka, isini, kunye ne-accent enokunceda ukuqeqesha ubunyani kweenjini zokuqaphela intetho. 
     
@@ -505,10 +508,13 @@ contribution-misreadings-description-extended-list-2 = Ilahlekile i <strong> 's'
 contribution-misreadings-description-extended-list-3 = Ukufunda izifinyezo ezingekhoyo ngokwenyani, ezinjengokuthi "We're" endaweni yokuthi "We are", okanye ngokutshintshana.
 contribution-misreadings-description-extended-list-4 = Ukuphoswa sisiphelo segama lokugqibela ngokuqhawula ukurekhoda ngokukhawuleza.
 contribution-misreadings-description-extended-list-5 = Ukuthatha iinzame ezininzi zokufunda igama.
+contribution-misreadings-example-1-title = Iidayinaso ezinkulu zeTriassic.
+contribution-misreadings-example-3-title = Iidayinaso ezinkulu zeTriassi-
 contribution-misreadings-example-3-explanation = [Ushicelelo luthe lwaqhawuka off phambi kwegama lokugqibela]
 contribution-misreadings-example-4-title = Iidinosaurs ezinkulu zeTriassic. Ewe.
 contribution-misreadings-example-4-explanation = [Okurekhodiweyo kungaphaya komlinganiselo wamagama odingekayo]
 contribution-misreadings-example-5-title = Siyahamba siyokufumana ikofu.
+contribution-misreadings-example-6-title = Siyokufumana ikofu.
 contribution-misreadings-example-7-title = Siyokufumana ikofu.
 contribution-varying-pronunciations-description = Lumka ngaphambi kokuba wale ikliphu kuba lowo uthe walifunda engalibizanga ngokungamnkelekanga igama, othe wagxininisa kwindawo engafanelekanga, okanye uye akaluhoya uphawu lombuzo. Kukho iintlobo ngeentlobo zokubizwa kwamagama asetyenziswayo kwihlabathi jikelele, ekusenokwenzeka ukuba awuzange waziva kwindawo ohlala kuyo. Nceda wamkele futhi uxabise abo banokuthetha ngokwahlukileyo kuwe.
 contribution-varying-pronunciations-description-extended = Lumka ngaphambi kokuba wale ikliphu kuba lowo uthe walifunda engalibizanga ngokungamnkelekanga igama, othe wagxininisa kwindawo engafanelekanga, okanye uye akaluhoya uphawu lombuzo. Kukho iintlobo ngeentlobo zokubizwa kwamagama asetyenziswayo kwihlabathi jikelele, ekusenokwenzeka ukuba awuzange waziva kwindawo ohlala kuyo. Nceda wamkele futhi uxabise abo banokuthetha ngokwahlukileyo kuwe.
@@ -560,6 +566,8 @@ sc-howto-cite-item-1 = Unokubandakanya iwebhusayithi, umzekelo "iCommon Voice- h
 sc-howto-cite-item-2 = Unokusebenzisa isitayile sereferensi sezemfundo, umz. isitayile seHarvard "Mozilla (2021) Common Voice. Ifumaneka apha https://commonvoice.mozilla.org/ (Ijongwe: nge-15 kaSeptemba 2021)"
 sc-howto-cite-item-3 = Kumbhalo wesizinda sikawonke-wonke ongafumanekiyo kwi-intanethi, ungasebenzisa isimbo sereferensi yezemfundo umz. isimbo saseHarvard "Jess (2021) Imibongo yam yelayisensi kawonke"
 sc-howto-review-subtitle = Qinisekisa ukuba isivakalisi siyahlangabezana nale migaqo ilandelayo:
+sc-howto-review-criteria-1 = Isivakalisi masipelwe ngokuchanekileyo.
+sc-howto-review-criteria-2 = Isivakalisi masichaneke ngokwegrama.
 sc-howto-review-criteria-4 = Ukuba isivakalisi sihlangabezana neekhrayitheriya, cofa iqhosha "Ukuvuma".
 sc-howto-review-criteria-5 = Ukuba isivakalisi asihambelani nale migaqo ingasentla, cofa iqhosha elithi "Yala". Ukuba awuqinisekanga ngesivakalisi, usenokusitsiba uye kwesilandelayo.
 sc-howto-review-criteria-6 = Ukuba uphelelwa zizivakalisi zokuphonononga, nceda usincede siqokelele izivakalisi ezininzi!
@@ -707,6 +715,8 @@ sc-personal-not-added = Awufakanga naziphi na iilwimi okwangoku.
 ## REVIEW CRITERIA
 
 sc-criteria-make-sure = Qinisekisa ukuba isivakalisi siyahlangabezana nale migaqo ilandelayo:
+sc-criteria-item-1 = Isivakalisi masipelwe ngokuchanekileyo.
+sc-criteria-item-2 = Isivakalisi masichaneke ngokwegrama.
 sc-criteria-item-4 = Ukuba isivakalisi siyahlangabezana nemilinganiselo, cofa iqhosha elithi &quot;Vumela&quot; iqhosha ekunene.
 sc-criteria-item-5-2 = Ukuba isivakalisi asihlangabezani nezi nqobo zingentla, cofa iqhosha elithi &quot;reject&quot; iqhosha elisekhohlo. Ukuba awuqinisekanga ngesivakalisi, usenokusitsiba uye kwelandelayo.
 sc-criteria-item-6 = Ukuba uphelelwa zizivakalisi zokuphonononga, nceda usincede siqokelele izivakalisi ezininzi!
