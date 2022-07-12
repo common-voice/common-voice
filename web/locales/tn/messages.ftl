@@ -51,6 +51,7 @@ fa = Seperesia
 gn = Se-Guarani
 ha = Se-Hausa
 he = Sehebera
+hi = Se-Hindi
 hr = Se-Croatia
 hsb = Se-Sorbia, sa kwa Godimo
 ht = Se-Haiti
@@ -150,6 +151,7 @@ speak-now = Bua jaanong
 languages = Dipuo
 about = Ka ga
 profile = Porofaele
+help = Thuso
 contact = Ikgolaganye
 privacy = Bosephiri
 terms = Melawana
@@ -273,6 +275,7 @@ profile-form-accent =
     .label = Puo
 profile-form-age =
     .label = Dingwaga
+hidden = E fitlhegile
 visible = E a bonala
 profile-form-submit-save = Boloka
 profile-form-submit-saved = E bolokilwe
@@ -790,6 +793,7 @@ see-less = <chevron></chevron>Bona tse di fokoditsweng
 
 ## HEADER/FOOTER
 
+sc-header-home = Tsebe ya Tshimologo
 sc-header-how-to = Nka dira jang
 sc-header-add = Tsenya
 sc-header-review = Sekaseka
