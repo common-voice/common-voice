@@ -48,6 +48,7 @@ hr = Se-Croatia
 hsb = Se-Sorbia, sa kwa Godimo
 hy-AM = Se-Armania
 hyw = Se-Armenia sa Bophirima
+ja = Sejapane
 ko = Se-Korea
 kpv = Se-Komi-Zyria
 ky = Se-Kyrgyz
@@ -61,6 +62,7 @@ om = Se-Afaan Ormoo
 pa-IN = Se-Punjabi
 pl = Se-Polish
 pt = Sepotokisi
+quc = Se-K'iche'
 ro = Se-Romania
 ru = Se-Russia
 rw = Se-Kinyarwanda
@@ -354,6 +356,7 @@ about-playbook-how-add-language-content-1 =
     Sa ntlha, tlhola gore a puo ya gago <languageLink>e setse e le teng</languageLink>.
     Fa e seyo, o ka <languageRequestLink>botsa ka go tsenya puo ya gago</languageRequestLink>.
     Go na le magato a le mabedi. Go ranola webosaete le go kgobokanya dipolelo
+about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Leba kaedi ya rona e e buang ka tsela ya go dirisa Pontoon.</translateVideoLink>
 about-playbook-how-add-language-translating-content-2 =
     Re dirisa thulusu ya Mozilla e e bidiwang <pontoonLink>Pontoon</pontoonLink> go dira dithanolo. Pontoon e na le dipuo tse dintsi,
     mme fa e se na puo ya gago, o ka <pontoonRequestLink>kopa gore e tsenngwe</pontoonRequestLink>.
@@ -670,6 +673,7 @@ contribution-misreadings-description-extended-list-2 = Go tlhaela <strong>'ng'</
 contribution-misreadings-description-extended-list-3 = Go bala mafoko a a seyong, jaaka "Ra" go na le go re "Re a," kgotsa ka tsela e e farologaneng.
 contribution-misreadings-description-extended-list-4 = Go tlhaela lefoko la bofelo ka ntlha ya go khutlisa kgatiso ka bonako.
 contribution-misreadings-example-3-explanation = [Kgatiso e kgaogile pele lefoko la bofelo le felela]
+contribution-misreadings-example-7-title = Re a tswa re ya go batla kofi.
 contribution-misreadings-example-8-explanation = [Diteng tse di sa tshwaneng]
 contribution-varying-pronunciations-description = Nna kelotlhoko pele o gana kgatiso ka go bo mmadi a sa bitsa lefoko sentle, o gateletse mo lefelong le e seng lone, kgotsa gongwe o itlhokomolositse letshwao la potso. Go na le ditsela tse dintsi tsa go bitsa mafoko lefatshe ka bophara, tse dingwe ka tsone o ka tswang o ise o di utlwe mo lefelong la gago. Tsweetswee anaanela ba ba ka tswang ba bua ka tsela e e farologaneng le e o buang ka yone.
 contribution-varying-pronunciations-description-extended = Kafa letlhakoreng le lengwe, fa o akanya gore gongwe mmadi ga a ise a kopane le lefoko leo, mme o fopholetsa fela ka tsela e e sa siamang tsela e le bidiwang ka yone, tsweetswee e gane. Fa o sa tlhomamisege, dirisa konopo ya tlola.
