@@ -430,9 +430,12 @@ how-does-it-work-text = Re batla tshedimosetso ya batho ba bantsi ya mantswe. Ab
 
 ## How does it work section
 
+about-localization-title = Thanolo ya Webosaete
 about-sentence-collection-title = Setlhopha sa Dipolelo
 about-new-lang-subtitle = Re simolola webosaete ya Common Voice ka puo eno.
+about-voice-contrib-title = Go Neelana ka Lentswe
 about-voice-contrib-subtitle = Batho ba a tla ba bo ba abelana ka mantswe a bone.
+about-voice-validation-title = Go Tlhomamisa Lentswe
 about-voice-validation-subtitle = Batho ba bangwe ba tlhomamisa dkgatiso tseo tsa mantswe.
 about-dataset-release-subtitle = Re golola rekoto ya tshedimosetso dikgwedi dingwe le dingwe di le 3.
 about-speak = Bua
@@ -460,6 +463,7 @@ about-stay-in-touch = Ke ikgolaganya jang le lona?
 about-stay-in-touch-button = Ikwadise
 about-stay-in-touch-text-1 = <emailFragment>Ikwadise</emailFragment> mo lenaaneng la rona la melaetsa go ithuta gore gore o ka tsaya karolo jang mo matsholong, mo ditiragalong le mo dikarolong tsa go tlhama mo Common Voice.
 about-stay-in-touch-text-2 = O ka kopana le bangwe ba badirisi ba puo mo Mozilla ka go nna karolo ya<discourseLink>Discourse</discourseLink> go bona metlotlo ya ditlhogo kgotsa <matrixLink>Matrix</matrixLink> go bona maele a ka bonako.
+about-nav-why-common-voice = Goreng ?
 about-nav-partners = Balekane
 about-nav-how-it-works-2 = Common Voice e dira jang?
 about-nav-playbook = Ithute go tsaya karolo
@@ -803,6 +807,7 @@ validations =
 
 ## Dashboard
 
+your-languages = Dipuo Tsa Gago
 toward-next-goal = Go ya maikaelelong a a latelang
 clips-you-recorded = Dibidio tse o di Rekotileng
 clips-you-validated = Dibidio Tse o di Tlhomamisitseng
@@ -820,6 +825,7 @@ show-ranking = Bontsha gore ke wa bokae
 
 goal-type = O batla go ikagela boikaelelo jo bo ntseng jang?
 both-speak-and-listen = Ka bobedi
+weekly-goal = Boikaelelo Jwa Beke
 average-difficulty = Palogare
 pro-difficulty = Pro
 lose-goal-progress-warning = Fa o baakanya maikaelelo a gago, o ka nna wa latlhegelwa ke kgatelopele ya gago e e gone.
@@ -899,6 +905,7 @@ download-request-link-single = Gape o ka kgona go kopisa le go manega di-URL tse
 
 ## Landing
 
+welcome-staff = Re a lo amogela dadiri ba { $company }!
 help-contribute = O ka thusa rekoto eno ya tshedimosetso e kgolo e bile e le ya batho botlhe ka go tlhama porofaele ya Common Voice le go abelana ka lentswe la gago.
 login-company = Tsena / Ikwadise ka imeile ya { $company }
 profile-not-required = Ga o tlhoke go nna le porofaele gore o thuse, mme gone go a thusa. Bona gore ka ntlha yang fa tlase.
@@ -1161,6 +1168,7 @@ sc-login-err-try-again = Tsweetswee leka gape.
 ## PROFILE
 
 sc-personal-err-lang-not-found = Ga re a kgona go ntsha puo: puo ga e a bonwa
+sc-personal-your-languages = Dipuo tsa gago:
 sc-personal-remove-button = tlosa
 # Variables:
 #   $sentences (Number) - Number of sentences that were added by the currently logged in user for this language
