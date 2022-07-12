@@ -44,11 +44,14 @@ wall-of-text-first = Ilizwi yinto edaliweyo, ilizwi ngumntu. Yiyo loo nto sivuya
 wall-of-text-second =
     Uninzi lwedatha esetyenziswa ziinkampani ezinkulu azifumaneki kuninzi lwabantu. Sicinga ukuba
     oko kumisa ukwenza izinto ngakutsha. Ke siqale i-Common Voice, iprojekthi yokunceda ukwenza ukuqondwa kwelizwi kuvuleleke kwaye ifikeleleka kumntu wonke.
+help-us-title = Sincede siqinisekise izivakalisi!
 help-us-explain = Cinezela dlala, mamela kwaye usixelele: ngaba basithetha ngokuchanekileyo esi sivakalisi singezantsi?
 no-clips-to-validate = Kubonakala ngathi akukho zikliphu zokumamela kolu lwimi. Sincede sigcwalise umgca ngokurekhoda ezinye ngoku.
 toggle-play-tooltip = Cinezela u { shortcut-play-toggle } ukutshintsha indlela yokudlala
 speak-paragraph = Ukurekhoda iikliphu zelizwi yinxalenye yolwakhiwo lwedatha yethu evulekileyo; abanye bangathi yeyona nto imnandi.
+listen-subtitle = Sincede siqinisekise amazwi
 listen-paragraph = Ukuqinisekisa iikliphu ezinikezelweyo kubalulekile ngokulinganayo kwimishini yeCommon Voice. Phulaphula kwaye usincede senze idatha yelizwi esemgangathweni
+help-reach-goal = Sincede sifikelele ku { $goal }
 read-terms-q = Ngaba uyifundile iMiqathango yethu?
 ready-to-record = Ingaba ukulungele ukunikela ngelizwi lakho?
 help-make-dataset = Sincede sakhe umgangatho ophezulu, idatha seti evuleke kuluntu
@@ -328,6 +331,7 @@ error-content-503 = Isaythi iyakubuyiselwa ngokukhawuleza. Ngolwazi lwamva nje, 
 
 ## Data
 
+data-download-button = Khuphela iDatha yeCommon Voice
 data-download-modal = Ngoku uza kuqalisa ukhuphelo lwe <size>{ $size }GB</size>, uyaqhubeka?
 data-subtitle = Sakha uluhlu lwedatha lwamazwi oluvulelekileyo nolufumaneka esidlangalaleni wonke umntu anokuthi alusebenzise ukuqeqesha usetyenziso olusebenzisa intetho.
 data-explanatory-text = Sikholelwa ukuba ii-voice dataset ezinkulu nezifumanekayo kuwonke-wonke zikhuthaza ukusungula izinto ezintsha kunye nokhuphiswano olusempilweni lwentengiso kumatshini wokufunda ngokusekwe kubuchwepheshe bentetho. Lo ngumzamo obandakanya ihlabathi jikelele kwaye simema wonke umntu ukuba athathe inxaxheba. Injongo yethu kukunceda ubuchwephetshe balemihla bentetho ibandakanye kakhulu, kwaye ibonise iyantlukwano yamazwi abantu kwihlabathi jikelele.
@@ -336,6 +340,7 @@ data-bundle-description = Idatha yeCommon Voice kunye nazo zonke ezinye iidatha 
 data-download-singleword-title = Khuphela iCandelo legama elinye ekujoliswe kulo
 data-download-singleword-callout-v2 = Le yimeko yokusetyenziswa eqhutywa licandelo eliqulathe idatha kumandla athethiweyo ukuqondwa kwedijithi kwaye ewe / hayi akukho ubhaqo.
 review-terms = Ngokusebenzisa iCommon Voice uvuma  <termsLink>imiqathango</termsLink> kunye <privacyLink>neSazisi saBucala</privacyLink>
+terms-disagree = Andivumelani
 review-aborted = Ukhutshelo luyekile. Ufuna ukucima iirekhodingi zakho?
 review-submit-msg = Enkosi ngokurekhoda!<lineBreak></lineBreak> Ngoku hlaziya kwaye ungenise iikliphu zakho ngezantsi.
 
@@ -346,6 +351,7 @@ datasets-positioning =
     Sikholelwa ukuba iiseti ezinkulu zedatha zelizwi, ezifumanekayo kuwonke-wonke ziya kukhuthaza ukusungula izinto ezintsha kunye nokhuphiswano olusempilweni lwentengiso kumatshini wokufunda ngokusekwe kubuchwepheshe bentetho.
     I-datasethi yeelwimi ezininzi zeCommon Voice sele iyeyona inkulu ifumanekayo ku wonke-wonke, kodwa ayisiyiyo yodwa.
     Jonga kweli phepha njenge salathisi sezinye iiseti zedatha zezwi ezivulekileyo kwaye, njengoko iCommon Voice iqhubeka ikhula, indawo yokukhupha iindaba ezintsha zethu.
+email-to-download = Ngenisa Imeyile ukuze Ukhuphele
 why-email = <b>Kutheni kudingeka imeyile nje?</b> Kusenokufuneka siqhagamshelane nawe kwixesha elizayo malunga notshintsho kwi dataset, i-imeyile isinika indawo yoqhagamshelwano.
 confirm-size = Ulungele ukuqalisa ukhuphelo lwe <b>{ $size }</b>
 confirm-no-identify = <b>Uyavuma</b> ukungazami ukumisela izazisi zezithethi kwidatha seti yeCommon Voice
@@ -366,6 +372,7 @@ data-other-voxforge-description = IVoxForge yamiselwa ukuba iqokelele intetho ek
 data-other-tatoeba-description = ITatoeba nguvimba weenkcukacha omkhulu wezivakalisi, iinguqulelo, kunye nesandi esithethwayo ukuze sisetyenziswe ekufundeni ulwimi. Olu khutshelo (the download) luqulathe IsiNgesi esithethwayo esirekhodwe luluntu lwaso.
 your-feedback = Ingaba unayo imibono malunga nendlela esinokuyenza ngayo i-database ye-Common Voice ibe ngcono? Sazise kwiDiscourse
 missing-language = Awuboni ulwimi lwakho luboniswa kwiSeti yedatha? Ukucela ulwimi yiya kwiphepha lethu leeLwimi.
+go-languages-page = Yiya kwicala leeLwimi
 ready-to-validate = Ingaba ukulungele ukunceda ukuqinisekisa izivakalisi?
 
 ## Download Modal
@@ -394,6 +401,8 @@ request-language-explanation-1 =
     Ukuba akunjalo, gcwalisa le fomu kwaye thina siya <strong>kuthumelela i-imeyile eluncedo
     ukucacisa indlela yokumisela ulwimi lwakho</strong>.
 request-language-explanation-2 = <playbookLink>Fumana isikhokelo esiluncedo</playbookLink> kulo lonke uhambo lweCommon Voice, ukusuka ekuhlaleni ukuya kusetyenziso lwedatha, kunye nendlela yokunxibelelana noluntu lwethu.
+request-language-form-info =
+    .label = Ulwazi malunga nolwimi
 request-language-form-info-explanation =
     Yongeza ulwazi oluninzi kangangoko unakho malunga nolwimi. Oku
     kunokubandakanya:
@@ -440,6 +449,7 @@ record-again-instruction2 = Qhuba njalo, rekhoda kwakhona <recordIcon></recordIc
 review-tooltip = Hlaziya kwaye urekhode iikliphu kwakhona apha njengoko uhamba
 review-instruction = Phonononga kwaye urekhode kwakhona iiklip ukuba kuyafuneka
 record-abort-text = Ukuhamba ngoku kuthetha ukuba uyakuphulukana nenkqubela phambili yakho
+record-abort-delete = Phuma kwaye uCime iikliphu
 listen-instruction = { $actionType }<playIcon></playIcon> ingaba basithetha ngokuchanekileyo isivakalisi?
 listen-again-instruction = Mhle umsebenzi! <playIcon></playIcon>  Mamela kwakhona xa sele ulungile
 listen-3rd-time-instruction = Zi-2 eziphantsi, qhubeka njalo!<playIcon></playIcon>
@@ -462,6 +472,7 @@ target-segment-first-banner = Nceda wenze icandelo lokuqala ekujoliswe kulo leCo
 
 report-ask = Yeyiphi imiba onayo ngesi sivakalisi?
 report-offensive-language-detail = Isivakalisi sinolwimi olukrwada okanye olukhubekisayo.
+report-grammar-or-spelling = Impazamo yegrama/ yopelo
 report-grammar-or-spelling-detail = Isivakalisi sinempazamo yegrama okanye yopelo.
 report-different-language-detail = Kubhalwe ngolwimi olwahlukileyo kunento endiyithethayo.
 report-difficult-pronounce-detail = Inamagama okanye amabinzana ekunzima ukuwafunda okanye ukwabiza.
@@ -480,6 +491,8 @@ visibility-overlay-note = Qaphela: Xa imiselwe 'Iyabonakala', olu seto lungatshi
 
 ## Custom Goals
 
+get-started-goals = Qalisa ngenjongo
+create-custom-goal = Yenza iNjongo yesiNtu
 goal-type = Loluphi uhlobo lwenjongo ofuna ukwakha?
 lose-goal-progress-warning = Ngokuhlela injongo yakho, unokuphulukana nenkqubela phambili yakho esele ikho.
 want-to-continue = Ingaba uyafuna ukuqhubeka?
@@ -609,6 +622,7 @@ contribution-varying-pronunciations-description = Lumka ngaphambi kokuba wale ik
 contribution-varying-pronunciations-description-extended = Lumka ngaphambi kokuba wale ikliphu kuba lowo uthe walifunda engalibizanga ngokungamnkelekanga igama, othe wagxininisa kwindawo engafanelekanga, okanye uye akaluhoya uphawu lombuzo. Kukho iintlobo ngeentlobo zokubizwa kwamagama asetyenziswayo kwihlabathi jikelele, ekusenokwenzeka ukuba awuzange waziva kwindawo ohlala kuyo. Nceda wamkele futhi uxabise abo banokuthetha ngokwahlukileyo kuwe.
 contribution-varying-pronunciations-example-1-title = Entloko ebenxibe ibharethi.
 contribution-varying-pronunciations-example-1-explanation = [‘Beret’ ulungile nokuba ugxininiso lukho pha kumagama asekuqaleni (UK) okanye kwawesibini (US)]
+contribution-varying-pronunciations-example-2-title = Isandla sakhe besiphakanyisiwe.
 contribution-varying-pronunciations-example-2-explanation = [‘Ukuphakanyiswa’ ngesiNgesi uhlala ebizwa njengegama elinye, hayi elineziqingatha ezimbini]
 contribution-background-noise-description = Sifuna ukuba umatshini wokufunda i-algorithms ukwazi ukumelana nengxolo eyahluka-hlukeneyo, kunye nengxolo etsholo phezulu inokwamkelwa ukuba ayikuthinteli ukuba uve itext iphela. Umculo ovakalayo ozolileyo ulungile; umculo ongxola ongxola kakhulu de ukukuthintela ukuba ungeva igama negama awamnkelekanga.
 contribution-background-noise-description-extended = Ukuba ushicilelo luyaqhawuka, okanye luziziqendu, lwale ngaphandle kokuba sonke isicatshulwa sinokuviwa.
