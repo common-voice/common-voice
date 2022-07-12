@@ -567,6 +567,7 @@ about-playbook-how-record-content-5 = <accuracyLink>Bona okwengeziwe ngemibandel
 
 about-playbook-how-grow-language = Singalukhulisa kanjani ngokuphumelelayo ulimi ku-Common Voice?
 about-playbook-how-grow-language-content-2 = Imicimbi
+about-playbook-how-grow-language-content-3 = Ungakwazi ukuqhuba imicimbi ukunceda abantu ukuba baxhase. Kulula kunalokhu okucabangayo. Ungakwenza lokhu  ku-inthanethi ngethuluzi lenkomfa yevidiyo, noma wena siqu sakho uma kuphephile. <eventTemplate>Bheka izifanekiso nezinsiza zethu zokuqhuba imicimbi</eventTemplate>.
 about-playbook-how-grow-language-content-4 = Izinkundla zokuxhumana
 about-playbook-how-grow-language-content-5 = Ungasabenzisa izinkundla zokuxhumana ukudlulisa lo mlayezo. Yabelana ngemilayezo echaza ukubaluleka kwayo, uthintane nabanye abantu abakhuluma ngezinkinga ezifana namalungelo aphethelene nezilimi, nobuchwepheshe bamazwi, nokuchema kwesobuchwepheshe. Bheka isaluleko esengeziwe ku <campaignLink>ukuphatha umkhankaso wokuxhumana nabantu, nokuqukethwe ongaphinda ukusebenzise</campaignLink>.
 about-playbook-how-grow-language-content-6 = Ubambiswano namanethiwekhi
