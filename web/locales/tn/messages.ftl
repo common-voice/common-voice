@@ -363,6 +363,7 @@ about-playbook-how-add-language-translating-content-2 =
     Mme go dira gore puo e nne teng mo porojekeng ya Common Voice,
     <githubRepoLink>kopa puo e ntšha mo GitHub</githubRepoLink>. <localizationFragment>Bona tshedimosetso e e oketsegileng mo webosaeteng ya thanolo</localizationFragment>.
 about-playbook-how-add-language-collecting-sentences-heading = Go phutha dipolelo
+about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>Leba kaedi ya rona e e buang ka go dirisa Kgobokanyo ya Mela</sentenceCollectorVideo>.
 about-playbook-how-add-language-collecting-sentences-content-2 =
     O ka <sentenceCollectorLinkAdd>tsenya dipolelo di le mmalwa</sentenceCollectorLinkAdd>,
     kgotsa o ka <bulkImportDocsLink>tsenya tse dintsi o dirisa Github</bulkImportDocsLink>.
@@ -625,6 +626,7 @@ download-recently-requested = O ka kopa go ntsha dikgatiso tsa gago malatsi mang
 download-size = Bogolo
 download-selected = E tlhophilwe
 download-requests-info = Fa o kopa dikgatiso tsa gago, re di kopanya go di dira faele e le nngwe kgotsa di le mmalwa tsa ZIP. Tseno ke dikopo tsa gago tsa nako e e fetileng.
+download-request-description = Dikgatiso tsa mantswe tse { $clipCount }, bogolo jotlhe jwa akhaefe { $size }. E felelwa ke nako { $expires }.
 download-request-assembling-description = Difaele tsa gago di a kokoanngwa. Tsweetswee tlhola gape moragonyana.
 download-request-refresh-button = Ntšhafatsa
 download-request-modal-description = Tseno ke dilinki tsa go itseela difaele tsa gago tsa ZIP.
@@ -673,6 +675,7 @@ contribution-misreadings-description-extended-list-2 = Go tlhaela <strong>'ng'</
 contribution-misreadings-description-extended-list-3 = Go bala mafoko a a seyong, jaaka "Ra" go na le go re "Re a," kgotsa ka tsela e e farologaneng.
 contribution-misreadings-description-extended-list-4 = Go tlhaela lefoko la bofelo ka ntlha ya go khutlisa kgatiso ka bonako.
 contribution-misreadings-example-3-explanation = [Kgatiso e kgaogile pele lefoko la bofelo le felela]
+contribution-misreadings-example-4-explanation = [Go gatisitswe mo gontsi go gaisa mokwalo o o tlhokegang]
 contribution-misreadings-example-7-title = Re a tswa re ya go batla kofi.
 contribution-misreadings-example-8-explanation = [Diteng tse di sa tshwaneng]
 contribution-varying-pronunciations-description = Nna kelotlhoko pele o gana kgatiso ka go bo mmadi a sa bitsa lefoko sentle, o gateletse mo lefelong le e seng lone, kgotsa gongwe o itlhokomolositse letshwao la potso. Go na le ditsela tse dintsi tsa go bitsa mafoko lefatshe ka bophara, tse dingwe ka tsone o ka tswang o ise o di utlwe mo lefelong la gago. Tsweetswee anaanela ba ba ka tswang ba bua ka tsela e e farologaneng le e o buang ka yone.
@@ -682,6 +685,7 @@ contribution-varying-pronunciations-example-2-explanation = [Ka dinako tsotlhe �
 contribution-background-noise-title = Modumo kwa Lemoragong
 contribution-background-noise-description = Re batla gore go ithuta ga metšhine go kgone go lepalepana le medumo e mentsi e e kwa morago, le medumo e e kwa godimo e ka amogelesega fa fela e sa go thibele go utlwa mokwalo otlhe. Mmino o o lelang kwa morago go didimetse o siame; mmino o o kwa godimo thata mo o go thibelang go utlwa mafoko otlhe ga wa siama.
 contribution-background-noise-description-extended = Fa kgatiso e kgaoga kgotsa e gagasha, e gane, ntle le fa mafoko otlhe a kgona go utlwiwa.
+contribution-background-noise-example-1-fixed-title = <strong>[Sneeze]</strong> Di-dinosaur tse dikgolo tsa <strong>[cough]</strong> Triassic.
 contribution-background-voices-title = Mantswe mo Lemoragong
 contribution-background-voices-description = Tlhakatlhakano e e utlwalang mo lefelong le le didimetseng e siame, mme ga re batle mantswe a a oketsegileng a a ka dirang gore motšhine o se ka wa lemoga mafoko a a sa kwalwang. Fa o ka utlwa mafoko a a farologaneng le a a kwadilweng, kgatiso eo e tshwanetswe go ganwa. Gantsi seno se direga fa TV e tlogetswe e tshubilwe, kgotsa fa go na le motlotlo o o tsweletseng fa gaufi.
 contribution-background-voices-description-extended = Fa kgatiso e kgaoga kgotsa e gagasha, e gane, ntle le fa mafoko otlhe a kgona go utlwiwa.
