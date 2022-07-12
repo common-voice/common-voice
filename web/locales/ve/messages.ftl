@@ -831,6 +831,7 @@ language-section-launched-description = Kha hedzi nyambo dzo no ḓi dzheniswaho
 languages-show-more = Vhonani Zwo Engedzeaho
 languages-show-less = Vhonani Zwiṱuku
 language-meter-in-progress = Zwe na zwi ita
+language-total-progress = Thothaḽi
 language-search-input =
     .placeholder = Ṱoḓa
 language-speakers = Vhaambi
@@ -843,6 +844,9 @@ language-validation-progress = Mvela phanḓa yo Khwaṱhisedzwaho
 
 action-click = Puṱedza
 action-tap = Tap
+contribute = Shelani Mulenzhe
+listen = Thetshelesani
+skip = Fhira
 shortcuts = Shortcut
 clips-with-count-pluralized =
     { $count ->
@@ -923,11 +927,13 @@ report-offensive-speech = Luambo lwa u Nyadza
 report-offensive-speech-detail = Heyi rekhodo i na mafhungo ane a nyadza kana a songo kunaho.
 report-other-comment =
     .placeholder = Fhindula
+success = Zwo Tshimbila
 continue = Bvela phanḓa
 report-success = Muvhigo wo phasa
 
 ## Goals
 
+streaks = Streaks
 days =
     { $count ->
         [one] ḓuvha
