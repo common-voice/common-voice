@@ -181,6 +181,14 @@ ug = Uyghur
 uk = Ukrainian
 ur = Urdu
 uz = Uzbek
+ve = Tshivenḓa
+vec = Venetian
+vi = Vietnamese
+vot = Votic
+xh = Xhosa
+yi = Yiddish
+yo = Yoruba
+yue = Cantonese
 zh-CN = Chinese (China)
 zh-HK = Chinese (Hong Kong)
 zh-TW = Chinese (Taiwan)
@@ -191,11 +199,22 @@ zu = Zulu
 
 ## Layout
 
+speak = Ambani
 speak-now = Ambani zwino
+datasets = Dzi Dataset
+languages = Nyambo
+about = Nga ha
+profile = Profaiḽi
+help = Thuso
+contact = Zwidodombedzwa
+privacy = Tshiphiri
+terms = Milayo Yashu
 content-license-text = Mafhungo a wanala kha <licenseLink>Creative Commons ḽaisentsi</licenseLink>
 share-title = Ri thuseni u wana vhaṅwe vhane vha nga nikela nga maipfi avho!
 share-text = Thusani u gudisa mitshini uri vhathu vhavhukuma vha ambisa hani, nikelani nga ipfi ḽaṋu { $link }
+link-copied = Ḽinki yo Kopiwa
 back-top = Humelani nṱha
+logout = Ḽogani Out
 
 ## Home Page
 
@@ -215,15 +234,21 @@ wall-of-text-first =
     Ipfi ndi ḽa vhukuma, ipfi ndi muthu. Ndi ngazwo ri tshi takalela u ita zwishumiswa zwa thekhinoḽodzhi zwi shumisaho ipfi
      kha mitshini yashu. Fhedzi u ita sisiṱemu dza ipfi, vhabveledzi vha ṱoḓa data ya maipfi manzhi vhukuma.
 wall-of-text-second = Data nnzhi dzi shumiswaho nga khamphani khulwane, vhathu vhanzhi a vha koni u dzi swikelela. Ri vhona u nga zwi khou ita uri hu si vhe na bvela phanḓa. Ndi ngazwo ro thoma thandela ya Common Voice, thandela ine ya ḓo thusa uri u ḓivha ipfi zwi vhe zwa vhathu vhoṱhe na uri vha kone u zwi swikela.
+show-wall-of-text = Vhalani zwo Engedzeaho
 help-us-title = Ri thuseni u khwaṱhisedza mitaladzi!
 help-us-explain = Puṱedzani tsha u puḽeya, thetshelesa & ri vhudzeni: Naa vho amba zwi re kha mutaladzi u re afho fhasi?
 no-clips-to-validate = Zwi vhonala u nga a hu na zwo rekhodiwaho zwine na nga zwi thetshelesa nga holwu luambo. Ri thuseni u egedza mutevhe wa zwo rekhodiwaho nga u rekhoda zwiṅwe zwino.
+vote-yes = Ee
+vote-no = Hai
 toggle-play-tooltip = Puṱedzani { shortcut-play-toggle } bathene ya u puḽeya
 speak-subtitle = Nikelani nga ipfi ḽaṋu
 speak-paragraph = U rekhoda maipfi ndi tshipiḓa tsha u ita dataset yashu; vhaṅwe vha nga ri na tshenetshi ndi tshipiḓa tshi takadzaho.
+speak-goal-text = Zwo Rekhodiwaho
 listen-subtitle = Ri thuseni u khwaṱhisedza maipfi
 listen-paragraph = U khwaṱhisedza uri zwo rekhodiwaho ndi zwone ndi tshipikwa tsha ndeme vhukuma tsha Common Voice. Thetshelesani nahone ni ri thuse uri ri ite maipfi a vhuimo ha nṱha ane a ḓo kona u shumiswa nga nnyi na nnyi.
 listen-goal-text = Zwo Khwaṱhisedzwaho
+hours-recorded = Dzi awara dzo Rekhodiwaho
+hours-validated = Awara dzo Khwaṱhisedzwaho
 voices-online = Maipfi onḽaini zwino
 todays-progress = Mvela Phanḓa ya Ṋamusi
 help-reach-goal = Ri thuseni u swikelela { $goal }
