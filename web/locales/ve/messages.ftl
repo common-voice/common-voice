@@ -674,15 +674,20 @@ license-mixed = Mixed
 data-download-singleword-title = Downḽodani Thagete ya Tshipiḓa tsha Ipfi Ḽithihi
 data-download-singleword-callout-v2 = Hetshi ndi tshipiḓa tshi langiwaho nga kushumisele tshi re na data ine ya mannḓafhadza digit recognition na ine ya ḓivha ee / hai.
 review-terms = Nga u shumisa Common Voice, ni khou tendelana na <termsLink>Milayo ya Kushumisele</termsLink>na<privacyLink>Milayo ya Tshiphiri</privacyLink>
+terms-agree = Ndi a tenda
 terms-disagree = A thi tendelani nazwo
 review-aborted = U apuḽoda ho imiswa. Naa ni khou ṱoḓa u diḽita zwe na rekhoda?
 review-submit-title = Ṱolisisani ni rumele
 review-submit-msg = Ro livhuwa no rekhoda!<lineBreak></lineBreak>Zwino ṱolisisani ni rumele zwe na rekhoda hafha fhasi.
+review-recording = Ṱolisisa
+review-rerecord = Dovhani ni Rekhode
+review-cancel = Khantselani u Rumela
 review-keep-recordings = Dzulani na zwe na rekhoda
 review-delete-recordings = Diḽitani zwe na rekhoda
 
 ## Datasets Page
 
+datasets-heading = Dzi Dataset
 datasets-headline = Ri khou ita dataset ya maipfi ya nnyi na nnyi, ya nyambo nnzhi dzine muṅwe na muṅwe a nga dzi shumisa u funza dzi application dzi no funzea maipfi.
 datasets-positioning =
     Ri tenda uri dzi dataset khulu dza maipfi dzine dza nga wanwa nga vhathu vhoṱhe dzi ḓo ita uri hu thomiwe zwithu zwiswa na u ita uri hu vhe na zwa vhuvhambadzi zwavhuḓi siani ḽa zwa machine-learning kha zwa zwishumiswa zwa thekhinolodzhi zwi ḓivhaho ipfi.
@@ -690,8 +695,13 @@ datasets-positioning =
      Dataset ya nyambo nnzhi dza Common Voice yo no ḓi vha dataset khulwanesa ine ya wanala tshitshavhani, fhedzi a si yone i yoṱhe.
     
     Sedzani kha siaṱari heḽi sa referentsi ya hub u itela u wana dziṅwe dataset dzine dza nga shumiswa nga vhathu vhoṱhe, samusi Common Voice i tshi khou bvela phanḓa na u aluwa, ndi hone haya hune ha ḓo vha na dzi updates dzashu.
+language = Luambo
+# File size in gigabytes
+size = Saizi
 validated-hr-total = Khwaṱhisedza Hr. Thothaḽi
 overall-hr-total = Nga u angaredza Hr. Thothaḽi
+cv-license = Ḽaisentsi
+audio-format = Fomete ya Odio
 number-of-voices = Tshivhalo tsha maipfi
 email-to-download = Pangani email uri ni kone u downḽoda
 why-email = <b>Ndi ngani hu tshi ṱoḓea email?</b> Ri nga tea u ni kwama tshifhingani tshi ḓaho nga nṱhani ha tshanduko dzo iteaho kha dataset, email i ita uri ri kone u ni kwama.
