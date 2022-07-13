@@ -347,7 +347,7 @@ status-contribute = Lekelela Ngelivi Lakho
 status-hours =
     { $hours ->
         [one] Linye lihora lelicinisekisiwe kwamanje!
-       *[other] { $hours } Emahora lacinisekisiwe kwamanje!
+       *[other] { $hours } emahora lacinisekisiwe kwamanje!
     }
 # Variables:
 # $goal - number of hours representing the next goal
@@ -1410,7 +1410,7 @@ sc-confirm-sentences-found =
 sc-confirm-rejected-by-you = { $countOfInvalidated } lajikiswe nguwe
 sc-confirm-already-reviewed =
     { $countOfReviewed ->
-        [0] Kute umusho losovelwe ucinisekisiwe
+        [0] Kute umusho losovelwe ucinisekisiwe.
         [one] 1 umusho losovele ucinisikisiwe. Muhle umsebenti!
        *[other] { $countOfReviewed } imisho seyivele icinisekisiwe. Muhle umsebenti!
     }
@@ -1420,7 +1420,7 @@ sc-confirm-ready =
     { $readyCount ->
         [0] Kute imisho lelungele kumikiswa!
         [one] 1 umusho lolungele kumikiswa!
-       *[other] { $readyCount } Imisho lelungele kumikiswa!
+       *[other] { $readyCount } imisho lelungele kumikiswa!
     }
 # Variables:
 #   $countOfUnreviewed (Number) - Number of sentences unreviewed before the upload
@@ -1436,23 +1436,23 @@ sc-lang-info-title-personal = Mayelana nami
 #   $totalSentences (Number) - Number of sentences uploaded in total for this language
 sc-lang-info-total =
     { $totalSentences ->
-        [0] Kute umusho lophelele
-        [one] umusho lophelele
-       *[other] imisho lephelele
+        [0] Kute umusho lophelele.
+        [one] Ungu 1 umusho lophelele.
+       *[other] { $totalSentences } imisho lephelele.
     }
 # Variables:
 #   $totalInReview (Number) - Number of sentences currently in the review state for this language
 sc-lang-info-in-review =
     { $totalInReview ->
         [0] Kute imisho lebuketwako.
-        [one] Munye umusho lobuketwako.
-       *[other] { $totalInReview } Umusho lobuketwako.
+        [one] Ungu 1 umusho lobuyeketwako.
+       *[other] { $totalInReview } umusho lobuketwako.
     }
 # Variables:
 #   $unreviewedSentencesByYou (Number) - Number of sentences the user can still review
 sc-lang-info-left-for-you =
     { $unreviewedSentencesByYou ->
-        [0] Kute emasenetenisi lakusalele kusti ungawabuketa.
+        [0] Kute imisho lekusalele kutsi uyibuyekete.
         [one] Kusele umusho longu 1 kutsi uwubuyekete.
        *[other] { $unreviewedSentencesByYou } imisho lesele kutsi uyibeyekete.
     }
@@ -1462,9 +1462,9 @@ sc-lang-info-add-more = *[other] { $count } Ngeta imisho manje!</addLink>
 #   $validatedSentences (Number) - Number of sentences which have been approved for this language
 sc-lang-info-validated =
     { $validatedSentences ->
-        [0] Kute imisho lecinisekisiwe
-        [one] 1 umusho locinisekisiwe
-       *[other] { $validatedSentences } umusho locinisekisiwe
+        [0] Kute imisho lecinisekisiwe.
+        [one] 1 umusho locinisekisiwe.
+       *[other] { $validatedSentences } umusho locinisekisiwe.
     }
 # Variables:
 #   $rejectedSentences (Number) - Number of sentences which have been rejected for this language
@@ -1539,7 +1539,7 @@ sc-review-form-reviewed-message =
     { $sentences ->
         [0] Kute umusho lobuketiwe.
         [one] 1 umusho lobuketiwe. Siyabonga!
-       *[other] { $sentences } Imisho lesevele ibuketiwe. Siyabonga!
+       *[other] { $sentences } imisho lesevele ibuketiwe. Siyabonga!
     }
 sc-review-form-review-failure = Kubuyeketwa akusaseveki. Sicela ubuye wetame futsi.
 sc-review-link = Buyeketa
