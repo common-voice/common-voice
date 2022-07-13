@@ -407,6 +407,7 @@ on = Vuliwe
 help-accent = Udinga usizo oluthile ngokuphimisa?
 help-accent-explanation = Indlela yakho yokukhuluma, indlela yokuphimisa amagama. Ingathelelwa indawo lapho ohlale khona, yiziphi ezinye izilimi ozikhulumayo, niminye imithelela eminingi. Ungabelana eminye imininingwane obona ukuthi ifanelekile lana.
 help-variants = Udinga usizo oluthile ngokuhlukile?
+help-variants-explanation = Ulimi lungahluka ngezindlela thizeni - isibonelo, abantu abahlala esigodini esisodwa noma emphakathini owodwa. Lokhu kubizwa ngokuthi ulwimi lwesigodi.
 
 ## Profile - Email
 
@@ -465,6 +466,7 @@ faq-what-quality-a = Sifuna idathasethi yeCommon Voice ibonakalise izinga le nji
 faq-why-10k-hours-q = Kungani amahora angu-10,000 aqinisekisiwe kuwumgomo wolimi ngalunye lokuthwebula umsindo?
 faq-why-10k-hours-a = Leli cishe inani lamahora adingekayo ukuqeqesha isistimu yokukhiqiza inkulumo-iya-kumbhalo.
 faq-how-calc-hours-q = I-Common Voice iwabala kanjani amahora?
+faq-how-calc-hours-a = Amahora siwabala ngokulinganisela isilinganiso sobude bokuqopha ngabunye, bese siphindaphinda lokho ngenombolo yakho konke okuqoshiwe ezilimini zonke.
 faq-where-src-from-2-q = Uvelaphi umbhalo owumthombo?
 faq-where-src-from-2-a =
     Umbhalo wethu womthombo wakhiwe iminikelo womnikeli wangempela kanye nekulumompendulwano ebuya esizindeni somphakathi yemidlalo yakumabonakude njenge <italic>It's a Wonderful Life</italic>. 
@@ -531,6 +533,7 @@ about-clip-graveyard-text =
     
     Sithanda ukubonga lababantu nalezinhlangano ngokusiza kwabo kuleprojekthi:
 about-get-involved = Zibandakanye
+about-get-involved-text-2 = Uyafuna ukwenza iCommon Voice ibe ngcono? Kuhle! Xhumana nathi nge-emeyili noma <discourseLink>Discourse</discourseLink> amaforamu, thumela izinkinga zesayithi ku <githumLink>GitHub</githubLink> noma joyina <matrixLink>Matrix</matrixLink> inkulumo yomphakathi.
 about-stay-in-touch = Ngihlala kanjani ngithintana?
 about-stay-in-touch-button = Bhalisa
 about-stay-in-touch-text-1 = <emailFragment>Bhalisa</emailFragment> ohlwini lwethu lwama-imeyili ukuze ufunde ukuthi ungaba nengxenye kanjani emikhankasweni, imicimbi kanye nezici zokuklama ngokuhlanganyela ku-Common Voice.
@@ -633,6 +636,7 @@ hours-validated-explanation = Ukubalwa kwamahora wamazwi aqoshiwe aqinisekisiwe 
 sst = Inkulumo-kuya-umbhalo
 sst-explanation = Ubuchwepheshe beSpeech-to-text (STT) buguqula idatha yezwi ibe umbhalo.
 de-identified = Susa ukubonakala
+de-identified-explanation = Indlela yokufihlwa kwemininingwane yalowo onikelayo ngokuqoshiwe ngezwi ifihliwe kumazwi aqoshiwe anikelwe uma isipakishiwe ukuba ingxenye yolwazi oluqoqiwe.
 
 ## Error pages
 
