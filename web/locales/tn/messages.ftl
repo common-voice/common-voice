@@ -282,18 +282,18 @@ x-weeks-short =
 x-months-short =
     { $count ->
         [one]
-            "{ $count ->
-               *[other] { $count }mo
-            }"
-       *[other] { "" }
+            { $count ->
+               *[other] "{ $count }mo"
+            }
+       *[other] { "{ $count }mo" }
     }
 x-years-short =
     { $count ->
         [one]
-            "{ $count ->
-               *[other] { $count }y
-            }"
-       *[other] { "" }
+            { $count ->
+               *[other] "{ $count }y"
+            }
+       *[other] { "{ $count }y" }
     }
 help-make-dataset = Re thuse go aga rekoto ya tshedimosetso ya phatlalatsa, ya maemo a a kwa godimo
 sign-up-account = Ikwadise go nna le akhaonto
