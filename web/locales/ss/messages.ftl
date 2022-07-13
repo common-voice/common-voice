@@ -883,8 +883,8 @@ goal-help-recording = Usite Common Voice kufinyelela ku <goalPercentage></goalPe
 goal-help-validation = Usite Common Voice kufinyelela ku <goalPercentage></goalPercentage> wemagoli etfu { $goalValue } ekucinisekisa ngelilanga
 contribute-more =
     { $count ->
-        [one] Ready to do { $count } more?
-       *[other] Ready to do { $count } more?
+        [one] { "" }
+       *[other] Ulungele kwenta  { $count } lokunye?
     }
 record-cta = Cala kutfwebula
 record-platform-not-supported = Siyacolisa, inkhundla yakho ayikasekelwa kwamanje.
@@ -1386,7 +1386,7 @@ sc-add-result =
 sc-add-err-failed =
     { $sentences ->
         [0] Kute imisho lefeyilile
-        [one] munye umusho lofeyilile
+        [one] Ungu 1 umusho lofeyilile
        *[other] { $sentences } imisho lefeyilile
     }
 sc-add-err-submission = Inkinga yekumikisa
@@ -1401,9 +1401,9 @@ sc-confirm-sentences-title = Cinisekisa Imisho Lemisha
 #   $countOfSentences (Number) - Number of sentences the user has filled in the submission form
 sc-confirm-sentences-found =
     { $countOfSentences ->
-        [0] Kute imisho letfolakele
-        [one] munye umusho lotfolakele
-       *[other] { $countOfSentences } imisho letfolakele
+        [0] Kute imisho letfolakele.
+        [one] Ungu 1 umusho lotfolakele.
+       *[other] { $countOfSentences } imisho letfolakele.
     }
 # Variables:
 #   $countOfInvalidated (Number) - Number of sentences the user rejected in the review form before submission
@@ -1470,9 +1470,9 @@ sc-lang-info-validated =
 #   $rejectedSentences (Number) - Number of sentences which have been rejected for this language
 sc-lang-info-rejected =
     { $rejectedSentences ->
-        [0] Kute imisho lejikisiwe
-        [one] munye umusho lojikisiwe
-       *[other] { $rejectedSentences } imisho lejikisiwe
+        [0] Kute imisho lejikisiwe.
+        [one] Ungu 1 umusho lojikisiwe.
+       *[other] { $rejectedSentences } imisho lejikisiwe.
     }
 
 ## LOGIN
