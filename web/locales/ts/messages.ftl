@@ -276,12 +276,12 @@ x-weeks-short =
     }
 x-months-short =
     { $count ->
-        [one] $count ->
+        [one] { "" }
        *[other] { $count }mo
     }
 x-years-short =
     { $count ->
-        [one] $count ->
+        [one] { "" }
        *[other] { $count }y
     }
 help-make-dataset = Hi pfuneni ku aka tidathaseti ya xiyimo xa le henhla, leyi pfulekeke erivaleni.
@@ -867,7 +867,7 @@ goal-help-recording = U pfune Common Voice ku fikelela <goalPercentage></goalPer
 goal-help-validation = U pfune Common Voice ku fikelela <goalPercentage></goalPercentage> eka pakani ya hina ya siku na siku ya { $goalValue } ya ku tiyisisa!
 contribute-more =
     { $count ->
-        [one] $count ->
+        [one] { "" }
        *[other] U lunghekele ku endla { $count } swo tala?
     }
 record-cta = Sungula ku rhekhoda
@@ -1378,15 +1378,15 @@ sc-confirm-rejected-by-you = { $countOfInvalidated } yi ariwile hi wena
 sc-confirm-already-reviewed =
     { $countOfReviewed ->
         [0] Ku hava xivulwa lexi se xi kambisisiweke.
-        [one] xivulwa 1 se xi pfuxetiwile. Ntirho lowukulu!
+        [one] Xivulwa 1 se xi pfuxetiwile. Ntirho lowukulu!
        *[other] { $countOfReviewed } swivulwa se swi pfuxetiwile. Ntirho lowukulu!
     }
 # Variables:
 #   $readyCount (Number) - Number of sentences ready to be uploaded
 sc-confirm-ready =
     { $readyCount ->
-        [0] ku hava xivulwa lexi lunghekeleke ku rhumeriwa!
-        [one] 1  xivulwa xi lunghekele ku rhumeriwa!
+        [0] Ku hava xivulwa lexi lunghekeleke ku rhumeriwa!
+        [one] 1 xivulwa xi lunghekele ku rhumeriwa!
        *[other] { $readyCount } swivulwa swi lunghekele ku rhumeriwa!
     }
 # Variables:
@@ -1431,7 +1431,7 @@ sc-lang-info-validated =
     { $validatedSentences ->
         [0] Ku hava swivulwa hinkwaswo.
         [one] 1 xivulwa hinkwaxo.
-       *[other] { $totalSentence } swivulwa hinkwaswo.
+       *[other] { $validatedSentences } swivulwa hinkwaswo.
     }
 # Variables:
 #   $rejectedSentences (Number) - Number of sentences which have been rejected for this language
