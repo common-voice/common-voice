@@ -267,8 +267,8 @@ hours-validated = Ama-awara aqinisekisiweko
 voices-online = Amaphimbo afumanekako nje
 todays-progress =
     { $count ->
-        [one] Ituthuko
-       *[other] yanamhlanjesi
+        [one] Ituthuko yanamhlanjesi
+       *[other] { "" }
     }
 help-reach-goal = Sisiza sithome { $goal }
 read-terms-q = Uyifundile imibandela yethu?
@@ -278,17 +278,17 @@ today = Namhlanjesi
 x-weeks-short =
     { $count ->
         [one] Iveke
-       *[other] vk
+       *[other] { $count }vk
     }
 x-months-short =
     { $count ->
-        [one] mo
-       *[other] { "" }
+        [one] { "" }
+       *[other] { $count }mo
     }
 x-years-short =
     { $count ->
-        [one] y
-       *[other] { "" }
+        [one] { "" }
+       *[other] { $count }y
     }
 help-make-dataset = Sisiza senze umsebenzi osezingeni eliphezulu
 sign-up-account = Zitlolise ube ne-akhawundi
@@ -318,10 +318,8 @@ join-newsletter = Nawuthandako ungangenela ihlelo lethu lokufumana zamva nje nge
 whats-public = Khuyini esemphakathini?
 email-not-public = Angekhe sabelane nge-email yakho.
 recordings-and-locale-public =
-    { $count ->
-        [one] "Okurekhodiweko"
-       *[other] "Okurekhodiweko"
-    }
+    Inani lokurekhodiweko namalimi osize ngawo
+    kuzokubona nginanyana ngubani.
 username-optin-public =
     Ungazikhethela bona ufuna igama ozibiza ngalo libonwe babantu 
     namkha awa.
@@ -951,8 +949,8 @@ skip = Dlula
 shortcuts = Ukufitjhanisa
 clips-with-count-pluralized =
     { $count ->
-        [one] Isiqetjhana
-       *[other] Iinqetjhana
+        [one] <bold>{ $count }</bold> Isiqetjhana
+       *[other] <bold>{ $count }</bold> Iinqetjhana
     }
 goal-help-recording =
     Usize iCommon Voice 
@@ -962,8 +960,8 @@ goal-help-validation =
     <goalPercentage></goalPercentage> umgomo wokuqinisekisa { $goalValue } welanga!
 contribute-more =
     { $count ->
-        [one] Ukulungele ukwenza
-       *[other] okwengeziweko?
+        [one] { "" }
+       *[other] Ukulungele ukwenza { $count } okwengeziweko?
     }
 record-cta = Thoma ukurekhoda
 record-platform-not-supported = Sibawa usilibalele okufunako akufumaneki.
@@ -1164,8 +1162,8 @@ receiving-emails-info = Sele ukulungele ukufumana ama-email anjengeenkhumbuzo ze
 not-receiving-emails-info = Okwanje ufakwe ku-<bold>INGASI</bold> bona wamukele ama-email ngehloso yokukukhumbuza, ukukwazisa ngetuthuko neendaba ezimalungana ne-Common Voice
 n-clips-pluralized =
     { NUMBER($count) ->
-        [one] isiqetjhana
-       *[other] iinqetjhana
+        [one] { $count } isiqetjhana
+       *[other] { $count } iinqetjhana
     }
 help-share-goal = Sisiza sifumane amaphimbo angeziweko, yabelana ngomgomwakho
 confirm-goal = Qinisekisa umngomo
@@ -1546,7 +1544,7 @@ sc-add-err-failed =
     { $sentences ->
         [0] Inani lemitjho efeyilileko
         [one] Umutjho mu-1 ofeyilileko
-       *[other] imitjho efeyilileko
+       *[other] { $sentences } imitjho efeyilileko
     }
 sc-add-err-submission = Kube nomraro nawuthumelako
 sc-add-lang-process-notice =
@@ -1566,7 +1564,7 @@ sc-confirm-sentences-found =
     { $countOfSentences ->
         [0] Inani lemitjho efumanekako.
         [one] Umutjho mu-1 ofumanekako.
-       *[other] imitjho efumanekako.
+       *[other] { $countOfSentences } imitjho efumanekako.
     }
 # Variables:
 #   $countOfInvalidated (Number) - Number of sentences the user rejected in the review form before submission
@@ -1601,7 +1599,7 @@ sc-lang-info-total =
     { $totalSentences ->
         [0] Inani lemitjho nasele iphelele.
         [one] Umutjho mu-1 opheleleko.
-       *[other] inani lemitjho nasele iphelele.
+       *[other] { $totalSentences } inani lemitjho nasele iphelele.
     }
 # Variables:
 #   $totalInReview (Number) - Number of sentences currently in the review state for this language
@@ -1627,7 +1625,7 @@ sc-lang-info-validated =
     { $validatedSentences ->
         [0] Ayikho imitjho eqinisekisiweko.
         [one] Mu-1 umutjho oqinisekisiweko.
-       *[other] imitjho eqinisekisiweko.
+       *[other] { $validatedSentences } imitjho eqinisekisiweko.
     }
 # Variables:
 #   $rejectedSentences (Number) - Number of sentences which have been rejected for this language
@@ -1635,7 +1633,7 @@ sc-lang-info-rejected =
     { $rejectedSentences ->
         [0] Inani lemitjho erarhiweko.
         [one] Umutjho mu-1 orarhiweko.
-       *[other] imitjho erarhiweko
+       *[other] { $rejectedSentences } imitjho erarhiweko.
     }
 
 ## LOGIN
