@@ -724,6 +724,7 @@ data-other-librispeech-description = I-LibriSpeech iyikhophasi cishe yamahora an
 data-other-ted-name = TED-LIUM Corpus
 data-other-ted-description = Ikhophasi ye-TED-LIUM yenziwe ngezinkulumo ezilalelwayo kanye nokulotshiwe kwayo kutholakala kuwebhusayithi ye-TED.
 data-other-voxforge-description = I-VoxForge yasungulwa ukuze iqoqe inkulumo eqoshiwe ukuze isetshenziswe nezinjini zokuqaphela izinkulumo zamahhala kanye ne-Open Source.
+data-other-tatoeba-description = Tatoeba ulwazi oluqoqiwe olukhulu lemisho, izincazelo kanye nezinkulumo eziqoshiwe ukuze zisetshenziswe ekufundeni izilimi. Le download iqukethe isiNgisi esiqoshwe umphakathi wabo.
 your-feedback = Ingabe unayo imibono yokuthi singayenza kanjani idathasethi ye-Common Voice ibe ngcono? Sazise ku-Discourse
 go-discourse = Iya kokuthi Discourse
 missing-language = Awuboni ulimi lwakho luboniswa Kusethi Yedatha? Ukucela ulimi qonda ekhasini lethu leZilimi.
