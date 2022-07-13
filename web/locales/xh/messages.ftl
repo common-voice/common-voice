@@ -7,6 +7,7 @@ return-to-cv = Buyela kuCommon Voice
 email-input =
     .label = i-Imeyile
 submit-form-action = Ngenisa
+loading = Iyalayisha...
 email-opt-in-info = Ndingathanda ukufumana ii-imeyile ezifana nezikhumbuzi zenjongo, uhlaziyo lwam lwenkqubela phambili kunye neeleta zeendaba malunga neCommon Voice.
 email-opt-in-info-title = Joyina uluhlu lwe-imeyile lweCommon Voice
 email-opt-in-info-sub-with-challenge = Fumana ii-imeyile ezinjengomngeni kunye nezikhumbuzi zenjongo, uhlaziyo lwenkqubela phambili, kunye neeleta zeendaba malunga neCommon Voice.
@@ -64,9 +65,11 @@ et = I-Estonian
 eu = iBasque
 fa = iPersian
 ff = IFulah
+fi = iFinnish
 fo = IsiFaroese
 fr = IsiFrentshi
 fy-NL = IsiFrisian
+ga-IE = isi-Irish
 gl = IsiGalician
 gn = iGuarani
 gom = iGoan Konkani
@@ -707,6 +710,7 @@ datasets-positioning =
     Sikholelwa ukuba iiseti ezinkulu zedatha zelizwi, ezifumanekayo kuwonke-wonke ziya kukhuthaza ukusungula izinto ezintsha kunye nokhuphiswano olusempilweni lwentengiso kumatshini wokufunda ngokusekwe kubuchwepheshe bentetho.
     I-datasethi yeelwimi ezininzi zeCommon Voice sele iyeyona inkulu ifumanekayo ku wonke-wonke, kodwa ayisiyiyo yodwa.
     Jonga kweli phepha njenge salathisi sezinye iiseti zedatha zezwi ezivulekileyo kwaye, njengoko iCommon Voice iqhubeka ikhula, indawo yokukhupha iindaba ezintsha zethu.
+language = Ulwimi
 # File size in gigabytes
 size = Ubukhulu
 validated-hr-total = Itotali yeyure eqinisekisiweyo
@@ -958,6 +962,7 @@ awards = Iimbasa
 you = Wena
 everyone = Wonke umntu
 contribution-activity = Umsebenzi wegalelo
+top-contributors = Abaxhasi abaPhezulu
 recorded-clips = Iikliphu ezirekhodishiweyo
 validated-clips = Iikliphu eziqinisekisiweyo
 total-approved = Itotali iVunyiwe
