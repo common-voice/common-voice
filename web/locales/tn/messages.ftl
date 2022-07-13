@@ -1061,12 +1061,8 @@ receiving-emails-info = Gone jaanong o dirile gore o amogele diimeile tse di jaa
 not-receiving-emails-info = Gone jaanong o dirile gore o <bold>SE KA</bold> wa amogela diimeile tse di jaaka dikgopotso tsa maikaelelo, ditlhabololo tsa kgatelopele ya me le makwalodikgang a Common Voice
 n-clips-pluralized =
     { NUMBER($count) ->
-        [one]
-            { NUMBER($count) ->
-                [one] { $count } bidio e-[nngwe] { $count }
-               *[other] { $count } clips
-            }"
-       *[other] *dibidio tse [tse dingwe] { $count }
+        [one] { $count } clip
+       *[other] { $count } clips
     }
 help-share-goal = Re thuse go bona mantswe a a oketsegileng, abelana ka maikaelelo a gago
 confirm-goal = Tlhomamisa Maikaelelo
