@@ -597,6 +597,7 @@ about-playbook-how-grow-language-content-8 = <strong>Yakha ubuciko!</strong> Ump
 ## How to validate
 
 about-playbook-how-validate = Ngazi kanjani ukuthi ngigunyaze isiqeshana sezwi?
+about-playbook-how-validate-content-2 = <strong>Ungazali iziqeshana lapho isikhulumi 'sikhuluma ngendlela ehlukile' kuneyakho</strong> - kubalulekile lokhu ekuqashelweni kwezwi ukuze izosebenza ngcono kuwo wonke umuntu.
 about-playbook-how-validate-content-3 = Uma ucabanga ukuthi ukuphinyiswa kwamagama kwenza <strong>kungaqondeki</strong>, noma kuno <strong>msindo ongasemuva</strong>, noma kuna <strong>banye abantu abakhulumayo</strong>, kuzomele unqabe lesosiqephu. <accuracyLink>Bheka ulwazi olubanzi ngemibandela yokuqonda nqo</accuracyLink>.
 
 ## How to access dataset
@@ -1100,6 +1101,7 @@ contribution-criteria-page-title = Imibandela Yokufaka Izandla
 contribution-criteria-page-description = Qonda ukuthi yini okufanele uyibheke lapho ulalele iziqeshana zezwi futhi usize ukwenza izwi elirekhodiwe lakho licebe kakhulu!
 contribution-for-example = ngokwesibonelo
 contribution-misreadings-title = Ukungafundi kahle
+contribution-misreadings-description = Lapho ulalela, hlola ngokucophelela ukuthi lokho okurekhodiwe yikho kanye okuqoshiwe; kunqabe uma kukhona ngisho namaphutha amancane. <br />Amaphutha ajwayelekile kakhulu abala:
 contribution-misreadings-description-extended-list-1 = Kushoda <strong>'A'</strong> noma <strong>'The'</strong>. ekuqaleni kokuqoshwa.
 contribution-misreadings-description-extended-list-2 = Ishoda ngo-<strong>'s'</strong> ekupheleni kwegama.
 contribution-misreadings-description-extended-list-3 = Ukufunda izifinyezo ezingekho, njengokuthi "We're" esikhundleni sokuthi "We are", noma okuphambene nalokho.
