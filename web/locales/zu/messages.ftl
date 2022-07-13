@@ -641,6 +641,7 @@ de-identified-explanation = Indlela yokufihlwa kwemininingwane yalowo onikelayo 
 ## Error pages
 
 error-title-404 = Asikwazanga ukukutholela lelo khasi
+error-content-404 = Mhlampe <homepageLink>ikhasi lethu lasekhaya</homepageLink> lingasiza? Ukubuza umbuzo, sicela ujoyine <matrixLink>ukuxoxa komphakathi kweMatrix</matrixLink>, qapha izinkinga zesayithi ku <githubLink>GitHub</githubLink> noma vakashela <discourseLink>ama Discourse forums ethu</discourseLink>
 error-title-503 = Sibhekene nesikhathi sokungasebenzi esingalindelekile
 error-content-503 = Isayithi lizobuya ngokushesha ngangokunokwenzeka. Ukuthola umniningwane wezakamuva, sicela ujoyine i <matrixLink>Umphakathi wokuxoxisana wematrix</matrixLink> noma vakashela i<githubLink>GitHub</githubLink> noma <discourseLink> amaforamu wethu e-Discourse</discourseLink> ukuhambisa noma ukuqapha izinkinga ohlangabezana nazo ezimayelana nesayithi.
 error-code = Error { $code }
@@ -789,6 +790,7 @@ request-language-success-heading = Ngiyabonga! Uthumele umbuzo wolimi olusha
 request-language-success-list-1 =
     Kufanele uthole i-imeyili echazayo maduze
     izinyathelo zokwenza ulimi lwakho lwengezwe ku-Common Voice
+request-language-success-list-2 = Umphathi womphakathi wethu uzoxhumana nawe ukukulekelela ngosizo oludingayo, akwazise futhi uma kukhona umphakithi osebenza ngolimi lakho.
 request-language-success-list-3 =
     Uma ungezwa ngathi ezinsukwini ezimbalwa,
     finyelela ku-<emailLink>{ $email }</emailLink>
@@ -1229,6 +1231,7 @@ sc-howto-findpd-subtitle = Babheke ku-inthanethi
 sc-howto-findpd-text-2 = Khumbula ukuthi sidinga imvume yokushicilela le misho, ngakho ke qiniseka ukuba umbhalo wakho ungowe<wikipediaLink>isizinda sikawonke wonke</wikipediaLink>. Uma ingekho inkomba ecacile, thola umnini wombhalo, umbuze ukuthi uyafuna yini ukunikela ngombhalo wakhe esizindeni sikawonke wonke. Uma evuma, mcathulise ngenqubo ye <cc0WaiverLink>Isivumelwano Sokunikela</cc0WaiverLink>. Uma bengavumi ukunikela, awuvumelekile ukusebenzisa lowo mbhalo.
 sc-howto-findpd-tips = Nawa amathiphu okuthola imisho:
 sc-howto-findpd-tips-1 = Imithombo engcono kakhulu ongayibheka amaphodikasti, okulotshiweyo, imibhalo yamamuvi nanoma yini engaba khona ingaqukatha izingxoxo zansuku zonke.
+sc-howto-findpd-tips-2 = Izinqubo zikahulumeni, izincwadi kanye nezihloko nazo ziwuncedo kodwa ngoba umbhalo wakhona uvamise ukuhleleka kakhulu, ukubaluleka kwazo kuyancipha.
 sc-howto-findpd-tips-3 = Ngeshwa asikwazi ukuba nezindatshana ze-Wikimedia okwamanje. Ngakho-ke ungakopishi ukunamathisela kusuka lapho.
 sc-howto-findpd-subtitle-2 = Hlanganyela nezinhlangano zendawo noma abantu ngabanye
 sc-howto-findpd-partner-1 = Ziningi izinhlangano ezingafuna ukusebenzisana futhi ezinombhalo omningi ezingawunikela kumthombo womphakathi. Finyelela kumanyuvesi wendawo, kuhulumeni kanye nezinsiza ezivulelekile zezinhlangano, ukukhuluma ngaleprojekthi, ucele usizo.
