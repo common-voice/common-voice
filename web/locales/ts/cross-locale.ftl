@@ -2,7 +2,7 @@
 
 contribute = Hoxa Xandla
 get-involved-button = Hlanganyela
-get-involved-title = Hoxa xandla eka { $lang } .
+get-involved-title = Hoxa xandla eka { $lang }
 get-involved-text =
     Ndza khensa ku tsakela ka n'wina ku hoxa xandla eka { $lang }. Hi tirha hi matimba ku endla leswaku ririmi rin’wana na rin’wana ri lunghekela ku sunguriwa no hlayisiwa
     swipano swi pfuxetiwile hi ku tirhisa imeyili. Loko u lava ku hoxa xandla, hi kombela u nyika email ya wena laha hansi.
