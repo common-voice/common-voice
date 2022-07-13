@@ -1013,8 +1013,8 @@ activity-needed-calculation-plural =
         [one] { $totalHours } awara i nga swikelelea nga murahu ha
        *[other] { $totalHours } dzi awara dzi nga swikelelea nga murahu ha
     }{ NUMBER($periodMonths) ->
-        [one] { $periodMonths } ṅwedzi
-       *[other] { $periodMonths } miṅwedzi
+        [one] { $periodMonths } ṅwedzi arali
+       *[other] { $periodMonths } miṅwedzi arali
     } { NUMBER($people) ->
         [one] { $people } muthu rekhonani
        *[other] { $people } vhathu rekhodani
@@ -1369,9 +1369,9 @@ sc-confirm-sentences-found =
 sc-confirm-rejected-by-you = { $countOfInvalidated } haniwa nga inwi
 sc-confirm-already-reviewed =
     { $countOfReviewed ->
-        [0] [0] A hu na mutaladzi wo no ṱoliwaho.
-        [one] [one] hu na mutaladzi wa 1 wo no ṱoliwaho. Mushumo wavhuḓi!
-       *[other] *[other] { $countOfReviewed } mitaladzi yo no ṱoliwa. Mushumo wavhuḓi!
+        [0] A hu na mutaladzi wo no ṱoliwaho.
+        [one] Hu na mutaladzi wa 1 wo no ṱoliwaho. Mushumo wavhuḓi!
+       *[other] { $countOfReviewed } mitaladzi yo no ṱoliwa. Mushumo wavhuḓi!
     }
 # Variables:
 #   $readyCount (Number) - Number of sentences ready to be uploaded
@@ -1411,9 +1411,9 @@ sc-lang-info-in-review =
 #   $unreviewedSentencesByYou (Number) - Number of sentences the user can still review
 sc-lang-info-left-for-you =
     { $unreviewedSentencesByYou ->
-        [0] [0] A hu tshena mitaladzi yo salaho uri ni i ṱolisise
-        [one] [one] ho sala mutaladzi wa 1 uri ni u ṱolisise
-       *[other] *[other] { $unreviewedSentencesByYou } mitaladzi yo salaho uri ni i ṱolisise.
+        [0] A hu tshena mitaladzi yo salaho uri ni i ṱolisise.
+        [one] Ho sala mutaladzi wa 1 uri ni u ṱolisise.
+       *[other] { $unreviewedSentencesByYou } mitaladzi yo salaho uri ni i ṱolisise.
     }
 sc-lang-info-review-now = <reviewLink>Ṱolisisani zwino!</reviewLink>
 sc-lang-info-add-more = <addLink>Pangani mitaladzi yo engedzeaho zwino!</addLink>
