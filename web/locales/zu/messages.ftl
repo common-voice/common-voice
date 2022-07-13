@@ -252,6 +252,7 @@ speak-subtitle = Nikela ngezwi lakho
 speak-paragraph = Ukuqopha iziqeshana zezwi kuyingxenye ebalulekile yokwakha idathasethi yethu evulekile; abanye bangathi kumnandi futhi.
 speak-goal-text = Iziqeshana eziqoshiwe
 listen-subtitle = Sisize siqinisekise amazwi
+listen-paragraph = Ukuqinisekisa ukuba iziqeshana ezinikelwe kubalulekile kumsebenzi weCommon Voice. Lalela bese uyasisiza ukuthi senze umthombo weziqeshana zamazwi ubesezingeni eliphezulu.
 listen-goal-text = Iziqeshana ziqinisekisiwe
 hours-recorded = Amahora Aqoshiwe
 hours-validated = Amahora Aqinisekisiwe
@@ -285,6 +286,7 @@ email-subscription-title-new = Bhalisela izincwadi zezindaba zeCommon Voice, izi
 ## Account Benefits
 
 benefits = Izinzuzo
+rich-data = Yenza ukuba konke okuthumele kusezingeni eliphezulu ngokunikezela imininingwane eyimfihlo. Ngaphambi kokuba loyomniningwane ubekwe esidlangalaleni, owakho umniningwane uyasuswa.
 improve-audio = Ulwazi lwephrofayela luthuthukisa idatha yomsindo esetshenziswa ekuqeqesheni ukunemba kokuqaphela inkulumo.
 keep-track = Landelela ukuqhubeka kwakho namamethrikhi ngezilimi eziningi.
 compare-progress = Bona ukuthi inqubekelaphambili yakho iqhathaniseka kanjani nabanye abanikeli emhlabeni wonke.
@@ -402,6 +404,7 @@ email-subscriptions = Okubhaliselwe Nge-imeyili
 download-profile = Loda Idatha Yami
 contribution-experience = Umuzwa Wokufaka Isandla
 skip-submission-feedback = Yeqa Impendulo Yokuthunyelwe
+skip-submission-description = Ngesikhathi unikezela, izimpendulo zizokweqiwa emuva kokucindezela u 'Submit'. Umnikelo uzoqhubeka ngqo emuva kokuqoshiwe okuhlanu neziqiniseko.
 skip-submission-note = Qaphela: Usazodinga ukukhetha phakathi kokuthi Khuluma noma Lalela ukuze ushintshe uhlobo lomnikelo.
 off = Valiwe
 on = Vuliwe
@@ -497,6 +500,7 @@ about-header-description-v2 =
     <p> iCommon Voice idathasethi yamazwi aqoshiwe atholakala esidlangalaleni oluphethwe abaxhasi abavolontiyayo emhlabeni wonke. Abantu abafuna ukwakha izinhlelo zokusebenza zamazwi aqoshiwe bangasebenzisa lolulwazi lwamazwi aqoshiwe ukufundisa imishini.</p>
     <p> Okwamanje, ulwazi oluqoshiwe lwamazwi luphethwe izinkampani, lokhu cindezelela izindlela zokusungula. Ulwazi oluqoshiwe lwamazwi lumelwe kancane ebantwini abangakhulumi isiNgisi, abantu bebala elinsundu, abantu abaxhwalile, abantu besifazane kanye nabantu bomakhakha weLGBTQIA+. Lokhu kusho ukuthi uchwepheshe bamazwi alusebenzi ezilimini eziningi, kanti lapho lisebenza khona, alisebenzi ngokulingana kahle kuwo wonke umuntu. Sifuna ukushintsha lokho ngokuhlanganisa abantu bakuzozonke izindawo ukuba babelane izwi labo.</p>
 how-does-it-work-title-v2 = Isebenza kanjani i-Common Voice?
+how-does-it-work-text = Sithumela idathasethi yomthombo ovulekile wamazwi. Nikela ngezwi lakho, qinisekisa ukunemba kweziqeshana zabanye abantu, yenza idathasethi ibe ngcono kuwo wonke umuntu.
 
 ## How does it work section
 
@@ -809,6 +813,7 @@ request-language-error =
 language-section-in-progress = Kuyaqhubeka
 language-section-in-progress-new-description = Lezi zilimi okwamanje zingaphansi kokuthuthukiswa komphakathi. <localizationGlossaryLink>Ukwenziwa kwasendaweni kwewebhusayithi</localizationGlossaryLink> ne-<sesentenceCollectionGlossaryLink>iqoqo lemisho</sentenceCollectionGlossaryLink> kuyadingeka ukuze kuqaliswe.
 language-section-launched = Yethuliwe
+language-section-launched-description = Kulezilimi ezethuliwe, iwebsayithi liphumelele <localizationGlossaryLink>okwendawo</localizationGlossaryLink>, futhi linokwenele <sentenceCollectionGlossaryLink>imisho eqoqiwe</sentenceCollectionGlossaryLink> ukuvumela ukuqhubekisa <speakLink>Khuluma</speakLink> futhi <listenLink>Lalela</listenLink> iminikelo.
 languages-show-more = Buka Okuningi
 languages-show-less = Bona Okuncane
 language-meter-in-progress = Inqubekela phambili
@@ -1445,6 +1450,7 @@ sc-review-select-language = Sicela ukhethe ulimi ozobuyekeza imisho.
 sc-review-no-sentences = Ayikho imisho ezobuyekezwa. <addLink>Engeza eminye imisho manje!</addLink>
 sc-review-form-prompt =
     .message = Imisho ebuyekeziwe ayithunyelwanga, uqinisekile?
+sc-review-form-usage = Swayiphela kwesokudla ukuvuma umusho. Swayiphela kwesokunxele ukuwala. Swayiphela phezulu ukuweqa. <strong>Ungakhohlwa ukushiya uvo lwakho!</strong>
 # Variables:
 #   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
 sc-review-form-source = Umthombo: { $sentenceSource }
