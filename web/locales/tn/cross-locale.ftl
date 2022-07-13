@@ -1,6 +1,6 @@
 ## Languages
 
-contribute = Aba
+contribute = Se-Aba
 get-involved-button = Nna le Seabe
 get-involved-title = Abela { $lang }
 get-involved-text =

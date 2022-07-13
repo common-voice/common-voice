@@ -511,7 +511,7 @@ faq-what-determine-identity-a =
     
     Dikgatiso tsotlhe tsa mantswe di tlositswe tshedimosetso e e tlhaolang motho. Fa o itseela tshedimosetso, o dumela gore o ka se leke go lemoga gore moabi ke mang. Seno se raya gore o ka se leke go amanya tshedimosetso e e mo dataset le tshedimosetso epe ya botho ya moabi. Mme gone, o ka dirisa tshedimosetso eo go thapisa go lemoga mantswe, go lemoga sebui, kgotsa dithulaganyo tse dingwe, ka go golaganya tshedimosetso e e mo dataset le tshedimosetso e nngwe e e setseng e le mo dataset.
 faq-what-is-cv = Common Voice ke eng?
-faq-using-cv = Go Dirisa Lentswe le le Tshwanang
+faq-using-cv = Go Dirisa Common Voice
 faq-description = Common Voice ke karolo ya letsholo la Mozilla la go thusa go ruta metšhine gore batho ba mmatota ba bua jang.
 faq-search-for-answers =
     .label = Senka dikarabo
