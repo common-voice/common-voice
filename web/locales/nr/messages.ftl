@@ -370,7 +370,7 @@ status-contribute = Nikela ngephimbo lakho
 status-hours =
     { $hours ->
         [one] Kuqinisekiswe i-awara okwanje!
-       *[other] kuqinisekiswe ama-awara okwanje!
+       *[other] { $hours } kuqinisekiswe ama-awara okwanje!
     }
 # Variables:
 # $goal - number of hours representing the next goal
@@ -1133,13 +1133,13 @@ lose-changes-warning = Nawuphuma nje uzokulahlekelwa matjhuguluko owenzileko
 build-custom-goal = Zibekele umngomo ojayelekileko
 help-reach-hours-pluralized =
     { NUMBER($hours) ->
-        [one] Sisiza sifikelele i-awara
-       *[other] ama-wara phakathi  nomgomo ozibeleke wona
+        [one] Sisiza sifikelele { $hours } i-awara phakathi { $language } nomgomo ozibeleke wona
+       *[other] Sisiza sifikelele { $hours } ama-wara phakathi { $language } nomgomo ozibeleke wona
     }
 help-reach-hours-general-pluralized =
     { NUMBER($hours) ->
-        [one] Siza iCommon Voice ifikelele  i-awara
-       *[other] ama-awara ngelimi ozikhethele lona
+        [one] Siza iCommon Voice ifikelele { $hours } i-awara ngelimi ozikhethele lona
+       *[other] Siza iCommon Voice ifikelele { $hours } ama-awara ngelimi ozikhethele lona
     }
 set-a-goal = Beka umgomo
 cant-decide = Awukghoni ukuthatha isiqunto?
@@ -1609,7 +1609,7 @@ sc-lang-info-in-review =
     { $totalInReview ->
         [0] Ayikho imitjho engabuyekezwa.
         [one] 1 umutjho ongabuyekezwa.
-       *[other] imitjho engabuyekezwa.
+       *[other] { $totalInReview } imitjho engabuyekezwa.
     }
 # Variables:
 #   $unreviewedSentencesByYou (Number) - Number of sentences the user can still review
@@ -1708,7 +1708,7 @@ sc-review-form-reviewed-message =
     { $sentences ->
         [0] Ayikho imitjho ebuyekeziweko.
         [one] Kubuyekezwe umutjho mu-1. Siyathokoza!
-       *[other] imitjho ebuyekeziweko. Siyathokoza!
+       *[other] { $sentences } imitjho ebuyekeziweko. Siyathokoza!
     }
 sc-review-form-review-failure = Okubuyekezileko angekhe kubulungeke. Sibawa ulinge ngokukhamba kwesikhathi.
 sc-review-link = Buyekeza
