@@ -359,7 +359,7 @@ status-contribute = Abelana ka Lentswe la Gago
 status-hours =
     { $hours ->
         [one] Go tlhomamisitswe ura e le nngwe go fitlha ga jaana!
-       *[other] *Go tlhomamisitswe diura di le { $hours } go tla go fitlha ga jaana!
+       *[other] Go tlhomamisitswe diura di le { $hours } go tla go fitlha ga jaana!
     }
 # Variables:
 # $goal - number of hours representing the next goal
@@ -886,7 +886,7 @@ goal-help-validation = O thusitse Common Voice gore e fitlhelele <goalPercentage
 contribute-more =
     { $count ->
         [one] { "" }
-       *[other] *[other] A o ipaakanyeditse go dira { $count } mo go oketsegileng?
+       *[other] A o ipaakanyeditse go dira { $count } mo go oketsegileng?
     }
 record-cta = Simolola go kgatisa
 record-platform-not-supported = Re maswabi, polatefomo ya gago ga e tshegediwe gone jaanong.
@@ -1042,17 +1042,17 @@ set-a-goal = Baya Maikaelelo
 cant-decide = Ga o kgone go dira tshwetso?
 activity-needed-calculation-plural =
     { NUMBER($totalHours) ->
-        [one] [one] { $totalHours } ura
-       *[other] *[other] { $totalHours } diura
+        [one] { $totalHours } ura di ka fitlhelelwa mo
+       *[other] { $totalHours } diura di ka fitlhelelwa mo
     } { NUMBER($periodMonths) ->
-        [one] [one] { $periodMonths } kgwedi
-       *[other] *[other] { $periodMonths } dikgwedi
+        [one] { $periodMonths } kgwedi fa
+       *[other] { $periodMonths } dikgwedi fa
     } { NUMBER($people) ->
-        [one] [one] { $people } motho
-       *[other] *[other] { $people } batho
+        [one] { $people } motho rekoto
+       *[other] { $people } batho rekoto
     } { NUMBER($clipsPerDay) ->
-        [one] [one] { $clipsPerDay } kgatiso
-       *[other] *[other] { $clipsPerDay } dikgatiso
+        [one] { $clipsPerDay } kgatiso ka letsatsi.
+       *[other] { $clipsPerDay } dikgatiso ka letsatsi.
     }
 how-many-per-day = Go gontle! Dikgatiso di le kae ka letsatsi?
 how-many-a-week = Go gontle! Dikgatiso di le kae ka beke?
@@ -1407,7 +1407,7 @@ sc-confirm-already-reviewed =
     { $countOfReviewed ->
         [0] Ga go na mola o o setseng o sekasekilwe.
         [one] Mola o le 1 o setse o sekasekilwe. O berekile!
-       *[other] *Mela e { $countOfReviewed } e setse e sekasekilwe. O berekile!
+       *[other] Mela e { $countOfReviewed } e setse e sekasekilwe. O berekile!
     }
 # Variables:
 #   $readyCount (Number) - Number of sentences ready to be uploaded
@@ -1415,7 +1415,7 @@ sc-confirm-ready =
     { $readyCount ->
         [0] Ga go na mola o o siametseng go romelwa!
         [one] Mola o le 1 o siametse go romelwa!
-       *[other] *Mela e le { $readyCount } e siametse go romelwa!
+       *[other] Mela e le { $readyCount } e siametse go romelwa!
     }
 # Variables:
 #   $countOfUnreviewed (Number) - Number of sentences unreviewed before the upload
@@ -1441,7 +1441,7 @@ sc-lang-info-in-review =
     { $totalInReview ->
         [0] Ga go na mela e e sekasekiwang.
         [one] Go na le mola o le 1 o o sekasekiwang.
-       *[other] *Mela e le { $totalInReview } e e sekasekiwang.
+       *[other] Mela e le { $totalInReview } e e sekasekiwang.
     }
 # Variables:
 #   $unreviewedSentencesByYou (Number) - Number of sentences the user can still review
@@ -1449,7 +1449,7 @@ sc-lang-info-left-for-you =
     { $unreviewedSentencesByYou ->
         [0] Ga go na mela e e setseng e o tlhokang go e sekaseka.
         [one] Mola o le 1 o o setseng o o tlhokang go o sekaseka.
-       *[other] *Mela e e setseng e le { $unreviewedSentencesByYou } e o tlhokang go e sekaseka.
+       *[other] Mela e e setseng e le { $unreviewedSentencesByYou } e o tlhokang go e sekaseka.
     }
 sc-lang-info-review-now = <reviewLink>Sekaseka jaanong!</reviewLink>
 sc-lang-info-add-more = <addLink>Tsenya mela e e oketsegileng jaanong!</addLink>
@@ -1532,7 +1532,7 @@ sc-review-form-reviewed-message =
     { $sentences ->
         [0] Ga go na mela e e sekasekilweng.
         [one] Go sekasekilwe mola o le 1. Re a leboga!
-       *[other] *Go sekasekilwe mela e le { $sentences }. Re a leboga!
+       *[other] Go sekasekilwe mela e le { $sentences }. Re a leboga!
     }
 sc-review-form-review-failure = E o e sekasekileng ga e a bolokega. Tsweetswee leka gape moragonyana.
 sc-review-link = Sekaseka
