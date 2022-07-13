@@ -427,6 +427,7 @@ A ação foi executada com sucesso
 A ação formativa é obrigatória para todas as pessoas contratadas.
 A bailarina fez uma abertura
 A baleia azul é um animal enorme.
+A bananeira produziu bem desta vez
 A banca de revistas do meu bairro parece ter fechado as portas de vez
 A banda está se preparando para o seu desempenho
 A bandeira é vermelha, azul e amarela.
@@ -980,6 +981,7 @@ A janela se abriu para fora.
 A jaqueta estava pendurada na parte de trás da cadeira larga.
 A jaqueta tinha um propósito? e o menino também.
 A jaqueta vazia não fica em pé.
+A jogadora surpreendeu a torcida na comemoração
 A jornada é mais longa que o normal
 A jovem está jogando basquete.
 A jovem mulher na camisa azul e no sobretudo preto faz waffles caseiros.
@@ -994,8 +996,10 @@ A lama jazia profundamente ao longo da rua.
 A legislação brasileira garante, a todas as crianças e adolescentes
 A lei do funil: a largura para mim, o estreito para você.
 A lei islâmica é chamada de shariah.
+A lei não poderá estabelecer distinção entre brasileiros natos e naturalizados
 A lei que você procura está na última seção do regulamento.
 A lei é a morte do amor.
+A leitura promove o enriquecimento vocabular
 A leitura é realmente absurda para você?
 A lente estava pesada em?, mas tinha um zoom incrível.
 A licença anual é exclusiva para parceiros e parceiros costeiros.
@@ -1045,6 +1049,8 @@ A luz verde na caixa marrom piscou.
 A lâmpada de latão havia sido perturbada.
 A lâmpada de neon vermelha estava quebrada.
 A língua é mais valiosa que um agricultor.
+A língua é viva e progride no tempo
+A macieira está doente
 A madeira deve ser preparada quando as cerejas estiverem maduras.
 A madeira velha faz bom fogo.
 A madeira é o melhor para fazer brinquedos e blocos.
@@ -1359,6 +1365,7 @@ A pista parece muito curta para este tipo de avião.
 A plataforma de petróleo afundou no mar.
 A pobreza ama a sociedade.
 A poesia é, em princípio, a arte de escrever em versos.
+A polícia agiu com truculência
 A polícia ainda encontrou os corpos de ambos na área de Llanaber.
 A polícia eclodiu da cerca quebrada
 A polícia em uma sociedade multiétnica e a carta de Roterdã.
@@ -1570,6 +1577,7 @@ A situação era ridícula e agitada.
 A situação reunida nestes relatórios não está longe do que encontramos na Catalunha.
 A situação só vai piorar e piorar
 A soberania da União é um trabalho artificial.
+A soberania popular será exercida pelo sufrágio universal e pelo voto direto e secreto
 A sociedade americana muda a um ritmo maior do que a oferta eleitoral republicana.
 A sociedade era organizada e desenvolvida.
 A sociedade é uma ferramenta de fraude
@@ -2182,6 +2190,7 @@ Agosto pode ter terminado cedo.
 Agradeceram a fartura daquela noite
 Agradecerei vossa plenitude
 Agradeço a sua boa vontade.
+Agrediu o militante em sua festa de aniversário
 Agrestina
 Agricolândia
 Agricultores rurais trabalhando duro na terra
@@ -3593,6 +3602,7 @@ Ao voltar para casa, não há vergonha.
 Aos cinquenta anos, poucos banhos.
 Aos dezenove anos, Bach escreveu um artigo em seis movimentos descritivos.
 Aos outros dou o direito de ser como são.
+Aos portugueses com residência permanente no país serão atribuídos os direitos inerentes ao brasileiro
 Aos sábados geralmente há festas na minha cidade.
 Aos trabalhadores, apenas algumas migalhas
 Aos treze anos
@@ -4657,6 +4667,7 @@ Atuação hegemônica daquele país
 Atue nessas ordens com grande velocidade.
 Atum, para pessoas que são prejudiciais.
 Atuou como bode expiatório para lançar uma cortina de fumaça
+Atuou como pedreiro e pintor
 Atuou como secretário-geral do Conselho Executivo e como membro do Conselho de administração.
 Até San Juan, não engula um fio.
 Até a assinatura do contrato, o requerente não terá direito a nenhuma percepção econômica.
@@ -5035,6 +5046,7 @@ Beatriz Ribeiro da Silva
 Beatriz Sabala Mendonca
 Beatriz de Paiva Santiago
 Beba café e coma chocolate
+Beba o líquido em jejum
 Beba um pouco mais, gire em torno dos cotovelos e se atrase.
 Bebedouro
 Beber café no café da manhã
@@ -6675,6 +6687,7 @@ Chupinguaia
 Chupou suas duas bofetadas
 Chutar o balde da barraca, colocar fogo no parquinho
 Chute o traseiro dele até que se arrependa pelo que fez e disse
+Chutou o seu traseiro
 Chuva de agosto, boa para pomares.
 Chuva de brisa, chuva de duração.
 Chuva de outubro, sem queda dura.
@@ -8368,6 +8381,7 @@ Desafia o nosso peito a própria morte!
 Desafie nossa vontade
 Desamparado
 Desamparados, eles correram
+Desarmou o revólver
 Desate o embaraço duradouro
 Desativar os gadgets que não estão em uso pode economizar muita energia.
 Desativei algumas das autoridades de certificação, mas elas não estão esmaecidas nessa lista.
@@ -8694,6 +8708,7 @@ Discriminação que alimenta a dívida.
 Discussão e propostas para discussão subseqüente na Wikipedia.
 Discuta e corrija
 Discutindo a legalidade, a legalização e a regulamentação
+Discutiu e foi desaforada na frente do promotor
 Disfunções das glândulas exócrinas que envolvem compromisso com a função policial.
 Disfunções que comprometem a mastigação, a deglutição, a digestão ou a excreção.
 Dispensa ou inexigibilidade de licitação
@@ -9413,6 +9428,7 @@ E então eles querem que a pessoa mude.
 E então eu estava no sótão.
 E então eu vou construir coisas.
 E então, o que?
+E equipe de segurança foi reforçada e os agressores não terão vida fácil
 E espero que Mark supere Higgins!
 E essa capacidade, necessariamente, inclui políticas ativas e passivas.
 E essa permissão não foi dada sem questionar.
@@ -12413,6 +12429,7 @@ Estes são recursos importantes quando você tem armas à mão.
 Estes são ritmos que compõem um palíndromo.
 Estes têm uma forma cônica e são formados por um conglomerado de pedras.
 Esteve fechado em reuniões, ficou sem rede no telemóvel.
+Esteve ligado a organizações paramilitares
 Esther e Pietro
 Esther, Renan, Roseane, Max e Alícia
 Estilo de vida sedentário
@@ -14819,6 +14836,7 @@ Frei Martinho
 Frei Miguelinho
 Frei Paulo
 Frei Rogério
+Freio de contenção
 Fresca como margarida.
 Fricção freqüente
 Frio
@@ -16980,6 +16998,7 @@ Laranja verde.
 Laranjal
 Laranjal Paulista
 Laranjal do Jari
+Laranjeira e limoeiro
 Laranjeiras
 Laranjeiras do Sul
 Largue essa cadeira!
@@ -17897,6 +17916,7 @@ Mas políticas públicas devem permitir que coisas boas aconteçam.
 Mas por que território?
 Mas porque não há tempo suficiente
 Mas precisamente em seu sucesso, encontra esses senhores sua condenação.
+Mas precisou recuar quando foi indiciado e processado
 Mas primeiro eles me matam para ficar.
 Mas qual o custo do software necessário para que essa fratura não ocorra?
 Mas qual é o uso de falar?
@@ -19235,6 +19255,7 @@ Ninguém falou ainda.
 Ninguém falou.
 Ninguém faz nada por nada.
 Ninguém fica bêbado do vinho da casa.
+Ninguém imaginava, evidentemente, que isso fosse acontecer
 Ninguém ligou para nada.
 Ninguém mais foi ferido no evento.
 Ninguém mais sabe dessas coisas, só você.
@@ -19647,6 +19668,7 @@ Noventa e cinco linhas e não mais, é isso.
 Noventa e cinco linhas e não mais? é isso.
 Noventa e três por cento dos cidadãos concordaram
 Novo Acordo
+Novo Acordo Ortográfico da Língua Portuguesa
 Novo Airão
 Novo Alegre
 Novo Aripuanã
@@ -20775,6 +20797,7 @@ O Bernardo se casou com a Valentina.
 O Brasil começa a construir um novo tempo para transformar essa realidade
 O Brasil fica América do Sul.
 O Brasil parece estar retrocedendo ao século quinze
+O Brasil se submete à jurisdição do Tribunal Penal Internacional
 O Brasil tem uma base suficiente para ser um país rico.
 O Bruno usou todas as suas milhas da Tap.
 O Carlos nunca foi no Varjão, nem no Lago Oeste.
@@ -22298,6 +22321,7 @@ O poder me faz feliz
 O poeta às vezes vive entre dois mundos
 O policial está tendo nota na mão.
 O policial foi acusado de vazar uma operação sigilosa.
+O policial foi truculento em sua abordagem
 O polo norte de Marte é uma gigantesca espiral
 O polvo ficou preocupado com a lula.
 O ponteiro das horas vira trezentos e sessenta graus
@@ -23060,6 +23084,7 @@ O tubo de latão rodeava o muro alto.
 O tufão atingiu a costa de Montevidéu e logo mais atingirá Buenos Aires
 O tumulto no estádio ensejou a atuação dos seguranças
 O tupi-guarani é uma das línguas indígenas presentes no interior do país
+O técnico da seleção já foi escolhido
 O técnico não conseguiu descobrir o erro.
 O tédio é uma doença que ameaça uma pessoa feliz.
 O título irá expressar brevemente o conteúdo de cada capítulo.
@@ -23265,6 +23290,7 @@ Odeio o nome que dei a ela
 Oeiras
 Oeiras do Pará
 Oeste, nem água nem vento.
+Ofereceu vergonhosamente medalhas e honrarias para milicianos
 Ofereça medidas
 Oferta economicamente vantajosa, que atende aos requisitos de seleção definidos pelas folhas de aplicação.
 Oficiais agora estão trabalhando para conhecer o corpo.
@@ -24665,6 +24691,7 @@ Participe de recepções institucionais em seu âmbito territorial.
 Participe em fóruns profissionais nacionais, estaduais e internacionais.
 Participe na elaboração de instruções internas do Escritório.
 Participei de várias reuniões
+Participou do reforço escolar
 Particularmente, meu cuscuz cortado eu gosto de comer bem, em vez de grelhado.
 Partilha maravilhosa e meticulosa
 Partimos da situação atual dos principais setores e atividades valencianas.
@@ -27550,6 +27577,7 @@ Rebouças
 Receba o básico
 Receba um pequeno benefício de sobrevivência
 Recebeu minha mensagem?
+Recebeu um presente de grego
 Recebi a mensagem de ontem
 Recebi uma ligação do meu pai
 Receio que este evento seja apenas por convite, senhor.
@@ -28705,6 +28733,7 @@ Selecione japonês como idioma principal.
 Selecione os alunos que irão competir em campeonatos posteriores.
 Selecione produtos para preparar calorias e próteses relacionando as características ao objetivo estabelecido.
 Selecione um servidor espelho na lista da web.
+Selecionou o zagueiro, o atacante e o goleiro
 Seleção Nacional da Colômbia.
 Selvíria
 Sem amor, a vida é uma morte viva.
@@ -29808,6 +29837,7 @@ São oito horas da manhã.
 São precisos dois para dançar o tango.
 São questões administrativas.
 São setecentos e noventa e cinco pesos paraguaios
+São símbolos da república a bandeira, o hino, as armas e o selo nacionais.
 São teorias enigmáticas e complexas para nossa mentalidade reptiliana
 São um par de olhares vagarosos
 Série histórica a que se refere
@@ -30243,6 +30273,7 @@ Tenista está servindo a bola.
 Tens gana?
 Tensão institucional preocupa mercado financeiro
 Tensão pré-menstrual
+Tenta se esconder em um arbusto, mas é encontrada
 Tentando melhorar o mundo pulando para cima e para baixo.
 Tentativa de silenciamento com a imprensa
 Tentativa de zerar e neutralizar as emissões de carbono
@@ -30314,6 +30345,7 @@ Testemunhas relatam um assassino caucasiano violento equipado com coquetéis Mol
 Teus comandos me cansam
 Teus risonhos, lindos campos têm mais flores
 Teutônia
+Teve a oportunidade de se manifestar com veemência
 Teve seu fim decretado
 Texto para fala.
 Teófilo Otoni
@@ -30476,6 +30508,7 @@ Todo alfaiate faz o corte dele e alguns dois atrás.
 Todo ano a mesma coisa aconteceu.
 Todo belo edifício ainda não é um templo.
 Todo bom catalão está frio depois do jantar.
+Todo brasileiro em situação de vulnerabilidade social terá direito a uma renda básica familiar
 Todo cachorro tem seu aniversário.
 Todo caminho tem sua poça.
 Todo dia estava lá para ser vivido ou para marcar a partida deste mundo.
@@ -30528,6 +30561,7 @@ Todo o conteúdo está dentro
 Todo o desporto do país e do mundo está aqui.
 Todo o escritório foi atingido por um silêncio ensurdecedor.
 Todo o exército deles!
+Todo o poder emana do povo, que o exerce por meio de representantes eleitos
 Todo o processo de instalação é realizado em catalão.
 Todo o projeto será relatado na próxima sessão
 Todo o tema não soará completo até a terceira repetição da primeira razão.
@@ -30617,6 +30651,7 @@ Todos sabem comprar, e deduzo que eles também deveriam saber cozinhar.
 Todos se lembram
 Todos são
 Todos são gratuitos e gratuitos.
+Todos são iguais perante a lei, sem distinção de qualquer natureza
 Todos têm o direito de conhecê-los e usá-los.
 Todos vocês são voluntários coletados?
 Todos? quando são jovens? sabem qual é o seu destino.
@@ -33846,6 +33881,7 @@ Visibilize oportunidades e deficiências no design de uma área.
 Visita de experiência de trabalho
 Visitantes, usuários e usos dos principais serviços são oferecidos atualmente, como o tradutor.
 Visitar o escritório durante o horário comercial
+Visou o gol e deu um chute certeiro
 Vista Alegre
 Vista Alegre do Alto
 Vista Alegre do Prata
@@ -35118,6 +35154,7 @@ a primeira é que eu não sou propriamente um autor defunto
 a homeopatia é a verdade, e, para servir à verdade, menti;
 a Arte que alivia da vida sem aliviar de viver
 a bruxa constatou que o caldeirão estava furado
+a casa é asilo inviolável do indivíduo, ninguém nela podendo penetrar sem consentimento
 a causa da minha morte
 a chuva que tamborila nas folhas de tinhorão da chácara
 a educação, a cultura, a ciência, idéias e conhecimentos como instrumentos de desenvolvimento
@@ -35129,6 +35166,11 @@ a forma de ocultar-se os detalhes
 a fé do homem leva-o a acreditar fervorosamente em deus
 a imaginação dessa senhora também voou
 a intercalar esta engenhosa idéia no discurso
+a lei estabelecerá o procedimento para desapropriação por necessidade ou utilidade pública
+a lei não prejudicará o direito adquirido, o ato jurídico e a coisa julgada
+a lei penal não retroagirá, salvo para beneficiar o réu;
+a lei punirá qualquer discriminação atentatória dos direitos e liberdades fundamentais;
+a liberdade, a segurança, o bem-estar, o desenvolvimento, a igualdade e a justiça
 a limitação histórica da autonomia político-administrativa
 a luz refletiu sobre o lugar? como uma aura sobrenatural.
 a língua que falam obriga muita vez a consultar os dicionários
@@ -35137,10 +35179,15 @@ a narrativa patriarcal
 a paciência de milhões de almas submissas como a minha ao destino quotidiano
 a partir de agora, a venda ao publico está encerrada
 a paz indecifrável do luar duro que começa largo com o anoitecer.
+a pequena propriedade rural, desde que trabalhada pela família
+a plenitude de defesa;
 a precisão de uma história desajeitada é sempre a melhor
+a propriedade atenderá a sua função social
 a segunda é que o escrito ficaria assim mais galante e mais novo
 a sentença dada pelo juiz foi demasiado dura
+a soberania dos veredictos;
 a solução de todos os enigmas
+a sucessão de bens de estrangeiros situados no país será regulada pela lei brasileira
 a triste senhora mal podia crer na minha extinção
 acabo porque não tenho alma para suspender.
 aceitou casa e comida sem outro estipêndio, salvo o que quisessem dar por festas.
@@ -35165,6 +35212,7 @@ adquirido no tempo em que andara a tirar o curso superior por correspondência
 ainda assim é mais fácil falar, do que escrever.
 ainda que não parenta, padeceu mais do que as parentas
 alguns, esteróides, apoio, vampiro, fechamento, garagem, morte, entre
+além da indenização por dano material, moral ou à imagem;
 ao sonho inútil, à esperança sem vestígios.
 ao treinar um modelo todos os fonemas culturais precisam ser avaliados
 aponta alguns fatores que dificultam a construção de um coletivo, no contexto educacional
@@ -35178,13 +35226,16 @@ as pessoas estão dançando em uma plataforma quadriculada enquanto as pessoas e
 as pessoas estão se preparando para entrar no ônibus
 as primeiras gravações eram feitas em discos
 as pássaros sempre gostaram de piar ao alvorecer do dia
+assegurado o livre exercício dos cultos religiosos
 assume o compromisso de apoiar os estados e municípios na sua tarefa
 até chegarem ao alcance viscoso da língua do camaleão.
 até tomar a forma de um X
+autodeterminação dos povos; não-intervenção; repúdio ao terrorismo e ao racismo;
 babuínos bobocas balbuciando em bando
 banda fazendo um concerto para as pessoas
 bem como de suas necessidades de alocação e dimensionamento
 bem vindo a todos
+buscará a integração econômica, política, social e cultural dos povos da América Latina
 cada um está tomando o cenário? com as bonitas Luzes.
 capaz de interagir com mensagens enviadas por outros
 celso conheceu maria no mercado do tio chico enquanto esperavam no caixa
@@ -35196,6 +35247,7 @@ classificar este romance de quatro estrelas
 clubes desportivos.
 colocar minha playlist de viagem por estrada da família
 colocar o melhor rock na lista de reprodução em espanhol
+com a solução pacífica das controvérsias, promulgamos, sob a proteção de Deus
 com cada um dos operadores de telecomunicações.
 com ou sem acompanhamento
 com trovisco, rosmaninho, três dentes de alho, uma semente de abóbora seca
@@ -35207,16 +35259,24 @@ como era Meca para o comerciante.
 como está o tempo em Baywood
 como se encontra um determinado fenômeno, quando comparado com a situação desejada
 como todos os documentos falsos
+como valores supremos de uma sociedade fraterna, pluralista e sem preconceitos
 comprimentos em vez de cumprimentos
+conceder-se-á mandado de segurança para proteger direito líquido e certo
+concessão de asilo político
 confiei mais em seu amor por Fátima.
 conjunto de opções que estão à disposição do gestor
 consciente de saber ver, olho a vasta metafísica objectiva dos céus todos
+constitui-se em Estado Democrático de Direito
+construir uma sociedade livre, justa e solidária;
 continuar naquela crença, não produzimos, não criamos e não iluminamos
 conto-te os detalhes daquele dia que vi teu pai brigando com a empregada?
+cooperação entre os povos para o progresso da humanidade;
 criança dormindo em sua cama.
 criança está jogando uma bicicleta
 crianças vestidas de kimono estão andando pela rua para um festival infantil.
+cuidar da saúde e assistência pública, da proteção e garantia das pessoas com deficiência
 cujo alcance estivesse entre quinhentos a mil jardas.
+custas dos serviços forenses;
 da minha parte ou da parte de com quem falei
 daqui a pouco lhes direi quem era a terceira senhora
 das vendas de apetrechos de cozinha
@@ -35233,11 +35293,14 @@ defende diálogo com a esquerda
 deitados moles na cama onde esperam sem sono;
 descendo as escadas devagar
 descreve as ações que serão tomadas a partir da criação
+desde que não frustrem outra reunião anteriormente convocada para o mesmo local
 dessa que andou sempre viajando sonolentamente entre o que sente e o que vê.
 destinado a aliviar a nossa melancólica humanidade
+destinado a assegurar o exercício dos direitos sociais e individuais
 deveria inibir-me até de dar começo.
 deveria ser desenvolvido um movimento amplo e estruturado
 diferença radical entre este livro e o Pentateuco
+direito tributário, financeiro, penitenciário, econômico e urbanístico;
 dispositivos embarcados, como modens e roteadores
 disse-lhe que era imprudente
 do impacto financeiro de decisões tomadas na esfera de gestão de pessoal.
@@ -35257,6 +35320,7 @@ duas mulheres asiáticas andando na frente de uma porta verde
 duas mulheres caminhando em uma área de indigência.
 duas pessoas em sombreros andando pela rua de mãos dadas.
 duas senhoras asiáticas conversam.
+e a proteção aos locais de culto e liturgias
 e assim se derreteu todo o gelo que estava a secar ao sol
 e canto lento, para mim só, vagos cantos que componho enquanto espero.
 e não o fez sem estudar muito e muito;
@@ -35272,6 +35336,7 @@ ele veio também, e teve o seu quarto ao fundo da chácara.
 em mim esse contacto é um contra-estímulo.
 em quanto tempo vou poder viajar
 embebo meus olhos e ouvidos nas cores e nos sons da paisagem
+emigração e imigração, entrada, extradição e expulsão de estrangeiros;
 encontrar um restaurante em Pembine Montana
 enquanto não encontrasse uma forma de resolver o caso
 entre elas três senhoras, minha irmã Sabina, casada com o Cotrim
@@ -35309,7 +35374,12 @@ foi muito menos triste do que podia parecer
 foi preciso fazer um vomitório especial
 folheou-o de ponta a ponta, confirmou no índice e nada encontrou
 foram recebidas e atendem a determinadas condições.
+formada pela união indissolúvel dos Estados e Municípios e do Distrito Federal
 fui acompanhado ao cemitério por onze amigos
+fundada na harmonia social e comprometida, na ordem interna e internacional
+fundo de garantia do tempo de serviço;
+garantindo-se aos brasileiros e aos estrangeiros residentes no país a inviolabilidade do direito
+garantir o desenvolvimento nacional;
 garantir que cada ação pedagógica resulte em uma contribuição para o processo de aprendizagem
 garotinho andando com vara em faixas
 gota, suco, núcleo, pantanoso, esquelético, animais selvagens, arcos
@@ -35332,6 +35402,7 @@ inclusive palavras de aparência esdrúxula
 independentemente da vontade da vítima
 inexperiente e a dar os primeiros passos nas artes mágicas
 instrumento teórico-metodológico, definidor das relações
+irredutibilidade do salário, salvo o disposto em convenção ou acordo coletivo;
 jogador de futebol chutando a bola e outro jogador de futebol tentando bloquear
 levava um Manual e uma botica.
 livro local em um restaurante altamente cotado no Tajiquistão
@@ -35358,6 +35429,7 @@ masturbação, também chamado vulgarmente de punheta ou siririca
 me dá a cela de penitenciário
 me dê a previsão para a próxima terça-feira. para Ree Heights
 me faz apócrifo e mendigo.
+mediante justa e prévia indenização em dinheiro
 meninas brincando na neve no capô de um carro
 meninas com luvas de beisebol atravessando um campo de beisebol
 meninas e adolescentes que apresentam necessidades educacionais especiais, vinculadas ou não a deficiências.
@@ -35392,29 +35464,44 @@ na minha bela chácara de Catumbi
 na direção de seu próprio autodesenvolvimento
 nas costas, e havia, em seguida, tudo, não havia nada, conteúdo, óbvio
 nas tuas mãos o barro assume formas mais belas que nas minhas
+nenhum brasileiro será extraditado, salvo o naturalizado, em caso de crime comum
+nenhuma pena passará da pessoa do condenado
+ninguém poderá ser compelido a associar-se ou a permanecer associado
+ninguém será obrigado a fazer alguma coisa senão em virtude de lei
+ninguém será preso senão em flagrante delito ou por ordem escrita e fundamentada
+ninguém será privado de direitos por motivo de crença religiosa
+ninguém será submetido a tortura nem a tratamento desumano ou degradante;
+no caso de iminente perigo público
 no homem normal o contacto com outrem é um estímulo para a expressão
 no qual se davam na maioria dos casos, separavam-se
+normas gerais de licitação e contratação, em todas as modalidades
 nostalgia Aqui jaz o cachorro enterrado
 não a pôs no intróito, mas no cabo
 não aquele vagar arrastado dos preguiçosos, mas um vagar calculado e deduzido
 não a teria enganado com material de segunda categoria.
+não amparado por "habeas-corpus" ou "habeas-data"
 não de uma aplicação de vontade, mas de uma cedência dela.
 não digo que se deixasse rolar pelo chão, convulsa
+não haverá juízo ou tribunal de exceção;
+não há crime sem lei anterior que o defina, nem pena sem cominação legal
 não interrogo mais nem procuro
 não para salvar a vida, como comemos e dormimos
 não parece que reúna em si todos os elementos de uma tragédia
 não pode ter um enfoque único, mas múltiplo.
 não sei o que penso nem o que sou.
+não será concedida extradição de estrangeiro por crime político ou de opinião;
 o Centro Ciência Viva de Constância são os nossos espaços abertos.
 o Planetário Calouste Gulbenkian está aberto.
 o ano era de mil oitocentos e cinquenta e sete.
 o ator Jackie Chan dando autógrafos para os fãs ansiosos.
 o aviso inevitável da consciência, o grito clandestino de haver alma
+o civilmente identificado não será submetido a identificação criminal
 o clero ainda tem grande papel no Brasil.
 o congestionamento era pesado em toda a cidade.
 o cão, o gato e o rato passeavam alegremente pelos verdejantes campos
 o desafio de perseguir, sistematicamente, ganhos de produtividade crescente
 o desenvolvimento de programas de capacitação
+o direito de fiscalização do aproveitamento econômico das obras que criarem
 o direito de matrícula no sistema regular de ensino.
 o estádio marcado por Sócrates, quando disse «sei só que nada sei»
 o garotinho parece estar fazendo um projeto escolar enquanto seu pai o observa.
@@ -35428,6 +35515,7 @@ o que menos colhi da conversa foi a noção do que nela se disse
 o que significa peido do diabo em francês
 o que você está fazendo hoje à noite?
 o rio de janeiro é a cidade mais louca do planeta
+o sigilo das votações;
 o velho por não poder e o novo por não saber
 olho o grande céu e os muitos astros
 onde está o gamão?
@@ -35440,11 +35528,14 @@ os bichos rastejantes estavam espalhados por toda a casa
 os dois bebês usando óculos de olho
 os miúdos não lhe deram descanso.
 os seus olhos a pensar para dentro coisas de fora
+ou de convicção filosófica ou política
 ou simplesmente não teve tempo para ler notícias?
 ou talvez, também, porque nada valha o amor de uma alma
 ou um homem ao vento.
 outros fatores tem como consequência o descompasso
 ouvindo os soluços das damas, as falas baixas dos homens
+para a retificação de dados, quando não se prefira fazê-lo por processo sigiloso
+para fins de investigação criminal ou instrução processual penal
 para manter suas línguas
 para que jovens falem por eles mesmos sobre os problemas que enfrentam
 para que pudessem ser recuperadas na medida da necessidade
@@ -35459,6 +35550,7 @@ penso, logo existo.
 perde-se precisão ao ignorar fonemas taxados socialmente como insultos
 pergunto-lhe de novo aquilo a que ele já me respondeu
 pessoa em um skate no ar
+piso salarial proporcional à extensão e à complexidade do trabalho;
 pode passear enquanto eu estiver trabalhando
 pode ter a certeza de que o transformarei em sapo.
 pode uma pessoa preferir uma folha de papel verde à vida humana?
@@ -35471,6 +35563,7 @@ por parte dos Estados Unidos e por parte da União Soviética.
 por sobre os destroços presentes até às ribas de uma África juvenil
 porque ele sabia o que encontraria.
 porque, não sei porquê
+prevalência dos direitos humanos;
 prometeu resposta fulminante a países que interferirem na guerra
 qual seria de extrema importância a existência de um mecanismo
 qual valor há afinal na riqueza, se não o vazio também por ela adquirido?
@@ -35480,6 +35573,7 @@ qual é a previsão para Nevada para o primeiro dia de Sucot
 qual é a previsão para o Lesoto
 qual é o problema com as pessoas deste mundo
 qual é o seu problema
+qualquer cidadão é parte legítima para propor ação popular para anular ato lesivo
 quantas vezes teremos que repetir as mesmas frases para as aprenderes correctamente
 quanto custa dez reais em dólares norte americanos
 quanto custa o a entrada para o circo de Soleil
@@ -35502,7 +35596,10 @@ quem sabe se algum dia eles vão saber o que lhes aconteceu
 quero comer em algum lugar ventoso no Novo México
 recebo a perturbação da sua ocasião em que lhe não agrado
 recolho as entoações milimétricas dos seus dizeres expressos
+regime dos portos, navegação lacustre, fluvial, marítima, aérea e aeroespacial;
 registradas no sistema em outubro.
+relação de emprego protegida contra despedida arbitrária ou sem justa causa
+remuneração do trabalho noturno superior à do diurno;
 repositórios, que contêm dados, objetivando o armazenamento, a disponibilização
 representa a estrutura estática
 representantes do movimento de mulheres
@@ -35513,6 +35610,10 @@ reservar uma festa de quatro em um pub altamente cotado
 reservar uma mesa em Big City Burrito em Tower City
 reservar uma mesa na Flórida no Ariston Cafe para sete horas
 reservar uma mesa na Flórida para dez pessoas
+reunidos em Assembleia Nacional Constituinte para instituir um Estado Democrático
+salvo por ordem judicial, nas hipóteses e na forma que a lei estabelecer
+salvo se as invocar para eximir-se de obrigação legal a todos imposta
+salário mínimo, nacionalmente unificado, capaz de atender a suas necessidades vitais básicas
 se poria em primeiro lugar o meu nascimento ou a minha morte
 se ele chegar perto chame a policia
 se o mercador que lhe vendera o caldeirão na feira há muitos anos
@@ -35520,12 +35621,17 @@ se o mundo acaba-se agora qual seria o seu ultimo desejo
 se pretendes mergulhar no oceano tens que tomar todas a precauções
 se tivesse três reais compraria um doce
 se você chegar mais perto vou chamar a policia
+seguro-desemprego, em caso de desemprego involuntário;
 sei sim é zero um dois três quatro cinco seis sete oito nove dez
 sem as ânsias nem as dúvidas do moço príncipe
 sem qualquer tipo de discriminação
 será primeiramente apresentada uma situação real
+sigilo da correspondência e das comunicações telegráficas, de dados e das comunicações telefônicas
 silhueta de uma jovem mulher pulando e um belo cenário no fundo.
 simples tipos de dados abstratos
+sistema estatístico, sistema cartográfico e de geologia nacionais;
+sistema monetário e de medidas, títulos e garantias dos metais;
+sistemas de poupança, captação e garantia da poupança popular;
 sobre a forma de resolver o caso.
 sobre a vida das mulheres
 sobressaindo este num monte de muitos outros, de um brilhante avermelhado
@@ -35537,6 +35643,8 @@ sublime
 submissão passiva é o ato de validar as frases alheias
 suporte para alunos que apresentam necessidades educacionais especiais
 são as ações executadas quando a entidade é removida
+são inadmissíveis, no processo, as provas obtidas por meios ilícitos;
+são invioláveis a intimidade, a vida privada, a honra e a imagem das pessoas
 tal como é impresso em papel.
 tal frequência é cansativa.
 tecnologia habilitada para voz
@@ -35548,7 +35656,10 @@ tinhas cinco anos de idade quando eu te conheci.
 tinhas tranças pretas e caçavas borboletas no quintal do Afonso.
 tocar a última música do Niney The Observer
 toda a minha atenção analítica não consegue definir.
+toda atividade nuclear em território nacional somente será admitida para fins pacíficos
 todos os dias me conhecem com o convívio e a fala
+todos podem reunir-se pacificamente, sem armas, em locais abertos ao público
+todos têm direito a receber dos órgãos públicos informações de seu interesse particular
 toque algum movimento de Franky Gee
 três budistas caminham pela rua.
 três cachorros correm pela grama.
@@ -35697,6 +35808,7 @@ vendedores ambulantes asiáticos que esperam para vender lá a mercadoria.
 verdadeiramente cristão
 vibrações de paz em toda a tenda.
 vinde todos a minha casa que serão serão recebidos com dignidade
+visando à formação de uma comunidade latino-americana de nações.
 você está brincando com dinamite!
 você pode assobiar por isso
 você tem muito amor por mim e eu tenho muito amor por você
@@ -35708,6 +35820,7 @@ vou escrever mais devagar.
 vou tratar de metê-lo no seminário quanto antes.
 vários jovens asiáticos carregando bandeiras preto e brancas
 vós podeis dizer comigo que a natureza parece estar chorando a perda irreparável
+zelar pela guarda da Constituição, das leis e das instituições democráticas
 zé Doca
 À direita está o riacho das Três Gargantas e a Ponte do Arco.
 À direita ou vice-versa, em casa há dinheiro.
@@ -35963,6 +36076,7 @@ zé Doca
 É legal ter uma energia negativa todos os dias.
 É legal.
 É legítimo
+É livre a associação profissional ou sindical
 É lógico.
 É mais a terra que escapa dela.
 É mais choroso do que enterrado.
@@ -36171,6 +36285,7 @@ zé Doca
 É tudo que eu quero saber.
 É tudo que sei.
 É tão ruim hoje.
+É um falastrão desaforado
 É um arroz muito colorido.
 É um banco de dados online de frases de exemplo.
 É um bom dia.
@@ -36317,7 +36432,16 @@ zé Doca
 à porta de um correeiro
 é a sua consciência íntima de serem meus semelhantes
 é a versão digital do jornal Correio da Manhã.
+é assegurado a todos o acesso à informação e resguardado o sigilo da fonte
+é assegurado aos presos o respeito à integridade física e moral;
+é assegurado o direito de resposta, proporcional ao agravo
+é garantido o direito de herança;
+é inviolável a liberdade de consciência e de crença
+é livre a locomoção no território nacional em tempo de paz
+é livre a manifestação do pensamento, sendo vedado o anonimato;
+é livre o exercício de qualquer trabalho, ofício ou profissão
 é o clima que vai ser mais quente em Rhode Island em um ano
+é plena a liberdade de associação para fins lícitos, vedada a de caráter paramilitar;
 é possível que o leitor me não creia, e todavia é verdade
 é preciso não apenas fornecer informações de seu interesse
 é um princípio que está em nossa Constituição

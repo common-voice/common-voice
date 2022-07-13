@@ -59,6 +59,7 @@
 "Beni yakmasın…" diye sırtını sıvazladı.
 "Beyim…" dedi, "beyciğim…"
 "Beğenmedin mi?" diye sordu.
+"Beş kuruşa!" derken "ş"lere basıyor ve dudaklarının arasından onları ezerek çıkarıyordu.
 "Bilemedim beyim!" dedi ve tekrar valide hanımı seyre başladı.
 "Biliyorum, biliyorum!" demek isteyen bir hareketle çabuk çabuk başını salladı.
 "Bilmem!" diyebildim.
@@ -214,6 +215,7 @@
 "Kupayı koz söyleme!" gibi akıl öğreterek oyuna karışmaya başladılar.
 "Kuru baklayla ateş yakamayızl" demesini ve kaptanın yarım koyununu almasını öğrenmişlerdi…
 "Köylü efendimizdir!" gibi cümleler güzel birer morfindir.
+"Kırk yaşında adam aklı başında oturmazsa işte böyle olur" diye başladı.
 "Kız fazla üstüne düştüğümü zannetmesin!" dedi.
 "Kız" dedim. "Kız… sen…"
 "Kıza bir şey olur da benden bilirler!" diye telaş ediyordu.
@@ -292,6 +294,7 @@
 "Peki ama, a çocuğum" dedim, "niçin hemen söylemedin?
 "Peki!" dedim. "Sen üzülme! Ben İzmir'e giderim, tanıdık doktor var, masrafsız, gürültüsüz aldırırım!"
 "Peki, allahaısmarladık…" dedi.
+"Rahat uykular…" diyerek elini kapıya götürürken durdu, arkadaşına döndü:
 "Raif efendi peki" makamında başını salladı.
 "Rızkını vermeyecek olduktan sonra yap yap koyuver!" prensibini mi ele alacağız?
 "Safa geldiniz! Buyurunuz bir kahve içelim!" diyerek, yanıbaşındaki iskemleye çöktü.
@@ -308,6 +311,7 @@
 "Siz nerelisiniz bakayım, kızım?" diye sükûtu bozdu.
 "Size evinize kadar refakat edebilir miyim?" dersem hakkımda ne hüküm verirdi?
 "Size geliyordum!" diye yalan söyledi.
+"Sizi anlamaya çalışacağım" dedim.
 "Sorma başımıza gelenleri!" diye sızlanıyordu.
 "Sormayın, sormayın!" diye başını salladı.
 "Sus!" der gibi avcunun içiyle dudaklarını bastırıyordu.
@@ -333,6 +337,7 @@
 "Yanlışlık değil oğul!" dedi ve anlattı:
 "Yanından ayrılmayın ve akse gelirse o iğnelerden yapın" diyordu.
 "Yaparsın işimi değil mi, Hoca?" dedi.
+"Yarın dükkânlar kapalıdır, çarşıya kadar bir daha yoruluver!" dedi.
 "Yazık!" diye söyleniyordum.
 "Yok canım!" dedim.
 "Yolu kaybettik!" dediler.
@@ -1063,9 +1068,11 @@ Akşam serinliği basınca koridorda üşüyen jandarmalar da iskemlelerini alı
 Akşam siz de vardınız…
 Akşam treni saat dört buçukta geldiği için yazın ortalık kararmadan köye dönebiliyordu.
 Akşam yaklaştığı için aşağıdan doğru derenin uğultusu daha çok duyuluyordu.
+Akşam yemeklerinde sofra başında tıkınan kalabalık, oldukça renkliydi.
 Akşam yemeği hazır.
 Akşam yemeği mi?
 Akşam yemeğinde bir misafir bulunduğu zaman kardeşlerinin veya Nurettin beyin:
+Akşam yemeğinde bir misafir olduğu zaman…
 Akşam yemeğinde görüşürüz.
 Akşam yemeğinde ne yiyeceğiz?
 Akşam yemeğini beraber yiyelim dedim…
@@ -1380,6 +1387,7 @@ Altı
 Altı ay mı?
 Altı ay oldu.
 Altı ay sonraydı, köye tahsildarlar geldi.
+Altı ay sonraydı, köye üç tahsildarlar geldi.
 Altı ay önce.
 Altı aynalı dükkanı varmış.
 Altı buçuk.
@@ -3217,6 +3225,7 @@ Aynen içinde bulunduğumuz binanın şeklinde bir kandil…
 Aynen katılıyorum.
 Aynen senin gibi.
 Aynen sizinle ilk konuştuğumuz akşamdaki gibi hafifim…
+Aynen tablodaki gibi biraz mahzun, biraz istiğnalıydı.
 Aynen tablodaki gibi biraz mahzun, biraz nazlıydı.
 Aynen ya.
 Aynen öyle diyorum.
@@ -3329,6 +3338,7 @@ Ayşe geldi, yanıma oturdu.
 Ayşe gittikten sonra, ortalığı sakin bulan efe söze başladı.
 Ayşe ile beraber giden Fatma'ya seslendi.
 Ayşe'yi, ancak ve ancak bu ihtar susturabilmişti.
+Ayşe, koynundan çıkardığı anasının yazmasını Çakıcı'ya vererek: - Anana söyledim.
 Ay…
 Az ada, çok öde.
 Az ateş çok odunu yakar.
@@ -3915,6 +3925,7 @@ Babasına hayır etmeyenin kimseye hayrı olmaz.
 Babasına çekmiş.
 Babasından kalan maaş, anasıyla küçük kız kardeşine bile yetmiyordu.
 Babasından mal kalan, merteği içinden bitmiş sanır.
+Babasını sorunca, yapmacık bir tavırla yüzünü buruşturup dudaklarını bükerek konuştu…
 Babasını sorunca, yapmacık bir tavırla yüzünü buruşturup dudaklarını büktü.
 Babasını vuran o değildi ki…
 Babasının birçok zamanlar ondan bahsettiğini işitmişti.
@@ -4640,6 +4651,7 @@ Bazen inek, erkek; bazen de dişi doğurur.
 Bazen mi?
 Bazen olur.
 Bazen oluyor.
+Bazen çocuklara kitap parası kalmaz…
 Bazen, evet.
 Bazen.
 Bazı aileler kendi aralarında toplanarak gece eğlentileri yapıyorlardı.
@@ -5074,6 +5086,7 @@ Başını salladı...
 Başını salladı: "Yok… Ailem!"
 Başını sallamayan kavak olmaz.
 Başını sallayarak cevap verdi.
+Başını sallayarak…
 Başını tekrar direksiyona yerleştirirken avucundaki yeşil banknotun ayaklarının ucuna düştüğünü gördüm.
 Başını yavaşça kaldırdı.
 Başını yavaşça yastığa bıraktım.
@@ -8008,6 +8021,7 @@ Bir insan gırtlağından bu kadar manalı ve sarıcı seslerin nasıl çıkabil
 Bir insan nasıl bu kadar riyakar olabilir Yarabbi?
 Bir insan, insan sıkıcı!
 Bir insana başkalarından daha yakın olmanın gururu...
+Bir insana başkalarından daha yakın olmanın gururu…
 Bir insana bir insan herhalde yeterdi.
 Bir insandan bu kadar çok şey talep etmek belki doğru değildi.
 Bir insanın nasıl olup da kendini bu kadar inkâr edebileceğini anlamıyordu.
@@ -9231,6 +9245,7 @@ Birçok istasyonları arkasında bırakan bir tren kadar tabiilikle birinden öt
 Birçok kopya mevcut.
 Birçok vesilelerle, onun hisleri kütleşmiş bir adam olmadığını fark etmiştim.
 Birçok yerlere başvurarak Sıvaslı Ali'nin Ankara'ya getirilmesini temin etti.
+Birçok yerleri değiştirerek söylüyor ve kendisine bunu şöyle açıklıyordu:
 Birçok örgülere ayrılmış saçları arkasına bırakılmıştı.
 Birçok şey.
 Birçok şeyler istiyorum ve hiçbirini elde edemiyorum…
@@ -9849,6 +9864,7 @@ Bu bahane...
 Bu bahisler ona manasız ve lüzumsuz geliyordu.
 Bu bakış ancak bir an kadar sürdü.
 Bu bakışlarda küçük bir haset, hatta gıpta aradım ve bulamadım.
+Bu bakışların altında ezilerek başını başka taraflara çevirdi.
 Bu bakışlarını görünce, hayvanı yere bıraktığım gibi kaçtım…
 Bu bakışta kin yoktu, çünkü aralarında kin doğuracak bir şey geçmemişti.
 Bu bakışı biliyorum.
@@ -10021,6 +10037,7 @@ Bu bizim sırrımız.
 Bu bizim şansımız.
 Bu bizimle ilgili değil.
 Bu boğucu sükûnet, bakınmalar beş on dakika devam etmişti.
+Bu bulutları üstümüze doğru sürükleyen rüzgârı gözünüzle görmüyor musunuz?
 Bu buradayken gelirlerse siz mahvoldunuz…
 Bu böyle devam edemez.
 Bu böyle olmayacak.
@@ -13829,6 +13846,7 @@ Daha yüz yirmi getireceksin!
 Daha yüzünü görmeden, muazzam vücudundan, kim olduğunu anlamıştım.
 Daha zamanımız var.
 Daha ziyade Atlantik'teki müşterilere karşı sarf ettiklerine benziyordu.
+Daha ziyade Macide’yi düşünerek üzülmekteydi.
 Daha ziyade emin olmak için durdu.
 Daha ziyade kendi kendine mınldanıyormuş gibi: "Gemi de gemi değil ki… Hacı Davut vapuru…"
 Daha çabuk!
@@ -13992,6 +14010,7 @@ Dağarcığını da almayı unutmadı.
 Dağarcığını, son defa eliyle doldurdu.
 Dağda gez; belde gez insafı elden bırakma.
 Dağdaki kekliğin bini bir paraya.
+Dağdaki küçük bir derenin nehire doğru koşan suları gibi bütün hislerim ona koşuyorlar.
 Dağlar gibi çamaşırını ona bedava yıkatmaktan çekinmeyen yufka yürekli ev sahibim gözleri yaşararak…
 Dağlarda, ormanlarda yolunu sapıtıverirsin!
 Dağları ıssız sanma, körleri gözsüz sanma.
@@ -14038,6 +14057,7 @@ Dedirmemek lazımdı.
 Dediği gibi.
 Dediğim dedik, çaldığım düdük.
 Dediğim gibi efendimiz…
+Dediğim gibi, başka şeyler bekleyerek ileride bana darılmayınız diye…
 Dediğim gibi, bir gün dükkana getirmiş, tıngırdatmaya başladı.
 Dediğim gibi, gayet iyi dost olabiliriz.
 Dediğim gibi.
@@ -16237,6 +16257,7 @@ En azından şimdilik.
 En ağır sözü şuydu:
 En aşağı yedi sene yiyecekti.
 En başından.
+En büyük alçaklığı yaptın, evine sığınan birini ele verdin!
 En büyük zevkim evin bahçesinde veya derenin kenarında yalnız başıma oturup hülyalara dalmaktı.
 En büyüğü on sekiz yaşında beş çocuğu ve bir de karısı vardı.
 En büyüğü.
@@ -17864,6 +17885,7 @@ Fakat yapılacak hiçbir şey yoktu.
 Fakat yavaş yavaş buna inanmak lazım geldiğini anlıyordu.
 Fakat yavaş yavaş o da içerlemeye başladı.
 Fakat yavaş yavaş, yeni daldığı İslam tasavvufundan bahsettiği meydana çıktı.
+Fakat yazıların başlıklarından ileri geçemedi ve elinde kıvırdığı sayfaları masanın üzerine vurarak:
 Fakat yerde biriken kanları gördü.
 Fakat yine de kavrayabiliyormuş gibi kararlar alıyor, toplantılara katılıyor, geçmişle övünüyoruz.
 Fakat yine kendim: "Hiç olmazsa kaçmazdın… Hiç olmazsa dinlerdin. Kim olursan ol…"
@@ -20296,6 +20318,7 @@ Hadi sevişelim.
 Hadi tatlım.
 Hadi ufaklık.
 Hadi uyu.
+Hadi uyusana…
 Hadi uyuyalım.
 Hadi vur!
 Hadi ya!
@@ -20571,6 +20594,7 @@ Halbuki o da beni seviyor.
 Halbuki o doktorlara, mühendislere layık…
 Halbuki o halinde bile beni görünce derhal yüzü ciddileşir.
 Halbuki o hiç de fevkalade bir adam değildi.
+Halbuki o sırada ancak kırk beş kırk altı yaşlarındaydı.
 Halbuki o zaman da yine böyle bir edepsizlikten içeri düşmüştü…
 Halbuki o zaman daha gençti de…
 Halbuki o önüne gelene çatardı.
@@ -22448,6 +22472,7 @@ Her zaman, her yerde.
 Her zaman.
 Her zamanki gibi basit bir soğukalgınlığına benzemiyordu.
 Her zamanki gibi.
+Her zamanki yabancı ve dalgın gülüşüyle kâğıdı elimden alarak…
 Her zamanki yabancı ve dalgın gülüşüyle kâğıdı elimden aldı.
 Her zamanki çocukça tebessümü bana daha ziyade yüzün adalelerini yoran bir sırıtma gibi geldi.
 Her zamankinden daha hafifsin…
@@ -23627,6 +23652,7 @@ Jandarma, evvela güzellikle işe başlamak isteyerek kadına sokuldu.
 Jandarmalar derhal köyde vaka için ifade almaya başlarlar.
 Jandarmalar muhtarı, Hüseyin'i birbirlerine bağlayarak kasabanın yolunu tutarlar.
 Jandarmalar yanıma koştular.
+Jandarmalar yanına koştular.
 Jandarmalardan biri başını kapıdan uzatarak: "Beybaba'nın soyu sopu buraya toplandı!".
 Jandarmalardan biri:
 Japonlar…
@@ -24445,6 +24471,7 @@ Kartal…
 Kart…
 Karyola tamiri…
 Karyolanın ayakucunda asılı duran ceketini başıyla gösterdi.
+Karyolanın ayakucunda asılı duran ceketini başıyla göstererek…
 Karı bu…
 Karı durdu durdu sana selam etti.
 Karı kapının yanındaymış.
@@ -24666,6 +24693,7 @@ Kaynana pamuk ipliği olup raftan düşse gelinin başını yarar.
 Kaynana öcü, oğlu cici.
 Kaynatam öldü ve baldızımla kayınlarım başıma kaldı.
 Kaynayan kazan kapak tutmaz.
+Kayseri'de söylediler.
 Kayseri'nin operatörü kötü değildi ama, işini sıkı tutsa öbür böbrekte yeniden tepmezdi.
 Kayık kiralanan bir yer bulmak için bir hayli dolaştılar.
 Kayıkta elini cebinden çıkarmıyor, parmaklarının arasında hışırdayan zarfı okşuyordu.
@@ -30444,6 +30472,7 @@ Numara!
 Numaram sende var.
 Numaramı nereden buldun?
 Numarası ne?
+Nurettin bey de, haysiyetine dokunulmuş gibi yüzünü buruşturarak…
 Nurettin bey de, haysiyetine dokunulmuş gibi yüzünü buruşturdu.
 Nurettin bey kaşlarını çatarak sordu.
 Nurettin bey, ev halkını teskin etmek için bir dahiliye mütehassısı getirdi.
@@ -31136,6 +31165,7 @@ Odanın bir başından bir başına iki üç kere gidip geldim.
 Odanın iki duvarındaki ufak pencerelerin önünde kalabalık vardı.
 Odanın içinde sıkıntılı bir hava vardı.
 Odanın kapısında veznedarla karşılaştı.
+Odanın köşesinde yığılı duran yün şiltelere hasretle bakıyor, bunlarda ne kadar rahat yatılacağını düşünüyordu.
 Odanın köşesine yığdığım kitapları taşımak derdi kadar, bunda manasız bir hicabın da tesiri vardı.
 Odanın küçük sac sobası hiç durmadan yanıyordu.
 Odanın ortasında kımıldamadan duruyordum.
@@ -33050,6 +33080,7 @@ Parmaklarımın onun yanaklarına, alnına yapıştığını hissediyordum.
 Parmakların ele bitiştiği gibi bu yumuşak sulara yapışmamış mı?
 Parmakların ele bitiştiği yerde çukurlar değil, hafif kabartılar vardı.
 Parmaklarına dikkat et.
+Parmaklarını biraz içeri doğru kıvırmıştı.
 Parmaklarını kıvırıyor, tekrar açıyor ve elini yumruk yaparak avucumun içinde sıkıyordum.
 Parmaklarını şöyle kıvırarak kupayı yakaladı ve ağzına götürdü.
 Parmaklarının arasında yumuşak bir kadife parçası gibi kayan ince çoraplar aşağı doğru sallanıyordu.
@@ -37008,6 +37039,7 @@ Sonra dikkatle yüzüme bakarak:
 Sonra dikkatle yüzüme baktı.
 Sonra doktora döndü: "Bana biraz ikram edemez misin, bak sana talebenden mektup da getirdim."
 Sonra doğrulup gülümseyerek erkeğe baktığını ve gözleriyle adeta:
+Sonra doğrulup gülümseyerek erkeğe baktığını ve gözleriyle adeta…
 Sonra durdu.
 Sonra duydum ki, delikanlılarla kadınlar onun bulunduğu odayı sabaha kadar durmadan taşlamışlar.
 Sonra dönüp yoluma devam ettim.
@@ -37600,6 +37632,7 @@ Söylemiş miydim?
 Söylemiştim ya.
 Söylemiştim.
 Söylemiştin.
+Söylenerek Niğde'dekilere kızıyordu.
 Söylenerek ve tehditler savurarak yukarı çıktı.
 Söylentiler.
 Söyler misin?
@@ -37756,6 +37789,7 @@ Sürtük.
 Sürücü…
 Sürüden ayrılanı kurt kapar.
 Sürün atlarınızı!
+Sürün bunları ormandan dışarı!
 Sürüne sürüne bile olsa gene giderim!
 Sürünürken oldukça yorulmuştum.
 Sürüyorum.
@@ -39846,6 +39880,7 @@ Ve biz…
 Ve boğazına şişler sokulan bir hayvan gibi acı bir çığlık kopardım.
 Ve bu "bizimki", bütün mülkiyetiyle "benimki!" demek istiyordu.
 Ve bu "güzel" haberi tam on sene sonra öğrendim.
+Ve bu benim tarafımdan yapılmış bir fedakârlık değildir.
 Ve bu cinayettir.
 Ve bu darbe, bana hepsinden daha ağır geldi.
 Ve bu da…
@@ -40249,6 +40284,7 @@ Yahu, katil olacak surat olmasa katil olmazdı.
 Yahu, ne oluyor bunlara?
 Yahu, sana acıyorum.
 Yahu, sen kız olacakmışsın ama yanlış doğmuşsun!
+Yahu, sen kız olacakmışsın, ama yanlış doğmuşsun!
 Yahu, sizin söyledikleriniz de laf mı?
 Yahudi…
 Yahut bana hükmünü geçiremiyor ve ben feci bir hırs ve imkansızlık içinde çırpınıyorum.
@@ -40720,10 +40756,12 @@ Yanına gelenlerin yüzüne baktı.
 Yanına geliyorum.
 Yanına git.
 Yanına gittim, bir elimle çenesini tutarak başını yukarıya kaldırdım.
+Yanına gittiğim zaman kaçtı, en sonra da:
 Yanına oturabilir miyim?
 Yanına oturdum.
 Yanına oturduğum arkadaşlardan biri bermutat Şükufe'yi ima ederek manalı sözler söylemeye başladı.
 Yanına oturmalı, evvela elini yakalamalı, bakışıp gülüşmeli, yarım saat cilveleşmeliydi, değil mi?
+Yanına sokularak.
 Yanına sokuldum...
 Yanına sokuldum: "Ne oldu Mustafa?" dedim.
 Yanına sokulduğum zaman, yerde yatanın bir kadın olduğunu anladım.
@@ -41727,6 +41765,7 @@ Yine başlıyor.
 Yine başlıyoruz.
 Yine bekleriz.
 Yine ben.
+Yine bir zeybek olan çiftlik sahibinin himayesine sığınmaktan başka çare yoktu.
 Yine bütün bunları unutarak: - Yazık ki seni göndermedim Hacı…
 Yine cevap vermiyordu.
 Yine de doyuramıyorum gözlerini pezevenklerin…
@@ -42026,6 +42065,7 @@ Yook yavrum, ben iş güç sahibi adamım, şu kitapları görüyor musun, okuya
 Yorganı tutan kolumla onu kendime doğru çektim.
 Yorganın altına girmeye cesaret edemedi.
 Yorganın kenarlarını dikkatle muayene ettikten sonra çaresizlikle başını salladı.
+Yorganını boğazına kadar çekerek…
 Yorganını boğazına kadar çekti.
 Yorgun bir şekilde kapadığı gözlerinin önünden birçok levhalar geçiyordu.
 Yorgun değil misin?
@@ -42100,6 +42140,7 @@ Yukarıya bak.
 Yularsız ata binilmez.
 Yularsız deve yedilmez.
 Yuma hocam, yuma, kanımız aksın, Dostumuz ağlasın, düşmanlar baksın…
+Yumrukları sıkıldı, yüzü buruştu, çenesi titredi.
 Yumurtada kıl bitmez.
 Yumurtadan çıkan yine yumurta çıkarır.
 Yumurtalar.
@@ -42229,6 +42270,7 @@ Yüz bin dolar.
 Yüz bir.
 Yüz dokuz.
 Yüz dört.
+Yüz elli altı.
 Yüz elli lirayı avucunda sımsıkı tutarak doğumevine döndü.
 Yüz elli.
 Yüz ellisi benim elbette…
@@ -42242,6 +42284,7 @@ Yüz on dokuz.
 Yüz on dört.
 Yüz on iki.
 Yüz on yedi.
+Yüz on.
 Yüz otuz liraya sezeryan yapılır mı?
 Yüz otuz sekiz.
 Yüz otuz yedi
@@ -42342,6 +42385,7 @@ Yüzünde pek manalı bir tebessüm vardı.
 Yüzünde tatlı bir gülümseme vardı.
 Yüzünde usanmış bir ifade vardı.
 Yüzünde ümitsiz bir tebessüm...
+Yüzünde ümitsiz bir tebessüm…
 Yüzünde, bana iyilik ettiği için, samimi bir memnuniyet vardı.
 Yüzünde, fazla ileri gitmiş olmaktan, yanlış anlaşılmaktan korkan bir insanın endişesiyle:
 Yüzüne baktım.
@@ -43968,6 +44012,7 @@ ve bunları çalanların yüzünü kaplayan mühim ifade beni buradan da kaçır
 Öbek öbek kasabacıklar, kendi içlerine kapanmış birer küçük dünyadır.
 Öbür candarma silahını eline alarak dışarı çıktı.
 Öbür candarma sorucu gözlerle arkadaşına baktı: "Hani ya?" diye mırıldandı.
+Öbür oğullarımın çocukları yoktu.
 Öbür oğullarımın çocuktarı yoktu.
 Öbür tarafta görüşürüz.
 Öbür taş da böyle kocaman mı?
@@ -44213,6 +44258,7 @@ ve bunları çalanların yüzünü kaplayan mühim ifade beni buradan da kaçır
 Ömer bu küçümseme dolu sözlerden alındı:
 Ömer bu sefer çok içten güldü:
 Ömer bu söz üzerine tüylerinin ürperdiğini hissetti.
+Ömer bu söze bir anlam vermeye çalıştı.
 Ömer bu söze içerledi, fakat sonra karısının haklı olduğunu düşünerek güldü.
 Ömer bu sözlerin neyi kastettiğini derhal anlamıştı.
 Ömer bugün de masasında beş on dakika oturduktan sonra kalktı.
@@ -44281,6 +44327,7 @@ ve bunları çalanların yüzünü kaplayan mühim ifade beni buradan da kaçır
 Ömer hummalı bir hasta gibi terlemişti.
 Ömer iki kadehten fazla içmemişti, fakat başı dönüyordu.
 Ömer ilk sözü olarak açılışı yaptı:
+Ömer ise biraz yan durarak karısının sol yanağını, burnunu ve kirpiklerini görüyordu:
 Ömer içinden bir küfür etti.
 Ömer içinden söylendi:
 Ömer içinden söylenmeye başladı:

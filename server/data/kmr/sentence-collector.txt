@@ -311,6 +311,7 @@ Bi kêlekê de tewandina gewde.
 Bi merivên mezin re mezin
 Bi milyona pengûen hatiye tespîtkirin.
 Bi mirina pîrê re Pûka Pîrê jî diqede.
+Bi mîzkirinê paşmayî ji laş tên avêtin.
 Bi neqşên xwe weke kitêbeke pîroz tê xuyan.
 Bi nêrînên xwe yên dilovan, aramî û hezkirinê dixe dilê me.
 Bi nêzîkbûna vebûna dibistanê, we çi kir?
@@ -925,6 +926,7 @@ Di encama serdegirtinê de derket holê
 Di fakulteya Îlahiyeta Qonyeyê û li zanîngeha Dîcleyê mamostetî kiriye.
 Di felsefeya Che de jiyaneke tijî û dagirtî heye.
 Di fêrbûnê de mirovek ne jêhatî be timî kêm dimîne.
+Di gedeyê de ji bo herîsa proteînan enzîma pepsîn kar dike.
 Di gelek welatên dinyayê de, bi du zimanan dixwînin
 Di gotûbêjê de di derheqê min de gotegot kirine.
 Di hawa sar de xeber tê, xeberê bi jan.
@@ -963,6 +965,8 @@ Di komcivînê de li ser endamên nû, biryar hat girtin
 Di konferansê de behsa mafê serxwebûnê kir
 Di kurdî de israr bikin lê kesî neêşînin.
 Di kîjan demê de xweza dixemile?
+Di laşê mirov de pênc lître xwîn heye.
+Di laşê mirov de çend hestî heye?
 Di lengerên pirê de dîwarên taybetî hatine çêkirin.
 Di lîstokê de em cudahiyê naxin di navbera hevalên xwe de.
 Di mala me de dayîka me bijîşka malê ye.
@@ -2502,6 +2506,8 @@ Goştê masiyan, tîmareke baş e.
 Goştê sor ji bo biraştinê pir xweş e.
 Grekiyan, dagirkeriyeke dijwar şopandibûn û paşê têk çûn
 Greva birçîbûnê ya li Îzmîrê, îro bi dawî bû
+Guh endamê hestê bihîstinê ye.
+Guh, difin, çav, ziman û çerm endamên hestê ne.
 Guh, em bi vî lebatî dengê derdorê dibihîzin.
 Guherînên vîral sîtopatîk di pnomosîtan de hatin raçavkirin.
 Gul bi reng û cureyên xwe yên cuda, derdora me xweşik dikin.
@@ -2646,6 +2652,8 @@ Hemû qonaxên dîrokê, di kilamên dengbêjan de cih girtine
 Hemû tiştê ku pêdivî pê heye ez dikim.
 Hemû tiştên tu dibêjî tam derew in!
 Hemû xweza yek gul be ne xweş e.
+Hemû zîndewer ji xaneyan pêk tên.
+Hemû zîndeçalakiyên xane û şaneyan, di germahiya asayî ya laş de rû didin.
 Hemû çûn ez hîştim tenê
 Hene
 Henek bi hevalên xwe kirin.
@@ -2778,6 +2786,7 @@ Hespê te heye?
 Hestên meriv tim ber avê, delav û hêşinahî dixwaze
 Hestên wê serobino bûn.
 Hestên wî, bi qasî hestên min bi pêş neketine
+Hestî ji du şaneyên sereke pêk te, şaneya hestiyê pitew û şaneya hestiyê îsfencî.
 Heta bûk xemilî, berbî li der qefilî
 Heta ew jî ne bes e, divê xoşewîstî û dilsozî hebe
 Heta hûn bijîn, rewşa we bi guman e.
@@ -2816,6 +2825,7 @@ Hewcê Xwedênenasa nîne
 Hewil bide ku tu bi rêbazê rast rengîn bikî.
 Hewl dide ku çav, poz, guh û dev di cihê wan de xêz bike.
 Hewl didim ku di carekê de hevok bi hevok bixwînim.
+Hewldana rêkxistina pileya germahiya laş, mînakeke ji bo hevsengiya navekî.
 Hey Nisêbîna rengîn tu dilê min î.
 Hey bêwijdan hew navê te tenê hebû di vê kovarê de?
 Hey hawar ev çi bû!
@@ -2943,6 +2953,8 @@ Holmes: Li ser daxwaza xweha te.
 Holmes: Lê welê dixuye ko zengil nû hatiye danîn.
 Holmes: Min ji te tu tişt navê.
 Holmes: Xanimeke ciwan desta me kiriye.
+Hormon berhem dikin.
+Hormona însulînê rêjeya şekirê xwînê rêk dixe.
 Hozan hat?
 Hozanê mezin jî bi stranên xwe beşdar bû
 Hun li kê dinêrin?
@@ -4547,6 +4559,7 @@ Ne xema min e.
 Ne xwar ne da hevalan, genî kir avêt newalan.
 Nebe hevalê derewînan
 Neelîmin rûniştina ber dîwaran.
+Nefron yekeyên parzûnkirinê ne di nav gurçikan de.
 Nefs nefsek e her tim li xwe mêze dike
 Nefsan ji rê deranî
 Negire
@@ -4995,6 +5008,7 @@ Rexnegir, ew kes e ku berheman, li gor zanistiya wêjeyî dinirxîne
 Rezber, Cotmeh û Mijdar mehên payîzê ne.
 Reş e bi xwediya xweş e.
 Rih şêrîn e
+Rijenê pankreas, hormonên însulîn û glukagon berhem dike û der dide.
 Rivebirê tv yê, ji bo weşana Kurdî serî lê da
 Rizqê her kesî pê re tê
 Rizqê salê bi salê re ye
@@ -5696,6 +5710,7 @@ Wezîrê çandê, bi şandeyeke ronakbîrên Amedê re hate cem hev
 Wezîrê çavkaniyên avê, hişyarî da şîrketên biyanî
 Weşanxaneya Avesta, dixwaze pirtûkên zarokan bi Kurdî biweşîne
 Weşanxaneya Nûbihar, li Amedê şaxa xwe vekir
+Weşîna porê zilaman bi gelemperî ji ber hormona testosteronê ye.
 Wisa diyare ku dewlet, ketiye nava neçariyeke giran
 Wisa qehirîbû, hindik mabû ku derketa û biçûya.
 Wisa xuya dike ku mirov dikarin vîrusê derbasî hin heywanên din bikin.
@@ -5821,6 +5836,7 @@ Xewnereşk li ser min bû
 Xeyal bike.
 Xeyalên xwe nefiroşe ti kesî.
 Xeyalên zarokên xwe berfireh dikirin
+Xiroka sor, xiroka spî û perikên xwînê, sê corê xaneyên xwînê ne.
 Xizaniya li bajaran, bêkariya ciwanan, wek encamên koçberiya zorî li pêşberî me ne
 Xizaniya me, wekî şantajekê li hemberî me bi kar anîn
 Xort dîsa xwe dixe firinê, xwe vedişêre.
@@ -5831,6 +5847,7 @@ Xortno! Ciwanno! Hele werin cem min?
 Xulamekî kubar xwe ji erebê avêt û derî vekir.
 Xulekek din ez ê werim.
 Xulqê min teng e dîsa.
+Xurek û oksîjen rasterast bi navbeynkariya lûleyên xwînê digihîjin xaneyan.
 Xurekên xwe bi hîjyenîk û paqîj amade bikin.
 Xutbeya Xatirxwestinê
 Xutbeya Xatirxwestinê tev ji bîra kirin.
@@ -5943,6 +5960,8 @@ Xweş tê guhê mere!
 Xweş xeber e, lê min ne bawer e.
 Xweşikbûna gulan di curbicurbûna wan de ye.
 Xwîna min diherike.
+Xwînber xwînê ji dil dûr dixe, xwînhêner xwînê tîne dil.
+Xwînber, xwînhêner û mûlûle corên lûleyên xwînê ne.
 Xwînerên zexm, zû bi zû navê her nivîskarî naxe tûrikê xwe yê xwendinê
 Xêr e kalo
 Xêr e, xêr.
@@ -7301,6 +7320,7 @@ zivistanê cihê kê germ bû
 Çiyayê Reş, Darîstana Qerejdaxê
 Çiyê mêran jibîr neke
 Çol û çiya gişt geriyan nedîtin.
+Çêja şor an jî tama şor, yek ji pênç corên çêjê ye.
 Çêkirina avahiya şaredariya me, berdewam dike
 Çêkirina bendavan, dibin sedema tunekirina gelek cureyên jîndaran
 Çêleka belek

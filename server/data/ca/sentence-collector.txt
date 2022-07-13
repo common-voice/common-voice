@@ -4108,6 +4108,8 @@ Bo i tafanejant per les ventalles del carrer.
 Bo és conservar les tradicions que no perjudiquen el crèdit
 Boadella i les Escaules es troba a l’Alt Empordà
 Bolvir es troba a la Cerdanya
+Bon dia tot el dia
+Bon dia va dir ell
 Bon dia, aquesta setmana no hi ha disponibilitat.
 Bon dia, avui serà un dia llarg.
 Bon dia, crec que he perdut la cartera al bus.
@@ -4140,6 +4142,7 @@ Bon dia, vull saber la informació dels busos nocturns.
 Bon menjar, bon oblit i jaure amb dona: mai havia trobat millor conhort.
 Bona jornada de treball.
 Bona nit des del Pla de l'Estany.
+Bona nit per anar a dormir
 Bona nit! El comiat m'és dolçament penós...
 Bona nit, què volia?
 Bona segurament per a suprems rumiadors
@@ -8392,6 +8395,7 @@ Es va alçar un senyor entre la concurrència, dient amb vivesa i aplom:
 Es va alçar un senyor entre la concurrència.
 Es va alçar una mica adolorit i molt profundament ofès.
 Es va aturar al mig de les atxes
+Es va colgar as llit i ja no hi va haver més festes
 Es va comprar unes ulleres a la pastisseria de sota casa.
 Es va constituir una Internacional dels Artistes Experimentals.
 Es va donar un aire reposat, de experiència, de previsió
@@ -8402,6 +8406,7 @@ Es va marcar indeleble en la de la filla.
 Es va posar a ploure a bots i a barrals.
 Es va posar a vendre botons i lligacames de senyor.
 Es va posar el mocador al cap
+Es va preparar un got de cafè amb llet
 Es va quedar amb la boca oberta, empomant els nous aplaudiments dels espectadors.
 Es va resoldre a cop calent de repintar la botiga.
 Es va saber al cap de tres mesos.
@@ -8409,6 +8414,7 @@ Es va tornar a posar aquell trajo negre
 Es va tornar roja com la grana
 Es va treure les ulleres com en les hores de gran consulta
 Es va treure ostentosament la pistola i la deixà a terra
+Es va trobar amb sa seua amiga
 Es va veure clarament que havia arribat a la fita.
 Es va veure clarament que no llegiria més depresa
 Es va veure tancat, dins la saleta
@@ -8535,6 +8541,7 @@ Estas ja promès amb la que estimes?
 Estava a la mateixa plaça on vetlaven alguns del partit.
 Estava a mig camí del viure
 Estava al mig com una làpida romana a sobre una paret nova
+Estava ben a punt per a encetar una nova jornada
 Estava composta per tres estaments socials:.
 Estava convençut de l'encís que causen els panorames naturals
 Estava empedrada amb cranis de calaveres.
@@ -8768,6 +8775,7 @@ Fan una parella ben estranya. Semblen sant Antoni amb el porquet.
 Fan ventades tan coents com unes pestetes, però a vegades també s'espolsen caguetes.
 Fantàstic, en aquest cas tindrà cita amb el doctor.
 Farem nit a un hostal de Ripoll.
+Farem sa bereneta de formatjades i panets plens
 Farem tard si no t'afanyes.
 Farem una bereneta amb coques i panets
 Faria falta també la lletra del de-ena-i, si us plau,.
@@ -9715,6 +9723,7 @@ I després la targeta me l'envien a casa?
 I després pel Gener, del quinze al vint-i-u.
 I després tornar el dia dos o així.
 I després va dir: "S'ha de fer-hi alguna cosa, no?"
+I després va passar per s'escusat
 I dit això se'n van anar donant l'enhorabona
 I donar-li líquids per beure.
 I el Pinxo li diu al Panxo: punxa’m sí, però a la panxa, no.
@@ -13030,6 +13039,7 @@ Li servien pera nodrir-lo i enfortir-li l'ànima
 Li sorprenia com les seves companyes eren poc intel·ligents.
 Li tocava escriure durant dotze hores diàries.
 Li va costar molt de venir, perquè no gastava salut.
+Li va costar molt sortir des llit
 Li va dar la clau i van començar a n'el jardí
 Li va entrar un desig irresistible de tocar aquella vermellor
 Li va estrènyer la ma, commogut
@@ -14957,6 +14967,7 @@ Ostres, doncs és un bon problema.
 Ostres, per què no m'escriu?
 Ous ací, ous allà, bastonades al sagristà! Una a la Marina!
 Ovari súper, usualment amb placentació axil·lar, però placentació variable.
+Pa amb formatge i sobrassada
 Paciència i una canya, que València no es va fer en un dia.
 Paco Telefunken va ser l'encarregat d'apagar Canal Nou. Amén.
 Pacs del Penedès es troba a l’Alt Penedès
@@ -15057,6 +15068,7 @@ Passem l'estiu a Santa Eulàlia de Ronçana.
 Passen dies i nits... Pels marges reflorits ha tornat el Corpus Christi.
 Passen més anys i més, el capellà no hi és: l’hòstia va sola.
 Passà un cotxe de patrulla, tot eriçat d'armes
+Pasta esfullada plena de crema i merenga
 Pastissets de moniato, que sempre li han agradat tant?
 Patint d'una simetria que no tenia consol ni perdó.
 Patrullant els carrers en grups de deu
@@ -16185,6 +16197,7 @@ Quan hi anem a menjar, fa ous ferrats pels nens.
 Quan hi ha disponibilitat?
 Quan hi ha macarrons?
 Quan hi havia algun mosso llogat de poc
+Quan ho va fer va anar a berenar
 Quan ho va haver entès va acceptar-ho
 Quan ja és quasi bona, s’hi afegeixen les ametlles i els pinyons.
 Quan jo era petit, al meu poble regnava el salvatgisme.
@@ -16243,6 +16256,7 @@ Quan tot-hom va haver descarregat, van poder tirar endavant
 Quan trigaré en saber quan tindré el cotxe?
 Quan una de les portes de la felicitat es tanca, una altra s'obre.
 Quan una llei és injusta, allò correcte és desobeir.
+Quan va arribar a ca seua anava ben de mosques
 Quan va arribar el metge ja era tard: era fred com el marbre.
 Quan va sortir de la malaltia, va trobar-se sol
 Quan va veure prenyada a la seva dona, no hi va cabre d'alegria.
@@ -17215,6 +17229,7 @@ S'omplia l'enteniment de totes les fantasies
 S'utilitza habitualment com a planta ornamental per la seua floració profusa.
 Sa mare s’aclamava a tots els sants perquè parlara.
 Sa mare, plorant li deia: «Vicent, mon fill és mort ja!»
+Sa reina, però, és sa caldereta de llagosta!
 Sabadell es troba al Vallès Occidental
 Sabem entendre, d’un costat, que de la realitat no se’n sap res.
 Sabem les causes i les raons, que contra el tio Codonys manifesta la muller.
@@ -19526,6 +19541,7 @@ Un frare estava cagant damunt d’un costal de canyes.
 Un frare i una beata jugaven al trenta-u.
 Un fusell disparà i despertà curiosos ecos en els pujols rocosos.
 Un germà difunt, record que vol servar eternament en son pensament entristit.
+Un ginet amb un got d'aigo fa un bon aperitiu
 Un gofre i un gelat de nata.
 Un gosset li vull comprar.Bup, bup, bup, farà el gosset.
 Un graner que no vessés
@@ -19669,6 +19685,7 @@ Una bandera vermella, evidentment dels nostres.
 Una barreja de codony, meló i moniato tractats amb calç i trossejats.
 Una bella justa, que amb extremada gràcia aquests dos contraris mantenien.
 Una boira que sovint durava tot el dia
+Una bona coca dolça d'albercocs amb un poquet de sobrassada
 Una bona notícia que no havia d’haver-se arribat a produir mai.
 Una botiga de betes i fils
 Una branca del seu arbre comercial
@@ -19740,6 +19757,7 @@ Una gran flaire de llessamins aconhortava l'esperit
 Una gran pallola a mig cap
 Una gran part d'aquell territori que un llibre em va descobrir.
 Una gran part procedeix de l'Índia, el Vietnam, Tunísia i Rússia.
+Una gran persona i millor amiga
 Una gran varietat d'especulacions de què ell era l'ànima.
 Una grua i un taxi si us plau.
 Una gàbia, amb un ocell que refili els de matins
@@ -20060,11 +20078,13 @@ Va ser una nit agradable.
 Va ser una sorpresa agradable.
 Va ser una vetllada agradable.
 Va signar a contracor l'acomiadament del seu secretari de confiança.
+Va sonar es despertador com cada matí
 Va sortir amb la colla a sopar i va tornar borratxo com una sopa.
 Va sortir del seu amagatall, lleu, silenciosa
 Va sortir i va tornar a entrar-hi;
 Va succeir el què sol succeir en aquests casos.
 Va tenir alguna sospita de que allò podia dur malicia
+Va tenir bessonada: una filleta i un fillet
 Va tenir la debilesa de comunicar-ho tot a un altre.
 Va tenir una hora distreta i el va passar aquell taulell.
 Va tombar-se de l'altra banda.
@@ -20315,6 +20335,7 @@ Van emprendre la marxa sense estar completament equipats.
 Van entrar casi a les palpentes
 Van esclatar una sèrie d'explosions terribles
 Van explicar que els francesos coneixien més bé l'art de la guerra
+Van fer feina fins hora de dinar
 Van fer molts de pastissets
 Van fer portar la criatura que la tenien al llit
 Van ficar els diners a l'armari i van apagar l'espelma.
@@ -21067,6 +21088,7 @@ zoo: "ni furtant-nos els somnis, ni cremant la trinxera... callaran la fera"
 És un altre dels motors del moviment.
 És un altre dels objectius del moviment.
 És un altre dels pilars del moviment.
+És un bon aperitiu si no t'engata
 És un camí des de l'exterior, des del món, cap a l'interior.
 És un cap buit. No hi ha manera de fer-li entendre res.
 És un cert do natural o entusiasme, semblant al dels endevinaires i dels profetes.
