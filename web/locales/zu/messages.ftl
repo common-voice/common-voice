@@ -11,6 +11,7 @@ loading = Iyaloda...
 email-opt-in-info = Ngingathanda ukuthola ama-imeyili afana nezikhumbuzi zemigomo, izibuyekezo zami zokuqhubeka nezincwadi zezindaba ezimayelana ne-Common Voice.
 email-opt-in-info-title = Joyina uhlu lwamakheli e-Common Voice
 email-opt-in-info-sub-with-challenge = Thola ama-imeyili afana nezikhumbuzi zenselele nezinjongo, izibuyekezo zenqubekelaphambili, nezincwadi zezindaba ezimayelana ne-Common Voice.
+email-opt-in-privacy-v2 = Ngokuvuma ukuthola ama-imeyili, uchaza ukuthi uyayivumela iMozilla ukuba iphathe lolulwazi njengokuchaziwe kuMozilla <privacyLink>Inqubomgomo yobumfihlo</privacyLink>
 indicates-required = Izinkambu ezimakwe ngenkanyezi (*) ziyadingeka.
 not-available-abbreviation = N/A
 banner-error-slow-1 = Uxolo, iCommon Voice isebenza kancane. Siyabonga ngentshisekelo yakho.
@@ -556,6 +557,9 @@ about-playbook-what-is-language-content-3 = Ezinye izilimi zihluke kakhulu ngoku
 ## How do I add a language
 
 about-playbook-how-add-language = Ngilufaka kanjani ulimi?
+about-playbook-how-add-language-content-1 =
+    Okokuqala, qapha ukuba ulimi lwakho <languageLink>lukhona</languageLink> Uma lingekho, unga <languageRequestLink>buza ngokufaka ulimi lwakho</languageRequestLink>. 
+    Zimbili izigaba, ukuhumusha isayithi kanye nokuqoqa imisho.
 about-playbook-how-add-language-translating-heading = Ukuhumusha isayithi
 about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Buka umhlahlandlela wethu wokuthi usetshenziswa kanjani iPontoon.</translateVideoLink>
 about-playbook-how-add-language-translating-content-2 = Sisebenzisa ithuluzi leMozilla elibizwa <pontoonLink>Pontoon</pontoonLink> lokuhumusha. IPontoon inezilimi eziningi, kodwa uma elakho lingekho ungs <pontoonRequestLink>cela ulimi lakho lwengezwe</pontoonRequestLink>. Ukwenza ulimi lakho lutholakale kwiprojekthi yeCommon Voice, <githubRepoLink>cela ulimi olusha kuGitHub</githubRepoLink>. <localizationFragment>Bheka okunye ngokuhumusha</localizationFragment>.
@@ -699,6 +703,7 @@ audio-format = Ifomethi yomsindo
 number-of-voices = Inombolo Yamazwi
 splits = Ukuhlukana
 email-to-download = Faka i-imeyili ukuze udownlode
+why-email = <b>Kungani u-emeyila?</b> Singadinga ukuxhumana nawe ngesikhathi esizayo ukukutshela ngoshintsho olwazini oluqoqiwe, i-emeyili indlela yokuxhumana nawe.
 confirm-size = Ulungele ukuqalisa ukuloda kwe-<b>{ $size }</b>
 size-gigabyte = GB
 size-megabyte = MB
