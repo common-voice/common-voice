@@ -1453,7 +1453,7 @@ sc-lang-info-in-review =
 sc-lang-info-left-for-you =
     { $unreviewedSentencesByYou ->
         [0] Kute emasenetenisi lakusalele kusti ungawabuketa.
-        [one] Kusele lisentenisi linye kutsi ulibukete.
+        [one] Kusele umusho longu 1 kutsi uwubuyekete.
        *[other] { $unreviewedSentencesByYou } imisho lesele kutsi uyibeyekete.
     }
 sc-lang-info-review-now = <reviewLink>Buyeketa nyalo!</reviewLink>
