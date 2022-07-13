@@ -348,7 +348,7 @@ status-contribute = Fana ka Lentswe la Hao
 status-hours =
     { $hours ->
         [one] Hora e le nngwe e netefaditswe ho fihlela jwale!
-       *[other] dihora tse netefaditsweng ho fihlela jwale!
+       *[other] { $hours } dihora tse netefaditsweng ho fihlela jwale!
     }
 # Variables:
 # $goal - number of hours representing the next goal
@@ -1020,10 +1020,10 @@ activity-needed-calculation-plural =
     } { NUMBER($periodMonths) ->
         [one] { $periodMonths } kgwedi haeba
        *[other] { $periodMonths } dikgwedi haeba
-    }{ "" }{ NUMBER($people) ->
+    }{ NUMBER($people) ->
         [one] { $people } motho a rekota
        *[other] { $people } batho ba rekota
-    }{ "" }{ NUMBER($clipsPerDay) ->
+    }{ NUMBER($clipsPerDay) ->
         [one] { $clipsPerDay } clip ka letsatsi.
        *[other] { $clipsPerDay } di-clip ka letsatsi.
     }
@@ -1034,8 +1034,8 @@ receiving-emails-info = Hajwale o se o ikemiseditse ho amohela di-email jwaloka 
 not-receiving-emails-info = Hajwale o se o ikemiseditse ho <bold>ESENG</bold> ho fumana di-email jwalo ka dikgopotso tsa sepheo, dintlha tse ntjha ka tswelopele yaka le dikoranta mabapi le Common Voice
 n-clips-pluralized =
     { NUMBER($count) ->
-        [one] clip
-       *[other] di-clip
+        [one] { $count } clip
+       *[other] { $count } di-clip
     }
 help-share-goal = Re thuse ho fumana mantswe a mang hape, arolelana ka sepheo sa hao.
 confirm-goal = Netefatsa sepheo
@@ -1350,7 +1350,7 @@ sc-add-result =
 sc-add-err-failed =
     { $sentences ->
         [0] Ha ho dipolelo tse hlolehileng
-        [one] polelo e 1 e hlolehile
+        [one] Polelo e 1 e hlolehile
        *[other] { $sentences } dipolelo tse hlolehileng
     }
 sc-add-err-submission = Phoso ya Thomello
@@ -1404,7 +1404,7 @@ sc-lang-info-total =
             Ha ho kakaretso ya dipolelo.
             Ha ho kakaretso ya dipolelo.
             Ho ho dipolelo tse akareditsweng
-        [one] polelo e 1 kaofela.
+        [one] Polelo e 1 kaofela.
        *[other] { $totalSentences } kakaretso ya dipolelo.
     }
 # Variables:
@@ -1429,7 +1429,7 @@ sc-lang-info-add-more = addLink>Kenya dipolelo tse ding hona jwale!</addLink>
 #   $validatedSentences (Number) - Number of sentences which have been approved for this language
 sc-lang-info-validated =
     { $validatedSentences ->
-        [0] Ha ho dipolelo tse netefaditsweng
+        [0] Ha ho dipolelo tse netefaditsweng.
         [one] 1 polelo e netefaditsweng.
        *[other] { $validatedSentences } dipolelo tse netefaditsweng.
     }
@@ -1503,8 +1503,8 @@ sc-review-form-button-submit =
 sc-review-form-reviewed-message =
     { $sentences ->
         [0] Ha ho dipolelo tse hlahlobuweng.
-        [one] polelo e 1 e hlahlobuwe. Rea leboha!
-       *[other] dipolelo tse hlahlubuweng. Rea leboha!
+        [one] Polelo e 1 e hlahlobuwe. Rea leboha!
+       *[other] Dipolelo tse hlahlubuweng. Rea leboha!
     }
 sc-review-form-review-failure = Maikutlo haa kgona ho bolokwa. Ka kopo leka hape hamorao.
 sc-review-link = Hlahloba

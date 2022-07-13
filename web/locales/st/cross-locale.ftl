@@ -4,7 +4,7 @@ contribute = Kenya letsoho
 get-involved-button = Nka karolo
 get-involved-title = Kenya letsoho ho { $lang }
 get-involved-text =
-    Rea leboha ka thahasello ya hao ya ho kenya letsoho ho { $lang }. Re sebetsa ka thata ho etsa hore puo e nngwe le e nngwe e be e lokile bakeng sa ho qala mme re etsa hore 
+    Rea leboha ka thahasello ya hao ya ho kenya letsoho ho { $lang }. Re sebetsa ka thata ho etsa hore puo e nngwe le e nngwe e be e lokile bakeng sa ho qala mme re etsa hore
     dihlopha di tsebe ditaba kaofela ka email. Haeba o batla ho tlatsetsa, ka kopo fana ka email ya hao ka tlase.
 get-involved-form-title = Ingodise bakeng sa { $lang } dintlafatso:
 get-involved-email =
