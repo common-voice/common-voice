@@ -4,8 +4,7 @@ contribute = Nikela
 get-involved-button = Hlanganyela
 get-involved-title = Nikela ku { $lang }
 get-involved-text =
-    Siyabonga inshisekelo yakho ekunikeleni ku { $lang }. Sisebenta kametima kutfola tonkhe tilwimi tulungele 
-    kwetfulwa futsi sigcine
+    Siyabonga inshisekelo yakho ekunikeleni ku { $lang }. Sisebenta kametima kutfola tonkhe tilwimi tulungele kwetfulwa futsi sigcine
     licembu latisekeli ngeliposi lwembane. Uma ufuna kunikela , sicela usibhalele i email ngephansi.
 get-involved-form-title = Bhalisa utotfola { $lang } lokusha:
 get-involved-email =

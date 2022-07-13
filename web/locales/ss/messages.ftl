@@ -1452,9 +1452,9 @@ sc-lang-info-in-review =
 #   $unreviewedSentencesByYou (Number) - Number of sentences the user can still review
 sc-lang-info-left-for-you =
     { $unreviewedSentencesByYou ->
-        [0] No sentences left for you to review.
-        [one] 1 sentence left for you to review.
-       *[other] { $unreviewedSentencesByYou }imisho lesele kutsi uyibeyekete.
+        [0] Kute emasenetenisi lakusalele kusti ungawabuketa.
+        [one] Kusele lisentenisi linye kutsi ulibukete.
+       *[other] { $unreviewedSentencesByYou } imisho lesele kutsi uyibeyekete.
     }
 sc-lang-info-review-now = <reviewLink>Buyeketa nyalo!</reviewLink>
 sc-lang-info-add-more = *[other] { $count } Ngeta imisho manje!</addLink>
