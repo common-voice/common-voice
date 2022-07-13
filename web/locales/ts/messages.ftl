@@ -233,9 +233,9 @@ wall-of-text-start =
     theknoloji ya michini ya hina. Kambe ku tumbuluxa tisisiteme ta rito, nhlayo leyikulu swinene ya rito
     data ya laveka.
 wall-of-text-more-mobile =
-    Vunyingi bya data leyi tirhisiwaka hi tikhamphani letikulu a yi kumeki eka vunyingi bya vanhu. Hi ehleketa
+    "Vunyingi bya data leyi tirhisiwaka hi tikhamphani letikulu a yi kumeki eka vunyingi bya vanhu. Hi ehleketa
     leswi swivelaka ku endla swilo leswintshwa. Kutani hi humese Project Common Voice, phurojeke yo pfuneta ku endla rito
-    ku xiximiwa loku nga pfuleka eka un’wana ni un’wana.
+    ku xiximiwa loku nga pfuleka eka un’wana ni un’wana."
 wall-of-text-more-desktop =
     Sweswi u nga nyikela hi rito ra wena ku hi pfuna ku aka dathabeyisi ya rito leyi pfulekeke leyi un’wana na un’wana a nga yi tirhisaka ku endla ti-app ta vutshila ta switirhisiwa na webu. Hlaya xivulwa leswaku u pfuna michini ku dyondza ndlela leyi vanhu va xiviri va vulavulaka ha yona. Languta ntirho wa van’wana
     va hoxa xandla ku antswisa khwalithi. Swi va swi olovile hi ndlela yoleyo!
@@ -864,7 +864,7 @@ clips-with-count-pluralized =
        *[other] <bold>{ $count }</bold> Swiphemu
     }
 goal-help-recording = U pfune Common Voice ku fikelela <goalPercentage></goalPercentage> pakani ya hina ya siku na siku yo rhekhoda { $goalValue }!
-goal-help-validation = U pfune Common Voice ku fikelela <goalPercentage></goalPercentage> eka pakani ya hina ya siku na siku ya { $goalValue } ya ku tiyisisa!
+goal-help-validation = U pfunile Common Voice ku fikelela <goalPercentage></goalPercentage> ya pakani ya hina ya siku na siku ya { $goalValue } ya ku tiyisisa!
 contribute-more =
     { $count ->
         [one] { "" }
@@ -1009,8 +1009,8 @@ help-reach-hours-pluralized =
     }
 help-reach-hours-general-pluralized =
     { NUMBER($hours) ->
-        [one] { $hours } awara hi ririmi leri nga na xikongomelo xa munhu hi xiyexe
-       *[other] { $hours } tiawara hi ririmi leri nga na xikongomelo xa munhu hi xiyexe
+        [one] Pfuna Common Voice Ku fikelela { $hours } awara hi ririmi leri nga na xikongomelo xa munhu hi xiyexe
+       *[other] Pfuna Common Voice Ku fikelela { $hours } tiawara hi ririmi leri nga na xikongomelo xa munhu hi xiyexe
     }
 set-a-goal = Vekela pakani
 cant-decide = A wu swi koti ku endla xiboho?
