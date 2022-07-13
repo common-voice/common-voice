@@ -1386,7 +1386,7 @@ sc-lang-info-title-personal = Okomntu
 #   $totalSentences (Number) - Number of sentences uploaded in total for this language
 sc-lang-info-total =
     { $totalSentences ->
-        [0] [0] Akukho totali yezivakalisi.
+        [0] Akukho totali yezivakalisi.
         [one] Itotali e-1 yesivakalisi.
        *[other] { $totalSentences } itotali yezivakalisi.
     }

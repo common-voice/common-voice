@@ -3,7 +3,9 @@
 contribute = Yenza igalelo
 get-involved-button = Yiba yinxalenye
 get-involved-title = Yiba negalelo ku { $lang }
-get-involved-text = Siyabulela ngokuthi ubenomdla wokufaka ugalelo kwi- { $lang }. Sisebenza nzima ukuze lonke ulwimi lulungele ukuqaliswa kwaye sigcine amaqela ehlaziyiwe nge-imeyile. Ukuba ufuna ukwenza ugalelo, nceda ufake i-imeyile yakho ngezantsi.
+get-involved-text =
+    Siyabulela ngokuthi ubenomdla wokufaka ugalelo kwi- { $lang }. Sisebenza nzima ukuze lonke ulwimi lulungele ukuqaliswa kwaye sigcine amaqela
+    ehlaziyiwe nge-imeyile. Ukuba ufuna ukwenza ugalelo, nceda ufake i-imeyile yakho ngezantsi.
 get-involved-form-title = Bhalisa ukufumana uhlaziyo lwe { $lang }:
 get-involved-email =
     .label = I-imeyile
