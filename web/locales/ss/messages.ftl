@@ -275,7 +275,7 @@ x-weeks-short =
     }
 x-months-short =
     { $count ->
-        [one] { $count }mo
+        [one] { "" }
        *[other] { $count }mo
     }
 x-years-short =
@@ -967,8 +967,8 @@ days =
     }
 recordings =
     { $count ->
-        [one] Recording
-       *[other] Recordings
+        [one] Kutfwebula
+       *[other] Emafayela latfwebuliwe
     }
 validations =
     { $count ->
@@ -1054,8 +1054,8 @@ receiving-emails-info = Usethelwe kutsi utfole emapoli embane lafaka ekhatsi kuk
 not-receiving-emails-info = Kwamanje, usethelwe kutsi <bold>HHAYI</bold> ungatfoli liposi lembane lekufaka ekhatsi kukhunjutwa ngemagoli, inchubo netincwadzi mayelana na Common Voice
 n-clips-pluralized =
     { NUMBER($count) ->
-        [one] Sicephu
-       *[other] Ticephu
+        [one] { $count } sicephu
+       *[other] { $count } ticephu
     }
 help-share-goal = Sisite sitfole emavi lamanengi, yaba ligoli lakho
 confirm-goal = Cinisekisa umgomo
