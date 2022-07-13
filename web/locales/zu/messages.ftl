@@ -543,6 +543,7 @@ about-nav-playbook = Funda ukuthi libanjwa kanjani iqhaza
 
 about-playbook-what-is-language = Luyini ulimi ku-Common Voice?
 about-playbook-what-is-language-content-1 = Ziningi izindlela zokucabanga ngelimi. Ngenxa yamamodela wokuqoshwa kwenkulumo, iCommon Voice iphakamisa ukugxila 'kukuqondana okuvumelanayo', noma 'izikhulumi zalolimi ziyakwazi na ukuqondana uma zizama?'
+about-playbook-what-is-language-content-2 = Sifuna amamodeli enkulumo ukuba aqonde kangcono izikhulumi ezahlukahlukene. Ukuze lokhu kwenzeke, idathasethi lamazwi kufanele limele abantu abaningi abehlukene.
 about-playbook-what-is-language-content-3 = Ezinye izilimi zihluke kakhulu ngokuhlelo lolimi, isilulumagama kanye nokuphimisa. Ngalesosizathu, si <ctaLink>sethula i'Variants'</ctaLink> ngo 2022. Lokhu kunikea imiphakathi indlela yokuhlukanisa izilimi zabo ngaphakathi kwedathasethi enkulu.
 
 ## How do I add a language
@@ -1068,6 +1069,7 @@ demo-welcome-subheader = Unentshisekelo yokufunda okwengeziwe nokuba negalelo ku
 ## Demo Datasets
 
 demo-language-select-card-header = I-Common Voice iyidathasethi yezwi enkulu kunazo zonke emhlabeni etholakala esidlangalaleni, enezilimi eziningi.
+demo-language-select-card-body = Sibonga ukuxhaswa abantu abadlula u259k abakhuluma izilimi ezidlula u50, le datha iyasetshenziswa ukufundisa izinhlelo zokusebenza ezisebenzisa inkulumo ukuba ziphendule kangcono kwizwi lo muntu.
 card-button-next = Okulandelayo
 card-button-back = Emuva
 demo-language-select-label = Phequlula Izilimi
@@ -1198,6 +1200,7 @@ sc-howto-addsen-item-2 = Izinombolo. Akufanelanga kube nezinombolo emthonjeni ob
 sc-howto-addsen-item-3 = Izifinyezo kanye nama-Akhronimi. Izifinyenzo kanye nama-akhronimi njengo "USA" noma "ICE" kufanele kugwenywe kumbhalo womthombo ngoba zingafundwa ngendlela engahambelani nokubizelwa kwawo. Ngaphezu kwalokho, kungaba nezindlela eziningi zokufunda isifinyenzo. Isibonelo, i-akhronimi "ICE" ingaphinyiswa kanje "I-C-E" noma njengegama elilodwa.
 sc-howto-addsen-item-4 = Izimpawu zenkulumo. Izimpawu ezikhethekile nezimpawu zankulumo kufanele zifakwe kuphela uma kudingeka ngempela. Isibonelo, i-aphostrofi efakwa emagameni esiNgisi anjengo "don't" no "we're" kufanele ifakwe emthonjeni wombhalo kodwa akuvamanga ukuthi izimpawu ezinjengo "@"noma "#" zizodingeka.
 sc-howto-addsen-item-5 = Izinhlamvu zamagama ezingajwayelekile. Izinhlamvu zamagama kufanele zivumeleke olimini olukhulunywayo. Isibonelo, “ж” inhlamvu olimini lwesi-Russia kepha alisetshenziswa esiNgisini, ngakho-ke akufanelanga livele kumbhalo wesiNgisi.
+sc-howto-addsen-item-6 = Izilimi zingaba <validationRulesLink>nemithetho yazo yokuziqinseka</validationRulesLink> kanye nezinye izidingo zazo. Uma lingekho ifayela elithize elesiqiniseko, sizosebenzisa imithetho ejwayelekile yesiNgisi.
 sc-howto-addsen-post-1 = Sincamela imisho eyemvelo/exoxayo. Indlela yokukhuluma ehlikahlukene namagama ahlukahlukene emishweni abalulekile, kepha sizama ukuqopha imisho emnandi. Ngalokho ke, kungakuhle uma ungazama ukwenza imisho yakho eyemvelo noma ibandakanye kakhulu.
 sc-howto-cite-title = Ungacaphuna Kanjani
 sc-howto-cite-pre-1 = Kubalulekile ukusho ukuthi uyithole kuphi ilayisensi yomphakathi khona uzogwema ukukopa nokuthi uvumele ukulandelela ku <copyrightIssuesLink>izindaba zamalungelo obunikazi</copyrightIssuesLink>. Nazi izindlela zokulandisa umsebenzi.
