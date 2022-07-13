@@ -265,7 +265,7 @@ all-locales = Zwoṱhe
 today = Ṋamusi
 x-weeks-short =
     { $count ->
-        [one] vhege
+        [one] Vhege
        *[other] { $count }wk
     }
 x-months-short =
@@ -854,14 +854,14 @@ skip = Fhira
 shortcuts = Shortcut
 clips-with-count-pluralized =
     { $count ->
-        [one] Zwo Rekhodiwaho
-       *[other] Zwo Rekhodiwaho
+        [one] <bold>{ $count }</bold> Zwo Rekhodiwaho
+       *[other] <bold>{ $count }</bold> Zwo Rekhodiwaho
     }
 goal-help-recording = No thusa Common Voice u swikelela <goalPercentage></goalPercentage> tsha ḓuvha { $goalValue } tshipikwa tsha u rekhoda!
 goal-help-validation = No thusa Common Voice u swikelela <goalPercentage></goalPercentage> tsha ḓuvha { $goalValue } tshipikwa tsha u khwaṱhisedza!
 contribute-more =
     { $count ->
-        [one] $count ->
+        [one] { "" }
        *[other] Naa no lugela u ita { $count } zwinzhi?
     }
 record-cta = Thomani u rekhoda
@@ -940,18 +940,18 @@ report-success = Muvhigo wo phasa
 streaks = Streaks
 days =
     { $count ->
-        [one] ḓuvha
+        [one] Duvha
        *[other] Maḓuvha
     }
 recordings =
     { $count ->
-        [one] zwo rekhodiwaho
-       *[other] zwo rekhodiwaho
+        [one] Zwo rekhodiwaho
+       *[other] Zwo rekhodiwaho
     }
 validations =
     { $count ->
         [one] Khwaṱhisedzwaho
-       *[other] zwo  Khwaṱhisedzwaho
+       *[other] Zwo khwaṱhisedzwaho
     }
 
 ## Dashboard
@@ -1344,9 +1344,9 @@ sc-add-result =
 #   $sentences (Number) - Number of sentences which failed to be saved to the database - could be several different reasons
 sc-add-err-failed =
     { $sentences ->
-        [0] [0] A hu na mitaladzi yo feilaho
-        [one] [one] mutaladzi 1 wo feila
-       *[other] *[other] { $sentences } mitaladzi yo feila
+        [0] A hu na mitaladzi yo feilaho
+        [one] Mutaladzi 1 wo feila
+       *[other] { $sentences } mitaladzi yo feila
     }
 sc-add-err-submission = Vhukhakhi ho iteaho hu tshi khou Rumelwa
 sc-add-lang-process-notice = Arali luambo lwaṋu lu si ho hafha, ni nga lu humbela nga <languageProcessLink>heyi nḓila</languageProcessLink>.
@@ -1360,9 +1360,9 @@ sc-confirm-sentences-title = Khwaṱhisedzani mitaladzi miswa
 #   $countOfSentences (Number) - Number of sentences the user has filled in the submission form
 sc-confirm-sentences-found =
     { $countOfSentences ->
-        [0] [0] A hu na mitaladzi yo wanalaho.
-        [one] [one] ho wanala mutaladzi 1.
-       *[other] *[other] { $countOfSentences } ho wanala mitaladzi.
+        [0] A hu na mitaladzi yo wanalaho.
+        [one] Ho wanala mutaladzi 1.
+       *[other] { $countOfSentences } ho wanala mitaladzi.
     }
 # Variables:
 #   $countOfInvalidated (Number) - Number of sentences the user rejected in the review form before submission
@@ -1395,9 +1395,9 @@ sc-lang-info-title-personal = Personal
 #   $totalSentences (Number) - Number of sentences uploaded in total for this language
 sc-lang-info-total =
     { $totalSentences ->
-        [0] [0] a hu na thothaḽi ya mitaladzi.
-        [one] [one] hu na thothaḽi ya mutaladzi 1.
-       *[other] *[other] { $totalSentences } thothaḽi ya mitaladzi.
+        [0] A hu na thothaḽi ya mitaladzi.
+        [one] Hu na thothaḽi ya mutaladzi 1.
+       *[other] { $totalSentences } thothaḽi ya mitaladzi.
     }
 # Variables:
 #   $totalInReview (Number) - Number of sentences currently in the review state for this language
@@ -1421,17 +1421,17 @@ sc-lang-info-add-more = <addLink>Pangani mitaladzi yo engedzeaho zwino!</addLink
 #   $validatedSentences (Number) - Number of sentences which have been approved for this language
 sc-lang-info-validated =
     { $validatedSentences ->
-        [0] [0] A hu na mitaladzi yo khwaṱhisedzwaho.
-        [one] [one] mutaladzi wa 1 wo khwaṱhisedzwa.
-       *[other] *[other] { $validatedSentences } mitaladzi yo khwaṱhisedzwaho.
+        [0] A hu na mitaladzi yo khwaṱhisedzwaho.
+        [one] Mutaladzi wa 1 wo khwaṱhisedzwa.
+       *[other] { $validatedSentences } mitaladzi yo khwaṱhisedzwaho.
     }
 # Variables:
 #   $rejectedSentences (Number) - Number of sentences which have been rejected for this language
 sc-lang-info-rejected =
     { $rejectedSentences ->
-        [0] [0] A hu na mitaladzi yo haniwaho.
-        [one] [one] ho haniwa mutaladzi 1.
-       *[other] *[other] { $rejectedSentences } ho haniwa mitaladzi.
+        [0] A hu na mitaladzi yo haniwaho.
+        [one] Ho haniwa mutaladzi 1.
+       *[other] { $rejectedSentences } ho haniwa mitaladzi.
     }
 
 ## LOGIN
