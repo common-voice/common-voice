@@ -274,7 +274,7 @@ x-weeks-short =
     { $count ->
         [one]
             { $count ->
-                [one] Week
+                [one] Beke
                *[other] { $count }wk
             }
        *[other] { "" }
@@ -282,18 +282,18 @@ x-weeks-short =
 x-months-short =
     { $count ->
         [one]
-            { $count ->
-               *[other] "{ $count }mo"
-            }
-       *[other] { "{ $count }mo" }
+            "{ $count ->
+               *[other] { $count }mo
+            }"
+       *[other] { "" }
     }
 x-years-short =
     { $count ->
         [one]
-            { $count ->
-               *[other] "{ $count }y"
-            }
-       *[other] { "{ $count }y" }
+            "{ $count ->
+               *[other] { $count }y
+            }"
+       *[other] { "" }
     }
 help-make-dataset = Re thuse go aga rekoto ya tshedimosetso ya phatlalatsa, ya maemo a a kwa godimo
 sign-up-account = Ikwadise go nna le akhaonto
@@ -876,8 +876,8 @@ clips-with-count-pluralized =
     { $count ->
         [one]
             { $count ->
-                [one] <bold>{ $count }</bold> Clip
-               *[other] <bold>{ $count }</bold> Clips
+                [one] <bold>{ $count }</bold> Kgatiso
+               *[other] <bold>{ $count }</bold> Dikgatiso
             }
        *[other] { "" }
     }
@@ -961,28 +961,28 @@ streaks = Meraladi
 days =
     { $count ->
         [one]
-            "{ $count ->
-                [one] Day
-               *[other] Days
-            }"
+            { $count ->
+                [one] "Letsatsi"
+               *[other] "Malatsi"
+            }
        *[other] { "" }
     }
 recordings =
     { $count ->
         [one]
-            "{ $count ->
-                [one] Recording
-               *[other] Recordings
-            }"
+            { $count ->
+                [one] "Kgatiso"
+               *[other] "Dikgatiso"
+            }
        *[other] { "" }
     }
 validations =
     { $count ->
         [one]
-            "{ $count ->
-                [one] Validation
-               *[other] Validations
-            }"
+            { $count ->
+                [one] "Tlhomamiso"
+               *[other] "Ditlhomamiso"
+            }
        *[other] { "" }
     }
 
