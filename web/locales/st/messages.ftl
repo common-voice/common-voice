@@ -859,8 +859,8 @@ skip = Tlola
 shortcuts = Dikgaoletso
 clips-with-count-pluralized =
     { $count ->
-        [one] Clip
-       *[other] Di-Clip
+        [one] <bold>{ $count }</bold> Clip
+       *[other] <bold>{ $count }</bold> Di-Clip
     }
 goal-help-recording = O thusitse Common Voice ho fihlela <goalPercentage></goalPercentage> sepheo sa rona sa letsatsi le letsatsi { $goalValue } sa ho rekota!
 goal-help-validation = O thusitse Common Voice ho fihlela <goalPercentage></goalPercentage> ya sepheo sa rona sa letsatsi le letsatsi sa { $goalValue } netefatso!
@@ -950,8 +950,8 @@ days =
     }
 recordings =
     { $count ->
-        [one] rekoto
-       *[other] direkoto
+        [one] Rekoto
+       *[other] Direkoto
     }
 validations =
     { $count ->
