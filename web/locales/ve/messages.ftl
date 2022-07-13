@@ -341,8 +341,8 @@ status-title = Mbalo-mbalo dza thandela yoṱhe nga u angaredza: vhonani uri ro 
 status-contribute = Nikelani nga Ipfi Ḽaṋu
 status-hours =
     { $hours ->
-        [one] [one] Awara nthihi yo khwaṱhisedzwa u swika zwino!
-       *[other] *[other] { $hours } dzi awara dzo khwaṱhisedzwaho u swika zwino!
+        [one] Awara nthihi yo khwaṱhisedzwa u swika zwino!
+       *[other] { $hours } dzi awara dzo khwaṱhisedzwaho u swika zwino!
     }
 # Variables:
 # $goal - number of hours representing the next goal
@@ -1377,9 +1377,9 @@ sc-confirm-already-reviewed =
 #   $readyCount (Number) - Number of sentences ready to be uploaded
 sc-confirm-ready =
     { $readyCount ->
-        [0] [0] A hu na mitaladzi yo lugelaho u rumelwa!
-        [one] [one] mutaladzi 1 wo lugela u rumelwa!
-       *[other] *[other] { $readyCount } mitaladzi yo lugela u rumelwa!
+        [0] A hu na mitaladzi yo lugelaho u rumelwa!
+        [one] Mutaladzi 1 wo lugela u rumelwa!
+       *[other] { $readyCount } mitaladzi yo lugela u rumelwa!
     }
 # Variables:
 #   $countOfUnreviewed (Number) - Number of sentences unreviewed before the upload
@@ -1403,9 +1403,9 @@ sc-lang-info-total =
 #   $totalInReview (Number) - Number of sentences currently in the review state for this language
 sc-lang-info-in-review =
     { $totalInReview ->
-        [0] [0] A hu na mutaladzi wo ṱoliwaho.
-        [one] [one] mutaladzi 1 wo ṱoliwa.
-       *[other] *[other] { $totalInReview } mitaladzi ine ya khou ṱoliwa.
+        [0] A hu na mutaladzi wo ṱoliwaho.
+        [one] Mutaladzi 1 wo ṱoliwa.
+       *[other] { $totalInReview } mitaladzi ine ya khou ṱoliwa.
     }
 # Variables:
 #   $unreviewedSentencesByYou (Number) - Number of sentences the user can still review
@@ -1494,9 +1494,9 @@ sc-review-form-button-submit =
 #   $sentences (Number) - Number of sentences the user has reviewed in this session
 sc-review-form-reviewed-message =
     { $sentences ->
-        [0] [0] A hu na mitaladzi yo ṱoliwaho.
-        [one] [one] mutaladzi 1 wo ṱoliwa. Khou livhuwa!
-       *[other] *[other] { $sentences } mitaladzi yo ṱoliwa. Khou livhuwa!
+        [0] A hu na mitaladzi yo ṱoliwaho.
+        [one] Mutaladzi 1 wo ṱoliwa. Khou livhuwa!
+       *[other] { $sentences } mitaladzi yo ṱoliwa. Khou livhuwa!
     }
 sc-review-form-review-failure = Zwe na ṱolisisa a zwi ngo vhulungea kana u seivea. Ri humbela uri ni lingedze hafhu nga murahu nyana.
 sc-review-link = Ṱolisisa
