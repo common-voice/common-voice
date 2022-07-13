@@ -1298,9 +1298,9 @@ sc-add-err-unexpected = Karabo yeo bego e sa letelwa e bušetšwe go seba
 #   $duplicates (Number) - Number of sentences which got rejected because they are duplicates
 sc-add-result =
     { $duplicates ->
-        [0] [0] Mafoko a rometšego. { $duplicates } mafoko a ile a ganwa ka ge e le dilo tše pedi tša go swana.
-        [one] [one] Mafoko a rometšego.  { $duplicates }  lefoko le ile la ganwa ka ge e le dilo tše pedi tša go swana.
-       *[other] *[other]  Mafoko a rometšego.  { $duplicates }  mafoko a ile a ganwa ka ge e le dilo tše pedi tša go swana.
+        [0] Mafoko a rometšego. { $duplicates } mafoko a ile a ganwa ka ge e le dilo tše pedi tša go swana.
+        [one] Mafoko a rometšego.  { $duplicates } lefoko le ile la ganwa ka ge e le dilo tše pedi tša go swana.
+       *[other] Mafoko a rometšego.  { $duplicates } mafoko a ile a ganwa ka ge e le dilo tše pedi tša go swana.
     }
 # Variables:
 #   $sentences (Number) - Number of sentences which failed to be saved to the database - could be several different reasons
@@ -1331,8 +1331,8 @@ sc-confirm-sentences-found =
 sc-confirm-rejected-by-you = { $countOfInvalidated } di ganwego ke wena
 sc-confirm-already-reviewed =
     { $countOfReviewed ->
-        [0] 0] Ga gona lefoko le ahlolotšwego.
-        [one] [one] lefoko le le 1 le hlahlobilwe. O šomile botse!
+        [0] Ga gona lefoko le ahlolotšwego.
+        [one] Lefoko le le 1 le hlahlobilwe. O šomile botse!
        *[other] { $countOfReviewed } mafoko a šetše a hlahlobilwe. O šomile botse!
     }
 # Variables:
@@ -1373,9 +1373,9 @@ sc-lang-info-in-review =
 #   $unreviewedSentencesByYou (Number) - Number of sentences the user can still review
 sc-lang-info-left-for-you =
     { $unreviewedSentencesByYou ->
-        [0] [0] Ga gona mafoko šetšego gona gore o a tlhahlobe.
-        [one] [one] Go nale lefoko le le 1 le šetšego gore o le tlhahlobe.
-       *[other] *[other] { $unreviewedSentencesByYou } mafoko a šetšego a gore o wa tlhahlobe.
+        [0] Ga gona mafoko šetšego gona gore o a tlhahlobe.
+        [one] Go nale lefoko le le 1 le šetšego gore o le tlhahlobe.
+       *[other] { $unreviewedSentencesByYou } mafoko a šetšego a gore o wa tlhahlobe.
     }
 sc-lang-info-review-now = <reviewLink>Hlahloba bjale!</reviewLink>
 sc-lang-info-add-more = <addLink>Tsenya mafoko a mangwe bjale!</addLink>
