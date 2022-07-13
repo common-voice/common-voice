@@ -268,7 +268,7 @@ x-months-short =
 x-years-short =
     { $count ->
         [one] { "" }
-       *[other] *[other] { $count }y
+       *[other] { $count }y
     }
 help-make-dataset = Re thuše re age dathasete ya khwalithi ya go phagama kudu, le e phatlaletšwego
 sign-up-account = Ngwadiša go hwetša akhaonte
@@ -975,17 +975,17 @@ set-a-goal = Ipeele pakane
 cant-decide = Ga o kgone go kgetha?
 activity-needed-calculation-plural =
     { NUMBER($totalHours) ->
-        [one] [one] { $totalHours } iri e ya fihlelelwa ka godimo ga
-       *[other] *[other] { $totalHours } diiri di ya fihlelelwa ka godimo ga
+        [one] { $totalHours } iri e ya fihlelelwa ka godimo ga
+       *[other] { $totalHours } diiri di ya fihlelelwa ka godimo ga
     } { NUMBER($periodMonths) ->
-        [one] [one] { $periodMonths } kgwedi ge e ba
-       *[other] *[other] { $periodMonths } dikgwedi ge e ba
+        [one] { $periodMonths } kgwedi ge e ba
+       *[other] { $periodMonths } dikgwedi ge e ba
     } { NUMBER($people) ->
-        [one] [one] { $people } motho o rekhota
-       *[other] *[other] { $people } batho o rekhota
+        [one] { $people } motho o rekhota
+       *[other] { $people } batho o rekhota
     } { NUMBER($clipsPerDay) ->
-        [one] [one] { $clipsPerDay } pego ka letšatši.
-       *[other] *[other] { $clipsPerDay } dipego ka letšatši.
+        [one] { $clipsPerDay } pego ka letšatši.
+       *[other] { $clipsPerDay } dipego ka letšatši.
     }
 how-many-per-day = Go ka botse! Ke di pego tše kae ka letšatši?
 how-many-a-week = Seo se a kgahiša! Ke ditsopolwa tše kae ka beke?
@@ -1307,7 +1307,7 @@ sc-add-result =
 sc-add-err-failed =
     { $sentences ->
         [0] Ga gona mafoko a paletšwego
-        [one] Lefoko le le 1 le paletšwe.
+        [one] Lefoko le le 1 le paletšwe
        *[other] { $sentences } mafoko a paletšwego
     }
 sc-add-err-submission = Phošo ya go Romela
@@ -1322,9 +1322,9 @@ sc-confirm-sentences-title = Tiišetša Mafoko a ma Mphsa
 #   $countOfSentences (Number) - Number of sentences the user has filled in the submission form
 sc-confirm-sentences-found =
     { $countOfSentences ->
-        [0] [0] Ga gona mafoko a hweditšwego
-        [one] [one] lefoko le le 1 le hweditšwe
-       *[other] { $countOfSentences } mafoko a hweditšwe
+        [0] Ga gona mafoko a hweditšwego.
+        [one] Lefoko le le 1 le hweditšwe.
+       *[other] { $countOfSentences } mafoko a hweditšwe.
     }
 # Variables:
 #   $countOfInvalidated (Number) - Number of sentences the user rejected in the review form before submission
@@ -1340,7 +1340,7 @@ sc-confirm-already-reviewed =
 sc-confirm-ready =
     { $readyCount ->
         [0] Ga gona mafoko a loketše go romelwa!
-        [one] lefoko le le 1 le loketše go romelwa!
+        [one] Lefoko le le 1 le loketše go romelwa!
        *[other] { $readyCount } mafoko a loketše go romelwa!
     }
 # Variables:
@@ -1384,7 +1384,7 @@ sc-lang-info-add-more = <addLink>Tsenya mafoko a mangwe bjale!</addLink>
 sc-lang-info-validated =
     { $validatedSentences ->
         [0] Ga gona mafoko a kgonthašitšwego.
-        [one] lefoko le 1 le kgonthašitšwe.
+        [one] Lefoko le 1 le kgonthašitšwe.
        *[other] { $validatedSentences } mafoko a kgonthašitšwego.
     }
 # Variables:
@@ -1392,7 +1392,7 @@ sc-lang-info-validated =
 sc-lang-info-rejected =
     { $rejectedSentences ->
         [0] Ga gona mafoko a ganwego.
-        [one] lefoko le le 1 le ganwe.
+        [one] Lefoko le le 1 le ganwe.
        *[other] { $rejectedSentences } mafoko a ganwego.
     }
 
