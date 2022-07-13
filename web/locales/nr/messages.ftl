@@ -1145,17 +1145,17 @@ set-a-goal = Beka umgomo
 cant-decide = Awukghoni ukuthatha isiqunto?
 activity-needed-calculation-plural =
     { NUMBER($totalHours) ->
-        [one] i-awara  izokufumaneka esikhathini esingaphezudlwana kwe
-       *[other] ama-awara  izokufumaneka esikhathini esingaphezudlwana kwe
+        [one] { $totalHours } i-awara izokufumaneka esikhathini esingaphezudlwana kwe
+       *[other] { $totalHours } ama-awara  izokufumaneka esikhathini esingaphezudlwana kwe
     }{ NUMBER($periodMonths) ->
-        [one] nyanga nange
-       *[other] iinyanga nange
+        [one] { $periodMonths } nyanga nange
+       *[other] { $periodMonths } iinyanga nange
     }{ NUMBER($people) ->
-        [one] umuntu isiqetjhana
-       *[other] abantu isiqetjhana
+        [one] { $people } umuntu isiqetjhana
+       *[other] { $people } abantu isiqetjhana
     }{ NUMBER($clipsPerDay) ->
-        [one] iinqetjhana
-       *[other] ngelanga.
+        [one] { $clipsPerDay } isiqetjhana ngelanga.
+       *[other] { $clipsPerDay } iinqetjhana ngelanga.
     }
 how-many-per-day = Kuhle! Zingakhi iinqetjhana ngelanga?
 how-many-a-week = Kuhle! Zingakhi iinqetjhana ngeveke?
@@ -1575,7 +1575,7 @@ sc-confirm-already-reviewed =
     { $countOfReviewed ->
         [0] Awukho umutjho obuyekeziweko.
         [one] Umutjho mu-1 sele ubuyekeziwe. Wenze kuhle!
-       *[other] imitjho esele ibuyekeziwe. Wenze umsebenzi omuhle!
+       *[other] { $countOfReviewed } imitjho esele ibuyekeziwe. Wenze umsebenzi omuhle!
     }
 # Variables:
 #   $readyCount (Number) - Number of sentences ready to be uploaded
@@ -1583,7 +1583,7 @@ sc-confirm-ready =
     { $readyCount ->
         [0] Ayikho imitjho elungele ukufakwa!
         [one] Kunomutjho mu-1 olungele ukufakwa!
-       *[other] imitjho elungele ukufakwa!
+       *[other] { $readyCount } imitjho elungele ukufakwa!
     }
 # Variables:
 #   $countOfUnreviewed (Number) - Number of sentences unreviewed before the upload
@@ -1617,7 +1617,7 @@ sc-lang-info-left-for-you =
     { $unreviewedSentencesByYou ->
         [0] Ayisekho imitjho eseleko etlhoga ukubuyekezwa.
         [one] Kunomutjho mu-1 oseleko otlhoga ukubuyekezwa.
-       *[other] imitjho eseleko etlhoga ukubuyekezwa.
+       *[other] { $unreviewedSentencesByYou } imitjho eseleko etlhoga ukubuyekezwa.
     }
 sc-lang-info-review-now = <reviewLink>Buyekeza nje</reviewLink>
 sc-lang-info-add-more = <addLink>Faka eminye imitjho nje</addLink>
