@@ -1536,9 +1536,9 @@ sc-add-err-unexpected = Ubujamo obungakalindeleki sibuyela kuseyiva
 #   $duplicates (Number) - Number of sentences which got rejected because they are duplicates
 sc-add-result =
     { $duplicates ->
-        [0] Imitjho efakiweko. imitjho yaliwe ngombana iyabuyelelwa.
-        [one] imitjho yaliwe ngombana iyabuyelelwa.
-       *[other] imitjho yaliwe ngombana iyabuyelelwa.
+        [0] Imitjho efakiweko. { $duplicates } imitjho yaliwe ngombana iyabuyelelwa.
+        [one] Imitjho efakiweko. { $duplicates } imitjho yaliwe ngombana iyabuyelelwa.
+       *[other] Imitjho efakiweko. { $duplicates } imitjho yaliwe ngombana iyabuyelelwa.
     }
 # Variables:
 #   $sentences (Number) - Number of sentences which failed to be saved to the database - could be several different reasons
