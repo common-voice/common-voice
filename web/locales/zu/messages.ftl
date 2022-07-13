@@ -457,6 +457,9 @@ faq-why-different-speakers-a =
     Imininingwane egciniwe yenkulumo iqeqeshwe ngokumelela ngokweqile kwezibalo ezithile zabantu okuholela ekuchemaniseni <articleLink>abesilisa nasezingeni eliphakathi</articleLink>. Izindlela zokuphimisa nezilimi zesigodi ezivame ukumelwa kancane kumasethi edatha yokuqeqeshwa ngokuvamile zihlotshaniswa namaqembu abantu asebebandlululwe kakade.Imishini eminingi ibuye ibe nzima ukuqonda amazwi abantu besifazane.
     Yingakho kwidathsethi yethu yezwi sifuna ukuhlukahluka!
 faq-why-my-lang-q = Kungani ulimi lwami lungakafakwa?
+faq-why-my-lang-a =
+    Common Voice indawo lapho uvanzi labantu, nezilimi zonke zifakwe amavolontiya. 
+    Singajabula uma nawe ungafaka olwakho ulimi! <languageRequestLink>Buza ngokufaka olwakho ulimi</languageRequestLink>
 faq-what-quality-q = Iliphi izinga lekhwalithi yomsindo elidingekayo ukuze isiqeshana sezwi sisetshenziswe kudathasethi?
 faq-what-quality-a = Sifuna idathasethi yeCommon Voice ibonakalise izinga le njini yenkulumo-kuya-umbhalo ezozwakala endle, ngakho ke sifuna izinhlobonhlobo. Ngaphezu komphakathi ohlukahlukene wabakhulumi, ulwazi oluqoqiwe unezinhlobo zokulalelwayo oluzofundisa injini yenkulumo-kuya-kumbhalo ukuba ukwazi ukumelana nezinhlobo ngezinhlobo zezimo ezangempela, njengokhuluma emotweni eyenza umsindo ngemuva. Uma ukuqopha kwakho kuzwakala nje, kuzoba kuhle kakhulu kulolwazi oluqoqiwe.
 faq-why-10k-hours-q = Kungani amahora angu-10,000 aqinisekisiwe kuwumgomo wolimi ngalunye lokuthwebula umsindo?
@@ -519,6 +522,7 @@ about-is-it-valid-text = Isiqeshana sezwi simakwa ngokuthi "sivumelekile" uma um
 about-yes-votes = ≥ 2 Amavoti athi Yebo
 about-yes-votes-text = Ukwenza kube yidathasethi yeCommon Voice, isiqeshana sezwi kufanele siqinisekiswe ngabasebenzisi ababili abahlukene.
 about-no-votes = ≥ 2 Amavoti athi Cha
+about-no-votes-text = Uma umsebenzisi enqaba isiqephu esiqoshiwe ngezwi, sibuyiselwa emuva. Uma sinqatshwa okwesibili, sithuthelwa kuClip Graveyard.
 about-dataset-new = Idathasethi YeCommon Voice
 about-dataset-new-text = Idathasethi yeCommon Voice iqukethe amakhulu ezinkulungwane zamasampuli ezwi asiza onjiniyela bakhe amathuluzi okwazi izwi.
 about-clip-graveyard = Amathuna eziqeshana
