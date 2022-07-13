@@ -5,8 +5,8 @@ get-involved-button = Shelani Mulenzhe
 get-involved-title = Shelani Mulenzhe
 get-involved-text =
     Ri livhuwa u vha haṋu na dzangalelo ḽa u ṱoḓa u shela mulenzhe { $lang }. Ri shuma nga maanḓa uri luambo luṅwe na luṅwe lu kone u ḽontshiwa na u dzula
-     ri tshi vhudza thimu yashu nga email. Arali ni tshi ṱoḓa u shela mulenzhe, ri humbela uri ni ri ṋee email yaṋu afho fhasi.
-get-involved-form-title = Ḓiṅwaliseni uri ni wane { $lang } Apudeiti:
+    ri tshi vhudza thimu yashu nga email. Arali ni tshi ṱoḓa u shela mulenzhe, ri humbela uri ni ri ṋee email yaṋu afho fhasi.
+get-involved-form-title = Ḓiṅwaliseni uri ni wane { $lang } apudeiti:
 get-involved-email =
     .label = Email
 get-involved-opt-in = Ee, nthumeleni milaedza nga email. Ndi nga takalela u kwamiwa nga ha mvela phanḓa ya holwu luambo kha Common Voice.

@@ -1336,9 +1336,9 @@ sc-add-err-unexpected = Ho vhuya phindulo i songo lavhelelwaho u bva kha server
 #   $duplicates (Number) - Number of sentences which got rejected because they are duplicates
 sc-add-result =
     { $duplicates ->
-        [0] [0] Mitaladzi yo rumelwaho. { $duplicates } Mitaladzi a yo ngo ṱanganedziwa ngauri yo vha i tshi khou dovholola.
-        [one] [one] Mitaladzi yo rumelwaho. { $duplicates } Mitaladzi yo rumelwaho a yo ngo ṱanganedziwa ngauri yo vha i tshi khou dovholola.
-       *[other] *[other] Mitaladzi yo rumelwaho. { $duplicates } Mitaladzi yo rumelwaho a yo ngo ṱanganedziwa ngauri yo vha i tshi khou dovholola.
+        [0] Mitaladzi yo rumelwaho. { $duplicates } mitaladzi a yo ngo ṱanganedziwa ngauri yo vha i tshi khou dovholola.
+        [one] Mitaladzi yo rumelwaho. { $duplicates } mitaladzi yo rumelwaho a yo ngo ṱanganedziwa ngauri yo vha i tshi khou dovholola.
+       *[other] Mitaladzi yo rumelwaho. { $duplicates } mitaladzi yo rumelwaho a yo ngo ṱanganedziwa ngauri yo vha i tshi khou dovholola.
     }
 # Variables:
 #   $sentences (Number) - Number of sentences which failed to be saved to the database - could be several different reasons
