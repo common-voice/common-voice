@@ -326,6 +326,7 @@ shortcut-vote-no = n
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-record-toggle = r
 shortcut-record-toggle-label = Qopha/Yeka
+shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Qopha isiqeshana kabusha
 shortcut-discard-ongoing-recording = ESC
 shortcut-discard-ongoing-recording-label = Lahla ukurekhoda okuqhubekayo
@@ -1062,6 +1063,7 @@ download-request = Cela okuqoshiwe
 download-requests = Izicelo zokuloda okuqoshiwe okwedlule
 download-requests-info = Uma ucela okuqoshiwe kwakho, sikuhlanganisa kube ifayela le-ZIP elilodwa noma amaningi. Nazi izicelo zakho ezedlule:
 download-request-button = Downloda
+download-request-title = { $created }
 download-request-description = { $clipCount } iziqeshana zezwi, isamba sikasayizi wengobo yomlando { $size }. Iphelelwa yisikhathi { $expires }.
 download-request-archive-single = Ifayela le-ZIP elilodwa eliqukethe
 download-request-archive-multiple = Hlukanisa kube { $archiveCount } amafayela e-ZIP aqukethe
