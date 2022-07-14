@@ -10,6 +10,12 @@ const fs = require('fs').promises;
 
 const RELEASE_DIR_PATH = path.join(__dirname, 'releases');
 
+const RELEASE_TYPES = {
+  full: 'full',
+  singleword: 'singleword',
+  delta: 'delta',
+};
+
 const { MYSQLHOST, MYSQLUSER, MYSQLPASS, MYSQLDBNAME } = getConfig();
 
 const dbConfig = {
@@ -23,34 +29,49 @@ const TOTAL_STATS = ['totalDuration', 'totalValidDurationSecs'];
 
 const secondsToMilliseconds = seconds => seconds * 1000;
 
-async function updateTotals(db) {
-  db(`
+async function updateTotals(db, values) {
+  db(
+    `
     UPDATE datasets
-    SET clips_duration = ?
-    SET clips_valid_duration = ?
-    WHERE id IN (?)
-  `);
+    SET total_clips_duration = ?,
+        valid_clips_duration = ?,
+        release_type = ?
+    WHERE release_dir = ?
+  `,
+    [...values]
+  );
 }
 
 const getTotalStats = statistics => {
   return TOTAL_STATS.map(key => statistics[key]);
 };
 
-async function loadStatisticFiles() {
+async function loadStatisticFiles(db) {
   const releaseFilePaths = await fs.readdir(RELEASE_DIR_PATH);
 
   for (const releaseFilePath of releaseFilePaths) {
     const statisticsPath = path.join(RELEASE_DIR_PATH, releaseFilePath);
 
+    // get the type of dataset release from
+    const releaseType =
+      Object.keys(RELEASE_TYPES).find(word => releaseFilePath.includes(word)) ||
+      RELEASE_TYPES.full;
+
     const statistics = JSON.parse(await fs.readFile(statisticsPath, 'utf-8'));
     let totalReleaseStats = getTotalStats(statistics);
     totalReleaseStats[1] = secondsToMilliseconds(totalReleaseStats[1]);
+    totalReleaseStats = [
+      ...totalReleaseStats,
+      releaseType,
+      releaseFilePath.split('.')[0],
+    ];
+    await updateTotals(db, totalReleaseStats);
     console.log('totalReleaseStats', totalReleaseStats);
     // break;
   }
 }
 
-async function importLocales() {
+async function importDatasetStatistics() {
   try {
     const pool = mysql.createPool(dbConfig);
 
@@ -59,7 +80,7 @@ async function importLocales() {
       const db = promisify(connection.query).bind(connection);
       let locales = {};
 
-      await db(`select * from locales`);
+      await loadStatisticFiles(db);
 
       connection.destroy();
     });
@@ -68,5 +89,4 @@ async function importLocales() {
     process.exit(1);
   }
 }
-
-loadStatisticFiles().catch(e => console.error(e));
+importDatasetStatistics().catch(e => console.error(e));
