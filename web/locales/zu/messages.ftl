@@ -873,6 +873,7 @@ review-tooltip = Buyekeza futhi uqophe kabusha iziqeshana lapha njengoba uhamba
 share-clip = Yabelana ngesiqeshana sakho
 share-common-voice = Yabelana ngeCommon Voice
 review-instruction = Buyekeza futhi uqophe kabusha iziqeshana uma kudingeka
+record-submit-tooltip = { $actionType } hambisa uma usulungile
 clips-uploaded = Iziqeshana zilodiwe
 record-abort-title = Qedela ukuqopha kuqala?
 record-abort-text = Ukuhamba manje kusho ukuthi uzolahlekelwa ukuqhubeka kwakho
@@ -1038,6 +1039,7 @@ weekly-goal-created = Injongo yakho yeviki idaliwe
 daily-goal-created = Injongo yakho yansuku zonke isiyakhiwe
 track-progress = Landela inqubekelaphambili yakho la nasekhasini lakho lama-stat.
 return-to-edit-goal = Buyela lapha ukuze ushintshe injongo yakho noma nini.
+share-goal = Yabelana ngomgomo wami
 
 ## Profile Delete
 
@@ -1054,6 +1056,7 @@ profile-form-delete = Susa iphrofayela
 
 ## Profile Download
 
+download-q = Udinga ukulanda idatha yakho?
 download-info = Sitshele ukuthi yini ongathanda ukuyiloda:
 download-profile-title = Iphrofayela
 download-profile-info = Kufaka phakathi i-imeyili, igama olisebenzisayo nolwazi lwezibalo zabantu, olutholakala ngokushesha
@@ -1128,6 +1131,7 @@ demo-dashboard-card-body = Zonke iziqephu eziqoshiwe zamazwi ezinikelwe nazo zon
 
 ## Validation criteria
 
+contribution-criteria-nav = Imibandela
 contribution-criteria-link = Qonda imibandela yokunikela
 contribution-criteria-page-title = Imibandela Yokufaka Izandla
 contribution-criteria-page-description = Qonda ukuthi yini okufanele uyibheke lapho ulalele iziqeshana zezwi futhi usize ukwenza izwi elirekhodiwe lakho licebe kakhulu!
@@ -1261,6 +1265,7 @@ sc-howto-findpd-partner-2 = Ochwepheshe bezilimi nabo bangasiza ngokufinyelela k
 sc-my-title = Imisho Yami
 sc-my-description = Le khasi likubonisa yonke imisho oyithumelile. Ungakwazi nokususa osewukuthumele uma kunesidingo ngokumaka ibhokisi eliseduze kwayo, ucindezele ku &quot;Susa imisho ekhethiwe&quot; ezansi. Sicela ususe imisho uma kunesidingo ngempela, isibonelo, uma uqahe ngemuva ukuba umusho unelungelo lobunikazi obuvikelwe.
 sc-my-loading = Loda imisho yakho...
+sc-my-err-fetching = Iphutha ngenkathi ulanda imisho yakho. Ngicela uzame futhi.
 sc-my-no-sentences = Ayikho imisho etholakele!
 # Variables:
 #   $batchId (String) - A unique ID identifying the submission of sentences - sentences uploaded together all have the same batch ID
