@@ -1395,7 +1395,7 @@ sc-lang-info-in-review =
 sc-lang-info-left-for-you =
     { $unreviewedSentencesByYou ->
         [0] Ayikho imisho esele ukuthi uyibuyekeze.
-        [one] umusho ongu-1 osele ukuthi uwubuyekeze.
+        [one] Umusho ongu-1 osele ukuthi uwubuyekeze.
        *[other] { $unreviewedSentencesByYou } imisho esele ukuthi uyibuyekeze.
     }
 sc-lang-info-review-now = <reviewLink>Buyekeza manje!<reviewLink>
