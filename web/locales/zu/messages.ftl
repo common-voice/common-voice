@@ -419,6 +419,7 @@ help-variants-explanation = Ulimi lungahluka ngezindlela thizeni - isibonelo, ab
 ## Profile - Email
 
 browse-file-title = Layisha ifayela lesithombe
+browse-file = Hudula bese udedela noma <browseWrap>Phequlula</browseWrap>
 connect-gravatar = Xhuma nge-Gravatar
 gravatar_not_found = Ayikho i-gravatar etholakele ye-imeyili yakho
 file_too_large = Ifayela elikhethiwe likhulu kakhulu
@@ -616,8 +617,10 @@ about-playbook-how-grow-language-content-8 = <strong>Yakha ubuciko!</strong> Ump
 ## How to validate
 
 about-playbook-how-validate = Ngazi kanjani ukuthi ngigunyaze isiqeshana sezwi?
+about-playbook-how-validate-content-1 = Uma ukwazi <strong>ukubezwa</strong> futhi <strong>ubaqonde</strong>, ngokuvamile <strong>kungcono kakhulu ukuvuma</strong>.
 about-playbook-how-validate-content-2 = <strong>Ungazali iziqeshana lapho isikhulumi 'sikhuluma ngendlela ehlukile' kuneyakho</strong> - kubalulekile lokhu ekuqashelweni kwezwi ukuze izosebenza ngcono kuwo wonke umuntu.
 about-playbook-how-validate-content-3 = Uma ucabanga ukuthi ukuphinyiswa kwamagama kwenza <strong>kungaqondeki</strong>, noma kuno <strong>msindo ongasemuva</strong>, noma kuna <strong>banye abantu abakhulumayo</strong>, kuzomele unqabe lesosiqephu. <accuracyLink>Bheka ulwazi olubanzi ngemibandela yokuqonda nqo</accuracyLink>.
+about-playbook-how-validate-content-4 = Uma isiqeshana saliwe ngabantu abangu-2, sikhululwa kusethi engaphansi ehlukile yedathasethi
 
 ## How to access dataset
 
