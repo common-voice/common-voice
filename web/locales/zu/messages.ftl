@@ -375,6 +375,8 @@ leaderboard-visibility =
     .label = Ukubonakala Kwebhodi labaphambili
 hidden = Kufihliwe
 visible = Kubonakala
+native-language =
+    .label = Ulimi olukhulunywayo endaweni
 profile-form-add-accent = Engeza ukuphimisa kwangokwezifiso okusha "{ $inputValue }"
 profile-form-submit-save = Gcina
 profile-form-submit-saved = Okugciniwe
@@ -639,6 +641,7 @@ about-playbook-how-project-governance-content-7 = <governanceLink>Funda kabanzi 
 glossary = Uhlu lwamagama
 localization = Ukwenziwa njengokwasendaweni
 localization-explanation = Lena inqubo yethu yokuhumusha nokulungisa okuqukethwe kwethu ezindaweni eziningi (izilimi).
+sentence-collection = Imisho eqoqiwe
 sentence-collection-explanation = Ukuqoqa imisho esizindeni somphakathi, noma ukubhala emisha esizindeni somphakathi.
 hours-recorded-explanation = Isibalo samahora okuqoshwa kwezwi esiwaqoqile kuze kube manje.
 hours-validated-explanation = Ukubalwa kwamahora wamazwi aqoshiwe aqinisekisiwe ngabantu abangu-2 kwaba-3 ngo Yebo. Lokhu kubonisa inqubekela phambili ngasekufinyeleleni kwisifezo samahora awu-10k.
@@ -1035,6 +1038,7 @@ return-to-edit-goal = Buyela lapha ukuze ushintshe injongo yakho noma nini.
 
 ## Profile Delete
 
+delete-q = Ungathanda ukuba ukuqoshwa kwezwi lakho kususwe, noma ungathanda ukuba kugcinwe kulwazi oluqoqiwe  lweCommon Voice?
 keep = Gcina
 remove = Susa
 keep-info = Amazwi wenu aqoshiwe afihliwe azohlala kwidathasethi yeCommon Voice. Uma ususa imininingwane yakho, angeke usakwazi ukuthumela isicelo sokususa konke okuqophile kwidathasethi.
@@ -1437,6 +1441,7 @@ sc-personal-not-added = Awukangezi izilimi okwamanje.
 sc-criteria-modal = ⓘ Imibandela yokubuyekeza
 sc-criteria-title = Buyekeza Imibandela
 sc-criteria-make-sure = Qiniseka ukuthi umusho uhambiselana nemibandela elandelayo:
+sc-criteria-item-1 = Umusho kumele ubhalwe ngendlela efanele.
 sc-criteria-item-2 = Umusho kumele uhambisane nohlelo lolimi.
 sc-criteria-item-3 = Umusho kumele ukhulumeke.
 sc-criteria-item-4 = Uma umusho uhlangabezana nemibandela, chofoza okuthi &quot;Vumela&quot; inkinobho kwesokudla.
