@@ -270,8 +270,8 @@ x-weeks-short =
     }
 x-months-short =
     { $count ->
-        [one] { $count }mo
-       *[other] { "" }
+        [one] { "" }
+       *[other] { $count }mo
     }
 x-years-short =
     { $count ->
@@ -988,15 +988,15 @@ help-reach-hours-pluralized =
     }
 help-reach-hours-general-pluralized =
     { NUMBER($hours) ->
-        [one] Siza iCommon Voice ifinyelele { $hours } ihora
-       *[other] { $hours } amahora ngolimi olunomgomo womuntu siqu
+        [one] Siza iCommon Voice ifinyelele { $hours } ihora ngolimi olunomgomo womuntu siqu
+       *[other] Siza iCommon Voice ifinyelele { $hours } amahora ngolimi olunomgomo womuntu siqu
     }
 set-a-goal = Zibekele umgomo
 cant-decide = Awukwazi ukuthatha isinqumo
 activity-needed-calculation-plural =
     { NUMBER($totalHours) ->
-        [one] { $totalHours } ihora  lifinyeleleka esikhathini esingaphezudlwana nje kuka
-       *[other] { $totalHours } amahora  ifinyeleleka esikhathini esingaphezudlwana kuka
+        [one] { $totalHours } ihora lifinyeleleka esikhathini esingaphezudlwana nje kuka
+       *[other] { $totalHours } amahora ifinyeleleka esikhathini esingaphezudlwana kuka
     }{ NUMBER($periodMonths) ->
         [one] { $periodMonths } ​​inyanga uma
        *[other] { $periodMonths } ​​izinyanga uma
@@ -1004,8 +1004,8 @@ activity-needed-calculation-plural =
         [one] { $people } umuntu orekhodayo
        *[other] abantu abangu-{ $people } abarekhodayo
     } { NUMBER($clipsPerDay) ->
-        [one] { $clipsPerDay } isiqeshana ngosuku
-       *[other] iziqeshana ezingu-{ $clipsPerDay } ngosuku."
+        [one] { $clipsPerDay } isiqeshana ngosuku.
+       *[other] iziqeshana ezingu-{ $clipsPerDay } ngosuku.
     }
 how-many-per-day = Kuhle! Zingaki iziqeshana ngosuku?
 how-many-a-week = Kuhle! Zingaki iziqeshana ngeviki?
@@ -1328,7 +1328,7 @@ sc-add-result =
 sc-add-err-failed =
     { $sentences ->
         [0] Ayikho imisho ehlulekile
-        [one] umusho ongu-1 wehlulekile
+        [one] Umusho ongu-1 wehlulekile
        *[other] { $sentences } imisho yehlulekile
     }
 sc-add-err-submission = Iphutha Lokuhambisa
@@ -1345,7 +1345,7 @@ sc-confirm-sentences-found =
     { $countOfSentences ->
         [0] Ayikho imisho etholakele.
         [one] Kutholwe umusho ongu-1.
-       *[other] imisho engu-{ $countOfSentences } itholakele.
+       *[other] Imisho engu-{ $countOfSentences } itholakele.
     }
 # Variables:
 #   $countOfInvalidated (Number) - Number of sentences the user rejected in the review form before submission
@@ -1353,15 +1353,15 @@ sc-confirm-rejected-by-you = { $countOfInvalidated } waliwe nguwe
 sc-confirm-already-reviewed =
     { $countOfReviewed ->
         [0] Awukho umusho osuvele ubuyekeziwe.
-        [one] umusho ongu-1 usuvele ubuyekeziwe. Umsebenzi omuhle!
-       *[other] imisho engu-{ $countOfReviewed } isivele ibuyekeziwe. Umsebenzi omuhle!
+        [one] Umusho ongu-1 usuvele ubuyekeziwe. Umsebenzi omuhle!
+       *[other] Imisho engu-{ $countOfReviewed } isivele ibuyekeziwe. Umsebenzi omuhle!
     }
 # Variables:
 #   $readyCount (Number) - Number of sentences ready to be uploaded
 sc-confirm-ready =
     { $readyCount ->
         [0] Awukho umusho olungele ukuhanjiswa!
-        [one] umusho ongu-1 ulungele ukuhanjiswa!
+        [one] Umusho ongu-1 ulungele ukuhanjiswa!
        *[other] { $readyCount } imisho isilungele ukuhanjiswa!
     }
 # Variables:
@@ -1379,16 +1379,16 @@ sc-lang-info-title-personal = Okomuntu siqu
 sc-lang-info-total =
     { $totalSentences ->
         [0] Ayikho ingqikithi yemisho.
-        [one] usuwonke umusho o-1.
-       *[other] { $totalSentences } ingqikithi yemisho
+        [one] Usuwonke umusho o-1.
+       *[other] { $totalSentences } ingqikithi yemisho.
     }
 # Variables:
 #   $totalInReview (Number) - Number of sentences currently in the review state for this language
 sc-lang-info-in-review =
     { $totalInReview ->
         [0] Ayikho imisho ebuyekezwayo.
-        [one] umusho ongu-1 uyabuyekezwa.
-       *[other] imisho engu-{ $totalInReview } iyabuyekezwa.
+        [one] Umusho ongu-1 uyabuyekezwa.
+       *[other] Imisho engu-{ $totalInReview } iyabuyekezwa.
     }
 # Variables:
 #   $unreviewedSentencesByYou (Number) - Number of sentences the user can still review
@@ -1405,7 +1405,7 @@ sc-lang-info-add-more = <addLink>Engeza eminye imisho manje!</addLink>
 sc-lang-info-validated =
     { $validatedSentences ->
         [0] Ayikho imisho eqinisekisiwe.
-        [one] umusho oqinisekisiwe o-1.
+        [one] Umusho oqinisekisiwe o-1.
        *[other] { $validatedSentences } imisho eqinisekisiwe.
     }
 # Variables:
@@ -1413,7 +1413,7 @@ sc-lang-info-validated =
 sc-lang-info-rejected =
     { $rejectedSentences ->
         [0] Ayikho imisho enqatshiwe.
-        [one] umusho owenqatshiwe u-1.
+        [one] Umusho owenqatshiwe u-1.
        *[other] { $rejectedSentences } imisho enqatshiwe.
     }
 
@@ -1478,7 +1478,7 @@ sc-review-form-button-submit =
 sc-review-form-reviewed-message =
     { $sentences ->
         [0] Ayikho imisho ebuyekeziwe.
-        [one] umusho ongu-1 ubuyekeziwe. Ngiyabonga!
+        [one] Umusho ongu-1 ubuyekeziwe. Ngiyabonga!
        *[other] { $sentences } ibuyekeziwe. Ngiyabonga!
     }
 sc-review-form-review-failure = Isibuyekezo asikwazanga ukugcineka. Sicela uzame futhi emuva kwesikhathi.
