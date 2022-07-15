@@ -528,6 +528,7 @@ about-playbook-how-add-language-collecting-sentences-heading = Esaldiak biltzen
 
 about-playbook-how-localize = Nola dabil gunearen lokalizazioa?
 about-playbook-how-localize-content-4 = Gunea martxan jartzeko prest dago % 75 egina dagoenean.
+about-playbook-how-localize-content-5 = Ikusi gure azalpen bideoa
 
 ## How to add sentences
 
@@ -729,6 +730,7 @@ language-speakers = Hiztunak
 localized = Lokalizatuta
 sentences = Esaldiak
 language-validation-hours = Orduak
+language-validation-progress = Balioztatzeen aurrerapena
 
 ## Contribution
 
@@ -1085,6 +1087,10 @@ sc-home-review-title = Berrikusi esaldiak
 sc-howto-addsen-title = Gehitu esaldi berriak
 sc-howto-cite-title = Nola egin aipuak
 sc-howto-review-title = Berrikusi esaldiak
+sc-howto-review-subtitle = Ziurtatu esaldiek ondoko irizpideak betetzen dituztela:
+sc-howto-review-criteria-1 = Esaldiek ez dute akats ortografikorik izan behar.
+sc-howto-review-criteria-2 = Esaldiek ez dute akats gramatikalik izan behar.
+sc-howto-review-criteria-3 = Esaldiak ahoskagarriak izan behar dira.
 
 ## MY SENTENCES
 
@@ -1184,6 +1190,8 @@ sc-confirm-button-text = Baieztatu
 
 ## LANGUAGE INFO
 
+sc-lang-info-title-total = Guztira
+sc-lang-info-title-personal = Pertsonala
 sc-lang-info-review-now = <reviewLink>Berrikusi orain!</reviewLink>
 sc-lang-info-add-more = <addLink>Gehitu esaldi gehiago orain!</addLink>
 # Variables:
