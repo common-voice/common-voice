@@ -531,6 +531,7 @@ about-playbook-what-is-language = ภาษาใน Common Voice คืออ�
 
 about-playbook-how-add-language = ฉันจะเพิ่มภาษาได้อย่างไร
 about-playbook-how-add-language-translating-heading = การแปลเว็บไซต์
+about-playbook-how-add-language-translating-content-1 = <translateVideoLink>ดูวิดีโอของเราเกี่ยวกับวิธีใช้ Pontoon</translateVideoLink>
 about-playbook-how-add-language-collecting-sentences-heading = การรวบรวมประโยค
 
 ## How does localization work
@@ -720,6 +721,7 @@ language-speakers = ผู้พูด
 localized = ภาษาท้องถิ่น
 sentences = ประโยค
 language-validation-hours = ชั่วโมง
+language-validation-progress = ความคืบหน้าการตรวจสอบ
 
 ## Contribution
 
@@ -771,8 +773,14 @@ listen-again-instruction = ทำได้ดีมาก!<playIcon></playIcon> 
 listen-3rd-time-instruction = เหลืออีก 2 ทำต่อไป!<playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon>อันสุดท้ายแล้ว!
 listen-empty-state = เราไม่มีคลิปที่จะให้ตรวจสอบในภาษานี้แล้ว...
+listen-loading-error =
+    เราไม่สามารถหาคลิปเสียงให้คุณฟังได้
+    โปรดลองอีกครั้งในภายหลัง
 speak-empty-state = เราไม่มีประโยคที่จะให้บันทึกเสียงในภาษานี้แล้ว...
 speak-empty-state-cta = มีส่วนร่วมเกี่ยวกับประโยค
+speak-loading-error =
+    เราหาประโยคให้คุณพูดไม่ได้
+    โปรดลองอีกครั้งในภายหลัง
 record-button-label = อัดเสียงของคุณ
 share-title-new = <bold>ช่วยเรา</bold>หาเสียงเพิ่มเติม
 keep-track-profile = ติดตามความคืบหน้าของคุณด้วยโปรไฟล์
@@ -1128,9 +1136,42 @@ sc-add-result =
         [0] ส่งประโยคสำเร็จ มี { $duplicates } ประโยคถูกปฏิเสธเนื่องจากซ้ำกัน
        *[other] ส่งประโยคสำเร็จ มี { $duplicates } ประโยคถูกปฏิเสธเนื่องจากซ้ำกัน
     }
+# Variables:
+#   $sentences (Number) - Number of sentences which failed to be saved to the database - could be several different reasons
+sc-add-err-failed =
+    { $sentences ->
+        [0] ไม่มีประโยคที่เกิดข้อผิดพลาด
+       *[other] { $sentences } ประโยคเกิดข้อผิดพลาด
+    }
+sc-add-err-submission = ข้อผิดพลาดในการส่ง
 
 ## ADD SENTENCES CONFIRMATION
 
+sc-confirm-are-you-sure =
+    .message = ยังไม่ได้ส่งประโยค คุณต้องการออกหรือไม่?
+sc-confirm-sentences-title = ยืนยันประโยคใหม่
+# Variables:
+#   $countOfSentences (Number) - Number of sentences the user has filled in the submission form
+sc-confirm-sentences-found =
+    { $countOfSentences ->
+        [0] ไม่พบประโยค
+       *[other] พบ { $countOfSentences } ประโยค
+    }
+# Variables:
+#   $countOfInvalidated (Number) - Number of sentences the user rejected in the review form before submission
+sc-confirm-rejected-by-you = { $countOfInvalidated } ประโยคถูกปฏิเสธโดยคุณ
+sc-confirm-already-reviewed =
+    { $countOfReviewed ->
+        [0] ยังไม่มีประโยคที่ผ่านการตรวจสอบแล้ว
+       *[other] { $countOfReviewed } ประโยคผ่านการตรวจสอบแล้ว ทำได้ดีมาก!
+    }
+# Variables:
+#   $readyCount (Number) - Number of sentences ready to be uploaded
+sc-confirm-ready =
+    { $readyCount ->
+        [0] ไม่มีประโยคที่พร้อมส่ง!
+       *[other] { $readyCount } ประโยคพร้อมส่ง!
+    }
 sc-confirm-button-text = ยืนยัน
 
 ## LANGUAGE INFO
@@ -1251,3 +1292,5 @@ sc-validation-no-abbreviations = ประโยคไม่ควรมีต�
 
 # [/SentenceCollector]
 
+localization-select =
+    .label = เลือกภาษา/การแปลภาษา
