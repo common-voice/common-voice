@@ -286,7 +286,6 @@ shortcut-rerecord-toggle-label = Uudelleennauhoita äänite
 shortcut-discard-ongoing-recording-label = Hylkää käynnissä oleva tallenne
 shortcut-submit-label = Lähetä äänileikkeet
 request-language-text = Eikö kieltäsi löydy Common Voicesta vielä?
-request-language-text-learn = Näin voit pyytää sitä lisättäväksi!
 request-language-button = Pyydä kieltä lisättäväksi
 
 ## ProjectStatus
@@ -404,7 +403,6 @@ faq-do-want-native-a = Kyllä, me haluamme erityisesti sinun äänesi! Osa Commo
 faq-why-different-speakers-q = Miksi tarvitsette niin monta jokaisen kielen puhujaa?
 faq-why-different-speakers-a = Useimmat ääniaineistot on opetettu tietyn väestöryhmän yliedustuksella, mikä johtaa vinoumaan <articeLink>valkoihoisten ja keskiluokkaisten</articleLink> suuntaan. Tyypillisesti ennalta syrjäytyneiden väestöryhmien korostukset ja murteet tapaavat olla aliedustettuja ääniaineistoissa. Monilla koneilla on lisäksi haasteita naisten ymmärtämisessä. Tästä syystä me haluamme monipuolisuutta aineistoomme!
 faq-why-my-lang-q = Miksei kieleni ole vielä mukana?
-faq-why-my-lang-new-a = Mozilla ei valikoi tai suosi mitään yksittäistä kieltä muiden kustannuksella. Päinvastoin, Common Voice on täysin yhteisövetoinen hanke, ja <multilangLing>uuden kielen lisääminen</multilangLink> ja lauseiden keräämisen aloittaminen vaatii monia työvaiheita. Ensiksi, Common Voice -verkkosivu täytyy kääntää, jotta yhteisön jäsenet voivat osallistua nauhoitustyöhön omalla kielellään. Toiseksi, tarvitsemme suuren määrän tekijänoikeusvapaita lauseita, joita ihmiset voivat lukea ääneen. Kun molemmat vaatimukset on täytetty, voidaan kieli "julkaista" Common Voicessa, ja ihmiset voivat alkaa nauhoittaa omaa puhettaan ja tarkistaa muiden nauhoituksia. Jos haluat auttaa uuden kielen lisäämisessä, siirry <sentenceCollectorLink>lauseiden keräämiseksi tarkoitettuun työkaluumme</sentenceCollectorLink> niin pääset alkuun.
 faq-what-quality-q = Minkä tasoinen äänenlaatu tarvitaan näytteen käyttämiseksi aineistossa?
 faq-what-quality-a = Haluamme Common Voice -aineiston heijastelevan puheentunnistusmoottorin luonnossa kuulemaa äänenlaatua, joten toivomme vaihtelua. Monipuolisen puhujien yhteisön lisäksi erilaista äänenlaatua sisältävä aineisto opettaa puheentunnistusmoottoria käsittelemään erilaisia tosielämän tilanteita, taustalla puhumisesta liikenteen meluun. Niin kauan kuin ääninäytteesi on ymmärrettävä, sen pitäisi olla tarpeeksi hyvä aineistoon.
 faq-why-10k-hours-q = Miksi tavoitteena on 10 000 tuntia tarkistettuja ääninäytteitä jokaista kieltä kohden?
@@ -462,12 +460,6 @@ about-dataset-new = Common Voice -aineisto
 about-dataset-new-text = Common Voice -aineisto koostuu sadoistatuhansista ääninäytteistä, jotka helpottavat puheentunnistustyökalujen kehittämistyötä.
 about-clip-graveyard = Äänileikkeiden hautausmaa
 about-clip-graveyard-text = Äänileikkeiden hautausmaa koostuu äänileikkeistä jotka on hylätty Common Voice -aineistosta. Kyseisen aineiston lailla, äänileikkeiden hautausmaakin on ladattavissa.
-about-partners = Partnerit
-about-become-a-partner = Ryhdy partneriksi
-about-partnership =
-    Common voice on yhteistyöhanke. Olemme riippuvaisia kumppaniemme ja lahjoittajien muodostamasta yhteisöstä rakentaessamme kaikkien aikojen laajointa avointa ääniaineistoa.
-    
-    Haluaisimme kiittää seuraavia henkilöitä ja organisaatioita heidän panoksestaan hankkeen eteen:
 about-get-involved = Tule mukaan
 about-get-involved-text-2 =
     Haluatko tehdä Common Voice -hankkeesta vielä paremman? 
@@ -520,12 +512,6 @@ about-playbook-how-access-dataset = Kuinka saan pääsyn ja kuinka käytän aine
 
 ## How are decisions made
 
-mycroft-title = Mycroft Ai
-mycroft-subtitle = Tekoäly
-mycroft-description =
-    Mycroft on maailman ensimmäinen avoimen lähdekoodin assistentti. 
-    Mycroft pyörii missä tahansa - pöytätietokoneessa, auton sisällä tai Raspberry Pi -minitietokoneessa.
-mycroft-secondary-description = Tämä on avoimen lähdekoodin ohjelmisto, jota voi vapaasti yhdistää, laajentaa ja parantaa. Mycroftia voi käyttää mihin tahansa koululaisprojektin ja tuotannossa olevan yrityskäytön välillä.
 
 ## Glossary
 
@@ -688,7 +674,6 @@ language-search-input =
 language-speakers = Puhujat
 localized = Lokalisoitu
 sentences = Lauseet
-total-hours = Tarkastetut tunnit
 
 ## Contribution
 
@@ -836,15 +821,15 @@ finish-editing = Viimeistelläänkö muokkaaminen ensin?
 lose-changes-warning = Nyt poistumalla muutokset katoavat
 build-custom-goal = Rakenna mukautettu tavoite
 help-reach-hours-pluralized =
-    Auta saavuttamaan{ NUMBER($hours) ->
-        [one] { $hours } tunti
-       *[other] { $hours } tuntia
-    }kielelle { $language } henkilökohtaisen tavoitteen avulla
+    { NUMBER($hours) ->
+        [one] Auta saavuttamaan { $hours } tunti kielelle { $language } henkilökohtaisen tavoitteen avulla
+       *[other] Auta saavuttamaan { $hours } tuntia kielelle { $language } henkilökohtaisen tavoitteen avulla
+    }
 help-reach-hours-general-pluralized =
-    Auta Common Voicea saavuttamaan{ NUMBER($hours) ->
-        [one] { $hours } tunti
-       *[other] { $hours } tuntia
-    }kielessä henkilökohtaisen tavoitteen avulla
+    { NUMBER($hours) ->
+        [one] Auta Common Voicea saavuttamaan { $hours } tunti kielessä henkilökohtaisen tavoitteen avulla
+       *[other] Auta Common Voicea saavuttamaan { $hours } tuntia kielessä henkilökohtaisen tavoitteen avulla
+    }
 set-a-goal = Aseta tavoite
 cant-decide = Vaikeuksia päättää?
 activity-needed-calculation-plural =
