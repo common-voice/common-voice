@@ -413,6 +413,7 @@ about-playbook-how-add-language-collecting-sentences-heading = Ҷамъкуни�
 
 ## How does localization work
 
+about-playbook-how-localize = Чӣ тавр маҳаллисозии сомона кор мекунад?
 
 ## How to add sentences
 
