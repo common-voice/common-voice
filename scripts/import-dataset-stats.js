@@ -11,7 +11,7 @@ const fs = require('fs').promises;
 const RELEASE_DIR_PATH = path.join(__dirname, 'releases');
 
 const RELEASE_TYPES = {
-  full: 'full',
+  complete: 'complete',
   singleword: 'singleword',
   delta: 'delta',
 };
@@ -29,22 +29,76 @@ const TOTAL_STATS = ['totalDuration', 'totalValidDurationSecs'];
 
 const secondsToMilliseconds = seconds => seconds * 1000;
 
-async function updateTotals(db, values) {
-  db(
-    `
-    UPDATE datasets
-    SET total_clips_duration = ?,
-        valid_clips_duration = ?,
-        release_type = ?
-    WHERE release_dir = ?
-  `,
-    [...values]
-  );
-}
-
 const getTotalStats = statistics => {
   return TOTAL_STATS.map(key => statistics[key]);
 };
+
+async function getDatasetId(db, values) {
+  try {
+    console.log('values', values);
+    const [{ id }] = await db(
+      `
+      SELECT id FROM datasets
+      WHERE release_dir = ?
+    `,
+      [...values]
+    );
+    return id;
+  } catch (error) {
+    console.log(error);
+  }
+}
+
+async function getLocaleIds(db) {
+  try {
+    const rows = await db(
+      `
+      SELECT id,name FROM locales
+    `
+    );
+    return rows;
+  } catch (error) {
+    console.log(error);
+  }
+}
+
+async function updateTotals(db, values) {
+  try {
+    return await db(
+      `
+      UPDATE datasets
+      SET total_clips_duration = ?,
+          valid_clips_duration = ?,
+          release_type = ?
+      WHERE release_dir = ?
+    `,
+      [...values]
+    );
+  } catch (error) {
+    console.log(error);
+  }
+}
+
+async function insertLocaleStats(db, values) {
+  try {
+    return await db(
+      `
+      INSERT INTO locale_datasets
+      SET dataset_id = ?,
+          locale_id = ?,
+          total_clips_duration = ?,
+          valid_clips_duration = ?,
+          average_clips_duration = ?,
+          total_users = ?,
+          size = ?,
+          checksum = ?
+    `,
+      [...values]
+    );
+  } catch (error) {
+    console.log(error);
+  }
+}
 
 async function loadStatisticFiles(db) {
   const releaseFilePaths = await fs.readdir(RELEASE_DIR_PATH);
@@ -55,19 +109,81 @@ async function loadStatisticFiles(db) {
     // get the type of dataset release from
     const releaseType =
       Object.keys(RELEASE_TYPES).find(word => releaseFilePath.includes(word)) ||
-      RELEASE_TYPES.full;
+      RELEASE_TYPES.complete;
+
+    const release_dir = releaseFilePath.split('.json')[0];
+    const datasetId = await getDatasetId(db, [release_dir]);
+
+    console.log('Migrating statistics for : ', release_dir);
 
     const statistics = JSON.parse(await fs.readFile(statisticsPath, 'utf-8'));
-    let totalReleaseStats = getTotalStats(statistics);
-    totalReleaseStats[1] = secondsToMilliseconds(totalReleaseStats[1]);
-    totalReleaseStats = [
-      ...totalReleaseStats,
-      releaseType,
-      releaseFilePath.split('.')[0],
-    ];
-    await updateTotals(db, totalReleaseStats);
-    console.log('totalReleaseStats', totalReleaseStats);
-    // break;
+
+    //save total dataset stats to db
+    // let totalReleaseStats = getTotalStats(statistics);
+    // totalReleaseStats[1] = secondsToMilliseconds(totalReleaseStats[1]);
+    // totalReleaseStats = [
+    //   ...totalReleaseStats,
+    //   releaseType,
+    //   release_dir,
+    // ];
+    // await updateTotals(db, totalReleaseStats);
+
+    // dataset_id
+    // locale_id
+    // total_clips_duration
+    // valid_clips_duration
+    // average_clips_duration
+    // total_users
+    // size
+    // checksum
+
+    //save individual languages stats to db per dataset
+    const { locales } = statistics;
+    let localeIds = await getLocaleIds(db);
+
+    //format response to get dictory of name:id of locales
+    localeIds = localeIds.reduce((obj, row) => {
+      obj[row.name] = row.id;
+      return obj;
+    }, {});
+
+    try {
+      if (!datasetId) {
+        throw new Error('No datasetID found');
+      }
+
+      await Promise.all(
+        Object.keys(locales).map(async locale => {
+          const localeId = localeIds[locale];
+          if (!localeId) {
+            throw new Error('No localeId found for ', locale);
+          }
+
+          const stats = locales[locale];
+          const {
+            duration,
+            validDurationSecs,
+            avgDurationSecs,
+            users,
+            size,
+            checksum,
+          } = stats;
+
+          return insertLocaleStats(db, [
+            datasetId,
+            localeIds[locale],
+            duration,
+            secondsToMilliseconds(validDurationSecs),
+            secondsToMilliseconds(avgDurationSecs),
+            users,
+            size,
+            checksum,
+          ]);
+        })
+      );
+    } catch (error) {
+      console.log(error);
+    }
   }
 }
 
