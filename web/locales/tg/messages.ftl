@@ -165,14 +165,14 @@ tw = Тви
 ty = Таҳитӣ
 uby = Убихӣ
 udm = Удмуртӣ
-ug = Ӯйғурӣ
+ug = Уйғурӣ
 uk = Украинӣ
 ur = Урду
 uz = Ӯзбекӣ
 vec = Венетсиягӣ
 vi = Ветнамӣ
 vot = Вотӣ
-yi = Идишӣ
+yi = Идиш
 yo = Ёруба
 yue = Кантонӣ
 zh-CN = Хитоӣ (Чин)
@@ -388,8 +388,6 @@ about-yes-votes = ≥ 2 овози «Ҳа»
 about-no-votes = ≥ 2 овози «Не»
 about-dataset-new = Маҷмӯаи маълумоти «Common Voice»
 about-dataset-new-text = Маҷмӯаи маълумоти «Common Voice» садҳо ҳазор намунаҳои овозиро дар бар мегирад, ки ба таҳиягарон дар сохтани асбобҳои садошиносӣ кумак мекунанд.
-about-partners = Шарикон
-about-become-a-partner = Шарик шавед
 about-get-involved = Ҳамроҳ шудан
 about-nav-why-common-voice = Чаро?
 about-nav-how-it-works = Чӣ тавр?
@@ -424,8 +422,6 @@ about-playbook-how-grow-language-content-2 = Рӯйдодҳо
 
 ## How are decisions made
 
-mycroft-title = Mycroft Ai
-mycroft-subtitle = Зеҳни сунъӣ
 
 ## Glossary
 

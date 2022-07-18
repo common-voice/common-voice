@@ -3587,6 +3587,7 @@ Da haben sie ihn auf dem falschen Fuß erwischt.
 Da haben wir den Bandsalat!
 Da haben wir den Übeltäter.
 Da haben wir die Bescherung!
+Da haben wir schon wieder Montag.
 Da habt ihr es gehört.
 Da habt ihr etwas zu tun.
 Da halte dich an den Adolf, das ist eine gute Partie.
@@ -3774,6 +3775,7 @@ Da sollte Hanna mal einen Blick drauf werfen.
 Da sollte man schon genau drauf achten.
 Da staunt sogar der Fuchs.
 Da steckt bestimmt eine richtig gute Idee dahinter.
+Da steckt man nicht drin.
 Da steht zwar Bosch drauf, es kommt aber trotzdem aus China.
 Da steht zwar ab achtzehn, aber eigentlich ist das Spiel ganz harmlos.
 Da stellen sich meine Nackenhaare hoch.
@@ -4459,7 +4461,9 @@ Daraus werde ich nicht schlau.
 Darf der Wechselrichter per Schuko-Stecker angeschlossen werden?
 Darf er das überhaupt?
 Darf es auch etwas kosten?
+Darf es ein bischen mehr sein?
 Darf es etwas mehr sein?
+Darf es noch etwas sein?
 Darf es sonst noch etwas sein?
 Darf ich Ihnen den Mantel abnehmen?
 Darf ich Ihnen unser neues Staubsaugermodell vorführen?
@@ -5408,6 +5412,7 @@ Das ist die sauberste Männer-Wohngruppe, die ich je gesehen habe!
 Das ist die unbestreitbare Logik eines Quantenphysikers.
 Das ist diese Art von Büchern, die man einmal kauft und dann nie liest.
 Das ist doch Pillepalle.
+Das ist doch Wunschdenken!
 Das ist doch albern!
 Das ist doch alles Schmarn.
 Das ist doch alles Schmarrn.
@@ -6315,6 +6320,7 @@ Deine Umarmung hat mir gut getan.
 Deine Vorstellung ist durchaus zutreffend.
 Deine Zimmerpflanze führt aber ein trauriges Dasein.
 Deine Zöglinge kasperten ausgelassen herum.
+Deine fruchtbare Erscheinung beeindruckt mich zutiefst.
 Deine große Stiefschwester ist ein heißes Eisen!
 Deine kleine Tochter hat dich gut im Griff.
 Deine kleine Tochter lässt dich nach ihrer Pfeife tanzen.
@@ -11131,6 +11137,7 @@ Ein schrilles Auftreten ist praktisch Voraussetzung, um Aufmerksamkeit zu bekomm
 Ein schwarzer Schwan der Fische füttert.
 Ein schwerer Unfall konnte so vermieden werden.
 Ein schöner Tausch.
+Ein schönes Wochenende wünsche ich Ihnen.
 Ein sehenswertes Schauspiel, muss ich sagen.
 Ein sehr berühmter Video-Blogger hörte plötzlich auf Videos hochzuladen.
 Ein sehr berühmter Video-Blogger hörte plötzlich auf, Videos hochzuladen.
@@ -11488,8 +11495,10 @@ Einen klitzekleinen Moment noch!
 Einen ordentlich verschlossenen Briefumschlag muss man zerstören, um ihn zu öffnen.
 Einen schlechteren Eindruck könnte man kaum hinterlassen.
 Einen schönen Genitiv haben Sie da gebildet!
+Einen schönen Start in die Woche wünsche ich Ihnen.
 Einen schönen Tag noch.
 Einen schönen Tag wünsche ich Ihnen!
+Einen schönen Tag wünsche ich Ihnen.
 Einen schönen Tag wünsche ich ihnen.
 Einen seiner Kollegen haben sie eingebuchtet.
 Einen tollen Blazer hast du da!
@@ -12979,6 +12988,7 @@ Es waren mindestens hundert Leute an der Beisetzung.
 Es waren noch einige kleine Fehler in der Arbeit.
 Es waren zu viele Nebengeräusche in der Aufnahme.
 Es weiß sofort jeder, was gemeint ist.
+Es werde Licht, sagte das fliegende Spaghettimonster.
 Es werden die Routen berechnet, bewertet und die besten empfohlen.
 Es werden immer wieder Dinge dort abgestellt.
 Es werden wieder Tiernamen vergeben.
@@ -26331,6 +26341,7 @@ Schönes Ding!
 Schönes Neues Jahr.
 Schönes Wochende.
 Schönes Wochenende euch allen.
+Schönes Wochenende.
 Schönheit braucht eben Platz.
 Schüchternheit hingegen ist davon abzugrenzen.
 Schüler muss man fördern und fordern.
@@ -29328,6 +29339,7 @@ Und so schnell wird ein einfacher Mann zum Nationalhelden hochstilisiert.
 Und so sieht man das Ureichhörnchen auf einer Eisscholle dahintreiben.
 Und so stehen sie da mit scheinbar weißer Weste.
 Und so verstaubt es dann im Bücherregal.
+Und so wurde das Universum erschaffen.
 Und so wurde er vom Kammersänger zum Kammerjäger.
 Und solche mit klischeehaftem Happy End sind auch schlimm.
 Und sollte eine Beziehung in die Brüche gehen, steht der nächste Partner schon Schlange.
@@ -32017,6 +32029,7 @@ Wenn du es noch nie gespielt hast, würde ich dir das Tutorial empfehlen.
 Wenn du es überlebst, dann ja.
 Wenn du fertig bist, dann springst du los.
 Wenn du im Traum eine Katze streichelst, streichelst du im echten Leben eine Katze.
+Wenn du kommst, gehe ich.
 Wenn du mal Waffen oder anderes Zeug brauchst, ruf mich an!
 Wenn du mal zu Besuch bist, schau unbedingt in die "Historische Wurstküche".
 Wenn du mich fragst brauchen wir eine größere Küche.

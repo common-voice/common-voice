@@ -125,10 +125,12 @@ my = birmà
 myv = erzya
 nan-tw = taiwanès (min nan)
 nb-NO = Bokmål noruec
+nd = IsiNdebele septentrional
 ne-NP = nepalès
 nia = nias
 nl = neerlandès
 nn-NO = noruec nynorsk
+nr = IsiNdebele meridional
 nso = sotho del nord
 nyn = nyankole
 oc = occità
@@ -158,6 +160,7 @@ sl = eslovè
 so = somali
 sq = albanès
 sr = serbi
+ss = siswati
 st = sesotho
 sv-SE = suec
 sw = suahili
@@ -170,6 +173,7 @@ ti = tigrinya
 tig = tigre
 tk = turcman
 tl = tagal
+tn = setswana
 tok = toki pona
 tr = turc
 ts = xitsonga
@@ -186,12 +190,14 @@ ve = tshivenda
 vec = vènet
 vi = vietnamita
 vot = vòtic
+xh = xhosa
 yi = ídix
 yo = ioruba
 yue = cantonès
 zh-CN = xinès (Xina)
 zh-HK = xinès (Hong Kong)
 zh-TW = xinès (Taiwan)
+zu = zulu
 
 # [/]
 
@@ -319,7 +325,6 @@ shortcut-discard-ongoing-recording-label = Descarta l'enregistrament en curs
 shortcut-submit = Retorn
 shortcut-submit-label = Envia els talls
 request-language-text = No trobeu la vostra llengua al Common Voice?
-request-language-text-learn = Apreneu com sol·licitar-ho aquí!
 request-language-button = Sol·licita una llengua
 
 ## ProjectStatus
@@ -456,7 +461,9 @@ faq-why-different-speakers-a =
     La majoria de bases de dades de veu s'entrenen amb una sobrerepresentació  d'alguna característica demogràfica, això genera resultats amb biaix de <articleLink>gènere masculí i classe mitjana</articleLink>. Els accents i dialectes que habitualment són infrarepresentats en els conjunts de dades d'entrenament s'associen típicament amb persones que ja són marginades. Moltes màquines també tenen dificultat per entendre veus femenines.
     És per això que en la nostra base de dades de veu hi volem varietat!
 faq-why-my-lang-q = Per què encara no hi ha la meva llengua?
-faq-why-my-lang-new-a = Mozilla no tria ni afavoreix cap llengua sobre una altra. Al contrari: el Common Voice és una iniciativa impulsada exclusivament per la comunitat, però calen <multilangLink>diversos passos per afegir una llengua</multilangLink> i començar a recollir donacions de veu. En primer lloc, cal traduir el lloc web del Common Voice perquè els membres de la comunitat puguin accedir a l'experiència de col·laborador en la seva llengua. A continuació, necessitem una gran col·lecció de frases lliures de drets d'autor perquè la gent pugui llegir-les en veu alta. Una vegada que es compleixin tots dos requisits, s'afegeix la llengua al Common Voice perquè la gent pugui començar a enregistrar la veu i validar les donacions d'altri. Si voleu ajudar a afegir una llengua, dirigiu-vos a l'<sentenceCollectorLink>eina de recollida de frases</sentenceCollectorLink> per començar.
+faq-why-my-lang-a =
+    El Common Voice és una plataforma col·laborativa, i totes les llengües van ser afegides per voluntaris.
+    Ens encantaria que afegíssiu la vostra llengua! <languageRequestLink>Demaneu-nos per a afegir la vostra llengua.</languageRequestLink>
 faq-what-quality-q = Quin nivell de qualitat d'àudio ha de tenir un tall de veu per poder-lo usar en el conjunt de dades?
 faq-what-quality-a = Volem que el conjunt de dades del Common Voice reflecteixi la qualitat de l’àudio que un motor de veu a text sentirà en un entorn real, de manera que cerquem varietat. A més d'una comunitat plural de locutors, un conjunt de dades amb qualitat d'àudio variable permetrà entrenar el motor de veu a text a gestionar situacions diferents del món real, des de veus de fons fins al soroll del cotxe. Mentre que el  tall de veu sigui intel·ligible, hauria de ser prou bo per al conjunt de dades.
 faq-why-10k-hours-q = Per què hi ha l'objectiu de 10.000 hores validades d'enregistrament d'àudio per a cada llengua?
@@ -526,12 +533,6 @@ about-dataset-new = Conjunt de dades del Common Voice
 about-dataset-new-text = El conjunt de dades del Common Voice conté centenars de milers de mostres de veu que ajuden els desenvolupadors a crear eines de reconeixement de veu.
 about-clip-graveyard = Cementiri de talls
 about-clip-graveyard-text = El cementiri de talls inclou els talls de veu que no han entrat al conjunt de dades del Common Voice. Igual que el conjunt de dades, el cementiri de talls també es pot descarregar.
-about-partners = Socis
-about-become-a-partner = Feu-vos soci
-about-partnership =
-    El Common Voice és un projecte col·laboratiu i depenem de la comunitat de socis i col·laboradors per crear el conjunt de dades de veu lliure més gran que s'hagi fet mai.
-    
-    Volem agrair les persones i organitzacions següents per la seva ajuda en el projecte:
 about-get-involved = Col·laboreu-hi
 about-get-involved-text-2 =
     Voleu ajudar a millorar el Common Voice?
@@ -559,9 +560,19 @@ about-playbook-what-is-language-content-3 = Algunes llengües tenen una gran var
 
 about-playbook-how-add-language = Com puc afegir una llengua?
 about-playbook-how-add-language-content-1 = Primer, comproveu si la vostra llengua <languageLink>ja existeix</languageLink>. Si no és així, heu de <strong>traduir el lloc i recollir-ne frases</strong>.
-about-playbook-how-add-language-content-2 = <strong>Per a traduir el lloc web</strong>: <translateVideo>registreu-vos</translateVideo> a <pontoonLink>Pontoon</pontoonLink>. Pontoon té moltes llengües, però si no en té la vostra, podeu <pontoonRequestLink>sol·licitar-la</pontoonRequestLink>. A continuació, demaneu a <repoLink>mitjançant GitHub</repoLink> que el projecte Common Voice estigui disponible per a la vostra llengua. Vegeu més a la <localizationFragment>traducció del lloc web</localizationFragment>.
-about-playbook-how-add-language-content-3 = <strong>Per a recollir frases</strong>: <scVideo>registreu-vos</scVideo> al <scLink>Sentence Collector</scLink>.
-about-playbook-how-add-language-content-4 = Podeu un <scLinkAdd>nombre petit</scLinkAdd> de frases aquí, o podeu fer <bulkImportDocsLink>importacions massives</bulkImportDocsLink> mitjançant una sol·licitud de Github. Recordeu que les frases han de ser <licenseLink>CC0 (o domini públic)</licenseLink>, o bé podeu escriure'n de pròpies. Vegeu més en la <scFragment>col·lecció de frases</scFragment>.
+about-playbook-how-add-language-translating-heading = Traduint el lloc
+about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Vegeu la guia sobre com usar Pontoon.</translateVideoLink>
+about-playbook-how-add-language-translating-content-2 =
+    Utilitzem una eina de Mozilla anomenada <pontoonLink>Pontoon</pontoonLink> per a les traduccions. Pontoon té moltes llengües, però si no té la vostra, podeu <pontoonRequestLink>sol·licitar que s'hi afegeixi</pontoonRequestLink>.
+    A continuació, per a fer que la llengua estigui disponible en el projecte Common Voice,
+    <githubRepoLink>demaneu la llengua a GitHub</githubRepoLink>. <localizationFragment>Vegeu més informació sobre la traducció del lloc</localizationFragment>.
+about-playbook-how-add-language-collecting-sentences-heading = Recollint frases
+about-playbook-how-add-language-collecting-sentences-content-1 = .<sentenceCollectorVideo>Vegeu la guia d'ús del Sentence Collector</sentenceCollectorVideo>
+about-playbook-how-add-language-collecting-sentences-content-2 =
+    Podeu <sentenceCollectorLinkAdd>afegir un petit nombre de frases</sentenceCollectorLinkAdd>,
+    o podeu fer <bulkImportDocsLink>importacions massives mitjançant Github</bulkImportDocsLink>.
+    Recordeu que les frases han de ser <licenseLink>CC0 (o domini públic)</licenseLink>, o també podeu escriure'n.
+about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>Vegeu més sobre el recull de frases</sentenceCollectorFragment>.
 
 ## How does localization work
 
@@ -625,12 +636,6 @@ about-playbook-how-project-governance-content-4 = Participació comunitària i p
 about-playbook-how-project-governance-content-5 = Valor i reconeixement.
 about-playbook-how-project-governance-content-6 = Responsabilitat mútua.
 about-playbook-how-project-governance-content-7 = <governanceLink>Llegiu més sobre com ens governem</governanceLink>
-mycroft-title = Mycroft Ai
-mycroft-subtitle = Intel·ligència artificial
-mycroft-description =
-    El Mycroft és el primer assistent de codi obert mai creat.
-    Funciona a tot arreu: en l’ordinador, en el cotxe i en la Raspberry Pi.
-mycroft-secondary-description = Això és programari lliure que es pot remesclar, ampliar i millorar. El Mycroft es pot usar en qualsevol lloc, des d'un projecte científic fins a una aplicació d'una empresa.
 
 ## Glossary
 
@@ -830,7 +835,8 @@ language-search-input =
 language-speakers = Locutors
 localized = Traducció
 sentences = Frases
-total-hours = Hores
+language-validation-hours = Hores
+language-validation-progress = Progrés de validació
 
 ## Contribution
 

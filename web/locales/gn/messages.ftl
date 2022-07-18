@@ -807,6 +807,10 @@ request-language-success-heading = ¡Aguyje! Emondo ñe’ẽ rehegua porandu
 request-language-success-list-1 =
     Og̃uahẽta ndéve peteĩ ñanduti veve omyesakãtava
     mba’éichapa embojuajúta ne ñe’ẽ Common Voice ndive
+request-language-success-list-2 =
+    Ore ñangarekohára tekohagua oñe’ẽta nendive oikuave’ẽ potávo
+    ñepytyvõve, ha oikuaauka hag̃ua oĩmapa
+    peteĩ avano’õ omba’apóva ne ñe’ẽ rehe
 request-language-success-list-3 =
     ¡Nog̃uahẽiramo ndéve ore marandu ndahetái ára rire,
     eñe’ẽ <emailLink>{ $email }</emailLink>
