@@ -977,6 +977,7 @@ download-recordings-title = ئۈن خاتىرىسى
 download-size = چوڭلۇقى
 download-selected = تاللانغان
 download-start = ئارخىپ ئۇچۇرىنى چۈشۈرۈش
+download-request = خاتىرىلەشنى سوراش
 download-request-button = چۈشۈر
 download-request-title = { $created }
 download-request-assembling-description = ماتىرياللىرىڭىز رەتلىنىۋاتىدۇ، سەل تۇرۇپ قايتا سىناڭ.
