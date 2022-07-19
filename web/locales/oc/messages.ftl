@@ -14,6 +14,8 @@ email-opt-in-info-sub-with-challenge = Recebètz de corrièls coma de desfisses 
 email-opt-in-privacy-v2 = En acceptar de recebre los corrièls, indicatz acceptar que Mozilla gerisca aquestas informacions segon la <privacyLink>politica de confidencialitat</privacyLink> de Mozilla.
 indicates-required = * indica un camp obligatòri
 not-available-abbreviation = Non disponible
+banner-error-slow-link = Estat del projècte
+error-something-went-wrong = I a quicòm que truca
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -38,6 +40,7 @@ be = Bielorús
 bg = Bulgar
 bn = Bengali
 br = Breton
+bs = Bosnian
 bxr = Burma
 ca = Catalan
 cak = Kaqchikel
@@ -77,6 +80,7 @@ hy-AM = Armèni
 hyw = Armèni occidental
 ia = Interlingua
 id = Indonesian
+ie = Interlingua
 is = Islandés
 it = Italian
 izh = Ingrian
@@ -91,10 +95,12 @@ ko = Corean
 kpv = Komi-Zyrian
 kw = Cornic
 ky = Quirguiz
+lb = Luxemborgés
 lg = Luganda
 lij = Ligur
 lt = Lituanian
 lv = Leton
+mai = Maithili
 mdf = Moksha
 mg = Malgach
 mhr = Meadow Mari
@@ -925,6 +931,7 @@ sc-my-source = Font : { $source }
 
 ## PROFILE
 
+sc-personal-remove-button = levar
 
 ## REVIEW CRITERIA
 
@@ -934,6 +941,10 @@ sc-my-source = Font : { $source }
 
 ## SETTINGS
 
+sc-settings-title = Paramètres
+sc-settings-ui-language = Lenga de l’interfàcia
 
 # [/SentenceCollector]
 
+localization-select =
+    .label = Causissètz la lenga/varianta
