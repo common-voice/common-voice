@@ -36,7 +36,6 @@ ba = Bashquir
 bas = Basaa
 be = Bielorús
 bg = Bulgar
-bm = Bambara
 bn = Bengali
 br = Breton
 bxr = Burma
@@ -351,26 +350,17 @@ skip-submission-description = Lo mandadís de comentaris serà desactivat aprèp
 skip-submission-note = Nòta : vos cal encara causir entre Parlar o Escotar per modificar vòstre tipe de contribucion.
 off = Desactivat
 on = Activat
-avatar-clip-title = Donatz una votz a vòstre avatar
-change-your-avatar-clip = Volètz cambiar vòstra mòstra de votz ?
-recording-in-progress = Enregistrament de votz en cors
-avatar-clip-recorded = Vòstre avatar inclutz ara una mòstra de votz !
-record-voice-wave = ENREGISTRAR VÒSTRA PRESENTACION
-retry-voice-wave-recording = TORNAR FAR
-re-record = TORNAR ENREGISTRAR
-delete-voice = SUPRIMIR
-recording-voice-wave = Enregistrament
-delete-voice-clip = o Suprimir vòstra mòstra de votz
-ready-to-upload = ENVIAR
-avatar-clip-fact = Es un fach ben conegut qu'un lector serà distrach pel contengut legible d'una pagina quand examinarà sa mesa en pagina.
-recreate-voice = Tornar crear vòstra mòstra de votz
-cancel-avatar-clip-recording = ANULLAR
-about-avatar-clip-recording = Creatz una mòstra per vòstra avatar. Las autras personas poiràn escotar vòstra mòstra en passant lor cursor dessús.
+
+## Profile - Email
+
 browse-file-title = Enviar un imatge
 browse-file = Lissatz-depausatz o <browseWrap>Percorrètz</browseWrap>
 connect-gravatar = Connectatz-vos amb Gravatar
 gravatar_not_found = Cap de gravatar pas trobat per vòstra adreça electronica
 file_too_large = Lo fichièr seleccionat es tròp pesuc
+
+## Profile - Email
+
 manage-subscriptions = Gerir las abonaments
 manage-email-subscriptions = Gerir los abonaments als corrièls
 email-already-used = Aquesta adreça electronica es ja utilizada per un autre compte
@@ -404,7 +394,6 @@ faq-why-different-speakers-a =
     La majoria de las basas de donadas s’entrenan amb una sobrerepresentacion d’unas caracteristicas demograficas que generan un biais en favor dels  <articleLink>òmes de la classa mejana</articleLink>. Los accents e los dialèctes que son generalament josrepresentats dins los jòcs de donadas son associats amb de grops de de personas que son ja marganalizadas. Mantunas maquinas an de problèmas per comprendre las voses femeninas.
     Aquò explica perque volèm de diversitat dins nòstre jòc de donadas !
 faq-why-my-lang-q = Perque i a pas encara ma lenga ?
-faq-why-my-lang-new-a = Mozilla causís pas o favorís cap de lenga. A la plaça, Common Voice es una iniciativa menada per la comunautat, mas demanda <multilangLink>mantunas etapas per apondre una lenga novèla</multilangLink> e començar a collectar de don de voses. D’en primièr, cal traduire lo site Common Voice per que los membres de la comunautat pòscan accedir a l’interfàcia pels contributors dins lor lenga. Aprèp, nos cal una brava colleccion de frasas liura de drech a far prononciar al monde. Un còp aquesta doas causas realizadas una lenga es « lançada » sus Common Voice per que lo monde comencen d’enregistrar lor votz e validar çò dels autres. Se volètz ajudar a lançar una lenga novèla, anatz a <sentenceCollectorLink>l’aisina de recuèlh de frasas</sentenceCollectorLink> per començar.
 faq-what-quality-q = Quin nivèl de qualitat àudio deu aver una mòstra de votz per èsser utilizada dins la basa de donadas ?
 faq-what-quality-a = Volèm que lo jòc de donadas Common Voice rebata la qualitat audio qu'un sistèm de reconeissença vocala rescontrarà dins la realitat, nos cal donc de diversitat. En mai d'una comunautat que representa una larga diversitat de locutors, un jòc de donadas amb una qualitat sonora variabla permetrà d'aprene al motor de reconeissença vocala cossí s'adaptar dins diferentas situacions de la vida reala, que siá amb de conversacions en rèire-plan o amb lo bruch d'una veitura. Del moment que vòstre voice clip es intelligible, deuriá èsser convenable pel jòc de donadas.
 faq-why-10k-hours-q = Perqué l’objectiu es de 10 000 oras validadas per lenga ?
@@ -435,12 +424,10 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Perqué Common Voice ?
-about-subtitle = Common Voice fa part de l’initiativa de Mozilla per ajudar a aprendre a las maquinas cossí lo monde parla. En mai del jòc de donadas de Common Voice, construissèm un motor de reconeissença vocal liure apelat Deep Speech.
-about-header-description =
-    Aquestes dos projèctes fan partida de nòstres esfòrces per reduire las inegalitats dins lo mond de la votz digitala. Las tecnologias de reconeissença vocala porgisson una dimension umana a nòstres aparelhs, mas los desvolopaires an besonh d'una quantitat importanta de donadas vocalas per las concebre. Actualament, la màger part d'aquelas donadas son costosas e proprietàrias.
-    Volèm que las donadas vocalas sián liuras e publicas, e garantir que las donadas representen la diversitat de las personas realas. Amassa, podèm melhorar la reconeissença vocala per totòm.
-how-does-it-work-title = Cossí fonciona ?
 how-does-it-work-text = Cridam a la participacion collectiva per constituir un jòc de donadas liure. Donatz vòstra votz, validatz la precision de las mòstras d’autras personas, melhoratz lo jòc de donadas per tot lo monde.
+
+## How does it work section
+
 about-speak = Parlar
 about-speak-text = Los contributors enregistran de mòstras de votz en legir de frasas d’una basa de frasas donadas.
 about-listen-queue = Fila d’escotat
@@ -457,12 +444,6 @@ about-dataset-new = Jòc de donadas de Common Voice
 about-dataset-new-text = Lo jòc de donadas Common Voice conten centenas de mòstras vocalas per ajudar als desvolopaires a crear d’aplicacions vocalas.
 about-clip-graveyard = Cimentèri de mòstras
 about-clip-graveyard-text = Lo cementeri de mòstra inclutz de mòstras vocalas que son pas dintradas al jòc de donadas de Common Voice. Coma aqueste, òm pòt lo telecargar.
-about-partners = Sòcis
-about-become-a-partner = Venir sòci
-about-partnership =
-    Common Voice es un projècte collabaratiu e dependem de nòstra communitat de sòcis e collaborators per crear lo jòc de donadas de votz liure mai grand pas jamai fach.
-    
-    Volriam mercejar las personas e organizacions seguenta per lor ajuda sul projècte :
 about-get-involved = Participar
 about-get-involved-text-2 =
     Volètz ajudar a melhorar Common Voice ?
@@ -472,12 +453,34 @@ about-nav-why-common-voice = Perque ?
 about-nav-how-it-works = Cossí ?
 about-nav-partners = Sòcis
 about-nav-get-involved = Participar
-mycroft-title = Mycroft Ai
-mycroft-subtitle = Intelligéncia artificiala
-mycroft-description =
-    Mycroft es lo primièr assistent liure del monde.
-    Mycroft fonciona pertot : sus un ordenador, dins una veitura o sus un Raspberry Pi.
-mycroft-secondary-description = Aquò es un logicial liure que se pòt remesclar, desvelopar e melhorar. Mycroft pòt èsser utilizat dins totes los domenis, del projècte scientific al logicial d’entreprisa.
+
+## Community Playbook Content
+## What is a language
+
+
+## How do I add a language
+
+
+## How does localization work
+
+
+## How to add sentences
+
+
+## How to record quality
+
+
+## How to grow language
+
+
+## How to validate
+
+
+## How to access dataset
+
+
+## How are decisions made
+
 
 ## Glossary
 
@@ -513,6 +516,8 @@ data-other-goto = Veire { $name }
 data-other-download = Telecargar las donadas
 data-bundle-button = Telecargar lo paquet del jòc de donadas
 data-bundle-description = Donadas de Common Voice e totes los jòcs de donadas çai-jos.
+release-version = Version
+dataset-date = Data
 license = Licéncia : <licenseLink>{ $license }</licenseLink>
 license-mixed = Mixta
 data-download-singleword-title = Telecargar lo segment cibla de mot unic
@@ -530,6 +535,7 @@ review-delete-recordings = Suprimir mos enregistraments
 
 ## Datasets Page
 
+datasets-heading = Jòcs de donadas
 datasets-headline = Sèm a crear un jòc de donadas vocalas liure que tot lo monde pòt utilizar per entrenar d’aplicacions utilizan la reconeissença vocala.
 datasets-positioning =
     Pensam que metre de grands jòcs de donadas a la disposicion de totòm favoriza l'innovacion e una concurréncia sana per las tecnologias qu'utilizan la votz e que son basadas sus l'aprendissatge automatic.
@@ -564,8 +570,6 @@ subscribe = S’abonar
 get-started-speech = Introduccion a la reconeissença vocala
 other-datasets = Autres jòcs de donadas
 feedback-q = Avètz de suggestions ?
-deepspeech-info = Lo jòc de donadas de Common Voice de Mozilla es un complementari al motor de reconeissença vocala Deep Speech, que podètz utilizar per crear d’aplicacions de reconeissença vocala. Consultatz nòstre <githubLink>apercebut sus GitHub</githubLink> o visitatz nòstre <discourseLink>Discourse DeepSpeech</discourseLink> per obténer d’informacions per ben començar.
-common-voice-info-new = Avètz de questions tocant Common Voice ? D’idèas de melhoraments o comentaris sus una lenga en particular ? Trapatz-nos sus nòstre <discourseLink>forum Discourse</discourseLink> e avisatz-nos.
 data-other-librispeech-description = LibriSpeech es un còpus de quicòm coma 1000 oras de lectura en anglés ( 16 Khz ) derivat de la lectura d’audiolibres del projècte LibriVox.
 data-other-ted-name = Corpus TED-LIUM
 data-other-ted-description = Lo còrpus TED-LIUM es bastit amb de dialogues e lor transcripcions disponiblas sul site TED.
@@ -610,6 +614,16 @@ request-language-success-content = Vos contactarem lèu lèu amb mai d’informa
 select-language = Seleccionatz una lenga...
 other-language = Autra lenga
 
+## Request Language Pages
+
+request-language-heading = Demandar l’apondon d’una lenga
+request-language-form-email =
+    .label = Vòstra adreça electronica
+request-language-form-info =
+    .label = Entresenhas a prepaus de la lenga
+request-language-form-info-explanation-list-1 = Noms de vòstra lenga
+request-language-form-info-explanation-list-2 = <isoCodeLink>Codis ISO</isoCodeLink> se conegut
+
 ## Languages Overview
 
 language-section-in-progress = En cors
@@ -625,7 +639,7 @@ language-search-input =
 language-speakers = Locutors
 localized = Traduccion
 sentences = Frasas
-total-hours = Oras validadas
+language-validation-hours = Oras
 
 ## Contribution
 
@@ -811,6 +825,17 @@ why-delete-recordings =
     Poiriatz-nos indicar per qué volètz suprimir vòstres enregistraments ?
 profile-form-delete = Suprimir lo perfil
 
+## Profile Download
+
+download-profile-title = Perfil
+download-recordings-title = Enregistraments
+download-size = Talha
+download-selected = Seleccionat
+download-request-button = Telecargar
+download-request-title = { $created }
+download-request-refresh-button = Actualizar
+download-request-link-text = ZIP num. { $offset } de { $total }
+
 ## Landing
 
 welcome-staff = Benvenguda al personal de { $company } !
@@ -821,9 +846,15 @@ read-more-about = Per ne saber mai anatz a la pagina A prepaus
 
 ## DemoLayout
 
+demo-get-started = Comencem
+demo-welcome = La benvenguda a Common Voice
 
 ## Demo Datasets
 
+card-button-next = Seguent
+card-button-back = Tornar
+demo-language-select-label = Explorar las lengas
+demo-account = Compte
 
 ## Demo Account
 
@@ -832,4 +863,77 @@ read-more-about = Per ne saber mai anatz a la pagina A prepaus
 
 
 ## Demo Dashboard
+
+
+## Validation criteria
+
+contribution-for-example = per exemple
+
+# Don't rename the following section, its contents are auto-inserted based on the name. These strings are
+# automatically exported from Sentence Collector.
+# [SentenceCollector]
+
+
+## HEADER/FOOTER
+
+sc-header-home = Acuèlh
+sc-header-how-to = Cossí far
+sc-header-add = Apondre
+sc-header-review = Verificacion
+sc-header-profile = Perfil
+sc-footer-privacy = Vida privada
+sc-footer-terms = Condicions
+sc-footer-cookies = Cookies
+sc-login-signup-button = Se connectar / S’inscriure
+sc-logout-button = Desconnexion
+
+## HOME
+
+
+## GENERAL
+
+
+## HOW-TO
+
+
+## MY SENTENCES
+
+# Variables:
+#   $source (String) - Associated source the user filled out when uploading the sentence
+sc-my-source = Font : { $source }
+
+## REJECTED
+
+
+## STATS
+
+
+## ADD
+
+
+## ADD LANGUAGE
+
+
+## ADD SENTENCES CONFIRMATION
+
+
+## LANGUAGE INFO
+
+
+## LOGIN
+
+
+## PROFILE
+
+
+## REVIEW CRITERIA
+
+
+## REVIEW
+
+
+## SETTINGS
+
+
+# [/SentenceCollector]
 
