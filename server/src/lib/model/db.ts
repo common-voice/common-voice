@@ -984,6 +984,37 @@ export default class DB {
     return rows;
   }
 
+  async getAllDatasets(): Promise<Language[]> {
+    const [rows] = await this.mysql.query(
+      `SELECT *
+        FROM datasets l
+    `
+    );
+    return rows;
+  }
+
+  async getLanguageDatasetStats(languageId: number): Promise<Language[]> {
+    const [rows] = await this.mysql.query(
+      `SELECT *
+        FROM locale_datasets ld
+        JOIN datasets d ON d.id = ld.dataset_id
+        where ld.locale_id = ?
+    `,
+      [languageId]
+    );
+    return rows;
+  }
+
+  async getAllLanguagesWithDatasets(): Promise<Language[]> {
+    const [rows] = await this.mysql.query(
+      `SELECT DISTINCT l.name, l.id
+        FROM locale_datasets ld
+        JOIN locales l ON l.id = ld.locale_id 
+    `
+    );
+    return rows;
+  }
+
   async getRequestedLanguages(): Promise<string[]> {
     const [rows] = await this.mysql.query(
       'SELECT language FROM requested_languages'

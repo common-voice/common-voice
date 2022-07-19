@@ -114,6 +114,10 @@ export default class API {
     router.get('/languages', this.getAllLanguages);
     router.get('/stats/languages/', this.getLanguageStats);
 
+    router.get('/datasets', this.getAllDatasets);
+    router.get('/datasets/languages', this.getAllLanguagesWithDatasets);
+    router.get('/datasets/languages/:languageId', this.getLanguageDatasetStats);
+
     router.post('/newsletter/:email', this.subscribeToNewsletter);
 
     router.post('/:locale/downloaders', this.insertDownloader);
@@ -179,6 +183,24 @@ export default class API {
 
   getAllLanguages = async (_request: Request, response: Response) => {
     response.json(await this.model.getAllLanguages());
+  };
+
+  getAllDatasets = async (_request: Request, response: Response) => {
+    response.json(await this.model.getAllDatasets());
+  };
+
+  getLanguageDatasetStats = async (request: Request, response: Response) => {
+    const {
+      params: { languageId },
+    } = request;
+    response.json(await this.model.getLanguageDatasetStats(+languageId));
+  };
+
+  getAllLanguagesWithDatasets = async (
+    _request: Request,
+    response: Response
+  ) => {
+    response.json(await this.model.getAllLanguagesWithDatasets());
   };
 
   getLanguageStats = async (request: Request, response: Response) => {

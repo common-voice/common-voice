@@ -210,6 +210,30 @@ export default class Model {
     DAY
   );
 
+  getAllDatasets = lazyCache(
+    'get-all-datasets1',
+    async (): Promise<any[]> => {
+      return await this.db.getAllDatasets();
+    },
+    1
+  );
+
+  getLanguageDatasetStats = lazyCache(
+    'get-all-language-dataset-stats',
+    async (languageId: number): Promise<any[]> => {
+      return await this.db.getLanguageDatasetStats(languageId);
+    },
+    1
+  );
+
+  getAllLanguagesWithDatasets = lazyCache(
+    'get-all-language-datasets1',
+    async (): Promise<any[]> => {
+      return await this.db.getAllLanguagesWithDatasets();
+    },
+    1
+  );
+
   getLocalizedPercentages = lazyCache(
     'get-localized-percentages',
     async (): Promise<any> => fetchLocalizedPercentagesByLocale(),
