@@ -196,7 +196,7 @@
       "validHrs": 7.81
     },
     "ar": {
-      "duration": 71301762451,
+      "duration": 21536280,
       "reportedSentences": 16,
       "clips": 5202,
       "users": 35,
@@ -244,7 +244,7 @@
       "validHrs": 4.99
     },
     "eo": {
-      "duration": -6705988902,
+      "duration": 27847000,
       "reportedSentences": 13,
       "clips": 4593,
       "users": 43,
@@ -252,8 +252,8 @@
       "checksum": "2179bad54bb2b69cd12964bc2f6533b9538b7a3f943f9e65f8f9a463796fd901",
       "avgDurationSecs": 6.068,
       "validDurationSecs": 467,
-      "totalHrs": -434.44,
-      "validHrs": 442.34
+      "totalHrs": 7.74,
+      "validHrs": 0.13
     },
     "zh-CN": {
       "duration": 1255890492,
@@ -263,9 +263,9 @@
       "size": 7236025294,
       "checksum": "5862d3e55aaa507b62c6e81343bb17ae784a32c1a36e9facf4b2713ecb5da4ce",
       "avgDurationSecs": 4.603,
-      "validDurationSecs": -19192.42,
+      "validDurationSecs": 19192.42,
       "totalHrs": 348.86,
-      "validHrs": -5.33
+      "validHrs": 5.33
     },
     "id": {
       "duration": 3512736,
@@ -1085,6 +1085,7 @@
     },
     "mk": {
       "duration": 250452,
+      "reportedSentences": 0,
       "clips": 39,
       "users": 1,
       "size": 1477107,
@@ -1096,6 +1097,7 @@
     },
     "vot": {
       "duration": 0,
+      "reportedSentences": 0,
       "clips": 0,
       "users": 0,
       "size": 121,
@@ -1107,6 +1109,7 @@
     },
     "az": {
       "duration": 7344,
+      "reportedSentences": 0,
       "clips": 2,
       "users": 1,
       "size": 43779,
