@@ -486,6 +486,13 @@ export default class API {
     return this.fetch(`${API_PATH}/language/variants${lang ? '/' + lang : ''}`);
   }
 
+  getLanguagesWithDatasets() {
+    return this.fetch(`${API_PATH}/datasets/languages`);
+  }
+
+  getLanguageDatasetStats(languageId: number) {
+    return this.fetch(`${API_PATH}/datasets/languages/${languageId}`);
+  }
   async sendLanguageRequest({
     email,
     languageInfo,
