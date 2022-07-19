@@ -155,12 +155,14 @@ async function loadStatisticFiles(db) {
       await Promise.all(
         Object.keys(locales).map(async locale => {
           const localeId = localeIds[locale];
-          if (!localeId) {
-            throw new Error('No localeId found for ', locale);
+          if (!localeId || !locale) {
+            return;
+            // throw new Error('No localeId found for ', locale);
           }
 
           const stats = locales[locale];
-          const {
+
+          let {
             duration,
             validDurationSecs,
             avgDurationSecs,
@@ -169,14 +171,21 @@ async function loadStatisticFiles(db) {
             checksum,
           } = stats;
 
+          if (releaseType === RELEASE_TYPES.singleword) {
+            size = statistics.overall.size;
+            checksum = statistics.overall.checksum;
+          }
+
           return insertLocaleStats(db, [
             datasetId,
             localeIds[locale],
-            duration,
-            secondsToMilliseconds(validDurationSecs),
-            secondsToMilliseconds(avgDurationSecs),
+            duration <= 0 ? 0 : duration,
+            validDurationSecs <= 0
+              ? 0
+              : secondsToMilliseconds(validDurationSecs),
+            avgDurationSecs <= 0 ? 0 : secondsToMilliseconds(avgDurationSecs),
             users,
-            size,
+            size < 0 ? 0 : size, //no negatives
             checksum,
           ]);
         })
