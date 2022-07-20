@@ -3614,6 +3614,7 @@ Aquest és el cas del fermió.
 Aquest és el motiu de que cobrís la taca vermellosa.
 Aquest és el nostre programa, essencialment transitori.
 Aquest és el tarannà de l’heroi que defensa les Termòpiles.
+Aquest és es Sol i aquesta sa lluna
 Aquest és un llop amb pell d'ovella.
 Aquest ús no arrela fins a la influència de les cultures gregues i fenícia.
 Aquesta amanida és boníssima.
@@ -6490,6 +6491,7 @@ El senyor Esteve era un condemnat a tenir fortuna perpetua.
 El senyor Esteve parlà com parlava en aquests casos
 El senyor Joan rebufa com un bou.
 El senyor Manel és noble, de bon natural, reposat i molt ric.
+El senyor Ramon es va comprar una motoserra nova.
 El senyor del caragol, el faran amb tomaqueta, amb pebrera o amb fesol.
 El sergent ens donà cinc minuts de «instrucció»
 El servidor no respon.
@@ -9628,6 +9630,7 @@ Homes amb camisa blava i vella i pantalons de vellut negre
 Homes d'aire sospitós, que rondaven eternament per aquells barris.
 Homes dolents que no pagaven, amb homes sospitosos que devien
 Honradesa literària.
+Hora de dormir bona nit i tapa't
 Horaci li hauria dit: «Espera-t, que m'ho vui apuntar a la llibreta!»
 Horta de Sant Joan es troba a la Terra Alta
 Hostalric es troba a la Selva
@@ -9819,6 +9822,7 @@ I mentre em furgava el pensament
 I mentre l'escultor obeïa els consells savis del porter
 I mocadors anarquistes al coll
 I molt més les nits d'hivern en què ens sorprèn el jorn.
+I molts d'anys as qui fan festa
 I ningú em fa fora, xurro malparit!
 I no cal dir que va triomfar la voluntat de la diveta.
 I no em queixaria, com faig ara, que les coses van malament.
@@ -10135,6 +10139,7 @@ Ja estava cuita de passar-se d'esma l'escarpidor pels cabells.
 Ja estava cuita de pentinar-se a les palpentes.
 Ja estava decidit.
 Ja estava decidit. La meva sort ho volia.
+Ja estava fart de les seves mentides
 Ja estic una mica fart d'aquesta conya.
 Ja està amb això?
 Ja està feta la reserva.
@@ -13286,6 +13291,7 @@ M'agrada escriure frases.
 M'agrada fantasiejar.
 M'agrada fer mots encreuats.
 M'agrada la pintura, però més de dos pots ja m'embafen.
+M'agrada menjar coca amb tomàtiga
 M'agrada mirar els estels i observar els ocells.
 M'agrada mirar-te.
 M'agrada molt Antònia Font.
@@ -16144,6 +16150,7 @@ Quan aquestes dades siguen falses, seran segurament les falses solucions a un ve
 Quan arregle el vestidor m'emporte el ge pe essa, així, sé com tornar.
 Quan arribaran?
 Quan arribarà la comanda que he fet fa mitja hora?
+Quan arribis aparca davant ca nostra
 Quan arribà al barranc de l’Aigua, va agarrar el gosset de la cua.
 Quan complia un any, va veure obert el calaix dels quartos
 Quan contis contes compta quants contes contes.
@@ -18021,6 +18028,7 @@ Si us plau, engega l'ordinador.
 Si us plau, engega la calefacció.
 Si us plau, engega la ràdio.
 Si us plau, engega la televisió.
+Si us plau, no embrutis gaire el terra.
 Si us plau, quin és el teu nom i el teu de-ena-i?
 Si us plau, tanca el forn.
 Si us plau, tanca el llum de l'escala.
@@ -21125,6 +21133,7 @@ zoo: "ni furtant-nos els somnis, ni cremant la trinxera... callaran la fera"
 És un telèfon vint-i-quatre hores, l'atendran en qualsevol moment.
 És una acció inacceptable, tenint un bonic pessebre, tirar el pinso a l'estable.
 És una alegria normal perquè, per descomptat, consideres que és la seua obligació.
+És una al•lota molt guapa
 És una amant afalagadora.
 És una assegurança a tercers.
 És una bella cosa fer tremolar tothom i estar-ne segur!

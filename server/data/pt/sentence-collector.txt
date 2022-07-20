@@ -585,6 +585,7 @@ A computação traiçoeira é projetada para impor restrições aos usuários.
 A comunhão dos interesses apertou os laços da intimidade.
 A comunicação não verbal é, por vezes, mais significativa do que as palavras faladas.
 A concessão de vagas é irrevogável.
+A conclusão inverossímil da polícia militar
 A condenação é menos temível e mais segura.
 A condição está piorando
 A condição militar não vê nada mais que os perigos.
@@ -651,6 +652,7 @@ A defensoria pública do estado me ajudou muito
 A deflagração será realizada nos próximos dias
 A delinquência juvenil precisa ser combatida com igual rigor
 A dentista precisa aplicar anestesia antes de fazer o procedimento de remoção
+A depilação a laser visa impedir o crescimento de novos pelos
 A derrota de sete a um foi gravada na mente coletiva nacional.
 A descida de San Francisco foi uma torrente onde as ondas de pessoas rolaram.
 A descoberta de fontes termais levou à conclusão
@@ -968,6 +970,7 @@ A instituição financeira, se aceitar a operação, cobrará a conta designada 
 A instituição que é completamente inalterada em pessoal é o fóssil
 A integridade do gráfico reconstruído
 A inteligência artificial poderá erradicar a miséria
+A intenção era levar a narrativa de que "seria uma briga de bar"
 A interface era indecifrável.
 A internet está funcionando?
 A interposição do recurso paralisa o procedimento do procedimento.
@@ -977,6 +980,7 @@ A inveja quebra a bolsa.
 A inveja é a punição mais severa da inveja.
 A inveja é medida nos outros, mas atinge a si mesmo.
 A irmã Petra parou o quarto.
+A irrelevância da atitude ficou evidente
 A janela se abriu para fora.
 A jaqueta estava pendurada na parte de trás da cadeira larga.
 A jaqueta tinha um propósito? e o menino também.
@@ -1325,6 +1329,7 @@ A pauta não foi divulgada
 A paz começa quando a ambição termina.
 A paz do dia
 A paz mundial não é somente possível, mas inevitavelmente inelutável.
+A pedir o acompanhamento dos organismos internacionais
 A pedra que cai não pára no final do declive.
 A pedra, quando sai da minha mão, não sabe para onde vai.
 A penalidade se tornará firme no dia seguinte à notificação.
@@ -1503,6 +1508,7 @@ A reportagem era enganosa
 A república tem raízes mais profundas.
 A reserva abriga florestas subtropicais de folhas largas e florestas de coníferas montanianas.
 A reserva de óleo está secando.
+A resignação é um atributo que pode ser desenvolvido
 A resolução adotada pode ser seguida de acordo com as disposições destes Estatutos.
 A resolução pode ser contestada da maneira determinada na base oito.
 A resposta foi sempre a mesma.
@@ -1606,6 +1612,7 @@ A tarefa de hoje é escrever uma sinopse do romance recentemente publicado da Ta
 A tarefa dos governantes não é menos marcada.
 A tarefa está terminada!
 A tarefa é feita pelo cansado.
+A tatuadora identificou-se
 A taverna já era sua única casa.
 A taverna pouco se importava com ela.
 A taxa de aprendizagem deve ser pequena, próxima de zero.
@@ -1969,6 +1976,7 @@ Acreúna
 Actualmente, o horário de aula não pode encontrar as informações da turma.
 Acumular conexões empresariais e tecnologia
 Acusada de cumplicidade com o nazismo foge em dia de julgamento
+Acusou o sistema eleitoral de fraude sem demonstrar prova alguma
 Adacy da Silva de Assis
 Adalberto Aguiar Sobrinho
 Adalgisa Apolinario da Silva
@@ -4512,6 +4520,7 @@ Aspirador de pó
 Aspiremos elevarmo-nos a condições mais purificadas e saneadas
 Aspásia
 Assaré
+Assassinou o guarda municipal e tesoureiro do partido: um crime político
 Assaí
 Assegurar a todos a igualdade de condições para o acesso e a permanência
 Assemelha-se a uma bijuteria
@@ -6763,6 +6772,7 @@ Cipotânea
 Cipriano Sampa da Silva
 Cipó
 Circuito integrado
+Circundou todo o perímetro urbano
 Cirio Henrique de Andrade
 Cirlene Passos da Costa
 Cirlene Rocha Brasil
@@ -6963,6 +6973,7 @@ Coloque seu computador em um estojo bem fino.
 Coloque sua confiança em Deus
 Coloque um adesivo de tatuagem de primavera no braço
 Coloque um pouco de açúcar e saia.
+Coloque um pouco de detergente e faça espuma
 Coloque um saco no saco
 Coloque uma música do Doctor Prats para animá-los.
 Coloque água até cobrir.
@@ -6975,6 +6986,7 @@ Coloquei créditos no celular, de novo
 Colorado
 Colorado do Oeste
 Coluna
+Colunista de política afirmou se tratar de um crime de ódio
 Colíder
 Colômbia
 Colônia Leopoldina
@@ -7452,6 +7464,7 @@ Configuração do sistema.
 Configure bem o scanner, John.
 Confins
 Confira a previsão do tempo para hoje em São Bernardo do Campo.
+Confira as últimas notícias e análises
 Confira o câncer de pulmão
 Confirme conosco onde ir
 Confirme conosco para ir para a estação
@@ -7505,6 +7518,7 @@ Considere apenas os conceitos referentes às principais inovações?
 Considere as diferentes situações colocadas pelos idiomas em contato.
 Considere as potencialidades existentes.
 Considerei e coloquei no ar suas falas
+Considero-me idealista, e tenho propósitos firmes que me instam a contribuir
 Consiste em espaços abertos sem distribuição interna.
 Consiste em mostrar e armazenar corretamente.
 Consiste na realização dos exercícios físicos especificados no anexo dois desta Resolução.
@@ -8369,6 +8383,7 @@ Depois, pensei em fazer uma História dos Subúrbios
 Depois, repreendeu-a; disse-lhe que era imprudente andar por essas casas.
 Depositamos nossos interesses em nossos corações e seu comportamento afeta nossa existência.
 Deposto o ferido na cama, Garcia disse que era preciso chamar um médico.
+Depressa! Exclamou a frentista
 Depressa, ele está um pouco irritado.
 Deputado Irapuan Pinheiro
 Deputado diz que tornozeleira pode ter escuta
@@ -8760,6 +8775,7 @@ Dizem que é útil e é demonstrado todos os dias.
 Dizendo a verdade, você não precisa se lembrar de nada.
 Dizer que as comunas controlam o rei pressupõe duas coisas.
 Dizia que a hora mais escura da noite chegava logo antes do amanhecer.
+Diário do Centro do Mundo
 Diário macabro
 Diâmetro mínimo em ponta fina, sem casca, é de doze centímetros.
 Do Imaculado ao Natal, dezessete dias inteiros.
@@ -9873,6 +9889,7 @@ Ela não tinha um.
 Ela o machuca muito
 Ela obviamente não escutou.
 Ela olhou para ele.
+Ela optou por fugir, e correu com pressa
 Ela parece jovem.
 Ela parece meio entediada.
 Ela parece muito indiferente? quase apática.
@@ -9941,6 +9958,7 @@ Ela também lidou com o soco.
 Ela também mostrou para crianças em diferentes centros.
 Ela também sabe disso!
 Ela também é uma pessoa que gosta de conversar.
+Ela tatuou a panturrilha
 Ela te acompanhará até a saída
 Ela tem cicatrizes graves nas costas
 Ela tem cinco metros de altura.
@@ -11164,6 +11182,7 @@ Em palavras, trabalho suave e duro.
 Em pequenos projetos, há apenas um gerente de projetos.
 Em pouco tempo? talvez em apenas alguns dias? ele estaria nas pirâmides.
 Em princípio, tudo estava indo bem.
+Em prol da sua reeleição fadada ao fracasso
 Em qual idioma este documento foi escrito?
 Em qualquer caso, a Junta na Assembléia, por unanimidade, pode determinar outro critério.
 Em qualquer caso, a comissão especializada avaliará e analisará as petições feitas pelos feirantes.
@@ -12428,6 +12447,7 @@ Estes são os princípios gerais pelos quais nos regemos.
 Estes são recursos importantes quando você tem armas à mão.
 Estes são ritmos que compõem um palíndromo.
 Estes têm uma forma cônica e são formados por um conglomerado de pedras.
+Esteve estupefata, perplexa, diante daquela irreverência
 Esteve fechado em reuniões, ficou sem rede no telemóvel.
 Esteve ligado a organizações paramilitares
 Esther e Pietro
@@ -12435,6 +12455,7 @@ Esther, Renan, Roseane, Max e Alícia
 Estilo de vida sedentário
 Estimamos o recurso interposto pelo senhor José Velasco Santamaría.
 Estimo muito saber...
+Estimulou o radicalismo na nação nos últimos três anos e meio
 Estiva
 Estiva Gerbi
 Estiva de garrafas vazias: é aquela que exerce a especialidade de mexer.
@@ -14903,6 +14924,7 @@ Fêmea como um volume
 Fêmea nova que examina um espécime em um microscópio.
 Fênix
 Fórum Anual
+Fórum Econômico Social
 Fóruns podem ser criados para intervir em assuntos que afetam mais de um aconselhamento.
 Fósseis dos gigantes da megafauna
 Gabando a dureza e a grossura do cobre
@@ -15110,6 +15132,7 @@ Governador Valadares
 Governo aberto, transparência e dados abertos no Conselho Municipal de El Prat.
 Governo da cidade de Taipei
 Governou como a cara dele! atalhou tio Cosme, cedendo a antigos rancores políticos.
+Gozando de saúde, amor e alegria
 Graccho Cardoso
 Gradualmente
 Gradualmente inconveniente
@@ -15568,6 +15591,7 @@ Há muitas letras e palavras nesta carta.
 Há muitas notas falsas por aí.
 Há muitas pessoas na rua
 Há muitas pessoas que estão repentinamente inseguras quanto ao tempo.
+Há muito mais do que os teus olhos podem ver
 Há muito o que um corpo pode fazer.
 Há muito trabalho desta vez.
 Há muitos costumes tradicionais e atividades do Ano Novo Chinês
@@ -15580,6 +15604,7 @@ Há pessoa em pé na água e brincando com um cachorro.
 Há pontos em que essas duas espécies de centralização são confusas.
 Há porcos que repugnam a sua própria porcaria, mas se não afastam dela.
 Há poucas flores no jardim.
+Há provas do delito em vídeo e áudio
 Há quanto tempo você tem esse terno azul?
 Há quatro carros estacionados na frente da loja.
 Há também ataques aéreos e guerras
@@ -15724,6 +15749,7 @@ Identificação de organizações e instituições que fornecem informações.
 Identificação de uma chamada de tipo em um centro de saúde.
 Identificação e assinatura em sistemas Linux.
 Identifique esse sujeito.
+Identifique-se por gentileza
 Ielmo Marinho
 Iepê
 Igaci
@@ -15792,6 +15818,7 @@ Imediatamente siga o conselho dela
 Imigrante
 Imigração
 Imitando com sucesso o seu design
+Imparcialidade, civilidade e boa-fé
 Imperatriz
 Implementar comunicação com os moradores locais
 Importei eletrônicos manufaturados em Xinjiang
@@ -16682,6 +16709,7 @@ Jogadores do Brasil.
 Jogando no mercado com o dinheiro da empresa?
 Jogo de fogos, jogo de gente maluca.
 Jogos vorazes não foi um filme de tanto sucesso
+Jogou a gaze no lixo após a cesariana
 Jogou o telemóvel na parede
 Jogue Pandora no último Fm
 Jogue a política feliz
@@ -17306,6 +17334,8 @@ Lunardelli
 Lupionópolis
 Lupércio
 Luta de Carnaval, Luta por Todos os Santos.
+Lutador de capoeira
+Lutadora de karatê
 Lutando contra brinquedos elétricos ilegais
 Lutécia
 Luz
@@ -17338,6 +17368,7 @@ Lápis abaixo do tempo de? acabou.
 Lápis para baixo, o tempo acabou.
 Lápis, borracha, caneta e papel na mão
 Léo mora no Cruzeiro e trabalha em Sobradinho.
+Lésbicas, gays e simpatizantes
 Líder sem história
 Líderes mundiais buscam acabar com desmatamento e reduzir emissões de metano
 Lígia e Elisa
@@ -18450,6 +18481,7 @@ Minhas irmãs não estão me dizendo tudo o que preciso saber para chegar lá.
 Minhã faz uma feijoada que é uma delicia.
 Minimize possíveis danos
 Ministro Andreazza
+Ministrou as aulas com consternação
 Ministério da Agricultura confirma casos de vaca louca
 Ministério da educação.
 Mira Estrela
@@ -18599,6 +18631,7 @@ Mormaço
 Morpará
 Morra, diabo!
 Morretes
+Morreu de susto
 Morreu por asfixia acidental
 Morreu, mas passa bem
 Morri de uma pneumonia
@@ -19453,6 +19486,7 @@ Nordestina
 Normalmente ainda há neve
 Normalmente vá pleitear
 Normandia
+Normas de conduta e demais ensaios
 Nortelândia
 North City está servindo a Taipei Youth Career Development Center
 Nos quatro cantos do teto as figuras das estações
@@ -19845,6 +19879,7 @@ Não discriminação contra utilizações.
 Não discuta comigo aqui.
 Não diz nada.
 Não dormi uma piscadela
+Não encontra resistência diante dos impropérios
 Não entendi.
 Não entre no plano desta opulência para resolver todas as objeções.
 Não envolve política
@@ -19928,6 +19963,7 @@ Não grite sua felicidade, a inveja tem sono leve
 Não haverá insurreição vermelha!
 Não haverá limitação técnica para implementar qualquer bandeira das comunidades autônomas da Espanha.
 Não haverá problemas financeiros
+Não haverá ressentimento e nem será necessário pedido de desculpas
 Não haverá uma mudança repentina
 Não havia absolutamente nenhuma razão para ela anunciar para toda a empresa.
 Não havia como todos saberem sobre alquimia.
@@ -19951,6 +19987,7 @@ Não havia quase ninguém lá.
 Não havia religião, ordem ou autoridade e... claro!
 Não havia tempo a perder.
 Não havia voos diretos para Barcelona.
+Não houve consternação ou pêsames
 Não houve dúvidas.
 Não houve escapatória.
 Não houve festa na escola este ano.
@@ -20244,6 +20281,7 @@ Não será martírio e não libertará água
 Não será muito caro.
 Não será provável que sejam edições valorizadas do mesmo curso.
 Não será sempre o mesmo tempo.
+Não sinto nenhuma mágoa, disse a candidata
 Não sofra
 Não sofra alterações abusivas que possam agravar a conclusão do curso.
 Não solitário à noite
@@ -20376,6 +20414,7 @@ Não é o caso de nos perguntarmos?
 Não é o dinheiro.
 Não é o dos valencianos, um país de consenso.
 Não é o filme por trás disso?
+Não é o que os fatos mostram
 Não é o suficiente para participar, precisamos nos envolver.
 Não é permitido que todos sejam de um único gênero
 Não é por acaso que primeiro examino o município.
@@ -21509,6 +21548,7 @@ O encontro semanal no mercado facilitou as conversas.
 O engate entre o cavalo e o carro quebrou.
 O enigma que frustrou tantos era quase um simples exercício para o dr. Masterson.
 O enredo terá um ligeiro declive para evitar a ingestão.
+O ensaio de hoje foi bastante produtivo
 O ensino médio é uma fase importante
 O ensino médio.
 O ensino superior de Taiwan perde competitividade
@@ -22361,6 +22401,7 @@ O presidente encontrou os pastores suspeitos de cobrarem propina
 O presidente esteve mentindo de novo?
 O presidente fez uma curva acentuada na política
 O presidente foi nomeado por quatro anos e pode ser reeleito.
+O presidente ligou para irmãos do assassinado: 'um absurdo', disse a viúva
 O presidente lutou heroicamente contra tal selvageria.
 O presidente não pediu a sobremesa mas não informou
 O presidente é um magistrado eleito.
@@ -22778,6 +22819,7 @@ O que é isso, jovem?
 O que é isso? caro?
 O que é mais fictício que uma inferioridade puramente legal!
 O que é mais sussurro, alcaparra.
+O que é mais urgente e impressionante é a percepção de uma reação tardia
 O que é necessário
 O que é o Instituto Catalão de Software Livre?
 O que é o Linux?
@@ -22971,6 +23013,7 @@ O tamanho humano está em suas mãos.
 O tanque de óleo está seco.
 O tapete era requintado.
 O tarô ainda é comumente usado como instrumento divinatório
+O tatuador não cobrou muito
 O teatro está fechado para reformas, mas reabrirá em vinte e dezenove.
 O telefone da parede tocava com frequência.
 O telefone tocou enquanto ela estava acordada.
@@ -23189,6 +23232,7 @@ O vinho, pouco é bom, muito é veneno.
 O vioão era velho.
 O vitral oferecia uma atmosfera hipnótica.
 O vizinho do quarto é um caso como um repolho.
+O viúvo já se encontrava moribundo
 O vocabulário deste parafraseador contém uma pletora de palavras
 O volante Lamborghini é feito de couro de pantera.
 O volume não aumentaria muito mais.
@@ -24477,6 +24521,7 @@ Para o velho, abóbora ou cebola nele.
 Para o velho, atire nele.
 Para o velho, não coloque grande pacote nele.
 Para o último mal, nenhum médico está seguro.
+Para obter a documentação, foi um processo bem burocrático
 Para onde ele estava indo?
 Para onde ele está indo?
 Para onde eles deveriam ir tão alterados?
@@ -24932,6 +24977,7 @@ Pelo menos por agora.
 Pelo menos temos finalmente algo que podemos celebrar.
 Pelo menos, verifique suas cartas antes de enviá-las.
 Pelo que a modificação considera viável e conveniente.
+Pelo quinto mês consecutivo
 Pelo trabalho de arte
 Pelotas
 Penaforte
@@ -25275,6 +25321,7 @@ Planeje dentro de uma semana
 Planeje e controle a despesa e sua contabilidade correta.
 Plano Piloto
 Plano de andarilho
+Plano de desburocratização
 Plano de educação continuada.
 Plano mental, físico, espiritual e campo das ideias
 Planos agradáveis ​​falham sem sorte.
@@ -26193,6 +26240,7 @@ Pugmil
 Pula essa.
 Pule, pule, pule!
 Pulverize com uma corrente de óleo.
+Punição por desacato a servidor público
 Punção
 Pura bandidagem para atacar um herói nacional
 Puramente limpo
@@ -27475,6 +27523,7 @@ Quipapá
 Quirguistão, Armênia, Ucrânia, Cazaquistão, Burundi e Afeganistão
 Quirinópolis
 Quis variar, e lembrou-me escrever um livro.
+Quis fazer uma tatuagem no braço
 Quissamã
 Quitandinha
 Quiterianópolis
@@ -28073,6 +28122,8 @@ Saindo da porta da sala de computadores
 Sair de um carro que foi atingido pela iluminação é uma ameaça à vida.
 Sairei no mais tardar
 Sairé
+Saiu apressado após a chamada
+Saiu com pedras nas mãos
 Saiu do armário e não há quem o obrigue a voltar para lá
 Saiu um novo episódio ontem.
 Salamanca foi chamado e emprestou-se para assassinar Fring, o chileno.
@@ -28710,6 +28761,7 @@ Seguro e saudável
 Seis anos de mandato
 Seis pessoas estão sentadas atrás de dois caiaques.
 Seis pessoas saltam para a bola.
+Seja audaz quando for editar
 Seja corajoso e não tenha medo.
 Seja da citação.
 Seja dono da sua boca, para não ser escravo de suas palavras.
@@ -30275,6 +30327,7 @@ Tensão institucional preocupa mercado financeiro
 Tensão pré-menstrual
 Tenta se esconder em um arbusto, mas é encontrada
 Tentando melhorar o mundo pulando para cima e para baixo.
+Tentará desvincular sua imagem do episódio
 Tentativa de silenciamento com a imprensa
 Tentativa de zerar e neutralizar as emissões de carbono
 Tente chegar pontualmente
@@ -33687,6 +33740,7 @@ Venda Nova do Imigrante
 Venda de eletrodomésticos de alta qualidade
 Venda este velho bastão curvo.
 Venda seu presente para um cliente com lucro.
+Vendas do comércio varejista têm variação positiva
 Vender a privacidade é conveniente
 Vender a terra de três pontos herdada do pai
 Vendo musgo
@@ -34891,6 +34945,7 @@ Volte para o hotel e resolva as coisas
 Volte para sentar à esquerda
 Voltei há três dias.
 Voltemos ao nosso exemplo.
+Voltou a pedir ao eleitorado que se faça de tolo
 Voltou dali a duas semanas
 Voltou três cartas sobre a mesa, e disse-lhe:
 Volume baixo.
@@ -36275,6 +36330,7 @@ zé Doca
 É também uma nova experiência na minha vida.
 É tarde demais para ir agora dessa vez.
 É tarde demais para sair.
+É temporada de borboletas
 É terrível
 É todo o dinheiro que ganhei no chão.
 É tolerante para pessoas que pensam de forma diferente.
@@ -36287,6 +36343,7 @@ zé Doca
 É tão ruim hoje.
 É um falastrão desaforado
 É um arroz muito colorido.
+É um artifício que o presidente usou para se fazer de vítima
 É um banco de dados online de frases de exemplo.
 É um bom dia.
 É um bom homem, empregado no arsenal de guerra.
