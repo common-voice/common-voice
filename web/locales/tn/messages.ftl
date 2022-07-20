@@ -960,12 +960,8 @@ report-success = Pego e kgonne go fetisiwa ka katlego
 streaks = Meraladi
 days =
     { $count ->
-        [one]
-            { $count ->
-                [one] "Letsatsi"
-               *[other] "Malatsi"
-            }
-       *[other] { "" }
+        [one] Letsatsi
+       *[other] Malatsi
     }
 recordings =
     { $count ->
