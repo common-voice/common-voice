@@ -958,11 +958,6 @@ report-success = Pego e kgonne go fetisiwa ka katlego
 ## Goals
 
 streaks = Meraladi
-days =
-    { $count ->
-        [one] Letsatsi
-       *[other] Malatsi
-    }
 recordings =
     { $count ->
         [one]
