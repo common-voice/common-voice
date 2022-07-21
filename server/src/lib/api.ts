@@ -116,7 +116,10 @@ export default class API {
 
     router.get('/datasets', this.getAllDatasets);
     router.get('/datasets/languages', this.getAllLanguagesWithDatasets);
-    router.get('/datasets/languages/:languageId', this.getLanguageDatasetStats);
+    router.get(
+      '/datasets/languages/:languageCode',
+      this.getLanguageDatasetStats
+    );
 
     router.post('/newsletter/:email', this.subscribeToNewsletter);
 
@@ -191,9 +194,9 @@ export default class API {
 
   getLanguageDatasetStats = async (request: Request, response: Response) => {
     const {
-      params: { languageId },
+      params: { languageCode },
     } = request;
-    response.json(await this.model.getLanguageDatasetStats(+languageId));
+    response.json(await this.model.getLanguageDatasetStats(languageCode));
   };
 
   getAllLanguagesWithDatasets = async (
