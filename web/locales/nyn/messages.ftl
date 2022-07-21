@@ -15,6 +15,9 @@ email-opt-in-privacy-v2 = Murire muta okwe?
 indicates-required = Nyamba Mukama
 not-available-abbreviation = Mukama akundindire
 banner-error-slow-1 = Haza mubanze musherure obukama bw'omwiguru reru ebindi biryabongyererwaho
+banner-error-slow-2 = Kobura obwengye tokopa
+banner-error-slow-link = Mwije mwena abaruhire Ruhanga abaruhure.
+error-something-went-wrong = Otamukwitse ati mumwikarire tugyende
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -22,6 +25,11 @@ banner-error-slow-1 = Haza mubanze musherure obukama bw'omwiguru reru ebindi bir
 
 ## Languages
 
+ab = Kankore nsiimwe akasa aheekyir’iba amaguru gayaata esaano bararakwe
+ace = Korikugambir owawe yayanga kuhurira niiwe oza omubashekyi oshenka.
+ady = Oyine obwesigye abyama nibagoya.
+af = Abeirukize sho tibakeizire, oti: ‘taata we nimanya yabatsiga.
+am = Owensinyanyi tabiika meino.
 
 # [/]
 
