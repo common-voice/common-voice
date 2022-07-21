@@ -5,15 +5,19 @@
     background: url('images/datasets-intro-background.svg');
     background-color: #3b3b3b; /* fallback if image hasnt loaded */
     background-size: cover;
-
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
     @media (--lg-up) {
         background-position: right;
-        padding-inline-end: 5em;
-    }
+        /* padding-inline-end: 5em; */
+    }   
 
     @media (--xl-up) {
-        padding-inline-start: var(--page-margin-padding);
-        padding-inline-end: 5em;
+        /* padding-inline-start: var(--page-margin-padding); */
+        /* padding-inline-end: 5em; */
+        padding: 5em;
     }
 
     /* triangle top left */
@@ -47,14 +51,22 @@
     }
 
     p {
-        max-width: 30em;
+        /* max-width: 0em; */
         line-height: 1.5;
         white-space: pre-line;
     }
 
     .intro-summary {
+        padding-top: 1em;
         margin-bottom: 1em;
         font-size: var(--font-size-lg);
         line-height: 1.35;
+    }
+    div {
+    @media (--lg-up) {
+        width: 50%;
+    max-width: 50em;
+
+    }
     }
 }
