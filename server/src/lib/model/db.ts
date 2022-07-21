@@ -993,14 +993,14 @@ export default class DB {
     return rows;
   }
 
-  async getLanguageDatasetStats(languageId: number): Promise<Language[]> {
+  async getLanguageDatasetStats(languageCode: string): Promise<Language[]> {
     const [rows] = await this.mysql.query(
       `SELECT *
         FROM locale_datasets ld
         JOIN datasets d ON d.id = ld.dataset_id
         where ld.locale_id = ?
     `,
-      [languageId]
+      [await getLocaleId(languageCode)]
     );
     return rows;
   }
