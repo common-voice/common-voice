@@ -3899,13 +3899,13 @@ browser-process-hrtime@^1.0.0:
   integrity sha512-9o5UecI3GhkpM6DrXr69PblIuWxPKk9Y0jHBRhdocZ2y7YECBFCsHm79Pr3OyR2AvjhDkabFJaDJMYRazHgsow==
 
 browserslist@^4.0.0, browserslist@^4.14.5, browserslist@^4.16.5, browserslist@^4.16.6, browserslist@^4.17.5, browserslist@^4.19.1, browserslist@^4.20.2, browserslist@^4.20.3:
-  version "4.21.1"
-  resolved "https://registry.yarnpkg.com/browserslist/-/browserslist-4.21.1.tgz#c9b9b0a54c7607e8dc3e01a0d311727188011a00"
-  integrity sha512-Nq8MFCSrnJXSc88yliwlzQe3qNe3VntIjhsArW9IJOEPSHNx23FalwApUVbzAWABLhYJJ7y8AynWI/XM8OdfjQ==
+  version "4.21.2"
+  resolved "https://registry.yarnpkg.com/browserslist/-/browserslist-4.21.2.tgz#59a400757465535954946a400b841ed37e2b4ecf"
+  integrity sha512-MonuOgAtUB46uP5CezYbRaYKBNt2LxP0yX+Pmj4LkcDFGkn9Cbpi83d9sCjwQDErXsIJSzY5oKGDbgOlF/LPAA==
   dependencies:
-    caniuse-lite "^1.0.30001359"
-    electron-to-chromium "^1.4.172"
-    node-releases "^2.0.5"
+    caniuse-lite "^1.0.30001366"
+    electron-to-chromium "^1.4.188"
+    node-releases "^2.0.6"
     update-browserslist-db "^1.0.4"
 
 bs-logger@0.x:
@@ -4045,10 +4045,10 @@ caniuse-lite@^1.0.30001317:
   resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001319.tgz#eb4da4eb3ecdd409f7ba1907820061d56096e88f"
   integrity sha512-xjlIAFHucBRSMUo1kb5D4LYgcN1M45qdKP++lhqowDpwJwGkpIRTt5qQqnhxjj1vHcI7nrJxWhCC1ATrCEBTcw==
 
-caniuse-lite@^1.0.30001359:
-  version "1.0.30001366"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001366.tgz#c73352c83830a9eaf2dea0ff71fb4b9a4bbaa89c"
-  integrity sha512-yy7XLWCubDobokgzudpkKux8e0UOOnLHE6mlNJBzT3lZJz6s5atSEzjoL+fsCPkI0G8MP5uVdDx1ur/fXEWkZA==
+caniuse-lite@^1.0.30001366:
+  version "1.0.30001368"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001368.tgz#c5c06381c6051cd863c45021475434e81936f713"
+  integrity sha512-wgfRYa9DenEomLG/SdWgQxpIyvdtH3NW8Vq+tB6AwR9e56iOIcu1im5F/wNdDf04XlKHXqIx4N8Jo0PemeBenQ==
 
 caseless@~0.12.0:
   version "0.12.0"
@@ -4184,11 +4184,6 @@ clone-regexp@^2.1.0:
   integrity sha512-beMpP7BOtTipFuW8hrJvREQ2DrRu3BE7by0ZpibtfBA+qfHYvMGTc2Yb1JMYPKg/JUw0CHYvpg796aNTSW9z7Q==
   dependencies:
     is-regexp "^2.0.0"
-
-clsx@^1.1.1:
-  version "1.2.1"
-  resolved "https://registry.yarnpkg.com/clsx/-/clsx-1.2.1.tgz#0ddc4a20a549b59c93a4116bb26f5294ca17dc12"
-  integrity sha512-EcR6r5a8bj6pu3ycsa/E/cKVGuTgZJZdsyUYHOksG/UHIiKfjxzRxYJpyVBwYaQeOvghal9fcc4PidlgzugAQg==
 
 cluster-key-slot@^1.1.0:
   version "1.1.0"
@@ -5065,10 +5060,10 @@ ee-first@1.1.1:
   resolved "https://registry.yarnpkg.com/ee-first/-/ee-first-1.1.1.tgz#590c61156b0ae2f4f0255732a158b266bc56b21d"
   integrity sha1-WQxhFWsK4vTwJVcyoViyZrxWsh0=
 
-electron-to-chromium@^1.4.172:
-  version "1.4.187"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.187.tgz#b884493df00816dc2ce928958c4f6a51a93fe1a8"
-  integrity sha512-t3iFLHVIMhB8jGZ+8ui951nz6Bna5qKfhxezG3wzXdBJ79qFKPsE2chjjVFNqC1ewhfrPQrw9pmVeo4FFpZeQA==
+electron-to-chromium@^1.4.188:
+  version "1.4.196"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.196.tgz#e18cdc5c1c2c2ebf78da237d0c374cc3b244d4cb"
+  integrity sha512-uxMa/Dt7PQsLBVXwH+t6JvpHJnrsYBaxWKi/J6HE+/nBtoHENhwBoNkgkm226/Kfxeg0z1eMQLBRPPKcDH8xWA==
 
 emittery@^0.8.1:
   version "0.8.1"
@@ -8065,10 +8060,10 @@ node-int64@^0.4.0:
   resolved "https://registry.yarnpkg.com/node-int64/-/node-int64-0.4.0.tgz#87a9065cdb355d3182d8f94ce11188b825c68a3b"
   integrity sha1-h6kGXNs1XTGC2PlM4RGIuCXGijs=
 
-node-releases@^2.0.5:
-  version "2.0.5"
-  resolved "https://registry.yarnpkg.com/node-releases/-/node-releases-2.0.5.tgz#280ed5bc3eba0d96ce44897d8aee478bfb3d9666"
-  integrity sha512-U9h1NLROZTq9uE1SNffn6WuPDg8icmi3ns4rEl/oTfIle4iLjTliCzgTsbaIFMq/Xn078/lfY/BL0GWZ+psK4Q==
+node-releases@^2.0.6:
+  version "2.0.6"
+  resolved "https://registry.yarnpkg.com/node-releases/-/node-releases-2.0.6.tgz#8a7088c63a55e493845683ebf3c828d8c51c5503"
+  integrity sha512-PiVXnNuFm5+iYkLBNeq5211hvO38y63T0i2KKh2KnUs3RpzJ+JtODFjkD8yjLwnDkTYF1eKXheUwdssR+NRZdg==
 
 nodemailer@6.7.3:
   version "6.7.3"
@@ -9420,13 +9415,6 @@ react-content-loader@^6.2.0:
   version "6.2.0"
   resolved "https://registry.yarnpkg.com/react-content-loader/-/react-content-loader-6.2.0.tgz#cd8fee8160b8fda6610d0c69ce5aee7b8094cba6"
   integrity sha512-r1dI6S+uHNLW68qraLE2njJYOuy6976PpCExuCZUcABWbfnF3FMcmuESRI8L4Bj45wnZ7n8g71hkPLzbma7/Cw==
-
-react-data-grid@^7.0.0-beta.13:
-  version "7.0.0-beta.13"
-  resolved "https://registry.yarnpkg.com/react-data-grid/-/react-data-grid-7.0.0-beta.13.tgz#c0728258cbbb033af611eed50ed124744a76ee76"
-  integrity sha512-vhBdkC2KqAawmmzYTcNlfhfjcYFQsinNr5pPTUG6/3DzLfYWo1S6nl48wgPWgyD9uDclV3H5NWvKSSwQTTsYMQ==
-  dependencies:
-    clsx "^1.1.1"
 
 react-dom@17.0.2:
   version "17.0.2"
