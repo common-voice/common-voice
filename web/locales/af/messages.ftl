@@ -279,9 +279,9 @@ email-subscription-title-new = Meld aan vir Common Voice nuusbriewe, herinnering
 
 benefits = Voordele
 rich-data = Maak jou ingediende data so ryk as moontlik deur anonieme demografiese data te verskaf. Ons maak al die demografiese data anoniem voordat die datastel openbaar gemaak word.
-improve-audio = Profiel inligting verbeter die klankdata wat gebruik word die opleiding van akkurate spraakherkenning.
+improve-audio = Profiel inligting verbeter die klankdata wat gebruik word om die akkuraatheid van spraakherkenning te verbeter.
 keep-track = Hou tred met jou vordering en statistiek oor verskeie tale.
-compare-progress = Kyk hoe jou vordering vergelyk met ander bydraers regoor die wêreld.
+compare-progress = Kyk hoe jou vordering vergelyk met dié van ander deelnemers regoor die wêreld.
 view-goals = Vergelyk jou vordering met persoonlike en projekdoelwitte.
 join-newsletter = Sluit aan by ons e-poslys vir kennisgewings en nuwe inligting oor die projek.
 
