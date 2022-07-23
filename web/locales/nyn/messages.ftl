@@ -27,9 +27,15 @@ error-something-went-wrong = Otamukwitse ati mumwikarire tugyende
 
 ab = Kankore nsiimwe akasa aheekyir’iba amaguru gayaata esaano bararakwe
 ace = Korikugambir owawe yayanga kuhurira niiwe oza omubashekyi oshenka.
-ady = Oyine obwesigye abyama nibagoya.
-af = Abeirukize sho tibakeizire, oti: ‘taata we nimanya yabatsiga.
+ady = Haza nomanya ebigambo byayenda nibibura
+af = N'emirundi engahi eyombihire nkakwesiza haza okatekateka ngu tinakumanya
 am = Owensinyanyi tabiika meino.
+an = Otakayehwa amatsiko ahakuba noija kusingura eizooba rimwe
+ar = Omuntu atirikuuza ekintu kyoona haza iwe okasheeka ahakuba nikimara amaani ah'aryogwe arikwenda kukyenga.
+arn = { "" }
+as = { "" }
+ast = { "" }
+az = { "" }
 
 # [/]
 
