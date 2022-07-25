@@ -462,7 +462,7 @@ faq-why-my-lang-a =
     Common Voice is 'n platform wat gebruik maak van skarebefondsing, en die tale is almal bygevoeg deur vrywilligers.
     Ons sal graag wil hê dat jy jou taal byvoeg! <languageRequestLink>Vra oor die proses om jou taal by te voeg.</languageRequestLink>
 faq-what-quality-q = Watter vlak van klankkwaliteit is nodig om 'n stemsnit te gebruik in die datastel?
-faq-what-quality-a = Ons wil hê dat die Common Voice-datastel die klankgehalte weerspieël wat 'n spraak-na-teks-enjine in die natuur sal hoor, so ons soek verskeidenheid. Benewens 'n uiteenlopende gemeenskap van sprekers, sal 'n datastel met wisselende klankgehalte die spraak-na-teks-enjin leer om verskillende werklikheidsituasies te hanteer, van stemme in die agtergrond tot die geraas van motors. Solank as wat jou stemsnit verstaanbaar is, sal dit goed genoeg wees vir die datastel.
+faq-what-quality-a = Ons wil hê dat die Common Voice-datastel die klankgehalte weerspieël wat 'n spraak-na-teks-enjine in alledaagse kontekste sal hoor, so ons soek verskeidenheid. Benewens 'n uiteenlopende gemeenskap van sprekers, sal 'n datastel met wisselende klankgehalte bevat die spraak-na-teks-enjin leer om verskillende werklikheidsituasies te hanteer, van stemme in die agtergrond tot die geraas van motors. Solank as wat jou stemsnit verstaanbaar is, sal dit goed genoeg wees vir die datastel.
 faq-why-10k-hours-q = Waarom is die doelwit vir die aantal klankopnames per taal 10 000 bevestigde ure?
 faq-why-10k-hours-a = Dit is ongeveer die aantal ure wat nodig is om 'n kommersiële teks-na-spraak-stelsel op te lei.
 faq-how-calc-hours-q = Hoe werk Common Voice die ure uit?
