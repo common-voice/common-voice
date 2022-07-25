@@ -965,12 +965,8 @@ days =
     }
 recordings =
     { $count ->
-        [one]
-            { $count ->
-                [one] "Kgatiso"
-               *[other] "Dikgatiso"
-            }
-       *[other] { "" }
+        [one] "Kgatiso"
+       *[other] "Dikgatiso"
     }
 validations =
     { $count ->
