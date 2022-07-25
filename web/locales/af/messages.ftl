@@ -279,7 +279,7 @@ email-subscription-title-new = Meld aan vir Common Voice nuusbriewe, herinnering
 
 benefits = Voordele
 rich-data = Maak jou ingediende data so ryk as moontlik deur anonieme demografiese data te verskaf. Ons maak al die demografiese data anoniem voordat die datastel openbaar gemaak word.
-improve-audio = Profiel inligting verbeter die klankdata wat gebruik word om die akkuraatheid van spraakherkenning te verbeter.
+improve-audio = Profielinligting verbeter die klankdata wat gebruik word om die akkuraatheid van spraakherkenning te verbeter.
 keep-track = Hou tred met jou vordering en statistiek oor verskeie tale.
 compare-progress = Kyk hoe jou vordering vergelyk met dié van ander deelnemers regoor die wêreld.
 view-goals = Vergelyk jou vordering met persoonlike en projekdoelwitte.
@@ -448,7 +448,7 @@ faq-when-release2-a = Die veeltalige weergawe van die Common Voice-datastel word
 faq-why-mission-q = Waarom is Common Voice deel van Mozilla se missie?
 faq-why-mission-a = Mozilla is toegewyd daaraan om die web oop en toeganklik te hou vir almal. Om dit te doen, moet ons webskeppers bemagtig deur projekte soos Common Voice. Aangesien stemtegnologieë verder versprei as nistoepassings, glo ons dat dit alle gebruikers moet bedien. Dit beteken dat daar in meer tale, belê moet word om diverse aksente en demografieë te akkommodeer wanneer stemtegnologie gebou en getoets word. Common Voice is 'n ooptoeganghulpbron wat vir almal beskikbaar is en Mozilla-spanne en -ontwikkelaars regoor die wêreld gebruik dit reeds op ons eie projekte.
 faq-what-cv-and-deepspeech-q = Wat is die verskil tussen Common Voice en Deep Speech?
-faq-what-cv-and-deepspeech-a = Die Common Voice datastel komplementeer Mozilla se oopbronstemherkenningenjin Deep Speech. Die eerste weergawe van Deep Speech is in November 2017 vrygestel en het sedertdien bly ontwikkel. Saam met die Common Voice datastel, glo ons dat hierdie oopbronstemherkenningstegnologie vir almal beskikbaar moet wees. Dit is ons hoop dat dit tegnologie-ontwikkelaars in staat sal stel om 'n reeks innoverende produkte en dienste te bou.
+faq-what-cv-and-deepspeech-a = Die Common Voice-datastel komplementeer Mozilla se oopbronstemherkenningenjin Deep Speech. Die eerste weergawe van Deep Speech is in November 2017 vrygestel en het sedertdien bly ontwikkel. Saam met die Common Voice-datastel, glo ons dat hierdie oopbronstemherkenningstegnologie vir almal beskikbaar moet wees. Dit is ons hoop dat dit tegnologie-ontwikkelaars in staat sal stel om 'n reeks innoverende produkte en dienste te bou.
 faq-is-goal-assistant-q = Is Common Voice se doelwit om 'n stemassistent te bou?
 faq-is-goal-assistant-a = Die doel van die Common Voice-datastel is om enige iemand in die wêreld in staat te stel om spraakherkenning, sprekerherkenning of enige ander tipe program wat stemdata benodig, te bou. 'n Stemassistent is net een van die vele soorte toepassings wat met dié datastel gebou kan word.
 faq-do-want-native-q = Ek is nie 'n moedertaalspreker nie en ek praat met 'n aksent, is my stem nog steeds aanvaarbaar?
@@ -462,7 +462,7 @@ faq-why-my-lang-a =
     Common Voice is 'n platform wat gebruik maak van skarebefondsing, en die tale is almal bygevoeg deur vrywilligers.
     Ons sal graag wil hê dat jy jou taal byvoeg! <languageRequestLink>Vra oor die proses om jou taal by te voeg.</languageRequestLink>
 faq-what-quality-q = Watter vlak van klankkwaliteit is nodig om 'n stemsnit te gebruik in die datastel?
-faq-what-quality-a = Ons wil hê dat die Common Voice-datastel die klankgehalte weerspieël wat 'n spraak-na-teks-enjine in alledaagse kontekste sal hoor, so ons soek verskeidenheid. Benewens 'n uiteenlopende gemeenskap van sprekers, sal 'n datastel met wisselende klankgehalte bevat die spraak-na-teks-enjin leer om verskillende werklikheidsituasies te hanteer, van stemme in die agtergrond tot die geraas van motors. Solank as wat jou stemsnit verstaanbaar is, sal dit goed genoeg wees vir die datastel.
+faq-what-quality-a = Ons wil hê dat die Common Voice-datastel die klankgehalte weerspieël wat 'n spraak-na-teks-enjine in alledaagse kontekste sal hoor, so ons soek verskeidenheid. Benewens 'n uiteenlopende gemeenskap van sprekers, sal 'n datastel wat wisselende klankgehalte bevat die spraak-na-teks-enjin leer om verskillende werklikheidsituasies te hanteer, van stemme in die agtergrond tot die geraas van motors. Solank as wat jou stemsnit verstaanbaar is, sal dit goed genoeg wees vir die datastel.
 faq-why-10k-hours-q = Waarom is die doelwit vir die aantal klankopnames per taal 10 000 bevestigde ure?
 faq-why-10k-hours-a = Dit is ongeveer die aantal ure wat nodig is om 'n kommersiële teks-na-spraak-stelsel op te lei.
 faq-how-calc-hours-q = Hoe werk Common Voice die ure uit?
@@ -471,13 +471,13 @@ faq-where-src-from-2-q = Waar kom die bronteks vandaan?
 faq-where-src-from-2-a =
     Ons bronteks bestaan uit donasies van oorspronklike bydraers, sowel as dialoog uit publiekedomein-draaiboeke soos dié van <italic>It’s a Wonderful Life</italic>.
     
-    Jy kan ons bron sinne sien in hierdie <githubLink> GitHub gids </githubLink>.
+    Jy kan ons bronsinne sien in hierdie <githubLink> GitHub-gids </githubLink>.
 faq-why-not-ask-read-q = Hoekom kan mense nie net uit boeke of Wikipedia-artikels in verskillende tale lees nie?
 faq-why-not-ask-read-a = Om die Common Voice-datastel so nuttig moontlik te maak, het ons besluit om slegs bronteks toe te laat wat beskikbaar is onder 'n Creative Commons (CC0) lisensie. Deur die CC0-standaard te gebruik, is dit moeiliker om bronteks te vind en in te samel, maar kan iemand die gevolglike stemdata gebruik sonder gebruiksbeperkinge of die toestemming van Mozilla. Uiteindelik wil ons die multi-taal datastel so nuttig moontlik maak vir almal, insluitend navorsers, universiteite, nuwe maatskappye, regerings, maatskaplike en gemeenskapsorganisasies, en ander belangstellendes.
 faq-why-account-q = Hoekom moet ek aanteken vir 'n rekening?
 faq-is-account-public-q = Is my rekeninginligting sigbaar vir die publiek?
 faq-how-privacy-q = Hoe kan die anonimiteit en privaatheid van die mense wat hul stemme skenk, verseker word?
-faq-how-privacy-a = Alle stemsnitte in die datastel word geskrop van persoonlike inligting. As 'n bydraer demografiese data verskaf via hul profiel, word hierdie inligting uit hul stemsnitte geskrap voordat dit gegroepeer word om afgelaai te word as deel van die datastel. Hierdie inligting word ook nooit op hul profielblad bekend gemaak nie.
+faq-how-privacy-a = Alle stemsnitte in die datastel word geskrap van persoonlike inligting. As 'n bydraer demografiese data verskaf via hul profiel, word hierdie inligting uit hul stemsnitte geskrap voordat dit gegroepeer word om afgelaai te word as deel van die datastel. Hierdie inligting word ook nooit op hul profielblad bekend gemaak niea
 faq-what-determine-identity-q = Wat beteken dit dat ek nie die identiteit van sprekers in die Common Voice datastel kan bepaal nie?
 faq-what-determine-identity-a =
     Die Common Voice datastel is 'n oop en openbare bron wat gebruik kan word om 'n wye verskeidenheid spraakaangedrewe programme op te lei. Om die sekuriteit van ons bydraers te beskerm, vra ons almal wat die gemeenskaplike stemdatastelsel aflaai om bydraers se privaatheid te respekteer.
