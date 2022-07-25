@@ -95,6 +95,8 @@ on = ເປີດ
 
 ## Datasets Page
 
+datasets-heading = ຊຸດຂໍ້ມູນ
+language = ພາສາ
 
 ## Download Modal
 
