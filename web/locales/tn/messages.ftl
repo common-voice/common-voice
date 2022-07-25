@@ -289,10 +289,7 @@ x-months-short =
     }
 x-years-short =
     { $count ->
-        [one]
-            "{ $count ->
-               *[other] { $count }y
-            }"
+        [one] { "" }
        *[other] { "" }
     }
 help-make-dataset = Re thuse go aga rekoto ya tshedimosetso ya phatlalatsa, ya maemo a a kwa godimo
@@ -874,12 +871,8 @@ skip = Tlola
 shortcuts = Ditlhabanyetso
 clips-with-count-pluralized =
     { $count ->
-        [one]
-            { $count ->
-                [one] <bold>{ $count }</bold> Kgatiso
-               *[other] <bold>{ $count }</bold> Dikgatiso
-            }
-       *[other] { "" }
+        [one] Kgatiso
+       *[other] Dikgatiso
     }
 goal-help-recording = O thusitse Common Voice gore e fitlhelele <goalPercentage></goalPercentage> ya maikaelelo a rona a letsatsi a go gatisa { $goalValue }!
 goal-help-validation = O thusitse Common Voice gore e fitlhelele <goalPercentage></goalPercentage> ya maikaelelo a rona a letsatsi a go tlhomamisa { $goalValue }!
