@@ -272,22 +272,10 @@ all-locales = Tsotlhe
 today = Gompieno
 x-weeks-short =
     { $count ->
-        [one]
-            { $count ->
-                [one] Beke
-               *[other] { $count }wk
-            }
+        [one] Beke
        *[other] { "" }
     }
 x-months-short =
-    { $count ->
-        [one]
-            "{ $count ->
-               *[other] { $count }mo
-            }"
-       *[other] { "" }
-    }
-x-years-short =
     { $count ->
         [one] { "" }
        *[other] { "" }
