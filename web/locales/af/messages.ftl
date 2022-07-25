@@ -602,11 +602,11 @@ about-playbook-how-record-content-5 = <accuracyLink>Sien meer oor akkuraatheidsk
 about-playbook-how-grow-language = Hoe kan ons 'n taal effektief op Common Voice laat groei?
 about-playbook-how-grow-language-content-1 = Die skep van geleenthede vir diverse mense om by te dra tot Common Voice verseker dat die datastel soveel mense as moontlik bedien. Ons het hulpbronne en template geskep wat jy kan gebruik!
 about-playbook-how-grow-language-content-2 = Geleenthede
-about-playbook-how-grow-language-content-3 = Jy kan geleenthede hou om mense te help om by te dra. Dit is makliker as wat jy dink. Jy kan dit aanlyn doen met 'n videokonferensie, of in persoonlik as dit veilig is. <eventTemplate>Kyk na ons template en hulpbronne vir bestaande geleenthede</eventTemplate>.
+about-playbook-how-grow-language-content-3 = Jy kan geleenthede hou om mense te help om by te dra. Jy kan dit aanlyn doen of in persoonlik. <eventTemplate>Kyk na ons template en hulpbronne vir bestaande geleenthede</eventTemplate>.
 about-playbook-how-grow-language-content-4 = Sosiale media
 about-playbook-how-grow-language-content-5 = Jy kan sosiale media-platforms gebruik om die boodskap uit te kry. Deel plasings wat verduidelik hoekom hierdie projekte belangrik is, en kom in kontak met ander mense wat praat oor kwessies soos taalregte, stemtegnologie of vooroordeel in tegnologie. Kry hier meer raad oor <campaignLink>die bestuur van 'n sosiale veldtog, insluitend inhoud wat jy kan hergebruik</campaignLink>.
 about-playbook-how-grow-language-content-6 = Vennootskappe en netwerke
-about-playbook-how-grow-language-content-7 = Soek ander wat omgee. Dit kan universiteite, taalskole, aktivistiese groepe of datawetenskapgemeenskappe wees. Reik uit en verduidelik hoe hulle kan help en hoekom. <outreachTemplates>Sien ons templaat vir uitreik-e-posse</outreachTemplates>.
+about-playbook-how-grow-language-content-7 = Soek ander wat omgee. Dit kan universiteite, taalskole of aktivistiese groepe wees. Reik uit en verduidelik hoe hulle kan help. <outreachTemplates>Sien ons e-postemplaat</outreachTemplates>.
 about-playbook-how-grow-language-content-8 = <strong>Wees kreatief!</strong> Jou taalgemeenskap sal uniek wees, en hierdie is net 'n paar maniere om te begin.
 
 ## How to validate
