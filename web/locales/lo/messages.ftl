@@ -55,6 +55,7 @@ on = ເປີດ
 
 ## How does it work section
 
+about-stay-in-touch-button = ລົງ​ທະ​ບຽນ
 
 ## Community Playbook Content
 ## What is a language
@@ -97,6 +98,8 @@ on = ເປີດ
 
 datasets-heading = ຊຸດຂໍ້ມູນ
 language = ພາສາ
+data-other-ted-name = TED-LIUM Corpus
+go-discourse = ໄປທີ່ Discourse
 
 ## Download Modal
 
