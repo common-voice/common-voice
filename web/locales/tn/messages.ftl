@@ -270,11 +270,6 @@ read-terms-q = A o badile Melawana ya rona?
 ready-to-record = A o ipaakanyeditse go abelana ka lentswe la gago?
 all-locales = Tsotlhe
 today = Gompieno
-x-weeks-short =
-    { $count ->
-        [one] Beke
-       *[other] { "" }
-    }
 x-months-short =
     { $count ->
         [one] { "" }
@@ -951,12 +946,8 @@ recordings =
     }
 validations =
     { $count ->
-        [one]
-            { $count ->
-                [one] "Tlhomamiso"
-               *[other] "Ditlhomamiso"
-            }
-       *[other] { "" }
+        [one] Tlhomamiso
+       *[other] Ditlhomamiso
     }
 
 ## Dashboard
