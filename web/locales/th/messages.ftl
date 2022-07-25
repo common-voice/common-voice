@@ -554,6 +554,8 @@ about-playbook-how-record-content-5 = <accuracyLink>ดูเพิ่มเต�
 ## How to grow language
 
 about-playbook-how-grow-language = เราจะพัฒนาภาษาบน Common Voice ได้อย่างมีประสิทธิภาพได้อย่างไร?
+about-playbook-how-grow-language-content-2 = เหตุการณ์
+about-playbook-how-grow-language-content-4 = สื่อสังคม
 
 ## How to validate
 
@@ -704,6 +706,7 @@ other-language = ภาษาอื่น ๆ
 
 ## Request Language Pages
 
+request-language-form-info-explanation-list-1 = ชื่อภาษาของคุณ
 
 ## Languages Overview
 
