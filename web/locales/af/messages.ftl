@@ -473,14 +473,14 @@ faq-where-src-from-2-a =
     
     Jy kan ons bronsinne sien in hierdie <githubLink> GitHub-gids </githubLink>.
 faq-why-not-ask-read-q = Hoekom kan mense nie net uit boeke of Wikipedia-artikels in verskillende tale lees nie?
-faq-why-not-ask-read-a = Om die Common Voice-datastel so nuttig moontlik te maak, het ons besluit om slegs bronteks toe te laat wat beskikbaar is onder 'n Creative Commons (CC0) lisensie. Deur die CC0-standaard te gebruik, is dit moeiliker om bronteks te vind en in te samel, maar kan iemand die gevolglike stemdata gebruik sonder gebruiksbeperkinge of die toestemming van Mozilla. Uiteindelik wil ons die multi-taal datastel so nuttig moontlik maak vir almal, insluitend navorsers, universiteite, nuwe maatskappye, regerings, maatskaplike en gemeenskapsorganisasies, en ander belangstellendes.
+faq-why-not-ask-read-a = Om die Common Voice-datastel so nuttig moontlik te maak, het ons besluit om slegs bronteks toe te laat wat beskikbaar is onder 'n Creative Commons (CC0) lisensie. Deur die CC0-standaard te gebruik, is dit moeiliker om bronteks te vind en in te samel, maar kan iemand die gevolglike stemdata gebruik sonder gebruiksbeperkinge of die toestemming van Mozilla. Uiteindelik wil ons die multi-taaldatastel so nuttig moontlik maak vir almal, insluitend navorsers, universiteite, nuwe maatskappye, regerings, maatskaplike en gemeenskapsorganisasies, en ander belangstellendes.
 faq-why-account-q = Hoekom moet ek aanteken vir 'n rekening?
 faq-is-account-public-q = Is my rekeninginligting sigbaar vir die publiek?
 faq-how-privacy-q = Hoe kan die anonimiteit en privaatheid van die mense wat hul stemme skenk, verseker word?
 faq-how-privacy-a = Alle stemsnitte in die datastel word geskrap van persoonlike inligting. As 'n bydraer demografiese data verskaf via hul profiel, word hierdie inligting uit hul stemsnitte geskrap voordat dit gegroepeer word om afgelaai te word as deel van die datastel. Hierdie inligting word ook nooit op hul profielblad bekend gemaak niea
-faq-what-determine-identity-q = Wat beteken dit dat ek nie die identiteit van sprekers in die Common Voice datastel kan bepaal nie?
+faq-what-determine-identity-q = Wat beteken dit dat ek nie die identiteit van sprekers in die Common Voice-datastel kan bepaal nie?
 faq-what-determine-identity-a =
-    Die Common Voice datastel is 'n oop en openbare bron wat gebruik kan word om 'n wye verskeidenheid spraakaangedrewe programme op te lei. Om die sekuriteit van ons bydraers te beskerm, vra ons almal wat die gemeenskaplike stemdatastelsel aflaai om bydraers se privaatheid te respekteer.
+    Die Common Voice-datastel is 'n oop en openbare bron wat gebruik kan word om 'n wye verskeidenheid spraakaangedrewe programme op te lei. Om die sekuriteit van ons bydraers te beskerm, vra ons almal wat die gemeenskaplike stemdatastelsel aflaai om bydraers se privaatheid te respekteer.
     
     Alle stemsnitte in die datastel word geskrap van persoonlike inligting. Wanneer jy die datastel aflaai, stem jy in om nie te probeer om die identiteit van enige bydraer te bepaal nie. Dit beteken dat jy nie inligting in die datastel kan koppel aan 'n bydraer se persoonlike inligting nie. Jy mag egter die datastel gebruik om spraakherkenning, sprekerherkenning of ander toepassings op te lei deur byvoorbeeld inligting in die datastel te koppel aan ander inligting wat reeds in die datastel voorkom.
 faq-what-is-cv = Wat is Common Voice?
@@ -641,10 +641,10 @@ localization = Lokalisering
 localization-explanation = Dit is ons proses om ons inhoud vir baie tale te vertaal en aan te pas.
 sentence-collection = Stemversameling
 sentence-collection-explanation = Die versamel van sinne van die openbare domein, of die skryf van nuwe sinne vir die openbare domein.
-hours-recorded-explanation = Die aantal ure van die stemopnames wat ons tot dusver ingesamel het.
+hours-recorded-explanation = Die aantal ure se stemopnames wat ons tot dusver ingesamel het.
 hours-validated-explanation = Die aantal ure waarvan die stemopnames deur 2 van die 3 gebruikers bevesitg is met 'n "Ja". Dit merk die vordering met die oog op die doelwit van 10k ure vir die projek as geheel.
 sst = Spraak-na-teks (STT)
-sst-explanation = Spraak-na-teks (STT) tegnologie omskep stemdata in teks.
+sst-explanation = Spraak-na-teks-tegnologie  (STT) omskep stemdata in teks.
 de-identified = De-geïdentifiseer
 de-identified-explanation = Die proses waardeur 'n bydraer se profielinligting verberg word uit hul geskenkde stemsnitte wanneer dit as 'n deel van die datastel afgelaai word.
 
@@ -692,11 +692,11 @@ review-delete-recordings = Vee my opnames uit
 ## Datasets Page
 
 datasets-heading = Datastelle
-datasets-headline = Ons bou 'n oopbron, multi-taal datastel van stemme wat enige iemand kan gebruik om spraakaangedrewe toepassings op te lei.
+datasets-headline = Ons bou 'n oopbron, multi-taaldatastel van stemme wat enige iemand kan gebruik om spraakaangedrewe toepassings op te lei.
 datasets-positioning =
     Ons glo dat groot, openbare stemdatastelle innovasie en gesonde kommersiële kompetisie in masjienleergebaseerde spraaktegnologie sal bevorder.
     
-    Common Voice se multi-taal datastel is alreeds die grootste openbaar-beskikbare stemdatastel van sy soort, maar dit is nie die enigste nie.
+    Common Voice se multi-taaldatastel is alreeds die grootste openbaar-beskikbare stemdatastel van sy soort, maar dit is nie die enigste nie.
     
     Kyk na hierdie bladsy as 'n verwysingspunt vir ander oopbron-stemdatastelle en, soos Common Voice steeds groei, 'n tuiste vir inligting oor die nuutste vrystellings.
 language = Taal
@@ -709,7 +709,7 @@ audio-format = Klankformaat
 number-of-voices = Aantal Stemme
 splits = Splete
 email-to-download = Tik E-posadres In Om Af Te Laai
-why-email = <b> Waarom 'n e-posadres? </b> Ons mag jou dalk in die toekoms moet kontak met veranderinge in die datastel. 'n E-posadres gee ons 'n kontakpunt.
+why-email = <b> Waarom 'n e-posadres? </b> Ons mag jou dalk in die toekoms kontak oor veranderinge in die datastel. 'n E-posadres gee ons 'n kontakpunt.
 confirm-size = Jy is bereid om 'n aflaai van <b> { $size } </b> te begin
 size-gigabyte = GG
 size-megabyte = MG
@@ -721,7 +721,7 @@ whats-inside = Wat is in die Common Voice-datastel?
 dataset-description-hours =
     Elke inskrywing in die datastel bestaan uit 'n unieke MP3 en ooreenstemmende tekslêer. Baie van die <b> { $total }</b> opname-ure in die datastel bevat ook demografiese metadata soos ouderdom, geslag en aksent wat die akkuraatheid van spraakherkenningenjins kan verbeter.
     
-    Die datastel bestaan tans uit <b> { $valid } </b> bevestigde ure in <b> { $languages } </b> tale, maar ons voeg altyd meer stemme en tale by. Kyk gerus na ons <languagesLink> Tale Bladsy </languagesLink> om 'n taal te versoek of om te begin bydra.
+    Die datastel bestaan tans uit <b> { $valid } </b> bevestigde ure in <b> { $languages } </b> tale, maar ons voeg altyd meer stemme en tale by. Kyk gerus na ons <languagesLink> Tale-bladsy </languagesLink> om 'n taal te versoek of om te begin bydra.
 want-dataset-update = Wil jy in kennisgesteel word wanneer ons 'n nuwe weergawe van die Common Voice-datastel vrystel? Teken in op ons nuusbrief.
 subscribe = Teken In
 get-started-speech = Begin met Spraakherkenning
@@ -754,7 +754,7 @@ download-helpus = Help ons om 'n gemeenskap rondom stemtegnologie te bou, bly in
 download-form-email =
     .label = Gee jou e-pos
     .value = Dankie, ons sal jou kontak.
-download-back = Keer Terug na Common Voice Datastelle
+download-back = Keer Terug na Common Voice-datastelle
 download-no = Nee, Dankie
 
 ## Contact Modal
@@ -1082,7 +1082,7 @@ download-request-link-single = Jy kan ook die direkte URL's in jou gunsteling af
 ## Landing
 
 welcome-staff = Welkom { $company } personeel!
-help-contribute = Jy kan help om 'n diverse, oopbron-datastel te bou deur 'n Common Voice-profiel te skep en jou stem by te dra.
+help-contribute = Jy kan help om 'n diverse, oopbrondatastel te bou deur 'n Common Voice-profiel te skep en jou stem by te dra.
 login-company = Meld aan / teken in met { $company } e-posadres
 profile-not-required = Dit is nie nodig om 'n profiel te hê om by te dra nie, hoewel dit nuttig is, sien hier onder waarom.
 read-more-about = Lees meer op ons Meer oor-bladsy
