@@ -13,6 +13,7 @@
 
 ## Layout
 
+privacy = ຄວາມເປັນສ່ວນຕົວ
 
 ## Home Page
 
