@@ -38,6 +38,8 @@ privacy = ຄວາມເປັນສ່ວນຕົວ
 
 ## ProfileForm
 
+off = ປິດ
+on = ເປີດ
 
 ## Profile - Email
 
