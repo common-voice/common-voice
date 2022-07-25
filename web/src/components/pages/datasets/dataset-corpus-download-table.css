@@ -1,0 +1,22 @@
+.dataset-table {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background: var(--light-grey);
+    
+    table{
+        thead, tbody {
+            width: 100%
+        }
+        tr{
+            width: 100%;
+            display: inline-flex;
+        }
+
+        td, th {
+            display: inline-flex;
+            padding: 5px;
+            text-align: left;
+        }
+    }
+}
