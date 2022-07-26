@@ -53,6 +53,7 @@ da = Danish
 de = German
 dsb = Sorbian, Lower
 dv = Dhivehi
+dyu = Dioula
 el = Greek
 en = English
 eo = Esperanto
@@ -121,12 +122,16 @@ my = Burmese
 myv = Erzya
 nan-tw = Taiwanese (Minnan)
 nb-NO = Norwegian Bokmål
+nd = IsiNdebele (North)
 ne-NP = Nepali
 nia = Nias
 nl = Dutch
 nn-NO = Norwegian Nynorsk
+nr = IsiNdebele (South)
+nso = Northern Sotho
 nyn = Runyankole
 oc = Occitan
+om = Afaan Ormoo
 or = Odia
 pa-IN = Punjabi
 pap-AW = Papiamento (Aruba)
@@ -152,6 +157,8 @@ sl = Slovenian
 so = Somali
 sq = Albanian
 sr = Serbian
+ss = Siswati
+st = Southern Sotho
 sv-SE = Swedish
 sw = Swahili
 syr = Syriac
@@ -163,8 +170,10 @@ ti = Tigrinya
 tig = Tigre
 tk = Turkmen
 tl = Tagalog
+tn = Setswana
 tok = Toki Pona
 tr = Turkish
+ts = Xitsonga
 tt = Tatar
 tw = Twi
 ty = Tahitian
@@ -174,15 +183,18 @@ ug = Uyghur
 uk = Ukrainian
 ur = Urdu
 uz = Uzbek
+ve = Tshivenda
 vec = Venetian
 vi = Vietnamese
 vot = Votic
+xh = Xhosa
 yi = Yiddish
 yo = Yoruba
 yue = Cantonese
 zh-CN = Chinese (China)
 zh-HK = Chinese (Hong Kong)
 zh-TW = Chinese (Taiwan)
+zu = Zulu
 
 # [/]
 
@@ -211,6 +223,7 @@ logout = Log Out
 ## Home Page
 
 home-title = Ang Common Voice ay inisyatibo ng Mozilla para tulungang turuan ang mga machine kung paano magsalita ang mga totoong tao
+default-tagline = Ang Mozilla Common Voice ay isang inisyatibo upang matulungan turuan ang mga makina kung paano nagsasalita ang mga totoong tao.
 home-cta = Magsalita, mag-ambag dito!
 wall-of-text-start = Ang boses ay natural, ang boses ay tao. Kaya kami ay nabighani sa paglikha ng boses na pwedeng gamitin  teknolohiya para sa ating mga makina. Pero upang makalikha ng sistema ng boses, napakaraming boses ang kinakailangang data
 wall-of-text-more-desktop = Ngayon pwede mo nang ibigay ang iyong boses upang matulungan kaming bumuo ng open-source voice database na pwedeng gamitin nino man upang makagawa ng panibagong apps para sa mga kagamitan at ng web. Basahin ang pangungusap para tulungang matuto ang mga makina kung pano magsalita ang totoong tao. Suriin ang gawa ng iba pang mga kontribyutor para mapabuti ang kalidad nito. Ganoon lang kasimple!
@@ -295,14 +308,20 @@ shortcut-record-toggle-label = Record/Stop
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Re-record clip
 shortcut-discard-ongoing-recording = ESC
+shortcut-submit = Bumalik
+shortcut-submit-label = Ipadala ang mga clip
 request-language-text = Hindi mo pa nakikita ang iyong wika sa Common Voice?
-request-language-text-learn = Alamin kung paano mag-request dito!
 request-language-button = Humiling ng Wika
 
 ## ProjectStatus
 
 status-title = Pangkalahatang katayuan ng proyekto: tignan ang aming narating!
 status-contribute = Ibahagi ang Iyong Tinig
+status-hours =
+    { $hours ->
+        [one] Isang napatunayang oras sa ngayon!
+       *[other] { $hours } napatunayang oras sa ngayon!
+    }
 # Variables:
 # $goal - number of hours representing the next goal
 status-goal = Susunod na mga layunin: { $goal }
@@ -360,7 +379,7 @@ on = On
 
 ## Profile - Email
 
-browse-file-title = Mag-upload ng file ng imahe
+browse-file-title = Mag-upload ng larawan
 connect-gravatar = I-ugnay ang Gravatar
 gravatar_not_found = Walang nahanap na gravatar para sa iyong email
 file_too_large = Ang piniling file ay masyadong malaki
@@ -383,7 +402,9 @@ faq-how-get-a = Ang Common Voice dataset ay maaari nang i-download sa ilalim ng 
 faq-when-release2-q = Kailan mo ilalabas ang Common Voice data sa ibang wika?
 faq-why-mission-q = Bakit kasama sa misyong ng Mozilla ang Common Voice?
 faq-what-cv-and-deepspeech-q = Ano ang pinagkaiba ng Common Voice at Deep Speech?
+faq-what-cv-and-deepspeech-a = Ang dataset ng Common Voice ay umaakma sa open source na voice recognition engine ng Mozilla na Deep Speech. Ang unang bersyon ng Deep Speech ay inilabas noong Nobyembre 2017 at patuloy na umunlad mula noon. Kasama ang dataset ng Common Voice, naniniwala kaming ang open source na teknolohiya sa pagkilala ng boses ay dapat na available sa lahat. Inaasahan namin na ang mga teknolohiyang ito ay magbibigay-daan sa mga developer na bumuo ng isang alon ng mga makabagong produkto at serbisyo.
 faq-is-goal-assistant-q = Ang layunin ba ng Common Voice ay bumuo ng isang voice assistant?
+faq-is-goal-assistant-a = Ang layunin ng koleksyon ng data ng Common Voice ay para makagawa ang sinuman ng mga programang ukol sa pagkaintindi ng mga salita mula sa boses, pagkilala ng boses ng nagsasalita, o iba pang uri ng programang nangangailangan ng koleksyon ng boses. Ang assistant na nakakaintindi ng boses ay isa lamang sa maraming programa na maaaring gawin gamit ang koleksyon ng boses.
 faq-do-want-native-q = Ako ay isang di-katutubong tagapagsalita at ako ay nagsasalita ng may accent, gusto mo pa ba ang aking boses?
 faq-why-different-speakers-q = Bakit mo kailangan ng napakaraming iba-ibang speaker kada lengguwahe?
 faq-why-my-lang-q = Bakit hindi kasama ang aking wika?
@@ -414,10 +435,13 @@ about-yes-votes = ≥ 2 Yes votes
 about-no-votes = ≥ 2 No votes
 about-clip-graveyard = Libingan ng mga Clip
 about-get-involved = Makibahagi
+about-stay-in-touch-button = Mag-sign up
 about-nav-why-common-voice = Bakit?
 about-nav-how-it-works = Paano?
 about-nav-partners = Mga Katulong
 about-nav-get-involved = Makibahagi
+about-nav-how-it-works-2 = Paano gumagana ang Common Voice?
+about-nav-playbook = Alamin kung paano makilahok
 
 ## Community Playbook Content
 ## What is a language
@@ -426,6 +450,7 @@ about-nav-get-involved = Makibahagi
 ## How do I add a language
 
 about-playbook-how-add-language = Paano magdagdag ng wika?
+about-playbook-how-add-language-translating-heading = Isalin ang site
 
 ## How does localization work
 
@@ -451,8 +476,6 @@ about-playbook-how-grow-language-content-4 = Social media
 
 ## How are decisions made
 
-mycroft-title = Mycroft Ai
-mycroft-subtitle = Artificial intelligence
 
 ## Glossary
 
@@ -488,6 +511,7 @@ review-delete-recordings = Burahin ang mga recording ko
 
 ## Datasets Page
 
+datasets-heading = Mga Dataset
 language = Wika
 # File size in gigabytes
 size = Laki
@@ -531,6 +555,9 @@ request-language-form-language =
 select-language = Pumili ng Wika...
 other-language = Iba pang Wika
 
+## Request Language Pages
+
+
 ## Languages Overview
 
 language-section-launched = Inilunsad na
@@ -543,6 +570,7 @@ sentences = Mga Pangungusap
 
 action-click = Click
 action-tap = Tap
+contribute = Tumulong
 listen = Pakinggan
 skip = Laktawan
 record-cta = Magrecord na
@@ -554,6 +582,8 @@ record-abort-submit = Ipasa ang clips
 record-abort-continue = Tapusin ang pag-record
 record-button-label = I-record ang boses mo
 share-title-new = <bold>Tulungan kaming</bold> humanap ng marami pang mga tinig
+target-segment-add-voice = Idagdag ang Iyong Boses
+target-segment-learn-more = Matuto Nang Higit Pa
 
 ## Reporting
 
@@ -575,6 +605,7 @@ days =
 
 ## Dashboard
 
+your-languages = Ang iyong mga Wika
 stats = Stats
 awards = Mga Pagkilala
 you = Ikaw
@@ -587,6 +618,8 @@ easy-difficulty = Madali
 average-difficulty = Katamtaman
 difficult-difficulty = Mahirap
 pro-difficulty = Pro
+want-to-continue = Nais mo bang magpatuloy?
+finish-editing = Tapusin mo muna ang pag-edit?
 n-clips-pluralized =
     { NUMBER($count) ->
         [one] { $count } clip
@@ -647,6 +680,7 @@ contribution-for-example = halimbawa
 ## HEADER/FOOTER
 
 sc-footer-cookies = Mga Cookie
+sc-logout-button = Maglogout
 
 ## HOME
 
@@ -694,12 +728,17 @@ sc-submit-select-language =
 
 ## PROFILE
 
+# Variables:
+#   $username (String) - eMail address of the logged in user
+sc-profile-title = Profile: { $username }
+sc-personal-remove-button = alisin
 
 ## REVIEW CRITERIA
 
 
 ## REVIEW
 
+sc-review-form-button-skip = Laktawan
 # Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
 sc-review-form-button-approve-shortcut = Y
 # Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
