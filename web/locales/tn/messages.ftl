@@ -270,15 +270,20 @@ read-terms-q = A o badile Melawana ya rona?
 ready-to-record = A o ipaakanyeditse go abelana ka lentswe la gago?
 all-locales = Tsotlhe
 today = Gompieno
-x-months-short =
+x-weeks-short =
     { $count ->
         [one] Beke
-       *[other] { "" }
+       *[other] { $count }wk
+    }
+x-months-short =
+    { $count ->
+        [one] { "" }
+       *[other] { $count }mo
     }
 x-years-short =
     { $count ->
         [one] { "" }
-       *[other] { "" }
+       *[other] { $count }y
     }
 help-make-dataset = Re thuse go aga rekoto ya tshedimosetso ya phatlalatsa, ya maemo a a kwa godimo
 sign-up-account = Ikwadise go nna le akhaonto
@@ -859,8 +864,8 @@ skip = Tlola
 shortcuts = Ditlhabanyetso
 clips-with-count-pluralized =
     { $count ->
-        [one] Kgatiso
-       *[other] Dikgatiso
+        [one] <bold>{ $count }</bold> Kgatiso
+       *[other] <bold>{ $count }</bold> Dikgatiso
     }
 goal-help-recording = O thusitse Common Voice gore e fitlhelele <goalPercentage></goalPercentage> ya maikaelelo a rona a letsatsi a go gatisa { $goalValue }!
 goal-help-validation = O thusitse Common Voice gore e fitlhelele <goalPercentage></goalPercentage> ya maikaelelo a rona a letsatsi a go tlhomamisa { $goalValue }!
@@ -946,8 +951,8 @@ days =
     }
 recordings =
     { $count ->
-        [one] "Kgatiso"
-       *[other] "Dikgatiso"
+        [one] Kgatiso
+       *[other] Dikgatiso
     }
 validations =
     { $count ->
