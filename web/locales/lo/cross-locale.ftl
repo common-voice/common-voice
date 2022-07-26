@@ -7,5 +7,6 @@ get-involved-text = ຂໍ​ຂອບ​ໃຈ​ທ່ານ​ສໍາ​ລ
 get-involved-form-title = ລົງທະບຽນສໍາລັບການອັບເດດ { $lang }:
 get-involved-email =
     .label = ອີເມລ
+get-involved-opt-in = ແມ່ນແລ້ວ, ສົ່ງອີເມວຫາຂ້ອຍ. ຂ້ອຍບໍ່ຕ້ອງການພາດຂ່າວສານກ່ຽວກັບຄວາມຄືບໜ້າຂອງພາສານີ້ຢູ່ໃນ Common Voice.
 get-involved-submit = ສົ່ງ
 get-involved-return-to-languages = ກັບໄປຫາພາສາ
