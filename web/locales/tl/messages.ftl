@@ -226,7 +226,10 @@ home-title = Ang Common Voice ay inisyatibo ng Mozilla para tulungang turuan ang
 default-tagline = Ang Mozilla Common Voice ay isang inisyatibo upang matulungan turuan ang mga makina kung paano nagsasalita ang mga totoong tao.
 home-cta = Magsalita, mag-ambag dito!
 wall-of-text-start = Ang boses ay natural, ang boses ay tao. Kaya kami ay nabighani sa paglikha ng boses na pwedeng gamitin  teknolohiya para sa ating mga makina. Pero upang makalikha ng sistema ng boses, napakaraming boses ang kinakailangang data
+wall-of-text-more-mobile = Karamihan sa mga data na ginagamit ng mga malalaking kumpanya ay hindi magagamit sa karamihan ng mga tao. Sa palagay namin ay pinipigilan ang pagbabago. Kaya inilunsad namin ang Project Common Voice, isang proyekto upang makatulong na buksan ang pagkilala sa boses sa lahat.
 wall-of-text-more-desktop = Ngayon pwede mo nang ibigay ang iyong boses upang matulungan kaming bumuo ng open-source voice database na pwedeng gamitin nino man upang makagawa ng panibagong apps para sa mga kagamitan at ng web. Basahin ang pangungusap para tulungang matuto ang mga makina kung pano magsalita ang totoong tao. Suriin ang gawa ng iba pang mga kontribyutor para mapabuti ang kalidad nito. Ganoon lang kasimple!
+wall-of-text-first = Likas ang boses, pantao ang boses. Kaya nasasabik kami sa paglikha ng magagamit na teknolohiyang pamboses para sa ating mga makina. Pero upang makalikha ng mga sistemang pamboses, kinakailangan ng mga developer ng napakaraming data ng mga boses.
+wall-of-text-second = Karamihan sa mga data na ginagamit ng mga malalaking mga kumpanya ay hindi available sa karamihang mga tao. Sa tingin namin na ito'y pumipigil sa pagbabago. Kaya inilunsad namin ang Common Voice, isang proyektong tutulong na gawing bukas at na-aaccess ng lahat ang voice recognition.
 show-wall-of-text = Magbasa nang Higit Pa
 help-us-title = Tulungan kaming magpatibay ng mga pangungusap!
 help-us-explain = Pindutin ang play, makinig at sabihin sa amin: kanila bang nabigkas ng tama ang pangungusap sa ibaba?
@@ -238,6 +241,7 @@ speak-subtitle = I-donate ang iyong boses
 speak-paragraph = Ang pagrecord ng clips ng boses ay isang mahalagang parte sa pagbuo ng aming open dataset; may mga ilang nagsasabing masaya rin ang parteng ito.
 speak-goal-text = Mga clip na naitala
 listen-subtitle = Tulungan kaming magpatibay ng mga tinig
+listen-paragraph = Ang pag-vavalidate ng mga donated clips ay patas ang pagka-importante sa misyon ng Common Voice. Makinig at tulungan mo kaming gumawa ng kalidad na open source voice data.
 listen-goal-text = Mga clip na napagtibay na
 hours-recorded = Mga Naitalang Oras
 hours-validated = Bilang ng Oras na Napagtibay
@@ -269,6 +273,7 @@ email-subscription-title-new = Mag-sign up para sa mga balita, pagpapaalala ng m
 ## Account Benefits
 
 benefits = Benepisyo
+keep-track = Subaybayan ang iyong progreso at datos sa maramihang wika.
 compare-progress = Tingnan kung paano maihahambing ang iyong progreso kumpara sa iba pang mga kontribyutor sa iba't ibang sulok ng mundo.
 view-goals = Ipakita ang iyong mga progreso patungkol sa personal at mga layunin ng proyekto.
 join-newsletter = Opsyunal na sumali sa aming listahan ng email para sa mga update at mga bagong impormasyon tungkol sa proyekto.
@@ -367,6 +372,7 @@ profile-close = Isara
 profile-explanation = Subaybayan ang iyong pag-unlad gamit ang iyong profile at tulungan ang aming data ng mga boses na mas maging tama.
 thanks-for-account = Salamat sa pagkumpirma ng iyong account, ngayon gawin natin ang iyong profile.
 why-demographic = Bakit ito nararapat?
+accept-privacy = Pumapayag akong mamahala ka sa aking impormasyon kaugnay ng <privacyLink>Patakaran sa Privacy<privacyLink> ng Mozilla.
 accept-privacy-title = Patakarang Pangpribasiya
 login-signup = Log In / Sign Up
 edit = i-Edit
@@ -380,11 +386,13 @@ on = On
 ## Profile - Email
 
 browse-file-title = Mag-upload ng larawan
+browse-file = Drag and drop or <browseWrap>Browse</browseWrap>
 connect-gravatar = I-ugnay ang Gravatar
 gravatar_not_found = Walang nahanap na gravatar para sa iyong email
 file_too_large = Ang piniling file ay masyadong malaki
 avatar-uploaded = Na-upload na ang Avatar
 max-file-size = { $kb }kb max
+remove-avatar = Alisin ang Avatar
 
 ## Profile - Email
 
@@ -401,6 +409,7 @@ faq-how-get-q = Paano ko makukuha ang Common Voice data?
 faq-how-get-a = Ang Common Voice dataset ay maaari nang i-download sa ilalim ng <licenseLink>CC0</licenseLink> sa <datasetLink> ang aming pahina ng mga Dataset</datasetLink>. Pwede mo ring i-download ang ilan sa mga dataset na bukas sa publiko sa mismong pahina.
 faq-when-release2-q = Kailan mo ilalabas ang Common Voice data sa ibang wika?
 faq-why-mission-q = Bakit kasama sa misyong ng Mozilla ang Common Voice?
+faq-why-mission-a = Nakatuon ang Mozilla sa pagpapanatiling bukas at naa-access ng web para sa lahat. Para magawa iyon, kailangan nating bigyang kapangyarihan ang mga web creator sa pamamagitan ng mga proyekto tulad ng Common Voice. Habang dumarami ang mga teknolohiya ng boses na higit pa sa mga angkop na aplikasyon, naniniwala kami na dapat silang maglingkod nang pantay-pantay sa lahat ng user. Nangangahulugan iyon ng pamumuhunan sa higit pang mga wika at pagtanggap ng magkakaibang accent at demograpiko kapag bumubuo at sumusubok ng mga teknolohiya ng boses. Ang Common Voice ay isang pampublikong mapagkukunan na magagamit ng lahat at ginagamit na rin ito ng mga koponan at developer ng Mozilla sa buong mundo sa sarili nating mga proyekto.
 faq-what-cv-and-deepspeech-q = Ano ang pinagkaiba ng Common Voice at Deep Speech?
 faq-what-cv-and-deepspeech-a = Ang dataset ng Common Voice ay umaakma sa open source na voice recognition engine ng Mozilla na Deep Speech. Ang unang bersyon ng Deep Speech ay inilabas noong Nobyembre 2017 at patuloy na umunlad mula noon. Kasama ang dataset ng Common Voice, naniniwala kaming ang open source na teknolohiya sa pagkilala ng boses ay dapat na available sa lahat. Inaasahan namin na ang mga teknolohiyang ito ay magbibigay-daan sa mga developer na bumuo ng isang alon ng mga makabagong produkto at serbisyo.
 faq-is-goal-assistant-q = Ang layunin ba ng Common Voice ay bumuo ng isang voice assistant?
@@ -427,12 +436,16 @@ about-title = Bakit Common Voice?
 
 ## How does it work section
 
+about-localization-title = Lokalisasyong ng Website
+about-new-lang-title = Bagong Paglunsad ng Wika
+about-dataset-release-subtitle = Naglalabas kami ng dataset bawat 3 buwan.
 about-speak = Magsalita
 about-listen-queue = Listen-Queue
 about-listen = Makinig
 about-is-it-valid = Wasto ba ang clip?
 about-yes-votes = ≥ 2 Yes votes
 about-no-votes = ≥ 2 No votes
+about-dataset-new = Common Voice Dataset
 about-clip-graveyard = Libingan ng mga Clip
 about-get-involved = Makibahagi
 about-stay-in-touch-button = Mag-sign up
@@ -446,6 +459,7 @@ about-nav-playbook = Alamin kung paano makilahok
 ## Community Playbook Content
 ## What is a language
 
+about-playbook-what-is-language = Ano ang isang wika sa Common Voice?
 
 ## How do I add a language
 
@@ -487,6 +501,7 @@ sst = Speech-to-text (STT)
 ## Error pages
 
 error-title-404 = Hindi namin mahanap ang page na 'yan para sa'yo
+error-title-503 = Naranasan namin ang hindi inaasahang downtime
 error-code = Error { $code }
 
 ## Data
@@ -495,6 +510,7 @@ data-download-button = i-Download ang Common Voice Data
 data-download-yes = Oo
 data-download-deny = Hindi
 data-download-license = License: <licenseLink>CC-0</licenseLink>
+data-download-modal = Magsisimula kang mag-download ng <size> { $size } GB </size>, magpatuloy?
 data-other-goto = Pumunta sa { $name }
 data-other-download = Download Data
 data-bundle-button = Download Dataset Bundle
@@ -503,6 +519,7 @@ dataset-date = Petsa
 license-mixed = Magkahalo
 terms-agree = Sumasang-ayon ako
 terms-disagree = Hindi ako sumasang-ayon
+review-submit-title = Suriin at Ipasa
 review-recording = Suriin
 review-rerecord = i-Record Muli
 review-cancel = Kanselahin ang Pagpasa
@@ -519,10 +536,12 @@ overall-hr-total = Overall Hr. Total
 cv-license = Lisensya
 audio-format = Audio Format
 number-of-voices = Bilang ng mga Tinig
+email-to-download = Ilagay ang Email para i-download
 size-gigabyte = GB
 size-megabyte = MB
 download-language = i-Download ang { $language }
 recorded-hours = Mga Oras na Na-record
+want-dataset-update = Gusto mo ba ng mga update kapag naglabas kami ng bagong bersyon ng dataset ng Common Voice? Mag-subscribe sa aming newsletter.
 subscribe = Mag-subscribe
 community-playbook = Community Playbook
 data-other-ted-name = TED-LIUM Corpus
@@ -550,6 +569,7 @@ contact-required = *required
 
 ## Request Language Modal
 
+request-language-title = Humiling ng wika
 request-language-form-language =
     .label = Wika
 select-language = Pumili ng Wika...
@@ -557,14 +577,19 @@ other-language = Iba pang Wika
 
 ## Request Language Pages
 
+request-language-form-email =
+    .label = Iyong email address
 
 ## Languages Overview
 
 language-section-launched = Inilunsad na
+languages-show-less = Tignan ng Kaunti
+language-meter-in-progress = Progreso
 language-total-progress = Kabuuan
 language-search-input =
     .placeholder = Hanapin
 sentences = Mga Pangungusap
+language-validation-hours = Mga Oras
 
 ## Contribution
 
@@ -576,6 +601,9 @@ skip = Laktawan
 record-cta = Magrecord na
 record-platform-not-supported = Paumanhin, hindi suportado ang platform mo.
 record-no-mic-found = Walang makitang mikropono.
+record-error-too-short = Masyadong maikli ang recording.
+record-error-too-long = Masyadong mahaba ang recording.
+record-error-too-quiet = Masyadong tahimik ang recording.
 record-three-more-instruction = Tatlo na lang!
 share-clip = Ibahagi ang iyong clip
 record-abort-submit = Ipasa ang clips
@@ -620,6 +648,7 @@ difficult-difficulty = Mahirap
 pro-difficulty = Pro
 want-to-continue = Nais mo bang magpatuloy?
 finish-editing = Tapusin mo muna ang pag-edit?
+which-goal-type = Gusto mo bang Magsalita, Makinig o pareho?
 n-clips-pluralized =
     { NUMBER($count) ->
         [one] { $count } clip
