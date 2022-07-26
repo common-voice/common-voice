@@ -1,5 +1,11 @@
 ## General
 
+return-to-cv = ກັບໄປທີ່ Common Voice
+email-input =
+    .label = ອີເມລ
+submit-form-action = ສົ່ງ
+loading = ກຳລັງໂຫລດ…
+banner-error-slow-link = ຫນ້າສະຖານະ
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
