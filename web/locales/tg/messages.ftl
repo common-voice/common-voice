@@ -646,6 +646,7 @@ demo-listen-subtitle = Ба саҳмгузорӣ омода ҳастед?
 
 ## HEADER/FOOTER
 
+sc-header-home = Саҳифаи асосӣ
 sc-header-profile = Профил
 sc-footer-privacy = Махфият
 sc-footer-terms = Шартҳо
