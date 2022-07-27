@@ -736,6 +736,8 @@ datasets-positioning =
 
     Look to this page as a reference hub for other open source voice datasets and, as Common Voice continues to grow, a home for our release updates.
 language = Language
+download-dataset-header = Download the Dataset
+download-dataset-tag = Select the desired language dataset and choose the version you wish to download.
 # File size in gigabytes
 size = Size
 validated-hr-total = Validated Hr. Total
