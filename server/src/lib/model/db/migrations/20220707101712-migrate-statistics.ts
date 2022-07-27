@@ -30,9 +30,10 @@ export const down = async function (db: any): Promise<any> {
   ALTER TABLE datasets 
     DROP COLUMN total_clips_duration, 
     DROP COLUMN valid_clips_duration, 
-    DROP COLUMN release_type
+    DROP COLUMN release_type,
+    DROP COLUMN download_path
   `);
   await db.runSql(`
-  DROP TABLE locale_datasets 
+    DROP TABLE locale_datasets 
   `);
 };
