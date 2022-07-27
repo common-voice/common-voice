@@ -35,7 +35,6 @@ const getTotalStats = statistics => {
 
 async function getDatasetId(db, values) {
   try {
-    console.log('values', values);
     const [{ id }] = await db(
       `
       SELECT id FROM datasets
@@ -70,6 +69,7 @@ async function updateTotals(db, values) {
       SET total_clips_duration = ?,
           valid_clips_duration = ?,
           release_type = ?
+          download_path = ?
       WHERE release_dir = ?
     `,
       [...values]
@@ -119,14 +119,11 @@ async function loadStatisticFiles(db) {
     const statistics = JSON.parse(await fs.readFile(statisticsPath, 'utf-8'));
 
     //save total dataset stats to db
-    // let totalReleaseStats = getTotalStats(statistics);
-    // totalReleaseStats[1] = secondsToMilliseconds(totalReleaseStats[1]);
-    // totalReleaseStats = [
-    //   ...totalReleaseStats,
-    //   releaseType,
-    //   release_dir,
-    // ];
-    // await updateTotals(db, totalReleaseStats);
+    let totalReleaseStats = getTotalStats(statistics);
+    totalReleaseStats[1] = secondsToMilliseconds(totalReleaseStats[1]);
+    totalReleaseStats = [...totalReleaseStats, releaseType, release_dir];
+    const download_path = statistics?.bundleURLTemplate;
+    await updateTotals(db, [...totalReleaseStats, download_path]);
 
     // dataset_id
     // locale_id
