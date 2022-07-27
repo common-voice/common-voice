@@ -4,7 +4,8 @@ export const up = async function (db: any): Promise<any> {
     ALTER TABLE datasets
       ADD COLUMN total_clips_duration BIGINT UNSIGNED,
       ADD COLUMN valid_clips_duration BIGINT UNSIGNED,
-      ADD COLUMN release_type ENUM ('complete', 'singleword', 'delta') DEFAULT 'complete'
+      ADD COLUMN release_type ENUM ('complete', 'singleword', 'delta') DEFAULT 'complete',
+      ADD COLUMN download_path VARCHAR(255) DEFAULT NULL
     `);
 
   await db.runSql(`
