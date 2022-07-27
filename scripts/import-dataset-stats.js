@@ -68,7 +68,7 @@ async function updateTotals(db, values) {
       UPDATE datasets
       SET total_clips_duration = ?,
           valid_clips_duration = ?,
-          release_type = ?
+          release_type = ?,
           download_path = ?
       WHERE release_dir = ?
     `,
@@ -121,18 +121,14 @@ async function loadStatisticFiles(db) {
     //save total dataset stats to db
     let totalReleaseStats = getTotalStats(statistics);
     totalReleaseStats[1] = secondsToMilliseconds(totalReleaseStats[1]);
-    totalReleaseStats = [...totalReleaseStats, releaseType, release_dir];
-    const download_path = statistics?.bundleURLTemplate;
-    await updateTotals(db, [...totalReleaseStats, download_path]);
-
-    // dataset_id
-    // locale_id
-    // total_clips_duration
-    // valid_clips_duration
-    // average_clips_duration
-    // total_users
-    // size
-    // checksum
+    const { bundleURLTemplate: download_path } = statistics;
+    totalReleaseStats = [
+      ...totalReleaseStats,
+      releaseType,
+      download_path,
+      release_dir,
+    ];
+    await updateTotals(db, totalReleaseStats);
 
     //save individual languages stats to db per dataset
     const { locales } = statistics;
