@@ -4816,6 +4816,7 @@ Das Kellerfenster war nur einen Spalt breit offen.
 Das Kind hat Neunundreißig Komma Acht Grad Fieber.
 Das Kind hat neununddreißig Komma acht Grad Fieber.
 Das Kind lag im Maxicosi und schlief friedlich.
+Das Kind machte sich daran, die volle Wanne mit den Staubsauger auszusaugen.
 Das Kind malt ein Bild.
 Das Kind sprang voller Freude in die Pfütze.
 Das Kind wird es auf dem Schulhof nicht leicht haben.
@@ -13959,6 +13960,8 @@ Ganz ehrlich, ich möchte nicht in ihrer Haut stecken.
 Ganz einfach: Die rote Karte befand sich in der Gesäßtasche des Schiris.
 Ganz einfach: Neunzehnhundertsiebzehn wohnte er schon in Rietschen.
 Ganz einfach: Weil es Spaß macht.
+Ganz großes Kino.
+Ganz großes Tennis wird hier gespielt.
 Ganz klar, hierbei handelt es sich um einen technischen Defekt.
 Ganz offensichtlich hat der Herrscher jeden Bezug zum einfachen Volk verloren.
 Ganz recht, und das wird jetzt gern getragen.
@@ -14286,6 +14289,7 @@ Geredet wurde genug.
 Gerichtete Energieformen sind die wertvollsten.
 Geringverdiener wie du tun mir leid.
 Gern geschehen mein Herr.
+Gern geschehen.
 Gern, vorausgesetzt, dass Ihnen meine Gesellschaft nicht allzu lästig ist.
 Gerne stellt man sich dann als größten Retter der Menschheit dar.
 Gerne würde Theresa beruflich etwas kürzer treten.
