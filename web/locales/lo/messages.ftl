@@ -5,7 +5,9 @@ email-input =
     .label = ອີເມລ
 submit-form-action = ສົ່ງ
 loading = ກຳລັງໂຫລດ…
+not-available-abbreviation = N/A
 banner-error-slow-link = ຫນ້າສະຖານະ
+error-something-went-wrong = ຂໍອະໄພ, ມີບາງຢ່າງຜິດພາດເກີດຂຶ້ນ
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -13,6 +15,26 @@ banner-error-slow-link = ຫນ້າສະຖານະ
 
 ## Languages
 
+ab = ພາສາອັບ​ກາດ​ຊ
+ace = ພາສາອາເຊນ
+af = ພາສາແອຟຣິຄານສ
+am = ພາ​ສາ​ອຳ​ຮາ​ຣິກ
+an = ພາ​ສາ​ອາ​ຣາ​ໂກນ
+ar = ພາສາອາຣັບ
+as = ພາ​ສາ​ອາ​ຊຳ​ມີ​ດ
+ast = ພາສາອັສຕູເຣຍ
+az = ພາສາອາເຊີໄບຈັນ
+ba = ພາສາບາສເກີ
+bas = ພາສາບາຊາ
+be = ພາ​ສາເບ​ລາ​ຣຸດ​
+bg = ພາ​ສາ​ບຸນ​ກາ​ຣີ
+bn = ພາສາເບັງກາລີ
+br = ພາສາເບຣຕອນ
+bs = ພາສາບອສເນຍ
+ca = ພາສາ​ກາ​ຕາ​ລັນ
+co = ພາສາໂຄຊິແກນ
+cs = ພາສາເຊັກ
+cv = ພາ​ສາ​ຊູ​ວາດ​ສ
 
 # [/]
 
