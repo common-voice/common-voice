@@ -1,16 +1,19 @@
 .dataset-corpus-download {
     background: var(--lighter-grey);
+    display: flex;
+    justify-content: center;
+    .dataset-corpus-download-container{
+        transform: translateY(-2%);
+        background: var(--light-grey);
+        width: 80%;
+        padding: 2%;
+    }
 
-    .inner {
-        @media (--md-down) {
-            padding: 40px 20px;
-        }
+    .input-row {
 
         @media (--lg-up) {
             max-width: 400px;
-            padding-top: 60px;
-            padding-bottom: 20px;
-            padding-inline-start: 100px;
+            padding: 20px 0px;
         }
     }
 
