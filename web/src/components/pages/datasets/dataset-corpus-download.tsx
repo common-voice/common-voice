@@ -4,112 +4,120 @@ import {
   WithLocalizationProps,
 } from '@fluent/react';
 import * as React from 'react';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { localeConnector, useLocale } from '../../locale-helpers';
 import useSortedLocales from '../../../hooks/use-sorted-locales';
-import { ReleaseData } from './types';
 import { byteToSize } from '../../../utility';
-import { LabeledSelect } from '../../ui/ui';
-import { RELEASES } from './releases';
+import { LabeledSelect, Spinner } from '../../ui/ui';
 
-import DatasetCorpusDownloadStats from './dataset-corpus-download-stats';
 import DatasetDownloadEmailPrompt from './dataset-download-email-prompt';
 
 import './dataset-corpus-download.css';
+import { useAPI } from '../../../hooks/store-hooks';
+import DatasetCorpusDownloadTable from './dataset-corpus-download-table';
+import PageHeading from '../../ui/page-heading';
 
 const formatHrs = (hrs: number) => {
   return hrs < 1 ? Math.floor(hrs * 100) / 100 : Math.floor(hrs);
 };
 
 interface Props {
-  releaseData: ReleaseData;
   releaseId: string;
   setReleaseId: (id: string) => void;
+  languagesWithDatasets: { id: number; name: string }[];
+  initialLanguage: string;
 }
+
+type LanguageDatasets = {
+  download_path: string;
+  id: number;
+  checksum: string;
+  size: number;
+};
 
 const DatasetCorpusDownload = ({
   getString,
-  releaseData,
-  releaseId,
-  setReleaseId,
+  languagesWithDatasets,
+  initialLanguage,
 }: Props & WithLocalizationProps) => {
-  const generateBundleState = (bundleLocale: string, releaseId: string) => {
-    const { checksum, size, totalHrs, validHrs } = releaseData.locales[locale];
-
-    return {
-      bundleLocale,
-      checksum,
-      rawSize: size,
-      size: byteToSize(size, getString),
-      language: getString(bundleLocale),
-      totalHours: formatHrs(totalHrs),
-      validHours: formatHrs(validHrs),
-      releaseId,
-    };
-  };
-
-  const [globalLocale] = useLocale();
-  const [sortedLocales] = useSortedLocales(
-    Object.keys(releaseData.locales),
-    getString
+  const [isLoading, setIsLoading] = useState(true);
+  const [selectedDataset, setSelectedDataset] = useState<LanguageDatasets>();
+  const [LanguageDatasets, setLanguageDatasets] = useState<LanguageDatasets[]>(
+    []
   );
-  const [locale, setLocale] = useState(
-    releaseData.locales[globalLocale] ? globalLocale : 'en'
-  );
+  const api = useAPI();
 
-  const bundleState = generateBundleState(locale, releaseId);
+  const [locale, setLocale] = useState(initialLanguage);
 
   const handleLangChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     const newLocale = event.target.value;
+
     setLocale(newLocale);
   };
 
-  const handleVersionChange = (event: React.ChangeEvent<HTMLInputElement>) => {
-    const newReleaseId = event.target.value;
-    setReleaseId(newReleaseId);
-  };
+  useEffect(() => {
+    setIsLoading(true);
 
+    api.getLanguageDatasetStats(locale).then(data => {
+      setLanguageDatasets(data);
+      setSelectedDataset(data[0]);
+      setIsLoading(false);
+    });
+  }, [locale]);
+
+  // if (isLoading) {
+  //   return <Spinner />;
+  // }
   return (
     <div className="dataset-corpus-download">
-      <div className="inner">
-        <LabeledSelect
-          label={getString('release-version')}
-          name="releaseId"
-          value={bundleState.releaseId}
-          onChange={handleVersionChange}>
-          {RELEASES.map(({ id, name }) => (
-            <option key={id} value={id}>
-              {name}
-            </option>
-          ))}
-        </LabeledSelect>
-
-        <LabeledSelect
-          label={getString('language')}
-          name="bundleLocale"
-          value={locale}
-          onChange={handleLangChange}>
-          {sortedLocales.map(locale => (
-            <Localized key={locale} id={locale}>
-              <option value={locale} />
-            </Localized>
-          ))}
-        </LabeledSelect>
-
-        <ul className="facts">
-          <DatasetCorpusDownloadStats
-            releaseData={releaseData}
-            bundleState={bundleState}
-          />
-        </ul>
-        <DatasetDownloadEmailPrompt
-          urlPattern={
-            releaseData.bundleURLTemplate
-              ? releaseData.bundleURLTemplate
-              : releaseData.bundleUrl
-          }
-          bundleState={bundleState}
-        />
+      <div className="dataset-corpus-download-container">
+        <div className="table-text">
+          <PageHeading>
+            <Localized id="download-dataset-header" />
+          </PageHeading>
+          <p>
+            <Localized id="download-dataset-tag" />
+          </p>
+        </div>
+        <div className="input-row">
+          <LabeledSelect
+            label={getString('language')}
+            name="bundleLocale"
+            value={locale}
+            onChange={handleLangChange}>
+            {useSortedLocales(
+              languagesWithDatasets.map(s => s.name),
+              getString
+            )[0].map(val => (
+              <Localized key={val + 'test'} id={val}>
+                <option value={val} />
+              </Localized>
+            ))}
+          </LabeledSelect>
+        </div>
+        <div
+          style={{
+            display: 'flex',
+            width: '100%',
+            alignItems: 'center',
+            justifyContent: 'center',
+          }}>
+          {!isLoading && LanguageDatasets && (
+            <DatasetCorpusDownloadTable
+              onRowSelect={(e: any) => console.log(e)}
+              releaseData={LanguageDatasets}
+            />
+          )}
+          {selectedDataset && selectedDataset.download_path && (
+            <DatasetDownloadEmailPrompt
+              selectedLocale={locale}
+              downloadPath={selectedDataset.download_path}
+              releaseId={selectedDataset.id.toString()}
+              checksum={selectedDataset.checksum}
+              size={selectedDataset.size}
+            />
+          )}
+        </div>
       </div>
     </div>
   );
