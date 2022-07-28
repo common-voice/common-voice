@@ -1,31 +1,34 @@
+import { Localized } from '@fluent/react';
 import * as React from 'react';
 import './dataset-corpus-download-table.css';
 
 interface Props {
   releaseData: any[];
+  onRowSelect: any;
 }
 
-const COLUMN_LABELS = [
-  'total_clips_duration',
-  'valid_clips_duration',
-  'average_clips_duration',
-  'total_users',
-  'size',
-  'name',
-  'release_date',
-  'release_type',
-];
+const COLUMN_VALUES = {
+  name: 'dataset-version',
+  release_date: 'dataset-date',
+  size: 'size',
+  total_clips_duration: 'recorded-hours',
+  valid_clips_duration: 'validated-hours',
+  license: 'cv-license',
+  total_users: 'number-of-voices',
+  audio_format: 'audio-format',
+};
 
-const DatasetCorpusDownloadTable = ({ releaseData }: Props) => {
-  const columnWidth = 100 / COLUMN_LABELS.length + '%';
+const DatasetCorpusDownloadTable = ({ releaseData, onRowSelect }: Props) => {
+  const columnWidth = 100 / Object.keys(COLUMN_VALUES).length + '%';
+
   return (
     <table className="table dataset-table">
       <thead>
         <tr>
-          {COLUMN_LABELS.map(name => {
+          {Object.values(COLUMN_VALUES).map(name => {
             return (
               <th style={{ width: columnWidth }} key={name}>
-                {name}
+                <Localized id={name} />
               </th>
             );
           })}
@@ -34,14 +37,13 @@ const DatasetCorpusDownloadTable = ({ releaseData }: Props) => {
       <tbody>
         {releaseData.map(row => {
           return (
-            <tr key={row.id + row.release_dir}>
-              {Object.entries(row).map(([key, value]) => {
-                if (COLUMN_LABELS.includes(key))
-                  return (
-                    <td style={{ width: columnWidth }} key={key + value}>
-                      {value || 0}{' '}
-                    </td>
-                  );
+            <tr onClick={onRowSelect} key={row.id + row.release_dir}>
+              {Object.keys(COLUMN_VALUES).map((col, index) => {
+                return (
+                  <td style={{ width: columnWidth }} key={index + col}>
+                    {row[col] || 0}
+                  </td>
+                );
               })}
             </tr>
           );
