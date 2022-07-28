@@ -63,6 +63,9 @@ privacy = ຄວາມເປັນສ່ວນຕົວ
 terms = ຂໍ້ກຳນົດ
 cookies = ຄຸກກີ້
 faq = ຄຳຖາມທີພົບເປັນປະຈຳ
+link-copied = ໄດ້ສຳເນົາລີ້ງໄວ້ແລ້ວ
+back-top = ກັບຂື້ນໄປເທິງ
+logout = ອອກຈາກລະບົບ
 
 ## Home Page
 
