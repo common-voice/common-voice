@@ -35,16 +35,38 @@ ca = ພາສາ​ກາ​ຕາ​ລັນ
 co = ພາສາໂຄຊິແກນ
 cs = ພາສາເຊັກ
 cv = ພາ​ສາ​ຊູ​ວາດ​ສ
+cy = ພາສາເວລສ
+da = ພາ​ສາເດນ​ມາກ
+de = ພາ​ສາ​ເຢຍ​ລະ​ມັນ
+dsb = ພາສາຊໍບຽນຕອນລຸ່ມ
+dv = ພາສາດິເວຮິ
+dyu = ພາສາ Dioula
+el = ພາສາເກ​ຣັກ
+en = ພາສາອັງກິດ
+zh-TW = ພາສາຈີນ (ໄຕ້ຫວັນ)
+zu = ພາສາຊູລູ
 
 # [/]
 
 
 ## Layout
 
+speak = ເວົ້າ
+speak-now = ເວົ້າຕອນນີ້
+datasets = ຊຸດຂໍ້ມູນ
+languages = ພາສາ
+about = ກ່ຽວກັບ
+profile = ໂປ​ຣ​ໄຟ​ລ
+help = ຊ່ວຍເຫລືອ
+contact = ຕິດຕໍ່
 privacy = ຄວາມເປັນສ່ວນຕົວ
+terms = ຂໍ້ກຳນົດ
+cookies = ຄຸກກີ້
+faq = ຄຳຖາມທີພົບເປັນປະຈຳ
 
 ## Home Page
 
+speak-subtitle = ບໍລິຈາກສຽງຂອງເຈົ້າ
 
 ## Account Benefits
 
