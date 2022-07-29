@@ -14,6 +14,8 @@ email-opt-in-info-sub-with-challenge = Primaj e-mailove poput podsjetnika o izaz
 email-opt-in-privacy-v2 = Prihvaćanjem primanja e-mail poruka, pristaješ na obradu tvojih podataka, kako je objašnjeno u Mozillinoj <privacyLink>politici privatnosti</privacyLink>.
 indicates-required = * obilježava obvezno polje
 not-available-abbreviation = --
+banner-error-slow-2 = Trenutačno primamo veliku količinu podataka i istražujemo probleme.
+banner-error-slow-link = Stranica stanja
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -36,7 +38,6 @@ ba = Baškirski
 bas = Basaa
 be = Bjeloruski
 bg = Bugarski
-bm = Bambara
 bn = Bengalski
 br = Bretonski
 bxr = Buryat
@@ -302,7 +303,6 @@ shortcut-rerecord-toggle-label = Ponovo snimi isječak
 shortcut-submit = Potvrdi
 shortcut-submit-label = Pošalji isječke
 request-language-text = Tvoj jezik nedostaje u Common Voiceu?
-request-language-text-learn = Ovdje možete saznati kako to zatražiti!
 request-language-button = Zatražite jezik
 
 ## ProjectStatus
@@ -422,7 +422,6 @@ faq-why-different-speakers-a =
     Većina govornih baza podataka obučena je s prekomjernom prezentacijom određenih demografskih podataka što rezultira pristranosti prema <articleLink>muškom rodu i srednjoj klasi</articleLink>. Akcenti i dijalekti koji su nedovoljno zastupljeni u skupovima podataka obično su povezani s skupinama ljudi koji su već marginalizirani. Mnogi se strojevi također bore razumjeti ženski glas.
     To je razlog zašto u našoj govornoj bazi podataka želimo raznolikost!
 faq-why-my-lang-q = Zašto moj jezik još nije uključen?
-faq-why-my-lang-new-a = Mozilla ne daje prednost niti jednom jeziku. Common Voice je inicijativa koju vodi isključivo zajednica, ali potrebno je <multilangLink>nekoliko koraka za dodavanje novog jezika</multilangLink> i za prikupljanje glasovnih doprinosa. Common Voice web-stranica se najprije mora prevesti, kako bi joj članovi zajednice mogli pristupiti na materinskom jeziku. Nadalje nam je potrebna velika količina rečenica bez autorskih prava, kako bi ih ljudi naglas čitali. Nakon što su oba zahtjeva zadovoljena, na Common Voiceu se jezik „lansira”, kako bi ljudi započeli snimati svoj glas i potvrđivati druge doprinose. Ako želiš pomoći započeti novi jezik, prijeđi na naš <sentenceCollectorLink>alat za prikupljanje rečenica</sentenceCollectorLink>.
 faq-what-quality-q = Koja je kvaliteta zvuka potrebna za korištenje glasovnog isječka?
 faq-what-quality-a = Želimo da podaci skupa Common Voice odražavaju kvalitetu zvuka koju će mehanizam za pretvaranje govora u tekst razumjeti, te stoga tražimo različitost. Pored raznolike zajednice govornika, skup podataka s različitom kvalitetom zvuka, podučit će mehanizam za pretvaranje govora u tekst, riješiti razne situacije u stvarnom svijetu, od razgovora u pozadini do buke u automobilu. Sve dok je tvoj glasovni isječak razumljiv, trebao bi biti dovoljno dobar za skup podataka.
 faq-why-10k-hours-q = Zašto je postavljen cilj od 10.000 potvrđenih sati po jeziku?
@@ -454,12 +453,10 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Zašto Common Voice?
-about-subtitle = Common Voice je Mozillina inicijativa za učenje strojeva govoriti ljudskim jezikom. Pored skupa podataka Common Voice također gradimo program za prepoznavanje govora otvorenog koda, koji se zove Deep Speech.
-about-header-description =
-    Oba ova projekta dio su naših nastojanja da premostimo razliku između ljudskog i digitalnog govora. Tehnologije prepoznavanja glasa dodaju ljudsku dimenziju našim uređajima, ali za njihovu izgradnju, programeri trebaju ogromne količine govornih podataka. Trenutačno je većina tih podataka vrlo skupa i vlasnička.
-    Želimo da glasovni podaci budu javno dostupni i osigurati, da ti podaci predstavljaju raznolikost stvarnih ljudi. Zajedno možemo poboljšati prepoznavanje glasa svima.
-how-does-it-work-title = Način rada.
 how-does-it-work-text = Stvaramo skup podataka glasova otvorenog koda. Daj svoj glas, potvrdi točnost snimaka drugih ljudi, poboljšaj skup podataka za sve korisnike.
+
+## How does it work section
+
 about-speak = Govori
 about-speak-text = Sudionici snimaju glasovne zapise čitajući iz baze doniranih rečenica.
 about-listen-queue = Red čekanja za slušanje
@@ -476,12 +473,6 @@ about-dataset-new = Skup podataka Common Voice
 about-dataset-new-text = Skup podataka Common Voice sadrži stotine tisuća uzoraka glasa koji programerima pomažu izraditi alat za prepoznavanje glasa.
 about-clip-graveyard = Groblje isječaka
 about-clip-graveyard-text = Groblje isječaka sastoji se od govornih isječaka koji nisu uvršteni u skup podataka Common Voice. Kao što je skup podataka dostupan, tako je i groblje isječaka dostupno za preuzimanje.
-about-partners = Partneri
-about-become-a-partner = Postanite partner
-about-partnership =
-    Common Voice je surađivački projekt, a mi ovisimo o partnerima naše zajednice i o suradnicima, kako bismo izgradili najveći skup podataka otvorenog koda, ikad.
-    
-    Zahvaljujemo sljedećim osobama i organizacijama za njihovu pomoć u projektu:
 about-get-involved = Uključi se
 about-get-involved-text-2 =
     Želiš pomoći poboljšati Common Voice?
@@ -492,12 +483,34 @@ about-nav-why-common-voice = Zašto?
 about-nav-how-it-works = Kako?
 about-nav-partners = Partneri
 about-nav-get-involved = Uključi se
-mycroft-title = Mycroft umjetna inteligencija
-mycroft-subtitle = Umjetna inteligencija
-mycroft-description =
-    Mycroft je prvi svjetski asistent otvorenog koda.
-    Mycroft radi bilo gdje – na stolnom računalu, u automobilu ili na Raspberry Pi.
-mycroft-secondary-description = Ovo je softver otvorenog koda koji se može slobodno miješati, proširiti i poboljšati. Mycroft se može koristiti u bilo čemu, od znanstvenog projekta do poslovnog softverskog programa.
+
+## Community Playbook Content
+## What is a language
+
+
+## How do I add a language
+
+
+## How does localization work
+
+
+## How to add sentences
+
+
+## How to record quality
+
+
+## How to grow language
+
+
+## How to validate
+
+
+## How to access dataset
+
+
+## How are decisions made
+
 
 ## Glossary
 
@@ -591,8 +604,6 @@ subscribe = Pretplati se
 get-started-speech = Započni s prepoznavanjem govora
 other-datasets = Drugi skupovi glasovnih podataka
 feedback-q = Želiš nam poslati povratne informacije?
-deepspeech-info = Skup podataka Common Voice nadopunjuje Mozillin mehanizam za prepoznavanje govora otvorenog koda Deep Speech, koji se može koristiti za izradu aplikacija za prepoznavanje govora. Pročitaj naš <githubLink>pregled Github-a</githubLink> ili se pridruži <discourseLink>DeepSpeech forumu za diskutiranje</discourseLink> i saznaj kako započeti.
-common-voice-info-new = Imaš pitanja o Common Voiceu? Imaš ideje za poboljšanja ili povratne informacije o određenom jeziku? Pridruži nam se našem <discourseLink>forumu za diskutiranje</discourseLink> i javi nam.
 data-other-librispeech-description = LibriSpeech je korpus od oko 1.000 sati engleskog govora pri 16 Khz, izveden iz audio knjiga LibriVox projekta.
 data-other-ted-name = TED-LIUM korpus
 data-other-ted-description = TED-LIUM korpus je izrađen iz audio razgovora i njihovih transkripcija, dostupnih na TED web-stranici.
@@ -637,6 +648,9 @@ request-language-success-content = Uskoro ćemo te obavijestiti o tome kako doda
 select-language = Odaberite jezik…
 other-language = Ostali jezici
 
+## Request Language Pages
+
+
 ## Languages Overview
 
 language-section-in-progress = U tijeku
@@ -652,7 +666,6 @@ language-search-input =
 language-speakers = Govornika
 localized = Lokalizirano
 sentences = Rečenice
-total-hours = Potvrđeni sati
 
 ## Contribution
 
@@ -883,6 +896,9 @@ why-delete-recordings =
     Možeš li nam reći, zašto želiš da se tvoje snimke izbrišu?
 profile-form-delete = Obriši profil
 
+## Profile Download
+
+
 ## Landing
 
 welcome-staff = Dobrodošli { $company } suradnici!
@@ -926,3 +942,62 @@ demo-listen-subtitle = Jeste li spremni dati svoj doprinos?
 
 demo-dashboard-card-header = Osobne nadzorne ploče održavaju vas u toku s napretkom pojedinca i zajednice.
 demo-dashboard-card-body = Za svaki donirani glasovni isječak i svaki potvrđeni audioisječak nadzorne ploče vašeg računa ažuriraju se tako da odražavaju vaš najnoviji napredak na svakom jeziku kojem doprinosite. Da, možete doprinijeti na više od jednom jeziku! <br/> <br/> Upotrijebite nadzorne ploče da biste pratili svoju statistiku, vidjeli kako radite s drugima u zajednici i postavili dnevne ili tjedne ciljeve doprinosa.
+
+## Validation criteria
+
+
+# Don't rename the following section, its contents are auto-inserted based on the name. These strings are
+# automatically exported from Sentence Collector.
+# [SentenceCollector]
+
+
+## HEADER/FOOTER
+
+
+## HOME
+
+
+## GENERAL
+
+
+## HOW-TO
+
+
+## MY SENTENCES
+
+
+## REJECTED
+
+
+## STATS
+
+
+## ADD
+
+
+## ADD LANGUAGE
+
+
+## ADD SENTENCES CONFIRMATION
+
+
+## LANGUAGE INFO
+
+
+## LOGIN
+
+
+## PROFILE
+
+
+## REVIEW CRITERIA
+
+
+## REVIEW
+
+
+## SETTINGS
+
+
+# [/SentenceCollector]
+
