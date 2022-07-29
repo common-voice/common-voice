@@ -337,7 +337,7 @@ shortcut-discard-ongoing-recording = ESC
 shortcut-discard-ongoing-recording-label = Відхилити поточний запис
 shortcut-submit = Return
 shortcut-submit-label = Надіслати кліпи
-request-language-text = Не можете знайти свою мову в Common Voice?
+request-language-text = Ваша мова відсутня в Common Voice?
 request-language-button = Запит нової мови
 
 ## ProjectStatus
