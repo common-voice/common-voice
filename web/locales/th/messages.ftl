@@ -150,6 +150,7 @@ sl = สโลวีเนีย
 so = โซมาลี
 sq = แอลเบเนีย
 sr = เซอร์เบีย
+ss = สวาติ
 sv-SE = สวีเดน
 sw = สวาฮิลี
 syr = ซีเรีย
@@ -158,6 +159,7 @@ te = เตลูกู
 tg = ทาจิก
 th = ไทย
 ti = ทีกรินยา
+tk = เติร์กเมนิสถาน
 tl = ตากาล็อก
 tr = ตุรกี
 tt = ตาตาร์
@@ -172,12 +174,14 @@ uz = อุซเบกิสถาน
 vec = เวนิส
 vi = เวียดนาม
 vot = โวต
+xh = โซซา
 yi = ยิดดิช
 yo = โยรูบา
 yue = กวางตุ้ง
 zh-CN = จีน (จีน)
 zh-HK = จีน (ฮ่องกง)
 zh-TW = จีน (ไต้หวัน)
+zu = ซูลู
 
 # [/]
 
@@ -1235,6 +1239,7 @@ sc-login-err-try-again = โปรดลองอีกครั้ง
 #   $username (String) - eMail address of the logged in user
 sc-profile-title = โปรไฟล์: { $username }
 sc-personal-err-lang-not-found = ไม่สามารถลบภาษา: ไม่พบภาษา
+sc-personal-err-remove = ลบภาษาไม่ได้
 sc-personal-your-languages = ภาษาของคุณ:
 sc-personal-remove-button = เอาออก
 # Variables:
