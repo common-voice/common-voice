@@ -1,25 +1,26 @@
 .dataset-table {
     width: 100%;
-    display: flex;
-    flex-direction: column;
-    
+    border-collapse: collapse;
+
         thead, tbody {
             width: 100%
         }
         thead {
             tr {
                 width: 100%;
-                display: inline-flex;
             }
         }
+
         tbody {
             tr {
                 width: 100%;
-                display: inline-flex;
-                background-color: var(--white);
+                background-color: var(--lighter-grey);
                 margin-bottom: 1px;
                 &:hover {
                     cursor: pointer;
+                }
+                &.selected {
+                    background-color: var(--light-blue);
                 }
             }
 
@@ -27,7 +28,6 @@
         }
 
         td, th {
-            display: inline-flex;
             padding: 5px;
             text-align: left;
         }
