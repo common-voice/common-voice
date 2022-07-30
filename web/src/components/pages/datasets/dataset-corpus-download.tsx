@@ -59,7 +59,12 @@ const DatasetCorpusDownload = ({
     setIsLoading(true);
 
     api.getLanguageDatasetStats(locale).then(data => {
-      setLanguageDatasets(data);
+      setLanguageDatasets(
+        data.filter(
+          (dataset: LanguageDatasets) =>
+            !!dataset.checksum && !!dataset.download_path
+        )
+      );
       setSelectedDataset(data[0]);
       setIsLoading(false);
     });
@@ -101,21 +106,31 @@ const DatasetCorpusDownload = ({
             width: '100%',
             alignItems: 'center',
             justifyContent: 'center',
+            flexDirection: 'column',
           }}>
+          {isLoading && <Spinner />}
           {!isLoading && LanguageDatasets && (
             <DatasetCorpusDownloadTable
-              onRowSelect={(e: any) => console.log(e)}
+              onRowSelect={(selectedId: number) =>
+                setSelectedDataset(
+                  LanguageDatasets.find(d => d.id === selectedId)
+                )
+              }
               releaseData={LanguageDatasets}
+              selectedId={selectedDataset?.id || LanguageDatasets[0].id}
             />
           )}
           {selectedDataset && selectedDataset.download_path && (
-            <DatasetDownloadEmailPrompt
-              selectedLocale={locale}
-              downloadPath={selectedDataset.download_path}
-              releaseId={selectedDataset.id.toString()}
-              checksum={selectedDataset.checksum}
-              size={selectedDataset.size}
-            />
+            <>
+              {selectedDataset.id}
+              <DatasetDownloadEmailPrompt
+                selectedLocale={locale}
+                downloadPath={selectedDataset.download_path}
+                releaseId={selectedDataset.id.toString()}
+                checksum={selectedDataset.checksum}
+                size={selectedDataset.size}
+              />
+            </>
           )}
         </div>
       </div>

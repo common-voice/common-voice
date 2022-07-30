@@ -15,12 +15,25 @@
             tr {
                 width: 100%;
                 background-color: var(--lighter-grey);
-                margin-bottom: 1px;
+                border-bottom: 1px solid var(--grey);
+                position: relative;
                 &:hover {
                     cursor: pointer;
                 }
+                & td:first-child {
+                    padding-left: 25px;
+                }
                 &.selected {
                     background-color: var(--light-blue);
+                    & td:first-child::before {
+                        content: '';
+                        background: url('./images/chevron-right.svg') no-repeat;
+                        width: 25px;
+                        height: 25px;
+                        position: absolute;
+                        left: 5px;
+                    }
+        
                 }
             }
 
@@ -28,7 +41,7 @@
         }
 
         td, th {
-            padding: 5px;
+            padding: 15px 5px;
             text-align: left;
         }
 }
