@@ -43,7 +43,7 @@ function Success({
   const api = useAPI();
   const account = useAccount();
 
-  const [locale] = useLocale();
+  const [locale, toLocaleRoute] = useLocale();
 
   const hasAccount = Boolean(account);
   const customGoal =
@@ -154,7 +154,11 @@ function Success({
               <p />
             </Localized>
             <Localized id="get-started-goals">
-              <LinkButton rounded href={URLS.GOALS} />
+              <LinkButton
+                rounded
+                href={toLocaleRoute(URLS.GOALS)}
+                data-testid="get-started-goals"
+              />
             </Localized>
           </div>
         )
