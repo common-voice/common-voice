@@ -9,7 +9,7 @@
 
 am = amxari
 ar = rabybau
-be = 	labru'obau
+be = labru'obau
 bg = bolgaro
 bn = bengo
 br = bre'one
@@ -32,7 +32,8 @@ gl = bangrgalego
 he = xebybau
 hi = xinbau
 hr = bangrxrvatski
-hu = banrmadiaru
+ht = banxe'atu
+hu = bolgaro
 ia = binbau
 id = bidbau
 ja = ponbau
@@ -69,6 +70,9 @@ help = sidju
 ## Home Page
 
 vote-yes = go'i
+vote-no = go'inai
+all-locales = ro
+today = cabdei
 
 ## Account Benefits
 
@@ -84,12 +88,15 @@ vote-yes = go'i
 
 ## Speak Shortcuts
 
+shortcut-submit = xruti
 
 ## ProjectStatus
 
 
 ## ProfileForm
 
+male = nanmu
+female = ninmu
 
 ## Profile - Email
 
@@ -105,6 +112,7 @@ vote-yes = go'i
 
 ## How does it work section
 
+about-listen = tirna
 
 ## Community Playbook Content
 ## What is a language
