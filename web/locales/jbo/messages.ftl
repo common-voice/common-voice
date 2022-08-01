@@ -11,6 +11,7 @@ am = amxari
 ar = rabybau
 be = 	labru'obau
 bg = bolgaro
+bn = bengo
 br = bre'one
 ca = katlana
 cs = tce'exo
@@ -36,6 +37,7 @@ ia = binbau
 id = bidbau
 ja = ponbau
 ka = kartuli
+ko = xango
 kw = kernauke
 lt = bangrlietuva
 lv = bangrlatfiacu
@@ -51,16 +53,22 @@ sq = ckiptare
 ta = bangrtamiji
 tr = bangrtirki
 uk = vukro
+ur = xurdo
 vi = vietnama
+yue = banje'u'e
+zh-CN = jugbau
 
 # [/]
 
 
 ## Layout
 
+languages = bangu
+help = sidju
 
 ## Home Page
 
+vote-yes = go'i
 
 ## Account Benefits
 
