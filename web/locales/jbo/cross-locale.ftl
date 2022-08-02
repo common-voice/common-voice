@@ -1,6 +1,6 @@
 ## Languages
 
-contribute = dunda
+contribute = sidju
 get-involved-button = .au sidju
 get-involved-title = sidju tu'a la { $lang }
 get-involved-text =

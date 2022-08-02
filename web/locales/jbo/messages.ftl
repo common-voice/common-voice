@@ -80,11 +80,13 @@ zh-CN = jugbau
 languages = bangu
 help = sidju
 content-license-text = lo selfi'i cu gubni ta'i tu'a la'o gy <licenseLink>Creative Commons License</licenseLink> gy
+share-title = sidju lonu sisku tu'a lo dunda be tu'a lo voksa
+share-text = sidju lonu ctuca lo minji tu'a lo tadji be lonu bacru fa lo zirli .i ko dunda tu'a lo do voksa ta'i tu'a zoi .urli. { $link } .urli
 
 ## Home Page
 
 vote-yes = go'i
-vote-no = go'inai
+vote-no = na go'i
 all-locales = ro
 today = cabdei
 
