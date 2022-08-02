@@ -10,6 +10,9 @@ submit-form-action = friti
 loading = samymo'i…
 email-opt-in-info = .au te samymri tu'a lonu tergu'a rejgau .e lo nuzba be loni mulno do'e mi kei .e lo xatra be fo tu'a la'o gy Common Voice gy
 email-opt-in-info-title = jongau fi lo te samymri liste pe la'o gy Common Voice gy
+banner-error-slow-1 = .u'u la'o gy Common Voice gy ca masno ki'e cinri
+banner-error-slow-2 = mi'a ca te cpedu du'e da gi'e catlu le nabmi
+error-something-went-wrong = .u'u da nabmi
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -76,6 +79,7 @@ zh-CN = jugbau
 
 languages = bangu
 help = sidju
+content-license-text = lo selfi'i cu gubni ta'i tu'a la'o gy <licenseLink>Creative Commons License</licenseLink> gy
 
 ## Home Page
 
