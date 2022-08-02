@@ -9,6 +9,26 @@ interface Props {
   selectedId: number | null;
 }
 
+const MS_IN_HOUR = 3600000;
+const msToHours = (msDuration: number) => {
+  return Math.ceil(msDuration / MS_IN_HOUR);
+};
+
+const formatBytes = (bytes: number, locale: string) => {
+  if (bytes === 0) return '0 Bytes';
+  const DECIMAL_PLACES = 2;
+  const BYTES_IN_KILOBYTE = 1024;
+  const sizes = ['btye', 'kilobyte', 'megabyte', 'gigabyte', 'terabyte'];
+  const i = Math.floor(Math.log(bytes) / Math.log(BYTES_IN_KILOBYTE));
+
+  return parseFloat(
+    (bytes / Math.pow(BYTES_IN_KILOBYTE, i)).toFixed(DECIMAL_PLACES)
+  ).toLocaleString(locale, {
+    style: 'unit',
+    unit: sizes[i],
+  });
+};
+
 const COLUMNS = {
   name: {
     display: (value: string) => {
@@ -23,22 +43,20 @@ const COLUMNS = {
     label: 'dataset-date',
   },
   size: {
-    display: (value: number) => {
-      return value;
+    display: (value: number, locale: string) => {
+      return formatBytes(value, locale);
     },
     label: 'size',
   },
   total_clips_duration: {
-    display: (value: number) => {
-      return value;
+    display: (value: number, locale: string) => {
+      return Intl.NumberFormat([locale, 'en']).format(msToHours(value));
     },
     label: 'recorded-hours',
   },
   valid_clips_duration: {
-    display: (value: number) => {
-      const date = new Date(0);
-      date.setMilliseconds(value); // specify value for SECONDS here;
-      return date.getHours();
+    display: (value: number, locale: string) => {
+      return Intl.NumberFormat([locale, 'en']).format(msToHours(value));
     },
     label: 'validated-hours',
   },
@@ -49,13 +67,15 @@ const COLUMNS = {
     label: 'cv-license',
   },
   total_users: {
-    display: (value: string) => {
-      return value;
+    display: (value: number, locale: string) => {
+      return value.toLocaleString(locale, {
+        style: 'decimal',
+      });
     },
     label: 'number-of-voices',
   },
   audio_format: {
-    display: (value: string) => {
+    display: () => {
       return 'MP3';
     },
     label: 'audio-format',
@@ -67,9 +87,6 @@ const DatasetCorpusDownloadTable = ({
   onRowSelect,
   selectedId,
 }: Props) => {
-  const labels = Object.keys(COLUMNS).map((col: string) => col);
-  console.log(labels);
-
   const [locale] = useLocale();
 
   return (
