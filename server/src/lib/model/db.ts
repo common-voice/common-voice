@@ -995,10 +995,28 @@ export default class DB {
 
   async getLanguageDatasetStats(languageCode: string): Promise<Language[]> {
     const [rows] = await this.mysql.query(
-      `SELECT *
-        FROM locale_datasets ld
-        JOIN datasets d ON d.id = ld.dataset_id
-        where ld.locale_id = ?
+      `SELECT
+      ld.id,
+      ld.dataset_id,
+      ld.locale_id,
+      ld.total_clips_duration,
+      ld.valid_clips_duration,
+      ld.average_clips_duration,
+      ld.total_users,
+      ld.size,
+      ld.checksum,
+      d.release_date,
+      d.name,
+      d.release_dir,
+      d.download_path
+    FROM
+      locale_datasets ld
+    JOIN datasets d ON
+      d.id = ld.dataset_id
+    where
+      ld.locale_id = ?
+    ORDER BY
+      d.release_date DESC
     `,
       [await getLocaleId(languageCode)]
     );
