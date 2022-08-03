@@ -11,3 +11,6 @@ get-involved-opt-in = Aane, soma me emails. Me pɛ sɛ me nim nkɔsoɔ no kasa y
 get-involved-submit = Wie
 get-involved-stayintouch = Ye wo Mozilla yeresi mpɔtam voice technology ho. Ye pɛ sɛ ye kasa wo amanneɛ ho, data sources foforo, na tie sɛn na wo hwɛ data yi.
 get-involved-privacy-info = Yehyɛ wo bɔ sɛ yebehwɛ wo ho so yie. Akenkan yɛn <privacyLink>Privacy Notice<privacyLink>
+get-involved-success-title = Wobegye amanneɛ { $language } yi ho. Ye da wo ase.
+get-involved-success-text = Sɛ ye wo amanneɛ foforo a, yebeto wo nkra fa intanɛt so
+get-involved-return-to-languages = san kɔ kasa biara
