@@ -1,5 +1,6 @@
 import { Localized } from '@fluent/react';
 import * as React from 'react';
+import { formatBytes, msToHours } from '../../../utility';
 import { useLocale } from '../../locale-helpers';
 import './dataset-corpus-download-table.css';
 
@@ -8,26 +9,6 @@ interface Props {
   onRowSelect: any;
   selectedId: number | null;
 }
-
-const MS_IN_HOUR = 3600000;
-const msToHours = (msDuration: number) => {
-  return Math.ceil(msDuration / MS_IN_HOUR);
-};
-
-const formatBytes = (bytes: number, locale: string) => {
-  if (bytes === 0) return '0 Bytes';
-  const DECIMAL_PLACES = 2;
-  const BYTES_IN_KILOBYTE = 1024;
-  const sizes = ['btye', 'kilobyte', 'megabyte', 'gigabyte', 'terabyte'];
-  const i = Math.floor(Math.log(bytes) / Math.log(BYTES_IN_KILOBYTE));
-
-  return parseFloat(
-    (bytes / Math.pow(BYTES_IN_KILOBYTE, i)).toFixed(DECIMAL_PLACES)
-  ).toLocaleString(locale, {
-    style: 'unit',
-    unit: sizes[i],
-  });
-};
 
 const COLUMNS = {
   name: {
