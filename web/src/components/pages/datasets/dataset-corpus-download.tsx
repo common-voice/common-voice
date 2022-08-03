@@ -5,9 +5,8 @@ import {
 } from '@fluent/react';
 import * as React from 'react';
 import { useState, useEffect } from 'react';
-import { localeConnector, useLocale } from '../../locale-helpers';
+import { localeConnector } from '../../locale-helpers';
 import useSortedLocales from '../../../hooks/use-sorted-locales';
-import { byteToSize } from '../../../utility';
 import { LabeledSelect, Spinner } from '../../ui/ui';
 
 import DatasetDownloadEmailPrompt from './dataset-download-email-prompt';
@@ -16,11 +15,7 @@ import './dataset-corpus-download.css';
 import { useAPI } from '../../../hooks/store-hooks';
 import DatasetCorpusDownloadTable from './dataset-corpus-download-table';
 import PageHeading from '../../ui/page-heading';
-
-const formatHrs = (hrs: number) => {
-  return hrs < 1 ? Math.floor(hrs * 100) / 100 : Math.floor(hrs);
-};
-
+import { formatBytes } from '../../../utility';
 interface Props {
   releaseId: string;
   setReleaseId: (id: string) => void;
@@ -69,10 +64,8 @@ const DatasetCorpusDownload = ({
       setIsLoading(false);
     });
   }, [locale]);
+  console.log('LanguageDatasets', LanguageDatasets);
 
-  // if (isLoading) {
-  //   return <Spinner />;
-  // }
   return (
     <div className="dataset-corpus-download">
       <div className="dataset-corpus-download-container">
@@ -104,8 +97,7 @@ const DatasetCorpusDownload = ({
           style={{
             display: 'flex',
             width: '100%',
-            alignItems: 'center',
-            justifyContent: 'center',
+            alignItems: 'start',
             flexDirection: 'column',
           }}>
           {isLoading && <Spinner />}
@@ -122,13 +114,12 @@ const DatasetCorpusDownload = ({
           )}
           {selectedDataset && selectedDataset.download_path && (
             <>
-              {selectedDataset.id}
               <DatasetDownloadEmailPrompt
                 selectedLocale={locale}
                 downloadPath={selectedDataset.download_path}
                 releaseId={selectedDataset.id.toString()}
                 checksum={selectedDataset.checksum}
-                size={selectedDataset.size}
+                size={formatBytes(selectedDataset.size)}
               />
             </>
           )}
