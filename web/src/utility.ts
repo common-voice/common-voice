@@ -2,6 +2,7 @@ import { UserClient } from 'common';
 import URLS from './urls';
 
 const SEARCH_REG_EXP = new RegExp('</?[^>]+(>|$)', 'g');
+const MS_IN_HOUR = 3600000;
 
 /**
  * Generate RFC4122 compliant globally unique identifier.
@@ -134,7 +135,7 @@ export function byteToSize(bytes: number, getString: Function): string {
 }
 
 export const formatBytes = (bytes: number, locale: string) => {
-  const sizes = ['btye', 'kilobyte', 'megabyte', 'gigabyte', 'terabyte'];
+  const sizes = ['byte', 'kilobyte', 'megabyte', 'gigabyte', 'terabyte'];
   if (bytes > 0) {
     const DECIMAL_PLACES = 2;
     const BYTES_IN_KILOBYTE = 1024;
@@ -153,4 +154,8 @@ export const formatBytes = (bytes: number, locale: string) => {
       unit: sizes[ZERO],
     });
   }
+};
+
+export const msToHours = (msDuration: number) => {
+  return Math.ceil(msDuration / MS_IN_HOUR);
 };
