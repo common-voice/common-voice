@@ -10,7 +10,6 @@
     }
 
     .input-row {
-
         @media (--lg-up) {
             max-width: 400px;
             padding: 20px 0px;
