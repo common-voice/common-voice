@@ -121,7 +121,8 @@ async function loadStatisticFiles(db) {
     //save total dataset stats to db
     let totalReleaseStats = getTotalStats(statistics);
     totalReleaseStats[1] = secondsToMilliseconds(totalReleaseStats[1]);
-    const { bundleURLTemplate: download_path } = statistics;
+    const { bundleURLTemplate, bundleURL } = statistics;
+    const download_path = bundleURLTemplate || bundleURL;
     totalReleaseStats = [
       ...totalReleaseStats,
       releaseType,
