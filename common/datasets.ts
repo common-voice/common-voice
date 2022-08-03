@@ -8,6 +8,8 @@ export type Dataset = {
   valid_clips_duration: number;
   release_type: string;
   download_path: string;
+  checksum?: string; //singleword releases have checksums
+  size?: number; //singleword releases have checksums
 };
 
 export type LanguageDataset = {
