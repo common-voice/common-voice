@@ -211,9 +211,9 @@ export default class Model {
   );
 
   getAllDatasets = lazyCache(
-    'get-all-datasets1',
-    async (): Promise<any[]> => {
-      return await this.db.getAllDatasets();
+    'get-all-datasets-with-filters',
+    async (releaseType: string): Promise<any[]> => {
+      return await this.db.getAllDatasets(releaseType);
     },
     1
   );
@@ -227,7 +227,7 @@ export default class Model {
   );
 
   getAllLanguagesWithDatasets = lazyCache(
-    'get-all-language-datasets1',
+    'get-all-language-datasets',
     async (): Promise<any[]> => {
       return await this.db.getAllLanguagesWithDatasets();
     },

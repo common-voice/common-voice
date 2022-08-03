@@ -31,6 +31,7 @@ import validate, {
   jobSchema,
   sentenceSchema,
   sendLanguageRequestSchema,
+  datasetSchema,
 } from './validation';
 
 export default class API {
@@ -114,7 +115,11 @@ export default class API {
     router.get('/languages', this.getAllLanguages);
     router.get('/stats/languages/', this.getLanguageStats);
 
-    router.get('/datasets', this.getAllDatasets);
+    router.get(
+      '/datasets',
+      validate({ query: datasetSchema }),
+      this.getAllDatasets
+    );
     router.get('/datasets/languages', this.getAllLanguagesWithDatasets);
     router.get(
       '/datasets/languages/:languageCode',
@@ -188,8 +193,11 @@ export default class API {
     response.json(await this.model.getAllLanguages());
   };
 
-  getAllDatasets = async (_request: Request, response: Response) => {
-    response.json(await this.model.getAllDatasets());
+  getAllDatasets = async (request: Request, response: Response) => {
+    const {
+      query: { releaseType },
+    } = request;
+    response.json(await this.model.getAllDatasets(releaseType.toString()));
   };
 
   getLanguageDatasetStats = async (request: Request, response: Response) => {
