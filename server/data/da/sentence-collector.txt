@@ -1170,6 +1170,8 @@ Citron- og appelsintræer voksede der i haven, og foran porten stod høje palmet
 Citron- og appelsintræer voksede der i haven, og foran porten stod høje palmetræer.
 Columbus over Havet foer
 Columbus over havet foer,og jorden den blev dobbelt stor
+Computeren var langsom, og det gjorde hende sindsyg!
+Crocs er praktiske, men virkeligt usmarte
 Da Batty kom, nikkede han kun til Goddag og laa ubevægelig.
 Da Frederik kom hjem med sin unge kone og hørte det, sagde han.
 Da Tante var ung og han også ung, friede han til hende.
@@ -3104,6 +3106,7 @@ Det bliver mig ganske broget
 Det bliver røg, smøg, emmer og aske
 Det bliver værre endnu, når mine sønner kommer hjem
 Det bliver værre endnu, når mine sønner kommer hjem!
+Det blæser op til storm, og jeg har glemt min regnjakke
 Det bruste i kor
 Det bryder jeg mig slet ikke om
 Det bryder jeg mig slet ikke om!
@@ -3654,6 +3657,7 @@ Det er velsignet at se
 Det er velsignet at se!
 Det er vi ikke
 Det er vi ikke!
+Det er vigtigt at drikke meget vand, når det er så varmt.
 Det er vigtigt at lade sin bil op om natten
 Det er vintertid, vinden skarp som et dværgesmedet sværd
 Det er vintertid, vinden skarp som et dværgesmedet sværd.
@@ -6003,6 +6007,7 @@ Gid jeg var rig!
 Gid jeg var rig! så blev jeg officer
 Gid vi ellers havde dem heroppe i reden, for de varmer
 Gid vi ellers havde dem heroppe i reden, for de varmer.
+Gider du tage telefonen?
 Gifter jeg mig, og med hvem gifter jeg mig?
 Gigt i ryggen, uh
 Gigt i ryggen, uh!
@@ -7634,6 +7639,7 @@ Husets lille datter stod tæt ved, og da hun hørte de ord.
 Husets skytsånd stod ved sengens hovedgærde
 Husets skytsånd stod ved sengens hovedgærde.
 Husk at oplade din telefon
+Husk at smøre dig ind i solcreme over hele kroppen
 Husk dine lygter
 Husk paa, jeg giver eder kost og løn
 Husk på din moders ord
@@ -7859,6 +7865,7 @@ Hvem er den døde? spurgte vi, og svaret var.
 Hvem er den gamle der henne spurgte spurvene
 Hvem er den gamle der henne? spurgte spurvene.
 Hvem er det spurgte han
+Hvem er det, der står derude og kigger ind?
 Hvem er det, og hvor har i fået det fra spurgte apotekeren
 Hvem er det, og hvor har i fået det fra? spurgte apotekeren.
 Hvem er det? spurgte han.
@@ -9276,6 +9283,7 @@ Jeg bærer på en svær sygdom
 Jeg bærer på en svær sygdom!
 Jeg deres tavshed som et ja mig tænker
 Jeg dovner den hele dagen
+Jeg elsker ananas på pizza
 Jeg elsker hende også
 Jeg en kraftig knøs
 Jeg er af den højeste byrd
@@ -9387,6 +9395,7 @@ Jeg er overvættes lykkelig!
 Jeg er saa let
 Jeg er slet ikke gammel
 Jeg er slet ikke gammel!
+Jeg er stolt over at blive færdig med mit speciale i god tid!
 Jeg er sulten
 Jeg er så godt som væk
 Jeg er så godt som væk!
@@ -9456,6 +9465,7 @@ Jeg får nok flere koner og børn end du
 Jeg får nok flere koner og børn end du!
 Jeg får sådan en lyst til at gifte mig
 Jeg får sådan en lyst til at gifte mig.
+Jeg får vabler af de her sko
 Jeg får vandet i munden ved at høre på dig
 Jeg får vandet i munden ved at høre på dig!
 Jeg føler mig så ilde
@@ -9484,6 +9494,7 @@ Jeg giver ingen ting!
 Jeg giver mig tid!
 Jeg gjorde mig lang op ad muren, det kilder så dejligt i ryggen
 Jeg glæder mig overordentlig ved din lykke
+Jeg glæder mig til julemad og gløgg
 Jeg græd, som en lille muus kan græde, af bare fornøielse
 Jeg går aldrig igennem, jeg knækker
 Jeg går aldrig igennem, jeg knækker!
@@ -9565,6 +9576,7 @@ Jeg har kedet mig
 Jeg har kedet mig!
 Jeg har kun betalt min gæld
 Jeg har kun betalt min gæld.
+Jeg har kun lyd på telefonen, når jeg forventer et vigtigt opkald
 Jeg har kun regninger med mig
 Jeg har kun regninger med mig!
 Jeg har kysset dem til live
@@ -10157,6 +10169,7 @@ Jeg vred mig jo selv fra dem
 Jeg vred mig jo selv fra dem.
 Jeg vred og vendte mig
 Jeg åndede, jeg levede
+Jeg ønsker mig et nyt grafikkort i julegave
 Jesus holder en central tale
 Jo der er spøgelset af den sidste
 Jo der er spøgelset af den sidste!
@@ -11790,6 +11803,7 @@ Min bedstemoders klogskab er bekendt
 Min bedstemoders klogskab er bekendt,var man i gammel tid, blev hun vist brændt
 Min blomst kender jeg nok
 Min by er ligesom en flaske
+Min computer brød sammen, lige inden jeg fik afleveret min opgave
 Min egen fremtid? Ja, De ved, ens eget
 Min egen søde gedebuk, god morgen
 Min fader selv var såret, moder forbandt hans arm, såret var dybt
@@ -11827,6 +11841,7 @@ Mindre kunde det ikke godt være
 Mindre kunne det ikke være
 Mindre kunne det ikke være!
 Mine forældre gav et halvt pund grøn sæbe for det til studentens værtinde
+Mine håndrygge er solskoldede
 Mine skibe er indefrosset, men der er varmt på mit kontor
 Mine skibe er indefrosset, men der er varmt på mit kontor.
 Mine stakkels blomster er ganske døde!
@@ -15283,6 +15298,7 @@ Sæt De roser, De kan ikke drive det videre!
 Sæt de roser, de kan ikke drive det videre
 Sæt dig på min ryg i morgen, så skal jeg tage dig med
 Sæt dig på min ryg i morgen, så skal jeg tage dig med.
+Sæt telefonen på lydløs, når du er sammen med andre
 Søde lille Claus, jeg vil give dig en hel skæppe penge.
 Søde, lille, fornuftige barn
 Søde, lille, fornuftige barn!

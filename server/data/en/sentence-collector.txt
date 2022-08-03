@@ -4919,6 +4919,7 @@ Are there any other lions in this forest?
 Are there any rooms to lodge me in, I wonder?
 Are there any shoes in the house which fit those marks?
 Are there many of those?
+Are there not already enough translations of Scripture?
 Are these suggestions acceptable?
 Are they at home?
 Are they due tonight?
@@ -8861,6 +8862,7 @@ Do we need a wall at the county boundary?
 Do we need refreshment then, my friends?
 Do we need to pay stamp duty on this house?
 Do we need to peel the aubergine before we cook it?
+Do we truly need one more?
 Do what I want, and I will pay you well.
 Do what you think necessary.
 Do y'all have TikTok?
@@ -10721,6 +10723,7 @@ Funding & Grants
 Funky monkey.
 Funny thing people having gold teeth.
 Further details of the new German Army Bill are now available.
+Further, we may be able to build tools specifically to facilitate such translation work.
 Furthermore, the case was set for mandatory arbitration in July.
 Future generations will interact with the digital world by voice.
 Future medical sensors will be implantable.
@@ -16201,6 +16204,7 @@ How can we advance our business goals?
 How can we calculate the amount of our knowledge?
 How can we dispose of waste engine coolant safely?
 How can we efficiently purify water using the least amount of energy?
+How can we encourage lay participation while maintaining rigorous scholarly standards?
 How can we ensure our kids grow up to be successful?
 How can we ever show ourselves in society?
 How can we facilitate people with special needs?
@@ -16318,6 +16322,7 @@ How do we encourage greater involvement with the overall vision?
 How do we identify cancer early?
 How do we know whom he is deceiving there?
 How do we reconcile these two things?
+How do we resolve differences in opinion after extended discussion?
 How do we use your information?
 How do you access to the "Usenet"?
 How do you balance on a Segway?
@@ -17593,6 +17598,7 @@ I could kiss everything, even to the clock.
 I could make nothing of that.
 I could make nothing of this. It baffled me.
 I could never wear contact lenses.
+I could not access them while living abroad in China at the time.
 I could not agree with Ernest.
 I could not bear it for her! — She is not strong.
 I could not bear the employment.
@@ -24971,6 +24977,7 @@ It will be all right at last, and then you shall see!
 It will be as well to advertise for it.
 It will be convenient to introduce the term deficiency.
 It will be dark in ten minutes.
+It will be developed via a community of individuals working together in a meritocracy.
 It will be done in a jiffy.
 It will be done in five minutes.
 It will be giving him so much pleasure!
@@ -25014,6 +25021,7 @@ It will save trouble even to a good reader of music.
 It will seem so nice and grown-uppish.
 It will send your stock up with a jump.
 It will take me about a day to curate a list of sources.
+It will undergo continuous evolution as it is refined on a regular basis.
 It will well repay a visit.
 It wobbled a little all the same.
 It won't be cheap, I take that isn't a concern?
@@ -26307,6 +26315,7 @@ Leadership
 Learn about relief options for businesses.
 Learn how cases reach the Supreme Court and how the justices make their decisions.
 Learn more about Fortinet on Google Cloud with these Enterprise Strategy Group analyst resources
+Learn more about what the Open Source Scriptures project is all about.
 Learn more on the Librarians page.
 Learn to walk before you run.
 Learning and humanization quickly followed.
@@ -29418,6 +29427,7 @@ Obviously I’m biased.
 Obviously Sir Walter believed in me, though why he did I could not guess.
 Obviously the same paint with which Charles had been decorated.
 Obviously this was Martha in person.
+Obviously we want to produce another translation of Scripture – but to what ends?
 Obviously, it was a disease that could be contracted by contact.
 Occasionally a man lurched past, almost as full as he could carry.
 Occasionally she ran with Paul down the fields.
@@ -35130,6 +35140,7 @@ Taekwondo is a form of martial arts.
 Take DuckDuckGo for an example.
 Take a class outside
 Take a deep breath and try again.
+Take a few minutes to browse around the site.
 Take a little care of Pa while I am gone, Mama!
 Take advantage of the opportunity.
 Take any big Teutonic business concern.
@@ -38079,6 +38090,7 @@ The ground is gradually cleared
 The ground was measured, and preliminaries arranged.
 The ground will hardly be playable until the end of this week.
 The group needs as much water as we can get before night.
+The group simply desires to offer another, free and open alternative.
 The growth of intimacy is like that.
 The guards are coming.
 The guards are firing.
@@ -41698,6 +41710,7 @@ There is nothing that we can do.
 There is nothing to actually watch and be happy about it.
 There is nothing to be compared to it.
 There is nothing to be done.
+There is nothing wrong with retaining rights to the product one builds.
 There is one chance.
 There is one dialect of our family which is distinguished for such a vocalism.
 There is one of the same year.
@@ -43896,6 +43909,7 @@ This is the most of the same period.
 This is the most painful part of my narrative.
 This is the peculiar substance of which the brain and nerves are composed.
 This is the quality assurance department, lady.
+This is the read me file.
 This is the real tabasco.
 This is the red light district.
 This is the same thing.
@@ -43975,6 +43989,7 @@ This may vary based on gender
 This may vary based on locality
 This means electoral registration offices should accept electronic signatures
 This means that the conference has been pushed back a month.
+This means that the resulting translation will be made available for free.
 This might be their own house, his and hers.
 This might be worth a look.
 This mighty tub is the collector of one of the tributaries.
@@ -45350,6 +45365,7 @@ We are assessing the impact of Brexit on our business model.
 We are awaiting support from the West at the moment.
 We are both children together.
 We are breaking down barriers.
+We are bringing a community together to share assets.
 We are capital company here tonight.
 We are captivated by another persons imagination and storytelling skills.
 We are careful to lubricate the axles of our railway carriages.
@@ -45834,6 +45850,7 @@ We hired a personal tour guide on our trip to Istanbul.
 We hired former silicon roundabout employees.
 We hold these truths to be self-evident
 We hope we did not throw up.
+We hope you’ll consider joining us!
 We hoped to see the banks moving in the right direction.
 We host our data on-premise for independence from third-party decisions.
 We hurried back to the town and sent a wire to MacGillivray.
@@ -46158,6 +46175,7 @@ We shared with the world in advance what we knew Putin was planning
 We shook hands and struck up a sort of friendship.
 We should all agree: The answer is not to Defund the police.
 We should be able to get some posts from the timber merchant
+We should be fostering better communication between differing parties.
 We should be on line to hit or even exceed our quarterly targets.
 We should be outraged by the chronic underfunding of our social services.
 We should collaborate sometime.
@@ -46511,6 +46529,7 @@ Welcome to my house.
 Welcome to our introduction to philosophy.
 Welcome to our research Laboratory.
 Welcome to the dream realm.
+Welcome!
 Welcome, dear friends.
 Well I know this nation. We will meet the test.
 Well done, sir!
@@ -47596,6 +47615,7 @@ What on earth's it all about?
 What part of the United States is your home.
 What passed between them did not transpire.
 What pepper-pots you are!
+What platform best enables collaborative translation work?
 What possessed him to turn listener?
 What possible occupation is there except to discuss scandal?
 What power backup system do you recommend for this case?

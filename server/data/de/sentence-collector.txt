@@ -2981,6 +2981,7 @@ Bestimmt vertickt er die Dinger im Darknet.
 Bestimmt weiß niemand, welches Unternehmen gemeint ist.
 Bestimmt wird es für einen guten Zweck verwendet.
 Bestimmte Vorgänge in der Politik lassen sich nur durch Geldköfferchen erklären.
+Bestätigen Sie Ihre Eingabe mit der Raute-Taste.
 Bestätigen Sie den Sicherheitshinweis.
 Besuchen Sie die dunklen Seiten des Internets und strengen Sie Ihre Augen an!
 Besuchen Sie mich, bitte, einmal!
@@ -5322,6 +5323,7 @@ Das hast du wahrscheinlich nicht mitbekommen.
 Das hat Herr Drosten im Podcast gesagt.
 Das hat Julia früher auch immer gesagt.
 Das hat Polanski nie so gesagt.
+Das hat Sie falsch verstanden.
 Das hat bestimmt so ein Typ mit weißen Haaren geschrieben.
 Das hat den Vorteil, dass ihre Abgase bei Westwind nicht in Wohngebiete ziehen.
 Das hat der Cäsar in der Arena angezeigt.
@@ -21170,6 +21172,7 @@ Können wir noch schnell an der Tankstelle anhalten?
 Können wir nun endlich in den Weinkeller?
 Können wir sie nicht auf ein Bier einladen heute?
 Können wir uns an die Datenschutzbehörde wenden?
+Können wir uns darauf verständigen?
 Können wir uns das überhaupt leisten?
 Können wir uns nicht woanders hinsetzen?
 Können wir uns später treffen?
@@ -21257,6 +21260,7 @@ Landkarten sind einfach faszinierend.
 Landpomeranzen und Landknechte.
 Lang lebe die Königin!
 Lang war der Tunnel wirklich nicht.
+Lange Beiträge lässt das System nicht zu.
 Lange Rede, kurzer Sinn.
 Lange Strecken fährt das Paar bevorzugt nachts, wenn die Kinder auf der Rückbank schlafen.
 Lange Sätze haben wir schon genug.
@@ -23618,6 +23622,7 @@ Mädchen, was machst du da?
 Mängel sollten angesprochen, aber nicht darauf herumgeritten werden.
 Männer mit Pferdeschwanz sind selten.
 Männer müssen stark und Frauen müssen hübsch sein.
+Männer sind alle gleich!
 Männlichkeitssteigernde Hormone werden Androgene genannt.
 Mäuschen, sag mal piep!
 Möbelpacker ist kein Beruf für alte Leute.
@@ -30276,6 +30281,7 @@ Vielleicht sollte man die Zuschauer mit Abstimmungen beteiligen.
 Vielleicht sollte man in der Arktis Schneekanonen aufstellen.
 Vielleicht sollte man zuerst mit einer Tagestour anfangen.
 Vielleicht sollten wir alle mal in uns gehen und dann so richtig ausrasten!
+Vielleicht sollten wir uns mal vor Augen führen, was das eigentlich bedeutet.
 Vielleicht solltest du deine Ansprüche herunterschrauben.
 Vielleicht steigt ja an der nächsten Station die Liebe meines Lebens ein.
 Vielleicht trifft sie ja auf dem Balkan ihren Märchenprinz.
