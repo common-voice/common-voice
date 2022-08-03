@@ -142,12 +142,80 @@ pl = Polish
 ps = Pashto
 pt = Portuguese
 quc = K'iche'
+quy = Quechua Chanka
+rm-sursilv = Romansh Sursilvan
+rm-vallader = Romansh Vallader
+ro = Romanian
+ru = Russian
+rw = Kinyarwanda
+sah = Sakha
+sat = Santali (Ol Chiki)
+sc = Sardinian
+scn = Sicilian
+shi = Shilha
+si = Sinhala
+sk = Slovak
+skr = Saraiki
+sl = Slovenian
+so = Somali
+sq = Albanian
+sr = Serbian
+ss = Siswati
+st = Southern Sotho
+sv-SE = Swedish
+sw = Swahili
+syr = Syriac
+ta = Tamil
+te = Telugu
+tg = Tajik
+th = Thai
+ti = Tigrinya
+tig = Tigre
+tk = Turkmen
+tl = Tagalog
+tn = Setswana
+tok = Toki Pona
+tr = Turkish
+ts = Xitsonga
+tt = Tatar
+tw = Twi
+ty = Tahitian
+uby = Ubykh
+udm = Udmurt
+ug = Uyghur
+uk = Ukranian
+ur = Urdu
+uz = Uzbek
+ve = Tshivenda
+vec = Venetian
+vi = Vietnamese
+vot = Votic
+xh = Xhosa
+yi = Yiddish
+yo = Yoruba
+yue = Cantonese
+zh-CN = Chinese (China)
+zh-HK = Chinese (Hong Kong)
+zh-TW = Chinese (Taiwan)
+zu = Zulu
 
 # [/]
 
 
 ## Layout
 
+speak = Kasa
+speak-now = Kasa seesei
+datasets = Datasets
+languages = Nkasa
+about = Fa ho
+profile = Profile
+help = Mmoa
+contact = Contact
+privacy = Kokoam
+terms = Terms
+cookies = Cookies
+faq = FAQ
 
 ## Home Page
 
