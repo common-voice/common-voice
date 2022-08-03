@@ -984,11 +984,15 @@ export default class DB {
     return rows;
   }
 
-  async getAllDatasets(): Promise<Language[]> {
+  async getAllDatasets(releaseType: string): Promise<Language[]> {
+    console.log('releaseType', releaseType);
+
     const [rows] = await this.mysql.query(
       `SELECT *
         FROM datasets l
-    `
+        ${releaseType ? `WHERE release_type = ?` : ''}
+    `,
+      [releaseType]
     );
     return rows;
   }
