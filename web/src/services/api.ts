@@ -486,6 +486,11 @@ export default class API {
     return this.fetch(`${API_PATH}/language/variants${lang ? '/' + lang : ''}`);
   }
 
+  getDatasets(releaseType: string) {
+    const query = releaseType ? `?releaseType=${releaseType}` : '';
+    return this.fetch(`${API_PATH}/datasets${query ? query : ''}`);
+  }
+
   getLanguagesWithDatasets() {
     return this.fetch(`${API_PATH}/datasets/languages`);
   }
