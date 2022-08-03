@@ -132,3 +132,25 @@ export function byteToSize(bytes: number, getString: Function): string {
     ? Math.round(megabytes / 1024) + ' ' + getString('size-gigabyte')
     : Math.round(megabytes) + ' ' + getString('size-megabyte');
 }
+
+export const formatBytes = (bytes: number, locale: string) => {
+  const sizes = ['btye', 'kilobyte', 'megabyte', 'gigabyte', 'terabyte'];
+  if (bytes > 0) {
+    const DECIMAL_PLACES = 2;
+    const BYTES_IN_KILOBYTE = 1024;
+    const i = Math.floor(Math.log(bytes) / Math.log(BYTES_IN_KILOBYTE));
+
+    return parseFloat(
+      (bytes / Math.pow(BYTES_IN_KILOBYTE, i)).toFixed(DECIMAL_PLACES)
+    ).toLocaleString(locale, {
+      style: 'unit',
+      unit: sizes[i],
+    });
+  } else {
+    const ZERO = 0;
+    return ZERO.toLocaleString(locale, {
+      style: 'unit',
+      unit: sizes[ZERO],
+    });
+  }
+};
