@@ -9,6 +9,7 @@ import {
   TaxonomyToken,
   taxonomies,
   Language,
+  Datasets,
 } from 'common';
 import lazyCache from '../lazy-cache';
 const MINUTE = 1000 * 60;
@@ -984,13 +985,32 @@ export default class DB {
     return rows;
   }
 
-  async getAllDatasets(releaseType: string): Promise<Language[]> {
-    console.log('releaseType', releaseType);
-
+  /**
+   * Get all datasets. Handles singleword complexity
+   *
+   * @param {string} releaseType
+   * @return {*}  {Promise<Language[]>}
+   * @memberof DB
+   */
+  async getAllDatasets(releaseType: string): Promise<Datasets[]> {
     const [rows] = await this.mysql.query(
-      `SELECT *
+      `SELECT 
+      l.id,
+      l.name,
+      l.release_dir,
+      l.multilingual,
+      l.bundle_date,
+      l.release_date,
+      l.total_clips_duration,
+      l.valid_clips_duration,
+      l.release_type,
+      ld.checksum,
+      ld.size
         FROM datasets l
+        JOIN locale_datasets ld on l.id = ld.dataset_id
         ${releaseType ? `WHERE release_type = ?` : ''}
+        GROUP BY l.id
+        ORDER BY l.release_date DESC
     `,
       [releaseType]
     );
@@ -1018,7 +1038,7 @@ export default class DB {
     JOIN datasets d ON
       d.id = ld.dataset_id
     where
-      ld.locale_id = ?
+      ld.locale_id = ? AND d.release_type = "complete"
     ORDER BY
       d.release_date DESC
     `,
