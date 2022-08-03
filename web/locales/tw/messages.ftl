@@ -11,6 +11,9 @@ loading = Ye pa wo kyew, twɛn
 email-opt-in-info = Me pɛ sɛ me gye emails goal reminders ho, me nkɔsoɔ, na amanneɛ Common Voice ho.
 email-opt-in-info-title = Ka wo ne Common Voice mailing list bom
 email-opt-in-info-sub-with-challenge = Me pɛ sɛ me gye emails challenge ne goal reminders ho, me nkɔsoɔ, na amanneɛ Common Voice ho.
+email-opt-in-privacy-v2 = Sɛ wo pɛ sɛ wo gye emails a, wo ka sɛ w'ani agye sɛ Mozilla agye information yi, Mozilla's <privacyLink> Privacy Policy <privacyLink> kwan so
+indicates-required = Ewo sɛ wo twerɛ wo adaka no mu a wo asterisk (*)
+not-available-abbreviation = N/A
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
