@@ -248,6 +248,28 @@ listen-paragraph = Ama donated clips ho kwan ye ho hia sɛ Common Voice mission 
 listen-goal-text = Clips validated
 hours-recorded = Hours Recorded
 hours-validated = Hours Validated
+voices-online = Voices Online Seesei
+todays-progress = Today's Progress
+help-reach-goal = Boa yen duru { $goal }
+read-terms-q = Wo kenkan yen Terms?
+ready-to-record = Wo ye krado se ama wo nne?
+all-locales = Biara
+today = Enne
+x-weeks-short =
+    { $count ->
+        [one] Baako
+       *[other] { $count }
+    }
+x-months-short =
+    { $count ->
+        [one] Baako
+       *[other] other
+    }
+x-years-short =
+    { $count ->
+        [one] Baako
+       *[other] Other
+    }
 
 ## Account Benefits
 
