@@ -218,9 +218,16 @@ cookies = Cookies
 faq = FAQ
 content-license-text = Content wo  <licenseLink>Creative Commons license</licenseLink> no mu
 share-title = Boa yen ahwɛhwɛ obi a bɛtumi ama won nne
+share-text = Boa kyerɛ mfidie sɛnea nnipa kasa. Ma won nne { $link } ho
+link-copied = Link Copied
+back-top = San kɔ soro ho
+logout = Log Out
 
 ## Home Page
 
+home-title = Common Voice ye Mozilla's kwan sɛ boa kyerɛ mfidie sɛnea nnipa kasa.
+default-tagline = Mozilla Common Voice ye Mozilla's kwan sɛ boa kyerɛ mfidie sɛnea nnipa kasa
+home-cta = Kasa, boa yen wo ha
 
 ## Account Benefits
 
