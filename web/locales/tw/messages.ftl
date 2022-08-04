@@ -662,30 +662,255 @@ de-identified-explanation = The process by which a contributor’s profile infor
 ## Error pages
 
 error-title-404 = We couldn’t find that page for you
+error-content-404 = Maybe our <homepageLink>homepage</homepageLink> will help? To ask a question, please join the <matrixLink>Matrix community chat</matrixLink>, monitor site issues via <githubLink>GitHub</githubLink> or visit <discourseLink>our Discourse forums</discourseLink>.
+error-title-503 = We’re experiencing unexpected downtime
+error-content-503 = The site will be back up as soon as possible. For the latest information, please join the <matrixLink>Matrix community chat</matrixLink> or visit <githubLink>GitHub</githubLink> or <discourseLink>our Discourse forums</discourseLink> to submit and monitor site experience issues.
+error-code = Error { $code }
 
 ## Data
 
+data-download-button = Download Common Voice Data
+data-download-yes = Aane
+data-download-deny = Daabi
+data-download-license = License: <licenseLink>CC-0</licenseLink>
+data-download-modal = You are about to initiate a download of <size>{ $size }GB</size>, proceed?
+data-subtitle = We are building an open and publicly available dataset of voices that everyone can use to train speech-enabled applications.
+data-explanatory-text = We believe that large and publicly available voice datasets foster innovation and healthy commercial competition in machine-learning based speech technology. This is a global effort and we invite everyone to participate. Our aim is to help speech technology be more inclusive, reflecting the diversity of voices from around the world.
+data-get-started = <speechBlogLink>Get Started with Speech Recognition</speechBlogLink>
+data-other-title = Other voice datasets…
+data-other-goto = Go to { $name }
+data-other-download = Download Data
+data-bundle-button = Download Dataset Bundle
+data-bundle-description = Common Voice data plus all other voice datasets above.
+release-version = Version
+dataset-date = Date
+license = License: <licenseLink>{ $license }</licenseLink>
+license-mixed = Mixed
+data-download-singleword-title = Download the Single Word Target Segment
+data-download-singleword-callout-v2 = This is a use case driven segment containing data to power spoken digit recognition and yes / no detection.
+review-terms = By using Common Voice, you agree to our <termsLink>Terms</termsLink> and <privacyLink>Privacy Notice</privacyLink>
+terms-agree = I agree
+terms-disagree = I do not agree
+review-aborted = Upload aborted. Do you want to delete your recordings?
+review-submit-title = Review & Submit
+review-submit-msg = Thank you for recording!<lineBreak></lineBreak>Now review and submit your clips below.
+review-recording = Review
+review-rerecord = Re-record
+review-cancel = Cancel Submission
+review-keep-recordings = Keep the recordings
+review-delete-recordings = Delete my recordings
 
 ## Datasets Page
 
+datasets-heading = Datasets
+datasets-headline = We’re building an open source, multi-language dataset of voices that anyone can use to train speech-enabled applications.
+datasets-positioning =
+    We believe that large, publicly available voice datasets will foster innovation and healthy commercial competition in machine-learning based speech technology.
+    
+    Common Voice’s multi-language dataset is already the largest publicly available voice dataset of its kind, but it’s not the only one.
+    
+    Look to this page as a reference hub for other open source voice datasets and, as Common Voice continues to grow, a home for our release updates.
+language = Language
+# File size in gigabytes
+size = Size
+validated-hr-total = Validated Hr. Total
+overall-hr-total = Overall Hr. Total
+cv-license = License
+audio-format = Audio Format
+number-of-voices = Number of Voices
+splits = Splits
+email-to-download = Enter Email to Download
+why-email = <b>Why an email?</b> We may need to contact you in the future about changes to the dataset, an email provides us a point of contact.
+confirm-size = You are prepared to initiate a download of <b>{ $size }</b>
+size-gigabyte = GB
+size-megabyte = MB
+confirm-no-identify = <b>You agree</b> to not attempt to determine the identity of speakers in the Common Voice dataset
+download-language = Download { $language }
+validated-hours = Validated Hours
+recorded-hours = Recorded Hours
+whats-inside = What’s inside the Common Voice dataset?
+dataset-description-hours =
+    Each entry in the dataset consists of a unique MP3 and corresponding text file. Many of the <b>{ $total }</b> recorded hours in the dataset also include demographic metadata like age, sex, and accent that can help train the accuracy of speech recognition engines.
+    
+    The dataset currently consists of <b>{ $valid }</b> validated hours in <b>{ $languages }</b> languages, but we’re always adding more voices and languages. Take a look at our <languagesLink>Languages page</languagesLink> to request a language or start contributing.
+want-dataset-update = Want updates when we release a new version of the Common Voice dataset? Subscribe to our newsletter.
+subscribe = Subscribe
+get-started-speech = Get Started with Speech Recognition
+other-datasets = Other Voice Datasets
+feedback-q = Have Feedback?
+resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ is an <docsLink>open-source toolkit</docsLink> for researchers developing state-of-the-art conversational AI models.
+resource-deepspeech-info = Mozilla’s open source voice recognition engine Deep Speech can be used to build speech recognition applications. Read our <githubLink>Github overview</githubLink> or join the <discourseLink>DeepSpeech Discourse</discourseLink> to learn how to get started.
+resource-coqui-info = <coquiLink>Coqui</coquiLink> is dedicated to open speech technology. Their projects include deep learning based STT and TTS engines.
+community-playbook = Community Playbook
+resource-playbook-info = <playbookLink>Find helpful guidance</playbookLink> on the entire Common Voice journey, from localisation to dataset usage, as well as how to connect with our community.
+data-other-librispeech-description = LibriSpeech is a corpus of approximately 1000 hours of 16Khz read English speech derived from read audiobooks from the LibriVox project.
+data-other-ted-name = TED-LIUM Corpus
+data-other-ted-description = The TED-LIUM corpus was made from audio talks and their transcriptions available on the TED website.
+data-other-voxforge-description = VoxForge was set up to collect transcribed speech for use with Free and Open Source Speech Recognition Engines.
+data-other-tatoeba-description = Tatoeba is a large database of sentences, translations, and spoken audio for use in language learning. This download contains spoken English recorded by their community.
+your-feedback = Do you have ideas on how we can make the Common Voice dataset better? Let us know on Discourse
+go-discourse = Go to Discourse
+missing-language = Don’t see your language reflected in the Dataset? To request a language head over to our Languages page.
+go-languages-page = Go to Languages Page
+ready-to-validate = Ready to help validate sentences?
+more = More
+close = Close
+download = Download
+dataset-version = Version
 
 ## Download Modal
 
+download-title = Your download has started.
+download-helpus = Help us build a community around voice technology, stay in touch via email.
+download-form-email =
+    .label = Enter your email
+    .value = Thank you, we'll be in touch.
+download-back = Return to Common Voice Datasets
+download-no = No Thanks
 
 ## Contact Modal
 
+contact-title = Contact Form
+contact-form-name =
+    .label = Name
+contact-form-message =
+    .label = Message
+contact-required = *required
 
 ## Request Language Modal
 
+request-language-title = Language Request
+request-language-form-language =
+    .label = Language
+request-language-success-title = Language request successfully submitted, thank you.
+request-language-success-content = We will be in touch with more information about how to add your language to Common Voice very soon.
+select-language = Select a Language...
+other-language = Other Language
 
 ## Request Language Pages
 
+request-language-heading = Ask about a new language
+request-language-explanation-1 =
+    Check if your language is listed on the
+    <languagesPageLink>Common Voice Languages page</languagesPageLink>.
+    If not, fill out this form and we’ll <strong>send you a handy email
+    explaining how to get your language set up</strong>.
+request-language-explanation-2 =
+    We will also <strong>let our community manager know
+    that you’re interested</strong>, so they can give you any
+    extra support or information you might need.
+request-language-form-email =
+    .label = Your email address
+request-language-form-info =
+    .label = Information about the language
+request-language-form-info-explanation =
+    Add as much information as you can about the language. This
+    could include:
+request-language-form-info-explanation-list-1 = Names of your language
+request-language-form-info-explanation-list-2 = <isoCodeLink>ISO Codes</isoCodeLink> if known
+request-language-form-info-explanation-list-3 = Links to websites that can help us understand the language
+request-language-google-recaptcha-required = reCAPTCHA is required if you want to proceed
+request-language-google-recaptcha-error = Something went wrong with reCAPTCHA. Please try again.
+# Success page
+request-language-success-heading = Thank you! You’ve sent a new language enquiry
+request-language-success-list-1 =
+    You should receive an email shortly explaining
+    the steps to get your language added to Common Voice
+request-language-success-list-2 =
+    Our community manager will reach out to you to offer
+    extra support, and to let you know if there is
+    already a community working on your language
+request-language-success-list-3 =
+    If you don’t hear from us within a couple of days,
+    reach out at <emailLink>{ $email }</emailLink>
+    and we’ll get back to you!
+request-language-error =
+    We may not have received that request. Please email us directly
+    on <emailLink>{ $email }</emailLink> and we will get back to you!
 
 ## Languages Overview
 
+language-section-in-progress = In Progress
+language-section-in-progress-new-description = These languages are currently under community development. <localizationGlossaryLink>Website localization</localizationGlossaryLink> and <sentenceCollectionGlossaryLink>sentence collection</sentenceCollectionGlossaryLink> is needed to launch.
+language-section-launched = Launched
+language-section-launched-description = For these launched languages the website has been successfully <localizationGlossaryLink>localized</localizationGlossaryLink>, and has enough <sentenceCollectionGlossaryLink>sentences collected</sentenceCollectionGlossaryLink> to allow for ongoing <speakLink>Speak</speakLink> and <listenLink>Listen</listenLink> contributions.
+languages-show-more = See More
+languages-show-less = See Less
+language-meter-in-progress = Progress
+language-total-progress = Total
+language-search-input =
+    .placeholder = Search
+language-speakers = Speakers
+localized = Localized
+sentences = Sentences
+language-validation-hours = Hours
+language-validation-progress = Validation Progress
 
 ## Contribution
 
+action-click = Click
+action-tap = Tap
+contribute = To boa
+listen = Tie
+skip = Skip
+shortcuts = Shortcuts
+clips-with-count-pluralized =
+    { $count ->
+        [one] <bold>{ $count }</bold> Clip
+       *[other] <bold>{ $count }</bold> Clips
+    }
+goal-help-recording = You've helped Common Voice reach <goalPercentage></goalPercentage> of our daily { $goalValue } recording goal!
+goal-help-validation = You've helped Common Voice reach <goalPercentage></goalPercentage> of our daily { $goalValue } validation goal!
+contribute-more =
+    { $count ->
+        [one] { "" }
+       *[other] Ready to do { $count } more?
+    }
+record-cta = Start recording
+record-platform-not-supported = We’re sorry, your platform is not currently supported.
+record-platform-not-supported-desktop = On desktop devices you can contribute by downloading…
+record-platform-not-supported-ios-non-safari = On iOS please continue with Safari to enable recording…
+record-must-allow-microphone = You must allow microphone access.
+record-no-mic-found = No microphone found.
+record-error-too-short = The recording was too short.
+record-error-too-long = The recording was too long.
+record-error-too-quiet = The recording was too quiet.
+record-cancel = Cancel Re-recording
+record-instruction = { $actionType }<recordIcon></recordIcon> then read the sentence aloud
+record-stop-instruction = { $actionType }<stopIcon></stopIcon> when done
+record-three-more-instruction = Three to go!
+record-again-instruction = Great!<recordIcon></recordIcon> Record your next clip
+record-again-instruction2 = Keep it up, record again <recordIcon></recordIcon>
+record-last-instruction = <recordIcon></recordIcon> Last one!
+review-tooltip = Review & re-record clips here as you go
+share-clip = Share your clip
+share-common-voice = Share Common Voice
+review-instruction = Review & re-record clips if needed
+record-submit-tooltip = { $actionType } submit when ready
+clips-uploaded = Clips Uploaded
+record-abort-title = Finish recording first?
+record-abort-text = Leaving now means you'll lose your progress
+record-abort-submit = Submit clips
+record-abort-continue = Finish recording
+record-abort-delete = Exit & Delete clips
+listen-instruction = { $actionType }<playIcon></playIcon> did they accurately speak the sentence?
+listen-again-instruction = Great work!<playIcon></playIcon> Listen again when you're ready
+listen-3rd-time-instruction = 2 down, keep it up!<playIcon></playIcon>
+listen-last-time-instruction = <playIcon></playIcon>Last one!
+listen-empty-state = We've run out of clips to validate in this language...
+listen-loading-error =
+    We couldn’t get any audio clips for you to listen to.
+    Please try again later.
+speak-empty-state = We've run out of sentences to record in this language...
+speak-empty-state-cta = Contribute sentences
+speak-loading-error =
+    We couldn’t get any sentences for you to speak.
+    Please try again later.
+record-button-label = Record your voice
+share-title-new = <bold>Help us</bold> find more voices
+keep-track-profile = Keep track of your progress with a profile
+login-to-get-started = Log in or sign up to get started
+target-segment-first-card = You’re contributing to our first target segment
 
 ## Reporting
 
