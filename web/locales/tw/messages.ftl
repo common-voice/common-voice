@@ -229,6 +229,9 @@ home-title = Common Voice ye Mozilla's kwan sɛ boa kyerɛ mfidie sɛnea nnipa k
 default-tagline = Mozilla Common Voice ye Mozilla's kwan sɛ boa kyerɛ mfidie sɛnea nnipa kasa
 home-cta = Kasa, boa yen wo ha
 wall-of-text-start = Enne ye adeɛ ɛfiri abɔdeɛ. Enne ye nipa. Ne saa nti ye pɛ sɛ ye yɛ technology a ama mfidie te nne aseɛ. Nanso, sɛ ye pɛ sɛ ye bɔ voice systems a, ye hia voice data bebree
+wall-of-text-more-mobile = Data no a companies kɛseɛ awɔ ntumi ahwehwɛ. Ye susu sɛ eno gyae nsesaeɛ. Nti, na ye bɔ Project Common Voice. Project Common Voice is a project to help make voice recognition open to everyone.
+wall-of-text-more-desktop = Seesei wo tumi ama wo nne se boa yen sie open-source voice database a obiara bɛtumi yɛ mobile ne web apps foforo. Kenkan ɔkasamu se boa mfidie kyerɛ sɛnea nnipa kasa. Kenkan obi foforɔ adwuma sɛdeɛ bɛ yɛ a improve quality no. Enyɛ kyɛnkyerɛkyɛnn!
+wall-of-text-first = Enne ye adeɛ ɛfiri abɔdeɛ. Enne ye nipa. Ne saa nti ye pɛ sɛ ye yɛ technology a ama mfidie te nne aseɛ. Nanso, sɛ ye pɛ sɛ ye bɔ voice systems a, developers hia voice data bebree
 
 ## Account Benefits
 
