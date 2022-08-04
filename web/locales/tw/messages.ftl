@@ -232,6 +232,17 @@ wall-of-text-start = Enne ye adeɛ ɛfiri abɔdeɛ. Enne ye nipa. Ne saa nti ye 
 wall-of-text-more-mobile = Data no a companies kɛseɛ awɔ ntumi ahwehwɛ. Ye susu sɛ eno gyae nsesaeɛ. Nti, na ye bɔ Project Common Voice. Project Common Voice is a project to help make voice recognition open to everyone.
 wall-of-text-more-desktop = Seesei wo tumi ama wo nne se boa yen sie open-source voice database a obiara bɛtumi yɛ mobile ne web apps foforo. Kenkan ɔkasamu se boa mfidie kyerɛ sɛnea nnipa kasa. Kenkan obi foforɔ adwuma sɛdeɛ bɛ yɛ a improve quality no. Enyɛ kyɛnkyerɛkyɛnn!
 wall-of-text-first = Enne ye adeɛ ɛfiri abɔdeɛ. Enne ye nipa. Ne saa nti ye pɛ sɛ ye yɛ technology a ama mfidie te nne aseɛ. Nanso, sɛ ye pɛ sɛ ye bɔ voice systems a, developers hia voice data bebree
+wall-of-text-second = Data no a companies kɛseɛ awɔ ntumi ahwehwɛ. Ye susu sɛ eno gyae nsesaeɛ. Nti, na ye bɔ Project Common Voice. Project Common Voice is a project to help make voice recognition open and accessible to everyone.
+show-wall-of-text = Kenkan
+help-us-title = Boa yen ma nkasamu ho kwan
+help-us-explain = Mia play, tie, na ka kyerɛ yen; Na wɔn kasa yie?
+no-clips-to-validate = ɛyɛ ye sɛ clips a wotumi tie language yi mu nni ha. Boa yen na record bi seesei
+vote-yes = Aane
+vote-no = Daabi
+toggle-play-tooltip = Mia { shortcut-play-toggle } sɛdeɛ bɛ yɛ a nsesa play mode
+speak-subtitle = Ama wo nne
+speak-paragraph = Recording voice clips ye ho hia. Eno mmoa yen sɛ sie yen open dataset. Obi beka sɛ eye anigyeɛ nso
+speak-goal-text = Clips recorded
 
 ## Account Benefits
 
