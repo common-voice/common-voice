@@ -216,6 +216,8 @@ privacy = Kokoam
 terms = Terms
 cookies = Cookies
 faq = FAQ
+content-license-text = Content wo  <licenseLink>Creative Commons license</licenseLink> no mu
+share-title = Boa yen ahwɛhwɛ obi a bɛtumi ama won nne
 
 ## Home Page
 
