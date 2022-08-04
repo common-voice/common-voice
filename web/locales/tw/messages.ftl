@@ -270,30 +270,151 @@ x-years-short =
         [one] Baako
        *[other] Other
     }
+help-make-dataset = Boa yen sie dataset a ye abue na papa
+sign-up-account = Sign up for an account
+email-subscription-title = Sign up for email updates
+email-subscription-title-new = Sign up for Common Voice newsletters, goal reminders and progress updates
 
 ## Account Benefits
 
+benefits = Benefits
+rich-data = Make your submitted data as rich as possible by providing some anonymous demographic data. We de-identify all demographic data before making it public.
+improve-audio = Profile information improves the audio data used in training speech recognition accuracy.
+keep-track = Keep track of your progress and metrics across multiple languages.
+compare-progress = See how your progress compares to other contributors all over the world.
+view-goals = View your progress against personal and project goals.
+join-newsletter = Optionally join on our email list for updates and new information about the project.
 
 ## What's public
 
+whats-public = What's Public?
+email-not-public = We will not make your email public
+recordings-and-locale-public = The number of recordings and which languages you contribute to will be public.
+username-optin-public = You can choose to make your username public or anonymous.
+demographic-deidentified-clarity-2 = Optionally submitted demographic data (e.g. age, gender, language, and accent) will never be made public on your profile, and will not be linked to your account in the dataset. Individual audio clips will be associated with demographic data for the purpose of more accurate analysis - for example, a researcher might want to target a training model to a specific demographic segment.
+username-email-not-demographic = Your username and email will not be associated with the published data.
 
 ## Speak & Listen Shortcuts
 
+# Must be one letter that appears in the translated { skip } string.
+shortcut-skip = s
 
 ## Listen Shortcuts
 
+# Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-play-toggle = p
+shortcut-play-toggle-label = Play/Stop
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = y
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = n
 
 ## Speak Shortcuts
 
+# Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-record-toggle = r
+shortcut-record-toggle-label = Record/Stop
+shortcut-rerecord-toggle = [1-5]
+shortcut-rerecord-toggle-label = Re-record clip
+shortcut-discard-ongoing-recording = ESC
+shortcut-discard-ongoing-recording-label = Discard ongoing recording
+shortcut-submit = Return
+shortcut-submit-label = Submit clips
+request-language-text = Don't see your language on Common Voice yet?
+request-language-button = Request a Language
 
 ## ProjectStatus
 
+status-title = Overall project status: see how far we’ve come!
+status-contribute = Contribute Your Voice
+status-hours =
+    { $hours ->
+        [one] One validated hour so far!
+       *[other] { $hours } validated hours so far!
+    }
+# Variables:
+# $goal - number of hours representing the next goal
+status-goal = Next Goals: { $goal }
+english = English
 
 ## ProfileForm
 
+profile-form-username =
+    .label = User Name
+profile-form-native-language =
+    .label = Native Language
+profile-form-additional-language =
+    .label = Additional Language
+profile-form-language =
+    .label = Language
+profile-form-variant =
+    .label = Which variant of { $language } do you speak?
+profile-form-variant-default-value = No variant selected
+profile-form-accent =
+    .label = Accent
+profile-form-custom-accent-help-text =
+    .label = How would you describe your accent?
+profile-form-custom-accent-placeholder-2 = Start typing to describe your accent
+profile-form-age =
+    .label = Age
+profile-form-gender-2 =
+    .label = Gender
+leaderboard-visibility =
+    .label = Leaderboard Visibility
+hidden = Hidden
+visible = Visible
+native-language =
+    .label = Native Language
+profile-form-add-accent = Add new custom accent "{ $inputValue }"
+profile-form-submit-save = Save
+profile-form-submit-saved = Saved
+male = Male
+female = Female
+# Gender
+other = Other
+why-profile-title = Why a profile?
+why-profile-text =
+    By providing some information about yourself, the audio data you submit to Common Voice will be more useful to Speech
+    Recognition engines that use this data to improve their accuracy.
+dashboard = Dashboard
+build-profile = Build Profile
+avatar = Avatar
+goals = Goals
+settings = Settings
+edit-profile = Edit Profile
+profile-create-success = Success, profile created!
+profile-close = Close
+profile-explanation = Keep track of your progress with a profile and help our voice data be more accurate.
+thanks-for-account = Thanks for confirming your account, now let's build your profile.
+why-demographic = Why does this matter?
+why-demographic-explanation-2 = Anonymized user data like age, gender, and accent helps improve the audio data used to train the accuracy of speech recognition engines. Your username and email will never be associated with your submitted data, and you can choose whether to make your username public or anonymous.
+accept-privacy = I'm okay with you handling this info as you explain in Mozilla's <privacyLink>Privacy Policy</privacyLink>
+accept-privacy-title = Privacy Policy
+login-identity = Login Identity
+login-signup = Log In / Sign Up
+edit = Edit
+email-subscriptions = Email Subscriptions
+download-profile = Download My Data
+contribution-experience = Contribution Experience
+skip-submission-feedback = Skip Submission Feedback
+skip-submission-description = During contribution submission feedback will be skipped after clicking 'Submit'. Contribution will continue directly with the next set of 5 recordings or validations.
+skip-submission-note = Note: You will still need to select between Speak or Listen to change contribution type.
+off = Off
+on = On
+help-accent = Need some help with accent?
+help-accent-explanation = Your accent is the way you pronounce words. It can be shaped by where you have lived, which other languages you speak and lots of other factors. You can share any information you feel is relevant here.
+help-variants = Need some help with variants?
+help-variants-explanation = Variants are a specific form of a language - for example shared by those living in a geography or commmunity. Sometimes these are called dialects.
 
 ## Profile - Email
 
+browse-file-title = Upload an image file
+browse-file = Drag and drop or <browseWrap>Browse</browseWrap>
+connect-gravatar = Connect with Gravatar
 
 ## Profile - Email
 
