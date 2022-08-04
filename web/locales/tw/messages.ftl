@@ -228,6 +228,7 @@ logout = Log Out
 home-title = Common Voice ye Mozilla's kwan sɛ boa kyerɛ mfidie sɛnea nnipa kasa.
 default-tagline = Mozilla Common Voice ye Mozilla's kwan sɛ boa kyerɛ mfidie sɛnea nnipa kasa
 home-cta = Kasa, boa yen wo ha
+wall-of-text-start = Enne ye adeɛ ɛfiri abɔdeɛ. Enne ye nipa. Ne saa nti ye pɛ sɛ ye yɛ technology a ama mfidie te nne aseɛ. Nanso, sɛ ye pɛ sɛ ye bɔ voice systems a, ye hia voice data bebree
 
 ## Account Benefits
 
