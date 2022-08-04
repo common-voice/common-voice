@@ -149,7 +149,11 @@ logout = ອອກຈາກລະບົບ
 ## Home Page
 
 show-wall-of-text = ອ່ານ​ຕື່ມ
+vote-yes = ແມ່ນ
+vote-no = ບໍ່
 speak-subtitle = ບໍລິຈາກສຽງຂອງເຈົ້າ
+all-locales = ທັງໝົດ
+today = ມື້ນີ້
 
 ## Account Benefits
 
@@ -174,6 +178,12 @@ english = ພາສາອັງກິດ
 
 profile-form-username =
     .label = ຊື່ຜູ້ໃຊ້
+profile-form-language =
+    .label = ພາສາ
+profile-form-submit-save = ບັນທຶກ
+# Gender
+other = ອື່ນໆ
+edit = ແກ້ໄຂ
 off = ປິດ
 on = ເປີດ
 
@@ -191,6 +201,7 @@ on = ເປີດ
 
 ## How does it work section
 
+about-speak = ເວົ້າ
 about-stay-in-touch-button = ລົງ​ທະ​ບຽນ
 
 ## Community Playbook Content
@@ -223,12 +234,14 @@ about-stay-in-touch-button = ລົງ​ທະ​ບຽນ
 
 ## Glossary
 
+localization = ການແປ
 
 ## Error pages
 
 
 ## Data
 
+release-version = ລູ້ນ​
 
 ## Datasets Page
 
@@ -236,53 +249,81 @@ datasets-heading = ຊຸດຂໍ້ມູນ
 language = ພາສາ
 data-other-ted-name = TED-LIUM Corpus
 go-discourse = ໄປທີ່ Discourse
+close = ປິດ
+download = ດາວໂຫລດ
+dataset-version = ລູ້ນ​
 
 ## Download Modal
 
+download-no = ບໍ່, ຂອບໃຈ
 
 ## Contact Modal
 
+contact-form-name =
+    .label = ຊື່
 contact-form-message =
     .label = ຂໍ້ຄວາມ
+contact-required = *ຕ້ອງການ
 
 ## Request Language Modal
 
+request-language-form-language =
+    .label = ພາສາ
 
 ## Request Language Pages
 
 
 ## Languages Overview
 
+languages-show-more = ເບິ່ງເພີ່ມເຕີມ
+language-search-input =
+    .placeholder = ຊອກຫາ
 
 ## Contribution
 
+target-segment-learn-more = ຮຽນຮູ້ເພີ່ມເຕີມ
 
 ## Reporting
 
+report = ລາຍງານ
+continue = ສືບຕໍ່
 
 ## Goals
 
 
 ## Dashboard
 
+you = ທ່ານ
 
 ## Custom Goals
 
 
 ## Profile Delete
 
+remove = ລຶບ
 
 ## Profile Download
 
+download-size = ຂະຫນາດ
+download-selected = ເລືອກແລ້ວ
+download-request-button = ດາວໂຫລດ
+download-request-title = { $created }
+download-request-refresh-button = ຟື້ນຟູ
+download-request-modal-title = ລິ້ງດາວໂຫລດ
 
 ## Landing
 
 
 ## DemoLayout
 
+demo-get-started = ມາເລີ່ມກັນເທາະ
+demo-welcome = ຍິນດີຕ້ອນຮັບສູ່ Common Voice
 
 ## Demo Datasets
 
+card-button-next = ຕໍ່ໄປ
+card-button-back = ກັບຄືນ
+demo-account = ບັນຊີ
 
 ## Demo Account
 
@@ -303,6 +344,8 @@ contact-form-message =
 
 ## HEADER/FOOTER
 
+sc-footer-terms = ຂໍ້ກຳນົດ
+sc-footer-cookies = ຄຸກກີ້
 
 ## HOME
 
@@ -330,6 +373,7 @@ contact-form-message =
 
 ## ADD SENTENCES CONFIRMATION
 
+sc-confirm-button-text = ຢືນຢັນ​
 
 ## LANGUAGE INFO
 
@@ -345,9 +389,11 @@ contact-form-message =
 
 ## REVIEW
 
+sc-review-form-button-skip = ຂ້າມ
 
 ## SETTINGS
 
+sc-settings-title = ການຕັ້ງຄ່າ
 
 # [/SentenceCollector]
 
