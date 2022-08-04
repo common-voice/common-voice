@@ -243,6 +243,11 @@ toggle-play-tooltip = Mia { shortcut-play-toggle } sɛdeɛ bɛ yɛ a nsesa play 
 speak-subtitle = Ama wo nne
 speak-paragraph = Recording voice clips ye ho hia. Eno mmoa yen sɛ sie yen open dataset. Obi beka sɛ eye anigyeɛ nso
 speak-goal-text = Clips recorded
+listen-subtitle = Boa yen ma nne ho kwan
+listen-paragraph = Ama donated clips ho kwan ye ho hia sɛ Common Voice mission no. Tie na boa yen bɔ open source voice data paa
+listen-goal-text = Clips validated
+hours-recorded = Hours Recorded
+hours-validated = Hours Validated
 
 ## Account Benefits
 
