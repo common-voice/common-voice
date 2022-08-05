@@ -342,6 +342,7 @@ profile-form-additional-language =
     .label = Karagdagang Wika
 profile-form-language =
     .label = Wika
+profile-form-variant-default-value = Walang variant na napili
 profile-form-accent =
     .label = Punto
 profile-form-age =
@@ -354,6 +355,7 @@ hidden = Nakatago
 visible = Makikita
 native-language =
     .label = Katutubong Wika
+profile-form-add-accent = Magdagdag ng bagong custom accent "{ $inputValue }"
 profile-form-submit-save = i-Save
 profile-form-submit-saved = Naka-Save
 male = Lalaki
@@ -382,6 +384,7 @@ skip-submission-feedback = Laktawan ang Pag-Submit ng Feedback
 skip-submission-note = Tandaan: Kailangan mo pa ring mamili sa pagitan ng Magsalita o Makinig para palitan ang uri ng kontribusyon
 off = Off
 on = On
+help-variants = Kailangan mo ng tulong sa mga variant?
 
 ## Profile - Email
 
@@ -396,6 +399,7 @@ remove-avatar = Alisin ang Avatar
 
 ## Profile - Email
 
+manage-subscriptions = Pamahalaan ang mga Subscription
 email-already-used = Nagamit na sa ibang account ang email
 add-language = Magdagdag ng Wika
 change-email-setings = Palitan ang iyong email sa Settings sa ilalim ng Login Identity
@@ -438,6 +442,8 @@ about-title = Bakit Common Voice?
 
 about-localization-title = Lokalisasyong ng Website
 about-new-lang-title = Bagong Paglunsad ng Wika
+about-voice-contrib-title = Voice Contribution
+about-voice-validation-title = Pagpapatunay ng Boses
 about-dataset-release-subtitle = Naglalabas kami ng dataset bawat 3 buwan.
 about-speak = Magsalita
 about-listen-queue = Listen-Queue
@@ -465,10 +471,12 @@ about-playbook-what-is-language = Ano ang isang wika sa Common Voice?
 
 about-playbook-how-add-language = Paano magdagdag ng wika?
 about-playbook-how-add-language-translating-heading = Isalin ang site
+about-playbook-how-add-language-collecting-sentences-heading = Pagkolekta ng mga pangungusap
 
 ## How does localization work
 
 about-playbook-how-localize = Paano gumagana ang localization?
+about-playbook-how-localize-content-5 = Panoorin ang video explainer para tumulong
 
 ## How to add sentences
 
@@ -487,6 +495,7 @@ about-playbook-how-grow-language-content-4 = Social media
 
 ## How to access dataset
 
+about-playbook-how-access-dataset = Paano i-access at gamitin ang dataset?
 
 ## How are decisions made
 
