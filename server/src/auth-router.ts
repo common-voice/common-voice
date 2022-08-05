@@ -189,10 +189,10 @@ router.get(
 
 router.get('/login', (request: Request, response: Response) => {
   const { headers, user, query } = request;
-  let locale = '';
+  let locale = 'en';
   if (headers.referer) {
-    const pathParts = parseURL(headers.referer).pathname?.split('/');
-    locale = pathParts?.[1] || 'en';
+    const refererUrl = new URL(headers.referer);
+    locale = refererUrl.pathname.split('/')[1] || 'en';
   }
   passport.authenticate('auth0', {
     state: AES.encrypt(
