@@ -122,6 +122,7 @@ uz = ພາສາອຸສເບກິສຖານ
 vi = ພາສາຫວຽດນາມ
 xh = ພາສາໂຊຊາ
 yo = ພາສາໂຢຣູບາ
+yue = ພາສາກວາງຕຸ້ງ
 zh-CN = ພາສາຈີນ (ຈີນ)
 zh-HK = ພາສາຈີນ (ຮົງກົງ)
 zh-TW = ພາສາຈີນ (ໄຕ້ຫວັນ)
@@ -154,6 +155,7 @@ show-wall-of-text = ອ່ານ​ຕື່ມ
 vote-yes = ແມ່ນ
 vote-no = ບໍ່
 speak-subtitle = ບໍລິຈາກສຽງຂອງເຈົ້າ
+listen-subtitle = ຊ່ວຍພວກເຮົາກວດສອບສຽງ
 all-locales = ທັງໝົດ
 today = ມື້ນີ້
 
@@ -171,6 +173,7 @@ today = ມື້ນີ້
 
 ## Speak Shortcuts
 
+shortcut-submit = ກັບຄືນ
 
 ## ProjectStatus
 
@@ -182,6 +185,7 @@ profile-form-username =
     .label = ຊື່ຜູ້ໃຊ້
 profile-form-language =
     .label = ພາສາ
+hidden = ເຊື່ອງ
 profile-form-submit-save = ບັນທຶກ
 # Gender
 other = ອື່ນໆ
