@@ -243,14 +243,20 @@ localization = ການແປ
 
 ## Data
 
+data-download-yes = ແມ່ນ
+data-download-deny = ບໍ່
 release-version = ລູ້ນ​
 
 ## Datasets Page
 
 datasets-heading = ຊຸດຂໍ້ມູນ
 language = ພາສາ
+size-gigabyte = GB
+size-megabyte = MB
+subscribe = ຕິດຕາມ
 data-other-ted-name = TED-LIUM Corpus
 go-discourse = ໄປທີ່ Discourse
+more = ເພີ່ມເຕີມ
 close = ປິດ
 download = ດາວໂຫລດ
 dataset-version = ລູ້ນ​
@@ -280,14 +286,17 @@ request-language-form-language =
 languages-show-more = ເບິ່ງເພີ່ມເຕີມ
 language-search-input =
     .placeholder = ຊອກຫາ
+language-validation-hours = ຊົ່ວໂມງ
 
 ## Contribution
 
+action-click = ຄິກ
 target-segment-learn-more = ຮຽນຮູ້ເພີ່ມເຕີມ
 
 ## Reporting
 
 report = ລາຍງານ
+success = ສຳເລັດ
 continue = ສືບຕໍ່
 
 ## Goals
@@ -338,6 +347,7 @@ demo-account = ບັນຊີ
 
 ## Validation criteria
 
+contribution-volume-title = ລະດັບສຽງ
 
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
@@ -346,6 +356,11 @@ demo-account = ບັນຊີ
 
 ## HEADER/FOOTER
 
+sc-header-home = ໜ້າຫຼັກ
+sc-header-add = ເພີ່ມ
+sc-header-profile = ໂປ​ຣ​ໄຟ​ລ໌
+sc-footer-translate = ແປຫນ້ານີ້
+sc-footer-privacy = ຄວາມເປັນສ່ວນຕົວ
 sc-footer-terms = ຂໍ້ກຳນົດ
 sc-footer-cookies = ຄຸກກີ້
 
@@ -366,12 +381,18 @@ sc-footer-cookies = ຄຸກກີ້
 
 ## STATS
 
+sc-stats-updating = ກຳລັງອັບເດດ…
 
 ## ADD
 
+sc-submit-select-language =
+    .labelText = ເລືອກພາສາ
+sc-submit-button =
+    .submitText = ສົ່ງ
 
 ## ADD LANGUAGE
 
+sc-add-lang-sec-button = ເພີ່ມພາສາ
 
 ## ADD SENTENCES CONFIRMATION
 
@@ -385,6 +406,7 @@ sc-confirm-button-text = ຢືນຢັນ​
 
 ## PROFILE
 
+sc-personal-remove-button = ລຶບ
 
 ## REVIEW CRITERIA
 
