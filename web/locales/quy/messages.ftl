@@ -558,6 +558,20 @@ about-playbook-what-is-language-content-3 = Algunos idiomas tienen una enorme va
 
 about-playbook-how-add-language = Cómo agrego un idioma?
 about-playbook-how-add-language-content-1 = Primero, verifique si su idioma <languageLink>ya existe</languageLink>. Si no es así, debe <strong>traducir el sitio y recopilar oraciones</strong>.
+about-playbook-how-add-language-translating-heading = Traduciendo el sitio
+about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Vea nuestra guía sobre cómo usar Pontoon.</translateVideoLink>
+about-playbook-how-add-language-translating-content-2 =
+    Usamos una herramienta de Mozilla llamada <pontoonLink>Pontoon</pontoonLink> para las traducciones. Pontoon tiene muchos idiomas,
+    pero si no tiene el suyo, puede <pontoonRequestLink>solicitar que se agregue su idioma</pontoonRequestLink>.
+    Luego, para que el idioma esté disponible en el proyecto Common Voice,
+    <githubRepoLink>solicitar el nuevo idioma en GitHub</githubRepoLink>. <localizationFragment>Ver más en la traducción del sitio</localizationFragment>.
+about-playbook-how-add-language-collecting-sentences-heading = Recopilación de frases
+about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>Vea nuestra guía sobre cómo usar el recopilador de oraciones</sentenceCollectorVideo>.
+about-playbook-how-add-language-collecting-sentences-content-2 =
+    Puede <sentenceCollectorLinkAdd>añadir pequeñas cantidades de oraciones</sentenceCollectorLinkAdd>,
+    o puedes hacer <bulkImportDocsLink>importaciones masivas usando Github</bulkImportDocsLink>.
+    Recuerde que las oraciones deben ser <licenseLink>CC0 (o dominio público)</licenseLink>, o puede escribir las suyas propias.
+about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>Vea más sobre la colección de oraciones</sentenceCollectorFragment>.
 
 ## How does localization work
 
@@ -818,6 +832,8 @@ language-search-input =
 language-speakers = Altavoces
 localized = Localizado
 sentences = Rimaykuna
+language-validation-hours = Horas
+language-validation-progress = Progreso de la validación
 
 ## Contribution
 
