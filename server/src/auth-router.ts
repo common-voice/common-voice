@@ -192,7 +192,7 @@ router.get('/login', (request: Request, response: Response) => {
   let locale = '';
   if (headers.referer) {
     const pathParts = parseURL(headers.referer).pathname?.split('/');
-    locale = pathParts?.[1] || '';
+    locale = pathParts?.[1] || 'en';
   }
   passport.authenticate('auth0', {
     state: AES.encrypt(
