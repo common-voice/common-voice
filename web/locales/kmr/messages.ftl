@@ -541,19 +541,26 @@ about-nav-how-it-works = Çawa ?
 about-nav-partners = Hevkar
 about-nav-get-involved = Tev lê bibin
 about-nav-how-it-works-2 = Common Voice çawa dixebite?
+about-nav-playbook = Beşdarî çawa tê kirin
 
 ## Community Playbook Content
 ## What is a language
 
+about-playbook-what-is-language = Zimanek li ser Common Voiceê çi ye?
 
 ## How do I add a language
 
+about-playbook-how-add-language = Ez çawa dikarim zimanekî tevlî bikim?
+about-playbook-how-add-language-translating-heading = Wergerandina malperê
+about-playbook-how-add-language-collecting-sentences-heading = Komkirina hevokan
 
 ## How does localization work
 
+about-playbook-how-localize = Wergerandina malperê çawa tê kirin?
 
 ## How to add sentences
 
+about-playbook-how-add-sentences = Ez çawa dikarim hevokan tevlî bikim?
 
 ## How to record quality
 
@@ -623,6 +630,7 @@ review-delete-recordings = Dengên min jê bibe
 
 ## Datasets Page
 
+datasets-heading = Komdane
 datasets-headline = Em komdaneyeke dengan a çavkanî vekirî û pirzimanî ava dikin ji bo ku her kes karibe pê sepanên xwe yên xwedî-axaftin rahênan bike.
 language = Ziman
 # File size in gigabytes
@@ -693,6 +701,13 @@ other-language = Zimanê din
 
 ## Request Language Pages
 
+request-language-heading = Li ser zimanekî nû pirsan bipirse
+request-language-form-email =
+    .label = Navnîşana emaîla te
+request-language-form-info =
+    .label = Di derbarê zimên de agahî
+request-language-form-info-explanation-list-1 = Navên zimanê te
+request-language-form-info-explanation-list-2 = heke tê zanîn <isoCodeLink>Kodên ISOyê</isoCodeLink>
 
 ## Languages Overview
 
@@ -712,6 +727,8 @@ language-search-input =
 language-speakers = Axiver
 localized = Wergerandî
 sentences = Hevok
+language-validation-hours = Saet
+language-validation-progress = Pêşveçûna Piştrastkirinê
 
 ## Contribution
 
@@ -905,6 +922,10 @@ profile-form-delete = Profîlê jê bibe
 
 ## Profile Download
 
+download-q = Pêwîst e tu daneyên xwe daxînî?
+download-info = Tu dixwazî çi daxînî:
+download-profile-title = Profîl
+download-size = Mezinahî
 download-request-refresh-button = Nû bike
 download-request-modal-title = Girêdankên jêbarkirinê
 download-request-modal-description = Girêdanka jêbarkirina pelên te yên ZIP li virê ye.
