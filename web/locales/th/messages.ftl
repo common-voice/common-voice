@@ -566,6 +566,7 @@ about-playbook-how-grow-language-content-6 = ความร่วมมือ�
 
 ## How to validate
 
+about-playbook-how-validate = ฉันจะรู้ได้อย่างไรว่าจะอนุมัติคลิปเสียงหรือไม่?
 
 ## How to access dataset
 
@@ -722,6 +723,9 @@ other-language = ภาษาอื่น ๆ
 
 request-language-heading = ถามเกี่ยวกับภาษาใหม่
 request-language-form-info-explanation-list-1 = ชื่อภาษาของคุณ
+request-language-form-info-explanation-list-2 = <isoCodeLink>รหัส ISO</isoCodeLink> หากทราบ
+request-language-form-info-explanation-list-3 = ลิงค์ไปยังเว็บไซต์ที่ช่วยให้เราเข้าใจภาษา
+request-language-google-recaptcha-required = จำเป็นต้องใช้ reCAPTCHA หากคุณต้องการดำเนินการต่อ
 
 ## Languages Overview
 
