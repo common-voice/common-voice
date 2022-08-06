@@ -1045,36 +1045,73 @@ sc-my-no-sentences = Hevok nehatin dîtin!
 #   $source (String) - Associated source the user filled out when uploading the sentence
 sc-my-source = Çavkanî: { $source }
 sc-my-delete = Hevokên hilbijartî jê bibe
+sc-my-deleting = Hevokên hilbijartî tên jêbirin…
+sc-my-err-failed-delete = Jêbirina hevokên hilbijartî bi ser neket… Dîsa biceribîne!
 
 ## REJECTED
 
+sc-rejected-title = Hevokên red bûne
+sc-rejected-loading = Hevokên red bûne tên barkirin…
+sc-rejected-none-found = Hevokên red bûne nehatin dîtin!
 
 ## STATS
 
+sc-stats-title = Amarên Projeyê
+sc-stats-updating = Tê nûvekirin…
+sc-stats-error = Me nedikarî amaran bînin. Ji kerema xwe paşê dîsa biceribînin.
 
 ## ADD
 
+sc-submit-err-select-lang = Ji kerema xwe zimanekî hilbijêre.
+sc-submit-err-add-sentences = Ji kerema xwe hevokan tevlî bike.
+sc-submit-err-add-source = Ji kerema xwe çavkaniyekê tevlî bike.
+sc-submit-title = Hevokan tevlî bike
+sc-submit-select-language =
+    .labelText = Zimên hilbijêre
+sc-submit-button =
+    .submitText = Bişîne
 
 ## ADD LANGUAGE
 
+sc-add-lang-could-not-add = Ziman nehat tevlîkirin
+sc-add-lang-sec-label = Zimanekî ku tu dixwazî beşdariyê lê bikî, tevlî bike
+sc-add-lang-sec-button = Zimên tevlî bike
 
 ## ADD SENTENCES CONFIRMATION
 
+sc-confirm-button-text = Bipejirîne
 
 ## LANGUAGE INFO
 
+sc-lang-info-title-total = Tevahî
+sc-lang-info-title-personal = Şexsî
 
 ## LOGIN
 
 
 ## PROFILE
 
+sc-personal-your-languages = Zimanên te:
+sc-personal-remove-button = rake
 
 ## REVIEW CRITERIA
 
+sc-criteria-modal = ⓘ Krîterên Kontrolkirinê
+sc-criteria-title = Krîterên Kontrolkirinê
 
 ## REVIEW
 
+sc-review-form-button-reject = Red bike
+sc-review-form-button-skip = Derbas bike
+sc-review-form-button-approve = Bipejirîne
+# Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
+sc-review-form-button-approve-shortcut = E
+# Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
+sc-review-form-button-reject-shortcut = N
+# Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
+sc-review-form-button-skip-shortcut = D
+sc-review-form-button-submit =
+    .submitText = Kontrolkirinê Biqedîne
 
 ## SETTINGS
 
