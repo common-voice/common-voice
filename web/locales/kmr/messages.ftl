@@ -987,6 +987,9 @@ contribution-criteria-link = Krîterên beşdarîkirinê fêm bike
 contribution-criteria-page-title = Krîterên Beşdarîkirinê
 contribution-for-example = mînak
 contribution-misreadings-title = Xwendinên çewt
+contribution-volume-title = Piledeng
+contribution-reader-effects-title = Efektên Xwînerê
+contribution-just-unsure-title = Tu jê ne bawerî?
 see-more = <chevron></chevron>Zêdetir bibîne
 see-less = <chevron></chevron>Hindiktir bibîne
 
@@ -1018,15 +1021,30 @@ sc-logout-button = Derketin
 ## HOME
 
 sc-home-title = Bi xêr hatî Berhevkara Hevokan ya Common Voiceê
+sc-home-collect-title = Hevokan kom bike
+sc-home-collect-text = Bi nivîsîn û komkirina hevokên anonîm bi me re bibin alîkar.
+sc-home-review-title = Hevokan kontrol bike
 
 ## GENERAL
 
 
 ## HOW-TO
 
+sc-howto-title = Çawa tê kirin
+sc-howto-addlang-title = Tevlîkirina zimanên ku kar li ser tê kirin
+sc-howto-addsen-title = Hevokên nû tevlî bike
+sc-howto-cite-title = Çawa jê tê girtin
+sc-howto-review-title = Hevokan kontrol bike
 
 ## MY SENTENCES
 
+sc-my-title = Hevokên min
+sc-my-loading = Hevokên te bar dibin…
+sc-my-no-sentences = Hevok nehatin dîtin!
+# Variables:
+#   $source (String) - Associated source the user filled out when uploading the sentence
+sc-my-source = Çavkanî: { $source }
+sc-my-delete = Hevokên hilbijartî jê bibe
 
 ## REJECTED
 
