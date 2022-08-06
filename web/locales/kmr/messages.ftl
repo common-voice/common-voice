@@ -387,7 +387,7 @@ hidden = Veşartî
 visible = Xuya
 native-language =
     .label = Zimanê zikmakî
-profile-form-add-accent = Aksana "{ $inputValue }" lê zêde bike
+profile-form-add-accent = Aksana "{ $inputValue }" tevlî bike
 profile-form-submit-save = Tomar bike
 profile-form-submit-saved = Hat tomarkirin
 male = Mêr
@@ -926,6 +926,9 @@ download-q = Pêwîst e tu daneyên xwe daxînî?
 download-info = Tu dixwazî çi daxînî:
 download-profile-title = Profîl
 download-size = Mezinahî
+download-selected = Hilbijartî
+download-start = Daneyên profîlê daxîne
+download-request = Tomaran bixwaze
 download-request-button = Daxîne
 download-request-title = { $created }
 download-request-description = { $clipCount } tomarên dengî, mezinahiya arşîvê ya giştî { $size }. Dawiya maweyê: { $expires }.
@@ -1000,11 +1003,11 @@ see-less = <chevron></chevron>Hindiktir bibîne
 
 ## HEADER/FOOTER
 
-sc-header-home = Serûpel
-sc-header-how-to = Çawa çêdibe
-sc-header-add = Lê zêde bike
+sc-header-home = Serrûpel
+sc-header-how-to = Çawa tê kirin
+sc-header-add = Tevlî bike
 sc-header-review = Nirxandin
-sc-header-rejected = Hevokên hatine redkirin
+sc-header-rejected = Hevokên red bûne
 sc-header-my = Hevokên min
 sc-header-statistics = Amar
 sc-header-profile = Profîl
@@ -1112,9 +1115,14 @@ sc-review-form-button-reject-shortcut = N
 sc-review-form-button-skip-shortcut = D
 sc-review-form-button-submit =
     .submitText = Kontrolkirinê Biqedîne
+sc-review-link = Kontrol bike
 
 ## SETTINGS
 
+sc-settings-title = Sazkarî
+sc-settings-ui-language = Zimanê Navrûyê
 
 # [/SentenceCollector]
 
+localization-select =
+    .label = Zimên hilbijêre
