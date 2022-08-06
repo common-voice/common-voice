@@ -173,8 +173,10 @@ ti = Tîgrînîya
 tig = Tîgrî
 tk = Tirkmenî
 tl = Tagalogî
+tn = Setswanayî
 tok = Tokî Pona
 tr = Tirkî
+ts = Xitsongayî
 tt = Teterî
 tw = Twi
 ty = Tahitian
@@ -184,15 +186,18 @@ ug = Uyghurî
 uk = Ukraynî
 ur = Urdûyî
 uz = Ozbekî
+ve = Tshivendayî
 vec = Venedîkî
 vi = Viyetnamî
 vot = Votîkî
+xh = Xhosa
 yi = Yîdîş
 yo = Yoruba
 yue = Kantonî
 zh-CN = Çînî (Çîn)
 zh-HK = Çînî (Hong Kong)
 zh-TW = Çînî (Taywan)
+zu = Zulu
 
 # [/]
 
@@ -364,6 +369,9 @@ profile-form-additional-language =
     .label = Zimanê din
 profile-form-language =
     .label = Ziman
+profile-form-variant =
+    .label = Tu kîjan varyanta { $language } diaxivî?
+profile-form-variant-default-value = Varyant nehat bijartin
 profile-form-accent =
     .label = Devok
 profile-form-custom-accent-help-text =
@@ -417,6 +425,7 @@ off = Girtî
 on = Vekirî
 help-accent = Ji bo aksanê ji te re alîkarî divê?
 help-accent-explanation = Devoka te awayê te yê bilêvkirina peyvan e. Ciyê tu lê dijî, zimanên din ku tu pê diaxivî û gelek faktorên din bandorê lê dikin, Tu dikarî wan zanyariyan li virê parve bikî ku li gorî fikra te têkildar in.
+help-variants = Ji bo varyantan pêdiviya te bi hinek alîkariyê heye?
 
 ## Profile - Email
 
@@ -427,6 +436,7 @@ gravatar_not_found = Ti gravatarên bi emaîla te ve girêdayî nehate dîtin
 file_too_large = Dosyeya hatiye bijartin pir mezin e
 avatar-uploaded = Avatar hat lêbarkirin
 max-file-size = herî zêde { $kb }kb
+remove-avatar = Avatarê Rake
 
 ## Profile - Email
 
@@ -483,10 +493,16 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Çima Common Voice?
+how-does-it-work-title-v2 = Common Voice çawa dixebite?
 how-does-it-work-text = Em komdaneyeke dengan ya çavkanî vekirî berhev dikin. Dengê xwe bibexşîne, klîbên dengî yên kesên din kontrol bike, komdaneyê ji bo her kesî çêtir bike.
 
 ## How does it work section
 
+about-language-req-subtitle = Yek ji bo tevlîkirina zimanekî dixwazekê vedike.
+about-localization-title = Wergerandina Malperê
+about-localization-subtitle = Metnên malperê li wî zimanî tê wergerandin.
+about-sentence-collection-title = Berhevkirina Hevokan
+about-sentence-collection-subtitle = Ji bo mirov bi awayê dengî bixwînin hevok tên komkirin.
 about-speak = Bipeyive
 about-speak-text = Beşdar hevokên ji danegeha hevokên hatine bexişandin dixwînin û dengê xwe tomar dikin.
 about-listen-queue = Rêza Guhdarîkirinê
@@ -532,6 +548,8 @@ about-nav-get-involved = Tev lê bibin
 
 ## How to grow language
 
+about-playbook-how-grow-language-content-2 = Çalakî
+about-playbook-how-grow-language-content-4 = Medyaya civakî
 
 ## How to validate
 
