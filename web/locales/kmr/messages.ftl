@@ -14,6 +14,10 @@ email-opt-in-info-sub-with-challenge = Emaîlên wekî bibîrxistinên hedefê, 
 email-opt-in-privacy-v2 = Bi vebijarka wergirtina e-maîlan tu diyar dikî ku tu razî yî Mozilla van agahiyan wekî ku di <privacyLink> Polîtîkaya Nepeniyê </privacyLink> ya Mozillayê de hatî vegotin bi kar bîne.
 indicates-required = * Qada pêwîst nîşan dide
 not-available-abbreviation = Tune
+banner-error-slow-1 = Bibore, Common Voice hêdî dixebite. Spas ji bo eleqeya te.
+banner-error-slow-2 = Em gelek trafîkê distînin û niha em li ser pirsgirêkan lêkolînan dikin.
+banner-error-slow-link = Rûpela Rewşê
+error-something-went-wrong = Bibore, hin tişt çewt çûn.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -52,6 +56,7 @@ da = Danîmarkî
 de = Almanî
 dsb = Sorbiya jêrîn
 dv = Divehî
+dyu = Dioula
 el = Yûnanî
 en = Înglîzî
 eo = Esperantoyî
@@ -98,6 +103,7 @@ ko = Koreyî
 kpv = Komî Ziryanî
 kw = Kornî
 ky = Kirgizî
+lb = Luksemburgî
 lg = Lugandayî
 lij = Liguriyanî
 lt = Lîtwanî
@@ -119,12 +125,16 @@ my = Burmayî
 myv = Erzayî
 nan-tw = Taywanî (Minnan)
 nb-NO = Norwecî (bokmål)
+nd = IsiNdebele (Bakur)
 ne-NP = Nepalî
 nia = Nias
 nl = Holendî
 nn-NO = Norwecî (nynorsk)
+nr = IsiNdebele (Başûr)
+nso = Sothoyî ya Bakurî
 nyn = Nyankole
 oc = Oksîtanî
+om = Oromî
 or = Odiayî
 pa-IN = Puncabî
 pap-AW = Papiamento (Aruba)
@@ -150,6 +160,8 @@ sl = Slovenî
 so = Somalî
 sq = Albanî
 sr = Sirbî
+ss = Siswatî
+st = Sothoyî ya Başûrî
 sv-SE = Swêdî
 sw = Swahîlî
 syr = Suryanî
@@ -326,7 +338,6 @@ shortcut-discard-ongoing-recording-label = Tomara tê kirin jê bibe
 shortcut-submit = Vegere
 shortcut-submit-label = Tomaran bişîne
 request-language-text = Tu zimanê xwe li ser Common Voicê nabînî?
-request-language-text-learn = Bizane bê tu çawa dikarî li vir daxwaz bikî!
 request-language-button = Zimanekî bixwaze
 
 ## ProjectStatus
@@ -452,7 +463,6 @@ faq-do-want-native-a = Erê, em bi taybet dengê te dixwazin! Armanca Common Voi
 faq-why-different-speakers-q = Çima ji bo her zimanî gelek axiverên cuda ji we re pêwîst in?
 faq-why-different-speakers-a = Piraniya danegehên axaftinê bi wan zanyariyên demografîk têne perwerdekirin ku tê de<articleLink>çîna zilaman û ya navîn</articleLink> zêdetir tê temsîlkirin. Di wan komên daneyan de ku ji bo perwerdehiyê tên bikaranîn devok û zaravayên kêm tên temsîlkirin bi piranî têkildarî gel û civakên marjînal in. Gelek makîne dengê jinan jî bi zehmetî fêm dikin. Loma em di danegeha xwe ya dengan de pirrengiyê dixwazin.
 faq-why-my-lang-q = Çima zimanê min hîn nehatiye tevlîkirin?
-faq-why-my-lang-new-a = Mozilla ti zimanî di ser yên din re nabîne. Common Voice bi temamî ji aliyê civatan ve tê meşandin, lê <multilangLink> çend gavên ji bo lêzêdekirina zimanên nû </multilangLink> û destpêkirina berhevkirina bexişandina dengan hene. Pêşî, divê malpera Common Voiceê bê wergerandin ku beşdar dikaribin bi zimanê xwe xwe bigihînin azmûnên hevkaran. Paşê, pêdiviya me berhevokeke mezin ya hevokên bêtelîf heye ku mirov wan bi deng bixwînin. Gava ev her du pêdivî hatin bicîanîn, Common Voice wî zimanî li zimanan zêde dike ku mirov dengê xwe qeyd bikin û rastiya dengên qeydkirî kontrol bikin. Ango heke hûn dixwazin alîkariyê bikin ku zimanek lê bê zêdekirin hûn dikarin ji bo destpêkirinê li <sentenceCollectorLink>amûra berhevkirina hevokan</sentenceCollectorLink> binêrin.
 faq-what-quality-q = Ji bo klîbeke dengî di komdaneyê de were bikaranîn divê asta kalîîteya dengî çawa be?
 faq-why-10k-hours-q = Çima ji bo her zimanekî hedefeke bi qasî 10,000 saet klîbên dengî yên piştrastkirî heye?
 faq-why-10k-hours-a = Ev hejmara teqrîbî ya saetên pêwîst yê ji bo perwerdekirina sîstemeke ji-xeberdanê-kirin-nivîsê (speech-to-text) ye.
@@ -493,8 +503,6 @@ about-dataset-new = Komdaneya Common Voiceê
 about-dataset-new-text = Komdaneya Common Voiceê bi sed hezaran nimûneyên dengan di xwe de dihewîne ev jî rê li ber pêşvebiran vedike ku amûrên dengnasînê ava bikin.
 about-clip-graveyard = Goristana Klîban
 about-clip-graveyard-text = Goristana klîban (dengan), ji klîbên dengan ên ku nikarîbûn tevlî komdaneya Common Voiceê bibin, pêk tê. Mîna komdaneyê, Goristana Klîban jî dikare were daxistin.
-about-partners = Hevkar
-about-become-a-partner = Bibe hevkarê me
 about-get-involved = Tevlî me bibin
 about-get-involved-text-2 =
     Tu dixwazî Common Voiceê çêtir bikî? Gelekî baş e!
@@ -533,12 +541,6 @@ about-nav-get-involved = Tev lê bibin
 
 ## How are decisions made
 
-mycroft-title = Mycroft Ai
-mycroft-subtitle = Hişê Xwedestî (Artificial intelligence)
-mycroft-description =
-    Mycroft, yekem asîstana çavkanî vekirî ya cîhanê ye.
-    Mycroft dikare li her derê (li ser kombersê di otomobîlekê de, an jî li ser Raspberry Pi'yê) bixebite.
-mycroft-secondary-description = Ev, nermalava çavkanî vekirî ye ku dikare bi serbestî were sererastkirin, mezinkirin û baştirkirin.  Ji projeyek zanistî bigire heya sepaneke nermalava karsaziyê, Mycroft dikare di her sepanê de were bikaranîn.
 
 ## Glossary
 
@@ -659,6 +661,9 @@ request-language-success-content = Em ê di nêz de bi te re têkiliyê deynin t
 select-language = Zimanekî hilbijêre...
 other-language = Zimanê din
 
+## Request Language Pages
+
+
 ## Languages Overview
 
 language-section-in-progress = Kar li ser tê kirin
@@ -677,7 +682,6 @@ language-search-input =
 language-speakers = Axiver
 localized = Wergerandî
 sentences = Hevok
-total-hours = Saetên piştrastkirî:
 
 ## Contribution
 
@@ -950,6 +954,9 @@ sc-logout-button = Derketin
 ## HOME
 
 sc-home-title = Bi xêr hatî Berhevkara Hevokan ya Common Voiceê
+
+## GENERAL
+
 
 ## HOW-TO
 
