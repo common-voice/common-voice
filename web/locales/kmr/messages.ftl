@@ -928,9 +928,15 @@ download-profile-title = Profîl
 download-size = Mezinahî
 download-request-button = Daxîne
 download-request-title = { $created }
+download-request-description = { $clipCount } tomarên dengî, mezinahiya arşîvê ya giştî { $size }. Dawiya maweyê: { $expires }.
+download-request-archive-single = Dosyayeke ZIPê. Naverok:
+download-request-archive-multiple = { $archiveCount } dosyayên ZIPê. Naverok:
+download-request-assembling-description = Dosyayên we tên komkirin. Ji kerema xwe paşê dîsa kontrol bikin.
 download-request-refresh-button = Nû bike
 download-request-modal-title = Girêdankên jêbarkirinê
 download-request-modal-description = Girêdanka jêbarkirina pelên te yên ZIP li virê ye.
+download-request-link-text = Zip { $offset } / { $total }
+download-request-metadata-link = Metna hevokê
 
 ## Landing
 
@@ -976,6 +982,11 @@ demo-dashboard-card-header = Destgehên şexsî derbarê pêşveçûna te û pê
 
 ## Validation criteria
 
+contribution-criteria-nav = Krîter
+contribution-criteria-link = Krîterên beşdarîkirinê fêm bike
+contribution-criteria-page-title = Krîterên Beşdarîkirinê
+contribution-for-example = mînak
+contribution-misreadings-title = Xwendinên çewt
 see-more = <chevron></chevron>Zêdetir bibîne
 see-less = <chevron></chevron>Hindiktir bibîne
 
