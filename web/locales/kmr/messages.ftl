@@ -503,6 +503,15 @@ about-localization-title = Wergerandina Malperê
 about-localization-subtitle = Metnên malperê li wî zimanî tê wergerandin.
 about-sentence-collection-title = Berhevkirina Hevokan
 about-sentence-collection-subtitle = Ji bo mirov bi awayê dengî bixwînin hevok tên komkirin.
+about-new-lang-title = Destpêka Zimanê Nû
+about-new-lang-subtitle = Em malpera Common Voiceê bi vî zimanî didin destpêkirin.
+about-voice-contrib-title = Beşdariya Dengî
+about-voice-contrib-subtitle = Mirov tên û bi dengê xwe beşdariyê dikin.
+about-voice-validation-title = Piştrastkirina Dengan
+about-voice-validation-subtitle = Mirovên din jî van dengan piştrast dikin.
+about-dataset-release-title = Weşana Komdaneyê
+about-dataset-release-subtitle = Em 3 mehan carekê komdaneyê diweşînin.
+about-subscribe-text = Tu dixwazî bi Common Voiceê r edi têkilîyê de bimînî?
 about-speak = Bipeyive
 about-speak-text = Beşdar hevokên ji danegeha hevokên hatine bexişandin dixwînin û dengê xwe tomar dikin.
 about-listen-queue = Rêza Guhdarîkirinê
@@ -525,10 +534,13 @@ about-get-involved-text-2 =
     Bi riya e-peyamê yan jî forumên <discourseLink>Discourse</discourseLink>ê peyywendiyê
     çêke, pirsgirêkên têkildarî malperê bi riya  <githubLink>GitHub</githubLink>ê
     bişîne yan jî beşdarî civaka <matrixLink>Matrix</matrixLink>ê bibe.
+about-stay-in-touch = Ez çawa dikarim di têkiliyê de bimînim?
+about-stay-in-touch-button = Tomar bibe
 about-nav-why-common-voice = Çima ?
 about-nav-how-it-works = Çawa ?
 about-nav-partners = Hevkar
 about-nav-get-involved = Tev lê bibin
+about-nav-how-it-works-2 = Common Voice çawa dixebite?
 
 ## Community Playbook Content
 ## What is a language
