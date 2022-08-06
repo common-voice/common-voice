@@ -165,6 +165,8 @@ about-listen = tirna
 
 ## Data
 
+data-download-yes = go'i
+data-download-deny = na go'i
 
 ## Datasets Page
 
@@ -183,21 +185,30 @@ about-listen = tirna
 
 ## Languages Overview
 
+sentences = jufra
+language-validation-hours = cacra
 
 ## Contribution
 
+contribute = sidju
 
 ## Reporting
 
 
 ## Goals
 
+days =
+    { $count ->
+       *[zero] djedi
+    }
 
 ## Dashboard
 
 
 ## Custom Goals
 
+easy-difficulty = frili
+difficult-difficulty = nandu
 
 ## Profile Delete
 
@@ -233,6 +244,7 @@ about-listen = tirna
 
 ## HEADER/FOOTER
 
+sc-header-home = zdani
 
 ## HOME
 
