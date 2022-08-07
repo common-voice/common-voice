@@ -1082,6 +1082,7 @@ sc-add-lang-sec-button = Zimên tevlî bike
 
 ## ADD SENTENCES CONFIRMATION
 
+sc-confirm-sentences-title = Hevokên Nû Piştrast Bike
 sc-confirm-button-text = Bipejirîne
 
 ## LANGUAGE INFO
@@ -1091,6 +1092,8 @@ sc-lang-info-title-personal = Şexsî
 
 ## LOGIN
 
+sc-login-err-failed = Çewtiya têketinê
+sc-login-err-try-again = Ji kerema xwe dîsa biceribîne.
 
 ## PROFILE
 
