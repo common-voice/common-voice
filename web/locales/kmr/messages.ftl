@@ -1097,8 +1097,17 @@ sc-login-err-try-again = Ji kerema xwe dîsa biceribîne.
 
 ## PROFILE
 
+# Variables:
+#   $username (String) - eMail address of the logged in user
+sc-profile-title = Profîl: { $username }
+sc-personal-err-lang-not-found = Ziman nehat rakirin: ziman nehat dîtin
+sc-personal-err-remove = Ziman nehat rakirin
 sc-personal-your-languages = Zimanên te:
 sc-personal-remove-button = rake
+# Variables:
+#   $sentences (Number) - Number of sentences that were added by the currently logged in user for this language
+sc-personal-added-by-you = Te { $sentences } tevlî kirin
+sc-personal-not-added = Te hîn ti ziman tevlî nekiriye.
 
 ## REVIEW CRITERIA
 
@@ -1107,6 +1116,13 @@ sc-criteria-title = Krîterên Kontrolkirinê
 
 ## REVIEW
 
+sc-review-title = Hevokan kontrol bike
+sc-review-loading = Hevok bar dibin…
+sc-review-select-language = Ji kerema xwe zimanekî ji bo kotrolkirina hevokan hilbijêre.
+sc-review-no-sentences = Ji bo kontrolkirinê hevok neman. <addLink>Hevokên zêdetir tevlî bike!</addLink>
+# Variables:
+#   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
+sc-review-form-source = Çavkanî: { $sentenceSource }
 sc-review-form-button-reject = Red bike
 sc-review-form-button-skip = Derbas bike
 sc-review-form-button-approve = Bipejirîne
