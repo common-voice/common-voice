@@ -206,7 +206,7 @@ zu = Zulu
 
 speak = Sọ̀rọ̀
 speak-now = Sọ̀rọ̀ nísìnyí
-datasets = Àtòjọ dátà
+datasets = Àkójọpọ̀ dátà
 languages = Èdè
 about = Nípa
 profile = Púrófáìlì
@@ -1226,10 +1226,12 @@ sc-howto-findpd-text-2 = Rántí pé a nílò a ti tọrọ àyè láti 
 sc-howto-findpd-tips = Àwọn òte díẹ̀ rè é lá́ti wá àwọn gbólóhùn:
 sc-howto-findpd-tips-3 = Ó ṣeni láàánú pé a kò tíì lé rí àkọsílẹ̀ Wikimedia. Nítorí náà, má ṣe ẹ̀dà títẹ̀ láti ibẹ̀.
 sc-howto-findpd-subtitle-2 = Bá àwọn àjọ tàbí ẹgbẹ́ ìbílẹ̀ ṣe
+sc-howto-findpd-partner-1 = Ọ̀pọ̀lọpọ̀ àwọn àjọ aláìdáni tó lè fẹ́ fọwọ́sowọ́pọ̀, tó sì ní ọ̀pọ̀lọpọ̀ ọ̀rọ̀ nílẹ̀ tẹ́lẹ̀ lẹ tọrẹ gẹ́gẹ́ bí àyè àìláàdáni lábẹ́ òfin. Kàn sí àwọn iléèwé gígá ti agbègbè rẹ, àwọn ìjọba àti àwọn iléeṣẹ́ tó ń ta dátà olórísun tó hànde láti sọ̀rọ̀ nípa àkanṣe ìṣẹ́ náà àti láti bèèrè fún ìrànwọ́ wọn.
 
 ## MY SENTENCES
 
 sc-my-title = Àwon gbólóhùn mi
+sc-my-description = Ojú-ìwé yíí ń fún ẹ ní àkójọpọ̀ gbogbo àwọn gbólóhùn to ti fi sílẹ̀. O lè tún pa àwọn gbólóhùn tí o fi sílẹ̀ rẹ to bá fẹ́, pẹ̀lú fífi àmi sí àpótí tó tìí àti títẹ Pípa àwọn gbólóhùn tí a yàn rẹ́ tó wà ní ìsàlẹ̀. Jọ̀wọ́, àwọn gbólóhùn tó bá pọn dandan ni ko yọ kúrò, bí àpẹẹrẹ, to bá ṣàkíyèsí lẹ́yìn òkodoro ọ̀rọ̀ pé gbólóhùn kan ní ààbò àṣẹ-lórí.
 sc-my-loading = Gbólóhùn rẹ ń gbaradì àti ṣiṣẹ́
 sc-my-err-fetching = Àsiṣe wáyé nígbà tí à ń kó gbólóhùn rẹ jọ. Gbìyànjú lẹ́ẹ̀kan sí i
 sc-my-no-sentences = Àìrí gbólóhùn kọọkan!
@@ -1254,6 +1256,7 @@ sc-rejected-none-found = Kò sí gbólóhùn kọọkan tí a kọ̀!
 
 sc-stats-title = satítíìkì
 sc-stats-updating = Ń sọ ọ́ dọ̀tun ...
+sc-stats-error = A ò ṣàwárí àwọn sátì náà. Jọ̀wọ́ gbìnyànjú bóyá.
 # Variables:
 #   $sentenceCount (Number) - Total number of sentences uploaded through Sentence Collector
 #   $languageCount (Number) - Total number of languages these sentences represent
@@ -1341,6 +1344,7 @@ sc-confirm-ready =
 #   $countOfUnreviewed (Number) - Number of sentences unreviewed before the upload
 sc-confirm-unreviewed = { $countOfUnreviewed } A ò tíì ṣe àtúnyẹ̀wò àwọn gbólóhùn. Tí o bá fẹ́, o lè ṣe àtúnyẹ̀wò àwọn gbólóhùn rẹ báyìí kí o tó ṣe ìfilélẹ̀ wọn.
 sc-confirm-button-text = Ṣàrídájú
+sc-confirm-uploading = Àwọn gbólóhùn náà ọpọlóòdù lọ́wọ́. Èyí lè gba ìṣẹ̀jú púpọ̀ tó dá lé iye àwọn gbólóhùn tó kun. Jọ̀wọ́ má wẹ́íbusaìtì yí dé.
 
 ## LANGUAGE INFO
 
