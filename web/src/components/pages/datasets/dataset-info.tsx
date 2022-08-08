@@ -1,46 +1,39 @@
 import * as React from 'react';
 import { useEffect, useState } from 'react';
-import { CloudIcon } from '../../ui/icons';
 import { Spinner } from '../../ui/ui';
-
-import { getRelease, CURRENT_RELEASE_ID } from './releases';
 
 import DatasetIntro from './dataset-intro';
 import DatasetCorpusDownload from './dataset-corpus-download';
 import DatasetSegmentDownload from './dataset-segment-download';
-import DatasetDescription from './dataset-description';
 import { useAPI } from '../../../hooks/store-hooks';
 
 import './dataset-info.css';
 import { useLocale } from '../../locale-helpers';
+import DatasetDescription from './dataset-description';
+import { Dataset } from 'common';
 
 const DatasetInfo = () => {
   const [isLoading, setIsLoading] = useState(true);
 
-  const [releaseId, setReleaseId] = useState(CURRENT_RELEASE_ID);
-  const [releaseData, setReleaseData] = useState(null);
   const [languagesWithDatasets, setLanguagesWithDatasets] = useState([]);
+  const [currentDataset, setCurrentDataset] = useState<Dataset>();
 
   const api = useAPI();
   const [globalLocale] = useLocale();
 
   useEffect(() => {
     setIsLoading(true);
-    getRelease(releaseId)
-      .then(setReleaseData)
-      .finally(() => {
-        setIsLoading(false);
-      });
-  }, [releaseId]);
-
-  useEffect(() => {
-    setIsLoading(true);
 
     api.getLanguagesWithDatasets().then(data => {
       setLanguagesWithDatasets(data);
+    });
+
+    api.getDatasets('complete').then(data => {
+      setCurrentDataset(data[0]);
       setIsLoading(false);
     });
   }, []);
+  console.log('currentDataset', currentDataset);
 
   return (
     <div className="dataset-info">
@@ -52,9 +45,6 @@ const DatasetInfo = () => {
           </div>
         ) : (
           <DatasetCorpusDownload
-            releaseData={releaseData}
-            releaseId={releaseId}
-            setReleaseId={setReleaseId}
             languagesWithDatasets={languagesWithDatasets}
             initialLanguage={globalLocale}
           />
@@ -64,7 +54,7 @@ const DatasetInfo = () => {
       {isLoading ? (
         <Spinner isFloating={false} />
       ) : (
-        <DatasetDescription releaseData={releaseData} />
+        <DatasetDescription releaseData={currentDataset} />
       )}
 
       <DatasetSegmentDownload />
