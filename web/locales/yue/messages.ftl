@@ -683,7 +683,7 @@ language-meter-in-progress = 進展
 language-total-progress = 總共
 language-search-input =
     .placeholder = 揾
-language-speakers = 講者
+language-speakers = 獻聲人數
 localized = 已被本地化
 sentences = 句子
 
@@ -692,7 +692,7 @@ sentences = 句子
 action-click = 撳
 action-tap = 敲
 contribute = 貢獻
-listen = 聽
+listen = 聽聲
 skip = 跳過
 shortcuts = 捷徑
 clips-with-count-pluralized =
