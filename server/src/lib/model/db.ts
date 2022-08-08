@@ -1005,9 +1005,15 @@ export default class DB {
       l.valid_clips_duration,
       l.release_type,
       ld.checksum,
-      ld.size
+      ld.size,
+      temp.languages_count
         FROM datasets l
         JOIN locale_datasets ld on l.id = ld.dataset_id
+        JOIN (
+          SELECT count(1) as languages_count, dataset_id
+          FROM locale_datasets xld
+          GROUP BY xld.dataset_id
+        ) temp ON temp.dataset_id = l.id
         ${releaseType ? `WHERE release_type = ?` : ''}
         GROUP BY l.id
         ORDER BY l.release_date DESC
