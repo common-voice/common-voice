@@ -17,8 +17,6 @@ import DatasetCorpusDownloadTable from './dataset-corpus-download-table';
 import PageHeading from '../../ui/page-heading';
 import { formatBytes } from '../../../utility';
 interface Props {
-  releaseId: string;
-  setReleaseId: (id: string) => void;
   languagesWithDatasets: { id: number; name: string }[];
   initialLanguage: string;
 }
@@ -64,8 +62,6 @@ const DatasetCorpusDownload = ({
       setIsLoading(false);
     });
   }, [locale]);
-  console.log('LanguageDatasets', LanguageDatasets);
-
   return (
     <div className="dataset-corpus-download">
       <div className="dataset-corpus-download-container">
@@ -87,7 +83,7 @@ const DatasetCorpusDownload = ({
               languagesWithDatasets.map(s => s.name),
               getString
             )[0].map(val => (
-              <Localized key={val + 'test'} id={val}>
+              <Localized key={val} id={val}>
                 <option value={val} />
               </Localized>
             ))}
@@ -119,7 +115,7 @@ const DatasetCorpusDownload = ({
                 downloadPath={selectedDataset.download_path}
                 releaseId={selectedDataset.id.toString()}
                 checksum={selectedDataset.checksum}
-                size={formatBytes(selectedDataset.size)}
+                size={formatBytes(selectedDataset.size, locale)}
               />
             </>
           )}
