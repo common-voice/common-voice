@@ -13,10 +13,9 @@
 
         tbody {
             tr {
-                width: 100%;
                 background-color: var(--lighter-grey);
-                border-bottom: 1px solid var(--grey);
-                position: relative;
+                border-bottom: 2px solid var(--light-grey);
+
                 &:hover {
                     cursor: pointer;
                 }
@@ -31,7 +30,7 @@
                         width: 25px;
                         height: 25px;
                         position: absolute;
-                        left: 5px;
+                        left: 35px;
                     }
         
                 }
