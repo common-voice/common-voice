@@ -19,7 +19,7 @@ const COLUMNS = {
   },
   release_date: {
     display: (value: string, locale: string) => {
-      return Intl.DateTimeFormat([locale, 'en']).format(new Date(value));
+      return Intl.DateTimeFormat(locale).format(new Date(value));
     },
     label: 'dataset-date',
   },
@@ -31,13 +31,13 @@ const COLUMNS = {
   },
   total_clips_duration: {
     display: (value: number, locale: string) => {
-      return Intl.NumberFormat([locale, 'en']).format(msToHours(value));
+      return Intl.NumberFormat(locale).format(msToHours(value));
     },
     label: 'recorded-hours',
   },
   valid_clips_duration: {
     display: (value: number, locale: string) => {
-      return Intl.NumberFormat([locale, 'en']).format(msToHours(value));
+      return Intl.NumberFormat(locale).format(msToHours(value));
     },
     label: 'validated-hours',
   },
