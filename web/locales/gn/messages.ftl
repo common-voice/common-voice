@@ -1175,6 +1175,7 @@ contribution-varying-pronunciations-example-1-explanation = [‘Beret’ oĩpor�
 contribution-varying-pronunciations-example-2-title = Omopu’ã ipo.
 contribution-varying-pronunciations-example-2-explanation = [‘Raised’ inglés-pe oñemoñe’ẽ peteĩ ñe’ẽpehẽme, ndaha’éi mokõime]
 contribution-background-noise-title = Tyapu tapykuegua
+contribution-background-noise-description = Roipota umi kuaapyhy ijeheguíva guatarã rehegua ikatu oñatende opaichagua tyapu tapykuegua rehe, ha umi tyapu hatãitereíva jepe ikatu ojeguerohory ndojokóiramo ndéve rehendu hag̃ua jehaipyre tuichakue. Purahéi kirirĩháme oĩ OK; purahéi hatãva ani hag̃ua rehendu peteĩteĩ ha opa ñe’ẽ ndaha’éi.
 contribution-background-noise-description-extended = Ne ñe’ẽñongatu osóramo térã nosẽporãmbái, ejapojeýnte noñehendupaiva’éramo opahaite peve ñe’ẽpu.
 contribution-background-noise-example-1-fixed-title = <strong>[Atĩa]</strong> Umi dinosaurio tuicháva <strong>[hu’u]</strong> Triásico pegua.
 contribution-background-noise-example-2-fixed-title = Dinosaurio tuicháva <strong>[hu’u]</strong> Triásico-gua.
