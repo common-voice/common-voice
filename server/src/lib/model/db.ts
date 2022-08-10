@@ -1006,6 +1006,7 @@ export default class DB {
       l.release_type,
       ld.checksum,
       ld.size,
+      l.download_path,
       temp.languages_count
         FROM datasets l
         JOIN locale_datasets ld on l.id = ld.dataset_id
