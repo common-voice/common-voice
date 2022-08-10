@@ -36,6 +36,7 @@ as = Assamera
 ast = Asturiera
 az = Azerbaijanera
 ba = Baxkirera
+bas = Basaa
 be = Bielorrusiera
 bg = Bulgariera
 bn = Bengaliera
@@ -157,6 +158,7 @@ ti = Tigrinyera
 tig = Tigre
 tk = Turkmenera
 tl = Tagaloa
+tn = Setswanera
 tr = Turkiera
 tt = Tatarera
 tw = Twi
@@ -176,6 +178,7 @@ yue = Kantonera
 zh-CN = Txinera (Txina)
 zh-HK = Txinera (Hong Kong)
 zh-TW = Txinera (Taiwan)
+zu = Zuluera
 
 # [/]
 
@@ -542,6 +545,7 @@ about-playbook-how-record-quality = Nola graba dezaket kalitate handiko ahots gr
 
 about-playbook-how-grow-language-content-2 = Ekitaldiak
 about-playbook-how-grow-language-content-4 = Sare sozialak
+about-playbook-how-grow-language-content-6 = Lankidetzak eta sareak
 
 ## How to validate
 
@@ -1213,6 +1217,14 @@ sc-lang-info-in-review =
         [one] Berrikusteko esaldi 1.
        *[other] { $totalInReview } esaldi berrikusteko.
     }
+# Variables:
+#   $unreviewedSentencesByYou (Number) - Number of sentences the user can still review
+sc-lang-info-left-for-you =
+    { $unreviewedSentencesByYou ->
+        [0] Zuk berrikusteko esaldirik ez.
+        [one] Zuk berrikusteko esaldi 1.
+       *[other] Zuk berrikusteko { $unreviewedSentencesByYou } esaldi.
+    }
 sc-lang-info-review-now = <reviewLink>Berrikusi orain!</reviewLink>
 sc-lang-info-add-more = <addLink>Gehitu esaldi gehiago orain!</addLink>
 # Variables:
@@ -1278,6 +1290,9 @@ sc-review-link = Berrikusi
 
 sc-settings-title = Ezarpenak
 sc-settings-ui-language = Interfazearen hizkuntza
+sc-validation-no-numbers = Esaldiak ez du zenbakirik izan behar
+sc-validation-no-symbols = Esaldiak ez du sinbolorik izan behar
+sc-validation-no-abbreviations = Esaldiak ez du laburdurarik izan behar
 
 # [/SentenceCollector]
 
