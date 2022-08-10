@@ -34,8 +34,6 @@ const DatasetSegmentDownload = () => {
     return null;
   }
 
-  console.log('releaseData', releaseData);
-
   const bundleState = {
     bundleLocale: 'overall',
     checksum: releaseData.checksum,
