@@ -2,28 +2,33 @@
     width: 100%;
     border-collapse: collapse;
 
-        thead, tbody {
-            width: 100%
+    thead,
+    tbody {
+        width: 100%;
+    }
+    thead {
+        tr {
+            width: 100%;
         }
-        thead {
-            tr {
-                width: 100%;
+    }
+
+    tbody {
+        tr {
+            background-color: var(--lighter-grey);
+            border-bottom: 2px solid var(--light-grey);
+
+            &:hover {
+                cursor: pointer;
+                background-color: var(--light-grey);
             }
-        }
-
-        tbody {
-            tr {
-                background-color: var(--lighter-grey);
-                border-bottom: 2px solid var(--light-grey);
-
-                &:hover {
-                    cursor: pointer;
-                }
+            &.selected {
+                background-color: var(--light-blue);
+            }
+            @media (--lg-up) {
                 & td:first-child {
                     padding-left: 25px;
                 }
                 &.selected {
-                    background-color: var(--light-blue);
                     & td:first-child::before {
                         content: '';
                         background: url('./images/chevron-right.svg') no-repeat;
@@ -32,15 +37,38 @@
                         position: absolute;
                         left: 35px;
                     }
-        
                 }
             }
-
-            
         }
+    }
 
-        td, th {
-            padding: 15px 5px;
-            text-align: left;
+    td,
+    th {
+        padding: 15px 5px;
+        text-align: left;
+    }
+
+    @media (--md-down) {
+        thead {
+            display: none;
         }
+        tr.selected {
+            td {
+                display: flex;
+            }
+        }
+        td {
+            display: none;
+            &.highlight {
+                display: flex;
+            }
+
+            &::before {
+                content: attr(label);
+                font-weight: bold;
+                width: 120px;
+                min-width: 120px;
+            }
+        }
+    }
 }
