@@ -1045,7 +1045,7 @@ export default class DB {
     JOIN datasets d ON
       d.id = ld.dataset_id
     where
-      ld.locale_id = ? AND d.release_type = "complete"
+      ld.locale_id = ? AND d.release_type in ("complete", "delta")
     ORDER BY
       d.release_date DESC
     `,
