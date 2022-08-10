@@ -64,7 +64,7 @@
             }
 
             &::before {
-                content: attr(label);
+                content: attr(data-mobile-label);
                 font-weight: bold;
                 width: 120px;
                 min-width: 120px;
