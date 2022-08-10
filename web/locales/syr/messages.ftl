@@ -1,5 +1,6 @@
 ## General
 
+yes-receive-emails = ܗܝ، ܫܕܪ ܩܐ ܕܝܝ ܐܝܡܝܠ. ܐܢܐ ܒܥܝܢ ܦܝܫܢ ܡܘܕܥܝܐ ܒܘܬ ܩܠܐ ܓܘܢܝܐ.
 return-to-cv = ܕܥܪ ܠܩܠܐ ܓܘܢܝܐ
 email-input =
     .label = ܐܓܪܬܐ ܐܠܝܩܛܪܘܢܝܬܐ
