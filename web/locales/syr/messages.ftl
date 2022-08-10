@@ -13,7 +13,7 @@ not-available-abbreviation = ܠܐ ܡܬܬܥܒ݂ܕܢܐ
 
 ## Languages
 
-ar = ܥܪܒܝܬ݂
+ar = ܥܪܒܝܬ
 el = ܝܘܢܐܝܬ݂
 en = ܐܢܓܠܣ
 fa = ܦܪܣܐܝܼܬ
@@ -172,8 +172,6 @@ faq-how-get-q = ܕܐܟ݂ܝ ܟܐ ܩܢܝܢ ܫܘܘܕ̈ܥܐ ܕܩܠܐ ܓܘܢܝܐ؟
 
 about-speak = ܡܠܠ
 about-dataset-new = ܣܕܪܐ ܕܫܘܘܕ̈ܥܐ ܕܩܠܐ ܓܘܢܝܐ
-about-partners = ܫܘܬܦܝ̈ܐ
-about-become-a-partner = ܗܘܐ ܫܘܬܦܐ
 about-nav-how-it-works = ܐܝܟܢܐ؟
 about-nav-partners = ܫܘܬܦܝ̈ܐ
 
