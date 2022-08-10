@@ -24,16 +24,17 @@ const DatasetInfo = () => {
   useEffect(() => {
     setIsLoading(true);
 
+    //get all languages w/ dataset releases
     api.getLanguagesWithDatasets().then(data => {
       setLanguagesWithDatasets(data);
     });
 
+    //get stats for latest full release
     api.getDatasets('complete').then(data => {
       setCurrentDataset(data[0]);
       setIsLoading(false);
     });
   }, []);
-  console.log('currentDataset', currentDataset);
 
   return (
     <div className="dataset-info">
