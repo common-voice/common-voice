@@ -351,6 +351,7 @@ skip-submission-description = Selama pengajuan kontribusi, saran akan dilewati s
 skip-submission-note = Catatan: Anda tetap harus memilih antara Bicara atau Dengarkan untuk mengubah jenis kontribusi.
 off = Nonaktif
 on = Aktif
+help-accent-explanation = Aksen Anda adalah cara Anda mengucapkan kata-kata. Hal ini dapat dibentuk oleh tempat tinggal Anda, bahasa lain yang Anda gunakan dan banyak faktor lainnya. Anda dapat berbagi informasi apa pun yang Anda rasa relevan di sini.
 
 ## Profile - Email
 
@@ -431,6 +432,7 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Mengapa Common Voice?
+how-does-it-work-title-v2 = Bagaimana cara kerja Common Voice?
 how-does-it-work-text = Kami mengurundayakan penghimpunan data suara sumber terbuka. Sumbangkan suara Anda, validasi akurasi klip yang ada, jadikan himpunan data lebih baik bagi siapa saja.
 
 ## How does it work section
