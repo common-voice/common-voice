@@ -3,16 +3,18 @@
     display: flex;
     justify-content: center;
     .dataset-corpus-download-container{
-        transform: translateY(-2%);
+        @media (--xl-up) {
+            transform: translateY(-2%);
+        }
         background: var(--light-grey);
         width: 80%;
         padding: 2%;
     }
 
     .input-row {
+        padding: 20px 0px;
         @media (--lg-up) {
             max-width: 400px;
-            padding: 20px 0px;
         }
     }
 
