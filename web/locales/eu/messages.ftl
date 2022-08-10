@@ -939,7 +939,9 @@ profile-form-delete = Ezabatu profila
 download-q = Zure datuak deskargatu behar dituzu?
 download-info = Esaguzu zer deskargatu nahiko zenukeen:
 download-profile-title = Profila
+download-profile-size = Byte gutxi batzuk
 download-recordings-title = Grabazioak
+download-recordings-size = Normalean megabyteak
 download-recordings-unavailable = Ezin dituzu zure grabazioak eskatu beste eskari bat martxan den bitartean.
 download-size = Tamaina
 download-selected = Hautatuta
@@ -1084,6 +1086,8 @@ sc-home-review-title = Berrikusi esaldiak
 
 ## HOW-TO
 
+sc-howto-title = Nola
+sc-howto-addlang-title = Gehitu landuko dituzun hizkuntzak
 sc-howto-addsen-title = Gehitu esaldi berriak
 sc-howto-cite-title = Nola egin aipuak
 sc-howto-review-title = Berrikusi esaldiak
@@ -1091,6 +1095,7 @@ sc-howto-review-subtitle = Ziurtatu esaldiek ondoko irizpideak betetzen dituztel
 sc-howto-review-criteria-1 = Esaldiek ez dute akats ortografikorik izan behar.
 sc-howto-review-criteria-2 = Esaldiek ez dute akats gramatikalik izan behar.
 sc-howto-review-criteria-3 = Esaldiak ahoskagarriak izan behar dira.
+sc-howto-findpd-subtitle = Bila itzazu Interneten
 
 ## MY SENTENCES
 
@@ -1192,6 +1197,22 @@ sc-confirm-button-text = Baieztatu
 
 sc-lang-info-title-total = Guztira
 sc-lang-info-title-personal = Pertsonala
+# Variables:
+#   $totalSentences (Number) - Number of sentences uploaded in total for this language
+sc-lang-info-total =
+    { $totalSentences ->
+        [0] Guztizko esaldirik ez.
+        [one] Esaldi 1 guztira.
+       *[other] { $totalSentences } esaldi guztira.
+    }
+# Variables:
+#   $totalInReview (Number) - Number of sentences currently in the review state for this language
+sc-lang-info-in-review =
+    { $totalInReview ->
+        [0] Berrikusteko esaldirik ez.
+        [one] Berrikusteko esaldi 1.
+       *[other] { $totalInReview } esaldi berrikusteko.
+    }
 sc-lang-info-review-now = <reviewLink>Berrikusi orain!</reviewLink>
 sc-lang-info-add-more = <addLink>Gehitu esaldi gehiago orain!</addLink>
 # Variables:
