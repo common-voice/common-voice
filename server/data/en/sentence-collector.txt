@@ -3394,8 +3394,10 @@ America has no establishment.
 America used to have the best roads, bridges, and airports on Earth.
 America will lead that effort
 American English: the image was licenced under a Creative Commons license.
+American diplomacy matters.
 American estrogen is British oestrogen.
 American policy aims to maintain close, cooperative relations with Iceland
+American resolve matters.
 Americans have grown up with Italian opera.
 Americans say aluminum, Brits aluminium
 Americans say gasoline and the British say petrol.
@@ -8675,6 +8677,7 @@ Did you perhaps steal them?
 Did you place that shoe there, Ryan?
 Did you read Harry Potter and the Philosopher's Stone?
 Did you really say it?
+Did you record a voiceover?
 Did you save the poor lady?
 Did you see Taj Mahal anytime?
 Did you see anyone pass early this morning?
@@ -9092,6 +9095,7 @@ Do you want fries with that?
 Do you want him?
 Do you want hundreds and thousands on your ice cream?
 Do you want it, sir?
+Do you want me to burn to death?
 Do you want me to have it?
 Do you want me to like you?
 Do you want me to take the part of Charlotte?
@@ -9600,6 +9604,7 @@ Duke George did not stop at home to partake of the beer and wine.
 Duler is a village.
 Duler is in Goa.
 Duluth has a cool, salubrious summer and a snug winter climate.
+Dungeons and Dragons is a splendid game.
 Dunham, can your boy go along with Jesse.
 During December it snows in Shimla.
 During a game, Bradley's eyes are always a glaze of panoptic attention.
@@ -10468,6 +10473,7 @@ For everything, there is a season.
 For example, committing suicide would bring me back to a slug again
 For example, in the simple expression
 For example, there's less emphasis on character classes or backgrounds
+For example, we might be able to achieve a translation of the Psalms
 For fifty pounds he had seen his mother that day.
 For five minutes last night it was touch and go.
 For furniture there was only one little stool.
@@ -10945,6 +10951,7 @@ Glory be to God on high.
 Glucose is found in commerce under three different forms.
 Glucose is used in the manufacture of beer and alcohol.
 Go ahead and chop down your forests.
+Go ahead, I've got time.
 Go all in when you learn something, as opposed to half-heartedly.
 Go along and find 'em.
 Go and fetch Mr. Davison, Smith.
@@ -11026,9 +11033,13 @@ God from God, Light from Light, true God from true God
 God has given me a squeaky voice.
 God help him!
 God helping me, for Thy Name's sake. Amen.
+God is Light.
+God is Love.
 God is Spirit, Light, Love, and a Consuming Fire
+God is Spirit.
 God is deeply committed to avoiding destroying me
 God is just another word for what we don't understand
+God is not tame.
 God keep him meek and patient!
 God rest ye merry, gentlemen.
 God save the king! The prince remained to hear no more.
@@ -11806,6 +11817,7 @@ He cannot want money — he cannot want leisure.
 He can’t get a job.
 He can’t understand rules and regulations.
 He cared for her.
+He cared so much for the people around him, it hurt.
 He carefully took the handle of the door, and turned it.
 He carried a book of fairy-tales under his arm.
 He carried her in; I followed, grumbling execrations and vengeance.
@@ -16218,6 +16230,7 @@ How can we incentivise young people to embrace a growth mindset?
 How can we overcome the dread of dealing with numbers?
 How can we put this right?
 How can we stand amazed at poor Rick?
+How can we train lay individuals to facilitate the translation process?
 How can you be so cruel to me?
 How can you deliberately get up such paltry falsehoods?
 How can you hope to gain happiness?
@@ -16633,6 +16646,7 @@ How well you draw!
 How will that do for a beginning?
 How will that help us?
 How will that suit?
+How will we decide what the translation of a given passage should be?
 How will we give the things?
 How will you do it so fast?
 How will you reach there?
@@ -18013,6 +18027,7 @@ I don't think I've ever met an older friend.
 I don't think Tom overdosed.
 I don't think Tom really overdosed.
 I don't think external proof would have convinced me God was real.
+I don't think external proof would have convinced me.
 I don't think he will kick us out, either.
 I don't think he'd have an answer but we can ask
 I don't think it's true that Tom hates foreigners.
@@ -21732,6 +21747,7 @@ I'm going to the market after school.
 I'm going to write up the clues
 I'm going to yoga class after the lecture.
 I'm grateful to both of you for being interviewed.
+I'm grateful you both agreed to be interviewed.
 I'm guessing the approximate time is one o'clock.
 I'm happy to meet you, or to postpone if needed.
 I'm happy with this approach.
@@ -21810,6 +21826,7 @@ I'm not sure; I think the chances are about fifty-fifty
 I'm not talking about Angela.
 I'm not talking about your Scripture prize.
 I'm not talking about your stupid puzzle.
+I'm not the gentlest person to be honest with.
 I'm not tired at the moment.
 I'm not totally convinced!
 I'm not vain.
@@ -22267,6 +22284,7 @@ If you accept my service, you will not repent it.
 If you agree, I'll find my old skeleton tomorrow.
 If you are affected by this, please let us know.
 If you are always cold, you should wear a vest under your shirt
+If you are interested in participating, please contact us.
 If you are not tired, dear.
 If you are old and stiff, I am fat, stuffy, puffy, and old.
 If you are posting something valuable you should pay for recorded delivery
@@ -23727,6 +23745,7 @@ It is most important to keep the system sensitive to it.
 It is muffled and dreary.
 It is my daily errand.
 It is my great privilege to pronounce you husband and wife.
+It is my hope that the project will grow to a large centralized location
 It is near here? — the Villa Rose?
 It is nearly dinner-time.
 It is nearly synonymous with transfer.
@@ -24043,6 +24062,7 @@ It may frighten her.
 It may have been seen; it must be somewhere.
 It may take a little time, but you don't mind that.
 It means a lot to me
+It means a lot to me.
 It means the feathers of the sun.
 It means the son of a dog.
 It means to be an unrelated and autonomous whole.
@@ -24971,6 +24991,7 @@ It went well, and I wasn't surprised.
 It went well; no question about that.
 It will afford me some sort of an establishment, at least for a time.
 It will all fall into place when the pieces come together.
+It will allow for the contributions of hundreds or even thousands of scholars
 It will apply no less to our own case.
 It will be a great pity, for it will alter you.
 It will be all right at last, and then you shall see!
@@ -25814,6 +25835,7 @@ I’ve just returned from South Africa.
 I’ve just seen him.
 I’ve just thought of a plan, Elsie.
 I’ve just thought of it now.
+I’ve learned to always check materials from the internet.
 I’ve never belonged to anybody — not really.
 I’ve not had a bite to eat for two days.
 I’ve nothing to do with it, remember.
@@ -26918,6 +26940,7 @@ Many are still called thumb-pots.
 Many bodies are decomposed directly by the electric current, their elements being set free.
 Many captains might have passed the thing over.
 Many colliers were waiting their turns to go up, talking noisily.
+Many contemporary translations are free – in that they are available via various internet sites
 Many costumes are made of it in white, cream, or biscuit.
 Many don't check even that the translation strings exist
 Many drugs cause a dermatitis when they are given by mouth.
@@ -28084,6 +28107,7 @@ My head aches, and I'm hot.
 My head spins round: I don't know where I am.
 My head was swimming so wildly that I could not frame a coherent answer.
 My heart aches for him; that it does!
+My heart always skips a beat when I hear that.
 My heart is broken.
 My heart leaped with an enormous relief, but I went on wheeling my stones.
 My heart sank.
@@ -28592,6 +28616,7 @@ No one had been with him.
 No one has ever ventured this far out.
 No one is allowed to stir up hatred towards people.
 No one is permitted on this island without asking leave.
+No one is so skeptical God cannot reach them.
 No one knows where he went nor what he did.
 No one knows where to find the sceptre.
 No one noticed her.
@@ -30046,6 +30071,7 @@ One building is in the most beautiful specimens of the residential style.
 One by one the boys were captured.
 One came from her books.
 One can do nothing to please them.
+One can replace the entire wheel over time, piece by piece.
 One can see that.
 One can't give the raspberry to a client.
 One cannot have too large a party.
@@ -35340,6 +35366,7 @@ Thank you for allowing me to represent you.
 Thank you for being a part of this
 Thank you for empowering me to fight for you.
 Thank you for that
+Thank you for that.
 Thank you for the honor of serving as governor of New York.
 Thank you for this.
 Thank you for waiting.
@@ -35555,6 +35582,7 @@ That is your best friend, of whom you speak?
 That is your glove; you told me so yesterday.
 That is, I'm neutral.
 That is, of course, unavoidable, being in Chancery.
+That is, we will have a current translation which is stable.
 That just shows the condition this thing has reduced me to.
 That kind of one-upmanship will ruin their friendship.
 That kind of small-mindedness is impossible.
@@ -36287,6 +36315,7 @@ The Old Rugs won by seven tries and several minor points to nil.
 The Oligarchy wanted violence, and it set its agents provocateurs to work.
 The Oligarchy will encourage such ambition and the consequent competition.
 The Oncologist outlined a treatment plan for the cancer patient.
+The Open Source Scriptures project is a community driven endeavor.
 The P in pneumonia is silent, corrected David, groaning.
 The Palmerston windows were steamed over.
 The Palmerston would be the cosier.
@@ -36389,6 +36418,7 @@ The United Kingdom consists of England, Scotland, Wales and Northern Ireland.
 The United States and Iceland signed a Trade and Investment Framework Agreement.
 The United States and Iceland signed a bilateral defense agreement
 The United States is Iceland’s single largest trading partner.
+The United States is a member along with twenty-nine other nations.
 The United States is a terrorist state.
 The United States seeks to strengthen bilateral economic and trade relations.
 The United States was the first country to recognize Iceland’s independence.
@@ -37230,6 +37260,7 @@ The contract of reassurance is totally distinct from, and unconnected with, the 
 The contralto not unfrequently sings the high notes like soprano singers.
 The contrary minded say 'No.'
 The contrast touched everything with unreality.
+The contributions of individuals from all backgrounds and belief systems are welcome.
 The controller is bundled with the television.
 The convergence in both cases is to a point.
 The convergence of gadgets into our phone means we don't need to carry much.
@@ -38035,6 +38066,7 @@ The global statistics are shocking.
 The gloom of several countenances was perceptibly lightened.
 The glory was almost too great to be borne.
 The goaded housemaster turned on him.
+The goal is a readable and accurate translation of Scripture.
 The goalkeeper should run forward so as to attempt to tackle him.
 The gold became a diaphanous, glittering globe.
 The gold slid in a bright stream over the paper.
@@ -39818,6 +39850,7 @@ The second native race was that which the Dutch called Hottentot.
 The second photo is awful.
 The second policeman began struggling to his feet.
 The second seemed an age.
+The second task is to build out a team.
 The second time he had not paid back.
 The secret's out.
 The sedative had been administered.
@@ -40376,6 +40409,7 @@ The tramps are eating their breakfast.
 The transaction failed to complete.
 The transfer had taken no more than a few seconds.
 The transition from the construct to the compound state takes time to accomplish.
+The translation will require a robust system for contributing and editing content.
 The translations by Macpherson appear to be very imperfect.
 The transmitter is the instrument into which the words are spoken.
 The travel of the valve is equal to the throw of the eccentric.
@@ -41573,6 +41607,8 @@ There is a lot of Literature on this subject.
 There is a lot of hype around cryptocurrency and block-chain.
 There is a lot of noise in this flat.
 There is a man in your police station.
+There is a map in the back of many bibles.
+There is a need, however, for translations which are more dynamic
 There is a precedence.
 There is a presence in the room; I will speak to it.
 There is a problem with the camshaft.
@@ -41780,6 +41816,7 @@ There seemed to be two of them, men in coats and tweed caps.
 There seems to be a lack of organisation, she said
 There seems to be a problem with the fuel injection.
 There seems to be a sentence or paragraph missing on page three.
+There seems to be little reason to reinvent the wheel.
 There seems to be so much litter everywhere these days
 There she is — no, that's somebody else.
 There she lived honestly but miserably.
@@ -42398,6 +42435,7 @@ These chocolate soufflés are delectable, my dear.
 These compact machines are fast displacing the old rotaries.
 These conquerors of mountains pancaked on the rocks.
 These contagious particles were supposed to be diffused amongst the heavy inflammable air.
+These conversations will be constantly evolving.
 These country binges are all the same.
 These craters are from millions of years ago when dinosaurs walked the planet.
 These creams are derived from plant extract.
@@ -42721,6 +42759,7 @@ They could not keep it from me long.
 They could probably tell us the way to the Emerald City.
 They couldn't finish the task as they weren't able to find the key
 They cowered panting and stared out.
+They create a high quality, contemporary English translation of the Christian Scriptures.
 They crept into the passage.
 They crept up to the bedroom window.
 They crossed again from Derbyshire into Nottinghamshire.
@@ -43185,6 +43224,7 @@ They took out the new picture and did not use any picture there.
 They took refuge on the central reservation of the dual carriageway
 They took them off the scarecrow.
 They trained together at the police academy.
+They translate numerous other important works.
 They translated it but changed some things.
 They travelled on to New York via London Heathrow
 They try to be.
@@ -43462,6 +43502,7 @@ They’ll be dusty.
 They’ll be good shots one of these days.
 They’ll do well enough; don’t be particular—Here, Bill!
 They’ll meet the fate of Milo!
+They’ll need that math.
 They’re always laughing.
 They’re always wanting the big scholars to recite.
 They’re both gone to the town.
@@ -43805,6 +43846,7 @@ This is done by making a ring of cement on the slip.
 This is done keeping in mind adverse weather conditions at this point of time.
 This is doubly true when you have to less time on your hands.
 This is due to the Sickroom Records re-issue.
+This is easing the burden on scholars.
 This is eighteen eighty.
 This is females only changing room.
 This is for company use only.
@@ -43877,6 +43919,7 @@ This is serious.
 This is skimmed milk.
 This is so last century.
 This is splendid news.
+This is still in the very early stages of development.
 This is strictly between ourselves.
 This is strong language, William.
 This is such an unromantic affliction.
@@ -43937,6 +43980,7 @@ This is why you can’t have plastic knives in the cafeteria anymore
 This is wonderfully fine wine, sir!
 This is worth while.
 This is yet another test.
+This is your last book!
 This is your last ride, till papa comes back.
 This is your personal hotel suite.
 This is — this must be — hypnotism.
@@ -44176,6 +44220,7 @@ This verb is not in the English dictionaries.
 This very much resembles what is sold in the shops for Venetian talc.
 This very night we've been in a battle.
 This was Heathcliff’s first introduction to the family.
+This was a fascinating interview.
 This was a new tract of life suddenly opened before her.
 This was a new view to Mr. Shaw.
 This was a puzzler.
@@ -44228,6 +44273,7 @@ This week was April Vacation.
 This week was really rough.
 This week's fun run is along the valley and down to the coast.
 This wheel is much lighter, and is called a suspension or spider wheel.
+This will allow for the creation of poetic translations.
 This will bring down my weight and my handicap, Bob.
 This will plug the leak.
 This wire clinches it.
@@ -45456,6 +45502,7 @@ We are scaling up our workforce.
 We are scarcely halfway there yet.
 We are seated in what might be called a spacious apartment.
 We are seeing the miniaturization of many technologies.
+We are so glad you asked!
 We are so very airy!
 We are sometimes compelled to acknowledge the existence of elements.
 We are still in the nascent phase of implementation.
@@ -46085,6 +46132,7 @@ We ourselves, restricted to the duty of indicator, shall forbear commentary.
 We parked by the seashore.
 We parked the boat near the docks.
 We parted unreconciled, you remember, and I shan’t forgive myself.
+We partnered with my now co-founder Drew Morris on opening a community up;
 We pass on to the chief hero of these peasant wars.
 We passed just one man.
 We passed not far from the house a few minutes afterwards.
@@ -46356,6 +46404,7 @@ We will do an audit of expenses next week.
 We will endeavour to answer your call within thirty seconds.
 We will erase customer data if requested.
 We will face the challenges head-on.
+We will facilitate dialogue between differing perspectives on the best translation of passages.
 We will focus on this niche market.
 We will go down to the Villa Rose.
 We will go now, and we will take this letter with us.
@@ -46810,6 +46859,7 @@ Were your theatre tickets for the stalls, dress circle or balcony?
 West and East are cardinal directions, not civilizations.
 Wethermill leaned forward and shook his head with a smile.
 We’d better buck up.
+We’d love to hear from you.
 We’ll clean up, but we won’t sing.
 We’ll have pork-chops and roast duck for supper to-night.
 We’ll just imagine this path is running water.
@@ -46993,6 +47043,7 @@ What are the reasons annexed to the fourth commandment?
 What are the reasons annexed to the second commandment?
 What are the results of this?
 What are the standard levels of expenditure and profit?
+What are these things between the pages?
 What are we going to do after dinner?
 What are we specially taught by these words before me in the first commandment?
 What are you about, miss?
@@ -47029,6 +47080,7 @@ What are young men to rocks and mountains?
 What are your commands? enquired the King of the Monkeys, bowing low.
 What are your expectancies if this project is successful?
 What are your expectations?
+What are your hours of operation?
 What are your interests?
 What are your pronouns?
 What are your recommendations?
@@ -47669,6 +47721,7 @@ What sort of noise, sir?
 What sort of plant is that?
 What sort of price can I expect to pay in town?
 What sort of story?
+What sort of system should be used?
 What sort of things are you interested in?
 What started me on about country boys, and runaways, and good-for-nothings?
 What stopped him?
@@ -49317,6 +49370,7 @@ Yeah, right, like you didn't know!
 Yeah, that's right!.
 Yeah, you and what army?
 Year in, year out.
+Years later with my current group I took that idea
 Years passed before he realized the truth.
 Yellow-shawled Tunisians plucked at the strained strings of monstrous lutes.
 Yep, right!
@@ -50617,6 +50671,7 @@ You stand silent and twiddle the fingers.
 You stay where you are — don't interrupt too much.
 You stay, we stay.
 You stink.
+You strain out a gnat but swallow a camel!
 You suggest a black and ungrateful action, Comrade Spiller.
 You surely wouldn't give me away?
 You surprise me, sir.
@@ -51235,6 +51290,7 @@ and was written by a fold touch.
 and when so suspended, he has utterly neglected to attend to them.
 and with the knowledge of your ill opinion, too!
 and you, my brothers and sisters
+anyone will be able to use this on their first time rolling the dice
 appealing to the Supreme Judge of the world for the rectitude of our intentions
 are you going with me?
 around forty percent of that comes from restaurants.
@@ -51270,6 +51326,7 @@ divide the light from the darkness
 don't leave your personal details in
 each object contains a message to send on that day
 ensure the code is formatted correctly
+every time a new consensus is reached, the final translation will be updated.
 everyone is a sinner
 everything you need to know about backyard composting
 example TypeScript and React usage
@@ -51444,6 +51501,7 @@ therefore we are bound to keep all his commandments.
 these are similar to arrow or lambda functions
 these aren't necessarily out of scope
 they ask all these obnoxious questions
+they cannot be freely reproduced or modified
 they cannot walk that many miles.
 they have no serial numbers and can’t be traced.
 they just haven't been implemented yet
@@ -51452,6 +51510,7 @@ they must be unique in the input array
 they represent input expressions
 they run on any input expression
 they run on any syntactically valid input expression
+they suffer universally from at least some archaic words and phrasing.
 they were created, by sinning against God.
 this allows us to perform generalisation
 this clears session data locally
