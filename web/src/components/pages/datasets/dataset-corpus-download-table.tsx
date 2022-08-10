@@ -1,4 +1,8 @@
-import { Localized } from '@fluent/react';
+import {
+  Localized,
+  withLocalization,
+  WithLocalizationProps,
+} from '@fluent/react';
 import * as React from 'react';
 import { formatBytes, msToHours } from '../../../utility';
 import { useLocale } from '../../locale-helpers';
@@ -10,6 +14,8 @@ interface Props {
   selectedId: number | null;
 }
 
+// map columns to localized string id
+// also provide a fnc to render values in column
 const COLUMNS = {
   name: {
     display: (value: string) => {
@@ -67,7 +73,8 @@ const DatasetCorpusDownloadTable = ({
   releaseData,
   onRowSelect,
   selectedId,
-}: Props) => {
+  getString,
+}: Props & WithLocalizationProps) => {
   const [locale] = useLocale();
 
   return (
@@ -92,7 +99,10 @@ const DatasetCorpusDownloadTable = ({
               key={row.id + row.release_dir}>
               {Object.keys(COLUMNS).map((col: string, index) => {
                 return (
-                  <td key={index + COLUMNS[col].label}>
+                  <td
+                    label={getString(COLUMNS[col].label)}
+                    key={index + COLUMNS[col].label}
+                    className={index < 3 ? 'highlight' : ''}>
                     {COLUMNS[col].display(row[col], locale)}
                   </td>
                 );
@@ -105,4 +115,4 @@ const DatasetCorpusDownloadTable = ({
   );
 };
 
-export default DatasetCorpusDownloadTable;
+export default withLocalization(DatasetCorpusDownloadTable);
