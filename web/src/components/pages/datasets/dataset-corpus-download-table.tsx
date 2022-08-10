@@ -100,7 +100,7 @@ const DatasetCorpusDownloadTable = ({
               {Object.keys(COLUMNS).map((col: string, index) => {
                 return (
                   <td
-                    label={getString(COLUMNS[col].label)}
+                    data-mobile-label={getString(COLUMNS[col].label)}
                     key={index + COLUMNS[col].label}
                     className={index < 3 ? 'highlight' : ''}>
                     {COLUMNS[col].display(row[col], locale)}
