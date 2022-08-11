@@ -161,12 +161,17 @@ const DatasetDownloadEmailPrompt = ({
           </div>
           <div className="input-group">
             <LinkButton
+              role="button"
               href={canDownloadFile ? downloadLink : null}
               onClick={saveHasDownloaded}
               rounded
               blank
               className="download-language">
-              <Localized id="email-to-download" />
+              <Localized
+                id={
+                  canDownloadFile ? 'data-bundle-button' : 'email-to-download'
+                }
+              />
               <CloudIcon />
             </LinkButton>
             <Localized id="why-email" elems={{ b: <strong /> }}>
