@@ -28,6 +28,13 @@ jest.mock('../../../hooks/store-hooks', () => ({
 
 const bundleUrlTemplate =
   'cv-corpus-8.0-2022-01-19/cv-corpus-8.0-2022-01-19-{locale}.tar.gz';
+const locale = 'en';
+const selectedDataset = {
+  download_path: bundleUrlTemplate,
+  id: 1,
+  checksum: 'checksumtest1234',
+  size: '100000',
+};
 
 const bundleState = {
   bundleLocale: 'en',
@@ -45,8 +52,11 @@ describe('DatasetDownloadEmailPrompt', () => {
     await act(async () => {
       const renderResult: RenderResult = renderWithLocalization(
         <DatasetDownloadEmailPrompt
-          urlPattern={bundleUrlTemplate}
-          bundleState={bundleState}
+          selectedLocale={locale}
+          downloadPath={selectedDataset.download_path}
+          releaseId={selectedDataset.id.toString()}
+          checksum={selectedDataset.checksum}
+          size={selectedDataset.size}
         />
       );
       const results = await axe(renderResult.container);
@@ -58,8 +68,11 @@ describe('DatasetDownloadEmailPrompt', () => {
     await act(async () => {
       const { getByRole, container }: RenderResult = renderWithLocalization(
         <DatasetDownloadEmailPrompt
-          urlPattern={bundleUrlTemplate}
-          bundleState={bundleState}
+          selectedLocale={locale}
+          downloadPath={selectedDataset.download_path}
+          releaseId={selectedDataset.id.toString()}
+          checksum={selectedDataset.checksum}
+          size={selectedDataset.size}
         />
       );
 
@@ -74,8 +87,11 @@ describe('DatasetDownloadEmailPrompt', () => {
     await act(async () => {
       renderWithLocalization(
         <DatasetDownloadEmailPrompt
-          urlPattern={bundleUrlTemplate}
-          bundleState={bundleState}
+          selectedLocale={locale}
+          downloadPath={selectedDataset.download_path}
+          releaseId={selectedDataset.id.toString()}
+          checksum={selectedDataset.checksum}
+          size={selectedDataset.size}
         />
       );
     });
@@ -90,8 +106,11 @@ describe('DatasetDownloadEmailPrompt', () => {
     const { getByRole, queryByRole, getByLabelText }: RenderResult =
       renderWithLocalization(
         <DatasetDownloadEmailPrompt
-          urlPattern={bundleUrlTemplate}
-          bundleState={bundleState}
+          selectedLocale={locale}
+          downloadPath={selectedDataset.download_path}
+          releaseId={selectedDataset.id.toString()}
+          checksum={selectedDataset.checksum}
+          size={selectedDataset.size}
         />
       );
 
@@ -106,7 +125,7 @@ describe('DatasetDownloadEmailPrompt', () => {
     expect(disabledDownloadLink).toBeNull(); // not exist as a link
 
     // type in email address
-    await userEvent.type(getByLabelText(/Email/), 'billgates@example.com');
+    await userEvent.type(getByLabelText(/Email/), 'testemail@example.com');
 
     // check the checkboxes
     userEvent.click(
@@ -126,7 +145,7 @@ describe('DatasetDownloadEmailPrompt', () => {
     // calls api.saveHasDownloaded correctly
     expect(mockSaveHasDownload).toBeCalledTimes(1);
     expect(mockSaveHasDownload).toBeCalledWith(
-      'billgates@example.com',
+      'testemail@example.com',
       'en',
       'cv-corpus-8.0-2022-01-19'
     );
