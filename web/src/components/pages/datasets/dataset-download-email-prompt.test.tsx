@@ -120,7 +120,7 @@ describe('DatasetDownloadEmailPrompt', () => {
 
     // check the download link is disabled
     const disabledDownloadLink = queryByRole('link', {
-      name: /Download English/,
+      name: /Enter Email to Download/,
     });
     expect(disabledDownloadLink).toBeNull(); // not exist as a link
 
@@ -129,12 +129,14 @@ describe('DatasetDownloadEmailPrompt', () => {
 
     // check the checkboxes
     userEvent.click(
-      getByLabelText(/You are prepared to initiate a download of 50 GB/)
+      getByLabelText(/You are prepared to initiate a download of /)
     );
     userEvent.click(getByLabelText(/You agree to not attempt to determine/));
 
     // now has the link
-    const downloadLink = getByRole('link', { name: /Download English/ });
+    const downloadLink = getByRole('button', {
+      name: /Download Dataset Bundle/,
+    });
     await expect(downloadLink.getAttribute('href')).toBe(
       'https://example.com/fake/url'
     );
@@ -147,7 +149,7 @@ describe('DatasetDownloadEmailPrompt', () => {
     expect(mockSaveHasDownload).toBeCalledWith(
       'testemail@example.com',
       'en',
-      'cv-corpus-8.0-2022-01-19'
+      '1'
     );
   });
 });
