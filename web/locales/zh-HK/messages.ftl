@@ -511,6 +511,7 @@ about-playbook-how-add-language-content-1 =
     首先，查一查你嘅語言<languageLink>係咪已經存在</languageLink>。
     如果唔係，你可以<languageRequestLink>要求新增你嘅語言</languageRequestLink>。
     之後有兩個步驟：翻譯網站、同埋收集句子。
+about-playbook-how-add-language-collecting-sentences-heading = 收集句子
 
 ## How does localization work
 
@@ -525,6 +526,7 @@ about-playbook-how-add-sentences = 我可以點樣新增句子？
 
 ## How to grow language
 
+about-playbook-how-grow-language-content-2 = 活動
 about-playbook-how-grow-language-content-4 = 社交媒體
 
 ## How to validate
@@ -679,6 +681,8 @@ other-language = 其他語言
 
 ## Request Language Pages
 
+request-language-form-email =
+    .label = 你嘅電郵地址
 
 ## Languages Overview
 
@@ -960,6 +964,9 @@ contribution-criteria-link = 瞭解貢獻準則
 contribution-criteria-page-title = 貢獻準則
 contribution-for-example = 譬如
 contribution-misreadings-title = 誤讀
+contribution-varying-pronunciations-title = 讀音差異
+contribution-background-noise-title = 背景噪音
+contribution-background-voices-title = 背景人聲
 contribution-volume-title = 音量
 contribution-just-unsure-title = 唔肯定？
 see-more = <chevron></chevron>睇多啲
@@ -996,11 +1003,17 @@ sc-home-review-title = 審核句子
 
 ## HOW-TO
 
+sc-howto-title = 指南
+sc-howto-addsen-title = 加啲新句子
+sc-howto-cite-title = 點樣引用
 sc-howto-review-title = 審核句子
 
 ## MY SENTENCES
 
 sc-my-title = 我嘅句子
+# Variables:
+#   $source (String) - Associated source the user filled out when uploading the sentence
+sc-my-source = 來源：{ $source }
 
 ## REJECTED
 
@@ -1012,12 +1025,22 @@ sc-stats-updating = 更新中…
 
 ## ADD
 
+sc-submit-button =
+    .submitText = 提交
 
 ## ADD LANGUAGE
 
+sc-add-lang-sec-button = 增加語言
 
 ## ADD SENTENCES CONFIRMATION
 
+# Variables:
+#   $countOfSentences (Number) - Number of sentences the user has filled in the submission form
+sc-confirm-sentences-found =
+    { $countOfSentences ->
+        [0] 揾唔到任何句子
+       *[other] 揾到{ $countOfSentences }句句子
+    }
 
 ## LANGUAGE INFO
 
@@ -1027,6 +1050,9 @@ sc-stats-updating = 更新中…
 
 ## PROFILE
 
+# Variables:
+#   $username (String) - eMail address of the logged in user
+sc-profile-title = 個人檔案：{ $username }
 sc-personal-remove-button = 移除
 
 ## REVIEW CRITERIA
