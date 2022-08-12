@@ -1044,15 +1044,20 @@ sc-confirm-sentences-found =
 
 ## LANGUAGE INFO
 
+sc-lang-info-title-total = 總計
+sc-lang-info-title-personal = 個人
 
 ## LOGIN
 
+sc-login-err-failed = 登入失敗
+sc-login-err-try-again = 唔該再試多一次。
 
 ## PROFILE
 
 # Variables:
 #   $username (String) - eMail address of the logged in user
 sc-profile-title = 個人檔案：{ $username }
+sc-personal-your-languages = 你嘅語言：
 sc-personal-remove-button = 移除
 
 ## REVIEW CRITERIA
