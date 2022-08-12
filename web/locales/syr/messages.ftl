@@ -15,6 +15,11 @@ not-available-abbreviation = ܠܐ ܡܬܬܥܒ݂ܕܢܐ
 
 ## Languages
 
+ab = ܐܒܟܐܙܝܬ
+ace = ܐܬܫܝܢܝܬ
+ady = ܐܕܝܓܐܝܬ
+af = ܐܦܪܝܩܢܝܬ
+am = ܐܡܪܢܝܬ
 ar = ܥܪܒܝܬ
 el = ܝܘܢܐܝܬ݂
 en = ܐܢܓܠܣ
