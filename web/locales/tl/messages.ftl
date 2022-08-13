@@ -15,6 +15,7 @@ email-opt-in-privacy-v2 = Sa pamamagitan ng pagpiling pagtanggap ng mga email ik
 indicates-required = *Kailangang punuan
 not-available-abbreviation = N/A
 banner-error-slow-link = Status Page
+error-something-went-wrong = Paumanhin, may pagkakamali.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -345,6 +346,9 @@ profile-form-language =
 profile-form-variant-default-value = Walang variant na napili
 profile-form-accent =
     .label = Punto
+profile-form-custom-accent-help-text =
+    .label = Paano mo ilalarawan ang iyong accent?
+profile-form-custom-accent-placeholder-2 = Magsimulang mag-type para ilarawan ang iyong accent
 profile-form-age =
     .label = Edad
 profile-form-gender-2 =
@@ -376,6 +380,7 @@ thanks-for-account = Salamat sa pagkumpirma ng iyong account, ngayon gawin natin
 why-demographic = Bakit ito nararapat?
 accept-privacy = Pumapayag akong mamahala ka sa aking impormasyon kaugnay ng <privacyLink>Patakaran sa Privacy<privacyLink> ng Mozilla.
 accept-privacy-title = Patakarang Pangpribasiya
+login-identity = Login Identity
 login-signup = Log In / Sign Up
 edit = i-Edit
 email-subscriptions = Mga Subscription sa Email
@@ -384,6 +389,7 @@ skip-submission-feedback = Laktawan ang Pag-Submit ng Feedback
 skip-submission-note = Tandaan: Kailangan mo pa ring mamili sa pagitan ng Magsalita o Makinig para palitan ang uri ng kontribusyon
 off = Off
 on = On
+help-accent = Kailangan mo ng tulong sa mga variant?
 help-variants = Kailangan mo ng tulong sa mga variant?
 
 ## Profile - Email
@@ -400,6 +406,7 @@ remove-avatar = Alisin ang Avatar
 ## Profile - Email
 
 manage-subscriptions = Pamahalaan ang mga Subscription
+manage-email-subscriptions = Pamahalaan ang mga Email Subscription
 email-already-used = Nagamit na sa ibang account ang email
 add-language = Magdagdag ng Wika
 change-email-setings = Palitan ang iyong email sa Settings sa ilalim ng Login Identity
@@ -437,6 +444,7 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Bakit Common Voice?
+how-does-it-work-title-v2 = Paano gumagana ang Common Voice?
 
 ## How does it work section
 
@@ -444,6 +452,7 @@ about-localization-title = Lokalisasyong ng Website
 about-new-lang-title = Bagong Paglunsad ng Wika
 about-voice-contrib-title = Voice Contribution
 about-voice-validation-title = Pagpapatunay ng Boses
+about-dataset-release-title = Paglabas ng Dataset
 about-dataset-release-subtitle = Naglalabas kami ng dataset bawat 3 buwan.
 about-speak = Magsalita
 about-listen-queue = Listen-Queue
@@ -499,6 +508,10 @@ about-playbook-how-access-dataset = Paano i-access at gamitin ang dataset?
 
 ## How are decisions made
 
+about-playbook-how-project-governance = Paano ginagawa ang mga desisyon sa proyekto?
+about-playbook-how-project-governance-content-2 = Ang aming pamamahala ay itinatag sa mga haligi ng:
+about-playbook-how-project-governance-content-3 = Pribasiya, seguridad at transparency.
+about-playbook-how-project-governance-content-5 = Halaga at pagkilala.
 
 ## Glossary
 
@@ -520,6 +533,7 @@ data-download-yes = Oo
 data-download-deny = Hindi
 data-download-license = License: <licenseLink>CC-0</licenseLink>
 data-download-modal = Magsisimula kang mag-download ng <size> { $size } GB </size>, magpatuloy?
+data-other-title = Iba pang mga dataset ng boses...
 data-other-goto = Pumunta sa { $name }
 data-other-download = Download Data
 data-bundle-button = Download Dataset Bundle
@@ -541,20 +555,27 @@ datasets-heading = Mga Dataset
 language = Wika
 # File size in gigabytes
 size = Laki
+validated-hr-total = Validated Hr. Total
 overall-hr-total = Overall Hr. Total
 cv-license = Lisensya
 audio-format = Audio Format
 number-of-voices = Bilang ng mga Tinig
+splits = Mga split
 email-to-download = Ilagay ang Email para i-download
 size-gigabyte = GB
 size-megabyte = MB
 download-language = i-Download ang { $language }
+validated-hours = Napatunayang Oras
 recorded-hours = Mga Oras na Na-record
 want-dataset-update = Gusto mo ba ng mga update kapag naglabas kami ng bagong bersyon ng dataset ng Common Voice? Mag-subscribe sa aming newsletter.
 subscribe = Mag-subscribe
+get-started-speech = Magsimula sa Speech Recognition
+other-datasets = Iba pang mga Voice Dataset
+feedback-q = Feedback?
 community-playbook = Community Playbook
 data-other-ted-name = TED-LIUM Corpus
 go-discourse = Magpunta sa Discourse
+go-languages-page = Pumunta sa Pahina ng Mga Wika
 more = Higit pa
 close = Isara
 download = i-Download
@@ -562,6 +583,7 @@ dataset-version = Bersyon
 
 ## Download Modal
 
+download-title = Nagsimula na ang iyong pag-download.
 download-form-email =
     .label = Ilagay ang iyong email
     .value = Salamat, kami ay makikipag-ugnayan.
@@ -597,6 +619,7 @@ language-meter-in-progress = Progreso
 language-total-progress = Kabuuan
 language-search-input =
     .placeholder = Hanapin
+language-speakers = Mga Speaker
 sentences = Mga Pangungusap
 language-validation-hours = Mga Oras
 
@@ -607,6 +630,11 @@ action-tap = Tap
 contribute = Tumulong
 listen = Pakinggan
 skip = Laktawan
+clips-with-count-pluralized =
+    { $count ->
+        [one] <bold>{ $count }</bold> Clip
+       *[other] <bold>{ $count }</bold> Mga Clip
+    }
 record-cta = Magrecord na
 record-platform-not-supported = Paumanhin, hindi suportado ang platform mo.
 record-no-mic-found = Walang makitang mikropono.
@@ -631,6 +659,7 @@ report-offensive-speech = Bastos na salita
 report-other-comment =
     .placeholder = Kumento
 success = Tagumpay
+continue = Magpatuloy
 
 ## Goals
 
@@ -776,16 +805,27 @@ sc-personal-remove-button = alisin
 
 ## REVIEW
 
+sc-review-title = Suriin ang mga Pangungusap
+# Variables:
+#   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
+sc-review-form-source = Pinagmulan: { $sentenceSource }
+sc-review-form-button-reject = Tanggihan
 sc-review-form-button-skip = Laktawan
+sc-review-form-button-approve = Aprubahan
 # Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
 sc-review-form-button-approve-shortcut = Y
 # Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
 sc-review-form-button-reject-shortcut = N
 # Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
 sc-review-form-button-skip-shortcut = S
+sc-review-form-button-submit =
+    .submitText = Tapusin ang Pagsusuri
+sc-review-link = Suriin
 
 ## SETTINGS
 
+sc-settings-title = Mga setting
+sc-settings-ui-language = Interface ng Wika
 
 # [/SentenceCollector]
 
