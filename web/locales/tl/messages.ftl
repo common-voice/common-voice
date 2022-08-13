@@ -576,6 +576,7 @@ community-playbook = Community Playbook
 data-other-ted-name = TED-LIUM Corpus
 go-discourse = Magpunta sa Discourse
 go-languages-page = Pumunta sa Pahina ng Mga Wika
+ready-to-validate = Handa ka na bang tumulong sa pagpapatunay ng mga pangungusap?
 more = Higit pa
 close = Isara
 download = i-Download
@@ -587,6 +588,7 @@ download-title = Nagsimula na ang iyong pag-download.
 download-form-email =
     .label = Ilagay ang iyong email
     .value = Salamat, kami ay makikipag-ugnayan.
+download-back = Bumalik sa mga Dataset ng Common Voice
 download-no = Salamat na lang
 
 ## Contact Modal
@@ -608,11 +610,15 @@ other-language = Iba pang Wika
 
 ## Request Language Pages
 
+request-language-heading = Magtanong tungkol sa isang bagong wika
 request-language-form-email =
     .label = Iyong email address
+request-language-form-info-explanation-list-1 = Mga pangalan ng iyong wika
+request-language-google-recaptcha-required = Kinakailangan ang reCAPTCHA kung gusto mong magpatuloy
 
 ## Languages Overview
 
+language-section-in-progress = Isinasagawa
 language-section-launched = Inilunsad na
 languages-show-less = Tignan ng Kaunti
 language-meter-in-progress = Progreso
@@ -620,8 +626,10 @@ language-total-progress = Kabuuan
 language-search-input =
     .placeholder = Hanapin
 language-speakers = Mga Speaker
+localized = Localized
 sentences = Mga Pangungusap
 language-validation-hours = Mga Oras
+language-validation-progress = Progreso ng Pagpapatunay
 
 ## Contribution
 
@@ -630,6 +638,7 @@ action-tap = Tap
 contribute = Tumulong
 listen = Pakinggan
 skip = Laktawan
+shortcuts = Mga Shortcut
 clips-with-count-pluralized =
     { $count ->
         [one] <bold>{ $count }</bold> Clip
@@ -641,10 +650,17 @@ record-no-mic-found = Walang makitang mikropono.
 record-error-too-short = Masyadong maikli ang recording.
 record-error-too-long = Masyadong mahaba ang recording.
 record-error-too-quiet = Masyadong tahimik ang recording.
+record-cancel = Kanselahin ang Muling pag-record
 record-three-more-instruction = Tatlo na lang!
 share-clip = Ibahagi ang iyong clip
+share-common-voice = Ibahagi ang Common Voice
+clips-uploaded = Mga Na-upload na Clip
+record-abort-title = Tapusin muna ang pagre-record?
 record-abort-submit = Ipasa ang clips
 record-abort-continue = Tapusin ang pag-record
+record-abort-delete = Lumabas at Burahin ang mga clip
+listen-last-time-instruction = <playIcon></playIcon>Panghuli!
+speak-empty-state-cta = Mag-ambag ng mga pangungusap
 record-button-label = I-record ang boses mo
 share-title-new = <bold>Tulungan kaming</bold> humanap ng marami pang mga tinig
 target-segment-add-voice = Idagdag ang Iyong Boses
@@ -652,6 +668,8 @@ target-segment-learn-more = Matuto Nang Higit Pa
 
 ## Reporting
 
+report = Isumbong
+report-title = Magpadala ng report
 report-offensive-language = Bastos na salita
 report-different-language = Ibang lengguwahe
 report-difficult-pronounce = Mahirap bigkasin
@@ -663,10 +681,21 @@ continue = Magpatuloy
 
 ## Goals
 
+streaks = Mga streak
 days =
     { $count ->
         [one] Araw
        *[other] Mga Araw
+    }
+recordings =
+    { $count ->
+        [one] Recording
+       *[other] Mga Recording
+    }
+validations =
+    { $count ->
+        [one] Pagpapatunay
+       *[other] Pagpapatunay
     }
 
 ## Dashboard
