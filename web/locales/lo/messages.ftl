@@ -198,6 +198,7 @@ on = ເປີດ
 
 ## Profile - Email
 
+add-language = ເພີ່ມພາສາ
 
 ## FAQ
 
@@ -290,17 +291,24 @@ other-language = ພາສາອື່ນໆ
 
 ## Request Language Pages
 
+request-language-form-email =
+    .label = ທີ່ຢູ່ອີເມວຂອງທ່ານ
 
 ## Languages Overview
 
 languages-show-more = ເບິ່ງເພີ່ມເຕີມ
+language-meter-in-progress = ຄວາມຄືບຫນ້າ
 language-search-input =
     .placeholder = ຊອກຫາ
+sentences = ປະໂຫຍກ
 language-validation-hours = ຊົ່ວໂມງ
 
 ## Contribution
 
 action-click = ຄິກ
+listen = ຟັງ
+skip = ຂ້າມ
+shortcuts = ທາງລັດ
 target-segment-learn-more = ຮຽນຮູ້ເພີ່ມເຕີມ
 
 ## Reporting
@@ -314,10 +322,13 @@ continue = ສືບຕໍ່
 
 ## Dashboard
 
+stats = ສະຖິຕິ
+awards = ຮາງວັນ
 you = ທ່ານ
 
 ## Custom Goals
 
+average-difficulty = ສະເລ່ຍ
 
 ## Profile Delete
 
@@ -410,6 +421,7 @@ sc-confirm-button-text = ຢືນຢັນ​
 
 ## LANGUAGE INFO
 
+sc-lang-info-title-personal = ສ່ວນຕົວ
 
 ## LOGIN
 
