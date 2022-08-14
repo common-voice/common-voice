@@ -208,6 +208,7 @@ on = ເປີດ
 ## How does it work section
 
 about-speak = ເວົ້າ
+about-listen = ຟັງ
 about-stay-in-touch-button = ລົງ​ທະ​ບຽນ
 
 ## Community Playbook Content
@@ -255,6 +256,9 @@ release-version = ລູ້ນ​
 
 datasets-heading = ຊຸດຂໍ້ມູນ
 language = ພາສາ
+# File size in gigabytes
+size = ຂະຫນາດ
+cv-license = ໃບອະນຸຍາດ
 size-gigabyte = GB
 size-megabyte = MB
 subscribe = ຕິດຕາມ
@@ -281,6 +285,8 @@ contact-required = *ຕ້ອງການ
 
 request-language-form-language =
     .label = ພາສາ
+select-language = ເລືອກພາສາ...
+other-language = ພາສາອື່ນໆ
 
 ## Request Language Pages
 
