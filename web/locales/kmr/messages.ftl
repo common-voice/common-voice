@@ -557,6 +557,7 @@ about-playbook-how-add-language-collecting-sentences-heading = Komkirina hevokan
 ## How does localization work
 
 about-playbook-how-localize = Wergerandina malperê çawa tê kirin?
+about-playbook-how-localize-content-1 = Wergera malpera Common Voiceê li ser <strong>Pontoon</strong>ê tê kirin.
 
 ## How to add sentences
 
@@ -721,7 +722,6 @@ language-section-launched-description =
 languages-show-more = Zêdetir bibîne
 languages-show-less = Kêmtir bibîne
 language-meter-in-progress = Pêşveçûn
-language-total-progress = Tevahî
 language-search-input =
     .placeholder = Lê bigere
 language-speakers = Axiver
@@ -1107,14 +1107,22 @@ sc-confirm-already-reviewed =
        *[other] Te { $countOfReviewed } hevok kontrol kirin. Her bijî!
     }
 # Variables:
+#   $readyCount (Number) - Number of sentences ready to be uploaded
+sc-confirm-ready =
+    { $readyCount ->
+        [0] Ti hevok ji bo şandinê ne amade ne.
+       *[other] { $readyCount } ji bo şandinê amade ne!
+    }
+# Variables:
 #   $countOfUnreviewed (Number) - Number of sentences unreviewed before the upload
 sc-confirm-unreviewed = { $countOfUnreviewed } hevok nehatin kontrol kirin. Heke tu bixwazî berî ku hevokan bişînî tu dikarî hevokên xwe niha jî kontrol bikî.
 sc-confirm-button-text = Bipejirîne
+sc-confirm-uploading = Hevok tên barkirin. Ev, girêdayî hejmara hevokên hatine tevlîkirin e, dikare çend deqîqeyan bigire. Ji kerema xwe, vê malperê negirin.
 
 ## LANGUAGE INFO
 
-sc-lang-info-title-total = Tevahî
-sc-lang-info-title-personal = Şexsî
+sc-lang-info-title-total = Giştî
+sc-lang-info-title-personal = Xebatên Te
 
 ## LOGIN
 
@@ -1132,7 +1140,7 @@ sc-personal-your-languages = Zimanên te:
 sc-personal-remove-button = rake
 # Variables:
 #   $sentences (Number) - Number of sentences that were added by the currently logged in user for this language
-sc-personal-added-by-you = Te { $sentences } tevlî kirin
+sc-personal-added-by-you = Te { $sentences } hevok tevlî kirin
 sc-personal-not-added = Te hîn ti ziman tevlî nekiriye.
 
 ## REVIEW CRITERIA
