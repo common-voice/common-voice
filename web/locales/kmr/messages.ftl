@@ -1062,6 +1062,10 @@ sc-rejected-none-found = Hevokên red bûne nehatin dîtin!
 sc-stats-title = Amarên Projeyê
 sc-stats-updating = Tê nûvekirin…
 sc-stats-error = Me nedikarî amaran bînin. Ji kerema xwe paşê dîsa biceribînin.
+# Variables:
+#   $sentenceCount (Number) - Total number of sentences uploaded through Sentence Collector
+#   $languageCount (Number) - Total number of languages these sentences represent
+sc-stats-summary = Berhevkara Common Voiceê, di { $languageCount } zimanan de { $sentenceCount } hevok berhev kir!
 
 ## ADD
 
