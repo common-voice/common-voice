@@ -1178,6 +1178,7 @@ sc-submit-ph-one-per-line =
 sc-submit-from-where = ایہ <wikipediaLink>عوامی ڈومین</wikipediaLink> جملے کتھوں دے ہن؟
 sc-submit-ph-read-how-to =
     .placeholder = جے تہاکوں انتساب کرݨ کائنی آندا تاں ساݙا کین٘ویں کروں پڑھو
+sc-submit-confirm = میں تصدیق کرینداں جو ایہ جملے <wikipediaLink> عوامی ڈومین</wikipediaLink> دے ہِن تے میکوں انہاں دے اپ لوڈ کرݨ دی اجازت ہے۔
 sc-submit-button =
     .submitText = جمع کرواؤ
 sc-submit-guidelines = سوہݨا <howToLink>رہنمائی ہدایات</howToLink> دی پڑتال کرو
