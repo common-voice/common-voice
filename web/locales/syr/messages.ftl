@@ -74,20 +74,20 @@ vote-yes = ܗܐ
 vote-no = ܠܐ
 speak-subtitle = ܗܒ݇ܠܘܢ ܩܠܘܟ݂ܘܢ
 all-locales = ܟܠ
-today = ܝܘܡܢܐ
+today = ܐܕܝܘܡ
 x-weeks-short =
     { $count ->
-        [zero] ܫܒ݂̈ܘܥܐ
-        [one] ܫܒܼܘܥܐ
-        [two] ܫܒ݂̈ܘܥܐ
-        [few] ܫܒ݂̈ܘܥܐ
-        [many] ܫܒ݂̈ܘܥܐ
-       *[other] ܫܒ݂̈ܘܥܐ
+        [zero] ܫܒ̈ܘܥܐ
+        [one] ܫܒܘܥܐ
+        [two] ܫܒ̈ܘܥܐ
+        [few] ܫܒ̈ܘܥܐ
+        [many] ܫܒ̈ܘܥܐ
+       *[other] ܫܒ̈ܘܥܐ
     }
 x-months-short =
     { $count ->
         [zero] ܝܪ̈ܚܐ
-        [one] ܝܪܚ
+        [one] ܝܪܚܐ
         [two] ܝܪ̈ܚܐ
         [few] ܝܪ̈ܚܐ
         [many] ܝܪ̈ܚܐ
@@ -95,12 +95,12 @@ x-months-short =
     }
 x-years-short =
     { $count ->
-        [zero] ܫ̈ܢܐ
+        [zero] ܫܢܝ̈ܐ
         [one] ܫܢ̄ܬܐ
-        [two] ܫ̈ܢܐ
-        [few] ܫ̈ܢܐ
-        [many] ܫ̈ܢܐ
-       *[other] ܫ̈ܢܐ
+        [two] ܫܢܝ̈ܐ
+        [few] ܫܢܝ̈ܐ
+        [many] ܫܢܝ̈ܐ
+       *[other] ܫܢܝ̈ܐ
     }
 sign-up-account = ܡܟܬܒ ܚܘܫܒܢܐ
 email-subscription-title = ܡܟܬܒ ܠܩܒܠܬܐ ܚܕܬ ܒܐܝܡܝܠ
