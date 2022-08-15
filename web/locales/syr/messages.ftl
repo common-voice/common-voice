@@ -1,5 +1,7 @@
 ## General
 
+yes-receive-emails = ܗܝ، ܫܕܪ ܩܐ ܕܝܝ ܐܝܡܝܠ. ܐܢܐ ܒܥܝܢ ܦܝܫܢ ܡܘܕܥܝܐ ܒܘܬ ܩܠܐ ܓܘܢܝܐ.
+stayintouch = ܐܚܢܢ ܒܡܘܙܝܠܐ ܒܢܝܐ ܝܘܚ ܫܘܬܦܘܬܐ ܠܚܘܕܪ̈ܘܢܐ ܕܝܘܠܦܢܐ ܐܘܡܢܘܬܐ ܕܩܠܐ (voice technology).  ܐܚܢܢ ܒܥܝܚ ܕܡܕܥܚ ܩܐ ܕܝܘܟ݂ܘܢ ܒܚܘܕܬܐ ܕܡܒܘ̈ܥܐ ܫܘܘܕܥ̈ܐ (data sources) ܚܕ̈ܬܐ ܘܫܡܥܚ ܒܘܬ ܡܦܠܚܬܐ ܕܝܝ ܫܘܘܕܥܐ.
 return-to-cv = ܕܥܪ ܠܩܠܐ ܓܘܢܝܐ
 email-input =
     .label = ܐܓܪܬܐ ܐܠܝܩܛܪܘܢܝܬܐ
@@ -13,7 +15,17 @@ not-available-abbreviation = ܠܐ ܡܬܬܥܒ݂ܕܢܐ
 
 ## Languages
 
-ar = ܥܪܒܝܬ݂
+ab = ܐܒܟܐܙܝܬ
+ace = ܐܬܫܝܢܝܬ
+ady = ܐܕܝܓܐܝܬ
+af = ܐܦܪܝܩܢܝܬ
+am = ܐܡܪܢܝܬ
+an = ܐܪܐܓܘܢܝܬ
+ar = ܥܪܒܝܬ
+arn = ܡܐܦܘܕܘܢܓܘܢܝܬ
+as = ܐܣܐܡܝܬ
+ast = ܐܣܬܘܪܝܬ
+az = ܐܙܪܒܝܓܐܢܝܬ
 el = ܝܘܢܐܝܬ݂
 en = ܐܢܓܠܣ
 fa = ܦܪܣܐܝܼܬ
@@ -172,8 +184,6 @@ faq-how-get-q = ܕܐܟ݂ܝ ܟܐ ܩܢܝܢ ܫܘܘܕ̈ܥܐ ܕܩܠܐ ܓܘܢܝܐ؟
 
 about-speak = ܡܠܠ
 about-dataset-new = ܣܕܪܐ ܕܫܘܘܕ̈ܥܐ ܕܩܠܐ ܓܘܢܝܐ
-about-partners = ܫܘܬܦܝ̈ܐ
-about-become-a-partner = ܗܘܐ ܫܘܬܦܐ
 about-nav-how-it-works = ܐܝܟܢܐ؟
 about-nav-partners = ܫܘܬܦܝ̈ܐ
 

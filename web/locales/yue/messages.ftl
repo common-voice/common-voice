@@ -176,6 +176,7 @@ yue = 粵語
 zh-CN = 中文（中國大陸）
 zh-HK = 中文（香港）
 zh-TW = 中文（台灣）
+zu = 祖魯語
 
 # [/]
 
@@ -388,6 +389,7 @@ gravatar_not_found = 揾唔到你電郵所屬嘅 Gravatar
 file_too_large = 檔案過大
 avatar-uploaded = Avatar 已上載
 max-file-size = { $kb } kb 上限
+remove-avatar = 刪除肖像
 
 ## Profile - Email
 
@@ -468,6 +470,9 @@ how-does-it-work-text = 我哋整緊一個開源嘅聲音資料集。一齊幫�
 
 ## How does it work section
 
+about-localization-title = 網站本地化
+about-sentence-collection-title = 句子收集
+about-dataset-release-title = 數據集發佈
 about-subscribe-text = 想及時跟進 Common Voice ？
 about-speak = 講
 about-speak-text = 貢獻者會錄低由句庫抽出嚟嘅句子。
@@ -490,6 +495,8 @@ about-get-involved-text-2 =
     想幫手令 Common Voice 計劃變得更好？
     太好喇！請用電郵或者 <discourseLink>Discourse</discourseLink> 論壇聯絡我哋，或者喺 <githubLink>GitHub</githubLink> 上面提交網站問題，或者加入 
     <matrixLink>Matrix</matrixLink> 群組傾偈。
+about-stay-in-touch = 點樣保持聯繫？
+about-stay-in-touch-button = 註冊
 about-nav-why-common-voice = 點解？
 about-nav-how-it-works = 點樣？
 about-nav-partners = 合作夥伴
@@ -504,6 +511,9 @@ about-playbook-what-is-language = Common Voice 度嘅一門語言係指乜？
 
 ## How do I add a language
 
+about-playbook-how-add-language = 我點樣新加一隻語言？
+about-playbook-how-add-language-translating-heading = 繙譯本站
+about-playbook-how-add-language-collecting-sentences-heading = 收集句子
 
 ## How does localization work
 
@@ -516,6 +526,7 @@ about-playbook-what-is-language = Common Voice 度嘅一門語言係指乜？
 
 ## How to grow language
 
+about-playbook-how-grow-language-content-4 = 社交媒體
 
 ## How to validate
 
@@ -683,7 +694,7 @@ language-meter-in-progress = 進展
 language-total-progress = 總共
 language-search-input =
     .placeholder = 揾
-language-speakers = 講者
+language-speakers = 獻聲人數
 localized = 已被本地化
 sentences = 句子
 
@@ -692,7 +703,7 @@ sentences = 句子
 action-click = 撳
 action-tap = 敲
 contribute = 貢獻
-listen = 聽
+listen = 聽聲
 skip = 跳過
 shortcuts = 捷徑
 clips-with-count-pluralized =
@@ -989,6 +1000,7 @@ contribution-misreadings-example-6-title = 我哋咪出去飲咖啡。
 contribution-misreadings-example-6-explanation = [應該要係「唔係」]
 contribution-misreadings-example-7-title = 我哋唔係出去飲咖啡啊。
 contribution-misreadings-example-7-explanation = [原本冇「啊」]
+contribution-misreadings-example-8-title = 噷……
 contribution-misreadings-example-8-explanation = [唔關事嘅內容]
 contribution-varying-pronunciations-title = 發音差異
 contribution-varying-pronunciations-description = 拒批錄音嗰陣要審慎一啲，尤其係因為讀錯，文白異讀，變調，漏咗個問號拉高等等問題。世界上有好多唔同嘅發音，有啲人嘅習慣同你可能有啲啲唔同。請理解同包容一啲講嘢方式同你有少少唔同嘅朋友。

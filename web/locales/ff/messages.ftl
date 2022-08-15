@@ -421,6 +421,10 @@ off = Ñifol
 on = Kuɓɓol
 help-accent = Aɗa sokli ballal seeɗa baɗte ngaddin?
 help-accent-explanation = Ngaddiin maa ko no ngowlirtaa konngi. Seerndata ngaddinaaji ko ɗo neɗɗo hoti, ɗemɗe goɗɗe ɗe o haalata kañum e geɗe goɗɗe keewɗe.Aɗa waawi waɗde ɗoo humpito kala cikuu-ɗaa ena ɓeydoo faamminde.
+help-variants = Aɗa sokli ballal seeɗa e caltuɗe?
+help-variants-explanation =
+    Caltuka ko haala keeriika  - wano kaaleteeka e diiwaan keeriiɗo maa renndo.
+    Sahaaji ena wiyee ngaddiin.
 
 ## Profile - Email
 

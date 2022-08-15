@@ -467,6 +467,9 @@ faq-why-different-speakers-a =
     Heta ñe’ẽryapu ñongatupyre oĩva ombyaty mba’éichapa oñe’ẽ sa’i tapicha ha péicha rupi oñembo’yke ambuévape ombohyapuambuévape, techapyrãrõ <articleLink>kuimba’e ha tapicha aty avano’õ iviru sa’ivévape</articleLink>. Ndajaresarekóiramo tapicha aty michĩvévape ombohyapuambuéva peteĩ ñe’ẽ térã iñe’ẽambue’íva rehe, opytáta hikuái tapykuépe, ja’eporãsérõ oñembo’ykémava voi chupekuéra. Heta máquina noikũmbykuaái avei kuña ñe’ẽ ohendúramo.
     Upévare rombyatyva’erã opaichagua ñe’ẽryapu, taha’e kuñáva térã kuimba’éva, iñe’ẽ’ypýva térã iñe’ẽmokõiva!
 faq-why-my-lang-q = ¿Mba’ére che ñe’ẽ ndaipóri gueteri?
+faq-why-my-lang-a =
+    Common Voice ha’e peteĩ pyendavusu crowdsourcing rehegua, ha umi ñe’ẽ oñembojoapypaite omba’aporeíva rupive.
+    ¡Rovy’aitereíta remoĩramo ne ñe’ẽ! <languageRequestLink>Eporandu emoĩ hag̃ua ne ñe’ẽ.</languageRequestLink>
 faq-what-quality-q = Mba’eichaitépa iporãva’erã ñe’ẽryapu ikatu hag̃uáicha oike kuaapy atýpe?
 faq-what-quality-a = Ore roipota Common Voice kuaapy’aty oguerekoha opaichagua ñe’ẽryapu ikatu hag̃uáicha tembiporu oikũmbýtava oje’éva chupe omba’apokuaa avei ka’aguýpe. Iporã oĩramo opaichagua ñe’ẽryapu, péichante oñembokatupyrýta avei tembiporu’i ojapoporã hembiapo ndohenduporãkuaáiramo jepe. Katu yvypóra oikũmbykuaava’erã oje’éva ñe’ẽryapu ñongatupyrépe.
 faq-why-10k-hours-q = Mba’érepiko pehupytyse 10,000 aravo ñe’ẽryapu ñongatupyre peteĩ ñe’ẽme?
@@ -566,6 +569,11 @@ about-playbook-how-add-language = ¿Mba’éicha ambojuajúta ñe’ẽ?
 about-playbook-how-add-language-content-1 = Ñepyrũrã, ehechajey ne ñe’ẽ <languageLink>oĩmapa</languageLink>. Ndapeichairamo, <strong>omoñe’ẽasava’erã pe tenda ha ombyaty ñe’ẽjuaju</strong>.
 about-playbook-how-add-language-translating-heading = Omoñe’ẽasa tenda
 about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Ehecha mba’éichapa eipurúta Pontoon.</translateVideoLink>
+about-playbook-how-add-language-translating-content-2 =
+    Jaipuru peteĩ tembipuru Mozilla mba’e hérava <pontoonLink>Pontoon</pontoonLink> ñe’ẽmbohasarã. Pontoon oguereko heta ñe’ẽ,
+    hákatu ndoguerekóiramo ne mba’éva ikatu <pontoonRequestLink>ejerure oñembojoapy hag̃ua ne ñe’ẽ</pontoonRequestLink>.
+    Upéi, ojeguereko hag̃ua ñe’ẽ Common Voice apopyrãme,
+    </githubRepoLink>ejerure ñe’ẽ pyahúre GitHub-pe</githubRepoLink>. <localizationFragment>Ehechave tenda ñe’ẽasápe</localizationFragment>.
 about-playbook-how-add-language-collecting-sentences-heading = Ñe’ẽrysýi ñembyaty
 about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>Ehecha mba’éichapa eipurúta ñe’ẽjuaju ñembyatyha</sentenceCollectorVideo>.
 about-playbook-how-add-language-collecting-sentences-content-2 =
@@ -1160,12 +1168,14 @@ contribution-misreadings-example-7-explanation = [Ani ‘a’ moñe’ẽrã yp�
 contribution-misreadings-example-8-title = Pe mberuguasu ohasa pya’eterei.
 contribution-misreadings-example-8-explanation = [Tetepy ojokupyty’ỹva]
 contribution-varying-pronunciations-title = Je’epyre Hekoetáva
+contribution-varying-pronunciations-description = Ejesarekóke rembotove mboyve peteĩ jekutúpe heʼívo pe omoñe’ẽva omoñe’ẽvaihague peteĩ ñe’ẽ, omoĩvaihague térã haʼetévaicha ndojesarekoihague peteĩ kytaporandu rehe. Ko yvóra tuichakuére ojeporu hetaiterei ñembohyapu, ha ikatu oĩ nerehendúiva ne ava’atýpe. Peme’ẽmi peteĩ aguyjeme’ẽ pa’ũme umi ikatúva oñe’ẽ ambuéva pendehegui.
 contribution-varying-pronunciations-description-extended = Ambueháicha, peichahágui eguerovia mba’éramo pe moñe’ẽhára araka’eve ndohechamo’ãi pe ñe’ẽ ha oimo’ãreínte ojavývo pe iñemboayvu pukue, ha pévare omboyke. Ndereikuaa porãiramo, eipuru pe votõ Jepo.
 contribution-varying-pronunciations-example-1-title = Oguereko iñakã rehe akão.
 contribution-varying-pronunciations-example-1-explanation = [‘Beret’ oĩporã imyanduhéramo jepe ñe’ẽpehẽ peteĩhápe (Reino Unido) térã mokõihápe (EE.UU.)]
 contribution-varying-pronunciations-example-2-title = Omopu’ã ipo.
 contribution-varying-pronunciations-example-2-explanation = [‘Raised’ inglés-pe oñemoñe’ẽ peteĩ ñe’ẽpehẽme, ndaha’éi mokõime]
 contribution-background-noise-title = Tyapu tapykuegua
+contribution-background-noise-description = Roipota umi kuaapyhy ijeheguíva guatarã rehegua ikatu oñatende opaichagua tyapu tapykuegua rehe, ha umi tyapu hatãitereíva jepe ikatu ojeguerohory ndojokóiramo ndéve rehendu hag̃ua jehaipyre tuichakue. Purahéi kirirĩháme oĩ OK; purahéi hatãva ani hag̃ua rehendu peteĩteĩ ha opa ñe’ẽ ndaha’éi.
 contribution-background-noise-description-extended = Ne ñe’ẽñongatu osóramo térã nosẽporãmbái, ejapojeýnte noñehendupaiva’éramo opahaite peve ñe’ẽpu.
 contribution-background-noise-example-1-fixed-title = <strong>[Atĩa]</strong> Umi dinosaurio tuicháva <strong>[hu’u]</strong> Triásico pegua.
 contribution-background-noise-example-2-fixed-title = Dinosaurio tuicháva <strong>[hu’u]</strong> Triásico-gua.

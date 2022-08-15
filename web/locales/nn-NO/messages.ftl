@@ -296,7 +296,6 @@ shortcut-discard-ongoing-recording-label = Forkast denne innspelinga
 shortcut-submit = Enter
 shortcut-submit-label = Send inn klipp
 request-language-text = Ser du ikkje språket ditt på Common Voice enno?
-request-language-text-learn = Les korleis du kan be om det her!
 request-language-button = Send ein førespurnad om eit nytt språk
 
 ## ProjectStatus
@@ -417,7 +416,6 @@ faq-do-want-native-a = Ja! Vi vil særskilt ha stemma di! Eit delmål med Common
 faq-why-different-speakers-q = Kvifor treng de så mange ulike talarar pr. språk?
 faq-why-different-speakers-a = Dei fleste stemmedatabasar vert trena med ei overvekt av visse demografiar, noko som inneber vekting mot <articleLink> menn og middelklasse</articleLink>.  Aksentar og dialektar som tenderer til å vere underrepresentert i datasettet som vert brukt til trening er typisk assosiert med grupper av menneske som allereie er underrepresenterte ellers i samfunnet. Mange talegjenkjenningsmotorar slit også med å forstå kvinnelege stemmer. Derfor treng vi stor variasjon i datasettet!
 faq-why-my-lang-q = Kvifor er ikkje språket mitt inkludert enno?
-faq-why-my-lang-new-a = Mozilla vel eller føretrekkjer ingen språk over andre. I staden er Common Voice eit reint felleskapsdrive initiativ. Men det krev <multilangLink>mange steg for å leggje til eit nytt språk</multilangLink> og å begynne med å samle inn lydklipp. Først må Common Voice nettstaden omsettast, slik at medlemmar kan bidra på sitt eige språk. Deretter treng vi ei stor samling med rettigheitsfrie setningar som folk kan lese høgt. Når begge desse krava er oppfylte vert språket «lansert» på Common Voice, slik at folk kan begynne å spele inn lydklipp med stemma si og validere andre sine bidrag. Om du vil hjelpe til med å lansere eit nytt språk, gå til <sentenceCollectorLink>verktøy for setningsinnsamling</sentenceCollectorLink> for å kome i gang.
 faq-what-quality-q = Kva slags lydkvalitet er påkravd for at eit lydklipp kan brukast i datasettet?
 faq-what-quality-a = Vi vil at Common Voice-datasettet skal reflektere lydkvaliteten som ein tale-til-tekst motor opplever i verkelegheita. Derfor treng vi variasjon. I tillegg til eit variert utval av talarar, vil eit variert utval lydkvalitetar lære tale-til-tekst-motoren å handtere varierande situasjonar i den verkelege verda, som til dømes stemmer i bakgrunnen eller støy frå bilar. Så lenge lydklippet ditt er forståeleg. så burde det vere godt nok for datasettet.
 faq-why-10k-hours-q = Kvifor er 10 000 validerte timar pr. språk målet for innspelt lyd?
@@ -466,12 +464,6 @@ about-dataset-new = Common Voice-datasett
 about-dataset-new-text = Common Voice-datasettet inneheld hundretusenvis av lydklipp som hjelper utviklarar med å lage talegjenkjenningsverktøy.
 about-clip-graveyard = Klippkyrkjegard
 about-clip-graveyard-text = Lydklippfyllinga inneheld lydklipp som ikkje vart tatt med i Common Voice-datasettet. Akkurat som datasettet, er også lydklippfyllinga tilgjengeleg for nedlasting.
-about-partners = Partnarar
-about-become-a-partner = Bli ein partnar
-about-partnership =
-    Common Voice er eit samarbeidsprosjekt, og vi er avhengige av vårt samfunn, av partnarar og bidragsytarar for å byggje det største datasettet med open kjeldekode av stemmer nokon gong.  
-    
-    Vi vil gjerne få takke følgjande personar og organisasjonar for hjelpa deira med prosjektet:
 about-get-involved = Ver med
 about-get-involved-text-2 =
     Vil du hjelpe til med å gjere Common Voice endå  betre?
@@ -511,12 +503,6 @@ about-playbook-how-grow-language-content-8 = <strong>Ver kreativ!</strong> Ditt 
 
 ## How are decisions made
 
-mycroft-title = Mycroft Ai
-mycroft-subtitle = Kunstig intelligens
-mycroft-description =
-    Mycroft er verdas første assistent med open kjeldekode.
-    Mycroft køyrer på kva som helst - ein stasjonær PC, i ein bil, eller på ein Raspberry Pi.
-mycroft-secondary-description = Dette er open kjeldekode som fritt kan endrast, utvidast og forbetrast. Mycroft kan brukast i kva som helst frå vitskaplege prosjekt til bedriftsapplikasjonar.
 
 ## Glossary
 
@@ -676,7 +662,6 @@ language-search-input =
 language-speakers = Talt av
 localized = Omsett
 sentences = Setningar
-total-hours = Validerte timar
 
 ## Contribution
 
@@ -990,6 +975,7 @@ contribution-misreadings-example-2-explanation = [Burde vore «dinosaurane»]
 contribution-misreadings-example-3-title = Dei store dinosaurane i Tria-.
 contribution-misreadings-example-3-explanation = [Innspelinga kutta av før slutten av siste ordet]
 contribution-misreadings-example-4-title = Dei store dinosaurane i Trias. Ja.
+contribution-misreadings-example-4-explanation = [Det er spelt inn meir enn den nødvendige teksten]
 contribution-misreadings-example-8-title = Humla flaug forbi.
 contribution-misreadings-example-8-explanation = [Heilt feil innhald]
 contribution-varying-pronunciations-title = Ulike uttalar

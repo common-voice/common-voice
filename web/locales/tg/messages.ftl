@@ -92,11 +92,13 @@ kab = Кабилӣ
 kbd = Кабардинӣ
 ki = Кикуйю
 kk = Қазоқӣ
+km = Хмерӣ
 kmr = Курдии Курманҷӣ
 ko = Кореягӣ
 kpv = Коми-зирянӣ
 kw = Корнишӣ
 ky = Қирғизӣ
+lb = Люксембургӣ
 lg = Луганда
 lij = Лигурӣ
 lt = Литвонӣ
@@ -122,6 +124,7 @@ ne-NP = Непалӣ
 nia = Ниасӣ
 nl = Ҳоландӣ
 nn-NO = Нюнорски норвегӣ
+nso = Сотои Шимолӣ
 nyn = Рунянколевӣ
 oc = Окситанӣ
 or = Одия
@@ -148,6 +151,8 @@ sl = Словенӣ
 so = Сомалӣ
 sq = Албанӣ
 sr = Сербӣ
+ss = Сисватӣ
+st = Сотои Ҷанубӣ
 sv-SE = Шведӣ
 sw = Суахилӣ
 syr = Суриёнӣ
@@ -172,12 +177,14 @@ uz = Ӯзбекӣ
 vec = Венетсиягӣ
 vi = Ветнамӣ
 vot = Вотӣ
+xh = Коса
 yi = Идиш
 yo = Ёруба
 yue = Кантонӣ
 zh-CN = Хитоӣ (Чин)
 zh-HK = Чинӣ (Ҳонконг)
 zh-TW = Хитоӣ (Тайван)
+zu = Зулу
 
 # [/]
 
@@ -389,6 +396,7 @@ about-no-votes = ≥ 2 овози «Не»
 about-dataset-new = Маҷмӯаи маълумоти «Common Voice»
 about-dataset-new-text = Маҷмӯаи маълумоти «Common Voice» садҳо ҳазор намунаҳои овозиро дар бар мегирад, ки ба таҳиягарон дар сохтани асбобҳои садошиносӣ кумак мекунанд.
 about-get-involved = Ҳамроҳ шудан
+about-stay-in-touch-button = Бақайдгирӣ
 about-nav-why-common-voice = Чаро?
 about-nav-how-it-works = Чӣ тавр?
 about-nav-partners = Шарикон
@@ -400,9 +408,12 @@ about-nav-get-involved = Ҳамроҳ шудан
 
 ## How do I add a language
 
+about-playbook-how-add-language-translating-heading = Тарҷумаи сомона
+about-playbook-how-add-language-collecting-sentences-heading = Ҷамъкунии ҷумлаҳо
 
 ## How does localization work
 
+about-playbook-how-localize = Чӣ тавр маҳаллисозии сомона кор мекунад?
 
 ## How to add sentences
 
@@ -635,6 +646,7 @@ demo-listen-subtitle = Ба саҳмгузорӣ омода ҳастед?
 
 ## HEADER/FOOTER
 
+sc-header-home = Саҳифаи асосӣ
 sc-header-profile = Профил
 sc-footer-privacy = Махфият
 sc-footer-terms = Шартҳо

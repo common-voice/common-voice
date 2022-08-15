@@ -272,28 +272,18 @@ all-locales = Tsotlhe
 today = Gompieno
 x-weeks-short =
     { $count ->
-        [one]
-            { $count ->
-                [one] Beke
-               *[other] { $count }wk
-            }
-       *[other] { "" }
+        [one] Beke
+       *[other] { $count }wk
     }
 x-months-short =
     { $count ->
-        [one]
-            "{ $count ->
-               *[other] { $count }mo
-            }"
-       *[other] { "" }
+        [one] { "" }
+       *[other] { $count }mo
     }
 x-years-short =
     { $count ->
-        [one]
-            "{ $count ->
-               *[other] { $count }y
-            }"
-       *[other] { "" }
+        [one] { "" }
+       *[other] { $count }y
     }
 help-make-dataset = Re thuse go aga rekoto ya tshedimosetso ya phatlalatsa, ya maemo a a kwa godimo
 sign-up-account = Ikwadise go nna le akhaonto
@@ -417,7 +407,7 @@ profile-explanation = Ela tlhoko kgatelopele ya gago o dirisa porofaele mme o th
 thanks-for-account = Re lebogela go tlhomamisa akhaonto ya gago, jaanong a re dire porofaele ya gago.
 why-demographic = Goreng seno se le botlhokwa?
 why-demographic-explanation-2 = Tshedimosetso ya botlhokaina jaaka dingwaga, bong le segalo di tla thusa go tokafatsa go nepa ga didirisiwa tsa go lemoga mantswe. Leinatiriso le imeile ya gago di ka se amanngwe le tshedimosetso ya gago e e rometsweng, mme o ka tlhopha gore a o batla go senola kgotsa go fitlha leinatiriso la gago.
-accept-privacy = Ga ke na bothata le gore lo dirise tshedimosetso eno jaaka lo tlhalosa mo <privacyLink>Pholising ya Polokodiphiri</privacyLink> wa Mozilla
+accept-privacy = Ga ke na bothata le gore lo dirise tshedimosetso eno jaaka lo tlhalosa mo <privacyLink>Pholising ya Polokodiphiri</privacyLink> ya Mozilla
 accept-privacy-title = Pholisi ya Polokodiphiri
 login-identity = Boitshupo Jwa go Tsena
 login-signup = Tsena / Ikwadise
@@ -874,12 +864,8 @@ skip = Tlola
 shortcuts = Ditlhabanyetso
 clips-with-count-pluralized =
     { $count ->
-        [one]
-            { $count ->
-                [one] <bold>{ $count }</bold> Kgatiso
-               *[other] <bold>{ $count }</bold> Dikgatiso
-            }
-       *[other] { "" }
+        [one] <bold>{ $count }</bold> Kgatiso
+       *[other] <bold>{ $count }</bold> Dikgatiso
     }
 goal-help-recording = O thusitse Common Voice gore e fitlhelele <goalPercentage></goalPercentage> ya maikaelelo a rona a letsatsi a go gatisa { $goalValue }!
 goal-help-validation = O thusitse Common Voice gore e fitlhelele <goalPercentage></goalPercentage> ya maikaelelo a rona a letsatsi a go tlhomamisa { $goalValue }!
@@ -960,30 +946,18 @@ report-success = Pego e kgonne go fetisiwa ka katlego
 streaks = Meraladi
 days =
     { $count ->
-        [one]
-            { $count ->
-                [one] "Letsatsi"
-               *[other] "Malatsi"
-            }
-       *[other] { "" }
+        [one] Letsatsi
+       *[other] Malatsi
     }
 recordings =
     { $count ->
-        [one]
-            { $count ->
-                [one] "Kgatiso"
-               *[other] "Dikgatiso"
-            }
-       *[other] { "" }
+        [one] Kgatiso
+       *[other] Dikgatiso
     }
 validations =
     { $count ->
-        [one]
-            { $count ->
-                [one] "Tlhomamiso"
-               *[other] "Ditlhomamiso"
-            }
-       *[other] { "" }
+        [one] Tlhomamiso
+       *[other] Ditlhomamiso
     }
 
 ## Dashboard

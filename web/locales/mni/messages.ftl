@@ -56,6 +56,7 @@ da = ꯗꯦꯅꯤꯁ
 de = ꯖꯔꯃꯟ
 dsb = ꯁꯣꯔꯕꯤꯌꯥꯟ, ꯅꯦꯝꯊꯕ
 dv = ꯗꯤꯚꯦꯍꯤ
+dyu = ꯗꯤꯑꯧꯂꯥ
 el = ꯒ꯭ꯔꯤꯛ
 en = ꯏꯪꯂꯤꯁ
 eo = ꯏꯁꯄꯦꯔꯥꯟꯇꯣ
@@ -290,7 +291,6 @@ shortcut-rerecord-toggle-label = ꯑꯃꯨꯛ ꯍꯟꯅ ꯔꯦꯀ꯭ꯔꯗ ꯇ�
 shortcut-discard-ongoing-recording = ꯑꯃꯨꯛꯍꯟꯕ
 shortcut-submit = ꯍꯟꯂꯨ
 request-language-text = ꯑꯆꯝꯕ ꯈꯣꯟꯖꯦꯜꯒꯤꯗ ꯅꯍꯥꯛꯀꯤ ꯂꯣꯟ ꯎꯗ꯭ꯔꯤꯕ ꯍꯧꯖꯤꯛꯁꯨ ?
-request-language-text-learn = ꯀꯔꯝꯅ ꯍꯪꯒꯠꯀꯅꯤ ꯇꯝꯁꯤꯟꯂꯨ ꯃꯁꯤꯗ !
 request-language-button = ꯂꯣꯟ ꯱ ꯍꯪꯒꯠꯆꯕ
 
 ## ProjectStatus
@@ -383,8 +383,6 @@ about-listen = ꯃꯨꯟꯅ ꯇꯥꯎ
 about-yes-votes = ≥ ꯲ ꯚꯣꯠ ꯄꯤ
 about-no-votes = ≥ ꯲ ꯚꯣꯠ ꯄꯤꯗꯦ
 about-dataset-new = ꯑꯆꯝꯕ ꯈꯣꯟꯖꯦꯜꯒꯤ ꯗꯥꯇꯥꯁꯦꯝꯐꯝ
-about-partners = ꯈꯣꯡꯂꯣꯏ
-about-become-a-partner = ꯈꯣꯡꯂꯣꯢ ꯱ ꯑꯣꯢꯕ
 about-get-involved = ꯌꯥꯎꯁꯤꯟꯕ
 about-nav-why-common-voice = ꯀꯔꯤꯒꯤ?
 about-nav-how-it-works = ꯀꯔꯝꯅ?
@@ -423,7 +421,6 @@ about-playbook-how-add-sentences = ꯑꯩꯅ ꯀꯔꯝꯅ ꯋꯥꯍꯩꯄꯔꯦ�
 
 ## How are decisions made
 
-mycroft-subtitle = ꯈꯨꯠꯁꯦꯝꯒꯤ ꯍꯩꯁꯤꯡꯕ
 
 ## Glossary
 

@@ -3614,6 +3614,7 @@ Aquest és el cas del fermió.
 Aquest és el motiu de que cobrís la taca vermellosa.
 Aquest és el nostre programa, essencialment transitori.
 Aquest és el tarannà de l’heroi que defensa les Termòpiles.
+Aquest és es Sol i aquesta sa lluna
 Aquest és un llop amb pell d'ovella.
 Aquest ús no arrela fins a la influència de les cultures gregues i fenícia.
 Aquesta amanida és boníssima.
@@ -6224,6 +6225,7 @@ El mestre estava apurat amb l'empenta que portava
 El mestre pintor va enviar una bastida
 El mestre s'hi va dirigir preguntant-li secament
 El mestre, no era un mestre com casi tots.
+El metge diu que hauria de fer més esport.
 El metge havia desaparegut
 El metge havia dit que no ho sabia ni ho podia assegurar
 El metge i els infermers se n'havien anat
@@ -6288,6 +6290,7 @@ El necessitàvem una cosa de no dir
 El negacionisme lingüístic i cultural de la valencianitat d'Alacant és un tret electoral.
 El negacionisme vol fer forat a Alacant. A València ciutat no s'hi atrevirien.
 El negoci ha fet fallida. S'han acabat els anissos!
+El nen s'ho ha passat molt bé amb els seus cosins.
 El nen va ensopegar i va caure al sorral de bocaterrosa.
 El no demanar dot equival a bellesa, joventut, noblesa, honor, experiència i honradesa.
 El no dir res, i la levita, era un home que el respectaven
@@ -6490,6 +6493,7 @@ El senyor Esteve era un condemnat a tenir fortuna perpetua.
 El senyor Esteve parlà com parlava en aquests casos
 El senyor Joan rebufa com un bou.
 El senyor Manel és noble, de bon natural, reposat i molt ric.
+El senyor Ramon es va comprar una motoserra nova.
 El senyor del caragol, el faran amb tomaqueta, amb pebrera o amb fesol.
 El sergent ens donà cinc minuts de «instrucció»
 El servidor no respon.
@@ -7177,6 +7181,7 @@ Els qui temen la vida ja són mig morts.
 Els qui, a l'Est, s'aixequen contra el Danovisme, no podran fer-ho.
 Els rams de llorer acotaven les testes de fullaraca
 Els rasclets i les forques eren de fusta.
+Els ratolinets són molt bufons.
 Els rebrà en tres dies.
 Els reclutes van aprendre de marxar al pas
 Els records que conservo de tot allò són una mica borrosos
@@ -9628,6 +9633,7 @@ Homes amb camisa blava i vella i pantalons de vellut negre
 Homes d'aire sospitós, que rondaven eternament per aquells barris.
 Homes dolents que no pagaven, amb homes sospitosos que devien
 Honradesa literària.
+Hora de dormir bona nit i tapa't
 Horaci li hauria dit: «Espera-t, que m'ho vui apuntar a la llibreta!»
 Horta de Sant Joan es troba a la Terra Alta
 Hostalric es troba a la Selva
@@ -9819,6 +9825,7 @@ I mentre em furgava el pensament
 I mentre l'escultor obeïa els consells savis del porter
 I mocadors anarquistes al coll
 I molt més les nits d'hivern en què ens sorprèn el jorn.
+I molts d'anys as qui fan festa
 I ningú em fa fora, xurro malparit!
 I no cal dir que va triomfar la voluntat de la diveta.
 I no em queixaria, com faig ara, que les coses van malament.
@@ -10135,6 +10142,7 @@ Ja estava cuita de passar-se d'esma l'escarpidor pels cabells.
 Ja estava cuita de pentinar-se a les palpentes.
 Ja estava decidit.
 Ja estava decidit. La meva sort ho volia.
+Ja estava fart de les seves mentides
 Ja estic una mica fart d'aquesta conya.
 Ja està amb això?
 Ja està feta la reserva.
@@ -12317,6 +12325,7 @@ La meva mare ha tornat a comprar iogurts.
 La meva millor amiga ha perdut el marit fa poc.
 La meva nova adreça és carrer de la Pau trenta-dos.
 La meva primera impressió no havia estat errònia
+La meva psicòloga m'ha aconsellat que faci esport.
 La meva sogra està com un llum.
 La meva sort ho volia.
 La mica d'ànsia que causen a l'esperit totes les coses mai vistes
@@ -13286,6 +13295,7 @@ M'agrada escriure frases.
 M'agrada fantasiejar.
 M'agrada fer mots encreuats.
 M'agrada la pintura, però més de dos pots ja m'embafen.
+M'agrada menjar coca amb tomàtiga
 M'agrada mirar els estels i observar els ocells.
 M'agrada mirar-te.
 M'agrada molt Antònia Font.
@@ -13321,6 +13331,7 @@ M'agradaria reservar una entrada per a l'òpera de València.
 M'agradaria saber que he de fer per poder participar.
 M'agradaria saber quina és la sucursal més propera a Reus.
 M'agradaria saber quines ajudes hi ha pel transport.
+M'agradaria sortir a córrer.
 M'agradaria tenir una finca, amb verdura, fruiterar, aigua i força viram.
 M'agradava la viram, els fruiters i tot lo altre
 M'agraden els Ossos Amorosos.
@@ -14116,6 +14127,7 @@ No el convenceràs pas, que és del morro fort!
 No els gosaven obrir per por de que la vida hi entrés
 No els vaig explicar res del que m’havia passat.
 No els és permès alleujar-se de manera natural, perquè han de retirar-se.
+No em canso fins que porto vuit o deu quilòmetres.
 No em crec digne d'esmerçar el temps
 No em faces el poc favor de judicar-me segons els altres.
 No em forfolles la panera, que en trauràs tot de molles...!
@@ -16144,6 +16156,7 @@ Quan aquestes dades siguen falses, seran segurament les falses solucions a un ve
 Quan arregle el vestidor m'emporte el ge pe essa, així, sé com tornar.
 Quan arribaran?
 Quan arribarà la comanda que he fet fa mitja hora?
+Quan arribis aparca davant ca nostra
 Quan arribà al barranc de l’Aigua, va agarrar el gosset de la cua.
 Quan complia un any, va veure obert el calaix dels quartos
 Quan contis contes compta quants contes contes.
@@ -18021,6 +18034,7 @@ Si us plau, engega l'ordinador.
 Si us plau, engega la calefacció.
 Si us plau, engega la ràdio.
 Si us plau, engega la televisió.
+Si us plau, no embrutis gaire el terra.
 Si us plau, quin és el teu nom i el teu de-ena-i?
 Si us plau, tanca el forn.
 Si us plau, tanca el llum de l'escala.
@@ -18885,6 +18899,7 @@ Tinc de fer-lo patir, de fregir-li la sang.
 Tinc de ganes de que me les comenci a explicar.
 Tinc el conhort de ser presoner pel meu senyor, servint-lo tant com puc.
 Tinc fets els deures a mitges. Els acabaré després de sopar.
+Tinc ganes d'anar a córrer.
 Tinc ganes d'explicar-t'ho tot.
 Tinc ganes d'explicar-te coses.
 Tinc ganes de parlar amb l'Anna.
@@ -19150,6 +19165,7 @@ Tota la milícia en pes protestava contra la inacció
 Tota la nit ha vetllat; quan veu l’alba esclarida alça l’espasa reial.
 Tota la nit havíem somniat amb aquelles branques de llorer florit.
 Tota la seva joventut, tot s'ho havia gastat en la botiga
+Tota la solada ha quedat al got.
 Tota la tarda havia plogut i continuava plovent.
 Tota la tarde i tot el vespre, va tenir mareig
 Tota la vida havia jurat que no m'ajupiria
@@ -21125,6 +21141,7 @@ zoo: "ni furtant-nos els somnis, ni cremant la trinxera... callaran la fera"
 És un telèfon vint-i-quatre hores, l'atendran en qualsevol moment.
 És una acció inacceptable, tenint un bonic pessebre, tirar el pinso a l'estable.
 És una alegria normal perquè, per descomptat, consideres que és la seua obligació.
+És una al•lota molt guapa
 És una amant afalagadora.
 És una assegurança a tercers.
 És una bella cosa fer tremolar tothom i estar-ne segur!

@@ -402,6 +402,7 @@ off = تاقاق
 on = ئوچۇق
 help-accent = تەلەپپۇزدا ئازراق ياردەم كېرەكمۇ؟
 help-accent-explanation = تەلەپپۇزىڭىز سىزنىڭ سۆزلەرنى قايسى يوسۇندا تەلەپپۇز قىلىش ئۇسۇلىڭىز. ئۇ سىز ياشىغان جاي ، سىز سۆزلەيدىغان باشقا تېللار قاتارلىق باشقا نۇرغۇن ئامىللارنىڭ تەسىىرگە ئۇچۇرغان بولىدۇ. بۇنىڭغا مۇناسىۋەتلىك دەپ قارىغان ئۇچۇرلارنى بۇ يەردە ئورتاقلىشالايسىز.
+help-variants = ۋارىيانتلارغا ئازراق ياردەم كېرەكمۇ؟
 
 ## Profile - Email
 
@@ -543,6 +544,9 @@ about-playbook-what-is-language = Common Voice دا قايسى تىل بار؟
 ## How do I add a language
 
 about-playbook-how-add-language = تىلنى قانداق قوشىمەن؟
+about-playbook-how-add-language-translating-heading = بېكەتنى تەرجىمە قىلىش
+about-playbook-how-add-language-collecting-sentences-heading = جۈملە توپلاش
+about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment> جۈملىلەرنى توپلاش </ entenceCollectorFragment> دىكى تېخىمۇ كۆپ مەزمۇنلارنى كۆرۈڭ.
 
 ## How does localization work
 
@@ -584,6 +588,8 @@ about-playbook-how-access-dataset = سانلىق مەلۇمات توپلىمىن
 about-playbook-how-project-governance = تۈر قارارلىرى قانداق چىقىرىلىدۇ؟
 about-playbook-how-project-governance-content-3 = مەخپىيەتلىك، بىخەتەرلىك ۋە ئاشكارىلىق.
 about-playbook-how-project-governance-content-4 = مەھەللىدە قارار چىقىرىشقا قاتنىشىش.
+about-playbook-how-project-governance-content-5 = قىممەت ۋە تونۇش.
+about-playbook-how-project-governance-content-6 = ئۆز-ئارا جاۋابكارلىق.
 
 ## Glossary
 
@@ -977,6 +983,7 @@ download-recordings-title = ئۈن خاتىرىسى
 download-size = چوڭلۇقى
 download-selected = تاللانغان
 download-start = ئارخىپ ئۇچۇرىنى چۈشۈرۈش
+download-request = خاتىرىلەشنى سوراش
 download-request-button = چۈشۈر
 download-request-title = { $created }
 download-request-assembling-description = ماتىرياللىرىڭىز رەتلىنىۋاتىدۇ، سەل تۇرۇپ قايتا سىناڭ.

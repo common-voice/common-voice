@@ -14,6 +14,10 @@ email-opt-in-info-sub-with-challenge = Emaîlên wekî bibîrxistinên hedefê, 
 email-opt-in-privacy-v2 = Bi vebijarka wergirtina e-maîlan tu diyar dikî ku tu razî yî Mozilla van agahiyan wekî ku di <privacyLink> Polîtîkaya Nepeniyê </privacyLink> ya Mozillayê de hatî vegotin bi kar bîne.
 indicates-required = * Qada pêwîst nîşan dide
 not-available-abbreviation = Tune
+banner-error-slow-1 = Bibore, Common Voice hêdî dixebite. Spas ji bo eleqeya te.
+banner-error-slow-2 = Em gelek trafîkê distînin û niha em li ser pirsgirêkan lêkolînan dikin.
+banner-error-slow-link = Rûpela Rewşê
+error-something-went-wrong = Bibore, hin tişt çewt çûn.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -52,6 +56,7 @@ da = Danîmarkî
 de = Almanî
 dsb = Sorbiya jêrîn
 dv = Divehî
+dyu = Dioula
 el = Yûnanî
 en = Înglîzî
 eo = Esperantoyî
@@ -98,6 +103,7 @@ ko = Koreyî
 kpv = Komî Ziryanî
 kw = Kornî
 ky = Kirgizî
+lb = Luksemburgî
 lg = Lugandayî
 lij = Liguriyanî
 lt = Lîtwanî
@@ -119,12 +125,16 @@ my = Burmayî
 myv = Erzayî
 nan-tw = Taywanî (Minnan)
 nb-NO = Norwecî (bokmål)
+nd = IsiNdebele (Bakur)
 ne-NP = Nepalî
 nia = Nias
 nl = Holendî
 nn-NO = Norwecî (nynorsk)
+nr = IsiNdebele (Başûr)
+nso = Sothoyî ya Bakurî
 nyn = Nyankole
 oc = Oksîtanî
+om = Oromî
 or = Odiayî
 pa-IN = Puncabî
 pap-AW = Papiamento (Aruba)
@@ -150,6 +160,8 @@ sl = Slovenî
 so = Somalî
 sq = Albanî
 sr = Sirbî
+ss = Siswatî
+st = Sothoyî ya Başûrî
 sv-SE = Swêdî
 sw = Swahîlî
 syr = Suryanî
@@ -161,8 +173,10 @@ ti = Tîgrînîya
 tig = Tîgrî
 tk = Tirkmenî
 tl = Tagalogî
+tn = Setswanayî
 tok = Tokî Pona
 tr = Tirkî
+ts = Xitsongayî
 tt = Teterî
 tw = Twi
 ty = Tahitian
@@ -172,15 +186,18 @@ ug = Uyghurî
 uk = Ukraynî
 ur = Urdûyî
 uz = Ozbekî
+ve = Tshivendayî
 vec = Venedîkî
 vi = Viyetnamî
 vot = Votîkî
+xh = Xhosa
 yi = Yîdîş
 yo = Yoruba
 yue = Kantonî
 zh-CN = Çînî (Çîn)
 zh-HK = Çînî (Hong Kong)
 zh-TW = Çînî (Taywan)
+zu = Zulu
 
 # [/]
 
@@ -326,7 +343,6 @@ shortcut-discard-ongoing-recording-label = Tomara tê kirin jê bibe
 shortcut-submit = Vegere
 shortcut-submit-label = Tomaran bişîne
 request-language-text = Tu zimanê xwe li ser Common Voicê nabînî?
-request-language-text-learn = Bizane bê tu çawa dikarî li vir daxwaz bikî!
 request-language-button = Zimanekî bixwaze
 
 ## ProjectStatus
@@ -353,6 +369,9 @@ profile-form-additional-language =
     .label = Zimanê din
 profile-form-language =
     .label = Ziman
+profile-form-variant =
+    .label = Tu kîjan varyanta { $language } diaxivî?
+profile-form-variant-default-value = Varyant nehat bijartin
 profile-form-accent =
     .label = Devok
 profile-form-custom-accent-help-text =
@@ -368,7 +387,7 @@ hidden = Veşartî
 visible = Xuya
 native-language =
     .label = Zimanê zikmakî
-profile-form-add-accent = Aksana "{ $inputValue }" lê zêde bike
+profile-form-add-accent = Aksana "{ $inputValue }" tevlî bike
 profile-form-submit-save = Tomar bike
 profile-form-submit-saved = Hat tomarkirin
 male = Mêr
@@ -406,6 +425,7 @@ off = Girtî
 on = Vekirî
 help-accent = Ji bo aksanê ji te re alîkarî divê?
 help-accent-explanation = Devoka te awayê te yê bilêvkirina peyvan e. Ciyê tu lê dijî, zimanên din ku tu pê diaxivî û gelek faktorên din bandorê lê dikin, Tu dikarî wan zanyariyan li virê parve bikî ku li gorî fikra te têkildar in.
+help-variants = Ji bo varyantan pêdiviya te bi hinek alîkariyê heye?
 
 ## Profile - Email
 
@@ -416,6 +436,7 @@ gravatar_not_found = Ti gravatarên bi emaîla te ve girêdayî nehate dîtin
 file_too_large = Dosyeya hatiye bijartin pir mezin e
 avatar-uploaded = Avatar hat lêbarkirin
 max-file-size = herî zêde { $kb }kb
+remove-avatar = Avatarê Rake
 
 ## Profile - Email
 
@@ -452,7 +473,6 @@ faq-do-want-native-a = Erê, em bi taybet dengê te dixwazin! Armanca Common Voi
 faq-why-different-speakers-q = Çima ji bo her zimanî gelek axiverên cuda ji we re pêwîst in?
 faq-why-different-speakers-a = Piraniya danegehên axaftinê bi wan zanyariyên demografîk têne perwerdekirin ku tê de<articleLink>çîna zilaman û ya navîn</articleLink> zêdetir tê temsîlkirin. Di wan komên daneyan de ku ji bo perwerdehiyê tên bikaranîn devok û zaravayên kêm tên temsîlkirin bi piranî têkildarî gel û civakên marjînal in. Gelek makîne dengê jinan jî bi zehmetî fêm dikin. Loma em di danegeha xwe ya dengan de pirrengiyê dixwazin.
 faq-why-my-lang-q = Çima zimanê min hîn nehatiye tevlîkirin?
-faq-why-my-lang-new-a = Mozilla ti zimanî di ser yên din re nabîne. Common Voice bi temamî ji aliyê civatan ve tê meşandin, lê <multilangLink> çend gavên ji bo lêzêdekirina zimanên nû </multilangLink> û destpêkirina berhevkirina bexişandina dengan hene. Pêşî, divê malpera Common Voiceê bê wergerandin ku beşdar dikaribin bi zimanê xwe xwe bigihînin azmûnên hevkaran. Paşê, pêdiviya me berhevokeke mezin ya hevokên bêtelîf heye ku mirov wan bi deng bixwînin. Gava ev her du pêdivî hatin bicîanîn, Common Voice wî zimanî li zimanan zêde dike ku mirov dengê xwe qeyd bikin û rastiya dengên qeydkirî kontrol bikin. Ango heke hûn dixwazin alîkariyê bikin ku zimanek lê bê zêdekirin hûn dikarin ji bo destpêkirinê li <sentenceCollectorLink>amûra berhevkirina hevokan</sentenceCollectorLink> binêrin.
 faq-what-quality-q = Ji bo klîbeke dengî di komdaneyê de were bikaranîn divê asta kalîîteya dengî çawa be?
 faq-why-10k-hours-q = Çima ji bo her zimanekî hedefeke bi qasî 10,000 saet klîbên dengî yên piştrastkirî heye?
 faq-why-10k-hours-a = Ev hejmara teqrîbî ya saetên pêwîst yê ji bo perwerdekirina sîstemeke ji-xeberdanê-kirin-nivîsê (speech-to-text) ye.
@@ -473,10 +493,25 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Çima Common Voice?
+how-does-it-work-title-v2 = Common Voice çawa dixebite?
 how-does-it-work-text = Em komdaneyeke dengan ya çavkanî vekirî berhev dikin. Dengê xwe bibexşîne, klîbên dengî yên kesên din kontrol bike, komdaneyê ji bo her kesî çêtir bike.
 
 ## How does it work section
 
+about-language-req-subtitle = Yek ji bo tevlîkirina zimanekî dixwazekê vedike.
+about-localization-title = Wergerandina Malperê
+about-localization-subtitle = Metnên malperê li wî zimanî tê wergerandin.
+about-sentence-collection-title = Berhevkirina Hevokan
+about-sentence-collection-subtitle = Ji bo mirov bi awayê dengî bixwînin hevok tên komkirin.
+about-new-lang-title = Destpêka Zimanê Nû
+about-new-lang-subtitle = Em malpera Common Voiceê bi vî zimanî didin destpêkirin.
+about-voice-contrib-title = Beşdariya Dengî
+about-voice-contrib-subtitle = Mirov tên û bi dengê xwe beşdariyê dikin.
+about-voice-validation-title = Piştrastkirina Dengan
+about-voice-validation-subtitle = Mirovên din jî van dengan piştrast dikin.
+about-dataset-release-title = Weşana Komdaneyê
+about-dataset-release-subtitle = Em 3 mehan carekê komdaneyê diweşînin.
+about-subscribe-text = Tu dixwazî bi Common Voiceê r edi têkilîyê de bimînî?
 about-speak = Bipeyive
 about-speak-text = Beşdar hevokên ji danegeha hevokên hatine bexişandin dixwînin û dengê xwe tomar dikin.
 about-listen-queue = Rêza Guhdarîkirinê
@@ -493,37 +528,49 @@ about-dataset-new = Komdaneya Common Voiceê
 about-dataset-new-text = Komdaneya Common Voiceê bi sed hezaran nimûneyên dengan di xwe de dihewîne ev jî rê li ber pêşvebiran vedike ku amûrên dengnasînê ava bikin.
 about-clip-graveyard = Goristana Klîban
 about-clip-graveyard-text = Goristana klîban (dengan), ji klîbên dengan ên ku nikarîbûn tevlî komdaneya Common Voiceê bibin, pêk tê. Mîna komdaneyê, Goristana Klîban jî dikare were daxistin.
-about-partners = Hevkar
-about-become-a-partner = Bibe hevkarê me
 about-get-involved = Tevlî me bibin
 about-get-involved-text-2 =
     Tu dixwazî Common Voiceê çêtir bikî? Gelekî baş e!
     Bi riya e-peyamê yan jî forumên <discourseLink>Discourse</discourseLink>ê peyywendiyê
     çêke, pirsgirêkên têkildarî malperê bi riya  <githubLink>GitHub</githubLink>ê
     bişîne yan jî beşdarî civaka <matrixLink>Matrix</matrixLink>ê bibe.
+about-stay-in-touch = Ez çawa dikarim di têkiliyê de bimînim?
+about-stay-in-touch-button = Tomar bibe
 about-nav-why-common-voice = Çima ?
 about-nav-how-it-works = Çawa ?
 about-nav-partners = Hevkar
 about-nav-get-involved = Tev lê bibin
+about-nav-how-it-works-2 = Common Voice çawa dixebite?
+about-nav-playbook = Beşdarî çawa tê kirin
 
 ## Community Playbook Content
 ## What is a language
 
+about-playbook-what-is-language = Zimanek li ser Common Voiceê çi ye?
 
 ## How do I add a language
 
+about-playbook-how-add-language = Ez çawa dikarim zimanekî tevlî bikim?
+about-playbook-how-add-language-translating-heading = Wergerandina malperê
+about-playbook-how-add-language-collecting-sentences-heading = Komkirina hevokan
+about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>Li ser berhevkirina hevokan agahiyên zêdetir bibîne</sentenceCollectorFragment>.
 
 ## How does localization work
 
+about-playbook-how-localize = Wergerandina malperê çawa tê kirin?
+about-playbook-how-localize-content-1 = Wergera malpera Common Voiceê li ser <strong>Pontoon</strong>ê tê kirin.
 
 ## How to add sentences
 
+about-playbook-how-add-sentences = Ez çawa dikarim hevokan tevlî bikim?
 
 ## How to record quality
 
 
 ## How to grow language
 
+about-playbook-how-grow-language-content-2 = Çalakî
+about-playbook-how-grow-language-content-4 = Medyaya civakî
 
 ## How to validate
 
@@ -533,12 +580,6 @@ about-nav-get-involved = Tev lê bibin
 
 ## How are decisions made
 
-mycroft-title = Mycroft Ai
-mycroft-subtitle = Hişê Xwedestî (Artificial intelligence)
-mycroft-description =
-    Mycroft, yekem asîstana çavkanî vekirî ya cîhanê ye.
-    Mycroft dikare li her derê (li ser kombersê di otomobîlekê de, an jî li ser Raspberry Pi'yê) bixebite.
-mycroft-secondary-description = Ev, nermalava çavkanî vekirî ye ku dikare bi serbestî were sererastkirin, mezinkirin û baştirkirin.  Ji projeyek zanistî bigire heya sepaneke nermalava karsaziyê, Mycroft dikare di her sepanê de were bikaranîn.
 
 ## Glossary
 
@@ -591,6 +632,7 @@ review-delete-recordings = Dengên min jê bibe
 
 ## Datasets Page
 
+datasets-heading = Komdane
 datasets-headline = Em komdaneyeke dengan a çavkanî vekirî û pirzimanî ava dikin ji bo ku her kes karibe pê sepanên xwe yên xwedî-axaftin rahênan bike.
 language = Ziman
 # File size in gigabytes
@@ -659,6 +701,16 @@ request-language-success-content = Em ê di nêz de bi te re têkiliyê deynin t
 select-language = Zimanekî hilbijêre...
 other-language = Zimanê din
 
+## Request Language Pages
+
+request-language-heading = Li ser zimanekî nû pirsan bipirse
+request-language-form-email =
+    .label = Navnîşana emaîla te
+request-language-form-info =
+    .label = Di derbarê zimên de agahî
+request-language-form-info-explanation-list-1 = Navên zimanê te
+request-language-form-info-explanation-list-2 = heke tê zanîn <isoCodeLink>Kodên ISOyê</isoCodeLink>
+
 ## Languages Overview
 
 language-section-in-progress = Kar li ser tê kirin
@@ -671,13 +723,13 @@ language-section-launched-description =
 languages-show-more = Zêdetir bibîne
 languages-show-less = Kêmtir bibîne
 language-meter-in-progress = Pêşveçûn
-language-total-progress = Tevahî
 language-search-input =
     .placeholder = Lê bigere
 language-speakers = Axiver
 localized = Wergerandî
 sentences = Hevok
-total-hours = Saetên piştrastkirî:
+language-validation-hours = Saet
+language-validation-progress = Pêşveçûna Piştrastkirinê
 
 ## Contribution
 
@@ -871,9 +923,24 @@ profile-form-delete = Profîlê jê bibe
 
 ## Profile Download
 
+download-q = Pêwîst e tu daneyên xwe daxînî?
+download-info = Tu dixwazî çi daxînî:
+download-profile-title = Profîl
+download-size = Mezinahî
+download-selected = Hilbijartî
+download-start = Daneyên profîlê daxîne
+download-request = Tomaran bixwaze
+download-request-button = Daxîne
+download-request-title = { $created }
+download-request-description = { $clipCount } tomarên dengî, mezinahiya arşîvê ya giştî { $size }. Dawiya maweyê: { $expires }.
+download-request-archive-single = Dosyayeke ZIPê. Naverok:
+download-request-archive-multiple = { $archiveCount } dosyayên ZIPê. Naverok:
+download-request-assembling-description = Dosyayên we tên komkirin. Ji kerema xwe paşê dîsa kontrol bikin.
 download-request-refresh-button = Nû bike
 download-request-modal-title = Girêdankên jêbarkirinê
 download-request-modal-description = Girêdanka jêbarkirina pelên te yên ZIP li virê ye.
+download-request-link-text = Zip { $offset } / { $total }
+download-request-metadata-link = Metna hevokê
 
 ## Landing
 
@@ -919,6 +986,14 @@ demo-dashboard-card-header = Destgehên şexsî derbarê pêşveçûna te û pê
 
 ## Validation criteria
 
+contribution-criteria-nav = Krîter
+contribution-criteria-link = Krîterên beşdarîkirinê fêm bike
+contribution-criteria-page-title = Krîterên Beşdarîkirinê
+contribution-for-example = mînak
+contribution-misreadings-title = Xwendinên çewt
+contribution-volume-title = Piledeng
+contribution-reader-effects-title = Efektên Xwînerê
+contribution-just-unsure-title = Tu jê ne bawerî?
 see-more = <chevron></chevron>Zêdetir bibîne
 see-less = <chevron></chevron>Hindiktir bibîne
 
@@ -929,11 +1004,11 @@ see-less = <chevron></chevron>Hindiktir bibîne
 
 ## HEADER/FOOTER
 
-sc-header-home = Serûpel
-sc-header-how-to = Çawa çêdibe
-sc-header-add = Lê zêde bike
+sc-header-home = Serrûpel
+sc-header-how-to = Çawa tê kirin
+sc-header-add = Tevlî bike
 sc-header-review = Nirxandin
-sc-header-rejected = Hevokên hatine redkirin
+sc-header-rejected = Hevokên red bûne
 sc-header-my = Hevokên min
 sc-header-statistics = Amar
 sc-header-profile = Profîl
@@ -950,45 +1025,159 @@ sc-logout-button = Derketin
 ## HOME
 
 sc-home-title = Bi xêr hatî Berhevkara Hevokan ya Common Voiceê
+sc-home-collect-title = Hevokan kom bike
+sc-home-collect-text = Bi nivîsîn û komkirina hevokên anonîm bi me re bibin alîkar.
+sc-home-review-title = Hevokan kontrol bike
+
+## GENERAL
+
 
 ## HOW-TO
 
+sc-howto-title = Çawa tê kirin
+sc-howto-addlang-title = Tevlîkirina zimanên ku kar li ser tê kirin
+sc-howto-addsen-title = Hevokên nû tevlî bike
+sc-howto-cite-title = Çawa jê tê girtin
+sc-howto-review-title = Hevokan kontrol bike
 
 ## MY SENTENCES
 
+sc-my-title = Hevokên min
+sc-my-loading = Hevokên te bar dibin…
+sc-my-no-sentences = Hevok nehatin dîtin!
+# Variables:
+#   $source (String) - Associated source the user filled out when uploading the sentence
+sc-my-source = Çavkanî: { $source }
+sc-my-delete = Hevokên hilbijartî jê bibe
+sc-my-deleting = Hevokên hilbijartî tên jêbirin…
+sc-my-err-failed-delete = Jêbirina hevokên hilbijartî bi ser neket… Dîsa biceribîne!
 
 ## REJECTED
 
+sc-rejected-title = Hevokên red bûne
+sc-rejected-loading = Hevokên red bûne tên barkirin…
+sc-rejected-none-found = Hevokên red bûne nehatin dîtin!
 
 ## STATS
 
+sc-stats-title = Amarên Projeyê
+sc-stats-updating = Tê nûvekirin…
+sc-stats-error = Me nedikarî amaran bînin. Ji kerema xwe paşê dîsa biceribînin.
+# Variables:
+#   $sentenceCount (Number) - Total number of sentences uploaded through Sentence Collector
+#   $languageCount (Number) - Total number of languages these sentences represent
+sc-stats-summary = Berhevkara Common Voiceê, di { $languageCount } zimanan de { $sentenceCount } hevok berhev kir!
 
 ## ADD
 
+sc-submit-err-select-lang = Ji kerema xwe zimanekî hilbijêre.
+sc-submit-err-add-sentences = Ji kerema xwe hevokan tevlî bike.
+sc-submit-err-add-source = Ji kerema xwe çavkaniyekê tevlî bike.
+sc-submit-err-confirm-pd = Ji kerema xwe piştrast bikin ku ev hevok anonîm in.
+sc-submit-title = Hevokan tevlî bike
+sc-submit-select-language =
+    .labelText = Zimên hilbijêre
+sc-submit-confirm = Ez piştrast dikim ku ev <wikipediaLink> hevokên anonîm ên </wikipediaLink>ê ne û destûra min a barkirinê heye.
+sc-submit-button =
+    .submitText = Bişîne
 
 ## ADD LANGUAGE
 
+sc-add-lang-could-not-add = Ziman nehat tevlîkirin
+sc-add-lang-sec-label = Zimanekî ku tu dixwazî beşdariyê lê bikî, tevlî bike
+sc-add-lang-sec-button = Zimên tevlî bike
 
 ## ADD SENTENCES CONFIRMATION
 
+sc-confirm-are-you-sure =
+    .message = Hevok nehat şandin, Tu bi rastî jî dixwazî jê derkevî?
+sc-confirm-sentences-title = Hevokên Nû Piştrast Bike
+# Variables:
+#   $countOfSentences (Number) - Number of sentences the user has filled in the submission form
+sc-confirm-sentences-found =
+    { $countOfSentences ->
+        [0] Ti hevok nehat dîtin.
+       *[other] { $countOfSentences } hatin dîtin.
+    }
+# Variables:
+#   $countOfInvalidated (Number) - Number of sentences the user rejected in the review form before submission
+sc-confirm-rejected-by-you = { $countOfInvalidated } hevok redkirin.
+sc-confirm-already-reviewed =
+    { $countOfReviewed ->
+        [0] Te ti hevok kontrol nekir.
+       *[other] Te { $countOfReviewed } hevok kontrol kirin. Her bijî!
+    }
+# Variables:
+#   $readyCount (Number) - Number of sentences ready to be uploaded
+sc-confirm-ready =
+    { $readyCount ->
+        [0] Ti hevok ji bo şandinê ne amade ne.
+       *[other] { $readyCount } ji bo şandinê amade ne!
+    }
+# Variables:
+#   $countOfUnreviewed (Number) - Number of sentences unreviewed before the upload
+sc-confirm-unreviewed = { $countOfUnreviewed } hevok nehatin kontrol kirin. Heke tu bixwazî berî ku hevokan bişînî tu dikarî hevokên xwe niha jî kontrol bikî.
+sc-confirm-button-text = Bipejirîne
+sc-confirm-uploading = Hevok tên barkirin. Ev, girêdayî hejmara hevokên hatine tevlîkirin e, dikare çend deqîqeyan bigire. Ji kerema xwe, vê malperê negirin.
 
 ## LANGUAGE INFO
 
+sc-lang-info-title-total = Giştî
+sc-lang-info-title-personal = Xebatên Te
 
 ## LOGIN
 
+sc-login-err-failed = Çewtiya têketinê
+sc-login-err-try-again = Ji kerema xwe dîsa biceribîne.
 
 ## PROFILE
 
+# Variables:
+#   $username (String) - eMail address of the logged in user
+sc-profile-title = Profîl: { $username }
+sc-personal-err-lang-not-found = Ziman nehat rakirin: ziman nehat dîtin
+sc-personal-err-remove = Ziman nehat rakirin
+sc-personal-your-languages = Zimanên te:
+sc-personal-remove-button = rake
+# Variables:
+#   $sentences (Number) - Number of sentences that were added by the currently logged in user for this language
+sc-personal-added-by-you = Te { $sentences } hevok tevlî kirin
+sc-personal-not-added = Te hîn ti ziman tevlî nekiriye.
 
 ## REVIEW CRITERIA
 
+sc-criteria-modal = ⓘ Krîterên Kontrolkirinê
+sc-criteria-title = Krîterên Kontrolkirinê
 
 ## REVIEW
 
+sc-review-title = Hevokan kontrol bike
+sc-review-loading = Hevok bar dibin…
+sc-review-select-language = Ji kerema xwe zimanekî ji bo kotrolkirina hevokan hilbijêre.
+sc-review-no-sentences = Ji bo kontrolkirinê hevok neman. <addLink>Hevokên zêdetir tevlî bike!</addLink>
+sc-review-form-usage = Ji bo piştrastkirina hevokê, bikişîne rastê. Ji bo redkirinê bikişîne çepê. Ji bo derbaskirinê bikişîne jorê. <strong>Ji bîr neke yên te kontrolkirine bişîne!</strong>
+# Variables:
+#   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
+sc-review-form-source = Çavkanî: { $sentenceSource }
+sc-review-form-button-reject = Red bike
+sc-review-form-button-skip = Derbas bike
+sc-review-form-button-approve = Bipejirîne
+# Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
+sc-review-form-button-approve-shortcut = E
+# Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
+sc-review-form-button-reject-shortcut = N
+# Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
+sc-review-form-button-skip-shortcut = D
+sc-review-form-button-submit =
+    .submitText = Kontrolkirinê Biqedîne
+sc-review-link = Kontrol bike
 
 ## SETTINGS
 
+sc-settings-title = Sazkarî
+sc-settings-ui-language = Zimanê Navrûyê
 
 # [/SentenceCollector]
 
+localization-select =
+    .label = Zimên hilbijêre
