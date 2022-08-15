@@ -545,6 +545,7 @@ about-playbook-what-is-language = Common Voice دا قايسى تىل بار؟
 
 about-playbook-how-add-language = تىلنى قانداق قوشىمەن؟
 about-playbook-how-add-language-translating-heading = بېكەتنى تەرجىمە قىلىش
+about-playbook-how-add-language-translating-content-1 = <translateVideoLink> پونتوننى قانداق ئىشلىتىش توغرىسىدىكى يېتەكچىنى كۆرۈڭ. </translateVideoLink>
 about-playbook-how-add-language-collecting-sentences-heading = جۈملە توپلاش
 about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment> جۈملىلەرنى توپلاش </ entenceCollectorFragment> دىكى تېخىمۇ كۆپ مەزمۇنلارنى كۆرۈڭ.
 
@@ -737,7 +738,9 @@ request-language-form-email =
 request-language-form-info =
     .label = تىل ھەققىدىكى ئۇچۇرلار
 request-language-form-info-explanation-list-1 = تىلىڭىزنىڭ نامى
+request-language-form-info-explanation-list-2 = ئەگەر bfr بولسا <isoCodeLink> ISO كودى </isoCodeLink>
 request-language-form-info-explanation-list-3 = مەزكۇر تىلنى چۈشىنىشىمىزگە ياردەم بېرەلەيدىغان تور بېكەتلەرگە ئۇلىنىش
+request-language-google-recaptcha-required = داۋاملاشتۇرماقچى بولسىڭىز reCAPTCHA تەلەپ قىلىنىدۇ
 request-language-google-recaptcha-error = ReCAPTCHA دا مەسىلە كۆرۈلدى. قايتا سىناڭ.
 
 ## Languages Overview
@@ -755,6 +758,7 @@ language-search-input =
 language-speakers = سۆزلىگۈچىلەر
 localized = يەرلىكلەشتۈرۈلگەن
 sentences = جۈملىلەر
+language-validation-hours = سائەت
 
 ## Contribution
 
@@ -984,6 +988,7 @@ download-size = چوڭلۇقى
 download-selected = تاللانغان
 download-start = ئارخىپ ئۇچۇرىنى چۈشۈرۈش
 download-request = خاتىرىلەشنى سوراش
+download-requests = ئىلگىرىكى خاتىرىلەرنى چۈشۈرۈش تەلىپى
 download-request-button = چۈشۈر
 download-request-title = { $created }
 download-request-assembling-description = ماتىرياللىرىڭىز رەتلىنىۋاتىدۇ، سەل تۇرۇپ قايتا سىناڭ.
