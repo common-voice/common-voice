@@ -1072,6 +1072,7 @@ sc-stats-summary = Berhevkara Common Voiceê, di { $languageCount } zimanan de {
 sc-submit-err-select-lang = Ji kerema xwe zimanekî hilbijêre.
 sc-submit-err-add-sentences = Ji kerema xwe hevokan tevlî bike.
 sc-submit-err-add-source = Ji kerema xwe çavkaniyekê tevlî bike.
+sc-submit-err-confirm-pd = Ji kerema xwe piştrast bikin ku ev hevok anonîm in.
 sc-submit-title = Hevokan tevlî bike
 sc-submit-select-language =
     .labelText = Zimên hilbijêre
@@ -1087,6 +1088,9 @@ sc-add-lang-sec-button = Zimên tevlî bike
 ## ADD SENTENCES CONFIRMATION
 
 sc-confirm-sentences-title = Hevokên Nû Piştrast Bike
+# Variables:
+#   $countOfUnreviewed (Number) - Number of sentences unreviewed before the upload
+sc-confirm-unreviewed = { $countOfUnreviewed } hevok nehatin kontrol kirin. Heke tu bixwazî berî ku hevokan bişînî tu dikarî hevokên xwe niha jî kontrol bikî.
 sc-confirm-button-text = Bipejirîne
 
 ## LANGUAGE INFO
@@ -1124,6 +1128,7 @@ sc-review-title = Hevokan kontrol bike
 sc-review-loading = Hevok bar dibin…
 sc-review-select-language = Ji kerema xwe zimanekî ji bo kotrolkirina hevokan hilbijêre.
 sc-review-no-sentences = Ji bo kontrolkirinê hevok neman. <addLink>Hevokên zêdetir tevlî bike!</addLink>
+sc-review-form-usage = Ji bo piştrastkirina hevokê, bikişîne rastê. Ji bo redkirinê bikişîne çepê. Ji bo derbaskirinê bikişîne jorê. <strong>Ji bîr neke yên te kontrolkirine bişîne!</strong>
 # Variables:
 #   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
 sc-review-form-source = Çavkanî: { $sentenceSource }
