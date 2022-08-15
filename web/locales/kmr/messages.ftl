@@ -1076,6 +1076,7 @@ sc-submit-err-confirm-pd = Ji kerema xwe piştrast bikin ku ev hevok anonîm in.
 sc-submit-title = Hevokan tevlî bike
 sc-submit-select-language =
     .labelText = Zimên hilbijêre
+sc-submit-confirm = Ez piştrast dikim ku ev <wikipediaLink> hevokên anonîm ên </wikipediaLink>ê ne û destûra min a barkirinê heye.
 sc-submit-button =
     .submitText = Bişîne
 
@@ -1087,7 +1088,24 @@ sc-add-lang-sec-button = Zimên tevlî bike
 
 ## ADD SENTENCES CONFIRMATION
 
+sc-confirm-are-you-sure =
+    .message = Hevok nehat şandin, Tu bi rastî jî dixwazî jê derkevî?
 sc-confirm-sentences-title = Hevokên Nû Piştrast Bike
+# Variables:
+#   $countOfSentences (Number) - Number of sentences the user has filled in the submission form
+sc-confirm-sentences-found =
+    { $countOfSentences ->
+        [0] Ti hevok nehat dîtin.
+       *[other] { $countOfSentences } hatin dîtin.
+    }
+# Variables:
+#   $countOfInvalidated (Number) - Number of sentences the user rejected in the review form before submission
+sc-confirm-rejected-by-you = { $countOfInvalidated } hevok redkirin.
+sc-confirm-already-reviewed =
+    { $countOfReviewed ->
+        [0] Te ti hevok kontrol nekir.
+       *[other] Te { $countOfReviewed } hevok kontrol kirin. Her bijî!
+    }
 # Variables:
 #   $countOfUnreviewed (Number) - Number of sentences unreviewed before the upload
 sc-confirm-unreviewed = { $countOfUnreviewed } hevok nehatin kontrol kirin. Heke tu bixwazî berî ku hevokan bişînî tu dikarî hevokên xwe niha jî kontrol bikî.
