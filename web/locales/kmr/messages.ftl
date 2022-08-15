@@ -553,6 +553,7 @@ about-playbook-what-is-language = Zimanek li ser Common Voiceê çi ye?
 about-playbook-how-add-language = Ez çawa dikarim zimanekî tevlî bikim?
 about-playbook-how-add-language-translating-heading = Wergerandina malperê
 about-playbook-how-add-language-collecting-sentences-heading = Komkirina hevokan
+about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>Li ser berhevkirina hevokan agahiyên zêdetir bibîne</sentenceCollectorFragment>.
 
 ## How does localization work
 
