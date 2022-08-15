@@ -16,7 +16,7 @@ interface Props {
 
 // map columns to localized string id
 // also provide a fnc to render values in column
-const COLUMNS = {
+const COLUMNS: { [key: string]: any } = {
   name: {
     display: (value: string) => {
       return value;
@@ -98,12 +98,13 @@ const DatasetCorpusDownloadTable = ({
               className={row.id === selectedId ? 'selected' : ''}
               key={row.id + row.release_dir}>
               {Object.keys(COLUMNS).map((col: string, index) => {
+                const { label, display } = COLUMNS[col];
                 return (
                   <td
-                    data-mobile-label={getString(COLUMNS[col].label)}
-                    key={index + COLUMNS[col].label}
+                    data-mobile-label={getString(label)}
+                    key={index + label}
                     className={index < 3 ? 'highlight' : ''}>
-                    {COLUMNS[col].display(row[col], locale)}
+                    {display(row[col], locale)}
                   </td>
                 );
               })}
