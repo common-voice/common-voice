@@ -15100,6 +15100,9 @@ export const up = async function (db: any): Promise<any> {
     const dataset_id = datasets[release_dir];
     const locale_id = locales[locale_name];
 
+    //need ids for data to exist
+    if (!locale_id || !dataset_id) continue;
+
     const locale_dataset_values = [
       dataset_id,
       locale_id,
@@ -15110,8 +15113,11 @@ export const up = async function (db: any): Promise<any> {
       size,
       checksum ? `'${checksum}'` : 'NULL',
     ];
+
     await db.runSql(
-      `INSERT INTO locale_datasets (dataset_id,locale_id,total_clips_duration,valid_clips_duration,average_clips_duration,total_users,size,checksum) VALUES (${locale_dataset_values})`
+      `INSERT INTO locale_datasets (dataset_id,locale_id,total_clips_duration,valid_clips_duration,average_clips_duration,total_users,size,checksum) VALUES (${locale_dataset_values.join(
+        ', '
+      )})`
     );
   }
 
@@ -15170,6 +15176,20 @@ export const up = async function (db: any): Promise<any> {
   );
 };
 
-export const down = function (): Promise<any> {
-  return null;
+export const down = async function (db: any): Promise<any> {
+  //delete all column data on datasets table
+  await db.runSql(`
+    UPDATE
+      datasets
+    SET
+      total_clips_duration = NULL,
+      valid_clips_duration = NULL,
+      release_type  = NULL,
+      download_path  = NULL;
+  `);
+
+  //delete all data in locales_datasets
+  return await db.runSql(`
+    TRUNCATE TABLE locale_datasets;
+  `);
 };
