@@ -56,6 +56,7 @@ da = Tadanit
 de = Talmanit
 dsb = Sorbyan, Tamectuḥt
 dv = Tadhivhit
+dyu = Dioula
 el = Tagrigit
 en = Taglizit
 eo = Taspiruntit
