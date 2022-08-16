@@ -102,6 +102,7 @@ x-years-short =
         [many] ܫܢܝ̈ܐ
        *[other] ܫܢܝ̈ܐ
     }
+help-make-dataset = ܥܕܪ ܩܬܢ ܩܐ ܒܢܝܬܐ ܕ
 sign-up-account = ܡܟܬܒ ܚܘܫܒܢܐ
 email-subscription-title = ܡܟܬܒ ܠܩܒܠܬܐ ܚܕܬ ܒܐܝܡܝܠ
 
