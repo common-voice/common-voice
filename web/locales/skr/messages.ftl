@@ -1193,9 +1193,9 @@ sc-add-err-unexpected = سرور ولوں ابڑغت ولدا آیا جواب
 #   $duplicates (Number) - Number of sentences which got rejected because they are duplicates
 sc-add-result =
     { $duplicates ->
-        [0] جمع تھئے جملے۔ { $duplicates } جملے ڈپلیکیٹ پووݨ پاروں مسترد تھئے۔
-        [one] جمع تھئے جملے۔ { $duplicates } جملے ڈپلیکیٹ پووݨ پاروں مسترد تھئے۔
-       *[other] جمع تھئے جملے۔ { $duplicates } جملے ڈپلیکیٹ پووݨ پاروں مسترد تھئے۔
+        [0] جمع تھئے جملے۔ { $duplicates } جملے ڈپلیکیٹ ہووݨ پاروں مسترد تھئے۔
+        [one] جمع تھئے جملے۔ { $duplicates } جملہ ڈپلیکیٹ ہووݨ پاروں مسترد تھیا۔
+       *[other] جمع تھئے جملے۔ { $duplicates } جملے ڈپلیکیٹ ہووݨ پاروں مسترد تھئے۔
     }
 # Variables:
 #   $sentences (Number) - Number of sentences which failed to be saved to the database - could be several different reasons
