@@ -130,8 +130,10 @@ ne-NP = Tanipalit
 nia = Nias
 nl = Tahulandit
 nn-NO = Tanuṛvijt Nynorsk
+nr = IsiNdebele (Anẓul)
 nyn = Nyankole
 oc = Tuksitant
+om = Afaan Ormoo
 or = Odia
 pa-IN = Tapenǧabit
 pap-AW = Tapapiyamant (Aruba)
@@ -157,6 +159,7 @@ sl = Tasluvinit
 so = Taṣumalit
 sq = Talbanit
 sr = Taṣirbit
+ss = Tasiswatit
 sv-SE = Taswidit
 sw = Taswayilit
 syr = Tasiryakt
@@ -182,12 +185,14 @@ uz = Tuzbikt
 vec = Taviṭnamit
 vi = Tavyiṭnamit
 vot = Tavutikt
+xh = Taksuzit
 yi = Tayidict
 yo = Tayurubit
 yue = Takuntunit
 zh-CN = Tacinwat (Cinwa)
 zh-HK = Tacinwat (Hung Kung)
 zh-TW = Tacinwat (Taywan)
+zu = Tazulut
 
 # [/]
 
@@ -545,6 +550,7 @@ about-playbook-what-is-language-content-3 = Kra n tutlayin ur-sent ddeqs n ubedd
 
 about-playbook-how-add-language = Amek ara rnuɣ tutlayt?
 about-playbook-how-add-language-content-1 = Deg tazwara, wali tutlayt-ik ma <languageLink>tella yakan</languageLink>. Ma ulac-itt, ilaq <strong>ad tseqleḍ asmel daɣen ad tleqḍeḍ tifyar</strong>.
+about-playbook-how-add-language-collecting-sentences-heading = Alqaḍ n tefyar
 
 ## How does localization work
 
