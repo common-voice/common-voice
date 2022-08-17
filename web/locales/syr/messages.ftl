@@ -10,6 +10,7 @@ submit-form-action = ܫܕܪ
 loading = ܡܛܥܢܬܐ ...
 email-opt-in-info = ܐܢܐ ܒܥܝܢ ܩܒܠܢ ܐܝܡܝܠ ܐܝܟ ܕܡܥܗܕ̈ܢܘܬܐ ܕܢܝܫ̈ܐ، ܚܘܕ̈ܬܐ ܕܪܗܬܝ ܘ ܛܒܐ ܡܛܠ ܩܠܐ ܓܘܢܝܐ.
 email-opt-in-info-title = ܫܘܬܦ ܥܡ ܣܕܪܐ ܕܒܝܠܕܪܝܐ ܕܩܠܐ ܓܘܢܝܐ.
+email-opt-in-info-sub-with-challenge = ܩܒܠܘܢ ܐܝܡܝܠ (email) ܐܝܟ ܡܘܪܝ̈ܐ (challenges)، ܡܥܗܕ̈ܢܘܬܐ ܕܢܝܫ̈ܐ (goal reminders)، ܚܘܕ̈ܬܐ ܕܪܗܬܝ (progress updates) ܘ ܛܒܐ ܡܛܠ ܩܠܐ ܓܘܢܝܐ.
 not-available-abbreviation = ܠܐ ܡܬܬܥܒܕܢܐ
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
