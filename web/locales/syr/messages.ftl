@@ -1,13 +1,16 @@
 ## General
 
 yes-receive-emails = ܗܝ، ܫܕܪ ܩܐ ܕܝܝ ܐܝܡܝܠ. ܐܢܐ ܒܥܝܢ ܦܝܫܢ ܡܘܕܥܝܐ ܒܘܬ ܩܠܐ ܓܘܢܝܐ.
-stayintouch = ܐܚܢܢ ܒܡܘܙܝܠܐ ܒܢܝܐ ܝܘܚ ܫܘܬܦܘܬܐ ܠܚܘܕܪ̈ܘܢܐ ܕܝܘܠܦܢܐ ܐܘܡܢܘܬܐ ܕܩܠܐ (voice technology).  ܐܚܢܢ ܒܥܝܚ ܕܡܕܥܚ ܩܐ ܕܝܘܟ݂ܘܢ ܒܚܘܕܬܐ ܕܡܒܘ̈ܥܐ ܫܘܘܕܥ̈ܐ (data sources) ܚܕ̈ܬܐ ܘܫܡܥܚ ܒܘܬ ܡܦܠܚܬܐ ܕܝܝ ܫܘܘܕܥܐ.
+stayintouch = ܐܚܢܢ ܒܡܘܙܝܠܐ ܒܢܝܐ ܝܘܚ ܫܘܬܦܘܬܐ ܠܚܘܕܪ̈ܘܢܐ ܕܝܘܠܦܢܐ ܐܘܡܢܘܬܐ ܕܩܠܐ (voice technology).  ܐܚܢܢ ܒܥܝܚ ܡܕܥܚ ܩܐ ܕܝܘܟܘܢ ܠܚܘܕܬ̈ܐ، ܡܒܘ̈ܥܐ ܫܘܘܕܥܐ (data sources) ܚܕ̈ܬܐ ܘ ܫܡܥܚ ܒܘܬ ܦܠܚܢܐ ܕܝܘܟܘܢ ܒܫܘܘܕܥܐ.
+privacy-info = ܐܚܢܢ ܫܘܕܘܝܐ (ܩܘܘܠܐ) ܝܘܚ ܩܬ ܢܛܪܟ ܡܘܕܥܢܘܬܐ ܕܝܘܟܘܢ. ܩܪܝ ܡܛܠ <privacyLink> ܦܘܪܢܣܐ ܕܝܠܢܝܘܬܐ <privacyLink/>.
 return-to-cv = ܕܥܪ ܠܩܠܐ ܓܘܢܝܐ
 email-input =
-    .label = ܐܓܪܬܐ ܐܠܝܩܛܪܘܢܝܬܐ
+    .label = ܐܝܡܝܠ
 submit-form-action = ܫܕܪ
 loading = ܡܛܥܢܬܐ ...
-not-available-abbreviation = ܠܐ ܡܬܬܥܒ݂ܕܢܐ
+email-opt-in-info = ܐܢܐ ܒܥܝܢ ܩܒܠܢ ܐܝܡܝܠ ܐܝܟ ܕܡܥܗܕ̈ܢܘܬܐ ܕܢܝܫ̈ܐ، ܚܘܕ̈ܬܐ ܕܪܗܬܝ ܘ ܛܒܐ ܡܛܠ ܩܠܐ ܓܘܢܝܐ.
+email-opt-in-info-title = ܫܘܬܦ ܥܡ ܣܕܪܐ ܕܒܝܠܕܪܝܐ ܕܩܠܐ ܓܘܢܝܐ.
+not-available-abbreviation = ܠܐ ܡܬܬܥܒܕܢܐ
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -26,18 +29,23 @@ arn = ܡܐܦܘܕܘܢܓܘܢܝܬ
 as = ܐܣܐܡܝܬ
 ast = ܐܣܬܘܪܝܬ
 az = ܐܙܪܒܝܓܐܢܝܬ
-el = ܝܘܢܐܝܬ݂
-en = ܐܢܓܠܣ
+ba = ܒܫܟܝܪܝܬ
+bas = ܒܐܣܐܝܬ
+be = ܒܝܠܘܐܘܪܘܣܢܝܬ
+bg = ܒܘܠܓܐܪܝܬ
+bn = ܒܢܓܐܠܝܬ
+el = ܝܘܢܐܝܬ
+en = ܐܢܓܠܝܣ
 fa = ܦܪܣܐܝܼܬ
-fr = ܦܪܢܣܝܬ݂
-he = ܥܒ݂ܪܐܝܬ݂
+fr = ܦܪܢܣܝܬ
+he = ܥܒܪܐܝܬ
 hi = ܗܢܕܝܐ
-hy-AM = ܐܪܡܢܝܐ
-hyw = ܐܪܡܢܝܐ ܡܥܪܒ݂ܝܐ
-ru = ܪܘܣܢܝܐ
-rw = ܬܠܘܓܘ
-sv-SE = ܣܘܝܕܝܐ
-syr = ܣܘܼܪܝܝܐ
+hy-AM = ܐܪܡܢܝܬ
+hyw = ܐܪܡܢܝܬ ܡܥܪܒܝܐ
+ru = ܐܘܪܘܣܢܝܬ
+rw = { "" }
+sv-SE = ܣܘܝܕܐܝܬ
+syr = ܣܘܪܝܝܐ
 
 # [/]
 
@@ -45,7 +53,7 @@ syr = ܣܘܼܪܝܝܐ
 ## Layout
 
 speak = ܐܡܪ
-speak-now = ܐܡܪ ܗܕܝܐ
+speak-now = ܐܡܪ ܗܫܐ
 datasets = ܣܕܪ̈ܐ ܕܫܘܘܕ̈ܥܐ
 languages = ܠܫܢ̈ܐ
 about = ܡܢܝ ܝܘܚ
@@ -66,22 +74,22 @@ home-cta = ܡܠܠ ܒܩܠܐ، ܫܘܬܦ ܠܐܟܐ!
 show-wall-of-text = ܩܪܝ ܝܬܝܪ
 vote-yes = ܗܐ
 vote-no = ܠܐ
-speak-subtitle = ܫܟܢ ܩܠܘܟܘܢ
+speak-subtitle = ܗܒ݇ܠܘܢ ܩܠܘܟ݂ܘܢ
 all-locales = ܟܠ
-today = ܝܘܡܢܐ
+today = ܐܕܝܘܡ
 x-weeks-short =
     { $count ->
-        [zero] ܫܒ݂̈ܘܥܐ
-        [one] ܫܒܼܘܥܐ
-        [two] ܫܒ݂̈ܘܥܐ
-        [few] ܫܒ݂̈ܘܥܐ
-        [many] ܫܒ݂̈ܘܥܐ
-       *[other] ܫܒ݂̈ܘܥܐ
+        [zero] ܫܒ̈ܘܥܐ
+        [one] ܫܒܘܥܐ
+        [two] ܫܒ̈ܘܥܐ
+        [few] ܫܒ̈ܘܥܐ
+        [many] ܫܒ̈ܘܥܐ
+       *[other] ܫܒ̈ܘܥܐ
     }
 x-months-short =
     { $count ->
         [zero] ܝܪ̈ܚܐ
-        [one] ܝܪܚ
+        [one] ܝܪܚܐ
         [two] ܝܪ̈ܚܐ
         [few] ܝܪ̈ܚܐ
         [many] ܝܪ̈ܚܐ
@@ -89,13 +97,14 @@ x-months-short =
     }
 x-years-short =
     { $count ->
-        [zero] ܫ̈ܢܐ
+        [zero] ܫܢܝ̈ܐ
         [one] ܫܢ̄ܬܐ
-        [two] ܫ̈ܢܐ
-        [few] ܫ̈ܢܐ
-        [many] ܫ̈ܢܐ
-       *[other] ܫ̈ܢܐ
+        [two] ܫܢܝ̈ܐ
+        [few] ܫܢܝ̈ܐ
+        [many] ܫܢܝ̈ܐ
+       *[other] ܫܢܝ̈ܐ
     }
+help-make-dataset = ܥܕܪ ܩܬܢ ܩܐ ܒܢܝܬܐ ܕ
 sign-up-account = ܡܟܬܒ ܚܘܫܒܢܐ
 email-subscription-title = ܡܟܬܒ ܠܩܒܠܬܐ ܚܕܬ ܒܐܝܡܝܠ
 

@@ -125,13 +125,16 @@ my = بېرمىچە
 myv = ئېرزاچە
 nan-tw = تەيۋەنچە(Minnan)
 nb-NO = بوكمالچە
+nd = IsiNdebele (North)
 ne-NP = نېپالچە
 nia = نىئاسچە
 nl = گوللاندىيەچە
 nn-NO = يېڭى نورۋېگچە
+nr = IsiNdebele (South)
 nso = شىمالىي سوتوچە
 nyn = نىيانكولېچە
 oc = ئاۋكچە
+om = ئورومچە
 or = ئورىياچە
 pa-IN = پەنجابچە
 pap-AW = پاپىيامەنتۇچە
@@ -171,6 +174,7 @@ tig = تىگرېچە
 tk = تۈركمەنچە
 tl = تاگالوگچە
 tn = سىۋاناچە
+tok = توكى پوناچە
 tr = تۈركچە
 ts = سونگاچە
 tt = تاتارچە
@@ -182,6 +186,7 @@ ug = ئۇيغۇرچە
 uk = ئۇكرائىنچە
 ur = ئوردۇچە
 uz = ئۆزبەكچە
+ve = ۋېنداچە
 vec = ۋېنداچە
 vi = ۋىيېتنامچە
 vot = ۋوتېچە
@@ -545,6 +550,7 @@ about-playbook-what-is-language = Common Voice دا قايسى تىل بار؟
 
 about-playbook-how-add-language = تىلنى قانداق قوشىمەن؟
 about-playbook-how-add-language-translating-heading = بېكەتنى تەرجىمە قىلىش
+about-playbook-how-add-language-translating-content-1 = <translateVideoLink> پونتوننى قانداق ئىشلىتىش توغرىسىدىكى يېتەكچىنى كۆرۈڭ. </translateVideoLink>
 about-playbook-how-add-language-collecting-sentences-heading = جۈملە توپلاش
 about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment> جۈملىلەرنى توپلاش </ entenceCollectorFragment> دىكى تېخىمۇ كۆپ مەزمۇنلارنى كۆرۈڭ.
 
@@ -737,7 +743,9 @@ request-language-form-email =
 request-language-form-info =
     .label = تىل ھەققىدىكى ئۇچۇرلار
 request-language-form-info-explanation-list-1 = تىلىڭىزنىڭ نامى
+request-language-form-info-explanation-list-2 = ئەگەر bfr بولسا <isoCodeLink> ISO كودى </isoCodeLink>
 request-language-form-info-explanation-list-3 = مەزكۇر تىلنى چۈشىنىشىمىزگە ياردەم بېرەلەيدىغان تور بېكەتلەرگە ئۇلىنىش
+request-language-google-recaptcha-required = داۋاملاشتۇرماقچى بولسىڭىز reCAPTCHA تەلەپ قىلىنىدۇ
 request-language-google-recaptcha-error = ReCAPTCHA دا مەسىلە كۆرۈلدى. قايتا سىناڭ.
 
 ## Languages Overview
@@ -755,6 +763,7 @@ language-search-input =
 language-speakers = سۆزلىگۈچىلەر
 localized = يەرلىكلەشتۈرۈلگەن
 sentences = جۈملىلەر
+language-validation-hours = سائەت
 
 ## Contribution
 
@@ -984,6 +993,7 @@ download-size = چوڭلۇقى
 download-selected = تاللانغان
 download-start = ئارخىپ ئۇچۇرىنى چۈشۈرۈش
 download-request = خاتىرىلەشنى سوراش
+download-requests = ئىلگىرىكى خاتىرىلەرنى چۈشۈرۈش تەلىپى
 download-request-button = چۈشۈر
 download-request-title = { $created }
 download-request-assembling-description = ماتىرياللىرىڭىز رەتلىنىۋاتىدۇ، سەل تۇرۇپ قايتا سىناڭ.
@@ -1128,6 +1138,7 @@ sc-submit-button =
 sc-add-lang-sec-label = تۆھپە قوشماقچى بولغان تىلنى قوشۇڭ
 sc-add-lang-sec-button = تىل قوشۇڭ
 sc-add-err-submission = يوللاش مەغلۇب بولدى
+sc-add-lang-process-notice = ئەگەر تىلىڭىز بۇ يەردە بولمىسا ، <languageProcessLink> بۇ جەريان  </languageProcessLink> ئارقىلىق تەلەپ قىلسىڭىز بولىدۇ.
 
 ## ADD SENTENCES CONFIRMATION
 

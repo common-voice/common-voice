@@ -1178,6 +1178,7 @@ sc-submit-ph-one-per-line =
 sc-submit-from-where = ایہ <wikipediaLink>عوامی ڈومین</wikipediaLink> جملے کتھوں دے ہن؟
 sc-submit-ph-read-how-to =
     .placeholder = جے تہاکوں انتساب کرݨ کائنی آندا تاں ساݙا کین٘ویں کروں پڑھو
+sc-submit-confirm = میں تصدیق کرینداں جو ایہ جملے <wikipediaLink> عوامی ڈومین</wikipediaLink> دے ہِن تے میکوں انہاں دے اپ لوڈ کرݨ دی اجازت ہے۔
 sc-submit-button =
     .submitText = جمع کرواؤ
 sc-submit-guidelines = سوہݨا <howToLink>رہنمائی ہدایات</howToLink> دی پڑتال کرو
@@ -1192,9 +1193,9 @@ sc-add-err-unexpected = سرور ولوں ابڑغت ولدا آیا جواب
 #   $duplicates (Number) - Number of sentences which got rejected because they are duplicates
 sc-add-result =
     { $duplicates ->
-        [0] جمع تھئے جملے۔ { $duplicates } جملے ڈپلیکیٹ پووݨ پاروں مسترد تھئے۔
-        [one] جمع تھئے جملے۔ { $duplicates } جملے ڈپلیکیٹ پووݨ پاروں مسترد تھئے۔
-       *[other] جمع تھئے جملے۔ { $duplicates } جملے ڈپلیکیٹ پووݨ پاروں مسترد تھئے۔
+        [0] جمع تھئے جملے۔ { $duplicates } جملے ڈپلیکیٹ ہووݨ پاروں مسترد تھئے۔
+        [one] جمع تھئے جملے۔ { $duplicates } جملہ ڈپلیکیٹ ہووݨ پاروں مسترد تھیا۔
+       *[other] جمع تھئے جملے۔ { $duplicates } جملے ڈپلیکیٹ ہووݨ پاروں مسترد تھئے۔
     }
 # Variables:
 #   $sentences (Number) - Number of sentences which failed to be saved to the database - could be several different reasons

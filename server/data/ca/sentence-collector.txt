@@ -471,6 +471,7 @@ A cada gemec que sentien contestaven amb un sospir
 A cada generació avalue l'aptitud de cada individu a la població.
 A cadascuna de les seues ciutats experimentals, actuarà mitjançant un cert nombre de camps.
 A canvi, els havia regalat un dels nostres fusells
+A cap d'ells no atorgava un grau superior al de comandant
 A casa cal refer la casaca.
 A casa criaven gallines ponedores, pollastres i conills.
 A casa de Càl·lias fill d'Hiponic.
@@ -1452,6 +1453,7 @@ Als bosons involucrats en aquestes interaccions se'ls denomina bosons gauge.
 Als circumstants els perseguia idèntica preocupació
 Als costats pujaven les soques, i a sobre penjaven les branques
 Als dos dies de ser al llit va demanar pera confessar-se
+Als horts abandonats de terra de ningú els cirerers florien
 Als matins, sovint la vall quedava oculta sota mars de núvols
 Als meus ulls, els porrons s'assemblaven massa als orinals de vidre
 Als nou mesos ja va saber dir papa i mama
@@ -3781,6 +3783,7 @@ Ara diuen per allà, que el que no en tinga, que es fota.
 Ara el que calia fer era escorcollar la posició
 Ara el volum és automàtic.
 Ara els feixistes havien emplaçat una metralladora
+Ara els obligaven a acceptar-los
 Ara em cal una targeta per garantir la seva reserva.
 Ara ens encaminem al final de les festes de Nadal amb un dia especial.
 Ara escalfo les llenties.
@@ -3792,6 +3795,7 @@ Ara indica'm el de-ena-i, si us plau.
 Ara indica'm el teu de-ena-i i adreça postal.
 Ara indica'm el teu de-ena-i.
 Ara ja es pensa que va fer un ou de dos vermells!
+Ara jo actuava de tinent
 Ara la marea havia reculat.
 Ara les botigues es veien molt més elegants
 Ara les coses tornaven a la normalitat
@@ -3964,6 +3968,7 @@ Avià es troba al Berguedà
 Avui dia aquesta jove científica està en expansió explosiva.
 Avui estimem que freturarem d'un acord per a actuar dins l'avantguarda revolucionària.
 Avui fa molta calor, massa.
+Avui fa molta calor.
 Avui fa un dia gris.
 Avui faré llenties per dinar.
 Avui feia molt fred a la muntanya.
@@ -4780,6 +4785,7 @@ Compartisc l'acció constructiva a partir de la revolta moral.
 Compartisc que, en definitiva, és llibertat i desplegament de la imaginació.
 Completament diferent de tot el que l'havia precedit
 Componc el Canigó, un dels cants del qual, Oliba, és dedicat al successor vostre.
+Comportaven una paga extra
 Composta principalment de minyons de menys de vint anys.
 Compra porc, bacó, sucre, plàtans i ametles
 Compra taronges, curri, brou de pollastre, sobrassada i patates
@@ -5163,6 +5169,7 @@ De més gran ho veuràs diferent, que ara tens el cap ple de pardals.
 De nit i de dia, fent-li foc a l’abadia.
 De nit i dia li desfilaven pel pensament els modestos protagonistes
 De nits hom solia enviar reduïdes patrulles a terra de ningú
+De nits patrullàvem com de costum
 De pobles en vaig comptar onze i vaig perdre la paciència.
 De primer moment va mirar-me amb desconfiança.
 De primer un criat carregat de saquets de mà, rotllos d'abrics, i paraigües.
@@ -5819,6 +5826,7 @@ Duia una levita tant cordada, tant llisa i tant llarga
 Duien els mateixos cabells: uns cabells rapats
 Duien la mateixa roba
 Duies la veu dels savis, la lira del poeta, i oberta la bragueta.
+Durant dos dies va ploure torrencialment
 Durant el breu armistici del cinc de maig
 Durant el dia, els canons tronaven de valent.
 Durant el recorregut s'han cridat lemes antiracistes.
@@ -5886,6 +5894,7 @@ El Govern havia aconseguit fabricar unes bombes decents
 El Govern no havia declarat la guerra
 El Govern radiava missatges mig pacificadors mig amenaçadors
 El Govern va haver de recórrer a l'allistament obligatori
+El Govern, no podia prescindir dels oficials de les milícies
 El Guillem havia triat ajuntar-se amb els zombis.
 El Guillem també es va distanciar de nosaltres.
 El Joan és de cor moll i de seguida li ve la plorera.
@@ -6328,6 +6337,7 @@ El pagament ha de ser amb tarjeta.
 El pagament s'efectuarà al recollir el vehicle.
 El palleter Doménech parteix pel mig la seua roja faixa que duia al cint.
 El panoli és una coca feta amb farina, sucre, oli, mistela, anís i aiguardent.
+El parapet s'enfonsà trenta centímetres
 El pare no pogué evitar la ràbia.
 El pare va fer anar el cap com volent dir que ja veuria.
 El pas depèn de la manera com es perceba la situació.
@@ -7100,6 +7110,7 @@ Els ministres van observar amb satisfacció que s'hagi discutit i abordat l'obje
 Els ministres van reconèixer el paper vital que tenen els sistemes d'assegurament
 Els mites i les llegendes de l'antiguitat ja ens n'ofereixen una reflexió.
 Els mobles, els sabia conservar en una mitja edat passadora
+Els mosquits començaven a ser un turment
 Els mossos regaven i escombraven, aixecant boires de pols.
 Els motors rugien amenaçadors.
 Els més espavilats són sempre enganyats si se'ls adula;
@@ -7187,6 +7198,7 @@ Els reclutes van aprendre de marxar al pas
 Els records que conservo de tot allò són una mica borrosos
 Els recs anaven plens a vessar
 Els recursos de l'època permeten la seua realització, però l'estructura econòmica no.
+Els refugis es van inundar
 Els requisits per a la qualificació del personal.
 Els restaurants i els hotels elegants eren plens de gent rica
 Els romans, per falsa traducció, li van donar el nom que encara continua vigent.
@@ -7298,6 +7310,7 @@ Em podria dir el seu de-ena-i si us plau?
 Em podria facilitar el de-ena-i i noms i cognoms dels dos passatgers?
 Em podria facilitar el seu de-ena-i i la seva direcció?
 Em podries passar això per correu?
+Em posaria les bambes i correria sense parar.
 Em pot dir el seu de-ena-i, si us plau?
 Em pot dir el seu de-ena-i?
 Em pot dir el seu nom i de-ena-i si us plau?
@@ -7584,6 +7597,7 @@ En el cosmos poden existir altres éssers intel·ligents.
 En el desert d'arenes que és mar d'ardents ones, quina calor fa!
 En el fons era un dels nostres.
 En el fort de l'emoció que em corprenia vaig arribar a exclamar:
+En el front no passava gran cosa
 En el graner on esperàvem, hi havia a terra una lleugera capa de palla
 En el marc de mitjans creats per d'altres, ho rebutges.
 En el marge de l’inventari hi van trobar un ninot dibuixat
@@ -7883,6 +7897,7 @@ Endus-te la xica, Joan!
 Enfilant-se per sobre els monuments veïns més enlairats
 Enfonsant la vista en aquelles llunyàries de mar i cel
 Enfront d'uns guàrdies civils tan avorrits com jo mateix
+Enfront del reducte feixista
 Enfront hi havia uns pujols nus
 Engalaneu els penons i porteu les quatre barres a les quatre parts del món.
 Engalipant-me de nou, a empentes m'ha dirigit al corral a cercar ous.
@@ -7924,6 +7939,7 @@ Ens anàvem atansant a la línia de foc
 Ens de raó aprehendràs, si en acabant de sortir, es deixa olorar i sentir.
 Ens enlluernava els ulls i ens deslligava la llengua.
 Ens han passat informació de la nova agència amb comptagotes.
+Ens havien promès un morter de trinxera per a la companyia
 Ens havíem construït unes plataformes entre les branques dels àlbers
 Ens havíem de posar en fila índia per passar per l'estreta obertura
 Ens havíem de preparar
@@ -8678,6 +8694,7 @@ Et vull i et voldré, perquè eres bonica i amb tu em casaré.
 Eternament aplaudit pels parlaments declamatoris
 Eternament encofurnat a casa i supeditat sempre a l'hereu.
 Eternament sospirava pels grans espais
+Ets com un fillet petit.
 Ets companya eterna del desgraciat que plora; tu sostens el qui cau.
 Ets el titular de dos comptes.
 Ets ja client del nostre blanc?
@@ -9317,6 +9334,7 @@ Havien passat tres mesos a la línia;
 Havien posat llum elèctrica
 Havien posat més seccions
 Havien pres dos dependents més
+Havien presentat el meu nom per al grau d'oficial regular
 Havien reduït el poble en un estat de brutícia indescriptible.
 Havien situat sentinelles armats en gairebé totes les finestres
 Havien tret tots els vestits de la calaixera de caoba
@@ -9593,6 +9611,7 @@ Ho va deixar per l'endemà i va quedar-se dormit.
 Ho va fer a ulls veients, davant de tothom, sense amagar-se'n.
 Ho vaig dir en pla de broma, és clar
 Ho vaig veure amb els meus propis ulls. No ho dubtis pas.
+Ho veia tot molt borrós
 Ho vol pagar ara en targeta o després al repartidor en efectiu?
 Ho voldria fer així?
 Ho volen a domicili?
@@ -9871,6 +9890,7 @@ I que es llevés a l'hora de sempre
 I que expressen el simple desig de fer-se notar.
 I que inclou aquest preu?
 I que l'hem de deixar la botiga?
+I que n'era, d'inútil, tot plegat
 I que no hi feia cap falta.
 I que no n'hi va haver poques de visites!
 I que sembla feta per inspirar l'amor a tots els que la veuen.
@@ -10953,6 +10973,7 @@ Jo jalone, granule, invertisc, funde, esgraone, genere
 Jo jangle, lliure, enflore, emboque, envolupe, guille
 Jo joguinege, furone, enclausone, entenc, empastelle, encaue
 Jo jubile, emancipe, falsifique, etiquete, englobe, explore
+Jo l'esperava amb gran il·lusió
 Jo l'he conegut de jove, de bordegàs gairebé.
 Jo l'he conegut de jove, de bordegàs gairebé…
 Jo l'observava amb un cert interès
@@ -11509,6 +11530,7 @@ L'agut Penyagolosa és un ferro de llança gegantina.
 L'aigua apareix en aquesta pel·lícula de moltes maneres.
 L'aigua corrent la terra nega, i en tals espills el sol llampega.
 L'aigua d'encantament de les senyores
+L'aigua de la mar està molt calenta.
 L'aigua era pràcticament aiguaneu
 L'aigua es va acabar de seguida.
 L'aigua et serveix pera regar, pera rentar, pera criar peixos
@@ -11678,6 +11700,7 @@ L'estudi de les banderes es coneix com a vexil·lologia.
 L'estudiar, per tots, era una càrrega;
 L'està deixant net i polit com si fos nou de trinca.
 L'estàndard, si us plau!
+L'estúpida mala sort m'enfurismava
 L'eterna cabòria que la perseguia.
 L'etnobotànica estudia les relacions entre plantes i persones
 L'excavació de la tomba fou un treball costós i complicat.
@@ -11975,6 +11998,7 @@ La bandera anarquista onejava de costat
 La barca al moll i el ganguilet, ens n'anirem al Postiguet.
 La barreja de les aportacions de diverses civilitzacions estrangeres a l'Occident contemporani.
 La barreja de tensió i d'avorriment
+La batalla per la carretera de Jaca havia cessat temporalment
 La bellesa, lleument bruna del seu rostre
 La boira és un núvol baix.
 La bomba esclatà part dedins del parapet, al racó
@@ -12881,6 +12905,7 @@ Les milícies de partit hi van ser teòricament incorporades.
 Les milícies eren reconstituïdes, segons el model de l'Exèrcit Popular
 Les milícies no haurien pogut ser gaire millors
 Les milícies obreres, constituïdes precipitadament pels sindicats
+Les milícies s'havien negat a acceptar graus oficials
 Les modes imposades administrativament per Moscou influeixen a la totalitat dels Estats obrers.
 Les modes sortides de París influeixen a Europa, Amèrica i els restants països desenvolupats.
 Les monedes antigues, que són les monedes de l'ideal
@@ -12892,6 +12917,7 @@ Les mústigues criatures prenien aires escaients
 Les nacions irredemptes van aconseguint ésser Estats lliures...
 Les nits d'estiu, a la terrassa, fem tabola fins ben entrada la matinada.
 Les nits del cap de setmana anem de borina al centre amb els amics.
+Les nits eren agradablement tèbies, els dies ardents
 Les nits resultaven més tolerablement tèbies
 Les noies del poble eren unes criatures esplèndides
 Les nostres granades havien destruït totes les barraques
@@ -14317,6 +14343,7 @@ No ho entenia, però ho trobava molt sospitós
 No ho fan així els llauradors, menestrals i jornalers, que els presenten molt sencers.
 No ho he sentit dir mai a ningú.
 No ho oblideu: sense contraris no hi ha progrés.
+No ho sembla
 No ho sé;
 No ho trobo normal.
 No importa que els altres no ho entenguen.
@@ -14784,6 +14811,7 @@ Nosaltres anirem al zoo i passarem a veure'ls a la tarda.
 Nosaltres anirem al zoo, doncs.
 Nosaltres els valencians hem d'alegrar-nos de la llibertat d'Irlanda.
 Nosaltres els valencians, ja no som els mateixos.
+Nosaltres encara érem a Osca
 Nosaltres ens deixàvem caure al fons de la trinxera
 Nosaltres estem intentant trobar una sol·lució a aquest problema.
 Nosaltres hi tindrem el lloc que ens pertoque.
@@ -15263,6 +15291,7 @@ Per consegüent, la voluntat humana només és lliure si domina les emocions.
 Per continuar amb el pagament accedeixi al següent enllaç:.
 Per continuar, indiqui'm el seu nom complet i de-ena-i.
 Per correu pot ser?
+Per culpa d'un moment de descuit
 Per córrer escales avall, i volar
 Per darrera les cortines s'hi endevinaven crespades cabelleres
 Per descomptat que sí... Però, com fer una cosa i l’altra?
@@ -15620,6 +15649,7 @@ Però mirant sempre a terra, decidit a perdre'm
 Però mitja hora més tard apareixia amb dos paquets de Lucky Strike.
 Però més ho eren, atenesos, aquells que prenien d'infants molts de vosaltres.
 Però no entenc el motiu.
+Però no era segur que me l'atorguessin
 Però no hi entenc res, atenesos.
 Però no hi havia temor de que fos axis.
 Però no hi havia temor: no tancarien.
@@ -16314,6 +16344,7 @@ Quantes persones hi assistiran?
 Quants catalanoparlants sou en realitat, o sigui, socialment, 'catalanocallants'...?
 Quants comensals hi hauria?
 Quants contes saps?
+Quants d'anys tens?
 Quants diaris d'ells podrien haver mentit sobre Puigdemont?
 Quants dòlars són deu euros?
 Quants participants va haver-hi a la convenció solipsista?
@@ -16382,6 +16413,7 @@ Que fossin els esforços, per realitzar la seva obra
 Que fossin les misèries morals que sofriria
 Que guai que agafant el primer tren ja comenci a clarejar el dia.
 Que hauria de fer per casar-me?
+Que havíem ocupat temporalment setmanes abans
 Que hi ha res més bonic que un safareig?
 Que hi ha res tant bo com la viram?
 Que hi ha roba estesa! No es pot parlar davant d’ell.
@@ -18779,6 +18811,7 @@ Tenia ambició i volia anar per a mi.
 Tenia aquella fam de llegir tot lo que trobava
 Tenia aversió a tota mena de de treball continuat.
 Tenia d'abandonar el terrer que durant segles havia anat conreant
+Tenia el comandament d'uns trenta homes
 Tenia el mòbil punxat, d'això no hi havia dubte.
 Tenia els cabells rissats
 Tenia els ulls tan tancats, que no s'assemblava a ningú.
@@ -18813,6 +18846,7 @@ Tenien una traça extraordinària a cargolar cigarrets amb la picadura
 Tenim ara mateix els següents plans:.
 Tenim muntat l'estudi d'un mode que encare que volgués no podria.
 Tenim tres modalitats diferents: la bàsica, la regular i la plus.
+Tenim un mes d'agost anormalment càlid.
 Tenint en compte els coneixements i els mitjans materials de què disposem...
 Tenir bona roba, bon pis i bons mobles;
 Tenir consciència pot allargar-se cap enrere, cap a qualsevol part de l'acció.
@@ -19015,6 +19049,7 @@ Tonga registra el primer cas de coronavirus d’ençà del començament de la pa
 Toni Ascla va participar a més com a coproductor de la pel·lícula
 Toni Ou, si vols la vara fes-te-la de dos pebreres.
 Toni de l'Hostal assevera que "Som l'única regió en forma de cagalló."
+Topaven amb les idees igualitàries de les milícies
 Tordera es troba al Maresme
 Torelló es troba a Osona
 Torna a deixar l'ampolla al seu lloc i torna cap a l'habitació.
@@ -20152,6 +20187,7 @@ Vaig deixar la carta damunt la taula de propòsit, perquè la veiessis.
 Vaig deixar passar el meu acompanyament
 Vaig descobrir que estava terriblement espantat
 Vaig descobrir que no ens ensenyaven de manejar armes.
+Vaig donar per fet que estava ben llest
 Vaig encertar amb la bomba
 Vaig enfonsar-me en el misteri dels barris estranys
 Vaig ensopegar amb una llauna
@@ -20196,6 +20232,7 @@ Vaig recordar l'instructor de boxa que teníem a l'escola
 Vaig reprendre la marxa, resignat a caminar
 Vaig respondre que no, que no m'agradaven els jardins
 Vaig retirar l'agulla de la meva tercera bomba
+Vaig sentir dir que la bala m'havia travessat el coll
 Vaig sentir la foguerada d'un tret
 Vaig sentir més crits d'advertiment
 Vaig sentir que un grup baixava cap a on era jo.
@@ -21045,6 +21082,7 @@ zoo: "ni furtant-nos els somnis, ni cremant la trinxera... callaran la fera"
 És més vell que fer la mili amb llança.
 És nadiu de Brasil. Planta anual herbàcia, o perenne; erecta.
 És necessari que l'escrigui al xat per continuar amb el procès.
+És normal perquè som a l'estiu.
 És normal que estiguin desorientats.
 És observadora de les normalitats fins a l'orgull
 És originari d'Àfrica tropical, Madagascar, Maurici, a la regió del Japó.

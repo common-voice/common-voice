@@ -1,5 +1,7 @@
 ## General
 
+yes-receive-emails = ແມ່ນແລ້ວ, ສົ່ງອີເມລຫາຂ້ອຍ. ຂ້ອຍຕ້ອງການແຈ້ງໃຫ້ຮູ້ກ່ຽວກັບໂຄງການ Common Voice.
+stayintouch = ພວກເຮົາທຸກຄົນທີ່ Mozilla ກໍາລັງສ້າງຊຸມຊົນກ່ຽວກັບເຕັກໂນໂລຢີດ້ານສຽງ. ພວກເຮົາຕ້ອງການຕິດຕາມຂໍ້ມູນໃຫມ່ໆ, ແຫຼ່ງຂໍ້ມູນໃຫມ່ຕ່າງໆ ແລະ ເພື່ອເຮັດໃຫ້ຮູ້ຫຼາຍຂື້ນວ່າທ່ານໃຊ້ຂໍ້ມູນນີ້ແບບໃດ.
 return-to-cv = ກັບໄປທີ່ Common Voice
 email-input =
     .label = ອີເມລ
@@ -71,18 +73,24 @@ is = ພາສາໄອສແລນ
 it = ພາສາອີຕາລີ
 ja = ພາສາຍີ່ປຸ່ນ
 ka = ພາສາຈໍເຈຍ
+kab = ພາສາກາໄບເລ
 ki = ພາສາຄິຄູຢຸ
 kk = ພາ​ສາ​ຄາ​ຊັກ
 km = ພາສາກຳປູເຈຍ
 ko = ພາສາເກົາຫຼີ
 kw = ພາ​ສາ​ຄໍ​ນິດ
+ky = ພາສາກິຣກິສ
 lb = ພາ​ສາ​ລຸກ​ຊຳ​ບວກ
+lij = ພາ​ສາ​ລິ​ກູ​ຣຽນ
 lt = ພາສາລີທົວເນຍ
 lv = ພາສາລັດເວຍ
+mai = ພາ​ສາ​ໄມ​ທິ​ລິ
+mdf = ພາສາໂມກສາ
 mg = ພາ​ສາມາ​ລາ​ກາ​ຊີ
 mk = ພາສາມາເຊໂດເນຍ
 ml = ພາ​ສາ​ມາ​ລາ​ຢາ​ລຳ
 mn = ພາສາມົງໂກລີ
+mos = ພາ​ສາ​ມອດ​ຊີ
 mr = ພາສາມາຣາຕີ
 ms = ພາສາມາເລ
 mt = ພາສາມອນຕາ
@@ -100,17 +108,27 @@ pt = ພາສາໂປຣຕຸເກສ
 ro = ພາສາໂລມາເນຍ
 ru = ພາສາລັດເຊຍ
 rw = ພາສາຄິນຢາວັນດາ
+sah = ພາສາຊາກາ
 sc = ພາ​ສາ​ຊາ​ດິ​ນຽນ
+scn = ພາ​ສາ​ຊິ​ຊິ​ລຽນ
+shi = ພາສາຊິລຮາ
+si = ພາສາຊິນຮາລາ
 sk = ພາ​ສາສະ​ໂລ​ວັກ
+skr = ພາສາຊາຣາກິ
 sl = ພາສາສະໂລເວເນຍ
 so = ພາສາໂຊ​ມາ​ລີ
 sq = ພາສາອານບາເນຍ
 sr = ພາສາເຊີເບຍ
+ss = ພາສາ Siswati
 sv-SE = ພາສາສະວີເດັນ
+sw = ພາສາສະວາຮີລິ
+syr = ພາສາຊີຣິອາກ
 ta = ພາສາທະມິນ
 te = ພາ​ສາ​ເຕ​ລູ​ກູ
 tg = ພາສາທາຈິກ
 th = ພາສາໄທ
+ti = ພາສາທິກຣິນຢາ
+tig = ພາສາໄທເກຣ
 tl = ພາ​ສາ​ຕາ​ກາ​ລັອກ
 tr = ພາສາຕຸຣະກີ
 tt = ພາສາຕາຕ່າ
@@ -173,6 +191,7 @@ today = ມື້ນີ້
 
 ## Speak Shortcuts
 
+shortcut-discard-ongoing-recording = ESC
 shortcut-submit = ກັບຄືນ
 
 ## ProjectStatus
@@ -183,12 +202,21 @@ english = ພາສາອັງກິດ
 
 profile-form-username =
     .label = ຊື່ຜູ້ໃຊ້
+profile-form-native-language =
+    .label = ພາ​ສາ​ແມ່
+profile-form-additional-language =
+    .label = ພາສາເພີ່ມເຕີມ
 profile-form-language =
     .label = ພາສາ
 hidden = ເຊື່ອງ
+native-language =
+    .label = ພາ​ສາ​ແມ່
 profile-form-submit-save = ບັນທຶກ
+profile-form-submit-saved = ບັນທຶກແລ້ວ
 # Gender
 other = ອື່ນໆ
+profile-close = ປິດ
+accept-privacy-title = ນະໂຍບາຍຄວາມເປັນສ່ວນຕົວ
 edit = ແກ້ໄຂ
 off = ປິດ
 on = ເປີດ
@@ -202,6 +230,7 @@ add-language = ເພີ່ມພາສາ
 
 ## FAQ
 
+faq-why-important-q = ເປັນຫຍັງມັນຈຶ່ງສໍາຄັນ?
 
 ## ABOUT US
 
@@ -211,6 +240,9 @@ add-language = ເພີ່ມພາສາ
 about-speak = ເວົ້າ
 about-listen = ຟັງ
 about-stay-in-touch-button = ລົງ​ທະ​ບຽນ
+about-nav-why-common-voice = ເປັນຫຍັງ?
+about-nav-partners = ຄູ່ຮ່ວມງານ
+about-nav-get-involved = ເຂົ້າມາມີສ່ວນຮ່ວມ
 
 ## Community Playbook Content
 ## What is a language
@@ -230,6 +262,7 @@ about-stay-in-touch-button = ລົງ​ທະ​ບຽນ
 
 ## How to grow language
 
+about-playbook-how-grow-language-content-2 = ເຫດການ
 
 ## How to validate
 
@@ -246,12 +279,17 @@ localization = ການແປ
 
 ## Error pages
 
+error-code = ຂໍ້ຜິດພາດ { $code }
 
 ## Data
 
+data-download-button = ດາວໂຫລດຂໍ້ມູນ Common Voice
 data-download-yes = ແມ່ນ
 data-download-deny = ບໍ່
+data-download-license = ໃບອະນຸຍາດ: <licenseLink>CC-0</licenseLink>
 release-version = ລູ້ນ​
+dataset-date = ວັນທີ
+license = ໃບອະນຸຍາດ: <licenseLink>{ $license }</licenseLink>
 
 ## Datasets Page
 
@@ -265,6 +303,7 @@ size-megabyte = MB
 subscribe = ຕິດຕາມ
 data-other-ted-name = TED-LIUM Corpus
 go-discourse = ໄປທີ່ Discourse
+go-languages-page = ໄປທີ່ໜ້າພາສາ
 more = ເພີ່ມເຕີມ
 close = ປິດ
 download = ດາວໂຫລດ
@@ -298,6 +337,7 @@ request-language-form-email =
 
 languages-show-more = ເບິ່ງເພີ່ມເຕີມ
 language-meter-in-progress = ຄວາມຄືບຫນ້າ
+language-total-progress = ລວມ
 language-search-input =
     .placeholder = ຊອກຫາ
 sentences = ປະໂຫຍກ
