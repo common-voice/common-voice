@@ -12,6 +12,7 @@ email-opt-in-info = ܐܢܐ ܒܥܝܢ ܩܒܠܢ ܐܝܡܝܠ ܐܝܟ ܕܡܥܗܕ̈ܢܘ�
 email-opt-in-info-title = ܫܘܬܦ ܥܡ ܣܕܪܐ ܕܒܝܠܕܪܝܐ ܕܩܠܐ ܓܘܢܝܐ.
 email-opt-in-info-sub-with-challenge = ܩܒܠܘܢ ܐܝܡܝܠ (email) ܐܝܟ ܡܘܪܝ̈ܐ (challenges)، ܡܥܗܕ̈ܢܘܬܐ ܕܢܝܫ̈ܐ (goal reminders)، ܚܘܕ̈ܬܐ ܕܪܗܬܝ (progress updates) ܘ ܛܒܐ ܡܛܠ ܩܠܐ ܓܘܢܝܐ.
 email-opt-in-privacy-v2 = ܒܫܪܟܬܐ ܕܐܝܡܝܠ، ܐܚܬܘܢ ܠܝܬ ܠܘܟܘܢ ܕܘܪܫܐ ܒܡܕܒܪܢܘܬܐ ܕܡܘܙܝܠܐ (mozilla) ܒܕܐܗܐ ܡܘܕܥܢܘܬܐ (information) ܐܝܟ ܝܠܗ ܡܘܕܥܝܬܐ ܓܘ <privacyLink> ܫܘܝܫܐ ܕܕܝܠܢܝܘܬܐ <privacyLink/> ܕܡܘܙܝܠܐ.
+indicates-required = * ܒܪܫܡܐ ܝܠܗ ܚܩܠܢ̈ܐ ܐܢܢܩܝ̈ܐ.
 not-available-abbreviation = ܠܐ ܡܬܬܥܒܕܢܐ
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
