@@ -181,7 +181,8 @@ visible = ܡܒܝܘܢܐ
 native-language =
     .label = ܠܫܢܐ ܐܬܪܢܝܐ
 profile-form-submit-save = ܐܚܕ
-male = ܕܟ݂ܪܐ
+profile-form-submit-saved = ܐܚܕܐ
+male = ܕܟܪܐ
 female = ܢܩܒ݂ܐ
 # Gender
 other = ܐܚܪܢܐ
