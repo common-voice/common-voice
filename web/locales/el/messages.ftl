@@ -563,6 +563,11 @@ about-playbook-how-add-language = Πώς προσθέτω μια γλώσσα;
 about-playbook-how-add-language-content-1 = Αρχικά, ελέγξτε εάν η γλώσσα σας <languageLink>υπάρχει ήδη</languageLink>. Εάν δεν υπάρχει, θα πρέπει να <strong>μεταφράσετε τον ιστότοπο και να συγκεντρώσετε προτάσεις</strong>.
 about-playbook-how-add-language-translating-heading = Μετάφραση ιστοτόπου
 about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Δείτε τον οδηγό χρήσης μας για το Pontoon.</translateVideoLink>
+about-playbook-how-add-language-translating-content-2 =
+    Για τις μεταφράσεις, χρησιμοποιούμε ένα εργαλείο της Mozilla που ονομάζεται <pontoonLink>Pontoon</pontoonLink>. Το Pontoon διαθέτει πολλές γλώσσες,
+    αλλά εάν δεν έχει τη δική σας, μπορείτε να <pontoonRequestLink>ζητήσετε να προστεθεί</pontoonRequestLink>.
+    Στη συνέχεια, για να γίνει διαθέσιμη η γλώσσα στο έργο του Common Voice,
+    <githubRepoLink>ζητήστε τη νέα γλώσσα στο GitHub</githubRepoLink>. <localizationFragment>Δείτε περισσότερα σχετικά με τη μετάφραση του ιστοτόπου</localizationFragment>.
 about-playbook-how-add-language-collecting-sentences-heading = Συλλογή προτάσεων
 
 ## How does localization work
