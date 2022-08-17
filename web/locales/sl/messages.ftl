@@ -406,6 +406,10 @@ faq-title = Pogosta vprašanja
 faq-what-cv-q = Kaj je Common Voice?
 faq-what-cv-a = Tehnologija prepoznavanja glasu predstavlja revolucijo na področju interakcije s stroji, vendar so trenutno razpoložljivi sistemi dragi in lastniški. Common Voice je del pobude Mozille, da se tehnologije za prepoznavanje glasu izboljšajo in postanejo dostopnejše za vse. Common Voice je obsežna globalna baza podarjenih glasov, ki vsakomur omogoča hitro in enostavno učenje aplikacij z glasovno podporo v potencialno vseh jezikih.
 faq-why-important-q = Zakaj je to pomembno?
+faq-why-important-a =
+    Govor je pogosto najbolj naraven način medsebojne komunikacije in glasovne tehnologije prinašajo to udobje našim računalnikom in mobilnim napravam. Razvijalce želimo opolnomočiti za izdelavo neverjetnih aplikacij za prepoznavanje glasu, kot so prevajalci v realnem času in digitalni pomočniki z glasovno podporo. Toda trenutno je večina glasovnih podatkov, potrebnih za izdelavo tovrstnih aplikacij, draga in lastniška. Upamo, da bo nabor podatkov Common Voice razvijalcem dal tisto, kar potrebujejo za inovacije, in omogočil, da bo tehnologija govora na voljo v njihovem jeziku.
+    
+    Da bi bilo prepoznavanje glasu še bolj univerzalno, zbiramo vzorce glasu v široko govorjenih jezikih, pa tudi tiste z manjšo populacijo govorcev, ki jih komercialne storitve za prepoznavanje govora pogosto premalo uporabljajo. Objava raznolikega nabora glasov bo razvijalcem, podjetnikom in celotnim govornim skupnostim omogočila, da sami odpravijo to vrzel.
 faq-how-get-q = Kako lahko prenesem podatke Common Voice?
 faq-how-get-a = Podatkovni niz Common Voice je na voljo za prenos pod licenco <licenseLink>CC0</licenseLink> na <datasetLink>naši strani podatkovnih nizov</datasetLink>. Z iste strani lahko prenesete tudi več drugih javno dostopnih podatkovnih nizov.
 faq-when-release2-q = Kdaj boste objavili podatke Common Voice v drugih jezikih?
