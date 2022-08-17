@@ -9,7 +9,8 @@ email-input =
 submit-form-action = ܫܕܪ
 loading = ܡܛܥܢܬܐ ...
 email-opt-in-info = ܐܢܐ ܒܥܝܢ ܩܒܠܢ ܐܝܡܝܠ ܐܝܟ ܕܡܥܗܕ̈ܢܘܬܐ ܕܢܝܫ̈ܐ، ܚܘܕ̈ܬܐ ܕܪܗܬܝ ܘ ܛܒܐ ܡܛܠ ܩܠܐ ܓܘܢܝܐ.
-not-available-abbreviation = ܠܐ ܡܬܬܥܒ݂ܕܢܐ
+email-opt-in-info-title = ܫܘܬܦ ܥܡ ܣܕܪܐ ܕܒܝܠܕܪܝܐ ܕܩܠܐ ܓܘܢܝܐ.
+not-available-abbreviation = ܠܐ ܡܬܬܥܒܕܢܐ
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
