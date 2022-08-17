@@ -17,6 +17,7 @@ not-available-abbreviation = ܠܐ ܡܬܬܥܒܕܢܐ
 banner-error-slow-1 = ܦܚܠܬܐ، ܩܠܐ ܓܘܢܝܐ ܦܠܚܢܐ ܝܠܗ ܝܩܘܪܐ. ܒܣܝܡܐ ܩܐ ܚܦܝܛܘܬܐ ܕܝܘܟܘܢ.
 banner-error-slow-2 = ܐܚܢܢ ܩܒܘܠ ܠܝ ܝܘܚ ܪܒܐ ܐܪܚܐ ܘ ܗܫܐ ܝܘܚ ܒܚܘܢܐ (investigating) ܐܢܝ ܥܣܩܘܬ̈ܐ (issues).
 banner-error-slow-link = ܐܝܟܢܝܘܬܐ ܕܦܐܬܐ
+error-something-went-wrong = ܦܚܠܬܐ، ܐܝܬ ܠܢ ܚܕ ܚܠܛܐ.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
