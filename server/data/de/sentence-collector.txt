@@ -8892,6 +8892,7 @@ Die Polizei steht daneben und schaut zu.
 Die Pollen sind weg und mit ihr die Symptome der Allergie.
 Die Pollen werden vom Winde verweht.
 Die Pommes sind kalt und matschig
+Die Pommes werden knusprig.
 Die Pommes wurden in Belgien erfunden.
 Die Pop-Musik, aus Korea nennt man auch K-Pop.
 Die Poren öffnen sich und der Schweiß fließt.
@@ -9714,6 +9715,7 @@ Die technischen Voraussetzungen sind geschaffen worden.
 Die temporäre Datenbank wird neu erstellt.
 Die tief stehende Sonne blendet den Fahrer.
 Die tiefgekühlten Erbsen mussten erst auftauen.
+Die tragenden Teile meines Wagens sind auch knusprig.
 Die täglich erhöhten Forderungen brachten uns an den Rand der Verzweiflung.
 Die türkise Linie markiert das Spielfeld.
 Die umgangssprachlich Hartz vier genannte Sozialleistung ist eine staatlich finanzierte Transferleistung.
@@ -11533,6 +11535,7 @@ Eine These, die sich nicht falsifizieren lässt, ist aus wissenschaftlicher Sich
 Eine Tiefebene findet man im Norden Deutschlands.
 Eine Touristin soll irgendwo auf dem Pilgerpfad verschollen sein.
 Eine Trommelfellruptur ist eine relativ harmlose Tauchverletzung.
+Eine Umschreibung für Rost.
 Eine Verkettung unglücklicher Umstände, so heißt es, führte zu dem Unfall.
 Eine Versicherung braucht man für Dinge, die einen ruinieren können.
 Eine Videovorschau mit weißem Rahmen wurde links mittig eingeblendet.
@@ -12712,6 +12715,7 @@ Es gibt nichts gutes, es sei denn man tut es.
 Es gibt nichts weiter zu besprechen.
 Es gibt nichts!
 Es gibt nichts, was es nicht gibt.
+Es gibt nichts.
 Es gibt noch andere Lösungen, die ich euch auch gerne bei Gelegenheit zeige.
 Es gibt noch die Magdeburger Börde.
 Es gibt noch mehr Namen dafür.
@@ -14602,6 +14606,7 @@ Gib es auf!
 Gib ihm Traubenzucker.
 Gib ihm den allerbesten Platz und lächle mit den Augen.
 Gib ihm die Schaufel wieder!
+Gib ihm!
 Gib mal deine Koordinaten durch.
 Gib mal die Seriennummer durch.
 Gib mal ein Lebenszeichen von dir!
@@ -18047,6 +18052,7 @@ Ich wünsche dir einen guten und gesegneten Appetit!
 Ich wünsche dir etwas.
 Ich wünsche dir gute Besserung.
 Ich wünsche euch ein besseres neues Jahr zweitausendeinundzwanzig!
+Ich wünsche euch etwas.
 Ich wünsche ihnen ein schönes Wochende.
 Ich wünsche mir Paradies von den Toten Hosen und grüße damit meinen Pfarrer.
 Ich wünsche mir eine Vasektomie zum Geburtstag.
@@ -19298,6 +19304,7 @@ Inzwischen sind alle Patentrechte an dem Audioformat abgelaufen.
 Inzwischen sind die Dinger wieder größer als die aus den Neunzigern.
 Inzwischen wird darunter meist auch eine große Sammlung von Anwendungen verstanden.
 Irene wünscht sich mehr Zeit zum Schmökern.
+Irgedwann ist Schicht im Schacht.
 Irgendein Junkie denkt mal wieder, er könne fliegen.
 Irgendein Opa hat mal wieder Gas und Bremse verwechselt.
 Irgendein Spieler wäre immer benachteiligt.
@@ -24755,6 +24762,7 @@ Nicht schon wieder eine Razzia!
 Nicht schon wieder so ein sinnloser Töpferkurs!
 Nicht schon wieder!
 Nicht schon wieder, bitte.
+Nicht schon wieder.
 Nicht sehr lange.
 Nicht selten findet man auch eine ordentliche Dosis Gesellschaftskritik.
 Nicht selten geht es um Mord und Totschlag.
@@ -35484,6 +35492,7 @@ Wurde ein Fördergeldantrag gestellt?
 Wurden Sie herzlich aufgenommen oder fühlten Sie sich nicht willkommen?
 Wurden die Tanzlustbarkeiten am Wochende befriedigt?
 Wurden die Werkseinstellungen bereits erfolgreich hergestellt?
+Wurden diese Produkte denn verzollt?
 Wurdest du schon zu diesem Thema abgeholt?
 Wurdet ihr schon mal am Strand bestohlen?
 Wurzelgemüse ist besonders gesund.
