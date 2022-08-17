@@ -183,7 +183,7 @@ native-language =
 profile-form-submit-save = ܐܚܕ
 profile-form-submit-saved = ܐܚܕܐ
 male = ܕܟܪܐ
-female = ܢܩܒ݂ܐ
+female = ܢܩܒܐ
 # Gender
 other = ܐܚܪܢܐ
 goals = ܢܝ̈ܫܐ
