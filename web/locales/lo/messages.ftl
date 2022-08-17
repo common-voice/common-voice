@@ -1,5 +1,6 @@
 ## General
 
+yes-receive-emails = ແມ່ນແລ້ວ, ສົ່ງອີເມລຫາຂ້ອຍ. ຂ້ອຍຕ້ອງການແຈ້ງໃຫ້ຮູ້ກ່ຽວກັບໂຄງການ Common Voice.
 return-to-cv = ກັບໄປທີ່ Common Voice
 email-input =
     .label = ອີເມລ
