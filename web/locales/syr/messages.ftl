@@ -2,7 +2,7 @@
 
 yes-receive-emails = ܗܝ، ܫܕܪ ܩܐ ܕܝܝ ܐܝܡܝܠ. ܐܢܐ ܒܥܝܢ ܦܝܫܢ ܡܘܕܥܝܐ ܒܘܬ ܩܠܐ ܓܘܢܝܐ.
 stayintouch = ܐܚܢܢ ܒܡܘܙܝܠܐ ܒܢܝܐ ܝܘܚ ܫܘܬܦܘܬܐ ܠܚܘܕܪ̈ܘܢܐ ܕܝܘܠܦܢܐ ܐܘܡܢܘܬܐ ܕܩܠܐ (voice technology).  ܐܚܢܢ ܒܥܝܚ ܡܕܥܚ ܩܐ ܕܝܘܟܘܢ ܠܚܘܕܬ̈ܐ، ܡܒܘ̈ܥܐ ܫܘܘܕܥܐ (data sources) ܚܕ̈ܬܐ ܘ ܫܡܥܚ ܒܘܬ ܦܠܚܢܐ ܕܝܘܟܘܢ ܒܫܘܘܕܥܐ.
-privacy-info = ܐܚܢܢ ܫܘܕܘܝܐ (ܩܘܘܠܐ) ܝܘܚ ܩܬ ܢܛܪܟ ܡܘܕܥܢܘܬܐ ܕܝܘܟܘܢ. ܩܪܝ ܡܛܠ <privacyLink> ܦܘܪܢܣܐ ܕܝܠܢܝܘܬܐ <privacyLink/>.
+privacy-info = ܐܚܢܢ ܫܘܕܘܝܐ (ܩܘܘܠܐ) ܝܘܚ ܩܬ ܢܛܪܟ ܡܘܕܥܢܘܬܐ ܕܝܘܟܘܢ. ܩܪܝܡܘܢ <privacyLink> ܦܘܪܢܣܐ ܕܕܝܠܢܝܘܬܐ <privacyLink/>.
 return-to-cv = ܕܥܪ ܠܩܠܐ ܓܘܢܝܐ
 email-input =
     .label = ܐܝܡܝܠ
@@ -11,6 +11,7 @@ loading = ܡܛܥܢܬܐ ...
 email-opt-in-info = ܐܢܐ ܒܥܝܢ ܩܒܠܢ ܐܝܡܝܠ ܐܝܟ ܕܡܥܗܕ̈ܢܘܬܐ ܕܢܝܫ̈ܐ، ܚܘܕ̈ܬܐ ܕܪܗܬܝ ܘ ܛܒܐ ܡܛܠ ܩܠܐ ܓܘܢܝܐ.
 email-opt-in-info-title = ܫܘܬܦ ܥܡ ܣܕܪܐ ܕܒܝܠܕܪܝܐ ܕܩܠܐ ܓܘܢܝܐ.
 email-opt-in-info-sub-with-challenge = ܩܒܠܘܢ ܐܝܡܝܠ (email) ܐܝܟ ܡܘܪܝ̈ܐ (challenges)، ܡܥܗܕ̈ܢܘܬܐ ܕܢܝܫ̈ܐ (goal reminders)، ܚܘܕ̈ܬܐ ܕܪܗܬܝ (progress updates) ܘ ܛܒܐ ܡܛܠ ܩܠܐ ܓܘܢܝܐ.
+email-opt-in-privacy-v2 = ܒܫܪܟܬܐ ܕܐܝܡܝܠ، ܐܚܬܘܢ ܠܝܬ ܠܘܟܘܢ ܕܘܪܫܐ ܒܡܕܒܪܢܘܬܐ ܕܡܘܙܝܠܐ (mozilla) ܒܕܐܗܐ ܡܘܕܥܢܘܬܐ (information) ܐܝܟ ܝܠܗ ܡܘܕܥܝܬܐ ܓܘ <privacyLink> ܫܘܝܫܐ ܕܕܝܠܢܝܘܬܐ <privacyLink/> ܕܡܘܙܝܠܐ.
 not-available-abbreviation = ܠܐ ܡܬܬܥܒܕܢܐ
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
