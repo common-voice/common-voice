@@ -14,6 +14,7 @@ email-opt-in-info-sub-with-challenge = ܩܒܠܘܢ ܐܝܡܝܠ (email) ܐܝܟ ܡܘ
 email-opt-in-privacy-v2 = ܒܫܪܟܬܐ ܕܐܝܡܝܠ، ܐܚܬܘܢ ܠܝܬ ܠܘܟܘܢ ܕܘܪܫܐ ܒܡܕܒܪܢܘܬܐ ܕܡܘܙܝܠܐ (mozilla) ܒܕܐܗܐ ܡܘܕܥܢܘܬܐ (information) ܐܝܟ ܝܠܗ ܡܘܕܥܝܬܐ ܓܘ <privacyLink> ܫܘܝܫܐ ܕܕܝܠܢܝܘܬܐ <privacyLink/> ܕܡܘܙܝܠܐ.
 indicates-required = * ܒܪܫܡܐ ܝܠܗ ܚܩܠܢ̈ܐ ܐܢܢܩܝ̈ܐ.
 not-available-abbreviation = ܠܐ ܡܬܬܥܒܕܢܐ
+banner-error-slow-1 = ܦܚܠܬܐ، ܩܠܐ ܓܘܢܝܐ ܦܠܚܢܐ ܝܠܗ ܝܩܘܪܐ. ܒܣܝܡܐ ܩܐ ܚܦܝܛܘܬܐ ܕܝܘܟܘܢ.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
