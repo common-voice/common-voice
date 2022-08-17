@@ -166,6 +166,7 @@ profile-form-language =
     .label = ܠܫܢܐ
 profile-form-variant =
     .label = ܕܡܢ ܠܥܙܐ ܕ{ $language } ܟܐ ܗܡܙܡܝܬܘܢ؟
+profile-form-variant-default-value = ܠܥܙܐ ܠܐ ܦܪܝܫܐ
 profile-form-accent =
     .label = ܡܡܠܠܐ
 profile-form-age =
