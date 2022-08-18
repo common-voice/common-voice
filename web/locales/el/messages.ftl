@@ -863,7 +863,7 @@ contribute-more =
         [one] Έτοιμοι να κάνετε { $count } ακόμη;
        *[other] Έτοιμοι να κάνετε { $count } ακόμη;
     }
-record-cta = Έναρξη εγγραφής
+record-cta = Έναρξη καταγραφής
 record-platform-not-supported = Δυστυχώς, η πλατφόρμα σας δεν υποστηρίζεται ακόμα.
 record-platform-not-supported-desktop = Σε υπολογιστές, μπορείτε να συνεισφέρετε κάνοντας λήψη…
 record-platform-not-supported-ios-non-safari = Στο iOS παρακαλούμε συνεχίστε με το Safari για ενεργοποίησης ηχογράφησης…
