@@ -1,12 +1,12 @@
 ## General
 
-yes-receive-emails = Бале, ба ман паёмҳои электрониро фиристед. Ман мехоҳам оиди лоиҳаи «Common Voice» бохабар бошам.
+yes-receive-emails = Бале, ба ман паёмҳои электрониро фиристед. Ман мехоҳам, ки оид ба лоиҳаи «Common Voice» бохабар бошам.
 stayintouch = Мо дар Mozilla аз паи бунёди ҷомеа атрофи технологияҳои забонҳо ҳастем. Мо мехоҳем, ки шумо аз навигариҳо, манбаъҳои нави маълумот бохабар бошед ва бифаҳмем, ки шумо чӣ гуна ин маълумотҳоро истифода мебаред.
 privacy-info = Мо ваъда медиҳем, ки маълумоти шуморо эҳтиёткорона коркард мекунем. Маълумоти бештарро дар <PrivacyLink>Огоҳиномаи махфият</ PrivacyLink> хонед.
 return-to-cv = Бозгашт ба «Common Voice»
 email-input =
     .label = Почтаи электронӣ
-submit-form-action = Ирсол
+submit-form-action = Пешниҳод кардан
 loading = Бор шуда истодааст…
 email-opt-in-info = Ман мехоҳам, ки паёмҳои электрониро ба монанди ёдовариҳо оид ба ҳадафҳо, навигариҳо оид ба пешрафтҳои ман ва паёмҳои иттилоотӣ оид ба «Common Voice» қабул намоям.
 email-opt-in-info-title = Ба рӯйхати «Common Voice» мактубҳо обуна шавед
@@ -334,6 +334,7 @@ visible = Намоён
 native-language =
     .label = Забони модарӣ
 profile-form-add-accent = Илова кардани лаҳҷаи нави "{ $inputValue }"
+profile-form-submit-save = Нигоҳ доштан
 profile-form-submit-saved = Нигоҳ дошта шуд
 male = Мард
 female = Зан
