@@ -333,7 +333,7 @@ hidden = Ноаён
 visible = Намоён
 native-language =
     .label = Забони модарӣ
-profile-form-add-accent = Илова кардани лаҳҷаи нави "{ $inputValue }"
+profile-form-add-accent = Илова кардани лаҳҷаи фармоишии нави «{ $inputValue }»
 profile-form-submit-save = Нигоҳ доштан
 profile-form-submit-saved = Нигоҳ дошта шуд
 male = Мард
@@ -364,7 +364,7 @@ on = Фаъол
 ## Profile - Email
 
 browse-file-title = Бор кардани файли тасвирӣ
-connect-gravatar = Бо Gravatar пайваст шавед
+connect-gravatar = Бо «Gravatar» пайваст шавед
 file_too_large = Файли интихобшуда хеле калон аст
 avatar-uploaded = Аватар бор карда шуд
 
