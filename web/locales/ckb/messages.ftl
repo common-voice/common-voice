@@ -180,6 +180,7 @@ yue = کانتۆنی (چین)
 zh-CN = چینی (چین)
 zh-HK = چینی (هۆنگ کۆنگ)
 zh-TW = چینی (تایوان)
+zu = زولوو
 
 # [/]
 
@@ -519,6 +520,8 @@ about-playbook-what-is-language-content-2 = ئێمە دەمانەوێت مۆدێ
 
 about-playbook-how-add-language = چۆن زمانێک زیاد بکەم؟
 about-playbook-how-add-language-content-1 = سەرەتا، بزانە ئاخۆ زمانەکەت <languageLink> بەردەست نییە</languageLink>. ئەگەر نییە ئەوا پێویستە <strong> ماڵپەڕەکە وەرگێڕیت و ڕستەکان کۆبکەیتەوە</strong>.
+about-playbook-how-add-language-translating-heading = وەرگێڕانی سایتەکە
+about-playbook-how-add-language-collecting-sentences-heading = کۆکردنەوەی ڕستەکان
 
 ## How does localization work
 
