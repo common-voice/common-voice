@@ -199,7 +199,11 @@ why-profile-title = ܩܐ ܡܘܕܝ ܟܐ ܒܥܝܢ ܦܐܬܐ ܕܚܒܝܣܬܐ؟
 build-profile = ܒܢܝ ܦܐܬܐ ܕܚܒܝܣܬܐ
 goals = ܢܝ̈ܫܐ
 edit-profile = ܫܚܠܦ ܦܐܬܐ ܕܚܒܝܫܬܐ
+profile-create-success = ܟܫܝܪܘܬܐ، ܦܐܬܐ ܕܚܒܝܫܬܐ ܦܝܫܬܐ ܝܠܗ ܒܢܝܬܐ!
 profile-close = ܕܥܘܪ
+accept-privacy-title = ܫܘܝܫܐ ܕܕܝܠܢܝܘܬܐ
+login-signup = ܐܘܪ / ܒܢܝ ܚܫܒܘܢܐ
+edit = ܫܚܠܦ
 
 ## Profile - Email
 
