@@ -157,10 +157,14 @@ shortcut-record-toggle = ܡ
 shortcut-record-toggle-label = ܡܟܬܒ/ܟܠܝ
 shortcut-rerecord-toggle = [1-5]
 shortcut-submit = ܕܥܪ
+request-language-button = ܛܠܒ ܠܫܢܐ
 
 ## ProjectStatus
 
-status-contribute = ܗܲܒ݇ܠ ܩܠܘܟܘܢ
+status-contribute = ܗܒܠ ܩܠܘܟܘܢ
+# Variables:
+# $goal - number of hours representing the next goal
+status-goal = ܢܝܫ̈ܐ ܕܐܬܐ: { $goal }
 english = ܐܢܓܠܣ
 
 ## ProfileForm
