@@ -121,7 +121,7 @@ x-years-short =
     }
 help-make-dataset = ܥܕܪ ܩܬܢ ܩܐ ܒܢܝܬܐ ܕ
 sign-up-account = ܡܟܬܒ ܚܘܫܒܢܐ
-email-subscription-title = ܡܟܬܒ ܠܩܒܠܬܐ ܚܕܬ ܒܐܝܡܝܠ
+email-subscription-title = ܡܟܬܒ ܠܩܒܠܬܐ ܚܘܕ̈ܬܐ ܒܐܝܡܝܠ
 
 ## Account Benefits
 
@@ -205,12 +205,15 @@ accept-privacy-title = ܫܘܝܫܐ ܕܕܝܠܢܝܘܬܐ
 login-identity = ܗܝܝܘܬܐ ܕܥܠܠܐ
 login-signup = ܥܘܠ / ܒܢܝ ܚܫܒܘܢܐ
 edit = ܫܚܠܦ
+email-subscriptions = ܫܪ̈ܟܬܐ ܕܐܝܡܝܠ
 
 ## Profile - Email
 
 
 ## Profile - Email
 
+manage-subscriptions = ܬܓܒܪ ܫܪ̈ܟܬܐ
+manage-email-subscriptions = ܬܓܒܪ ܫܪ̈ܟܬܐ ܕܐܝܡܝܠ
 
 ## FAQ
 
