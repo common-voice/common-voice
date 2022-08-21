@@ -72,6 +72,7 @@ speak-now = ܐܡܪ ܗܫܐ
 datasets = ܣܕܪ̈ܐ ܕܫܘܘܕ̈ܥܐ
 languages = ܠܫܢ̈ܐ
 about = ܡܢܝ ܝܘܚ
+profile = ܦܐܬܐ ܕܚܒܝܫܬܐ
 help = ܥܘܕܪܢܐ
 contact = ܐܣܪܐ
 privacy = ܕܝܠܢܝܘܬܐ
