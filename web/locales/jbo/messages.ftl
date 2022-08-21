@@ -185,6 +185,8 @@ data-download-deny = na go'i
 
 ## Languages Overview
 
+language-search-input =
+    .placeholder = sisku
 sentences = jufra
 language-validation-hours = cacra
 
