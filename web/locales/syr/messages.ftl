@@ -202,7 +202,8 @@ edit-profile = ܫܚܠܦ ܦܐܬܐ ܕܚܒܝܫܬܐ
 profile-create-success = ܟܫܝܪܘܬܐ، ܦܐܬܐ ܕܚܒܝܫܬܐ ܦܝܫܬܐ ܝܠܗ ܒܢܝܬܐ!
 profile-close = ܕܥܘܪ
 accept-privacy-title = ܫܘܝܫܐ ܕܕܝܠܢܝܘܬܐ
-login-signup = ܐܘܪ / ܒܢܝ ܚܫܒܘܢܐ
+login-identity = ܗܝܝܘܬܐ ܕܥܠܠܐ
+login-signup = ܥܘܠ / ܒܢܝ ܚܫܒܘܢܐ
 edit = ܫܚܠܦ
 
 ## Profile - Email
