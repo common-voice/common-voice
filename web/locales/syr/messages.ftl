@@ -90,6 +90,7 @@ show-wall-of-text = ܩܪܝ ܝܬܝܪ
 vote-yes = ܗܐ
 vote-no = ܠܐ
 speak-subtitle = ܗܒ݇ܠܘܢ ܩܠܘܟ݂ܘܢ
+help-reach-goal = ܥܕܪ ܩܕ ܕܝܝܢ ܡܛܚ ܥܠ { $goal }
 all-locales = ܟܠ
 today = ܐܕܝܘܡ
 x-weeks-short =
