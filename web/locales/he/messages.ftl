@@ -488,6 +488,7 @@ about-playbook-how-record-quality = איך אפשר להקליט קטע קולי
 about-playbook-how-record-content-1 = חשוב לדבר בקול הרגיל שלך! דרך הדיבור הרגילה שלך חשובה לנו - אנחנו רוצים את המבטא שלך כמו שהוא ובעוצמת השמע, הסגנון והאינטונציה הרגילים שלך.
 about-playbook-how-record-content-2 = רצוי להימנע מרעשי רקע מיותרים - אמורים לשמוע אותך בבירור.
 about-playbook-how-record-content-3 = יש לקרוא את המשפט בקפידה - לא להשמיט, לשנות או להוסיף מילים.
+about-playbook-how-record-content-5 = <accuracyLink>מידע נוסף על תנאי דיוק.</accuracyLink>
 
 ## How to grow language
 
@@ -496,6 +497,7 @@ about-playbook-how-grow-language-content-4 = מדיה חברתית
 
 ## How to validate
 
+about-playbook-how-validate = איך אוכל לדעת אם לאשר מקטע קולי?
 about-playbook-how-validate-content-4 = אם קטע נדחה על־ידי 2 אנשים הוא משוחרר לסדרת נתונים אחרת.
 
 ## How to access dataset
