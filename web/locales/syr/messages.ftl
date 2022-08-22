@@ -120,7 +120,7 @@ x-years-short =
         [many] ܫܢܝ̈ܐ
        *[other] ܫܢܝ̈ܐ
     }
-help-make-dataset = ܥܕܪ ܩܬܢ ܩܐ ܒܢܝܬܐ ܕ
+help-make-dataset = ܥܕܪ ܩܬܢ ܩܐ ܒܢܝܬܐ ܕܚܕ ܣܕܪܐ ܫܘܘܕܥܝܐ (dataset) ܕܝܠܗ ܐܝܢܝܘܬܐ ܥܠܝܬܐ (high quality) ܘ ܦܬܝܚܐ ܩܐ ܟܠ ܚܕ ܐ̄ܢܫܐ
 sign-up-account = ܡܟܬܒ ܚܘܫܒܢܐ
 email-subscription-title = ܡܟܬܒ ܠܩܒܠܬܐ ܚܘܕ̈ܬܐ ܒܐܝܡܝܠ
 email-subscription-title-new = ܡܟܬܒ ܠܩܒܠܬܐ ܛܒܐ، ܡܥܗܕ̈ܢܘܬܐ ܕܢܝܫ̈ܐ‌ (goal reminders) ܘ ܚܘܕ̈ܬܐ ܕܪܗܬܐ (progress updates) ܕܩܠܐ ܓܘܢܝܐ
