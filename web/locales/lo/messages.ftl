@@ -190,6 +190,7 @@ today = ມື້ນີ້
 
 ## Listen Shortcuts
 
+shortcut-play-toggle-label = ຫຼິ້ນ/ຢຸດ
 
 ## Speak Shortcuts
 
@@ -210,6 +211,8 @@ profile-form-additional-language =
     .label = ພາສາເພີ່ມເຕີມ
 profile-form-language =
     .label = ພາສາ
+profile-form-gender-2 =
+    .label = ເພດ
 hidden = ເຊື່ອງ
 native-language =
     .label = ພາ​ສາ​ແມ່
@@ -217,6 +220,9 @@ profile-form-submit-save = ບັນທຶກ
 profile-form-submit-saved = ບັນທຶກແລ້ວ
 # Gender
 other = ອື່ນໆ
+goals = ເປົ້າໝາຍ
+settings = ການຕັ້ງຄ່າ
+edit-profile = ແກ້ໄຂໂປຣໄຟລ໌
 profile-close = ປິດ
 accept-privacy-title = ນະໂຍບາຍຄວາມເປັນສ່ວນຕົວ
 edit = ແກ້ໄຂ
@@ -232,6 +238,7 @@ add-language = ເພີ່ມພາສາ
 
 ## FAQ
 
+faq-title = ຄຳຖາມທີ່ຖືກຖາມເລື້ອຍໆ
 faq-why-important-q = ເປັນຫຍັງມັນຈຶ່ງສໍາຄັນ?
 
 ## ABOUT US
