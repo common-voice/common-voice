@@ -541,17 +541,24 @@ about-get-involved-text-2 =
 about-stay-in-touch = মই কেনেকৈ যোগাযোগত থাকিম?
 about-stay-in-touch-button = ছাইন আপ কৰক
 about-stay-in-touch-text-1 = আপুনি কেনেকৈ কমন ভইচত অভিযান, অনুষ্ঠান আৰু সহ-পৰিকল্পনাৰ সুবিধাসমূহত অংশগ্ৰহণ কৰিব পাৰিব— সেই বিষয়ে জানিবলৈ আমাৰ মেইলিং লিষ্টত <emailFragment>ছাইন আপ কৰক</emailFragment>।
+about-stay-in-touch-text-2 = আপুনি সাময়িক কথা-বতৰাৰ বাবে <discourseLink>Discourse</discourseLink>-ত যোগদান কৰি বা খৰতকীয়া পৰামৰ্শৰ বাবে <matrixLink>Matrix</matrixLink>-ত যোগদান কৰি Mozilla-ৰ ভাষিক সমাজবোৰত আনক লগ কৰিব পাৰে।
 about-nav-why-common-voice = কিয় ?
 about-nav-how-it-works = কেনেকৈ ?
 about-nav-partners = অংশীদাৰ
 about-nav-get-involved = জড়িত হওক
+about-nav-how-it-works-2 = কমন ভইচ কেনেকৈ কাম কৰে?
+about-nav-playbook = কেনেকৈ অংশগ্ৰহণ কৰিব জানি লওক
 
 ## Community Playbook Content
 ## What is a language
 
+about-playbook-what-is-language = কমন ভইচত ভাষা কাক বোলা হয়?
+about-playbook-what-is-language-content-1 = ভাষাৰ বিষয়ে ভবাৰ বহুতো উপায় আছে। কথন চিনাক্তকৰণ আৰ্হিৰ উদ্দেশ্যে কমন ভইচে ‘পাৰস্পৰিক বোধগম্যতা’ অৰ্থাৎ ‘এই ভাষাৰ কওঁতাসকলে চেষ্টা কৰিলে ইজনে সিজনক সৰহকৈ বুজিব পাৰিবনে?’— সেইটোত মনোনিৱেশ কৰাৰ পৰামৰ্শ দিয়ে।
 
 ## How do I add a language
 
+about-playbook-how-add-language = মই ভাষা কেনেকৈ যোগ কৰিব পাৰিম?
+about-playbook-how-add-language-collecting-sentences-heading = বাক্য গোটোৱা
 
 ## How does localization work
 
