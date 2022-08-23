@@ -572,6 +572,10 @@ about-playbook-how-add-language-translating-content-2 =
     <githubRepoLink>GitHub-ত নতুন ভাষাৰ অনুৰোধ কৰক</githubRepoLink>। <localizationFragment>ছাইটৰ অনুবাদ সম্বন্ধে অধিক চাওক</localizationFragment>।
 about-playbook-how-add-language-collecting-sentences-heading = বাক্য গোটোৱা
 about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>বাক্য গোটোৱা সঁজুলিৰ ব্যৱহাৰ-সম্পৰ্কীয় আমাৰ নিৰ্দেশনা চাওক</sentenceCollectorVideo>।
+about-playbook-how-add-language-collecting-sentences-content-2 =
+    আপুনি <sentenceCollectorLinkAdd>কম সংখ্যক বাক্য যোগ কৰিব</sentenceCollectorLinkAdd> পাৰে,
+    বা আপুনি <bulkImportDocsLink>Github ব্যৱহাৰ কৰি সমূহীয়া আমদানি</bulkImportDocsLink> কৰিব পাৰে।
+    মনত ৰাখিব যে বাক্যবোৰ <licenseLink>CC0 (বা ৰাজহুৱা ডমেইন)</licenseLink>ৰ হোৱাটো প্ৰয়োজনীয় বা আপুনি নিজে লিখিব পাৰে।
 
 ## How does localization work
 
@@ -584,6 +588,7 @@ about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollec
 
 ## How to grow language
 
+about-playbook-how-grow-language-content-6 = অংশীদাৰিত্ব আৰু নেটৱৰ্কবোৰ
 
 ## How to validate
 
@@ -736,6 +741,8 @@ other-language = অন্য ভাষাসমূহ
 
 ## Request Language Pages
 
+request-language-form-info-explanation-list-1 = আপোনাৰ ভাষাৰ নামবোৰ
+request-language-form-info-explanation-list-2 = <isoCodeLink>ISO ক'ডবোৰ</isoCodeLink> যদি জানে
 
 ## Languages Overview
 
@@ -752,6 +759,8 @@ language-search-input =
 language-speakers = কওঁতা
 localized = স্থানীয়কৃত
 sentences = বাক্য
+language-validation-hours = ঘণ্টা
+language-validation-progress = বৈধকৰণৰ প্ৰগতি
 
 ## Contribution
 
@@ -1170,9 +1179,25 @@ sc-stats-error = আমি পৰিসংখ্যা আনিব নোৱা
 
 ## ADD
 
+sc-submit-err-select-lang = অনুগ্ৰহ কৰি এটা ভাষা বাছনি কৰক।
+sc-submit-err-add-sentences = অনুগ্ৰহ কৰি বাক্য যোগ কৰক।
+sc-submit-err-add-source = অনুগ্ৰহ কৰি এটা উৎস যোগ কৰক।
+sc-submit-err-confirm-pd = অনুগ্ৰহ কৰি নিশ্চিত কৰক যে এই বাক্যবোৰ ৰাজহুৱা ডমেইনৰ।
+sc-submit-prompt =
+    .message = বাক্যবোৰ দাখিল কৰা হোৱা নাই, আপুনি এৰিবলৈ বিচৰাটো নিশ্চিতনে?
+sc-submit-title = বাক্য যোগ কৰক
+sc-submit-select-language =
+    .labelText = ভাষা বাছনি কৰক
+sc-submit-add-sentences = <wikipediaLink>ৰাজহুৱা ডমেইন</wikipediaLink>ৰ বাক্য যোগ কৰক
+sc-submit-ph-one-per-line =
+    .placeholder = প্ৰতি শাৰীত এটাকৈ বাক্য
+sc-submit-button =
+    .submitText = দাখিল কৰক
 
 ## ADD LANGUAGE
 
+sc-add-lang-could-not-add = ভাষা যোগ কৰিব পৰা নগ'ল
+sc-add-lang-sec-button = ভাষা যোগ কৰক
 
 ## ADD SENTENCES CONFIRMATION
 
