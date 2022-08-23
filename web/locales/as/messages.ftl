@@ -131,6 +131,7 @@ nia = নিয়াছ
 nl = ডাট্‌চ
 nn-NO = ন'ৰ্ৱেইয়ান নিন'ৰ্স্ক
 nr = ন্দেবেলে (দক্ষিণ)
+nso = উদীচ্য ছোতো
 nyn = নিয়ানক'লে
 oc = অ'ক্কিটান
 or = ওড়িয়া
@@ -500,6 +501,15 @@ about-localization-title = ৱেবছাইট স্থানীয়কৰণ
 about-localization-subtitle = ৱেবছাইটৰ পাঠবোৰ সেই ভাষালৈ অনুবাদ কৰা হয়।
 about-sentence-collection-title = বাক্য-সংগ্ৰহ
 about-sentence-collection-subtitle = মানুহে উচ্চস্বৰে পঢ়িব পৰাকৈ বাক্য সংগ্ৰহ কৰা হয়।
+about-new-lang-title = নতুন ভাষাৰ উদ্বোধন
+about-new-lang-subtitle = আমি এই ভাষাত কমন ভইচ ছাইট মুকলি কৰোঁ।
+about-voice-contrib-title = মাত-অৱদান
+about-voice-contrib-subtitle = মানুহে আহি নিজৰ মাত দান কৰে।
+about-voice-validation-title = মাত-বৈধকৰণ
+about-voice-validation-subtitle = অন্য লোকে সেই ভইচ ক্লিপবোৰ বৈধকৃত কৰে।
+about-dataset-release-title = ডাটাছেটৰ মুক্তিলাভ
+about-dataset-release-subtitle = আমি 3 মাহৰ মূৰে-মূৰে ডাটাছেট মুকলি কৰোঁ।
+about-subscribe-text = কমন ভইচৰ সৈতে যোগাযোগত থাকিব বিচাৰেনে?
 about-speak = কথা কওক
 about-speak-text = দান কৰা বাক্যৰ বেংকৰ পৰা পঢ়ি অৱদানকাৰীসকলে ভইচ ক্লিপবোৰ ৰেকৰ্ড কৰে।
 about-listen-queue = শুনা-শাৰী
@@ -521,6 +531,9 @@ about-get-involved-text-2 =
     কমন ভইচক আৰু উন্নত কৰাত সহায় কৰিব খোজেনে?
     বঢ়িয়া! ইমেইল বা <discourseLink>Discourse</discourseLink>
     ফ'ৰামসমূহৰ যোগেদি যোগাযোগ কৰক, <githubLink>GitHub</githubLink>-ৰ যোগেদি ছাইটৰ সমস্যা দাখিল কৰক নাইবা <matrixLink>Matrix</matrixLink> কমিউনিটী চ্চেটত যোগদান কৰক।
+about-stay-in-touch = মই কেনেকৈ যোগাযোগত থাকিম?
+about-stay-in-touch-button = ছাইন আপ কৰক
+about-stay-in-touch-text-1 = আপুনি কেনেকৈ কমন ভইচত অভিযান, অনুষ্ঠান আৰু সহ-পৰিকল্পনাৰ সুবিধাসমূহত অংশগ্ৰহণ কৰিব পাৰিব— সেই বিষয়ে জানিবলৈ আমাৰ মেইলিং লিষ্টত <emailFragment>ছাইন আপ কৰক</emailFragment>।
 about-nav-why-common-voice = কিয় ?
 about-nav-how-it-works = কেনেকৈ ?
 about-nav-partners = অংশীদাৰ
