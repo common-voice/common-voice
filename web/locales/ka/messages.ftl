@@ -621,13 +621,13 @@ about-playbook-how-grow-language-content-8 = <strong>მიუდექით �
 about-playbook-how-validate = როგორ გავიგო, მისაღებია თუ არა ხმოვანი ჩანაწერი?
 about-playbook-how-validate-content-1 = თუ <strong>გესმით მკაფიოდ</strong> და <strong>იგებთ შინაარსს</strong>, უმეტესად <strong>მისაღებია</strong>.
 about-playbook-how-validate-content-2 = <strong>არ უარყოთ ჩანაწერები, თუ მოსაუბრეს თქვენგან განსხვავებული „აქცენტი აქვს“</strong> – ეს მეტად მნიშვნელოვანია ხმის ამომცნობისთვის, რომ ყველას გაგება შეეძლოს.
-about-playbook-how-validate-content-3 = თუ მიგაჩნიათ, რომ გამოთქმის თავისუბერება <strong>შეუძლებელს ხდის აზრის გამოტანას</strong> ან <strong>მაღალი ხმაურია ფონზე</strong>, ანდაც <strong>სხვა ვინმეც ლაპარაკობს</strong>, მაშინ უნდა უარყოთ ჩანაწერი. <accuracyLink>იხილეთ ვრცლად, წვლილის სწორად შეტანის შესახებ</accuracyLink>.
+about-playbook-how-validate-content-3 = თუ მიგაჩნიათ, რომ გამოთქმის თავისუბერება <strong>შეუძლებელს ხდის აზრის გამოტანას</strong> ან <strong>მაღალი ხმაურია ფონზე</strong>, ანდაც <strong>სხვა ვინმეც ლაპარაკობს</strong>, მაშინ უნდა უარყოთ ჩანაწერი. <accuracyLink>იხილეთ ვრცლად წვლილის სწორად შეტანის შესახებ</accuracyLink>.
 about-playbook-how-validate-content-4 = თუ ჩანაწერს უარყოფს 2 ადამიანი, გამოქვეყნებისას განთავსებული იქნება მონაცემთა კრებულის ცალკე ქვეჯგუფში.
 
 ## How to access dataset
 
 about-playbook-how-access-dataset = როგორ გამოვიყენო მონაცემთა კრებული?
-about-playbook-how-access-dataset-content-1 = შეგიძლიათ გადახვიდეთ <datasetsPage>მონაცემთა კრებულის გვერდზე</datasetsPage>, აირჩიოთ ვერსია, მიუთითოთ სასურველი ენა (ენები) და ჩამოტვირთოთ! ხმოვან ფაილებს <metadataLink>დართული ექნება მონაცემები</metadataLink>, მათ შორის დემოგრაფიული ინფორმაცია და მოხალისეების შეფასებები. დაგჭირდებათ ელფოსტის შეყვანა, კრებულის ჩამოსატვირთად.
+about-playbook-how-access-dataset-content-1 = შეგიძლიათ, გადახვიდეთ <datasetsPage>მონაცემთა კრებულის გვერდზე</datasetsPage>, აირჩიოთ ვერსია, მიუთითოთ სასურველი ენა (ენები) და ჩამოტვირთოთ! ხმოვან ფაილებს <metadataLink>ახლავს დანართი</metadataLink>, რომელიც შეიცავს დემოგრაფიულ ინფორმაციასა და მოხალისეთა შეფასებებს. დაგჭირდებათ ელფოსტის შეყვანა კრებულის ჩამოსატვირთად.
 about-playbook-how-access-dataset-content-2 = თუ ეძებთ ხელსაწყოებს ხმის ამომცნობი (ASR) მოდელის ასაგებად, შეგიძლიათ დაუკავშირდეთ ჩვენი ერთობის სხვა წევრებს <discourseLink>Discourse-ზე</discourseLink>.
 
 ## How are decisions made
@@ -659,8 +659,8 @@ de-identified-explanation = მოხალისეების პროფი
 
 error-title-404 = გვერდი ვერ მოიძებნა
 error-content-404 = იქნებ ჩვენი <homepageLink>მთავარი გვერდი</homepageLink> დაგეხმაროთ? კითხვის დასასმელად, შემოუერთდით <matrixLink>Matrix-ის ერთობის სასაუბროს</matrixLink>, საიტის ხარვეზების შესახებ იხილეთ <githubLink>GitHub</githubLink> ან ეწვიეთ <discourseLink>ჩვენს Discourse-ფორუმებს</discourseLink>.
-error-title-503 = საიტის მუშაობის დაუგეგმავი შეჩერება
-error-content-503 = საიტი აღდგება უმოკლეს დროში. უახლესი ინფორმაციისთვის, გთხოვთ შემოუერთდეთ <matrixLink>Matrix-ის ერთობის სასაუბროს</matrixLink>, ან იხილოთ <githubLink>GitHub</githubLink> და ეწვიეთ <discourseLink>ჩვენს Discourse-ფორუმებს</discourseLink>, ხარვეზების მოსახსენებლად.
+error-title-503 = საიტის მუშაობა შეწყვეტილია დაუგეგმავად
+error-content-503 = საიტი აღდგება უმოკლეს დროში. უახლესი ინფორმაციისთვის, გთხოვთ შემოუერთდეთ <matrixLink>Matrix-ის ერთობის სასაუბროს</matrixLink> ან იხილოთ <githubLink>GitHub</githubLink>, ხარვეზების მოსახსენებლად კი ეწვიეთ <discourseLink>ჩვენს Discourse-ფორუმებს</discourseLink>.
 error-code = შეცდომა { $code }
 
 ## Data
