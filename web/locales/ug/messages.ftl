@@ -584,6 +584,7 @@ about-playbook-how-grow-language-content-6 = ھەمكارلىق ۋە تور
 ## How to validate
 
 about-playbook-how-validate = ئاۋازلىق  تەستىقلاش ياكى تەستىقلىماسلىقنى قانداق بىلىمەن؟
+about-playbook-how-validate-content-4 = ئەگەر بىر ئاۋاز 2 ئادەم تەرىپىدىن رەت قىلىنسا ، ئۇ سانلىق مەلۇمات توپلىمىنىڭ باشقا تارماق قىسمىدا تارقىتىلىدۇ.
 
 ## How to access dataset
 
@@ -989,6 +990,7 @@ download-q = ئۇچۇرلىرىڭىزنى چۈشۈرەمسىز؟
 download-info = چۈشۈرمەكچى بولغان نەرسىنى بىزگە ئېيتىپ بېرىڭ:
 download-profile-title = تەرجىمىھال
 download-recordings-title = ئۈن خاتىرىسى
+download-recordings-size = ئادەتتە مېگابايت
 download-size = چوڭلۇقى
 download-selected = تاللانغان
 download-start = ئارخىپ ئۇچۇرىنى چۈشۈرۈش
@@ -996,6 +998,7 @@ download-request = خاتىرىلەشنى سوراش
 download-requests = ئىلگىرىكى خاتىرىلەرنى چۈشۈرۈش تەلىپى
 download-request-button = چۈشۈر
 download-request-title = { $created }
+download-request-archive-single = يەككە ZIP ھۆججىتى
 download-request-assembling-description = ماتىرياللىرىڭىز رەتلىنىۋاتىدۇ، سەل تۇرۇپ قايتا سىناڭ.
 download-request-refresh-button = يېڭىلا
 download-request-modal-title = ئۇلانمىلارنى چۈشۈر
