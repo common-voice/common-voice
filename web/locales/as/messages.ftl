@@ -560,6 +560,7 @@ about-playbook-what-is-language-content-3 = কিছুমান ভাষা�
 
 about-playbook-how-add-language = মই ভাষা কেনেকৈ যোগ কৰিব পাৰিম?
 about-playbook-how-add-language-translating-heading = ছাইট অনুবাদ কৰা
+about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Pontoon কেনেকৈ ব্যৱহাৰ কৰিব পাৰি— সেই সম্পৰ্কে আমাৰ নিৰ্দেশনা চাওক।</translateVideoLink>
 about-playbook-how-add-language-collecting-sentences-heading = বাক্য গোটোৱা
 about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>বাক্য গোটোৱা সঁজুলিৰ ব্যৱহাৰ-সম্পৰ্কীয় আমাৰ নিৰ্দেশনা চাওক</sentenceCollectorVideo>।
 
