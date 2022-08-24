@@ -18,9 +18,9 @@ export default class Statistics {
     const router = PromiseRouter();
 
     router.get('/downloads', this.downloadCount);
-    router.get('/clips/', this.clipCount);
+    router.get('/clips', this.clipCount);
     router.get('/users', this.userCount);
-    router.get('/sentences', this.userCount);
+    router.get('/sentences', this.sentenceCount);
 
     return router;
   }
@@ -34,18 +34,10 @@ export default class Statistics {
   };
 
   userCount = async (_response: Request, response: Response) => {
-    return response.json(await getTableStatistics(TableNames.CLIPS));
+    return response.json(await getTableStatistics(TableNames.USERS));
   };
 
   sentenceCount = async (_response: Request, response: Response) => {
     return response.json(await getTableStatistics(TableNames.SENTENCES));
   };
-
-  // getSpeakerStats = async ( _Request: Request, response: Response) => {
-  //   const { type: clipType } = params;
-
-  //   if (clipType) {
-  //     return getSpeakerCount;
-  //   }
-  // };
 }
