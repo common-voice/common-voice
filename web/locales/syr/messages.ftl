@@ -87,11 +87,12 @@ logout = ܦܠܘܛ
 
 home-cta = ܡܠܠ ܒܩܠܐ، ܫܘܬܦ ܠܐܟܐ!
 show-wall-of-text = ܩܪܝ ܝܬܝܪ
-help-us-title = ܥܕܪ ܩܬܢ ܒܫܪܘܪܐ ܕܡܐܡܪ̈ܐ!
+help-us-title = ܥܕܪ ܩܬܢ ܒܫܪܘܪܐ ܕܦܬܓܡ̈ܐ!
 vote-yes = ܗܐ
 vote-no = ܠܐ
 speak-subtitle = ܗܒ݇ܠܘܢ ܩܠܘܟ݂ܘܢ
 listen-subtitle = ܥܕܪ ܩܬܢ ܒܫܪܘܪܐ ܕܩܠ̈ܐ
+hours-validated = ܫܥ̈ܐ ܫܪܘܪ̈ܐ
 help-reach-goal = ܥܕܪ ܩܕ ܕܝܝܢ ܡܛܚ ܥܠ { $goal }
 all-locales = ܟܠ
 today = ܐܕܝܘܡ
