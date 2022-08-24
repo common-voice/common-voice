@@ -22,3 +22,10 @@ export type LanguageStatistics = BaseLanguage & {
   localizedPercentage: number;
   locale?: string;
 };
+
+export enum TableNames {
+  DOWNLOADS = 'downloaders',
+  CLIPS = 'clips',
+  USERS = 'user_clients',
+  SENTENCES = 'sentences',
+}

@@ -1,15 +1,12 @@
 import lazyCache from '../lazy-cache';
 import { getMySQLInstance } from './db/mysql';
+import { TableNames } from 'common';
 
 const db = getMySQLInstance();
 
 type StatisticsCount = {
   total_count: number;
   date: string;
-};
-
-type StatisticTables = {
-  tableName: 'downloaders' | 'clips';
 };
 
 /**
@@ -27,11 +24,11 @@ const buildResponse = (data: any) => {
   return { ...data, metadata: getFetchMetadata() };
 };
 
-export const getDownloaderCount = lazyCache(
-  'download-stats',
-  async () => {
-    const { total_count } = (await getTotal('downloaders'))[0];
-    const monthly_count = await getMonthlyContributions('downloaders');
+export const getTableStatistics = lazyCache(
+  'get-table-statisticsx',
+  async (tableName: TableNames) => {
+    const { total_count } = (await getTotal(tableName))[0];
+    const monthly_count = await getMonthlyContributions(tableName);
 
     const monthlyContributions = monthly_count.map(row => {
       return { [row.date]: row.total_count };
@@ -55,7 +52,7 @@ export const getDownloaderCount = lazyCache(
 );
 
 const getMonthlyContributions = async (
-  tableName: 'downloaders' | 'clips'
+  tableName: TableNames
 ): Promise<StatisticsCount[]> => {
   const [rows] = await db.query(`
   SELECT
@@ -72,7 +69,7 @@ const getMonthlyContributions = async (
   return rows;
 };
 
-const getTotal = async (tableName: 'downloaders' | 'clips') => {
+const getTotal = async (tableName: TableNames) => {
   const [rows] = await db.query(`
     SELECT
     count(1) as total_count
