@@ -12,6 +12,7 @@ email-opt-in-info = .au te samymri tu'a lonu tergu'a rejgau .e lo nuzba be loni 
 email-opt-in-info-title = jongau fi lo te samymri liste pe la'o gy Common Voice gy
 banner-error-slow-1 = .u'u la'o gy Common Voice gy ca masno ki'e cinri
 banner-error-slow-2 = mi'a ca te cpedu du'e da gi'e catlu le nabmi
+banner-error-slow-link = tcini papri
 error-something-went-wrong = .u'u da nabmi
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
@@ -76,16 +77,26 @@ zh-CN = jugbau
 
 ## Layout
 
+speak = bacru
+speak-now = ko ca bacru
+datasets = datni cletu
 languages = bangu
+about = srana
+profile = datni be mi
 help = sidju
+contact = xelbe'i
+privacy = si'o sivni
 content-license-text = lo selfi'i cu gubni ta'i tu'a la'o gy <licenseLink>Creative Commons License</licenseLink> gy
 share-title = sidju lonu sisku tu'a lo dunda be tu'a lo voksa
 share-text = sidju lonu ctuca lo minji tu'a lo tadji be lonu bacru fa lo zirli .i ko dunda tu'a lo do voksa ta'i tu'a zoi .urli. { $link } .urli
+back-top = xruti fi lo gapru
 
 ## Home Page
 
+show-wall-of-text = za'o tcidu
 vote-yes = go'i
 vote-no = na go'i
+speak-subtitle = xau voksa ko
 all-locales = ro
 today = cabdei
 
@@ -193,9 +204,12 @@ language-validation-hours = cacra
 ## Contribution
 
 contribute = sidju
+listen = tirna
 
 ## Reporting
 
+report-other-comment =
+    .placeholder = pinka
 
 ## Goals
 
@@ -206,6 +220,7 @@ days =
 
 ## Dashboard
 
+you = do
 
 ## Custom Goals
 
