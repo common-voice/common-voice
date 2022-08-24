@@ -333,6 +333,7 @@ continue = ܐܡܢܐ
 ## Dashboard
 
 your-languages = ܠܫܢܘܟ݂ܘܢ
+clips-you-validated = ܡܐܡܪ̈ܐ ܫܪܝܪܝܬܘܢ
 validated-clips = ܡܐܡܪ̈ܐ ܫܪܝܪ̈ܐ
 
 ## Custom Goals
