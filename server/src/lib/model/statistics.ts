@@ -1,6 +1,6 @@
 import lazyCache from '../lazy-cache';
 import { getMySQLInstance } from './db/mysql';
-import { TableNames } from 'common';
+import { TableNames, TimeUnits } from 'common';
 
 const db = getMySQLInstance();
 
@@ -25,7 +25,7 @@ const buildResponse = (data: any) => {
 };
 
 export const getTableStatistics = lazyCache(
-  'get-table-statisticsx',
+  'get-table-statistics',
   async (tableName: TableNames) => {
     const { total_count } = (await getTotal(tableName))[0];
     const monthly_count = await getMonthlyContributions(tableName);
@@ -48,23 +48,23 @@ export const getTableStatistics = lazyCache(
       montly_running_totals: monthly_running_totals,
     });
   },
-  1
+  TimeUnits.DAY
 );
 
 const getMonthlyContributions = async (
   tableName: TableNames
 ): Promise<StatisticsCount[]> => {
   const [rows] = await db.query(`
-  SELECT
-    MAX(DATE_FORMAT(created_at, "%Y-%c-%d")) as date,
-    COUNT(id) as total_count
-  FROM
-    ${tableName} d
-  WHERE
-    created_at > now() - INTERVAL 12 MONTH
-  GROUP BY
-    DATE_FORMAT(created_at, "%Y-%c")
-  ORDER BY created_at DESC;
+    SELECT
+      MAX(DATE_FORMAT(created_at, "%Y-%c-%d")) as date,
+      COUNT(created_at) as total_count
+    FROM
+      ${tableName} d
+    WHERE
+      created_at > now() - INTERVAL 12 MONTH
+    GROUP BY
+      DATE_FORMAT(created_at, "%Y-%c")
+    ORDER BY created_at DESC;
   `);
   return rows;
 };
