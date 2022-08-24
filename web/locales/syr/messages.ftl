@@ -92,7 +92,8 @@ vote-yes = ܗܐ
 vote-no = ܠܐ
 speak-subtitle = ܗܒ݇ܠܘܢ ܩܠܘܟ݂ܘܢ
 listen-subtitle = ܥܕܪ ܩܬܢ ܒܫܪܘܪܐ ܕܩܠ̈ܐ
-hours-validated = ܫܥ̈ܐ ܫܪܘܪ̈ܐ
+listen-goal-text = ܡܐܡܪ̈ܐ ܫܪܝܪ̈ܐ
+hours-validated = ܫܥ̈ܐ ܫܪܝܪ̈ܐ
 help-reach-goal = ܥܕܪ ܩܕ ܕܝܝܢ ܡܛܚ ܥܠ { $goal }
 all-locales = ܟܠ
 today = ܐܕܝܘܡ
@@ -243,6 +244,7 @@ faq-how-get-q = ܕܐܟ݂ܝ ܟܐ ܩܢܝܢ ܫܘܘܕ̈ܥܐ ܕܩܠܐ ܓܘܢܝܐ؟
 
 ## How does it work section
 
+about-voice-validation-subtitle = ܢܫ̈ܐ ܐܚܪ̈ܢܐ ܫܪܝܪ̈ܐ ܝܢܐ ܐܢܝ ܡܐܡܪ̈ܐ.
 about-speak = ܡܠܠ
 about-dataset-new = ܣܕܪܐ ܕܫܘܘܕ̈ܥܐ ܕܩܠܐ ܓܘܢܝܐ
 about-nav-how-it-works = ܐܝܟܢܐ؟
@@ -289,6 +291,7 @@ review-cancel = ܒܛܘܠ ܫܕܪܬܐ
 
 ## Datasets Page
 
+validated-hours = ܫܥ̈ܐ ܫܪܝܪ̈ܐ
 
 ## Download Modal
 
@@ -330,6 +333,7 @@ continue = ܐܡܢܐ
 ## Dashboard
 
 your-languages = ܠܫܢܘܟ݂ܘܢ
+validated-clips = ܡܐܡܪ̈ܐ ܫܪܝܪ̈ܐ
 
 ## Custom Goals
 
