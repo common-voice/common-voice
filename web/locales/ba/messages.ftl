@@ -171,10 +171,12 @@ ve = Тшивендаса
 vec = Венецияса
 vi = Вьетнамса
 vot = Вотса
+xh = Косаса
 yue = Кантонса
 zh-CN = Ҡытайса (Ҡытай)
 zh-HK = Ҡытайса (Гонконг)
 zh-TW = Ҡытайса (Тайвань)
+zu = Зулусса
 
 # [/]
 
@@ -182,7 +184,7 @@ zh-TW = Ҡытайса (Тайвань)
 ## Layout
 
 speak = Һөйләү
-speak-now = Яҙа башлау
+speak-now = Һөйләй (яҙҙыра) башлау
 datasets = Йыйынтыҡ
 languages = Телдәр
 about = Беҙҙең турала
@@ -448,10 +450,17 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Ни өсөн Common Voice?
+how-does-it-work-title-v2 = Common Voice нисек эшләй?
 how-does-it-work-text = Беҙ асыҡ аудиояҙма йыйынтығын төҙөйбөҙ. Тауышығыҙ менән ярҙам итегеҙ, башҡаларҙыҡын тикшерегеҙ, был йыйнтыҡты бөтәһе өсөн дә яҡшыртығыҙ.
 
 ## How does it work section
 
+about-language-req-subtitle = Кемдер тел өҫтәүҙе һорай
+about-localization-title = Веб-сайтты локализациялау
+about-localization-subtitle = Веб-сайттың тексы был телгә тәржемә ителгән
+about-sentence-collection-subtitle = һөйләмдәр кешеләр ҡысҡырып уҡыһын өсөн  йыйылған
+about-new-lang-title = Яңы телде эшләтеп ебәреү
+about-new-lang-subtitle = Common Voice сайтын ошо телдә асабыҙ
 about-speak = Һөйләү
 about-speak-text = Ҡатнашыусылар ярҙам йөҙөнән йыйылған һөйләмдәрҙе уҡып, тауыш яҙмалары яҙҙыралар.
 about-listen-queue = Тыңлау сираты
@@ -474,6 +483,8 @@ about-nav-why-common-voice = Ни өсөн?
 about-nav-how-it-works = Нисек?
 about-nav-partners = Партнерҙар
 about-nav-get-involved = Ҡатнашыу
+about-nav-how-it-works-2 = Common Voice нисек эшләй?
+about-nav-playbook = Нисек ҡатнашырға, белегеҙ
 
 ## Community Playbook Content
 ## What is a language
@@ -481,12 +492,14 @@ about-nav-get-involved = Ҡатнашыу
 
 ## How do I add a language
 
+about-playbook-how-add-language-translating-heading = Сайтты тәржемә итеү
 
 ## How does localization work
 
 
 ## How to add sentences
 
+about-playbook-how-add-sentences = Нисек миңә һөйләм өҫтәргә?
 
 ## How to record quality
 
