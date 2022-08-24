@@ -166,6 +166,15 @@ request-language-button = ܛܠܒ ܠܫܢܐ
 ## ProjectStatus
 
 status-contribute = ܗܒܠ ܩܠܘܟܘܢ
+status-hours =
+    { $hours ->
+        [zero] { $hours } ܫܥ̈ܐ ܫܪܘܪ̈ܐ ܥܕܡܐ ܠܗܫܐ!
+        [one] { $hours } ܫܥܬܐ ܫܪܘܪܐ ܥܕܡܐ ܠܗܫܐ!
+        [two] { $hours } ܫܥ̈ܐ ܫܪܘܪ̈ܐ ܥܕܡܐ ܠܗܫܐ!
+        [few] { $hours } ܫܥ̈ܐ ܫܪܘܪ̈ܐ ܥܕܡܐ ܠܗܫܐ!
+        [many] { $hours } ܫܥ̈ܐ ܫܪܘܪ̈ܐ ܥܕܡܐ ܠܗܫܐ!
+       *[other] { $hours } ܫܥ̈ܐ ܫܪܘܪ̈ܐ ܥܕܡܐ ܠܗܫܐ!
+    }
 # Variables:
 # $goal - number of hours representing the next goal
 status-goal = ܢܝܫ̈ܐ ܕܐܬܐ: { $goal }
