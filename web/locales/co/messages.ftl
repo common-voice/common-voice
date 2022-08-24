@@ -324,6 +324,7 @@ profile-form-accent =
     .label = Accentu
 profile-form-custom-accent-help-text =
     .label = Comu discrivaristi u vostru accentu ?
+profile-form-custom-accent-placeholder-2 = Principiate à stampettà pà discriva u vostru accentu
 profile-form-age =
     .label = Età
 profile-form-gender-2 =
