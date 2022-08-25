@@ -384,6 +384,7 @@ skip-submission-description = 在貢獻時，點擊「提交」會略過提供�
 skip-submission-note = 註: 您仍須要選擇「聽」或「講」來切換貢獻類型。
 off = 關
 on = 開
+help-accent = 須要知多一點「口音」嘅意思？
 help-accent-explanation = 你嘅口音即係你講嘢嘅方式。呢樣嘢可以由你住過嘅地方、你講嘅其他語言、同埋好多其他因素所形成㗎。你可以喺呢度分享任何你覺得相關嘅資訊。
 
 ## Profile - Email
@@ -472,6 +473,7 @@ how-does-it-work-text = 我們集合眾人之力，打造開放原始碼的語�
 
 about-localization-title = 網站本地化
 about-dataset-release-title = 數據集發佈
+about-subscribe-text = 想同 Common Voice 計劃保持聯絡？
 about-speak = 講
 about-speak-text = 貢獻者會朗讀數據庫内由大衆提供的句子，變成錄音片段。
 about-listen-queue = 聆聽隊列
@@ -494,6 +496,7 @@ about-get-involved-text-2 =
     太好了！請用電郵或<discourseLink>Discourse</discourseLink>論壇同我們聯絡，
     在<githubLink>GitHub</githubLink>上提交網站問題，或者加入
     <matrixLink>Matrix</matrixLink>群組聊天室。
+about-stay-in-touch = 點樣可以保持聯絡？
 about-stay-in-touch-button = 註冊
 about-nav-why-common-voice = 點解？
 about-nav-how-it-works = 點做？
