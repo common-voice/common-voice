@@ -156,11 +156,14 @@ ta = 泰米爾文
 te = 泰盧固文
 tg = 塔吉克文
 th = 泰文
+tig = 提古利話
+tk = 土庫曼話
 tl = 他加祿文
 tok = 道本語
 tr = 土耳其文
 tt = 韃靼文
 tw = 契維文
+ty = 大溪地話
 uby = 尤比克文
 udm = 烏德穆爾特文
 ug = 維吾爾文
@@ -511,6 +514,7 @@ about-playbook-how-add-language-content-1 =
     首先，查一查你嘅語言<languageLink>係咪已經存在</languageLink>。
     如果唔係，你可以<languageRequestLink>要求新增你嘅語言</languageRequestLink>。
     之後有兩個步驟：翻譯網站、同埋收集句子。
+about-playbook-how-add-language-translating-heading = 翻譯網站
 about-playbook-how-add-language-collecting-sentences-heading = 收集句子
 
 ## How does localization work
@@ -699,6 +703,7 @@ language-search-input =
 language-speakers = 錄音人數
 localized = 本地化進度
 sentences = 句子
+language-validation-hours = 個鍾
 
 ## Contribution
 
@@ -907,6 +912,7 @@ download-q = 需要下載你嘅數據？
 download-recordings-title = 錄音片段
 download-size = 大細
 download-selected = 已選
+download-start = 下載我的個人檔案數據
 download-request = 請求下載
 download-request-button = 下載
 download-request-title = { $created }
