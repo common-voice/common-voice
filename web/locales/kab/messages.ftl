@@ -131,6 +131,7 @@ nia = Nias
 nl = Tahulandit
 nn-NO = Tanuṛvijt Nynorsk
 nr = IsiNdebele (Anẓul)
+nso = Ṣutu n Ugafa
 nyn = Nyankole
 oc = Tuksitant
 om = Afaan Ormoo
@@ -160,6 +161,7 @@ so = Taṣumalit
 sq = Talbanit
 sr = Taṣirbit
 ss = Tasiswatit
+st = Ṣutu n Unẓul
 sv-SE = Taswidit
 sw = Taswayilit
 syr = Tasiryakt
@@ -171,6 +173,7 @@ ti = Tigrinya
 tig = Tatigrit
 tk = Taturkmant
 tl = Tagalugt
+tn = Twansa
 tok = Toki Pona
 tr = Taṭurkit
 tt = Taṭaṭarit
@@ -550,7 +553,9 @@ about-playbook-what-is-language-content-3 = Kra n tutlayin ur-sent ddeqs n ubedd
 
 about-playbook-how-add-language = Amek ara rnuɣ tutlayt?
 about-playbook-how-add-language-content-1 = Deg tazwara, wali tutlayt-ik ma <languageLink>tella yakan</languageLink>. Ma ulac-itt, ilaq <strong>ad tseqleḍ asmel daɣen ad tleqḍeḍ tifyar</strong>.
+about-playbook-how-add-language-translating-heading = Asuqqel n usmel
 about-playbook-how-add-language-collecting-sentences-heading = Alqaḍ n tefyar
+about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>Issin ugar ɣef ulqaḍ n tefyar</sentenceCollectorFragment>
 
 ## How does localization work
 
@@ -780,6 +785,7 @@ language-speakers = Wid yettmeslayen
 localized = Yettwasideg
 sentences = Tifyar
 language-validation-hours = Isragen
+language-validation-progress = Asesfer n usentem
 
 ## Contribution
 

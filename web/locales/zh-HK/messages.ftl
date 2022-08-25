@@ -156,11 +156,14 @@ ta = 泰米爾文
 te = 泰盧固文
 tg = 塔吉克文
 th = 泰文
+tig = 提古利話
+tk = 土庫曼話
 tl = 他加祿文
 tok = 道本語
 tr = 土耳其文
 tt = 韃靼文
 tw = 契維文
+ty = 大溪地話
 uby = 尤比克文
 udm = 烏德穆爾特文
 ug = 維吾爾文
@@ -381,6 +384,7 @@ skip-submission-description = 在貢獻時，點擊「提交」會略過提供�
 skip-submission-note = 註: 您仍須要選擇「聽」或「講」來切換貢獻類型。
 off = 關
 on = 開
+help-accent = 須要知多一點「口音」嘅意思？
 help-accent-explanation = 你嘅口音即係你講嘢嘅方式。呢樣嘢可以由你住過嘅地方、你講嘅其他語言、同埋好多其他因素所形成㗎。你可以喺呢度分享任何你覺得相關嘅資訊。
 
 ## Profile - Email
@@ -469,6 +473,7 @@ how-does-it-work-text = 我們集合眾人之力，打造開放原始碼的語�
 
 about-localization-title = 網站本地化
 about-dataset-release-title = 數據集發佈
+about-subscribe-text = 想同 Common Voice 計劃保持聯絡？
 about-speak = 講
 about-speak-text = 貢獻者會朗讀數據庫内由大衆提供的句子，變成錄音片段。
 about-listen-queue = 聆聽隊列
@@ -491,6 +496,7 @@ about-get-involved-text-2 =
     太好了！請用電郵或<discourseLink>Discourse</discourseLink>論壇同我們聯絡，
     在<githubLink>GitHub</githubLink>上提交網站問題，或者加入
     <matrixLink>Matrix</matrixLink>群組聊天室。
+about-stay-in-touch = 點樣可以保持聯絡？
 about-stay-in-touch-button = 註冊
 about-nav-why-common-voice = 點解？
 about-nav-how-it-works = 點做？
@@ -511,6 +517,7 @@ about-playbook-how-add-language-content-1 =
     首先，查一查你嘅語言<languageLink>係咪已經存在</languageLink>。
     如果唔係，你可以<languageRequestLink>要求新增你嘅語言</languageRequestLink>。
     之後有兩個步驟：翻譯網站、同埋收集句子。
+about-playbook-how-add-language-translating-heading = 翻譯網站
 about-playbook-how-add-language-collecting-sentences-heading = 收集句子
 
 ## How does localization work
@@ -699,6 +706,7 @@ language-search-input =
 language-speakers = 錄音人數
 localized = 本地化進度
 sentences = 句子
+language-validation-hours = 個鍾
 
 ## Contribution
 
@@ -907,6 +915,7 @@ download-q = 需要下載你嘅數據？
 download-recordings-title = 錄音片段
 download-size = 大細
 download-selected = 已選
+download-start = 下載我的個人檔案數據
 download-request = 請求下載
 download-request-button = 下載
 download-request-title = { $created }

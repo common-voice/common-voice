@@ -158,6 +158,7 @@ sl = toki Soleni
 so = toki Somalija
 sq = toki Sipe
 sr = toki Sepi
+ss = toki Siwasi
 st = toki Sesoto
 sv-SE = toki Sensa
 sw = toki Sawili
@@ -170,6 +171,7 @@ ti = toki Sikinja
 tig = toki Sikawi
 tk = toki Tumense
 tl = toki Takalo
+tn = toki Sewana
 tok = toki pona
 tr = toki Tuki
 ts = toki Sisonka
@@ -186,12 +188,14 @@ ve = toki Sipenta
 vec = toki Peneto
 vi = toki Wije
 vot = toki Patija
+xh = toki Sosa
 yi = toki Isi
 yo = toki Jolupa
 yue = toki Kantun
 zh-CN = toki Sonko
 zh-HK = toki Onkon
 zh-TW = toki Tawan
+zu = toki Sulu
 
 # [/]
 
@@ -329,7 +333,6 @@ shortcut-discard-ongoing-recording-label = o weka e kalama ni
 shortcut-submit = o tawa sin
 shortcut-submit-label = o pana e kalama
 request-language-text = toki sina li lon ala lon ilo Common Voice?
-request-language-text-learn = o sona e nasin pana pi toki sin lon ni!
 request-language-button = o wile e toki sin
 
 ## ProjectStatus
@@ -460,7 +463,9 @@ faq-do-want-native-a = mi wile mute e toki uta sina! pali Common Voice la mi wil
 faq-why-different-speakers-q = tan seme la sina wile e jan toki mute?
 faq-why-different-speakers-a = kulupu mute pi toki uta la toki mute li tan <articleLink>jan mije pi mani mute</articleLink>. nasin kalama toki li lon kulupu jan lili la, toki uta lon kulupu ni li mute ala. kin la ilo mute li kute pona ala e toki tan jan meli. ni la mi wile e nasa lon kulupu kalama mi!
 faq-why-my-lang-q = tan seme la toki mi li lon ala?
-faq-why-my-lang-new-a = kulupu Mozilla li kepeken toki ale. ilo Common Voice li pona tawa toki ale, li wile e toki ale. taso, <multilangLink>pali pi toki sin li suli</multilangLink>. jan li wile pana e toki uta ona la, nanpa wan la, ona o ante toki e ilo Common Voice. nanpa tu la, ona o pana e sitelen pi jan ale tawa ilo Common Voice. sitelen ni li tawa toki uta. ni tu li pini la, toki sin li kama tawa ilo Common Voice. jan li ken kama, li ken pana e toki ona, li ken pona e toki pi jan ante. sina wile pona e pali pi toki sin la, o tawa <sentenceCollectorLink>lipu pi sitelen kulupu</sentenceCollectorLink>.
+faq-why-my-lang-a =
+    ilo Common Voice li tawa jan ale. jan pi mani ala li pana e toki lon.
+    ilo li wile e ni: o pana e toki sina! <languageRequestLink>o toki e wile sina lon lipu ni.</languageRequestLink>
 faq-what-quality-q = sina wile e kalama pi pona kute seme?
 faq-what-quality-a = mi mute li wile e ni: kulupu sona Common Voice li sama kalama pi ma ale. ni la, kalama ante mute li pona. kalama awen pi pona ante li pona sama kalama toki pi jan mute. ni la, ilo li ken kute e toki sina lon tenpo mute, lon kalama monsi, lon kalama pi tomo tawa. sina ken kute e toki sina lon kalama awen la, ni li pona tawa kulupu sona.
 faq-why-10k-hours-q = sina wile e kalama pona pi tenpo suli 10000 lon toki wan tan seme?
@@ -527,11 +532,6 @@ about-dataset-new = kulupu sona Common Voice
 about-dataset-new-text = kulupu sona Common Voice li jo e kalama awen toki mute mute. ni li pona e pali pi jan sona, li ken e pali pi ilo kute.
 about-clip-graveyard = kalama weka
 about-clip-graveyard-text = lipu pi kalama weka li jo e kalama awen. kalama awen li ike lon lipu ni, li pana ala tawa kulupu kalama pi ilo Common Voice. sina ken kama jo e kalama weka.
-about-partners = jan poka, kulupu poka
-about-become-a-partner = o kama poka tawa ilo Common Voice
-about-partnership =
-    jan ale li ken kepeken ilo Common Voice. mi wile e pona pi kulupu mi tan ni: mi wile pali e kulupu sona suli nanpa wan.
-    mi wile e pona tawa jan ale ni, tawa kulupu ale ni, tan pona ona:
 about-get-involved = o kama, o pali
 about-get-involved-text-2 =
     sina wile ala wile pona e ilo Common Voice?
@@ -559,9 +559,11 @@ about-playbook-what-is-language-content-3 = toki li ken jo e nasin toki ante mut
 
 about-playbook-how-add-language = nasin seme la mi ken pana e toki sin?
 about-playbook-how-add-language-content-1 = wan la, o lukin: toki sina li <languageLink>lon ala lon</languageLink>? ona li lon ala la, <strong>o ante toki e lipu, o kama jo e sitelen</strong>.
-about-playbook-how-add-language-content-2 = <strong>sina wile ante toki e lipu ni la</strong> o <translateVideo>kepeken</translateVideo> <pontoonLink>ilo Pontoon</pontoonLink>. ilo Pontoon li jo e toki mute. ona li jo ala e toki sina la, <pontoonRequestLink>sina ken pana e toki sin</pontoonRequestLink>. o wile e ona lon <repoLink>lipu ni</repoLink>. ni la ilo Common Voice li ken kama e toki sina. o lukin e toki mute lon <localizationFragment>lipu ni</localizationFragment>.
-about-playbook-how-add-language-content-3 = sina wile <strong>kama jo e sitelen</strong> la, o <scVideo>kepeken</scVideo> <scLink>ilo Sentence collector</scLink>.
-about-playbook-how-add-language-content-4 = sina ken pana e <scLinkAdd>sitelen pi mute ala</scLinkAdd>. ante la, sina ken <bulkImportDocsLink>pana e sitelen mute</bulkImportDocsLink> lon ilo Github. o sona e ni: sitelen o open, o tawa jan ale kepeken <licenseLink>nasin pana CC0</licenseLink>. ante la, o pali o pana e sitelen sina. o lukin e <scFragment>kulupu sitelen</scFragment>.
+about-playbook-how-add-language-translating-heading = nasin pi ante toki
+about-playbook-how-add-language-translating-content-1 = <translateVideoLink>o lukin e nasin kepeken pi ilo Pontoon.</translateVideoLink>
+about-playbook-how-add-language-collecting-sentences-heading = nasin pi toki jo
+about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>o lukin e nasin kepeken pi ilo Sentence Collector</sentenceCollectorVideo>.
+about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>o lukin e nasin jo</sentenceCollectorFragment>.
 
 ## How does localization work
 
@@ -625,12 +627,6 @@ about-playbook-how-project-governance-content-4 = pali kulupu en alasa pi wile p
 about-playbook-how-project-governance-content-5 = pona pi ante ni en sona pi ante ni.
 about-playbook-how-project-governance-content-6 = sona pali pi jan ale.
 about-playbook-how-project-governance-content-7 = <governanceLink>o lukin e sona pi nasin lawa mi</governanceLink>
-mycroft-title = ilo Mycroft Ai
-mycroft-subtitle = ilo sona jan
-mycroft-description =
-    ilo Mycroft li jan ilo toki open pi nanpa wan.
-    sina ken kepeken ilo Mycroft lon ale. ona li lon ilo sona li lon tomo tawa li lon ilo Raspberry Pi.
-mycroft-secondary-description = ni li lo open pi jan ale. jan ale li ken ante, li ken pona e ona. ilo Mycroft la, sina ken kepeken ona lon ijo ale!
 
 ## Glossary
 
@@ -814,7 +810,8 @@ language-search-input =
 language-speakers = jan toki
 localized = ante toki
 sentences = sitelen
-total-hours = tenpo suli pona
+language-validation-hours = tenpo suli
+language-validation-progress = sona pini
 
 ## Contribution
 

@@ -584,6 +584,7 @@ about-playbook-how-grow-language-content-6 = ھەمكارلىق ۋە تور
 ## How to validate
 
 about-playbook-how-validate = ئاۋازلىق  تەستىقلاش ياكى تەستىقلىماسلىقنى قانداق بىلىمەن؟
+about-playbook-how-validate-content-4 = ئەگەر بىر ئاۋاز 2 ئادەم تەرىپىدىن رەت قىلىنسا ، ئۇ سانلىق مەلۇمات توپلىمىنىڭ باشقا تارماق قىسمىدا تارقىتىلىدۇ.
 
 ## How to access dataset
 
@@ -989,6 +990,7 @@ download-q = ئۇچۇرلىرىڭىزنى چۈشۈرەمسىز؟
 download-info = چۈشۈرمەكچى بولغان نەرسىنى بىزگە ئېيتىپ بېرىڭ:
 download-profile-title = تەرجىمىھال
 download-recordings-title = ئۈن خاتىرىسى
+download-recordings-size = ئادەتتە مېگابايت
 download-size = چوڭلۇقى
 download-selected = تاللانغان
 download-start = ئارخىپ ئۇچۇرىنى چۈشۈرۈش
@@ -996,9 +998,12 @@ download-request = خاتىرىلەشنى سوراش
 download-requests = ئىلگىرىكى خاتىرىلەرنى چۈشۈرۈش تەلىپى
 download-request-button = چۈشۈر
 download-request-title = { $created }
+download-request-archive-single = يەككە ZIP ھۆججىتى
+download-request-archive-multiple = { $archiveCount } ZIP ھۆججەتىگە پارچىلىسۇن
 download-request-assembling-description = ماتىرياللىرىڭىز رەتلىنىۋاتىدۇ، سەل تۇرۇپ قايتا سىناڭ.
 download-request-refresh-button = يېڭىلا
 download-request-modal-title = ئۇلانمىلارنى چۈشۈر
+download-request-modal-description = بۇ يەردە ZIP ھۆججىتىڭىزنى چۈشۈرۈش ئۇلانمىلىرى بار.
 download-request-link-text = { $total } دانە Zip ھۆججىتىنىڭ { $offset }چىسى
 download-request-metadata-link = جۈملە تېكىستى
 
@@ -1050,6 +1055,10 @@ demo-dashboard-card-body = ھەر بىر ھەدىيە قىلغان ئاۋاز، 
 
 contribution-criteria-nav = ئۆلچەم
 contribution-for-example = مەسىلەن
+contribution-misreadings-example-5-title = بىز قەھۋە ئالماقچى.
+contribution-misreadings-example-6-title = بىز قەھۋە ئالماقچى.
+contribution-misreadings-example-6-explanation = [«بىز» بولۇشى كېرەك]
+contribution-misreadings-example-8-explanation = [ماس كەلمىگەن مەزمۇن]
 contribution-varying-pronunciations-title = ھەرخىل تەلەپپۇزلار
 contribution-background-noise-title = مۇھىت شاۋقۇنى
 contribution-background-voices-title = مۇھىت ئاۋازى
@@ -1090,6 +1099,7 @@ sc-home-review-title = جۈملىلەرنى تەستىقلاش
 
 ## HOW-TO
 
+sc-howto-title = قانداق قىلىمەن
 sc-howto-addsen-title = يېڭى جۈملە قوشۇش
 sc-howto-review-title = جۈملىلەرنى تەكشۈرۈش
 sc-howto-review-subtitle = جۈملىنىڭ تۆۋەندىكى ئۆلچەملەرگە ماس كېلىدىغانلىقىنى جەزملەشتۈرۈڭ:
@@ -1135,6 +1145,7 @@ sc-submit-button =
 
 ## ADD LANGUAGE
 
+sc-add-lang-could-not-add = تىل قوشقىلى بولمىدى.
 sc-add-lang-sec-label = تۆھپە قوشماقچى بولغان تىلنى قوشۇڭ
 sc-add-lang-sec-button = تىل قوشۇڭ
 sc-add-err-submission = يوللاش مەغلۇب بولدى

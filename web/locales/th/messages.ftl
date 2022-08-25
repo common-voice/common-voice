@@ -722,6 +722,10 @@ other-language = ภาษาอื่น ๆ
 ## Request Language Pages
 
 request-language-heading = ถามเกี่ยวกับภาษาใหม่
+request-language-form-email =
+    .label = ที่อยู่อีเมลของคุณ
+request-language-form-info =
+    .label = ข้อมูลเกี่ยวกับภาษา
 request-language-form-info-explanation-list-1 = ชื่อภาษาของคุณ
 request-language-form-info-explanation-list-2 = <isoCodeLink>รหัส ISO</isoCodeLink> หากทราบ
 request-language-form-info-explanation-list-3 = ลิงค์ไปยังเว็บไซต์ที่ช่วยให้เราเข้าใจภาษา
@@ -1155,6 +1159,7 @@ sc-submit-guidelines = โปรดตรวจสอบ<howToLink>แนวท�
 sc-add-lang-could-not-add = เพิ่มภาษาไม่ได้
 sc-add-lang-sec-label = เพิ่มภาษาที่คุณต้องการมีส่วนร่วม
 sc-add-lang-sec-button = เพิ่มภาษา
+sc-add-err-unexpected = การตอบสนองที่ไม่คาดคิดจากเซิร์ฟเวอร์
 # Variables:
 #   $duplicates (Number) - Number of sentences which got rejected because they are duplicates
 sc-add-result =

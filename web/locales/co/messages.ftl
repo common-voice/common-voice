@@ -324,6 +324,7 @@ profile-form-accent =
     .label = Accentu
 profile-form-custom-accent-help-text =
     .label = Comu discrivaristi u vostru accentu ?
+profile-form-custom-accent-placeholder-2 = Principiate à stampettà pà discriva u vostru accentu
 profile-form-age =
     .label = Età
 profile-form-gender-2 =
@@ -461,6 +462,14 @@ how-does-it-work-text = Rializemu una banca di dati vucale cù è fonte aperte c
 about-language-req-subtitle = Qualcunu dumanda l’aghjustu d’una lingua.
 about-localization-subtitle = U testu di u situ web hè traduttu in sta lingua.
 about-sentence-collection-title = Racolta d'infrasate
+about-new-lang-title = Publicazione d’una nova lingua
+about-new-lang-subtitle = Publichemu u situ di Common Voice in sta lingua.
+about-voice-contrib-title = Cuntribuzione di voce
+about-voice-validation-title = Cunvalidazione di voce
+about-voice-validation-subtitle = Altre parsone cunvalidani sti campioni vucali.
+about-dataset-release-title = Publicazione di a banca di dati
+about-dataset-release-subtitle = Publichemu a banca di data ogni 3 mesi.
+about-subscribe-text = Vuleti stà in cuntattu cù Common Voice ?
 about-speak = Parlà
 about-speak-text = I cuntributori arrighjistrani campiunarii vucali lighjendu da una banca di frasi dunati da a cumunità.
 about-listen-queue = Fila d’ascolta
@@ -488,6 +497,7 @@ about-nav-how-it-works = Comu ?
 about-nav-partners = Partinarii
 about-nav-get-involved = Impegnassi
 about-nav-how-it-works-2 = Comu funziona Common Voice ?
+about-nav-playbook = Amparate comu participà
 
 ## Community Playbook Content
 ## What is a language
@@ -496,9 +506,14 @@ about-playbook-what-is-language = Cosa hè una lingua in Common Voice ?
 
 ## How do I add a language
 
+about-playbook-how-add-language = Comu aghjunghju una lingua ?
+about-playbook-how-add-language-translating-heading = Traduce u situ
 
 ## How does localization work
 
+about-playbook-how-localize = Comu funziona a lucalizazione di situ ?
+about-playbook-how-localize-content-4 = U situ hè prontu à esse publicatu quandu eddu hè traduttu a 75%.
+about-playbook-how-localize-content-5 = Fighjuleti a nostra spiecazione video pà aiutà
 
 ## How to add sentences
 
@@ -656,6 +671,7 @@ other-language = Altra lingua
 
 ## Request Language Pages
 
+request-language-form-info-explanation-list-1 = Nomi di a vostra lingua
 
 ## Languages Overview
 

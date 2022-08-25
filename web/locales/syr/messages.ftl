@@ -1,16 +1,23 @@
 ## General
 
 yes-receive-emails = ܗܝ، ܫܕܪ ܩܐ ܕܝܝ ܐܝܡܝܠ. ܐܢܐ ܒܥܝܢ ܦܝܫܢ ܡܘܕܥܝܐ ܒܘܬ ܩܠܐ ܓܘܢܝܐ.
-stayintouch = ܐܚܢܢ ܒܡܘܙܝܠܐ ܒܢܝܐ ܝܘܚ ܫܘܬܦܘܬܐ ܠܚܘܕܪ̈ܘܢܐ ܕܝܘܠܦܢܐ ܐܘܡܢܘܬܐ ܕܩܠܐ (voice technology).  ܐܚܢܢ ܒܥܝܚ ܡܕܥܚ ܩܐ ܕܝܘܟܘܢ ܠܚܘܕܬ̈ܐ، ܡܒܘ̈ܥܐ ܫܘܘܕܥܐ (data sources) ܚܕ̈ܬܐ ܘ ܫܡܥܚ ܒܘܬ ܦܠܚܢܐ ܕܝܘܟܘܢ ܒܫܘܘܕܥܐ.
-privacy-info = ܐܚܢܢ ܫܘܕܘܝܐ (ܩܘܘܠܐ) ܝܘܚ ܩܬ ܢܛܪܟ ܡܘܕܥܢܘܬܐ ܕܝܘܟܘܢ. ܩܪܝ ܡܛܠ <privacyLink> ܦܘܪܢܣܐ ܕܝܠܢܝܘܬܐ <privacyLink/>.
+stayintouch = ܐܚܢܢ ܒܡܘܙܝܠܐ ܒܢܝܐ ܝܘܚ ܫܘܬܦܘܬܐ ܠܚܘܕܪ̈ܘܢܐ ܕܝܘܠܦܢܐ ܐܘܡܢܘܬܐ ܕܩܠܐ (voice technology). ܐܚܢܢ ܒܥܝܚ ܡܕܥܚ ܩܐ ܕܝܘܟܘܢ ܠܚܘܕܬ̈ܐ، ܡܒܘ̈ܥܐ ܫܘܘܕܥܐ (data sources) ܚܕ̈ܬܐ ܘ ܫܡܥܚ ܒܘܬ ܦܠܚܢܐ ܕܝܘܟܘܢ ܒܫܘܘܕܥܐ.
+privacy-info = ܐܚܢܢ ܫܘܕܘܝܐ (ܩܘܘܠܐ) ܝܘܚ ܩܬ ܢܛܪܟ ܡܘܕܥܢܘܬܐ ܕܝܘܟܘܢ. ܩܪܝܡܘܢ <privacyLink> ܦܘܪܢܣܐ ܕܕܝܠܢܝܘܬܐ <privacyLink/>.
 return-to-cv = ܕܥܪ ܠܩܠܐ ܓܘܢܝܐ
 email-input =
     .label = ܐܝܡܝܠ
 submit-form-action = ܫܕܪ
 loading = ܡܛܥܢܬܐ ...
 email-opt-in-info = ܐܢܐ ܒܥܝܢ ܩܒܠܢ ܐܝܡܝܠ ܐܝܟ ܕܡܥܗܕ̈ܢܘܬܐ ܕܢܝܫ̈ܐ، ܚܘܕ̈ܬܐ ܕܪܗܬܝ ܘ ܛܒܐ ܡܛܠ ܩܠܐ ܓܘܢܝܐ.
-email-opt-in-info-title = ܫܘܬܦ ܥܡ ܣܕܪܐ ܕܒܝܠܕܪܝܐ ܕܩܠܐ ܓܘܢܝܐ.
+email-opt-in-info-title = ܢܩܦ (join) ܥܡ ܣܕܪܐ ܕܒܝܠܕܪܝܐ ܕܩܠܐ ܓܘܢܝܐ.
+email-opt-in-info-sub-with-challenge = ܩܒܠܘܢ ܐܝܡܝܠ (email) ܐܝܟ ܡܘܪܝ̈ܐ (challenges)، ܡܥܗܕ̈ܢܘܬܐ ܕܢܝܫ̈ܐ (goal reminders)، ܚܘܕ̈ܬܐ ܕܪܗܬܝ (progress updates) ܘ ܛܒܐ ܡܛܠ ܩܠܐ ܓܘܢܝܐ.
+email-opt-in-privacy-v2 = ܒܫܪܟܬܐ ܕܐܝܡܝܠ، ܐܚܬܘܢ ܠܝܬ ܠܘܟܘܢ ܕܘܪܫܐ ܒܡܕܒܪܢܘܬܐ ܕܡܘܙܝܠܐ (mozilla) ܒܕܐܗܐ ܡܘܕܥܢܘܬܐ (information) ܐܝܟ ܝܠܗ ܡܘܕܥܝܬܐ ܓܘ <privacyLink> ܫܘܝܫܐ ܕܕܝܠܢܝܘܬܐ <privacyLink/> ܕܡܘܙܝܠܐ.
+indicates-required = * ܒܪܫܡܐ ܝܠܗ ܚܩܠܢ̈ܐ ܐܢܢܩܝ̈ܐ.
 not-available-abbreviation = ܠܐ ܡܬܬܥܒܕܢܐ
+banner-error-slow-1 = ܦܚܠܬܐ، ܩܠܐ ܓܘܢܝܐ ܦܠܚܢܐ ܝܠܗ ܝܩܘܪܐ. ܒܣܝܡܐ ܩܐ ܚܦܝܛܘܬܐ ܕܝܘܟܘܢ.
+banner-error-slow-2 = ܐܚܢܢ ܩܒܘܠ ܠܝ ܝܘܚ ܪܒܐ ܐܪܚܐ ܘ ܗܫܐ ܝܘܚ ܒܚܘܢܐ (investigating) ܐܢܝ ܥܣܩܘܬ̈ܐ (issues).
+banner-error-slow-link = ܐܝܟܢܝܘܬܐ ܕܦܐܬܐ
+error-something-went-wrong = ܦܚܠܬܐ، ܐܝܬ ܠܢ ܚܕ ܚܠܛܐ.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -42,10 +49,29 @@ he = ܥܒܪܐܝܬ
 hi = ܗܢܕܝܐ
 hy-AM = ܐܪܡܢܝܬ
 hyw = ܐܪܡܢܝܬ ܡܥܪܒܝܐ
+kmr = ܩܘܪܕܝܬ
+nb-NO = ܢܘܪܒܝܓܐܝܬ ܒܘܟܡܠ
+nn-NO = ܢܘܪܒܝܓܐܝܬ ܢܝܢܘܪܣܟ
+nr = ܐܦܐܢ ܐܘܪܘܡܘܐܝܬ
+pl = ܦܘܠܢܕܐܝܬ
+pt = ܦܘܪܛܘܓܠܐܝܬ
+ro = ܪܘܡܢܐܝܬ
 ru = ܐܘܪܘܣܢܝܬ
-rw = { "" }
+rw = ܟܝܢܝܪܐܘܢܕܐ
 sv-SE = ܣܘܝܕܐܝܬ
 syr = ܣܘܪܝܝܐ
+tr = ܬܘܪܟܝܬ
+uk = ܐܘܟܪܐܝܢܐܝܬ
+ur = ܐܘܪܕܘܝܬ
+vi = ܒܝܬܢܐܡܐܝܬ
+xh = ܙܗܘܫܐܝܬ
+yi = ܝܕܕܐܝܬ
+yo = ܝܘܪܘܒܐܝܬ
+yue = ܟܐܢܬܘܢܐܝܬ
+zh-CN = ܨܝܢܝܬ
+zh-HK = ܨܝܢܝܬ (ܗܘܢܓ ܟܘܢܓ)
+zh-TW = ܨܝܢܝܐ (ܬܐܝܘܐܢ)
+zu = ܙܘܠܘ
 
 # [/]
 
@@ -54,16 +80,17 @@ syr = ܣܘܪܝܝܐ
 
 speak = ܐܡܪ
 speak-now = ܐܡܪ ܗܫܐ
-datasets = ܣܕܪ̈ܐ ܕܫܘܘܕ̈ܥܐ
+datasets = ܣܕܪ̈ܐ ܫܘܘܕ̈ܥܝܐ
 languages = ܠܫܢ̈ܐ
 about = ܡܢܝ ܝܘܚ
-profile = ܨܠܡܐ
+profile = ܦܐܬܐ ܕܚܒܝܫܬܐ
 help = ܥܘܕܪܢܐ
 contact = ܐܣܪܐ
 privacy = ܕܝܠܢܝܘܬܐ
 terms = ܫܪܥܬ
 cookies = ܟܘܟܟܝܣ
 faq = ܫܘܐܠ̈ܐ ܬܢܝ̈ܐ
+share-title = ܥܕܪ ܩܬܢ ܒܒܨܬܐ (search) ܐܚܪܢܐ ܠܫܘܬܦܘܬܐ ܩܠܐ ܕܝܗ!
 link-copied = ܢܣܟ ܐܣܘܪܐ
 back-top = ܕܥܪ ܠܥܠܠ
 logout = ܦܠܘܛ
@@ -72,9 +99,15 @@ logout = ܦܠܘܛ
 
 home-cta = ܡܠܠ ܒܩܠܐ، ܫܘܬܦ ܠܐܟܐ!
 show-wall-of-text = ܩܪܝ ܝܬܝܪ
+help-us-title = ܥܕܪ ܩܬܢ ܒܫܪܘܪܐ ܕܦܬܓܡ̈ܐ!
 vote-yes = ܗܐ
 vote-no = ܠܐ
-speak-subtitle = ܗܒ݇ܠܘܢ ܩܠܘܟ݂ܘܢ
+speak-subtitle = ܫܘܬܦ ܩܠܘܟܘܢ
+listen-subtitle = ܥܕܪ ܩܬܢ ܒܫܪܘܪܐ ܕܩܠ̈ܐ
+listen-goal-text = ܡܐܡܪ̈ܐ ܫܪܝܪ̈ܐ
+hours-validated = ܫܥ̈ܐ ܫܪܝܪ̈ܐ
+help-reach-goal = ܥܕܪ ܩܕ ܕܝܝܢ ܡܛܚ ܥܠ { $goal }
+ready-to-record = ܦܝܫܝܬܘܢ ܥܬܝܕܐ (ready) ܥܡ ܫܘܬܦܝܬܘܢ ܩܠܘܟܘܢ؟
 all-locales = ܟܠ
 today = ܐܕܝܘܡ
 x-weeks-short =
@@ -104,9 +137,10 @@ x-years-short =
         [many] ܫܢܝ̈ܐ
        *[other] ܫܢܝ̈ܐ
     }
-help-make-dataset = ܥܕܪ ܩܬܢ ܩܐ ܒܢܝܬܐ ܕ
+help-make-dataset = ܥܕܪ ܩܬܢ  ܒܒܢܝܬܐ ܕܚܕ ܣܕܪܐ ܫܘܘܕܥܝܐ (dataset) ܕܝܠܗ ܐܝܢܝܘܬܐ ܥܠܝܬܐ (high quality) ܘ ܦܬܝܚܐ ܩܐ ܟܠ ܚܕ ܢܫܐ
 sign-up-account = ܡܟܬܒ ܚܘܫܒܢܐ
-email-subscription-title = ܡܟܬܒ ܠܩܒܠܬܐ ܚܕܬ ܒܐܝܡܝܠ
+email-subscription-title = ܡܟܬܒ ܠܩܒܠܬܐ ܚܘܕ̈ܬܐ ܒܐܝܡܝܠ
+email-subscription-title-new = ܡܟܬܒ ܠܩܒܠܬܐ ܛܒܐ، ܡܥܗܕ̈ܢܘܬܐ ܕܢܝܫ̈ܐ‌ (goal reminders) ܘ ܚܘܕ̈ܬܐ ܕܪܗܬܐ (progress updates) ܕܩܠܐ ܓܘܢܝܐ
 
 ## Account Benefits
 
@@ -141,10 +175,23 @@ shortcut-record-toggle = ܡ
 shortcut-record-toggle-label = ܡܟܬܒ/ܟܠܝ
 shortcut-rerecord-toggle = [1-5]
 shortcut-submit = ܕܥܪ
+request-language-button = ܛܠܒ ܠܫܢܐ
 
 ## ProjectStatus
 
-status-contribute = ܗܲܒ݇ܠ ܩܠܘܟܘܢ
+status-contribute = ܗܒܠ ܩܠܘܟܘܢ
+status-hours =
+    { $hours ->
+        [zero] { $hours } ܫܥ̈ܐ ܫܪܘܪ̈ܐ ܥܕܡܐ ܠܗܫܐ!
+        [one] { $hours } ܫܥܬܐ ܫܪܘܪܐ ܥܕܡܐ ܠܗܫܐ!
+        [two] { $hours } ܫܥ̈ܐ ܫܪܘܪ̈ܐ ܥܕܡܐ ܠܗܫܐ!
+        [few] { $hours } ܫܥ̈ܐ ܫܪܘܪ̈ܐ ܥܕܡܐ ܠܗܫܐ!
+        [many] { $hours } ܫܥ̈ܐ ܫܪܘܪ̈ܐ ܥܕܡܐ ܠܗܫܐ!
+       *[other] { $hours } ܫܥ̈ܐ ܫܪܘܪ̈ܐ ܥܕܡܐ ܠܗܫܐ!
+    }
+# Variables:
+# $goal - number of hours representing the next goal
+status-goal = ܢܝܫ̈ܐ ܕܐܬܐ: { $goal }
 english = ܐܢܓܠܣ
 
 ## ProfileForm
@@ -157,8 +204,14 @@ profile-form-additional-language =
     .label = ܠܫܢܐ ܐܚܪܢܐ
 profile-form-language =
     .label = ܠܫܢܐ
+profile-form-variant =
+    .label = ܕܡܢ ܠܥܙܐ ܕ{ $language } ܟܐ ܗܡܙܡܝܬܘܢ؟
+profile-form-variant-default-value = ܠܥܙܐ ܠܐ ܦܪܝܫܐ
 profile-form-accent =
-    .label = ܡܡܠܠܐ
+    .label = ܠܥܙܐ
+profile-form-custom-accent-help-text =
+    .label = ܕܐܟܝ ܦܫܩܝܬܘܢ ܠܗ ܠܥܙܐ ܕܝܘܟܘܢ؟
+profile-form-custom-accent-placeholder-2 = ܫܪܝ ܒܟܬܒܐ ܩܬ ܦܫܩܝܬܘܢ ܠܗ ܠܥܙܐ ܕܝܘܟܘܢ
 profile-form-age =
     .label = ܫܢ̈ܐ
 profile-form-gender-2 =
@@ -167,19 +220,32 @@ hidden = ܛܘܫܝܐ
 visible = ܡܒܝܘܢܐ
 native-language =
     .label = ܠܫܢܐ ܐܬܪܢܝܐ
+profile-form-add-accent = ܐܘܣܦ (ܡܙܝܕ) ܠܥܙܐ ܪܫܝܡܐ ܚܕܬܐ { $inputValue }
 profile-form-submit-save = ܐܚܕ
-male = ܕܟ݂ܪܐ
-female = ܢܩܒ݂ܐ
+profile-form-submit-saved = ܐܚܕܐ
+male = ܕܟܪܐ
+female = ܢܩܒܐ
 # Gender
 other = ܐܚܪܢܐ
+why-profile-title = ܩܐ ܡܘܕܝ ܟܐ ܒܥܝܢ ܦܐܬܐ ܕܚܒܝܣܬܐ؟
+build-profile = ܒܢܝ ܦܐܬܐ ܕܚܒܝܣܬܐ
 goals = ܢܝ̈ܫܐ
+edit-profile = ܫܚܠܦ ܦܐܬܐ ܕܚܒܝܫܬܐ
+profile-create-success = ܟܫܝܪܘܬܐ، ܦܐܬܐ ܕܚܒܝܫܬܐ ܦܝܫܬܐ ܝܠܗ ܒܢܝܬܐ!
 profile-close = ܕܥܘܪ
+accept-privacy-title = ܫܘܝܫܐ ܕܕܝܠܢܝܘܬܐ
+login-identity = ܗܝܝܘܬܐ ܕܥܠܠܐ
+login-signup = ܥܘܠ / ܒܢܝ ܚܫܒܘܢܐ
+edit = ܫܚܠܦ
+email-subscriptions = ܫܪ̈ܟܬܐ ܕܐܝܡܝܠ
 
 ## Profile - Email
 
 
 ## Profile - Email
 
+manage-subscriptions = ܬܓܒܪ ܫܪ̈ܟܬܐ
+manage-email-subscriptions = ܬܓܒܪ ܫܪ̈ܟܬܐ ܕܐܝܡܝܠ
 
 ## FAQ
 
@@ -191,6 +257,7 @@ faq-how-get-q = ܕܐܟ݂ܝ ܟܐ ܩܢܝܢ ܫܘܘܕ̈ܥܐ ܕܩܠܐ ܓܘܢܝܐ؟
 
 ## How does it work section
 
+about-voice-validation-subtitle = ܢܫ̈ܐ ܐܚܪ̈ܢܐ ܫܪܝܪ̈ܐ ܝܢܐ ܐܢܝ ܡܐܡܪ̈ܐ.
 about-speak = ܡܠܠ
 about-dataset-new = ܣܕܪܐ ܕܫܘܘܕ̈ܥܐ ܕܩܠܐ ܓܘܢܝܐ
 about-nav-how-it-works = ܐܝܟܢܐ؟
@@ -237,6 +304,7 @@ review-cancel = ܒܛܘܠ ܫܕܪܬܐ
 
 ## Datasets Page
 
+validated-hours = ܫܥ̈ܐ ܫܪܝܪ̈ܐ
 
 ## Download Modal
 
@@ -278,6 +346,8 @@ continue = ܐܡܢܐ
 ## Dashboard
 
 your-languages = ܠܫܢܘܟ݂ܘܢ
+clips-you-validated = ܡܐܡܪ̈ܐ ܫܪܝܪܝܬܘܢ
+validated-clips = ܡܐܡܪ̈ܐ ܫܪܝܪ̈ܐ
 
 ## Custom Goals
 
@@ -344,9 +414,24 @@ keep = ܢܛܪ
 
 ## ADD SENTENCES CONFIRMATION
 
+# Variables:
+#   $countOfInvalidated (Number) - Number of sentences the user rejected in the review form before submission
+sc-confirm-rejected-by-you = { $countOfInvalidated } ܟܦܝܪܝܬܘܢ (rejected)
 
 ## LANGUAGE INFO
 
+# Variables:
+#   $validatedSentences (Number) - Number of sentences which have been approved for this language
+sc-lang-info-validated =
+    { $validatedSentences ->
+        [0] ܡܐܡܪ̈ܐ ܠܐ ܫܪܝܪ̈ܐ
+        [zero] 0 ܡܐܡܪ̈ܐ ܫܪܝܪ̈ܐ
+        [one] 1 ܡܐܡܪܐ ܫܪܝܪܐ
+        [two] { "" }
+        [few] { "" }
+        [many] { "" }
+       *[other] { $validatedSentences } ܡܐܡܪ̈ܐ ܫܪܝܪ̈ܐ
+    }
 
 ## LOGIN
 
