@@ -462,6 +462,7 @@ how-does-it-work-text = Rializemu una banca di dati vucale cù è fonte aperte c
 about-language-req-subtitle = Qualcunu dumanda l’aghjustu d’una lingua.
 about-localization-subtitle = U testu di u situ web hè traduttu in sta lingua.
 about-sentence-collection-title = Racolta d'infrasate
+about-new-lang-title = Publicazione d’una nova lingua
 about-speak = Parlà
 about-speak-text = I cuntributori arrighjistrani campiunarii vucali lighjendu da una banca di frasi dunati da a cumunità.
 about-listen-queue = Fila d’ascolta
