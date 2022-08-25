@@ -511,6 +511,9 @@ about-playbook-how-add-language-translating-heading = Traduce u situ
 
 ## How does localization work
 
+about-playbook-how-localize = Comu funziona a lucalizazione di situ ?
+about-playbook-how-localize-content-4 = U situ hè prontu à esse publicatu quandu eddu hè traduttu a 75%.
+about-playbook-how-localize-content-5 = Fighjuleti a nostra spiecazione video pà aiutà
 
 ## How to add sentences
 
@@ -668,6 +671,7 @@ other-language = Altra lingua
 
 ## Request Language Pages
 
+request-language-form-info-explanation-list-1 = Nomi di a vostra lingua
 
 ## Languages Overview
 
