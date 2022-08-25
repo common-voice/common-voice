@@ -40,6 +40,8 @@ Many language communities are self organising and have their contact channels on
 * German (`de`):
    * [Matrix](https://chat.mozilla.org/#/room/#common-voice-de:mozilla.org)
    * [Discourse](https://discourse.mozilla.org/c/voice/de/289)
+* Georgian (`ka`)
+   * [Facebook](https://www.facebook.com/groups/145786040762028)
 * Guaraní (`gn`):
   * [Telegram](https://t.me/joinchat/Y7QOWuaTw8dhMzli)
 * Italian (`it`):
