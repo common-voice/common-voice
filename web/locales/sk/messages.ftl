@@ -1007,22 +1007,22 @@ set-a-goal = Vytvoriť cieľ
 cant-decide = Nemôžete sa rozhodnúť?
 activity-needed-calculation-plural =
     { NUMBER($totalHours) ->
-        [one] { $totalHours } hodina
-        [few] { $totalHours } hodiny
-       *[other] { $totalHours } hodín
-    }je dosiahnuteľných už o{ NUMBER($periodMonths) ->
-        [one] { $periodMonths } mesiac
-        [few] { $periodMonths } mesiace
-       *[other] { $periodMonths } mesiacov
-    }ak{ NUMBER($people) ->
-        [one] { $people } človek
-        [few] { $people } ľudia
-       *[other] { $people } ľudí
-    }nahrá{ NUMBER($clipsPerDay) ->
-        [one] { $clipsPerDay } nahrávku
-        [few] { $clipsPerDay } nahrávky
-       *[other] { $clipsPerDay } nahrávok
-    }za deň.
+        [one] { $totalHours } hodina je dosiahnuteľných už o
+        [few] { $totalHours } hodiny je dosiahnuteľných už o
+       *[other] { $totalHours } hodín je dosiahnuteľných už o
+    }{ NUMBER($periodMonths) ->
+        [one] { $periodMonths } mesiac ak
+        [few] { $periodMonths } mesiace ak
+       *[other] { $periodMonths } mesiacov ak
+    }{ NUMBER($people) ->
+        [one] { $people } človek nahrá
+        [few] { $people } ľudia nahrá
+       *[other] { $people } ľudí nahrá
+    }{ NUMBER($clipsPerDay) ->
+        [one] { $clipsPerDay } nahrávku za deň.
+        [few] { $clipsPerDay } nahrávky za deň.
+       *[other] { $clipsPerDay } nahrávok za deň.
+    }
 how-many-per-day = Skvelé! Koľko nahrávok za deň?
 how-many-a-week = Skvelé! Koľko nahrávok za týždeň?
 which-goal-type = Chcete hovoriť, počúvať alebo oboje?
