@@ -90,7 +90,7 @@ show-wall-of-text = ܩܪܝ ܝܬܝܪ
 help-us-title = ܥܕܪ ܩܬܢ ܒܫܪܘܪܐ ܕܦܬܓܡ̈ܐ!
 vote-yes = ܗܐ
 vote-no = ܠܐ
-speak-subtitle = ܗܒ݇ܠܘܢ ܩܠܘܟ݂ܘܢ
+speak-subtitle = ܫܘܬܦ ܩܠܘܟܘܢ
 listen-subtitle = ܥܕܪ ܩܬܢ ܒܫܪܘܪܐ ܕܩܠ̈ܐ
 listen-goal-text = ܡܐܡܪ̈ܐ ܫܪܝܪ̈ܐ
 hours-validated = ܫܥ̈ܐ ܫܪܝܪ̈ܐ
@@ -401,6 +401,9 @@ keep = ܢܛܪ
 
 ## ADD SENTENCES CONFIRMATION
 
+# Variables:
+#   $countOfInvalidated (Number) - Number of sentences the user rejected in the review form before submission
+sc-confirm-rejected-by-you = { $countOfInvalidated } ܟܦܝܪܝܬܘܢ (rejected)
 
 ## LANGUAGE INFO
 
