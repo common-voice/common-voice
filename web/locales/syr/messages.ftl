@@ -404,6 +404,18 @@ keep = ܢܛܪ
 
 ## LANGUAGE INFO
 
+# Variables:
+#   $validatedSentences (Number) - Number of sentences which have been approved for this language
+sc-lang-info-validated =
+    { $validatedSentences ->
+        [0] ܡܐܡܪ̈ܐ ܠܐ ܫܪܝܪ̈ܐ
+        [zero] 0 ܡܐܡܪ̈ܐ ܫܪܝܪ̈ܐ
+        [one] 1 ܡܐܡܪܐ ܫܪܝܪܐ
+        [two] { "" }
+        [few] { "" }
+        [many] { "" }
+       *[other] { $validatedSentences } ܡܐܡܪ̈ܐ ܫܪܝܪ̈ܐ
+    }
 
 ## LOGIN
 
