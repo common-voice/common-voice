@@ -95,6 +95,7 @@ listen-subtitle = ܥܕܪ ܩܬܢ ܒܫܪܘܪܐ ܕܩܠ̈ܐ
 listen-goal-text = ܡܐܡܪ̈ܐ ܫܪܝܪ̈ܐ
 hours-validated = ܫܥ̈ܐ ܫܪܝܪ̈ܐ
 help-reach-goal = ܥܕܪ ܩܕ ܕܝܝܢ ܡܛܚ ܥܠ { $goal }
+ready-to-record = ܦܝܫܝܬܘܢ ܥܬܝܕܐ (ready) ܥܡ ܫܘܬܦܝܬܘܢ ܩܠܘܟܘܢ؟
 all-locales = ܟܠ
 today = ܐܕܝܘܡ
 x-weeks-short =
