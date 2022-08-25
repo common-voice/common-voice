@@ -9,7 +9,7 @@ email-input =
 submit-form-action = ܫܕܪ
 loading = ܡܛܥܢܬܐ ...
 email-opt-in-info = ܐܢܐ ܒܥܝܢ ܩܒܠܢ ܐܝܡܝܠ ܐܝܟ ܕܡܥܗܕ̈ܢܘܬܐ ܕܢܝܫ̈ܐ، ܚܘܕ̈ܬܐ ܕܪܗܬܝ ܘ ܛܒܐ ܡܛܠ ܩܠܐ ܓܘܢܝܐ.
-email-opt-in-info-title = ܫܘܬܦ ܥܡ ܣܕܪܐ ܕܒܝܠܕܪܝܐ ܕܩܠܐ ܓܘܢܝܐ.
+email-opt-in-info-title = ܢܩܦ (join) ܥܡ ܣܕܪܐ ܕܒܝܠܕܪܝܐ ܕܩܠܐ ܓܘܢܝܐ.
 email-opt-in-info-sub-with-challenge = ܩܒܠܘܢ ܐܝܡܝܠ (email) ܐܝܟ ܡܘܪܝ̈ܐ (challenges)، ܡܥܗܕ̈ܢܘܬܐ ܕܢܝܫ̈ܐ (goal reminders)، ܚܘܕ̈ܬܐ ܕܪܗܬܝ (progress updates) ܘ ܛܒܐ ܡܛܠ ܩܠܐ ܓܘܢܝܐ.
 email-opt-in-privacy-v2 = ܒܫܪܟܬܐ ܕܐܝܡܝܠ، ܐܚܬܘܢ ܠܝܬ ܠܘܟܘܢ ܕܘܪܫܐ ܒܡܕܒܪܢܘܬܐ ܕܡܘܙܝܠܐ (mozilla) ܒܕܐܗܐ ܡܘܕܥܢܘܬܐ (information) ܐܝܟ ܝܠܗ ܡܘܕܥܝܬܐ ܓܘ <privacyLink> ܫܘܝܫܐ ܕܕܝܠܢܝܘܬܐ <privacyLink/> ܕܡܘܙܝܠܐ.
 indicates-required = * ܒܪܫܡܐ ܝܠܗ ܚܩܠܢ̈ܐ ܐܢܢܩܝ̈ܐ.
@@ -49,6 +49,11 @@ he = ܥܒܪܐܝܬ
 hi = ܗܢܕܝܐ
 hy-AM = ܐܪܡܢܝܬ
 hyw = ܐܪܡܢܝܬ ܡܥܪܒܝܐ
+kmr = ܩܘܪܕܝܬ
+nb-NO = ܢܘܪܒܝܓܐܝܬ ܒܘܟܡܠ
+nn-NO = ܢܘܪܒܝܓܐܝܬ ܢܝܢܘܪܣܟ
+nr = ܐܦܐܢ ܐܘܪܘܡܘܐܝܬ
+pl = ܦܘܠܢܕܐܝܬ
 ru = ܐܘܪܘܣܢܝܬ
 rw = { "" }
 sv-SE = ܣܘܝܕܐܝܬ
@@ -126,7 +131,7 @@ x-years-short =
         [many] ܫܢܝ̈ܐ
        *[other] ܫܢܝ̈ܐ
     }
-help-make-dataset = ܥܕܪ ܩܬܢ ܩܐ ܒܢܝܬܐ ܕܚܕ ܣܕܪܐ ܫܘܘܕܥܝܐ (dataset) ܕܝܠܗ ܐܝܢܝܘܬܐ ܥܠܝܬܐ (high quality) ܘ ܦܬܝܚܐ ܩܐ ܟܠ ܚܕ ܐ̄ܢܫܐ
+help-make-dataset = ܥܕܪ ܩܬܢ  ܒܒܢܝܬܐ ܕܚܕ ܣܕܪܐ ܫܘܘܕܥܝܐ (dataset) ܕܝܠܗ ܐܝܢܝܘܬܐ ܥܠܝܬܐ (high quality) ܘ ܦܬܝܚܐ ܩܐ ܟܠ ܚܕ ܢܫܐ
 sign-up-account = ܡܟܬܒ ܚܘܫܒܢܐ
 email-subscription-title = ܡܟܬܒ ܠܩܒܠܬܐ ܚܘܕ̈ܬܐ ܒܐܝܡܝܠ
 email-subscription-title-new = ܡܟܬܒ ܠܩܒܠܬܐ ܛܒܐ، ܡܥܗܕ̈ܢܘܬܐ ܕܢܝܫ̈ܐ‌ (goal reminders) ܘ ܚܘܕ̈ܬܐ ܕܪܗܬܐ (progress updates) ܕܩܠܐ ܓܘܢܝܐ
