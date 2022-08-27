@@ -346,6 +346,7 @@ profile-form-additional-language =
     .label = ภาษาอื่นๆ
 profile-form-language =
     .label = ภาษา
+profile-form-variant-default-value = ไม่ได้เลือกรูปแบบ
 profile-form-accent =
     .label = สำเนียง
 profile-form-age =
