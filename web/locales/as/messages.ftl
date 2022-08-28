@@ -758,6 +758,7 @@ other-language = অন্য ভাষাসমূহ
 
 ## Request Language Pages
 
+request-language-heading = নতুন ভাষাৰ অনুৰোধ কৰক
 request-language-form-email =
     .label = আপোনাৰ ইমেইল ঠিকনা
 request-language-form-info-explanation-list-1 = আপোনাৰ ভাষাৰ নামবোৰ
