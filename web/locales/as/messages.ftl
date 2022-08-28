@@ -512,7 +512,7 @@ about-new-lang-title = নতুন ভাষাৰ উদ্বোধন
 about-new-lang-subtitle = আমি এই ভাষাত কমন ভইচ ছাইট মুকলি কৰোঁ।
 about-voice-contrib-title = মাত-অৱদান
 about-voice-contrib-subtitle = মানুহে আহি নিজৰ মাত দান কৰে।
-about-voice-validation-title = মাত-বৈধকৰণ
+about-voice-validation-title = মাত বৈধকৰণ
 about-voice-validation-subtitle = অন্য লোকে সেই ভইচ ক্লিপবোৰ বৈধকৃত কৰে।
 about-dataset-release-title = ডাটাছেটৰ মুক্তিলাভ
 about-dataset-release-subtitle = আমি 3 মাহৰ মূৰে-মূৰে ডাটাছেট মুকলি কৰোঁ।
@@ -576,13 +576,17 @@ about-playbook-how-add-language-collecting-sentences-content-2 =
     আপুনি <sentenceCollectorLinkAdd>কম সংখ্যক বাক্য যোগ কৰিব</sentenceCollectorLinkAdd> পাৰে,
     বা আপুনি <bulkImportDocsLink>Github ব্যৱহাৰ কৰি সমূহীয়া আমদানি</bulkImportDocsLink> কৰিব পাৰে।
     মনত ৰাখিব যে বাক্যবোৰ <licenseLink>CC0 (বা ৰাজহুৱা ডমেইন)</licenseLink>ৰ হোৱাটো প্ৰয়োজনীয় বা আপুনি নিজে লিখিব পাৰে।
+about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>বাক্য-সংগ্ৰহ সম্বন্ধে অধিক চাওক</sentenceCollectorFragment>.
 
 ## How does localization work
 
+about-playbook-how-localize = ছাইট স্থানীয়কৰণে কেনেকৈ কাম কৰে?
 about-playbook-how-localize-content-1 = কমন ভইচ ছাইটৰ অনুবাদ <strong>Pontoon</strong>-ত হয়।
+about-playbook-how-localize-content-2 = যদি আপোনাৰ একাউণ্ট নাই তেন্তে <pontoonAccountLink>এটা একাউণ্ট সৃষ্টি কৰক</pontoonAccountLink>৷ তাৰ পিছত, আপোনাৰ ভাষা <strong>(‘দল’)</strong> বাছি লওক আৰু তাৰ পিছত প্ৰকল্প, <pontoonCvLink>Common Voice</pontoonCvLink> বাছি লওক। তাত অনুবাদ কৰিবলগীয়া ফাইল থাকিব। তাৰে এটাত ক্লিক কৰক, তাৰ পিছত ই ইংৰাজী ভাষাত শব্দ আৰু সেয়া অনুবাদ কৰিবলৈ এটা বাকচ দেখুৱাব।
 
 ## How to add sentences
 
+about-playbook-how-add-sentences = মই বাক্য কেনেকৈ যোগ কৰিম?
 
 ## How to record quality
 
