@@ -582,7 +582,10 @@ about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollec
 
 about-playbook-how-localize = ছাইট স্থানীয়কৰণে কেনেকৈ কাম কৰে?
 about-playbook-how-localize-content-1 = কমন ভইচ ছাইটৰ অনুবাদ <strong>Pontoon</strong>-ত হয়।
-about-playbook-how-localize-content-2 = যদি আপোনাৰ একাউণ্ট নাই তেন্তে <pontoonAccountLink>এটা একাউণ্ট সৃষ্টি কৰক</pontoonAccountLink>৷ তাৰ পিছত, আপোনাৰ ভাষা <strong>(‘দল’)</strong> বাছি লওক আৰু তাৰ পিছত প্ৰকল্প, <pontoonCvLink>Common Voice</pontoonCvLink> বাছি লওক। তাত অনুবাদ কৰিবলগীয়া ফাইল থাকিব। তাৰে এটাত ক্লিক কৰক, তাৰ পিছত ই ইংৰাজী ভাষাত শব্দ আৰু সেয়া অনুবাদ কৰিবলৈ এটা বাকচ দেখুৱাব।
+about-playbook-how-localize-content-2 = যদি আপোনাৰ একাউণ্ট নাই তেন্তে <pontoonAccountLink>এটা একাউণ্ট সৃষ্টি কৰি ল'ব</pontoonAccountLink>৷ তাৰ পিছত, আপোনাৰ ভাষা <strong>(‘দল’)</strong> বাছি ল'ব আৰু তাৰ পিছত প্ৰকল্প, <pontoonCvLink>Common Voice</pontoonCvLink> বাছি ল'ব। তাত অনুবাদ কৰিবলগীয়া ফাইল থাকিব। তাৰে এটাত ক্লিক কৰিব, তাৰ পিছত ই ইংৰাজী ভাষাত শব্দ আৰু সেয়া অনুবাদ কৰিবলৈ এটা বাকচ দেখুৱাব।
+about-playbook-how-localize-content-3 = অনুবাদ ইংৰাজীৰ পৰা কৰা হ'ব যদিও আপুনি অন্য ভাষাত <strong>পৰামৰ্শ</strong> দেখা পাব পাৰে। <strong>প্ৰ'ফাইল</strong> আইকনটোত ক্লিক কৰিব, তাৰ পিছত <strong>ছেটিংছ</strong>ৰ লিংকত ক্লিক কৰি আপুনি কোৱা যিকোনো ভাষা যোগ কৰি ল'ব। তলৰ সোঁ-চুকত <strong>ভাষা</strong> বোলা অনুবাদৰ তালিকা এখন থাকিব। অনুবাদবোৰ এদিনৰ পিছত ছাইটত দেখা যায়।
+about-playbook-how-localize-content-4 = ৭৫% সম্পূৰ্ণ হ'লে ছাইটটো উদ্বোধনৰ বাবে সাজু হয়।
+about-playbook-how-localize-content-5 = সহায় ল'বলৈ আমাৰ ভিডিঅ' ব্যাখ্যা চাওক
 
 ## How to add sentences
 
