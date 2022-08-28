@@ -539,6 +539,7 @@ language-search-input =
     .placeholder = Ҷустуҷӯ
 language-speakers = Баландгӯякҳо
 sentences = Ҷумлаҳо
+language-validation-hours = Соат
 
 ## Contribution
 
