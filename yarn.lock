@@ -1945,10 +1945,10 @@
   resolved "https://registry.yarnpkg.com/@fluent/bundle/-/bundle-0.17.1.tgz#239388f55f115dca593f268d48a5ab8936dc9556"
   integrity sha512-CRFNT9QcSFAeFDneTF59eyv3JXFGhIIN4boUO2y22YmsuuKLyDk+N1I/NQUYz9Ab63e6V7T6vItoZIG/2oOOuw==
 
-"@fluent/langneg@0.3.0":
-  version "0.3.0"
-  resolved "https://registry.yarnpkg.com/@fluent/langneg/-/langneg-0.3.0.tgz#8e92cf767f79c8f5e1b116a42248a68a342a1039"
-  integrity sha512-ppMMw+xi4ma45P2Nyf0sfnzIxrCswTgy0SBvPeZ8LB0sD0Gj403ZYYJTg06MmAcQITXXku3fGIpt/u1k5Zq1tA==
+"@fluent/langneg@0.6.2":
+  version "0.6.2"
+  resolved "https://registry.yarnpkg.com/@fluent/langneg/-/langneg-0.6.2.tgz#95e5261c27c7f3cb6237deb62aa1b7006a9bd17d"
+  integrity sha512-YF4gZ4sLYRQfctpUR2uhb5UyPUYY5n/bi3OaED/Q4awKjPjlaF8tInO3uja7pnLQcmLTURkZL7L9zxv2Z5NDwg==
 
 "@fluent/react@0.12.0":
   version "0.12.0"

@@ -4,7 +4,7 @@
   "private": true,
   "dependencies": {
     "@fluent/bundle": "0.17.1",
-    "@fluent/langneg": "0.3.0",
+    "@fluent/langneg": "0.6.2",
     "@fluent/react": "0.12.0",
     "@sentry/react": "6.18.2",
     "@sentry/tracing": "6.18.2",
