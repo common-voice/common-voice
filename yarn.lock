@@ -1940,10 +1940,10 @@
     minimatch "^3.0.4"
     strip-json-comments "^3.1.1"
 
-"@fluent/bundle@0.15.1":
-  version "0.15.1"
-  resolved "https://registry.yarnpkg.com/@fluent/bundle/-/bundle-0.15.1.tgz#95d3b9f836ac138b6ee8480ef8d0547dd59195b1"
-  integrity sha512-uhDGjpEwTMBNxYMSXyjXFBG5LY7dqoNatle6mnghu5lFOrf0JyblY/Y0al2GzDKFuYbtOSbJvUkxzjtYX3odkw==
+"@fluent/bundle@0.17.1":
+  version "0.17.1"
+  resolved "https://registry.yarnpkg.com/@fluent/bundle/-/bundle-0.17.1.tgz#239388f55f115dca593f268d48a5ab8936dc9556"
+  integrity sha512-CRFNT9QcSFAeFDneTF59eyv3JXFGhIIN4boUO2y22YmsuuKLyDk+N1I/NQUYz9Ab63e6V7T6vItoZIG/2oOOuw==
 
 "@fluent/langneg@0.3.0":
   version "0.3.0"
