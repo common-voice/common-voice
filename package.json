@@ -14,7 +14,7 @@
     "node": ">=12"
   },
   "devDependencies": {
-    "@fluent/syntax": "0.18.0",
+    "@fluent/syntax": "0.18.1",
     "@typescript-eslint/eslint-plugin": "5.10.0",
     "@typescript-eslint/parser": "5.10.0",
     "concurrently": "5.3.0",
