@@ -699,6 +699,7 @@ A partir que avança el film, veiem coincidències de personatges i escenes.
 A penes hi ha qui ho recorde ara.
 A pesar d'aquestes limitacions, el mètode suposa un esforç per trobar un sistema.
 A pesar de les mutacions, en l’actualitat coexisteixen els tres tipus de producció.
+A plànyer els quatre pobres xicots que suaven
 A poc a poc i bona lletra: com més serem, més riurem.
 A pocs centenars de metres hi havia una casa de pagès
 A poguer tenir successió, no es podia demanar més.
@@ -843,6 +844,7 @@ Absència total de preocupacions i emocions que puguen alterar l'equilibri menta
 Acaba de fer vuitanta anys.
 Acabaré aquesta feina a totes passades abans del cap de setmana, ja ho veuràs.
 Acabava de descobrir unes mates florides
+Acabaven d'ajeure'm a la llitera
 Acabem, de primer, i dis-me qui és la que tu estimes.
 Acaben per criar la sang com un caldo de bany maria.
 Acabo de fer una comanda però m'he equivocat de producte.
@@ -1065,6 +1067,7 @@ Això ens permet fer-nos una fotografia de la societat mexicana.
 Això ens permet fer-nos una idea de la societat mexicana.
 Això ens permet fer-nos una imatge de la societat mexicana.
 Això era de pobres.
+Això era el que es feia quan algú queia ferit
 Això era repetit una i altra vegada per diversos homes
 Això es diu in fraganti, tu, ignorant —li retrau el Manel.
 Això es el que vull fer.
@@ -4765,6 +4768,7 @@ Comentàvem com d'inútils ens semblaven tant de dictamen.
 Comença a celebrar-se el famós juí verbal, conservat a l'arxiu de Favara.
 Començava a caure la tarde, aviat s'haurien de acomiadar
 Començà a enfilar-se carretera amunt, més o menys desordenadament.
+Començà a fer-me un mal de mil dimonis
 Començà a implorar que tothom tornés a la feina
 Començà el que, còmicament, en deien «instrucció».
 Compadisc les teues pàl·lides germanes, tristos cossos per sempre immaternals.
@@ -6086,6 +6090,7 @@ El dit que tu has dit, jo no l’he dit.
 El diumenge, a les vuit, a missa
 El doctor Vilaseca llegí un magnífic discurs d'ingrés.
 El doctor m'arrossegava estirant-me pel braç
+El doctor tornà a embenar-me la ferida
 El dolor compta les hores; el plaer les oblida.
 El dolor té dues menes, l'un et fa mal, l'altre et canvia.
 El domini de si mateix es demostra en topar amb la torpesa.
@@ -6241,6 +6246,7 @@ El metge i els infermers se n'havien anat
 El meu amic i jo ens vam esmunyir cap al seu hotel
 El meu amor viu a Tolosa.
 El meu avi va aprendre a resoldre integrals múltiples mentre s'eixugava el cul
+El meu braç dret paralitzat tornà a la vida
 El meu cap és com un bebé, crida i em desperta cada mitja hora.
 El meu carnet es el set set sis cinc quatre tres vuit quatre.
 El meu codi postal és el disset mil tres.
@@ -7009,6 +7015,7 @@ Els fanals de les placetes ens encalcen.
 Els feixistes continuaven disparant contra nosaltres
 Els feixistes no eren sinó uns llunyans insectes negres
 Els feixistes van veure's obligats a replegar-se
+Els ferits només passaven unes hores
 Els ferits sovint passaven d'un hospital a un altre
 Els ferrers forjaven arreu ferramentes am dragons
 Els fets són axiomes base que es consideren com a veritables.
@@ -7057,6 +7064,7 @@ Els homes van senyalar que estaven conformes amb el cap
 Els homes vivien en palaus i es dedicaven a la guerra, cavallers.
 Els homes, se 'l miraven satisfets aquell moviment de vida.
 Els horaris previstos per aquestes festes són els següents:.
+Els hospitals eren barraques de fusta ràpidament improvisades
 Els hostes s'atapeïen en una sala fosca del darrere
 Els humors són unes substàncies de l'equilibri de les quals depenia la salut.
 Els hàbits que n'eren els seus productes han perit.
@@ -7272,6 +7280,7 @@ Els únics canvis reals que s'havien produït havien estat canvis de nom
 Els únics plaers que no defrauden són els imprevistos.
 Em caracteritze per la meua vinculació als cicles ramaders i agrícoles.
 Em cau molt bé, però a vegades em posa una mica nerviosa.
+Em clavà una injecció de morfina
 Em cridava movent un braç
 Em cuidava molt i es preocupava molt per mi.
 Em dedique a explicitar aquesta nova forma d'entendre la naturalesa humana.
@@ -7940,6 +7949,7 @@ Ens de raó aprehendràs, si en acabant de sortir, es deixa olorar i sentir.
 Ens enlluernava els ulls i ens deslligava la llengua.
 Ens han passat informació de la nova agència amb comptagotes.
 Ens havien promès un morter de trinxera per a la companyia
+Ens havien situat més cap a la dreta
 Ens havíem construït unes plataformes entre les branques dels àlbers
 Ens havíem de posar en fila índia per passar per l'estreta obertura
 Ens havíem de preparar
@@ -7958,6 +7968,7 @@ Ens quedàvem xerrant fins molt tard a la nit.
 Ens separen els qui estan disposats a acceptar injustícies.
 Ens tocava un quart de galó per dia i per home.
 Ens trobàvem a uns cinc-cents metres sobre el nivell del mar.
+Ens trobàvem en un d'aquells períodes d'escassetat de tabac
 Ens trobàvem patollant per un fangar
 Ens va dir, en diverses llengües
 Ens va obrir un home major amb la cara enrogida.
@@ -8831,6 +8842,7 @@ Feia vint anys que hi anava de matí i tarde a la casa.
 Feia ús de la línia corba i de l'asimetria.
 Feien el servei militar en esclatar la guerra
 Feien números i números arrenglerats de dalt a baix
+Feien tentines sota el pes de la llitera
 Fem una anàlisi crítica i rigorosa de què férem malament per resoldre-ho.
 Fem una comanda per emportar al Fenicia!
 Fent gatzara, sense respectar la Casa, ni el comerç
@@ -9522,6 +9534,7 @@ Hi havia les dues bateries de canons russos
 Hi havia lletres que les aprenia depresa
 Hi havia molt poques parades obertes
 Hi havia motius d'estar-hi.
+Hi havia més de dos quilòmetres de camí
 Hi havia pares que portaven a allistar minyons de quinze anys
 Hi havia periodistes estrangers
 Hi havia quelcom de repulsiu en aquella paròdia de vida d'hotel
@@ -10837,6 +10850,7 @@ Jo esquite, il·lusione, esbardisse, faldege, llime
 Jo estable, esvaïsc, emborre, enquadrone, engegue, esmargene
 Jo estamordisc, encause, esplane, ferre, ejacule, empadrone
 Jo estampille, esgrame, escenifique, escaire, empresone, interdic
+Jo estava abaltit per la morfina
 Jo estava convençut que no dispararia
 Jo estelle, judaïtze, fuig, gorrege, efectue, embolcalle
 Jo estenalle, erigisc, enfurie, esplomisse, ensagne, enllestisc
@@ -11288,6 +11302,7 @@ Jo rose, refronte, peralte, sobreentenc, sostre, saltigue
 Jo rotlle, mormole, medique, prologue, mate, pellege
 Jo rumbege, revincle, retrovenc, parterege, sobte, suggestione
 Jo rumorege, moletege, rebrame, tempere, revivifique, tafurege
+Jo sabia perfectament el pa que s'hi donava
 Jo sacrifique, radiografie, mestrege, surt, voltege, valore
 Jo sagne, tafarrege, prostituïsc, renye, retrenque, prevalc
 Jo sagramente, tope, predic, ovale, reprimisc, velaritze
@@ -13374,6 +13389,7 @@ M'asseguraven que eren «obrers»
 M'assenyalà amb el fusell cap al carrer lateral
 M'aties, Maties?
 M'avergonyisc, atenesos, de dir-vos la veritat, però cal dir-la.
+M'empassava sang constantment
 M'encanta el country!
 M'encanta fer coses pel meu país i per la meva llengua.
 M'encanta la cançó del 'paraulògic'.
@@ -13580,6 +13596,7 @@ Me la talla i me la cus per al dia el bon Carrús.
 Me la vaig emportar de retorn a la nostra posició
 Me sorprèn, et prometo que em sorprèn.
 Me'l canviareu, doncs?
+Me'l devia haver trencat en caure
 Me'n manquen ben poques pàgines
 Me'n tornaré al meu hotel i allà em quedaré.
 Me'n vaig a dinar; he fet cigrons.
@@ -14247,6 +14264,7 @@ No fas res d'extraordinari, no faràs res de diferent dels altres homes.
 No feia flama, de manera que no servia per encendre foc.
 No feia gens de lluna, però el cel anava empal·lidint-se
 No feia mai enfadar al mestre, però no el deixava mai satisfet
+No feia ni dos dies que havia ajudat a portar un ferit
 No feia pas més de cent cinquanta metres
 No feia sinó pensar d'eixir del mal pas i posar-me a existir.
 No feien perdre'l temps amb cabòries
@@ -14326,6 +14344,7 @@ No hi havia manera que em deixés en pau.
 No hi havia motius de capficar-se
 No hi havia més armes
 No hi havia ni carro, ni carretó
+No hi havia ni un cigarret enlloc
 No hi havia pas cap dubte.
 No hi havia qui el fes seguir.
 No hi havia res més que valgués la pena de veure.
@@ -15406,6 +15425,7 @@ Per què és important que llegisca exactament el que se'm mostra?
 Per què és un excel·lent company
 Per què, enganyosa poesia, m’ensenyes de fer mons?
 Per rompre les xarxes de prejudicis i de rutines
+Per senderes relliscoses i incòmodes
 Per ser aquell el primer petó, no s'hi havia entretingut gaire.
 Per ser ric, centra't no a guanyar diners, sinó a disminuir l'avarícia.
 Per setmana santa faran un taller de palmes.
@@ -15585,6 +15605,7 @@ Però confesso que jo em vaig sentir alleujat.
 Però de vegades hem d'actuar com si fórem de ferro.
 Però durà prou per produir efectes en tots els qui la van experimentar
 Però el dimecres canvià de to
+Però el dolor em tranquil·litzà
 Però el grup d'anarquistes situat a l'entrada de la travessia...
 Però el primer que la va establir va ser causa dels béns més grans.
 Però el que està avesat a ser actiu...
@@ -15704,6 +15725,7 @@ Però, de sobte, tot s'apaga.
 Però, de vegades, tot s'apaga.
 Però, dissortadament, jo la comparteixo.
 Però, ja en el llindar de l'alta portalada, es recolzà en el pedestal.
+Però, mentrestant, el braç em feia un mal diabòlic
 Però, més que res, Valeri, el canvi del teu cor, i la fredor criminal.
 Però, naturalment, jo vaig acudir-hi amb els altres.
 Però, no va aconseguir-ho.
@@ -16124,6 +16146,7 @@ Proveu d'engegar-lo abans.
 Proveïment, logística i operacions.
 Prullans es troba a la Cerdanya
 Pràctic per morir-s'hi a dintre d'ensopiment i de nyonya.
+Pràcticament incapaç de moure'm
 Pràcticament, no hi havia manera d'aconseguir-ne.
 Pràcticament, tanmateix, no hi havia res per menjar
 Publica el meu estat a Facebook.
@@ -16223,6 +16246,7 @@ Quan està de mal humor escampa el seu malestar a tort i a dret.
 Quan està la pasta bona per a dur la post al forn?
 Quan et crido, vull que vinguis a l'acte!
 Quan et mire asseguda a la falda del Montgó, crec veure't extasiada.
+Quan et mors, les sensacions no esdevenen mai agudes
 Quan et pares a pensar si ames o no algú, ja tens la resposta...
 Quan fan tres per dos?
 Quan finia una dansada, donava la cap de dansa un puro al ballador.
@@ -17518,6 +17542,7 @@ Se'n va anar content i ja no va sortir més de casa.
 Se'n va pujant al cel... El caçador, amb anhel, cada any la mira.
 Se'n van a la platja a passar-hi el matí.
 Se'n van anar a casa, uns a peu i altres en cotxe.
+Se'n van anar amb totes les meves coses
 Se'n van apagar la meitat
 Se'ns dirà que aquest situacionisme és molt desagradable.
 Se'ns ha concedit la imaginació per compensar-nos per allò que no som.
@@ -17923,6 +17948,7 @@ Si no aprens a confiar en els altres, difícilment aconseguiràs que confien en 
 Si no cridaven molt no sentia ni una paraula
 Si no el rep en aquest termini contacti amb nosaltres.
 Si no em falla la memòria, aniré.
+Si no en té prou que l'empentin l'empènyeu.
 Si no es movien de casa patirien de la gota
 Si no fos que ja ho sabien
 Si no haguessin tingut llurs famílies en territori feixista.
@@ -19115,6 +19141,7 @@ Tot el que fa, ho fa d'una manera tan escaient!
 Tot el que penja pot caure.
 Tot el que s'arriscava era contemplar des de fora la casa
 Tot el que s'ha de tenir a la vida
+Tot el que tenia era repartit immediatament entre els companys
 Tot ell flanquejat d'arcbotants
 Tot en un tres i no res.
 Tot ens era enviat per remeses
@@ -20175,6 +20202,7 @@ Vaig comandar, com a tinent,una trentena d'homes
 Vaig començar a buscar els nens fins i tot per sota dels llits.
 Vaig començar a fer-li preguntes, a distingir-lo
 Vaig començar a pensar que ens havíem extraviat.
+Vaig començar a sentir-me normal
 Vaig comprar l'altre dia una rentadora i necessito factura.
 Vaig comprendre que algú disparava darrere meu mateix
 Vaig comprendre que havia de tornar immediatament a l’hotel
@@ -20185,6 +20213,7 @@ Vaig córrer cap a ell
 Vaig de bòlit, és dir, com cagalló per sèquia.
 Vaig deixar la carta damunt la taula de propòsit, perquè la veiessis.
 Vaig deixar passar el meu acompanyament
+Vaig demanar un cigarret
 Vaig descobrir que estava terriblement espantat
 Vaig descobrir que no ens ensenyaven de manejar armes.
 Vaig donar per fet que estava ben llest
@@ -20222,6 +20251,7 @@ Vaig passar per un indret de poc trànsit
 Vaig passar-hi deu dies, part al llit.
 Vaig passar-me gairebé tot el dia llegint una novel·la
 Vaig pensar que aquest Evenos era un home feliç si veritablement posseïa aquest art.
+Vaig pensar que era bona cosa de viure
 Vaig per refrescar-me una mica.
 Vaig poder presenciar com un d'ells era apeixat en una casa de pagès.
 Vaig prendre el determini de no alçar més els ulls enlaire.

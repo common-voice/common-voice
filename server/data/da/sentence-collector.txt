@@ -711,6 +711,7 @@ Bare katten ville tage dig, dit fæle spektakel!
 Bare ondskab, som Vorherre ikke kender til!
 Bare rolig, der er reeksamen næste semester.
 Bare storken ville tage mig med, eller en af dens unger.
+Bare tag for dig i buffeten, du har betalt.
 Bare vi havde den gamle bedstefader klinket!
 Bare vi var vel nede af bordet!
 Barfodsløb var meget moderne for et par år siden
@@ -766,6 +767,7 @@ Bladene falder af, de flyver hen i vinden!
 Bladene faldt af træerne
 Bladet med hende svømmede længere og længere bort.
 Bland dig ikke i den sag, lille Hans!
+Blandt alle ingredienserne sammen i en stor skål, og stil den til side.
 Blegselleri ødelægger alt mad, det bliver tilføjet til.
 Bliv du helst hvor du er!
 Bliv du i din varme seng, jeg skal nok pleje dig!
@@ -791,6 +793,7 @@ Bogen her vil føre dig ind i en verden af muligheder.
 Bogen må derfor kopieres, distribueres, redigeres, beskæres og bygges videre på
 Bogen og alle tilhørende materialer er udgivet under en licens.
 Bogen vil give dig en opskrift på sikkert at respektere andres ophavsret.
+Bogens tredje kapitel er løsningen på nogle udfordringer
 Bommanden fik gåsen, bondemanden fik hønen.
 Bondekonen lukkede døren for ham.
 Bondekonen lukkede op.
@@ -815,6 +818,7 @@ Bro, bro, brille, klokken er slået elve!
 Brockenhuus til Egeskov i Fyn, om hvis styrke der endnu gik ry.
 Broen kunne han ikke finde.
 Broen tillader kun passage for vandlevende dyr.
+Broer finder man også over steder som Limfjorden og Gudenåen
 Brud og brudgom kyssede hinanden, og i det nu sprang skoven ud.
 Brudgommen var den unge Prinds fra Arabiens Land.
 Brug af vækstfremmende og pelsmodnende stoffer, herunder melatonin, er ikke tilladt.
@@ -822,6 +826,7 @@ Bryd Dem aldrig om hvad han siger!
 Brylluppet var nu bestemt, og aftnen forud blev hele byen illumineret.
 Brylluppet varede i otte dage.
 Brænde havde de ikke, Skoven var fældet, hvor de skulde hente det fra.
+Brødet bages i ovnen ved høj temperatur.
 Brønden var dyb, derfor var snoren lang.
 Buntmagerens dreng skulle bringe en flaske vin af den bedste slags.
 Burde rebet være så flosset?
@@ -912,6 +917,7 @@ Da hun var femten år, skulle hun hjem.
 Da hun vågnede, troede hun øjeblikkelig, at hun endnu holdt den.
 Da hun vågnede, var solen allerede højt oppe.
 Da hændte der sig en stor begivenhed.
+Da jeg var lille, fandtes der ikke smartphones.
 Da jog dyret af sted med ham, af sted gennem den åbne forsal
 Da klang jagthorn mellem bjergene.
 Da knebrede det på bondens tag.
@@ -986,6 +992,7 @@ Danske gymnasieelevers studierejser til Prag blev berygtede.
 Datoen for lektionens gennemførelse og den faktisk anvendte tid skal også bekræftes
 Datteren Else var som den dejligste blomst at se, og hun lo altid.
 De Brydende Gladiatorer udgjorde den anden gruppe.
+De advarer om politiets tilstedeværelse på Facebook.
 De andre høns var af samme mening, og så gik de.
 De andre kørte sammen.
 De andre nikkede og blev ved.
@@ -993,6 +1000,7 @@ De andre roser så efter deres søster, og spurgte hinanden.
 De andre ællinger er nydelige!
 De bad ham blive.
 De begyndte at prygle på store Claus.
+De betingelser der følger med disse materialer kan bruges i undervisningen
 De blev så bange for mig!
 De blev ved.
 De bliver dårlig ved det.
@@ -1044,6 +1052,7 @@ De fortalte hinanden, hvor de denne dag havde været.
 De fortalte mig det en aften, da jeg bad dem om et eventyr
 De fortjente at være grevinde!
 De færdselsregler, der har betydning for føringen af en traktor
+De første smartphones var slet ikke så smarte endda.
 De gik altid barfodede på stranden for at mærke sandet.
 De gik med salmebog under armen hen at høre præsten prædike.
 De gik noget.
@@ -1074,6 +1083,7 @@ De har sultet den!
 De har trodset sødt og surt, hedt og koldt, nøddeskal og blommesten!
 De har ånd, hr.
 De har ånd, madame!
+De havde bagt chokoladekage til festen.
 De havde det mundheld.
 De havde en nybygget shelterplads i haven.
 De havde opstillet en vagtpost ved muren.
@@ -1105,6 +1115,8 @@ De kom på børnebal.
 De kommer aldrig mere til Beeren-Eiland!
 De kommer herned med skibslejlighed.
 De kommer måske fra mistbænken!
+De kondoliderede virksomhederne til en.
+De kontakter hinanden på internettet.
 De kror sig af deres talegaver, deres sprog!
 De krøb ind i deres hus, spyttede, verden kom ikke dem ved
 De kunde lære endnu.
@@ -1230,6 +1242,7 @@ De ville også have Ivede-Avede, men de fik kun den om Klumpe-Dumpe.
 De ville vist slå ham ihjel, tænkte han.
 De vises sten Eventyr
 De ækle abekatte sad oppe i træerne og grinede med alle deres tænder.
+De ønskede alle fleksible arbejdstider.
 De øvrige fem lokaliteter vil kun i begrænset omfang blive påvirket.
 De øvrige medlemmer beskikkes efter indstilling fra Lægemiddelstyrelsen
 De, som en lærd mand, ved vistnok hvor underlig naturen er.
@@ -1243,6 +1256,7 @@ Dejlig er en vandring på volden!
 Dejlige Sorø omkranset af skove!
 Dejlige er natten med nordlysblink og talløse funklende stjerner.
 Dejligere syn har man ikke om sommeren!
+Del æggene og pisk hviden stiv.
 Dem kender du jo nok af din bibelhistorie!
 Dem må fader og moder have!
 Dem må og skal vi løse sammen.
@@ -1282,6 +1296,7 @@ Den eksisterende gangbro over sporene fjernes.
 Den elegante vision om en verden
 Den ene dag gik ligesom den anden.
 Den ene går op i den anden!
+Den ene ord er stavet forkert og det andet mangler
 Den ene sal blev prægtigere end den anden.
 Den ene skal hænges
 Den ene skal hænges,den anden skal brændes
@@ -1509,6 +1524,7 @@ Der er et sagn om det træ
 Der er et sagn om det træ -!
 Der er fire fredede gravhøje i nærheden af banen.
 Der er fire stationer på strækningen og fem overkørsler i niveau.
+Der er forhindringer som vi skal bevare.
 Der er forskel Eventyr
 Der er friskt vejrdrag på Nørrebæk!
 Der er herudover gennemført forlods overtagelse af otte ejendomme.
@@ -1521,10 +1537,12 @@ Der er ingen tegn på hjernetraume.
 Der er ingen, som rigtigt ved af det!
 Der er is og sne, der er velsignet og godt!
 Der er jeg født og båret, der har jeg sprunget på snemarken!
+Der er jo ingen, der faktisk gider den tradition.
 Der er jord over kisten, der er jord inden i den.
 Der er kommet flere danske vinbønder til de sidste år.
 Der er kun en eneste sand Gud.
 Der er lærdom i dit urværk.
+Der er mangevindmølleparker i Nordsøen.
 Der er megen alvor i den bog!
 Der er meget kviksølv i tun.
 Der er måde med!
@@ -1738,6 +1756,7 @@ Derfor er vi også nødt til at kigge på skolens grundlæggende afhængighed
 Derfor fører regeringen en stram udlændingepolitik.
 Derfor gennemgår vi en række interessante hjemmesider
 Derfor skal somatiske årsager til symptomerne udredes grundigt.
+Derfor skal vi omkring butikken her.
 Derfor stemmer vi for den.
 Derfor vil vi også gerne byde dig velkommen
 Derimod følte jeg i dette øjeblik hvordan det må være at stå i midten.
@@ -1842,6 +1861,7 @@ Det er det dejligste ved det hele!
 Det er det elskeligste koketteri jeg kender!
 Det er det historiske bagtæppe.
 Det er det rimeligste!
+Det er det vi vil kredse om i de næste seks timer.
 Det er det yndigste jeg har set!
 Det er det yndigste lille billede!
 Det er dig, der går ind i mig.
@@ -1964,6 +1984,7 @@ Det er jeg ked af at se på!
 Det er jeg sådan set godt i gang med.
 Det er jeg – desværre – ikke helt sikker på.
 Det er jo Hofdamerne, der ere paa Spil!
+Det er jo bare en tradition!
 Det er jo blevet efterår!
 Det er jo den jeg kan!
 Det er jo en dejlig mand, du får!
@@ -2046,6 +2067,7 @@ Det er syndigt af os at klage!
 Det er så godt som et lille fedelam!
 Det er så let, som spindelvæv!
 Det er sørgeligt med den klasse af folket!
+Det er tid til at kigge fremad.
 Det er til et helt måltid!
 Det er to triller, som ikke er gode at stå på.
 Det er tre pæne urtekoste!
@@ -2058,6 +2080,7 @@ Det er vi ikke!
 Det er vigtigt at drikke meget vand, når det er så varmt.
 Det er vigtigt at lade sin bil op om natten
 Det er vigtigt at vælge en vejrbestandig maling til rækværket.
+Det er vigtigt at være fleksibel i den moderne verden.
 Det er vintertid, vinden skarp som et dværgesmedet sværd.
 Det er vist en Misforstaaelse.
 Det er vistnok løjtnantens, som bor deroppe.
@@ -2110,6 +2133,7 @@ Det går vel vidt!
 Det gælder for hver, n måned
 Det gælder også elever
 Det gætter han ikke.
+Det gør det bare meget lettere.
 Det gør ikke noget, det bliver meget bedre, end man tror!
 Det gør ingen forskel, om der laves et eller mange eksemplarer af denne viden.
 Det gør jeg også!
@@ -2241,6 +2265,7 @@ Det siger jeg ikke!
 Det siger også jeg, som fortæller historien.
 Det skal I ikke bryde jer om!
 Det skal blive lystigt!
+Det skal du bare sige til dem!
 Det skal du få at vide!
 Det skal du få betalt!
 Det skal du heller ikke!
@@ -2351,9 +2376,11 @@ Det var en kone for mig!
 Det var en kulde og en sne, men i teatret skulle moster.
 Det var en lang historie den!
 Det var en lang snak, men nu ved I det!
+Det var en læker chokokage, med masser chokolade i.
 Det var en løjerlig koncert.
 Det var en løjerlig kuffert.
 Det var en manøvre!
+Det var en megafed kameratelefon.
 Det var en morsom musik.
 Det var en nød og jammer.
 Det var en prinsesse, som stod udenfor.
@@ -2488,6 +2515,7 @@ Det var rigtignok en have for en prinsesse
 Det var rigtignok en have for en prinsesseher kan du se
 Det var rigtignok en sejltur!
 Det var rigtignok gode tidender.
+Det var samlet i en stor klump.
 Det var sandelig den allerbedste sammenholder, paraplyen endnu havde haft.
 Det var sidst i januar.
 Det var småt med fornøjelser imod hvad det nu er.
@@ -2965,6 +2993,7 @@ Er tilstanden stabil, og har patienten ikke symptomer, skal dosis forsøgsvis re
 Er vi nu i Paradisets have? spurgte prinsen.
 Erindringsbobler med mindernes farveskær.
 Erklæringen må endvidere ikke være udstedt af en læge, der er inhabil.
+Esbjerg ligger ud til havet
 Et Aarstid havde hun været ude, saa sagde hendes Herskab til, hende.
 Et af de lykkeligste!
 Et barn tíl ville Vorherre snart forunde dem.
@@ -3027,10 +3056,12 @@ Fisken fór omkring, den gjorde de allerforfærdeligste bevægelser.
 Fjender skrev hans historie.
 Fjernbetjeningen ligger på stuebordet.
 Fjorden er blevet eng med frodigt græs, Glænø er groet fast til Sjælland.
+Fjordens hus finder man i Vejle.
 Flagermus fløj hen under loftet, og stanken herinde snarleyyow
 Flasken blev taget op og betragtet.
 Flasken fyldtes nu med frøkorn, den kendte ikke den slags.
 Flasket op med de samme værdier.
+Fleksibilitet bliver tit anset som godt, men for meget går ud over strukturen.
 Flere syge overlever kræft.
 Flyet havde flere motorer.
 Flyv I ud i verden og skøt jer selv!
@@ -3064,6 +3095,7 @@ For siger du det endnu en gang, så slår jeg din hest for panden.
 For så længe vi taler åbent om vores bekymringer.
 For sådan er verden.
 For sådanne sygehusbehandlinger finder de hidtil gældende regler anvendelse
+For ti år siden var det hele meget anderledes.
 For vi har alle gjort vores til, at Danmark er et dejligt land.
 Foran, støttede til ståltrådssnore, voksede i række ganske små pæretræer fra fransk jordbund.
 Forbavset spurgte justitsråden, hvad dette havde at betyde og hvem denne mand var.
@@ -3102,6 +3134,7 @@ Forældremyndighedens indehaver, værge eller de nærmeste pårørende skal efte
 Forældrene boede lige op til hinanden.
 Forældrene kunne skrive det - ja, de kendte ham jo!
 Foto af indehaveren
+Fra Fyn kan man tage Lillebæltsbroen over til Jylland
 Fra København til Korsør, ja, det er rigtignok et stykke perlesnor!
 Fra den aften begyndte et slags nærmere bekendtskab mellem Lotte-Lene og kammerrådens.
 Fra den dag kom skoleholderen oftere til Hans, når forældrene var på arbejde.
@@ -3147,6 +3180,7 @@ Fuglene fulgte nu heller ikke med længere.
 Fuldt op evigt og altid er det og bliver det!
 Fy, den slemme Amor!
 Fy, for en ulykke!
+Fyn er fin synger Lasse og Mathilde'
 Fyrste, du er stor, men Gud er større, vi vover det ikke.
 Fyrsten boede på et stort slot.
 Får jeg et eventyr? spurgte drengen.
@@ -3273,6 +3307,7 @@ Gud, hvor det dog var et vejr, og hvor gaden så ud!
 Gud, hvor han er smuk!
 Gud, skal frøkenen selv have ulejlighed!
 Gud, verden og udødelighed, og kender af det hele, kun et lille blad!
+Gudenåen løber gennem Jylland og munder ud i Randers fjord
 Gudfader tilføjede, at det var det dejligste eventyr.
 Gudfaders øjne lyste derved, de strålede af glæde.
 Guld på munden, guld i grunden, guld deroppe i morgenstunden!
@@ -3397,6 +3432,7 @@ Han havde en lang, sort frakke på, knæbukser og sort, bredskygget hat.
 Han havde en lille ransel på ryggen!
 Han havde en træls blist i mundhulen.
 Han havde en ævne til at virke morsomt, jo mere højtidelig han blev.
+Han havde et noget fleksibelt forhold til etik.
 Han havde fem heste til at pløje sin mark.
 Han havde fået sin førlighed igen.
 Han havde høje tanker.
@@ -3532,6 +3568,7 @@ Han turde have målt sig med den salige hr.
 Han tænkte naturligvis, at han læste ikke mere, end han havde lyst til.
 Han tænkte og vidste ikke noget andet end Miss Alida.
 Han tænkte slet ingenting uden det.
+Han var allergisk overfor hvepse, og spise derfor aldrig sukker udendørs.
 Han var bange for sig selv.
 Han var betagen af elskov, men derom sagde han ikke et ord.
 Han var blandt de flinkeste og kunde ikke lade være at se sig om.
@@ -3543,6 +3580,7 @@ Han var forresten drejer af profession og drejede især paraplyskafter og parapl
 Han var fra Chile.
 Han var frejdig og nydelig.
 Han var god i hjertet, god i embedet.
+Han var hendes følgesvend gennem livet.
 Han var hos rare mennesker, i gode kår.
 Han var højbåren født og han blev højbåren begravet!
 Han var i sin ret efter den tid!
@@ -3550,6 +3588,7 @@ Han var ikke utilfreds.
 Han var imidlertid på farten, var sejlet på et kålblad over grøften.
 Han var indbudt af prammanden og aftnen forud fulgte han hjem med ham.
 Han var jo det gode hoved!
+Han var klodset og klumpet.
 Han var klædt i bjørneskindsbukser og trøje.
 Han var meget arrig, når nogen lavede spektakler.
 Han var meget fin og pyntelig med hvide kniplinger ved hals og håndled
@@ -3693,6 +3732,7 @@ Her boede flere ørentvistefamilier.
 Her boede, men dog kun i sommertiden, et rigt, højadeligt herskab.
 Her bor vi ikke.
 Her byggede fra umindelige tider en vrimmel skrigende råger og krager.
+Her dykker vi ned i en række paragraffer, der har betydning for vores arbejde
 Her er alle mine fem fingre!
 Her er de nedtegnet alle syv, brugbare for tableauer i familiekredse.
 Her er dejligt i efteråret!
@@ -3803,6 +3843,7 @@ Herskabet lod gartneren sige, at han igen kunne bringe dem en frisk artiskokblom
 Herunder måling på kvantetilstande
 Herved bekendtgøres lov om anvendelse af tvang i psykiatrien.
 Hesten gjorde et spring og slog over i galop.
+Hesten har hovedet ud af vinduet.
 Hesten sprang hurtigt over hækken.
 Hesten æder sig selv!
 Hille den, så må jeg nok med!
@@ -3898,6 +3939,7 @@ Hun har portulak i kroen!
 Hun har sløjfe på kappen, sort sløjfe.
 Hun har tit sagt, bare vi havde en gås!
 Hun har villet varme sig!
+Hun havde altid en fantastisk chokokage med til sin fødselsdag.
 Hun havde hvad spækhøkeren sagde.
 Hun havde hørt, forstået og gemt.
 Hun havde ingen anden grund.
@@ -3976,6 +4018,7 @@ Hun talte ikke som andre folk.
 Hun tog den døde kone og lagde hende i sin varme seng.
 Hun tog den lille Gerda om livet og sagde.
 Hun tog faglitteratur med på ferien.
+Hun tog forbi stalden og red en tur på sin hest efter skole.
 Hun tog ham så på nakken og råbte til ham.
 Hun tog ikke imod nogen fremmede.
 Hun tog mig i hånden.
@@ -3995,6 +4038,7 @@ Hun var hans hjælp.
 Hun var i hjemmet.
 Hun var klog i Eet og Alt.
 Hun var kun stillet op og ikke bundet fast.
+Hun var meget fleksibel.
 Hun var nu sytten år og han var nitten.
 Hun var saa vel!
 Hun var så klog, Stine.
@@ -4006,6 +4050,7 @@ Hun væltede alle pengene af i en stor hob midt på gulvet.
 Hun ængstedes alligevel.
 Hundelænken nåede da helt hen forbi porten.
 Hunden derinde havde virkeligt to øjne så store som Rundetårn!
+Hunden er menneskets tro følgesvend.
 Hunden kunne ikke nå dem, ihvor højt han sprang.
 Hunden var i snor
 Hundrede Kys af Prindsessen, sagde han, eller hver beholder sit!
@@ -4175,6 +4220,7 @@ Hvem lever længst? Den dame der, den herre?
 Hvem skal inviteres? spurgte natravnen.
 Hvem skal kunne erstatte det.
 Hvem stemte du på til borgmesterposten?
+Hvem tager kødet med til grillen?
 Hvem var de fremmede hvad ville de og hvad bragte degodmorgen
 Hvem var de fremmede? Hvad ville de og hvad bragte de?
 Hvem var de to? spurgte snemanden lænkehunden.
@@ -4182,6 +4228,7 @@ Hvem var den lykkeligste? Eventyr
 Hvem var tante Mille og hvem var brygger Rasmussen?
 Hvem vil du dele dine billeder med?
 Hvem, som griber til sværdet, skal omkomme ved sværdet, siger sønnen!
+Hvepse dør ikke at at stikke, og gør det derfor oftere end bier.
 Hvepse er nogle aggressive sataner.
 Hver af de vise mænd fra Østerland!
 Hver aften, når jeg går fra dig, må jeg tilråbe dig 'følg med!
@@ -4301,6 +4348,7 @@ Hvor her er grumme mange herreblade,og hjerter damer, her er hele rade
 Hvor her er grønt!
 Hvor her er koldt!
 Hvor her lugter sødt og hvor her er kønt!
+Hvor holder du jul i år?
 Hvor hvert eneste menneske på Jorden
 Hvor hvor kurrede duerne
 Hvor hører De hjemme? spurgte flipperne.
@@ -4455,6 +4503,7 @@ I andre er kun faddere, som gav faddergave efter evne og god vilje.
 I andre tilfælde skal ligsyn foretages af afdødes sædvanlige læge eller dennes stedfortræder
 I appen vælges herefter menu øverst til venstre
 I bagklogskabens lys var det ikke den bedste ide.
+I bogens sjette og sidste kapitel er det tid til at summere op
 I brudgommens knaphul var malet en tidselblomst.
 I dag er Wikipedia blot ét af mange eksempler
 I dag er det guldbryllupsdag!
@@ -4475,6 +4524,7 @@ I den varme tid føder vi levende unger.
 I denne periode er markfirbenene aktive og kan ændre opholdssted.
 I deres magt og vælde
 I det følgende redegøres nærmere herfor.
+I det første kapitel vil vi kigge på hele grundlaget for denne bog
 I det pæretræ var min lykke lagt!
 I det samme gik døren op.
 I det samme hørte de folk udenfor råbe hurra!
@@ -4608,6 +4658,7 @@ Indklagede afviser, at der findes en rapport, som omtalt af klager.
 Indkørslen skal være forsynet med aflåselig kæde eller bom
 Indtrængning af rotter, mus og fugle skal minimeres.
 Ingefær indeholder mange sunde ting, men kan være stærkt.
+Ingefæren gravedes op ad jorden i store klumper.
 Ingen af dem sagde nogenting.
 Ingen af dem talte mer; de kom til Battys Dør.
 Ingen af kejserens klæder havde gjort sådan lykke.
@@ -4850,6 +4901,8 @@ Jeg dovner den hele dagen
 Jeg drømmer mig væk til syden og varmere vejr.
 Jeg elsker ananas på pizza
 Jeg elsker biksemad.
+Jeg elsker både and og flæskesteg.
+Jeg elsker grillpølser.
 Jeg elsker når man har lang sommerferie.
 Jeg elsker tykke uldsokker, når det er koldt.
 Jeg er af den højeste byrd!
@@ -5045,6 +5098,7 @@ Jeg hørte ham mumle ind i Edderkoppens Spind.
 Jeg hørte hanerne gale, fornam, at solen kom op, klokkerne klang.
 Jeg indtaler aldrig en besked efter tonen.
 Jeg jager dem over øerne, i det dybe hav.
+Jeg kan både lide gasgrill og grill med kul, men gas er nu hurtigst.
 Jeg kan bære dig hen overalt, kun ikke ind i kirken!
 Jeg kan da ikke forstå at der kan stå "Aldrig er jeg uden våde".
 Jeg kan endnu selv ikke forstå det!
@@ -5326,9 +5380,11 @@ Jubelen lyder og bålet tændes
 Jubelen lyder – og bålet tændes.
 Jubelens klokker klinger ved hans sejrshjemkomst, men misundelsens klokker lyder snart højere.
 Julemorgen, da solen kom frem, havde stormen lagt sig.
+Julen varer længe - og jeg bruger ret mange penge.
 Just den morgen havde Vorherre kaldt ham.
 Just fredeligt gik det ikke.
 Justitsråden anså kong Hans' tid for den dejligste og allerlykkeligste.
+Jylland har byer som Horsens, Vejle og Kolding
 Jørgen forstod det godt, og han led, og holdt sig dog borte.
 Jørgen havde tænkt det samme.
 Jørgen og Batty forlod aldrig mere hinanden.
@@ -5378,6 +5434,7 @@ Kan vi lige mødes herovre?
 Kan vi mødes oinline i morgen klokken fjorten
 Kanalen er praktisk, hvis I har lavet mange bidrag.
 Kanariefuglen flagrede i buret, papegøjen slog med vingerne og råbte.
+Kapitel otte handler om loven om ophavsret.
 Kapitlet er din værktøjskasse
 Kaprifolierne hang over gærdet.
 Karen og den gamle frue gik ad stien gennem kornet.
@@ -5427,6 +5484,7 @@ Knud med lindormen, det betød Odense.
 Knud rakte hende ikke hånden, men hun tog hans og sagde.
 Koen var i brunst, så nu skulle der handles hurtigt
 Kohyrden havde fortalt det, han havde selv seet det fra Skrenten.
+Kolding ligger ved Kolding Fjord
 Kom der en stor sort sky, så var det, som søen ville sige.
 Kom dog og fortæl mig, hvem du er, og hvorledes du kommer her!
 Kom dog og se, kometen er her!
@@ -5509,6 +5567,7 @@ Kun én gang om ugen, og det var om søndagen.
 Kunne man sådan tage fart som den, sagde skrubtudsen, kvak!
 Kunne vi ret give dette maleri, alle ville juble.
 Kunstfuglen havde sin plads på en silkepude tæt ved kejserens seng.
+Kunstmuseer skal man også besøge i byer som Esbjerg og Kolding
 Kunstværket stod der livagtigt som da det var helt og urørt.
 Kurserne skal være forestået af instruktører registreret ved Dansk Førstehjælpsråd
 Kursister, der ikke følger disse regler, kan bortvises
@@ -5704,6 +5763,7 @@ Man kan også få for meget af det gode!
 Man kan også få for meget af det gode, sagde trolden.
 Man kan se hele København heroppefra.
 Man kan tage på safari i mange lande i Afrika.
+Man kan tjekke, om hviderne er pisket nok, ved at vende skålen på hovedet.
 Man kan være heldig at se mange eksotiske dyr på safarirejser til Afrika.
 Man knap kunne svømme imod strømmen.
 Man maa opmuntre Kunsten!
@@ -6072,6 +6132,7 @@ Min fortræffelige lille nattergal!
 Min førstefødte kom i knaphul, min sidstfødte kom i ramme!
 Min gamle stakkels bedstemoder!
 Min hund har fire ben.
+Min kæreste har sagt, hun er gået over gavebudgettet.
 Min moder havde han givet alle sine penge til os.
 Min moder stod i stuen med den gamle højadelige herre.
 Min stærkeste tanke, den der styrer og råder, kaldes af de andre tanker.
@@ -6142,6 +6203,7 @@ Mænd og kvinder sad på pynteligt belyste af tusinde lamper.
 Mændene kastede anker og steg i land.
 Mærk dig alt dette!
 Mærkeligt nok mødtes vore øjne igen.
+Mødet rummer derfor en afsluttende diskussion og en række konklusioner
 Mødrene var rørte.
 Møllen faldt, der var kun en askehob tilbage.
 Mørke dage, kolde nætter gik over den gamle klokke.
@@ -6413,6 +6475,7 @@ Nu skal jeg hvile på maden!
 Nu skal jeg ind og pille huller i fatters sokker!
 Nu skal jeg leve!
 Nu skal jeg spørge min troldmand.
+Nu skal løgene karameliseres, det tager en rum tid.
 Nu skal studenten få!
 Nu skal vi hævnes!
 Nu skal vi høre!
@@ -6517,6 +6580,7 @@ O Vee de Pebersvende, -
 Obduktion må først foretages, når ligsyn er foretaget
 Obduktion må herefter foretages, såfremt afdødes nærmeste giver samtykke til indgrebet
 Obduktionen udføres af en sagkyndig læge, der udpeges af sundheds- og ældreministeren
+Odense er en by på Fyn
 Offentlige monopoler bliver ofte kun nødtvungent afviklet.
 Offergoden sprængte det varme Hesteblod paa Trællene som Indvielse.
 Og Andres Børn er hendes Hæder.
@@ -6995,6 +7059,7 @@ Overskridelserne vil blive varslet over for naboerne til byggepladserne.
 Overtrædelser, der begås af uagtsomhed, straffes ikke
 Paa Prindsens Faders Grav voxte der et Rosentræ, o saadant et deiligt Rosentræ.
 Paa Vinter kommer Foraar!
+Pakken blev ikke leveret, da øen ikke er brofast.
 Palle Dyre var på rævejagt og fruen var ikke at finde.
 Palmesøndag blev ægteskabet lyst fra prædikestolen, derpå fulgte salmesang og altergang.
 Palmesøndag, efter prædiken, skulle der lyses til ægteskab for enkefruen og hendes trolovede.
@@ -7101,10 +7166,13 @@ På østsiden giver gangtunnellen adgang til boligområdet Æblehaven.
 På øvelsespladsen skal forefindes mobilt eller stationært markeringsmateriel
 Påstanden fremkommer i øvrigt efter opsigelsen er udleveret.
 Pæonerne var ganske tykhovedede, bu!
+Pølsebrødet var tørt og kedeligt.
+Pølsen blev serveret med ketchup, remulade og ristede løg.
 Raabte de, aldrig flyver du meer i svaneham, aldrig seer du ægyptens land
 Raabte de, stoppede hesten, rev de to ridende ned, thi mandsstærke vare de
 Raabte hun, lad mig naae dig, og kniven skal komme op i dig
 Raketter skød til vejrs.
+Randers har et fortryllende kunstmuseum
 Rask væk forlangte de den fineste silke, og det prægtigste guld.
 Rasmus blev gammel før årene.
 Rasmus lå i feber, smitsom var den.
@@ -7284,6 +7352,7 @@ Skab dig ikke, barn!
 Skab jer nu ikke!
 Skaf mig nogle penge, sagde han til hunden, og vips var den borte!
 Skal Du frelses, maae vi ogsaa!
+Skal I på skiferie i år?
 Skal destruktion finde sted, er sundhedspersonen forpligtet til at sørge herfor
 Skal du have noget på den frække
 Skal du være med i vindmøllelauget?
@@ -7434,6 +7503,8 @@ Stamkortet underskrives, når den praktiske prøve er bestået
 Stangspring er en farlig sport
 Staten afholder udgifter til kastration
 Statsrevisorens møde med Lockheed Martin i Washington i april.
+Steg bøffen ved høj varme, tre minutter på hver side.
+Stegen langtidssteges ved lav varme i ovnen.
 Stemmer alt på sin rette plads
 Stemmer de vises stendu kender da historien om holger danske
 Stemmer den lille idas blomstermine stakkels blomster er ganske døde
@@ -7823,6 +7894,7 @@ Tilsidst trak hun den store lænestol hen til bordet.
 Tilsvarende gælder for en digital lektionsplans log
 Tilsvarende krav gælder, hvis der anvendes et tagskilt
 Tilsynet skal foretages uanset et eventuelt automatisk overvågningsudstyr.
+Tilsæt nu melet lidt af gangen, så det ikke klumper.
 Timen er kommen, du skal følge mig!
 Tingen lå hen over havbunden, så langt de kunne øjne.
 Tit går i bøtte, hvad der ikke skulle gå i bøtte.
@@ -7886,6 +7958,7 @@ Tyrs dag, kraftens dag.
 Tysken kalder mig Hr.
 Tårerne rullede ned over hendes kinder.
 Tårne og tage lå dybt nede, menneskene var så bittesmå at se.
+Tænk at han turde sige det!
 Tænk dog på din moder og din barndomstid!
 Tænk dog, hvor meget gavn jeg kan have af denne troldmand!
 Tænk du på din ene sko.
@@ -8027,6 +8100,7 @@ Ved vejen mener hun jo åen.
 Ved Østersøen ved de danske bøge!
 Vejen forløber næsten parallelt med Kildevangsvej og forbinder Roskildevej med Nybyvej.
 Vejen gik lige tæt forbi kirken.
+Vejle er også kendt for sin bro
 Vejledning kan tilbydes og ydes til mindreårige uden samtykke fra forældremyndighedsindehaveren
 Vejledningen afløser desuden eventuelle tidligere vejledninger for disse sygdomme.
 Vejledningen er ikke udtømmende for alle sygdomme.
@@ -8129,12 +8203,15 @@ Vi nåede min port, hvor vi rystede os.
 Vi reagerer alle med forfærdelse. Afsky. Og sorg.
 Vi ringer ikke over lille Kay, ham kender vi ikke!
 Vi ser op mod den samme himmel. Vi bor på en fælles klode.
+Vi ser på hvilke forhindringer ophavsretten giver os
 Vi ses nu ikke før hos Vorherre.
 Vi ses.
 Vi ska' ud.
+Vi skal arbejde sammen om at gennemføre undervisningen.
 Vi skal beherske vores cykel hvis vi vil cykle.
 Vi skal give dem denne mulighed.
 Vi skal have fremtiden for øje
+Vi skal have respekt for andres rettigheder
 Vi skal høre det.
 Vi skal i aften tænk
 Vi skal i aften – tænk!
@@ -8191,6 +8268,7 @@ Vil du danse med mig? sagde røgmanden.
 Vil du ikke slikke, så vil jeg!
 Vil du lide alt dette, så skal jeg hjælpe dig?"
 Vil du lide alt dette, så skal jeg hjælpe digja
+Vil du med hjem og se, hvor fleksibel jeg er?
 Vil du se til at komme ud af stuen!
 Vil du sejle med, lille Hjalmar!
 Vil du selv gå der hen og så krybe i posen.
@@ -8264,10 +8342,12 @@ Vænø og Glænø Eventyr
 Vær De nu fornuftig og tag imod tilbuddet, vi rejser jo som kammerater!
 Vær agtsom, vær agtsom, vogt nøje dig selv!
 Vær opmærksom på at vi forbeholder os retten til at gå.
+Vær optimistisk i forhold til undervisningen.
 Vær så god at træde indenfor!
 Vær så god, hr.
 Værdien af det fundne guld blev udbetalt ham, det var en stor sum.
 Været vidne til Tysklands genforening.
+Værsgo, så er der serveret.
 Værst af Alt var hende dog den gruelige Sult, hun fornam.
 Værtens Søn kom hjem.
 Værtinden lånte Tante tørre strømper og en morgenkappe.
@@ -8401,6 +8481,7 @@ buske og urter skød højt i vejret.
 bær det hellere bort!
 bær det ind i Guds Rige!
 bøg og birk er to løvbærende træsorter
+computeren har ikke forbindelse til internettet
 cykler skal stilles i deres båse
 da bad du for ham, men det hjalp ikke.
 da bad jeg dem sige mig, hvorledes man laver Suppe paa en Pølsepind.
@@ -8859,6 +8940,7 @@ derhen var de kommet fra København med fartøj.
 derind turde de intet menneske bringe.
 derinde laae de i Sengen, for Kuldens Skyld, de adelige Døttre.
 derinde var sang og dans.
+dermed har vi et suverænt udgangspunkt
 derom talte gamle Anthon ikke meget, men han tænkte derpaa desmere!
 derop til Rørene og det grønne Hængedynd laae en stor Elletrunte.
 deroppe kan man da ikke løbe på!
@@ -10470,6 +10552,7 @@ man tænker på den gamle bedstemoder med de milde, evig unge øjne.
 man ved næsten ikke mere, hvad de ikke ved.
 man veed ikke hvorhen man kommer!
 man véd, hvor man har dem...
+manden kunne ikke tage toget til Odense
 mange af dem bleve saa gamle.
 mange, mange uger ville blive her én lang nat.
 mangen nat stod jeg op og så om fløjen drejede sig.
@@ -12530,6 +12613,7 @@ vær så fri, som nogen!
 »»han bilder sig forfærdeligt ind deraf, troer han er Ugle i Taarnet!
 »»lav ikke Suppe paa en Pølsepind!
 Åbn appen og vælg optag nederst til venstre.
+Åbne licenser er et redskab som enhver kan benytte.
 Åbne medier er anvendelige for vores undervisning.
 Åh ja, ja, ja!
 Ånden kommer over det, men hvor kommer den fra.
@@ -12544,6 +12628,7 @@ vær så fri, som nogen!
 Æblet drattede, og så fandt han sin lykke.
 Æblet skar de over og fik hver et Stykke.
 Æbletræet plantet i Kjærlighed, seer jeg i Herlighed!
+Æggeblommerne kan bruges til at lave mayonaise.
 Æggene havde jeg, løgene manglede mig.
 Ægteparret hver på sin vis syntes om hende og hun om dem.
 Ægyptens fugl, som bar os gennem luften!

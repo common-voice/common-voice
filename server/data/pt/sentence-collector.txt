@@ -2067,6 +2067,7 @@ Adolfo Rodrigues Kauffmann
 Adonai Monteiro da Silva
 Adonias Albuquerque de Souza
 Adonilson do Vale Candido
+Adoro esse estilo de arquitetura.
 Adota uma forma de foice ou sabre, mais ou menos fechada.
 Adota-se o ensino fragmentado ou o ensino por projetos?
 Adotando uma abordagem de maior risco
@@ -5073,6 +5074,7 @@ Bebê em um banho de espuma, realizada por uma mulher em uma camisa azul
 Bebê tirando uma soneca no berço.
 Beija o solo teu jucundo
 Beije suavemente a magia mágica
+Beijo de Hollywood é a coisa mais ridícula de todos os tempos.
 Beira ao obscurantismo
 Bela Cruz
 Bela Vista
@@ -5432,6 +5434,7 @@ Bom vinho e uma mulher bonita - estes são os dois venenos mais bonitos.
 Bom vinho é bom latim.
 Bom vinho é mantido em um barril pequeno.
 Bom vinho, se você não pode urinar, é um veneno.
+Bom, agora tenho que ir.
 Bombeiro e Polícia
 Bombinhas
 Bonanza no mar e no fogo do céu, sangue e fogo.
@@ -6050,6 +6053,7 @@ Cara de suéter de flanela? shorts e sandálias de golfe em miniatura.
 Cara fazendo um tiro de basquete com espectadores assistindo.
 Cara fora do seu carro preso na neve.
 Cara pigada, cara estimada.
+Cara, ela não tem nada a ver com essa história.
 Cara, você tem um bom chapéu!
 Caraca!
 Caraca! O que foi isso?
@@ -7345,6 +7349,7 @@ Como é o fazer-pedagógico cotidiano?
 Como é praticada a gestão escolar
 Como é que algo assim começa a aparecer?
 Como é que o lavrador há de pagar as suas dívidas?
+Como é que tem um iluminação tão boa só com velas e um candelabro?
 Como é sabido, essa estratégia de identidade do nacionalismo fracassou.
 Como último recurso, você pode contratar uma pessoa fora da escola.
 Comodoro
@@ -9843,6 +9848,7 @@ Ela mal consegue respirar
 Ela mal podia esperar
 Ela mal sobreviveu ao salário para pagar a vida.
 Ela mal; ele, para lhe ser agradável, pouco menos mal.
+Ela mandou a real, agora.
 Ela me chamou a atenção!
 Ela me chamou de filha da puta.
 Ela me comprou um remédio muito caro.
@@ -9970,6 +9976,7 @@ Ela tem muita sorte de seguir a inveja.
 Ela tem o sorriso mais lindo que eu já vi.
 Ela tem olhos azuis e cabelos castanhos.
 Ela tem pernas longas.
+Ela tem que ir.
 Ela tem queimado a vela em ambas as extremidades tentando terminar este papel.
 Ela tem sessenta yuan
 Ela tem um longo cabelo encaracolado.
@@ -9984,6 +9991,7 @@ Ela teve o perfil hackeado.
 Ela teve pneumonia uma vez.
 Ela tinha fibras de aço
 Ela tinha idade para ser sua mãe.
+Ela tá pirando legal.
 Ela usava uma capa que a deixava invisível
 Ela vai começar às duas horas.
 Ela vai ficar nublado novamente esta noite.
@@ -10048,6 +10056,7 @@ Elas estão saindo melhores que encomenda
 Elas não veem a hora de se encontrar de novo.
 Elas performarão uma apresentação de nu artístico
 Elas proferirão o discurso de antemão
+Elas se amam. Estão apaixonadas.
 Elas sofrerão de cólera se permitirem se infectar
 Elas só veem o que lhes agrada
 Eldorado
@@ -11927,6 +11936,7 @@ Essa história é maravilhosa!
 Essa ideia vem insistir na necessária coordenação entre projeto, uso e gerenciamento.
 Essa idéia era nada menos que a invenção de um medicamento
 Essa loira é fofa.
+Essa lutinha foi meio mais ou menos.
 Essa mulher roubou minha bolsa!
 Essa mulher é bonita.
 Essa música me faz lembrar da minha infância.
@@ -12030,6 +12040,7 @@ Esse maquinário custa caro, mas é adequado às necessidades da fábrica
 Esse modelo é insustentável
 Esse padrão, é claro, foi repetido ao longo da história.
 Esse par de cingapurianos
+Esse peixe é muito engraçado.
 Esse perfil de negócios teria um efeito na mesma produtividade.
 Esse pessoal pode ser seu próprio ou subcontratado.
 Esse preço está um assalto!
@@ -13124,6 +13135,7 @@ Eu mudei de ideia.
 Eu nasci e cresci na Irlanda.
 Eu nasci no mesmo dia que Deodoro da Fonseca nasceu.
 Eu nem perguntei a ele.
+Eu nem sei o que eles tão fazendo.
 Eu normalmente não assisto Nascar.
 Eu notei algum problema de atitude?
 Eu nunca a vi antes.
@@ -13412,6 +13424,7 @@ Eu não tinha promoção porque não tinha, na visão geral, tradução para o e
 Eu não tinha sido informado sobre a chuva, então não acredito em nada.
 Eu não tive escolha.
 Eu não tive muito tempo.
+Eu não tô com muita fome.
 Eu não vejo letras pequenas ao ler.
 Eu não vejo o propósito de criar muita âncora no scrum.
 Eu não vi a bagagem para estes dois dias.
@@ -14638,6 +14651,7 @@ Foi assim que o próprio benfeitor insinuou a este homem o sentimento da ingrati
 Foi assim que os ex-jurados inventaram, que não sabiam escrever, e assim continuou.
 Foi atingido por uma crise aguda de nostalgia
 Foi atrás da população desbancarizada
+Foi bacana, o episódio. Cada personagem doido...
 Foi bem legal!
 Foi bom
 Foi bom conversar com você.
@@ -15501,6 +15515,7 @@ Homens que estão em um campo com um cão.
 Homens sendo entrevistados pela Fox News
 Homens tocando instrumentos em um campo de beisebol.
 Homens usando capacetes e coletes de segurança estão trabalhando.
+Honestamente, eu espero que ele morra.
 Honesto Ahmed não convenceu os desenvolvedores.
 Hong Kong é muito ventoso
 Honrando?
@@ -19542,6 +19557,8 @@ Nossa influência em seu monopólio é pequena.
 Nossa melhor aposta é que este animal só é ativo à noite.
 Nossa religião determina nossas ações.
 Nossa vida, no teu seio, mais amores
+Nossa, como eu amo essa música.
+Nossa, e não é que ele morreu mesmo?
 Nossas armas curtas não têm pompa no mundo.
 Nossas escolas não estão preparadas para a pandemia
 Nosso carro acontece que agora existe algo em volta, se puder ajudar.
@@ -23397,6 +23414,7 @@ Olaria
 Olga, você viu minhas chaves?
 Olha John, eu simplesmente não posso apoiar isso.
 Olha ali os gatinhos.
+Olha ele, andando de triciclo!
 Olha os faróis!
 Olha que cor feia ela tem!
 Olha, você sabe o que há de errado?
@@ -24243,6 +24261,7 @@ Pagamento e morte sempre podem ser esperados.
 Pagar após inspeção
 Pague, o empréstimo é devido.
 Pai Pedro
+Pai amado, olha a roupa da mulher.
 Pai e filha estão jogando em uma área rasa de um lago juntos.
 Pai vencedor, filho esponsal.
 Paial
@@ -24668,6 +24687,7 @@ Parece menos que no ano passado
 Parece não.
 Parece pouco inteligente tentar dar um golpe de Estado em si mesmo
 Parece que Lena deu uma jaqueta para casa.
+Parece que a Fabi tá se esforçando pra não entender.
 Parece que ela pode manter Kathy na ponta dos pés.
 Parece que eles sabem alguma coisa aqui, dentro dos pulmões.
 Parece que eu tenho que comprar um único painço.
@@ -25605,6 +25625,7 @@ Por que as pessoas têm idéias realmente boas no chuveiro?
 Por que as pessoas têm que mentir?
 Por que dizemos isso?
 Por que ela não pode se dar bem comigo?
+Por que ela tá descalça?
 Por que ele fez isso?
 Por que ele não?
 Por que eles não me acordaram?
@@ -27051,6 +27072,7 @@ Que coisas
 Que coisas indecentes estavam lá!
 Que conduzirá ao escalonamento
 Que conteúdo potente na revista da escola!
+Que cor estranha pra um cérebro.
 Que delícia, cara!
 Que desolador
 Que despesas ele fez, vamos ver?
@@ -28758,6 +28780,7 @@ Segure o controle
 Segure o nariz para evitar que o cheiro desative suas funções motoras.
 Seguro de saúde pago
 Seguro e saudável
+Sei que não é certo pensar isso, mas tudo seria tão mais facil assim.
 Seis anos de mandato
 Seis pessoas estão sentadas atrás de dois caiaques.
 Seis pessoas saltam para a bola.
@@ -29011,6 +29034,7 @@ Será pedido um hemograma completo das pacientes
 Será possível que não conseguimos fazer nem uma fila indiana direito?
 Será possível sacar o dinheiro em caixas e lotéricas
 Será que ainda haverá país depois desse inferno acabar?
+Será que ela lembra de você?
 Será que isso é um erro?
 Será que o fantasma pegou?
 Será quente em Lake Buena Vista Brunei?
@@ -31099,6 +31123,7 @@ Tudo isso aconteceu entre o nascer eo pôr do sol? o menino pensou.
 Tudo isso assombrou o Garcia.
 Tudo isso foi possível graças ao notável aumento de colaboradores que ocorreu este ano.
 Tudo isso não deve exceder, em qualquer caso, as duzentas palavras.
+Tudo isso para um grandiosíssimo nada.
 Tudo isso sem prejuízo de outras ações de divulgação que, se aplicáveis, são adotadas.
 Tudo isso sem prejuízo dos interessados ​​poderá exercer qualquer outra via que considerem adequada.
 Tudo isso sem prejuízo dos outros sistemas de proteção que poderiam ter sido adotados.
@@ -31198,6 +31223,7 @@ Tá sabendo disso?
 Tá seguro.
 Tá suave.
 Tá ótimo.
+Tá, agora preciso dormir. Tá ficando tarde.
 Tânger não é como o resto da África.
 Tânia e Domingos se casaram em Recife, mas se conheceram em Fortaleza.
 Tão certo quanto eu estou vivo
@@ -34498,6 +34524,7 @@ Você pode procurar o álbum de Bireswar?
 Você pode recomendar em algum lugar?
 Você pode recomendar uma boa praia?
 Você pode se inscrever aqui.
+Você pode se reconciliar com a galera.
 Você pode sentir o calor de uma chama fraca.
 Você pode superar os maus hábitos apenas hoje, não amanhã.
 Você pode suportar tanto.
@@ -34954,6 +34981,7 @@ Vossas correntes se partirão
 Votorantim
 Votuporanga
 Vou agradecer-lhe a esmola que me fez, logo que possa sair.
+Vou assistir uma série com a família. Impeachment, o nome.
 Vou beber água.
 Vou colocar minhas mudas de hortelã no sol.
 Vou começar minha primeira colheita de pêssego ainda este ano.
@@ -35218,6 +35246,7 @@ a esposa recebeu a noticia de uma forma verdadeiramente surpreendente
 a fazer as mais arrojadas cabriolas de volatim
 a figura criativa mais significativa do século
 a forma de ocultar-se os detalhes
+a força dos latifundiários feudais se debilitara
 a fé do homem leva-o a acreditar fervorosamente em deus
 a imaginação dessa senhora também voou
 a intercalar esta engenhosa idéia no discurso
@@ -35421,6 +35450,7 @@ eu quero pegar um uber quanto fica até minha casa?
 eu realmente gosto de lugares bonitos
 eu sou aquele que te vai dizer quem tu és.
 exceto pelo sonho.
+explicar aos operários a teoria da luta de classes
 fazer com que as escolas brasileiras se tornem inclusivas
 ferramentas de código aberto
 fixo os mínimos gestos faciais de com quem falo
@@ -35563,6 +35593,7 @@ o garotinho parece estar fazendo um projeto escolar enquanto seu pai o observa.
 o livro tem quinhentas páginas.
 o nome dado em Espanha e Portugal
 o pai faz que não vê
+o papel revolucionário do proletariado como organizador do comunismo mediante o capitalismo
 o paradigma da orientação a objetos é baseado em princípios provados
 o peito do pé do pedro é preto
 o plural de rato é congresso nacional
@@ -35599,6 +35630,7 @@ para se divertir na noite do Rio de Janeiro.
 para você quanto custa uma vida
 parece ainda mais grave quando se sabe que sete milhões deles não estudam
 parte do aparelho reprodutor, que se estende do colo do útero à vulva
+pelos representantes das velhas ideias, assustados ante o crescimento do marxismo
 pendurou-se-me uma idéia no trapézio que eu tinha no cérebro
 peneirava uma chuvinha miúda, triste e constante
 penso, logo existo.
@@ -36062,6 +36094,7 @@ zé Doca
 É difícil aplicar esse método ao sul.
 É difícil comparar algo necessário e mundano com algo que me entusiasma.
 É difícil dar um tempo de cozimento para este prato.
+É difícil de entender o que acontece, as coisas passam muito rápido.
 É difícil encontrar algo de bom para dizer sobre fevereiro.
 É difícil encontrá-lo em alguns dias.
 É difícil entender esse dialeto então.
