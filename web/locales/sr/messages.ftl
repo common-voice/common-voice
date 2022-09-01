@@ -533,15 +533,22 @@ about-get-involved-text-2 =
     форума, пријавите проблеме на <githubLink>GitHub</githubLink>, или се придружите расправи у
     <matrixLink>Matrix</matrixLink> заједници.
 about-stay-in-touch = Како могу да останем у току?
-about-stay-in-touch-button = Региструј се
+about-stay-in-touch-button = Пријави се
+about-stay-in-touch-text-1 = <emailFragment>Пријавите се</emailFragment> на нашу мејлинг листу да бисте сазнали како можете да се укључите у кампање, догађаје и функције заједничког дизајна за Common Voice.
+about-stay-in-touch-text-2 = Придруживањем на <discourseLink>Discourse</discourseLink> можете да се упознате са члановима различитих Mozilla-иних језичких заједница. Користите <matrixLink>Matrix</matrixLink> за брзе савете.
 about-nav-why-common-voice = Зашто ?
 about-nav-how-it-works = Како ?
 about-nav-partners = Партнери
 about-nav-get-involved = Прикључите се
+about-nav-how-it-works-2 = Како ради Common Voice?
+about-nav-playbook = Сазнајте како да учествујете
 
 ## Community Playbook Content
 ## What is a language
 
+about-playbook-what-is-language = Шта подразумева језик на Common Voice-у?
+about-playbook-what-is-language-content-1 = Постоји много начина да се посматра језик. У погледу употребе модела препознавања говора, Common Voice препоручује фокусирање на ‘међусобну разумљивост’ или ‘ако говорници овог језика желе да разумеју једни друге, могу ли то да ураде?’
+about-playbook-what-is-language-content-2 = Желимо да модели говора боље разумеју разноликост говорника и зато звучни скуп говорних података мора да представља много различитих људи.
 
 ## How do I add a language
 
