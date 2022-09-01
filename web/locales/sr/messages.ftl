@@ -494,6 +494,9 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Зашто Common Voice?
+about-header-description-v2 =
+    <p>Common Voice је јавно доступни скуп гласовних података који сачињавају гласови волонтера широм света. Људи који желе да изграде гласовних апликације могу да користе овај скуп података за обуку модела машинског учења.</p>
+    <p>Већина скупова говорних података тренутно је у власништву великих компанија, што гуши иновације. Такође, овакви скупови занемарују: људе који не говоре енглески, људе који нису белци, особе са инвалидитетом, жене и ЛГБТ заједницу. То значи да технологија која се активира гласом уопште не функционише на многим језицима, а тамо где ради, можда неће радити подједнако добро за све. Желимо да то променимо тако што ћемо подстаћи људе свуда да поделе свој глас.</p>
 how-does-it-work-title-v2 = Како ради Common Voice?
 how-does-it-work-text = Ми градимо скуп података гласова отвореног кода ангажовањем великог броја људи. Донирајте свој глас, потврдите тачност исечака других људи, учините базу података бољом за све.
 
@@ -561,6 +564,13 @@ about-playbook-how-add-language-content-1 =
     Прво проверите да ли ваш језик <languageLink>већ постоји</languageLink>.
     Ако не, можете да <languageRequestLink>питате за додавање истог</languageRequestLink>.
     Постоје две фазе. Превођење странице и скупљање реченица
+about-playbook-how-add-language-translating-heading = Превођење странице
+about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Погледајте наш водич за коришћење Pontoon-а.</translateVideoLink>
+about-playbook-how-add-language-translating-content-2 =
+    Користимо Mozilla-ин алат <pontoonLink>Pontoon</pontoonLink> за преводе. Pontoon садржи мноштво језика,
+    али ако не садржи ваш можете да <pontoonRequestLink>затражите додавање језика</pontoonRequestLink>.
+    Затим, да би ваш језик био доступан на Common Voice пројекту,
+    <githubRepoLink>затражите нови језик на GitHub-у</githubRepoLink>. <localizationFragment>Прочитајте више о превођењу странице</localizationFragment>.
 
 ## How does localization work
 
