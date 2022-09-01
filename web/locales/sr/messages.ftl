@@ -571,6 +571,8 @@ about-playbook-how-add-language-translating-content-2 =
     али ако не садржи ваш можете да <pontoonRequestLink>затражите додавање језика</pontoonRequestLink>.
     Затим, да би ваш језик био доступан на Common Voice пројекту,
     <githubRepoLink>затражите нови језик на GitHub-у</githubRepoLink>. <localizationFragment>Прочитајте више о превођењу странице</localizationFragment>.
+about-playbook-how-add-language-collecting-sentences-heading = Скупљање реченица
+about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>Погледајте наш водич за коришћење скупљача реченица</sentenceCollectorVideo>.
 
 ## How does localization work
 
