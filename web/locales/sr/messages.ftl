@@ -491,10 +491,20 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Зашто Common Voice?
+how-does-it-work-title-v2 = Како ради Common Voice?
 how-does-it-work-text = Ми градимо скуп података гласова отвореног кода ангажовањем великог броја људи. Донирајте свој глас, потврдите тачност исечака других људи, учините базу података бољом за све.
 
 ## How does it work section
 
+about-language-req-subtitle = Неко тражи да дода језик.
+about-localization-title = Превођење веб страница
+about-localization-subtitle = Текст веб странице се преведе на тај језик.
+about-sentence-collection-title = Скупљање реченица
+about-sentence-collection-subtitle = Реченице се скупљају да би се читале наглас.
+about-new-lang-title = Објава новог језика
+about-new-lang-subtitle = Објавимо Common Voice страницу на том језику.
+about-voice-contrib-title = Гласовни допринос
+about-voice-contrib-subtitle = Људи се укључе и доприносе својим гласовима.
 about-speak = Изговори
 about-speak-text = Учесници снимају гласовне исечке читајући из банке донираних реченица.
 about-listen-queue = Ред слушања
