@@ -573,9 +573,16 @@ about-playbook-how-add-language-translating-content-2 =
     <githubRepoLink>затражите нови језик на GitHub-у</githubRepoLink>. <localizationFragment>Прочитајте више о превођењу странице</localizationFragment>.
 about-playbook-how-add-language-collecting-sentences-heading = Скупљање реченица
 about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>Погледајте наш водич за коришћење скупљача реченица</sentenceCollectorVideo>.
+about-playbook-how-add-language-collecting-sentences-content-2 =
+    Можете да <sentenceCollectorLinkAdd>додате неколико реченица</sentenceCollectorLinkAdd>,
+    а можете и да <bulkImportDocsLink>масовно увезете преко Github-а</bulkImportDocsLink>.
+    Не заборавите да све реченице морају да буду <licenseLink>CC0 лиценце (у јавном домену)</licenseLink>, а можете написати и своје.
+about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>Сазнајте више о скупљању реченица</sentenceCollectorFragment>.
 
 ## How does localization work
 
+about-playbook-how-localize = Како функционише превод странице?
+about-playbook-how-localize-content-1 = Превод Common Voice странице се одвија на <strong>Pontoon-у</strong>.
 
 ## How to add sentences
 
