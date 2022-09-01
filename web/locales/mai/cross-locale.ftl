@@ -9,3 +9,4 @@ get-involved-email =
     .label = ईमेल
 get-involved-opt-in = उचित, ईमेल प्रेषित करू। हम कॉमन वौइस् मे इ भाषाक विकासक सन्दर्भ में जानकार रहबाक इच्छुक छी ।
 get-involved-submit = प्रेषित करू
+get-involved-stayintouch = हम Mozilla मे  एकटा भ्वॉयस टेकनलोजी बाजए कलेल कम्युनिटी  are building a community around voice technology. We would like to stay in touch with updates, new data sources and to hear more about how you're using this data.
