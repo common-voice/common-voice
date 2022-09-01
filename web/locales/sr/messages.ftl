@@ -583,9 +583,14 @@ about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollec
 
 about-playbook-how-localize = Како функционише превод странице?
 about-playbook-how-localize-content-1 = Превод Common Voice странице се одвија на <strong>Pontoon-у</strong>.
+about-playbook-how-localize-content-2 = <pontoonAccountLink>Направите налог</pontoonAccountLink> ако већ немате један. Затим изаберите свој језик <strong>(‘тим’)</strong> и онда <pontoonCvLink>Common Voice</pontoonCvLink> пројекат. Ту ће бити датотеке за превођење. Кликните на једну, приказаће се речи на енглеском и прозор за превод.
+about-playbook-how-localize-content-3 = Преводи се са енглеског језика, али можете да погледате <strong>предлоге</strong> на другим језицима. Кликните на иконицу <strong>профила</strong>, а потом на везу <strong>подешавања</strong> да бисте додали све језике које говорите. У доњем десном углу биће листа превода са називом <strong>Locales</strong>. Преводи се ажурирају на страници после једног дана.
+about-playbook-how-localize-content-4 = Страница је спремна за објављивање када достигне 75% завршености.
+about-playbook-how-localize-content-5 = Погледајте наш видео за помоћ
 
 ## How to add sentences
 
+about-playbook-how-add-sentences = Како да додам реченице?
 
 ## How to record quality
 
