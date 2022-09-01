@@ -505,6 +505,11 @@ about-new-lang-title = Објава новог језика
 about-new-lang-subtitle = Објавимо Common Voice страницу на том језику.
 about-voice-contrib-title = Гласовни допринос
 about-voice-contrib-subtitle = Људи се укључе и доприносе својим гласовима.
+about-voice-validation-title = Потврда гласа
+about-voice-validation-subtitle = Други људи проверавају ваљаност тих гласовних снимака.
+about-dataset-release-title = Објава скупа података
+about-dataset-release-subtitle = Објављујемо скуп података свака 3 месеца.
+about-subscribe-text = Желите ли да будете у току са Common Voice пројектом?
 about-speak = Изговори
 about-speak-text = Учесници снимају гласовне исечке читајући из банке донираних реченица.
 about-listen-queue = Ред слушања
@@ -527,6 +532,8 @@ about-get-involved-text-2 =
     Одлично! Обратите нам се путем е-поште или <discourseLink>Discourse</discourseLink>
     форума, пријавите проблеме на <githubLink>GitHub</githubLink>, или се придружите расправи у
     <matrixLink>Matrix</matrixLink> заједници.
+about-stay-in-touch = Како могу да останем у току?
+about-stay-in-touch-button = Региструј се
 about-nav-why-common-voice = Зашто ?
 about-nav-how-it-works = Како ?
 about-nav-partners = Партнери
