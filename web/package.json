@@ -21,7 +21,7 @@
     "promise-decode-audio-data": "0.4.1",
     "react": "17.0.2",
     "react-balance-text": "2.0.1",
-    "react-content-loader": "^6.2.0",
+    "react-content-loader": "6.2.0",
     "react-dom": "17.0.2",
     "react-intersection-observer": "8.33.1",
     "react-modal": "3.14.4",
