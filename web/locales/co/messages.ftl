@@ -462,6 +462,7 @@ how-does-it-work-text = Rializemu una banca di dati vucale cù è fonte aperte c
 about-language-req-subtitle = Qualcunu dumanda l’aghjustu d’una lingua.
 about-localization-subtitle = U testu di u situ web hè traduttu in sta lingua.
 about-sentence-collection-title = Racolta d'infrasate
+about-sentence-collection-subtitle = Infrasate sò raccolte pà esse lette ad’alta voce.
 about-new-lang-title = Publicazione d’una nova lingua
 about-new-lang-subtitle = Publichemu u situ di Common Voice in sta lingua.
 about-voice-contrib-title = Cuntribuzione di voce
@@ -508,6 +509,7 @@ about-playbook-what-is-language = Cosa hè una lingua in Common Voice ?
 
 about-playbook-how-add-language = Comu aghjunghju una lingua ?
 about-playbook-how-add-language-translating-heading = Traduce u situ
+about-playbook-how-add-language-collecting-sentences-heading = Raccolta d’infrasate
 
 ## How does localization work
 
