@@ -761,6 +761,11 @@ request-language-form-info-explanation =
     може да укључује:
 request-language-form-info-explanation-list-1 = Називе вашег језика
 request-language-form-info-explanation-list-2 = <isoCodeLink>ISO кодове</isoCodeLink> ако су познати
+request-language-form-info-explanation-list-3 = Везе ка страницама које нам могу помоћи да разумемо језик
+request-language-google-recaptcha-required = reCAPTCHA је обавезна ако желите да наставите
+request-language-google-recaptcha-error = Дошло је до грешке у вези reCAPTCHA-е. Покушајте поново.
+# Success page
+request-language-success-heading = Хвала вам! Послали сте упит за нови језик
 
 ## Languages Overview
 
