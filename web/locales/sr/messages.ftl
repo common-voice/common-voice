@@ -752,6 +752,15 @@ other-language = Други језик
 
 ## Request Language Pages
 
+request-language-form-email =
+    .label = Ваша адреса е-поште
+request-language-form-info =
+    .label = Информације о језику
+request-language-form-info-explanation =
+    Пружите што више можете информација о језику. Ово
+    може да укључује:
+request-language-form-info-explanation-list-1 = Називе вашег језика
+request-language-form-info-explanation-list-2 = <isoCodeLink>ISO кодове</isoCodeLink> ако су познати
 
 ## Languages Overview
 
@@ -768,6 +777,7 @@ language-search-input =
 language-speakers = Говорници
 localized = Локализоване
 sentences = Реченице
+language-validation-hours = Сати
 
 ## Contribution
 
@@ -1023,6 +1033,7 @@ download-request-refresh-button = Освежи
 download-request-modal-title = Везе за преузимање
 download-request-modal-description = Ево веза за преузимање ваших ZIP датотека.
 download-request-link-text = Zip #{ $offset } од { $total }
+download-request-metadata-link = Текст реченице
 
 ## Landing
 
@@ -1079,6 +1090,8 @@ contribution-misreadings-title = Грешке при читању
 contribution-misreadings-description = Приликом слушања, пажљиво проверите да ли је снимљено тачно онако како је написано; одбацујте чак и ако постоје мање грешке. <br />Врло честе грешке укључују:
 contribution-misreadings-description-extended-list-4 = Одсуство краја последње речи због превременог престанка снимања.
 contribution-misreadings-description-extended-list-5 = Поновљени покушаји читања речи.
+see-more = <chevron></chevron>Прикажи више
+see-less = <chevron></chevron>Прикажи мање
 
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
@@ -1087,6 +1100,22 @@ contribution-misreadings-description-extended-list-5 = Поновљени пок
 
 ## HEADER/FOOTER
 
+sc-header-home = Почетна
+sc-header-how-to = Како да
+sc-header-add = Додај
+sc-header-review = Прегледај
+sc-header-rejected = Одбијене реченице
+sc-header-my = Моје реченице
+sc-header-statistics = Статистика
+sc-header-profile = Профил
+sc-footer-report-bugs = Пријави грешке
+sc-footer-translate = Преведи ову страницу
+sc-footer-report-copyright = Пријави проблеме са ауторским правима
+sc-footer-privacy = Приватност
+sc-footer-terms = Услови
+sc-footer-cookies = Колачићи
+sc-login-signup-button = Пријава / Регистрација
+sc-logout-button = Одјава
 
 ## HOME
 
