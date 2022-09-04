@@ -1195,7 +1195,7 @@ sc-logout-button = Ìjáde
 ## HOME
 
 sc-home-title = Káàbọ̀ sí òǹgbà gbólóhùn Common Voice
-sc-home-intro = Agba-gbólóhùn jẹ́ apá kan <commonVoiceLink> Common Voice. Ó gba àwọn olùkópa láàyè láti gbà àti fọ́wọ́ sí àwọn gbólóhùn tí àwùjọ ṣẹ̀dá. O lè lo irinṣẹ́ yìí láti tún ṣe ìgbàwọlé àti ìsọdímímọ́ Ààyè Gbogbogbò ìgbọ̀rọ̀-gba-gbólóhùn-sí kékeré-sáàbọ̀ tí o bá rí tàbí gbà. Gbogbo gbólóhùn nílò láti wà ní Ààyè Gbogbogbò.Àwọn gbólóhùn tí a ti fọwọ́sí ni à ní gbéjáde ní ọ̀sẹ̀ẹ̀sẹ̀ sí ibi ìpàmọ́ Common Voice, tí a sì ń tú wọn sílẹ̀ lórí wẹ́íbusaìtì Common Voice ní gbogbo ìfisípò tuntun
+sc-home-intro = Agba-gbólóhùn jẹ́ apá kan <commonVoiceLink> Common Voice</commonVoiceLink>. Ó gba àwọn olùkópa láàyè láti gbà àti fọ́wọ́ sí àwọn gbólóhùn tí àwùjọ ṣẹ̀dá. O lè lo irinṣẹ́ yìí láti tún ṣe ìgbàwọlé àti ìsọdímímọ́ Ààyè Gbogbogbò ìgbọ̀rọ̀-gba-gbólóhùn-sí kékeré-sáàbọ̀ tí o bá rí tàbí gbà. Gbogbo gbólóhùn nílò láti wà ní Ààyè Gbogbogbò.Àwọn gbólóhùn tí a ti fọwọ́sí ni à ní gbéjáde ní ọ̀sẹ̀ẹ̀sẹ̀ sí ibi ìpàmọ́ Common Voice, tí a sì ń tú wọn sílẹ̀ lórí wẹ́íbusaìtì Common Voice ní gbogbo ìfisípò tuntun
 sc-home-collect-title = Gba àwọn gbólóhùn
 sc-home-collect-text = Ṣe ìrànwọ́ fún wa pẹ̀lú kíkọ tàbí gbígbà àwọn gbólóhùn tó wà ni gbangba.
 sc-home-review-title = Àtúnyẹ̀wò àwọn gbólóhùn
@@ -1211,12 +1211,18 @@ sc-howto-title = Ọ̀nà ṣíṣe
 sc-howto-addlang-title = Ṣíṣe àfikún àwọn èdè láti ṣiṣẹ́ pẹ̀lú
 sc-howto-addlang-text = Kété tí o bá wọlé, o lè yan àwọn èdè rẹ nínú abala púrófáìlì.
 sc-howto-addsen-title = Ṣàfikún àwọn gbólóhùn tuntun
+sc-howto-addsen-item-1 = Gbogbo àwọn gbólóhùn tí o fikalẹ̀ gbọ́dọ̀ wà ní abẹ́ <wikipediaLink> ìwé-àṣẹ̀ Ààyè Gbogbogbò(CC-0)</wikipediaLink>. Láti ṣàtìlẹ́yìn ṣíṣe àfikún iṣẹ́ tí ò sí lábẹ́ ìwé-àṣẹ gbogbogbò, a ti ṣẹ̀dá <cc0WaiverLink> àwòṣe Àdéhùn Ìdásí </cc0WaiverLink> fún àwọn iṣẹ́ níbi tí olóhun tó ní àṣẹ ti máa nífẹ̀ẹ́ láti dásí sí ohun èlò Common Voice.
 sc-howto-addsen-item-2 = Òǹkà. Kò gbọdọ̀ sí òǹkà nínú àkọ́lẹ̀ orísun nítorí wọ́n lè dá wàhálà sílẹ̀ lígbà ta bá ń kà wọ́n jáde. Ìṣewọ́ bí òǹká ṣe ń di kíkà jáde dá lórí idi-ọ̀rọ̀ àti pé ó lè dá ìdàrúdàpọ̀ sílẹ̀ nínú àtòjọ dátà. Fún àpẹẹrẹ, òǹka “2409” lè di kíkà ní “twenty-four zero nine” àti “two thousand four hundred nine”.
 sc-howto-addsen-item-3 = Ìsọdikúkúrú àti ìsọdikúkúrú aborúkọ. Ìsọdikúkúrú àti ìsọdikúkúrú aborúkọ bí i "USA" tàbí "ICE" ni kí o gìnnà sí nínú ọ̀rọ̀ orísun nítorí pé ìtumọ̀ wọn lè yàtọ̀ sí sípẹ́lì wọn. Ní àfikún, ọ̀pọ̀ itumọ̀ tó tọ́nà ni ó lè wà fún ìsọdikúkúrú kan. Bí àpẹẹrẹ, ìsọdikúkúrú aborúkọ “ICE” ni a lè pè bí i  “I-C-E” tàbí kí a pè é gẹ́gẹ́ bí ẹyọ ọ̀rọ̀ kan.
 sc-howto-addsen-item-4 = Àmì Àkọtọ́. Àmì àrà-ọ̀tọ̀ àti àmì àkọtọ́ gbọ́dọ̀ ọ̀wọ́ ìgbà tí ó bá yẹ. Fún àpẹẹrẹ, kọmá olókè máa ń di lílò nínú àwọn ọ̀rọ̀ Gẹ̀ẹ́sì bí i “don’t” àti “we’re” ó sì gbọdọ̀ wà nínú ọ̀rọ̀ orísun, ṣùgbọ́n kò dá jú wí pé wà á nílò àwọn àmì àrà-ọ̀tọ̀ bi i  “@” or “#.”
+sc-howto-addsen-item-5 = Àwọn lẹ́tà àjèjì. Àwọn lẹ́tà gbọ́dọ̀ wúlò nínú èdè tí à ń sọ. Bí àpẹẹrẹ, "ж" jẹ́ lẹ́tà nínú álífábẹ́ẹ̀tì èdè Russia ṣùgbọ́n wọn kò lòó rí nínú èdè Gẹ̀ésì, nítorí náà kò gbọdọ̀ hàn nínú èyíkèyí ọ̀rọ̀ tí orísùn rẹ̀ jẹ́ Gẹ̀ẹ́sì.
+sc-howto-addsen-item-6 = Àwọn èdè ní àwọn <validationRulesLink> òfin ìfọwọ́sí ti wọn </validationRulesLink> pẹ̀lú àfikún àwọn ohun tí wọ́n nílò. Tí kò bá sí fáìlì ìjẹ́rìísí kan pàtó fún èdè kan, à ń lo àwọn òfin gbogbo ẹ̀yà Gẹ̀ẹ́sì.
+sc-howto-addsen-post-1 = A fẹ́ àwọn gbólóhùn onírọ̀wọ́/onísọ̀rọ̀-ǹ-gbèsì. Lóòótọ́ ìyàtọ̀ fóònù àti àwọn ọ̀rọ̀ inú gbólóhùn ṣe kókó, à ń gbìnyànjú láti ṣe ìgbàsílẹ̀ àwọn gbólóhùn tí yóó mú gbogbo ìgbádùn tí a lè rí wá. Nítorí èyí, ó máa jẹ nǹkan pàtàkì tí o bá lè tọ́jú àwọn gbólóhùn rẹ gẹ́gẹ́ bi èyí tó rọ̀wọ́/tó ń fani mọ́ra gẹ́gẹ́ bi o ṣe lè ṣe tó.
 sc-howto-cite-title = Báwo ni a ṣe ń ṣe ìtọ́kasí
+sc-howto-cite-pre-1 = Ó ṣe pàtàkì kí o ṣe ìtọ́kasí ibi tí o ti rí ìwé-àṣẹ gbogbogbò láti yẹra fún àdàkọ àti láti ṣe ìgbàláàyè fún gbogbo ohun tó tẹ̀lé àwọn <copyrightIssuesLink>ìṣòro àṣẹ-ìní</copyrightIssuesLink>. Èyí ni díẹ̀ nínú àwọn ọ̀nà tí o lè tọ́ka iṣẹ́ náà sí.
 sc-howto-cite-item-1 = O lè fi wẹ́íbusaìtì kun, àpẹẹrẹ "Common Voice -https://commonvoice.mozilla.org/"
 sc-howto-cite-item-2 = O lè lo sítàì ìtọ́kasí ti akadá, bí àpẹẹrẹ sítàì Harvard "Mozilla (2021) Common Voice. Ó wà ní https://commonvoice.mozilla.org/ (Wíwọlé: 15th Ọwẹ́wẹ̀ 2021)"
+sc-howto-cite-item-3 = Fún ọ̀rọ̀ ààyè gbogbogbò tí ò sí lórí ayélujára, o lè ló sítáì ìtọ́kasí akadá, bí àpẹẹrẹ sítáì Harvard "Jess (2021) Àwọn ewì iwé-àṣẹ gbogbogbò mi"
 sc-howto-review-title = Ṣe àtúnyẹ̀wò àwọn gbólóhùn
 sc-howto-review-subtitle = Ri dájú pé agbólóhùn náà bá àwọn ìlànà yí mu:
 sc-howto-review-criteria-1 = Gbólóhùn náà gbọ́dọ̀ ní sípẹ́lì tó tọ́.
@@ -1229,9 +1235,12 @@ sc-howto-findpd-title = Wíwá àwọn gbólóhùn tó wà tẹ́lẹ̀ 
 sc-howto-findpd-subtitle = Wá wọn lórí ẹ̀rọ ayélujára
 sc-howto-findpd-text-2 = Rántí pé a nílò a ti tọrọ àyè láti ṣe  àtẹ̀jáde àwọn gbólóhùn wọ̀nyẹn, nítorí náà ri dájú ní gbogbo ìgbà pé ọ̀rọ̀ náà jẹ́ ti <wikipediaLink>agbègbè gbogbogbo</wikipediaLink>. Tí kò bá sí ìtọ́kasí tó dunjú, kàn sí ẹni tó ni ọ̀rọ̀ náà, kí o sì bèrè bóyá wọ́n máa nífẹ̀ẹ́ à ti fi àwọn ọ̀rọ̀ wọn dásí ibùgbé gbogbogbo. Tí wọ́n bá fẹ́, ràn wọ́n lọ́wọ́ </wikipediaLink> à ti tọ́ ìlànà àdéhùn àwọn ìdásí</cc0WaiverLink>. Tí wọn ò bá fẹ́ láti dásí pẹ̀lú ọ̀rọ̀ náà, nígbà náà kò sí àyè fún ọ láti lo ọ̀rọ̀ náà.
 sc-howto-findpd-tips = Àwọn òte díẹ̀ rè é lá́ti wá àwọn gbólóhùn:
+sc-howto-findpd-tips-1 = Àwọn orísun tó dáa jù lọ tí o lè wá ní àwọn pọ́dícaàsì, àdàkọ-ìwé, ìwé fíímù àti ohunkóhun tó lè jẹ́ ohun tó ní ìsọ̀rọ̀-ǹ-gbèsì ojoojúmọ́.
+sc-howto-findpd-tips-2 = Àwọn ìgbésẹ̀ Ìjọba, àwọn ìwé àti àwọn àkọsílẹ̀ kékèké náà ṣe pàtàkì, síbẹ̀síbẹ̀, nígbà tí ọ̀rọ̀ náà jẹ́ èyí ti ò gbafẹ́ díẹ̀, wọn kìí fi bẹ́ẹ̀ ṣe kókó.
 sc-howto-findpd-tips-3 = Ó ṣeni láàánú pé a kò tíì lé rí àkọsílẹ̀ Wikimedia. Nítorí náà, má ṣe ẹ̀dà títẹ̀ láti ibẹ̀.
 sc-howto-findpd-subtitle-2 = Bá àwọn àjọ tàbí ẹgbẹ́ ìbílẹ̀ ṣe
 sc-howto-findpd-partner-1 = Ọ̀pọ̀lọpọ̀ àwọn àjọ aláìdáni tó lè fẹ́ fọwọ́sowọ́pọ̀, tó sì ní ọ̀pọ̀lọpọ̀ ọ̀rọ̀ nílẹ̀ tẹ́lẹ̀ lẹ tọrẹ gẹ́gẹ́ bí àyè àìláàdáni lábẹ́ òfin. Kàn sí àwọn iléèwé gígá ti agbègbè rẹ, àwọn ìjọba àti àwọn iléeṣẹ́ tó ń ta dátà olórísun tó hànde láti sọ̀rọ̀ nípa àkanṣe ìṣẹ́ náà àti láti bèèrè fún ìrànwọ́ wọn.
+sc-howto-findpd-partner-2 = Àwọn onímọ̀-èdè tó mọṣẹ́ tún lè ràn wá lọ́wọ́, gbìnyànjú láti kaǹ sí àwọn fásitì ìmọ̀ ẹ̀dá-èdè tí agbègbè rẹ (ti àwọn olùkọ́ àti akẹ́kọ̀ọ́), kí o sì ri bí wọ́n bá lè ṣèrànwọ́ àti ṣa oríṣiríṣi ọ̀wọ́ fún àwọn gbólóhùn oníròó-oríṣiríṣi nínú èdè rẹ.
 
 ## MY SENTENCES
 
