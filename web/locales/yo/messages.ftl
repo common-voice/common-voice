@@ -479,6 +479,9 @@ faq-is-account-public-q = Ǹjẹ́ ìròyìn àkáǹtì mi yóò wà 
 faq-how-privacy-q = Bá wo ni ẹ ṣe ń dáàbò bo ìdámọ̀ àwọn ẹni tọ́ fi ohùn wọn sílẹ̀
 faq-how-privacy-a = A máa ń yọ gbogbo ìdánimọ̀ kúrò nínú àgbàjọ fọ́nrán ohun tí a ṣe. Ti olùkópa kán bá fi dátà ìjúwé e rẹ̀ ráńṣẹ́ látorí púrófáìì rẹ̀, àwọn dátà náà yóò di yíyọ kúrò lára ohùn tí a gbà sílẹ̀ Kó tó di pé a dì í fan lílò a kò sì kì í fi sí oro púrófáìlì wọn
 faq-what-determine-identity-q = Kí ni ìtúmọ̀ pé mi ò lè ''yan ìṣèdámọ̀" àwọn olùkópa nínú àkójọ dátà Common Voice?
+faq-what-determine-identity-a =
+    Àkójọpọ̀-dátà Common Voice jẹ́ ohun èlò tó wà ní ṣíṣí sílẹ̀, tó sì wúlò fún gbogbogbò, èyí tí wọ́n lè lo láti kọ́ àwọn áàpù agbọ̀rọ̀-ṣíṣẹ oríṣiríṣi. Láti dáàbòbò ààbò àwọn olùkópa wa, a bèèrè lọ́wọ́ gbogbo èèyàn tó ń ṣe ìgbàsílẹ̀ fún àkójọpọ̀-dátà Common Voice kí wọ́n bo àṣírí àwọn olùkópa.           
+    Gbogbo àwọn fọ́nran ohun tó wà nínú àkójọpọ̀-dátà ni a ti pa gbogbo àlàyé ìdánimọ̀ tara-ẹni kankan kúrò níbẹ̀. Nígbà tí o ṣe ìgbàsílẹ̀ àkójọpọ̀̀-dátà, o gbà láti má gbìnyànjú àti ṣèdánimọ̀ fún olùkópa kankan. Èyí túnmọ̀ sí pé o kò le gbìnyànjú àti so àlàyé inú àkójọpọ̀-dátà mọ́ àlàyé nípa olùkópa. Síbẹ̀síbẹ̀, o lè lo àkójọpọ̀-dátà láti kọ́ ìdọ́rọ̀mọ̀, ìdámọ̀ olùsọ̀rọ̀, tàbí àwọn áàpù míràn, nípa, bí àpẹẹrẹ, síso àlàyé inú àkójọpọ̀-dátà  mọ́ àwọn àlàyé míràn tó ti wà nínú àkójọpọ̀-dátà tẹ́lẹ̀.
 faq-what-is-cv = Kí ni Common Voice?
 faq-using-cv = Lílo Common Voice
 faq-description = Common Voice wà lára akitiyan Mozilla láti lè kho ẹ̀rọ bí a ti ń sọ̀rọ̀ bí ènìyàn.
@@ -1151,6 +1154,7 @@ contribution-background-noise-example-2-fixed-title = Dáínò<strong> ńla�
 contribution-background-noise-example-2-explanation = [Apá kan ọ̀rọ̀ náà kò ṣeé gbọ̀]
 contribution-background-noise-example-3-fixed-title = <strong>[kọnúkọ́họ]</strong>àwọn dáínásọ̀ ti<strong>[kọnúkọ́họ]</strong>-ríásíìkì.
 contribution-background-voices-title = Àwọn ohùn abẹ́lẹ̀
+contribution-background-voices-description = Wàhálà abẹ́lẹ̀ tí ò pariwo ṣì DÁA, ṣùgbọ́n a ò fẹ́ àfikún ohùn tó lè fa agọ́rídíìmù ẹ̀rọ láti ṣe ìdámọ̀ àwọn ọ̀rọ̀ tí ò sí ní ìkọsílẹ̀. Tí o bá gbọ́ ọ̀rọ̀ tó yàtọ̀ sí àwọn tówà ní kíkọsílẹ̀, o gbọ́dọ̀ kọ fọ́nrán náà. Èyí maa ń ṣábà ṣẹlẹ̀ níbi tí wọ́n bá ti tan ẹ̀rọ̀ amóhùnmáwòrán sílẹ̀, tàbí níbi ti ìbánisọ̀rọ̀ bá ti ń wáyé ní tòsí.
 contribution-background-voices-description-extended = Tí ìkàsílẹ̀ náà bá ń gé, tàbí ní àwọn kọnúkọ́họ, ṣe ìkọ̀sílẹ̀ fún àyàfi tí o bá ṣì lè gbọ́ gbogbo ọ̀rọ̀ náà.
 contribution-background-voices-example-1-title = Àwọn dáínásọ̀ ńlá ti Tiriásíìkì. <strong>[kà pẹ̀lú hùn kan]</strong>
 contribution-background-voices-example-1-explanation = Ṣé ò ń bọ̀?<strong>[Jẹ́ pípè nípasẹ̀ ẹlòmíràn]
@@ -1191,6 +1195,7 @@ sc-logout-button = Ìjáde
 ## HOME
 
 sc-home-title = Káàbọ̀ sí òǹgbà gbólóhùn Common Voice
+sc-home-intro = Agba-gbólóhùn jẹ́ apá kan <commonVoiceLink> Common Voice. Ó gba àwọn olùkópa láàyè láti gbà àti fọ́wọ́ sí àwọn gbólóhùn tí àwùjọ ṣẹ̀dá. O lè lo irinṣẹ́ yìí láti tún ṣe ìgbàwọlé àti ìsọdímímọ́ Ààyè Gbogbogbò ìgbọ̀rọ̀-gba-gbólóhùn-sí kékeré-sáàbọ̀ tí o bá rí tàbí gbà. Gbogbo gbólóhùn nílò láti wà ní Ààyè Gbogbogbò.Àwọn gbólóhùn tí a ti fọwọ́sí ni à ní gbéjáde ní ọ̀sẹ̀ẹ̀sẹ̀ sí ibi ìpàmọ́ Common Voice, tí a sì ń tú wọn sílẹ̀ lórí wẹ́íbusaìtì Common Voice ní gbogbo ìfisípò tuntun
 sc-home-collect-title = Gba àwọn gbólóhùn
 sc-home-collect-text = Ṣe ìrànwọ́ fún wa pẹ̀lú kíkọ tàbí gbígbà àwọn gbólóhùn tó wà ni gbangba.
 sc-home-review-title = Àtúnyẹ̀wò àwọn gbólóhùn
