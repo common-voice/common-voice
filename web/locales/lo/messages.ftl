@@ -7,6 +7,7 @@ email-input =
     .label = ອີເມລ
 submit-form-action = ສົ່ງ
 loading = ກຳລັງໂຫລດ…
+email-opt-in-info-title = ເຂົ້າຮ່ວມບັນຊີລາຍຊື່ທາງໄປສະນີຂອງ Voice ທົ່ວໄປ
 not-available-abbreviation = N/A
 banner-error-slow-link = ຫນ້າສະຖານະ
 error-something-went-wrong = ຂໍອະໄພ, ມີບາງຢ່າງຜິດພາດເກີດຂຶ້ນ
