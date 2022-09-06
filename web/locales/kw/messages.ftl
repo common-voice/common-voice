@@ -456,6 +456,10 @@ change-email-setings = Chanjya dha ebost der an Dewisyow yn-dann Honanieth Omgel
 faq-title = Govynnow menowgh
 faq-what-cv-q = Pyth yw Common Voice?
 faq-what-cv-a = Teknegieth aswon lev a wra chanjya yn tien an fordh may hwren kesoberi gans jynnys, mes an kevreythyow kavadow lemmyn yw kostek ha perghenogel. Common Voice yw rann ragdres Mozilla dhe wellhe teknegieth aswon lev ha gul dhedha bos mov hedhadow rag pubonan. Common Voice yw sel manylyon ollvysel kowrek a levow argevrys a wra gasa den vyth dhe trenya apps gans levow yn es hag yn skav martesen yn pub yeth.
+faq-what-cv-a-2 =
+    Yma teknegieth aswon lev ow tomhwelhe an fordh mayth oberyn gans jynnow, mes kostek ha perghenogel yw an systemow kavadow a-lemmyn. Common Voice Mozilla yw ragdres dhe wul teknegieth aswon lev gwell ha hedhadow dhe bubonen. Common Voice yw sel manylyon ollvysel kowrek a levow argevrys a wra gasa dhe bubonen trenya yn es hag yn skav apps gans levow martesen yn pub yeth.
+    
+    Nyns eson ni marnas ow kuntel samplow lev yn yethow kewsys yn kemmyn, mes ynwedh y'n re gans kemeneth byghanna a gowsoryon. Dyllo kedhelsett diwyrs a levow a wra kennertha displegoryon, omgemeryoryon ha kemenethow dhe dhyghtya an aswa ma aga honan.
 faq-why-important-q = Prag yth yw posek?
 faq-how-get-q = Fatel allav vy kerghes an kedhlow Common Voice?
 faq-when-release2-q = P'eur fynnowgh dyllo kedhlow Common Voice yn yethow erel?
@@ -465,9 +469,12 @@ faq-is-goal-assistant-q = Yw amkan Common Voice drehevel darbarer lev?
 faq-do-want-native-q = Nyns ov kewser teythyek ha poslev a'm beus ha my ow kewsel, a vynnsowgh hwath ow lev?
 faq-why-different-speakers-q = Prag yth yw res dhywgh kavos lies kewser dyffrans rag pub yeth?
 faq-why-my-lang-q = Prag nag yw ow yeth yssynsys hwath?
+faq-what-quality-q = Py nivel a gwalita son yw res rag klypp lev dhe vos usys y'n kedhelsett?
+faq-why-10k-hours-q = Prag yth yw 10,000 our dilysys an amkan rag pub yeth rag kuntel son?
 faq-why-10k-hours-a = Hemm yw dre vras an niver a ourys res rag dyski dhe gevres kows-dhe-dekst askorrans.
 faq-how-calc-hours-q = Fatel wra Common Voice rekna ourys?
 faq-where-src-from-2-q = A-ble teu an tekst pennfenten?
+faq-why-not-ask-read-q = Prag na wre'ta govyn orth tus dhe lenna a lyvrow po erthyglow Wikipedia yn yethow dyffrans?
 faq-why-account-q = Prag y talvia dhymm omrolya rag akont?
 faq-is-account-public-q = Yw kedhlow ow akont poblek?
 faq-what-is-cv = Pandr'yw Common Voice?
