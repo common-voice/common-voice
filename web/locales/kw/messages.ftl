@@ -470,6 +470,7 @@ faq-how-get-a = An kedhelsett Common Voice yw kavadow dhe iskarga yn-dann gummya
 faq-when-release2-q = P'eur fynnowgh dyllo kedhlow Common Voice yn yethow erel?
 faq-when-release2-a = Yma an gwersyon liesyeth a'n kedhelsett Common Voice ow perthi fardella ha glanhe skoodhys gans an kemeneth lemmyn. Mar mynnses agan gweres dhe dhri Common Voice dhe yethow nowydh, gwra mires orth an <sentenceCollectorLink>Toul Kuntel Lavarow</sentenceCollectorLink> rag keworra lavarow nowydh dhe'n kedhelsett ha <pontoonLink>Pontoon</pontoonLink> Mozilla rag treylya an wiasva hy honan. Yethow nowydh yw keworrys dhe Common Voice rag kevrohow lev pan vo kuntellys 5000 lavar komendys.
 faq-why-mission-q = Prag yth yw Common Voice rann an medras Mozilla?
+faq-why-mission-a = Sakrys yw Mozilla dhe surhe bos an wi ygor ha hedhadow rag pubonan. Rag gul henna, res yw dhyn galosegi gwrioryon wi dre ragdresow kepar ha Common Voice. Ha teknegiethow lev ow lesa dres usadow pur danow, ni a grys res yw dhedha servya pub usyer yn ekwal. Henna a styr kevarghewi yn moy a yethow hag eshe poslevow ha demografegow diwyrs yn-dann dhrehevl ha previ teknegiethow lev. Common Voice yw asnodh poblek kavadow dhe bubonan hag yma parys ha displegyoryon Mozilla orth y usya seulabrys a-dro dhe'n bys y'gan ragdresow agan honan maga ta.
 faq-what-cv-and-deepspeech-q = Pyth yw an dyffrans yntra Common Voice ha Deep Speech?
 faq-is-goal-assistant-q = Yw amkan Common Voice drehevel darbarer lev?
 faq-do-want-native-q = Nyns ov kewser teythyek ha poslev a'm beus ha my ow kewsel, a vynnsowgh hwath ow lev?
