@@ -309,6 +309,9 @@ join-newsletter = Dre dhewis, gwra junya agan rol ebost rag nowedhyansow ha kedh
 
 whats-public = Pyth yw Poblek?
 email-not-public = Ny wren ni kevrenna dha ebost.
+recordings-and-locale-public = Poblek vydh an niver a rekordyansow ha py yethow may hwre'ta kevri dhedha.
+username-optin-public = Ty a yll dewis gul dha hanow-usyer dhe vos poblek po dihanow.
+username-email-not-demographic = Ny vydh dha hanow-usyer po ebost kelmys gans an kedhlow dyllys.
 
 ## Speak & Listen Shortcuts
 
