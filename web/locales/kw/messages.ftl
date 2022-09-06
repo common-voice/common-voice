@@ -290,8 +290,10 @@ x-years-short =
         [many] b
        *[other] b
     }
+help-make-dataset = Gweres dhyn drehevel kedhelsett ughel y gwalita hag ygor dhe'n poblek
 sign-up-account = Omrolya rag akont
 email-subscription-title = omrolya rag nowedhyansow ebost
+email-subscription-title-new = Omrolyewgh rag kofheansow amkan, nowedhyansow avonsyans ha lytherow nowodhow Common Voice
 
 ## Account Benefits
 
