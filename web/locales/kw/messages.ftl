@@ -414,6 +414,7 @@ profile-explanation = Helerghowgh agas ober gans profil ha gweresowgh dhyn ow ku
 thanks-for-account = Meur ras a afydhya dha akont, lemmyn gwren drehevel dha brofil.
 why-demographic = Prag yth yw hemma a vern?
 why-demographic-explanation-2 = Kedhlow-usyer dihanow, kepar ha bloodh, genedh ha poslev, a wra gweres gwellhe an kedhlow son usys dhe drenya kewerder a jynnys aswon kows. Nevra ny vydh dha hanow-usyer hag ebost kelmys gans dha gedhlow danvenys ha ty a yll dewis dhe wul dhe'th hanow-usyer bos po poblek po privedh.
+accept-privacy = Da lowr ov genowgh ow tyghtya an kedhlow ma dell wrewgh styrya yn <privacyLink>Polisi Privetter</privacyLink> Mozilla
 accept-privacy-title = Polici Privetter
 login-identity = Honanieth Omgelmi
 login-signup = Omgelmi / Omrolya
@@ -421,14 +422,20 @@ edit = Golegi
 email-subscriptions = Ragbrenow Ebost
 download-profile = Iskarga Ow Data
 contribution-experience = Prevyans Kevri
+skip-submission-feedback = Hepkor Dasliv Kevrohow
+skip-submission-description = Ha ty ow kevri, dasliv kevrohow a vydh hepkorys wosa ty dhe glyckya 'Danvon'. Kevri a wra pesya yn tidro gans an nessa sett a 5 rekordyans po dilysans.
+skip-submission-note = Noten: Res vydh dhis sewis ynttra Kewsel po Goslowes rag chanjya eghen kevri.
 off = Marow
 on = Byw
 help-accent = Yw res dhis gweres gans poslev?
+help-accent-explanation = Dha boslev yw an fordh may hwre'ta leverel geryow. Y hyll bos furvys gans an tyller mayth es ta trigys ynno, yethow erel a wre'ta kewsel ha lies tra aral. Ty a yll kevrenna py kedhlow pynag a dybydh bos gwiw omma.
 help-variants = Yw res dhis gweres gans varyansow?
+help-variants-explanation = Varyansow yw furvow komparek a yeth - rag ensampel kevrennys gans an re ow triga yn ranndir po yn kemeneth. Treweythyow yth yns i gelwys rannyethow.
 
 ## Profile - Email
 
 browse-file-title = Ughkarga restren skeusen
+browse-file = Halya ha droppya po <browseWrap>Peuri</browseWrap>
 connect-gravatar = Junya gans Gravatar
 gravatar_not_found = Ny gevir Gravatar rag dha ebost
 file_too_large = Re vras yw an restren dhewisys
