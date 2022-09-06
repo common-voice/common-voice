@@ -298,7 +298,12 @@ email-subscription-title-new = Omrolyewgh rag kofheansow amkan, nowedhyansow avo
 ## Account Benefits
 
 benefits = Lesow
+rich-data = Gwra dhe'th kedhlow danvenys bos mar rych dell yw possybyl dre ri dhyn kedhlow demografek dihanow. Ni a wra dhe'n kedhlow oll bos dihanow kyns y vos poblek.
+improve-audio = Kedhlow profil a wellha an kedhlow son usys rag trenya kewerder aswon kows.
 keep-track = Holya dha avonsyans ha metryks a-dreus lies yeth.
+compare-progress = Gweles fatel wra dha avonsyans keheveli orth kevrenegoryon a-dro dhe'n bys.
+view-goals = Gweles dha avonsyans erbynn amkanow personel ha ragdres.
+join-newsletter = Dre dhewis, gwra junya agan rol ebost rag nowedhyansow ha kedhlow nowydh a-dro dhe'n ragdres.
 
 ## What's public
 
@@ -500,6 +505,7 @@ about-playbook-how-add-language-collecting-sentences-heading = Kuntel lavarow
 ## How does localization work
 
 about-playbook-how-localize = Fatel ober leelheans an wiasva?
+about-playbook-how-localize-content-1 = Treylyans an wiasva Common Voice yw gwrys dre <strong>Pontoon</strong>.
 
 ## How to add sentences
 
@@ -527,12 +533,14 @@ about-playbook-how-project-governance-content-3 = Privetter, diogeledh hag ylynd
 
 ## Glossary
 
+glossary = Gerva
 localization = Leelheans
 sentence-collection = Kuntel Lavarow
 sst = Kows-dhe-dekst (KDD)
 
 ## Error pages
 
+error-title-404 = Ny yllir kavos an folen na ragos
 error-code = Gwall { $code }
 
 ## Data
@@ -568,10 +576,12 @@ review-delete-recordings = Dilea ow rekordyansow
 
 ## Datasets Page
 
+datasets-heading = Kedhelsettys
 language = Yeth
 # File size in gigabytes
 size = Braster
 validated-hr-total = Somm a Ourys Dilysys
+overall-hr-total = Somm Ourys
 cv-license = Leshyans
 audio-format = Furvas Sonadow
 number-of-voices = Niver a Levow
@@ -589,6 +599,7 @@ data-other-ted-name = Korpus TED-LIUM
 data-other-ted-description = An korpus TED-LIUM a veu gwrys dhyworth arethow son ha'ga treusskrifansow kavadow war wiasva TED.
 data-other-voxforge-description = VoxForge a veu drehevys rag kuntel kows treusskrifys rag y usya gans jynnow aswon kows pennfenten ygor ha heb kost.
 data-other-tatoeba-description = Tatoeba yw database bras a lavarow, treylyansow ha son kowsys may hyllir y usya ow tyski yethow. Yma a-berth y'n iskargans ma Sowsnek kowsys rekordys gans aga hemeneth.
+ready-to-validate = Parys dhe weres dilysa lavarow?
 more = Moy
 close = Degea
 download = Iskarga
@@ -631,6 +642,8 @@ request-language-form-email =
 request-language-form-info =
     .label = Kedhlow a-dro dhe'n yeth
 request-language-form-info-explanation-list-1 = Henwyn dha yeth
+# Success page
+request-language-success-heading = Meur ras! Ty re dhanvonas govyn yeth nowydh
 
 ## Languages Overview
 
@@ -646,6 +659,7 @@ language-speakers = Kowsoryon
 localized = Leelhes
 sentences = Lavarow
 language-validation-hours = Ourys
+language-validation-progress = Avonsyans Dilysa
 
 ## Contribution
 
@@ -655,6 +669,15 @@ contribute = Kevri
 listen = Goslowowgh
 skip = Hepkor
 shortcuts = Skochfordhow
+clips-with-count-pluralized =
+    { $count ->
+        [zero] Klypp
+        [one] Klypp
+        [two] Klypp
+        [few] Klypp
+        [many] Klypp
+       *[other] Klypp
+    }
 goal-help-recording = Hwi re weresas Common Voice dhe dhrehedhes <goalPercentage></goalPercentage> a'gan amkan rekordya dedhyek a { $goalValue }!
 goal-help-validation = Hwi re weresas Common Voice dhe dhrehedhes <goalPercentage></goalPercentage> a'gan amkan gwirya dedhyek a { $goalValue }!
 contribute-more =
@@ -700,6 +723,8 @@ speak-empty-state-cta = Kevri lavarow
 record-button-label = Rekordyowgh agas lev
 share-title-new = <bold>Gweresowgh ni</bold> ow kavos moy levow
 login-to-get-started = Omgelmi po omrolya dhe dhalleth
+target-segment-first-card = Yth esos ow kevri dh'agan kynsa tregh kosten
+target-segment-generic-card = Yth esos ow kevri dhe tregh kosten
 target-segment-add-voice = Keworra Dha Lev
 target-segment-learn-more = Dyski Moy
 
@@ -719,6 +744,15 @@ continue = Pesya
 
 ## Goals
 
+days =
+    { $count ->
+        [zero] Dydh
+        [one] Dydh
+        [two] Dydh
+        [few] Dydh
+        [many] Dydh
+       *[other] Dydh
+    }
 
 ## Dashboard
 
@@ -749,11 +783,22 @@ lose-changes-warning = Mar tiberthydh lemmyn, ty a wra kelli dha janjyow
 set-a-goal = Settya amkan
 cant-decide = A ny yll'ta ervira?
 which-goal-type = A vynn'ta Kewsel, Goslowes po an dhew?
+n-clips-pluralized =
+    { NUMBER($count) ->
+        [zero] klypp
+        [one] klypp
+        [two] klypp
+        [few] klypp
+        [many] klypp
+       *[other] klypp
+    }
 confirm-goal = Afydhya Amkan
 goal-interval-weekly = Seythennyek
 share-goal-type-speak = Kewsel
 share-goal-type-listen = Goslowes
 share-goal-type-both = Kewsel ha Goslowes
+weekly-goal-created = Dha amkan seythenyek re beu settys
+daily-goal-created = Dha amkan dedhyek re beu settys
 share-goal = Kevrenna ow amkan
 
 ## Profile Delete
@@ -764,6 +809,8 @@ profile-form-delete = Dilea an profil
 
 ## Profile Download
 
+download-q = Yw res dhis iskarga dha gedhlow?
+download-info = Lavar dhyn pyth a vynn'ta iskarga:
 download-profile-title = Profil
 download-profile-size = Nebes baytys
 download-recordings-title = Rekordyansow
