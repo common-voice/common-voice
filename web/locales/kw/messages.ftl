@@ -468,6 +468,7 @@ faq-why-important-a =
 faq-how-get-q = Fatel allav vy kerghes an kedhlow Common Voice?
 faq-how-get-a = An kedhelsett Common Voice yw kavadow dhe iskarga yn-dann gummyas <licenseLink>CC0</licenseLink> war <datasetLink>agan folen Kedhelsettys</datasetLink>. Ynwedh y hyllir iskarga nebes kedhelsettys poblek erel a'n keth folen.
 faq-when-release2-q = P'eur fynnowgh dyllo kedhlow Common Voice yn yethow erel?
+faq-when-release2-a = Yma an gwersyon liesyeth a'n kedhelsett Common Voice ow perthi fardella ha glanhe skoodhys gans an kemeneth lemmyn. Mar mynnses agan gweres dhe dhri Common Voice dhe yethow nowydh, gwra mires orth an <sentenceCollectorLink>Toul Kuntel Lavarow</sentenceCollectorLink> rag keworra lavarow nowydh dhe'n kedhelsett ha <pontoonLink>Pontoon</pontoonLink> Mozilla rag treylya an wiasva hy honan. Yethow nowydh yw keworrys dhe Common Voice rag kevrohow lev pan vo kuntellys 5000 lavar komendys.
 faq-why-mission-q = Prag yth yw Common Voice rann an medras Mozilla?
 faq-what-cv-and-deepspeech-q = Pyth yw an dyffrans yntra Common Voice ha Deep Speech?
 faq-is-goal-assistant-q = Yw amkan Common Voice drehevel darbarer lev?
