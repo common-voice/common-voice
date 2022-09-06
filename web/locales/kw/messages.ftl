@@ -467,6 +467,7 @@ faq-why-mission-q = Prag yth yw Common Voice rann an medras Mozilla?
 faq-what-cv-and-deepspeech-q = Pyth yw an dyffrans yntra Common Voice ha Deep Speech?
 faq-is-goal-assistant-q = Yw amkan Common Voice drehevel darbarer lev?
 faq-do-want-native-q = Nyns ov kewser teythyek ha poslev a'm beus ha my ow kewsel, a vynnsowgh hwath ow lev?
+faq-do-want-native-a = Ea, ny a vynn dha lev yn arbennik! Rann an meder a Common Voice yw kuntel pygemmys poslevow dyffrans dell yllyn may hyll gonisyow aswon lev oberi yn ta yn kehaval rag pubonan. Hemma a styr bos kevrohow a gowsoryon anteythyek fest posek.
 faq-why-different-speakers-q = Prag yth yw res dhywgh kavos lies kewser dyffrans rag pub yeth?
 faq-why-my-lang-q = Prag nag yw ow yeth yssynsys hwath?
 faq-what-quality-q = Py nivel a gwalita son yw res rag klypp lev dhe vos usys y'n kedhelsett?
@@ -477,6 +478,7 @@ faq-where-src-from-2-q = A-ble teu an tekst pennfenten?
 faq-why-not-ask-read-q = Prag na wre'ta govyn orth tus dhe lenna a lyvrow po erthyglow Wikipedia yn yethow dyffrans?
 faq-why-account-q = Prag y talvia dhymm omrolya rag akont?
 faq-is-account-public-q = Yw kedhlow ow akont poblek?
+faq-how-privacy-q = Fatel wrewgh surha privetter ha bos dihanow an dus a argevros aga levow?
 faq-what-is-cv = Pandr'yw Common Voice?
 faq-using-cv = Usya Common Voice
 faq-description = Common Voice yw rann ragdres gans Mozilla dhe weres ow tyski dhe jynnow fatel wra tus wir kewsel.
@@ -490,13 +492,17 @@ how-does-it-work-title-v2 = Fatel ober Common Voice?
 
 ## How does it work section
 
+about-language-req-subtitle = Nebonan a wovyn rag yeth dhe vos keworrys.
 about-localization-title = Leelheans an Wiasva
+about-localization-subtitle = Tekst an wiasva yw treylys y'n yeth na.
 about-sentence-collection-title = Kuntel Lavarow
 about-sentence-collection-subtitle = Kuntellys yw lavarow rag tus dh'aga lenna.
 about-new-lang-title = Lonch a Yeth Nowydh
 about-new-lang-subtitle = Ni a lonch an wiasva Common Voice y'n yeth ma.
 about-voice-contrib-title = Kevri Lev
+about-voice-contrib-subtitle = Tus a dheu rag kevri aga levow.
 about-voice-validation-title = Dilysa Lev
+about-voice-validation-subtitle = Tus erel a wra dilysa an klyppys lev na.
 about-dataset-release-title = Dyllans Kedhelsett
 about-dataset-release-subtitle = Ni a wra dyllo an kedhelsett pub 3 mis.
 about-speak = Kewsel
