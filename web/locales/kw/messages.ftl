@@ -472,6 +472,7 @@ faq-when-release2-a = Yma an gwersyon liesyeth a'n kedhelsett Common Voice ow pe
 faq-why-mission-q = Prag yth yw Common Voice rann an medras Mozilla?
 faq-why-mission-a = Sakrys yw Mozilla dhe surhe bos an wi ygor ha hedhadow rag pubonan. Rag gul henna, res yw dhyn galosegi gwrioryon wi dre ragdresow kepar ha Common Voice. Ha teknegiethow lev ow lesa dres usadow pur danow, ni a grys res yw dhedha servya pub usyer yn ekwal. Henna a styr kevarghewi yn moy a yethow hag eshe poslevow ha demografegow diwyrs yn-dann dhrehevl ha previ teknegiethow lev. Common Voice yw asnodh poblek kavadow dhe bubonan hag yma parys ha displegyoryon Mozilla orth y usya seulabrys a-dro dhe'n bys y'gan ragdresow agan honan maga ta.
 faq-what-cv-and-deepspeech-q = Pyth yw an dyffrans yntra Common Voice ha Deep Speech?
+faq-what-cv-and-deepspeech-a = An kedhelsett Common Voice a gessen jynn aswon lev pennfenten ygor Mozilla Deep Speech. An kynsa gwersyon a Deep Speech a veu dyllys yn mis Du 2017 hag a besyas esplegya a-dhia an termyn na. War-barth gans an kedhelsett Common Voice, ni a grys y talvia an teknegieth aswon lev pennfenten ygor bos kavadow dhe bubonan. Govenek a'gan beus y hwra an teknegiethow ma galosegi displegyoryon dhe dhrehevel tonn a askorrasow ha gonisyow nowydh.
 faq-is-goal-assistant-q = Yw amkan Common Voice drehevel darbarer lev?
 faq-is-goal-assistant-a = Amkan an kedhelsett Common Voice yw galosegi pubonan y'n bys dhe dhrehevel aswon lev, aswon kowser po py eghen a app pynag a res kedhlow lev. Nyns yw darbarer lev marnas onan a lies eghen a app a yll bos gwrys gans an kedhelsett.
 faq-do-want-native-q = Nyns ov kewser teythyek ha poslev a'm beus ha my ow kewsel, a vynnsowgh hwath ow lev?
@@ -1000,7 +1001,12 @@ sc-personal-added-by-you = { $sentences } keworrys genes
 ## REVIEW
 
 sc-review-title = Dasweles Lavarow
+# Variables:
+#   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
+sc-review-form-source = Pennfenten: { $sentenceSource }
+sc-review-form-button-reject = Denagha
 sc-review-form-button-skip = Hepkor
+sc-review-form-button-approve = Komendya
 # Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
 sc-review-form-button-approve-shortcut = Y
 # Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
