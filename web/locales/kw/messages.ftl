@@ -373,6 +373,7 @@ profile-form-accent =
     .label = Lesyeth
 profile-form-custom-accent-help-text =
     .label = Fatel wrussys deskrifa dha boslev?
+profile-form-custom-accent-placeholder-2 = Dalleth jynnskrifa rag deskrifa dha boslev
 profile-form-age =
     .label = Bloodh
 profile-form-gender-2 =
@@ -383,6 +384,7 @@ hidden = Kudhys
 visible = Gweladow
 native-language =
     .label = Yeth Teythyek
+profile-form-add-accent = Keworra poslev a-vusur nowydh "{ $inputValue }"
 profile-form-submit-save = Gwitha
 profile-form-submit-saved = Gwithys
 male = Gorow
@@ -410,6 +412,7 @@ download-profile = Iskarga Ow Data
 contribution-experience = Prevyans Kevri
 off = Marow
 on = Byw
+help-accent = Yw res dhis gweres gans poslev?
 help-variants = Yw res dhis gweres gans varyansow?
 
 ## Profile - Email
