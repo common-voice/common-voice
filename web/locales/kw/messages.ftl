@@ -477,6 +477,7 @@ about-listen-queue = Lost Goslowes
 about-listen = Goslowes
 about-is-it-valid = Yw an klypp dilys?
 about-dataset-new = Kedhelsett Common Voice
+about-get-involved = Bos rann
 about-stay-in-touch-button = Omrolya
 about-nav-why-common-voice = Praga?
 about-nav-how-it-works = Fatla?
