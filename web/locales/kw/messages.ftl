@@ -311,6 +311,7 @@ whats-public = Pyth yw Poblek?
 email-not-public = Ny wren ni kevrenna dha ebost.
 recordings-and-locale-public = Poblek vydh an niver a rekordyansow ha py yethow may hwre'ta kevri dhedha.
 username-optin-public = Ty a yll dewis gul dha hanow-usyer dhe vos poblek po dihanow.
+demographic-deidentified-clarity-2 = Dre dhewis, ny vydh kedhlow demografek (r.e. bloodh, genedh, yeth ha poslev) danvenys poblek war dha brofil ha ny vydh kelmys dhe'th akont y'n kedhelsett. Klyppys son unnik a vydh kelmys gans kedhlow demografek rag an acheson a dielvennans moy kewar - rag ensampel, possybyl yw hwithrer dhe vynnes medra patron trenyans orth tregh demografek komparek.
 username-email-not-demographic = Ny vydh dha hanow-usyer po ebost kelmys gans an kedhlow dyllys.
 
 ## Speak & Listen Shortcuts
@@ -410,7 +411,9 @@ edit-profile = Chanjya an profil
 profile-create-success = Gwrys veu agas profil!
 profile-close = Degea
 profile-explanation = Helerghowgh agas ober gans profil ha gweresowgh dhyn ow kul dh'agan data lev kewera.
+thanks-for-account = Meur ras a afydhya dha akont, lemmyn gwren drehevel dha brofil.
 why-demographic = Prag yth yw hemma a vern?
+why-demographic-explanation-2 = Kedhlow-usyer dihanow, kepar ha bloodh, genedh ha poslev, a wra gweres gwellhe an kedhlow son usys dhe drenya kewerder a jynnys aswon kows. Nevra ny vydh dha hanow-usyer hag ebost kelmys gans dha gedhlow danvenys ha ty a yll dewis dhe wul dhe'th hanow-usyer bos po poblek po privedh.
 accept-privacy-title = Polici Privetter
 login-identity = Honanieth Omgelmi
 login-signup = Omgelmi / Omrolya
