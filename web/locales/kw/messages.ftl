@@ -298,6 +298,7 @@ email-subscription-title-new = Omrolyewgh rag kofheansow amkan, nowedhyansow avo
 ## Account Benefits
 
 benefits = Lesow
+keep-track = Holya dha avonsyans ha metryks a-dreus lies yeth.
 
 ## What's public
 
@@ -367,12 +368,17 @@ profile-form-language =
     .label = Yeth
 profile-form-variant =
     .label = Py varyans a { $language } a gewsydh?
+profile-form-variant-default-value = Nyns eus varyans dewisys
 profile-form-accent =
     .label = Lesyeth
+profile-form-custom-accent-help-text =
+    .label = Fatel wrussys deskrifa dha boslev?
 profile-form-age =
     .label = Bloodh
 profile-form-gender-2 =
     .label = Genedh
+leaderboard-visibility =
+    .label = Gweladewder Bordh Ledyoryon
 hidden = Kudhys
 visible = Gweladow
 native-language =
@@ -394,6 +400,7 @@ edit-profile = Chanjya an profil
 profile-create-success = Gwrys veu agas profil!
 profile-close = Degea
 profile-explanation = Helerghowgh agas ober gans profil ha gweresowgh dhyn ow kul dh'agan data lev kewera.
+why-demographic = Prag yth yw hemma a vern?
 accept-privacy-title = Polici Privetter
 login-identity = Honanieth Omgelmi
 login-signup = Omgelmi / Omrolya
@@ -403,18 +410,22 @@ download-profile = Iskarga Ow Data
 contribution-experience = Prevyans Kevri
 off = Marow
 on = Byw
+help-variants = Yw res dhis gweres gans varyansow?
 
 ## Profile - Email
 
 browse-file-title = Ughkarga restren skeusen
 connect-gravatar = Junya gans Gravatar
+gravatar_not_found = Ny gevir Gravatar rag dha ebost
 avatar-uploaded = Avatar ughkergys
+max-file-size = { $kb }kb po le
 remove-avatar = Dilea Avatar
 
 ## Profile - Email
 
 manage-subscriptions = Menystra Ragbrenow
 manage-email-subscriptions = Menystra Ragbrenow Ebost
+email-already-used = Usys yw an ebost ma seulabrys rag akont aral
 add-language = Keworra Yeth
 
 ## FAQ
@@ -453,6 +464,8 @@ about-sentence-collection-title = Kuntel Lavarow
 about-new-lang-title = Lonch a Yeth Nowydh
 about-voice-contrib-title = Kevri Lev
 about-voice-validation-title = Dilysa Lev
+about-dataset-release-title = Dyllans Kedhelsett
+about-dataset-release-subtitle = Ni a wra dyllo an kedhelsett pub 3 mis.
 about-speak = Kewsel
 about-listen-queue = Lost Goslowes
 about-listen = Goslowes
