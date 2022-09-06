@@ -461,7 +461,12 @@ faq-what-cv-a-2 =
     
     Nyns eson ni marnas ow kuntel samplow lev yn yethow kewsys yn kemmyn, mes ynwedh y'n re gans kemeneth byghanna a gowsoryon. Dyllo kedhelsett diwyrs a levow a wra kennertha displegoryon, omgemeryoryon ha kemenethow dhe dhyghtya an aswa ma aga honan.
 faq-why-important-q = Prag yth yw posek?
+faq-why-important-a =
+    Yn fenowgh yth yw kows fordh an moyha naturek may hyllyn keskomunya an eyl gans y gila hag yma teknegieth lev ow tri an es ma dh'agan jynnys-amontya ha devisyow gwayadow. Ni a vynn galosegi displegyoryon dhe dhrehevel towlennow aswon lev marthys kepar ha treylellow termyn gwir ha darbaroryon bysyel dre lev. Mes lemmyn brassa rann an kedhlow lev res rag drehevel an eghen ma a appys yw kostek ha perghenogel. Govenek a'gan beus y hwra an kedhelsett Common Voice ri dhe dhisplegyoryon an pyth yw res dhedha rag nowedhi ha gul dhe deknegieth kows bos kavadow y'ga yeth aga honan.
+    
+    Rag gul dhe aswon lev bos moy ollvysel hogen, ni a wra kuntel samplow lev yn yethow kewsys yn kemmyn keffrys hag an re gans poblans byghanna a gowsoryon hag yw yn fenowgh goservys gans gonisyow aswon lev kenwerthel. Dyllo kedhelsett diwyrs a levow a wra galosegi displegyoryon, omgemeryoryon ha kemenethow dhe dhyghtya an aswa ma aga honan.
 faq-how-get-q = Fatel allav vy kerghes an kedhlow Common Voice?
+faq-how-get-a = An kedhelsett Common Voice yw kavadow dhe iskarga yn-dann gummyas <licenseLink>CC0</licenseLink> war <datasetLink>agan folen Kedhelsettys</datasetLink>. Ynwedh y hyllir iskarga nebes kedhelsettys poblek erel a'n keth folen.
 faq-when-release2-q = P'eur fynnowgh dyllo kedhlow Common Voice yn yethow erel?
 faq-why-mission-q = Prag yth yw Common Voice rann an medras Mozilla?
 faq-what-cv-and-deepspeech-q = Pyth yw an dyffrans yntra Common Voice ha Deep Speech?
