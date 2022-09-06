@@ -420,6 +420,7 @@ help-variants = Yw res dhis gweres gans varyansow?
 browse-file-title = Ughkarga restren skeusen
 connect-gravatar = Junya gans Gravatar
 gravatar_not_found = Ny gevir Gravatar rag dha ebost
+file_too_large = Re vras yw an restren dhewisys
 avatar-uploaded = Avatar ughkergys
 max-file-size = { $kb }kb po le
 remove-avatar = Dilea Avatar
@@ -464,7 +465,9 @@ how-does-it-work-title-v2 = Fatel ober Common Voice?
 
 about-localization-title = Leelheans an Wiasva
 about-sentence-collection-title = Kuntel Lavarow
+about-sentence-collection-subtitle = Kuntellys yw lavarow rag tus dh'aga lenna.
 about-new-lang-title = Lonch a Yeth Nowydh
+about-new-lang-subtitle = Ni a lonch an wiasva Common Voice y'n yeth ma.
 about-voice-contrib-title = Kevri Lev
 about-voice-validation-title = Dilysa Lev
 about-dataset-release-title = Dyllans Kedhelsett
@@ -473,12 +476,14 @@ about-speak = Kewsel
 about-listen-queue = Lost Goslowes
 about-listen = Goslowes
 about-is-it-valid = Yw an klypp dilys?
+about-dataset-new = Kedhelsett Common Voice
 about-stay-in-touch-button = Omrolya
 about-nav-why-common-voice = Praga?
 about-nav-how-it-works = Fatla?
 about-nav-partners = Kesparow
 about-nav-get-involved = Kemeres rann
 about-nav-how-it-works-2 = Fatel ober Common Voice?
+about-nav-playbook = Dyski fatel vos rann anodho
 
 ## Community Playbook Content
 ## What is a language
