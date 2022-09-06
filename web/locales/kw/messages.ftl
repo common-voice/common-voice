@@ -455,6 +455,7 @@ change-email-setings = Chanjya dha ebost der an Dewisyow yn-dann Honanieth Omgel
 
 faq-title = Govynnow menowgh
 faq-what-cv-q = Pyth yw Common Voice?
+faq-what-cv-a = Teknegieth aswon lev a wra chanjya yn tien an fordh may hwren kesoberi gans jynnys, mes an kevreythyow kavadow lemmyn yw kostek ha perghenogel. Common Voice yw rann ragdres Mozilla dhe wellhe teknegieth aswon lev ha gul dhedha bos mov hedhadow rag pubonan. Common Voice yw sel manylyon ollvysel kowrek a levow argevrys a wra gasa den vyth dhe trenya apps gans levow yn es hag yn skav martesen yn pub yeth.
 faq-why-important-q = Prag yth yw posek?
 faq-how-get-q = Fatel allav vy kerghes an kedhlow Common Voice?
 faq-when-release2-q = P'eur fynnowgh dyllo kedhlow Common Voice yn yethow erel?
