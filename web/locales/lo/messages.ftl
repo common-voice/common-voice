@@ -177,8 +177,17 @@ vote-yes = ແມ່ນ
 vote-no = ບໍ່
 speak-subtitle = ບໍລິຈາກສຽງຂອງເຈົ້າ
 listen-subtitle = ຊ່ວຍພວກເຮົາກວດສອບສຽງ
+listen-goal-text = ກວດສອບຄລິບແລ້ວ
 all-locales = ທັງໝົດ
 today = ມື້ນີ້
+x-weeks-short =
+    { $count ->
+       *[other] { $count }wk
+    }
+x-years-short =
+    { $count ->
+       *[other] { $count }y
+    }
 
 ## Account Benefits
 
