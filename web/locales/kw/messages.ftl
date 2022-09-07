@@ -478,6 +478,9 @@ faq-is-goal-assistant-a = Amkan an kedhelsett Common Voice yw galosegi pubonan y
 faq-do-want-native-q = Nyns ov kewser teythyek ha poslev a'm beus ha my ow kewsel, a vynnsowgh hwath ow lev?
 faq-do-want-native-a = Ea, ny a vynn dha lev yn arbennik! Rann an meder a Common Voice yw kuntel pygemmys poslevow dyffrans dell yllyn may hyll gonisyow aswon lev oberi yn ta yn kehaval rag pubonan. Hemma a styr bos kevrohow a gowsoryon anteythyek fest posek.
 faq-why-different-speakers-q = Prag yth yw res dhywgh kavos lies kewser dyffrans rag pub yeth?
+faq-why-different-speakers-a =
+    An brassa rann a gedhelsettys yw trenys gans gordhiskwedhyans a nebes demografegow may sew ragvreus war-tu ha <articleLink>gwer ha'n renkas kres</articleLink>. Poslevow ha rannyethow hag yw skylldhiskwedhys yn kedhelsettys trenya yw yn tipek kelmys gans bagasow a dus hag yw amalekhes seulabrys. Ynwedh yma kudyn gans lies jynn konvedhes levow benel.
+    Hemm yw prag y fynnyn dyffrans y'gan kedhelsett!
 faq-why-my-lang-q = Prag nag yw ow yeth yssynsys hwath?
 faq-what-quality-q = Py nivel a gwalita son yw res rag klypp lev dhe vos usys y'n kedhelsett?
 faq-why-10k-hours-q = Prag yth yw 10,000 our dilysys an amkan rag pub yeth rag kuntel son?
