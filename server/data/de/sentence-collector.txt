@@ -15377,6 +15377,7 @@ Hallo, meine Delta und Delta Plus Freunde!
 Hallo, mich würde mal interessieren, wie gut du meine Wörter erkennen kannst.
 Hallöchen!
 Hallöchen, hallöchen! Ich müsste mal aufs Klöchen.
+Hallöchen.
 Halt bloß den Mund!
 Halt den Kopf über Wasser!
 Halt dich an dem Pfeiler fest!
@@ -16872,6 +16873,7 @@ Ich danke euch tausendmal!
 Ich darf Ihnen wohl eine Zigarre und ein Glas Wein anbieten?
 Ich darf aber nicht mit Fremden sprechen!
 Ich darf das sagen, denn ich bin selbst einer!
+Ich darf mich nicht aufregen.
 Ich darf mir kaufen, was ich will.
 Ich darf nicht mit Fremden sprechen!
 Ich darf nur wieder nicht die Satzzeichen vergessen.
@@ -18183,6 +18185,7 @@ Ich wiederhole mich nur ungern.
 Ich wiederhole!
 Ich will Bratwurst vom Grill.
 Ich will Kirsten da nicht zu nahe treten.
+Ich will Reis essen, sofort!
 Ich will aber nicht arbeiten.
 Ich will am Donnerstag noch einmal versuchen beim Arbeitsamt anzurufen.
 Ich will auch ein zweihändiges Schwert!
@@ -18230,6 +18233,7 @@ Ich will mal nachsehen.
 Ich will mal sehen, ob er frei ist.
 Ich will mehr Geld!
 Ich will meinen Sprüchekalender zurückhaben.
+Ich will mich aber aufregen!
 Ich will mich aber nicht überreden lassen.
 Ich will mich auch nimmer mit Grillen mehr plagen.
 Ich will mich nicht beeilen müssen.
@@ -21138,6 +21142,7 @@ Kaum zu glauben, dass schwarze Zahnpasta die Zähne weiß macht!
 Kaum zu glauben.
 Kehre zurück ins Kampfgebiet!
 Kein Angriffsszenario wird ohne Alice und Bob beschrieben.
+Kein Anschluss unter dieser Nummer.
 Kein Anschluß unter dieser Nummer!
 Kein Autohersteller nimmt den Datenschutz ernst.
 Kein Backup, kein Mitleid!
@@ -24228,6 +24233,7 @@ Muss ich jetzt ein schlechtes Gewissen haben?
 Muss ich jetzt sterben?
 Muss ich meinen Computer wieder erst anschreien, damit er tut, was ich will?
 Muss ich meinen Urlaub wirklich nehmen?
+Muss ich mich erst aufregen?
 Muss ich vor dem Wochenende noch irgendetwas einkaufen?
 Muss ich zur Hochzeit meiner Tochter wirklich eine Rede halten?
 Muss man bauchfrei in die Schule gehen?
@@ -24367,6 +24373,7 @@ Na also, das ist eine klare Ansage.
 Na also, geht doch!
 Na also, geht doch.
 Na bitte!
+Na bitte, es geht doch.
 Na bitte, wer sagt's denn?
 Na da haben wir ja ein putziges Exemplar.
 Na dann geh doch!
@@ -29842,6 +29849,8 @@ Trainierst du mit Gewichten?
 Trainiert wird mit ziemlich echt aussehenden Puppen in Lebensgröße.
 Traktor fahren!
 Tralala, ich höre nichts!
+Transaktion abgebrochen.
+Transaktion beendet.
 Transparentpudding ist ein Ausdruck für Götterspeise?
 Transportverschlüsselung beherrschen mittlerweile die meisten Webserver.
 Traue keinem Computer, den du nicht eigenhändig aus dem Fenster werfen kannst!
@@ -31539,6 +31548,8 @@ Vordenker wie er sind ein Idol für mich.
 Vorehelicher Geschlechtsverkehr kam für Sie nicht in Frage.
 Voreinstellung ist die schnellste Variante.
 Vorerst würde ich auf Kresse und Thymian verzichten.
+Vorgang abgebrochen.
+Vorgang beendet.
 Vorgestern guckten wir gemeinsam die neunte Folge.
 Vorgestern kam ein neuer Verurteilter, dessen Straftat als ausländerfeindlich motiviert gilt.
 Vorher drohte er, unter Last zu überhitzen.
@@ -33588,6 +33599,7 @@ Wer bei Kultur immer nur daran denkt, ist nicht auf Höhe der Zeit.
 Wer bei seinem Tod noch Geld besitzt, der hat unnötig viel im Leben gearbeitet.
 Wer beim Cheaten erwischt wird, fliegt raus.
 Wer benutzt welche Zahnbürste?
+Wer billig kauft, der kauft zweimal!
 Wer bin Ich?
 Wer bin ich, das zu beurteilen?
 Wer bist du denn?

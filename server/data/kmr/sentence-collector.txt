@@ -124,6 +124,7 @@ Ava porteqalan heye gelo?
 Ava qirêj venexwin.
 Ava sewûlê nû her tim sar e
 Ava xwe bi sê guman vexwe
+Ava zozanan vexwariye
 Ava zozanan vexwariye.
 Avabûna van dewletan jî, bi şerekî çekdar û dûrûdirêj e
 Avakirin û sazkirina her medeniyetan bi çandê ye
@@ -278,6 +279,7 @@ Belê li ber derî ketibû erdê
 Belê min da bû pey.
 Belê, ez jî kurd im.
 Belê.
+Ben kin bû nedigihîşt te.
 Benda biratiya we me.
 Benê pişta wî qetiyaye.
 Beqa avê
@@ -1881,6 +1883,7 @@ Em li gorî van em bernameya xwe ya jiyanê amade dikin.
 Em li hev bikin.
 Em li hêviya berfê ne.
 Em li ku derê dijîn?
+Em li ku derê ne?
 Em li ku ne?
 Em li lobiya otêlê li bende ne.
 Em li mêrga qesirê bûn û me guhdariya îşaretê dikir.
@@ -2515,6 +2518,7 @@ Ew modela nû ya îsal e.
 Ew mêrekî dilsoz e.
 Ew mîkroba sîrozê.
 Ew mîrata malê bû lê aniha ji xelkê re maye.
+Ew mîrata malê bû lê niha ji xelkê re maye.
 Ew mûm e… Mûmeke ku di hizûra Xwedê de dihele!.
 Ew naajo.
 Ew naajon.
@@ -3770,6 +3774,7 @@ Hejmara bikarhênerên kombersê, ji milyareke derbas bû
 Hejmara kesên betal her diçe zêdetir dibe.
 Hejmara me ya çaran hat weşandin. Kerem bikin bixwînin.
 Hejmara vê otobusê sî û heşt e.
+Hejmara vê otobûsê sî û heşt e.
 Hejîr baş e ji bo tendirustiya hestiyan.
 Heke Peymanê were, ji kerema xwe ji min re bibêje.
 Heke ev taybetî, ne li gor dilê te be, tu dikarî vebijarka din hilbijêrî
@@ -4074,6 +4079,7 @@ Heyameke dirêj, li wî gundî melatî kiriye
 Heye
 Heyecana wî bi her gaveke ku davêt re zêde dibû.
 Heyetê serdana şaredariyê kir.
+Heyetê seredana şaredariyê kir.
 Heyfa serê çûyînê
 Heyfa te.
 Heyv ronî ye mîna lembeyê.
@@ -4503,6 +4509,7 @@ Ji bo tu bi Tom bawer nebî min te hişyar kir.
 Ji bo van sedeman her kes, her yek an her civat muhtacê hev in.
 Ji bo vekirina qutiyê pêwîstiya te bi mifteyekê heye.
 Ji bo veşartina neqencbûna xwe, derewan dike.
+Ji bo veşartina neqenciya xwe, derewan dike.
 Ji bo vê armanca pîroz, can û malê me tev feda kir
 Ji bo vê dê Xwedê we xelat bike!
 Ji bo vê jî pêwîst e em aliyan baş nas bikin.
@@ -5585,6 +5592,7 @@ Ma tu ji bo Dîlanê jî li bendê namînî?
 Ma tu ji sporê hez nakî?
 Ma tu kurmancî dibêjî?
 Ma tu li Fransayê dijî?
+Ma tu mecbûr î vê xilas bikî, niha dev jê berde.
 Ma tu mecbûr î vêya xilas bikî, niha dev jê berde.
 Ma tu nabînî ez mijûl im?
 Ma tu nabînî ku ez mijûl im?
@@ -6057,6 +6065,7 @@ Mirov çi bixwaze, dikare bike hew bila bixwaze.
 Mirov, bi alîkariya nexşe û pisûleyê aliyan dinase.
 Mirov, pez û dewar tev birçî dibûn.
 Mirovan bêdeng nekin, çekan bêdeng bikin
+Mirovekî nebaş e lê ji min ditirse ku xerabiyan bike.
 Mirovekî nebaş e lê ji min ditirse ku xirabiyan bike.
 Mirovekî oldar û dinyadîtî bû.
 Mirovê betal birçî dimîne.
@@ -6479,6 +6488,7 @@ Pir deyndar e, xizan e.
 Pir feqîr û baş e.
 Pir ji mêrê xwe hez kiriye.
 Pir kêfa min ji wan re tê.
+Pir mijûl e
 Pir mijûl e.
 Pir ne bi zarokan
 Pir qerebalix e.
@@ -6486,6 +6496,7 @@ Pir sivik bûn çûne ban.
 Pir timakar e.
 Pir westiyam.
 Pir wextê min heye.
+Pir xuya ye ku di vî karî de dek û dolab hene.
 Pir xuya ye ku di vî karî de dek û dolap hene.
 Pir xweş bû û xwezî ez dîsa biçûma.
 Piraniya beşdarvanan, bi devkî ramanên xwe eşkere kirin
@@ -7762,6 +7773,7 @@ Tu pir şikbar î.
 Tu piştgiriya kîjan tîmê dikî?
 Tu plan dikî ku li kîjan fîlmî temaşe bikî?
 Tu pozê xwe dixî her qada jiyana min.
+Tu qenciyên ku min li te kirin ji bir dikî.
 Tu qenciyên ku min li te kirine ji bir dikî.
 Tu qerfên xwe bi min dikî?
 Tu refa çendan î?
@@ -8482,6 +8494,7 @@ Yekê Gulanê, li hemî cihanê wek cejneke navnetewî tê pîroz kirin
 Yekê Gulanê, roja karkerên cîhanê ye
 Yekê ji wan got: Efendî!
 Yekî dilê te şikand?
+Yekî feqîr e lê tiştên biha dixwaze.
 Yekî feqîr e lê tiştên buha dixwaze.
 Yekî hemû pereyê min dizî.
 Yekî ji me ye lê di xizmeta neyarê me de ye.
@@ -9869,6 +9882,7 @@ zivistanê cihê kê germ bû
 Çima ji hêla mamoste û hevalên xwe ve, tê hezkirin?
 Çima li te xist?
 Çima mirov dimire?
+Çima napeyivî.
 Çima nebe?
 Çima pêwistiya te bi Tom heye?
 Çima tu her dem li vê derê yî.
@@ -9932,6 +9946,7 @@ zivistanê cihê kê germ bû
 Çîçek zer in.
 Çû ji tifikê xwarin anî.
 Çû serdana dikandaran û ji wan re behsa projeyên xwe kir
+Çû û xwe wenda kir, kes nizane li ku derê ye.
 Çû û xwe wenda kir, kes nizane li ku ye.
 Çûk dibêje: “Goştê min pariyek gunehê min barek”
 Çûka Keko Peko pir in.
