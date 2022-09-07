@@ -483,7 +483,7 @@ faq-why-different-speakers-a =
     Hemm yw prag y fynnyn dyffrans y'gan kedhelsett!
 faq-why-my-lang-q = Prag nag yw ow yeth yssynsys hwath?
 faq-why-my-lang-a =
-    Common Voice yw leuren routhkavos, hag oll an yethow a veu keworrys gans bodhogyon.
+    Common Voice yw leuren routhkuntel, hag oll an yethow a veu keworrys gans bodhogyon.
     Ni a garsa ty dhe geworra dha yeth! <languageRequestLink>Govyn a-dro dhe geworra dha yeth.</languageRequestLink>
 faq-what-quality-q = Py nivel a gwalita son yw res rag klypp lev dhe vos usys y'n kedhelsett?
 faq-why-10k-hours-q = Prag yth yw 10,000 our dilysys an amkan rag pub yeth rag kuntel son?
