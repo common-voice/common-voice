@@ -1222,6 +1222,7 @@ sc-submit-button =
 ## ADD LANGUAGE
 
 sc-add-lang-could-not-add = ভাষা যোগ কৰিব পৰা নগ'ল
+sc-add-lang-sec-label = আপুনি যি ভাষাত বৰঙনি আগবঢ়াব খুজিছে, সেই ভাষা যোগ কৰক
 sc-add-lang-sec-button = ভাষা যোগ কৰক
 # Variables:
 #   $sentences (Number) - Number of sentences which failed to be saved to the database - could be several different reasons
@@ -1249,19 +1250,21 @@ sc-lang-info-title-personal = ব্যক্তিগত
 # Variables:
 #   $username (String) - eMail address of the logged in user
 sc-profile-title = প্ৰ'ফাইল: { $username }
+sc-personal-your-languages = আপোনাৰ ভাষাবোৰ:
 
 ## REVIEW CRITERIA
 
 
 ## REVIEW
 
+sc-review-lang-not-selected = আপুনি কোনো ভাষা বাছনি কৰা নাই। ভাষা বাছনি কৰিবলৈ অনুগ্ৰহ কৰি আপোনাৰ <profileLink>প্ৰ'ফাইল</profileLink>লৈ যাওক।
 sc-review-title = বাক্যবোৰ পৰ্যালোচনা কৰক
 sc-review-loading = বাক্যবোৰ ল'ড কৰি থকা হৈছে…
 sc-review-select-language = অনুগ্ৰহ কৰি বাক্যবোৰ পৰ্যালোচনা কৰিবলৈ এটা ভাষা বাছনি কৰক।
 sc-review-no-sentences = পৰ্যালোচনা কৰিবলৈ কোনো বাক্য নাই। <addLink>এতিয়াই অধিক বাক্য যোগ কৰক!</addLink>
 sc-review-form-prompt =
     .message = পৰ্যালোচনা কৰা বাক্য জমা দিয়া হোৱা নাই, নিশ্চিতনে?
-sc-review-form-usage = বাক্যটোত অনুমোদন জনাবলৈ সোঁফালে ছোৱাইপ কৰক। ইয়াক নাকচ কৰিবলৈ বাঁওফালে ছোৱাইপ কৰক। ইয়াক বাদ দিবলৈ ওপৰলৈ ছোৱাইপ কৰক। <strong>আপোনাৰ পৰ্যালোচনা দাখিল কৰিবলৈ নাপাহৰিব!</strong>
+sc-review-form-usage = বাক্যটো অনুমোদিত কৰিবলৈ সোঁফালে ছোৱাইপ কৰক। ইয়াক নাকচ কৰিবলৈ বাঁওফালে ছোৱাইপ কৰক। ইয়াক বাদ দিবলৈ ওপৰলৈ ছোৱাইপ কৰক। <strong>আপোনাৰ পৰ্যালোচনা জমা দিবলৈ নাপাহৰিব!</strong>
 # Variables:
 #   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
 sc-review-form-source = উৎস: { $sentenceSource }
@@ -1285,14 +1288,15 @@ sc-review-form-reviewed-message =
         [one] এটা বাক্য পৰ্যালোচনা কৰা হৈছে। ধন্যবাদ!
        *[other] { $sentences }টা বাক্য পৰ্যালোচনা কৰা হৈছে। ধন্যবাদ!
     }
+sc-review-form-review-failure = পৰ্যালোচনা সাঁচি থ'ব পৰা নগ'ল। অনুগ্ৰহ কৰি পিছত পুনৰ চেষ্টা কৰিব।
 sc-review-link = পৰ্যালোচনা কৰক
 
 ## SETTINGS
 
 sc-settings-title = ছেটিংছ
 sc-settings-ui-language = ইণ্টাৰফে'চৰ ভাষা
-sc-settings-reset-skipped = এৰি দিয়া বাক্যবোৰ ৰিছেট কৰক
-sc-settings-skipped-decription = আপুনি পূৰ্বতে পৰ্যালোচনা কৰোঁতে কেইটামান বাক্য এৰি দিছিল। এৰি দিয়া বাক্যকেইটা ৰিছেট কৰিলে বাদ পৰা আটাইকেইটা বাক্য পুনৰ দেখুওৱা হ'ব। এইটো ভাষা নিৰ্বিশেষে প্ৰযোজ্য হয়।
+sc-settings-reset-skipped = বাদ দিয়া বাক্যবোৰ ৰিছেট কৰক
+sc-settings-skipped-decription = আপুনি পূৰ্বতে পৰ্যালোচনা কৰোঁতে কেইটামান বাক্য বাদ দিছিল। বাদ দিয়া বাক্যকেইটা ৰিছেট কৰিলে বাদ পৰা আটাইকেইটা বাক্য পুনৰ দেখুওৱা হ'ব। এইটো ভাষা নিৰ্বিশেষে প্ৰযোজ্য হয়।
 sc-settings-show-all-button = বাদ পৰা আটাইবোৰ বাক্য আকৌ দেখুৱাওক
 sc-settings-failed = ছেটিংছ সলনি কৰিব পৰা নগ'ল। অনুগ্ৰহ কৰি পুনৰ চেষ্টা কৰক।
 # VALIDATION
