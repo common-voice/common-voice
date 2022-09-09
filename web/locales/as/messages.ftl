@@ -1259,6 +1259,8 @@ sc-review-title = বাক্যবোৰ পৰ্যালোচনা কৰ
 sc-review-loading = বাক্যবোৰ ল'ড কৰি থকা হৈছে…
 sc-review-select-language = অনুগ্ৰহ কৰি বাক্যবোৰ পৰ্যালোচনা কৰিবলৈ এটা ভাষা বাছনি কৰক।
 sc-review-no-sentences = পৰ্যালোচনা কৰিবলৈ কোনো বাক্য নাই। <addLink>এতিয়াই অধিক বাক্য যোগ কৰক!</addLink>
+sc-review-form-prompt =
+    .message = পৰ্যালোচনা কৰা বাক্য জমা দিয়া হোৱা নাই, নিশ্চিতনে?
 sc-review-form-usage = বাক্যটোত অনুমোদন জনাবলৈ সোঁফালে ছোৱাইপ কৰক। ইয়াক নাকচ কৰিবলৈ বাঁওফালে ছোৱাইপ কৰক। ইয়াক বাদ দিবলৈ ওপৰলৈ ছোৱাইপ কৰক। <strong>আপোনাৰ পৰ্যালোচনা দাখিল কৰিবলৈ নাপাহৰিব!</strong>
 # Variables:
 #   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
@@ -1275,14 +1277,26 @@ sc-review-form-button-skip-shortcut = S
 sc-review-form-keyboard-usage-custom = আপুনি কী-ব'ৰ্ড শ্বৰ্টকাটকেইটাও ব্যৱহাৰ কৰিব পাৰে: অনুমোদন জনাবলৈ { sc-review-form-button-approve-shortcut }, নাকচ কৰিবলৈ { sc-review-form-button-reject-shortcut }, বাদ দিবলৈ { sc-review-form-button-skip-shortcut }
 sc-review-form-button-submit =
     .submitText = পৰ্যালোচনা শেষ কৰক
+# Variables:
+#   $sentences (Number) - Number of sentences the user has reviewed in this session
+sc-review-form-reviewed-message =
+    { $sentences ->
+        [0] কোনো বাক্য পৰ্যালোচনা কৰা হোৱা নাই।
+        [one] এটা বাক্য পৰ্যালোচনা কৰা হৈছে। ধন্যবাদ!
+       *[other] { $sentences }টা বাক্য পৰ্যালোচনা কৰা হৈছে। ধন্যবাদ!
+    }
+sc-review-link = পৰ্যালোচনা কৰক
 
 ## SETTINGS
 
 sc-settings-title = ছেটিংছ
 sc-settings-ui-language = ইণ্টাৰফে'চৰ ভাষা
 sc-settings-reset-skipped = এৰি দিয়া বাক্যবোৰ ৰিছেট কৰক
+sc-settings-skipped-decription = আপুনি পূৰ্বতে পৰ্যালোচনা কৰোঁতে কেইটামান বাক্য এৰি দিছিল। এৰি দিয়া বাক্যকেইটা ৰিছেট কৰিলে বাদ পৰা আটাইকেইটা বাক্য পুনৰ দেখুওৱা হ'ব। এইটো ভাষা নিৰ্বিশেষে প্ৰযোজ্য হয়।
 sc-settings-show-all-button = বাদ পৰা আটাইবোৰ বাক্য আকৌ দেখুৱাওক
 sc-settings-failed = ছেটিংছ সলনি কৰিব পৰা নগ'ল। অনুগ্ৰহ কৰি পুনৰ চেষ্টা কৰক।
+# VALIDATION
+sc-validation-number-of-words = বাক্যত 1ৰ পৰা 14টা শব্দ থকাটো বাঞ্চনীয়
 sc-validation-no-numbers = বাক্যত সংখ্যা থাকিব নালাগে
 sc-validation-no-symbols = বাক্যত চিহ্ন থাকিব নালাগে
 sc-validation-no-abbreviations = বাক্যত সংক্ষিপ্ত ৰূপ থাকিব নালাগে
