@@ -1280,6 +1280,7 @@ sc-review-form-button-submit =
 
 sc-settings-title = ছেটিংছ
 sc-settings-ui-language = ইণ্টাৰফে'চৰ ভাষা
+sc-settings-reset-skipped = এৰি দিয়া বাক্যবোৰ ৰিছেট কৰক
 sc-settings-show-all-button = বাদ পৰা আটাইবোৰ বাক্য আকৌ দেখুৱাওক
 sc-settings-failed = ছেটিংছ সলনি কৰিব পৰা নগ'ল। অনুগ্ৰহ কৰি পুনৰ চেষ্টা কৰক।
 sc-validation-no-numbers = বাক্যত সংখ্যা থাকিব নালাগে
