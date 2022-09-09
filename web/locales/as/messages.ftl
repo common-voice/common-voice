@@ -497,7 +497,7 @@ faq-search-for-answers =
 about-title = কমন ভইচেই কিয়?
 about-header-description-v2 =
     <p>কমন ভইচ হৈছে এটা ৰাজহুৱাভাৱে উপলব্ধ ভইচ ডাটাছেট, যি সমগ্ৰ বিশ্বৰ স্বেচ্ছাসেৱী অৱদানকাৰীসকলৰ কণ্ঠৰ দ্বাৰা চালিত। যিসকলে ভইচ এপ্লিকেশ্যন তৈয়াৰ কৰিব বিচাৰে, তেওঁলোকে মেচিন লাৰ্নিং মডেলবোৰক প্ৰশিক্ষণ দিবলৈ ডাটাছেটটো ব্যৱহাৰ কৰিব পাৰে।</p>
-    <p>বৰ্তমানে, সৰহভাগ ভইচ ডাটাছেট কোম্পানীৰ মালিকানাধীন, যিয়ে উদ্ভাৱনক বাধা দিয়ে। ভইচ ডাটাছেটবোৰেও এইসকল লোকক কমকৈ স্বীকৃতি দিয়ে: অনা-ইংৰাজীভাষী, ভিন-বৰণীয়া লোক, দিব্যাংগ লোক, মহিলা আৰু LGBTQIA+। তাৰমানে এয়া যে বাক-সক্ষম প্ৰযুক্তিয়ে বহুতো ভাষাৰ বাবে একেবাৰেই কাম নকৰে আৰু য'ত কাম কৰে, ই সকলোৰে বাবে সমানভাৱে বাৰুকৈ প্ৰদৰ্শন নকৰিবও পাৰে। আমি সকলো ঠাইতে মানুহক তেওঁলোকৰ মাত ভাগ-বতৰা কৰিবলৈ একত্ৰিত কৰি সেইটো সলনি কৰিব বিচাৰোঁ।</p>
+    <p>বৰ্তমানে, সৰহভাগ ভইচ ডাটাছেট কোম্পানীৰ মালিকানাধীন, যিয়ে উদ্ভাৱনক বাধা দিয়ে। ভইচ ডাটাছেটবোৰেও এইসকল লোকক কমকৈ স্বীকৃতি দিয়ে: অনা-ইংৰাজীভাষী, ভিন-বৰণীয়া লোক, দিব্যাংগ লোক, মহিলা আৰু LGBTQIA+। তাৰমানে এয়া যে বাক-সক্ষম প্ৰযুক্তিয়ে বহুতো ভাষাৰ বাবে একেবাৰেই কাম নকৰে আৰু য'ত কাম কৰে, ই সকলোৰে বাবে সমানভাৱে বাৰুকৈ কাম নকৰিবও পাৰে। আমি সকলো ঠাইতে মানুহক তেওঁলোকৰ মাত ভাগ-বতৰা কৰিবলৈ একত্ৰিত কৰি সেইটো সলনি কৰিব বিচাৰোঁ।</p>
 how-does-it-work-title-v2 = কমন ভইচে কেনেকৈ কাম কৰে?
 how-does-it-work-text = আমি মাতৰ এক মুক্ত-উৎসৰ ডেটাছেট ক্ৰাউডছ'ৰ্চ কৰি আছোঁ। আপোনাৰ মাত দান কৰক, অন্য লোকৰ ক্লিপবোৰৰ সঠিকতা বৈধকৰণ কৰক, ডেটাছেট সকলোৰে বাবে উন্নত কৰক।
 
@@ -576,7 +576,7 @@ about-playbook-how-add-language-collecting-sentences-content-2 =
     আপুনি <sentenceCollectorLinkAdd>কম সংখ্যক বাক্য যোগ কৰিব</sentenceCollectorLinkAdd> পাৰে,
     বা আপুনি <bulkImportDocsLink>Github ব্যৱহাৰ কৰি সমূহীয়া আমদানি</bulkImportDocsLink> কৰিব পাৰে।
     মনত ৰাখিব যে বাক্যবোৰ <licenseLink>CC0 (বা ৰাজহুৱা ড'মেইন)</licenseLink>ৰ হোৱাটো প্ৰয়োজনীয় বা আপুনি নিজে লিখিব পাৰে।
-about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>বাক্য-সংগ্ৰহ সম্বন্ধে অধিক চাওক</sentenceCollectorFragment>.
+about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>বাক্য গোটোৱা সঁজুলি সম্বন্ধে অধিক চাওক</sentenceCollectorFragment>.
 
 ## How does localization work
 
@@ -1204,7 +1204,7 @@ sc-stats-error = আমি পৰিসংখ্যা আনিব নোৱা
 # Variables:
 #   $sentenceCount (Number) - Total number of sentences uploaded through Sentence Collector
 #   $languageCount (Number) - Total number of languages these sentences represent
-sc-stats-summary = কমন ভইচৰ বাক্য-সংগ্ৰাহকে { $languageCount }টা ভাষাত { $sentenceCount }টা বাক্য গোটাইছে!
+sc-stats-summary = কমন ভইচৰ বাক্য গোটোৱা সঁজুলিয়ে { $languageCount }টা ভাষাত { $sentenceCount }টা বাক্য গোটাইছে!
 
 ## ADD
 
@@ -1245,6 +1245,14 @@ sc-confirm-button-text = নিশ্চিত কৰক
 
 sc-lang-info-title-total = মুঠ
 sc-lang-info-title-personal = ব্যক্তিগত
+# Variables:
+#   $totalSentences (Number) - Number of sentences uploaded in total for this language
+sc-lang-info-total =
+    { $totalSentences ->
+        [0] সৰ্বমুঠ এটাও বাক্য নাই।
+        [one] সৰ্বমুঠ এটা বাক্য।
+       *[other] সৰ্বমুঠ { $totalSentences }টা বাক্য।
+    }
 # Variables:
 #   $totalInReview (Number) - Number of sentences currently in the review state for this language
 sc-lang-info-in-review =
@@ -1324,7 +1332,7 @@ sc-review-form-button-submit =
 #   $sentences (Number) - Number of sentences the user has reviewed in this session
 sc-review-form-reviewed-message =
     { $sentences ->
-        [0] কোনো বাক্য পৰ্যালোচনা কৰা হোৱা নাই।
+        [0] এটাও বাক্য পৰ্যালোচনা কৰা হোৱা নাই।
         [one] এটা বাক্য পৰ্যালোচনা কৰা হৈছে। ধন্যবাদ!
        *[other] { $sentences }টা বাক্য পৰ্যালোচনা কৰা হৈছে। ধন্যবাদ!
     }
