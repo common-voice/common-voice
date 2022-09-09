@@ -1245,6 +1245,39 @@ sc-confirm-button-text = নিশ্চিত কৰক
 
 sc-lang-info-title-total = মুঠ
 sc-lang-info-title-personal = ব্যক্তিগত
+# Variables:
+#   $totalInReview (Number) - Number of sentences currently in the review state for this language
+sc-lang-info-in-review =
+    { $totalInReview ->
+        [0] এটাও বাক্যৰ পৰ্যালোচনা চলি থকা নাই।
+        [one] এটা বাক্যৰ পৰ্যালোচনা চলি আছে।
+       *[other] { $totalInReview }টা বাক্যৰ পৰ্যালোচনা চলি আছে।
+    }
+# Variables:
+#   $unreviewedSentencesByYou (Number) - Number of sentences the user can still review
+sc-lang-info-left-for-you =
+    { $unreviewedSentencesByYou ->
+        [0] আপোনাৰ বাবে পৰ্যালোচনা কৰিবলৈ এটাও বাক্য বাকী নাই।
+        [one] আপোনাৰ বাবে পৰ্যালোচনা কৰিবলৈ এটা বাক্য বাকী আছে।
+       *[other] আপোনাৰ বাবে পৰ্যালোচনা কৰিবলৈ { $unreviewedSentencesByYou }টা বাক্য বাকী আছে।
+    }
+sc-lang-info-review-now = <reviewLink>এতিয়াই পৰ্যালোচনা কৰক!</reviewLink>
+# Variables:
+#   $validatedSentences (Number) - Number of sentences which have been approved for this language
+sc-lang-info-validated =
+    { $validatedSentences ->
+        [0] এটাও বাক্য বৈধকৃত হোৱা নাই।
+        [one] এটা বাক্য বৈধকৃত হৈছে।
+       *[other] { $validatedSentences }টা বাক্য বৈধকৃত হৈছে।
+    }
+# Variables:
+#   $rejectedSentences (Number) - Number of sentences which have been rejected for this language
+sc-lang-info-rejected =
+    { $rejectedSentences ->
+        [0] এটাও বাক্য নাকচ কৰা হোৱা নাই।
+        [one] এটা বাক্য নাকচ কৰা হৈছে।
+       *[other] { $rejectedSentences }টা বাক্য নাকচ কৰা হৈছে।
+    }
 
 ## LOGIN
 
@@ -1255,6 +1288,9 @@ sc-lang-info-title-personal = ব্যক্তিগত
 #   $username (String) - eMail address of the logged in user
 sc-profile-title = প্ৰ'ফাইল: { $username }
 sc-personal-your-languages = আপোনাৰ ভাষাবোৰ:
+# Variables:
+#   $sentences (Number) - Number of sentences that were added by the currently logged in user for this language
+sc-personal-added-by-you = আপোনাৰ দ্বাৰা { $sentences }টা যোগ কৰা হৈছে
 
 ## REVIEW CRITERIA
 
