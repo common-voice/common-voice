@@ -58,6 +58,8 @@ help-us-explain = Finá play, yoka mpe yebisa biso: balobaki na bosikisiki fraze
 no-clips-to-validate = Emonani lokola ba clips ya koyoka na monoko oyo ezali te. Salisá biso totondisa molongo. Bakisa mongongo na yo sikoyo.
 vote-yes = Iyo
 vote-no = Te
+toggle-play-tooltip = Finá { shortcut-play-toggle } mpo na kobongola mode ya kobɛta
+speak-subtitle = Pesa mongongo na yo
 
 ## Account Benefits
 
