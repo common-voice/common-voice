@@ -43,6 +43,10 @@ languages = Minoko
 about = Etali
 terms = Mibeko
 share-title = Salisá biso toluka basusu mpo na kopesa mongongo na bango!
+share-text = Salisá biso toteya bamasini ndenge bato ya solosolo balobaka, pesa mongongo na yo na { $link }
+link-copied = Lien oyo esalemi kopi
+back-top = Zonga na likolo
+logout = Bima na libanda
 
 ## Home Page
 
