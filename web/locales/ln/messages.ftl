@@ -20,6 +20,7 @@ banner-error-slow-1 = Bolimbisi, Common Voice ezo sala malembe. Matondi na tina 
 ## Home Page
 
 home-title = { "" }
+default-tagline = Mozilla Common Voice ezali likatami pona ko lakisa bamasini elobeli.
 
 ## Account Benefits
 
