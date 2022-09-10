@@ -986,7 +986,7 @@ export default class DB {
   }
 
   /**
-   * Get all datasets. Handles singleword complexity
+   * Get all datasets. Filterable by type (singleword, delta, complete)
    *
    * @param {string} releaseType
    * @return {*}  {Promise<Language[]>}
@@ -1015,7 +1015,8 @@ export default class DB {
           FROM locale_datasets xld
           GROUP BY xld.dataset_id
         ) temp ON temp.dataset_id = l.id
-        ${releaseType ? `WHERE release_type = ?` : ''}
+        WHERE is_deprecated = false
+        ${releaseType ? ` AND release_type = ?` : ''}
         GROUP BY l.id
         ORDER BY l.release_date DESC
     `,
@@ -1044,8 +1045,10 @@ export default class DB {
       locale_datasets ld
     JOIN datasets d ON
       d.id = ld.dataset_id
-    where
-      ld.locale_id = ? AND d.release_type in ("complete", "delta")
+    WHERE
+      ld.locale_id = ?
+      AND d.release_type in ("complete", "delta")
+      AND d.is_deprecated = false
     ORDER BY
       d.release_date DESC
     `,
