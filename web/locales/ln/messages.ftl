@@ -2,6 +2,7 @@
 
 yes-receive-emails = Bótindela nga baemail. Na lingi ba nsango ya mwango Common Voice.
 return-to-cv = Zonga na Common Voice
+banner-error-slow-1 = Bolimbisi, Common Voice ezo sala malembe. Matondi na tina opesi.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -18,6 +19,7 @@ return-to-cv = Zonga na Common Voice
 
 ## Home Page
 
+home-title = { "" }
 
 ## Account Benefits
 
