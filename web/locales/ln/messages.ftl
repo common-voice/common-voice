@@ -27,12 +27,22 @@ error-something-went-wrong = Bolimbisi, mbébà moko ekoti
 ar = Ki arabe
 el = Kigiriki
 en = Kiingelesa
+zh-CN = Ki chinois (Chine)
+zh-HK = Ki chinois (Hong Kong)
+zh-TW = Ki chinois (Taiwan)
+zu = Ki zulu
 
 # [/]
 
 
 ## Layout
 
+speak = Loba
+speak-now = Loba sikoyo
+languages = Minoko
+about = Etali
+terms = Mibeko
+share-title = Salisá biso toluka basusu mpo na kopesa mongongo na bango!
 
 ## Home Page
 
