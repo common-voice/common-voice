@@ -60,6 +60,7 @@ vote-yes = Iyo
 vote-no = Te
 toggle-play-tooltip = Finá { shortcut-play-toggle } mpo na kobongola mode ya kobɛta
 speak-subtitle = Pesa mongongo na yo
+listen-subtitle = Salisá biso tondima mingongo
 
 ## Account Benefits
 
