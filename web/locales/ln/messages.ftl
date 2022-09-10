@@ -14,6 +14,9 @@ email-opt-in-info-sub-with-challenge = Zwá ba imele lokola makundoli ya mokakat
 email-opt-in-privacy-v2 = Na ko ndima kozuaka baimele otatoli ete omoni mabé te mpona Mozilla ko salela mayebi oyo ndenge elimbolami na  <privacyLink>politiki ya sekele</privacyLink> ya Mozilla.
 not-available-abbreviation = Ezali te
 banner-error-slow-1 = Bolimbisi, Common Voice ezo sala malembe. Matondi na tina opesi.
+banner-error-slow-2 = Tozo zua mololo ebele ya bisalaleli mpe tozo tala na bokebi makambo yango.
+banner-error-slow-link = Lokásá ya bozalisami
+error-something-went-wrong = Bolimbisi, mbébà moko ekoti
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -21,6 +24,9 @@ banner-error-slow-1 = Bolimbisi, Common Voice ezo sala malembe. Matondi na tina 
 
 ## Languages
 
+ar = Ki arabe
+el = Kigiriki
+en = Kiingelesa
 
 # [/]
 
