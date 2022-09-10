@@ -36,6 +36,7 @@ default-tagline = Mozilla Common Voice ezali likatami pona ko lakisa bamasini el
 
 ## Speak Shortcuts
 
+request-language-text = Omoni nanu monoko na yo te na Common Voice?
 
 ## ProjectStatus
 
@@ -51,6 +52,9 @@ default-tagline = Mozilla Common Voice ezali likatami pona ko lakisa bamasini el
 
 ## FAQ
 
+faq-what-cv-q = Common Voici ezali nini?
+faq-how-get-q = Ndenge nini nakoki kozwa ba données ya Common Voice?
+faq-when-release2-q = Mokolo nini bokobimisa ba données ya Common Voice na minoko misusu?
 
 ## ABOUT US
 
