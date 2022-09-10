@@ -2,6 +2,9 @@
 
 yes-receive-emails = Bótindela nga baemail. Na lingi ba nsango ya mwango Common Voice.
 return-to-cv = Zonga na Common Voice
+email-opt-in-info = Nalingi kozwa ba email lokola makundoli ya mikano, ba mises à jour ya progrès na ngai mpe ba bulletins ya sango oyo etali Common Voice.
+email-opt-in-info-title = Kota na buku ya baimele ya Common Voice
+email-opt-in-info-sub-with-challenge = Zwá ba imele lokola makundoli ya mokakatano mpe mikano, bozongisi ya sika ya bokoli, mpe ba bulletins ya sango na ntina ya Common Voice.
 banner-error-slow-1 = Bolimbisi, Common Voice ezo sala malembe. Matondi na tina opesi.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
@@ -55,6 +58,9 @@ request-language-text = Omoni nanu monoko na yo te na Common Voice?
 faq-what-cv-q = Common Voici ezali nini?
 faq-how-get-q = Ndenge nini nakoki kozwa ba données ya Common Voice?
 faq-when-release2-q = Mokolo nini bokobimisa ba données ya Common Voice na minoko misusu?
+faq-why-mission-q = Mpo na nini Common Voice ezali na kati ya mission ya Mozilla?
+faq-what-cv-and-deepspeech-q = Bokeseni nini ezali kati na Common Voice mpe Deep Speech?
+faq-is-goal-assistant-q = Mokano ya Common Voice ezali kotonga mosungi ya mongongo?
 
 ## ABOUT US
 
