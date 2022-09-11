@@ -1293,6 +1293,7 @@ sc-review-form-button-approve-shortcut = B
 sc-review-form-button-reject-shortcut = E
 # Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
 sc-review-form-button-skip-shortcut = S
+sc-review-form-keyboard-usage-custom = Teklatuko lasterbideak ere erabil ditzakezu: { sc-review-form-button-approve-shortcut } Onartzeko, { sc-review-form-button-reject-shortcut } Baztertzeko, { sc-review-form-button-skip-shortcut } Saltatzeko.
 sc-review-form-button-submit =
     .submitText = Amaitu berrikusketa
 sc-review-link = Berrikusi
