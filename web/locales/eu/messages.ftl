@@ -1287,6 +1287,12 @@ sc-review-form-source = Iturria: { $sentenceSource }
 sc-review-form-button-reject = Baztertu
 sc-review-form-button-skip = Saltatu
 sc-review-form-button-approve = Onartu
+# Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
+sc-review-form-button-approve-shortcut = B
+# Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
+sc-review-form-button-reject-shortcut = E
+# Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
+sc-review-form-button-skip-shortcut = S
 sc-review-form-button-submit =
     .submitText = Amaitu berrikusketa
 sc-review-link = Berrikusi
