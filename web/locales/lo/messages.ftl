@@ -98,6 +98,7 @@ ms = ພາສາມາເລ
 mt = ພາສາມອນຕາ
 my = ພາ​ສາພະ​ມ້​າ
 nb-NO = ພາສານໍເວບັອກມວລ
+nd = IsiNdebele (ເໜືອ)
 ne-NP = ພາສາເນປານ
 nl = ພາສາເນເທີແລນ
 nn-NO = ພາສານໍເວນີນຣອກ
@@ -142,6 +143,7 @@ udm = ພາສາຢູດເມີດ
 uk = ພາສາຢູເຄຣນ
 ur = ພາສາອູຣດູ
 uz = ພາສາອຸສເບກິສຖານ
+vec = ພາ​ສາ​ເວ​ເນ​ຕຽນ
 vi = ພາສາຫວຽດນາມ
 xh = ພາສາໂຊຊາ
 yi = ພາສາຢີວ
@@ -186,6 +188,10 @@ today = ມື້ນີ້
 x-weeks-short =
     { $count ->
        *[other] { $count }wk
+    }
+x-months-short =
+    { $count ->
+       *[other] { $count } ເດືອນ
     }
 x-years-short =
     { $count ->
