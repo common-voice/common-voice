@@ -180,7 +180,7 @@ export async function importLocales() {
             `INSERT IGNORE INTO locales(name, target_sentence_count, native_name, is_contributable, is_translated, text_direction) VALUES (?)`,
             [
               [
-                nativeNames[lang.code] ? nativeNames[lang.code] : lang.code,
+                lang.code,
                 newLanguageData[lang.code].target_sentence_count,
                 lang.name,
                 newLanguageData[lang.code].is_contributable,
