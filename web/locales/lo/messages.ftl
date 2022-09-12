@@ -2,12 +2,14 @@
 
 yes-receive-emails = ແມ່ນແລ້ວ, ສົ່ງອີເມລຫາຂ້ອຍ. ຂ້ອຍຕ້ອງການແຈ້ງໃຫ້ຮູ້ກ່ຽວກັບໂຄງການ Common Voice.
 stayintouch = ພວກເຮົາທຸກຄົນທີ່ Mozilla ກໍາລັງສ້າງຊຸມຊົນກ່ຽວກັບເຕັກໂນໂລຢີດ້ານສຽງ. ພວກເຮົາຕ້ອງການຕິດຕາມຂໍ້ມູນໃຫມ່ໆ, ແຫຼ່ງຂໍ້ມູນໃຫມ່ຕ່າງໆ ແລະ ເພື່ອເຮັດໃຫ້ຮູ້ຫຼາຍຂື້ນວ່າທ່ານໃຊ້ຂໍ້ມູນນີ້ແບບໃດ.
+privacy-info = ພວກເຮົາສັນຍາວ່າຈະຈັດການຂໍ້ມູນຂອງທ່ານດ້ວຍຄວາມລະມັດລະວັງ. ອ່ານເພີ່ມເຕີມໃນ <privacyLink> ແຈ້ງການກ່ຽວກັບຄວາມເປັນສ່ວນຕົວ </privacyLink> ຂອງພວກເຮົາ.
 return-to-cv = ກັບໄປທີ່ Common Voice
 email-input =
     .label = ອີເມລ
 submit-form-action = ສົ່ງ
 loading = ກຳລັງໂຫລດ…
 email-opt-in-info-title = ເຂົ້າຮ່ວມບັນຊີລາຍຊື່ທາງໄປສະນີຂອງ Voice ທົ່ວໄປ
+email-opt-in-info-sub-with-challenge = ຮັບອີເມວເຊັ່ນ: ການທ້າທາຍ ແລະການແຈ້ງເຕືອນເປົ້າໝາຍ, ການອັບເດດຄວາມຄືບໜ້າ, ແລະຈົດໝາຍຂ່າວກ່ຽວກັບ Common Voice.
 not-available-abbreviation = N/A
 banner-error-slow-link = ຫນ້າສະຖານະ
 error-something-went-wrong = ຂໍອະໄພ, ມີບາງຢ່າງຜິດພາດເກີດຂຶ້ນ
