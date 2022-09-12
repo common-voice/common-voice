@@ -668,6 +668,7 @@ profile-form-delete = ప్రొఫైలును తొలగించు
 ## Profile Download
 
 download-size = పరిమాణం
+download-request-modal-title = దింపుకోలు లంకెలు
 
 ## Landing
 
@@ -679,6 +680,9 @@ read-more-about = మా గురించి పేజీలో మరిం�
 
 ## Demo Datasets
 
+card-button-next = తదుపరి
+card-button-back = వెనుకకు
+demo-account = ఖాతా
 
 ## Demo Account
 
@@ -699,6 +703,12 @@ read-more-about = మా గురించి పేజీలో మరిం�
 
 ## HEADER/FOOTER
 
+sc-header-home = ముంగిలి
+sc-header-my = నా వాక్యాలు
+sc-header-statistics = గణాంకాలు
+sc-footer-privacy = గోప్యత
+sc-footer-terms = నియమాలు
+sc-footer-cookies = కుకీలు
 
 ## HOME
 
@@ -711,12 +721,17 @@ read-more-about = మా గురించి పేజీలో మరిం�
 
 ## MY SENTENCES
 
+sc-my-title = నా వాక్యాలు
+# Variables:
+#   $source (String) - Associated source the user filled out when uploading the sentence
+sc-my-source = మూలం:  { $source }
 
 ## REJECTED
 
 
 ## STATS
 
+sc-stats-title = గణాంకాలు
 
 ## ADD
 
@@ -735,15 +750,25 @@ read-more-about = మా గురించి పేజీలో మరిం�
 
 ## PROFILE
 
+sc-personal-your-languages = మీ భాషలు:
+sc-personal-remove-button = తీసివేయి
+sc-personal-not-added = మీరు ఇంకా భాషలేమీ చేర్చలేదు.
 
 ## REVIEW CRITERIA
 
 
 ## REVIEW
 
+# Variables:
+#   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
+sc-review-form-source = మూలం: { $sentenceSource }
+sc-review-form-button-reject = తిరస్కరించు
+sc-review-form-button-skip = దాటవేయి
+sc-review-form-button-approve = ఆమోదించు
 
 ## SETTINGS
 
+sc-settings-title = అమరికలు
 
 # [/SentenceCollector]
 
