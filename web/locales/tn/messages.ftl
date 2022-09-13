@@ -217,7 +217,7 @@ terms = Melawana
 cookies = Dikhukhi
 faq = Dipotso tse Gantsi di Bodiwang
 content-license-text = Diteng di gone mo <licenseLink> laesenseng ya Creative Commons</licenseLink>
-share-title = Re thuse go bona ba bangwe gore ba abelane ka mantswe a bone!
+share-title = Re thuse go bona ba bangwe gore ba re fe mantswe a bone!
 share-text = Thusa go ruta metšhine  gore batho ba mmatota ba bua jang, abelana ka lentswe la gago mo { $link }
 link-copied = Linki e Kopolotswe
 back-top = Boela Kwa Godimo
@@ -288,7 +288,7 @@ x-years-short =
 help-make-dataset = Re thuse go aga rekoto ya tshedimosetso ya phatlalatsa, ya maemo a a kwa godimo
 sign-up-account = Ikwadise go nna le akhaonto
 email-subscription-title = ikwadisetse ditlhabololo tsa imeile
-email-subscription-title-new = Ikwadisetse go amogela makwalodikgang a Common Voice, dikgopotso tsa maikaelelo le ditlhabololo tsa kgatelopele
+email-subscription-title-new = Ikwadisetse go amogela makwalodikgang a Common Voice, dikgopotso tsa maikaelelo le tshedimosetso e ntšha ka kgatelopele
 
 ## Account Benefits
 
@@ -407,7 +407,7 @@ profile-explanation = Ela tlhoko kgatelopele ya gago o dirisa porofaele mme o th
 thanks-for-account = Re lebogela go tlhomamisa akhaonto ya gago, jaanong a re dire porofaele ya gago.
 why-demographic = Goreng seno se le botlhokwa?
 why-demographic-explanation-2 = Tshedimosetso ya botlhokaina jaaka dingwaga, bong le segalo di tla thusa go tokafatsa go nepa ga didirisiwa tsa go lemoga mantswe. Leinatiriso le imeile ya gago di ka se amanngwe le tshedimosetso ya gago e e rometsweng, mme o ka tlhopha gore a o batla go senola kgotsa go fitlha leinatiriso la gago.
-accept-privacy = Ga ke na bothata le gore lo dirise tshedimosetso eno jaaka lo tlhalosa mo <privacyLink>Pholising ya Polokodiphiri</privacyLink> ya Mozilla
+accept-privacy = Ga ke na bothata le gore lo dirise tshedimosetso eno jaaka lo tlhalosa mo <privacyLink>Pholisi ya Polokodiphiri</privacyLink> ya Mozilla
 accept-privacy-title = Pholisi ya Polokodiphiri
 login-identity = Boitshupo Jwa go Tsena
 login-signup = Tsena / Ikwadise
@@ -480,7 +480,7 @@ faq-why-my-lang-a =
     Re ka rata go tsenya puo ya gago! <languageRequestLink>Botsa ka go tsenya puo ya gago.</languageRequestLink>
 faq-what-quality-q = Go tlhokega boleng bofe jwa kgatiso ya lentswe gore e dirisiwe mo rekotong ya tshedimosetso?
 faq-what-quality-a = Re batla gore tshedimosetso ya Common Voice e bontshe boleng jwa modumo o thulaganyo ya go fetolela puo go mokwalo e tla o utlwang mo nageng, ka jalo re batla mefuta e e farologaneng. Mo godimo ga dibui tse di farologaneng, tshedimosetso e e nang le boleng jo bo farologaneng jwa modumo e tla ruta thulaganyo e e fetolelang puo go mokwalo go lepalepana le maemo a a sa tshwaneng a a leng teng mo lefatsheng, go tloga ka modumo o o utlwalang kwa morago fa batho ba bua go ya go modumo wa koloi. Fela fa kgatiso ya lentswe la gago e tlhaloganyesega, e tla bo e siametse tshedimosetso eo.
-faq-why-10k-hours-q = Goreng diura tse di tlhomamisitsweng ka puo tse 10 000 e ke tsone maikaelelo a go tsenya kgatiso?
+faq-why-10k-hours-q = Goreng kgatiso ya modumo e direga fela fa e le gore puo e kgona go tsaya diura di le 10 000?
 faq-why-10k-hours-a = Tseno ke diura tse di fopholediwang gore di ka dirisiwa go ruta metšhine ya mafoko-go-puo gore e dire.
 faq-how-calc-hours-q = Common Voice e bala diura jang?
 faq-how-calc-hours-a = Re bala diura ka go fopholetsa kakaretso ya boleele jwa kgatiso nngwe le ngwe, re bo re atisa palo eo ka palogotlhe ya dikgatiso tsa dipuo tsotlhe.
@@ -785,7 +785,7 @@ download-no = Nyaa ke Siame
 
 ## Contact Modal
 
-contact-title = Foromo ya go Ikgolaganya
+contact-title = Foromo ya go Ikgolaganya le Rona
 contact-form-name =
     .label = Leina
 contact-form-message =
