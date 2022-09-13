@@ -558,8 +558,8 @@ about-get-involved-text-2 =
     <matrixLink>Matrix</matrixLink>.
 about-stay-in-touch = Ke ikgolaganya jang le lona?
 about-stay-in-touch-button = Ikwadise
-about-stay-in-touch-text-1 = <emailFragment>Ikwadise</emailFragment> mo lenaaneng la rona la melaetsa go ithuta gore gore o ka tsaya karolo jang mo matsholong, mo ditiragalong le mo dikarolong tsa go tlhama mo Common Voice.
-about-stay-in-touch-text-2 = O ka kopana le bangwe ba badirisi ba puo mo Mozilla ka go nna karolo ya<discourseLink>Discourse</discourseLink> go bona metlotlo ya ditlhogo kgotsa <matrixLink>Matrix</matrixLink> go bona maele a ka bonako.
+about-stay-in-touch-text-1 = <emailFragment>Ikwadise</emailFragment> mo lenaaneng la rona la melaetsa go ithuta gore o ka tsaya karolo jang mo matsholong, mo ditiragalong le mo dikarolong tsa go tlhama mo Common Voice.
+about-stay-in-touch-text-2 = O ka kopana le bangwe ba badirisi ba puo mo Mozilla ka go nna karolo ya <discourseLink>Discourse</discourseLink> go bona metlotlo ya ditlhogo kgotsa <matrixLink>Matrix</matrixLink> go bona maele a ka bonako.
 about-nav-why-common-voice = Goreng ?
 about-nav-how-it-works = Jang?
 about-nav-partners = Balekane
@@ -582,7 +582,7 @@ about-playbook-how-add-language-content-1 =
     Sa ntlha, tlhola gore a puo ya gago <languageLink>e setse e le teng</languageLink>.
     Fa e seyo, o ka <languageRequestLink>botsa ka go tsenya puo ya gago</languageRequestLink>.
     Go na le magato a le mabedi. Go ranola webosaete le go kgobokanya dipolelo
-about-playbook-how-add-language-translating-heading = E ranola saete
+about-playbook-how-add-language-translating-heading = Go ranola saete
 about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Leba kaedi ya rona e e buang ka tsela ya go dirisa Pontoon.</translateVideoLink>
 about-playbook-how-add-language-translating-content-2 =
     Re dirisa thulusu ya Mozilla e e bidiwang <pontoonLink>Pontoon</pontoonLink> go dira dithanolo. Pontoon e na le dipuo tse dintsi,
@@ -604,7 +604,7 @@ about-playbook-how-localize-content-1 = Thanolo ya webosaete ya Common Voice e d
 about-playbook-how-localize-content-2 = <pontoonAccountLink>Dira akhaonto</pontoonAccountLink> fa o se na yone. Go tswa foo, tlhopha puo ya gago <strong>(‘Team’)</strong> o bo o tlhopha porojeke, <pontoonCvLink>Common Voice</pontoonCvLink>. Go tla bo go na le difaele tse di ranolwang. Tobetsa mo go e nngwe, mme e tla bontsha mafoko a Seesemane le lebokoso la go a ranola.
 about-playbook-how-localize-content-3 = Go ranolwa go tswa mo Seesemaneng, mme o ka bona <strong>Dikakantsho</strong> ka dipuo tse dingwe. Tobetsa letshwao la <strong>Porofaele</strong>, go tswa foo linki ya <strong>Diseting</strong> o bo o tsenya dipuo dipe tse o di buang. Kwa sekhutlhong se se kwa tlase kafa mojeng go tla nna le lenaane la dithanolo tse di bidiwang <strong>Locales</strong>. Dithanolo di bonala mo webosaeteng morago ga letsatsi le le lengwe.
 about-playbook-how-localize-content-4 = Saete e siametse go tlhaga fa e setse e tsamaya mo 75% gore e fediwe.
-about-playbook-how-localize-content-5 = Leba tlhaloso ya rona ya bidio go go thusa
+about-playbook-how-localize-content-5 = Leba bidio e e tlhalosang go go thusa
 
 ## How to add sentences
 
@@ -621,7 +621,7 @@ about-playbook-how-record-content-1 = Bua ka lentswe la gago le le tlwaelegileng
 about-playbook-how-record-content-2 = Tila medumo e mentsi e e mo lemoragong - go tshwanetse ga nna motlhofo go go utlwa.
 about-playbook-how-record-content-3 = Bala mela ka kelotlhoko - o se ka wa tlola, wa fetola kgotsa wa itsenyetsa mafoko.
 about-playbook-how-record-content-4 = Tlhomamisa gore polatefomo e a rekota pele o simolola go bua, le gore o emisa go rekota fa o setse o feditse.
-about-playbook-how-record-content-5 = <accuracyLink>Bona mo go oketsegileng ka ditlhokego wa go nepagala.</accuracyLink>
+about-playbook-how-record-content-5 = <accuracyLink>Bona mo go oketsegileng ka ditlhoketso tsa go nepagala</accuracyLink>
 
 ## How to grow language
 
@@ -632,7 +632,7 @@ about-playbook-how-grow-language-content-3 = O ka dira ditiragalo go thusa batho
 about-playbook-how-grow-language-content-4 = Metswedi ya go Ikgolaganya
 about-playbook-how-grow-language-content-5 = O ka dirisa metswedi ya mafaratlhatlha a boitapoloso go fetisa molaetsa. Abalana mekwalo e e bontshang gore ke eng go le botlhokwa, mme o golagane le batho ba bangwe ba ba buang ka dikgang tse di jaaka ditshwanelo tsa puo, lentswe, kgotsa go tlhoka tekatekano mo thekenolojing. Bona dikakantsho tse dingwe ka <campaignLink>go dira letsholo, go akaretsa tshedimosetso e o ka e dirisang gape</campaignLink>.
 about-playbook-how-grow-language-content-6 = Ditirisanommogo le dineteweke
-about-playbook-how-grow-language-content-7 = Bona ba bangwe ba ba amegang. E ka nna diyunibesithi, dikolo tsa dipuo, ditlhopha tsa dikemedi kgotsa merafe ya tshedimosetso ya saense. Dira sengwe mme o tlhalose sentle gore ba ka thusa jang le gore ka ntlha yang. <outreachTemplates>Bona ditimeile tsa rona tsa thempoleite ya go thusa</outreachTemplates>.
+about-playbook-how-grow-language-content-7 = Bona ba bangwe ba ba amegang. E ka nna diyunibesithi, dikolo tsa dipuo, ditlhopha tsa dikemedi kgotsa merafe ya tshedimosetso ya saense. Dira sengwe mme o tlhalose sentle gore ba ka thusa jang le gore ka ntlha yang. <outreachTemplates>Bona diimeile tsa rona tsa thempoleite ya go thusa</outreachTemplates>.
 about-playbook-how-grow-language-content-8 = <strong>Itlhamele!</strong> Batho ba ba buang puo ya gago ba tlile go tlhomologa, mme tseno ke ditsela di le mmalwa tsa go simolola.
 
 ## How to validate
@@ -735,14 +735,14 @@ audio-format = Fomate ya modumo
 number-of-voices = Palo ya Mantswe
 splits = Tse di kgaoganeng
 email-to-download = Tsenya Email Gore o Itseele
-why-email = <b>Goreng imeile?</b> Re ka tlhoka go ikgolaganya le wena mo isagweng malebana le diphetogo tsa tshedimosetso, imeile ke tsela e re ikgolaganyang ka yone.
+why-email = <b>Goreng imeile?</b> Re ka tlhoka go ikgolaganya le wena mo isagweng fa go ka nna le diphetogo dingwe mo tshedimosetsong eno, imeile ke tsela e re ikgolaganyang le wena ka yone.
 confirm-size = O ipaakanyeditse go simolola go itseela <b>{ $size }</b>
 size-gigabyte = GB
 size-megabyte = MB
 confirm-no-identify = <b>O dumela</b>go sa leke go lemoga boikitsiso jwa babui ba ba mo rekotong ya tshedimosetso ya Common Voice
 download-language = Itseele { $language }
 validated-hours = Diura Tse di Tlhomamisitsweng
-recorded-hours = Diura Tse di Kgatisitsweng
+recorded-hours = Diura Tse di Gatisitsweng
 whats-inside = Ke eng se se mo rekotong ya tshedimosetso ya Common Voice?
 dataset-description-hours =
     Matseno mangwe le mangwe mo tshedimosetsong a na le MP3 e e tlhomologileng le faele e e tsamaisanang le yone ya mokwalo. Bontsi jwa diura tse <b>{ $total }</b> tse di gatisitsweng mo tshedimosetsong le tsone di akaretsa tshedimosetso ya dipalopalo jaaka dingwaga, bong, le segalo se se ka thusang go thapisa go nepa ga dithulaganyo tse di lemogang mantswe.
@@ -841,7 +841,7 @@ request-language-error = Re ka tswa re ise re amogele kopo eo. Tsweetswee re rom
 language-section-in-progress = E a Tswelela
 language-section-in-progress-new-description = Ga jaana dipuo tseno di tokafadiwa ke badirisi. <localizationGlossaryLink>Go ranola webosaete</localizationGlossaryLink> le <sentenceCollectionGlossaryLink>go kgobokanya mela</sentenceCollectionGlossaryLink> go a tlhokega go diragatsa.
 language-section-launched = E thankgolotswe
-language-section-launched-description = Mo dipuong tseno tse di simolotsweng, webosaete e <localizationGlossaryLink>dirilwe ya selegae</localizationGlossaryLink> ka katlego, mme e na le <sentenceCollectionGlossaryLink>dipolelo tse di lekaneng tse di phuthilweng</sentenceCollectionGlossaryLink> go letla dikabo tse di tswelelang tsa <speakLink>Bua</speakLink> le <listenLink>Reetsa</listenLink>.
+language-section-launched-description = Mo dipuong tseno tse di simolotsweng, webosaete e  <localizationGlossaryLink>ranotswe</localizationGlossaryLink> ka katlego, mme e na le <sentenceCollectionGlossaryLink>dipolelo tse di lekaneng tse di phuthilweng</sentenceCollectionGlossaryLink> gore re kgone go nna re tsenya tse di <speakLink>Buiwang</speakLink> le tse <listenLink>Reediwang</listenLink>.
 languages-show-more = Bona Tse di Oketsegileng
 languages-show-less = Bona Go Gonnye
 language-meter-in-progress = Kgatelopele
