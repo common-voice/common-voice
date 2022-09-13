@@ -293,20 +293,20 @@ email-subscription-title-new = Ikwadisetse go amogela makwalodikgang a Common Vo
 ## Account Benefits
 
 benefits = Mesola
-rich-data = Dira gore tshedimosetso ya gago e o e rometseng e nne ntsi kafa go kgonegang ka gone ka go naya tshedimosetso ya dipalopalo e e sa tsenngwang maina. Re tlosa tshedimosetso yotlhe e e itsiseng batho mo tshedimosetsong ya dipalopalo pele re e phasalatsa.
-improve-audio = Tshedimosetso ya porofaele e tokafatsa tshedimosetso ya lentswe e e dirisiwang go thapisa didirisiwa tse di kgonang go lemoga puo gore di nepagale.
-keep-track = Nna o etse tlhoko kgatelopele ya gago le dimeteriki tsa dipuo tse dintsi.
+rich-data = Dira gore tshedimosetso e o e romelang e nne ntsi kafa go kgonegang ka gone ka go re bolelela bong le dingwaga tsa gago kwa ntle ga go kaya gore o mang. Re dira gore go se nne le tshedimosetso epe e e senolang gore o mang pele re e phasalatsa.
+improve-audio = Tshedimosetso ya porofaele e tokafatsa tshedimosetso ya modumo e e dirisiwang go ruta motšhine go kgona go lemoga puo ka nepo.
+keep-track = Nna o etse tlhoko kgatelopele ya gago le gore o dira jang mo dipuong tse di farologaneng.
 compare-progress = Bona gore kgatelopele ya gago e kae fa e bapisiwa le ya batsayakarolo ba bangwe mo lefatsheng lotlhe.
-view-goals = Leba kgatelopele ya gago ya maikaelelo a botho le a porojeke.
-join-newsletter = O ka itlhophela go tsena mo lenaaneng la rona la makwalo go amogela ditlhabololo le tshedimosetso e ntšha ka porojeke.
+view-goals = Leba kgaletopele ya gago fa go lejwa maikaelelo a gago le a porojeke.
+join-newsletter = O ka itlhophela go tsena mo lenaaneng la diimeile tse re di romelelang ditlhabololo le tshedimosetso e ntšha ka porojeke eno.
 
 ## What's public
 
 whats-public = Ke Eng se se Bonwang ke Batho Botlhe?
-email-not-public = Ga re kitla re phatlalatsa imeile ya gago.
+email-not-public = Ga re kitla re dira gore imeile ya gago e itsiwe ke botlhe.
 recordings-and-locale-public = Palo ya dikgatiso le dipuo tse o nnang le seabe mo go tsone di tla bonwa ke batho botlhe.
 username-optin-public = O ka tlhopha gore leinatiriso la gago le bonwe ke batho botlhe kgotsa go nna tlhokaina.
-demographic-deidentified-clarity-2 = Tshedimosetso e e rometsweng ka go ithaopa (s.k. dingwaga, bong, puo, le segalo) e ka se phasaladiwe mo porofaeleng ya gago, e bile e ka se amanngwe le akhaoto ya gago mo tshedimosetsong. Dikgatiso tsa batho tsa mantswe di tla amanngwa le tshedimosetso ya dipalopalo ka maikaelelo a tshekatsheko e e nepileng thata - ka sekai, mmatlisisi a ka batla go tota mofuta wa thapiso go karolo e e rileng ya dipalopalo.
+demographic-deidentified-clarity-2 = Tshedimosetso e o re fileng yone ka go ithaopa (s.k. dingwaga, bong, puo, le teme) e ka se phasaladiwe mo porofaeleng ya gago, e bile e ka se amanngwe le akhaoto ya gago mo databeiseng ya rona. Dikgatiso tsa mantswe di tla amanngwa le tshedimosetso ka batho ba ba rileng ka maikaelelo a go nepisisa ka tlhomamo tshekatsheko e e dirwang - ka sekai, mmatlisisi a ka tswa a batla go dira katiso e e rileng mo mofuteng o o rileng wa batho.
 username-email-not-demographic = Leinatiriso la gago le imeile ga di na go ammangwa le tshedimosetso e e phasaladiwang.
 
 ## Speak & Listen Shortcuts
