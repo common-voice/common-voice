@@ -237,7 +237,7 @@ wall-of-text-more-mobile =
     gore seo se kgoreletsa go tlhama dilo. Ka jalo re simolotse Project Common Voice, porojeke e e thusang gore
     mongwe le mongwe a kgone go bona temogo ya mantswe.
 wall-of-text-more-desktop =
-    Jaanong o ka aba lentswe la gago go re thusa go dira tshedimosetso ya mantswe e mongwe le mongwe a ka e dirisang
+    Jaanong o ka re fa lentswe la gago go re thusa go dira tshedimosetso ya mantswe e mongwe le mongwe a ka e dirisang
     go dira dithulaganyo tsa didirisiwa le webosaete. Bala polelo go thusa motšhine go ithuta gore batho ba bua jang. Leba tiro ya
     baabi ba bangwe go tokafatsa boleng. Go motlhofo fela jalo!
 wall-of-text-first =
@@ -843,7 +843,7 @@ language-section-in-progress-new-description = Ga jaana dipuo tseno di tokafadiw
 language-section-launched = E thankgolotswe
 language-section-launched-description = Mo dipuong tseno tse di simolotsweng, webosaete e <localizationGlossaryLink>dirilwe ya selegae</localizationGlossaryLink> ka katlego, mme e na le <sentenceCollectionGlossaryLink>dipolelo tse di lekaneng tse di phuthilweng</sentenceCollectionGlossaryLink> go letla dikabo tse di tswelelang tsa <speakLink>Bua</speakLink> le <listenLink>Reetsa</listenLink>.
 languages-show-more = Bona Tse di Oketsegileng
-languages-show-less = Bona Tse di Kwa Tlase
+languages-show-less = Bona Go Gonnye
 language-meter-in-progress = Kgatelopele
 language-total-progress = Palogotlhe
 language-search-input =
