@@ -302,7 +302,7 @@ export async function importLocales() {
     console.log('Saveing variants to database');
 
     //get languages again, since new langauges may have been added
-    const languageQuery = await db.query(
+    const [languageQuery] = await db.query(
       `SELECT id, name FROM locales where name is not null`
     );
 
@@ -314,6 +314,7 @@ export async function importLocales() {
       },
       {}
     );
+    console.log('mapped things', mappedLanguages);
 
     await Promise.all(
       VARIANTS.map(row => {
