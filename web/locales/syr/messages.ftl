@@ -416,7 +416,7 @@ keep = ܢܛܪ
 
 # Variables:
 #   $countOfInvalidated (Number) - Number of sentences the user rejected in the review form before submission
-sc-confirm-rejected-by-you = { $countOfInvalidated } ܟܦܝܪܝܬܘܢ (rejected)
+sc-confirm-rejected-by-you = { $countOfInvalidated } ܟܦܝܪܝܬܘܢ (rejected by you)
 
 ## LANGUAGE INFO
 
