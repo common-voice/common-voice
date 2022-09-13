@@ -299,7 +299,7 @@ export async function importLocales() {
     INSERT IGNORE INTO accents (locale_id, accent_name, accent_token, user_submitted)
     SELECT id, "", "unspecified", 0 from locales`);
 
-    console.log('Saveing variants to database');
+    console.log('Saving variants to database');
 
     //get languages again, since new langauges may have been added
     const [languageQuery] = await db.query(
@@ -326,13 +326,16 @@ export async function importLocales() {
           INSERT IGNORE INTO variants (locale_id, variant_token, variant_name) VALUES (?)
         `,
           [
-            mappedLanguages[row.locale_name],
-            row.variant_token,
-            row.variant_name,
+            [
+              mappedLanguages[row.locale_name],
+              row.variant_token,
+              row.variant_name,
+            ],
           ]
         );
       })
     );
+    console.log('Importing variants completed');
   }
   console.log('Importing languages completed');
 }
