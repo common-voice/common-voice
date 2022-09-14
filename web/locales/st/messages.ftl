@@ -233,7 +233,7 @@ wall-of-text-start =
     bakeng sa metjhini ya rona. Empa ho etsa ditsamaiso tsa mantswe, data e kgolo haholo
     e ya hlokahala.
 wall-of-text-more-mobile =
-    Boholo ba data e sebediswang ke dik'hamphani tse kgolo ha e fumanehe ho boholo ba batho. Re nahana hore hona
+    Boholo ba data e sebediswang ke dikhamphani tse kgolo ha e fumanehe ho boholo ba batho. Re nahana hore hona
     ho sitisa ho etsa dintho tse ntjha. Ke ka hoo re qadileng Common Voice, morero wa ho thusa ho etsa hore thekenoloji e elellwang mantswe 
     e bulelwe bohle.
 wall-of-text-more-desktop =
@@ -244,7 +244,7 @@ wall-of-text-first =
     bakeng sa metjhini ya rona. Empa ho etsa ditsamaiso tsa mantswe, bahahi ba marang-rang  ba hloka 
     data ya mantswe e kgolo haholo.
 wall-of-text-second =
-    Boholo ba data e sebediswang ke dik'hamphani tse kgolo ha e fumanehe ho boholo ba batho. Re nahana hore hona
+    Boholo ba data e sebediswang ke dikhamphani tse kgolo ha e fumanehe ho boholo ba batho. Re nahana hore hona
     ho sitisa ho etsa dintho tse ntjha. Ke ka hoo re qadileng Common Voice, morero wa ho thusa ho etsa hore thekenoloji e elellwang mantswe 
     e bulelwe bohle.
 show-wall-of-text = Bala Haholwanyane
@@ -285,7 +285,7 @@ x-years-short =
        *[other] { $count } dilemo
     }
 help-make-dataset = Re thuse ho aha pokello ya data ya boleng bo hodimo, e bulehileng phatlalatsa
-sign-up-account = Ngodisa bakeng sa ak'haonte
+sign-up-account = Ngodisa bakeng sa akhaonte
 email-subscription-title = ingodise bakeng sa email ya dintlafatso
 email-subscription-title-new = Ingodise bakeng sa dikoranta tsa Common Voice, dikgopotso tsa sepheo le ditlaleho tsa tswelopele
 
