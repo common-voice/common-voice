@@ -1,6 +1,6 @@
 ## General
 
-yes-receive-emails = Iye, ngithumelani ama-email. Ngingakuthabela ukufumana imininingwana ngephrojekthi yeCommon Voice.
+yes-receive-emails = Iye, ngithumelani ama-email. Ngingakuthabela ukufumana imininingwana ngephrojekthi ye-Common Voice.
 stayintouch = Thina eMozilla sakha umphakathi wetheknoloji yamaphimbo. Singathabela ukuhlala sinokwaziswa kwamva, ukwaziswa kweensetjenziswa nokuzwa bona ukusebenzisa njani ukwaziswokhu.
 privacy-info = Sithembisa ukugcina imininingwana yakho iyifihlo. Funda okwengeziweko ngesaZiso sethu sezinto eziyiFihlo <privacyLink>Nemigomo</privacyLink>.
 return-to-cv = Buyela kuCommon Voice
@@ -487,26 +487,24 @@ faq-what-cv-a-2 =
     Asibutheleli amalimi akhulunywa khulu kwaphela kodwana sibuthelela namalimi angakhulunywa khulu. Ukugadangisa amalimi amanengi kuzokukhuthaza abatlami, abosomabhizinisi, nemiphakathi bona ivale isikhalesi yona ngokwayo.
 faq-why-important-q = Kubayini lokhu kuqakathekile?
 faq-why-important-a =
-    Kanengi ukukhuluma kuyindlela ephuma phambili yokukhulumisana begodu izinto zetheknoloji ezisebenzisa iphimbo zikwenza kube bulula lokho kunemitjhiningqondo nakezinye iinsetjenziswa eziphathwako. Sifuna ukukhuthaza abatlami bona benze iinsetjengiswa ezikghona ukwazi amaphimbo njengama-real-time translators nama-voice-enabled digital assistants. Kodwana okwanje ilwazi elitlhogekako malungana namaphimbo bona kwakhiwe ama apps la libiza khulu begodu linabanikazi balo. Sithemba bona i-Common Voice dataset izokunikela abatlami abakutlhogako bona benze izinto zetheknologi ezikghona ukwazi nokuhlukanisa amaphimbo bona zifumaneke ngelimi lethu.
+    Kanengi ukukhuluma kuyindlela ephuma phambili yokukhulumisana begodu izinto zetheknoloji ezisebenzisa iphimbo zenza kube lula emitjhininingqondo nakezinye iinsetjenziswa eziphathwako. Sifuna ukukhuthaza abatlami bona benze iinsetjengiswa ezikghona ukwazi amaphimbo njengama-real-time translators nama-voice-enabled digital assistants. Kodwana okwanje ilwazi elitlhogekako malungana namaphimbo kukobana kwakhiwe ama-Apps wamaphimbo. Sithemba bona i-Common Voice dataset izokunikela abatlami abakutlhogako bona benze izinto zetheknologi ezikghona ukwazi nokuhlukanisa amaphimbo bona zifumaneke ngelimi lethu.
     Ukwenza imitjhini ekghona ukwazi nokuhlukanisa amaphimbo ifumaneke ephasini loke, sibuthelela amaphimbo wamalimi akhulunywa khulu kuhlanganise nalawo angakhulunywa khulu, lawo eqiselwa amehlo bakhangisi beensentjenziswa ezithileko zamaphimbo. Ukugadangisa ibulungelo lamaphimbo ahlukahlukeneko kuzokukhuthaza abatlami, abosomabhizinisi, kuhlanganise nawo woke umphakathi wabakhulumisani bona uvale isikhalesi wona ngokwawo.
-faq-how-get-q = Ngingalifumana njani ihlelo leCommon Voice?
-faq-how-get-a = I-The Common Voice dataset iyafumaneka bona idawnlodwe ngaphasi kwemvumo ye<licenseLink>CC0</licenseLink> license ku <datasetLink> kuDatasets page</datasetLink>. Ungakghona nokudawnloda nezinye iinsetjenziswa zomphakathi ezinengi ezifumanekako ebulungelweni lethu ekhasini elifanako.
+faq-how-get-q = Ngingalifumana njani ihlelo le-Common Voice?
+faq-how-get-a = I-The Common Voice dataset iyafumaneka bona idawnlodwe ngaphasi kwemvumo ye-<licenseLink>CC0</licenseLink> license ku-<datasetLink> kuDatasets page</datasetLink>. Ungakghona nokudawnloda nezinye iinsetjenziswa zomphakathi ezinengi ezifumanekako ebulungelweni lethu ekhasini elifanako.
 faq-when-release2-q =
     Nizolitjhaphulula nini ihlelo leCommmon Voice 
     ngamanye amalimi?
 faq-when-release2-a = Sikhuluma nje ihlobo le-Common Voice enamaphimbo ahlukahlukeneko isahlolwa begodu ilungiswa bona ibe sezingeni elifanele umphakathi. Nange ufuna ukusisiza sifake amalimi amatjha ku-Common Voice sibawa uyokuhlola <sentenceCollectorLink>Sentence Collection Tool</sentenceCollectorLink> yokufaka imitjho emitjha ebulungelweni, neMozilla Pontoon <pontoonLink>Pontoon</pontoonLink> bona itjhugulule izinzolwazi yona ngokwayo. Amalimi amatjha afakwa ku-Common Voice bona kunikelwe ngawo nasele kuhlolisiswe bekwabuthelelwe imitjho ezii-5000.
-faq-why-mission-q = Kubayini  i-Common Voice iyingcenye yehlelo leMozilla
+faq-why-mission-q = Kubayini  i-Common Voice iyingcenye yehlelo le-Mozilla
 faq-why-mission-a = I-Mozilla izimisele bona yenze i-web le ikghone ukusetjenziswa ngiwo woke umuntu. Bona senze njalo sitlhoga ukukhuthaza abantu abenza ama-web sisebenzisa amajima anjengama-Common Voice. Njengombana ama-voice technologies asetjenziswa babantu abanengi, sithemba bona azokusiza abantu ngendlela efanako. Lokho kutjho bona kulingwe amalimi angeziweko akhulunywa ngendlela engafaniko eendaweni ezingafaniko nakuhlolwa imitjhini le. I-Common Voice isisetjenziswa somphakathi esingafumaneka kiwo woke umuntu begodu isiqhema nabatlami be-Mozilla ephasini loke sele bayisebenzisa emisebenzinabo.
 faq-what-cv-and-deepspeech-q =
     Uyini umehluko hlangana ne-Common Voice 
     ne-Deep Speech?
 faq-what-cv-and-deepspeech-a = I-The Common Voice dataset ikhambisana kuhle ne-Mozilla’s open source voice recognition engine Deep Speech. Ingcenye yokuthoma yeDeep Speech yatjhatjhululwa ngoNovember 2017 begodu yaragela phambili ikhona kusukela kwalokho. Thina kuhlanganise ne-Common Voice dataset, sikholwa bona woke umuntu kufuze akghona ukusebenzisa i-voice recognition technology. Sithemba bona itheknoloji le izokwenza abatlami bakghone ukwakha izinto neensetjenziswa eziphumelelako.
-faq-is-goal-assistant-q =
-    Kghani umngomo weCommon Voice kukwenza amaphimbo 
-    azosisiza?
-faq-is-goal-assistant-a = Umgomo weCommon Voice dataset kukwenza woke umuntu ephasini bona kghone ukwakha ispeaker recognition, namkha elinye nelinye ihlobo lesisetjenziswa esisebenzisa ukwaziswa kwamaphimbo. I-voice assistant ngenye yemihlobo eminengi yeensetjenziswa zokwakha ibulungelo.
+faq-is-goal-assistant-q = Kghani umngomo we-Common Voice kukwenza amaphimbo azosisiza?
+faq-is-goal-assistant-a = Umgomo we-Common Voice dataset kukwenza woke umuntu ephasini bona kghone ukwakha i-speaker recognition, namkha elinye nelinye ihlobo lesisetjenziswa esisebenzisa ukwaziswa kwamaphimbo. I-voice assistant ngenye yemihlobo eminengi yeensetjenziswa zokwakha ibulungelo.
 faq-do-want-native-q = Leli akusililimi engilimunyileko begodu kuyezwakala lokho nangikhulumako. Nisalifuna iphimbo lami?
-faq-do-want-native-a = Iye, sifuna iphimbo lakho ngokukhethekileko! Enye ingcenye yehloso yeCommon Voice kukuthi sibuthelele iindlela ezinengi zokukhuluma ngendlela esingakghona ngayo ukwenzela bona i-voice recognition services  isebenze ngendlela efanako ebantwini boke. Lokho kutjho bona nabantu okungasi babantu bendabuko nabo kuqakathekile bona banikele.
+faq-do-want-native-a = Iye, sifuna iphimbo lakho ngokukhethekileko! Enye ingcenye yehloso ye-Common Voice kukuthi sibuthelele iindlela ezinengi zokukhuluma ngendlela esingakghona ngayo ukwenzela bona i-voice recognition services  isebenze ngendlela efanako ebantwini boke. Lokho kutjho bona nabantu okungasi babantu bendabuko nabo kuqakathekile bona banikele.
 faq-why-different-speakers-q =
     Kubayini sitlhoga abantu abanengi 
     elimini elilodwa?
@@ -540,7 +538,7 @@ faq-how-privacy-q =
     Uqinisekisa njani ukuthi
     abantu abanikela ngamaphimbo wabo abaziwa?
 faq-how-privacy-a = Zisusiwe izinto ezingenza bona kwazeke bona ngubani okhulumako kiwo woke amaphimbo arekhodiweko. Nange umuntu onikelako anikela ukwaziswa kwephimbo imininingwana ngaye ayihlanganiswa nokwaziswokho ayifakwa ekhasini lapho woke umuntu akghona ukubona khona.
-faq-what-determine-identity-q = Kutjho ukuthini ukuthi "angikghoni ukwazi bona ngubani okhulumako" ebulungelweni leCommon Voice
+faq-what-determine-identity-q = Kutjho ukuthini ukuthi "angikghoni ukwazi bona ngubani okhulumako" ebulungelweni le-Common Voice
 faq-what-determine-identity-a =
     I-The Common Voice dataset sisetjenziswa esitjhaphulukileko nesenzelwe umphakathi begodu singasetjenziswa ukubandula abantu abahlukahlukeneko abangakghoni ukukhuluma. Bona sivikele abantu abahlanganyela ejimeneli, sibawa woke umuntu odawnloda ku-Common Voice dataset bona ahloniphe abahlanganyeli.
     Kiwo woke amaphimbo arekhodiweko kususwe izinto ezingaveza ukuthi liphimbo lakabani leli. Nawudownlodako ebulungelweneli, uyavuma bona angeze ulinge ukufumana ukuthi ngewabobani amaphimbo wabahlanganyeli. Lokho kutjho bona angeze ufake ukwaziswa komuntu onikele ngephimbo lakhe. Kodwana ungakghona ukusebenzisa ibulungelweli ukubandula ukuhlukanisa amaphimbo, ukuhlukanisa ukukhuluma namkha ezinye izinto, ngokwesibonelo, ukufaka ukwaziswa esele kukhona ebulungelweni.
@@ -599,7 +597,7 @@ about-dataset-new-text =
     neengidi zeenqetjhana zamaphimbo asibonelo asiza abathuthukisi bona bakhe ithulusi lokuhlola iphimbo.
 about-clip-graveyard = Iinqetjhana ezilahliweko
 about-clip-graveyard-text =
-    I-The Clip Graveyard inamaphimbo angakaphumeleli ukuba sebulungelweni leCommon Voice dataset. Njengombana nayo ilibulungelo, iGraveyard iyafumaneka bona idawnlodwe.
+    I-The Clip Graveyard inamaphimbo angakaphumeleli ukuba sebulungelweni le-Common Voice dataset. Njengombana nayo ilibulungelo, i-Graveyard iyafumaneka bona idawnlodwe.
     Sithanda ukuthokoza iinhlangano ezilandelako ngesizo lazo emsebenzini lo:
 about-get-involved = Zibandakanye
 about-get-involved-text-2 =
@@ -634,7 +632,7 @@ about-playbook-how-add-language-content-1 =
 about-playbook-how-add-language-translating-heading = Indawo yokutjhugulula
 about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Bukela iinqophiso zethu kubona isetjenziswa njani iPontoon.</translateVideoLink>
 about-playbook-how-add-language-translating-content-2 =
-    Sisebenzisa ithulusi leMozilla elibizwa ngokuthi yi<pontoonLink>Pontoon</pontoonLink> yokutjhugulula. IPontoon inamalimi amanengi,
+    Sisebenzisa ithulusi le-Mozilla elibizwa ngokuthi yi<pontoonLink>Pontoon</pontoonLink> yokutjhugulula. IPontoon inamalimi amanengi,
     kodwana ilimi lakho nalingekho <pontoonRequestLink> ungafaka isibawo sokuthi lifakwe </pontoonRequestLink>.
     Ngemva kwalokho, bona ilimi libe khona kuCommon Voice project,
     bawa ilimi elitjha <githubRepoLink> kuGitHub. </githubRepoLink>. <localizationFragment> Qala amahlangothi ahlukahlukeneko wamatjhugululo </localizationFragment>.
@@ -654,7 +652,7 @@ about-playbook-how-add-language-collecting-sentences-content-3 =
 
 about-playbook-how-localize = Ikhasi lamalimi wendabuko lisebena njani?
 about-playbook-how-localize-content-1 =
-    Ukutjhugululwa kweCommon Voice kwenzeka 
+    Ukutjhugululwa kwe-Common Voice kwenzeka 
     ku <strong>Pontoon</strong>.
 about-playbook-how-localize-content-2 = <pontoonAccountLink>Yenza i-akhawudi </pontoonAccountLink> nawunganayo. Ngemva kwalokho, khetha ilimi lakho <strong>(‘Team’)</strong> begodu ngemva kwalokho ukhethe umsebenzi <pontoonCvLink>Common Voice</pontoonCvLink>. Kuzokuba namafayili ekufuze atjhugululwe. Gandelela kwelinye lawo, lizokuveza amagama wesiNgisi nebhoksi ongawatjhugululela kilo.
 about-playbook-how-localize-content-3 = Ukutjhugulula ususela esiNgisini, kodwana ungabona <strong>Suggestions</strong> nezinye iinhlongozo zamanye amalimi. Gandelela <strong>Profile</strong> itshwayo leProfile, ngemva kwalokho ilinki <strong>Settings</strong> yamaSettings bese ukhetha amalimi owakhulumako. Phasi ngasesandleni sokudla kuzokuba nerhelo lokutjhugululweko  <strong>Locales</strong> okubizwa ngokuthi maLocales. Okutjhugululweko kuzokuvela ngemva kwelanga linye.
@@ -757,7 +755,7 @@ error-code = Umtjhapho { $code }
 
 ## Data
 
-data-download-button = Dawunilowuda ihlelo leCommon Voice
+data-download-button = Dawunilowuda ihlelo le-Common Voice
 data-download-yes = Iye
 data-download-deny = Awa
 data-download-license = Ilayisense: <licenseLink>CC-0</licenseLink>
@@ -772,7 +770,7 @@ data-other-goto = Ngena ku { $name }
 data-other-download = Dawuniloda imininingwana
 data-bundle-button = Dawunilowuda ihlelo
 data-bundle-description =
-    Nanti ihlelo leCommon Voice namanye 
+    Nanti ihlelo le-Common Voice namanye 
     amaphimbo ngehla.
 release-version = Umbono
 dataset-date = Ilanga
@@ -829,7 +827,7 @@ dataset-description-hours =
     Ingcenye enye nenye esebulungelweni le-MP3 ikhambisana nefayili. Ama-awara amanengi ama-<b>{ $total }</b> wokurekhodiweko ebulungelweni, kuhlanganisa ukwaziswa okunjengeminyaka, ubulili, nehlobo lekulumo elizokusiza ubize kuhle amagama.
     
     Okwanje ibulungelweli linama-awara ayi-<b>{ $valid }</b> aqinisekisiweko wamalimi, kodwana ku-<b>{ $languages }</b> sihlala sifaka amalimi namaphimbo angeziweko. Qala ikhasi lethu  <languagesLink>ikhasi lamalimi</languagesLink> nawufuna ilimi elithileko namkha nawufuna ukuthoma ukunikela.
-want-dataset-update = Ufuna sikwazise nasikhupha ihlelo elitjha leCommon Voice? Zitlolise engcenyenethu yeendaba.
+want-dataset-update = Ufuna sikwazise nasikhupha ihlelo elitjha le-Common Voice? Zitlolise engcenyenethu yeendaba.
 subscribe = Hlanganyela
 get-started-speech = Thoma ngokuhlola iphimbo
 other-datasets = Elinye ihlelo lamaphimbo
@@ -838,7 +836,7 @@ resource-nemo-info = <githubLink>INVIDIA NeMo</githubLink>™ yi <docsLink>lithu
 resource-deepspeech-info = I-Mozilla’s open source voice recognition engine Deep Speech ingasetjenziswa bona kwakhiwe ama-peech recognition applications. Funda <githubLink>isirhunyezo se-Github</githubLink> namkha <discourseLink>uhlanganyele ne-DeepSpeech Discourse</discourseLink> bona ufunde ukuthi ungakghona njani ukuthoma.
 resource-coqui-info = I-<coquiLink>Coqui</coquiLink> izibophezele ukuvula ihlelo letheknoloji lokukhuluma. Amahlelwabo ahlanganisa ifundo engeneleleko ye-STT ne-TTS.
 community-playbook = Incwadi yokudlala yomphakathi
-resource-playbook-info = <playbookLink>Fumana isinqophiso esilisizo</playbookLink> kilo loke ikhambo leCommon Voice, kusukela ekulumweni yendabuko, ukusebenzisa ihlelweli nokuthi ungathintana njani nomphakathethu.
+resource-playbook-info = <playbookLink>Fumana isinqophiso esilisizo</playbookLink> kilo loke ikhambo le-Common Voice, kusukela ekulumweni yendabuko, ukusebenzisa ihlelweli nokuthi ungathintana njani nomphakathethu.
 data-other-librispeech-description = I-LibriSpeech mitlolo engathatha pheze ama-awara ayi-1000 ye 16Khz efundwa ngelimi lesiNgisi ethethwe eencwadini ezirekhodiweko zehlelo le-LibriVox
 data-other-ted-name = I-TED-LIUM Corpus
 data-other-ted-description = I-TED-LIUM yenziwe yathathelwa eenkulumweni ezigadangisiweko begodu okutloliweko kuyafumaneka kuzinzolwazi yeTED.
