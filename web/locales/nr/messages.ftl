@@ -394,7 +394,7 @@ profile-form-custom-accent-help-text =
     .label = Ungayihlathulula njani indlela ophimisela ngayo?
 profile-form-custom-accent-placeholder-2 = Thoma ukutlola uhlathulule indlela ophimisela ngayo
 profile-form-age =
-    .label = Ubudala
+    .label = Iminyaka
 profile-form-gender-2 =
     .label = Ubulili
 leaderboard-visibility =
@@ -406,7 +406,7 @@ native-language =
 profile-form-add-accent = Faka indlela ejayelekileko yokuphimisela "{ $inputValue }"
 profile-form-submit-save = Bulunga
 profile-form-submit-saved = Ibulungiwe
-male = Umuntu omduna
+male = Umuntu wembhaji
 female = Umuntu wengubo
 # Gender
 other = Okhunye
@@ -801,9 +801,9 @@ review-delete-recordings = Sula engikurekhodileko
 datasets-heading = Ukuhlelwa kwemininingwana
 datasets-headline = Sakha umthombo wawo woke umuntu, amaphimbo wamalimi ahlukileko angasetjenziswa nginanyana ngubani bona azifundise ikulumo eyamukelekako.
 datasets-positioning =
-    Sithemba bona nange ama-voice datasets afunyanwa babantu abanengi azokukhuthaza ituthuko begodu enze amaphaliswano kwezentengiselwano nemitjhinini yetheknoloji yokufundisa.
+    Sithemba bona nange ama-voice datasets afunyanwa babantu abanengi azokukhuthaza ituthuko begodu enze amaphaliswano kwezokuthengiselana nemitjhinini yetheknoloji yokufundisa.
     Ngitjho nanyana kungasi ngiyo kwaphela kodwana i-Common Voice’s multi-language dataset ilibulungelo elifunyanwa babantu abanengi.
-    Qala ikhaseli njengokwaziswa kweminye imihlobo yamabulungelo wamaphimbo, kuzokuthi njengombana i-Common Voice iragela phambili idlondlobala, ikhaya lokutjhatjhululwa kwezinto ezitjha.
+    Qala ikhaseli njengokwaziswa kweminye imihlobo yamabulungelo wamaphimbo, kuzokuthi njengombana i-Common Voice iragela phambili idlondlobala, izokuba likhaya lokutjhatjhululwa kwezinto ezitjha.
 language = Ilimi
 # File size in gigabytes
 size = Isilinganiso
@@ -826,17 +826,17 @@ validated-hours = Ama-awara aqinisekisiweko
 recorded-hours = Ama-awara wokurekhoda
 whats-inside = Khuyini engaphakathi kwehlelo le-Common Voice?
 dataset-description-hours =
-    Ingcenye enye nenye esebulungelweni line-MP3 begodu ikhambisana nefayili. Ama-awara <b>{ $total }</b> amanengi okurekhodiweko ebulungelweni kuhlanganisa ukwaziswa okunjengeminyaka, ubulili, nehlobo lekulumo elizokusiza ubize kuhle amagama.
+    Ingcenye enye nenye esebulungelweni le-MP3 ikhambisana nefayili. Ama-awara amanengi ama-<b>{ $total }</b> wokurekhodiweko ebulungelweni, kuhlanganisa ukwaziswa okunjengeminyaka, ubulili, nehlobo lekulumo elizokusiza ubize kuhle amagama.
     
-    Okwanje ibulungelweli <b>{ $valid }</b> linama-awara aqinisekisiweko wamalimi, <b>{ $languages }</b> kodwana sihlala sifaka amalimi namaphimbo angeziweko. Qala ikhasi lethu <languagesLink>Languages page</languagesLink> lamalimi nawufuna ilimi elithileko namkha nawufuna ukuthoma ukunikela.
+    Okwanje ibulungelweli linama-awara ayi-<b>{ $valid }</b> aqinisekisiweko wamalimi, kodwana ku-<b>{ $languages }</b> sihlala sifaka amalimi namaphimbo angeziweko. Qala ikhasi lethu  <languagesLink>ikhasi lamalimi</languagesLink> nawufuna ilimi elithileko namkha nawufuna ukuthoma ukunikela.
 want-dataset-update = Ufuna sikwazise nasikhupha ihlelo elitjha leCommon Voice? Zitlolise engcenyenethu yeendaba.
 subscribe = Hlanganyela
 get-started-speech = Thoma ngokuhlola iphimbo
 other-datasets = Elinye ihlelo lamaphimbo
 feedback-q = Uwufumene umbiko obuyako?
 resource-nemo-info = <githubLink>INVIDIA NeMo</githubLink>™ yi <docsLink>lithulusi lawo woke umuntu</docsLink> lokuthuthukisa zerhubhululo yamahlelo we-AI
-resource-deepspeech-info = I-Mozilla’s open source voice recognition engine Deep Speech ingasetjenziswa bona kwakhiwe ama-peech recognition applications. Funda <githubLink>isirhunyezo se-Github</githubLink> namkha <discourseLink>uhlanganyele neDeepSpeech Discourse</discourseLink> bona ufunde ukuthi ungakghona njani ukuthoma.
-resource-coqui-info = I-<coquiLink>Coqui</coquiLink> izibophezele ukuvula ihlelo letheknoloji lokukhuluma. Amahlelwabo ahlanganisa ifundo engeneleleko STT ne TTS.
+resource-deepspeech-info = I-Mozilla’s open source voice recognition engine Deep Speech ingasetjenziswa bona kwakhiwe ama-peech recognition applications. Funda <githubLink>isirhunyezo se-Github</githubLink> namkha <discourseLink>uhlanganyele ne-DeepSpeech Discourse</discourseLink> bona ufunde ukuthi ungakghona njani ukuthoma.
+resource-coqui-info = I-<coquiLink>Coqui</coquiLink> izibophezele ukuvula ihlelo letheknoloji lokukhuluma. Amahlelwabo ahlanganisa ifundo engeneleleko ye-STT ne-TTS.
 community-playbook = Incwadi yokudlala yomphakathi
 resource-playbook-info = <playbookLink>Fumana isinqophiso esilisizo</playbookLink> kilo loke ikhambo leCommon Voice, kusukela ekulumweni yendabuko, ukusebenzisa ihlelweli nokuthi ungathintana njani nomphakathethu.
 data-other-librispeech-description = I-LibriSpeech mitlolo engathatha pheze ama-awara ayi-1000 ye 16Khz efundwa ngelimi lesiNgisi ethethwe eencwadini ezirekhodiweko zehlelo le-LibriVox
