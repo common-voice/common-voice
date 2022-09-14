@@ -5,11 +5,11 @@ stayintouch = Thina eMozilla sakha umphakathi wetheknoloji yamaphimbo. Singathab
 privacy-info = Sithembisa ukugcina imininingwana yakho iyifihlo. Funda okwengeziweko ngesaZiso sethu sezinto eziyiFihlo <privacyLink>Nemigomo</privacyLink>.
 return-to-cv = Buyela kuCommon Voice
 email-input =
-    .label = I-Email
+    .label = I-imeyili
 submit-form-action = Thumela
 loading = Iyalowuda...
 email-opt-in-info = Ngingakuthabela ukufumana ama-email akhuluma ngeenkhumbuzo zemigomo, ituthukwami neendaba ezimalungana ne-Common Voice.
-email-opt-in-info-title = Ngenela ihlelo leCommon Voice
+email-opt-in-info-title = Ngenela ihlelo le-Common Voice
 email-opt-in-info-sub-with-challenge =
     Fumana ama-email akhuluma ngephaliswano, iinkhumbuzo zemigomo,
     ituthuko yamva nje neendaba zeCommon Voice.
@@ -471,7 +471,7 @@ remove-avatar = Susa
 
 manage-subscriptions = Lawula ukutlolisa
 manage-email-subscriptions = Tlhogomela ukuzitlolisela ama-email
-email-already-used = I-email le, sele isetjenziswe kwenye i-akhawundi
+email-already-used = I-imeyili le, sele isetjenziswe kwenye i-akhawundi
 add-language = Faka ilimi
 change-email-setings =
     Tjhugulula i-emailakho kumaSethingi ngaphasi kwengcenye 
@@ -487,7 +487,7 @@ faq-what-cv-a-2 =
     Asibutheleli amalimi akhulunywa khulu kwaphela kodwana sibuthelela namalimi angakhulunywa khulu. Ukugadangisa amalimi amanengi kuzokukhuthaza abatlami, abosomabhizinisi, nemiphakathi bona ivale isikhalesi yona ngokwayo.
 faq-why-important-q = Kubayini lokhu kuqakathekile?
 faq-why-important-a =
-    Kanengi ukukhuluma kuyindlela ephuma phambili yokukhulumisana begodu izinto zetheknoloji ezisebenzisa iphimbo zikwenza kube bulula lokho kumakhompyutha nakezinye iinsetjenziswa eziphathwako. Sifuna ukukhuthaza abatlami bona benze iinsetjengiswa ezikghona ukwazi amaphimbi njengama real-time translators nama-voice-enabled digital assistants. Kodwana okwanje ilwazi elitlhogekako malungana namaphimbo bona kwakhiwe ama apps la libiza khulu begodu linabanikazi balo. Sithemba bona i-Common Voice dataset izokunikela abatlami abakutlhogako bona benze izinto zetheknologi ezikghona ukwazi nokuhlukanisa amaphimbo bona zifumaneke ngelimi lethu.
+    Kanengi ukukhuluma kuyindlela ephuma phambili yokukhulumisana begodu izinto zetheknoloji ezisebenzisa iphimbo zikwenza kube bulula lokho kunemitjhiningqondo nakezinye iinsetjenziswa eziphathwako. Sifuna ukukhuthaza abatlami bona benze iinsetjengiswa ezikghona ukwazi amaphimbo njengama-real-time translators nama-voice-enabled digital assistants. Kodwana okwanje ilwazi elitlhogekako malungana namaphimbo bona kwakhiwe ama apps la libiza khulu begodu linabanikazi balo. Sithemba bona i-Common Voice dataset izokunikela abatlami abakutlhogako bona benze izinto zetheknologi ezikghona ukwazi nokuhlukanisa amaphimbo bona zifumaneke ngelimi lethu.
     Ukwenza imitjhini ekghona ukwazi nokuhlukanisa amaphimbo ifumaneke ephasini loke, sibuthelela amaphimbo wamalimi akhulunywa khulu kuhlanganise nalawo angakhulunywa khulu, lawo eqiselwa amehlo bakhangisi beensentjenziswa ezithileko zamaphimbo. Ukugadangisa ibulungelo lamaphimbo ahlukahlukeneko kuzokukhuthaza abatlami, abosomabhizinisi, kuhlanganise nawo woke umphakathi wabakhulumisani bona uvale isikhalesi wona ngokwawo.
 faq-how-get-q = Ngingalifumana njani ihlelo leCommon Voice?
 faq-how-get-a = I-The Common Voice dataset iyafumaneka bona idawnlodwe ngaphasi kwemvumo ye<licenseLink>CC0</licenseLink> license ku <datasetLink> kuDatasets page</datasetLink>. Ungakghona nokudawnloda nezinye iinsetjenziswa zomphakathi ezinengi ezifumanekako ebulungelweni lethu ekhasini elifanako.
@@ -713,7 +713,7 @@ about-playbook-how-validate-content-4 = Nange okurekhodiweko kwaliwa babantu aba
 ## How to access dataset
 
 about-playbook-how-access-dataset = Ngingalifumana namkha ngilisebenzise njani ihlelweli?
-about-playbook-how-access-dataset-content-1 = Ungatjhinga <datasetsPage>datasets page</datasetsPage> ekhasini lebulungelo, khetha ihlobo nelimi namkha amalimi owafunako, bese uyawadownloda! Amafayili la  <metadataLink>associated metadata</metadataLink> akhambisana nokwaziswa kwawo, okunjengehlobo labantu nemininingwana yokuphumelelisa ukwaziswokhu. Kufuze ufake i-email yakho nawuzokukghona ukudawnloda ebulungelweneli.
+about-playbook-how-access-dataset-content-1 = Ungatjhinga <datasetsPage>datasets page</datasetsPage> ekhasini lebulungelo, khetha ihlobo nelimi namkha amalimi owafunako, bese uyawadownloda! Amafayili la  <metadataLink>associated metadata</metadataLink> akhambisana nokwaziswa kwawo, okunjengehlobo labantu nemininingwana yokuphumelelisa ukwaziswokhu. Kufuze ufake i-imeyili yakho nawuzokukghona ukudawnloda ebulungelweneli.
 about-playbook-how-access-dataset-content-2 = Nange funa amathulusi wokwakha amahlelo we-ASR, ungazihlanganisa nabanye abantu emphakathini <discourseLink>eBulungelweni</discourseLink>.
 
 ## How are decisions made
@@ -813,8 +813,8 @@ cv-license = Ilayisense
 audio-format = Ihlelo lomdumo
 number-of-voices = Inani lamaphimbo
 splits = Ukuhlukanisa
-email-to-download = Faka i-email bona udawunilowude
-why-email = <b>Kubayini kutlhogeka i-email?</b> Kungatlhogeka sithintane nawe esikhathini esizako malungana namatjhuguluko asebulungelweni, i-email yenza sikghone ukuthintana nawe.
+email-to-download = Faka i-imeyili ukuze udawunlowude
+why-email = <b>Kubayini kutlhogeka i-imeyili?</b> Kungatlhogeka sithintane nawe esikhathini esizako malungana namatjhuguluko asebulungelweni, i-imeyili yenza sikghone ukuthintana nawe.
 confirm-size =
     Ukulungele ukuthoma ukudawuniloda i 
     <b>{ $size }</b>
@@ -840,16 +840,16 @@ resource-coqui-info = I-<coquiLink>Coqui</coquiLink> izibophezele ukuvula ihlelo
 community-playbook = Incwadi yokudlala yomphakathi
 resource-playbook-info = <playbookLink>Fumana isinqophiso esilisizo</playbookLink> kilo loke ikhambo leCommon Voice, kusukela ekulumweni yendabuko, ukusebenzisa ihlelweli nokuthi ungathintana njani nomphakathethu.
 data-other-librispeech-description = I-LibriSpeech mitlolo engathatha pheze ama-awara ayi-1000 ye 16Khz efundwa ngelimi lesiNgisi ethethwe eencwadini ezirekhodiweko zehlelo le-LibriVox
-data-other-ted-name = IsiTED-LIUM Corpus
-data-other-ted-description = I-TED-LIUM yenziwe ithathelwa eenkulumweni ezigadangisiweko begodu okutloliweko kuyafumaneka kuzinzolwazi yeTED.
-data-other-voxforge-description = IVoForge yahlonywa bona kubuthelelwe ikulumo etlolwe phasi bona isetjenziswe Ngokutjhaphulukileko.
+data-other-ted-name = I-TED-LIUM Corpus
+data-other-ted-description = I-TED-LIUM yenziwe yathathelwa eenkulumweni ezigadangisiweko begodu okutloliweko kuyafumaneka kuzinzolwazi yeTED.
+data-other-voxforge-description = I-VoxForge yahlonywa bona Ibuthelele ikulumo etlolwe phasi bona isetjenziswe Ngokutjhaphulukileko.
 data-other-tatoeba-description = I-Tatoeba libulungelo elikhulu lemitjho, amatjhugululo, namatjhada akhulunywako asetjenziselwa ukufunda ilimi. Idawnlodi le inesiNgisi esirekhodwe mphakathi osikhulumako.
 your-feedback = Kghani unemibono yokuthi singayithuthukisa njani i-Common Voice siyenze ibengcono? Ungasazisa ngokusitlolela namkha ngenye indlela
 go-discourse = Tjhinga ekulumweni
 missing-language = { "" }
 go-languages-page = Ngena ekhasini lamalimi
 ready-to-validate = Ukulungele ukusiza ngokuphasisa imitjho?
-more = Okungeziweko
+more = Okungezelelweko
 close = Vala
 download = Dawunilowuda
 dataset-version = Umbono
@@ -892,7 +892,7 @@ other-language = Elinye ilimi
 request-language-heading = Buza ngelimi elitjha
 request-language-explanation-1 =
     Hlola bona ilimi lakho likhona na ekhasini<languagesPageLink> le-Common Voice Languages</languagesPageLink>.
-    Nalingekho, zalisa iforomo begodu sizokuthumelela<strong> i-email ehlathulula kuhle bona ungenza njani ukuthi ilimi lakho lifakwe</strong>.
+    Nalingekho, zalisa iforomo begodu sizokuthumelela<strong> i-imeyili ehlathulula kuhle bona ungenza njani ukuthi ilimi lakho lifakwe</strong>.
 request-language-explanation-2 = Sizokubuye <strong>sakwazisa  nomphathi womphakathethu ukuthi unekareko</strong>, ukwenzela bona bakunikele nanyana ngiliphi isekelo elengeziweko nelwazi okungenzeka ulitlhoge.
 request-language-form-email =
     .label = Isiphande sakho se-email
@@ -913,13 +913,13 @@ request-language-google-recaptcha-error =
     Sibawa ulinge godu.
 # Success page
 request-language-success-heading = Siyathokoza! Uthumele isibawo sokufumana ilwazi ngelimi elitjha
-request-language-success-list-1 = Uzokufumana i-email kungasikade ezokuhlathululela ngamagadango okufuze uwathathe bona ilimi lakho lifakwe ku-Common Voice
+request-language-success-list-1 = Uzokufumana i-imeyili kungasikade ezokuhlathululela ngamagadango okufuze uwathathe bona ilimi lakho lifakwe ku-Common Voice
 request-language-success-list-2 = Imanenja yomphakathethu izokuthinta bona ikunikele isekelo elingeziweko, begodu izokwazisa nangabe sele ukhona umphakathi osebenza ngelimi lakho
 request-language-success-list-3 =
     "Nange ungezwa litho elivela kithi bekudlule amalangana, 
     yenza ilandelela ku <emailLink>{ $email }</emailLink> 
     sizokubuyela kuwe!"
-request-language-error = Kungenzeka asikasifumani isibaweso. Sibawa usithumele i-email bunqopha ku <emailLink>{ $email }</emailLink> sizokubuyela kuwe!
+request-language-error = Kungenzeka asikasifumani isibaweso. Sibawa usithumele i-imeyili bunqopha ku <emailLink>{ $email }</emailLink> sizokubuyela kuwe!
 
 ## Languages Overview
 
@@ -1201,7 +1201,7 @@ download-q = Utlhoga ukudawuniloda imininingwana yakho?
 download-info = Sitjela ukuthi khuyini ofuna ukuyidawuniloda:
 download-profile-title = Iphrofayili
 download-profile-info =
-    Faka i-email, igama nemininingwanakho 
+    Faka i-imeyili, igama nemininingwanakho 
     khona nje
 download-profile-size = Faka amabhayithi ambalwa
 download-recordings-title = Okurekhodiweko
@@ -1270,7 +1270,7 @@ demo-account-card-header =
     nanyana kusiza ukuba nayo
 demo-account-card-body = Ngasesandleni sokudla sifake lokho umuntu akufumanako nelwazi esilenza lifumaneke emphakathini. Sebenzisa ilinki engaphasi bona usebenzise i-akhawundi ye-Common Voice esisetjenzisweni sakho.
 demo-account-enter-email =
-    .label = Faka i-email bona uthumele i-link yokuzitlolisa
+    .label = Faka i-imeyili bona uthumele i-link yokuzitlolisa
 demo-account-sign-up = Thumela ilinki yokuzitlolisa
 
 ## Demo Contribute
