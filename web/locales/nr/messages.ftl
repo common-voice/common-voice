@@ -17,7 +17,7 @@ email-opt-in-privacy-v2 = Ngokuthi ukhethe ukufaka ama-emails kutjho ukuthi uyav
 indicates-required = Iindawana ezitshwaywe nge (*) ziyatlhogeka.
 not-available-abbreviation = N/A
 banner-error-slow-1 =
-    Usilibalele iCommon Voice ikhamba kabuthaka. Siyathokoza 
+    Usilibalele i-Common Voice ikhamba kabuthaka. Siyathokoza 
     ngokuba nekareko.
 banner-error-slow-2 =
     Sinomjeje omude khulu begodu sisafunisisa
@@ -220,7 +220,7 @@ help = Isizo
 contact = Thintana
 privacy = Ifihlo
 terms = Imigomo
-cookies = Amafayela amancani
+cookies = Amafayeli amancani
 faq = I-FAQ
 content-license-text = Ilayisense: <licenseLink>{ $license }</licenseLink>
 share-title = Okhunye
@@ -234,18 +234,18 @@ logout = Phuma
 ## Home Page
 
 home-title =
-    ICommon Voice neMozilla izibekele umgomo wokusiza
+    I-Common Voice neMozilla izibekele umgomo wokusiza
     ekufundiseni imitjhini ukuthi abantu bamambala bakhuluma njani
 default-tagline =
-    IMozilla Common Voice izimisele ukusiza
+    I-Mozilla Common Voice izimisele ukusiza
     ekufundiseni imitjhini bona abantu bamambala bakhuluma njani.
 home-cta = Khuluma, nikela endaweni le!
 wall-of-text-start = Iphimbo liyimvelo, iphimbo limumuntu ngokwakhe. Kungebangelo kusithabisa bekusirare ukukghona ukwenza amaphimbo asebenzisekako wetheknoloji emtjhininethu. Kodwana bona umsebenzethu uthuthuke, sitlhoga ukwaziswa kwamaphimbo amanengi tle.
 wall-of-text-more-mobile = Ukwaziswa okunengi okusetjenziswa makhampani amakhulu akufumaneki bona kusetjenziswe babantu abanengi. Sicabanga bona lokhu kuvimba ituthuko. Yeke senze i-Project Common Voice, isize bona ama-voice asetjenziswe ngokutjhaphulukileko begodu afunyanwe ngibo boke abantu.
 wall-of-text-more-desktop = Nje ungakghona ukunikela ngephimbo lakho bona usisize sakhe ibulungelo elivulekele woke umuntu abantu abangalisebenzisa ukwakha ama-apps weensetjenziswa namkha amazinzolwazi. Funda imitjho yabanye abanikeli bona uthuthukise izinga layo. Kulula ngaleyo ndlela!
-wall-of-text-first = Iphimbo liyimvelo, iphimbo limumuntu ngokwakhe. Kungebangelo kusithabisa bekusirare ukukghona ukwenza amaphimbo asebenzisekako wetheknoloji emtjhininethu. Kodwana bona umsebenzethu uthuthuke, sitlhogo amaphimbo amanengi tle.
+wall-of-text-first = Iphimbo liyimvelo, iphimbo limumuntu ngokwakhe. Kungebangelo kusithabisa bekusirare ukukghona ukwenza amaphimbo asebenzisekako wetheknoloji emtjhininethu. Kodwana bona umsebenzethu uthuthuke, sitlhoga amaphimbo amanengi tle.
 wall-of-text-second =
-    Ukwaziswa okunengi okusetjenziswa makhampani amakhulu akufunyanwa babantu abanengi. Sicabanga bona lokhu kuvimba ituthuko. Yeke senze iCommon Voice, yenza ama-voice recognition asetjenziswe ngendlela etjhaphulukileko
+    Ukwaziswa okunengi okusetjenziswa makhampani amakhulu akufunyanwa babantu abanengi. Sicabanga bona lokhu kuvimba ituthuko. Yeke senze i-Common Voice, yenza ama-voice recognition asetjenziswe ngendlela etjhaphulukileko
     begodu akghone ukusetjenziswa ngibo boke abantu
 show-wall-of-text = Funda okwengeziweko
 help-us-title = Imitjho
@@ -294,7 +294,7 @@ help-make-dataset = Sisiza senze umsebenzi osezingeni eliphezulu
 sign-up-account = Zitlolise ube ne-akhawundi
 email-subscription-title = zitlolise ufumane zamja nje nge-email
 email-subscription-title-new =
-    Zitlolise bona ufumane iindaba ngeCommon Voice, imigomo 
+    Zitlolise bona ufumane iindaba nge-Common Voice, imigomo 
     netuthuko yamva nje
 
 ## Account Benefits
@@ -303,7 +303,7 @@ benefits = Iinzuzo
 rich-data = Yenza imininingwana oyithumeleko ibe mihle ngendlela ongakghona ngayo ngokuthi ufake koke ukwaziswa okutlhogekako ngawe okungekhe kwanikelwa abanye abantu. Koke ukwaziswa osinikela khona ngawe angekhe sikwenze kwazeke emphakathini.
 improve-audio =
     Imininingwana yephrofayili ithuthukisa ihlelo lokurekhodiweko
-    ekulumweni yokufundisa enembileko.
+    ekulunyweni yokufundisa enembileko.
 keep-track =
     Hlola ituthukwakho ngamalimi 
     ahlukahlukeneko.
@@ -480,7 +480,7 @@ change-email-setings =
 ## FAQ
 
 faq-title = Imibuzo Ebuzwa Qobe
-faq-what-cv-q = Yini iCommon Voice?
+faq-what-cv-q = Yini i-Common Voice?
 faq-what-cv-a = I-Voice recognition technology itjhugulula indlela esisebenzisa ngayo imitjhini, kodwana iintlabagelo ezikhona njenganje zibiza khulu begodu zinabanikazi bazo. I-Common Voice iyingcenye yejima elenzwa yi-Mozilla’s initiative bona yenze amatheknoloji wamaphimbo afumaneke kiwo woke umuntu. I-Common Voice ilibulungelo elikhulu elifumaneka ephasini loke lamaphimbo anikelweko avumela woke umuntu bona akghone ukusebenzisa ama-apps we-voice-enabled msinya begodu ngendlela elula begodu nakungenzeka ngawo woke amalimi.
 faq-what-cv-a-2 =
     I-Voice recognition technology itjhugulula indlela esisebenzisa ngayo imitjhini, kodwana iinsetjenziswa ezikhona nje zibiza khulu begodu zinabanikazi bazo. I-Mozilla Common Voice lijima elenza bona ama-voice recognition technologies abe ngcono begodu afumaneke bulula kiwo woke umuntu. I-Common Voice libulungelo elikhulu lephasi loke lamaphimbo wabantu anikelwe ngokuzithandela avumela woke umuntu bona akghone ukubandula ama-voice-enabled apps ngawo woke amalimi.
@@ -495,7 +495,7 @@ faq-when-release2-q =
     Nizolitjhaphulula nini ihlelo leCommmon Voice 
     ngamanye amalimi?
 faq-when-release2-a = Sikhuluma nje ihlobo le-Common Voice enamaphimbo ahlukahlukeneko isahlolwa begodu ilungiswa bona ibe sezingeni elifanele umphakathi. Nange ufuna ukusisiza sifake amalimi amatjha ku-Common Voice sibawa uyokuhlola <sentenceCollectorLink>Sentence Collection Tool</sentenceCollectorLink> yokufaka imitjho emitjha ebulungelweni, neMozilla Pontoon <pontoonLink>Pontoon</pontoonLink> bona itjhugulule izinzolwazi yona ngokwayo. Amalimi amatjha afakwa ku-Common Voice bona kunikelwe ngawo nasele kuhlolisiswe bekwabuthelelwe imitjho ezii-5000.
-faq-why-mission-q = Kubayini  iCommon Voice iyingcenye yehlelo leMozilla
+faq-why-mission-q = Kubayini  i-Common Voice iyingcenye yehlelo leMozilla
 faq-why-mission-a = I-Mozilla izimisele bona yenze i-web le ikghone ukusetjenziswa ngiwo woke umuntu. Bona senze njalo sitlhoga ukukhuthaza abantu abenza ama-web sisebenzisa amajima anjengama-Common Voice. Njengombana ama-voice technologies asetjenziswa babantu abanengi, sithemba bona azokusiza abantu ngendlela efanako. Lokho kutjho bona kulingwe amalimi angeziweko akhulunywa ngendlela engafaniko eendaweni ezingafaniko nakuhlolwa imitjhini le. I-Common Voice isisetjenziswa somphakathi esingafumaneka kiwo woke umuntu begodu isiqhema nabatlami be-Mozilla ephasini loke sele bayisebenzisa emisebenzinabo.
 faq-what-cv-and-deepspeech-q =
     Uyini umehluko hlangana ne-Common Voice 
@@ -525,7 +525,7 @@ faq-why-10k-hours-q =
 faq-why-10k-hours-a =
     Lawa ma-awara okungenzeka
     ayatlhogeka bona ufake ikulumo emtjhinini.
-faq-how-calc-hours-q = ICommon Voice iwabala njani ama-awara?
+faq-how-calc-hours-q = I-Common Voice iwabala njani ama-awara?
 faq-how-calc-hours-a = Sibala ama-awara ngokuthi silinganisele isikhathi sokurekhodiweko kunye, bese sibuyelela inomboro leyo ngesilinganiso esipheleleko sokurekhodiweko ngamalimi woke.
 faq-where-src-from-2-q = Ukuphi umthombo wemitlolo?
 faq-where-src-from-2-a =
@@ -544,19 +544,19 @@ faq-what-determine-identity-q = Kutjho ukuthini ukuthi "angikghoni ukwazi bona n
 faq-what-determine-identity-a =
     I-The Common Voice dataset sisetjenziswa esitjhaphulukileko nesenzelwe umphakathi begodu singasetjenziswa ukubandula abantu abahlukahlukeneko abangakghoni ukukhuluma. Bona sivikele abantu abahlanganyela ejimeneli, sibawa woke umuntu odawnloda ku-Common Voice dataset bona ahloniphe abahlanganyeli.
     Kiwo woke amaphimbo arekhodiweko kususwe izinto ezingaveza ukuthi liphimbo lakabani leli. Nawudownlodako ebulungelweneli, uyavuma bona angeze ulinge ukufumana ukuthi ngewabobani amaphimbo wabahlanganyeli. Lokho kutjho bona angeze ufake ukwaziswa komuntu onikele ngephimbo lakhe. Kodwana ungakghona ukusebenzisa ibulungelweli ukubandula ukuhlukanisa amaphimbo, ukuhlukanisa ukukhuluma namkha ezinye izinto, ngokwesibonelo, ukufaka ukwaziswa esele kukhona ebulungelweni.
-faq-what-is-cv = faq-what-cv-qYini iCommon Voice?
-faq-using-cv = Ukusebenzisa iCommon Voice
+faq-what-is-cv = faq-what-cv-qYini i-Common Voice?
+faq-using-cv = Ukusebenzisa i-Common Voice
 faq-description = Iphimbo elijayelekileko liyingcenye yegadango elithethwe yi-Mozilla bona ifundise imitjhini ukuthi abantu bamambala bakhuluma njani.
 faq-search-for-answers =
     .label = Funa iimpendulo
 
 ## ABOUT US
 
-about-title = Kubayini iCommon Voice?
+about-title = Kubayini i-Common Voice?
 about-header-description-v2 =
     <p>I-Common Voice libulungelo lamaphimbo elingasetjenziswa mphakathi, elenziwa mavolonthiya anikele ngamaphimbawo ephasini loke. Abantu abafuna ukwakha imitjhini yamaphimbo bangakghona ukusebenzisa ibulungelweli bona babandule imitjhini ekhulumako.</p>
     <p>Sikhuluma nje, amabulungelo amanengi ngewamakhamphani athileko, okuyinto evimba ituthuko. Ama-Voice datasets abuye angajameli kuhle: Abantu abangakhulumi isiNgisi, abantu abanzima, abantu abarholopheleko, abantu bengubo nabantu abane-LGBTQIA+ . Lokho kutjho bona ama-voice-enabled technology akasebenzi emalimini amanengi, begodu lapho asebenza khona, akasebenzi ngendlela efanako kiwo woke umuntu. Sifuna ukukutjhugulula lokho ngokuthi sivumele woke umuntu bona anikele ngephimbo lakhe.</p>
-how-does-it-work-title-v2 = Isebenza njani iCommon Voice?
+how-does-it-work-title-v2 = Isebenza njani i-Common Voice?
 how-does-it-work-text = Senza ibulungelo lamaphimbo elingasetjenziswa ngokutjhaphulukileko. Nikela ngephimbo lakho, qinisekisa lokho abantu abakurekhodileko, yenza bona ibulungelo libe ngcono kiwo woke umuntu.
 
 ## How does it work section
@@ -613,7 +613,7 @@ about-nav-why-common-voice = Kubayini ?
 about-nav-how-it-works = Njani
 about-nav-partners = Abalingani
 about-nav-get-involved = Zibandakanye
-about-nav-how-it-works-2 = Isebenza njani iCommon Voice?
+about-nav-how-it-works-2 = Isebenza njani i-Common Voice?
 about-nav-playbook = Funda ukuthi ungasiza njani
 
 ## Community Playbook Content
@@ -780,7 +780,7 @@ license = Ilayisensi: <licenseLink>{ $license }</licenseLink>
 license-mixed = Okuhlanganisiweko
 data-download-singleword-title = Dawuniloda iGama Linye Olifunako
 data-download-singleword-callout-v2 = Leli lihlelo elisiza ngamaphimbo arekhodiweko elikghona ukuvuma namkha ukwala
-review-terms = Ngokusebenzisa iCommon Voice, uvumelana ne <termsLink>Mibandela</termsLink> kunye ne <privacyLink>Nemigomo</privacyLink>
+review-terms = Ngokusebenzisa i-Common Voice, uvumelana ne <termsLink>Mibandela</termsLink> kunye ne <privacyLink>Nemigomo</privacyLink>
 terms-agree = Ngiyavuma
 terms-disagree = Angivumi
 review-aborted =
@@ -799,7 +799,7 @@ review-delete-recordings = Sula engikurekhodileko
 ## Datasets Page
 
 datasets-heading = Ukuhlelwa kwemininingwana
-datasets-headline = Sakha umthombo wawo woke umuntu, amaphimbo wamalimi ahlukahlukeneko angasetjenziswa nginanyana ngubani bona azifundise ikulumo eyamukelekako.
+datasets-headline = Sakha umthombo wawo woke umuntu, amaphimbo wamalimi ahlukileko angasetjenziswa nginanyana ngubani bona azifundise ikulumo eyamukelekako.
 datasets-positioning =
     Sithemba bona nange ama-voice datasets afunyanwa babantu abanengi azokukhuthaza ituthuko begodu enze amaphaliswano kwezentengiselwano nemitjhinini yetheknoloji yokufundisa.
     Ngitjho nanyana kungasi ngiyo kwaphela kodwana i-Common Voice’s multi-language dataset ilibulungelo elifunyanwa babantu abanengi.
@@ -953,10 +953,10 @@ clips-with-count-pluralized =
        *[other] <bold>{ $count }</bold> Iinqetjhana
     }
 goal-help-recording =
-    Usize iCommon Voice 
+    Usize i-Common Voice 
     <goalPercentage></goalPercentage> umgomo welanga { $goalValue } wokurekhoda!
 goal-help-validation =
-    Usize iCommon Voice ukufikelela 
+    Usize i-Common Voice ukufikelela 
     <goalPercentage></goalPercentage> umgomo wokuqinisekisa { $goalValue } welanga!
 contribute-more =
     { $count ->
@@ -991,7 +991,7 @@ record-again-instruction2 =
 record-last-instruction = <recordIcon></recordIcon> Yokugcina!
 review-tooltip = Buyekeza bewurekhode kabutjha khona la
 share-clip = Yabelana ngesiquntu engisirekhodileko
-share-common-voice = Yabelana ngeCommon Voice
+share-common-voice = Yabelana nge-Common Voice
 review-instruction = Buyekeza bewurekhode nange kutlhogeka
 record-submit-tooltip = { $actionType } thumela nasele ukulungele
 clips-uploaded = Iinqetjhana ezifakiweko
@@ -1030,7 +1030,7 @@ login-to-get-started = Thungela namkha uzitlolise bona uthome
 target-segment-first-card = Unikela engcenyeni yethu yokuthoma
 target-segment-generic-card = Unikela endaweni okungiyo
 target-segment-first-banner =
-    Siza ngokwenza iCommon Voice ikhambe 
+    Siza ngokwenza i-Common Voice ikhambe 
     phambili ku { $locale }
 target-segment-add-voice = Faka iphimbo lakho
 target-segment-learn-more = Funda okwengeziweko
@@ -1136,8 +1136,8 @@ help-reach-hours-pluralized =
     }
 help-reach-hours-general-pluralized =
     { NUMBER($hours) ->
-        [one] Siza iCommon Voice ifikelele { $hours } i-awara ngelimi ozikhethele lona
-       *[other] Siza iCommon Voice ifikelele { $hours } ama-awara ngelimi ozikhethele lona
+        [one] Siza i-Common Voice ifikelele { $hours } i-awara ngelimi ozikhethele lona
+       *[other] Siza i-Common Voice ifikelele { $hours } ama-awara ngelimi ozikhethele lona
     }
 set-a-goal = Beka umgomo
 cant-decide = Awukghoni ukuthatha isiqunto?
@@ -1241,9 +1241,7 @@ download-request-link-single = Ungakopulula bewunamathisele iURLs ezintweni ozit
 welcome-staff = Siyanamukela basebenzi be { $company }!
 help-contribute = Ungasiza ngemininingwana ehlukahlukeneko ekuthuthukiseni i-Common Voice begodu unikele nangephimbo lako.
 login-company = Thungela / Tlolisa nge-email ye { $company }
-profile-not-required =
-    Kuhle ukuba neprhofayili bona unikele
-    Nanyana kunjalo, qala ngenzasi ukuthi kubayini.
+profile-not-required = Kuhle ukuba nephrofayili bona unikele nanyana kunjalo, qala ngenzasi ukuthi kubayini.
 read-more-about = Funda okwengeziweko ekhasini leMininingwana yekhasi
 
 ## DemoLayout
@@ -1256,7 +1254,7 @@ demo-welcome-subheader =
 
 ## Demo Datasets
 
-demo-language-select-card-header = ICommon Voice lihlalo elikhamba phambili ephasini mazombe elinamaphimbo wamalimi ahlukahlukeneko.
+demo-language-select-card-header = I-Common Voice lihlalo elikhamba phambili ephasini mazombe elinamaphimbo wamalimi ahlukahlukeneko.
 demo-language-select-card-body = Sithokoza abantu abanikelako abangaphezu kwe- 259k abantu abakhuluma amalimi angaphezu kwama-50, ukwaziswokhu kusetjenziswa bona kubandulwe ama-app wemitjhini ekhulumako bona isabele ngcono emaphimbweni wabantu.
 card-button-next = Okulandelako
 card-button-back = Emuva
@@ -1488,7 +1486,7 @@ sc-stats-error = Asikghoni ukufumana iimbalobalo. Sibawa ulinge godu esikhathini
 #   $sentenceCount (Number) - Total number of sentences uploaded through Sentence Collector
 #   $languageCount (Number) - Total number of languages these sentences represent
 sc-stats-summary =
-    ICommon Voice Sentence sele 
+    I-Common Voice Sentence sele 
     ibuthelele imitjho eyi- { $sentenceCount } ngamalimi ayi-{ $languageCount }!
 
 ## ADD
