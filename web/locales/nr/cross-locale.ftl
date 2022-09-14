@@ -3,9 +3,7 @@
 contribute = Nikela
 get-involved-button = Hlanganyela
 get-involved-title = Nikela ku { $lang }
-get-involved-text =
-    Siyathokoza ngokuthi ube nekareko yokunikela { $lang }. Sisebenza budisi bona senze woke amalimi alungele ukufakwa ebulungelweni begodu sihlala sithintana neenqhema 
-    sizinikela ukwaziswa okutjha ngama-email. Nawufuna ukunikela, sibawa ufake i-email yakho ngaphasi.
+get-involved-text = Siyathokoza ngokuthi ube nekareko yokunikela { $lang }. Sisebenza budisi bona senze woke amalimi alungele ukufakwa ebulungelweni begodu sihlala sithintana neenqhema sizinikela ukwaziswa okutjha ngama-Imeyili. Nawufuna ukunikela, sibawa ufake i-Imeyili yakho ngenzasi.
 get-involved-form-title = Zitlolisele { $lang } zamva nje:
 get-involved-email =
     .label = I-Email

@@ -292,7 +292,7 @@ x-years-short =
     }
 help-make-dataset = Sisiza senze umsebenzi osezingeni eliphezulu
 sign-up-account = Zitlolise ube ne-akhawundi
-email-subscription-title = zitlolise ufumane zamja nje nge-email
+email-subscription-title = zitlolise ufumane zamja nje nge-imeyili
 email-subscription-title-new =
     Zitlolise bona ufumane iindaba nge-Common Voice, imigomo 
     netuthuko yamva nje
@@ -303,7 +303,7 @@ benefits = Iinzuzo
 rich-data = Yenza imininingwana oyithumeleko ibe mihle ngendlela ongakghona ngayo ngokuthi ufake koke ukwaziswa okutlhogekako ngawe okungekhe kwanikelwa abanye abantu. Koke ukwaziswa osinikela khona ngawe angekhe sikwenze kwazeke emphakathini.
 improve-audio =
     Imininingwana yephrofayili ithuthukisa ihlelo lokurekhodiweko
-    ekulunyweni yokufundisa enembileko.
+    ekulumeni yokufundisa enembileko.
 keep-track =
     Hlola ituthukwakho ngamalimi 
     ahlukahlukeneko.
@@ -311,12 +311,12 @@ compare-progress =
     Qala ituthukwakho nayimadaniswa neyabanye
     abafaka isandla ephasini mazombe.
 view-goals = Imigomo
-join-newsletter = Nawuthandako ungangenela ihlelo lethu lokufumana zamva nje nge-email ufumane nemininingwana emitjha ngephrojekthi.
+join-newsletter = Nawuthandako ungangenela ihlelo lethu lokufumana zamva nje nge-imeyili ufumane nemininingwana emitjha ngephrojekthi.
 
 ## What's public
 
 whats-public = Khuyini esemphakathini?
-email-not-public = Angekhe sabelane nge-email yakho.
+email-not-public = Angekhe sabelane nge-imeyili yakho.
 recordings-and-locale-public =
     Inani lokurekhodiweko namalimi osize ngawo
     kuzokubona nginanyana ngubani.
@@ -553,7 +553,7 @@ faq-search-for-answers =
 about-title = Kubayini i-Common Voice?
 about-header-description-v2 =
     <p>I-Common Voice libulungelo lamaphimbo elingasetjenziswa mphakathi, elenziwa mavolonthiya anikele ngamaphimbawo ephasini loke. Abantu abafuna ukwakha imitjhini yamaphimbo bangakghona ukusebenzisa ibulungelweli bona babandule imitjhini ekhulumako.</p>
-    <p>Sikhuluma nje, amabulungelo amanengi ngewamakhamphani athileko, okuyinto evimba ituthuko. Ama-Voice datasets abuye angajameli kuhle: Abantu abangakhulumi isiNgisi, abantu abanzima, abantu abarholopheleko, abantu bengubo nabantu abane-LGBTQIA+ . Lokho kutjho bona ama-voice-enabled technology akasebenzi emalimini amanengi, begodu lapho asebenza khona, akasebenzi ngendlela efanako kiwo woke umuntu. Sifuna ukukutjhugulula lokho ngokuthi sivumele woke umuntu bona anikele ngephimbo lakhe.</p>
+    <p>Sikhuluma nje, amabulungelo amanengi ngewamakhamphani athileko, okuyinto evimba ituthuko. Ama-Voice datasets abuye angajameli kuhle: Abantu abangakhulumi isiNgisi, abantu abanzima, abantu abaphila nokukhubazeka, abantu bengubo nabantu abane-LGBTQIA+ . Lokho kutjho bona ama-voice-enabled technology akasebenzi emalimini amanengi, begodu lapho asebenza khona, akasebenzi ngendlela efanako kiwo woke umuntu. Sifuna ukukutjhugulula lokho ngokuthi sivumele woke umuntu bona anikele ngephimbo lakhe.</p>
 how-does-it-work-title-v2 = Isebenza njani i-Common Voice?
 how-does-it-work-text = Senza ibulungelo lamaphimbo elingasetjenziswa ngokutjhaphulukileko. Nikela ngephimbo lakho, qinisekisa lokho abantu abakurekhodileko, yenza bona ibulungelo libe ngcono kiwo woke umuntu.
 
@@ -572,7 +572,7 @@ about-voice-contrib-title = Ukunikela ngephimbo
 about-voice-contrib-subtitle = Abantu bayeza bazokunikela ngamaphimbo wabo.
 about-voice-validation-title = Ukuqinisekiswa kwephimbo
 about-voice-validation-subtitle = Abanye abantu baqinisekisa iinqetjhana zokurekhodiweko.
-about-dataset-release-title = daily-goal
+about-dataset-release-title = iminqopho yelanga
 about-dataset-release-subtitle = Sitjhaphulula okurekhodiweko qobe eenyangeni ezi-3.
 about-subscribe-text = Zitlolise
 about-speak = Khuluma
@@ -602,7 +602,7 @@ about-clip-graveyard-text =
 about-get-involved = Zibandakanye
 about-get-involved-text-2 =
     Uyafuna ukusiza ukwenza i-Common Voice ibe ngcono?
-    Kuhle lokho! Thintana nathi nge-email namkha<discourseLink>Discourse</discourseLink> ngeforamu, thumela imiraro ku<githubLink>GitHub</githubLink>namkha uhlanganyele<matrixLink>Matrix</matrixLink>community chat.
+    Kuhle lokho! Thintana nathi nge-imeyili namkha<discourseLink>Discourse</discourseLink> ngeforamu, thumela imiraro ku<githubLink>GitHub</githubLink>namkha uhlanganyele<matrixLink>Matrix</matrixLink>community chat.
 about-stay-in-touch = Ngingahlala njani nginelwazi?
 about-stay-in-touch-button = Zitlolise
 about-stay-in-touch-text-1 = <emailFragment>Zitlolise ku</emailFragment> bona ufunde ukuthi ungasifaka njani isandla emajimeni, ezenzakalweni nokuthuthukisa ubujamo be-Common Voice.
@@ -739,7 +739,7 @@ sentence-collection-explanation =
 hours-recorded-explanation =
     Inani lama-awara esele siwabuthelele 
     bekube nje.
-hours-validated-explanation = Isibalo sokurekhodiweko okuphasiswe babantu aba-2 ebantwini aba- 3 abavowude ngo “Iye”. Lokho kuveza ituthuko yomgomo wama-awara eli-10k.
+hours-validated-explanation = Isibalo sokurekhodiweko okuphasiswe babantu aba-2 ebantwini aba- 3 abavowude ngo “Iye”. Lokho kuveza ituthuko yomgomo wama-awara ali-10k.
 sst = Ikulumo-kuya-kokutloliweko (STT)
 sst-explanation = Ikulumo etlolwa phasi (STT) itjhugululwa iba liphimbo
 de-identified = Fihla
@@ -843,7 +843,7 @@ data-other-ted-description = I-TED-LIUM yenziwe yathathelwa eenkulumweni ezigada
 data-other-voxforge-description = I-VoxForge yahlonywa bona Ibuthelele ikulumo etlolwe phasi bona isetjenziswe Ngokutjhaphulukileko.
 data-other-tatoeba-description = I-Tatoeba libulungelo elikhulu lemitjho, amatjhugululo, namatjhada akhulunywako asetjenziselwa ukufunda ilimi. Idawnlodi le inesiNgisi esirekhodwe mphakathi osikhulumako.
 your-feedback = Kghani unemibono yokuthi singayithuthukisa njani i-Common Voice siyenze ibengcono? Ungasazisa ngokusitlolela namkha ngenye indlela
-go-discourse = Tjhinga ekulumweni
+go-discourse = Tjhinga ekulumeni
 missing-language = { "" }
 go-languages-page = Ngena ekhasini lamalimi
 ready-to-validate = Ukulungele ukusiza ngokuphasisa imitjho?
@@ -857,7 +857,7 @@ dataset-version = Umbono
 download-title = Okudawunilowudileko kuyathoma.
 download-helpus =
     Sisiza sakhe umphakathi ngetheknoloji yamaphimbo
-    hlala ufumana zamva nje nge-email.
+    hlala ufumana zamva nje nge-imeyili.
 download-form-email =
     .label = Faka
     .value = i-email yakho
@@ -922,7 +922,7 @@ request-language-error = Kungenzeka asikasifumani isibaweso. Sibawa usithumele i
 ## Languages Overview
 
 language-section-in-progress = Iyaraga
-language-section-in-progress-new-description = Umphakathi usawathuthukisa amalimi la. <localizationGlossaryLink>Izinzolwazi yelocalization</localizationGlossaryLink> begodu <sentenceCollectionGlossaryLink>kutlhogeka imitjho</sentenceCollectionGlossaryLink> bona afakwe ngokusemthethweni.
+language-section-in-progress-new-description = Umphakathi usawathuthukisa amalimi la. <localizationGlossaryLink>Ubunzinzolwazi be-localization</localizationGlossaryLink> kodwana <sentenceCollectionGlossaryLink>kutlhogeka imitjho</sentenceCollectionGlossaryLink> bona bufakwe ngokusemthethweni.
 language-section-launched = Yethulwa ngokusemthethweni
 language-section-launched-description = Ukwethulwa kwezinzolwazi le kuphumelele <localizationGlossaryLink>localized</localizationGlossaryLink>, begodu imitjho<sentenceCollectionGlossaryLink> ebuthelelweko minengi ngokwaneleko <sentenceCollectionGlossaryLink>ukwenzela</sentenceCollectionGlossaryLink> bona kuregelwe phambili uku<speakLink>Khuluma</speakLink>noku <listenLink>Mamela</listenLink>okunikelweko.
 languages-show-more = Veza okunengi
@@ -1238,7 +1238,7 @@ download-request-link-single = Ungakopulula bewunamathisele iURLs ezintweni ozit
 
 welcome-staff = Siyanamukela basebenzi be { $company }!
 help-contribute = Ungasiza ngemininingwana ehlukahlukeneko ekuthuthukiseni i-Common Voice begodu unikele nangephimbo lako.
-login-company = Thungela / Tlolisa nge-email ye { $company }
+login-company = Thungela / Tlolisa nge-imeyili ye { $company }
 profile-not-required = Kuhle ukuba nephrofayili bona unikele nanyana kunjalo, qala ngenzasi ukuthi kubayini.
 read-more-about = Funda okwengeziweko ekhasini leMininingwana yekhasi
 
