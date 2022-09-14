@@ -1,6 +1,6 @@
 # Email
 
-For basic email sending we're using Amazon Simple Email Service (SES).
+For basic email sending we're using Amazon Simple Email Service (SES), an Amazon Web Service (AWS).
 
 ## Development
 
@@ -12,7 +12,7 @@ You should see a `📧 Email preview URL: http://example.com` log whenever a ema
 
 ## Production
 
-In production (or testing production) we need to have the `CV_AWS_SES_CONFIG` enviornment variable set to something like:
+In production (or testing production) we need to have the `CV_AWS_SES_CONFIG` environment variable set to something like:
 
 ```json
 {
