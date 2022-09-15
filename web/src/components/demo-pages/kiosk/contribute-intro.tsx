@@ -70,7 +70,7 @@ const getContributeComponents = (): PageContentType => {
         <div
           id="inner-circle"
           className="demo-contribute-kiosk-top-icon-circle">
-          <img src={mars} />
+          <img src={mars} alt="mini voice robot" />
         </div>
         <div
           id="outer-circle"
