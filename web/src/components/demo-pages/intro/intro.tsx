@@ -51,7 +51,7 @@ export default connect<PropsFromState, PropsFromDispatch>(
         <NotSupported />
         <div id="intro-container">
           <div id="intro-container--gradient-layer"></div>
-          <img src={robot} id="robot" alt="red robot" />
+          <img src={robot} id="robot" alt="voice robot" />
           <div id="intro-container--text-box">
             <Localized id="demo-welcome">
               {/* Localized injects content into child tag */}

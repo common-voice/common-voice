@@ -21,7 +21,7 @@ const GetInvolved: React.ComponentType = () => {
 
       <div className="about-container">
         <div className="robot-section">
-          <img src="/img/mars-3d.png" alt="Robot" />
+          <img src="/img/mars-3d.png" alt="voice robot" />
         </div>
 
         <div className="text-section">
