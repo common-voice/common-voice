@@ -207,7 +207,8 @@ export const Spinner = ({
   return (
     <div className={spinnerClassName}>
       <VisuallyHidden>
-        <Localized id="loading" />
+        {/* Issues with localizing here when used on app load, package changes throw error */}
+        <p> Loading... </p>
       </VisuallyHidden>
       <span className="spinner__shape" />
     </div>
