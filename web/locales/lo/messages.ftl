@@ -214,6 +214,7 @@ x-years-short =
     { $count ->
        *[other] { $count }y
     }
+email-subscription-title = ລົງທະບຽນສໍາລັບການອັບເດດອີເມລ໌
 
 ## Account Benefits
 
@@ -225,15 +226,22 @@ whats-public = ສາທາລະນະແມ່ນຫຍັງ?
 
 ## Speak & Listen Shortcuts
 
+# Must be one letter that appears in the translated { skip } string.
+shortcut-skip = s
 
 ## Listen Shortcuts
 
 shortcut-play-toggle-label = ຫຼິ້ນ/ຢຸດ
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = n
 
 ## Speak Shortcuts
 
+shortcut-rerecord-toggle = [1-5]
 shortcut-discard-ongoing-recording = ESC
 shortcut-submit = ກັບຄືນ
+shortcut-submit-label = ສົ່ງຄລິບ
 
 ## ProjectStatus
 
