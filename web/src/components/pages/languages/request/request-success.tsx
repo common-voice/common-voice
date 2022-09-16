@@ -45,6 +45,7 @@ const LanguagesRequestSuccessPage = () => {
             src={require('./images/mars-email-success.svg')}
             alt=""
             loading="lazy"
+            role="presentation"
           />
         </div>
       </div>

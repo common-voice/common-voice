@@ -5,7 +5,7 @@ import ShareButtons from '../share-buttons/share-buttons';
 
 import './share-modal.css';
 
-export default ({
+export default function ShareModal({
   shareTextId,
   title,
   text,
@@ -15,10 +15,10 @@ export default ({
   shareTextId?: string;
   title?: React.ReactNode;
   text?: React.ReactNode;
-}) => (
+}) {
   <Modal innerClassName="share-modal" {...props}>
     <div className="image-container">
-      <img className="mars" src="/img/mars.svg" alt="Robot" />
+      <img className="mars" src="/img/mars.svg" alt="voice robot" />
     </div>
     {title ? (
       <h1>{title}</h1>
@@ -31,5 +31,5 @@ export default ({
     <div className="share-buttons">
       <ShareButtons {...{ shareTextId }} />
     </div>
-  </Modal>
-);
+  </Modal>;
+}
