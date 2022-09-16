@@ -75,7 +75,7 @@ const OnboardingModal = ({ onRequestClose }: Props) => {
           <img
             src={require('./images/1-red-copy.svg')}
             className="red-copy"
-            alt="voice robot"
+            alt="robot"
           />
         </div>
       ) : (

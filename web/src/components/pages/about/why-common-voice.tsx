@@ -30,7 +30,7 @@ const WhyCommonVoice: React.ComponentType<{}> = () => {
             <img
               className="robot"
               src={require('./images/robot.png')}
-              alt="voice robot"
+              alt="robot"
             />
           </div>
         </div>
