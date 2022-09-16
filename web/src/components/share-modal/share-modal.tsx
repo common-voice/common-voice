@@ -16,20 +16,22 @@ export default function ShareModal({
   title?: React.ReactNode;
   text?: React.ReactNode;
 }) {
-  <Modal innerClassName="share-modal" {...props}>
-    <div className="image-container">
-      <img className="mars" src="/img/mars.svg" alt="voice robot" />
-    </div>
-    {title ? (
-      <h1>{title}</h1>
-    ) : (
-      <Localized id="share-title-new" elems={{ bold: <b /> }}>
-        <h1 />
-      </Localized>
-    )}
-    {text && <p>{text}</p>}
-    <div className="share-buttons">
-      <ShareButtons {...{ shareTextId }} />
-    </div>
-  </Modal>;
+  return (
+    <Modal innerClassName="share-modal" {...props}>
+      <div className="image-container">
+        <img className="mars" src="/img/mars.svg" alt="voice robot" />
+      </div>
+      {title ? (
+        <h1>{title}</h1>
+      ) : (
+        <Localized id="share-title-new" elems={{ bold: <b /> }}>
+          <h1 />
+        </Localized>
+      )}
+      {text && <p>{text}</p>}
+      <div className="share-buttons">
+        <ShareButtons {...{ shareTextId }} />
+      </div>
+    </Modal>
+  );
 }
