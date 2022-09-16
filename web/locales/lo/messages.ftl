@@ -14,6 +14,8 @@ email-opt-in-info-sub-with-challenge = ຮັບອີເມວເຊັ່ນ: 
 email-opt-in-privacy-v2 = ໂດຍການເລືອກຮັບອີເມວແມ່ນທ່ານລະບຸວ່າທ່ານບໍ່ເປັນຫຍັງທີ່ Mozilla ຈັດການຂໍ້ມູນນີ້ຕາມທີ່ອະທິບາຍໄວ້ໃນ <privacyLink>ນະໂຍບາຍຄວາມເປັນສ່ວນຕົວ</privacyLink> ຂອງ Mozilla.
 indicates-required = ຊ່ອງຂໍ້ມູນທີ່ມີເຄື່ອງໝາຍດາວ (*) ແມ່ນຕ້ອງການ.
 not-available-abbreviation = N/A
+banner-error-slow-1 = ຂໍອະໄພ, Common Voice ກຳລັງແລ່ນຊ້າ. ຂອບໃຈສໍາລັບຄວາມສົນໃຈຂອງທ່ານ.
+banner-error-slow-2 = ພວກເຮົາກໍາລັງໄດ້ຮັບການຈະລາຈອນຫຼາຍແລະປະຈຸບັນກໍາລັງກວດສອບບັນຫາ.
 banner-error-slow-link = ຫນ້າສະຖານະ
 error-something-went-wrong = ຂໍອະໄພ, ມີບາງຢ່າງຜິດພາດເກີດຂຶ້ນ
 
@@ -30,6 +32,7 @@ af = ພາສາແອຟຣິຄານສ
 am = ພາ​ສາ​ອຳ​ຮາ​ຣິກ
 an = ພາ​ສາ​ອາ​ຣາ​ໂກນ
 ar = ພາສາອາຣັບ
+arn = Mapudungun
 as = ພາ​ສາ​ອາ​ຊຳ​ມີ​ດ
 ast = ພາສາອັສຕູເຣຍ
 az = ພາສາອາເຊີໄບຈັນ
@@ -40,7 +43,11 @@ bg = ພາ​ສາ​ບຸນ​ກາ​ຣີ
 bn = ພາສາເບັງກາລີ
 br = ພາສາເບຣຕອນ
 bs = ພາສາບອສເນຍ
+bxr = Buryat
 ca = ພາສາ​ກາ​ຕາ​ລັນ
+cak = Kaqchikel
+ckb = ຊາວເຄີດກາງ
+cnh = Hakha Chin
 co = ພາສາໂຄຊິແກນ
 cs = ພາສາເຊັກ
 cv = ພາ​ສາ​ຊູ​ວາດ​ສ
@@ -187,8 +194,12 @@ show-wall-of-text = ອ່ານ​ຕື່ມ
 vote-yes = ແມ່ນ
 vote-no = ບໍ່
 speak-subtitle = ບໍລິຈາກສຽງຂອງເຈົ້າ
+speak-goal-text = ຄລິບທີ່ບັນທຶກໄວ້
 listen-subtitle = ຊ່ວຍພວກເຮົາກວດສອບສຽງ
 listen-goal-text = ກວດສອບຄລິບແລ້ວ
+hours-recorded = ຊົ່ວໂມງບັນທຶກ
+todays-progress = ຄວາມຄືບຫນ້າຂອງມື້ນີ້
+read-terms-q = ທ່ານໄດ້ອ່ານເງື່ອນໄຂຂອງພວກເຮົາແລ້ວບໍ?
 all-locales = ທັງໝົດ
 today = ມື້ນີ້
 x-weeks-short =
@@ -203,6 +214,7 @@ x-years-short =
     { $count ->
        *[other] { $count }y
     }
+email-subscription-title = ລົງທະບຽນສໍາລັບການອັບເດດອີເມລ໌
 
 ## Account Benefits
 
@@ -214,15 +226,22 @@ whats-public = ສາທາລະນະແມ່ນຫຍັງ?
 
 ## Speak & Listen Shortcuts
 
+# Must be one letter that appears in the translated { skip } string.
+shortcut-skip = s
 
 ## Listen Shortcuts
 
 shortcut-play-toggle-label = ຫຼິ້ນ/ຢຸດ
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = n
 
 ## Speak Shortcuts
 
+shortcut-rerecord-toggle = [1-5]
 shortcut-discard-ongoing-recording = ESC
 shortcut-submit = ກັບຄືນ
+shortcut-submit-label = ສົ່ງຄລິບ
 
 ## ProjectStatus
 
