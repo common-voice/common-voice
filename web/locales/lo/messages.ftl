@@ -72,9 +72,11 @@ fy-NL = ພາສາ​ຟ​ຣີ​ຊຽນ
 ga-IE = ພາສາໄອຣິສ
 gl = ພາສາກາລິຊຽນ
 gn = ພາ​ສາກົວ​ຣາ​ນີ
+gom = Goan Konkani
 ha = ພາສາໂຮຊາ
 he = ພາສາຢິວ
 hi = ພາສາຮີນດູ
+hil = ພາ​ສາຮິ​ລິ​ເກນອນ
 hr = ພາສາໂຄຣເອເຊຍ
 ht = ພາສາໄຮຕິ
 hu = ພາສາຮົງກາລີ
@@ -96,6 +98,7 @@ kw = ພາ​ສາ​ຄໍ​ນິດ
 ky = ພາສາກິຣກິສ
 lb = ພາ​ສາ​ລຸກ​ຊຳ​ບວກ
 lij = ພາ​ສາ​ລິ​ກູ​ຣຽນ
+lo = ພາສາລາວ
 lt = ພາສາລີທົວເນຍ
 lv = ພາສາລັດເວຍ
 mai = ພາ​ສາ​ໄມ​ທິ​ລິ
@@ -214,7 +217,9 @@ x-years-short =
     { $count ->
        *[other] { $count }y
     }
+sign-up-account = ລົງທະບຽນສໍາລັບບັນຊີ
 email-subscription-title = ລົງທະບຽນສໍາລັບການອັບເດດອີເມລ໌
+email-subscription-title-new = ສະໝັກຮັບຈົດໝາຍຂ່າວ Common Voice, ການແຈ້ງເຕືອນເປົ້າໝາຍ ແລະອັບເດດຄວາມຄືບໜ້າ
 
 ## Account Benefits
 
@@ -231,13 +236,23 @@ shortcut-skip = s
 
 ## Listen Shortcuts
 
+# Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-play-toggle = p
 shortcut-play-toggle-label = ຫຼິ້ນ/ຢຸດ
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = y
 # Must be one letter that appears in the { vote-no } string.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
 shortcut-vote-no = n
 
 ## Speak Shortcuts
 
+# Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-record-toggle = r
+shortcut-record-toggle-label = ບັນທຶກ/ຢຸດ
 shortcut-rerecord-toggle = [1-5]
 shortcut-discard-ongoing-recording = ESC
 shortcut-submit = ກັບຄືນ
@@ -257,15 +272,21 @@ profile-form-additional-language =
     .label = ພາສາເພີ່ມເຕີມ
 profile-form-language =
     .label = ພາສາ
+profile-form-age =
+    .label = ອາຍຸ
 profile-form-gender-2 =
     .label = ເພດ
 hidden = ເຊື່ອງ
 native-language =
     .label = ພາ​ສາ​ແມ່
+profile-form-add-accent = ເພີ່ມສຳນຽງແບບກຳນົດເອງໃໝ່ "{ $inputValue }"
 profile-form-submit-save = ບັນທຶກ
 profile-form-submit-saved = ບັນທຶກແລ້ວ
+male = ຜູ້ຊາຍ
+female = ຜູ້ຍິງ
 # Gender
 other = ອື່ນໆ
+why-profile-title = ເປັນຫຍັງຈຶ່ງມີໂປຣໄຟລ໌?
 goals = ເປົ້າໝາຍ
 settings = ການຕັ້ງຄ່າ
 edit-profile = ແກ້ໄຂໂປຣໄຟລ໌
@@ -292,8 +313,10 @@ faq-why-important-q = ເປັນຫຍັງມັນຈຶ່ງສໍາຄ�
 
 ## How does it work section
 
+about-dataset-release-title = ການປ່ອຍຊຸດຂໍ້ມູນ
 about-speak = ເວົ້າ
 about-listen = ຟັງ
+about-is-it-valid = ຄລິບຖືກຕ້ອງບໍ?
 about-stay-in-touch-button = ລົງ​ທະ​ບຽນ
 about-nav-why-common-voice = ເປັນຫຍັງ?
 about-nav-partners = ຄູ່ຮ່ວມງານ
