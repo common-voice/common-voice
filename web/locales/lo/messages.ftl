@@ -260,6 +260,13 @@ shortcut-submit-label = ສົ່ງຄລິບ
 
 ## ProjectStatus
 
+status-hours =
+    { $hours ->
+       *[other] { $hours } ຊົ່ວໂມງທີ່ຖືກຕ້ອງແລ້ວ!
+    }
+# Variables:
+# $goal - number of hours representing the next goal
+status-goal = ເປົ້າໝາຍຕໍ່ໄປ: { $goal }
 english = ພາສາອັງກິດ
 
 ## ProfileForm
@@ -293,11 +300,13 @@ edit-profile = ແກ້ໄຂໂປຣໄຟລ໌
 profile-close = ປິດ
 accept-privacy-title = ນະໂຍບາຍຄວາມເປັນສ່ວນຕົວ
 edit = ແກ້ໄຂ
+email-subscriptions = ການບອກຮັບຂ່າວສານຜ່ານອີເມວ
 off = ປິດ
 on = ເປີດ
 
 ## Profile - Email
 
+max-file-size = ສູງສຸດ { $kb }kb
 
 ## Profile - Email
 
@@ -307,9 +316,11 @@ add-language = ເພີ່ມພາສາ
 
 faq-title = ຄຳຖາມທີ່ຖືກຖາມເລື້ອຍໆ
 faq-why-important-q = ເປັນຫຍັງມັນຈຶ່ງສໍາຄັນ?
+faq-why-account-q = ເປັນຫຍັງຂ້ອຍຄວນລົງທະບຽນສໍາລັບບັນຊີ?
 
 ## ABOUT US
 
+about-title = ເປັນຫຍັງຕ້ອງມີ Common Voice?
 
 ## How does it work section
 
@@ -317,10 +328,13 @@ about-dataset-release-title = ການປ່ອຍຊຸດຂໍ້ມູນ
 about-speak = ເວົ້າ
 about-listen = ຟັງ
 about-is-it-valid = ຄລິບຖືກຕ້ອງບໍ?
+about-yes-votes = ≥ 2 ມີຄະແນນສຽງ
+about-no-votes = ≥ 2 ບໍ່ມີຄະແນນສຽງ
 about-stay-in-touch-button = ລົງ​ທະ​ບຽນ
 about-nav-why-common-voice = ເປັນຫຍັງ?
 about-nav-partners = ຄູ່ຮ່ວມງານ
 about-nav-get-involved = ເຂົ້າມາມີສ່ວນຮ່ວມ
+about-nav-playbook = ຮຽນຮູ້ວິທີການມີສ່ວນຮ່ວມ
 
 ## Community Playbook Content
 ## What is a language
@@ -328,6 +342,7 @@ about-nav-get-involved = ເຂົ້າມາມີສ່ວນຮ່ວມ
 
 ## How do I add a language
 
+about-playbook-how-add-language = ຂ້ອຍຈະເພີ່ມພາສາໄດ້ແນວໃດ?
 
 ## How does localization work
 
