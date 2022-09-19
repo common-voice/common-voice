@@ -50,7 +50,7 @@ To help you, for exemple with the 'not supervised, do your own QA' bulk submissi
  
 # Correcting existing data
 
-As you can see, some methods doesn't go through automated cleanup/validation/rules, and they are not unified ([...not yet](https://discourse.mozilla.org/t/sentence-collector-cleanup-before-export-vs-cleanup-on-upload/105411/15)). Thus, there is a process to remove old data that might need to be discarded.
+Some methods don't go through automated cleanup/validation/rules, and they are not unified ([...not yet](https://discourse.mozilla.org/t/sentence-collector-cleanup-before-export-vs-cleanup-on-upload/105411/15)). Thus, there is a process to remove old data that might need to be discarded.
 
 ## Flagging (and removing) problematic sentences already in the Common Voice database
 
