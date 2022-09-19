@@ -2,20 +2,27 @@
 
 As Common Voice is a read dataset, sentences are our currency. You can help by adding new sentences to our dataset for other contributors to read, helping with bulk sentence extractions, or reporting problematic sentences.
 
+## In a few words...
+📝 Sentence collector is made for everyday users to have a webpage (the [Sentence Collector webpage](https://commonvoice.mozilla.org/sentence-collector/)) allowing them to load some sentences 'directly' from the Common Voice webpage. It has it's own repo in [common-voice/sentence-collector](https://github.com/common-voice/sentence-collector). **This is a good place to start** for newcomers to this project.
+
+📘 For power users who want's to [bulk](https://en.wikipedia.org/wiki/Bulk_insert) uploads of thousands of sentences, like for books, Sentence Collector is not the best tool, and they _should definitely_ check out below the [Bulk Submission](https://github.com/common-voice/common-voice/blob/main/docs/SENTENCES.md#bulk-submission) guidelines for this use case 😉. There is no dedicated repo.
+
+🖥️ Finally, for automatic extraction of data sources, the Sentence Extractor repo ([common-voice/cv-sentence-extractor](https://github.com/Common-Voice/cv-sentence-extractor)) is dedicated for it. It can be Wikipedia, Wikisource, raw file... 
+
 ## Sentence Collector
 
-The [Sentence Collector](https://commonvoice.mozilla.org/sentence-collector/) is a tool for crowdsourcing sentences for Common Voice. You can either:
+The [Sentence Collector](https://commonvoice.mozilla.org/sentence-collector/) webpage is a tool for crowdsourcing sentences for Common Voice. You can either:
 
-- Add sentences for your language
+- Add sentences for your language (there is a few cleanup and validation routines under the hood)
 - Validate sentences that other contributors have added
 
-Each sentence requires at least two upvotes to be considered valid.
+Each sentence requires at least two upvotes from human validation to be considered valid.
 
-At regular intervals, validated sentences from the Sentence Collector will be exported and added to the Common Voice database. These will be available on the site next time there's a release.
+Every week, a GitHub automatized action send validated sentences from the Sentence Collector to be exported and added to the Common Voice database.
 
 ## Automatic extraction
 
-The Sentence Extractor is a tool that can scrape public domain data sources for sentences. Right now, the only source we have configured is Wikipedia. Please [see this post](https://discourse.mozilla.org/t/sentence-extractor-current-status-and-workflow-summary/62332) for detailed guidance on how to use the sentence extractor.
+The Sentence Extractor is a tool that can scrape public domain data sources for sentences. It can be databases (Wikipedia, Wikisource...) or raw file with  Please [see this post](https://discourse.mozilla.org/t/sentence-extractor-current-status-and-workflow-summary/62332) for detailed guidance on how to use the sentence extractor.
 
 ## Bulk submission
 
@@ -34,8 +41,21 @@ Feel free to set up this QA however makes most sense for you, but here's a [samp
 
 Once the review is complete, submit a pull request with the # of sentences submitted, a link to the manual QA results, and the % error rate. Here's [an example PR](https://github.com/mozilla/common-voice/pull/2873). Please make sure the sentences are in a plain `.txt` file with one sentence per line.
 
-## Flagging problematic sentences
+## Rules for QA that applies (or not) to the different imputs and outputs
+To help you, for exemple with the 'not supervised, do your own QA' bulk submission, you _may_ find interesting to have a look at : 
+* [cleanup](https://github.com/common-voice/sentence-collector/tree/main/server/lib/cleanup) and [validation](https://github.com/common-voice/sentence-collector/tree/main/server/lib/validation) rules for sentence collector, and/or 
+* [language](https://github.com/common-voice/cv-sentence-extractor#using-language-rules) rules for extractor, or even 
+* [preprocessor](https://github.com/common-voice/CorporaCreator/tree/master/src/corporacreator/preprocessors) for CorporaCreator ([CorporaCreator](https://github.com/common-voice/CorporaCreator) is the Common Voice extractor that, linking text and recorded voice samples, make them available for [SST](https://en.wikipedia.org/wiki/Speech_recognition) engines' training).
 
-If you notice sentences that need to be deleted, first check what the source of the sentence is. If the file that the sentence is located in is called `sentence-collector.txt`, that means it was automatically exported from Sentence Collector. In that case, please file an issue on the [Sentence Collector repo](https://github.com/Common-Voice/sentence-collector/) with a plaintext file of all of the problem sentences, with one sentence per line.
+ 
+# Correcting existing data
+
+As you can see, some methods doesn't go through automated cleanup/validation/rules, and they are not unified ([...not yet](https://discourse.mozilla.org/t/sentence-collector-cleanup-before-export-vs-cleanup-on-upload/105411/15)). Thus, there is a process to remove old data that might need to be discarded.
+
+## Flagging (and removing) problematic sentences already in the Common Voice database
+
+If you notice sentences that need to be deleted 🚩, first check what the source of the sentence is. 
+
+If the file that the sentence is located in is called `sentence-collector.txt` (localised [here](https://github.com/common-voice/common-voice/blob/main/server/data/en/sentence-collector.txt) for english, or [here](https://github.com/common-voice/common-voice/blob/main/server/data/fr/sentence-collector.txt) for french, etc.), that means it was automatically exported from Sentence Collector. In that case, please file an [issue](https://github.com/common-voice/sentence-collector/issues) on the [Sentence Collector repo](https://github.com/Common-Voice/sentence-collector/) with a plaintext file of all problematic sentences, listed one sentence per line. (Note : it is useless to correct directly the common voice database if it comes for sentence collector, because it will automatically be imported, again, by the sentence collector. You have to clean up sentence collector's database first)
 
 If the sentence is from a different source, you can file a pull request that modifies the text file directly. If possible, also attach a separate plaintext file that has all of the problem sentences, with one sentence per line.
