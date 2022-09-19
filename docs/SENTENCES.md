@@ -54,7 +54,7 @@ As you can see, some methods doesn't go through automated cleanup/validation/rul
 
 ## Flagging (and removing) problematic sentences already in the Common Voice database
 
-If you notice sentences that need to be deleted 🚩, first check what the source of the sentence is. 
+If you notice sentences that need to be deleted, first check what the source of the sentence is. 
 
 Search for the source of the sentence within the [data](https://github.com/common-voice/common-voice/blob/main/server/data) folder. Folders are split up by language. If the sentence is found in `sentence-collector.txt`, that means it was automatically exported from Sentence Collector. In that case, please file an [issue](https://github.com/common-voice/sentence-collector/issues) with a plaintext file of all problematic sentences, listed one sentence per line. Note that in this case removing it from the file through a Pull Request will not help, because it will automatically be added again with the next export.
 
