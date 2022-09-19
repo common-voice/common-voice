@@ -22,7 +22,7 @@ Every week, a GitHub automatized action send validated sentences from the Senten
 
 ## Automatic extraction
 
-The Sentence Extractor is a tool that can scrape public domain data sources for sentences. It can be databases (Wikipedia, Wikisource...) or raw file with  Please [see this post](https://discourse.mozilla.org/t/sentence-extractor-current-status-and-workflow-summary/62332) for detailed guidance on how to use the sentence extractor.
+The Sentence Extractor is a tool that can scrape public domain data sources for sentences. There are multiple sources integrated into the Sentence Extractor, such as Wikipedia and Wikisource. Please [see this post](https://discourse.mozilla.org/t/sentence-extractor-current-status-and-workflow-summary/62332) for detailed guidance on how to use the Sentence Extractor.
 
 ## Bulk submission
 
