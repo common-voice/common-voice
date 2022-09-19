@@ -52,7 +52,7 @@ const InputLanguageName = ({
 
   return (
     <Localized id="profile-form-language" attrs={{ label: true }}>
-      <LabeledSelect value={locale} onChange={handleChange}>
+      <LabeledSelect value={locale} onChange={handleChange} name="language">
         <option value="" />
         {Object.entries(nativeNames).map(([locale, name]) => (
           <option key={locale} value={locale}>
