@@ -5,7 +5,7 @@ import {
 } from '@fluent/react';
 import * as React from 'react';
 import { useState, useEffect } from 'react';
-import { localeConnector } from '../../locale-helpers';
+import { localeConnector, LocaleLink } from '../../locale-helpers';
 import useSortedLocales from '../../../hooks/use-sorted-locales';
 import { LabeledSelect, Spinner } from '../../ui/ui';
 
@@ -16,6 +16,9 @@ import { useAPI } from '../../../hooks/store-hooks';
 import DatasetCorpusDownloadTable from './dataset-corpus-download-table';
 import PageHeading from '../../ui/page-heading';
 import { formatBytes } from '../../../utility';
+import PageTextContent from '../../ui/page-text-content';
+import { Link } from 'react-router-dom';
+import { DeltaReadMoreLink } from '../../shared/links';
 interface Props {
   languagesWithDatasets: { id: number; name: string }[];
   initialLanguage: string;
@@ -69,7 +72,14 @@ const DatasetCorpusDownload = ({
           <PageHeading>
             <Localized id="download-dataset-header" />
           </PageHeading>
-          <p>
+          <Localized
+            id="download-delta-explainer"
+            elems={{
+              deltaLink: <DeltaReadMoreLink className="link" />,
+            }}>
+            <div />
+          </Localized>
+          <p style={{ marginTop: '2rem' }}>
             <Localized id="download-dataset-tag" />
           </p>
         </div>
@@ -108,6 +118,7 @@ const DatasetCorpusDownload = ({
               selectedId={selectedDataset?.id || LanguageDatasets[0].id}
             />
           )}
+
           {selectedDataset && selectedDataset.download_path && (
             <>
               <DatasetDownloadEmailPrompt
