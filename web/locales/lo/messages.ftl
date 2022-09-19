@@ -279,6 +279,8 @@ profile-form-additional-language =
     .label = ພາສາເພີ່ມເຕີມ
 profile-form-language =
     .label = ພາສາ
+profile-form-accent =
+    .label = ສຳນຽງ
 profile-form-age =
     .label = ອາຍຸ
 profile-form-gender-2 =
@@ -317,6 +319,9 @@ add-language = ເພີ່ມພາສາ
 faq-title = ຄຳຖາມທີ່ຖືກຖາມເລື້ອຍໆ
 faq-why-important-q = ເປັນຫຍັງມັນຈຶ່ງສໍາຄັນ?
 faq-why-account-q = ເປັນຫຍັງຂ້ອຍຄວນລົງທະບຽນສໍາລັບບັນຊີ?
+faq-using-cv = ການນໍາໃຊ້ Common Voice
+faq-search-for-answers =
+    .label = ຄົ້ນຫາຄໍາຕອບ
 
 ## ABOUT US
 
@@ -324,12 +329,15 @@ about-title = ເປັນຫຍັງຕ້ອງມີ Common Voice?
 
 ## How does it work section
 
+about-sentence-collection-title = ການລວບລວມປະໂຫຍກ
+about-voice-validation-title = ການກວດສອບສຽງ
 about-dataset-release-title = ການປ່ອຍຊຸດຂໍ້ມູນ
 about-speak = ເວົ້າ
 about-listen = ຟັງ
 about-is-it-valid = ຄລິບຖືກຕ້ອງບໍ?
 about-yes-votes = ≥ 2 ມີຄະແນນສຽງ
 about-no-votes = ≥ 2 ບໍ່ມີຄະແນນສຽງ
+about-get-involved = ເຂົ້າມາມີສ່ວນຮ່ວມ
 about-stay-in-touch-button = ລົງ​ທະ​ບຽນ
 about-nav-why-common-voice = ເປັນຫຍັງ?
 about-nav-partners = ຄູ່ຮ່ວມງານ
