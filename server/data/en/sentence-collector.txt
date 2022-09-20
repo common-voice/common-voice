@@ -1920,6 +1920,7 @@ A crotchet, pronounced with the t, is equivalent to a quarter note
 A crowd of women take their stand in the veranda of a temple.
 A cry of joy burst from Philip's lips.
 A cry of “It is,” and great cheering.
+A cultural assumption refers to the authors attitudes, values and beliefs.
 A curious sensation of terror came over me.
 A curlew cried loudly, and very eerily: then another.
 A cushy wound seems the most desirable thing in the world.
@@ -2440,6 +2441,7 @@ A tear-stained face appeared, looking tragically over the banisters.
 A temper was evidently one of his numerous qualities.
 A temptation is when you want to do something but know you should not.
 A terrific blow on the mouth floored or grassed him.
+A text can either be visual or written
 A thin moon was coming out.
 A thing begun is half done.
 A thing is not seen because it is visible.
@@ -4906,6 +4908,7 @@ Are division and animosity your natural terms, Richard?
 Are kids these days really awkward or is that just made up?
 Are limes the fashion now?
 Are more presents coming, dear?
+Are one or more third party services used for the proposed solutions?
 Are or are not our interests conflicting?
 Are our girls really like that?
 Are people who are overweight likely to live longer?
@@ -16146,6 +16149,7 @@ How I wish I was one of them!
 How I writhed, and yawned, and nodded, and revived!
 How Mr. Wood first got elected was quite a touch-and-go affair.
 How Uma would like this!
+How a text is built is known as text structures.
 How about a break from all this constant drama?
 How about after that?
 How about my heart? asked the Tin Woodman.
@@ -18377,6 +18381,7 @@ I give you my word I won't laugh.
 I glanced at it casually.
 I go back to my place to sleep.
 I go back tomorrow.
+I go to church on Sunday.
 I go to market with that commodity so received.
 I goggled a third time.
 I goggled again.
@@ -19235,6 +19240,7 @@ I laid out twenty pounds upon it.
 I laughed at the accident.
 I laughed derisively.
 I lay a quarter of an hour listening and trembling.
+I lay down beside the still water.
 I lay down, for I was feeling very heavy.
 I lay myself open to detection, I know.
 I leaned forward again.
@@ -21120,6 +21126,7 @@ I went down to have a private talk with Martha.
 I went down to see the other girls this evening.
 I went downstairs.
 I went on with my hair now, quite comfortably.
+I went swimming last Monday.
 I went there after I left London.
 I went there to work.
 I went through hell when I was evicted.
@@ -21157,6 +21164,7 @@ I will dispense with excuses.
 I will do more for you than you figure to yourself now.
 I will eat sea bass for dinner.
 I will expect a response before Wednesday
+I will fear no evil.
 I will find my way out.
 I will give you no further trouble about this little wager.
 I will have no reserves from you.
@@ -22164,6 +22172,7 @@ If anything, you are too attentive.
 If at any time I could not supply them, it was an injury.
 If constantly worn it tends to promote slovenliness.
 If eligble, it collects their details and signature
+If ever a woman was madly disappointed, that woman was Miss Scrimp.
 If he did overhear us, of course he’d never forgive you.
 If he had caught me!
 If he had let go, she would have sunk to the ground.
@@ -22321,6 +22330,7 @@ If you declare, I swear I won't field.
 If you died tonight, would you go to heaven?
 If you do not choose to understand me, forgive my impertinence.
 If you do not object I think their assistance may be useful.
+If you do not support banned books, why do you forbid the bible?
 If you do such a thing again, I’ll have you buttered!
 If you do, I’ll keep you.
 If you do, you are wrong.
@@ -31849,6 +31859,7 @@ Sarcasm was the sum total of her persuasive ability.
 Saskia shook her head and Hughes spoke for her.
 Saskia, who had been listening intently, shook her head.
 Sat in their warm words.
+Saturday, my family and I will bake cookies together.
 Saturdays and Sundays in March seem to be free.
 Saturn is a planet.
 Saunders is a jolly good chap.
@@ -36041,6 +36052,7 @@ That’s why you go to work for New York City, to help others.
 That’s your lookout!
 That’s your own imagination.
 The "Kings of Low Frequency".
+The "NitroPhone two a" is now avaiable.
 The "silly talk" had been translated into terrifying action.
 The "us versus them" attitude is not healthy.
 The "we" that fills up the air and breathes in our eyes.
@@ -36486,6 +36498,7 @@ The actors won little recognition, even in their own theatre.
 The actual factoring is done by your local agent.
 The adaptation to a paperless office can benefit the environment.
 The added weight had a velocity of fifteen miles per hour.
+The address was only the name, street, number, and city.
 The adjacent rocks were disintegrated.
 The admin team is approving your claim and will be in touch.
 The administration has a reputation for burying bad news stories.
@@ -36650,6 +36663,7 @@ The author had a knack for writing in a concise language.
 The author is a blogger and social media phenomenon.
 The author is a futurist.
 The author is known for using flowery language.
+The author needed to expand upon this stage.
 The author writes under a pseudonym.
 The authorisation process failed.
 The authorized version, now in use, was made under the reign of King James.
@@ -37525,6 +37539,7 @@ The domestication of dogs happened thousands of years ago.
 The domino which serves for mere concealment, is almost the only dress assumed.
 The door bell.
 The door closed behind Alfie and himself.
+The door closed, and poor Hattie was alone.
 The door closed.
 The door handle had snapped off.
 The door of the back room opened, and the First Sea Lord came out.
@@ -39793,6 +39808,7 @@ The sales agent didn't call me back.
 The sales were enormous, ten times as large as their competitor's.
 The salt dissolved in water immediately on contact.
 The same change follows the repeated tappings of the sacs.
+The same concept, issue or person is represented in different ways.
 The same crowd of mudlarks and loafers would come rushing into the water
 The same observation applies to the other case.
 The same that I expect.
@@ -40116,6 +40132,7 @@ The stone-breaker was angry with the world.
 The storeroom was a damp chamber in what had been the old farmhouse.
 The storm soon began to pass upon its way.
 The story developed with a flavour of strangely twisted sentimentality.
+The story is set in Timmy’s home town school.
 The story of her trickery and her exposure would run through the town.
 The story of the flying money was true.
 The story will keep.
@@ -43568,6 +43585,7 @@ This Bibi was determined to give it.
 This Christmas she would bear him a child.
 This Fifth Avenue Chesterfield married at twenty-two.
 This Fox, it seemed, was a person of importance.
+This Friday is my last day of work.
 This Golden Cap had a charm.
 This I had never thought of.
 This I have named the neuron.
@@ -43647,6 +43665,7 @@ This combining activity is best called synthetic, or constructive.
 This comic book was published in the fifties.
 This coming child was too much for her.
 This community is a model example of cohesion and community spirit.
+This community will use a meritocratic approach for allowing editors.
 This constitutes a true cirrhosis of the uterus.
 This continued until they ran out of plays.
 This contouring tool is proprietary.
@@ -44003,6 +44022,7 @@ This isn't a real house match.
 This isn't like Jasmine, and it worries me.
 This isn't normal for me.
 This isn't normal.
+This isn’t aimed at any particular age group.
 This kind of lint heckles away almost to nothing
 This lady at the Italian opera is respectable.
 This lady had knocked at Johnson's door.
@@ -46587,6 +46607,7 @@ Websites are so weird, aren't they?
 Websites must respect the privacy of its users.
 Websites should be designed to support a voice first user experience.
 Websites should enable encryption to prevent malicious attackers.
+Wednesday is my favorite day of the week.
 Weigh the facts.
 Welcome to my house.
 Welcome to our introduction to philosophy.
@@ -46874,6 +46895,7 @@ West and East are cardinal directions, not civilizations.
 Wethermill leaned forward and shook his head with a smile.
 We’d better buck up.
 We’d love to hear from you.
+We’ll be able to address questions like:
 We’ll clean up, but we won’t sing.
 We’ll have pork-chops and roast duck for supper to-night.
 We’ll just imagine this path is running water.

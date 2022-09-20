@@ -1191,6 +1191,7 @@ contribution-volume-description = Ojuavýta katuetei hetakuépe umi moñe’ẽh
 contribution-reader-effects-title = Moñe’ẽhára Oñandúva
 contribution-reader-effects-description = Hetavéva ñe’ẽñongatupy haʼe yvypóra oñeʼẽva iñeʼẽ rekoitépe. Ikatu pemoneĩ ñe’ẽñongatupy sapy’apy’a ndaha’éiva estándar ojesapukáiva, oñeñe’ẽñemi térã ojehechaháicha oñeme’ẽva ñe’ẽ dramático-pe. Embotove ñe’ẽñongatu ojepurahéiva ha oipurúva ñe’ẽ oñemombyky hag̃uánte mohendahápe.
 contribution-just-unsure-title = ¿Nahekorasãi?
+contribution-just-unsure-description = Ejuhúramo ko’ã pauta ndojaho’íriva, evota reñamindu’uhaichaite. Ndaikatúiramo añetehápe eiporavo, eipuru pe votõ jepoha ha eku’ejey ambue ñeñongatu ndive.
 see-more = <chevron></chevron>Ehechave
 see-less = <chevron></chevron>Ehecha’ive
 

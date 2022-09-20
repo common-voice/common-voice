@@ -14,6 +14,106 @@ const localeMessagesPath = path.join(
   'locales'
 );
 
+type Variant = {
+  id?: number;
+  variant_name?: string;
+  variant_token: string;
+  locale_name?: string;
+};
+
+const VARIANTS: Variant[] = [
+  {
+    locale_name: 'cy',
+    variant_name: 'North-Western Welsh',
+    variant_token: 'cy-northwes',
+  },
+  {
+    locale_name: 'cy',
+    variant_name: 'North-Eastern Welsh',
+    variant_token: 'cy-northeas',
+  },
+  {
+    locale_name: 'cy',
+    variant_name: 'Mid Wales',
+    variant_token: 'cy-midwales',
+  },
+  {
+    locale_name: 'cy',
+    variant_name: 'South-Western Welsh',
+    variant_token: 'cy-southwes',
+  },
+  {
+    locale_name: 'cy',
+    variant_name: 'South-Eastern Welsh',
+    variant_token: 'cy-southeas',
+  },
+  {
+    locale_name: 'cy',
+    variant_name: 'Patagonian Welsh',
+    variant_token: 'cy-wladfa',
+  },
+  {
+    locale_name: 'sw',
+    variant_name: 'Kiswahili Sanifu (EA)',
+    variant_token: 'sw-sanifu',
+  },
+  {
+    locale_name: 'sw',
+    variant_name: 'Kiswahili cha Bara ya Kenya',
+    variant_token: 'sw-barake',
+  },
+  {
+    locale_name: 'sw',
+    variant_name: 'Kiswahili cha Bara ya Tanzania',
+    variant_token: 'sw-baratz',
+  },
+  {
+    locale_name: 'sw',
+    variant_name: 'Kingwana (DRC)',
+    variant_token: 'sw-kingwana',
+  },
+  {
+    locale_name: 'sw',
+    variant_name: 'Kimvita (KE) - Central dialect',
+    variant_token: 'sw-kimvita',
+  },
+  {
+    locale_name: 'sw',
+    variant_name: 'Kibajuni (KE) - Northern dialect',
+    variant_token: 'sw-kibajuni',
+  },
+  {
+    locale_name: 'sw',
+    variant_name: 'Kimrima (TZ) - Northern dialect',
+    variant_token: 'sw-kimrima',
+  },
+  {
+    locale_name: 'sw',
+    variant_name: 'Kiunguja (TZ) - Southern dialect',
+    variant_token: 'sw-kiunguja',
+  },
+  {
+    locale_name: 'sw',
+    variant_name: 'Kipemba (TZ) - Southern dialect',
+    variant_token: 'sw-kipemba',
+  },
+  {
+    locale_name: 'sw',
+    variant_name: 'Kimakunduchi/Kikae (TZ) - Southern dialect',
+    variant_token: 'sw-kikae',
+  },
+  {
+    locale_name: 'pt',
+    variant_name: 'Portuguese (Brasil)',
+    variant_token: 'pt-BR',
+  },
+  {
+    locale_name: 'pt',
+    variant_name: 'Portuguese (Portugal)',
+    variant_token: 'pt-PT',
+  },
+];
+
 type Locale = {
   code: string;
   direction: string;
@@ -85,7 +185,7 @@ const fetchPontoonLanguages = async (): Promise<any[]> => {
 };
 
 export async function importLocales() {
-  console.log('Importing languages');
+  console.log('Importing languages...');
   const locales = await fetchPontoonLanguages();
   console.log('Got Pontoon Languages');
   const nativeNames = buildLocaleNativeNameMapping();
@@ -151,7 +251,7 @@ export async function importLocales() {
       return obj;
     }, {});
 
-    console.log('Saving langauge data to database');
+    console.log('Saving language data to database');
 
     await Promise.all(
       locales.map(async lang => {
@@ -180,7 +280,7 @@ export async function importLocales() {
             `INSERT IGNORE INTO locales(name, target_sentence_count, native_name, is_contributable, is_translated, text_direction) VALUES (?)`,
             [
               [
-                nativeNames[lang.code] ? nativeNames[lang.code] : lang.code,
+                lang.code,
                 newLanguageData[lang.code].target_sentence_count,
                 lang.name,
                 newLanguageData[lang.code].is_contributable,
@@ -192,12 +292,50 @@ export async function importLocales() {
         }
       })
     );
-    console.log('Saving accent data to database');
+    console.log('Saving accents to database');
 
     // Make sure each language has at minimum an "unspecified" accent
     await db.query(`
     INSERT IGNORE INTO accents (locale_id, accent_name, accent_token, user_submitted)
     SELECT id, "", "unspecified", 0 from locales`);
+
+    console.log('Saving variants to database');
+
+    //get languages again, since new langauges may have been added
+    const [languageQuery] = await db.query(
+      `SELECT id, name FROM locales where name is not null`
+    );
+
+    //reshape query results into object
+    const mappedLanguages = languageQuery.reduce(
+      (obj: any, current: { id: string; name: string }) => {
+        obj[current.name] = current.id;
+        return obj;
+      },
+      {}
+    );
+    console.log('mapped things', mappedLanguages);
+
+    await Promise.all(
+      VARIANTS.map(row => {
+        const langId = mappedLanguages[row.locale_name];
+        //return early if language is not found in database
+        if (!langId) return;
+        return db.query(
+          `
+          INSERT IGNORE INTO variants (locale_id, variant_token, variant_name) VALUES (?)
+        `,
+          [
+            [
+              mappedLanguages[row.locale_name],
+              row.variant_token,
+              row.variant_name,
+            ],
+          ]
+        );
+      })
+    );
+    console.log('Importing variants completed');
   }
   console.log('Importing languages completed');
 }

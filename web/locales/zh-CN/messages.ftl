@@ -542,6 +542,9 @@ about-playbook-what-is-language-content-3 = 某些语言在内部有诸多语法
 ## How do I add a language
 
 about-playbook-how-add-language = 如何添加语言？
+about-playbook-how-add-language-translating-heading = 翻译网站
+about-playbook-how-add-language-translating-content-1 = <translateVideoLink>观看 Pontoon 使用指南。</translateVideoLink>
+about-playbook-how-add-language-collecting-sentences-heading = 收集句子
 
 ## How does localization work
 
@@ -765,6 +768,8 @@ language-search-input =
 language-speakers = 参与人数
 localized = 本地化
 sentences = 句子
+language-validation-hours = 小时
+language-validation-progress = 验证进度
 
 ## Contribution
 

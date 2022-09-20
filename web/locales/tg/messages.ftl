@@ -360,6 +360,8 @@ download-profile = Боргирӣ кардани маълумоти ман
 contribution-experience = Таҷрибаи саҳмгузорӣ
 off = Ғайрифаъол
 on = Фаъол
+help-accent = Оид ба лаҳҷа кумак лозим аст?
+help-variants = Оид ба гунаҳо кумак лозим аст?
 
 ## Profile - Email
 
@@ -410,6 +412,7 @@ about-nav-why-common-voice = Чаро?
 about-nav-how-it-works = Чӣ тавр?
 about-nav-partners = Шарикон
 about-nav-get-involved = Ҳамроҳ шудан
+about-nav-playbook = Тарзи иштирок намуданро омӯзед
 
 ## Community Playbook Content
 ## What is a language
@@ -417,6 +420,7 @@ about-nav-get-involved = Ҳамроҳ шудан
 
 ## How do I add a language
 
+about-playbook-how-add-language = Чӣ тавр ман забонро илова намоям?
 about-playbook-how-add-language-translating-heading = Тарҷумаи сомона
 about-playbook-how-add-language-collecting-sentences-heading = Ҷамъкунии ҷумлаҳо
 
@@ -426,13 +430,16 @@ about-playbook-how-localize = Чӣ тавр маҳаллисозии сомон�
 
 ## How to add sentences
 
+about-playbook-how-add-sentences = Чӣ тавр ман ибораҳоро илова намоям?
 
 ## How to record quality
 
+about-playbook-how-record-quality = Чӣ тавр ман сабти овозии баландсифатро сабт намоям?
 
 ## How to grow language
 
 about-playbook-how-grow-language-content-2 = Рӯйдодҳо
+about-playbook-how-grow-language-content-6 = Шарикӣ ва шабакаҳо
 
 ## How to validate
 
@@ -442,6 +449,7 @@ about-playbook-how-grow-language-content-2 = Рӯйдодҳо
 
 ## How are decisions made
 
+about-playbook-how-project-governance-content-3 = Махфият, амният ва шаффофият.
 
 ## Glossary
 
@@ -482,6 +490,7 @@ review-delete-recordings = Нест кардани сабтҳои ман
 
 ## Datasets Page
 
+datasets-heading = Маҷмӯаи маълумот
 language = Забон
 # File size in gigabytes
 size = Андоза
@@ -539,6 +548,7 @@ language-search-input =
     .placeholder = Ҷустуҷӯ
 language-speakers = Баландгӯякҳо
 sentences = Ҷумлаҳо
+language-validation-hours = Соат
 
 ## Contribution
 
@@ -628,6 +638,7 @@ read-more-about = Дар саҳифаи «Дар бораи мо» бештар 
 
 ## DemoLayout
 
+demo-get-started = Биёед оғоз намоем
 
 ## Demo Datasets
 
@@ -647,6 +658,7 @@ demo-listen-subtitle = Ба саҳмгузорӣ омода ҳастед?
 
 ## Validation criteria
 
+contribution-for-example = масалан
 
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.

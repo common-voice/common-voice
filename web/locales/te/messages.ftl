@@ -11,6 +11,7 @@ loading = వస్తోంది…
 email-opt-in-info-title = కామన్ వాయిస్ మెయిలింగ్ జాబితాలో చేరండి
 indicates-required = * ఖచ్చితంగా పూరించవలసిన ఖాళీ
 not-available-abbreviation = వర్తించదు
+error-something-went-wrong = క్షమించండి, ఏదో తప్పు జరిగింది
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -35,6 +36,7 @@ be = బెలారుసియన్
 bg = బల్గేరియన్
 bn = బెంగాలి
 br = బ్రెటోన్
+bs = బోస్నియన్
 bxr = బుర్యాత్
 ca = కాటలాన్
 cak = కాక్చికెల్
@@ -86,6 +88,7 @@ kbd = కబార్డియన్
 ki = కికుయు
 kk = కజక్
 kmr = కుర్మంజీ కుర్దిష్
+knn = కొంకణి (దేవనాగరి)
 ko = కొరియన్
 kpv = కొమి-జిరియన్
 kw = కార్నిష్
@@ -242,6 +245,7 @@ join-newsletter = ప్రాజెక్టు గురించిన కొ
 
 ## What's public
 
+whats-public = ఏది బహిరంగం?
 email-not-public = మేము మీ ఈమెయిలును బహిరంగపరచము.
 recordings-and-locale-public = రికార్డింగుల సంఖ్య, మీరు ఏయే భాషలకు తోడ్పడుతున్నారన్నది బహిరంగంగా ఉంటుంది.
 username-optin-public = మీ వాడుకరి పేరును బహిరంగపరచవచ్చు లేదా అనామకంగా ఉంచుకోవచ్చు.
@@ -273,7 +277,6 @@ shortcut-record-toggle-label = రికార్డు/ఆపు
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = క్లిప్‌ను తిరిగి రికార్డ్ చేయండి
 request-language-text = ఇంకా కామన్ వాయిస్‍లో మీ భాష కనబడలేదా?
-request-language-text-learn = దీన్ని ఎలా అభ్యర్థించాలో ఇక్కడ తెలుసుకోండి!
 request-language-button = ఒక భాషని అభ్యర్థించండి
 
 ## ProjectStatus
@@ -298,6 +301,8 @@ profile-form-native-language =
     .label = స్థానిక భాష
 profile-form-additional-language =
     .label = అదనపు భాష
+profile-form-language =
+    .label = భాష
 profile-form-accent =
     .label = యాస
 profile-form-age =
@@ -394,8 +399,6 @@ about-listen-queue = లిజన్-క్యూ
 about-listen = వినండి
 about-dataset-new = కామన్ వాయిస్ దత్తసమితి
 about-clip-graveyard = క్లిప్ స్మశానం
-about-partners = భాగస్వాములు
-about-become-a-partner = భాగస్వామి అవ్వండి
 about-get-involved = పాలుపంచుకోండి
 about-nav-why-common-voice = ఎందుకు?
 about-nav-how-it-works = ఎలా?
@@ -420,6 +423,8 @@ about-nav-get-involved = పాల్గొనండి
 
 ## How to grow language
 
+about-playbook-how-grow-language-content-2 = కార్యక్రమాలు
+about-playbook-how-grow-language-content-4 = సామాజిక మాధ్యమాలు
 
 ## How to validate
 
@@ -429,8 +434,6 @@ about-nav-get-involved = పాల్గొనండి
 
 ## How are decisions made
 
-mycroft-title = Mycroft Ai
-mycroft-subtitle = కృత్రిమ మేధ
 
 ## Glossary
 
@@ -459,6 +462,7 @@ data-other-goto = { $name }కు వెళ్ళండి
 data-other-download = డేటాను దింపుకోండి
 data-bundle-button = డేటాసెట్ బండిల్‌ను దింపుకోండి
 data-bundle-description = Common Voice డేటా, దానితోపాటు పైన ఉన్న అన్ని ఇతర వాయిస్ డేటాసెట్లు.
+dataset-date = తేదీ
 license = లైసెన్సు: <licenseLink>{ $license }</licenseLink>
 license-mixed = మిశ్రమం
 review-terms = కామన్ వాయస్ వాడటం ద్వారా, మీరు మా <termsLink>నియమాలను</termsLink>, <privacyLink>గోప్యతా ప్రకటన</privacyLink>ను అంగీకరిస్తున్నారు
@@ -536,6 +540,14 @@ request-language-success-content = త్వరలో మీ భాషని క
 select-language = భాషను ఎంచుకోండి...
 other-language = ఇతర భాష
 
+## Request Language Pages
+
+request-language-form-email =
+    .label = మీ ఈమెయిలు చిరునామా
+request-language-form-info =
+    .label = భాష గురించిన సమాచారం
+request-language-form-info-explanation-list-1 = మీ భాష పేర్లు
+
 ## Languages Overview
 
 language-section-in-progress = పురోగతిలో ఉన్నవి
@@ -549,7 +561,8 @@ language-search-input =
 language-speakers = మాట్లాడేవారు
 localized = స్థానీకీకృతం
 sentences = వాక్యాలు
-total-hours = మొత్తం గంటలు
+language-validation-hours = గంటలు
+language-validation-progress = సరిచూత పురోగతి
 
 ## Contribution
 
@@ -596,6 +609,7 @@ record-button-label = మీ గొంతును రికార్డు చ�
 share-title-new = మరిన్ని గొంతులను కనుగొనడంలో <bold>మాకు తోడ్పడండి</bold>
 keep-track-profile = ప్రొఫైలుతో మీ పురోగతిని గమనిస్తూండండి
 login-to-get-started = మొదలుపెట్టడానికి ప్రవేశించండి లేదా నమోదవ్వండి
+target-segment-learn-more = ఇంకా తెలుసుకోండి
 
 ## Reporting
 
@@ -609,6 +623,11 @@ days =
     { $count ->
         [one] రోజు
        *[other] రోజులు
+    }
+validations =
+    { $count ->
+        [one] సరిచూత
+       *[other] సరిచూతలు
     }
 
 ## Dashboard
@@ -631,6 +650,13 @@ overall-accuracy = మొత్తం ఖచ్చితత్వం
 
 ## Custom Goals
 
+easy-difficulty = తేలిక
+average-difficulty = సగటు
+difficult-difficulty = కష్టం
+cant-decide = తేల్చుకోలేకున్నారా?
+share-goal-type-speak = మాట్లాడటం
+share-goal-type-listen = వినడం
+share-goal-type-both = మాట్లాడటం, వినడం
 
 ## Profile Delete
 
@@ -641,6 +667,8 @@ profile-form-delete = ప్రొఫైలును తొలగించు
 
 ## Profile Download
 
+download-size = పరిమాణం
+download-request-modal-title = దింపుకోలు లంకెలు
 
 ## Landing
 
@@ -652,6 +680,9 @@ read-more-about = మా గురించి పేజీలో మరిం�
 
 ## Demo Datasets
 
+card-button-next = తదుపరి
+card-button-back = వెనుకకు
+demo-account = ఖాతా
 
 ## Demo Account
 
@@ -672,6 +703,12 @@ read-more-about = మా గురించి పేజీలో మరిం�
 
 ## HEADER/FOOTER
 
+sc-header-home = ముంగిలి
+sc-header-my = నా వాక్యాలు
+sc-header-statistics = గణాంకాలు
+sc-footer-privacy = గోప్యత
+sc-footer-terms = నియమాలు
+sc-footer-cookies = కుకీలు
 
 ## HOME
 
@@ -684,12 +721,17 @@ read-more-about = మా గురించి పేజీలో మరిం�
 
 ## MY SENTENCES
 
+sc-my-title = నా వాక్యాలు
+# Variables:
+#   $source (String) - Associated source the user filled out when uploading the sentence
+sc-my-source = మూలం:  { $source }
 
 ## REJECTED
 
 
 ## STATS
 
+sc-stats-title = గణాంకాలు
 
 ## ADD
 
@@ -708,15 +750,25 @@ read-more-about = మా గురించి పేజీలో మరిం�
 
 ## PROFILE
 
+sc-personal-your-languages = మీ భాషలు:
+sc-personal-remove-button = తీసివేయి
+sc-personal-not-added = మీరు ఇంకా భాషలేమీ చేర్చలేదు.
 
 ## REVIEW CRITERIA
 
 
 ## REVIEW
 
+# Variables:
+#   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
+sc-review-form-source = మూలం: { $sentenceSource }
+sc-review-form-button-reject = తిరస్కరించు
+sc-review-form-button-skip = దాటవేయి
+sc-review-form-button-approve = ఆమోదించు
 
 ## SETTINGS
 
+sc-settings-title = అమరికలు
 
 # [/SentenceCollector]
 

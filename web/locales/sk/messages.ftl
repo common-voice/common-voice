@@ -76,6 +76,7 @@ gom = goan konkani
 ha = hauština
 he = hebrejčina
 hi = hindčina
+hil = hiligaynon
 hr = chorvátčina
 hsb = hornolužická srbčina
 ht = haitská kreolčina
@@ -90,6 +91,7 @@ is = islandčina
 it = taliančina
 izh = izorčina
 ja = japončina
+jbo = lojban
 ka = gruzínčina
 kaa = karakalpačtina
 kab = kabylčina
@@ -98,6 +100,7 @@ ki = kikujčina
 kk = kazaština
 km = khmérčina
 kmr = kurmanji kurdčina
+kn = kannadčina
 knn = konkani (devanagari)
 ko = kórejčina
 kpv = komi-zyriančina
@@ -106,6 +109,8 @@ ky = kirgizština
 lb = luxemburčina
 lg = gandčina
 lij = ligúrčina
+ln = lingalčina
+lo = laoština
 lt = litovčina
 lv = lotyština
 mai = maithilčina
@@ -152,11 +157,13 @@ sah = jakutčina
 sat = santali (Ol Chiki)
 sc = sardínčina
 scn = sicílčina
+sdh = južná kurdčina
 shi = shilha
 si = sinhalčina
 sk = slovenčina
 skr = saraiki
 sl = slovinčina
+snk = soninke
 so = somálčina
 sq = albánčina
 sr = srbčina
@@ -194,6 +201,7 @@ xh = xhoština
 yi = jidiš
 yo = jorubčina
 yue = kantónčina
+zgh = tuaregčina
 zh-CN = čínština (Čína)
 zh-HK = čínština (Hongkong)
 zh-TW = čínština (Taiwan)
@@ -1007,22 +1015,22 @@ set-a-goal = Vytvoriť cieľ
 cant-decide = Nemôžete sa rozhodnúť?
 activity-needed-calculation-plural =
     { NUMBER($totalHours) ->
-        [one] { $totalHours } hodina
-        [few] { $totalHours } hodiny
-       *[other] { $totalHours } hodín
-    }je dosiahnuteľných už o{ NUMBER($periodMonths) ->
-        [one] { $periodMonths } mesiac
-        [few] { $periodMonths } mesiace
-       *[other] { $periodMonths } mesiacov
-    }ak{ NUMBER($people) ->
-        [one] { $people } človek
-        [few] { $people } ľudia
-       *[other] { $people } ľudí
-    }nahrá{ NUMBER($clipsPerDay) ->
-        [one] { $clipsPerDay } nahrávku
-        [few] { $clipsPerDay } nahrávky
-       *[other] { $clipsPerDay } nahrávok
-    }za deň.
+        [one] { $totalHours } hodina je dosiahnuteľných už o
+        [few] { $totalHours } hodiny je dosiahnuteľných už o
+       *[other] { $totalHours } hodín je dosiahnuteľných už o
+    }{ NUMBER($periodMonths) ->
+        [one] { $periodMonths } mesiac ak
+        [few] { $periodMonths } mesiace ak
+       *[other] { $periodMonths } mesiacov ak
+    }{ NUMBER($people) ->
+        [one] { $people } človek nahrá
+        [few] { $people } ľudia nahrá
+       *[other] { $people } ľudí nahrá
+    }{ NUMBER($clipsPerDay) ->
+        [one] { $clipsPerDay } nahrávku za deň.
+        [few] { $clipsPerDay } nahrávky za deň.
+       *[other] { $clipsPerDay } nahrávok za deň.
+    }
 how-many-per-day = Skvelé! Koľko nahrávok za deň?
 how-many-a-week = Skvelé! Koľko nahrávok za týždeň?
 which-goal-type = Chcete hovoriť, počúvať alebo oboje?

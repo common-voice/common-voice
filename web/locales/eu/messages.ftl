@@ -510,6 +510,7 @@ about-get-involved-text-2 =
 about-stay-in-touch = Nola egon naiteke harremanetan?
 about-stay-in-touch-button = Eman izena
 about-stay-in-touch-text-1 = <emailFragment>Harpidetu</emailFragment> gure eposta-zerrendara kanpainetan eta ekitaldietan nola parte hartu ikasteko eta Common Voicen ezaugarriak diseinatzen laguntzeko.
+about-stay-in-touch-text-2 = Beste Mozilla hizkuntza-komunitateekin kontaktuan egoteko batu zaitez <discourseLink>Discourse</discourseLink>-ra gaien araberako elkarrizketak izateko eta <matrixLink>Matrix</matrixLink>-era aholku azkarretarako.
 about-nav-why-common-voice = Zergatik?
 about-nav-how-it-works = Nola?
 about-nav-partners = Babesleak
@@ -521,6 +522,7 @@ about-nav-playbook = Ikasi nola parte hartu
 ## What is a language
 
 about-playbook-what-is-language = Zer da hizkuntza bat Common Voicen?
+about-playbook-what-is-language-content-1 = Hizkuntza bat zer den pentsatzeko era asko dago. Hizketaren ezagutzako ereduak kontuan hartuz, Common Voicek ‘elkarrekiko ulergarritasunari‘ erreparatzen dio, hau da, ‘hizkuntza honetako hiztunek beste batekoek dioten gehiena uler dezakete saiatzen badira?’
 about-playbook-what-is-language-content-3 = Hizkuntza batzuek sekulako aldaketak dituzte gramatika, hiztegi eta ahoskera aldetik. Arrazoi honengatik, <ctaLink>‘Aldaerak’ aurkezten</ctaLink> ari gara 2022an. Honek komunitateei beraien hizkuntzak datu-sorta handiagoetan bereizteko aukera ematen die.
 
 ## How do I add a language
@@ -658,6 +660,7 @@ subscribe = Harpidetu
 get-started-speech = Ikasi hizketaren ezagutzari buruz
 other-datasets = Beste ahots datu-sortak
 feedback-q = Zerbait komentatu nahi diguzu?
+resource-coqui-info = <coquiLink>Coqui</coquiLink> hizkuntza-teknologia irekiak lantzen ditu. Bere proiektuen artean ikasketa automatikoan oinarritutako STT eta TTS motorrak daude.
 community-playbook = Komunitatearen eskuliburua
 data-other-librispeech-description = LibriSpeech 16 Khz-tan grabatutako 1.000 ordu inguruko corpusa da, LibriVox proiektuko audio-liburuak ingelesez irakurrita.
 data-other-ted-name = TED-LIUM corpusa
@@ -1284,6 +1287,13 @@ sc-review-form-source = Iturria: { $sentenceSource }
 sc-review-form-button-reject = Baztertu
 sc-review-form-button-skip = Saltatu
 sc-review-form-button-approve = Onartu
+# Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
+sc-review-form-button-approve-shortcut = B
+# Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
+sc-review-form-button-reject-shortcut = E
+# Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
+sc-review-form-button-skip-shortcut = S
+sc-review-form-keyboard-usage-custom = Teklatuko lasterbideak ere erabil ditzakezu: { sc-review-form-button-approve-shortcut } Onartzeko, { sc-review-form-button-reject-shortcut } Baztertzeko, { sc-review-form-button-skip-shortcut } Saltatzeko.
 sc-review-form-button-submit =
     .submitText = Amaitu berrikusketa
 sc-review-link = Berrikusi
