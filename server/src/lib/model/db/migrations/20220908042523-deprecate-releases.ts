@@ -20,7 +20,6 @@ export const up = async function (db: any): Promise<any> {
       'cv-corpus-6.1-2020-12-11',
       'cv-corpus-6.1-singleword',
       'cv-corpus-7.0-2021-07-21',
-      'cv-corpus-7.0-singleword',
       'cv-corpus-8.0-2022-01-19'
       )
   `);
