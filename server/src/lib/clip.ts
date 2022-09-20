@@ -131,7 +131,7 @@ export default class Clip {
         headers,
         response,
         422,
-        `clip not found: ${id}`,
+        `clip not found`,
         ERRORS.CLIP_NOT_FOUND,
         'vote'
       );
@@ -200,7 +200,7 @@ export default class Clip {
         headers,
         response,
         422,
-        `sentence not found: ${sentenceId}`,
+        `sentence not found`,
         ERRORS.SENTENCE_NOT_FOUND,
         'clip'
       );
@@ -255,7 +255,7 @@ export default class Clip {
             headers,
             response,
             500,
-            `${error} for ${metadata}`,
+            `${error}`,
             `ffmpeg ${error}`,
             'clip'
           );
