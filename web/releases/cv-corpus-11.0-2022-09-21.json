@@ -1,5 +1,5 @@
 {
-  "bundleURLTemplate": "cv-corpus-11.0-2022-09-21/{locale}.tar.gz",
+  "bundleURLTemplate": "cv-corpus-11.0-2022-09-21/cv-corpus-11.0-2022-09-21-{locale}.tar.gz",
   "date": "2022-09-21",
   "name": "Common Voice Corpus 11.0",
   "multilingual": true,
