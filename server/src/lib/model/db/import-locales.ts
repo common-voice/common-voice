@@ -314,7 +314,6 @@ export async function importLocales() {
       },
       {}
     );
-    console.log('mapped things', mappedLanguages);
 
     await Promise.all(
       VARIANTS.map(row => {

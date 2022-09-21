@@ -9115,6 +9115,7 @@ Do you want to get us pinched?
 Do you want to go?
 Do you want to hear it?
 Do you want to join, Fox?
+Do you want to play a game Thursday?
 Do you want to see it?
 Do you want to wash before dinner?
 Do you want us to be poor, mother?
@@ -12821,6 +12822,7 @@ He is luxuriating in a misplaced confidence.
 He is mad as some March hatters.
 He is married to the Fire.
 He is more powerful than all the rest of us together.
+He is my shepherd.
 He is not a candidate.
 He is not a trifling, silly young man.
 He is not afraid of a kitten.
@@ -12981,6 +12983,7 @@ He lay quite still, almost unable to move.
 He lay quite stunned and still.
 He lay still, with tiny bits of snow tickling his face.
 He lay there for a moment in acute distributed pain.
+He leads me beside the quiet river.
 He leaned forward hurriedly and tapped at the glass.
 He leaned his elbows on the table and bent forward.
 He leaned on his axe and thought a moment.
@@ -13492,6 +13495,7 @@ He resolved to have a gamble on the steeplechase.
 He resolved to interview the absentees.
 He resolved to take Davidson first.
 He responded with apathy.
+He restores my soul.
 He resumed his examination of the rooms.
 He resumed speech like one who talks to himself.
 He resumed them immediately after your departure.
@@ -19233,6 +19237,7 @@ I know, but she was pretty.
 I know, far better than they do, when the attraction has begun.
 I know. One of those soldiers was my son Major Beau Biden.
 I know; it is very embarrassing.
+I lack nothing.
 I laid a hand gently on his shoulder.
 I laid it on again.
 I laid my hand softly on her shoulder.
@@ -20804,6 +20809,7 @@ I visited one yesterday, they have shelter.
 I vote we get some tea first somewhere.
 I waited for a bit, and then started to explore the cupboard shelves.
 I wake up from a terrifying nightmare, my heart pounding.
+I walk though the darkest valley.
 I walked fast to avoid being overtaken.
 I walked forward a few steps.
 I want... I want to go away.
@@ -20835,6 +20841,7 @@ I want to be alone.
 I want to be great, or nothing.
 I want to be the rat bachelor.
 I want to become a Restaurateur.
+I want to buy some clothes Tuesday.
 I want to buy two hamburgers.
 I want to compose my speech.
 I want to die in it.
@@ -41107,6 +41114,7 @@ Then he laughed in a friendly way at himself.
 Then he laughed joyfully.
 Then he lay and thought.
 Then he left her again and joined the others.
+Then he left the bindery without another word.
 Then he lit another cigarette.
 Then he looked at Lord Henry.
 Then he looked up.
@@ -42884,6 +42892,7 @@ They frequently make these jumpers to convey their game home.
 They gazed upon each other in silence.
 They generally had their meals here.
 They give me a month to restore the money.
+They give me strength.
 They give utterance to perky platitudes about the clergy.
 They go out rat-catching in the village, and they find plenty of employment.
 They go to some stand and eat enchiladas and tamales.
@@ -49796,6 +49805,7 @@ You are very poor, ain't you?
 You are very welcome.
 You are wanted in the other room, Miss Rose.
 You are wearing gym shoes?
+You are with me.
 You are worse than twenty foes, you poisonous friend!
 You are wrong, Jeeves.
 You are, of course, Master.
