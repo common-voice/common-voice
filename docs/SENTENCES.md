@@ -18,7 +18,7 @@ The [Sentence Collector](https://commonvoice.mozilla.org/sentence-collector/) we
 
 Each sentence requires at least two upvotes from human validation to be considered valid.
 
-Every week, a GitHub automatized action send validated sentences from the Sentence Collector to be exported and added to the Common Voice database.
+Every week, validated sentences from the Sentence Collector will be exported and added to the Common Voice repository. These will be available on the Common Voice site the next time there's a release.
 
 ## Automatic extraction
 
