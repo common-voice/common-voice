@@ -99,6 +99,7 @@ kbd = Kabardian
 ki = ພາສາຄິຄູຢຸ
 kk = ພາ​ສາ​ຄາ​ຊັກ
 km = ພາສາກຳປູເຈຍ
+kmr = Kurmanji Kurdish
 ko = ພາສາເກົາຫຼີ
 kw = ພາ​ສາ​ຄໍ​ນິດ
 ky = ພາສາກິຣກິສ
@@ -118,6 +119,8 @@ mr = ພາສາມາຣາຕີ
 ms = ພາສາມາເລ
 mt = ພາສາມອນຕາ
 my = ພາ​ສາພະ​ມ້​າ
+myv = Erzya
+nan-tw = ໄຕ້ຫວັນ (ມິນນານ)
 nb-NO = ພາສານໍເວບັອກມວລ
 nd = IsiNdebele (ເໜືອ)
 ne-NP = ພາສາເນປານ
@@ -160,10 +163,13 @@ tr = ພາສາຕຸຣະກີ
 tt = ພາສາຕາຕ່າ
 tw = ພາສາຕະວີ
 ty = ພາສາຕາຮິຕຽນ
+uby = Ubykh
 udm = ພາສາຢູດເມີດ
+ug = ພາສາອຸຍເກີກ
 uk = ພາສາຢູເຄຣນ
 ur = ພາສາອູຣດູ
 uz = ພາສາອຸສເບກິສຖານ
+ve = Tshevenda
 vec = ພາ​ສາ​ເວ​ເນ​ຕຽນ
 vi = ພາສາຫວຽດນາມ
 vot = Votic
@@ -201,6 +207,7 @@ logout = ອອກຈາກລະບົບ
 
 ## Home Page
 
+home-cta = ເວົ້າເລີຍ, ປະກອບສ່ວນຢູ່ທີ່ນີ້!
 show-wall-of-text = ອ່ານ​ຕື່ມ
 vote-yes = ແມ່ນ
 vote-no = ບໍ່
@@ -265,6 +272,7 @@ shortcut-rerecord-toggle = [1-5]
 shortcut-discard-ongoing-recording = ESC
 shortcut-submit = ກັບຄືນ
 shortcut-submit-label = ສົ່ງຄລິບ
+request-language-button = ຮ້ອງຂໍພາສາ
 
 ## ProjectStatus
 
