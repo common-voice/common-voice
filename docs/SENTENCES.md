@@ -13,13 +13,14 @@ As Common Voice is a read dataset, sentences are our currency. You can help by a
 
 The [Sentence Collector](https://commonvoice.mozilla.org/sentence-collector/) is a website for crowdsourcing sentences for Common Voice. You can either:
 
-- Add sentences for your language (there is a few cleanup and validation routines under the hood)
+- Add sentences for your language 
 - Validate sentences that other contributors have added
 
 Each sentence requires at least two upvotes from human validation to be considered valid.
 
-Every week, validated sentences from the Sentence Collector will be exported and added to the Common Voice repository. These will be available on the Common Voice site the next time there's a release.
+Every week, validated sentences from the Sentence Collector will be exported and added to the Common Voice repository, and will be available at the next release of the Common Voice website. 
 
+For more detailled explanations, see the [ReadMe file](https://github.com/common-voice/sentence-collector/blob/main/README.md) of the Sentence Collector.
 ## Automatic extraction
 
 The Sentence Extractor is a tool that can scrape public domain data sources for sentences. There are multiple sources integrated into the Sentence Extractor, such as Wikipedia and Wikisource. Please [see this post](https://discourse.mozilla.org/t/sentence-extractor-current-status-and-workflow-summary/62332) for detailed guidance on how to use the Sentence Extractor.
