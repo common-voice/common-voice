@@ -7,7 +7,7 @@ As Common Voice is a read dataset, sentences are our currency. You can help by a
 
 📘 Contributors who want to [bulk upload](https://en.wikipedia.org/wiki/Bulk_insert) thousands of sentences, like for books, should check out the [Bulk Submission](https://github.com/common-voice/common-voice/blob/main/docs/SENTENCES.md#bulk-submission) guidelines below. There is no dedicated repository for this.
 
-🖥️ Finally, for automatic extraction of data sources, the Sentence Extractor repo ([common-voice/cv-sentence-extractor](https://github.com/Common-Voice/cv-sentence-extractor)) is dedicated for it. It can be Wikipedia, Wikisource, raw file... 
+🖥️ For automatic extraction of data sources, the [Sentence Extractor](https://github.com/Common-Voice/cv-sentence-extractor) is dedicated for extracting from sources such as Wikipedia, Wikisource or raw files.
 
 ## Sentence Collector
 
