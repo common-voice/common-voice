@@ -1,5 +1,8 @@
 {
   "bundleURLTemplate": "https://voice-prod-bundler-ee1969a6ce8178826482b88e843c335139bd3fb4.s3.amazonaws.com/cv-corpus-11.0-2022-09-21/{locale}.tar.gz",
+  "date": "2022-09-21",
+  "name": "Common Voice Corpus 11.0",
+  "multilingual": true,
   "locales": {
     "en": {
       "duration": 11152496587,
