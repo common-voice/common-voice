@@ -5,7 +5,7 @@ As Common Voice is a read dataset, sentences are our currency. You can help by a
 ## In a few words...
 📝 Sentence collector is made for everyday users to have a webpage (the [Sentence Collector webpage](https://commonvoice.mozilla.org/sentence-collector/)) allowing them to load some sentences 'directly' from the Common Voice webpage. It has it's own repo in [common-voice/sentence-collector](https://github.com/common-voice/sentence-collector). **This is a good place to start** for newcomers to this project.
 
-📘 For power users who want's to [bulk](https://en.wikipedia.org/wiki/Bulk_insert) uploads of thousands of sentences, like for books, Sentence Collector is not the best tool, and they _should definitely_ check out below the [Bulk Submission](https://github.com/common-voice/common-voice/blob/main/docs/SENTENCES.md#bulk-submission) guidelines for this use case 😉. There is no dedicated repo.
+📘 Contributors who want to [bulk upload](https://en.wikipedia.org/wiki/Bulk_insert) thousands of sentences, like for books, should check out the [Bulk Submission](https://github.com/common-voice/common-voice/blob/main/docs/SENTENCES.md#bulk-submission) guidelines below. There is no dedicated repository for this.
 
 🖥️ Finally, for automatic extraction of data sources, the Sentence Extractor repo ([common-voice/cv-sentence-extractor](https://github.com/Common-Voice/cv-sentence-extractor)) is dedicated for it. It can be Wikipedia, Wikisource, raw file... 
 
