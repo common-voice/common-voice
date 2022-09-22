@@ -23,7 +23,7 @@ Every week, validated sentences from the Sentence Collector will be exported and
 For more detailed explanations, see the [README file](https://github.com/common-voice/sentence-collector/blob/main/README.md) of the Sentence Collector.
 ## Automatic extraction
 
-The Sentence Extractor is a tool that can scrape public domain data sources for sentences. There are multiple sources integrated into the Sentence Extractor, such as Wikipedia and Wikisource. Please [see this post](https://discourse.mozilla.org/t/sentence-extractor-current-status-and-workflow-summary/62332) for detailed guidance on how to use the Sentence Extractor.
+The [Sentence Extractor](https://github.com/Common-Voice/cv-sentence-extractor) is a tool that can scrape public domain data sources for sentences. There are multiple sources integrated into the Sentence Extractor, such as Wikipedia and Wikisource. Please [see this post](https://discourse.mozilla.org/t/sentence-extractor-current-status-and-workflow-summary/62332) for detailed guidance on how to use the Sentence Extractor.
 
 ## Bulk submission
 
