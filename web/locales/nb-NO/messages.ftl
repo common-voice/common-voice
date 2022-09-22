@@ -314,7 +314,6 @@ shortcut-discard-ongoing-recording-label = Forkast pågående opptak
 shortcut-submit = Enter
 shortcut-submit-label = Send inn klipp
 request-language-text = Ser du ikke språket ditt på Common Voice ennå?
-request-language-text-learn = Les hvordan du kan be om det her!
 request-language-button = Send en forespørsel om et nytt språk
 
 ## ProjectStatus
@@ -445,7 +444,6 @@ faq-do-want-native-a = Ja! Vi vil særlig ha din stemme! Et delmål med Common V
 faq-why-different-speakers-q = Hvorfor trenger dere så mange forskjellige talere per språk?
 faq-why-different-speakers-a = De fleste stemmedatabaser trenes med en overvekt av visse demografier, noe som innebærer vekting mot <articleLink>menn og middelklasse</articleLink>.  Aksenter og dialekter som tenderer til å være underrepresentert i datasettene som benyttes til trening er typisk assosiert med grupper av mennesker som allerede er underrepresentert ellers i samfunnet. Mange talegjenkjenningsmotorer sliter også med å forstå kvinnelige stemmer. Derfor trenger vi stor variasjon i datasettet!
 faq-why-my-lang-q = Hvorfor er ikke mitt språk inkludert ennå?
-faq-why-my-lang-new-a = Mozilla velger eller foretrekker ingen språk over noe annet. I stedet er Common Voice et rent samfunnsdrevet initiativ. Men det krever <multilangLink>mange steg for å legge til et nytt språk</multilangLink> og å begynne med å samle inn lydklipp. Først må Common Voice nettstedet oversettes, slik at medlemmer kan bidra på sitt eget språk. Deretter trenger vi en stor samling med rettighetsfrie setninger som folk kan lese høyt. Når begge disse betingelsene er tilfredsstilt blir språket "lansert" på Common Voice, slik at folk kan begynne å spille inn lydklipp med sin stemme og validere andres bidrag. Om du vil hjelpe til med å lansere et nytt språk, besøk vårt <sentenceCollectorLink>verktøy for setningsinnsamling</sentenceCollectorLink>  for å komme i gang.
 faq-what-quality-q = Hva slags lydkvalitet kreves for at et lydklipp kan brukes i datasettet?
 faq-what-quality-a = Vi vil at Common Voice-datasettet skal reflektere lydkvaliteten som en tale-til-tekst motor opplever i virkeligheten. Så vi trenger variasjon. I tillegg til et variert utvalg av talere, vil et variert utvalg lydkvaliteter lære tale-til-tekst-motoren å håndtere varierende situasjoner i den virkelige verden, som for eksempel stemmer i bakgrunnen eller støy fra biler. Så lenge lydklippet ditt er forståelig. så burde det være godt nok for datasettet.
 faq-why-10k-hours-q = Hvorfor er 10 000 validerte timer målet for innhenting av lydklipp per språk?
@@ -474,10 +472,23 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Hvorfor Common Voice?
+how-does-it-work-title-v2 = Hvordan fungerer Common Voice?
 how-does-it-work-text = Vi masseinnsamler et åpent datasett av stemmer. Bidra med din stemme, valider nøyaktigheten av andres lydklipp, gjør datasettet bedre for alle.
 
 ## How does it work section
 
+about-language-req-subtitle = Noen ber om å legge til et språk.
+about-localization-title = Oversettelse av nettsted
+about-sentence-collection-title = Setningsinnsamling
+about-sentence-collection-subtitle = Det samles inn setninger slik at folk kan lese høyt.
+about-new-lang-title = Lansering av nytt språk
+about-new-lang-subtitle = Vi lanserer Common Voice-siden på dette språket.
+about-voice-contrib-title = Stemmebidrag
+about-voice-contrib-subtitle = Folk kommer og bidrar med sine stemmer.
+about-voice-validation-title = Stemmevalidering
+about-voice-validation-subtitle = Andre personer validerer disse stemmeklippene.
+about-dataset-release-title = Utgivelse av datasett
+about-dataset-release-subtitle = Vi utgir datasettet hver 3. måned.
 about-speak = Tal
 about-speak-text = Bidragsytere spiller inn lydklipp ved å lese inn fra en samling av bidratte setninger.
 about-listen-queue = Lyttekø
@@ -494,9 +505,6 @@ about-dataset-new = Common Voice-datasettet
 about-dataset-new-text = Common Voice-datasettet inneholder hundretusenvis av lydklipp som hjelper utviklere med å lage talegjenkjenningsverktøy.
 about-clip-graveyard = Lydklippfyllinga
 about-clip-graveyard-text = Lydklippfyllinga inneholder lydklipp som ikke ble tatt med i Common Voice-datasettet. Akkurat som datasettet, er også lydklippfyllinga tilgjengelig for nedlasting.
-about-partners = Partnere
-about-become-a-partner = Bli en partner
-about-partnership = Common Voice er et samarbeidsprosjekt, og vi er avhengig av vårt samfunn av partnere og bidragsytere for å bygge det største åpen-kilde datasettet av stemmer noensinne.  Vi vil gjerne få takke følgende personer og organisasjoner for deres bistand med prosjektet:
 about-get-involved = Bli med
 about-get-involved-text-2 =
     Vil du hjelpe til med å gjøre Common Voice enda  bedre?
@@ -535,12 +543,6 @@ about-nav-get-involved = Bli med
 
 ## How are decisions made
 
-mycroft-title = Mycroft AI
-mycroft-subtitle = Kunstig Intelligens
-mycroft-description =
-    Mycroft er verdens første åpen kildekode digitale assistent.
-    Mycroft kjører på hva som helst - en stasjonær PC, i en bil, eller på en Raspberry Pi.
-mycroft-secondary-description = Dette er åpen kildekode som fritt kan endres, utvides og forbedres. Mycroft kan brukes i hva som helst fra vitenskapelige prosjekter til bedriftsapplikasjoner.
 
 ## Glossary
 
@@ -696,7 +698,6 @@ language-search-input =
 language-speakers = Talt av
 localized = Oversatt
 sentences = Setninger
-total-hours = Bekreftede timer
 
 ## Contribution
 
