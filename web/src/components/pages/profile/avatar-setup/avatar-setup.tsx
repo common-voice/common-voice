@@ -186,7 +186,7 @@ class AvatarSetup extends React.Component<Props, State> {
         {account.avatar_url && (
           <div className="avatar-current">
             <div className="avatar-wrap">
-              <img src={account.avatar_url} />
+              <img src={account.avatar_url} alt="avatar" />
             </div>
             <Button
               outline

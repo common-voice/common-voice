@@ -18,7 +18,7 @@ export const Avatar = ({
 }) => (
   <div className={`avatar-wrap ${className ? className : ''}`} style={style}>
     {url ? (
-      <img src={url} alt="" />
+      <img src={url} alt="" role="presentation" />
     ) : (
       <img
         className="mars-avatar"
