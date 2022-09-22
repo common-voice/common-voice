@@ -48,7 +48,7 @@ As a reminder, here is listed the different automated QA applied, depending of t
 * [language](https://github.com/common-voice/cv-sentence-extractor#using-language-rules) rules for Sentence Extractor, 
 * [preprocessor](https://github.com/common-voice/CorporaCreator/tree/master/src/corporacreator/preprocessors) for CorporaCreator ([CorporaCreator](https://github.com/common-voice/CorporaCreator) is the Common Voice extractor that, linking text and recorded voice samples, make them available for [SST](https://en.wikipedia.org/wiki/Speech_recognition) engines' training).
 
-To help you, for exemple with the 'not supervised, do your own QA' bulk submission, you may find interesting to have a look at it. 
+To help you for example with the 'not supervised, do your own QA' bulk submission, you may find these resources interesting. 
 
  
 # Correcting existing data
