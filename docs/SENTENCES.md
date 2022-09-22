@@ -42,7 +42,7 @@ Feel free to set up this QA however makes most sense for you, but here's a [samp
 
 Once the review is complete, submit a pull request with the # of sentences submitted, a link to the manual QA results, and the % error rate. Here's [an example PR](https://github.com/mozilla/common-voice/pull/2873). Please make sure the sentences are in a plain `.txt` file with one sentence per line.
 
-## QA that applies (or not) to the different imputs and outputs
+## QA that applies (or not) to the different inputs and outputs
 As a reminder, here is listed the different automated QA applied, depending of the process.
 * [cleanup](https://github.com/common-voice/sentence-collector/tree/main/server/lib/cleanup) and [validation](https://github.com/common-voice/sentence-collector/tree/main/server/lib/validation) rules for Sentence Collector, 
 * [language](https://github.com/common-voice/cv-sentence-extractor#using-language-rules) rules for Sentence Extractor, 
