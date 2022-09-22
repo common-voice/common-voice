@@ -3,7 +3,7 @@
 As Common Voice is a read dataset, sentences are our currency. You can help by adding new sentences to our dataset for other contributors to read, helping with bulk sentence extractions, or reporting problematic sentences.
 
 ## In a few words...
-📝 [Sentence collector](https://github.com/common-voice/sentence-collector) is a tool for contributors to upload public domain sentences through a website (the [Sentence Collector website](https://commonvoice.mozilla.org/sentence-collector/)) which then can get reviewed and are exported to the [Common Voice database](https://github.com/common-voice/common-voice/tree/main/server/data). Once imported into the Common Voice website, they will show up for contributors to read out aloud. This is a good place to start for newcomers to this project.
+📝 [Sentence collector](https://github.com/common-voice/sentence-collector) is a tool for contributors to upload public domain sentences through a [website](https://commonvoice.mozilla.org/sentence-collector/) which then can get reviewed and are exported to the [Common Voice database](https://github.com/common-voice/common-voice/tree/main/server/data). Once imported into the Common Voice website, they will show up for contributors to read out aloud. This is a good place to start for newcomers to this project.
 
 📘 Contributors who want to [bulk upload](https://en.wikipedia.org/wiki/Bulk_insert) thousands of sentences, like for books, should check out the [Bulk Submission](https://github.com/common-voice/common-voice/blob/main/docs/SENTENCES.md#bulk-submission) guidelines below. There is no dedicated repository for this.
 
