@@ -20,7 +20,7 @@ Each sentence requires at least two upvotes from human validation to be consider
 
 Every week, validated sentences from the Sentence Collector will be exported and added to the Common Voice repository, and will be available at the next release of the Common Voice website. 
 
-For more detailled explanations, see the [ReadMe file](https://github.com/common-voice/sentence-collector/blob/main/README.md) of the Sentence Collector.
+For more detailed explanations, see the [README file](https://github.com/common-voice/sentence-collector/blob/main/README.md) of the Sentence Collector.
 ## Automatic extraction
 
 The Sentence Extractor is a tool that can scrape public domain data sources for sentences. There are multiple sources integrated into the Sentence Extractor, such as Wikipedia and Wikisource. Please [see this post](https://discourse.mozilla.org/t/sentence-extractor-current-status-and-workflow-summary/62332) for detailed guidance on how to use the Sentence Extractor.
