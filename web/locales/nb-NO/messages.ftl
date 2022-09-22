@@ -489,6 +489,7 @@ about-voice-validation-title = Stemmevalidering
 about-voice-validation-subtitle = Andre personer validerer disse stemmeklippene.
 about-dataset-release-title = Utgivelse av datasett
 about-dataset-release-subtitle = Vi utgir datasettet hver 3. måned.
+about-subscribe-text = Vil du holde kontakten med Common Voice?
 about-speak = Tal
 about-speak-text = Bidragsytere spiller inn lydklipp ved å lese inn fra en samling av bidratte setninger.
 about-listen-queue = Lyttekø
@@ -511,6 +512,9 @@ about-get-involved-text-2 =
     Flott! Ta kontakt via e-post eller på <discourseLink>Discourse</discourseLink>,
     forumer, send inn nettstedstilbakemelding via <githubLink>GitHub</githubLink>,
     eller bli med på <matrixLink>Matrix</matrixLink>-samfunnsprat.
+about-stay-in-touch = Hvordan holder jeg kontakten?
+about-stay-in-touch-button = Registrer deg
+about-stay-in-touch-text-1 = <emailFragment>Registrer deg</emailFragment> på e-postlisten vår for å lære hvordan du kan delta i begivenheter, arrangementer og samarbeidsdesignfunksjoner på Common Voice.
 about-nav-why-common-voice = Hvorfor?
 about-nav-how-it-works = Hvordan?
 about-nav-partners = Partnere
