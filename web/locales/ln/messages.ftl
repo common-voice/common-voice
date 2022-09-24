@@ -41,6 +41,7 @@ speak = Loba
 speak-now = Loba sikoyo
 languages = Minoko
 about = Etali
+help = Lisalisi
 terms = Mibeko
 share-title = Salisá biso toluka basusu mpo na kopesa mongongo na bango!
 share-text = Salisá biso toteya bamasini ndenge bato ya solosolo balobaka, pesa mongongo na yo na { $link }
