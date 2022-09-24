@@ -116,11 +116,14 @@ lv = ພາສາລັດເວຍ
 mai = ພາ​ສາ​ໄມ​ທິ​ລິ
 mdf = ພາສາໂມກສາ
 mg = ພາ​ສາມາ​ລາ​ກາ​ຊີ
+mhr = Meadow Mari
 mk = ພາສາມາເຊໂດເນຍ
 ml = ພາ​ສາ​ມາ​ລາ​ຢາ​ລຳ
 mn = ພາສາມົງໂກລີ
+mni = Meetei Lon
 mos = ພາ​ສາ​ມອດ​ຊີ
 mr = ພາສາມາຣາຕີ
+mrj = Hill Mari
 ms = ພາສາມາເລ
 mt = ພາສາມອນຕາ
 my = ພາ​ສາພະ​ມ້​າ
@@ -129,30 +132,43 @@ nan-tw = ໄຕ້ຫວັນ (ມິນນານ)
 nb-NO = ພາສານໍເວບັອກມວລ
 nd = IsiNdebele (ເໜືອ)
 ne-NP = ພາສາເນປານ
+nia = Nias
 nl = ພາສາເນເທີແລນ
 nn-NO = ພາສານໍເວນີນຣອກ
 nr = IsiNdebele (ໃຕ້)
+nso = ໂຊໂທເໜືອ
+nyn = Runyankole
 oc = ພາ​ສາ​ອອກ​ຊີ​ຕັນ
+om = Afaan Ormoo
 or = ພາສາໂອເດຍ
 pa-IN = ພາສາປັນຈາບ
+pap-AW = Papiamento (Aruba)
 pl = ພາສາໂປແລນ
 ps = ພາສາປາສໂທ
 pt = ພາສາໂປຣຕຸເກສ
+quc = K'iche'
+quy = Quechua Chanka
+rm-sursilv = Romansh Sursilva
+rm-vallader = Romansh Vallader
 ro = ພາສາໂລມາເນຍ
 ru = ພາສາລັດເຊຍ
 rw = ພາສາຄິນຢາວັນດາ
 sah = ພາສາຊາກາ
+sat = Santali (Ol Chiki)
 sc = ພາ​ສາ​ຊາ​ດິ​ນຽນ
 scn = ພາ​ສາ​ຊິ​ຊິ​ລຽນ
+sdh = ຊາວເຄີດໃຕ້
 shi = ພາສາຊິລຮາ
 si = ພາສາຊິນຮາລາ
 sk = ພາ​ສາສະ​ໂລ​ວັກ
 skr = ພາສາຊາຣາກິ
 sl = ພາສາສະໂລເວເນຍ
+snk = Soninke
 so = ພາສາໂຊ​ມາ​ລີ
 sq = ພາສາອານບາເນຍ
 sr = ພາສາເຊີເບຍ
 ss = ພາສາ Siswati
+st = Sotho ພາກໃຕ້
 sv-SE = ພາສາສະວີເດັນ
 sw = ພາສາສະວາຮີລິ
 syr = ພາສາຊີຣິອາກ
@@ -164,7 +180,10 @@ ti = ພາສາທິກຣິນຢາ
 tig = ພາສາໄທເກຣ
 tk = ພາສາເຕຣິກເມນິສຖານ
 tl = ພາ​ສາ​ຕາ​ກາ​ລັອກ
+tn = Setswana
+tok = Toki Pona
 tr = ພາສາຕຸຣະກີ
+ts = Xitsonga
 tt = ພາສາຕາຕ່າ
 tw = ພາສາຕະວີ
 ty = ພາສາຕາຮິຕຽນ
@@ -206,6 +225,7 @@ terms = ຂໍ້ກຳນົດ
 cookies = ຄຸກກີ້
 faq = ຄຳຖາມທີພົບເປັນປະຈຳ
 content-license-text = ເນື້ອຫາທີ່ມີຢູ່ພາຍໃຕ້ <licenseLink>ໃບອະນຸຍາດ Creative Commons</licenseLink>
+share-title = ຊ່ວຍພວກເຮົາຊອກຫາຄົນອື່ນເພື່ອບໍລິຈາກສຽງຂອງເຂົາເຈົ້າ!
 link-copied = ໄດ້ສຳເນົາລີ້ງໄວ້ແລ້ວ
 back-top = ກັບຂື້ນໄປເທິງ
 logout = ອອກຈາກລະບົບ
@@ -309,6 +329,7 @@ profile-form-age =
 profile-form-gender-2 =
     .label = ເພດ
 hidden = ເຊື່ອງ
+visible = ເບິ່ງເຫັນ
 native-language =
     .label = ພາ​ສາ​ແມ່
 profile-form-add-accent = ເພີ່ມສຳນຽງແບບກຳນົດເອງໃໝ່ "{ $inputValue }"
@@ -353,6 +374,8 @@ about-title = ເປັນຫຍັງຕ້ອງມີ Common Voice?
 ## How does it work section
 
 about-sentence-collection-title = ການລວບລວມປະໂຫຍກ
+about-voice-contrib-title = ການປະກອບສ່ວນສຽງ
+about-voice-contrib-subtitle = ຜູ້ເຂົ້າມາແລະປະກອບສ່ວນສຽງຂອງເຂົາເຈົ້າ.
 about-voice-validation-title = ການກວດສອບສຽງ
 about-dataset-release-title = ການປ່ອຍຊຸດຂໍ້ມູນ
 about-speak = ເວົ້າ
@@ -361,10 +384,12 @@ about-is-it-valid = ຄລິບຖືກຕ້ອງບໍ?
 about-yes-votes = ≥ 2 ມີຄະແນນສຽງ
 about-no-votes = ≥ 2 ບໍ່ມີຄະແນນສຽງ
 about-get-involved = ເຂົ້າມາມີສ່ວນຮ່ວມ
+about-stay-in-touch = ຂ້ອຍຈະຕິດຕໍ່ກັນແນວໃດ?
 about-stay-in-touch-button = ລົງ​ທະ​ບຽນ
 about-nav-why-common-voice = ເປັນຫຍັງ?
 about-nav-partners = ຄູ່ຮ່ວມງານ
 about-nav-get-involved = ເຂົ້າມາມີສ່ວນຮ່ວມ
+about-nav-how-it-works-2 = Common Voice ເຮັດວຽກແນວໃດ?
 about-nav-playbook = ຮຽນຮູ້ວິທີການມີສ່ວນຮ່ວມ
 
 ## Community Playbook Content
@@ -374,6 +399,8 @@ about-nav-playbook = ຮຽນຮູ້ວິທີການມີສ່ວນ�
 ## How do I add a language
 
 about-playbook-how-add-language = ຂ້ອຍຈະເພີ່ມພາສາໄດ້ແນວໃດ?
+about-playbook-how-add-language-translating-content-1 = <translateVideoLink>ເບິ່ງຄູ່ມືຂອງພວກເຮົາກ່ຽວກັບວິທີການໃຊ້ Pontoon.</translateVideoLink>
+about-playbook-how-add-language-collecting-sentences-heading = ການ​ເກັບ​ກໍາ​ປະ​ໂຫຍກ​
 
 ## How does localization work
 
@@ -386,7 +413,9 @@ about-playbook-how-add-language = ຂ້ອຍຈະເພີ່ມພາສາ�
 
 ## How to grow language
 
+about-playbook-how-grow-language = ພວກເຮົາສາມາດພັດທະນາພາສາໃນ Common Voice ໄດ້ແນວໃດ?
 about-playbook-how-grow-language-content-2 = ເຫດການ
+about-playbook-how-grow-language-content-4 = ສື່ສັງຄົມ
 
 ## How to validate
 
@@ -411,6 +440,7 @@ data-download-button = ດາວໂຫລດຂໍ້ມູນ Common Voice
 data-download-yes = ແມ່ນ
 data-download-deny = ບໍ່
 data-download-license = ໃບອະນຸຍາດ: <licenseLink>CC-0</licenseLink>
+data-other-title = ຊຸດຂໍ້ມູນສຽງອື່ນໆ...
 release-version = ລູ້ນ​
 dataset-date = ວັນທີ
 license = ໃບອະນຸຍາດ: <licenseLink>{ $license }</licenseLink>
@@ -421,10 +451,13 @@ datasets-heading = ຊຸດຂໍ້ມູນ
 language = ພາສາ
 # File size in gigabytes
 size = ຂະຫນາດ
+validated-hr-total = ກວດ​ສອບ Hr. ທັງໝົດ
+overall-hr-total = ໂດຍລວມ Hr. ທັງໝົດ
 cv-license = ໃບອະນຸຍາດ
 size-gigabyte = GB
 size-megabyte = MB
 subscribe = ຕິດຕາມ
+community-playbook = ຄູ່ມືຊຸມຊົນ
 data-other-ted-name = TED-LIUM Corpus
 go-discourse = ໄປທີ່ Discourse
 go-languages-page = ໄປທີ່ໜ້າພາສາ
@@ -454,6 +487,7 @@ other-language = ພາສາອື່ນໆ
 
 ## Request Language Pages
 
+request-language-heading = ຖາມກ່ຽວກັບພາສາໃຫມ່
 request-language-form-email =
     .label = ທີ່ຢູ່ອີເມວຂອງທ່ານ
 
@@ -464,6 +498,7 @@ language-meter-in-progress = ຄວາມຄືບຫນ້າ
 language-total-progress = ລວມ
 language-search-input =
     .placeholder = ຊອກຫາ
+localized = ແປເປັນທ້ອງຖິ່ນ
 sentences = ປະໂຫຍກ
 language-validation-hours = ຊົ່ວໂມງ
 
@@ -473,11 +508,22 @@ action-click = ຄິກ
 listen = ຟັງ
 skip = ຂ້າມ
 shortcuts = ທາງລັດ
+contribute-more =
+    { $count ->
+       *[other] ພ້ອມແລ້ວທີ່ຈະເຮັດອີກ { $count }?
+    }
+record-must-allow-microphone = ທ່ານຕ້ອງອະນຸຍາດໃຫ້ເຂົ້າເຖິງໄມໂຄຣໂຟນ.
+record-cancel = ຍົກເລີກການບັນທຶກຄືນໃໝ່
+record-three-more-instruction = ເຫຼືອອີກ 3!
+clips-uploaded = ອັບໂຫຼດຄິບແລ້ວ
+record-abort-title = ສຳເລັດການບັນທຶກກ່ອນບໍ?
 target-segment-learn-more = ຮຽນຮູ້ເພີ່ມເຕີມ
 
 ## Reporting
 
 report = ລາຍງານ
+report-title = ສົ່ງບົດລາຍງານ
+report-offensive-language = ພາສາທີ່ຮຸນແຮງ
 success = ສຳເລັດ
 continue = ສືບຕໍ່
 
@@ -489,9 +535,13 @@ continue = ສືບຕໍ່
 stats = ສະຖິຕິ
 awards = ຮາງວັນ
 you = ທ່ານ
+recorded-clips = ຄລິບທີ່ບັນທຶກໄວ້
+total-approved = ອະນຸມັດທັງໝົດ
+show-ranking = ສະແດງການຈັດອັນດັບຂອງຂ້ອຍ
 
 ## Custom Goals
 
+get-started-goals = ເລີ່ມຕົ້ນດ້ວຍເປົ້າໝາຍ
 average-difficulty = ສະເລ່ຍ
 
 ## Profile Delete
@@ -532,7 +582,11 @@ demo-account = ບັນຊີ
 
 ## Validation criteria
 
+contribution-for-example = ຍົກ​ຕົວ​ຢ່າງ
+contribution-misreadings-title = ການອ່ານຜິດ
 contribution-volume-title = ລະດັບສຽງ
+contribution-reader-effects-title = ຜົນກະທົບຂອງຜູ້ອ່ານ
+contribution-just-unsure-title = ພຽງແຕ່ບໍ່ແນ່ໃຈ?
 
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
@@ -557,9 +611,13 @@ sc-footer-cookies = ຄຸກກີ້
 
 ## HOW-TO
 
+sc-howto-cite-title = ວິທີການອ້າງອີງ
 
 ## MY SENTENCES
 
+# Variables:
+#   $batchId (String) - A unique ID identifying the submission of sentences - sentences uploaded together all have the same batch ID
+sc-my-submission = ສົ່ງ: { $batchId }
 
 ## REJECTED
 
@@ -570,6 +628,7 @@ sc-stats-updating = ກຳລັງອັບເດດ…
 
 ## ADD
 
+sc-submit-err-add-source = ກະລຸນາເພີ່ມແຫຼ່ງທີ່ມາ.
 sc-submit-select-language =
     .labelText = ເລືອກພາສາ
 sc-submit-button =
