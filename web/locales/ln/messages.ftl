@@ -62,6 +62,10 @@ vote-no = Te
 toggle-play-tooltip = Finá { shortcut-play-toggle } mpo na kobongola mode ya kobɛta
 speak-subtitle = Pesa mongongo na yo
 listen-subtitle = Salisá biso tondima mingongo
+help-reach-goal = Salisá biso tokóma na { $goal }
+read-terms-q = Otángi Mibeko na biso?
+all-locales = Nionso
+today = Lelo
 
 ## Account Benefits
 
