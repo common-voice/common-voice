@@ -24,6 +24,7 @@ Many language communities are self organising and have their contact channels on
   * [Discord](https://discord.gg/uacmNh6KQj)
 * Cantonese (`yue`):
   * [Telegram](https://t.me/commonvoiceyue)
+  * [Instagram](https://commonvoice.mozilla.org/yue)
 * Catalan (`ca`):
   * [Telegram](https://t.me/softcatala_tecnologiesparla)
   * [Element](https://matrix.to/#/#cvcatala:matrix.org)
