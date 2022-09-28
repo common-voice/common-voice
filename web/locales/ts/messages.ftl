@@ -208,7 +208,7 @@ speak = Vulavula
 speak-now = Vulavula sweswi
 datasets = Tidataseti
 languages = Tindzimi
-about = Malunghana
+about = Mayelana
 profile = Phurofayili
 help = Pfuna
 contact = Khumbana
@@ -500,7 +500,7 @@ faq-search-for-answers =
 
 ## ABOUT US
 
-about-title = Ha Yini Common Voice?
+about-title = Hikokwalaho ka yini Common Voice?
 about-header-description-v2 =
     <p>Common Voice i dataset ya rito leyi kumekaka erivaleni, leyi fambisiwaka hi marito ya vahoxa xandla va ku tirhandzela emisaveni hinkwayo. Vanhu lava lavaka ku aka switirhisiwa swa rito va nga tirhisa dataset ku letela timodeli ta dyondzo ya michini.</p>.
     <p>Sweswi, tidathaseti to tala ta rito i ta tikhamphani, leswi sivelaka vutumbuluxi. Tidathaseti ta rito na tona a ti yimeli ngopfu: lava nga vulavuriki Xinghezi, vanhu vantima, lava lamaleke, vavasati na vanhu va LGBTQIA+. Leswi swi vula leswaku thekinoloji leyi tirhisaka rito a yi tirhi nikatsongo eka tindzimi to tala, naswona laha yi tirhaka kona, yi nga ha va yi nga tirhi kahle hi ku ringana eka un’wana ni un’wana. Hi lava ku cinca sweswo hi ku hlengeleta vanhu hinkwako ku avelana marito a vona.</p>
@@ -806,13 +806,11 @@ request-language-explanation-2 = Hi ta tlhela  <strong>hi tivisa mufambisi wa mu
 request-language-form-email =
     .label = Adirese ya wena ya imeyili
 request-language-form-info =
-    .label = Rungula ra ririmi leri
-request-language-form-info-explanation =
-    Engetela rungula ro tala hilaha u nga kotaka hakona malunghana ni ririmi. Lexi
-    swi nga katsa:
+    .label = Vuxokoxoko mayelana ni ririmi
+request-language-form-info-explanation = Engetela vuxokoxoko byo tala hilaha u nga kotaka hakona mayelana ni ririmi. Leswi swi nga katsa:
 request-language-form-info-explanation-list-1 = Mavito ya ririmi ra wena
 request-language-form-info-explanation-list-2 = <isoCodeLink>Tikhodi ta ISO</isoCodeLink> loko ti tiveka
-request-language-form-info-explanation-list-3 = Swihlanganisi swa tiwebsite leswi nga hi pfunaka ku twisisa ririmi.
+request-language-form-info-explanation-list-3 = Vuhlanganisi eka tiwebusayiti leti nga hi pfunaka ku twisisa ririmi.
 request-language-google-recaptcha-required = reCAPTCHA ya laveka loko u lava ku ya emahlweni.
 request-language-google-recaptcha-error = Ku humelele swin’wana leswi nga famba kahle hi reCAPTCHA. Hi kombela u ringeta nakambe.
 # Success page
