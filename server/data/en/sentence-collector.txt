@@ -8383,6 +8383,7 @@ Damn the hellish villain!
 Damn thee, kiss me!
 Damn you all!
 Damned if I know.
+Dance to the beat of the drum.
 Dance with your well-known cousin.
 Dancing and French gloves.
 Dancing is an elegant, and regular movement.
@@ -19305,6 +19306,7 @@ I like them extremely.
 I like them immensely, so tell away, my dear.
 I like this spirit of comradeship in my house.
 I like to decorate my fairy cakes with hundreds-and-thousands
+I like to eat lots of chocolate.
 I like to feel that I am doing good.
 I like to find out people for myself.
 I like to see it — I like to see it.
@@ -20444,6 +20446,7 @@ I take no credit to myself for trying to escape.
 I talked freely when that man was here.
 I talked to one of the guides – very knowledgeable.
 I taught myself how to cross-stitch from YouTube videos.
+I teach children about the bible every Thursday.
 I telephoned all over the place.
 I tell you I am disgusted with this adventure tomfoolery and rot.
 I tell you I deplore it!
@@ -22320,6 +22323,7 @@ If you asked me last year what happened after death
 If you believe me, I swung along that road whistling.
 If you can afford it, take a taxi rather than a bus
 If you can assist, please write a cheque.
+If you can not stand the heat get out of the kitchen!
 If you can play around, I can, too.
 If you can't beat them, join them!
 If you can't find a Valentine, you lose Valentine's day.
@@ -33520,6 +33524,7 @@ She was a schoolmistress in her younger days.
 She was a shivering, miserable morsel.
 She was a shop assistant at the local shoe shop
 She was a shy, secretive maid.
+She was a talented woman
 She was a tall, pudgy girl of fifteen, weighing a hundred and fifty pounds.
 She was a very ordinary person.
 She was a visionary and will be deeply missed.
@@ -34037,6 +34042,7 @@ Should I find him at the factory, do you think?
 Should I go to Richard's by myself?
 Should I meet you there?
 Should I sigh a bit when we meet, do you think?
+Should I turn on the fan?
 Should I use Keras or Pytorch?
 Should I use json or yaml in this case?
 Should he have refused the note?
@@ -34200,6 +34206,7 @@ Small, what will it be?
 Smart money betting I'll be better off without you.
 Smartphones are like an extension of the human brain.
 Smartphones have proliferated and become the standard.
+Smell my fingers?
 Smile but not at him.
 Smile to yourself.
 Smile wide and beam.
@@ -35991,6 +35998,7 @@ That's what ruined the Chevalier O'Keefe.
 That's what ruined them.
 That's what she said!
 That's what some silly boys coined for me.
+That's what you think of me?
 That's what's the matter with me.
 That's where they cut off the Scottish Chiefs and killed all hands.
 That's where your temper got the better of you.
@@ -45205,6 +45213,7 @@ Very mortifying, is it not?
 Very much so, thank you.
 Very much the professional now, absorbed, sexless.
 Very much, sir.
+Very naughty.
 Very nonsensical to come at all!
 Very pleasant, thank you, Jeeves.
 Very pleased indeed to have met you.
@@ -48586,6 +48595,7 @@ Who is the oldest person alive?
 Who is the owner of this copy?
 Who is the real power in the country?
 Who is there?
+Who is this Sharon?
 Who is this fellow?
 Who is this, please?
 Who is to separate us, pray?
@@ -48806,6 +48816,7 @@ Why is every film called a "major motion picture?"
 Why is he not captured?
 Why is her fringe not straight?
 Why is it best, sir?
+Why is it fluffy?
 Why is it so difficult, my dear?
 Why is it that some domains cost very little.
 Why is my account blocked?
@@ -49375,6 +49386,7 @@ Wreaths of mist chased each other monotonously along the rocky ribs.
 Write your name on the line.
 Writing she did well and delicately — but spelling!
 Writing was his only solace
+Wrong track!
 Wrong!
 Wrongheaded, shortsighted, and politically expedient.
 Wuthering Heights is the name of Mr. Heathcliff’s dwelling.
