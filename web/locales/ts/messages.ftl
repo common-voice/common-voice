@@ -12,7 +12,7 @@ email-opt-in-info = Ndzi tsakela ku amukela ti-imeyili to fana na switsundzuxo s
 email-opt-in-info-title = Joyina nxaxamelo wa poso wa Common Voice
 email-opt-in-info-sub-with-challenge = Amukela ti-imeyili to fana na switsundzuxo swa ntlhontlho na pakani, ku pfuxetiwa ka nhluvuko, na swiphephana swa mahungu mayelana na Common Voice.
 email-opt-in-privacy-v2 = Hi ku hlawula ku nghena ku amukela ti-imeyili u vula leswaku u kahle hi Mozilla ku khoma vuxokoxoko lebyi tanihi laha swi hlamuseriweke hakona eka <privacyLink>Pholisi ya Vuhlayiseki ya Mozilla</privacyLink>.
-indicates-required = Tinsimu leti funghiweke hi nyeleti (*) ta laveka.
+indicates-required = Swivandla leswi funghiweke hi xinyeletana (*) swa laveka.
 not-available-abbreviation = N/A
 banner-error-slow-1 = Kombela ndzivalelo, Common Voice yi famba hi ku nonoka. Ndza khensa ku tsakela ka n'wina.
 banner-error-slow-2 = Hi kuma ntlimbano yo tala naswona sweswi hi le ku lavisiseni ka timhaka leti.
@@ -802,9 +802,9 @@ request-language-explanation-1 =
     <languagesPageLink>Pheji ra Tindzimi ta Common Voice</languagesPageLink>.
     Loko swi nga ri tano, tata fomo leyi hi ta ku <strong>rhumela imeyili leyi pfunaka
     ku hlamusela ndlela yo endla leswaku ririmi ra wena ri vekeriwa</strong>.
-request-language-explanation-2 = Hi ta tlhela  <strong>hi tivisa mufambisi wa muganga wa ka hina leswaku wa swi tsakela</strong>, kutani va swi kota ku nyika nseketelo lowu engetelekeke kumbe vuxokoxoko lebyi u nga ha ri lavaka.
+request-language-explanation-2 = Hi ta tlhela  <strong>hi tivisa mufambisi wa muganga wa ka hina leswaku wa swi tsakela</strong>, kutani va swi kota ku nyika nseketelo lowu engetelekeke kumbe vuxokoxoko lebyi u nga ha byi lavaka.
 request-language-form-email =
-    .label = Adirese ya wena ya email
+    .label = Adirese ya wena ya imeyili
 request-language-form-info =
     .label = Rungula ra ririmi leri
 request-language-form-info-explanation =
