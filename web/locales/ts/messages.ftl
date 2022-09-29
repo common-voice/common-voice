@@ -518,10 +518,10 @@ about-new-lang-title = Ku Simekiwa Ka Ririmi Lerintshwa
 about-new-lang-subtitle = Hi sungula sayiti ya Common Voice hi ririmi leri.
 about-voice-contrib-title = Ku Hoxa xandla ka Rito
 about-voice-contrib-subtitle = Vanhu va ta va ta hoxa xandla hi marito ya vona.
-about-voice-validation-title = Ku Tiyisisiwa ka Rito
+about-voice-validation-title = Ntiyisiso wa Rito
 about-voice-validation-subtitle = \Vanhu van’wana va tiyisekisa swiphemu sweswo swa rito.
-about-dataset-release-title = Ku Humesiwa ka Dataset
-about-dataset-release-subtitle = Hi humesa dataset endzhaku ka tin’hweti tin’wana na tin’wana ta 3.
+about-dataset-release-title = Ku Humesiwa ka Datasete
+about-dataset-release-subtitle = Hi humesa datasete endzhaku ka tin’hweti tinharhu 3 tin’wana na tin’wana.
 about-subscribe-text = Xana u lava ku tshama u ri eku hlanganiseni na Common Voice?
 about-speak = Vulavula
 about-speak-text = Va hoxa xandla va rhekhoda swiphemu swa rito hi ku hlaya ebangi ya swivulwa leswi nyikeriweke.
@@ -548,7 +548,7 @@ about-get-involved-text-2 =
     Swikahle! Tihlanganisi hi ku tirhisa imeyili kumbe <discourseLink>Discourse</discourseLink>
     tiforamu, rhumela timhaka ta sayiti hi ku tirhisa <githubLink>GitHub</githubLink>, kumbe u joyina
     <matrixLink>Matrix</matrixLink> ku burisana ka vaaki.
-about-stay-in-touch = Xana ndzi nga tshama njhani ndzi ri eku hlanganiseni?
+about-stay-in-touch = Xana ndzi nga tshama njhani ndzi ri eku tihlanganiseni?
 about-stay-in-touch-button = Tsarisa
 about-stay-in-touch-text-1 = <emailFragment>Tsarisa</emailFragment> enxaxamelweni wa hina wo posa ku dyondza ndlela leyi u nga hlanganyela eka matsima, swiendlakalo ni swivumbeko swa maakelo-kulorhi eka Common Voice.
 about-stay-in-touch-text-2 = U nga hlangana ni van’wana ematikweni ya ririmi ya Mozilla hi ku tihlanganisa ni<discourseLink>Discourse</discourseLink>eka tinhloko-mhaka to vulavurisana, kumbe <matrixLink>Matrix</matrixLink> ya xitsundzuxo hi xihatla.
@@ -563,7 +563,7 @@ about-nav-playbook = Dyondza ndlela yo teka teka xiave
 ## What is a language
 
 about-playbook-what-is-language = Xana ririmi eka Common Voice i yini?
-about-playbook-what-is-language-content-1 = Ku ni tindlela to tala to ehleketa hi ririmi. Hi swikongomelo swa swikombiso swa ku lemuka mbulavulo, Common Voice yi ringanyeta ku kongomisa eka ‘ku twisiseka’, kumbe ‘xana vavulavuri va ririmi leri va nga twisisana kahle loko va ringeta?’.
+about-playbook-what-is-language-content-1 = Ku ni tindlela to tala to ehleketa hi ririmi. Hi swikongomelo swa timodlele ta lemukiso wa mbulavulo, Common Voice yi ringanyeta ku kongomisa eka ‘ntwisiso wa ku pfumelelana’, kumbe ‘xana vavulavuri va ririmi leri va nga twisisana kahle loko va ringeta?’.
 about-playbook-what-is-language-content-2 = Hi lava leswaku swikombiso swa mbulavulo swi antswa eku twisiseni ka swivulavuri swo hambana-hambana. Leswaku leswi swi humelela, dataset ya rito yi fanele ku yimela vanhu vo tala vo hambana.
 about-playbook-what-is-language-content-3 = Tindzimi tin’wana ti na ku hambana lokukulu eka ririmi, ntivomarito na mavitanelo ya marito. Hi xivangelo lexi, hi le ku <ctaLink>ku ngheniseni ‘Variants’</ctaLink> hi 2022. Leswi swi nyika miganga ndlela yo hambanyisa tindzimi ta yona endzeni ka dataset leyikulu.
 
@@ -741,7 +741,7 @@ dataset-description-hours =
     
     Sweswi datasete yi na <b>{ $valid }</b> wa tiawara leti tiyisisiweke hi tindzimi ta <b>{ $languages }</b>, kambe hi tshamela ro engetela marito yo tala na tindzimi. Languta eka pheji ra hina ra  <languagesLink>Tindzimi</languagesLink> ku kombela ririmi kumbe ku sungula ku hoxa xandla.
 want-dataset-update = Xana u lava ku pfuxetiwa loko hi humesa vuhundzuluxeri lebyintshwa bya rungula ra Common Voice? Tsarisa eka phephahungu ra hina.
-subscribe = Xikhokhelo
+subscribe = Titsarisele
 get-started-speech = Sungula Hi Lemukiso wa Mbulavulo
 other-datasets = Tidatasete tin’wana ta Rito
 feedback-q = Xana U Ni Mbuyelo?
