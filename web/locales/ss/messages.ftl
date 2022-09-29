@@ -228,19 +228,19 @@ logout = Phuma
 ## Home Page
 
 home-title = Common Voice lichaza lelidlalwa nguMozilla lelisita kufundzisa imishina kutsi bantfu mbamba bakhuluma kanjani.
-default-tagline = Le Mozilla Common Voice lichaza lelisita kufundzisa imishina kutsi bantfu mbamba bakhuluma kanjani.
+default-tagline = Le Mozilla Common Voice lichaza lelisita kufundzisa imishini kutsi bantfu mbamba bakhuluma kanjani.
 home-cta = Khuluma, faka umbono lapha!
-wall-of-text-start = Livi lendalo, livi lingumuntfo. Ngiko nje sikutfokotela kwakha bucwephesha bemavi emishinini yetfu. Koja kute wakhe umshina welivi, bonjinela kumele batfole linani lelisetulu kakhulu lelwati lwemavi.
+wall-of-text-start = Livi lendalo, livi lingumuntfu. Ngiko nje sikutfokotela kwakha bucwephesha bemavi emishinini yetfu. Kodvwa kute wakhe umshina welivi, bonjinela kumele batfole linani lelisetulu kakhulu lelwati lwemavi.
 wall-of-text-more-mobile =
     Lwati loluningi lolusetjentiswa tinkampane letinkhulu alutfolakali kalula ebantfwini labanengi. 
     Sicabanga
-    kutsi loko kukhinyabeta bucwephesha. Kungako setfule i Project Common Voice, umsebenti lotowenta 
+    kutsi loko kukhinyabeta buchwepheshe. Kungako setfule i Project Common Voice, umsebenti lotowenta 
     kutsi kulaleleka kwemavi kuvulekela wonkhe umuntfu.
 wall-of-text-more-desktop = Nyalo unganikela ngesicephu selivi lakho kusisita sakhe umtfombo welwati welive longasetjentiswa nguwonkhe umuntfu kute akhe tinsita tebucwephesha tetincingo kanye nelikhasi langcondvomshina. Fundza lemisho kusita lomshina kutsi ufundze kutsi bantfu bakhuluma njani. Hlola umsebenti walabanye balekeleleli  kutfutfukisa lizinga. Kulula kanjalo!
 wall-of-text-first =
-    Livi lendalo, livi lingumuntfo. Ngiko nje sikujabulela kwakha bucwephesha bemavi
-    emishinini yetfu. Koja kute wakhe umshina welivi, bonjenela kumele batfole linani lelisetulu kakhulu
-    lelwati lwamavi.
+    Livi lendalo, livi lingumuntfu. Ngiko nje sikujabulela kwakha bucwephesha bemavi
+    emishinini yetfu. Kodvwa kute wakhe umshina welivi, bonjiniyela kumele batfole linani lelisetulu kakhulu
+    lelwati lwedatha.
 wall-of-text-second =
     Lwati loluningi lolusetjentiswa tinkampane letinkhulu alutfolakali kalula ebantfwini labanengi. 
     Sicabanga
