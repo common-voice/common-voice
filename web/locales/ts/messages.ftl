@@ -510,7 +510,7 @@ how-does-it-work-text = Hi le ku kumeni ka ntshungu eka datasete ya xihlovo lexi
 ## How does it work section
 
 about-language-req-subtitle = Munhu u kombela leswaku ku engeteriwa ririmi.
-about-localization-title = Ku Endliwa ka Website ya Ndhawu
+about-localization-title = Ku Endla Webusayiti Xikaya
 about-localization-subtitle = Tsalwa ra webusayiti ri hundzuluxeriwa hi ririmi rero.
 about-sentence-collection-title = Nhlengeleto wa Swivulwa
 about-sentence-collection-subtitle = Swivulwa swi hlengeletiwa leswaku vanhu va swi hlayela ehenhla.
