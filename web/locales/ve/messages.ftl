@@ -743,9 +743,9 @@ dataset-description-hours =
     Dataset i na <b>{ $valid }</b> awara dzo teaho <b>{ $languages }</b> luambo, fhedzi ri dzula ri tshi khou panga maipfi o engedzeaho na dzinyambo. Sedzani <languagesLink>siaṱari ḽa Nyambo dzashu</languagesLink> u itela khumbelo ya luambo kana ni thome u shela mulenzhe.
 want-dataset-update = Ni khou ṱoḓa u kwamiwa ri tshi bvisa dataset ntswa ya Common Voice? Ḓiṅwaliseni kha vhane vha ṱoḓa u wana maswa maswa.
 subscribe = Ḓiṅwaliseni
-get-started-speech = Thomani na Recognition ya Tshipitzhi
+get-started-speech = Thomani nga ḓivhatshipitshi
 other-datasets = Dataset dza maṅwe maipfi
-feedback-q = Ni na Fidibeke?
+feedback-q = Naa ni na zwine na nga vhiga murahu?
 resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ ndi <docsLink>thulusi ya nnyi na nnyi</docsLink> ya vhaṱoḓulusi vhane vha khou ita state-of-the-art conversational AI models.
 resource-deepspeech-info = Tshishumiswa tsha Mozilla tsha u ḓivha ipfi tshine tsha nga shumiswa nga nnyi na nnyi tsha Deep Speech tshi nga shumiswa kha u ita app dzi ḓivhaho ipfi. Vhalani samari yashu <githubLink>Github</githubLink> kana ni dzhenelele kha <discourseLink>DeepSpeech Discourse</discourseLink> uri ni gude nga ha uri ni nga thoma hani.
 resource-coqui-info = <coquiLink>Coqui</coquiLink> yo ḓinekedzela kha zwishumiswa zwa speech zwa thekhinolodzi zwa nnyi na nnyi. Thandela dzavho dzi katela deep learning based STT na TTS engines.
