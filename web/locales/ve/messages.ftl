@@ -206,7 +206,7 @@ zu = Zulu
 
 speak = Ambani
 speak-now = Ambani zwino
-datasets = Dzi Dataset
+datasets = Dzidataset
 languages = Nyambo
 about = Nga ha
 profile = Profaiḽi
@@ -234,7 +234,7 @@ wall-of-text-more-mobile =
      zwi khou ita uri hu si vhe na bvela phanḓa. Ndi ngazwo ro thoma thandela ya Common Voice, thandela ine ya ḓo thusa uri u ḓivha ipfi
      zwi vhe zwa vhathu vhoṱhe na uri vha kone u zwi swikela.
 wall-of-text-more-desktop =
-    Zwino ni nga nikela nga ipfi ḽaṋu u itela uri thusa uri ri vhe na dataset ya nnyi na nnyi ine muṅwe na muṅwe a nga kona u i shumisa 
+    Zwino ni nga nikela nga ipfi ḽaṋu u itela uri thusa uri ri vhe na datasete ya nnyi na nnyi ine muṅwe na muṅwe a nga kona u i shumisa 
     uri hu konwe u itiwa dzi app dza zwithu zwiswa zwa thekhinolodzi na dzi web. Vhalani mutaladzi u itela uri ni kone u thusa mutshini uri u gude nḓila ine vhathu vha vhukuma vha amba ngayo. Ṱolani mushumo wa vhaṅwe
     vhe vha shela mulenzhe uri mushumo u kone u vha wa khwine-khwine. Zwo leluwa!
 wall-of-text-first =
@@ -249,7 +249,7 @@ vote-yes = Ee
 vote-no = Hai
 toggle-play-tooltip = Puṱedzani { shortcut-play-toggle } bathene ya u puḽeya
 speak-subtitle = Nikelani nga ipfi ḽaṋu
-speak-paragraph = U rekhoda maipfi ndi tshipiḓa tsha u ita dataset yashu; vhaṅwe vha nga ri na tshenetshi ndi tshipiḓa tshi takadzaho.
+speak-paragraph = U rekhoda maipfi ndi tshipiḓa tsha u ita datasete yashu; vhaṅwe vha nga ri na tshenetshi ndi tshipiḓa tshi takadzaho.
 speak-goal-text = Zwo Rekhodiwaho
 listen-subtitle = Ri thuseni u khwaṱhisedza maipfi
 listen-paragraph = U khwaṱhisedza uri zwo rekhodiwaho ndi zwone ndi tshipikwa tsha ndeme vhukuma tsha Common Voice. Thetshelesani nahone ni ri thuse uri ri ite maipfi a vhuimo ha nṱha ane a ḓo kona u shumiswa nga nnyi na nnyi.
@@ -278,7 +278,7 @@ x-years-short =
         [one] { "" }
        *[other] { $count }y
     }
-help-make-dataset = Ri thuseni uri ri ite dataset ya vhuimo ha nṱha ya nnyi na nnyi
+help-make-dataset = Ri thuseni uri ri ite datasete ya vhuimo ha nṱha ya nnyi na nnyi
 sign-up-account = Itani Akhantu
 email-subscription-title = Ḓiṅwaliseni uri ni wane dzi apudeiti nga email
 email-subscription-title-new = Ḓiṅwaliseni uri ni wane maswa maswa a Common Voice, khumbudzo ya zwipikwa na apudeiti dza mvela phanḓa.
@@ -299,7 +299,7 @@ whats-public = Ndi zwifhio zwa Tshitshavha?
 email-not-public = A ri nga iti uri email yaṋu i vhonwe nga nnyi na nnyi.
 recordings-and-locale-public = Tshivhalo tsha zwo rekhodiwaho na nyambo dze na nikela khadzo zwi ḓo vhoniwa nga munwe na munwe.
 username-optin-public = Ni nga nanga u ita uri username yaṋu i vhonwe nga nnyi na nnyi kana u i dzumba.
-demographic-deidentified-clarity-2 = Data ine ya nga rumelwa ya mafhungo a zwidodombedzwa zwa muthu (sa tsumbo. miṅwaha, mbeu, luambo, na kuambele) a zwi nga itwi uri zwi wanwe nga vhathu vhoṱhe kha profile yaṋu, nahone a zwi nga ṱumanyiwi na akhantu yaṋu kha dataset. Odio iṅwe na iṅwe yo rekhodiwaho i ḓo tshimbidzana na zwidodombedzwa zwa muthu u itela uri dzi kone u ṱolisiswa nga nḓila yo teaho – sa tsumbo, muṱoḓisisi a nga vha a tshi khou ṱoḓa u gudisa tshishumiswa a tshi itela vhathu vha vhubvo ho khetheaho.
+demographic-deidentified-clarity-2 = Data ine ya nga rumelwa ya mafhungo a zwidodombedzwa zwa muthu (sa tsumbo. miṅwaha, mbeu, luambo, na kuambele) a zwi nga itwi uri zwi wanwe nga vhathu vhoṱhe kha profile yaṋu, nahone a zwi nga ṱumanyiwi na akhantu yaṋu kha datasete. Odio iṅwe na iṅwe yo rekhodiwaho i ḓo tshimbidzana na zwidodombedzwa zwa muthu u itela uri dzi kone u ṱolisiswa nga nḓila yo teaho – sa tsumbo, muṱoḓisisi a nga vha a tshi khou ṱoḓa u gudisa tshishumiswa a tshi itela vhathu vha vhubvo ho khetheaho.
 username-email-not-demographic = Username yaṋu na email a zwi nga paṱekanyisiwi na data i no ḓo anḓadziwa.
 
 ## Speak & Listen Shortcuts
@@ -452,9 +452,9 @@ faq-why-important-a =
     
     U itela uri u ḓivha ipfi zwi vhe zwithu zwa shango ḽoṱhe, ri khou kuvhanganya maipfi nga nyambo dzi ambeswaho na nga dzine dza vha na vhathu vha si gathi dzine kanzhi dza sa dzhielwe nṱha kha tshumelo dza ḓivha ipfi. U itela uri maipfi a kone u wanala kha tshitshavha zwi ḓo ita uri vha bveledzi vha manḓafhadziwe, vhathomi vha mabindu, na vhathu vhoṱhe vha kone u dzhia vhukando nga honohu u salela murahu hu re hone.
 faq-how-get-q = Ndi nga wanisa hani data ya Common Voice?
-faq-how-get-a = Dataset ya Common Voice i hone uri i danuḽodiwe nga fhasi ha <licenseLink>CC0</licenseLink> lisentsi ya <datasetLink>siaṱari ḽa Dataset</datasetLink>. Ni nga download na dziṅwe dataset dzo vhalaho dzo itelwaho nnyi na nnyi kha siaṱari ḽi fanaho.
+faq-how-get-a = Datasete ya Common Voice i hone uri i danuḽodiwe nga fhasi ha <licenseLink>CC0</licenseLink> lisentsi ya <datasetLink>siaṱari ḽa Dataset</datasetLink>. Ni nga download na dziṅwe dataset dzo vhalaho dzo itelwaho nnyi na nnyi kha siaṱari ḽi fanaho.
 faq-when-release2-q = Ni ḓo riḽiza lini data ya Common Voice nga dziṅwe nyambo?
-faq-when-release2-a = Version ya nyambo nnzhi dza Common Voice dataset i khou kuvhanganyiwa na u kunakiswa zwa zwino. Arali ni tshi ṱoḓa u thusa Common Voice uri i vhe na nyambo ntswa, i yani ni sedze <sentenceCollectorLink>Tshishumiswa tsha u Kuvhangaya Mitaladzi</sentenceCollectorLink> uri ni kone u dzhenisa mitaladzi miswa kha dataset, na Mozilla <pontoonLink>Pontoon</pontoonLink> ni tshi ṱoḓa u ṱalutshedza website yone ine. Nyambo ntswa dzi pangiwa kha Common Voice sa ipfi ḽa o shelaho mulenzhe nga murahu ha u kuvhanganyiwa ha mitaladzi ya 5000 yo tendelwaho.
+faq-when-release2-a = Version ya nyambo nnzhi dza Common Voice dataset i khou kuvhanganyiwa na u kunakiswa zwa zwino. Arali ni tshi ṱoḓa u thusa Common Voice uri i vhe na nyambo ntswa, i yani ni sedze <sentenceCollectorLink>Tshishumiswa tsha u Kuvhangaya Mitaladzi</sentenceCollectorLink> uri ni kone u dzhenisa mitaladzi miswa kha datasete, na Mozilla <pontoonLink>Pontoon</pontoonLink> ni tshi ṱoḓa u ṱalutshedza website yone ine. Nyambo ntswa dzi pangiwa kha Common Voice sa ipfi ḽa o shelaho mulenzhe nga murahu ha u kuvhanganyiwa ha mitaladzi ya 5000 yo tendelwaho.
 faq-why-mission-q = Ndi ngani Common Voice i tshipiḓa tsha zwine zwa khou itwa nga Mozilla?
 faq-why-mission-a = Mozilla yo ḓiimisela u ita uri web yavho i dzule i hone nahone i tshi swikelelwa nga vhathu vhoṱhe. Uri ri kone u ita zwenezwi ri tea u manḓafhadza vhasiki vha dzi web nga dzi thendela dzi fanaho na Common Voice. Samusi zwishumiswa zwa thekhinoḽodzhi zwi pfaho ipfi zwi tshi khou aluwa zwi tshi ya lune zwa ḓo vha zwihulu vhukuma, ri tenda uri zwi tea u shumela vhathu vhoṱhe nahone nga u lingana. Zwenezwi zwi amba u tikedza nyambo nnzhi na u ṱanganedza kubulele kwa maipfi na vhubvo ho fhambananaho musi hu tshi khou itwa na u lingwa zwishumiswa zwa thekhinolodzhi zwi pfaho ipfi. Common Voice ndi zwithu zwine zwa nga wanwa nga muṅwe na muṅwe nahone vhashumi vha Mozilla na vha bveledzi shangoni ḽoṱhe vho no thoma u i shumisa kha dzithendela dzavho
 faq-what-cv-and-deepspeech-q = Hu na phambano ifhio vhukati ha Common Voice na Deep Speech?
