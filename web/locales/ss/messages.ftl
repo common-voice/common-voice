@@ -7,8 +7,8 @@ stayintouch =
 privacy-info = Siyetsembisa kutsi imininingwane yakho sitoyiphatsa ngebunono. Fundza kabanti ku  <privacyLink>Privacy Notice</privacyLink>
 return-to-cv = Buyela ku Common Voice
 email-input =
-    .label = Liposi lembane
-submit-form-action = Mikisa
+    .label = I-imeyili
+submit-form-action = Hambisa
 loading = Loading…
 email-opt-in-info = Ngingatsandza kutfola liposi lembane lekufaka ekhatsi kukhumbutwa ngemagoli ami, inchubo yami kanye nemaphephandzaba nga Common Voice.
 email-opt-in-info-title = Ngenela luhla lweliposi lembane lwa Common Voice.
@@ -259,7 +259,7 @@ speak-goal-text = Ticephu letiftwebuliwe
 listen-subtitle = Sisite sicinisekise emavi
 listen-paragraph = Kucinisekisa ticeshana letinikelwe kumcokwa kumishini ya Common Voice. Tsatsa ulalele kute usisite sakhe umtfombo welwati lotawusita sive.
 listen-goal-text = Ticephu leticinisikesiwe
-hours-recorded = Emahora latfwebuliwe
+hours-recorded = Emahora latfwetjuliwe
 hours-validated = Emahora lacinisekisiwe
 voices-online = Emavi Alabakhona Manje
 todays-progress = Inchubo Yanamuhla
@@ -511,14 +511,14 @@ faq-search-for-answers =
 about-title = Leni Common Voice?
 about-header-description-v2 =
     "<p>I- Common Voice ngumtfombo welwati wesive, lonikwe emandla ngemavi ema volontiya emhlaba wonkhe jikelele. Bantfu labafuna kwakha tinhlelo temavi tekusebenta bangasebentisa lwati kucecesha tinsita tekufundza umshini.</p>
-    <p>Kwanyalo, ticeshana telwati lwemavi letiningi tiphetswe tinkampani, letikhinyabeta umkhicito lomusha. Ticeshana telwati yelivi nato atimeleli kahle : labangakhulumi siNgisi, bantfu belibala, bantfu labakhubatekile, besifazane kanye nebantfu be-LGBTQIA+. Loku kusho kutsi buchwephesha bokusebentisa livi abusebenti nhlobo etilimini letiningi, futsi lapho busebenta khona, bungase bungasebenti kahle kuwo wonkhe umuntfu. Sifuna kushintsha loko ngekuhlanganisa bantfu yonkhe indzawo kute babelane ngemavi abo.</p>"
+    <p>Kwanyalo, ticeshana telwati lwemavi letiningi tiphetfwe tinkampani, letikhinyabeta umkhicito lomusha. Ticeshana telwati nelivi nato atimeleli kahle : labangakhulumi siNgisi, bantfu belibala, bantfu labakhubatekile, besifazane kanye nebantfu be-LGBTQIA+. Loku kusho kutsi bhuchwepheshe bokusebentisa livi abusebenti nhlobo etilimini letiningi, futsi lapho busebenta khona, bungase bungasebenti kahle kuwo wonkhe umuntfu. Sifuna kuntjintja loko ngekuhlanganisa bantfu yonkhe indzawo kute babelane ngemavi abo.</p>"
 how-does-it-work-title-v2 = Common Voice usebenta njani?
 how-does-it-work-text = Sikweleka esiveni umtfombo wetilwimi lovulekele wonkhe wonkhe. Nikela livi lakho, cinisekisa bucotfo bemavi alabanye, yenta lomtfombo ubencono wentele wonkhe umuntfu.
 
 ## How does it work section
 
 about-language-req-subtitle = Kukhona locela kutsi kungetwe lulwimi.
-about-localization-title = Kusondzetwa kwelikheli langcondvomshina
+about-localization-title = Kusondzetwa kwelikheli langcondvomshini
 about-localization-subtitle = Emagama lasekhasini langcondvomshina ahumushwe ngalolulwimi.
 about-sentence-collection-title = Kukolekwa kwemisho
 about-sentence-collection-subtitle = Imisho ikolekelwa kutsi bantfu bawafundze baphimisele.
@@ -778,7 +778,7 @@ data-other-ted-description =
     TED website.
 data-other-voxforge-description = VoxForge wasungulelwa kukweleka tinkhulumo letichazelwe kusebenta ngetinjini tekuva livi tamahhala
 data-other-tatoeba-description = Tatoeba ngumbhukudvu lomkhulu wemigca, emahumusho, kanye netinkhulumo tekusetjentiswa kufundza tilwimi. Lencenye lena icuketse Singisi lesitfubelwe kumphakatsi wabo.
-your-feedback = Unayo imibono lengeta Common Voice abe ncono? Satise ku Discourse.
+your-feedback = Unayo imibono lengenta Common Voice abe ncono? Satise ku Discourse.
 go-discourse = Hamba ku Discourse
 missing-language = Lulwimi lwakho aluveli kule Dataset? Kucela lophetse lulwimi ekhasini letfu lelulwimi.
 go-languages-page = Buyela ekhasini letilwimi
