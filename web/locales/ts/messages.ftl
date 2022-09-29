@@ -505,7 +505,7 @@ about-header-description-v2 =
     <p>Common Voice i datasete ya marito leyi kumekaka eka un’wana na un’wana, leyi nyikiweke matimba hi marito vanyikeri vo tinyiketela emisaveni hinkwayo. Vanhu lava lavaka ku aka maendlelo ya marito va nga tirhisa datasete ku letela timodlele to dyondza hi michini.</p>.
     <p>Sweswi, tidathaseti to tala ta rito i ta tikhamphani, leswi sivelaka vutumbuluxi. Tidathaseti ta rito na tona a ti yimeli ngopfu: lava nga vulavuriki Xinghezi, vanhu vantima, lava lamaleke, vavasati na vanhu va LGBTQIA+. Leswi swi vula leswaku thekinoloji leyi tirhisaka rito a yi tirhi nikatsongo eka tindzimi to tala, naswona laha yi tirhaka kona, yi nga ha va yi nga tirhi kahle hi ku ringana eka un’wana ni un’wana. Hi lava ku cinca sweswo hi ku hlengeleta vanhu hinkwako ku avelana marito a vona.</p>
 how-does-it-work-title-v2 = Xana Common Voice yi tirha njhani?
-how-does-it-work-text = Hi le ku kumeni ka ntshungu eka dataset ya xihlovo lexi pfulekeke ya marito. Nyikela hi rito ra wena, tiyisisa ku pakanisa ka swiphemu swa vanhu van’wana, endla leswaku dataset yi antswa eka un’wana na un’wana.
+how-does-it-work-text = Hi le ku kumeni ka ntshungu eka datasete ya xihlovo lexi pfulekeke xa marito. Nyikela hi rito ra wena, tiyisisa mpakaniso wa titlipi ta vanhu van’wana, endla leswaku datasete yi antswa eka un’wana na un’wana.
 
 ## How does it work section
 
@@ -557,7 +557,7 @@ about-nav-how-it-works = Njhani ?
 about-nav-partners = Vatirhisani
 about-nav-get-involved = Hlanganyela
 about-nav-how-it-works-2 = Xana Common Voice yi tirha njhani?
-about-nav-playbook = Dyondza ndlela yo hlanganyela
+about-nav-playbook = Dyondza ndlela yo teka teka xiave
 
 ## Community Playbook Content
 ## What is a language
