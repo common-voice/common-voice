@@ -235,7 +235,7 @@ wall-of-text-more-mobile =
     Lwati loluningi lolusetjentiswa tinkampane letinkhulu alutfolakali kalula ebantfwini labanengi. 
     Sicabanga
     kutsi loko kukhinyabeta buchwepheshe. Kungako setfule i Project Common Voice, umsebenti lotowenta 
-    kutsi kulaleleka kwemavi kuvulekela wonkhe umuntfu.
+    kutsi kulaleleka kwemavi kuvulekele wonkhe umuntfu.
 wall-of-text-more-desktop = Nyalo unganikela ngesicephu selivi lakho kusisita sakhe umtfombo welwati welive longasetjentiswa nguwonkhe umuntfu kute akhe tinsita tebucwephesha tetincingo kanye nelikhasi langcondvomshina. Fundza lemisho kusita lomshina kutsi ufundze kutsi bantfu bakhuluma njani. Hlola umsebenti walabanye balekeleleli  kutfutfukisa lizinga. Kulula kanjalo!
 wall-of-text-first =
     Livi lendalo, livi lingumuntfu. Ngiko nje sikujabulela kwakha bucwephesha bemavi
@@ -245,7 +245,7 @@ wall-of-text-second =
     Lwati loluningi lolusetjentiswa tinkampane letinkhulu alutfolakali kalula ebantfwini labanengi. 
     Sicabanga
     kutsi loko kukhinyabeta bucwephesha. Kungako setfule i Project Common Voice, umsebenti lotowenta 
-    kutsi kulaleleka kwemavi kuvulekela wonkhe umuntfu.
+    kutsi kulaleleka kwemavi kuvulekele wonkhe umuntfu.
 show-wall-of-text = Fundza Kabanti
 help-us-title = Sisite sicinisekise imisho
 help-us-explain = Chafata dlala, lalela & usitjele: Bawukhulume ngalokufanele yini umusho longentasi?
@@ -286,7 +286,7 @@ x-years-short =
 help-make-dataset = Sisite kwakha i-datset lesezingeni lelisetulu futsi lengatfolwa sive sonkhe.
 sign-up-account = bhalisela kuvula i-account
 email-subscription-title = bhalisela tindzaba letihamba embili ngeliposi lembane
-email-subscription-title-new = Bhalisela incwajana, inkhumbuto yemagoli kanye nenchubekala phambili ya Common Voice
+email-subscription-title-new = Bhalisela incwajana, sikhumbuto setinjongo kanye nenchubekala phambili ya Common Voice
 
 ## Account Benefits
 
@@ -729,7 +729,7 @@ review-delete-recordings = Yesula ticephu tami latitfwebuliwe
 ## Datasets Page
 
 datasets-heading = Datasets
-datasets-headline = Sakha iDataset levulekele sive, tilwimi letehlukahlukene emavi langasebentiswa ngunome ngabe ngubani kufundzisa tinsita tebucwephesha leti lasebentisa emavi.
+datasets-headline = Sakha iDataset levulekele sive, tilwimi letehlukahlukene emavi langasetjentiswa ngunome ngabe ngubani kufundzisa tinsita tebuchwepheshe letisebentisa emavi.
 datasets-positioning =
     Sikholelwa kutsi ticheme telwati lwesive, lungatfolakala lutokhutsata kwakha lokusha nekucdzelana kwetemabhizinisi lokunemphilo ngetebuchwephesha benkhulumo lobusekelwe yimishina.
     
@@ -753,7 +753,7 @@ size-megabyte = MB
 confirm-no-identify = <b>Uyavuma</b> kungazami kufuna kwati kabanti ngetikhulumi kule Dataset yaka Common Voice.
 download-language = Download { $language }
 validated-hours = Lacinisekisiwe emahora
-recorded-hours = Latfwebuliwe emahora
+recorded-hours = Latfwetjuliwe emahora
 whats-inside = Kunani kule dataset yaka Common Voice?
 dataset-description-hours =
     Ngakunye lokufakwako kulomtfombo kucukets i-MP3 leyehlukile kanye nelifayela lembhalo lelihambisana nayo.Lamaningi ema <b>{ $total }</b> lacoshiwe kulomtfombo wetfu afaka ekhatsi lwati lwe lwetibalo tebantu letifana neminyaka, bulili, nendlela yokukhuluma lengasita kucecesha bucoftfo kwetinjini tekuva inkhulumo.
@@ -793,7 +793,7 @@ dataset-version = Inhlobo
 download-title = Ku-download kwakho sekucalile
 download-helpus = Sisite sakhe ummango ngebucwephesha bemavi, chumana natsi ngeliposi lembane.
 download-form-email =
-    .label = Faka iliposi lakho lembane
+    .label = I-imeyili yakho
     .value = Siyabonga, sitochumana.
 download-back = Buyela kuma Dataset aka Common Voice
 download-no = Cha Ngiyabonga
@@ -1130,7 +1130,7 @@ download-request-link-single = Ungaphindze ukope phindze ubeke ngco i URL endzwe
 welcome-staff = Siyanemukela { $company } tisebenti!
 help-contribute = Ungasita kwakha i-database lehlukile ngekwakha likhasi lelichaza kabanti ngawe ku Common Voice upindze wengete liphimbo lakho.
 login-company = Ngena / Bhalisa nge email ye { $company }
-profile-not-required = Kuba nelikhasi lelichaza kabanti ngawe akudzingeki, kepha kulusito, buka kutsi leni langentasi
+profile-not-required = Kuba nelikhasi lelichaza kabanti ngawe akudzingeki, kepha kulusito, buka kutsi kungani langentasi
 read-more-about = Fundza kabanti ekhasini lelichaza Kabanti ngatsi
 
 ## DemoLayout
