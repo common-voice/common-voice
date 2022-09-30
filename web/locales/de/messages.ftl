@@ -895,7 +895,7 @@ listen-instruction = <playIcon></playIcon>{ $actionType } - Wurde der Satz korre
 listen-again-instruction = Gut so! <playIcon></playIcon> Machen Sie einfach weiter, wenn Ihnen danach ist
 listen-3rd-time-instruction = Zwei erledigt, <playIcon></playIcon> weiter so!
 listen-last-time-instruction = <playIcon></playIcon> Einmal noch!
-listen-empty-state = Für diese Sprache gibt es keine Aufzeichnungen mehr, die überprüft werden könnten…
+listen-empty-state = Es gibt aktuell keine Aufzeichnungen – laden Sie die Seite neu oder versuchen Sie es später erneut.
 listen-loading-error =
     Wir konnten für Sie keine Audioclips zum Anhören abrufen.
     Bitte versuchen Sie es später erneut.
