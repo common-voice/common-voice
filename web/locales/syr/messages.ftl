@@ -88,7 +88,7 @@ zu = ܙܘܠܘ
 
 speak = ܐܡܪ
 speak-now = ܐܡܪ ܗܫܐ
-datasets = ܣܕܪ̈ܐ ܫܘܘܕ̈ܥܝܐ
+datasets = ܣܕܪ̈ܐ ܫܘܘܕܥ̈ܝܐ
 languages = ܠܫܢ̈ܐ
 about = ܡܢܝ ܝܘܚ
 profile = ܦܐܬܐ ܕܚܒܝܫܬܐ
