@@ -616,6 +616,7 @@ about-playbook-how-access-dataset-content-1 = Вы можете перейти �
 
 about-playbook-how-project-governance = Как принимаются решения по проекту?
 about-playbook-how-project-governance-content-2 = Наше управление основано на следующих принципах:
+about-playbook-how-project-governance-content-3 = Конфиденциальность, безопасность и прозрачность.
 about-playbook-how-project-governance-content-5 = Ценность и признание.
 about-playbook-how-project-governance-content-6 = Взаимная ответственность.
 
