@@ -414,6 +414,8 @@ skip-submission-feedback = ਸਬਮਿਸ਼ਨ ਫੀਡਬੈਕ ਛੱਡੋ
 skip-submission-note = ਨੋਟ: ਯੋਗਦਾਨ ਦੀ ਕਿਸਮ ਨੂੰ ਬਦਲਣ ਲਈ ਤੁਹਾਨੂੰ ਅਜੇ ਵੀ ਬੋਲਣ ਜਾਂ ਸੁਣਨ ਦੇ ਵਿਚਕਾਰ ਚੋਣ ਕਰਨੀ ਪਵੇਗੀ।
 off = ਬੰਦ
 on = ਚਾਲੂ
+help-accent = ਲਹਿਜ਼ੇ ਲਈ ਕੁਝ ਮਦਦ ਦੀ ਲੋੜ ਹੈ?
+help-variants = ਬਦਲਾਂ ਲਈ ਕੁਝ ਮਦਦ ਲਈ ਲੋੜ ਹੈ?
 
 ## Profile - Email
 
