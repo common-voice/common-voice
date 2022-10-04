@@ -797,6 +797,9 @@ request-language-explanation-1 =
     <languagesPageLink>Common voice भाषाहरू पृष्ठ</languagesPageLink>।
     यदि होइन भने, यो फारम भर्नुहोस् र हामी <strong>तपाईंलाई एउटा उपयोगी इमेल पठाउने छौँ
     तपाइँको भाषा कसरी सेट अप गर्ने भनेर व्याख्या गर्दै</strong>।
+request-language-explanation-2 =
+    हामी पनि <strong>हाम्रो समुदाय प्रबन्धकलाई थाहा दिनेछौं कि
+    तपाईं रुचि राख्नुहुन्छ</strong>, ताकि तिनीहरूले तपाईंलाई तपाईंलाई आवश्यक हुने कुनै जानकारी  वा अतिरिक्त समर्थन पनि दिन सकुन्।
 request-language-form-email =
     .label = तपाईंको इमेल ठेगाना
 request-language-form-info =
