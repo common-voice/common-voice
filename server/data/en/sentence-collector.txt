@@ -1224,6 +1224,7 @@
 "The interior of the room gaped black," he resumed.
 "The kindest physician in the college," she whispered to me.
 "The lady is our strong card," he said.
+"The last voice" was spoken by Patrick Allen.
 "The loss was mine," said Sharp courteously.
 "The man's an absolute drivelling ass," said Carter warmly.
 "The man's daft," was the answer.
@@ -7724,6 +7725,7 @@ Cathy, do come.
 Cats are silly.
 Cats entered into it, if I am not mistaken.
 Cats eyes are a reflector often used to mark the edges of the carriageway
+Cats have over one hundred vocal sounds, whereas dogs only have about ten.
 Caught in a vanity, she laughed.
 Cauliflower seed obtained from England is the most esteemed in Holland.
 Caustic fixed alkali dissolves the precipitated iron very readily.
@@ -8686,6 +8688,7 @@ Did you read Harry Potter and the Philosopher's Stone?
 Did you really say it?
 Did you record a voiceover?
 Did you save the poor lady?
+Did you say Paris or Parish?
 Did you see Taj Mahal anytime?
 Did you see anyone pass early this morning?
 Did you see her eyes and face when first she saw that sack?
@@ -10350,6 +10353,7 @@ Fixing me with a glittering eye, like the Ancient Mariner.
 Fizzy drinks often have a lot of sugar and are bad for your teeth
 Flask can be used to create api's.
 Flask is a Python web framework.
+Fleas can jump one hundred and thirty times their height.
 Flies are good fertilizers.
 Flights within Europe are cheap.
 Fling her into the kitchen!
@@ -15056,6 +15060,7 @@ Helene whispered in Celia's ear.
 Helene whispered sharply.
 Helene, it is not true that I am playing with her.
 Helene, you are by the switch of the electric light.
+Helium has the ability to work against gravity.
 Hell, that's what I want too.
 Hello hello. Why is this thing not working?
 Hello my friend, no sentences today?
@@ -27566,6 +27571,7 @@ Mother won't say, but you shall.
 Mother would admire his warm heart, father his wise head.
 Mother's neuralgia is very bad, and she is sadly in want of change.
 Mother, do you have plans, as Mrs. Hunter said?
+Motor neurons are the longest cells in the human body.
 Motor oils have an additive that extends the life of an Engine.
 Motorists have the right of way on roads unless there is a pedestrian crossing.
 Motorists should exercise extreme caution.
@@ -34770,6 +34776,7 @@ Sort the page in descending order.
 Sorters of tobacco are paid higher for the same time.
 Sound carries across water, you know.
 Sound the alarm bells!
+Sound travels four times faster in water than it does in air.
 Sound waves aren't able to propagate through a vacuum.
 Sounds like you need a break now!
 Sounds of more broken glass.
@@ -40819,6 +40826,7 @@ The world revolves around me.
 The world that sets this right.
 The world was divided primarily into those two classifications.
 The world, till now dusk and grey, reflected the gold glow, astonished.
+The world’s oldest wooden wheel has been around for more than five-thousand years
 The worm ruined the apple.
 The worst was, all the ladies cried in concert.
 The wound heals.
@@ -47055,6 +47063,7 @@ What an ass I made of myself!
 What an excellent idea.
 What an excited whispering and conferring took place.
 What an extraordinary name to give a maid!
+What an iconic voice!
 What an idea, uncle!
 What an odd, pointless story!
 What animal can retain the lesson with equal tenacity?
