@@ -14,6 +14,7 @@ export interface State {
   nativeNames?: NativeNames;
   rtlLocales?: Locales;
   translatedLocales?: Locales;
+  contributableNativeNames?: NativeNames;
 }
 
 enum ActionType {
@@ -22,11 +23,14 @@ enum ActionType {
 
 interface LoadedAction {
   type: ActionType.LOADED;
-  allLocales: Locales;
-  contributableLocales: Locales;
-  nativeNames: NativeNames;
-  rtlLocales: Locales;
-  translatedLocales: Locales;
+  payload: {
+    allLocales: Locales;
+    contributableLocales: Locales;
+    nativeNames: NativeNames;
+    rtlLocales: Locales;
+    translatedLocales: Locales;
+    contributableNativeNames: NativeNames;
+  };
 }
 
 export type Action = LoadedAction;
@@ -45,6 +49,16 @@ export const actions = {
         names[language.name] = language.native_name ?? language.name;
         return names;
       }, {});
+
+      const contributableNativeNames = allLanguages.reduce(
+        (names: Record<string, string>, language) => {
+          if (language.is_contributable) {
+            names[language.name] = language.native_name ?? language.name;
+          }
+          return names;
+        },
+        {}
+      );
 
       //get array of rtl languages
       const rtlLocales = allLanguages.reduce((names: any, language) => {
@@ -68,11 +82,14 @@ export const actions = {
 
       dispatch({
         type: ActionType.LOADED,
-        allLocales,
-        contributableLocales,
-        nativeNames,
-        rtlLocales,
-        translatedLocales,
+        payload: {
+          allLocales,
+          contributableLocales,
+          nativeNames,
+          rtlLocales,
+          translatedLocales,
+          contributableNativeNames,
+        },
       });
     };
   },
@@ -88,11 +105,12 @@ export function reducer(state: State = INITIAL_STATE, action: Action): State {
       return {
         ...state,
         isLoading: false,
-        allLocales: action.allLocales,
-        contributableLocales: action.contributableLocales,
-        nativeNames: action.nativeNames,
-        rtlLocales: action.rtlLocales,
-        translatedLocales: action.translatedLocales,
+        allLocales: action.payload.allLocales,
+        contributableLocales: action.payload.contributableLocales,
+        nativeNames: action.payload.nativeNames,
+        rtlLocales: action.payload.rtlLocales,
+        translatedLocales: action.payload.translatedLocales,
+        contributableNativeNames: action.payload.contributableNativeNames,
       };
 
     default:

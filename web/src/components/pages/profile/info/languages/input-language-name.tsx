@@ -2,7 +2,7 @@ import * as React from 'react';
 import { Localized } from '@fluent/react';
 
 import { LabeledSelect } from '../../../../ui/ui';
-import { useNativeLocaleNames } from '../../../../locale-helpers';
+import { useContributableNativeNames } from '../../../../locale-helpers';
 import { UserLanguage } from 'common';
 import { AccentsAll } from './languages';
 
@@ -19,7 +19,7 @@ const InputLanguageName = ({
   userLanguages,
   setUserLanguages,
 }: InputLanguageNameProps) => {
-  const nativeNames = useNativeLocaleNames();
+  const nativeNames = useContributableNativeNames();
 
   const handleChange = (event: React.ChangeEvent<HTMLSelectElement>) => {
     event.preventDefault();
