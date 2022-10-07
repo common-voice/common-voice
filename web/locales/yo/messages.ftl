@@ -76,6 +76,7 @@ gom = Goan Konkani
 ha = Hausa
 he = Hebrew
 hi = Hindi
+hil = Hiligaynon
 hr = Hindi
 hsb = Sorbian, Upper
 ht = Haitian
