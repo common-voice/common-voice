@@ -210,6 +210,7 @@ speak-now = Speak now
 datasets = Datasets
 languages = Languages
 about = About
+partner = Partner
 profile = Profile
 help = Help
 contact = Contact
