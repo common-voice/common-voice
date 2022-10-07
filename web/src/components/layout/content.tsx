@@ -23,6 +23,7 @@ const AboutPage = React.lazy(() => import('../pages/about/about'));
 const LandingPage = React.lazy(() => import('../pages/landing/landing'));
 const ErrorPage = React.lazy(() => import('../pages/error-page/error-page'));
 const CriteriaPage = React.lazy(() => import('../pages/criteria/criteria'));
+const PartnerPage = React.lazy(() => import('../pages/partner/partner'));
 
 const SentryRoute = Sentry.withSentryRouting(Route);
 
@@ -176,6 +177,11 @@ export default function Content({ location }: { location: any }) {
             // locale changing edge cases where toLocaleRoute is still using the old locale
             return <Redirect to={toLocaleRoute(URLS.LISTEN)} />;
           }}
+        />
+        <SentryRoute
+          exact
+          path={toLocaleRoute(URLS.PARTNER)}
+          component={PartnerPage}
         />
         <Route
           render={() => (
