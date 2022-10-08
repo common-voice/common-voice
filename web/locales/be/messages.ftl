@@ -346,6 +346,8 @@ profile-form-native-language =
     .label = Родная мова
 profile-form-additional-language =
     .label = Дадатковая мова
+profile-form-language =
+    .label = Мова
 profile-form-accent =
     .label = Акцэнт
 profile-form-age =
@@ -391,6 +393,7 @@ skip-submission-description = Пасля таго як вы націснеце "
 skip-submission-note = Заўвага: Вам усё яшчэ трэба будзе выбраць паміж "Агучыць" і "Слухаць", каб змяніць тып унёску.
 off = Пакінуць
 on = Прапусціць
+help-accent = Патрэбна дапамога з акцэнтам?
 
 ## Profile - Email
 
@@ -401,6 +404,7 @@ gravatar_not_found = Gravatar для вашай эл. пошты не знойд
 file_too_large = Выбраны файл занадта вялікі.
 avatar-uploaded = Аватар запампаваны
 max-file-size = { $kb }кб максімум
+remove-avatar = Выдаліць аватар
 
 ## Profile - Email
 
@@ -531,6 +535,8 @@ about-nav-playbook = Даведайцеся, як прыняць удзел
 
 ## How do I add a language
 
+about-playbook-how-add-language-translating-heading = Пераклад сайта
+about-playbook-how-add-language-collecting-sentences-heading = Збор сказаў
 
 ## How does localization work
 
@@ -543,12 +549,15 @@ about-playbook-how-localize-content-5 = Паглядзіце наш відэа-�
 
 ## How to add sentences
 
+about-playbook-how-add-sentences = Як дадаць сказы?
 
 ## How to record quality
 
 
 ## How to grow language
 
+about-playbook-how-grow-language-content-4 = Сацыяльныя медыя
+about-playbook-how-grow-language-content-6 = Партнёрства і сеткі
 
 ## How to validate
 
@@ -558,6 +567,7 @@ about-playbook-how-localize-content-5 = Паглядзіце наш відэа-�
 
 ## How are decisions made
 
+about-playbook-how-project-governance-content-6 = Узаемная адказнасць.
 
 ## Glossary
 
@@ -702,6 +712,7 @@ other-language = Іншая мова
 
 ## Request Language Pages
 
+request-language-form-info-explanation-list-1 = Назвы вашай мовы
 
 ## Languages Overview
 
@@ -718,6 +729,7 @@ language-search-input =
 language-speakers = Дыктараў
 localized = Лакалізавана
 sentences = Сказы
+language-validation-hours = Гадзіны
 
 ## Contribution
 
