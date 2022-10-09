@@ -793,6 +793,15 @@ other-language = Другой язык
 ## Request Language Pages
 
 request-language-heading = Попросить добавить новый язык
+request-language-explanation-1 =
+    Проверьте, указан ли ваш язык на
+    <languagesPageLink>странице распространенных голосовых языков</languagesPageLink>.
+    Если нет, заполните эту форму, и мы <strong>вышлем вам полезное электронное письмо,
+    объясняющее, как настроить язык</strong>.
+request-language-explanation-2 =
+    Мы также <strong>сообщим нашим менеджерам сообщества,
+    что вы заинтересованы</strong>, чтобы они могли дать вам любую
+    дополнительную поддержку или информацию, которая может вам понадобиться.
 request-language-form-email =
     .label = Ваш e-mail:
 request-language-form-info =
@@ -803,6 +812,24 @@ request-language-form-info-explanation =
 request-language-form-info-explanation-list-1 = Названия вашего языка
 request-language-form-info-explanation-list-2 = <isoCodeLink>ISO-коды</isoCodeLink>, если они известны
 request-language-form-info-explanation-list-3 = Ссылки на веб-сайты, которые могут помочь нам понять язык
+request-language-google-recaptcha-required = Требуется reCAPTCHA, если вы хотите продолжить
+request-language-google-recaptcha-error = Что-то пошло не так с reCAPTCHA. Пожалуйста, попробуйте еще раз.
+# Success page
+request-language-success-heading = Спасибо! Вы отправили запрос на новый язык
+request-language-success-list-1 =
+    Вы должны получить электронное письмо с кратким объяснением
+    шагов по добавлению вашего языка в Common Voice
+request-language-success-list-2 =
+    Наш менеджер сообщества свяжется с вами, чтобы предложить
+    дополнительную поддержку, а также сообщить, есть ли
+    уже сообщество, работающее над вашим языком
+request-language-success-list-3 =
+    Если вы не получите от нас ответа в течение нескольких дней,
+    обратитесь по адресу <emailLink>{ $email }</emailLink>
+    и мы свяжемся с вами!
+request-language-error =
+    Возможно, мы не получили этот запрос. Пожалуйста, напишите нам напрямую
+    на <emailLink>{ $email }</emailLink>, и мы свяжемся с вами!
 
 ## Languages Overview
 
@@ -876,8 +903,14 @@ listen-again-instruction = Отличная работа! <playIcon></playIcon> 
 listen-3rd-time-instruction = Два готовы <playIcon></playIcon> , продолжайте!
 listen-last-time-instruction = <playIcon></playIcon> Последний!
 listen-empty-state = У нас закончились записи для проверки на этом языке...
+listen-loading-error =
+    Нам не удалось получить ни одного аудиоклипа для прослушивания.
+    Пожалуйста, попробуйте позже.
 speak-empty-state = У нас закончились предложения для записи на этом языке...
 speak-empty-state-cta = Предложить предложения
+speak-loading-error =
+    Мы не смогли подобрать ни одного предложения, чтобы вы могли его произнести.
+    Пожалуйста, попробуйте еще раз позже.
 record-button-label = Запишите свой голос
 share-title-new = <bold>Помогите нам</bold> найти больше голосов
 keep-track-profile = Отслеживайте свой прогресс с помощью профиля
@@ -1060,6 +1093,7 @@ download-recordings-title = Записи
 download-recordings-info = Включает mp3 и относящиеся к ним предложения. Подготовка может занять некоторое время.
 download-recordings-size = Обычно мегабайты
 download-recordings-unavailable = Вы не можете запросить свои записи, пока обрабатывается другой запрос.
+download-recently-requested = Вы можете запрашивать новый архив ваших записей каждые { $days } дней.
 download-size = Размер
 download-selected = Выбрано
 download-start = Загрузить данные профиля
@@ -1133,18 +1167,28 @@ contribution-for-example = например
 contribution-misreadings-title = Неверное прочтение
 contribution-misreadings-description = При прослушивании очень внимательно проверяйте, что записано в точности то, что написано; отклоняйте даже незначительные ошибки. <br /> Очень частые ошибки:
 contribution-misreadings-description-extended-list-1 = Пропуск части слова в начале записи. Например, если произносится "ивет" вместо "привет".
+contribution-misreadings-description-extended-list-2 = В конце слова отсутствует символ <strong>«s»</strong> (для английского языка).
 contribution-misreadings-description-extended-list-3 = Произносится слово, похожее на написанное, но отличающееся от него. Например "вскрикнул" вместо "воскрикнул" или наоборот.
 contribution-misreadings-description-extended-list-4 = Пропуск конца последнего слова из-за преждевременного прерывания записи.
 contribution-misreadings-description-extended-list-5 = Несколько попыток прочесть слово.
+contribution-misreadings-example-1-title = Гигантские динозавры триаса.
 contribution-misreadings-example-2-title = Гигантский динозавр триасового периода.
+contribution-misreadings-example-2-explanation = [Должно быть «динозавры»]
 contribution-misreadings-example-3-title = Гигантские динозавры Триассо-.
+contribution-misreadings-example-3-explanation = [Запись обрывается до конца последнего слова]
 contribution-misreadings-example-4-title = Гигантские динозавры триаса. Да.
+contribution-misreadings-example-4-explanation = [Записано больше, чем требуемый текст]
 contribution-misreadings-example-5-title = Мы выходим за кофе.
 contribution-misreadings-example-6-title = Мы идем за кофе.
+contribution-misreadings-example-6-explanation = [Должно быть «Мы»]
 contribution-misreadings-example-7-title = Мы выходим за кофе
+contribution-misreadings-example-7-explanation = [Нет буквы "а" в исходном тексте]
 contribution-misreadings-example-8-title = Мимо пронесся шмель.
+contribution-misreadings-example-8-explanation = [Несоответствующий контент]
 contribution-varying-pronunciations-title = Различное Произношение
 contribution-varying-pronunciations-description = Будьте осторожны, прежде чем отклонять клип на том основании, что читатель неправильно произнес слово, поставил ударение не в том месте или, по-видимому, проигнорировал знак вопроса. Во всем мире используется большое разнообразие произношений, некоторые из которых вы, возможно, не слышали в своем местном сообществе. Пожалуйста, не отвергайте тех, кто может говорить иначе, чем вы.
+contribution-varying-pronunciations-description-extended = С другой стороны, если вы считаете, что читатель, вероятно, никогда раньше не встречал это слово и просто делает неверное предположение о произношении, пожалуйста, отклоните его. Если вы не уверены, используйте кнопку пропуска.
+contribution-varying-pronunciations-example-1-title = На голове у него был берет.
 contribution-background-noise-title = Фоновый шум
 contribution-background-voices-title = Фоновые голоса
 contribution-background-voices-description = Тихий и неразборчивый шум посторонних голосов вполне приемлем, однако если вы можете разобрать хоть одно слово, которого нет в тексте, запись следует отклонить, так как это может помешать машинному алгоритму в распознании слов. Обычно это случается, когда кто-то не выключает телевизор или если где-то поблизости идёт разговор.
