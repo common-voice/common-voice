@@ -418,6 +418,7 @@ on = Вкл.
 help-accent = Нужна помощь с акцентом?
 help-accent-explanation = Ваш акцент — это тот способ, с помощью которого вы произносите слова. Он может зависеть от места, где вы жили или живёте, языков, которыми вы владеете и от множества других факторов. Здесь вы можете указать ту информацию о нём, которую сочтёте нужной.
 help-variants = Нужна помощь с вариантами?
+help-variants-explanation = Варианты – это особая форма языка, общая, например, для тех, кто живет в определенной географической зоне или сообществе. Иногда их называют диалектами.
 
 ## Profile - Email
 
@@ -548,6 +549,8 @@ about-get-involved-text-2 =
     Отлично! Свяжитесь с нами по электронной почте или через <discourseLink>Discourse</discourseLink>, сообщайте о проблемах с сайтом через <githubLink>GitHub</githubLink> или присоединяйтесь к чату сообщества на <matrixLink>Matrix</matrixLink>.
 about-stay-in-touch = Как мне быть на связи?
 about-stay-in-touch-button = Зарегистрироваться
+about-stay-in-touch-text-1 = <emailFragment>Подпишитесь</emailFragment> на нашу рассылку, чтобы узнать, как вы можете принять участие в кампаниях, мероприятиях и функциях совместной разработки на Common Voice.
+about-stay-in-touch-text-2 = Вы можете познакомиться с другими участниками языковых сообществ Mozilla, присоединившись к <discourseLink>Discourse</discourseLink> для обсуждения тем или <matrixLink>Matrix</matrixLink> для быстрого совета.
 about-nav-why-common-voice = Почему?
 about-nav-how-it-works = Как?
 about-nav-partners = Партнёры
@@ -559,6 +562,9 @@ about-nav-playbook = Узнать, как принять участие
 ## What is a language
 
 about-playbook-what-is-language = Что такое язык на Common Voice?
+about-playbook-what-is-language-content-1 = Есть много способов думать о языке. Для целей моделей распознавания речи Common Voice предлагает сосредоточиться на «взаимной разборчивости» или «могут ли носители этого языка понять друг друга, если попытаются?»
+about-playbook-what-is-language-content-2 = Мы хотим, чтобы речевые модели лучше понимали широкий круг говорящих. Для этого набор голосовых данных должен представлять множество разных людей.
+about-playbook-what-is-language-content-3 = Некоторые языки имеют огромные различия в грамматике, словарном запасе и произношении. По этой причине в 2022 году мы <ctaLink>представляем «Варианты»</ctaLink>. Это дает сообществам возможность различать свои языки в большом наборе данных.
 
 ## How do I add a language
 
@@ -566,8 +572,17 @@ about-playbook-how-add-language = Как мне добавить язык?
 about-playbook-how-add-language-content-1 = Сначала убедитесь, <languageLink>не добавлен ли уже</languageLink> ваш язык. Если его ещё нет, вам надо <strong>перевести сайт и собрать предложения</strong>.
 about-playbook-how-add-language-translating-heading = Перевод сайта
 about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Посмотрите наш обучающий ролик о том, как использовать Pontoon.</translateVideoLink>
+about-playbook-how-add-language-translating-content-2 =
+    Для переводов мы используем инструмент Mozilla под названием <pontoonLink>Pontoon</pontoonLink>. У Pontoon много языков,
+    но если вашего нет, вы можете <pontoonRequestLink>запросить добавление языка</pontoonRequestLink>.
+    Затем, чтобы сделать язык доступным в проекте Common Voice,
+    <githubRepoLink>запросите новый язык на GitHub</githubRepoLink>. <localizationFragment>Подробнее о переводе сайтов</localizationFragment>.
 about-playbook-how-add-language-collecting-sentences-heading = Сбор предложений
 about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>Посмотрите наш обучающий ролик об использовании «Коллектора предложений»</sentenceCollectorVideo>.
+about-playbook-how-add-language-collecting-sentences-content-2 =
+    Вы можете <sentenceCollectorLinkAdd>добавить небольшое количество предложений</sentenceCollectorLinkAdd>,
+    или выполнить <bulkImportDocsLink>массовый импорт с помощью Github</bulkImportDocsLink>.
+    Помните, что предложения должны быть <licenseLink>CC0 (или общественным достоянием)</licenseLink>, либо же вы можете написать свои собственные.
 about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>Узнать больше о сборе предложений</sentenceCollectorFragment>.
 
 ## How does localization work
