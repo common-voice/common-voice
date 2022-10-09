@@ -556,6 +556,7 @@ about-playbook-how-add-sentences = Як дадаць сказы?
 
 ## How to grow language
 
+about-playbook-how-grow-language-content-2 = Падзеі
 about-playbook-how-grow-language-content-4 = Сацыяльныя медыя
 about-playbook-how-grow-language-content-6 = Партнёрства і сеткі
 
@@ -567,6 +568,8 @@ about-playbook-how-grow-language-content-6 = Партнёрства і сетк�
 
 ## How are decisions made
 
+about-playbook-how-project-governance = Як прымаюцца праектныя рашэнні?
+about-playbook-how-project-governance-content-3 = Канфідэнцыяльнасць, бяспека і празрыстасць.
 about-playbook-how-project-governance-content-6 = Узаемная адказнасць.
 
 ## Glossary
