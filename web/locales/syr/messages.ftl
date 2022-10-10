@@ -132,6 +132,7 @@ hours-recorded = ܫܥ̈ܐ ܡܟܬܒ݂ܝ
 hours-validated = ܫܥ̈ܐ ܫܪܝܪ̈ܐ
 voices-online = ܐܝܬ ܩܠ̈ܐ ܥܠ ܢܘܠܐ ܗܫܐ
 help-reach-goal = ܥܕܪ ܩܕ ܕܝܝܢ ܡܛܚ ܥܠ { $goal }
+read-terms-q = ܩܪܝܬܗܘܢ ܬܢܘ̈ܝ ܕܝܝܢ؟
 ready-to-record = ܦܝܫܝܬܘܢ ܥܬܝܕܐ (ready) ܥܡ ܫܘܬܦܝܬܘܢ ܩܠܘܟܘܢ؟
 all-locales = ܟܠ
 today = ܐܕܝܘܡ
@@ -162,7 +163,7 @@ x-years-short =
         [many] ܫܢܝ̈ܐ
        *[other] ܫܢܝ̈ܐ
     }
-help-make-dataset = ܥܕܪ ܩܬܢ  ܒܒܢܝܬܐ ܕܚܕ ܣܕܪܐ ܫܘܘܕܥܝܐ (dataset) ܕܝܠܗ ܐܝܢܝܘܬܐ ܥܠܝܬܐ (high quality) ܘ ܦܬܝܚܐ ܩܐ ܟܠ ܚܕ ܢܫܐ
+help-make-dataset = ܥܕܪ ܩܬܢ ܒܒܢܝܬܐ ܕܚܕ ܣܕܪܐ ܫܘܘܕܥܝܐ (dataset) ܕܝܠܗ ܐܝܢܝܘܬܐ ܥܠܝܬܐ (high quality) ܘ ܦܬܝܚܬܐ ܩܐ ܟܠ ܚܕ ܢܫܐ
 sign-up-account = ܡܟܬܒ ܚܘܫܒܢܐ
 email-subscription-title = ܡܟܬܒ ܠܩܒܠܬܐ ܚܘܕ̈ܬܐ ܒܐܝܡܝܠ
 email-subscription-title-new = ܡܟܬܒ ܠܩܒܠܬܐ ܛܒܐ، ܡܥܗܕ̈ܢܘܬܐ ܕܢܝܫ̈ܐ‌ (goal reminders) ܘ ܚܘܕ̈ܬܐ ܕܪܗܬܐ (progress updates) ܕܩܠܐ ܓܘܢܝܐ
