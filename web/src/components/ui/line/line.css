@@ -1,0 +1,10 @@
+.line {
+    width: 70px;
+    height: 3px;
+    background: linear-gradient(
+        to right,
+        var(--gradient-pink),
+        var(--gradient-purple)
+    );
+    margin-bottom: 20px;
+}
