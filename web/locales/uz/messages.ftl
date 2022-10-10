@@ -992,6 +992,8 @@ demo-dashboard-card-body = Xayriya qilingan va tasdiqlangan har bir audio tasma 
 
 ## Validation criteria
 
+contribution-criteria-link = Qoidalar bilan tanishish
+contribution-criteria-page-description = Ovozli kliplarni tinglashda nimalarga eʼtibor berish kerakligini tushuning va ovozli yozuvlaringizni yanada boyroq qilishga yordam bering!
 contribution-for-example = masalan
 contribution-misreadings-title = Notoʻgʻri oʻqilgan
 contribution-misreadings-description = Tinglayotganda yozilgan matnning aynan yozib olingan ovoz bilan bir xilligini diqqat bilan tekshiring. Hatto kichik xatolar boʻlsa ham rad eting. <br />Juda keng tarqalgan xatolarga quyidagilar kiradi:
