@@ -130,6 +130,7 @@ listen-subtitle = ܥܕܪ ܩܬܢ ܒܫܪܘܪܐ ܕܩܠ̈ܐ
 listen-goal-text = ܡܐܡܪ̈ܐ ܫܪܝܪ̈ܐ
 hours-recorded = ܫܥ̈ܐ ܡܟܬܒ݂ܝ
 hours-validated = ܫܥ̈ܐ ܫܪܝܪ̈ܐ
+voices-online = ܐܝܬ ܩܠ̈ܐ ܥܠ ܢܘܠܐ ܗܫܐ
 help-reach-goal = ܥܕܪ ܩܕ ܕܝܝܢ ܡܛܚ ܥܠ { $goal }
 ready-to-record = ܦܝܫܝܬܘܢ ܥܬܝܕܐ (ready) ܥܡ ܫܘܬܦܝܬܘܢ ܩܠܘܟܘܢ؟
 all-locales = ܟܠ
