@@ -67,6 +67,7 @@ hy-AM = ܐܪܡܢܝܬ
 hyw = ܐܪܡܢܝܬ ܡܥܪܒܝܐ
 it = ܐܝܛܠܝܬ
 ja = ܝܦܢܝܐ
+ka = ܓܘܪܓܐܝܬ
 kmr = ܩܘܪܕܝܬ
 nb-NO = ܢܘܪܒܝܓܐܝܬ ܒܘܟܡܠ
 nn-NO = ܢܘܪܒܝܓܐܝܬ ܢܝܢܘܪܣܟ
@@ -76,7 +77,9 @@ pt = ܦܘܪܛܘܓܠܐܝܬ
 ro = ܪܘܡܢܐܝܬ
 ru = ܐܘܪܘܣܢܝܬ
 rw = ܟܝܢܝܪܐܘܢܕܐ
+st = ܣܘܬܘ ܬܡܢܝܐ
 sv-SE = ܣܘܝܕܐܝܬ
+sw = ܣܘܐܗܝܠܐܝܬ
 syr = ܣܘܪܝܝܐ
 tr = ܬܘܪܟܝܬ
 uk = ܐܘܟܪܐܝܢܐܝܬ
@@ -300,6 +303,7 @@ about-nav-partners = ܫܘܬܦܝ̈ܐ
 
 ## How to grow language
 
+about-playbook-how-grow-language-content-6 = ܢܘܠ̈ܐ ܘܡܫܘܬܦܢܘܬ̈ܐ
 
 ## How to validate
 
