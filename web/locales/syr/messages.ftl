@@ -123,6 +123,7 @@ vote-no = ܠܐ
 speak-subtitle = ܫܘܬܦ ܩܠܘܟܘܢ
 listen-subtitle = ܥܕܪ ܩܬܢ ܒܫܪܘܪܐ ܕܩܠ̈ܐ
 listen-goal-text = ܡܐܡܪ̈ܐ ܫܪܝܪ̈ܐ
+hours-recorded = ܫܥ̈ܐ ܡܟܬܒ݂ܝ
 hours-validated = ܫܥ̈ܐ ܫܪܝܪ̈ܐ
 help-reach-goal = ܥܕܪ ܩܕ ܕܝܝܢ ܡܛܚ ܥܠ { $goal }
 ready-to-record = ܦܝܫܝܬܘܢ ܥܬܝܕܐ (ready) ܥܡ ܫܘܬܦܝܬܘܢ ܩܠܘܟܘܢ؟
