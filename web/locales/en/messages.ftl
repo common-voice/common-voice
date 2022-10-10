@@ -1527,3 +1527,6 @@ sc-validation-no-abbreviations = Sentence should not contain abbreviations
 
 localization-select =
   .label = Choose language/localization
+
+# PARTNERSHIPS PAGE
+partnerships-header = Partnerships

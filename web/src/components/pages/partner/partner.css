@@ -1,0 +1,16 @@
+.partner-main-container {
+    & .partnerships-section {
+        height: 550px;
+        background: url('./images/waves.png');
+        background-size: cover;
+    }
+
+    & .partner-container {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: var(--desktop-width);
+        min-height: 100%;
+        transition: opacity var(--transition-duration-slow) var(--easing);
+        padding-top: 25px;
+    }
+}
