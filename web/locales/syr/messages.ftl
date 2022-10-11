@@ -174,6 +174,8 @@ benefits = ܥܠܠܬܐ
 
 ## What's public
 
+whats-public = ܡܘܕܝ ܝܠܗ ܓܠܝܐ؟
+email-not-public = ܐܚܢܢ ܠܐ ܦܪܣܚ ܠܗ ܐܝܡܝܠ ܕܝܘܟܘܢ ܓܠܝܐܝܬ.
 
 ## Speak & Listen Shortcuts
 
