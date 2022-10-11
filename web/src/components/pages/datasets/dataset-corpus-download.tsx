@@ -44,9 +44,9 @@ const DatasetCorpusDownload = ({
   const api = useAPI();
 
   const [locale, setLocale] = useState(initialLanguage);
-
-  const handleLangChange = (event: React.ChangeEvent<HTMLInputElement>) => {
+  const handleLanguageChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     const newLocale = event.target.value;
+    console.log('new', newLocale);
 
     setLocale(newLocale);
   };
@@ -88,7 +88,7 @@ const DatasetCorpusDownload = ({
             label={getString('language')}
             name="bundleLocale"
             value={locale}
-            onChange={handleLangChange}>
+            onChange={handleLanguageChange}>
             {useSortedLocales(
               languagesWithDatasets.map(s => s.name),
               getString
@@ -126,7 +126,7 @@ const DatasetCorpusDownload = ({
                 downloadPath={selectedDataset.download_path}
                 releaseId={selectedDataset.id.toString()}
                 checksum={selectedDataset.checksum}
-                size={formatBytes(selectedDataset.size, locale)}
+                size={formatBytes(selectedDataset.size, initialLanguage)}
               />
             </>
           )}
