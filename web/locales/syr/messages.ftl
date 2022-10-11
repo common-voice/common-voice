@@ -371,6 +371,7 @@ localized = ܡܫܪܝܬܐ
 listen = ܫܡܥܝܼ
 skip = ܫܘܪ
 shortcuts = ܦܣܩܐ
+record-abort-submit = ܫܕܪ ܡܐܡܪ̈ܐ
 
 ## Reporting
 
@@ -383,6 +384,7 @@ continue = ܐܡܢܐ
 ## Dashboard
 
 your-languages = ܠܫܢܘܟ݂ܘܢ
+clips-you-recorded = ܡܐܡܪ̈ܐ ܡܟܬܒ݂ܝܬܘܢ
 clips-you-validated = ܡܐܡܪ̈ܐ ܫܪܝܪܝܬܘܢ
 validated-clips = ܡܐܡܪ̈ܐ ܫܪܝܪ̈ܐ
 
