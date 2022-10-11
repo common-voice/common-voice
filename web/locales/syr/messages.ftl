@@ -338,6 +338,7 @@ sentence-collection = ܟܘܢܫܐ ܕܡܡܠ݇ܠܐ
 ## Data
 
 review-cancel = ܒܛܘܠ ܫܕܪܬܐ
+review-delete-recordings = ܫܘܦ ܡܟܬܒܢܘܬܝ
 
 ## Datasets Page
 
