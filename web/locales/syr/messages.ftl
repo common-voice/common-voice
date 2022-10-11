@@ -2,7 +2,7 @@
 
 yes-receive-emails = ܗܝ، ܫܕܪ ܩܐ ܕܝܝ ܐܝܡܝܠ. ܐܢܐ ܒܥܝܢ ܦܝܫܢ ܡܘܕܥܝܐ ܒܘܬ ܩܠܐ ܓܘܢܝܐ.
 stayintouch = ܐܚܢܢ ܒܡܘܙܝܠܐ ܒܢܝܐ ܝܘܚ ܫܘܬܦܘܬܐ ܠܚܘܕܪ̈ܘܢܐ ܕܝܘܠܦܢܐ ܐܘܡܢܘܬܐ ܕܩܠܐ (voice technology). ܐܚܢܢ ܒܥܝܚ ܡܕܥܚ ܩܐ ܕܝܘܟܘܢ ܠܚܘܕܬ̈ܐ، ܡܒܘ̈ܥܐ ܫܘܘܕܥܐ (data sources) ܚܕ̈ܬܐ ܘ ܫܡܥܚ ܒܘܬ ܦܠܚܢܐ ܕܝܘܟܘܢ ܒܫܘܘܕܥܐ.
-privacy-info = ܐܚܢܢ ܫܘܕܘܝܐ (ܩܘܘܠܐ) ܝܘܚ ܩܬ ܢܛܪܟ ܡܘܕܥܢܘܬܐ ܕܝܘܟܘܢ. ܩܪܝܡܘܢ <privacyLink> ܦܘܪܢܣܐ ܕܕܝܠܢܝܘܬܐ <privacyLink/>.
+privacy-info = ܐܚܢܢ ܫܘܕܘܝܐ (promise) ܝܘܚ ܩܬ ܢܛܪܟ ܠܗ ܡܘܕܥܢܘܬܐ ܕܝܘܟܘܢ. ܩܪܝܡܘܢ <privacyLink> ܦܘܪܢܣܐ ܕܕܝܠܢܝܘܬܐ <privacyLink/>.
 return-to-cv = ܕܥܪ ܠܩܠܐ ܓܘܢܝܐ
 email-input =
     .label = ܐܝܡܝܠ
@@ -121,7 +121,7 @@ logout = ܦܠܘܛ
 
 home-cta = ܡܠܠ ܒܩܠܐ، ܫܘܬܦ ܠܐܟܐ!
 show-wall-of-text = ܩܪܝ ܝܬܝܪ
-help-us-title = ܥܕܪ ܩܬܢ ܒܫܪܘܪܐ ܕܦܬܓܡ̈ܐ!
+help-us-title = ܥܕܪ ܩܬܢ ܒܫܪܪܬܐ ܕܡܡܠ݇ܠ̈ܐ!
 vote-yes = ܗܐ
 vote-no = ܠܐ
 speak-subtitle = ܫܘܬܦ ܩܠܘܟܘܢ
@@ -279,6 +279,7 @@ manage-email-subscriptions = ܬܓܒܪ ܫܪ̈ܟܬܐ ܕܐܝܡܝܠ
 
 faq-what-cv-q = ܡܘܕܝ ܝܠܗ̇ ܩܠܐ ܓܘܢܝܐ؟
 faq-how-get-q = ܕܐܟ݂ܝ ܟܐ ܩܢܝܢ ܫܘܘܕ̈ܥܐ ܕܩܠܐ ܓܘܢܝܐ؟
+faq-is-account-public-q = ܝܠܗ ܡܘܕܥܢܘܬܐ ܕܚܘܫܒܢܝ ܓܠܝܐ؟
 
 ## ABOUT US
 
