@@ -286,6 +286,7 @@ faq-is-account-public-q = ܝܠܗ ܡܘܕܥܢܘܬܐ ܕܚܘܫܒܢܝ ܓܠܝܐ؟
 
 ## How does it work section
 
+about-localization-title = ܕܘܟܬܢܐܝܬ ܕܦܪܣ ܢܘܠܐ
 about-voice-validation-subtitle = ܢܫ̈ܐ ܐܚܪ̈ܢܐ ܫܪܝܪ̈ܐ ܝܢܐ ܐܢܝ ܡܐܡܪ̈ܐ.
 about-speak = ܡܠܠ
 about-dataset-new = ܣܕܪܐ ܕܫܘܘܕ̈ܥܐ ܕܩܠܐ ܓܘܢܝܐ
@@ -323,7 +324,7 @@ about-playbook-how-grow-language-content-6 = ܢܘܠ̈ܐ ܘܡܫܘܬܦܢܘܬ̈ܐ
 
 ## Glossary
 
-localization = ܡܫܪܝܬܐ
+localization = ܕܘܟܬܢܐܝܬ
 sentence-collection = ܟܘܢܫܐ ܕܡܡܠ݇ܠܐ
 
 ## Error pages
@@ -481,3 +482,5 @@ sc-lang-info-validated =
 
 # [/SentenceCollector]
 
+localization-select =
+    .label = ܓܒܝ ܠܫܢܐ / ܕܘܟܬܢܐܝܬ
