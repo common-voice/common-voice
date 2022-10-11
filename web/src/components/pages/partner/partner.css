@@ -12,5 +12,15 @@
         min-height: 100%;
         transition: opacity var(--transition-duration-slow) var(--easing);
         padding-top: 25px;
+
+        .page-heading {
+            font-size: 48px;
+        }
+
+        p {
+            font-size: 24px;
+            font-weight: 300;
+            width: 566px;
+        }
     }
 }
