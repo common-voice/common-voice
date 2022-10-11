@@ -170,7 +170,7 @@ email-subscription-title-new = ܡܟܬܒ ܠܩܒܠܬܐ ܛܒܐ، ܡܥܗܕ̈ܢܘܬܐ
 
 ## Account Benefits
 
-benefits = ܥܠܠܬܐ
+benefits = ܥܠܠܬ̈ܐ
 
 ## What's public
 
@@ -202,7 +202,10 @@ shortcut-vote-no = ܠ
 shortcut-record-toggle = ܡ
 shortcut-record-toggle-label = ܡܟܬܒ/ܟܠܝ
 shortcut-rerecord-toggle = [1-5]
+shortcut-rerecord-toggle-label = ܡܐܡܪܐ ܡܟܬܒ݂ ܐܚܪܢܐ
+shortcut-discard-ongoing-recording = ܩܕܝܠܐ ܕܢܦܩܐ ESC
 shortcut-submit = ܕܥܪ
+shortcut-submit-label = ܫܕܪ ܡܐܡܪ̈ܐ
 request-language-button = ܛܠܒ ܠܫܢܐ
 
 ## ProjectStatus
@@ -287,9 +290,11 @@ faq-is-account-public-q = ܝܠܗ ܡܘܕܥܢܘܬܐ ܕܚܘܫܒܢܝ ܓܠܝܐ؟
 ## How does it work section
 
 about-localization-title = ܕܘܟܬܢܐܝܬ ܕܦܪܣ ܢܘܠܐ
-about-voice-validation-subtitle = ܢܫ̈ܐ ܐܚܪ̈ܢܐ ܫܪܝܪ̈ܐ ܝܢܐ ܐܢܝ ܡܐܡܪ̈ܐ.
+about-voice-validation-subtitle = ܐܢܫ̈ܐ ܐܚܪ̈ܢܐ ܫܪܝܪ̈ܐ ܝܢܐ ܐܢܝ ܡܐܡܪ̈ܐ.
 about-speak = ܡܠܠ
+about-is-it-valid = ܝܠܗ ܡܐܡܪܐ ܫܪܝܪܐ؟
 about-dataset-new = ܣܕܪܐ ܕܫܘܘܕ̈ܥܐ ܕܩܠܐ ܓܘܢܝܐ
+about-clip-graveyard = ܒܝܬ ܩܒ݂ܘܪ̈ܐ ܕܡܐܡܪܐ
 about-nav-how-it-works = ܐܝܟܢܐ؟
 about-nav-partners = ܫܘܬܦܝ̈ܐ
 
