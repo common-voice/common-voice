@@ -324,6 +324,7 @@ about-playbook-how-grow-language-content-6 = ܢܘܠ̈ܐ ܘܡܫܘܬܦܢܘܬ̈ܐ
 ## Glossary
 
 localization = ܡܫܪܝܬܐ
+sentence-collection = ܟܘܢܫܐ ܕܡܡܠ݇ܠܐ
 
 ## Error pages
 
