@@ -5,9 +5,9 @@ import {
 } from '@fluent/react';
 import * as React from 'react';
 import { useState, useEffect } from 'react';
-import { localeConnector, LocaleLink } from '../../locale-helpers';
+import { localeConnector } from '../../locale-helpers';
 import useSortedLocales from '../../../hooks/use-sorted-locales';
-import { LabeledSelect, Spinner } from '../../ui/ui';
+import { LabeledSelect, Spinner, StyledLink } from '../../ui/ui';
 
 import DatasetDownloadEmailPrompt from './dataset-download-email-prompt';
 
@@ -16,9 +16,9 @@ import { useAPI } from '../../../hooks/store-hooks';
 import DatasetCorpusDownloadTable from './dataset-corpus-download-table';
 import PageHeading from '../../ui/page-heading';
 import { formatBytes } from '../../../utility';
-import PageTextContent from '../../ui/page-text-content';
-import { Link } from 'react-router-dom';
 import { DeltaReadMoreLink } from '../../shared/links';
+const EMAIL_ADDRESS = 'commonvoice@mozilla.com';
+
 interface Props {
   languagesWithDatasets: { id: number; name: string }[];
   initialLanguage: string;
@@ -130,6 +130,17 @@ const DatasetCorpusDownload = ({
               />
             </>
           )}
+
+          <p className="intro-summary">
+            <Localized
+              id="download-dataset-access"
+              elems={{
+                emailLink: <StyledLink href={`mailto:${EMAIL_ADDRESS}`} />,
+              }}
+              vars={{ email: EMAIL_ADDRESS }}>
+              <span />
+            </Localized>
+          </p>
         </div>
       </div>
     </div>
