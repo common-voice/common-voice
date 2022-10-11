@@ -371,7 +371,9 @@ localized = ܡܫܪܝܬܐ
 listen = ܫܡܥܝܼ
 skip = ܫܘܪ
 shortcuts = ܦܣܩܐ
+clips-uploaded = ܡܐܡܪ̈ܐ ܡܘܣܩ ܠܗ
 record-abort-submit = ܫܕܪ ܡܐܡܪ̈ܐ
+record-abort-delete = ܦܠܘܛ ܘܫܘܦ ܡܐܡܪ̈ܐ
 
 ## Reporting
 
