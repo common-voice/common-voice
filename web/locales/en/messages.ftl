@@ -1530,3 +1530,4 @@ localization-select =
 
 # PARTNERSHIPS PAGE
 partnerships-header = Partnerships
+partnerships-header-text = It takes a lot to make Common Voice happen! We don't do it alone. Want to partner with us? We'd love to hear from you. 
