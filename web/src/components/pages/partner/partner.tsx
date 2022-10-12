@@ -5,6 +5,9 @@ import Page from '../../ui/page';
 
 import './partner.css';
 import PageHeading from '../../ui/page-heading';
+import { LinkButton } from '../../ui/ui';
+import { MailIcon } from '../../ui/icons';
+import { COMMON_VOICE_EMAIL } from '../../../constants';
 
 const Partner = () => (
   <Page className="partner-main-container">
@@ -18,6 +21,10 @@ const Partner = () => (
             It takes a lot to make Common Voice happen! We don&apos;t do it
             alone. Want to partner with us? We&apos;d love to hear from you.
           </p>
+          <LinkButton rounded blank href={`mailto:${COMMON_VOICE_EMAIL}`}>
+            <MailIcon />
+            <Localized id="partnerships-get-in-touch" />
+          </LinkButton>
         </div>
         <div className="partner-header-image">
           <img
