@@ -454,6 +454,18 @@ keep = ܢܛܪ
 
 ## ADD LANGUAGE
 
+# Variables:
+#   $sentences (Number) - Number of sentences which failed to be saved to the database - could be several different reasons
+sc-add-err-failed =
+    { $sentences ->
+        [0] ܠܐ ܚܠܛ̈ܐ ܒܡܡܠ݇ܠ̈ܐ
+        [zero] 0 ܚܠܛ̈ܐ ܒܡܡܠ݇ܠܐ
+        [one] 1 ܚܠܛܐ ܒܡܡܠ݇ܠܐ
+        [two] 2 ܚܠܛ̈ܐ ܒܡܡܠ݇ܠ̈ܐ
+        [few] ܚܟ̈ܡܐ ܚܠܛ̈ܐ ܒܡܡܠ݇ܠ̈ܐ
+        [many] ܪܒܐ ܚܠܛ̈ܐ ܒܡܡܠ݇ܠ̈ܐ
+       *[other] { $sentences } ܚܠܛ̈ܐ ܒܡܡܠ݇ܠ̈ܐ
+    }
 
 ## ADD SENTENCES CONFIRMATION
 
