@@ -17,10 +17,9 @@ const Partner = () => (
           <PageHeading>
             <Localized id="partnerships-header" />
           </PageHeading>
-          <p>
-            It takes a lot to make Common Voice happen! We don&apos;t do it
-            alone. Want to partner with us? We&apos;d love to hear from you.
-          </p>
+          <Localized id="partnerships-header-text">
+            <p />
+          </Localized>
           <LinkButton rounded blank href={`mailto:${COMMON_VOICE_EMAIL}`}>
             <MailIcon />
             <Localized id="partnerships-get-in-touch" />
