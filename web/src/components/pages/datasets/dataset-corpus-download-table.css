@@ -31,11 +31,12 @@
                 &.selected {
                     & td:first-child::before {
                         content: '';
-                        background: url('./images/chevron-right.svg') no-repeat;
+                        background: url('./images/checkmark.svg') no-repeat;
                         width: 25px;
                         height: 25px;
                         position: absolute;
-                        left: 35px;
+                        left: 47px;
+                        transform: translateY(5px);
                     }
                 }
             }
