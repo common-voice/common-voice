@@ -22,6 +22,15 @@ const INITIAL_STATE = {
     },
     rtlLocales: ['ar', 'ckb', 'dv', 'fa', 'he', 'ps', 'skr', 'syr', 'ug', 'ur'],
     translatedLocales: ['az', 'cy', 'en', 'fr', 'nan-tw', 'pt', 'tl'],
+    contributableNativeNames: {
+      az: 'Azərbaycanca',
+      cy: 'Cymraeg',
+      en: 'English',
+      fr: 'Français',
+      'nan-tw': '臺語',
+      pt: 'Português',
+      tl: 'Tagalog',
+    },
   },
 } as Partial<StateTree>;
 const store = createStore(reducers, INITIAL_STATE as StateTree);
