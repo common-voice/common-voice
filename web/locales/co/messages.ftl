@@ -606,6 +606,7 @@ review-delete-recordings = Sguassà i mo arrighjistramenti
 
 ## Datasets Page
 
+datasets-heading = Banche di dati
 datasets-headline = Custruimu una banca di voci, in sfarente lingue, aperta è dispunibile di manera publica chì ognunu puderà aduprà pà l'addestru di l'appiecazioni chì ponu parlà.
 datasets-positioning =
     Noi cridimu chi banche di dati vucale tamante è pubbliche prumovani l’innuvazione è una cumpetizione sana in e tecnulugie vucale appughjate annantu à l’amparera di e machine.
