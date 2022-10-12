@@ -11,12 +11,9 @@
     align-items: center;
     @media (--lg-up) {
         background-position: right;
-        /* padding-inline-end: 5em; */
     }   
 
     @media (--xl-up) {
-        /* padding-inline-start: var(--page-margin-padding); */
-        /* padding-inline-end: 5em; */
         padding: 5em;
     }
 
