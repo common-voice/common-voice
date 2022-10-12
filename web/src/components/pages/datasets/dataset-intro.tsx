@@ -5,6 +5,7 @@ import { TextButton } from '../../ui/ui';
 import PageHeading from '../../ui/page-heading';
 
 import './dataset-intro.css';
+import classNames from 'classnames';
 
 const DatasetIntro = () => {
   const [showIntroTextMdDown, setShow] = useState(false);
@@ -30,7 +31,9 @@ const DatasetIntro = () => {
           </Localized>
         )}
         <Localized id="datasets-positioning">
-          <p className={showIntroTextMdDown ? '' : 'hidden-md-down'} />
+          <p
+            className={classNames({ 'hidden-md-down': !showIntroTextMdDown })}
+          />
         </Localized>
       </div>
     </div>
