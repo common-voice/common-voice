@@ -519,6 +519,7 @@ about-playbook-how-add-language-collecting-sentences-content-2 =
     Pudeti <sentenceCollectorLinkAdd>aghjunghje qualche infrasate</sentenceCollectorLinkAdd>,
     o pudeti fà <bulkImportDocsLink>un impurtazione in massa cù Github</bulkImportDocsLink>.
     Arricurdatevi chì l’infrasate ani da esse <licenseLink>CC0 (o duminiu pubblicu)</licenseLink>, o pudeti ancu scrive e vostre propie infrasate.
+about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>Vede di più sopr’a raccoglie d’infrasate</sentenceCollectorFragment>.
 
 ## How does localization work
 
