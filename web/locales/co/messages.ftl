@@ -427,6 +427,7 @@ faq-why-different-speakers-a =
     A maiurità di e banche di dati vucale sò addistrati incù una sopra riprisintazione demugrafica di <articleLink>masci di classa mezana</articleLink>. Accenti è dialetti sottu riprisentati sò tipicamenti quelli di gruppi di parsoni dighjà marginalizzati. Mori apparechji strazieghjani pà ricunnosce voce feminile. 
     Ghjè parchì vulemu svariatezza in a nostra banca di dati !
 faq-why-my-lang-q = Parchì a me lingua ùn hè ancu inghjusa ?
+faq-why-my-lang-a = Common Voice hè una piattaforma di crowdsourcing, è tutte e lingue sò state aghjunte da vuluntari. Sariamu felice sè voi aghjunghjariati a vostra lingua ! <languageRequestLink>Chiriti per aghjunghje a vostra lingua.</languageRequestLink>
 faq-what-quality-q = Chì niveddu di qualità audio hè richiestu pà avè un campione di voce adupratu in a banca di dati ?
 faq-what-quality-a = Vulemu chì a banca di dati di Common Voice pari à a qualità di ciò chì un mutori di ricunniscenza vucale sintarà in a rialità, è dunque circhemu varietà. In più da una cumunità diversa di locutori, una banca di dati cù una qualità varia insignarà à u mutori di ricunniscenza à gestisce parechji situazione realistiche, da una discussione in fondu à u frombu di una vittura. Si u campione vucale pò esse capitu, eddu cunvenerà sicuramente pà a banca di dati.
 faq-why-10k-hours-q = Parchì sò 10,000 ore d'arrighjistramenti cunvalidate u scopu ?
@@ -493,6 +494,7 @@ about-get-involved-text-2 =
     Tremendu ! Cuntattateci via email o e piazze publiche <discourseLink>Discourse</discourseLink>, indittati i prublemi di u situ via <githubLink>GitHub</githubLink>, o raghjunghjeti a chjachjerata di a cummunità <matrixLink>Matrix</matrixLink>.
 about-stay-in-touch = Cumu possu stà in cuntattu ?
 about-stay-in-touch-button = Arrighjistrassi
+about-stay-in-touch-text-1 = <emailFragment>Arrighjistratevi</emailFragment> à a nostra lista di distribuzione pà amparà comu pudeti participà in campagni, ivinimenti è à a creazione di novi funzione pà Common Voice.
 about-nav-why-common-voice = Parchì ?
 about-nav-how-it-works = Comu ?
 about-nav-partners = Partinarii
