@@ -1,4 +1,6 @@
 .partner-main-container {
+    --type-color: var(--blue);
+
     & .partnerships-section {
         height: 550px;
         background: url('./images/waves.png');
@@ -6,6 +8,7 @@
     }
 
     & .partner-container {
+        display: flex;
         margin-left: auto;
         margin-right: auto;
         max-width: var(--desktop-width);
@@ -17,10 +20,43 @@
             font-size: 48px;
         }
 
+        .partner-header-image {
+            flex: 1;
+            text-align: right;
+        }
+
         p {
             font-size: 24px;
             font-weight: 300;
             width: 566px;
+        }
+
+        .button {
+            border: none;
+            background: var(--type-color);
+            color: var(--white);
+            font-size: 16px;
+            max-width: 220px;
+            margin-top: 50px;
+            padding: 15px;
+            justify-content: flex-start;
+
+            &:hover {
+                background: var(--type-color);
+                color: var(--white);
+
+                path {
+                    fill: var(--white);
+                }
+            }
+        }
+
+        path {
+            fill: var(--white);
+        }
+
+        svg {
+            flex: 0.5;
         }
     }
 }
