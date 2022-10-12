@@ -1,7 +1,13 @@
+
 .dataset-table {
     width: 100%;
     border-collapse: collapse;
-
+    @media (--md-down) {
+        &.table {
+            border-collapse:separate; 
+            border-spacing: 0 1em;
+          }
+    }
     thead,
     tbody {
         width: 100%;
@@ -16,7 +22,7 @@
         tr {
             background-color: var(--lighter-grey);
             border-bottom: 2px solid var(--light-grey);
-
+            
             &:hover {
                 cursor: pointer;
                 background-color: var(--light-grey);
