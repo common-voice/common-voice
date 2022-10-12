@@ -38,7 +38,7 @@ const DatasetCorpusDownload = ({
 }: Props & WithLocalizationProps) => {
   const [isLoading, setIsLoading] = useState(true);
   const [selectedDataset, setSelectedDataset] = useState<LanguageDatasets>();
-  const [LanguageDatasets, setLanguageDatasets] = useState<LanguageDatasets[]>(
+  const [languageDatasets, setLanguageDatasets] = useState<LanguageDatasets[]>(
     []
   );
   const api = useAPI();
@@ -50,6 +50,8 @@ const DatasetCorpusDownload = ({
 
     setLocale(newLocale);
   };
+  const handleRowSelect = (selectedId: number) =>
+    setSelectedDataset(languageDatasets.find(d => d.id === selectedId));
 
   useEffect(() => {
     setIsLoading(true);
@@ -107,28 +109,22 @@ const DatasetCorpusDownload = ({
             flexDirection: 'column',
           }}>
           {isLoading && <Spinner />}
-          {!isLoading && LanguageDatasets && (
+          {!isLoading && languageDatasets && (
             <DatasetCorpusDownloadTable
-              onRowSelect={(selectedId: number) =>
-                setSelectedDataset(
-                  LanguageDatasets.find(d => d.id === selectedId)
-                )
-              }
-              releaseData={LanguageDatasets}
-              selectedId={selectedDataset?.id || LanguageDatasets[0].id}
+              onRowSelect={handleRowSelect}
+              releaseData={languageDatasets}
+              selectedId={selectedDataset?.id || languageDatasets[0].id}
             />
           )}
 
           {selectedDataset && selectedDataset.download_path && (
-            <>
-              <DatasetDownloadEmailPrompt
-                selectedLocale={locale}
-                downloadPath={selectedDataset.download_path}
-                releaseId={selectedDataset.id.toString()}
-                checksum={selectedDataset.checksum}
-                size={formatBytes(selectedDataset.size, initialLanguage)}
-              />
-            </>
+            <DatasetDownloadEmailPrompt
+              selectedLocale={locale}
+              downloadPath={selectedDataset.download_path}
+              releaseId={selectedDataset.id.toString()}
+              checksum={selectedDataset.checksum}
+              size={formatBytes(selectedDataset.size, initialLanguage)}
+            />
           )}
 
           <p className="intro-summary">
