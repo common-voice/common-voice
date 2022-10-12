@@ -514,6 +514,11 @@ about-playbook-how-add-language = Comu aghjunghju una lingua ?
 about-playbook-how-add-language-translating-heading = Traduce u situ
 about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Fighjuleti a nostra guida sopr’a l'utilisazione di Pontoon.</translateVideoLink>
 about-playbook-how-add-language-collecting-sentences-heading = Raccolta d’infrasate
+about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>Fighjuleti a nostra guida sopr’a l’utilisazione di u raccogliatore d’infrasate</sentenceCollectorVideo>.
+about-playbook-how-add-language-collecting-sentences-content-2 =
+    Pudeti <sentenceCollectorLinkAdd>aghjunghje qualche infrasate</sentenceCollectorLinkAdd>,
+    o pudeti fà <bulkImportDocsLink>un impurtazione in massa cù Github</bulkImportDocsLink>.
+    Arricurdatevi chì l’infrasate ani da esse <licenseLink>CC0 (o duminiu pubblicu)</licenseLink>, o pudeti ancu scrive e vostre propie infrasate.
 
 ## How does localization work
 
