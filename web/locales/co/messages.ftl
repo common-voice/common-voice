@@ -506,11 +506,13 @@ about-nav-playbook = Amparate comu participà
 ## What is a language
 
 about-playbook-what-is-language = Cosa hè una lingua in Common Voice ?
+about-playbook-what-is-language-content-1 = Ci sò tanti maneri di pinsà à a lingua. Pà i mudeli di ricuniscenza vucale, Common Voice arricumanda di cuncintrassi sopr’a « capiscitura mutuale » o di risponde à a quistioni « e parsone chì parlani sta lingua poni capisciesi s’eddi si parlani ? »
 
 ## How do I add a language
 
 about-playbook-how-add-language = Comu aghjunghju una lingua ?
 about-playbook-how-add-language-translating-heading = Traduce u situ
+about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Fighjuleti a nostra guida sopr’a l'utilisazione di Pontoon.</translateVideoLink>
 about-playbook-how-add-language-collecting-sentences-heading = Raccolta d’infrasate
 
 ## How does localization work
