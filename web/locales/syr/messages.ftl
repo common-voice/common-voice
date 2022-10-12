@@ -253,7 +253,7 @@ native-language =
     .label = ܠܫܢܐ ܐܬܪܢܝܐ
 profile-form-add-accent = ܐܘܣܦ (ܡܙܝܕ) ܠܥܙܐ ܪܫܝܡܐ ܚܕܬܐ { $inputValue }
 profile-form-submit-save = ܐܚܕ
-profile-form-submit-saved = ܐܚܕܐ
+profile-form-submit-saved = ܐܚܕܢ
 male = ܕܟܪܐ
 female = ܢܩܒܐ
 # Gender
