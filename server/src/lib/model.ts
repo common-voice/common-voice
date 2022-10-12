@@ -5,7 +5,7 @@ import { DBClip } from './model/db/tables/clip-table';
 import lazyCache from './lazy-cache';
 import { secondsToHours } from './utils/secondsToHours';
 
-// based on the latest dataset
+// TODO: make use of new API to get languages clip data
 const AVG_CLIP_SECONDS = 4.694;
 const AVG_CLIP_SECONDS_PER_LOCALE: { [locale: string]: number } = {
   en: 5.146,
