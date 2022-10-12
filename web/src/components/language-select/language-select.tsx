@@ -44,7 +44,7 @@ const LanguageSelect = ({ locale, onChange, value, includesAll }: Props) => {
           className="localization-select"
           value={locale}
           label={label}
-          isLabelVisuallyHidden={true}
+          isLabelVisuallyHidden
           onChange={(event: React.ChangeEvent<HTMLInputElement>) => {
             event.preventDefault();
             event.stopPropagation();

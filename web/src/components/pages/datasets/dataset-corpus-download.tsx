@@ -44,10 +44,12 @@ const DatasetCorpusDownload = ({
   const api = useAPI();
 
   const [locale, setLocale] = useState(initialLanguage);
+  const sortedLanguages = useSortedLocales(
+    languagesWithDatasets.map(s => s.name),
+    getString
+  )[0];
   const handleLanguageChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     const newLocale = event.target.value;
-    console.log('new', newLocale);
-
     setLocale(newLocale);
   };
   const handleRowSelect = (selectedId: number) =>
@@ -91,10 +93,7 @@ const DatasetCorpusDownload = ({
             name="bundleLocale"
             value={locale}
             onChange={handleLanguageChange}>
-            {useSortedLocales(
-              languagesWithDatasets.map(s => s.name),
-              getString
-            )[0].map(val => (
+            {sortedLanguages.map(val => (
               <Localized key={val} id={val}>
                 <option value={val} />
               </Localized>
