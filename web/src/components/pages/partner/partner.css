@@ -38,16 +38,16 @@
     justify-content: flex-start;
 }
 
-.partnerships-container .button:hover {
+.partner-main-container .partnerships-container .button:hover {
     background: var(--type-color);
     color: var(--white);
 }
 
-.partnerships-container path {
+.partner-main-container .partnerships-container .button:hover path {
     fill: var(--white);
 }
 
-.partnerships-container path:hover {
+.partner-main-container .partnerships-container path {
     fill: var(--white);
 }
 
@@ -70,4 +70,5 @@
 
 .become-a-partner-container h2 {
     font-size: 36px;
+    margin-bottom: 32px;
 }
