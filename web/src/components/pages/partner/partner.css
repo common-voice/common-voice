@@ -1,62 +1,73 @@
 .partner-main-container {
     --type-color: var(--blue);
+}
 
-    & .partnerships-section {
-        height: 550px;
-        background: url('./images/waves.png');
-        background-size: cover;
-    }
+.partnerships-container {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: var(--desktop-width);
+    min-height: 100%;
+    transition: opacity var(--transition-duration-slow) var(--easing);
+    padding-top: 25px;
+}
 
-    & .partner-container {
-        display: flex;
-        margin-left: auto;
-        margin-right: auto;
-        max-width: var(--desktop-width);
-        min-height: 100%;
-        transition: opacity var(--transition-duration-slow) var(--easing);
-        padding-top: 25px;
+.partnerships-container .page-heading {
+    font-size: 48px;
+}
 
-        .page-heading {
-            font-size: 48px;
-        }
+.partnerships-container .partnerships-header-image {
+    flex: 1;
+    text-align: right;
+}
 
-        .partner-header-image {
-            flex: 1;
-            text-align: right;
-        }
+.partnerships-container p {
+    font-size: 24px;
+    font-weight: 300;
+    width: 566px;
+}
 
-        p {
-            font-size: 24px;
-            font-weight: 300;
-            width: 566px;
-        }
+.partnerships-container .button {
+    border: none;
+    background: var(--type-color);
+    color: var(--white);
+    font-size: 16px;
+    max-width: 220px;
+    margin-top: 50px;
+    padding: 15px;
+    justify-content: flex-start;
+}
 
-        .button {
-            border: none;
-            background: var(--type-color);
-            color: var(--white);
-            font-size: 16px;
-            max-width: 220px;
-            margin-top: 50px;
-            padding: 15px;
-            justify-content: flex-start;
+.partnerships-container .button:hover {
+    background: var(--type-color);
+    color: var(--white);
+}
 
-            &:hover {
-                background: var(--type-color);
-                color: var(--white);
+.partnerships-container path {
+    fill: var(--white);
+}
 
-                path {
-                    fill: var(--white);
-                }
-            }
-        }
+.partnerships-container path:hover {
+    fill: var(--white);
+}
 
-        path {
-            fill: var(--white);
-        }
+.partnerships-container svg {
+    flex: 0.5;
+}
 
-        svg {
-            flex: 0.5;
-        }
-    }
+.partnerships-section {
+    height: 550px;
+    background: url('./images/waves.png');
+    background-size: cover;
+}
+
+.become-a-partner-container {
+    margin: 0 auto;
+    max-width: 80rem;
+    text-align: center;
+    padding: 2rem 4rem;
+}
+
+.become-a-partner-container h2 {
+    font-size: 36px;
 }
