@@ -18,7 +18,7 @@ export const up = async function (db: any): Promise<any> {
       average_clips_duration INT UNSIGNED,
       total_users BIGINT UNSIGNED,
       size BIGINT UNSIGNED,
-      checksum VARCHAR(255),
+      checksum VARCHAR(255), 
       FOREIGN KEY (dataset_id) REFERENCES datasets(id), 
       FOREIGN KEY (locale_id) REFERENCES locales(id)
     )
