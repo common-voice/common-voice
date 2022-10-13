@@ -316,7 +316,6 @@ const LanguagesPage = ({ getString }: WithLocalizationProps) => {
             <div className="inner">
               <p>
                 <Localized id="request-language-text" />{' '}
-                <Localized id="request-language-text-learn" />
               </p>
               <LinkButton outline rounded to={URLS.LANGUAGE_REQUEST}>
                 <Localized id="request-language-button"></Localized>
