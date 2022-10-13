@@ -1,0 +1,30 @@
+.partner-options-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 32px;
+}
+
+.partner-options-container img {
+    align-self: end;
+}
+
+.partner-options-text-container {
+    flex: 0.8;
+}
+
+.partner-options-text-container h3 {
+    font-size: 24px;
+    font-weight: 400;
+    text-align: left;
+    margin-bottom: 16px;
+}
+
+.partner-options-text-container p {
+    text-align: left;
+    font-weight: 400;
+    width: 650px;
+}
+
+.partner-options-text-container a {
+    color: var(--anchor-text-blue);
+}
