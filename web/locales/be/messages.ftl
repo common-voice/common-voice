@@ -155,6 +155,7 @@ sah = Якуцкая
 sat = Санталі (ол-чыкі)
 sc = Сардзінская
 scn = Сіцылійская
+sdh = Паўднёвакурдскі
 shi = Шыльхская
 si = Сінгальская
 sk = Славацкая
@@ -1070,24 +1071,49 @@ see-less = <chevron></chevron>Менш
 
 ## HEADER/FOOTER
 
+sc-header-home = Хатняя старонка
+sc-header-how-to = Інструкцыі
+sc-header-add = Дадаць
+sc-header-review = Праверыць
+sc-header-rejected = Адхіленыя сказы
+sc-header-my = Мае сказы
+sc-header-statistics = Статыстыка
+sc-header-profile = Профіль
+sc-footer-discourse = Discourse
+sc-footer-report-bugs = Паведаміць пра памылкі
+sc-footer-translate = Перакласці гэту старонку
+sc-footer-report-copyright = Паведаміць пра парушэнні аўтарскіх праў
+sc-footer-privacy = Прыватнасць
+sc-footer-terms = Умовы выкарыстання
+sc-footer-cookies = Кукі
+sc-login-signup-button = Увайсці / Зарэгістравацца
+sc-logout-button = Выйсці
 
 ## HOME
 
+sc-home-collect-title = Дадаць сказы
+sc-home-review-title = Праверыць сказы
 
 ## GENERAL
 
 
 ## HOW-TO
 
+sc-howto-title = Інструкцыя
+sc-howto-addsen-title = Дадаць новыя сказы
+sc-howto-cite-title = Як цытаваць
+sc-howto-review-title = Праверыць сказы
 
 ## MY SENTENCES
 
+sc-my-title = Мае сказы
 
 ## REJECTED
 
 
 ## STATS
 
+sc-stats-title = Статыстыка
 
 ## ADD
 
