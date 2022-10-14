@@ -163,6 +163,7 @@ sl = Славенская
 so = Самалійская
 sq = Албанская
 sr = Сербская
+ss = Свазі
 sv-SE = Шведская
 sw = Суахілі
 syr = Сірыйская
@@ -350,6 +351,9 @@ profile-form-additional-language =
     .label = Дадатковая мова
 profile-form-language =
     .label = Мова
+profile-form-variant =
+    .label = На якім варыянце { $language } вы размаўляеце?
+profile-form-variant-default-value = Не выбрана ніводнага выраянта
 profile-form-accent =
     .label = Акцэнт
 profile-form-age =
@@ -396,6 +400,8 @@ skip-submission-note = Заўвага: Вам усё яшчэ трэба буд�
 off = Пакінуць
 on = Прапусціць
 help-accent = Патрэбна дапамога з акцэнтам?
+help-variants = Патрэбна дапамога з варыянтамі?
+help-variants-explanation = Варыянты - гэта спецыфічная форма мовы, якую, напрыклад, падзяляюць тыя, хто жыве ў пэўнай мясцовасці або супольнасці. Часам іх называюць дыялектамі.
 
 ## Profile - Email
 
@@ -534,9 +540,11 @@ about-nav-playbook = Даведайцеся, як прыняць удзел
 ## Community Playbook Content
 ## What is a language
 
+about-playbook-what-is-language = Што такое мова на Common Voice?
 
 ## How do I add a language
 
+about-playbook-how-add-language = Як дадаць мову?
 about-playbook-how-add-language-translating-heading = Пераклад сайта
 about-playbook-how-add-language-collecting-sentences-heading = Збор сказаў
 
