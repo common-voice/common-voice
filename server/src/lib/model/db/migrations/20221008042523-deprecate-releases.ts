@@ -1,8 +1,8 @@
 export const up = async function (db: any): Promise<any> {
-  // await db.runSql(`
-  //   ALTER TABLE datasets
-  //   ADD COLUMN is_deprecated BOOLEAN DEFAULT 0 NOT NULL
-  // `);
+  await db.runSql(`
+    ALTER TABLE datasets
+    ADD COLUMN is_deprecated BOOLEAN DEFAULT 0 NOT NULL
+  `);
 
   await db.runSql(`
     UPDATE datasets
