@@ -10,6 +10,7 @@ import { MailIcon } from '../../ui/icons';
 import { COMMON_VOICE_EMAIL } from '../../../constants';
 import { PartnerOptionSection } from './partner-option-section';
 import { PARTNER_OPTIONS } from './partner-options';
+import Subscribe from '../../email-subscribe-block/subscribe';
 
 const Partner = () => (
   <Page className="partner-main-container">
@@ -51,6 +52,35 @@ const Partner = () => (
         </div>
       </div>
     </section>
+    <section className="our-partners-section">
+      <div className="our-partners-container">
+        <h2>Our Partners</h2>
+        <div className="our-partners-images-container">
+          <img
+            src={require('./images/partners/giz.png')}
+            alt="Deutsche Gesellschaft für Internationale Zusammenarbeit"
+          />
+          <img
+            src={require('./images/partners/gates-foundation.png')}
+            alt="Gates Foundation"
+          />
+          <img src={require('./images/partners/nvidia.png')} alt="nvidia" />
+          <img
+            src={require('./images/partners/uk-government.png')}
+            alt="UK Government"
+          />
+          <img
+            src={require('./images/partners/placeholder.png')}
+            alt="Placeholder"
+          />
+          <img
+            src={require('./images/partners/placeholder.png')}
+            alt="Placeholder"
+          />
+        </div>
+      </div>
+    </section>
+    <Subscribe light subscribeText="about-subscribe-text" />
   </Page>
 );
 

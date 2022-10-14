@@ -61,14 +61,24 @@
     background-size: cover;
 }
 
-.become-a-partner-container {
+.become-a-partner-container,
+.our-partners-container {
     margin: 0 auto;
     max-width: 80rem;
     text-align: center;
     padding: 2rem 4rem;
 }
 
-.become-a-partner-container h2 {
+.become-a-partner-container h2,
+.our-partners-container h2 {
     font-size: 36px;
     margin-bottom: 32px;
+}
+
+.our-partners-images-container {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-column-gap: 80px;
+    grid-row-gap: 0px;
+    align-items: center;
 }
