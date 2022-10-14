@@ -432,12 +432,15 @@ remove-avatar = ລຶບອາວະຕາລແລ້ວອອກ
 ## Profile - Email
 
 manage-subscriptions = ຈັດການການບອກຮັບຂ່າວສານ
+email-already-used = ອີເມລນີ້ໄດ້ຖືກນຳໃຊ້ແລ້ວສຳລັບບັນຊີອື່ນແລ້ວ
 add-language = ເພີ່ມພາສາ
 
 ## FAQ
 
 faq-title = ຄຳຖາມທີ່ຖືກຖາມເລື້ອຍໆ
+faq-what-cv-q = Common Voice ແມ່ນຫຍັງ?
 faq-why-important-q = ເປັນຫຍັງມັນຈຶ່ງສໍາຄັນ?
+faq-how-get-q = ຂ້ອຍຈະເອົາຂໍ້ມູນ Common Voice ໄດ້ແນວໃດ?
 faq-what-quality-q = ຕ້ອງມີຄຸນນະພາບສຽງລະດັບໃດສຳລັບຄລິບສຽງທີ່ຈະໃຊ້ໃນຊຸດຂໍ້ມູນ?
 faq-why-10k-hours-a = ນີ້ແມ່ນປະມານຈໍານວນຊົ່ວໂມງທີ່ຕ້ອງການເພື່ອຝຶກອົບຮົມລະບົບການເວົ້າເປັນຂໍ້ຄວາມການຜະລິດ.
 faq-how-calc-hours-q = Common Voice ຄິດໄລ່ຊົ່ວໂມງແນວໃດ?
