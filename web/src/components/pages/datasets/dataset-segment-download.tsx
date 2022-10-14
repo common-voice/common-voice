@@ -1,8 +1,4 @@
-import {
-  Localized,
-  withLocalization,
-  WithLocalizationProps,
-} from '@fluent/react';
+import { Localized, withLocalization } from '@fluent/react';
 import * as React from 'react';
 import { useEffect, useState } from 'react';
 
@@ -10,26 +6,25 @@ import { PlayOutlineIcon, MicIcon, GlobeIcon } from '../../ui/icons';
 import { Spinner } from '../../ui/ui';
 import { CircleStat } from './circle-stats';
 import DatasetDownloadEmailPrompt from './dataset-download-email-prompt';
-import { getRelease, SEGMENT_RELEASE_ID } from './releases';
-import { byteToSize } from '../../../utility';
+import { formatBytes, msToHours } from '../../../utility';
 
 import './dataset-segment-download.css';
+import { useAPI } from '../../../hooks/store-hooks';
+import { Dataset, Datasets } from 'common';
+import { useLocale } from '../../locale-helpers';
 
-const formatHrs = (hrs: number) => {
-  return hrs < 1 ? Math.floor(hrs * 100) / 100 : Math.floor(hrs);
-};
-
-const DatasetSegmentDownload = ({ getString }: WithLocalizationProps) => {
+const DatasetSegmentDownload = () => {
   const [isLoading, setIsLoading] = useState(true);
-  const [releaseData, setReleaseData] = useState(null);
-
+  const [releaseData, setReleaseData] = useState<Dataset>();
+  const api = useAPI();
   useEffect(() => {
-    getRelease(SEGMENT_RELEASE_ID)
-      .then(setReleaseData)
-      .finally(() => {
-        setIsLoading(false);
-      });
+    setIsLoading(true);
+    api.getDatasets('singleword').then((data: Datasets) => {
+      setReleaseData(data[0]);
+      setIsLoading(false);
+    });
   }, []);
+  const [locale] = useLocale();
 
   if (isLoading) {
     return <Spinner isLight isFloating={false} />;
@@ -41,13 +36,13 @@ const DatasetSegmentDownload = ({ getString }: WithLocalizationProps) => {
 
   const bundleState = {
     bundleLocale: 'overall',
-    checksum: releaseData.overall.checksum,
-    size: byteToSize(releaseData.overall.size, getString),
+    checksum: releaseData.checksum,
+    size: formatBytes(releaseData.size, locale),
     language: '',
-    totalHours: formatHrs(releaseData.totalHrs),
-    validHours: formatHrs(releaseData.totalValidHrs),
-    rawSize: releaseData.overall.size,
-    releaseId: SEGMENT_RELEASE_ID,
+    totalHours: msToHours(releaseData.total_clips_duration),
+    validHours: msToHours(releaseData.valid_clips_duration),
+    rawSize: releaseData.size,
+    id: releaseData.id,
   };
 
   const dotSettings = {
@@ -92,19 +87,18 @@ const DatasetSegmentDownload = ({ getString }: WithLocalizationProps) => {
               <CircleStat
                 className="languages"
                 label="languages"
-                value={
-                  Object.keys(releaseData.locales).filter(
-                    locale => locale !== SEGMENT_RELEASE_ID
-                  ).length
-                }
+                value={releaseData.languages_count}
                 icon={<GlobeIcon />}
                 {...dotSettings}
               />
             </div>
           </div>
           <DatasetDownloadEmailPrompt
-            urlPattern={releaseData.bundleURL}
-            bundleState={bundleState}
+            downloadPath={releaseData.download_path}
+            checksum={bundleState.checksum}
+            size={bundleState.size}
+            releaseId={bundleState?.id?.toString()}
+            selectedLocale={null}
             isLight
           />
         </div>

@@ -3,20 +3,21 @@ import { Localized } from '@fluent/react';
 import { LocaleLink, useLocale } from '../../locale-helpers';
 import CircleStats from './circle-stats';
 import URLS from '../../../urls';
-import { ReleaseData } from './types';
 
 import './dataset-description.css';
+import { Dataset } from 'common';
+import { msToHours } from '../../../utility';
 
 interface Props {
-  releaseData: ReleaseData;
+  releaseData: Dataset;
 }
 
 const DatasetDescription = ({ releaseData }: Props) => {
   const [locale] = useLocale();
-  const languages = Object.keys(releaseData.locales).length;
+  const languages = releaseData.languages_count;
   const globalReleaseData = {
-    total: releaseData.totalHrs.toLocaleString(locale),
-    valid: releaseData.totalValidHrs.toLocaleString(locale),
+    total: msToHours(releaseData.total_clips_duration).toLocaleString(locale),
+    valid: msToHours(releaseData.valid_clips_duration).toLocaleString(locale),
     languages,
   };
 
