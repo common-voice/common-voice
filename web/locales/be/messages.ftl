@@ -14,6 +14,7 @@ email-opt-in-info-sub-with-challenge = Атрымлівайце лісты, та
 email-opt-in-privacy-v2 = Пагадзіўшыся атрымліваць лісты, вы заяўляеце, што згодны з апрацоўкай гэтай інфармацыі Mozilla так, як акрэслена ў <privacyLink>Палітыцы прыватнасці<privacyLink> Mozilla.
 indicates-required = * Палі, абавязковыя да запаўнення
 not-available-abbreviation = Н/Д
+banner-error-slow-2 = Наш сэрвіс перагружаны вэб-трафікам. Мы расследуем гэтае пытанне.
 banner-error-slow-link = Старонка стану
 error-something-went-wrong = На жаль, нешта пайшло не так
 
@@ -546,7 +547,10 @@ about-playbook-what-is-language = Што такое мова на Common Voice?
 
 about-playbook-how-add-language = Як дадаць мову?
 about-playbook-how-add-language-translating-heading = Пераклад сайта
+about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Паглядзіце наша кіраўніцтва па выкарыстанні Pontoon.</translateVideoLink>
 about-playbook-how-add-language-collecting-sentences-heading = Збор сказаў
+about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>Паглядзіце наша кіраўніцтва па выкарыстанні «Зборшчыка сказаў»</sentenceCollectorVideo>.
+about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>Даведацца больш пра збор сказаў</sentenceCollectorFragment>.
 
 ## How does localization work
 
