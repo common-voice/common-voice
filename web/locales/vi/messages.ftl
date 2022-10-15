@@ -710,6 +710,10 @@ datasets-positioning =
     
     Hãy xem trang này như một trung tâm tham chiếu cho các bộ dữ liệu giọng nói nguồn mở khác và, khi Common Voice tiếp tục phát triển, một ngôi nhà cho các bản cập nhật phát hành của chúng tôi.
 language = Ngôn ngữ
+download-dataset-header = Tải xuống tập dữ liệu
+download-delta-explainer = Chúng tôi đã thực hiện một số thay đổi. Phân đoạn delta chỉ chứa các clip gần đây nhất kể từ lần phát hành cuối cùng. <deltaLink>Đọc thêm về công việc này</deltaLink>.
+download-dataset-tag = Chọn tập dữ liệu ngôn ngữ mong muốn và chọn phiên bản bạn muốn tải xuống.
+download-dataset-access = Tìm kiếm các bản phát hành tập dữ liệu trước đó? Gửi email tới <emailLink> { $email } </emailLink>
 # File size in gigabytes
 size = Kích thước
 validated-hr-total = Tổng số giờ đã xác nhận
