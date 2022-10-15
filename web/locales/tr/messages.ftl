@@ -712,6 +712,7 @@ language = Dil
 download-dataset-header = Veri kümesini indirin
 download-delta-explainer = Bazı değişiklikler yaptık. Delta segmentleri, yalnızca son sürümden bu yana en yeni kayıtları içerir. <deltaLink>Bu çalışma hakkında daha fazla bilgi alın</deltaLink>.
 download-dataset-tag = İstediğiniz dilin veri kümesini ve indirmek istediğiniz sürümü seçin.
+download-dataset-access = Önceki veri seti sürümlerini mi arıyorsunuz? <emailLink> { $email } </emailLink> adresine e-posta gönderin
 # File size in gigabytes
 size = Boyut
 validated-hr-total = Doğrulanmış toplam saat
