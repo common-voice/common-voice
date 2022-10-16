@@ -728,6 +728,10 @@ datasets-positioning =
     
     Na tejto stránke nájdete odkazy iné open-source datasety a, ako bude Common Voice naďalej rásť, aj domov pre naše aktualizácie.
 language = Jazyk
+download-dataset-header = Stiahnuť dataset
+download-delta-explainer = Urobili sme niekoľko zmien. Delta Segments obsahujú len najnovšie klipy od posledného vydania. <deltaLink>Prečítajte si viac o tejto práci</deltaLink>.
+download-dataset-tag = Vyberte požadovaný jazykový súbor údajov a vyberte verziu, ktorú chcete stiahnuť.
+download-dataset-access = Hľadáte predchádzajúce vydania datasetov? Pošlite e-mail na <emailLink> { $email } </emailLink
 # File size in gigabytes
 size = Veľkosť
 validated-hr-total = Overených Hod. Spolu
