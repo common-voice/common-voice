@@ -633,6 +633,7 @@ datasets-positioning =
     
     Begira orri honetan agertzen diren beste ahots datu-sorta irekien erreferentziak.
 language = Hizkuntza
+download-dataset-header = Deskargatu datu-sorta
 # File size in gigabytes
 size = Tamaina
 validated-hr-total = Baliozkotutako orduak guztira
@@ -1104,7 +1105,11 @@ sc-howto-review-subtitle = Ziurtatu esaldiek ondoko irizpideak betetzen dituztel
 sc-howto-review-criteria-1 = Esaldiek ez dute akats ortografikorik izan behar.
 sc-howto-review-criteria-2 = Esaldiek ez dute akats gramatikalik izan behar.
 sc-howto-review-criteria-3 = Esaldiak ahoskagarriak izan behar dira.
+sc-howto-review-criteria-4 = Esaldiak irizpideak betetzen baditu, sakatu "Onartu" botoia.
+sc-howto-review-criteria-6 = Berrikusteko esaldirik gabe geratzen bazara, lagun gaitzazu esaldi gehiago biltzen!
+sc-howto-findpd-title = Aurkitu Domeinu Publikoan dauden esaldiak
 sc-howto-findpd-subtitle = Bila itzazu Interneten
+sc-howto-findpd-tips = Hemen dituzu zenbait aholku esaldiak aurkitzeko:
 
 ## MY SENTENCES
 
@@ -1308,3 +1313,5 @@ sc-validation-no-abbreviations = Esaldiak ez du laburdurarik izan behar
 
 # [/SentenceCollector]
 
+localization-select =
+    .label = Aukeratu hizkuntza/lokalizazioa
