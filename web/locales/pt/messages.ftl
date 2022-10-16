@@ -76,6 +76,7 @@ gom = Konkani de Goa
 ha = Hauçá
 he = Hebraico
 hi = Hindi
+hil = Hiligaynon
 hr = Croata
 hsb = Alto Sorábio
 ht = Crioulo haitiano
@@ -706,6 +707,10 @@ datasets-positioning =
     
     Considere esta página como um centro de referência para outros conjuntos de dados de voz de código aberto e, à medida que o Common Voice continua a crescer, o local de lançamento de nossas atualizações.
 language = Idioma
+download-dataset-header = Baixar o conjunto de dados
+download-delta-explainer = Fizemos algumas alterações. Os Segmentos Delta contêm apenas os clipes mais recentes desde o último lançamento. <deltaLink>Leia mais sobre este trabalho</deltaLink>.
+download-dataset-tag = Selecione um conjunto de dados de idioma e escolha a versão que quer baixar.
+download-dataset-access = Procurando versões anteriores do conjunto de dados? Mande um email para <emailLink> { $email } </emailLink>
 # File size in gigabytes
 size = Tamanho
 validated-hr-total = Total de horas validadas
