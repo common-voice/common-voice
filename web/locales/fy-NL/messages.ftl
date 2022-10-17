@@ -723,6 +723,10 @@ datasets-positioning =
     
     Beskôgje dizze side as in list mei referinsjes nei oare iepenboarne-spraakgegevenssets en, wylst Common Voice trochgroeit, de startside foar ús nije útjefte.
 language = Taal
+download-dataset-header = De gegevensset downloade
+download-delta-explainer = Wy hawwe inkelde wizigingen oanbrocht. Delta Segments befetsje allinnich de meast resinte fragminten sûnt de foarige ferzje. <deltaLink>Mear ynfo oer dit wurk</deltaLink>.
+download-dataset-tag = Selektearje de winske taalgegevensset en kies de ferzje dy’t jo downloade wolle.
+download-dataset-access = Op syk nei eardere ferzjes fan de gegevensset? Stjoer in e-mailberjocht nei <emailLink> { $email } </emailLink
 # File size in gigabytes
 size = Grutte
 validated-hr-total = Totaal falidearre oeren
