@@ -20,6 +20,7 @@ export interface SubscribeProps
   demoMode?: boolean;
   subscribeText: string;
   light?: boolean;
+  partnerships?: boolean;
 }
 
 export function SubscribeMapStateToProps({ api, user }: StateTree) {
