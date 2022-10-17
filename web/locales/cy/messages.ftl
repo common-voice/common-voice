@@ -734,6 +734,7 @@ language = Iaith
 download-dataset-header = Llwytho'r Set Data i lawr
 download-delta-explainer = Rydym wedi gwneud rhai newidiadau. Mae Segmentau Delta'n cynnwys y clipiau mwyaf diweddar ers y rhyddhad diwethaf. <deltaLink>Darllenwch ragor am y gwaith hwn</deltaLink>.
 download-dataset-tag = Dewiswch iaith y set ddata a'r fersiwn yr hoffech ei lwytho i lawr.
+download-dataset-access = Yn chwilio am setiau ddata blaenorol? E-bostiwch <emailLink> { $email } </emailLink
 # File size in gigabytes
 size = Maint
 validated-hr-total = Cyfanswm Oriau â Ddilyswyd
