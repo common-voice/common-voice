@@ -201,6 +201,7 @@ xh = Xhosa
 yi = Iídiche
 yo = Iorubá
 yue = Cantonês
+zgh = Tamazigue
 zh-CN = Chinês (China)
 zh-HK = Chinês (Hong Kong)
 zh-TW = Chinês (Taiwan)
