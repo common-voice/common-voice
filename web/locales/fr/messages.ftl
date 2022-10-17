@@ -713,7 +713,9 @@ datasets-positioning =
     Cette page de référence liste d’autres jeux de données open source et, au fur et à mesure que le projet Common Voice continuera d’évoluer, cette page proposera aussi nos prochaines mises à jour.
 language = Langue
 download-dataset-header = Télécharger le jeu de données
+download-delta-explainer = Nous avons effectué quelques changements. Les segments Delta contiennent uniquement les échantillons les plus récents depuis la dernière version. <deltaLink>En apprendre davantage à ce sujet</deltaLink>.
 download-dataset-tag = Sélectionnez le jeu de données dans la langue souhaitée et choisissez la version que vous souhaitez télécharger.
+download-dataset-access = Vous recherchez des versions antérieures de jeux de données ? Envoyez un e-mail à <emailLink> { $email } </emailLink>
 # File size in gigabytes
 size = Taille
 validated-hr-total = Total d’heures validées
