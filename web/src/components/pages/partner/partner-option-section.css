@@ -1,6 +1,9 @@
 .partner-options-container {
-    display: flex;
-    justify-content: space-evenly;
+    @media (--lg-up) {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
     margin-bottom: 32px;
 }
 
@@ -22,7 +25,9 @@
 .partner-options-text-container p {
     text-align: left;
     font-weight: 400;
-    width: 650px;
+    @media (--lg-up) {
+        width: 650px;
+    }
 }
 
 .partner-options-text-container a {

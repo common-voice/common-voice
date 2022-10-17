@@ -80,7 +80,7 @@ const Partner = () => (
         </div>
       </div>
     </section>
-    <Subscribe light subscribeText="about-subscribe-text" />
+    <Subscribe light partnerships subscribeText="about-subscribe-text" />
   </Page>
 );
 
