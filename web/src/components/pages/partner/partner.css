@@ -10,6 +10,14 @@
     min-height: 100%;
     transition: opacity var(--transition-duration-slow) var(--easing);
     padding-top: 25px;
+
+    @media (--md-down) {
+        flex-direction: column;
+    }
+}
+
+.partnerships-container .partnerships-header-text {
+    margin: 0px 20px 40px 20px;
 }
 
 .partnerships-container .page-heading {
@@ -17,14 +25,34 @@
 }
 
 .partnerships-container .partnerships-header-image {
-    flex: 1;
-    text-align: right;
+    @media (--xs-down) {
+        margin: 0 auto;
+    }
+
+    @media (--md-up) {
+        flex: 1;
+        text-align: right;
+    }
+
+    & img {
+        @media (--md-down) {
+            max-height: 250px;
+        }
+    }
 }
 
 .partnerships-container p {
-    font-size: 24px;
     font-weight: 300;
-    width: 566px;
+
+    @media (--xs-down) {
+        font-size: 18px;
+        width: 355px;
+    }
+
+    @media (--lg-up) {
+        width: 566px;
+        font-size: 24px;
+    }
 }
 
 .partnerships-container .button {
@@ -36,6 +64,10 @@
     margin-top: 50px;
     padding: 15px;
     justify-content: flex-start;
+
+    @media (--xs-down) {
+        margin: 50px auto 25px auto;
+    }
 }
 
 .partner-main-container .partnerships-container .button:hover {
@@ -56,17 +88,37 @@
 }
 
 .partnerships-section {
-    height: 550px;
-    background: url('./images/waves.png');
-    background-size: cover;
+    margin-bottom: 40px;
+
+    @media (--lg-up) {
+        height: 550px;
+        background: url('./images/waves.png');
+        background-size: cover;
+    }
+
+    @media (--xs-down) {
+        background: url('./images/waves-small.png');
+        background-position: bottom;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
 }
 
 .become-a-partner-container,
 .our-partners-container {
-    margin: 0 auto;
     max-width: 80rem;
     text-align: center;
-    padding: 2rem 4rem;
+
+    @media (--lg-up) {
+        margin: 0 auto;
+        padding: 2rem 4rem;
+    }
+}
+
+.our-partners-container img {
+    @media (--md-down) {
+        max-height: 85px;
+    }
 }
 
 .become-a-partner-container h2,
@@ -75,10 +127,27 @@
     margin-bottom: 32px;
 }
 
+.become-a-partner-options {
+    @media (--xs-down) {
+        margin: 0 20px;
+    }
+
+    & img {
+        margin-bottom: 20px;
+    }
+}
+
 .our-partners-images-container {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     grid-column-gap: 80px;
     grid-row-gap: 0px;
     align-items: center;
+
+    @media (--md-down) {
+        margin: 0px 20px 60px 20px;
+        grid-template-columns: repeat(3, 50px);
+        grid-column-gap: 70px;
+        grid-row-gap: 30px;
+    }
 }

@@ -14,6 +14,7 @@ import {
 } from './types';
 import './subscribe.css';
 import { Link } from 'react-router-dom';
+import classNames from 'classnames';
 
 interface State {
   email: string;
@@ -56,7 +57,8 @@ class Subscribe extends React.Component<SubscribeProps, State> {
   };
 
   render() {
-    const { account, demoMode, subscribeText, light } = this.props;
+    const { account, demoMode, subscribeText, light, partnerships } =
+      this.props;
     const { submitStatus } = this.state;
     const isEditable = submitStatus == null;
     const email = account ? account.email : this.state.email;
@@ -68,7 +70,7 @@ class Subscribe extends React.Component<SubscribeProps, State> {
     }
 
     return (
-      <div className={`email-subscribe ${light ? 'light' : ''}`}>
+      <div className={classNames('email-subscribe', { light, partnerships })}>
         <Localized id={subscribeText}>
           <h2 />
         </Localized>
