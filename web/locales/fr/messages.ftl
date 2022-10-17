@@ -712,6 +712,7 @@ datasets-positioning =
     
     Cette page de référence liste d’autres jeux de données open source et, au fur et à mesure que le projet Common Voice continuera d’évoluer, cette page proposera aussi nos prochaines mises à jour.
 language = Langue
+download-dataset-header = Télécharger le jeu de données
 # File size in gigabytes
 size = Taille
 validated-hr-total = Total d’heures validées
