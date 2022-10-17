@@ -719,6 +719,10 @@ datasets-positioning =
     
     Titta på den här sidan som referensnav för andra datakällor med öppen källkod och eftersom Common Voice fortsätter att växa, ett hem för våra uppdateringar.
 language = Språk
+download-dataset-header = Ladda ner datamängden
+download-delta-explainer = Vi har gjort några ändringar. Delta Segments innehåller bara de senaste klippen sedan den senaste releasen. <deltaLink>Läs mer om detta arbete</deltaLink>.
+download-dataset-tag = Välj önskat språkdatamängd och välj den version du vill ladda ner.
+download-dataset-access = Letar du efter tidigare datamängdsversioner? E-post <emailLink> { $email } </emailLink
 # File size in gigabytes
 size = Storlek
 validated-hr-total = Totalt validerade timmar

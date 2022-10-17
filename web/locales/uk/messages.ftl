@@ -728,6 +728,10 @@ datasets-positioning =
     
     Розглядайте цю сторінку опорним вузлом для інших відкритих голосових наборів даних, а зі зростанням Common Voice — домівкою для наших оновлень.
 language = Мова
+download-dataset-header = Завантажити набір даних
+download-delta-explainer = Ми внесли деякі зміни. Сегменти Delta містять лише найновіші кліпи з моменту останнього випуску. <deltaLink>Докладніше про цю роботу</deltaLink>.
+download-dataset-tag = Виберіть потрібний набір мовних даних і версію, яку хочете завантажити.
+download-dataset-access = Шукаєте попередні випуски набору даних? Надішліть електронний лист на <emailLink> { $email } </emailLink>
 # File size in gigabytes
 size = Розмір
 validated-hr-total = Всього годин перевірено

@@ -72,7 +72,11 @@ const OnboardingModal = ({ onRequestClose }: Props) => {
       <p className="onboarding-modal-title">{stepData.title}</p>
       {isLastStep ? (
         <div className="wave">
-          <img src={require('./images/1-red-copy.svg')} className="red-copy" />
+          <img
+            src={require('./images/1-red-copy.svg')}
+            className="red-copy"
+            alt="robot"
+          />
         </div>
       ) : (
         <div className="image-container">

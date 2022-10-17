@@ -41,6 +41,7 @@ speak = Loba
 speak-now = Loba sikoyo
 languages = Minoko
 about = Etali
+help = Lisalisi
 terms = Mibeko
 share-title = Salisá biso toluka basusu mpo na kopesa mongongo na bango!
 share-text = Salisá biso toteya bamasini ndenge bato ya solosolo balobaka, pesa mongongo na yo na { $link }
@@ -61,6 +62,10 @@ vote-no = Te
 toggle-play-tooltip = Finá { shortcut-play-toggle } mpo na kobongola mode ya kobɛta
 speak-subtitle = Pesa mongongo na yo
 listen-subtitle = Salisá biso tondima mingongo
+help-reach-goal = Salisá biso tokóma na { $goal }
+read-terms-q = Otángi Mibeko na biso?
+all-locales = Nionso
+today = Lelo
 
 ## Account Benefits
 

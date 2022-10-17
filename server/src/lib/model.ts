@@ -5,7 +5,7 @@ import { DBClip } from './model/db/tables/clip-table';
 import lazyCache from './lazy-cache';
 import { secondsToHours } from './utils/secondsToHours';
 
-// based on the latest dataset
+// TODO: make use of new API to get languages clip data
 const AVG_CLIP_SECONDS = 4.694;
 const AVG_CLIP_SECONDS_PER_LOCALE: { [locale: string]: number } = {
   en: 5.146,
@@ -206,6 +206,30 @@ export default class Model {
     async (): Promise<any[]> => {
       const languages = await this.db.getAllLanguages();
       return languages;
+    },
+    DAY
+  );
+
+  getAllDatasets = lazyCache(
+    `get-all-datasets-with-release-types`,
+    async (releaseType: string): Promise<any[]> => {
+      return await this.db.getAllDatasets(releaseType);
+    },
+    DAY
+  );
+
+  getLanguageDatasetStats = lazyCache(
+    'get-language-datasets',
+    async (languageCode: string): Promise<any[]> => {
+      return await this.db.getLanguageDatasetStats(languageCode);
+    },
+    DAY
+  );
+
+  getAllLanguagesWithDatasets = lazyCache(
+    'get-all-languages-datasets',
+    async (): Promise<any[]> => {
+      return await this.db.getAllLanguagesWithDatasets();
     },
     DAY
   );

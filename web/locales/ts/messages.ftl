@@ -1,6 +1,6 @@
 ## General
 
-yes-receive-emails = Ina, ndzi rhumeleni ti-email. Ndzi tsakela ku tshama ndzi ri karhi ndzi tivisiwa hi tsima ra Common Voice.
+yes-receive-emails = Ina, ndzi rhumeleni ti-imeyili. Ndzi tsakela ku tshama ndzi ri karhi ndzi tivisiwa hi tsima ra Common Voice.
 stayintouch = Hina a Mozilla hi le ku akeni ka muganga wa vaaki ku rhendzela thekinoloji ya rito. Hi tsakela ku tshama hi ri eku hlanganiseni na swintshuxo, swihlovo leswintshwa swa datha na ku twa swo tala hi ndlela leyi u tirhisaka datha leyi ha yona.
 privacy-info = Hi tshembisa ku khoma rungula ra wena hi vukheta. Hlaya swo tala eka <privacyLink>Xitiviso xa Vuhlayiseki</privacyLink> ya hina.
 return-to-cv = Vuyela eka Common Voice
@@ -12,7 +12,7 @@ email-opt-in-info = Ndzi tsakela ku amukela ti-imeyili to fana na switsundzuxo s
 email-opt-in-info-title = Joyina nxaxamelo wa poso wa Common Voice
 email-opt-in-info-sub-with-challenge = Amukela ti-imeyili to fana na switsundzuxo swa ntlhontlho na pakani, ku pfuxetiwa ka nhluvuko, na swiphephana swa mahungu mayelana na Common Voice.
 email-opt-in-privacy-v2 = Hi ku hlawula ku nghena ku amukela ti-imeyili u vula leswaku u kahle hi Mozilla ku khoma vuxokoxoko lebyi tanihi laha swi hlamuseriweke hakona eka <privacyLink>Pholisi ya Vuhlayiseki ya Mozilla</privacyLink>.
-indicates-required = Tinsimu leti funghiweke hi nyeleti (*) ta laveka.
+indicates-required = Swivandla leswi funghiweke hi xinyeletana (*) swa laveka.
 not-available-abbreviation = N/A
 banner-error-slow-1 = Kombela ndzivalelo, Common Voice yi famba hi ku nonoka. Ndza khensa ku tsakela ka n'wina.
 banner-error-slow-2 = Hi kuma ntlimbano yo tala naswona sweswi hi le ku lavisiseni ka timhaka leti.
@@ -76,6 +76,7 @@ gom = Xikonkani xa le Goan
 ha = Xihausa
 he = XIheveru
 hi = Xihindi
+hil = Hiligaynon
 hr = Xicroatia
 hsb = Xisorbian, xa le Henhla
 ht = Xihaiti
@@ -90,6 +91,7 @@ is = XiIceland
 it = Xintariyana
 izh = Izhorian
 ja = Xijapani
+jbo = Lojban
 ka = Xigeorgia
 kaa = Karakalpak
 kab = Kabyle
@@ -98,6 +100,7 @@ ki = Kikuyu
 kk = Xikazakhstan
 km = Khmer
 kmr = Xikurd xa Kurmanji
+kn = Kannada
 knn = Xikonkani (Xidevanagari) .
 ko = Xikorea
 kpv = Komi-Zyrian
@@ -106,6 +109,8 @@ ky = Xikyrgyz
 lb = Xiluxembourg
 lg = Xiluganda
 lij = Xiliguria
+ln = Lingala
+lo = Lao
 lt = Xilithuania
 lv = Xilatvia
 mai = Maithili
@@ -152,11 +157,13 @@ sah = Sakha
 sat = Santali (Ol Chiki)
 sc = Xisardinia
 scn = Xisicilian
+sdh = Southern Kurdish
 shi = Shilha
 si = Xisinhala
 sk = Xislovakia
 skr = Saraiki
 sl = Xislovenia
+snk = Soninke
 so = Xisomali
 sq = Xialbania
 sr = Xiserbia
@@ -194,6 +201,7 @@ xh = Xixhosa
 yi = Xiyidixi
 yo = Xiyoruba
 yue = Xicanton
+zgh = Tamazight
 zh-CN = Xichayina (Chayina)
 zh-HK = Xichayina (Hong Kong)
 zh-TW = Xichayina (Taiwan)
@@ -206,9 +214,9 @@ zu = Xizulu
 
 speak = Vulavula
 speak-now = Vulavula sweswi
-datasets = Tidhataseti
+datasets = Tidataseti
 languages = Tindzimi
-about = Malunghana
+about = Mayelana
 profile = Phurofayili
 help = Pfuna
 contact = Khumbana
@@ -226,11 +234,11 @@ logout = Humela Ehandle
 ## Home Page
 
 home-title = Common Voice i kungu ra Mozilla ro pfuneta ku dyondzisa michini ndlela leyi vanhu va xiviri va vulavulaka hi yona.
-default-tagline = Mozilla Common Voice i kungu ro pfuneta ku dyondzisa michini ndlela leyi vanhu va xiviri va vulavulaka hi yona.
+default-tagline = Mozilla Common Voice i gingiriko ro pfuneta ku dyondzisa michini ndlela leyi vanhu va xiviri va vulavulaka hi yona.
 home-cta = Vulavula, hoxa xandla laha!
 wall-of-text-start =
-    Rito i ra ntumbuluko, rito i ra munhu. Hi yona mhaka leyi hi tsakisiwaka hi ku tumbuluxa rito leri tirhisiwaka
-    theknoloji ya michini ya hina. Kambe ku tumbuluxa tisisiteme ta rito, nhlayo leyikulu swinene ya rito
+    Rito i ra ntumbuluko, rito i ra munhu. Hi yona mhaka leyi hi nyanyulaka hi ku tumbuluxa rito leri tirhisiwaka
+    thekinoloji ya michini ya hina. Kambe ku tumbuluxa tisisiteme ta rito, nhlayo leyikulu swinene ya rito
     data ya laveka.
 wall-of-text-more-mobile =
     "Vunyingi bya data leyi tirhisiwaka hi tikhamphani letikulu a yi kumeki eka vunyingi bya vanhu. Hi ehleketa
@@ -243,10 +251,7 @@ wall-of-text-first =
     "Rito i ra ntumbuluko, rito i ra munhu. Hi yona mhaka leyi hi tsakisiwaka hi ku tumbuluxa rito leri tirhisiwaka
     theknoloji ya michini ya hina. Kambe ku tumbuluxa tisisiteme ta rito, nhlayo leyikulu swinene ya rito
     datha ya laveka."
-wall-of-text-second =
-    Vunyingi bya datha leyi tirhisiwaka hi tikhamphani letikulu a yi kumeki eka vunyingi bya vanhu. Hi ehleketa sweswo
-    swi sivela ku endla swilo leswintshwa. Kutani hi sungule Common Voice, phurojeke yo pfuneta ku endla leswaku ku lemuka rito ku pfuleka evanhwini hinkwavo
-    naswona yi fikeleleka eka un’wana ni un’wana.
+wall-of-text-second = Vunyingi bya data leyi tirhisiwaka hi tikhamphani letikulu a yi kumeki eka vunyingi bya vanhu. Hi ehleketa kuri leswi swi sivela vutumbuluxi. Kutani hi simeke Common Voice, phurojeke yo pfuneta ku endla lemukiso wa rito lowu pfulekeke na ku fikeleriwa hi un’wana ni un’wana.
 show-wall-of-text = Hlaya Swin’wana
 help-us-title = Hi pfuni ku tiyisisa swivulwa!
 help-us-explain = Cinekela eka tlanga, yingisela & hi byele: xana va vulavule kahle xivulwa lexi nga laha hansi?
@@ -286,12 +291,12 @@ x-years-short =
     }
 help-make-dataset = Hi pfuneni ku aka tidathaseti ya xiyimo xa le henhla, leyi pfulekeke erivaleni.
 sign-up-account = Tsarisa ku kuma akhawunti
-email-subscription-title = tsarisa ku kuma swintshuxo swa email
-email-subscription-title-new = Tsarisa eka swiphephana swa mahungu swa Common Voice, switsundzuxo swa tipakani na ku pfuxetiwa ka nhluvuko.
+email-subscription-title = tsarisa ku kuma swintshuxo swa imeyili
+email-subscription-title-new = Titsarisele swiphephahungwana swa Common Voice, switsundzuxo swa swikongomelo na mimpfuxeto ya ku humelela.
 
 ## Account Benefits
 
-benefits = Buyelo lebyinene
+benefits = Mbuyelo lowunene
 rich-data = Endla leswaku datha ya wena leyi rhumeriweke yi tiya loko swi kotekaka hi ku nyika datha yin’wana ya nhlayo ya vaaki leyi nga tiviwiki. Hi tumbeta data hinkwayo ya nhlayo ya vaaki hi nga si yi endla erivaleni.
 improve-audio = Vuxokoxoko bya phurofayili byi antswisa datha ya mpfumawulo leyi tirhisiwaka eka ku letela ku pakanisa ka ku lemuka mbulavulo.
 keep-track = Hlayisa nhluvuko wa wena na timetriki eka tindzimi to tala.
@@ -302,7 +307,7 @@ join-newsletter = Hi ku hlawula joyina eka nxaxamelo wa hina wa ti-imeyili ku ku
 ## What's public
 
 whats-public = Xana i yini lexi nga erivaleni?
-email-not-public = A hi nge endli email ya wena yi humela erivaleni.
+email-not-public = A hi nge endli imeyili ya wena yi humela erivaleni.
 recordings-and-locale-public = Nhlayo ya swilo leswi rhekhodiweke ni leswaku hi tihi tindzimi leti u hoxaka xandla eka tona leti nga ta va erivaleni.
 username-optin-public = U nga hlawula ku endla vito ra wena ra mutirhisi ri va ra mani na mani kumbe ri nga tiviwi.
 demographic-deidentified-clarity-2 = Data ya nhlayo ya vaaki leyi rhumeriweke hi ku hlawula (xik. malembe, rimbewu, ririmi, na mavalavulelo) a yi nge pfuki yi endliwe erivaleni eka phurofayili ya wena, naswona a yi nge hlanganisiwi na akhawunti ya wena eka dataset. Swiphemu swa mpfumawulo swa munhu hi xiyexe swi ta fambelanisiwa na datha ya nhlayo ya vaaki hi xikongomelo xa nxopaxopo lowu kongomeke swinene - xikombiso, mulavisisi a nga ha lava ku kongomisa modele wa ndzetelo eka xiyenge xo karhi xa nhlayo ya vaaki.
@@ -404,7 +409,7 @@ profile-explanation = Hlayisa nhluvuko wa wena hi phurofayili na ku pfuna datha 
 thanks-for-account = Ha khensa ku tiyisisa account ya wena, sweswi a hi akeni profile ya wena.
 why-demographic = Hi yini leswi swi ri na mhaka?
 why-demographic-explanation-2 = Data ya vatirhisi leyi nga fihliwa yo fana na malembe, rimbewu, na mavulavulelo yi pfuneta ku antswisa data ya mpfumawulo leyi tirhisiwaka ku letela ku pakanisa ka tinjhini to tiva mbulavulo. Vito ra wena ra mutirhisi na imeyili a swi nge pfuki swi fambelanisiwile na data ya wena leyi rhumeriweke, naswona u nga hlawula loko u ta endla vito ra wena ra mutirhisi ri va ra mani na mani kumbe ri nga tiviwi.
-accept-privacy = Ndzi kahle eka wena ku khoma rungula leri tani hi leswi u hlamuselaka eka Mozilla's <privacyLink>Pholisi ya Vuhlayiseki bya Swilo swa Xihundla</privacyLink>
+accept-privacy = Swi ndzi khoma kahle loko vuxokoxoko lebyi byi fambisiwa hi wena tanihileswi u hlamuselaka eka <privacyLink>Pholisi ya Xihundla</privacyLink> ya Mozilla.
 accept-privacy-title = Pholisi ya Vuhlayiseki bya Swilo swa Xihundla
 login-identity = Vutivi bya ku Nghena
 login-signup = Nghena / Tsarisa
@@ -427,7 +432,7 @@ help-variants-explanation = Swihlawuhlawu i xivumbeko xo karhi xa ririmi - xikom
 browse-file-title = Layicha fayili ya xifaniso
 browse-file = Koka u tlhela u hoxa kumbe <browseWrap>Pfula-pfula</browseWrap>
 connect-gravatar = Ku hlangana na Gravatar
-gravatar_not_found = Ku hava gravatar leyi kumiweke eka email ya wena
+gravatar_not_found = Ku hava gravatar leyi kumiweke eka imeyili ya wena
 file_too_large = Fayili leyi hlawuriweke i yikulu swinene
 avatar-uploaded = Xipopana xi uploadiwile
 max-file-size = { $kb }kb ku tlula mpimo
@@ -503,17 +508,17 @@ faq-search-for-answers =
 
 ## ABOUT US
 
-about-title = Ha Yini Common Voice?
+about-title = Hikokwalaho ka yini Common Voice?
 about-header-description-v2 =
-    <p>Common Voice i dataset ya rito leyi kumekaka erivaleni, leyi fambisiwaka hi marito ya vahoxa xandla va ku tirhandzela emisaveni hinkwayo. Vanhu lava lavaka ku aka switirhisiwa swa rito va nga tirhisa dataset ku letela timodeli ta dyondzo ya michini.</p>.
+    <p>Common Voice i datasete ya marito leyi kumekaka eka un’wana na un’wana, leyi nyikiweke matimba hi marito vanyikeri vo tinyiketela emisaveni hinkwayo. Vanhu lava lavaka ku aka maendlelo ya marito va nga tirhisa datasete ku letela timodlele to dyondza hi michini.</p>.
     <p>Sweswi, tidathaseti to tala ta rito i ta tikhamphani, leswi sivelaka vutumbuluxi. Tidathaseti ta rito na tona a ti yimeli ngopfu: lava nga vulavuriki Xinghezi, vanhu vantima, lava lamaleke, vavasati na vanhu va LGBTQIA+. Leswi swi vula leswaku thekinoloji leyi tirhisaka rito a yi tirhi nikatsongo eka tindzimi to tala, naswona laha yi tirhaka kona, yi nga ha va yi nga tirhi kahle hi ku ringana eka un’wana ni un’wana. Hi lava ku cinca sweswo hi ku hlengeleta vanhu hinkwako ku avelana marito a vona.</p>
 how-does-it-work-title-v2 = Xana Common Voice yi tirha njhani?
-how-does-it-work-text = Hi le ku kumeni ka ntshungu eka dataset ya xihlovo lexi pfulekeke ya marito. Nyikela hi rito ra wena, tiyisisa ku pakanisa ka swiphemu swa vanhu van’wana, endla leswaku dataset yi antswa eka un’wana na un’wana.
+how-does-it-work-text = Hi le ku kumeni ka ntshungu eka datasete ya xihlovo lexi pfulekeke xa marito. Nyikela hi rito ra wena, tiyisisa mpakaniso wa titlipi ta vanhu van’wana, endla leswaku datasete yi antswa eka un’wana na un’wana.
 
 ## How does it work section
 
 about-language-req-subtitle = Munhu u kombela leswaku ku engeteriwa ririmi.
-about-localization-title = Ku Endliwa ka Website ya Ndhawu
+about-localization-title = Ku Endla Webusayiti Xikaya
 about-localization-subtitle = Tsalwa ra webusayiti ri hundzuluxeriwa hi ririmi rero.
 about-sentence-collection-title = Nhlengeleto wa Swivulwa
 about-sentence-collection-subtitle = Swivulwa swi hlengeletiwa leswaku vanhu va swi hlayela ehenhla.
@@ -521,10 +526,10 @@ about-new-lang-title = Ku Simekiwa Ka Ririmi Lerintshwa
 about-new-lang-subtitle = Hi sungula sayiti ya Common Voice hi ririmi leri.
 about-voice-contrib-title = Ku Hoxa xandla ka Rito
 about-voice-contrib-subtitle = Vanhu va ta va ta hoxa xandla hi marito ya vona.
-about-voice-validation-title = Ku Tiyisisiwa ka Rito
+about-voice-validation-title = Ntiyisiso wa Rito
 about-voice-validation-subtitle = \Vanhu van’wana va tiyisekisa swiphemu sweswo swa rito.
-about-dataset-release-title = Ku Humesiwa ka Dataset
-about-dataset-release-subtitle = Hi humesa dataset endzhaku ka tin’hweti tin’wana na tin’wana ta 3.
+about-dataset-release-title = Ku Humesiwa ka Datasete
+about-dataset-release-subtitle = Hi humesa datasete endzhaku ka tin’hweti tinharhu 3 tin’wana na tin’wana.
 about-subscribe-text = Xana u lava ku tshama u ri eku hlanganiseni na Common Voice?
 about-speak = Vulavula
 about-speak-text = Va hoxa xandla va rhekhoda swiphemu swa rito hi ku hlaya ebangi ya swivulwa leswi nyikeriweke.
@@ -545,13 +550,13 @@ about-clip-graveyard-text =
     Xiphemu xa Graveyard xi na swiphemu swa rito leswi nga leswi nga nghenanga eka dataset ya Common Voice. Ku fana na dataset, xiphemu xa Graveyard lexi kumekaka ku xi kopa. 
     
     Hi tsakela ku khensa vanhu na tinhlengeletano leti landzelaka eka mpfuneto wa vona eka phurojeke leyi:
-about-get-involved = Hlanganyela
+about-get-involved = Tinghenelerise
 about-get-involved-text-2 =
     Xana u lava ku pfuneta ku endla leswaku Common Voice yi antswa swinene?
     Swikahle! Tihlanganisi hi ku tirhisa imeyili kumbe <discourseLink>Discourse</discourseLink>
     tiforamu, rhumela timhaka ta sayiti hi ku tirhisa <githubLink>GitHub</githubLink>, kumbe u joyina
     <matrixLink>Matrix</matrixLink> ku burisana ka vaaki.
-about-stay-in-touch = Xana ndzi nga tshama njhani ndzi ri eku hlanganiseni?
+about-stay-in-touch = Xana ndzi nga tshama njhani ndzi ri eku tihlanganiseni?
 about-stay-in-touch-button = Tsarisa
 about-stay-in-touch-text-1 = <emailFragment>Tsarisa</emailFragment> enxaxamelweni wa hina wo posa ku dyondza ndlela leyi u nga hlanganyela eka matsima, swiendlakalo ni swivumbeko swa maakelo-kulorhi eka Common Voice.
 about-stay-in-touch-text-2 = U nga hlangana ni van’wana ematikweni ya ririmi ya Mozilla hi ku tihlanganisa ni<discourseLink>Discourse</discourseLink>eka tinhloko-mhaka to vulavurisana, kumbe <matrixLink>Matrix</matrixLink> ya xitsundzuxo hi xihatla.
@@ -560,13 +565,13 @@ about-nav-how-it-works = Njhani ?
 about-nav-partners = Vatirhisani
 about-nav-get-involved = Hlanganyela
 about-nav-how-it-works-2 = Xana Common Voice yi tirha njhani?
-about-nav-playbook = Dyondza ndlela yo hlanganyela
+about-nav-playbook = Dyondza ndlela yo teka teka xiave
 
 ## Community Playbook Content
 ## What is a language
 
 about-playbook-what-is-language = Xana ririmi eka Common Voice i yini?
-about-playbook-what-is-language-content-1 = Ku ni tindlela to tala to ehleketa hi ririmi. Hi swikongomelo swa swikombiso swa ku lemuka mbulavulo, Common Voice yi ringanyeta ku kongomisa eka ‘ku twisiseka’, kumbe ‘xana vavulavuri va ririmi leri va nga twisisana kahle loko va ringeta?’.
+about-playbook-what-is-language-content-1 = Ku ni tindlela to tala to ehleketa hi ririmi. Hi swikongomelo swa timodlele ta lemukiso wa mbulavulo, Common Voice yi ringanyeta ku kongomisa eka ‘ntwisiso wa ku pfumelelana’, kumbe ‘xana vavulavuri va ririmi leri va nga twisisana kahle loko va ringeta?’.
 about-playbook-what-is-language-content-2 = Hi lava leswaku swikombiso swa mbulavulo swi antswa eku twisiseni ka swivulavuri swo hambana-hambana. Leswaku leswi swi humelela, dataset ya rito yi fanele ku yimela vanhu vo tala vo hambana.
 about-playbook-what-is-language-content-3 = Tindzimi tin’wana ti na ku hambana lokukulu eka ririmi, ntivomarito na mavitanelo ya marito. Hi xivangelo lexi, hi le ku <ctaLink>ku ngheniseni ‘Variants’</ctaLink> hi 2022. Leswi swi nyika miganga ndlela yo hambanyisa tindzimi ta yona endzeni ka dataset leyikulu.
 
@@ -641,7 +646,7 @@ about-playbook-how-validate-content-4 = Loko xiphemu xi ariwile hi vanhu va 2, x
 ## How to access dataset
 
 about-playbook-how-access-dataset = Xana ndzi nga yi fikelela njhani ni ku yi tirhisa njhani dataset?
-about-playbook-how-access-dataset-content-1 = U nga ya eka <datasetsPage>pheji ya ti-dataset</datasetsPage>, u hlawula vuhundzuluxeri ni ririmi leri u ri lavaka, ivi u ri kopa! Tifayili ti na <metadataLink>metadata leyi fambelanaka na yona</metadataLink>, ku fana na vuxokoxoko bya nhlayo ya vaaki na datha ya ku tiyisisa. U ta lava ku nyika adirese ya email ku ri u ta kota ku kopa dataset.
+about-playbook-how-access-dataset-content-1 = U nga ya eka <datasetsPage>pheji ya ti-dataset</datasetsPage>, u hlawula vuhundzuluxeri ni ririmi leri u ri lavaka, ivi u ri kopa! Tifayili ti na <metadataLink>metadata leyi fambelanaka na yona</metadataLink>, ku fana na vuxokoxoko bya nhlayo ya vaaki na datha ya ku tiyisisa. U ta lava ku nyika adirese ya imeyili ku ri u ta kota ku kopa dataset.
 about-playbook-how-access-dataset-content-2 = Loko u lava switirhisiwa swo aka timodeli ta ASR, u nga tihlanganisa na vanhu van’wana emugangeni<discourseLink>eka Discourse</discourseLink>.
 
 ## How are decisions made
@@ -687,7 +692,7 @@ data-download-modal = U le kusuhi no sungula ku dawuniloda ka <size>{ $size }GB<
 data-subtitle = Hi le ku akeni ka rungula leri pfulekeke no kumeka erivaleni ya marito leyi un’wana na un’wana a nga yi tirhisaka ku letela switirhisiwa leswi pfunaka ku vulavula
 data-explanatory-text = Hi tshemba leswaku tidathaseti ta rito letikulu na leti kumekaka erivaleni ti kurisa vutumbuluxi na mphikizano wa mabindzu lowu hanyeke kahle eka thekinoloji ya mbulavulo leyi simekiweke eka dyondzo ya michini. Leri i matshalatshala ya misava hinkwayo naswona hi rhamba un’wana ni un’wana ku hlanganyela. Xikongomelo xa hina i ku pfuna theknoloji ya mbulavulo ku va yi katsa hinkwavo, ku kombisa ku hambana ka marito ku suka emisaveni hinkwayo.
 data-get-started = <speechBlogLink>Sungula hi ku lemuka mbulavulo</speechBlogLink>
-data-other-title = Tidathaseti tin’wana ta rito...
+data-other-title = Tidatasete tin’wana ta rito...
 data-other-goto = Yana eka { $name }
 data-other-download = Dhata yo downloada
 data-bundle-button = Downloada Xiyenge xa ​​Dataset
@@ -712,14 +717,14 @@ review-delete-recordings = Susa swilo leswi ndzi swi rhekhodiweke
 
 ## Datasets Page
 
-datasets-heading = Tidhataseti
+datasets-heading = Tidataseti
 datasets-headline = Hi le ku akeni ka xihlovo lexi pfulekeke, rungula ra tindzimi to tala ya marito leyi un’wana na un’wana a nga yi tirhisaka ku letela switirhisiwa leswi pfunaka ku vulavula.
 datasets-positioning =
-    Hi tshemba leswaku tidathaseti ta rito letikulu, leti kumekaka erivaleni ti ta kurisa vutumbuluxi na mphikizano wa mabindzu lowu hanyeke kahle eka theknoloji ya mbulavulo leyi simekiweke eka dyondzo ya michini.
+    Hi tshemba leswaku tidathaseti ta rito letikulu, leti kumekaka erivaleni ti ta kurisa vutumbuluxi na mphikizano wa mabindzu lowu hanyeke kahle eka thekinoloji ya mbulavulo leyi simekiweke eka dyondzo ya michini.
     
     Dataset ya tindzimi to tala ya Common Voice se i dataset ya rito leyikulu swinene leyi kumekaka erivaleni ya muxaka wa yona, kambe a hi yona ntsena.
     
-    Languta eka tluka leri tanihi ndhawu ya swikombo ya tidathaseti tin’wana ta rito ra xihlovo lexi pfulekeke naswona, tanihi leswi Common Voice yi yaka emahlweni yi kula, kaya ra swintshuxo swa hina swa nkandziyiso.
+    Languta eka thekinoloji pheji leri tanihi ndhawu ya swikombeto ya tidasete tin’wana ta rito ra xihlovo lexi pfulekeke naswona, tanihi leswi Common Voice yi yaka emahlweni yi kula, kaya ra swintshuxo swa hina swa nkandziyiso.
 language = Ririmi
 # File size in gigabytes
 size = Sayizi
@@ -729,8 +734,8 @@ cv-license = Layisense
 audio-format = Xivumbeko xa rungula leri yingiseriwaka
 number-of-voices = Nhlayo ya Marito
 splits = Ku avana
-email-to-download = Hosha imeyili ku downloda
-why-email = <b>Ha yini hi tirhisa imeyili?</b> Swi nga endleka hi lava ku tihlanganisa na wena enkarhini lowu taka mayelana na ku cinca eka dataset, imeyili yi hi nyika ndhawu yo tihlanganisa.
+email-to-download = Nghena eka imeyili ku downloda
+why-email = <b>Hikokwalaho ka yini imeyili?</b> Hi nga lava ku tihlanganisa na wena eka nkarhi lowu taka mayelana ku cinca ka datasete, imeyili yi hi nyika ndhawu yo hlangana.
 confirm-size = U lulamerile ku sungula ku dawuniloda ka <b>{ $size }</b>
 size-gigabyte = GB
 size-megabyte = MB
@@ -740,28 +745,28 @@ validated-hours = Tiawara leti Tiyisisiweke
 recorded-hours = Tiawara Leti Rekhodiweke
 whats-inside = I yini lexi nga endzeni ka dataset ya Common Voice?
 dataset-description-hours =
-    Nyingiso wun’wana na wun’wana eka dataset wu na MP3 yo hlawuleka na fayili ya tsalwa leyi fambelanaka na yona. Tiawara to tala leti rhekhodiweke ta <b>{ $total }</b> eka dataset ti tlhela ti katsa rungula yo kari ya nhlayo ya vaaki ku fana na malembe, rimbewu, na mavalavulelo leswi nga pfunaka ku letela ku pakanisa ka tinjhini to lemuka mbulavulo.
+    Ngheniso wun’wana na wun’wana eka datasete wu na MP3 yo hlawuleka na fayili ya tsalwa leyi fambelanaka na yona. Tiawara to tala leti rhekhodiweke ta <b>{ $total }</b> eka datasete ti tlhela ti katsa vuxokoxoko byo karhi ya nhlayo ya vaaki ku fana na malembe, rimbewu, na mavalavulelo leswi nga pfunaka ku letela mpakaniso wa tinjhini ta lemukiso wa mbulavulo.
     
-    Sweswi dataset yi na <b>{ $valid }</b> tiawara leti tiyisisiweke hi tindzimi ta <b>{ $languages }</b>, kambe hi tshama hi ri karhi hi engetela marito yo tala na tindzimi. Languta eka tluka ra hina ra <languagesLink>Tluka ra tindzimi</languagesLink> ku kombela ririmi kutani ku sungula ku hoxa xandla.
+    Sweswi datasete yi na <b>{ $valid }</b> wa tiawara leti tiyisisiweke hi tindzimi ta <b>{ $languages }</b>, kambe hi tshamela ro engetela marito yo tala na tindzimi. Languta eka pheji ra hina ra  <languagesLink>Tindzimi</languagesLink> ku kombela ririmi kumbe ku sungula ku hoxa xandla.
 want-dataset-update = Xana u lava ku pfuxetiwa loko hi humesa vuhundzuluxeri lebyintshwa bya rungula ra Common Voice? Tsarisa eka phephahungu ra hina.
-subscribe = Xikhokhelo
-get-started-speech = Sungula Hi Ku Lemuka Ku Vulavula
-other-datasets = Tidathaseti tin’wana ta Rito
-feedback-q = Xana U Ni Vuyelo?
+subscribe = Titsarisele
+get-started-speech = Sungula Hi Lemukiso wa Mbulavulo
+other-datasets = Tidatasete tin’wana ta Rito
+feedback-q = Xana U Ni Mbuyelo?
 resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ i <docsLink>xitirhisiwa xa xihlovo lexi pfulekeke</docsLink> eka valavisisi lava endlaka timodeli ta xiyimo xa le henhla ta AI ya mbulavurisano.
 resource-deepspeech-info = Injhini yo tiva rito ya xihlovo lexi pfulekeke ya Mozilla leyi nge Deep Speech yi nga tirhisiwa ku aka switirhisiwa swo tiva mbulavulo. Hlaya <githubLink>nkatsakanyo wa hina wa Github</githubLink> kutani u joyina <discourseLink>DeepSpeech Discourse</discourseLink> ku dyondza ndlela yo sungula.
 resource-coqui-info = <coquiLink>Coqui</coquiLink> yi tinyiketerile eka thekinoloji ya mbulavulo lowu pfulekeke. Tiphurojeke ta vona ti katsa tinjhini ta STT na TTS leti simekiweke eka dyondzo yo enta.
 community-playbook = Buku yo Tlanga ya Vaaki
-resource-playbook-info = <playbookLink>Kuma nkongomiso lowu pfunaka</playbookLink> eka riendzo hinkwaro ra Common voice, ku huma eka ku akelana ku ya ka matirhiselo ya rungula, xikan’we ni ndlela yo ku ti hlanganisa ni muganga wa ka hina.
-data-other-librispeech-description = LibriSpeech i nhlengeleto wa kalomu ka 1000 ya tiawara ta 16Khz ta mavulavulelo wa Xingezi lama hlayiweke ya tekiweke eka rungula leri yingiseriwaka kunene leri humaka eka tsima ra Librivox.
+resource-playbook-info = <playbookLink>Kuma xiletelo lexi pfunaka</playbookLink> eka rendzo hinkwaro ra Common voice, ku suka eka ku endla nchumu wuva wa kwala ekaya ku ya eka matirhiselo ya datasete, xikan’we ni ndlela yo ku ti hlanganisa ni muganga wa hina.
+data-other-librispeech-description = LibriSpeech i nhlengelo wa kwalomu ka 1000 wa tiawara ta 16Khz wa mbulavulo wo hlaya wa Xinghezi lowu humaka eka tibuku ta yingisela leti hlayiweke ku suka eka phurojeke ya LibriVox.
 data-other-ted-name = Xiyenge xa ​​TED-LIUM
-data-other-ted-description = Khophasi ya TED-LIUM yi endliwile hi tinkulumo leti yingisiwaka na matsalwa ya tona lama kumekaka eka webusayiti ya TED.
+data-other-ted-description = Khophasi ya TED-LIUM yi endliwile hi mimbulavulo yo yingiseriwa na mihundzuluxelo ya yona leyi kumekaka eka webusayiti ya TED.
 data-other-voxforge-description = VoxForge yi simekiwile ku hlengeleta mbulavulo lowu tsariweke ku tirhisiwa na Tinjhini to lemuka mbulavulo wa xihlovo xa mahala na lexi pfulekeke.
-data-other-tatoeba-description = Tatoeba i database leyikulu ya swi vulwa vuhundzuluxeri ni mpfumawulo lowu vulavuriwaka lowu tirhisiwaka eku dyondzeni ka ririmi. Fayili leyi yi dawunilodiweke yi na Xinghezi lexi vulavuriwaka lexi rhekhodiweke hi vaaki va vona.
+data-other-tatoeba-description = Tatoeba i databesi leyikulu ya swivulwa, mihundzuluxulo na vukandziyisi bya mbulavulo bya ku tirhisiwa eka dyondzeni ka ririmi. Fayili leyi nga dowulodiwa yi katsa Xinghezi xo vulavuriwa lexi rhekhodiweke hi muganga wa vona.
 your-feedback = Xana u na miehleketo ya leswaku hi nga endla njhani leswaku rungula ra Common Voice ri antswa? Hi tivise eka Discourse
 go-discourse = Famba eka Discourse
 missing-language = A wu voni ririmi ra wena ri kombisiwa eka Rungula? Ku kombela ririmi kongoma eka tluka ra hina ra tindzimi.
-go-languages-page = Famba eka Pheji ra ma Rimi
+go-languages-page = Famba eka Pheji ra Tindzimi
 ready-to-validate = Xana u lunghekele ku pfuneta ku tiyisisa swivulwa?
 more = Swo tala
 close = Pfala
@@ -802,26 +807,24 @@ other-language = Ririmi Rin’wana
 request-language-heading = Vutisa hi ririmi lerintshwa
 request-language-explanation-1 =
     Languta loko ririmi ra wena ri xaxametiwile eka
-    <languagesPageLink>Tluka ra Tindzimi ta Common Voice</languagesPageLink>.
-    Loko swi nga ri tano, tata fomo leyi hi ta ku <strong>rhumela email leyi pfunaka
-    ku hlamusela ndlela yo endla leswaku ririmi ra wena ri vekiwa</strong>.
-request-language-explanation-2 = Hi ta tlhela  <strong>hi tivisa mulanguteri wa muganga wa ka hina leswaku wa swi randza</strong>, kutani va swi kota ku nga ku nyika nseketelo lowu engetelekeke kumbe rungula leri u nga ha ri lavaka.
+    <languagesPageLink>Pheji ra Tindzimi ta Common Voice</languagesPageLink>.
+    Loko swi nga ri tano, tata fomo leyi hi ta ku <strong>rhumela imeyili leyi pfunaka
+    ku hlamusela ndlela yo endla leswaku ririmi ra wena ri vekeriwa</strong>.
+request-language-explanation-2 = Hi ta tlhela  <strong>hi tivisa mufambisi wa muganga wa ka hina leswaku wa swi tsakela</strong>, kutani va swi kota ku nyika nseketelo lowu engetelekeke kumbe vuxokoxoko lebyi u nga ha byi lavaka.
 request-language-form-email =
-    .label = Adirese ya wena ya email
+    .label = Adirese ya wena ya imeyili
 request-language-form-info =
-    .label = Rungula ra ririmi leri
-request-language-form-info-explanation =
-    Engetela rungula ro tala hilaha u nga kotaka hakona malunghana ni ririmi. Lexi
-    swi nga katsa:
+    .label = Vuxokoxoko mayelana ni ririmi
+request-language-form-info-explanation = Engetela vuxokoxoko byo tala hilaha u nga kotaka hakona mayelana ni ririmi. Leswi swi nga katsa:
 request-language-form-info-explanation-list-1 = Mavito ya ririmi ra wena
 request-language-form-info-explanation-list-2 = <isoCodeLink>Tikhodi ta ISO</isoCodeLink> loko ti tiveka
-request-language-form-info-explanation-list-3 = Swihlanganisi swa tiwebsite leswi nga hi pfunaka ku twisisa ririmi.
+request-language-form-info-explanation-list-3 = Vuhlanganisi eka tiwebusayiti leti nga hi pfunaka ku twisisa ririmi.
 request-language-google-recaptcha-required = reCAPTCHA ya laveka loko u lava ku ya emahlweni.
 request-language-google-recaptcha-error = Ku humelele swin’wana leswi nga famba kahle hi reCAPTCHA. Hi kombela u ringeta nakambe.
 # Success page
 request-language-success-heading = Inkomu! U rhumele xivutiso xa ririmi lerintshwa.
 request-language-success-list-1 =
-    U fanele ku kuma email leyi hlamuselaka hi ku komisa
+    U fanele ku kuma imeyili leyi hlamuselaka hi ku komisa
     magoza yo endla leswaku ririmi ra wena ri engeteriwa eka Common Voice.
 request-language-success-list-2 =
     Mufambisi wa hina wa vaaki u ta fikelela eka wena ku ku nyika
@@ -835,9 +838,9 @@ request-language-error = Swi nga ha endleka hi nga xi kumanga xikombelo xexo. Hi
 ## Languages Overview
 
 language-section-in-progress = Eka Nhluvuko
-language-section-in-progress-new-description = Tindzimi leti sweswi ti le hansi ka nhluvukiso wa vaaki. <localizationGlossaryLink>Ku vekiwa ka webusayiti ya laha kaya</localizationGlossaryLink> na <sentenceCollectionGlossaryLink>nhlengeleto wa swivulwa</sentenceCollectionGlossaryLink> yi laveka ku sungula.
-language-section-launched = Ku sunguriwile
-language-section-launched-description = Eka tindzimi leti ti sunguriweke webusayiti yi <localizationGlossaryLink>humelerile </localizationGlossaryLink>, naswona yi na <sentenceCollectionGlossaryLink>swivulwa leswi swi nga hlengeteriwa</sentenceCollectionGlossaryLink> ku pfumelela ku ya emahlwheni <speakLink>Vulavua</speakLink> u <listenLink>Yingisela</listenLink> minyikelo.
+language-section-in-progress-new-description = Tindzimi leti sweswi ti le hansi ka nhluvukiso wa miganga. <localizationGlossaryLink>Ku vekiwa ka webusayiti xikaya</localizationGlossaryLink> na <sentenceCollectionGlossaryLink>nhlengeleto wa swivulwa</sentenceCollectionGlossaryLink> swa laveka ku simeka.
+language-section-launched = Ku Simekiwile
+language-section-launched-description = Eka tindzimi leti ti simekiweke, webusayiti yi <localizationGlossaryLink>humelerile xikaya</localizationGlossaryLink>, naswona yi na  <sentenceCollectionGlossaryLink>swivulwa leswi eneleke swi hlengeletiwile</sentenceCollectionGlossaryLink> ku pfumelela minyikelo yo yisa yo <speakLink>Vulavula</speakLink> na ku <listenLink>Yingisela</listenLink>.
 languages-show-more = Vona Swin'wana
 languages-show-less = Vona Switsongo
 language-meter-in-progress = Ndzima
@@ -1032,9 +1035,9 @@ how-many-per-day = Swikulu! Xana i swiphemu swingani hi siku?
 how-many-a-week = Swikulu! Xana i swiphemu swingani  hi vhiki?
 which-goal-type = Xana u lava ku Vulavula, Ku Yingisela kumbe hi vumbirhi bya swona?
 receiving-emails-info =
-    Sweswi u vekiwile ku amukela ti email to fana na switsundzuxo swa pakani,
+    Sweswi u vekiwile ku amukela ti imeyili to fana na switsundzuxo swa pakani,
     swintshuxo swa nhluvuko ya mina na swiphephana swa mahungu mayelana na Common Voice.
-not-receiving-emails-info = Sweswi u vekiwile leswaku<bold>U NGA</bold> amukeli ti email to fana na switsundzuxo swa pakani, na swintshuxo swa nhluvuko na swiphephana swa mahungu mayelana na Common Voice
+not-receiving-emails-info = Sweswi u vekiwile leswaku<bold>U NGA</bold> amukeli ti imeyili to fana na switsundzuxo swa pakani, na swintshuxo swa nhluvuko na swiphephana swa mahungu mayelana na Common Voice
 n-clips-pluralized =
     { NUMBER($count) ->
         [one] { $count } xiphemu
@@ -1076,7 +1079,7 @@ profile-form-delete = Susa Profayile
 download-q = Xana u lava ku downloada rungula ra wena?
 download-info = Hi byele leswi u lavaka ku swi downloada:
 download-profile-title = Phurofayili
-download-profile-info = Ku katsa na email, vito ra mutirhisi & vuxokoxoko bya nhlayo ya vaaki, lebyi kumekaka hi ku hatlisa.
+download-profile-info = Ku katsa na imeyili, vito ra mutirhisi & vuxokoxoko bya nhlayo ya vaaki, lebyi kumekaka hi ku hatlisa.
 download-profile-size = Tibayiti ti nga ri tingani
 download-recordings-title = Swilo leswi rhekhodiweke
 download-recordings-info = Ku katsa na ti-mp3 na swivulwa leswi fambelanaka na swona, swi nga teka nkarhi wo karhi ku tilulamisela
@@ -1106,8 +1109,8 @@ download-request-link-single = U nga ha tlhela u kopa ni ku namarheta ti-URL let
 
 welcome-staff = Mi amukeriwile vatirhi va{ $company }!
 help-contribute = U nga pfuneta ku aka rungula ro hambana, ra xihlovo lexi pfulekeke hi ku tumbuluxa phurofayili ya Common Voice na ku hoxa xandla hi rito ra wena.
-login-company = Nghena / Tsarisa hi { $company } email
-profile-not-required = Ku va na matimu a swi bohi ku hoxa xandla hambi leswi swi pfunaka, vona leswaku hikokwalaho ka yini laha hansi.
+login-company = Nghena / Tsarisa hi { $company } imeyili
+profile-not-required = Kuva na phurofayili a swi laveriwi ku hoxa xandla kambe swa pfuna, vona kuri hikokwalaho ka yini laha hansi.
 read-more-about = Hlaya swo tala eka tluka ra hina ra Malunghana
 
 ## DemoLayout

@@ -714,6 +714,10 @@ datasets-positioning =
     
     Betrachten Sie diese Seite als Referenzpunkt für andere quelloffene Sprachdatensätze. Wenn Common Voice weiter wächst, finden Sie hier die neuesten Updates.
 language = Sprache
+download-dataset-header = Datensatz herunterladen
+download-delta-explainer = Wir haben einige Änderungen vorgenommen. Delta-Segmente enthalten nur die neuesten Clips seit der letzten Veröffentlichung. <deltaLink>Lesen Sie mehr über diese Arbeit</deltaLink>.
+download-dataset-tag = Wählen Sie den gewünschten Sprachdatensatz und die Version aus, die Sie herunterladen möchten.
+download-dataset-access = Suchen Sie nach früheren Veröffentlichungen des Datensatzes? Schreiben Sie eine E-Mail an <emailLink> { $email } </emailLink>
 # File size in gigabytes
 size = Größe
 validated-hr-total = Insgesamt bestätigte Stunden
@@ -895,7 +899,7 @@ listen-instruction = <playIcon></playIcon>{ $actionType } - Wurde der Satz korre
 listen-again-instruction = Gut so! <playIcon></playIcon> Machen Sie einfach weiter, wenn Ihnen danach ist
 listen-3rd-time-instruction = Zwei erledigt, <playIcon></playIcon> weiter so!
 listen-last-time-instruction = <playIcon></playIcon> Einmal noch!
-listen-empty-state = Für diese Sprache gibt es keine Aufzeichnungen mehr, die überprüft werden könnten…
+listen-empty-state = Es gibt aktuell keine Aufzeichnungen – laden Sie die Seite neu oder versuchen Sie es später erneut.
 listen-loading-error =
     Wir konnten für Sie keine Audioclips zum Anhören abrufen.
     Bitte versuchen Sie es später erneut.

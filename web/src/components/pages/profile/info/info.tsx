@@ -222,13 +222,15 @@ function ProfileInfo({
           <LabeledInput
             value={username}
             onChange={handleChangeFor('username')}
+            name="username"
           />
         </Localized>
 
         <Localized id="leaderboard-visibility" attrs={{ label: true }}>
           <LabeledSelect
             value={visible.toString()}
-            onChange={handleChangeFor('visible')}>
+            onChange={handleChangeFor('visible')}
+            name="leaderboard visibility">
             <Localized id="hidden">
               <option value={0} />
             </Localized>
@@ -242,13 +244,19 @@ function ProfileInfo({
         </Localized>
 
         <Localized id="profile-form-age" attrs={{ label: true }}>
-          <LabeledSelect value={age} onChange={handleChangeFor('age')}>
+          <LabeledSelect
+            value={age}
+            onChange={handleChangeFor('age')}
+            name="age">
             <Options>{AGES}</Options>
           </LabeledSelect>
         </Localized>
 
         <Localized id="profile-form-gender-2" attrs={{ label: true }}>
-          <LabeledSelect value={gender} onChange={handleChangeFor('gender')}>
+          <LabeledSelect
+            value={gender}
+            onChange={handleChangeFor('gender')}
+            name="gender">
             <Options>{GENDERS}</Options>
           </LabeledSelect>
         </Localized>
@@ -289,6 +297,7 @@ function ProfileInfo({
                 }
                 onChange={handleChangeFor('sendEmails')}
                 checked={sendEmails}
+                name="email-opt-in"
               />
 
               <LabeledCheckbox
@@ -309,6 +318,7 @@ function ProfileInfo({
                 }
                 checked={privacyAgreed}
                 onChange={handleChangeFor('privacyAgreed')}
+                name="privacy"
               />
 
               <Localized id="read-terms-q">

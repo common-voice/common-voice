@@ -76,6 +76,7 @@ gom = गोवान् कोंकणी
 ha = हाउसा
 he = हिब्रू
 hi = हिन्दी
+hil = हिलाग्यावन
 hr = क्रोवेशियन
 hsb = सोर्बियन, माथिल्लो
 ht = हाइटियन्
@@ -90,6 +91,7 @@ is = आइसल्याण्डिक
 it = इटालियन
 izh = इजोरियन
 ja = जापानी
+jbo = लोज्वन
 ka = जर्जीयन
 kaa = कारकल्पक
 kab = कबाइल
@@ -98,6 +100,7 @@ ki = किकुयु
 kk = कजाख
 km = खमेर
 kmr = कुर्मान्जी कुर्दिश
+kn = कन्नाडा
 knn = कोंकणी (देवनागरी)
 ko = कोरियाली
 kpv = कोमी-जिरियन
@@ -106,6 +109,8 @@ ky = किर्गिज
 lb = लक्सेम्बर्गिश
 lg = लुगान्डा
 lij = लिगुरियन
+ln = लिंगाला
+lo = लाओ
 lt = लिथुनियाली
 lv = ल्याटभियन
 mai = मैथिली
@@ -125,10 +130,12 @@ my = बर्मेली
 myv = एर्जीया
 nan-tw = ताइवानी (मिन्नान)
 nb-NO = नर्वेली बोकमाल
+nd = IsiNdebele (उत्तर)
 ne-NP = नेपाली
 nia = नियास
 nl = डच
 nn-NO = नर्वेली नाइनोर्स्क
+nr = IsiNdebele (दक्षिण)
 nso = उत्तरी सोथो
 nyn = न्यानकोले
 oc = अकसिटन
@@ -150,14 +157,17 @@ sah = सखा
 sat = सन्ताली (अल चिकी)
 sc = सार्डिनियाली
 scn = सिसिलीयन
+sdh = दक्षिणी कुर्दिश
 shi = सिल्हा
 si = सिन्हाला
 sk = स्लोभाक
 skr = सराइकी
 sl = स्लोवेनियन
+snk = सोनिन्के
 so = सोमाली
 sq = अल्वानियन
 sr = सर्बियन
+ss = सिस्वाती
 st = सेसोथो
 sv-SE = स्विडिस
 sw = स्वाहिली
@@ -170,6 +180,7 @@ ti = तिग्रिन्या
 tig = Tigre
 tk = Turkmen
 tl = तागालोग
+tn = सेत्स्वाना
 tok = टोकी पोना
 tr = टर्किस
 ts = ट्सोङ्गा
@@ -186,12 +197,15 @@ ve = छिभेन्डा
 vec = भेनिटियन
 vi = भियतनामी
 vot = भोटिक
+xh = झोसा
 yi = यिड्‌डिस
 yo = योरुबा
 yue = क्यान्टोनिज
+zgh = तमाजीख्त
 zh-CN = चिनियाँ (चीन)
 zh-HK = चिनियाँ (हङकङ)
 zh-TW = चिनियाँ (ताइवान)
+zu = जुलु
 
 # [/]
 
@@ -454,6 +468,9 @@ faq-why-different-speakers-a =
     धेरै जसो वाणी डाटाबेसहरू निश्चित जनसांख्यिकीहरूको अत्याधिक प्रतिनिधित्वका साथ प्रशिक्षित हुन्छन्, जसको परिणाम <articleLink>पुरुष र मध्यम वर्ग</articleLink> तर्फ पूर्वाग्रह हुन्छ। तालिम डेटा सेटहरूमा कम प्रतिनिधित्व हुने उच्चारण र बोलीहरू सामान्यतया पहिले नै सीमान्तकृत भएका व्यक्तिहरूको समूहसँग सम्बन्धित हुन्छन्। धेरै मेसिनहरूले पनि महिला आवाजहरू बुझ्न संघर्ष गर्छन्।
     यही कारणले गर्दा हाम्रो आवाज डेटाबेसमा हामी विविधता चाहन्छौं!
 faq-why-my-lang-q = किन मेरो भाषा अझै समावेश गरिएको छैन?
+faq-why-my-lang-a =
+    Common Voice एउटा क्राउडसोर्सिङ प्लेटफर्म हो, र भाषाहरू सबै स्वयंसेवकहरूले थपेका थिए।
+    हामी तपाईंलाई आफ्नो भाषा थपेको हेर्न चाहन्छौं! <languageRequestLink>आफ्नो भाषा थप्ने बारे सोध्नुहोस्।</languageRequestLink>
 faq-what-quality-q = डेटासेटमा आवाज क्लिप प्रयोग गर्नको लागि कुन स्तरको अडियो गुणस्तर आवश्यक छ?
 faq-what-quality-a = हामी Common Voice डेटासेटले आवाज-बाट-अक्षर इन्जिनले जङ्गलमा सुन्ने अडियो गुणस्तर प्रतिबिम्बित गर्न चाहन्छौं, त्यसैले हामी विविधता खोजिरहेका छौं। स्पिकरहरूको विविध समुदायको अतिरिक्त, फरक अडियो गुणस्तरको डेटासेटले स्पीच-टु-टेक्स्ट इन्जिनलाई पृष्ठभूमिबाट कारको आवाजमा कुरा गर्ने विभिन्न वास्तविक-विश्व परिस्थितिहरू कार्य गर्न सिकाउँछ। जबसम्म तपाईंको आवाज क्लिप बुझ्न योग्य छ, यो डेटासेटको लागि पर्याप्त राम्रो हुनुपर्छ।
 faq-why-10k-hours-q = अडियो समात्नका लागि प्रति भाषा लक्ष्य 10,000 नै मान्य घण्टा किन हो?
@@ -554,8 +571,18 @@ about-playbook-how-add-language = म कसरी भाषा थप्न स
 about-playbook-how-add-language-content-1 = पहिले, तपाईको भाषा <languageLink>पहिले नै अवस्थित छ कि छैन भनेर जाँच गर्नुहोस्</languageLink>। यदि यो आवश्यक छैन भने तपाईंले <strong>साइट अनुवाद गर्न र वाक्यहरू सङ्कलन गर्न</strong> आवश्यक छ।
 about-playbook-how-add-language-translating-heading = यो साइट अनुवाद हुँदैछ
 about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Pontoon कसरी प्रयोग गर्ने भन्ने बारे हाम्रो गाइड हेर्नुहोस्।</translateVideoLink>
+about-playbook-how-add-language-translating-content-2 =
+    हामीले अनुवादका लागि <pontoonLink>Pontoon</pontoonLink> भनिने मोजिला उपकरण प्रयोग गर्छौँ। पोन्टुनमा धेरै भाषाहरू छन्,
+    तर यदि यसमा तपाईंको छैन भने तपाईंले <pontoonRequestLink>आफ्नो भाषा थप्नको लागि अनुरोध गर्न सक्नुहुन्छ</pontoonRequestLink>।
+    त्यसपछि, साझा आवाज परियोजनामा भाषा उपलब्ध गराउन,
+    <githubRepoLink>GitHub मा नयाँ भाषा अनुरोध गर्नुहोस्</githubRepoLink>। <localizationFragment>साइट अनुवादमा थप हेर्नुहोस्</localizationFragment>।
 about-playbook-how-add-language-collecting-sentences-heading = वाक्यहरु सङ्कलन गरिदै…
 about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>वाक्य सङ्कलनको प्रयोग गर्ने बारे हाम्रो गाइड हेर्नुहोस्</sentenceCollectorVideo>।
+about-playbook-how-add-language-collecting-sentences-content-2 =
+    तपाईं <sentenceCollectorLinkAdd> सानो संख्यामा वाक्यहरू थप्न सक्नुहुन्छ</sentenceCollectorLinkAdd>,
+    वा तपाईँले <bulkImportDocsLink>Github प्रयोग गरेर बल्क आयात</bulkImportDocsLink> गर्न सक्नुहुन्छ।
+    सम्झनुहोस् कि वाक्यहरू <licenseLink>CC0 (वा सार्वजनिक डोमेन)</licenseLink> हुन आवश्यक छ, वा तपाइँ आफ्नै लेख्न सक्नुहुन्छ।
+about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>वाक्य संग्रहमा थप हेर्नुहोस्</sentenceCollectorFragment>।
 
 ## How does localization work
 
@@ -765,6 +792,14 @@ other-language = अरु भाषाहरू
 ## Request Language Pages
 
 request-language-heading = नयाँ भाषाको बारेमा सोध्नुहोस्
+request-language-explanation-1 =
+    तपाइँको भाषा सूचीबद्ध छ भन्ने जाँच गर्नुहोस्
+    <languagesPageLink>Common voice भाषाहरू पृष्ठ</languagesPageLink>।
+    यदि होइन भने, यो फारम भर्नुहोस् र हामी <strong>तपाईंलाई एउटा उपयोगी इमेल पठाउने छौँ
+    तपाइँको भाषा कसरी सेट अप गर्ने भनेर व्याख्या गर्दै</strong>।
+request-language-explanation-2 =
+    हामी पनि <strong>हाम्रो समुदाय प्रबन्धकलाई थाहा दिनेछौं कि
+    तपाईं रुचि राख्नुहुन्छ</strong>, ताकि तिनीहरूले तपाईंलाई तपाईंलाई आवश्यक हुने कुनै जानकारी  वा अतिरिक्त समर्थन पनि दिन सकुन्।
 request-language-form-email =
     .label = तपाईंको इमेल ठेगाना
 request-language-form-info =

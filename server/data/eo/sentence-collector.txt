@@ -11872,6 +11872,7 @@ Ili estas bonaj amikoj, helpemaj, gajaj kaj justemaj.
 Ili estas bonaj naĝantoj.
 Ili estas devigitaj...
 Ili estas diktatoroj sen povo.
+Ili estas dissemitaj en malnovaj gazetoj kaj maloftaj dokumentoj.
 Ili estas dolĉaj!
 Ili estas duope: ŝi kaj blonda junulo en karmezina kaftano.
 Ili estas ege riĉaj, ŝatas min, kaj diris ke mi povas elekti miajn horojn.
@@ -13300,6 +13301,7 @@ Jam leginte en la vizaĝo de la virino la ricevotan novaĵon, Leonardo demandis:
 Jam li estis kvazaŭ senviva por la ekstera mondo.
 Jam longe antaŭ Rask multaj provis fari tian matematikan lingvon.
 Jam longe antaŭe homoj ekstreĉiĝis pro sia ŝparmono.
+Jam longe for ĝi kuradis.
 Jam longe mi vin ne vidis.
 Jam mateniĝas, finiĝis la festo!
 Jam mateniĝas.
@@ -21246,6 +21248,7 @@ La aeroplano flugadis tre rapide kaj trapasis grizajn nubojn.
 La aeroplano transpasis super la barilo kaj flugadis tute rekte for de l' tero.
 La afabla mieno, kiun li ŝajnige ĝis nun estis montranta, tute malaperis.
 La afekcio ankoraŭ ne kvietiĝis.
+La afero Esperanta ankaŭ iris tre malfacile.
 La afero aspektas iom tro stirata de Google.
 La afero estas esperplena.
 La afero estas facila.
@@ -25089,6 +25092,7 @@ La tempo pasas.
 La tempo pasinta jam neniam revenos; la tempon venontan neniu ankoraŭ konas.
 La tempo pasis.
 La tempo urĝas.
+La tempumilo sonorigios post dek minutoj.
 La tendaro de l' Reĝo estis plataĵo da sep- aŭ ok-cent kvadrataj metroj.
 La tendenco indigni kontraŭ maljustaĵoj ebligis la pluvivadon de niaj praavoj.
 La tendoj falas teren.
@@ -25226,6 +25230,7 @@ La tuta daŭro de la projekto estos do pli longa ol mi komence imagis.
 La tuta diplomataro sin okupos pri mi.
 La tuta eksteraĵo de Basmanov ŝanĝiĝis.
 La tuta grupo montris entuziasmon pri Esperanto kaj esprimis deziron plu studi.
+La tuta homaro en familion unuiĝi devas.
 La tuta intestaro de Karlo estis ne plu iel kunkudrebla aŭ alie fiksebla.
 La tuta kartaro tuj suprenleviĝis en la aeron kaj ree flugfalis sur ŝin.
 La tuta lando pereas pro ili.
@@ -25573,6 +25578,7 @@ La vivo de virino estas amuziĝado, ŝercas aliaj.
 La vivo de virino estas eterne brulanta flamo de amo, diras unuj.
 La vivo de virino estas patrineco, krias parto da homoj.
 La vivo de virino estas sinoferado, certigas aliaj.
+La vivo en Ĥerson estis por Zamenhof tre malfacila.
 La vivo estas donaco, tiel bela donaco.
 La vivo estas unu granda sensencaĵo.
 La vivo estis revenanta.
@@ -27808,6 +27814,7 @@ Li ĉefe redaktis kelkajn artikolojn pri lingvoj, pri programado, kaj pri Espera
 Li ĉefe studas la lirikan verkaron, kvankam li mencias ankaŭ poemojn socikritikajn kaj esperantismajn.
 Li ĉerpas per la kulero la fluidaĵon, provas kaj kun abomeno kraĉas.
 Li ĉiam estas ĉirkaŭata de etosmuziko, klasika kaj mallaŭta.
+Li ĉiam estis sincere amata de ĉiuj siaj kolegoj.
 Li ĉiam estis ĉe la flanko de homoj subpremataj kaj ekspluatataj.
 Li ĉiam faris sur nin impreson, kvazaŭ li estas profunde malgajema.
 Li ĉiam hastis.
@@ -31206,6 +31213,7 @@ Mi multfoje rajdas sur la blankulo de Klomp.
 Mi multon lernis de vi.
 Mi multon scias, sed ne ĉion mi povas sciigi.
 Mi murmuris inter miaj dentoj aforismon el la latina gramatiko de Fraugman.
+Mi naskiĝis en Bjelostoko, gubernio de Grodno.
 Mi naskiĝis en Kvinslanda urbeto
 Mi naskiĝis en la ĉirkaŭaĵo de Moskvo en genta patra bieno.
 Mi naskiĝis por ami.
@@ -34353,6 +34361,7 @@ Multo, eble eĉ ĉio, estos iel specife lisbona kaj portugala.
 Multobliĝas ekonomiaj deliktoj, dum mankas juraj povoj por ilin bridi.
 Multon ankoraŭ mi donos al vi, se vi min savos!
 Multon dum mia longa vivo rakontis al mi akvo kaj arbaro!
+Multon mi devis ĉirkaŭhaki, anstataŭigi, korekti kaj radike transformi.
 Multon mi vidas kaj komprenas, sed ne ĉion mi devas diri.
 Multon mirindan oni rakontis pri ĉi tiu loko.
 Multon oni aŭdas, ne ĉion oni eldiras.
@@ -37646,6 +37655,7 @@ Nun la timo en ŝi vekiĝis kaj kiel raba falko terurigis ŝin.
 Nun la turko tenis mane ne monon, sed ringon.
 Nun la vilaĝano estas sklavo de sia bruto.
 Nun la virino havis ĉion, ŝi pri nenio povis peti.
+Nun la vivo de Zamenhof estas jam trankvila.
 Nun la vivo tie fluas libere.
 Nun la vizaĝo de Mario ekflamis per honto kaj indigno.
 Nun la ĉiela plafono etendita super la urbo estis alte profunda, malluma, stelplena.
@@ -46540,6 +46550,7 @@ Tempo pasas inter ekonomi-politika interveno kaj la efiko de tiu interveno.
 Tempo pasis rapide.
 Tempo, dum kiu germanoj povas pli bone studi sian fakon.
 Tempo.
+Tempumilo
 Tenante sian pezan bastonegon per ambaŭ manoj, li ekfrapis per ĝi sian malamikon.
 Tenere li flustris ion ege belan kaj mirindan.
 Teni ĉion ĝisdata estos alia defio.
@@ -47340,6 +47351,7 @@ Tiel estus pli fidinde.
 Tiel facilanimaj!
 Tiel finiĝis la batalo.
 Tiel finiĝis la feliĉa tago de niaj malriĉuloj.
+Tiel finiĝis la unua periodo de la lingvo.
 Tiel finiĝis nia komuna Amsterdama periodo.
 Tiel funkcias la interreto.
 Tiel funkcias la okcidenta dialekto.
@@ -55608,6 +55620,7 @@ zorgu
 Ĉi tiu subita perdo, li diris iom timeme, estos por vi forta financa streĉiĝo.
 Ĉi tiu teamo estas delonga ĉampiono en Hungario, sed ĉu ĝi estas hungara?
 Ĉi tiu templo estas pli ora kaj belaspekta ol la antaŭaj
+Ĉi tiu tempo estis por mi tre malfacila.
 Ĉi tiu urbo havas grandan fortan muron.
 Ĉi tiu verda planedaĉo estis kvazaŭ malliberejo por la giganta robotulo el Cibertrono.
 Ĉi tiu verko devas esti eldonata nun aŭ neniam.

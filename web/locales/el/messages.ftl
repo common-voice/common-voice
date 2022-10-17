@@ -716,6 +716,8 @@ datasets-positioning =
     
     Σε αυτήν τη σελίδα θα βρείτε αναφορές σε άλλα σύνολα φωνητικών δεδομένων ανοιχτού κώδικα και, καθώς το Common Voice συνεχίζει να αυξάνεται, θα βρείτε επίσης ανανεωμένες εκδόσεις του Common Voice.
 language = Γλώσσα
+download-dataset-header = Λήψη συνόλου δεδομένων
+download-dataset-access = Ψάχνετε για τις προηγούμενες κυκλοφορίες συνόλων δεδομένων; Στείλτε email στο <emailLink>{ $email }</emailLink>
 # File size in gigabytes
 size = Μέγεθος
 validated-hr-total = Ώρες επαλήθευσης

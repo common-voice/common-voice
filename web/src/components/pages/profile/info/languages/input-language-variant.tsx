@@ -90,7 +90,10 @@ const InputLanguageVariant = ({
       id="profile-form-variant"
       attrs={{ label: true }}
       vars={{ language }}>
-      <LabeledSelect value={selectedValue} onChange={handleChange}>
+      <LabeledSelect
+        value={selectedValue}
+        onChange={handleChange}
+        name="variant">
         <option value={DEFAULT_OPTION_VALUE}>
           {getLocalizedString('profile-form-variant-default-value')}
         </option>

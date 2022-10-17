@@ -89,6 +89,7 @@ export default function RegisterSection({
             className="screenshot"
             src={require(`./images/${isBenefits ? 1 : 2}-${index + 1}.png`)}
             alt=""
+            role="presentation"
           />
         </div>
       </div>

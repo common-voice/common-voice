@@ -426,6 +426,7 @@ on = Vekirî
 help-accent = Ji bo aksanê ji te re alîkarî divê?
 help-accent-explanation = Devoka te awayê te yê bilêvkirina peyvan e. Ciyê tu lê dijî, zimanên din ku tu pê diaxivî û gelek faktorên din bandorê lê dikin, Tu dikarî wan zanyariyan li virê parve bikî ku li gorî fikra te têkildar in.
 help-variants = Ji bo varyantan pêdiviya te bi hinek alîkariyê heye?
+help-variants-explanation = Varyant formeke spesifîk ê zimanekî ne - wekî nimûne şiklê xeberdanê yê kesên ku li eynî cografya an civakê dijîn. Carinan ev wekî zarava/diyalekt tên binavankirin.
 
 ## Profile - Email
 
@@ -454,6 +455,10 @@ faq-what-cv-a =
     Teknolojiya naskirina dengan, di şêweya ku em bi makîneyan re têiliyê datînin de şoreşekê çêdike lê pergalên niha heyî buha ne û tescîlkirî ne. Common Voice parçeyeke hewldana Mozillayê ye ji bo teknolojiya naskirin a dengan ji bo her kesî çêtir û berdest be. Common Voice danegeheke global ya mezin ya dengên hatine bexşandin e ku dihêle her kes dikaribe bernamokên bi taybetiya deng  bi hemû zimanan bi awayekî zû û hêsan perwerde bike.
     
     Em mînakên dengan ne tenê ji zimanên pir tên axaftin berhev dikin lê ji wan zimanan jî berhev dikin ku hejmara axivêrên wan hindik e. Weşandina daneyên dengî yên cur bi cur dê pêşvebiran, muteşebisan û civakan han bide ku vê valahiyê dagirin. Em ji bilî koma daneyan ya Common Voiceê motoreke naskirina dengan ya bi çavkaniya vekirî ya bi navê Deep Speech jî ava dikin.
+faq-what-cv-a-2 =
+    Teknolojiya naskirina dengan, di awayê ku em bi makîneyan re têkilî datînin de şoreşekê bi cî tîne lê belê sîstemên vêga bersdest pir biha û tescîlkirî ne. Mozilla Common Voice parçeya hewldana Mozillayê ye ji bo teknolojiya naskirina dengan ji bo her kesî çêtir û berdest be. Common Voice danegeheke global ya mezin ya dengên hatine bexşandin e ku îmkan dide her kes karibe bernamokên bi taybetiya deng  bi hemû zimanan bi awayekî zû û hêsan perwerde bike.
+    
+    Em nimûneyên dengan ne tenê ji zimanên pir tên xeberdan berhev dikin lê ji wan zimanan jî berhev dikin ku hejmara xeberdêrên wan hindik e. Weşandina daneyên dengî yên cur bi cur wê pêşvebiran, muteşebisan û civakan han bide ku vê valahiyê dagirin.
 faq-why-important-q = Çima girîng e?
 faq-why-important-a =
     Axaftin bi gelemperî awayê herî xwezayî ye ku em pê bi hev re têkiliyê datînin û teknolojiyên dengî vê rehetiyê digihînin komputer û amûrên me yên mobîl. Em dixwazin pêşdebiran bi hêz bikin ku dikaribin sepanên newaze yên naskirina dengan yên wekî wergêrên hevdem û alîkarên dîjîtal yên xweydeng ava bikin. Lê niha piraniya daneyên dengî ku ji bo avakirina van celeb sepanan hewce dikin biha ne û taybet in. Em hêvîdar in ku koma daneyan ya Common Voiceê dê tişta pêwîst bide pêşdebiran ku tiştên nû çêkin û dikaribin teknolojiya naskirina dengan ji bo zimanên xwe pêşkêş bikin.
@@ -473,6 +478,9 @@ faq-do-want-native-a = Erê, em bi taybet dengê te dixwazin! Armanca Common Voi
 faq-why-different-speakers-q = Çima ji bo her zimanî gelek axiverên cuda ji we re pêwîst in?
 faq-why-different-speakers-a = Piraniya danegehên axaftinê bi wan zanyariyên demografîk têne perwerdekirin ku tê de<articleLink>çîna zilaman û ya navîn</articleLink> zêdetir tê temsîlkirin. Di wan komên daneyan de ku ji bo perwerdehiyê tên bikaranîn devok û zaravayên kêm tên temsîlkirin bi piranî têkildarî gel û civakên marjînal in. Gelek makîne dengê jinan jî bi zehmetî fêm dikin. Loma em di danegeha xwe ya dengan de pirrengiyê dixwazin.
 faq-why-my-lang-q = Çima zimanê min hîn nehatiye tevlîkirin?
+faq-why-my-lang-a =
+    Common Voice platformeke çavkanî-girse ye û hemû ziman ji aliyê dilxwazan ve hatine tevlîkirin.
+    Em pir dixwazin ku hûn jî zimanê xwe tevlî bikin! <languageRequestLink>Daxwaza tevlîkirina zimanê xwe bike.</languageRequestLink>
 faq-what-quality-q = Ji bo klîbeke dengî di komdaneyê de were bikaranîn divê asta kalîîteya dengî çawa be?
 faq-why-10k-hours-q = Çima ji bo her zimanekî hedefeke bi qasî 10,000 saet klîbên dengî yên piştrastkirî heye?
 faq-why-10k-hours-a = Ev hejmara teqrîbî ya saetên pêwîst yê ji bo perwerdekirina sîstemeke ji-xeberdanê-kirin-nivîsê (speech-to-text) ye.

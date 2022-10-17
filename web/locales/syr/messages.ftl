@@ -2,7 +2,7 @@
 
 yes-receive-emails = ܗܝ، ܫܕܪ ܩܐ ܕܝܝ ܐܝܡܝܠ. ܐܢܐ ܒܥܝܢ ܦܝܫܢ ܡܘܕܥܝܐ ܒܘܬ ܩܠܐ ܓܘܢܝܐ.
 stayintouch = ܐܚܢܢ ܒܡܘܙܝܠܐ ܒܢܝܐ ܝܘܚ ܫܘܬܦܘܬܐ ܠܚܘܕܪ̈ܘܢܐ ܕܝܘܠܦܢܐ ܐܘܡܢܘܬܐ ܕܩܠܐ (voice technology). ܐܚܢܢ ܒܥܝܚ ܡܕܥܚ ܩܐ ܕܝܘܟܘܢ ܠܚܘܕܬ̈ܐ، ܡܒܘ̈ܥܐ ܫܘܘܕܥܐ (data sources) ܚܕ̈ܬܐ ܘ ܫܡܥܚ ܒܘܬ ܦܠܚܢܐ ܕܝܘܟܘܢ ܒܫܘܘܕܥܐ.
-privacy-info = ܐܚܢܢ ܫܘܕܘܝܐ (ܩܘܘܠܐ) ܝܘܚ ܩܬ ܢܛܪܟ ܡܘܕܥܢܘܬܐ ܕܝܘܟܘܢ. ܩܪܝܡܘܢ <privacyLink> ܦܘܪܢܣܐ ܕܕܝܠܢܝܘܬܐ <privacyLink/>.
+privacy-info = ܐܚܢܢ ܫܘܕܘܝܐ (promise) ܝܘܚ ܩܬ ܢܛܪܟ ܠܗ ܡܘܕܥܢܘܬܐ ܕܝܘܟܘܢ. ܩܪܝܡܘܢ <privacyLink> ܦܘܪܢܣܐ ܕܕܝܠܢܝܘܬܐ <privacyLink/>.
 return-to-cv = ܕܥܪ ܠܩܠܐ ܓܘܢܝܐ
 email-input =
     .label = ܐܝܡܝܠ
@@ -41,14 +41,33 @@ bas = ܒܐܣܐܝܬ
 be = ܒܝܠܘܐܘܪܘܣܢܝܬ
 bg = ܒܘܠܓܐܪܝܬ
 bn = ܒܢܓܐܠܝܬ
+br = ܒܪܝܬܘܢܝܬ
+bs = ܒܘܣܢܝܢܝܬ
+bxr = ܒܘܪܝܬܝܬ
+ca = ܟܬܠܢܝܬ
+cak = ܩܐܟܬܫܝܩܠܝܬ
+ckb = ܩܘܪܕܝܬ ܡܨܥܝܐ
+cnh = ܗܐܚܐ ܬܫܝܢܝܬ
+co = ܟܘܪܣܝܟܢܝܬ
+cs = ܬܫܟܢܝܬ‎
+cv = ܬܫܘܒܐܫܝܬ
+cy = ܘܝܠܫܝܬ
+da = ܕܐܢܡܪܟܝܬ
+de = ܐܠܡܢܝܐ
 el = ܝܘܢܐܝܬ
 en = ܐܢܓܠܝܣ
+es = ܣܦܢܝܝܐ
 fa = ܦܪܣܐܝܼܬ
+fi = ܦܝܢܠܢܕܝܬ
 fr = ܦܪܢܣܝܬ
+ga-IE = ܐܝܪܝܐܝܬ
 he = ܥܒܪܐܝܬ
 hi = ܗܢܕܝܐ
 hy-AM = ܐܪܡܢܝܬ
 hyw = ܐܪܡܢܝܬ ܡܥܪܒܝܐ
+it = ܐܝܛܠܝܬ
+ja = ܝܦܢܝܐ
+ka = ܓܘܪܓܐܝܬ
 kmr = ܩܘܪܕܝܬ
 nb-NO = ܢܘܪܒܝܓܐܝܬ ܒܘܟܡܠ
 nn-NO = ܢܘܪܒܝܓܐܝܬ ܢܝܢܘܪܣܟ
@@ -58,8 +77,11 @@ pt = ܦܘܪܛܘܓܠܐܝܬ
 ro = ܪܘܡܢܐܝܬ
 ru = ܐܘܪܘܣܢܝܬ
 rw = ܟܝܢܝܪܐܘܢܕܐ
+st = ܣܘܬܘܐܝܬ ܬܡܢܝܐ
 sv-SE = ܣܘܝܕܐܝܬ
+sw = ܣܘܐܗܝܠܐܝܬ
 syr = ܣܘܪܝܝܐ
+ta = ܬܡܝܠܝܬ
 tr = ܬܘܪܟܝܬ
 uk = ܐܘܟܪܐܝܢܐܝܬ
 ur = ܐܘܪܕܘܝܬ
@@ -80,7 +102,7 @@ zu = ܙܘܠܘ
 
 speak = ܐܡܪ
 speak-now = ܐܡܪ ܗܫܐ
-datasets = ܣܕܪ̈ܐ ܫܘܘܕ̈ܥܝܐ
+datasets = ܣܕܪ̈ܐ ܫܘܘܕܥ̈ܝܐ
 languages = ܠܫܢ̈ܐ
 about = ܡܢܝ ܝܘܚ
 profile = ܦܐܬܐ ܕܚܒܝܫܬܐ
@@ -99,14 +121,18 @@ logout = ܦܠܘܛ
 
 home-cta = ܡܠܠ ܒܩܠܐ، ܫܘܬܦ ܠܐܟܐ!
 show-wall-of-text = ܩܪܝ ܝܬܝܪ
-help-us-title = ܥܕܪ ܩܬܢ ܒܫܪܘܪܐ ܕܦܬܓܡ̈ܐ!
+help-us-title = ܥܕܪ ܩܬܢ ܒܫܪܪܬܐ ܕܡܡܠ݇ܠ̈ܐ!
 vote-yes = ܗܐ
 vote-no = ܠܐ
 speak-subtitle = ܫܘܬܦ ܩܠܘܟܘܢ
+speak-goal-text = ܡܐܡܪ̈ܐ ܡܟܬܒ݂ܝ
 listen-subtitle = ܥܕܪ ܩܬܢ ܒܫܪܘܪܐ ܕܩܠ̈ܐ
 listen-goal-text = ܡܐܡܪ̈ܐ ܫܪܝܪ̈ܐ
+hours-recorded = ܫܥ̈ܐ ܡܟܬܒ݂ܝ
 hours-validated = ܫܥ̈ܐ ܫܪܝܪ̈ܐ
+voices-online = ܐܝܬ ܩܠ̈ܐ ܥܠ ܢܘܠܐ ܗܫܐ
 help-reach-goal = ܥܕܪ ܩܕ ܕܝܝܢ ܡܛܚ ܥܠ { $goal }
+read-terms-q = ܩܪܝܬܗܘܢ ܬܢܘ̈ܝ ܕܝܝܢ؟
 ready-to-record = ܦܝܫܝܬܘܢ ܥܬܝܕܐ (ready) ܥܡ ܫܘܬܦܝܬܘܢ ܩܠܘܟܘܢ؟
 all-locales = ܟܠ
 today = ܐܕܝܘܡ
@@ -137,17 +163,19 @@ x-years-short =
         [many] ܫܢܝ̈ܐ
        *[other] ܫܢܝ̈ܐ
     }
-help-make-dataset = ܥܕܪ ܩܬܢ  ܒܒܢܝܬܐ ܕܚܕ ܣܕܪܐ ܫܘܘܕܥܝܐ (dataset) ܕܝܠܗ ܐܝܢܝܘܬܐ ܥܠܝܬܐ (high quality) ܘ ܦܬܝܚܐ ܩܐ ܟܠ ܚܕ ܢܫܐ
+help-make-dataset = ܥܕܪ ܩܬܢ ܒܒܢܝܬܐ ܕܚܕ ܣܕܪܐ ܫܘܘܕܥܝܐ (dataset) ܕܝܠܗ ܐܝܢܝܘܬܐ ܥܠܝܬܐ (high quality) ܘܓܠܝܐܝܬ ܩܐ ܟܠ ܟܕ ܐܢܫܐ
 sign-up-account = ܡܟܬܒ ܚܘܫܒܢܐ
 email-subscription-title = ܡܟܬܒ ܠܩܒܠܬܐ ܚܘܕ̈ܬܐ ܒܐܝܡܝܠ
 email-subscription-title-new = ܡܟܬܒ ܠܩܒܠܬܐ ܛܒܐ، ܡܥܗܕ̈ܢܘܬܐ ܕܢܝܫ̈ܐ‌ (goal reminders) ܘ ܚܘܕ̈ܬܐ ܕܪܗܬܐ (progress updates) ܕܩܠܐ ܓܘܢܝܐ
 
 ## Account Benefits
 
-benefits = ܥܠܠܬܐ
+benefits = ܥܠܠܬ̈ܐ
 
 ## What's public
 
+whats-public = ܡܘܕܝ ܝܠܗ ܓܠܝܐ؟
+email-not-public = ܐܚܢܢ ܠܐ ܦܪܣܚ ܠܗ ܐܝܡܝܠ ܕܝܘܟܘܢ ܓܠܝܐܝܬ.
 
 ## Speak & Listen Shortcuts
 
@@ -174,7 +202,10 @@ shortcut-vote-no = ܠ
 shortcut-record-toggle = ܡ
 shortcut-record-toggle-label = ܡܟܬܒ/ܟܠܝ
 shortcut-rerecord-toggle = [1-5]
+shortcut-rerecord-toggle-label = ܡܐܡܪܐ ܡܟܬܒ݂ ܐܚܪܢܐ
+shortcut-discard-ongoing-recording = ܩܕܝܠܐ ܕܢܦܩܐ ESC
 shortcut-submit = ܕܥܪ
+shortcut-submit-label = ܫܕܪ ܡܐܡܪ̈ܐ
 request-language-button = ܛܠܒ ܠܫܢܐ
 
 ## ProjectStatus
@@ -222,7 +253,7 @@ native-language =
     .label = ܠܫܢܐ ܐܬܪܢܝܐ
 profile-form-add-accent = ܐܘܣܦ (ܡܙܝܕ) ܠܥܙܐ ܪܫܝܡܐ ܚܕܬܐ { $inputValue }
 profile-form-submit-save = ܐܚܕ
-profile-form-submit-saved = ܐܚܕܐ
+profile-form-submit-saved = ܐܚܕܢ
 male = ܕܟܪܐ
 female = ܢܩܒܐ
 # Gender
@@ -251,15 +282,19 @@ manage-email-subscriptions = ܬܓܒܪ ܫܪ̈ܟܬܐ ܕܐܝܡܝܠ
 
 faq-what-cv-q = ܡܘܕܝ ܝܠܗ̇ ܩܠܐ ܓܘܢܝܐ؟
 faq-how-get-q = ܕܐܟ݂ܝ ܟܐ ܩܢܝܢ ܫܘܘܕ̈ܥܐ ܕܩܠܐ ܓܘܢܝܐ؟
+faq-is-account-public-q = ܝܠܗ ܡܘܕܥܢܘܬܐ ܕܚܘܫܒܢܝ ܓܠܝܐ؟
 
 ## ABOUT US
 
 
 ## How does it work section
 
-about-voice-validation-subtitle = ܢܫ̈ܐ ܐܚܪ̈ܢܐ ܫܪܝܪ̈ܐ ܝܢܐ ܐܢܝ ܡܐܡܪ̈ܐ.
+about-localization-title = ܕܘܟܬܢܐܝܬ ܕܦܪܣ ܢܘܠܐ
+about-voice-validation-subtitle = ܐܢܫ̈ܐ ܐܚܪ̈ܢܐ ܫܪܝܪ̈ܐ ܝܢܐ ܐܢܝ ܡܐܡܪ̈ܐ.
 about-speak = ܡܠܠ
+about-is-it-valid = ܝܠܗ ܡܐܡܪܐ ܫܪܝܪܐ؟
 about-dataset-new = ܣܕܪܐ ܕܫܘܘܕ̈ܥܐ ܕܩܠܐ ܓܘܢܝܐ
+about-clip-graveyard = ܒܝܬ ܩܒ݂ܘܪ̈ܐ ܕܡܐܡܪܐ
 about-nav-how-it-works = ܐܝܟܢܐ؟
 about-nav-partners = ܫܘܬܦܝ̈ܐ
 
@@ -281,6 +316,7 @@ about-nav-partners = ܫܘܬܦܝ̈ܐ
 
 ## How to grow language
 
+about-playbook-how-grow-language-content-6 = ܢܘܠ̈ܐ ܘܡܫܘܬܦܢܘܬ̈ܐ
 
 ## How to validate
 
@@ -293,7 +329,8 @@ about-nav-partners = ܫܘܬܦܝ̈ܐ
 
 ## Glossary
 
-localization = ܡܫܪܝܬܐ
+localization = ܕܘܟܬܢܐܝܬ
+sentence-collection = ܟܘܢܫܐ ܕܡܡܠ݇ܠܐ
 
 ## Error pages
 
@@ -301,6 +338,7 @@ localization = ܡܫܪܝܬܐ
 ## Data
 
 review-cancel = ܒܛܘܠ ܫܕܪܬܐ
+review-delete-recordings = ܫܘܦ ܡܟܬܒܢܘܬܝ
 
 ## Datasets Page
 
@@ -334,6 +372,10 @@ localized = ܡܫܪܝܬܐ
 listen = ܫܡܥܝܼ
 skip = ܫܘܪ
 shortcuts = ܦܣܩܐ
+share-clip = ܫܘܬܦ ܡܐܡܪܟ‎
+clips-uploaded = ܡܐܡܪ̈ܐ ܡܘܣܩ ܠܗ
+record-abort-submit = ܫܕܪ ܡܐܡܪ̈ܐ
+record-abort-delete = ܦܠܘܛ ܘܫܘܦ ܡܐܡܪ̈ܐ
 
 ## Reporting
 
@@ -346,6 +388,7 @@ continue = ܐܡܢܐ
 ## Dashboard
 
 your-languages = ܠܫܢܘܟ݂ܘܢ
+clips-you-recorded = ܡܐܡܪ̈ܐ ܡܟܬܒ݂ܝܬܘܢ
 clips-you-validated = ܡܐܡܪ̈ܐ ܫܪܝܪܝܬܘܢ
 validated-clips = ܡܐܡܪ̈ܐ ܫܪܝܪ̈ܐ
 
@@ -411,6 +454,18 @@ keep = ܢܛܪ
 
 ## ADD LANGUAGE
 
+# Variables:
+#   $sentences (Number) - Number of sentences which failed to be saved to the database - could be several different reasons
+sc-add-err-failed =
+    { $sentences ->
+        [0] ܠܐ ܚܠܛ̈ܐ ܒܡܡܠ݇ܠ̈ܐ
+        [zero] 0 ܚܠܛ̈ܐ ܒܡܡܠ݇ܠܐ
+        [one] 1 ܚܠܛܐ ܒܡܡܠ݇ܠܐ
+        [two] 2 ܚܠܛ̈ܐ ܒܡܡܠ݇ܠ̈ܐ
+        [few] ܚܟ̈ܡܐ ܚܠܛ̈ܐ ܒܡܡܠ݇ܠ̈ܐ
+        [many] ܪܒܐ ܚܠܛ̈ܐ ܒܡܡܠ݇ܠ̈ܐ
+       *[other] { $sentences } ܚܠܛ̈ܐ ܒܡܡܠ݇ܠ̈ܐ
+    }
 
 ## ADD SENTENCES CONFIRMATION
 
@@ -450,3 +505,5 @@ sc-lang-info-validated =
 
 # [/SentenceCollector]
 
+localization-select =
+    .label = ܓܒܝ ܠܫܢܐ / ܕܘܟܬܢܐܝܬ

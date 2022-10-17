@@ -529,11 +529,15 @@ about-playbook-what-is-language-content-3 = Hizkuntza batzuek sekulako aldaketak
 
 about-playbook-how-add-language = Nola gehi dezaket hizkuntza bat?
 about-playbook-how-add-language-translating-heading = Gunea itzultzen
+about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Ikusi Pontoon erabiltzeko gida.</translateVideoLink>
 about-playbook-how-add-language-collecting-sentences-heading = Esaldiak biltzen
+about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>Ikusi Sentence Collector erabiltzeko gida.</sentenceCollectorVideo>
+about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>Ikusi gehiago esaldiak biltzeari buruz</sentenceCollectorFragment>.
 
 ## How does localization work
 
 about-playbook-how-localize = Nola dabil gunearen lokalizazioa?
+about-playbook-how-localize-content-1 = Common Voice itzultzeko <strong>Pontoon</strong> darabilgu.
 about-playbook-how-localize-content-4 = Gunea martxan jartzeko prest dago % 75 egina dagoenean.
 about-playbook-how-localize-content-5 = Ikusi gure azalpen bideoa
 
@@ -544,6 +548,9 @@ about-playbook-how-add-sentences = Nola gehi ditzaket esaldiak?
 ## How to record quality
 
 about-playbook-how-record-quality = Nola graba dezaket kalitate handiko ahots grabazio bat?
+about-playbook-how-record-content-2 = Saihestu atzeko zarata gehiegi izatea - zu entzutea erraza izan beharko litzateke.
+about-playbook-how-record-content-3 = Irakurri esaldia kontu handiarekin - ez saltatu, aldatu edo gehitu hitzik.
+about-playbook-how-record-content-5 = <accuracyLink>Ikusi gehiago zehaztasun irizpideei buruz.</accuracyLink>
 
 ## How to grow language
 
@@ -633,6 +640,7 @@ datasets-positioning =
     
     Begira orri honetan agertzen diren beste ahots datu-sorta irekien erreferentziak.
 language = Hizkuntza
+download-dataset-header = Deskargatu datu-sorta
 # File size in gigabytes
 size = Tamaina
 validated-hr-total = Baliozkotutako orduak guztira
@@ -1104,7 +1112,11 @@ sc-howto-review-subtitle = Ziurtatu esaldiek ondoko irizpideak betetzen dituztel
 sc-howto-review-criteria-1 = Esaldiek ez dute akats ortografikorik izan behar.
 sc-howto-review-criteria-2 = Esaldiek ez dute akats gramatikalik izan behar.
 sc-howto-review-criteria-3 = Esaldiak ahoskagarriak izan behar dira.
+sc-howto-review-criteria-4 = Esaldiak irizpideak betetzen baditu, sakatu "Onartu" botoia.
+sc-howto-review-criteria-6 = Berrikusteko esaldirik gabe geratzen bazara, lagun gaitzazu esaldi gehiago biltzen!
+sc-howto-findpd-title = Aurkitu Domeinu Publikoan dauden esaldiak
 sc-howto-findpd-subtitle = Bila itzazu Interneten
+sc-howto-findpd-tips = Hemen dituzu zenbait aholku esaldiak aurkitzeko:
 
 ## MY SENTENCES
 
@@ -1308,3 +1320,5 @@ sc-validation-no-abbreviations = Esaldiak ez du laburdurarik izan behar
 
 # [/SentenceCollector]
 
+localization-select =
+    .label = Aukeratu hizkuntza/lokalizazioa

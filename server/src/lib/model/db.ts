@@ -9,6 +9,7 @@ import {
   TaxonomyToken,
   taxonomies,
   Language,
+  Datasets,
 } from 'common';
 import lazyCache from '../lazy-cache';
 const MINUTE = 1000 * 60;
@@ -979,6 +980,88 @@ export default class DB {
     const [rows] = await this.mysql.query(
       `SELECT *
         FROM locales l
+    `
+    );
+    return rows;
+  }
+
+  /**
+   * Get all datasets. Filterable by type (singleword, delta, complete)
+   *
+   * @param {string} releaseType
+   * @return {*}  {Promise<Language[]>}
+   * @memberof DB
+   */
+  async getAllDatasets(releaseType: string): Promise<Datasets[]> {
+    const [rows] = await this.mysql.query(
+      `SELECT 
+      l.id,
+      l.name,
+      l.release_dir,
+      l.multilingual,
+      l.bundle_date,
+      l.release_date,
+      l.total_clips_duration,
+      l.valid_clips_duration,
+      l.release_type,
+      ld.checksum,
+      ld.size,
+      l.download_path,
+      temp.languages_count
+        FROM datasets l
+        JOIN locale_datasets ld on l.id = ld.dataset_id
+        JOIN (
+          SELECT count(1) as languages_count, dataset_id
+          FROM locale_datasets xld
+          GROUP BY xld.dataset_id
+        ) temp ON temp.dataset_id = l.id
+        WHERE is_deprecated = false
+        ${releaseType ? ` AND release_type = ?` : ''}
+        GROUP BY l.id
+        ORDER BY l.release_date DESC
+    `,
+      [releaseType]
+    );
+    return rows;
+  }
+
+  async getLanguageDatasetStats(languageCode: string): Promise<Language[]> {
+    const [rows] = await this.mysql.query(
+      `SELECT
+      ld.id,
+      ld.dataset_id,
+      ld.locale_id,
+      ld.total_clips_duration,
+      ld.valid_clips_duration,
+      ld.average_clips_duration,
+      ld.total_users,
+      ld.size,
+      ld.checksum,
+      d.release_date,
+      d.name,
+      d.release_dir,
+      d.download_path
+    FROM
+      locale_datasets ld
+    JOIN datasets d ON
+      d.id = ld.dataset_id
+    WHERE
+      ld.locale_id = ?
+      AND d.release_type in ("complete", "delta")
+      AND d.is_deprecated = false
+    ORDER BY
+      d.release_date DESC
+    `,
+      [await getLocaleId(languageCode)]
+    );
+    return rows;
+  }
+
+  async getAllLanguagesWithDatasets(): Promise<Language[]> {
+    const [rows] = await this.mysql.query(
+      `SELECT DISTINCT l.name, l.id
+        FROM locale_datasets ld
+        JOIN locales l ON l.id = ld.locale_id 
     `
     );
     return rows;

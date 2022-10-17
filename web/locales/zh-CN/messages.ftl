@@ -597,7 +597,7 @@ about-playbook-how-project-governance-content-7 = <governanceLink>详细了解�
 
 glossary = 词汇表
 localization = 本地化
-localization-explanation = 这是我们为许多语系（语言）进行翻译和调整内容的过程。
+localization-explanation = 这是我们为许多语言（环境）进行翻译和调整内容的过程。
 sentence-collection = 语句集合
 sentence-collection-explanation = 收集公共领域的语句，或为公共领域编写新的语句。
 hours-recorded-explanation = 到目前为止我们收集到的录音小时数。
@@ -1417,4 +1417,4 @@ sc-validation-no-abbreviations = 句子不应包含缩写
 # [/SentenceCollector]
 
 localization-select =
-    .label = 选择语言 / 语系
+    .label = 选择语言 / 本地化
