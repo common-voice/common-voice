@@ -714,6 +714,10 @@ datasets-positioning =
     
     Tekintsen erre az oldalra, mint egy referencia-központra, amely más nyílt forráskódú hangadat-készleteket tartalmaz, és ahogy a Common Voice tovább növekszik, ez lesz a frissített kiadások otthona is.
 language = Nyelv
+download-dataset-header = Az adatkészlet letöltése
+download-delta-explainer = Néhány változtatást hajtottunk végre. A delta szegmensek csak a legutóbbi kiadás óta készült legfrissebb klipeket tartalmazzák. <deltaLink>További információk erről a munkáról</deltaLink>.
+download-dataset-tag = Válassza ki a kívánt nyelvi adatkészletet, és válassza ki a letölteni kívánt verziót.
+download-dataset-access = A korábbi adatkészlet-kiadásokat keresi? E-mail: <emailLink> { $email } </emailLink
 # File size in gigabytes
 size = Méret
 validated-hr-total = Ellenőrzött óra összesen
