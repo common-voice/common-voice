@@ -712,6 +712,7 @@ datasets-positioning =
     Reguarda iste pagina como centro de referentia pro altere collectiones de datos vocal libere e, como Common Voice continua a crescer, un pagina principal pro nostre actualisationes de version.
 language = Lingua
 download-dataset-header = Discarga le collection de datos
+download-delta-explainer = Nos faceva alcun modificationes. Le segmentos delta contine solo le plus recente registrationes plus recente desde le ultime version. <deltaLink>Pro leger plus re iste labor</deltaLink>.
 download-dataset-tag = Elige le collection de datos del lingua desirate e le version que tu vole discargar.
 download-dataset-access = Cerca tu versiones precedente del collection de datos? Invia un email a <emailLink> { $email } </emailLink
 # File size in gigabytes
