@@ -711,6 +711,9 @@ datasets-positioning =
     
     Reguarda iste pagina como centro de referentia pro altere collectiones de datos vocal libere e, como Common Voice continua a crescer, un pagina principal pro nostre actualisationes de version.
 language = Lingua
+download-dataset-header = Discarga le collection de datos
+download-dataset-tag = Elige le collection de datos del lingua desirate e le version que tu vole discargar.
+download-dataset-access = Cerca tu versiones precedente del collection de datos? Invia un email a <emailLink> { $email } </emailLink
 # File size in gigabytes
 size = Dimension
 validated-hr-total = Horas validate Total
