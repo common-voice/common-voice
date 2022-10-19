@@ -5,13 +5,13 @@ stayintouch = Chez Mozilla, nous rassemblons une communauté autour des technolo
 privacy-info = Nous promettons de prendre soin de vos données. Apprenez-en davantage en consultant notre <privacyLink>Politique de confidentialité</privacyLink>.
 return-to-cv = Retourner vers Common Voice
 email-input =
-    .label = Adresse électronique
+    .label = Adresse e-mail
 submit-form-action = Envoyer
 loading = Chargement…
-email-opt-in-info = J’aimerais recevoir des courriels tels que des rappels d’objectifs, des rapports sur mes progrès et les lettres d’information de Common Voice.
+email-opt-in-info = J’aimerais recevoir des e-mails tels que des rappels d’objectifs, des rapports sur mes progrès et les lettres d’information de Common Voice.
 email-opt-in-info-title = Rejoignez la liste de diffusion Common Voice
-email-opt-in-info-sub-with-challenge = Recevez des courriels tels que des défis, des rappels d’objectifs, des rapports d’avancement et des lettres d’information sur Common Voice.
-email-opt-in-privacy-v2 = En acceptant de recevoir des courriels, vous indiquez accepter que Mozilla gère ces informations, conformément à la <privacyLink>politique de confidentialité</privacyLink> de Mozilla.
+email-opt-in-info-sub-with-challenge = Recevez des e-mails tels que des défis, des rappels d’objectifs, des rapports d’avancement et des lettres d’information sur Common Voice.
+email-opt-in-privacy-v2 = En acceptant de recevoir des e-mails, vous indiquez accepter que Mozilla gère ces informations, conformément à la <privacyLink>politique de confidentialité</privacyLink> de Mozilla.
 indicates-required = * indique un champ obligatoire
 not-available-abbreviation = Non disponible
 banner-error-slow-1 = Désolé, Common Voice fonctionne lentement. Merci de votre intérêt.
@@ -282,7 +282,7 @@ x-years-short =
     }
 help-make-dataset = Aidez-nous à constituer une base de données libre et publique de haute qualité
 sign-up-account = Créer un compte
-email-subscription-title = Recevez des informations par courriel
+email-subscription-title = Recevez des informations par e-mail
 email-subscription-title-new = Abonnez-vous aux lettres d’information, rappels d’objectifs et bilan des progrès de Common Voice
 
 ## Account Benefits
