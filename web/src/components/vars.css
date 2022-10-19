@@ -75,10 +75,10 @@
 
 @media (prefers-reduced-motion: reduce) {
     :root {
-        --transition-duration: 0.05s;
-        --transition-duration-slow: 0.05s;
+      --transition-duration: 0.05s;
+      --transition-duration-slow: 0.05s;
     }
-}
+  }
 
 .md-block {
     display: none;
