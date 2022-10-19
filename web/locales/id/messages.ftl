@@ -52,6 +52,7 @@ da = Bahasa Denmark
 de = Bahasa Jerman
 dsb = Bahasa Sorbia Hilir
 dv = Dhivehi
+dyu = Bahasa Dioula
 el = Bahasa Yunani
 en = Bahasa Inggris
 eo = Bahasa Esperanto
