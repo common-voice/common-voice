@@ -14,67 +14,67 @@
     @media (--xs-down) {
         flex-direction: column;
     }
-}
 
-.partnerships-container .partnerships-header-text {
-    margin: 0px 20px 40px 20px;
-}
-
-.partnerships-container .page-heading {
-    font-size: 48px;
-
-    @media (--md-only) {
-        margin-top: 0;
-    }
-}
-
-.partnerships-container .partnerships-header-image {
-    @media (--xs-down) {
-        margin: 0 auto;
+    & .partnerships-header-text {
+        margin: 0px 20px 40px 20px;
     }
 
-    @media (--md-up) {
-        flex: 1;
-        text-align: right;
-    }
+    & .page-heading {
+        font-size: 48px;
 
-    & img {
-        @media (--md-down) {
-            max-height: 220px;
+        @media (--md-only) {
+            margin-top: 0;
         }
     }
-}
 
-.partnerships-container p {
-    font-weight: 300;
+    & .partnerships-header-image {
+        @media (--xs-down) {
+            margin: 0 auto;
+        }
 
-    @media (--xs-down) {
-        font-size: 18px;
-        width: 355px;
+        @media (--md-up) {
+            flex: 1;
+            text-align: right;
+        }
+
+        & img {
+            @media (--md-down) {
+                max-height: 220px;
+            }
+        }
     }
 
-    @media (--lg-up) {
-        width: 566px;
-        font-size: 24px;
-    }
-}
+    p {
+        font-weight: 300;
 
-.partnerships-container .button {
-    border: none;
-    background: var(--type-color);
-    color: var(--white);
-    font-size: 16px;
-    max-width: 220px;
-    margin-top: 50px;
-    padding: 15px;
-    justify-content: flex-start;
+        @media (--xs-down) {
+            font-size: 18px;
+            width: 355px;
+        }
 
-    @media (--md-only) {
-        margin-top: 15px;
+        @media (--lg-up) {
+            width: 566px;
+            font-size: 24px;
+        }
     }
 
-    @media (--xs-down) {
-        margin: 50px auto 25px auto;
+    .button {
+        border: none;
+        background: var(--type-color);
+        color: var(--white);
+        font-size: 16px;
+        max-width: 220px;
+        margin-top: 50px;
+        padding: 15px;
+        justify-content: flex-start;
+
+        @media (--md-only) {
+            margin-top: 15px;
+        }
+
+        @media (--xs-down) {
+            margin: 50px auto 25px auto;
+        }
     }
 }
 
@@ -105,11 +105,6 @@
     @media (--md-up) {
         background: url('./images/waves.png');
         background-size: cover;
-    }
-
-    @media (--md-only) {
-        background-size: contain;
-        background-repeat: no-repeat;
     }
 
     @media (--xs-down) {
