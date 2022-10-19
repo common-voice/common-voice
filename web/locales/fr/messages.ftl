@@ -298,11 +298,11 @@ join-newsletter = Inscrivez-vous à notre liste de diffusion pour être tenu au 
 ## What's public
 
 whats-public = Quelles informations sont publiques ?
-email-not-public = Nous ne rendrons pas publique votre adresse électronique.
+email-not-public = Nous ne rendrons pas publique votre adresse e-mail.
 recordings-and-locale-public = Le nombre d’enregistrements et les langues dans lesquelles vous contribuez seront publics.
 username-optin-public = Vous pouvez choisir de rendre votre nom d’utilisateur ou d’utilisatrice public ou anonyme
 demographic-deidentified-clarity-2 = Les données démographiques éventuellement soumises (par exemple, l’âge, le genre, la langue et l’accent) ne seront jamais rendues publiques sur votre profil et ne seront pas liées à votre compte dans l’ensemble de données. Des échantillons audio individuels seront associés à des données démographiques à des fins d’analyse plus précise ; par exemple, une chercheuse pourrait vouloir cibler un modèle d’entrainement sur un segment démographique spécifique.
-username-email-not-demographic = Votre nom d’utilisateur ou d’utilisatrice et votre adresse électronique ne seront pas associés aux données publiées.
+username-email-not-demographic = Votre nom d’utilisateur ou d’utilisatrice et votre adresse e-mail ne seront pas associés aux données publiées.
 
 ## Speak & Listen Shortcuts
 
@@ -399,13 +399,13 @@ profile-close = Fermer
 profile-explanation = Gardez un œil sur votre progression en créant un profil et aidez-nous à rendre nos données vocales plus précises.
 thanks-for-account = Merci d’avoir confirmé votre compte, maintenant créons votre profil.
 why-demographic = Pourquoi est-ce important ?
-why-demographic-explanation-2 = Les données utilisateur anonymes comme l’âge, le genre, et l’accent particulier contribuent à améliorer les données audio utilisées pour entraîner et rendre plus pertinents les moteurs de reconnaissance vocale. Votre nom d’utilisateur et votre adresse courriel ne seront jamais associés aux données que vous communiquez, et vous pouvez choisir entre rendre public votre nom d’utilisateur ou d’utilisatrice et garder l’anonymat.
+why-demographic-explanation-2 = Les données utilisateur anonymes comme l’âge, le genre, et l’accent particulier contribuent à améliorer les données audio utilisées pour entraîner et rendre plus pertinents les moteurs de reconnaissance vocale. Votre nom d’utilisateur ou d’utilisatrice et votre adresse e-mail ne seront jamais associés aux données que vous communiquez, et vous pouvez choisir entre rendre public votre nom d’utilisateur ou d’utilisatrice et garder l’anonymat.
 accept-privacy = J’accepte que vous utilisiez ces informations conformément à la <privacyLink>Politique de confidentialité</privacyLink> de Mozilla
 accept-privacy-title = Politique de confidentialité
 login-identity = Identité de connexion
 login-signup = Se connecter / S’inscrire
 edit = Modifier
-email-subscriptions = Abonnements par courriel
+email-subscriptions = Abonnements par e-mail
 download-profile = Télécharger mes données
 contribution-experience = Expérience de contribution
 skip-submission-feedback = Passer l’envoi de commentaires
@@ -423,7 +423,7 @@ help-variants-explanation = Les variantes linguistiques sont une forme spécifiq
 browse-file-title = Envoyer une image
 browse-file = Glissez-déposez ou bien <browseWrap>Parcourez</browseWrap>
 connect-gravatar = Connectez-vous avec Gravatar
-gravatar_not_found = Impossible de trouver un Gravatar associé à votre adresse électronique
+gravatar_not_found = Impossible de trouver un Gravatar associé à votre adresse e-mail
 file_too_large = Le fichier sélectionné est trop volumineux
 avatar-uploaded = Avatar envoyé
 max-file-size = { $kb } ko max
@@ -432,10 +432,10 @@ remove-avatar = Supprimer l’avatar
 ## Profile - Email
 
 manage-subscriptions = Gérer vos abonnements
-manage-email-subscriptions = Gérer les abonnements aux courriels
-email-already-used = Cette adresse électronique est déjà utilisée par un compte différent
+manage-email-subscriptions = Gérer les abonnements aux e-mails
+email-already-used = Cette adresse e-mail est déjà utilisée par un compte différent
 add-language = Ajouter une langue
-change-email-setings = Modifiez votre adresse de courriel dans les Préférences, section « Identité de connexion »
+change-email-setings = Modifiez votre adresse e-mail dans les Préférences, section « Identité de connexion »
 
 ## FAQ
 
@@ -546,7 +546,7 @@ about-clip-graveyard-text = Le cimetière des échantillons est constitué d’�
 about-get-involved = Participer
 about-get-involved-text-2 =
     Vous voulez aider à améliorer Common Voice ?
-    Super ! Contactez-nous par courriel ou bien sur les forums <discourseLink>Discourse</discourseLink>,
+    Super ! Contactez-nous par e-mail ou bien sur les forums <discourseLink>Discourse</discourseLink>,
     signalez des problèmes sur <githubLink>GitHub</githubLink>,
     ou rejoignez la discussion communautaire sur <matrixLink>Matrix</matrixLink>.
 about-stay-in-touch = Comment rester en contact ?
@@ -724,8 +724,8 @@ cv-license = Licence
 audio-format = Format audio
 number-of-voices = Nombre de voix
 splits = Répartition
-email-to-download = Saisissez votre adresse électronique pour accéder au téléchargement
-why-email = <b>Pourquoi demandons-nous une adresse électronique ?</b> Nous aurons peut-être besoin de vous contacter plus tard pour des modifications du jeu de données, votre adresse électronique nous le permettra.
+email-to-download = Saisissez votre adresse e-mail pour accéder au téléchargement
+why-email = <b>Pourquoi demandons-nous une adresse e-mail ?</b> Nous aurons peut-être besoin de vous contacter plus tard pour des modifications du jeu de données, votre adresse e-mail nous le permettra.
 confirm-size = Vous vous apprêtez à lancer un téléchargement de <b>{ $size }</b>
 size-gigabyte = Go
 size-megabyte = Mo
@@ -766,9 +766,9 @@ dataset-version = Version
 ## Download Modal
 
 download-title = Votre téléchargement a démarré.
-download-helpus = Aidez-nous à rassembler une communauté autour des technologies vocales, restons en contact via courrier électronique.
+download-helpus = Aidez-nous à rassembler une communauté autour des technologies vocales, restons en contact via e-mail.
 download-form-email =
-    .label = Saisissez votre adresse électronique
+    .label = Saisissez votre adresse e-mail
     .value = Merci, nous prendrons contact avec vous.
 download-back = Retourner aux jeux de données Common Voice
 download-no = Non merci
@@ -1009,8 +1009,8 @@ activity-needed-calculation-plural =
 how-many-per-day = Génial ! Combien d’échantillons par jour ?
 how-many-a-week = Génial ! Combien d’échantillons par semaine ?
 which-goal-type = Voulez-vous parler, écouter ou faire les deux ?
-receiving-emails-info = Vous allez recevoir des courriels tels que des rappels d’objectifs, des rapports sur vos progrès et les lettres d’information de Common Voice.
-not-receiving-emails-info = Vous n’allez <bold>PAS</bold> recevoir des courriels tels que des rappels d’objectifs, des rapports sur vos progrès et les lettres d’information de Common Voice.
+receiving-emails-info = Vous allez recevoir des e-mails tels que des rappels d’objectifs, des rapports sur vos progrès et les lettres d’information de Common Voice.
+not-receiving-emails-info = Vous n’allez <bold>PAS</bold> recevoir d’e-mails tels que des rappels d’objectifs, des rapports sur vos progrès et les lettres d’information de Common Voice.
 n-clips-pluralized =
     { NUMBER($count) ->
         [one] { $count } échantillon
@@ -1082,7 +1082,7 @@ download-request-link-single = Vous pouvez également copier et coller les liens
 
 welcome-staff = Bienvenue au personnel de { $company } !
 help-contribute = Vous pouvez aider à créer un jeu de données open source et diversifié en créant un profil Common Voice et en faisant don de votre voix.
-login-company = Connexion / Inscription avec l’adresse électronique de { $company }
+login-company = Connexion / Inscription avec l’adresse e-mail de { $company }
 profile-not-required = Créer un profil n’est pas nécessaire pour contribuer, mais c’est utile
 read-more-about = Pour en savoir plus lisez notre page À propos
 
@@ -1108,7 +1108,7 @@ demo-account = Compte
 demo-account-card-header = Il n’est pas nécessaire de disposer d’un compte pour contribuer, mais c’est utile.
 demo-account-card-body = À droite, nous décrivons les avantages et précisons quelles informations nous rendons publiques. Utilisez les liens ci-dessous pour créer un compte Common Voice sur votre appareil.
 demo-account-enter-email =
-    .label = Saisissez un courriel pour envoyer un lien d’inscription
+    .label = Saisissez une adresse e-mail pour envoyer un lien d’inscription
 demo-account-sign-up = Envoyer le lien d’inscription
 
 ## Demo Contribute
