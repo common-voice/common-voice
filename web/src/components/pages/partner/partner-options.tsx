@@ -15,7 +15,7 @@ export const PARTNER_OPTIONS = [
       ),
       emailFragment: (
         <a
-          href="mailto:commonvoice@mozilla.com?subject=Partnership - community"
+          href="mailto:commonvoice@mozilla.com?subject=Community partnership"
           target="_blank"
           rel="noreferrer">
           get in touch.
@@ -41,7 +41,7 @@ export const PARTNER_OPTIONS = [
     elems: {
       emailFragment: (
         <a
-          href="mailto:commonvoice@mozilla.com?subject=Partnership - governments"
+          href="mailto:commonvoice@mozilla.com?subject=Government partnership"
           target="_blank"
           rel="noreferrer">
           get in touch.
@@ -54,7 +54,7 @@ export const PARTNER_OPTIONS = [
     elems: {
       emailFragment: (
         <a
-          href="mailto:commonvoice@mozilla.com?subject=Partnership - academics"
+          href="mailto:commonvoice@mozilla.com?subject=Academic partnership"
           target="_blank"
           rel="noreferrer">
           reach out.
@@ -67,7 +67,7 @@ export const PARTNER_OPTIONS = [
     elems: {
       emailFragment: (
         <a
-          href="mailto:commonvoice@mozilla.com?subject=Partnership - business"
+          href="mailto:commonvoice@mozilla.com?subject=Business partnership"
           target="_blank"
           rel="noreferrer">
           hear from you.
@@ -80,7 +80,7 @@ export const PARTNER_OPTIONS = [
     elems: {
       emailFragment: (
         <a
-          href="mailto:commonvoice@mozilla.com?subject=Partnership - corporates"
+          href="mailto:commonvoice@mozilla.com?subject=Corporate partnership"
           target="_blank"
           rel="noreferrer">
           drop us a line.

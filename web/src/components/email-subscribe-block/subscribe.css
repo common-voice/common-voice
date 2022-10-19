@@ -65,7 +65,7 @@
         background-size: cover;
 
         &.light.partnerships {
-            background-image: url('images/email-bg-partnerships-small.png');
+            background-image: url('images/email-bg-partnerships-mobile.jpg');
         }
 
         &.light {
