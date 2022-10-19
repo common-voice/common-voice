@@ -3879,6 +3879,7 @@ And her father was a rake.
 And her voice sank into a solemn whisper, pathetically ludicrous.
 And her voice was feverish.
 And here are the contemporary novelists.
+And here is a best of collection of recorded microphone screams.
 And here she sobbed too.
 And here's another idea.
 And here, she is seized with an inspiration.
@@ -8933,6 +8934,7 @@ Do you have an estate car, or a saloon?
 Do you have an example of a failed state?
 Do you have an iPhone charger?
 Do you have any evidence for that idea?
+Do you have any experience working with git or github?
 Do you have any facts about the school?
 Do you have any green tea?
 Do you have granddaddy's cell phone or just his home number?
@@ -11492,6 +11494,7 @@ Have you ever been there?
 Have you ever been to Cairo?
 Have you ever been to Wales?
 Have you ever earned a dollar by your own labour.
+Have you ever gone camping before?
 Have you ever got a spare afternoon?
 Have you ever heard of Market Snodsbury Grammar School?
 Have you ever made a speech, Bertie?
@@ -16982,6 +16985,7 @@ I am in a position to explain that, sir.
 I am in command, remember.
 I am in command, you know.
 I am in favour of good manners.
+I am indebted to several friends for notes, observations, and correspondence on this subject.
 I am indebted to your kindness, thank you!.
 I am indifferent to the idea.
 I am informed had made what they called tomahawk rights.
@@ -47147,6 +47151,7 @@ What are your hours of operation?
 What are your interests?
 What are your pronouns?
 What are your recommendations?
+What are your thoughts on software development?
 What arises from discretion must be honoured.
 What aspect of the film moved you emotionally?
 What astonishes me is that anyone can do it.
@@ -49354,6 +49359,7 @@ Would you like to have me explain that thing to you?
 Would you like to renew your subscription?
 Would you like to share an orange with me?
 Would you like to talk to someone?
+Would you like to watch a movie tonight?
 Would you like to, or should I?
 Would you like your cod fried in batter?
 Would you marry her if she were a poor man's daughter?
