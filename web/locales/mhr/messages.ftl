@@ -726,6 +726,7 @@ datasets-positioning =
     
     Тиде велыжым почмо тӱҥалтыш код дене моло йӱкан датасет-влаклан справкым пуышо рӱдер да, Common Voice эре кушкын толмылан кӧра, мемнан лукмаш уэмдымашлан пӧрт семын ончал.
 language = Йылме
+download-dataset-header = Датасетым тулен налаш
 # File size in gigabytes
 size = Кугыт
 validated-hr-total = Чыла чынлыме шагат
