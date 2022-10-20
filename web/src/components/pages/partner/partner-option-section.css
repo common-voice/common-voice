@@ -13,21 +13,22 @@
 
 .partner-options-text-container {
     flex: 0.8;
+
+    @media (--lg-up) {
+        width: 650px;
+    }
 }
 
-.partner-options-text-container h3 {
-    font-size: 24px;
+.partner-options-text-container .partner-option-title {
+    font-size: var(--font-size-lg);
     font-weight: 400;
     text-align: left;
     margin-bottom: 16px;
 }
 
-.partner-options-text-container p {
+.partner-options-text-container .partner-option-content {
     text-align: left;
     font-weight: 400;
-    @media (--lg-up) {
-        width: 650px;
-    }
 }
 
 .partner-options-text-container a {
