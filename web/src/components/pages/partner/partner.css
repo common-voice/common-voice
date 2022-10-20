@@ -17,6 +17,10 @@
 
     & .partnerships-header-text {
         margin: 0px 20px 40px 20px;
+
+        @media (--lg-up) {
+            width: 566px;
+        }
     }
 
     & .page-heading {
@@ -49,11 +53,9 @@
 
         @media (--xs-down) {
             font-size: 18px;
-            width: 355px;
         }
 
         @media (--lg-up) {
-            width: 566px;
             font-size: 24px;
         }
     }
@@ -98,13 +100,9 @@
 .partnerships-section {
     margin-bottom: 40px;
 
-    @media (--lg-only) {
-        height: 550px;
-    }
-
     @media (--md-up) {
         background: url('./images/waves.png');
-        background-size: cover;
+        background-size: 100% 100%;
     }
 
     @media (--xs-down) {
@@ -115,14 +113,23 @@
     }
 }
 
-.become-a-partner-container,
-.our-partners-container {
+.become-a-partner-container {
     max-width: 80rem;
     text-align: center;
+    display: flex;
+    flex-direction: column;
 
     @media (--md-up) {
         margin: 0 auto;
         padding: 2rem 4rem;
+    }
+}
+
+.our-partners-container {
+    @media (--md-up) {
+        max-width: 80rem;
+        padding: 2rem 4rem;
+        margin: 0 auto;
     }
 }
 
@@ -132,10 +139,15 @@
     }
 }
 
-.become-a-partner-container h2,
-.our-partners-container h2 {
+.become-a-partner-container .section-heading-text {
     font-size: 36px;
     margin-bottom: 32px;
+}
+
+.our-partners-container .section-heading-text {
+    font-size: 36px;
+    margin-bottom: 32px;
+    text-align: center;
 }
 
 .become-a-partner-options {
@@ -149,20 +161,23 @@
 }
 
 .our-partners-images-container {
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    grid-column-gap: 80px;
-    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 
-    @media (--md-only) {
-        grid-template-columns: repeat(3, 200px);
-        grid-row-gap: 30px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+
+    row-gap: 20px;
+
+    @media (--lg-up) {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        grid-column-gap: 80px;
+        align-items: center;
     }
 
     @media (--xs-down) {
-        margin: 0px 20px 60px 20px;
-        grid-template-columns: repeat(3, 50px);
-        grid-column-gap: 70px;
-        grid-row-gap: 30px;
+        width: 65%;
     }
 }

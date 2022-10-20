@@ -39,7 +39,9 @@ const Partner = () => (
     <section className="become-a-partner-section">
       <div className="become-a-partner-container">
         <Localized id="partnerships-become-a-partner">
-          <h2>Become a Common Voice Partner</h2>
+          <h2 className="section-heading-text">
+            Become a Common Voice Partner
+          </h2>
         </Localized>
         <div className="become-a-partner-options">
           {PARTNER_OPTIONS.map(option => (
@@ -54,7 +56,7 @@ const Partner = () => (
     </section>
     <section className="our-partners-section">
       <div className="our-partners-container">
-        <h2>Our Partners</h2>
+        <h2 className="section-heading-text">Our Partners</h2>
         <div className="our-partners-images-container">
           <img
             src={require('./images/partners/giz.png')}
