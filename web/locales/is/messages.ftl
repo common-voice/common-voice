@@ -714,6 +714,10 @@ datasets-positioning =
     
     Þú getur litið á þessa síðu sem miðlæga upplýsingasíðu fyrir önnur opin raddgagnasöfn og - samhliða því sem Samrómur vex - sem heimasíðu okkar fyrir fréttir af uppfærslum og útgáfum.
 language = Tungumál
+download-dataset-header = Sækja gagnasettið
+download-delta-explainer = Við höfum gert nokkrar breytingar. 'Delta Segments' innihalda bara nýjustu upptökurnar síðan í síðustu útgáfu. <deltaLink>Lestu meira um þetta</deltaLink>.
+download-dataset-tag = Veldu tungumálagagnasettið sem þú vilt og veldu þá útgáfu sem þú vilt sækja.
+download-dataset-access = Ertu að leita að fyrri útgáfum gagnasafna? Sendu tölvupóst á <emailLink> { $email } </emailLink>
 # File size in gigabytes
 size = Stærð
 validated-hr-total = Staðfestar klst.
