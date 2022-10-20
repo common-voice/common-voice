@@ -20,10 +20,12 @@ export const PartnerOptionSection: React.FC<PartnerOptionProps> = ({
       />
       <div className="partner-options-text-container">
         <Localized id={`partnerships-${option}-header`}>
-          <h3>Community, Creatives and Civil Society</h3>
+          <h3 className="partner-option-title">
+            Community, Creatives and Civil Society
+          </h3>
         </Localized>
         <Localized id={`partnerships-${option}-description`} elems={elems}>
-          <p />
+          <p className="partner-option-content" />
         </Localized>
       </div>
     </div>
