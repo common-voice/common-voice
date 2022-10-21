@@ -25,22 +25,23 @@ const buildResponse = (data: any) => {
 };
 
 export const getTableStatistics = lazyCache(
-  'get-table-statistics',
+  'get-table-statistic2sxx1x1',
   async (tableName: TableNames) => {
     const { total_count } = (await getTotal(tableName))[0];
     const monthly_count = await getMonthlyContributions(tableName);
 
-    const monthlyContributions = monthly_count.map(row => {
-      return { [row.date]: row.total_count };
-    });
+    const monthlyContributions = monthly_count.reduce((obj: any, row) => {
+      obj[row.date] = row.total_count;
+      return obj;
+    }, {});
 
     let currentSum = 0;
-    const monthly_running_totals = monthly_count.map(row => {
+    const monthly_running_totals = monthly_count.reduce((obj: any, row) => {
       const diff = total_count - currentSum;
       currentSum += row.total_count;
-      const date = row.date;
-      return { [date]: diff };
-    });
+      obj[row.date] = diff;
+      return obj;
+    }, {});
 
     return buildResponse({
       total_count,
