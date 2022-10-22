@@ -14,6 +14,10 @@ email-opt-in-info-sub-with-challenge = برېښنالیکونه ترلاسه ک�
 email-opt-in-privacy-v2 = د برېښنالیکونو ترلاسه کولو په غوره کولو سره تاسو څرګندوئ چې تاسو د موزیلا سره د دا مالوماتو په سمبالولو کې جوړ یاست لکه څنګه چې د موزیلا <privacyLink> د پټتیا تګلاره </privacyLink> کې تشریح شوي.
 indicates-required = * اړینې ساحې په ګوته کوي
 not-available-abbreviation = د پلي کیدلو نه دی
+banner-error-slow-1 = بخښنه غواړو، عام غږ ورو دی. ستاسو د علاقې څخه مننه.
+banner-error-slow-2 = موږ د ډیرې ګڼه‌ګوڼې سره مخ یوو او دا مهال د مسلو څیړنه کوو.
+banner-error-slow-link = د وضعیت پاڼه
+error-something-went-wrong = بخښنه غواړو، یو څه وران شوه
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -36,9 +40,9 @@ ba = بشکیري
 bas = باسا
 be = بلاروسي
 bg = بلغاریه ایی
-bm = بامبارایی
 bn = بنګالي
 br = بریټانوي
+bs = بوسنیایي
 bxr = بوریاټي
 ca = کتالوني
 cak = کاکچیل
@@ -52,6 +56,7 @@ da = دنمارکي
 de = جرمني
 dsb = سوربیني، ښکته
 dv = دیویهي
+dyu = دیولا
 el = یوناني
 en = انګریزي
 eo = ایسپیرینټوي
@@ -67,20 +72,26 @@ fy-NL = فريشاني
 ga-IE = ایرلینډي
 gl = ګالیسي
 gn = ګوراني
+gom = ګوان کونکاني
 ha = هوسا
 he = عبري
 hi = هندي
+hil = هیلیګینون
 hr = کرواسیني
 hsb = سوربیني، پورته
+ht = هایتي
 hu = هنګري
 hy-AM = ارمانیایي
 hyw = ارمنیایي لویدیځ
 ia = انټرلنډي
 id = انډونیزیايي
+ie = انټرلنډي
+ig = ایګبو
 is = ایلینډي
 it = ایټالیوي
 izh = ایزوریاني
 ja = جاپاني
+jbo = لوجبان
 ka = ګرجستاني
 kaa = کراکلاک
 kab = کبیل
@@ -281,7 +292,6 @@ shortcut-record-toggle-label = ثبتول/ودرول
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = کليپ له سره ثبت کړئ
 request-language-text = ایا خپله ژبه مو تراوسه په عام غږ کې نه وینئ؟
-request-language-text-learn = دلته يې د غوښتلو څرنګوالی زده کړئ!
 request-language-button = د يوې ژبې غوښتنه وکړئ
 
 ## ProjectStatus
@@ -353,26 +363,17 @@ skip-submission-description = د مرستې سپارلو پرمهال به د '�
 skip-submission-note = یادونه: تاسو به اړ یاست چې د مرستې ډول بدلولو لپاره د خبرو یا اوریدو تر مینځ غوره کړئ.
 off = بند
 on = چلاند
-avatar-clip-title = خپل اویتار ته غږ ورکړئ
-change-your-avatar-clip = ایا غواړئ خپل غږ کلیپ بدل کړئ؟
-recording-in-progress = د غږ ثبتول روان دي
-avatar-clip-recorded = ستاسو اویتار اوس د غږ کليپ لري!
-record-voice-wave = VOICEWAVE ثبت کړئ
-retry-voice-wave-recording = بیا کوښښ وکړئ
-re-record = بیا-ثبت کړئ
-delete-voice = ړنګ کړئ
-recording-voice-wave = ثبت
-delete-voice-clip = یا    غږ کلیپ ړنګ کړئ
-ready-to-upload = اپلوډ کړئ
-avatar-clip-fact = دا یو اوږد بنسټیز حقیقت دی چې د لوستونکې پام به د یوې پاڼې د لوستلو وړ مینځپانګې لخوا ګډوډیږي کله چې د هغې هډوانې ته ګوري.
-recreate-voice = د غږ څپې بیارامینځته کړئ
-cancel-avatar-clip-recording = ړنګونه
-about-avatar-clip-recording = د خپل پېژنیال اویتار برخې په توګه غږیز کلیپ جوړ کړئ. نور به وتوانیږي چې د خپل کلیک له پاسه تېرولو سره يې واوري.
+
+## Profile - Email
+
 browse-file-title = د انځوریزه دوتنه اپلوډ کړئ
 browse-file = راکش او خوشي کړئ یا <browseWrap> ولټوئ </browseWrap>
 connect-gravatar = د ګریویتار سره وصل شئ
 gravatar_not_found = ستاسو د برېښنالیک لپاره هیڅ ګریویتار ندی موندل شوی
 file_too_large = ټاکل شوې دوتنه خورا لویه ده
+
+## Profile - Email
+
 manage-subscriptions = ګډونونه سمبال کړئ
 manage-email-subscriptions = د برېښنالیک ګډونونه سمبال کړئ
 email-already-used = برېښنالیک لا دمخه د مختلف ګڼون لپاره کارول شوی
@@ -409,7 +410,6 @@ faq-why-different-speakers-a =
     ډیری د وینا ډېټابیسونه ځانګړي ډیموګرافیکو ته په یوې زیاتې ونډې ورکولو سره روزل شوي چې پایله یې د <articleLink> نارینه او متوسطې طبقې </articleLink> په لور تعصب رامینځته کول دي. تلفظونه او لهجې چې د روزنې ډېټا سیټونو کې يې لږ استازیتوب کیږي معمولا د هغو خلکو ډلو سره تړاو لري چې لا دمخه له پامه غورځول شوي دي. ډیری ماشینونه د ښځینه غږونو پوهیدو کې هم ستونزه لري.
     له همدې امله زموږ په غږ ډېټابیس کې موږ راز راز والی غواړو!
 faq-why-my-lang-q = ولې لاهم زما ژبه ګډون نه لري؟
-faq-why-my-lang-new-a = موزیلا یوه ژبه تر بلې ژبې نه خوښوي یا يې غوره نه ګڼي. پرځای یې، عام غږ په سوچه ډول د ټولنې پر مټ نوښت دی، مګر <multilangLink> د نوې ژبې اضافه کولو لپاره څو ګامونه </multilangLink> اخلي او د غږیزو مرستو راټولولو پیل کوي. لومړی، د عامه غږ ویب پاڼه باید وژباړل شي ترڅو د ټولنې غړي وکولی شي په خپله ژبه کې د مرسته کوونکو تجربې ته لاسرسی ومومي. بیا، موږ د کاپي-کولو-حق څخه خوندي جملو لوی ټولګې ته اړتیا لرو چې خلک يې په لوړ غږ ولولي. یوځل چې دا دواړه غوښتنې پوره شوې نو یوه ژبه په عام غږ کې د خلکو لپاره "په لاره اچول" کیږي ترڅو دوی خپل غږ ثبت کړي او د نورو مرستې تایید کړي. که تاسو غواړئ د نوې ژبې په پیلولو کې مرسته وکړئ، نو د پیلولو لپاره زموږ <sentenceCollectorLink> د جملو راټولولو الې </sentenceCollectorLink> ته لاړشئ.
 faq-what-quality-q = په ډېټاسیټ کې د غږ کلیپ کارولو لپاره د غږ یز کلیپ د کومې کچې کیفیت اړین دی؟
 faq-what-quality-a = موږ د عام غږ ډېټاسیټ غواړو چې د وینا-څخه-متن ته د انجن هغه آډیو کیفیت چې هر ځای اوریدل کیږي منعکس کړي، نو موږ د ډولونو په لټه کې یو. د ویونکو د متنوع ټولنې سربیره، مختلف آډیو کیفیت لرونکی ډېټاسیټ به د وینا-څخه-متن ته انجن د رېښتني-نړۍ مختلف حالاتو سمبالول وروښیې، په شالید کې د خبرې کولو څخه نیولي د موټر تر شوره پورې. تر هغه چې ستاسو غږیز کلیپ د پوهیدو وړ وي، دا باید د ډېټاسیټ لپاره ښه وي.
 faq-why-10k-hours-q = ولې د آډیو اخیستلو لپاره د ژبې موخه 10,000 تایید ساعتونه دي؟
@@ -442,12 +442,10 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = ولې عام غږ
-about-subtitle = عام غږ د موزیلا د نوښت برخه ده چې مرسته کوي ماشینونو ته وښووي چې ریښتیني خلک څنګه خبرې کوي. د ګډ غږ ډېټاسیټ سربیره، موږ د آزاد کوډ وینا پېژندنې انجن هم جوړوو چې ژوره وینا نومیږي.
-about-header-description =
-    دا دواړه پروژې زموږ د هڅو برخې دي چې د ډیجیټل ویناو وېش وتړي. د غږ پېژندنې ټیکنالوژي زموږ وسیلو ته انساني اړخ ورکوي، مګر پراخندوي د دوی جوړولو لپاره د غږ ډېټا ډیرو اندازو ته اړتیا لري. اوس مهال، د دې ډېټا ډیری يې ګرانه او ملکیتي ده.
-    موږ غواړو د غږ ډېټا په آزاده او عامه ډول چمتو کړو، او ډاډ ترلاسه کړو چې ډېټا د ریښتیني خلکو متنوع استازیتوب کوي. په ګډه سره موږ کولی شو د هرچا لپاره د غږ پېژندنه ښه کړو.
-how-does-it-work-title = دا څنګه کار کوي؟
 how-does-it-work-text = موږ د غږونو آزادې سرچینې ډېټاسیټ په اشر جوړ وو. خپل غږ ډالۍ کړئ، د نورو خلکو کلیپونو دقت سم کړئ، ډېټاسیټ د هرچا لپاره ښه کړئ.
+
+## How does it work section
+
 about-speak = وغږیږئ
 about-speak-text = مرسته کوونکي د بسپنه شوي جملو د بانک له لوستلو څخه غږیز کليپونه ثبتوي.
 about-listen-queue = واورئ - کتار
@@ -464,12 +462,6 @@ about-dataset-new = عام غږ ډېټاسیټ
 about-dataset-new-text = د عام غږ ډېټاسیټ په سلهاو زره غږیزې نمونې لري چې پراخندويو سره د غږ پېژندنې الو په رامینځته کولو کې مرسته کوي.
 about-clip-graveyard = د کليپ هدیره
 about-clip-graveyard-text = د کلیپ هدیره د غږ هغه کلیپونه لري چې د عام غږ ډېټاسیټ کې ځای ندی ورکړل شوی. د ډېټاسیټ په څیر، د کلیپ هدیره د ډاونلوډ لپاره شتون لري.
-about-partners = شریکان
-about-become-a-partner = ملګری شئ
-about-partnership =
-    عام غږ یوه د همکارۍ پروژه ده، او موږ د خپلو شریکانو او مرسته کونکو ټولنې پورې اړه لرو چې د غږونو تر دې دمه ترټولو لوی د آزادې سرچینې ډېټاسیټ رامینځته کړي.
-    
-    موږ د لاندې خلکو او سازمانونو څخه د پروژې لپاره د دوی د مرستې مننه کوو:
 about-get-involved = ونډه واخلئ
 about-get-involved-text-2 =
     ایا غواړئ د عام غږ لا ښه کولو کې مرسته وکړئ؟
@@ -479,12 +471,34 @@ about-nav-why-common-voice = ولې؟
 about-nav-how-it-works = څنګه؟
 about-nav-partners = شریکان
 about-nav-get-involved = ونډه واخلئ
-mycroft-title = مایکروفټ Ai
-mycroft-subtitle = مصنوعي ځېرمنتیا
-mycroft-description =
-    مایکروفټ د نړۍ لومړی آزادې سرچینې مرستیال دی.
-    مایکروفټ هر چیرې چلیږي - په ډیسکټاپ کمپیوټر کې، د موټرو دننه، یا په یوه راسبيري پای کې.
-mycroft-secondary-description = دا د آزادې سرچینې سافټویر دی کوم چې په آزاد ډول بیاګډ، غځول، او ښه کیدی شي. مایکروفټ د ساینس پروژې څخه تر یوې ستر‌شرکت سافټویر کاریالونو پورې ممکن په هرڅه کې وکارول شي.
+
+## Community Playbook Content
+## What is a language
+
+
+## How do I add a language
+
+
+## How does localization work
+
+
+## How to add sentences
+
+
+## How to record quality
+
+
+## How to grow language
+
+
+## How to validate
+
+
+## How to access dataset
+
+
+## How are decisions made
+
 
 ## Glossary
 
@@ -578,8 +592,6 @@ subscribe = ګډون وکړئ
 get-started-speech = وینا پېژندنې باندې پیل وکړئ
 other-datasets = نور غږیز ډېټاسیټونه ...
 feedback-q = غبرګون لرئ؟
-deepspeech-info = د عام غږ ډېټاسیټ د موزیلا د آزاد کوډ غږ پیژندنې انجن ژوره وینا بشپړوي، کوم چې تاسو کولی شئ د وینا پیژندنې کاریالونو رامینځته کولو لپاره وکاروئ. زموږ د <githubLink> ګیټ هب عمومي کتنه </githubLink> ولولئ یا د پیل کولو څرنګوالي لپاره <discourseLink> DeepSpeech </discourseLink> کې شامل شئ.
-common-voice-info-new = د ګډ غږ په اړه پوښتنې لرئ؟ د یوې ځانګړې ژبې په اړه د اصلاحاتو یا غبرګون لپاره نظریې لرئ؟ موږ سره زموږ <discourseLink> خبرو اترو فورم</discourseLink> کې ګډون وکړئ او موږ ته خبر راکړئ.
 data-other-librispeech-description = LibriSpeech د 16Khz نږدې 1000 ساعتونو انګلیسي ژبې لیک ټولګه ده چې د LibriVox پروژې څخه د لوستل شوي غږیز کتابونو څخه اخیستل شوي.
 data-other-ted-name = د ټیډ - لیم لیک ټولګه
 data-other-ted-description = د TED-LIUM لیک ټولګه د غږیزو خبرو او د دوی له لیکنو چې د TED ویب پاڼې کې يې شتون درلود جوړ شوی.
@@ -624,6 +636,9 @@ request-language-success-content = موږ به د نورو مالوماتو سر
 select-language = یوه ژبه وټاکئ...
 other-language = بله ژبه
 
+## Request Language Pages
+
+
 ## Languages Overview
 
 language-section-in-progress = د پرمختګ په حال کې
@@ -639,7 +654,6 @@ language-search-input =
 language-speakers = ويناوال
 localized = سېمیزي ژبې ته ژباړل شوی
 sentences = جملې
-total-hours = تایید شوي ساعتونه
 
 ## Contribution
 
@@ -858,6 +872,9 @@ why-delete-recordings =
     ایا تاسو کولی شئ موږ ته ووایاست چې ولې تاسو غواړئ خپل ثبتونه ړنګ کړئ؟
 profile-form-delete = پېژنیال ړنګ کړئ
 
+## Profile Download
+
+
 ## Landing
 
 welcome-staff = ښه راغلاست { $company } کارمنانو!
@@ -901,3 +918,62 @@ demo-listen-subtitle = د مرستې لپاره چمتو یاست؟
 
 demo-dashboard-card-header = شخصي ډشبورډونه تاسو د انفرادي او ټولنېز پرمختګ څخه تازه خبر ساتي.
 demo-dashboard-card-body = د هر غږیز کلیپ چې ډالۍ شوی، او هر غږیز کلیپ چې تایید شوی، ستاسو د ګڼون ډشبورډونه سمسوریږي ترڅو په هره ژبه کې چې تاسو ورسره مرسته کوئ ستاسو وروستی پرمختګ منعکس کړي. هو، تاسو کولی شئ له یوې څخه ډیرو کې برخه واخلئ! <br/><br/> د خپلو ارقامو تعقیب لپاره ډشبورډونه وکاروئ، وګورئ چې تاسو څنګه په ټولنه کې د نورو تر څنګ کار کوئ، او ورځني یا د اوونۍ د مرستې موخې وټاکئ.
+
+## Validation criteria
+
+
+# Don't rename the following section, its contents are auto-inserted based on the name. These strings are
+# automatically exported from Sentence Collector.
+# [SentenceCollector]
+
+
+## HEADER/FOOTER
+
+
+## HOME
+
+
+## GENERAL
+
+
+## HOW-TO
+
+
+## MY SENTENCES
+
+
+## REJECTED
+
+
+## STATS
+
+
+## ADD
+
+
+## ADD LANGUAGE
+
+
+## ADD SENTENCES CONFIRMATION
+
+
+## LANGUAGE INFO
+
+
+## LOGIN
+
+
+## PROFILE
+
+
+## REVIEW CRITERIA
+
+
+## REVIEW
+
+
+## SETTINGS
+
+
+# [/SentenceCollector]
+
