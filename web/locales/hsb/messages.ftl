@@ -691,6 +691,8 @@ datasets-positioning =
     
     Mějće tutu stronu jako referencny dypk za druhe hłosowe datowe sadźy wotewrjeneho žórła a, dokelž Common Voice dale rosće, jako startowy dypk za naše najnowše aktualizacije.
 language = Rěč
+download-dataset-header = Datowu sadźbu sćahnyć
+download-dataset-tag = Wubjerće požadanu rěčnu datowu sadźbu a wersiju, kotruž chceće sćahnyć.
 # File size in gigabytes
 size = Wulkosć
 validated-hr-total = Wobkrućene hodźiny dohromady
