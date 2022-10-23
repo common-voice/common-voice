@@ -234,6 +234,7 @@ logout = وتل
 ## Home Page
 
 home-title = عام غږ د موزیلا نوښت دی چې مرسته کوي ماشینونو ته وښووي چې ریښتیني خلک څنګه خبرې کوي.
+default-tagline = د موزیلا عام غږ یو نوښت دی چې مرسته کوي ماشینونو ته وښووي چې ریښتیني خلک څنګه خبرې کوي.
 home-cta = خبرې وکړئ، دلته ونډه واخلئ!
 wall-of-text-start =
     غږ طبیعي دی، غږ انسان دی. له همدې امله موږ لیوال یو چې د ماشینونو لپاره د کارولو وړ غږیزه ټیکنالوژي رامینځته.
@@ -337,6 +338,10 @@ shortcut-record-toggle = r
 shortcut-record-toggle-label = ثبتول/ودرول
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = کليپ له سره ثبت کړئ
+shortcut-discard-ongoing-recording = ESC
+shortcut-discard-ongoing-recording-label = روان ثبتول رد کړئ
+shortcut-submit = بیرته راګرځيدل
+shortcut-submit-label = کليپونه وسپارئ
 request-language-text = ایا خپله ژبه مو تراوسه په عام غږ کې نه وینئ؟
 request-language-button = د يوې ژبې غوښتنه وکړئ
 
@@ -362,8 +367,16 @@ profile-form-native-language =
     .label = مورنۍ ژبه
 profile-form-additional-language =
     .label = اضافي ژبه
+profile-form-language =
+    .label = ژبه
+profile-form-variant =
+    .label = تاسو د { $language } کوم ډول خبرې کوئ؟
+profile-form-variant-default-value = هیڅ ډول نه دی غوره شوی
 profile-form-accent =
     .label = تلفظ
+profile-form-custom-accent-help-text =
+    .label = تاسو به څنګه خپل لهجه بیان کړئ؟
+profile-form-custom-accent-placeholder-2 = د خپلې لهجې تشریح کولو لپاره ټایپ کول پیل کړئ
 profile-form-age =
     .label = عمر
 profile-form-gender-2 =
@@ -374,6 +387,7 @@ hidden = پټ
 visible = څرګند
 native-language =
     .label = مورنۍ ژبه
+profile-form-add-accent = نوی دودیز لهجه اضافه کړئ "{ $inputValue }"
 profile-form-submit-save = خوندي کړئ
 profile-form-submit-saved = خوندي شو
 male = نر
@@ -409,6 +423,7 @@ skip-submission-description = د مرستې سپارلو پرمهال به د '�
 skip-submission-note = یادونه: تاسو به اړ یاست چې د مرستې ډول بدلولو لپاره د خبرو یا اوریدو تر مینځ غوره کړئ.
 off = بند
 on = چلاند
+help-accent = د لهجې سره یو څه مرستې ته اړتیا لرئ؟
 
 ## Profile - Email
 
