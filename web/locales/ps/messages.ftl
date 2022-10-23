@@ -375,8 +375,8 @@ profile-form-variant-default-value = هیڅ ډول نه دی غوره شوی
 profile-form-accent =
     .label = تلفظ
 profile-form-custom-accent-help-text =
-    .label = تاسو به څنګه خپل لهجه بیان کړئ؟
-profile-form-custom-accent-placeholder-2 = د خپلې لهجې تشریح کولو لپاره ټایپ کول پیل کړئ
+    .label = تاسو به څنګه خپل خجنښه بیان کړئ؟
+profile-form-custom-accent-placeholder-2 = د خپلې خجنښې تشریح کولو لپاره ټایپ کول پیل کړئ
 profile-form-age =
     .label = عمر
 profile-form-gender-2 =
@@ -387,7 +387,7 @@ hidden = پټ
 visible = څرګند
 native-language =
     .label = مورنۍ ژبه
-profile-form-add-accent = نوی دودیز لهجه اضافه کړئ "{ $inputValue }"
+profile-form-add-accent = نوی دودیز خجنښه اضافه کړئ "{ $inputValue }"
 profile-form-submit-save = خوندي کړئ
 profile-form-submit-saved = خوندي شو
 male = نر
@@ -423,7 +423,9 @@ skip-submission-description = د مرستې سپارلو پرمهال به د '�
 skip-submission-note = یادونه: تاسو به اړ یاست چې د مرستې ډول بدلولو لپاره د خبرو یا اوریدو تر مینځ غوره کړئ.
 off = بند
 on = چلاند
-help-accent = د لهجې سره یو څه مرستې ته اړتیا لرئ؟
+help-accent = د خجنښې سره یو څه مرستې ته اړتیا لرئ؟
+help-accent-explanation = ستاسو خجنښه ستاسو د کلمو تلفظولو طریقه ده. دا د هغه ځای چیرته چې تاسو ژوند کړی، په نورو کومو ژبو خبرې کوئ او ډیری نور عواملو له مخې کیدای شي بڼه واخلي. تاسو کولی شئ هر هغه معلومات شریک کړئ چې تاسو یې احساس کوئ دلته اړین دي.
+help-variants = د ډولونو سره یو څه مرستې ته اړتیا لرئ؟
 
 ## Profile - Email
 
