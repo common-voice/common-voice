@@ -1,4 +1,4 @@
-import React from 'react';
+import * as React from 'react';
 import { Localized } from '@fluent/react';
 
 import './partner-option-section.css';
