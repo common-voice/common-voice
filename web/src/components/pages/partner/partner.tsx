@@ -1,4 +1,4 @@
-import React from 'react';
+import * as React from 'react';
 import { Localized } from '@fluent/react';
 
 import Page from '../../ui/page';
@@ -13,7 +13,7 @@ import { PARTNER_OPTIONS } from './partner-options';
 import Subscribe from '../../email-subscribe-block/subscribe';
 
 const Partner = () => (
-  <Page className="partner-main-container">
+  <Page className="partner-main-container" dataTestId="partnerships-page">
     <section className="partnerships-section">
       <div className="partnerships-container">
         <div className="partnerships-header-text">
@@ -56,7 +56,9 @@ const Partner = () => (
     </section>
     <section className="our-partners-section">
       <div className="our-partners-container">
-        <h2 className="section-heading-text">Our Partners</h2>
+        <Localized id="partnerships-our-partners">
+          <h2 className="section-heading-text">Our Partners</h2>
+        </Localized>
         <div className="our-partners-images-container">
           <img
             src={require('./images/partners/giz.png')}

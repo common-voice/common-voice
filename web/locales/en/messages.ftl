@@ -1549,3 +1549,4 @@ partnerships-small-business-header = Small businesses, including tech and AI sta
 partnerships-small-business-description = We are always looking to hear from data consumers about their needs and context - from collaborating on data collection platform to providing data health insights, we want to <emailFragment>hear from you.</emailFragment>
 partnerships-corporates-header = Large scale corporates and platform companies
 partnerships-corporates-description = If you're looking to speak more about the dataset, want to co-invest in planned platform expansions or look for collaboration opportunities, <emailFragment>drop us a line.</emailFragment>
+partnerships-our-partners = Our Partners
