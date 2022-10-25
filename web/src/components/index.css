@@ -60,9 +60,13 @@ body,
     width: 100%;
     height: 100vh;
     max-height: 100%;
+}
 
-    @media (--md-down) {
-        overflow-y: auto;
+#main {
+    &.active {
+        @media (--md-down) {
+            overflow-y: auto;
+        }
     }
 }
 
