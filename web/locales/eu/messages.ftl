@@ -11,6 +11,7 @@ loading = Kargatzen…
 email-opt-in-info = Common Voice-ri buruzko helburuen abisuak, nire aurrerapenaren eguneraketak eta buletinak jaso nahi ditut posta elektroniko bidez.
 email-opt-in-info-title = Batu Common Voice posta-zerrendara
 email-opt-in-info-sub-with-challenge = Jaso posta elektroniko bidez Common Voice-ri buruzko helburuen abisuak, aurrerapenaren eguneraketak eta buletinak.
+email-opt-in-privacy-v2 = E-postak jaso nahi dituzula adieraziz, Mozillak zure informazioa kudeatzea onartzen duzula esan nahi du, Mozillaren <privacyLink>pribatutasun politikan<privacyLink> adierazten den erara.
 indicates-required = * ikurrak ezinbesteko eremua dela esan nahi du
 not-available-abbreviation = N/A
 banner-error-slow-1 = Barkatu, Common Voice orain geldo dabil. Zure interesa eskertzen dugu.
@@ -867,7 +868,7 @@ todays-recorded-progress = Common Voicen gaurko aurrerapena egindako grabazioeta
 todays-validated-progress = Common Voicen gaurko aurrerapena balioztatutako grabazioetan
 stats = Estatistikak
 awards = Sariak
-you = Zuk
+you = zu
 everyone = Denek
 contribution-activity = Gaurko jarduera
 top-contributors = Laguntzaile gogotsuenak
@@ -903,10 +904,10 @@ help-reach-hours-pluralized =
        *[other] { $hours } ordu
     } lortzen { $language } hizkuntzan helburu pertsonal batekin
 help-reach-hours-general-pluralized =
-    Lagundu Common Voice-ri { NUMBER($hours) ->
-        [one] { $hours } ordu
-       *[other] { $hours } ordu
-    }lortzen hizkuntza batean helburu pertsonal batekin
+    { NUMBER($hours) ->
+        [one] Lagundu Common Voice-ri { $hours } ordu lortzen hizkuntza batean helburu pertsonal batekin
+       *[other] Lagundu Common Voice-ri { $hours } ordu lortzen hizkuntza batean helburu pertsonal batekin
+    }
 set-a-goal = Ezarri helburu bat
 cant-decide = Ezin duzu erabaki?
 how-many-per-day = Primeran! Zenbat grabazio egunean?
