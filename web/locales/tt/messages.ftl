@@ -569,6 +569,11 @@ about-playbook-how-add-language-content-1 =
     Ике адым бар: сайтны тәрҗемә итү, җөмләләр туплау
 about-playbook-how-add-language-translating-heading = Сайтны тәрҗемә итү
 about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Pontoon-ны куллану тәртибе турындагы видеобызны карагыз</translateVideoLink>
+about-playbook-how-add-language-translating-content-2 =
+    Тәрҗемә өчен <pontoonLink>Pontoon</pontoonLink> дип аталучы Mozilla коралын кулланабыз. Pontoon-да бик күп телләр бар.
+    Әгәр Сезнеке юк икән, <pontoonRequestLink>телегезнең өстәлүен сорый аласыз</pontoonRequestLink>.
+    Аннары, телегез Common Voice проектында да кулланыла алсын өчен,
+    <githubRepoLink>GitHub-та яңа тел сорарга кирәк</githubRepoLink>. <localizationFragment>Сайт тәрҗемәсе турында күбрәк</localizationFragment>.
 about-playbook-how-add-language-collecting-sentences-heading = Җөмләләр туплау
 about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>Җөмләләр туплагычын ничек кулланылганын аңлатучы видеобызны карагыз</sentenceCollectorVideo>.
 about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>Җөмлә туплау турында күбрәк белү</sentenceCollectorFragment>.
