@@ -558,10 +558,15 @@ about-nav-playbook = Ничек катнашып булганын өйрәнег
 about-playbook-what-is-language = Common Voice-та тел нәрсә ул?
 about-playbook-what-is-language-content-1 = Тел турында уйлануның бик күп ысуллары бар. Сөйләм тану модельләрен үстерү максатына килгәндә, Common Voice "үзара аңлаешлылык"ка, ягъни "бу телдә сөйләшүчеләр бер-берсен аңлый алырлар идеме?" сорауына игътибар итәргә тәкъдим итә.
 about-playbook-what-is-language-content-2 = Сөйләм модельләренең төрлечә сөйләүчеләрне дә яхәырак аңлауларын телибез. Моның өчен тавышлы мәгълүмат тупланмаларының күп һәм төрле-төрле кешеләрне чагылдырырга тиеш.
+about-playbook-what-is-language-content-3 = Кайбер телләрнең грамматика, сүз байлыгы һәм әйтелеше ягыннан бер-берсеннән нык аерылучы вариантлары бар. Бу сәбәптән, без 2022 нче елда Common Voice-ка <ctaLink>«Вариантлар» дигән яңа үзенчәлек өстәргә булдык</ctaLink>. Бу үзенчәлек берләшмәләргә зуррак мәгълүматлар тупланмасы эченнән үз телләрен аерып алуны мөмкин итә.
 
 ## How do I add a language
 
 about-playbook-how-add-language = Телне ничек өсти алам?
+about-playbook-how-add-language-content-1 =
+    Иң әүвәл телегез <languageLink>инде өстәлгәнме-юкмы икәнен</languageLink> тикшерегез.
+    Өстәлмәгән булса, <languageRequestLink>телегезнең өстәлүен сорый</languageRequestLink> аласыз.
+    Ике адым бар: сайтны тәрҗемә итү, җөмләләр туплау
 about-playbook-how-add-language-translating-heading = Сайтны тәрҗемә итү
 about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Pontoon-ны куллану тәртибе турындагы видеобызны карагыз</translateVideoLink>
 about-playbook-how-add-language-collecting-sentences-heading = Җөмләләр туплау
