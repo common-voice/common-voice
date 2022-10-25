@@ -1100,6 +1100,8 @@ sc-submit-err-confirm-pd = Ji kerema xwe piştrast bikin ku ev hevok anonîm in.
 sc-submit-title = Hevokan tevlî bike
 sc-submit-select-language =
     .labelText = Zimên hilbijêre
+sc-submit-ph-one-per-line =
+    .placeholder = Serê rêzekê hevokek
 sc-submit-confirm = Ez piştrast dikim ku ev <wikipediaLink> hevokên anonîm ên </wikipediaLink>ê ne û destûra min a barkirinê heye.
 sc-submit-button =
     .submitText = Bişîne
@@ -1109,6 +1111,7 @@ sc-submit-button =
 sc-add-lang-could-not-add = Ziman nehat tevlîkirin
 sc-add-lang-sec-label = Zimanekî ku tu dixwazî beşdariyê lê bikî, tevlî bike
 sc-add-lang-sec-button = Zimên tevlî bike
+sc-add-err-submission = Çewtiya Şandinê
 
 ## ADD SENTENCES CONFIRMATION
 
@@ -1147,6 +1150,20 @@ sc-confirm-uploading = Hevok tên barkirin. Ev, girêdayî hejmara hevokên hati
 
 sc-lang-info-title-total = Giştî
 sc-lang-info-title-personal = Xebatên Te
+# Variables:
+#   $totalSentences (Number) - Number of sentences uploaded in total for this language
+sc-lang-info-total =
+    { $totalSentences ->
+        [0] Hevok tune.
+       *[other] Bi giştî { $totalSentences } hevok.
+    }
+# Variables:
+#   $totalInReview (Number) - Number of sentences currently in the review state for this language
+sc-lang-info-in-review =
+    { $totalInReview ->
+        [0] { "" }
+       *[other] { $totalInReview } hevok di kontrolê de ne.
+    }
 
 ## LOGIN
 
