@@ -42,7 +42,7 @@
     "@testing-library/user-event": "13.5.0",
     "@types/classnames": "2.3.1",
     "@types/jest": "27.4.1",
-    "@types/jest-axe": "3.5.4",
+    "@types/jest-axe": "3.5.5",
     "@types/lodash.memoize": "4.1.7",
     "@types/lodash.pick": "4.4.7",
     "@types/lodash.throttle": "4.1.7",
