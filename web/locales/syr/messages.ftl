@@ -204,6 +204,7 @@ shortcut-record-toggle-label = ܡܟܬܒ/ܟܠܝ
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = ܡܐܡܪܐ ܡܟܬܒ݂ ܐܚܪܢܐ
 shortcut-discard-ongoing-recording = ܩܕܝܠܐ ܕܢܦܩܐ ESC
+shortcut-discard-ongoing-recording-label = ܡܗܡܐ ܡܟܬܒܘܬܐ ܗܫܝܐ
 shortcut-submit = ܕܥܪ
 shortcut-submit-label = ܫܕܪ ܡܐܡܪ̈ܐ
 request-language-button = ܛܠܒ ܠܫܢܐ
