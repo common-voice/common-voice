@@ -61,25 +61,22 @@ const Partner = () => (
         </Localized>
         <div className="our-partners-images-container">
           <img
-            src={require('./images/partners/giz.png')}
+            src={require('./images/partners/ff-logo.jpg')}
+            alt="Fair Forward"
+            width={370}
+            height={135}
+          />
+          <img
+            src={require('./images/partners/Bill_&_Melinda_Gates_Foundation_logo.jpg')}
+            alt="Bill and Melinda Gates Foundation"
+            width={370}
+            height={135}
+          />
+          <img
+            src={require('./images/partners/giz-logo.jpg')}
             alt="Deutsche Gesellschaft für Internationale Zusammenarbeit"
-          />
-          <img
-            src={require('./images/partners/gates-foundation.png')}
-            alt="Gates Foundation"
-          />
-          <img src={require('./images/partners/nvidia.png')} alt="nvidia" />
-          <img
-            src={require('./images/partners/uk-government.png')}
-            alt="UK Government"
-          />
-          <img
-            src={require('./images/partners/placeholder.png')}
-            alt="Placeholder"
-          />
-          <img
-            src={require('./images/partners/placeholder.png')}
-            alt="Placeholder"
+            width={370}
+            height={135}
           />
         </div>
       </div>
