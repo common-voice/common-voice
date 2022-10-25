@@ -641,6 +641,9 @@ datasets-positioning =
     Begira orri honetan agertzen diren beste ahots datu-sorta irekien erreferentziak.
 language = Hizkuntza
 download-dataset-header = Deskargatu datu-sorta
+download-delta-explainer = Aldaketa batzuk egin ditugu. Delta Segment delakoak aurreko bertsioaren ondoren gehitu diren grabazioak ditu. <deltaLink>Irakurri gehiago lan honi buruz</deltaLink>.
+download-dataset-tag = Hautatu nahi duzun hizkuntza eta aukeratu deskargatu nahi duzun bertsioa.
+download-dataset-access = Datu-sorta zaharragoen bila zabiltza? Idatz iezaguzu hona: <emailLink> { $email } </emailLink>
 # File size in gigabytes
 size = Tamaina
 validated-hr-total = Baliozkotutako orduak guztira
