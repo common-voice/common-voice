@@ -714,6 +714,8 @@ datasets-positioning =
     यस पृष्ठलाई अन्य खुला स्रोत भ्वाइस डाटासेटको लागि र Commomn Voice बढेको , रिलीज अपडेट को सन्दर्भ हबको रूपमा हेर्नुहोस्।
 language = भाषा
 download-delta-explainer = हामीले केही परिवर्तनहरु गरेका छौं। डेल्टा खण्डहरूमा भर्खरै रिलीज पछि सबैभन्दा भर्खरको क्लिपहरू समावेश छन्। <deltaLink>यस कामको बारेमा थप पढ्नुहोस्</deltaLink>।
+download-dataset-tag = आफ्नो इच्छाको डेटासेट चयन गर्नुहोस् र तपाईंले डाउनलोड गर्न चाहनुभएको संस्करण चयन गर्नुहोस्।
+download-dataset-access = अघिल्लो डेटासेट संस्करणहरू खोज्दै हुनुहुन्छ? इमेल <emailLink> { $email } </emailLink>
 # File size in gigabytes
 size = आकार
 validated-hr-total = मान्य कुल घण्टा
