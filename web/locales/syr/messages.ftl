@@ -125,10 +125,10 @@ help-us-title = ܥܕܪ ܩܬܢ ܒܫܪܪܬܐ ܕܡܡܠ݇ܠ̈ܐ!
 vote-yes = ܗܐ
 vote-no = ܠܐ
 speak-subtitle = ܫܘܬܦ ܩܠܘܟܘܢ
-speak-goal-text = ܡܐܡܪ̈ܐ ܡܟܬܒ݂ܝ
+speak-goal-text = ܡܐܡܪ̈ܐ ܡܟܬܒܝ
 listen-subtitle = ܥܕܪ ܩܬܢ ܒܫܪܘܪܐ ܕܩܠ̈ܐ
 listen-goal-text = ܡܐܡܪ̈ܐ ܫܪܝܪ̈ܐ
-hours-recorded = ܫܥ̈ܐ ܡܟܬܒ݂ܝ
+hours-recorded = ܫܥ̈ܐ ܡܟܬܒܝ
 hours-validated = ܫܥ̈ܐ ܫܪܝܪ̈ܐ
 voices-online = ܐܝܬ ܩܠ̈ܐ ܥܠ ܢܘܠܐ ܗܫܐ
 help-reach-goal = ܥܕܪ ܩܕ ܕܝܝܢ ܡܛܚ ܥܠ { $goal }
@@ -407,6 +407,7 @@ keep = ܢܛܪ
 
 ## DemoLayout
 
+demo-get-started = ܬܝܡܘܢ ܫܪܚ
 
 ## Demo Datasets
 
