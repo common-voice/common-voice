@@ -1,9 +1,10 @@
 import { NextFunction, Request, Response } from 'express';
 const PromiseRouter = require('express-promise-router');
 import Model from './model';
-import { getTableStatistics } from './model/statistics';
+import { queryStatistics } from './model/statistics';
 import { TableNames } from 'common';
-
+import { statisticsSchema } from './validation/statistics';
+import validate from './validation';
 /**
  * Clip - Responsibly for saving and serving clips.
  */
@@ -17,27 +18,61 @@ export default class Statistics {
   getRouter() {
     const router = PromiseRouter();
 
-    router.get('/downloads', this.downloadCount);
-    router.get('/clips', this.clipCount);
-    router.get('/users', this.userCount);
-    router.get('/sentences', this.sentenceCount);
+    router.get(
+      '/downloads',
+      validate({ query: statisticsSchema }),
+      this.downloadCount
+    );
+
+    router.get('/clips', validate({ query: statisticsSchema }), this.clipCount);
+
+    router.get(
+      '/speakers',
+      validate({ query: statisticsSchema }),
+      this.uniqueSpeakers
+    );
+
+    router.get(
+      '/durations',
+      validate({ query: statisticsSchema }),
+      this.clipDurations
+    );
+    router.get('/users', validate({ query: statisticsSchema }), this.userCount);
+    router.get(
+      '/sentences',
+      validate({ query: statisticsSchema }),
+      this.sentenceCount
+    );
 
     return router;
   }
 
-  downloadCount = async (_response: Request, response: Response) => {
-    return response.json(await getTableStatistics(TableNames.DOWNLOADS));
+  downloadCount = async (request: Request, response: Response) => {
+    return response.json(await queryStatistics(TableNames.DOWNLOADS));
   };
 
-  clipCount = async (_response: Request, response: Response) => {
-    return response.json(await getTableStatistics(TableNames.CLIPS));
+  uniqueSpeakers = async (request: Request, response: Response) => {
+    return response.json(
+      await queryStatistics(TableNames.CLIPS, {
+        groupByColumn: 'client_id',
+        isDistinict: true,
+      })
+    );
   };
 
-  userCount = async (_response: Request, response: Response) => {
-    return response.json(await getTableStatistics(TableNames.USERS));
+  clipCount = async (request: Request, response: Response) => {
+    return response.json(await queryStatistics(TableNames.CLIPS));
   };
 
-  sentenceCount = async (_response: Request, response: Response) => {
-    return response.json(await getTableStatistics(TableNames.SENTENCES));
+  clipDurations = async (request: Request, response: Response) => {
+    return response.json(await queryStatistics(TableNames.CLIPS));
+  };
+
+  userCount = async (request: Request, response: Response) => {
+    return response.json(await queryStatistics(TableNames.USERS));
+  };
+
+  sentenceCount = async (request: Request, response: Response) => {
+    return response.json(await queryStatistics(TableNames.SENTENCES));
   };
 }
