@@ -16,5 +16,6 @@ export * from './jobs';
 export * from './send-language-request';
 export * from './sentences';
 export * from './datasets';
+export * from './statistics';
 
 export default validate;
