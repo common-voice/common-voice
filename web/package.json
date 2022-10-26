@@ -10,7 +10,7 @@
     "@sentry/tracing": "6.18.2",
     "@yr/monotone-cubic-spline": "1.0.3",
     "audio-recorder-polyfill": "0.4.1",
-    "classnames": "2.3.1",
+    "classnames": "2.3.2",
     "downshift": "3.4.8",
     "focus-visible": "5.2.0",
     "intersection-observer": "0.12.0",
