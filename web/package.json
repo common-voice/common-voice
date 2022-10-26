@@ -46,7 +46,7 @@
     "@types/lodash.memoize": "4.1.7",
     "@types/lodash.pick": "4.4.7",
     "@types/lodash.throttle": "4.1.7",
-    "@types/react": "17.0.42",
+    "@types/react": "17.0.51",
     "@types/react-dom": "17.0.14",
     "@types/react-modal": "3.13.1",
     "@types/react-router": "5.1.18",
