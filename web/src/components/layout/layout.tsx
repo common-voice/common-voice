@@ -163,7 +163,7 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
     const isBuildingProfile = location.pathname.includes(URLS.PROFILE_INFO);
     const pathParts = location.pathname.split('/');
     const className = cx(pathParts[2] ? pathParts.slice(2).join(' ') : 'home', {
-      active: this.state.isMenuVisible,
+      'nav-modal-active': this.state.isMenuVisible,
     });
 
     const alreadyEnrolled =
