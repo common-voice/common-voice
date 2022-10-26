@@ -37,7 +37,13 @@ export default class Statistics {
       validate({ query: statisticsSchema }),
       this.clipDurations
     );
-    router.get('/users', validate({ query: statisticsSchema }), this.userCount);
+
+    router.get(
+      '/contributors',
+      validate({ query: statisticsSchema }),
+      this.contributorCount
+    );
+
     router.get(
       '/sentences',
       validate({ query: statisticsSchema }),
@@ -68,7 +74,7 @@ export default class Statistics {
     return response.json(await queryStatistics(TableNames.CLIPS));
   };
 
-  userCount = async (request: Request, response: Response) => {
+  contributorCount = async (request: Request, response: Response) => {
     return response.json(await queryStatistics(TableNames.USERS));
   };
 

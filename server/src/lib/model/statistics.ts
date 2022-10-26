@@ -15,6 +15,7 @@ type QueryOptions = {
   groupByColumn: string;
   isDistinict: boolean;
 };
+
 /**
  * Attach metadata about the stats (like when it was fetched)
  *
@@ -35,26 +36,23 @@ export const queryStatistics = async (
   options?: QueryOptions
 ) => {
   const isDistinict = options?.isDistinict ?? false;
-  let total_count, monthly_count;
+  let monthly_count;
 
-  // two basic query paths (queries with distinct have to use group by)
+  // Two basic query paths (queries with distinct have to use group by)
   if (isDistinict) {
-    // ({ total_count } = (await getTotal(tableName))[0]);
     monthly_count = await getUniqueMonthlyContributions(tableName, options);
-    total_count = monthly_count.reduce(
-      (total: number, row) => (total += row.total_count),
-      0
-    );
   } else {
-    ({ total_count } = (await getTotal(tableName))[0]);
     monthly_count = await getMonthlyContributions(tableName);
   }
-
+  const total_count = monthly_count.reduce(
+    (total: number, row) => (total += row.total_count),
+    0
+  );
   return getTableStatistics(total_count, monthly_count);
 };
 
 export const getTableStatistics = lazyCache(
-  'get-table-stats2ax',
+  'get-table-statistics',
   async (total_count: number, monthly_count: StatisticsCount[]) => {
     const monthlyContributions = monthly_count.reduce((obj: any, row) => {
       obj[row.date] = row.total_count;
