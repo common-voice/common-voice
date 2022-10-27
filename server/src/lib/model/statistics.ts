@@ -11,9 +11,18 @@ type StatisticsCount = {
   date: string;
 };
 
+export enum Filter {
+  rejected = 'rejected',
+}
+
 type QueryOptions = {
-  groupByColumn: string;
-  isDistinict: boolean;
+  groupByColumn?: string;
+  isDistinict?: boolean;
+  filter?: Filter;
+};
+
+const FILTERS = {
+  rejected: 'AND is_valid = false',
 };
 
 /**
@@ -38,7 +47,7 @@ const queryStatistics = async (
   if (isDistinict) {
     monthlyIncrease = await getUniqueMonthlyContributions(tableName, options);
   } else {
-    monthlyIncrease = await getMonthlyContributions(tableName);
+    monthlyIncrease = await getMonthlyContributions(tableName, options);
   }
   const yearlySum = monthlyIncrease.reduce(
     (total: number, row) => (total += row.total_count),
@@ -74,8 +83,12 @@ const formatStatistics = async (
 };
 
 const getMonthlyContributions = async (
-  tableName: TableNames
+  tableName: TableNames,
+  options?: QueryOptions
 ): Promise<StatisticsCount[]> => {
+  const filter = options?.filter;
+  const conditional = filter && FILTERS[filter];
+
   const [rows] = await db.query(`
     SELECT
       MAX(DATE_FORMAT(created_at, "%Y-%c-%d")) as date,
@@ -84,6 +97,7 @@ const getMonthlyContributions = async (
       ${tableName} d
     WHERE
       created_at > now() - INTERVAL 12 MONTH
+      ${conditional ? conditional : ''}
     GROUP BY
       DATE_FORMAT(created_at, "%Y-%c")
     ORDER BY created_at DESC;
@@ -115,12 +129,14 @@ const getUniqueMonthlyContributions = async (
 };
 
 export const getStatistics = lazyCache(
-  'get-statisticsx22222',
+  'get-statistics',
   async (tableName: TableNames, options?: QueryOptions) => {
     const { yearlySum, monthlyIncrease } = await queryStatistics(
       tableName,
       options
     );
+
+    console.log('options', options);
 
     const formattedStatistics = await formatStatistics(
       yearlySum,
