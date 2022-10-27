@@ -578,12 +578,16 @@ about-playbook-how-add-language-collecting-sentences-heading = د جملو را�
 
 ## How does localization work
 
+about-playbook-how-localize-content-5 = د مرستې لپاره زموږ ویډیوي تشریح وګورئ
 
 ## How to add sentences
 
+about-playbook-how-add-sentences = څنګه جملې اضافه کړم؟
+about-playbook-how-add-sentences-content-4 = هغه جملې چې تایید شوي د څلورنۍ په ورځ صادریږي، او د راتلونکي خپريدو وروسته شتون لري.
 
 ## How to record quality
 
+about-playbook-how-record-quality = څنګه کولی شم د لوړ کیفیت غږيز کلپ ثبت کړم؟
 
 ## How to grow language
 
