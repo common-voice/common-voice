@@ -69,8 +69,8 @@ export const getTableStatistics = lazyCache(
 
     return buildResponse({
       total_count,
-      monthly_contributions: monthlyContributions,
-      montly_running_totals: monthly_running_totals,
+      monthly_increase: monthlyContributions,
+      monthly_running_totals: monthly_running_totals,
     });
   },
   TimeUnits.DAY
