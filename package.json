@@ -44,6 +44,7 @@
     "build:server": "cd server && yarn build && cd ..",
     "build:common": "cd common && yarn build && cd ..",
     "build:maint": "cd maintenance && yarn build && cd ..",
+    "check-localization": "node scripts/check-for-unused-localization.js",
     "lint": "eslint .",
     "lint:common": "eslint ./common",
     "lint:server": "eslint ./server",
