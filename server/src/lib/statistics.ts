@@ -1,7 +1,7 @@
 import { NextFunction, Request, Response } from 'express';
 const PromiseRouter = require('express-promise-router');
 import Model from './model';
-import { queryStatistics } from './model/statistics';
+import { getStatistics } from './model/statistics';
 import { TableNames } from 'common';
 import { statisticsSchema } from './validation/statistics';
 import validate from './validation';
@@ -54,12 +54,12 @@ export default class Statistics {
   }
 
   downloadCount = async (request: Request, response: Response) => {
-    return response.json(await queryStatistics(TableNames.DOWNLOADS));
+    return response.json(await getStatistics(TableNames.DOWNLOADS));
   };
 
   uniqueSpeakers = async (request: Request, response: Response) => {
     return response.json(
-      await queryStatistics(TableNames.CLIPS, {
+      await getStatistics(TableNames.CLIPS, {
         groupByColumn: 'client_id',
         isDistinict: true,
       })
@@ -67,18 +67,18 @@ export default class Statistics {
   };
 
   clipCount = async (request: Request, response: Response) => {
-    return response.json(await queryStatistics(TableNames.CLIPS));
+    return response.json(await getStatistics(TableNames.CLIPS));
   };
 
   clipDurations = async (request: Request, response: Response) => {
-    return response.json(await queryStatistics(TableNames.CLIPS));
+    return response.json(await getStatistics(TableNames.CLIPS));
   };
 
   contributorCount = async (request: Request, response: Response) => {
-    return response.json(await queryStatistics(TableNames.USERS));
+    return response.json(await getStatistics(TableNames.USERS));
   };
 
   sentenceCount = async (request: Request, response: Response) => {
-    return response.json(await queryStatistics(TableNames.SENTENCES));
+    return response.json(await getStatistics(TableNames.SENTENCES));
   };
 }

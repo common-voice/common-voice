@@ -27,54 +27,51 @@ const getResponseMetadata = () => {
   };
 };
 
-const buildResponse = (data: any) => {
-  return { ...data, metadata: getResponseMetadata() };
-};
-
-export const queryStatistics = async (
+const queryStatistics = async (
   tableName: TableNames,
   options?: QueryOptions
 ) => {
   const isDistinict = options?.isDistinict ?? false;
-  let monthly_count;
+  let monthlyIncrease;
 
   // Two basic query paths (queries with distinct have to use group by)
   if (isDistinict) {
-    monthly_count = await getUniqueMonthlyContributions(tableName, options);
+    monthlyIncrease = await getUniqueMonthlyContributions(tableName, options);
   } else {
-    monthly_count = await getMonthlyContributions(tableName);
+    monthlyIncrease = await getMonthlyContributions(tableName);
   }
-  const total_count = monthly_count.reduce(
+  const yearlySum = monthlyIncrease.reduce(
     (total: number, row) => (total += row.total_count),
     0
   );
-  return getTableStatistics(total_count, monthly_count);
+
+  return { yearlySum, monthlyIncrease };
 };
 
-export const getTableStatistics = lazyCache(
-  'get-table-statistics',
-  async (total_count: number, monthly_count: StatisticsCount[]) => {
-    const monthlyContributions = monthly_count.reduce((obj: any, row) => {
-      obj[row.date] = row.total_count;
-      return obj;
-    }, {});
+const formatStatistics = async (
+  yearlySum: number,
+  monthlyIncrease: StatisticsCount[]
+) => {
+  //format raw query data
+  const monthlyContributions = monthlyIncrease.reduce((obj: any, row) => {
+    obj[row.date] = row.total_count;
+    return obj;
+  }, {});
 
-    let currentSum = 0;
-    const monthly_running_totals = monthly_count.reduce((obj: any, row) => {
-      const diff = total_count - currentSum;
-      currentSum += row.total_count;
-      obj[row.date] = diff;
-      return obj;
-    }, {});
+  let currentSum = 0;
+  const monthlyRunningTotals = monthlyIncrease.reduce((obj: any, row) => {
+    const diff = yearlySum - currentSum;
+    currentSum += row.total_count;
+    obj[row.date] = diff;
+    return obj;
+  }, {});
 
-    return buildResponse({
-      total_count,
-      monthly_increase: monthlyContributions,
-      monthly_running_totals: monthly_running_totals,
-    });
-  },
-  TimeUnits.DAY
-);
+  return {
+    yearly_sum: yearlySum,
+    monthly_increase: monthlyContributions,
+    monthly_running_totals: monthlyRunningTotals,
+  };
+};
 
 const getMonthlyContributions = async (
   tableName: TableNames
@@ -117,12 +114,25 @@ const getUniqueMonthlyContributions = async (
   return rows;
 };
 
-const getTotal = async (tableName: TableNames) => {
-  const [rows] = await db.query(`
-    SELECT
-    count(1) as total_count
-    FROM
-      ${tableName} d
-  `);
-  return rows;
-};
+export const getStatistics = lazyCache(
+  'get-statisticsx22222',
+  async (tableName: TableNames, options?: QueryOptions) => {
+    const { yearlySum, monthlyIncrease } = await queryStatistics(
+      tableName,
+      options
+    );
+
+    const formattedStatistics = await formatStatistics(
+      yearlySum,
+      monthlyIncrease
+    );
+
+    const metadata = getResponseMetadata();
+
+    return {
+      ...formattedStatistics,
+      metadata,
+    };
+  },
+  TimeUnits.DAY
+);
