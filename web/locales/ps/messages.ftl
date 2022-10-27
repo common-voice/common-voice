@@ -516,6 +516,7 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = ولې عام غږ
+how-does-it-work-title-v2 = عام غږ څنګه کار کوي؟
 how-does-it-work-text = موږ د غږونو آزادې سرچینې ډېټاسیټ په اشر جوړ وو. خپل غږ ډالۍ کړئ، د نورو خلکو کلیپونو دقت سم کړئ، ډېټاسیټ د هرچا لپاره ښه کړئ.
 
 ## How does it work section
