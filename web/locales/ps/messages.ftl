@@ -588,6 +588,10 @@ about-playbook-how-add-sentences-content-4 = هغه جملې چې تایید ش�
 ## How to record quality
 
 about-playbook-how-record-quality = څنګه کولی شم د لوړ کیفیت غږيز کلپ ثبت کړم؟
+about-playbook-how-record-content-1 = په خپل عادي غږ خبرې وکړئ! په هغه طریقه چې تاسو خبرې کوئ دلته ښه راغلاست لري - موږ ستاسو تلفظ په کومه بڼه چې دی غواړو، او موږ ستاسو معمول د ږغ درجه، سټایل او تلحين غواړو.
+about-playbook-how-record-content-2 = د ډیر شالید شور څخه مخنیوی وکړئ - ستاسو اوریدل بايد اسانه وي.
+about-playbook-how-record-content-3 = جمله په دقت سره ولولئ - مه يې د ځانه تيروئ، بدلوئ یا لغات وراضافه کوئ.
+about-playbook-how-record-content-4 = ډاډ ترلاسه کړئ چې پلیټ فارم ثبت کوي مخکې له دې چې تاسو خبرې پیل کړئ، او یوازې هغه وخت ودریږي کله چې تاسو پای ته ورسیږئ.
 
 ## How to grow language
 
