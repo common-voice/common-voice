@@ -521,6 +521,20 @@ how-does-it-work-text = موږ د غږونو آزادې سرچینې ډېټاس�
 
 ## How does it work section
 
+about-language-req-subtitle = یو څوک د يوې ژبې د اضافه کولو غوښتنه کوي.
+about-localization-title = د ویب سایټ سیمه ایز کول
+about-localization-subtitle = د ویب سایټ متن په دې ژبه ژباړل شوی.
+about-sentence-collection-title = د جملې ټولګه
+about-sentence-collection-subtitle = جملې د خلکو لپاره راټول شوي ترڅو په لوړ غږ ولوستل شي.
+about-new-lang-title = د نوې ژبې پیل
+about-new-lang-subtitle = موږ په دې ژبه کې د عام غږ سایټ پیل کوو.
+about-voice-contrib-title = د غږ مرسته
+about-voice-contrib-subtitle = خلک راځي او خپل غږونه شریکوي.
+about-voice-validation-title = د غږ تایید
+about-voice-validation-subtitle = نور خلک هغه غږیز کلیپونه تاییدوي.
+about-dataset-release-title = د ډیټاسیټ خپرول
+about-dataset-release-subtitle = موږ په هرو 3 میاشتو کې ډیټاسیټ خپروو.
+about-subscribe-text = غواړئ د عام غږ سره په اړیکه کې پاتې شئ؟
 about-speak = وغږیږئ
 about-speak-text = مرسته کوونکي د بسپنه شوي جملو د بانک له لوستلو څخه غږیز کليپونه ثبتوي.
 about-listen-queue = واورئ - کتار
@@ -542,17 +556,25 @@ about-get-involved-text-2 =
     ایا غواړئ د عام غږ لا ښه کولو کې مرسته وکړئ؟
     ډېرښه! د برېښنالیک یا <discourseLink> بحث </discourseLink> فورمونو له لارې اړیکه ونیسئ، د <githubLink>GitHub</githubLink> له لارې د سایټ ستونزې وسپارئ، یا د
     <matrixLink> میټریکس </matrixLink> د ټولنې چټ غړیتوب ترلاسه کړئ.
+about-stay-in-touch = زه څنګه په اړيکه کې پاتې شم؟
+about-stay-in-touch-button = ګډون کول
 about-nav-why-common-voice = ولې؟
 about-nav-how-it-works = څنګه؟
 about-nav-partners = شریکان
 about-nav-get-involved = ونډه واخلئ
+about-nav-how-it-works-2 = عام غږ څنګه کار کوي؟
+about-nav-playbook = زده کړئ چې څنګه برخه واخلئ
 
 ## Community Playbook Content
 ## What is a language
 
+about-playbook-what-is-language = په عام غږ کې يو ژبه څه ده؟
 
 ## How do I add a language
 
+about-playbook-how-add-language = زه څنګه يو ژبه اضافه کړم؟
+about-playbook-how-add-language-translating-heading = د سایټ ژباړه
+about-playbook-how-add-language-collecting-sentences-heading = د جملو راټولول
 
 ## How does localization work
 
