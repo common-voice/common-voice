@@ -1,6 +1,7 @@
 ## General
 
 yes-receive-emails = Awɔ, Imɛyiw ci N'ma.N b'a fɛ ka kɛ Common Voice Project kunnafoniw kalama
+stayintouch = Anw bɛ ka jama kafo kan fɛɛrɛw  dɛmɛli kama ,Mozila la yan.An b'a fɛ kubariya kuraw kalama ani ka dɔn I b'ala ka kumakan labaara togoya min na.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
