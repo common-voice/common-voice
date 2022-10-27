@@ -3,26 +3,22 @@ import { getMySQLInstance } from './db/mysql';
 import { TableNames, TimeUnits } from 'common';
 const db = getMySQLInstance();
 
-// TODO: Replace with query that calculates average
-const AVG_CLIP_SECONDS = 4.694;
-
 type StatisticsCount = {
   total_count: number;
   date: string;
 };
 
-export enum Filter {
-  rejected = 'rejected',
-}
+const FILTERS = {
+  rejected: 'AND is_valid = false',
+  hasEmail: 'AND email IS NOT null',
+};
+
+type Filters = 'rejected' | 'hasEmail';
 
 type QueryOptions = {
   groupByColumn?: string;
   isDistinict?: boolean;
-  filter?: Filter;
-};
-
-const FILTERS = {
-  rejected: 'AND is_valid = false',
+  filter?: Filters;
 };
 
 /**
@@ -129,14 +125,12 @@ const getUniqueMonthlyContributions = async (
 };
 
 export const getStatistics = lazyCache(
-  'get-statistics',
+  'get-statistics-test',
   async (tableName: TableNames, options?: QueryOptions) => {
     const { yearlySum, monthlyIncrease } = await queryStatistics(
       tableName,
       options
     );
-
-    console.log('options', options);
 
     const formattedStatistics = await formatStatistics(
       yearlySum,

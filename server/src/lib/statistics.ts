@@ -1,7 +1,7 @@
 import { NextFunction, Request, Response } from 'express';
 import PromiseRouter from 'express-promise-router';
 import Model from './model';
-import { getStatistics, Filter } from './model/statistics';
+import { getStatistics } from './model/statistics';
 import { TableNames } from 'common';
 import { clipStatScehma } from './validation/statistics';
 import validate from './validation';
@@ -22,7 +22,7 @@ export default class Statistics {
     router.get('/downloads', this.downloadCount);
     router.get('/clips', validate({ query: clipStatScehma }), this.clipCount);
     router.get('/speakers', this.uniqueSpeakers);
-    router.get('/contributors', this.contributorCount);
+    router.get('/accounts', this.accounts);
     router.get('/sentences', this.sentenceCount);
 
     return router;
@@ -45,14 +45,15 @@ export default class Statistics {
     const { filter } = request.query as never;
 
     if (filter) {
-      console.log('filtera', filter);
       return response.json(await getStatistics(TableNames.CLIPS, { filter }));
     }
+
     return response.json(await getStatistics(TableNames.CLIPS));
   };
 
-  contributorCount = async (request: Request, response: Response) => {
-    return response.json(await getStatistics(TableNames.USERS));
+  accounts = async (request: Request, response: Response) => {
+    const filter = 'hasEmail';
+    return response.json(await getStatistics(TableNames.USERS, { filter }));
   };
 
   sentenceCount = async (request: Request, response: Response) => {
