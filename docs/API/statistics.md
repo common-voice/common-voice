@@ -17,12 +17,12 @@ Statistics endpoints are accessed at `/api/v1/statistics/<stat name>`
 
 All downloads of any dataset:
 
-`/api/v1/statistics/downloads`
+GET `/api/v1/statistics/downloads` HTTP/1.1
 
 ### Clips
 
 All clip contributions (not unique to user or sentence):
-`/api/v1/statistics/clips`
+GET `/api/v1/statistics/clips` HTTP/1.1
 
 #### Options
 
@@ -34,18 +34,18 @@ Filter by only the rejected clips by using query parameter:
 
 All unique speaker contributors:
 
-`/api/v1/statistics/speakers`
+GET `/api/v1/statistics/speakers` HTTP/1.1
 
 ### Accounts
 
 All users that have signed up for an account (i.e. provided an email):
-`/api/v1/statistics/accounts`
+GET `/api/v1/statistics/accounts` HTTP/1.1
 
 ### Sentences
 
 All Sentences currently available:
 
-`/api/v1/statistics/sentences`
+GET `/api/v1/statistics/sentences` HTTP/1.1
 
 #### Options
 
@@ -58,6 +58,8 @@ Filter by all sentences that have been read (a clip exists) multiple times:
 Example of JSON Response:
 
 ```json
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
 {
   "yearly_sum": 11,
   "total_count": 109,
