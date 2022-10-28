@@ -5,7 +5,7 @@ const db = getMySQLInstance();
 
 type StatisticsCount = {
   total_count: number;
-  date: string;
+  date?: string;
 };
 
 const FILTERS = {
@@ -39,26 +39,33 @@ const queryStatistics = async (
 ) => {
   const isDistinct = options?.isDistinct ?? false;
   const isDuplicate = options?.isDuplicate ?? false;
-  let monthlyIncrease;
+  let monthlyIncrease, totalCount;
 
-  // Two basic query paths (queries with distinct have to use group by)
   if (isDistinct) {
+    // Queries with distinct have to use group by
     monthlyIncrease = await getUniqueMonthlyContributions(tableName, options);
+    totalCount = await getTotal(tableName, options);
   } else if (isDuplicate) {
+    // Specific query flow since logic is more complicated
     monthlyIncrease = await getMonthlyDuplicateSentences();
+    totalCount = await getTotalDuplicateSentences();
   } else {
+    // Simple queries
     monthlyIncrease = await getMonthlyContributions(tableName, options);
+    totalCount = await getTotal(tableName, options);
   }
   const yearlySum = monthlyIncrease.reduce(
     (total: number, row) => (total += row.total_count),
     0
   );
+  totalCount = totalCount.total_count;
 
-  return { yearlySum, monthlyIncrease };
+  return { yearlySum, totalCount, monthlyIncrease };
 };
 
 const formatStatistics = async (
   yearlySum: number,
+  totalCount: number,
   monthlyIncrease: StatisticsCount[]
 ) => {
   //format raw query data
@@ -77,6 +84,7 @@ const formatStatistics = async (
 
   return {
     yearly_sum: yearlySum,
+    total_count: totalCount,
     monthly_increase: monthlyContributions,
     monthly_running_totals: monthlyRunningTotals,
   };
@@ -155,11 +163,32 @@ const getMonthlyDuplicateSentences = async (): Promise<StatisticsCount[]> => {
   return rows;
 };
 
-const getTotal = async (tableName: TableNames, options: QueryOptions) => {
+const getTotalDuplicateSentences = async (): Promise<StatisticsCount> => {
+  const [[rows]] = await db.query(`
+    SELECT
+      SUM(d.total_count) as total_count
+    FROM
+      (
+      SELECT
+        count(1) as total_count
+      FROM
+        clips c
+      GROUP BY
+        original_sentence_id
+      HAVING
+        total_count > 1) d
+  `);
+  return rows;
+};
+
+const getTotal = async (
+  tableName: TableNames,
+  options?: QueryOptions
+): Promise<StatisticsCount> => {
   const filter = options?.filter;
   const conditional = filter && FILTERS[filter];
 
-  const [rows] = await db.query(`
+  const [[rows]] = await db.query(`
     SELECT
     count(1) as total_count
     FROM
@@ -170,16 +199,17 @@ const getTotal = async (tableName: TableNames, options: QueryOptions) => {
 };
 
 export const getStatistics = lazyCache(
-  'get-statistics',
+  'get-all-statistics2122',
   // eslint-disable-next-line @typescript-eslint/no-unused-vars
   async (tableName: TableNames, options?: QueryOptions, _filter?: string) => {
-    const { yearlySum, monthlyIncrease } = await queryStatistics(
+    const { yearlySum, totalCount, monthlyIncrease } = await queryStatistics(
       tableName,
       options
     );
 
     const formattedStatistics = await formatStatistics(
       yearlySum,
+      totalCount,
       monthlyIncrease
     );
 

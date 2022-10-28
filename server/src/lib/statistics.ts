@@ -40,7 +40,7 @@ export default class Statistics {
     return response.json(
       await getStatistics(TableNames.CLIPS, {
         groupByColumn: 'client_id',
-        isDistinict: true,
+        isDistinct: true,
       })
     );
   };
