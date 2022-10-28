@@ -18,6 +18,7 @@ type Filters = 'rejected' | 'hasEmail';
 type QueryOptions = {
   groupByColumn?: string;
   isDistinict?: boolean;
+  isDuplicate?: boolean;
   filter?: Filters;
 };
 
@@ -37,11 +38,14 @@ const queryStatistics = async (
   options?: QueryOptions
 ) => {
   const isDistinict = options?.isDistinict ?? false;
+  const isDuplicate = options?.isDuplicate ?? false;
   let monthlyIncrease;
 
   // Two basic query paths (queries with distinct have to use group by)
   if (isDistinict) {
     monthlyIncrease = await getUniqueMonthlyContributions(tableName, options);
+  } else if (isDuplicate) {
+    monthlyIncrease = await getMonthlyDuplicateSentences();
   } else {
     monthlyIncrease = await getMonthlyContributions(tableName, options);
   }
@@ -112,7 +116,7 @@ const getUniqueMonthlyContributions = async (
       COUNT(created_at) as total_count
    FROM
     (
-      SELECT DISTINCT * 
+      SELECT * 
       FROM ${tableName} d GROUP BY ${groupByColumn}
     ) d
     WHERE
@@ -124,9 +128,37 @@ const getUniqueMonthlyContributions = async (
   return rows;
 };
 
+const getMonthlyDuplicateSentences = async (): Promise<StatisticsCount[]> => {
+  const [rows] = await db.query(`
+    SELECT
+      MAX(DATE_FORMAT(created_at, "%Y-%c-%d")) as date,
+      COUNT(created_at) as total_count
+    FROM
+      (
+      SELECT
+        created_at,
+        count(1) as sentenceCount
+      FROM
+        clips c
+      GROUP BY
+        original_sentence_id
+      HAVING
+        sentenceCount > 1
+        ) d
+    WHERE
+      created_at > now() - INTERVAL 12 MONTH
+    GROUP BY
+      DATE_FORMAT(created_at, "%Y-%c")
+    ORDER BY
+      created_at DESC;
+  `);
+  return rows;
+};
+
 export const getStatistics = lazyCache(
-  'get-statistics-test',
-  async (tableName: TableNames, options?: QueryOptions) => {
+  'get-statistics-value22',
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
+  async (tableName: TableNames, options?: QueryOptions, _filter?: string) => {
     const { yearlySum, monthlyIncrease } = await queryStatistics(
       tableName,
       options

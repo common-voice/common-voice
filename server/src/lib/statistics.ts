@@ -3,7 +3,7 @@ import PromiseRouter from 'express-promise-router';
 import Model from './model';
 import { getStatistics } from './model/statistics';
 import { TableNames } from 'common';
-import { clipStatScehma } from './validation/statistics';
+import { clipStatScehma, sentenceStatScehma } from './validation/statistics';
 import validate from './validation';
 
 /**
@@ -23,7 +23,11 @@ export default class Statistics {
     router.get('/clips', validate({ query: clipStatScehma }), this.clipCount);
     router.get('/speakers', this.uniqueSpeakers);
     router.get('/accounts', this.accounts);
-    router.get('/sentences', this.sentenceCount);
+    router.get(
+      '/sentences',
+      validate({ query: sentenceStatScehma }),
+      this.sentenceCount
+    );
 
     return router;
   }
@@ -57,6 +61,13 @@ export default class Statistics {
   };
 
   sentenceCount = async (request: Request, response: Response) => {
+    const { filter } = request.query as never;
+
+    if (filter && typeof filter === 'string') {
+      return response.json(
+        await getStatistics(TableNames.SENTENCES, { isDuplicate: true })
+      );
+    }
     return response.json(await getStatistics(TableNames.SENTENCES));
   };
 }
