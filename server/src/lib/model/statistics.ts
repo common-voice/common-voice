@@ -44,7 +44,7 @@ const queryStatistics = async (
   if (isDistinct) {
     // Queries with distinct have to use group by
     monthlyIncrease = await getUniqueMonthlyContributions(tableName, options);
-    totalCount = await getTotal(tableName, options);
+    totalCount = await getUniqueSpeakersTotal();
   } else if (isDuplicate) {
     // Specific query flow since logic is more complicated
     monthlyIncrease = await getMonthlyDuplicateSentences();
@@ -181,6 +181,21 @@ const getTotalDuplicateSentences = async (): Promise<StatisticsCount> => {
   return rows;
 };
 
+const getUniqueSpeakersTotal = async (): Promise<StatisticsCount> => {
+  const [[rows]] = await db.query(`
+  SELECT
+	  count(d.total_count) as total_count
+  FROM
+    (
+    SELECT
+      count(1) as total_count
+    FROM
+      clips c
+    GROUP BY
+      client_id) d
+    `);
+  return rows;
+};
 const getTotal = async (
   tableName: TableNames,
   options?: QueryOptions
@@ -199,7 +214,7 @@ const getTotal = async (
 };
 
 export const getStatistics = lazyCache(
-  'get-all-statistics2122',
+  'get-stats',
   // eslint-disable-next-line @typescript-eslint/no-unused-vars
   async (tableName: TableNames, options?: QueryOptions, _filter?: string) => {
     const { yearlySum, totalCount, monthlyIncrease } = await queryStatistics(
