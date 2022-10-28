@@ -9,15 +9,15 @@ type StatisticsCount = {
 };
 
 const FILTERS = {
-  rejected: 'AND is_valid = false',
-  hasEmail: 'AND email IS NOT null',
+  rejected: 'is_valid = false',
+  hasEmail: 'email IS NOT null',
 };
 
 type Filters = 'rejected' | 'hasEmail';
 
 type QueryOptions = {
   groupByColumn?: string;
-  isDistinict?: boolean;
+  isDistinct?: boolean;
   isDuplicate?: boolean;
   filter?: Filters;
 };
@@ -37,12 +37,12 @@ const queryStatistics = async (
   tableName: TableNames,
   options?: QueryOptions
 ) => {
-  const isDistinict = options?.isDistinict ?? false;
+  const isDistinct = options?.isDistinct ?? false;
   const isDuplicate = options?.isDuplicate ?? false;
   let monthlyIncrease;
 
   // Two basic query paths (queries with distinct have to use group by)
-  if (isDistinict) {
+  if (isDistinct) {
     monthlyIncrease = await getUniqueMonthlyContributions(tableName, options);
   } else if (isDuplicate) {
     monthlyIncrease = await getMonthlyDuplicateSentences();
@@ -97,7 +97,7 @@ const getMonthlyContributions = async (
       ${tableName} d
     WHERE
       created_at > now() - INTERVAL 12 MONTH
-      ${conditional ? conditional : ''}
+      ${conditional ? 'AND ' + conditional : ''}
     GROUP BY
       DATE_FORMAT(created_at, "%Y-%c")
     ORDER BY created_at DESC;
@@ -155,8 +155,22 @@ const getMonthlyDuplicateSentences = async (): Promise<StatisticsCount[]> => {
   return rows;
 };
 
+const getTotal = async (tableName: TableNames, options: QueryOptions) => {
+  const filter = options?.filter;
+  const conditional = filter && FILTERS[filter];
+
+  const [rows] = await db.query(`
+    SELECT
+    count(1) as total_count
+    FROM
+      ${tableName} d
+    ${conditional ? 'WHERE ' + conditional : ''}
+  `);
+  return rows;
+};
+
 export const getStatistics = lazyCache(
-  'get-statistics-value22',
+  'get-statistics',
   // eslint-disable-next-line @typescript-eslint/no-unused-vars
   async (tableName: TableNames, options?: QueryOptions, _filter?: string) => {
     const { yearlySum, monthlyIncrease } = await queryStatistics(
