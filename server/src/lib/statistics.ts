@@ -22,7 +22,7 @@ export default class Statistics {
     router.get('/downloads', this.downloadCount);
     router.get('/clips', validate({ query: clipStatScehma }), this.clipCount);
     router.get('/speakers', this.uniqueSpeakers);
-    router.get('/accounts', this.accounts);
+    router.get('/accounts', this.accountCount);
     router.get(
       '/sentences',
       validate({ query: sentenceStatScehma }),
@@ -55,7 +55,7 @@ export default class Statistics {
     return response.json(await getStatistics(TableNames.CLIPS));
   };
 
-  accounts = async (request: Request, response: Response) => {
+  accountCount = async (request: Request, response: Response) => {
     const filter = 'hasEmail';
     return response.json(await getStatistics(TableNames.USERS, { filter }));
   };
