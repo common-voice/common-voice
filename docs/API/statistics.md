@@ -59,7 +59,8 @@ Example of JSON Response:
 
 ```json
 {
-  "total_count": 11,
+  "yearly_sum": 11,
+  "total_count": 109,
   "monthly_increase": {
     "2022-10-26": 3,
     "2022-7-21": 2,
@@ -80,7 +81,8 @@ Example of JSON Response:
 
 `monthly_running_totals` represents the running total of statistics (total existing value + current month value).
 
-`total_count` represents the sum of all monthly increases for the past 12 months
+`yearly_sum` represents the sum of all monthly increases for the past 12 months
+`total_count` represents total count of all that values in the database (Not dependant on time)
 
 ## Implementation Details
 
