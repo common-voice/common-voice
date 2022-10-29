@@ -596,6 +596,9 @@ about-playbook-how-grow-language-content-4 = Medyaya civakî
 
 ## How are decisions made
 
+about-playbook-how-project-governance-content-3 = Nihênî, ewlehî û zelalî.
+about-playbook-how-project-governance-content-4 = Beşdarbûna civakê û biryar dayin.
+about-playbook-how-project-governance-content-5 = Nirx û nasîn
 
 ## Glossary
 
@@ -742,6 +745,7 @@ language-section-launched-description =
 languages-show-more = Zêdetir bibîne
 languages-show-less = Kêmtir bibîne
 language-meter-in-progress = Pêşveçûn
+language-total-progress = Giştî
 language-search-input =
     .placeholder = Lê bigere
 language-speakers = Axiver
@@ -947,10 +951,12 @@ download-info = Tu dixwazî çi daxînî:
 download-profile-title = Profîl
 download-profile-size = Çendek bayt
 download-recordings-title = Tomar
+download-recordings-size = Bi piranî çendek megabayt
 download-size = Mezinahî
 download-selected = Hilbijartî
 download-start = Daneyên profîlê daxîne
 download-request = Tomaran bixwaze
+download-requests = Daxwazên daxistinê yên tomarên dawîn
 download-request-button = Daxîne
 download-request-title = { $created }
 download-request-description = { $clipCount } tomarên dengî, mezinahiya arşîvê ya giştî { $size }. Dawiya maweyê: { $expires }.
@@ -1012,6 +1018,7 @@ contribution-criteria-link = Krîterên beşdarîkirinê fêm bike
 contribution-criteria-page-title = Krîterên Beşdarîkirinê
 contribution-for-example = mînak
 contribution-misreadings-title = Xwendinên çewt
+contribution-background-noise-title = Qerebalixa paşxanê
 contribution-background-voices-title = Dengên ji paşxanê
 contribution-volume-title = Piledeng
 contribution-reader-effects-title = Efektên Xwînerê
