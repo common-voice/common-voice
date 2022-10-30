@@ -4,9 +4,17 @@ yes-receive-emails = Heya, mi rê e-maîlan birusne. Ez wazena derheqê projeyê
 stayintouch = Mozîlla de ma komelêkê teknolojîya vengî awan kenîme. Ma wazenîme seba rojanekerdişan û çimeyanê dayeyan ê neweyan ra to de bikewîme têkilîye û bizanîme ke ti nê dayeyan senî xebitnenî/a.
 privacy-info = Ma soz danîme ke melumatê to bi baldarî bigurenîme. Seba zêde melumat, <privacyLink>Vilaweka Nimiteyîye</privacyLink> biwane.
 return-to-cv = Agêre Common Voice
+email-input =
+    .label = E-maîl
+submit-form-action = Birusne
+loading = Bar beno...
+email-opt-in-info = Derheqê Common Voice de ez wazena e-maîlan, sey vîrardişê hedefan, rewşa averşîyayîşî yan zî xebernameyan, bigîrî.
 email-opt-in-info-title = Beşdarê lîsteya e-maîlanê Common Voice bibe
 email-opt-in-info-sub-with-challenge = Derheqê Common Voice de e-maîlan bigîre, sey vîrardişê hedefan, rewşa averşîyayîşî yan zî xebernameyan.
 indicates-required = Warê bi estareyî (*) mecburî yê.
+not-available-abbreviation = çin o
+banner-error-slow-1 = Qusurî de nîyamede, Common Voice giran xebitîyeno. Seba eleqeyê to, ti weş be.
+banner-error-slow-2 = Trafîkê ma yê dayeyan zaf o û ma nawo qayîtê meseleyan kenîme.
 banner-error-slow-link = Rîpelê Rewşe
 error-something-went-wrong = Qusurî ra meewnî, şaşîyêk qewimîyaye
 
