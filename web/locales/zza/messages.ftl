@@ -13,6 +13,11 @@ error-something-went-wrong = Qusurî ra meewnî, şaşîyêk qewimîyaye
 
 ab = Abxazkî
 az = Azerkî
+cs = Çekkî
+es = Spankî
+et = Estonkî
+eu = Baskkî
+fa = Fariskî
 
 # [/]
 
