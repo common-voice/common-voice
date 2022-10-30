@@ -1,5 +1,9 @@
 ## General
 
+return-to-cv = Agêre Common Voice
+indicates-required = Warê bi estareyî (*) mecburî yê.
+banner-error-slow-link = Rîpelê Rewşe
+error-something-went-wrong = Qusurî ra meewnî, şaşîyêk qewimîyaye
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -7,6 +11,8 @@
 
 ## Languages
 
+ab = Abxazkî
+az = Azerkî
 
 # [/]
 
@@ -113,35 +119,82 @@ faq-why-important-q = Çira muhîm o?
 
 ## Error pages
 
+error-code = Xeta { $code }
 
 ## Data
 
 data-download-yes = Heya
 data-download-deny = Ney
+data-other-goto = Şo { $name }
+release-version = Versîyon
+dataset-date = Tarîx
+license = Lîsans: <licenseLink>{ $license }</licenseLink>
+license-mixed = Têmîyan
+terms-agree = Ez qebul kena
+terms-disagree = Ez qebul nêkena
 
 ## Datasets Page
 
+language = Ziwan
+# File size in gigabytes
+size = Girsîye
+cv-license = Lîsans
+size-gigabyte = GB
+size-megabyte = MB
+subscribe = Abone be
+more = Hîna zaf
+close = Pade
+download = Bîya war
+dataset-version = Versîyon
 
 ## Download Modal
 
+download-no = Ney, sipas
 
 ## Contact Modal
 
+contact-form-name =
+    .label = Name
+contact-form-message =
+    .label = Peyam
+contact-required = *mecburî
 
 ## Request Language Modal
 
+request-language-form-language =
+    .label = Ziwan
+select-language = Ziwanêk weçîne...
+other-language = Ziwanêko bîn
 
 ## Request Language Pages
 
+request-language-form-info-explanation-list-1 = Nameyê ziwanê to
 
 ## Languages Overview
 
+language-total-progress = Pêro pîya
+language-search-input =
+    .placeholder = Bigêre
+language-speakers = Qiseykerdoxî
+sentences = Cumleyî
+language-validation-hours = Saetî
 
 ## Contribution
 
+action-click = Bitikne
+action-tap = Bêçike pane
+contribute = Beşdar be
+listen = Goşdar bike
+skip = Ravêre
+shortcuts = Kilmrayîrî
+record-three-more-instruction = Hîrê hebî mendî!
 
 ## Reporting
 
+report-other-comment =
+    .placeholder = Şîrove
+success = Qedîya!
+continue = Dewam ke
 
 ## Goals
 
