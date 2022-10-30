@@ -8,6 +8,7 @@ email-input =
     .label = Imɛyi
 submit-form-action = Ka lase
 loading = A bɛ na
+banner-error-slow-1 = Hakɛto Common Voice ka suma. I ni ce I ka danaya  kɔsɔn
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
