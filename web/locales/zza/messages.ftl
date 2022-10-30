@@ -1,5 +1,8 @@
 ## General
 
+yes-receive-emails = Heya, mi rê e-maîlan birusne. Ez wazena derheqê projeyê Common Voiceyî de haydar bimanî.
+stayintouch = Mozîlla de ma komelêkê teknolojîya vengî awan kenîme. Ma wazenîme seba rojanekerdişan û çimeyanê dayeyan ê neweyan ra to de bikewîme têkilîye û bizanîme ke ti nê dayeyan senî xebitnenî/a.
+privacy-info = Ma soz danîme ke melumatê to bi baldarî bigurenîme. Seba zêde melumat, <privacyLink>Vilaweka Nimiteyîye</privacyLink> biwane.
 return-to-cv = Agêre Common Voice
 indicates-required = Warê bi estareyî (*) mecburî yê.
 banner-error-slow-link = Rîpelê Rewşe
@@ -18,6 +21,7 @@ es = Spankî
 et = Estonkî
 eu = Baskkî
 fa = Fariskî
+ia = Interlingua
 
 # [/]
 
