@@ -7,6 +7,7 @@ return-to-cv = Segin ka ta Common Voice Kan
 email-input =
     .label = Imɛyi
 submit-form-action = Ka lase
+loading = A bɛ na
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
