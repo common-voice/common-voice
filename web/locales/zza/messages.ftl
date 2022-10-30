@@ -11,6 +11,7 @@ loading = Bar beno...
 email-opt-in-info = Derheqê Common Voice de ez wazena e-maîlan, sey vîrardişê hedefan, rewşa averşîyayîşî yan zî xebernameyan, bigîrî.
 email-opt-in-info-title = Beşdarê lîsteya e-maîlanê Common Voice bibe
 email-opt-in-info-sub-with-challenge = Derheqê Common Voice de e-maîlan bigîre, sey vîrardişê hedefan, rewşa averşîyayîşî yan zî xebernameyan.
+email-opt-in-privacy-v2 = Bi qebulkerdişê resayîşê e-maîlan ti destûr danî/a ke Mozîlla nê melumatî goreyê <privacyLink>Polîtîkaya Nimiteyîye</privacyLink> bixebitno.
 indicates-required = Warê bi estareyî (*) mecburî yê.
 not-available-abbreviation = çin o
 banner-error-slow-1 = Qusurî de nîyamede, Common Voice giran xebitîyeno. Seba eleqeyê to, ti weş be.
@@ -25,6 +26,7 @@ error-something-went-wrong = Qusurî ra meewnî, şaşîyêk qewimîyaye
 ## Languages
 
 ab = Abxazkî
+ace = Açexneskî
 az = Azerkî
 cs = Çekkî
 es = Spankî
