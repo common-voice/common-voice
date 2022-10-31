@@ -215,8 +215,7 @@ const getTotal = async (
 
 export const getStatistics = lazyCache(
   'get-stats',
-  // eslint-disable-next-line @typescript-eslint/no-unused-vars
-  async (tableName: TableNames, options?: QueryOptions, _filter?: string) => {
+  async (tableName: TableNames, options?: QueryOptions) => {
     const { yearlySum, totalCount, monthlyIncrease } = await queryStatistics(
       tableName,
       options
