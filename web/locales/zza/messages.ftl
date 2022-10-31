@@ -119,6 +119,8 @@ mg = Madagaskî
 mhr = Markîya Deşte
 mk = Makedonkî
 ml = Malayalamkî
+ru = Rûskî
+yi = Yîdkî
 zu = Zulu
 
 # [/]
@@ -154,7 +156,24 @@ wall-of-text-start = Veng tebîî yo, veng însanî yo. Coka ma bala xo danîme 
 wall-of-text-more-mobile = Zafêrîya dayeyan ke hetê şîrketanê girsan ra yena xebitnayene, seba rayapêroyî mewcûd nîya. Goreyê ma, wina înovasyon asteng beno. Coka ma projeyê Common Voice da destpêkerdene ke teknolojîya naskerdişê vengî her kesî rê akerde bo.
 help-us-title = Hetkarîya ma bike ke cumleyan tesdîq bikerîme!
 help-us-explain = Bicine, goşdar bike û ma ra vaje: tirêm cumleya cêrêne raşt wanîya?
-no-clips-to-validate = Winî aseno ke seba nê ziwanî qet klîb çin o ke bigoşdarê. De ti dest bide ma û vengê xo qeyd bike ke na kêmasî wedarîyo.
+no-clips-to-validate = Winî aseno ke seba nê ziwanî qet qeyd çin o ke bigoşdarê. De ti dest bide ma û vengê xo qeyd bike ke na kêmasî wedarîyo.
+all-locales = Pêro
+today = Ewro
+x-weeks-short =
+    { $count ->
+       *[other] { $count } hewteyî
+    }
+x-months-short =
+    { $count ->
+       *[other] { $count } aşmî
+    }
+x-years-short =
+    { $count ->
+       *[other] { $count } serrî
+    }
+help-make-dataset = Hetê ma bike ke komdayeyêko kalîteberz virazîme ke her kesî rê akerde yo
+sign-up-account = Hesabêk viraze
+email-subscription-title = seba xeberanê e-maîlî qeyd bibe
 
 ## Account Benefits
 
@@ -247,6 +266,7 @@ help-variants-explanation = Varyant formêkê ziwanî yo spesîfîk o. Sey nimû
 ## Profile - Email
 
 browse-file-title = Dosyaya resimî bar bike
+max-file-size = tewr zêde { $kb } kb
 
 ## Profile - Email
 
@@ -319,6 +339,10 @@ about-clip-graveyard = Goristanê Qeydan
 
 ## Glossary
 
+glossary = Ferhengek
+localization = Çarnayîş
+sentence-collection = Arêdayîşê Cumleyan
+de-identified = Anonîmkerde
 
 ## Error pages
 
@@ -326,24 +350,42 @@ error-code = Xeta { $code }
 
 ## Data
 
+data-download-button = Dayeyanê Common Voice Bîya War
 data-download-yes = Heya
 data-download-deny = Ney
+data-download-license = Lîsans: <licenseLink>CC-0</licenseLink>
+data-other-title = Komdayeyê vengî yê bînî…
 data-other-goto = Şo { $name }
+data-other-download = Dayeyan Bîya War
+data-bundle-button = Pakêta Komdayeyan Bîya War
+data-bundle-description = Dayeyê Common Voice zêdek pêro komdayeyê vengî yê corênî.
 release-version = Versîyon
 dataset-date = Tarîx
 license = Lîsans: <licenseLink>{ $license }</licenseLink>
 license-mixed = Têmîyan
 terms-agree = Ez qebul kena
 terms-disagree = Ez qebul nêkena
+review-submit-title = Çim Biçarne & Birusne
+review-recording = Çim Biçarne
+review-rerecord = Reyna qeyd bike
+review-cancel = Rusnayîşî betal bike
+review-keep-recordings = Qeydanê vengî wedare
+review-delete-recordings = Qeydanê mi biestire
 
 ## Datasets Page
 
+datasets-heading = Komdayeyî
 language = Ziwan
+download-dataset-header = Komdayeyî Bîya War
 # File size in gigabytes
 size = Girsîye
 cv-license = Lîsans
+audio-format = Formatê vengî
+number-of-voices = Hûmara vengan
+splits = Beşî
 size-gigabyte = GB
 size-megabyte = MB
+download-language = { $language } bîya war
 subscribe = Abone be
 more = Hîna zaf
 close = Pade
@@ -352,10 +394,14 @@ dataset-version = Versîyon
 
 ## Download Modal
 
+download-form-email =
+    .label = E-maîlê xo binuse
+    .value = Weş be, ma to xeberdar kenîme.
 download-no = Ney, sipas
 
 ## Contact Modal
 
+contact-title = Formê têkilîye
 contact-form-name =
     .label = Name
 contact-form-message =
@@ -364,6 +410,7 @@ contact-required = *mecburî
 
 ## Request Language Modal
 
+request-language-title = Waştişê Ziwanî
 request-language-form-language =
     .label = Ziwan
 select-language = Ziwanêk weçîne...
@@ -371,14 +418,23 @@ other-language = Ziwanêko bîn
 
 ## Request Language Pages
 
+request-language-form-email =
+    .label = Adresa to ya e-maîlî
+request-language-form-info =
+    .label = Derheqê ziwanî de melumat
 request-language-form-info-explanation-list-1 = Nameyê ziwanê to
 
 ## Languages Overview
 
+language-section-in-progress = Dewam beno
+languages-show-more = Hîna Zaf Bivîne
+languages-show-less = Kêmî Bivîne
+language-meter-in-progress = Averşîyayîş
 language-total-progress = Pêro pîya
 language-search-input =
     .placeholder = Bigêre
 language-speakers = Qiseykerdoxî
+localized = Çarnîyaye
 sentences = Cumleyî
 language-validation-hours = Saetî
 
