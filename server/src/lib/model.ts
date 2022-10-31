@@ -5,7 +5,7 @@ import { DBClip } from './model/db/tables/clip-table';
 import lazyCache from './lazy-cache';
 import { secondsToHours } from './utils/secondsToHours';
 
-// TODO: make use of new API to get languages clip data
+// TODO: Retrieve average clip data from database (datasets/locale_datasets tables)
 const AVG_CLIP_SECONDS = 4.694;
 const AVG_CLIP_SECONDS_PER_LOCALE: { [locale: string]: number } = {
   en: 5.146,
@@ -106,6 +106,7 @@ const AVG_CLIP_SECONDS_PER_LOCALE: { [locale: string]: number } = {
 const getAverageSecondsPerClip = (locale: string) =>
   AVG_CLIP_SECONDS_PER_LOCALE[locale] || AVG_CLIP_SECONDS;
 
+// TODO: Update startup script to save % and retreive from database
 function fetchLocalizedPercentagesByLocale(): Promise<any> {
   return request({
     uri: 'https://pontoon.mozilla.org/graphql?query={project(slug:%22common-voice%22){localizations{totalStrings,approvedStrings,locale{code}}}}',

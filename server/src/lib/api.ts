@@ -33,12 +33,14 @@ import validate, {
   sendLanguageRequestSchema,
   datasetSchema,
 } from './validation';
+import Statistics from './statistics';
 
 export default class API {
   model: Model;
   clip: Clip;
   challenge: Challenge;
   email: Email;
+  statistics: Statistics;
   private readonly s3: S3;
   private readonly bucket: Bucket;
   readonly takeout: Takeout;
@@ -46,6 +48,7 @@ export default class API {
   constructor(model: Model) {
     this.model = model;
     this.clip = new Clip(this.model);
+    this.statistics = new Statistics(this.model);
     this.challenge = new Challenge(this.model);
     this.email = new Email();
     this.s3 = AWS.getS3();
@@ -95,6 +98,7 @@ export default class API {
       validate({ body: sendLanguageRequestSchema }),
       this.sendLanguageRequest
     );
+    router.use('/statistics', this.statistics.getRouter());
 
     router.get(
       '/:locale/sentences',
