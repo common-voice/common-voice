@@ -139,6 +139,10 @@ terms = Şert û merc
 cookies = Kukî
 faq = PZP
 content-license-text = Tedeyî binê <licenseLink>lîsansê Creative Commonsî</licenseLink> de pêşkêş benê.
+share-text = Hetê ma bike ke ma makîna rê bimusnîme merdimê raştikênî senî qesey kenê: { $link } ser o vengê xo bibexişne!
+link-copied = Lînk kopya bî
+back-top = Agêre cor
+logout = Vejîye
 
 ## Home Page
 
