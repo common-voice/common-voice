@@ -712,7 +712,9 @@ datasets-positioning =
     이 페이지는 다른 오픈 소스 음성 데이터 세트의 참조처이자, Common Voice가 성장해 감에 따라 공개될 업데이트를 위한 장소가 될 것입니다.
 language = 언어
 download-dataset-header = 데이터세트 다운로드
+download-delta-explainer = 변경 사항이 있습니다. 델타 세그먼트에는 마지막 릴리스 이후 가장 최근 클립만 포함됩니다. <deltaLink>이 일에 대해 자세히 알아보세요</deltaLink>.
 download-dataset-tag = 원하는 언어 데이터 세트를 선택하고 다운로드하려는 버전을 선택하십시오.
+download-dataset-access = 이전 데이터 세트 릴리스를 찾고 계십니까? <emailLink>{ $email }</emailLink>로 이메일을 보내주세요.
 # File size in gigabytes
 size = 크기
 validated-hr-total = 검증된 시간 합계
