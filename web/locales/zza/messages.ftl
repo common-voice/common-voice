@@ -437,6 +437,7 @@ language-speakers = Qiseykerdoxî
 localized = Çarnîyaye
 sentences = Cumleyî
 language-validation-hours = Saetî
+language-validation-progress = Averşîyayîşê Tesdîqan
 
 ## Contribution
 
@@ -446,6 +447,16 @@ contribute = Beşdar be
 listen = Goşdar bike
 skip = Ravêre
 shortcuts = Kilmrayîrî
+clips-with-count-pluralized =
+    { $count ->
+       *[other] <bold>{ $count }</bold> qeydê vengî
+    }
+record-cta = Dest bi qeydî bike
+record-no-mic-found = Mîkrofon nêame dîyene.
+record-error-too-short = Qeydê to zêde kilm bî.
+record-error-too-long = Qeydê to zêde derg bî.
+record-error-too-quiet = Qeydê to zaf bêveng bî.
+record-cancel = Qeydo newe betal bike
 record-three-more-instruction = Hîrê hebî mendî!
 
 ## Reporting
