@@ -510,24 +510,59 @@ toward-next-goal = Ver bi hedefo ameyox
 goal-reached = Reşt hedef
 stats = Statîstîk
 awards = Xelatî
+you = Ti
+everyone = Her kes
+contribution-activity = Aktîvîteyê Beşdaran
+top-contributors = Beşdarê Tewr Aktîfî
+recorded-clips = Vengê Qeydkerdeyî
+validated-clips = Vengê Tesdîqkerdeyî
+total-approved = Pêro Tedîqkerdeyî
 
 ## Custom Goals
 
+both-speak-and-listen = Her di
+easy-difficulty = Asan
+average-difficulty = Mîyanên
+difficult-difficulty = Zor
+pro-difficulty = Profesyonel
+cant-decide = Nêeşkenî/a qerar bidê?
+n-clips-pluralized =
+    { NUMBER($count) ->
+       *[other] { $count } qeydê vengî
+    }
+share-goal-type-speak = Qiseykerdiş
+share-goal-type-listen = Goşdarkerdiş
+share-goal-type-both = Qiseykerdiş û Goşdarkerdiş
 
 ## Profile Delete
 
+keep = Wedare
+remove = Biestire
+profile-form-delete = Profîlê xo biestire
 
 ## Profile Download
 
+download-profile-title = Profîl
+download-size = Girsîye
+download-selected = Weçînite
+download-request-button = Bîya war
+download-request-refresh-button = Newe bike
+download-request-metadata-link = Metnê cumle
 
 ## Landing
 
 
 ## DemoLayout
 
+demo-get-started = De dest pêkerîme
+demo-welcome = Şima xeyrî ameyî Common Voice
 
 ## Demo Datasets
 
+card-button-next = Aver
+card-button-back = Apey
+demo-language-select-label = Ro ziwanan bigêre
+demo-account = Hesab
 
 ## Demo Account
 
@@ -540,6 +575,11 @@ awards = Xelatî
 
 ## Validation criteria
 
+contribution-criteria-nav = Krîterî
+contribution-for-example = nimûne
+contribution-misreadings-title = Wendişê şaşî
+contribution-volume-title = Berzîya Vengî
+contribution-just-unsure-title = Emîn nîyî/nîya?
 
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
@@ -548,6 +588,18 @@ awards = Xelatî
 
 ## HEADER/FOOTER
 
+sc-header-home = Keyepel
+sc-header-how-to = Senî beno
+sc-header-add = Îlawe ke
+sc-header-review = Çim Biçarne
+sc-header-my = Cumleyê Mi
+sc-header-statistics = Statîstîkî
+sc-header-profile = Profîl
+sc-footer-privacy = Nimiteyîye
+sc-footer-terms = Şert û merc
+sc-footer-cookies = Kukî
+sc-login-signup-button = Dekewe / Qeyd be
+sc-logout-button = Vejîye
 
 ## HOME
 
@@ -557,9 +609,14 @@ awards = Xelatî
 
 ## HOW-TO
 
+sc-howto-title = Senî beno
 
 ## MY SENTENCES
 
+sc-my-title = Cumleyê Mi
+# Variables:
+#   $source (String) - Associated source the user filled out when uploading the sentence
+sc-my-source = Çime: { $source }
 
 ## REJECTED
 
