@@ -27,6 +27,13 @@ error-something-went-wrong = Qusurî ra meewnî, şaşîyêk qewimîyaye
 
 ab = Abxazkî
 ace = Açexneskî
+ady = Adîgekî
+af = Afrîkanskî
+am = Amharkî
+an = Aragonkî
+ar = Erebkî
+arn = Mapudungun
+as = Asamkî
 az = Azerkî
 cs = Çekkî
 es = Spankî
