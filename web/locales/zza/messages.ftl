@@ -152,12 +152,20 @@ default-tagline = Mozîlla Common Voice projeyêk o ke makînayan (komputuran) r
 home-cta = Fekê xo ake, dest bide ma!
 wall-of-text-start = Veng tebîî yo, veng însanî yo. Coka ma bala xo danîme ser ke seba makînayanê xo teknolojîya vengî ya feydedare virazîme. Labelê, seba viraştişê sîstemanê vengan xeylê dayeyê vengî lazim ê.
 wall-of-text-more-mobile = Zafêrîya dayeyan ke hetê şîrketanê girsan ra yena xebitnayene, seba rayapêroyî mewcûd nîya. Goreyê ma, wina înovasyon asteng beno. Coka ma projeyê Common Voice da destpêkerdene ke teknolojîya naskerdişê vengî her kesî rê akerde bo.
+help-us-title = Hetkarîya ma bike ke cumleyan tesdîq bikerîme!
+help-us-explain = Bicine, goşdar bike û ma ra vaje: tirêm cumleya cêrêne raşt wanîya?
+no-clips-to-validate = Winî aseno ke seba nê ziwanî qet klîb çin o ke bigoşdarê. De ti dest bide ma û vengê xo qeyd bike ke na kêmasî wedarîyo.
 
 ## Account Benefits
 
+benefits = Feydeyî
 
 ## What's public
 
+whats-public = Kesê bînî çi vînenê?
+email-not-public = Ma e-maîlê to neşr nêkenîme.
+recordings-and-locale-public = Hûmara qeydanê to û ziwanê ke ti beşdarê ci bîyî/bîya, ê hetê kesanê bînan ra yenê dîyene.
+username-optin-public = Weçîne eke nameyê to yê xebitnayoxî anonîm yan zî akerde bo.
 
 ## Speak & Listen Shortcuts
 
@@ -167,12 +175,41 @@ wall-of-text-more-mobile = Zafêrîya dayeyan ke hetê şîrketanê girsan ra ye
 
 ## Speak Shortcuts
 
+shortcut-record-toggle-label = Qeyd bike/Bivindarne
+shortcut-rerecord-toggle = [1-5]
+shortcut-discard-ongoing-recording = ESC
+shortcut-submit = Apey
 
 ## ProjectStatus
 
+status-contribute = Vengê Xo Bibexişne
+# Variables:
+# $goal - number of hours representing the next goal
+status-goal = Hedefo ameyox: { $goal }
+english = Îngilizkî
 
 ## ProfileForm
 
+profile-form-username =
+    .label = Nameyê Xebitnayoxî
+profile-form-native-language =
+    .label = Ziwanê Dayîke
+profile-form-additional-language =
+    .label = Yewna Ziwan
+profile-form-language =
+    .label = Ziwan
+profile-form-variant =
+    .label = Ti kamcîn varyantê { $language } qisey kenî/a?
+profile-form-variant-default-value = Varyant nêame weçînitene.
+profile-form-accent =
+    .label = Fek
+profile-form-custom-accent-help-text =
+    .label = Ti fekê xo senî tarîf kenî/a?
+profile-form-custom-accent-placeholder-2 = Binuse û fekê xo tarîf bike
+profile-form-age =
+    .label = Serrî
+profile-form-gender-2 =
+    .label = Cinsîyet
 native-language =
     .label = Ziwanê Dayîke
 profile-form-submit-save = Qeyd ke
