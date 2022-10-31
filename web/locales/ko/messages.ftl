@@ -712,6 +712,7 @@ datasets-positioning =
     이 페이지는 다른 오픈 소스 음성 데이터 세트의 참조처이자, Common Voice가 성장해 감에 따라 공개될 업데이트를 위한 장소가 될 것입니다.
 language = 언어
 download-dataset-header = 데이터세트 다운로드
+download-dataset-tag = 원하는 언어 데이터 세트를 선택하고 다운로드하려는 버전을 선택하십시오.
 # File size in gigabytes
 size = 크기
 validated-hr-total = 검증된 시간 합계
