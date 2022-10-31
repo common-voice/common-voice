@@ -320,6 +320,11 @@ change-email-setings = E-maîlê xo Eyaran de binê Nasnameyê Dekewtişî de bi
 
 faq-title = Persê ke Zaf Pers Benê
 faq-what-cv-q = Common Voice çi yo?
+faq-what-cv-a = Teknolojîya naskerdişê vengî hawayo ke ma makînayan reyde kewenîme têkilîye, tede şoreşêk virazena. Çi est o ke sîstemê ke no taw est ê, vay û tescîlkerde yê. Common Voice parçeyê înîsîyatîfê  Mozîlla yo ke wazeno teknolojîya naskerdişê vengî rindêr û her kesî rê akerde bikero. Common Voice komdayeyêkê venganê bexişnayeyan o girso global o. Pê her kes eşkeno bi rehetî û lezî appanê bi fonksîyonanê vengî rê hema-hema her ziwan bimusno.
+faq-what-cv-a-2 =
+    Teknolojîya naskerdişê vengî hawayo ke ma makînayan reyde kewenîme têkilîye, tede şoreşêk virazena. Çi est o ke sîstemê ke no taw est ê, vay û tescîlkerde yê. Common Voice parçeyê înîsîyatîfê  Mozîlla yo ke wazeno teknolojîya naskerdişê vengî rindêr û her kesî rê akerde bikero. Common Voice komdayeyêkê venganê bexişnayeyan o girso global o. Pê her kes eşkeno bi rehetî û lezî appanê bi fonksîyonanê vengî rê hema-hema her ziwan bimusno.
+    
+    Ma nimûneyanê vengî tena ziwananê vilabîyayeyan ra ney, la ziwananê bi nufusanê qijkekan ra kî danîme arê. Weşanayîşê komdayeyanê vengan ê cîya-cîyayan do viraştox, karsaz û komelan rê îmkan bido ke na kêmasîye bi xo çareser bikerê.
 faq-why-important-q = Çira muhîm o?
 faq-how-get-q = Ez senî resena dayeyanê Common Voice?
 faq-why-my-lang-q = Çira ziwanê mi hema tede çin o?
