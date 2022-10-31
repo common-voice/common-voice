@@ -76,6 +76,7 @@ gom = Конкани (Гоа)
 ha = Хауса
 he = Яһүд
 hi = Һинди
+hil = Хилигайнон
 hr = Хорват
 hsb = Югары сорб
 ht = Гаити креол
@@ -90,6 +91,7 @@ is = Исланд
 it = Итальян
 izh = Ижор
 ja = Япон
+jbo = Ложбан
 ka = Грузин
 kaa = Каракалпак
 kab = Кабил
@@ -98,6 +100,7 @@ ki = Кикуйу
 kk = Казакъ
 km = Кхмер
 kmr = Курманҗи көрд
+kn = Каннада
 knn = Конкани (Деванагари)
 ko = Корей
 kpv = Коми-зырян
@@ -106,6 +109,8 @@ ky = Кыргыз
 lb = Люксембург
 lg = Луганда
 lij = Лигур
+ln = Лингала
+lo = Лао
 lt = Литва
 lv = Латыш
 mai = Майтһили
@@ -152,11 +157,13 @@ sah = Саха
 sat = Сантали (Ол-чики)
 sc = Сардин
 scn = Сицилия
+sdh = Көньяк көрд
 shi = Шилһа
 si = Синһала
 sk = Словак
 skr = Сирайки
 sl = Словен
+snk = Сонинке
 so = Сомали
 sq = Албан
 sr = Серб
@@ -194,6 +201,7 @@ xh = Коса
 yi = Идиш
 yo = Йоруба
 yue = Кантон
+zgh = Тамазигхт
 zh-CN = Кытай (Кытай)
 zh-HK = Кытай (Гонконг)
 zh-TW = Кытай (Тайвань)
@@ -490,6 +498,9 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Нигә Common Voice?
+about-header-description-v2 =
+    <p>Common Voice — бөтен дөнья волонтёрларының тавышларын эченә алучы, һәркем дә куллана алырлык тавыш язмалары тупланмасы. Тавыш кушымталары төзергә теләгән кешеләр әлеге мәгълүмат тупланмасын машина өйрәнү модельләрен өйрәтү өчен куллана ала.</p>
+    <p>Хәзерге вакытта тавыш язмасы тупланмаларының күпчелегенә ширкәтләр ия. Бу хәл инновацияләрне тоткарлый. Моннан тыш, тавыш язмаларының тупланмаларында инглизчә сөйләшүче ак ир-атлар өстенлек итә. Димәк, тавыш технологияләре күп телләрдә бөтенләй эшләми һәм эшләгәндә, ул һәркем өчен дә тигез эшли алмый. Без кешеләрне тавышларын уртаклашырга җәлеп итеп моны үзгәртергә телибез.</p>
 how-does-it-work-title-v2 = Common Voice ничек эшли?
 how-does-it-work-text = Без ачык аудиоязма тупланмасын төзибез. Тавышыгызны иганә итегез, башка кешеләр яздырган аудиоязмаларның төгәллеген тикшерегз, бу мәгълүмат тупланмасын һәркем өчен дә яхшыртыгыз.
 
@@ -547,12 +558,22 @@ about-nav-playbook = Ничек катнашып булганын өйрәнег
 about-playbook-what-is-language = Common Voice-та тел нәрсә ул?
 about-playbook-what-is-language-content-1 = Тел турында уйлануның бик күп ысуллары бар. Сөйләм тану модельләрен үстерү максатына килгәндә, Common Voice "үзара аңлаешлылык"ка, ягъни "бу телдә сөйләшүчеләр бер-берсен аңлый алырлар идеме?" сорауына игътибар итәргә тәкъдим итә.
 about-playbook-what-is-language-content-2 = Сөйләм модельләренең төрлечә сөйләүчеләрне дә яхәырак аңлауларын телибез. Моның өчен тавышлы мәгълүмат тупланмаларының күп һәм төрле-төрле кешеләрне чагылдырырга тиеш.
+about-playbook-what-is-language-content-3 = Кайбер телләрнең грамматика, сүз байлыгы һәм әйтелеше ягыннан бер-берсеннән нык аерылучы вариантлары бар. Бу сәбәптән, без 2022 нче елда Common Voice-ка <ctaLink>«Вариантлар» дигән яңа үзенчәлек өстәргә булдык</ctaLink>. Бу үзенчәлек берләшмәләргә зуррак мәгълүматлар тупланмасы эченнән үз телләрен аерып алуны мөмкин итә.
 
 ## How do I add a language
 
 about-playbook-how-add-language = Телне ничек өсти алам?
+about-playbook-how-add-language-content-1 =
+    Иң әүвәл телегез <languageLink>инде өстәлгәнме-юкмы икәнен</languageLink> тикшерегез.
+    Өстәлмәгән булса, <languageRequestLink>телегезнең өстәлүен сорый</languageRequestLink> аласыз.
+    Ике адым бар: сайтны тәрҗемә итү, җөмләләр туплау
 about-playbook-how-add-language-translating-heading = Сайтны тәрҗемә итү
 about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Pontoon-ны куллану тәртибе турындагы видеобызны карагыз</translateVideoLink>
+about-playbook-how-add-language-translating-content-2 =
+    Тәрҗемә өчен <pontoonLink>Pontoon</pontoonLink> дип аталучы Mozilla коралын кулланабыз. Pontoon-да бик күп телләр бар.
+    Әгәр Сезнеке юк икән, <pontoonRequestLink>телегезнең өстәлүен сорый аласыз</pontoonRequestLink>.
+    Аннары, телегез Common Voice проектында да кулланыла алсын өчен,
+    <githubRepoLink>GitHub-та яңа тел сорарга кирәк</githubRepoLink>. <localizationFragment>Сайт тәрҗемәсе турында күбрәк</localizationFragment>.
 about-playbook-how-add-language-collecting-sentences-heading = Җөмләләр туплау
 about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>Җөмләләр туплагычын ничек кулланылганын аңлатучы видеобызны карагыз</sentenceCollectorVideo>.
 about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>Җөмлә туплау турында күбрәк белү</sentenceCollectorFragment>.

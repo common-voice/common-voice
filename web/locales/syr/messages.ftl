@@ -1,6 +1,6 @@
 ## General
 
-yes-receive-emails = ܗܝ، ܫܕܪ ܩܐ ܕܝܝ ܐܝܡܝܠ. ܐܢܐ ܒܥܝܢ ܦܝܫܢ ܡܘܕܥܝܐ ܒܘܬ ܩܠܐ ܓܘܢܝܐ.
+yes-receive-emails = ܗܝ، ܫܕܪ ܩܐ ܕܝܝ ܐܝܡܝܠ. ܐܢܐ ܒܥܝܢ ܦܝܫܢ ܡܘܕܥܝܐ ܒܘܬ ܥܘܬܕܐ ܕܩܠܐ ܓܘܢܝܐ.
 stayintouch = ܐܚܢܢ ܒܡܘܙܝܠܐ ܒܢܝܐ ܝܘܚ ܫܘܬܦܘܬܐ ܠܚܘܕܪ̈ܘܢܐ ܕܝܘܠܦܢܐ ܐܘܡܢܘܬܐ ܕܩܠܐ (voice technology). ܐܚܢܢ ܒܥܝܚ ܡܕܥܚ ܩܐ ܕܝܘܟܘܢ ܠܚܘܕܬ̈ܐ، ܡܒܘ̈ܥܐ ܫܘܘܕܥܐ (data sources) ܚܕ̈ܬܐ ܘ ܫܡܥܚ ܒܘܬ ܦܠܚܢܐ ܕܝܘܟܘܢ ܒܫܘܘܕܥܐ.
 privacy-info = ܐܚܢܢ ܫܘܕܘܝܐ (promise) ܝܘܚ ܩܬ ܢܛܪܟ ܠܗ ܡܘܕܥܢܘܬܐ ܕܝܘܟܘܢ. ܩܪܝܡܘܢ <privacyLink> ܦܘܪܢܣܐ ܕܕܝܠܢܝܘܬܐ <privacyLink/>.
 return-to-cv = ܕܥܪ ܠܩܠܐ ܓܘܢܝܐ
@@ -9,13 +9,13 @@ email-input =
 submit-form-action = ܫܕܪ
 loading = ܡܛܥܢܬܐ ...
 email-opt-in-info = ܐܢܐ ܒܥܝܢ ܩܒܠܢ ܐܝܡܝܠ ܐܝܟ ܕܡܥܗܕ̈ܢܘܬܐ ܕܢܝܫ̈ܐ، ܚܘܕ̈ܬܐ ܕܪܗܬܝ ܘ ܛܒܐ ܡܛܠ ܩܠܐ ܓܘܢܝܐ.
-email-opt-in-info-title = ܢܩܦ (join) ܥܡ ܣܕܪܐ ܕܒܝܠܕܪܝܐ ܕܩܠܐ ܓܘܢܝܐ.
+email-opt-in-info-title = ܢܩܦ (join) ܥܡ ܣܕܪܐ ܒܝܠܕܪܝܐ ܕܩܠܐ ܓܘܢܝܐ.
 email-opt-in-info-sub-with-challenge = ܩܒܠܘܢ ܐܝܡܝܠ (email) ܐܝܟ ܡܘܪܝ̈ܐ (challenges)، ܡܥܗܕ̈ܢܘܬܐ ܕܢܝܫ̈ܐ (goal reminders)، ܚܘܕ̈ܬܐ ܕܪܗܬܝ (progress updates) ܘ ܛܒܐ ܡܛܠ ܩܠܐ ܓܘܢܝܐ.
 email-opt-in-privacy-v2 = ܒܫܪܟܬܐ ܕܐܝܡܝܠ، ܐܚܬܘܢ ܠܝܬ ܠܘܟܘܢ ܕܘܪܫܐ ܒܡܕܒܪܢܘܬܐ ܕܡܘܙܝܠܐ (mozilla) ܒܕܐܗܐ ܡܘܕܥܢܘܬܐ (information) ܐܝܟ ܝܠܗ ܡܘܕܥܝܬܐ ܓܘ <privacyLink> ܫܘܝܫܐ ܕܕܝܠܢܝܘܬܐ <privacyLink/> ܕܡܘܙܝܠܐ.
 indicates-required = * ܒܪܫܡܐ ܝܠܗ ܚܩܠܢ̈ܐ ܐܢܢܩܝ̈ܐ.
 not-available-abbreviation = ܠܐ ܡܬܬܥܒܕܢܐ
 banner-error-slow-1 = ܦܚܠܬܐ، ܩܠܐ ܓܘܢܝܐ ܦܠܚܢܐ ܝܠܗ ܝܩܘܪܐ. ܒܣܝܡܐ ܩܐ ܚܦܝܛܘܬܐ ܕܝܘܟܘܢ.
-banner-error-slow-2 = ܐܚܢܢ ܩܒܘܠ ܠܝ ܝܘܚ ܪܒܐ ܐܪܚܐ ܘ ܗܫܐ ܝܘܚ ܒܚܘܢܐ (investigating) ܐܢܝ ܥܣܩܘܬ̈ܐ (issues).
+banner-error-slow-2 = ܐܚܢܢ ܩܒܘܠ ܠܝ ܝܘܚ ܪܒܐ ܐܪܚܐ ܘܒܚܘܢܐ ܝܘܚ (investigating) ܐܢܝ ܥܣܩܘܬ̈ܐ (issues) ܗܫܝܐ.
 banner-error-slow-link = ܐܝܟܢܝܘܬܐ ܕܦܐܬܐ
 error-something-went-wrong = ܦܚܠܬܐ، ܐܝܬ ܠܢ ܚܕ ܚܠܛܐ.
 
@@ -125,10 +125,10 @@ help-us-title = ܥܕܪ ܩܬܢ ܒܫܪܪܬܐ ܕܡܡܠ݇ܠ̈ܐ!
 vote-yes = ܗܐ
 vote-no = ܠܐ
 speak-subtitle = ܫܘܬܦ ܩܠܘܟܘܢ
-speak-goal-text = ܡܐܡܪ̈ܐ ܡܟܬܒ݂ܝ
+speak-goal-text = ܡܐܡܪ̈ܐ ܡܟܬܒܝ
 listen-subtitle = ܥܕܪ ܩܬܢ ܒܫܪܘܪܐ ܕܩܠ̈ܐ
 listen-goal-text = ܡܐܡܪ̈ܐ ܫܪܝܪ̈ܐ
-hours-recorded = ܫܥ̈ܐ ܡܟܬܒ݂ܝ
+hours-recorded = ܫܥ̈ܐ ܡܟܬܒܝ
 hours-validated = ܫܥ̈ܐ ܫܪܝܪ̈ܐ
 voices-online = ܐܝܬ ܩܠ̈ܐ ܥܠ ܢܘܠܐ ܗܫܐ
 help-reach-goal = ܥܕܪ ܩܕ ܕܝܝܢ ܡܛܚ ܥܠ { $goal }
@@ -204,6 +204,7 @@ shortcut-record-toggle-label = ܡܟܬܒ/ܟܠܝ
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = ܡܐܡܪܐ ܡܟܬܒ݂ ܐܚܪܢܐ
 shortcut-discard-ongoing-recording = ܩܕܝܠܐ ܕܢܦܩܐ ESC
+shortcut-discard-ongoing-recording-label = ܡܗܡܐ ܡܟܬܒܘܬܐ ܗܫܝܐ
 shortcut-submit = ܕܥܪ
 shortcut-submit-label = ܫܕܪ ܡܐܡܪ̈ܐ
 request-language-button = ܛܠܒ ܠܫܢܐ
@@ -242,7 +243,7 @@ profile-form-accent =
     .label = ܠܥܙܐ
 profile-form-custom-accent-help-text =
     .label = ܕܐܟܝ ܦܫܩܝܬܘܢ ܠܗ ܠܥܙܐ ܕܝܘܟܘܢ؟
-profile-form-custom-accent-placeholder-2 = ܫܪܝ ܒܟܬܒܐ ܩܬ ܦܫܩܝܬܘܢ ܠܗ ܠܥܙܐ ܕܝܘܟܘܢ
+profile-form-custom-accent-placeholder-2 = ܫܪܝ ܒܟܬܒܐ ܩܐ ܦܫܩܬܐ ܕܠܥܙܐ ܕܝܘܟܘܢ
 profile-form-age =
     .label = ܫܢ̈ܐ
 profile-form-gender-2 =
@@ -407,6 +408,7 @@ keep = ܢܛܪ
 
 ## DemoLayout
 
+demo-get-started = ܬܝܡܘܢ ܫܪܚ
 
 ## Demo Datasets
 

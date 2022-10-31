@@ -11,6 +11,7 @@ loading = Kargatzen…
 email-opt-in-info = Common Voice-ri buruzko helburuen abisuak, nire aurrerapenaren eguneraketak eta buletinak jaso nahi ditut posta elektroniko bidez.
 email-opt-in-info-title = Batu Common Voice posta-zerrendara
 email-opt-in-info-sub-with-challenge = Jaso posta elektroniko bidez Common Voice-ri buruzko helburuen abisuak, aurrerapenaren eguneraketak eta buletinak.
+email-opt-in-privacy-v2 = E-postak jaso nahi dituzula adieraziz, Mozillak zure informazioa kudeatzea onartzen duzula esan nahi du, Mozillaren <privacyLink>pribatutasun politikan<privacyLink> adierazten den erara.
 indicates-required = * ikurrak ezinbesteko eremua dela esan nahi du
 not-available-abbreviation = N/A
 banner-error-slow-1 = Barkatu, Common Voice orain geldo dabil. Zure interesa eskertzen dugu.
@@ -385,6 +386,7 @@ skip-submission-note = Oharra: oraindik hautatu beharra duzu Mintzatu eta Entzun
 off = Itzalita
 on = Piztuta
 help-accent = Azentuarekin laguntza behar duzu?
+help-accent-explanation = Zure azentua hitzak ahoskatzen dituzun modua da. Beste faktore askoren artean, eragina dute non bizi izan zaren eta zein beste hizkuntza mintzatzen dituzun. Hemen, adierazgarria dela uste duzun edozein informazioa partekatu dezakezu.
 help-variants = Aldaerekin laguntza behar duzu?
 help-variants-explanation = Aldaerak hizkuntza baten forma espezifikoak dira - adibidez leku edo komunitate batean bizi direnek hitz egiten dutena. Batzuetan dialektoak deitzen zaie.
 
@@ -641,6 +643,9 @@ datasets-positioning =
     Begira orri honetan agertzen diren beste ahots datu-sorta irekien erreferentziak.
 language = Hizkuntza
 download-dataset-header = Deskargatu datu-sorta
+download-delta-explainer = Aldaketa batzuk egin ditugu. Delta Segment delakoak aurreko bertsioaren ondoren gehitu diren grabazioak ditu. <deltaLink>Irakurri gehiago lan honi buruz</deltaLink>.
+download-dataset-tag = Hautatu nahi duzun hizkuntza eta aukeratu deskargatu nahi duzun bertsioa.
+download-dataset-access = Datu-sorta zaharragoen bila zabiltza? Idatz iezaguzu hona: <emailLink> { $email } </emailLink>
 # File size in gigabytes
 size = Tamaina
 validated-hr-total = Baliozkotutako orduak guztira
@@ -864,7 +869,7 @@ todays-recorded-progress = Common Voicen gaurko aurrerapena egindako grabazioeta
 todays-validated-progress = Common Voicen gaurko aurrerapena balioztatutako grabazioetan
 stats = Estatistikak
 awards = Sariak
-you = Zuk
+you = zu
 everyone = Denek
 contribution-activity = Gaurko jarduera
 top-contributors = Laguntzaile gogotsuenak
@@ -900,10 +905,10 @@ help-reach-hours-pluralized =
        *[other] { $hours } ordu
     } lortzen { $language } hizkuntzan helburu pertsonal batekin
 help-reach-hours-general-pluralized =
-    Lagundu Common Voice-ri { NUMBER($hours) ->
-        [one] { $hours } ordu
-       *[other] { $hours } ordu
-    }lortzen hizkuntza batean helburu pertsonal batekin
+    { NUMBER($hours) ->
+        [one] Lagundu Common Voice-ri { $hours } ordu lortzen hizkuntza batean helburu pertsonal batekin
+       *[other] Lagundu Common Voice-ri { $hours } ordu lortzen hizkuntza batean helburu pertsonal batekin
+    }
 set-a-goal = Ezarri helburu bat
 cant-decide = Ezin duzu erabaki?
 how-many-per-day = Primeran! Zenbat grabazio egunean?
@@ -956,8 +961,10 @@ profile-form-delete = Ezabatu profila
 download-q = Zure datuak deskargatu behar dituzu?
 download-info = Esaguzu zer deskargatu nahiko zenukeen:
 download-profile-title = Profila
+download-profile-info = Orain eskuragarri dauden eposta, erabiltzaile-izena eta informazio demografikoa ditu.
 download-profile-size = Byte gutxi batzuk
 download-recordings-title = Grabazioak
+download-recordings-info = MP3ak eta dagozkien esaldiak ditu, denbora bat behar du prestatzeko
 download-recordings-size = Normalean megabyteak
 download-recordings-unavailable = Ezin dituzu zure grabazioak eskatu beste eskari bat martxan den bitartean.
 download-size = Tamaina

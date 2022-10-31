@@ -76,6 +76,7 @@ gom = Goan Konkanî
 ha = Hawsayî
 he = Îbranî
 hi = Hindî
+hil = Hiligaynonî
 hr = Xirwatî
 hsb = Sorbiya jorîn
 ht = Haîtiyî
@@ -90,6 +91,7 @@ is = Îzlandî
 it = Îtalî
 izh = Îzhoriyanî
 ja = Japonî
+jbo = Lojbanî
 ka = Gurcî
 kaa = Karakalpakî
 kab = Kabîlî
@@ -98,6 +100,7 @@ ki = Kikuyu
 kk = Qazaxî
 km = Xmerî
 kmr = Kurdî (Kurmancî)
+kn = Kannadayî
 knn = Konkanî (Devanagarî)
 ko = Koreyî
 kpv = Komî Ziryanî
@@ -106,6 +109,8 @@ ky = Kirgizî
 lb = Luksemburgî
 lg = Lugandayî
 lij = Liguriyanî
+ln = Lingalayî
+lo = Laoyî
 lt = Lîtwanî
 lv = Latviyayî
 mai = Maithili
@@ -152,11 +157,13 @@ sah = Saxayî
 sat = Santali (Ol Chiki)
 sc = Sardînî
 scn = Sicîlî
+sdh = Kurdî (Xwarîn)
 shi = Shilha
 si = Sinhalayî
 sk = Slovakî
 skr = Saîrîkî
 sl = Slovenî
+snk = Soninkeyî
 so = Somalî
 sq = Albanî
 sr = Sirbî
@@ -194,6 +201,7 @@ xh = Xhosa
 yi = Yîdîş
 yo = Yoruba
 yue = Kantonî
+zgh = Tamazightî
 zh-CN = Çînî (Çîn)
 zh-HK = Çînî (Hong Kong)
 zh-TW = Çînî (Taywan)
@@ -643,6 +651,8 @@ review-delete-recordings = Dengên min jê bibe
 datasets-heading = Komdane
 datasets-headline = Em komdaneyeke dengan a çavkanî vekirî û pirzimanî ava dikin ji bo ku her kes karibe pê sepanên xwe yên xwedî-axaftin rahênan bike.
 language = Ziman
+download-dataset-header = Komdaneyê Daxîne
+download-delta-explainer = { "" }
 # File size in gigabytes
 size = Mezinahî
 validated-hr-total = Tevahiya saetên piştrastkirî
@@ -666,6 +676,7 @@ subscribe = Bibe abone
 get-started-speech = Bi Nasîna Axaftinê Dest Pê Bike
 other-datasets = Komdaneyên din ên dengî
 feedback-q = Pêşniyara te heye?
+community-playbook = Pirtûka Berdest a Civakê
 data-other-ted-name = TED-LIUM Corpus
 data-other-ted-description = Danegeha TED-LIUM'ê ji danûstandinên dengî û transkrîpsiyonên wan ên li ser malpera TED'ê hatiye çêkirin.
 data-other-voxforge-description = VoxForge ji bo berhevkirina transkrîpsiyona xeberdanan bi Motorên Naskirina Xeberdanan yê Belaş-ji-bo-bikaranînê û Çavkanî-azad hatiye avakirin.
@@ -934,6 +945,8 @@ profile-form-delete = Profîlê jê bibe
 download-q = Pêwîst e tu daneyên xwe daxînî?
 download-info = Tu dixwazî çi daxînî:
 download-profile-title = Profîl
+download-profile-size = Çendek bayt
+download-recordings-title = Tomar
 download-size = Mezinahî
 download-selected = Hilbijartî
 download-start = Daneyên profîlê daxîne
@@ -999,6 +1012,7 @@ contribution-criteria-link = Krîterên beşdarîkirinê fêm bike
 contribution-criteria-page-title = Krîterên Beşdarîkirinê
 contribution-for-example = mînak
 contribution-misreadings-title = Xwendinên çewt
+contribution-background-voices-title = Dengên ji paşxanê
 contribution-volume-title = Piledeng
 contribution-reader-effects-title = Efektên Xwînerê
 contribution-just-unsure-title = Tu jê ne bawerî?
@@ -1047,6 +1061,7 @@ sc-howto-addlang-title = Tevlîkirina zimanên ku kar li ser tê kirin
 sc-howto-addsen-title = Hevokên nû tevlî bike
 sc-howto-cite-title = Çawa jê tê girtin
 sc-howto-review-title = Hevokan kontrol bike
+sc-howto-findpd-subtitle = Di înternetê de lê bigere
 
 ## MY SENTENCES
 
@@ -1085,6 +1100,8 @@ sc-submit-err-confirm-pd = Ji kerema xwe piştrast bikin ku ev hevok anonîm in.
 sc-submit-title = Hevokan tevlî bike
 sc-submit-select-language =
     .labelText = Zimên hilbijêre
+sc-submit-ph-one-per-line =
+    .placeholder = Serê rêzekê hevokek
 sc-submit-confirm = Ez piştrast dikim ku ev <wikipediaLink> hevokên anonîm ên </wikipediaLink>ê ne û destûra min a barkirinê heye.
 sc-submit-button =
     .submitText = Bişîne
@@ -1094,6 +1111,7 @@ sc-submit-button =
 sc-add-lang-could-not-add = Ziman nehat tevlîkirin
 sc-add-lang-sec-label = Zimanekî ku tu dixwazî beşdariyê lê bikî, tevlî bike
 sc-add-lang-sec-button = Zimên tevlî bike
+sc-add-err-submission = Çewtiya Şandinê
 
 ## ADD SENTENCES CONFIRMATION
 
@@ -1132,6 +1150,20 @@ sc-confirm-uploading = Hevok tên barkirin. Ev, girêdayî hejmara hevokên hati
 
 sc-lang-info-title-total = Giştî
 sc-lang-info-title-personal = Xebatên Te
+# Variables:
+#   $totalSentences (Number) - Number of sentences uploaded in total for this language
+sc-lang-info-total =
+    { $totalSentences ->
+        [0] Hevok tune.
+       *[other] Bi giştî { $totalSentences } hevok.
+    }
+# Variables:
+#   $totalInReview (Number) - Number of sentences currently in the review state for this language
+sc-lang-info-in-review =
+    { $totalInReview ->
+        [0] { "" }
+       *[other] { $totalInReview } hevok di kontrolê de ne.
+    }
 
 ## LOGIN
 

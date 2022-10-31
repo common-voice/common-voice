@@ -1,0 +1,214 @@
+## General
+
+yes-receive-emails = Awɔ, Imɛyiw ci N'ma.N b'a fɛ ka kɛ Common Voice Project kunnafoniw kalama
+stayintouch = Anw bɛ ka jama kafo kan fɛɛrɛw  dɛmɛli kama ,Mozila la yan.An b'a fɛ kubariya kuraw kalama ani ka dɔn I b'ala ka kumakan labaara togoya min na.
+privacy-info = An bɛ layidu ta I ye k'An b'I kumakan latanga.Nin kalan walasa  k'I ka famuya jiidi An ka Gindo Sariyaw la.
+return-to-cv = Segin ka ta Common Voice Kan
+email-input =
+    .label = Imɛyi
+submit-form-action = Ka lase
+
+# Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
+# [Languages]
+
+
+## Languages
+
+
+# [/]
+
+
+## Layout
+
+
+## Home Page
+
+
+## Account Benefits
+
+
+## What's public
+
+
+## Speak & Listen Shortcuts
+
+
+## Listen Shortcuts
+
+
+## Speak Shortcuts
+
+
+## ProjectStatus
+
+
+## ProfileForm
+
+
+## Profile - Email
+
+
+## Profile - Email
+
+
+## FAQ
+
+
+## ABOUT US
+
+
+## How does it work section
+
+
+## Community Playbook Content
+## What is a language
+
+
+## How do I add a language
+
+
+## How does localization work
+
+
+## How to add sentences
+
+
+## How to record quality
+
+
+## How to grow language
+
+
+## How to validate
+
+
+## How to access dataset
+
+
+## How are decisions made
+
+
+## Glossary
+
+
+## Error pages
+
+
+## Data
+
+
+## Datasets Page
+
+
+## Download Modal
+
+
+## Contact Modal
+
+
+## Request Language Modal
+
+
+## Request Language Pages
+
+
+## Languages Overview
+
+
+## Contribution
+
+
+## Reporting
+
+
+## Goals
+
+
+## Dashboard
+
+
+## Custom Goals
+
+
+## Profile Delete
+
+
+## Profile Download
+
+
+## Landing
+
+
+## DemoLayout
+
+
+## Demo Datasets
+
+
+## Demo Account
+
+
+## Demo Contribute
+
+
+## Demo Dashboard
+
+
+## Validation criteria
+
+
+# Don't rename the following section, its contents are auto-inserted based on the name. These strings are
+# automatically exported from Sentence Collector.
+# [SentenceCollector]
+
+
+## HEADER/FOOTER
+
+
+## HOME
+
+
+## GENERAL
+
+
+## HOW-TO
+
+
+## MY SENTENCES
+
+
+## REJECTED
+
+
+## STATS
+
+
+## ADD
+
+
+## ADD LANGUAGE
+
+
+## ADD SENTENCES CONFIRMATION
+
+
+## LANGUAGE INFO
+
+
+## LOGIN
+
+
+## PROFILE
+
+
+## REVIEW CRITERIA
+
+
+## REVIEW
+
+
+## SETTINGS
+
+
+# [/SentenceCollector]
+

@@ -423,7 +423,7 @@ browse-file = Traher e deponer o <browseWrap>Navigar</browseWrap>
 connect-gravatar = Connecter con Gravatar
 gravatar_not_found = Nulle gravatar trovate pro tu adresse de e-mail
 file_too_large = Le file seligite es troppo grande
-avatar-uploaded = Avatar cargate
+avatar-uploaded = Avatar incargate
 max-file-size = { $kb }kb max
 remove-avatar = Remover avatar
 
@@ -711,6 +711,10 @@ datasets-positioning =
     
     Reguarda iste pagina como centro de referentia pro altere collectiones de datos vocal libere e, como Common Voice continua a crescer, un pagina principal pro nostre actualisationes de version.
 language = Lingua
+download-dataset-header = Discarga le collection de datos
+download-delta-explainer = Nos faceva alcun modificationes. Le segmentos delta contine solo le plus recente registrationes plus recente desde le ultime version. <deltaLink>Pro leger plus re iste labor</deltaLink>.
+download-dataset-tag = Elige le collection de datos del lingua desirate e le version que tu vole discargar.
+download-dataset-access = Cerca tu versiones precedente del collection de datos? Invia un email a <emailLink> { $email } </emailLink
 # File size in gigabytes
 size = Dimension
 validated-hr-total = Horas validate Total
@@ -1333,7 +1337,7 @@ sc-submit-ph-one-per-line =
 sc-submit-from-where = Ex ubi es iste phrases de <wikipediaLink> dominio public</wikipediaLink>?
 sc-submit-ph-read-how-to =
     .placeholder = Lege nostre Guida si insecur re como attribuer
-sc-submit-confirm = Io confirma que iste phrases es de <wikipediaLink>dominio public</wikipediaLink> e io ha permission pro cargar los.
+sc-submit-confirm = Io confirma que iste phrases es del <wikipediaLink>dominio public</wikipediaLink> e que io ha le permission de incargar los.
 sc-submit-button =
     .submitText = Inviar
 sc-submit-filtered = Phrases filtrate per falta de requisitos (invia le versiones corrigite como nove phrases):
@@ -1396,9 +1400,9 @@ sc-confirm-ready =
     }
 # Variables:
 #   $countOfUnreviewed (Number) - Number of sentences unreviewed before the upload
-sc-confirm-unreviewed = { $countOfUnreviewed } phrases es non revidite. Si tu vole, tu pote alsi revider tu phrases ora, ante inviar los.
+sc-confirm-unreviewed = { $countOfUnreviewed } phrases non es revidite. Si tu lo prefere, tu pote revider tu phrases ora, ante de inviar los.
 sc-confirm-button-text = Confirmar
-sc-confirm-uploading = Phrases va esser cargate. Isto pote prender plure minutas secundo le numero de phrases addite. Non claude iste sito web.
+sc-confirm-uploading = Le phrases es in curso de incargamento. Isto pote prender plure minutas, dependente del numero de phrases addite. Per favor non claude iste sito web.
 
 ## LANGUAGE INFO
 
@@ -1409,8 +1413,8 @@ sc-lang-info-title-personal = Personal
 sc-lang-info-total =
     { $totalSentences ->
         [0] N. total de phrases.
-        [one] 1 phrase total
-       *[other] { $totalSentences } phrases total.
+        [one] 1 phrase in total.
+       *[other] { $totalSentences } phrases in total.
     }
 # Variables:
 #   $totalInReview (Number) - Number of sentences currently in the review state for this language
