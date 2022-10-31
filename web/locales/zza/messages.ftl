@@ -146,6 +146,10 @@ logout = Vejîye
 
 ## Home Page
 
+home-title = Common Voice projeyêkê Mozîlla yo ke makîna (komputure) rê bimusno ke însanî senî qisey kenê.
+default-tagline = Mozîlla Common Voice projeyêk o ke makînayan (komputuran) rê bimusno ke merdimê raştikênî senî qisey kenê.
+home-cta = Fekê xo ake, dest bide ma!
+wall-of-text-start = Veng tebîî yo, veng însanî yo. Coka ma bala xo danîme ser ke seba makînayanê xo teknolojîya vengî ya feydedare virazîme. Labelê, seba viraştişê sîstemanê vengan xeylê dayeyê vengî lazim ê.
 
 ## Account Benefits
 
