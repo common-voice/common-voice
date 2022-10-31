@@ -1,6 +1,6 @@
 ## Languages
 
-contribute = { "" }
+contribute = Юрттоно
 get-involved-button = Пыриське
 get-involved-email =
     .label = Езпочтады
