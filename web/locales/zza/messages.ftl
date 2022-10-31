@@ -264,9 +264,30 @@ faq-using-cv = Xebitnayîşê Common Voice
 
 ## ABOUT US
 
+about-title = Çira Common Voice?
+how-does-it-work-title-v2 = Common Voice senî gureyeno?
 
 ## How does it work section
 
+about-localization-title = Çarnayîşê Keyepelî
+about-localization-subtitle = Metnê keyepelî çarnîyeno nê ziwanî ser.
+about-sentence-collection-title = Arêdayîşê Cumleyan
+about-sentence-collection-subtitle = Cumleyî arê dîyenê ke merdimî înan biwanê.
+about-new-lang-title = Weşanê Ziwanêkê Neweyî
+about-new-lang-subtitle = Ma keyepelê Common Voice nê ziwanî de weşanenîme.
+about-voice-contrib-title = Îlaweyê Vengan
+about-voice-contrib-subtitle = Şar yeno û vengê xo bexişneno.
+about-voice-validation-title = Tesdîqê Vengan
+about-voice-validation-subtitle = Kesê bînî zî nê qeydanê vengî tesdîq kenê.
+about-dataset-release-title = Weşanê Komdayeyan
+about-dataset-release-subtitle = Her 3 aşmî ma komdayeyan weşanenîme.
+about-subscribe-text = Ti wazenî/a Common Voice ra xeberdar bimanê?
+about-speak = Qisey ke
+about-listen = Goşdar bike
+about-yes-votes = ≥ 2 rayê "heya"
+about-yes-votes-text = Seba ke yew qeydê vengî bikewo komdayeyê Common Voice, ganî hetê di xebitnayoxanê cîyayan ra tesdîq bibo.
+about-no-votes = ≥ 2 rayê "ney"
+about-clip-graveyard = Goristanê Qeydan
 
 ## Community Playbook Content
 ## What is a language
