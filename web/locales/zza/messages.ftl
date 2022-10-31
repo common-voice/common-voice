@@ -210,8 +210,11 @@ profile-form-age =
     .label = Serrî
 profile-form-gender-2 =
     .label = Cinsîyet
+hidden = Nimite
+visible = Eşkera
 native-language =
     .label = Ziwanê Dayîke
+profile-form-add-accent = Feko taybetî îlawe bike "{ $inputValue }"
 profile-form-submit-save = Qeyd ke
 profile-form-submit-saved = Qeyd bî
 male = Camêrd
@@ -221,6 +224,7 @@ other = Ê bînî
 why-profile-title = Çira profîlêk virazî?
 dashboard = Panel
 build-profile = Profîl viraze
+avatar = Avatar
 goals = Hedefî
 settings = Eyarî
 edit-profile = Profîlî sereraşt ke
@@ -231,11 +235,18 @@ accept-privacy-title = Polîtîkaya Nimiteyîye
 login-identity = Nasnameyê dekewtişî
 login-signup = Dekewe/Hesab Viraze
 edit = Sereraşt ke
+email-subscriptions = Aboneyîyê e-maîlî
+download-profile = Dayeyanê mi bîya war
 off = Padaye
 on = Akerde
+help-accent = Derheqê fekan de hetkarîye wazenî/a?
+help-accent-explanation = Fekê to hewayê to yê telefuzê çekuyan o. Cayê to yê roniştişî, ziwanê bînî yê ke ti qisey kenî/a û xeylê faktorê bînî fekê to ser o tesîr kenê. Eke ti muhîm vînenî/a, ti eşkenî/a tîya hîna zaf melumat pêşkêş bikerê.
+help-variants = Derheqê varyantan de hetkarîye wazenî/a?
+help-variants-explanation = Varyant formêkê ziwanî yo spesîfîk o. Sey nimûne, kesê ke eynî cografya yan kî komel de ciwîyenê. Ge-gane nînan ra "lehçe" vanê.
 
 ## Profile - Email
 
+browse-file-title = Dosyaya resimî bar bike
 
 ## Profile - Email
 
@@ -246,6 +257,10 @@ add-language = Ziwanêk îlawe bike
 faq-title = Persê ke Zaf Pers Benê
 faq-what-cv-q = Common Voice çi yo?
 faq-why-important-q = Çira muhîm o?
+faq-how-get-q = Ez senî resena dayeyanê Common Voice?
+faq-why-my-lang-q = Çira ziwanê mi hema tede çin o?
+faq-what-is-cv = Common Voice çi yo?
+faq-using-cv = Xebitnayîşê Common Voice
 
 ## ABOUT US
 
