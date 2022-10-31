@@ -157,6 +157,9 @@ wall-of-text-more-mobile = Zafêrîya dayeyan ke hetê şîrketanê girsan ra ye
 help-us-title = Hetkarîya ma bike ke cumleyan tesdîq bikerîme!
 help-us-explain = Bicine, goşdar bike û ma ra vaje: tirêm cumleya cêrêne raşt wanîya?
 no-clips-to-validate = Winî aseno ke seba nê ziwanî qet qeyd çin o ke bigoşdarê. De ti dest bide ma û vengê xo qeyd bike ke na kêmasî wedarîyo.
+vote-yes = Heya
+vote-no = Ney
+speak-subtitle = Vengê xo bibexişne
 all-locales = Pêro
 today = Ewro
 x-weeks-short =
@@ -188,12 +191,27 @@ username-optin-public = Weçîne eke nameyê to yê xebitnayoxî anonîm yan zî
 
 ## Speak & Listen Shortcuts
 
+# Must be one letter that appears in the translated { skip } string.
+shortcut-skip = r
 
 ## Listen Shortcuts
 
+# Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-play-toggle = b
+shortcut-play-toggle-label = Bicine/Bivindarne
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = h
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = n
 
 ## Speak Shortcuts
 
+# Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-record-toggle = q
 shortcut-record-toggle-label = Qeyd bike/Bivindarne
 shortcut-rerecord-toggle = [1-5]
 shortcut-discard-ongoing-recording = ESC
@@ -229,6 +247,8 @@ profile-form-age =
     .label = Serrî
 profile-form-gender-2 =
     .label = Cinsîyet
+leaderboard-visibility =
+    .label = Asayîşê rêzenameyî
 hidden = Nimite
 visible = Eşkera
 native-language =
@@ -623,18 +643,27 @@ sc-my-source = Çime: { $source }
 
 ## STATS
 
+sc-stats-title = Statîstîkî
 
 ## ADD
 
+sc-submit-select-language =
+    .labelText = Ziwan weçîne
+sc-submit-button =
+    .submitText = Birusne
 
 ## ADD LANGUAGE
 
+sc-add-lang-sec-button = Ziwanêk îlawe bike
 
 ## ADD SENTENCES CONFIRMATION
 
+sc-confirm-button-text = Tesdîq ke
 
 ## LANGUAGE INFO
 
+sc-lang-info-title-total = Pêro pîya
+sc-lang-info-title-personal = Şexsî
 
 ## LOGIN
 
@@ -647,9 +676,23 @@ sc-my-source = Çime: { $source }
 
 ## REVIEW
 
+sc-review-form-button-reject = Betal ke
+sc-review-form-button-skip = Ravêre
+sc-review-form-button-approve = Tesdîq ke
+# Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
+sc-review-form-button-approve-shortcut = H
+# Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
+sc-review-form-button-reject-shortcut = N
+# Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
+sc-review-form-button-skip-shortcut = R
+sc-review-link = Çim Biçarne
 
 ## SETTINGS
 
+sc-settings-title = Eyarî
+sc-settings-ui-language = Ziwanê Serrî
 
 # [/SentenceCollector]
 
+localization-select =
+    .label = Ziwan/Çarnayîş weçîne
