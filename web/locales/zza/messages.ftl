@@ -119,6 +119,7 @@ mg = Madagaskî
 mhr = Markîya Deşte
 mk = Makedonkî
 ml = Malayalamkî
+nl = Holandkî
 ru = Rûskî
 yi = Yîdkî
 zu = Zulu
@@ -159,7 +160,9 @@ help-us-explain = Bicine, goşdar bike û ma ra vaje: tirêm cumleya cêrêne ra
 no-clips-to-validate = Winî aseno ke seba nê ziwanî qet qeyd çin o ke bigoşdarê. De ti dest bide ma û vengê xo qeyd bike ke na kêmasî wedarîyo.
 vote-yes = Heya
 vote-no = Ney
+toggle-play-tooltip = Seba cinitişî/vindarnayîşî { shortcut-play-toggle } ser o bitikne
 speak-subtitle = Vengê xo bibexişne
+speak-goal-text = Vengê qeydkerdeyî
 listen-goal-text = Qeydê tesdîqkerdeyî
 hours-recorded = Saetê qeydkerdeyî
 hours-validated = Saetê tesdîqkerdeyî
@@ -222,6 +225,7 @@ shortcut-vote-no = n
 shortcut-record-toggle = q
 shortcut-record-toggle-label = Qeyd bike/Bivindarne
 shortcut-rerecord-toggle = [1-5]
+shortcut-rerecord-toggle-label = Newe ra qeyd bike
 shortcut-discard-ongoing-recording = ESC
 shortcut-submit = Apey
 
@@ -296,10 +300,19 @@ help-variants-explanation = Varyant formêkê ziwanî yo spesîfîk o. Sey nimû
 ## Profile - Email
 
 browse-file-title = Dosyaya resimî bar bike
+browse-file = Kaş ke rone yan zî <browseWrap>Bigêre</browseWrap>
+connect-gravatar = Gravatarî de girê de
+gravatar_not_found = Bi e-maîlê to ra gravatar nêame dîyene.
+file_too_large = Dosyaya weçînitîye zêde girs a
+avatar-uploaded = Avatar bar bî
 max-file-size = tewr zêde { $kb } kb
+remove-avatar = Avatarî biestire
 
 ## Profile - Email
 
+manage-subscriptions = Aboneyîyan îdare bike
+manage-email-subscriptions = Aboneyîyan e-maîlî îdare bike
+email-already-used = No e-maîl xora yewna hesab de xebitnîyeno
 add-language = Ziwanêk îlawe bike
 
 ## FAQ
