@@ -458,19 +458,58 @@ record-error-too-long = Qeydê to zêde derg bî.
 record-error-too-quiet = Qeydê to zaf bêveng bî.
 record-cancel = Qeydo newe betal bike
 record-three-more-instruction = Hîrê hebî mendî!
+record-again-instruction = Zaf rind o! <recordIcon></recordIcon> Yewna qeyd bike
+record-again-instruction2 = Wina dewam bike, reyna qeyd bike <recordIcon></recordIcon>
+record-last-instruction = <recordIcon></recordIcon> No peyên o!
+share-clip = Qeydê xo pare bike
+share-common-voice = Common Voice pare bike
+record-button-label = Vengê xo qeyd bike
+target-segment-learn-more = Hîna Zaf Melumat
 
 ## Reporting
 
+report = Rapor bike
+report-title = Raporêk birusne
+report-ask = Na cumle de kamcîn problem est o?
+report-offensive-language = Heqaret/Hêrişkar
+report-offensive-language-detail = Na cumle de tewirêko hêrişkar yan zî bêhurmet est o.
+report-grammar-or-spelling = Şaşîya gramerî / raştnuştişî
+report-grammar-or-spelling-detail = Na cumle de xetayê gramerî yan raştnuştişî est ê.
+report-different-language = Sewbîna ziwan
+report-different-language-detail = Na cumle ziwanê mi de ney, la yewna ziwan de nusîyaye.
+report-difficult-pronounce = Telefuzê ci zehmet o
+report-difficult-pronounce-detail = Tede çeku yan kî vateyî est ê ke bi zehmetî telefuz benê / wanîyenê.
+report-offensive-speech = Qisaya hêrişkare
+report-offensive-speech-detail = Qeyd bêhurmet yan zî hêrişkar bî.
 report-other-comment =
     .placeholder = Şîrove
 success = Qedîya!
 continue = Dewam ke
+report-success = Rapor bi serkewtiş rusnîya
 
 ## Goals
 
+streaks = Serî
+days =
+    { $count ->
+       *[other] Rojî
+    }
+recordings =
+    { $count ->
+       *[other] Qeydî
+    }
+validations =
+    { $count ->
+       *[other] Tesdîqî
+    }
 
 ## Dashboard
 
+your-languages = Ziwanê To
+toward-next-goal = Ver bi hedefo ameyox
+goal-reached = Reşt hedef
+stats = Statîstîk
+awards = Xelatî
 
 ## Custom Goals
 
