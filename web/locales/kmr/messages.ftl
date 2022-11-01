@@ -514,7 +514,7 @@ how-does-it-work-text = Em komdaneyeke dengan ya çavkanî vekirî berhev dikin.
 
 ## How does it work section
 
-about-language-req-subtitle = Yek ji bo tevlîkirina zimanekî dixwazekê vedike.
+about-language-req-subtitle = Yek ji bo tevlîkirina zimanekî daxwazekê vedike.
 about-localization-title = Wergerandina Malperê
 about-localization-subtitle = Metnên malperê li wî zimanî tê wergerandin.
 about-sentence-collection-title = Berhevkirina Hevokan
@@ -1245,6 +1245,12 @@ sc-review-link = Kontrol bike
 sc-settings-title = Sazkarî
 sc-settings-ui-language = Zimanê Navrûyê
 sc-settings-show-all-button = Hemû hevokên ku hatine derbaskirin dîsa nîşan bide
+sc-settings-failed = Sazkarî nehatin guhertin. Ji kerema xwe dîsa biceribîne.
+# VALIDATION
+sc-validation-number-of-words = Hevokek divê ji 1-14 bêjeyan pêk were.
+sc-validation-no-numbers = Divê di hevokê de hejmar/reqem tune bin
+sc-validation-no-symbols = Divê di hevokê de sembol tune bin
+sc-validation-no-abbreviations = Divê di hevokê de kurtenav tune bin
 
 # [/SentenceCollector]
 
