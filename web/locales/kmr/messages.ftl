@@ -1085,7 +1085,11 @@ sc-howto-findpd-subtitle = Di înternetê de lê bigere
 
 sc-my-title = Hevokên min
 sc-my-loading = Hevokên te bar dibin…
+sc-my-err-fetching = Di anîna hevokên te de çewtî derket. Ji kerema xwe dîsa biceribîne.
 sc-my-no-sentences = Hevok nehatin dîtin!
+# Variables:
+#   $batchId (String) - A unique ID identifying the submission of sentences - sentences uploaded together all have the same batch ID
+sc-my-submission = Şandin: { $batchId }
 # Variables:
 #   $source (String) - Associated source the user filled out when uploading the sentence
 sc-my-source = Çavkanî: { $source }
@@ -1097,6 +1101,7 @@ sc-my-err-failed-delete = Jêbirina hevokên hilbijartî bi ser neket… Dîsa b
 
 sc-rejected-title = Hevokên red bûne
 sc-rejected-loading = Hevokên red bûne tên barkirin…
+sc-rejected-err-fetching = Di anîna hevokên redbûyî de çewtî derket. Ji kerema xwe dîsa biceribîne.
 sc-rejected-none-found = Hevokên red bûne nehatin dîtin!
 
 ## STATS
@@ -1115,14 +1120,19 @@ sc-submit-err-select-lang = Ji kerema xwe zimanekî hilbijêre.
 sc-submit-err-add-sentences = Ji kerema xwe hevokan tevlî bike.
 sc-submit-err-add-source = Ji kerema xwe çavkaniyekê tevlî bike.
 sc-submit-err-confirm-pd = Ji kerema xwe piştrast bikin ku ev hevok anonîm in.
+sc-submit-prompt =
+    .message = Hevok nehatin şandin, Tu bi rastî jî dixwazî jê derkevî?
 sc-submit-title = Hevokan tevlî bike
 sc-submit-select-language =
     .labelText = Zimên hilbijêre
+sc-submit-add-sentences = Hevokên <wikipediaLink>Anonîm</wikipediaLink> tevlî bike
 sc-submit-ph-one-per-line =
     .placeholder = Serê rêzekê hevokek
+sc-submit-from-where = Ev hevokên <wikipediaLink>Anonîm</wikipediaLink> ji ku derê tên?
 sc-submit-confirm = Ez piştrast dikim ku ev <wikipediaLink> hevokên anonîm ên </wikipediaLink>ê ne û destûra min a barkirinê heye.
 sc-submit-button =
     .submitText = Bişîne
+sc-submit-guidelines = Ji kerema xwe <howToLink>rêbernameyê</howToLink> kontrol bike.
 
 ## ADD LANGUAGE
 
