@@ -598,12 +598,18 @@ about-playbook-how-validate-content-4 = Heke dengek ji aliyê 2 kesan ve were re
 ## How to access dataset
 
 about-playbook-how-access-dataset = Ez çawa dikarim bigihîjim komdaneyê û wê bi kar bînim.
+about-playbook-how-access-dataset-content-1 = Tu dikarî biçî <datasetsPage>Rûpela komdaneyan</datasetsPage> ziman û guhertoya ku tu dixwazî, hilbijêrî û wê daxînî! Dosye, <metadataLink>daneyên metayê yên têkildar</metadataLink> wekî agahiyên demokrafîk û daneyên piştrastkirinê di xwe de dihewîne. Ji bo daxistina komdaneyê divê tu navnîşaneke emaîlê bikevê.
 
 ## How are decisions made
 
+about-playbook-how-project-governance = Biryarên projeyê çawa tên dayîn?
+about-playbook-how-project-governance-content-1 = Mozilla Common Voice ji hêla aktîvîst, zimanzan, zanyarên daneyan, akademîsyen û endezyarên nermalavê yên ji her derên dinyayê ve hatiye avakirin. Proje ji aliyê Weqfa Mozillayê ve tê birêvebirin.
+about-playbook-how-project-governance-content-2 = Rêvebiriya me li ser van xalan hatiye avakirin:
 about-playbook-how-project-governance-content-3 = Nihênî, ewlehî û zelalî.
 about-playbook-how-project-governance-content-4 = Beşdarbûna civakê û biryar dayin.
 about-playbook-how-project-governance-content-5 = Nirx û nasîn
+about-playbook-how-project-governance-content-6 = Berpirsyariya hevpar.
+about-playbook-how-project-governance-content-7 = <governanceLink>Zêdetir bixwîne bê ka em çawa tên birêvebirin</governanceLink>
 
 ## Glossary
 
