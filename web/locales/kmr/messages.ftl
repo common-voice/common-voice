@@ -587,13 +587,17 @@ about-playbook-how-add-sentences = Ez çawa dikarim hevokan tevlî bikim?
 
 about-playbook-how-grow-language-content-2 = Çalakî
 about-playbook-how-grow-language-content-4 = Medyaya civakî
+about-playbook-how-grow-language-content-8 = <strong>Afirîner be!</strong> Civaka zimanê te ew ê bêhempa be, û ev ji bo destpêkê tenê çendek rê ne.
 
 ## How to validate
 
 about-playbook-how-validate = Ez ê çawa bizanibim dengekî piştrast bikim an na?
+about-playbook-how-validate-content-1 = Heke tu dengan <strong>dibihîzî</strong> û <strong>wan fêm dikî</strong>, bi giştî ev bes e ji bo <strong>piştrastkirinê</strong>.
+about-playbook-how-validate-content-4 = Heke dengek ji aliyê 2 kesan ve were redkirin, ew deng ew ê li bindaneyeke cuda ya komdaneyê were weşandin.
 
 ## How to access dataset
 
+about-playbook-how-access-dataset = Ez çawa dikarim bigihîjim komdaneyê û wê bi kar bînim.
 
 ## How are decisions made
 
