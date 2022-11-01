@@ -586,6 +586,7 @@ about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollec
 about-playbook-how-localize = Сайт тәрҗемәсе ничек эшли?
 about-playbook-how-localize-content-1 = Common Voice сайтын тәрҗемә итү <strong>Pontoon</strong>-да башкарыла.
 about-playbook-how-localize-content-2 = Хисабыгыз булмаса, <pontoonAccountLink>хисап булдырыгыз</pontoonAccountLink>. Аннан соң Сезнең телгә тәрҗемә итүче <strong>(«Төркемне»)</strong> һәм <pontoonCvLink>Common Voice</pontoonCvLink> проектын сайлагыз. Тәрҗемә итәсе файллар күрерсез. Берәрсенә басыгыз. Инглиз телендәге сүзләр һәм аларны тәрҗәмә итү өчен буш кыр күрерсез.
+about-playbook-how-localize-content-3 = Тәрҗемә инглиз теленнән башкарыла, ләкин башка телләрдәге <strong>Тәкъдимнәрне</strong> дә карап була. Башта <strong>Профиль</strong> тамгасына, аннан <strong>Көйләүләр</strong> сылтамасына басып, Сез сөйләшкән телләрне өстәгез. Аскы уң почмакта <strong>Телләр</strong> дип аталган тәрҗемәләр исемлеге булачак. Тәрҗемәләр сайтта бер көннән соң яңартыла.
 about-playbook-how-localize-content-4 = Тәрҗемәләр 75%-ка җиткәч, сайт Сезнең телегездә ачылырга әзер.
 about-playbook-how-localize-content-5 = Ярдәм өчен безнең аңлатма видеоны карагыз
 
