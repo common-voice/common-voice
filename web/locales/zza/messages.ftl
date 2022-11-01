@@ -204,7 +204,10 @@ vote-yes = Heya
 vote-no = Ney
 toggle-play-tooltip = Seba cinitişî/vindarnayîşî { shortcut-play-toggle } ser o bitikne
 speak-subtitle = Vengê xo bibexişne
+speak-paragraph = Seba ke ma komdayeyê xo yê akerdeyî awan bikerîme, yew parçeyo muhîm qeydkerdişê klîbanê vengî o - xora keyfê karî tîya de yo.
 speak-goal-text = Vengê qeydkerdeyî
+listen-subtitle = Hetkarîya ma bike ke vengan tesdîq bikerîme
+listen-paragraph = Bi eynî hawa, seba wezîfeyê Common Voice tesdîqkerdişê qeydanê vengî kî muhîm o. Reyê goş bide ser û hetê ma bike ke dayeyanê vengî yê kalîteyinanê çimeakerdeyan virazîme.
 listen-goal-text = Qeydê tesdîqkerdeyî
 hours-recorded = Saetê qeydkerdeyî
 hours-validated = Saetê tesdîqkerdeyî
@@ -230,6 +233,7 @@ x-years-short =
 help-make-dataset = Hetê ma bike ke komdayeyêko kalîteberz virazîme ke her kesî rê akerde yo
 sign-up-account = Hesabêk viraze
 email-subscription-title = seba xeberanê e-maîlî qeyd bibe
+email-subscription-title-new = Aboneyê xebernameyanê Common Voice, vîrardişê hedefan û rewşanê averşîyayîşî bibe
 
 ## Account Benefits
 
