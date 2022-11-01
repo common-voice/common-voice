@@ -590,6 +590,7 @@ about-playbook-how-grow-language-content-4 = Medyaya civakî
 
 ## How to validate
 
+about-playbook-how-validate = Ez ê çawa bizanibim dengekî piştrast bikim an na?
 
 ## How to access dataset
 
