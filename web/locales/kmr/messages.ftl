@@ -1129,7 +1129,7 @@ sc-submit-add-sentences = Hevokên <wikipediaLink>Anonîm</wikipediaLink> tevlî
 sc-submit-ph-one-per-line =
     .placeholder = Serê rêzekê hevokek
 sc-submit-from-where = Ev hevokên <wikipediaLink>Anonîm</wikipediaLink> ji ku derê tên?
-sc-submit-confirm = Ez piştrast dikim ku ev <wikipediaLink> hevokên anonîm ên </wikipediaLink>ê ne û destûra min a barkirinê heye.
+sc-submit-confirm = Ez piştrast dikim ku ev <wikipediaLink> hevokên anonîm </wikipediaLink> in û destûra min a barkirinê heye.
 sc-submit-button =
     .submitText = Bişîne
 sc-submit-guidelines = Ji kerema xwe <howToLink>rêbernameyê</howToLink> kontrol bike.
@@ -1260,6 +1260,11 @@ sc-personal-not-added = Te hîn ti ziman tevlî nekiriye.
 
 sc-criteria-modal = ⓘ Krîterên Kontrolkirinê
 sc-criteria-title = Krîterên Kontrolkirinê
+sc-criteria-make-sure = Jê piştrast be ku hevok van krîteran li jêr pêk tîne:
+sc-criteria-item-1 = Divê hevok rast were nivîsandin.
+sc-criteria-item-2 = Divê hevok ji aliyê rêzimanê ve rast be.
+sc-criteria-item-3 = Divê hevok ji bo xwendinê guncav be.
+sc-criteria-item-4 = Heke hevok li gorî van krîterên jêrîn be, li bişkoka &quot;Piştrast bike&quot; ya li hêla rastê bitikîne.
 
 ## REVIEW
 
