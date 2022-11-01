@@ -576,6 +576,9 @@ about-playbook-how-add-language-translating-content-2 =
     <githubRepoLink>GitHub-та яңа тел сорарга кирәк</githubRepoLink>. <localizationFragment>Сайт тәрҗемәсе турында күбрәк</localizationFragment>.
 about-playbook-how-add-language-collecting-sentences-heading = Җөмләләр туплау
 about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>Җөмләләр туплагычын ничек кулланылганын аңлатучы видеобызны карагыз</sentenceCollectorVideo>.
+about-playbook-how-add-language-collecting-sentences-content-2 =
+    Җөмләләр аз булса, аларны <sentenceCollectorLinkAdd>турыдан-туры өсти</sentenceCollectorLinkAdd>, күп булса <bulkImportDocsLink>Github аркылы күмәртәләп импортлый</bulkImportDocsLink> аласыз.
+    Җөмләләр <licenseLink>CC0 (яки иҗтимагый милектә)</licenseLink> булырга тиешлеген яисә үз җөмләләрегезне яза алганыгызны онытмагыз.
 about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>Җөмлә туплау турында күбрәк белү</sentenceCollectorFragment>.
 
 ## How does localization work
