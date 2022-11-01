@@ -119,6 +119,8 @@ mg = Madagaskî
 mhr = Markîya Deşte
 mk = Makedonkî
 ml = Malayalamkî
+mn = Moxolkî
+mni = Meetei Lon
 nl = Holandkî
 ru = Rûskî
 yi = Yîdkî
@@ -326,6 +328,10 @@ faq-what-cv-a-2 =
     
     Ma nimûneyanê vengî tena ziwananê vilabîyayeyan ra ney, la ziwananê bi nufusanê qijkekan ra kî danîme arê. Weşanayîşê komdayeyanê vengan ê cîya-cîyayan do viraştox, karsaz û komelan rê îmkan bido ke na kêmasîye bi xo çareser bikerê.
 faq-why-important-q = Çira muhîm o?
+faq-why-important-a =
+    Hawayo tewr tebîî ke ma pê kewenîme têkilîye, qiseykerdiş o. Teknolojîyê vengî zî na rehetîye anê komputur û hacetanê ma yê mobîlan. Ma wazenîme viraştoxan rê îmkan bidîme ke applîkasyonanê naskerdişê vengî yê harîkayan virazê, sey çarnayoxanê hemdeman û asîstanê dîjîtalan ê bi fonksîyonê vengî. Labelê, no taw zafêrîya dayeyanê vengî ke seba viraştişê appanê winasîyan lazim a, vay û tescîlkerdî ya. Ma hêvîdar îme ke komdayeyê Common Voice viraştoxan rê benê îmkan ke înovasyon raver berê û teknolojîya vengî ziwanê xo de pêşkêş bikerê.
+    
+    Seba ke naskerdişê vengî hîna zaf unîversal bo, ma nimûneyanê vengî hem ziwananê zaf qiseybîyayeyan ra hem zî ziwananê bi nufusanê qijkekan ra danîme arê; zafê reyan ziwanê bi şenik qiseykerdoxan hetê servîsanê naskerdişê vengî yê bazirganîyan ra kêmî xizmet vînenê. Weşanayîşê komdayeyanê vengan ê cîya-cîyayan do viraştox, karsaz û komelan rê îmkan bido ke na kêmasîye bi xo çareser bikerê.
 faq-how-get-q = Ez senî resena dayeyanê Common Voice?
 faq-why-my-lang-q = Çira ziwanê mi hema tede çin o?
 faq-what-is-cv = Common Voice çi yo?
