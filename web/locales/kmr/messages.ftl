@@ -299,7 +299,7 @@ x-years-short =
 help-make-dataset = Alî me bike ku em bi kalîteyeke bilind komdaneya vekirî û gelerî ava bikin
 sign-up-account = Hesabekî veke
 email-subscription-title = li nûçeyên emaîlê tomar bibe
-email-subscription-title-new = Ji bo nûçenameyên Common Voiceê, bibîrxistinên hedefê û rewşa pêşveçûna projeyê lê tomar bibe
+email-subscription-title-new = Ji bo nûçenameyên Common Voiceê, bibîrxistinên hedefê û rewşa pêşveçûna projeyê xwe tomar bike
 
 ## Account Benefits
 
@@ -746,13 +746,13 @@ request-language-form-info-explanation-list-2 = heke tê zanîn <isoCodeLink>Kod
 
 ## Languages Overview
 
-language-section-in-progress = Kar li ser tê kirin
+language-section-in-progress = Zimanên Hilawestî
 language-section-in-progress-new-description = Ev ziman niha ji aliyê civakê ve tên pêşvebirin. Nîşaneya pêşveçûnê nîşan dide ka pêşketina zimanan di <localizationGlossaryLink>wergerandina malperê </localizationGlossaryLink> û <sentenceCollectionGlossaryLink>berhevkirina hevokan</sentenceCollectionGlossaryLink> de di kîjan astê de ye.
-language-section-launched = Hatiye weşandin
+language-section-launched = Zimanên Berdest
 language-section-launched-description =
     Ji bo van zimanên hatine destpêkirin malper bi serkeftî hatiye <localizationGlossaryLink>wergerandin</localizationGlossaryLink> û tê de têra xwe
     <sentenceCollectionGlossaryLink>hevokên berhevkirî</sentenceCollectionGlossaryLink> hene ku piştgiriya
-    <speakLink>Axaftin</speakLink> û <listenLink>Guhdarîkirinê</listenLink> dest pê bike.
+    <speakLink>Axaftin</speakLink> û <listenLink>Guhdarîkirinê</listenLink>  bike.
 languages-show-more = Zêdetir bibîne
 languages-show-less = Kêmtir bibîne
 language-meter-in-progress = Pêşveçûn
@@ -1075,7 +1075,7 @@ sc-home-review-title = Hevokan kontrol bike
 ## HOW-TO
 
 sc-howto-title = Çawa tê kirin
-sc-howto-addlang-title = Tevlîkirina zimanên ku kar li ser tê kirin
+sc-howto-addlang-title = Tevlîkirina zimanên hilawestî
 sc-howto-addsen-title = Hevokên nû tevlî bike
 sc-howto-cite-title = Çawa jê tê girtin
 sc-howto-review-title = Hevokan kontrol bike
@@ -1289,6 +1289,7 @@ sc-review-form-button-approve-shortcut = E
 sc-review-form-button-reject-shortcut = N
 # Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
 sc-review-form-button-skip-shortcut = D
+sc-review-form-keyboard-usage-custom = Tu dikarî kurterêyên klavyeyê jî bi kar bînî: ji bo piştrastkirinê { sc-review-form-button-approve-shortcut }, ji bo redkirinê { sc-review-form-button-reject-shortcut }, ji bo derbaskirinê jî { sc-review-form-button-skip-shortcut }
 sc-review-form-button-submit =
     .submitText = Kontrolkirinê Biqedîne
 # Variables:
@@ -1307,6 +1308,7 @@ sc-review-link = Kontrol bike
 sc-settings-title = Sazkarî
 sc-settings-ui-language = Zimanê Navrûyê
 sc-settings-reset-skipped = Hevokên hatine derbaskirin reset bike
+sc-settings-skipped-decription = Te berê di dema kontrolkirinê de hin hevok derbas kiribûn. Resetkirina hevokên derbaskirî ew ê wan dîsa ji nû ve ji te re bide nîşandan. Ev ne têkildarî zimên e.
 sc-settings-show-all-button = Hemû hevokên ku hatine derbaskirin dîsa nîşan bide
 sc-settings-failed = Sazkarî nehatin guhertin. Ji kerema xwe dîsa biceribîne.
 # VALIDATION
