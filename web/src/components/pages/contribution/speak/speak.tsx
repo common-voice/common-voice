@@ -83,6 +83,7 @@ interface State {
   rerecordIndex?: number;
   showPrivacyModal: boolean;
   showDiscardModal: boolean;
+  privacyAgreedChecked?: boolean;
 }
 
 const initialState: State = {
@@ -96,7 +97,13 @@ const initialState: State = {
 };
 
 class SpeakPage extends React.Component<Props, State> {
-  state: State = initialState;
+  state: State = {
+    ...initialState,
+    privacyAgreedChecked: Boolean(
+      this.props.user.privacyAgreed || this.props.user.account
+    ),
+  };
+
   demoMode = this.props.location.pathname.includes(URLS.DEMO);
 
   audio: AudioWeb;
@@ -354,7 +361,7 @@ class SpeakPage extends React.Component<Props, State> {
     });
   };
 
-  private upload = (hasAgreed: boolean = false) => {
+  private upload = (hasAgreed = false) => {
     const {
       addAchievement,
       addNotification,
@@ -475,8 +482,14 @@ class SpeakPage extends React.Component<Props, State> {
 
   private agreeToTerms = async () => {
     this.setState({ showPrivacyModal: false });
+    this.setState({ privacyAgreedChecked: true });
     this.props.updateUser({ privacyAgreed: true });
     this.upload(true);
+  };
+
+  private onPrivacyAgreedChange = (privacyAgreed: boolean) => {
+    this.setState({ privacyAgreedChecked: privacyAgreed });
+    this.props.updateUser({ privacyAgreed });
   };
 
   private toggleDiscardModal = () => {
@@ -561,7 +574,7 @@ class SpeakPage extends React.Component<Props, State> {
           )}
           {showPrivacyModal && (
             <TermsModal
-              onAgree={this.agreeToTerms}
+              onAgree={() => this.agreeToTerms()}
               onDisagree={this.toggleDiscardModal}
             />
           )}
@@ -637,6 +650,10 @@ class SpeakPage extends React.Component<Props, State> {
             onReset={() => this.resetState()}
             onSkip={this.handleSkip}
             onSubmit={() => this.upload()}
+            onPrivacyAgreedChange={(privacyAgreed: boolean) =>
+              this.onPrivacyAgreedChange(privacyAgreed)
+            }
+            privacyAgreedChecked={this.state.privacyAgreedChecked}
             primaryButtons={
               <RecordButton
                 trackClass="speak-record"

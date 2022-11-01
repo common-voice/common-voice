@@ -28,7 +28,7 @@ import {
   SkipIcon,
   ExternalLinkIcon,
 } from '../../ui/icons';
-import { Button, StyledLink, LinkButton } from '../../ui/ui';
+import { Button, StyledLink, LinkButton, LabeledCheckbox } from '../../ui/ui';
 import { PrimaryButton } from '../../primary-buttons/primary-buttons';
 import ShareModal from '../../share-modal/share-modal';
 import { ReportButton, ReportModal, ReportModalProps } from './report/report';
@@ -38,43 +38,6 @@ import Wave from './wave';
 import './contribution.css';
 
 const HAS_SEEN_ACCOUNT_MODAL_KEY = 'hasSeenAccountModal2';
-
-const AccountModal = (props: ModalProps) => {
-  const [locale] = useLocale();
-  return (
-    <Modal {...props} innerClassName="account-modal">
-      <div className="images">
-        <img src={require('./waves.svg')} alt="Waves" className="bg" />
-        <img
-          src={require('./mars-blue.svg')}
-          alt="Mars Robot"
-          className="mars"
-        />
-      </div>
-      <Localized id="keep-track-profile">
-        <h1 />
-      </Localized>
-      <Localized id="login-to-get-started">
-        <h2 />
-      </Localized>
-      <Localized id="login-signup">
-        <LinkButton
-          rounded
-          href="/login"
-          className={getTrackClass('fs', `nudge-profile-modal`)}
-          onClick={() => {
-            try {
-              sessionStorage.setItem('redirectURL', location.pathname);
-            } catch (e) {
-              console.warn(`A sessionStorage error occurred ${e.message}`);
-            }
-            trackProfile('contribution-conversion-modal', locale);
-          }}
-        />
-      </Localized>
-    </Modal>
-  );
-};
 
 export const SET_COUNT = 5;
 
@@ -109,6 +72,8 @@ interface Props extends WithLocalizationProps, PropsFromState {
   onReset: () => any;
   onSkip: () => any;
   onSubmit?: () => any;
+  onPrivacyAgreedChange: (privacyAgreed: boolean) => void;
+  privacyAgreedChecked: boolean;
   primaryButtons: React.ReactNode;
   pills: ((props: ContributionPillProps) => React.ReactNode)[];
   sentences: Sentence[];
@@ -123,7 +88,6 @@ interface Props extends WithLocalizationProps, PropsFromState {
 
 interface State {
   selectedPill: number;
-  showAccountModal: boolean;
   showReportModal: boolean;
   showShareModal: boolean;
   showShortcutsModal: boolean;
@@ -136,7 +100,6 @@ class ContributionPage extends React.Component<Props, State> {
 
   state: State = {
     selectedPill: null,
-    showAccountModal: false,
     showReportModal: false,
     showShareModal: false,
     showShortcutsModal: false,
@@ -145,45 +108,15 @@ class ContributionPage extends React.Component<Props, State> {
   private canvasRef: { current: HTMLCanvasElement | null } = React.createRef();
   private wave: Wave;
 
-  private get showAccountModalDefault() {
-    const { flags, user } = this.props;
-    return (
-      flags.showAccountConversionModal &&
-      !user.account &&
-      !JSON.parse(localStorage.getItem(HAS_SEEN_ACCOUNT_MODAL_KEY))
-    );
-  }
-
   componentDidMount() {
     this.startWaving();
     window.addEventListener('keydown', this.handleKeyDown);
-
-    // preload account modal images to prevent layout shifting
-    if (this.showAccountModalDefault) {
-      new Image().src = require('./waves.svg');
-      new Image().src = require('./mars-blue.svg');
-    }
   }
 
-  componentDidUpdate(prevProps: Props) {
+  componentDidUpdate() {
     this.startWaving();
 
-    const { activeIndex, isPlaying, isSubmitted, onReset, user } = this.props;
-
-    if (activeIndex == 1 && prevProps.activeIndex != activeIndex) {
-      const showAccountModal = this.showAccountModalDefault;
-      this.setState({ showAccountModal });
-      if (showAccountModal) {
-        try {
-          localStorage.setItem(
-            HAS_SEEN_ACCOUNT_MODAL_KEY,
-            JSON.stringify(true)
-          );
-        } catch (e) {
-          console.warn(`A sessionStorage error occurred ${e.message}`);
-        }
-      }
-    }
+    const { isPlaying, isSubmitted, onReset, user } = this.props;
 
     if (this.wave) {
       isPlaying ? this.wave.play() : this.wave.idle();
@@ -300,12 +233,7 @@ class ContributionPage extends React.Component<Props, State> {
       user,
       demoMode,
     } = this.props;
-    const {
-      showAccountModal,
-      showReportModal,
-      showShareModal,
-      showShortcutsModal,
-    } = this.state;
+    const { showReportModal, showShareModal, showShortcutsModal } = this.state;
 
     return (
       <div
@@ -338,11 +266,6 @@ class ContributionPage extends React.Component<Props, State> {
             onRequestClose={() => this.setState({ showReportModal: false })}
             onSubmitted={onSkip}
             {...reportModalProps}
-          />
-        )}
-        {showAccountModal && (
-          <AccountModal
-            onRequestClose={() => this.setState({ showAccountModal: false })}
           />
         )}
         <div
@@ -420,8 +343,16 @@ class ContributionPage extends React.Component<Props, State> {
       primaryButtons,
       sentences,
       type,
+      onPrivacyAgreedChange,
+      privacyAgreedChecked,
     } = this.props;
     const { selectedPill } = this.state;
+
+    const handlePrivacyAgreedChange = (
+      evt: React.ChangeEvent<HTMLInputElement>
+    ) => {
+      onPrivacyAgreedChange(evt.target.checked);
+    };
 
     if (isSubmitted) {
       return <Success onReset={onReset} type={type} />;
@@ -581,25 +512,34 @@ class ContributionPage extends React.Component<Props, State> {
               <SkipIcon />
             </Button>
             {onSubmit && (
-              <Tooltip
-                arrow
-                disabled={!this.isDone}
-                open={isFirstSubmit || undefined}
-                title={getString('record-submit-tooltip', {
-                  actionType: getString('action-tap'),
-                })}>
-                <Localized id="submit-form-action">
-                  <PrimaryButton
-                    className={[
-                      'submit',
-                      getTrackClass('fs', `submit-${type}`),
-                    ].join(' ')}
-                    disabled={!this.isDone}
-                    onClick={onSubmit}
-                    type="submit"
+              <form onSubmit={onSubmit} className="contribution-speak-form">
+                {this.isDone && (
+                  <LabeledCheckbox
+                    label="I agree to Common Voice's Terms and Privacy Notice"
+                    required
+                    onChange={handlePrivacyAgreedChange}
+                    checked={privacyAgreedChecked}
                   />
-                </Localized>
-              </Tooltip>
+                )}
+                <Tooltip
+                  arrow
+                  disabled={!this.isDone}
+                  open={isFirstSubmit || undefined}
+                  title={getString('record-submit-tooltip', {
+                    actionType: getString('action-tap'),
+                  })}>
+                  <Localized id="submit-form-action">
+                    <PrimaryButton
+                      className={[
+                        'submit',
+                        getTrackClass('fs', `submit-${type}`),
+                      ].join(' ')}
+                      disabled={!this.isDone}
+                      type="submit"
+                    />
+                  </Localized>
+                </Tooltip>
+              </form>
             )}
           </div>
         </div>

@@ -73,7 +73,8 @@
 
         @media (--md-up) {
             border: none;
-            padding-inline-start: 6px;
+            padding-inline-start: 12px;
+            width: 85%;
 
             &.closed {
                 padding-inline-start: 0;
@@ -97,6 +98,7 @@
     }
 
     &.open {
+        width: 100%;
         justify-content: flex-end;
 
         @media (--sm-down) {

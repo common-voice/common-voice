@@ -21,7 +21,6 @@
 
     & .padder {
         display: inline-block;
-        border-inline-start: 1px solid var(--desert-storm);
         padding: 0 16px;
     }
 
