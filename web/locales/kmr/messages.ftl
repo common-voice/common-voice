@@ -1210,6 +1210,32 @@ sc-lang-info-in-review =
         [0] { "" }
        *[other] { $totalInReview } hevok di kontrolê de ne.
     }
+# Variables:
+#   $unreviewedSentencesByYou (Number) - Number of sentences the user can still review
+sc-lang-info-left-for-you =
+    { $unreviewedSentencesByYou ->
+        [0] Ji bo kontrolkirinê hevok nema.
+        [one] Ji bo kontrolkirinê hevokek maye.
+       *[other] Ji bo kontrolkirinê { $unreviewedSentencesByYou } hevok mane.
+    }
+sc-lang-info-review-now = <reviewLink>Aniha kontrol bike</reviewLink>
+sc-lang-info-add-more = <addLink>Aniha hevokên zêdetir tevlî bike</addLink>
+# Variables:
+#   $validatedSentences (Number) - Number of sentences which have been approved for this language
+sc-lang-info-validated =
+    { $validatedSentences ->
+        [0] Ti hevok nehat piştrastkirin.
+        [one] Hevokek hat piştrastkirin.
+       *[other] { $validatedSentences } hevok hatin piştrastkirin.
+    }
+# Variables:
+#   $rejectedSentences (Number) - Number of sentences which have been rejected for this language
+sc-lang-info-rejected =
+    { $rejectedSentences ->
+        [0] Ti hevok nehat redkirin.
+        [one] Hevokek hat redkirin.
+       *[other] { $rejectedSentences } hevok hatin redkirin.
+    }
 
 ## LOGIN
 
