@@ -1634,6 +1634,11 @@ const STATS = [
 ];
 
 export const up = async function (db: any): Promise<any> {
+  //update valid duration to be 16k instead of 1.6k
+  await db.runSql(
+    `UPDATE datasets SET valid_clips_duration=59087456000 WHERE release_dir='cv-corpus-11.0-2022-09-21';`
+  );
+
   await db.runSql(`
   INSERT IGNORE INTO
     datasets(name,
