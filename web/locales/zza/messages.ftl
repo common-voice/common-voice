@@ -245,6 +245,7 @@ whats-public = Kesê bînî çi vînenê?
 email-not-public = Ma e-maîlê to neşr nêkenîme.
 recordings-and-locale-public = Hûmara qeydanê to û ziwanê ke ti beşdarê ci bîyî/bîya, ê hetê kesanê bînan ra yenê dîyene.
 username-optin-public = Weçîne eke nameyê to yê xebitnayoxî anonîm yan zî akerde bo.
+username-email-not-demographic = Nameyê to yê xebitnayoxî û e-maîlê to dayeyanê weşanîyayeyan de girê nêdîyenê.
 
 ## Speak & Listen Shortcuts
 
@@ -274,6 +275,8 @@ shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Newe ra qeyd bike
 shortcut-discard-ongoing-recording = ESC
 shortcut-submit = Apey
+shortcut-submit-label = Qeydan birusne
+request-language-button = Ziwanêko newe biwaze
 
 ## ProjectStatus
 
@@ -380,6 +383,8 @@ faq-how-get-q = Ez senî resena dayeyanê Common Voice?
 faq-why-my-lang-q = Çira ziwanê mi hema tede çin o?
 faq-what-is-cv = Common Voice çi yo?
 faq-using-cv = Xebitnayîşê Common Voice
+faq-search-for-answers =
+    .label = Ro cewaban bigêre
 
 ## ABOUT US
 
