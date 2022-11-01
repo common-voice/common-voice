@@ -1244,6 +1244,7 @@ sc-review-link = Kontrol bike
 
 sc-settings-title = Sazkarî
 sc-settings-ui-language = Zimanê Navrûyê
+sc-settings-show-all-button = Hemû hevokên ku hatine derbaskirin dîsa nîşan bide
 
 # [/SentenceCollector]
 
