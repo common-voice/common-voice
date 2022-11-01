@@ -1139,6 +1139,15 @@ sc-submit-guidelines = Ji kerema xwe <howToLink>rêbernameyê</howToLink> kontro
 sc-add-lang-could-not-add = Ziman nehat tevlîkirin
 sc-add-lang-sec-label = Zimanekî ku tu dixwazî beşdariyê lê bikî, tevlî bike
 sc-add-lang-sec-button = Zimên tevlî bike
+sc-add-err-unexpected = Bersiveke neçaverêkirî ji rajekarê hat
+# Variables:
+#   $duplicates (Number) - Number of sentences which got rejected because they are duplicates
+sc-add-result =
+    { $duplicates ->
+        [0] Hevok hatin şandin. { $duplicates } hevok ji ber ku dubare ne hatin redkirin.
+        [one] Hevok hat şandin. { $duplicates } hevok ji ber ku dubare ye hat redkirin.
+       *[other] Hatin şandin. { $duplicates } hevok ji ber ku dubare ne hatin redkirin.
+    }
 sc-add-err-submission = Çewtiya Şandinê
 
 ## ADD SENTENCES CONFIRMATION
