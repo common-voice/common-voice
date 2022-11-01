@@ -1148,7 +1148,16 @@ sc-add-result =
         [one] Hevok hat şandin. { $duplicates } hevok ji ber ku dubare ye hat redkirin.
        *[other] Hatin şandin. { $duplicates } hevok ji ber ku dubare ne hatin redkirin.
     }
+# Variables:
+#   $sentences (Number) - Number of sentences which failed to be saved to the database - could be several different reasons
+sc-add-err-failed =
+    { $sentences ->
+        [0] hevok nehat barkirin
+        [one] hevokek nehat barkirin
+       *[other] { $sentences } hevok nehatin barkirin
+    }
 sc-add-err-submission = Çewtiya Şandinê
+sc-add-lang-process-notice = Heke zimanê te li vir nehatibe lîstekirin, tu dikarî bi rêya <languageProcessLink>vê pêvajoyê</languageProcessLink> daxwaz bikî.
 
 ## ADD SENTENCES CONFIRMATION
 
