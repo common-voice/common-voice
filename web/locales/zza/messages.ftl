@@ -199,6 +199,12 @@ vi = Vîetnamkî
 vot = Votîkî
 xh = Koza (Xhosa)
 yi = Yîdkî
+yo = Yoruba
+yue = Kantonkî
+zgh = Tamazîxkî
+zh-CN = Çînkî (Çîn)
+zh-HK = Çînkî (Hong Kong)
+zh-TW = Çînkî (Taywan)
 zu = Zulu
 
 # [/]
@@ -394,6 +400,8 @@ login-signup = Dekewe/Hesab Viraze
 edit = Sereraşt ke
 email-subscriptions = Aboneyîyê e-maîlî
 download-profile = Dayeyanê mi bîya war
+contribution-experience = Tecrubeyê Beşdarîye
+skip-submission-feedback = Rusnayîşê apeymelumatî ravêre
 off = Padaye
 on = Akerde
 help-accent = Derheqê fekan de hetkarîye wazenî/a?
@@ -436,8 +444,13 @@ faq-why-important-a =
     Seba ke naskerdişê vengî hîna zaf unîversal bo, ma nimûneyanê vengî hem ziwananê zaf qiseybîyayeyan ra hem zî ziwananê bi nufusanê qijkekan ra danîme arê; zafê reyan ziwanê bi şenik qiseykerdoxan hetê servîsanê naskerdişê vengî yê bazirganîyan ra kêmî xizmet vînenê. Weşanayîşê komdayeyanê vengan ê cîya-cîyayan do viraştox, karsaz û komelan rê îmkan bido ke na kêmasîye bi xo çareser bikerê.
 faq-how-get-q = Ez senî resena dayeyanê Common Voice?
 faq-why-my-lang-q = Çira ziwanê mi hema tede çin o?
+faq-how-calc-hours-q = Common Voice saetan senî hesab keno?
+faq-where-src-from-2-q = Metnê çimeyî kotî ra yenê?
+faq-why-account-q = Ez çira hesabêk akerî?
+faq-is-account-public-q = Tirêm melumatê hesabê mi her kesî rê aseno?
 faq-what-is-cv = Common Voice çi yo?
 faq-using-cv = Xebitnayîşê Common Voice
+faq-description = Common Voice projeyê Mozîlla yo ke makînayan (komputuran) rê bimusno ke merdimê raştikênî senî qisey kenê.
 faq-search-for-answers =
     .label = Ro cewaban bigêre
 
@@ -465,11 +478,22 @@ about-speak = Qisey ke
 about-listen-queue = Rêza Goşdarkerdişî
 about-listen-queue-text = Qeydê vengî seba rusnayîşî rêz benê ke seba goşdarkerdişî hazir bibê.
 about-listen = Goşdar bike
+about-listen-text = Xebitnayoxî raştîya qeydanê bexişnayeyan tesdîq kenê, yanî kontrol kenê tirêm qiseykerdoxî cumle raşt wenda yan ney.
+about-is-it-valid = Qeyd vîyartbar o?
+about-is-it-valid-text = Gama ke xebitnayoxêk bi "Heya" ray dano, qeyd sey "vîyartbar" nîşan dîyeno.
 about-yes-votes = ≥ 2 rayê "heya"
 about-yes-votes-text = Seba ke yew qeydê vengî bikewo komdayeyê Common Voice, ganî hetê di xebitnayoxanê cîyayan ra tesdîq bibo.
 about-no-votes = ≥ 2 rayê "ney"
 about-no-votes-text = Eke xebitnayoxêk qeydê vengî betal keno, qeyd agêreno Rêze. Eke reya dîyine betal beno, qeydê vengî şono Goristanê Qeydan.
+about-dataset-new = Komdayeyê Common Voice
 about-clip-graveyard = Goristanê Qeydan
+about-get-involved = Beşdar be
+about-stay-in-touch-button = Qeyd bibe
+about-nav-why-common-voice = Çira?
+about-nav-how-it-works = Senî?
+about-nav-partners = Hemkarî
+about-nav-get-involved = Beşdar be
+about-nav-how-it-works-2 = Common Voice senî gureyeno?
 
 ## Community Playbook Content
 ## What is a language
@@ -477,6 +501,9 @@ about-clip-graveyard = Goristanê Qeydan
 
 ## How do I add a language
 
+about-playbook-how-add-language = Ez senî ziwanêk îlawe kena?
+about-playbook-how-add-language-content-1 = Verê veran, kontrol bike tirêm ziwanê to <languageLink>est o yan ney</languageLink>. Eke çin o, ti eşkenî/a <languageRequestLink>îlawekerdişê ci biwazê</languageRequestLink>. Di beşî est ê: çarnayîşê sîteyî û arêdayîşê cumleyan.
+about-playbook-how-add-language-translating-heading = Çarnayîşê sîteyî
 
 ## How does localization work
 
