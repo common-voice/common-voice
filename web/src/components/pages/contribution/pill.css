@@ -73,7 +73,7 @@
 
         @media (--md-up) {
             border: none;
-            padding-inline-start: 12px;
+            padding-inline-start: 6px;
             width: 85%;
 
             &.closed {
@@ -98,8 +98,8 @@
     }
 
     &.open {
-        justify-content: space-evenly;
-        width: 200px;
+        justify-content: space-between;
+        width: 175px;
 
         @media (--sm-down) {
             width: auto;
