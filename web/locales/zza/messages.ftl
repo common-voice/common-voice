@@ -526,12 +526,16 @@ about-playbook-how-localize = Çarnayîşê sîteyî senî beno?
 
 about-playbook-how-add-sentences = Ez senî cumleyan îlawe kena?
 about-playbook-how-add-sentences-content-1 = <strong>Arêdayoxê Cumleyan</strong> wesayît o ke pê cumleyê ke pêroyî rê akerde yê, arê dîyenê û tesdîq benê. Verê, ganî ti <scAccountLink>hesabêk virazê</scAccountLink>. Dima, ziwanê xo îlaweyê <strong>profîlê xo</strong> bike. Ti eşkenî/a cumleyan <strong>îlawe bikerê</strong> yan kî <strong>çim biçarnê</strong> cumleyanê îlawekerdeyan.
+about-playbook-how-add-sentences-content-2 = Seba ke cumleyî îlaweyê Common Voice bibê, ganî hetê di kesan ra kontrol bibê û qebul bibê. Ti <languageGuidelinesLink>tîya</languageGuidelinesLink> rayberê ziwanê xo virazenî/a. Ganî cumleyî binê lîsansê <licenseLink>milkê pêroyî</licenseLink> de bibê û 15 çekuyan ra kêmî bibê. Ti eşkenî/a wayîrê metnêk ra bipersî ke <waiverLink>pê feragatnameyê ma metnê xo sey CC0 tesnîf bikero</waiverLink> û adresa commonvoice@mozilla.com rê birusno.
 
 ## How to record quality
 
 
 ## How to grow language
 
+about-playbook-how-grow-language-content-2 = Aktîvîteyî
+about-playbook-how-grow-language-content-4 = Medyaya sosyale
+about-playbook-how-grow-language-content-6 = Hemkarî û torrî
 
 ## How to validate
 
