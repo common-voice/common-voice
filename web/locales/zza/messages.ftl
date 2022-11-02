@@ -461,6 +461,7 @@ how-does-it-work-title-v2 = Common Voice senî gureyeno?
 
 ## How does it work section
 
+about-language-req-subtitle = Yewêk waştişname rusneno ke yew ziwan îlawe bo.
 about-localization-title = Çarnayîşê Keyepelî
 about-localization-subtitle = Metnê keyepelî çarnîyeno nê ziwanî ser.
 about-sentence-collection-title = Arêdayîşê Cumleyan
@@ -475,6 +476,7 @@ about-dataset-release-title = Weşanê Komdayeyan
 about-dataset-release-subtitle = Her 3 aşmî ma komdayeyan weşanenîme.
 about-subscribe-text = Ti wazenî/a Common Voice ra xeberdar bimanê?
 about-speak = Qisey ke
+about-speak-text = Beşdarî databasê cumleyanê bexişnayeyan ra wanenê û vengê xo qeyd kenê.
 about-listen-queue = Rêza Goşdarkerdişî
 about-listen-queue-text = Qeydê vengî seba rusnayîşî rêz benê ke seba goşdarkerdişî hazir bibê.
 about-listen = Goşdar bike
@@ -487,29 +489,42 @@ about-no-votes = ≥ 2 rayê "ney"
 about-no-votes-text = Eke xebitnayoxêk qeydê vengî betal keno, qeyd agêreno Rêze. Eke reya dîyine betal beno, qeydê vengî şono Goristanê Qeydan.
 about-dataset-new = Komdayeyê Common Voice
 about-clip-graveyard = Goristanê Qeydan
+about-clip-graveyard-text =
+    Qeydê vengî yê ke nênê zereyê komdayeyê Common Voice, kewenê Goristanê Qeydan. Sey komdayeyan, Goristanê Qeydan kî yeno warardene. 
+    
+    Seba ke nê projeyî de hetkarîya ma kerde, ma wazenîme nê kes û organîzatoranê cêrênan rê sipas bikerîme:
 about-get-involved = Beşdar be
+about-stay-in-touch = Ez senî eşkena têkilîye de bimanî?
 about-stay-in-touch-button = Qeyd bibe
 about-nav-why-common-voice = Çira?
 about-nav-how-it-works = Senî?
 about-nav-partners = Hemkarî
 about-nav-get-involved = Beşdar be
 about-nav-how-it-works-2 = Common Voice senî gureyeno?
+about-nav-playbook = Beşdarîye senî bena?
 
 ## Community Playbook Content
 ## What is a language
 
+about-playbook-what-is-language = Common Voice ser o yew ziwan çi yo?
+about-playbook-what-is-language-content-1 = Merdim eşkeno tewir bi tewir derheqê ziwanan de bifikirîyo. Seba armancê modelanê naskerdişê qiseykerdişî, Common Voice pêşnîyaz keno ke giranî bidîme konseptê "yewbînan fehmkerdişî" ser, yan zî "eke lebate kenê, tirêm qiseykerdoxê nê ziwanî yewbînan fehm kenê yan ney?"
+about-playbook-what-is-language-content-2 = Ma wazenîme ke modelê ziwanî bieşkê tewir bi tewir qiseykerdoxan fehm bikerê. Nê semedî ra ganî databasê vengan xeylê kesanê cîya-cîyayan temsîl bikero.
+about-playbook-what-is-language-content-3 = Tayê ziwanan de ferqê gramer, çekuyan û telefuzî yê girsî est ê. Coka, ma 2022 de <ctaLink>varyantan</ctaLink> îlawe kenîme. Wina komelî eşkenê mîyanê komdayeyanê girsan ra ziwananê xo cêser vejê.
 
 ## How do I add a language
 
 about-playbook-how-add-language = Ez senî ziwanêk îlawe kena?
 about-playbook-how-add-language-content-1 = Verê veran, kontrol bike tirêm ziwanê to <languageLink>est o yan ney</languageLink>. Eke çin o, ti eşkenî/a <languageRequestLink>îlawekerdişê ci biwazê</languageRequestLink>. Di beşî est ê: çarnayîşê sîteyî û arêdayîşê cumleyan.
 about-playbook-how-add-language-translating-heading = Çarnayîşê sîteyî
+about-playbook-how-add-language-collecting-sentences-heading = Arêdayîşê cumleyan
 
 ## How does localization work
 
+about-playbook-how-localize = Çarnayîşê sîteyî senî beno?
 
 ## How to add sentences
 
+about-playbook-how-add-sentences = Ez senî cumleyan îlawe kena?
 
 ## How to record quality
 
