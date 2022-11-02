@@ -36,10 +36,12 @@ ba = Bashkir
 bas = Basaa
 be = Belarusian
 bg = Bulgarian
+bm = Bambara
 bn = Bengali
 br = Breton
 bs = Bosnian
 bxr = Buryat
+byv = Medumba
 ca = Catalan
 cak = Kaqchikel
 ckb = Central Kurdish
@@ -49,6 +51,7 @@ cs = Czech
 cv = Chuvash
 cy = Welsh
 da = Danish
+dag = Dagbani
 de = German
 dsb = Sorbian, Lower
 dv = Dhivehi
@@ -135,7 +138,7 @@ nr = IsiNdebele (South)
 nso = Northern Sotho
 nyn = Runyankole
 oc = Occitan
-om = Afaan Ormoo
+om = Afaan Oromo
 or = Odia
 pa-IN = Punjabi
 pap-AW = Papiamento (Aruba)
@@ -202,6 +205,7 @@ zh-CN = Chinese (China)
 zh-HK = Chinese (Hong Kong)
 zh-TW = Chinese (Taiwan)
 zu = Zulu
+zza = Zaza
 # [/]
 
 ## Layout

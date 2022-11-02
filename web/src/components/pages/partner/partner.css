@@ -127,7 +127,6 @@
 
 .our-partners-container {
     @media (--md-up) {
-        max-width: 80rem;
         padding: 2rem 4rem;
         margin: 0 auto;
     }
@@ -172,9 +171,13 @@
 
     @media (--lg-up) {
         display: grid;
-        grid-template-columns: repeat(6, 1fr);
-        grid-column-gap: 80px;
-        align-items: center;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        justify-items: center;
+
+        & img {
+            max-width: 100%;
+            height: auto;
+        }
     }
 
     @media (--xs-down) {

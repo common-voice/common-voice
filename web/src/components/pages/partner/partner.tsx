@@ -63,7 +63,7 @@ const Partner = () => (
           <img
             src={require('./images/partners/ff-logo.jpg')}
             alt="Fair Forward"
-            width={370}
+            width={350}
             height={135}
           />
           <img
@@ -77,6 +77,10 @@ const Partner = () => (
             alt="Deutsche Gesellschaft für Internationale Zusammenarbeit"
             width={370}
             height={135}
+          />
+          <img
+            src={require('./images/partners/collectivat.png')}
+            alt="Collectivat"
           />
         </div>
       </div>
