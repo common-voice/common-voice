@@ -240,6 +240,10 @@ email-subscription-title-new = Aboneyê xebernameyanê Common Voice, vîrardiş�
 benefits = Feydeyî
 rich-data = Ti ke tayê melumato demografîko anonîm pêşkêş kenî/a, dayeyê to yê rusnayeyî tenêna benê dewlemend. Verê ke bêrê weşanayene, ma pêro dayeyanê demografîkan anonîm kenîme.
 improve-audio = Melumatê profîlî dayeyê vengî ke musnayîşê raştkerdişê naskerdişê qiseykerdişî de xebitnîyenê, înan rindêr keno.
+keep-track = Rewşa xo ya averşîyayîşî û peymanê xo yê ziwananê cîya-cîyayan taqîb bike.
+compare-progress = Averşîyayîşê xo, yê beşdaranê dinya yê bînan de têver o ne.
+view-goals = Averşîyayîşê xo hedefê xo û hedefanê projeyî de têver o ne.
+join-newsletter = Eke wazenî/a, beşdarê lîsteya ma yê e-maîlî bibe û wina rojanekerdiş û xeberanê projeyî yê neweyan bigîre.
 
 ## What's public
 
@@ -331,6 +335,7 @@ female = Cinîke
 # Gender
 other = Ê bînî
 why-profile-title = Çira profîlêk virazî?
+why-profile-text = Ti ke derheqê xo de tenê melumat pêşkêş kenî/a, dayeyanê vengî ke ti rusnenî/a Common Voice, ê seba çîynermanê Naskerdişê Qiseykerdişî benê feydeyin ke bi o hawa tekûzêr bibê.
 dashboard = Panel
 build-profile = Profîl viraze
 avatar = Avatar
