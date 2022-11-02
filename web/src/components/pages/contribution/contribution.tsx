@@ -37,8 +37,6 @@ import Wave from './wave';
 
 import './contribution.css';
 
-const HAS_SEEN_ACCOUNT_MODAL_KEY = 'hasSeenAccountModal2';
-
 export const SET_COUNT = 5;
 
 export interface ContributionPillProps {
@@ -72,8 +70,8 @@ interface Props extends WithLocalizationProps, PropsFromState {
   onReset: () => any;
   onSkip: () => any;
   onSubmit?: () => any;
-  onPrivacyAgreedChange: (privacyAgreed: boolean) => void;
-  privacyAgreedChecked: boolean;
+  onPrivacyAgreedChange?: (privacyAgreed: boolean) => void;
+  privacyAgreedChecked?: boolean;
   primaryButtons: React.ReactNode;
   pills: ((props: ContributionPillProps) => React.ReactNode)[];
   sentences: Sentence[];
