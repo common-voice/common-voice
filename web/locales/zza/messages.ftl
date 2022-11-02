@@ -274,13 +274,20 @@ shortcut-record-toggle-label = Qeyd bike/Bivindarne
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Newe ra qeyd bike
 shortcut-discard-ongoing-recording = ESC
+shortcut-discard-ongoing-recording-label = Qeydê nikayinî biestire
 shortcut-submit = Apey
 shortcut-submit-label = Qeydan birusne
+request-language-text = Ti ziwanê xo hîna Common Voice de nêvînenî/a?
 request-language-button = Ziwanêko newe biwaze
 
 ## ProjectStatus
 
+status-title = Rewşa projeyî ya pêroyîye: de nîyade ma resayîme kotî!
 status-contribute = Vengê Xo Bibexişne
+status-hours =
+    { $hours ->
+       *[other] Heta nika { $hours } saetê tesdîqkerdeyî est ê!
+    }
 # Variables:
 # $goal - number of hours representing the next goal
 status-goal = Hedefo ameyox: { $goal }
@@ -413,6 +420,7 @@ about-listen = Goşdar bike
 about-yes-votes = ≥ 2 rayê "heya"
 about-yes-votes-text = Seba ke yew qeydê vengî bikewo komdayeyê Common Voice, ganî hetê di xebitnayoxanê cîyayan ra tesdîq bibo.
 about-no-votes = ≥ 2 rayê "ney"
+about-no-votes-text = Eke xebitnayoxêk qeydê vengî betal keno, qeyd agêreno Rêze. Eke reya dîyine betal beno, qeydê vengî şono Goristanê Qeydan.
 about-clip-graveyard = Goristanê Qeydan
 
 ## Community Playbook Content
