@@ -525,6 +525,7 @@ about-playbook-how-localize = Çarnayîşê sîteyî senî beno?
 ## How to add sentences
 
 about-playbook-how-add-sentences = Ez senî cumleyan îlawe kena?
+about-playbook-how-add-sentences-content-1 = <strong>Arêdayoxê Cumleyan</strong> wesayît o ke pê cumleyê ke pêroyî rê akerde yê, arê dîyenê û tesdîq benê. Verê, ganî ti <scAccountLink>hesabêk virazê</scAccountLink>. Dima, ziwanê xo îlaweyê <strong>profîlê xo</strong> bike. Ti eşkenî/a cumleyan <strong>îlawe bikerê</strong> yan kî <strong>çim biçarnê</strong> cumleyanê îlawekerdeyan.
 
 ## How to record quality
 
