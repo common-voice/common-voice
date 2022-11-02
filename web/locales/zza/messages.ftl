@@ -238,6 +238,8 @@ email-subscription-title-new = Aboneyê xebernameyanê Common Voice, vîrardiş�
 ## Account Benefits
 
 benefits = Feydeyî
+rich-data = Ti ke tayê melumato demografîko anonîm pêşkêş kenî/a, dayeyê to yê rusnayeyî tenêna benê dewlemend. Verê ke bêrê weşanayene, ma pêro dayeyanê demografîkan anonîm kenîme.
+improve-audio = Melumatê profîlî dayeyê vengî ke musnayîşê raştkerdişê naskerdişê qiseykerdişî de xebitnîyenê, înan rindêr keno.
 
 ## What's public
 
