@@ -45,6 +45,7 @@ Agahdarbûna baş dê we piştrast bike.
 Agahdarî!
 Agahdarî! Radyoya me dest bi weşana Kurdî dike
 Agahiyên ku di mijarên gelemperî de hatine diyar kirin di pêvekê de ne
+Agahiyên tomarê li panoyê hat kopîkirin.
 Agir bi dawê ketiye.
 Agir bi sobeyê ket.
 Agir gûr dibe.
@@ -125,6 +126,7 @@ Artêşa Rûsî, bombeyek nû ceriband
 Artêşa welêt xwe amade dike.
 Arîstotales bawer dikir ku cîhan ji çar elementan pêk hatiye.
 Asta peyvên mirov, asta mirov bi xwe destnîşan dike
+Asta ronahiyê tomar bike.
 Asta xebata tevgera civaka kurd, veguhest qadek bilindtir
 Asîda folîkê çawa tê kopîkirin?
 Av çi qasî di golê de bimîne, genî dibe.
@@ -327,9 +329,11 @@ Berf dibare.
 Berf xezîneya erdê ye
 Berf û baran çi dikin?
 Berfanbar, Rêbendan û Reşemeh mehên zivistanê ne.
+Berga albûmê biguherîne.
 Berga pirtûka Romeo û Julîet a pir delal hatiye sêwirandin.
 Berga pirtûka Romeo û Julîetê pir delal hatiye sêwirandin.
 Berhema wî ya herî navdar ev e
+Berheman bistîne.
 Berhemên wî, di warê zanistên civakî de ne
 Berhevkirin kilîda bidestxistinê ya peymana herî baş e.
 Beriya ku hûn bişixulînin têxin şarjê.
@@ -380,6 +384,7 @@ Bes bike kîn û xiybetê
 Bes bipeyive, hinekî bixebite keda xwe helal bike.
 Bes e êdî, divê em rêya xwe vekin.
 Bes e.
+Betal bike.
 Betilî me.
 Bexda paytexta Iraqê ye.
 Bexda serbajarê Iraqê ye.
@@ -389,6 +394,7 @@ Beyanî baş!
 Beyrûd paytexta Libnanê ye.
 Beşa laşê me ya ku di navbera serî û lingên me de cih digire.
 Beşa laşê me ya ku di navbera serî û lingên me de cih digre.
+Beşdariyê bike.
 Beşdariyên wê bi qîmet bûn.
 Bi Mizgînê re sê hirmî hene.
 Bi alikariya dûvê soberiyê dikim.
@@ -596,6 +602,7 @@ Bi zanebûn û temenê xwe yê mezin, me li derdora xwe kom dike.
 Bi zimanekî şêrîn zimên li ber dilê xelkê xweş bikin.
 Bi zimanê xwe bigre cihê xwe bikire
 Bi zimanên Kurdî û Erebî, li ser mijarên cihêreng gelek nivîsiye
+Bi zorê bigire.
 Bi zêdebûna sermayê re, baran dibe berf.
 Bi Îslamê nelîzin.
 Bi çanda Laîsizmê û biyaniyan mezin û kal dibin.
@@ -646,6 +653,7 @@ Bihêle bila li kêfa xwe binêre.
 Bihêle ez herim.
 Bihêle!
 Bijareyeke din a Tomî tune bû ji bilî li Maryê bide.
+Bijartinê daxîne.
 Bijimêre.
 Bijî biratiya gelan! Bimre koletî
 Bijî keça min! Pêwîst e hûn baş bixebitin.
@@ -676,13 +684,16 @@ Bila bûka te, yê te be.
 Bila ciwanên me belawela nayên girtin.
 Bila di Zagona Bingehîn de hin tiştan biguherînin
 Bila di bîra te de be.
+Bila ev jêrnivîs bê jêbirin?
 Bila ew be bila hew be
 Bila ew pêşî derkeve derve.
 Bila guhê te li min be.
 Bila hayê me ji hev hebe.
+Bila her kes bibihîze.
 Bila her kes pirtûkekê ji pirtûkên malê bîne dibistanê.
 Bila herkes lê siwar bibe.
 Bila hêsan be!
+Bila ji ciyê berê ve were domandin?
 Bila jina te kin be.
 Bila ketçap jî lê hebe.
 Bila ketçap jî tê de hebe.
@@ -693,6 +704,7 @@ Bila ne ciranê diya xwe be.
 Bila soz be, ez soz didim.
 Bila soz be, ez sozê didim.
 Bila televizyona te kîjan reng be?
+Bila vîdyo di paşxanê de bên lêdan.
 Bila xwendevanên min dijminê şer bin
 Bila çîma min neşdîne ha, li gor wê!
 Bila şandeyeke serbixwe lêkolîn bike
@@ -754,6 +766,7 @@ Birîna du guleyan li ser sînga fadil hebû.
 Bisekine.
 Bistekî din di tariyê de mabûm
 Bixwe.
+Bixweber bike kom.
 Bizanin ez ne mela me.
 Bizina kol elimiye dana
 Bizinê bidoşin.
@@ -784,6 +797,7 @@ Bê qerewat bû.
 Bê wî şev xweş nabe
 Bêbexto ka hinek bext.
 Bêdeng be.
+Bêdeng bike.
 Bêdeng im.
 Bêdengtir!
 Bêdengî carinan tê maneya razîbûnê.
@@ -1047,6 +1061,7 @@ Dema ku em mêweyan bixwin, em dê zû mezin bibin.
 Dema ku em nexweş dikevin, em diçin nexweşxaneyê.
 Dema ku em van amûran bi kar tînin, li çi baldar bin?
 Dema ku em van karan dikin, hem laşê me, hem jî mejiyê me diweste.
+Dema ku ev medya dihat bikaranîn çewtiyek derket.
 Dema ku ew ji xewê rabû, me jê re got.
 Dema ku ew jî çûn hawirdor ker bûbû.
 Dema ku ew malê paqij dike, ew li muzîkê guhdarî dike.
@@ -1069,6 +1084,7 @@ Dema ku mirov pirtûkê bixwîne, dê çirûskên hêviyê jî bibîne ….
 Dema ku pê hisiyam ez ê te agahdar bikim.
 Dema ku pîrejinê konsolê vedikir deng dihat.
 Dema ku qehweyê vedixwim xewa min nema tê.
+Dema ku tu ji lêdana vîdyoyê derbasî sepaneke din bû.
 Dema ku wê nûçe bihîstin ew matmayî ma.
 Dema li televizyonê temaşe dikin, dengê wê zêde bilind nekin.
 Dema lîstikvanên nû derdikevin şanogehê diperoşin
@@ -1091,6 +1107,7 @@ Dema wê biçûya zanîngehê, li Ankara'yê ba apê xwe jiya bû
 Dema xizmên me jî tev li malbatê dibin, dibe malbata mezin.
 Dema xizmên me jî tevlî malbatê dibin, dibe malbata mezin.
 Dema xizmên we têne mala we, tu çi dikî?
+Dema xwe bibexşîne.
 Dema xwendina xwe, li ser pirsa Kurdî radiwest
 Dema xwendinê xwendin e; dema lîstinê lîstin e.
 Dema zewaca min hatiye.
@@ -1191,6 +1208,7 @@ Destên xwe rakin!
 Destûr ji malbata Şêrgo xwestin û bi lez çûn qadê.
 Destûr nedan min ku alikariya Delalê bikim.
 Destûra Iraqê, çareseriyek ji pirsgirêka Kerkûkê re nedîtiye
+Destûrê bide.
 Detroît bajarekî xeternak e.
 Dev heye qise nake, cihê wê heye lê ranakeve
 Dev ji dizan berdan lê diz dev jê bernade
@@ -1378,6 +1396,7 @@ Di laşê mirov de çend hestî heye?
 Di laşê te de gelek hestî heye.
 Di laşê we de gelek hestî hene
 Di lengerên pirê de dîwarên taybetî hatine çêkirin.
+Di lîsteya heyî de lê bigere.
 Di lîstokê de em cudahiyê naxin di navbera hevalên xwe de.
 Di mala me de dayika me bijîşka malê ye.
 Di mala me de dayîka me bijîşka malê ye.
@@ -1474,6 +1493,7 @@ Di salekê de duwazdeh meh hene.
 Di salekê de çar demsal hene.
 Di salekê de çend demsal hene?
 Di salên heştêyî de çavên xwe di behrê de vedikim.
+Di sazkariyan de veke.
 Di sedsala bihurî de, gelek mînakên serîhildanê hene
 Di sedsala bîstan de, rojnamegerî bêhtir pêşket
 Di sekna wî de jî hewaya karmendekî giran hebû.
@@ -1490,6 +1510,7 @@ Di taştê de nanê tezeyê tenik, li ber jî rûnê malê û mast bû
 Di taştêyê de penêr û mast nebe, nabe.
 Di tedawiya vê nexweşiyê de psîkoterapî û bikaranîna dermanan tên bikaranîn.
 Di tenatiyê de ez gelek aciz dibûm.
+Di tevahiya medyagehê de lê bigere.
 Di tûfringiyê de heye
 Di van gotinên xwe de, ji sedî sed mafdar e
 Di van rojan de gelek nûçeyên xapînok hene.
@@ -1513,6 +1534,7 @@ Di vê gerê de hin caran ji royê dûr dikeve.
 Di vê malê de çend pisîk hene?
 Di vê meha rehmetê de du cejn têne pîroz kirin.
 Di vê navê de min dengekî din seh kir.
+Di vê peldankê de jêrnivîs tune.
 Di vê pêvajoyê de gelek leşker, li sînor hatin bicih kirin
 Di vê pêvajoyê de germkirin bi sê cureyan tê kirin.
 Di vê pêvajoyê de her kesê hişmend, divê bang li hikûmetê bike
@@ -1858,6 +1880,7 @@ Domên li Amedê, komele ava kir
 Dora te ye.
 Dora çemê nisêbîne tije kew e.
 Dost û ehbab wenda bûne
+Dosyeya jêrnivîsê hilbijêre.
 Dosyeyan tevlî bike.
 Dotmama te çi karî dike?
 Dotmamên te ji ku ne?
@@ -1920,6 +1943,7 @@ Dîn yek e cudahî tinîne
 Dînê Îslam şêrîn e
 Dîrok dibe şahid; zimanê Kurdî her roj gav bi gav pêş dikeve.
 Dîrok, zanyarên me yên bijarte, nîşanê me dide
+Dîsa bi nav bike.
 Dîsa biceribîne.
 Dîsa binêrin: Firîn û tenduristî
 Dîsa ketime tariya reş, ji eciziyê min dest bi duayê kir
@@ -1986,6 +2010,12 @@ Em araste dibin.
 Em araste nabin.
 Em araste nebûn.
 Em araste nebûne.
+Em arode bûn.
+Em arode bûne.
+Em arode dibin.
+Em arode nabin.
+Em arode nebûn.
+Em arode nebûne.
 Em asê dikin.
 Em asê nakin.
 Em av didin.
@@ -2313,7 +2343,9 @@ Em neborîne.
 Em nebêhnijî ne.
 Em nebêhnijîn.
 Em niha nikarin biryara vê bidin?
+Em nikarin cîhanê biguherînin.
 Em nikarin.
+Em nizanin em bi ku ve diçin û ji ku ve vedigerin.
 Em pir sûdê ji wan digirin.
 Em piraniya karên xwe, bi alîkariya destan dikin.
 Em pirsa xoşewîst Rêzan bi bîr bînin
@@ -2391,6 +2423,8 @@ Em ê alî te nekin.
 Em ê alîkariya kedkarên çapemeniyê bikin
 Em ê araste bibin.
 Em ê araste nebin.
+Em ê arode bibin.
+Em ê arode nebin.
 Em ê asê bikin.
 Em ê asê nekin.
 Em ê av bidin.
@@ -2514,6 +2548,7 @@ Em îro çiqas zimanan bielimin ji me re pir baş e
 Em îşev hev bibînin.
 Em îşê xwe dizanin.
 Em Şaristaniyên mezin ava dikin
+Em şîvê dixwin.
 Em, Amerîkayê wek berpirsiyar dizanin
 Em, dê nîşanî gelek derdoran bidin ka çawa şaredarî tê rêvebirin
 Em, dîsa vegerin ser mijara me ya îro
@@ -2535,6 +2570,7 @@ Encama xwendina bi hev re, çi bû?
 Encamên avêtina gelaşê li kolan û nav avê, çi ye?
 Encamên baş bi dest dixe.
 Encamên tercîhên me yên muhîm, di demeke kurt de diyar nabin.
+Encamên vê ceribandinê piştgiriyên din peyda dikin.
 Encoz, Kilan, Hogeçî, Evdilezîz
 Endamên malbata qelebalix giş dev lalikin.
 Endamên parlementoyê, di rûniştina xwe ya îro de biryar dan
@@ -2548,6 +2584,7 @@ Enwer Mayî ne tenê li ser wêjeye Kurdî kar kirye.
 Eqrebeyên Emer keçikekê li Heso mehr dikin
 Erd gera xwe li derdora rokê di salekê de temam dike.
 Erd gera xwe li derdora royê di salekê de temam dike.
+Erd gera xwe ya li derdora royê di salekê de temam dike.
 Erd jî li gorî dewletan cuda cuda hatine rengkirin.
 Erd li derdora royê digere.
 Erdhej li ku derê çêbû?
@@ -2556,6 +2593,8 @@ Erdnîgariya Kurdistanê, bûye navenda bi dehan şaristaniyên hevdem
 Erebe kevn e
 Erebe li Tomî qelibî û ew mir.
 Erebeyên destan, li hemberî tekonojiyê li berxwe didin
+Erebistana Siûdî malperên Yahooyê asteng kirine.
+Erkên bingehîn ên civaknasiyê, binavkirin û pênaseya rast a jiyanê ye.
 Erkên wan, çêrandina pez e û hêrtina genim e
 Erê dayê, mamoste em bi hev dan nasîn.
 Erê dayê, me soza serkeftinê da.
@@ -2602,14 +2641,17 @@ Ev bi awayeke mezin di Rojhilata navîn û Efrîqa de belav bû ye.
 Ev birayê min e.
 Ev birayê te yê mezin e.
 Ev bêje, li hin deverên welat wiha tê bilêvkirin
+Ev bûyerek e ku hûn ê qet ji bîr nekin!
 Ev ceijn weke rojên aramî û aşîtiyê tên dîtin.
 Ev cejn rojên berxwedan, serkeftin an jî rojên kêfxweşiyê ne.
 Ev cejn weke rojên aramî û aşîtiyê tên dîtin.
 Ev civîn her sal çê dibe.
 Ev cureyên kiryaran, aştî û îstîqrara deverê lawaz dikin
 Ev cî vala ye?
+Ev cîhan pir mezin e û têra me hemûyan dike.
 Ev cîhana me ye.
 Ev dar yek ji darên herî nas ên Efrîqaya tropîk e.
+Ev deh sal in Xweşnavo ji welêt derketiye.
 Ev demek e, li ser binesaziya malperekê dixebitim
 Ev demeke xirab e.
 Ev demeke, amadekariyên konferansa Kurd tên kirin
@@ -2642,8 +2684,10 @@ Ev gore nû ye.
 Ev goreya nû neqişandî ye.
 Ev goreya nû, neqişandî ye.
 Ev goşt pir bi don e.
+Ev guharine xweşik in.
 Ev gul bêhna wê xweş e.
 Ev gund yek ji gundên êzîdiyên Wêranşarê ye.
+Ev hefteyek ez li hêviya strana Ciwan Haco ya nû me.
 Ev hejmar ji pêpilkekê pêk tên.
 Ev hejmara herî mezin a rojekê ye ya ji ber vîrusê.
 Ev hemû bandorê li jiyana me dikin.
@@ -2664,6 +2708,7 @@ Ev hirçekî reş e.
 Ev hostetî, aheng, xweşî û vegotina çîrçîrokan bi çîrokan re xuya dibû
 Ev hovîtiya li hember mirovên bêguneh, nikare nav were lê kirin
 Ev huner, xwemalê helbesta klasîk e
+Ev ji ava çiyayî xweştir nîne.
 Ev ji bo netewa Kurd, destkefteke dîrokî ye
 Ev ji bo te ne.
 Ev ji min hat.
@@ -2720,17 +2765,20 @@ Ev ne li ser wan e, ma ne?
 Ev ne mamoste ye.
 Ev ne pejirandî ye.
 Ev ne pereyê te ye, yê min e.
+Ev ne posteke li ser danasîna sûcdarkirinê ye.
 Ev ne pênûs e.
 Ev ne pêwîst bû.
 Ev ne rast e.
 Ev ne rojnameya min e.
 Ev ne xeletiya Tomî bû.
+Ev nexweşî ji dayika nexweş bi rêya hevalbiçûkê vediguhêze embriyoyê.
 Ev nexweşî ji hêla vê bijîşkê ve hatiye vedîtin.
 Ev nikare têkeve pêşiya min û te.
 Ev nivîn in.
 Ev nîna ye hê têr nîna li para ye
 Ev otobus diçe navenda bajêr.
 Ev otobûs diçe navenda bajêr.
+Ev peldank vala ye.
 Ev peyvek e lê ne hevokek e.
 Ev pir tevlihev e?
 Ev pirsgirêk gelek caran derdikeve holê.
@@ -2772,6 +2820,7 @@ Ev saet in
 Ev sal ew ê bibe sala zimanê me.
 Ev sala ew ê bibe sala zimanê me.
 Ev sar e.
+Ev satilên mêst nayên xwarin.
 Ev sobeya baş e.
 Ev sozdar bû.
 Ev sêv sor e.
@@ -2779,10 +2828,12 @@ Ev sêvek e.
 Ev tevger, divê ji siyasetê dûr keve û wek tevgereke sivîl kar bike
 Ev tevgera Erdê, bi xwe re demsalan tîne.
 Ev tişt bi temamî ew ê bi kêrî min were.
+Ev tişt ji welatê me re ne lazim e.
 Ev tişt, ji aliyê kesên hîndekar û xwendekaran ve nayên dîtin
 Ev tiştekî pir kêrhatî ye.
 Ev tiştekî wekî ku mere li ser heyvê bimeşe.
 Ev têgihiştin, bi xwe re, wê di olan de bicih dike.
+Ev tîma bijîşkî ji aliyê teknîkî ve jêhatî ye.
 Ev werger rast e, lê pir zêde peyv bi peyv e.
 Ev weşanxane, pirtûkên bi nav û deng çap dike
 Ev wê tîne bîra min.
@@ -2805,6 +2856,7 @@ Ev yek girêdayî te ye.
 Ev yek jî bi hezkirin, keddayîn û jihevtêgihaştinê pêk tê.
 Ev yek jî bi hezkirin, keddayîn û jihevtêgihîştinê pêk tê.
 Ev yek li gor lêkolînên zanistî jî hatiye pejirandin.
+Ev yek li nav hemû zindiyan çêdibe.
 Ev yek ne di destên min de ye.
 Ev yek nikare bibe.
 Ev yek, di Mesîhiyê de rê li pêşiya baweriyeke rasteqîn digre
@@ -2878,6 +2930,18 @@ Ew araste nebû.
 Ew araste nebûn.
 Ew araste nebûne.
 Ew araste nebûye.
+Ew arode bû.
+Ew arode bûn.
+Ew arode bûne.
+Ew arode bûye.
+Ew arode dibe.
+Ew arode dibin.
+Ew arode nabe.
+Ew arode nabin.
+Ew arode nebû.
+Ew arode nebûn.
+Ew arode nebûne.
+Ew arode nebûye.
 Ew asê dike.
 Ew asê dikin.
 Ew asê nake.
@@ -2901,6 +2965,7 @@ Ew bar nakin.
 Ew bavê min e.
 Ew bawer dike.
 Ew bawer dikin.
+Ew bawer nake ku ez vegeriyame.
 Ew bawer nake.
 Ew bawer nakin.
 Ew baz dide.
@@ -2944,6 +3009,7 @@ Ew bi nihênî li bajêr dijiyan.
 Ew bi pirtûka xwe ya bi navê Dîroka Herodot tê naskirin.
 Ew bi ser ketin.
 Ew bi xwe hat vir.
+Ew bi xweza û xweşikbûna xwe navdar e.
 Ew bi Îngilîzî dipeyive.
 Ew bi çavên xwe yên qehweyî xweşik e.
 Ew bi çavên şîn şoq dide.
@@ -3002,6 +3068,7 @@ Ew ciwan e.
 Ew ciwan in.
 Ew cîgerê min dikêşîne
 Ew cîngene ne
+Ew dabûne yekî û nedigotin jî ew dabûne kê.
 Ew delîlê me hemûyan e
 Ew dem va ye îro hat.
 Ew der ne polek e.
@@ -3068,6 +3135,7 @@ Ew diceribîne.
 Ew diceribînin.
 Ew dikare bersiva pirsa te bide.
 Ew dikare bibîne
+Ew dikare li ser hemû pergalên xebitandinê û televizyonan were bikaranîn.
 Ew dikarin bibînin
 Ew dike
 Ew dikin
@@ -3100,6 +3168,7 @@ Ew gelek dilnerm e.
 Ew gelekî ecêb bû.
 Ew germahiya ku ji royê derdiket, germahiyeke xweş dida.
 Ew germaya ku ji royê derdiket, germayeke xweş dida.
+Ew gotinên rojên borî rast bûn!
 Ew goşt e.
 Ew goştê sor e.
 Ew gund bêxwedî ye.
@@ -3317,6 +3386,7 @@ Ew niha ne li malê ye.
 Ew nikare giraniya te rake.
 Ew nikare xwe bide benda henekan.
 Ew nikarin.
+Ew parçeya peyvê ya ku bi carekê ji devê mirov derdikeve, çi ye?
 Ew pere naxwaze.
 Ew pereyên min ên rojên xerab bûn.
 Ew pir bilez diaxive.
@@ -3335,6 +3405,7 @@ Ew qet nehatin.
 Ew qirêj dixuye.
 Ew rebenên bi xew in
 Ew reviya.
+Ew rojane danûstandinan dikin.
 Ew rojên pîroz bûn.
 Ew ronahiya ber dilê min bû.
 Ew rûdine
@@ -3353,6 +3424,7 @@ Ew sîp bi xwe bû, ji xwe re digeriya.
 Ew tenê meseleyeke demkî bû.
 Ew tenê tazekar e.
 Ew tevahiya rojê te kontrol dike.
+Ew tevger bi rastî jî dihêle ez xemê bixwim.
 Ew tim bi gelê xwe re jiya û bi gelê xwe re tevgeriya
 Ew tê
 Ew tên
@@ -3379,6 +3451,7 @@ Ew xwendekarên pêşketî ne.
 Ew xwendekarên serkeftî ne.
 Ew xweperestiya min bû.
 Ew yekî derewker e.
+Ew zanebûn û kêrhatinê dixwazin.
 Ew zanyar di newalê de li hestiyên dînazoran digere.
 Ew zarokê wan ê pêşî bû.
 Ew zaîf in ji îmanê
@@ -3407,6 +3480,10 @@ Ew ê araste bibe.
 Ew ê araste bibin.
 Ew ê araste nebe.
 Ew ê araste nebin.
+Ew ê arode bibe.
+Ew ê arode bibin.
+Ew ê arode nebe.
+Ew ê arode nebin.
 Ew ê asê bike.
 Ew ê asê bikin.
 Ew ê asê neke.
@@ -3584,6 +3661,7 @@ Ew ê neceribîne.
 Ew ê neceribînin.
 Ew ê neyîne.
 Ew ê neyînin.
+Ew ê niha hemû rihet bibin, êdî dê bibe dora me.
 Ew ê serê tîra rengtarî bakur û ya rengvekirî jî başûr nîşan bide.
 Ew ê serê tîrê rengtarî bakur û yê rengvekirî jî başûr nîşan bide.
 Ew ê sibê biçe Tokyoyê.
@@ -3612,6 +3690,7 @@ Ew, projeya xweseriya demokratîk pêşkêş dikin
 Ew, sibehê zû firoşgeha xwe vedike.
 Ew, tenê bi wêjeya Kurdî re mijûl dibe
 Ew, tenê zimanê reqasê, kilam û pîrozkirinê dizane.
+Ew, tiştên ku dibêje û dike bi rastî ecêb e.
 Ew, zarokên dibistanê, bi zimanê zikmakî perwerde dike
 Ew, şoreşvanekî bê çek bû
 Ewil çapemeniya dijber bêdeng dikirin
@@ -3623,6 +3702,7 @@ Ewlehiya werzişan ji bo me tengezariya sereke ye.
 Ewlekariya Kurdistana Iraqê, bi awayekî fermî ket destê Kurdan
 Ewqas berdêlên ku tên dayin, ji bo vê yekê ye
 Ewqas zehmet dikşînin hûn bi pere çê dikî yan na?
+Ewr bi barana xwe şil nabe.
 Ewr çi reng E?
 Ewrek rojê vedişêre.
 Ewrek tavê vedişêre.
@@ -3634,7 +3714,10 @@ Ey qasidê Xwedê, ev çawa bûye?
 Ey welat tu li ku yî?
 Ey welat! Ji hebûna te re ez heme
 Eyb e, guneh e.
+Eyba reşê, fihêtiya giranê.
 Eyda we pîroz be.
+Ez bişirîm.
+Ez nebişirîm
 Ez,vê rêbazê pêşniyar dikim
 Ez Kurdî dizanim.
 Ez Pêşmerge me.
@@ -3657,6 +3740,12 @@ Ez araste dibim.
 Ez araste nabim.
 Ez araste nebûm.
 Ez araste nebûme.
+Ez arode bûm.
+Ez arode bûme.
+Ez arode dibim.
+Ez arode nabim.
+Ez arode nebûm.
+Ez arode nebûme.
 Ez asê dikim.
 Ez asê nakim.
 Ez av didim.
@@ -3759,10 +3848,10 @@ Ez biriqîme.
 Ez birçiyê te me.
 Ez birçî bûm.
 Ez birçî me.
+Ez bisikletê diajom.
 Ez bizdiyam.
 Ez bizdiyame.
 Ez biçûk im ji min hez bikin.
-Ez bişirîm.
 Ez bişirîme.
 Ez borîm.
 Ez borîme.
@@ -3788,6 +3877,7 @@ Ez daxwazek ji we dixwazim
 Ez deh salî me.
 Ez demeke dirêj li hêviya te sekinîm.
 Ez destên xwe piştî lîstinê dişom.
+Ez di amadekirina taştê de bi dayîka xwe re bûm alîkar.
 Ez di axaftina xwe de herwiha bal dikşînim ser vê yekê
 Ez di bêhinvedanê de bi dê û bavê xwe re çûm gund.
 Ez di ku de ehmeqiyê dikim?
@@ -3867,7 +3957,11 @@ Ez dixwazim azad û kêfxweş bibim.
 Ez dixwazim behsa çend pirtûkên bijarte bikim
 Ez dixwazim bi te re bimînim.
 Ez dixwazim bi vê pirsê dest pê bikim.
+Ez dixwazim bibim bijîşk û nexweşan baş bikim û alîkariya wan bikim.
+Ez dixwazim bibim hunermendekî baş.
+Ez dixwazim bibim mamoste û xwendekaran fêrî zanistê bikim.
 Ez dixwazim bibim mamoste.
+Ez dixwazim bibim porbir û porên hevalên xwe bibirim û wan xweşik bikim.
 Ez dixwazim biçim bi Tomî re biaxivim.
 Ez dixwazim biçim bi Tomî re bipeyivim.
 Ez dixwazim biçime mala apê xwe.
@@ -3878,6 +3972,7 @@ Ez dixwazim di tîmê de bim.
 Ez dixwazim dîsa te bibînim.
 Ez dixwazim fêrî zimanê letonî bibim.
 Ez dixwazim gelek pere qezenc bikim.
+Ez dixwazim gelek zimanan bielimim.
 Ez dixwazim gerînendeyê şirketê bibînim.
 Ez dixwazim goşt bixwim.
 Ez dixwazim hînî kurdî bibim.
@@ -3951,6 +4046,7 @@ Ez gelek caran lê geriyam lê bersiv tune.
 Ez gelekî ji bo te xemgîn bûm.
 Ez gurcî fêr dibim.
 Ez hatibûm.
+Ez hatim te ji xewê şiyar bikim.
 Ez hatim.
 Ez hefteyê pênc rojan dixebitim.
 Ez hejmara te ya telefonê dîsa napirsim.
@@ -4034,6 +4130,7 @@ Ez ji bo nexweşxaneyekê dixebitîm.
 Ez ji bo te hîn dibim.
 Ez ji bo te zilamekî pir pîr û qirêj im?
 Ez ji dil ve peyivîm.
+Ez ji diranê xwe yê vî rexî aciz im.
 Ez ji dêvla te şerm dikim.
 Ez ji ehmeqiyên we of bûm.
 Ez ji erebeyê peya bûm û meşiyam.
@@ -4117,6 +4214,7 @@ Ez kurmancî dizanim.
 Ez kurtikê xwe diguherim.
 Ez kêfxweş bûm.
 Ez kêzikeke pir biçûk, xweşik û bêzirar im.
+Ez kî me û ez çima hatime vê cîhanê?
 Ez kî me?
 Ez lawekî azad im.
 Ez leheng im.
@@ -4143,14 +4241,17 @@ Ez li ber xwe nakevim.
 Ez li ber xwe neketim.
 Ez li ber xwe neketime.
 Ez li daristanê me.
+Ez li dijî birayê xwe, ez û birayê min li dijî pismamê min.
 Ez li kêleka çewlikekê dijîm.
 Ez li mala xwe me jî ez dibêjim qey ez li mala Tirka me
 Ez li malê di odeya xwe de me.
 Ez li malê me.
 Ez li nêzî okyanûsê mezin bûm.
 Ez li olîmpiyatan temaşe dikim.
+Ez li parkê hinekî bisikletê xwe diajom, dû re qehweyê vedixwim.
 Ez li pêş vê balyozxaneyê, çalakvan bûm
 Ez li pêş, restoranê dibînim tu çi dibînî?
+Ez li ser text bûm, îja ez hatime xênî.
 Ez li strana dawî ya Mem ararat guhdarî dikim.
 Ez li telefona xwe digerim.
 Ez li trextorê siwar bûm û min dest bi cotkirinê kir.
@@ -4270,6 +4371,7 @@ Ez niha dikim xwarinê bixwim.
 Ez niha dixwazim Tomî bibînim.
 Ez niha li Moskowê dijîm.
 Ez niha li konferansê me.
+Ez nikarim bi awayekî din bînim zimên.
 Ez nikarim bifirim.
 Ez nikarim biryarê bidim.
 Ez nikarim dev ji fikirîna li ser wê berdim.
@@ -4417,11 +4519,13 @@ Ez xwe dibînim.
 Ez xwe westiyayî hest dikim.
 Ez xwendekar im.
 Ez xwendekarek im.
+Ez xîret nakim bi te re werim bazarê.
 Ez yewnanî fêr dibim.
 Ez yîdişî baş fêr dibim.
 Ez yîdişî fêr dibim.
 Ez zaravayê kurmancî dizanim.
 Ez zarayê soranî dizanim.
+Ez çar deqeyan berî te gihîştim vir.
 Ez çar salan li Amedê jiyam.
 Ez çar salan li Amedê jiyîm.
 Ez çawa dikarim bêhtir bielimim.
@@ -4440,6 +4544,8 @@ Ez ê alî te bikim.
 Ez ê alî te nekim.
 Ez ê araste bibim.
 Ez ê araste nebim.
+Ez ê arode bibim.
+Ez ê arode nebim.
 Ez ê asê bikim.
 Ez ê asê nekim.
 Ez ê av bidim.
@@ -4578,12 +4684,14 @@ Ez ê paşve neyêm.
 Ez ê pere bidim.
 Ez ê pere nedim vêya.
 Ez ê peyvan ducar bikim.
+Ez ê roja duşemê vegerim.
 Ez ê rûnim
 Ez ê sê mehan li vî bajarî bimînim.
 Ez ê taqî bikim.
 Ez ê te bikujim.
 Ez ê tenê binivîsim û bila xwîner jî bixwînin
 Ez ê tevlî bibim.
+Ez ê ti carî venegerim wir.
 Ez ê ti carî xiyanetê li te nekim.
 Ez ê venegerim.
 Ez ê vê mijarê bi gerînende re biaxivim.
@@ -4622,7 +4730,9 @@ Ez û Tom zarokan naxwazin.
 Ez û hevalên xwe bi hev re dilîzin.
 Ez û hevalên xwe kurdî fêr dibin.
 Ez û malbata xwe kurdî fêr dibin.
+Ez û pismamê xwe li dijî dijminê xwe ne.
 Ez û tu kakilên gûzê ne.
+Ez û wan ne li hev in.
 Ez şahidê hovîtiya mirovan im, ez nizanim çima ewqasî xwîn erzan e!
 Ez şahiyê ji bo te dixwazim.
 Ez şeş salî me.
@@ -4667,8 +4777,10 @@ Fala falbêjan tije derew e.
 Famîle, cins û cureyên kevjalan di her avê de dijîn.
 Fatikê
 Fedî bike.
+Felsefe weke têgih peyveke yewnanî ye.
 Fenerê veke.
 Feqiyê Teyran kesayetiya Şêxê Sen'an bi van rêzikan tîne ziman.
+Feqîrtî ji tunebûnê nayê, ji parvekirina neadil û newekhev tê.
 Ferhad firoşkarekî çalak e.
 Ferhenga ku min doh ji te re behs kiribû ev e.
 Fermandarê hêzên bejahî, di daxuyaniya xwe de wisa got:
@@ -4715,6 +4827,8 @@ Gedê min mala xwe bar kir, bire Stenbolê.
 Gef lê xwarin, wî tehdît kirin.
 Geh min dida pey wan
 Gel digot: “Dûmana ewrên reş bi ser me de tê”
+Gelek amûr hatine vedîtin lêbelê yên hatine bipêşxistin jî hene.
+Gelek amûr û berhemên me hene.
 Gelek bajar ji destê zalim xelas kiriye
 Gelek başiyên înternetê hene.
 Gelek bixîret e.
@@ -4731,6 +4845,7 @@ Gelek helbestên ku hatine nivisandin, nehatine çapkirin.
 Gelek hestiyên vî masiyî hene.
 Gelek hevalên min hene.
 Gelek ji wan koçberê Rûsya, Ermenistan, Gurcistan û bajarên Tirkiyeyê bûne.
+Gelek kes hîn jî bawer dikin ku ew rast e.
 Gelek kes nanê sêlê difiroşin û bi vî awayî dahata malbata xwe dabîn dikin.
 Gelek kes nanê sêlê difiroşin.
 Gelek malbat jî tew ranakevin heta wexta paşîvê.
@@ -4739,6 +4854,8 @@ Gelek mînakên ku vê yekê piştrast dikin, hene
 Gelek pere li me didin ji bo çêkirina vê yekê.
 Gelek pirsên min hene divê ji te bipirsim.
 Gelek polîs, îro bi ser weşanxaneyê de girtin
+Gelek sal derbas bûn û tu hîn li bîra min î.
+Gelek spas ji bo pêşkêşkirina alîkariya te!
 Gelek spas ji bo ragihandinên te yên hêja
 Gelek spas ji bo we her kesî.
 Gelek spas, we dema xwe yê hêja ji me re veqetand.
@@ -4748,15 +4865,19 @@ Gelek wane lê çûn.
 Gelek xwendekar, ji ber tinebûna perwerdekar û mamosteyan bêzar bûbûn
 Gelek zarokên seranserê cîhanê girêdayî xwarina dibistanan ya bêpere û erzan in.
 Gelek çalakî tên lidarxistin.
+Gelek çîrok nivîsandine.
 Gelekî deyndarê xwediya malê bû.
 Gelekî serhişk e.
 Gelekî xewa min hat.
+Gelekî xweş e, roja înê.
 Gelheya gund bi taybetî li bajarê Wanê dijîn.
 Gelo biçare ew in?
 Gelo bûk nan nadin te
 Gelo cihekî ku em ê bikaribin destên xwe lê bişon heye?
 Gelo derfet heye ku mirov cara pêşîn tûşî hokara nexweşiyê ya lawaz bibe?
 Gelo di gerdûnê de em bi tenê ne?
+Gelo di vî bajarî de çend mirov dijîn?
+Gelo dûrahiya di navbera bajarê Amûdê û Qamişloyê de çend kîlometre ye?
 Gelo ev cih vala ye?
 Gelo ev cî vala ye?
 Gelo ev nivîs çi ye, çîrok e?
@@ -4772,6 +4893,7 @@ Gelo haya we ji we heye?
 Gelo hûn bi ser hev ve diçin û tên?
 Gelo hûn diçin cem hev?
 Gelo ji ber çi reaksiyon bileztir nabe?
+Gelo kî dikare ji min re bibêje ka çi qewimiye?
 Gelo kî ji we xalxalokan nas dike?
 Gelo li gor teşeyên wan, an jî li gor mijara wan kirine rêzê?
 Gelo li tu berheman nihêrîye?
@@ -4799,9 +4921,12 @@ Ger diran biêşe, derman kêş e.
 Ger em mala xwe paqij nekin, em dê di nav qirêjiyê de bimînin.
 Ger ew gîtar ne ew qas buha ba, min ê karîba bikiriya.
 Ger ku zilamekî baş bûna, wiha tazî nedigeriya.
+Ger min tiştek bihîst, ez ê ilmê te pê bixim.
 Ger û geşta Mêrdînê pir xweş e.
 Gerek e em gelekî li ber royê nemînin.
 Gerek e tu vî dermanî bibî.
+Gerek e wan, ew avêtiba girtîgehê.
+Gerek em muslixê vekirî nehêlin.
 Germbûn di waneyê de xwedî taybetiyeke mezin e.
 Germbûna bi lîstikan, germbûna bi amûran û germbûna kilasîkî.
 Germkirin di waneyê de xwedî taybetiyeke mezin e.
@@ -4822,8 +4947,10 @@ Girîşên ser bêderê qasek xanîkî mezin û bilind dibûn.
 Giya çi reng e?
 Giyayê hewşê tahl e
 Giyayê hewşê tahl e.
+Giştîkirin, xwegihandina teorî û zagonan e.
 Gog bi lingan tê lîstin.
 Gog li erdê bikeve, xalekê bi dest dixe.
+Goga min pir rengîn e, hem girover û hem şîrîn e.
 Goga min pir rengîn e.
 Goga zemînê, makêta cîhana me ye.
 Goga zemînê, makêtê cîhana me ye.
@@ -4840,6 +4967,7 @@ Got, Tobe heram be!
 Got:
 Got: ‘’ Tu ji ku yî? ‘’
 Got: ‘’ Veke.
+Gotin bûk e, lê biçûk e.
 Gotin û kirin nabe yek.
 Gotina min û wî ne yek e.
 Gotina xweş, mar ji kuna wî derdixe.
@@ -4874,6 +5002,9 @@ Gula bexçê min hejar e.
 Gula ku çandibû piştî pênc rojan çilmisî.
 Gula zer li cem min heye.
 Gulanê Cejna Zimanê Kurdî ye û her sal tê pîroz kirin.
+Gulbînê bala ragihandinê kişand.
+Gulên li gulistana me pir rengîn in.
+Gulên li vir hemû çilmisîn.
 Gumana min ji vê sepanê nema.
 Gumana te jê heye.
 Gund bi çem, dar û bayê xwe yê paqij tê naskirin.
@@ -4889,9 +5020,11 @@ Gundên Me Tev Şêrîn in
 Gundî debara xwe bi sewalan û çandiniyê dike.
 Gundî hemû elewî ne û bi zaravayê kurmancî diaxivin.
 Gundî kom dibin.
+Gundî lê geriyan negeriyan, ew nedîtin.
 Gundî sond dixwar
 Gunehkar mane bê çare
 Gunehê xwe pê tînin.
+Gunehê zarokên we di stûyên we de.
 Gur hat heyatê
 Gur heta hestiyê xezalê jî xwar.
 Gur li ku miriye
@@ -4900,8 +5033,10 @@ Gura lawikê me biriye
 Gêrîk, axa ku ji kuna xwe derdixin, li aliyê bakur kom dikin.
 Gîskê pîrê tenê xelas dibe û sax dimîne
 Gîtareka hêja li ber destê Tomî heye.
+Gîzer, tivir û hin sebzeyên din jî di wê demê de baş çêdibin.
 Gîzer, tivir û hin sebzeyên din jî di wê demê de çêdibin.
 Gîzeran kirt kirt dike.
+Ha wa hat!
 Hat zanîn ku ew ji hev cuda nabin.
 Hat.
 Hate zanîn ku gelek balefirên şer, beşdarî bombebaranê dibin
@@ -4953,9 +5088,11 @@ Heger em bi şev zû ranezin, sibehê em dê nikarin zû şiyar bibin.
 Heger em birêkûpêk nekin dê pirsgirêk derkevin.
 Heger em birêkûpêk nekin, dê pirsgirêk bi me re derkevin.
 Heger gava xwe zêde bavê
+Heger helwestên me baş bin em ji aliyên hevalên xwe ve tên hezkirin.
 Heger jina te sernerm be.
 Heger jina te xweşik be.
 Heger ku heywan nebin
+Heger me tiştek fêhm nekir, em wî tiştî li ser lênûsa xwe binivîsin.
 Heger nexweşiyên me giran bin, em di nexweşxaneyê de radizên.
 Heger nexwşiyeke sivik be, piştî lênêrînê em diçin malê.
 Heger pîvan tune bin, tevlihevî dê çêbibe.
@@ -5002,6 +5139,7 @@ Helbestên ku te weşandine hene?
 Helbestên we yên li ber çapê hene?
 Helbet divê niviskar, ji bo tiştên nivisandiye berpirs be
 Helbet tu jî dikarî bi min re werî.
+Helbet, diviyabû ew bihata girtin.
 Helbet, hin pisporên din jî gelek hêvîdar nînin.
 Helem qulem neke.
 Helepçe bi jan, keser û kederê û komkujiyê tê naskirin.
@@ -5031,6 +5169,8 @@ Hemed Beg piştî xwarina xwe xwar hate ber tîna rojê.
 Hemu hemwelatî, li pêş zagonan wekhev in
 Hemu kêmnetewên rojhelata navîn, ketin xetera nemanê
 Hemû beq qurequrê dikin.
+Hemû dosyeyan nîşan bide.
+Hemû hunermendan nîşan bide.
 Hemû hêviyên min wenda bûn.
 Hemû jinên di vî wêneyî de sax in.
 Hemû jî jar bûn.
@@ -5038,6 +5178,8 @@ Hemû karên me li benda peyva wî ne.
 Hemû maf parastî ne.
 Hemû mirov, azad û di mafan de wekhev tên dinyayê
 Hemû mucewherat divê bên derxistin.
+Hemû olên yekxwedayî, di demên destpêkê de li dijî desthilatdariyên fermî disekinîn.
+Hemû pelên daran diweşin û her ku diçe serma zêde dibe.
 Hemû pelên daran diweşin.
 Hemû pirtûk, lênûs û amûrên xwe bi xwe re nabim.
 Hemû qonaxên dîrokê, di kilamên dengbêjan de cih girtine
@@ -5052,6 +5194,7 @@ Hemû şohret aîdî wê ye.
 Hemû şohret aîdî wî ye.
 Hene
 Henek bi hevalên xwe kirin.
+Henekê xwe pê nekin!
 Heqdayina têketinê heye?
 Heqê we heye ku hûn fikaran bikin
 Heqê wê çi qas e?
@@ -5106,8 +5249,10 @@ Her ku Alan dikeve tengasiyê, Rojda alîkariya wî dike.
 Her ku diçe serma zêde dibe.
 Her ku goşeyek paqij dikirin kêfxweş dibûn.
 Her ku mezin dibe bêaqil dibe.
+Her ku werza biharê dest pê dike, çivîk hêlînên xwe ava dikin.
 Her ku werza buharê dest pê dike, çivîk hêlînên xwe ava dikin.
 Her kulîlkek endameke bedenê temsîl dike.
+Her lawirekî xweşik an xwezayeke rind bala min dikişîne.
 Her meywe di wexta xwe de xweş e
 Her milet ji bo hebûna gel û miletê xwe têkoşînê dike
 Her netewek, cejina xwe ya netewî pîroz dike.
@@ -5131,6 +5276,7 @@ Her saniyeyê te dibîne
 Her sibe tu diçî ku?
 Her sibeh di dema xwe de digihêje dibistanê.
 Her sibeh di dema xwe de digihîje dibistanê.
+Her sibeh tu diçî ku derê?
 Her stranbêj, dê bi zimanê xwe yê dayikê bistirê
 Her tim xwe di nav hizra xwezayê de kûr dikir
 Her tişt balkêş û xweş bû.
@@ -5138,6 +5284,7 @@ Her tişt belav bû.
 Her tişt belav bûye.
 Her tişt bi bakteriyan ve girêdayî ye.
 Her tişt buha bûye.
+Her tişt ji bo we ye.
 Her tişt ne bi dilê me ye.
 Her tişt pir bilez qewimî.
 Her tişt sererast e.
@@ -5150,6 +5297,7 @@ Her tîmek golekî wan heye.
 Her wiha Zanîngeha Cenevreyê jî piştgirî dide belgefîlmê
 Her wiha bi rêya tevlihevkirina rengan, rengên nû saz bikin.
 Her wiha derbarê Mûsilê jî behsa wê yekê kir
+Her wiha ew dikare di navbera platforman de bê bikaranîn.
 Her wiha ji ber ku maleke kevn e.
 Her wiha ku meriv rind têra xwe ji van gotinên payedar wergire.
 Her wiha li bajêr, bizava hewayî jî hêj dom dike
@@ -5235,6 +5383,7 @@ Heta ku dinya hebe ez ê ji te hez bikim.
 Heta lîseyê jî xwendina xwe li wê derê kiriye.
 Heta me dewar komê serhev dikirin wext ber nîvro dibû
 Heta niha bi sedan pirtûkên Kurdî weşandiye
+Heta niha deh milyon kopî tenê li Kurdistanê hatine firotin.
 Heta niha ez sê caran emeliyat bûm.
 Heta niha gelek rojname û kovarên Kurdî, hatin weşandin
 Heta niha ji bo peydakirina wê gelek hewl dane
@@ -5244,6 +5393,7 @@ Hetanî şeş meha pitikên xwe bi şîrê dê xwedî bikin.
 Heval û Hogirên Xoşewîst, hûn bi xêr hatin
 Hevalan ciyê xwe girtin û pêşkêşvan, derket pêşberî hevalan
 Hevalekî min ew da min.
+Hevalo ji Libnanê derketibû.
 Hevalê ku bi tabûta min girtibûn
 Hevalê ku dixwaze beşdarî lîstoka me bibe, em rê jê re vedikin.
 Hevalê me tevlî lîstik û çalakiyên xwendekaran dibû.
@@ -5265,6 +5415,7 @@ Hevalên xwe dehf nedin û ti carî li hev nedin.
 Hevjîna min dimire.
 Hevkarî sincekî baş e.
 Hevkopîkirin û wekhevbûn du problemên mezin ên nivşên nû ne.
+Hevok bi tîpa mezin dest pê dike.
 Hevok dikare herî kêm bêjeyek be
 Hevsengiya laşê me xirab dibe û pirsgirêkên tenduristî derdikevin.
 Hevsengiya laşê me xirab dibe.
@@ -5299,6 +5450,7 @@ Heya ku dilê xwesî nekeve zavê
 Heya mamosteyê wî jî jê fam nedikir.
 Heya mirinê
 Heya niha qet ez nefikirîme ku ez ê têkevim gorê!
+Heya roja me ya îro, danasîneke felsefeyî nehatiye dayîn.
 Heya wan jî nizanîbûn em li wir in.
 Heya şeş saliya xwe zarok dikarin çendîn zimanan bi rehetî hîn bibin.
 Heyameke dirêj, li wî gundî melatî kiriye
@@ -5308,6 +5460,7 @@ Heyetê serdana şaredariyê kir.
 Heyetê seredana şaredariyê kir.
 Heyfa serê çûyînê
 Heyfa te.
+Heyv ji bo xwe nabiriqe.
 Heyv ronî ye mîna lembeyê.
 Heyva Sor, ji bo alîkariyên mirovî li qada navneteweyî hatiye damezrandin
 Heyva Sor, ji bo kurdan, dest bi komkirina alîkariyê kir
@@ -5318,9 +5471,11 @@ Heyîn jî di nava vê hevsengiyê de ne û hev temam dikin.
 Heyîn jî di nava vê hevsengiyê de ne û hev û temam dikin.
 Heyînên li derdora me hene, em bi pênc lebatên xwe wan nas dikin.
 Heyînên zindî, pir dibin û nifşên xwe didin berdewamkirin.
+Heyînên zindî, tîmar dibin.
 Hezar sal li dinê bî tu yê dîsa nîvanê qebrê bî
 Hezkirin bi ziman û qiseyan dibe.
 Hezkirin ne bi dev e.
+Hezkirina di Mem û Zînê de di ti pirtûkên din de peyda nabe.
 Hezkirina min ji dil e.
 Hezkirina tornên min di dilê min de maye
 Hezkirina wan, hemû ji bo rêberên wan bû
@@ -5329,7 +5484,9 @@ Hezkirina wê roj bi roj di dilê me de mezintir dibe.
 Hezkirina xwe nîşan dida.
 Heşt birayên min hene.
 Heşt zarokan dilîst.
+Hikûmetê sê çar hezar dayine wî û wî şandine diyasporayê.
 Hikûmetê, li dijî şîdetê gelek giştîname weşand, lê şîdet her çû zêde bû
+Hilbijartina dersên kurdî pir giring e.
 Hilbijêr, îro çûn ser sindoqan
 Hilkişin hola jor.
 Hilpeka sazkariyan veke.
@@ -5341,6 +5498,7 @@ Him melayekî zana ye
 Him ro derketiye, him peşkê baranê tê û him berf dibare.
 Him xweşik û him biawaz e.
 Hin aliyên min ên lawaz hene.
+Hin amûrên teknîkî karê malê hêsantir dikin.
 Hin avahiyên nû li derdora dibistana me tên avakirin.
 Hin caran bi daxwaza wan, bi mirovan re têkilî datînin.
 Hin caran bi henekan hevalên xwe dikenînim.
@@ -5362,6 +5520,7 @@ Hin ji wan sûdmend in û hin ji wan jî biziyan in.
 Hin jî ji bo fêrbûn û pêşketinê tên bikaranîn.
 Hin kes li pêşiya me rojnameyê dixwînin.
 Hin kremên tavê ji bo wergirtina vîtamînan dibin asteng.
+Hin lawir hem goşt hem jî şînatiyan dixwin.
 Hin lawir jî, hem goşt dixwin, hem jî şînatiyan dixwin.
 Hin meh sî roj, hin jî sî û yek roj in.
 Hin mînak ji şerê psîkolojîk ên Îranê yê li dijî kurdan.
@@ -5371,27 +5530,35 @@ Hin peyv û bilêvkirina wan, dişibin herêmên din, lê hinek jî xweser in
 Hin rojên taybet di salê de hene.
 Hin rêç pêkan nînin.
 Hin taybetiyên mirovan hevbeş in û hinek jî cuda ne.
+Hin tişt di serê wan de rûneniştibûn.
 Hindik mabû min sîwana xwe di trênê de bihişta.
 Hindik rindik.
 Hindiyan dilê wî xwar.
+Hinek Henek dê sala bê were Berlînê.
 Hinek ajalên çolê yê deverê: hirç, beraz, gur, rovî, kerguh, keftar in
 Hinek alawên deverê
 Hinek beş, li gor pîvanên romanan û şêweyên edebî gelek qels in
 Hinek caran jî, em ji derve alîkarî werdigrin
 Hinek dayîk, vê rojê ne bi kêfxweşî, bi êş pêşwazî dikin
 Hinek di nav avê de, hinek di bejahiyê de dijîn.
+Hinek di nav avê de, hinek di bejahiyê de ne.
+Hinek dibin sedemên kêfxweşiyê û hinek jî moralên mirovan xera dikin.
 Hinek dibêjin ku li ser pelê laleyê dilopa avê hebûye.
 Hinek diçûn paliyê
 Hinek hene nîv mela ne
 Hinek hevalên min behsa piyasê dikirin
 Hinek hevkarên me ji bo cara yekemîn bi dûr ve dixebitin.
+Hinek ji Almanyayê hatine û dibêjin ev der xweş e.
 Hinek ji me baş dinivîsin, dixwînin, şetrancê dilîzin.
 Hinek ji me girs in.
+Hinek jê dikarin herin ji xwe re mêst bînin.
 Hinek jî ciwan û kal li malan kom bûne
 Hinek jî, ji neçariyê, dûrî welatê xwe ketine
 Hinek jî; hem li avê, hem jî li bejahiyê dijîn.
 Hinek kartolan jî bikire.
+Hinek kes çavbirçî ne.
 Hinek kes, nîqaşên ji derveyî rojevê bi pêş dixînin
+Hinek lawir bi goştê lawirên dijîn.
 Hinek lawir jî bi goştê lawirên din dijîn.
 Hinek lawir li kolanan dijîn.
 Hinek lawir tenê bi şînatiyan jiyana xwe berdewam dikin.
@@ -5451,6 +5618,7 @@ Huner zêr e.
 Hunera Kurd, li gor rêzikên dîalektîk, guherîna xwe didomîne
 Hunermendan jî stranên xwe pêşkêş kirin.
 Hunermendê Popê jî piştgirî dabû vê însiyatîfê
+Hunermendên kurd, piştî dawiya civînê li hev kirin.
 Hunermendên me, bi kincên Kurdî derdikevin ser dikê
 Hunermendên navdar, ber bi Amedê ve diherikin
 Huş be bila dengê te neyê min!
@@ -5489,6 +5657,7 @@ Hîn jî pirsên min hene ku dixwazim ji te bipirsim.
 Hîn jî zordarî, li ser xwendekaran berdewame
 Hîn jî, li gel hebûna çapemeniyê, stranbêj jî roleke mezin dilîze
 Hîndekarî û perwerdehî, ne heman tişt in
+Hîpotez di encama komkirina zanînan de, dibetiya wan derdixe holê.
 Hûn aciz bûn.
 Hûn aciz bûne.
 Hûn aciz dibin.
@@ -5503,6 +5672,12 @@ Hûn araste dibin.
 Hûn araste nabin.
 Hûn araste nebûn.
 Hûn araste nebûne.
+Hûn arode bûn.
+Hûn arode bûne.
+Hûn arode dibin.
+Hûn arode nabin.
+Hûn arode nebûn.
+Hûn arode nebûne.
 Hûn asê dikin.
 Hûn asê nakin.
 Hûn av didin.
@@ -5532,6 +5707,7 @@ Hûn bextewar in?
 Hûn beziyane.
 Hûn bi dest dixin.
 Hûn bi dest naxin.
+Hûn bi hev re xurt dibin.
 Hûn bi ku ve diçin, ew ne rêya rast e.
 Hûn bi rastî jî hewce ne ku vê enameyê çap bikin?
 Hûn bi zarok û jinên xwe re qise û galegalan dikin
@@ -5559,6 +5735,7 @@ Hûn bêriya dibistanê nakin.
 Hûn ciwan in.
 Hûn derewan dikin.
 Hûn di demsala havinê de çi dikin?
+Hûn di demsala havînê de çi dikin?
 Hûn di dilê min de ne.
 Hûn di lîsteyê de ne.
 Hûn diajon.
@@ -5578,6 +5755,7 @@ Hûn dibin.
 Hûn dibirin.
 Hûn dibiriqin.
 Hûn dibiriqînin.
+Hûn dibistana xwe çawa dibînin?
 Hûn dibizdin.
 Hûn dibizdînin.
 Hûn dibişirin.
@@ -5605,6 +5783,7 @@ Hûn fêm dikin ne wisa? Ev car sûc ê min bû.
 Hûn gelaşa xwe diavêjin ku derê?
 Hûn gelaşa xwe diavêjin ku?
 Hûn hatin.
+Hûn hemû rast dibêjin.
 Hûn her gav aliyê wê hildibijêrin.
 Hûn herî zêde ji kîjan demsalê hez dikin?
 Hûn herî zêde ji kîjan rengî hez dikin?
@@ -5702,6 +5881,8 @@ Hûn rûniştin
 Hûn televîzyonê vedikin
 Hûn tînin.
 Hûn vê kompûterê çawa vedikin?
+Hûn xwendekarine jîr in.
+Hûn çawa ne û îşê we çawa ye?
 Hûn çawa nêzî endamên malbata xwe dibin?
 Hûn çi qas pere tînin welêt?
 Hûn çima ji bo cilan xeman dixwin?
@@ -5711,6 +5892,8 @@ Hûn ê alî min bikin.
 Hûn ê alî min nekin.
 Hûn ê araste bibin.
 Hûn ê araste nebin.
+Hûn ê arode bibin.
+Hûn ê arode nebin.
 Hûn ê asê bikin.
 Hûn ê asê nekin.
 Hûn ê av bidin.
@@ -5803,6 +5986,8 @@ Hûn ê çi vexwin?
 Hûn ê wan ji me re bişînin.
 Hûn îro çi dikin?
 Hûr-mûrên me bide hev; em bi rê bikevin.
+Hûrgiliyan nîşan bide.
+Iraqê ragihand ku sê şaneyên terorîstî hatine pûçkirin.
 Irwin, bi belgefîlmên xwe yên derbarê heywanên kovî dihat naskirin
 Israîl jî piştî agirbestê, sê roj in Xezayê bombebaran dike
 Jan bi telefonê jî negeriya.
@@ -5832,6 +6017,7 @@ Ji aliyê perwerdeyê mala bavê wî jê re dibû alîkar.
 Ji aliyê xwandinê ve jî bavê wî guhên xwe baş didayê.
 Ji aliyê zanebûna xwe ve bi nav û deng bûn.
 Ji aliyê zû fêrbûnê ve jîrbûnê wî derdixiste pêş.
+Ji aliyê zûfêrbûnê ve jîrbûnê wî derdixiste pêş.
 Ji alî rastnivîsê de heta ji destê min hat, min nivîs sererast kir
 Ji axiftina xwe şerm nakim.
 Ji bajarvaniyê û ragihandina teknolojiye nabe.
@@ -5855,7 +6041,9 @@ Ji ber ku ev wisa bû li xweşa wî jî dihat.
 Ji ber ku ew neçûbû sêvan
 Ji ber ku ez lezgîniya vê rewşê dizanim, ez vê yekê dibêjim
 Ji ber ku gelek qad, bi dest xistibûn
+Ji ber ku gundê me hinekî ji bajêr dûr e, em bi tirembêlê çûn.
 Ji ber ku havîn germ e, em kincên tenik li xwe dikin.
+Ji ber ku havîn germ e, em kincên tenik û rengvekirî li xwe dikin.
 Ji ber ku hestiyên me ava, xurt û saxlem dikin.
 Ji ber ku hêz û bandora Îdrîsê Bidlîsî pir mezin bû.
 Ji ber ku li gundê wan mekteb tunebû
@@ -5923,9 +6111,11 @@ Ji bo em rê li ber pirbûn û belavbûna bakterîyan bigirin.
 Ji bo em teduristiya xwe biparêzin.
 Ji bo ev tişt pêk neyê çi ji destên min were ez ê bikim.
 Ji bo filîstîniyan helwest girtin, lê ji bo pirsa Kurd, yekser bêdeng dimînin
+Ji bo fêrbûnê guhdarkirin giring e.
 Ji bo fêrbûnê, çawa guhdarkirin girîng e?
 Ji bo geştên fîrmayê otobûsek kirê kirin.
 Ji bo her karekî, demek taybet pêwîst e, yan na?
+Ji bo her kesî, ev veguherîn dê hinekî cuda be.
 Ji bo her peyvekê bilêvkirin.
 Ji bo herkesî, ev têkçûneke ji rêzê nîn e
 Ji bo jiyaneke azad û pêşverû, xwendina we ji bo me gelekî girîng e
@@ -5951,6 +6141,7 @@ Ji bo ku wisa be bixebite.
 Ji bo ku şînatî mezin bibin û berheman bidin, av hewce ye.
 Ji bo kurdînûsan çend pêşniyar.
 Ji bo kûçikê xwe hestiyan vedişêre.
+Ji bo lêgerînê, pêlîkirî bihêle.
 Ji bo lêkolînan, piştgirî ji rayedaran bistînin
 Ji bo me her du kesan.
 Ji bo me herduyan.
@@ -5965,6 +6156,7 @@ Ji bo pêşxistina zîrekiyê divê mirov mejiyê xwe bişixulîne û biwestîne
 Ji bo pêşxistina çanda kurd, xwest fon were veqetandin
 Ji bo pîrozkirina cejinan, amadekariyên cur bi cur tên kirin.
 Ji bo pîrozkirina cejnan çi amadekarî tên kirin?
+Ji bo rûpela pêşbaziyê girêdan heye.
 Ji bo salvegera weşana bi zimanê Kurdî, daxuyaniyek hat belavkirin
 Ji bo seyehata min pere têra min nake.
 Ji bo siberoja zarokên Kurd ronî be.
@@ -5973,6 +6165,8 @@ Ji bo te em dikarin çi bikin?
 Ji bo te qedexe ye, tu nikarî werî vir.
 Ji bo tendiristiya xwe li şûna çaya normal, çaya giyayê jî vedixwar.
 Ji bo tendirustiya laşê me, pêwîst e.
+Ji bo tomarkirina vîdeoyê divê em xwe bigihînin şirîta kameraya te.
+Ji bo tomarkirina vîdeoyê divê em xwe bigihînin şirîta kameraya we.
 Ji bo tu bi Tom bawer nebî min te hişyar kir.
 Ji bo têkiliyeke zelal, rêzgirtin divê.
 Ji bo van sedeman her kes, her yek an her civat muhtacê hev in.
@@ -5991,6 +6185,7 @@ Ji bo vê yekê, bernameya xwe zelal kir
 Ji bo vê yekê, hilbijartina xwarinê tiştekî ne baş e.
 Ji bo vê, pêwîst e em dema xwe li gorî kar birêkûpêk bikin.
 Ji bo vî ziman ne bê qêmet e.
+Ji bo wan malbatan ev pir biêş e.
 Ji bo wan, zimanê Kurdî, ne amûreke propagandayê ye
 Ji bo we helbest, xwediyê wateyên çawa ne?
 Ji bo wê rûpela lênûsa xwe bikin du beş.
@@ -6022,6 +6217,7 @@ Ji cîhana magazînê derbasê televîzyonê dibe.
 Ji dayîk û bavê xwe re rêzdar in.
 Ji daîreyekê pirtir dişibiya dolabekê.
 Ji derî şûnde vegeriya.
+Ji destpêkê lêde.
 Ji dev çê dibe
 Ji devjeniya siyasî dûr bikevin
 Ji devjeniya siyasî dûr bikevin.
@@ -6035,12 +6231,14 @@ Ji dêvla ku navê zilêm derkeve bila canê wî derkeve.
 Ji dûr ve dengê saeta dêrê dihate bihîstin.
 Ji erebeyê peya bûn.
 Ji falbêjan bawer nekin.
+Ji favoriyan hate rakirin.
 Ji futbolê zêdetir, ji bastekbol û voleybolê hez dikir.
 Ji fêdiyan çûm erdê.
 Ji gelê xwe re gotin û şîret kirine.
 Ji gera Erdê ya derdora royê re, sal tê gotin.
 Ji gera cîhanê ya li derdora xwe re, roj tê gotin.
 Ji gera cîhanê ya li derdora xwe re, rojek tê gotin.
+Ji gera erdê ya li derdora royê re sal tê gotin.
 Ji helbestvanên Kurd yên sedsala dawî, Osman Sebrî xwedî cihekî taybet e
 Ji hemûyan jî bêhneke pîs dihat.
 Ji her axaftvanekî re pênc deqe hat veqetandin.
@@ -6067,6 +6265,7 @@ Ji karê ku dikir jî perekî pir kar nedikir
 Ji keleman pir hez dike.
 Ji kengî ve tu wiha nexweş î?
 Ji kerama xwe ji dil ve bibêje.
+Ji kerama xwe, medyageha xwe nû bike.
 Ji kerema we, ji min re hinek nanê din bîne.
 Ji kerema xwe Tomî bibîne.
 Ji kerema xwe ber bi paşiyê ve bimeşe.
@@ -6082,6 +6281,8 @@ Ji kerema xwe nelezînin.
 Ji kerema xwe porê min jê bike.
 Ji kerema xwe porê min kur bike.
 Ji kerema xwe ra vî şekirî ji vir rake!
+Ji kerema xwe re ji min re bibêje.
+Ji kerema xwe re me li ser youtubeê bişopînin.
 Ji kerema xwe re min bişopînin.
 Ji kerema xwe tu dikarî vê ji bo min bikî?
 Ji kerema xwe tu dikarî wan ji min re bişînî.
@@ -6129,6 +6330,7 @@ Ji min re tiştekî lixwekirinê ne dima.
 Ji min re çayekê bîne.
 Ji mirov û heywanan re her tim stargeh e
 Ji mixtariya taxê re bûbû namzet.
+Ji mêj ve ye.
 Ji mêrik re şalek jî anî.
 Ji navê ve bejindirêj, zirav, lihevhatî bû.
 Ji nexweş re êşbir divê.
@@ -6151,7 +6353,9 @@ Ji rastiyê dûr nekevin.
 Ji rojê şewqek qetiya.
 Ji rêxistinên civakî, daxuyaniyeke girîng hat dayîn
 Ji sazkariyên telefonê biguherîne.
+Ji sedî heştê û yekê welatiyan bi koronayê ketine.
 Ji sedî şêst û şeş ê mêvanan biyanî ne.
+Ji serî ve dest pê bike.
 Ji sibê heya nîvê şevê karên giran pê didan kirin.
 Ji tasê avê vexwe
 Ji te hez dikim.
@@ -6193,11 +6397,13 @@ Ji xwe zargotina Kurdan jî bingeha xwe ji dengbêjî û çîrokbêjî digre
 Ji xwe çavê mim nabîne
 Ji xwe şîp ji pisingê hinek meztir e.
 Ji xwendekarê dibistana amadeyî, agahî nayê girtin
+Ji xwendinê dûr nekevin!
 Ji yên dora xwe bihîstibû ku yekî rast û bi ewle bû
 Ji zaroktiya xwe ve heya niha.
 Ji zimanekî werdigerîne zimanekî din.
 Ji zimanê fransî, di dema Osmanîyan de derbasê zimanê kurdî bûye.
 Ji zozan û gundên xwe, reviyane cihên bi ewle
+Ji zû ve li Stembolê dijî.
 Ji zû ve ye em bi hev re nepeyivîne.
 Ji zû ve ye me hev nedîtiye.
 Ji zû ve yî me wan nedîtiye.
@@ -6276,6 +6482,9 @@ Jê re digotin fermandar, berxikê ber dilê dêya xwe.
 Jêderka gotinên pêşiyan, li her welatî gund in
 Jêhatîbûn bi hizirê re wekî zanebûneka kesayetî ye.
 Jêhatîbûn di bingeha xwe de hizirê diparêze.
+Jêrnivîsan bixweber tevlî bike.
+Jêrnivîsan daxîne.
+Jêrnivîsê jê bibe.
 Jîngeh warê me yê bêdawî ye.
 Jûpîter di sîstema we ya rojê de gerestêrka herî mezin e.
 Jûra min pir tevlihev bûye.
@@ -6304,9 +6513,12 @@ Ka em xwe çeng bikin.
 Ka ez te bibim firavînê.
 Ka fotografê xwe ji min re bişîne.
 Ka ji min re bibêje tu yê kengî werî vê derê.
+Ka ji xwe re lê binêrin.
 Ka kî li xwe zilmê dike?
 Ka li cîranê xwe mêze bikin.
 Ka qedehek av bide min.
+Ka rabe çayekê ji me re çêbike, bi xêra xwe.
+Ka rahêle van şûşeyan.
 Ka taştê amade bike, cot li benda min e.
 Ka werin em bi hev re qadê ji keviran paqij bikin.
 Ka zarok.
@@ -6319,6 +6531,7 @@ Kabûl paytexta Efxanistanê ye.
 Kabûl serbajarê Efxanistanê ye.
 Kal û pîrên me tev çîrçîrokan zanibûn
 Kal, pîr, bav û dê tev hêdî hêdî bi ber ve mizgeftê diçin
+Kalepîrên me pir spehî ne.
 Kalo nemire bihar tê.
 Kalên me siberoj ji bo zarokên xwe ava nekirin.
 Kampanyaya Wîndowsa Kurdî, bersiva erênî da
@@ -6327,6 +6540,7 @@ Kamyon ji piskilêtê mezintir e.
 Kanaleke Kurdî ya din jî dest bi weşana rojane kir
 Kaniya Gund
 Kaniya Tayê
+Kaniya ku te av jê vexwar, gemar neke.
 Kaniya mêrxasan namiçiqe.
 Kar micewhera canê mirov e.
 Kar ne ev e.
@@ -6356,6 +6570,7 @@ Karên berê hêm pir bû hêm jî gelek bi zehmet bû.
 Karên betalan çi ye?
 Karên ku dikarîbû bike, dikir.
 Karên ku dikarîbû bikî, dikir.
+Karên ku ez îroj bikim, pir in.
 Karên lêkolînê, hertim wext û kedeke mezin dixwazin
 Karên min yên rojane, riya perwerdehiyê jî tengav dikir
 Karên qîza bazingê destê wan e.
@@ -6374,6 +6589,7 @@ Kengî berf û baran dibare?
 Kengî em cilên tenik li xwe dikin?
 Kengî ku ew çû, ez ê werim ba te.
 Keniya û got: belê pêşketin heye
+Kenê te çi qas bilind û acizker e!
 Ker û kurî li hev zûrî.
 Keran kir, hespan xwar
 Keran çêkir hespa jî xwar
@@ -6406,6 +6622,7 @@ Keskesor, tîrojên ro yê ye.
 Keskesor: bi renge kesk, sor, zer, narencî, şîn, binevşî, fîrûz e ye.
 Kesê ku bêdengiya mere fêm nake, peyvên mere jî fêm nake.
 Kesê ku di dermanxaneyê de kar dike bi me re dibe alîkar.
+Kesê ku tenê hejmara çarê bibîne dê ev mirov rengê kesk nebîne.
 Kesên di jêra derenceka civakî de ne jî, xwediyê jin û zarokeke ne.
 Kesên ehmeq nikarin ti îşî bikin.
 Kesên komkujî pêk anîne, ne xwediyên rast yên gund in
@@ -6452,6 +6669,7 @@ Keçika ciwan, perwerdehiya xwe li malê dibîne
 Keçikê jî li ser taştê rûnişti bû,taştêya xwe dixwar.
 Keçikê jî li ser taştê rûniştibû,taştêya xwe dixwar.
 Keçên jinbiyan nexwazin keçên mêran bixwazin
+Keçên kurd kevok in.
 Keşfên sereke yên patolojîk ên di otopsiyê de ew in:
 Keştiya wan hîn li bênderê ye.
 Keştiya wan hîn li lîmanê ye.
@@ -6491,6 +6709,7 @@ Komeleyê, bi daxuyaniyeke çapameniyê operasyona dersînor şermezar kir
 Komjiyîn, fedakarî û alîkariyê dixwaze.
 Komkujiya Helebceyê bûyereke pir trajîk bû.
 Kompûtera min heye.
+Kompûtera min ji pênc hefteyan ve xerabe ye.
 Konferansa Ewlekariya Herêmê, li Baxdayê dest pê kir
 Konferansa Hîndekarî û Perwerdehiya Kurdî dest pê kir
 Kongreya Nivîskarên Kurd, li Swêdê pêk hat
@@ -6507,6 +6726,7 @@ Kovara me jî bi dildarî bi rêve diçe
 Kovareke nû, li salona şaredariya bajarê mezin dê were pêşandan
 Kovarên kurdî zêde bûne.
 Kovikek xêza destpêkê, ya din xêza bidawîkirinê, nîşan dikin.
+Koçer biharan bar dikin û diçin zozanan.
 Kristof Kolomb, di gera xwe ya duyem de, Giravên Karayîpan vedît
 Krîptopere amûrek e ku bi kêrî spîkirina pereyê reş tê.
 Krîza çîpê bû sedema bihabûna fiyetê erebeyan.
@@ -6549,6 +6769,7 @@ Kulavên me paqij in.
 Kulîlk xweşik e
 Kumê min ji rastiyê qetiyaye.
 Kun fire ye, pîne biçûk e.
+Kuncî di simîtan de pir xweş e.
 Kur û zarok digrîn, de zû were
 Kurd bi hukumetê re peymanek çêkiriye
 Kurd bi serketîbin an neketibin jî serhildanên her kurd pîroz in.
@@ -6593,6 +6814,7 @@ Kê dilê wî girtiye?
 Kê ev da te?
 Kê ev ji bo çi çêkirine?
 Kê ev şikand?
+Kê ji te re gotiye ku çay di qelîcanê de tê vexwarin?
 Kê ji wan re got ku vê bikin?
 Kê kir?
 Kê kiro kê xwaro
@@ -6608,14 +6830,18 @@ Kêfa min ji demsala buharê re tê.
 Kêfa min ji kesên ku zimên bi awayekî xweşik bi kar tînin re tê.
 Kêfa min ji wan tiştên diqewimin re nayê.
 Kêfa min pir ji sînemayê re tê.
+Kêfa te ji çîrokan re dihat?
 Kêfa we ji me re tê?
 Kêfxweş be.
 Kêfxweş bûm
 Kêliyek berê agir pê ket.
 Kêm zêde çîrçîrok zîndiya xwe hê jî di nav gel de berdewam dike
 Kêmaniya herî mezin kêmanînedîtin e.
+Kêmkirin û zêdekirinê saz bike.
 Kêrhatiyên nû, zanist û hînbûn, baş bi min re bi pêş dikevin.
+Kêrhatî û jîrbûnên me cuda ne.
 Kêrikê da destê xwe û dest bi birînê kir.
+Kî arezûyên mirov hildibijêre?
 Kî baş e ji xwe re baş e
 Kî bêşerm e?
 Kî bûk e ew berbû ye
@@ -6662,9 +6888,11 @@ Law me em ji ku hatin?
 Law tu li bin wê baranê şerpeze bû, were hundir.
 Lawekî me heye.
 Lawik nên dixwe.
+Lawir ji bo ku jiyana xwe berdewam bikin, avê vedixwin.
 Lawir ji zindiyên derdora me ne.
 Lawir jiyana xwe bi çi berdewam dikin?
 Lawir jî ji bo ku jiyana xwe berdewam bikin avê vedixwin.
+Lawir jî wekî me zindî ne û parçeyek ji xwezayê ne.
 Lawir jî, weke me zindî ne û parçeyek ji xwezayê ne.
 Lawir û mirov jiyana xwe bi şînatiyan didomînin.
 Lawirên di wêneyên li jêr de binasin.
@@ -6679,6 +6907,7 @@ Laşê mirov tenê ji xaneyên hûrik pêk tê.
 Laşê wî zexim bû.
 Laşê xwendekar ên jiyangîr û lebatî, baş werin amadekirin.
 Lebatên me yên hundirî, ji bandorên derveyî diparêze.
+Lehane û qernebît sebzeyên zivistanê ne.
 Lehane, qernebît û yên din sebzeyên wê ne.
 Lehengê çîrokê, bi şêweyeke hunerî hatiye qal kirin
 Lehiyê dest bi daketinê kir.
@@ -6701,6 +6930,7 @@ Lewre neheqiya herî zêde, li wî welatî heye
 Lewre serfirazî, destpêkek e û destpêk, riyek dirêj dixwaze
 Leyla di jêrzemînê de ma.
 Leyla ji Fadil re kulîçe çêkir.
+Leza lêdanê tomar bike.
 Leşger hatin.
 Leşker hatin.
 Leşkeran, li nasnameyên me nêrî û gotin birevin
@@ -6768,9 +6998,11 @@ Li cem malbatê dewlemend ji bo perê nan xebitî.
 Li cihê dirêjkirî min li dora xwe mêze kir.
 Li cîhanê, mirov bi temamî ne wekhev in.
 Li dar û qametê.
+Li dengê dilê me guhdar dike.
 Li der û kuçeyan de venexwin û xwarin nexwin
 Li derdora bexçeyî dîwarekî nizm dabû çêkirin.
 Li derdora parkê ji xwe re bisiklêt diajot.
+Li derdora vî çiyayî gelek darên zeytûnan hene.
 Li derdora xwe binêre.
 Li derve barana bi şîd dibare, ji dengên ewr û brûskan tevahiya xanî diheje.
 Li derve hewa çawa ye?
@@ -6789,6 +7021,7 @@ Li dinyayê tu yî daxwaz û doza min.
 Li dîlokê belavok hatin belavkirin
 Li erd, ziyan û bexçe mêze dikir
 Li esmana pencereya vekirî ye
+Li esmanê Tartûsê dengê teqînan tê.
 Li exretê tu me bibînî
 Li fakûlteya zanînên pozîtîv a Zanîngeha Enqereyê dest bi zanîngehê kir.
 Li gel dîtineke felsefîk, mirov dikare bêje dîrok zîndî ye
@@ -6816,6 +7049,8 @@ Li gorî fikra min.
 Li gorî lêkolînan dibe ku Feqî ji malbateke mîran be.
 Li gorî min helbest ew tişt e
 Li gorî mirov û civakan nayên guherîn.
+Li gorî nav bike kom.
+Li gorî peldankê bike kom.
 Li gorî te kî neheq e?
 Li gorî te xwendekar çawa dikarin xwe biparêzin?
 Li gorî vê dabeşkirinê, her rojek bûye bîst û çar saet.
@@ -6830,7 +7065,9 @@ Li hember wîndowsê, nerazîbûna xwe bîne ziman!
 Li hemberî bûyereke bi vî rengî, divê mirov fedî û şerm bike
 Li hemberî derbeya leşkerî, helwesta xwe nîşan bide
 Li hemberî vê zordestiyê, padîşah jî nediwêribû dengê xwe derxe
+Li hemû vîdyoyan bisepîne.
 Li her bajar û navçeyan, amadekarî bi lez û bez dewam dikin
+Li her derê lêde.
 Li her devera cîhanê cihêkariya li hemberî jinê di asteke xeter de ye
 Li her deverê cîhanê, nêrîneke wiha bi pêş ket
 Li her deverê, xizanî gihîştiye asta herî bilind
@@ -6848,6 +7085,7 @@ Li hinek deverên Îngilistanê jibo penîr tê bikaranîn.
 Li hundir bû qiyamet.
 Li hundir hewayeke fetisokî hebû.
 Li hêviya me bû.
+Li jêr çend e-peyam ji hevalan re hatiye.
 Li kar û menfeta xwe mêze dikir.
 Li karê xwe binêre!
 Li kerê siwar e li kera xwe digere
@@ -6871,6 +7109,7 @@ Li malê bimîne.
 Li malê eciz dibim û dilê min teng dibe.
 Li malê hîn bûn.
 Li malê rûne û benda birayê xwe be.
+Li medyayan bigere.
 Li min biborîne.
 Li min bigere.
 Li min miqate be.
@@ -6889,8 +7128,11 @@ Li odeya wî sindoqeke pir kevin hebû.
 Li ofîsa xwe ya nû fotograf kişandibû.
 Li otobusê siwar bûm, pişti deh deqe din em ê bidin rê.
 Li otobûsê siwar bûm, em ê niha bidin rê.
+Li panoyê kopî bike.
 Li paqijiya laşê xwe baldar bin û xwe gemar nekin.
+Li paşrûyê ev dosye nayê lêdan.
 Li pey tiştên xerab digere û ew ne yekî qenc e.
+Li pirtûkxaneyê pir çîrokên xweş hene.
 Li pitikê miqate be.
 Li pişt dezgehê zarokekî çardeh salî hebû.
 Li pê min were.
@@ -6902,18 +7144,22 @@ Li pêşiya her rêzekê gogên biçûk tên belavkirin.
 Li pêşiya her rêzekê kovikek tê danîn.
 Li pêşiya qehweya taxê de ku derbas dibûm
 Li pêşiya xwendekar bend û astengên cuda hene.
+Li radyoyê bi dengekî bilind guhdar nekin.
 Li radyoyê jî bi dengekî bilind guhdar nekin.
 Li rex min rûne tu bi Xwedê
 Li rex seydayan dest bi xwandina xwe kiriye.
 Li rojhilatê Iranê dest bi belavkirina ola xwe kir
 Li rojhilatê welat, êrîşeke intîharî hate li darxistin
+Li rûyê mamosteya xwe binêrin.
 Li ser Kurdan lîstikên qirêj berdewam dikin
 Li ser Tatoebayê hemû ziman wekhev in.
 Li ser axa wî pir xwîn rîjiyaye
+Li ser destpêkerê pêşniyaran nîşan dide.
 Li ser doşeka xwe rabûm rûniştim
 Li ser dîroka gund lêkolîneke zanistî nehatiye kirin.
 Li ser erdhejê dengbêjên herêmê stran çêkirine.
 Li ser felsefeya ramyarîyê, navê pirtûka nivîskarê kurd Abdusamet Yigit a.
+Li ser hemû platforman dixebite.
 Li ser hin babetên dîrokî, hevpeyvînek çêkir
 Li ser kevala dibistanê çi hatibû nivîsandin?
 Li ser kincên wî parçeyên kayê hebûn.
@@ -6981,8 +7227,10 @@ Li Çînê kûçik û pisîk, bo kevilên xwe bi hovane tên kuştin
 Li çavên min binihêre.
 Li çiyayan im.
 Li çiyayên Kurdistan tev bûye mij û moran.
+Li çiyayên kurdistanê tev bûye mij û moran.
 Li çiyê me.
 Li îranê erdhej: bi sedan mirî hene
+Li Şêro meyzîne.
 Li şûna baranê de berf dibare, carinan jî dibe lehî.
 Lihêfa xwe biavêje ser xwe.
 Lijneya Giştî, salê carekê kom dibe
@@ -6997,8 +7245,11 @@ London serbajarê Îngilîstanê ye.
 Lê niha ez di çi halî de me
 Lê belkî li serşokê be.
 Lê belê bikaranîna demokratiyê, ne wek bilêvkirina wê ye
+Lê belê di roja me ya îroyîn de, ev nemaye.
 Lê belê ev yek dikare çawa pêk were?
+Lê belê ev yek hemû asîdên emînî destnîşan nakin.
 Lê belê serwerê gemiyê hat, ew hişyar kir û jê re got: Hey zilamo!
+Lê belê ti delîl li cem te nînin.
 Lê belê, amadekariyên giştî jî hene.
 Lê bi baweriya me, pirsgirêka herî girîng ew e
 Lê bêbiryar im.
@@ -7027,6 +7278,7 @@ Lê her tim min ji xwe re digot.
 Lê hewldana me jî dom dikir
 Lê heyhat...
 Lê hûn li min nafikirin?
+Lê ji aliyine din ve jî divê were kontrolkirin.
 Lê ji bîr nabe dewsa xeberan.
 Lê jiyana wê ne tu jiyan bû
 Lê jêhatîbûn tenê hizirê di bingeha xwe de nabîne.
@@ -7074,9 +7326,14 @@ Lêbelê ew jî êdî bûbû mêr.
 Lêkolîneke zanistî li ser bingeh û wateya gund nehatiye kirin.
 Lêkolîner, dikare di her warê edebî, civakî û olî de lêkolînê bike
 Lêkolînerên piştî wî, gelek berjewendî jê wergirtine
+Lêkolînên nû destnîşan dikin ku cixareyên elektronîk ji yên normal kêmtir zirardar in.
 Lêv li erdê kiriye.
+Lêvên wê gelekî bedew bûn.
 Lîmon tirş e.
 Lîmonatayeke xweş çêkiriye.
+Lîsteya dawîn a lêdanê bidomîne.
+Lîsteya lêdanê jê bibe.
+Lîsteya lêdanê nîşan bide.
 Lîsteyên hilbijêran, cardin hatin daliqandin
 Lîstik bi bangkirina mamoste ji navê rengekî re, dest pê dike.
 Lîstik bi fîkandina mamoste re dest pê dike.
@@ -7104,6 +7361,7 @@ Ma divê ez çend caran ji te re bibêjim?
 Ma enzîm kar nake?
 Ma ev a te ye?
 Ma ev agahî rast e?
+Ma ev e ya hûn behsa wê dikin?
 Ma ev pere qîmî te dike?
 Ma ew dizane ku ez li vir im?
 Ma gelo ev cîhana ku em tê de dijîn ne warê me hemûya ne?
@@ -7122,6 +7380,8 @@ Ma morîkên dêya te li vir qetiyane.
 Ma ne?
 Ma niha ewle ye?
 Ma qehweya te bi şekir e?
+Ma qey tu nema bela xwe ji me vedikî!
+Ma qey tu şerm nakî?
 Ma qey wan jî bersivek neda?
 Ma te bi rastî hemû tişt xwarin.
 Ma te emaîl wernegirtiye?
@@ -7186,6 +7446,7 @@ Malbata êrîşkaran, biryara barkirinê girt
 Malbateke wî nîne.
 Malbatên wendahiyan, çalakiyeke girseyî pêk anîn
 Maleke wê ya biçûk hebû.
+Maliyên we çawa ne?
 Malpera Nûbiharê, cejna newrozê li we pîroz dike
 Malpera fermî ya Zanîngeha Azad, perwerdekariya Kurdî kiriye armanc
 Malpera me, di qonaxa avakirinê de ye
@@ -7341,10 +7602,14 @@ Me ceriband.
 Me ceribandiye.
 Me derbarê vê mijarê de nîqaşeke dirêj kir.
 Me di vê mehê de xwe xiste nav rewşek girîng de.
+Me digot em ê serekî lê bidin.
+Me dixwest em îroj herin Dêrikê lê em neçûn.
+Me du dar ji dara xwe ya kevnar jê kirin.
 Me ev hemî digihandin hev lê em ne digihaştin netîcekê.
 Me ev xeber ji wî bihîst.
 Me feqek vegirt.
 Me gelek erzan kiriye.
+Me got bimeşin, ne birevin!
 Me hemû erd rakir, genim bizar kir piştre jî me goberî kir.
 Me hemû piştevanî, li bizavên çandî kiriye
 Me her carê pê re waneyên ku lê çûbûn, vedigerand.
@@ -7422,6 +7687,8 @@ Medresa Kurda, bi rastî ji bo bingeha wêjeya Kurdî gelekî girîng e
 Medya bingeha gelek tiştan e, dikare bibe berdevk
 Medyaya civakî ji bo karûbarên xwe bi kar dianî.
 Meha Remezanê mehe rehmetê ye
+Meha reşemehê bîst û heşt roj e.
+Meha reşemehê her çar salan carekê dibe bîst û neh roj.
 Meha sibatê bîs û heşt roj e.
 Meha Şabanê mehek bi fazîlet e
 Meha Şewatê
@@ -7438,6 +7705,7 @@ Menzera odê hewilnak bû.
 Meraq şertê hewce yê pêşketinê ye.
 Mercên we çi ne?
 Mere fîlman fêm bike tiştekî xweş e.
+Mere li ku derê bi awayekî baş dikare dadnasiyê bixwîne?
 Merhaba.
 Meriv bi rih û hestin xwe
 Meriv bi zimanê xwe çi qas peyvan bizane ew ê baş be.
@@ -7453,6 +7721,7 @@ Mesele ne ew e ku mere xerab be, mere xerabiya xwe nebîne.
 Mesele ne ew e.
 Meseleya Kerkûkê, mijara navxweyî ya Iraqê ye
 Meseleyek min heye ku divê ez bi Tom re çareser bikim.
+Mesrefên nû dê bi rêya bankayê bêne fînansekirin.
 Meta Gulîstanê teşîrêseke pir jêhatî ye.
 Meta min pirtûkek wek diyariya sersalê da min.
 Metelok bi hîkmetan tije ne.
@@ -7559,6 +7828,7 @@ Min bersivand.
 Min bersivandiye.
 Min bersivên pirsên xwe di Quranê de dîtin.
 Min berê rezervasyon kiribû.
+Min bexçe av da.
 Min bexşand.
 Min bexşandiye.
 Min bi Tomî re fîlmê anîme temaşe kir.
@@ -7608,6 +7878,7 @@ Min di ezmûnê de xeletiyeke tirsnak kir.
 Min di helbestekî de ev mijara aniye ziman.
 Min di helbestekî de wiha gotiye:
 Min di hundurê xwe de digot.
+Min di kovara "Time"ê de gotarek xwend.
 Min di mijara tarîxê de gelek pirtûk xwendine
 Min di radyo û televizyonan de bernameyên girêdayî temaşe kir.
 Min di zaroktiya xwe de li gund bi Kurdî qise dikir.
@@ -7616,7 +7887,9 @@ Min dibistana dansê ya oryentalê du caran guherand.
 Min digirt
 Min digot qey ez dikarim alîkariya te bikim.
 Min dilê wê şikand
+Min dilê wî xwaro!
 Min dilê wî şikand.
+Min dixwest ez bi wan re lê temaşe bikim.
 Min dizanîbû ku dikarim ji wan bawer bikim.
 Min doh bi Saryayê re şer kir.
 Min dolarek li ser rêyê dît.
@@ -7639,6 +7912,7 @@ Min ew pirtûk di balafirê de xwendibû.
 Min ewul li gundê xwe melatî kir.
 Min ferq kir
 Min fêm nekir.
+Min gelekî bêriya wan kiriye.
 Min girt
 Min girtibû
 Min girtiye
@@ -7664,6 +7938,7 @@ Min ji Holmes pirsî: Ev çi ye?
 Min ji Londonê pirtûkek sparîş kir.
 Min ji bavê xwe hez dikir.
 Min ji bo Tomî sêçerxeyek kirî.
+Min ji bo wê wêne kişandin.
 Min ji bîr kir bang li te bikim.
 Min ji bîr kir.
 Min ji heyeta berî niha hat vir re jî ev mijar dûvdirêj rave kir
@@ -7700,6 +7975,7 @@ Min mitor sekinand.
 Min nameya te doh stend.
 Min nameya te doh wergirt.
 Min navê Tom daxilî lîsteyê kir.
+Min navê te li ser WhatsAppê dît.
 Min navê xwişka Tom ji bîr kir.
 Min ne destnimêj û ne nimêj e
 Min neajot.
@@ -7818,6 +8094,7 @@ Min, di nivîsareke xwe de, ev diyar kiribû
 Min, gelek caran ji bo komareke demokratîk pêşniyar kirin
 Min, kurteçîroka wî ya li ser penaberekî xwend
 Min, nivîsa wî ya îro xwend û sosretmayî mam
+Min, we hefteya borî di konferansa xwezayê ya bajarê Cizîrê de dîtin.
 Min: Min qet tu tişt ne bihîst.
 Min tu dîtî.
 Mirin heye heqê me ye
@@ -7835,6 +8112,7 @@ Mirov bi xûyê heywanê xwe zane
 Mirov bi çekan, can bi eşya, heywan bi goşt xweş e
 Mirov bi çekan, xanî bi eşya, heywan bi goşt xweş e
 Mirov carinan li ser dahatûyê difikire.
+Mirov dikare bibêje ku di jiyanê de felsefeyê eşkere ye.
 Mirov dikare bêje, ew gihîştiye nêrîneke taybet bo xwe.
 Mirov dikare wan bi rêya hûrbînan li ezmûngehan bibîne.
 Mirov dikare wekî xwarineke dîrokî ya pêjgeha kurd jî binav bike.
@@ -7852,6 +8130,7 @@ Mirov çi bixwaze, dikare bike hew bila bixwaze.
 Mirov, bi alîkariya nexşe û pisûleyê aliyan dinase.
 Mirov, kuştiye hezkiriyên xwe ye.
 Mirov, pez û dewar tev birçî dibûn.
+Mirovahî, li ser kîjan bingehê beriya çêbûna dewletê, jiyaye?
 Mirovan bêdeng nekin, çekan bêdeng bikin
 Mirovekî nebaş e lê ji min ditirse ku xerabiyan bike.
 Mirovekî nebaş e lê ji min ditirse ku xirabiyan bike.
@@ -7900,6 +8179,7 @@ Mêrê wê dewlemend e.
 Mêrê wê saqo kişandibû ser xwe.
 Mêrê wê zengîn e.
 Mêvanê yekî, mêvanê gundekî.
+Mêwe gelek sûdê didin laşê me.
 Mêwe ji bo laşê me baş in.
 Mêze dike ku zarok di beroşê de tune.
 Mêşhingiv hingiv çêdikin.
@@ -7923,6 +8203,7 @@ Mûz hîn şîn in.
 Na min kar nekir
 Na, ava fişnê heye.
 Na, ez jê hez nakim.
+Na, ji aliyê teknîkî ve ew ne hewceyê gulopeke nû ne.
 Na, spas.
 Na, tu hevala min î.
 Na, tu nakî.
@@ -7937,6 +8218,7 @@ Nan dan ber, ço dane ser, nan bidin ber ço bidin ser
 Nan di firinê de tê pijandin.
 Nan nastinî bi zorê.
 Nan û ava wî li dinyayê maye
+Nanpêj tune bin, em ê bê nan bimînin.
 Nanê mêr bê mînet e
 Nanê sêlê xweş e.
 Nanê tenûrê nadim bi yê firinê.
@@ -7953,6 +8235,7 @@ Naveroka malperê, ji alî nûçe û nivîsan de dewlemend e
 Navnivîska telefonê ya nû li vir e!
 Navnîşana vê malperê, ji hevalê xwe re bişîne
 Navçe û gundên ku di nav kitêbê de hatiye nivîsandin
+Navê Mezanî ji latînî medianus hatiye.
 Navê bavê min Şîno ye.
 Navê berhema Ehmedê Xanî, Mem û zîn e
 Navê bikarhêner an jî pêborîn çewt e, ji kerema xwe dîsa biceribîne.
@@ -7961,8 +8244,10 @@ Navê dayîka min Mahabad e.
 Navê dibistana me Ehmedê Xanî ye.
 Navê dêya min Elîf e.
 Navê dîwana wî Dîwana Rûhî ye
+Navê ejderhayê te yê favorî çi ye?
 Navê kurdistana xwe li ser dil dinexşînin.
 Navê mamosteya min Zîn e.
+Navê min Alan e û ez ji Efrînê me.
 Navê min Alan e.
 Navê min Aras e.
 Navê min Arîn e.
@@ -7970,6 +8255,7 @@ Navê min Awat e.
 Navê min Azad e.
 Navê min Bokan e.
 Navê min Cibranî ye.
+Navê min Dilxwaz e, ez pir ji dapîra xwe hez dikim.
 Navê min Dilxwaz e.
 Navê min Dilşad e.
 Navê min Ehmed e.
@@ -8035,6 +8321,7 @@ Ne gazî ye ne hawar e
 Ne giring e ku bi modeyê re bimînî.
 Ne got him ne got gim.
 Ne hewce ye ku em bilezînin.
+Ne hewce ye ku em jê bawer bikin.
 Ne ji defê re ne ji zirnê re dibe
 Ne ji defê re, ne ji zirnê re dibe
 Ne ji mirovê xerab be, gur û mih bi hev re diçêre.
@@ -8109,11 +8396,14 @@ Nexweşiya min deh rojan dewam kir.
 Nexweşiya te giran e here nexweşxaneyê.
 Nexweşiya te zor e here nexweşxaneyê.
 Nexweşiyan bi mirovan re çêdikin.
+Nexweşxane, cihê ku karê tenduristiyê lê tê kirin.
 Nexweşxane, ew cihê ku karê tenduristiyê tê de, tê kirin.
 Nexweşxaneya bajarê we çawa ye?
 Nexşeya Rojava û ya Cîhanê li kêleka depê ye.
+Nexşeyekê ji wan re çêke.
 Neyarê bavan nabe dostê lawan
 Neynûkên xwe jî bi neynûkbirê bibirin.
+Nezanî divê bi gotinên ehmeqî neyê astengkirin.
 Neçe.
 Nifir bi nivî ye
 Nifir bi nêvî ye
@@ -8123,6 +8413,7 @@ Nigê dîk di tawê de dîtiye
 Nigê wan bi perde ye û çûka behrê ye.
 Nigê xwe li koda xwe dixe
 Niha behsa hunermend û bi taybetî jî hunermendê muzîkê tê kirin
+Niha bû dereng, sibê em ê berdewam bikin.
 Niha demsala tûfiringiyan e.
 Niha dersa me ya fonolojiyê heye.
 Niha dora min e.
@@ -8131,9 +8422,11 @@ Niha em, bi van kirinên nebaş kê dixapînin?
 Niha gelek cure bi tunebûnê ve rû bi rû ne.
 Niha gelek cure rûbirûyê tunebûnê ne.
 Niha helbesta Kurdî di çi merhelê de ye?
+Niha hûn dikarin li Rojavayê Kurdistanê bigerin û çîrokekê binivîsin.
 Niha ji xwesî re dibêjin: Bûk çawa ye?
 Niha jî diçû ku ceribandina vê teşebusê bike.
 Niha karên xwe yên rojnamevanî û nivîskariyê berdewam dike.
+Niha li ser Platforma Universal a Windowsê berdest e.
 Niha li ser nivînên xwe raketî me.
 Niha pereyên min qediyan.
 Niha pêdiviya min bi alîkariyê heye.
@@ -8159,6 +8452,7 @@ Nikarin rojiyê bigrin jî lêbelê kêfa wan tê bi rojiyê re.
 Nimêja wext, padîşahê li ser text
 Niqaşên li ser tv'ya Kurdî berdewamin
 Nirxandineke kurt, di derheqê hilbijartina herêmî de
+Nisêbîn û Qamişlo bajarek in.
 Nivîn nû ye.
 Nivîn û konsola pîrejinê li wir bûn.
 Nivîsa ku li ser kevala dibistanê hatibû nivîsîn.
@@ -8174,6 +8468,7 @@ Nizanim çima lê di her civînê de xeber dida.
 Nizanim çima nehat.
 Nizanim çima nehatî.
 Niştiman tu xaka bav û kalên me yî.
+Nokên kurdistanê ji nokên herî xweş in.
 Noş be.
 Noşî can be!
 Noşî can be.
@@ -8183,6 +8478,7 @@ Nuwaze!
 NÇM ji bo piştgiriya çapemeniya Kurd, konsereke mezin li dar dixe
 Nêrîn û hişmendiya berê ya li çand û ziman, êdî hatiye guhertin
 Nêrînên dapîrê çawa ne?
+Nêzîkî bajarê me goleke bi mezinbûna sê hektar nîv heye.
 Nêzîkî televizyonê rûnenin.
 Nêçîrvan çawa kevok xapandin?
 Nîqaşên li ser wateyên bêjeya "şabaş"ê geş dibin
@@ -8199,6 +8495,7 @@ Nûnerên partiyan, li ser rewşa siyasî ya welêt, sekinîn
 Nûra pêxemberan î
 Nûvekirinên nû hene.
 Nûçegihanê ajansa me, li Colemêrgê hate binçavkirin
+Nûçeyek li ser tiştên ku her sal tên avêtin hebû.
 Nûçeyê dilê wê şikand.
 Nûçeyê dilê wî şikand.
 Nûçeyê, me gelekî şaş kir.
@@ -8223,6 +8520,7 @@ Otobûsa Amedê hatiye.
 Otobûsa Amedê çûye.
 Otobûsa din ew ê kengî rabe?
 Otogara bajêr li rojhilat dikeve.
+Oxir be ji te re û şeva te bimîne xweş.
 Oxir be.
 Oxira te ya xêrê be.
 Pakêt li ba min ma.
@@ -8252,6 +8550,7 @@ Payîz bi sarbûna hewaya xwe me ji bo zivistanê amade dike.
 Payîz bi sarbûna hewaya xwe, me ji bo zivistanê amade dike.
 Payîz e.
 Payîz her ku diçe hênik dibe.
+Pazdeh xulek çêbûn.
 Paş stûyê xwe xurand û çû
 Paşê Esê biryara xwe dide
 Paşê cilşoya tam otomatik hate çêkirin.
@@ -8266,7 +8565,10 @@ Paşê xwestiye ku xwe dîsa bicerîbîne.
 Paşî jî li wir jî çîrçîrok dihat gotin bi dor an bi zanebûn digotin
 Paşî li erebeya xwe siwar bû û ji wir dûr bû.
 Peldank gelek hêmanan dihewîne.
+Peldanka taybet jê bibe.
 Peldankan bi tevahî daxîne.
+Peldankê bibîne.
+Peldankê tevlî bike.
 Pelên daran diweşiyan, û kulîlk hişk dibûn.
 Pembe li te dike.
 Pencereya me hingî mezin e wekî derî ye.
@@ -8277,6 +8579,7 @@ Pencereyê bigire hewaya cemidî tê.
 Pengûenên li Başûrê Cemserê
 Pepûk dixwîne.
 Pere bi te re heye?
+Pere bibexşîne.
 Pere negre ji kûçikan.
 Pereyê dida çixareyê daba kitêban jî wî re çêtir bû.
 Pergala Kapîtalîst, hewl dide ku pêşî li vê bigre
@@ -8284,6 +8587,7 @@ Pergala cîhanê li ser kapîtalîzmê hatiye avakirin.
 Pergala perwerdehiya zanistî, naşibe pergala perwerdehiya dûgelên paşverû
 Pergala rêvebirî, di sê waran de hatiye parvekirin
 Perlemanterê Libnanî hate kuştin û Sûriyê tê tawanbar kirin
+Perwerde û zanabûna wê civakê her diçe bi pêş dikeve.
 Perwerdehî, ji bo her mirovî hewcedariyeke jênager e
 Perwerdekarên vî welatî jî, li ser her tiştî dinivîsin
 Petrol jêdereke bingehîn ji jêderên aboriyê ye.
@@ -8316,6 +8620,8 @@ Pir xuya ye ku di vî karî de dek û dolab hene.
 Pir xuya ye ku di vî karî de dek û dolap hene.
 Pir xweş bû û xwezî ez dîsa biçûma.
 Pir xweş li min tê lê karê min heye.
+Pir zehmet e ku ez ji vî tiştî bawer bikim.
+Piramîdên Misrê mînaka pêşketinê bûn.
 Piraniya beşdarvanan, bi devkî ramanên xwe eşkere kirin
 Piraniya koçberan navên xwe guhertin.
 Piraniya wan ji ber vê nexweşiyê sax namînin.
@@ -8334,6 +8640,7 @@ Pirsgirêkên dil ên vî ciwanî hene.
 Pirsgirêkên min ên dil hene.
 Pirsgirêkên tenduristiyê derdikevin.
 Pirteqal xwedî naverokeke zêde ya vîtamînê ye.
+Pirteqal, lîmon, grîfon û hwd. mêweyên dibistanê ne.
 Pirteqal, lîmon, grîfon û mêweyên vê demsalê ne.
 Pirtûk ji aliyê Weşanên Avesta ve hatiye weşandin.
 Pirtûk, weke pirtûkek lêkolînê ya dîrokê ya.
@@ -8344,10 +8651,13 @@ Pirtûka min ket xwarê.
 Pirtûka min li ser maseyê ye.
 Pirtûka min ne li vir e.
 Pirtûka te di ku de ye?
+Pirtûka te ya favorî kîjan e?
 Pirtûka wî ya nû baş tê firotin.
 Pirtûkxane cihê xwendinê ye.
+Pirtûkxaneya dibistana me pir biçûk e.
 Pirtûkxaneya xwe parve bike.
 Pirtûkê ku min çê dikir, car jî dibir mizgeftê.
+Pirtûkên tê de kêm in.
 Pirtûkên xwe bi rêk û pêk dixwînim.
 Pisikletê min pir xweşik e û rengê wî şîn e.
 Pisiklêtê min pir xweşik e û rengê wî şîn e.
@@ -8393,6 +8703,7 @@ Piştî dibistanê tu çima rêya xwe bi ser mala min naxî?
 Piştî koronayê hînî civînên serhêl bûbû.
 Piştî ku Dîlan vegeriya malê, ji dayîka xwe re got.
 Piştî ku Zozan çû Amedê, bavê wê xebera reş jê re got.
+Piştî ku axaftina mamoste bi dawî bibe, em jê dipirsin.
 Piştî ku ders qediya, xwendekar derketin hewşa dibistanê.
 Piştî ku ev bûyera qewimî, min biryara xwe da
 Piştî ku tu ji xewê radibî, tu çi dikî?
@@ -8413,6 +8724,7 @@ Piştî teqawidbûna xwe dest bi karê tercimaniyê kir.
 Piştî teza xwe nivîsand, li ser WhatsAppê jî dinivîsî.
 Piştî têkçûna Yekitîya Sovyêtê, dewletên teze ava bûn
 Piştî vê hefteyekî navber bidin
+Piştî vê tomarê rawestîne.
 Piştî vê yekê min dest bi vê kambaxê kir!.
 Piştî wan, Kurdan jî ji Ermeniyan lêborîn xwest
 Piştî xwarinê zikê min diêşe.
@@ -8475,13 +8787,16 @@ Pêdiviya te bi tiştekî din heye?
 Pêdiviya wan bi av, ax û demsaleke guncav heye.
 Pêdiviya wan bi av, ax û demsaleke guncaw heye.
 Pêdiviya wan bi ba, av û şînatiyan heye.
+Pêdiviya wan bi pir tiştan heye, bi taybet pêdiviyên zarokan.
 Pêdiviya wan bi trajediyan heye.
 Pêdiviya we bi tiştekî din heye?
 Pêdivî bi zagona hunerê heye
+Pêdivî heye ku otel bên kontrolkirin.
 Pêdivî pê nabînim.
 Pêkanîna planê hêsan bû.
 Pêkanînên li girtîgeha Amedê, bûn belgefîlm
 Pêkerên fizikî: Germ, sar, tirêjin royê
+Pêkhate li vir nehatine dîtin.
 Pêkhateyên her olekê cejina ola xwe pîroz dikin.
 Pêkhateyên ne ji wê olê jî tev li van pîrozbahiyan dibin.
 Pêkvejiyan, fedakarî û alîkariyê dixwaze.
@@ -8509,6 +8824,7 @@ Pêwendiya navbera rewşenbîr û deshilatdarê, divê bi çi awayî be?
 Pêwendiya we bi birêvebirên Amerîkî re baş e
 Pêwendiyê li gel wî ava bike.
 Pêwistiya laş û mejiyê me bi bêhinvedanê heye.
+Pêwîst e em baldar bin.
 Pêwîst e em bi derdora xwe re jî bibin alîkar.
 Pêwîst e em cudahiyên xwe ser yekî din nesepînin.
 Pêwîst e em daran biparêzin, biçînin û wan nebirin.
@@ -8519,6 +8835,7 @@ Pêwîst e em li xwarin û vexwarina xwe jî balder bin.
 Pêwîst e em mafên xwe nas bikin.
 Pêwîst e em refa xwe paqij û birêkûpêk bikin.
 Pêwîst e em sûdê ji amûrên perwerdeyê bigirin.
+Pêwîst e em sûdê ji amûrên perwerdeyê bigrin.
 Pêwîst e em xwe nas bikin.
 Pêwîst e em şîr û hêkan bixwin.
 Pêwîst e lezgîniya pêvajoyê, baş were zanîn
@@ -8534,6 +8851,7 @@ Pêşbirka sporê ya xwendekaran bi dawî bû
 Pêşeng cotkarekî pir zîrek e.
 Pêşketin, bi rewşa aborî ku me qal kir ve girêdayî ye
 Pêşketin, serkeftin û hatina vê rojê, wisa çêbû
+Pêşketina zanistî li Misrê dihat xuyakirin.
 Pêşniyara me ya ji bo kongreyek hevpar erênî hate pêşwazîkirin
 Pêşveçûna teknolojiyê civakê jî diguherîne.
 Pêşveçûna xwe bidomîne.
@@ -8558,6 +8876,8 @@ Pîvanên Kargerê di warê komputerê de wiha hatine rêzkirin.
 Pîvanên xebata ji dûr li hin herêmên Çînî hatin bicihkirin.
 Pîvazê nexe nav donerê.
 Pîvazê nexe nava donerê.
+Pîzaya wan yek ji yên herî baş e di bajêr de.
+Pîzayeke xweş bi bihabûneke baş.
 Pûşber, Tîrmeh û Gelawêj mehên havînê ne.
 Qafilqeda li wan keve.
 Qala mesela û bûyeran dikirin
@@ -8604,6 +8924,7 @@ Qey leşkerê Artêşa Sor dîl dikeve?
 Qey pêlê hêka dike
 Qey çemên Dîcle û Ferat ji te re ne bes e ey welat.
 Qeymeqamê Navçeyê, serî li Wezareta Karên Hundir da
+Qeşeçay di havînê de pir xweş e û bedena mirovan hênik dike.
 Qisan mekin kevir bi goh in.
 Qise tê ser qisê.
 Qisedarên Konferansê, bi piranî Kurd û Danîmarkî bûn
@@ -8629,10 +8950,12 @@ Qûnek.
 Rabe çeka xwe hil bide ciwano.
 Rabe çeka xwe hilde ciwano.
 Rabe û bangî xwedayê xwe bike!
+Raboriyê paqij bike.
 Radyo, tenê amûra guhdarkirinê ye.
 Radyoyên bajêr girtin, yek jî nehiştin.
 Rahişte pere.
 Rahişte çerm, li ser masê ji hev vekir û du qat kir.
+Rajekareke medyayê ya herika hevpar, guhezbar, azad û çavkanî vekirî ye.
 Raman, bi navgîna zimên tê vegotin
 Ramanên Seîdê Kurdî derbarê Kurdan de pir kûr in
 Ramanên Seîdê Kurdî, di derbarê jinan de
@@ -8662,6 +8985,7 @@ Realîst be.
 Refa kevokan rizgar bû.
 Refa me, li kêleka odeya birêveberiyê ye.
 Refa sêyem dixwînim.
+Rengkorî di nav zarokan de derdikeve.
 Rengê ala Kurdan çi ye?
 Rengê ezmanî şîn e.
 Rengê pencereyê spî ye.
@@ -8692,6 +9016,7 @@ Rijenê pankreas, hormonên însulîn û glukagon berhem dike û der dide.
 Rivebirê tv yê, ji bo weşana Kurdî serî lê da
 Rizqê her kesî pê re tê
 Rizqê salê bi salê re ye
+Ro xwe germ nake.
 Roj baş
 Roj baş xalo.
 Roj baş!
@@ -8718,12 +9043,14 @@ Roja duşemê em ê herin avê.
 Roja dîtir Holmes gote min: Bêşik te her tişt seh kirine.
 Roja herî sar a heta niha min his kiriye îro ye.
 Roja ku dibistan vebû, ez sibehê zû ji xewê rabûm.
+Roja ku dibistan vebû, wê sibehê zû ji xewê rabûm.
 Roja ku dibistana me vebû, ez zû rabûbûm.
 Roja min e ez birçî me.
 Roja sêşemê em ê herin zanîngeha Rojava xwe lê tomar bikin.
 Roja sêşemê em ê herin zanîngeha Rojava, xwe lê tomar bikin.
 Roja sêşemê zanîngeh dikevin betlaneyê.
 Roja wê tê çi qasî?
+Rojane ji sî heta çil pêşniyazên nû digihine min.
 Rojava hêdî hêdî radibe ser xwe.
 Rojbînê stranek bi navê Evîna Mem û Zîn derxist.
 Rojbûn û sersala te pîroz be.
@@ -8748,12 +9075,14 @@ Rojname bi zimanê Tirkî û Kurdî weşanê dike.
 Rojname bi çi qasî ye?
 Rojname li ku derê ye?
 Rojnamevanan jî bombebarana îro piştrast kir
+Rojnameya Xwebûnê nû derket.
 Rojnameya me, bi vê nûçeyê kesên eleqedar hişyar kiribûn
 Rojnameyeke hefteyî ya sîyasî û çandî, dest bi weşanê kir
 Rojê carekê hebên xwe bixwe.
 Rojê tenê çar pênc saetan radiza, wextên din tev dişixulî.
 Rojên bijartî zû diqedin
 Rojên ku pir girîng in, weke cejinên civakî tên pîrozkirin.
+Rojên reş bi ser me de hatin.
 Rojên reş girtiye ser me.
 Rojên wê dirêj in û şevên wê kin in.
 Rojî ji bo Xwedê tê girtin.
@@ -8762,6 +9091,7 @@ Rojîn di refa duyem de ye.
 Rojîn refa duyem e.
 Rojîn çend salî ye?
 Roma navê paytexta Îtalyayê ye.
+Romanên Harry Potter bi bîst û heşt zimanan hatine weşandin.
 Ronahiyê veneke, ji kerema xwe!
 Roviya stûr avê dimijîne.
 Roviya zirav ji sê beşan pêk tê.
@@ -8769,6 +9099,7 @@ Roviyê geriyayê ji şêrê veketî çêtir e
 Roviyê kone birçî ye.
 Roviyê sor birçî ye.
 Rovî birçî dimîne, diçe nêçîrê.
+Rovî ketiye nav mirîşkên gundiyan.
 Rovî neçû qulikê tevalek bi qûna xwe ve kir
 Rê bide min.
 Rê nedaye ti kesî.
@@ -8786,6 +9117,7 @@ Rêxistinên Kurd, li ser hilbijartinan divê bi berpirsiyarî tev bigerin
 Rêya me heman e?
 Rêya we vekirî be.
 Rêya wî ne xweş e.
+Rêyeke berovajî ji rêbaza hatina giştî ye.
 Rêyekê bide ber min.
 Rêzefîlma te xilas bû?
 Rêzgirtin, sincekî pir baş e.
@@ -8832,6 +9164,7 @@ Sal derbas dibin
 Sal piştî zayînê ye.
 Sal poran spî dike.
 Sala din bi erasmûsê çûbû Polonyayê.
+Sala nû dest pê kir.
 Samî berî biçûya ji xwe emîn bû.
 Samî bi çoyê beyzbolê li hevjîna xwe xist.
 Samî di gelek tengasiyan de bû.
@@ -8858,6 +9191,7 @@ Samî çima îşev nayê?
 Saniyeyekê bide me.
 Saqoyê min ev bi tenê ye.
 Saqoyê min şûnde bide min.
+Sazkariya ekolîzera taybet hat vegerandin.
 Sebir bikin em ê jî bigihîjin xweşiyê.
 Sebra me li navê te tê
 Sebze, ji bo avakirina laşê me xwedî giringiyeke pir mezin in.
@@ -8911,6 +9245,7 @@ Serpêhatiya te ya muzîkê, çawa dest pê kir?
 Serpêhatiyên evînî jî bandora xwe li me kirine
 Serqot bû.
 Sersaxî doh bû.
+Servereke nû tevlî favoriyan bike.
 Serwext dibim.
 Serxwebûnek bi ziman, destpêka serxwebûna siyasî ye.
 Serê sibê zû radibûn
@@ -8937,6 +9272,7 @@ Serê wî diêşe.
 Serê wî tûjike di gelek cîh de mexel hatiye.
 Serê wî xweş bû, lê xweşik û bi rêkûpêk diaxivî.
 Serê xwe ditewîne û bi ya xwe qayîl dibe.
+Serê xwe nexin ber xwe.
 Serî jê re hejand.
 Serî li min mezin neke!
 Serî li ser gewdeyê ye.
@@ -8982,6 +9318,7 @@ Sokrates wiha bawer kiriye ku nirxên me exlaqî nayên guherîn.
 Sokrates wiha bawer kiriye ku nirxên me yên exlaqî nayên guherîn.
 Sond xwar û got ez ê sibê bi rê kevim.
 Sosa xwe pêşiya serwîsê têxin ser.
+Sosyometrî teknîka lêkolînê ye.
 Soz didim.
 Sozê didim te.
 Sozê didim.
@@ -8997,6 +9334,7 @@ Stonêrê: Ez di bin emirê te de me.
 Stonêrê: Li cem me tu pising nînin.
 Stonêrê: Me çawan hela niho bala xwe ne da bûyê?....
 Stoyê mar werimî bû.
+Strana yekem a lîsteya lêdanê.
 Stranbêjên me yên hêja hene.
 Stranên Mihemed Şêxo gelekî xweş in.
 Stranên Soranî pir xweş in.
@@ -9010,6 +9348,7 @@ Stêrk li ser erdên bêdeng dibiriqîn.
 Stêrka Kurdan, roj bi roj geştir dibe
 Stêrkên li serê çiyayan têkoşîneke bêhempa dikin.
 Stîleke wî ya cuda hebû, yên din kopî nedikir.
+Stûyê xwe bi kêrê ve didin.
 Stûyê xwe xwar neke, berxwedêr be!
 Stûyê xwe xwar neke.
 Sumatra giravek e.
@@ -9067,6 +9406,7 @@ Sûcê xwe dikin sûcê me.
 Sûcê xwe red dike, lê her kes wî nas dike.
 Sûd û ziyanên amûrên teknîkî çi ne?
 Sûdên ku em ji şînatiyan digirin, çi ne?
+Tabloyên din çêtir xuya nedikirin.
 Tadekar azad in?
 Tahma hêkan xweş e.
 Talebanî bi boneya hilbijartinên herêmê, mesajeke pîrozbahiyê da
@@ -9168,6 +9508,7 @@ Te di bêhnvedana biharê de çi kir?
 Te di derbarê Tomî de tiştek dît.
 Te digot qey di giyanê wî de vejîneke nipînû çêbûbû.
 Te digot qey tengasiyeke wî jî hebû.
+Te digot tu yê sibê qazê bikî şîva me?
 Te dilê min dizî.
 Te dilê min şikand.
 Te dilê wê şikand.
@@ -9192,6 +9533,7 @@ Te ji Wanê hez kir?
 Te ji nizaniya xwe wenda kir.
 Te jê hez kir?
 Te jî nikaribû bersiv bida!
+Te jûjî dernexistiye?
 Te kengî Tomî ji xewê rakir?
 Te kê diparast?
 Te li ba kir.
@@ -9238,6 +9580,7 @@ Te solên xwe ji ku kirîn?
 Te soz dabû min.
 Te xwend.
 Te xwest
+Te çi cudahî di navbera wan de dît?
 Te çi dît?
 Te çi got?
 Te çi pirsî?
@@ -9257,6 +9600,7 @@ Teknolojiyê baş taqîb dikir.
 Teknolojî baş e.
 Teknolojî pireke di navbera Kurdî û cîhanê de.
 Teknîk, êdî bûye parçeyek ji jiyana me.
+Telefon lê dide; here rahêle telefonê!
 Telefon qut bû.
 Televizyon hem amûra guhdarkirinê, hem jî ya dîtinê ye.
 Televizyon, amûra ragihandinê ya herî zêde tê bikaranîn.
@@ -9280,6 +9624,7 @@ Tenê tiştekî ku tu nizanî pênc wextên nimêjê ye.
 Tenê şensekê bide min, temam?
 Teoriyeke Tomî tune ye.
 Ter û hişk bi hev re dişewute
+Terzî tune bin, em ê tazî bimînin.
 Tesîsatên munasîb yên kesane bêne bikaranîn
 Tetbîqkirina wê jî hêsan e.
 Tev bi zevî û gund in.
@@ -9290,7 +9635,12 @@ Tevger bi alîkariya mamoste û bi awayekî tekane, pêk tên.
 Tevgera wê demê, mafê çarenivîsiya gelê Kurd diparast
 Tevkujiya Dêrsimê, bi daxuyaniyeke girseyî hate şermezarkirin
 Tevlî Tomî dibim.
+Tevlî favoriyan bike.
+Tevlî favoriyan bû.
 Tevlî fikra te nabim.
+Tevlî koleksiyonê bike.
+Tevlî lîsteya lêdanê bike.
+Tevlî lîsteya lêdanê ya heyî bike.
 Tevlî nebe.
 Tevî hemû hîle û astengiyan, serkeftin hate bidestxistin
 Tevî herkesî, dewlet jî fikrên wan dizane
@@ -9305,6 +9655,8 @@ Ti carî dest jê bernede.
 Ti carî dev ji wê bernede!
 Ti carî ji gotin û şîretên wê tengezar nabim.
 Ti carî li ser waneyên xwe dereng namîne.
+Ti dosyeyên medyayê nehat dîtin.
+Ti encam nehat dîtin?
 Ti hestiyên te ne şikestî bûn.
 Ti hestiyên şikestî tune.
 Ti kes bi min re napeyive.
@@ -9312,6 +9664,7 @@ Ti kes ji Zana nefretê nagire.
 Ti kes tune ji te bawer bike.
 Ti kes vî karî ji Tomî çêtir nikare bike.
 Ti kesî ji min nexwast ku bireqisim.
+Ti medya nehatin ditîn.
 Ti mînakek tê hişê te?
 Ti planên min tune ne.
 Ti tişt belav nebû.
@@ -9330,6 +9683,7 @@ Timî min dixapînin.
 Tiqetiq bi zarokên li pişt dezgeh ketibû.
 Tir li bin goha ketiye
 Tiriyên re hatine bazarê.
+Tirkiye her sal du caran dikeve xetera şer.
 Tirkiye, dixwaze gaza xwezayî ji Îraqê bikire û bifroşe
 Tirkiye, Îran û Çîn, li serokê Sudanê xwedî derketin
 Tirsa Tom ji bilindahiyê heye, ne wisa?
@@ -9586,6 +9940,9 @@ Tom, Maryê bi keça xwe da naskiririn.
 Tom, ew bihîst.
 Tom, nîv tazî ji kolanê ber bi jêr ve reviya.
 Tom, tu li wir î?
+Tomargehê bide destpêkirin.
+Tomargehê paqij bike.
+Tomargehê rawestîne.
 Tometek hevalên min hene.
 Tomî birayekî cêwî heye.
 Tomî cêwiyekî wekhev heye.
@@ -9607,6 +9964,7 @@ Tu Mihemmed Emîn î
 Tu Qur’ana xwe bixwîne
 Tu Resûlê pir mezin î
 Tu Resûlê pir şîrîn î
+Tu aciz bûyiyî.
 Tu aciz bûyî.
 Tu aciz dibî.
 Tu aliqiyî.
@@ -9619,6 +9977,12 @@ Tu araste bûyî.
 Tu araste dibî.
 Tu araste nabî.
 Tu araste nebûyî.
+Tu arode bûyî.
+Tu arode bûyîyî.
+Tu arode dibî.
+Tu arode nabî.
+Tu arode nebûyî.
+Tu arode nebûyîyî.
 Tu asê dikî.
 Tu asê nakî.
 Tu av didî.
@@ -9673,6 +10037,7 @@ Tu bilind bûyî.
 Tu bilind dibî.
 Tu bilind nabî.
 Tu bilind nebûyî.
+Tu binive û ew ê te bilorîne heta sibehê.
 Tu birayê dilgeş î.
 Tu biriqiyî.
 Tu biriqî.
@@ -9685,6 +10050,7 @@ Tu bêbav î.
 Tu bêhnijiyî.
 Tu bêhnijî yî.
 Tu bêhnijî.
+Tu bêhtir ji pirincê yan ji sawarê hez dikî?
 Tu bêriya dibistanê dikî.
 Tu bêriya dibistanê nakî.
 Tu bêwijdan î.
@@ -9718,6 +10084,7 @@ Tu dibişirî.
 Tu diborî.
 Tu diborînî.
 Tu dibêhnijî.
+Tu dibêjî qey tu gêj bûyî.
 Tu dibî
 Tu dibî.
 Tu dibînî
@@ -9771,6 +10138,7 @@ Tu dê alî min bikî.
 Tu dê alî min nekî.
 Tu dê araste bibî.
 Tu dê araste nebî.
+Tu dê arode bibî.
 Tu dê asê bikî.
 Tu dê asê nekî.
 Tu dê av bidî.
@@ -9812,15 +10180,20 @@ Tu esîlî, bi muxtarê gund be.
 Tu gurçika min î.
 Tu henekê xwe bi min dikî.
 Tu her dem di bîra min de yî.
+Tu heta niha dixebitî?
 Tu hevala min î.
 Tu hevalê min î.
 Tu hê jî keça min a biçûk î.
 Tu hîn gelekî ciwan î.
+Tu hîn çixareyê dikişînî?
+Tu ji avjeniyê hez dikî?
 Tu ji bajarê Dêrikê yî.
 Tu ji bo Tom dîsa dixebitî?
 Tu ji bo Tomî dîsa dixebitî?
 Tu ji bo betlaneyê diçî Romayê?
 Tu ji bo betlaneyê naçî Gronlandê.
+Tu ji bo paşerojê çi dihizirî?
+Tu ji bo zanînê dixebitî.
 Tu ji kirina çi hez dikî?
 Tu ji ku yî?
 Tu ji kundirê mezin bawer dikî?
@@ -9972,6 +10345,7 @@ Tu xemgîn î.
 Tu xwe baş hest dikî?
 Tu xwe dibînî.
 Tu xwe çi dihesibînî?
+Tu xwendekar î?
 Tu xwendekara herî jîr î.
 Tu xwendekarekî japon î?
 Tu xwendekarê japon î?
@@ -10102,6 +10476,7 @@ Tîrêjên roja li ber ava, hundirê odeyê ronî kiribû.
 Tûtî li rojhilatê Awistiryayê dijîn.
 Tûtî pîr e.
 Ustad Bediuzzaman ji me li xwedî derketina ziman dixwaze
+Va em jî li bendê ne û em ê bibînin ka dê çi çêbe.
 Va ye buhar hat û kulîlk vebûn.
 Valahiyên li jêr dagirin.
 Van giş, nîşanên pêvajoyeke nûye
@@ -10132,6 +10507,8 @@ Vê hefteyê betal im.
 Vê ji dema weşandinê heya niha gelekî bala gel kîşand.
 Vê koronayê mala me xera kir.
 Vê lîsteyê têxe rêza alfabetîk.
+Vê peldankê tevlî bike.
+Vê pirsê qet nebirsivîne!
 Vê sepanê daxîne.
 Vê sibê pir baran bariya lê lehî ranebû.
 Vê sibê pir baran bariya.
@@ -10148,6 +10525,7 @@ Vî karî bipejirîne.
 Vî karî hinek zewq da wî.
 Vî xortî kincên hêşîn li xwe kirine.
 Vîdeoklîba ku derxistiye gihîşt hejmareke mezin a bîneran.
+Vîdeoyan di lêdanê de bidomîne.
 Vîna wan, ji aliyê dijmin ve hatiye bidestxistin
 Vîrus dikare belav bibe tevahiya organên mirîşkan.
 Vîrus ji bakteriyan gelekî hûriktir in.
@@ -10247,6 +10625,7 @@ Wan ceribandiye.
 Wan em xapandin.
 Wan ez dîtim
 Wan got ew berê jî hatibûn binçavkirin.
+Wan got, bername jiyana me bi rêk û pêk dike.
 Wan gotin ku ew ê vegerin.
 Wan heneka te fêm nekirin.
 Wan her duyan, ji wê dibistanê xwendina xwe dest pê kirin
@@ -10406,6 +10785,7 @@ We li ba kir.
 We li ba kiriye.
 We li ba nekir.
 We li ba nekiriye.
+We li ser kaxezê xêz kir.
 We neajot.
 We neajotiye.
 We neaniye.
@@ -10458,8 +10838,10 @@ Weke helbestvan û nivîskarê lîstikan jî tê nasîn.
 Weke keroşkê em xwe bi pêş de çind bikin.
 Weke saeta bêrîkan e.
 Weke tê zanîn hinek berendam, wek serbixwe tevlî hilbijartinê dibin
+Weke tê zanîn, civakîbûyîna neteweya kurd ji demên pir kevn ve pêk hatiye.
 Weke tê zanîn, li rojava di Serdema Navîn de jin, hatine cezakirin
 Wekhevî jî mîna faşîzmê ye, hûn doza edaletê bikin.
+Wekî dengê telefonê saz bike.
 Wekî din jî, li gor gavavêtinên wî navlêkirin jî çêdibûn.
 Wekî din jî, li gor gavavêtinên wî navpêvekirin jî çêdibûn.
 Wekî din lênûskeke min e piçûk hebû.
@@ -10470,6 +10852,7 @@ Wekî jinan tev digere.
 Wekî ku bi zelalî tê xuyan Roj li derdora Dinyayê digere.
 Wekî ku jiyan berdewame, çîrok jî berdewame
 Wekî serxweşan diajot, nizanim çawa ehliyetê wergirtiye.
+Wekî vîdeo lêde.
 Welat cih û ware me ye, em gelekî jê hez dikin.
 Welat tu çi yî. Tu kî yî?
 Welat çi berheman pêşkêşî me dike?
@@ -10483,13 +10866,16 @@ Welatên ewropayê her tim berê xwe ji me diguherînin.
 Welatên pêşketî û civakên pêşverû bi saya xwendinê gihîştine merheleyeke payebilind
 Welatê me birîndar e.
 Wele babo ziman nayê
+Weleh ez niha tiştekî nakim.
 Werdek, firindeyeke bejavî ye, gelek rengên wê hene.
 Werdekeke zer li vir e.
 Were bibe kevaniya mala min.
 Were em li vê kafeyê çayekê vexwin.
+Were ew ê têra me bike.
 Were mala bavê xwe.
 Were mala me.
 Were min bi cih bike.
+Were pala xwe bide pala min.
 Were vir.
 Were!
 Were.
@@ -10509,6 +10895,7 @@ Werzîş, laşê me şeng dike.
 Werzîşvan bi hevalên xwe re dilîze.
 Werîs di kulekê de bi xelekê ve girêdayî ye.
 Werîsê riziyayî zû diqete.
+Wext e ku em fêr bibin ka dê çi bibe.
 Wext hat ku em hinek sînor ji xwe re bikişînin.
 Wext temam e.
 Wexta ez vedigeriyam gundê xwe
@@ -10837,6 +11224,7 @@ Wî dilê wê şikand.
 Wî dilê wî şikand.
 Wî diyar kir ku êdî bendewariyên çareseriyê bê bersiv nayên hiştin
 Wî dê çi bigota?
+Wî ev yek înkar kir.
 Wî ez dîtim
 Wî gurê spî kuşt.
 Wî her şev ji dê û bavê xwe çîrok guhdar dikirin.
@@ -10913,6 +11301,7 @@ Wî, reqîbê xwe têk bir.
 Wî, têkoşîna xwe ya aştiyê û hestên xwe, ji rojnameya me re vegot
 Wî, xwest ku kujerên wendahiyan bêne cezakirin
 Xaka berhemdar yek ji çavkaniyên herî girîng ên jiyanê ye.
+Xakê ji bo xwe naafirîne.
 Xalid begê cibrî rûmeta eşîra cibraniyan bû.
 Xalê Bawer bi çi rengî pêşwaziya wan kir?
 Xalê min û malbata xwe bi dilgermî pêşwaziya me kir.
@@ -10939,6 +11328,8 @@ Xelatên wergirtibû li ser maseya xwe rêz kiribû.
 Xelet e.
 Xelk bû kebanî, ez bûm cebanî
 Xelk dibêjin ku jiyan kin e.
+Xelk li wê derê tiştê heyî çêdikin.
+Xelk serûpêyan jî çêdikin.
 Xelkno ref bi ref mîna pinpinîkan bifirin!
 Xelkê cîhanê, dema ku ew naskirin sosretmayî man
 Xem nake vê carê min tedbîra xwe stend.
@@ -10974,6 +11365,7 @@ Xeyalên zarokên xwe berfireh dikirin
 Xiroka sor, xiroka spî û perikên xwînê, sê corê xaneyên xwînê ne.
 Xizaniya li bajaran, bêkariya ciwanan, wek encamên koçberiya zorî li pêşberî me ne
 Xizaniya me, wekî şantajekê li hemberî me bi kar anîn
+Xizmet nayê bikaranîn, paşê dîsa biceribîne.
 Xizmên te ji ku ne? "Lîtvanya."
 Xizmên we ji ku derê ne? "Îrlenda"
 Xofane!
@@ -11030,7 +11422,10 @@ Xwe kil neke.
 Xwe li gorî rewşê eyar dike.
 Xwe li min nepêçe wiha nikarim bimeşim.
 Xwe li ser berfê dişemitînin û gilokên berfê diavêjin hev.
+Xwe nas bikin!
 Xwe neelîmînin kişandina cixaran.
+Xwe nelebitîne!
+Xwe nelewitîne!
 Xwe pir mezin dibîne, qure ye.
 Xwe wekî li mala xwe his bike.
 Xwe, bi çapemeniyê re wekî fermandarekî jêhatî, dabû naskirin
@@ -11053,6 +11448,7 @@ Xwedê kurikê bide vê malê.
 Xwedê li çiyê mêze dike berfê dibarîne
 Xwedê me afirandiye.
 Xwedê ruhê te bistîne.
+Xwedê te bisitirîne ji qeda û belayên dinyayê!
 Xwedê tenê zimanê reqasê, kilam û pîrozkirinê dizane.
 Xwedê vê sûcê te qet naborîne!
 Xwedê vê şevê ji misliman û miletên bindest re deriyê xêrê vedike.
@@ -11101,11 +11497,14 @@ Xwendekarên din çawa alîkariya wî kir?
 Xwendekarên din çawa alîkariya wî kirin?
 Xwendevanên delal û bi rûmet!
 Xwendin deriyê zêr e.
+Xwendina bi kurdî bi zarokên xwe re şîrîn bikin!
 Xwendina seretayî şeş sal e.
 Xwendina seretayî, li gund bi dawî anî
 Xwendina seretayî, li heman bajarokî de xwendiye
+Xwendina te nîne?
 Xwendina van wek stranî
 Xwendina wan wekî wan e
+Xwendinê bi zarokên xwe re şîrîn bikin!
 Xwendinê kite kite nakim.
 Xweseriya xwe nîşan kiriye
 Xwesteka wî tenê ew bû ku lawê xwe careke din bibîne.
@@ -11218,15 +11617,19 @@ Yê ku nemre wê bibîne
 Yê ku te dike evîndar çi ye?
 Yê ku tevî civakê nebe jixwe rehetiya dinyayê nabîne.
 Yê me dixapîne şeytan e
+Yê qenciyê dike, qenciyê dibîne.
 Yêkî jê pirs kir:Tu ji me çi dixwazî?
+Yên berê gotine: rêya ku tu tê re çûyî, tê re venegere!
 Yên din ji bo daxistina xwecihî hate alozkirin.
 Yên egît ji bo gelê xwe bi mêrxasiya xwe, canê xwe feda kirine
 Yên ku Kurdan dan kuştin ne tenê Kurd kuştin
 Yên ku Kurdî nizanibin bixwînin
 Yên ku derdên wan tunebin bila herin du jina bikin.
 Yên ku dibin mewûj talnebî, avdêrî
+Yên ku diçin bila bi tenê bên hiştin.
 Yên ku mafê mirovan diparêzin
 Yên ku malan xera bike bê mal dibe
+Yên ku paqijiyê neke, dê nexweş bikeve.
 Yên ku plansaziya xwe ji berê ve kiribûn, gihîştin mirazê xwe
 Yên ku sax man li saxiyên xwe geriyan
 Yên ku vexwarinên tîr û xurekên bi reng dixwin
@@ -11246,6 +11649,7 @@ Zana ji bo perdeyên nû pîvanên pencereyê girt.
 Zana ji min re got tu yê roja duşemê mijûl bî.
 Zana li xwe mikur hat ku ew gelek caran ji dibistanê reviyaye.
 Zana xwest bibîne ka ew ê çi bibe.
+Zanyaran dîtin ku ev yek bi rêya kûda zikmakî çêdibe.
 Zanyarên Japon, makîneyekî ku nivîsan werdigerîne derxistin
 Zanîbû govend bigirta.
 Zanîngeh û dibistanên seranserê welêt jî girtî bûn.
@@ -11263,7 +11667,9 @@ Zarok ji meha Remezanê meha rehmetê nesîbê xwe digrin
 Zarok ji xwe re kar bi destê xwe dixin û dişxûlin.
 Zarok jî jê sûd werdigirtin û pê kamildibin.
 Zarok mirovan dibe ber deriyê dijmin
+Zarok nizanin xwe ji nexweşiyan biparêzin.
 Zarok sax dimîne û ew zarok niha bûye sî û du salî
+Zarok sedemên tiştan ji dayik û bavê xwe dipirsin.
 Zarok tev giriyan.
 Zarok tiştan bi ken dibêjin.
 Zarok tî bûn.
@@ -11284,6 +11690,7 @@ Zarokên wê carna digotin.
 Zarokên wê fehm kiribû ku derdê wê heye
 Zarokên wê tev jî dibêjin.
 Zarokên xalê min Rêzan, Viyan û Canda di temenê min de ne.
+Zarokên xelkê pîç in ên me jî kerpîç in.
 Zarokên xwe hînî soberiyê dikir.
 Zayînên herî mezin, di vê erdnîgariyê de pêk hatine
 Zehmet neke.
@@ -11328,6 +11735,7 @@ Ziman, di nav mirovan de têkiliyê çê dike
 Ziman, em bi vî lebatî çêjeyê nas dikin û pê diaxivin.
 Ziman, xwediyê hin rêz û rêzikên taybet e
 Zimanek tenê ne bes e vê sedsalê.
+Zimanek, zaravayek e ku leşkerên wî hene.
 Zimanê Kurdî bi tev zaravayên xwe zimanê her Kurdekî ye.
 Zimanê Kurdî jî niha li ber xeterê ye.
 Zimanê Kurdî ne dijwar e.
@@ -11349,6 +11757,7 @@ Zirbavê min ji malbateke kevin e; ji malbata Rweylot.
 Zirbavê min midekî dirêj li hepsê ma û jê vegeriya Ingilter.
 Zivistan e sar e.
 Zivistan her deverê dişo û mizgîniya saleke bixêr dide me.
+Zivistan pir sar e.
 Zivistanê bê orxan, havînê bê dew nabe.
 Zor spas dikim!
 Zor spas!
@@ -11400,6 +11809,7 @@ belav dibe bi bayê paşîvê.
 berf dibariya
 berf dibarîya
 berfê her alî girtibû
+berga albûmê biguherîne.
 berhemên gelê xwe yê wendayî û veşartî derxin holê.
 beriya kelandinê, ava goştê terbiyekirî birjînin.
 beriya peywireke antîseptîk, û
@@ -11899,6 +12309,7 @@ ji egît û şervan re pir bi hurrmet e.
 ji heta heft bavê me jî bi zimanê kê qise dikirin
 ji hev re gotin
 ji hêla zimanhezan ve nivîs amade dibin
+ji kerema xwe hin dosyeyan veguhezîne cîhaza xwe an jî tercîhên xwe biguherîne.
 ji kesî re nebêje.
 ji kevna pirtukan kesek Qur’anê kevn nedixwend.
 ji ku têyî
@@ -11943,6 +12354,7 @@ ka çîroka te ya bi zimanê xweş
 kal û bav mirinin.
 kal û pîra me, carna diya min bang dikir
 kalik bangî wan jî dike
+kameraya te normal tevnagere.
 kar ji min nedihat
 karin vê pirtûkê bigrin
 karker û pale hêdî hêdî karên xwe diqedînin
@@ -12196,6 +12608,7 @@ paşê jî di karbonatê bidin.
 paşê jî ji mêrê xwe re: Zarokê çi mêrik, bêhna ku tê te
 paşê min qedroya xwe rakir gund.
 pel dikirin dewsa wan.
+peldankê tevlî bike.
 pelê kim jî yan peyda dikir
 pey Emer dikeve
 peyvên nû fêr bibin
@@ -12263,6 +12676,7 @@ serê xwe tim tîk dike.
 sibehekê ji bo here gund xwe amade kir.
 sibê jî wê newiyên me hîç nizanibin.
 siwarê kerê jî bi siwarê hespê qayîl nabe
+stran tê barkirin.
 sê bira li ser kevirekî rûniştin
 sê-çar meriv bi hevra diçûn aşê bajêr
 sûreta wan hêdî hêdî tê guhertin
@@ -12285,6 +12699,7 @@ teq û reqa feraxan tê
 tev jî tijî bi şîret û marîfet in.
 tev laşên zarok, jin, pîr û laş ajalan bûn.
 tevlihev bibe an jî em zimanê xwe ji bîr bikin
+tevlî koleksiyonê bike.
 tew quretî pê re tune ye.
 tim ciyê xwe fere kiriye
 tim helbest dixwend û xweşa min dihat.
@@ -12412,6 +12827,7 @@ zivistanê cihê kê germ bû
 Çalakiya ku em hewceyê wê ne.
 Çalakiya xurtkirina çanda Kurdî, tê sazkirin
 Çalakiyeke serbest e ku xwendekar di dawiyê de, pêk tînin.
+Çalakiyên zêdetir.
 Çalakî!
 Çand di civakê de hestên hevgirtin û alîkariyê bi pêş dixe.
 Çand mejiyê civakê ye.
@@ -12558,6 +12974,8 @@ zivistanê cihê kê germ bû
 Çermê wî dixurê.
 Çermê wî hênik bû.
 Çerxa jiyanê, li gor vê pergala rojê dizîvire
+Çewtiya lêdanê!
+Çewtiyekê rapor bike.
 Çi amûrên teknîkî di mala we de hene?
 Çi astengî li reaksiyonê dike?
 Çi awayî dibe bila bibe
@@ -12719,6 +13137,9 @@ zivistanê cihê kê germ bû
 Êvara te bi xêr!
 Êvara te bimîne xweş.
 Êvara we xweş be.
+Êvara înê çûbû û hatibû.
+Êvaran, wê û malbata xwe li televizyonê tamaşe dikir.
+Êvarê dema bavê Dilgeş hat malê, Dilgeş bi bavê xwe re axivî.
 Êvarê dê û xaltiyên me pez û mangê didotin
 Êzing malê germ dikin.
 Êzingê şewatê ne erzan e.
@@ -12730,11 +13151,14 @@ zivistanê cihê kê germ bû
 Îdîaya bikaranîna kîmyasalê, xurt bû
 Îja dor a min e.
 Îja ka em li temama resimê vekolin.
+Îkram Oxuz dibêje; dîroka rast, dîroka ku hîn nebûye çîrok e.
 Îlham di her gavê de nayê.
 Îngiltere dîsa bi penaltiyan têk çû.
 Îngilîzan, bi vê helwestê yekîtiya Kurdan asteng kirin
 Însan bi ziman civakî dibe.
 Înternet, li ser zarokan bandoreke neyînî dike
+Înterneta xwe kontrol bike.
+Înterneta xwecihî tune ye.
 Înşallah pere weka dîna li vî li wî xerc nekiribe!’’
 Îran, wekî berê nikare heyîna xwe berdewam bike
 Îro ez ê pere bidim hev
@@ -12784,6 +13208,9 @@ zivistanê cihê kê germ bû
 Îro şemî ye.
 Îro, min stêrkek dît.
 Îro, salvegera damezrandina Komarê ye
+Îroj di Zanîngehê de xwendekarek li ser bernamekirina jiyanê axivî.
+Îroj dinya gelekî sar bû.
+Îroj pêjina wî nedihat.
 Îsal ew ê baş derbas bibe.
 Îsal ez ê refa duyem bixwînim.
 Îsal havînî min ji xwe re xaniyekî du qat lê kir.
@@ -12791,6 +13218,7 @@ zivistanê cihê kê germ bû
 Îsal serma zû hat ji ber wê me sobe danî.
 Îskana pêşî di yek qurtekî de vexwar.
 Îslamiyetê dilê min guherand.
+Îstîxbarata wî ya leşkerî kesên mezin girtine.
 Îtalî zimanê evîniyê ye.
 Îtirafeke min heye.
 Îşekî gavekî qesaweta salekî
@@ -12805,6 +13233,7 @@ zivistanê cihê kê germ bû
 Îşev sar e, cilik sitar e.
 Îşev were min bibîne.
 Îşev xalanên min serdana me kirin.
+Îşev xewa min nayê.
 Îşev zû raket.
 Îşev zû raketim.
 Îşev şîva me birinc û goşt e.
@@ -12926,6 +13355,7 @@ zivistanê cihê kê germ bû
 Şahî bi rengên netewî û wêneyên şehîdan hatibû xemilandin.
 Şam paytexta Sûriyê ye.
 Şam serbajarê Sûriyê ye.
+Şam şekir e, lê welat şîrîntir e.
 Şandeya bazirganiya Wanê, serdana Hewlêrê dike
 Şandiyan bes parve bike.
 Şane ji xaneyan pêk tên.
@@ -12990,10 +13420,12 @@ zivistanê cihê kê germ bû
 Şêrgo û hevalên xwe li kolanê nalîzin.
 Şêrê şêr ji roviyekî natirse.
 Şêweya axaftina Gernasî min hêrs dike.
+Şêwirmendiya bijîşkî li vir pir baş e.
 Şêwirmendê serokkomar, bersiva daxuyaniyan dide
 Şêxekî Neqşîbendî Xalidî bû.
 Şîlanê jî ev gotin dubare kirin.
 Şînatî xwezayê dixemilînin û xweşik dikin.
+Şînatî, ji bo jiyana xwe berdewam bike.
 Şîr e ev?
 Şîr û goştê wan dixwin.
 Şîretên Rûspiyê Gund

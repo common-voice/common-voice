@@ -119,8 +119,46 @@ mg = Madagaskî
 mhr = Markîya Deşte
 mk = Makedonkî
 ml = Malayalamkî
+mn = Moxolkî
+mni = Meetei Lon
+mos = Mosîkî (Morekî)
+mr = Marathkî
+mrj = Markîya Koyî
+ms = Malaykî
+mt = Maltakî
+my = Bûrmakî
+myv = Erzyakî
+nan-tw = Taywankî (Mînnan)
+nb-NO = Norweçkî (Bokmål)
+nd = IsiNdebele (Vakur)
+ne-NP = Nepalkî
+nia = Nîaskî
 nl = Holandkî
+nn-NO = Norweçkî (Nynorsk)
+nr = IsiNdebele (Başûr)
+nso = Sothokîya Vakurî
+nyn = Nkorekî
+oc = Oksîtankî
+om = Afaan Oromokî
+or = Odîakî
+pa-IN = Pancabkî
+pap-AW = Papîamento (Aruba)
+pl = Polonkî
+ps = Paştûkî
+pt = Portugalkî
+quc = Kîçêkî
+quy = Keçwakî Çanka
+rm-sursilv = Romanşkîya Sursîlvanî
+rm-vallader = Romanşkîya Valladerî
+ro = Romankî
 ru = Rûskî
+rw = Kînyarwandakî
+sah = Yakutkî
+sat = Santalkî (Ol Chiki)
+sc = Sardînkî
+scn = Sîcîlkî
+sdh = Kurdkîya Başûrî
+sr = Sirbkî
 yi = Yîdkî
 zu = Zulu
 
@@ -155,6 +193,10 @@ default-tagline = Mozîlla Common Voice projeyêk o ke makînayan (komputuran) r
 home-cta = Fekê xo ake, dest bide ma!
 wall-of-text-start = Veng tebîî yo, veng însanî yo. Coka ma bala xo danîme ser ke seba makînayanê xo teknolojîya vengî ya feydedare virazîme. Labelê, seba viraştişê sîstemanê vengan xeylê dayeyê vengî lazim ê.
 wall-of-text-more-mobile = Zafêrîya dayeyan ke hetê şîrketanê girsan ra yena xebitnayene, seba rayapêroyî mewcûd nîya. Goreyê ma, wina înovasyon asteng beno. Coka ma projeyê Common Voice da destpêkerdene ke teknolojîya naskerdişê vengî her kesî rê akerde bo.
+wall-of-text-more-desktop = Ti nika eşkenî/a vengê xo bibexişnê û wina dest bidê ke ma ke yew databasê vengan o çimeakerde virazîme ke her kes bieşko bigureno. Bi o hawa, merdim pê eşkeno app û hacetanê înovatîfan virazo. Cumleyêk biwane û wina makîna rê bimusne ke însanî senî qisey kenê. Xebata beşdaranê bînan kontrol bike ke senînîye rindêr bo. Hende rehet o!
+wall-of-text-first = Veng tebîî yo, veng însanî yo. Coka ma bi heyecan wazenîme teknolojîya vengî ya feydedare seba makînayanê xo virazîme. Labelê, seba viraştişê sîstemanê vengan viraştoxan rê xeylê dayeyê vengî lazim ê.
+wall-of-text-second = Zafê dayeyan ke hetê şîrketanê girsan ra yenê xebitnayene, seba zafêrîya kesan mewcûd nîyê. Goreyê ma, wina înovasyon asteng beno. Coka ma Common Voice da destpêkerdene: yew projeyo ke wazeno teknolojîya naskerdişê vengî her kesî rê akerde bikero.
+show-wall-of-text = Zêdeyêr Biwane
 help-us-title = Hetkarîya ma bike ke cumleyan tesdîq bikerîme!
 help-us-explain = Bicine, goşdar bike û ma ra vaje: tirêm cumleya cêrêne raşt wanîya?
 no-clips-to-validate = Winî aseno ke seba nê ziwanî qet qeyd çin o ke bigoşdarê. De ti dest bide ma û vengê xo qeyd bike ke na kêmasî wedarîyo.
@@ -162,7 +204,10 @@ vote-yes = Heya
 vote-no = Ney
 toggle-play-tooltip = Seba cinitişî/vindarnayîşî { shortcut-play-toggle } ser o bitikne
 speak-subtitle = Vengê xo bibexişne
+speak-paragraph = Seba ke ma komdayeyê xo yê akerdeyî awan bikerîme, yew parçeyo muhîm qeydkerdişê klîbanê vengî o - xora keyfê karî tîya de yo.
 speak-goal-text = Vengê qeydkerdeyî
+listen-subtitle = Hetkarîya ma bike ke vengan tesdîq bikerîme
+listen-paragraph = Bi eynî hawa, seba wezîfeyê Common Voice tesdîqkerdişê qeydanê vengî kî muhîm o. Reyê goş bide ser û hetê ma bike ke dayeyanê vengî yê kalîteyinanê çimeakerdeyan virazîme.
 listen-goal-text = Qeydê tesdîqkerdeyî
 hours-recorded = Saetê qeydkerdeyî
 hours-validated = Saetê tesdîqkerdeyî
@@ -188,6 +233,7 @@ x-years-short =
 help-make-dataset = Hetê ma bike ke komdayeyêko kalîteberz virazîme ke her kesî rê akerde yo
 sign-up-account = Hesabêk viraze
 email-subscription-title = seba xeberanê e-maîlî qeyd bibe
+email-subscription-title-new = Aboneyê xebernameyanê Common Voice, vîrardişê hedefan û rewşanê averşîyayîşî bibe
 
 ## Account Benefits
 
@@ -199,6 +245,7 @@ whats-public = Kesê bînî çi vînenê?
 email-not-public = Ma e-maîlê to neşr nêkenîme.
 recordings-and-locale-public = Hûmara qeydanê to û ziwanê ke ti beşdarê ci bîyî/bîya, ê hetê kesanê bînan ra yenê dîyene.
 username-optin-public = Weçîne eke nameyê to yê xebitnayoxî anonîm yan zî akerde bo.
+username-email-not-demographic = Nameyê to yê xebitnayoxî û e-maîlê to dayeyanê weşanîyayeyan de girê nêdîyenê.
 
 ## Speak & Listen Shortcuts
 
@@ -227,11 +274,20 @@ shortcut-record-toggle-label = Qeyd bike/Bivindarne
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Newe ra qeyd bike
 shortcut-discard-ongoing-recording = ESC
+shortcut-discard-ongoing-recording-label = Qeydê nikayinî biestire
 shortcut-submit = Apey
+shortcut-submit-label = Qeydan birusne
+request-language-text = Ti ziwanê xo hîna Common Voice de nêvînenî/a?
+request-language-button = Ziwanêko newe biwaze
 
 ## ProjectStatus
 
+status-title = Rewşa projeyî ya pêroyîye: de nîyade ma resayîme kotî!
 status-contribute = Vengê Xo Bibexişne
+status-hours =
+    { $hours ->
+       *[other] Heta nika { $hours } saetê tesdîqkerdeyî est ê!
+    }
 # Variables:
 # $goal - number of hours representing the next goal
 status-goal = Hedefo ameyox: { $goal }
@@ -326,10 +382,16 @@ faq-what-cv-a-2 =
     
     Ma nimûneyanê vengî tena ziwananê vilabîyayeyan ra ney, la ziwananê bi nufusanê qijkekan ra kî danîme arê. Weşanayîşê komdayeyanê vengan ê cîya-cîyayan do viraştox, karsaz û komelan rê îmkan bido ke na kêmasîye bi xo çareser bikerê.
 faq-why-important-q = Çira muhîm o?
+faq-why-important-a =
+    Hawayo tewr tebîî ke ma pê kewenîme têkilîye, qiseykerdiş o. Teknolojîyê vengî zî na rehetîye anê komputur û hacetanê ma yê mobîlan. Ma wazenîme viraştoxan rê îmkan bidîme ke applîkasyonanê naskerdişê vengî yê harîkayan virazê, sey çarnayoxanê hemdeman û asîstanê dîjîtalan ê bi fonksîyonê vengî. Labelê, no taw zafêrîya dayeyanê vengî ke seba viraştişê appanê winasîyan lazim a, vay û tescîlkerdî ya. Ma hêvîdar îme ke komdayeyê Common Voice viraştoxan rê benê îmkan ke înovasyon raver berê û teknolojîya vengî ziwanê xo de pêşkêş bikerê.
+    
+    Seba ke naskerdişê vengî hîna zaf unîversal bo, ma nimûneyanê vengî hem ziwananê zaf qiseybîyayeyan ra hem zî ziwananê bi nufusanê qijkekan ra danîme arê; zafê reyan ziwanê bi şenik qiseykerdoxan hetê servîsanê naskerdişê vengî yê bazirganîyan ra kêmî xizmet vînenê. Weşanayîşê komdayeyanê vengan ê cîya-cîyayan do viraştox, karsaz û komelan rê îmkan bido ke na kêmasîye bi xo çareser bikerê.
 faq-how-get-q = Ez senî resena dayeyanê Common Voice?
 faq-why-my-lang-q = Çira ziwanê mi hema tede çin o?
 faq-what-is-cv = Common Voice çi yo?
 faq-using-cv = Xebitnayîşê Common Voice
+faq-search-for-answers =
+    .label = Ro cewaban bigêre
 
 ## ABOUT US
 
@@ -352,10 +414,13 @@ about-dataset-release-title = Weşanê Komdayeyan
 about-dataset-release-subtitle = Her 3 aşmî ma komdayeyan weşanenîme.
 about-subscribe-text = Ti wazenî/a Common Voice ra xeberdar bimanê?
 about-speak = Qisey ke
+about-listen-queue = Rêza Goşdarkerdişî
+about-listen-queue-text = Qeydê vengî seba rusnayîşî rêz benê ke seba goşdarkerdişî hazir bibê.
 about-listen = Goşdar bike
 about-yes-votes = ≥ 2 rayê "heya"
 about-yes-votes-text = Seba ke yew qeydê vengî bikewo komdayeyê Common Voice, ganî hetê di xebitnayoxanê cîyayan ra tesdîq bibo.
 about-no-votes = ≥ 2 rayê "ney"
+about-no-votes-text = Eke xebitnayoxêk qeydê vengî betal keno, qeyd agêreno Rêze. Eke reya dîyine betal beno, qeydê vengî şono Goristanê Qeydan.
 about-clip-graveyard = Goristanê Qeydan
 
 ## Community Playbook Content

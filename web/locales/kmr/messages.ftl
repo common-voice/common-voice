@@ -299,7 +299,7 @@ x-years-short =
 help-make-dataset = Alî me bike ku em bi kalîteyeke bilind komdaneya vekirî û gelerî ava bikin
 sign-up-account = Hesabekî veke
 email-subscription-title = li nûçeyên emaîlê tomar bibe
-email-subscription-title-new = Ji bo nûçenameyên Common Voiceê, bibîrxistinên hedefê û rewşa pêşveçûna projeyê lê tomar bibe
+email-subscription-title-new = Ji bo nûçenameyên Common Voiceê, bibîrxistinên hedefê û rewşa pêşveçûna projeyê xwe tomar bike
 
 ## Account Benefits
 
@@ -514,7 +514,7 @@ how-does-it-work-text = Em komdaneyeke dengan ya çavkanî vekirî berhev dikin.
 
 ## How does it work section
 
-about-language-req-subtitle = Yek ji bo tevlîkirina zimanekî dixwazekê vedike.
+about-language-req-subtitle = Yek ji bo tevlîkirina zimanekî daxwazekê vedike.
 about-localization-title = Wergerandina Malperê
 about-localization-subtitle = Metnên malperê li wî zimanî tê wergerandin.
 about-sentence-collection-title = Berhevkirina Hevokan
@@ -587,19 +587,29 @@ about-playbook-how-add-sentences = Ez çawa dikarim hevokan tevlî bikim?
 
 about-playbook-how-grow-language-content-2 = Çalakî
 about-playbook-how-grow-language-content-4 = Medyaya civakî
+about-playbook-how-grow-language-content-8 = <strong>Afirîner be!</strong> Civaka zimanê te ew ê bêhempa be, û ev ji bo destpêkê tenê çendek rê ne.
 
 ## How to validate
 
 about-playbook-how-validate = Ez ê çawa bizanibim dengekî piştrast bikim an na?
+about-playbook-how-validate-content-1 = Heke tu dengan <strong>dibihîzî</strong> û <strong>wan fêm dikî</strong>, bi giştî ev bes e ji bo <strong>piştrastkirinê</strong>.
+about-playbook-how-validate-content-4 = Heke dengek ji aliyê 2 kesan ve were redkirin, ew deng ew ê li bindaneyeke cuda ya komdaneyê were weşandin.
 
 ## How to access dataset
 
+about-playbook-how-access-dataset = Ez çawa dikarim bigihîjim komdaneyê û wê bi kar bînim.
+about-playbook-how-access-dataset-content-1 = Tu dikarî biçî <datasetsPage>Rûpela komdaneyan</datasetsPage> ziman û guhertoya ku tu dixwazî, hilbijêrî û wê daxînî! Dosye, <metadataLink>daneyên metayê yên têkildar</metadataLink> wekî agahiyên demokrafîk û daneyên piştrastkirinê di xwe de dihewîne. Ji bo daxistina komdaneyê divê tu navnîşaneke emaîlê bikevê.
 
 ## How are decisions made
 
+about-playbook-how-project-governance = Biryarên projeyê çawa tên dayîn?
+about-playbook-how-project-governance-content-1 = Mozilla Common Voice ji hêla aktîvîst, zimanzan, zanyarên daneyan, akademîsyen û endezyarên nermalavê yên ji her derên dinyayê ve hatiye avakirin. Proje ji aliyê Weqfa Mozillayê ve tê birêvebirin.
+about-playbook-how-project-governance-content-2 = Rêvebiriya me li ser van xalan hatiye avakirin:
 about-playbook-how-project-governance-content-3 = Nihênî, ewlehî û zelalî.
 about-playbook-how-project-governance-content-4 = Beşdarbûna civakê û biryar dayin.
 about-playbook-how-project-governance-content-5 = Nirx û nasîn
+about-playbook-how-project-governance-content-6 = Berpirsyariya hevpar.
+about-playbook-how-project-governance-content-7 = <governanceLink>Zêdetir bixwîne bê ka em çawa tên birêvebirin</governanceLink>
 
 ## Glossary
 
@@ -736,13 +746,13 @@ request-language-form-info-explanation-list-2 = heke tê zanîn <isoCodeLink>Kod
 
 ## Languages Overview
 
-language-section-in-progress = Kar li ser tê kirin
+language-section-in-progress = Zimanên Hilawestî
 language-section-in-progress-new-description = Ev ziman niha ji aliyê civakê ve tên pêşvebirin. Nîşaneya pêşveçûnê nîşan dide ka pêşketina zimanan di <localizationGlossaryLink>wergerandina malperê </localizationGlossaryLink> û <sentenceCollectionGlossaryLink>berhevkirina hevokan</sentenceCollectionGlossaryLink> de di kîjan astê de ye.
-language-section-launched = Hatiye weşandin
+language-section-launched = Zimanên Berdest
 language-section-launched-description =
     Ji bo van zimanên hatine destpêkirin malper bi serkeftî hatiye <localizationGlossaryLink>wergerandin</localizationGlossaryLink> û tê de têra xwe
     <sentenceCollectionGlossaryLink>hevokên berhevkirî</sentenceCollectionGlossaryLink> hene ku piştgiriya
-    <speakLink>Axaftin</speakLink> û <listenLink>Guhdarîkirinê</listenLink> dest pê bike.
+    <speakLink>Axaftin</speakLink> û <listenLink>Guhdarîkirinê</listenLink>  bike.
 languages-show-more = Zêdetir bibîne
 languages-show-less = Kêmtir bibîne
 language-meter-in-progress = Pêşveçûn
@@ -1065,7 +1075,7 @@ sc-home-review-title = Hevokan kontrol bike
 ## HOW-TO
 
 sc-howto-title = Çawa tê kirin
-sc-howto-addlang-title = Tevlîkirina zimanên ku kar li ser tê kirin
+sc-howto-addlang-title = Tevlîkirina zimanên hilawestî
 sc-howto-addsen-title = Hevokên nû tevlî bike
 sc-howto-cite-title = Çawa jê tê girtin
 sc-howto-review-title = Hevokan kontrol bike
@@ -1075,7 +1085,11 @@ sc-howto-findpd-subtitle = Di înternetê de lê bigere
 
 sc-my-title = Hevokên min
 sc-my-loading = Hevokên te bar dibin…
+sc-my-err-fetching = Di anîna hevokên te de çewtî derket. Ji kerema xwe dîsa biceribîne.
 sc-my-no-sentences = Hevok nehatin dîtin!
+# Variables:
+#   $batchId (String) - A unique ID identifying the submission of sentences - sentences uploaded together all have the same batch ID
+sc-my-submission = Şandin: { $batchId }
 # Variables:
 #   $source (String) - Associated source the user filled out when uploading the sentence
 sc-my-source = Çavkanî: { $source }
@@ -1087,6 +1101,7 @@ sc-my-err-failed-delete = Jêbirina hevokên hilbijartî bi ser neket… Dîsa b
 
 sc-rejected-title = Hevokên red bûne
 sc-rejected-loading = Hevokên red bûne tên barkirin…
+sc-rejected-err-fetching = Di anîna hevokên redbûyî de çewtî derket. Ji kerema xwe dîsa biceribîne.
 sc-rejected-none-found = Hevokên red bûne nehatin dîtin!
 
 ## STATS
@@ -1105,21 +1120,44 @@ sc-submit-err-select-lang = Ji kerema xwe zimanekî hilbijêre.
 sc-submit-err-add-sentences = Ji kerema xwe hevokan tevlî bike.
 sc-submit-err-add-source = Ji kerema xwe çavkaniyekê tevlî bike.
 sc-submit-err-confirm-pd = Ji kerema xwe piştrast bikin ku ev hevok anonîm in.
+sc-submit-prompt =
+    .message = Hevok nehatin şandin, Tu bi rastî jî dixwazî jê derkevî?
 sc-submit-title = Hevokan tevlî bike
 sc-submit-select-language =
     .labelText = Zimên hilbijêre
+sc-submit-add-sentences = Hevokên <wikipediaLink>Anonîm</wikipediaLink> tevlî bike
 sc-submit-ph-one-per-line =
     .placeholder = Serê rêzekê hevokek
-sc-submit-confirm = Ez piştrast dikim ku ev <wikipediaLink> hevokên anonîm ên </wikipediaLink>ê ne û destûra min a barkirinê heye.
+sc-submit-from-where = Ev hevokên <wikipediaLink>Anonîm</wikipediaLink> ji ku derê tên?
+sc-submit-confirm = Ez piştrast dikim ku ev <wikipediaLink> hevokên anonîm </wikipediaLink> in û destûra min a barkirinê heye.
 sc-submit-button =
     .submitText = Bişîne
+sc-submit-guidelines = Ji kerema xwe <howToLink>rêbernameyê</howToLink> kontrol bike.
 
 ## ADD LANGUAGE
 
 sc-add-lang-could-not-add = Ziman nehat tevlîkirin
 sc-add-lang-sec-label = Zimanekî ku tu dixwazî beşdariyê lê bikî, tevlî bike
 sc-add-lang-sec-button = Zimên tevlî bike
+sc-add-err-unexpected = Bersiveke neçaverêkirî ji rajekarê hat
+# Variables:
+#   $duplicates (Number) - Number of sentences which got rejected because they are duplicates
+sc-add-result =
+    { $duplicates ->
+        [0] Hevok hatin şandin. { $duplicates } hevok ji ber ku dubare ne hatin redkirin.
+        [one] Hevok hat şandin. { $duplicates } hevok ji ber ku dubare ye hat redkirin.
+       *[other] Hatin şandin. { $duplicates } hevok ji ber ku dubare ne hatin redkirin.
+    }
+# Variables:
+#   $sentences (Number) - Number of sentences which failed to be saved to the database - could be several different reasons
+sc-add-err-failed =
+    { $sentences ->
+        [0] hevok nehat barkirin
+        [one] hevokek nehat barkirin
+       *[other] { $sentences } hevok nehatin barkirin
+    }
 sc-add-err-submission = Çewtiya Şandinê
+sc-add-lang-process-notice = Heke zimanê te li vir nehatibe lîstekirin, tu dikarî bi rêya <languageProcessLink>vê pêvajoyê</languageProcessLink> daxwaz bikî.
 
 ## ADD SENTENCES CONFIRMATION
 
@@ -1172,6 +1210,32 @@ sc-lang-info-in-review =
         [0] { "" }
        *[other] { $totalInReview } hevok di kontrolê de ne.
     }
+# Variables:
+#   $unreviewedSentencesByYou (Number) - Number of sentences the user can still review
+sc-lang-info-left-for-you =
+    { $unreviewedSentencesByYou ->
+        [0] Ji bo kontrolkirinê hevok nema.
+        [one] Ji bo kontrolkirinê hevokek maye.
+       *[other] Ji bo kontrolkirinê { $unreviewedSentencesByYou } hevok mane.
+    }
+sc-lang-info-review-now = <reviewLink>Aniha kontrol bike</reviewLink>
+sc-lang-info-add-more = <addLink>Aniha hevokên zêdetir tevlî bike</addLink>
+# Variables:
+#   $validatedSentences (Number) - Number of sentences which have been approved for this language
+sc-lang-info-validated =
+    { $validatedSentences ->
+        [0] Ti hevok nehat piştrastkirin.
+        [one] Hevokek hat piştrastkirin.
+       *[other] { $validatedSentences } hevok hatin piştrastkirin.
+    }
+# Variables:
+#   $rejectedSentences (Number) - Number of sentences which have been rejected for this language
+sc-lang-info-rejected =
+    { $rejectedSentences ->
+        [0] Ti hevok nehat redkirin.
+        [one] Hevokek hat redkirin.
+       *[other] { $rejectedSentences } hevok hatin redkirin.
+    }
 
 ## LOGIN
 
@@ -1196,13 +1260,22 @@ sc-personal-not-added = Te hîn ti ziman tevlî nekiriye.
 
 sc-criteria-modal = ⓘ Krîterên Kontrolkirinê
 sc-criteria-title = Krîterên Kontrolkirinê
+sc-criteria-make-sure = Jê piştrast be ku hevok van krîteran li jêr pêk tîne:
+sc-criteria-item-1 = Divê hevok rast were nivîsandin.
+sc-criteria-item-2 = Divê hevok ji aliyê rêzimanê ve rast be.
+sc-criteria-item-3 = Divê hevok ji bo xwendinê guncav be.
+sc-criteria-item-4 = Heke hevok li gorî van krîterên jêrîn be, li bişkoka &quot;Piştrast bike&quot; ya li hêla rastê bitikîne.
+sc-criteria-item-6 = Heke ji bo kontrolkirinê hevok biqedin, ji kerema xwe ji bo berhevkirina hevokên zêdetir, alî me bike!
 
 ## REVIEW
 
+sc-review-lang-not-selected = Te ti ziman hilnebijartiye. Ji kerema xwe ji bo hilbijartina zimanekî biçe <profileLink>Profîla xwe</profileLink>
 sc-review-title = Hevokan kontrol bike
 sc-review-loading = Hevok bar dibin…
 sc-review-select-language = Ji kerema xwe zimanekî ji bo kotrolkirina hevokan hilbijêre.
 sc-review-no-sentences = Ji bo kontrolkirinê hevok neman. <addLink>Hevokên zêdetir tevlî bike!</addLink>
+sc-review-form-prompt =
+    .message = Hevokên ku hatine kontrolkirin nehatine şandin, tu jê bawer î?
 sc-review-form-usage = Ji bo piştrastkirina hevokê, bikişîne rastê. Ji bo redkirinê bikişîne çepê. Ji bo derbaskirinê bikişîne jorê. <strong>Ji bîr neke yên te kontrolkirine bişîne!</strong>
 # Variables:
 #   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
@@ -1216,14 +1289,33 @@ sc-review-form-button-approve-shortcut = E
 sc-review-form-button-reject-shortcut = N
 # Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
 sc-review-form-button-skip-shortcut = D
+sc-review-form-keyboard-usage-custom = Tu dikarî kurterêyên klavyeyê jî bi kar bînî: ji bo piştrastkirinê { sc-review-form-button-approve-shortcut }, ji bo redkirinê { sc-review-form-button-reject-shortcut }, ji bo derbaskirinê jî { sc-review-form-button-skip-shortcut }
 sc-review-form-button-submit =
     .submitText = Kontrolkirinê Biqedîne
+# Variables:
+#   $sentences (Number) - Number of sentences the user has reviewed in this session
+sc-review-form-reviewed-message =
+    { $sentences ->
+        [0] Ti hevok nehat kontrolkirin.
+        [one] Hevokek hat kontrolkirin. Mala te ava!
+       *[other] { $sentences } hevok hatin kontrolkirin. Mala te ava!
+    }
+sc-review-form-review-failure = Kontrolkirin nehat tomarkirin. Ji kerema xwe dîsa biceribîne.
 sc-review-link = Kontrol bike
 
 ## SETTINGS
 
 sc-settings-title = Sazkarî
 sc-settings-ui-language = Zimanê Navrûyê
+sc-settings-reset-skipped = Hevokên hatine derbaskirin reset bike
+sc-settings-skipped-decription = Te berê di dema kontrolkirinê de hin hevok derbas kiribûn. Resetkirina hevokên derbaskirî ew ê wan dîsa ji nû ve ji te re bide nîşandan. Ev ne têkildarî zimên e.
+sc-settings-show-all-button = Hemû hevokên ku hatine derbaskirin dîsa nîşan bide
+sc-settings-failed = Sazkarî nehatin guhertin. Ji kerema xwe dîsa biceribîne.
+# VALIDATION
+sc-validation-number-of-words = Hevokek divê ji 1-14 bêjeyan pêk were.
+sc-validation-no-numbers = Divê di hevokê de hejmar/reqem tune bin
+sc-validation-no-symbols = Divê di hevokê de sembol tune bin
+sc-validation-no-abbreviations = Divê di hevokê de kurtenav tune bin
 
 # [/SentenceCollector]
 
