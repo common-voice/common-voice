@@ -1141,18 +1141,35 @@ sc-stats-title = Статыстыка
 
 ## LOGIN
 
+sc-login-err-try-again = Паспрабуйце зноў.
 
 ## PROFILE
 
+# Variables:
+#   $username (String) - eMail address of the logged in user
+sc-profile-title = Профіль: { $username }
+sc-personal-your-languages = Вашы мовы:
+sc-personal-remove-button = выдаліць
 
 ## REVIEW CRITERIA
 
 
 ## REVIEW
 
+sc-review-form-button-reject = Адхіліць
+sc-review-form-button-skip = Прапусціць
+sc-review-form-button-approve = Зацвердзіць
+# Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
+sc-review-form-button-approve-shortcut = Т
+# Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
+sc-review-form-button-reject-shortcut = Н
+# Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
+sc-review-form-button-skip-shortcut = П
+sc-review-link = Праверыць
 
 ## SETTINGS
 
+sc-settings-title = Налады
 
 # [/SentenceCollector]
 
