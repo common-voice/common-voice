@@ -158,8 +158,53 @@ sat = Santalkî (Ol Chiki)
 sc = Sardînkî
 scn = Sîcîlkî
 sdh = Kurdkîya Başûrî
+shi = Teşilhîltkî
+si = Sînhalkî
+sk = Slovakkî
+skr = Saraîkî
+sl = Slovenkî
+snk = Sonînkekî
+so = Somalkî
+sq = Arnawudkî
 sr = Sirbkî
+ss = Sîswatkî
+st = Sothokîya Başûrî
+sv-SE = Swêdkî
+sw = Swahîlkî
+syr = Suryankî
+ta = Tamîlkî
+te = Telûgû
+tg = Tacikkî
+th = Taykî
+ti = Tîgrînîyakî
+tig = Tîgrîkî
+tk = Tirkmenkî
+tl = Tagalogkî
+tn = Setswana
+tok = Tokî Pona
+tr = Tirkî
+ts = Tsongakî
+tt = Tatarkî
+tw = Twî
+ty = Tahîtkî
+uby = Ubixkî
+udm = Udmurtkî
+ug = Uygurkî
+uk = Ukraynkî
+ur = Urdûkî
+uz = Ozbekkî
+ve = Vendakî
+vec = Venedîkkî
+vi = Vîetnamkî
+vot = Votîkî
+xh = Koza (Xhosa)
 yi = Yîdkî
+yo = Yoruba
+yue = Kantonkî
+zgh = Tamazîxkî
+zh-CN = Çînkî (Çîn)
+zh-HK = Çînkî (Hong Kong)
+zh-TW = Çînkî (Taywan)
 zu = Zulu
 
 # [/]
@@ -238,6 +283,12 @@ email-subscription-title-new = Aboneyê xebernameyanê Common Voice, vîrardiş�
 ## Account Benefits
 
 benefits = Feydeyî
+rich-data = Ti ke tayê melumato demografîko anonîm pêşkêş kenî/a, dayeyê to yê rusnayeyî tenêna benê dewlemend. Verê ke bêrê weşanayene, ma pêro dayeyanê demografîkan anonîm kenîme.
+improve-audio = Melumatê profîlî dayeyê vengî ke musnayîşê raştkerdişê naskerdişê qiseykerdişî de xebitnîyenê, înan rindêr keno.
+keep-track = Rewşa xo ya averşîyayîşî û peymanê xo yê ziwananê cîya-cîyayan taqîb bike.
+compare-progress = Averşîyayîşê xo, yê beşdaranê dinya yê bînan de têver o ne.
+view-goals = Averşîyayîşê xo hedefê xo û hedefanê projeyî de têver o ne.
+join-newsletter = Eke wazenî/a, beşdarê lîsteya ma yê e-maîlî bibe û wina rojanekerdiş û xeberanê projeyî yê neweyan bigîre.
 
 ## What's public
 
@@ -329,6 +380,7 @@ female = Cinîke
 # Gender
 other = Ê bînî
 why-profile-title = Çira profîlêk virazî?
+why-profile-text = Ti ke derheqê xo de tenê melumat pêşkêş kenî/a, dayeyanê vengî ke ti rusnenî/a Common Voice, ê seba çîynermanê Naskerdişê Qiseykerdişî benê feydeyin ke bi o hawa tekûzêr bibê.
 dashboard = Panel
 build-profile = Profîl viraze
 avatar = Avatar
@@ -340,12 +392,16 @@ profile-close = Pade
 profile-explanation = Pê profîlêk ti eşkenî/a hem averşîyayîşê xo taqîb bikerê hem zî dest bidê ke dayeyê ma yê vengî raştêr bê.
 thanks-for-account = Seba ke to hesabê xo tesdîq kerd, weş be. De nika ma profîlê to virazîme.
 why-demographic = No çira muhîm o?
+why-demographic-explanation-2 = Seba ke ma çîynermanê naskerdişê qiseykerdişî tekûzêr bikerîme, dayeyê anonîmî, sey serrî, cinsîyet û fek, hetê ma kenê ke nê qeydanê vengî rindêr bikerîme.
+accept-privacy = Ez qebul kena ke şima nê melumatî seke <privacyLink> Polîtîkaya Nimiteyîye</privacyLink> ya Mozîlla de îzah bî, bixebitnê.
 accept-privacy-title = Polîtîkaya Nimiteyîye
 login-identity = Nasnameyê dekewtişî
 login-signup = Dekewe/Hesab Viraze
 edit = Sereraşt ke
 email-subscriptions = Aboneyîyê e-maîlî
 download-profile = Dayeyanê mi bîya war
+contribution-experience = Tecrubeyê Beşdarîye
+skip-submission-feedback = Rusnayîşê apeymelumatî ravêre
 off = Padaye
 on = Akerde
 help-accent = Derheqê fekan de hetkarîye wazenî/a?
@@ -388,8 +444,13 @@ faq-why-important-a =
     Seba ke naskerdişê vengî hîna zaf unîversal bo, ma nimûneyanê vengî hem ziwananê zaf qiseybîyayeyan ra hem zî ziwananê bi nufusanê qijkekan ra danîme arê; zafê reyan ziwanê bi şenik qiseykerdoxan hetê servîsanê naskerdişê vengî yê bazirganîyan ra kêmî xizmet vînenê. Weşanayîşê komdayeyanê vengan ê cîya-cîyayan do viraştox, karsaz û komelan rê îmkan bido ke na kêmasîye bi xo çareser bikerê.
 faq-how-get-q = Ez senî resena dayeyanê Common Voice?
 faq-why-my-lang-q = Çira ziwanê mi hema tede çin o?
+faq-how-calc-hours-q = Common Voice saetan senî hesab keno?
+faq-where-src-from-2-q = Metnê çimeyî kotî ra yenê?
+faq-why-account-q = Ez çira hesabêk akerî?
+faq-is-account-public-q = Tirêm melumatê hesabê mi her kesî rê aseno?
 faq-what-is-cv = Common Voice çi yo?
 faq-using-cv = Xebitnayîşê Common Voice
+faq-description = Common Voice projeyê Mozîlla yo ke makînayan (komputuran) rê bimusno ke merdimê raştikênî senî qisey kenê.
 faq-search-for-answers =
     .label = Ro cewaban bigêre
 
@@ -400,6 +461,7 @@ how-does-it-work-title-v2 = Common Voice senî gureyeno?
 
 ## How does it work section
 
+about-language-req-subtitle = Yewêk waştişname rusneno ke yew ziwan îlawe bo.
 about-localization-title = Çarnayîşê Keyepelî
 about-localization-subtitle = Metnê keyepelî çarnîyeno nê ziwanî ser.
 about-sentence-collection-title = Arêdayîşê Cumleyan
@@ -414,33 +476,67 @@ about-dataset-release-title = Weşanê Komdayeyan
 about-dataset-release-subtitle = Her 3 aşmî ma komdayeyan weşanenîme.
 about-subscribe-text = Ti wazenî/a Common Voice ra xeberdar bimanê?
 about-speak = Qisey ke
+about-speak-text = Beşdarî databasê cumleyanê bexişnayeyan ra wanenê û vengê xo qeyd kenê.
 about-listen-queue = Rêza Goşdarkerdişî
 about-listen-queue-text = Qeydê vengî seba rusnayîşî rêz benê ke seba goşdarkerdişî hazir bibê.
 about-listen = Goşdar bike
+about-listen-text = Xebitnayoxî raştîya qeydanê bexişnayeyan tesdîq kenê, yanî kontrol kenê tirêm qiseykerdoxî cumle raşt wenda yan ney.
+about-is-it-valid = Qeyd vîyartbar o?
+about-is-it-valid-text = Gama ke xebitnayoxêk bi "Heya" ray dano, qeyd sey "vîyartbar" nîşan dîyeno.
 about-yes-votes = ≥ 2 rayê "heya"
 about-yes-votes-text = Seba ke yew qeydê vengî bikewo komdayeyê Common Voice, ganî hetê di xebitnayoxanê cîyayan ra tesdîq bibo.
 about-no-votes = ≥ 2 rayê "ney"
 about-no-votes-text = Eke xebitnayoxêk qeydê vengî betal keno, qeyd agêreno Rêze. Eke reya dîyine betal beno, qeydê vengî şono Goristanê Qeydan.
+about-dataset-new = Komdayeyê Common Voice
 about-clip-graveyard = Goristanê Qeydan
+about-clip-graveyard-text =
+    Qeydê vengî yê ke nênê zereyê komdayeyê Common Voice, kewenê Goristanê Qeydan. Sey komdayeyan, Goristanê Qeydan kî yeno warardene. 
+    
+    Seba ke nê projeyî de hetkarîya ma kerde, ma wazenîme nê kes û organîzatoranê cêrênan rê sipas bikerîme:
+about-get-involved = Beşdar be
+about-stay-in-touch = Ez senî eşkena têkilîye de bimanî?
+about-stay-in-touch-button = Qeyd bibe
+about-nav-why-common-voice = Çira?
+about-nav-how-it-works = Senî?
+about-nav-partners = Hemkarî
+about-nav-get-involved = Beşdar be
+about-nav-how-it-works-2 = Common Voice senî gureyeno?
+about-nav-playbook = Beşdarîye senî bena?
 
 ## Community Playbook Content
 ## What is a language
 
+about-playbook-what-is-language = Common Voice ser o yew ziwan çi yo?
+about-playbook-what-is-language-content-1 = Merdim eşkeno tewir bi tewir derheqê ziwanan de bifikirîyo. Seba armancê modelanê naskerdişê qiseykerdişî, Common Voice pêşnîyaz keno ke giranî bidîme konseptê "yewbînan fehmkerdişî" ser, yan zî "eke lebate kenê, tirêm qiseykerdoxê nê ziwanî yewbînan fehm kenê yan ney?"
+about-playbook-what-is-language-content-2 = Ma wazenîme ke modelê ziwanî bieşkê tewir bi tewir qiseykerdoxan fehm bikerê. Nê semedî ra ganî databasê vengan xeylê kesanê cîya-cîyayan temsîl bikero.
+about-playbook-what-is-language-content-3 = Tayê ziwanan de ferqê gramer, çekuyan û telefuzî yê girsî est ê. Coka, ma 2022 de <ctaLink>varyantan</ctaLink> îlawe kenîme. Wina komelî eşkenê mîyanê komdayeyanê girsan ra ziwananê xo cêser vejê.
 
 ## How do I add a language
 
+about-playbook-how-add-language = Ez senî ziwanêk îlawe kena?
+about-playbook-how-add-language-content-1 = Verê veran, kontrol bike tirêm ziwanê to <languageLink>est o yan ney</languageLink>. Eke çin o, ti eşkenî/a <languageRequestLink>îlawekerdişê ci biwazê</languageRequestLink>. Di beşî est ê: çarnayîşê sîteyî û arêdayîşê cumleyan.
+about-playbook-how-add-language-translating-heading = Çarnayîşê sîteyî
+about-playbook-how-add-language-collecting-sentences-heading = Arêdayîşê cumleyan
 
 ## How does localization work
 
+about-playbook-how-localize = Çarnayîşê sîteyî senî beno?
 
 ## How to add sentences
 
+about-playbook-how-add-sentences = Ez senî cumleyan îlawe kena?
+about-playbook-how-add-sentences-content-1 = <strong>Arêdayoxê Cumleyan</strong> wesayît o ke pê cumleyê ke pêroyî rê akerde yê, arê dîyenê û tesdîq benê. Verê, ganî ti <scAccountLink>hesabêk virazê</scAccountLink>. Dima, ziwanê xo îlaweyê <strong>profîlê xo</strong> bike. Ti eşkenî/a cumleyan <strong>îlawe bikerê</strong> yan kî <strong>çim biçarnê</strong> cumleyanê îlawekerdeyan.
+about-playbook-how-add-sentences-content-2 = Seba ke cumleyî îlaweyê Common Voice bibê, ganî hetê di kesan ra kontrol bibê û qebul bibê. Ti <languageGuidelinesLink>tîya</languageGuidelinesLink> rayberê ziwanê xo virazenî/a. Ganî cumleyî binê lîsansê <licenseLink>milkê pêroyî</licenseLink> de bibê û 15 çekuyan ra kêmî bibê. Ti eşkenî/a wayîrê metnêk ra bipersî ke <waiverLink>pê feragatnameyê ma metnê xo sey CC0 tesnîf bikero</waiverLink> û adresa commonvoice@mozilla.com rê birusno.
 
 ## How to record quality
 
 
 ## How to grow language
 
+about-playbook-how-grow-language-content-2 = Aktîvîteyî
+about-playbook-how-grow-language-content-4 = Medyaya sosyale
+about-playbook-how-grow-language-content-6 = Hemkarî û torrî
+about-playbook-how-grow-language-content-7 = Kesê ke na babete de eleqedar benê, înan bivîne. Ha unîversîte bo, ha mektebê ziwanî bo, ha grûbêka eleqedare yan zî komelêkê zanyarî bo. Birese înan û bi teferuat îzah bike ke çira û senî eşkenê hetkarî bikerê. <outreachTemplates>Seba têkilîronayîşî, tîya nimûneyê ma yê e-maîlî est ê</outreachTemplates>.
 
 ## How to validate
 

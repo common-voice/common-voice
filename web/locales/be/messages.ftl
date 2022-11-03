@@ -160,6 +160,7 @@ sdh = Паўднёвакурдскі
 shi = Шыльхская
 si = Сінгальская
 sk = Славацкая
+skr = Сарайкі
 sl = Славенская
 so = Самалійская
 sq = Албанская
@@ -357,6 +358,9 @@ profile-form-variant =
 profile-form-variant-default-value = Не выбрана ніводнага выраянта
 profile-form-accent =
     .label = Акцэнт
+profile-form-custom-accent-help-text =
+    .label = Як бы вы апісалі свой акцэнт?
+profile-form-custom-accent-placeholder-2 = Пачніце ўводзіць тэкст, каб апісаць свой акцэнт
 profile-form-age =
     .label = Узрост
 profile-form-gender-2 =
@@ -367,6 +371,7 @@ hidden = Схаваны
 visible = Бачны
 native-language =
     .label = Родная мова
+profile-form-add-accent = Дадаць новы ўласны акцэнт "{ $inputValue }"
 profile-form-submit-save = Захаваць
 profile-form-submit-saved = Захавана
 male = Мужчына
@@ -567,9 +572,14 @@ about-playbook-how-add-sentences = Як дадаць сказы?
 
 ## How to record quality
 
+about-playbook-how-record-content-2 = Пазбягайце занадта моцнага фонавага шуму - трэба, каб вас было лёгка пачуць.
+about-playbook-how-record-content-3 = Уважліва прачытайце сказ — не прапускайце, не змяняйце і не дадавайце слоў.
+about-playbook-how-record-content-4 = Перш чым пачаць гаварыць, упэўніцеся, што платформа запісвае гук, а таксама ўпэўніцеся, што запіс спыняецца толькі пасля таго, як вы скончыце гаварыць.
+about-playbook-how-record-content-5 = <accuracyLink>Падрабязней пра крытэрыі дакладнасці.</accuracyLink>
 
 ## How to grow language
 
+about-playbook-how-grow-language = Як эфектыўна развіваць мову на Common Voice?
 about-playbook-how-grow-language-content-2 = Падзеі
 about-playbook-how-grow-language-content-4 = Сацыяльныя медыя
 about-playbook-how-grow-language-content-6 = Партнёрства і сеткі
@@ -1141,18 +1151,35 @@ sc-stats-title = Статыстыка
 
 ## LOGIN
 
+sc-login-err-try-again = Паспрабуйце зноў.
 
 ## PROFILE
 
+# Variables:
+#   $username (String) - eMail address of the logged in user
+sc-profile-title = Профіль: { $username }
+sc-personal-your-languages = Вашы мовы:
+sc-personal-remove-button = выдаліць
 
 ## REVIEW CRITERIA
 
 
 ## REVIEW
 
+sc-review-form-button-reject = Адхіліць
+sc-review-form-button-skip = Прапусціць
+sc-review-form-button-approve = Зацвердзіць
+# Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
+sc-review-form-button-approve-shortcut = Т
+# Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
+sc-review-form-button-reject-shortcut = Н
+# Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
+sc-review-form-button-skip-shortcut = П
+sc-review-link = Праверыць
 
 ## SETTINGS
 
+sc-settings-title = Налады
 
 # [/SentenceCollector]
 
