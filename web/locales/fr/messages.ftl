@@ -45,6 +45,7 @@ bn = Bengali
 br = Breton
 bs = Bosniaque
 bxr = Bouriate
+byv = Medumba
 ca = Catalan
 cak = Cakchiquel
 ckb = Kurde central
@@ -54,6 +55,7 @@ cs = Tchèque
 cv = Tchouvache
 cy = Gallois
 da = Danois
+dag = { "" }
 de = Allemand
 dsb = Bas-sorabe
 dv = Maldivien
@@ -207,6 +209,7 @@ zh-CN = Chinois (Chine)
 zh-HK = Chinois (Hong-Kong)
 zh-TW = Chinois (Taïwan)
 zu = Zoulou
+zza = { "" }
 
 # [/]
 
