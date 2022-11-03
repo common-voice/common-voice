@@ -206,6 +206,7 @@ zh-CN = Çînî (Çîn)
 zh-HK = Çînî (Hong Kong)
 zh-TW = Çînî (Taywan)
 zu = Zulu
+zza = Kurdî (Zazakî)
 
 # [/]
 
