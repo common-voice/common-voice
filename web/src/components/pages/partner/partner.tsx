@@ -62,24 +62,32 @@ const Partner = () => (
         <div className="our-partners-images-container">
           <img
             src={require('./images/partners/ff-logo.jpg')}
+            srcSet={`${require('./images/partners/ff-logo-small.jpg')} 370w, ${require('./images/partners/ff-logo.jpg')} 1111w`}
+            sizes="(max-width: 600px) 370px, 1111px"
             alt="Fair Forward"
             width={350}
             height={135}
           />
           <img
             src={require('./images/partners/Bill_&_Melinda_Gates_Foundation_logo.jpg')}
+            srcSet={`${require('./images/partners/Bill_&_Melinda_Gates_Foundation_logo-small.jpg')} 370w, ${require('./images/partners/Bill_&_Melinda_Gates_Foundation_logo.jpg')} 741w`}
+            sizes="(max-width: 600px) 370px, 741px"
             alt="Bill and Melinda Gates Foundation"
             width={370}
             height={135}
           />
           <img
             src={require('./images/partners/giz-logo.jpg')}
+            srcSet={`${require('./images/partners/giz-logo-small.jpg')} 366w, ${require('./images/partners/giz-logo.jpg')} 1096w`}
+            sizes="(max-width: 600px) 366px, 1096px"
             alt="Deutsche Gesellschaft für Internationale Zusammenarbeit"
             width={370}
             height={135}
           />
           <img
             src={require('./images/partners/collectivat.jpg')}
+            srcSet={`${require('./images/partners/collectivat-small.jpg')} 370w, ${require('./images/partners/collectivat.jpg')} 740w`}
+            sizes="(max-width: 600px) 370px, 740px"
             alt="Collectivat"
           />
         </div>
