@@ -40,10 +40,12 @@ ba = Bashkir
 bas = Basaa
 be = Bielorusso
 bg = Bulgaro
+bm = Bambara
 bn = Bengali
 br = Breton
 bs = Bosniano
 bxr = Buriato
+byv = Medumba
 ca = Catalano
 cak = Kaqchikel
 ckb = Kurdo central
@@ -53,6 +55,7 @@ cs = Checo
 cv = Chuvasio
 cy = Gallese
 da = Danese
+dag = Dagbani
 de = Germano
 dsb = Sorbio, basse
 dv = Maldiviano
@@ -206,6 +209,7 @@ zh-CN = Chinese (China)
 zh-HK = Chinese (Hong Kong)
 zh-TW = Chinese (Taiwan)
 zu = Zulu
+zza = Zaza
 
 # [/]
 
@@ -217,6 +221,7 @@ speak-now = Parla ora
 datasets = Collectiones
 languages = linguas
 about = A proposito
+partner = Partner
 profile = Profilo
 help = Auxilio
 contact = Contacto
