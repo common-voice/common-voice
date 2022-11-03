@@ -573,9 +573,13 @@ about-playbook-how-add-sentences = Як дадаць сказы?
 ## How to record quality
 
 about-playbook-how-record-content-2 = Пазбягайце занадта моцнага фонавага шуму - трэба, каб вас было лёгка пачуць.
+about-playbook-how-record-content-3 = Уважліва прачытайце сказ — не прапускайце, не змяняйце і не дадавайце слоў.
+about-playbook-how-record-content-4 = Перш чым пачаць гаварыць, упэўніцеся, што платформа запісвае гук, а таксама ўпэўніцеся, што запіс спыняецца толькі пасля таго, як вы скончыце гаварыць.
+about-playbook-how-record-content-5 = <accuracyLink>Падрабязней пра крытэрыі дакладнасці.</accuracyLink>
 
 ## How to grow language
 
+about-playbook-how-grow-language = Як эфектыўна развіваць мову на Common Voice?
 about-playbook-how-grow-language-content-2 = Падзеі
 about-playbook-how-grow-language-content-4 = Сацыяльныя медыя
 about-playbook-how-grow-language-content-6 = Партнёрства і сеткі
