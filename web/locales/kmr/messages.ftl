@@ -58,7 +58,7 @@ dsb = Sorbiya jêrîn
 dv = Divehî
 dyu = Dioula
 el = Yûnanî
-en = Înglîzî
+en = Îngilîzî
 eo = Esperantoyî
 es = Îspanyolî
 et = Estonî
@@ -366,7 +366,7 @@ status-hours =
 # Variables:
 # $goal - number of hours representing the next goal
 status-goal = Hedefa pêş: { $goal }
-english = Înglîzî
+english = Îngilîzî
 
 ## ProfileForm
 
