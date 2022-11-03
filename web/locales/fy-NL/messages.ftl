@@ -40,10 +40,12 @@ ba = Bashkyrsk
 bas = Basaa
 be = Wit-Russysk
 bg = Bulgaarsk
+bm = Bambara
 bn = Bingaalsk
 br = Bretonsk
 bs = Bosnysk
 bxr = Burjatysk
+byv = Medumba
 ca = Katalaansk
 cak = Kaqchikel
 ckb = Sintraal-Koerdysk
@@ -53,6 +55,7 @@ cs = Tsjechysk
 cv = Tsjoevasjysk
 cy = Welsk
 da = Deensk
+dag = Dagbani
 de = Dútsk
 dsb = Leger Sorbysk
 dv = Divehi
@@ -206,6 +209,7 @@ zh-CN = Sineesk (Sina)
 zh-HK = Sineesk (Hong Kong)
 zh-TW = Sineesk (Taiwan)
 zu = Zoeloe
+zza = Zazaki
 
 # [/]
 
@@ -217,6 +221,7 @@ speak-now = Sprek no
 datasets = Datasets
 languages = Talen
 about = Oer ús
+partner = Partner wurde
 profile = Profyl
 help = Help
 contact = Kontakt
@@ -1610,3 +1615,11 @@ sc-validation-no-abbreviations = Sin mei gjin ôfkoartingen befetsje
 
 localization-select =
     .label = Kies jo taal/lokalisaasje
+# PARTNERSHIPS PAGE
+partnerships-header = Partners
+partnerships-header-text = Der komt in protte sjen by Common Voice! Wy dogge it net allinnich. Wolle jo mei ús gearwurkje? Wy hearre graach fan jo.
+partnerships-get-in-touch = Kontakt opnimme
+partnerships-become-a-partner = Wur in Common Voice-partner
+partnerships-community-header = Mienskip, kreativelingen en it maatskiplike middenfjild
+partnerships-community-description = De mienskip is it klopjend hert fan Common Voice – de leden komme fan oer de hiele wrâld en binne taalaktivisten, wittenskippers en keunstners. Jo kinne mear leare oer hoe’t jo meidwaan kinne op ús side <about>Oer</about> en yn ús <community>Community Playbook</community>. As jo ynteressearre binne yn in djipper organisatoarysk partnerskip, <emailFragment>nim dan kontakt mei ús op.</emailFragment>
+partnerships-foundations-header = Stichtingen
