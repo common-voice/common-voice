@@ -32,6 +32,7 @@ export default Object.freeze({
   CHALLENGE_TERMS: '/challenge-terms',
   ABOUT: '/about',
   CRITERIA: '/criteria',
+  PARTNER: '/partner',
 
   LANGUAGES: '/languages',
   LANGUAGE_REQUEST: '/language/request',

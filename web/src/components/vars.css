@@ -20,6 +20,7 @@
     --blue: #629ff4;
     --dark-blue: #195ebf;
     --inactive-grey: #575757;
+    --anchor-text-blue: #1570ef;
 
     --gradient-pink: #f89096;
     --gradient-purple: #b1b4e5;
@@ -73,11 +74,11 @@
 }
 
 @media (prefers-reduced-motion: reduce) {
-  :root {
-    --transition-duration: 0.05s;
-    --transition-duration-slow: 0.05s;
+    :root {
+      --transition-duration: 0.05s;
+      --transition-duration-slow: 0.05s;
+    }
   }
-}
 
 .md-block {
     display: none;

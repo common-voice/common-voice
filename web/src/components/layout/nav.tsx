@@ -24,16 +24,19 @@ const LocalizedNavLink = ({ id, to }: { id: string; to: string }) => {
   );
 };
 
-export default ({ children, ...props }: { [key: string]: any }) => (
-  <nav {...props} className="nav-list">
-    <div className="nav-links">
-      <ContributableLocaleLock>
-        <LocalizedNavLink id="contribute" to={URLS.SPEAK} />
-      </ContributableLocaleLock>
-      <LocalizedNavLink id="datasets" to={URLS.DATASETS} />
-      <LocalizedNavLink id="languages" to={URLS.LANGUAGES} />
-      <LocalizedNavLink id="about" to={URLS.ABOUT} />
-    </div>
-    {children}
-  </nav>
-);
+export default function Nav({ children, ...props }: { [key: string]: any }) {
+  return (
+    <nav {...props} className="nav-list">
+      <div className="nav-links">
+        <ContributableLocaleLock>
+          <LocalizedNavLink id="contribute" to={URLS.SPEAK} />
+        </ContributableLocaleLock>
+        <LocalizedNavLink id="datasets" to={URLS.DATASETS} />
+        <LocalizedNavLink id="languages" to={URLS.LANGUAGES} />
+        <LocalizedNavLink id="partner" to={URLS.PARTNER} />
+        <LocalizedNavLink id="about" to={URLS.ABOUT} />
+      </div>
+      {children}
+    </nav>
+  );
+}
