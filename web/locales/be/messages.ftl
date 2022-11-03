@@ -160,6 +160,7 @@ sdh = Паўднёвакурдскі
 shi = Шыльхская
 si = Сінгальская
 sk = Славацкая
+skr = Сарайкі
 sl = Славенская
 so = Самалійская
 sq = Албанская
@@ -357,6 +358,9 @@ profile-form-variant =
 profile-form-variant-default-value = Не выбрана ніводнага выраянта
 profile-form-accent =
     .label = Акцэнт
+profile-form-custom-accent-help-text =
+    .label = Як бы вы апісалі свой акцэнт?
+profile-form-custom-accent-placeholder-2 = Пачніце ўводзіць тэкст, каб апісаць свой акцэнт
 profile-form-age =
     .label = Узрост
 profile-form-gender-2 =
@@ -367,6 +371,7 @@ hidden = Схаваны
 visible = Бачны
 native-language =
     .label = Родная мова
+profile-form-add-accent = Дадаць новы ўласны акцэнт "{ $inputValue }"
 profile-form-submit-save = Захаваць
 profile-form-submit-saved = Захавана
 male = Мужчына
@@ -567,6 +572,7 @@ about-playbook-how-add-sentences = Як дадаць сказы?
 
 ## How to record quality
 
+about-playbook-how-record-content-2 = Пазбягайце занадта моцнага фонавага шуму - трэба, каб вас было лёгка пачуць.
 
 ## How to grow language
 
