@@ -40,10 +40,12 @@ ba = Baschiro
 bas = Basaa
 be = Bielorusso
 bg = Bulgaro
+bm = Bambara
 bn = Bengalese
 br = Bretone
 bs = Bosniaco
 bxr = Buriato
+byv = Medumba
 ca = Catalano
 cak = Kaqchikel
 ckb = Curdo centrale
@@ -53,6 +55,7 @@ cs = Ceco
 cv = Ciuvascio
 cy = Gallese
 da = Danese
+dag = Dagbani
 de = Tedesco
 dsb = Basso sorabo
 dv = Maldiviano
@@ -206,6 +209,7 @@ zh-CN = Cinese (Cina)
 zh-HK = Cinese (Hong Kong)
 zh-TW = Cinese (Taiwan)
 zu = Zulu
+zza = Zaza
 
 # [/]
 
