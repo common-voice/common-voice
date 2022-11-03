@@ -40,10 +40,12 @@ ba = Başkurtça
 bas = Basaa
 be = Belarusça
 bg = Bulgarca
+bm = Bambara
 bn = Bengalce
 br = Bretonca
 bs = Boşnakça
 bxr = Buryatça
+byv = Medumba
 ca = Katalanca
 cak = Kakçikelce
 ckb = Soranice
@@ -53,6 +55,7 @@ cs = Çekçe
 cv = Çuvaşça
 cy = Galce
 da = Danca
+dag = Dagbani
 de = Almanca
 dsb = Aşağı Sorbca
 dv = Maldivce
@@ -206,6 +209,7 @@ zh-CN = Çince (Çin)
 zh-HK = Çince (Hong Kong)
 zh-TW = Çince (Tayvan)
 zu = Zulu
+zza = Zazaca
 
 # [/]
 
@@ -217,6 +221,7 @@ speak-now = Şimdi konuşun
 datasets = Veri kümeleri
 languages = Diller
 about = Hakkında
+partner = İş Ortaklığı
 profile = Profil
 help = Yardım
 contact = İletişim
@@ -1515,3 +1520,13 @@ sc-validation-no-abbreviations = Cümle kısaltma içermemelidir
 
 localization-select =
     .label = Dil seçin
+# PARTNERSHIPS PAGE
+partnerships-header = İş Ortaklıkları
+partnerships-get-in-touch = Bize ulaşın
+partnerships-become-a-partner = Common Voice İş Ortağı Olun
+partnerships-foundations-header = Vakıflar
+partnerships-governments-header = Devletler
+partnerships-academia-header = Üniversiteler, Akademisyenler ve Araştırmacılar
+partnerships-small-business-header = Teknoloji ve yapay zeka girişimleri de dahil olmak üzere küçük işletmeler
+partnerships-corporates-header = Büyük ölçekli şirketler ve platform şirketleri
+partnerships-our-partners = İş Ortaklarımız
