@@ -677,6 +677,10 @@
             margin: 2em 0;
             width: 60%;
             text-align: center;
+
+            a {
+                color: var(--anchor-text-blue);
+            }
         }
     }
 }

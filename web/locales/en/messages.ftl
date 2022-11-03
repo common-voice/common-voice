@@ -414,6 +414,7 @@ why-demographic = Why does this matter?
 why-demographic-explanation-2 = Anonymized user data like age, gender, and accent helps improve the audio data used to train the accuracy of speech recognition engines. Your username and email will never be associated with your submitted data, and you can choose whether to make your username public or anonymous.
 accept-privacy = I'm okay with you handling this info as you explain in Mozilla's <privacyLink>Privacy Policy</privacyLink>
 accept-privacy-title = Privacy Policy
+accept-privacy-and-terms = I agree to Common Voice's <termsLink>Terms</termsLink> and <privacyLink>Privacy Notice</privacyLink>
 login-identity = Login Identity
 login-signup = Log In / Sign Up
 edit = Edit
