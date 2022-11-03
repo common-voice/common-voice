@@ -79,7 +79,7 @@ const Partner = () => (
             height={135}
           />
           <img
-            src={require('./images/partners/collectivat.png')}
+            src={require('./images/partners/collectivat.jpg')}
             alt="Collectivat"
           />
         </div>

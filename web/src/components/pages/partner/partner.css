@@ -1,5 +1,9 @@
 .partner-main-container {
     --type-color: var(--blue);
+
+    @media (--md-down) {
+        overflow-x: hidden;
+    }
 }
 
 .partnerships-container {
@@ -132,12 +136,6 @@
     }
 }
 
-.our-partners-container img {
-    @media (--xs-down) {
-        max-height: 85px;
-    }
-}
-
 .become-a-partner-container .section-heading-text {
     font-size: 36px;
     margin-bottom: 32px;
@@ -173,6 +171,7 @@
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
         justify-items: center;
+        align-items: center;
 
         & img {
             max-width: 100%;
