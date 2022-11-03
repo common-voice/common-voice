@@ -8,6 +8,9 @@ email-input =
     .label = Imɛyi
 submit-form-action = Ka lase
 loading = A bɛ na
+email-opt-in-info = N bɛ fɛ ka imɛyi sɔrɔ walasa ka N Hakilijigin N ka laɲiniw na, N ka baraw taabolo la ani Common Voice Kunnafɔni kuraw la
+email-opt-in-info-title = Don Common Voice imɛyi listi kɔnɔ
+email-opt-in-info-sub-with-challenge = N bɛ fɛ ka imɛyi sɔrɔ walasa ka N Hakilijigin N ka laɲiniw na, N ka baraw taabolo la ani Common Voice Kunnafɔni kuraw la
 banner-error-slow-1 = Hakɛto Common Voice ka suma. I ni ce I ka danaya  kɔsɔn
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
