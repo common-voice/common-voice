@@ -39,6 +39,7 @@ ba = Башкірская
 bas = Баса
 be = Беларуская
 bg = Балгарская
+bm = Бамбара
 bn = Бенгальская
 br = Брэтонская
 bs = Баснійская
@@ -662,6 +663,7 @@ datasets-positioning =
     
     На гэтай старонцы сабраная інфармацыя пра іншыя адкрытыя наборы галасавых дадзеных, а з цягам часу тут таксама будуць публікавацца новыя, больш поўныя рэлізы Common Voice.
 language = Мова
+download-dataset-header = Спампаваць набор даных
 # File size in gigabytes
 size = Памер
 validated-hr-total = Колькасць правераных гадзін
@@ -740,6 +742,10 @@ other-language = Іншая мова
 
 ## Request Language Pages
 
+request-language-form-email =
+    .label = Ваш адрас электроннай пошты
+request-language-form-info =
+    .label = Інфармацыя пра мову
 request-language-form-info-explanation-list-1 = Назвы вашай мовы
 
 ## Languages Overview
@@ -1136,18 +1142,32 @@ sc-my-title = Мае сказы
 ## STATS
 
 sc-stats-title = Статыстыка
+sc-stats-updating = Абнаўленне…
 
 ## ADD
 
+sc-submit-err-select-lang = Калі ласка, абярыце мову.
+sc-submit-err-add-sentences = Калі ласка, дадайце сказы.
+sc-submit-err-add-source = Калі ласка, дадайце крыніцу.
+sc-submit-err-confirm-pd = Калі ласка, пацвердзіце, што гэтыя прапановы з'яўляюцца грамадскім набыткам.
+sc-submit-title = Дадаць сказы
+sc-submit-select-language =
+    .labelText = Абраць мову
+sc-submit-ph-one-per-line =
+    .placeholder = Адзін сказ на радок
 
 ## ADD LANGUAGE
 
+sc-add-lang-sec-label = Дадайце мову, да якой вы хочаце зрабіць унёсак
+sc-add-lang-sec-button = Дадаць мову
 
 ## ADD SENTENCES CONFIRMATION
 
 
 ## LANGUAGE INFO
 
+sc-lang-info-title-total = Усяго
+sc-lang-info-title-personal = Асабістая
 
 ## LOGIN
 
