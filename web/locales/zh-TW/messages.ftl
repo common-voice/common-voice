@@ -40,10 +40,12 @@ ba = 巴什噶爾語
 bas = 巴薩語
 be = 白俄羅斯語
 bg = 保加利亞語
+bm = 班巴拉語
 bn = 孟加拉語
 br = 布里多尼語
 bs = 波士尼亞語
 bxr = 布里亞特語
+byv = 梅敦巴語
 ca = 加泰隆語
 cak = 喀克奇可語
 ckb = 中庫德語
@@ -53,6 +55,7 @@ cs = 捷克語
 cv = 楚瓦什語
 cy = 威爾斯語
 da = 丹麥語
+dag = 達巴尼語
 de = 德語
 dsb = 下索布語
 dv = 馬爾地夫語
@@ -206,6 +209,7 @@ zh-CN = 華語（中國）
 zh-HK = 廣東話（香港）
 zh-TW = 華語（台灣）
 zu = 祖魯語（南非）
+zza = 扎扎語
 
 # [/]
 
@@ -217,6 +221,7 @@ speak-now = 現在說話
 datasets = 資料集
 languages = 語言
 about = 關於我們
+partner = 成為夥伴
 profile = 帳號資料
 help = 說明
 contact = 聯絡我們
@@ -1470,3 +1475,12 @@ sc-validation-no-abbreviations = 句子不應包含縮寫
 
 localization-select =
     .label = 選擇語言 / 語系
+# PARTNERSHIPS PAGE
+partnerships-header = 合作夥伴
+partnerships-get-in-touch = 聯繫我們
+partnerships-become-a-partner = 成為 Common Voice 的夥伴
+partnerships-foundations-header = 基金會
+partnerships-governments-header = 政府機關
+partnerships-small-business-header = 中小企業，包含科技與 AI 創業公司
+partnerships-corporates-header = 大型企業與平台業者
+partnerships-our-partners = 我們的夥伴
