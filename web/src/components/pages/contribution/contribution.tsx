@@ -13,22 +13,19 @@ import { User } from '../../../stores/user';
 import { Sentence } from 'common';
 import {
   trackListening,
-  trackProfile,
   trackRecording,
   getTrackClass,
 } from '../../../services/tracker';
 import URLS from '../../../urls';
-import { LocaleLink, LocaleNavLink, useLocale } from '../../locale-helpers';
-import Modal, { ModalProps } from '../../modal/modal';
+import { LocaleLink, LocaleNavLink } from '../../locale-helpers';
+import Modal from '../../modal/modal';
 import {
   ArrowLeft,
-  CheckIcon,
   KeyboardIcon,
-  ShareIcon,
   SkipIcon,
   ExternalLinkIcon,
 } from '../../ui/icons';
-import { Button, StyledLink, LinkButton, LabeledCheckbox } from '../../ui/ui';
+import { Button, StyledLink, LabeledCheckbox } from '../../ui/ui';
 import { PrimaryButton } from '../../primary-buttons/primary-buttons';
 import ShareModal from '../../share-modal/share-modal';
 import { ReportButton, ReportModal, ReportModalProps } from './report/report';
@@ -513,7 +510,16 @@ class ContributionPage extends React.Component<Props, State> {
               <form onSubmit={onSubmit} className="contribution-speak-form">
                 {this.isDone && (
                   <LabeledCheckbox
-                    label="I agree to Common Voice's Terms and Privacy Notice"
+                    label={
+                      <Localized
+                        id="accept-privacy-and-terms"
+                        elems={{
+                          termsLink: <LocaleLink to={URLS.TERMS} blank />,
+                          privacyLink: <LocaleLink to={URLS.PRIVACY} blank />,
+                        }}>
+                        <span />
+                      </Localized>
+                    }
                     required
                     onChange={handlePrivacyAgreedChange}
                     checked={privacyAgreedChecked}
