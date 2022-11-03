@@ -122,6 +122,11 @@ banner-error-slow-1 = Hakɛto Common Voice ka suma. I ni ce I ka danaya  kɔsɔn
 
 ## Contribution
 
+contribute-more =
+    { $count ->
+       *[other] I labɛnlen don ka do faara a kan wa ?
+    }
+record-cta = Kumakan taali daminɛ
 
 ## Reporting
 
