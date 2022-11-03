@@ -40,6 +40,7 @@ ba = Bashkir
 bas = Basaa
 be = Biélorusse
 bg = Bulgare
+bm = Bambara
 bn = Bengali
 br = Breton
 bs = Bosniaque
@@ -217,6 +218,7 @@ speak-now = Parler
 datasets = Jeux de données
 languages = Langues
 about = Qui sommes-nous
+partner = Devenir partenaire
 profile = Profil
 help = Aide
 contact = Nous contacter
@@ -1508,3 +1510,9 @@ sc-validation-no-abbreviations = La phrase ne doit pas contenir d’abréviation
 
 localization-select =
     .label = Choisissez la langue/la localisation
+# PARTNERSHIPS PAGE
+partnerships-header = Partenariats
+partnerships-become-a-partner = Devenir partenaire de Common Voice
+partnerships-foundations-header = Fondations
+partnerships-governments-header = Gouvernements
+partnerships-our-partners = Nos partenaires
