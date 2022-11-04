@@ -45,6 +45,7 @@ bn = Bengaliska
 br = Bretonska
 bs = Bosniska
 bxr = Buryat
+byv = Medumba
 ca = Katalanska
 cak = Cakchiquel
 ckb = Centralkurdiska
@@ -54,6 +55,7 @@ cs = Tjeckiska
 cv = Tjuvasjiska
 cy = Walesiska
 da = Danska
+dag = { "" }
 de = Tyska
 dsb = Lågsorbiska
 dv = Dhivehi
@@ -207,6 +209,7 @@ zh-CN = Kinesiska (Kina)
 zh-HK = Kinesiska (Hong Kong)
 zh-TW = Kinesiska (Taiwan)
 zu = Zulu
+zza = { "" }
 
 # [/]
 
@@ -218,6 +221,7 @@ speak-now = Prata nu
 datasets = Datamängder
 languages = Språk
 about = Om oss
+partner = Partner
 profile = Profil
 help = Hjälp
 contact = Kontakt
@@ -1538,3 +1542,13 @@ sc-validation-no-abbreviations = Meningen ska inte innehålla förkortningar
 
 localization-select =
     .label = Välj språk/lokalisering
+# PARTNERSHIPS PAGE
+partnerships-header = Partnerskap
+partnerships-header-text = Det krävs mycket för att göra Common Voice till verklighet! Vi gör det inte ensamma. Vill du jobba med oss? Vi skulle älska att höra från dig.
+partnerships-get-in-touch = Kontakta oss
+partnerships-become-a-partner = Bli en Common Voice-partner
+partnerships-foundations-header = Stiftelser
+partnerships-governments-header = Myndigheter
+partnerships-academia-header = Universitet, akademiker och forskare
+partnerships-small-business-header = Små företag, inklusive nystartade teknik- och AI-företag
+partnerships-our-partners = Våra partners
