@@ -55,6 +55,7 @@ cs = Τσέχικα
 cv = Τσουβασικά
 cy = Ουαλικά
 da = Δανικά
+dag = Νταγκμπάνι
 de = Γερμανικά
 dsb = Κάτω Σορβικά
 dv = Ντιβέχι
@@ -208,6 +209,7 @@ zh-CN = Κινέζικα (Κίνα)
 zh-HK = Κινέζικα (Χονγκ Κονγκ)
 zh-TW = Κινέζικα (Ταϊβάν)
 zu = Ζουλού
+zza = Ζαζαϊκά
 
 # [/]
 
@@ -1534,6 +1536,7 @@ localization-select =
 # PARTNERSHIPS PAGE
 partnerships-header = Συνεργασίες
 partnerships-get-in-touch = Επικοινωνία
+partnerships-foundations-header = Ιδρύματα
 partnerships-governments-header = Kυβερνήσεις
 partnerships-academia-header = Πανεπιστήμια, ακαδημαϊκοί και ερευνητές
 partnerships-our-partners = Οι συνεργάτες μας
