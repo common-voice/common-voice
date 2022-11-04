@@ -1479,6 +1479,7 @@ localization-select =
 partnerships-header = 合作夥伴
 partnerships-get-in-touch = 聯繫我們
 partnerships-become-a-partner = 成為 Common Voice 的夥伴
+partnerships-community-header = 社群、創意與公民社會
 partnerships-foundations-header = 基金會
 partnerships-governments-header = 政府機關
 partnerships-small-business-header = 中小企業，包含科技與 AI 創業公司
