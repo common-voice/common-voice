@@ -40,6 +40,7 @@ ba = Basjkiriska
 bas = Basaa
 be = Vitryska
 bg = Bulgariska
+bm = Bambara
 bn = Bengaliska
 br = Bretonska
 bs = Bosniska
