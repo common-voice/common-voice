@@ -33,6 +33,7 @@ import Success from './success';
 import Wave from './wave';
 
 import './contribution.css';
+import { FirstPostSubmissionCta } from './speak/firstPostSubmissionCTA';
 
 export const SET_COUNT = 5;
 
@@ -66,9 +67,10 @@ interface Props extends WithLocalizationProps, PropsFromState {
   isSubmitted: boolean;
   onReset: () => any;
   onSkip: () => any;
-  onSubmit?: () => any;
+  onSubmit?: (evt: React.SyntheticEvent) => any;
   onPrivacyAgreedChange?: (privacyAgreed: boolean) => void;
   privacyAgreedChecked?: boolean;
+  showFirstCTA?: boolean;
   primaryButtons: React.ReactNode;
   pills: ((props: ContributionPillProps) => React.ReactNode)[];
   sentences: Sentence[];
@@ -340,6 +342,7 @@ class ContributionPage extends React.Component<Props, State> {
       type,
       onPrivacyAgreedChange,
       privacyAgreedChecked,
+      showFirstCTA,
     } = this.props;
     const { selectedPill } = this.state;
 
@@ -366,91 +369,107 @@ class ContributionPage extends React.Component<Props, State> {
         <div className="cards-and-pills">
           <div />
 
-          <div className="cards-and-instruction">
-            {instruction({
-              vars: { actionType: getString('action-click') },
-              children: <div className="instruction hidden-sm-down" />,
-            }) || <div className="instruction hidden-sm-down" />}
+          {showFirstCTA ? (
+            <div style={{ width: '800px', height: '400px' }}></div>
+          ) : (
+            <div className="cards-and-instruction">
+              {instruction({
+                vars: { actionType: getString('action-click') },
+                children: <div className="instruction hidden-sm-down" />,
+              }) || <div className="instruction hidden-sm-down" />}
 
-            <div className="cards">
-              {sentences.map((sentence, i) => {
-                const activeSentenceIndex = this.isDone
-                  ? SET_COUNT - 1
-                  : activeIndex;
-                const isActive = i === activeSentenceIndex;
-                return (
-                  <div
-                    // don't let Chrome auto-translate
-                    // https://html.spec.whatwg.org/multipage/dom.html#the-translate-attribute
-                    translate="no"
-                    key={sentence ? sentence.text : i}
-                    className={
-                      'card card-dimensions ' + (isActive ? '' : 'inactive')
-                    }
-                    style={{
-                      transform: [
-                        `scale(${isActive ? 1 : 0.9})`,
-                        `translateX(${
-                          (document.dir == 'rtl' ? -1 : 1) *
-                          (i - activeSentenceIndex) *
-                          -130
-                        }%)`,
-                      ].join(' '),
-                      opacity: i < activeSentenceIndex ? 0 : 1,
-                    }}>
-                    <div style={{ margin: 'auto', width: '100%' }}>
-                      {sentence?.text}
-                      {sentence?.taxonomy ? (
-                        <div className="sentence-taxonomy">
-                          <Localized id="target-segment-generic-card">
-                            <span className="taxonomy-message" />
-                          </Localized>
-                          <StyledLink
-                            className="taxonomy-link"
-                            blank
-                            href={`${URLS.GITHUB_ROOT}/blob/main/docs/taxonomies/${sentence.taxonomy.source}.md`}>
-                            <ExternalLinkIcon />
-                            <Localized id="target-segment-learn-more">
-                              <span />
+              <div className="cards">
+                {sentences.map((sentence, i) => {
+                  const activeSentenceIndex = this.isDone
+                    ? SET_COUNT - 1
+                    : activeIndex;
+                  const isActive = i === activeSentenceIndex;
+                  return (
+                    <div
+                      // don't let Chrome auto-translate
+                      // https://html.spec.whatwg.org/multipage/dom.html#the-translate-attribute
+                      translate="no"
+                      key={sentence ? sentence.text : i}
+                      className={
+                        'card card-dimensions ' + (isActive ? '' : 'inactive')
+                      }
+                      style={{
+                        transform: [
+                          `scale(${isActive ? 1 : 0.9})`,
+                          `translateX(${
+                            (document.dir == 'rtl' ? -1 : 1) *
+                            (i - activeSentenceIndex) *
+                            -130
+                          }%)`,
+                        ].join(' '),
+                        opacity: i < activeSentenceIndex ? 0 : 1,
+                      }}>
+                      <div style={{ margin: 'auto', width: '100%' }}>
+                        {sentence?.text}
+                        {sentence?.taxonomy ? (
+                          <div className="sentence-taxonomy">
+                            <Localized id="target-segment-generic-card">
+                              <span className="taxonomy-message" />
                             </Localized>
-                          </StyledLink>
-                        </div>
-                      ) : null}
+                            <StyledLink
+                              className="taxonomy-link"
+                              blank
+                              href={`${URLS.GITHUB_ROOT}/blob/main/docs/taxonomies/${sentence.taxonomy.source}.md`}>
+                              <ExternalLinkIcon />
+                              <Localized id="target-segment-learn-more">
+                                <span />
+                              </Localized>
+                            </StyledLink>
+                          </div>
+                        ) : null}
+                      </div>
                     </div>
-                  </div>
-                );
-              })}
+                  );
+                })}
+              </div>
             </div>
-          </div>
+          )}
 
-          <div className="pills">
-            <div className="inner">
-              {this.isDone && (
-                <div className="review-instructions">
-                  <Localized id="review-instruction">
-                    <span />
-                  </Localized>
-                </div>
-              )}
-              {pills.map((pill, i) =>
-                pill({
-                  isOpen: this.isDone || selectedPill === i,
-                  key: i,
-                  num: i + 1,
-                  onClick: () => this.selectPill(i),
-                  onShare: this.toggleShareModal,
-                  style:
-                    selectedPill !== null &&
-                    Math.abs(
-                      Math.min(Math.max(selectedPill, 1), pills.length - 2) - i
-                    ) > 1
-                      ? { display: 'none' }
-                      : {},
-                })
-              )}
+          {showFirstCTA ? (
+            <div
+              style={{
+                height: '400px',
+                width: '400px',
+              }}
+            />
+          ) : (
+            <div className="pills">
+              <div className="inner">
+                {this.isDone && (
+                  <div className="review-instructions">
+                    <Localized id="review-instruction">
+                      <span />
+                    </Localized>
+                  </div>
+                )}
+                {pills.map((pill, i) =>
+                  pill({
+                    isOpen: this.isDone || selectedPill === i,
+                    key: i,
+                    num: i + 1,
+                    onClick: () => this.selectPill(i),
+                    onShare: this.toggleShareModal,
+                    style:
+                      selectedPill !== null &&
+                      Math.abs(
+                        Math.min(Math.max(selectedPill, 1), pills.length - 2) -
+                          i
+                      ) > 1
+                        ? { display: 'none' }
+                        : {},
+                  })
+                )}
+              </div>
             </div>
-          </div>
+          )}
         </div>
+
+        {showFirstCTA && <FirstPostSubmissionCta />}
 
         {instruction({
           vars: { actionType: getString('action-tap') },
@@ -506,7 +525,7 @@ class ContributionPage extends React.Component<Props, State> {
               </Localized>{' '}
               <SkipIcon />
             </Button>
-            {onSubmit && (
+            {onSubmit && !showFirstCTA && (
               <form onSubmit={onSubmit} className="contribution-speak-form">
                 {this.isDone && (
                   <LabeledCheckbox
