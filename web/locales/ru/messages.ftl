@@ -209,6 +209,7 @@ zh-CN = Китайский (Китай)
 zh-HK = Китайский (Гонконг)
 zh-TW = Китайский (Тайвань)
 zu = Зулу
+zza = Зазаки
 
 # [/]
 
@@ -220,6 +221,7 @@ speak-now = Начать запись
 datasets = Наборы данных
 languages = Языки
 about = О нас
+partner = Партнер
 profile = Профиль
 help = Справка
 contact = Контакты
@@ -1565,3 +1567,8 @@ sc-validation-no-abbreviations = В предложении не должно б�
 
 localization-select =
     .label = Выберите язык/локализацию
+# PARTNERSHIPS PAGE
+partnerships-header = Партнерства
+partnerships-foundations-header = Фонды
+partnerships-governments-header = Правительства
+partnerships-our-partners = Наши партнеры
