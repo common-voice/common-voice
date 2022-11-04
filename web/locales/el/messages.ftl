@@ -40,10 +40,12 @@ ba = Μπασκίρ
 bas = Μπασάα
 be = Λευκορωσικά
 bg = Βουλγαρικά
+bm = Μπαμπάρα
 bn = Μπενγκάλι
 br = Βρετονικά
 bs = Βοσνιακά
 bxr = Μπουργιάτ
+byv = Μεντούμπα
 ca = Καταλανικά
 cak = Κακτσικέλ
 ckb = Κεντρικά Κουρδικά
@@ -1529,3 +1531,9 @@ sc-validation-no-abbreviations = Η πρόταση δεν πρέπει να πε
 
 localization-select =
     .label = Επιλογή γλώσσας/μετάφρασης
+# PARTNERSHIPS PAGE
+partnerships-header = Συνεργασίες
+partnerships-get-in-touch = Επικοινωνία
+partnerships-governments-header = Kυβερνήσεις
+partnerships-academia-header = Πανεπιστήμια, ακαδημαϊκοί και ερευνητές
+partnerships-our-partners = Οι συνεργάτες μας
