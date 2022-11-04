@@ -40,10 +40,12 @@ ba = Baskír
 bas = Basza
 be = Belorusz
 bg = Bolgár
+bm = Bambara
 bn = Bengáli
 br = Breton
 bs = Bosnyák
 bxr = Burját
+byv = Medumba
 ca = Katalán
 cak = Kacsikel
 ckb = Közép-kurd
@@ -53,6 +55,7 @@ cs = Cseh
 cv = Csuvas
 cy = Walesi
 da = Dán
+dag = Dagbani
 de = Német
 dsb = Szorb, alsó
 dv = Divehi
@@ -206,6 +209,7 @@ zh-CN = Kínai (Kína)
 zh-HK = Kínai (Hong Kong)
 zh-TW = Kínai (Tajvan)
 zu = Zulu
+zza = Zaza
 
 # [/]
 
@@ -217,6 +221,7 @@ speak-now = Most beszéljen
 datasets = Adatkészletek
 languages = Nyelvek
 about = Rólunk
+partner = Partner
 profile = Profil
 help = Súgó
 contact = Kapcsolat
@@ -1540,3 +1545,5 @@ sc-validation-no-abbreviations = A mondat nem tartalmazhat rövidítéseket
 
 localization-select =
     .label = Válasszon nyelvet/honosítást
+# PARTNERSHIPS PAGE
+partnerships-header = Partnerkapcsolatok
