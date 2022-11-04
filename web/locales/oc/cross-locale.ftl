@@ -1,6 +1,6 @@
 ## Languages
 
-contribute = Contribuir
+contribute = Contribuïr
 get-involved-button = Participatz
 get-involved-title = Contribuir en { $lang }
 get-involved-text =
