@@ -1557,3 +1557,7 @@ partnerships-foundations-description = Alapítványokkal, civil szervezetekkel �
 partnerships-governments-header = Kormányzatok
 partnerships-governments-description = Izgatottan várjuk a közszféra technológiai, innovációs és nyelvi jogok terén való részvételét. Ha nagyobb projektet vagy kampányt tervez, <emailFragment>vegye fel velünk a kapcsolatot</emailFragment>.
 partnerships-academia-header = Egyetemek, tudósok és kutatók
+partnerships-academia-description = A nyitott innováció áll tevékenységünk középpontjában. Kutatási együttműködések, adatgyűjtés vagy interjúk esetén <emailFragment>vegye fel velünk a kapcsolatot</emailFragment>.
+partnerships-small-business-header = Kisvállalkozások, beleértve a technológiai és mesterséges intelligenciára épülő induló vállalkozásokat
+partnerships-corporates-header = Nagyvállalatok és platform cégek
+partnerships-our-partners = Partnereink
