@@ -14,6 +14,7 @@ email-opt-in-info-sub-with-challenge = Атрымлівайце лісты, та
 email-opt-in-privacy-v2 = Пагадзіўшыся атрымліваць лісты, вы заяўляеце, што згодны з апрацоўкай гэтай інфармацыі Mozilla так, як акрэслена ў <privacyLink>Палітыцы прыватнасці<privacyLink> Mozilla.
 indicates-required = * Палі, абавязковыя да запаўнення
 not-available-abbreviation = Н/Д
+banner-error-slow-1 = На жаль, Common Voice працуе павольна. Дзякуй за вашу цікавасць.
 banner-error-slow-2 = Наш сэрвіс перагружаны вэб-трафікам. Мы расследуем гэтае пытанне.
 banner-error-slow-link = Старонка стану
 error-something-went-wrong = На жаль, нешта пайшло не так
