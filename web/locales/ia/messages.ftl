@@ -1541,3 +1541,5 @@ sc-validation-no-abbreviations = Phrase non debe continer abbreviationes
 
 localization-select =
     .label = Eliger lingua/localisation
+partnerships-foundations-header = Fundationes
+partnerships-governments-header = Governamentos
