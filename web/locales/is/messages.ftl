@@ -40,10 +40,12 @@ ba = Baskírska
 bas = Bassa
 be = Hvítrússneska
 bg = Búlgarska
+bm = Bambaríska
 bn = Bengalska
 br = Bretónska
 bs = Bosníska
 bxr = Búrjatíska
+byv = Medumba
 ca = Katalónska
 cak = Kaqchikel
 ckb = Mið-kúrdíska
@@ -53,6 +55,7 @@ cs = Tékkneska
 cv = Tjúvasíska
 cy = Velska
 da = Danska
+dag = Dagbani
 de = Þýska
 dsb = Lágsorbíska
 dv = Dívehí
@@ -206,6 +209,7 @@ zh-CN = Kínverska (Kína)
 zh-HK = Kínverska (Hong Kong)
 zh-TW = Kínverska (Taívan)
 zu = Súlú
+zza = Zaza
 
 # [/]
 
@@ -217,6 +221,7 @@ speak-now = Talaðu núna
 datasets = Gagnasöfn
 languages = Tungumál
 about = Um okkur
+partner = Samstarfsaðili
 profile = Notkunarsnið
 help = Hjálp
 contact = Hafa samband
@@ -1532,3 +1537,12 @@ sc-validation-no-abbreviations = Setning ætti ekki að innihalda skammstafanir
 
 localization-select =
     .label = Veldu tungumál/staðfærslu
+# PARTNERSHIPS PAGE
+partnerships-header = Samstarf
+partnerships-get-in-touch = Vertu í sambandi
+partnerships-become-a-partner = Vertu samstarfsaðili Common Voice
+partnerships-foundations-header = Stofnanir
+partnerships-governments-header = Ríkisstjórnir
+partnerships-academia-header = Háskólar, fræðimenn og vísindamenn
+partnerships-small-business-header = Lítil fyrirtæki, þar með talin sprotafyrirtæki í tækni- og gervigreindargeirum
+partnerships-our-partners = Samstarfsaðilar okkar
