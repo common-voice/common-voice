@@ -612,8 +612,10 @@ about-playbook-how-access-dataset = Як атрымаць доступ і вык
 
 about-playbook-how-project-governance = Як прымаюцца праектныя рашэнні?
 about-playbook-how-project-governance-content-3 = Канфідэнцыяльнасць, бяспека і празрыстасць.
+about-playbook-how-project-governance-content-4 = Удзел супольнасці і прыняцце рашэнняў.
 about-playbook-how-project-governance-content-5 = Каштоўнасць і прызнанне.
 about-playbook-how-project-governance-content-6 = Узаемная адказнасць.
+about-playbook-how-project-governance-content-7 = <governanceLink>Даведайцеся больш пра тое, як у нас арганізавана кіраванне</governanceLink>
 
 ## Glossary
 
@@ -760,14 +762,18 @@ other-language = Іншая мова
 
 ## Request Language Pages
 
+request-language-heading = Папрасіць дадаць новую мову
 request-language-form-email =
     .label = Ваш адрас электроннай пошты
 request-language-form-info =
     .label = Інфармацыя пра мову
 request-language-form-info-explanation-list-1 = Назвы вашай мовы
 request-language-form-info-explanation-list-2 = <isoCodeLink>ISO-коды</isoCodeLink>, калі вядомыя
+request-language-form-info-explanation-list-3 = Спасылкі на вэб-сайты, якія могуць дапамагчы нам зразумець мову
 request-language-google-recaptcha-required = Патрабуецца reCAPTCHA, калі вы хочаце працягнуць
 request-language-google-recaptcha-error = Нешта пайшло не так з reCAPTCHA. Калі ласка, паспрабуйце зноў пазней.
+# Success page
+request-language-success-heading = Дзякуй! Вы адправілі запыт на новую мову
 
 ## Languages Overview
 
