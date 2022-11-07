@@ -1541,5 +1541,16 @@ sc-validation-no-abbreviations = Phrase non debe continer abbreviationes
 
 localization-select =
     .label = Eliger lingua/localisation
+# PARTNERSHIPS PAGE
+partnerships-header = Coparticipationes
+partnerships-header-text = Require multo realisar Common Voice! Nos non lo face sol. Vole tu participar con nos? Nos amarea audir te.
+partnerships-get-in-touch = Tene te in contacto
+partnerships-become-a-partner = Deveni un partner de Common Voice
+partnerships-community-header = Communitate, creativitate e societate civil
+partnerships-community-description = Le communitate es le corde battente de Common Voice, illes veni de tote le mundo: activistas de linguas,  scientistas e artistas. Tu pote saper plus re como contribuer sur nostre pagina <about>A proposito</about> e in nostre <community>Libro del jocos del communitate</community>. Si tu es interessate in un coparticipation organisational plus profunde, <emailFragment>tener te in contacto.</emailFragment>
 partnerships-foundations-header = Fundationes
 partnerships-governments-header = Governamentos
+partnerships-governments-description = Nos es exaltante a supportar collaboration con le sector public in technologia, innovation e derectos linguistic. Si tu plana exequer un projecto o campania major,  <emailFragment>tene te in contacto.</emailFragment>
+partnerships-academia-header = Universitates, academicos e recercatores
+partnerships-academia-description = Le innovation aperte es al corde de lo que nos face. Pro collaborationes de recerca, collection de datos o intervistas, <emailFragment>contacta nos.</emailFragment>
+partnerships-small-business-header = Parve negotios, includite start ups technologic e de intelligentia
