@@ -1518,4 +1518,5 @@ partnerships-header = Partenariats
 partnerships-become-a-partner = Devenir partenaire de Common Voice
 partnerships-foundations-header = Fondations
 partnerships-governments-header = Gouvernements
+partnerships-corporates-header = Grandes entreprises et plateformes
 partnerships-our-partners = Nos partenaires
