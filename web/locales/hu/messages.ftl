@@ -1559,5 +1559,7 @@ partnerships-governments-description = Izgatottan várjuk a közszféra technol�
 partnerships-academia-header = Egyetemek, tudósok és kutatók
 partnerships-academia-description = A nyitott innováció áll tevékenységünk középpontjában. Kutatási együttműködések, adatgyűjtés vagy interjúk esetén <emailFragment>vegye fel velünk a kapcsolatot</emailFragment>.
 partnerships-small-business-header = Kisvállalkozások, beleértve a technológiai és mesterséges intelligenciára épülő induló vállalkozásokat
+partnerships-small-business-description = Mindig szeretnénk hallani az adatfogyasztók igényeiről és kontextusáról – az adatgyűjtési platformon való együttműködéstől kezdve az adatok egészségi állapotának megismeréséig, szeretnénk  <emailFragment>meghallgatni Önt</emailFragment>.
 partnerships-corporates-header = Nagyvállalatok és platform cégek
+partnerships-corporates-description = Ha többet szeretne beszélni az adatkészletről, szeretne közösen befektetni a tervezett platformbővítésekbe, vagy együttműködési lehetőségeket keres, <emailFragment>írjon nekünk</emailFragment>.
 partnerships-our-partners = Partnereink
