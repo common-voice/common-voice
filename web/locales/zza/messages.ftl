@@ -831,8 +831,9 @@ contribution-criteria-nav = Krîterî
 contribution-for-example = nimûne
 contribution-misreadings-title = Wendişê şaşî
 contribution-misreadings-description = Gama ke goşdar kenî/a, bi baldarî kontrol bike tirêm çîyo ke ame qeydkerdene û çîyo ke ame nuştene, yewbînan gênê yan ney. Eke tede şaşîyê qijî kî est bê, betal bike. <br />Tayê şaşîyê ke zaf yenê kerdene, nê yê:
+contribution-misreadings-description-extended-list-1 = Çekuya ke metn de çin a, <strong>îlawekerdiş<strong> yan zî çekuya ke est a, <strong>nêwendiş</strong>.
 contribution-misreadings-description-extended-list-2 = Nêwendişê peynîya çekuyan, sey <strong>î</strong> yan zî <strong>îzafe</strong>.
-contribution-misreadings-description-extended-list-3 = Bi yewna telefuz wendiş û wina çekuyan rê yewna mana dayîş.
+contribution-misreadings-description-extended-list-3 = Bi telefuzê dewa xo wendiş. Mavajîme, herinda "nan"î de "non" vatiş.
 contribution-misreadings-description-extended-list-4 = Lez qeydkerdiş û wina peynîya çekuya peyêne tam nêwendiş.
 contribution-misreadings-description-extended-list-5 = Yew çekuye çend reyî tekrarkerdiş.
 contribution-misreadings-example-1-title = Daristan de heywanê girsî est ê.
@@ -842,12 +843,15 @@ contribution-misreadings-example-3-title = Daristan de heywanê girsî est-.
 contribution-misreadings-example-3-explanation = [Verê ke çekuya peyêne wanîyaya, qeyd birîya]
 contribution-misreadings-example-4-title = Daristan de heywanê girsî est ê. Heya.
 contribution-misreadings-example-4-explanation = [Çekuyê ke zereyê metnî de nîyê, ameyî qeydkerdene]
+contribution-misreadings-example-5-title = Ma keye de nan wenîme.
 contribution-varying-pronunciations-title = Sewbîna Telefuz
 contribution-background-noise-title = Hermeleyê peyzemînî
 contribution-background-noise-example-2-explanation = [Qisimê metnî nêhesnîyeno]
 contribution-background-voices-title = Vengê peyzemînî
 contribution-volume-title = Berzîya Vengî
 contribution-just-unsure-title = Emîn nîyî/nîya?
+see-more = <chevron></chevron>Hîna zaf binawne
+see-less = <chevron></chevron>Kêmî binawne
 
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
