@@ -795,10 +795,13 @@ download-size = Girsîye
 download-selected = Weçînite
 download-request-button = Bîya war
 download-request-refresh-button = Newe bike
+download-request-modal-title = Lînkê Warardişî
+download-request-link-text = Zîp: { $total } ra { $offset }
 download-request-metadata-link = Metnê cumle
 
 ## Landing
 
+welcome-staff = Şima xeyrî ameyî ekîpa { $company }!
 
 ## DemoLayout
 
@@ -817,6 +820,7 @@ demo-account = Hesab
 
 ## Demo Contribute
 
+demo-listen-subtitle = Ti hazir î/a ke beşdar bibê?
 
 ## Demo Dashboard
 
@@ -826,6 +830,12 @@ demo-account = Hesab
 contribution-criteria-nav = Krîterî
 contribution-for-example = nimûne
 contribution-misreadings-title = Wendişê şaşî
+contribution-misreadings-description = Gama ke goşdar kenî/a, bi baldarî kontrol bike tirêm çîyo ke ame qeydkerdene û çîyo ke ame nuştene, yewbînan gênê yan ney. Eke tede şaşîyê qijî kî est bê, betal bike. <br />Tayê şaşîyê ke zaf yenê kerdene, nê yê:
+contribution-misreadings-description-extended-list-3 = Bi yewna telefuz wendiş û wina çekuyan rê yewna mana dayîş.
+contribution-varying-pronunciations-title = Sewbîna Telefuz
+contribution-background-noise-title = Hermeleyê peyzemînî
+contribution-background-noise-example-2-explanation = [Qisimê metnî nêhesnîyeno]
+contribution-background-voices-title = Vengê peyzemînî
 contribution-volume-title = Berzîya Vengî
 contribution-just-unsure-title = Emîn nîyî/nîya?
 
