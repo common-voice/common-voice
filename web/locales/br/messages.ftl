@@ -79,6 +79,7 @@ gom = Goan Konkani
 ha = Haousaeg
 he = Hebraeg
 hi = Hindeg
+hil = Hiligaynoneg
 hr = Kroateg
 hsb = Uhel-Sorabeg
 ht = Haitieg
@@ -102,6 +103,7 @@ ki = Kikuyu
 kk = Kazakheg
 km = Khmer
 kmr = Kurdeg Kurmanji
+kn = Kannadeg
 knn = Konkani (devanagari)
 ko = Koreaneg
 kpv = Komieg-zirieg
@@ -110,6 +112,8 @@ ky = Kirgizeg
 lb = Luksembourgeg
 lg = Gandaeg
 lij = Ligureg
+ln = Lingalaeg
+lo = Laoseg
 lt = Lituaneg
 lv = Latveg
 mai = Maitilieg
@@ -156,11 +160,13 @@ sah = Yakouteg
 sat = Santali (Ol Chiki)
 sc = Sardinieg
 scn = Sikilianeg
+sdh = Kurdeg ar Su
 shi = Tacheliteg
 si = Sinhaleg
 sk = Slovakeg
 skr = Saraiki
 sl = Sloveneg
+snk = Sininkeeg
 so = Somalieg
 sq = Albaneg
 sr = Serbeg
@@ -198,10 +204,12 @@ xh = Xhosaeg
 yi = Yiddish
 yo = Yoroubeg
 yue = Kantoneg
+zgh = Tamazighteg
 zh-CN = Sinaeg (Sina)
 zh-HK = Sinaeg (Hong Kong)
 zh-TW = Sinaeg (Taiwan)
 zu = Zouloueg
+zza = Zazaeg
 
 # [/]
 
@@ -213,6 +221,7 @@ speak-now = Komz bremañ
 datasets = Spletadoù roadennoù
 languages = Yezhoù
 about = A-zivout
+partner = Dont da vezañ keveler
 profile = Profil
 help = Skoazell
 contact = Darempred
@@ -754,6 +763,7 @@ language-search-input =
 language-speakers = Komzerien
 localized = Lec’helaet
 sentences = Frazennoù
+language-validation-hours = Eurvezhioù
 
 ## Contribution
 
@@ -1072,6 +1082,23 @@ see-less = <chevron></chevron>Gwelet nebeutoc’h
 
 ## HEADER/FOOTER
 
+sc-header-home = Degemer
+sc-header-how-to = Penaos ober
+sc-header-add = Ouzhpennañ
+sc-header-review = Gwiriañ
+sc-header-rejected = Frazennoù nac'het
+sc-header-my = Ma frazennoù
+sc-header-statistics = Stadegoù
+sc-header-profile = Profil
+sc-footer-discourse = Discourse
+sc-footer-report-bugs = Danevellañ kudennoù
+sc-footer-translate = Treiñ ar bajenn-mañ
+sc-footer-report-copyright = Danevelliñ kudennoù copyright
+sc-footer-privacy = Buhez prevez
+sc-footer-terms = Termenoù
+sc-footer-cookies = Toupinoù
+sc-login-signup-button = Kevreañ / Lakaat e anv
+sc-logout-button = Digevreañ
 
 ## HOME
 
@@ -1090,6 +1117,8 @@ see-less = <chevron></chevron>Gwelet nebeutoc’h
 
 ## STATS
 
+sc-stats-title = Stadegoù
+sc-stats-updating = Oc'h hizivaat…
 
 ## ADD
 
@@ -1102,21 +1131,37 @@ see-less = <chevron></chevron>Gwelet nebeutoc’h
 
 ## LANGUAGE INFO
 
+sc-lang-info-title-total = Hollad
+sc-lang-info-title-personal = Personel
 
 ## LOGIN
 
 
 ## PROFILE
 
+sc-personal-your-languages = Ho yezhoù:
+sc-personal-remove-button = dilemel
 
 ## REVIEW CRITERIA
 
 
 ## REVIEW
 
+sc-review-form-button-reject = Nac'hañ
+sc-review-form-button-skip = Tremen
+sc-review-form-button-approve = Aprouiñ
+# Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
+sc-review-form-button-approve-shortcut = Y
+# Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
+sc-review-form-button-reject-shortcut = K
+# Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
+sc-review-form-button-skip-shortcut = T
+sc-review-link = Gwiriañ
 
 ## SETTINGS
 
+sc-settings-title = Arventennoù
 
 # [/SentenceCollector]
 
+partnerships-our-partners = Hor c'hevelerien
