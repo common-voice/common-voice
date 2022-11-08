@@ -221,7 +221,7 @@ speak-now = Nika qisey ke
 datasets = Komdayeyî
 languages = Ziwanî
 about = Derheq de
-partner = Hemkar
+partner = Hempar
 profile = Profîl
 help = Hetkarî
 contact = Têkilî
@@ -513,7 +513,7 @@ about-stay-in-touch = Ez senî eşkena têkilîye de bimanî?
 about-stay-in-touch-button = Qeyd bibe
 about-nav-why-common-voice = Çira?
 about-nav-how-it-works = Senî?
-about-nav-partners = Hemkarî
+about-nav-partners = Hemparî
 about-nav-get-involved = Beşdar be
 about-nav-how-it-works-2 = Common Voice senî gureyeno?
 about-nav-playbook = Beşdarîye senî bena?
@@ -550,7 +550,7 @@ about-playbook-how-add-sentences-content-2 = Seba ke cumleyî îlaweyê Common V
 
 about-playbook-how-grow-language-content-2 = Aktîvîteyî
 about-playbook-how-grow-language-content-4 = Medyaya sosyale
-about-playbook-how-grow-language-content-6 = Hemkarî û torrî
+about-playbook-how-grow-language-content-6 = Hemparî û torrî
 about-playbook-how-grow-language-content-7 = Kesê ke na babete de eleqedar benê, înan bivîne. Ha unîversîte bo, ha mektebê ziwanî bo, ha grûbêka eleqedare yan zî komelêkê zanyarî bo. Birese înan û bi teferuat îzah bike ke çira û senî eşkenê hetkarî bikerê. <outreachTemplates>Seba têkilîronayîşî, tîya nimûneyê ma yê e-maîlî est ê</outreachTemplates>.
 about-playbook-how-grow-language-content-8 = <strong>Viraştox be!</strong> Komelê ziwanê to do bêemsal bo û nê tena tayê rayîrê destpêkerdişî yê.
 
@@ -894,6 +894,9 @@ sc-header-my = Cumleyê Mi
 sc-header-statistics = Statîstîkî
 sc-header-profile = Profîl
 sc-footer-discourse = Discourse
+sc-footer-report-bugs = Xeta Rapor Bike
+sc-footer-translate = Nê rîpelî biçarne
+sc-footer-report-copyright = Meseleyê heqê telîfî rapor bike
 sc-footer-privacy = Nimiteyîye
 sc-footer-terms = Şert û merc
 sc-footer-cookies = Kukî
@@ -902,6 +905,9 @@ sc-logout-button = Vejîye
 
 ## HOME
 
+sc-home-title = Şima xeyr ameyî Arêdayoxê Cumleyan ê Common Voice
+sc-home-collect-title = Cumleyan arê bide
+sc-home-collect-text = Hetê ma bike û cumleyan yan binuse yan zî arê bide.
 
 ## GENERAL
 
@@ -909,6 +915,8 @@ sc-logout-button = Vejîye
 ## HOW-TO
 
 sc-howto-title = Senî beno
+sc-howto-cite-title = Senî neql bibo?
+sc-howto-review-title = Çim biçarne cumleyan
 
 ## MY SENTENCES
 
@@ -923,9 +931,11 @@ sc-my-source = Çime: { $source }
 ## STATS
 
 sc-stats-title = Statîstîkî
+sc-stats-updating = Rojane beno...
 
 ## ADD
 
+sc-submit-title = Cumleyan îlawe bike
 sc-submit-select-language =
     .labelText = Ziwan weçîne
 sc-submit-button =
@@ -975,3 +985,15 @@ sc-settings-ui-language = Ziwanê Serrî
 
 localization-select =
     .label = Ziwan/Çarnayîş weçîne
+# PARTNERSHIPS PAGE
+partnerships-header = Hemparî
+partnerships-header-text = Karê caardişê Common Voice karêko giran o! Ma tena nêkenîme. Ti wazenî/a bibê hemparê ma? Ti ke ma de bikewê têkilîye, ma benîme keyfweş.
+partnerships-get-in-touch = Bikewe têkilîye
+partnerships-become-a-partner = Bibe hemparê Common Voice
+partnerships-community-header = Cemat, Viraştoxî û Komelo Sîvîl
+partnerships-foundations-header = Weqfî
+partnerships-governments-header = Dewletî
+partnerships-academia-header = Unîversîte, Akademîsyen û Cigêrayoxî
+partnerships-small-business-header = Şîrketê qijkekî, yê zîrekîya viraştîye û teknolojî zî tede
+partnerships-corporates-header = Şîrketê girsî û şîrketê platformî
+partnerships-our-partners = Hemkarê Ma
