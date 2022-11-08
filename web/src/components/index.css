@@ -65,7 +65,7 @@ body,
 #main {
     &.nav-modal-active {
         @media (--md-down) {
-            overflow-y: auto;
+            overflow-y: hidden;
         }
     }
 }
