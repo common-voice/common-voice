@@ -568,10 +568,13 @@ about-playbook-how-grow-language-content-8 = <strong>Viraştox be!</strong> Kome
 glossary = Ferhengek
 localization = Çarnayîş
 sentence-collection = Arêdayîşê Cumleyan
+sst = Qiseykerdiş ra bi nuştiş (STT)
+sst-explanation = Teknolojîyê Qiseykerdiş ra bi Nuştiş (STT) dayeyanê vengî çarnenê nuşte ser.
 de-identified = Anonîmkerde
 
 ## Error pages
 
+error-title-404 = Ma no rîpel nêdî
 error-code = Xeta { $code }
 
 ## Data
@@ -591,7 +594,9 @@ license = Lîsans: <licenseLink>{ $license }</licenseLink>
 license-mixed = Têmîyan
 terms-agree = Ez qebul kena
 terms-disagree = Ez qebul nêkena
+review-aborted = Barkerdiş betal bî. Ti wazenî/a qeydanê xo biestirê?
 review-submit-title = Çim Biçarne & Birusne
+review-submit-msg = Seba qeydkerdişî, ti weş be!<lineBreak></lineBreak>Nika çim biçarne qeydanê xo û birusne.
 review-recording = Çim Biçarne
 review-rerecord = Reyna qeyd bike
 review-cancel = Rusnayîşî betal bike
@@ -613,6 +618,7 @@ size-gigabyte = GB
 size-megabyte = MB
 download-language = { $language } bîya war
 subscribe = Abone be
+go-languages-page = Şo rîpelê ziwanan
 more = Hîna zaf
 close = Pade
 download = Bîya war
@@ -623,6 +629,7 @@ dataset-version = Versîyon
 download-form-email =
     .label = E-maîlê xo binuse
     .value = Weş be, ma to xeberdar kenîme.
+download-back = Agêre Komdayeyanê Common Voice
 download-no = Ney, sipas
 
 ## Contact Modal
@@ -644,6 +651,7 @@ other-language = Ziwanêko bîn
 
 ## Request Language Pages
 
+request-language-heading = Derheqê ziwanêkê neweyî de biperse
 request-language-form-email =
     .label = Adresa to ya e-maîlî
 request-language-form-info =
@@ -652,7 +660,10 @@ request-language-form-info-explanation-list-1 = Nameyê ziwanê to
 
 ## Languages Overview
 
-language-section-in-progress = Dewam beno
+language-section-in-progress = Hawo Virazîyenê
+language-section-in-progress-new-description = Nê ziwanî no dem hetê komelî ra yenê averberdene. Seba weşanayîşî, <localizationGlossaryLink>çarnayîşê keyepelî</localizationGlossaryLink> û <sentenceCollectionGlossaryLink>arêdayîşê cumleyan</sentenceCollectionGlossaryLink> lazim ê.
+language-section-launched = Weşanîyayî
+language-section-launched-description = Nê ziwananê weşanîyayeyan de keyepel bi hawayêko serkewte <localizationGlossaryLink>çarnîyayo</localizationGlossaryLink> û bes cumleyî <sentenceCollectionGlossaryLink>arê dîyayê</sentenceCollectionGlossaryLink> ke beşdarî dewam ra bieşkê <speakLink>qisey bikerê</speakLink> û <listenLink>goşdarî bikerê</listenLink>.
 languages-show-more = Hîna Zaf Bivîne
 languages-show-less = Kêmî Bivîne
 language-meter-in-progress = Averşîyayîş
@@ -678,6 +689,7 @@ clips-with-count-pluralized =
        *[other] <bold>{ $count }</bold> qeydê vengî
     }
 record-cta = Dest bi qeydî bike
+record-must-allow-microphone = Ganî ti destûr bidê mîkrofonî.
 record-no-mic-found = Mîkrofon nêame dîyene.
 record-error-too-short = Qeydê to zêde kilm bî.
 record-error-too-long = Qeydê to zêde derg bî.
@@ -689,7 +701,9 @@ record-again-instruction2 = Wina dewam bike, reyna qeyd bike <recordIcon></recor
 record-last-instruction = <recordIcon></recordIcon> No peyên o!
 share-clip = Qeydê xo pare bike
 share-common-voice = Common Voice pare bike
+speak-empty-state-cta = Cumleyan îlawe bike
 record-button-label = Vengê xo qeyd bike
+target-segment-add-voice = Vengê xo îlawe bike
 target-segment-learn-more = Hîna Zaf Melumat
 
 ## Reporting
@@ -746,11 +760,16 @@ total-approved = Pêro Tedîqkerdeyî
 
 ## Custom Goals
 
+create-custom-goal = Hedefo taybetî viraze
 both-speak-and-listen = Her di
+both-speak-and-listen-long = Her di (qisey ke û goşdarî ke)
+daily-goal = Hedefo Rojane
+weekly-goal = Hedefê Hewteyî
 easy-difficulty = Asan
 average-difficulty = Mîyanên
 difficult-difficulty = Zor
 pro-difficulty = Profesyonel
+set-a-goal = Xo rê hedefêk rone
 cant-decide = Nêeşkenî/a qerar bidê?
 n-clips-pluralized =
     { NUMBER($count) ->
@@ -759,6 +778,7 @@ n-clips-pluralized =
 share-goal-type-speak = Qiseykerdiş
 share-goal-type-listen = Goşdarkerdiş
 share-goal-type-both = Qiseykerdiş û Goşdarkerdiş
+share-goal = Hedefê mi pare bike
 
 ## Profile Delete
 
@@ -770,6 +790,7 @@ profile-form-delete = Profîlê xo biestire
 
 download-profile-title = Profîl
 download-profile-info = Tede e-maîl, nameyê xebitnayoxî û melumato demgrafîk est ê. Desinde yeno warardene.
+download-recordings-title = Qeydî
 download-size = Girsîye
 download-selected = Weçînite
 download-request-button = Bîya war
