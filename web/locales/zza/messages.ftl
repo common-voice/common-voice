@@ -40,10 +40,12 @@ ba = Başkirtkî
 bas = Basaakî
 be = Belarûskî
 bg = Bulgarkî
+bm = Bambarakî
 bn = Bengalkî
 br = Bretonkî
 bs = Bosnakî
 bxr = Buryatkî
+byv = Medumbakî
 ca = Katalankî
 cak = Kaqçîkelkî
 ckb = Kurdkî (Sorankî)
@@ -53,6 +55,7 @@ cs = Çekkî
 cv = Çuvaşkî
 cy = Walskî (Galkî)
 da = Dankî
+dag = Dagbankî
 de = Almankî
 dsb = Sirbkîya Cêrêne
 dv = Dîvehkî
@@ -206,6 +209,7 @@ zh-CN = Çînkî (Çîn)
 zh-HK = Çînkî (Hong Kong)
 zh-TW = Çînkî (Taywan)
 zu = Zulu
+zza = Kirmanckî (Zazakî)
 
 # [/]
 
@@ -217,6 +221,7 @@ speak-now = Nika qisey ke
 datasets = Komdayeyî
 languages = Ziwanî
 about = Derheq de
+partner = Hemkar
 profile = Profîl
 help = Hetkarî
 contact = Têkilî
@@ -296,6 +301,7 @@ whats-public = Kesê bînî çi vînenê?
 email-not-public = Ma e-maîlê to neşr nêkenîme.
 recordings-and-locale-public = Hûmara qeydanê to û ziwanê ke ti beşdarê ci bîyî/bîya, ê hetê kesanê bînan ra yenê dîyene.
 username-optin-public = Weçîne eke nameyê to yê xebitnayoxî anonîm yan zî akerde bo.
+demographic-deidentified-clarity-2 = Dayeyê demografîkî yê ke opsîyonal rusnîyenê (mavajîme serrî, cinsîyet, ziwan û fek), caran profîlê to ser o nêweşanîyenê û komdaye de girêdayeyê hesabê to zî nêbenê. Labelê, seba ke raştêr analîz bibê, qeydê vengî dayeyanê demografîkan de girê dîyenê, sey nimûne, yew cigêrayox biwazo pê modelêkê perwerdeyî bi hedefê beşêkê demografîkî virazo.
 username-email-not-demographic = Nameyê to yê xebitnayoxî û e-maîlê to dayeyanê weşanîyayeyan de girê nêdîyenê.
 
 ## Speak & Listen Shortcuts
@@ -443,6 +449,10 @@ faq-why-important-a =
     
     Seba ke naskerdişê vengî hîna zaf unîversal bo, ma nimûneyanê vengî hem ziwananê zaf qiseybîyayeyan ra hem zî ziwananê bi nufusanê qijkekan ra danîme arê; zafê reyan ziwanê bi şenik qiseykerdoxan hetê servîsanê naskerdişê vengî yê bazirganîyan ra kêmî xizmet vînenê. Weşanayîşê komdayeyanê vengan ê cîya-cîyayan do viraştox, karsaz û komelan rê îmkan bido ke na kêmasîye bi xo çareser bikerê.
 faq-how-get-q = Ez senî resena dayeyanê Common Voice?
+faq-how-get-a = Komdayeyê Common Voice <datasetLink> ser o binê lîsansê <licenseLink>CC0</licenseLink> de rîpelê ma yê Komdayeyan </datasetLink> de mewcûd ê. Ser o kî ti eşkenî/a eynî rîpelî ra komdayeyanê bînan ê ke rayapêroyî rê akerde yê, înan bîyarê war.
+faq-when-release2-q = Şima do dayeyanê Common Voice yê ziwananê bînan key biweşanê?
+faq-why-mission-q = Çira Common Voice parçeyê mîsyonê Mozîlla yo?
+faq-what-cv-and-deepspeech-q = Ferqê Common Voice û Deep Speechî çi yo?
 faq-why-my-lang-q = Çira ziwanê mi hema tede çin o?
 faq-how-calc-hours-q = Common Voice saetan senî hesab keno?
 faq-where-src-from-2-q = Metnê çimeyî kotî ra yenê?
@@ -537,6 +547,7 @@ about-playbook-how-grow-language-content-2 = Aktîvîteyî
 about-playbook-how-grow-language-content-4 = Medyaya sosyale
 about-playbook-how-grow-language-content-6 = Hemkarî û torrî
 about-playbook-how-grow-language-content-7 = Kesê ke na babete de eleqedar benê, înan bivîne. Ha unîversîte bo, ha mektebê ziwanî bo, ha grûbêka eleqedare yan zî komelêkê zanyarî bo. Birese înan û bi teferuat îzah bike ke çira û senî eşkenê hetkarî bikerê. <outreachTemplates>Seba têkilîronayîşî, tîya nimûneyê ma yê e-maîlî est ê</outreachTemplates>.
+about-playbook-how-grow-language-content-8 = <strong>Viraştox be!</strong> Komelê ziwanê to do bêemsal bo û nê tena tayê rayîrê destpêkerdişî yê.
 
 ## How to validate
 
@@ -753,6 +764,7 @@ profile-form-delete = Profîlê xo biestire
 ## Profile Download
 
 download-profile-title = Profîl
+download-profile-info = Tede e-maîl, nameyê xebitnayoxî û melumato demgrafîk est ê. Desinde yeno warardene.
 download-size = Girsîye
 download-selected = Weçînite
 download-request-button = Bîya war
