@@ -601,9 +601,11 @@ about-playbook-how-add-sentences = Җөмләләрне өсти алам?
 about-playbook-how-add-sentences-content-1 = <strong>Sentence Collector</strong> — иҗтимагый милектәге җөмләләрне җыю һәм тикшерү өчен бер корал. Сезгә <scAccountLink>хисап булдырырга кирәк булачак</scAccountLink>. Аннары үз <strong>профилегезгә</strong> телегезне өстәгез.    Сез яңа җөмләләр <strong>өсти</strong> яки инде өстәлгән җөмләләрне <strong>тикшерә</strong> аласыз.
 about-playbook-how-add-sentences-content-2 = Common Voice'ка өстәлсен өчен, җөмләләр ике кеше тарафыннан тикшерелеп кабул ителергә тиеш. Үз телегез өчен күрсәтмәләрне <languageGuidelinesLink>монда</languageGuidelinesLink> булдыра аласыз. Җөмләләр <licenseLink>иҗтимагый милектәге</licenseLink> һәм 15 сүздән кыскарак булырга тиеш. Сез текст иясеннән <waiverLink>безнең авторлык хокукыннан баш тарту процессын кулланып</waiverLink>, аның лицензиясен CC0 итеп үзгәртүне сорый аласыз һәм безгә commonvoice@mozilla.com адресына җибәрегез
 about-playbook-how-add-sentences-content-3 = Википедиядәге кыска җөмләләрне куллану өчен <scraperLink>Җөмлә чыгартучыны</scraperLink> куллана аласыз.
+about-playbook-how-add-sentences-content-4 = Тикшерелгән җөмләләр системага чәршәмбе көнне өстәлә, һәм чираттагы чыгарылыштан соң катнашучыларга күрсәтелә башлый.
 
 ## How to record quality
 
+about-playbook-how-record-quality = Югары сыйфатлы аудиоязманы ничек яздырырга?
 about-playbook-how-record-content-5 = <accuracyLink>Төгәллек критерийлары турында күбрәк белү.</accuracyLink>
 
 ## How to grow language
