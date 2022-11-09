@@ -452,6 +452,7 @@ faq-why-important-a =
 faq-how-get-q = Ez senî resena dayeyanê Common Voice?
 faq-how-get-a = Komdayeyê Common Voice <datasetLink> ser o binê lîsansê <licenseLink>CC0</licenseLink> de rîpelê ma yê Komdayeyan </datasetLink> de mewcûd ê. Ser o kî ti eşkenî/a eynî rîpelî ra komdayeyanê bînan ê ke rayapêroyî rê akerde yê, înan bîyarê war.
 faq-when-release2-q = Şima do dayeyanê Common Voice yê ziwananê bînan key biweşanê?
+faq-when-release2-a = Versîyonê zafziwanî yê komdayeyê Common Voice no dem hetê komelî ra pakêt beno û pak beno. Eke ti wazenî/a hetkarîya ma bikerê ke Common Voice bîyarîme ziwananê neweyan, şo <sentenceCollectorLink>Wesayîtê Arêdayîşê Cumleyan</sentenceCollectorLink> ke pê cumleyanê neweyan îlaweyê komdayeyî bikerê. Yew kî, <pontoonLink>Pontoon</pontoonLink>ê Mozilla est o ke pê keyepel bi xo çarnîyeno. Wexto ke 5000 cumleyê tesdîqkerdeyî ameyî arêdayene, ziwanêko newe îlaweyê Common Voice beno.
 faq-why-mission-q = Çira Common Voice parçeyê mîsyonê Mozîlla yo?
 faq-what-cv-and-deepspeech-q = Ferqê Common Voice û Deep Speechî çi yo?
 faq-is-goal-assistant-q = Hedefê Common Voice viraştişê asîstanê vengî yo?
@@ -537,6 +538,9 @@ about-playbook-how-add-language-collecting-sentences-heading = Arêdayîşê cum
 ## How does localization work
 
 about-playbook-how-localize = Çarnayîşê sîteyî senî beno?
+about-playbook-how-localize-content-1 = Çarnayîşê sîteyê Common Voice <strong>Pontoon</strong> ser o yeno kerdene.
+about-playbook-how-localize-content-2 = Eke çin o, xo rê <pontoonAccountLink>hesabêk ake</pontoonAccountLink>. Badê, ziwanê xo weçîne <strong>("ekîpe")</strong>, badêna kî projeyê <pontoonCvLink>Common Voice</pontoonCvLink> weçîne. Uca seba çarnayîşî dosyeyî est ê. Yewêk ser o bitikne: çekuyêka îngilizkî û yew qutîye seba nuştişê çarnayîşî asenê.
+about-playbook-how-localize-content-4 = Gama ke %75 yê keyepelî çarnîyayo, seba weşanayîşî amade beno.
 
 ## How to add sentences
 
@@ -704,6 +708,7 @@ record-again-instruction2 = Wina dewam bike, reyna qeyd bike <recordIcon></recor
 record-last-instruction = <recordIcon></recordIcon> No peyên o!
 share-clip = Qeydê xo pare bike
 share-common-voice = Common Voice pare bike
+record-submit-tooltip = Eke hazir î/a, { $actionType } birusne
 speak-empty-state-cta = Cumleyan îlawe bike
 record-button-label = Vengê xo qeyd bike
 target-segment-add-voice = Vengê xo îlawe bike
