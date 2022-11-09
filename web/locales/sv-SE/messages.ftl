@@ -1551,4 +1551,5 @@ partnerships-foundations-header = Stiftelser
 partnerships-governments-header = Myndigheter
 partnerships-academia-header = Universitet, akademiker och forskare
 partnerships-small-business-header = Små företag, inklusive nystartade teknik- och AI-företag
+partnerships-corporates-header = Storskaliga företag och plattformsföretag
 partnerships-our-partners = Våra partners
