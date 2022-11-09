@@ -221,6 +221,7 @@ speak-now = Μιλήστε τώρα
 datasets = Σύνολα δεδομένων
 languages = Γλώσσες
 about = Σχετικά
+partner = Συνεργασία
 profile = Προφίλ
 help = Βοήθεια
 contact = Επικοινωνία
