@@ -268,7 +268,7 @@ todays-progress = Σημερινή πρόοδος
 help-reach-goal = Βοηθήστε μας να φτάσουμε στα { $goal }
 read-terms-q = Έχετε διαβάσει τους όρους;
 ready-to-record = Θέλετε να δωρίσετε τη φωνή σας;
-all-locales = Όλα
+all-locales = Όλες
 today = Σήμερα
 x-weeks-short =
     { $count ->
