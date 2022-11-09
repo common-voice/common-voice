@@ -209,7 +209,7 @@ zh-CN = Çînkî (Çîn)
 zh-HK = Çînkî (Hong Kong)
 zh-TW = Çînkî (Taywan)
 zu = Zulu
-zza = Kirmanckî (Zazakî)
+zza = Kurdkî (Zazakî)
 
 # [/]
 
@@ -261,7 +261,7 @@ listen-paragraph = Bi eynî hawa, seba wezîfeyê Common Voice tesdîqkerdişê 
 listen-goal-text = Qeydê tesdîqkerdeyî
 hours-recorded = Saetê qeydkerdeyî
 hours-validated = Saetê tesdîqkerdeyî
-voices-online = Vengê onlîneyê nikayinî
+voices-online = Vengê ke nika onlîne yê
 todays-progress = Averşîyayîşê Ewroyî
 help-reach-goal = Hetkarî bike ke biresîme { $goal }
 read-terms-q = To şert û mercê ma wend?
