@@ -22,6 +22,7 @@
 "Kriege führen mögen andere, du, glückliches Österreich, heirate."
 "Leicht bekömmlich" ist meistens fettigem Essen vorzuziehen.
 "Lithiumabbau durch Kinderarbeit?", hakt Yasmin nach. Yvonne antwortet.
+"Mister Babyface" hat sich einen Bart stehen lassen, damit er älter aussieht.
 "Nur mal kurz Kippen holen" wirkt bei Nichtrauchern ja eher unauthentisch.
 "Semmeln" ist ein bayrisches Wort für Brötchen.
 "Sinnlos im Weltraum" war auch ganz witzig.
@@ -38,6 +39,7 @@ A Quadrat plus B Quadrat gleich C Quadrat.
 A la carte oder lieber vorbestellen?
 A-Stern gilt als Goldstandard bei der Wegsuche.
 Aalglatt ist die.
+Aaron Freitag ist Designer und Gründer des Unternehmens.
 Ab Halloween gehen die Atomkraftwerke in den Schreckbetrieb.
 Ab Level fünf wäre es dann ein Autopilot mit vollständig autonomen Fahreigenschaften.
 Ab Mai wollen wir in unserem Sportverein einen neuen Kurs anbieten.
@@ -892,6 +894,7 @@ Alles eingetragen.
 Alles fit im Schritt?
 Alles frisch?
 Alles für einen guten Zweck.
+Alles gut ist auch scheisse.
 Alles gut?
 Alles halb so wild.
 Alles ihn belastende hat er unerklärlicherweise vergessen.
@@ -4449,6 +4452,7 @@ Danke, dass du dich so kümmerst und mir das alles beibringst.
 Danke, dass du für mich da warst.
 Danke, dass du so geduldig gewartet hast.
 Danke, dass du uns den Song erklärst.
+Danke, dass du zu mir hältst in diesen schwierigen Zeiten!
 Danke, dass ihr da wart.
 Danke, für deine Rückmeldung.
 Danke, gleichfalls!
@@ -5098,6 +5102,7 @@ Das Königreich Neapel existierte von dreizehnhundertzwei bis achtzehnhundertsec
 Das Labor konnte im Blut keine Antikörper nachweisen.
 Das Lachen wird euch noch vergehen.
 Das Ladegerät ist ganz warm geworden.
+Das Land braucht Regen.
 Das Land der Dichter und Denker, der Richter und Henker.
 Das Land hier ist eine Grundmoräne der letzten Eiszeit.
 Das Land in Form eines Stiefels war zu Zeiten Goethes viel bedeutsamer.
@@ -5766,6 +5771,7 @@ Das ist echt unschön.
 Das ist echt ätzend.
 Das ist ein Alarm, der vor einer atomaren, biologischen oder chemischen Bedrohung warnen soll.
 Das ist ein Bordell.
+Das ist ein Homologationsmodell.
 Das ist ein Kürbis und keine Banane, du Pflaume.
 Das ist ein Lob, dass da schon so viel gemacht wurde.
 Das ist ein Lumpenlied aus meiner Sturm- und Drangzeit.
@@ -6205,6 +6211,7 @@ Das schickt sich aber nicht!
 Das schlechtere Produkt zu haben ist okay, solange die Vermarktung besser ist.
 Das schmeckt ja noch schlimmer als bei McDonalds.
 Das schmeckt wie ein ganzes Gewürzregal.
+Das schnöde Mammon.
 Das schwarze Gold wird in Zukunft an Bedeutung verlieren.
 Das schwächste Glied bestimmt die Stärke der gesamten Kette.
 Das schwächste Teil der Pumpe ist die Dichtung.
@@ -7168,6 +7175,7 @@ Der Containerfrachter war unter niederländischer Flagge unterwegs.
 Der Creme musst du schon ein paar Minuten zum Einziehen geben.
 Der Cursor springt die ganze Zeit umher.
 Der Dachs näherte sich nur zögerlich.
+Der Damenbart kratzt?
 Der Deal ist geplatzt.
 Der Deal ist längst in trockenen Tüchern.
 Der Delinquent fängt wieder an zu lamentieren.
@@ -9707,6 +9715,7 @@ Die aufgeworfene Erde ist schädlingsfrei.
 Die australische Schönheit begann gerade durchzustarten.
 Die automatische Detektion funktioniert nur unzuverlässig.
 Die basischen Steinen mit viel Eisen unterlagen der schaligen Verwitterung
+Die beiden Ehemänner gaben sich das Ja-Wort.
 Die beiden Fänge umschließt eine gesprengte Eisenkette.
 Die beiden Großen nehmen ihren kleinen Bruder voll in Schutz.
 Die beiden Größen sind also äquivalent.
@@ -14083,6 +14092,7 @@ Fidschi wollte Gesundheitsschäden durch Entwicklung und Produktion ergänzen.
 Fieber ist doch erst ab einundvierzig Grad Celsius gefährlich, oder?
 Fiete ist mal wieder neutraler als die Schweiz.
 Fifty Shades of Grey erhielt die Goldene Himbeere.
+Filzkörbe wiederum sind eine gute und nachhaltige Idee.
 Finanziell wirst du dabei ausgenommen wie eine Weihnachtsgans.
 Finde Singles in deiner Nähe!
 Finde den Fehler.
@@ -15954,6 +15964,7 @@ Hast du den Film schon gesehen?
 Hast du den Laptop ausgeschaltet?
 Hast du den Laptop eingepackt?
 Hast du den Messwagen gesehen?
+Hast du den Preis der Sitzauflagen gesehen?
 Hast du den Vorhang bereits gewaschen?
 Hast du den Zimmerservice gerufen?
 Hast du denn dein Hauptproblem lösen können?
@@ -17130,6 +17141,7 @@ Ich bezweifle, dass du einen vorgetäuschten Orgasmus vom echten unterscheiden k
 Ich bezweifle, dass sie Schritt halten können wird.
 Ich biete Ihnen meine Mitarbeit an dem Fall an.
 Ich bin Arzt, ich darf das.
+Ich bin Inhaber dieses Start-ups.
 Ich bin Kinderärztin.
 Ich bin Mutter von zwei kleinen Kindern.
 Ich bin Möbelpacker.
@@ -17505,6 +17517,7 @@ Ich führe ein Gespräch mit ihm.
 Ich fürchte sie ist weggelaufen. Schon wieder?
 Ich fürchte, du unterschätzt die Ignoranz der anderen Eltern.
 Ich fürchte, sie ist weggelaufen.
+Ich garantiere eine schnelle Lieferung innerhalb von zwei Werktagen.
 Ich geb Gas, ich will Spaß.
 Ich gebe Ihnen noch schnell meine Nummer.
 Ich gebe dieser Ehe drei Jahre.
@@ -18096,6 +18109,7 @@ Ich kann nichts erkennen.
 Ich kann nichts sehen!
 Ich kann nur raten: Finger weg!
 Ich kann sie unmöglich billiger lassen; ich verdiene gar nichts daran.
+Ich kann super gut filzen.
 Ich kann verstehen, dass Rosanna sich hinters Licht geführt fühlt.
 Ich kann zwar kochen, Wäsche waschen allerdings nicht.
 Ich kannte mal ein Mädchen in Kärnten.
@@ -20654,6 +20668,7 @@ Ja, der Witz ist gut! Er hat nur einen Moment zum Zünden gebraucht.
 Ja, der ist schon lange wieder zurück; ich sehe ihn sehr häufig.
 Ja, die Anröchter Steineklopper wieder!
 Ja, die Bettschwere stellt sich nun doch ein.
+Ja, die Decke müsste wieder gestrichen werden.
 Ja, die Pakete und ihre Zusteller.
 Ja, die hab ich mal gegessen.
 Ja, die habe ich mal gegessen.
@@ -22024,6 +22039,7 @@ Kleine Jungen im Kindergarten haben großes Vergnügen daran, Papiertüten platz
 Kleine Jungs können sich für Motorräder begeistern.
 Kleine Kinder - kleine Probleme, große Kinder - große Probleme.
 Kleine Kinder reden so!
+Kleine Kinder reden so.
 Kleine Sterne leben länger als große.
 Kleinere Erdbeben merkt man nur in den oberen Stockwerken.
 Kleinere Fehler sind verzeihlich.
@@ -22764,6 +22780,7 @@ Leck mir die Stiefel, du Wurm!
 Lecker Kaffee!
 Lecker Stockbrot.
 Lecks aufzuspüren, ist eine meiner leichtesten Übungen.
+Ledige Astronautin plant unbemannte Mission.
 Lediglich die Glastrennwände bleiben erhalten.
 Lediglich die Unstetigkeiten bereiten immer noch Probleme.
 Lediglich seinem eigenen Gewissen ist er unterworfen.
@@ -23470,6 +23487,7 @@ Man möchte damit Korruption verhindern.
 Man möchte ja auch eine entsprechende Ausbeute haben.
 Man möchte möglichst schnell einen Präzedenzfall schaffen.
 Man möchte seinen Kindern nicht zur Last fallen.
+Man nannte ihn Babyface.
 Man nehme Salz und Pfeffer und würze gut nach.
 Man nimmt ihn daher nicht wahr.
 Man riskiert, abgeschossen zu werden.
@@ -23691,6 +23709,7 @@ Manchmal gibt dir das Leben unerwartet eine zweite Chance.
 Manchmal gibt es eben Dinge, die kann man am Telefon nicht klären.
 Manchmal gibt es noch sehr günstige Verbindungen.
 Manchmal hat der Vorschlagsalgorithmus von YouTube wirklich Humor.
+Manchmal hat sie keinen "Bock".
 Manchmal ist Herr Albrecht ein echter Griesgram.
 Manchmal ist Unwissenheit ein Segen.
 Manchmal ist Veränderung aber zwingend erforderlich.
@@ -27499,11 +27518,13 @@ Richten Sie Ihre Anfrage bitte schriftlich an uns.
 Richten Sie sich auch nach den örtlichen Gegebenheiten.
 Richtet sich das Programm an Kinder?
 Richtfunk ist nur eine Notlösung.
+Richtig Zuhören.
 Richtig geraten!
 Richtig gute Lehrlinge sind heutzutage rar.
 Richtig interessant kann das bei ganzen Sätzen werden.
 Richtig, es ist die Pupille.
 Richtige Hacker klicken nicht.
+Richtiges Sprechen.
 Rick Sievers besitzt alles an Zubehör, was es zu kaufen gibt.
 Rick erinnert sich nur noch bruchstückhaft.
 Rick feiert diese Aktion des zivilen Ungehorsams.
@@ -28467,6 +28488,7 @@ Seit meiner Trennung sehe ich überall nur glückliche Paare.
 Seit neuestem habe ich doch ein Laminiergerät.
 Seit neunzehnhundertachtzig gelten die Pocken weltweit als ausgerottet.
 Seit sie dem Pferd die Sporen gegeben hat, leidet es an einer Pilzinfektion.
+Seit unserer Gründung wachsen wir beständig.
 Seit unverpackt einkaufen im Trend liegt, ziehe ich mich im Supermarkt immer aus.
 Seit wann arbeitet die schlanke Brünette in eurem Team?
 Seit wann gibt es Skifahrer?
@@ -32752,6 +32774,7 @@ Warm-ups dienen als Icebreaker.
 Warme Luft steigt am Äquator auf.
 Warme Wolken sind Wolken, in denen nur flüssiges Wasser vorkommt.
 Warme oder kalte Speisen ergänzen jedes Buffet.
+Warnemünde liegt an der Mündung der Warnow
 Warnen Sie mich, wenn es gefährlich wird!
 Warnende Worte wurden schon in den achtziger Jahren überhört.
 Warst du beim Friseur?
@@ -32988,6 +33011,7 @@ Was bisher als völlig unmöglich galt, wurde nun bewiesen.
 Was bist Du so fickerich?
 Was bist du denn für einer?
 Was bitte heißt rechtliche Grauzone?
+Was bitte ist denn ein Sitzfilz?
 Was bitte ist ein Wurfzelt?
 Was bitte schön befähigt ihren Gatten zu diesem Amt?
 Was bleibt uns anderes übrig?
@@ -33172,6 +33196,7 @@ Was hast du gesagt?
 Was hast du im Mund?
 Was hast du mit deiner Stimme angerichtet?
 Was hast du nun wieder angestellt?
+Was hast du?
 Was hat Johanne mit uns vor?
 Was hat Nero wirklich mit der Brandstiftung in Rom zu tun gehabt?
 Was hat Omi sich denn da an die Wand gehängt?
@@ -33913,6 +33938,7 @@ Welche Klasse ist morgen mit Müllsammeln dran?
 Welche Komponenten enthält jeder Regelkreis?
 Welche Krankenkasse ist in der Lage, verschlüsselte Mails zu empfangen und zu versenden?
 Welche Kryptowährungen werden angenommen?
+Welche Lippen meinen Sie?
 Welche Marke haben Sie im Angebot?
 Welche Maßnahmen wurden ergriffen, um unbefugten Zutritt zum Wartungsraum zu verhindern?
 Welche Menge Teig ist für eine vierköpfige Familie empfehlenswert?
@@ -35208,6 +35234,7 @@ Wie gefällt dir deine neue Arbeit?
 Wie geht das Lied weiter?
 Wie geht das denn weiter?
 Wie geht die dritte Strophe?
+Wie geht ein homöopathischer Heilpraktiker mit Globulisierungsgegnern um?
 Wie geht es Ihnen?
 Wie geht es Ihrer Frau Gemahlin?
 Wie geht es Melanie?
@@ -36557,6 +36584,7 @@ Wir züchten unsere eigenen Kürbispflanzen aus den Kernen der Früchte letzten 
 Wir übernachteten zweimal in einem Hotel in der Nähe von Hamburg.
 Wir überraschen ihn, nutzen seine Schrecksekunde und schnappen uns die Sprühdose.
 Wir, äh, haben ja eigentlich keine Zeit.
+Wirbelstrombremsen haben ein inhärentes Antiblockiersystem.
 Wird "Palästina" denn als Staat von der Bundesrepublik Deutschland anerkannt?
 Wird Artikel Dreizehn den Einsatz von Upload-Filtern de facto erfordern?
 Wird Corana sich in den Griff bekommen?
@@ -36870,6 +36898,7 @@ Wo willst du hin?
 Wo wird die nächste Landesgartenschau stattfinden?
 Wo wohne ich noch mal?
 Wo wohnen Sie?
+Wo wohnen wenig kostet.
 Wo wohnt dein Freund?
 Wo wohnt eigentlich Martina Mustermann?
 Wo wollen die denn alle hin?
@@ -37364,6 +37393,7 @@ Zeigen Sie mir bitte Ihren Impfnachweis.
 Zeigen Sie mir die Weinkarte.
 Zeigen Sie mir erst Ihren Presseausweis.
 Zeigst du ihr die Altstadt?
+Zeigt dieses Foto Farin Urlaub oder H. P. Baxxter?
 Zeit für einen Tapetenwechsel!
 Zeit fürs Bettchen.
 Zeit hat man nicht, man muss sie sich nehmen.
