@@ -540,6 +540,7 @@ about-playbook-how-add-language-collecting-sentences-heading = Arêdayîşê cum
 about-playbook-how-localize = Çarnayîşê sîteyî senî beno?
 about-playbook-how-localize-content-1 = Çarnayîşê sîteyê Common Voice <strong>Pontoon</strong> ser o yeno kerdene.
 about-playbook-how-localize-content-2 = Eke çin o, xo rê <pontoonAccountLink>hesabêk ake</pontoonAccountLink>. Badê, ziwanê xo weçîne <strong>("ekîpe")</strong>, badêna kî projeyê <pontoonCvLink>Common Voice</pontoonCvLink> weçîne. Uca seba çarnayîşî dosyeyî est ê. Yewêk ser o bitikne: çekuyêka îngilizkî û yew qutîye seba nuştişê çarnayîşî asenê.
+about-playbook-how-localize-content-3 = Çarnayîş îngilizkî ra yeno kerdene, la ti eşkenî ziwananê bînan ra <strong>pêşnîyazan</strong> bivînê. <strong>Profîlê xo</strong> ser o bitikne, dima şo <strong>Eyaran</strong> û uca ziwananê ke qisey kenî/a, înan îlawe bike. Kunco raşto cêrên de lîsteyêka çarnayîşan bi nameyê <strong>"Locales"</strong> est a. Çarnayîşî yew roje ra dime keyepel ser o asenê.
 about-playbook-how-localize-content-4 = Gama ke %75 yê keyepelî çarnîyayo, seba weşanayîşî amade beno.
 
 ## How to add sentences
@@ -695,13 +696,20 @@ clips-with-count-pluralized =
     { $count ->
        *[other] <bold>{ $count }</bold> qeydê vengî
     }
+contribute-more =
+    { $count ->
+       *[other] Hazîr î/a ke { $count }na bikerê?
+    }
 record-cta = Dest bi qeydî bike
+record-platform-not-supported = Çi heyf o ke platformê to nika nêno destekkerdene.
 record-must-allow-microphone = Ganî ti destûr bidê mîkrofonî.
 record-no-mic-found = Mîkrofon nêame dîyene.
 record-error-too-short = Qeydê to zêde kilm bî.
 record-error-too-long = Qeydê to zêde derg bî.
 record-error-too-quiet = Qeydê to zaf bêveng bî.
 record-cancel = Qeydo newe betal bike
+record-instruction = { $actionType }<recordIcon></recordIcon> - Cumle bi vengo zelal biwane
+record-stop-instruction = Eke qedîya, { $actionType }<stopIcon></stopIcon>
 record-three-more-instruction = Hîrê hebî mendî!
 record-again-instruction = Zaf rind o! <recordIcon></recordIcon> Yewna qeyd bike
 record-again-instruction2 = Wina dewam bike, reyna qeyd bike <recordIcon></recordIcon>
@@ -709,6 +717,12 @@ record-last-instruction = <recordIcon></recordIcon> No peyên o!
 share-clip = Qeydê xo pare bike
 share-common-voice = Common Voice pare bike
 record-submit-tooltip = Eke hazir î/a, { $actionType } birusne
+clips-uploaded = Qeydî bar bîyî
+record-abort-title = Qeydkerdiş hema nêqedîyayo.
+record-abort-text = Ti ke nika vejîyenî/a, averşîyayîşo nikayin qeyd nêbeno.
+record-abort-submit = Qeydan birusne
+record-abort-continue = Qeydkerdişî biqedêne
+record-abort-delete = Vejîye & qeydan biestire
 speak-empty-state-cta = Cumleyan îlawe bike
 record-button-label = Vengê xo qeyd bike
 target-segment-add-voice = Vengê xo îlawe bike
