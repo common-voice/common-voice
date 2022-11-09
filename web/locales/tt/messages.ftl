@@ -606,6 +606,8 @@ about-playbook-how-add-sentences-content-4 = Тикшерелгән җөмләл
 ## How to record quality
 
 about-playbook-how-record-quality = Югары сыйфатлы аудиоязманы ничек яздырырга?
+about-playbook-how-record-content-1 = Гадәттәге тавышыгыз белән сөйләгез! Ничек кенә сөйләшсәгез дә без Сезне ишетергә шатбыз. Акцентыгыз ничек бар, шулай язылуын телибез. Тавышыгызның катылыгы, сөйләү рәвешегез, интонациягез дә Сез күнеккәнчә булсын.
+about-playbook-how-record-content-2 = Арткы пландагы көчле шау-шудан сакланыгыз. Тавышыгыз ишетелерлек булсын.
 about-playbook-how-record-content-5 = <accuracyLink>Төгәллек критерийлары турында күбрәк белү.</accuracyLink>
 
 ## How to grow language
