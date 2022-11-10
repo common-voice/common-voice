@@ -40,10 +40,12 @@ ba = Bashkir
 bas = Basaa
 be = Belarusian
 bg = Bulgaria ñe’ẽ
+bm = Bambara
 bn = Bengali ñe’ẽ
 br = Breton ñe’ẽ
 bs = Bosnia
 bxr = Buryat ñe’ẽ
+byv = { "" }
 ca = Catalán ñe’ẽ
 cak = Kaqchikel ñe’ẽ
 ckb = Kurdisch Mbytegua ñe’ẽ
@@ -53,6 +55,7 @@ cs = Czech ñe’ẽ
 cv = Chuvash ñe’ẽ
 cy = Welsh ñe’ẽ
 da = Dinamarca ñe’ẽ
+dag = { "" }
 de = Alemán ñe’ẽ
 dsb = Sorbian ñe’ẽ, Yvypegua
 dv = Dhivehi ñe’ẽ
@@ -206,6 +209,7 @@ zh-CN = China ñe’ẽ (Chinapegua)
 zh-HK = China ñe’ẽ (Hong Kong-pegua)
 zh-TW = China ñe’ẽ (Taiwán-pegua)
 zu = Sulu
+zza = { "" }
 
 # [/]
 
@@ -217,6 +221,7 @@ speak-now = Eñe’ẽ ko’ág̃a
 datasets = Kuaapy’aty
 languages = Ñe’ẽnguéra
 about = Hesegua
+partner = Irũ
 profile = Toguetee
 help = Pytyvõ
 contact = Máva ndivépa oñeñe’ẽkuaa
@@ -1523,3 +1528,8 @@ sc-validation-no-abbreviations = Pe ñe’ẽjoaju ndorekoiva’erã ñe’ẽmb
 
 localization-select =
     .label = Eiporavo ñe’ẽ/moñe’ẽasa
+# PARTNERSHIPS PAGE
+partnerships-header = Juajuguasu
+partnerships-get-in-touch = Eiméke ñandutípe
+partnerships-governments-header = Tekuái
+partnerships-our-partners = Ore irũnguéra
