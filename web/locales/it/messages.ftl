@@ -1515,3 +1515,4 @@ partnerships-get-in-touch = Contattaci
 partnerships-become-a-partner = Diventa partner di Common Voice
 partnerships-community-header = Comunità, creativi e società civile
 partnerships-foundations-header = Fondazioni
+partnerships-our-partners = I nostri partner
