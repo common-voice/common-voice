@@ -221,6 +221,7 @@ speak-now = Parla ora
 datasets = Dataset
 languages = Lingue
 about = Informazioni
+partner = Partner
 profile = Profilo
 help = Supporto
 contact = Contatti
@@ -1508,3 +1509,9 @@ sc-validation-no-abbreviations = La frase non deve contenere abbreviazioni
 
 localization-select =
     .label = Scegli lingua/localizzazione
+# PARTNERSHIPS PAGE
+partnerships-header = Diventa nostro partner
+partnerships-get-in-touch = Contattaci
+partnerships-become-a-partner = Diventa partner di Common Voice
+partnerships-community-header = Comunità, creativi e società civile
+partnerships-foundations-header = Fondazioni
