@@ -1549,6 +1549,7 @@ partnerships-become-a-partner = Deveni un partner de Common Voice
 partnerships-community-header = Communitate, creativitate e societate civil
 partnerships-community-description = Le communitate es le corde battente de Common Voice, illes veni de tote le mundo: activistas de linguas,  scientistas e artistas. Tu pote saper plus re como contribuer sur nostre pagina <about>A proposito</about> e in nostre <community>Libro del jocos del communitate</community>. Si tu es interessate in un coparticipation organisational plus profunde, <emailFragment>tener te in contacto.</emailFragment>
 partnerships-foundations-header = Fundationes
+partnerships-foundations-description = Nos labora con fundationes, societate civil e socios de communitate pro render internet un loco plus san, con un particular foco super le Est Africa. Pro saper plus re nostre <programmaticWork>labor programmatic.</programmaticWork>
 partnerships-governments-header = Governamentos
 partnerships-governments-description = Nos es exaltante a supportar collaboration con le sector public in technologia, innovation e derectos linguistic. Si tu plana exequer un projecto o campania major,  <emailFragment>tene te in contacto.</emailFragment>
 partnerships-academia-header = Universitates, academicos e recercatores
