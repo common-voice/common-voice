@@ -33,7 +33,7 @@ import Success from './success';
 import Wave from './wave';
 
 import './contribution.css';
-import { FirstPostSubmissionCta } from './speak/firstPostSubmissionCTA';
+import { FirstPostSubmissionCta } from './speak/firstSubmissionCTA/firstPostSubmissionCTA';
 
 export const SET_COUNT = 5;
 
@@ -469,7 +469,7 @@ class ContributionPage extends React.Component<Props, State> {
           )}
         </div>
 
-        {showFirstCTA && <FirstPostSubmissionCta />}
+        {showFirstCTA && <FirstPostSubmissionCta locale={this.props.locale} />}
 
         {instruction({
           vars: { actionType: getString('action-tap') },
