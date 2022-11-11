@@ -1555,3 +1555,7 @@ partnerships-governments-description = Nos es exaltante a supportar collaboratio
 partnerships-academia-header = Universitates, academicos e recercatores
 partnerships-academia-description = Le innovation aperte es al corde de lo que nos face. Pro collaborationes de recerca, collection de datos o intervistas, <emailFragment>contacta nos.</emailFragment>
 partnerships-small-business-header = Parve negotios, includite start ups technologic e de intelligentia
+partnerships-small-business-description = Nos cerca sempre de audir le consummatores de datos re lor besonios e contexto - de collaborar sur le platteforma de collection de datos pro fornir intuitiones re le salubritate del datos, nos vole <emailFragment>audir te.</emailFragment>
+partnerships-corporates-header = Corporationes e platteformas de grande scala
+partnerships-corporates-description = Si tu vole discuter altero re le insimul de datos, vole co-investir in le expansiones de platteformas planate o prestar attention a opportunitates de collaboration, <emailFragment>scribe nos un rango.</emailFragment>
+partnerships-our-partners = Nostre socios
