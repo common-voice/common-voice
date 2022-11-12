@@ -1399,3 +1399,12 @@ sc-validation-no-abbreviations = جملے وچ مخففات نئیں ہووݨے 
 
 localization-select =
     .label = زبان/مقامیت سازی چݨو
+# PARTNERSHIPS PAGE
+partnerships-header = بھائیوالی
+partnerships-get-in-touch = رابطے وچ راہوو
+partnerships-become-a-partner = کامن وائس بھائیوال بݨو
+partnerships-community-header = برادری، تخلیقاں تے سول سوسائٹی
+partnerships-foundations-header = فاؤنڈیشناں
+partnerships-governments-header = حکومتاں
+partnerships-academia-header = یونیورسٹیاں، ماہرین تعلیم تے محققین
+partnerships-our-partners = ساݙے بھائیوال
