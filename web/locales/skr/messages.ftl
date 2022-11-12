@@ -653,6 +653,7 @@ datasets-heading = ڈیٹا سیٹس
 datasets-headline = اساں آوازاں دا کھلا ماخذ، کثیر لسانی ڈیٹاسیٹ بݨیندے پئے ہیں جیکوں ہر کوئی تقریر فعال تھئی ایپاں دے ذریعے ورت سڳدے۔
 language = زبان
 download-dataset-header = ڈیٹاسیٹ ڈاؤن لوڈ کرو
+download-dataset-tag = آپݨی مطلوبہ زبان دا ڈیٹا سیٹ چݨو تے جہڑا ورشن تساں ڈاؤن لوڈ کرݨ چاہندے ہو چݨو۔
 # File size in gigabytes
 size = سائز
 validated-hr-total = کل تصدیق تھئے گھنٹے
