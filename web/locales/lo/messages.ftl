@@ -581,10 +581,14 @@ about-playbook-how-project-governance-content-5 = ມູນຄ່າແລະກ
 
 glossary = ຄຳສັບ
 localization = ການແປ
+sentence-collection = ການລວບລວມປະໂຫຍກ
+sst = ການເວົ້າເປັນຂໍ້ຄວາມ (STT)
+sst-explanation = ເທັກໂນໂລຢີການເວົ້າເປັນຂໍ້ຄວາມ (STT) ປ່ຽນຂໍ້ມູນສຽງເປັນຂໍ້ຄວາມ.
 de-identified = ບໍ່ໄດ້ລະບຸຕົວຕົນ
 
 ## Error pages
 
+error-title-503 = ພວກເຮົາປະສົບກັບເວລາຢຸດເຮັດວຽກທີ່ບໍ່ຄາດຄິດ
 error-code = ຂໍ້ຜິດພາດ { $code }
 
 ## Data
@@ -593,6 +597,7 @@ data-download-button = ດາວໂຫລດຂໍ້ມູນ Common Voice
 data-download-yes = ແມ່ນ
 data-download-deny = ບໍ່
 data-download-license = ໃບອະນຸຍາດ: <licenseLink>CC-0</licenseLink>
+data-download-modal = ທ່ານກຳລັງຈະເລີ່ມການດາວໂຫຼດ <size>{ $size }GB</size>, ດຳເນີນການຕໍ່ໄປບໍ?
 data-subtitle = ພວກເຮົາກຳລັງສ້າງຊຸດຂໍ້ມູນສຽງທີ່ເປີດເຜີຍ ແລະເປີດເຜີຍຕໍ່ສາທາລະນະຊົນທີ່ທຸກຄົນສາມາດໃຊ້ເພື່ອຝຶກແອບການປາກເວົ້າ.
 data-other-title = ຊຸດຂໍ້ມູນສຽງອື່ນໆ...
 data-other-goto = ໄປທີ່ { $name }
@@ -610,6 +615,7 @@ review-recording = ທົບທວນ
 review-rerecord = ບັນທຶກຄືນໃໝ່
 review-cancel = ຍົກເລີກການຍື່ນສະເຫນີ
 review-keep-recordings = ຮັກສາການບັນທຶກ
+review-delete-recordings = ລຶບບັນທຶກຂອງຂ້ອຍ
 
 ## Datasets Page
 
@@ -623,6 +629,7 @@ overall-hr-total = ໂດຍລວມ Hr. ທັງໝົດ
 cv-license = ໃບອະນຸຍາດ
 size-gigabyte = GB
 size-megabyte = MB
+whats-inside = ແມ່ນຫຍັງຢູ່ໃນຊຸດຂໍ້ມູນ Common Voice?
 subscribe = ຕິດຕາມ
 community-playbook = ຄູ່ມືຊຸມຊົນ
 data-other-ted-name = TED-LIUM Corpus
