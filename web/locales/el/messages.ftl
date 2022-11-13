@@ -1540,4 +1540,5 @@ partnerships-get-in-touch = Επικοινωνία
 partnerships-foundations-header = Ιδρύματα
 partnerships-governments-header = Kυβερνήσεις
 partnerships-academia-header = Πανεπιστήμια, ακαδημαϊκοί και ερευνητές
+partnerships-small-business-header = Μικρές επιχειρήσεις, όπως νεοφυείς επιχειρήσεις τεχνολογίας και τεχνητής νοημοσύνης
 partnerships-our-partners = Οι συνεργάτες μας
