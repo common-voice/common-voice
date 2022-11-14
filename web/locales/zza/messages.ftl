@@ -463,7 +463,13 @@ faq-is-goal-assistant-a = Armancê komdayeyê Common Voice o ke her kesê dinya 
 faq-do-want-native-q = No ziwanê min ê dayîke nîyo û ez bi aksanêk qisey kena. Şima ancîya wazenê ke ez vengê xo bibexşnî?
 faq-do-want-native-a = Heya, bitaybetî ma vengê to wazenîme! Yew armancê Common Voice o yo ke ma fek û aksananê cîya-cîyayan arê bidîme ke wina xizmetê naskerdişê vengî seba her kesî rind bigureyê. Coka bexişnayîşê qiseykerdoxanê ke qeyd bi ziwanê înan ê dayîke nîyo, bitaybetî muhîm ê.
 faq-why-different-speakers-q = Çira şima rê seba her ziwanî hende qiseykerdoxî lazim ê?
+faq-why-different-speakers-a =
+    Zafê databasê qiseykerdişî winî perwerde benê ke tayê beşê nufusî, sey <articleLink>camêrd û kesê sinifa mîyanênen</articleLink> tede zêde temsîl benê. Aksan û fekê ke komdayeyanê perwerdeyî de bes temsîl nêbenê, normal de girêdayeyê grûb û miletanê marjînalkerdeyan ê. Xeylê makîneyî zî venganê cinîkan bi zehmetî fehm kenê. 
+    Coka ma databasê xo de zafrengîye wazenîme!
 faq-why-my-lang-q = Çira ziwanê mi hema tede çin o?
+faq-why-my-lang-a =
+    Common Voice platformêkê girseçimeyî yo û pêro ziwanî hetê zerrîwazan ra îlawe benê.
+    Ma zaf wazenîme ke ti ziwanê xo îlawer bikerê! <languageRequestLink>Îlawekerdişê ziwanê xo biwaze.</languageRequestLink>
 faq-what-quality-q = Seba ke qeydê vengî komdayeyî de bêro gurenayene, ganî kalîteya vengî senî bo?
 faq-why-10k-hours-q = Çira hedefê her ziwanî 10,000 saetê qeydê vengî yê tesdîqkerdeyî yê?
 faq-how-calc-hours-q = Common Voice saetan senî hesab keno?
