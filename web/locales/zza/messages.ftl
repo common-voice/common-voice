@@ -461,6 +461,7 @@ faq-what-cv-and-deepspeech-a = Komdayeyê Common Voice motorê Mozîlla yê nask
 faq-is-goal-assistant-q = Hedefê Common Voice viraştişê asîstanê vengî yo?
 faq-is-goal-assistant-a = Armancê komdayeyê Common Voice o ke her kesê dinya rê îmkan peyda bikero ke pê applîkasyonanê naskerdişê vengî, naskerdişê qiseykerdoxî yan zî yewna tewir applîkasyono bi dayeyanê vengî virazo. Asîstanê vengî nê tewir applîkasyonanê ke merdim bieşko komdayeyî ra virazo, ci ra tena yew nimûne yo.
 faq-do-want-native-q = No ziwanê min ê dayîke nîyo û ez bi aksanêk qisey kena. Şima ancîya wazenê ke ez vengê xo bibexşnî?
+faq-do-want-native-a = Heya, bitaybetî ma vengê to wazenîme! Yew armancê Common Voice o yo ke ma fek û aksananê cîya-cîyayan arê bidîme ke wina xizmetê naskerdişê vengî seba her kesî rind bigureyê. Coka bexişnayîşê qiseykerdoxanê ke qeyd bi ziwanê înan ê dayîke nîyo, bitaybetî muhîm ê.
 faq-why-different-speakers-q = Çira şima rê seba her ziwanî hende qiseykerdoxî lazim ê?
 faq-why-my-lang-q = Çira ziwanê mi hema tede çin o?
 faq-what-quality-q = Seba ke qeydê vengî komdayeyî de bêro gurenayene, ganî kalîteya vengî senî bo?
