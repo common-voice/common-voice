@@ -1612,3 +1612,5 @@ partnerships-community-description = ჩვენი ერთობა Common V
 partnerships-foundations-header = ფონდები
 partnerships-foundations-description = ჩვენ ვმუშაობთ ფონდებთან, სამოქალაქო საზოგადოებებთან და ერთობის თანამონაწილეებთან ერთად ინტერნეტის გაჯანსაღებისთვის, განსაკუთრებით აღმოსავლეთ აფრიკაში. დაწვრილებით გაეცანით ჩვენს <programmaticWork>გეგმურ საქმიანობას.</programmaticWork>
 partnerships-governments-header = სამთავრობოები
+partnerships-governments-description = სიამოვნებით დავეხმარებით საჯარო სექტორს, მეტად ჩაერთოს ტექნოლოგიური სიახლეების დანერგვასა და ენის უფლებების დაცვაში. თუ გეგმავთ მასშტაბური პროექტის ან კამპანიის წამოწყებას, გთხოვთ <emailFragment>მოგვმართოთ.</emailFragment>
+partnerships-academia-header = სასწავლო, აკადემიური და კვლევითი დაწესებულებები
