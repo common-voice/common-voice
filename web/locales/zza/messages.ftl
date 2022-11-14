@@ -409,6 +409,7 @@ download-profile = Dayeyanê mi bîya war
 contribution-experience = Tecrubeyê Beşdarîye
 skip-submission-feedback = Rusnayîşê apeyhayî ravêre
 skip-submission-description = Ti ke wextê gureyayîşî de 'Birusne' ser o tiknenî/a, apeyhayî nêna dayene. Beşdarîye desinde bi 5 qeyd yan zî tesdîqanê ameyoxan ra dewam kena.
+skip-submission-note = Not: Seba vurnayîşê tewirê beşdarîye, ganî ti "Qisey ke" yan zî "Goşdar ke" weçîne.
 off = Padaye
 on = Akerde
 help-accent = Derheqê fekan de hetkarîye wazenî/a?
