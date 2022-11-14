@@ -702,6 +702,7 @@ contribute-more =
     }
 record-cta = Dest bi qeydî bike
 record-platform-not-supported = Çi heyf o ke platformê to nika nêno destekkerdene.
+record-platform-not-supported-ios-non-safari = Seba ke iOS ser o qeyd bikerê, keremê xo ra Safari de dewam bike
 record-must-allow-microphone = Ganî ti destûr bidê mîkrofonî.
 record-no-mic-found = Mîkrofon nêame dîyene.
 record-error-too-short = Qeydê to zêde kilm bî.
