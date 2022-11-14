@@ -1616,3 +1616,5 @@ partnerships-governments-description = სიამოვნებით და�
 partnerships-academia-header = სასწავლო, აკადემიური და კვლევითი დაწესებულებები
 partnerships-academia-description = სიახლეების ღიად დანერგვა ჩვენი საქმიანობის მთავარი მამოძრავებელია. კვლევითი თანამშრომლობისთვის, მონაცემთა შეგროვებისთვის ან გასაუბრებისთვის <emailFragment>მოგვწერეთ.</emailFragment>
 partnerships-small-business-header = მცირე წამოწყებები ტექნოლოგიისა და ხელოვნური ინტელექტის დარგში
+partnerships-small-business-description = მუდამ ველით გამოხმაურებას მომხმარებლებისგან სხვადასხვა საჭიროებისა და გარემოების თაობაზე – მონაცემთა შეგროვებისას თანამშრომლობისა და შესაგროვებელი მასალების დახვეწის შესახებ მოსაზრებებს სიამოვნებით <emailFragment>მოვისმენდით თქვენგან.</emailFragment>
+partnerships-corporates-header = მსხვილი დაწესებულებები და საშუამავლო პლატფორმები
