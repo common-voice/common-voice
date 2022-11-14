@@ -221,6 +221,7 @@ speak-now = დაილაპარაკეთ
 datasets = კრებული
 languages = ენები
 about = ჩვენ შესახებ
+partner = მონაწილეობა
 profile = პროფილი
 help = დახმარება
 contact = დაკავშირება
@@ -1601,3 +1602,8 @@ sc-validation-no-abbreviations = წინადადება არ უნდ
 
 localization-select =
     .label = აირჩიეთ ენა/არე
+# PARTNERSHIPS PAGE
+partnerships-header = თანამშრომლობა
+partnerships-header-text = Common Voice დიდ ძალისხმევას საჭიროებს! მარტონი ვერ გავუმკლავდებით. გსურთ თანამშრომლობა? მოხარულნი ვიქნებით, თუ შეგვეშველებით.
+partnerships-get-in-touch = დაგვიკავშირდით
+partnerships-become-a-partner = გახდი Common Voice-ის თანამონაწილე
