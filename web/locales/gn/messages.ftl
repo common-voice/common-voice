@@ -1535,4 +1535,5 @@ partnerships-become-a-partner = Eiko Common Voice irũramo
 partnerships-community-header = Tekoha, Moheñoihára ha Tekohaygua
 partnerships-foundations-header = Viru’ỹgua
 partnerships-governments-header = Tekuái
+partnerships-academia-header = Mbo’ehaovusu, Mbo’ekuaahára ha Taperekahára
 partnerships-our-partners = Ore irũnguéra
