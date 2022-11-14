@@ -1614,3 +1614,5 @@ partnerships-foundations-description = ჩვენ ვმუშაობთ ფ
 partnerships-governments-header = სამთავრობოები
 partnerships-governments-description = სიამოვნებით დავეხმარებით საჯარო სექტორს, მეტად ჩაერთოს ტექნოლოგიური სიახლეების დანერგვასა და ენის უფლებების დაცვაში. თუ გეგმავთ მასშტაბური პროექტის ან კამპანიის წამოწყებას, გთხოვთ <emailFragment>მოგვმართოთ.</emailFragment>
 partnerships-academia-header = სასწავლო, აკადემიური და კვლევითი დაწესებულებები
+partnerships-academia-description = სიახლეების ღიად დანერგვა ჩვენი საქმიანობის მთავარი მამოძრავებელია. კვლევითი თანამშრომლობისთვის, მონაცემთა შეგროვებისთვის ან გასაუბრებისთვის <emailFragment>მოგვწერეთ.</emailFragment>
+partnerships-small-business-header = მცირე წამოწყებები ტექნოლოგიისა და ხელოვნური ინტელექტის დარგში
