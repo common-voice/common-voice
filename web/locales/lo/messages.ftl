@@ -600,8 +600,11 @@ about-playbook-how-access-dataset = ຂ້ອຍຈະເຂົ້າເຖິ�
 ## How are decisions made
 
 about-playbook-how-project-governance = ການຕັດສິນໃຈໂຄງການແມ່ນເຮັດແນວໃດ?
+about-playbook-how-project-governance-content-3 = ຄວາມເປັນສ່ວນຕົວ, ຄວາມປອດໄພແລະຄວາມໂປ່ງໃສ.
+about-playbook-how-project-governance-content-4 = ການມີສ່ວນຮ່ວມຂອງຊຸມຊົນ ແລະການຕັດສິນໃຈ.
 about-playbook-how-project-governance-content-5 = ມູນຄ່າແລະການຮັບຮູ້.
 about-playbook-how-project-governance-content-6 = ຄວາມຮັບຜິດຊອບເຊິ່ງກັນແລະກັນ.
+about-playbook-how-project-governance-content-7 = <governanceLink>ອ່ານເພີ່ມເຕີມກ່ຽວກັບວິທີທີ່ພວກເຮົາຖືກປົກຄອງ</governanceLink>
 
 ## Glossary
 
@@ -655,8 +658,10 @@ size = ຂະຫນາດ
 validated-hr-total = ກວດ​ສອບ Hr. ທັງໝົດ
 overall-hr-total = ໂດຍລວມ Hr. ທັງໝົດ
 cv-license = ໃບອະນຸຍາດ
+splits = ແຍກ
 size-gigabyte = GB
 size-megabyte = MB
+download-language = ດາວໂຫຼດ { $language }
 whats-inside = ແມ່ນຫຍັງຢູ່ໃນຊຸດຂໍ້ມູນ Common Voice?
 subscribe = ຕິດຕາມ
 community-playbook = ຄູ່ມືຊຸມຊົນ
@@ -693,6 +698,7 @@ other-language = ພາສາອື່ນໆ
 request-language-heading = ຖາມກ່ຽວກັບພາສາໃຫມ່
 request-language-form-email =
     .label = ທີ່ຢູ່ອີເມວຂອງທ່ານ
+request-language-form-info-explanation-list-1 = ຊື່​ພາ​ສາ​ຂອງ​ທ່ານ​
 
 ## Languages Overview
 
@@ -708,6 +714,7 @@ language-validation-hours = ຊົ່ວໂມງ
 ## Contribution
 
 action-click = ຄິກ
+action-tap = ແຕະ
 listen = ຟັງ
 skip = ຂ້າມ
 shortcuts = ທາງລັດ
@@ -721,6 +728,7 @@ record-three-more-instruction = ເຫຼືອອີກ 3!
 clips-uploaded = ອັບໂຫຼດຄິບແລ້ວ
 record-abort-title = ສຳເລັດການບັນທຶກກ່ອນບໍ?
 record-abort-text = ການອອກໄປຕອນນີ້ໝາຍຄວາມວ່າເຈົ້າຈະສູນເສຍຄວາມຄືບໜ້າຂອງເຈົ້າ
+record-button-label = ບັນທຶກສຽງຂອງເຈົ້າ
 target-segment-learn-more = ຮຽນຮູ້ເພີ່ມເຕີມ
 
 ## Reporting
