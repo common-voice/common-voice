@@ -1607,3 +1607,4 @@ partnerships-header = თანამშრომლობა
 partnerships-header-text = Common Voice დიდ ძალისხმევას საჭიროებს! მარტონი ვერ გავუმკლავდებით. გსურთ თანამშრომლობა? მოხარულნი ვიქნებით, თუ შეგვეშველებით.
 partnerships-get-in-touch = დაგვიკავშირდით
 partnerships-become-a-partner = გახდი Common Voice-ის თანამონაწილე
+partnerships-community-header = ერთობა, შემოქმედებითი და სამოქალაქო საზოგადოება
