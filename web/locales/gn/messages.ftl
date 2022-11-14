@@ -1531,5 +1531,8 @@ localization-select =
 # PARTNERSHIPS PAGE
 partnerships-header = Juajuguasu
 partnerships-get-in-touch = Eiméke ñandutípe
+partnerships-become-a-partner = Eiko Common Voice irũramo
+partnerships-community-header = Tekoha, Moheñoihára ha Tekohaygua
+partnerships-foundations-header = Viru’ỹgua
 partnerships-governments-header = Tekuái
 partnerships-our-partners = Ore irũnguéra
