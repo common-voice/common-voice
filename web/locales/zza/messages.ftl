@@ -471,6 +471,7 @@ faq-why-my-lang-a =
     Common Voice platformêkê girseçimeyî yo û pêro ziwanî hetê zerrîwazan ra îlawe benê.
     Ma zaf wazenîme ke ti ziwanê xo îlawer bikerê! <languageRequestLink>Îlawekerdişê ziwanê xo biwaze.</languageRequestLink>
 faq-what-quality-q = Seba ke qeydê vengî komdayeyî de bêro gurenayene, ganî kalîteya vengî senî bo?
+faq-what-quality-a = Ma wazenîme ke komdayeyê Common Voice wayîrê senînîya vengî ya motorê Qiseykerdiş ra bi Nuştişî bo ke hinkufê dorûverêde normalî yo. Coka ma ro bêjbibêjîye gêrenîme. Bi îlaweyê qiseykerdoxanê cîya-cîyayan, komdayeyo bi senînîya vengî ya biferqe do motorê Qiseykerdiş ra bi Nuştişî rê bimusno ke senî şertanê cu yê cîya-cîyayan îdare bikero, mavajîme sey xoşeberanê peyzemînî yan vengê erebeyan. Heta ke qeydê vengî fehm beno, senînîya ê qeydî seba komdaye bes a.
 faq-why-10k-hours-q = Çira hedefê her ziwanî 10,000 saetê qeydê vengî yê tesdîqkerdeyî yê?
 faq-how-calc-hours-q = Common Voice saetan senî hesab keno?
 faq-where-src-from-2-q = Metnê çimeyî kotî ra yenê?
