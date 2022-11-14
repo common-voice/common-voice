@@ -1608,3 +1608,7 @@ partnerships-header-text = Common Voice დიდ ძალისხმევა
 partnerships-get-in-touch = დაგვიკავშირდით
 partnerships-become-a-partner = გახდი Common Voice-ის თანამონაწილე
 partnerships-community-header = ერთობა, შემოქმედებითი და სამოქალაქო საზოგადოება
+partnerships-community-description = ჩვენი ერთობა Common Voice-ის ძირითადი შემადგენელია – შეკრებილი მთელი მსოფლიოდან, რომელთა შორისაც არიან ენათმეცნიერები, ხელოვანები და ენის რიგითი გულშემატკივრები. ვრცლად, თუ როგორ ჩაერთოთ, იხილეთ ჩვენ <about>შესახებ</about> გვერდი და ჩვენი <community>ერთობის სახელმძღვანელო</community>. თუ გსურთ უფრო ღრმა თანამშრომლობა საორგანიზაციო საკითხებში, <emailFragment>შეგვეხმიანეთ.</emailFragment>
+partnerships-foundations-header = ფონდები
+partnerships-foundations-description = ჩვენ ვმუშაობთ ფონდებთან, სამოქალაქო საზოგადოებებთან და ერთობის თანამონაწილეებთან ერთად ინტერნეტის გაჯანსაღებისთვის, განსაკუთრებით აღმოსავლეთ აფრიკაში. დაწვრილებით გაეცანით ჩვენს <programmaticWork>გეგმურ საქმიანობას.</programmaticWork>
+partnerships-governments-header = სამთავრობოები
