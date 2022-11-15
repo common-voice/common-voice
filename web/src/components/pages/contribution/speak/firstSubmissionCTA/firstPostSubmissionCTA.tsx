@@ -4,7 +4,7 @@ import React, { useEffect, useState } from 'react';
 import InputLanguageVariant from '../../../profile/info/languages/input-language-variant';
 import InputLanguageAccents from '../../../profile/info/languages/input-language-accents/input-language-accents';
 
-import { useAPI } from '../../../../../hooks/store-hooks';
+import { useAPI, useLocalStorageState } from '../../../../../hooks/store-hooks';
 import {
   AccentsAll,
   VariantsAll,
@@ -17,16 +17,19 @@ import './firstPostSubmissionCTA.css';
 
 type FirstPostSubmissionCtaProps = {
   locale: string;
+  onReset: () => void;
 };
 
 export const FirstPostSubmissionCta: React.FC<FirstPostSubmissionCtaProps> = ({
   locale,
+  onReset,
 }) => {
   const [areLanguagesLoading, setAreLanguagesLoading] = useState(true);
 
-  const [userLanguages, setUserLanguages] = useState<UserLanguage[]>([
-    { locale, accents: [] },
-  ]);
+  const [userLanguages, setUserLanguages] = useLocalStorageState<
+    UserLanguage[]
+  >([{ locale, accents: [] }], 'userLanguages');
+
   const [accentsAll, setAccentsAll] = useState<AccentsAll>({});
   const [variantsAll, setVariantsAll] = useState<VariantsAll>({});
 
@@ -45,18 +48,22 @@ export const FirstPostSubmissionCta: React.FC<FirstPostSubmissionCtaProps> = ({
 
   return (
     <div className="first-cta-container">
-      <Localized id="first-cta-header-text">
-        <h1 className="header-text">
-          Thank you for donating your voice clips!
-        </h1>
-      </Localized>
+      <div className="header-text-container">
+        <Localized id="first-cta-header-text">
+          <h1 className="header-text">
+            Thank you for donating your voice clips!
+          </h1>
+        </Localized>
+      </div>
 
       <div>
-        <Localized id="first-cta-subtitle-text">
-          <h2 className="subtitle-text">
-            Would you like to share some information about how you speak?
-          </h2>
-        </Localized>
+        <div className="subtitle-text-container">
+          <Localized id="first-cta-subtitle-text">
+            <h2 className="subtitle-text">
+              Would you like to share some information about how you speak?
+            </h2>
+          </Localized>
+        </div>
 
         <div className="form-fields">
           {userLanguages.map(({ locale, accents }) => (
@@ -86,7 +93,8 @@ export const FirstPostSubmissionCta: React.FC<FirstPostSubmissionCtaProps> = ({
         <ExpandableInformation
           summaryLocalizedId="why-donate"
           icon={<QuestionMarkIcon />}
-          hideBorder>
+          hideBorder
+          alignCenter>
           <Localized id="why-donate-explanation-1">
             <p />
           </Localized>
@@ -105,12 +113,16 @@ export const FirstPostSubmissionCta: React.FC<FirstPostSubmissionCtaProps> = ({
           </Button>
         </Localized>
         <Localized id="continue-speaking-button">
-          <Button rounded>No thanks, continue speaking</Button>
+          <Button rounded onClick={onReset}>
+            No thanks, continue speaking
+          </Button>
         </Localized>
       </div>
       <Localized
         id="create-profile-text"
-        elems={{ createProfile: <a href="/login">Create a Profile</a> }}>
+        elems={{
+          createProfile: <a href="/login">Create a Profile</a>,
+        }}>
         <p className="create-profile-text">
           Want to save your information? Create a profile
         </p>

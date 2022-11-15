@@ -15,8 +15,11 @@
     color: var(--blue);
     cursor: pointer;
     display: flex;
-    align-items: center;
-    justify-content: center;
+
+    &.align-center {
+        align-items: center;
+        justify-content: center;
+    }
 
     /* hide small arrow thats default for summary element */
     list-style: none;

@@ -229,6 +229,7 @@ class ContributionPage extends React.Component<Props, State> {
       type,
       user,
       demoMode,
+      showFirstCTA,
     } = this.props;
     const { showReportModal, showShareModal, showShortcutsModal } = this.state;
 
@@ -270,6 +271,7 @@ class ContributionPage extends React.Component<Props, State> {
             'contribution',
             type,
             this.isDone ? 'submittable' : '',
+            showFirstCTA ? 'first-cta-visible' : '',
           ].join(' ')}>
           <div className="top">
             <LocaleLink
@@ -352,7 +354,7 @@ class ContributionPage extends React.Component<Props, State> {
       onPrivacyAgreedChange(evt.target.checked);
     };
 
-    if (isSubmitted) {
+    if (isSubmitted && !showFirstCTA) {
       return <Success onReset={onReset} type={type} />;
     }
 
@@ -469,7 +471,12 @@ class ContributionPage extends React.Component<Props, State> {
           )}
         </div>
 
-        {showFirstCTA && <FirstPostSubmissionCta locale={this.props.locale} />}
+        {showFirstCTA && (
+          <FirstPostSubmissionCta
+            locale={this.props.locale}
+            onReset={onReset}
+          />
+        )}
 
         {instruction({
           vars: { actionType: getString('action-tap') },

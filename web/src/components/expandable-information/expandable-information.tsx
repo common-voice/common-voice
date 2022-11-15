@@ -11,6 +11,7 @@ interface Props {
   children: React.ReactNode;
   icon?: JSX.Element;
   hideBorder?: boolean;
+  alignCenter?: boolean;
 }
 
 const ExpandableInformation = ({
@@ -18,13 +19,17 @@ const ExpandableInformation = ({
   children,
   icon,
   hideBorder,
+  alignCenter,
 }: Props) => {
   return (
     <details
       className={classNames('expandable-information', {
         'hide-border': hideBorder,
       })}>
-      <summary className="expandable-information__summary">
+      <summary
+        className={classNames('expandable-information__summary', {
+          'align-center': alignCenter,
+        })}>
         {icon}
         <Localized id={summaryLocalizedId}>
           <span />

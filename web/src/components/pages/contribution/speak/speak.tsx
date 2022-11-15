@@ -376,109 +376,110 @@ class SpeakPage extends React.Component<Props, State> {
       refreshUser,
     } = this.props;
 
-    // if (!hasAgreed && !(user.privacyAgreed || user.account)) {
-    //   this.setState({ showPrivacyModal: true });
-    //   return false;
-    // }
+    if (!hasAgreed && !(user.privacyAgreed || user.account)) {
+      this.setState({ showPrivacyModal: true });
+      return false;
+    }
 
-    // const clips = this.state.clips.filter(clip => clip.recording);
+    const clips = this.state.clips.filter(clip => clip.recording);
 
-    // removeSentences(clips.map(c => c.sentence.id));
+    removeSentences(clips.map(c => c.sentence.id));
 
-    // this.setState({ clips: [], isSubmitted: true });
+    this.setState({ clips: [], isSubmitted: true });
 
-    // addUploads([
-    //   ...clips.map(({ sentence, recording }) => async () => {
-    //     let retries = 3;
-    //     while (retries) {
-    //       try {
-    //         const {
-    //           showFirstContributionToast = false,
-    //           hasEarnedSessionToast = false,
-    //           showFirstStreakToast = false,
-    //           challengeEnded = true,
-    //         } = await api.uploadClip(
-    //           recording.blob,
-    //           sentence.id,
-    //           this.demoMode
-    //         );
-    //         URL.revokeObjectURL(recording.url);
-    //         try {
-    //           sessionStorage.setItem(
-    //             'challengeEnded',
-    //             JSON.stringify(challengeEnded)
-    //           );
-    //           sessionStorage.setItem('hasContributed', 'true');
-    //         } catch (e) {
-    //           console.warn(`A sessionStorage error occurred ${e.message}`);
-    //         }
+    addUploads([
+      ...clips.map(({ sentence, recording }) => async () => {
+        let retries = 3;
+        while (retries) {
+          try {
+            const {
+              showFirstContributionToast = false,
+              hasEarnedSessionToast = false,
+              showFirstStreakToast = false,
+              challengeEnded = true,
+            } = await api.uploadClip(
+              recording.blob,
+              sentence.id,
+              this.demoMode
+            );
+            URL.revokeObjectURL(recording.url);
+            try {
+              sessionStorage.setItem(
+                'challengeEnded',
+                JSON.stringify(challengeEnded)
+              );
+              sessionStorage.setItem('hasContributed', 'true');
+            } catch (e) {
+              console.warn(`A sessionStorage error occurred ${e.message}`);
+            }
 
-    //         if (showFirstContributionToast) {
-    //           addAchievement(
-    //             50,
-    //             "You're on your way! Congrats on your first contribution.",
-    //             'success'
-    //           );
-    //         }
-    //         if (showFirstStreakToast) {
-    //           addAchievement(
-    //             50,
-    //             'You completed a three-day streak! Keep it up.',
-    //             'success'
-    //           );
-    //         }
-    //         if (
-    //           !JSON.parse(sessionStorage.getItem('challengeEnded')) &&
-    //           JSON.parse(sessionStorage.getItem('hasShared')) &&
-    //           !hasEarnedSessionToast
-    //         ) {
-    //           addAchievement(
-    //             50,
-    //             "You're on a roll! You sent an invite and contributed in the same session.",
-    //             'success'
-    //           );
-    //           sessionStorage.removeItem('hasShared');
-    //           // Tell back-end user get unexpected achievement: invite + contribute in the same session
-    //           // Each user can only get once.
-    //           api.setInviteContributeAchievement();
-    //         }
-    //         if (!user.account) {
-    //           tallyRecording();
-    //         }
-    //         retries = 0;
-    //       } catch (error) {
-    //         let msg;
-    //         if (error.message.includes('save_clip_error')) {
-    //           msg =
-    //             'Upload of this clip keeps failing at server, reload the page or try after sometime';
-    //         } else {
-    //           msg = 'Upload of this clip keeps failing, keep retrying?';
-    //         }
-    //         retries--;
-    //         await new Promise(resolve => setTimeout(resolve, 1000));
-    //         if (retries == 0 && confirm(msg)) {
-    //           retries = 3;
-    //         }
-    //       }
-    //     }
-    //   }),
-    //   async () => {
-    //     trackRecording('submit', locale);
-    //     refreshUser();
-    //     addNotification(
-    //       <>
-    //         <CheckIcon />{' '}
-    //         <Localized id="clips-uploaded">
-    //           <span />
-    //         </Localized>
-    //       </>
-    //     );
-    //   },
-    // ]);
+            if (showFirstContributionToast) {
+              addAchievement(
+                50,
+                "You're on your way! Congrats on your first contribution.",
+                'success'
+              );
+            }
+            if (showFirstStreakToast) {
+              addAchievement(
+                50,
+                'You completed a three-day streak! Keep it up.',
+                'success'
+              );
+            }
+            if (
+              !JSON.parse(sessionStorage.getItem('challengeEnded')) &&
+              JSON.parse(sessionStorage.getItem('hasShared')) &&
+              !hasEarnedSessionToast
+            ) {
+              addAchievement(
+                50,
+                "You're on a roll! You sent an invite and contributed in the same session.",
+                'success'
+              );
+              sessionStorage.removeItem('hasShared');
+              // Tell back-end user get unexpected achievement: invite + contribute in the same session
+              // Each user can only get once.
+              api.setInviteContributeAchievement();
+            }
+            if (!user.account) {
+              tallyRecording();
+            }
+            retries = 0;
+          } catch (error) {
+            let msg;
+            if (error.message.includes('save_clip_error')) {
+              msg =
+                'Upload of this clip keeps failing at server, reload the page or try after sometime';
+            } else {
+              msg = 'Upload of this clip keeps failing, keep retrying?';
+            }
+            retries--;
+            await new Promise(resolve => setTimeout(resolve, 1000));
+            if (retries == 0 && confirm(msg)) {
+              retries = 3;
+            }
+          }
+        }
+      }),
+      async () => {
+        trackRecording('submit', locale);
+        refreshUser();
+        addNotification(
+          <>
+            <CheckIcon />{' '}
+            <Localized id="clips-uploaded">
+              <span />
+            </Localized>
+          </>
+        );
+      },
+    ]);
+
+    // display firstCTA
+    this.setState({ showFirstCTA: true });
 
     // return true;
-    console.log('hello');
-    this.setState({ showFirstCTA: true });
   };
 
   private resetState = (callback?: any) =>

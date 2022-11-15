@@ -1,18 +1,24 @@
 .first-cta-container {
     position: absolute;
-    top: 15%;
+    top: 20%;
     left: 15%;
     background: rgba(229, 229, 229, 0);
     width: 70%;
     height: 65%;
     z-index: 10;
-    margin-top: 80px;
 
-    .header-text {
-        font-size: 36px;
-        font-weight: 400;
-        text-align: center;
+    .header-text-container {
         margin-bottom: 80px;
+
+        @media (--xs-down) {
+            margin-bottom: 40px;
+        }
+
+        .header-text {
+            font-size: 36px;
+            font-weight: 400;
+            text-align: center;
+        }
     }
 
     .subtitle-text {
@@ -22,7 +28,9 @@
 
     .form-fields {
         .language-wrap {
-            width: 60%;
+            @media (--lg-up) {
+                width: 60%;
+            }
             margin: 0 auto;
             display: flex;
 
@@ -61,11 +69,13 @@
     }
 
     .expandable-infomation-wrapper {
-        display: flex;
-        justify-content: center;
-        text-align: center;
-        width: 650px;
-        margin: 0 auto;
+        @media (--lg-up) {
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            width: 650px;
+            margin: 0 auto;
+        }
     }
 
     .expandable-information__text {
@@ -90,6 +100,12 @@
         flex-direction: column;
         align-items: center;
         margin-bottom: 25px;
+
+        .button {
+            @media (--md-up) {
+                width: auto;
+            }
+        }
     }
 
     .create-profile-text {
