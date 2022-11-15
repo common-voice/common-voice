@@ -10,3 +10,7 @@ get-involved-email =
 get-involved-opt-in = Waaw, yónnéema ay emails. Dama bëggóon a teewlu jëm-kanamug kàllaama bi ci Common Voice.
 get-involved-submit = Yónnée
 get-involved-stayintouch = Nun, ci Mozilla, nungi taxawal ab kippango ci wàllu xarala yuy jëfandikoo ay waat. Danoo bëggóon a jokkalante ak yeesal yi, fii jumtukaay yi di jugé ta dolli teewlu ni ngéenii jëfandikoo yilé jumtukaay.
+get-involved-privacy-info = Fasnanu yéené téyé bu baax bataaxal yi ngéen nu dénk. Mën ngaa gën a jàng ci sunu <privacyLink> Yoonu Denc</privacyLink> fii.
+get-involved-success-title = Sa bindu ngir jàpp ci { $language } jàll na. Jërëjëf.
+get-involved-success-text = Dinanu jokkoo ngir yeneen i yëglé saa yu yees amee.
+get-involved-return-to-languages = Dellu ci Kàllaama yi
