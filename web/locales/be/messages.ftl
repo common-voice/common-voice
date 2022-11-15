@@ -767,6 +767,9 @@ request-language-form-email =
     .label = Ваш адрас электроннай пошты
 request-language-form-info =
     .label = Інфармацыя пра мову
+request-language-form-info-explanation =
+    Дадайце як мага больш інфармацыі пра мову. Гэта
+    можа ўключаць:
 request-language-form-info-explanation-list-1 = Назвы вашай мовы
 request-language-form-info-explanation-list-2 = <isoCodeLink>ISO-коды</isoCodeLink>, калі вядомыя
 request-language-form-info-explanation-list-3 = Спасылкі на вэб-сайты, якія могуць дапамагчы нам зразумець мову
@@ -1176,6 +1179,7 @@ sc-my-delete = Выдаліць выбраныя сказы
 
 ## REJECTED
 
+sc-rejected-title = Адхіленыя сказы
 
 ## STATS
 
@@ -1196,11 +1200,14 @@ sc-submit-ph-one-per-line =
 
 ## ADD LANGUAGE
 
+sc-add-lang-could-not-add = Не атрымалася дадаць мову
 sc-add-lang-sec-label = Дадайце мову, да якой вы хочаце зрабіць унёсак
 sc-add-lang-sec-button = Дадаць мову
 
 ## ADD SENTENCES CONFIRMATION
 
+sc-confirm-sentences-title = Пацвердзіце новыя сказы
+sc-confirm-button-text = Пацвердзіць
 
 ## LANGUAGE INFO
 
@@ -1209,6 +1216,7 @@ sc-lang-info-title-personal = Асабістая
 
 ## LOGIN
 
+sc-login-err-failed = Няўдача ўваходу
 sc-login-err-try-again = Паспрабуйце зноў.
 
 ## PROFILE
@@ -1241,3 +1249,4 @@ sc-settings-title = Налады
 
 # [/SentenceCollector]
 
+partnerships-our-partners = Нашы партнёры
