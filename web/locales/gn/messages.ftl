@@ -1536,4 +1536,6 @@ partnerships-community-header = Tekoha, Moheñoihára ha Tekohaygua
 partnerships-foundations-header = Viru’ỹgua
 partnerships-governments-header = Tekuái
 partnerships-academia-header = Mbo’ehaovusu, Mbo’ekuaahára ha Taperekahára
+partnerships-small-business-header = Mba’apohaguasu michĩvéva, oĩhápe mba’apohaguasu pyahu tembipurupyahugua ha IA
+partnerships-corporates-header = Mba’apohaguasu tuicháva ha pyendavusugua
 partnerships-our-partners = Ore irũnguéra
