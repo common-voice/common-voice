@@ -477,6 +477,11 @@ faq-why-10k-hours-a = Teqrîben hende saetî lazim ê ke merdim sîstemêkê Qis
 faq-how-calc-hours-q = Common Voice saetan senî hesab keno?
 faq-how-calc-hours-a = Seba hesabkerdişê saetan, ma dergîya averajî yê her qeydê vengî texmîn kenîme û na hûmare bi hûmara heme qeydanê heme ziwanan reykî kenîme.
 faq-where-src-from-2-q = Metnê çimeyî kotî ra yenê?
+faq-where-src-from-2-a =
+    Metnê ma yê çimeyî di çimeyan ra yenê pêra: bexişanê orîjînalan yê beşdaranê ma ra û dîyaloganê senaryoyanê fîlman ra ke rayapêroyî rê akerde yê, sey fîlmê <italic>It’s a Wonderful Life</italic>.
+    
+    Metnê ma yê çimeyî na <githubLink>dosyaya GitHubî</githubLink> de yenê dîyene.
+faq-why-not-ask-read-q = Şima çira miletî ra nêwazenê ke kitab yan zî meqaleyanê Wîkîpedîa yê bi yewna ziwan ra biwanê?
 faq-why-account-q = Ez çira hesabêk akerî?
 faq-is-account-public-q = Tirêm melumatê hesabê mi her kesî rê aseno?
 faq-what-is-cv = Common Voice çi yo?
