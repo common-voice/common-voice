@@ -1530,6 +1530,7 @@ localization-select =
     .label = Eiporavo ñe’ẽ/moñe’ẽasa
 # PARTNERSHIPS PAGE
 partnerships-header = Juajuguasu
+partnerships-header-text = ¡Tekotevẽ heta mba’e Common Voice oiko hag̃ua! Ndorojapói oreaño. ¿Ejuajusepa orendive? Roikuaaseve ndehegui.
 partnerships-get-in-touch = Eiméke ñandutípe
 partnerships-become-a-partner = Eiko Common Voice irũramo
 partnerships-community-header = Tekoha, Moheñoihára ha Tekohaygua
