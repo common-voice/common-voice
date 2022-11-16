@@ -856,7 +856,7 @@ request-language-error =
 
 ## Languages Overview
 
-language-section-in-progress = В процесі
+language-section-in-progress = У процесі
 language-section-in-progress-new-description = Наразі ці мови розвиваються спільнотою. Індикатори досягнень вказують на успіхи <localizationGlossaryLink>локалізації вебсайту</localizationGlossaryLink> та <sentenceCollectionGlossaryLink>зборі речень</sentenceCollectionGlossaryLink> для кожної мови.
 language-section-launched = Запущено
 language-section-launched-description = Для цих мов вебсайт успішно <localizationGlossaryLink>локалізовано</localizationGlossaryLink>, і зібрано достатньо <sentenceCollectionGlossaryLink>речень</sentenceCollectionGlossaryLink>, щоб почати збір <speakLink>озвучувань</speakLink> та <listenLink>перевірку записів</listenLink>.
