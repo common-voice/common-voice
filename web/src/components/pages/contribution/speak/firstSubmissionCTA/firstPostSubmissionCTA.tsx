@@ -4,7 +4,13 @@ import React, { useEffect, useState } from 'react';
 import InputLanguageVariant from '../../../profile/info/languages/input-language-variant';
 import InputLanguageAccents from '../../../profile/info/languages/input-language-accents/input-language-accents';
 
-import { useAPI, useLocalStorageState } from '../../../../../hooks/store-hooks';
+import { User } from '../../../../../stores/user';
+import {
+  useAction,
+  useAPI,
+  useLocalStorageState,
+} from '../../../../../hooks/store-hooks';
+import { Notifications } from '../../../../../stores/notifications';
 import {
   AccentsAll,
   VariantsAll,
@@ -15,20 +21,29 @@ import { Button } from '../../../../ui/ui';
 
 import './firstPostSubmissionCTA.css';
 
+export const USER_LANGUAGES = 'userLanguages';
+
 type FirstPostSubmissionCtaProps = {
   locale: string;
   onReset: () => void;
+  hideVisibility: () => void;
+  addNotification: typeof Notifications.actions.addPill;
+  successUploadMessage: string;
 };
 
 export const FirstPostSubmissionCta: React.FC<FirstPostSubmissionCtaProps> = ({
   locale,
   onReset,
+  hideVisibility,
+  addNotification,
+  successUploadMessage,
 }) => {
+  const saveAccount = useAction(User.actions.saveAccount);
   const [areLanguagesLoading, setAreLanguagesLoading] = useState(true);
 
   const [userLanguages, setUserLanguages] = useLocalStorageState<
     UserLanguage[]
-  >([{ locale, accents: [] }], 'userLanguages');
+  >([{ locale, accents: [] }], USER_LANGUAGES);
 
   const [accentsAll, setAccentsAll] = useState<AccentsAll>({});
   const [variantsAll, setVariantsAll] = useState<VariantsAll>({});
@@ -45,6 +60,18 @@ export const FirstPostSubmissionCta: React.FC<FirstPostSubmissionCtaProps> = ({
       });
     }
   }, []);
+
+  const handleAddInformationClick = () => {
+    const data = {
+      languages: userLanguages,
+    };
+
+    saveAccount(data);
+
+    onReset();
+    hideVisibility();
+    addNotification(successUploadMessage, 'success');
+  };
 
   return (
     <div className="first-cta-container">
@@ -108,7 +135,10 @@ export const FirstPostSubmissionCta: React.FC<FirstPostSubmissionCtaProps> = ({
       </div>
       <div className="submission-buttons">
         <Localized id="add-information-button">
-          <Button rounded className="add-information-button">
+          <Button
+            rounded
+            className="add-information-button"
+            onClick={handleAddInformationClick}>
             Add information
           </Button>
         </Localized>

@@ -34,6 +34,7 @@ import AudioWeb, { AudioError, AudioInfo } from './audio-web';
 import RecordingPill from './recording-pill';
 import { SentenceRecording } from './sentence-recording';
 import SpeakErrorContent from './speak-error-content';
+import { USER_LANGUAGES } from './firstSubmissionCTA/firstPostSubmissionCTA';
 
 import './speak.css';
 
@@ -98,6 +99,8 @@ const initialState: State = {
   showFirstCTA: false,
 };
 
+const SEEN_FIRST_CTA = 'seenFirstCTA';
+
 class SpeakPage extends React.Component<Props, State> {
   state: State = {
     ...initialState,
@@ -145,6 +148,10 @@ class SpeakPage extends React.Component<Props, State> {
   componentDidMount() {
     const { loadSentences } = this.props;
     loadSentences();
+
+    if (localStorage.getItem(USER_LANGUAGES)) {
+      localStorage.removeItem(USER_LANGUAGES);
+    }
 
     this.audio = new AudioWeb();
     this.audio.setVolumeCallback(this.updateVolume.bind(this));
@@ -476,10 +483,16 @@ class SpeakPage extends React.Component<Props, State> {
       },
     ]);
 
-    // display firstCTA
-    this.setState({ showFirstCTA: true });
+    const hasSeenFirstCTA = window.sessionStorage.getItem(SEEN_FIRST_CTA);
 
-    // return true;
+    // display first CTA screen if it has not been seen it before
+    // and the user does not have an account
+    if (hasSeenFirstCTA !== 'true' && !user.account) {
+      this.setState({ showFirstCTA: true });
+      window.sessionStorage.setItem(SEEN_FIRST_CTA, 'true');
+    }
+
+    return true;
   };
 
   private resetState = (callback?: any) =>
@@ -502,6 +515,24 @@ class SpeakPage extends React.Component<Props, State> {
       showPrivacyModal: false,
       showDiscardModal: !this.state.showDiscardModal,
     });
+  };
+
+  private hideFirstCTA = () => {
+    this.setState({
+      showFirstCTA: false,
+    });
+  };
+
+  private handleSubmit = (evt: React.SyntheticEvent) => {
+    const hasSeenFirstCTA = window.sessionStorage.getItem(SEEN_FIRST_CTA);
+
+    evt.preventDefault();
+    this.upload();
+
+    // Reset for unauthenticated users who have seen the first CTA so they can see new clips to record
+    if (!this.props.user.account && hasSeenFirstCTA) {
+      this.resetState();
+    }
   };
 
   private resetAndGoHome = () => {
@@ -654,15 +685,13 @@ class SpeakPage extends React.Component<Props, State> {
             isSubmitted={isSubmitted}
             onReset={() => this.resetState()}
             onSkip={this.handleSkip}
-            onSubmit={evt => {
-              evt.preventDefault();
-              this.upload();
-            }}
+            onSubmit={this.handleSubmit}
             onPrivacyAgreedChange={(privacyAgreed: boolean) =>
               this.onPrivacyAgreedChange(privacyAgreed)
             }
             privacyAgreedChecked={this.state.privacyAgreedChecked}
             showFirstCTA={this.state.showFirstCTA}
+            hideFirstCTA={this.hideFirstCTA}
             primaryButtons={
               <RecordButton
                 trackClass="speak-record"

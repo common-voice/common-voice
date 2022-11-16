@@ -31,8 +31,13 @@
             @media (--lg-up) {
                 width: 60%;
             }
+
             margin: 0 auto;
             display: flex;
+
+            @media (--sm-down) {
+                flex-direction: column;
+            }
 
             label {
                 margin-right: 10px;

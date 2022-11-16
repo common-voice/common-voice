@@ -31,9 +31,10 @@ import ShareModal from '../../share-modal/share-modal';
 import { ReportButton, ReportModal, ReportModalProps } from './report/report';
 import Success from './success';
 import Wave from './wave';
+import { FirstPostSubmissionCta } from './speak/firstSubmissionCTA/firstPostSubmissionCTA';
+import { Notifications } from '../../../stores/notifications';
 
 import './contribution.css';
-import { FirstPostSubmissionCta } from './speak/firstSubmissionCTA/firstPostSubmissionCTA';
 
 export const SET_COUNT = 5;
 
@@ -52,7 +53,14 @@ interface PropsFromState {
   user: User.State;
 }
 
-interface Props extends WithLocalizationProps, PropsFromState {
+interface PropsFromDispatch {
+  addNotification: typeof Notifications.actions.addPill;
+}
+
+interface Props
+  extends WithLocalizationProps,
+    PropsFromState,
+    PropsFromDispatch {
   demoMode: boolean;
   activeIndex: number;
   hasErrors: boolean;
@@ -67,10 +75,11 @@ interface Props extends WithLocalizationProps, PropsFromState {
   isSubmitted: boolean;
   onReset: () => any;
   onSkip: () => any;
-  onSubmit?: (evt: React.SyntheticEvent) => any;
+  onSubmit?: (evt?: React.SyntheticEvent) => void;
   onPrivacyAgreedChange?: (privacyAgreed: boolean) => void;
   privacyAgreedChecked?: boolean;
   showFirstCTA?: boolean;
+  hideFirstCTA?: () => void;
   primaryButtons: React.ReactNode;
   pills: ((props: ContributionPillProps) => React.ReactNode)[];
   sentences: Sentence[];
@@ -345,6 +354,7 @@ class ContributionPage extends React.Component<Props, State> {
       onPrivacyAgreedChange,
       privacyAgreedChecked,
       showFirstCTA,
+      user,
     } = this.props;
     const { selectedPill } = this.state;
 
@@ -471,10 +481,13 @@ class ContributionPage extends React.Component<Props, State> {
           )}
         </div>
 
-        {showFirstCTA && (
+        {!user.account && showFirstCTA && (
           <FirstPostSubmissionCta
             locale={this.props.locale}
             onReset={onReset}
+            hideVisibility={this.props.hideFirstCTA}
+            addNotification={this.props.addNotification}
+            successUploadMessage={getString('thanks-for-voice-toast')}
           />
         )}
 
@@ -578,10 +591,13 @@ class ContributionPage extends React.Component<Props, State> {
   }
 }
 
-export default connect<PropsFromState>(
+export default connect<PropsFromState, PropsFromDispatch>(
   ({ flags, locale, user }: StateTree) => ({
     flags,
     locale,
     user,
-  })
+  }),
+  {
+    addNotification: Notifications.actions.addPill,
+  }
 )(withLocalization(ContributionPage));

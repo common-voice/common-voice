@@ -1566,3 +1566,4 @@ why-donate-explanation-3 = To make sure we're building fair, equitable A.I., we 
 add-information-button = Add information
 continue-speaking-button = No thanks, continue speaking
 create-profile-text = Want to save your information? <createProfile>Create a profile</createProfile>
+thanks-for-voice-toast = Thank you for your voice information
