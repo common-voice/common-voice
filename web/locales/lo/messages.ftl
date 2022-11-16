@@ -742,6 +742,7 @@ record-abort-text = ການອອກໄປຕອນນີ້ໝາຍຄວາ
 record-abort-continue = ສຳເລັດການບັນທຶກ
 record-button-label = ບັນທຶກສຽງຂອງເຈົ້າ
 target-segment-first-card = ທ່ານກຳລັງປະກອບສ່ວນເຂົ້າໃນກຸ່ມເປົ້າໝາຍທຳອິດຂອງພວກເຮົາ
+target-segment-generic-card = ທ່ານກຳລັງປະກອບສ່ວນເຂົ້າໃນກຸ່ມເປົ້າໝາຍ
 target-segment-add-voice = ເພີ່ມສຽງຂອງເຈົ້າ
 target-segment-learn-more = ຮຽນຮູ້ເພີ່ມເຕີມ
 
