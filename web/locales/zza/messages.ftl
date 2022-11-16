@@ -475,6 +475,7 @@ faq-what-quality-a = Ma wazenîme ke komdayeyê Common Voice wayîrê senînîya
 faq-why-10k-hours-q = Çira hedefê her ziwanî 10,000 saetê qeydê vengî yê tesdîqkerdeyî yê?
 faq-why-10k-hours-a = Teqrîben hende saetî lazim ê ke merdim sîstemêkê Qiseykerdişî ra bi Nuştişî bi hawayêko produktîf perwerde bikero.
 faq-how-calc-hours-q = Common Voice saetan senî hesab keno?
+faq-how-calc-hours-a = Seba hesabkerdişê saetan, ma dergîya averajî yê her qeydê vengî texmîn kenîme û na hûmare bi hûmara heme qeydanê heme ziwanan reykî kenîme.
 faq-where-src-from-2-q = Metnê çimeyî kotî ra yenê?
 faq-why-account-q = Ez çira hesabêk akerî?
 faq-is-account-public-q = Tirêm melumatê hesabê mi her kesî rê aseno?
