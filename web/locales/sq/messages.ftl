@@ -14,6 +14,9 @@ email-opt-in-info-sub-with-challenge = Merrni email-e të tillë si kujtues obje
 email-opt-in-privacy-v2 = Duke zgjedhur të merrni email-e, deklaroni se pajtoheni me përdorimin nga Mozilla të këtyre të dhënave, ashtu siç shpjegohet te <privacyLink>Rregulla Privatësie<privacyLink> të Mozilla-s.
 indicates-required = * tregon një fushë të domosdoshme
 not-available-abbreviation = N/A
+banner-error-slow-1 = Na ndjeni, Common Voice po xhiron ngadalë. Faleminderit për interesin e treguar.
+banner-error-slow-2 = Po marrim shumë trafik dhe aktualisht po hetojmë problemet.
+banner-error-slow-link = Faqe Gjendjeje
 error-something-went-wrong = Na ndjeni, diç shkoi ters
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
@@ -525,9 +528,18 @@ about-playbook-what-is-language = Ç’është një gjuhë në Common Voice?
 about-playbook-how-add-language = Si ta shtoj një gjuhë?
 about-playbook-how-add-language-translating-heading = Përkthimi i këtij sajti
 about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Shihni udhërrëfyesin tonë se si të përdoret Pontoon-i.</translateVideoLink>
+about-playbook-how-add-language-translating-content-2 =
+    Për përkthime ne përdorim një mjet të Mozilla-s të quajtur <pontoonLink>Pontoon</pontoonLink>. Pontoon-i përmban plot gjuhë,
+    por nëse s’ka tuajën, mund të <pontoonRequestLink>kërkoni shtimin e gjuhës tuaj</pontoonRequestLink>.
+    Mandej, për ta bërë gjuhën të përdorshme në projektin Common Voice,
+    <githubRepoLink>kërkojeni gjuhën e re nën GitHub</githubRepoLink>. <localizationFragment>Shihni më tepër mbi përkthim sajti</localizationFragment>.
+about-playbook-how-add-language-collecting-sentences-heading = Mbledhje togfjalëshash
+about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>Shihni udhërrëfyesin tonë mbi përdorimin e Mbledhësit të Togfjalëshave</sentenceCollectorVideo>.
 
 ## How does localization work
 
+about-playbook-how-localize = Si funksionon puna e përkthimit të sajtit?
+about-playbook-how-localize-content-1 = Përkthimi i sajtit Common Voice zhvillohet në <strong>Pontoon</strong>.
 about-playbook-how-localize-content-4 = Sajti është gati për t’u hedhur në qarkullim kur mbërrin plotësim 75%.
 about-playbook-how-localize-content-5 = Për ndihmë, shihni videon tonë shpjeguese
 
@@ -689,6 +701,17 @@ other-language = Gjuhë Tjetër
 
 ## Request Language Pages
 
+request-language-form-email =
+    .label = Adresa juaj email
+request-language-form-info =
+    .label = Hollësi mbi gjuhën
+request-language-form-info-explanation-list-1 = Emra të gjuhës suaj
+request-language-form-info-explanation-list-2 = <isoCodeLink>Kode ISO</isoCodeLink> nëse njihen
+request-language-form-info-explanation-list-3 = Lidhje te sajte që mund të na ndihmojnë të kuptojmë gjuhën
+request-language-google-recaptcha-required = reCAPTCHA është e domosdoshme, nëse doni të ecni më tej
+request-language-google-recaptcha-error = Diç shkoi ters me reCAPTCHA-n. Ju lutemi, riprovoni.
+# Success page
+request-language-success-heading = Faleminderi! Dërguat një kërkesë për gjuhë të re
 
 ## Languages Overview
 
@@ -705,6 +728,8 @@ language-search-input =
 language-speakers = Folës
 localized = E përkthyer
 sentences = Fraza
+language-validation-hours = Orë
+language-validation-progress = Ecuri Vleftësimi
 
 ## Contribution
 
@@ -1094,6 +1119,12 @@ sc-howto-addsen-title = Shtoni togfjalësha të rinj
 sc-howto-addsen-item-1 = Krejt togfjalëshat që parashtroni duhet të jenë nën <wikipediaLink>licencë Përkatësie Publike (CC-0)</wikipediaLink>. SI mbështetje për përfshirjen e punëve jo nën licencë publike, kemi krijuar një <cc0WaiverLink>gjedhe Marrëveshjeje Kontributesh</cc0WaiverLink> për punë për të cilat zotëruesi i të drejtave të kopjimit do të donte ta kontribuonte materialin për projektin Common Voice.
 sc-howto-addsen-item-2 = Numra. S’duhet të ketë shifra te teksti burim, ngaqë mund të shkaktojnë probleme, kur lexohen me zë. Mënyra se si lexohet një numër varet nga konteksti dhe mund të sjellë ngatërresë te grupi i të dhënave. Për shembull, numri “2409” mund të lexohet edhe si “njëzetekatër zero nëntë”, edhe si “dymijë e katërqind e nëntë”.
 sc-howto-addsen-item-3 = Shkurtime dhe Akronime. Shkurtimet dhe akronimet, bie fjala, “USA” ose “ICE” duhen shmangur te teksti burim, ngaqë mund të lexohen në një mënyrë që nuk përputhet me shqiptimin e tyre. Përveç kësaj, mund të ketë disa lexime të sakta për një shkurtim të vetëm. Për shembull, akronimi “ICE” mund të shqiptohet “I-C-E”, ose si një fjalë e vetme.
+sc-howto-cite-item-1 = Mund të përfshinit sajtin, p.sh., “Common Voice - https://commonvoice.mozilla.org/”
+sc-howto-review-title = Shqyrtoni Togfjalësha
+sc-howto-review-subtitle = Sigurohuni se togfjalëshi plotëson kushtet vijuese:
+sc-howto-review-criteria-1 = Togfjalëshi duhet shkruar si duhet.
+sc-howto-review-criteria-2 = Togfjalëshi duhet të jetë i saktë gramatikisht.
+sc-howto-review-criteria-3 = Togfjalëshi duhet të jetë i shqiptueshëm.
 sc-howto-review-criteria-6 = Nëse ju mbarohen togfjalëshat për shqyrtim, ju lutemi, ndihmonani të grumbullojmë më tepër fjali!
 sc-howto-findpd-title = Gjetje togfjalëshash  ekzistues nën Përkatësi Publike
 sc-howto-findpd-subtitle = Kërkoni për ta në Internet
@@ -1225,6 +1256,8 @@ sc-confirm-uploading = Togfjalëshat po ngarkohen. Kjo mund të dojë disa minut
 
 ## LANGUAGE INFO
 
+sc-lang-info-title-total = Gjithsej
+sc-lang-info-title-personal = Personale
 # Variables:
 #   $totalSentences (Number) - Number of sentences uploaded in total for this language
 sc-lang-info-total =
@@ -1344,3 +1377,14 @@ sc-validation-no-abbreviations = Togfjalëshi s’duhet të përmbajë shkurtime
 
 # [/SentenceCollector]
 
+localization-select =
+    .label = Zgjidhni gjuhë/përkthim
+# PARTNERSHIPS PAGE
+partnerships-header = Bashkëpunime
+partnerships-get-in-touch = Lidhuni
+partnerships-become-a-partner = Bëhuni një Partner i Common Voice-it
+partnerships-community-header = Bashkësi, Krijues dhe Shoqëri Civile
+partnerships-foundations-header = Fondacione
+partnerships-governments-header = Qeveri
+partnerships-academia-header = Universitete, Akaademikë dhe Kërkues
+partnerships-our-partners = Partnerët Tanë
