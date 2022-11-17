@@ -227,6 +227,10 @@ help = Dɛmɛ
 contact = Ka wele
 privacy = Daamu
 terms = Bɛnkanw
+cookies = Kukisɛw
+faq = Ɲininkaliw
+content-license-text = Kɔnɔkow bɛ sɔrɔ <licenseLink>Creative Commons ka lase</licenseLink> kɔnɔ
+share-title = An dɛmɛ ka mɔgɔ wɛrɛw sɔrɔ walasa k’u kan di!
 
 ## Home Page
 
