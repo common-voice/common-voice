@@ -663,8 +663,12 @@ dataset-description-hours =
 subscribe = Abone be
 other-datasets = Komdayeyê vengî yê bînî
 feedback-q = Pêşnîyaza to est a?
+community-playbook = Raybernameyê Komelî
 your-feedback = Teba fikrê to est o ke ma komdayeyê Common Voice senî rindêr bikerîme? Discourse ser o ma ra vaje!
+go-discourse = Şo Dîscourse
+missing-language = Ti ziwanê xo komdayeyî de nêvînenî/a? Seba waştişê ziwanêk, şo Rîpelê ma yê Ziwanan.
 go-languages-page = Şo rîpelê ziwanan
+ready-to-validate = Ti hazir î/a cumleyan tesdîq bikerê?
 more = Hîna zaf
 close = Pade
 download = Bîya war
@@ -672,6 +676,8 @@ dataset-version = Versîyon
 
 ## Download Modal
 
+download-title = Warardişê to dest pêkerd.
+download-helpus = Dest bide ma ke komelêkê teknolojîya vengî ronîme. E-maîl ra ma de têkilîye de bimane.
 download-form-email =
     .label = E-maîlê xo binuse
     .value = Weş be, ma to xeberdar kenîme.
@@ -692,6 +698,7 @@ contact-required = *mecburî
 request-language-title = Waştişê Ziwanî
 request-language-form-language =
     .label = Ziwan
+request-language-success-title = Waştişnameyê ziwanî bi hawayêko serkewte rusnîya, weş be.
 select-language = Ziwanêk weçîne...
 other-language = Ziwanêko bîn
 
@@ -703,13 +710,19 @@ request-language-form-email =
 request-language-form-info =
     .label = Derheqê ziwanî de melumat
 request-language-form-info-explanation-list-1 = Nameyê ziwanê to
+request-language-form-info-explanation-list-2 = <isoCodeLink>Kodê ISO</isoCodeLink>, eke zanîyeno
+request-language-form-info-explanation-list-3 = Lînkê keyepelan ke fehmkerdişê ziwanî de hetkarîya ma kenê
+request-language-google-recaptcha-required = Seba dewamkerdişî, reCAPTCHA lazim a
+request-language-google-recaptcha-error = reCAPTCHA de problemêk qewimîya. Keremê xo ra reyna biceribne.
+# Success page
+request-language-success-heading = Weş be! To waştişnameyê ziwanêkê neweyî rusna
 
 ## Languages Overview
 
 language-section-in-progress = Hawo Virazîyenê
 language-section-in-progress-new-description = Nê ziwanî no dem hetê komelî ra yenê averberdene. Seba weşanayîşî, <localizationGlossaryLink>çarnayîşê keyepelî</localizationGlossaryLink> û <sentenceCollectionGlossaryLink>arêdayîşê cumleyan</sentenceCollectionGlossaryLink> lazim ê.
 language-section-launched = Weşanîyayî
-language-section-launched-description = Nê ziwananê weşanîyayeyan de keyepel bi hawayêko serkewte <localizationGlossaryLink>çarnîyayo</localizationGlossaryLink> û bes cumleyî <sentenceCollectionGlossaryLink>arê dîyayê</sentenceCollectionGlossaryLink> ke beşdarî dewam ra bieşkê <speakLink>qisey bikerê</speakLink> û <listenLink>goşdarî bikerê</listenLink>.
+language-section-launched-description = Nê ziwananê weşanîyayeyan de keyepel bi hawayêko serkewte <localizationGlossaryLink>çarnîya</localizationGlossaryLink> û bes cumleyî <sentenceCollectionGlossaryLink>arê dîyayî</sentenceCollectionGlossaryLink> ke beşdarî dewam ra bieşkê <speakLink>qisey bikerê</speakLink> û <listenLink>goşdarî bikerê</listenLink>.
 languages-show-more = Hîna Zaf Bivîne
 languages-show-less = Kêmî Bivîne
 language-meter-in-progress = Averşîyayîş
@@ -740,6 +753,7 @@ contribute-more =
     }
 record-cta = Dest bi qeydî bike
 record-platform-not-supported = Çi heyf o ke platformê to nika nêno destekkerdene.
+record-platform-not-supported-desktop = Cîhazanê serekranî ser o ti bi nê warardişî ra eşkenî beşdar bibê:
 record-platform-not-supported-ios-non-safari = Seba ke iOS ser o qeyd bikerê, keremê xo ra Safari de dewam bike
 record-must-allow-microphone = Ganî ti destûr bidê mîkrofonî.
 record-no-mic-found = Mîkrofon nêame dîyene.
