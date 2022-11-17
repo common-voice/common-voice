@@ -431,7 +431,7 @@ remove-avatar = Avatarî biestire
 ## Profile - Email
 
 manage-subscriptions = Aboneyîyan îdare bike
-manage-email-subscriptions = Aboneyîyan e-maîlî îdare bike
+manage-email-subscriptions = Aboneyîyanê e-maîlî îdare bike
 email-already-used = No e-maîl xora yewna hesab de xebitnîyeno
 add-language = Ziwanêk îlawe bike
 change-email-setings = E-maîlê xo Eyaran de binê Nasnameyê Dekewtişî de bivurne
@@ -960,6 +960,7 @@ sc-home-collect-text = Hetê ma bike û cumleyan yan binuse yan zî arê bide.
 sc-howto-title = Senî beno
 sc-howto-cite-title = Senî neql bibo?
 sc-howto-review-title = Çim biçarne cumleyan
+sc-howto-review-subtitle = Baldar be ke cumle rîayetê nê krîteran bikero:
 
 ## MY SENTENCES
 
