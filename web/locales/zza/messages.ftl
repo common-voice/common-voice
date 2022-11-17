@@ -884,19 +884,24 @@ help-reach-hours-general-pluralized =
 set-a-goal = Xo rê hedefêk rone
 cant-decide = Nêeşkenî/a qerar bidê?
 activity-needed-calculation-plural =
-    { NUMBER($totalHours) ->
+    { NUMBER($people) ->
        *[other] Eke { $people } kesî
-    }{ NUMBER($periodMonths) ->
-       *[other] roje de { $clipsPerDay } qeydê vengî virazenê
-    } { NUMBER($people) ->
-       *[other] { $periodMonths } aşman de
     } { NUMBER($clipsPerDay) ->
+       *[other] roje de { $clipsPerDay } qeydanê vengî virazenê
+    } { NUMBER($periodMonths) ->
+       *[other] { $periodMonths } aşman de
+    } { NUMBER($totalHours) ->
        *[other] { $totalHours } saetî mumkîn ê.
     }
+how-many-per-day = Zaf rind o! Roje de çend qeydî?
+how-many-a-week = Zaf rind o! Hewte de çend qeydî?
+which-goal-type = Ti wazenî/a qisey kerê, goşdarî bikerê yan zî her di?
 n-clips-pluralized =
     { NUMBER($count) ->
        *[other] { $count } qeydê vengî
     }
+confirm-goal = Hedefî tesdîq bike
+goal-interval-weekly = Hewte de
 share-goal-type-speak = Qiseykerdiş
 share-goal-type-listen = Goşdarkerdiş
 share-goal-type-both = Qiseykerdiş û Goşdarkerdiş
@@ -913,9 +918,11 @@ profile-form-delete = Profîlê xo biestire
 download-profile-title = Profîl
 download-profile-info = Tede e-maîl, nameyê xebitnayoxî û melumato demgrafîk est ê. Desinde yeno warardene.
 download-recordings-title = Qeydî
+download-recordings-size = Normal de tayê megabaytî
 download-size = Girsîye
 download-selected = Weçînite
 download-request-button = Bîya war
+download-request-title = { $created }
 download-request-refresh-button = Newe bike
 download-request-modal-title = Lînkê Warardişî
 download-request-link-text = Zîp: { $total } ra { $offset }
@@ -950,6 +957,8 @@ demo-listen-subtitle = Ti hazir î/a ke beşdar bibê?
 ## Validation criteria
 
 contribution-criteria-nav = Krîterî
+contribution-criteria-link = Krîteranê beşdarîye fehm bike
+contribution-criteria-page-title = Krîterê Beşdarîye
 contribution-for-example = nimûne
 contribution-misreadings-title = Wendişê şaşî
 contribution-misreadings-description = Gama ke goşdar kenî/a, bi baldarî kontrol bike tirêm çîyo ke ame qeydkerdene û çîyo ke ame nuştene, yewbînan gênê yan ney. Eke tede şaşîyê qijî kî est bê, betal bike. <br />Tayê şaşîyê ke zaf yenê kerdene, nê yê:
