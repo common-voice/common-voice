@@ -767,8 +767,10 @@ record-three-more-instruction = Hîrê hebî mendî!
 record-again-instruction = Zaf rind o! <recordIcon></recordIcon> Yewna qeyd bike
 record-again-instruction2 = Wina dewam bike, reyna qeyd bike <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon> No peyên o!
+review-tooltip = Her ke şonî/a, çim biçarne qeydan û newe ra qeyd bike
 share-clip = Qeydê xo pare bike
 share-common-voice = Common Voice pare bike
+review-instruction = Eke lazim beno, çim biçarne qeydan û newe ra qeyd bike
 record-submit-tooltip = Eke hazir î/a, { $actionType } birusne
 clips-uploaded = Qeydî bar bîyî
 record-abort-title = Qeydkerdiş hema nêqedîyayo.
@@ -776,8 +778,21 @@ record-abort-text = Ti ke nika vejîyenî/a, averşîyayîşo nikayin qeyd nêbe
 record-abort-submit = Qeydan birusne
 record-abort-continue = Qeydkerdişî biqedêne
 record-abort-delete = Vejîye & qeydan biestire
+listen-3rd-time-instruction = 2 hebî temam ê. Dewam bike! <playIcon></playIcon>
+listen-last-time-instruction = <playIcon></playIcon>Tena yew mendo!
+listen-empty-state = Beno ke qeydî nêmendê - xeyrê xo rîpelî aktualîze bike yan zî badêna reyna biceribne.
+listen-loading-error =
+    Ma qet qeydê vengî nêdîyo ke ti goşdar bikerê.
+    Keremê xo ra badêna reyna biceribne.
+speak-empty-state = Nê ziwanî de cumleyê seba qeydkerdişî nêmendî...
 speak-empty-state-cta = Cumleyan îlawe bike
+speak-loading-error =
+    Ma qet cumle nêdîya ke ti biwanê.
+    Keremê xo ra badêna reyna biceribne.
 record-button-label = Vengê xo qeyd bike
+share-title-new = <bold>Dest bide ma</bold> ke hîna zaf vengan bivînîme
+keep-track-profile = Profîlêk viraze û wina averşîyayîşê xo taqîb bike
+login-to-get-started = Seba destpêkerdişî, dekewe yan qeyd bibe
 target-segment-add-voice = Vengê xo îlawe bike
 target-segment-learn-more = Hîna Zaf Melumat
 
@@ -823,6 +838,10 @@ validations =
 your-languages = Ziwanê To
 toward-next-goal = Ver bi hedefo ameyox
 goal-reached = Reşt hedef
+clips-you-recorded = Vengê ke to qeyd kerdî
+clips-you-validated = Qeydê ke to tesdîq kerdî
+todays-recorded-progress = Averşîyayîşê ewroyî yê venganê Common Voice yê qeydkerdeyan
+todays-validated-progress = Averşîyayîşê ewroyî yê qeydanê Common Voice yê tesdîqkerdeyan
 stats = Statîstîk
 awards = Xelatî
 you = Ti
@@ -834,10 +853,13 @@ validated-clips = Vengê Tesdîqkerdeyî
 total-approved = Pêro Tedîqkerdeyî
 overall-accuracy = Raştbîyayîşo Pêroyî
 set-visibility = Asayîşê mi eyar bike
+show-ranking = Rêza mi binawne
 
 ## Custom Goals
 
+get-started-goals = Hedefê xo rone
 create-custom-goal = Hedefo taybetî viraze
+goal-type = Ti wazenî/a kamcîn hedef xo rê ronê?
 both-speak-and-listen = Her di
 both-speak-and-listen-long = Her di (qisey ke û goşdarî ke)
 daily-goal = Hedefo Rojane
@@ -846,6 +868,19 @@ easy-difficulty = Asan
 average-difficulty = Mîyanên
 difficult-difficulty = Zor
 pro-difficulty = Profesyonel
+lose-goal-progress-warning = Ti ke hedefê xo sereraşt kenî/a, beno ke averşîyayîşê to yo nikayin beno vîndî
+want-to-continue = Ti wazenî/a dewam bikerê?
+finish-editing = Verê veran sereraştkerdiş biqedîyo?
+lose-changes-warning = Ti ke nika vejîyenî/a, vurîyayîşê to benê vîndî
+build-custom-goal = Hedefo taybetî rone
+help-reach-hours-pluralized =
+    { NUMBER($hours) ->
+       *[other] Bi hedefê xo yê şexsî dest bide ke { $language } de biresîme { $hours } saetan
+    }
+help-reach-hours-general-pluralized =
+    { NUMBER($hours) ->
+       *[other] Bi hedefê xo yê şexsî dest bide ke Common Voice de biresîme { $hours } saetan
+    }
 set-a-goal = Xo rê hedefêk rone
 cant-decide = Nêeşkenî/a qerar bidê?
 n-clips-pluralized =
