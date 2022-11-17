@@ -200,6 +200,7 @@ ve = Tshivenda ye
 vec = Venetian ye
 vi = Vietnamkaw ye
 vot = Votic (votic) ye
+xh = Xhosakan na
 yi = Yidikan na
 yo = Yorubakan na
 yue = Kantonkan na
@@ -215,6 +216,15 @@ zza = Zulukan na
 
 ## Layout
 
+speak = Ka kuma
+speak-now = Kuma sisan
+datasets = Donanw (daɲɛgafew) kuluw
+languages = Kanw
+about = Kan
+partner = Jɛɲɔgɔn
+profile = Porofili
+help = Dɛmɛ
+contact = Ka wele
 
 ## Home Page
 
