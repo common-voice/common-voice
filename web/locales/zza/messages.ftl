@@ -661,6 +661,7 @@ dataset-description-hours =
     
     No taw, komdaye de <b>{ $valid }</b> saetê tesdîqkerdeyî bi <b>{ $languages }</b> ziwanan est ê. Labelê ma timûtim hîna zaf veng û ziwanan îlawe kenîme. De biewnî <languagesLink>sîteyê ma yê Ziwanan<languagesLink> ra û uca yewna ziwan biwaze yan zî dest bi beşdarîya xo bike.
 subscribe = Abone be
+other-datasets = Komdayeyê vengî yê bînî
 feedback-q = Pêşnîyaza to est a?
 your-feedback = Teba fikrê to est o ke ma komdayeyê Common Voice senî rindêr bikerîme? Discourse ser o ma ra vaje!
 go-languages-page = Şo rîpelê ziwanan
