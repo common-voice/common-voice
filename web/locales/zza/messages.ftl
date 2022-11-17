@@ -590,9 +590,11 @@ about-playbook-how-validate-content-3 = Ti ke vanî/a ke telefuzê qeydî <stron
 
 ## How to access dataset
 
+about-playbook-how-access-dataset = Ez senî biresî komdayeyî û ey senî bixebitnî?
 
 ## How are decisions made
 
+about-playbook-how-project-governance = Qerarê projeyî senî yenê girewtene?
 
 ## Glossary
 
@@ -663,7 +665,8 @@ dataset-description-hours =
 subscribe = Abone be
 other-datasets = Komdayeyê vengî yê bînî
 feedback-q = Pêşnîyaza to est a?
-community-playbook = Raybernameyê Komelî
+community-playbook = Stratejînameyê Komelî
+resource-playbook-info = Derheqê pêroyê raywanîya Common Voice de <playbookLink>hetkarî û rayberîye bivîne</playbookLink>: çarnayîş ra heta xebitnayîşê komdayeyî û komelê ma reyde têkilîkewtiş zî.
 your-feedback = Teba fikrê to est o ke ma komdayeyê Common Voice senî rindêr bikerîme? Discourse ser o ma ra vaje!
 go-discourse = Şo Dîscourse
 missing-language = Ti ziwanê xo komdayeyî de nêvînenî/a? Seba waştişê ziwanêk, şo Rîpelê ma yê Ziwanan.
@@ -1166,6 +1169,11 @@ sc-review-link = Çim Biçarne
 
 sc-settings-title = Eyarî
 sc-settings-ui-language = Ziwanê Serrî
+# VALIDATION
+sc-validation-number-of-words = Ganî dergîya cumle mabênê 1 û 14 çekuyan de bo
+sc-validation-no-numbers = Zereyê cumle de reqemî çin bê
+sc-validation-no-symbols = Zereyê cumle de sembolî çin bê
+sc-validation-no-abbreviations = Zereyê cumle de kilmnusî çin bê
 
 # [/SentenceCollector]
 
@@ -1177,9 +1185,10 @@ partnerships-header-text = Karê caardişê Common Voice karêko giran o! Ma ten
 partnerships-get-in-touch = Bikewe têkilîye
 partnerships-become-a-partner = Bibe hemparê Common Voice
 partnerships-community-header = Cemat, Viraştoxî û Komelo Sîvîl
+partnerships-community-description = Komelê ma zerrîya Common Voice ya - endamê ma her cayê dinya ra yenê, ê zanyar, hunermend û çalakîkerê ziwanî yê. Ti ke wazenî/a eleqedar bibê, ti eşkenî/a sîteyê ma yê <about>Derheq de</about>î û <community>Stratejînameyê komelê ma de</community> zêde melumat bivînê. Eke ti wazenî/a bikewê hemparîyêka tenêna xorîn û rêxistinkîye, <emailFragment>ma de bikewe têkilîye.</emailFragment>
 partnerships-foundations-header = Weqfî
 partnerships-governments-header = Dewletî
 partnerships-academia-header = Unîversîte, Akademîsyen û Cigêrayoxî
 partnerships-small-business-header = Şîrketê qijkekî, yê zîrekîya viraştîye û teknolojî zî tede
 partnerships-corporates-header = Şîrketê girsî û şîrketê platformî
-partnerships-our-partners = Hemkarê Ma
+partnerships-our-partners = Hemparê Ma
