@@ -225,6 +225,8 @@ partner = Jɛɲɔgɔn
 profile = Porofili
 help = Dɛmɛ
 contact = Ka wele
+privacy = Daamu
+terms = Bɛnkanw
 
 ## Home Page
 
