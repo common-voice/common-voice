@@ -494,6 +494,7 @@ faq-search-for-answers =
 
 about-title = Çira Common Voice?
 how-does-it-work-title-v2 = Common Voice senî gureyeno?
+how-does-it-work-text = Ma komdayeyê qeydanê vengî arê danîme. Vengê xo bibexişne, raştîya qeydanê kesanê bînan tesdîq bike û wina komdayeyî seba her kesî rindêr bike.
 
 ## How does it work section
 
