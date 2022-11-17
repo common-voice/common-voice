@@ -883,6 +883,16 @@ help-reach-hours-general-pluralized =
     }
 set-a-goal = Xo rê hedefêk rone
 cant-decide = Nêeşkenî/a qerar bidê?
+activity-needed-calculation-plural =
+    { NUMBER($totalHours) ->
+       *[other] Eke { $people } kesî
+    }{ NUMBER($periodMonths) ->
+       *[other] roje de { $clipsPerDay } qeydê vengî virazenê
+    } { NUMBER($people) ->
+       *[other] { $periodMonths } aşman de
+    } { NUMBER($clipsPerDay) ->
+       *[other] { $totalHours } saetî mumkîn ê.
+    }
 n-clips-pluralized =
     { NUMBER($count) ->
        *[other] { $count } qeydê vengî
