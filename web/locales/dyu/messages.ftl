@@ -192,6 +192,23 @@ tw = Tuwi
 ty = TahitianTahitikan na
 uby = Ubykh
 udm = Udmurt ye baara kɛ
+ug = Uyghur (Uyghur) ka
+uk = Ukrayinakan na
+ur = Urdukan na
+uz = Uzbekikan na
+ve = Tshivenda ye
+vec = Venetian ye
+vi = Vietnamkaw ye
+vot = Votic (votic) ye
+yi = Yidikan na
+yo = Yorubakan na
+yue = Kantonkan na
+zgh = Tamaziti ye
+zh-CN = Sinuwaw (Sina)
+zh-HK = Sinuwaw (Hong Kong) .
+zh-TW = Sinuwaw (Hong Kong) .
+zu = Zulukan na
+zza = Zulukan na
 
 # [/]
 
