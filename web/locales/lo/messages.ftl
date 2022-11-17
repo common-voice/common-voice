@@ -848,6 +848,7 @@ contribution-just-unsure-title = ພຽງແຕ່ບໍ່ແນ່ໃຈ?
 
 sc-header-home = ໜ້າຫຼັກ
 sc-header-add = ເພີ່ມ
+sc-header-review = ທົບທວນ
 sc-header-profile = ໂປ​ຣ​ໄຟ​ລ໌
 sc-footer-translate = ແປຫນ້ານີ້
 sc-footer-privacy = ຄວາມເປັນສ່ວນຕົວ
@@ -910,6 +911,7 @@ sc-personal-remove-button = ລຶບ
 ## REVIEW
 
 sc-review-form-button-skip = ຂ້າມ
+sc-review-link = ທົບທວນ
 
 ## SETTINGS
 
