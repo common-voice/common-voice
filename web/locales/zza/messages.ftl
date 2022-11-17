@@ -641,10 +641,13 @@ language = Ziwan
 download-dataset-header = Komdayeyî Bîya War
 # File size in gigabytes
 size = Girsîye
+validated-hr-total = Pêro saetê tesdîqkerdeyî
+overall-hr-total = Saetî - Pêro Pîya
 cv-license = Lîsans
 audio-format = Formatê vengî
 number-of-voices = Hûmara vengan
 splits = Beşî
+email-to-download = Seba warardişî, e-maîlê xo binuse
 size-gigabyte = GB
 size-megabyte = MB
 download-language = { $language } bîya war
