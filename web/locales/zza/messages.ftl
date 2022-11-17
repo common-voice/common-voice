@@ -555,6 +555,7 @@ about-playbook-how-add-language-content-1 = Verê veran, kontrol bike tirêm ziw
 about-playbook-how-add-language-translating-heading = Çarnayîşê sîteyî
 about-playbook-how-add-language-collecting-sentences-heading = Arêdayîşê cumleyan
 about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>Rayberê ma yê xebitnayîşê Arêdayoxê Cumleyan de nîyade</sentenceCollectorVideo>.
+about-playbook-how-add-language-collecting-sentences-content-2 = Ti eşkenî/a <sentenceCollectorLinkAdd>hûmara cumleyan a şenikan îlawe bikerê</sentenceCollectorLinkAdd> yan zî <bulkImportDocsLink>Github ra komneql bikerê</bulkImportDocsLink>. Xo vîr ra meke ke ganî cumleyî binê lîsansê <licenseLink>CC0 (yan milkê rayapêroyî)</licenseLink> de bibê. Yan zî bi xo cumleyan binuse.
 about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>Derheqê arêdayîşê cumleyan de hîna zaf melumat bivîne</sentenceCollectorFragment>.
 
 ## How does localization work
@@ -802,6 +803,7 @@ top-contributors = Beşdarê Tewr Aktîfî
 recorded-clips = Vengê Qeydkerdeyî
 validated-clips = Vengê Tesdîqkerdeyî
 total-approved = Pêro Tedîqkerdeyî
+set-visibility = Asayîşê mi eyar bike
 
 ## Custom Goals
 
@@ -951,6 +953,7 @@ sc-logout-button = Vejîye
 ## HOME
 
 sc-home-title = Şima xeyr ameyî Arêdayoxê Cumleyan ê Common Voice
+sc-home-intro = Arêdayoxê Cumleyan parçeyê <commonVoiceLink>Common Voice</commonVoiceLink> yo. Pê beşdarî eşkenê cumleyê ke hetê komelî ra virazîyayê, înan arê bidê û tesdîq bikerê. Ti zî eşkenî/a nê wesayîtî bixebitnê ke pê korpusê qij yan mîyanênê ke rayapêroyî rê akerde yê, înan bar bikerê û pak bikerê. Ganî heme cumleyî milkê rayapêroyî bibê. Cumleyê ke tesdîq bîyî, her hewte neqlê depoyê Common Voice benê û her versîyono newe reyde websîteyê Common Voice ser o weşanîyenê.
 sc-home-collect-title = Cumleyan arê bide
 sc-home-collect-text = Hetê ma bike û cumleyan yan binuse yan zî arê bide.
 
