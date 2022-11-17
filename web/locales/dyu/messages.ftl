@@ -51,6 +51,7 @@ cak = Kaqchikel ye
 ckb = Cɛma Kurdekan
 cnh = Hakha Chin ye
 co = Kɔrsikan
+cs = Tchekikan na
 en = Angilɛ kan
 ff = Fúla kan
 
