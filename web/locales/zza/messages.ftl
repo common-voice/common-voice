@@ -648,9 +648,14 @@ audio-format = Formatê vengî
 number-of-voices = Hûmara vengan
 splits = Beşî
 email-to-download = Seba warardişî, e-maîlê xo binuse
+why-email = <b>Çira e-maîl lazim o?</b> Beno ke ameyox de ma derheqê vurîyayîşanê komdayeyî de to de bikewîme têkilîye. Adresêka e-maîlî kî seba têkilîkewtişî lazim bena.
+confirm-size = Ti hazir î/a ke bi girsîya <b>{ $size }</b> bîyarê war?
 size-gigabyte = GB
 size-megabyte = MB
 download-language = { $language } bîya war
+validated-hours = Saetê tesdîqkerdeyî
+recorded-hours = Saetê qeydkerdeyî
+whats-inside = Zereyê komdayeyê Common Voice de çi est o?
 dataset-description-hours =
     Her qeydê komdayeyî yew dosyaya MP3 û yew dosyaya metnê ci ra yeno pêra. Zereyê zafêrîya <b>{ $total }</b> saetanê komdayeyî yê qeydkerdeyan de kî dayeyê meta yê demografîkî est ê, mavajîme derheqê serrî, cinsîyet û fekan de. Nê dayeyî raştêr perwerdekerdişê motoranê naskerdişê vengî de hetkarî kenê.
     
