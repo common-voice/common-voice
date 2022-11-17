@@ -959,10 +959,11 @@ demo-listen-subtitle = Ti hazir î/a ke beşdar bibê?
 contribution-criteria-nav = Krîterî
 contribution-criteria-link = Krîteranê beşdarîye fehm bike
 contribution-criteria-page-title = Krîterê Beşdarîye
+contribution-criteria-page-description = Gama ke ti goşdarîya qeydanê vengî kenî/a, bimuse ke ganî ti bala xo bidê çinayî ser. Wina ti qeydanê xo yê vengî zî kenî/a dewlemendêr!
 contribution-for-example = nimûne
 contribution-misreadings-title = Wendişê şaşî
 contribution-misreadings-description = Gama ke goşdar kenî/a, bi baldarî kontrol bike tirêm çîyo ke ame qeydkerdene û çîyo ke ame nuştene, yewbînan gênê yan ney. Eke tede şaşîyê qijî kî est bê, betal bike. <br />Tayê şaşîyê ke zaf yenê kerdene, nê yê:
-contribution-misreadings-description-extended-list-1 = Çekuya ke metn de çin a, <strong>îlawekerdiş<strong> yan zî çekuya ke est a, <strong>nêwendiş</strong>.
+contribution-misreadings-description-extended-list-1 = Çekuya ke metn de çin a <strong>îlawekerdiş<strong> yan zî çekuya ke est a <strong>nêwendiş</strong>.
 contribution-misreadings-description-extended-list-2 = Nêwendişê peynîya çekuyan, sey <strong>î</strong> yan zî <strong>îzafe</strong>.
 contribution-misreadings-description-extended-list-3 = Bi telefuzê dewa xo wendiş. Mavajîme, herinda "nan"î de "non" vatiş.
 contribution-misreadings-description-extended-list-4 = Lez qeydkerdiş û wina peynîya çekuya peyêne tam nêwendiş.
@@ -989,7 +990,7 @@ contribution-varying-pronunciations-example-1-explanation = [Mumkîn o ke merdim
 contribution-varying-pronunciations-example-2-title = Eşkerî danê pêro.
 contribution-varying-pronunciations-example-2-explanation = [Çekuya 'leşker'î sey 'eşker'î telefuzkerdiş şaş o ]
 contribution-background-noise-title = Hermeleyê peyzemînî
-contribution-background-noise-description = Ma wazenîne ke algorîtmê musayîşê makînayan pê çend çeşîtanê helmele û venganê peyzemînî bieşkê. Hetta, eke seba hesnayîşê metnî asteng nîyê, vengê zaf berzî zî qebul benê. Muzîko ke pey de bi vengêko nizm cinîyeno, problem nîyo. Labelê, muzîko vengin ke nêverdano ke merdim çekuyêk rind bihesno, problem o.
+contribution-background-noise-description = Ma wazenîne ke algorîtmê musayîşî yê makînayan pê çend çeşîtanê helmele û venganê peyzemînî bieşkê. Hetta, eke seba hesnayîşê metnî asteng nîyê, vengê berzî zî qebul benê. Muzîko ke pey de bi vengêko nizm cinîyeno, problem nîyo. Labelê, muzîko vengin ke nêverdano ke merdim çekuyêk rind bihesno, problem o.
 contribution-background-noise-description-extended = Eke qeyd birîyeno yan zî qirçe-qirçe keno, ey betal ke. Îstîsna: eke pêroyîya metnî hema fehm bena, wa bimano.
 contribution-background-noise-example-1-fixed-title = <strong>[PIŞK]</strong> Daristan de heywanê girsî <strong>[KUXIKE] est ê.
 contribution-background-noise-example-2-fixed-title = Daristan de heywanê gir<strong>[KUXIKE]</strong> est ê
@@ -1040,13 +1041,17 @@ sc-home-title = Şima xeyr ameyî Arêdayoxê Cumleyan ê Common Voice
 sc-home-intro = Arêdayoxê Cumleyan parçeyê <commonVoiceLink>Common Voice</commonVoiceLink> yo. Pê beşdarî eşkenê cumleyê ke hetê komelî ra virazîyayê, înan arê bidê û tesdîq bikerê. Ti zî eşkenî/a nê wesayîtî bixebitnê ke pê korpusê qij yan mîyanênê ke rayapêroyî rê akerde yê, înan bar bikerê û pak bikerê. Ganî heme cumleyî milkê rayapêroyî bibê. Cumleyê ke tesdîq bîyî, her hewte neqlê depoyê Common Voice benê û her versîyono newe reyde websîteyê Common Voice ser o weşanîyenê.
 sc-home-collect-title = Cumleyan arê bide
 sc-home-collect-text = Hetê ma bike û cumleyan yan binuse yan zî arê bide.
+sc-home-review-title = Çim biçarne cumleyan
+sc-home-review-text = Dest bide ma û kontrol bike tirêm goreyê rayberan ra cumleyî raşt ê yan ney.
 
 ## GENERAL
 
+sc-languages-fetch-error = Ma ziwanê estbîyayeyî nêdîyî. Na game beşdarîye mumkîn nîya. Keremê xo ra badêna reyna biceribne.
 
 ## HOW-TO
 
 sc-howto-title = Senî beno
+sc-howto-addsen-title = Cumleyanê neweyan îlawe bike
 sc-howto-cite-title = Senî neql bibo?
 sc-howto-review-title = Çim biçarne cumleyan
 sc-howto-review-subtitle = Baldar be ke cumle rîayetê nê krîteran bikero:
@@ -1153,6 +1158,8 @@ sc-review-form-button-approve-shortcut = H
 sc-review-form-button-reject-shortcut = N
 # Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
 sc-review-form-button-skip-shortcut = R
+sc-review-form-button-submit =
+    .submitText = Çimçarnayîşî Biqedêne
 sc-review-link = Çim Biçarne
 
 ## SETTINGS
