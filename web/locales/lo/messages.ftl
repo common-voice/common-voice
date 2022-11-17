@@ -801,6 +801,7 @@ profile-form-delete = ລົບໂປຣໄຟລ໌
 
 download-profile-title = ໂປ​ຣ​ໄຟ​ລ໌
 download-profile-size = ສອງສາມ bytes
+download-recordings-title = ການບັນທຶກ
 download-size = ຂະຫນາດ
 download-selected = ເລືອກແລ້ວ
 download-request-button = ດາວໂຫລດ
