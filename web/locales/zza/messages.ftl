@@ -517,7 +517,7 @@ about-speak-text = Beşdarî databasê cumleyanê bexişnayeyan ra wanenê û ve
 about-listen-queue = Rêza Goşdarkerdişî
 about-listen-queue-text = Qeydê vengî seba rusnayîşî rêz benê ke seba goşdarkerdişî hazir bibê.
 about-listen = Goşdar bike
-about-listen-text = Xebitnayoxî raştîya qeydanê bexişnayeyan tesdîq kenê, yanî kontrol kenê tirêm qiseykerdoxî cumle raşt wenda yan ney.
+about-listen-text = Xebitnayoxî raştbîyayîşê qeydanê bexişnayeyan tesdîq kenê, yanî kontrol kenê tirêm qiseykerdoxî cumle raşt wenda yan ney.
 about-is-it-valid = Qeyd vîyartbar o?
 about-is-it-valid-text = Gama ke xebitnayoxêk bi "Heya" ray dano, qeyd sey "vîyartbar" nîşan dîyeno.
 about-yes-votes = ≥ 2 rayê "heya"
@@ -574,6 +574,7 @@ about-playbook-how-add-sentences-content-2 = Seba ke cumleyî îlaweyê Common V
 
 ## How to record quality
 
+about-playbook-how-record-content-5 = <accuracyLink>Derheqê krîteranê raştbîyayîşî de hîna zaf melumat bivîne.</accuracyLink>
 
 ## How to grow language
 
@@ -585,6 +586,7 @@ about-playbook-how-grow-language-content-8 = <strong>Viraştox be!</strong> Kome
 
 ## How to validate
 
+about-playbook-how-validate-content-3 = Ti ke vanî/a ke telefuzê qeydî <strong>fehmkerdişê ci keno zehmetêr</strong> yan zî <strong>peyzemîn de xeylê veng est o</strong> yan zî <strong>kesê bînî zî tede qisey kenê</strong>, o wext wa ti qeydê vengî betal bikerê. <accuracyLink>Derheqê krîteranê ma yê raştbîyayîşî de hîna zaf melumat bivîne</accuracyLink>.
 
 ## How to access dataset
 
@@ -803,6 +805,7 @@ top-contributors = Beşdarê Tewr Aktîfî
 recorded-clips = Vengê Qeydkerdeyî
 validated-clips = Vengê Tesdîqkerdeyî
 total-approved = Pêro Tedîqkerdeyî
+overall-accuracy = Raştbîyayîşo Pêroyî
 set-visibility = Asayîşê mi eyar bike
 
 ## Custom Goals
