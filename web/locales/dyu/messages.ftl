@@ -52,8 +52,25 @@ ckb = Cɛma Kurdekan
 cnh = Hakha Chin ye
 co = Kɔrsikan
 cs = Tchekikan na
+cv = Chuvash ye
+cy = Chuvash ye
+da = Danemarkekan na
+dag = Dagbani ye
+de = Alemaɲikan na
+dsb = Sorbian, Jiginni
+dv = Dwehi
+dyu = Dioula ye
+el = Gɛrɛkikan na
 en = Angilɛ kan
+eo = Esperantokan na
+es = Ɛsipaɲɔli
+et = Ɛsitonikan na
+eu = bamanankan na
+fa = Pɛrɛsikan na
 ff = Fúla kan
+fi = Finlandekan na
+fo = Farokaw ka
+fr = Faransikan na
 
 # [/]
 
