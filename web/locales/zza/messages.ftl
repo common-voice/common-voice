@@ -554,6 +554,8 @@ about-playbook-how-add-language = Ez senî ziwanêk îlawe kena?
 about-playbook-how-add-language-content-1 = Verê veran, kontrol bike tirêm ziwanê to <languageLink>est o yan ney</languageLink>. Eke çin o, ti eşkenî/a <languageRequestLink>îlawekerdişê ci biwazê</languageRequestLink>. Di beşî est ê: çarnayîşê sîteyî û arêdayîşê cumleyan.
 about-playbook-how-add-language-translating-heading = Çarnayîşê sîteyî
 about-playbook-how-add-language-collecting-sentences-heading = Arêdayîşê cumleyan
+about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>Rayberê ma yê xebitnayîşê Arêdayoxê Cumleyan de nîyade</sentenceCollectorVideo>.
+about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>Derheqê arêdayîşê cumleyan de hîna zaf melumat bivîne</sentenceCollectorFragment>.
 
 ## How does localization work
 
@@ -961,10 +963,21 @@ sc-howto-title = Senî beno
 sc-howto-cite-title = Senî neql bibo?
 sc-howto-review-title = Çim biçarne cumleyan
 sc-howto-review-subtitle = Baldar be ke cumle rîayetê nê krîteran bikero:
+sc-howto-review-criteria-1 = Ganî cumle raşt binusîyo.
+sc-howto-review-criteria-2 = Ganî cumle hetê gramerî ra raşt bo.
+sc-howto-review-criteria-3 = Ganî merdim bieşko cumle biwano.
+sc-howto-review-criteria-4 = Eke cumle rîayetê nê krîteran kena, "Tesdîq ke" ser o bitikne.
+sc-howto-review-criteria-5 = Eke cumle rîayetê krîteran nêkena, "Betal ke" ser o bitikne. Eke ti pê cumle emîn nîyî/nîya, ti eşkenî/a ravêrê şorê cumleya ameyoxe.
+sc-howto-review-criteria-6 = Eke cumleyî nêmendê ke bêrê çimçarnayene, keremê xo ra dest bide ma ke hîna zaf cumleyan arê bidîme!
 
 ## MY SENTENCES
 
 sc-my-title = Cumleyê Mi
+sc-my-loading = Cumleyê to bar benê...
+sc-my-no-sentences = Cumleyî nêameyî dîyene!
+# Variables:
+#   $batchId (String) - A unique ID identifying the submission of sentences - sentences uploaded together all have the same batch ID
+sc-my-submission = Rusnayîş: { $batchId }
 # Variables:
 #   $source (String) - Associated source the user filled out when uploading the sentence
 sc-my-source = Çime: { $source }
@@ -976,6 +989,10 @@ sc-my-source = Çime: { $source }
 
 sc-stats-title = Statîstîkî
 sc-stats-updating = Rojane beno...
+# Variables:
+#   $sentenceCount (Number) - Total number of sentences uploaded through Sentence Collector
+#   $languageCount (Number) - Total number of languages these sentences represent
+sc-stats-summary = Arêdayoxê Cumleyan ê Common Voice { $sentenceCount } cumleyê { $languageCount } ziwanan arê dayî.
 
 ## ADD
 
@@ -988,9 +1005,26 @@ sc-submit-button =
 ## ADD LANGUAGE
 
 sc-add-lang-sec-button = Ziwanêk îlawe bike
+sc-add-err-submission = Xetaya Rusnayîşî
 
 ## ADD SENTENCES CONFIRMATION
 
+sc-confirm-sentences-title = Cumleyanê Neweyan Tesdîq Bike
+# Variables:
+#   $countOfSentences (Number) - Number of sentences the user has filled in the submission form
+sc-confirm-sentences-found =
+    { $countOfSentences ->
+        [0] Qet cumle nêameye dîyene.
+       *[other] { $countOfSentences } cumleyî ameyî dîyene.
+    }
+# Variables:
+#   $countOfInvalidated (Number) - Number of sentences the user rejected in the review form before submission
+sc-confirm-rejected-by-you = To { $countOfInvalidated } cumleyî betal kerdî.
+sc-confirm-already-reviewed =
+    { $countOfReviewed ->
+        [0] Hema çim nêçarnîyayo qet cumleyêk.
+       *[other] Çima çarnîya { $countOfReviewed } cumleyan. Weş be!
+    }
 sc-confirm-button-text = Tesdîq ke
 
 ## LANGUAGE INFO
@@ -1000,12 +1034,26 @@ sc-lang-info-title-personal = Şexsî
 
 ## LOGIN
 
+sc-login-err-failed = Dekewtiş nêbî
+sc-login-err-try-again = Keremê xo ra reyna biceribne.
 
 ## PROFILE
 
+# Variables:
+#   $username (String) - eMail address of the logged in user
+sc-profile-title = Profîl: { $username }
+sc-personal-err-lang-not-found = Ziwan wenêdarîya: ziwan nêame dîyene.
+sc-personal-err-remove = Ziwan wenêdarîya
+sc-personal-your-languages = Ziwanê to:
+sc-personal-remove-button = wedare
+# Variables:
+#   $sentences (Number) - Number of sentences that were added by the currently logged in user for this language
+sc-personal-added-by-you = To { $sentences } cumleyî îlawe kerdî
+sc-personal-not-added = To hema qet ziwanêk îlawe nêkerdo.
 
 ## REVIEW CRITERIA
 
+sc-criteria-modal = ⓘ Krîterê Çimçarnayîşî
 
 ## REVIEW
 
