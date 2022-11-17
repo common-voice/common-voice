@@ -795,9 +795,11 @@ weekly-goal-created = ເປົ້າໝາຍປະຈຳອາທິດຂອ�
 ## Profile Delete
 
 remove = ລຶບ
+profile-form-delete = ລົບໂປຣໄຟລ໌
 
 ## Profile Download
 
+download-profile-title = ໂປ​ຣ​ໄຟ​ລ໌
 download-profile-size = ສອງສາມ bytes
 download-size = ຂະຫນາດ
 download-selected = ເລືອກແລ້ວ
