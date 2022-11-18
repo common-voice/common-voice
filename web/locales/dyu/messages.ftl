@@ -877,6 +877,7 @@ contribute-more =
        *[other] labɛnnen don ka kɛ { $count } ka tɛmɛ?
     }
 record-cta = A daminɛ ka sɛbɛnni kɛ
+record-platform-not-supported = An b'aw yafa, aw ka plateforme ma dɛmɛ sisan.
 
 ## Reporting
 
