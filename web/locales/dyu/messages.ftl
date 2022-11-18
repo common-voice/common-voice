@@ -234,6 +234,7 @@ share-title = An dɛmɛ ka mɔgɔ wɛrɛw sɔrɔ walasa k’u kan di!
 
 ## Home Page
 
+email-subscription-title-new = I tɔgɔ sɛbɛn Common Voice kunnafonidisɛbɛnw na, kuntilenna hakilijiginw ani ɲɛtaa kunnafoniw
 
 ## Account Benefits
 
