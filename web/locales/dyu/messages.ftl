@@ -739,6 +739,7 @@ size-megabyte = Mo
 confirm-no-identify = <b>I sɔnna</b> i kana a ɲini ka kumalasela minnu bɛ Common Voice kunnafonidilan kɔnɔ , olu tɔgɔ dɔn
 download-language = Ka telesarize{ $language }
 validated-hours = Lɛrɛ minnu bɛ se ka dafa
+recorded-hours = Lɛrɛ minnu sɛbɛnna
 
 ## Download Modal
 
