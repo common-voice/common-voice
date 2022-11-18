@@ -1086,27 +1086,122 @@ download-recordings-size = A ka c’a la, megabayitiw
 download-recordings-unavailable = I tɛ se k’i ka fɔlisenw ɲini k’a sɔrɔ ɲinini wɛrɛ bɛ sen na kaban.
 download-recently-requested = Aw bɛ se ka aw ka fɔlisenw bɔli kura ɲini { $days } tile o tile.
 download-size = Kundama
+download-selected = Sugandili kɛra
+download-start = Profil dataw telesarse
+download-request = Aw ye sɛbɛnniw ɲini
+download-requests = Recordings tɛmɛnenw telesarse ɲininiw
+download-requests-info = Ni i y’i ka fɔlisenw ɲini, an b’u lajɛ ka kɛ ZIP file kelen walima caman ye. Aw ka ɲinini tɛmɛnenw filɛ nin ye:
+download-request-button = Ka telesarize
+download-request-title = { $created }
+download-request-description = { $clipCount } kan klipuw, archive hakɛ bɛɛ lajɛlen { $size }. A bɛ ban{ $expires }
+download-request-archive-single = ZIP file kelen min kɔnɔ
+download-request-archive-multiple = Tilalen don { $archiveCount } ZIP filew kɔnɔ minnu kɔnɔ
+download-request-assembling-description = Aw ka dosiyew bɛ ka lajɛ. Aw ye aw jija ka segin ka a lajɛ kɔfɛ.
+download-request-refresh-button = Lakurayali
+download-request-modal-title = Télécharger Liens
+download-request-modal-description = Nin ye ladɛrɛsiw ye minnu bɛ se ka i ka ZIP filew telesarse.
+download-request-link-text = Zip #{ $offset } ka { $total } .
+download-request-metadata-link = Kumasen sɛbɛnni
+download-request-link-single = I bɛ se fana ka URL tilennenw kopi kɛ k’u nɔrɔ i ka telesarse ɲɛnabɔbaga kanulen kɔnɔ. U bɛna ban sanga 12 kɔnɔ, nka i bɛ se ka segin nin ɲɛ in kan walasa ka kuraw lawuli waati o waati.
 
 ## Landing
 
+welcome-staff = Aw ni ce { $company } baarakɛlaw!
+help-contribute = Aw bɛ se ka dɛmɛ don ka kunnafonidilan suguya caman jɔ, min bɛ da mɔgɔw ɲɛ na, ni aw ye Common Voice profile dɔ dilan ani ka aw ka kan dɛmɛ.
+login-company = Don / I tɔgɔ sɛbɛn ni { $company } email ye
+profile-not-required = Ka kɛ ni profil ye, o man kan ka kɛ walasa ka dɛmɛ don hali ni o bɛ dɛmɛ don, a’ ye mun na a lajɛ jukɔrɔ.
+read-more-about = Aw ye kunnafoni wɛrɛw kalan an ka Kow ɲɛ kan
 
 ## DemoLayout
 
+demo-get-started = An ka Daminɛ
+demo-welcome = Aw ni ce Common Voice la
+demo-welcome-subheader = I b’a fɛ ka kunnafoni wɛrɛw sɔrɔ ani ka dɛmɛ don o baara la wa?
 
 ## Demo Datasets
 
+demo-language-select-card-header = Common Voice ye diɲɛ kɔnɔ kumakan kunnafonidilanba ye min bɛ sɔrɔ foroba la, min bɛ kan caman fɔ.
+demo-language-select-card-body = K’a sababu Kɛ mɔgɔ 259k ni kɔ ka dɛmɛ ye kan 50 ni kɔ la, o kunnafonidilan in bɛ Kɛ ka kuma-se-minɛnw dege walasa u ka se ka hadamaden kan jaabi ka ɲɛ.
+card-button-next = Nata
+demo-language-select-label = Kanw lajɛ
+demo-eofy-header = 2019 sàn laban Bɔli
+demo-eofy-sub_header = Voice Dataset, Labɛnna ka telesarse
+demo-account = Jate
 
 ## Demo Account
 
+demo-account-card-header = Ka kɛ ni jatebɔsɛbɛn ye, o tɛ wajibiya walasa ka bolomafara di, hali ni o bɛ dɛmɛ don.
+demo-account-card-body = Ka taa kinin fɛ an bɛ nafaw jira ani k’a jɛya an bɛ kunnafoni minnu di foroba la. Baara kɛ ni jukɔrɔla yɔrɔw ye walasa ka daminɛ ni Common Voice jatebɔsɛbɛn ye i yɛrɛ ka minɛn kan.
+demo-account-enter-email =
+    .label = I ka email don walasa ka sign up link ci
+demo-account-sign-up = Aw ye sign up link ci
 
 ## Demo Contribute
 
+demo-contribute-card-header = Yala i labɛnnen don k’i kan fara a kan walima k’i tulo ban wa?
+demo-contribute-card-body-v2 = Sisan, i kɛlen k’a dɔn dɔɔnin Common Voice kan, mun na i t’a lajɛ? Mikoro taamasiyɛn digi walisa ka kumasenw kalanni daminɛ ni kanba ye. <br/><br/>n' i b' a fɛ ka mɔgɔ wɛrɛw ka kanko bolomafaraw lajɛ , i ka tulonkɛ taamasiyɛn digi . I bɛna dɛmɛ don k’a jira ko fɔlisenw bɛ bɛn kumasenw ma minnu sɛbɛnnen bɛ ɛkran kan.
+demo-listen-subtitle = I labɛnnen don ka bolomafara di wa?
 
 ## Demo Dashboard
 
+demo-dashboard-card-header = Mɔgɔ yɛrɛ ka dashboardw b’i to i ka kunnafoni sɔrɔ mɔgɔ kelen-kelen bɛɛ ni sigidamɔgɔw ka ɲɛtaa kan.
+demo-dashboard-card-body = Kumakan-klip kelen-kelen bɛɛ min dira, ani odio-klip kelen-kelen bɛɛ min sɛgɛsɛgɛra, i ka jatebɔsɛbɛnw bɛ ladamu walasa k’i ka ɲɛtaa labanw jira kan kelen-kelen bɛɛ la i bɛ dɛmɛ don min na. Ɔwɔ, i bɛ se ka dɛmɛ don ka tɛmɛ kelen kan!<br/><br/> Baara kɛ ni dakunw ye walasa k’i ka jatebɔw lajɛ, k’a lajɛ i bɛ cogo min na sigida mɔgɔ wɛrɛw kɛrɛfɛ, ani ka don o don walima dɔgɔkun bolomafara kuntilenna sigi.
 
 ## Validation criteria
 
+contribution-criteria-nav = sariyasenw
+contribution-criteria-link = { "" }
+contribution-criteria-page-title = Bolomafaraw ka sariyaw
+contribution-criteria-page-description = I ka kan ka min ɲini ni i bɛ kumakanw lamɛn, i k’o faamu ani ka dɛmɛ don walasa i ka kumakanw fana ka kɛ nafolotigi ye!
+contribution-for-example = I n'a fo
+contribution-misreadings-title = Kalan kɛcogo juguw
+contribution-misreadings-description = Ni aw bɛ lamɛnni kɛ, aw k’a lajɛ kosɛbɛ ni min sɛbɛnna, o ye min sɛbɛnna tigitigi; ban ni fili misɛnninw yɛrɛ bɛ yen. <br />Fili minnu ka teli kosɛbɛ olu dɔw ye :
+contribution-misreadings-description-extended-list-1 = <strong>'A'</strong> walima <strong>'The'</strong> min tununna fɔlisen daminɛ na.
+contribution-misreadings-description-extended-list-2 = <strong>'</strong> dɔ tununni daɲɛ laban na.
+contribution-misreadings-description-extended-list-3 = Kɔrɔbɔli minnu tɛ yen tiɲɛ na, i n'a fɔ "An bɛ" "An bɛ" nɔ na, ​​walima a kɔfɛ.
+contribution-misreadings-description-extended-list-4 = Daɲɛ laban laban tununni n’i ye fɔlisen tigɛ joona kojugu.
+contribution-misreadings-description-extended-list-5 = Ka cɛsiri caman kɛ walasa ka daɲɛ dɔ kalan.
+contribution-misreadings-example-1-title = Dinɔsɔsi belebelebaw minnu bɛ Triassic waati la.
+contribution-misreadings-example-2-title = Dinɔsɔsi belebeleba min bɛ Triassic waati la.
+contribution-misreadings-example-2-explanation = [A ka kan ka kɛ "The" Dinosaurs ye].
+contribution-misreadings-example-3-title = Dinɔsɔsi belebelebaw minnu bɛ Triassi-.
+contribution-misreadings-example-3-explanation = [Sɛbɛnni tigɛra sani daɲɛ laban ka ban].
+contribution-misreadings-example-4-title = Dinɔsɔsi belebelebaw minnu bɛ Triassic waati la. Awɔ.
+contribution-misreadings-example-4-explanation = [Fɛn caman sɛbɛnna ka tɛmɛ sɛbɛnni wajibiyalen kan].
+contribution-misreadings-example-5-title = An bɛ bɔ ka taa kafe ta.
+contribution-misreadings-example-6-title = An bɛ bɔ ka taa kafe ta.
+contribution-misreadings-example-6-explanation = [A ka kan ka kɛ “Anw ye”].
+contribution-misreadings-example-7-title = An bɛ bɔ ka taa kafe min.
+contribution-misreadings-example-7-explanation = [‘a’ tɛ sɛbɛn fɔlɔ kɔnɔ].
+contribution-misreadings-example-8-title = Bumblebee ye teliya ka tɛmɛ.
+contribution-misreadings-example-8-explanation = [Kɔnɔkow minnu tɛ bɛn ɲɔgɔn ma].
+contribution-varying-pronunciations-title = Fɔcogo caman ɲɔgɔnna
+contribution-varying-pronunciations-description = Aw ye aw janto sani aw ka ban klip dɔ la k’a da a kan ko kalanden ye daɲɛ dɔ fɔ cogo jugu la, ko a ye degun bila yɔrɔ jugu la, walima ko a bɛ iko a ma ɲininkali taamasiyɛn dɔ jate. Fɔcogo suguya caman bɛ baara la diɲɛ fan bɛɛ la, n’a sɔrɔ i ma dɔw mɛn i ka sigida la. Aw ye waleɲumandɔn jira mɔgɔ minnu na, n’a sɔrɔ olu ni aw ka kuma tɛ kelen ye.
+contribution-varying-pronunciations-description-extended = Faan wɛrɛ fɛ, n’i b’a miiri ko n’a sɔrɔla kalanden ma deli ka daɲɛ in Sɔrɔ fɔlɔ, wa a bɛ jateminɛ jugu Kɛ dɔrɔn a fɔcogo la, i ka ban. Ni aw dalen tɛ a la, aw bɛ baara kɛ ni butɔni ye min tɔgɔ ye ko skip.
+contribution-varying-pronunciations-example-1-title = A kunkolo kan, a ye bereti dɔ don.
+contribution-varying-pronunciations-example-1-explanation = [‘Beret’ bɛ ɲɛ hali ni degun bɛ daɲɛ fɔlɔ kan (UK) walima filanan (US)].
+contribution-varying-pronunciations-example-2-title = A bolo tun kɔrɔtalen don.
+contribution-varying-pronunciations-example-2-explanation = [‘Raised’ tubabukan na, a bɛ fɔ tuma bɛɛ i n’a fɔ daɲɛ kelen, a tɛ fɔ daɲɛ fila ye].
+contribution-background-noise-title = Mankan min bɛ kɔkanna na
+contribution-background-noise-description = An b’a fɛ masin kalanni algorisimuw ka se ka kɔkan mankan suguya caman ɲɛnabɔ, wa hali mankan minnu ka bon kosɛbɛ, olu bɛ se ka sɔn n’u t’i bali ka sɛbɛn bɛɛ mɛn. Fɔlikan min bɛ kɛ kɔfɛ, o ye OK ye; dɔnkiliw ka bon fo k’i bali ka daɲɛ kelen-kelen bɛɛ mɛn, o tɛ.
+contribution-background-noise-description-extended = Ni o fɔlisen tiɲɛna, walima ni a bɛ sɔgɔsɔgɔ, i ka ban fo ni sɛbɛnni bɛɛ bɛ se ka mɛn hali bi.
+contribution-background-noise-example-1-fixed-title = <strong>[Sɔgɔsɔgɔninjɛ]</strong> dinɔsɔsiba minnu bɛ <strong>[sɔgɔsɔgɔ]</strong> Triassic .
+contribution-background-noise-example-2-fixed-title = Dino belebeleba <strong>[sɔgɔsɔgɔ]</strong> triassic.
+contribution-background-noise-example-2-explanation = [Sɛbɛnni yɔrɔ dɔ tɛ se ka mɛn].
+contribution-background-noise-example-3-fixed-title = <strong>[Crackle]</strong> dinɔsɔsi belebelebaw ka <strong>[crackle]</strong> -riassic .
+contribution-background-voices-title = Kanw kɔkannakow
+contribution-background-voices-description = Kɔnɔnafili min bɛ kɛ ni dususuma ye, o bɛ ɲɛ, nka an t’a fɛ kan wɛrɛw ka fara a kan minnu bɛ se ka kɛ sababu ye ka masin algorisimu dɔ ka daɲɛw dɔn minnu tɛ sɛbɛn sɛbɛnnen kɔnɔ. Ni i bɛ se ka daɲɛ danfaralenw mɛn ni sɛbɛnni ta tɛ, o klip ka kan ka ban. A ka c’a la, o bɛ kɛ telewisɔn bilalen bɛ yɔrɔ min na, walima baro bɛ kɛ yɔrɔ min na a kɛrɛfɛ.
+contribution-background-voices-description-extended = Ni o fɔlisen tiɲɛna, walima ni a bɛ sɔgɔsɔgɔ, i ka ban fo ni sɛbɛnni bɛɛ bɛ se ka mɛn hali bi.
+contribution-background-voices-example-1-title = Dinɔsɔsi belebelebaw minnu bɛ Triassic waati la. <strong>[kalan ni kan kelen ye]</strong>
+contribution-background-voices-example-1-explanation = Yala aw bɛ na wa? <strong>[a welelen don mɔgɔ wɛrɛ fɛ]</strong>
+contribution-volume-title = Mankan
+contribution-volume-description = Yɛlɛmaba bɛna kɛ kalanbagaw ni ɲɔgɔn cɛ kumakan hakɛ la. I ka ban dɔrɔn ni kumakan ka bon fo fɔlisen bɛ tiɲɛ, walima (a ka c’a la) ni a dɔgɔyara fo i tɛ se ka kuma fɔlenw mɛn k’a sɔrɔ i ma kuma sɛbɛn sɛbɛnnen kan.
+contribution-reader-effects-title = Kalanbagaw ka nɔ bilalenw
+contribution-reader-effects-description = O fɔlisen fanba ye mɔgɔw ye minnu bɛ kuma u kan dacogo la. I bɛ se ka sɔn tuma dɔw la fɔlikan na min tɛ sariya kɔnɔ, n’o bɛ pɛrɛn, ka sɔgɔsɔgɔ, walima k’a jɛya ko a bɛ fɔ ni kan ‘drama’ ye. Aw ye ban dɔnkiliw la ani minnu bɛ baara kɛ ni kan ye min dilannen don ni ɔridinatɛri ye.
+contribution-just-unsure-title = Dɔrɔn I dalen tɛ a la wa?
+contribution-just-unsure-description = N’i ye fɛn dɔ sɔrɔ, nin laadilikanw t’a ɲɛfɔ, i ka wote ka kɛɲɛ n’i ka hakilina ɲuman ye. N’i tɛ se k’a latigɛ tiɲɛ na, baara kɛ ni butɔni ye min tɔgɔ ye ko skip, ka taa fɔlisen nata la.
+see-more = <chevron></chevron>Aw ye dɔ fara a kan
+see-less = <chevron></chevron>Aw ye dɔɔni lajɛ
 
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
@@ -1115,6 +1210,14 @@ download-size = Kundama
 
 ## HEADER/FOOTER
 
+sc-header-home = So
+sc-header-how-to = Cogo min na
+sc-header-add = Ka fara kan
+sc-header-review = Ka sɛgɛsɛgɛ
+sc-header-rejected = Kumasen minnu banna
+sc-header-my = Ne ka Kumasenw
+sc-header-statistics = Jateminɛw
+sc-header-profile = Porofili
 
 ## HOME
 
