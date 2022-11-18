@@ -878,15 +878,99 @@ contribute-more =
     }
 record-cta = A daminɛ ka sɛbɛnni kɛ
 record-platform-not-supported = An b'aw yafa, aw ka plateforme ma dɛmɛ sisan.
+record-platform-not-supported-desktop = Desktop minɛnw kan i bɛ se ka dɛmɛ don ni i ye...
+record-platform-not-supported-ios-non-safari = iOS kan aw ka t'a fɛ ni Safari ye walasa ka se ka sɛbɛnni kɛ...
+record-must-allow-microphone = Aw ka kan ka sira di mikro ma.
+record-no-mic-found = Mikɔrɔfɔni si ma sɔrɔ.
+record-error-too-short = O fɔlisen tun ka surun kojugu.
+record-error-too-long = O fɔlisen tun ka jan kojugu.
+record-error-too-quiet = O fɔlisen tun bɛ makun kojugu.
+record-cancel = Cancel Segin ka sɛbɛnni kɛ
+record-instruction = { $actionType }<recordIcon></recordIcon> o kɔfɛ, kumasen kalan ni kanba ye
+record-stop-instruction = { $actionType }<stopIcon></stopIcon>ni a kɛra
+record-three-more-instruction = Saba ka taa!
+record-again-instruction = A ka ɲi!<recordIcon></recordIcon> I ka klip nata sɛbɛn
+record-again-instruction2 = Aw k’a to a la, ka sɛbɛnni kɛ tugun <recordIcon></recordIcon>
+record-last-instruction = <recordIcon></recordIcon> A laban ye !
+review-tooltip =
+    Seginkanni & segin-ka-bɔnye
+      klipw yan i n'a fɔ i bɛ taa cogo min na
+share-clip = Seginkanni & segin-ka-bɔnye klipw yan i n'a fɔ i bɛ taa cogo min na
+share-common-voice = Share Common Voice (kan jɛlen).
+review-instruction = Segin & ka segin klipw kan ni mago bɛ a la
+record-submit-tooltip = { $actionType } ci ni a labɛnnen don
+clips-uploaded = Klipw (klip) minnu bilala sen kan
+record-abort-title = Ka fɔli kɛ ka ban fɔlɔ wa?
+record-abort-text = Ni i bɔra sisan, o kɔrɔ ye ko i bɛna bɔnɛ i ka ɲɛtaa la
+record-abort-submit = Klipw ci
+record-abort-continue = Aw ye sɛbɛnni kɛ ka ban
+record-abort-delete = Ka bɔ & Klipw bɔ yen
+listen-instruction = { $actionType }<playIcon></playIcon> yala u ye kumasen fɔ ka ɲɛ wa?
+listen-again-instruction = Baara ɲumanba!<playIcon></playIcon> Aw ye lamɛnni kɛ tugun ni aw labɛnnen don
+listen-3rd-time-instruction = 2 duguma, i ka to a la!<playIcon></playIcon>
+listen-last-time-instruction = <playIcon></playIcon>A laban ye !
+listen-empty-state = N’a sɔrɔ an ka klipw banna - ka ɲɛ in lakurayali, walima ka segin k’a lajɛ kɔfɛ.
+listen-loading-error =
+    An ma se ka odio clip si sɔrɔ walasa aw ka se k’a lamɛn.
+    Aw ye aw jija ka segin ka a lajɛ kɔfɛ.
+speak-empty-state = An ye kumasenw ban ka sɛbɛn nin kan in na...
+speak-empty-state-cta = Kumasenw di
+speak-loading-error =
+    An ma Se ka kumasen si Sɔrɔ i ka kuma.
+    Aw ye aw jija ka segin ka a lajɛ kɔfɛ.
+record-button-label = I kan sɛbɛn
+share-title-new = <bold>An dɛmɛ</bold> ka kumakan caman sɔrɔ
+keep-track-profile = Aw ye aw ka ɲɛtaa jateminɛ ni kunnafoni dɔ ye
+login-to-get-started = Don walima i tɔgɔ sɛbɛn walasa ka baara daminɛ
+target-segment-first-card = Aw b’aw dɛmɛ an ka laɲini yɔrɔ fɔlɔ la
+target-segment-generic-card = I b’i ka dɛmɛ don yɔrɔ laɲininen dɔ la
+target-segment-first-banner = Dɛmɛ ka Common Voice ka laɲini yɔrɔ fɔlɔ dabɔ { $locale } kɔnɔ.
+target-segment-add-voice = Aw ye aw ka kumakan fara a kan
+target-segment-learn-more = Aw ye kunnafoni wɛrɛw sɔrɔ
 
 ## Reporting
 
+report = Cisama
+report-title = Rapport dɔ di
+report-ask = I bɛ ka ko jumɛnw de sɔrɔ nin kumasen in na?
+report-offensive-language = Kan min bɛ mɔgɔ tɔɔrɔ
+report-offensive-language-detail = Kumasen bɛ ni bonyabaliya kan walima kumajugu ye.
+report-grammar-or-spelling = Daɲɛgafe / sɛbɛnni fili
+report-grammar-or-spelling-detail = Kumasen in bɛ ni daɲɛgafe walima sɛbɛnni fili ye.
+report-different-language = Kan wɛrɛw
+report-different-language-detail = A sɛbɛnnen bɛ kan dɔ la min ni n bɛ kuma min fɔ, o tɛ kelen ye.
+report-difficult-pronounce = A fɔcogo ka gɛlɛn
+report-difficult-pronounce-detail = Daɲɛw walima kumasenw bɛ sɔrɔ a kɔnɔ minnu kalanni walima u fɔli ka gɛlɛn.
+report-offensive-speech = Kuma min bɛ mɔgɔ dusu tiɲɛ
+report-offensive-speech-detail = { "" }
+report-other-comment =
+    .placeholder = Jateminɛ
+success = Sanga
+continue = Ka taa fɛ
+report-success = Rapport tɛmɛna ka ɲɛ
 
 ## Goals
 
+streaks = Streaks (Sɛbɛnw).
+days =
+    { $count ->
+       *[other] Tilew
+    }
+recordings =
+    { $count ->
+       *[other] Kasɛti minnu bɛ fɔ
+    }
+validations =
+    { $count ->
+       *[other] Sɔn-ni-sɔn gafeninw
+    }
 
 ## Dashboard
 
+your-languages = Aw ka Kanw
+toward-next-goal = Ka ɲɛsin kuntilenna nata ma
+goal-reached = Laɲini sera
+clips-you-recorded = Clips I ye minnu sɛbɛn
 
 ## Custom Goals
 
