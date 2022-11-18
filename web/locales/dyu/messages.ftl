@@ -1317,12 +1317,55 @@ sc-stats-summary =
 
 ## ADD
 
+sc-submit-err-select-lang = Aw ye kan dɔ sugandi.
+sc-submit-err-add-sentences = Aw ye kumasenw fara a kan.
+sc-submit-err-add-source = Aw ye sɔrɔyɔrɔ dɔ fara a kan.
+sc-submit-err-confirm-pd = Aw ye aw jija k’a jira ko nin kumasenw ye forobaciyɛn ye.
+sc-submit-prompt =
+    .message = Kumasen minnu ma ci, yala i dalen b’a la ko i b’a fɛ ka bɔ yen wa?
+sc-submit-title = Kumasenw fara a kan
+sc-submit-select-language =
+    .labelText = Kan sugandi
+sc-submit-add-sentences = <wikipediaLink>forobaciyɛn</wikipediaLink> kumasenw fara a kan
+sc-submit-ph-one-per-line =
+    .placeholder = Kumasen kelen bɛ zana kelen-kelen bɛɛ la
+sc-submit-from-where = Nin <wikipediaLink>forobaciyɛn</wikipediaLink> kumasenw bɛ bɔ min ?
+sc-submit-ph-read-how-to =
+    .placeholder = An ka Cogo min na, o kalan ni i dalen tɛ a la cogo min na i bɛ se ka a jira cogo min na
+sc-submit-confirm = N b’a Jira ko nin kumasen ninnu ye <wikipediaLink>forobaciyɛn</wikipediaLink> ye wa n ye yamaruya Sɔrɔ k’u Blà.
+sc-submit-button =
+    .submitText = Ka kolo
+sc-submit-filtered = Kumasen minnu filɛra ka da wajibiw dɛsɛ kan (aw ka kumasen jɔlenw ci i n’a fɔ kumasen kura):
+sc-submit-guidelines = Aw ye <howToLink>laadilikanw</howToLink> lajɛ.
 
 ## ADD LANGUAGE
 
+sc-add-lang-could-not-add = A ma Se ka kan Fàra o kan
+sc-add-lang-sec-label = I b’a fɛ ka dɛmɛ don kan min na, o fara o kan
+sc-add-lang-sec-button = Kan fara a kan
+sc-add-err-unexpected = I b’a fɛ ka ɲɛtaa don kan min na, o fara o kan
+# Variables:
+#   $duplicates (Number) - Number of sentences which got rejected because they are duplicates
+sc-add-result =
+    { $duplicates ->
+        [0] Kumasen minnu bilala sen kan. { $duplicates } kumasenw banna ka kɛ duplicates ye.
+       *[other] { "" }
+    }
+# Variables:
+#   $sentences (Number) - Number of sentences which failed to be saved to the database - could be several different reasons
+sc-add-err-failed =
+    { $sentences ->
+        [0] { $senences } kumasenw ma ɲɛ
+       *[other] { "" }
+    }
+sc-add-err-submission = Sɛbɛnni fili
+sc-add-lang-process-notice = Ni i ka kan ma fɔ yan, i bɛ se k’a ɲini <languageProcessLink>nin baarakɛcogo</languageProcessLink> fɛ.
 
 ## ADD SENTENCES CONFIRMATION
 
+sc-confirm-are-you-sure =
+    .message = Kumasen minnu ma ci, yala i dalen b’a la ko i b’a fɛ ka bɔ yen wa?
+sc-confirm-sentences-title = Kumasen Kuraw Sɛmɛntiya
 
 ## LANGUAGE INFO
 
