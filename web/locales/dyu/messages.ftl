@@ -740,24 +740,143 @@ confirm-no-identify = <b>I sɔnna</b> i kana a ɲini ka kumalasela minnu bɛ Com
 download-language = Ka telesarize{ $language }
 validated-hours = Lɛrɛ minnu bɛ se ka dafa
 recorded-hours = Lɛrɛ minnu sɛbɛnna
+whats-inside = Mun bɛ Common Voice kunnafonidilan kɔnɔ?
+dataset-description-hours =
+    Donan kelen-kelen bɛɛ bɛ Kɛ ni MP3 kɛrɛnkɛrɛnnen ye ani sɛbɛnni-dosiyɛri min bɛ Bɛn o ma. <b>{ $total }</b> lɛrɛ minnu sɛbɛnna kunnafonidilan kɔnɔ, olu caman fana bɛ jamanadenw ka kunnafonidilanw kɔnɔ i n’a fɔ si hakɛ, cɛya ni musoya, ani fɔcogo minnu bɛ se ka dɛmɛ don ka kuma dɔnni masinw ka tiɲɛni dege.
+    
+    Donanw kulu bɛ kɛ sisan <b>{ $valid }</b> lɛrɛw ye minnu sɛgɛsɛgɛra <b>{ $kanw }</b> kanw na, nka an bɛ kan ni kan caman fara a kan tuma bɛɛ. Aw ye an ka <languagesLink>Kanw ɲɛ</languagesLink> lajɛ walasa ka kan dɔ ɲini walima ka dɛmɛ daminɛ.
+want-dataset-update = Aw b’a fɛ ka kunnafoni kuraw sɔrɔ ni an ye Common Voice dataset bɔko kura bɔ wa? Aw ye aw tɔgɔ sɛbɛn an ka kunnafonidisɛbɛn na.
+subscribe = Aw ye aw tɔgɔ sɛbɛn
+get-started-speech = Aw ye a daminɛ ni kuma dɔnni ye
+other-datasets = Kumakan Dataset wɛrɛw
+feedback-q = Aw ye hakilinaw sɔrɔ wa?
+resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>TM ye <docsLink>da wulilen baarakɛminɛn ye</docsLink> ɲininikɛlaw ye minnu bɛ barokɛ AI misali kura labɛn
+resource-deepspeech-info = Mozilla ka da wulilen kan dɔnni masin Deep Speech bɛ se ka kɛ ka kuma dɔnni baarakɛminɛnw jɔ. An ka <githubLink>Github lajɛlen</githubLink> kalan walima ka fara <discourseLink>DeepSpeech Discourse</discourseLink> kan walasa ka daminɛcogo dɔn.
+resource-coqui-info = <coquiLink>Coqui</coquiLink> y' a yɛrɛ di kuma da wulilen fɛɛrɛw ma . U ka porozɛw ye STT ni TTS motɛriw ye minnu sinsinnen bɛ kalan jugu kan.
+community-playbook = Sigida tulonkɛ gafe
+resource-playbook-info = <playbookLink>Aw ye bilasiralikan nafamaw sɔrɔ</playbookLink> Common Voice taama bɛɛ la, k’a ta sigidako la ka se kunnafonidilanw baaracogo ma, ka fara jɛɲɔgɔnya kan ni an ka sigida ye.
+data-other-librispeech-description = LibriSpeech ye sanga 1000 ɲɔgɔn ye, tubabukan kalanni 16Khz min bɔra gafe lamɛntaw kalanlenw na ka bɔ LibriVox porozɛ la.
+data-other-ted-name = TED-LIUM Kɔrɔsili
+data-other-ted-description = TED-LIUM ka kulu in dilanna ni jɛmukan lamɛntaw ye ani u sɛbɛnni minnu bɛ sɔrɔ TED ka siti kan.
+data-other-voxforge-description = VoxForge sigira senkan walasa ka kuma sɛbɛnnenw lajɛ walasa ka baara kɛ ni Free and Open Source Speech Recognition Engines ye
+data-other-tatoeba-description = Tatoeba ye kumasenw, bamanankan bamanankan-falen-falen ani kumakan fɔlenw ka kunnafonidilanba ye walasa ka baara kɛ ni a ye kan kalanni na. Nin telesarse in kɔnɔ, tubabukan fɔlen bɛ yen min sɛbɛnna u ka sigida fɛ.
+your-feedback = Yala hakilinaw b’aw bolo an bɛ se ka Common Voice dataset kɛ cogo min na ka ɲɛ wa? An k’a dɔn Discours kan
+go-discourse = Taga Discours (Jɛkulu) yɔrɔ la
+missing-language = I t’a Ye k’i ka kan bɛ Ye Dataset kɔnɔ wa? Walasa ka kan dɔ ɲini, i ka taa an ka Kanw ɲɛ kan.
+go-languages-page = Taga kanw ɲɛ kan
+ready-to-validate = Yala i labɛnnen don ka dɛmɛ don ka kumasenw tiɲɛ wa?
+more = More
+close = Ka datugu
+download = Ka telesarize
+dataset-version = Wɛrisiyɔn
 
 ## Download Modal
 
+download-title = I ka telesarse daminɛna.
+download-helpus = Aw k’an dɛmɛ ka sigida jɔ kanko fɛɛrɛ lamini na, ka to ɲɔgɔn fɛ imɛri la.
+download-form-email =
+    .label = I ka imeyilɛri ladɛrɛsi sɛbɛn
+    .value = { "" }
+download-back = Segin ka taa Common Voice Datasets kan
+download-no = Ayi Baraka da
 
 ## Contact Modal
 
+contact-title = Ladilikan sɛbɛn
+contact-form-name =
+    .label = Tɔ̀gɔ
+contact-form-message =
+    .label = Bataki
+contact-required = *laɲininnen
 
 ## Request Language Modal
 
+request-language-title = Kanko ɲinini
+request-language-form-language =
+    .label = kan
+request-language-success-title = Kan ɲinini kɛra ka ɲɛ, barika Ala ye.
+request-language-success-content = An bɛna ɲɔgɔn sɔrɔ ni kunnafoni wɛrɛw ye i ka kan faracogo kan Common Voice kan yanni dɔɔnin cɛ.
+select-language = Kan dɔ sugandi...
+other-language = Kan wɛrɛw
 
 ## Request Language Pages
 
+request-language-heading = Aw ye ɲininkali kɛ kan kura dɔ ko la
+request-language-explanation-1 =
+    A lajɛ n’i ka kan sɛbɛnnen bɛ
+    <languagesPageLink>kan jɛlenw ɲɛ</languagesPageLink>.
+    N’o tɛ, i ka nin sɛbɛn in dafa, an bɛna <strong>i ka bataki ci i ma min bɛ se ka kɛ i bolo
+    ka ɲɛfɔli kɛ i ka kan sigicogo kan</strong>.
+request-language-explanation-2 =
+    An bɛna <strong>an ka sigida ɲɛmɔgɔ fana ladɔnniya
+    ko i b’ i mago don</strong>, walasa u ka se ka dɔ di i ma
+    dɛmɛ wɛrɛ walima kunnafoniw minnu bɛ se ka kɛ i mago bɛ minnu na.
+request-language-form-email =
+    .label = I ka imeyilɛri ladɛrɛsi
+request-language-form-info =
+    .label = Kunnafoni minnu bɛ kan in kan
+request-language-form-info-explanation =
+    I bɛ se ka kunnafoni caman fara o kan kan ko la. Nin
+    bɛ se ka kɛ ninnu ye:
+request-language-form-info-explanation-list-1 = Aw ka kan tɔgɔw
+request-language-form-info-explanation-list-2 = <isoCodeLink>ISO Kodew</isoCodeLink> ni a dɔnna
+request-language-form-info-explanation-list-3 = Site webw ladɛrɛsi minnu bɛ se k’an dɛmɛ ka kan faamuya
+request-language-google-recaptcha-required = reCAPTCHA de wajibiyalen don ni aw b’a fɛ ka taa ɲɛ
+request-language-google-recaptcha-error = Fɛn dɔ ma ɲɛ reCAPTCHA la. Aw ye aw jija ka segin a kan.
+# Success page
+request-language-success-heading = A' ni cɛ! I ye kan ɲininkali kura ci
+request-language-success-list-1 =
+    Aw ka kan ka bataki sɔrɔ min bɛ ɲɛfɔli kɛ dɔɔnin
+    fɛɛrɛ minnu bɛ kɛ walasa i ka kan ka fara Common Voice kan
+request-language-success-list-2 =
+    An ka sigida ɲɛmɔgɔ bɛna a bolo da aw kan walasa ka o di
+    dɛmɛ wɛrɛ, ani ka aw ladɔnniya ni o bɛ yen
+    kaban sigida min bɛ baara kɛ i ka kan kan
+request-language-success-list-3 =
+    N’i ma an ka kuma mɛn tile fila-fila kɔnɔ,
+    aw bɛ se ka aw bolo don <emailLink>{ $email }</emailLink> la
+    ani an bɛ segin ka na aw fɛ!
+request-language-error =
+    N’a sɔrɔ an ma o delili sɔrɔ. Aw ye bataki ci an ma k’a ɲɛsin an ma
+    kan <emailLink>{ $email }</emailLink> ani an bɛna segin aw ma!
 
 ## Languages Overview
 
+language-section-in-progress = A bɛ ka taa ɲɛ
+language-section-in-progress-new-description = O kan ninnu bɛ sigida yiriwali la sisan. <localizationGlossaryLink>Website sigidako</localizationGlossaryLink> ani <sentenceCollectionGlossaryLink>kumasenw dalajɛ</sentenceCollectionGlossaryLink> ka kan ka daminɛ.
+language-section-launched = A daminɛna
+language-section-launched-description = Nin kan daminɛna ninnu na, siti in ye <localizationGlossaryLink>localization</localizationGlossaryLink> sɔrɔ ka ɲɛ, wa <sentenceCollectionGlossaryLink>kumasen caman bɛ a la minnu lajɛlen don</sentenceCollectionGlossaryLink> walasa ka sira di <speakLink>Speak</speakLink> ani <listenLink>Lamɛnni</listenLink ma minnu bɛ taa ɲɛ > bolomafaraw.
+languages-show-more = Ka ye Caman
+languages-show-less = Ka ye Dcnni
+language-meter-in-progress = Ɲɛfɛtaali
+language-total-progress = Kasabi
+language-search-input =
+    .placeholder = Ɲini
+language-speakers = Kumafɔlaw
+localized = Sigida la
+sentences = Kumasenw
+language-validation-hours = Lɛrɛw
+language-validation-progress = Validation (dafalen) ɲɛtaa
 
 ## Contribution
 
+action-click = A digi
+action-tap = Worobinɛ
+contribute = Ka Bólomafara di
+listen = Ka lamɛn
+skip = Ka lasogo
+shortcuts = Siginiden surunw
+clips-with-count-pluralized =
+    { $count ->
+       *[other] <bold>{ $count }</bold> faralenw
+    }
+goal-help-recording = Aw ye Common Voice dɛmɛ ka se <goalPercentage></goalPercentage> ma an ka don o don { $goalValue } sɛbɛnni kuntilenna na !
+goal-help-validation = Aw ye Common Voice dɛmɛ ka se <goalPercentage></goalPercentage> ma an ka don o don { $goalValue } dantigɛli kuntilenna na !
+contribute-more =
+    { $count ->
+       *[other] labɛnnen don ka kɛ { $count } ka tɛmɛ?
+    }
+record-cta = A daminɛ ka sɛbɛnni kɛ
 
 ## Reporting
 
