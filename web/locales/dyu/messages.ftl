@@ -411,6 +411,7 @@ build-profile = BuildProfile (Profil) min bɛ kɛ
 avatar = Avatar (Avatar) ye
 goals = kuntilennaw
 settings = Segin-ka-bɔnyew
+edit-profile = Profil (Profil) ladilan
 
 ## Profile - Email
 
@@ -420,6 +421,7 @@ settings = Segin-ka-bɔnyew
 
 ## FAQ
 
+faq-what-cv-a-2 = Kan dɔnni fɛɛrɛ bɛ ka fɛn caman sɛmɛntiya an ni masinw ka jɛɲɔgɔnya kɛcogo la, nka sisan, sigida minnu bɛ yen, olu sɔngɔ ka gɛlɛn, wa u ye an yɛrɛ ta ye. Mozilla Common Voice ye fɛɛrɛ ye min bɛ kan dɔnni fɛɛrɛw kɛ ka ɲɛ ani ka se ka sɔrɔ bɛɛ fɛ. Common Voice ye diɲɛ kɔnɔ kunnafonisɛbɛnba ye min bɛ kumakanw dilabɔ, min b’a to mɔgɔ bɛɛ bɛ se ka kumakan-porogaramuw dege teliya la ani nɔgɔya la kan bɛɛ la min bɛ se ka kɛ.
 
 ## ABOUT US
 
