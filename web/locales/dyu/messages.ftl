@@ -543,6 +543,7 @@ about-no-votes-text = Ni baarakɛla dɔ banna kumakan-klip dɔ la a bɛ segin La
 about-dataset-new = Kumakan Daɲɛgafe min bɛ wele ko Common Voice Dataset
 about-dataset-new-text = Common Voice Dataset kɔnɔ, kumakan misali ba kɛmɛ caman bɛ yen minnu bɛ baarakɛlaw dɛmɛ ka kumakan dɔnni baarakɛminɛnw dilan.
 about-clip-graveyard = Clip Kaburudo
+about-clip-graveyard-text = Clip Graveyard (Klip kaburudo) bɛ Kɛ ni kan-klipw ye minnu ma Se ka Kɛ Common Voice dataset kɔnɔ. I n’a fɔ kunnafonidilan in cogo kelen na, Clip Graveyard bɛ se ka telesarse.
 about-get-involved = Aw ye aw sen don a la
 about-get-involved-text-2 =
     Aw b’a fɛ ka dɛmɛ don walasa Common Voice ka fisa yɛrɛ wa?
@@ -624,27 +625,120 @@ about-playbook-how-grow-language-content-3 = aw bɛ se ka ko kɛtaw ɲɛminɛ wa
 about-playbook-how-grow-language-content-4 = Sosiyete ka kunnafonidilanw
 about-playbook-how-grow-language-content-5 = I bɛ se ka baara kɛ ni sosiyete ka kunnafonidilanw ye walasa ka cikan bɔ kɛnɛ kan. Aw ye sɛbɛnw tila minnu b’a ɲɛfɔ mun na a nafa ka bon, ani ka kuma mɔgɔ wɛrɛw fɛ minnu bɛ kuma ko dɔw kan i n’a fɔ kanko josariyaw, kan AI, walima bias in tech. Aw ye laadilikan wɛrɛw lajɛ <campaignLink>kanpaɲi sosiyete ka kanpaɲi kan, i bɛ se ka baara kɛ ni min ye kokura</campaignLink> kɔnɔkow fana sen bɛ o la.
 about-playbook-how-grow-language-content-6 = Jɛɲɔgɔnya ni ɲɔgɔndɛmɛ
+about-playbook-how-grow-language-content-7 = Mɔgɔ wɛrɛw ɲini minnu b’u janto u la. O bɛ se ka kɛ inivɛrisitew ye, kanko kalansow, lafasalitɔnw walima kunnafoniko jɛkuluw. I bolo da a kan k’a ɲɛfɔ ka jɛya u bɛ se ka dɛmɛ cogo min na ani mun na. <outreachTemplates>An ka jatebɔsɛbɛnw lasecogo batakiw lajɛ</outreachTemplates>.
+about-playbook-how-grow-language-content-8 = <strong>I ka daɲɛw labɛn !</strong> i ka kanko jɛkulu bɛna kɛ fɛn ye min ɲɔgɔn tɛ , wa ninnu ye daminɛcogo damadɔ dɔrɔn de ye .
 
 ## How to validate
 
+about-playbook-how-validate = Ne bɛ se k’a dɔn cogo di ko ne ka kan ka sɔn kumakan-klip dɔ ma?
+about-playbook-how-validate-content-1 = N’i tun bɛ se ka <strong>u mɛn</strong> ani ka <strong>u faamuya</strong>, a ka c’a la, <strong>a ka fisa i ka sɔn</strong>.
+about-playbook-how-validate-content-2 = <strong>Aw kana ban klipw la, kumalasela ‘kan fɔcogo’ bɛ yɔrɔ minnu na, o ni aw yɛrɛ ta tɛ kelen ye</strong> - o nafa ka bon walasa kan dɔnni ka baara kɛ ka ɲɛ bɛɛ ye.
+about-playbook-how-validate-content-3 = N’i y’a miiri ko fɔcogo b’a to a tɛ se ka faamuya</strong>, walima <strong>kɔfɛ mankan ka ca</strong>, walima <strong>mɔgɔ wɛrɛw fana bɛ kuma</strong>, o tuma i ka kan ka ban klip la. <accuracyLink>aw ye kunnafoni wɛrɛw lajɛ an ka tiɲɛni sariyaw kɔnɔ</accuracyLink>.
+about-playbook-how-validate-content-4 = Ni klip dɔ banna mɔgɔ 2 fɛ, a bɛ bɔ kunnafonidilan kulu fitinin wɛrɛ kɔnɔ.
 
 ## How to access dataset
 
+about-playbook-how-access-dataset = Ne bɛ se ka don kunnafonidilan kɔnɔ cogo di ani ka baara kɛ ni a ye cogo di?
+about-playbook-how-access-dataset-content-1 = I bɛ se ka taa <datasetsPage>datasets ɲɛ</datasetsPage> la, ka i b’a fɛ ka version ni kan(w) sugandi, k’a telesarse! Dosiyɛriw bɛ ni <metadataLink>associé metadata</metadataLink> ye, i n’a fɔ jamanadenw ka kunnafoniw ani dantigɛli kunnafoniw. I ka kan ka imɛri ladɛrɛsi di walasa ka kunnafonidilan in telesarse.
+about-playbook-how-access-dataset-content-2 = N’i b’a fɛ ka baarakɛminɛnw ɲini walasa ka ASR misaliw jɔ, i bɛ se ka jɛɲɔgɔnya kɛ ni mɔgɔ wɛrɛw ye sigida la <discourseLink>kan Discourse</discourseLink>.
 
 ## How are decisions made
 
+about-playbook-how-project-governance = Porozɛw ka latigɛw bɛ kɛ cogo di?
+about-playbook-how-project-governance-content-1 = Mozilla Common Voice bɛ se ka kɛ ni jɛkulu suguya caman ye, minnu ye walekɛlaw, kanko dɔnnikɛlaw, kunnafonidilanw, kalandenw ani porozɛw dilannikɛlaw ye minnu bɔra diɲɛ fan bɛɛ la. Porozɛ in ɲɛmɔgɔya bɛ Mozilla Foundation bolo.
+about-playbook-how-project-governance-content-2 = An ka mara sinsinnen bɛ nin jɔyɔrɔw kan:
+about-playbook-how-project-governance-content-3 = Danbe, lakana ani jɛlenya.
+about-playbook-how-project-governance-content-4 = Sigidamɔgɔw sendonni ani u ka latigɛw.
+about-playbook-how-project-governance-content-5 = Nafa ni dɔnniya sɔrɔli.
+about-playbook-how-project-governance-content-6 = Jateminɛ kɛ ɲɔgɔn fɛ.
+about-playbook-how-project-governance-content-7 = <governanceLink>Aw ye kunnafoni wɛrɛw kalan an bɛ mara cogo min na</governanceLink>
 
 ## Glossary
 
+glossary = Daɲɛgafe-sɛbɛn
+localization = Sigida-la-ko
+localization-explanation = Nin ye an ka taabolo ye walasa k’an ka kɔnɔkow baara ani k’u bɛrɛbɛn sigida (kan caman) caman ma.
+sentence-collection = Kumasenw Lajɛ
+sentence-collection-explanation = Kumasenw dalajɛli ka bɔ forobaciyɛn na, walima ka kumasen kuraw sɛbɛn forobaciyɛn kama.
+hours-recorded-explanation = An ye kan fɔli lɛrɛ minnu lajɛ fo ka na se bi ma, olu jate.
+hours-validated-explanation = Kan sɛbɛnni lɛrɛw jate min kɛra baarakɛla 2 fɛ 3 kan ni wote ye min ye “Ɔwɔ” ye. Olu bɛ ɲɛtaa jira ka ɲɛsin porozɛ bɛɛ lajɛlen lɛrɛ 10k laɲini ma.
+sst = Kuma ni sɛbɛnni (STT) .
+sst-explanation = Kuma ni sɛbɛnni (STT) fɛɛrɛw bɛ kan kunnafoniw sɛmɛntiya ka kɛ sɛbɛnni ye.
+de-identified = De-identifié (dafalen) ye
+de-identified-explanation = Taabolo min bɛ kɛ ni dɛmɛbaga dɔ ka kunnafoni kunnafoniw ye minnu bɛ datugu ka bɔ u ka kumakanw bolomafaraw la n’u bɛ pake kɔnɔ walasa ka telesarse i n’a fɔ kunnafonidilan dɔ.
 
 ## Error pages
 
+error-title-404 = An ma se k’o ɲɛ in sɔrɔ i ye
+error-content-404 = Laala an ka <homepageLink>homepage</homepageLink> bɛna dɛmɛ wa? Walasa ka ɲininkali kɛ, i ka fara <matrixLink>Matrix jɛkulu ka baro</matrixLink> kan, ka siti koɲɛw kɔlɔsi <githubLink>GitHub</githubLink> fɛ walima ka taa <discourseLink>an ka kuma fɔyɔrɔw la</discourseLink>.
+error-title-503 = An bɛ ka baarakɛbaliya waati sɔrɔ min tun ma deli ka kɛ
+error-content-503 = Site bɛna segin ka na joona joona. Walasa ka kunnafoni labanw sɔrɔ, i ka fara <matrixLink>Matrix sigida baro</matrixLink> kan walima i ka taa <githubLink>GitHub</githubLink> walima <discourseLink>an ka Discourse forums</discourseLink> la walasa ka sitiw ka ko kɛlenw bila ani k’u kɔlɔsi.
+error-code = { $code }Filijuru
 
 ## Data
 
+data-download-button = Téléchargeur (Téléchargeur) ye Kumakan kunnafoniw minnu bɛ sɔrɔ mɔgɔw fɛ
+data-download-yes = Awɔ
+data-download-deny = Ayi
+data-download-license = Lase: <licenseLink>CC-0</licenseLink>
+data-download-modal = I bɛna <size>{ $size }GB</size> telesarse daminɛ, i ka taa ɲɛ?
+data-subtitle = An bɛ ka kumakanw kunnafonidilan dafalen dɔ jɔ min bɛ se ka sɔrɔ foroba la, bɛɛ bɛ se ka baara kɛ ni min ye walasa ka kumakan-minɛnw dege.
+data-explanatory-text = An dalen b’a la ko kan kunnafonidilanba minnu bɛ sɔrɔ foroba la, olu bɛ kokuradonni ni jagokɛcogo ɲuman sabati kumakan fɛɛrɛbɔ siratigɛ la min sinsinnen bɛ masin kalanni kan. Nin ye diɲɛ bɛɛ ka cɛsiri ye wa an bɛ bɛɛ wele u ka na a sen don a la. An ka laɲini ye ka kumakan fɛɛrɛbɔ dɛmɛ u ka kɛ fɛn bɛɛ lajɛlen ye, ka kan suguya caman jira minnu bɛ bɔ diɲɛ fan bɛɛ la.
+data-get-started = <speechBlogLink>A daminɛ ni kuma dɔnni ye</speechBlogLink>
+data-other-title = Kumakan kunnafonidilan wɛrɛw...
+data-other-goto = Taga  { $name } la
+data-other-download = Data telesarse
+data-bundle-button = Dataset Bundle telesarse
+data-bundle-description = Common Voice data fara kan dataset tɔw bɛɛ kan sanfɛ.
+release-version = Wɛrisiyɔn
+dataset-date = Don
+license = Lase: <licenseLink>{ $license }</licenseLink>
+license-mixed = Mixed (Mixed) ye
+data-download-singleword-title = Daɲɛ kelen laɲini yɔrɔ telesarse
+data-download-singleword-callout-v2 = Nin ye baarakɛcogo-ko-ɲɛnabɔli-yɔrɔ ye min kɔnɔ kunnafoniw bɛ sɔrɔ ka fanga di nimɔrɔ fɔlenw dɔnni ma ani ɔwɔ / ayi dɔnni.
+review-terms = Ni i bɛ baara kɛ ni Common Voice ye, i bɛ sɔn an ka <termsLink>Sariyaw</termsLink> ani <privacyLink>Gundola kunnafoni</privacyLink> ma
+terms-agree = N sɔnna o ma
+terms-disagree = N ma sɔn o ma
+review-aborted = telesarize dabilalen don. Yala i b’a fɛ k’i ka fɔlisenw bɔ yen wa?
+review-submit-title = Seginkanni ani a bila
+review-submit-msg = Aw ni ce aw ka fɔli la!<lineBreak></lineBreak>Sisan aw ka aw ka klipw lajɛ ani k’u bila jukɔrɔ.
+review-recording = Ka sɛgɛsɛgɛ
+review-rerecord = Segin ka sɛbɛnni kɛ
+review-cancel = ka dankari  Majigi
+review-keep-recordings = Aw ye o fɔlisenw mara
+review-delete-recordings = N ka fɔlisenw bɔ yen
 
 ## Datasets Page
 
+datasets-heading = Donanw (daɲɛgafew) kuluw
+datasets-headline = An bɛ ka kumakanw kunnafonidilan dafalen dɔ jɔ, kan caman bɛ min kɔnɔ, mɔgɔ bɛɛ bɛ se ka baara kɛ ni min ye walasa ka kumakan-minɛnw dege.
+datasets-positioning =
+    An dalen b’a la ko kan kunnafonidilanba minnu bɛ sɔrɔ foroba la, olu bɛna kokuradonni ni jagokɛlaw ka ɲɔgɔndan kɛnɛman sabati kumakan fɛɛrɛbɔ siratigɛ la, min sinsinnen bɛ masin kalanni kan.
+    
+    Common Voice ka kan caman kunnafonidilan ye kan kunnafonidilanba ye min bɛ sɔrɔ foroba la kaban a suguya la, nka a kelen tɛ.
+    
+    Aw ye nin ɲɛ in lajɛ i n’a fɔ dakun dafalen kan kunnafonidilan wɛrɛw ka ɲɛfɔli yɔrɔ ani, ni Common Voice bɛ ka bonya ka taa a fɛ, an ka bɔli kunnafoniw sigiyɔrɔ.
+language = kan
+download-dataset-header = Ka telesarize  o ye Dataset ye
+download-delta-explainer = An ye fɛn dɔw Changé (Yɛlɛma) Kɛ. Delta Segments kɔnɔ, klip labanw bɛ sɔrɔ dɔrɔn kabini u bɔra laban na. <deltaLink>Aw ye kunnafoni wɛrɛw kalan nin baara in kan</deltaLink> .
+download-dataset-tag = Kan dataset min b’i fɛ, o sugandi ani i b’a fɛ ka version min telesarse, o sugandi.
+download-dataset-access = Aw bɛ dataset bɔko tɛmɛnenw ɲini wa? Email <emailLink> { $email } </emailLink>
+# File size in gigabytes
+size = Kundama
+validated-hr-total = Lɛrɛw dafalenw Total
+overall-hr-total = Lɛrɛw bɛɛ lajɛlen Total
+cv-license = lase
+audio-format = Lamɛnni kɛcogo
+number-of-voices = Kumakanw hakɛ
+splits = A bɛ tila-tila
+email-to-download = A’ ye Email don ka telesarize
+why-email = <b>Mun na imɛri ?</b> An bɛ se ka kuma i fɛ don nataw la fɛn caman Changements de la données de données , email bɛ kumaɲɔgɔnya yɔrɔ di an ma .
+confirm-size = I labɛnnen don ka <b>{ $size }</b> telesarseli daminɛ
+size-gigabyte = Go
+size-megabyte = Mo
+confirm-no-identify = <b>I sɔnna</b> i kana a ɲini ka kumalasela minnu bɛ Common Voice kunnafonidilan kɔnɔ , olu tɔgɔ dɔn
+download-language = Ka telesarize{ $language }
+validated-hours = Lɛrɛ minnu bɛ se ka dafa
 
 ## Download Modal
 
