@@ -1123,6 +1123,7 @@ demo-welcome-subheader = I b’a fɛ ka kunnafoni wɛrɛw sɔrɔ ani ka dɛmɛ d
 demo-language-select-card-header = Common Voice ye diɲɛ kɔnɔ kumakan kunnafonidilanba ye min bɛ sɔrɔ foroba la, min bɛ kan caman fɔ.
 demo-language-select-card-body = K’a sababu Kɛ mɔgɔ 259k ni kɔ ka dɛmɛ ye kan 50 ni kɔ la, o kunnafonidilan in bɛ Kɛ ka kuma-se-minɛnw dege walasa u ka se ka hadamaden kan jaabi ka ɲɛ.
 card-button-next = Nata
+card-button-back = Kɔ
 demo-language-select-label = Kanw lajɛ
 demo-eofy-header = 2019 sàn laban Bɔli
 demo-eofy-sub_header = Voice Dataset, Labɛnna ka telesarse
