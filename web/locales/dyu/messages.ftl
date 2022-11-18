@@ -542,6 +542,7 @@ about-no-votes = ≥ 2 Wote tɛ kɛ
 about-no-votes-text = Ni baarakɛla dɔ banna kumakan-klip dɔ la a bɛ segin Layidu la. Ni a banna siɲɛ filanan na, kumakan-klip bɛ taa Clip kaburudo la.
 about-dataset-new = Kumakan Daɲɛgafe min bɛ wele ko Common Voice Dataset
 about-dataset-new-text = Common Voice Dataset kɔnɔ, kumakan misali ba kɛmɛ caman bɛ yen minnu bɛ baarakɛlaw dɛmɛ ka kumakan dɔnni baarakɛminɛnw dilan.
+about-clip-graveyard = Clip Kaburudo
 
 ## Community Playbook Content
 ## What is a language
