@@ -1348,7 +1348,7 @@ sc-add-err-unexpected = I b’a fɛ ka ɲɛtaa don kan min na, o fara o kan
 #   $duplicates (Number) - Number of sentences which got rejected because they are duplicates
 sc-add-result =
     { $duplicates ->
-        [0] Kumasen minnu bilala sen kan. { $duplicates } kumasenw banna ka kɛ duplicates ye.
+        [0] Kumasen minnu bɛ ci. { $duplicates } .kumasenw banna k’a kɛ kumasenw ye minnu bɛ ɲɔgɔn ta.
        *[other] { "" }
     }
 # Variables:
@@ -1439,6 +1439,7 @@ sc-lang-info-rejected =
 ## LOGIN
 
 sc-login-err-failed = Donni ma ɲɛ
+sc-login-err-try-again = Aw ye aw jija ka segin a kan.
 
 ## PROFILE
 
@@ -1457,12 +1458,55 @@ sc-personal-not-added = Aw ma kan si Fàra o kan fɔlɔ.
 ## REVIEW CRITERIA
 
 sc-criteria-modal = R Seginkanni sariyaw
+sc-criteria-title = Seginkanni sariyaw
+sc-criteria-make-sure = Aw ye aw jija kumasen bɛ nin sariyaw dafa:
+sc-criteria-item-1 = Kumasen ka kan ka sɛbɛn ka ɲɛ.
+sc-criteria-item-2 = Kumasen ka kan ka Kɛ daɲɛ-fɔcogo ɲuman ye.
 
 ## REVIEW
 
+sc-review-form-keyboard-usage-custom = Aw bɛ se fana ka baara ni Keyboard Shortcut ye: { sc-review-form-button-approve-shortcut } ka Sɔn, { sc-review-form-button-reject-shortcut } ka Ban,{ sc-review-form-button-skip-shortcut } ka taa Tɛmɛ
+sc-review-form-button-submit =
+    .submitText = Seginkanni dafa
+# Variables:
+#   $sentences (Number) - Number of sentences the user has reviewed in this session
+sc-review-form-reviewed-message =
+    { $sentences ->
+        [0] { $phrases } kumasenw sɛgɛsɛgɛlenw. Barika !
+       *[other] { "" }
+    }
+sc-review-form-review-failure = Seginkanni ma se ka mara. Aw ye aw jija ka segin ka a lajɛ kɔfɛ.
+sc-review-link = Ka sɛgɛsɛgɛ
 
 ## SETTINGS
 
+sc-settings-title = Segin-ka-bɔnyew
+sc-settings-ui-language = Interface Kan min bɛ Kɛ
+sc-settings-reset-skipped = Kumasen minnu tɛmɛna, olu labɛn kokura
+sc-settings-skipped-decription = I tun bɛ kumasenw tɛmɛ fɔlɔ k’a sɔrɔ i bɛ seginnkanni kɛ. Kumasen tɛmɛnenw sigili kokura, o bɛna kumasen tɛmɛnenw bɛɛ jira kokura. O ye yɛrɛmahɔrɔnya ye kanko la.
+sc-settings-show-all-button = Kumasen minnu tɛmɛna, olu bɛɛ jira tuguni
+sc-settings-failed = A ma se ka sigidakow Changer. Aw ye aw jija ka segin a kan.
+# VALIDATION
+sc-validation-number-of-words = Kumasen ka kan ka Kɛ daɲɛ 1 ni 14 'cɛ (o bɛɛ lajɛlen).
+sc-validation-no-numbers = { "" }
+sc-validation-no-symbols = Kumasen man kan ka kɛ ni taamasiyɛnw ye
+sc-validation-no-abbreviations = Kumasen man kan ka kɛ ni daɲɛ surunw ye
 
 # [/SentenceCollector]
 
+localization-select =
+    .label = Kan/sigida sugandi
+# PARTNERSHIPS PAGE
+partnerships-header = Jɛɲɔgɔnya minnu bɛ kɛ
+partnerships-header-text = A bɛ caman ta walasa Common Voice ka se ka kɛ! An t'o kɛ an kelen na. Aw b’a fɛ ka jɛɲɔgɔnya kɛ ni an ye wa? An b'a fɛ ka aw ka kuma mɛn.
+partnerships-get-in-touch = Aw ye ɲɔgɔn sɔrɔ
+partnerships-become-a-partner = Aw ka kɛ Common Voice Partner ye
+partnerships-community-header = Sigida, Daɲɛw ani Sosiyete Sivilɛ
+partnerships-governments-description = An nisɔndiyara ka dɛmɛ don forobacakɛda ka jɛkafɔ la fɛɛrɛtigɛ, kokuradonni ani kanko josariyaw la. N’i ​​b’a fɛ ka porozɛ walima kanpaɲi belebele dɔ kɛ, i ka <emailFragment>get in contact kɛ.</emailFragment>
+partnerships-academia-header = Inivɛrisitew, Karamɔgɔw ani ɲininikɛlaw
+partnerships-academia-description = An ka baara kɛlenw kɔnɔko kura dabɔlen don. Ni aw b’a fɛ ka ɲinini jɛ-ka-baara kɛ, ka kunnafoniw lajɛ walima ka ɲininkaliw kɛ, <emailFragment>aw bɛ se ka aw bolo don.</emailFragment>
+partnerships-small-business-header = Jagokɛyɔrɔ misɛnninw, i n’a fɔ tech ani AI daminɛw
+partnerships-small-business-description = An b’a ɲini tuma bɛɛ ka kunnafonidilaw fɛ u magow n’u ka sigida ko la - k’a ta jɛkafɔ la kunnafonidilan kan ka se kunnafonidilanw kɛnɛyako hakilinaw dicogo ma, an b’a fɛ ka <emailFragment>ka mɛn aw fɛ.</emailFragment>
+partnerships-corporates-header = Jɛkulubaw ni plateforme sosiyetew
+partnerships-corporates-description = N’i ​​b’a fɛ ka kuma caman fɔ kunnafonidilan kan, n’i b’a fɛ ka jɛ ka wari bila plateforme yiriwali bolodalenw na walima ka jɛkafɔ siraw ɲini, <emailFragment>i ka layini dɔ bila an ye.</emailFragment>
+partnerships-our-partners = An ka jɛɲɔgɔnw
