@@ -1219,24 +1219,101 @@ sc-header-rejected = Kumasen minnu banna
 sc-header-my = Ne ka Kumasenw
 sc-header-statistics = Jateminɛw
 sc-header-profile = Porofili
+sc-footer-discourse = Jɛmukan
+sc-footer-report-bugs = Bugs (Bugs) Lakali
+sc-footer-translate = Aw ye nin ɲɛ in baara
+sc-footer-report-copyright = Aw ye sɛbɛnnikɛlaw ka josariyaw koɲɛw fɔ
+sc-footer-privacy = Daamu
+sc-footer-terms = Bɛnkanw
+sc-footer-cookies = Kukisɛw
+sc-login-signup-button = Don / I tɔgɔ sɛbɛnni
+sc-logout-button = Aw ka bɔ kɛnɛ kan
 
 ## HOME
 
+sc-home-title = Aw ni ce Common Voice la Kumasenw Lajɛbaga
+sc-home-intro = Kumasenw lajɛbaga ye <commonVoiceLink>Kunnafoni jɛlen</commonVoiceLink> yɔrɔ dɔ ye. A b’a to dɛmɛbagaw bɛ se ka kumasenw lajɛ minnu dabɔra sigida fɛ ani k’u sinsin. I bɛ se ka baara kɛ ni nin baarakɛminɛn in ye fana walasa ka forobaciyɛn misɛnninw ni cɛmancɛw ladon ani k’u saniya i ye forobaciyɛn sɔrɔ walima k’a lajɛ. Kumasenw bɛɛ ka kan ka Kɛ Foroba-yɔrɔ ye. Kumasen minnu dabɔra, olu bɛ bila dɔgɔkun o dɔgɔkun ka taa Common Voice marayɔrɔ la, wa u bɛ bɔ Common Voice ka siti kan, u bilali kura bɛɛ la.
+sc-home-collect-title = Kumasenw lajɛ
+sc-home-collect-text = Aw k’an dɛmɛ ni Public Domain kumasenw sɛbɛnni ye walima k’u lajɛ.
+sc-home-review-title = Segin kumasenw kan
+sc-home-review-text = An dɛmɛ i kɛtɔ ka kumasenw lajɛ walasa u ka tiɲɛ ka kɛɲɛ ni laadilikanw ye.
 
 ## GENERAL
 
+sc-languages-fetch-error = An ma se ka kanw sɔrɔ minnu bɛ sɔrɔ. Bolomafaraw tɛ se ka kɛ sisan. Aw ye aw jija ka segin ka a lajɛ kɔfɛ.
 
 ## HOW-TO
 
+sc-howto-title = Cogo min na
+sc-howto-addlang-title = Kanw farali ka baara kɛ ni minnu ye
+sc-howto-addlang-text = Ni i donna a kɔnɔ i bɛ se k’i ka kanw sugandi ka bɔ i ka profil yɔrɔ la.
+sc-howto-addsen-title = Kumasen kura dɔw fara a kan
+sc-howto-addsen-item-1 = I bɛ kumasen minnu ci, olu bɛɛ ka kan ka kɛ <wikipediaLink>Public Domain (CC-0) lase</wikipediaLink> kɔnɔ. Walasa ka dɛmɛ don baara minnu tɛ foroba lase kɔnɔ, an ye <cc0WaiverLink>Bonko bɛnkansɛbɛn dɔ dilan</cc0WaiverLink> baara minnu kama, sɛbɛnnikɛlaw ka josariyaw tigi b’a fɛ ka kunnafoniw di Common Voice ma yɔrɔ minnu na.
+sc-howto-addsen-item-2 = Jatedenw. Jateden si man kan ka kɛ sɛbɛn bɔyɔrɔ la bawo u bɛ se ka gɛlɛyaw lase mɔgɔ ma ni u kalanna ni kanba ye. Jateden dɔ kalancogo bɛ bɔ a kɔnɔkow la, wa a bɛ se ka ɲagami don kunnafonidilan kɔnɔ. Misali la, jateden « 2409 » tun bɛ se ka kalan ka ɲɛ ko « zeru mugan ni naani kɔnɔntɔn » ani « ba fila ni kɛmɛ naani kɔnɔntɔn » fila bɛɛ.
+sc-howto-addsen-item-3 = Kuma surunw ni daɲɛ surunw. Kuma surunw ni daɲɛ surunw i n’a fɔ “USA” walima “ICE” ka kan ka kɔlɔsi bɔyɔrɔ sɛbɛn kɔnɔ bawo u bɛ se ka kalan cogo la min tɛ bɛn u sɛbɛnni ma. Ka fara o kan, kalan tigitigi caman bɛ se ka kɛ daɲɛ surun kelen na. Misali la, daɲɛ surun “ICE” tun bɛ se ka fɔ ko “I-C-E” walima i n’a fɔ daɲɛ kelen.
+sc-howto-addsen-item-4 = Taamaʃyɛnw. Taamaʃyɛn kɛrɛnkɛrɛnnenw ni taamaʃyɛnw ka kan ka Dòn a la dɔrɔn ni a mago bɛ a la kosɛbɛ. Misali la, apostrophe bɛ don tubabukan daɲɛw la i n’a fɔ “don’t” ani “we’re” wa a ka kan ka don source texte kɔnɔ, nka a ka c’a la, i mago tɛna kɛ taamasiyɛn kɛrɛnkɛrɛnnen na don dɔ i n’a fɔ “@” walima “#. ” .
+sc-howto-addsen-item-5 = Dunanw ka batakiw. Sɛbɛnw ka kan ka kɛ kan na min bɛ fɔ. Misali la, “ж” ye sɛbɛnni ye min bɛ Irisikan sɛbɛnnibolo la nka a tɛ baara kɛ ni a ye abada tubabukan na wa o la a man kan ka bɔ tubabukan bɔyɔrɔ sɛbɛn si kɔnɔ abada.
+sc-howto-addsen-item-6 = Kanw bɛ se k’u ka <validationRulesLink>u yɛrɛ ka dantigɛli sariyaw</validationRulesLink> ni wajibi wɛrɛw ye. Ni kan dɔ ka dantigɛli-dosiyɛri kɛrɛnkɛrɛnnen tɛ yen, an bɛ baara kɛ ni tubabukan sariyaw bɛɛ lajɛlen ye.
+sc-howto-addsen-post-1 = An bɛ kumasen dabɔlenw/baro kumasenw de fɛ. Hali n’a y’a sɔrɔ fɔcogo suguya caman ni daɲɛ danfaralenw kumasenw kɔnɔ nafa ka bon, an b’a ɲini ka kumasenw sɛbɛnni kɛ nisɔndiyako ye i n’a fɔ a bɛ se ka kɛ cogo min na. O la a bɛna diya kosɛbɛ n'i bɛ Se k'a ɲini k'i ka kumasenw To u cogo la/u bɛ Se ka Kɛ cogo min na.
+sc-howto-cite-title = Cite (Cite) kɛcogo
+sc-howto-cite-pre-1 = A nafa ka bon i ka forobaciyɛn sɔrɔ yɔrɔ min na, i k’o ɲɛfɔ walasa ka i yɛrɛ tanga sonya ma ani ka sira di tuguni ma <copyrightIssuesLink>copyright issues</copyrightIssuesLink> kan. I bɛ se ka baara in fɔ cogo damadɔ minnu na, olu filɛ nin ye.
+sc-howto-cite-item-1 = Aw bɛ se ka siti in don a kɔnɔ, misali la "Common Voice - https://commonvoice.mozilla.org/".
+sc-howto-cite-item-2 = Aw bɛ se ka baara kɛ ni kalanko ɲɛfɔli kɛcogo ye, misali la Harvard cogoya "Mozilla (2021) Common Voice. A bɛ sɔrɔ https://commonvoice.mozilla.org/ (A sɔrɔla: Sɛtanburukalo tile 15 san 2021)".
+sc-howto-cite-item-3 = Ni foroba sɛbɛn tɛ sɔrɔ ɛntɛrinɛti kan, i bɛ se ka baara kɛ ni kalanko ɲɛfɔli kɛcogo ye misali la Harvard cogoya "Jess (2021) My Public license poems".
+sc-howto-review-title = Seginkanni kumasenw kan
+sc-howto-review-subtitle = Aw ye aw jija kumasen bɛ nin sariyaw dafa:
+sc-howto-review-criteria-1 = Kumasen ka kan ka sɛbɛn ka ɲɛ.
+sc-howto-review-criteria-2 = Kumasen ka kan ka Kɛ daɲɛ-fɔcogo ɲuman ye.
+sc-howto-review-criteria-3 = Kumasen ka kan ka kɛ kumasen ye.
+sc-howto-review-criteria-4 = Ni kumasen bɛ sariyaw dafa, i bɛ "Approve" butɔn digi.
+sc-howto-review-criteria-5 = Ni kumasen ma Sɔn sanfɛla sariyaw ma, i bɛ "Banni" butɔn digi. N’i dalen tɛ kumasen in na, i bɛ se fana ka tɛmɛ a kan ka taa kumasen nata la.
+sc-howto-review-criteria-6 = Ni kumasenw banna i bolo ka segin u kan, i k’an dɛmɛ ka kumasen wɛrɛw lajɛ!
+sc-howto-findpd-title = Kumasen minnu bɛ yen, olu sɔrɔli Foroba-yɔrɔ la
+sc-howto-findpd-subtitle = U ɲini ɛntɛrinɛti kan
+sc-howto-findpd-text-2 = Aw k’aw hakili to a la ko an mago bɛ yamaruya la walasa k’o kumasenw bɔ kɛnɛ kan, o la aw k’a lajɛ tuma bɛɛ ko sɛbɛnni in ye <wikipediaLink>forobaciyɛn</wikipediaLink> ta ye. Ni taamasiyɛn jɛlen si tɛ yen, i bolo digi mɔgɔ kan, o sɛbɛn ye min ta ye, k’a ɲininka n’u b’a fɛ k’u ka sɛbɛn di Forobaciyɛn ma. N’u b’a fɛ, u k’u dɛmɛ u ka tɛmɛ <cc0WaiverLink>Bonko bɛnkan</cc0WaiverLink> fɛɛrɛ fɛ. N’u t’a fɛ ka bolomafara di o sɛbɛn ma, o tuma na fɛ, i man kan ka baara kɛ n’o sɛbɛn ye.
+sc-howto-findpd-tips = Ladilikan dɔw filɛ nin ye walasa ka kumasenw sɔrɔ:
+sc-howto-findpd-tips-1 = I bɛ se ka sɔrɔyɔrɔ ɲuman minnu ɲini, olu ye podcast, transcripts, film scripts ani fɛn o fɛn bɛ se ka kɛ don o don barow kɔnɔ.
+sc-howto-findpd-tips-2 = Gofɛrɛnaman ka koɲɛw, gafew ani barokunw fana ka bon nka ikomi sɛbɛnni bɛ teli ka kɛ cogo la min bɛ kɛ cogo la dɔɔnin u tɛ kɛ fɔlɔ ye.
+sc-howto-findpd-tips-3 = A fɔ man di nka an tɛ se ka Wikimedia barokunw sɔrɔ fɔlɔ. O la sa, aw kana kopi kɛ ka bɔ yen.
+sc-howto-findpd-subtitle-2 = Aw ni sigida jɛkuluw walima mɔgɔ kelen-kelen bɛɛ ka jɛɲɔgɔnya kɛ
+sc-howto-findpd-partner-1 = Forobatɔn caman bɛ yen minnu bɛ se ka jɛ ka baara kɛ ɲɔgɔn fɛ ani sɛbɛn caman bɛ u bolo kaban u bɛ se ka minnu di i n’a fɔ forobaciyɛn. Aw ye aw bolo don sigida inivɛrisitew, Gofɛrɛnamanw ani jɛkulu dafalenw na walasa ka kuma porozɛ in kan ani k’u ka dɛmɛ ɲini.
+sc-howto-findpd-partner-2 = Kanko dɔnnikɛlaw fana bɛ se ka dɛmɛ don, k’a ɲini ka se sigida kanko kalansobaw ma (karamɔgɔw ni kalandenw bɛɛ) k’a lajɛ n’u bɛ se ka dɛmɛ don ka kumasen suguya caman lajɛ i ka kan na.
 
 ## MY SENTENCES
 
+sc-my-title = Ne ka Kumasenw
+sc-my-description = Nin ɲɛ in bɛ i ka kumasenw bɛɛ lajɛlen Di i ma. I bɛ se fana ka kumasen minnu cilen don kaban, olu bɔ yen ni mago bɛ o la, ni i ye taamasiyɛn kɛ a kɛrɛfɛ ani ka &quot;Kumasen sugandilenw bɔ&quot; a bɛ duguma. Aw ye kumasenw Bɔ dɔrɔn ni a mago bɛ a la kosɛbɛ, misali la n’aw y’a Kɔlɔsi o kɔ fɛ ko kumasen dɔ lakananen dòn sɛbɛnnikɛlaw ka josariyaw la.
+sc-my-loading = Aw bɛ aw ka kumasenw doni...
+sc-my-err-fetching = Misali la k’a sɔrɔ i bɛ i ka kumasenw Lase. Aw ye aw jija ka segin a kan.
+sc-my-no-sentences = Kumasen si ma Sɔrɔ!
+# Variables:
+#   $batchId (String) - A unique ID identifying the submission of sentences - sentences uploaded together all have the same batch ID
+sc-my-submission = Lase: { $batchId } Bamako, Mali.
+# Variables:
+#   $source (String) - Associated source the user filled out when uploading the sentence
+sc-my-source = Bununda:{ $source }
+sc-my-delete = Kumasenw kεnεw bε yen
+sc-my-deleting = Kumasen sugandilenw bɔli...
+sc-my-err-failed-delete = A ma se ka kumasen sugandilenw bɔ yen... Aw ye aw jija ka segin a kan!
 
 ## REJECTED
 
+sc-rejected-title = Kumasen minnu banna
+sc-rejected-loading = Loading ban kumasenw...
+sc-rejected-err-fetching = Misali min kɛra ka kumasen bannenw Lase. Aw ye aw jija ka segin a kan.
+sc-rejected-none-found = Kumasen minnu banna, olu si ma sɔrɔ!
 
 ## STATS
 
+sc-stats-title = Jateminɛw
+sc-stats-updating = Update ka...
+sc-stats-error = An ma se ka statiw lase. Aw ye aw jija ka segin ka a lajɛ kɔfɛ.
+# Variables:
+#   $sentenceCount (Number) - Total number of sentences uploaded through Sentence Collector
+#   $languageCount (Number) - Total number of languages these sentences represent
+sc-stats-summary =
+    Kumakan min bɛ wele ko Common Voice
+    Kumasenw lajɛbaga ye { $sentenceCount } kumasenw lajɛ { $languageCount } kanw na!
 
 ## ADD
 
