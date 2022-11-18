@@ -1366,18 +1366,97 @@ sc-add-lang-process-notice = Ni i ka kan ma fɔ yan, i bɛ se k’a ɲini <langu
 sc-confirm-are-you-sure =
     .message = Kumasen minnu ma ci, yala i dalen b’a la ko i b’a fɛ ka bɔ yen wa?
 sc-confirm-sentences-title = Kumasen Kuraw Sɛmɛntiya
+# Variables:
+#   $countOfSentences (Number) - Number of sentences the user has filled in the submission form
+sc-confirm-sentences-found =
+    { $countOfSentences ->
+        [0] { $countOfSentences } kumasenw sɔrɔla.
+       *[other] { "" }
+    }
+# Variables:
+#   $countOfInvalidated (Number) - Number of sentences the user rejected in the review form before submission
+sc-confirm-rejected-by-you = { $countOfInvalidated } banna i fɛ
+sc-confirm-already-reviewed =
+    { $countOfReviewed ->
+        [0] { $countOfReviewed } kumasenw lajɛra kaban. Baara ɲuman !
+       *[other] { "" }
+    }
+# Variables:
+#   $readyCount (Number) - Number of sentences ready to be uploaded
+sc-confirm-ready =
+    { $readyCount ->
+        [0] { $readyCount } kumasenw labɛnnen don ka ci!
+       *[other] { "" }
+    }
+# Variables:
+#   $countOfUnreviewed (Number) - Number of sentences unreviewed before the upload
+sc-confirm-unreviewed = { $countOfUnreviewed } kumasenw tɛ lajɛ. N’aw b’a fɛ, aw bɛ se fana k’aw ka laadalata lajɛ sisan sanni aw k’u bila.
+sc-confirm-button-text = sɛmɛntiya
+sc-confirm-uploading = Kumasenw bɛ ka Blà 'yɔrɔ la. O bɛ Se ka miniti damadɔ Kɛ ka Kɛɲɛ ni kumasen minnu Fàrala ɲɔgɔn kan. Aw kana nin siti in datugu.
 
 ## LANGUAGE INFO
 
+sc-lang-info-title-total = Kasabi
+sc-lang-info-title-personal = Mɔgɔkelenko
+# Variables:
+#   $totalSentences (Number) - Number of sentences uploaded in total for this language
+sc-lang-info-total =
+    { $totalSentences ->
+        [0] { $totalSentences } kumasenw bɛɛ lajɛlen.
+       *[other] { "" }
+    }
+# Variables:
+#   $totalInReview (Number) - Number of sentences currently in the review state for this language
+sc-lang-info-in-review =
+    { $totalInReview ->
+        [0] { $totalInReview } kumasenw seginnkanni kɔnɔ.
+       *[other] { "" }
+    }
+# Variables:
+#   $unreviewedSentencesByYou (Number) - Number of sentences the user can still review
+sc-lang-info-left-for-you =
+    { $unreviewedSentencesByYou ->
+        [0] { $unreviewedSentencesByYou } kumasen tɔw ka lajɛ.
+       *[other] { "" }
+    }
+sc-lang-info-review-now = <reviewLink>A lajɛ sisan!</reviewLink>
+sc-lang-info-add-more = <addLink>Kumasen wɛrɛw fara a kan sisan !</addLink>
+# Variables:
+#   $validatedSentences (Number) - Number of sentences which have been approved for this language
+sc-lang-info-validated =
+    { $validatedSentences ->
+        [0] { $validatedSentences } kumasenw dafalenw.
+       *[other] { "" }
+    }
+# Variables:
+#   $rejectedSentences (Number) - Number of sentences which have been rejected for this language
+sc-lang-info-rejected =
+    { $rejectedSentences ->
+        [0] { $rejectedSentences } kumasen minnu banna.
+       *[other] { "" }
+    }
 
 ## LOGIN
 
+sc-login-err-failed = Donni ma ɲɛ
 
 ## PROFILE
 
+# Variables:
+#   $username (String) - eMail address of the logged in user
+sc-profile-title = Porofili:{ $username }
+sc-personal-err-lang-not-found = Se ma Se ka kan Bɔ: kan ma Sɔrɔ
+sc-personal-err-remove = A ma Se ka kan Bɔ
+sc-personal-your-languages = Aw ka kanw:
+sc-personal-remove-button = ka labɔ
+# Variables:
+#   $sentences (Number) - Number of sentences that were added by the currently logged in user for this language
+sc-personal-added-by-you = { $sentences } farala a kan i fɛ
+sc-personal-not-added = Aw ma kan si Fàra o kan fɔlɔ.
 
 ## REVIEW CRITERIA
 
+sc-criteria-modal = R Seginkanni sariyaw
 
 ## REVIEW
 
