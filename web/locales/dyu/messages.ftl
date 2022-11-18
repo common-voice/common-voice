@@ -231,31 +231,186 @@ cookies = Kukisɛw
 faq = Ɲininkaliw
 content-license-text = Kɔnɔkow bɛ sɔrɔ <licenseLink>Creative Commons ka lase</licenseLink> kɔnɔ
 share-title = An dɛmɛ ka mɔgɔ wɛrɛw sɔrɔ walasa k’u kan di!
+share-text = Dɛmɛ ka masinw kalan mɔgɔ lakikaw bɛ kuma cogo min na, i ka kan di { $link } ma.
+link-copied = Lien Kopi kɛra
+back-top = Segin ka na Sanfɛ
+logout = Aw ka bɔ kɛnɛ kan
 
 ## Home Page
 
+home-title = Mozilla Common Voice ye fɛɛrɛ ye min bɛ dɛmɛ don ka masinw kalan mɔgɔ lakikaw bɛ kuma cogo min na.
+default-tagline = Mozilla Common Voice ye fɛɛrɛ ye min bɛ dɛmɛ don ka masinw kalan mɔgɔ lakikaw bɛ kuma cogo min na.
+home-cta = Aw ka kuma, aw ka dɛmɛ don yan!
+wall-of-text-start =
+    Kan ye dacogo ye, kan ye hadamaden ye. O de y’a To an ɲɛnajɛlen dòn ni kan ye min bɛ Se ka baara Kɛ n’a ye
+    fɛɛrɛ kuraw ka ɲɛsin an ka masinw ma. Nka ka kumakan-minɛnw Dabɔ, kan hakɛ min ka bon kosɛbɛ kosɛbɛ
+    kunnafoniw de wajibiyalen don.
+wall-of-text-more-mobile =
+    Baarakɛdabaw bɛ baara kɛ ni kunnafonidilan minnu ye, olu fanba tɛ sɔrɔ mɔgɔ fanba bolo. An bɛ miiri
+    min bɛ kokuradonni dabila. O la an ye Project Common Voice daminɛ, porozɛ min bɛ dɛmɛ don ka kumakan dilan
+    dɔnniya dabɔlen don bɛɛ ye.
+wall-of-text-more-desktop =
+    Sisan aw bɛ se k’aw ka kan di walasa k’an dɛmɛ ka kan kunnafonidilan dafalen dɔ jɔ, mɔgɔ bɛɛ bɛ se ka baara kɛ ni min ye
+    ka porogaramu kura dilan minɛnw ni ɛntɛrinɛti kan. Kumasen dɔ kalan walasa ka masinw dɛmɛ u k’a dɔn mɔgɔ sɛbɛw bɛ kuma cogo min na. Mɔgɔ wɛrɛw ka baara lajɛ
+    dɛmɛbagaw walasa ka jogoɲumanya yiriwa. A ka nɔgɔn ten dɛ!
+wall-of-text-first =
+    Kan ye dacogo ye, kan ye hadamaden ye. O de y’a To an nisɔndiyalen don ka kumakan-fɛɛrɛw Dabɔ minnu bɛ Se ka baara Kɛ n’u ye
+    an ka masinw kama. Nka walasa ka kumakan-minɛnw Dabɔ, baarakɛlaw mago bɛ kan hakɛ camanba la kosɛbɛ
+    kunnafoniw.
+wall-of-text-second =
+    Baarakɛdabaw bɛ baara kɛ ni kunnafonidilan minnu ye, olu fanba tɛ sɔrɔ mɔgɔ fanba bolo. An b’o miiri
+    bɛ kokuradonni dabila. O la, an ye Common Voice daminɛ, porozɛ min bɛna dɛmɛ don ka kumakan dɔnni da wuli
+    ani min bɛ se ka sɔrɔ bɛɛ fɛ.
+show-wall-of-text = Aw ye kunnafoni wɛrɛw kalan
+help-us-title = An dɛmɛ ka kumasenw tiɲɛ!
+help-us-explain =
+    I ka play digi, .
+    lamɛnni & a fɔ an ye: yala u ye kumasen in fɔ ka ɲɛ wa?
+no-clips-to-validate = A bɛ iko klip si tɛ yen ka Lamɛ nin kan in na. An dɛmɛ ka layini fa ni dɔw sɛbɛnni ye sisan.
+vote-yes = Awɔ
+vote-no = Ayi
+toggle-play-tooltip = { shortcut-play-toggle } digi. ka toggle tulonkɛcogo la
+speak-subtitle = Aw ye aw ka kan di
+speak-paragraph = Kumakan-klipw sɛbɛnni ye an ka kunnafonidilan dafalen jɔli yɔrɔ koloma ye; dɔw bɛna a fɔ ko ɲɛnajɛyɔrɔ fana don.
+speak-goal-text = Klip minnu sɛbɛnna
+listen-subtitle = An dɛmɛ ka kumakanw tiɲɛ
+listen-paragraph = Klip minnu dira, olu tiɲɛni nafa ka bon o cogo kelen na Common Voice cidenyabaara la. Aw ye lamɛnni kɛ ani k’an dɛmɛ ka kan data dafalenw dilan minnu ka ɲi.
+listen-goal-text = Klipw minnu bɛ tiɲɛ
+hours-recorded = Lɛrɛ minnu sɛbɛnna
+hours-validated = Lɛrɛw Dafara
+voices-online = Kumakanw bɛ Ɛntɛrinɛti kan Sisan
+todays-progress = Bi ɲɛtaa
+help-reach-goal = An dɛmɛ ka se { $goal } ma.
+read-terms-q = Yala i ye an ka Sariyaw kalan wa?
+ready-to-record = Yala i labɛnnen don k’i kan di wa?
+all-locales = Bɛɛ
+today = Bi
+x-weeks-short =
+    { $count ->
+       *[other] { $count } dɔgɔkun
+    }
+x-months-short =
+    { $count ->
+       *[other] { $count } kalo
+    }
+x-years-short =
+    { $count ->
+       *[other] { $count } san
+    }
+help-make-dataset = An dɛmɛ ka kunnafonidilan ɲumanba dɔ jɔ, min dabɔra foroba la
+sign-up-account = I tɔgɔ sɛbɛn ka kɛ jatebɔsɛbɛn dɔ ye
+email-subscription-title = i tɔgɔ sɛbɛn walasa ka kunnafoni kuraw sɔrɔ imɛri la
 email-subscription-title-new = I tɔgɔ sɛbɛn Common Voice kunnafonidisɛbɛnw na, kuntilenna hakilijiginw ani ɲɛtaa kunnafoniw
 
 ## Account Benefits
 
+benefits = Nafaw
+rich-data = Aw ye aw ka kunnafoniw cilenw kɛ fɛn nafamaw ye cogo bɛɛ la, aw kɛtɔ ka jamanadenw ka kunnafoniw dɔw di minnu tɔgɔ ma fɔ. An bɛ jamanaden hakɛ kunnafoniw bɛɛ de-identify ka sɔrɔ k’u kɛ foroba la.
+improve-audio = Profil kunnafoniw bɛ kunnafoniw lamɛntaw ɲɛ ka taa a fɛ minnu bɛ kɛ ka kuma dɔnni tiɲɛni dege.
+keep-track = Aw ye aw ka ɲɛtaa ni jateminɛw jateminɛ kan caman kɔnɔ.
+compare-progress = A lajɛ i ka ɲɛtaa bɛ se ka suma cogo min na ni dɛmɛbaga tɔw ye diɲɛ fan bɛɛ la.
+view-goals = Aw ye aw ka ɲɛtaa lajɛ ka kɛɲɛ ni aw yɛrɛ ka laɲiniw ni poroze kuntilenna ye.
+join-newsletter = Ni aw b’a fɛ ka fara an ka bataki cilenw kan walasa ka kunnafoni kuraw ni kunnafoni kuraw sɔrɔ porozɛ in kan.
 
 ## What's public
 
+whats-public = Mun ye Foroba ye?
+email-not-public = An tɛna i ka bataki ci foroba la.
+recordings-and-locale-public = O fɔlisenw hakɛ ani i bɛ dɛmɛ don kan minnu na, o bɛna kɛ foroba ye.
+username-optin-public = I bɛ se k’a sugandi k’i ka baarakɛla tɔgɔ kɛ foroba la walima k’a tɔgɔ fɔ.
+demographic-deidentified-clarity-2 = Jamanadenw ka kunnafoniw minnu bɛ ci i yɛrɛ sago la (misali la, u si hakɛ, cɛya ni musoya, kan, ani u fɔcogo), olu tɛna kɛ foroba ye abada i ka kunnafonisɛbɛn kan, wa u tɛna siri i ka jatebɔsɛbɛn na kunnafonidilan kɔnɔ. Odio-klip kelen-kelen bɛɛ bɛna jɛ jamanadenw ka kunnafoniw na walasa ka sɛgɛsɛgɛli kɛ ka ɲɛ - misali la, ɲininikɛla dɔ bɛ se k’a fɛ ka kalan misali dɔ ɲɛsin jamanaden hakɛ yɔrɔ kɛrɛnkɛrɛnnen dɔ ma.
+username-email-not-demographic = I ka baarakɛla tɔgɔ ni i ka imeyili tɛna jɛ ni kunnafoniw bɔlenw ye.
 
 ## Speak & Listen Shortcuts
 
+# Must be one letter that appears in the translated { skip } string.
+shortcut-skip = s
 
 ## Listen Shortcuts
 
+# Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-play-toggle = ɲ
+shortcut-play-toggle-label = Tulon/Dabila
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = y
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = n
 
 ## Speak Shortcuts
 
+# Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-record-toggle = r
+shortcut-record-toggle-label = Sɛbɛn/ Dabila
+shortcut-rerecord-toggle = [1-5]
+shortcut-rerecord-toggle-label = Segin ka klip sɛbɛn
+shortcut-discard-ongoing-recording = ka kila
+shortcut-discard-ongoing-recording-label = Fɔlisen min bɛ sen na, o fili
+shortcut-submit = Segin
+shortcut-submit-label = Klipw ci
+request-language-text = Aw ma aw ka kan ye Common Voice kan fɔlɔ wa?
+request-language-button = Kan dɔ ɲini
 
 ## ProjectStatus
 
+status-title = Porozɛ cogoya bɛɛ lajɛlen : a lajɛ an sera yɔrɔ min na!
+status-contribute = Aw ka dɛmɛ don aw ka kumakan na
+status-hours =
+    { $hours ->
+       *[other] Kaban { $hours } lɛrɛw tiɲɛna!
+    }
+# Variables:
+# $goal - number of hours representing the next goal
+status-goal = Laɲini nataw: { $goal } .
+english = Angilɛ kan
 
 ## ProfileForm
 
+profile-form-username =
+    .label = Baarakɛla tɔgɔ
+profile-form-native-language =
+    .label = Fasokan
+profile-form-additional-language =
+    .label = Kan Fàralen kan
+profile-form-language =
+    .label = kan
+profile-form-variant =
+    .label = { $language } suguya jumɛn bɛ fɔ?
+profile-form-variant-default-value = Variante si ma sugandi
+profile-form-accent =
+    .label = Fɔcogo
+profile-form-custom-accent-help-text =
+    .label = I bɛna i ka kuma fɔcogo ɲɛfɔ cogo di?
+profile-form-custom-accent-placeholder-2 = A daminɛ ka sɛbɛnni kɛ walasa k’i ka kumakan ɲɛfɔ
+profile-form-age =
+    .label = Si
+profile-form-gender-2 =
+    .label = Cɛnimusoya
+leaderboard-visibility =
+    .label = Kunnafoni ɲɛmɔgɔyaso yecogo
+hidden = Dogolen
+visible = A bɛ ye
+native-language =
+    .label = Fasokan
+profile-form-add-accent = A' ye ladamukan kura fara "{ $inputValue }" kan.
+profile-form-submit-save = Ka mara
+profile-form-submit-saved = kisilen don
+male = Cɛ
+female = Muso
+# Gender
+other = dɔ wɛrɛ
+why-profile-title = Mun na profil dɔ?
+why-profile-text =
+    Ni i ye kunnafoni dɔw di i yɛrɛ kan, i bɛ kunnafoni lamɛntaw minnu ci Common Voice ma, olu nafa bɛna bonya kosɛbɛ Kuma ma
+    Dɔnniya-minɛn minnu bɛ baara Kɛ ni o kunnafoniw ye walasa k’u ka tiɲɛni ɲɛ.
+dashboard = Dashboard (Dashboard) ye
+build-profile = BuildProfile (Profil) min bɛ kɛ
+avatar = Avatar (Avatar) ye
+goals = kuntilennaw
+settings = Segin-ka-bɔnyew
 
 ## Profile - Email
 
