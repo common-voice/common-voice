@@ -1542,6 +1542,7 @@ partnerships-header = Samstarf
 partnerships-header-text = Það þarf mikið til svo að Common Voice gangi upp! Við gerum það ekki einsömul. Viltu eiga samstarf við okkur? Við viljum gjarnan heyra frá þér.
 partnerships-get-in-touch = Vertu í sambandi
 partnerships-become-a-partner = Vertu samstarfsaðili Common Voice
+partnerships-community-header = Samfélög, skapandi greinar og borgaraleg samtök
 partnerships-foundations-header = Stofnanir
 partnerships-governments-header = Ríkisstjórnir
 partnerships-academia-header = Háskólar, fræðimenn og vísindamenn
