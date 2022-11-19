@@ -114,9 +114,19 @@ languages = ⵜⵓⵜⵍⴰⵢⵉⵏ
 
 ## Listen Shortcuts
 
+# Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-play-toggle = ⵖ
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = ⵢ
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = ⵓ
 
 ## Speak Shortcuts
 
+shortcut-discard-ongoing-recording = ⵔⵡⵍ
 
 ## ProjectStatus
 
@@ -202,9 +212,15 @@ other-language = ⵜⵓⵜⵍⴰⵢⵜ ⵢⴰⴹⵏ
 
 ## Request Language Pages
 
+request-language-form-info-explanation-list-1 = ⵉⵙⵎⴰⵡⵏ ⵏ ⵜⵓⵜⵍⴰⵢⵜ ⵏⵏⵓⵏ
 
 ## Languages Overview
 
+languages-show-more = ⵥⵕ ⵓⴳⴳⴰⵔ
+languages-show-less = ⵥⵕ ⴷⵔⵓⵙ
+language-search-input =
+    .placeholder = ⵔⵣⵓ
+language-validation-hours = ⵜⵉⵙⵔⴰⴳⵉⵏ
 
 ## Contribution
 
@@ -217,6 +233,7 @@ other-language = ⵜⵓⵜⵍⴰⵢⵜ ⵢⴰⴹⵏ
 
 ## Dashboard
 
+your-languages = ⵜⵓⵜⵍⴰⵢⵉⵏ ⵏⵏⵓⵏ
 
 ## Custom Goals
 
@@ -279,6 +296,7 @@ other-language = ⵜⵓⵜⵍⴰⵢⵜ ⵢⴰⴹⵏ
 
 ## ADD LANGUAGE
 
+sc-add-lang-sec-button = ⵔⵏⵓ ⵜⵓⵜⵍⴰⵢⵜ
 
 ## ADD SENTENCES CONFIRMATION
 
@@ -291,12 +309,17 @@ other-language = ⵜⵓⵜⵍⴰⵢⵜ ⵢⴰⴹⵏ
 
 ## PROFILE
 
+sc-personal-your-languages = ⵜⵓⵜⵍⴰⵢⵉⵏ ⵏⵏⵓⵏ:
 
 ## REVIEW CRITERIA
 
 
 ## REVIEW
 
+# Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
+sc-review-form-button-approve-shortcut = ⵢ
+# Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
+sc-review-form-button-reject-shortcut = ⵓ
 
 ## SETTINGS
 
