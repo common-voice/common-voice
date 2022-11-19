@@ -75,12 +75,30 @@ izh = ⵜⴰⵢⵊⵓⵔⵉⵜ
 ja = ⵜⴰⵏⵉⴱⵓⵏⵜ
 jbo = ⵜⴰⵍⵓⵊⴱⴰⵏⵉⵜ
 ka = ⵜⴰⵊⵢⵓⵕⵊⵉⵢⵜ
+kaa = ⵜⴰⴽⴰⵔⴰⴽⴰⵍⴱⴰⴽⵉⵜ
+kab = ⵜⴰⵇⴱⴰⵢⵍⵉⵜ
+kbd = ⵜⴰⴽⴰⴱⴰⵔⴷⵉⵜ
+ki = ⵜⴰⴽⵉⴽⵓⵢⵓⵜ
+kk = ⵜⴰⴽⴰⵣⴰⵅⵉⵜ
+km = ⵜⴰⵅⵎⵉⵔⵉⵜ
+kmr = ⵜⴰⴽⵓⵔⴷⵉⵜ ⵜⴰⴽⵓⵔⵎⴰⵏⵊⵉⵜ
+kn = ⵜⴰⴽⴰⵏⵏⴰⴷⴰⵢⵜ
+ko = ⵜⴰⴽⵓⵔⵉⵢⵜ
+ky = ⵜⴰⴽⵉⵔⴳⵉⵣⵉⵜ
+lb = ⵜⴰⵍⵓⴽⵙⵎⴱⵓⵔⴳⵉⵜ
+zgh = ⵜⴰⵎⴰⵣⵉⵖⵜ
+zh-CN = ⵜⴰⵛⵉⵏⵡⵉⵜ (ⵛⵉⵏⵡⴰ)
+zh-HK = ⵜⴰⵛⵉⵏⵡⵉⵜ (ⵀⵓⵏⴳ ⴽⵓⵏⴳ)
+zh-TW = ⵜⴰⵛⵉⵏⵡⵉⵜ (ⵜⴰⵢⵡⴰⵏ)
+zu = ⵜⴰⵣⵓⵍⵓⵜ
+zza = ⵜⴰⵣⴰⵣⴰⵜ
 
 # [/]
 
 
 ## Layout
 
+languages = ⵜⵓⵜⵍⴰⵢⵉⵏ
 
 ## Home Page
 
@@ -105,6 +123,10 @@ ka = ⵜⴰⵊⵢⵓⵕⵊⵉⵢⵜ
 
 ## ProfileForm
 
+profile-form-language =
+    .label = ⵜⵓⵜⵍⴰⵢⵜ
+profile-form-variant =
+    .label = ⵎⴰⵏ ⵜⴰⵎⵣⴰⵔⴰⵢⵜ ⵏ { $language } ⴰ ⵙ ⵜⵙⴰⵡⴰⵍⵎ?
 
 ## Profile - Email
 
@@ -128,6 +150,7 @@ add-language = ⵔⵏⵓ ⵜⵓⵜⵍⴰⵢⵜ
 
 ## How do I add a language
 
+about-playbook-how-add-language-translating-heading = ⴰⵙⵓⵖⵍ ⵏ ⵓⵙⵉⵜ
 
 ## How does localization work
 
@@ -161,6 +184,9 @@ add-language = ⵔⵏⵓ ⵜⵓⵜⵍⴰⵢⵜ
 
 ## Datasets Page
 
+language = ⵜⵓⵜⵍⴰⵢⵜ
+download-language = ⴰⴳⵎ { $language }
+go-languages-page = ⴷⴷⵓ ⵙ ⵜⴰⵙⵏⴰ ⵏ ⵜⵓⵜⵍⴰⵢⵉⵏ
 
 ## Download Modal
 
@@ -170,6 +196,9 @@ add-language = ⵔⵏⵓ ⵜⵓⵜⵍⴰⵢⵜ
 
 ## Request Language Modal
 
+request-language-form-language =
+    .label = ⵜⵓⵜⵍⴰⵢⵜ
+other-language = ⵜⵓⵜⵍⴰⵢⵜ ⵢⴰⴹⵏ
 
 ## Request Language Pages
 
