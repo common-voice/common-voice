@@ -1553,4 +1553,5 @@ partnerships-academia-description = Opin nýsköpun er kjarninn í því sem vi�
 partnerships-small-business-header = Lítil fyrirtæki, þar með talin sprotafyrirtæki í tækni- og gervigreindargeirum
 partnerships-small-business-description = Við leggjum áherslu á að heyra frá gagnanotendum um þarfir þeirra og aðstöðu - allt frá samstarfi við gagnasöfnunarkerfi yfir í að veita innsýn heilbrigði gagna. Við viljum gjarnan <emailFragment>heyra frá þér.</emailFragment>
 partnerships-corporates-header = Stórfyrirtæki og tækniþjónustufyrirtæki
+partnerships-corporates-description = Ef þú ert að leita að einhverju til að segja meira um gagnasafnið, vilt vera meðfjárfestir í fyrirhuguðum stækkunum kerfisins eða leitar að samstarfstækifærum, þá skaltu <emailFragment>senda okkur línu.</emailFragment>
 partnerships-our-partners = Samstarfsaðilar okkar
