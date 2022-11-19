@@ -1543,6 +1543,7 @@ partnerships-header-text = Það þarf mikið til svo að Common Voice gangi upp
 partnerships-get-in-touch = Vertu í sambandi
 partnerships-become-a-partner = Vertu samstarfsaðili Common Voice
 partnerships-community-header = Samfélög, skapandi greinar og borgaraleg samtök
+partnerships-community-description = Samfélagið er þar sem hjarta Common Voice slær - þátttakendurnir koma hvaðanæva að úr heiminum og eru tungumála-, vísinda- og listafólk. Þú getur fundið meira um hvernig hægt er að taka þátt á <about>Um-síðunni</about> okkar og í <community>samfélagsreglunum</community> okkar. Ef þú hefur áhuga á nánara samstarfi, skaltu endilega <emailFragment>hafa samband.</emailFragment>
 partnerships-foundations-header = Stofnanir
 partnerships-governments-header = Ríkisstjórnir
 partnerships-academia-header = Háskólar, fræðimenn og vísindamenn
