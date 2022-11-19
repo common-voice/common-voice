@@ -1412,4 +1412,6 @@ partnerships-community-header = برادری، تخلیقاں تے سول سوس
 partnerships-foundations-header = فاؤنڈیشناں
 partnerships-governments-header = حکومتاں
 partnerships-academia-header = یونیورسٹیاں، ماہرین تعلیم تے محققین
+partnerships-small-business-header = ٹیک تے اے آئی سٹارٹ اپ سمیت چھوٹے کاروبار
+partnerships-corporates-header = وݙے پیمانے تے کارپوریٹاں تے پلیٹ فارم کمپنیاں
 partnerships-our-partners = ساݙے بھائیوال
