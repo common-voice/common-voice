@@ -1539,10 +1539,12 @@ localization-select =
     .label = Veldu tungumál/staðfærslu
 # PARTNERSHIPS PAGE
 partnerships-header = Samstarf
+partnerships-header-text = Það þarf mikið til svo að Common Voice gangi upp! Við gerum það ekki einsömul. Viltu eiga samstarf við okkur? Við viljum gjarnan heyra frá þér.
 partnerships-get-in-touch = Vertu í sambandi
 partnerships-become-a-partner = Vertu samstarfsaðili Common Voice
 partnerships-foundations-header = Stofnanir
 partnerships-governments-header = Ríkisstjórnir
 partnerships-academia-header = Háskólar, fræðimenn og vísindamenn
 partnerships-small-business-header = Lítil fyrirtæki, þar með talin sprotafyrirtæki í tækni- og gervigreindargeirum
+partnerships-corporates-header = Stórfyrirtæki og tækniþjónustufyrirtæki
 partnerships-our-partners = Samstarfsaðilar okkar
