@@ -20,15 +20,15 @@ services:
     restart: unless-stopped
     networks:
       - voice-web
-  s3proxy:
-    image: andrewgaul/s3proxy
-    container_name: s3proxy
-    ports:
-      - 9001:80
-    networks:
-      - voice-web
-    environment:
-      - S3PROXY_AUTHORIZATION=none
+  # s3proxy:
+  #   image: andrewgaul/s3proxy
+  #   container_name: s3proxy
+  #   ports:
+  #     - 9001:80
+  #   networks:
+  #     - voice-web
+  #   environment:
+  #     - S3PROXY_AUTHORIZATION=none
   web:
     build:
       context: .
