@@ -40,10 +40,12 @@ ba = baškirčina
 bas = basaa
 be = bieloruština
 bg = bulharčina
+bm = bambarčina
 bn = bengálčina
 br = bretónčina
 bs = bosniančina
 bxr = buriatčina
+byv = medumba
 ca = katalánčina
 cak = kaqchikel
 ckb = stredná kurdčina
@@ -53,6 +55,7 @@ cs = čeština
 cv = čuvaština
 cy = waleština
 da = dánčina
+dag = dagbani
 de = nemčina
 dsb = dolnolužická srbčina
 dv = maldivčina
@@ -206,6 +209,7 @@ zh-CN = čínština (Čína)
 zh-HK = čínština (Hongkong)
 zh-TW = čínština (Taiwan)
 zu = zuluština
+zza = zaza
 
 # [/]
 
@@ -217,6 +221,7 @@ speak-now = Hovorte teraz
 datasets = Datasety
 languages = Jazyky
 about = O nás
+partner = Partnerstvá
 profile = Profil
 help = Pomocník
 contact = Kontakt
@@ -1544,3 +1549,12 @@ sc-validation-no-abbreviations = Veta by nemala obsahovať skratky
 
 localization-select =
     .label = Vyberte jazyk/lokalizáciu
+# PARTNERSHIPS PAGE
+partnerships-header = Partnerstvá
+partnerships-header-text = Realizácia Common Voice si vyžaduje veľa! Nerobíme to sami. Chcete sa s nami stať partnerom? Dajte nám vedieť.
+partnerships-get-in-touch = Spojte sa s nami
+partnerships-become-a-partner = Staňte sa partnerom Common Voice
+partnerships-community-header = Komunita, kreatíva a občianska spoločnosť
+partnerships-community-description = Komunita je pulzujúcim srdcom Common Voice – pochádzajú z celého sveta a sú jazykovými aktivistami, vedcami a umelcami. Viac o tom, ako sa zapojiť, sa dozviete na našej stránke <about>O nás</about> a v našej <community>príručke komunity</community>. Ak máte záujem o hlbšie organizačné partnerstvo, <emailFragment>kontaktujte nás</emailFragment>.
+partnerships-foundations-header = Nadácie
+partnerships-our-partners = Naši partneri
