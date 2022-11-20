@@ -1,5 +1,7 @@
+import { getConfig } from '../config-helper';
 import { redis, redlock, useRedis } from './redis';
 
+const cacheEnabled = getConfig().ENVIRONMENT === 'prod';
 type Fn<T, S> = (...args: S[]) => Promise<T>;
 
 function isExpired(at: number, timeMs: number) {
@@ -89,6 +91,9 @@ export default function lazyCache<T, S>(
   f: Fn<T, S>,
   timeMs: number
 ): Fn<T, S> {
+  if (!cacheEnabled) {
+    return memoryCache(f, 1);
+  }
   const memCache = memoryCache(f, timeMs);
   return async (...args: S[]) =>
     ((await useRedis) ? redisCache(cacheKey, f, timeMs) : memCache)(...args);

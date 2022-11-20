@@ -164,21 +164,22 @@ export default function HomePage() {
           </div>
         </section>
       ) : (
-        <RegisterSection marsSrc="/img/mars.svg">
-          <h1>
-            <Localized id="help-make-dataset" />
-          </h1>
-          <h2>
-            <Localized id="profile-not-required" />
-          </h2>
-          <Localized id="sign-up-account">
-            <LinkButton
-              rounded
-              href="/login"
-              onClick={() => trackHome('click-benefits-register', locale)}
-            />
-          </Localized>
-        </RegisterSection>
+        <div></div>
+        // <RegisterSection marsSrc="/img/mars.svg">
+        //   <h1>
+        //     <Localized id="help-make-dataset" />
+        //   </h1>
+        //   <h2>
+        //     <Localized id="profile-not-required" />
+        //   </h2>
+        //   <Localized id="sign-up-account">
+        //     <LinkButton
+        //       rounded
+        //       href="/login"
+        //       onClick={() => trackHome('click-benefits-register', locale)}
+        //     />
+        //   </Localized>
+        // </RegisterSection>
       )}
     </Page>
   );

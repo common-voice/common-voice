@@ -22,7 +22,7 @@ const FetchRow = (props: React.HTMLProps<HTMLButtonElement>) => (
 );
 
 const FETCH_SIZE = 5;
-const locale = 'en';
+const locale = 'ar';
 
 interface PropsFromState {
   api: API;

@@ -3,7 +3,7 @@ import { AccentsAll, VariantsAll } from './languages';
 
 export const MOCK_USER_LANGUAGES = [
   {
-    locale: 'en',
+    locale: 'ar',
     accents: [],
   },
 ] as UserLanguage[];

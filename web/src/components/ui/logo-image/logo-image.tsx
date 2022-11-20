@@ -10,7 +10,11 @@ const LogoImage = ({ isReverse }: Props) => {
     : require('./cv-logo-black.svg');
 
   return (
-    <img className="LogoImage" src={imageSource} alt="Mozilla Common Voice" />
+    <img className="LogoImage" src="https://ksaa.gov.sa/wp-content/uploads/2021/10/g705.png" alt="Mozilla Common Voice" style={
+      {
+        width: "200px",
+      }
+    } />
   );
 };
 

@@ -4,7 +4,7 @@ import { parse } from '@fluent/syntax';
 import * as path from 'path';
 import * as fs from 'fs';
 
-const TRANSLATED_MIN_PROGRESS = 0.6;
+const TRANSLATED_MIN_PROGRESS = 0.5;
 const DEFAULT_TARGET_SENTENCE_COUNT = 5000;
 
 const localeMessagesPath = path.join(

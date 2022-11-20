@@ -7,6 +7,7 @@ const SOURCES = {
   'img-src': [
     "'self'",
     'www.google-analytics.com',
+    'ksaa.gov.sa',
     'www.gstatic.com',
     'https://www.gstatic.com',
     'https://*.amazonaws.com',
@@ -21,6 +22,7 @@ const SOURCES = {
     'blob:',
     'https://*.amazonaws.com',
     'https://*.amazon.com',
+    'https://*.linodeobjects.com',
   ],
   'script-src': [
     "'self'",
@@ -55,7 +57,8 @@ function getCSPHeaderValue() {
     don't risk setting development values
     if this function is used incorrectly
   */
-  if (!PROD) {
+  if (true || !PROD) {
+  // if (!PROD) {
     // we allow unsafe-eval, unsafe-inline locally for certain webpack functionality
     SOURCES['style-src'].push("'unsafe-inline'");
     SOURCES['script-src'].push("'unsafe-eval'");

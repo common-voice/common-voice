@@ -206,7 +206,7 @@ export default class Model {
     'get-all-languages-with-metadata',
     async (): Promise<any[]> => {
       const languages = await this.db.getAllLanguages();
-      return languages;
+      return languages.filter(x => x.name === 'ar');
     },
     DAY
   );

@@ -33,10 +33,10 @@ export default React.memo(() => {
           </Localized>
         </LocaleLink>
         <div className="divider" />
-        <DiscourseLink id="discourse">
+        {/* <DiscourseLink id="discourse">
           <DiscourseIcon />
           <div>Discourse</div>
-        </DiscourseLink>
+        </DiscourseLink> */}
         <div className="divider" />
         <ContactLink>
           <ContactIcon />
@@ -78,10 +78,10 @@ export default React.memo(() => {
             </Localized>
           </div>
           <div className="divider-vertical" />
-          <div>
+          {/* <div>
             <LocalizedLocaleLink id="faq" to={URLS.FAQ} />
             <GitHubLink>GitHub</GitHubLink>
-          </div>
+          </div> */}
         </div>
 
         <div id="sharing">
@@ -94,18 +94,18 @@ export default React.memo(() => {
           </div>
         </div>
 
-        <div id="email-subscription">
+        {/* <div id="email-subscription">
           <SubscribeNewsletter />
-        </div>
+        </div> */}
 
-        <Localized id="back-top">
+        {/* <Localized id="back-top">
           <TextButton
             className="back-top"
             onClick={() => {
               window.scrollTo({ top: 0, behavior: 'smooth' });
             }}
           />
-        </Localized>
+        </Localized> */}
       </div>
     </footer>
   );

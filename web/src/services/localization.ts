@@ -7,7 +7,7 @@ import { Flags } from '../stores/flags';
 import API from './api';
 import MessageOverwrites = Flags.MessageOverwrites;
 
-export const DEFAULT_LOCALE = 'en';
+export const DEFAULT_LOCALE = 'ar';
 
 export function negotiateLocales(
   locales: ReadonlyArray<string>,
