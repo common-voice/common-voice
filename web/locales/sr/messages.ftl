@@ -635,6 +635,7 @@ about-playbook-how-grow-language-content-8 = <strong>Будите креатив
 
 ## How to validate
 
+about-playbook-how-validate = Како да знам да ли да одобрим гласовни запис?
 
 ## How to access dataset
 
