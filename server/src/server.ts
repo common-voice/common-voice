@@ -22,6 +22,7 @@ import fetchLegalDocument from './fetch-legal-document';
 import { createTaskQueues, TaskQueues } from './lib/takeout';
 import getCSPHeaderValue from './csp-header-value';
 import { ValidationError } from 'express-json-validator-middleware';
+import { instantiateScheduledJobs } from './jobs';
 
 const MAINTENANCE_VERSION_KEY = 'maintenance-version';
 const FULL_CLIENT_PATH = path.join(__dirname, '..', '..', 'web');
@@ -349,7 +350,7 @@ export default class Server {
     } catch (e) {
       this.print('error during maintenance', e);
     }
-
+    instantiateScheduledJobs();
     await lock.unlock();
   }
 
