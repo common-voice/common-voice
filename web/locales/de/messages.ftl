@@ -259,7 +259,7 @@ speak-goal-text = Aufgenommene Aufzeichnungen
 listen-subtitle = Helfen Sie uns, Stimmen zu bestätigen
 listen-paragraph = Das Bestätigen von Aufzeichnungen ist für die Mission von Common Voice ebenso wichtig. Hören Sie hin und helfen Sie uns, gemeinfreie Sprachdaten in guter Qualität bereitzustellen.
 listen-goal-text = Bestätigte Aufzeichnungen
-hours-recorded = Aufgenommene Stunden
+hours-recorded = Erfasste Stunden
 hours-validated = Bestätigte Stunden
 voices-online = Sprecher aktuell online
 todays-progress = Heutiger Fortschritt
@@ -739,7 +739,7 @@ size-megabyte = MB
 confirm-no-identify = <b>Sie stimmen zu</b>, nicht zu versuchen, die Identität der Sprecher im Common-Voice-Datensatz zu ermitteln
 download-language = { $language } herunterladen
 validated-hours = Bestätigte Stunden
-recorded-hours = Aufgenommene Stunden
+recorded-hours = Erfasste Stunden
 whats-inside = Was steckt im Common-Voice-Datensatz?
 dataset-description-hours =
     Jeder Eintrag im Datensatz besteht aus einer eindeutigen MP3- und zugehörigen Textdatei. Viele der <b>{ $total }</b> aufgezeichneten Stunden im Datensatz enthalten auch demografische Metadaten wie Alter, Geschlecht und Akzent, mit deren Hilfe die Genauigkeit von Spracherkennungs-Engines trainiert werden kann.
