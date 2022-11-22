@@ -9,7 +9,11 @@ import { Redirect, RouteComponentProps, withRouter } from 'react-router';
 import { Tooltip } from 'react-tippy';
 import pick from 'lodash.pick';
 
-import { useAction, useAPI } from '../../../../hooks/store-hooks';
+import {
+  useAction,
+  useAPI,
+  useLocalStorageState,
+} from '../../../../hooks/store-hooks';
 import { trackProfile } from '../../../../services/tracker';
 import { AGES, GENDERS } from '../../../../stores/demographics';
 import { Notifications } from '../../../../stores/notifications';
@@ -83,6 +87,10 @@ function ProfileInfo({
     userFields;
   const [areLanguagesLoading, setAreLanguagesLoading] = useState(true);
   const [userLanguages, setUserLanguages] = useState<UserLanguage[]>([]);
+  const [userLanguagesInLocalStorage] = useLocalStorageState<UserLanguage[]>(
+    [],
+    'userLanguages'
+  );
   const [isSaving, setIsSaving] = useState(false);
   const [isSubmitted, setIsSubmitted] = useState(false);
   const [termsStatus, setTermsStatus] = useState<null | 'show' | 'agreed'>(
@@ -122,7 +130,7 @@ function ProfileInfo({
     let userLanguages: UserLanguage[] = [];
     userLanguages = userClients.reduce(
       (languages, userClient) => languages.concat(userClient.languages || []),
-      []
+      userLanguagesInLocalStorage
     );
     userLanguages = userLanguages.filter(
       (l1, i) => i == userLanguages.findIndex(l2 => l2.locale == l1.locale)

@@ -3,7 +3,6 @@ import { Localized } from '@fluent/react';
 
 import Page from '../../ui/page';
 
-import './partner.css';
 import PageHeading from '../../ui/page-heading';
 import { LinkButton } from '../../ui/ui';
 import { MailIcon } from '../../ui/icons';
@@ -11,6 +10,8 @@ import { COMMON_VOICE_EMAIL } from '../../../constants';
 import { PartnerOptionSection } from './partner-option-section';
 import { PARTNER_OPTIONS } from './partner-options';
 import Subscribe from '../../email-subscribe-block/subscribe';
+
+import './partner.css';
 
 const Partner = () => (
   <Page className="partner-main-container" dataTestId="partnerships-page">

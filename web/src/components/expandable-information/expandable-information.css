@@ -2,6 +2,10 @@
     margin: 2em 0;
     padding-inline-start: 0.75em;
     border-inline-start: 2px solid var(--blue);
+
+    &.hide-border {
+        border-inline-start: none;
+    }
 }
 
 .expandable-information__summary {
@@ -10,11 +14,21 @@
     font-weight: 600;
     color: var(--blue);
     cursor: pointer;
+    display: flex;
+
+    &.align-center {
+        align-items: center;
+        justify-content: center;
+    }
 
     /* hide small arrow thats default for summary element */
     list-style: none;
     &::marker {
         display: none;
+    }
+
+    img {
+        margin-inline-end: 10px;
     }
 }
 
