@@ -457,7 +457,8 @@
         }
     }
 
-    &.submittable {
+    &.submittable,
+    &.first-cta-visible {
         .cards,
         .instruction,
         .primary-buttons,
@@ -665,6 +666,22 @@
         @media (--sm-down) {
             font-size: 90%;
             margin-top: 5px;
+        }
+    }
+
+    .contribution-speak-form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .labeled-checkbox {
+            margin: 2em 0;
+            width: 60%;
+            text-align: center;
+
+            a {
+                color: var(--anchor-text-blue);
+            }
         }
     }
 }
