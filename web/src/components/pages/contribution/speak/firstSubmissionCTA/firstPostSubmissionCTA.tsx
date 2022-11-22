@@ -146,8 +146,12 @@ export const FirstPostSubmissionCta: React.FC<FirstPostSubmissionCtaProps> = ({
             rounded
             className="add-information-button"
             onClick={handleAddInformationClick}
+<<<<<<< HEAD
             data-testid="add-information-button"
             disabled={isAddInformationButtonDisabled}>
+=======
+            data-testid="add-information-button">
+>>>>>>> f056de4a0 (OI-2493 CTA1 Submission screen (#3864))
             Add information
           </Button>
         </Localized>
