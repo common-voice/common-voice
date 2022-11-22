@@ -32,6 +32,7 @@ describe('FirstPostSubmissionCta', () => {
         hideVisibility={jest.fn()}
         addNotification={jest.fn()}
         successUploadMessage="Thanks"
+        errorUploadMessage="An error occurred"
       />
     );
 
