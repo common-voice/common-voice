@@ -99,13 +99,6 @@ function RecordingPill({
                   </span>
                 </button>
               </Tooltip>
-              <Tooltip arrow title={getString('share-clip')}>
-                <button className="share" type="button" onClick={onShare}>
-                  <span className="padder">
-                    <ShareIcon />
-                  </span>
-                </button>
-              </Tooltip>
             </>
           )}
         </>

@@ -67,6 +67,7 @@
     "identity-obj-proxy": "3.0.0",
     "jest": "27.5.1",
     "jest-axe": "6.0.0",
+    "jest-canvas-mock": "^2.4.0",
     "jest-matcher-utils": "27.5.1",
     "jest-svg-transformer": "1.0.0",
     "jest-transform-stub": "2.0.0",
