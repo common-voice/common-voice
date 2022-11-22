@@ -57,7 +57,7 @@ interface PropsFromDispatch {
   addNotification: typeof Notifications.actions.addPill;
 }
 
-interface Props
+export interface ContributionPageProps
   extends WithLocalizationProps,
     PropsFromState,
     PropsFromDispatch {
@@ -78,7 +78,7 @@ interface Props
   onSubmit?: (evt?: React.SyntheticEvent) => void;
   onPrivacyAgreedChange?: (privacyAgreed: boolean) => void;
   privacyAgreedChecked?: boolean;
-  showFirstCTA?: boolean;
+  shouldShowFirstCTA?: boolean;
   hideFirstCTA?: () => void;
   primaryButtons: React.ReactNode;
   pills: ((props: ContributionPillProps) => React.ReactNode)[];
@@ -99,7 +99,7 @@ interface State {
   showShortcutsModal: boolean;
 }
 
-class ContributionPage extends React.Component<Props, State> {
+class ContributionPage extends React.Component<ContributionPageProps, State> {
   static defaultProps = {
     isFirstSubmit: false,
   };
@@ -122,14 +122,10 @@ class ContributionPage extends React.Component<Props, State> {
   componentDidUpdate() {
     this.startWaving();
 
-    const { isPlaying, isSubmitted, onReset, user } = this.props;
+    const { isPlaying } = this.props;
 
     if (this.wave) {
       isPlaying ? this.wave.play() : this.wave.idle();
-    }
-
-    if (isSubmitted && user.account?.skip_submission_feedback) {
-      onReset();
     }
   }
 
@@ -230,7 +226,6 @@ class ContributionPage extends React.Component<Props, State> {
   render() {
     const {
       hasErrors,
-      flags,
       getString,
       isSubmitted,
       onSkip,
@@ -238,7 +233,7 @@ class ContributionPage extends React.Component<Props, State> {
       type,
       user,
       demoMode,
-      showFirstCTA,
+      shouldShowFirstCTA,
     } = this.props;
     const { showReportModal, showShareModal, showShortcutsModal } = this.state;
 
@@ -280,7 +275,7 @@ class ContributionPage extends React.Component<Props, State> {
             'contribution',
             type,
             this.isDone ? 'submittable' : '',
-            showFirstCTA ? 'first-cta-visible' : '',
+            shouldShowFirstCTA ? 'first-cta-visible' : '',
           ].join(' ')}>
           <div className="top">
             <LocaleLink
@@ -353,7 +348,7 @@ class ContributionPage extends React.Component<Props, State> {
       type,
       onPrivacyAgreedChange,
       privacyAgreedChecked,
-      showFirstCTA,
+      shouldShowFirstCTA,
       user,
     } = this.props;
     const { selectedPill } = this.state;
@@ -363,10 +358,6 @@ class ContributionPage extends React.Component<Props, State> {
     ) => {
       onPrivacyAgreedChange(evt.target.checked);
     };
-
-    if (isSubmitted && !showFirstCTA) {
-      return <Success onReset={onReset} type={type} />;
-    }
 
     if (hasErrors) {
       return errorContent;
@@ -381,7 +372,7 @@ class ContributionPage extends React.Component<Props, State> {
         <div className="cards-and-pills">
           <div />
 
-          {showFirstCTA ? (
+          {shouldShowFirstCTA ? (
             <div style={{ width: '800px', height: '400px' }}></div>
           ) : (
             <div className="cards-and-instruction">
@@ -442,7 +433,7 @@ class ContributionPage extends React.Component<Props, State> {
             </div>
           )}
 
-          {showFirstCTA ? (
+          {shouldShowFirstCTA ? (
             <div
               style={{
                 height: '400px',
@@ -481,13 +472,14 @@ class ContributionPage extends React.Component<Props, State> {
           )}
         </div>
 
-        {!user.account && showFirstCTA && (
+        {!user.account && shouldShowFirstCTA && (
           <FirstPostSubmissionCta
             locale={this.props.locale}
             onReset={onReset}
             hideVisibility={this.props.hideFirstCTA}
             addNotification={this.props.addNotification}
             successUploadMessage={getString('thanks-for-voice-toast')}
+            errorUploadMessage={getString('thanks-for-voice-toast-error')}
           />
         )}
 
@@ -545,8 +537,11 @@ class ContributionPage extends React.Component<Props, State> {
               </Localized>{' '}
               <SkipIcon />
             </Button>
-            {onSubmit && !showFirstCTA && (
-              <form onSubmit={onSubmit} className="contribution-speak-form">
+            {onSubmit && !shouldShowFirstCTA && (
+              <form
+                onSubmit={onSubmit}
+                className="contribution-speak-form"
+                data-testid="speak-submit-form">
                 {this.isDone && (
                   <LabeledCheckbox
                     label={
@@ -562,6 +557,7 @@ class ContributionPage extends React.Component<Props, State> {
                     required
                     onChange={handlePrivacyAgreedChange}
                     checked={privacyAgreedChecked}
+                    data-testid="checkbox"
                   />
                 )}
                 <Tooltip

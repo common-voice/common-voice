@@ -1,6 +1,7 @@
 import { Localized } from '@fluent/react';
 import { UserLanguage } from 'common';
-import React, { useEffect, useState } from 'react';
+// import React, { useEffect, useState } from 'react';
+import * as React from 'react';
 import InputLanguageVariant from '../../../profile/info/languages/input-language-variant';
 import InputLanguageAccents from '../../../profile/info/languages/input-language-accents/input-language-accents';
 
@@ -29,6 +30,7 @@ type FirstPostSubmissionCtaProps = {
   hideVisibility: () => void;
   addNotification: typeof Notifications.actions.addPill;
   successUploadMessage: string;
+  errorUploadMessage: string;
 };
 
 export const FirstPostSubmissionCta: React.FC<FirstPostSubmissionCtaProps> = ({
@@ -37,20 +39,21 @@ export const FirstPostSubmissionCta: React.FC<FirstPostSubmissionCtaProps> = ({
   hideVisibility,
   addNotification,
   successUploadMessage,
+  errorUploadMessage,
 }) => {
   const saveAccount = useAction(User.actions.saveAccount);
-  const [areLanguagesLoading, setAreLanguagesLoading] = useState(true);
+  const [areLanguagesLoading, setAreLanguagesLoading] = React.useState(true);
 
   const [userLanguages, setUserLanguages] = useLocalStorageState<
     UserLanguage[]
   >([{ locale, accents: [] }], USER_LANGUAGES);
 
-  const [accentsAll, setAccentsAll] = useState<AccentsAll>({});
-  const [variantsAll, setVariantsAll] = useState<VariantsAll>({});
+  const [accentsAll, setAccentsAll] = React.useState<AccentsAll>({});
+  const [variantsAll, setVariantsAll] = React.useState<VariantsAll>({});
 
   const api = useAPI();
 
-  useEffect(() => {
+  React.useEffect(() => {
     if (areLanguagesLoading) {
       Promise.all([
         api.getAccents().then(setAccentsAll),
@@ -61,16 +64,20 @@ export const FirstPostSubmissionCta: React.FC<FirstPostSubmissionCtaProps> = ({
     }
   }, []);
 
-  const handleAddInformationClick = () => {
+  const handleAddInformationClick = async () => {
     const data = {
       languages: userLanguages,
     };
 
-    saveAccount(data);
+    try {
+      await saveAccount(data);
+      addNotification(successUploadMessage, 'success');
+    } catch (error) {
+      addNotification(errorUploadMessage, 'error');
+    }
 
     onReset();
     hideVisibility();
-    addNotification(successUploadMessage, 'success');
   };
 
   return (
@@ -138,12 +145,16 @@ export const FirstPostSubmissionCta: React.FC<FirstPostSubmissionCtaProps> = ({
           <Button
             rounded
             className="add-information-button"
-            onClick={handleAddInformationClick}>
+            onClick={handleAddInformationClick}
+            data-testid="add-information-button">
             Add information
           </Button>
         </Localized>
         <Localized id="continue-speaking-button">
-          <Button rounded onClick={onReset}>
+          <Button
+            rounded
+            onClick={onReset}
+            data-testid="continue-speaking-button">
             No thanks, continue speaking
           </Button>
         </Localized>

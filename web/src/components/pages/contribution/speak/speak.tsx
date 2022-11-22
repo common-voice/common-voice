@@ -85,7 +85,7 @@ interface State {
   showPrivacyModal: boolean;
   showDiscardModal: boolean;
   privacyAgreedChecked?: boolean;
-  showFirstCTA: boolean;
+  shouldShowFirstCTA: boolean;
 }
 
 const initialState: State = {
@@ -96,7 +96,7 @@ const initialState: State = {
   rerecordIndex: null,
   showPrivacyModal: false,
   showDiscardModal: false,
-  showFirstCTA: false,
+  shouldShowFirstCTA: false,
 };
 
 const SEEN_FIRST_CTA = 'seenFirstCTA';
@@ -488,7 +488,7 @@ class SpeakPage extends React.Component<Props, State> {
     // display first CTA screen if it has not been seen it before
     // and the user does not have an account
     if (hasSeenFirstCTA !== 'true' && !user.account) {
-      this.setState({ showFirstCTA: true });
+      this.setState({ shouldShowFirstCTA: true });
       window.sessionStorage.setItem(SEEN_FIRST_CTA, 'true');
     }
 
@@ -519,7 +519,7 @@ class SpeakPage extends React.Component<Props, State> {
 
   private hideFirstCTA = () => {
     this.setState({
-      showFirstCTA: false,
+      shouldShowFirstCTA: false,
     });
   };
 
@@ -530,7 +530,7 @@ class SpeakPage extends React.Component<Props, State> {
     this.upload();
 
     // Reset for unauthenticated users who have seen the first CTA so they can see new clips to record
-    if (!this.props.user.account && hasSeenFirstCTA) {
+    if (!this.props.user.account && hasSeenFirstCTA === 'true') {
       this.resetState();
     }
   };
@@ -690,7 +690,7 @@ class SpeakPage extends React.Component<Props, State> {
               this.onPrivacyAgreedChange(privacyAgreed)
             }
             privacyAgreedChecked={this.state.privacyAgreedChecked}
-            showFirstCTA={this.state.showFirstCTA}
+            shouldShowFirstCTA={this.state.shouldShowFirstCTA}
             hideFirstCTA={this.hideFirstCTA}
             primaryButtons={
               <RecordButton
