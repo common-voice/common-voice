@@ -51,6 +51,10 @@
         @media (--md-up) {
             min-height: auto;
         }
+
+        a {
+            color: var(--anchor-text-blue);
+        }
     }
 
     & .buttons {

@@ -1,0 +1,123 @@
+.first-cta-container {
+    position: absolute;
+    top: 20%;
+    left: 15%;
+    background: rgba(229, 229, 229, 0);
+    width: 70%;
+    height: 65%;
+    z-index: 10;
+
+    .header-text-container {
+        margin-bottom: 80px;
+
+        @media (--xs-down) {
+            margin-bottom: 40px;
+        }
+
+        .header-text {
+            font-size: 36px;
+            font-weight: 400;
+            text-align: center;
+        }
+    }
+
+    .subtitle-text {
+        text-align: center;
+        margin-bottom: 32px;
+    }
+
+    .form-fields {
+        .language-wrap {
+            @media (--lg-up) {
+                width: 60%;
+            }
+
+            margin: 0 auto;
+            display: flex;
+
+            @media (--sm-down) {
+                flex-direction: column;
+            }
+
+            label {
+                margin-right: 10px;
+                margin-bottom: 30px;
+            }
+
+            label,
+            .accents-input-wrapper {
+                width: 100%;
+            }
+        }
+
+        ul {
+            margin: -30px 0 30px;
+            position: absolute;
+            background: white;
+            z-index: var(--override-z-index);
+            width: fit-content;
+
+            li {
+                cursor: pointer;
+                list-style: none;
+                padding: 15px;
+                border-bottom: 1px solid var(--dark-grey);
+            }
+        }
+
+        .downshift-open {
+            border: 1px solid var(--light-grey);
+
+            box-shadow: 0 2px 5px 0 var(--light-grey);
+            overflow: hidden;
+        }
+    }
+
+    .expandable-infomation-wrapper {
+        @media (--lg-up) {
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            width: 650px;
+            margin: 0 auto;
+        }
+    }
+
+    .expandable-information__text {
+        p {
+            margin-bottom: 15px;
+            text-align: left;
+        }
+    }
+
+    & .add-information-button {
+        background: var(--blue);
+        border: none;
+        margin-bottom: 25px;
+
+        &:hover {
+            border: 1px solid var(--black);
+        }
+    }
+
+    .submission-buttons {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 25px;
+
+        .button {
+            @media (--md-up) {
+                width: auto;
+            }
+        }
+    }
+
+    .create-profile-text {
+        text-align: center;
+
+        a {
+            color: var(--anchor-text-blue);
+        }
+    }
+}
