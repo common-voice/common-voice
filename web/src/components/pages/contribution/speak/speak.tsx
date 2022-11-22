@@ -34,6 +34,7 @@ import AudioWeb, { AudioError, AudioInfo } from './audio-web';
 import RecordingPill from './recording-pill';
 import { SentenceRecording } from './sentence-recording';
 import SpeakErrorContent from './speak-error-content';
+import { USER_LANGUAGES } from './firstSubmissionCTA/firstPostSubmissionCTA';
 
 import './speak.css';
 
@@ -83,6 +84,8 @@ interface State {
   rerecordIndex?: number;
   showPrivacyModal: boolean;
   showDiscardModal: boolean;
+  privacyAgreedChecked?: boolean;
+  shouldShowFirstCTA: boolean;
 }
 
 const initialState: State = {
@@ -93,10 +96,19 @@ const initialState: State = {
   rerecordIndex: null,
   showPrivacyModal: false,
   showDiscardModal: false,
+  shouldShowFirstCTA: false,
 };
 
+const SEEN_FIRST_CTA = 'seenFirstCTA';
+
 class SpeakPage extends React.Component<Props, State> {
-  state: State = initialState;
+  state: State = {
+    ...initialState,
+    privacyAgreedChecked: Boolean(
+      this.props.user.privacyAgreed || this.props.user.account
+    ),
+  };
+
   demoMode = this.props.location.pathname.includes(URLS.DEMO);
 
   audio: AudioWeb;
@@ -136,6 +148,10 @@ class SpeakPage extends React.Component<Props, State> {
   componentDidMount() {
     const { loadSentences } = this.props;
     loadSentences();
+
+    if (localStorage.getItem(USER_LANGUAGES)) {
+      localStorage.removeItem(USER_LANGUAGES);
+    }
 
     this.audio = new AudioWeb();
     this.audio.setVolumeCallback(this.updateVolume.bind(this));
@@ -354,7 +370,7 @@ class SpeakPage extends React.Component<Props, State> {
     });
   };
 
-  private upload = (hasAgreed: boolean = false) => {
+  private upload = (hasAgreed = false) => {
     const {
       addAchievement,
       addNotification,
@@ -467,6 +483,15 @@ class SpeakPage extends React.Component<Props, State> {
       },
     ]);
 
+    const hasSeenFirstCTA = window.sessionStorage.getItem(SEEN_FIRST_CTA);
+
+    // display first CTA screen if it has not been seen it before
+    // and the user does not have an account
+    if (hasSeenFirstCTA !== 'true' && !user.account) {
+      this.setState({ shouldShowFirstCTA: true });
+      window.sessionStorage.setItem(SEEN_FIRST_CTA, 'true');
+    }
+
     return true;
   };
 
@@ -475,8 +500,14 @@ class SpeakPage extends React.Component<Props, State> {
 
   private agreeToTerms = async () => {
     this.setState({ showPrivacyModal: false });
+    this.setState({ privacyAgreedChecked: true });
     this.props.updateUser({ privacyAgreed: true });
     this.upload(true);
+  };
+
+  private onPrivacyAgreedChange = (privacyAgreed: boolean) => {
+    this.setState({ privacyAgreedChecked: privacyAgreed });
+    this.props.updateUser({ privacyAgreed });
   };
 
   private toggleDiscardModal = () => {
@@ -484,6 +515,24 @@ class SpeakPage extends React.Component<Props, State> {
       showPrivacyModal: false,
       showDiscardModal: !this.state.showDiscardModal,
     });
+  };
+
+  private hideFirstCTA = () => {
+    this.setState({
+      shouldShowFirstCTA: false,
+    });
+  };
+
+  private handleSubmit = (evt: React.SyntheticEvent) => {
+    const hasSeenFirstCTA = window.sessionStorage.getItem(SEEN_FIRST_CTA);
+
+    evt.preventDefault();
+    this.upload();
+
+    // Reset for unauthenticated users who have seen the first CTA so they can see new clips to record
+    if (!this.props.user.account && hasSeenFirstCTA === 'true') {
+      this.resetState();
+    }
   };
 
   private resetAndGoHome = () => {
@@ -561,7 +610,7 @@ class SpeakPage extends React.Component<Props, State> {
           )}
           {showPrivacyModal && (
             <TermsModal
-              onAgree={this.agreeToTerms}
+              onAgree={() => this.agreeToTerms()}
               onDisagree={this.toggleDiscardModal}
             />
           )}
@@ -636,7 +685,13 @@ class SpeakPage extends React.Component<Props, State> {
             isSubmitted={isSubmitted}
             onReset={() => this.resetState()}
             onSkip={this.handleSkip}
-            onSubmit={() => this.upload()}
+            onSubmit={this.handleSubmit}
+            onPrivacyAgreedChange={(privacyAgreed: boolean) =>
+              this.onPrivacyAgreedChange(privacyAgreed)
+            }
+            privacyAgreedChecked={this.state.privacyAgreedChecked}
+            shouldShowFirstCTA={this.state.shouldShowFirstCTA}
+            hideFirstCTA={this.hideFirstCTA}
             primaryButtons={
               <RecordButton
                 trackClass="speak-record"
