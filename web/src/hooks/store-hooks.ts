@@ -1,5 +1,11 @@
 import { useDispatch } from 'react-redux';
-import { useCallback, useEffect, useState } from 'react';
+import {
+  Dispatch,
+  SetStateAction,
+  useCallback,
+  useEffect,
+  useState,
+} from 'react';
 import { useTypedSelector } from '../stores/tree';
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
@@ -43,7 +49,10 @@ export function useIsSubscribed() {
 }
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
-export function useLocalStorageState(defaultValue: any, key?: string) {
+export function useLocalStorageState<T>(
+  defaultValue: T,
+  key?: string
+): [T, Dispatch<SetStateAction<T>>] {
   const [value, setValue] = useState(() => {
     if (!key) {
       return defaultValue;
