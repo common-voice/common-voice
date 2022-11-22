@@ -957,6 +957,8 @@ export const CautionIcon = Icon(
   'exclamation'
 );
 
+export const QuestionMarkIcon = Icon(require('./icons/question-mark.svg'));
+
 const FONT_ICONS = {
   chrome: '',
   facebook: '',
