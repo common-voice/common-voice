@@ -824,6 +824,7 @@ review-tooltip = ກວດເບິ່ງ ແລະບັນທຶກຄລິ�
 clips-uploaded = ອັບໂຫຼດຄິບແລ້ວ
 record-abort-title = ສຳເລັດການບັນທຶກກ່ອນບໍ?
 record-abort-text = ການອອກໄປຕອນນີ້ໝາຍຄວາມວ່າເຈົ້າຈະສູນເສຍຄວາມຄືບໜ້າຂອງເຈົ້າ
+record-abort-submit = ສົ່ງຄລິບ
 record-abort-continue = ສຳເລັດການບັນທຶກ
 speak-empty-state = ພວກເຮົາໝົດປະໂຫຍກທີ່ຈະບັນທຶກເປັນພາສານີ້...
 speak-empty-state-cta = ຮ່ວມສ້າງປະໂຫຍກ
@@ -884,6 +885,7 @@ weekly-goal = ເປົ້າໝາຍປະຈຳອາທິດ
 easy-difficulty = ງ່າຍ
 average-difficulty = ສະເລ່ຍ
 difficult-difficulty = ຍາກ
+pro-difficulty = ມືອາຊີບ
 how-many-per-day = ດີຫຼາຍ! ມີຈັກຄລິບຕໍ່ມື້?
 how-many-a-week = ດີຫຼາຍ! ມີຈັກຄລິບຕໍ່ອາທິດ?
 which-goal-type = ທ່ານຕ້ອງການເວົ້າ, ຟັງຫຼືທັງສອງ?
@@ -966,9 +968,14 @@ see-less = <chevron></chevron>ເບິ່ງໜ້ອຍລົງ
 ## HEADER/FOOTER
 
 sc-header-home = ໜ້າຫຼັກ
+sc-header-how-to = ວິທີ
 sc-header-add = ເພີ່ມ
 sc-header-review = ທົບທວນ
+sc-header-rejected = ປະໂຫຍກທີ່ຖືກປະຕິເສດ
+sc-header-my = ປະໂຫຍກຂອງຂ້ອຍ
+sc-header-statistics = ສະຖິຕິ
 sc-header-profile = ໂປ​ຣ​ໄຟ​ລ໌
+sc-footer-discourse = Discourse
 sc-footer-translate = ແປຫນ້ານີ້
 sc-footer-privacy = ຄວາມເປັນສ່ວນຕົວ
 sc-footer-terms = ຂໍ້ກຳນົດ
@@ -979,6 +986,7 @@ sc-logout-button = ອອກ​ຈາກ​ລະ​ບົບ
 ## HOME
 
 sc-home-title = ຍິນດີຕ້ອນຮັບສູ່ເຄື່ອງມືຮວບຮວມປະໂຫຍກ Common Voice
+sc-home-review-title = ທົບທວນປະໂຫຍກ
 
 ## GENERAL
 
@@ -1007,6 +1015,7 @@ sc-rejected-title = ປະໂຫຍກທີ່ຖືກປະຕິເສດ
 
 ## STATS
 
+sc-stats-title = ສະຖິຕິ
 sc-stats-updating = ກຳລັງອັບເດດ…
 
 ## ADD
@@ -1030,6 +1039,7 @@ sc-confirm-button-text = ຢືນຢັນ​
 
 ## LANGUAGE INFO
 
+sc-lang-info-title-total = ລວມ
 sc-lang-info-title-personal = ສ່ວນຕົວ
 
 ## LOGIN
@@ -1048,7 +1058,12 @@ sc-personal-remove-button = ລຶບ
 
 ## REVIEW
 
+# Variables:
+#   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
+sc-review-form-source = ທີ່ມາ: { $sentenceSource }
+sc-review-form-button-reject = ປະຕິເສດ
 sc-review-form-button-skip = ຂ້າມ
+sc-review-form-button-approve = ອະນຸມັດ
 sc-review-link = ທົບທວນ
 
 ## SETTINGS
