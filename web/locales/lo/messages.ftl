@@ -815,6 +815,8 @@ contribute-more =
 record-cta = ເລີ່ມການບັນທຶກ
 record-must-allow-microphone = ທ່ານຕ້ອງອະນຸຍາດໃຫ້ເຂົ້າເຖິງໄມໂຄຣໂຟນ.
 record-no-mic-found = ບໍ່ພົບໄມໂຄຣໂຟນ.
+record-error-too-short = ການບັນທຶກສັ້ນເກີນໄປ.
+record-error-too-long = ການບັນທຶກຍາວເກີນໄປ.
 record-error-too-quiet = ການບັນທຶກແມ່ນງຽບເກີນໄປ.
 record-cancel = ຍົກເລີກການບັນທຶກຄືນໃໝ່
 record-three-more-instruction = ເຫຼືອອີກ 3!
@@ -838,6 +840,8 @@ report-title = ສົ່ງບົດລາຍງານ
 report-offensive-language = ພາສາທີ່ຮຸນແຮງ
 report-grammar-or-spelling = ໄວຍະກອນ / ການສະກົດຄໍາຜິດພາດ
 report-offensive-speech = ຄຳເວົ້າທີ່ບໍ່ເໝາະສົມ
+report-other-comment =
+    .placeholder = ຄວາມຄິດເຫັນ
 success = ສຳເລັດ
 continue = ສືບຕໍ່
 
@@ -873,6 +877,9 @@ show-ranking = ສະແດງການຈັດອັນດັບຂອງຂ�
 get-started-goals = ເລີ່ມຕົ້ນດ້ວຍເປົ້າໝາຍ
 create-custom-goal = ສ້າງເປົ້າຫມາຍທີ່ກໍາຫນົດເອງ
 goal-type = ທ່ານຕ້ອງການສ້າງເປົ້າໝາຍປະເພດໃດ?
+both-speak-and-listen = ທັງຄູ່
+both-speak-and-listen-long = ທັງ​ຄູ່ (ເວົ້າ​ແລະ​ຟັງ​)
+daily-goal = ເປົ້າໝາຍປະຈໍາວັນ
 weekly-goal = ເປົ້າໝາຍປະຈຳອາທິດ
 easy-difficulty = ງ່າຍ
 average-difficulty = ສະເລ່ຍ
@@ -990,6 +997,9 @@ sc-my-title = ປະໂຫຍກຂອງຂ້ອຍ
 # Variables:
 #   $batchId (String) - A unique ID identifying the submission of sentences - sentences uploaded together all have the same batch ID
 sc-my-submission = ສົ່ງ: { $batchId }
+# Variables:
+#   $source (String) - Associated source the user filled out when uploading the sentence
+sc-my-source = ທີ່ມາ: { $source }
 
 ## REJECTED
 
@@ -1003,6 +1013,7 @@ sc-stats-updating = ກຳລັງອັບເດດ…
 
 sc-submit-err-add-sentences = ກະລຸນາເພີ່ມປະໂຫຍກ.
 sc-submit-err-add-source = ກະລຸນາເພີ່ມແຫຼ່ງທີ່ມາ.
+sc-submit-title = ເພີ່ມປະໂຫຍກ
 sc-submit-select-language =
     .labelText = ເລືອກພາສາ
 sc-submit-button =
@@ -1023,9 +1034,13 @@ sc-lang-info-title-personal = ສ່ວນຕົວ
 
 ## LOGIN
 
+sc-login-err-try-again = ກະລຸນາລອງອີກຄັ້ງ.
 
 ## PROFILE
 
+# Variables:
+#   $username (String) - eMail address of the logged in user
+sc-profile-title = ໂປ​ຣ​ໄຟ​ລ໌: { $username }
 sc-personal-remove-button = ລຶບ
 
 ## REVIEW CRITERIA
@@ -1042,3 +1057,4 @@ sc-settings-title = ການຕັ້ງຄ່າ
 
 # [/SentenceCollector]
 
+partnerships-governments-header = ລັດຖະບານ
