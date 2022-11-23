@@ -40,10 +40,12 @@ ba = Bashkir
 bas = Basaa
 be = Belarusian
 bg = Bulgaria ñe’ẽ
+bm = Bambara
 bn = Bengali ñe’ẽ
 br = Breton ñe’ẽ
 bs = Bosnia
 bxr = Buryat ñe’ẽ
+byv = { "" }
 ca = Catalán ñe’ẽ
 cak = Kaqchikel ñe’ẽ
 ckb = Kurdisch Mbytegua ñe’ẽ
@@ -53,6 +55,7 @@ cs = Czech ñe’ẽ
 cv = Chuvash ñe’ẽ
 cy = Welsh ñe’ẽ
 da = Dinamarca ñe’ẽ
+dag = { "" }
 de = Alemán ñe’ẽ
 dsb = Sorbian ñe’ẽ, Yvypegua
 dv = Dhivehi ñe’ẽ
@@ -206,6 +209,7 @@ zh-CN = China ñe’ẽ (Chinapegua)
 zh-HK = China ñe’ẽ (Hong Kong-pegua)
 zh-TW = China ñe’ẽ (Taiwán-pegua)
 zu = Sulu
+zza = { "" }
 
 # [/]
 
@@ -217,6 +221,7 @@ speak-now = Eñe’ẽ ko’ág̃a
 datasets = Kuaapy’aty
 languages = Ñe’ẽnguéra
 about = Hesegua
+partner = Irũ
 profile = Toguetee
 help = Pytyvõ
 contact = Máva ndivépa oñeñe’ẽkuaa
@@ -719,6 +724,7 @@ datasets-positioning =
     Eikemi ko toguépe eikuaasevérõ ambue kuaapy’aty ãichagua oĩva opavavépe g̃uarã ha avei okakuaa ohóvo Common Voice, reikuaáta ápe mba’epyahu.
 language = Ñe’ẽ
 download-dataset-header = Emboguejy mba’ekuaarã aty
+download-delta-explainer = Romoambuékuri heta mba’e. Pe delta vore oguereko mba’epyahu roguenohẽramóvape. <deltaLink>Emoñe’ẽve ko tembiapo rehegua</deltaLink>.
 download-dataset-tag = Eiporavo ñe’ẽ mba’ekuaarã aty eipotáva ha mba’eichaguáva emboguejy hag̃ua.
 download-dataset-access = ¿Eheka itujavéva mba’ekuaarã aty? Ñanduti veve <emailLink> { $email } </emailLink>
 # File size in gigabytes
@@ -1523,3 +1529,15 @@ sc-validation-no-abbreviations = Pe ñe’ẽjoaju ndorekoiva’erã ñe’ẽmb
 
 localization-select =
     .label = Eiporavo ñe’ẽ/moñe’ẽasa
+# PARTNERSHIPS PAGE
+partnerships-header = Juajuguasu
+partnerships-header-text = ¡Tekotevẽ heta mba’e Common Voice oiko hag̃ua! Ndorojapói oreaño. ¿Ejuajusepa orendive? Roikuaaseve ndehegui.
+partnerships-get-in-touch = Eiméke ñandutípe
+partnerships-become-a-partner = Eiko Common Voice irũramo
+partnerships-community-header = Tekoha, Moheñoihára ha Tekohaygua
+partnerships-foundations-header = Viru’ỹgua
+partnerships-governments-header = Tekuái
+partnerships-academia-header = Mbo’ehaovusu, Mbo’ekuaahára ha Taperekahára
+partnerships-small-business-header = Mba’apohaguasu michĩvéva, oĩhápe mba’apohaguasu pyahu tembipurupyahugua ha IA
+partnerships-corporates-header = Mba’apohaguasu tuicháva ha pyendavusugua
+partnerships-our-partners = Ore irũnguéra

@@ -14,6 +14,10 @@ email-opt-in-info-sub-with-challenge = Merrni email-e të tillë si kujtues obje
 email-opt-in-privacy-v2 = Duke zgjedhur të merrni email-e, deklaroni se pajtoheni me përdorimin nga Mozilla të këtyre të dhënave, ashtu siç shpjegohet te <privacyLink>Rregulla Privatësie<privacyLink> të Mozilla-s.
 indicates-required = * tregon një fushë të domosdoshme
 not-available-abbreviation = N/A
+banner-error-slow-1 = Na ndjeni, Common Voice po xhiron ngadalë. Faleminderit për interesin e treguar.
+banner-error-slow-2 = Po marrim shumë trafik dhe aktualisht po hetojmë problemet.
+banner-error-slow-link = Faqe Gjendjeje
+error-something-went-wrong = Na ndjeni, diç shkoi ters
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -36,6 +40,7 @@ ba = Bashkire
 bas = Basa
 be = Bjelloruse
 bg = Bullgarisht
+bm = Bambareze
 bn = Bengalisht
 br = Bretonisht
 bs = Boshnjake
@@ -178,6 +183,7 @@ speak-now = Flisni tani
 datasets = Grupe të dhënash
 languages = Gjuhë
 about = Mbi
+partner = Partner
 profile = Profil
 help = Ndihmë
 contact = Kontakt
@@ -296,7 +302,6 @@ shortcut-discard-ongoing-recording-label = Hidh tej incizimin që po kryhet
 shortcut-submit = Return
 shortcut-submit-label = Parashtroni copëza
 request-language-text = S’e shihni ende gjuhën tuaj te Common Voice?
-request-language-text-learn = Mësoni se si ta kërkoni, këtu!
 request-language-button = Kërkoni një Gjuhë
 
 ## ProjectStatus
@@ -389,6 +394,7 @@ gravatar_not_found = S’u gjet gravatar për email-in tuaj
 file_too_large = Kartela e përzgjedhur është shumë e madhe
 avatar-uploaded = Avatari u ngarkua
 max-file-size = Maksimumi { $kb }kb
+remove-avatar = Hiqe Avatarin
 
 ## Profile - Email
 
@@ -429,7 +435,9 @@ faq-why-different-speakers-a =
     Shumica e bazave të të dhënave për të folurën përgatiten bazuar në një përfaqësim të tepruar të disa shtresave demografike, çka sjell anshmëri kah  <articleLink>meshkujt dhe klasa e mesme</articleLink>. Theksat dhe dialektet që priren të jenë të përfaqësuar më dobët në grupe të dhënash të përdorura për stërvitjen e aplikacioneve zakonisht kanë lidhje me grupe njerëzish që janë tashmë të lënë mënjanë. Plot makina e kanë gjithashtu të zorshme të kuptojnë zëra femërorë.
     Kjo është arsyeja ose duam larmi në bazën tonë të të dhënave për zërat!
 faq-why-my-lang-q = Pse s’është përfshirë ende gjuha ime?
-faq-why-my-lang-new-a = Mozilla nuk zgjedh apo favorizon ndonjë gjuhë para një tjetre. Në vend të kësaj, Common Voice është një nismë e bazuar kthjellët mbi bashkësinë, por duhen përmbushur <multilangLink>disa hapa për të shtuar një gjuhë të re</multilangLink> dhe për të filluar grumbullim kontributesh zanore. Së pari, lypset të përkthehet sajti Common Voice, që anëtarët e bashkësisë të mund ta përdorin në gjuhën e tyre projektin. Më tej, na duhet një koleksion i madh frazash të lira nga të drejta kopjimi, që të mund të lexohen nga njerëzit. Pasi të jenë plotësuar që të dyja këto domosdoshmëri, gjuha “shtohet” te Common Voice që njerëzit të fillojnë të incizojnë zërin e tyre dhe të vleftësojnë kontributet nga të tjerët. Nëse doni të ndihmoni në shtimin e një gjuhe të re, shkoni te <sentenceCollectorLink>mjeti ynë për grumbullim frazash</sentenceCollectorLink> që t’ia filloni.
+faq-why-my-lang-a =
+    Common Voice është një platformë e bazuar në vullnetarë dhe gjuhët qenë shtuar të tëra prej tyre.
+    Do të gëzoheshim po të shtonit gjuhën tuaj! <languageRequestLink>Kërkoni shtimin e gjuhës tuaj.</languageRequestLink>
 faq-what-quality-q = Ç’shkallë cilësie audio është e domosdoshme që një copëz zanore të përdoret në grupin e të dhënave?
 faq-what-quality-a = Dëshirojmë që grupi i të dhënave Common Voice të pasqyrojë cilësinë e audios që një mekanizëm nga-e-folura-në-tekst do të ndeshë në përgjithësi, ndaj kërkojmë larmi. Përveç një bashkësie të larmishme folësish, një grup të dhënash me cilësi audio të larmishme do t’i mësojë mekanizmit nga-e-folura-në-tekst të trajtojë situata të ndryshme nga jeta reale, nga e folura nën zë e deri te zhurma e automjeteve. Për sa kohë që copëza juaj zanore është e kuptueshme,  i bie të jetë e mjaftueshme për grupin e të dhënave.
 faq-why-10k-hours-q = Pse për incizimet audio synimi është 10 mijë orë të vleftësuara për gjuhë?
@@ -495,12 +503,6 @@ about-dataset-new = Grup të Dhënash <em>Common Voice</em>
 about-dataset-new-text = Grupi i të Dhënave <em>Common Voice</em> përmban qindra mijëra copëza zanore që i ndihmojnë zhvilluesit të krijojnë mjete të të kuptuarit të të folurit.
 about-clip-graveyard = Varrezë Copëzash
 about-clip-graveyard-text = Varreza e Copëzave përbëhet nga copëza zanore që nuk arritën të bëhen pjesë e grupit të të dhënave Common Voice. Ashtu si grupi i të dhënave, edhe Varreza e Copëzave mund të shkarkohet.
-about-partners = Partnerë
-about-become-a-partner = Bëhuni një partner
-about-partnership =
-    Common Voice është një projekt i ngritur mbi bashkëpunimin, dhe për të krijuar grupin e zërave me burim të hapur, më të madh deri sot, varemi nga partnerët dhe bashkëpunëtorët e bashkësisë.
-    
-    We would like to thank the following people and organizations for their help with the project:
 about-get-involved = Përfshihuni
 about-get-involved-text-2 =
     Doni të ndihmoni për ta bërë edhe më të mirë Common Voice-in?
@@ -508,6 +510,7 @@ about-get-involved-text-2 =
     parashtroni probleme sajti përmes <githubLink>GitHub</githubLink>,
     ose merrni pjesë te biseda të bashkësisë, te <matrixLink>Matrix</matrixLink>.
 about-stay-in-touch = Si të mbaj lidhjet?
+about-stay-in-touch-button = Regjistrohuni
 about-nav-why-common-voice = Pse?
 about-nav-how-it-works = Si?
 about-nav-partners = Partnerë
@@ -523,9 +526,20 @@ about-playbook-what-is-language = Ç’është një gjuhë në Common Voice?
 ## How do I add a language
 
 about-playbook-how-add-language = Si ta shtoj një gjuhë?
+about-playbook-how-add-language-translating-heading = Përkthimi i këtij sajti
+about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Shihni udhërrëfyesin tonë se si të përdoret Pontoon-i.</translateVideoLink>
+about-playbook-how-add-language-translating-content-2 =
+    Për përkthime ne përdorim një mjet të Mozilla-s të quajtur <pontoonLink>Pontoon</pontoonLink>. Pontoon-i përmban plot gjuhë,
+    por nëse s’ka tuajën, mund të <pontoonRequestLink>kërkoni shtimin e gjuhës tuaj</pontoonRequestLink>.
+    Mandej, për ta bërë gjuhën të përdorshme në projektin Common Voice,
+    <githubRepoLink>kërkojeni gjuhën e re nën GitHub</githubRepoLink>. <localizationFragment>Shihni më tepër mbi përkthim sajti</localizationFragment>.
+about-playbook-how-add-language-collecting-sentences-heading = Mbledhje togfjalëshash
+about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>Shihni udhërrëfyesin tonë mbi përdorimin e Mbledhësit të Togfjalëshave</sentenceCollectorVideo>.
 
 ## How does localization work
 
+about-playbook-how-localize = Si funksionon puna e përkthimit të sajtit?
+about-playbook-how-localize-content-1 = Përkthimi i sajtit Common Voice zhvillohet në <strong>Pontoon</strong>.
 about-playbook-how-localize-content-4 = Sajti është gati për t’u hedhur në qarkullim kur mbërrin plotësim 75%.
 about-playbook-how-localize-content-5 = Për ndihmë, shihni videon tonë shpjeguese
 
@@ -549,12 +563,6 @@ about-playbook-how-grow-language-content-4 = Media shoqërore
 
 ## How are decisions made
 
-mycroft-title = Mycroft Ai
-mycroft-subtitle = Inteligjencë Artificiale
-mycroft-description =
-    Mycroft është asistenti i parë në botë me burim të hapur.
-    Mycroft xhiron kudo - në kompjuter desktop, brenda një automjeti, ose në një Raspberry Pi.
-mycroft-secondary-description = Ky është <em>software</em> që mund të ripërzihet, zgjerohet dhe përmirësohet lirisht. Mycroft mund të përdoret për gjithçka, nga projekte shkencore deri te aplikacione  software-i në shkallë industriale.
 
 ## Glossary
 
@@ -691,6 +699,20 @@ request-language-success-content = Shumë shpejt do të lidhemi me ju me më tep
 select-language = Përzgjidhni një Gjuhë…
 other-language = Gjuhë Tjetër
 
+## Request Language Pages
+
+request-language-form-email =
+    .label = Adresa juaj email
+request-language-form-info =
+    .label = Hollësi mbi gjuhën
+request-language-form-info-explanation-list-1 = Emra të gjuhës suaj
+request-language-form-info-explanation-list-2 = <isoCodeLink>Kode ISO</isoCodeLink> nëse njihen
+request-language-form-info-explanation-list-3 = Lidhje te sajte që mund të na ndihmojnë të kuptojmë gjuhën
+request-language-google-recaptcha-required = reCAPTCHA është e domosdoshme, nëse doni të ecni më tej
+request-language-google-recaptcha-error = Diç shkoi ters me reCAPTCHA-n. Ju lutemi, riprovoni.
+# Success page
+request-language-success-heading = Faleminderi! Dërguat një kërkesë për gjuhë të re
+
 ## Languages Overview
 
 language-section-in-progress = Në Ecuri
@@ -706,7 +728,8 @@ language-search-input =
 language-speakers = Folës
 localized = E përkthyer
 sentences = Fraza
-total-hours = Orë të vlerësuara
+language-validation-hours = Orë
+language-validation-progress = Ecuri Vleftësimi
 
 ## Contribution
 
@@ -1096,6 +1119,12 @@ sc-howto-addsen-title = Shtoni togfjalësha të rinj
 sc-howto-addsen-item-1 = Krejt togfjalëshat që parashtroni duhet të jenë nën <wikipediaLink>licencë Përkatësie Publike (CC-0)</wikipediaLink>. SI mbështetje për përfshirjen e punëve jo nën licencë publike, kemi krijuar një <cc0WaiverLink>gjedhe Marrëveshjeje Kontributesh</cc0WaiverLink> për punë për të cilat zotëruesi i të drejtave të kopjimit do të donte ta kontribuonte materialin për projektin Common Voice.
 sc-howto-addsen-item-2 = Numra. S’duhet të ketë shifra te teksti burim, ngaqë mund të shkaktojnë probleme, kur lexohen me zë. Mënyra se si lexohet një numër varet nga konteksti dhe mund të sjellë ngatërresë te grupi i të dhënave. Për shembull, numri “2409” mund të lexohet edhe si “njëzetekatër zero nëntë”, edhe si “dymijë e katërqind e nëntë”.
 sc-howto-addsen-item-3 = Shkurtime dhe Akronime. Shkurtimet dhe akronimet, bie fjala, “USA” ose “ICE” duhen shmangur te teksti burim, ngaqë mund të lexohen në një mënyrë që nuk përputhet me shqiptimin e tyre. Përveç kësaj, mund të ketë disa lexime të sakta për një shkurtim të vetëm. Për shembull, akronimi “ICE” mund të shqiptohet “I-C-E”, ose si një fjalë e vetme.
+sc-howto-cite-item-1 = Mund të përfshinit sajtin, p.sh., “Common Voice - https://commonvoice.mozilla.org/”
+sc-howto-review-title = Shqyrtoni Togfjalësha
+sc-howto-review-subtitle = Sigurohuni se togfjalëshi plotëson kushtet vijuese:
+sc-howto-review-criteria-1 = Togfjalëshi duhet shkruar si duhet.
+sc-howto-review-criteria-2 = Togfjalëshi duhet të jetë i saktë gramatikisht.
+sc-howto-review-criteria-3 = Togfjalëshi duhet të jetë i shqiptueshëm.
 sc-howto-review-criteria-6 = Nëse ju mbarohen togfjalëshat për shqyrtim, ju lutemi, ndihmonani të grumbullojmë më tepër fjali!
 sc-howto-findpd-title = Gjetje togfjalëshash  ekzistues nën Përkatësi Publike
 sc-howto-findpd-subtitle = Kërkoni për ta në Internet
@@ -1227,6 +1256,8 @@ sc-confirm-uploading = Togfjalëshat po ngarkohen. Kjo mund të dojë disa minut
 
 ## LANGUAGE INFO
 
+sc-lang-info-title-total = Gjithsej
+sc-lang-info-title-personal = Personale
 # Variables:
 #   $totalSentences (Number) - Number of sentences uploaded in total for this language
 sc-lang-info-total =
@@ -1334,7 +1365,6 @@ sc-review-link = Shqyrtojeni
 
 sc-settings-title = Rregullime
 sc-settings-ui-language = Gjuhë Ndërfaqeje
-sc-settings-language-translated-warning = Faqet për këtë gjuhë mund të mos jenë përkthyer plotësisht. Mund të ndihmoni me përkthimin <pontoonLinkLink>në Pontoon</pontoonLinkLink>.
 sc-settings-reset-skipped = Riktheni si të pashqyrtuara togfjalëshat e anashkaluar
 sc-settings-skipped-decription = Teksa shqyrtonit, keni anashkaluar togfjalësha. Rikthimi si të pashqyrtuara i togfjalëshave të anashkaluar do t’i rishfaqë krejt togfjalëshat e anashkaluar. Kjo nuk varet nga gjuha.
 sc-settings-show-all-button = Rishfaq krejt togfjalëshat e anashkaluar
@@ -1347,3 +1377,14 @@ sc-validation-no-abbreviations = Togfjalëshi s’duhet të përmbajë shkurtime
 
 # [/SentenceCollector]
 
+localization-select =
+    .label = Zgjidhni gjuhë/përkthim
+# PARTNERSHIPS PAGE
+partnerships-header = Bashkëpunime
+partnerships-get-in-touch = Lidhuni
+partnerships-become-a-partner = Bëhuni një Partner i Common Voice-it
+partnerships-community-header = Bashkësi, Krijues dhe Shoqëri Civile
+partnerships-foundations-header = Fondacione
+partnerships-governments-header = Qeveri
+partnerships-academia-header = Universitete, Akaademikë dhe Kërkues
+partnerships-our-partners = Partnerët Tanë

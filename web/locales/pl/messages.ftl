@@ -40,10 +40,12 @@ ba = baszkirski
 bas = basaa
 be = białoruski
 bg = bułgarski
+bm = bambara
 bn = bengalski
 br = bretoński
 bs = bośniacki
 bxr = buriacki
+byv = medumba
 ca = kataloński
 cak = kakczikel
 ckb = sorani
@@ -53,6 +55,7 @@ cs = czeski
 cv = czuwaski
 cy = walijski
 da = duński
+dag = dagbani
 de = niemiecki
 dsb = dolnołużycki
 dv = divehi
@@ -206,6 +209,7 @@ zh-CN = chiński (Chiny)
 zh-HK = chiński (Hongkong)
 zh-TW = chiński (Tajwan)
 zu = zulu
+zza = zazaki
 
 # [/]
 
@@ -217,6 +221,7 @@ speak-now = Mów teraz
 datasets = Zbiory danych
 languages = Języki
 about = O nas
+partner = Współpraca
 profile = Profil
 help = Pomoc
 contact = Kontakt

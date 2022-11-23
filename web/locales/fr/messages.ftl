@@ -40,10 +40,12 @@ ba = Bashkir
 bas = Basaa
 be = Biélorusse
 bg = Bulgare
+bm = Bambara
 bn = Bengali
 br = Breton
 bs = Bosniaque
 bxr = Bouriate
+byv = Medumba
 ca = Catalan
 cak = Cakchiquel
 ckb = Kurde central
@@ -53,6 +55,7 @@ cs = Tchèque
 cv = Tchouvache
 cy = Gallois
 da = Danois
+dag = { "" }
 de = Allemand
 dsb = Bas-sorabe
 dv = Maldivien
@@ -206,6 +209,7 @@ zh-CN = Chinois (Chine)
 zh-HK = Chinois (Hong-Kong)
 zh-TW = Chinois (Taïwan)
 zu = Zoulou
+zza = { "" }
 
 # [/]
 
@@ -217,6 +221,7 @@ speak-now = Parler
 datasets = Jeux de données
 languages = Langues
 about = Qui sommes-nous
+partner = Devenir partenaire
 profile = Profil
 help = Aide
 contact = Nous contacter
@@ -1508,3 +1513,10 @@ sc-validation-no-abbreviations = La phrase ne doit pas contenir d’abréviation
 
 localization-select =
     .label = Choisissez la langue/la localisation
+# PARTNERSHIPS PAGE
+partnerships-header = Partenariats
+partnerships-become-a-partner = Devenir partenaire de Common Voice
+partnerships-foundations-header = Fondations
+partnerships-governments-header = Gouvernements
+partnerships-corporates-header = Grandes entreprises et plateformes
+partnerships-our-partners = Nos partenaires

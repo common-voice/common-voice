@@ -40,10 +40,12 @@ ba = Başkirî
 bas = Basaayî
 be = Belarusî
 bg = Bulgarî
+bm = Bambarayî
 bn = Bengalî
 br = Bretonî
 bs = Bosnayî
 bxr = Buryatî
+byv = Medumbayî
 ca = Katalanî
 cak = Kaqçîkelî
 ckb = Kurdî (Soranî)
@@ -53,12 +55,13 @@ cs = Çekî
 cv = Çuvaşî
 cy = Welşî
 da = Danîmarkî
+dag = Dagbanî
 de = Almanî
 dsb = Sorbiya jêrîn
 dv = Divehî
 dyu = Dioula
 el = Yûnanî
-en = Înglîzî
+en = Îngilîzî
 eo = Esperantoyî
 es = Îspanyolî
 et = Estonî
@@ -206,6 +209,7 @@ zh-CN = Çînî (Çîn)
 zh-HK = Çînî (Hong Kong)
 zh-TW = Çînî (Taywan)
 zu = Zulu
+zza = Kurdî (Zazakî)
 
 # [/]
 
@@ -217,6 +221,7 @@ speak-now = Aniha biaxive
 datasets = Komdane
 languages = Ziman
 about = Derbar
+partner = Hevkar
 profile = Profîl
 help = Alîkarî
 contact = Têkilî
@@ -365,7 +370,7 @@ status-hours =
 # Variables:
 # $goal - number of hours representing the next goal
 status-goal = Hedefa pêş: { $goal }
-english = Înglîzî
+english = Îngilîzî
 
 ## ProfileForm
 
@@ -527,7 +532,7 @@ about-voice-validation-title = Piştrastkirina Dengan
 about-voice-validation-subtitle = Mirovên din jî van dengan piştrast dikin.
 about-dataset-release-title = Weşana Komdaneyê
 about-dataset-release-subtitle = Em 3 mehan carekê komdaneyê diweşînin.
-about-subscribe-text = Tu dixwazî bi Common Voiceê r edi têkilîyê de bimînî?
+about-subscribe-text = Tu dixwazî bi Common Voiceê re di têkilîyê de bimînî?
 about-speak = Bipeyive
 about-speak-text = Beşdar hevokên ji danegeha hevokên hatine bexişandin dixwînin û dengê xwe tomar dikin.
 about-listen-queue = Rêza Guhdarîkirinê
@@ -575,6 +580,8 @@ about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollec
 
 about-playbook-how-localize = Wergerandina malperê çawa tê kirin?
 about-playbook-how-localize-content-1 = Wergera malpera Common Voiceê li ser <strong>Pontoon</strong>ê tê kirin.
+about-playbook-how-localize-content-4 = Dema ku wergerandina malperê bigihîje 75% ew ê malper ji bo zimanê te berdest bibe.
+about-playbook-how-localize-content-5 = Li vîdeoya me ya ravekar temaşe bike
 
 ## How to add sentences
 
@@ -582,11 +589,16 @@ about-playbook-how-add-sentences = Ez çawa dikarim hevokan tevlî bikim?
 
 ## How to record quality
 
+about-playbook-how-record-quality = Ez ê çawa dengekî bi kalîte tomar bikim?
+about-playbook-how-record-content-2 = Bila qelebalixiya paşxanê ne pir be, divê dengê te bi hêsanî were bihîstin.
+about-playbook-how-record-content-3 = Hevokê bi baldarî bixwîne; bêjeyan neguherîne, li bêjeyan zêde neke û wan kêm nexwîne.
 
 ## How to grow language
 
+about-playbook-how-grow-language = Em çawa dikarin li ser Common Voiceê zimanekî bi awayekî baş pêşve bixin?
 about-playbook-how-grow-language-content-2 = Çalakî
 about-playbook-how-grow-language-content-4 = Medyaya civakî
+about-playbook-how-grow-language-content-6 = Tor û Hevkar
 about-playbook-how-grow-language-content-8 = <strong>Afirîner be!</strong> Civaka zimanê te ew ê bêhempa be, û ev ji bo destpêkê tenê çendek rê ne.
 
 ## How to validate
