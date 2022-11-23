@@ -519,6 +519,9 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = ເປັນຫຍັງຕ້ອງມີ Common Voice?
+about-header-description-v2 =
+    <p>Common Voice ແມ່ນຊຸດຂໍ້ມູນສຽງທີ່ມີໃຫ້ສາທາລະນະ, ຂັບເຄື່ອນໂດຍສຽງຂອງຜູ້ປະກອບສ່ວນອາສາສະໝັກທົ່ວໂລກ. ຜູ້​ທີ່​ຕ້ອງ​ການ​ທີ່​ຈະ​ສ້າງ​ຄໍາ​ຮ້ອງ​ສະ​ຫມັກ​ສຽງ​ສາ​ມາດ​ນໍາ​ໃຊ້​ຊຸດ​ຂໍ້​ມູນ​ເພື່ອ​ຝຶກ​ອົບ​ຮົມ​ຮູບ​ແບບ​ການ​ຮຽນ​ຮູ້​ຂອງ​ເຄື່ອງ​ຈັກ​.</p>
+    <p>ໃນ​ປັດ​ຈຸ​ບັນ​, ຊຸດ​ຂໍ້​ມູນ​ສຽງ​ສ່ວນ​ໃຫຍ່​ແມ່ນ​ເປັນ​ຂອງ​ບໍ​ລິ​ສັດ​, ຊຶ່ງ​ເປັນ​ການ​ຂັດຂວາງ​ນະ​ວັດ​ຕະ​ກໍາ​. ຊຸດຂໍ້ມູນສຽງຍັງສະແດງບໍ່ເຖິງຄື: ຜູ້ເວົ້າທີ່ບໍ່ແມ່ນພາສາອັງກິດ, ຄົນທີ່ມີສີສັນ, ຄົນພິການ, ຜູ້ຍິງ ແລະຄົນ LGBTQIA+. ນີ້ ໝາຍ ຄວາມວ່າເທັກໂນໂລຍີທີ່ເປີດໃຊ້ດ້ວຍສຽງບໍ່ໄດ້ເຮັດວຽກຢູ່ໃນຫຼາຍພາສາ, ແລະບ່ອນທີ່ມັນເຮັດວຽກ, ມັນອາດຈະບໍ່ເຮັດໄດ້ດີເທົ່າທຽມກັນສໍາລັບທຸກຄົນ. ພວກ​ເຮົາ​ຕ້ອງ​ການ​ທີ່​ຈະ​ປ່ຽນ​ແປງ​ນັ້ນ​ໂດຍ​ການ​ລະດົມ​ຄົນ​ທຸກ​ແຫ່ງ​ຫົນ​ເພື່ອ​ແບ່ງ​ປັນ​ສຽງ​ຂອງ​ເຂົາ​ເຈົ້າ​.</p>
 how-does-it-work-title-v2 = Common Voice ເຮັດວຽກແນວໃດ?
 how-does-it-work-text = ພວກ​ເຮົາ​ກໍາ​ລັງເກັບກຳ crowdsourcing ຊຸດ​ຂໍ້​ມູນ open-source ຂອງ​ສຽງ​. ບໍລິຈາກສຽງຂອງທ່ານ, ກວດສອບຄວາມຖືກຕ້ອງຂອງຄລິບຂອງຄົນອື່ນ, ເຮັດໃຫ້ຊຸດຂໍ້ມູນດີຂຶ້ນສໍາລັບທຸກຄົນ.
 
@@ -566,6 +569,7 @@ about-get-involved-text-2 =
 about-stay-in-touch = ຂ້ອຍຈະຕິດຕໍ່ກັນແນວໃດ?
 about-stay-in-touch-button = ລົງ​ທະ​ບຽນ
 about-stay-in-touch-text-1 = <emailFragment>ລົງທະບຽນ</emailFragment> ໄປຫາບັນຊີລາຍຊື່ທາງໄປສະນີຂອງພວກເຮົາເພື່ອຮຽນຮູ້ວິທີທີ່ທ່ານສາມາດມີສ່ວນຮ່ວມໃນແຄມເປນ, ເຫດການແລະຄຸນນະສົມບັດການອອກແບບຮ່ວມກັນໃນ Common Voice.
+about-stay-in-touch-text-2 = ທ່ານສາມາດພົບກັບຄົນອື່ນໃນຊຸມຊົນພາສາ Mozilla ໂດຍການເຂົ້າຮ່ວມ <discourseLink>Discourse</discourseLink> ສໍາລັບການສົນທະນາຫົວຂໍ້, ຫຼື <matrixLink>Matrix</matrixLink> ສໍາລັບຄໍາແນະນໍາດ່ວນ.
 about-nav-why-common-voice = ເປັນຫຍັງ?
 about-nav-how-it-works = ແນວໃດ?
 about-nav-partners = ຄູ່ຮ່ວມງານ
@@ -584,6 +588,10 @@ about-playbook-what-is-language-content-3 = ບາງພາສາມີຄວາ
 ## How do I add a language
 
 about-playbook-how-add-language = ຂ້ອຍຈະເພີ່ມພາສາໄດ້ແນວໃດ?
+about-playbook-how-add-language-content-1 =
+    ກ່ອນອື່ນ, ໃຫ້ກວດເບິ່ງວ່າພາສາຂອງເຈົ້າ <languageLink>ມີຢູ່ແລ້ວບໍ</languageLink>.
+    ຖ້າບໍ່ແມ່ນ, ທ່ານສາມາດ <languageRequestLink>ຖາມກ່ຽວກັບການເພີ່ມພາສາຂອງທ່ານ</languageRequestLink>.
+    ມີສອງຂັ້ນຕອນ. ການແປເວັບໄຊທ໌, ແລະລວບລວມປະໂຫຍກ
 about-playbook-how-add-language-translating-heading = ການແປເວັບໄຊ
 about-playbook-how-add-language-translating-content-1 = <translateVideoLink>ເບິ່ງຄູ່ມືຂອງພວກເຮົາກ່ຽວກັບວິທີການໃຊ້ Pontoon.</translateVideoLink>
 about-playbook-how-add-language-collecting-sentences-heading = ການ​ເກັບ​ກໍາ​ປະ​ໂຫຍກ​
@@ -711,8 +719,10 @@ audio-format = ຮູບແບບສຽງ
 number-of-voices = ຈໍານວນສຽງ
 splits = ແຍກ
 email-to-download = ໃສ່ອີເມວເພື່ອດາວໂຫລດ
+confirm-size = ທ່ານກຽມພ້ອມທີ່ຈະເລີ່ມການດາວໂຫຼດ <b>{ $size }</b>
 size-gigabyte = GB
 size-megabyte = MB
+confirm-no-identify = <b>ທ່ານເຫັນດີ</b> ທີ່ຈະບໍ່ພະຍາຍາມກໍານົດຕົວຕົນຂອງລໍາໂພງໃນຊຸດຂໍ້ມູນ Common Voice
 download-language = ດາວໂຫຼດ { $language }
 validated-hours = ຊົ່ວໂມງທີ່ຖືກຕ້ອງ
 recorded-hours = ຊົ່ວໂມງບັນທຶກ
