@@ -822,6 +822,7 @@ record-error-too-quiet = ການບັນທຶກແມ່ນງຽບເກ�
 record-cancel = ຍົກເລີກການບັນທຶກຄືນໃໝ່
 record-stop-instruction = { $actionType }<stopIcon></stopIcon> ເມື່ອສຳເລັດແລ້ວ
 record-three-more-instruction = ເຫຼືອອີກ 3!
+record-last-instruction = <recordIcon></recordIcon> ອັນສຸດທ້າຍ!
 review-tooltip = ກວດເບິ່ງ ແລະບັນທຶກຄລິບຄືນໃໝ່ຢູ່ບ່ອນນີ້ເມື່ອທ່ານໄປ
 share-clip = ແບ່ງປັນຄລິບຂອງເຈົ້າ
 share-common-voice = ແບ່ງປັນ Common Voice
@@ -912,7 +913,9 @@ goal-interval-weekly = ປະ​ຈຳ​ອາ​ທິດ
 share-n-daily-contribution-goal = ແບ່ງປັນ { $count } Clip Daily Goal ຂອງທ່ານສຳລັບ { $type }
 share-goal-type-speak = ກຳລັງເວົ້າ
 share-goal-type-listen = ກຳ​ລັງ​ຟັງ
+share-goal-type-both = ການເວົ້າແລະການຟັງ
 weekly-goal-created = ເປົ້າໝາຍປະຈຳອາທິດຂອງເຈົ້າໄດ້ຖືກສ້າງແລ້ວ
+share-goal = ແບ່ງປັນເປົ້າຫມາຍຂອງຂ້ອຍ
 
 ## Profile Delete
 
@@ -998,7 +1001,9 @@ sc-header-my = ປະໂຫຍກຂອງຂ້ອຍ
 sc-header-statistics = ສະຖິຕິ
 sc-header-profile = ໂປ​ຣ​ໄຟ​ລ໌
 sc-footer-discourse = Discourse
+sc-footer-report-bugs = ລາຍງານບັກ
 sc-footer-translate = ແປຫນ້ານີ້
+sc-footer-report-copyright = ລາຍງານບັນຫາລິຂະສິດ
 sc-footer-privacy = ຄວາມເປັນສ່ວນຕົວ
 sc-footer-terms = ຂໍ້ກຳນົດ
 sc-footer-cookies = ຄຸກກີ້
@@ -1015,6 +1020,7 @@ sc-home-review-title = ທົບທວນປະໂຫຍກ
 
 ## HOW-TO
 
+sc-howto-title = ວິທີ
 sc-howto-addsen-title = ເພີ່ມປະໂຫຍກໃຫມ່
 sc-howto-cite-title = ວິທີການອ້າງອີງ
 sc-howto-review-title = ທົບທວນປະໂຫຍກ
@@ -1042,11 +1048,14 @@ sc-stats-updating = ກຳລັງອັບເດດ…
 
 ## ADD
 
+sc-submit-err-select-lang = ກະລຸນາເລືອກພາສາ.
 sc-submit-err-add-sentences = ກະລຸນາເພີ່ມປະໂຫຍກ.
 sc-submit-err-add-source = ກະລຸນາເພີ່ມແຫຼ່ງທີ່ມາ.
 sc-submit-title = ເພີ່ມປະໂຫຍກ
 sc-submit-select-language =
     .labelText = ເລືອກພາສາ
+sc-submit-ph-one-per-line =
+    .placeholder = ໜຶ່ງປະໂຫຍກຕໍ່ແຖວ
 sc-submit-button =
     .submitText = ສົ່ງ
 
@@ -1057,6 +1066,7 @@ sc-add-err-submission = ການຍື່ນສະເຫນີຜິດພາ�
 
 ## ADD SENTENCES CONFIRMATION
 
+sc-confirm-sentences-title = ຢືນຢັນປະໂຫຍກໃໝ່
 sc-confirm-button-text = ຢືນຢັນ​
 
 ## LANGUAGE INFO
@@ -1081,6 +1091,8 @@ sc-personal-remove-button = ລຶບ
 
 ## REVIEW
 
+sc-review-title = ທົບທວນປະໂຫຍກ
+sc-review-loading = ກຳລັງໂຫລດປະໂຫຍກ...
 # Variables:
 #   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
 sc-review-form-source = ທີ່ມາ: { $sentenceSource }
