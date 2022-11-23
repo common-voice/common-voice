@@ -724,6 +724,7 @@ datasets-positioning =
     Eikemi ko toguépe eikuaasevérõ ambue kuaapy’aty ãichagua oĩva opavavépe g̃uarã ha avei okakuaa ohóvo Common Voice, reikuaáta ápe mba’epyahu.
 language = Ñe’ẽ
 download-dataset-header = Emboguejy mba’ekuaarã aty
+download-delta-explainer = Romoambuékuri heta mba’e. Pe delta vore oguereko mba’epyahu roguenohẽramóvape. <deltaLink>Emoñe’ẽve ko tembiapo rehegua</deltaLink>.
 download-dataset-tag = Eiporavo ñe’ẽ mba’ekuaarã aty eipotáva ha mba’eichaguáva emboguejy hag̃ua.
 download-dataset-access = ¿Eheka itujavéva mba’ekuaarã aty? Ñanduti veve <emailLink> { $email } </emailLink>
 # File size in gigabytes
