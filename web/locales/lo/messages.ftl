@@ -1107,4 +1107,6 @@ sc-settings-title = ການຕັ້ງຄ່າ
 
 # [/SentenceCollector]
 
+localization-select =
+    .label = ເລືອກພາສາ/ທ້ອງຖິ່ນ
 partnerships-governments-header = ລັດຖະບານ
