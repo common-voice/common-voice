@@ -497,7 +497,25 @@ const UserClient = {
     );
     return reduceLanguages(user);
   },
-
+  async saveAnonymousAccount({
+    client_id,
+    languages,
+    ...data
+  }: UserClientType) {
+    const [userAccount] = await db.query(
+      'SELECT client_id as clientId FROM user_clients WHERE email IS NULL AND !has_login'
+    );
+    const { clientId } = userAccount;
+    if (clientId && languages) {
+      await Promise.all([
+        updateLanguages(client_id, languages),
+        updateVariants(client_id, languages),
+      ]);
+    }
+    return {
+      clientId,
+    };
+  },
   async saveAccount(
     email: string,
     { client_id, languages, ...data }: UserClientType
