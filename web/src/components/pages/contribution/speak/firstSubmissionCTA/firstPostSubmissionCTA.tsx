@@ -51,6 +51,9 @@ export const FirstPostSubmissionCta: React.FC<FirstPostSubmissionCtaProps> = ({
   const [accentsAll, setAccentsAll] = React.useState<AccentsAll>({});
   const [variantsAll, setVariantsAll] = React.useState<VariantsAll>({});
 
+  const isAddInformationButtonDisabled =
+    userLanguages[0].accents.length === 0 && !userLanguages[0].variant;
+
   const api = useAPI();
 
   React.useEffect(() => {
@@ -72,7 +75,7 @@ export const FirstPostSubmissionCta: React.FC<FirstPostSubmissionCtaProps> = ({
     try {
       await saveAccount(data);
       addNotification(successUploadMessage, 'success');
-    } catch (error) {
+    } catch {
       addNotification(errorUploadMessage, 'error');
     }
 
@@ -146,7 +149,8 @@ export const FirstPostSubmissionCta: React.FC<FirstPostSubmissionCtaProps> = ({
             rounded
             className="add-information-button"
             onClick={handleAddInformationClick}
-            data-testid="add-information-button">
+            data-testid="add-information-button"
+            disabled={isAddInformationButtonDisabled}>
             Add information
           </Button>
         </Localized>
