@@ -73,7 +73,7 @@ export default class API {
     router.post('/user_clients/:client_id/claim', this.claimUserClient);
     router.get('/user_client', this.getAccount);
     router.patch('/user_client', this.saveAccount);
-    router.patch('/anonymous_user', this.saveAnonymousAccount);
+    router.patch('/anonymous_user', this.saveAnonymousAccountLanguages);
     router.post(
       '/user_client/avatar/:type',
       bodyParser.raw({ type: 'image/*', limit: '300kb' }),
@@ -240,10 +240,31 @@ export default class API {
     ];
     response.json(userClients);
   };
-  saveAnonymousAccount = async (request: Request, response: Response) => {
-    const { body } = request;
-    response.json(await UserClient.saveAnonymousAccount(body));
+
+  /**
+   * Allow for anonymous accounts to save metadata related to contributions.
+   * Supports accent and variant data.
+   *
+   * @param {Request} request
+   * @param {Response} response
+   * @memberof API
+   */
+  saveAnonymousAccountLanguages = async (
+    request: Request,
+    response: Response
+  ) => {
+    const {
+      client_id,
+      body: { languages },
+    } = request;
+    if (!client_id) {
+      throw new ClientParameterError();
+    }
+    response.json(
+      await UserClient.saveAnonymousAccountLanguages(client_id, languages)
+    );
   };
+
   saveAccount = async (request: Request, response: Response) => {
     const { body, user } = request;
     if (!user) {
