@@ -392,7 +392,7 @@ download-profile = Baisha es mies donades
 contribution-experience = Experiéncia dera collaboracion
 skip-submission-feedback = Omet er enviament de comentaris
 skip-submission-description = Er enviament de comentaris se desactivarà en hèr clic sus «Envia». Era collaboracion passarà dirèctaments ath següent grop de 5 enregistraments o validacions.
-skip-submission-note = Nòta : vos cal encara causir entre Parlar o Escotar per modificar vòstre tipe de contribucion.
+skip-submission-note = Nòta: Tot parièr, auratz de seleccionar entre Parla o Escota entà cambiar eth tipe de collaboracion.
 off = Desactivat
 on = Activat
 
