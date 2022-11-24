@@ -9,6 +9,7 @@ import {
   TeamChallenge,
   Sentence,
   Clip,
+  UserLanguage,
 } from 'common';
 import { Locale } from '../stores/locale';
 import { User } from '../stores/user';
@@ -250,6 +251,15 @@ export default class API {
 
   saveAccount(data: UserClient): Promise<UserClient> {
     return this.fetch(API_PATH + '/user_client', {
+      method: 'PATCH',
+      body: data,
+    });
+  }
+
+  saveAnonymousAccountLanguages(data: {
+    languages: UserLanguage[];
+  }): Promise<void> {
+    return this.fetch(`${API_PATH}/anonymous_user`, {
       method: 'PATCH',
       body: data,
     });
