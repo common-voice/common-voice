@@ -222,30 +222,25 @@ default-tagline = Mozilla Common Voice ei ua iniciativa entà ajudar a ensenhar 
 home-cta = Parlatz fòrt e collaboratz-i!
 wall-of-text-start = Era votz ei naturau, era votz ei umana. Ei per açò que volem crear tecnologies de votz de qualitat entàs maquines. Mès eth desvolopament d'aguesti sistèmes requerís un gran volum de donades de votz.
 wall-of-text-more-mobile = Era majoria des donades usades per granes companhies non son disponibles entà toti. Consideram qu'açò frene era innovacion. Per aquerò, auem iniciat eth projècte Common Voice, entà hèr qu'era tecnologia de reconeishença dera votz sigue dubèrta a toti e totes.
-wall-of-text-more-desktop =
-    Ara podètz donar vòstra votz per nos ajudar a construire una basa de donas que tot lo monde pòt utilizar
-    per crear d’aplicacions innovantas pels periferics e lo web. Legissètz de frasas per ajudar las maquinas a aprendre cossí lo vertadièr monde parlan. Agachatz lo trabalh dels autres
-    contributors per melhorar la qualitat. Es pas mai complicat !
-wall-of-text-first =
-    La votz es naturala, la votz es umana. Es per aquò que volèm crear tecnologias vocalas de qualitat
-    per nòstras maquinas. Mas realizar de tales sistèma demanda un volum de donadas vocalas gigantèsc.
-wall-of-text-second = La màger part de las donadas utilizadas per de grandas entrepresas son pas disponiblas de tot lo monde. Pensam que frena l’innovacion. Per aquò, avèm lançat lo projècte Common Voice, un projècte per que la tecnologia de reconeissença de la votz siá dubèrta a totes.
-show-wall-of-text = Legir la seguida
-help-us-title = Ajudatz-nos a validar las frasas !
-help-us-explain = Quichatz lectura, escotatz e digatz-nos : la frasa çai-jos es estada corrèctament prononciada ?
-no-clips-to-validate = Sembla que i a pas cap de mòstra de votz a escotar per aquesta lenga. Ajudatz-nos a ne crear unas !
+wall-of-text-more-desktop = Ara podetz dar era vòsta votz entà ajudar-mos a bastir ua basa de donades de votz damb licéncia dubèrta que quinsevolhe pòt usar entà desvolopar aplicacions innovadores entàs aparelhs e eth web. Liegetz ua frasa entà ajudar as maquines a apréner com parlam es persones de vertat. Revisatz eth trabalh de d’auti collaboradors entà milhorar era qualitat. Atau de simple!
+wall-of-text-first = Era votz ei naturau, era votz ei umana. Ei per aquerò que volem crear tecnologies de votz de qualitat entàs maquines. Mès entà crear aguesti sistèmes de votz, es desvolopadors an de besonh un gran volum de donades de votz.
+wall-of-text-second = Era majoria des donades usades per granes companhies non son disponibles entà toti. Consideram qu'açò frene era innovacion. Per açò, auem iniciat eth projècte Common Voice, entà per'mor de hèr qu'era reconeishença dera votz sigue dubèrta e accessible a toti e totes.
+show-wall-of-text = Mès informacion
+help-us-title = Ajudatz-mos a validar frases!
+help-us-explain = Premetz eth boton de reproduccion, escotatz e didetz-mos s'er àudio correspon exactaments ara frasa de jos:
+no-clips-to-validate = Semble que non i a cap de talh de votz entà revisar en aguesta lengua. Ajudatz-mos a ramplir era coa en tot enregistrar-ne bèri uns ara.
 vote-yes = Òc
 vote-no = Non
-toggle-play-tooltip = Quichatz { shortcut-play-toggle } per aviar o arrestar la lectura
-speak-subtitle = Donatz vòstra votz
-speak-paragraph = L’enregistrament de mòstras de votz fa part de nòstre jòc de donadas dubèrtas ; per unes es divertissent.
-speak-goal-text = Mòstras enregistradas
-listen-subtitle = Nos ajudar a validar las voses
-listen-paragraph = La validacion de las mòstras vocalas es important per la mission de Common Voice. Escotatz de mòstras e ajudatz-nos a crear una font de donadas de votz liura.
-listen-goal-text = Mòstras validadas
-hours-recorded = Oras enregistradas
-hours-validated = Oras validadas
-voices-online = Mòstras de voses ara en linha
+toggle-play-tooltip = Premetz { shortcut-play-toggle } entà iniciar e arturar era reproduccion
+speak-subtitle = Datz era votz
+speak-paragraph = Er enregistrament de talhs de votz ei ua part essenciau entà crear eth nòste conjunt de donades dubèrtes. Tanben ei era part mès divertida.
+speak-goal-text = Talhs enregistradi
+listen-subtitle = Ajudatz-mos a validar votzes
+listen-paragraph = Era validacion des talhs de votz tanben ei importanta entara mission de Common Voice. Escotatz es talhs e ajudatz-mos a crear donades de votz de qualitat damb licéncia liura.
+listen-goal-text = Talhs validadi
+hours-recorded = Ores enregistrades
+hours-validated = Ores validades
+voices-online = Votzes en linha ara
 todays-progress = Progression del jorn
 help-reach-goal = Ajudatz-nos a arribar a { $goal }
 read-terms-q = Avètz legit las condicions d’utilizacion ?
