@@ -39,7 +39,9 @@ export const FirstPostSubmissionCta: React.FC<FirstPostSubmissionCtaProps> = ({
   successUploadMessage,
   errorUploadMessage,
 }) => {
-  const saveAccount = useAction(User.actions.saveAccount);
+  const saveAnonymousAccount = useAction(
+    User.actions.saveAnonymousAccountLanguages
+  );
   const [areLanguagesLoading, setAreLanguagesLoading] = React.useState(true);
 
   const [userLanguages, setUserLanguages] = useLocalStorageState<
@@ -71,7 +73,7 @@ export const FirstPostSubmissionCta: React.FC<FirstPostSubmissionCtaProps> = ({
     };
 
     try {
-      await saveAccount(data);
+      await saveAnonymousAccount(data);
       addNotification(successUploadMessage, 'success');
     } catch {
       addNotification(errorUploadMessage, 'error');
