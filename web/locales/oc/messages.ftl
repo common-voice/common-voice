@@ -174,51 +174,54 @@ tok = toki pona
 tr = turc
 tt = tatar
 tw = twi
-uby = Ubykh
-udm = Udmurt
-uk = Ucraïnian
-ur = Ordo
-uz = Uzbec
-vec = Venèt
-vi = Vietnamian
-vot = Vòt
-yue = Cantonés
-zh-CN = Mandarin (China)
-zh-HK = Mandarin (Hong Kong)
-zh-TW = Mandarin (Taiwan)
+ty = tahitian
+uby = ubikh
+udm = udmurt
+ug = uigur
+uk = ucraïnian
+ur = ordo
+uz = uzbec
+vec = venèt
+vi = vietnamian
+vot = vòt
+yi = ídish
+yo = ioruba
+yue = cantonés
+zh-CN = mandarin (China)
+zh-HK = mandarin (Hong Kong)
+zh-TW = mandarin (Taiwan)
 
 # [/]
 
 
 ## Layout
 
-speak = Parlar
+speak = Parlatz
 speak-now = Parlatz ara
-datasets = Jòc de donadas
-languages = Lengas
-about = A prepaus
+datasets = Conjunts de donades
+languages = Lengües
+about = Qui èm
 profile = Perfil
-help = Ajuda
-contact = Contacte
-privacy = Vida privada
-terms = Condicions
+help = Ajudatz
+contact = Contactatz
+privacy = Privadança
+terms = Condicions d'usatge
 cookies = Cookies
-faq = FAQ
-content-license-text = Contengut disponible jos <licenseLink>licéncia Creative Common</licenseLink>
-share-title = Ajudatz-nos a trobar mai de personas per donar la votz !
-share-text = Ajudatz las maquinas a aprendre a parlar coma de vertadièras personas en donar vòstra votz sus { $link }
+faq = QF
+content-license-text = Contengut disponible jos <licenseLink>licéncia Creative Commons</licenseLink>
+share-title = Ajudatz-mos a trobar mès persones entà dar era votz !
+share-text = Ajudatz as maquines a apréner a parlar coma persones de vertat en tot dar era vòsta votz sus { $link }
 link-copied = Ligam copiat
-back-top = Naut de la pagina
+back-top = Naut dera pagina
 logout = Desconnexion
 
 ## Home Page
 
-home-title = Lo projècte Common Voice es l'iniciativa de Mozilla per ajudar las maquinas a aprendre coma parlam las personas de vertat.
-home-cta = Parlatz fòrt, contribuissètz aquí !
-wall-of-text-start =
-    La votz es naturala, la votz es umana. Es per aquò que volèm crear tecnologias vocalas de qualitat
-    per nòstras maquinas. Mas realizar de tales sistèmas demanda un volum de donadas vocalas gigantèsc.
-wall-of-text-more-mobile = La màger part de las donadas utilizadas per de grandas entrepresas son pas disponiblas de tot lo monde. Pensam que frena l’innovacion. Per aquò, avèm lançat lo projècte Common Voice, un projècte per que la tecnologia de reconeissença de la votz siá dubèrta a totes.
+home-title = Eth projècte Common Voice ei iniciativa de Mozilla entà ajudar as maquines a apréner com parlam es persones de vertat.
+default-tagline = Mozilla Common Voice ei ua iniciativa entà ajudar a ensenhar as maquines com parlen es persones de vertat.
+home-cta = Parlatz fòrt e collaboratz-i!
+wall-of-text-start = Era votz ei naturau, era votz ei umana. Ei per açò que volem crear tecnologies de votz de qualitat entàs maquines. Mès eth desvolopament d'aguesti sistèmes requerís un gran volum de donades de votz.
+wall-of-text-more-mobile = Era majoria des donades usades per granes companhies non son disponibles entà toti. Consideram qu'açò frene era innovacion. Per aquerò, auem iniciat eth projècte Common Voice, entà hèr qu'era tecnologia de reconeishença dera votz sigue dubèrta a toti e totes.
 wall-of-text-more-desktop =
     Ara podètz donar vòstra votz per nos ajudar a construire una basa de donas que tot lo monde pòt utilizar
     per crear d’aplicacions innovantas pels periferics e lo web. Legissètz de frasas per ajudar las maquinas a aprendre cossí lo vertadièr monde parlan. Agachatz lo trabalh dels autres
