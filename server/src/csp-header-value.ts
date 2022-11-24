@@ -29,6 +29,7 @@ const SOURCES = {
     'https://www.google-analytics.com',
     'https://pontoon.mozilla.org',
     'https://*.sentry.io',
+    "'nonce-EDNnf03nceIOfn39fn3e9h3sdfa'",
   ],
   'font-src': ["'self'", 'https://fonts.gstatic.com'],
   'connect-src': [
