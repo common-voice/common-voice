@@ -195,7 +195,8 @@ class ContributionPage extends React.Component<ContributionPageProps, State> {
       event.altKey ||
       event.shiftKey ||
       event.metaKey ||
-      this.state.showReportModal
+      this.state.showReportModal ||
+      this.props.shouldShowFirstCTA
     ) {
       return;
     }
