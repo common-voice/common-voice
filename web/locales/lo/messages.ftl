@@ -957,10 +957,12 @@ report-different-language-detail = ມັນຂຽນເປັນພາສາທ
 report-difficult-pronounce = ຍາກທີ່ຈະອອກສຽງ
 report-difficult-pronounce-detail = ມັນປະກອບດ້ວຍຄໍາສັບຕ່າງໆຫຼືປະໂຫຍກທີ່ຍາກທີ່ຈະອ່ານຫຼືອອກສຽງ.
 report-offensive-speech = ຄຳເວົ້າທີ່ບໍ່ເໝາະສົມ
+report-offensive-speech-detail = ຄລິບດັ່ງກ່າວມີພາສາທີ່ບໍ່ເຄົາລົບ ຫຼືລັງກຽດ.
 report-other-comment =
     .placeholder = ຄວາມຄິດເຫັນ
 success = ສຳເລັດ
 continue = ສືບຕໍ່
+report-success = ລາຍງານໄດ້ຜ່ານສຳເລັດແລ້ວ
 
 ## Goals
 
@@ -985,13 +987,19 @@ toward-next-goal = ໄປສູ່ເປົ້າໝາຍຕໍ່ໄປ
 goal-reached = ບັນລຸເປົ້າໝາຍ
 clips-you-recorded = ຄລິບທີ່ທ່ານໄດ້ບັນທຶກໄວ້
 clips-you-validated = ຄລິບທີ່ທ່ານກວດສອບແລ້ວ
+todays-recorded-progress = ຄວາມຄືບໜ້າຈຳນວນຄິບທີອັດໃນ Common Voice ຂອງມື້ນີ້
+todays-validated-progress = ຄວາມຄືບໜ້າຈຳນວນຄິບທີກວດສອບໃນ Common Voice ຂອງມື້ນີ້
 stats = ສະຖິຕິ
 awards = ຮາງວັນ
 you = ທ່ານ
 everyone = ທຸກ​ຄົນ
+contribution-activity = ກິດຈະກໍາການປະກອບສ່ວນ
+top-contributors = ຜູ້ປະກອບສ່ວນອັນດັບຕົ້ນ
 recorded-clips = ຄລິບທີ່ບັນທຶກໄວ້
+validated-clips = ຄລິບທີ່ກວດສອບແລ້ວ
 total-approved = ອະນຸມັດທັງໝົດ
 overall-accuracy = ຄວາມຖືກຕ້ອງໂດຍລວມ
+set-visibility = ຕັ້ງຄ່າການເບິ່ງເຫັນຂອງຂ້ອຍ
 show-ranking = ສະແດງການຈັດອັນດັບຂອງຂ້ອຍ
 
 ## Custom Goals
