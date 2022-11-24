@@ -241,12 +241,12 @@ listen-goal-text = Talhs validadi
 hours-recorded = Ores enregistrades
 hours-validated = Ores validades
 voices-online = Votzes en linha ara
-todays-progress = Progression del jorn
-help-reach-goal = Ajudatz-nos a arribar a { $goal }
-read-terms-q = Avètz legit las condicions d’utilizacion ?
-ready-to-record = Prèst a donar vòstra votz ?
-all-locales = Totas
-today = Uèi
+todays-progress = Progrès d'aué
+help-reach-goal = Ajudatz-mos a arribar en { $goal }
+read-terms-q = Auetz liejut es condicions d'usatge?
+ready-to-record = Ètz prèst entà dar era votz?
+all-locales = Totes
+today = Aué
 x-weeks-short =
     { $count ->
         [one] Setmana
@@ -255,17 +255,17 @@ x-weeks-short =
 x-months-short =
     { $count ->
         [one] 1 mes
-       *[other] { $count } meses
+       *[other] { $count } mesi
     }
 x-years-short =
     { $count ->
         [one] 1 an
        *[other] { $count } ans
     }
-help-make-dataset = Ajudatz-nos a crear una basa de donadas liura e publica de nauta qualitat
-sign-up-account = Crear un compte
-email-subscription-title = marcatz-vos per recebre las novetats per corrièl
-email-subscription-title-new = Inscrivètz-vos a l‘infoletra per aver de recòrds d’objectius e de bilances de progrèsses
+help-make-dataset = Ajudatz-mos a crear un conjunt de donades de nauta qualitat dubèrt e disponible publicaments
+sign-up-account = Crea un compde
+email-subscription-title = registratz-vos entà recéber actualizacions per corrèu
+email-subscription-title-new = Creatz un compde entà recéber es notícies de Common Voice, rebrembes des objectius e actualizacions de progrès
 
 ## Account Benefits
 
