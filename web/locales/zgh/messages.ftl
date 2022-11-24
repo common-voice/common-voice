@@ -1,5 +1,6 @@
 ## General
 
+yes-receive-emails = ⵢⵢⵉⵀ, ⴰⵣⵏⴰⵜ-ⵉⴷ ⵜⵉⴱⵔⴰⵜⵉⵜ. ⵔⵉⵖ ⴰⴷ ⵖⵓⵔⵉ ⵉⵍⵉⵏ ⵉⵏⵖⵎⵉⵙⵏ ⵏ ⴽⴰⵎⵏ ⵠⵓⵢⵙ.
 email-input =
     .label = ⵉⵎⴰⵢⵍ
 
