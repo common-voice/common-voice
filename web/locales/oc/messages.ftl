@@ -269,36 +269,37 @@ email-subscription-title-new = Creatz un compde entà recéber es notícies de C
 
 ## Account Benefits
 
-benefits = Avantatges
-rich-data = Enriquissètz las donadas qu’enviatz tan que podètz en provesir de donadas anonimas demograficas. Las fasèm venir anonimas totas las donadas demograficas abans de las rendre publicas.
-improve-audio = Las informacions del perfil permeton de melhorar la qualitat de las donadas àudio e la precision de la reconeissença vocala.
-keep-track = Gardatz traça de vòstres progrèsses per las lengas que participatz.
-compare-progress = Comparatz vòstres progrèsses amb los dels contributors del monde entièr.
-view-goals = Comparatz vòstres progrèsses par rapòrt a vòstres objectius personals e als del projècte.
-join-newsletter = Inscrivètz-vos a nòstra lista de difusion per recebre actualizacions e informacions novèlas sul projècte.
+benefits = Beneficis
+rich-data = Enriquitz es donades qu’enviatz en tot ahiger-i informacion demografica anonima. Aguesta informacion s’anonimize abans de publicar-se.
+improve-audio = Era informacion deth perfil melhore es donades d’àudio utilizades entà entrenar era precision dera reconeishença de votz.
+keep-track = Hetz eth seguiment deth vòste progrès e des metriques des lengües a on collaboratz.
+compare-progress = Comparatz eth vòste progrès damb eth des auti collaboradors de tot eth mon.
+view-goals = Vedetz eth vòste progrès entàs objectius personaus e deth projècte.
+join-newsletter = Opcionaument, junhetz-vos ara nòsta lista de corrèu entà recéber actualizacions e nauetats sus eth projècte.
 
 ## What's public
 
-whats-public = Quina informacion es publica ?
-email-not-public = Farem pas venir vòstra adreça electronica publica.
-recordings-and-locale-public = Lo nombre d’enregistraments e las lengas dins las qualas contribuïssètz seràn publics.
-username-optin-public = Podètz cuasir se volètz que vòstre nom d’utilizaire siá public o anonim.
-username-email-not-demographic = Vòstre nom d’utilizaire e adreça seràn pas associats a las donadas publicadas.
+whats-public = Qué ei public?
+email-not-public = Non haram publica era vòsta adreça electronica.
+recordings-and-locale-public = Eth nombre d’enregistraments e es lengües a on auetz collaborat seràn publics.
+username-optin-public = Podetz escuélher se voletz qu'eth vòste nòm d'usatgèr sigue public o anonim.
+demographic-deidentified-clarity-2 = Es donades demografiques enviades opcionaument (per exemple, edat, genre, lengua e accent) non se haràn jamès publiques en vòste perfil e non s’enlaçaràn damb eth vòste compde en conjunt de donades. De forma individuau, es talhs de votz s’associaràn as donades demografiques damb era finalitat d’analisis mès precises. Per exemple, un recercaire pòt voler orientar un modèl d’entrenament a un segment demografic especific.
+username-email-not-demographic = Eth vòste nòm d'usatgèr e adreça electronica non seràn associadi damb es donades publicades.
 
 ## Speak & Listen Shortcuts
 
 # Must be one letter that appears in the translated { skip } string.
-shortcut-skip = s
+shortcut-skip = o
 
 ## Listen Shortcuts
 
 # Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-play-toggle = r
-shortcut-play-toggle-label = Lectura/Arrèst
+shortcut-play-toggle-label = Reprodusís/artura
 # Must be one letter that appears in the { vote-yes } string.
 # Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
-shortcut-vote-yes = o
+shortcut-vote-yes = s
 # Must be one letter that appears in the { vote-no } string.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
 shortcut-vote-no = n
@@ -307,68 +308,80 @@ shortcut-vote-no = n
 
 # Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
-shortcut-record-toggle = a
-shortcut-record-toggle-label = Enregistrar/Arrestar
+shortcut-record-toggle = e
+shortcut-record-toggle-label = Enregistra/artura
 shortcut-rerecord-toggle = [1-5]
-shortcut-rerecord-toggle-label = Tornar enregistrar la mòstra
-request-language-text = Trobatz pas encara vòstra lenga sus Common Voice ?
-request-language-button = Demandar una lenga
+shortcut-rerecord-toggle-label = Torna a enregistrar eth talh
+shortcut-discard-ongoing-recording = ESC
+shortcut-discard-ongoing-recording-label = Descarta er enregistrament en cors
+shortcut-submit = Retorn
+shortcut-submit-label = Envia es talhs
+request-language-text = Non trobatz era vòsta lengua en Common Voice?
+request-language-button = Sollicita ua lengua
 
 ## ProjectStatus
 
-status-title = Estat general del projècte : vejatz ont sèm arribat !
-status-contribute = Donatz vòstra votz
+status-title = Estat generau deth projècte: vedetz enquia on auem arribat!
+status-contribute = Collaboratz-i damb era vòsta votz
 status-hours =
     { $hours ->
-        [one] Una ora validada ja !
-       *[other] { $hours } oras validadas ja !
+        [one] Ja s’a validat { $hours } ora!
+       *[other] Ja s’an validat { $hours } ores!
     }
 # Variables:
 # $goal - number of hours representing the next goal
-status-goal = Objectiu seguent : { $goal }
-english = Anglés
+status-goal = Següent objectiu: { $goal }
+english = anglés
 
 ## ProfileForm
 
 profile-form-username =
-    .label = Nom d’utilizaire
+    .label = Nòm d'usatgèr
 profile-form-native-language =
-    .label = Lenga mairala
+    .label = Lengua mairau
 profile-form-additional-language =
-    .label = Lenga suplementària
+    .label = Lengua addicionau
+profile-form-language =
+    .label = Lengua
+profile-form-variant =
+    .label = Quina varianta de { $language } parlatz?
+profile-form-variant-default-value = Non i a cap de varianta seleccionada
 profile-form-accent =
     .label = Accent
+profile-form-custom-accent-help-text =
+    .label = Com descriuríetz eth vòste accent?
+profile-form-custom-accent-placeholder-2 = Començatz a escríuer entà descríuer eth vòste accent
 profile-form-age =
-    .label = Atge
+    .label = Edat
 profile-form-gender-2 =
     .label = Genre
 leaderboard-visibility =
-    .label = Visibilitat
+    .label = Visibilitat ath classament
 hidden = Amagat
 visible = Visible
 native-language =
-    .label = Lenga mairala
-profile-form-submit-save = Enregistrar
-profile-form-submit-saved = Enregistrat
+    .label = Lengua mairau
+profile-form-add-accent = Ahig un nau accent personalizat «{ $inputValue }»
+profile-form-submit-save = Sauva
+profile-form-submit-saved = S'a sauvat
 male = Òme
-female = Femna
+female = Hemna
 # Gender
-other = Autre
-why-profile-title = Perqué un perfil ?
-why-profile-text =
-    Las informacions que donatz vos tocant, las donadas àudios que mandatz a Common Voices faràn que Common Voice siá mai util
-    Los motors de reconeissença utilizan aquestas donadas per melhorar lor precision.
-dashboard = Tablèu de bòrd
-build-profile = Crear un perfil
+other = Un aute
+why-profile-title = Per qué un perfil?
+why-profile-text = Se balhatz informacion vòsta, es donades d’àudio qu’enviatz tath Common Voice seràn mès utiles entàs motors de reconeishença dera votz que les empleguen entà milhorar era sua precision.
+dashboard = Taulèr
+build-profile = Crea un perfil
 avatar = Avatar
 goals = Objectius
 settings = Paramètres
-edit-profile = Modificar lo perfil
-profile-create-success = Fach. Lo perfil es creat !
-profile-close = Tampar
-profile-explanation = Un perfil permet de seguir los progrèsses e ajuda a far venir nòstras donadas de votz mai precisas.
-thanks-for-account = Mercés d’aver confirmat lo compte. Ara creem vòstre perfil.
-why-demographic = Perqué es important ?
+edit-profile = Edita eth perfil
+profile-create-success = Hèt. S'a creat eth perfil!
+profile-close = Barra
+profile-explanation = Un perfil permet de hèr eth seguiment deth vòste progrès e ajude a hèr qu'es donades de votz siguen mès precises.
+thanks-for-account = Gràcies per confirmar eth compde. Ara crearam eth vòste perfil.
+why-demographic = Perqué ei important?
+why-demographic-explanation-2 = Es donades d'usatgèr anonim coma era edat, eth genre e er accent ajuden a milhorar es donades d’àudio utilizades entà entrenar era precision des motors de reconeishença de votz. Es donades qu’enviatz non seràn jamès associades damb cap de nòm d'usatgèr ne adreça electronica, e podetz escuélher se voletz qu'eth vòste nòm d'usatgèr sigue public o anonim.
 accept-privacy = Accepti qu’utilizetz aquestas informacions segon los tèrmes de la <privacyLink>Politica de confidencialitat</privacyLink> de Mozilla.
 accept-privacy-title = Politica de confidencialitat
 login-identity = Identitat de connexion
