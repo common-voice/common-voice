@@ -533,6 +533,8 @@ about-playbook-what-is-language-content-3 = Bères lengües an ua grana variacio
 
 about-playbook-how-add-language = Com pogui ahíger ua lengua?
 about-playbook-how-add-language-content-1 = Prumèr, verificatz s'era vòsta lengua <languagLink>ja existís<languagLink>. Se non ei atau, vos cau <strong>tradusir eth lòc e arremassar-ne frases</strong>.
+about-playbook-how-add-language-translating-heading = Tradusís eth site
+about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Vedetz era guida de coma usar Pontoon.</translateVideoLink>
 
 ## How does localization work
 
