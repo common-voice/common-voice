@@ -3,7 +3,12 @@ import { getConfig } from './config-helper';
 const SOURCES = {
   'default-src': ["'none'"],
   'child-src': ["'self'", 'blob:'],
-  'style-src': ["'self'", 'https://fonts.googleapis.com'],
+  'style-src': [
+    "'self'",
+    'https://fonts.googleapis.com',
+    'https://tagmanager.google.com',
+    'https://fonts.googleapis.com',
+  ],
   'img-src': [
     "'self'",
     'www.google-analytics.com',
@@ -15,6 +20,8 @@ const SOURCES = {
     'https://*.mozilla.org',
     'https://*.allizom.org',
     'data:',
+    'https://ssl.gstatic.com',
+    'https://www.gstatic.com',
   ],
   'media-src': [
     'data:',
@@ -30,6 +37,7 @@ const SOURCES = {
     'https://pontoon.mozilla.org',
     'https://*.sentry.io',
     "'nonce-EDNnf03nceIOfn39fn3e9h3sdfa'",
+    '*.googletagmanager.com',
   ],
   'font-src': ["'self'", 'https://fonts.gstatic.com'],
   'connect-src': [
@@ -45,6 +53,8 @@ const SOURCES = {
     'https://basket-dev.allizom.org',
     'https://rs.fullstory.com',
     'https://edge.fullstory.com',
+    'https://fonts.gstatic.com',
+    'data:',
   ],
 };
 
