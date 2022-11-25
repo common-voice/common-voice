@@ -586,6 +586,7 @@ about-playbook-how-validate-content-4 = Se 2 persones refusen un talh, se public
 ## How to access dataset
 
 about-playbook-how-access-dataset = Com pogui accedir e utilizar eth conjunt de donades?
+about-playbook-how-access-dataset-content-1 = Podetz anar tara <datasetsPage>pagina de conjunts de donades</datasetsPage>, seleccionar era version e es lengües que voletz e baishar-les! Es fichèrs an <metadataLink>metadades associades</metadataLink>, coma informacion demografica e donades de validacion. Auratz de balhar ua adreça electronica entà baishar eth conjunt de donades.
 
 ## How are decisions made
 
