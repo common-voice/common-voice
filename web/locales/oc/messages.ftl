@@ -440,59 +440,76 @@ faq-is-goal-assistant-a = Er objectiu deth conjunt de donades deth Common Voice 
 faq-do-want-native-q = Non sò parlant/a nadiu/va e parli damb accent. Voletz era mia votz tot parièr?
 faq-do-want-native-a = Òc, volem era vòsta votz en especiau! Part der objectiu deth Common Voice ei obtier tanti accents diferenti coma sigue possible entà qu'es servicis de reconeishença de votz foncionen parièr entà toti. Açò signifique qu'es donacions de parlants non nadius son particularaments importantes.
 faq-why-different-speakers-q = Perqué cau tanti parlants diferenti entà cada lengua?
-faq-why-different-speakers-a = Era majoritat de bases de donades de votz s'entrenen damb ua sobrerepresentacion · de bèra caracteristica demografica, açò genère resultats damb desviacion de <articleLink>genre masculin e classa mejana<articleLink>. Es accents e dialèctes qu’abituauments son infrarepresentadi enes conjunts de donades d'entrenament s'assòcien tipicament damb persones que ja son marginalizades. Fòrça maquines tanben an dificultat entà compréner votzes femenines. Ei per açò qu'ena nòsta basa de donades de votz i volem varietat!
-faq-why-my-lang-q = Perque i a pas encara ma lenga ?
-faq-what-quality-q = Quin nivèl de qualitat àudio deu aver una mòstra de votz per èsser utilizada dins la basa de donadas ?
-faq-what-quality-a = Volèm que lo jòc de donadas Common Voice rebata la qualitat audio qu'un sistèm de reconeissença vocala rescontrarà dins la realitat, nos cal donc de diversitat. En mai d'una comunautat que representa una larga diversitat de locutors, un jòc de donadas amb una qualitat sonora variabla permetrà d'aprene al motor de reconeissença vocala cossí s'adaptar dins diferentas situacions de la vida reala, que siá amb de conversacions en rèire-plan o amb lo bruch d'una veitura. Del moment que vòstre voice clip es intelligible, deuriá èsser convenable pel jòc de donadas.
-faq-why-10k-hours-q = Perqué l’objectiu es de 10 000 oras validadas per lenga ?
-faq-why-10k-hours-a = Es lo nombre aproximatiu d’ora requesit per entrenar un sistèma de produccion de Paraula-al-tèxt.
-faq-how-calc-hours-q = Cossí Common Voice calcula las oras ?
-faq-how-calc-hours-a = Calculam las oras en estimant la durada mejana de cada enregistrament, puèi multiplicam aqueste nombre pel nombre total d’enregistraments de totas las lengas.
-faq-where-src-from-2-q = D’ont venon los tèxtes ?
-faq-where-src-from-2-a =
-    Nòstre tèxt font es un mescladís de las donacions de contributors, tanben d’òbras del domeni public.
-    
-    Podètz veire las frasas font dins<githubLink>aqueste dorsièr GitHub</githubLink>.
-faq-why-not-ask-read-q = Perqué demandatz pas al monde de legir de libres o d’articles de Wikipèdia dins diferentas lengas ?
-faq-why-not-ask-read-a = Per assegurar un maximum d'utilizacion del jòc de donadas Common Voice, avèm decidit d'autorizar unicament de tèxt font jos una licéncia Creative Commons (CC0). Utilizar l'estàndard CC0 rend la collècta de tèxt font mai dificila, mas assegura que qui que siá pòsca utilizar lo jòc de donadas sens restriccion ni autorizacion de Mozilla. De mai, volèm que lo jòc de donadas multilingüe siá lo mai util a totes, inclús de cercaires, d'universitats, d'entrepresas emergentas, de govèrns, d'organizacions a objectiu social o tota persona amatritz.
-faq-why-account-q = Perque me cal crear un compte ?
-faq-is-account-public-q = Son publicas las informacions de mon compte ?
-faq-how-privacy-q = Cossí asseguratz l'anonimat e la vida privada de los qu'an donada lor votz ?
-faq-how-privacy-a = Totas las mòstras son expurgadas d'informacions que permeton d'identificar las personas. Quand un contributor porgís d'informacions demograficas via son perfil, aquestas son dissociadas de las mòstras abans d'èsser prepausadas al telecargament, e son pas jamai rendudas publicas sus lor pagina de perfil.
-faq-what-determine-identity-q = Qué vòl dire que pòdi pas « determinar l’identitat » dels locutors dins un jòc de donadas de Common Voice ?
+faq-why-different-speakers-a =
+    Era majoritat de bases de donades de votz s'entrenen damb ua sobrerepresentacion · de bèra caracteristica demografica, açò genère resultats damb desviacion de <articleLink>genre masculin e classa mejana<articleLink>. Es accents e dialèctes qu’abituauments son infrarepresentadi enes conjunts de donades d'entrenament s'assòcien tipicament damb persones que ja son marginalizades. Fòrça maquines tanben an dificultat entà compréner votzes femenines. 
+    Ei per açò qu'ena nòsta basa de donades de votz i volem varietat!
+faq-why-my-lang-q = Per qué encara non i é era mia lengua?
+faq-what-quality-q = Quin nivèu de qualitat d’àudio a d’auer un talh de votz entà poder-lo emplegar en conjunt de donades?
+faq-what-quality-a = Volem qu'eth conjunt de donades deth Common Voice rebate era qualitat der àudio qu’un motor de votz a tèxte entene en un entorn reau, e donques cercam varietat. Ath delà d'ua comunitat plurau de locutors, un conjunt de donades damb qualitat d’àudio variabla permeterà entrenar eth motor de votz a tèxte entà gestionar situacions diferentes deth mon reau, de votzes de hons enquiath tapatge deth coche. Mentre eth talh de votz sigue intel·ligible, aurie d’èster pro bon entath conjunt de donades.
+faq-why-10k-hours-q = Perqué i é er objectiu de 10.000 ores validades d’enregistrament d’àudio entà cada lengua?
+faq-why-10k-hours-a = Aguest ei, apuprètz, eth nombre d'ores de besonh entà entrenar un sistèma de reconeishença dera votz en produccion.
+faq-how-calc-hours-q = Com calcule es ores eth Common Voice?
+faq-how-calc-hours-a = Calculam es ores en tot estimar era durada mejana de cada enregistrament e, ara seguida, multiplicam aguest nombre peth nombre totau d’enregistraments en totes es lengües.
+faq-where-src-from-2-q = D’a on provien es tèxtes?
+faq-where-src-from-2-a = Es tèxtes provien de contribucions originaus, tanben d'òbres literàries de domeni public, arrepervèris e fraseologia comuna. Podetz veir es frases en aguest <githubLink>dossièr deth GitHub<githubLink>.
+faq-why-not-ask-read-q = Per qué non demanatz ara gent que liege libres o articles dera Wikipèdia en diuèrses lengües?
+faq-why-not-ask-read-a = Entà qu'eth conjunt de donades deth Common Voice sigue çò de mès util possible, auem decidit de perméter sonque tèxte hònt disponible damb licéncia Creative Commons (CC0). Er usatge der estandard CC0 implique qu'ei mès malaisit de trobar e recuélher tèxte hònt, mès permet que tot usatgèr emplegue es donades de votz resultantes sense restriccions d’emplec ne era autorizacion de Mozilla. En darrèr tèrme, volem qu'eth conjunt de donades multilingües sigue çò de mès util possible entà toti, includidi investigadors, universitats, enterpreses emergentes, govèrns, organizacions sociaus e aficionats.
+faq-why-account-q = Perqué me calerie crear un compde?
+faq-is-account-public-q = Era informacion deth mèn compde ei publica?
+faq-how-privacy-q = Com asseguratz er anonimat e era privadança des persones qu’an dat era votz?
+faq-how-privacy-a = Era informacion d'identificacion personau se suprimís de toti es talhs de votz deth conjunt de donades. S'un collaborador balhe donades demografiques en sòn perfil, aguesta informacion s’anonimize enes talhs de votz abans d'includir-les en conjunt de donades disponibles entà baishar, e aguesta informacion non ei jamès publica ena sua pagina de perfil.
+faq-what-determine-identity-q = Qué vò díder que non pogui «determinar era identitat» des parlants en conjunt de donades deth Common Voice?
 faq-what-determine-identity-a =
-    Lo jòc de donadas Common Voice es una ressorça dobèrta e accessible a totes que pòt èsser utilizada per de nombroses aplicacions ligadas a la votz. Per aparar la seguretat de nòstres contributors, demandam a totes los que telecargan de donadas de respectar la vida privada dels contributors.
-    Totes los voice clips del jòc de donadas son expurgats de las informacions que permeton d'identificar los locutors. Quand telecargatz lo jòc de donadas, acceptatz d'ensajar pas de determinar l'identitat de cap contributor. Aquò vòl dire que vos cal pas ensajar de far lo ligam entre lo jòc de donadas e las informacions personalas d'un contributor. Podètz ça que la utilizar lo jòc de donadas per permetre la reconeissença vocala, l'identificacion de las diferentas personas que participan a una conversacion, per exemple en utilizant las donadas presentas unicament dins lo jòc de donadas.
-faq-what-is-cv = Qu'es aquò Common Voice ?
-faq-using-cv = Utilizar Common Voice
-faq-description = Common Voice es part de l’inciativa de Mozilla per ajudar las maquinas a aprendre coma parlam las personas en realitat.
+    Eth conjunt de donades deth Common Voice ei un recors dubèrt e disponible publicaments que se pòt emplegar entà entrenar ua ampla varietat d’aplicacions qu’utilizen era votz. Entà protegir era seguretat des nòsti collaboradors, demanam a toti es qui baishen eth conjunt de donades deth Common Voice que respècten era privadança des collaboradors. 
+    Toti es talhs de votz deth conjunt de donades son analisadi entà eliminar-ne quina informacion que sigue d'identificacion personau. Quan baishatz eth conjunt de donades, acceptatz de non sajar de determinar era identitat de cap de collaborador. Açò vò díder que non podetz sajar de ligar informacion deth conjunt de donades ara informacion personau deth collaborador. Totun, podetz utilizar eth conjunt de donades entà entrenar era reconeishença de votz, era reconeishença d’oradors o de d’autes aplicacions, per exemple, ligant informacion deth conjunt de donades a d’auta informacion que ja i age en conjunt de donades.
+faq-what-is-cv = Qué ei eth Common Voice?
+faq-using-cv = Emplec deth Common Voice
+faq-description = Eth projècte Common Voice hè part dera iniciativa de Mozilla entà ajudar as maquines a apréner com parlam es persones de vertat.
 faq-search-for-answers =
-    .label = Cercar de responsas
+    .label = Cèrca responsa
 
 ## ABOUT US
 
-about-title = Perqué Common Voice ?
-how-does-it-work-text = Cridam a la participacion collectiva per constituir un jòc de donadas liure. Donatz vòstra votz, validatz la precision de las mòstras d’autras personas, melhoratz lo jòc de donadas per tot lo monde.
+about-title = Perqué Common Voice?
+about-header-description-v2 =
+    <p>Common Voice ei un conjunt de donades de votz disponible publicament, possat pes votzes de collaboradors volontaris de pertot eth mon. Es persones que volgatz crear aplicacions de votz podetz emplegar eth conjunt de donades entà entrenar modèls d'aprendissatge automatic.<p>
+    <p>Actuaument, era majoritat des conjunts de donades de votz son proprietat d'enterpreses, causa que frene era innovacion. Es conjunts de donades de votz tanben representen en excès es òmes blanqui de parlar anglés. Açò vò díder qu'era tecnologia abilitada entà votz non foncione bric entà fòrça lengües e, a on foncione, pòt èster que non foncione parièr entà toti. Volem cambiar aquerò en tot mobilizar a gent de pertot entà compartir era sua votz.<p>
+how-does-it-work-title-v2 = Com foncione Common Voice?
+how-does-it-work-text = Cream de forma collaborativa un conjunt de donades de votz dubèrt. Datz era vòsta votz, validatz era precision des talhs de d’autes persones e hetz qu'eth conjunt de donades sigue milhor entà toti.
 
 ## How does it work section
 
-about-speak = Parlar
-about-speak-text = Los contributors enregistran de mòstras de votz en legir de frasas d’una basa de frasas donadas.
-about-listen-queue = Fila d’escotat
-about-listen-queue-text = Las mòstras vocalas son enregistradas dins una fila d’espèra de mòstras preparadas a l’escota.
-about-listen = Escotar
-about-listen-text = Los utilizaires validan l’exactitud de las mòstras en verificant que los locutors legiscan corrèctament las frasas.
-about-is-it-valid = La mòstra es valida ?
-about-is-it-valid-text = Una mòstra a la marca « valida » quand un utilizaire l’apròva amb Òc.
-about-yes-votes = ≥ 2 vòtes Òc
-about-yes-votes-text = Per far partida del jòc de donadas Common Voice, una mòstra vocala deu èsser validada per doas personas distintas.
-about-no-votes = ≥ 2 vòtes NON
-about-no-votes-text = Quand un utilizaire regeta una mòstra aquela tòrna dins la fila. S’es regetada dos còps, la mòstra es desplaçada al cementèri de las mòstras.
-about-dataset-new = Jòc de donadas de Common Voice
-about-dataset-new-text = Lo jòc de donadas Common Voice conten centenas de mòstras vocalas per ajudar als desvolopaires a crear d’aplicacions vocalas.
-about-clip-graveyard = Cimentèri de mòstras
-about-clip-graveyard-text = Lo cementeri de mòstra inclutz de mòstras vocalas que son pas dintradas al jòc de donadas de Common Voice. Coma aqueste, òm pòt lo telecargar.
-about-get-involved = Participar
+about-language-req-subtitle = Quauquarrés demane que s’ahige ua lengua.
+about-localization-title = Localizacion deth lòc web
+about-localization-subtitle = Eth tèxte deth lòc web se tradusís ad aguesta lengua.
+about-sentence-collection-title = Recuelhuda de frases
+about-sentence-collection-subtitle = S'arrecuelhen frases entà qu'era gent les liege en votz nauta.
+about-new-lang-title = Lançament d'ua naua lengua
+about-new-lang-subtitle = Se publique eth lòc web de Common Voice en aguesta lengua.
+about-voice-contrib-title = Collaboracions damb era votz
+about-voice-contrib-subtitle = Era gent ven e collabòre en tot enregistrar era sua votz.
+about-voice-validation-title = Validacions des votzes
+about-voice-validation-subtitle = D’autes persones validen es talhs de votz enregistradi.
+about-dataset-release-title = Publicacion deth conjunt de donades
+about-dataset-release-subtitle = Publicam eth conjunt de donades cada 3 mesi.
+about-subscribe-text = Voletz èster en contacte damb Common Voice?
+about-speak = Parla
+about-speak-text = Es collaboradors enregistren talhs de votz en tot liéger tèxtes que provien d'un banc de frases dades.
+about-listen-queue = Coa d'escota
+about-listen-queue-text = Es talhs de votz se meten en ua coa de talhs premanidi entà escotar.
+about-listen = Escota
+about-listen-text = Es usatgèrs validen era precision des talhs en tot verificar qu’eth locutor liege era frasa corrèctament.
+about-is-it-valid = Eth talh ei valid?
+about-is-it-valid-text = Un talh de votz se mèrque coma «valid» quan un usatgèr lo vòte damb Òc.
+about-yes-votes = 2 vòts positius o mès
+about-yes-votes-text = Entà includir un talh de votz en conjunt de donades deth Common Voice, cau que dus usatgèrs diferenti lo validen.
+about-no-votes = 2 vòts negatius o mès
+about-no-votes-text = S'un usatgèr refuse un talh de votz, se torne a méter ena coa. Se se refuse un dusau còp, eth talh de votz passe ath «cementèri de talhs».
+about-dataset-new = Conjunt de donades deth Common Voice
+about-dataset-new-text = Eth conjunt de donades deth Common Voice conten centenats de milèrs de mòstres de votz qu’ajuden as desvolupadors a crear estruments de reconeishença de votz.
+about-clip-graveyard = Cementèri de talhs
+about-clip-graveyard-text = Eth cementèri de talhs includís es talhs de votz que non an entrat en conjunt de donades deth Common Voice. Atau coma eth conjunt de donades, eth cementèri de talhs tanben se pòt descargar.
+about-get-involved = Collaboratz-i
 about-get-involved-text-2 =
     Volètz ajudar a melhorar Common Voice ?
     Crane ! Contactatz-nos per corrièl o sul forum <discourseLink>Discourse</discourseLink>,
