@@ -571,12 +571,21 @@ about-playbook-how-grow-language-content-2 = Eveniments
 about-playbook-how-grow-language-content-3 = Podetz organizar eveniments entà ajudar ara gent a collaborar. Ei mès facil que non pensatz. Ac podetz hèr en linha damb un estrument de videoconferéncia, o en persona s'ei segur.  <eventTemplate>Consultatz es plantilhes e recorsi entà organizar eveniments</eventTemplate>.
 about-playbook-how-grow-language-content-4 = Mejans de comunicacion sociau
 about-playbook-how-grow-language-content-5 = Podetz utilizar es plataformes de hilats sociaus entà enviar eth messatge. Compartitz publicacions qu’expliquen perqué ei importanta e metetz-vos en contacte damb d’autes persones que parlen d'ahèrs coma es drets lingüistics, era intelligéncia artificiau de votz o es tendéncies tecnologiques. Vedetz mès conselhs sus com executar ua campanha sociau, includit eth contengut que podetz reutilizar.
+about-playbook-how-grow-language-content-6 = Collaboracions e hilats
+about-playbook-how-grow-language-content-7 = Trobatz d’autes persones a qui les impòrte. Poderien èster universitats, escòles d'idiòmes, grops de defensa o comunitats de sciéncia de donades. Metetz-vos en contacte e explicatz claraments com vos pòden ajudar e per qué. <outreachTemplates>Consultatz era plantilha de corrèus electronics de divulgacion</outreachTemplates>.
+about-playbook-how-grow-language-content-8 = <strong>Sigatz creatius!</strong> Era vòsta comunitat lingüistica serà unica e aguestes son sonque bères manères de començar.
 
 ## How to validate
 
+about-playbook-how-validate = Com sabi s'aprovar un talh de votz?
+about-playbook-how-validate-content-1 = Se podetz <strong>escotar-les</strong> e <strong>comprener-les</strong>, normauments ei <strong>milhor aprovar-les</strong>.
+about-playbook-how-validate-content-2 = <strong>Non refusetz talhs a on eth locutor «a un accent» diferent deth vòste</strong>: açò ei important entà qu'era reconeishença de votz foncione ben entà toti.
+about-playbook-how-validate-content-3 = Se credetz qu'era prononciacion hè que sigue <strong>impossible de compréner</strong>, o i a <strong>fòrça tapatge de hons</strong> o i a <strong>d’autes persones que tanben parlen</strong>, alavetz vos calerie refusar eth talh. <accuracyLink>Vedetz mès informacion enes critèris de precision</accuracyLink>.
+about-playbook-how-validate-content-4 = Se 2 persones refusen un talh, se publicarà en un subconjunt diferent deth conjunt de donades.
 
 ## How to access dataset
 
+about-playbook-how-access-dataset = Com pogui accedir e utilizar eth conjunt de donades?
 
 ## How are decisions made
 
