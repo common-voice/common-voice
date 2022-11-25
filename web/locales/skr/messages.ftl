@@ -1406,6 +1406,7 @@ localization-select =
     .label = زبان/مقامیت سازی چݨو
 # PARTNERSHIPS PAGE
 partnerships-header = بھائیوالی
+partnerships-header-text = کامن وائس بݨاوݨ کیتے ٻہوں کجھ لڳدے! اساں ایہ کم کلہے کائنی کریندے۔ ساݙے بھائیوال بݨݨ چاہندے ہو؟ اساں تہاݙے کنوں ایہ سُݨݨ پسند کریندیسے۔
 partnerships-get-in-touch = رابطے وچ راہوو
 partnerships-become-a-partner = کامن وائس بھائیوال بݨو
 partnerships-community-header = برادری، تخلیقاں تے سول سوسائٹی
