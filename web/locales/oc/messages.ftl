@@ -402,46 +402,45 @@ help-variants-explanation = Es variantes son formes especifiques d'ua lengua. Pe
 
 ## Profile - Email
 
-browse-file-title = Enviar un imatge
-browse-file = Lissatz-depausatz o <browseWrap>Percorrètz</browseWrap>
-connect-gravatar = Connectatz-vos amb Gravatar
-gravatar_not_found = Cap de gravatar pas trobat per vòstra adreça electronica
-file_too_large = Lo fichièr seleccionat es tròp pesuc
+browse-file-title = Puja un fichèr d'imatge
+browse-file = Arrossegueu e deishatz anar o hetz clic en <browserWrap>Navèga<browserWrap>
+connect-gravatar = Connècta damb Gravatar
+gravatar_not_found = Non s'a trobat cap de Gravatar entara vòsta adreça electronica
+file_too_large = Eth fichèr seleccionat ei massa gran
+avatar-uploaded = S'a pujat er avatar
+max-file-size = Maxima { $kb } kB
+remove-avatar = Elimina er avatar
 
 ## Profile - Email
 
-manage-subscriptions = Gerir las abonaments
-manage-email-subscriptions = Gerir los abonaments als corrièls
-email-already-used = Aquesta adreça electronica es ja utilizada per un autre compte
-add-language = Ajustar una lenga
-change-email-setings = Modificatz vòstra adreça de corrièl dins las Preferéncias, seccion « Identitat de connexion »
+manage-subscriptions = Gestiona es soscripcions
+manage-email-subscriptions = Gerís es soscripcions per corrèu electronic
+email-already-used = Aguesta adreça electronica ja s'emplegue entà un aute compde
+add-language = Ahig ua lengua
+change-email-setings = Cambiatz era vòsta adreça electronica ena seccion Identitat d'inici de session des paramètres
 
 ## FAQ
 
-faq-title = Fèira de las questions
-faq-what-cv-q = Qué es lo Common Voice ?
-faq-what-cv-a =
-    La tecnologia de reconeissença de votz es a cambiar lo biais qu’interagissèm amb las maquinas, pel moment los sistèmas disponible son cars e proprietaris. Common Voice fa part de l‘iniciativa de far venir las tecnologias de reconeissença melhorars e mai accessiblas a totes. Common Voice es un jòc de donadas global de voses donadas que permet a qual qu siá d’entrenar rapidament e facilament d’aplicacions de votz dins potencialament totas las lengas.
-    
-    Collectam mai que de mòstras de voses dins las lengas mai parladas mas tanben dins las lengas de populacion de locutors mai pichonas. La publicacion de divèrses jòcs de donadas permetrà als desvolopaires, entreprenaires, e a las comunitats d’emplenar aqueste deficit. En mai del jòc de donadas de Common Voice, sèm a bastir un motor de reconeissença de paraulas apelat Deep Speech.
-faq-why-important-q = Perqué es important ?
-faq-why-important-a = L‘oral es sovent lo biais mai natural qu’utilizam per comunicar entre nosautres, la tecnologia apòrta aqueste confòrt als ordenadors e periferics mobils. Volèm donar als desvolopaires los mejans de crear d’aplicacions de reconeissença vocala susprenentas, coma de traductors en temps real o d’assistents vocals a comanda vocala. Mas pel moment, la màger part de las donadas vocalas necessàrias a la creacion d’aqueste tipe d’aplicacion son costosas e proprietàrias. Esperam que lo jòc de donadas de Common Voice donarà als desvolopaires çò que cal per innovar e far venir la tecnologia de la paraula disponibla dins lor pròpria lenga.
-faq-how-get-q = Cossí pòdi obténer las donadas de Common Voice ?
-faq-how-get-a = Lo jòc de donadas de Common Voice es disponible al telecargament jos la licéncia <licenseLink>CC0</licenseLink> sus la <datasetLink>pagina de nòstres jòcs de donadas</datasetLink>. Podètz tanben telecargar mantun autres jòcs de donadas disponibles d’un biais public de la meteissa pagina estant.
-faq-when-release2-q = Quand publicaretz las donadas de Common Voince d’autras lengas ?
-faq-when-release2-a = La version multilingüa del jòc de donadas de Common Voice es a èsser recampat e netejat per la comunautat. Se volètz nos ajudar a ajustar una lenga novèla, consultatz <sentenceCollectorLink>l’aisina de collecta de frasas</sentenceCollectorLink> per ajustar de novèlas frasas al jòc de donadas e Mozilla <pontoonLink>Pontoon</pontoonLink> per traduire lo quite site Internet. Las nòvas lengas son ajustadas a Common Voice quand las contribucions de 5000 frasas validadas son reculhidas.
-faq-why-mission-q = Perque Common Voice es part de la mission de Mozilla ?
-faq-why-mission-a = La tòca de Mozilla es de gardar lo web dubèrt e accessible a totes. Per aquò far nos cal equipar los creators web amb de projèctes coma Common Voice. Las tecnologia vocalas son mai e mai presentas en defòra de las aplicacions, creem que devon servir a totes los utilizaires de la meteissa manièra. Vòl dire inclure mai de lengas, d’accents quand serem a construire e provar las tecnologias. Common Voice es una ressorça publica disponibla per tot lo monde e la còla de Mozilla e de desvolopaires del monde entièr l’utilizam ja per nòstres projèctes.
-faq-what-cv-and-deepspeech-q = Quina es la diferéncia entre Common Voice e Deep Speech ?
-faq-what-cv-and-deepspeech-a = Lo jòc de donadas Common Voice complèta lo motor Deep Speech del motor de reconeissença vocala liure. La primièra version de Deep Speech sortiguèt en novembre de 2017 e ten de se melhorar dempuèi aquel temps. Amb lo jòc de donadas de Common Voice, creem qu’aquesta tecnologia de reconeissença vocala liura deu èsser disponibla per tot lo monde. Es nòstre espèr qu’aquestas tecnologias permeten als desvolopaires de construire una onda de produches e de servicis innovants.
-faq-is-goal-assistant-q = L’objectiu de Common Voice es de construire un assistent vocal ?
-faq-is-goal-assistant-a = L’objectiu del jòc de donadas es de permetre a qual que siá dins lo monde de crear d’aplicacions de reconeissença de votz, d’identificacion de locutor o tot autre tipe d’aplicacions qu’utiliza la votz. Un assistent vocal es pas una aplicacion que se pòt crear amb aqueste jòc de donadas.
-faq-do-want-native-q = Soi pas un locutor natiu e parli amb un accent. Volètz totjorn ma votz ?
-faq-do-want-native-a = Òc, volèm ta votz en particular ! Una de las tòcas de Common Voice es quitament d’amassar la diversitat mai granda d’accents possibla, per pas que degun siá pas exclús. Valent a dire que los dons de votz dels non locutors son particularament importants.
-faq-why-different-speakers-q = Perqué cal tantes locutors diferents per lenga ?
-faq-why-different-speakers-a =
-    La majoria de las basas de donadas s’entrenan amb una sobrerepresentacion d’unas caracteristicas demograficas que generan un biais en favor dels  <articleLink>òmes de la classa mejana</articleLink>. Los accents e los dialèctes que son generalament josrepresentats dins los jòcs de donadas son associats amb de grops de de personas que son ja marganalizadas. Mantunas maquinas an de problèmas per comprendre las voses femeninas.
-    Aquò explica perque volèm de diversitat dins nòstre jòc de donadas !
+faq-title = Questions mès frequentes
+faq-what-cv-q = Qué ei eth Common Voice?
+faq-what-cv-a = Era tecnologia de reconeishença de votz ei a revolucionar era manèra qu’interactuam damb es maquines, mès es sistèmes disponibles actuauments son cars e privatius. Eth Common Voice hè part dera iniciativa de Mozilla entà hèr qu'es tecnologies de reconeishença de votz siguen milhors e mès accessibles entà toti. Eth Common Voice ei ua basa de donades mondiaus massives de donacions de votzes que permet qui sigue d’entrenar rapidament e facilament es aplicacions de votz en practicament era lengua que sigue. Non sonque recuelhem mòstres de votz de lengües fòrça estenudes; tanben de lengües damb ua poblacion de parlants mès petita. Era publicacion d'un conjunt de donades de diuèrses votzes permeterà as desvolupadors, empresaris e comunitats solucionar aguesta manca per eri madeishi. Ath delà deth conjunt de donades deth Common Voice, tanben bastim un motor de reconeishença de votz de còdi dubèrt nomentat Deep Speech.
+faq-what-cv-a-2 = Era tecnologia de reconeishença de votz ei a revolucionar era manèra qu’interactuam damb es maquines, mès es sistèmes disponibles actuaument son cars e privatius. Mozilla Common Voice ei ua iniciativa entà hèr qu'es tecnologies de reconeishença de votz siguen milhors e mès accessibles entà toti. Eth Common Voice ei ua basa de donades mondiaus massives de donacions de votzes que permet a qui sigue d’entrenar rapidament e facilament es aplicacions de votz en practicaments era lengua que sigue. Non sonque recuelhem mòstres de votz de lengües fòrça estenudes; tanben de lengües damb ua poblacion de parlants mès petita. Era publicacion d'un conjunt de donades de diuèrses votzes permeterà as desvolupadors, empresaris e comunitats solucionar aguesta manca per eri madeishi.
+faq-why-important-q = Per qué ei important?
+faq-why-important-a = Eth parlar ei soent era manèra mès naturau de comunicar-mos entre nosati e es tecnologies de votz apòrten aguesta comoditat as ordenadors e dispositius mobils. Volem capacitar as desvolupadors entà crear aplicacions susprenentes de reconeishença de votz, coma per exemple reviradors en temps reau e assistents digitaus controtladi pera votz. Ara madeish, totun, era majoria des donades de votz de besonh entà bastir aguesti tipes d'aplicacions son cares e privades. Demoram qu'eth conjunt de donades deth Common Voice proporcione as desvolupadors çò qu’an de besonh entà innovar e qu'era tecnologia deth parlar sigue disponibla ena sua respectiva lengua. Entà hèr qu'era reconeishença de votz sigue encara mès universau, recuelhem mòstres de votz en lengües damb fòrça parlants, atau coma enes qu’an ua poblacion mès petita de parlants e que soent non an accès as servicis de reconeishença de votz comerciau. Era publicacion d'un conjunt de donades de votz diuèrsa permeterà resòlver aguest uet as desvolupadors, as empresaris e a totes es comunitats de tecnologies de votz.
+faq-how-get-q = Com pogui obtier es donades deth Common Voice?
+faq-how-get-a = Eth conjunt de donades deth Common Voice se pòt baishar jos era licéncia <licenseLink>CC0<licenseLink> ena <datasetLink>nòsta pagina de conjunts de donades. Tanben podetz baishar diuèrsi conjunts de donades disponibles publicaments ena madeisha pagina.
+faq-when-release2-q = Quan publicaratz es donades deth Common Voice en d’autes lengües?
+faq-when-release2-a = Era version multilingua deth conjunt de donades deth Common Voice actuauments ei en fasa d’empaquetatge e neteja damb eth supòrt dera comunitat. Se mos voletz ajudar a ahíger naues lengües ath Common Voice, vedetz eth <sentenceCollectorLink>estrument de recuelhuda de frases<sentenceCollectorLink> entà ahíger frases naues ath conjunt de donades e çò <pontoonLink>Pontoon<pontoonLink> de Mozilla entà tradusir eth lòc web deth projècte. Es lengües naues s'ahigeràn ath Common Voice e poderàn començar a recéber aportacions de votz quan s'agen recuelhut e aprovat 5000 frases.
+faq-why-mission-q = Perqué eth Common Voice hè part dera mission de Mozilla?
+faq-why-mission-a = Era mission de Mozilla ei mantier eth Web dubèrt e accessible a toti. Entà hè'c, auem de besonh aufrir estruments as creadors de contengut web mejançant projèctes coma eth Common Voice. Es tecnologies de votz prolifèren ath delà d'aplicacions fòrça especializades, e credem qu’an de servir a toti es usatgèrs en egalitat de condicions. Açò signifique includir mès lengües, mès diuersitat d'accents e de donades demografiques ara ora de crear e provar es tecnologies de votz. Eth Common Voice ei un recors public, disponible entà toti, e es equipes de Mozilla e es desvolupadors de pertot eth mon ja l’utilizen enes sòns pròpris projèctes.
+faq-what-cv-and-deepspeech-q = Quina diferéncia i a entre eth Common Voice e eth Deep Speech?
+faq-what-cv-and-deepspeech-a = Eth conjunt de donades deth Common Voice complète eth motor de reconeishença de votz de còdi dubèrt Deep Speech de Mozilla. Era prumèra version deth Deep Speech se publiquèc en noveme de 2017 e a seguit era evolucion d'alavetz ençà. Amassa damb eth conjunt de donades deth Common Voice, credem qu'aguesta tecnologia de reconeishença de votz de còdi dubèrt aurie d’èster disponibla entà toti. Demoram qu'aguestes tecnologies permeten as desvolupadors bastir ua onada de productes e servicis innovadors.
+faq-is-goal-assistant-q = Er objectiu deth Common Voice ei bastir un assistent de votz?
+faq-is-goal-assistant-a = Er objectiu deth conjunt de donades deth Common Voice ei de perméter que quinsevolh persona deth mon pogue crear aplicacions de reconeishença de votz, de reconeishença de parlants o quinsevolh aute tipe d'aplicacion que requerisque donades de votz. Un assistent de votz ei sonque un des molti tipes d'aplicacions que podetz crear en tot emplegar eth conjunt de donades.
+faq-do-want-native-q = Non sò parlant/a nadiu/va e parli damb accent. Voletz era mia votz tot parièr?
+faq-do-want-native-a = Òc, volem era vòsta votz en especiau! Part der objectiu deth Common Voice ei obtier tanti accents diferenti coma sigue possible entà qu'es servicis de reconeishença de votz foncionen parièr entà toti. Açò signifique qu'es donacions de parlants non nadius son particularaments importantes.
+faq-why-different-speakers-q = Perqué cau tanti parlants diferenti entà cada lengua?
+faq-why-different-speakers-a = Era majoritat de bases de donades de votz s'entrenen damb ua sobrerepresentacion · de bèra caracteristica demografica, açò genère resultats damb desviacion de <articleLink>genre masculin e classa mejana<articleLink>. Es accents e dialèctes qu’abituauments son infrarepresentadi enes conjunts de donades d'entrenament s'assòcien tipicament damb persones que ja son marginalizades. Fòrça maquines tanben an dificultat entà compréner votzes femenines. Ei per açò qu'ena nòsta basa de donades de votz i volem varietat!
 faq-why-my-lang-q = Perque i a pas encara ma lenga ?
 faq-what-quality-q = Quin nivèl de qualitat àudio deu aver una mòstra de votz per èsser utilizada dins la basa de donadas ?
 faq-what-quality-a = Volèm que lo jòc de donadas Common Voice rebata la qualitat audio qu'un sistèm de reconeissença vocala rescontrarà dins la realitat, nos cal donc de diversitat. En mai d'una comunautat que representa una larga diversitat de locutors, un jòc de donadas amb una qualitat sonora variabla permetrà d'aprene al motor de reconeissença vocala cossí s'adaptar dins diferentas situacions de la vida reala, que siá amb de conversacions en rèire-plan o amb lo bruch d'una veitura. Del moment que vòstre voice clip es intelligible, deuriá èsser convenable pel jòc de donadas.
