@@ -7,6 +7,7 @@ return-to-cv = ⵓⵖⵓⵍ ⵙ ⴽⴰⵎⵏ ⵠⵓⵢⵙ
 email-input =
     .label = ⵉⵎⴰⵢⵍ
 submit-form-action = ⴰⵣⵏ
+loading = ⴰⴽⵜⵓⵔ...
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
