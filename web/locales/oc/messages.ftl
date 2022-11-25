@@ -510,21 +510,29 @@ about-dataset-new-text = Eth conjunt de donades deth Common Voice conten centena
 about-clip-graveyard = Cementèri de talhs
 about-clip-graveyard-text = Eth cementèri de talhs includís es talhs de votz que non an entrat en conjunt de donades deth Common Voice. Atau coma eth conjunt de donades, eth cementèri de talhs tanben se pòt descargar.
 about-get-involved = Collaboratz-i
-about-get-involved-text-2 =
-    Volètz ajudar a melhorar Common Voice ?
-    Crane ! Contactatz-nos per corrièl o sul forum <discourseLink>Discourse</discourseLink>,
-    senhalatz de problèmas via <githubLink>GitHub</githubLink>, o venètz sul <matrixLink>Matrix</matrixLink> de la comunautat.
-about-nav-why-common-voice = Perque ?
-about-nav-how-it-works = Cossí ?
+about-get-involved-text-2 = Voletz ajudar a milhorar eth Common Voice? Geniau! Metetz-vos eth contacte per corrèu electronic o pes fòrums deth <discourseLink>Discourse<discourseLink>, notificatz problèmes en <githubLink>GitHub<githubLink> o junhetz-vos ath nòste chat dera comunitat en <matrixLink>Matrix<matrixLink>.
+about-stay-in-touch = Com me pogui mantier eth contacte?
+about-stay-in-touch-button = Registre
+about-stay-in-touch-text-1 = <emailFragment>Registratz-vos</emailFragment> ena nòsta lista de corrèu entà saber com podetz participar en campanhes, eveniments e foncions de dessenh conjunt en Common Voice.
+about-stay-in-touch-text-2 = Podetz conéisher d’autes persones enes comunitats lingüistiques de Mozilla en tot junher-vos a <discourseLink>Discourse</discourseLink> entà convèrses d'actualitat, o a <matrixLink>Matrix</matrixLink> entà obtier un conselh rapid.
+about-nav-why-common-voice = Perqué?
+about-nav-how-it-works = Com?
 about-nav-partners = Sòcis
-about-nav-get-involved = Participar
+about-nav-get-involved = Collaboratz-i
+about-nav-playbook = Aprenetz a participar-i
 
 ## Community Playbook Content
 ## What is a language
 
+about-playbook-what-is-language = Qué ei ua lengua en Common Voice?
+about-playbook-what-is-language-content-1 = I a fòrça manères de considerar qué ei ua lengua. A efèctes des modèls de reconeishença de votz, Common Voice suggerís de centrar-se ena «intelligibilitat mutuau» o «es parlants d'aguesta lengua se pòden compréner, entre eri, s'ac sagen?»
+about-playbook-what-is-language-content-2 = Volem qu'es modèls de parlar siguen milhors entà compréner ua ampla gamma de parlants. Entà qu'aquerò passe, un conjunt de donades de votz a de representar fòrça persones diferentes.
+about-playbook-what-is-language-content-3 = Bères lengües an ua grana variacion en gramata, vocabulari e prononciacion. Per aguest motiu, <ctaLink>introdusim es «Variantes»<ctaLink> eth 2022. Açò aufrís as comunitats ua manèra de distinguir es lengües en conjunt de donades mès generaus.
 
 ## How do I add a language
 
+about-playbook-how-add-language = Com pogui ahíger ua lengua?
+about-playbook-how-add-language-content-1 = Prumèr, verificatz s'era vòsta lengua <languagLink>ja existís<languagLink>. Se non ei atau, vos cau <strong>tradusir eth lòc e arremassar-ne frases</strong>.
 
 ## How does localization work
 
