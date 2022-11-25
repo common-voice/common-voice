@@ -55,6 +55,7 @@ cs = Tjekkisk
 cv = Tjuvasjisk
 cy = Walisisk
 da = Dansk
+dag = Dagbani
 de = Tysk
 dsb = Nedresorbisk
 dv = Divehi
