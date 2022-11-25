@@ -1063,6 +1063,7 @@ contribution-criteria-link = ونگار دا معیار سمجھو
 contribution-criteria-page-title = ونگار دا معیار
 contribution-for-example = مثال دے طور تے
 contribution-misreadings-title = غلط پڑھݨ
+contribution-misreadings-description-extended-list-1 = ریکاڈنگ دے شروع وچ کوئی لفظ غائب ہووݨ۔
 contribution-misreadings-description-extended-list-2 = لفظ دے چھیکڑ تے ہک <strong>'s'</strong> غائب ہے۔
 contribution-misreadings-description-extended-list-4 = رکاڈنگ کوں تکھے تکھے کٹ تے چھیکڑی لفظ دا سِرا ون٘ڄاوݨ
 contribution-misreadings-description-extended-list-5 = ہک لفظ پڑھݨ کیتے ٻہوں واری کوشش تھیندی پئی ہے۔
