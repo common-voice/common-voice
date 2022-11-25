@@ -75,8 +75,7 @@
         ga('send', 'pageview');
       }
     </script>
-    <script nonce="{{nonce}}">
-      console.log('{{nonce}}')
+    <script id="gtmScript" nonce="{GENERATED_NONCE}">
       (function (w, d, s, l, i) {
         w[l] = w[l] || [];
         w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' });
@@ -87,6 +86,10 @@
         j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
         f.parentNode.insertBefore(j, f);
       })(window, document, 'script', 'dataLayer', 'GTM-T4DZBR7');
+    </script>
+    <script nonce="EDNnf03nceIOfn39fn3e9h3sdfa">
+      console.log('hello world');
+      console.log('CSP-allowed script with nonce:', '{{nonce}}');
     </script>
   </head>
   <body>
