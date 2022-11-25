@@ -535,18 +535,42 @@ about-playbook-how-add-language = Com pogui ahíger ua lengua?
 about-playbook-how-add-language-content-1 = Prumèr, verificatz s'era vòsta lengua <languagLink>ja existís<languagLink>. Se non ei atau, vos cau <strong>tradusir eth lòc e arremassar-ne frases</strong>.
 about-playbook-how-add-language-translating-heading = Tradusís eth site
 about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Vedetz era guida de coma usar Pontoon.</translateVideoLink>
+about-playbook-how-add-language-collecting-sentences-heading = Recuelh frases
 
 ## How does localization work
 
+about-playbook-how-localize = Com foncione era localizacion deth lòc web?
+about-playbook-how-localize-content-1 = Era traduccion deth lòc web de Common Voice se hè en <strong>Pontoon</strong>.
+about-playbook-how-localize-content-2 = <pontoonAccountLink>Creatz un compde</pontoonAccountLink> se non n'auetz cap. Ara seguida, escuelhetz era vòsta lengua <strong>(«Equipa»)</strong> e, ara seguida, escuelhetz eth projècte, <pontoonCvLink>Common Voice</pontoonCvLink>. I aurà fichèrs entà tradusir. Hetz clic ath dessús d’un, dempús se mòstren es paraules en anglés e un quadre entà tradusir-les.
+about-playbook-how-localize-content-3 = Era traduccion ei der anglés, mès podetz veir <strong>Suggeriments</strong> en d’autes lengües. Hetz clic ena icòna <strong>Perfil</strong>, dempús en ligam <strong>Configuracion</strong> e ahigetz es lengües que parlatz. En estrèm inferior dret i aurà ua lista de traduccions nomentades <strong>Locales</strong>. Es traduccions se mòstren en lòc web londeman.
+about-playbook-how-localize-content-4 = Eth lòc ei prèst entà èster publicat quan arribe ath 75% dera finalizacion.
+about-playbook-how-localize-content-5 = Guardatz eth vidèo explicatiu entà ajudar-vos
 
 ## How to add sentences
 
+about-playbook-how-add-sentences = Com i ahigi frases?
+about-playbook-how-add-sentences-content-1 = <strong>Sentence Collector</<scAccountLink>strong> Ei un estrument entà recuélher e validar frases de domeni public. Auratz de <scAccountLink>crear un compde</scAccountLink>. Ara seguida, ahigetz era vòsta lengua ath <strong>perfil</strong>. I podetz <strong>ahíger</strong> frases o <strong>revisar</strong> es frases ahijudes anterioraments.
+about-playbook-how-add-sentences-content-2 = Es frases an d’èster revisades e acceptades per dues persones entà èster includides en Common Voice. Creatz directritzes entara vòsta lengua <languageGuidelinesLink>ací</languageGuidelinesLink>. Es frases an d’èster de <licenseLink>domeni public</licenseLink> e an d’auer mens de 15 paraules. Podetz demanar ath proprietari d'un tèxte que lo hèsque <waiverLink>CC0 mejançant eth nòste procès d'exempcion</waiverLink> e mos l'envie tà commonvoice@mozilla.com
+about-playbook-how-add-sentences-content-3 = Podetz emplegar eth <scraperLink>Extractor de frases</scraperLink> entà profitar frases cuertes dera Wikipèdia.<scraperLink>
+about-playbook-how-add-sentences-content-4 = Es frases que s'an validat s'expòrten eth dimèrcles e son disponibles dempús deth següent lançament.
 
 ## How to record quality
 
+about-playbook-how-record-quality = Com enregistri un talh de votz de nauta qualitat?
+about-playbook-how-record-content-1 = Parlatz damb era votz normau! Ací, era vòsta manèra de parlar ei benvenguda: volem eth vòste accent tau com ei, e volem eth vòste volum, estil e entonacion abituaus.
+about-playbook-how-record-content-2 = Evitatz massa tapatge de hons: aurie d’èster facil d'entener-vos.
+about-playbook-how-record-content-3 = Liegetz atentaments era frasa: non ometetz, cambietz ne i ahijatz cap de paraula.
+about-playbook-how-record-content-4 = Asseguratz-vos qu'era plataforma enregistre abans de començar a parlar e que sonque s'arture quan ajatz acabat.
+about-playbook-how-record-content-5 = <accuracyLink>Vedetz mès informacion sus es critèris de precision.</accuracyLink>
 
 ## How to grow language
 
+about-playbook-how-grow-language = Com podem hèr a créisher ua lengua de manèra efectiva en Common Voice?
+about-playbook-how-grow-language-content-1 = Era creacion d'oportunitats pr’amor qu'ua diuersitat de persones contribuïsque a Common Voice garantís qu'eth conjunt de donades servisque a tantes persones coma sigue possible. Auem creat recorsi e plantilhes que podetz emplegar!
+about-playbook-how-grow-language-content-2 = Eveniments
+about-playbook-how-grow-language-content-3 = Podetz organizar eveniments entà ajudar ara gent a collaborar. Ei mès facil que non pensatz. Ac podetz hèr en linha damb un estrument de videoconferéncia, o en persona s'ei segur.  <eventTemplate>Consultatz es plantilhes e recorsi entà organizar eveniments</eventTemplate>.
+about-playbook-how-grow-language-content-4 = Mejans de comunicacion sociau
+about-playbook-how-grow-language-content-5 = Podetz utilizar es plataformes de hilats sociaus entà enviar eth messatge. Compartitz publicacions qu’expliquen perqué ei importanta e metetz-vos en contacte damb d’autes persones que parlen d'ahèrs coma es drets lingüistics, era intelligéncia artificiau de votz o es tendéncies tecnologiques. Vedetz mès conselhs sus com executar ua campanha sociau, includit eth contengut que podetz reutilizar.
 
 ## How to validate
 
