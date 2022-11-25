@@ -258,7 +258,7 @@ export default class API {
 
   saveAnonymousAccountLanguages(data: {
     languages: UserLanguage[];
-  }): Promise<void> {
+  }): Promise<UserClient> {
     return this.fetch(`${API_PATH}/anonymous_user`, {
       method: 'PATCH',
       body: data,
