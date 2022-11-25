@@ -42,7 +42,6 @@ export namespace User {
 
   enum ActionType {
     UPDATE = 'UPDATE_USER',
-    UPDATE_ANONYMOUS_USER = 'UPDATE_ANONYMOUS_USER',
     TALLY_RECORDING = 'TALLY_RECORDING',
     TALLY_VERIFICATION = 'TALLY_VERIFICATION',
   }
@@ -121,12 +120,12 @@ export namespace User {
       async (dispatch: Dispatch<UpdateAction>, getState: () => StateTree) => {
         const { api } = getState();
         dispatch({
-          type: ActionType.UPDATE_ANONYMOUS_USER,
+          type: ActionType.UPDATE,
           state: { isFetchingAccount: true },
         });
 
         dispatch({
-          type: ActionType.UPDATE_ANONYMOUS_USER,
+          type: ActionType.UPDATE,
           state: {
             account: await api.saveAnonymousAccountLanguages(data),
             isFetchingAccount: false,
