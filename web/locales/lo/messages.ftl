@@ -1125,6 +1125,7 @@ demo-account = ບັນຊີ
 
 ## Demo Account
 
+demo-account-card-header = ການມີບັນຊີບໍ່ຈໍາເປັນຕ້ອງປະກອບສ່ວນ, ເຖິງແມ່ນວ່າມັນເປັນປະໂຫຍດ.
 demo-account-sign-up = ສົ່ງລິ້ງລົງທະບຽນ
 
 ## Demo Contribute
@@ -1142,8 +1143,10 @@ contribution-criteria-nav = ເງື່ອນໄຂ
 contribution-criteria-page-title = ເງື່ອນໄຂການປະກອບສ່ວນ
 contribution-for-example = ຍົກ​ຕົວ​ຢ່າງ
 contribution-misreadings-title = ການອ່ານຜິດ
+contribution-misreadings-description-extended-list-2 = ຂາດ <strong>'s</strong> ຢູ່ທ້າຍຄຳສັບໃດໜຶ່ງ.
 contribution-misreadings-description-extended-list-5 = ພະຍາຍາມຫຼາຍຄັ້ງເພື່ອອ່ານຄຳສັບໃດໜຶ່ງ.
 contribution-misreadings-example-1-title = ໄດໂນເສົາຍັກໃຫຍ່ຂອງ Triassic.
+contribution-misreadings-example-4-title = ໄດໂນເສົາຍັກໃຫຍ່ຂອງ Triassic. ແມ່ນແລ້ວ.
 contribution-misreadings-example-5-title = ພວກເຮົາກໍາລັງອອກໄປຮັບກາເຟ.
 contribution-misreadings-example-6-title = ພວກເຮົາອອກໄປຮັບກາເຟ.
 contribution-misreadings-example-6-explanation = [ຄວນຈະເປັນ “ເຮົາ”]
