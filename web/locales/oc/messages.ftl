@@ -686,54 +686,59 @@ validated-hours = Ores validades
 recorded-hours = Ores enregistrades
 whats-inside = Qué includís eth conjunt de donades de votz?
 dataset-description-hours =
-    Cada entrada del jòc de donadas es compausat d’un sol fichièr MP3 acompanhat del fichièr tèxt correspondent. Fòrças de las <b>{ $total }</b> oras enregistradas dins lo jòc de donadas inclutz tanben de donadas demograficas, coma l’atge, lo sèxe e l’accent, que pòdon ajudar a melhorar la precision dels motors de reconeissença vocala.
+    Cada entrada deth conjunt de donades consistís en un unic fichèr MP3 e eth fichèr de tèxte corresponent. Fòrça des <b>{ $totaus }</b> ores enregistrades deth conjunt de donades tanben includissen metadades demografiques, coma era edat, eth sèxe e er accent, #que pòden ajudar a melhorar era precision des motors de reconeishença de votz.
     
-    Actualament, lo joc de donadas inclutz <b>{ $valid }</b> oras validadas dins <b>{ $languages }</b> lengas, mas sèm a ajustar mai de voses e lengas. Fasètz una ulhada a nòstra <languagesLink>pagina de lengas</languagesLink> per demandar una lenga o començar de contribuir.
-want-dataset-update = Volètz recebre las actualitats de las nòvas versions de Common Voice ? Marcatz-vos a nòstra infoletra.
-subscribe = S’abonar
-get-started-speech = Introduccion a la reconeissença vocala
-other-datasets = Autres jòcs de donadas
-feedback-q = Avètz de suggestions ?
-data-other-librispeech-description = LibriSpeech es un còpus de quicòm coma 1000 oras de lectura en anglés ( 16 Khz ) derivat de la lectura d’audiolibres del projècte LibriVox.
-data-other-ted-name = Corpus TED-LIUM
-data-other-ted-description = Lo còrpus TED-LIUM es bastit amb de dialogues e lor transcripcions disponiblas sul site TED.
-data-other-voxforge-description = VoxForge foguèt bastit per reculhir de transcripcions vocala per las utilizar dins de motors de reconeissença vocala.
-data-other-tatoeba-description = Tatoeba es una basa de donadas de frasas, traduccion e enregistraments d’àudio per dire d’aprendre de lengas. Aqueste telecargament conten d’enregistraments àudios en anglés enregistrats per la comunautat.
-your-feedback = Avètz d’idèas per melhorar lo jòc de donadas Common Voice ? Digatz-nos sus Discourse
-go-discourse = Anar al Discourse
-missing-language = Vòstra lenga es pas dins lo jòc de donadas ? Per demandar son apondon, anatz a la pagina de lengas.
-go-languages-page = Anar a la pagina de las lengas
-ready-to-validate = Prèst a nos ajudar a validar de frasas ?
-more = Mai
-close = Tampar
-download = Telecargar
+    Actuauments, eth conjunt de donades includís <b>{ $valid }</b> ores validades en <b>{ $languages }</b> lengües, mès constantaments s'i van en tot ahíger mès votzes e lengües. Visitatz era <languagesLink>pagina Lengües</languagesLink> entà sollicitar ua lengua o entà començar a collaborar-i.
+want-dataset-update = Voletz arrecéber actualizacions #quan publicam ua naua version deth conjunt de donades deth Common Voice? Soscriuetz-vos ath nòste bulletin.
+subscribe = Soscriu-me-i
+get-started-speech = Introduccion ara reconeishença de votz
+other-datasets = D’auti conjunts de donades de votz
+feedback-q = Auetz bèth comentari?
+resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ ei un <docsLink>jòc d'estruments de còdi dubèrt</docsLink> entà recercaires que desvolòpen modèls de convèrsa de IA de darrèra generacion.
+resource-deepspeech-info = Eth motor de reconeishença de votz de còdi liure Deep Speech de Mozilla se pòt usar entà crear aplicacions de reconeishença de votz. Liegetz-ne era <githubLink>descripcion generau en Github</githubLink> o visitatz eth <discourseLink>fòrum DeepSpeech en Discourse</discourseLink> entà obtier informacion sus com començar.
+resource-coqui-info = <coquiLink>Coqui</coquiLink> ei dedicat ara tecnologia de votz dubèrta. Es sòns projèctes includissen motors de reconeishença de votz e sintèsi de tèxte basadi en aprendissatge prigond.
+community-playbook = Libre dera comunitat
+resource-playbook-info = <playbookLink>Trobatz orientacions utiles</playbookLink> sus tot eth recorregut de Common Voice, dera localizacion enquiar usatge de conjunts de donades, atau coma sus com connectar damb era nòsta comunitat.
+data-other-librispeech-description = LibriSpeech Ei un còrpus d'apuprètz 1.000 ores de dialògs en anglés liejudi a 16 KHz derivat dera lectura d’audiolibres deth projècte LibriVox.
+data-other-ted-name = Còrpus de TED-LIUM
+data-other-ted-description = Eth còrpus de TED-LIUM se creèc a compdar d’enregistraments d’àudio e es sues transcripcions disponibles en lòc web de TED.
+data-other-voxforge-description = VoxForge Se creèc entà arrecuélher transcripcions de dialògs que se poguen emplegar en motors de reconeishença dera votz de còdi dubèrt.
+data-other-tatoeba-description = Tatoeba ei ua grana basa de donades de frases, traduccions e enregistraments d’àudio entar usatge en aprendissatge de lengües. Aguesta baishada conten toti es enregistraments d'anglés parlat hèti pera comunitat.
+your-feedback = Auetz idèes sus com milhorar eth conjunt de donades deth Common Voice? Hetz-mos-ac a saber en Discourse
+go-discourse = Vè tath Discourse
+missing-language = Non vedetz era vòsta lengua en conjunt de donades? Entà sollicitar ua lengua, anatz tara pagina de lengües.
+go-languages-page = Vè tara pagina de lengües
+ready-to-validate = Ètz prèst/a entà validar frases?
+more = Mès
+close = Barra
+download = Baisha
 dataset-version = Version
 
 ## Download Modal
 
-download-title = Lo telecargament a començat
-download-helpus = Ajudatz-nos a construir una comunautat a l’entorn de las tecnologias de votz, demoratz al fial per corrièl.
+download-title = A començat era baishada.
+download-helpus = Ajudatz-mos a bastir ua comunitat ath torn des tecnologies de votz, mantietz-vos eth contacte per corrèu electronic.
 download-form-email =
-    .label = Picatz vòstra adreça electronica
-    .value = Mercés, vos tenem al fial.
-download-back = Tornar als jòcs de donadas Common Voice
-download-no = Non mercés
+    .label = Introdusitz era vòsta adreça electronica
+    .value = Mercés, seram eth contacte.
+download-back = Torna tàs conjunts de donades deth Common Voice
+download-no = Non, gràcies
 
 ## Contact Modal
 
 contact-title = Formulari de contacte
 contact-form-name =
-    .label = Nom
+    .label = Nòm
 contact-form-message =
-    .label = Messatges
-contact-required = *requesit
+    .label = Messatge
+contact-required = * de besonh
 
 ## Request Language Modal
 
-request-language-title = Demanda de lenga
+request-language-title = Sollicitud de lengua
 request-language-form-language =
-    .label = Lenga
-request-language-success-title = Proposicion de lenga enviada, mercés.
+    .label = Lengua
+request-language-success-title = Era sollicitud de lengua s'a enviat corrèctaments, gràcies.
 request-language-success-content = Vos contactarem lèu lèu amb mai d’informacions sus la manièra d’ajustar vòstra lenga a Common Voice.
 select-language = Seleccionatz una lenga...
 other-language = Autra lenga
