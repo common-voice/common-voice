@@ -495,6 +495,7 @@ faq-why-my-lang-a =
     Common Voice platformeke çavkanî-girse ye û hemû ziman ji aliyê dilxwazan ve hatine tevlîkirin.
     Em pir dixwazin ku hûn jî zimanê xwe tevlî bikin! <languageRequestLink>Daxwaza tevlîkirina zimanê xwe bike.</languageRequestLink>
 faq-what-quality-q = Ji bo klîbeke dengî di komdaneyê de were bikaranîn divê asta kalîîteya dengî çawa be?
+faq-what-quality-a = Em dixwazin komdaneya Common Voiceê ji bo rahênana motora nivîs ji axaftinê kalîteya dengên beyarê peyda bike, ji ber vê yekê em li cihêrengiyê digerin. Ji bilî axiverên ciyawaz, komdaneyeke bi kalîteya dengên cihêreng ew ê karibe motora nivîs ji axaftinê tevî wîzewîza paşxanê û dengên erebeyan jî fêrî hêrandina axaftina rojane bike. Heke dengê te fambar be wê demê em dikarin bibêjin ew ji bo komdaneyê têra xwe baş e.
 faq-why-10k-hours-q = Çima ji bo her zimanekî hedefeke bi qasî 10,000 saet klîbên dengî yên piştrastkirî heye?
 faq-why-10k-hours-a = Ev hejmara teqrîbî ya saetên pêwîst yê ji bo perwerdekirina sîstemeke ji-xeberdanê-kirin-nivîsê (speech-to-text) ye.
 faq-how-calc-hours-q = Common Voice saetan çawa hesab dike?
