@@ -651,38 +651,40 @@ review-submit-title = Revisatz e enviatz-ac
 review-submit-msg = Gràcies peth vòste enregistrament!<lineBreak></lineBreak>Ara seguida podetz revisar e enviar es vòsti talhs de votz.
 review-recording = Revisa
 review-rerecord = Torna a enregistrar
-review-cancel = Anullar lo mandadís
-review-keep-recordings = Servar los enregistraments
-review-delete-recordings = Suprimir mos enregistraments
+review-cancel = Anulla er enviament
+review-keep-recordings = Conserva es enregistraments
+review-delete-recordings = Suprimís es mèns enregistraments
 
 ## Datasets Page
 
-datasets-heading = Jòcs de donadas
-datasets-headline = Sèm a crear un jòc de donadas vocalas liure que tot lo monde pòt utilizar per entrenar d’aplicacions utilizan la reconeissença vocala.
+datasets-heading = Conjunts de donades
+datasets-headline = Cream un conjunt de donades de votzes dubèrt e multilingüe que toti pòden emplegar entà entrenar aplicacions qu’utilizen era votz.
 datasets-positioning =
-    Pensam que metre de grands jòcs de donadas a la disposicion de totòm favoriza l'innovacion e una concurréncia sana per las tecnologias qu'utilizan la votz e que son basadas sus l'aprendissatge automatic.
+    Credem qu'uns conjunts de donades grani e disponibles publicaments promoiràn era innovacion e era competéncia comerciau sana ena tecnologia dera votz basada en aprendissatge automatic. 
     
-    Lo jòc de donadas multilingüe de Common Voice es ja lo mai grand jòc de donadas disponible d'aquesta mena, mas es pas lo sol.
-    Aquesta pagina de referéncia lista d'autras referéncias open source e, a flor e a mesura de l'evolucion de Common Voice, prepausarà tanben nòstras mesas a jorn a venir.
-language = Lenga
+    Eth conjunt de donades multilingües deth Common Voice ja ei eth conjunt de donades de votz disponible publicaments mès gran deth sòn tipe, mès non er unic. 
+    
+    Consideratz aguesta pagina coma punt centrau de referéncia sus es auti conjunts de donades de votz dubèrti e, a mesura qu'eth Common Voice vage creishent, era pagina a on anonciaram es actualizacions des versions.
+language = Lengua
+download-dataset-header = Baisha es conjunts de donades
 # File size in gigabytes
-size = Talha
-validated-hr-total = Total d'oras validadas
-overall-hr-total = Total d'oras
+size = Mesura
+validated-hr-total = Ores validades totaus
+overall-hr-total = Ores totaus
 cv-license = Licéncia
-audio-format = Format àudio
-number-of-voices = Nombre de voses
-splits = Reparticion
-email-to-download = Picatz una adreça electronica per telecargar
-why-email = <b>Perqué un corrièl ?</b>Poiriá arribar qu’ajam de vos contactar tocant de modificacions sul jòc de donadas, vòstra adreça nos permetrà aquò.
-confirm-size = Sètz per aviar un telecargament de <b>{ $size }</b>
-size-gigabyte = Go
-size-megabyte = Mo
-confirm-no-identify = <b>Acceptatz</b> d’ensajar pas de determinar l’identitat dels locutors del jòc de donadas de Common Voice
-download-language = Telecargar { $language }
-validated-hours = Oras validadas
-recorded-hours = Oras enregistradas
-whats-inside = Qu’es dins lo jòc de donadas de Common Voice ?
+audio-format = Format d'àudio
+number-of-voices = Nombre de votzes
+splits = Divisions
+email-to-download = Introdusitz era adreça electronica entà baishar
+why-email = <b>Perqué ua adreça electronica?</b> Ei ua forma de contacte en cas de que mos calguesse méter en contacte en un futur per cambis en conjunt de donades.
+confirm-size = Sò prèst entà iniciar ua baishada de <b>{ $size }</b>
+size-gigabyte = GB
+size-megabyte = MB
+confirm-no-identify = <b>Accèpti</b> non sajar determinar era identitat des parlants deth conjunt de donades deth Common Voice
+download-language = Baisha ({ $language })
+validated-hours = Ores validades
+recorded-hours = Ores enregistrades
+whats-inside = Qué includís eth conjunt de donades de votz?
 dataset-description-hours =
     Cada entrada del jòc de donadas es compausat d’un sol fichièr MP3 acompanhat del fichièr tèxt correspondent. Fòrças de las <b>{ $total }</b> oras enregistradas dins lo jòc de donadas inclutz tanben de donadas demograficas, coma l’atge, lo sèxe e l’accent, que pòdon ajudar a melhorar la precision dels motors de reconeissença vocala.
     
