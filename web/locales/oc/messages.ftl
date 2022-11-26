@@ -772,33 +772,33 @@ request-language-error = Dilhèu non auem recebut aguesta sollicitud. Enviatz-mo
 language-section-in-progress = En cors
 language-section-in-progress-new-description = Aguestes lengües son eth desvolopament per part dera comunitat. Es barres de progrès indiquen guaire fauta entà completar era fasa de <localizationGlossaryLink>traduccion deth lòc web</localizationGlossaryLink> e era <sentenceCollectionGlossaryLink>recuelhuda de frases</sentenceCollectionGlossaryLink>.
 language-section-launched = En produccion
-language-section-launched-description = Per aquestas lengas en produccion lo site web foguèt <localizationGlossaryLink>traduch</localizationGlossaryLink> complètament, e a pro de <sentenceCollectionGlossaryLink>frasas collectadas</sentenceCollectionGlossaryLink>per acceptar de contribucions <speakLink>oralas</speakLink> e <listenLink>d’escota</listenLink>.
-languages-show-more = Ne veire mai
-languages-show-less = Ne veire mens
+language-section-launched-description = Entad aguestes lengües en produccion, s'a <localizationGlossaryLink>tradusit</localizationGlossaryLink> entèrament eth lòc web e an pro <sentenceCollectionGlossaryLink>frases arrecuelhudes</sentenceCollectionGlossaryLink> entà acceptar contribucions de <speakLink>Parlar</speakLink> e <listenLink>Escota</listenLink>.
+languages-show-more = Mòstra’n mès
+languages-show-less = Mòstran mens
 language-meter-in-progress = En cors
-language-total-progress = Total
+language-total-progress = Totau
 language-search-input =
-    .placeholder = Recercar
+    .placeholder = Cerca
 language-speakers = Locutors
 localized = Traduccion
-sentences = Frasas
-language-validation-hours = Oras
+sentences = Frases
+language-validation-hours = Ores
 
 ## Contribution
 
-action-click = Clicatz
+action-click = Hec clic a
 action-tap = Tocatz
-contribute = Contribuir
-listen = Escotar
-skip = Passar
-shortcuts = Acorchis
+contribute = Collaboratz‑i
+listen = Escota
+skip = Omet
+shortcuts = Dreceres
 clips-with-count-pluralized =
     { $count ->
-        [one] <bold>{ $count }</bold> mòstra
-       *[other] <bold>{ $count }</bold> mòstras
+        [one] <bold>{ $count }</bold> talh
+       *[other] <bold>{ $count }</bold> talhs
     }
-goal-help-recording = Gràcias a vos Common Voice a atengut <goalPercentage></goalPercentage> del seu objectiu quotidian de { $goalValue }{ $goalValue } enregistraments !
-goal-help-validation = Gràcias a vos Common Voice a atengut <goalPercentage></goalPercentage> del seu objectiu quotidian de { $goalValue }{ $goalValue } validacions !
+goal-help-recording = Auetz ajudat ath Common Voice a arténher eth  <goalPercentage></goalPercentage> der objectiu diari de { $goalValue } enregistraments!
+goal-help-validation = Auetz ajudat ath Common Voice a arténher eth <goalPercentage></goalPercentage> der objectiu diari de { $goalValue } validacions!
 contribute-more = Prèst a ne far { $count } mai ?
 record-cta = Començar l’enregistrament
 record-platform-not-supported = O planhèm, mas vòstra plataforma es pas compatibla pel moment.
