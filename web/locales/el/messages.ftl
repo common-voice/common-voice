@@ -1537,6 +1537,7 @@ localization-select =
 # PARTNERSHIPS PAGE
 partnerships-header = Συνεργασίες
 partnerships-get-in-touch = Επικοινωνία
+partnerships-become-a-partner = Γίνετε συνεργάτης του Common Voice
 partnerships-foundations-header = Ιδρύματα
 partnerships-governments-header = Kυβερνήσεις
 partnerships-academia-header = Πανεπιστήμια, ακαδημαϊκοί και ερευνητές
