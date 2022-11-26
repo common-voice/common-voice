@@ -576,6 +576,7 @@ about-playbook-how-add-language = Ez çawa dikarim zimanekî tevlî bikim?
 about-playbook-how-add-language-translating-heading = Wergerandina malperê
 about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Ji bo çawaniya bikaranînê ya Pontoonê li rêbernameya me temaşe bike.</translateVideoLink>
 about-playbook-how-add-language-collecting-sentences-heading = Komkirina hevokan
+about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>Li rêbernameya me ya Berhevkara Hevokan temaşe bike</sentenceCollectorVideo>.
 about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>Li ser berhevkirina hevokan agahiyên zêdetir bibîne</sentenceCollectorFragment>.
 
 ## How does localization work
