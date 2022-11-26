@@ -828,49 +828,56 @@ record-abort-submit = Envia es talhs
 record-abort-continue = Finaliza er enregistrament
 record-abort-delete = Ges e suprimís es talhs
 listen-instruction = { $actionType } <playIcon></playIcon> An prononciat era frasa corrèctaments?
-listen-again-instruction = Polit trablah !<playIcon></playIcon>Escotatz de nòu quand siatz prèst
-listen-3rd-time-instruction = Encara 2, gardatz lo ritme !<playIcon></playIcon>
-listen-last-time-instruction = <playIcon></playIcon>Lo darrièr !
-listen-empty-state = Avèm pas mai de frasas a validar per aquesta lenga...
-speak-empty-state = Avèm pas mai de frasas a enregistrar per aquesta lenga...
-speak-empty-state-cta = Prepausar de frasas
-record-button-label = Enregistrar vòstra votz
-share-title-new = <bold>Ajudatz-nos</bold> a trobar mai de voses
-keep-track-profile = Seguissètz vòstra progression en crear un perfil
-login-to-get-started = Connectatz-vos o marcatz-vos per començar
-target-segment-first-card = Contribuissètz al primièr segment vòstre
-target-segment-first-banner = Ajudatz a crear lo primièr segment cibla de Common Voice en { $locale }
-target-segment-add-voice = Donatz vòstra votz
-target-segment-learn-more = Ne saber mai
+listen-again-instruction = Bon trabalh!  <playIcon></playIcon> Escotatz un aute viatge quan sigatz prèst/a
+listen-3rd-time-instruction = 2 mens! Mantietz eth ritme! <playIcon></playIcon>
+listen-last-time-instruction = <playIcon></playIcon> Eth darrèr!
+listen-empty-state = Non i a cap mès talh entà validar en aguesta lengua...
+listen-loading-error =
+    Non auem podut arténher cap de talh de votz entà que lo revisetz.
+    Tornatz-ac a sajar mès tard.
+speak-empty-state = Non i a cap mès de frasa entà enregistrar en aguesta lengua...
+speak-empty-state-cta = Aportatz frases
+speak-loading-error =
+    Non auem pogut cargar es oracions.
+    Se vos platz, tornatz-ac a sajar mès tard.
+record-button-label = Enregistratz era vòsta votz
+share-title-new = <bold>Ajudatz-mos</bold> a trobar mès votzes
+keep-track-profile = Hètz seguiment deth vòste progrès damb un perfil
+login-to-get-started = Iniciatz session o creatz un compde entà començar
+target-segment-first-card = Collaboratz en nòste prumèr segment objectiu
+target-segment-generic-card = Collaboratz en un segment objectiu
+target-segment-first-banner = Ajudatz a arténher eth prumèr segment objectiu deth Common Voice en { $locale }
+target-segment-add-voice = Ahigetz era vòsta votz
+target-segment-learn-more = Mès informacion
 
 ## Reporting
 
-report = Senhalar
-report-title = Enviar un rapòrt
-report-ask = Qual problèma avètz amb aquesta frasa ?
-report-offensive-language = Lengatge grossièr
-report-offensive-language-detail = La frasa compòrta de prepauses irrespectuoses o grossièrs.
-report-grammar-or-spelling = Error gramaticala / ortografica
-report-grammar-or-spelling-detail = La frasa a una error gramaticala o una deca.
-report-different-language = Autra lenga
-report-different-language-detail = La frasa es escricha en una lenga diferenta de la que parli
-report-difficult-pronounce = De mal prononciar
-report-difficult-pronounce-detail = Content de paraulas o frasas que son de mal legir o prononciar.
-report-offensive-speech = Lengatge grossièr
-report-offensive-speech-detail = La mòstra conten de contengut irrespectuós o ofensiu.
+report = Informa
+report-title = Enviatz un repòrt
+report-ask = Quin problèma auetz damb aguesta frasa?
+report-offensive-language = Lenguatge ofensiu
+report-offensive-language-detail = Era frasa a un lenguatge ofensiu o irrespectuós.
+report-grammar-or-spelling = Error gramaticau / ortografic
+report-grammar-or-spelling-detail = Era frasa a un error gramaticau o ortografic.
+report-different-language = Ua auta lengua
+report-different-language-detail = Ei escrita en ua lengua diferenta dera que parli.
+report-difficult-pronounce = De mau prononciar
+report-difficult-pronounce-detail = Conten paraules o frases de mau liéger o prononciar.
+report-offensive-speech = Àudio ofensiu
+report-offensive-speech-detail = Eth talh a un lenguatge ofensiu o irrespectuós.
 report-other-comment =
     .placeholder = Comentari
-success = Succès !
-continue = Contunhar
-report-success = Lo rapòrt es estat mandat amb succès !
+success = Corrècte
+continue = Seguís
+report-success = Er informe s'a enviat corrèctament
 
 ## Goals
 
-streaks = Serias
+streaks = Seguides
 days =
     { $count ->
-        [one] Jorn
-       *[other] Jorns
+        [one] Dia
+       *[other] Dies
     }
 recordings =
     { $count ->
@@ -885,43 +892,43 @@ validations =
 
 ## Dashboard
 
-your-languages = Vòstras lengas
-toward-next-goal = Cap al seguent objectiu
-goal-reached = Objectiu atengut
-clips-you-recorded = Mòstras qu’enregistrèretz
-clips-you-validated = Mòstras que validèretz
-todays-recorded-progress = Progression d’uèi de Common Voice tocant las mòstras enregistradas
-todays-validated-progress = Progression d’uèi de Common Voice tocant las mòstras validadas
-stats = Estatisticas
-awards = Premis
+your-languages = Es vòstes lengües
+toward-next-goal = Tath següent objectiu
+goal-reached = S'a artenhut er objectiu
+clips-you-recorded = Talhs qu’auetz enregistrat
+clips-you-validated = Talhs qu’auetz validat
+todays-recorded-progress = Progrès d'aué deth Common Voice en çò que tanh a talhs enregistradi
+todays-validated-progress = Progrès d'aué deth Common Voice en çò que tanh a talhs validadi
+stats = Estadistiques
+awards = Distincions
 you = Vos
-everyone = Tot lo monde
-contribution-activity = Activitat de contribucion
-top-contributors = Los contributors mai gròsses
-recorded-clips = Mòstras enregistradas
-validated-clips = Mòstras validadas
-total-approved = Total aprovat
-overall-accuracy = Precision globala
-set-visibility = Definir ma visibilitat
-visibility-explainer = Aqueste paramètre contròla vòstra visibilitat dins la classificacion. Quand es resconduda, vòstra progression serà privada. Aquò significa que vòstre imatge, nom d’utilizaire e vòstra progression apreissaràn pas dins la classificacion. Notatz l’actualizacion de la classificacion triga { $minutes } minutas a mostrar los cambiaments.
-visibility-overlay-note = Nòta : quand es definit sus « Visible », aqueste paramètre pòt èsser cambiat de la pagina <profileLink>Perfil</profileLink> estant.
-show-ranking = Veire mon classament
+everyone = Toti/es
+contribution-activity = Activitat de collaboracion
+top-contributors = Collaboradors mès actius
+recorded-clips = Talhs enregistradi
+validated-clips = Talhs validadi
+total-approved = Totau d'aprovadi
+overall-accuracy = Precision globau
+set-visibility = Definís era mia visibilitat
+visibility-explainer = Aguesta opcion contròtle era vòsta visibilitat en classament. S'ei amagada, eth vòste progrès serà privat. Açò signifique qu'era vòsta imatge, nòm d'usatgèr e progrès non apareisheràn en classament. Ajatz en compde qu'era actualizacion deth classament trigue { $minutes } menutes a mostrar es cambis, apuprètz.
+visibility-overlay-note = Nòta: s'ei definit coma «Visible», açò se pòt cambiar ena pagina deth perfil
+show-ranking = Mòstra eth mèn classament
 
 ## Custom Goals
 
-get-started-goals = Creatz vòstres objectius
-create-custom-goal = Crear un objectiu personalizat
-goal-type = Quina mena de tòca volètz construire ?
-both-speak-and-listen = Far los dos
-both-speak-and-listen-long = Los dos (parlar e escotar)
-daily-goal = Objectiu quotidian
-weekly-goal = Objectiu setmaniè
+get-started-goals = Introduccion as objectius
+create-custom-goal = Creatz un objectiu personalizat
+goal-type = Quin tipe d'objectiu voletz crear?
+both-speak-and-listen = Ambdús
+both-speak-and-listen-long = Ambdús (Parla e Escota)
+daily-goal = Objectiu diari
+weekly-goal = Objectiu setmanau
 easy-difficulty = Facil
-average-difficulty = Normal
-difficult-difficulty = Dificil
-pro-difficulty = Professional
-lose-goal-progress-warning = En modificar l’objectiu, podètz pèrdre lo progrès actual.
-want-to-continue = Volètz contunhar ?
+average-difficulty = Normau
+difficult-difficulty = Malaisit
+pro-difficulty = Professionau
+lose-goal-progress-warning = En editar er objectiu, podetz pèrder eth progrès actuau.
+want-to-continue = Voletz seguir?
 finish-editing = Volètz terminar las modificacions ?
 lose-changes-warning = Se sortissètz ara, perdretz vòstres cambiaments
 build-custom-goal = Crear un objectiu personalizat
