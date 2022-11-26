@@ -612,41 +612,45 @@ hours-validated-explanation = Recompde des ores d’enregistrament de votz que s
 sst = Votz a tèxte (Speech-to-text, STT)
 sst-explanation = Es tecnologies de votz a tèxte (STT) convertissen es donades de votz en tèxte.
 de-identified = Anonimizacion
-de-identified-explanation = Procès que permet que las informacions del perfil dels contributors sián pas ligadas a las mòstras de votz per la preparacion del jòc de donadas.
+de-identified-explanation = Procès peth quau era informacion deth perfil d'un collaborador s'amague des talhs de votz qu’an dat quan s’empaqueten entà baishar-les coma part deth conjunt de donades.
 
 ## Error pages
 
-error-title-404 = Vos avèm pas trobada aquesta pagina
+error-title-404 = Non s’a trobat aguesta pagina
+error-content-404 = Dilhèu vos pòt ajudar eth nòste <homepageLink>pagina d'inici</homepageLink>? S'auetz bèra qüestion, junhetz-vos ath <matrixLink>chat dera comunitat a Matrix</matrixLink>, supervisatz es problèmes deth lòc mejançant eth <githubLink>GitHub</githubLink> o visitatz es nòstes <discourseLink>fòrums deth Discourse</discourseLink>.
+error-title-503 = Eth lòc web non ei disponible temporauments
+error-content-503 = Eth lòc tornarà a èster disponible çò de mès lèu possible. Entà veir era informacion mès actuau, junhetz-vos ath <matrixLink>chat dera comunitat a Matrix</matrixLink>, o visitatz eth <githubLink>GitHub</<discourseLink>githubLink> o es nòstes <githubLink>fòrums deth Discourse</githubLink> entà enviar e supervisar es problèmes qu’experimentetz en lòc.
 error-code = Error { $code }
 
 ## Data
 
-data-download-button = Telecargar las donadas Common Voice
+data-download-button = Baisha es donades deth Common Voice
 data-download-yes = Òc
 data-download-deny = Non
 data-download-license = Licéncia : <licenseLink>CC-0</licenseLink>
-data-download-modal = Sètz a man de telecargar un fichièr de <size>{ $size } Go</size>, volètz contunhar ?
-data-subtitle = Cream un jòc de donadas de voses dubert e public accessible, que tot lo monde pòt utilizar per entrenar d’aplicacions qu’utilizen la votz.
-data-explanatory-text = Pensam que d'importants jòcs de donadas publicament accessibles favorizan l'innovacion e participan a la mesa en plaça d'una concurréncia sana per las tecnologias vocalas qu'utilizan l'aprendissatge automatic. Es un esfòrç mondial e convidam tot lo monde a i prendre part. Nòstre objectiu es de far que la tecnologia de la votz siá mai inclusiva e que pòsca rebatre la diversitat de las voses del monde entièr.
-data-get-started = <speechBlogLink>Primièrs passes amb la reconeissença vocala</speechBlogLink>
-data-other-title = Autres jòcs de donadas…
-data-other-goto = Veire { $name }
-data-other-download = Telecargar las donadas
-data-bundle-button = Telecargar lo paquet del jòc de donadas
-data-bundle-description = Donadas de Common Voice e totes los jòcs de donadas çai-jos.
+data-download-modal = Ètz prèst entà iniciar ua baishada de <size>{ $size } GB</size>, voletz seguir?
+data-subtitle = Cream un conjunt de donades de votzes dubèrtes e disponibles publicaments que toti pòden utilizar entà entrenar aplicacions qu’empleguen era votz.
+data-explanatory-text = Credem qu'uns conjunts de donades grani e disponibles publicaments promoiràn era innovacion e era competéncia comerciau sana ena tecnologia dera votz basada en aprendissatge automatic. Aguest ei un esfòrç globau e convidam a toti a participar-i. Eth nòste objectiu ei hèr qu’era tecnologia dera votz sigue mès inclusiva e rebate era diuersitat de votzes de tot eth mon.
+data-get-started = <speechBlogLink>Prumèrs passi ena reconeishença dera votz</speechBlogLink>
+data-other-title = D’auti conjunts de donades de votz…
+data-other-goto = Vè’n tà { $name }
+data-other-download = Baisha es donades
+data-bundle-button = Baisha eth paquet deth conjunt de donades
+data-bundle-description = Donades deth Common Voice mès toti es conjunts de donades de votz anteriors.
 release-version = Version
 dataset-date = Data
 license = Licéncia : <licenseLink>{ $license }</licenseLink>
 license-mixed = Mixta
-data-download-singleword-title = Telecargar lo segment cibla de mot unic
-review-terms = En utilizar Common Voice, acceptatz las <termsLink>Conditions d’utilizacion<privacyLink>Politica de confidencialitat</privacyLink>
-terms-agree = Accepti
-terms-disagree = Accepti pas
-review-aborted = Mandadís anullat. Volètz suprimir vòstras mòstras ?
-review-submit-title = Repassar e enviar
-review-submit-msg = Mercés pels vòstres enregistraments !<lineBreak></lineBreak>Podètz ara repassar vòstras mòstras de votz çai-jos.
-review-recording = Verificacion
-review-rerecord = Tornar enregistrar
+data-download-singleword-title = Baishatz eth segment especific damb paraules individuaus
+data-download-singleword-callout-v2 = Açò ei segmentacion de casi d'usatge que conten donades entà potenciar era reconeishença des digits e era deteccion des paraules «òc» e «non».
+review-terms = En usar Common Voice, acceptatz es <termsLink>condicions d'usatge</termsLink> e eth <privacyLink>avertiment de privadança</privacyLink>
+terms-agree = D'acòrd
+terms-disagree = Non i sò d'acòrd
+review-aborted = S'a anullat er enviament. Voletz suprimir es vòsti enregistraments?
+review-submit-title = Revisatz e enviatz-ac
+review-submit-msg = Gràcies peth vòste enregistrament!<lineBreak></lineBreak>Ara seguida podetz revisar e enviar es vòsti talhs de votz.
+review-recording = Revisa
+review-rerecord = Torna a enregistrar
 review-cancel = Anullar lo mandadís
 review-keep-recordings = Servar los enregistraments
 review-delete-recordings = Suprimir mos enregistraments
