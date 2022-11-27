@@ -64,7 +64,7 @@
     "@types/redlock": "4.0.3",
     "@types/request-promise-native": "1.0.18",
     "@types/universal-analytics": "0.4.5",
-    "dotenv": "16.0.0",
+    "dotenv": "16.0.3",
     "jest": "27.5.1",
     "jest-matcher-utils": "27.5.1",
     "source-map-support": "0.5.21",
