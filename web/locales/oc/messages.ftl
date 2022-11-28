@@ -1144,20 +1144,61 @@ sc-header-my = Es mies frases
 sc-header-statistics = Estadistiques
 sc-header-profile = Perfil
 sc-footer-discourse = Discourse
-sc-footer-privacy = Vida privada
-sc-footer-terms = Condicions
+sc-footer-report-bugs = Informa de problèmes
+sc-footer-translate = Revira aguesta pagina
+sc-footer-report-copyright = Informa de problèmes de drets d'autor
+sc-footer-privacy = Privadança
+sc-footer-terms = Condicions d'usatge
 sc-footer-cookies = Cookies
-sc-login-signup-button = Se connectar / S’inscriure
-sc-logout-button = Desconnexion
+sc-login-signup-button = Inici de session / Registre
+sc-logout-button = Barra era session
 
 ## HOME
 
+sc-home-title = Vos dam era benvenguda ath Common Voice Sentece Collector
+sc-home-intro = Eth Sentence Collector ei part deth <commonVoiceLink>Common Voice</commonVoiceLink>. Permet as collaboradors de recuélher e validar frases creades pera comunitat. Tanben podetz usar aguest estrument entà importar e netejar còrpus de domeni public de mesura petita e mejana qu’ajatz trobat o recuelhut. Totes es frases an d’èster de domeni public. Es frases aprovades s'expòrten cada setmana tath repositòri deth Common Voice e son disponibles en lòc web deth Common Voice en cada nau desplegament.
+sc-home-collect-title = Recuelh frases
+sc-home-collect-text = Ajudatz-mos en tot escríuer o en tot recuélher frases de domeni public.
+sc-home-review-title = Revisea es frases
+sc-home-review-text = Ajudatz-mos en tot revisar era correccion des frases segon ues directritzes.
 
 ## GENERAL
 
+sc-languages-fetch-error = Non auem podut obtier es lengües disponibles. Actuaument non se pòden hèr aportacions. Provatz-ac mès tard.
 
 ## HOW-TO
 
+sc-howto-title = Com se hè entà
+sc-howto-addlang-title = Ahíger lengües entà trabalhar-i
+sc-howto-addlang-text = Un còp auetz iniciat session, podetz escuélher es lengües ena seccion deth perfil.
+sc-howto-addsen-title = Ahíger frases naues
+sc-howto-addsen-item-1 = Totes es frases qu’enviatz an d’auer <wikipediaLink>licéncia de domeni public (CC-0)</wikipediaLink>. Entà perméter er includiment de trabalh que non a licéncia de domeni public, auem creat ua <cc0WaiverLink>plantilha d'acòrd de collaboracion</cc0WaiverLink> entàs trabalhs en qu'eth proprietari des drets d'autor volgue aportar eth materiau ath Common Voice.
+sc-howto-addsen-item-2 = Chifres. Non i aurie d’auer cap de digit en tèxte, pr'amor que pòden causar problèmes quan se liegen en votz nauta. Era manèra en qué se lieg un nombre depen deth contèxte e pòt introdusir confusion en conjunt de donades. Per exemple, eth nombre «2409» se poderie liéger corrèctaments coma «vint-e-quate zèro nau» e coma «dus mil quate cents nau», segons eth contèxte.
+sc-howto-addsen-item-3 = Abreviatures e acronims. S’an d’evitar es abreviatures e es acronims coma «USA» o «IEC» en tèxte, pr'amor que se pòden liéger d'ua manèra que non coïncidís damb era sua grafia. Ath delà, i pòt auer diuèrses lectures corrèctes entà ua sola abreviatura. Per exemple, er acrònim «UAB» se pòt prononciar "u-a-be", "uab" o coma «Universitat Autonòma de Barcelona».
+sc-howto-addsen-item-4 = Puntuacion. Es simbèus especiaus e es signes de puntuacion sonque s’an d’includir quan sigue absolutaments de besonh. Per exemple, en catalan s'usen eth punt volat ena ela geminada e er apostròf deuant de paraules començades per vocau, e se s’aurien d’includir en tèxte, mès ei pòc probable que jamès ajatz de besonh un simbèu especiau coma @ o #.
+sc-howto-addsen-item-5 = Letres estrangères. Es letres an d’èster valides ena lengua que se parle. Per exemple, «ж» ei ua letra der alfabet cirillic, mès non s'emplegue en catalan e, donques, non aurie d’aparéisher jamès en cap de tèxte en catalan.
+sc-howto-addsen-item-6 = Cada lengua pòt auer es sues <validationRulesLink>nòrmes de validacion</validationRulesLink> damb requeriments addicionaus. Se non i a cap de fichèr de validacion especifica entà ua lengua, s’empleguen es nòrmes especifiques der anglés.
+sc-howto-addsen-post-1 = Preferim frases naturaus/conversacionaus. Maugrat qu'era diuersitat fonetica e es diferentes paraules enes frases son importantes, sajam qu'er enregistrament des frases sigue çò de mès de divertit possible. Donques, serie geniau se sajatz qu'es frases siguen tan naturaus e atractives coma sigue possible.
+sc-howto-cite-title = Com citar
+sc-howto-cite-pre-1 = Ei important que hescatz referéncia a on auetz trobat era licéncia publica entà evitar eth plagi e entà perméter eth seguiment de <copyrightIssuesLink>problèmes de drets d'autor</copyrightIssuesLink>. Ací auetz bères manères de citar era òbra.
+sc-howto-cite-item-1 = Podetz includir eth lòc web, per exemple, «Common Voice - https://commonvoice.mozilla.org/»
+sc-howto-cite-item-2 = Podetz utilizar un estil de referéncia academica. P. ex., er estil de Harvard «Mozilla (2021) Common Voice. Disponible en https://commonvoice.mozilla.org/ (Consultat: 15 de seteme de 2021)»
+sc-howto-cite-item-3 = Entath tèxte de domeni public que non ei disponible en linha, podetz utilizar un estil de referéncia academica. P. ex., er estil de Harvard «Jess (2021) Es mèns poèmes en domeni public»
+sc-howto-review-title = Revisar frases
+sc-howto-review-subtitle = Asseguratz-vos qu'era frasa complís es critèris següents:
+sc-howto-review-criteria-1 = Era frasa ei escrita corrèctament, sense fautes d'ortografia.
+sc-howto-review-criteria-2 = Era frasa a d’èster gramaticaument corrècta.
+sc-howto-review-criteria-3 = Era frasa a d’èster prononciabla.
+sc-howto-review-criteria-4 = S'era frasa complís es critèris, hetz clic en boton «Apròva».
+sc-howto-review-criteria-5 = S'era frasa non complís es critèris anteriors, hetz clic en boton «Refusa». Se non n'ètz segur/a, tanben la podetz sautar e passar ara següenta.
+sc-howto-review-criteria-6 = Se demoratz sense frases entà revisar, ajudatz-mos a recuelher-ne mès!
+sc-howto-findpd-title = Trobar frases de domeni public
+sc-howto-findpd-subtitle = Cercatz-ne en Internet
+sc-howto-findpd-text-2 = Arrebrembatz qu'auem de besonh autorizacion entà publicar aguestes frases, per tant asseguratz-vos cada viatge qu'eth tèxte aparten ath <wikipediaLink>domeni public</wikipediaLink>. Se non i a cap d’indicacion explicita, metetz-vos eth contacte damb era persona a qui aparten eth tèxte e demanatz se vò aportar eth tèxte ath domeni public. S'ac vòlen, ajudatz-les a passar peth procès deth <cc0WaiverLink>Acòrd de collaboracions</cc0WaiverLink>. Se non vòlen aportar eth tèxte, non lo podetz emplegar.
+sc-howto-findpd-tips = Ací auetz bèri conselhs entà trobar frases:
+sc-howto-findpd-tips-1 = Es melhores hònts que podetz cercar son podcasts, transcripcions, guidons de pellicules e quinsevolhe causa que pogue contier convèrses quotidianes.
+sc-howto-findpd-tips-2 = Es actes de govèrn, es libres e es articles tanben son excellenti, mès, com qu'eth tèxte acostume a èster un shinhau mès formau, son mens prioritaris.
+sc-howto-findpd-tips-3 = Malerosament, encara non podem auer articles dera Wikipèdia. Ei a díder que non copietz e peguetz tèxte d'aquiu estant.
 
 ## MY SENTENCES
 
