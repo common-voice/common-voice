@@ -1092,16 +1092,19 @@ sc-my-submission = Rusnayîş: { $batchId }
 sc-my-source = Çime: { $source }
 sc-my-delete = Cumleyanê weçîniteyan biestire
 sc-my-deleting = Cumleyê weçîniteyî estirîyenê...
+sc-my-err-failed-delete = Cumleyê weçîniteyî nênê estiritene... Keremê xo ra reyna biceribne!
 
 ## REJECTED
 
 sc-rejected-title = Cumleyê Betalkerdeyî
 sc-rejected-loading = Cumleyê betalkerdeyî bar benê...
+sc-rejected-none-found = Cumleyê betalkerdeyî nêameyî dîyene!
 
 ## STATS
 
 sc-stats-title = Statîstîkî
 sc-stats-updating = Rojane beno...
+sc-stats-error = Ma statîstîkî nêdîyî. Keremê xo ra dima reyna biceribne.
 # Variables:
 #   $sentenceCount (Number) - Total number of sentences uploaded through Sentence Collector
 #   $languageCount (Number) - Total number of languages these sentences represent
@@ -1109,15 +1112,40 @@ sc-stats-summary = Arêdayoxê Cumleyan ê Common Voice { $sentenceCount } cumle
 
 ## ADD
 
+sc-submit-err-select-lang = Keremê xo ra ziwanêk weçîne.
+sc-submit-err-add-sentences = Keremê xo ra cumleyan îlawe bike.
+sc-submit-err-add-source = Keremê xo ra çimeyêk îlawe bike.
+sc-submit-err-confirm-pd = Keremê xo ra tesdîq bike ke nê cumleyî malê pêroyî ra yê.
+sc-submit-prompt =
+    .message = Cumleyî nêameyî rusnayene. Ti raşta wazenî/a vejîyê?
 sc-submit-title = Cumleyan îlawe bike
 sc-submit-select-language =
     .labelText = Ziwan weçîne
+sc-submit-add-sentences = Cumleyanê <wikipediaLink>malê pêroyî yan zî anonîman</wikipediaLink> îlawe bike
+sc-submit-ph-one-per-line =
+    .placeholder = Her rêze de yew cumle bo
 sc-submit-button =
     .submitText = Birusne
+sc-submit-guidelines = Keremê xo ra <howToLink>rayberan</howToLink>de nîyade.
 
 ## ADD LANGUAGE
 
+sc-add-lang-could-not-add = Ziwan îlawe nêbî
 sc-add-lang-sec-button = Ziwanêk îlawe bike
+# Variables:
+#   $duplicates (Number) - Number of sentences which got rejected because they are duplicates
+sc-add-result =
+    { $duplicates ->
+        [0] Cumleyî rusnîyayî. { $duplicates } cumleyê tekrarî ameyî estiritene.
+       *[other] Cumleyî rusnîyayî. { $duplicates } cumleyê tekrarî ameyî estiritene.
+    }
+# Variables:
+#   $sentences (Number) - Number of sentences which failed to be saved to the database - could be several different reasons
+sc-add-err-failed =
+    { $sentences ->
+        [0] Pêro cumleyî bar bîyî.
+       *[other] { $sentences } cumleyî bar nêbîyî.
+    }
 sc-add-err-submission = Xetaya Rusnayîşî
 
 ## ADD SENTENCES CONFIRMATION
@@ -1144,6 +1172,36 @@ sc-confirm-button-text = Tesdîq ke
 
 sc-lang-info-title-total = Pêro pîya
 sc-lang-info-title-personal = Şexsî
+# Variables:
+#   $totalSentences (Number) - Number of sentences uploaded in total for this language
+sc-lang-info-total =
+    { $totalSentences ->
+        [0] Cumleyî çin ê.
+       *[other] Pêro pîya { $totalSentences } cumleyî.
+    }
+# Variables:
+#   $totalInReview (Number) - Number of sentences currently in the review state for this language
+sc-lang-info-in-review =
+    { $totalInReview ->
+        [0] Cumleyê çimçarnayeyî çin ê.
+       *[other] Pêro pîya { $totalInReview } binê çimçarnayîşî de.
+    }
+sc-lang-info-review-now = <reviewLink>Anika çim biçarne!</reviewLink>
+sc-lang-info-add-more = <addLink>Anika cumleyan îlawe bike!</addLink>
+# Variables:
+#   $validatedSentences (Number) - Number of sentences which have been approved for this language
+sc-lang-info-validated =
+    { $validatedSentences ->
+        [0] Cumleyê tesdîqkerdeyî çin ê.
+       *[other] { $validatedSentences } cumleyê tesdîqkerdeyî.
+    }
+# Variables:
+#   $rejectedSentences (Number) - Number of sentences which have been rejected for this language
+sc-lang-info-rejected =
+    { $rejectedSentences ->
+        [0] Cumleyê betalkerdeyî çin ê.
+       *[other] { $rejectedSentences } cumleyê betalkerdeyî.
+    }
 
 ## LOGIN
 
@@ -1167,6 +1225,12 @@ sc-personal-not-added = To hema qet ziwanêk îlawe nêkerdo.
 ## REVIEW CRITERIA
 
 sc-criteria-modal = ⓘ Krîterê Çimçarnayîşî
+sc-criteria-title = Krîterê Çimçarnayîşî
+sc-criteria-make-sure = Baldar be ke cumle rîayetê nê krîteran bikero:
+sc-criteria-item-1 = Ganî cumle raşt binusîyo.
+sc-criteria-item-2 = Ganî cumle hetê gramerî ra raşt bo.
+sc-criteria-item-3 = Ganî merdim bieşko cumle biwano.
+sc-criteria-item-4 = Eke cumle rîayetê nê krîteran kena, destê raştî de gojaga &quot;Tesdîq ke&quot ser o bitikne.
 
 ## REVIEW
 
