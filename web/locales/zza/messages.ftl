@@ -608,6 +608,7 @@ de-identified = Anonîmkerde
 ## Error pages
 
 error-title-404 = Ma no rîpel nêdî
+error-title-503 = Sîteyê ma de problemêko teknîk qewimîya
 error-code = Xeta { $code }
 
 ## Data
@@ -616,6 +617,8 @@ data-download-button = Dayeyanê Common Voice Bîya War
 data-download-yes = Heya
 data-download-deny = Ney
 data-download-license = Lîsans: <licenseLink>CC-0</licenseLink>
+data-download-modal = Ti hawo <size>{ $size }GBan</size> anî/a war. Dewam?
+data-get-started = <speechBlogLink>Dest bi Naskerdişê Qiseykerdişî bike</speechBlogLink>
 data-other-title = Komdayeyê vengî yê bînî…
 data-other-goto = Şo { $name }
 data-other-download = Dayeyan Bîya War
@@ -625,6 +628,7 @@ release-version = Versîyon
 dataset-date = Tarîx
 license = Lîsans: <licenseLink>{ $license }</licenseLink>
 license-mixed = Têmîyan
+data-download-singleword-title = Beşê Hedefî yê Yewçekuyan bîyare war
 terms-agree = Ez qebul kena
 terms-disagree = Ez qebul nêkena
 review-aborted = Barkerdiş betal bî. Ti wazenî/a qeydanê xo biestirê?
@@ -663,10 +667,12 @@ dataset-description-hours =
     
     No taw, komdaye de <b>{ $valid }</b> saetê tesdîqkerdeyî bi <b>{ $languages }</b> ziwanan est ê. Labelê ma timûtim hîna zaf veng û ziwanan îlawe kenîme. De biewnî <languagesLink>sîteyê ma yê Ziwanan<languagesLink> ra û uca yewna ziwan biwaze yan zî dest bi beşdarîya xo bike.
 subscribe = Abone be
+get-started-speech = Dest bi Naskerdişê Qiseykerdişî Bike
 other-datasets = Komdayeyê vengî yê bînî
 feedback-q = Pêşnîyaza to est a?
 community-playbook = Stratejînameyê Komelî
 resource-playbook-info = Derheqê pêroyê raywanîya Common Voice de <playbookLink>hetkarî û rayberîye bivîne</playbookLink>: çarnayîş ra heta xebitnayîşê komdayeyî û komelê ma reyde têkilîkewtiş zî.
+data-other-ted-name = Korpusê TED-LIUMî
 your-feedback = Teba fikrê to est o ke ma komdayeyê Common Voice senî rindêr bikerîme? Discourse ser o ma ra vaje!
 go-discourse = Şo Dîscourse
 missing-language = Ti ziwanê xo komdayeyî de nêvînenî/a? Seba waştişê ziwanêk, şo Rîpelê ma yê Ziwanan.
@@ -781,6 +787,7 @@ record-abort-text = Ti ke nika vejîyenî/a, averşîyayîşo nikayin qeyd nêbe
 record-abort-submit = Qeydan birusne
 record-abort-continue = Qeydkerdişî biqedêne
 record-abort-delete = Vejîye & qeydan biestire
+listen-again-instruction = Aferîn!<playIcon></playIcon> Eke hazir î/a, reyna goşdar bike
 listen-3rd-time-instruction = 2 hebî temam ê. Dewam bike! <playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon>Tena yew mendo!
 listen-empty-state = Beno ke qeydî nêmendê - xeyrê xo rîpelî aktualîze bike yan zî badêna reyna biceribne.
@@ -796,6 +803,9 @@ record-button-label = Vengê xo qeyd bike
 share-title-new = <bold>Dest bide ma</bold> ke hîna zaf vengan bivînîme
 keep-track-profile = Profîlêk viraze û wina averşîyayîşê xo taqîb bike
 login-to-get-started = Seba destpêkerdişî, dekewe yan qeyd bibe
+target-segment-first-card = Ti beşdarîya beşêkê ma yê hedefî yê verênî kenî/a
+target-segment-generic-card = Ti beşdarîya beşêkê hedefî kenî/a
+target-segment-first-banner = Dest bide ke Common Voice de beşê hedefê { $locale } yo verên virazîme
 target-segment-add-voice = Vengê xo îlawe bike
 target-segment-learn-more = Hîna Zaf Melumat
 
@@ -918,14 +928,18 @@ profile-form-delete = Profîlê xo biestire
 
 ## Profile Download
 
+download-q = Ganî dayeyê to bêrê warardene?
+download-info = Ti wazenî/a çi bîyarê war:
 download-profile-title = Profîl
 download-profile-info = Tede e-maîl, nameyê xebitnayoxî û melumato demgrafîk est ê. Desinde yeno warardene.
+download-profile-size = Çend baytî
 download-recordings-title = Qeydî
 download-recordings-size = Normal de tayê megabaytî
 download-size = Girsîye
 download-selected = Weçînite
 download-request-button = Bîya war
 download-request-title = { $created }
+download-request-archive-single = Yew dosyaya ZIPî. Tedeyî:
 download-request-refresh-button = Newe bike
 download-request-modal-title = Lînkê Warardişî
 download-request-link-text = Zîp: { $total } ra { $offset }
@@ -1076,9 +1090,13 @@ sc-my-submission = Rusnayîş: { $batchId }
 # Variables:
 #   $source (String) - Associated source the user filled out when uploading the sentence
 sc-my-source = Çime: { $source }
+sc-my-delete = Cumleyanê weçîniteyan biestire
+sc-my-deleting = Cumleyê weçîniteyî estirîyenê...
 
 ## REJECTED
 
+sc-rejected-title = Cumleyê Betalkerdeyî
+sc-rejected-loading = Cumleyê betalkerdeyî bar benê...
 
 ## STATS
 
@@ -1152,6 +1170,11 @@ sc-criteria-modal = ⓘ Krîterê Çimçarnayîşî
 
 ## REVIEW
 
+sc-review-title = Çim biçarne cumleyan
+sc-review-loading = Cumleyî bar benê...
+# Variables:
+#   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
+sc-review-form-source = Çime: { $sentenceSource }
 sc-review-form-button-reject = Betal ke
 sc-review-form-button-skip = Ravêre
 sc-review-form-button-approve = Tesdîq ke
