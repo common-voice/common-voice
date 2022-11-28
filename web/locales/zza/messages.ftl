@@ -586,6 +586,7 @@ about-playbook-how-grow-language-content-8 = <strong>Viraştox be!</strong> Kome
 
 ## How to validate
 
+about-playbook-how-validate = Ez senî bizanî eke qeydê vengî tesdîq bikerî yan nêkerî?
 about-playbook-how-validate-content-3 = Ti ke vanî/a ke telefuzê qeydî <strong>fehmkerdişê ci keno zehmetêr</strong> yan zî <strong>peyzemîn de xeylê veng est o</strong> yan zî <strong>kesê bînî zî tede qisey kenê</strong>, o wext wa ti qeydê vengî betal bikerê. <accuracyLink>Derheqê krîteranê ma yê raştbîyayîşî de hîna zaf melumat bivîne</accuracyLink>.
 
 ## How to access dataset
