@@ -485,6 +485,7 @@ faq-why-not-ask-read-q = Şima çira miletî ra nêwazenê ke kitab yan zî meqa
 faq-why-not-ask-read-a = Seba ke feydeyê komdayeyê Common Voice berz bo, ma qerar da ke tena metnê ke binê lîsansê Creative Commonsî (CC0) de mewcûd ê, înan eses bigîrîme. Xebitnayîşê standardê CC0, dîyayîş û arêdayîşê metnanê çimeyî keno zehmetêr, la eynî dem de sey netîceyî her kes eşkeno dayeyanê vengî bê selahîyetê Mozîlla bi hawayêko serbest bigureno. Peynîya peyêne de, ma wazenîme ke havila nê komdayeyê zafziwanî bireso her kesî, cigêrayoxî, unîversîteyî, şîrketî, hukmatî, rêxistinê komelî û kesê hobîkarî kî tede.
 faq-why-account-q = Ez çira hesabêk akerî?
 faq-is-account-public-q = Tirêm melumatê hesabê mi her kesî rê aseno?
+faq-how-privacy-q = Şima anonîmî û nimiteyîya bexişkerdoxanê vengan senî pawenê?
 faq-what-is-cv = Common Voice çi yo?
 faq-using-cv = Xebitnayîşê Common Voice
 faq-description = Common Voice projeyê Mozîlla yo ke makînayan (komputuran) rê bimusno ke merdimê raştikênî senî qisey kenê.
@@ -574,11 +575,13 @@ about-playbook-how-localize-content-5 = Qayîtê vîdeoyê ma yê îzahkerî bik
 about-playbook-how-add-sentences = Ez senî cumleyan îlawe kena?
 about-playbook-how-add-sentences-content-1 = <strong>Arêdayoxê Cumleyan</strong> wesayît o ke pê cumleyê ke pêroyî rê akerde yê, arê dîyenê û tesdîq benê. Verê, ganî ti <scAccountLink>hesabêk virazê</scAccountLink>. Dima, ziwanê xo îlaweyê <strong>profîlê xo</strong> bike. Ti eşkenî/a cumleyan <strong>îlawe bikerê</strong> yan kî <strong>çim biçarnê</strong> cumleyanê îlawekerdeyan.
 about-playbook-how-add-sentences-content-2 = Seba ke cumleyî îlaweyê Common Voice bibê, ganî hetê di kesan ra kontrol bibê û qebul bibê. Ti <languageGuidelinesLink>tîya</languageGuidelinesLink> rayberê ziwanê xo virazenî/a. Ganî cumleyî binê lîsansê <licenseLink>milkê pêroyî</licenseLink> de bibê û 15 çekuyan ra kêmî bibê. Ti eşkenî/a wayîrê metnêk ra bipersî ke <waiverLink>pê feragatnameyê ma metnê xo sey CC0 tesnîf bikero</waiverLink> û adresa commonvoice@mozilla.com rê birusno.
+about-playbook-how-add-sentences-content-4 = Cumleyê tesdîqkerdeyî roja çarşemeyî de neqlê teberî benê û weşano ameyox ra dime seba wendişî benê amade.
 
 ## How to record quality
 
 about-playbook-how-record-quality = Ez senî qeydê vengî yo kalîteberz qeyd kena?
 about-playbook-how-record-content-1 = Vengê xo yê normalî de qisey bike! Her şekilê qiseykerdişî sere û çimanê ma ser o - ma telefuzê to yê tebîî wazenîme. Bi veng, stîl û giranîya xo ya normale qisey bike.
+about-playbook-how-record-content-2 = Bike ke peyzemîn de zêde hayleme çin bo - vengê to rehet bêro eşnawitene.
 about-playbook-how-record-content-3 = Cumle bi baldarî biwane - çekuyan ramevêre, mevurne yan zî îlawe meke.
 about-playbook-how-record-content-5 = <accuracyLink>Derheqê krîteranê raştbîyayîşî de hîna zaf melumat bivîne.</accuracyLink>
 
