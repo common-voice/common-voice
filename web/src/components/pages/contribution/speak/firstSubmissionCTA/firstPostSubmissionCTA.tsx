@@ -134,11 +134,8 @@ export const FirstPostSubmissionCta: React.FC<FirstPostSubmissionCtaProps> = ({
           <Localized id="why-donate-explanation-1">
             <p />
           </Localized>
-          <Localized id="why-donate-explanation-2">
-            <p />
-          </Localized>
           <Localized
-            id="why-donate-explanation-3"
+            id="why-donate-explanation-2"
             elems={{
               learnMore: (
                 <a
