@@ -482,6 +482,7 @@ faq-where-src-from-2-a =
     
     Metnê ma yê çimeyî na <githubLink>dosyaya GitHubî</githubLink> de yenê dîyene.
 faq-why-not-ask-read-q = Şima çira miletî ra nêwazenê ke kitab yan zî meqaleyanê Wîkîpedîa yê bi yewna ziwan ra biwanê?
+faq-why-not-ask-read-a = Seba ke feydeyê komdayeyê Common Voice berz bo, ma qerar da ke tena metnê ke binê lîsansê Creative Commonsî (CC0) de mewcûd ê, înan eses bigîrîme. Xebitnayîşê standardê CC0, dîyayîş û arêdayîşê metnanê çimeyî keno zehmetêr, la eynî dem de sey netîceyî her kes eşkeno dayeyanê vengî bê selahîyetê Mozîlla bi hawayêko serbest bigureno. Peynîya peyêne de, ma wazenîme ke havila nê komdayeyê zafziwanî bireso her kesî, cigêrayoxî, unîversîteyî, şîrketî, hukmatî, rêxistinê komelî û kesê hobîkarî kî tede.
 faq-why-account-q = Ez çira hesabêk akerî?
 faq-is-account-public-q = Tirêm melumatê hesabê mi her kesî rê aseno?
 faq-what-is-cv = Common Voice çi yo?
@@ -589,6 +590,7 @@ about-playbook-how-grow-language-content-8 = <strong>Viraştox be!</strong> Kome
 about-playbook-how-validate = Ez senî bizanî eke qeydê vengî tesdîq bikerî yan nêkerî?
 about-playbook-how-validate-content-1 = Eke ti eşkenî/a <strong>bieşnawê</strong> û <strong>fehm bikerê</strong>, normal de rind o ke <strong>tesdîq bikerê</strong>.
 about-playbook-how-validate-content-3 = Ti ke vanî/a ke telefuzê qeydî <strong>fehmkerdişê ci keno zehmetêr</strong> yan zî <strong>peyzemîn de xeylê veng est o</strong> yan zî <strong>kesê bînî zî tede qisey kenê</strong>, o wext wa ti qeydê vengî betal bikerê. <accuracyLink>Derheqê krîteranê ma yê raştbîyayîşî de hîna zaf melumat bivîne</accuracyLink>.
+about-playbook-how-validate-content-4 = Eke qeyd hetê 2 kesan ra betal beno, yewna binbeşê komdayeyî de weşanîyeno.
 
 ## How to access dataset
 
