@@ -75,7 +75,8 @@
         ga('send', 'pageview');
       }
     </script>
-    <script id="gtmScript" nonce="{GENERATED_NONCE}">
+    <!-- Google Tag Manager -->
+    <script id="gtmScript" nonce="{SERVER-GENERATED-NONCE}">
       (function (w, d, s, l, i) {
         w[l] = w[l] || [];
         w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' });
@@ -84,9 +85,12 @@
           dl = l != 'dataLayer' ? '&l=' + l : '';
         j.async = true;
         j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+        var n = d.querySelector('[nonce]');
+        n && j.setAttribute('nonce', n.nonce || n.getAttribute('nonce'));
         f.parentNode.insertBefore(j, f);
       })(window, document, 'script', 'dataLayer', 'GTM-T4DZBR7');
     </script>
+    <!-- End Google Tag Manager -->
     <script nonce="EDNnf03nceIOfn39fn3e9h3sdfa">
       console.log('hello world');
       console.log('CSP-allowed script with nonce:', '{{nonce}}');
