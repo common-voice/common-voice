@@ -554,6 +554,7 @@ about-playbook-what-is-language-content-3 = Tayê ziwanan de ferqê gramer, çek
 about-playbook-how-add-language = Ez senî ziwanêk îlawe kena?
 about-playbook-how-add-language-content-1 = Verê veran, kontrol bike tirêm ziwanê to <languageLink>est o yan ney</languageLink>. Eke çin o, ti eşkenî/a <languageRequestLink>îlawekerdişê ci biwazê</languageRequestLink>. Di beşî est ê: çarnayîşê sîteyî û arêdayîşê cumleyan.
 about-playbook-how-add-language-translating-heading = Çarnayîşê sîteyî
+about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Rayberê ma yê xebitnayîşê Pontoonî ra biewnî.</translateVideoLink>
 about-playbook-how-add-language-collecting-sentences-heading = Arêdayîşê cumleyan
 about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>Rayberê ma yê xebitnayîşê Arêdayoxê Cumleyan de nîyade</sentenceCollectorVideo>.
 about-playbook-how-add-language-collecting-sentences-content-2 = Ti eşkenî/a <sentenceCollectorLinkAdd>hûmara cumleyan a şenikan îlawe bikerê</sentenceCollectorLinkAdd> yan zî <bulkImportDocsLink>Github ra komneql bikerê</bulkImportDocsLink>. Xo vîr ra meke ke ganî cumleyî binê lîsansê <licenseLink>CC0 (yan milkê rayapêroyî)</licenseLink> de bibê. Yan zî bi xo cumleyan binuse.
@@ -566,6 +567,7 @@ about-playbook-how-localize-content-1 = Çarnayîşê sîteyê Common Voice <str
 about-playbook-how-localize-content-2 = Eke çin o, xo rê <pontoonAccountLink>hesabêk ake</pontoonAccountLink>. Badê, ziwanê xo weçîne <strong>("ekîpe")</strong>, badêna kî projeyê <pontoonCvLink>Common Voice</pontoonCvLink> weçîne. Uca seba çarnayîşî dosyeyî est ê. Yewêk ser o bitikne: çekuyêka îngilizkî û yew qutîye seba nuştişê çarnayîşî asenê.
 about-playbook-how-localize-content-3 = Çarnayîş îngilizkî ra yeno kerdene, la ti eşkenî ziwananê bînan ra <strong>pêşnîyazan</strong> bivînê. <strong>Profîlê xo</strong> ser o bitikne, dima şo <strong>Eyaran</strong> û uca ziwananê ke qisey kenî/a, înan îlawe bike. Kunco raşto cêrên de lîsteyêka çarnayîşan bi nameyê <strong>"Locales"</strong> est a. Çarnayîşî yew roje ra dime keyepel ser o asenê.
 about-playbook-how-localize-content-4 = Gama ke %75 yê keyepelî çarnîyayo, seba weşanayîşî amade beno.
+about-playbook-how-localize-content-5 = Qayîtê vîdeoyê ma yê îzahkerî bike
 
 ## How to add sentences
 
@@ -575,6 +577,9 @@ about-playbook-how-add-sentences-content-2 = Seba ke cumleyî îlaweyê Common V
 
 ## How to record quality
 
+about-playbook-how-record-quality = Ez senî qeydê vengî yo kalîteberz qeyd kena?
+about-playbook-how-record-content-1 = Vengê xo yê normalî de qisey bike! Her şekilê qiseykerdişî sere û çimanê ma ser o - ma telefuzê to yê tebîî wazenîme. Bi veng, stîl û giranîya xo ya normale qisey bike.
+about-playbook-how-record-content-3 = Cumle bi baldarî biwane - çekuyan ramevêre, mevurne yan zî îlawe meke.
 about-playbook-how-record-content-5 = <accuracyLink>Derheqê krîteranê raştbîyayîşî de hîna zaf melumat bivîne.</accuracyLink>
 
 ## How to grow language
@@ -589,6 +594,7 @@ about-playbook-how-grow-language-content-8 = <strong>Viraştox be!</strong> Kome
 
 about-playbook-how-validate = Ez senî bizanî eke qeydê vengî tesdîq bikerî yan nêkerî?
 about-playbook-how-validate-content-1 = Eke ti eşkenî/a <strong>bieşnawê</strong> û <strong>fehm bikerê</strong>, normal de rind o ke <strong>tesdîq bikerê</strong>.
+about-playbook-how-validate-content-2 = <strong>Eke telefuzê yew qiseykerdoxî sey to nîyo, qeydê ci betal meke!</strong> - Muhîm o ke naskerdişê vengî seba her aksan û fekî bigureyo.
 about-playbook-how-validate-content-3 = Ti ke vanî/a ke telefuzê qeydî <strong>fehmkerdişê ci keno zehmetêr</strong> yan zî <strong>peyzemîn de xeylê veng est o</strong> yan zî <strong>kesê bînî zî tede qisey kenê</strong>, o wext wa ti qeydê vengî betal bikerê. <accuracyLink>Derheqê krîteranê ma yê raştbîyayîşî de hîna zaf melumat bivîne</accuracyLink>.
 about-playbook-how-validate-content-4 = Eke qeyd hetê 2 kesan ra betal beno, yewna binbeşê komdayeyî de weşanîyeno.
 
