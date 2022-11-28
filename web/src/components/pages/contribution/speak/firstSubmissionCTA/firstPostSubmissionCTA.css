@@ -87,6 +87,10 @@
         p {
             margin-bottom: 15px;
             text-align: left;
+
+            a {
+                color: var(--anchor-text-blue);
+            }
         }
     }
 
