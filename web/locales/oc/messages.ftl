@@ -959,54 +959,63 @@ activity-needed-calculation-plural =
         [one] de { $periodMonths } mesi.
        *[other] de { $periodMonths } mesi.
     }
-how-many-per-day = Crane ! Quantas de mòstras per jorn ?
-how-many-a-week = Crane ! Quantas de mòstras per setmana ?
-which-goal-type = Volètz parlar, escotar, o los dos ?
-receiving-emails-info = Actualament avètz configurat per recebre de corrièls coma de recòrds d’objectius, de rapòrts de progression e las letras d’informacion de Common Voice.
-not-receiving-emails-info = Actualament recebètz <bold>PAS</bold> de corrièls coma de recòrds d’objectius, de rapòrts de progression e las letras d’informacion de Common Voice.
+how-many-per-day = Geniau! Guairi talhs per dia?
+how-many-a-week = Geniau! Guairi talhs per setmana?
+which-goal-type = Geniau! Voletz parlar, escotar o es dues causes?
+receiving-emails-info = Actuauments, auetz configurat recéber corrèus electronics, coma rebrembes d’objectius, actualizacions deth vòste progrès e bulletins de notícies sus eth Common Voice
+not-receiving-emails-info = Actuauments, <bold>NON</bold> recebetz corrèus electronics coma rebrembes des objectius, actualizacions deth progrès personau o notícies sus eth Common Voice
 n-clips-pluralized =
     { NUMBER($count) ->
-        [one] { $count } mòstra
-       *[other] { $count } mòstras
+        [one] { $count } talh
+       *[other] { $count } talhs
     }
-help-share-goal = Ajudatz-nos a trobar mai de voses, partejatz vòstre objectiu
-confirm-goal = Confirmar l’objectiu
-goal-interval-weekly = Setmanièr
+help-share-goal = Ajudatz-mos a trobar mès votzes, compartitz eth vòste objectiu
+confirm-goal = Confirmi er objectiu
+goal-interval-weekly = Setmanau
 # $type is one of share-goal-type-*
-share-n-daily-contribution-goal = Partejatz vòstre objectiu quotidian de { $count } mòstras { $type }
+share-n-daily-contribution-goal = Compartitz eth vòste objectiu diari de { $count } talhs { $type }
 # $type is one of share-goal-type-*
-share-n-weekly-contribution-goal = Partejatz vòstre objectiu setmanal de { $count } mòstras { $type }
-share-goal-type-speak = parlant
-share-goal-type-listen = escotant
-share-goal-type-both = parlant e escotant
+share-n-weekly-contribution-goal = Compartitz eth vòste objectiu setmanau de { $count } talhs { $type }
+share-goal-type-speak = en tot parlar
+share-goal-type-listen = en tot escotar
+share-goal-type-both = en tot parlar e en tot escotar
 # LINK will be replaced with the current URL
-goal-share-text = Veni de crear un objectiu personal pel don de votz a #CommonVoice - rejonhètz-me e ajudatz-me a aprendre a las maquinas a parlar coma de vertadièras personas { $link }
-weekly-goal-created = Vòstre objectiu setmanièr es estat creat
-daily-goal-created = Vòstre objectiu quotidian es estat creat
-track-progress = Seguissètz vòstre progrès aquí e sus la pagina d’estatisticas.
-return-to-edit-goal = Tornatz aquí per modificar vòstre objectiu quand volgatz.
-share-goal = Partejar mos objectius
+goal-share-text = Vengui de crear un objectiu personau entà dar era votz ath #CommonVoice #CommonVoiceARA. Junhetz-vos-i e ajudatz-mos a ensenhar es maquines com parlen es persones de vertat { $link }
+weekly-goal-created = S'a creat eth vòste objectiu setmanau
+daily-goal-created = S'a creat eth vòste objectiu diari
+track-progress = Seguitz eth vòste progrès ací e ena pagina d'estadistiques.
+return-to-edit-goal = Tornatz ací en moment que sigue entà editar eth vòste objectiu.
+share-goal = Compartís eth mèn objectiu
 
 ## Profile Delete
 
-delete-q = Volètz tanben demandar la supression de vòstres enregistraments vocals o volètz los daissar al jòc de donadas de Common Voice ?
-keep = Gardar
-remove = Levar
-keep-info = Vòstres enregistraments vocals anonims demoraràn dins lo jòc de donadas Common Voice. Un còp qu'avètz suprimit vòstre perfil, poiretz pas mai enviar de requèsta per suprimir vòstres enregistraments del jòc de donadas.
-remove-info = Anam estudiar vòstra requèsta per tirar vòstres enregistraments vocals del jòc de donadas. Se vòstra demanda es acceptada, contactarem los qu'an telecargat lo jòc de donadas e lor demandarem d'o far tanben.
+delete-q = Voletz demanar que tanben se suprimisquen es vòsti enregistraments de votz, o preferitz conservar-les en conjunt de donades deth Common Voice?
+keep = Conserva
+remove = Elimina
+keep-info = Es vòsti enregistraments anonims se conservaràn en conjunt de donades deth Common Voice. Un còp suprimit eth vòste perfil, ja non poderatz sollicitar d’eliminar es vòsti enregistraments deth conjunt de donades
+remove-info = Revisaram era vòsta sollicitud d'eliminar es enregistraments de votz deth conjunt de donades. Se s'apròve era sollicitud, mos meteram en contacte damb qui age baishat eth conjunt de donades e les demanaram que tanben eliminen es vòsti enregistraments de votz.
 why-delete-recordings =
-    Los universitaris, las entrepresas pichonas e los afogats de reconeissença vocala utilizan los enregistraments Common Voice per entrainar e desvolopar de ressorças accessiblas al public, coma de modèls vocals.
+    Academics, petites enterpreses e arderoses dera reconeishença deth parlar empleguen es enregistraments deth Common Voice entà ajudar a entrenar e a hèr a créisher es ressorces disponibles publicaments, coma modèls de votz.
     
-    Poiriatz-nos indicar per qué volètz suprimir vòstres enregistraments ?
-profile-form-delete = Suprimir lo perfil
+    Mos poderíetz hèr a saber per qué voletz suprimir es vòsti enregistraments?
+profile-form-delete = Suprimís eth perfil
 
 ## Profile Download
 
+download-q = Voletz baishar es vòstes donades?
+download-info = Didetz-mos qué voletz baishar:
 download-profile-title = Perfil
+download-profile-info = Includís era adreça electronica, eth nòm d'usatgèr e era informacion demografica, disponibles immediataments
+download-profile-size = Uns pòqui bytes
 download-recordings-title = Enregistraments
-download-size = Talha
+download-recordings-info = Includís es mp3 e es frases associades, pòt trigar un shinhau a premanir-se
+download-recordings-size = Normauments son bèri megabytes
+download-recordings-unavailable = Non podetz sollicitar es vòsti enregistraments mentre i a ua auta peticion en cors.
+download-recently-requested = Podetz sollicitar ua naua exportacion des enregistraments cada { $days } dies.
+download-size = Mesura
 download-selected = Seleccionat
-download-request-button = Telecargar
+download-start = Baisha es donades deth perfil
+download-request-button = Baisha
 download-request-title = { $created }
 download-request-refresh-button = Actualizar
 download-request-link-text = ZIP num. { $offset } de { $total }
