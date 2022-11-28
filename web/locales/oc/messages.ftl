@@ -929,11 +929,36 @@ difficult-difficulty = Malaisit
 pro-difficulty = Professionau
 lose-goal-progress-warning = En editar er objectiu, podetz pèrder eth progrès actuau.
 want-to-continue = Voletz seguir?
-finish-editing = Volètz terminar las modificacions ?
-lose-changes-warning = Se sortissètz ara, perdretz vòstres cambiaments
-build-custom-goal = Crear un objectiu personalizat
-set-a-goal = Definir un objectiu
-cant-decide = Podètz pas decidir ?
+finish-editing = Voletz acabar d'editar?
+lose-changes-warning = S'ac deishatz ara, se perderàn toti es cambis
+build-custom-goal = Crea un objectiu personalizat
+help-reach-hours-pluralized =
+    { NUMBER($hours) ->
+        [one] Ajudatz a arribar en { $hours } ora en { $language } damb un objectiu personau
+       *[other] Ajudatz a arribar en { $hours } ores en { $language } damb un objectiu personau
+    }
+help-reach-hours-general-pluralized =
+    { NUMBER($hours) ->
+        [one] Ajudatz ath Common Voice a arribar en { $hours } ora en ua lengua damb un objectiu personau
+       *[other] Ajudatz ath Common Voice a arribar en { $hours } ores en ua lengua damb un objectiu personau
+    }
+set-a-goal = Definís un objectiu
+cant-decide = Non sabetz de qué hèr?
+activity-needed-calculation-plural =
+    { NUMBER($people) ->
+        [one] Se { $people } persona enregistre
+       *[other] Se { $people } persones enregistren
+    } { NUMBER($clipsPerDay) ->
+        [one] { $clipsPerDay } talh per dia, se pòt arribar en
+       *[other] { $clipsPerDay } talhs per dia, se pòt arribar en
+    } { NUMBER($totalHours) ->
+        [one] { $totalHours } ora en pòc mès
+       *[other] { $totalHours } ores en pòc mès
+    } { NUMBER($periodMonths) ->
+        [11] de { $periodMonths } mesi.
+        [one] de { $periodMonths } mesi.
+       *[other] de { $periodMonths } mesi.
+    }
 how-many-per-day = Crane ! Quantas de mòstras per jorn ?
 how-many-a-week = Crane ! Quantas de mòstras per setmana ?
 which-goal-type = Volètz parlar, escotar, o los dos ?
