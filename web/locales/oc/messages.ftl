@@ -1104,6 +1104,29 @@ contribution-varying-pronunciations-title = Prononciacions variables
 contribution-varying-pronunciations-description = Tietz compde abans de refusar un clip pr'amor qu'eth lector a prononciat mau ua paraula. Er aranés a ua ampla varietat de pronóncies, e dilhèu no les auetz sentudes jamès. Non se pronóncie parièr en aranés centrau, de Pujòlo o septentrionau. Hetz hidança ad aqueri que parlen d’ua manèra diferenta dera vòsta.
 contribution-varying-pronunciations-description-extended = De ua auta part, se credetz que probablaments eth/era lector/a non s'a trobat jamès damb era paraula e simplaments hè ua supausicion incorrècta dera pronóncia, refusatz eth talh. Se non n'ètz segur/a, utilizatz eth boton Omet.
 contribution-varying-pronunciations-example-1-title = Eri mingen peres.
+contribution-varying-pronunciations-example-1-explanation = [«pòrta» Se pòt prononciar de diferentes manères, segons era varianta dialectau]
+contribution-varying-pronunciations-example-2-title = A escrit era data.
+contribution-varying-pronunciations-example-2-explanation = [En aranés, «escrit» tostemp se pronóncie dera madeisha manèra]
+contribution-background-noise-title = Tapatge de hons
+contribution-background-noise-description = Volem qu'es algoritmes d’aprendissatge automatic siguen capables de manejar diuèrsi tapatges de hons. Se pòden acceptar tapatges relativaments fòrts, tostemp que non empedisquen enténer era totalitat deth tèxte. Era musica de hons tranquilla va plan; era musica plan fòrta, qu’evite que sentetz totes es paraules, non va ben.
+contribution-background-noise-description-extended = S'er enregistrament se talhe, o hè esclats, refusatz-lo. Levat que se pogue enténer era totalitat deth tèxte.
+contribution-background-noise-example-1-fixed-title = <strong>[esternut]</strong> Es grani dinosaures deth <strong><estossegadera></strong> Triasic.
+contribution-background-noise-example-2-fixed-title = Es grani dino <strong>[estossegadera]</strong> deth Triasic.
+contribution-background-noise-example-2-explanation = [Non s'enten part deth tèxte]
+contribution-background-noise-example-3-fixed-title = <strong>[esclat]</strong> grani dinosaures de <strong>[esclat]</strong> -riasic.
+contribution-background-voices-title = Votzes de hons
+contribution-background-voices-description = Un tapatge de hons tranquil va plan, mès non volem que i age votzes addicionaus que poguen hèr qu'un algoritme informatic identifique paraules que non apareishen en tèxte escrit. Se podetz sénter paraules diferentes a part des deth tèxte, calerie refusar eth clip. Normauments, açò passe se s'a deishat eth televisor alugat o se i a ua convèrsa apròp.
+contribution-background-voices-description-extended = S'er enregistrament se talhe, o hè esclats, refusatz-lo. Levat que se pogue enténer era totalitat deth tèxte.
+contribution-background-voices-example-1-title = Es grani dinosaures deth Triasic. <strong>[Liejut per ua votz]</strong>
+contribution-background-voices-example-1-explanation = E vies? <strong>[cridat per quauquarrés d’aute]</strong>
+contribution-volume-title = Volum
+contribution-volume-description = Abituaument i a variacions en volum entre lectors. Refusatz un talh sonque s'eth volum ei tan naut qu'er enregistrament s’entrecope, o (mès abituau) s'ei tan baish que non podetz sénter se qué se i ditz sense era referéncia deth tèxte escrit.
+contribution-reader-effects-title = Efèctes de lectura
+contribution-reader-effects-description = Era majoria des enregistraments son de gent que parle damb naturalitat. Podetz acceptar era gravadura ocasionau non estandard a on se cride, shevitege o, evidentaments, se hèsque damb votz dramatitzada. Refusatz es enregistraments cantadi, a on s'use ua votz sintetisada per ordenador o es que non agen ua entonacion corrècta dera frasa, mès que mès es interrogatives.
+contribution-just-unsure-title = Auetz dobtes?
+contribution-just-unsure-description = Se vos trobatz damb quauquarren qu'aguestes directritzes non corbissen, votatz segons eth vòste critèri. Se reaument non ac podetz decidir, emplegatz eth boton Omet e passatz tar enregistrament següent.
+see-more = <chevron></chevron>Mès
+see-less = <chevron></chevron>Mens
 
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
@@ -1112,11 +1135,15 @@ contribution-varying-pronunciations-example-1-title = Eri mingen peres.
 
 ## HEADER/FOOTER
 
-sc-header-home = Acuèlh
-sc-header-how-to = Cossí far
-sc-header-add = Apondre
-sc-header-review = Verificacion
+sc-header-home = Inici
+sc-header-how-to = Com se hè
+sc-header-add = Ahig
+sc-header-review = Revisa
+sc-header-rejected = Frases refusades
+sc-header-my = Es mies frases
+sc-header-statistics = Estadistiques
 sc-header-profile = Perfil
+sc-footer-discourse = Discourse
 sc-footer-privacy = Vida privada
 sc-footer-terms = Condicions
 sc-footer-cookies = Cookies
