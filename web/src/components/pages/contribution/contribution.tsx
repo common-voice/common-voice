@@ -35,6 +35,7 @@ import { FirstPostSubmissionCta } from './speak/firstSubmissionCTA/firstPostSubm
 import { Notifications } from '../../../stores/notifications';
 
 import './contribution.css';
+import { SecondPostSubmissionCTA } from './speak/secondSubmissionCTA/secondSubmissionCTA';
 
 export const SET_COUNT = 5;
 
@@ -79,7 +80,7 @@ export interface ContributionPageProps
   onPrivacyAgreedChange?: (privacyAgreed: boolean) => void;
   privacyAgreedChecked?: boolean;
   shouldShowFirstCTA?: boolean;
-  hideFirstCTA?: () => void;
+  shouldShowSecondCTA?: boolean;
   primaryButtons: React.ReactNode;
   pills: ((props: ContributionPillProps) => React.ReactNode)[];
   sentences: Sentence[];
@@ -472,16 +473,16 @@ class ContributionPage extends React.Component<ContributionPageProps, State> {
           )}
         </div>
 
-        {!user.account && shouldShowFirstCTA && (
+        {/* {!user.account && shouldShowFirstCTA && (
           <FirstPostSubmissionCta
             locale={this.props.locale}
             onReset={onReset}
-            hideVisibility={this.props.hideFirstCTA}
             addNotification={this.props.addNotification}
             successUploadMessage={getString('thanks-for-voice-toast')}
             errorUploadMessage={getString('thanks-for-voice-toast-error')}
           />
-        )}
+        )} */}
+        {!user.account && shouldShowFirstCTA && <SecondPostSubmissionCTA />}
 
         {instruction({
           vars: { actionType: getString('action-tap') },

@@ -27,7 +27,6 @@ export const USER_LANGUAGES = 'userLanguages';
 type FirstPostSubmissionCtaProps = {
   locale: string;
   onReset: () => void;
-  hideVisibility: () => void;
   addNotification: typeof Notifications.actions.addPill;
   successUploadMessage: string;
   errorUploadMessage: string;
@@ -36,7 +35,6 @@ type FirstPostSubmissionCtaProps = {
 export const FirstPostSubmissionCta: React.FC<FirstPostSubmissionCtaProps> = ({
   locale,
   onReset,
-  hideVisibility,
   addNotification,
   successUploadMessage,
   errorUploadMessage,
@@ -80,7 +78,6 @@ export const FirstPostSubmissionCta: React.FC<FirstPostSubmissionCtaProps> = ({
     }
 
     onReset();
-    hideVisibility();
   };
 
   return (

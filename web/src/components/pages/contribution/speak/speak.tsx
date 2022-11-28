@@ -517,12 +517,6 @@ class SpeakPage extends React.Component<Props, State> {
     });
   };
 
-  private hideFirstCTA = () => {
-    this.setState({
-      shouldShowFirstCTA: false,
-    });
-  };
-
   private handleSubmit = (evt: React.SyntheticEvent) => {
     const hasSeenFirstCTA = window.sessionStorage.getItem(SEEN_FIRST_CTA);
 
@@ -691,7 +685,6 @@ class SpeakPage extends React.Component<Props, State> {
             }
             privacyAgreedChecked={this.state.privacyAgreedChecked}
             shouldShowFirstCTA={this.state.shouldShowFirstCTA}
-            hideFirstCTA={this.hideFirstCTA}
             primaryButtons={
               <RecordButton
                 trackClass="speak-record"
