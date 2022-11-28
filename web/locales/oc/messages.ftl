@@ -1017,16 +1017,24 @@ download-selected = Seleccionat
 download-start = Baisha es donades deth perfil
 download-request-button = Baisha
 download-request-title = { $created }
-download-request-refresh-button = Actualizar
+download-request-description = { $clipCount } talhs de votz, mesura totau dr archiu: { $size }. Caduque: { $expires }.
+download-request-archive-single = Un solet archiu ZIP que conten
+download-request-archive-multiple = Dividit en { $archiveCount } archius ZIP que contien
+download-request-assembling-description = Se recuelhen es vòsti fichèrs. Tornatz-ac a verificar mès tà deuant.
+download-request-refresh-button = Actualiza
+download-request-modal-title = Ligams de baishada
+download-request-modal-description = Ací auetz es ligams entà baishar es archius ZIP.
 download-request-link-text = ZIP num. { $offset } de { $total }
+download-request-metadata-link = Tèxte dera frasa
+download-request-link-single = Tanben podetz copiar e empegar es URL dirèctaments en vòste gestor de baishades preferit. Es ligams caducaràn en 12 ores, mès podetz tornar ad aguesta pagina entà generar-ne de naui en moment que sigue.
 
 ## Landing
 
-welcome-staff = Benvenguda al personal de { $company } !
-help-contribute = Podètz ajudar a crear un jòc de donadas liure e diversificat en creant un perfil Common Voice e en fasent don de vòstra votz.
-login-company = Connexion / Inscripcion amb l’adreça electronica de { $company }
-profile-not-required = Es pas necessari de crear un perfil per contribuir, mas es util.
-read-more-about = Per ne saber mai anatz a la pagina A prepaus
+welcome-staff = Personau de { $company }, vos dam era benvenguda!
+help-contribute = Ajudatz a bastir un conjunt de donades liures e diuèrses en tot crear un perfil deth Common Voice e en tot collaborar damb era vòsta votz.
+login-company = Inici de session / Registre damb era adreça electronica de { $company }
+profile-not-required = Non ei de besonh crear un perfil entà collaborar, mès ei util.
+read-more-about = Vedetz mès informacion ena pagina «Qui èm»
 
 ## DemoLayout
 
