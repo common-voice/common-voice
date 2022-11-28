@@ -587,6 +587,7 @@ about-playbook-how-grow-language-content-8 = <strong>Viraştox be!</strong> Kome
 ## How to validate
 
 about-playbook-how-validate = Ez senî bizanî eke qeydê vengî tesdîq bikerî yan nêkerî?
+about-playbook-how-validate-content-1 = Eke ti eşkenî/a <strong>bieşnawê</strong> û <strong>fehm bikerê</strong>, normal de rind o ke <strong>tesdîq bikerê</strong>.
 about-playbook-how-validate-content-3 = Ti ke vanî/a ke telefuzê qeydî <strong>fehmkerdişê ci keno zehmetêr</strong> yan zî <strong>peyzemîn de xeylê veng est o</strong> yan zî <strong>kesê bînî zî tede qisey kenê</strong>, o wext wa ti qeydê vengî betal bikerê. <accuracyLink>Derheqê krîteranê ma yê raştbîyayîşî de hîna zaf melumat bivîne</accuracyLink>.
 
 ## How to access dataset
@@ -925,6 +926,7 @@ share-goal = Hedefê mi pare bike
 
 keep = Wedare
 remove = Biestire
+remove-info = Ma çim çarnenîme waştişê to yê estiritişê tayê qeydanê komdayeyî. Eke waştişê to qebul beno, ma ê kesanê ke komdaye ardo war, înan de kewenîme têkilîye ke qeydanê vengê to zî biestirê.
 profile-form-delete = Profîlê xo biestire
 
 ## Profile Download
@@ -1237,6 +1239,7 @@ sc-criteria-item-4 = Eke cumle rîayetê nê krîteran kena, destê raştî de g
 
 sc-review-title = Çim biçarne cumleyan
 sc-review-loading = Cumleyî bar benê...
+sc-review-form-usage = Seba tesdîqkerdişê cumle, heto raşt ser raşemitne. Seba betalkerdişî, heto çep ser raşemitne. Seba ravîyarnayîşî, acor raşemitne. <strong>Rusnayîşî xo vîr ra meke!</strong>
 # Variables:
 #   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
 sc-review-form-source = Çime: { $sentenceSource }
@@ -1249,6 +1252,7 @@ sc-review-form-button-approve-shortcut = H
 sc-review-form-button-reject-shortcut = N
 # Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
 sc-review-form-button-skip-shortcut = R
+sc-review-form-keyboard-usage-custom = Eke wazenî/a, kilmnusanê klavyeyî bigurene: seba tesdîqkerdişî { sc-review-form-button-approve-shortcut }, seba betalkerdişî { sc-review-form-button-reject-shortcut }, seba ravîyarnayîşî { sc-review-form-button-skip-shortcut }.
 sc-review-form-button-submit =
     .submitText = Çimçarnayîşî Biqedêne
 sc-review-link = Çim Biçarne
