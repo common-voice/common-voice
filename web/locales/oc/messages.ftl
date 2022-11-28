@@ -1199,6 +1199,7 @@ sc-howto-findpd-tips = Ací auetz bèri conselhs entà trobar frases:
 sc-howto-findpd-tips-1 = Es melhores hònts que podetz cercar son podcasts, transcripcions, guidons de pellicules e quinsevolhe causa que pogue contier convèrses quotidianes.
 sc-howto-findpd-tips-2 = Es actes de govèrn, es libres e es articles tanben son excellenti, mès, com qu'eth tèxte acostume a èster un shinhau mès formau, son mens prioritaris.
 sc-howto-findpd-tips-3 = Malerosament, encara non podem auer articles dera Wikipèdia. Ei a díder que non copietz e peguetz tèxte d'aquiu estant.
+sc-howto-findpd-subtitle-2 = Collaborar damb persones o organizacions locaus
 
 ## MY SENTENCES
 
