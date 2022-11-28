@@ -559,27 +559,24 @@ class ContributionPage extends React.Component<ContributionPageProps, State> {
                     required
                     onChange={handlePrivacyAgreedChange}
                     checked={privacyAgreedChecked}
+                    shouldShowTooltip
+                    isTooltipOpen={isFirstSubmit}
+                    tooltipTitle={getString(
+                      'review-instruction-checkbox-tooltip'
+                    )}
                     data-testid="checkbox"
                   />
                 )}
-                <Tooltip
-                  arrow
-                  disabled={!this.isDone}
-                  open={isFirstSubmit || undefined}
-                  title={getString('record-submit-tooltip', {
-                    actionType: getString('action-tap'),
-                  })}>
-                  <Localized id="submit-form-action">
-                    <PrimaryButton
-                      className={[
-                        'submit',
-                        getTrackClass('fs', `submit-${type}`),
-                      ].join(' ')}
-                      disabled={!this.isDone}
-                      type="submit"
-                    />
-                  </Localized>
-                </Tooltip>
+                <Localized id="submit-form-action">
+                  <PrimaryButton
+                    className={[
+                      'submit',
+                      getTrackClass('fs', `submit-${type}`),
+                    ].join(' ')}
+                    disabled={!this.isDone || !privacyAgreedChecked}
+                    type="submit"
+                  />
+                </Localized>
               </form>
             )}
           </div>

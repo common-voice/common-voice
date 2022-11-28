@@ -137,7 +137,18 @@ export const FirstPostSubmissionCta: React.FC<FirstPostSubmissionCtaProps> = ({
           <Localized id="why-donate-explanation-2">
             <p />
           </Localized>
-          <Localized id="why-donate-explanation-3">
+          <Localized
+            id="why-donate-explanation-3"
+            elems={{
+              learnMore: (
+                <a
+                  href="https://foundation.mozilla.org/en/blog/common-voice-metadata-matters"
+                  target="_blank"
+                  rel="noreferrer">
+                  Learn more about why metadata matters.
+                </a>
+              ),
+            }}>
             <p />
           </Localized>
         </ExpandableInformation>
