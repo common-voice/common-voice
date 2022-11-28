@@ -1570,3 +1570,7 @@ continue-speaking-button = No thanks, continue speaking
 create-profile-text = Want to save your information? <createProfile>Create a profile</createProfile>
 thanks-for-voice-toast = Thank you for your voice information
 thanks-for-voice-toast-error = An error occurred submitting your voice information
+
+# SECOND POST SUBMISSION CTA
+second-cta-header-text = Thank you for contributing your voice!
+second-cta-subtitle-text = With a profile, you can keep track of your activity and connect with a community of voice data contributors.
