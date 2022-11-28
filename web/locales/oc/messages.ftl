@@ -1038,28 +1038,72 @@ read-more-about = Vedetz mès informacion ena pagina «Qui èm»
 
 ## DemoLayout
 
-demo-get-started = Comencem
-demo-welcome = La benvenguda a Common Voice
+demo-get-started = Començam
+demo-welcome = Vos dam era benvenguda en Common Voice
+demo-welcome-subheader = Auetz interès a apréner mès e collaborar en projècte?
 
 ## Demo Datasets
 
-card-button-next = Seguent
-card-button-back = Tornar
-demo-language-select-label = Explorar las lengas
-demo-account = Compte
+demo-language-select-card-header = Eth Common Voice ei eth conjunt de donades de votz multilingua mès gran disponible publicaments.
+demo-language-select-card-body = Mercés ara collaboracion de mès de 259.000 persones en mès de 50 lengües, aguestes donades s'usen entà entrenar aplicacions de votz entà respóner milhor ara votz umana.
+card-button-next = Següent
+card-button-back = Endarrèr
+demo-language-select-label = Explòra es lengües
+demo-eofy-header = Version de darrèrs de 2019
+demo-eofy-sub_header = Conjunt de donades de votz, preparat entà baishar
+demo-account = Compde
 
 ## Demo Account
 
+demo-account-card-header = Non cau auer cap de compde entà collaborar-i, mès ei util.
+demo-account-card-body = Ara dreta exposam es auantatges e esclarim se quina informacion hèm publica. Emplegatz es ligams següents entà començar a utilizar un compde Common Voice en vòste dispositiu.
+demo-account-enter-email =
+    .label = Introdusitz ua adreça electronica a on enviar un ligam de registre
+demo-account-sign-up = Envia eth ligam de registre
 
 ## Demo Contribute
 
+demo-contribute-card-header = Ètz prèst/a entà ahíger era votz o parar era aurelha?
+demo-contribute-card-body-v2 = Ara que ja sabetz un shinhau mès sus eth Common Voice, perqué non ac sajatz? Hetz clic ena icòna deth microfòn entà començar a liéger frases en votz nauta. <br/><br/>Se preferitz revisar es contribucions de votz de d’autes persones, hetz clic ena icòna de reproduccion. D'aguesta manèra ajudaratz a confirmar s'es enregistraments coïncidissen damb es frases escrites ena pantalha.
+demo-listen-subtitle = Prèst/a entà collaborar?
 
 ## Demo Dashboard
 
+demo-dashboard-card-header = Es taulèrs personaus vos informen sus eth progrès individuau e dera comunitat.
+demo-dashboard-card-body = Per cada talh de votz dada e per cada talh d’àudio validat, es taulèrs deth vòste compde s'actualizen entà rebàter eth vòste progrès mès recent en cada lengua a on collaboratz. Òc, podetz participar en mès d'ua! <br/><br/> Emplegatz taulèrs entà susvelhar es vòstes estadistiques, veir eth vòste rendiment en relacion damb d’auti membres dera comunitat e definir objectius de collaboracion diària o setmanau.
 
 ## Validation criteria
 
-contribution-for-example = per exemple
+contribution-criteria-nav = Critèris
+contribution-criteria-link = Comprenetz es critèris de collaboracion
+contribution-criteria-page-title = Critèris de collaboracion
+contribution-criteria-page-description = Comprenetz de qué cau cercar quan escotatz clips de votz, e ajudatz a qu'es vòsti enregistraments de votz tanben siguen mès enriquidi.
+contribution-for-example = Per exemple
+contribution-misreadings-title = Lectures erronèes
+contribution-misreadings-description = En escotar, verificatz damb fòrça suenh que çò que s’a enregistrat ei exactaments çò que i a escrit; refusatz eth talh tanben se i a errors mendres. <br />Es errors mès abituaus son:
+contribution-misreadings-description-extended-list-1 = Cambiar ua paraula per ua auta de semblabla. Per exemple, <strong>«a»</strong>, <strong>«en»</strong> o <strong>«damb»</strong>.
+contribution-misreadings-description-extended-list-2 = Cambiar bèra forma verbau. Per exemple, hèr «cantèssem» en lòc de «cantèssen».
+contribution-misreadings-description-extended-list-3 = Hèr contraccions o elisions que non se tròben en tèxte, o vice-vèrsa. Per exemple, hèr «eth oncle» en lòc de «er oncle», o hèr «'nar» alloc de «anar».
+contribution-misreadings-description-extended-list-4 = Ométer era fin dera darrèra paraula, en talhar er enregistrament massa lèu.
+contribution-misreadings-description-extended-list-5 = Hèr multiples assagi entà liéger ua paraula.
+contribution-misreadings-example-1-title = Es grani dinosaures deth Triasic.
+contribution-misreadings-example-2-title = Es grani dinosaure deth Triasic.
+contribution-misreadings-example-2-explanation = [Aurie d’èster «dinosaures»]
+contribution-misreadings-example-3-title = Es grani dinosaures deth Triasi-.
+contribution-misreadings-example-3-explanation = [Talh d’enregistrament abans dera fin dera darrèra paraula]
+contribution-misreadings-example-4-title = Es grani dinosaures deth Triasic. Òc.
+contribution-misreadings-example-4-explanation = [S'an enregistrat mès paraules des indicades en tèxte]
+contribution-misreadings-example-5-title = Anam en tren tà Tarragona.
+contribution-misreadings-example-6-title = Nam en tren tà Tarragona.
+contribution-misreadings-example-6-explanation = [Aurie d’èster «Anam»]
+contribution-misreadings-example-7-title = Anam damb tren tà Tarragona.
+contribution-misreadings-example-7-explanation = [Eth tèxte originau indique «en»]
+contribution-misreadings-example-8-title = Un elefant aucic ua aranha.
+contribution-misreadings-example-8-explanation = [Eth contengut non coïncidís]
+contribution-varying-pronunciations-title = Prononciacions variables
+contribution-varying-pronunciations-description = Tietz compde abans de refusar un clip pr'amor qu'eth lector a prononciat mau ua paraula. Er aranés a ua ampla varietat de pronóncies, e dilhèu no les auetz sentudes jamès. Non se pronóncie parièr en aranés centrau, de Pujòlo o septentrionau. Hetz hidança ad aqueri que parlen d’ua manèra diferenta dera vòsta.
+contribution-varying-pronunciations-description-extended = De ua auta part, se credetz que probablaments eth/era lector/a non s'a trobat jamès damb era paraula e simplaments hè ua supausicion incorrècta dera pronóncia, refusatz eth talh. Se non n'ètz segur/a, utilizatz eth boton Omet.
+contribution-varying-pronunciations-example-1-title = Eri mingen peres.
 
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
