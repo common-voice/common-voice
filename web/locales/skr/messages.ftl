@@ -1063,6 +1063,7 @@ contribution-criteria-link = ونگار دا معیار سمجھو
 contribution-criteria-page-title = ونگار دا معیار
 contribution-for-example = مثال دے طور تے
 contribution-misreadings-title = غلط پڑھݨ
+contribution-misreadings-description-extended-list-1 = ریکاڈنگ دے شروع وچ کوئی لفظ غائب ہووݨ۔
 contribution-misreadings-description-extended-list-2 = لفظ دے چھیکڑ تے ہک <strong>'s'</strong> غائب ہے۔
 contribution-misreadings-description-extended-list-4 = رکاڈنگ کوں تکھے تکھے کٹ تے چھیکڑی لفظ دا سِرا ون٘ڄاوݨ
 contribution-misreadings-description-extended-list-5 = ہک لفظ پڑھݨ کیتے ٻہوں واری کوشش تھیندی پئی ہے۔
@@ -1406,6 +1407,7 @@ localization-select =
     .label = زبان/مقامیت سازی چݨو
 # PARTNERSHIPS PAGE
 partnerships-header = بھائیوالی
+partnerships-header-text = کامن وائس بݨاوݨ کیتے ٻہوں کجھ لڳدے! اساں ایہ کم کلہے کائنی کریندے۔ ساݙے بھائیوال بݨݨ چاہندے ہو؟ اساں تہاݙے کنوں ایہ سُݨݨ پسند کریندیسے۔
 partnerships-get-in-touch = رابطے وچ راہوو
 partnerships-become-a-partner = کامن وائس بھائیوال بݨو
 partnerships-community-header = برادری، تخلیقاں تے سول سوسائٹی
