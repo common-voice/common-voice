@@ -405,7 +405,7 @@ login-identity = Nasnameyê dekewtişî
 login-signup = Dekewe/Hesab Viraze
 edit = Sereraşt ke
 email-subscriptions = Aboneyîyê e-maîlî
-download-profile = Dayeyanê mi bîya war
+download-profile = Dayeyanê mi bîyare war
 contribution-experience = Tecrubeyê Beşdarîye
 skip-submission-feedback = Rusnayîşê apeyhayî ravêre
 skip-submission-description = Ti ke wextê gureyayîşî de 'Birusne' ser o tiknenî/a, apeyhayî nêna dayene. Beşdarîye desinde bi 5 qeyd yan zî tesdîqanê ameyoxan ra dewam kena.
@@ -626,7 +626,7 @@ error-code = Xeta { $code }
 
 ## Data
 
-data-download-button = Dayeyanê Common Voice Bîya War
+data-download-button = Dayeyanê Common Voice Bîyare War
 data-download-yes = Heya
 data-download-deny = Ney
 data-download-license = Lîsans: <licenseLink>CC-0</licenseLink>
@@ -634,8 +634,8 @@ data-download-modal = Ti hawo <size>{ $size }GBan</size> anî/a war. Dewam?
 data-get-started = <speechBlogLink>Dest bi Naskerdişê Qiseykerdişî bike</speechBlogLink>
 data-other-title = Komdayeyê vengî yê bînî…
 data-other-goto = Şo { $name }
-data-other-download = Dayeyan Bîya War
-data-bundle-button = Pakêta Komdayeyan Bîya War
+data-other-download = Dayeyan Bîyare War
+data-bundle-button = Pakêta Komdayeyan Bîyare War
 data-bundle-description = Dayeyê Common Voice zêdek pêro komdayeyê vengî yê corênî.
 release-version = Versîyon
 dataset-date = Tarîx
@@ -657,7 +657,7 @@ review-delete-recordings = Qeydanê mi biestire
 
 datasets-heading = Komdayeyî
 language = Ziwan
-download-dataset-header = Komdayeyî Bîya War
+download-dataset-header = Komdayeyî Bîyare War
 # File size in gigabytes
 size = Girsîye
 validated-hr-total = Pêro saetê tesdîqkerdeyî
@@ -671,7 +671,7 @@ why-email = <b>Çira e-maîl lazim o?</b> Beno ke ameyox de ma derheqê vurîyay
 confirm-size = Ti hazir î/a ke bi girsîya <b>{ $size }</b> bîyarê war?
 size-gigabyte = GB
 size-megabyte = MB
-download-language = { $language } bîya war
+download-language = { $language } bîyare war
 validated-hours = Saetê tesdîqkerdeyî
 recorded-hours = Saetê qeydkerdeyî
 whats-inside = Zereyê komdayeyê Common Voice de çi est o?
@@ -693,7 +693,7 @@ go-languages-page = Şo rîpelê ziwanan
 ready-to-validate = Ti hazir î/a cumleyan tesdîq bikerê?
 more = Hîna zaf
 close = Pade
-download = Bîya war
+download = Bîyare war
 dataset-version = Versîyon
 
 ## Download Modal
@@ -950,11 +950,15 @@ download-profile-size = Çend baytî
 download-recordings-title = Qeydî
 download-recordings-info = Tede MP3 û cumleyê têkildarî est ê. Amadekerdiş tenê wext gêno
 download-recordings-size = Normal de tayê megabaytî
+download-recordings-unavailable = Heta ke waştişo bîn hîna fealîyet de yo, ti nêeşkenî/a qeydanê bînan biwazê.
+download-recently-requested = Her { $days } rojan de ti eşkenî/a newe ra qeydanê xo bîyarê war.
 download-size = Girsîye
 download-selected = Weçînite
 download-start = Dayeyanê profîlê xo bîyare war
 download-request = Qeydan biwaze
-download-request-button = Bîya war
+download-requests = Waştişê warardişê qeydan ê verênî
+download-requests-info = Gama ke ti qeydanê xo wazenî/a, ma înan dekenîme yew yan zî çend dosyayanê ZIPan. Nê waştişê to yê verênî yê:
+download-request-button = Bîyare war
 download-request-title = { $created }
 download-request-description = { $clipCount } qeydê vengî, girsîya arşîvî ya kome { $size }. Heta { $expires } maneno.
 download-request-archive-single = Yew dosyaya ZIPî. Tedeyî:
@@ -1103,6 +1107,9 @@ sc-howto-addsen-item-6 = Beno ke <validationRulesLink>qaydeyê sereraştkerdiş�
 sc-howto-addsen-post-1 = Tercîhê ma cumleyê tebîî, yanî yê qiseykerdişî yê. Herçiqas ke muhîm o ke yew cumle de bêjbibêjîya fonetîke û çekuyê cîya-cîyayî est bê, heto bîn ra wa qeydkerdişê vengan keyfê merdimî bîyaro. Coka, eke ti cumleyanê xo tebîî û baldare verdanî/a, no zaf beno rind.
 sc-howto-cite-title = Senî neql bibo?
 sc-howto-cite-pre-1 = Muhîm o ke ti çimeyê lîsansê pêroyî nîşan bidê ke <copyrightIssuesLink>meseleyê heqê telîfî</copyrightIssuesLink> yan întîxalî nêvejîyê. Tîya tayê nimûneyê neqlkerdiş û nîşandayîşê çimeyan est ê.
+sc-howto-cite-item-1 = Ti eşkenî/a keyepelê çimeyî nîşan bidê, mavajî "Common Voice - https://commonvoice.mozilla.org/"
+sc-howto-cite-item-2 = Ti eşkenî/a referansê akademîkî bidê, mavajî stîlê Harvardî de: "Mozilla (2021) Common Voice. Adrese: https://commonvoice.mozilla.org/ (Tarîxê ciresayîşî: 15. êlule 2021)"
+sc-howto-cite-item-3 = Seba metnanê milkê pêroyî ke Înternet de çin ê, ti eşkenî/a referansê bi stîlê akademîkî bidê, sey stîlê Harvardî: "Qelemdar (2021) Şîîrê min ê milkê pêroyî".
 sc-howto-review-title = Çim biçarne cumleyan
 sc-howto-review-subtitle = Baldar be ke cumle rîayetê nê krîteran bikero:
 sc-howto-review-criteria-1 = Ganî cumle raşt binusîyo.
@@ -1111,11 +1118,15 @@ sc-howto-review-criteria-3 = Ganî merdim bieşko cumle biwano.
 sc-howto-review-criteria-4 = Eke cumle rîayetê nê krîteran kena, "Tesdîq ke" ser o bitikne.
 sc-howto-review-criteria-5 = Eke cumle rîayetê krîteran nêkena, "Betal ke" ser o bitikne. Eke ti pê cumle emîn nîyî/nîya, ti eşkenî/a ravêrê şorê cumleya ameyoxe.
 sc-howto-review-criteria-6 = Eke cumleyî nêmendê ke bêrê çimçarnayene, keremê xo ra dest bide ma ke hîna zaf cumleyan arê bidîme!
+sc-howto-findpd-title = Cumleyê ke rayapêroyî rê akerde yê, înan bivîne
+sc-howto-findpd-subtitle = Înternet de bigêre
+sc-howto-findpd-tips = Tayê şîretê dîyayîşê cumleyan:
 
 ## MY SENTENCES
 
 sc-my-title = Cumleyê Mi
 sc-my-loading = Cumleyê to bar benê...
+sc-my-err-fetching = Ardişê cumleyanê to de xeta qewimîyaye. Keremê xo ra reyna biceribne.
 sc-my-no-sentences = Cumleyî nêameyî dîyene!
 # Variables:
 #   $batchId (String) - A unique ID identifying the submission of sentences - sentences uploaded together all have the same batch ID
@@ -1131,6 +1142,7 @@ sc-my-err-failed-delete = Cumleyê weçîniteyî nênê estiritene... Keremê xo
 
 sc-rejected-title = Cumleyê Betalkerdeyî
 sc-rejected-loading = Cumleyê betalkerdeyî bar benê...
+sc-rejected-err-fetching = Ardişê cumleyanê betalkerdeyan de xeta qewimîyaye. Keremê xo ra reyna biceribne.
 sc-rejected-none-found = Cumleyê betalkerdeyî nêameyî dîyene!
 
 ## STATS
@@ -1164,7 +1176,9 @@ sc-submit-guidelines = Keremê xo ra <howToLink>rayberan</howToLink>de nîyade.
 ## ADD LANGUAGE
 
 sc-add-lang-could-not-add = Ziwan îlawe nêbî
+sc-add-lang-sec-label = Ziwano ke ti wazenî/a tede beşdarîye bikerê, îlawe bike
 sc-add-lang-sec-button = Ziwanêk îlawe bike
+sc-add-err-unexpected = Serverî cewabo hêvînêkerde da
 # Variables:
 #   $duplicates (Number) - Number of sentences which got rejected because they are duplicates
 sc-add-result =
