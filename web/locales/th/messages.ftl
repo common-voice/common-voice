@@ -1368,6 +1368,7 @@ localization-select =
 # PARTNERSHIPS PAGE
 partnerships-header = พันธมิตร
 partnerships-become-a-partner = ร่วมเป็นพันธมิตร Common Voice
+partnerships-foundations-header = มูลนิธิ
 partnerships-governments-header = รัฐบาล
 partnerships-small-business-header = ธุรกิจขนาดเล็ก รวมถึงสตาร์ทอัพด้านเทคโนโลยีและ AI
 partnerships-our-partners = พันธมิตรของเรา
