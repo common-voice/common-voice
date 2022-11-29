@@ -1247,6 +1247,7 @@ sc-submit-button =
 
 ## ADD LANGUAGE
 
+sc-add-lang-could-not-add = ບໍ່ສາມາດເພີ່ມພາສາໄດ້
 sc-add-lang-sec-label = ເພີ່ມພາສາທີ່ທ່ານຕ້ອງການປະກອບສ່ວນ
 sc-add-lang-sec-button = ເພີ່ມພາສາ
 sc-add-err-submission = ການຍື່ນສະເຫນີຜິດພາດ
@@ -1263,6 +1264,7 @@ sc-lang-info-title-personal = ສ່ວນຕົວ
 
 ## LOGIN
 
+sc-login-err-failed = ເຂົ້າສູ່ລະບົບລົ້ມເຫລວ
 sc-login-err-try-again = ກະລຸນາລອງອີກຄັ້ງ.
 
 ## PROFILE
@@ -1282,6 +1284,7 @@ sc-personal-added-by-you = { $sentences } ເພີ່ມໂດຍທ່ານ
 sc-criteria-modal = ⓘ ກວດສອບເງື່ອນໄຂ
 sc-criteria-title = ກວດສອບເງື່ອນໄຂ
 sc-criteria-item-1 = ປະໂຫຍກຕ້ອງສະກົດຖືກຕ້ອງ.
+sc-criteria-item-3 = ປະໂຫຍກຕ້ອງເວົ້າໄດ້.
 
 ## REVIEW
 
@@ -1305,4 +1308,5 @@ localization-select =
     .label = ເລືອກພາສາ/ທ້ອງຖິ່ນ
 partnerships-foundations-header = ມູນນິທິ
 partnerships-governments-header = ລັດຖະບານ
+partnerships-academia-header = ມະຫາວິທະຍາໄລ, ນັກວິຊາການ ແລະນັກຄົ້ນຄວ້າ
 partnerships-our-partners = ຄູ່ຮ່ວມງານຂອງພວກເຮົາ
