@@ -495,6 +495,9 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Çira Common Voice?
+about-header-description-v2 =
+    <p>Common Voice komdayeyêk o ke her kesî rê akerde yo û bi venganê beşdaranê zerrîwazan ra ke çar goşeyanê dinya ra yenê, virazîyeno. Kesê bînî ke wazenê applîkasyonanê vengî virazê, eşkenê nê komdayeyî seba perwerdekerdişê modelanê musayîşê makîneyan bigurenê.</p>
+    <p>No dem, zafêrîya komdayeyanê vengî destê şîrketan de ya. No zî înovasyon asteng keno. Ney ra zî wet, komdayeyan de tayê miletî kêmî temsîl benê: kesê ke îngilizkî qisey nêkenê, kesê postikrenginî, astengdarî, cinîkî û endamê LGBTQIA+. Yanî, teknolojîyê bi vengî xeylê ziwanan de nêgureyenê. Eke gureyenê zî, her kesî rê eynî sewîye de xizmet nêkenê. Ma wazenîme ney bivurnîme û her ca de însanan ra ray fînîme ke venganê xo pare bikerê.</p>
 how-does-it-work-title-v2 = Common Voice senî gureyeno?
 how-does-it-work-text = Ma komdayeyê qeydanê vengî arê danîme. Vengê xo bibexişne, raştîya qeydanê kesanê bînan tesdîq bike û wina komdayeyî seba her kesî rindêr bike.
 
@@ -527,12 +530,16 @@ about-yes-votes-text = Seba ke yew qeydê vengî bikewo komdayeyê Common Voice,
 about-no-votes = ≥ 2 rayê "ney"
 about-no-votes-text = Eke xebitnayoxêk qeydê vengî betal keno, qeyd agêreno Rêze. Eke reya dîyine betal beno, qeydê vengî şono Goristanê Qeydan.
 about-dataset-new = Komdayeyê Common Voice
+about-dataset-new-text = Komdayeyê Common Voice se hezaran qeydanê vengî ra yeno pêra. Nê kî viraştoxan rê benê destek ke pê wesayîtanê naskerdişê vengî virazê.
 about-clip-graveyard = Goristanê Qeydan
 about-clip-graveyard-text =
     Qeydê vengî yê ke nênê zereyê komdayeyê Common Voice, kewenê Goristanê Qeydan. Sey komdayeyan, Goristanê Qeydan kî yeno warardene. 
     
     Seba ke nê projeyî de hetkarîya ma kerde, ma wazenîme nê kes û organîzatoranê cêrênan rê sipas bikerîme:
 about-get-involved = Beşdar be
+about-get-involved-text-2 =
+    Ti wazenî/a Common Voice holêr bikerê? Zaf rind o! 
+    Pê e-maîl yan zî forumanê <discourseLink>Discourse</discourseLink> de bikewe têkilîye, problemanê sîteyî <githubLink>GitHub</githubLink> ser o birusne, yan zî beşdarê xoşebera komelê <matrixLink>Matrix</matrixLink>î bibe.
 about-stay-in-touch = Ez senî eşkena têkilîye de bimanî?
 about-stay-in-touch-button = Qeyd bibe
 about-nav-why-common-voice = Çira?
@@ -608,6 +615,8 @@ about-playbook-how-access-dataset = Ez senî biresî komdayeyî û ey senî bixe
 ## How are decisions made
 
 about-playbook-how-project-governance = Qerarê projeyî senî yenê girewtene?
+about-playbook-how-project-governance-content-5 = Qîymet û naskerdiş.
+about-playbook-how-project-governance-content-6 = Berpirsîyarîya hempare.
 
 ## Glossary
 
