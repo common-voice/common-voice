@@ -1258,14 +1258,22 @@ sc-review-form-button-reject = Betal ke
 sc-review-form-button-skip = Ravêre
 sc-review-form-button-approve = Tesdîq ke
 # Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
-sc-review-form-button-approve-shortcut = H
+sc-review-form-button-approve-shortcut = T
 # Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
-sc-review-form-button-reject-shortcut = N
+sc-review-form-button-reject-shortcut = B
 # Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
 sc-review-form-button-skip-shortcut = R
 sc-review-form-keyboard-usage-custom = Eke wazenî/a, kilmnusanê klavyeyî bigurene: seba tesdîqkerdişî { sc-review-form-button-approve-shortcut }, seba betalkerdişî { sc-review-form-button-reject-shortcut }, seba ravîyarnayîşî { sc-review-form-button-skip-shortcut }.
 sc-review-form-button-submit =
     .submitText = Çimçarnayîşî Biqedêne
+# Variables:
+#   $sentences (Number) - Number of sentences the user has reviewed in this session
+sc-review-form-reviewed-message =
+    { $sentences ->
+        [0] Hem çim nêçarnîyayo.
+       *[other] Çim çarnîya { $sentences } cumleyan. Weş be!
+    }
+sc-review-form-review-failure = Çimçarnayîş qeyd nêbî. Keremê xo ra badê reyna biceribne.
 sc-review-link = Çim Biçarne
 
 ## SETTINGS
