@@ -1101,6 +1101,7 @@ download-request-title = { $created }
 download-request-archive-single = ໄຟລ໌ ZIP ດຽວປະກອບມີ
 download-request-refresh-button = ຟື້ນຟູ
 download-request-modal-title = ລິ້ງດາວໂຫລດ
+download-request-modal-description = ນີ້ແມ່ນລິ້ງເພື່ອດາວໂຫລດໄຟລ໌ ZIP ຂອງທ່ານ.
 download-request-link-text = Zip #{ $offset } ຂອງ { $total }
 download-request-metadata-link = ຂໍ້ຄວາມປະໂຫຍກ
 
