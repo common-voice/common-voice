@@ -1134,6 +1134,7 @@ sc-howto-review-criteria-6 = Eke cumleyî nêmendê ke bêrê çimçarnayene, ke
 sc-howto-findpd-title = Cumleyê ke rayapêroyî rê akerde yê, înan bivîne
 sc-howto-findpd-subtitle = Înternet de bigêre
 sc-howto-findpd-tips = Tayê şîretê dîyayîşê cumleyan:
+sc-howto-findpd-tips-3 = Çi heyf o ke ma nêeşkenîme meqaleyanê Wîkîmedîa bixebitnîme. Coka uca ra teba kopya meke.
 sc-howto-findpd-subtitle-2 = Rêxistin yan şexsanê cayîyan de hemkarîye bike
 
 ## MY SENTENCES
