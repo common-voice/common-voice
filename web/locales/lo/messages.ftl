@@ -1108,6 +1108,7 @@ download-request-metadata-link = ຂໍ້ຄວາມປະໂຫຍກ
 ## Landing
 
 welcome-staff = ຍິນດີຕ້ອນຮັບພະນັກງານ { $company }!
+login-company = ເຂົ້າສູ່ລະບົບ / ລົງທະບຽນດ້ວຍ { $company } ອີເມວ
 read-more-about = ອ່ານເພີ່ມເຕີມກ່ຽວກັບຫນ້າກ່ຽວກັບຂອງພວກເຮົາ
 
 ## DemoLayout
@@ -1128,6 +1129,8 @@ demo-account = ບັນຊີ
 ## Demo Account
 
 demo-account-card-header = ການມີບັນຊີບໍ່ຈໍາເປັນຕ້ອງປະກອບສ່ວນ, ເຖິງແມ່ນວ່າມັນເປັນປະໂຫຍດ.
+demo-account-enter-email =
+    .label = ໃສ່ອີເມວເພື່ອສົ່ງລິ້ງສະໝັກ
 demo-account-sign-up = ສົ່ງລິ້ງລົງທະບຽນ
 
 ## Demo Contribute
@@ -1142,6 +1145,7 @@ demo-dashboard-card-header = dashboards ສ່ວນບຸກຄົນເຮັ�
 ## Validation criteria
 
 contribution-criteria-nav = ເງື່ອນໄຂ
+contribution-criteria-link = ເຂົ້າໃຈເງື່ອນໄຂການປະກອບສ່ວນ
 contribution-criteria-page-title = ເງື່ອນໄຂການປະກອບສ່ວນ
 contribution-for-example = ຍົກ​ຕົວ​ຢ່າງ
 contribution-misreadings-title = ການອ່ານຜິດ
@@ -1153,6 +1157,7 @@ contribution-misreadings-example-5-title = ພວກເຮົາກໍາລັ�
 contribution-misreadings-example-6-title = ພວກເຮົາອອກໄປຮັບກາເຟ.
 contribution-misreadings-example-6-explanation = [ຄວນຈະເປັນ “ເຮົາ”]
 contribution-misreadings-example-7-title = ພວກເຮົາກໍາລັງອອກໄປຮັບກາເຟ.
+contribution-misreadings-example-8-title = bumblebee ໄດ້ sped ໂດຍ.
 contribution-misreadings-example-8-explanation = [ເນື້ອໃນບໍ່ກົງກັນ]
 contribution-varying-pronunciations-title = ການອອກສຽງທີ່ແຕກຕ່າງກັນ
 contribution-varying-pronunciations-example-2-title = ມືຂອງລາວຖືກຍົກຂຶ້ນ.
@@ -1202,6 +1207,7 @@ sc-home-review-title = ທົບທວນປະໂຫຍກ
 ## HOW-TO
 
 sc-howto-title = ວິທີ
+sc-howto-addlang-title = ເພີ່ມພາສາເພື່ອເຮັດວຽກກັບ
 sc-howto-addsen-title = ເພີ່ມປະໂຫຍກໃຫມ່
 sc-howto-cite-title = ວິທີການອ້າງອີງ
 sc-howto-review-title = ທົບທວນປະໂຫຍກ
@@ -1262,6 +1268,7 @@ sc-confirm-button-text = ຢືນຢັນ​
 
 sc-lang-info-title-total = ລວມ
 sc-lang-info-title-personal = ສ່ວນຕົວ
+sc-lang-info-review-now = <reviewLink>ກວດເບິ່ງດຽວນີ້!</reviewLink>
 
 ## LOGIN
 
@@ -1291,12 +1298,20 @@ sc-criteria-item-3 = ປະໂຫຍກຕ້ອງເວົ້າໄດ້.
 
 sc-review-title = ທົບທວນປະໂຫຍກ
 sc-review-loading = ກຳລັງໂຫລດປະໂຫຍກ...
+sc-review-form-prompt =
+    .message = ບໍ່ໄດ້ສົ່ງປະໂຫຍກທີ່ທົບທວນຄືນ, ແນ່ໃຈບໍ?
 # Variables:
 #   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
 sc-review-form-source = ທີ່ມາ: { $sentenceSource }
 sc-review-form-button-reject = ປະຕິເສດ
 sc-review-form-button-skip = ຂ້າມ
 sc-review-form-button-approve = ອະນຸມັດ
+# Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
+sc-review-form-button-approve-shortcut = Y
+# Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
+sc-review-form-button-reject-shortcut = N
+# Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
+sc-review-form-button-skip-shortcut = S
 sc-review-link = ທົບທວນ
 
 ## SETTINGS
@@ -1307,6 +1322,8 @@ sc-settings-title = ການຕັ້ງຄ່າ
 
 localization-select =
     .label = ເລືອກພາສາ/ທ້ອງຖິ່ນ
+# PARTNERSHIPS PAGE
+partnerships-header = ຫຸ້ນສ່ວນ
 partnerships-foundations-header = ມູນນິທິ
 partnerships-governments-header = ລັດຖະບານ
 partnerships-academia-header = ມະຫາວິທະຍາໄລ, ນັກວິຊາການ ແລະນັກຄົ້ນຄວ້າ
