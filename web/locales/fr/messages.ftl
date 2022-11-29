@@ -5,13 +5,13 @@ stayintouch = Chez Mozilla, nous rassemblons une communauté autour des technolo
 privacy-info = Nous promettons de prendre soin de vos données. Apprenez-en davantage en consultant notre <privacyLink>Politique de confidentialité</privacyLink>.
 return-to-cv = Retourner vers Common Voice
 email-input =
-    .label = Adresse électronique
+    .label = Adresse e-mail
 submit-form-action = Envoyer
 loading = Chargement…
-email-opt-in-info = J’aimerais recevoir des courriels tels que des rappels d’objectifs, des rapports sur mes progrès et les lettres d’information de Common Voice.
+email-opt-in-info = J’aimerais recevoir des e-mails tels que des rappels d’objectifs, des rapports sur mes progrès et les lettres d’information de Common Voice.
 email-opt-in-info-title = Rejoignez la liste de diffusion Common Voice
-email-opt-in-info-sub-with-challenge = Recevez des courriels tels que des défis, des rappels d’objectifs, des rapports d’avancement et des lettres d’information sur Common Voice.
-email-opt-in-privacy-v2 = En acceptant de recevoir des courriels, vous indiquez accepter que Mozilla gère ces informations, conformément à la <privacyLink>politique de confidentialité</privacyLink> de Mozilla.
+email-opt-in-info-sub-with-challenge = Recevez des e-mails tels que des défis, des rappels d’objectifs, des rapports d’avancement et des lettres d’information sur Common Voice.
+email-opt-in-privacy-v2 = En acceptant de recevoir des e-mails, vous indiquez accepter que Mozilla gère ces informations, conformément à la <privacyLink>politique de confidentialité</privacyLink> de Mozilla.
 indicates-required = * indique un champ obligatoire
 not-available-abbreviation = Non disponible
 banner-error-slow-1 = Désolé, Common Voice fonctionne lentement. Merci de votre intérêt.
@@ -40,10 +40,12 @@ ba = Bashkir
 bas = Basaa
 be = Biélorusse
 bg = Bulgare
+bm = Bambara
 bn = Bengali
 br = Breton
 bs = Bosniaque
 bxr = Bouriate
+byv = Medumba
 ca = Catalan
 cak = Cakchiquel
 ckb = Kurde central
@@ -53,9 +55,11 @@ cs = Tchèque
 cv = Tchouvache
 cy = Gallois
 da = Danois
+dag = { "" }
 de = Allemand
 dsb = Bas-sorabe
 dv = Maldivien
+dyu = Dioula
 el = Grec
 en = Anglais
 eo = Espéranto
@@ -75,6 +79,7 @@ gom = Goan Konkani
 ha = Haoussa
 he = Hébreu
 hi = Hindi
+hil = Hiligaïnon
 hr = Croate
 hsb = Haut-sorabe
 ht = Haïtien
@@ -89,6 +94,7 @@ is = Islandais
 it = Italien
 izh = Ingrien
 ja = Japonais
+jbo = Lojban
 ka = Géorgien
 kaa = Karakalpak
 kab = Kabyle
@@ -97,6 +103,7 @@ ki = Kikuyu
 kk = Kazakh
 km = Khmer
 kmr = Kurmandji kurde
+kn = Kannada
 knn = Konkani (devanagari)
 ko = Coréen
 kpv = Komi-zyriène
@@ -105,6 +112,8 @@ ky = Kirghize
 lb = Luxembourgeois
 lg = Luganda
 lij = Ligure
+ln = Lingala
+lo = Lao
 lt = Lituanien
 lv = Letton
 mai = Maïthili
@@ -124,12 +133,16 @@ my = Birman
 myv = Erzya
 nan-tw = Taïwanais (Minnan)
 nb-NO = Norvégien bokmål
+nd = Ndébélé du Nord
 ne-NP = Népalais
 nia = Nias
 nl = Néerlandais
 nn-NO = Norvégien nynorsk
+nr = Ndébélé du Sud
+nso = Sotho du Nord
 nyn = Nkore
 oc = Occitan
+om = Afaan Ormoo
 or = Odia
 pa-IN = Pendjabi
 pap-AW = Papiamento (Aruba)
@@ -147,14 +160,18 @@ sah = Iakoute
 sat = Santali (Ol Chiki)
 sc = Sarde
 scn = Sicilien
+sdh = Kurde du Sud
 shi = Tachelhit/chleuh
 si = Sinhala
 sk = Slovaque
 skr = Saraiki
 sl = Slovène
+snk = Soninké
 so = Somali
 sq = Albanais
 sr = Serbe
+ss = Swati
+st = Sotho du Sud
 sv-SE = Suédois
 sw = Swahili
 syr = Syriaque
@@ -166,8 +183,10 @@ ti = Tigrigna
 tig = Tigré
 tk = Turkmène
 tl = Tagalog
+tn = Tswana
 tok = Toki Pona
 tr = Turc
+ts = Tsonga
 tt = Tatar
 tw = Twi
 ty = Tahitien
@@ -177,15 +196,20 @@ ug = Ouïghour
 uk = Ukrainien
 ur = Ourdou
 uz = Ouzbek
+ve = Venda
 vec = Vénitien
 vi = Vietnamien
 vot = Vote
+xh = Xhosa
 yi = Yiddish
 yo = Yoruba
 yue = Cantonais
+zgh = Amazighe
 zh-CN = Chinois (Chine)
 zh-HK = Chinois (Hong-Kong)
 zh-TW = Chinois (Taïwan)
+zu = Zoulou
+zza = { "" }
 
 # [/]
 
@@ -197,6 +221,7 @@ speak-now = Parler
 datasets = Jeux de données
 languages = Langues
 about = Qui sommes-nous
+partner = Devenir partenaire
 profile = Profil
 help = Aide
 contact = Nous contacter
@@ -262,7 +287,7 @@ x-years-short =
     }
 help-make-dataset = Aidez-nous à constituer une base de données libre et publique de haute qualité
 sign-up-account = Créer un compte
-email-subscription-title = Recevez des informations par courriel
+email-subscription-title = Recevez des informations par e-mail
 email-subscription-title-new = Abonnez-vous aux lettres d’information, rappels d’objectifs et bilan des progrès de Common Voice
 
 ## Account Benefits
@@ -278,11 +303,11 @@ join-newsletter = Inscrivez-vous à notre liste de diffusion pour être tenu au 
 ## What's public
 
 whats-public = Quelles informations sont publiques ?
-email-not-public = Nous ne rendrons pas publique votre adresse électronique.
+email-not-public = Nous ne rendrons pas publique votre adresse e-mail.
 recordings-and-locale-public = Le nombre d’enregistrements et les langues dans lesquelles vous contribuez seront publics.
 username-optin-public = Vous pouvez choisir de rendre votre nom d’utilisateur ou d’utilisatrice public ou anonyme
 demographic-deidentified-clarity-2 = Les données démographiques éventuellement soumises (par exemple, l’âge, le genre, la langue et l’accent) ne seront jamais rendues publiques sur votre profil et ne seront pas liées à votre compte dans l’ensemble de données. Des échantillons audio individuels seront associés à des données démographiques à des fins d’analyse plus précise ; par exemple, une chercheuse pourrait vouloir cibler un modèle d’entrainement sur un segment démographique spécifique.
-username-email-not-demographic = Votre nom d’utilisateur ou d’utilisatrice et votre adresse électronique ne seront pas associés aux données publiées.
+username-email-not-demographic = Votre nom d’utilisateur ou d’utilisatrice et votre adresse e-mail ne seront pas associés aux données publiées.
 
 ## Speak & Listen Shortcuts
 
@@ -315,7 +340,6 @@ shortcut-discard-ongoing-recording-label = Ignorer l’enregistrement en cours
 shortcut-submit = Entrée
 shortcut-submit-label = Envoyer les enregistrements
 request-language-text = Votre langue n’est pas encore disponible ?
-request-language-text-learn = Découvrez comment demander à ce qu’elle soit ajoutée.
 request-language-button = Proposer une langue
 
 ## ProjectStatus
@@ -380,13 +404,13 @@ profile-close = Fermer
 profile-explanation = Gardez un œil sur votre progression en créant un profil et aidez-nous à rendre nos données vocales plus précises.
 thanks-for-account = Merci d’avoir confirmé votre compte, maintenant créons votre profil.
 why-demographic = Pourquoi est-ce important ?
-why-demographic-explanation-2 = Les données utilisateur anonymes comme l’âge, le genre, et l’accent particulier contribuent à améliorer les données audio utilisées pour entraîner et rendre plus pertinents les moteurs de reconnaissance vocale. Votre nom d’utilisateur et votre adresse courriel ne seront jamais associés aux données que vous communiquez, et vous pouvez choisir entre rendre public votre nom d’utilisateur ou d’utilisatrice et garder l’anonymat.
+why-demographic-explanation-2 = Les données utilisateur anonymes comme l’âge, le genre, et l’accent particulier contribuent à améliorer les données audio utilisées pour entraîner et rendre plus pertinents les moteurs de reconnaissance vocale. Votre nom d’utilisateur ou d’utilisatrice et votre adresse e-mail ne seront jamais associés aux données que vous communiquez, et vous pouvez choisir entre rendre public votre nom d’utilisateur ou d’utilisatrice et garder l’anonymat.
 accept-privacy = J’accepte que vous utilisiez ces informations conformément à la <privacyLink>Politique de confidentialité</privacyLink> de Mozilla
 accept-privacy-title = Politique de confidentialité
 login-identity = Identité de connexion
 login-signup = Se connecter / S’inscrire
 edit = Modifier
-email-subscriptions = Abonnements par courriel
+email-subscriptions = Abonnements par e-mail
 download-profile = Télécharger mes données
 contribution-experience = Expérience de contribution
 skip-submission-feedback = Passer l’envoi de commentaires
@@ -404,7 +428,7 @@ help-variants-explanation = Les variantes linguistiques sont une forme spécifiq
 browse-file-title = Envoyer une image
 browse-file = Glissez-déposez ou bien <browseWrap>Parcourez</browseWrap>
 connect-gravatar = Connectez-vous avec Gravatar
-gravatar_not_found = Impossible de trouver un Gravatar associé à votre adresse électronique
+gravatar_not_found = Impossible de trouver un Gravatar associé à votre adresse e-mail
 file_too_large = Le fichier sélectionné est trop volumineux
 avatar-uploaded = Avatar envoyé
 max-file-size = { $kb } ko max
@@ -413,10 +437,10 @@ remove-avatar = Supprimer l’avatar
 ## Profile - Email
 
 manage-subscriptions = Gérer vos abonnements
-manage-email-subscriptions = Gérer les abonnements aux courriels
-email-already-used = Cette adresse électronique est déjà utilisée par un compte différent
+manage-email-subscriptions = Gérer les abonnements aux e-mails
+email-already-used = Cette adresse e-mail est déjà utilisée par un compte différent
 add-language = Ajouter une langue
-change-email-setings = Modifiez votre adresse de courriel dans les Préférences, section « Identité de connexion »
+change-email-setings = Modifiez votre adresse e-mail dans les Préférences, section « Identité de connexion »
 
 ## FAQ
 
@@ -452,7 +476,9 @@ faq-why-different-speakers-a =
     La plupart des bases de données vocales sont construites avec une surreprésentation de certaines démographies et cela génère un biais en faveur <articleLink>des hommes de la classe moyenne</articleLink>. Les accents et les dialectes qui tendent à être sous-représentés sont typiquement ceux de populations déjà marginalisées. Ainsi, souvent, les machines ont du mal à reconnaître les voix féminines.
     C’est pourquoi nous voulons de la diversité dans notre base de données !
 faq-why-my-lang-q = Pourquoi ma langue n’est-elle pas déjà incluse ?
-faq-why-my-lang-new-a = Mozilla ne choisit ni ne favorise aucune langue par rapport à une autre. Au contraire, Common Voice est entièrement piloté par la communauté, mais il faut <multilangLink>plusieurs étapes pour ajouter une langue</multilangLink> et démarrer la collecte d’échantillons sonores. D’abord, le site web Common Voice nécessite d’être traduit pour que les membres de la communauté aient accès à la contribution dans leur langue. Ensuite, nous avons besoin d’une vaste quantité de textes qui soient libres de droits afin que les gens puissent les lire. Une fois que ces deux prérequis sont satisfaits, la langue est « lancée » sur Common Voice et les contributeurs et contributrices peuvent s’enregistrer et valider les enregistrements. Si vous souhaitez contribuer au lancement d’une nouvelle langue, rejoignez pour commencer notre <sentenceCollectorLink>outil de collecte de phrases</sentenceCollectorLink>.
+faq-why-my-lang-a =
+    Common Voice est une plateforme de crowdsourcing, et les langues ont toutes été ajoutées par des bénévoles.
+    Nous serions ravis que vous ajoutiez votre langue ! <languageRequestLink>Demander l’ajout d’une langue.</languageRequestLink>
 faq-what-quality-q = Quel niveau de qualité audio est requis pour les échantillons présents dans la base de données ?
 faq-what-quality-a = Nous souhaitons que le jeu de données Common Voice reflète la qualité audio qu’un système de reconnaissance vocale rencontrera dans la réalité, nous avons donc besoin de diversité. En plus d’une communauté représentant une large diversité de locuteurs, un jeu de données avec une qualité sonore variable permettra d’apprendre au moteur de reconnaissance vocale comment s’adapter dans différentes situations de la vie réelle, que ce soit avec des conversations en arrière-plan ou le bruit d’une voiture. Du moment que vos échantillons sont compréhensibles, alors c’est parfait pour le jeu de données.
 faq-why-10k-hours-q = Pourquoi l’objectif est-il de 10 000 heures d’audio ?
@@ -484,6 +510,9 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Pourquoi Common Voice ?
+about-header-description-v2 =
+    <p>Common Voice est un jeu de données public utilisant les voix de contributeurs et contributrices bénévoles du monde entier. Celles et ceux qui veulent créer des applications avec reconnaissance vocale peuvent utiliser le jeu de données pour entrainer des modèles de machine learning.</p>
+    <p>Actuellement, la plupart des jeux de données vocales appartiennent a des entreprises, ce qui freine l’innovation. Les jeux de données vocales sous-représentent également : les non-anglophones, les personnes de couleur, les personnes handicapées, les femmes et les personnes LGBTQIA+. Cela veut dire qu’une technologie qui a recours à la reconnaissance vocale ne prendra pas en charge beaucoup de langues, et pour celles qui le seront, elles ne fonctionneront pas aussi bien pour tout le monde. Nous voulons changer cela en mobilisant des personnes de tout horizon pour partager leur voix.</p>
 how-does-it-work-title-v2 = Comment fonctionne Common Voice ?
 how-does-it-work-text = Nous appelons à la participation collective pour constituer un jeu de données open source de voix. Donnez votre voix, validez la précision des échantillons d’autres personnes, améliorez le jeu de données pour tout le monde.
 
@@ -519,20 +548,16 @@ about-dataset-new = Jeu de données Common Voice
 about-dataset-new-text = Le jeu de données Common Voice contient des centaines de milliers d’échantillons vocaux pour aider les développeurs à créer des applications vocales.
 about-clip-graveyard = Cimetière des échantillons
 about-clip-graveyard-text = Le cimetière des échantillons est constitué d’échantillons qui n’ont pas été admis à faire partie du jeu de données Common Voice. Tout comme ce dernier, le cimetière des échantillons est disponible au téléchargement.
-about-partners = Partenaires
-about-become-a-partner = Devenir partenaire
-about-partnership =
-    Common Voice est un projet collaboratif et nous comptons sur notre communauté de partenaires et de contributeurs et contributrices pour créer le plus grand ensemble de données open source de voix.
-    
-    Nous voudrions remercier les personnes et organisations suivantes pour leur aide dans le projet :
 about-get-involved = Participer
 about-get-involved-text-2 =
     Vous voulez aider à améliorer Common Voice ?
-    Super ! Contactez-nous par courriel ou bien sur les forums <discourseLink>Discourse</discourseLink>,
+    Super ! Contactez-nous par e-mail ou bien sur les forums <discourseLink>Discourse</discourseLink>,
     signalez des problèmes sur <githubLink>GitHub</githubLink>,
     ou rejoignez la discussion communautaire sur <matrixLink>Matrix</matrixLink>.
 about-stay-in-touch = Comment rester en contact ?
 about-stay-in-touch-button = S’inscrire
+about-stay-in-touch-text-1 = <emailFragment>Inscrivez-vous</emailFragment> à notre liste de diffusion pour découvrir comment vous pouvez participer à des campagnes, à des évènements et à la création de fonctionnalités pour Common Voice.
+about-stay-in-touch-text-2 = Vous pouvez rencontrer d’autres membres des communautés linguistiques de Mozilla en rejoignant le <discourseLink>Discourse</discourseLink> pour des conversations thématiques, ou <matrixLink>Matrix</matrixLink> pour des conseils rapides.
 about-nav-why-common-voice = Pourquoi ?
 about-nav-how-it-works = Comment ?
 about-nav-partners = Partenaires
@@ -544,16 +569,30 @@ about-nav-playbook = Découvrez comment participer
 ## What is a language
 
 about-playbook-what-is-language = Qu’est-ce qu’une langue sur Common Voice ?
+about-playbook-what-is-language-content-1 = La langue peut être abordée de différentes manières. Dans le cadre des modèles d’apprentissage machine, Common Voice recommande de se concentrer sur « l’intelligibilité mutuelle » ou de répondre à la question « les personnes qui parlent cette langue peuvent-elles à peu près se comprendre si elles essaient de se comprendre ? ».
+about-playbook-what-is-language-content-2 = Nous voulons que les modèles vocaux soient mieux à même de comprendre un large éventail de locuteurs et de locutrices. Pour que cela se produise, un jeu de données vocales doit représenter un grand nombre de personnes différentes.
+about-playbook-what-is-language-content-3 = Certaines langues ont de grandes différences au niveau de la grammaire, du vocabulaire et de la prononciation. Pour cette raison, nous allons <ctaLink>introduire les « variantes linguistiques »</ctaLink> en 2022. Cela permet aux différentes communautés de distinguer leur langue au sein d’un jeu de données plus large.
 
 ## How do I add a language
 
 about-playbook-how-add-language = Comment ajouter une langue ?
 about-playbook-how-add-language-content-1 = Tout d’abord, vérifiez si votre langue <languageLink>existe déjà</languageLink>. Si ce n’est pas le cas, vous devrez <strong>traduire le site et collecter des phrases</strong>.
+about-playbook-how-add-language-translating-heading = Traduire le site
+about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Regardez notre guide d’utilisation de Pontoon.</translateVideoLink>
+about-playbook-how-add-language-translating-content-2 =
+    Nous utilisons un outil de Mozilla appelé <pontoonLink>Pontoon</pontoonLink> pour les traductions. Pontoon propose beaucoup de langues,
+    mais si la vôtre n’est pas proposée, vous pouvez <pontoonRequestLink>demander son ajout</pontoonRequestLink>.
+    Ensuite, pour rendre la langue disponible sur le projet Common Voice, vous devrez <githubRepoLink>demander la nouvelle langue sur GitHub</githubRepoLink>. <localizationFragment>En savoir plus sur la traduction du site</localizationFragment>.
+about-playbook-how-add-language-collecting-sentences-heading = Collecte de phrases
+about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>Regardez notre guide d’utilisation du collecteur de phrases</sentenceCollectorVideo>.
+about-playbook-how-add-language-collecting-sentences-content-2 = Vous pouvez <sentenceCollectorLinkAdd>ajouter un petit nombre de phrases ici</sentenceCollectorLinkAdd>, ou vous pouvez effectuer des <bulkImportDocsLink>importations en masse via GitHub</bulkImportDocsLink>. N’oubliez pas que les phrases doivent être <licenseLink>sous licence CC0 (ou dans le domaine public)</licenseLink>, ou vous pouvez rédiger les vôtres.
+about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>En savoir plus sur la collecte de phrases</sentenceCollectorFragment>.
 
 ## How does localization work
 
 about-playbook-how-localize = Comment fonctionne la traduction du site ?
 about-playbook-how-localize-content-1 = La traduction du site Common Voice s’effectue sur <strong>Pontoon</strong>.
+about-playbook-how-localize-content-2 = <pontoonAccountLink>Créez un compte</pontoonAccountLink> si vous n’en avez pas. Ensuite, choisissez votre langue <strong>(« Team »)</strong> puis choisissez le projet, <pontoonCvLink>Common Voice</pontoonCvLink>. Vous verrez des fichiers à traduire. Cliquez sur l’un d’eux, puis vous verrez alors des mots en anglais et une boîte pour les traduire.
 about-playbook-how-localize-content-3 = La traduction s’effectue depuis l’anglais, mais vous pouvez voir des <strong>suggestions</strong> dans d’autres langues. Cliquez sur l’icône <strong>Profil</strong>, puis sur le lien <strong>Paramètres</strong> et ajoutez les langues que vous parlez. Dans le coin inférieur droit se trouve une liste de traductions appelées <strong>Locales</strong>. Les traductions sont publiées sur le site au bout de 24 h.
 about-playbook-how-localize-content-4 = Le site est prêt à être lancé lorsqu’il atteint 75 % d’achèvement.
 about-playbook-how-localize-content-5 = Regardez notre vidéo explicative pour vous aider
@@ -561,6 +600,8 @@ about-playbook-how-localize-content-5 = Regardez notre vidéo explicative pour v
 ## How to add sentences
 
 about-playbook-how-add-sentences = Comment ajouter des phrases ?
+about-playbook-how-add-sentences-content-1 = Le <strong>collecteur de phrases</strong> est un outil de collecte et de validation des phrases du domaine public. Vous devrez <scAccountLink>créer un compte</scAccountLink>. Ensuite, ajoutez votre langue à votre <strong>profil</strong>. Vous pouvez <strong>ajouter</strong> des phrases ou <strong>réviser</strong> des phrases ajoutées précédemment.
+about-playbook-how-add-sentences-content-2 = Les phrases doivent être révisées et acceptées par deux personnes pour être incluses dans Common Voice. Vous pouvez créer des directives pour votre langue <languageGuidelinesLink>ici</languageGuidelinesLink>. Les phrases doivent appartenir au <licenseLink>domaine public</licenseLink> et être inférieures à 15 mots. Vous pouvez demander au propriétaire d’un texte de le passer sous licence <waiverLink>CC0 en utilisant notre processus de renonciation</waiverLink>, et nous l’envoyer à commonvoice@mozilla.com
 about-playbook-how-add-sentences-content-3 = Vous pouvez utiliser <scraperLink>l’extracteur de phrase</scraperLink> pour recueillir de courtes phrases sur Wikipédia.
 about-playbook-how-add-sentences-content-4 = Les phrases qui ont été validées sont exportées le mercredi et sont disponibles dès la version suivante.
 
@@ -578,7 +619,9 @@ about-playbook-how-record-content-5 = <accuracyLink>En savoir plus sur les crit�
 about-playbook-how-grow-language = Comment est-il possible de développer efficacement une langue sur Common Voice ?
 about-playbook-how-grow-language-content-1 = Permettre à une diversité de personnes de contribuer à Common Voice garantit que le jeu de données serve autant de personnes que possible. Nous avons créé des ressources et des modèles que vous pouvez utiliser.
 about-playbook-how-grow-language-content-2 = Évènements
+about-playbook-how-grow-language-content-3 = Vous pouvez organiser des évènements pour aider les personnes à contribuer. C’est plus facile que vous ne le pensez. Vous pouvez le faire en ligne avec un outil de visioconférence, ou en personne si les conditions le permettent. <eventTemplate>Découvrez nos modèles et ressources pour organiser des évènements</eventTemplate>.
 about-playbook-how-grow-language-content-4 = Réseaux sociaux
+about-playbook-how-grow-language-content-5 = Vous pouvez utiliser les réseaux sociaux pour faire passer le message. Partagez des messages qui expliquent pourquoi c’est important et contactez d’autres personnes qui s’intéressent aux droits linguistiques, à l’IA vocale ou aux préjugés dans la technologie. Obtenez plus de conseils sur <campaignLink>le lancement d’une campagne sur les réseaux sociaux, y compris par rapport au contenu que vous pouvez réutiliser</campaignLink>.
 about-playbook-how-grow-language-content-6 = Partenariats et réseaux
 about-playbook-how-grow-language-content-7 = Trouvez d’autres personnes qui s’en soucient. Il pourrait s’agir d’universités, d’écoles de langues, de groupes de défense des droits ou de communautés scientifiques autour des données. Contactez-les et expliquez clairement comment ces structures peuvent aider et pourquoi. <reachTemplates>Consultez nos modèles d’e-mails de sensibilisation</reachTemplates>.
 about-playbook-how-grow-language-content-8 = <strong>Faites preuve de créativité !</strong> Votre communauté linguistique sera unique, et ce ne sont là que quelques pistes pour commencer.
@@ -588,6 +631,7 @@ about-playbook-how-grow-language-content-8 = <strong>Faites preuve de créativit
 about-playbook-how-validate = Comment savoir si un échantillon vocal doit être approuvé ?
 about-playbook-how-validate-content-1 = Si vous arrivez à <strong>les entendre</strong> et <strong>les comprendre</strong>, il est généralement <strong>préférable de les approuver</strong>.
 about-playbook-how-validate-content-2 = <strong>Ne rejetez pas les échantillons où le locuteur/la locutrice « a un accent » différent du vôtre</strong>. C’est important pour que la reconnaissance vocale fonctionne mieux pour tout le monde.
+about-playbook-how-validate-content-3 = Si vous pensez que la prononciation rend la <strong>compréhension impossible</strong>, ou qu’il y a <strong>beaucoup de bruit de fond</strong>, ou que <strong>d’autres personnes parlent en même temps</strong>, alors vous devriez rejeter l’échantillon. <accuracyLink>Voir plus d’informations sur nos critères de précision</accuracyLink>.
 about-playbook-how-validate-content-4 = Si un clip est rejeté par deux personnes, il est publié dans un sous-ensemble différent du jeu de données.
 
 ## How to access dataset
@@ -606,12 +650,6 @@ about-playbook-how-project-governance-content-4 = Participation communautaire et
 about-playbook-how-project-governance-content-5 = Valeur et reconnaissance.
 about-playbook-how-project-governance-content-6 = Responsabilité mutuelle.
 about-playbook-how-project-governance-content-7 = <governanceLink>En savoir plus sur notre gouvernance</governanceLink>
-mycroft-title = Mycroft Ai
-mycroft-subtitle = Intelligence artificielle
-mycroft-description =
-    Mycroft est le premier assistant open source au monde.
-    Mycroft fonctionne n’importe où : sur un ordinateur de bureau, dans une voiture ou sur un Raspberry Pi.
-mycroft-secondary-description = C’est un logiciel open source qui peut être librement remixé, développé et amélioré. Mycroft peut être utilisé dans tous les domaines, du projet scientifique au logiciel d’entreprise.
 
 ## Glossary
 
@@ -679,6 +717,10 @@ datasets-positioning =
     
     Cette page de référence liste d’autres jeux de données open source et, au fur et à mesure que le projet Common Voice continuera d’évoluer, cette page proposera aussi nos prochaines mises à jour.
 language = Langue
+download-dataset-header = Télécharger le jeu de données
+download-delta-explainer = Nous avons effectué quelques changements. Les segments Delta contiennent uniquement les échantillons les plus récents depuis la dernière version. <deltaLink>En apprendre davantage à ce sujet</deltaLink>.
+download-dataset-tag = Sélectionnez le jeu de données dans la langue souhaitée et choisissez la version que vous souhaitez télécharger.
+download-dataset-access = Vous recherchez des versions antérieures de jeux de données ? Envoyez un e-mail à <emailLink> { $email } </emailLink>
 # File size in gigabytes
 size = Taille
 validated-hr-total = Total d’heures validées
@@ -687,8 +729,8 @@ cv-license = Licence
 audio-format = Format audio
 number-of-voices = Nombre de voix
 splits = Répartition
-email-to-download = Saisissez votre adresse électronique pour accéder au téléchargement
-why-email = <b>Pourquoi demandons-nous une adresse électronique ?</b> Nous aurons peut-être besoin de vous contacter plus tard pour des modifications du jeu de données, votre adresse électronique nous le permettra.
+email-to-download = Saisissez votre adresse e-mail pour accéder au téléchargement
+why-email = <b>Pourquoi demandons-nous une adresse e-mail ?</b> Nous aurons peut-être besoin de vous contacter plus tard pour des modifications du jeu de données, votre adresse e-mail nous le permettra.
 confirm-size = Vous vous apprêtez à lancer un téléchargement de <b>{ $size }</b>
 size-gigabyte = Go
 size-megabyte = Mo
@@ -729,9 +771,9 @@ dataset-version = Version
 ## Download Modal
 
 download-title = Votre téléchargement a démarré.
-download-helpus = Aidez-nous à rassembler une communauté autour des technologies vocales, restons en contact via courrier électronique.
+download-helpus = Aidez-nous à rassembler une communauté autour des technologies vocales, restons en contact via e-mail.
 download-form-email =
-    .label = Saisissez votre adresse électronique
+    .label = Saisissez votre adresse e-mail
     .value = Merci, nous prendrons contact avec vous.
 download-back = Retourner aux jeux de données Common Voice
 download-no = Non merci
@@ -758,6 +800,8 @@ other-language = Autre langue
 ## Request Language Pages
 
 request-language-heading = Demander une nouvelle langue
+request-language-explanation-1 = Vérifiez si votre langue est répertoriée sur la <languagesPageLink>page des langues de Common Voice</languagesPageLink>. Si ce n’est pas le cas, remplissez ce formulaire et nous <strong>vous enverrons un e-mail expliquant comment configurer votre langue</strong>.
+request-language-explanation-2 = Nous allons également <strong>informer notre community manager que vous êtes intéressé·e</strong>, afin qu’il ou elle puisse vous aider ou vous fournir des informations supplémentaires dont vous pourriez avoir besoin.
 request-language-form-email =
     .label = Votre adresse e-mail
 request-language-form-info =
@@ -771,6 +815,9 @@ request-language-google-recaptcha-error = Une erreur est survenue avec reCAPTCHA
 # Success page
 request-language-success-heading = Merci ! Vous avez envoyé une nouvelle demande de langue
 request-language-success-list-1 = Vous devriez recevoir sous peu un e-mail vous expliquant les étapes pour ajouter votre langue à Common Voice
+request-language-success-list-2 = Notre community manager vous contactera pour vous proposer de l’aide supplémentaire, et vous informera si une communauté travaille déjà sur votre langue.
+request-language-success-list-3 = Si vous n’avez pas de nouvelles de notre part d’ici quelques jours, contactez <emailLink>{ $email }</emailLink> et nous vous répondrons.
+request-language-error = Nous n’avons peut-être pas reçu cette demande. Veuillez nous envoyer un e-mail directement à l’adresse <emailLink>{ $email }</emailLink> et nous vous répondrons.
 
 ## Languages Overview
 
@@ -787,7 +834,8 @@ language-search-input =
 language-speakers = Locuteurs et locutrices
 localized = Traduction
 sentences = Phrases
-total-hours = Total d’heures
+language-validation-hours = Heures
+language-validation-progress = Avancement de la validation
 
 ## Contribution
 
@@ -966,8 +1014,8 @@ activity-needed-calculation-plural =
 how-many-per-day = Génial ! Combien d’échantillons par jour ?
 how-many-a-week = Génial ! Combien d’échantillons par semaine ?
 which-goal-type = Voulez-vous parler, écouter ou faire les deux ?
-receiving-emails-info = Vous allez recevoir des courriels tels que des rappels d’objectifs, des rapports sur vos progrès et les lettres d’information de Common Voice.
-not-receiving-emails-info = Vous n’allez <bold>PAS</bold> recevoir des courriels tels que des rappels d’objectifs, des rapports sur vos progrès et les lettres d’information de Common Voice.
+receiving-emails-info = Vous allez recevoir des e-mails tels que des rappels d’objectifs, des rapports sur vos progrès et les lettres d’information de Common Voice.
+not-receiving-emails-info = Vous n’allez <bold>PAS</bold> recevoir d’e-mails tels que des rappels d’objectifs, des rapports sur vos progrès et les lettres d’information de Common Voice.
 n-clips-pluralized =
     { NUMBER($count) ->
         [one] { $count } échantillon
@@ -1039,7 +1087,7 @@ download-request-link-single = Vous pouvez également copier et coller les liens
 
 welcome-staff = Bienvenue au personnel de { $company } !
 help-contribute = Vous pouvez aider à créer un jeu de données open source et diversifié en créant un profil Common Voice et en faisant don de votre voix.
-login-company = Connexion / Inscription avec l’adresse électronique de { $company }
+login-company = Connexion / Inscription avec l’adresse e-mail de { $company }
 profile-not-required = Créer un profil n’est pas nécessaire pour contribuer, mais c’est utile
 read-more-about = Pour en savoir plus lisez notre page À propos
 
@@ -1065,7 +1113,7 @@ demo-account = Compte
 demo-account-card-header = Il n’est pas nécessaire de disposer d’un compte pour contribuer, mais c’est utile.
 demo-account-card-body = À droite, nous décrivons les avantages et précisons quelles informations nous rendons publiques. Utilisez les liens ci-dessous pour créer un compte Common Voice sur votre appareil.
 demo-account-enter-email =
-    .label = Saisissez un courriel pour envoyer un lien d’inscription
+    .label = Saisissez une adresse e-mail pour envoyer un lien d’inscription
 demo-account-sign-up = Envoyer le lien d’inscription
 
 ## Demo Contribute
@@ -1465,3 +1513,10 @@ sc-validation-no-abbreviations = La phrase ne doit pas contenir d’abréviation
 
 localization-select =
     .label = Choisissez la langue/la localisation
+# PARTNERSHIPS PAGE
+partnerships-header = Partenariats
+partnerships-become-a-partner = Devenir partenaire de Common Voice
+partnerships-foundations-header = Fondations
+partnerships-governments-header = Gouvernements
+partnerships-corporates-header = Grandes entreprises et plateformes
+partnerships-our-partners = Nos partenaires

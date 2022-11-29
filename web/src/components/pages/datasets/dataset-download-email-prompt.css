@@ -1,6 +1,17 @@
 .dataset-download-prompt {
-    margin-top: 1rem;
-    max-width: 35em;
+    margin-top: 2rem;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    .input-group{
+        flex:  1 1 50%;
+        padding: 1rem;
+        @media (--sm-down) {
+            width: 100%;
+        }
+    }
 
     .show-email-form {
         width: auto;
@@ -40,10 +51,9 @@
     }
 
     .download-language {
-        min-width: 300px;
-        display: inline-flex;
+        max-width: 300px;
         justify-content: space-between;
-        margin-bottom: 20px;
+        height: fit-content;
 
         &:not([href]) {
             background: var(--warm-grey);

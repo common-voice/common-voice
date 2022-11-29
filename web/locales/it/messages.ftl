@@ -40,10 +40,12 @@ ba = Baschiro
 bas = Basaa
 be = Bielorusso
 bg = Bulgaro
+bm = Bambara
 bn = Bengalese
 br = Bretone
 bs = Bosniaco
 bxr = Buriato
+byv = Medumba
 ca = Catalano
 cak = Kaqchikel
 ckb = Curdo centrale
@@ -53,9 +55,11 @@ cs = Ceco
 cv = Ciuvascio
 cy = Gallese
 da = Danese
+dag = Dagbani
 de = Tedesco
 dsb = Basso sorabo
 dv = Maldiviano
+dyu = Dioula
 el = Greco
 en = Inglese
 eo = Esperanto
@@ -75,6 +79,7 @@ gom = Konkani goana
 ha = Hausa
 he = Ebraico
 hi = Hindi
+hil = Ilongo
 hr = Croato
 hsb = Alto sorabo
 ht = Creolo haitiano
@@ -89,6 +94,7 @@ is = Islandese
 it = Italiano
 izh = Izoriano
 ja = Giapponese
+jbo = Lojban
 ka = Georgiano
 kaa = Karakalpak
 kab = Cabilo
@@ -97,6 +103,7 @@ ki = Gikuyu
 kk = Kazako
 km = Khmer
 kmr = Curdo Kurmanji
+kn = Kannada
 knn = Konkani (Devanagari)
 ko = Coreano
 kpv = Komi-Zyrian
@@ -105,6 +112,8 @@ ky = Kirghiso
 lb = Lussemburghese
 lg = Luganda
 lij = Ligure
+ln = Lingala
+lo = Lao
 lt = Lituano
 lv = Lettone
 mai = Maithili
@@ -124,12 +133,16 @@ my = Birmano
 myv = Erza
 nan-tw = Taiwanese (Minnan)
 nb-NO = Bokmål (Norvegia)
+nd = IsiNdebele del nord
 ne-NP = Nepalese
 nia = Nias
 nl = Olandese
 nn-NO = Norvegese Nynorsk
+nr = IsiNdebele del sud
+nso = Sotho del nord
 nyn = Nyankole
 oc = Occitano
+om = Afaan Ormoo
 or = Oriya
 pa-IN = Punjabi
 pap-AW = Papiamento (Aruba)
@@ -147,14 +160,18 @@ sah = Sacha
 sat = Santali (Ol Chiki)
 sc = Sardo
 scn = Siciliano
+sdh = Curdo meridionale
 shi = Shilha
 si = Singalese
 sk = Slovacco
 skr = Saraiki
 sl = Sloveno
+snk = Soninke
 so = Somalo
 sq = Albanese
 sr = Serbo
+ss = Swati
+st = Sesotho
 sv-SE = Svedese
 sw = Swahili
 syr = Siriaco
@@ -166,8 +183,10 @@ ti = Tigrino
 tig = Tigre
 tk = Turkmeno
 tl = Tagalog
+tn = Tswana
 tok = Toki Pona
 tr = Turco
+ts = Xitsonga
 tt = Tataro
 tw = Twi
 ty = Tahitiano
@@ -177,15 +196,20 @@ ug = Uiguro
 uk = Ucraino
 ur = Urdu
 uz = Uzbeco
+ve = Tshivenda
 vec = Veneto
 vi = Vietnamita
 vot = Votico
+xh = Xhosa
 yi = Yiddish
 yo = Yoruba
 yue = Cantonese
+zgh = Berbero
 zh-CN = Cinese (Cina)
 zh-HK = Cinese (Hong Kong)
 zh-TW = Cinese (Taiwan)
+zu = Zulu
+zza = Zaza
 
 # [/]
 
@@ -197,6 +221,7 @@ speak-now = Parla ora
 datasets = Dataset
 languages = Lingue
 about = Informazioni
+partner = Partner
 profile = Profilo
 help = Supporto
 contact = Contatti
@@ -311,7 +336,6 @@ shortcut-discard-ongoing-recording-label = Scarta la registrazione corrente
 shortcut-submit = Invio
 shortcut-submit-label = Invia registrazioni
 request-language-text = Non trovi la tua lingua su Common Voice?
-request-language-text-learn = Scopri qui come richiederla!
 request-language-button = Richiedi una lingua
 
 ## ProjectStatus
@@ -446,7 +470,9 @@ faq-do-want-native-a = Sì, cerchiamo soprattutto voci come la tua! Uno degli ob
 faq-why-different-speakers-q = Perché avete bisogno di così tante voci diverse per ogni lingua?
 faq-why-different-speakers-a = Nella stragrande maggioranza dei database per l’apprendimento vocale troviamo una netta sproporzione demografica a favore delle voci <articleLink>maschili e di classe media</articleLink>. Invece gli accenti e i dialetti associati ai gruppi già di per sé marginalizzati ricevono una rappresentazione minore nei dataset per l’apprendimento del software. Inoltre diversi dispositivi faticano a comprendere le voci femminili. Ecco perché vogliamo che il nostro database sia così vario.
 faq-why-my-lang-q = Perché la mia lingua non è stata ancora inclusa?
-faq-why-my-lang-new-a = Mozilla non auspica o favorisce in alcun modo il progresso di alcune lingue rispetto ad altre. Common Voice è infatti un’iniziativa gestita interamente dalla comunità, ma richiede <multilangLink>diversi passaggi per aggiungere una nuova lingua</multilangLink> e iniziare a raccogliere donazioni vocali. Per prima cosa è necessario tradurre il sito web di Common Voice, in modo da offrire ai membri della comunità uno strumento di collaborazione nella propria lingua. In seguito è necessario caricare una vasta raccolta di frasi prive di copyright che i collaboratori possano leggere ad alta voce. Una volta soddisfatti tutti questi requisiti, una lingua viene “lanciata” su Common Voice e i collaboratori possono iniziare a registrare la propria voce e convalidare le registrazioni di altri. Puoi iniziare a collaborare al lancio di una nuova lingua dal nostro <sentenceCollectorLink>strumento per la raccolta frasi</sentenceCollectorLink>.
+faq-why-my-lang-a =
+    Common Voice è una piattaforma di crowdsourcing e tutte le lingue sono state aggiunte da volontari.
+    Ci farebbe piacere se tu aggiungessi la tua lingua! <languageRequestLink>Chiedi come aggiungere la tua lingua</languageRequestLink>.
 faq-what-quality-q = Quale livello di qualità audio è richiesto da una registrazione vocale per essere utilizzata nel dataset?
 faq-what-quality-a = Vogliamo che il dataset di Common Voice rifletta la qualità audio che un motore di riconoscimento vocale “ascolterà” nella vita di tutti i giorni, per questo cerchiamo la varietà. Oltre a una comunità diversificata di parlanti, un dataset con qualità audio variabile insegnerà al motore di riconoscimento vocale a gestire varie situazioni del mondo reale, dal parlato di sottofondo al rumore dell’automobile. In poche parole, finché si distinguono le parole la tua registrazione va benissimo per il dataset!
 faq-why-10k-hours-q = Perché l’obiettivo di registrazione è proprio 10.000 ore convalidate per ogni lingua?
@@ -516,9 +542,6 @@ about-dataset-new = Dataset di Common Voice
 about-dataset-new-text = Il dataset di Common Voice contiene centinaia di migliaia di tipi di voce che aiutano gli sviluppatori a realizzare strumenti di riconoscimento vocale.
 about-clip-graveyard = Cimitero delle registrazioni
 about-clip-graveyard-text = Il Cimitero delle registrazioni è costituito dalle registrazioni vocali scartate dal dataset di Common Voice; anch’esso può essere scaricato liberamente.
-about-partners = Partner
-about-become-a-partner = Diventa partner
-about-partnership = Common Voice è un progetto in collaborazione e, per creare la più grande raccolta dati vocali di dominio pubblico di sempre, dipendiamo dalla comunità di soci e collaboratori. Per il loro contributo al progetto, abbiamo il piacere di ringraziare le persone e le organizzazioni seguenti:
 about-get-involved = Collabora
 about-get-involved-text-2 =
     Vuoi aiutarci a migliorare Common Voice?
@@ -546,9 +569,16 @@ about-playbook-what-is-language-content-3 = Alcune lingue hanno una variabilità
 
 about-playbook-how-add-language = Come posso aggiungere una lingua?
 about-playbook-how-add-language-content-1 = Innanzitutto, controlla se la tua lingua <languageLink>esiste già</languageLink>. In caso contrario sarà necessario <strong>tradurre il sito e raccogliere frasi</strong>.
-about-playbook-how-add-language-content-2 = <strong>Per tradurre il sito</strong>: <translateVideo>configura</translateVideo> un account in <pontoonLink>Pontoon</pontoonLink>. Pontoon include già molte lingue, ma se la tua non è disponibile puoi <pontoonRequestLink>richiedere di aggiungerla</pontoonRequestLink>. Quindi chiedi <repoLink>tramite GitHub</repoLink> di rendere disponibile il progetto Common Voice per la tua lingua. Scopri di più sulla <localizationFragment>traduzione del sito</localizationFragment>.
-about-playbook-how-add-language-content-3 = <strong>Per raccogliere frasi</strong>: <scVideo>configura</scVideo> un profilo nel <scLink>Sentence Collector</scLink>.
-about-playbook-how-add-language-content-4 = Puoi <scLinkAdd>aggiungere un numero limitato</scLinkAdd> di frasi qui, oppure puoi eseguire <bulkImportDocsLink>importazioni in blocco</bulkImportDocsLink> tramite una richiesta Github. Ricorda che le frasi devono essere disponibili con licenza <licenseLink>CC0 (o di pubblico dominio)</licenseLink>, oppure puoi scriverle tu. Scopri di più sulla <scFragment>raccolta di frasi</scFragment>.
+about-playbook-how-add-language-translating-heading = Traduzione del sito
+about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Guarda la nostra guida su come utilizzare Pontoon</translateVideoLink>.
+about-playbook-how-add-language-translating-content-2 = Per le traduzioni utilizziamo uno strumento sviluppato da Mozilla e chiamato <pontoonLink>Pontoon</pontoonLink>. Pontoon dispone di molte lingue, ma se la tua non è presente puoi <pontoonRequestLink>chiedere di aggiungerla</pontoonRequestLink>. Quindi, per rendere disponibile la lingua nel progetto Common Voice, <githubRepoLink>richiedi la nuova lingua su GitHub</githubRepoLink>. <localizationFragment>Ulteriori informazioni sulla traduzione del sito</localizationFragment>.
+about-playbook-how-add-language-collecting-sentences-heading = Raccolta delle frasi
+about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>Guarda la nostra guida sull’utilizzo del Sentence Collector</sentenceCollectorVideo>.
+about-playbook-how-add-language-collecting-sentences-content-2 =
+    Puoi <sentenceCollectorLinkAdd>aggiungere un numero limitato di frasi</sentenceCollectorLinkAdd>,
+    oppure puoi eseguire <bulkImportDocsLink>importazioni in blocco utilizzando GitHub</bulkImportDocsLink>.
+    Ricorda che le frasi devono essere disponibili con licenza <licenseLink>CC0 (o di pubblico dominio)</licenseLink>, oppure puoi scriverle direttamente tu.
+about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>Ulteriori informazioni sulla raccolta di frasi</sentenceCollectorFragment>.
 
 ## How does localization work
 
@@ -612,10 +642,6 @@ about-playbook-how-project-governance-content-4 = Partecipazione della comunità
 about-playbook-how-project-governance-content-5 = Valore e riconoscimento.
 about-playbook-how-project-governance-content-6 = Responsabilità reciproca.
 about-playbook-how-project-governance-content-7 = <governanceLink>Ulteriori informazioni sui criteri di gestione del progetto.</governanceLink>
-mycroft-title = Mycroft Ai
-mycroft-subtitle = Intelligenza artificiale
-mycroft-description = Mycroft è il primo assistente digitale open source al mondo. Puoi installare Mycroft ovunque: computer fissi, automobili e perfino Raspberry Pi.
-mycroft-secondary-description = Si tratta di un software open source che tutti possono modificare, ampliare e migliorare. Mycroft si può utilizzare in qualsiasi ambito, da un progetto scientifico a un’applicazione software d’impresa.
 
 ## Glossary
 
@@ -683,6 +709,10 @@ datasets-positioning =
     
     Considera questa pagina come un punto di riferimento per dataset open source e, man mano che Common Voice continua a crescere, una pagina per i nostri aggiornamenti.
 language = Lingua
+download-dataset-header = Scarica il dataset
+download-delta-explainer = Abbiamo apportato alcune modifiche. I segmenti delta contengono solo le registrazioni più recenti dall’ultima versione. <deltaLink>Ulteriori informazioni su queste modifiche</deltaLink>.
+download-dataset-tag = Seleziona il dataset della lingua desiderata e scegli la versione che vuoi scaricare.
+download-dataset-access = Cerchi versioni precedenti del dataset? Invia un’email a <emailLink> { $email } </emailLink>
 # File size in gigabytes
 size = Dimensione
 validated-hr-total = Totale ore convalidate
@@ -805,7 +835,8 @@ language-search-input =
 language-speakers = Parlato da
 localized = Localizzate
 sentences = Frasi
-total-hours = Ore convalidate
+language-validation-hours = Ore
+language-validation-progress = Avanzamento della convalida
 
 ## Contribution
 
@@ -956,10 +987,10 @@ finish-editing = Vuoi finire prima le modifiche?
 lose-changes-warning = Se esci ora, perderai le tue modifiche
 build-custom-goal = Crea un obiettivo personale
 help-reach-hours-pluralized =
-    Aiuta a raggiungere{ NUMBER($hours) ->
-        [one] { $hours } ora
-       *[other] { $hours } ore
-    } in { $language } con un obiettivo personale
+    { NUMBER($hours) ->
+        [one] Aiuta a raggiungere { $hours } ora in { $language } con un obiettivo personale
+       *[other] Aiuta a raggiungere { $hours } ore in { $language } con un obiettivo personale
+    }
 help-reach-hours-general-pluralized =
     Aiuta Common Voice a raggiungere { NUMBER($hours) ->
         [one] { $hours } ora
@@ -1478,3 +1509,21 @@ sc-validation-no-abbreviations = La frase non deve contenere abbreviazioni
 
 localization-select =
     .label = Scegli lingua/localizzazione
+# PARTNERSHIPS PAGE
+partnerships-header = Diventa nostro partner
+partnerships-header-text = Ci vuole molto per trasformare Common Voice in realtà, e non lo facciamo da soli. Vuoi diventare un nostro partner? Mettiti in contatto con noi, non vediamo l’ora.
+partnerships-get-in-touch = Contattaci
+partnerships-become-a-partner = Diventa partner di Common Voice
+partnerships-community-header = Comunità, creativi e società civile
+partnerships-community-description = La comunità è il cuore pulsante di Common Voice ed è formata da attivisti nel campo delle lingue, studiosi e artisti che provengono da ogni parte del mondo. Puoi trovare ulteriori informazioni su come collaborare nella pagina <about>Informazioni</about> e nelle nostre <community>Linee guida della community</community>. Se sei interessato in una collaborazione più profonda con la nostra organizzazione, <emailFragment>contattaci</emailFragment>.
+partnerships-foundations-header = Fondazioni
+partnerships-foundations-description = Collaboriamo con fondazioni, società civile e partner della comunità per rendere Internet un luogo più sano, con particolare attenzione all’Africa orientale. Scopri ulteriori informazioni sul nostro <programmaticWork>metodo di lavoro</programmaticWork>.
+partnerships-governments-header = Enti governativi
+partnerships-governments-description = Siamo entusiasti di supportare l’impegno del settore pubblico in materia di tecnologia, innovazione e diritti linguistici. Se hai intenzione di gestire un progetto di grandi dimensioni o una campagna, <emailFragment>contattaci</emailFragment>.
+partnerships-academia-header = Università e ricercatori
+partnerships-academia-description = L’innovazione aperta è al centro di ciò che facciamo. Per collaborazioni di ricerca, raccolta dati o interviste, <emailFragment>contattaci</emailFragment>.
+partnerships-small-business-header = Piccole imprese, comprese startup nel campo della tecnologia e intelligenza artificiale
+partnerships-small-business-description = Per noi è importante scoprire le esigenze e l’opinione di chi utilizza i dati in diversi contesti, dalla collaborazione sulla piattaforma di raccolta dati allo sviluppo di approfondimenti sulla loro qualità. Vogliamo <emailFragment>sentire il tuo parere</emailFragment>.
+partnerships-corporates-header = Società di grandi dimensioni e fornitori di piattaforme
+partnerships-corporates-description = Se vuoi discutere del set di dati, contribuire all’investimento nelle espansioni previste della piattaforma, oppure cerchi opportunità di collaborazione, <emailFragment>inviaci un messaggio</emailFragment>.
+partnerships-our-partners = I nostri partner

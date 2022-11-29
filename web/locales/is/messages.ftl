@@ -40,10 +40,12 @@ ba = Baskírska
 bas = Bassa
 be = Hvítrússneska
 bg = Búlgarska
+bm = Bambaríska
 bn = Bengalska
 br = Bretónska
 bs = Bosníska
 bxr = Búrjatíska
+byv = Medumba
 ca = Katalónska
 cak = Kaqchikel
 ckb = Mið-kúrdíska
@@ -53,9 +55,11 @@ cs = Tékkneska
 cv = Tjúvasíska
 cy = Velska
 da = Danska
+dag = Dagbani
 de = Þýska
 dsb = Lágsorbíska
 dv = Dívehí
+dyu = Dioula
 el = Gríska
 en = Enska
 eo = Esperanto
@@ -75,6 +79,7 @@ gom = Goan Konkani
 ha = Hása
 he = Hebreska
 hi = Hindí
+hil = Hiligaynon
 hr = Króatíska
 hsb = Hásorbíska
 ht = Haítíska
@@ -89,6 +94,7 @@ is = Íslenska
 it = Ítalska
 izh = Ingríska
 ja = Japanska
+jbo = Lojban
 ka = Georgíska
 kaa = Karakalpak
 kab = Kabýlska
@@ -97,6 +103,7 @@ ki = Kikuyu
 kk = Kasakska
 km = Kmeríska
 kmr = Kurmanji-kúrdíska
+kn = Kannada
 knn = Konkani (Devanagarí)
 ko = Kóreska
 kpv = Kómíska
@@ -105,6 +112,8 @@ ky = Kyrgíska
 lb = Lúxemborgíska
 lg = Luganda
 lij = Liguríska
+ln = Lingala
+lo = Laó
 lt = Litháenska
 lv = Lettneska
 mai = Maithilíska
@@ -124,12 +133,16 @@ my = Búrmíska
 myv = Erzýska
 nan-tw = Taívanska (Minnan)
 nb-NO = Norskt bókmál
+nd = IsiNdebele (Norður)
 ne-NP = Nepalska
 nia = Nias
 nl = Hollenska
 nn-NO = Nýnorska
+nr = IsiNdebele (Suður)
+nso = Norður-sótó
 nyn = Runyankole
 oc = Oksítanska
+om = Afaan Ormoo
 or = Oríja
 pa-IN = Punjabi
 pap-AW = Papíamentó (Arúba)
@@ -147,14 +160,18 @@ sah = Jakútíska
 sat = Santali (Ol Chiki)
 sc = Sardiníska
 scn = Sikileyska
+sdh = Suður-Kúrdíska
 shi = Shilha
 si = Singalíska
 sk = Slóvaska
 skr = Saraiki
 sl = Slóvenska
+snk = Soninke
 so = Sómalska
 sq = Albanska
 sr = Serbneska
+ss = Siswati
+st = Sesótó
 sv-SE = Sænska
 sw = Svahílí
 syr = Sýrlenska
@@ -166,8 +183,10 @@ ti = Tigrinya
 tig = Tigre
 tk = Túrkmenska
 tl = Tagalog
+tn = Setswana
 tok = Toki Pona
 tr = Tyrkneska
+ts = Xitsonga
 tt = Tatarska
 tw = Twi
 ty = Tahítíska
@@ -177,15 +196,20 @@ ug = Uyghúr
 uk = Úkraínska
 ur = Úrdú
 uz = Úsbeska
+ve = Tshivenda
 vec = Feneyska
 vi = Víetnamska
 vot = Votíska
+xh = Xhósa
 yi = Jiddíska
 yo = Jórúba
 yue = Kantónska
+zgh = Tamazight
 zh-CN = Kínverska (Kína)
 zh-HK = Kínverska (Hong Kong)
 zh-TW = Kínverska (Taívan)
+zu = Súlú
+zza = Zaza
 
 # [/]
 
@@ -197,6 +221,7 @@ speak-now = Talaðu núna
 datasets = Gagnasöfn
 languages = Tungumál
 about = Um okkur
+partner = Samstarfsaðili
 profile = Notkunarsnið
 help = Hjálp
 contact = Hafa samband
@@ -317,7 +342,6 @@ shortcut-discard-ongoing-recording-label = Farga upptöku sem er í gangi
 shortcut-submit = Til baka
 shortcut-submit-label = Senda inn upptökur
 request-language-text = Sérðu tungumálið þitt ekki í Samrómi?
-request-language-text-learn = Sjáðu hér hvernig á að biðja um það!
 request-language-button = Biðja um tungumál
 
 ## ProjectStatus
@@ -453,7 +477,9 @@ faq-why-different-speakers-a =
     Flest gagnasöfn hafa verið þjálfuð með lýðfræðilega bjöguðum gögnum, þar sem hallar á alla þjóðfélagshópa nema <articleLink>karlmenn í millistétt</articleLink>. Oft vantar líka upptökur með hreimum og í mállýskum sem tilheyra minnihlutahópum sem nú þegar eiga undir högg að sækja í samfélaginu. Mörgum tækjum reynist erfitt að skilja kvenmannsaddir.
     Þess vegna viljum við fá fjölbreytileika í okkar raddgagnasafn!
 faq-why-my-lang-q = Af hverju er mitt tungumál ekki enn hluti af verkefninu?
-faq-why-my-lang-new-a = Mozilla setur ekkert eitt tungumál framar öðrum. Verkefnið Samrómur er algjörlega keyrt áfram af samfélaginu, en það eru <multilangLink>nokkur skref sem þarf að fylgja til að bæta nýju tungumáli við</multilangLink> og geta byrjað að safna raddgjöfum. Fyrst þarf vefsvæði Samróms að vera þýtt svo meðlimir samfélagsins geti haft aðgang að verkfærum Samróms á sínu eigin tungumáli. Næst þarf nægilegt safn af setningum sem leyfi liggur fyrir að nota til upplesturs. Þegar þessar forkröfur eru uppfylltar er tungumálið "gefið út" á Samrómi fyrir fólk að byrja að taka upp raddhljóðbrot og staðfesta hljóðbrot annarra. Ef þú vilt hjálpa til við að bæta við nýju tungumáli, skaltu skoða á <sentenceCollectorLink>setningasöfnunarverkfærið</sentenceCollectorLink> okkar.
+faq-why-my-lang-a =
+    Common Voice er samstarfsvettvangur fjölda fólks og tungumálunum sem þar eru hefur öllum verið bætt inn af sjálfboðaliðum.
+    Okkur þætti vænt um ef þú bætir við tungumálinu þínu! <languageRequestLink>Biddu um að tungumálinu þínu sé bætt við.</languageRequestLink>
 faq-what-quality-q = Hversu góð þurfa hljóðgæðin að vera til að upptaka verði notuð í gagnasafninu?
 faq-what-quality-a = Við viljum að gagnasafn Samróms endurspegli hljóðgæðin sem raddgreinir gæti lent í við daglega notkun, svo við vonumst eftir upptökum bæði í góðu og slæmu ástandi. Með fjölbreytilegan hóp raddgjafa og upptökur í mismunandi gæðum getum við kennt raddgreinum að ráða við ýmsar raunverulegar aðstæður, t.d. þar sem aðrar samræður er í bakgrunni eða þar sem heyrist í bílvél. Svo lengi sem hægt er að greina talið í upptökunni ætti það að duga fyrir gagnasafnið.
 faq-why-10k-hours-q = Hvers vegna er markmiðið að ná 10.000 klst. af upptökum á hvert tungumál?
@@ -523,12 +549,6 @@ about-dataset-new = Gagnasafn Samróms
 about-dataset-new-text = Gagnasafn Samróms samanstendur af hundruðum þúsunda raddhljóðbrota sem hjálpa þróunaraðilum að smíða raddgreiningartól.
 about-clip-graveyard = Hljóðbrotagrafreitur
 about-clip-graveyard-text = Hljóðbrotagrafreiturinn samanstendur af raddhljóðbrotum sem gátu ekki orðið hluti af Samrómsgagnasafninu. Rétt eins og gagnasafnið sjálft, er hægt að sækja hljóðbrotagrafreitinn.
-about-partners = Samstarfsaðilar
-about-become-a-partner = Skráðu þig sem samstarfsaðila
-about-partnership =
-    Samrómur er samstarfsverkefni, og við erum háð samstarfsaðilum okkar og almennum sjálfboðaliðum sem leggja sitt að mörkum til þess að byggja stærsta opna raddgagnasafn sem fyrirfinnst í heiminum.
-    
-    Við þökkum eftirfarandi aðilum og samtökum fyrir þeirra framlag til verkefnisins:
 about-get-involved = Taktu þátt
 about-get-involved-text-2 =
     Viltu hjálpa að gera Samróm enn betri?
@@ -558,9 +578,17 @@ about-playbook-what-is-language-content-3 = Sum tungumál hafa gríðarlegan bre
 
 about-playbook-how-add-language = Hvernig bæti ég við tungumáli?
 about-playbook-how-add-language-content-1 = Athugaðu fyrst hvort tungumálið þitt <languageLink>er þegar til staðar</languageLink>. Ef það gerir það ekki, þarf að <strong>þýða vefsvæðið og safna setningum</strong>.
-about-playbook-how-add-language-content-2 = <strong>Til að þýða vefsvæðið</strong> skaltu <translateVideo>setja upp aðgang</translateVideo> fyrir þig á <pontoonLink>Pontoon</pontoonLink>. Pontoon er með fullt af tungumálum, en ef þitt er ekki sjáanlegt geturðu <pontoonRequestLink>beðið um að það sé virkjað</pontoonRequestLink>. Sendu síðan <repoLink>beiðni í gegnum GitHub</repoLink> um að Common Voice verkefnið verði aðgengilegt fyrir það tungumál. Skoðaðu nánari upplýsingar um <localizationFragment>þýðingar vefsvæðisins</localizationFragment>.
-about-playbook-how-add-language-content-3 = <strong>Til að safna setningum</strong> - <scVideo>skaltu setja upp nauðsynlegar upplýsingar</scVideo> á <scLink>Söfnun setninga</scLink>.
-about-playbook-how-add-language-content-4 = Þú getur <scLinkAdd>bætt við litlum fjölda</scLinkAdd> setninga hér, eða þú getur framkvæmt <bulkImportDocsLink>magninnflutning</bulkImportDocsLink> með Github-beiðni. Mundu að setningar þurfa að vera með <licenseLink>CC0 notkunarleyfi (eða almenningseign)</licenseLink>, eða að þú getur skrifað þínar eigin. Sjáðu nánari upplýsingar um <scFragment>setningasafnið</scFragment>.
+about-playbook-how-add-language-translating-heading = Þýða vefsvæðið
+about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Skoðaðu leiðbeiningar okkar um hvernig á að nota Pontoon.</translateVideoLink>
+about-playbook-how-add-language-translating-content-2 =
+    Við notum Mozilla-verkfæri sem heitir <pontoonLink>Pontoon</pontoonLink> fyrir þýðingar. Pontoon er með mörgum tungumálum,
+    en ef þitt tungumál er ekki til staðar, geturðu <pontoonRequestLink>beðið um að því verði bætt við</pontoonRequestLink>.
+    Til að gera síðan tungumálið aðgengilegt í Common Voice verkefninu,
+    <githubRepoLink>skaltu biðja um nýja tungumálið á GitHub</githubRepoLink>. <localizationFragment>Sjáðu meira um þýðingar á vefsvæðinu sjálfu</localizationFragment>.
+about-playbook-how-add-language-collecting-sentences-heading = Safna setningum
+about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>Skoðaðu leiðbeiningar okkar um notkun setningasafnarans</sentenceCollectorVideo>.
+about-playbook-how-add-language-collecting-sentences-content-2 = Þú getur <sentenceCollectorLinkAdd>bætt við litlum fjölda</sentenceCollectorLinkAdd> setninga hér, eða þú getur framkvæmt <bulkImportDocsLink>magninnflutning með Github-beiðni</bulkImportDocsLink>. Mundu að setningar þurfa að vera með <licenseLink>CC0 notkunarleyfi (eða almenningseign)</licenseLink>, eða að þú getur skrifað þínar eigin.
+about-playbook-how-add-language-collecting-sentences-content-3 = Sjáðu nánari upplýsingar um <sentenceCollectorFragment>setningasafnið</sentenceCollectorFragment>.
 
 ## How does localization work
 
@@ -624,12 +652,6 @@ about-playbook-how-project-governance-content-4 = Virkni þátttakenda og ákvar
 about-playbook-how-project-governance-content-5 = Mati að verðleikum og viðurkenningu.
 about-playbook-how-project-governance-content-6 = Gagnkvæm ábyrgð.
 about-playbook-how-project-governance-content-7 = <governanceLink>Lestu meira um hvernig okkur er stjórnað</governanceLink>
-mycroft-title = Mycroft Ai
-mycroft-subtitle = Gervigreind
-mycroft-description =
-    Mycroft er heimsins fyrsti raddhjálpari sem keyrir á opnum hugbúnaði.
-    Mycroft keyrir á hverju sem er - borðtölvu, innbyggðri tölvu í bíl eða jafnvel á Raspbery Pi.
-mycroft-secondary-description = Þetta er opinn hugbúnaður sem má breyta, bæta við og þróa að vild. Mycroft má nota við rannsóknir, fyrirtækjalausnir og allt þar á milli.
 
 ## Glossary
 
@@ -697,6 +719,10 @@ datasets-positioning =
     
     Þú getur litið á þessa síðu sem miðlæga upplýsingasíðu fyrir önnur opin raddgagnasöfn og - samhliða því sem Samrómur vex - sem heimasíðu okkar fyrir fréttir af uppfærslum og útgáfum.
 language = Tungumál
+download-dataset-header = Sækja gagnasettið
+download-delta-explainer = Við höfum gert nokkrar breytingar. 'Delta Segments' innihalda bara nýjustu upptökurnar síðan í síðustu útgáfu. <deltaLink>Lestu meira um þetta</deltaLink>.
+download-dataset-tag = Veldu tungumálagagnasettið sem þú vilt og veldu þá útgáfu sem þú vilt sækja.
+download-dataset-access = Ertu að leita að fyrri útgáfum gagnasafna? Sendu tölvupóst á <emailLink> { $email } </emailLink>
 # File size in gigabytes
 size = Stærð
 validated-hr-total = Staðfestar klst.
@@ -817,9 +843,9 @@ request-language-error =
 ## Languages Overview
 
 language-section-in-progress = Í vinnslu
-language-section-in-progress-new-description = Þessi tungumál eru um þessar mundir í þróun hjá Samrómssamfélaginu. Framvindustikan sýnir hversu langt hvert tungmál er komið í <localizationGlossaryLink>þýðingu vefsvæðisins</localizationGlossaryLink> og í <sentenceCollectionGlossaryLink>söfnun setninga</sentenceCollectionGlossaryLink>.
+language-section-in-progress-new-description = Þessi tungumál eru um þessar mundir í þróun hjá Samrómssamfélaginu. Framvindustikan sýnir hversu langt hvert tungmál er komið í <localizationGlossaryLink>þýðingum vefsvæðisins</localizationGlossaryLink> og í <sentenceCollectionGlossaryLink>söfnun setninga</sentenceCollectionGlossaryLink>.
 language-section-launched = Gangsett
-language-section-launched-description = Fyrir þessi tungumál hefur vefsvæðið verið <localizationGlossaryLink>þýdd</localizationGlossaryLink> að fullu, og er komið með nóg af <sentenceCollectionGlossaryLink>söfnuðum setningum</sentenceCollectionGlossaryLink> til þess að leyfa áframhaldandi framlög fyrir <speakLink>tal-</speakLink> og <listenLink>hlustun</listenLink>.
+language-section-launched-description = Fyrir þessi tungumál hefur vefsvæðið verið <localizationGlossaryLink>þýtt</localizationGlossaryLink> að fullu, og er komið með nóg af <sentenceCollectionGlossaryLink>söfnuðum setningum</sentenceCollectionGlossaryLink> til þess að leyfa áframhaldandi framlög fyrir <speakLink>tal-</speakLink> og <listenLink>hlustun</listenLink>.
 languages-show-more = Sjá meira
 languages-show-less = Sjá minna
 language-meter-in-progress = Framvinda
@@ -829,7 +855,8 @@ language-search-input =
 language-speakers = Talendur
 localized = Þýtt
 sentences = Setningar
-total-hours = Staðfestar klst
+language-validation-hours = Klukkustundir
+language-validation-progress = Framvinda staðfestingar
 
 ## Contribution
 
@@ -1496,7 +1523,6 @@ sc-review-link = Yfirfara
 
 sc-settings-title = Stillingar
 sc-settings-ui-language = Tungumál viðmóts
-sc-settings-language-translated-warning = Ekki er víst að síðurnar fyrir þetta tungumál séu fullþýddar. Þú getur hjálpað til við þýðingar <pontoonLinkLink>á Pontoon</pontoonLinkLink>.
 sc-settings-reset-skipped = Endurstilla setningar sem var sleppt
 sc-settings-skipped-decription = Þú slepptir áður setningum við yfirferð. Með því að endurstilla þær setningar sem var sleppt, munu þær verða birtar aftur. Þetta er alveg óháð tungumáli.
 sc-settings-show-all-button = Birta aftur allar setningar sem var sleppt
@@ -1511,3 +1537,21 @@ sc-validation-no-abbreviations = Setning ætti ekki að innihalda skammstafanir
 
 localization-select =
     .label = Veldu tungumál/staðfærslu
+# PARTNERSHIPS PAGE
+partnerships-header = Samstarf
+partnerships-header-text = Það þarf mikið til svo að Common Voice gangi upp! Við gerum það ekki einsömul. Viltu eiga samstarf við okkur? Við viljum gjarnan heyra frá þér.
+partnerships-get-in-touch = Vertu í sambandi
+partnerships-become-a-partner = Vertu samstarfsaðili Common Voice
+partnerships-community-header = Samfélög, skapandi greinar og borgaraleg samtök
+partnerships-community-description = Samfélagið er þar sem hjarta Common Voice slær - þátttakendurnir koma hvaðanæva að úr heiminum og eru tungumála-, vísinda- og listafólk. Þú getur fundið meira um hvernig hægt er að taka þátt á <about>'Um okkur' síðunni</about> okkar og í <community>Community playbook</community> reglunum okkar. Ef þú hefur áhuga á nánara samstarfi, skaltu endilega <emailFragment>hafa samband.</emailFragment>
+partnerships-foundations-header = Stofnanir
+partnerships-foundations-description = Við vinnum með stofnunum, borgaralegum samtökum og samstarfsaðilum samfélagsins að því að gera internetið að heilbrigðari stað, með sérstaka áherslu á Austur-Afríku. Fáðu frekari upplýsingar um <programmaticWork>forritunarvinnu okkar.</programmaticWork>
+partnerships-governments-header = Ríkisstjórnir
+partnerships-governments-description = Við erum spennt fyrir að styðja við þátttöku hins opinbera í tækni, nýsköpun og réttindum tungumálar. Ef þú ætlar að reka stórt verkefni eða herferð, skaltu endilega <emailFragment>hafa samband.</emailFragment>
+partnerships-academia-header = Háskólar, fræðimenn og vísindamenn
+partnerships-academia-description = Opin nýsköpun er kjarninn í því sem við gerum. Varðandi rannsóknasamstarf, gagnasöfnun eða viðtöl skaltu endilega <emailFragment>hafa samband.</emailFragment>
+partnerships-small-business-header = Lítil fyrirtæki, þar með talin sprotafyrirtæki í tækni- og gervigreindargeirum
+partnerships-small-business-description = Við leggjum áherslu á að heyra frá gagnanotendum um þarfir þeirra og aðstöðu - allt frá samstarfi við gagnasöfnunarkerfi yfir í að veita innsýn heilbrigði gagna. Við viljum gjarnan <emailFragment>heyra frá þér.</emailFragment>
+partnerships-corporates-header = Stórfyrirtæki og tækniþjónustufyrirtæki
+partnerships-corporates-description = Ef þú ert að leita að einhverju til að segja meira um gagnasafnið, vilt vera meðfjárfestir í fyrirhuguðum stækkunum kerfisins eða leitar að samstarfstækifærum, þá skaltu <emailFragment>senda okkur línu.</emailFragment>
+partnerships-our-partners = Samstarfsaðilar okkar

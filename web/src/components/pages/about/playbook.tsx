@@ -17,7 +17,8 @@ import './playbook.css';
 
 interface TabEntryType {
   title: string;
-  contentComponent: React.ComponentType<any> & { getFragment?: Function };
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  contentComponent: React.ComponentType<any> & { getFragment?: any };
 }
 
 const tabs: TabEntryType[] = [
@@ -63,21 +64,22 @@ const TabEntry = React.memo(
   ({
     tabEntry,
     getFragment,
-    ...props
   }: {
     tabEntry: TabEntryType;
-    getFragment?: any;
+    getFragment?: any; // eslint-disable-line @typescript-eslint/no-explicit-any
   }) => {
     return (
       <div className="about-playbook-content">
-        <Localized id={`about-playbook-${tabEntry.title}`}>
-          <h2 />
-        </Localized>
+        <h3 className="about-playbook-content__heading">
+          <Localized id={`about-playbook-${tabEntry.title}`} />
+        </h3>
         <tabEntry.contentComponent getFragment={getFragment} />
       </div>
     );
   }
 );
+
+TabEntry.displayName = 'TabEntry';
 
 const Playbook = React.memo(() => {
   const [activeTab, setActiveTab] = useState(tabs[0].title);
@@ -104,6 +106,7 @@ const Playbook = React.memo(() => {
     return classes.join(' ');
   };
 
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const getFragmentLink = (tab: string): React.ReactElement<any> => {
     return (
       <Link
@@ -114,7 +117,7 @@ const Playbook = React.memo(() => {
         }}
         onClick={() => updateActiveTab(tab)}
       />
-    ) as React.ReactElement<any>;
+    ) as React.ReactElement;
   };
 
   return (
@@ -144,5 +147,7 @@ const Playbook = React.memo(() => {
     </>
   );
 });
+
+Playbook.displayName = 'Playbook';
 
 export default Playbook;

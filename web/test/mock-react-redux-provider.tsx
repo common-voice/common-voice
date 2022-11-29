@@ -7,8 +7,33 @@ import { reducers } from '../src/stores/root';
 
 const INITIAL_STATE = {
   locale: 'en',
-} as StateTree;
-const store = createStore(reducers, INITIAL_STATE);
+  languages: {
+    isLoading: false,
+    allLocales: ['az', 'cy', 'en', 'fr', 'nan-tw', 'pt', 'tl'],
+    contributableLocales: ['az', 'cy', 'en', 'fr', 'nan-tw', 'pt', 'tl'],
+    nativeNames: {
+      az: 'Azərbaycanca',
+      cy: 'Cymraeg',
+      en: 'English',
+      fr: 'Français',
+      'nan-tw': '臺語',
+      pt: 'Português',
+      tl: 'Tagalog',
+    },
+    rtlLocales: ['ar', 'ckb', 'dv', 'fa', 'he', 'ps', 'skr', 'syr', 'ug', 'ur'],
+    translatedLocales: ['az', 'cy', 'en', 'fr', 'nan-tw', 'pt', 'tl'],
+    contributableNativeNames: {
+      az: 'Azərbaycanca',
+      cy: 'Cymraeg',
+      en: 'English',
+      fr: 'Français',
+      'nan-tw': '臺語',
+      pt: 'Português',
+      tl: 'Tagalog',
+    },
+  },
+} as Partial<StateTree>;
+const store = createStore(reducers, INITIAL_STATE as StateTree);
 
 jest.mock('../src/services/api', () => {
   return {

@@ -9106,9 +9106,11 @@ Nu ne vom lăsa supuşi presiunilor.
 Nu ne îngrijorează doar daunele aduse mediului.
 Nu ne-a afectat cu nimic ciclul săptămânal sau conținutul antrenamentelor.
 Nu negăm că lucrurile stau în acest fel.
+Nu numai ca l-ati lovit.
 Nu numai fundamentalismul constituie o ameninţare.
 Nu numai instituţia şi tratatul sunt importante.
 Nu numai socialiștii afirmă acest lucru.
+Nu o intalni ca un Imparat care intalneste un criminal.
 Nu o neagă sub nicio formă.
 Nu observați pericolul care ne amenință astăzi?
 Nu oferă niciun fel de garanții.
@@ -9129,6 +9131,7 @@ Nu poate exista progres fără apă.
 Nu poate exista stabilitate fără solidaritate.
 Nu poate fi cazul în această situaţie.
 Nu poate fi gestionată pe cont propriu.
+Nu poate fi o coincidenta ca asta s-a.
 Nu poate fi prezentă la toate.
 Nu poate spune că nu a simțit cum criza îi afectează afacerile.
 Nu poate spune însă că și le mai dorește ca înainte.
@@ -9137,7 +9140,14 @@ Nu pot concepe o viață trăită cu indiferență.
 Nu pot exista jumătăţi de adevăr.
 Nu pot fi vândute pentru că prețul ar fi unul foarte mare.
 Nu pot ieși din criză doar cu austeritate.
+Nu pot participa la targ pt.
 Nu pot răspunde în numele guvernului german.
+Nu pot sa inteleg cand ma-m.
+Nu pot sa-i dau ce isi doreste.
+Nu pot sa-i dau lui Salim confortul.
+Nu pot sa-i mentionez asta reginei Ruqaia fara dovezi.
+Nu pot sa-ti spun ce fericita.
+Nu pot sa-ti spun despre asta.
 Nu pot susţine o asemenea prevedere.
 Nu pot să accept acest lucru.
 Nu pot să gestioneze situația pe cont propriu.
@@ -9146,6 +9156,7 @@ Nu pot să nu mă întreb.
 Nu pot să omit acest aspect.
 Nu pot să susțin aceste evoluții.
 Nu pot înțelege critica adresată companiilor aeriene.
+Nu poti sa mi-o arunci asa.
 Nu poți cere unui schelet să strângă cureaua.
 Nu prea mai cred în acest lucru.
 Nu prea mai rămânea loc la masa negocierilor!
@@ -9194,6 +9205,7 @@ Nu putem pretinde că este vina auditorilor.
 Nu putem rezolva nici conflictele regionale.
 Nu putem rămâne doar spectatori pasivi.
 Nu putem rămâne tăcuţi în faţa acestei situații.
+Nu putem sa-i indeplinim aceasta mica dorinta?
 Nu putem susţine crima planificată a secolului!
 Nu putem susţine o astfel de propunere.
 Nu putem să exercităm presiune asupra statelor membre.
@@ -9224,6 +9236,7 @@ Nu s-a reflectat suficient asupra acestui aspect.
 Nu s-a răspuns la întrebare și ar trebui.
 Nu s-a schimbat nimic în ultima vreme.
 Nu s-a schimbat nimic, ne luptăm pentru primele șase locuri.
+Nu s-a spulberat inca?
 Nu s-a stabilit încă dacă noul proiect va fi denumit la fel.
 Nu s-a înregistrat nicio schimbare în acest sens.
 Nu s-a înregistrat niciun progres semnificativ.
@@ -9253,14 +9266,22 @@ Nu se va extinde la informații despre conținut.
 Nu se întreprinde nicio acțiune acolo.
 Nu se întâmplă acest lucru şi aici.
 Nu se știe dacă voi antrena în România.
+Nu si-a pierdut increderea in tine.
+Nu spun ca ce s-a.
 Nu spun că acestea sunt contracte oneroase.
 Nu spun că susțin acest lucru, dar poate că este o alternativă.
 Nu spun că va fi uşor.
 Nu spunem acest lucru suficient de des.
+Nu stia despre omul caruia i-a.
+Nu stiu ce s-a intamplat cu el.
+Nu stiu ce s-a intamplat.
+Nu stiu daca regina Ruqaia, i-a dat lui.
+Nu stiu daca tu regreti ca ti-ai pierdut fiul sau nu.
 Nu subestimez dificultăţile din sectorul lactatelor.
 Nu sugerez că este vina dvs.
 Nu sugerăm diminuarea standardelor noastre sociale.
 Nu sunt aceste modificări în vigoare?
+Nu sunt capabili sa-mi raspunda.
 Nu sunt de acord cu această părere.
 Nu sunt de acord cu emisiunea de euroobligaţiuni.
 Nu sunt de acord în această privinţă.
@@ -9302,9 +9323,12 @@ Nu supăra pecine nu ştie să sesupere.
 Nu susţin foarte mult această idee.
 Nu susţin nimic revoluţionar, epocal sau radical aici.
 Nu susținem o astfel de uniune.
+Nu t-il dau inapoi.
 Nu te faci vânător doar ca să admiri natura.
 Nu te poți opune unei ideologii prin fapte.
+Nu te voi lasa sa m-il iei.
 Nu te-ai schimbat deloc.
+Nu ti-a spus regine Jodha ca Javeda este insarcinata?
 Nu toate aceste regiuni sunt omogene.
 Nu toată lumea a reuşit să vină.
 Nu toată lumea este de acord.
@@ -9313,6 +9337,7 @@ Nu toți taurii însă se pot ridica la un anumit nivel.
 Nu toți însă se pot ridica la un anumit nivel.
 Nu trebuie folosit vânatul adunat din pădure.
 Nu trebuie nici să compromitem principiul excelenței.
+Nu trebuie sa-i multumim lui D-zeu.
 Nu trebuie să acceptăm acest lucru.
 Nu trebuie să aibă vreun dubiu.
 Nu trebuie să avantajeze doar industria.
@@ -9464,8 +9489,11 @@ Nu, moneda euro nu a avut deloc succes.
 Nu, nu cred că este cazul.
 Nu, nu cred că este cea mai modernă.
 Nu, nu este vorba de interpretare.
+Nu, nu m-a durut regina Jodha.
 Nu, nu suntem exagerat de critici.
+Nu, nu vreau sa il dau la nimeni.
 Nu, pentru că nu sunt informați.
+Nu, regina Jodha, ti-am spus ca datoria ta.
 Nu, sectorul privat va trebui să facă asta.
 Nu-i milă, ci crimă să ierţi pe ucigaşi.
 Nu-mi aduc aminte.
@@ -9547,6 +9575,7 @@ O mare parte din muncă este deja încheiată.
 O mare parte nu este aplicată.
 O metodă foarte inteligentă, trebuie s-o spun.
 O mie cinci sute de texte!
+O multime de oameni s-au rigat pt copii mei.
 O navă se afla în zonă.
 O nouă consultare tocmai a luat sfârşit.
 O ofer celor care ridică primii cartonașul albastru.
@@ -9580,6 +9609,7 @@ O întâlnire cuprinde o parte literar artistică și o petrecere.
 O știre din îndepărtata Irlandă ar trebui și ea să ne dea de gândit.
 Oameni au fost ucişi şi răniţi.
 Oameni din toată lumea se aşteaptă să reuşim.
+Oameni s-ar fi pus intrebari de familia regala.
 Oamenii au ajuns să le accepte.
 Oamenii au declarat, că au văzut moartea cu ochii.
 Oamenii au făcut bunele purtări, şi acum bunele purtări îi fac pe oameni.

@@ -26,7 +26,7 @@ async function getFilesInFolder(path: string): Promise<string[]> {
   });
 }
 
-const SENTENCES_PER_CHUNK = 500;
+const SENTENCES_PER_CHUNK = 200;
 
 function streamSentences(localePath: string) {
   const stream = new PassThrough({ objectMode: true });
@@ -82,9 +82,7 @@ async function importLocaleSentences(
   version: number
 ) {
   await pool.query('INSERT IGNORE INTO locales (name) VALUES (?)', [locale]);
-  const [
-    [{ localeId }],
-  ] = await pool.query(
+  const [[{ localeId }]] = await pool.query(
     'SELECT id AS localeId FROM locales WHERE name = ? LIMIT 1',
     [locale]
   );
@@ -152,9 +150,11 @@ export async function importSentences(pool: any) {
     (await useRedis) ? await redis.get('sentences-version') : 0
   );
   const version = ((oldVersion || 0) + 1) % 256; //== max size of version column
-  const locales = ((await new Promise(resolve =>
-    fs.readdir(SENTENCES_FOLDER, (_, names) => resolve(names))
-  )) as string[]).filter(name => name !== 'LICENSE');
+  const locales = (
+    (await new Promise(resolve =>
+      fs.readdir(SENTENCES_FOLDER, (_, names) => resolve(names))
+    )) as string[]
+  ).filter(name => name !== 'LICENSE');
 
   print('locales', locales.join(','));
 

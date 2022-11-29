@@ -12,7 +12,9 @@ on:
 jobs:
   test-server:
     # Exclude Pontoon commits from building a new Docker container
-    if: "!contains(github.event.head_commit.message, 'Pontoon:')"
+    if: ${{ contains(github.ref, '-v') || !contains(github.event.head_commit.message, 'Pontoon:')}}
+    # Build Docker image if tagged w/ a version
+    # if: "contains(github.ref, '-v')"
     services:
       mysql:
         image: mysql:5.7

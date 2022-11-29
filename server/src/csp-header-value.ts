@@ -2,7 +2,7 @@ import { getConfig } from './config-helper';
 
 const SOURCES = {
   'default-src': ["'none'"],
-  'child-src': ["'self'", 'blob:', 'https://www.google.com/recaptcha/'],
+  'child-src': ["'self'", 'blob:'],
   'style-src': ["'self'", 'https://fonts.googleapis.com'],
   'img-src': [
     "'self'",
@@ -27,8 +27,6 @@ const SOURCES = {
     "'sha256-fIDn5zeMOTMBReM1WNoqqk2MBYTlHZDfCh+vsl1KomQ='",
     "'sha256-Hul+6x+TsK84TeEjS1fwBMfUYPvUBBsSivv6wIfKY9s='",
     'https://www.google-analytics.com',
-    'https://www.google.com/recaptcha/api.js',
-    'https://www.gstatic.com', // recaptcha
     'https://pontoon.mozilla.org',
     'https://*.sentry.io',
   ],

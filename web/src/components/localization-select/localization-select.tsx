@@ -1,7 +1,9 @@
 import * as React from 'react';
 
-import { LocalizedGetAttribute } from '../locale-helpers';
-import { LOCALES_WITH_NAMES } from '../../services/localization';
+import {
+  LocalizedGetAttribute,
+  useNativeNameAvailableLocales,
+} from '../locale-helpers';
 import { LabeledSelect } from '../ui/ui';
 
 import './localization-select.css';
@@ -12,8 +14,10 @@ interface Props {
 }
 
 const LocalizationSelect = ({ locale, onLocaleChange }: Props) => {
+  const localesWithNames = useNativeNameAvailableLocales();
+
   // don't show select if we dont have multiple locales
-  if (LOCALES_WITH_NAMES.length <= 1) {
+  if (localesWithNames.length <= 1) {
     return null;
   }
 
@@ -33,7 +37,7 @@ const LocalizationSelect = ({ locale, onLocaleChange }: Props) => {
               onLocaleChange(event.target.value);
             }
           }}>
-          {LOCALES_WITH_NAMES.map(({ code, name }) => (
+          {localesWithNames.map(({ code, name }) => (
             <option key={code} value={code}>
               {name}
             </option>

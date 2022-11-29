@@ -1,0 +1,39 @@
+.languages-waves {
+    z-index: var(--bottom-z-index);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    opacity: 0.65;
+
+    & img {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        margin: auto;
+        animation-timing-function: cubic-bezier(0.23, 1, 0.32, 1);
+        animation-duration: 3.5s;
+        animation-name: move-and-scale-in;
+
+        & img:nth-child(3) {
+            animation-delay: 0.15;
+        }
+
+        & img:nth-child(4) {
+            animation-delay: 0.5;
+            bottom: 4%;
+            right: 16%;
+        }
+    }
+}
+@keyframes move-and-scale-in {
+    from {
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0%);
+    }
+}

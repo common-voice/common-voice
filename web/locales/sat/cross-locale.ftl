@@ -15,4 +15,4 @@ get-involved-stayintouch = ᱟᱞᱮ Mozilla ᱫᱚ ᱱᱚᱶᱟ ᱢᱤᱫᱴᱟ
 get-involved-privacy-info = ᱟᱢᱟᱜ ᱡᱤᱱᱤᱥ ᱠᱚ ᱥᱟᱢᱲᱟᱣ ᱞᱮ ᱡᱚᱛᱚᱱ ᱞᱮ ᱤᱫᱤᱭᱟ ᱾ ᱟᱞᱮᱭᱟᱜ <privacyLink> ᱯᱨᱟᱭᱣᱮᱥᱭ ᱱᱚᱴᱤᱥ </privacyLink> ᱨᱮ ᱟᱨᱦᱚᱸ ᱯᱟᱲᱦᱟᱣ ᱢᱮ ᱾
 get-involved-success-title = { $language } ᱨᱮ ᱮᱱᱮᱢ ᱞᱟᱹᱜᱤᱫ ᱟᱢᱟᱜ ᱱᱟᱶᱟ ᱵᱮᱵᱷᱟᱨᱤᱭᱟᱹ ᱞᱮᱠᱷᱟᱛᱮ ᱾ ᱥᱟᱨᱦᱟᱣ ᱾
 get-involved-success-text = ᱡᱟᱦᱟᱸ ᱛᱤᱱᱟᱹᱝ ᱨᱮ ᱧᱟᱢᱚᱜᱼᱟ ᱟᱞᱮ ᱵᱟᱹᱲᱛᱤ ᱵᱤᱵᱨᱚᱬ ᱞᱮ ᱞᱟᱹᱭ ᱥᱚᱫᱚᱨ ᱟᱢᱟ ᱾
-get-involved-return-to-languages = ᱯᱟᱹᱨᱥᱤ ᱛᱮ ᱨᱩᱟᱹᱲ ᱢᱮ
+get-involved-return-to-languages = ᱯᱟᱹᱨᱥᱤ ᱛᱮ ᱨᱩᱣᱟᱹᱲ ᱢᱮ

@@ -14,6 +14,8 @@ email-opt-in-info-sub-with-challenge = 도전이나 개인 목표 알림, 진행
 email-opt-in-privacy-v2 = 이메일을 받기로 수락함으로서 Mozilla의 <privacyLink>개인정보 정책</privacyLink>에 따라 Mozilla가 이 정보를 처리하는 것에 동의하게 됩니다.
 indicates-required = * 표시는 필수 항목
 not-available-abbreviation = 해당 없음
+banner-error-slow-1 = 죄송합니다. Common Voice가 느리게 실행되고 있습니다. 관심을 가져주셔서 감사합니다.
+banner-error-slow-2 = 트래픽이 많이 발생하고 있으며 현재 문제를 조사하고 있습니다.
 banner-error-slow-link = 상태 페이지
 error-something-went-wrong = 죄송합니다. 오류가 발생하였습니다.
 
@@ -54,6 +56,7 @@ da = 덴마크어
 de = 독일어
 dsb = 저지 소르브어
 dv = 디베히어
+dyu = 드율라어
 el = 그리스어
 en = 영어
 eo = 에스페란토어
@@ -73,6 +76,7 @@ gom = 고안 콘칸어
 ha = 하우사어
 he = 히브리어
 hi = 힌디어
+hil = 힐리가이논어
 hr = 크로아티아어
 hsb = 고지 소르브어
 ht = 아이티어
@@ -87,6 +91,7 @@ is = 아이슬란드어
 it = 이탈리아어
 izh = 이조르어
 ja = 일본어
+jbo = 로지반어
 ka = 그루지아어
 kaa = 카라칼파크어
 kab = 커바일어
@@ -95,6 +100,7 @@ ki = 키쿠유어
 kk = 카자흐스탄어
 km = 크메르어
 kmr = 쿠르만지 쿠르드어
+kn = 칸나다어
 knn = 콘칸어(데바나가리)
 ko = 한국어
 kpv = 코미지리안어
@@ -103,6 +109,8 @@ ky = 키르기스스탄어
 lb = 룩셈부르크어
 lg = 루간다어
 lij = 리구리아어
+ln = 링갈라어
+lo = 라오어
 lt = 리투아니아어
 lv = 라트비아어
 mai = 마이틸어
@@ -122,12 +130,16 @@ my = 버마어
 myv = 에르자어
 nan-tw = 대만어(민난)
 nb-NO = 노르웨이어 보크몰
+nd = IsiNdebele (North)
 ne-NP = 네팔어
 nia = 니아스어
 nl = 네덜란드어
 nn-NO = 노르웨이어 뉘노르스크
+nr = IsiNdebele (South)
+nso = 북소토어
 nyn = 엔코어어
 oc = 오크어
+om = 아파안 오로모어
 or = 오리야어
 pa-IN = 펀자브어
 pap-AW = 파피아멘토(아루바)
@@ -145,14 +157,18 @@ sah = 사하어
 sat = 산탈어 (올치키)
 sc = 사르데냐어
 scn = 시칠리아어
+sdh = 남부 쿠르드어
 shi = 실하어
 si = 싱할라어
 sk = 슬로바키아어
 skr = 사라이키어
 sl = 슬로베니아어
+snk = 소닌케어
 so = 소말리아어
 sq = 알바니아어
 sr = 세르비아어
+ss = 시스와티어
+st = 소토어
 sv-SE = 스웨덴어
 sw = 스와힐리어
 syr = 시리아어
@@ -164,8 +180,10 @@ ti = 티그리냐어
 tig = 티그레어
 tk = 투르쿠멘어
 tl = 타갈로그어
+tn = 츠와나어
 tok = 도기 보나
 tr = 터키어
+ts = 총가어
 tt = 타타르어
 tw = 트위어
 ty = 타히티어
@@ -175,15 +193,19 @@ ug = 위구르어
 uk = 우크라이나어
 ur = 우르두어
 uz = 우즈베키스탄어
+ve = 벤다어
 vec = 베네치아어
 vi = 베트남어
 vot = 바트어
+xh = 코사어
 yi = 이디시어
 yo = 요루바어
 yue = 광동어
+zgh = 타마지트어
 zh-CN = 중국어(중국)
 zh-HK = 중국어(홍콩)
 zh-TW = 중국어(중화민국)
+zu = 줄루어
 
 # [/]
 
@@ -195,6 +217,7 @@ speak-now = 지금 말하기
 datasets = 데이터 세트
 languages = 언어
 about = 소개
+partner = 파트너
 profile = 프로필
 help = 도움말
 contact = 연락처
@@ -304,13 +327,12 @@ shortcut-vote-no = n
 shortcut-record-toggle = r
 shortcut-record-toggle-label = 녹음/멈추기
 shortcut-rerecord-toggle = [1-5]
-shortcut-rerecord-toggle-label = 레코드클립 재녹음
+shortcut-rerecord-toggle-label = 클립 다시 녹음
 shortcut-discard-ongoing-recording = ESC
 shortcut-discard-ongoing-recording-label = 진행 중인 녹음 취소
 shortcut-submit = 돌아가기
 shortcut-submit-label = 클립 제출
 request-language-text = 아직도 사용하는 언어가 Common Voice에서 보이지 않나요?
-request-language-text-learn = 여기에서 요청하는 방법을 알아보세요!
 request-language-button = 언어 요청하기
 
 ## ProjectStatus
@@ -336,6 +358,9 @@ profile-form-additional-language =
     .label = 추가 언어
 profile-form-language =
     .label = 언어
+profile-form-variant =
+    .label = { $language }의 어떤 변형을 사용하시나요?
+profile-form-variant-default-value = 선택한 변형이 없음
 profile-form-accent =
     .label = 억양
 profile-form-custom-accent-help-text =
@@ -387,6 +412,8 @@ off = 꺼짐
 on = 켜짐
 help-accent = 억양에 도움이 필요하십니까?
 help-accent-explanation = 억양은 단어를 발음하는 방식입니다. 살았던 곳이나 사용하는 다른 언어나 기타 많은 요인에 의해 형성됩니다. 관련이 있다고 생각하는 정보를 여기에서 공유할 수 있습니다.
+help-variants = 변형에 대한 도움이 필요하십니까?
+help-variants-explanation = 변형은 예를 들어 지리적 위치나 커뮤니티에 거주하는 사람들이 공유하는 언어의 특정 형태입니다. 때로는 이것을 방언이라고 합니다.
 
 ## Profile - Email
 
@@ -441,7 +468,9 @@ faq-why-different-speakers-a =
     대부분의 음성 데이터베이스는 특정 인구의 데이터가 과도하게 훈련되어 <articleLink>남성과 중산층</articleLink>에 편중되어 있습니다. 훈련 데이터에서 억양과 방언이 충분히 반영되지 못하는 것은 해당 그룹이 이미 소외되어 있기 때문입니다. 많은 기계들이 여성의 목소리를 이해하는데 어려움을 겪고 있습니다.
     이것이 우리의 음성 데이터베이스가 다양성을 원하는 이유입니다!
 faq-why-my-lang-q = 왜 나의 언어가 아직 포함되지 않았나요?
-faq-why-my-lang-new-a = Mozilla는 특정 언어를 우선적으로 다루지 않습니다. Common Voice는 커뮤니티 중심으로 주도되지만 새로운 언어의 음성을 추가하기 위해서는 <multilangLink>새로운 언어를 등록하기 위한 몇 가지 단계</multilangLink>를 거쳐야합니다. 첫번째로, 커뮤니티의 사람들이 사용하는 언어로 기여할 수 있도록 Common Voice 웹 사이트가 번역되어야 합니다. 다음으로는 사람들이 소리내어 읽을 수 있는 저작권이 위배되지 않은 많은 문장이 수집되어야 합니다. 이 2가지 조건이 만족된 언어는 Common Voice에 “출시됨”으로 표시되고 사람들이 자신의 음성을 기부하거나 다른 사람의 음성을 검증할 수 있게 됩니다. 새로운 언어의 출시를 도우려면 <sentenceCollectorLink>문장 수집 도구</sentenceCollectorLink>를 이용하십시오.
+faq-why-my-lang-a =
+    Common Voice는 크라우드소싱 플랫폼이기에 모든 언어는 자원 봉사자의 기여덕분입니다.
+    귀하의 언어를 추가해 주시면 감사하겠습니다! <languageRequestLink>언어 추가에 대해 문의하세요.</languageRequestLink>
 faq-what-quality-q = 데이터세트에 사용되기 위한 보이스 클립의 음질은 어느정도여야 하나요?
 faq-what-quality-a = 우리는 Common Voice 데이터 세트에 음성-텍스트 엔진이 실생활에서 듣는 음성 품질이 반영되기를 원하기 때문에 다양성을 원합니다. 다양한 말하는 사람들의 커뮤니티와 함께 넓은 오디오 품질의 데이터 세트는 음성-텍스트 엔진에 배경 대화에서 자동차 소음에 이르기까지 다양한 실제 상황을 다룰 수 있도록 가르칩니다. 음성 클립을 이해할 수 있는 한, 데이터 세트로 충분합니다.
 faq-why-10k-hours-q = 왜 언어별로 수집되어야 할 오디오의 길이가 10,000 유효 시간인가요?
@@ -511,12 +540,6 @@ about-dataset-new = Common Voice 데이터 세트
 about-dataset-new-text = Common Voice 데이터 세트에는 개발자가 음성 인식 도구를 작성하는 데 도움이되는 수십 만 개의 음성 샘플이 들어 있습니다.
 about-clip-graveyard = 클립 무덤
 about-clip-graveyard-text = 클립 무덤은 Common Voice 데이터 세트에 포함되지 못 한 음성 클립으로 구성됩니다. 데이터 세트와 마찬가지로 클립 무덤도 다운로드할 수 있습니다.
-about-partners = 파트너
-about-become-a-partner = 파트너 되기
-about-partnership =
-    Common Voice는 공동 작업 프로젝트이며 가장 큰 오픈 소스 음성 데이터 세트를 구축하기 위해 파트너와 기여자 커뮤니티의 도움을 받고 있습니다.
-    
-    프로젝트에 도움을 주신 다음 분들과 단체에 감사드립니다:
 about-get-involved = 참여하기
 about-get-involved-text-2 =
     Common Voice를 더 좋게 만들고 싶으신가요?
@@ -545,9 +568,20 @@ about-playbook-what-is-language-content-3 = 일부 언어는 문법, 어휘 및 
 
 about-playbook-how-add-language = 언어는 어떻게 추가합니까?
 about-playbook-how-add-language-content-1 = 먼저, 사용하는 언어가 <languageLink>이미 존재하는지</languageLink> 확인하십시오. 그렇지 않은 경우 <strong>사이트를 번역하고 문장을 수집</strong>해야 합니다.
-about-playbook-how-add-language-content-2 = <strong>사이트를 번역하려면</strong> - <pontoonLink>Pontoon</pontoonLink>에서 <translateVideo>설정</translateVideo>을 받으세요. Pontoon에는 많은 언어가 있지만 언어가 없는 경우 <pontoonRequestLink>요청</pontoonRequestLink>할 수 있습니다. 그런 다음 <repoLink>GitHub</repoLink>을 통해 Common Voice 프로젝트를 해당 언어로 사용할 수 있도록 요청하세요. <localizationFragment>사이트 번역</localizationFragment>에 대해 자세히 알아보세요.
-about-playbook-how-add-language-content-3 = <strong>문장 수집하기</strong> - <scLink>문장 수집기</scLink>에서 <scVideo>설정</scVideo>을 선택하세요.
-about-playbook-how-add-language-content-4 = 여기에서 <scLinkAdd>작은 수의 문장을 추가</scLinkAdd>하거나 Github 요청을 통해 <bulkImportDocsLink>대량 가져오기</bulkImportDocsLink>를 수행할 수 있습니다. 문장은 <licenseLink>CC0(또는 공개 도메인)</licenseLink>이거나 직접 작성할 수 있음을 기억하세요. <scFragment>문장 모음</scFragment>에 대해 자세히 알아보십시오.
+about-playbook-how-add-language-translating-heading = 이 사이트 번역하기
+about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Pontoon 사용 방법에 대한 가이드 시청</translateVideoLink>.
+about-playbook-how-add-language-translating-content-2 =
+    번역을 위해 <pontoonLink>Pontoon</pontoonLink>라는 Mozilla 도구를 사용합니다. Pontoon에 언어가 많습니다.
+    그러나 귀하의 언어가 없으면 <pontoonRequestLink>언어 추가를 요청</pontoonRequestLink>할 수 있습니다.
+    그런 다음 Common Voice 프로젝트에서 해당 언어를 사용할 수 있기 위해
+    <githubRepoLink>Github</githubRepoLink>에서 그 언어를 요청하세요. <localizationFragment>사이트 번역에 대해 자세히 알아보기</localizationFragment>.
+about-playbook-how-add-language-collecting-sentences-heading = 문장 수집
+about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>Sentence Collector 사용에 대한 가이드 시청</sentenceCollectorVideo>.
+about-playbook-how-add-language-collecting-sentences-content-2 =
+    <sentenceCollectorLinkAdd>작은 수의 문장을 추가</sentenceCollectorLinkAdd>할 수 있으며,
+    또는 <bulkImportDocsLink>Github를 사용하여 대량 가져오기</bulkImportDocsLink>를 수행할 수 있습니다.
+    문장은 반드시 <licenseLink>CC0(또는 공개 도메인)</licenseLink> 콘텐츠 또는  자신이 직접 작성하신 글이어야 합니다.
+about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>문장 수집에 대해 자세히 알아보기</sentenceCollectorFragment>.
 
 ## How does localization work
 
@@ -582,11 +616,16 @@ about-playbook-how-grow-language-content-1 = 다양한 사람들이 Common Voice
 about-playbook-how-grow-language-content-2 = 이벤트
 about-playbook-how-grow-language-content-3 = 사람들이 기여할 수 있도록 이벤트를 운영할 수 있습니다. 생각보다 쉽습니다. 화상 회의 도구를 사용하여 온라인으로 할 수도 있고 안전한 경우 직접 대면할 수도 있습니다. <eventTemplate>이벤트 실행을 위한 템플릿과 리소스를 확인하세요</eventTemplate>.
 about-playbook-how-grow-language-content-4 = 소셜 미디어
+about-playbook-how-grow-language-content-5 = 소셜 미디어 플랫폼을 사용하여 메시지를 전달할 수 있습니다. 중요한 이유를 설명하는 게시물을 공유하고 언어 권리, 음성 AI 또는 기술의 편견과 같은 문제에 대해 이야기하는 다른 사람들과 연락하십시오. <campaignLink>재사용할 수 있는 콘텐츠를 포함하여 소셜 캠페인 실행</campaignLink>에 대한 추가 조언을 확인하세요.
 about-playbook-how-grow-language-content-6 = 파트너십 및 네트워크
+about-playbook-how-grow-language-content-7 = 관심있는 다른 사람들을 찾으십시오. 그것은 대학, 어학 학교, 옹호 단체 또는 데이터 과학 커뮤니티가 될 수 있습니다. 도움을 줄 수 있는 방법과 이유를 명확하게 설명하십시오. <outreachTemplates>지원 이메일 템플릿을 참조하세요</outreachTemplates>.
+about-playbook-how-grow-language-content-8 = <strong>창의력을 발휘하세요!</strong> 귀하의 언어 커뮤니티는 독특할 것이며 이는 시작하는 몇 가지 방법일 뿐입니다.
 
 ## How to validate
 
 about-playbook-how-validate = 음성 클립이 승인되었는지 어떻게 알 수 있나요?
+about-playbook-how-validate-content-1 = <strong>그들의 말을 듣고</strong> <strong>이해할 수 있다면</strong> 일반적으로 <strong>승인하는 것이 가장 좋습니다</strong>.
+about-playbook-how-validate-content-2 = <strong>자신과 '억양이 다른' 사람의 클립을 거부하지 마십시오.</strong> 이는 음성 인식이 모든 사람에게 더 잘 작동하도록 하는 데 중요합니다.
 about-playbook-how-validate-content-3 = 만약 발음을 <strong>아예 이해할 수 없거나</strong>, <strong>배경 잡음이 너무 심하거나</strong>, <strong>기여자 외에 다른 사람이 말하고 있다고</strong> 생각한다면 클립을 거부해야 합니다. <accuracyLink>자세한 정확도 기준에 대해 알아 보세요</accuracyLink>.
 about-playbook-how-validate-content-4 = 클립을 두 사람이 거부하면 데이터 세트에 별도로 구분되어 공개됩니다.
 
@@ -598,18 +637,14 @@ about-playbook-how-access-dataset-content-2 = 자동 음성 인식(ASR) 모델�
 
 ## How are decisions made
 
+about-playbook-how-project-governance = 프로젝트 결정은 어떻게 이루어지나요?
+about-playbook-how-project-governance-content-1 = Mozilla Common Voice는 전세계의 활동가, 언어학자, 데이터 과학자, 학자 및 소프트웨어 엔지니어로 구성된 다양한 커뮤니티에 의해 가능합니다. 이 프로젝트는 Mozilla 재단이 관리합니다.
 about-playbook-how-project-governance-content-2 = 다음을 기반으로 하는 관리방식:
 about-playbook-how-project-governance-content-3 = 개인 정보 보호, 보안 및 투명성.
 about-playbook-how-project-governance-content-4 = 커뮤니티 참여 및 의사 결정.
 about-playbook-how-project-governance-content-5 = 가치와 인정.
 about-playbook-how-project-governance-content-6 = 상호 책임.
 about-playbook-how-project-governance-content-7 = <governanceLink>관리 방식에 대해 자세히 살펴 보세요.</governanceLink>
-mycroft-title = Mycroft Ai
-mycroft-subtitle = 인공 지능
-mycroft-description =
-    Mycroft는 세계 최초의 오픈 소스 도우미입니다.
-    Mycroft는 데스크탑 컴퓨터, 자동차 내부 또는 라스베리 파이 - 어디서나 작동합니다.
-mycroft-secondary-description = 이것은 오픈소스 소프트웨어이기 때문에 자유롭게 개작하거나 확장, 개선해도 됩니다. Mycroft는 엔터프라이즈 소프트웨이어에서 과학 프로젝트까지 모든 용도로 사용될 수 있습니다.
 
 ## Glossary
 
@@ -668,6 +703,7 @@ review-delete-recordings = 내 녹음 삭제
 
 ## Datasets Page
 
+datasets-heading = 데이터세트
 datasets-headline = 우리는 누구든지 음성 지원 응용프로그램을 교육하기 위해 사용할 수 있는 오픈 소스, 다국어 음성 데이터 세트를 구축하고 있습니다.
 datasets-positioning =
     우리는 공개적으로 이용할 수 있는 대규모 음성 데이터 세트가 기계 학습 기반 음성 기술의 혁신과 건전한 상업 경쟁을 촉진할 것이라고 믿습니다.
@@ -676,6 +712,10 @@ datasets-positioning =
     
     이 페이지는 다른 오픈 소스 음성 데이터 세트의 참조처이자, Common Voice가 성장해 감에 따라 공개될 업데이트를 위한 장소가 될 것입니다.
 language = 언어
+download-dataset-header = 데이터세트 다운로드
+download-delta-explainer = 변경 사항이 있습니다. 델타 세그먼트에는 마지막 릴리스 이후 가장 최근 클립만 포함됩니다. <deltaLink>이 일에 대해 자세히 알아보세요</deltaLink>.
+download-dataset-tag = 원하는 언어 데이터 세트를 선택하고 다운로드하려는 버전을 선택하십시오.
+download-dataset-access = 이전 데이터 세트 릴리스를 찾고 계십니까? <emailLink>{ $email }</emailLink>로 이메일을 보내주세요.
 # File size in gigabytes
 size = 크기
 validated-hr-total = 검증된 시간 합계
@@ -754,6 +794,7 @@ other-language = 다른 언어
 
 ## Request Language Pages
 
+request-language-heading = 새 언어에 관해 문의
 request-language-explanation-1 =
     해당 언어가 <languagesPageLink>Common Voice 언어 목록</languagesPageLink>에 있는지 확인하십시오.
     목록에 없다면 이 양식을 채워 주십시오. 저희가 <strong>해당 언어를 어떻게 시작할지에 대해 유용한 메일을 보내 드릴 것입니다</strong>.
@@ -801,7 +842,8 @@ language-search-input =
 language-speakers = 말한 사람
 localized = 지역화된
 sentences = 문장
-total-hours = 전체 시간
+language-validation-hours = 시간
+language-validation-progress = 검증 진행
 
 ## Contribution
 
@@ -1175,48 +1217,289 @@ sc-logout-button = 로그아웃
 ## HOME
 
 sc-home-title = Common Voice Sentence Collector에 오신 것을 환영합니다
+sc-home-intro = 문장 수집기는 <commonVoiceLink>Common Voice</commonVoiceLink>의 일부입니다. 이를 통해 기여자는 커뮤니티에서 생성한 문장을 수집하고 검증할 수 있습니다. 이 도구를 사용하여 찾거나 수집한 중소 규모의 공개 도메인 말뭉치를 가져오고 정리할 수도 있습니다. 모든 문장은 공개 도메인이어야 합니다. 승인된 문장은 매주 Common Voice 리포지토리로 내보내지고 모든 새 배포 시 Common Voice 웹사이트에 공개됩니다.
+sc-home-collect-title = 문장 수집
+sc-home-collect-text = 공개 도메인 문장을 작성하거나 수집하여 저희를 도와주세요.
+sc-home-review-title = 문장 검토
+sc-home-review-text = 지침에 따라 문장의 정확도를 검토하여 저희를 도와주세요.
 
 ## GENERAL
 
+sc-languages-fetch-error = 사용 가능한 언어를 가져오지 못했습니다. 현재 기부가 불가능합니다. 나중에 다시 시도 해주십시오.
 
 ## HOW-TO
 
+sc-howto-title = 길잡이
+sc-howto-addlang-title = 작업할 언어 추가
+sc-howto-addlang-text = 로그인하면 프로필 섹션에서 언어를 선택할 수 있습니다.
+sc-howto-addsen-title = 새로운 문장 추가
+sc-howto-addsen-item-1 = 제출하는 모든 문장은 <wikipediaLink>공개 도메인(CC-0) 라이선스</wikipediaLink>에 따라야 합니다. 공개 라이선스가 적용되지 않은 저작물의 포함을 지원하기 위해 저작권 소유자가 Common Voice에 자료를 기고하고자 하는 저작물에 대한 <cc0WaiverLink>기여 계약 템플릿</cc0WaiverLink>을 만들었습니다.
+sc-howto-addsen-item-2 = 숫자. 큰 소리로 읽을 때 문제를 일으킬 수 있으므로 원본 텍스트에 숫자가 없어야 합니다. 숫자를 읽는 방법은 컨텍스트에 따라 다르며 데이터 세트에 혼동을 일으킬 수 있습니다. 예를 들어, 숫자 "2409"는 "이사공구"와 "이천사백구" 두 가지로 읽을 수 있습니다.
+sc-howto-addsen-item-3 = 축약어와 두음 어. "USA" 또는 "ICE"와 같은 약어 및 두문자어는 철자와 일치하지 않는 방식으로 읽힐 수 있으므로 원본 텍스트에서 피해야 합니다. 또한 단일 약어에 대해 여러 개의 정확한 판독값이 있을 수 있습니다. 예를 들어, 약어 "ICE"는 "아이-씨-이"로 발음하거나 단일 단어("아이스")로 발음할 수 있습니다.
+sc-howto-addsen-item-4 = 구두점. 특수 기호와 구두점은 반드시 필요한 경우에만 포함되어야 합니다. 예를 들어, 아포스트로피는 "don't" 및 "we're"와 같은 영어 단어에 포함되고 원문 텍스트에 포함되어야 하지만 "@" 또는 "#"과 같은 특수 기호가 필요할 가능성은 거의 없습니다.
+sc-howto-addsen-item-5 = 외국어 문자. 문자는 사용하는 언어로 유효해야 합니다. 예를 들어, "ж"는 러시아 알파벳의 문자이지만 영어에서는 절대 사용되지 않으므로 영어 원문 텍스트에 나타나서는 안 됩니다.
+sc-howto-addsen-item-6 = 언어는 추가로 요구되는 사항과 함께 <validationRulesLink>자체 유효성 검사 규칙</validationRulesLink>을 가질 수 있습니다. 언어에 대한 특정 유효성 검사 파일이 없는 경우 일반 영어 규칙을 사용합니다.
+sc-howto-addsen-post-1 = 우리는 자연스러운/대화 문장을 선호합니다. 발음의 다양성과 문장의 다른 단어도 중요하지만 가능한 재미있게 문장을 녹음하려고 노력하고 있습니다. 따라서 문장을 가능한 자연스럽고 매력적으로 유지하려고 노력한다면 좋습니다.
+sc-howto-cite-title = 인용하는 방법
+sc-howto-cite-pre-1 = 표절을 방지하고 <copyrightIssuesLink>저작권 문제</copyrightIssuesLink>에 대한 후속 조치를 허용하려면 발견한 공용 라이선스 위치를 참조하는 것이 중요합니다. 다음은 작업을 인용할 수 있는 몇 가지 방법입니다.
+sc-howto-cite-item-1 = 웹사이트를 포함할 수 있습니다. 예를 들어 "Common Voice - https://commonvoice.mozilla.org/"
+sc-howto-cite-item-2 = 학술적 참조 스타일을 사용할 수 있습니다. 예를 들어 Harvard 스타일 "Mozilla(2021) Common Voice. https://commonvoice.mozilla.org/ 에서 사용 가능(접근: 2021년 9월 15일)"
+sc-howto-cite-item-3 = 온라인에서 사용할 수 없는 공개 도메인 텍스트의 경우, Harvard 스타일 "Jess (2021) My Public license 시"와 같은 학술적 참조 스타일을 사용할 수 있습니다.
+sc-howto-review-title = 문장 검토
+sc-howto-review-subtitle = 문장이 다음 기준을 충족하는지 확인:
+sc-howto-review-criteria-1 = 문장의 철자가 정확해야 합니다.
+sc-howto-review-criteria-2 = 문장은 문법적으로 정확해야 합니다.
+sc-howto-review-criteria-3 = 문장은 말할 수 있어야 합니다.
+sc-howto-review-criteria-4 = 문장이 기준에 부합하면 "승인" 버튼을 클릭하십시오.
+sc-howto-review-criteria-5 = 문장이 위의 기준에 맞지 않으면 "거부" 버튼을 클릭하십시오. 문장이 확실하지 않은 경우 건너뛰고 다음 문장으로 넘어갈 수도 있습니다.
+sc-howto-review-criteria-6 = 검토할 문장이 부족하면 더 많은 문장을 수집할 수 있도록 도와주세요!
+sc-howto-findpd-title = 퍼블릭 도메인에서 기존 문장 찾기
+sc-howto-findpd-subtitle = 인터넷에서 검색
+sc-howto-findpd-text-2 = 이러한 문장을 게시하려면 허가가 필요하므로 텍스트가 <wikipediaLink>공개 도메인</wikipediaLink>에 속하는지 항상 확인하세요. 명시적인 표시가 없는 경우 텍스트를 소유한 사람에게 연락하여 공개 도메인에 텍스트를 기고할 것인지 물어보십시오. 원하는 경우 <cc0WaiverLink>기부금 계약</cc0WaiverLink> 절차를 진행하도록 도와주십시오. 그들이 텍스트를 제공하기를 원하지 않으면 해당 텍스트를 사용할 수 없습니다.
+sc-howto-findpd-tips = 다음은 문장을 찾는 몇 가지 팁입니다:
+sc-howto-findpd-tips-1 = 찾을 수 있는 최고의 소스는 팟캐스트, 스크립트, 영화 스크립트 및 일상 대화를 포함할 수 있는 모든 것입니다.
+sc-howto-findpd-tips-2 = 정부 간행물, 책 및 기사도 훌륭하지만 텍스트가 좀 더 형식적인 경향이 있기 때문에 우선 순위가 낮습니다.
+sc-howto-findpd-tips-3 = 불행히도 아직 Wikimedia 기사를 사용할 수 없습니다. 따라서 거기에서 복사 붙여넣기를 하지 마십시오.
+sc-howto-findpd-subtitle-2 = 지역 조직 또는 개인과 파트너
+sc-howto-findpd-partner-1 = 협업을 원하고 이미 공개 도메인으로 기부할 수 있는 텍스트가 많은 공공 기관이 많이 있습니다. 지역 대학, 정부 및 오픈 소스 조직에 연락하여 프로젝트에 대해 이야기하고 도움을 요청하십시오.
+sc-howto-findpd-partner-2 = 전문 언어학자도 물론 도울 수 있습니다. 현지 언어 대학(교사와 학생 모두)에 연락하여 귀하의 언어로 된 다양한 소리의 다양한 문장을 수집하는 데 도움이 될 수 있는지 확인하십시오.
 
 ## MY SENTENCES
 
+sc-my-title = 내 문장
+sc-my-description = 이 페이지는 제출된 모든 문장에 대한 개요를 제공합니다. 필요한 경우 옆에 있는 체크박스를 선택하고 하단의 &quot;선택한 문장 삭제&quot;를 클릭하여 이미 제출된 문장을 삭제할 수도 있습니다. 반드시 필요한 경우에만 문장을 삭제하십시오. 예를 들어 문장이 저작권으로 보호된다는 사실을 알게 된 경우가 해당합니다.
+sc-my-loading = 문장 로드 중…
+sc-my-err-fetching = 문장을 가져오는 중에 오류가 발생했습니다. 다시 시도해 주세요.
+sc-my-no-sentences = 문장을 찾을 수 없습니다!
+# Variables:
+#   $batchId (String) - A unique ID identifying the submission of sentences - sentences uploaded together all have the same batch ID
+sc-my-submission = 제출: { $batchId }
+# Variables:
+#   $source (String) - Associated source the user filled out when uploading the sentence
+sc-my-source = 출처:  { $source }
+sc-my-delete = 선택한 문장 삭제
+sc-my-deleting = 선택한 문장 삭제 중…
+sc-my-err-failed-delete = 선택한 문장을 삭제하지 못했습니다... 다시 시도해 주세요!
 
 ## REJECTED
 
+sc-rejected-title = 거부된 문장
+sc-rejected-loading = 거부된 문장 로드 중…
+sc-rejected-err-fetching = 거부된 문장을 가져오는 동안 오류가 발생했습니다. 다시 시도해 주세요.
+sc-rejected-none-found = 거부된 문장을 찾을 수 없습니다!
 
 ## STATS
 
+sc-stats-title = 통계
+sc-stats-updating = 업데이트 중…
+sc-stats-error = 통계를 가져올 수 없습니다. 나중에 다시 시도 해주십시오.
+# Variables:
+#   $sentenceCount (Number) - Total number of sentences uploaded through Sentence Collector
+#   $languageCount (Number) - Total number of languages these sentences represent
+sc-stats-summary = Common Voice Sentence Collector는 { $languageCount }개 언어로 된 { $sentenceCount }개 문장을 수집했습니다!
 
 ## ADD
 
+sc-submit-err-select-lang = 언어를 선택하세요.
+sc-submit-err-add-sentences = 문장을 추가해주세요.
+sc-submit-err-add-source = 출처를 추가해주세요.
+sc-submit-err-confirm-pd = 이 문장이 공개 도메인인지 확인하십시오.
+sc-submit-prompt =
+    .message = 문장이 제출되지 않았습니다. 나가시겠습니까?
+sc-submit-title = 문장 추가
+sc-submit-select-language =
+    .labelText = 언어 선택
+sc-submit-add-sentences = <wikipediaLink>공개 도메인</wikipediaLink> 문장 추가
+sc-submit-ph-one-per-line =
+    .placeholder = 한 줄에 한 문장
+sc-submit-from-where = 이 <wikipediaLink>공개 도메인</wikipediaLink> 문장은 어디에서 왔습니까?
+sc-submit-ph-read-how-to =
+    .placeholder = 기여하는 방법이 확실하지 않은 경우 방법을 읽어보세요.
+sc-submit-confirm = 나는 이 문장이 <wikipediaLink>공개 도메인</wikipediaLink>임을 확인하고 이를 업로드할 권한이 있습니다.
+sc-submit-button =
+    .submitText = 제출
+sc-submit-filtered = 요구 사항 실패로 인해 필터링된 문장(수정버전을 새 문장으로 제출하세요):
+sc-submit-guidelines = <howToLink>가이드라인</howToLink>을 확인하세요.
 
 ## ADD LANGUAGE
 
+sc-add-lang-could-not-add = 언어를 추가할 수 없습니다.
+sc-add-lang-sec-label = 기여하고 싶은 언어 추가
+sc-add-lang-sec-button = 언어 추가
+sc-add-err-unexpected = 서버에서 예기치 않은 응답이 반환되었습니다.
+# Variables:
+#   $duplicates (Number) - Number of sentences which got rejected because they are duplicates
+sc-add-result =
+    { $duplicates ->
+        [0] 제출된 문장. { $duplicates } 문장이 중복으로 거부되었습니다.
+       *[other] 제출된 문장. { $duplicates } 문장이 중복으로 거부되었습니다.
+    }
+# Variables:
+#   $sentences (Number) - Number of sentences which failed to be saved to the database - could be several different reasons
+sc-add-err-failed =
+    { $sentences ->
+        [0] 실패한 문장 없음
+       *[other] { $sentences } 문장 실패
+    }
+sc-add-err-submission = 제출 오류
+sc-add-lang-process-notice = 귀하의 언어가 여기에 나열되지 않은 경우 <languageProcessLink>이 프로세스</languageProcessLink>를 통해 요청할 수 있습니다.
 
 ## ADD SENTENCES CONFIRMATION
 
+sc-confirm-are-you-sure =
+    .message = 문장이 제출되지 않았습니다. 나가시겠습니까?
+sc-confirm-sentences-title = 새 문장 확인
+# Variables:
+#   $countOfSentences (Number) - Number of sentences the user has filled in the submission form
+sc-confirm-sentences-found =
+    { $countOfSentences ->
+        [0] 발견된 문장이 없습니다.
+       *[other] { $countOfSentences }개의 문장을 찾았습니다.
+    }
+# Variables:
+#   $countOfInvalidated (Number) - Number of sentences the user rejected in the review form before submission
+sc-confirm-rejected-by-you = { $countOfInvalidated } 개가 귀하에 의해 거부되었습니다.
+sc-confirm-already-reviewed =
+    { $countOfReviewed ->
+        [0] 검토한 문장이 아직 없습니다.
+       *[other] { $countOfReviewed }개의 문장이 이미 검토되었습니다. 수고하셨습니다.
+    }
+# Variables:
+#   $readyCount (Number) - Number of sentences ready to be uploaded
+sc-confirm-ready =
+    { $readyCount ->
+        [0] 제출할 문장이 없습니다.
+       *[other] { $readyCount }개의 문장을 제출할 준비가 되었습니다!
+    }
+# Variables:
+#   $countOfUnreviewed (Number) - Number of sentences unreviewed before the upload
+sc-confirm-unreviewed = { $countOfUnreviewed } 문장이 검토되지 않았습니다. 원하는 경우 제출하기 전에 지금 문장을 검토할 수도 있습니다.
+sc-confirm-button-text = 확인
+sc-confirm-uploading = 문장을 업로드 중입니다. 추가된 문장 수에 따라 몇 분이 소요될 수 있습니다. 이 웹사이트를 닫지 마십시오.
 
 ## LANGUAGE INFO
 
+sc-lang-info-title-total = 전체
+sc-lang-info-title-personal = 개인
+# Variables:
+#   $totalSentences (Number) - Number of sentences uploaded in total for this language
+sc-lang-info-total =
+    { $totalSentences ->
+        [0] 문장이 없습니다.
+       *[other] { $totalSentences }개의 총 문장이 있습니다.
+    }
+# Variables:
+#   $totalInReview (Number) - Number of sentences currently in the review state for this language
+sc-lang-info-in-review =
+    { $totalInReview ->
+        [0] 검토 중인 문장이 없습니다.
+       *[other] { $totalInReview } 문장을 검토 중입니다.
+    }
+# Variables:
+#   $unreviewedSentencesByYou (Number) - Number of sentences the user can still review
+sc-lang-info-left-for-you =
+    { $unreviewedSentencesByYou ->
+        [0] 검토할 문장이 없습니다.
+       *[other] 검토할 문장이 { $unreviewedSentencesByYou }개 남았습니다.
+    }
+sc-lang-info-review-now = <reviewLink>지금 검토하세요!</reviewLink>
+sc-lang-info-add-more = <addLink>지금 더 많은 문장을 추가하세요!</addLink>
+# Variables:
+#   $validatedSentences (Number) - Number of sentences which have been approved for this language
+sc-lang-info-validated =
+    { $validatedSentences ->
+        [0] 검증된 문장이 없습니다.
+       *[other] 검증된 문장 { $validatedSentences }개가 있습니다.
+    }
+# Variables:
+#   $rejectedSentences (Number) - Number of sentences which have been rejected for this language
+sc-lang-info-rejected =
+    { $rejectedSentences ->
+        [0] 거부된 문장이 없습니다.
+       *[other] { $rejectedSentences }개의 문장이 거부되었습니다.
+    }
 
 ## LOGIN
 
+sc-login-err-failed = 로그인 실패
+sc-login-err-try-again = 다시 시도해 주십시오.
 
 ## PROFILE
 
+# Variables:
+#   $username (String) - eMail address of the logged in user
+sc-profile-title = 프로필: { $username }
+sc-personal-err-lang-not-found = 언어를 제거할 수 없음: 언어를 찾을 수 없음
+sc-personal-err-remove = 언어를 제거할 수 없습니다.
+sc-personal-your-languages = 귀하의 언어:
+sc-personal-remove-button = 삭제
+# Variables:
+#   $sentences (Number) - Number of sentences that were added by the currently logged in user for this language
+sc-personal-added-by-you = { $sentences }개 내가 추가함
+sc-personal-not-added = 아직 언어를 추가하지 않았습니다.
 
 ## REVIEW CRITERIA
 
+sc-criteria-modal = ⓘ 검토 기준
+sc-criteria-title = 검토 기준
+sc-criteria-make-sure = 문장이 다음 기준을 충족하는지 확인하십시오:
+sc-criteria-item-1 = 문장의 철자가 정확해야 합니다.
+sc-criteria-item-2 = 문장은 문법적으로 정확해야 합니다.
+sc-criteria-item-3 = 문장은 말할 수 있어야 합니다.
+sc-criteria-item-4 = 문장이 기준을 충족하면 &quot;승인&quot; 버튼을 클릭합니다.
+sc-criteria-item-5-2 = 문장이 위의 기준에 맞지 않으면 좌측의 &quot;거부&quot;버튼을 클릭하십시오. 문장이 확실하지 않은 경우 건너뛰고 다음 문장으로 넘어갈 수도 있습니다.
+sc-criteria-item-6 = 검토할 문장이 부족하면 더 많은 문장을 수집할 수 있도록 도와주세요!
 
 ## REVIEW
 
+sc-review-lang-not-selected = 언어를 선택하지 않았습니다. 언어를 선택하려면 <profileLink>프로필</profileLink>로 이동하십시오.
+sc-review-title = 문장 검토
+sc-review-loading = 문장 로드 중…
+sc-review-select-language = 문장을 검토할 언어를 선택하세요.
+sc-review-no-sentences = 검토할 문장이 없습니다. <addLink>지금 더 많은 문장을 추가하세요!</addLink>
+sc-review-form-prompt =
+    .message = 검토된 문장이 제출되지 않았습니까?
+sc-review-form-usage = 문장을 승인하려면 오른쪽으로 스와이프하세요. 거부하려면 왼쪽으로 스와이프하세요. 건너뛰려면 위로 스와이프하세요. <strong>리뷰를 제출하는 것을 잊지 마세요!</strong>
+# Variables:
+#   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
+sc-review-form-source = 출처: { $sentenceSource }
+sc-review-form-button-reject = 거부
+sc-review-form-button-skip = 건너뛰기
+sc-review-form-button-approve = 승인하기
+# Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
+sc-review-form-button-approve-shortcut = Y
+# Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
+sc-review-form-button-reject-shortcut = N
+# Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
+sc-review-form-button-skip-shortcut = S
+sc-review-form-keyboard-usage-custom = 또한 키보드 단축키를 사용할 수도 있습니다: 승인 { sc-review-form-button-approve-shortcut }, 거부 { sc-review-form-button-reject-shortcut }, 건너뛰기 { sc-review-form-button-skip-shortcut }
+sc-review-form-button-submit =
+    .submitText = 검토 완료
+# Variables:
+#   $sentences (Number) - Number of sentences the user has reviewed in this session
+sc-review-form-reviewed-message =
+    { $sentences ->
+        [0] 검토한 문장이 없습니다.
+       *[other] { $sentences } 문장을 검토했습니다. 감사합니다!
+    }
+sc-review-form-review-failure = 검토를 저장할 수 없습니다. 나중에 다시 시도 해주십시오.
+sc-review-link = 검토
 
 ## SETTINGS
 
+sc-settings-title = 설정
+sc-settings-ui-language = 인터페이스 언어
+sc-settings-reset-skipped = 건너뛴 문장 재설정
+sc-settings-skipped-decription = 이전에 검토중인 문장을 건너뛰었습니다. 건너뛴 문장을 재설정하면 건너뛴 모든 문장이 다시 표시됩니다. 이것은 언어와 무관합니다.
+sc-settings-show-all-button = 건너뛴 모든 문장을 다시 표시
+sc-settings-failed = 설정을 변경할 수 없습니다. 다시 시도해 주세요.
+# VALIDATION
+sc-validation-number-of-words = 문장은 1~14(포함) 단어를 포함해야 합니다.
+sc-validation-no-numbers = 문장에는 숫자가 포함되어서는 안 됩니다.
+sc-validation-no-symbols = 문장에는 기호가 포함되어서는 안 됩니다.
+sc-validation-no-abbreviations = 문장에는 약어가 포함되어서는 안 됩니다.
 
 # [/SentenceCollector]
 
+localization-select =
+    .label = 언어/현지화 선택

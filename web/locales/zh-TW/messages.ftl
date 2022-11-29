@@ -40,10 +40,12 @@ ba = 巴什噶爾語
 bas = 巴薩語
 be = 白俄羅斯語
 bg = 保加利亞語
+bm = 班巴拉語
 bn = 孟加拉語
 br = 布里多尼語
 bs = 波士尼亞語
 bxr = 布里亞特語
+byv = 梅敦巴語
 ca = 加泰隆語
 cak = 喀克奇可語
 ckb = 中庫德語
@@ -53,9 +55,11 @@ cs = 捷克語
 cv = 楚瓦什語
 cy = 威爾斯語
 da = 丹麥語
+dag = 達巴尼語
 de = 德語
 dsb = 下索布語
 dv = 馬爾地夫語
+dyu = 迪烏拉語
 el = 希臘語
 en = 英語
 eo = 世界語（Esperanto）
@@ -75,6 +79,7 @@ gom = 果亞康卡尼語
 ha = 豪薩語
 he = 希伯來語
 hi = 印地語
+hil = 希利蓋農語
 hr = 克羅埃西亞語
 hsb = 上索布語
 ht = 海地語
@@ -89,6 +94,7 @@ is = 冰島語
 it = 義大利語
 izh = 伊喬里亞語
 ja = 日語
+jbo = 邏輯語
 ka = 喬治亞語
 kaa = 卡拉卡爾帕克語
 kab = 卡拜爾語
@@ -97,6 +103,7 @@ ki = 吉庫尤語
 kk = 哈薩克語
 km = 高棉語
 kmr = 庫曼吉庫德語
+kn = 康納達語
 knn = 康卡尼語（天城文）
 ko = 韓語
 kpv = 科米-齊良語
@@ -105,6 +112,8 @@ ky = 吉爾吉斯語
 lb = 盧森堡語
 lg = 盧干達語
 lij = 利古里亞語
+ln = 林格拉語
+lo = 寮語
 lt = 立陶宛語
 lv = 拉脫維亞語
 mai = 邁蒂利語
@@ -124,12 +133,16 @@ my = 緬甸語
 myv = 厄茲亞語
 nan-tw = 台語
 nb-NO = 挪威語（Bokmål）
+nd = 北恩德貝勒語（辛巴威）
 ne-NP = 尼泊爾語
 nia = 尼亞斯語
 nl = 荷蘭語
 nn-NO = 挪威語（Nynorsk）
+nr = 南恩德貝勒語（南非）
+nso = 北索托語
 nyn = 尼安科萊語
 oc = 奧西坦語
+om = 阿方奧羅莫語
 or = 奧里亞語
 pa-IN = 旁遮普語
 pap-AW = 帕皮亞門托語（阿魯巴）
@@ -147,14 +160,18 @@ sah = 薩哈語
 sat = Santali（Ol Chiki 字）
 sc = 薩丁尼亞語
 scn = 西西里語
+sdh = 南庫德語
 shi = 施盧赫語
 si = 僧加羅語
 sk = 斯洛伐克語
 skr = 沙賴基語
 sl = 斯洛維尼亞語
+snk = 索寧克語
 so = 索馬利語
 sq = 阿爾巴尼亞語
 sr = 塞爾維亞語
+ss = 史瓦濟蘭語
+st = 塞索托語
 sv-SE = 瑞典語
 sw = 斯瓦希里語
 syr = 敘利亞語
@@ -166,8 +183,10 @@ ti = 提格利尼亞語
 tig = 提格雷語
 tk = 土庫曼語
 tl = 塔加祿語（菲律賓）
+tn = 札那語
 tok = 道本語
 tr = 土耳其語
+ts = 希宋加語
 tt = 韃靼語
 tw = 特威語 (西非)
 ty = 大溪地語
@@ -177,15 +196,20 @@ ug = 維吾爾語
 uk = 烏克蘭語
 ur = 烏爾都語
 uz = 烏茲別克語
+ve = 齊溫達語
 vec = 威尼斯語
 vi = 越南語
 vot = 沃特語
+xh = 科薩語（南非）
 yi = 意第緒語
 yo = 約魯巴語 (奈及利亞)
 yue = 粵語
+zgh = 塔馬塞特語
 zh-CN = 華語（中國）
 zh-HK = 廣東話（香港）
 zh-TW = 華語（台灣）
+zu = 祖魯語（南非）
+zza = 扎扎語
 
 # [/]
 
@@ -197,6 +221,7 @@ speak-now = 現在說話
 datasets = 資料集
 languages = 語言
 about = 關於我們
+partner = 成為夥伴
 profile = 帳號資料
 help = 說明
 contact = 聯絡我們
@@ -312,7 +337,6 @@ shortcut-discard-ongoing-recording-label = 捨棄目前錄音
 shortcut-submit = 返回
 shortcut-submit-label = 送出片段
 request-language-text = 沒在 Common Voice 看到您的語言嗎？
-request-language-text-learn = 了解如何在此要求！
 request-language-button = 要求新語言
 
 ## ProjectStatus
@@ -434,7 +458,7 @@ faq-why-important-a =
 faq-how-get-q = 我要如何取得 Common Voice 資料？
 faq-how-get-a = 可到 <datasetLink>Common Voice 資料集頁面</datasetLink>下載，本資料集使用 <licenseLink>CC0</licenseLink> 授權。您也可以在該頁面中下載幾套其他的資料集。
 faq-when-release2-q = 你們什麼時候會發布其他語言的 Common Voice 資料？
-faq-when-release2-a = 多語言版本的 Common Voice 資料集，目前正交由社群進行清理與打包。若您想要幫助我們加入新語言到 Common Voice，請使用 <sentenceCollectorLink>語句收集工具</sentenceCollectorLink>來加入語句到資料集，並到 <pontoonLink>Mozilla Pontoon</pontoonLink> 來將網站翻譯成該語言。每種語言有超過 5000 句語句審核完成後，就會加入 Common Voice。
+faq-when-release2-a = 多語言版本的 Common Voice 資料集，目前正交由社群進行清理與打包。若您想要幫助我們加入新語言到 Common Voice，請使用 <sentenceCollectorLink>Sentence Collector</sentenceCollectorLink> 來加入語句到資料集，並到 <pontoonLink>Mozilla Pontoon</pontoonLink> 來將網站翻譯成該語言。每種語言有超過 5000 句語句審核完成後，就會加入 Common Voice。
 faq-why-mission-q = 為什麼 Common Voice 也是 Mozilla 使命的一部分？
 faq-why-mission-a = Mozilla 致力於保持網路開放，讓任何人都可使用。為達到這個目標，我們要透過像 Common Voice 這樣的專案來協助網路上的創作者來得到威力。隨著採用語音技術的程式激增，我們相信這些程式應該平等地服務所有使用者。這代表打造與測試語音科技時，需要滿足更多語言、腔調、人口的需求。Common Voice 將會成為一套能夠幫助 Mozilla 與全球開發者們的公眾資源，並已用於專案開發當中。
 faq-what-cv-and-deepspeech-q = Common Voice 跟 Deep Speech 有何不同？
@@ -448,7 +472,7 @@ faq-why-different-speakers-a =
     大多數的語音資料庫的語音來源偏重於某群特定人口，造成結果偏向於<articleLink>男性與中產階級</articleLink>。而在訓練資料集中，各種不同的口音與方言會與被邊緣化的人群相關連起來。許多機器也很難理解女性的聲音。
     這就是為什麼我們的語音資料庫應該海納百川，收集各種語音！
 faq-why-my-lang-q = 為什麼還沒有我的語言？
-faq-why-my-lang-new-a = Mozilla 不特別偏好哪種語言，然而 Common Voice 是一個純社群發起的專案，需要<multilangLink>幾個步驟才能新增語言</multilangLink>並開始收集語音片段。首先需要完成翻譯 Common Voice 網站，這樣社群成員才能用自己的語言進行貢獻。次之，我們需要大量的無版權語句，讓人們可以大聲說出來。當兩個條件都滿足後 Common Voice 即可「上線」，讓人們開始錄音，並驗證其他人所錄下的片段。若您想要協助準備讓新語言上限，歡迎到<sentenceCollectorLink>語句收集工具</sentenceCollectorLink>開始幫忙。
+faq-why-my-lang-a = Common Voice 是一個群眾外包的平台，當中的各種語言完全是由志工所維護。我們很希望您加入！<languageRequestLink>在此詢問如何新增語言。</languageRequestLink>
 faq-what-quality-q = 錄音品質要到什麼等級，才能用於資料集中？
 faq-what-quality-a = 我們希望 Common Voice 資料集能夠反映出語音轉文字引擎就算在野外也會聽到的聲音，所以我們希望能夠收集各種環境與錄音品質下的片段。除了各種說話者以外，若資料集中包含各種語音品質的片段，可讓語音轉文字引擎處理各種現實環境下的狀況，例如背景中有人在講話，或是有車輛的噪音。只要您的片段能讓人足夠聽得懂，即可收錄至資料集中。
 faq-why-10k-hours-q = 為什麼每個語言有一萬小時的音檔驗證目標？
@@ -518,12 +542,6 @@ about-dataset-new = Common Voice 資料集
 about-dataset-new-text = Common Voice 資料集包含數十萬筆語音樣本，可幫助開發者打造語音識別工具。
 about-clip-graveyard = 片段回收桶
 about-clip-graveyard-text = 回收桶中包含無法進入 Common Voice 資料集的語音片段。與資料集一樣，回收桶內容也有提供下載。
-about-partners = 夥伴
-about-become-a-partner = 成為夥伴
-about-partnership =
-    Common Voice 是一套由眾人鼎力相助的專案。我們依賴由夥伴與貢獻者所組成的社群，來打有史以來最大的開放原始碼語音資料集。
-    
-    特別感謝下列人員與組織單位，協助本專案:
 about-get-involved = 參與我們
 about-get-involved-text-2 =
     想要幫忙讓 Common Voice 變得更棒嗎？
@@ -553,9 +571,13 @@ about-playbook-what-is-language-content-3 = 某些語言有許多不同的文法
 
 about-playbook-how-add-language = 要如何加入語言？
 about-playbook-how-add-language-content-1 = 首先請先確認您的語言是否<languageLink>已經存在</languageLink>。若還不存在的話，請<strong>將網站翻譯成您的語言，並且收集語句</strong>。
-about-playbook-how-add-language-content-2 = <translateVideo>使用</translateVideo> Pontoon</pontoonLink> <strong>來翻譯網站</strong>。Pontoon 上有許多語言，若沒有您想參與貢獻的語言，可以<pontoonRequestLink>要求加入新語言</pontoonRequestLink>。然後再到 <repoLink>GitHub</repoLink> 上面請 Common Voice 加入此專案。若需更多資訊請點擊了解<localizationFragment>網站翻譯流程</localizationFragment>。
-about-playbook-how-add-language-content-3 = <scVideo>使用</scVideo><scLink>Sentence Collector</scLink><strong>來收集句子</strong>。
-about-playbook-how-add-language-content-4 = 您可以在此<scLinkAdd>加入少量</scLinkAdd>的句子，或是透過 Github 發需求來<bulkImportDocsLink>批次大量匯入</bulkImportDocsLink>。請務必記得所有句子都必須使用 <licenseLink>CC0（或公眾領域）</licenseLink>授權條款，或是由您自行撰寫。若需更多資訊，請閱讀<scFragment>收集句子</scFragment>段落。
+about-playbook-how-add-language-translating-heading = 翻譯網站
+about-playbook-how-add-language-translating-content-1 = <translateVideoLink>觀看 Pontoon 的使用教學。</translateVideoLink>
+about-playbook-how-add-language-translating-content-2 = 我們使用 Mozilla 一套叫作 <pontoonLink>Pontoon</pontoonLink> 的工具進行介面翻譯。Pontoon 已經支援許多語言，但若沒有您使用的語言，可以<pontoonRequestLink>請求新增</pontoonRequestLink>。新增語言後，請<githubRepoLink>到 GitHub 請求加入新語言</githubRepoLink>，Common Voice 方可支援。<localizationFragment>若需更多有關網站介面翻譯的資訊，請點此處</localizationFragment>。
+about-playbook-how-add-language-collecting-sentences-heading = 收集句子
+about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>觀看我們的 Sentence Collector 使用指南</sentenceCollectorVideo>。
+about-playbook-how-add-language-collecting-sentences-content-2 = 您可以<sentenceCollectorLinkAdd>加入少量的句子</sentenceCollectorLinkAdd>，或是直接<bulkImportDocsLink>透過 Github 大批匯入</bulkImportDocsLink>。請記住所有的句子都必須是 <licenseLink>CC0 或公開領域</licenseLink>作品，或是您自己撰寫的作品。
+about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>了解收集語句的更多資訊</sentenceCollectorFragment>。
 
 ## How does localization work
 
@@ -619,10 +641,6 @@ about-playbook-how-project-governance-content-4 = 社群參與決策。
 about-playbook-how-project-governance-content-5 = 價值與重視。
 about-playbook-how-project-governance-content-6 = 相互問責。
 about-playbook-how-project-governance-content-7 = <governanceLink>更加了解我們如何治理本專案</governanceLink>
-mycroft-title = Mycroft Ai
-mycroft-subtitle = 人工智慧
-mycroft-description = Mycroft 是全球第一套的開放原始碼語音助理，不論是在電腦、車子、Raspberry Pi 或是任何地方都能運作。
-mycroft-secondary-description = 這是一套可以自由混搭、延伸、改進的開放原始碼軟體。Mycroft 可以用於科學專案，或企業軟體應用等各種情境中。
 
 ## Glossary
 
@@ -690,6 +708,10 @@ datasets-positioning =
     
     您可於此頁面找到其他的開放原始碼語音資料集。隨 Common Voice 持續成長，我們也會於此處張貼更新資訊。
 language = 語言
+download-dataset-header = 下載資料集
+download-delta-explainer = 我們有些改變。差異片段僅包含從上次發佈以來最新版的片段。<deltaLink>了解此項目的更多資訊</deltaLink>。
+download-dataset-tag = 請選擇您想要下載的語言與資料集版本。
+download-dataset-access = 尋找舊版資料集嗎？請來信到 <emailLink>{ $email }</emailLink>
 # File size in gigabytes
 size = 大小
 validated-hr-total = 總驗證時數
@@ -803,7 +825,8 @@ language-search-input =
 language-speakers = 使用者數
 localized = 已翻譯
 sentences = 句子
-total-hours = 已驗證時數
+language-validation-hours = 小時
+language-validation-progress = 驗證進度
 
 ## Contribution
 
@@ -1438,7 +1461,6 @@ sc-review-link = 審核
 
 sc-settings-title = 設定
 sc-settings-ui-language = 介面語言
-sc-settings-language-translated-warning = 此語言的頁面可能尚未完全翻譯完成。歡迎到 <pontoonLinkLink>Pontoon</pontoonLinkLink> 協助我們補充翻譯。
 sc-settings-reset-skipped = 重設略過的句子
 sc-settings-skipped-decription = 您先前在審核時跳過了一些句子。重設略過的句子將再次顯示所有這些被跳過的句子。此設定對所有語言都有效。
 sc-settings-show-all-button = 再次顯示略過的句子
@@ -1453,3 +1475,21 @@ sc-validation-no-abbreviations = 句子不應包含縮寫
 
 localization-select =
     .label = 選擇語言 / 語系
+# PARTNERSHIPS PAGE
+partnerships-header = 合作夥伴
+partnerships-header-text = 實現 Common Voice 需要付出很多努力！我們沒有辦法自己完成，想要一起加入嗎？我們很希望聽到您的意見。
+partnerships-get-in-touch = 聯繫我們
+partnerships-become-a-partner = 成為 Common Voice 的夥伴
+partnerships-community-header = 社群、創意與公民社會
+partnerships-community-description = 社群是 Common Voice 的心臟。成員來自世界各地，是語言行動家、科學家也是藝術家。您可以在<about>關於</about>頁面與<community>社群企劃書</community>頁面了解如何參與我們。若您有興趣與我們發展更深入的組織合作，<emailFragment>歡迎聯絡我們</emailFragment>。
+partnerships-foundations-header = 基金會
+partnerships-foundations-description = 我們特別著重於東非，與基金會、社團組織與社群夥伴一同讓網際網路變得更健康。了解我們的<programmaticWork>程式化工作</programmaticWork>的更多資訊。
+partnerships-governments-header = 政府機關
+partnerships-governments-description = 我們很高興能支援公部門參與科技、創新與語言權利。若您打算進行大型的專案或活動，<emailFragment>請務必聯絡我們</emailFragment>。
+partnerships-academia-header = 大學、學術單位與研究人員
+partnerships-academia-description = 我們的核心就是開放式的創新。若需合作研究、收集資料或進行採訪，<emailFragment>請聯絡我們</emailFragment>。
+partnerships-small-business-header = 中小企業，包含科技與 AI 創業公司
+partnerships-small-business-description = 我們持續想了解資料消費者們的需求與使用情境，不論是在資料收集平台上合作，或是提供資料健康度的資訊，<emailFragment>都歡迎您來信</emailFragment>。
+partnerships-corporates-header = 大型企業與平台業者
+partnerships-corporates-description = 若您想了解有關如何合作使用資料集，想要共同投資此平台的未來發展，或是尋找合作機會，<emailFragment>請聯絡我們</emailFragment>。
+partnerships-our-partners = 我們的夥伴

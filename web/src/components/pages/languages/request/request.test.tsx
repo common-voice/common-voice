@@ -10,6 +10,11 @@ expect.extend(toHaveNoViolations);
 
 import LangugagesRequestFormPage from './request';
 
+jest.mock('../../../../logger');
+
+// mock window.scrollTo
+global.scrollTo = jest.fn();
+
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 const mockUseHistoryPush = jest.fn(() => null as any);
 jest.mock('react-router-dom', () => ({
@@ -23,15 +28,6 @@ const mockSendLanguageRequest = jest.fn(() => Promise.resolve());
 jest.mock('../../../../hooks/store-hooks', () => ({
   useAPI: () => ({
     sendLanguageRequest: mockSendLanguageRequest,
-  }),
-}));
-
-jest.mock('react-google-recaptcha-v3', () => ({
-  GoogleReCaptchaProvider: ({ children }: { children: React.ReactNode }) => (
-    <div>{children}</div>
-  ),
-  useGoogleReCaptcha: () => ({
-    executeRecaptcha: () => 'mock-google-recaptcha-response',
   }),
 }));
 
@@ -88,7 +84,6 @@ describe('LanguagesRequestFormPage', () => {
       email: 'billgates@example.com',
       languageInfo: 'The language is JavaScript lol!',
       languageLocale: 'en-US',
-      reCAPTCHAClientResponse: 'mock-google-recaptcha-response',
     });
 
     // redirects to success page

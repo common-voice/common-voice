@@ -56,6 +56,7 @@ da = Dańšćina
 de = Nimšćina
 dsb = Dolnoserbšćina
 dv = Dhivehi
+dyu = Dioula
 el = Grichišćina
 en = Engelšćina
 eo = Esperanto
@@ -75,6 +76,7 @@ gom = Goaska konkanišćina
 ha = Hausa
 he = Hebrejšćina
 hi = Hindišćina
+hil = Hiligajnon
 hr = Chorwatšćina
 hsb = Górnoserbšćina
 ht = Haitiańšćina
@@ -89,6 +91,7 @@ is = Islandšćina
 it = Italšćina
 izh = Ižoršćina
 ja = Japańšćina
+jbo = Loźbańšćina
 ka = Georgišćina
 kaa = Karakalpakšćina
 kab = Kabylšćina
@@ -97,6 +100,7 @@ ki = Kikujušćina
 kk = Kazachšćina
 km = Khmer
 kmr = Kurmanźiska kurdišćina
+kn = Kannada
 knn = Konkanišćina (dewanagari)
 ko = Korejańšćina
 kpv = Komi-syrjeńšćina
@@ -105,6 +109,8 @@ ky = Kirgišćina
 lb = Luksemburgšćina
 lg = Luganda
 lij = Ligurišćina
+ln = Lingala
+lo = Laošćina, laotišćina
 lt = Litawšćina
 lv = Letišćina
 mai = Majtilišćina
@@ -124,12 +130,16 @@ my = Burmašćina
 myv = Erzya
 nan-tw = Taiwańšćina (Minnan)
 nb-NO = Norwegski Bokmål
+nd = IsiNdebele (pódpołnocny)
 ne-NP = Nepalšćina
 nia = Niašćina
 nl = Nižozemšćina
 nn-NO = Norwegski Nynorsk
+nr = IsiNdebele (pódpołdnjowy)
+nso = Pódpołnocna sothošćina
 nyn = Nkorešćina
 oc = Okcitańšćina
+om = Afaan Ormoo
 or = Odiašćina
 pa-IN = Pundžabšćina
 pap-AW = Papiamento (Aruba)
@@ -147,14 +157,18 @@ sah = Sachašćina
 sat = Santališćina (Ol Chiki)
 sc = Sardinišćina
 scn = Sicilianišćina
+sdh = Pódpołdnjowa kurdišćina
 shi = Tašelhitšćina
 si = Singalezišćina
 sk = Słowakšćina
 skr = Saraiki
 sl = Słowjeńšćina
+snk = Soninke
 so = Somališćina
 sq = Albanšćina
 sr = Serbišćina
+ss = Siswatišćina, Siswati
+st = Sesothošćina
 sv-SE = Šwedšćina
 sw = Swahilišćina, Swahili
 syr = Syrišćina
@@ -166,8 +180,10 @@ ti = Tigrinja
 tig = Tigre
 tk = Turkmeńšćina
 tl = Tagalog
+tn = Setswana
 tok = Toki Pona
 tr = Turkojšćina
+ts = Tsongašćina
 tt = Tataršćina
 tw = Twi
 ty = Tahitišćina
@@ -177,15 +193,19 @@ ug = Ujguršćina
 uk = Ukrainšćina
 ur = Urdu
 uz = Uzbekišćina
+ve = Venda
 vec = Wenecianišćina
 vi = Vietnamšćina
 vot = Wotšćina
+xh = Xhosa
 yi = Jiddišćina
 yo = Joruba
 yue = Kantonšćina
+zgh = Tamazight
 zh-CN = Chinšćina (China)
 zh-HK = Chinšćina (Hong Kong)
 zh-TW = Chinšćina (Taiwan)
+zu = Zulušćina, Zulu
 
 # [/]
 
@@ -319,7 +339,6 @@ shortcut-discard-ongoing-recording-label = Běžne nagraśe zachyśiś
 shortcut-submit = Zapódaśe
 shortcut-submit-label = Klipy wótpósłaś
 request-language-text = Waša rěc hyšći njejo na Common Voice?
-request-language-text-learn = Zgóńśo, kak móžośo to how póžedaś!
 request-language-button = Rěc pominaś
 
 ## ProjectStatus
@@ -455,7 +474,9 @@ faq-why-different-speakers-a =
     Nejwěcej głosowych datowych bankow se z nadreprezentaciju wěstych demografijow treněrujo, pśez kótarež se <articleLink>muskece a žeńscyne wobźělniki a wobźělniki srjejźneje klase</articleLink> preferěruju. Akcenty a dialekty, kótarež su zwětšego pódreprezentěrowane w datowych sajźbach su typiski zwězane ze kupkami luźi, kótarež su južo na kšomu śišćane. Wjele mašinow ma južo śěže, žeńscyne głose rozměś.
     Togodla comy wjelerakosć w swójej głosowej datowej bance!
 faq-why-my-lang-q = Cogodla mója rěc hyšći njedajo?
-faq-why-my-lang-new-a = Mozilla se wěstu rěc njewusněkujo a wěste rěcy njepreferěrujo. Město togo jo Common Voice iniciatiwa, kótaraž se dopołnje wót zgromaźeństwa doprědka póra, ale su trěbne <multilangLink>někotare kšace, aby se nowa rěc pśidała</multilangLink> a aby se gromaźenje rěcnych darow zachopiło. Nejpjerwjej musy se websedło Common Voice pśełožowaś, aby cłonki zgromaźeństwa pśistup k nazgónjenjam sobustatkujucych w swójej rěcy měli. Ako pśiduce trjebamy wjeliku zběrku sadow bźez awtorskopšawniskego šćita, kótrež luźe mógu głosnje pśedcytaś. Gaž stej toś tej pominani docynjonej, sr rěv na Common Voice "startujo", aby luźe mógli swój głos nagraś a dary drugich wobkšuśiś. Jolic cośo pomagaś, nowu rěc startowaś, woglědajśo se naš <sentenceCollectorLink>rěd za gromaźenje sadow</sentenceCollectorLink>, aby zachopił.
+faq-why-my-lang-a =
+    Common Voice jo crowdsourcingowa platforma, a rěcy su se pśidali wót dobrowólnikow.
+    My by rady pśidali wašu rěc! <languageRequestLink>Wó pśidawanje wašeje rěcy pšosyś.</languageRequestLink>
 faq-what-quality-q = Kótara awdiokwalita jo trěbna, aby se głosowy klip w datowej sajźbje wužywał?
 faq-what-quality-a = Comy, až datowa sajźba Common Voice awdiokwalitu wótbłyšćujo, kótaruž mašina powědanja do teksta w lichej pśiroźe słyša, pytamy pótakem za wjelerakosću. Mimo wjelerakego zgromaźeństwa powědarjow, datowa sajźba ze wšakeju awdiokwalitu mašinu powědanja do teksta wuzamóžnijo, z rozdźělnymi situacijami z napšawdnego žywjenja wobchadaś, wót rozgronow w slězynje do  awtowego zogola. Tak dłujko ako waš głosowy klip jo k rozměśu, dejał dobry dosć za datowu sajźbu byś.
 faq-why-10k-hours-q = Cogodla jo 10.000 pśeglědanych góźinow na rěc cel za awdionagraśe?
@@ -522,12 +543,6 @@ about-dataset-new = Datowa sajźba Common Voice
 about-dataset-new-text = Datowa sajźba Common Voice stotysacy głosowych pśikładow wopśimujo, kótarež wuwijarjam pomagaju, rědy za spóznawanje głosow napóraś.
 about-clip-graveyard = Klipowy kjarchob
 about-clip-graveyard-text = Klipowy kjarchob z głosowych klipow wobstoj, kótarymž njejo se raźiło, se do datoweje sajźby Common Voice dostaś. Ako datowa sajźba jo klipowy kjarchob za ześěgnjenje k dispoziciji.
-about-partners = Partnarje
-about-become-a-partner = Buźćo partnaŕ
-about-partnership =
-    Common Voice jo projekt zgromaźeństwa a wótwisujomy wót našogo zgromaźeństwa z partnarjow a sobustatkujucych, aby nejwětšu datowu sajźbu wótwórjonego žrědła wuwijał.
-    
-    Comy se slědujucym luźam a organizacijam za jich pomoc na projekśe źěkowaś:
 about-get-involved = Cyńśo sobu
 about-get-involved-text-2 =
     Cośo pomagaś, Common Voice pólěpšyś?
@@ -554,8 +569,15 @@ about-playbook-what-is-language-content-3 = Někotare rěcy maju enormne rozdź�
 
 about-playbook-how-add-language = Kak mógu rěc pśidaś?
 about-playbook-how-add-language-content-1 = Pśeglědajśo nejpjerwjej, lěc waša rěc <languageLink>južo eksistěrujo</languageLink>. Jolic nic, musyśo <strong>sedło pśełožowaś a sady gromaźiś</strong>.
-about-playbook-how-add-language-content-2 = <strong>Aby sedło pśełožował</strong> – <translateVideo>konfigurěrujśo</translateVideo> na <pontoonLink>Pontoon</pontoonLink>. Pontoon ma wjele rěcow, ale jolic waša rěc tam njejo, móžośo <pontoonRequestLink>póžedanje na nju stajiś</pontoonRequestLink>. Pšosćo pón <repoLink>na GitHub</repoLink>, aby se projekt Common Voice za swóju rěc k dispoziciji stajił. Glejśo dalšne informacije wó <localizationFragment>pśełožowanju sedła</localizationFragment>.
-about-playbook-how-add-language-content-3 = <strong>Aby sady gromaźił</strong> - <scVideo>konfigurěrujśo</scVideo> <scLink>Sentence Collector</scLink>.
+about-playbook-how-add-language-translating-heading = Sedło pśełožowaś
+about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Cytajśo naš wjednik, kak móžośo Pontoon wužywaś.</translateVideoLink>
+about-playbook-how-add-language-collecting-sentences-heading = Sady gromaźiś
+about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>Cytajśo naš wjednik wó wužywanju gromaźak sadow</sentenceCollectorVideo>.
+about-playbook-how-add-language-collecting-sentences-content-2 =
+    Móžośo <sentenceCollectorLinkAdd>mało sadow</sentenceCollectorLinkAdd> pśidaś
+    abo <bulkImportDocsLink>gromady z pomocu Githubs importěrowaś</bulkImportDocsLink>.
+    Njezabywajśo, až sady muse <licenseLink>CC0 (abo za wše wužytne) byś</licenseLink>, móžośo pak teke swójske spisaś.
+about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>Glejśo wěcej wó gromaźenju sadow</sentenceCollectorFragment>.
 
 ## How does localization work
 
@@ -602,12 +624,6 @@ about-playbook-how-project-governance = Kak se wó projektach rozsuźuju?
 about-playbook-how-project-governance-content-3 = Priwatnosć, wěstota a transparenca.
 about-playbook-how-project-governance-content-5 = Gódnota a pśipóznaśe.
 about-playbook-how-project-governance-content-6 = Mjazsobna rozpšawniska winowatosć.
-mycroft-title = Mycroft Ai
-mycroft-subtitle = Kumštna inteligenca
-mycroft-description =
-    Mycroft jo prědny asistent wótwórjonego žrědła swěta.
-    Mycroft wšuźi běžy - na desktopowem licadle, w auśe abo na Raspberry Pi.
-mycroft-secondary-description = To jo softwara wótwórjonego žrědła, kótaraž dajo se dermotnje znowego měšaś, rozšyriś a pólěpšyś. Mycroft dajo se za wšykno wužywaś, wót wědomnostnego projekta do pśedewześoweje softwary.
 
 ## Glossary
 
@@ -753,6 +769,11 @@ other-language = Druga rěc
 
 ## Request Language Pages
 
+request-language-heading = Wó nowu rěc pšosyś
+request-language-explanation-1 =
+    Pśeglědajśo, lěc waša rěc jo pódana na
+    <languagesPageLink>boku rěcow Common Voice</languagesPageLink>.
+    Jolic nic, wupołniśo toś ten formular a <strong>buźomy wam wužytnu mejlku, kótaraž wujasnjujo, kak móžośo swóju rěc zarědowaś</strong>.
 request-language-form-email =
     .label = Waša e-mailowa adresa
 request-language-form-info =
@@ -783,7 +804,8 @@ language-search-input =
 language-speakers = Powědarje
 localized = Pśełožony
 sentences = Sady
-total-hours = Góźiny dogromady
+language-validation-hours = Góźiny
+language-validation-progress = Pśeglědowański póstup
 
 ## Contribution
 

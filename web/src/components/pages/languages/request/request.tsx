@@ -1,11 +1,7 @@
 import * as React from 'react';
-import { useState, useCallback } from 'react';
+import { useState } from 'react';
 import { useHistory } from 'react-router-dom';
 import { Localized } from '@fluent/react';
-import {
-  GoogleReCaptchaProvider,
-  useGoogleReCaptcha,
-} from 'react-google-recaptcha-v3';
 
 import { useToLocaleRoute } from '../../../locale-helpers';
 import { useAPI } from '../../../../hooks/store-hooks';
@@ -21,6 +17,9 @@ import PageHeading from '../../../ui/page-heading';
 import ErrorPage from '../../error-page/error-page';
 import PageTextContent from '../../../ui/page-text-content';
 import Page from '../../../ui/page';
+import ClientLogger from '../../../../logger';
+
+const logger = new ClientLogger({ name: 'LanguagesRequestFormPage' });
 
 const EMAIL_ADDRESS = 'commonvoice@mozilla.com';
 
@@ -30,29 +29,12 @@ const LanguagesRequestFormPage = () => {
   const api = useAPI();
   const toLocaleRoute = useToLocaleRoute();
   const history = useHistory();
-  const { executeRecaptcha } = useGoogleReCaptcha();
 
   const [isSendingRequest, setIsSendingRequest] = useState(false);
   const [hasGenericError, setHasGenericError] = useState(false);
   const [emailValue, setEmailValue] = useState('');
   const [languageInfoValue, setLanguageInfoValue] = useState('');
   const [privacyAgreedChecked, setPrivacyAgreedChecked] = useState(false);
-  const [reCAPTCHAMessage, setReCAPTCHAMessage] = useState('');
-
-  const handleReCaptchaVerify = useCallback(async () => {
-    if (!executeRecaptcha) {
-      console.error('reCAPTCHA not yet available');
-      return null;
-    }
-
-    const token = await executeRecaptcha('yourAction');
-
-    if (!token) {
-      return null;
-    }
-
-    return token;
-  }, [executeRecaptcha]);
 
   const handleEmailInputChange = (
     event: React.ChangeEvent<HTMLInputElement>
@@ -88,12 +70,6 @@ const LanguagesRequestFormPage = () => {
       return;
     }
 
-    const reCAPTCHAClientResponse = await handleReCaptchaVerify();
-    if (!reCAPTCHAClientResponse) {
-      setReCAPTCHAMessage('request-language-google-recaptcha-required');
-      return;
-    }
-
     if (!isValidSubmissionData()) {
       return;
     }
@@ -104,19 +80,13 @@ const LanguagesRequestFormPage = () => {
         email: emailValue.trim(),
         languageInfo: languageInfoValue.trim(),
         languageLocale: navigator?.language,
-        reCAPTCHAClientResponse,
       });
 
       // redirect to languages/success path if email sent correctly
       history.push(toLocaleRoute(URLS.LANGUAGE_REQUEST_SUCCESS));
     } catch (e) {
-      console.error(e);
+      logger.error(e);
       setIsSendingRequest(false);
-
-      if (e.message.includes('reCAPTCHA')) {
-        setReCAPTCHAMessage('request-language-google-recaptcha-error');
-        return;
-      }
 
       setHasGenericError(true);
       window.scrollTo({ top: 0 });
@@ -226,12 +196,6 @@ const LanguagesRequestFormPage = () => {
               required
             />
 
-            {reCAPTCHAMessage && (
-              <p className="languages-request-page__content__form__google-recaptcha">
-                <Localized id={reCAPTCHAMessage} />
-              </p>
-            )}
-
             <Localized id="submit-form-action">
               <Button type="submit" rounded isBig disabled={isSendingRequest} />
             </Localized>
@@ -243,6 +207,7 @@ const LanguagesRequestFormPage = () => {
             src={require('./images/mars-request.svg')}
             alt=""
             loading="lazy"
+            role="presentation"
           />
         </div>
       </div>
@@ -250,13 +215,4 @@ const LanguagesRequestFormPage = () => {
   );
 };
 
-// eslint-disable-next-line @typescript-eslint/no-explicit-any
-const WrappedLanguagesRequestFormPage = (props: any) => (
-  <GoogleReCaptchaProvider
-    reCaptchaKey={process.env.GOOGLE_RECAPTCHA_SITE_KEY}
-    language={navigator?.language}>
-    <LanguagesRequestFormPage {...props} />
-  </GoogleReCaptchaProvider>
-);
-
-export default WrappedLanguagesRequestFormPage;
+export default LanguagesRequestFormPage;

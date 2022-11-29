@@ -10,7 +10,6 @@ import { earnBonus, hasEarnedBonus } from './model/achievements';
 import * as Basket from './basket';
 import * as Sentry from '@sentry/node';
 import Bucket from './bucket';
-import { ClientParameterError, ServerError } from './utility';
 import Awards from './model/awards';
 import { checkGoalsAfterContribution } from './model/goals';
 import { ChallengeToken, challengeTokens } from 'common';
@@ -64,7 +63,6 @@ export default class Clip {
     router.post('/:clipId/votes', this.saveClipVote);
     router.post('*', this.saveClip);
 
-    router.get('/validated_hours', this.serveValidatedHoursCount);
     router.get('/daily_count', this.serveDailyCount);
     router.get('/stats', this.serveClipsStats);
     router.get('/leaderboard', this.serveClipLeaderboard);
@@ -133,7 +131,7 @@ export default class Clip {
         headers,
         response,
         422,
-        `clip not found: ${id}`,
+        `clip not found`,
         ERRORS.CLIP_NOT_FOUND,
         'vote'
       );
@@ -202,7 +200,7 @@ export default class Clip {
         headers,
         response,
         422,
-        `sentence not found: ${sentenceId}`,
+        `sentence not found`,
         ERRORS.SENTENCE_NOT_FOUND,
         'clip'
       );
@@ -257,7 +255,7 @@ export default class Clip {
             headers,
             response,
             500,
-            `${error} for ${metadata}`,
+            `${error}`,
             `ffmpeg ${error}`,
             'clip'
           );
@@ -332,10 +330,6 @@ export default class Clip {
       count
     );
     response.json(clips);
-  };
-
-  serveValidatedHoursCount = async (request: Request, response: Response) => {
-    response.json(await this.model.getValidatedHours());
   };
 
   serveDailyCount = async (request: Request, response: Response) => {

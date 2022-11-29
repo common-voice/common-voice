@@ -56,6 +56,7 @@ da = Dinamarquês
 de = Alemão
 dsb = Baixo Sorábio
 dv = Divehi
+dyu = Dioula
 el = Grego
 en = Inglês
 eo = Esperanto
@@ -75,6 +76,7 @@ gom = Konkani de Goa
 ha = Hauçá
 he = Hebraico
 hi = Hindi
+hil = Hiligaynon
 hr = Croata
 hsb = Alto Sorábio
 ht = Crioulo haitiano
@@ -89,6 +91,7 @@ is = Islandês
 it = Italiano
 izh = Ijoriano
 ja = Japonês
+jbo = Lojban
 ka = Georgiano
 kaa = Caracalpaque
 kab = Kabyle
@@ -97,6 +100,7 @@ ki = Kikuyu
 kk = Cazaque
 km = Khmer
 kmr = Curdo do norte
+kn = Canarês
 knn = Konkani (Devanagari)
 ko = Coreano
 kpv = Komi-Zyrian
@@ -105,6 +109,8 @@ ky = Quirguiz
 lb = Luxemburguês
 lg = Luganda
 lij = Liguriano
+ln = Lingala
+lo = Lao
 lt = Lituano
 lv = Letão
 mai = Maitili
@@ -124,12 +130,16 @@ my = Birmanês
 myv = Erzya
 nan-tw = Taiwanês (Minnan)
 nb-NO = Norueguês (Bokmål)
+nd = IsiNdebele (Norete)
 ne-NP = Nepalês
 nia = Nias
 nl = Holandês
 nn-NO = Novo norueguês
+nr = IsiNdebele (Sul)
+nso = Soto do norte
 nyn = Ancolé
 oc = Occitânico
+om = Afaan Ormoo
 or = Odia
 pa-IN = Punjabi
 pap-AW = Papiamento (Aruba)
@@ -147,14 +157,18 @@ sah = Sakha
 sat = Santali (Ol Chiki)
 sc = Sardo
 scn = Siciliano
+sdh = Curdo do Sul
 shi = Tachelhit
 si = Cingalês
 sk = Eslovaco
 skr = Saraiki
 sl = Esloveno
+snk = Soninquê
 so = Somali
 sq = Albanês
 sr = Sérvio
+ss = Suáti
+st = Sesoto
 sv-SE = Sueco
 sw = Suahíli
 syr = Siríaco
@@ -166,8 +180,10 @@ ti = Tigrínia
 tig = Tigré
 tk = Turcomano
 tl = Filipino
+tn = Tswana
 tok = Toki Pona
 tr = Turco
+ts = Xitsonga
 tt = Tártaro
 tw = Twi
 ty = Taitiano
@@ -177,15 +193,19 @@ ug = Uigur
 uk = Ucraniano
 ur = Urdu
 uz = Usbeque
+ve = Tshivenda
 vec = Veneziano
 vi = Vietnamita
 vot = Vótico
+xh = Xhosa
 yi = Iídiche
 yo = Iorubá
 yue = Cantonês
+zgh = Tamazigue
 zh-CN = Chinês (China)
 zh-HK = Chinês (Hong Kong)
 zh-TW = Chinês (Taiwan)
+zu = Zulu
 
 # [/]
 
@@ -313,7 +333,6 @@ shortcut-discard-ongoing-recording-label = Descartar gravação em andamento
 shortcut-submit = Return
 shortcut-submit-label = Enviar clipes
 request-language-text = Seu idioma ainda não está disponível no Common Voice?
-request-language-text-learn = Veja como fazer a solicitação aqui!
 request-language-button = Solicite um idioma
 
 ## ProjectStatus
@@ -450,7 +469,9 @@ faq-why-different-speakers-a =
     A maioria dos bancos de dados de voz é treinado com uma representação excessiva de certos grupos demográficos, o que resulta em um viés <articleLink>masculino e de classe média</articleLink>. Sotaques e dialetos que tendem a ser sub-representados em conjuntos de dados de treinamento são tipicamente associados a grupos de pessoas que já estão marginalizadas. Muitas máquinas também têm dificuldades para entender vozes femininas.
     É por isso que, no nosso banco de dados de voz, queremos variedade!
 faq-why-my-lang-q = Por que meu idioma ainda não foi incluído?
-faq-why-my-lang-new-a = A Mozilla não escolhe ou favorece nenhum idioma sobre outro. Pelo contrário, o Common Voice é uma iniciativa puramente orientada à comunidade, mas são necessárias <multilangLink>diversas etapas para adicionar um novo idioma</multilangLink> e começar a coletar doações de voz. Primeiro, o site do Common Voice precisa estar traduzido para que membros da comunidade possam acessar a experiência de colaborador em seus próprios idiomas. Depois, precisamos de uma grande coleção de frases livres de direitos autorais para que as pessoas leiam em voz alta. Uma vez que ambos os requisitos estejam satisfeitos, um idioma é “lançado” no Common Voice para as pessoas começarem a gravar suas vozes e validar doações de outros. Se você quer ajudar a lançar um novo idioma, siga para nossa <sentenceCollectorLink>ferramenta de coleta de frases</sentenceCollectorLink> para começar.
+faq-why-my-lang-a =
+    Common Voice é uma plataforma de terceirização coletiva (crowdsourcing), os idiomas foram todos adicionados por voluntários.
+    Adoraríamos que você adicionasse seu idioma! <languageRequestLink>Pergunte sobre como adicionar seu idioma.</languageRequestLink>
 faq-what-quality-q = Qual o nível de qualidade de áudio é necessário para um clipe de voz ser usado no conjunto de dados?
 faq-what-quality-a = Queremos que o conjunto de dados do Common Voice reflita a qualidade de áudio que um mecanismo de conversão de fala para texto ouvirá no mundo real, por isso, estamos procurando variedade. Além de uma comunidade diversificada de falantes, um conjunto de dados com qualidade de áudio variada ensinará o mecanismo de conversão de fala para texto a lidar com várias situações do mundo real, desde conversas ao fundo até ruído de carro. Contanto que o seu clipe de voz seja inteligível, ele deve ser bom o suficiente para o conjunto de dados.
 faq-why-10k-hours-q = Por que 10.000 horas validadas é a meta por idioma de captura de áudio?
@@ -520,12 +541,6 @@ about-dataset-new = Conjunto de dados do Common Voice
 about-dataset-new-text = O conjunto de dados do Common Voice contém centenas de milhares de amostras de voz que ajudam os desenvolvedores a construir ferramentas de reconhecimento de voz.
 about-clip-graveyard = Cemitério de clipes
 about-clip-graveyard-text = O cemitério de clipes consiste de clipes de voz que não entraram no conjunto de dados do Common Voice. Assim como o conjunto de dados, o cemitério de clipes está disponível para ser baixado.
-about-partners = Parceiros
-about-become-a-partner = Torne-se um parceiro
-about-partnership =
-    O Common Voice é um projeto colaborativo e estamos dependendo de nossa comunidade de parceiros e colaboradores para construir o maior conjunto de dados de voz de código aberto já feito.
-    
-    Gostaríamos de agradecer as seguintes pessoas e organizações pela ajuda neste projeto:
 about-get-involved = Envolva-se
 about-get-involved-text-2 =
     Quer ajudar a tornar o Common Voice ainda melhor?
@@ -555,9 +570,20 @@ about-playbook-what-is-language-content-3 = Alguns idiomas têm uma enorme varia
 
 about-playbook-how-add-language = Como adicionar um idioma?
 about-playbook-how-add-language-content-1 = Primeiro, verifique se seu idioma <languageLink>já existe</languageLink>. Se não existir, você precisa <strong>traduzir o site e coletar frases</strong>.
-about-playbook-how-add-language-content-2 = <strong>Para traduzir o site</strong>, <translateVideo>cadastre-se</translateVideo>  no <pontoonLink>Pontoon</pontoonLink>. O Pontoon tem muitos idiomas, mas se não tiver o seu, você pode <pontoonRequestLink>solicitar</pontoonRequestLink>. Depois peça <repoLink>via GitHub</repoLink> para disponibilizar o projeto Common Voice no idioma. Saiba mais sobre <localizationFragment>tradução do site</localizationFragment>.
-about-playbook-how-add-language-content-3 = <strong>Para coletar frases</strong>, <scVideo>cadastre-se</scVideo> no <scLink>Coletor de frases</scLink>.
-about-playbook-how-add-language-content-4 = Você pode <scLinkAdd>adicionar pequenas quantidades</scLinkAdd> de frases aqui, ou pode fazer <bulkImportDocsLink>importação em massa</bulkImportDocsLink> por meio de uma requisição do Github. Lembre que as frases precisam ser <licenseLink>CC0 (ou de domínio público)</licenseLink>, ou você pode escrever suas próprias. Saiba mais sobre <scFragment>coleta de frases</scFragment>.
+about-playbook-how-add-language-translating-heading = Tradução do site
+about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Assista ao nosso guia sobre como usar o Pontoon.</translateVideoLink>
+about-playbook-how-add-language-translating-content-2 =
+    Usamos uma ferramenta da Mozilla chamada <pontoonLink>Pontoon</pontoonLink> para traduções. O Pontoon tem muitos idiomas,
+    mas se não tiver o seu, você pode <pontoonRequestLink>solicitar que seu idioma seja adicionado</pontoonRequestLink>.
+    Em seguida, para disponibilizar o idioma no projeto Common Voice,
+    <githubRepoLink>solicite o novo idioma no GitHub</githubRepoLink>. <localizationFragment>Veja mais sobre tradução do site</localizationFragment>.
+about-playbook-how-add-language-collecting-sentences-heading = Coleta de frases
+about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>Assista ao nosso guia sobre como usar o coletor de frases</sentenceCollectorVideo>.
+about-playbook-how-add-language-collecting-sentences-content-2 =
+    Você pode <sentenceCollectorLinkAdd>adicionar pequenas quantidades de frases</sentenceCollectorLinkAdd>,
+    ou pode fazer <bulkImportDocsLink>importação em massa usando o Github</bulkImportDocsLink>.
+    Lembre que as frases precisam ter <licenseLink>licença CC0 (ou ser de domínio público)</licenseLink>, ou você pode escrever suas próprias.
+about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>Veja mais sobre coleta de frases</sentenceCollectorFragment>.
 
 ## How does localization work
 
@@ -621,12 +647,6 @@ about-playbook-how-project-governance-content-4 = Participação e tomada de dec
 about-playbook-how-project-governance-content-5 = Valorização e reconhecimento.
 about-playbook-how-project-governance-content-6 = Responsabilidade mútua.
 about-playbook-how-project-governance-content-7 = <governanceLink>Mais informações sobre nossos critérios de gerenciamento do projeto</governanceLink>
-mycroft-title = Mycroft Ai
-mycroft-subtitle = Inteligência artificial
-mycroft-description =
-    Mycroft é o primeiro assistente mundial de código aberto.
-    Mycroft funciona em qualquer lugar - em um computador de mesa, dentro de um automóvel, ou em um Raspberry Pi.
-mycroft-secondary-description = Este é um software de código aberto que pode ser livremente remixado, estendido e aprimorado. O Mycroft pode ser usado em qualquer coisa, desde um projeto científico até uma aplicação de software empresarial.
 
 ## Glossary
 
@@ -694,6 +714,10 @@ datasets-positioning =
     
     Considere esta página como um centro de referência para outros conjuntos de dados de voz de código aberto e, à medida que o Common Voice continua a crescer, o local de lançamento de nossas atualizações.
 language = Idioma
+download-dataset-header = Baixar o conjunto de dados
+download-delta-explainer = Fizemos algumas alterações. Os Segmentos Delta contêm apenas os clipes mais recentes desde o último lançamento. <deltaLink>Leia mais sobre este trabalho</deltaLink>.
+download-dataset-tag = Selecione um conjunto de dados de idioma e escolha a versão que quer baixar.
+download-dataset-access = Procurando versões anteriores do conjunto de dados? Mande um email para <emailLink> { $email } </emailLink>
 # File size in gigabytes
 size = Tamanho
 validated-hr-total = Total de horas validadas
@@ -772,13 +796,41 @@ other-language = Outro idioma
 
 ## Request Language Pages
 
+request-language-heading = Pergunte sobre um novo idioma
+request-language-explanation-1 =
+    Verifique se seu idioma está listado na
+    <languagesPageLink>página de idiomas do Common Voice</languagesPageLink>.
+    Se não estiver, preencha este formulário e <strong>enviaremos um email útil
+    explicando como ter seu idioma configurado</strong>.
+request-language-explanation-2 =
+    Também <strong>informaremos nossos gerentes de comunidade
+    que você está interessado</strong>, para que possam lhe dar qualquer
+    suporte ou informações adicionais que você precisar.
 request-language-form-email =
     .label = Seu endereço de email
 request-language-form-info =
     .label = Informações sobre o idioma
+request-language-form-info-explanation = Adicione o máximo de informações que puder sobre o idioma. Pode incluir:
 request-language-form-info-explanation-list-1 = Nomes do seu idioma
+request-language-form-info-explanation-list-2 = <isoCodeLink>Códigos ISO</isoCodeLink> se souber
+request-language-form-info-explanation-list-3 = Links para sites que podem nos ajudar a entender o idioma
 request-language-google-recaptcha-required = O reCAPTCHA é necessário se você quiser continuar
 request-language-google-recaptcha-error = Algo deu errado com o reCAPTCHA. Tente novamente.
+# Success page
+request-language-success-heading = Obrigado! Você enviou uma nova consulta de idioma
+request-language-success-list-1 =
+    Você deve receber um email em breve explicando
+    as etapas para ter seu idioma adicionado ao Common Voice
+request-language-success-list-2 =
+    Nossos gerentes de comunidade entrarão em contato com você para oferecer
+    suporte extra, ou te informar se já existir uma comunidade trabalhando em seu idioma
+request-language-success-list-3 =
+    Se você não tiver notícias nossas dentro de alguns dias,
+    mande uma mensagem para <emailLink>{ $email }</emailLink>
+    e retornaremos o contrato!
+request-language-error =
+    Podemos não ter recebido esta solicitação. Envie um email diretamente
+    para <emailLink>{ $email }</emailLink> e entraremos em contato com você!
 
 ## Languages Overview
 
@@ -795,7 +847,8 @@ language-search-input =
 language-speakers = Falantes
 localized = Traduzido
 sentences = Frases
-total-hours = Total de horas
+language-validation-hours = Horas
+language-validation-progress = Progresso da validação
 
 ## Contribution
 
@@ -1032,7 +1085,7 @@ download-requests = Pedidos anteriores de download
 download-requests-info = Quando você solicita suas gravações, nós as reunimos em um ou vários arquivos ZIP. Veja seus pedidos anteriores:
 download-request-button = Baixar
 download-request-title = { $created }
-download-request-description = { $clipCount } clipes de voz. O tamanho total do compactado é { $size }. Expira em { $expires }.
+download-request-description = { $clipCount } clipes de voz. O tamanho total do arquivo compactado é { $size }. Expira em { $expires }.
 download-request-archive-single = Arquivo ZIP único contendo
 download-request-archive-multiple = Separar em { $archiveCount } arquivos ZIP contendo
 download-request-assembling-description = Seus arquivos estão sendo preparados. Verifique novamente mais tarde.

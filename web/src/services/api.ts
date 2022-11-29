@@ -1,8 +1,15 @@
-import { AllGoals, CustomGoalParams } from 'common';
-import { LanguageStats } from 'common';
-import { UserClient } from 'common';
-import { WeeklyChallenge, Challenge, TeamChallenge } from 'common';
-import { Sentence, Clip } from 'common';
+import {
+  AllGoals,
+  CustomGoalParams,
+  LanguageStatistics,
+  Language,
+  UserClient,
+  WeeklyChallenge,
+  Challenge,
+  TeamChallenge,
+  Sentence,
+  Clip,
+} from 'common';
 import { Locale } from '../stores/locale';
 import { User } from '../stores/user';
 import { USER_KEY } from '../stores/root';
@@ -141,10 +148,6 @@ export default class API {
     });
   }
 
-  fetchValidatedHours(): Promise<number> {
-    return this.fetch(this.getClipPath() + '/validated_hours');
-  }
-
   fetchDailyClipsCount(): Promise<number> {
     return this.fetch(this.getClipPath() + '/daily_count');
   }
@@ -176,8 +179,12 @@ export default class API {
     });
   }
 
-  async fetchLanguageStats(): Promise<LanguageStats> {
-    return this.fetch(`${API_PATH}/language_stats`);
+  async fetchAllLanguages(): Promise<Language[]> {
+    return this.fetch(`${API_PATH}/languages`);
+  }
+
+  async fetchLanguageStats(): Promise<LanguageStatistics[]> {
+    return this.fetch(`${API_PATH}/stats/languages`);
   }
 
   fetchDocument(
@@ -479,16 +486,26 @@ export default class API {
     return this.fetch(`${API_PATH}/language/variants${lang ? '/' + lang : ''}`);
   }
 
+  getDatasets(releaseType: string) {
+    const query = releaseType ? `?releaseType=${releaseType}` : '';
+    return this.fetch(`${API_PATH}/datasets${query ? query : ''}`);
+  }
+
+  getLanguagesWithDatasets() {
+    return this.fetch(`${API_PATH}/datasets/languages`);
+  }
+
+  getLanguageDatasetStats(languageCode: string) {
+    return this.fetch(`${API_PATH}/datasets/languages/${languageCode}`);
+  }
   async sendLanguageRequest({
     email,
     languageInfo,
     languageLocale,
-    reCAPTCHAClientResponse,
   }: {
     email: string;
     languageInfo: string;
     languageLocale: string;
-    reCAPTCHAClientResponse: string;
   }) {
     return this.fetch(`${API_PATH}/language/request`, {
       method: 'POST',
@@ -496,7 +513,6 @@ export default class API {
         email,
         languageInfo,
         languageLocale,
-        reCAPTCHAClientResponse,
       },
     });
   }

@@ -312,7 +312,6 @@ shortcut-discard-ongoing-recording-label = Forigi okazantan registradon
 shortcut-submit = Enigi
 shortcut-submit-label = Sendi registraĵojn
 request-language-text = Ĉu vi ne vidas vian lingvon en Common Voice?
-request-language-text-learn = Jen pli da informo pri tiu peto!
 request-language-button = Peti lingvon
 
 ## ProjectStatus
@@ -445,7 +444,6 @@ faq-why-different-speakers-a =
     La plejmulto da voĉaj datumbazoj estas konstruitaj kun superreprezento de kelkaj demografiaj grupoj, kiu favoras  <articleLink>virojn kaj mezan klason</articleLink>. Normale subreprezentitaj akĉentoj kaj dialektoj en trejnaj datumaroj estas kutime asociitaj kun homgrupoj, kiuj jam estas eksterigitaj. Cetere, multaj maŝinoj penas kompeni virinajn voĉojn.
     Tial en nia voĉa datumbazo ni volas diversecon!
 faq-why-my-lang-q = Kial mia lingvo ne estas ankoraŭ inkluzivita?
-faq-why-my-lang-new-a = Mozilla ne elektas aŭ favoras iun ajn lingvon super alia. Male, Common Voice estas nur pelata de komunumoj, sed bezonatas <multilangLink>pluraj paŝoj por aldoni novan lingvon</ multilangLink> kaj komenci kolekti voĉregistrojn. Unue, la retejo de Common devas esti tradukita, por permesi al la membroj de la komunumoj sperti la kontribuadon en siaj propraj lingvoj. Poste, ni bezonas grandan kolekton de frazoj liberaj je kopirajto, kiuj estos laŭtlegitaj.  Kiam tiuj du kondiĉoj estos plenumitaj, la lingvoj estos "lanĉitaj" en Common Voice por ke homoj komencu registri siajn voĉojn kaj validigi la voĉregistrojn de aliaj. Se vi volas helpi lanĉi novan lingvon, iru al nia <sentenceCollectorLink>iloj por kolekti frazojn</ phraseCollectorLink> por komenci.
 faq-what-quality-q = Kiu nivelo de sonkvalito estas postulata por la voĉaregistroj en la datumaro?
 faq-what-quality-a = Ni volas ke la datumaro de Common Voice reflektu la sonkvaliton de la ĉiutaga vivo, do ni serĉas diversecon. Krom diversa komunumo de parolantoj, datumaro kun varianta sonkvalito permesos al voĉrekoniloj trakti diversajn realajn situaciojn, ĉu fona parolado ĉu aŭta bruo. Se via voĉregistro kompreneblas, ĝi devus esti sufiĉe bona por la datumaro.
 faq-why-10k-hours-q = Kial la celo estas 10.000 validigitaj horoj de sono?
@@ -488,6 +486,9 @@ how-does-it-work-text = Ni kalkulas je kolektiva patropreno por konstrui malferm
 about-language-req-subtitle = Iu petas aldonon de lingvo.
 about-localization-title = Traduko de retejo
 about-localization-subtitle = La retejo estas tradukita en tiun lingvon.
+about-sentence-collection-title = Kolekto de frazoj
+about-sentence-collection-subtitle = Frazoj estas kolektitaj por homoj, kiuj legos ilin laŭte.
+about-new-lang-title = Lanĉo de nova lingvo
 about-dataset-release-title = Eldono de datumaro
 about-dataset-release-subtitle = Ni eldonas la datumaron ĉiun trian monaton.
 about-subscribe-text = Ĉu vi volas resti en kontakto kun Common Voice?
@@ -507,12 +508,6 @@ about-dataset-new = Datumaro de Common Voice
 about-dataset-new-text = La datumaro de Common Voice enhavas centojn da miloj da voĉregistroj, kiuj helpas programistojn konstrui parolrekonajn ilojn.
 about-clip-graveyard = Tombejo de voĉregistroj
 about-clip-graveyard-text = La tombejo de voĉregistroj konsistas el voĉregistroj kiuj ne sukcesis eniri la datumaron de Common Voice. Same kiel la datumaro, la tombejo de voĉregistroj estas elŝutebla.
-about-partners = Asociitoj
-about-become-a-partner = Iĝi asociito
-about-partnership =
-    Common Voice estas kunlabora projekto, kaj ni dependas de nian komunumo de partoprenantoj kaj kontribuantoj por konstrui la plej grandan malfermitkodan datumaron de voĉoj.
-    
-    Ni ŝatus danki la jenaj personojn kaj organizojn pro ilia helpo kun la projekto:
 about-get-involved = Partopreni
 about-get-involved-text-2 =
     Ĉu vi volas igi Common Voice eĉ pli bona?
@@ -560,10 +555,6 @@ about-playbook-how-add-language = Kiel aldoni lingvon?
 
 about-playbook-how-project-governance-content-6 = Reciproka respondeco.
 about-playbook-how-project-governance-content-7 = <governanceLink>Pli da informo pri nia administro</governanceLink>
-mycroft-title = Mycroft Ai
-mycroft-subtitle = Artefarita intelekto
-mycroft-description = Mycroft estas la unua malfermitkoda asistanto en la mondo. Mycroft funkcias ĉie: en komputilo, en aŭto aŭ en Raspberry Pi.
-mycroft-secondary-description = Tiu ĉi estas malfermitkoda programo kiu povas estis libere rearanĝita, etendita kaj plibonigita. Mycroft povas esti uzata en io ajn, ĉu sciencia projekto ĉu entreprena sistemo.
 
 ## Glossary
 

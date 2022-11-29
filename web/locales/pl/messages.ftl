@@ -40,10 +40,12 @@ ba = baszkirski
 bas = basaa
 be = białoruski
 bg = bułgarski
+bm = bambara
 bn = bengalski
 br = bretoński
 bs = bośniacki
 bxr = buriacki
+byv = medumba
 ca = kataloński
 cak = kakczikel
 ckb = sorani
@@ -53,9 +55,11 @@ cs = czeski
 cv = czuwaski
 cy = walijski
 da = duński
+dag = dagbani
 de = niemiecki
 dsb = dolnołużycki
 dv = divehi
+dyu = diula
 el = grecki
 en = angielski
 eo = esperanto
@@ -75,6 +79,7 @@ gom = goańskie konkani
 ha = hausa
 he = hebrajski
 hi = hindi
+hil = hiligaynon
 hr = chorwacki
 hsb = górnołużycki
 ht = haitański
@@ -89,6 +94,7 @@ is = islandzki
 it = włoski
 izh = iżorski
 ja = japoński
+jbo = lojban
 ka = gruziński
 kaa = karakałpacki
 kab = kabylski
@@ -97,6 +103,7 @@ ki = kikuju
 kk = kazachski
 km = khmerski
 kmr = kurmandżi
+kn = kannada
 knn = konkani (dewanagari)
 ko = koreański
 kpv = komi (zyriański)
@@ -105,6 +112,8 @@ ky = kirgiski
 lb = luksemburski
 lg = luganda
 lij = liguryjski
+ln = lingala
+lo = laotański
 lt = litewski
 lv = łotewski
 mai = maithili
@@ -124,12 +133,16 @@ my = birmański
 myv = erzja
 nan-tw = tajwański (minnański)
 nb-NO = norweski (bokmål)
+nd = ndebele północny
 ne-NP = nepalski
 nia = nias
 nl = holenderski
 nn-NO = norweski (nynorsk)
+nr = ndebele południowy
+nso = północny sotho
 nyn = nyankole
 oc = oksytański
+om = oromo
 or = orija
 pa-IN = pendżabski
 pap-AW = papiamento (Aruba)
@@ -147,14 +160,18 @@ sah = jakucki
 sat = santali (ol ciki)
 sc = sardyński
 scn = sycylijski
+sdh = południowokurdyjski
 shi = shilha
 si = syngaleski
 sk = słowacki
 skr = saraiki
 sl = słoweński
+snk = soninke
 so = somalijski
 sq = albański
 sr = serbski
+ss = suazi
+st = sotho
 sv-SE = szwedzki
 sw = suahili
 syr = syryjski
@@ -166,8 +183,10 @@ ti = tigrinia
 tig = tigre
 tk = turkmeński
 tl = tagalski
+tn = tswana
 tok = toki pona
 tr = turecki
+ts = tsonga
 tt = tatarski
 tw = twi
 ty = tahitański
@@ -177,15 +196,20 @@ ug = ujgurski
 uk = ukraiński
 ur = urdu
 uz = uzbecki
+ve = venda
 vec = wenecki
 vi = wietnamski
 vot = wotycki
+xh = xhosa
 yi = jidysz
 yo = joruba
 yue = kantoński
+zgh = tamazight
 zh-CN = chiński (Chiny)
 zh-HK = chiński (Hongkong)
 zh-TW = chiński (Tajwan)
+zu = zulu
+zza = zazaki
 
 # [/]
 
@@ -197,6 +221,7 @@ speak-now = Mów teraz
 datasets = Zbiory danych
 languages = Języki
 about = O nas
+partner = Współpraca
 profile = Profil
 help = Pomoc
 contact = Kontakt
@@ -316,7 +341,6 @@ shortcut-discard-ongoing-recording-label = Odrzuć trwające nagranie
 shortcut-submit = Enter
 shortcut-submit-label = Wyślij nagrania
 request-language-text = Common Voice nie oferuje jeszcze Twojego języka?
-request-language-text-learn = Dowiedz się, jak go zaproponować tutaj!
 request-language-button = Zaproponuj dodanie języka
 
 ## ProjectStatus
@@ -442,7 +466,6 @@ faq-why-different-speakers-a =
     Większość baz danych mowy uczona jest na podstawie danych z przewagą pewnych danych demograficznych, co prowadzi do stronniczości na rzecz <articleLink>głosów męskich i klasy średniej</articleLink> kosztem innych. Akcenty i dialekty, które są niedostatecznie reprezentowane w zbiorach danych szkoleniowych, są zazwyczaj związane z grupami osób, które już są marginalizowane. Wiele komputerów ma trudności także ze zrozumieniem kobiecych głosów.
     Dlatego w naszej bazie danych głosowych chcemy różnorodności!
 faq-why-my-lang-q = Dlaczego mój język nie jest jeszcze dodany?
-faq-why-my-lang-new-a = Mozilla nie wybiera ani nie preferuje żadnego języka nad innym. Zamiast tego Common Voice jest inicjatywą opartą wyłącznie na społeczności, ale <multilangLink>wymagającą kilku kroków, aby dodać nowy język</multilangLink> i rozpocząć zbieranie nagrań. Po pierwsze, strona internetowa Common Voice musi zostać przetłumaczona, aby członkowie społeczności mogli w pełni uczestniczyć w swoim własnym języku. Następnie potrzebujemy dużego zbioru zdań wolnych od praw autorskich, które uczestnicy będą mogli czytać na głos. Gdy oba te wymagania zostaną spełnione, język jest „uruchamiany” w Common Voice, aby ludzie mogli rozpocząć nagrywanie głosu i zatwierdzanie nagrań innych uczestników. Jeśli chcesz pomóc w uruchomieniu nowego języka, przejdź do naszego <sentenceCollectorLink>narzędzia do zbierania zdań</sentenceCollectorLink>.
 faq-what-quality-q = Jakiej jakości musi być nagranie, aby zostało użyte w zbiorze danych?
 faq-what-quality-a = Chcemy, aby zbiór danych Common Voice odzwierciedlał jakość dźwięku, który mechanizm rozpoznawania mowy usłyszy w rzeczywistym otoczeniu, dlatego szukamy różnorodności. Oprócz zróżnicowanej społeczności użytkowników zbiór danych o różnej jakości dźwięku nauczy mechanizm radzenia sobie w różnych sytuacjach rzeczywistych, od dźwięków tła po szum samochodowy. Dopóki nagranie jest zrozumiałe, powinno być wystarczająco dobre dla zbioru danych.
 faq-why-10k-hours-q = Dlaczego celem dla każdego z języków jest 10 tysięcy sprawdzonych godzin nagrań?
@@ -494,12 +517,6 @@ about-dataset-new = Zbiór danych Common Voice
 about-dataset-new-text = Zbiór danych Common Voice zawiera setki tysięcy próbek głosowych pomagających deweloperom tworzyć narzędzia do rozpoznawania mowy.
 about-clip-graveyard = Cmentarz nagrań
 about-clip-graveyard-text = Cmentarz nagrań składa się z nagrań, które nie trafiły do zbioru Common Voice. Tak jak główny zbiór, cmentarz nagrań jest dostępny do pobrania.
-about-partners = Partnerzy
-about-become-a-partner = Zostań partnerem
-about-partnership =
-    Common Voice to wspólny projekt i budowa największego zbioru danych mowy open source w historii jest zależna od naszej społeczności partnerów i uczestników.
-    
-    Chcielibyśmy podziękować następującym osobom i organizacjom za pomoc przy projekcie:
 about-get-involved = Dołącz do nas
 about-get-involved-text-2 =
     Chcesz pomóc jeszcze bardziej ulepszyć projekt Common Voice?
@@ -538,12 +555,6 @@ about-nav-get-involved = Dołącz do nas
 
 ## How are decisions made
 
-mycroft-title = Mycroft Ai
-mycroft-subtitle = Sztuczna inteligencja
-mycroft-description =
-    Mycroft to pierwszy asystent open source na świecie.
-    Mycroft działa na każdym sprzęcie — na komputerze, w samochodzie czy na Raspberry Pi.
-mycroft-secondary-description = To oprogramowanie open source, które może być dowolnie zmieniane, rozszerzane i ulepszane. Mycroft może być używany we wszystkim od projektu naukowego po aplikację korporacyjną.
 
 ## Glossary
 
@@ -686,6 +697,9 @@ request-language-success-content = Już niedługo udzielimy więcej informacji o
 select-language = Wybierz język…
 other-language = Inny język
 
+## Request Language Pages
+
+
 ## Languages Overview
 
 language-section-in-progress = W trakcie
@@ -701,7 +715,6 @@ language-search-input =
 language-speakers = Osoby mówiące
 localized = Przetłumaczone
 sentences = Zdania
-total-hours = Razem godzin
 
 ## Contribution
 

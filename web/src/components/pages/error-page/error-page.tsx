@@ -18,12 +18,12 @@ import './error-page.css';
 interface Props {
   children?: React.ReactNode;
   errorCode: '404' | '503' | '500';
-  prevPath: string;
+  prevPath?: string;
 }
 
-const ErrorPage = ({ children, errorCode, prevPath = '' }: Props) => {
+const ErrorPage = ({ children, errorCode, prevPath }: Props) => {
   useEffect(() => {
-    trackError(errorCode, prevPath);
+    trackError(errorCode, prevPath || '');
   }, []);
 
   const headingLocalisationId =
@@ -82,7 +82,12 @@ const ErrorPage = ({ children, errorCode, prevPath = '' }: Props) => {
           </PageTextContent>
         </div>
         <div className="error-page__image">
-          <img src={require('./images/mars-sad.svg')} alt="" loading="lazy" />
+          <img
+            src={require('./images/mars-sad.svg')}
+            alt=""
+            loading="lazy"
+            role="presentation"
+          />
         </div>
       </div>
     </Page>

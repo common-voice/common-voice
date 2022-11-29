@@ -56,6 +56,7 @@ da = 丹麦语
 de = 德语
 dsb = 下索布语
 dv = 迪维希语
+dyu = 迪乌拉语
 el = 希腊语
 en = 英语
 eo = 世界语
@@ -124,12 +125,16 @@ my = 缅甸语
 myv = 厄尔兹亚语
 nan-tw = 闽南语（台湾地区）
 nb-NO = 书面挪威语
+nd = 北恩德贝勒语
 ne-NP = 尼泊尔语
 nia = 尼亚斯语
 nl = 荷兰语
 nn-NO = 新挪威语
+nr = 南恩德贝勒语
+nso = 北索托语
 nyn = 尼扬科勒语
 oc = 欧西坦语
+om = 阿方奥罗莫语
 or = 奥里亚语
 pa-IN = 旁遮普语
 pap-AW = 帕皮亚门托语（阿鲁巴）
@@ -155,6 +160,8 @@ sl = 斯洛文尼亚语
 so = 索马里语
 sq = 阿尔巴尼亚语
 sr = 塞尔维亚语
+ss = 斯威士兰语
+st = 南索托语
 sv-SE = 瑞典语
 sw = 斯瓦希里语
 syr = 叙利亚语
@@ -166,8 +173,10 @@ ti = 提格里尼亚语
 tig = 提格雷语
 tk = 土库曼语
 tl = 塔加洛语
+tn = 塞茨瓦纳语
 tok = 道本语
 tr = 土耳其语
+ts = 齐聪加语
 tt = 鞑靼语
 tw = 契维语
 ty = 塔希提语
@@ -177,15 +186,18 @@ ug = 维吾尔语
 uk = 乌克兰语
 ur = 乌尔都语
 uz = 乌兹别克语
+ve = 齐文达语
 vec = 威尼斯语
 vi = 越南语
 vot = 沃提克语
+xh = 科萨语
 yi = 意第绪语
 yo = 约鲁巴语
 yue = 粤语
 zh-CN = 汉语（中国大陆）
 zh-HK = 汉语（香港）
 zh-TW = 汉语（台湾）
+zu = 祖鲁语
 
 # [/]
 
@@ -310,7 +322,6 @@ shortcut-discard-ongoing-recording-label = 丢弃进行中的录音
 shortcut-submit = 返回
 shortcut-submit-label = 提交片段
 request-language-text = 没在 Common Voice 看到您的语言吗？
-request-language-text-learn = 在此处了解如何请求新语言！
 request-language-button = 请求新语言
 
 ## ProjectStatus
@@ -443,7 +454,6 @@ faq-why-different-speakers-a =
     大多数语音数据库的语音来源偏重于某一特定人群，造成结果偏向于<articleLink>男性与中产阶级</articleLink>。而在训练数据集中，代表性不足的口音与方言往往会与被边缘化的人群相关联。许多机器也很难理解女性的声音。
     这就是为何我们的语音数据库应该海纳百川，收集各种语音！
 faq-why-my-lang-q = 为什么还没有我的语言？
-faq-why-my-lang-new-a = Mozilla 不会偏好某一语言，然而 Common Voice 是一个纯社区驱动的项目，需要<multilangLink>几个步骤才能添加新语言</multilangLink>并开始收集语音片段。首先，需要翻译 Common Voice 网站，以便社区成员可以用自己的语言进行贡献。其次，我们需要大量的无版权语句，供人们大声说出来。一旦满足上述两条件， Common Voice 即可“上线”该语言，让人们开始录音，并验证其他人所录制的片段。如果您想帮助上线一种新语言，请前往我们的<sentenceCollectorLink>语句收集工具页</sentenceCollectorLink>以开始。
 faq-what-quality-q = 录音片段的音质要达到什么等级，才可用于数据集中？
 faq-what-quality-a = 我们希望 Common Voice 数据集能够反映出语音转文字引擎就算在野外也会听到的音频质量，所以我们希望能够收集各种环境与录音质量下的片段。除了各种说话者以外，具有不同音频质量的数据集，可让语音转文字引擎更能处理各种真实情况，例如背景中有人在讲话，或是有车辆的噪音。只要您的片段能让人听得懂，即可收录至数据集中。
 faq-why-10k-hours-q = 为什么每种语言均有 10,000 小时的有效音频采集目标？
@@ -509,12 +519,6 @@ about-dataset-new = Common Voice 数据集
 about-dataset-new-text = Common Voice 数据集包含数十万条语音样本，可帮助开发者打造语音识别工具。
 about-clip-graveyard = 片段回收站
 about-clip-graveyard-text = 回收站中包含无法进入 Common Voice 数据集的语音片段。与数据集一样，回收站内容也提供下载。
-about-partners = 合作伙伴
-about-become-a-partner = 成为合作伙伴
-about-partnership =
-    Common Voice 是一个协作项目。我们依靠由合作伙伴与贡献者所组成的社区，来构建有史以来最大的开源语音数据集。
-    
-    我们要感谢以下人员和组织对项目的帮助：
 about-get-involved = 参与进来
 about-get-involved-text-2 =
     想要帮忙使 Common Voice 变得更好吗？
@@ -538,6 +542,9 @@ about-playbook-what-is-language-content-3 = 某些语言在内部有诸多语法
 ## How do I add a language
 
 about-playbook-how-add-language = 如何添加语言？
+about-playbook-how-add-language-translating-heading = 翻译网站
+about-playbook-how-add-language-translating-content-1 = <translateVideoLink>观看 Pontoon 使用指南。</translateVideoLink>
+about-playbook-how-add-language-collecting-sentences-heading = 收集句子
 
 ## How does localization work
 
@@ -585,16 +592,12 @@ about-playbook-how-project-governance-content-3 = 隐私、安全和透明度。
 about-playbook-how-project-governance-content-4 = 社区参与决策。
 about-playbook-how-project-governance-content-6 = 相互问责。
 about-playbook-how-project-governance-content-7 = <governanceLink>详细了解我们如何管理此项目</governanceLink>
-mycroft-title = Mycroft Ai
-mycroft-subtitle = 人工智能
-mycroft-description = Mycroft 是全球第一个开源语音助手，不论是在桌面电脑、汽车、树莓派（Raspberry Pi）或是任何地方都能运行。
-mycroft-secondary-description = 这是一个可以自由混搭、扩展、改进的开源软件。 Mycroft 可以用于科学项目，或企业软件应用等各种情境中。
 
 ## Glossary
 
 glossary = 词汇表
 localization = 本地化
-localization-explanation = 这是我们为许多语系（语言）进行翻译和调整内容的过程。
+localization-explanation = 这是我们为许多语言（环境）进行翻译和调整内容的过程。
 sentence-collection = 语句集合
 sentence-collection-explanation = 收集公共领域的语句，或为公共领域编写新的语句。
 hours-recorded-explanation = 到目前为止我们收集到的录音小时数。
@@ -765,7 +768,8 @@ language-search-input =
 language-speakers = 参与人数
 localized = 本地化
 sentences = 句子
-total-hours = 总小时数
+language-validation-hours = 小时
+language-validation-progress = 验证进度
 
 ## Contribution
 
@@ -1413,4 +1417,4 @@ sc-validation-no-abbreviations = 句子不应包含缩写
 # [/SentenceCollector]
 
 localization-select =
-    .label = 选择语言 / 语系
+    .label = 选择语言 / 本地化

@@ -38,7 +38,8 @@ export function trackGlobal(
     | 'discourse'
     | 'contact'
     | 'footer-newsletter'
-    | 'matrix',
+    | 'matrix'
+    | 'blog',
   locale: string
 ) {
   track('Global', action, locale);
@@ -107,17 +108,6 @@ export function trackProfile(
   locale: string
 ) {
   track('Profile', action, locale);
-}
-
-export function trackLanguages(
-  action:
-    | 'open-request-language-modal'
-    | 'contribute'
-    | 'see-more'
-    | 'see-less',
-  locale: string
-) {
-  track('Languages', action, locale);
 }
 
 export function trackDataset(action: string, locale: string) {

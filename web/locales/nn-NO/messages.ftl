@@ -36,7 +36,6 @@ ba = Basjkirisk
 bas = Basaa
 be = Kviterussisk
 bg = Bulgarsk
-bm = Bambara
 bn = Bengali
 br = Bretonsk
 bxr = Burjatisk
@@ -297,7 +296,6 @@ shortcut-discard-ongoing-recording-label = Forkast denne innspelinga
 shortcut-submit = Enter
 shortcut-submit-label = Send inn klipp
 request-language-text = Ser du ikkje språket ditt på Common Voice enno?
-request-language-text-learn = Les korleis du kan be om det her!
 request-language-button = Send ein førespurnad om eit nytt språk
 
 ## ProjectStatus
@@ -322,6 +320,8 @@ profile-form-native-language =
     .label = Morsmål
 profile-form-additional-language =
     .label = Ytterlegare språk
+profile-form-language =
+    .label = Språk
 profile-form-accent =
     .label = Dialekt
 profile-form-age =
@@ -418,7 +418,6 @@ faq-do-want-native-a = Ja! Vi vil særskilt ha stemma di! Eit delmål med Common
 faq-why-different-speakers-q = Kvifor treng de så mange ulike talarar pr. språk?
 faq-why-different-speakers-a = Dei fleste stemmedatabasar vert trena med ei overvekt av visse demografiar, noko som inneber vekting mot <articleLink> menn og middelklasse</articleLink>.  Aksentar og dialektar som tenderer til å vere underrepresentert i datasettet som vert brukt til trening er typisk assosiert med grupper av menneske som allereie er underrepresenterte ellers i samfunnet. Mange talegjenkjenningsmotorar slit også med å forstå kvinnelege stemmer. Derfor treng vi stor variasjon i datasettet!
 faq-why-my-lang-q = Kvifor er ikkje språket mitt inkludert enno?
-faq-why-my-lang-new-a = Mozilla vel eller føretrekkjer ingen språk over andre. I staden er Common Voice eit reint felleskapsdrive initiativ. Men det krev <multilangLink>mange steg for å leggje til eit nytt språk</multilangLink> og å begynne med å samle inn lydklipp. Først må Common Voice nettstaden omsettast, slik at medlemmar kan bidra på sitt eige språk. Deretter treng vi ei stor samling med rettigheitsfrie setningar som folk kan lese høgt. Når begge desse krava er oppfylte vert språket «lansert» på Common Voice, slik at folk kan begynne å spele inn lydklipp med stemma si og validere andre sine bidrag. Om du vil hjelpe til med å lansere eit nytt språk, gå til <sentenceCollectorLink>verktøy for setningsinnsamling</sentenceCollectorLink> for å kome i gang.
 faq-what-quality-q = Kva slags lydkvalitet er påkravd for at eit lydklipp kan brukast i datasettet?
 faq-what-quality-a = Vi vil at Common Voice-datasettet skal reflektere lydkvaliteten som ein tale-til-tekst motor opplever i verkelegheita. Derfor treng vi variasjon. I tillegg til eit variert utval av talarar, vil eit variert utval lydkvalitetar lære tale-til-tekst-motoren å handtere varierande situasjonar i den verkelege verda, som til dømes stemmer i bakgrunnen eller støy frå bilar. Så lenge lydklippet ditt er forståeleg. så burde det vere godt nok for datasettet.
 faq-why-10k-hours-q = Kvifor er 10 000 validerte timar pr. språk målet for innspelt lyd?
@@ -447,13 +446,10 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Kvifor Common Voice?
-about-subtitle = Common Voice er ein del av Mozillas initiativ for å hjelpe til med å lære maskiner korleis folk snakkar. I tillegg til Common Voice-datasettet byggjer vi òg ein talegjenkjenningsmotor med open kjeldekode som heiter Deep Speech.
-about-header-description = Begge desse prosjekta er delar av strevet vårt for å byggje bru over det digitale skiljet. Talegjenkjenning bidreg med ein menneskeleg dimensjon til dei digitale einingane våre, men utviklarar treng ei enorm mengde med data for å byggje dei. Det meste av slike data er dyre og proprietære. Vi ønskjer å gjere stemmedata gratis og offentleg tilgjengeleg, og forsikre om at dataa representerer variasjonen mellom verkelege menneske. Saman kan vi gjere talegjenkjenning betre for alle.
-about-header-description-2 =
-    Dette prosjektet er ein freistnad på å byggje bru over den digitale talekløfta. Taleattkjenningsteknologiar gjer dingsane våre meir menneskelege, men utviklarane treng enorme mengder med taledata for å byggje dei. No er det meste av slike data dyre og proprietære.
-    Vi ønskjer å gjere taledata gratis og offentleg tilgjengeleg, og sikre at dataa speglar mangfaldet mellom vanlege folk. I lag kan vi gjere taleattkjenning betre for alle.
-how-does-it-work-title = Korleis fungerer det?
 how-does-it-work-text = Vi masseinnsamlar (crowdsourcing) eit ope datasett av stemmer. Bidra med stemma di, valider nøyaktigheita av andre sine lydklipp og gjer datasettet betre for alle.
+
+## How does it work section
+
 about-speak = Tal
 about-speak-text = Bidragsytarar spelar inn stemmeklipp ved å lese inn frå ei samling bidregne setningar.
 about-listen-queue = Lyttekø
@@ -470,12 +466,6 @@ about-dataset-new = Common Voice-datasett
 about-dataset-new-text = Common Voice-datasettet inneheld hundretusenvis av lydklipp som hjelper utviklarar med å lage talegjenkjenningsverktøy.
 about-clip-graveyard = Klippkyrkjegard
 about-clip-graveyard-text = Lydklippfyllinga inneheld lydklipp som ikkje vart tatt med i Common Voice-datasettet. Akkurat som datasettet, er også lydklippfyllinga tilgjengeleg for nedlasting.
-about-partners = Partnarar
-about-become-a-partner = Bli ein partnar
-about-partnership =
-    Common Voice er eit samarbeidsprosjekt, og vi er avhengige av vårt samfunn, av partnarar og bidragsytarar for å byggje det største datasettet med open kjeldekode av stemmer nokon gong.  
-    
-    Vi vil gjerne få takke følgjande personar og organisasjonar for hjelpa deira med prosjektet:
 about-get-involved = Ver med
 about-get-involved-text-2 =
     Vil du hjelpe til med å gjere Common Voice endå  betre?
@@ -486,12 +476,35 @@ about-nav-why-common-voice = Kvifor ?
 about-nav-how-it-works = Korleis ?
 about-nav-partners = Partnarar
 about-nav-get-involved = Ver med
-mycroft-title = Mycroft Ai
-mycroft-subtitle = Kunstig intelligens
-mycroft-description =
-    Mycroft er verdas første assistent med open kjeldekode.
-    Mycroft køyrer på kva som helst - ein stasjonær PC, i ein bil, eller på ein Raspberry Pi.
-mycroft-secondary-description = Dette er open kjeldekode som fritt kan endrast, utvidast og forbetrast. Mycroft kan brukast i kva som helst frå vitskaplege prosjekt til bedriftsapplikasjonar.
+
+## Community Playbook Content
+## What is a language
+
+
+## How do I add a language
+
+
+## How does localization work
+
+
+## How to add sentences
+
+
+## How to record quality
+
+
+## How to grow language
+
+about-playbook-how-grow-language-content-8 = <strong>Ver kreativ!</strong> Ditt språkfellesskapet vil vere unikt, og dette er berre nokre få måtar å kome i gang på.
+
+## How to validate
+
+
+## How to access dataset
+
+
+## How are decisions made
+
 
 ## Glossary
 
@@ -633,6 +646,9 @@ request-language-success-content = Vi kontaktar deg snart med meir informasjon o
 select-language = Vel eit språk…
 other-language = Anna språk
 
+## Request Language Pages
+
+
 ## Languages Overview
 
 language-section-in-progress = Under arbeid
@@ -648,7 +664,6 @@ language-search-input =
 language-speakers = Talt av
 localized = Omsett
 sentences = Setningar
-total-hours = Validerte timar
 
 ## Contribution
 
@@ -878,6 +893,7 @@ download-recordings-title = Innspelingar
 download-recordings-info = Inkluderer mp3-ar og tilhøyrande setningar, kan ta litt tid å gjere klart
 download-recordings-size = Vanlegvis nokre megabyte
 download-recordings-unavailable = Du kan ikkje be om innspelingane dine samtidig som ein annan førespurnad er i gang
+download-recently-requested = Du kan be om ei ny nedlasting av innspelingane dine kvar { $days }. dag.
 download-size = Storleik
 download-selected = Markert
 download-start = Last ned profildata
@@ -895,6 +911,7 @@ download-request-modal-title = Nedlastingslenker
 download-request-modal-description = Her er lenkjene du kan bruke til å laste ned zip-filene dine.
 download-request-link-text = Zip #{ $offset } av { $total }
 download-request-metadata-link = Setningstekst
+download-request-link-single = Du kan òg kopiere og lime inn URL-ane direkte i eit nedlastingsprogram. Dei går ut på dato om 12 timar, men du kan kome tilbake til denne sida og lage nye når som helst.
 
 ## Landing
 
@@ -952,10 +969,21 @@ contribution-misreadings-description = Når du lyttar må du sjekke nøye etter 
 contribution-misreadings-description-extended-list-1 = Manglande <strong>«Ei(n)»</strong> eller <strong>«Den»</strong> i starten av opptaket.
 contribution-misreadings-description-extended-list-2 = Manglar ein <strong>«s»</strong> på slutten av eit ord.
 contribution-misreadings-description-extended-list-3 = Å slå saman ord utan at dei er slått saman i teksten, som å lese «harkje» i staden for «har ikkje», eller omvendt.
+contribution-misreadings-description-extended-list-4 = Manglar slutten av siste ord ved å kutte av innspelinga for tidleg.
 contribution-misreadings-description-extended-list-5 = Fleire forsøk på å lese eit ord.
+contribution-misreadings-example-1-title = Dei store dinosaurane i Trias.
+contribution-misreadings-example-2-title = Dei store dinosaura i Trias.
+contribution-misreadings-example-2-explanation = [Burde vore «dinosaurane»]
+contribution-misreadings-example-3-title = Dei store dinosaurane i Tria-.
+contribution-misreadings-example-3-explanation = [Innspelinga kutta av før slutten av siste ordet]
+contribution-misreadings-example-4-title = Dei store dinosaurane i Trias. Ja.
+contribution-misreadings-example-4-explanation = [Det er spelt inn meir enn den nødvendige teksten]
+contribution-misreadings-example-5-title = Vi skal ut og skaffe kaffi.
 contribution-misreadings-example-8-title = Humla flaug forbi.
 contribution-misreadings-example-8-explanation = [Heilt feil innhald]
+contribution-varying-pronunciations-title = Ulike uttalar
 contribution-background-noise-title = Bakgrunnsstøy
+contribution-volume-title = Lydstyrke
 see-more = <chevron></chevron>Vis meir
 see-less = <chevron></chevron>Vis mindre
 
@@ -982,6 +1010,9 @@ sc-logout-button = Logg ut
 ## HOME
 
 
+## GENERAL
+
+
 ## HOW-TO
 
 sc-howto-addsen-title = Legg til nye setningar
@@ -1006,10 +1037,6 @@ sc-rejected-none-found = Fann ingen avviste setningar!
 ## STATS
 
 sc-stats-title = Statistikk
-# Variables:
-#   $lastUpdate (Date) - Localized date of last statistics update
-sc-stats-last-update = Siste oppdatering: { $lastUpdate }
-sc-stats-last-update-never = Siste oppdatering: Aldri
 sc-stats-updating = Oppdaterer…
 
 ## ADD

@@ -5,7 +5,6 @@
 
     .about-hero {
         position: relative;
-        padding-inline-start: 1rem;
         padding-bottom: 2rem;
 
         @media (--md-down) {

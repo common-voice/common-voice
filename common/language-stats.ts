@@ -1,23 +1,39 @@
+export type SentenceCount = {
+  currentCount: number;
+  targetSentenceCount: number;
+};
+
+export type GenericStatistic = {
+  locale_id: number;
+  count: number;
+};
+
 export type BaseLanguage = {
   locale: string;
-};
-type SentenceCount = {
-  current_count: number;
-  target_sentence_count: number;
-};
-export type InProgressLanguage = BaseLanguage & {
-  localizedPercentage: number;
   sentencesCount: SentenceCount;
+  is_contributable: boolean;
 };
 
-export type LaunchedLanguage = BaseLanguage & {
-  seconds: number;
-  speakers: {
-    current_count: number;
-  };
+export type LanguageStatistics = BaseLanguage & {
+  recordedHours: number;
+  validatedHours: number;
+  speakersCount: number;
+  sentencesCount: SentenceCount;
+  localizedPercentage: number;
+  locale?: string;
 };
 
-export interface LanguageStats {
-  inProgress: InProgressLanguage[];
-  launched: LaunchedLanguage[];
+export enum TableNames {
+  DOWNLOADS = 'downloaders',
+  CLIPS = 'clips',
+  USERS = 'user_clients',
+  SENTENCES = 'sentences',
+}
+
+//time in ms
+export enum TimeUnits {
+  SECOND = 1000,
+  MINUTE = 60000,
+  HOUR = 3600000,
+  DAY = 86400000,
 }

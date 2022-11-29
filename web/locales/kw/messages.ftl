@@ -1,6 +1,6 @@
 ## General
 
-yes-receive-emails = Mynnav, danvenowgh dhymm ebostow. Yma hwans dhymm godhvos moy a-dro dhe'n towl Common Voice.
+yes-receive-emails = Mynnav, danvenewgh dhymm ebostow. Yma hwans dhymm a wodhvos moy a-dro dhe'n ragdres Common Voice.
 stayintouch = Yth eson ow trehevel kemeneth a-dro dhe deknegieth lev. Hwans yw dhyn kestava gans nowedhansow, pennfentynnyow data nowydh ha rag klowes moy a-dro dhe'n fordh mayth esowgh owth usya an data ma.
 privacy-info = Ni a dhedhow ni dhe handla agas kedhlow gans rach. Redyowgh moy y'gan <privacyLink>argemmyn privetter</privacyLink>.
 return-to-cv = Dehweles dhe Common Voice
@@ -14,6 +14,10 @@ email-opt-in-info-sub-with-challenge = Receva ebostow kepar ha kovheansow amkan 
 email-opt-in-privacy-v2 = Dre dhewis receva ebostow yth esowgh ow leverel agas bos unver gans Mozilla ow handla an kedhlow ma dell yw displegys yn <privacyLink>Polici Privetter<privacyLink> Mozilla.
 indicates-required = * a dhelin skrifva a res
 not-available-abbreviation = Ankavadow
+banner-error-slow-1 = Drog yw genen, yma Common Voice owth oberi yn lent. Meur ras a'th tidheur.
+banner-error-slow-2 = Yth eson ow reseva meur a dharomres hag assaya lemmyn hwithra an kudynnow.
+banner-error-slow-link = Folen Studh
+error-something-went-wrong = Drog yw genen, kamm a hwarva
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -36,22 +40,26 @@ ba = Bashkir
 bas = Basaa
 be = Belarussek
 bg = Bulgarek
+bm = Bambara
 bn = Bengalek
 br = Bretonek
 bs = Bosnek
 bxr = Buryat
+byv = Medumba
 ca = Katalanek
 cak = Kaqchikel
 ckb = Kurdek Kresek
 cnh = Hakha Chin
 co = Korsek
 cs = Check
-cv = Chouvash
+cv = Chuvash
 cy = Kembrek
 da = Danek
+dag = Dagbani
 de = Almaynek
 dsb = Iselsorbek
 dv = Dhivehi
+dyu = Dioula
 el = Greka
 en = Sowsnek
 eo = Esperanto
@@ -67,9 +75,11 @@ fy-NL = Frisek
 ga-IE = Wordhenek
 gl = Galisek
 gn = Guarani
+gom = Konkani Goa
 ha = Hausa
 he = Ebrow
 hi = Hindi
+hil = Hiligaynon
 hr = Kroatek
 hsb = Ughelsorbek
 ht = Haitiek
@@ -84,6 +94,7 @@ is = Islondek
 it = Italek
 izh = Izhoriek
 ja = Japanek
+jbo = Lojban
 ka = Jorjek
 kaa = Karakalpak
 kab = Kabyle
@@ -92,6 +103,7 @@ ki = Kikuyu
 kk = Kazakh
 km = Khmer
 kmr = Kurdek Kurmanji
+kn = Kannada
 knn = Konkani (Devanagari)
 ko = Koreek
 kpv = Komi-Zyrian
@@ -100,6 +112,8 @@ ky = Kyrgyz
 lb = Luksembourgek
 lg = Luganda
 lij = Liguriek
+ln = Lingala
+lo = Lao
 lt = Lithuaniek
 lv = Latviek
 mai = Maithili
@@ -119,12 +133,16 @@ my = Burmek
 myv = Erzya
 nan-tw = Taiwanek (Minnan)
 nb-NO = Norgaghek (Bokmål)
+nd = IsiNdebele (North)
 ne-NP = Nepalek
 nia = Nias
 nl = Iseldiryek
 nn-NO = Norgaghek (Nynorsk)
+nr = IsiNdebele (Soth)
+nso = Sotho north
 nyn = Nyankole
 oc = Oksitanek
+om = Afaan Ormoo
 or = Odia
 pa-IN = Punjabi
 pap-AW = Papiamentu (Aruba)
@@ -142,14 +160,18 @@ sah = Sakha
 sat = Santali (Ol Chiki)
 sc = Sardiniek
 scn = Sisilyek
+sdh = Kurdek Soth
 shi = Shilha
 si = Sinhala
 sk = Slovakek
 skr = Saraiki
 sl = Slovenek
+snk = Soninke
 so = Somali
 sq = Albaniek
 sr = Serbek
+ss = Siswati
+st = Sesotho
 sv-SE = Swedek
 sw = Swahili
 syr = Suriek
@@ -161,8 +183,10 @@ ti = Tigrinya
 tig = Tigre
 tk = Turkmenek
 tl = Tagalog
+tn = Setswana
 tok = Toki Pona
 tr = Turkek
+ts = Xitsonga
 tt = Tatar
 tw = Twi
 ty = Tahitiek
@@ -172,25 +196,32 @@ ug = Uyghur
 uk = Ukraynek
 ur = Urdu
 uz = Uzbek
+ve = Tshivenda
 vec = Venedek
 vi = Vietnamek
 vot = Votek
+xh = Xhosa
 yi = Yedhowek
 yo = Yoruba
 yue = Kantonek
+zgh = Tamazight
 zh-CN = Chinek (China)
 zh-HK = Chinek (Hong Kong)
 zh-TW = Chinek (Taiwan)
+zu = Zulu
+zza = Zaza
 
 # [/]
 
 
 ## Layout
 
-speak = Kowsel
+speak = Kewsel
 speak-now = Kowsowgh lemmyn
 datasets = Settys data
 languages = Yethow
+about = A-dro dhyn
+partner = Kespar
 profile = Profil
 help = Gweres
 contact = Kestava
@@ -234,12 +265,67 @@ speak-subtitle = Kevri agas lev
 speak-paragraph = Rekordya temmigow lev yw rann gresel a dhrehevel agan sett data ygor, yma nebes ow leverel y vos an rann dhidhanus ynwedh.
 speak-goal-text = Temmigow rekordys
 listen-subtitle = Gweres dhyn ow tilysa levow
+listen-paragraph = Dilysa klyppys argevres yw posek yn kehaval dhe'n ragdres Common Voice. Goslow ha'gan gweres ow kwruthyl kedhlow lev fenten ygor a gwalita ughel.
+listen-goal-text = Klyppys dilysys
+hours-recorded = Ourys Rekordys
+hours-validated = Ourys Dilysys
+voices-online = Levow Warlinen Lemmyn
+todays-progress = Avonsyans Hedhyw
+help-reach-goal = Gweres Dhyn ow Trehedhes bys { $goal }
+read-terms-q = A wruss'ta redya agan Termys?
+ready-to-record = Parys dhe argevri dha lev?
+all-locales = Oll
+today = Hedhyw
+x-weeks-short =
+    { $count ->
+        [zero] seythen
+        [one] sth
+        [two] sth
+        [few] sth
+        [many] sth
+       *[other] sth
+    }
+x-months-short =
+    { $count ->
+        [zero] mis
+        [one] mis
+        [two] vis
+        [few] mis
+        [many] mis
+       *[other] mis
+    }
+x-years-short =
+    { $count ->
+        [zero] b
+        [one] v
+        [two] v
+        [few] b
+        [many] b
+       *[other] b
+    }
+help-make-dataset = Gweres dhyn drehevel kedhelsett ughel y gwalita hag ygor dhe'n poblek
+sign-up-account = Omrolya rag akont
+email-subscription-title = omrolya rag nowedhyansow ebost
+email-subscription-title-new = Omrolyewgh rag kofheansow amkan, nowedhyansow avonsyans ha lytherow nowodhow Common Voice
 
 ## Account Benefits
 
+benefits = Lesow
+rich-data = Gwra dhe'th kedhlow danvenys bos mar rych dell yw possybyl dre ri dhyn kedhlow demografek dihanow. Ni a wra dhe'n kedhlow oll bos dihanow kyns y vos poblek.
+improve-audio = Kedhlow profil a wellha an kedhlow son usys rag trenya kewerder aswon kows.
+keep-track = Holya dha avonsyans ha metryks a-dreus lies yeth.
+compare-progress = Gweles fatel wra dha avonsyans keheveli orth kevrenegoryon a-dro dhe'n bys.
+view-goals = Gweles dha avonsyans erbynn amkanow personel ha ragdres.
+join-newsletter = Dre dhewis, gwra junya agan rol ebost rag nowedhyansow ha kedhlow nowydh a-dro dhe'n ragdres.
 
 ## What's public
 
+whats-public = Pyth yw Poblek?
+email-not-public = Ny wren ni kevrenna dha ebost.
+recordings-and-locale-public = Poblek vydh an niver a rekordyansow ha py yethow may hwre'ta kevri dhedha.
+username-optin-public = Ty a yll dewis gul dha hanow-usyer dhe vos poblek po dihanow.
+demographic-deidentified-clarity-2 = Dre dhewis, ny vydh kedhlow demografek (r.e. bloodh, genedh, yeth ha poslev) danvenys poblek war dha brofil ha ny vydh kelmys dhe'th akont y'n kedhelsett. Klyppys son unnik a vydh kelmys gans kedhlow demografek rag an acheson a dielvennans moy kewar - rag ensampel, possybyl yw hwithrer dhe vynnes medra patron trenyans orth tregh demografek komparek.
+username-email-not-demographic = Ny vydh dha hanow-usyer po ebost kelmys gans an kedhlow dyllys.
 
 ## Speak & Listen Shortcuts
 
@@ -265,6 +351,12 @@ shortcut-vote-no = n
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-record-toggle = r
 shortcut-record-toggle-label = Rekordya/Powes
+shortcut-rerecord-toggle = [1-5]
+shortcut-rerecord-toggle-label = Dasrekordya klypp
+shortcut-discard-ongoing-recording = DIANK
+shortcut-discard-ongoing-recording-label = Tewlel rekordyans a-lemmyn
+shortcut-submit = Dehweles
+shortcut-submit-label = Danvon klyppys
 request-language-text = A ny welowgh agas yeth war Common Voice hwath?
 request-language-button = Profya yeth
 
@@ -290,10 +382,31 @@ english = Sowsnek
 
 profile-form-username =
     .label = Hanow usyer
+profile-form-native-language =
+    .label = Yeth Teythyek
+profile-form-additional-language =
+    .label = Yeth Ynwedhek
+profile-form-language =
+    .label = Yeth
+profile-form-variant =
+    .label = Py varyans a { $language } a gewsydh?
+profile-form-variant-default-value = Nyns eus varyans dewisys
 profile-form-accent =
     .label = Lesyeth
+profile-form-custom-accent-help-text =
+    .label = Fatel wrussys deskrifa dha boslev?
+profile-form-custom-accent-placeholder-2 = Dalleth jynnskrifa rag deskrifa dha boslev
 profile-form-age =
     .label = Bloodh
+profile-form-gender-2 =
+    .label = Genedh
+leaderboard-visibility =
+    .label = Gweladewder Bordh Ledyoryon
+hidden = Kudhys
+visible = Gweladow
+native-language =
+    .label = Yeth Teythyek
+profile-form-add-accent = Keworra poslev a-vusur nowydh "{ $inputValue }"
 profile-form-submit-save = Gwitha
 profile-form-submit-saved = Gwithys
 male = Gorow
@@ -302,45 +415,172 @@ female = Benow
 other = Aral
 why-profile-title = Praga profil?
 why-profile-text = Dre brovia kedhlow a-dro dhywgh hwi agas honen, y fydh an data son a dhanvenowgh dhe Common Voice moy dhe les dhe jynnow aswon lev a wra usya an data ma rag gwellhe aga hewerder.
+dashboard = Skostell
+build-profile = Drehevel Profil
+avatar = Avatar
+goals = Amkanow
+settings = Settyansow
 edit-profile = Chanjya an profil
 profile-create-success = Gwrys veu agas profil!
 profile-close = Degea
 profile-explanation = Helerghowgh agas ober gans profil ha gweresowgh dhyn ow kul dh'agan data lev kewera.
+thanks-for-account = Meur ras a afydhya dha akont, lemmyn gwren drehevel dha brofil.
+why-demographic = Prag yth yw hemma a vern?
+why-demographic-explanation-2 = Kedhlow-usyer dihanow, kepar ha bloodh, genedh ha poslev, a wra gweres gwellhe an kedhlow son usys dhe drenya kewerder a jynnys aswon kows. Nevra ny vydh dha hanow-usyer hag ebost kelmys gans dha gedhlow danvenys ha ty a yll dewis dhe wul dhe'th hanow-usyer bos po poblek po privedh.
+accept-privacy = Da lowr ov genowgh ow tyghtya an kedhlow ma dell wrewgh styrya yn <privacyLink>Polisi Privetter</privacyLink> Mozilla
+accept-privacy-title = Polici Privetter
+login-identity = Honanieth Omgelmi
+login-signup = Omgelmi / Omrolya
+edit = Golegi
+email-subscriptions = Ragbrenow Ebost
+download-profile = Iskarga Ow Data
+contribution-experience = Prevyans Kevri
+skip-submission-feedback = Hepkor Dasliv Kevrohow
+skip-submission-description = Ha ty ow kevri, dasliv kevrohow a vydh hepkorys wosa ty dhe glyckya 'Danvon'. Kevri a wra pesya yn tidro gans an nessa sett a 5 rekordyans po dilysans.
+skip-submission-note = Noten: Res vydh dhis sewis ynttra Kewsel po Goslowes rag chanjya eghen kevri.
+off = Marow
+on = Byw
+help-accent = Yw res dhis gweres gans poslev?
+help-accent-explanation = Dha boslev yw an fordh may hwre'ta leverel geryow. Y hyll bos furvys gans an tyller mayth es ta trigys ynno, yethow erel a wre'ta kewsel ha lies tra aral. Ty a yll kevrenna py kedhlow pynag a dybydh bos gwiw omma.
+help-variants = Yw res dhis gweres gans varyansow?
+help-variants-explanation = Varyansow yw furvow komparek a yeth - rag ensampel kevrennys gans an re ow triga yn ranndir po yn kemeneth. Treweythyow yth yns i gelwys rannyethow.
 
 ## Profile - Email
 
+browse-file-title = Ughkarga restren skeusen
+browse-file = Halya ha droppya po <browseWrap>Peuri</browseWrap>
+connect-gravatar = Junya gans Gravatar
+gravatar_not_found = Ny gevir Gravatar rag dha ebost
+file_too_large = Re vras yw an restren dhewisys
+avatar-uploaded = Avatar ughkergys
+max-file-size = { $kb }kb po le
+remove-avatar = Dilea Avatar
 
 ## Profile - Email
 
+manage-subscriptions = Menystra Ragbrenow
+manage-email-subscriptions = Menystra Ragbrenow Ebost
+email-already-used = Usys yw an ebost ma seulabrys rag akont aral
+add-language = Keworra Yeth
+change-email-setings = Chanjya dha ebost der an Dewisyow yn-dann Honanieth Omgelmi
 
 ## FAQ
 
 faq-title = Govynnow menowgh
+faq-what-cv-q = Pyth yw Common Voice?
+faq-what-cv-a = Teknegieth aswon lev a wra chanjya yn tien an fordh may hwren kesoberi gans jynnys, mes an kevreythyow kavadow lemmyn yw kostek ha perghenogel. Common Voice yw rann ragdres Mozilla dhe wellhe teknegieth aswon lev ha gul dhedha bos mov hedhadow rag pubonan. Common Voice yw sel manylyon ollvysel kowrek a levow argevrys a wra gasa den vyth dhe trenya apps gans levow yn es hag yn skav martesen yn pub yeth.
+faq-what-cv-a-2 =
+    Yma teknegieth aswon lev ow tomhwelhe an fordh mayth oberyn gans jynnow, mes kostek ha perghenogel yw an systemow kavadow a-lemmyn. Common Voice Mozilla yw ragdres dhe wul teknegieth aswon lev gwell ha hedhadow dhe bubonen. Common Voice yw sel manylyon ollvysel kowrek a levow argevrys a wra gasa dhe bubonen trenya yn es hag yn skav apps gans levow martesen yn pub yeth.
+    
+    Nyns eson ni marnas ow kuntel samplow lev yn yethow kewsys yn kemmyn, mes ynwedh y'n re gans kemeneth byghanna a gowsoryon. Dyllo kedhelsett diwyrs a levow a wra kennertha displegoryon, omgemeryoryon ha kemenethow dhe dhyghtya an aswa ma aga honan.
+faq-why-important-q = Prag yth yw posek?
+faq-why-important-a =
+    Yn fenowgh yth yw kows fordh an moyha naturek may hyllyn keskomunya an eyl gans y gila hag yma teknegieth lev ow tri an es ma dh'agan jynnys-amontya ha devisyow gwayadow. Ni a vynn galosegi displegyoryon dhe dhrehevel towlennow aswon lev marthys kepar ha treylellow termyn gwir ha darbaroryon bysyel dre lev. Mes lemmyn brassa rann an kedhlow lev res rag drehevel an eghen ma a appys yw kostek ha perghenogel. Govenek a'gan beus y hwra an kedhelsett Common Voice ri dhe dhisplegyoryon an pyth yw res dhedha rag nowedhi ha gul dhe deknegieth kows bos kavadow y'ga yeth aga honan.
+    
+    Rag gul dhe aswon lev bos moy ollvysel hogen, ni a wra kuntel samplow lev yn yethow kewsys yn kemmyn keffrys hag an re gans poblans byghanna a gowsoryon hag yw yn fenowgh goservys gans gonisyow aswon lev kenwerthel. Dyllo kedhelsett diwyrs a levow a wra galosegi displegyoryon, omgemeryoryon ha kemenethow dhe dhyghtya an aswa ma aga honan.
+faq-how-get-q = Fatel allav vy kerghes an kedhlow Common Voice?
+faq-how-get-a = An kedhelsett Common Voice yw kavadow dhe iskarga yn-dann gummyas <licenseLink>CC0</licenseLink> war <datasetLink>agan folen Kedhelsettys</datasetLink>. Ynwedh y hyllir iskarga nebes kedhelsettys poblek erel a'n keth folen.
+faq-when-release2-q = P'eur fynnowgh dyllo kedhlow Common Voice yn yethow erel?
+faq-when-release2-a = Yma an gwersyon liesyeth a'n kedhelsett Common Voice ow perthi fardella ha glanhe skoodhys gans an kemeneth lemmyn. Mar mynnses agan gweres dhe dhri Common Voice dhe yethow nowydh, gwra mires orth an <sentenceCollectorLink>Toul Kuntel Lavarow</sentenceCollectorLink> rag keworra lavarow nowydh dhe'n kedhelsett ha <pontoonLink>Pontoon</pontoonLink> Mozilla rag treylya an wiasva hy honan. Yethow nowydh yw keworrys dhe Common Voice rag kevrohow lev pan vo kuntellys 5000 lavar komendys.
+faq-why-mission-q = Prag yth yw Common Voice rann an medras Mozilla?
+faq-why-mission-a = Sakrys yw Mozilla dhe surhe bos an wi ygor ha hedhadow rag pubonan. Rag gul henna, res yw dhyn galosegi gwrioryon wi dre ragdresow kepar ha Common Voice. Ha teknegiethow lev ow lesa dres usadow pur danow, ni a grys res yw dhedha servya pub usyer yn ekwal. Henna a styr kevarghewi yn moy a yethow hag eshe poslevow ha demografegow diwyrs yn-dann dhrehevl ha previ teknegiethow lev. Common Voice yw asnodh poblek kavadow dhe bubonan hag yma parys ha displegyoryon Mozilla orth y usya seulabrys a-dro dhe'n bys y'gan ragdresow agan honan maga ta.
+faq-what-cv-and-deepspeech-q = Pyth yw an dyffrans yntra Common Voice ha Deep Speech?
+faq-what-cv-and-deepspeech-a = An kedhelsett Common Voice a gessen jynn aswon lev pennfenten ygor Mozilla Deep Speech. An kynsa gwersyon a Deep Speech a veu dyllys yn mis Du 2017 hag a besyas esplegya a-dhia an termyn na. War-barth gans an kedhelsett Common Voice, ni a grys y talvia an teknegieth aswon lev pennfenten ygor bos kavadow dhe bubonan. Govenek a'gan beus y hwra an teknegiethow ma galosegi displegyoryon dhe dhrehevel tonn a askorrasow ha gonisyow nowydh.
+faq-is-goal-assistant-q = Yw amkan Common Voice drehevel darbarer lev?
+faq-is-goal-assistant-a = Amkan an kedhelsett Common Voice yw galosegi pubonan y'n bys dhe dhrehevel aswon lev, aswon kowser po py eghen a app pynag a res kedhlow lev. Nyns yw darbarer lev marnas onan a lies eghen a app a yll bos gwrys gans an kedhelsett.
+faq-do-want-native-q = Nyns ov kewser teythyek ha poslev a'm beus ha my ow kewsel, a vynnsowgh hwath ow lev?
+faq-do-want-native-a = Ea, ny a vynn dha lev yn arbennik! Rann an meder a Common Voice yw kuntel pygemmys poslevow dyffrans dell yllyn may hyll gonisyow aswon lev oberi yn ta yn kehaval rag pubonan. Hemma a styr bos kevrohow a gowsoryon anteythyek fest posek.
+faq-why-different-speakers-q = Prag yth yw res dhywgh kavos lies kewser dyffrans rag pub yeth?
+faq-why-different-speakers-a =
+    An brassa rann a gedhelsettys yw trenys gans gordhiskwedhyans a nebes demografegow may sew ragvreus war-tu ha <articleLink>gwer ha'n renkas kres</articleLink>. Poslevow ha rannyethow hag yw skylldhiskwedhys yn kedhelsettys trenya yw yn tipek kelmys gans bagasow a dus hag yw amalekhes seulabrys. Ynwedh yma kudyn gans lies jynn konvedhes levow benel.
+    Hemm yw prag y fynnyn dyffrans y'gan kedhelsett!
+faq-why-my-lang-q = Prag nag yw ow yeth yssynsys hwath?
+faq-why-my-lang-a =
+    Common Voice yw leuren routhkuntel, hag oll an yethow a veu keworrys gans bodhogyon.
+    Ni a garsa ty dhe geworra dha yeth! <languageRequestLink>Govyn a-dro dhe geworra dha yeth.</languageRequestLink>
+faq-what-quality-q = Py nivel a gwalita son yw res rag klypp lev dhe vos usys y'n kedhelsett?
+faq-why-10k-hours-q = Prag yth yw 10,000 our dilysys an amkan rag pub yeth rag kuntel son?
+faq-why-10k-hours-a = Hemm yw dre vras an niver a ourys res rag dyski dhe gevres kows-dhe-dekst askorrans.
+faq-how-calc-hours-q = Fatel wra Common Voice rekna ourys?
+faq-how-calc-hours-a = Ni a reken ourys der akontya hirder kresek a bub rekordyans hag ena lieshe an niver ma gans an niver somm a rekordyansow a-dreus pub yeth oll.
+faq-where-src-from-2-q = A-ble teu an tekst pennfenten?
+faq-why-not-ask-read-q = Prag na wre'ta govyn orth tus dhe lenna a lyvrow po erthyglow Wikipedia yn yethow dyffrans?
+faq-why-account-q = Prag y talvia dhymm omrolya rag akont?
+faq-is-account-public-q = Yw kedhlow ow akont poblek?
+faq-how-privacy-q = Fatel wrewgh surha privetter ha bos dihanow an dus a argevros aga levow?
+faq-what-is-cv = Pandr'yw Common Voice?
+faq-using-cv = Usya Common Voice
+faq-description = Common Voice yw rann ragdres gans Mozilla dhe weres ow tyski dhe jynnow fatel wra tus wir kewsel.
+faq-search-for-answers =
+    .label = Hwilas gorthebow
 
 ## ABOUT US
 
+about-title = Praga Common Voice?
+how-does-it-work-title-v2 = Fatel ober Common Voice?
 
 ## How does it work section
 
+about-language-req-subtitle = Nebonan a wovyn rag yeth dhe vos keworrys.
+about-localization-title = Leelheans an Wiasva
+about-localization-subtitle = Tekst an wiasva yw treylys y'n yeth na.
+about-sentence-collection-title = Kuntel Lavarow
+about-sentence-collection-subtitle = Kuntellys yw lavarow rag tus dh'aga lenna.
+about-new-lang-title = Lonch a Yeth Nowydh
+about-new-lang-subtitle = Ni a lonch an wiasva Common Voice y'n yeth ma.
+about-voice-contrib-title = Kevri Lev
+about-voice-contrib-subtitle = Tus a dheu rag kevri aga levow.
+about-voice-validation-title = Dilysa Lev
+about-voice-validation-subtitle = Tus erel a wra dilysa an klyppys lev na.
+about-dataset-release-title = Dyllans Kedhelsett
+about-dataset-release-subtitle = Ni a wra dyllo an kedhelsett pub 3 mis.
+about-speak = Kewsel
+about-listen-queue = Lost Goslowes
+about-listen = Goslowes
+about-is-it-valid = Yw an klypp dilys?
+about-yes-votes = ≥ 2 raglevow Ya
+about-yes-votes-text = Rag bos yn kedhelsett Common Voice, res yw bos klypp lev dilysys gans dew user diblans.
+about-no-votes = ≥ 2 raglevow Na
+about-dataset-new = Kedhelsett Common Voice
+about-clip-graveyard = Bedhros Klyppys
+about-get-involved = Bos rann
+about-stay-in-touch-button = Omrolya
+about-nav-why-common-voice = Praga?
+about-nav-how-it-works = Fatla?
+about-nav-partners = Kesparow
+about-nav-get-involved = Kemeres rann
+about-nav-how-it-works-2 = Fatel ober Common Voice?
+about-nav-playbook = Dyski fatel vos rann anodho
 
 ## Community Playbook Content
 ## What is a language
 
+about-playbook-what-is-language = Pyth yw yeth war Common Voice?
 
 ## How do I add a language
 
+about-playbook-how-add-language = Fatel geworrav yeth?
+about-playbook-how-add-language-translating-heading = Treylya an wiasva
+about-playbook-how-add-language-collecting-sentences-heading = Kuntel lavarow
 
 ## How does localization work
 
+about-playbook-how-localize = Fatel ober leelheans an wiasva?
+about-playbook-how-localize-content-1 = Treylyans an wiasva Common Voice yw gwrys dre <strong>Pontoon</strong>.
 
 ## How to add sentences
 
+about-playbook-how-add-sentences = Fatel geworrav lavarow?
 
 ## How to record quality
 
+about-playbook-how-record-quality = Fatel wrav rekordya klypp lev a gwalita ughel?
 
 ## How to grow language
 
+about-playbook-how-grow-language-content-2 = Hwarvosow
+about-playbook-how-grow-language-content-4 = Media sosyel
+about-playbook-how-grow-language-content-6 = Kesparow ha rosweythyow
 
 ## How to validate
 
@@ -350,12 +590,19 @@ faq-title = Govynnow menowgh
 
 ## How are decisions made
 
+about-playbook-how-project-governance-content-3 = Privetter, diogeledh hag ylynder.
 
 ## Glossary
 
+glossary = Gerva
+localization = Leelheans
+sentence-collection = Kuntel Lavarow
+sst = Kows-dhe-dekst (KDD)
 
 ## Error pages
 
+error-title-404 = Ny yllir kavos an folen na ragos
+error-code = Gwall { $code }
 
 ## Data
 
@@ -372,6 +619,8 @@ data-other-goto = Mos dhe { $name }
 data-other-download = Iskarga an data
 data-bundle-button = Iskarga pusorn an sett data
 data-bundle-description = Data Common Voice keffrys ha pub sett data aral a-ugh.
+release-version = Gwersyon
+dataset-date = Dedhyas
 license = Leshyans: <licenseLink>{ $license }</licenseLink>
 license-mixed = Kemyskys
 review-terms = Der usya Common Voice, hwi a wra akordya gans agan <termsLink>termys</termsLink> ha'gan <privacyLink>argemmyn privetter</privacyLink>
@@ -388,11 +637,34 @@ review-delete-recordings = Dilea ow rekordyansow
 
 ## Datasets Page
 
+datasets-heading = Kedhelsettys
+language = Yeth
+# File size in gigabytes
+size = Braster
+validated-hr-total = Somm a Ourys Dilysys
+overall-hr-total = Somm Ourys
+cv-license = Leshyans
+audio-format = Furvas Sonadow
+number-of-voices = Niver a Levow
+email-to-download = Entra Ebost dhe Iskarga
+size-gigabyte = RU
+size-megabyte = MB
+download-language = Iskarga{ $language }
+validated-hours = Ourys Dilysys
+recorded-hours = Ourys Rekordys
+subscribe = Ragbrena
+other-datasets = Kedhelsettys Lev Erel
+feedback-q = Eus Dasliv?
 data-other-librispeech-description = LibriSpeech yw korpus a neb 1000 our a gows yn Sowsnek lennys orth 16Khz ow tos dhyworth lyvrow son dhyworth an ragdres LibriVox.
 data-other-ted-name = Korpus TED-LIUM
 data-other-ted-description = An korpus TED-LIUM a veu gwrys dhyworth arethow son ha'ga treusskrifansow kavadow war wiasva TED.
 data-other-voxforge-description = VoxForge a veu drehevys rag kuntel kows treusskrifys rag y usya gans jynnow aswon kows pennfenten ygor ha heb kost.
 data-other-tatoeba-description = Tatoeba yw database bras a lavarow, treylyansow ha son kowsys may hyllir y usya ow tyski yethow. Yma a-berth y'n iskargans ma Sowsnek kowsys rekordys gans aga hemeneth.
+ready-to-validate = Parys dhe weres dilysa lavarow?
+more = Moy
+close = Degea
+download = Iskarga
+dataset-version = Gwersyon
 
 ## Download Modal
 
@@ -420,6 +692,19 @@ request-language-form-language =
     .label = Yeth
 request-language-success-title = Danvenys yn sowen a veu an profyans, meur ras.
 request-language-success-content = Ni a vynn kestava genowgh gans moy kedhlow a-dro dhe geworra agas yeth dhe Common Voice yn skon.
+select-language = Dewis Yeth...
+other-language = Yeth Aral
+
+## Request Language Pages
+
+request-language-heading = Govyn a-dro dhe yeth nowydh
+request-language-form-email =
+    .label = Dha drigva ebost
+request-language-form-info =
+    .label = Kedhlow a-dro dhe'n yeth
+request-language-form-info-explanation-list-1 = Henwyn dha yeth
+# Success page
+request-language-success-heading = Meur ras! Ty re dhanvonas govyn yeth nowydh
 
 ## Languages Overview
 
@@ -432,6 +717,10 @@ language-total-progress = Somm
 language-search-input =
     .placeholder = Hwilas
 language-speakers = Kowsoryon
+localized = Leelhes
+sentences = Lavarow
+language-validation-hours = Ourys
+language-validation-progress = Avonsyans Dilysa
 
 ## Contribution
 
@@ -441,6 +730,15 @@ contribute = Kevri
 listen = Goslowowgh
 skip = Hepkor
 shortcuts = Skochfordhow
+clips-with-count-pluralized =
+    { $count ->
+        [zero] Klypp
+        [one] Klypp
+        [two] Klypp
+        [few] Klypp
+        [many] Klypp
+       *[other] Klypp
+    }
 goal-help-recording = Hwi re weresas Common Voice dhe dhrehedhes <goalPercentage></goalPercentage> a'gan amkan rekordya dedhyek a { $goalValue }!
 goal-help-validation = Hwi re weresas Common Voice dhe dhrehedhes <goalPercentage></goalPercentage> a'gan amkan gwirya dedhyek a { $goalValue }!
 contribute-more =
@@ -468,6 +766,8 @@ record-again-instruction = Bryntin! <recordIcon></recordIcon> Rekordyowgh agas n
 record-again-instruction2 = Dewgh yn-rag, rekordyowgh arta <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon> An diwettha!
 review-tooltip = Dasweles ha dasrekordya klyppys omma
+share-clip = Kevrenna dha glypp
+share-common-voice = Kevrenna Common Voice
 review-instruction = Dasweles ha dasrekordya klyppys mars yw res
 record-submit-tooltip = { $actionType } danvenowgh pan vo parys
 clips-uploaded = Klyppys ughkergys
@@ -480,48 +780,145 @@ listen-instruction = { $actionType }<playIcon></playIcon> a gowssons yn kewer an
 listen-again-instruction = Ober da! <playIcon></playIcon> Goslowowgh arta pan vowgh parys
 listen-3rd-time-instruction = 2 gwrys <playIcon></playIcon>, splann!
 listen-last-time-instruction = <playIcon></playIcon> An diwettha!
+speak-empty-state-cta = Kevri lavarow
 record-button-label = Rekordyowgh agas lev
 share-title-new = <bold>Gweresowgh ni</bold> ow kavos moy levow
+login-to-get-started = Omgelmi po omrolya dhe dhalleth
+target-segment-first-card = Yth esos ow kevri dh'agan kynsa tregh kosten
+target-segment-generic-card = Yth esos ow kevri dhe tregh kosten
+target-segment-add-voice = Keworra Dha Lev
+target-segment-learn-more = Dyski Moy
 
 ## Reporting
 
+report = Derivas
+report-title = Danvon derivas
+report-offensive-language = Yeth offensus
+report-grammar-or-spelling = Gwall gramasek / spellyans
+report-different-language = Yeth dyffrans
+report-difficult-pronounce = Kales y leverel
+report-offensive-speech = Kows offensus
+report-other-comment =
+    .placeholder = Kampolla
+success = Sewena
+continue = Pesya
 
 ## Goals
 
+days =
+    { $count ->
+        [zero] Dydh
+        [one] Dydh
+        [two] Dydh
+        [few] Dydh
+        [many] Dydh
+       *[other] Dydh
+    }
 
 ## Dashboard
 
+your-languages = Dha Yethow
+goal-reached = Amkan drehedhys
+stats = Stattys
+awards = Pewasow
+you = Ty
+everyone = Pubonan
+recorded-clips = Klyppys Rekordys
+validated-clips = Klyppys Dilysys
+set-visibility = Settya ow gweladewder
 
 ## Custom Goals
 
+create-custom-goal = Gwruthyl Amkan A-Vusur
+both-speak-and-listen = An Dhew
+both-speak-and-listen-long = An Dhew (Kewsel ha Goslowes)
+daily-goal = Amkan Dedhyek
+weekly-goal = Amkan Seythennyek
+easy-difficulty = Es
+average-difficulty = Kresek
+difficult-difficulty = Kales
+pro-difficulty = Pro
+want-to-continue = A vynn'ta pesya?
+finish-editing = Gorfenna golegi kyns oll?
+lose-changes-warning = Mar tiberthydh lemmyn, ty a wra kelli dha janjyow
+set-a-goal = Settya amkan
+cant-decide = A ny yll'ta ervira?
+which-goal-type = A vynn'ta Kewsel, Goslowes po an dhew?
+n-clips-pluralized =
+    { NUMBER($count) ->
+        [zero] klypp
+        [one] klypp
+        [two] klypp
+        [few] klypp
+        [many] klypp
+       *[other] klypp
+    }
+confirm-goal = Afydhya Amkan
+goal-interval-weekly = Seythennyek
+share-goal-type-speak = Kewsel
+share-goal-type-listen = Goslowes
+share-goal-type-both = Kewsel ha Goslowes
+weekly-goal-created = Dha amkan seythenyek re beu settys
+daily-goal-created = Dha amkan dedhyek re beu settys
+share-goal = Kevrenna ow amkan
 
 ## Profile Delete
 
+keep = Gwitha
+remove = Dilea
 profile-form-delete = Dilea an profil
 
 ## Profile Download
 
+download-q = Yw res dhis iskarga dha gedhlow?
+download-info = Lavar dhyn pyth a vynn'ta iskarga:
+download-profile-title = Profil
+download-profile-size = Nebes baytys
+download-recordings-title = Rekordyansow
+download-size = Braster
+download-selected = Dewisys
+download-start = Iskarga kedhlow ow frofil
+download-request-button = Iskarga
+download-request-title = { $created }
+download-request-refresh-button = Dasnowedhi
+download-request-modal-title = Kevrennow Iskarga
+download-request-metadata-link = Tekst an lavar
 
 ## Landing
 
+welcome-staff = Dynnargh mayni { $company }!
+login-company = Omgelmi / Omrolya gans ebost { $company }
 
 ## DemoLayout
 
+demo-get-started = Gwren Dalleth
+demo-welcome = Dynnargh dhe Common Voice
 
 ## Demo Datasets
 
+card-button-next = Nessa
+card-button-back = War-lergh
+demo-language-select-label = Peuri Yethow
+demo-account = Akont
 
 ## Demo Account
 
+demo-account-sign-up = Danvon kevren omrolya
 
 ## Demo Contribute
 
+demo-listen-subtitle = Parys dhe gevri?
 
 ## Demo Dashboard
 
 
 ## Validation criteria
 
+contribution-for-example = rag ensampel
+contribution-misreadings-title = Kammlennansow
+contribution-volume-title = Nivel Son
+see-more = <chevron></chevron>Gweles moy
+see-less = <chevron></chevron>Gweles le
 
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
@@ -530,51 +927,121 @@ profile-form-delete = Dilea an profil
 
 ## HEADER/FOOTER
 
+sc-header-home = Tre
+sc-header-add = Keworra
+sc-header-review = Dasweles
+sc-header-my = Ow Lavarow
+sc-header-statistics = Statystygyon
+sc-header-profile = Profil
+sc-footer-privacy = Privetter
+sc-footer-terms = Termys
+sc-footer-cookies = Pastiow
+sc-login-signup-button = Omgelmi / Omrolya
+sc-logout-button = Digelmi
 
 ## HOME
 
+sc-home-collect-title = Kuntel Lavarow
+sc-home-review-title = Dasweles Lavarow
 
 ## GENERAL
 
 
 ## HOW-TO
 
+sc-howto-addsen-title = Keworra lavarow nowydh
+sc-howto-cite-title = Fatla Dervyn
+sc-howto-review-title = Dasweles Lavarow
 
 ## MY SENTENCES
 
+sc-my-title = Ow Lavarow
+sc-my-loading = Ow karga dha lavarow…
+# Variables:
+#   $source (String) - Associated source the user filled out when uploading the sentence
+sc-my-source = Pennfenten:  { $source }
+sc-my-deleting = Ow tilea an lavarow dewisys…
 
 ## REJECTED
 
 
 ## STATS
 
+sc-stats-title = Statystygyon
+sc-stats-updating = Ow nowedhi…
 
 ## ADD
 
+sc-submit-err-select-lang = Dewis yeth, mar pleg.
+sc-submit-err-add-sentences = Keworr lavarow, mar pleg.
+sc-submit-err-add-source = Keworr pennfenten, mar pleg.
+sc-submit-title = Keworra Lavarow
+sc-submit-select-language =
+    .labelText = Dewis Yeth
+sc-submit-ph-one-per-line =
+    .placeholder = Unn lavar an linen
+sc-submit-button =
+    .submitText = Danvon
 
 ## ADD LANGUAGE
 
+sc-add-lang-could-not-add = Ny allas keworra an yeth
+sc-add-lang-sec-button = Keworra Yeth
 
 ## ADD SENTENCES CONFIRMATION
 
+sc-confirm-button-text = Afydhya
 
 ## LANGUAGE INFO
 
+sc-lang-info-title-total = Somm
+sc-lang-info-title-personal = Personel
 
 ## LOGIN
 
+sc-login-err-failed = Omgelmi a fyllis
+sc-login-err-try-again = Assay arta, mar pleg.
 
 ## PROFILE
 
+# Variables:
+#   $username (String) - eMail address of the logged in user
+sc-profile-title = Profil: { $username }
+sc-personal-err-remove = Ny allas dilea an yeth
+sc-personal-your-languages = Dha yethow:
+sc-personal-remove-button = dilea
+# Variables:
+#   $sentences (Number) - Number of sentences that were added by the currently logged in user for this language
+sc-personal-added-by-you = { $sentences } keworrys genes
 
 ## REVIEW CRITERIA
 
 
 ## REVIEW
 
+sc-review-title = Dasweles Lavarow
+# Variables:
+#   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
+sc-review-form-source = Pennfenten: { $sentenceSource }
+sc-review-form-button-reject = Denagha
+sc-review-form-button-skip = Hepkor
+sc-review-form-button-approve = Komendya
+# Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
+sc-review-form-button-approve-shortcut = Y
+# Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
+sc-review-form-button-reject-shortcut = N
+# Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
+sc-review-form-button-skip-shortcut = H
+sc-review-form-button-submit =
+    .submitText = Gorfenna Daswel
+sc-review-link = Dasweles
 
 ## SETTINGS
 
+sc-settings-title = Settyansow
+sc-settings-ui-language = Yeth an Ynterfas
 
 # [/SentenceCollector]
 
+localization-select =
+    .label = Dewis yeth/leelheans

@@ -40,10 +40,12 @@ ba = baškirčina
 bas = basaa
 be = bieloruština
 bg = bulharčina
+bm = bambarčina
 bn = bengálčina
 br = bretónčina
 bs = bosniančina
 bxr = buriatčina
+byv = medumba
 ca = katalánčina
 cak = kaqchikel
 ckb = stredná kurdčina
@@ -53,9 +55,11 @@ cs = čeština
 cv = čuvaština
 cy = waleština
 da = dánčina
+dag = dagbani
 de = nemčina
 dsb = dolnolužická srbčina
 dv = maldivčina
+dyu = dioula
 el = gréčtina
 en = angličtina
 eo = esperanto
@@ -75,6 +79,7 @@ gom = goan konkani
 ha = hauština
 he = hebrejčina
 hi = hindčina
+hil = hiligaynon
 hr = chorvátčina
 hsb = hornolužická srbčina
 ht = haitská kreolčina
@@ -89,6 +94,7 @@ is = islandčina
 it = taliančina
 izh = izorčina
 ja = japončina
+jbo = lojban
 ka = gruzínčina
 kaa = karakalpačtina
 kab = kabylčina
@@ -97,6 +103,7 @@ ki = kikujčina
 kk = kazaština
 km = khmérčina
 kmr = kurmanji kurdčina
+kn = kannadčina
 knn = konkani (devanagari)
 ko = kórejčina
 kpv = komi-zyriančina
@@ -105,6 +112,8 @@ ky = kirgizština
 lb = luxemburčina
 lg = gandčina
 lij = ligúrčina
+ln = lingalčina
+lo = laoština
 lt = litovčina
 lv = lotyština
 mai = maithilčina
@@ -124,12 +133,16 @@ my = barmčina
 myv = erzya
 nan-tw = taiwančina (Minnan)
 nb-NO = nórčina (bokmål)
+nd = IsiNdebele (severná)
 ne-NP = nepálčina
 nia = nias
 nl = holandčina
 nn-NO = nórčina (nynorsk)
+nr = IsiNdebele (južná)
+nso = severná sothčina
 nyn = runyankole
 oc = okcitánčina
+om = afaan ormoo
 or = urijčina
 pa-IN = pandžábčina
 pap-AW = papiamento (Aruba)
@@ -147,14 +160,18 @@ sah = jakutčina
 sat = santali (Ol Chiki)
 sc = sardínčina
 scn = sicílčina
+sdh = južná kurdčina
 shi = shilha
 si = sinhalčina
 sk = slovenčina
 skr = saraiki
 sl = slovinčina
+snk = soninke
 so = somálčina
 sq = albánčina
 sr = srbčina
+ss = siswati
+st = sesothčina
 sv-SE = švédčina
 sw = swahilčina
 syr = sýrčina
@@ -166,8 +183,10 @@ ti = tigriňa
 tig = tigre
 tk = turkménčina
 tl = tagalčina
+tn = setswančina
 tok = toki pona
 tr = turečtina
+ts = xitsonga
 tt = tatárčina
 tw = twi
 ty = tahitčina
@@ -177,15 +196,20 @@ ug = ujgurčina
 uk = ukrajinčina
 ur = urdčina
 uz = uzbečtina
+ve = tshivenda
 vec = benátčina
 vi = vietnamčina
 vot = vodčina
+xh = xhoština
 yi = jidiš
 yo = jorubčina
 yue = kantónčina
+zgh = tuaregčina
 zh-CN = čínština (Čína)
 zh-HK = čínština (Hongkong)
 zh-TW = čínština (Taiwan)
+zu = zuluština
+zza = zaza
 
 # [/]
 
@@ -197,6 +221,7 @@ speak-now = Hovorte teraz
 datasets = Datasety
 languages = Jazyky
 about = O nás
+partner = Partnerstvá
 profile = Profil
 help = Pomocník
 contact = Kontakt
@@ -327,7 +352,6 @@ shortcut-discard-ongoing-recording-label = Zahodiť prebiehajúcu nahrávku
 shortcut-submit = Enter
 shortcut-submit-label = Odoslať nahrávky
 request-language-text = Nevidíte na Common Voice svoj jazyk?
-request-language-text-learn = Tu sa dozviete, ako o to požiadať.
 request-language-button = Požiadajte o jazyk
 
 ## ProjectStatus
@@ -465,7 +489,9 @@ faq-why-different-speakers-a =
     Väčšina rečových databáz je trénovaná s nadmerným zastúpením určitých demografických skupín, z čoho vyplýva zaujatosť voči <articleLink>mužom a strednej triede</articleLink>. Prízvuky a dialekty, ktoré sú často nedostatočne zastúpené v trénovacích datasetoch, sú typicky asociované s marginalizovanými skupinami obyvateľstva. Mnoho strojov má taktiež problém s rozpoznávaním ženských hlasov.
     Kvôli tomuto chceme mať v našej databáze pestrosť!
 faq-why-my-lang-q = Prečo môj jazyk zatiaľ nie je zahrnutý?
-faq-why-my-lang-new-a = Mozilla nevyberá ani uprednostňuje žiadny jazyk pred iným. Namiesto toho je Common Voice čisto komunitnou iniciatívou, ale je potrebných <multilangLink>niekoľko krokov pre pridanie nového jazyka</multilangLink> a spustenie zberu hlasových darov. Najprv je potrebné preložiť webovú stránku Common Voice, aby členovia komunity mali prístup k skúsenostiam prispievateľov vo svojom vlastnom jazyku. Ďalej potrebujeme veľkú zbierku viet bez autorských práv, ktoré môžu ľudia čítať nahlas. Keď sú obidve tieto požiadavky splnené, jazyk je systéme Common Voice „spustený“ pre ľudí, ktorí môžu začať zaznamenávať svoj hlas a overovať nahrávky ostatných. Ak chcete pomôcť spustiť nový jazyk, prejdite na náš <sentenceCollectorLink> nástroj na zhromažďovanie viet </sentenceCollectorLink>, aby ste mohli začať.
+faq-why-my-lang-a =
+    Common Voice je crowdsourcingová platforma, všetky jazyky pridali dobrovoľníci.
+    Boli by sme radi, keby ste pridali svoj jazyk! <languageRequestLink>Zistite, ako pridať nový jazyk</languageRequestLink>.
 faq-what-quality-q = Aká kvalita zvuku je potrebná na použitie hlasového klipu v datasete?
 faq-what-quality-a = Chceme, aby dataset Common Voice odrážal kvalitu zvuku, ktorú bude systém prevodu reči na text počuť v teréne, takže hľadáme rozmanitosť. Okrem rôznorodej komunity hovoriacich, dataset s rôznou kvalitou zvuku naučí systém prevodu reči na text zvládať rôzne situácie v reálnom svete, od rozhovoru v pozadí až po hluk z auta. Pokiaľ je váš hlasový klip zrozumiteľný, mal by byť pre dataset dostatočne dobrý.
 faq-why-10k-hours-q = Prečo je cieľom pri nahrávkach práve 10 000 overených hodín?
@@ -535,12 +561,6 @@ about-dataset-new = Dataset Common Voice
 about-dataset-new-text = Dataset Common Voice obsahuje stovky tisíc hlasových vzoriek, ktoré vývojárom pomáhajú vytvoriť nástroje na rozpoznávanie hlasu.
 about-clip-graveyard = Cintorín nahrávok
 about-clip-graveyard-text = Cintorín nahrávok obsahuje nahrávky, ktoré sa nedostali do hlavnej databázy Common Voice. Rovnako ako hlavná databáza, je aj cintorín k dispozícii na stiahnutie.
-about-partners = Partneri
-about-become-a-partner = Staňte sa partnerom
-about-partnership =
-    Common Voice je projekt spolupráce, ktorý je závislý od našej komunity partnerov a prispievateľov pri zostavovaní najväčšieho open-source datasetu hlasov.
-    
-    Chceli by sme sa poďakovať nasledujúcim ľuďom a organizáciám za pomoc s týmto projektom:
 about-get-involved = Zapojte sa
 about-get-involved-text-2 =
     Chcete pomôcť spraviť technológiu Common Voice ešte lepšou?
@@ -569,9 +589,20 @@ about-playbook-what-is-language-content-3 = Niektoré jazyky majú obrovské roz
 
 about-playbook-how-add-language = Ako pridám jazyk?
 about-playbook-how-add-language-content-1 = Najprv skontrolujte, či váš jazyk <languageLink>už existuje</languageLink>. Ak nie, musíte <strong>preložiť stránku a zozbierať vety</strong>.
-about-playbook-how-add-language-content-2 = <strong>Ak chcete preložiť stránku</strong> – <translateVideo>nastavte</translateVideo> si <pontoonLink>Pontoon</pontoonLink>. Pontoon má veľa jazykov, ale ak nemá váš, môžete si ho <pontoonRequestLink>vyžiadať</pontoonRequestLink>. Potom požiadajte <repoLink>cez GitHub</repoLink> o sprístupnenie projektu Common Voice pre daný jazyk. Ďalšie informácie o <localizationFragment>preklade stránok</localizationFragment>.
-about-playbook-how-add-language-content-3 = <strong>Na zozbieranie viet</strong> – <scVideo>nastavte</scVideo> si <scLink>Zberač viet</scLink>.
-about-playbook-how-add-language-content-4 = <scLinkAdd>Malé počty viet</scLinkAdd> môžete pridať tu alebo môžete vykonať <bulkImportDocsLink>hromadné importy</bulkImportDocsLink> prostredníctvom požiadavky cez Github. Pamätajte, že vety musia byť <licenseLink> dostupné ako CC0 (alebo pod verejnou licenciou)</licenseLink>, alebo môžete napísať svoje vlastné. Ďalšie informácie o <scFragment>zbere viet</scFragment>.
+about-playbook-how-add-language-translating-heading = Preklad stránky
+about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Pozrite si našu príručku o tom, ako používať Pontoon.</translateVideoLink>
+about-playbook-how-add-language-translating-content-2 =
+    Na preklady používame nástroj Mozilly s názvom <pontoonLink>Pontoon</pontoonLink>. Pontoon má veľa jazykov,
+    ale ak nemá váš, môžete <pontoonRequestLink>požiadať o pridanie vášho jazyka</pontoonRequestLink>.
+    Potom, aby bol jazyk dostupný v projekte Common Voice,
+    <githubRepoLink>požiadajte o nový jazyk na GitHube</githubRepoLink>. <localizationFragment>Ďalšie informácie o preklade stránok</localizationFragment>.
+about-playbook-how-add-language-collecting-sentences-heading = Zber viet
+about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>Pozrite si nášho sprievodcu používaním zberača viet</sentenceCollectorVideo>.
+about-playbook-how-add-language-collecting-sentences-content-2 =
+    Môžete <sentenceCollectorLinkAdd>pridať malý počet viet</sentenceCollectorLinkAdd>,
+    alebo môžete vykonať <bulkImportDocsLink>hromadné importy pomocou Githubu</bulkImportDocsLink>.
+    Pamätajte, že vety musia byť <licenseLink>dostupné ako CC0 (alebo pod verejnou licenciou)</licenseLink>, alebo môžete napísať svoje vlastné.
+about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>Ďalšie informácie o zhromažďovaní viet</sentenceCollectorFragment>.
 
 ## How does localization work
 
@@ -635,12 +666,6 @@ about-playbook-how-project-governance-content-4 = Účasť komunity a rozhodovan
 about-playbook-how-project-governance-content-5 = Hodnota a uznanie.
 about-playbook-how-project-governance-content-6 = Vzájomná zodpovednosť.
 about-playbook-how-project-governance-content-7 = <governanceLink>Prečítajte si viac o tom, ako sa riadime</governanceLink>
-mycroft-title = Mycroft Ai
-mycroft-subtitle = Umelá inteligencia
-mycroft-description =
-    Mycroft je prvý open source hlasový asistent.
-    Mycroft funguje všade - na počítači, v aute aj v Raspberry Pi.
-mycroft-secondary-description = Ide o softvér s otvoreným zdrojovým kódom, ktorý je možné slobodne meniť, rozširovať a vylepšovať. Mycroft je možné použiť v čomkoľvek - od vedeckého projektu až po firemnú aplikáciu.
 
 ## Glossary
 
@@ -708,6 +733,10 @@ datasets-positioning =
     
     Na tejto stránke nájdete odkazy iné open-source datasety a, ako bude Common Voice naďalej rásť, aj domov pre naše aktualizácie.
 language = Jazyk
+download-dataset-header = Stiahnuť dataset
+download-delta-explainer = Urobili sme niekoľko zmien. Delta Segments obsahujú len najnovšie klipy od posledného vydania. <deltaLink>Prečítajte si viac o tejto práci</deltaLink>.
+download-dataset-tag = Vyberte požadovaný jazykový súbor údajov a vyberte verziu, ktorú chcete stiahnuť.
+download-dataset-access = Hľadáte predchádzajúce vydania datasetov? Pošlite e-mail na <emailLink> { $email } </emailLink
 # File size in gigabytes
 size = Veľkosť
 validated-hr-total = Overených Hod. Spolu
@@ -823,7 +852,8 @@ language-search-input =
 language-speakers = Počet prispievateľov
 localized = Preklad stránky
 sentences = Počet viet
-total-hours = Počet overených hodín
+language-validation-hours = Hodiny
+language-validation-progress = Stav overovania
 
 ## Contribution
 
@@ -994,22 +1024,22 @@ set-a-goal = Vytvoriť cieľ
 cant-decide = Nemôžete sa rozhodnúť?
 activity-needed-calculation-plural =
     { NUMBER($totalHours) ->
-        [one] { $totalHours } hodina
-        [few] { $totalHours } hodiny
-       *[other] { $totalHours } hodín
-    }je dosiahnuteľných už o{ NUMBER($periodMonths) ->
-        [one] { $periodMonths } mesiac
-        [few] { $periodMonths } mesiace
-       *[other] { $periodMonths } mesiacov
-    }ak{ NUMBER($people) ->
-        [one] { $people } človek
-        [few] { $people } ľudia
-       *[other] { $people } ľudí
-    }nahrá{ NUMBER($clipsPerDay) ->
-        [one] { $clipsPerDay } nahrávku
-        [few] { $clipsPerDay } nahrávky
-       *[other] { $clipsPerDay } nahrávok
-    }za deň.
+        [one] { $totalHours } hodina je dosiahnuteľných už o
+        [few] { $totalHours } hodiny je dosiahnuteľných už o
+       *[other] { $totalHours } hodín je dosiahnuteľných už o
+    }{ NUMBER($periodMonths) ->
+        [one] { $periodMonths } mesiac ak
+        [few] { $periodMonths } mesiace ak
+       *[other] { $periodMonths } mesiacov ak
+    }{ NUMBER($people) ->
+        [one] { $people } človek nahrá
+        [few] { $people } ľudia nahrá
+       *[other] { $people } ľudí nahrá
+    }{ NUMBER($clipsPerDay) ->
+        [one] { $clipsPerDay } nahrávku za deň.
+        [few] { $clipsPerDay } nahrávky za deň.
+       *[other] { $clipsPerDay } nahrávok za deň.
+    }
 how-many-per-day = Skvelé! Koľko nahrávok za deň?
 how-many-a-week = Skvelé! Koľko nahrávok za týždeň?
 which-goal-type = Chcete hovoriť, počúvať alebo oboje?
@@ -1519,3 +1549,21 @@ sc-validation-no-abbreviations = Veta by nemala obsahovať skratky
 
 localization-select =
     .label = Vyberte jazyk/lokalizáciu
+# PARTNERSHIPS PAGE
+partnerships-header = Partnerstvá
+partnerships-header-text = Realizácia Common Voice si vyžaduje veľa! Nerobíme to sami. Chcete sa s nami stať partnerom? Dajte nám vedieť.
+partnerships-get-in-touch = Spojte sa s nami
+partnerships-become-a-partner = Staňte sa partnerom Common Voice
+partnerships-community-header = Komunita, kreatíva a občianska spoločnosť
+partnerships-community-description = Komunita je pulzujúcim srdcom Common Voice – pochádzajú z celého sveta a sú jazykovými aktivistami, vedcami a umelcami. Viac o tom, ako sa zapojiť, sa dozviete na našej stránke <about>O nás</about> a v našej <community>príručke komunity</community>. Ak máte záujem o hlbšie organizačné partnerstvo, <emailFragment>kontaktujte nás</emailFragment>.
+partnerships-foundations-header = Nadácie
+partnerships-foundations-description = Spolupracujeme s nadáciami, občianskou spoločnosťou a komunitnými partnermi, aby sa internet stal zdravším miestom s osobitným zameraním na východnú Afriku. Prečítajte si viac o našich <programmaticWork>programoch</programmaticWork>.
+partnerships-governments-header = Vlády
+partnerships-governments-description = Sme nadšení, že môžeme podporiť angažovanosť verejného sektora v oblasti technológií, inovácií a jazykových práv. Ak plánujete spustiť veľký projekt alebo kampaň, <emailFragment>kontaktujte nás</emailFragment>.
+partnerships-academia-header = Univerzity, akademici a výskumní pracovníci
+partnerships-academia-description = Otvorená inovácia je jadrom toho, čo robíme. Ak potrebujete spoluprácu pri výskume, zber údajov alebo rozhovory, <emailFragment>kontaktujte nás</emailFragment>.
+partnerships-small-business-header = Malé podniky vrátane začínajúcich podnikov v oblasti technológií a AI
+partnerships-small-business-description = Vždy sa snažíme načúvať potrebám spotrebiteľov našich údajov – od spolupráce na platforme zberu údajov až po poskytovanie štatistík o stave údajov. <emailFragment>Dajte nám vedieť o tých vašich</emailFragment>.
+partnerships-corporates-header = Veľké korporácie a platformové spoločnosti
+partnerships-corporates-description = Ak chcete o súbore údajov hovoriť viac, chcete spoluinvestovať do plánovaného rozšírenia platformy alebo hľadať možnosti spolupráce, <emailFragment>napíšte nám</emailFragment>.
+partnerships-our-partners = Naši partneri

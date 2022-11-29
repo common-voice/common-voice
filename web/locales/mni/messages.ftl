@@ -11,9 +11,12 @@ loading = ꯆꯤꯡꯊꯔꯤ
 email-opt-in-info = ꯑꯩꯅ ꯏꯃꯦꯜ ꯂꯥꯛꯍꯟꯕ ꯄꯥꯝꯃꯤ ꯄꯥꯟꯖꯤꯜ ꯅꯤꯡꯁꯤꯡꯍꯟꯕ, ꯑꯆꯝꯕ ꯈꯣꯟꯖꯦꯜ ꯄꯥꯎꯁꯤꯡ ꯱ꯁꯨꯡ ꯑꯅꯧꯕ ꯂꯥꯛꯄꯁꯤꯡ ꯫
 email-opt-in-info-title = ꯑꯆꯝꯕ ꯈꯣꯟꯖꯦꯜ ꯄꯥꯎꯖꯦꯜ ꯊꯥꯅꯕ ꯄꯔꯤꯡꯗ ꯌꯥꯎꯁꯤꯟꯂꯨ
 email-opt-in-info-sub-with-challenge = ꯃꯁꯤꯒꯨꯝꯕ ꯑꯁꯤꯗ  ꯏꯃꯦꯜ ꯂꯥꯛꯍꯟꯕ ꯄꯥꯝꯃꯤ ꯑꯋꯥꯕ ꯈꯨꯗꯣꯡ ꯆꯑꯗꯕꯁꯤꯡ, ꯄꯥꯟꯖꯤꯜ ꯅꯤꯡꯁꯤꯡꯍꯟꯕ, ꯑꯆꯝꯕ ꯈꯣꯟꯖꯦꯜ ꯄꯥꯎꯁꯤꯡ ꯱ꯁꯨꯡ ꯑꯅꯧꯕ ꯂꯥꯛꯄꯁꯤꯡ ꯫
+email-opt-in-privacy-v2 = ꯏꯃꯦꯜꯁꯤꯡ ꯐꯪꯅꯕꯥ ꯈꯟꯗꯨꯅꯥ ꯅꯍꯥꯛꯅꯥ ꯃꯣꯖꯤꯂꯥꯒꯤ <privacyLink>>ꯑꯔꯣꯟꯕ ꯊꯧꯔꯥꯡ</privacy Link>ꯗꯥ ꯄꯅꯈ꯭ꯔꯤꯕꯥ ꯃꯇꯨꯡ ꯏꯟꯅꯥ ꯃꯣꯖꯤꯂꯥꯅꯥ ꯏꯅꯐꯣꯔꯃꯦꯁꯟ ꯑꯁꯤ ꯍꯦꯟꯗꯜ ꯇꯧꯕꯗꯥ ꯅꯍꯥꯛꯅꯥ ꯑꯣꯀꯦ ꯍꯥꯏꯅꯥ ꯍꯥꯏꯔꯤ꯫
 indicates-required = * ꯃꯁꯤꯅ ꯇꯥꯛꯂꯤꯕ ꯑꯁꯤ ꯁꯣꯢꯗꯅ ꯆꯪꯕ
 not-available-abbreviation = ꯐꯪꯗꯕ
 banner-error-slow-1 = ꯄꯨꯛꯅꯤꯡ ꯂꯩꯇꯥꯕꯤꯌꯨ, ꯑꯆꯝꯕ ꯈꯣꯟꯖꯦꯜ ꯑꯁꯤ ꯌꯥꯝꯅ ꯇꯞꯅ ꯆꯠꯂꯤ ꯫ ꯊꯥꯒꯠꯆꯔꯤ ꯑꯗꯣꯝꯅ ꯊꯧꯋꯥꯢ ꯌꯥꯎꯕꯤꯕꯒꯤ ꯫
+banner-error-slow-2 = ꯑꯩꯈꯣꯏꯅꯥ ꯇ꯭ꯔꯥꯐꯤꯛ ꯀꯌꯥ ꯑꯃꯥ ꯐꯪꯂꯤ ꯑꯃꯁꯨꯡ ꯍꯧꯖꯤꯛ ꯋꯥꯐꯃꯁꯤꯡ ꯑꯁꯤ ꯊꯤꯖꯤꯜꯂꯤ ꯫
+banner-error-slow-link = ꯂꯃꯥꯏ ꯊꯥꯛ
 error-something-went-wrong = ꯄꯨꯛꯅꯤꯡ ꯐꯥꯊꯕꯤꯌꯨ, ꯑꯁꯣꯢꯕ ꯈꯔꯥ ꯂꯩꯔꯦ
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
@@ -53,6 +56,7 @@ da = ꯗꯦꯅꯤꯁ
 de = ꯖꯔꯃꯟ
 dsb = ꯁꯣꯔꯕꯤꯌꯥꯟ, ꯅꯦꯝꯊꯕ
 dv = ꯗꯤꯚꯦꯍꯤ
+dyu = ꯗꯤꯑꯧꯂꯥ
 el = ꯒ꯭ꯔꯤꯛ
 en = ꯏꯪꯂꯤꯁ
 eo = ꯏꯁꯄꯦꯔꯥꯟꯇꯣ
@@ -99,6 +103,7 @@ ko = ꯀꯣꯔꯤꯌꯥꯟ
 kpv = ꯀꯣꯃꯤ-ꯓꯥꯏꯔꯤꯌꯥꯟ
 kw = ꯀꯣꯔꯅꯤꯁ
 ky = ꯀꯌ꯭ꯔꯒꯤꯁ
+lb = ꯂꯨꯁꯦꯝꯕꯧꯔꯒꯤꯁ
 lg = ꯂꯨꯒꯥꯟꯗ
 lij = ꯂꯤꯒꯨꯔꯤꯌꯥꯟ
 lt = ꯂꯤꯊꯨꯑꯥꯅꯤꯌꯥꯟ
@@ -133,6 +138,7 @@ pl = ꯄꯣꯂꯤꯁ
 ps = ꯄꯥꯁꯇꯣ
 pt = ꯄꯣꯔꯇꯨꯒꯤꯁ
 quc = ꯀ'ꯆꯦ
+quy = ꯀ꯭ꯌꯆꯨꯑ ꯆꯥꯟꯀꯥ
 rm-sursilv = ꯔꯣꯃꯥꯟꯁ ꯁꯔꯁꯤꯜꯚꯥꯟ
 rm-vallader = ꯔꯣꯃꯥꯟꯁ ꯚꯥꯂꯥꯟꯗꯔ
 ro = ꯔꯣꯃꯥꯅꯤꯌꯥꯟ
@@ -201,6 +207,7 @@ cookies = ꯃꯊꯪ ꯆꯪꯕ ꯅꯨꯡꯉꯥꯏꯅꯕ ꯂꯦꯝꯍꯧꯈꯥꯛ
 faq = ꯇꯍꯋ
 content-license-text = ꯃꯅꯨꯡꯒꯤ ꯑꯌꯥꯎꯕꯁꯤ <licenseLink>ꯀ꯭ꯔꯤꯌꯦꯇꯤꯪꯚ ꯀꯃꯟꯁ ꯑꯌꯥꯕ</licenseLink>ꯒꯤ ꯃꯈꯥꯗ ꯐꯪꯕꯅꯤ
 share-title = ꯑꯩꯈꯣꯏꯗ ꯃꯇꯦꯡ ꯄꯥꯡꯎ ꯑꯇꯩꯒꯤ ꯈꯣꯟꯖꯦꯜ ꯀꯠꯊꯣꯛꯅꯕ!
+share-text = ꯑꯁꯦꯡꯕꯥ ꯃꯤꯑꯣꯏꯁꯤꯡꯅꯥ ꯃꯇꯧ ꯀꯔꯝꯅꯥ ꯋꯥꯔꯤ ꯁꯥꯅꯕꯒꯦ ꯍꯥꯏꯕꯗꯨ ꯃꯦꯁꯤꯟꯁꯤꯡꯗꯥ ꯇꯝꯕꯤꯕꯗꯥ ꯃꯇꯦꯡ ꯄꯥꯡꯕꯤꯌꯨ, ꯅꯍꯥꯛꯀꯤ ꯈꯣꯟꯖꯦꯜ ꯑꯗꯨ ꯈꯨꯗꯣꯜ ꯇꯧꯕꯤꯌꯨ꯫
 link-copied = ꯁꯝꯅꯕꯝ ꯁꯤꯟꯖꯤꯟꯍꯧꯔꯦ
 back-top = ꯃꯅꯤꯡꯗꯒꯤ ꯃꯇꯣꯟ
 logout = ꯃꯄꯥꯟ ꯊꯣꯛꯂꯛꯄ
@@ -212,6 +219,9 @@ default-tagline = ꯃꯣꯓꯤꯂꯥ ꯑꯆꯝꯕ ꯈꯣꯟꯖꯦꯜ ꯑꯁꯤ �
 home-cta = ꯋꯥ ꯉꯥꯡꯉꯨ, ꯃꯁꯤꯗ ꯁꯔꯨꯛꯌꯥꯔꯨꯂꯥꯎ!
 wall-of-text-start = ꯈꯣꯖꯦꯜ ꯑꯁꯤ ꯃꯍꯧꯁꯥꯅꯤ, ꯈꯣꯟꯖꯦꯜ ꯑꯁꯤ ꯃꯤꯑꯣꯏꯕꯅꯤ ꯫ ꯃꯁꯤꯅ ꯃꯔꯝ ꯑꯣꯏꯔꯒ ꯑꯩꯈꯣꯏꯅ ꯁꯤꯖꯤꯟꯅꯕ ꯌꯥꯕ ꯈꯣꯟꯖꯦꯜ ꯁꯦꯝꯕ ꯄꯥꯝꯂꯤꯕꯁꯤ ꯃꯦꯆꯤꯟ ꯑꯁꯤꯒꯤ ꯁꯤꯟ-ꯁꯥꯔꯣꯜ ꯫ ꯑꯗꯨꯕꯨ ꯈꯣꯟꯖꯦꯜꯒꯤ ꯊꯧꯁꯤꯜꯁꯤꯡ ꯁꯦꯝꯕꯗ, ꯌꯥꯝꯅ ꯆꯥꯎꯕ ꯈꯧꯟꯖꯦꯜꯒꯤ ꯗꯥꯇꯥ ꯱ ꯃꯊꯧꯇꯥꯔꯤ ꯫
 wall-of-text-more-mobile = ꯑꯆꯧꯕ ꯁꯤꯟꯂꯝꯁꯤꯡꯅ ꯁꯤꯖꯤꯟꯅꯔꯤꯕ ꯗꯥꯇꯥꯁꯤꯡ ꯑꯁꯤ ꯃꯤꯌꯥꯝ ꯑꯌꯥꯝꯕꯗ ꯐꯪꯗꯦ ꯫ ꯑꯩꯈꯣꯏꯅ ꯈꯟꯂꯤ ꯃꯇꯣꯟ ꯇꯨꯝꯅ ꯑꯅꯧꯕ ꯄꯨꯊꯣꯛꯂꯛꯄ ꯑꯣꯏꯅ ꯫ ꯃꯁꯤꯅ ꯃꯔꯝ ꯑꯣꯏꯔꯒ ꯑꯆꯝꯕ ꯈꯣꯟꯖꯦꯜ ꯊꯧꯔꯥꯡ ꯂꯤꯡꯈꯠꯂꯤꯕ, ꯊꯧꯔꯥꯡ ꯑꯁꯤꯅ ꯈꯣꯟꯖꯦꯜ ꯈꯪꯗꯣꯛꯇꯨꯅ ꯃꯤꯌꯥꯝ ꯈꯨꯗꯤꯡꯃꯛꯅ ꯁꯤꯖꯤꯟꯅꯕ ꯌꯥꯅꯕ ꯫
+wall-of-text-more-desktop =
+    ꯍꯧꯖꯤꯛꯇꯤ ꯑꯗꯣꯝꯅꯥ ꯑꯗꯣꯝꯒꯤ ꯈꯣꯟꯖꯦꯜ ꯑꯁꯤ ꯀꯅꯥꯒꯨꯝꯕꯥ ꯑꯃꯍꯦꯛꯇꯅꯥ ꯁꯤꯖꯤꯟꯅꯕꯥ ꯌꯥꯕꯥ ꯑꯣꯄꯟ-ꯁꯣꯔꯁ ꯈꯣꯟꯖꯦꯜ ꯗꯦꯇꯥꯕꯦꯖ ꯑꯃꯥ ꯁꯦꯝꯒꯠꯄꯗꯥ ꯃꯇꯦꯡ ꯄꯥꯡꯅꯕꯥ ꯑꯗꯣꯃꯒꯤ ꯈꯣꯟꯖꯦꯜ ꯄꯤꯕꯥ ꯌꯥꯔꯦ꯫
+    ꯈꯣꯟꯖꯦꯜꯁꯤꯡ ꯑꯃꯁꯨꯡ ꯋꯦꯕꯀꯤꯗꯃꯛ ꯑꯅꯧꯕꯥ ꯑꯦꯄꯁꯤꯡ ꯁꯦꯃꯒꯠꯅꯕꯥ꯫ ꯃꯦꯁꯤꯟꯁꯤꯡꯅꯥ ꯑꯁꯦꯡꯕꯥ ꯃꯤꯑꯣꯏꯁꯤꯡꯅꯥ ꯀꯔꯝꯅꯥ ꯋꯥꯔꯤ ꯁꯥꯅꯕꯒꯦ ꯍꯥꯏꯕꯗꯨ ꯈꯪꯕꯗꯥ ꯃꯇꯦꯡ ꯄꯥꯡꯅꯕꯥ ꯋꯥꯍꯩ ꯑꯃꯥ ꯄꯥꯕꯤꯌꯨ꯫ ꯑꯇꯣꯞꯄꯒꯤ ꯊꯕꯛꯁꯤꯡ ꯌꯦꯡꯁꯤꯟꯕꯤꯌꯨ꯫ ꯑꯐꯕ ꯆꯥꯡ ꯍꯦꯟꯅꯕꯥ ꯁꯔꯨꯀ ꯌꯥꯔꯤꯕꯁꯤꯡ ꯌꯥꯎꯔꯤ ꯫ ꯃꯁꯤ ꯌꯥꯝꯅꯥ ꯂꯥꯏꯕꯛ ꯐꯕꯅꯤ!
 show-wall-of-text = ꯍꯦꯟꯅ ꯄꯥꯔꯣ
 help-us-title = ꯋꯥꯍꯩꯄꯔꯦꯡ ꯑꯆꯨꯝꯕ ꯑꯣꯏꯍꯟꯕꯗ ꯑꯩꯈꯣꯢꯕꯨ ꯃꯇꯦꯡ ꯄꯥꯡꯎ!
 vote-yes = ꯍꯣꯏ
@@ -281,7 +291,6 @@ shortcut-rerecord-toggle-label = ꯑꯃꯨꯛ ꯍꯟꯅ ꯔꯦꯀ꯭ꯔꯗ ꯇ�
 shortcut-discard-ongoing-recording = ꯑꯃꯨꯛꯍꯟꯕ
 shortcut-submit = ꯍꯟꯂꯨ
 request-language-text = ꯑꯆꯝꯕ ꯈꯣꯟꯖꯦꯜꯒꯤꯗ ꯅꯍꯥꯛꯀꯤ ꯂꯣꯟ ꯎꯗ꯭ꯔꯤꯕ ꯍꯧꯖꯤꯛꯁꯨ ?
-request-language-text-learn = ꯀꯔꯝꯅ ꯍꯪꯒꯠꯀꯅꯤ ꯇꯝꯁꯤꯟꯂꯨ ꯃꯁꯤꯗ !
 request-language-button = ꯂꯣꯟ ꯱ ꯍꯪꯒꯠꯆꯕ
 
 ## ProjectStatus
@@ -374,8 +383,6 @@ about-listen = ꯃꯨꯟꯅ ꯇꯥꯎ
 about-yes-votes = ≥ ꯲ ꯚꯣꯠ ꯄꯤ
 about-no-votes = ≥ ꯲ ꯚꯣꯠ ꯄꯤꯗꯦ
 about-dataset-new = ꯑꯆꯝꯕ ꯈꯣꯟꯖꯦꯜꯒꯤ ꯗꯥꯇꯥꯁꯦꯝꯐꯝ
-about-partners = ꯈꯣꯡꯂꯣꯏ
-about-become-a-partner = ꯈꯣꯡꯂꯣꯢ ꯱ ꯑꯣꯢꯕ
 about-get-involved = ꯌꯥꯎꯁꯤꯟꯕ
 about-nav-why-common-voice = ꯀꯔꯤꯒꯤ?
 about-nav-how-it-works = ꯀꯔꯝꯅ?
@@ -414,7 +421,6 @@ about-playbook-how-add-sentences = ꯑꯩꯅ ꯀꯔꯝꯅ ꯋꯥꯍꯩꯄꯔꯦ�
 
 ## How are decisions made
 
-mycroft-subtitle = ꯈꯨꯠꯁꯦꯝꯒꯤ ꯍꯩꯁꯤꯡꯕ
 
 ## Glossary
 

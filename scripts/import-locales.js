@@ -1,12 +1,11 @@
 const fs = require('fs');
 const path = require('path');
-const mysql = require('mysql2');
+const mysql = require('mysql');
 const { parse } = require('@fluent/syntax');
 const fetch = require('node-fetch');
 const { promisify } = require('util');
 const { getConfig } = require('../server/js/config-helper');
 const TRANSLATED_MIN_PROGRESS = 0.75;
-const CONTRIBUTABLE_MIN_SENTENCES = 5000;
 
 const dataPath = path.join(__dirname, '..', 'locales');
 const localeMessagesPath = path.join(__dirname, '..', 'web', 'locales');
@@ -101,71 +100,36 @@ async function importPontoonLocales() {
 }
 
 async function importContributableLocales(locales) {
-  const pool = mysql.createPool(dbConfig);
-
-  pool.getConnection(async (err, connection) => {
-    if (err) throw err;
-    const db = promisify(connection.query).bind(connection);
-    let locales = {};
-
-    // get existing locales from database w/ target count
-    db(`select * from locales`)
-      .then(data => {
-        locales = data.reduce((obj, locale) => {
-          obj[locale.name] = {
-            name: locale.name,
-            id: locale.id,
-            targetSentenceCount: locale.target_sentence_count,
-          };
-          return obj;
-        }, {});
-      })
-      .finally(async () => {
-        const sentencesPath = path.join(__dirname, '..', 'server', 'data');
-        const oldContributable = JSON.parse(
-          fs.readFileSync(path.join(dataPath, 'contributable.json'), 'utf-8')
-        );
-        const names = fs.readdirSync(sentencesPath).filter(name => {
-          if (oldContributable.includes(name)) {
-            return true;
-          }
-          if (name === 'LICENSE') {
-            return false;
-          }
-          const localeSentencesPath = path.join(sentencesPath, name);
-          const count = fs
-            .readdirSync(localeSentencesPath)
-            .reduce(
-              (count, sentencesFile) =>
-                sentencesFile.endsWith('.txt')
-                  ? count +
-                    fs
-                      .readFileSync(
-                        path.join(localeSentencesPath, sentencesFile),
-                        'utf-8'
-                      )
-                      .split('\n').length
-                  : count,
-              0
-            );
-          const currentLang = locales[name];
-
-          // get target sentence count from db if exists, else use default
-          const currentTargetSentenceCount =
-            currentLang && currentLang.targetSentenceCount
-              ? currentLang.targetSentenceCount
-              : CONTRIBUTABLE_MIN_SENTENCES; //use default if language doesnt exist in db
-
-          const isContributable = count >= currentTargetSentenceCount;
-          if (isContributable)
-            console.log(`Added new contributable locale: ${currentLang.name}`);
-          return isContributable;
-        });
-        saveDataJSON('contributable', names.sort());
-
-        connection.destroy();
-      });
+  const sentencesPath = path.join(__dirname, '..', 'server', 'data');
+  const oldContributable = JSON.parse(
+    fs.readFileSync(path.join(dataPath, 'contributable.json'), 'utf-8')
+  );
+  const names = fs.readdirSync(sentencesPath).filter(name => {
+    if (oldContributable.includes(name)) {
+      return true;
+    }
+    if (name === 'LICENSE') {
+      return false;
+    }
+    const localeSentencesPath = path.join(sentencesPath, name);
+    const count = fs
+      .readdirSync(localeSentencesPath)
+      .reduce(
+        (count, sentencesFile) =>
+          sentencesFile.endsWith('.txt')
+            ? count +
+              fs
+                .readFileSync(
+                  path.join(localeSentencesPath, sentencesFile),
+                  'utf-8'
+                )
+                .split('\n').length
+            : count,
+        0
+      );
+    return count > locales[name].targetSentenceCount;
   });
+  saveDataJSON('contributable', names.sort());
 }
 
 async function buildLocaleNativeNameMapping() {
@@ -189,11 +153,38 @@ async function buildLocaleNativeNameMapping() {
 }
 
 async function importLocales() {
-  await Promise.all([
-    importPontoonLocales(),
-    importContributableLocales(),
-    buildLocaleNativeNameMapping(),
-  ]);
+  try {
+    const pool = mysql.createPool(dbConfig);
+
+    pool.getConnection(async (err, connection) => {
+      if (err) throw err;
+      const db = promisify(connection.query).bind(connection);
+      let locales = {};
+
+      db(`select * from locales`)
+        .then(data => {
+          locales = data.reduce((obj, locale) => {
+            obj[locale.name] = {
+              name: locale.name,
+              id: locale.id,
+              targetSentenceCount: locale.target_sentence_count,
+            };
+            return obj;
+          }, {});
+        })
+        .finally(async () => {
+          await Promise.all([
+            importPontoonLocales(),
+            importContributableLocales(locales),
+            buildLocaleNativeNameMapping(),
+          ]);
+          connection.destroy();
+        });
+    });
+  } catch (error) {
+    console.error(error);
+    process.exit(1);
+  }
 }
 
 importLocales().catch(e => console.error(e));

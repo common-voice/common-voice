@@ -40,10 +40,12 @@ ba = Basjkiers
 bas = Basaa
 be = Wit-Russisch
 bg = Bulgaars
+bm = Bambara
 bn = Bengaals
 br = Bretons
 bs = Bosnisch
 bxr = Boerjatisch
+byv = Medumba
 ca = Catalaans
 cak = Kaqchikel
 ckb = Centraal-Koerdisch
@@ -53,9 +55,11 @@ cs = Tsjechisch
 cv = Chuvash
 cy = Welsh
 da = Deens
+dag = Dagbani
 de = Duits
 dsb = Nedersorbisch
 dv = Divehi
+dyu = Dioula
 el = Grieks
 en = Engels
 eo = Esperanto
@@ -75,6 +79,7 @@ gom = Goanees Konkani
 ha = Hausa
 he = Hebreeuws
 hi = Hindi
+hil = Hiligaynon
 hr = Kroatisch
 hsb = Oppersorbisch
 ht = Haïtiaans
@@ -89,6 +94,7 @@ is = IJslands
 it = Italiaans
 izh = Izjorisch
 ja = Japans
+jbo = Lojban
 ka = Georgisch
 kaa = Karakalpaks
 kab = Kabylisch
@@ -97,6 +103,7 @@ ki = Kikuyu
 kk = Kazachs
 km = Khmer
 kmr = Kurmanci
+kn = Kannada
 knn = Konkani (Devanagari)
 ko = Koreaans
 kpv = Zurjeens
@@ -105,6 +112,8 @@ ky = Kirgizisch
 lb = Luxemburgs
 lg = Luganda
 lij = Ligurisch
+ln = Lingala
+lo = Laotiaans
 lt = Litouws
 lv = Lets
 mai = Maithili
@@ -124,12 +133,16 @@ my = Burmees
 myv = Erzja
 nan-tw = Taiwanees (Minnan)
 nb-NO = Noors Bokmål
+nd = IsiNdebele (Noordelijk)
 ne-NP = Nepalees
 nia = Nias
 nl = Nederlands
 nn-NO = Noors Nynorsk
+nr = IsiNdebele (Zuidelijk)
+nso = Noord-Sotho
 nyn = Nyankole
 oc = Occitaans
+om = Afaan Oromo
 or = Odia
 pa-IN = Punjabi
 pap-AW = Papiaments (Aruba)
@@ -147,14 +160,18 @@ sah = Jakoets
 sat = Santali (Ol Chiki)
 sc = Sardijns
 scn = Siciliaans
+sdh = Zuid-Koerdisch
 shi = Tashelhiyt (Shilha)
 si = Singalees
 sk = Slowaaks
 skr = Saraiki
 sl = Sloveens
+snk = Soninke
 so = Somalisch
 sq = Albanees
 sr = Servisch
+ss = Siswati
+st = Zuid-Sotho
 sv-SE = Zweeds
 sw = Swahili
 syr = Syrisch
@@ -166,8 +183,10 @@ ti = Tigrinya
 tig = Tigre
 tk = Turkmeens
 tl = Tagalog
+tn = Tswana
 tok = Toki Pona
 tr = Turks
+ts = Tsonga
 tt = Tataars
 tw = Twi
 ty = Tahitiaans
@@ -177,15 +196,20 @@ ug = Oeigoers
 uk = Oekraïens
 ur = Urdu
 uz = Oezbeeks
+ve = Venda
 vec = Venetiaans
 vi = Vietnamees
 vot = Wotisch
+xh = Xhosa
 yi = Jiddisch
 yo = Yoruba
 yue = Kantonees
+zgh = Tamazight
 zh-CN = Chinees (China)
 zh-HK = Chinees (Hongkong)
 zh-TW = Chinees (Taiwan)
+zu = Zoeloe
+zza = Zazaki
 
 # [/]
 
@@ -197,6 +221,7 @@ speak-now = Nu spreken
 datasets = Gegevenssets
 languages = Talen
 about = Over ons
+partner = Partner worden
 profile = Profiel
 help = Help
 contact = Contact
@@ -313,7 +338,6 @@ shortcut-discard-ongoing-recording-label = Lopende opname verwerpen
 shortcut-submit = Terug
 shortcut-submit-label = Fragmenten indienen
 request-language-text = Ziet u uw taal nog niet op Common Voice?
-request-language-text-learn = Lees hier hoe u het kunt aanvragen!
 request-language-button = Een taal aanvragen
 
 ## ProjectStatus
@@ -450,7 +474,9 @@ faq-why-different-speakers-a =
     De meeste spraakdatabases worden getraind met een oververtegenwoordiging van bepaalde demografische groepen, wat leidt tot een voorkeur voor <articleLink>mannelijk en uit de middenklasse</articleLink>. Accenten en dialecten die vaak ondervertegenwoordigd zijn in trainingsgegevenssets worden meestal in verband gebracht met groepen mensen die al gemarginaliseerd zijn. Veel machines hebben ook moeite met het begrijpen van vrouwelijke stemmen.
     Dit is de reden waarom we variatie in onze spraakdatabase willen!
 faq-why-my-lang-q = Waarom zit mijn taal er nog niet bij?
-faq-why-my-lang-new-a = Mozilla verkiest niet de ene taal boven de andere. In plaats daarvan is Common Voice een initiatief dat uitsluitend door de gemeenschap wordt aangestuurd, maar het vergt <multilangLink>diverse stappen om een nieuwe taal toe te voegen</multilangLink> en met het verzamelen van spraakdonaties te beginnen. Allereerst moet de Common Voice-website worden vertaald, zodat gemeenschapsleden in hun eigen taal toegang hebben tot de ervaring van de bijdrager. Vervolgens hebben we een grote verzameling auteursrechtvrije zinnen nodig die mensen kunnen voorlezen. Zodra aan beide vereisten is voldaan, wordt een taal ‘uitgebracht’ op Common Voice, zodat mensen hun stem kunnen opnemen en donaties van anderen kunnen valideren. Als u een nieuwe taal beschikbaar wilt helpen maken, ga dan naar ons <sentenceCollectorLink>hulpmiddel voor zinnenverzameling</sentenceCollectorLink> om te beginnen.
+faq-why-my-lang-a =
+    Common Voice is een crowdsourcingplatform en de talen zijn allemaal toegevoegd door vrijwilligers.
+    We zouden graag zien dat u uw taal toevoegt! <languageRequestLink>Vraag naar het toevoegen van uw taal.</languageRequestLink>
 faq-what-quality-q = Welk geluidskwaliteitsniveau is nodig voor een spraakfragment om in de gegevensset te kunnen worden gebruikt?
 faq-what-quality-a = We willen dat de Common Voice-gegevensset de audiokwaliteit weerspiegelt die een spraak-naar-tekst-engine in het wild zal horen, dus we zijn op zoek naar afwisseling. Naast een gevarieerde sprekersgemeenschap leert een gegevensset met verschillende audiokwaliteiten de spraak-naar-tekst-engine om verschillende levensechte situaties aan te kunnen, van achtergrondgeluid tot autolawaai. Zolang uw spraakopname begrijpelijk is, moet deze goed genoeg zijn voor de gegevensset.
 faq-why-10k-hours-q = Waarom is de doelstelling voor geluidsopnamen 10.000 uur per taal?
@@ -520,12 +546,6 @@ about-dataset-new = Common Voice-gegevensset
 about-dataset-new-text = De Common Voice-gegevensset bevat honderdduizenden spraakfragmenten die ontwikkelaars spraakherkenningshulpmiddelen helpen bouwen.
 about-clip-graveyard = Fragmentenkerkhof
 about-clip-graveyard-text = Het Fragmentenkerkhof bestaat uit stemfragmenten die de Common Voice-gegevensset niet hebben gehaald. Net als de gegevensset kan het Fragmentenkerkhof worden gedownload.
-about-partners = Partners
-about-become-a-partner = Een partner worden
-about-partnership =
-    Common Voice is een samenwerkingsproject en we zijn afhankelijk van onze gemeenschap van partners en medewerkers om de grootste open source gegevensset van stemmen ooit te bouwen.
-    
-    We willen de volgende mensen en organisaties bedanken voor hun hulp bij het project:
 about-get-involved = Meedoen
 about-get-involved-text-2 =
     Wilt u helpen Common Voice nog beter te maken?
@@ -555,9 +575,20 @@ about-playbook-what-is-language-content-3 = Sommige talen hebben een enorme vari
 
 about-playbook-how-add-language = Hoe voeg ik een taal toe?
 about-playbook-how-add-language-content-1 = Controleer eerst of uw taal <languageLink>al bestaat</languageLink>. Als dat niet het geval is, moet u <strong>de website vertalen en zinnen verzamelen</strong>.
-about-playbook-how-add-language-content-2 = <strong>Om de website te vertalen</strong> – zorg dat u <translateVideo>bent ingesteld</translateVideo> op <pontoonLink>Pontoon</pontoonLink>. Pontoon bevat veel talen, maar als de uwe er niet bij zit, kunt u <pontoonRequestLink>deze aanvragen</pontoonRequestLink>. Vraag vervolgens <repoLink>via GitHub</repoLink> om het Common Voice-project beschikbaar te maken voor de taal. Meer info over <localizationFragment>websitevertaling</localizationFragment>.
-about-playbook-how-add-language-content-3 = <strong>Om zinnen te verzamelen</strong> – <scVideo>stel</scVideo> <scLink>Sentence Collector</scLink> in.
-about-playbook-how-add-language-content-4 = U kunt hier <scLinkAdd>kleine aantallen</scLinkAdd> zinnen toevoegen, of u kunt <bulkImportDocsLink>bulkimport</bulkImportDocsLink> doen via een Github-verzoek. Onthoud dat zinnen <licenseLink>CC0 (of publiek domein)</licenseLink> moeten zijn, of u kunt uw eigen zinnen schrijven. Meer info over <scFragment>zinnenverzameling</scFragment>.
+about-playbook-how-add-language-translating-heading = De website vertalen
+about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Bekijk onze gids voor het gebruik van Pontoon.</translateVideoLink>
+about-playbook-how-add-language-translating-content-2 =
+    We gebruiken een Mozilla-tool genaamd <pontoonLink>Pontoon</pontoonLink> voor vertalingen. Pontoon heeft veel talen,
+    maar als het die van u niet heeft, kunt u <pontoonRequestLink>verzoeken om uw taal toe te voegen</pontoonRequestLink>.
+    Om vervolgens de taal beschikbaar te maken voor het Common Voice-project,
+    <githubRepoLink>vraagt u de nieuwe taal op GitHub aan</githubRepoLink>. <localizationFragment>Meer info over websitevertalingen</localizationFragment>.
+about-playbook-how-add-language-collecting-sentences-heading = Zinnen verzamelen
+about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>Bekijk onze handleiding over het gebruik van de Sentence Collector</sentenceCollectorVideo>.
+about-playbook-how-add-language-collecting-sentences-content-2 =
+    U kunt <sentenceCollectorLinkAdd>kleine aantallen zinnen toevoegen</sentenceCollectorLinkAdd>,
+    of u kunt <bulkImportDocsLink>bulkimport doen met Github</bulkImportDocsLink>.
+    Onthoud dat zinnen <licenseLink>CC0 (of publiek domein)</licenseLink> moeten zijn, of u kunt uw eigen zinnen schrijven.
+about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>Meer info over het verzamelen van zinnen</sentenceCollectorFragment>.
 
 ## How does localization work
 
@@ -621,12 +652,6 @@ about-playbook-how-project-governance-content-4 = Deelname van en besluitvorming
 about-playbook-how-project-governance-content-5 = Waarde en erkenning.
 about-playbook-how-project-governance-content-6 = Wederzijdse verantwoordelijkheid.
 about-playbook-how-project-governance-content-7 = <governanceLink>Meer info over hoe we worden bestuurd</governanceLink>
-mycroft-title = Mycroft AI
-mycroft-subtitle = Kunstmatige intelligentie
-mycroft-description =
-    Mycroft is ’s werelds eerste open source assistent.
-    Mycroft draait overal – op een desktopcomputer, in een auto of op een Raspberry Pi.
-mycroft-secondary-description = Dit is opensourcesoftware die vrij kan worden geremixt, uitgebreid en verbeterd. Mycroft mag worden gebruikt in alles van een wetenschappelijk project tot een zakelijke softwaretoepassing.
 
 ## Glossary
 
@@ -694,6 +719,10 @@ datasets-positioning =
     
     Beschouw deze pagina als een lijst met referenties naar andere opensource-spraakgegevenssets en, terwijl Common Voice doorgroeit, de startpagina voor onze nieuwe uitgaven.
 language = Taal
+download-dataset-header = De gegevensset downloaden
+download-delta-explainer = We hebben enkele wijzigingen aangebracht. Delta Segments bevatten alleen de meest recente fragmenten sinds de vorige versie. <deltaLink>Meer info over dit werk</deltaLink>.
+download-dataset-tag = Selecteer de gewenste taalgegevensset en kies de versie die u wilt downloaden.
+download-dataset-access = Op zoek naar eerdere versies van de gegevensset? Stuur een e-mailbericht naar <emailLink> { $email } </emailLink
 # File size in gigabytes
 size = Grootte
 validated-hr-total = Totaal aantal gevalideerde uren
@@ -826,7 +855,8 @@ language-search-input =
 language-speakers = Sprekers
 localized = Vertaald
 sentences = Zinnen
-total-hours = Uren totaal
+language-validation-hours = Uren
+language-validation-progress = Validatievoortgang
 
 ## Contribution
 
@@ -1559,7 +1589,6 @@ sc-review-link = Beoordelen
 
 sc-settings-title = Instellingen
 sc-settings-ui-language = Interfacetaal
-sc-settings-language-translated-warning = De pagina’s voor deze taal zijn mogelijk niet volledig vertaald. U kunt helpen met vertalen <pontoonLinkLink>op Pontoon</pontoonLinkLink>.
 sc-settings-reset-skipped = Overgeslagen zinnen herinitialiseren
 sc-settings-skipped-decription =
     U hebt eerder zinnen overgeslagen tijdens het beoordelen.
@@ -1577,3 +1606,21 @@ sc-validation-no-abbreviations = Zin mag geen afkortingen bevatten
 
 localization-select =
     .label = Kies uw taal/localisatie
+# PARTNERSHIPS PAGE
+partnerships-header = Partners
+partnerships-header-text = Er komt veel kijken bij Common Voice! We doen het niet alleen. Wilt u met ons samenwerken? We horen graag van u.
+partnerships-get-in-touch = Contact opnemen
+partnerships-become-a-partner = Word een Common Voice-partner
+partnerships-community-header = Gemeenschap, creatievelingen en het maatschappelijk middenveld
+partnerships-community-description = De gemeenschap is het kloppende hart van Common Voice – de leden komen van over de hele wereld en zijn taalactivisten, wetenschappers en kunstenaars. U kunt meer informatie vinden over hoe u mee kunt doen op onze pagina <about>Over</about> en in ons <community>Gemeenschapsplaybook</community>. Als u geïnteresseerd bent in een diepere samenwerking tussen organisaties, <emailFragment>neem dan contact met ons op.</emailFragment>
+partnerships-foundations-header = Stichtingen
+partnerships-foundations-description = We werken samen met stichtingen, het maatschappelijk middenveld en gemeenschapspartners om het internet gezonder te maken, met een bijzondere focus op Oost-Afrika. Meer info over ons <programmaticWork>programmatische werk.</programmaticWork>
+partnerships-governments-header = Overheden
+partnerships-governments-description = We ondersteunen graag de publieke sector op de vlakken van technologie, innovatie en taalrechten. Als u van plan bent een groot project of campagne te starten, neem dan <emailFragment>contact op.</emailFragment>
+partnerships-academia-header = Universiteiten, academici en onderzoekers
+partnerships-academia-description = Open innovatie staat centraal in wat we doen. Neem voor onderzoekssamenwerkingen, gegevensverzameling of interviews <emailFragment>contact op.</emailFragment>
+partnerships-small-business-header = Midden- en kleinbedrijven, waaronder technische en AI-startups
+partnerships-small-business-description = We horen altijd graag van gegevensconsumenten over hun behoeften en context – van samenwerking op het gegevensverzamelingsplatform tot het verstrekken van inzichten in de gegevensgezondheid, we willen <emailFragment>van u horen.</emailFragment>
+partnerships-corporates-header = Grootschalige bedrijven en platformbedrijven
+partnerships-corporates-description = Als u meer wilt spreken over de gegevensset, mee wilt investeren in geplande platformuitbreidingen of op zoek bent naar samenwerkingsmogelijkheden, <emailFragment>laat dan een bericht achter.</emailFragment>
+partnerships-our-partners = Onze partners

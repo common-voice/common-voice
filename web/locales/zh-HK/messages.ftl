@@ -3,18 +3,21 @@
 yes-receive-emails = 好，寄電郵畀我。我想繼續收到同 Common Voice 計劃有關嘅資訊。
 stayintouch = 喺 Mozilla 呢度，我哋建立緊一個同語音技術相關嘅社群。我哋想同你保持聯繫，提供最新嘅消息同資料來源，亦都想瞭解你會點樣使用呢啲資料。
 privacy-info = 我哋保證會小心處理你嘅資訊。如果要瞭解更多，請閲讀我哋嘅<privacyLink>私隱權公告</privacyLink>。
-return-to-cv = 返回 Common Voice
+return-to-cv = 翻去 Common Voice
 email-input =
     .label = 電郵
 submit-form-action = 提交
-loading = 載入中…
+loading = 載入緊…
 email-opt-in-info = 我希望收到包括目標提醒、進度更新、同 Common Voice 電子報嘅電郵。
 email-opt-in-info-title = 加入 Common Voice 郵件群組
 email-opt-in-info-sub-with-challenge = 我希望收到包括目標提醒、進度更新、同 Common Voice 電子報嘅電郵。
 email-opt-in-privacy-v2 = 假如同意接收郵件，就代表您同意 Mozilla 依照<privacyLink>隱私權保護政策</privacyLink>當中描述嘅方式處理呢啲些資訊。
 indicates-required = * 表示必填欄位
-not-available-abbreviation = 不適用
+not-available-abbreviation = 唔適用
+banner-error-slow-1 = 唔好意思，Common Voice 運作得比較慢。多謝你嘅關注。
+banner-error-slow-2 = 我哋收到好多網絡流量，而家調查緊呢啲問題。
 banner-error-slow-link = 狀態版面
+error-something-went-wrong = 唔好意思，有啲嘢出錯咗
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -97,6 +100,7 @@ ko = 韓文
 kpv = 科米-齊良文
 kw = 康和文
 ky = 吉爾吉斯文
+lb = 盧森堡文
 lg = 盧干達文
 lij = 利古里亞文
 lt = 立陶宛文
@@ -115,6 +119,7 @@ ms = 馬來文
 mt = 馬爾他文
 my = 緬甸文
 myv = 厄爾茲亞文
+nan-tw = 台語（閩南話）
 nb-NO = 挪威文（書面語）
 ne-NP = 尼泊爾文
 nia = 尼亞斯文
@@ -151,11 +156,14 @@ ta = 泰米爾文
 te = 泰盧固文
 tg = 塔吉克文
 th = 泰文
+tig = 提古利話
+tk = 土庫曼話
 tl = 他加祿文
 tok = 道本語
 tr = 土耳其文
 tt = 韃靼文
 tw = 契維文
+ty = 大溪地話
 uby = 尤比克文
 udm = 烏德穆爾特文
 ug = 維吾爾文
@@ -165,12 +173,14 @@ uz = 烏茲別克文
 vec = 威尼斯文
 vi = 越南文
 vot = 沃特文
+xh = 科薩話
 yi = 意第緒文
 yo = 約魯巴文
 yue = 粵文
 zh-CN = 中文（大陸）
 zh-HK = 中文（香港）
 zh-TW = 中文（臺灣）
+zu = 祖魯話
 
 # [/]
 
@@ -297,7 +307,6 @@ shortcut-discard-ongoing-recording-label = 捨棄目前嘅錄音
 shortcut-submit = 返回
 shortcut-submit-label = 提交錄音
 request-language-text = 喺 Common Voice 入邊搵唔到您的語言？
-request-language-text-learn = 喺呢度瞭解點樣申請增加語言！
 request-language-button = 申請增加一種語言
 
 ## ProjectStatus
@@ -321,8 +330,16 @@ profile-form-native-language =
     .label = 母語
 profile-form-additional-language =
     .label = 其他語言
+profile-form-language =
+    .label = 語言
+profile-form-variant =
+    .label = 你講嘅係{ $language }嘅邊一種變體?
+profile-form-variant-default-value = 冇揀到任何語言變體
 profile-form-accent =
     .label = 口音
+profile-form-custom-accent-help-text =
+    .label = 你會點樣形容你嘅口音？
+profile-form-custom-accent-placeholder-2 = 開始打字來形容你嘅口音
 profile-form-age =
     .label = 年齡
 profile-form-gender-2 =
@@ -333,6 +350,7 @@ hidden = 隱藏
 visible = 公開
 native-language =
     .label = 母語
+profile-form-add-accent = 加入新嘅自訂口音「{ $inputValue }」
 profile-form-submit-save = 儲存
 profile-form-submit-saved = 已儲存
 male = 男性
@@ -366,6 +384,8 @@ skip-submission-description = 在貢獻時，點擊「提交」會略過提供�
 skip-submission-note = 註: 您仍須要選擇「聽」或「講」來切換貢獻類型。
 off = 關
 on = 開
+help-accent = 須要知多一點「口音」嘅意思？
+help-accent-explanation = 你嘅口音即係你講嘢嘅方式。呢樣嘢可以由你住過嘅地方、你講嘅其他語言、同埋好多其他因素所形成㗎。你可以喺呢度分享任何你覺得相關嘅資訊。
 
 ## Profile - Email
 
@@ -376,6 +396,7 @@ gravatar_not_found = 找不到您電郵所屬的 Gravatar
 file_too_large = 選擇的檔案太大
 avatar-uploaded = 頭像上載咗啦
 max-file-size = { $kb }kb 上限
+remove-avatar = 刪除你嘅頭像
 
 ## Profile - Email
 
@@ -415,7 +436,6 @@ faq-why-different-speakers-a =
     大多數的語音數據庫的語音來源偏重於某群特定人口，造成結果偏向於<articleLink>男性與中產階級</articleLink>。而在這些訓練機械的數據之中，各種不同的口音與方言與被邊緣化的人群常有所關連。許多機器也很難理解女性的聲音。
     這就是為什麼我們的語音數據庫應該海納百川，收集各種聲音！
 faq-why-my-lang-q = 點解仲未有我嘅語言？
-faq-why-my-lang-new-a = Mozilla 不特別偏好哪種語言。相反而然 Common Voice 是一個純社群發起的計劃，需要<multilangLink>幾個步驟才能新增語言</multilangLink>並開始收集語音片段。首先，需要完成翻譯 Common Voice 網站，這樣社群成員才能用自己的語言進行貢獻。次之，我們需要大量的無版權語句，讓人們可以大聲說出來。當兩個條件都滿足後 Common Voice 即可「上線」，讓人們開始錄音，並驗證其他人所錄下的片段。若您想要協助準備讓新語言上限，歡迎到<sentenceCollectorLink>語句收集工具</sentenceCollectorLink>開始幫忙。
 faq-what-quality-q = 錄音品質要到甚麼等級，才能用於數據集中？
 faq-what-quality-a = 我們希望 Common Voice 數據集能夠反映出語音轉文字引擎在野外也會聽到的聲音，所以我們希望能夠收集各種環境下與不同錄音品質的片段。除了一個多元的說話者群體，如果這個數據集包含了各種語音品質的片段，便可讓語音轉文字引擎處理各種現實環境下的狀況，例如背景中有人在講話，或是有車輛的噪音。只要您的片段能讓人足夠聽得懂，即可收錄至數據集中。
 faq-why-10k-hours-q = 為什麼每種語言都有一萬小時的錄音驗證目標？
@@ -452,6 +472,8 @@ how-does-it-work-text = 我們集合眾人之力，打造開放原始碼的語�
 ## How does it work section
 
 about-localization-title = 網站本地化
+about-dataset-release-title = 數據集發佈
+about-subscribe-text = 想同 Common Voice 計劃保持聯絡？
 about-speak = 講
 about-speak-text = 貢獻者會朗讀數據庫内由大衆提供的句子，變成錄音片段。
 about-listen-queue = 聆聽隊列
@@ -468,43 +490,51 @@ about-dataset-new = Common Voice 數據集
 about-dataset-new-text = Common Voice 數據集包含數十萬條語音樣本，可以幫助開發語音識別工具。
 about-clip-graveyard = 片段回收桶
 about-clip-graveyard-text = 回收桶中包含無法進入 Common Voice 數據集的語音片段。與數據集一樣，回收桶的內容也可被下載。
-about-partners = 合作夥伴
-about-become-a-partner = 成為合作夥伴
-about-partnership =
-    Common Voice 是一套由眾人合力而成的計劃。我們依賴由夥伴與貢獻者所組成的社群，來打造有史以來最大的開放原碼語音數據集。
-    
-    特別感謝下列人員與組織單位對本計劃的幫助：
 about-get-involved = 參與我們
 about-get-involved-text-2 =
     想幫手令 Common Voice 計劃變得更好？
     太好了！請用電郵或<discourseLink>Discourse</discourseLink>論壇同我們聯絡，
     在<githubLink>GitHub</githubLink>上提交網站問題，或者加入
     <matrixLink>Matrix</matrixLink>群組聊天室。
+about-stay-in-touch = 點樣可以保持聯絡？
 about-stay-in-touch-button = 註冊
 about-nav-why-common-voice = 點解？
 about-nav-how-it-works = 點做？
 about-nav-partners = 合作夥伴
 about-nav-get-involved = 參與我們
 about-nav-how-it-works-2 = Common Voice 喺點運作？
+about-nav-playbook = 了解點樣成爲我哋一份子
 
 ## Community Playbook Content
 ## What is a language
 
+about-playbook-what-is-language-content-1 = 對語言嘅睇法有好多種。以語音識別模型嘅用途嚟講，Common Voice 建議集中喺「容易互相理解」或者「如果呢種語言嘅講者想互相理解，佢哋做唔做得到？」
 
 ## How do I add a language
 
+about-playbook-how-add-language = 我點樣新增一種語言？
+about-playbook-how-add-language-content-1 =
+    首先，查一查你嘅語言<languageLink>係咪已經存在</languageLink>。
+    如果唔係，你可以<languageRequestLink>要求新增你嘅語言</languageRequestLink>。
+    之後有兩個步驟：翻譯網站、同埋收集句子。
+about-playbook-how-add-language-translating-heading = 翻譯網站
+about-playbook-how-add-language-collecting-sentences-heading = 收集句子
 
 ## How does localization work
 
+about-playbook-how-localize = 網站本地化點樣做㗎？
 
 ## How to add sentences
 
+about-playbook-how-add-sentences = 我可以點樣新增句子？
 
 ## How to record quality
 
 
 ## How to grow language
 
+about-playbook-how-grow-language-content-2 = 活動
+about-playbook-how-grow-language-content-4 = 社交媒體
 
 ## How to validate
 
@@ -514,10 +544,6 @@ about-nav-how-it-works-2 = Common Voice 喺點運作？
 
 ## How are decisions made
 
-mycroft-title = Mycroft Ai
-mycroft-subtitle = 人工智能
-mycroft-description = Mycroft 是全球第一套的開放原始碼的語音助理，無論在電腦、汽車、Raspberry Pi 或任何地方都能運作。
-mycroft-secondary-description = 這是一套可以自由混搭、延伸、改進的開放原始碼軟件。Mycroft 可以用於各種情境，例如科學專案、企業應用程式等。
 
 ## Glossary
 
@@ -615,6 +641,7 @@ subscribe = 訂閱
 get-started-speech = 語音識辨新手入門
 other-datasets = 其他語音數據集
 feedback-q = 有意見要回饋嗎？
+community-playbook = 社群守則
 data-other-librispeech-description = LibriSpeech 語料庫來自 LibriVox 計劃，共有大概一千個鐘嘅 16 千赫英語有聲書錄音。
 data-other-ted-name = TED-LIUM 語料庫
 data-other-ted-description = TED-LIUM 語料庫是從 TED 網站上的講座對話，及其被抄寫下來的演講稿一起製作而成的語料庫。
@@ -659,6 +686,11 @@ request-language-success-content = 我哋會盡快同你聯絡，同你提供更
 select-language = 選擇語言…
 other-language = 其他語言
 
+## Request Language Pages
+
+request-language-form-email =
+    .label = 你嘅電郵地址
+
 ## Languages Overview
 
 language-section-in-progress = 準備中
@@ -674,7 +706,7 @@ language-search-input =
 language-speakers = 錄音人數
 localized = 本地化進度
 sentences = 句子
-total-hours = 已驗證鐘數
+language-validation-hours = 個鍾
 
 ## Contribution
 
@@ -883,7 +915,10 @@ download-q = 需要下載你嘅數據？
 download-recordings-title = 錄音片段
 download-size = 大細
 download-selected = 已選
+download-start = 下載我的個人檔案數據
 download-request = 請求下載
+download-request-button = 下載
+download-request-title = { $created }
 download-request-refresh-button = 更新
 download-request-modal-title = 下載鏈結
 
@@ -933,7 +968,14 @@ demo-dashboard-card-body = 對於每段貢獻咗出嚟嘅錄音同埋經過驗�
 
 ## Validation criteria
 
+contribution-criteria-nav = 準則
+contribution-criteria-link = 瞭解貢獻準則
+contribution-criteria-page-title = 貢獻準則
 contribution-for-example = 譬如
+contribution-misreadings-title = 誤讀
+contribution-varying-pronunciations-title = 讀音差異
+contribution-background-noise-title = 背景噪音
+contribution-background-voices-title = 背景人聲
 contribution-volume-title = 音量
 contribution-just-unsure-title = 唔肯定？
 see-more = <chevron></chevron>睇多啲
@@ -946,52 +988,107 @@ see-less = <chevron></chevron>睇少啲
 
 ## HEADER/FOOTER
 
+sc-header-home = 首頁
+sc-header-add = 加入
+sc-header-review = 審核
+sc-header-my = 我嘅句子
+sc-header-statistics = 統計資料
+sc-header-profile = 個人檔案
+sc-footer-discourse = Discourse
+sc-footer-privacy = 私隱
+sc-footer-terms = 使用條款
+sc-footer-cookies = Cookies
 sc-login-signup-button = 登入 / 註冊
+sc-logout-button = 登出
 
 ## HOME
 
+sc-home-title = 歡迎光臨 Common Voice 句子收集器
+sc-home-collect-title = 收集句子
+sc-home-review-title = 審核句子
 
 ## GENERAL
 
 
 ## HOW-TO
 
+sc-howto-title = 指南
+sc-howto-addsen-title = 加啲新句子
+sc-howto-cite-title = 點樣引用
+sc-howto-review-title = 審核句子
 
 ## MY SENTENCES
 
+sc-my-title = 我嘅句子
+# Variables:
+#   $source (String) - Associated source the user filled out when uploading the sentence
+sc-my-source = 來源：{ $source }
 
 ## REJECTED
 
 
 ## STATS
 
+sc-stats-title = 統計資料
+sc-stats-updating = 更新中…
 
 ## ADD
 
+sc-submit-button =
+    .submitText = 提交
 
 ## ADD LANGUAGE
 
+sc-add-lang-sec-button = 增加語言
 
 ## ADD SENTENCES CONFIRMATION
 
+# Variables:
+#   $countOfSentences (Number) - Number of sentences the user has filled in the submission form
+sc-confirm-sentences-found =
+    { $countOfSentences ->
+        [0] 揾唔到任何句子
+       *[other] 揾到{ $countOfSentences }句句子
+    }
 
 ## LANGUAGE INFO
 
+sc-lang-info-title-total = 總計
+sc-lang-info-title-personal = 個人
 
 ## LOGIN
 
+sc-login-err-failed = 登入失敗
+sc-login-err-try-again = 唔該再試多一次。
 
 ## PROFILE
 
+# Variables:
+#   $username (String) - eMail address of the logged in user
+sc-profile-title = 個人檔案：{ $username }
+sc-personal-your-languages = 你嘅語言：
+sc-personal-remove-button = 移除
 
 ## REVIEW CRITERIA
 
 
 ## REVIEW
 
+sc-review-title = 審核句子
+sc-review-form-button-reject = 拒絕
+sc-review-form-button-skip = 略過
+sc-review-form-button-approve = 批准
+# Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
+sc-review-form-button-approve-shortcut = Y
+# Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
+sc-review-form-button-reject-shortcut = N
+# Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
+sc-review-form-button-skip-shortcut = S
+sc-review-link = 審核
 
 ## SETTINGS
 
+sc-settings-title = 設定
 
 # [/SentenceCollector]
 

@@ -3,7 +3,7 @@ import * as React from 'react';
 const Icon =
   (path: string, title = '') =>
   ({ children, ...props }: any) =>
-    <img src={path} title={title} {...props} />;
+    <img src={path} title={title} {...props} alt="icon" />;
 
 let idCounter = 0;
 function uniqueIcon(component: (id: number, props: any) => React.ReactNode) {

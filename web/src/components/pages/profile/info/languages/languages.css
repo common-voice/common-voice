@@ -15,6 +15,11 @@
     }
 }
 
+.link {
+    color: var(--blue);
+    text-decoration: none;
+}
+
 .profile-info .form-fields .language-wrap {
     border: 2px solid rgba(230, 229, 227, 0.6);
     border-radius: 5px;

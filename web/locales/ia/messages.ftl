@@ -40,10 +40,12 @@ ba = Bashkir
 bas = Basaa
 be = Bielorusso
 bg = Bulgaro
+bm = Bambara
 bn = Bengali
 br = Breton
 bs = Bosniano
 bxr = Buriato
+byv = Medumba
 ca = Catalano
 cak = Kaqchikel
 ckb = Kurdo central
@@ -53,9 +55,11 @@ cs = Checo
 cv = Chuvasio
 cy = Gallese
 da = Danese
+dag = Dagbani
 de = Germano
 dsb = Sorbio, basse
 dv = Maldiviano
+dyu = Dioula
 el = Greco
 en = Anglese
 eo = Esperanto
@@ -75,6 +79,7 @@ gom = Goan Konkani
 ha = Hausa
 he = Hebreo
 hi = Hindi
+hil = Hiligaynon
 hr = Croata
 hsb = Sorbio, alte
 ht = Haitiano
@@ -89,6 +94,7 @@ is = Islandese
 it = Italiano
 izh = Azoriano
 ja = Japonese
+jbo = Lojban
 ka = Georgiano
 kaa = Karakalpak
 kab = Cabilo
@@ -97,6 +103,7 @@ ki = Kikuyu
 kk = Kazakh
 km = Khmer
 kmr = Kurdo Kurmanxhi
+kn = Kannada
 knn = Konkani (Devanagari)
 ko = Coreano
 kpv = Komi-Zyriano
@@ -105,6 +112,8 @@ ky = Kirghiso
 lb = Luxemburgese
 lg = Luganda
 lij = Ligure
+ln = Lingala
+lo = Lao
 lt = Lituano
 lv = Latviano
 mai = Maithili
@@ -124,12 +133,16 @@ my = Birmano
 myv = Erzya
 nan-tw = Taiwanese (Minnan)
 nb-NO = Norvegiano Bokmål
+nd = IsiNdebele (nord)
 ne-NP = Nepalese
 nia = Nias
 nl = Nederlandese
 nn-NO = Norvegiano Nynorsk
+nr = IsiNdebele (sud)
+nso = sotho del nord
 nyn = Nyankole
 oc = Occitano
+om = oromo
 or = Odia
 pa-IN = Punjabi
 pap-AW = Papiamento (Aruba)
@@ -147,14 +160,18 @@ sah = Sakha
 sat = Santali (Ol Chiki)
 sc = Sardo
 scn = Siciliano
+sdh = Kurdo meridional
 shi = Shilha
 si = Sinhala
 sk = Slovaco
 skr = Saraiki
 sl = Sloveno
+snk = Soninke
 so = Somalo
 sq = Albanese
 sr = Serbo
+ss = Siswati
+st = sesotho
 sv-SE = Svedese
 sw = Swahili
 syr = Syriac
@@ -166,8 +183,10 @@ ti = Tigrinya
 tig = Tigre
 tk = turkmeno
 tl = Tagalog
+tn = Setswana
 tok = Toki Pona
 tr = Turco
+ts = xitsonga
 tt = Tataro
 tw = Twi
 ty = Tahitiano
@@ -177,15 +196,20 @@ ug = Uyghur
 uk = Ukrainiano
 ur = Urdu
 uz = Uzbek
+ve = tshivenda
 vec = Venetian
 vi = Vietnamese
 vot = Votico
+xh = Xhosa
 yi = Yiddish
 yo = Yoruba
 yue = Cantonese
+zgh = Berbero
 zh-CN = Chinese (China)
 zh-HK = Chinese (Hong Kong)
 zh-TW = Chinese (Taiwan)
+zu = Zulu
+zza = Zaza
 
 # [/]
 
@@ -197,6 +221,7 @@ speak-now = Parla ora
 datasets = Collectiones
 languages = linguas
 about = A proposito
+partner = Partner
 profile = Profilo
 help = Auxilio
 contact = Contacto
@@ -313,7 +338,6 @@ shortcut-discard-ongoing-recording-label = Refusar le registration in curso
 shortcut-submit = Inserer
 shortcut-submit-label = Inviar registrationes
 request-language-text = Non se trova tu lingua sur Common Voice?
-request-language-text-learn = Sape hic como requirer lo!
 request-language-button = Propone un lingua
 
 ## ProjectStatus
@@ -404,7 +428,7 @@ browse-file = Traher e deponer o <browseWrap>Navigar</browseWrap>
 connect-gravatar = Connecter con Gravatar
 gravatar_not_found = Nulle gravatar trovate pro tu adresse de e-mail
 file_too_large = Le file seligite es troppo grande
-avatar-uploaded = Avatar cargate
+avatar-uploaded = Avatar incargate
 max-file-size = { $kb }kb max
 remove-avatar = Remover avatar
 
@@ -447,7 +471,9 @@ faq-why-different-speakers-a =
     Le major parte del bases de datos vocal es trainate con un excesso de certe gruppos demographic, resultante in un prejudicio verso <articleLink>homines de classe medie</articleLink>. Accentos e dialectos que tende a esser subrepresentate in le trainamento de collectiones de datos es typicamente associate con gruppos de personas jam marginalisate. Multe machinas ha difficultate a comprender voces feminin.
     Ecce proque in nostre base de datos vocal nos vole varietate!
 faq-why-my-lang-q = Proque non es mi lingua ancora includite?
-faq-why-my-lang-new-a = Mozilla non prefere o favori alcun lingua a un altere. In vice, Common Voice es un initiativa strictemente communitari. Nonobstante, es necessari <multilangLink>plure passos pro adder un nove lingua</multilangLink> e comenciar a colliger donationes de voce. Primo, le sito web de Common Voice debe esser traducite de sorta que le membros del communitate pote usar lo in lor proprie lingua. Pois, nos require un grande collection de phrases libere de derectos de autor que le personas pote leger in alte voce. Un vice que ambe ille requisitos es satisfacite, un lingua es “lanceate” sur Common Voice de sorta que le personas pote comenciar a registrar lor voce e validar le donationes de alteres. Si tu vole adjutar a lancear un nove lingua, veni a nostre <sentenceCollectorLink>instrumento de collection de phrases</sentenceCollectorLink> pro comenciar.
+faq-why-my-lang-a =
+    Common Voice es un platteforma de collecta, e le linguas es addite per voluntarios.
+    Nos amarea que tu adde tu lingua! <languageRequestLink>Demanda re adder tu lingua.</languageRequestLink>
 faq-what-quality-q = Que nivello de qualitate del audio es requirite pro poter usar le retalios vocal in le collection de datos?
 faq-what-quality-a = Nos vole que le collection de datos de Common Voice reflecte le qualitate del audio que un motor de recognition vocal audira in natura, dunque, nos cerca varietate. In addition a un diverse communitate de parlantes, un collection de datos con qualitate audio variabile inseniara al motor de recognition vocal de adaptar se a varie situationes del mundo real, p.ex. conversationes in secunde plano o le ruito de autos. Si tu retalio vocal es comprensibile, illo suffice pro le collection de datos.
 faq-why-10k-hours-q = Proque es le objectivo pro capturar audio 10.000 horas validate per lingua?
@@ -517,12 +543,6 @@ about-dataset-new = Collection de datos de Common Voice
 about-dataset-new-text = Le Collection de datos de Common Voice contine centenas de milles de exemplos de voce que adjuta le disveloppatores a crear applicationes de recognition vocal.
 about-clip-graveyard = Cemeterio de retalios
 about-clip-graveyard-text = Le Cemeterio de retalios consiste del retalios vocal rejectate pro le collection de datos de Common Voice. Justo como le collection de datos, le cemeterio de retalios es disponibile pro discargar.
-about-partners = Partners
-about-become-a-partner = Deveni un partner
-about-partnership =
-    Common Voice es un projecto collaborative, e nos depende de nostre communitate de associatos e contributores pro crear le collection de voces libere le plus grande in le historia.
-    
-    Nos volerea regratiar le sequente personas e organisationes pro lor adjuta al projecto:
 about-get-involved = Collabora
 about-get-involved-text-2 =
     Vole adjutar a meliorar Common Voice?
@@ -552,9 +572,20 @@ about-playbook-what-is-language-content-3 = Alcun linguas ha un enorme variation
 
 about-playbook-how-add-language = Como adde io un lingua?
 about-playbook-how-add-language-content-1 = Primo, verifica si tu lingua <languageLink>ja existe</languageLink>. Si non, tu debe <strong>traducer le sito e colliger phrases</strong>.
-about-playbook-how-add-language-content-2 = <strong>Pro traducer le sito</strong>, <translateVideo>crea un conto</translateVideo> sur <pontoonLink>Pontoon</pontoonLink>. Pontoon ha multe linguas, ma si non ha le tue, tu pote <pontoonRequestLink>requestar lo</pontoonRequestLink>. Alora demanda <repoLink>sur GitHub</repoLink> que le projecto Common Voice sia rendite disponibile pro le lingua. Lege plus sur <localizationFragment>le traduction del sito</localizationFragment>.
-about-playbook-how-add-language-content-3 = <strong>Pro colliger phrases</strong>, <scVideo>crea un conto</scVideo> sur <scLink>Sentence Collector</scLink>.
-about-playbook-how-add-language-content-4 = Tu pote <scLinkAdd>adder poc</scLinkAdd> phrases hic, o tu pote <bulkImportDocsLink>importar los in bloco</bulkImportDocsLink> via un requesta GitHub. Memora que le phrases debe esser con licentia <licenseLink>CC0 (o de dominio public)</licenseLink>, o tu pote scriber le tue proprie. Vide plus sur <scFragment>collection de phrases</scFragment>.
+about-playbook-how-add-language-translating-heading = Traducer le sito
+about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Reguarda nostre guida de uso de Pontoon.</translateVideoLink>
+about-playbook-how-add-language-translating-content-2 =
+    Nos usa un application Mozilla appellate <pontoonLink>Pontoon</pontoonLink> pro le traductiones. Pontoon tracta plure linguas,
+    ma si illo non ha l tue tu pote <pontoonRequestLink>requirer que tu lingua es addite</pontoonRequestLink>.
+    Pois, pro render le lingua disponibile sur le projecto Common Voice,
+    <githubRepoLink>require le nove lingua sur GitHub</githubRepoLink>. <localizationFragment>Vide plus re le traduction del sito</localizationFragment>.
+about-playbook-how-add-language-collecting-sentences-heading = Colliger phrases
+about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>Reguarda nostre guida re le uso de Sentence Collectorr</sentenceCollectorVideo>.
+about-playbook-how-add-language-collecting-sentences-content-2 =
+    Tu pote <sentenceCollectorLinkAdd>adder poc phrases</sentenceCollectorLinkAdd>,
+    o tu pote <bulkImportDocsLink>importar in bloco per Github</bulkImportDocsLink>.
+    Memora que le phrases debe esser <licenseLink>CC0 (public dominio)</licenseLink>, o pote scriber los tu mesme.
+about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>Vide plus re le collection de phrases</sentenceCollectorFragment>
 
 ## How does localization work
 
@@ -618,12 +649,6 @@ about-playbook-how-project-governance-content-4 = Participation del communitate 
 about-playbook-how-project-governance-content-5 = Valor e recognition.
 about-playbook-how-project-governance-content-6 = Reciproc responsabilitate.
 about-playbook-how-project-governance-content-7 = <governanceLink>Lege plus re como nos es gerite</governanceLink>
-mycroft-title = Mycroft Ai
-mycroft-subtitle = Intelligentia artificial
-mycroft-description =
-    Mycroft es le prime assistente open-source al mundo.
-    Mycroft functiona ubicunque: sur un computator de scriptorio, in un automobile o sur un Raspberry Pi.
-mycroft-secondary-description = Isto es un software open-source que pote ser liberemente re-miscite, extendite e meliorate. Mycroft pote ser usate in toto, ab un projecto scientific a un application software de interprisa.
 
 ## Glossary
 
@@ -691,6 +716,10 @@ datasets-positioning =
     
     Reguarda iste pagina como centro de referentia pro altere collectiones de datos vocal libere e, como Common Voice continua a crescer, un pagina principal pro nostre actualisationes de version.
 language = Lingua
+download-dataset-header = Discarga le collection de datos
+download-delta-explainer = Nos faceva alcun modificationes. Le segmentos delta contine solo le plus recente registrationes plus recente desde le ultime version. <deltaLink>Pro leger plus re iste labor</deltaLink>.
+download-dataset-tag = Elige le collection de datos del lingua desirate e le version que tu vole discargar.
+download-dataset-access = Cerca tu versiones precedente del collection de datos? Invia un email a <emailLink> { $email } </emailLink
 # File size in gigabytes
 size = Dimension
 validated-hr-total = Horas validate Total
@@ -699,7 +728,7 @@ cv-license = Licentia
 audio-format = Formato audio
 number-of-voices = Numero de voces
 splits = Cesuras
-email-to-download = Insere email a discargar
+email-to-download = Insere email pro discargar
 why-email = <b>Proque un adresse de e-mail?</b> Es possibile que nos debera contactar te in le futuro sur cambiamentos concernente le collection de datos. Un adresse de e-mail nos forni un puncto de contacto.
 confirm-size = Tu es preste a initiar un discargamento de <b>{ $size }</b>
 size-gigabyte = GB
@@ -823,7 +852,8 @@ language-search-input =
 language-speakers = Locutores
 localized = Localisate
 sentences = Phrases
-total-hours = Numero total de horas
+language-validation-hours = Horas
+language-validation-progress = Progresso del validation
 
 ## Contribution
 
@@ -1312,7 +1342,7 @@ sc-submit-ph-one-per-line =
 sc-submit-from-where = Ex ubi es iste phrases de <wikipediaLink> dominio public</wikipediaLink>?
 sc-submit-ph-read-how-to =
     .placeholder = Lege nostre Guida si insecur re como attribuer
-sc-submit-confirm = Io confirma que iste phrases es de <wikipediaLink>dominio public</wikipediaLink> e io ha permission pro cargar los.
+sc-submit-confirm = Io confirma que iste phrases es del <wikipediaLink>dominio public</wikipediaLink> e que io ha le permission de incargar los.
 sc-submit-button =
     .submitText = Inviar
 sc-submit-filtered = Phrases filtrate per falta de requisitos (invia le versiones corrigite como nove phrases):
@@ -1375,9 +1405,9 @@ sc-confirm-ready =
     }
 # Variables:
 #   $countOfUnreviewed (Number) - Number of sentences unreviewed before the upload
-sc-confirm-unreviewed = { $countOfUnreviewed } phrases es non revidite. Si tu vole, tu pote alsi revider tu phrases ora, ante inviar los.
+sc-confirm-unreviewed = { $countOfUnreviewed } phrases non es revidite. Si tu lo prefere, tu pote revider tu phrases ora, ante de inviar los.
 sc-confirm-button-text = Confirmar
-sc-confirm-uploading = Phrases va esser cargate. Isto pote prender plure minutas secundo le numero de phrases addite. Non claude iste sito web.
+sc-confirm-uploading = Le phrases es in curso de incargamento. Isto pote prender plure minutas, dependente del numero de phrases addite. Per favor non claude iste sito web.
 
 ## LANGUAGE INFO
 
@@ -1388,8 +1418,8 @@ sc-lang-info-title-personal = Personal
 sc-lang-info-total =
     { $totalSentences ->
         [0] N. total de phrases.
-        [one] 1 phrase total
-       *[other] { $totalSentences } phrases total.
+        [one] 1 phrase in total.
+       *[other] { $totalSentences } phrases in total.
     }
 # Variables:
 #   $totalInReview (Number) - Number of sentences currently in the review state for this language
@@ -1511,3 +1541,21 @@ sc-validation-no-abbreviations = Phrase non debe continer abbreviationes
 
 localization-select =
     .label = Eliger lingua/localisation
+# PARTNERSHIPS PAGE
+partnerships-header = Coparticipationes
+partnerships-header-text = Require multo realisar Common Voice! Nos non lo face sol. Vole tu participar con nos? Nos amarea audir te.
+partnerships-get-in-touch = Tene te in contacto
+partnerships-become-a-partner = Deveni un partner de Common Voice
+partnerships-community-header = Communitate, creativitate e societate civil
+partnerships-community-description = Le communitate es le corde battente de Common Voice, illes veni de tote le mundo: activistas de linguas,  scientistas e artistas. Tu pote saper plus re como contribuer sur nostre pagina <about>A proposito</about> e in nostre <community>Libro del jocos del communitate</community>. Si tu es interessate in un coparticipation organisational plus profunde, <emailFragment>tener te in contacto.</emailFragment>
+partnerships-foundations-header = Fundationes
+partnerships-foundations-description = Nos labora con fundationes, societate civil e socios de communitate pro render internet un loco plus san, con un particular foco super le Est Africa. Pro saper plus re nostre <programmaticWork>labor programmatic.</programmaticWork>
+partnerships-governments-header = Governamentos
+partnerships-governments-description = Nos es exaltante a supportar collaboration con le sector public in technologia, innovation e derectos linguistic. Si tu plana exequer un projecto o campania major,  <emailFragment>tene te in contacto.</emailFragment>
+partnerships-academia-header = Universitates, academicos e recercatores
+partnerships-academia-description = Le innovation aperte es al corde de lo que nos face. Pro collaborationes de recerca, collection de datos o intervistas, <emailFragment>contacta nos.</emailFragment>
+partnerships-small-business-header = Parve negotios, includite start ups technologic e de intelligentia
+partnerships-small-business-description = Nos cerca sempre de audir le consummatores de datos re lor besonios e contexto - de collaborar sur le platteforma de collection de datos pro fornir intuitiones re le salubritate del datos, nos vole <emailFragment>audir te.</emailFragment>
+partnerships-corporates-header = Corporationes e platteformas de grande scala
+partnerships-corporates-description = Si tu vole discuter altero re le insimul de datos, vole co-investir in le expansiones de platteformas planate o prestar attention a opportunitates de collaboration, <emailFragment>scribe nos un rango.</emailFragment>
+partnerships-our-partners = Nostre socios

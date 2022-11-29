@@ -15,6 +15,7 @@ email-opt-in-privacy-v2 = Seberende de retzire lìteras a s'indiritzu de posta e
 indicates-required = * Indicat unu campu rechèdidu
 not-available-abbreviation = No est a disponimentu
 banner-error-slow-link = Istadu de sa pàgina
+error-something-went-wrong = Ddoe est istadu unu problema.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -39,6 +40,7 @@ be = Bielorussu
 bg = Bùlgaru
 bn = Bengalesu
 br = Brètone
+bs = Bosnìacu
 bxr = Buriat
 ca = Catalanu
 cak = Kaqchikel
@@ -52,6 +54,7 @@ da = Danesu
 de = Tedescu
 dsb = Sòrabu bassu
 dv = Dhivehi
+dyu = Dioula
 el = Grecu
 en = Inglesu
 eo = Esperanto
@@ -90,11 +93,14 @@ kab = Cabilencu
 kbd = Cabardianu
 ki = Gikuyu
 kk = Kazacu
+km = Khmer
 kmr = Curdu de su Norte
+knn = Konkani (Devanagari)
 ko = Coreanu
 kpv = Komi
 kw = Còrnicu
 ky = Chirghisu
+lb = Lussemburghesu
 lg = Luganda
 lij = Lìgure
 lt = Lituanu
@@ -106,6 +112,7 @@ mhr = Mari de is praterias
 mk = Matzèdone
 ml = Malayalam
 mn = Mòngolu
+mni = Meitei Lon
 mos = Morè
 mr = Marathi
 mrj = Mari de is montigros
@@ -119,8 +126,10 @@ ne-NP = Nepalesu
 nia = Nias
 nl = Olandesu
 nn-NO = Norvegesu Nynorsk
+nso = Sotho de su nord
 nyn = Nyankole
 oc = Otzitanu
+om = Afaan Ormoo
 or = Odia
 pa-IN = Punjabi
 pap-AW = Papiamentu (Aruba)
@@ -128,6 +137,7 @@ pl = Polacu
 ps = Pashto
 pt = Portoghesu
 quc = K'iche'
+quy = Quechua Chanka
 rm-sursilv = Romànciu Sursilvan
 rm-vallader = Romànciu Vallader
 ro = Rumenu
@@ -140,10 +150,12 @@ scn = Sitzilianu
 shi = Tashelhit
 si = Sinhala
 sk = Islovacu
+skr = Saraiki
 sl = Islovenu
 so = Sòmalu
 sq = Albanesu
 sr = Serbu
+st = Sesotho
 sv-SE = Isvedesu
 sw = Swahili
 syr = Sirìacu
@@ -152,8 +164,12 @@ te = Telugu
 tg = Tagicu
 th = Tailandesu
 ti = Tigrinya
+tig = Tigrè
+tk = Turcmenu
 tl = Tagalog
+tok = Toki Pona
 tr = Turcu
+ts = Xitsonga
 tt = Tàtaru
 tw = Twi
 ty = Tahitianu
@@ -163,6 +179,7 @@ ug = Uiguru
 uk = Ucràinu
 ur = Urdu
 uz = Uzbecu
+ve = Tshivenda
 vec = Vènetu
 vi = Vietnamita
 vot = Vòticu
@@ -188,7 +205,7 @@ help = Agiudu
 contact = Cuntatu
 privacy = Riservadesa
 terms = Cunditziones
-cookies = Cookies
+cookies = Testimòngios
 faq = PF
 content-license-text = Cuntenutu a disponimentu a suta de sa <licenseLink>lissèntzia Creative Commons</licenseLink>
 share-title = Agiuda·si a agatare àtera gente chi podet donare sa boghe sua!
@@ -307,7 +324,6 @@ shortcut-discard-ongoing-recording-label = Iscarta sa registratzione in cursu
 shortcut-submit = Imbiu
 shortcut-submit-label = Imbia is registratziones
 request-language-text = No agatas sa limba tua in Common Voice?
-request-language-text-learn = Impara comente dda pedire inoghe!
 request-language-button = Pedi una limba
 
 ## ProjectStatus
@@ -333,7 +349,7 @@ profile-form-native-language =
 profile-form-additional-language =
     .label = Limba additzionale
 profile-form-language =
-    .label = Lìngua
+    .label = Limba
 profile-form-variant =
     .label = Cale variedade de { $language } faeddas?
 profile-form-variant-default-value = Nissuna variedade seletzionada
@@ -387,6 +403,7 @@ skip-submission-note = Nota: in cada manera, as a dèpere seberare intre Chistio
 off = Disativadu
 on = Ativu
 help-accent = Ti serbit agiudu cun s'atzentu?
+help-accent-explanation = S'atzentu est sa manera comente pronùntzias is faeddos. Podet èssere influidu dae su logu in ue as bìvidu, àteras limbas chi chistionas e meda àteras cosas. Podes cumpartzire cale si siat informatzione chi cunsideras rilevante inoghe.
 help-variants = Ti serbit agiudu cun is variedades?
 
 ## Profile - Email
@@ -424,9 +441,9 @@ faq-why-important-a =
     Chistionare est a s'ispissu su prus manera naturale de comunicare e is tecnologias de boghe sunt introduinde custa facultade fintzas in is elaboradores e dispositivos mòbiles nostros. Bolimus cunsentire a is isvilupadores de creare aplicatziones ispantosas noas basadas in su reconnoschimentu de boghe, comente a tradutores a in tempus reale e assistentes digitales. Atualmente sa majoria de is datos de boghe chi serbint pro custa genia de aplicatziones sunt caros e propietàrios. Cun su pachete de datos de Common Voice bolimus frunire a is isvilupadores is resursas netzessàrias pro innovare e torrare sa tecnologia de boghe disponìbile in sa pròpia limba.
     
     Pro torrare su reconnoschimentu de boghe ancora prus universale, semus collinde mustras de boghe in is limbas prus comunas, ma fintzas in cussas chistionadas dae unu nùmeru de persones minore e chi a s'ispissu benint innioradas dae is servìtzios de reconnoschimentu de boghe cummertziales. Sa publicatzione de unu pachete de boghes diversu at a cunsentire a is isvilupadores, is imprendidores e a intreas comunidades linguìsticas de afrontare custa mancàntzia issos etotu.
-faq-how-get-q = Comente potzo otènnere is datos de Common Voices?
+faq-how-get-q = Comente potzo otènnere is datos de Common Voice?
 faq-how-get-a = Su pachete de datos de Common Voice podet èssere iscarrigadu a suta de sa lissèntzia <licenseLink>CC0</licenseLink> dae sa <datasetLink>pàgina Pachetes de datos</datasetLink> nostra. Dae cussa, podes fintzas iscarrigare meda àteros pachetes de datos chi sunt a disponimentu in manera pùblica.
-faq-when-release2-q = Cando as a publicare is datos de Common Voice in àteras limbas?
+faq-when-release2-q = Cando ais a publicare is datos de Common Voice in àteras limbas?
 faq-when-release2-a = Sa versione multilìngue de su pachete de datos de Common Voice est a oe in fase de regollida e limpiesa cun s'apògiu de sa comunidade. Si nos bolides agiudare a agiùnghere limbas noas a su Common Voice, bidide s'<sentenceCollectorLink>aina de regollida de frases</sentenceCollectorLink> pro agiùnghere frases noas a su pachete de datos, e <pontoonLink>Pontoon</pontoonLink>, de Mozilla, pro bortare su situ web de su progetu. Is limbas noas ant a èssere agiuntas a Common Voice e ant a pòdere comintzare a retzire cuntributos de boghe cando 5.000 frases ant a èssere regòllidas e aprovadas.
 faq-why-mission-q = Pro ite Common Voice est parte de sa missione de Mozilla?
 faq-why-mission-a = Sa missione de Mozilla est sa de mantènnere su web abertu e atzessìbile a totus. Custu includet fintzas de frunire is oportunidades a is autores de cuntenutos web tràmite progetos comente a Common Voice. Immoe chi is tecnologias de boghe non sunt prus aplicatziones  ispetzialitzadas, pensamus chi diant dèpere èssere disponìbiles pro totus sena peruna discriminatzione. Custu signìficat de investire in prus limbas, prus diversidade de atzentos e de datos demogràficos in su protzessu de costrutzione e de verìfica de is tecnologias dee boghe. Common Voice est una resursa pùblica disponìbile pro totus: is iscuadras de Mozilla e is isvilupadores in totu su mundu ddu sunt giai impreende pro is progetos issoro.
@@ -439,7 +456,6 @@ faq-do-want-native-a = Eja, bolemus mescamente sa boghe tua! Parte de s'obietivu
 faq-why-different-speakers-q = Pro ite si serbint faeddadores aici diferentes pro cada limba?
 faq-why-different-speakers-a = Sa majoria de bases de datos sunt allenados cun un'isproportzione demogràfica a favore de is boghes <articleLink>maschiles e de classe mèdia</articleLink>. Imbetzes, is atzentos e is dialetos assotziados a grupos giai marginalizados sunt prus pagu rapresentados in is pachetes de datos pro s'allenamentu. Meda màchinas tenent dificultades pro cumprèndere boghes feminiles. Est pro custu chi bolimus chi sa base de datos nostra siat variada.
 faq-why-my-lang-q = Pro ite sa limba mia no est ancora incluida?
-faq-why-my-lang-new-a = Mozilla non sèberat o favorit nissuna limba cunfronta a s'àtera. Common Voice est un'initziativa ghiada de su totu dae sa comunidade, ma ci bolent <multilangLink>passos medas pro agiùnghere una limba noa</multilangLink> e cumintzare a regollire donatziones de boghes. In antis de totu tocat a bortare su situ de Common Voice in manera chi is membros de sa comunidade potzant atzèdere a s'esperièntzia de contributzione in sa limba issoro. A pustis, tenimus bisòngiu de una regorta manna de fràsias sena deretu de autore de fàghere lèghere a sa gente. A pustis de àere rispetadu custos rechisidos una limba benit "lantzada" in Common Voice pro permìtere a sa gente de cumintzare a registrare sa boghe issoro e de cunvalidare is donatziones de àtere. Si boles agiudare a lantzare una limba noa bae a <sentenceCollectorLink>s'aina de regollida de frases</sentenceCollectorLink> nostra pro cumintzare.
 faq-what-quality-q = Cale est su livellu de calidade chi depet tènnere una registrada de boghe pro ddu pòdere impreare in su pachete de datos?
 faq-what-quality-a = Bolimus chi su pachete de datos de Common Voice rifletat sa calidade de s'àudio chi unu motore de sìntesi vocale at a intèndere cada die, e pro custu bisongiamus de variedade. Paris a una comunidade diferentziada de chistionadores, unu pachete de datos cun una calidade de s'àudio variàbile at a imparare a su motore de sìntesi vocale a gestire situatziones diferentes in su mundu reale, dae sa gente chi chistionat in s'isfundu a s'abbolotu de is màchinas. Finas a cando sa boghe de sa registratzione tua si cumprendet diat èssere bona bastante pro su pachete de datos.
 faq-why-10k-hours-q = Pro ite s'obietivu est cussu de riunire 10.000 oras verificadas de registradas de àudio pro cada limba?
@@ -476,13 +492,17 @@ how-does-it-work-text = Semus creende in manera collaborativa unu pachete de dat
 
 ## How does it work section
 
-about-language-req-subtitle = Una persone preguntat s'agiunta de una lìngua.
+about-language-req-subtitle = Una persone preguntat s'agiunta de una limba.
 about-localization-title = Localizatzione de su situ web
-about-localization-subtitle = Su testu de su situ web est tradùsidu a cussa lìngua.
+about-localization-subtitle = Su testu de su situ web est tradùsidu a cussa limba.
 about-sentence-collection-title = Regorta de fràsias
 about-sentence-collection-subtitle = Si regollent fràsias chi sa gente potzat lèghere a boghe arta.
+about-new-lang-title = Publicatzione de una limba noa
+about-new-lang-subtitle = Publicamus su situ Common Voice in custa limba.
 about-voice-contrib-title = Contributu de boghe
 about-voice-contrib-subtitle = Sa gente s'acostat e dona unu contributu cun sa boghe sua.
+about-voice-validation-title = Validatzione de boghes
+about-voice-validation-subtitle = Àtera gente vàlidat cussas registratziones.
 about-dataset-release-title = Publicatzione de su pachete de datos
 about-dataset-release-subtitle = Publicamus pachetes de datos onni 3 meses.
 about-subscribe-text = Boles abarrare in cuntatu cun Common Voice?
@@ -502,12 +522,6 @@ about-dataset-new = Pachete de datos de Common Voice
 about-dataset-new-text = Su pachete de datos de Common Voice cuntenet chentinas de mìgias de mustras de boghes chi agiudant a is isvilupadores a creare ainas de reconnoschimentu de boghe.
 about-clip-graveyard = Campusantu de registratziones
 about-clip-graveyard-text = Su Campusantu de registratziones cuntenet registratziones de boghe chi no sunt intradas in su pachete de datos de Common Voice. Comente su pachete de datos, fintzas su Campusantu de registratziones podet èssere iscarrigadu.
-about-partners = Sòtzios
-about-become-a-partner = Diveni sòtziu
-about-partnership =
-    Common Voice est unu progetu collaborativu, e dipendimus dae sa comunidade nostra de sòtzios e cuntribuidores pro istantargiare su pachete de datos vocales lìberos prus mannu de semper.
-    
-    Si diat agradare a torrare gràtzias a is persones e a is organizatziones chi sighint pro s'agiudu issoro a su progetu:
 about-get-involved = Ìmplica·ti
 about-get-involved-text-2 =
     Boles agiudare a megiorare Common Voice galu de prus?
@@ -515,6 +529,7 @@ about-get-involved-text-2 =
      pro mèdiu de <githubLink>GitHub</githubLink>, o aderi a
      sa tzarrada de sa comunidade in <matrixLink>Matrix</matrixLink>.
 about-stay-in-touch = Comente fatzo a abarrare in cuntatu?
+about-stay-in-touch-button = Registra·ti
 about-nav-why-common-voice = Pro ite?
 about-nav-how-it-works = Comente?
 about-nav-partners = Sòtzios
@@ -525,17 +540,25 @@ about-nav-playbook = Impara a nde fàghere parte
 ## Community Playbook Content
 ## What is a language
 
-about-playbook-what-is-language = Ite est una lìngua in Common Voice?
+about-playbook-what-is-language = Ite est una limba in Common Voice?
 
 ## How do I add a language
 
-about-playbook-how-add-language = Comente fatzo a agiùnghere una lìngua?
+about-playbook-how-add-language = Comente fatzo a agiùnghere una limba?
+about-playbook-how-add-language-translating-heading = Tradutzione de su situ
+about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Càstia sa ghia nostra in pitzus de s'impreu de Pontoon.</translateVideoLink>
 
 ## How does localization work
 
+about-playbook-how-localize = Comente funtzionat sa localizatzione de su situ web?
+about-playbook-how-localize-content-1 = Su situ de Common Voice est tradùidu cun <strong>Pontoon</strong>.
+about-playbook-how-localize-content-4 = Su situ podet èssere publicadu cando sa tradutzione lompet a su 75%.
+about-playbook-how-localize-content-5 = Càstia su vìdeu cun ispiegatziones pro ti agiudare
 
 ## How to add sentences
 
+about-playbook-how-add-sentences = Comente fatzo a agiùnghere fràsias?
+about-playbook-how-add-sentences-content-4 = Is fràsias validadas sunt esportadas su mèrcuris e publicadas a pustis de sa versione sutzessiva.
 
 ## How to record quality
 
@@ -545,18 +568,17 @@ about-playbook-how-add-language = Comente fatzo a agiùnghere una lìngua?
 
 ## How to validate
 
+about-playbook-how-validate = Comente fatzo a ischire si depo aprovare sa registratzione de una boghe?
+about-playbook-how-validate-content-1 = Si ddas podes <strong>intèndere</strong> e <strong>cumprèndere</strong>, sa cosa mègius est a <strong>ddas aprovare</strong>.
+about-playbook-how-validate-content-2 = <strong>No refudes registratziones in ue sa persone chi chistionat ‘tèngiat un'atzentu’ diferente de su tuo</strong>: est de importu pro chi su reconnoschimentu de boghe funtzionet mègius pro totu su mundu.
+about-playbook-how-validate-content-3 = Si pensas chi <strong>non fatzat a cumprèndere</strong> sa pronùntzia, o chi ddoe siat <strong>tropu abbolotu in s'isfundu</strong> o <strong>àtera gente chi chistionat</strong>, dias dèpere refudare sa registratzione. <accuracyLink>Leghe·nde de prus in pitzus de is critèrios de pretzisione nostros</accuracyLink>.
+about-playbook-how-validate-content-4 = Si una registratzione est refudada dae 2 persones, at a èssere publicada in unu grupu a bandas de su pachete de datos.
 
 ## How to access dataset
 
 
 ## How are decisions made
 
-mycroft-title = Mycroft Ai
-mycroft-subtitle = Intellighèntzia artifitziale
-mycroft-description =
-    Mycroft est su primu assistente a còdighe abertu de su mundu.
-    Ddu podes impitare in ònnia logu - in un'elaboradore de iscrivania, a intro de una màchina o in una Raspberry Pi.
-mycroft-secondary-description = Custu est unu programma a còdighe abertu chi si podet modificare, ismanniare e megiorare. Mycroft si podet impitare in cale si siat cosa, dae unu progetu iscientìficu a un'aplicatzione informàtica de un'impresa.
 
 ## Glossary
 
@@ -615,6 +637,7 @@ review-delete-recordings = Cantzella is registratziones mias
 
 ## Datasets Page
 
+datasets-heading = Pachetes de datos
 datasets-headline = Semus istantargende unu pachete multilìngue de datos vocales abertos chi totus podent impitare pro allenare aplicatziones cun suportu vocale.
 datasets-positioning =
     Creimus chi pachetes de datos mannos e a disponimentu de totus promovant s'innovatzione e una cumpetitzione cummertziale sana in sa tecnologia vocale basada in s'imparu de is màchinas.
@@ -701,6 +724,16 @@ other-language = Àtera limba
 
 ## Request Language Pages
 
+request-language-heading = Pedi una lìngua noa
+request-language-form-email =
+    .label = S'indiritzu tuo
+request-language-form-info =
+    .label = Informatzione in pitzus de sa lìngua
+request-language-form-info-explanation = Su màssimu de informatzione chi podes frunire pro custa lìngua, comente:
+request-language-form-info-explanation-list-1 = Nòmines de sa lìngua
+request-language-form-info-explanation-list-2 = <isoCodeLink>Còdighes ISO</isoCodeLink>, si nde tenet
+request-language-form-info-explanation-list-3 = Ligòngios a sitos web chi nos podent agiudare a cumprèndere sa lìngua
+request-language-google-recaptcha-required = reCAPTCHA rechesta si boles sighire
 
 ## Languages Overview
 
@@ -717,7 +750,6 @@ language-search-input =
 language-speakers = Faeddadores
 localized = Localizadu
 sentences = Frases
-total-hours = Oras validadas
 
 ## Contribution
 
@@ -749,7 +781,7 @@ record-error-too-short = Sa registratzione est tropu curtza.
 record-error-too-long = Sa registratzione est tropu longa.
 record-error-too-quiet = Su volùmene de sa registratzione est tropu bàsciu.
 record-cancel = Annulla sa registratzione noa
-record-instruction = { $actionType }<recordIcon></recordIcon> a pustis leghe cun boghe arta sa frase
+record-instruction = { $actionType }<recordIcon></recordIcon> e leghe cun boghe arta sa frase
 record-stop-instruction = { $actionType }<stopIcon></stopIcon> cando as a àere acabbadu
 record-three-more-instruction = Àteras tres!
 record-again-instruction = Bene meda!<recordIcon></recordIcon> Registra s'imbeniente
@@ -766,7 +798,7 @@ record-abort-text = Si essis immoe as a pèrdere su progressu chi as fatu
 record-abort-submit = Imbia registratziones
 record-abort-continue = Acabba sa registratzione
 record-abort-delete = Essi e cantzella is registratziones
-listen-instruction = { $actionType }<playIcon></playIcon> ant lèghidu in manera curreta sa frase?
+listen-instruction = { $actionType }<playIcon></playIcon> si ant lèghidu in manera curreta sa frase.
 listen-again-instruction = Bonu traballu!<playIcon></playIcon> Torra a ascurtare cando ses prontu
 listen-3rd-time-instruction = 2 giai fatas, sighi aici!<playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon>Ùrtima!
@@ -843,7 +875,7 @@ validated-clips = Registratziones validadas
 total-approved = Totale de aprovados
 overall-accuracy = Pretzisione globale
 set-visibility = Cunfigura sa visibilidade mea
-visibility-explainer = Custa cunfiguratzione controllat sa visibilidade tua in sa classìfica. Si est cuada su progressu tuo at a èssere privadu. Custu bolet nàrrere chi s'immàgine tua, su nòmine usuàriu tuo e su progressu tuo no ant a apàrrere in sa classìfica. Tene in contu chi in s'annoamentu de sa classìfica ci bolent { $minutes } pro acabbare cun totu is modìficas.
+visibility-explainer = Custa cunfiguratzione controllat sa visibilidade tua in sa classìfica. Si est cuada su progressu tuo at a èssere privadu. Custu bolet nàrrere chi s'immàgine tua, su nòmine usuàriu tuo e su progressu tuo no ant a apàrrere in sa classìfica. Tene in contu chi in s'annoamentu de sa classìfica nci bolent { $minutes } minutos pro acabbare cun totu is modìficas.
 visibility-overlay-note = Dae cara: cando est impostada comente 'Visìbile', custa cunfiguratzione si podet cambiare dae sa <profileLink>pàgina de profilu</profileLink>
 show-ranking = Ammustra sa positzione mea
 
@@ -866,15 +898,15 @@ finish-editing = In antis boles acabbare de modificare?
 lose-changes-warning = Essende immoe as a pèrdere is modìficas tuas
 build-custom-goal = Crea un'obietivu personalizadu
 help-reach-hours-pluralized =
-    Agiuda a arribbare a{ NUMBER($hours) ->
-        [one] { $hours } ora
-       *[other] { $hours } oras
-    }in { $language } cun un'obietivu personale
+    { NUMBER($hours) ->
+        [one] Agiuda a arribbare a { $hours } ora in { $language } cun un'obietivu personale
+       *[other] Agiuda a arribbare a { $hours } oras in { $language } cun un'obietivu personale
+    }
 help-reach-hours-general-pluralized =
-    Agiuda a Common Voice a arribbare a{ NUMBER($hours) ->
-        [one] { $hours } ora
-       *[other] { $hours } oras
-    }in una limba cun un'obietivu personale
+    { NUMBER($hours) ->
+        [one] Agiuda a Common Voice a arribbare a { $hours } ora in una limba cun un'obietivu personale
+       *[other] Agiuda a Common Voice a arribbare a { $hours } oras in una limba cun un'obietivu personale
+    }
 set-a-goal = Cunfigura un'obietivu
 cant-decide = Non resesses a detzìdere?
 activity-needed-calculation-plural =
@@ -1039,7 +1071,7 @@ contribution-misreadings-example-7-explanation = [Fiat ‘fritu meda’ in su te
 contribution-misreadings-example-8-title = Su mumui est coladu curre-curre.
 contribution-misreadings-example-8-explanation = [Su cuntenutu non currispondet]
 contribution-varying-pronunciations-title = Pronùntzias chi mudant
-contribution-varying-pronunciations-description = Pensa·bi unu pagu in antis de refudare una registratziones ca su leghidore at pronuntziadu male unu faeddu, at postu s'atzentu in su tretu isballiadu o paret chi apat ignoradu unu puntu interrogativu. Ddoe sunt pronùntzias medas impreadas in su mundu, e medas de cussa mancari non dd'as mai intesas in sa comunidade locale tua. Chirca de tènnere unu pagu de elastitzidade e de aprètziu pro is chi faeddant in manera diferente dae sa tua.
+contribution-varying-pronunciations-description = Pensa·bi unu pagu in antis de refudare una registratzione ca su leghidore at pronuntziadu male unu faeddu, at postu s'atzentu in su tretu isballiadu o paret chi apat ignoradu unu puntu interrogativu. Ddoe sunt pronùntzias medas impreadas in su mundu, e medas de cussa mancari non ddas as mai intesas in sa comunidade locale tua. Chirca de tènnere unu pagu de elastitzidade e de aprètziu pro is chi faeddant in manera diferente dae sa tua.
 contribution-varying-pronunciations-description-extended = Dae s'àtera banda, si pensas chi su leghidore no apat mai bidu cussu faeddu e siat isceti chirchende de addivinare sa pronùntzia, refuda·dda. Si non ses seguru, imprea su butone Brinca.
 contribution-varying-pronunciations-example-1-title = Bògio iscarrigare un'immàgine dae inoghe.
 contribution-varying-pronunciations-example-1-explanation = [‘Bògio’ si podet pronuntziare fintzas ‘bozo’, ‘vozo’ o ‘bollu’, ‘iscarrigare’ si podet pronuntziare fintzas ‘iscarrigai’ o ‘scarrigai’, 'immàgine' si podet pronuntziare fintzas ‘imàgine’ ‘màgine’, ‘immàgini’ o ‘màgini’ e ‘inoghe’ si podet pronuntziare fintzas ‘innoghe’, ‘inoche’, ‘innohe’, ‘inoxi’ o ‘innoxe’]
@@ -1100,9 +1132,20 @@ see-less = <chevron></chevron>Càstia prus pagu
 
 ## ADD SENTENCES CONFIRMATION
 
+# Variables:
+#   $countOfInvalidated (Number) - Number of sentences the user rejected in the review form before submission
+sc-confirm-rejected-by-you = As refudadu { $countOfInvalidated } fràsias
 
 ## LANGUAGE INFO
 
+# Variables:
+#   $validatedSentences (Number) - Number of sentences which have been approved for this language
+sc-lang-info-validated =
+    { $validatedSentences ->
+        [0] Nissuna fràsia validada.
+        [one] 1 fràsia validada.
+       *[other] { $validatedSentences } fràsias validadas.
+    }
 
 ## LOGIN
 

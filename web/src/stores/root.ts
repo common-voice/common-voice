@@ -6,6 +6,7 @@ import { generateToken, hash } from '../utility';
 import { Flags } from './flags';
 import { Clips } from './clips';
 import { Locale } from './locale';
+import * as Languages from './languages';
 import { Notifications } from './notifications';
 import { RequestedLanguages } from './requested-languages';
 import { Sentences } from './sentences';
@@ -36,6 +37,7 @@ export function reducers(
     flags,
     requestedLanguages,
     locale,
+    languages,
     notifications,
     uploads,
   }: StateTree = {
@@ -45,6 +47,7 @@ export function reducers(
     locale: undefined,
     notifications: undefined,
     requestedLanguages: undefined,
+    languages: undefined,
     sentences: undefined,
     uploads: undefined,
     user: undefined,
@@ -52,6 +55,7 @@ export function reducers(
   action:
     | Clips.Action
     | Flags.Action
+    | Languages.Action
     | Locale.Action
     | RequestedLanguages.Action
     | Sentences.Action
@@ -62,6 +66,7 @@ export function reducers(
     clips: Clips.reducer(locale, clips, action as Clips.Action),
     flags: Flags.reducer(flags, action as Flags.Action),
     locale: Locale.reducer(locale, action as Locale.Action),
+    languages: Languages.reducer(languages, action as Languages.Action),
     requestedLanguages: RequestedLanguages.reducer(
       requestedLanguages,
       action as RequestedLanguages.Action

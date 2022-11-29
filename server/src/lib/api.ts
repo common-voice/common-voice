@@ -9,7 +9,7 @@ import PromiseRouter from 'express-promise-router';
 const Transcoder = require('stream-transcoder');
 
 import { UserClient as UserClientType } from 'common';
-import validateGoogleReCAPTCHA from './google-recaptcha-middleware';
+import rateLimiter from './rate-limiter-middleware';
 import { authMiddleware } from '../auth-router';
 import { getConfig } from '../config-helper';
 import Awards from './model/awards';
@@ -31,13 +31,16 @@ import validate, {
   jobSchema,
   sentenceSchema,
   sendLanguageRequestSchema,
+  datasetSchema,
 } from './validation';
+import Statistics from './statistics';
 
 export default class API {
   model: Model;
   clip: Clip;
   challenge: Challenge;
   email: Email;
+  statistics: Statistics;
   private readonly s3: S3;
   private readonly bucket: Bucket;
   readonly takeout: Takeout;
@@ -45,6 +48,7 @@ export default class API {
   constructor(model: Model) {
     this.model = model;
     this.clip = new Clip(this.model);
+    this.statistics = new Statistics(this.model);
     this.challenge = new Challenge(this.model);
     this.email = new Email();
     this.s3 = AWS.getS3();
@@ -57,18 +61,10 @@ export default class API {
 
     router.use(authMiddleware);
     router.get('/metrics', (request: Request, response: Response) => {
-      console.log('Received a metrics request', {
-        referer: request.header('Referer'),
-        query: request.query,
-      });
       response.redirect('/');
     });
 
     router.get('/golem', (request: Request, response: Response) => {
-      console.log('Received a Golem request', {
-        referer: request.header('Referer'),
-        query: request.query,
-      });
       response.redirect('/');
     });
 
@@ -77,6 +73,7 @@ export default class API {
     router.post('/user_clients/:client_id/claim', this.claimUserClient);
     router.get('/user_client', this.getAccount);
     router.patch('/user_client', this.saveAccount);
+    router.patch('/anonymous_user', this.saveAnonymousAccountLanguages);
     router.post(
       '/user_client/avatar/:type',
       bodyParser.raw({ type: 'image/*', limit: '300kb' }),
@@ -97,10 +94,12 @@ export default class API {
     router.get('/language/variants/:locale?', this.getVariants);
     router.post(
       '/language/request',
-      validateGoogleReCAPTCHA,
+      // 10 requests per minute
+      rateLimiter('/language/request', { points: 10, duration: 60 }),
       validate({ body: sendLanguageRequestSchema }),
       this.sendLanguageRequest
     );
+    router.use('/statistics', this.statistics.getRouter());
 
     router.get(
       '/:locale/sentences',
@@ -118,7 +117,19 @@ export default class API {
     router.get('/requested_languages', this.getRequestedLanguages);
     router.post('/requested_languages', this.createLanguageRequest);
 
-    router.get('/language_stats', this.getLanguageStats);
+    router.get('/languages', this.getAllLanguages);
+    router.get('/stats/languages/', this.getLanguageStats);
+
+    router.get(
+      '/datasets',
+      validate({ query: datasetSchema }),
+      this.getAllDatasets
+    );
+    router.get('/datasets/languages', this.getAllLanguagesWithDatasets);
+    router.get(
+      '/datasets/languages/:languageCode',
+      this.getLanguageDatasetStats
+    );
 
     router.post('/newsletter/:email', this.subscribeToNewsletter);
 
@@ -183,6 +194,31 @@ export default class API {
     response.json({});
   };
 
+  getAllLanguages = async (_request: Request, response: Response) => {
+    response.json(await this.model.getAllLanguages());
+  };
+
+  getAllDatasets = async (request: Request, response: Response) => {
+    const {
+      query: { releaseType },
+    } = request;
+    response.json(await this.model.getAllDatasets(releaseType.toString()));
+  };
+
+  getLanguageDatasetStats = async (request: Request, response: Response) => {
+    const {
+      params: { languageCode },
+    } = request;
+    response.json(await this.model.getLanguageDatasetStats(languageCode));
+  };
+
+  getAllLanguagesWithDatasets = async (
+    _request: Request,
+    response: Response
+  ) => {
+    response.json(await this.model.getAllLanguagesWithDatasets());
+  };
+
   getLanguageStats = async (request: Request, response: Response) => {
     response.json(await this.model.getLanguageStats());
   };
@@ -203,6 +239,30 @@ export default class API {
       })),
     ];
     response.json(userClients);
+  };
+
+  /**
+   * Allow for anonymous accounts to save metadata related to contributions.
+   * Supports accent and variant data.
+   *
+   * @param {Request} request
+   * @param {Response} response
+   * @memberof API
+   */
+  saveAnonymousAccountLanguages = async (
+    request: Request,
+    response: Response
+  ) => {
+    const {
+      client_id,
+      body: { languages },
+    } = request;
+    if (!client_id) {
+      throw new ClientParameterError();
+    }
+    response.json(
+      await UserClient.saveAnonymousAccountLanguages(client_id, languages)
+    );
   };
 
   saveAccount = async (request: Request, response: Response) => {
@@ -263,7 +323,7 @@ export default class API {
   };
 
   saveAvatar = async (
-    { body, headers, params, user, client_id }: Request,
+    { body, params, user, client_id }: Request,
     response: Response,
     next: NextFunction
   ) => {
@@ -554,6 +614,7 @@ export default class API {
 
       response.json(json);
     } catch (e) {
+      console.error(e);
       next(new Error('Something went wrong sending language request email'));
     }
   };

@@ -9,18 +9,8 @@ const { BundleAnalyzerPlugin } = require('webpack-bundle-analyzer');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const CopyPlugin = require('copy-webpack-plugin');
 
-const PROD_CV_GOOGLE_RECAPTCHA_SITE_KEY =
-  '6LcWLUofAAAAADi7WDALyviKfFfzWjI7vmwF5agw';
 const HASH_LENGTH = 16; // length specified for our compressed-size action
 const OUTPUT_PATH = path.resolve(__dirname, 'dist');
-
-const babelLoader = {
-  loader: 'babel-loader',
-  options: {
-    cacheDirectory: true,
-    presets: ['@babel/preset-env'],
-  },
-};
 
 module.exports = (_env, argv) => {
   const IS_DEVELOPMENT = argv.mode === 'development';
@@ -32,6 +22,36 @@ module.exports = (_env, argv) => {
       console.log('Failed loading dotenv file, using defaults');
     }
   }
+
+  const babelLoader = {
+    loader: 'babel-loader',
+    options: {
+      cacheDirectory: true,
+      presets: ['@babel/preset-env'],
+    },
+  };
+
+  /**
+   * By default, Webpack (rather, style-loader) includes stylesheets
+   * into the JS bundle.
+   *
+   * ExtractTextPlugin emits them into a separate plain file instead.
+   */
+  const cssLoaders = (options = {}) => {
+    return [
+      IS_DEVELOPMENT ? 'style-loader' : MiniCssExtractPlugin.loader,
+      {
+        loader: 'css-loader',
+        options: {
+          esModule: false, // TODO: Switch to ES modules syntax.
+          sourceMap: IS_DEVELOPMENT,
+          importLoaders: 1,
+          ...options,
+        },
+      },
+      'postcss-loader',
+    ];
+  };
 
   const plugins = [
     function () {
@@ -49,6 +69,8 @@ module.exports = (_env, argv) => {
       patterns: [
         // copy release files into dist
         { from: 'releases', to: 'releases' },
+        // copy the locales JSON files
+        { from: '../locales', to: 'languages' },
       ],
     }),
 
@@ -73,10 +95,6 @@ module.exports = (_env, argv) => {
 
     new webpack.DefinePlugin({
       'process.env.GIT_COMMIT_SHA': JSON.stringify(process.env.GIT_COMMIT_SHA),
-      'process.env.GOOGLE_RECAPTCHA_SITE_KEY': JSON.stringify(
-        process.env.CV_GOOGLE_RECAPTCHA_SITE_KEY ||
-          PROD_CV_GOOGLE_RECAPTCHA_SITE_KEY
-      ),
     }),
   ];
 
@@ -93,7 +111,7 @@ module.exports = (_env, argv) => {
       hashDigestLength: HASH_LENGTH,
     },
     stats: 'errors-only',
-    devtool: 'source-map',
+    devtool: IS_DEVELOPMENT ? 'eval-cheap-source-map' : undefined,
     resolve: {
       /**
        * See https://webpack.js.org/configuration/resolve/#resolve-extensions
@@ -134,25 +152,17 @@ module.exports = (_env, argv) => {
           type: 'javascript/auto',
         },
         {
-          /**
-           * By default, Webpack (rather, style-loader) includes stylesheets
-           * into the JS bundle.
-           *
-           * ExtractTextPlugin emits them into a separate plain file instead.
-           */
           test: /\.css$/,
-          use: [
-            MiniCssExtractPlugin.loader,
-            {
-              loader: 'css-loader',
-              options: {
-                sourceMap: true,
-                esModule: false, // TODO: Switch to ES modules syntax.
-                importLoaders: 1,
-              },
+          use: cssLoaders(),
+          exclude: /\.module\.css$/,
+        },
+        {
+          test: /\.module.css$/,
+          use: cssLoaders({
+            modules: {
+              localIdentName: '[local]--[hash:base64:5]',
             },
-            'postcss-loader',
-          ],
+          }),
         },
         {
           test: /\.(png|svg|jpg|gif|ttf)$/,

@@ -96,13 +96,13 @@ footer {
             margin-top: 0;
         }
 
-        & .main-logo {
+        & .Logo {
             font-size: 1rem;
             padding-right: 4rem;
         }
 
-        & .main-logo,
-        & .main-mozilla-logo {
+        & .Logo,
+        & .LogoImage {
             height: 2.5rem;
             max-height: 2.5rem;
 

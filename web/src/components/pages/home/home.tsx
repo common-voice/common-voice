@@ -11,6 +11,7 @@ import { LinkButton } from '../../ui/ui';
 import Page from '../../ui/page';
 import Hero from './hero';
 import { ClipsStats, VoiceStats } from './stats';
+import URLS from '../../../urls';
 
 import './home.css';
 
@@ -18,6 +19,7 @@ type HeroType = 'speak' | 'listen';
 
 export default function HomePage() {
   const heroes = ['speak', 'listen'];
+
   const { locale, user } = useTypedSelector(
     ({ locale, user }) => ({
       locale,
@@ -152,8 +154,7 @@ export default function HomePage() {
                       <LinkButton
                         type="button"
                         className="request-language"
-                        blank
-                        href="https://github.com/mozilla/common-voice/blob/main/docs/LANGUAGE.md"
+                        to={URLS.LANGUAGE_REQUEST}
                       />
                     </Localized>
                   </>

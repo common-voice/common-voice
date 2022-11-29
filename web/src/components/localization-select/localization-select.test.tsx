@@ -3,14 +3,14 @@ import { axe, toHaveNoViolations } from 'jest-axe';
 import { screen, RenderResult } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 
-import { renderWithLocalization } from '../../../test/render-with-localization';
+import { renderWithProviders } from '../../../test/render-with-providers';
 import LocalizationSelect from './localization-select';
 
 expect.extend(toHaveNoViolations);
 
 describe('LocalizationSelect', () => {
   it('should render with no accessibility violations', async () => {
-    const renderResult: RenderResult = renderWithLocalization(
+    const renderResult: RenderResult = renderWithProviders(
       <LocalizationSelect onLocaleChange={() => null} />
     );
     const results = await axe(renderResult.container);
@@ -19,7 +19,7 @@ describe('LocalizationSelect', () => {
 
   it('should call onLocalChange with a new locale when changed', async () => {
     const onLocalChangeMock = jest.fn();
-    renderWithLocalization(
+    renderWithProviders(
       <LocalizationSelect onLocaleChange={onLocalChangeMock} />
     );
 

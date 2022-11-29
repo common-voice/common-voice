@@ -48,7 +48,9 @@ interface LayoutProps
   extends PropsFromState,
     PropsFromDispatch,
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
-    RouteComponentProps<any, any, any> {}
+    RouteComponentProps<any, any, any> {
+  children?: React.ReactNode;
+}
 
 interface LayoutState {
   challengeTeamToken: ChallengeTeamToken;
@@ -150,7 +152,7 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
   };
 
   render() {
-    const { locale, location, user } = this.props;
+    const { children, locale, location, user } = this.props;
     const {
       challengeTeamToken,
       challengeToken,
@@ -160,7 +162,9 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
     } = this.state;
     const isBuildingProfile = location.pathname.includes(URLS.PROFILE_INFO);
     const pathParts = location.pathname.split('/');
-    const className = cx(pathParts[2] ? pathParts.slice(2).join(' ') : 'home');
+    const className = cx(pathParts[2] ? pathParts.slice(2).join(' ') : 'home', {
+      'nav-modal-active': this.state.isMenuVisible,
+    });
 
     const alreadyEnrolled =
       this.state.showWelcomeModal && user.account?.enrollment?.challenge;
@@ -211,7 +215,9 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
           </header>
         </div>
         <NonProductionBanner />
-        <Content location={location} />
+        <main id="content">
+          {children ? children : <Content location={location} />}
+        </main>
         <Footer />
         <div
           id="navigation-modal"

@@ -40,10 +40,12 @@ ba = Bashkir
 bas = Basaa
 be = Belarusian
 bg = Bulgaria ñe’ẽ
+bm = Bambara
 bn = Bengali ñe’ẽ
 br = Breton ñe’ẽ
 bs = Bosnia
 bxr = Buryat ñe’ẽ
+byv = { "" }
 ca = Catalán ñe’ẽ
 cak = Kaqchikel ñe’ẽ
 ckb = Kurdisch Mbytegua ñe’ẽ
@@ -53,9 +55,11 @@ cs = Czech ñe’ẽ
 cv = Chuvash ñe’ẽ
 cy = Welsh ñe’ẽ
 da = Dinamarca ñe’ẽ
+dag = { "" }
 de = Alemán ñe’ẽ
 dsb = Sorbian ñe’ẽ, Yvypegua
 dv = Dhivehi ñe’ẽ
+dyu = Dioula
 el = Grecia ñe’ẽ
 en = Inglés ñe’ẽ
 eo = Ñe’ẽ Esperanto
@@ -75,6 +79,7 @@ gom = Goan Konkani
 ha = Hausa ñe’ẽ
 he = Hebreo ñe’ẽ
 hi = Hindi ñe’ẽ
+hil = Hiligainón
 hr = Croacia ñe’ẽ
 hsb = Serbia ñe’ẽ, Yvategua
 ht = Haiti-gua
@@ -89,6 +94,7 @@ is = Islandia ñe’ẽ
 it = Italia ñe’ẽ
 izh = Izhorian ñe’ẽ
 ja = Japón ñe’ẽ
+jbo = Lojban
 ka = Georgia ñe’ẽ
 kaa = Karakalpak ñe’ẽ
 kab = Kabyle ñe’ẽ
@@ -97,6 +103,7 @@ ki = Kenia ñe’ẽ
 kk = Kazakh ñe’ẽ
 km = Ñe’ẽ Jemer
 kmr = Kurmanji Kurdish ñe’ẽ
+kn = Kannada
 knn = Konkani (Devanagari)
 ko = Corea ñe’ẽ
 kpv = Komi-Zyrian ñe’ẽ
@@ -105,6 +112,8 @@ ky = Kyrgyz ñe’ẽ
 lb = Luxemburgo-gua
 lg = Luganda ñe’ẽ
 lij = Ligurian ñe’ẽ
+ln = Lingala
+lo = Lao
 lt = Lituano ñe’ẽ
 lv = Latvia ñe’ẽ
 mai = Maithili
@@ -124,12 +133,16 @@ my = Burma ñe’ẽ
 myv = Erzya ñe’ẽ
 nan-tw = Taiwán ñe’e (Minnan)
 nb-NO = Noruega ñe’ẽ
+nd = IsiNdebele (Yvatévo)
 ne-NP = Nepali ñe’ẽ
 nia = Nias
 nl = Paises Bajos ñe’ẽ
 nn-NO = Noruega ñe’ẽ Nynorsk
+nr = IsiNdebele (Yvýgotyo)
+nso = Northern Sotho
 nyn = Nyankole
 oc = Occitano ñe’ẽ
+om = Afaan Ormoo
 or = Odia ñe’ẽ
 pa-IN = Punjabi ñe’ẽ
 pap-AW = Papiamento (Aruba)
@@ -147,14 +160,18 @@ sah = Sakha ñe’ẽ
 sat = Santali (Ol Chiki)
 sc = Sardinia ñe’ẽ
 scn = Sicilia ñe’ẽ
+sdh = Kurdo del sur
 shi = Shilha
 si = Sinhala ñe’ẽ
 sk = Eslovaquia ñe’ẽ
 skr = Saraiki
 sl = Eslovenia ñe’ẽ
+snk = Soninké
 so = Somalia ñe’ẽ
 sq = Albania ñe’ẽ
 sr = Serbia ñe’ẽ
+ss = Siswati
+st = Sesotho
 sv-SE = Suecia ñe’ẽ
 sw = Swahili ñe’ẽ
 syr = Syriac ñe’ẽ
@@ -166,8 +183,10 @@ ti = Etiopía ñe’ẽ
 tig = Jaguarete
 tk = Turkmenistán-gua
 tl = Tagalo ñe’ẽ
+tn = Setswana
 tok = Toki Pona
 tr = Turquía ñe’ẽ
+ts = Xitsonga
 tt = Tátaro ñe’ẽ
 tw = Twi
 ty = Tahití ñe’ẽ
@@ -177,15 +196,20 @@ ug = Uyghur
 uk = Ucrania ñe’ẽ
 ur = Urdu ñe’ẽ
 uz = Uzbequistán ñe’ẽ
+ve = Tshivenda
 vec = Venecia ñe’ẽ
 vi = Vietnam ñe’ẽ
 vot = Votic ñe’ẽ
+xh = Xhosa
 yi = Judío ñe’ẽ
 yo = Joruva
 yue = China ñe’ẽ
+zgh = Tamazight
 zh-CN = China ñe’ẽ (Chinapegua)
 zh-HK = China ñe’ẽ (Hong Kong-pegua)
 zh-TW = China ñe’ẽ (Taiwán-pegua)
+zu = Sulu
+zza = { "" }
 
 # [/]
 
@@ -197,6 +221,7 @@ speak-now = Eñe’ẽ ko’ág̃a
 datasets = Kuaapy’aty
 languages = Ñe’ẽnguéra
 about = Hesegua
+partner = Irũ
 profile = Toguetee
 help = Pytyvõ
 contact = Máva ndivépa oñeñe’ẽkuaa
@@ -320,7 +345,6 @@ shortcut-discard-ongoing-recording-label = Emboyke ñeñongatu oikóva
 shortcut-submit = Jevy
 shortcut-submit-label = Emondo clips
 request-language-text = Nderejuhúipiko ne ñe’ẽ’ypy Common Voice-pe?
-request-language-text-learn = ¡Eikuaa mba’éichapa ejeruréta ko’ápe!
 request-language-button = Ejererure toñembojoapy avei ambue ñe’ẽ
 
 ## ProjectStatus
@@ -456,7 +480,9 @@ faq-why-different-speakers-a =
     Heta ñe’ẽryapu ñongatupyre oĩva ombyaty mba’éichapa oñe’ẽ sa’i tapicha ha péicha rupi oñembo’yke ambuévape ombohyapuambuévape, techapyrãrõ <articleLink>kuimba’e ha tapicha aty avano’õ iviru sa’ivévape</articleLink>. Ndajaresarekóiramo tapicha aty michĩvévape ombohyapuambuéva peteĩ ñe’ẽ térã iñe’ẽambue’íva rehe, opytáta hikuái tapykuépe, ja’eporãsérõ oñembo’ykémava voi chupekuéra. Heta máquina noikũmbykuaái avei kuña ñe’ẽ ohendúramo.
     Upévare rombyatyva’erã opaichagua ñe’ẽryapu, taha’e kuñáva térã kuimba’éva, iñe’ẽ’ypýva térã iñe’ẽmokõiva!
 faq-why-my-lang-q = ¿Mba’ére che ñe’ẽ ndaipóri gueteri?
-faq-why-my-lang-new-a = Mozilla nomoĩri araka’eve peteĩ ñe’ẽ ambuéva ári. Upéva oiko’ỹ hag̃uákatu romba’apomeme, Common Voice techapyrã upéva rehegua. Jepéramo upéva tekotevẽ jajapo <multilangLink>sa’i mba’e ikatu hag̃uáicha oike ambue ñe’ẽ</multilangLink> ko tembiapoguasúpe. Tenonderã, oñembohasava’erã Common Voice ñandutirenda upe ñe’ẽ pyahúpe, ikatu hag̃uáicha oikéva oporopytyvõ oiporukuaa ñandutirenda iñe’ẽtépe. Upéi tekotevẽ ñambyaty hetaite ñe’ẽjoaju ndaijáraiva ikatu hag̃uáicha ombohyapu umíva tapicha ome’ẽva ijahy’o. Ojehupyty vove ko’ã mokõi mba’e oikekuaáma peteĩ ñe’ẽ Common Voice-pe ha upéva rire ikatúma oipytyvõséva oike ombohyapu ñe’ẽjoaju mono’õmbyre ha omoneĩkuaa avei ambuéva ñe’ẽryapu ñongatupyre. Embojoapyséramo peteĩ ñe’ẽ, reiporuva’erã ore <sentenceCollectorLink>Ñe’ẽjoaju Mbyatyha Rembiporu</sentenceCollectorLink>.
+faq-why-my-lang-a =
+    Common Voice ha’e peteĩ pyendavusu crowdsourcing rehegua, ha umi ñe’ẽ oñembojoapypaite omba’aporeíva rupive.
+    ¡Rovy’aitereíta remoĩramo ne ñe’ẽ! <languageRequestLink>Eporandu emoĩ hag̃ua ne ñe’ẽ.</languageRequestLink>
 faq-what-quality-q = Mba’eichaitépa iporãva’erã ñe’ẽryapu ikatu hag̃uáicha oike kuaapy atýpe?
 faq-what-quality-a = Ore roipota Common Voice kuaapy’aty oguerekoha opaichagua ñe’ẽryapu ikatu hag̃uáicha tembiporu oikũmbýtava oje’éva chupe omba’apokuaa avei ka’aguýpe. Iporã oĩramo opaichagua ñe’ẽryapu, péichante oñembokatupyrýta avei tembiporu’i ojapoporã hembiapo ndohenduporãkuaáiramo jepe. Katu yvypóra oikũmbykuaava’erã oje’éva ñe’ẽryapu ñongatupyrépe.
 faq-why-10k-hours-q = Mba’érepiko pehupytyse 10,000 aravo ñe’ẽryapu ñongatupyre peteĩ ñe’ẽme?
@@ -488,6 +514,9 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = ¿Mba’é eipurúta Common Voice?
+about-header-description-v2 =
+    <p>Common Voice niko ñe’ẽ’aty marandu oiporukuaáva opavave, oguatáva umi pytyvõhára ñe’ẽ rupive yvóra tuichaháicha. Umi yvypóra oiporúva iñe’ẽ omoheñói hag̃ua tembiporu ñe’ẽ rehegua ha ikatúva oiporu ko’ã ayvu oporohekombo’e hag̃ua ijehegui.</p>
+    <p>Ko’ág̃a, umi ayvu oñeñongatúva ijára ha’e umi mba’aporenda ojokóva tembiapo pyahu. Umi ñe’ẽ rehegua marandu ombohovái: yvypóra oñe’ẽ’ỹva inglés, yvypóra ysa’y ambuéva, yvypóra oiko’asýva, kuña ha kuimba’e LGBTQIA+. Péva he’ise tembiporu pyahu ojeguerekóva ndoikói ambue ñe’ẽme g̃uarã, ha oikohápe ikatuhína ndoikói peteĩchapa. Upéva romoambuese romongu’epávo opaite yvypóra opaite ndehpegua oiporukávo iñe’ẽ.</p>
 how-does-it-work-title-v2 = ¿Mba’éicha omba’apo Common Voice?
 how-does-it-work-text = Ore romono’õ viru yvypóra ome’ẽreíva ñandéve jajapo hag̃ua ko tembiapo. Eme’ẽmi nde ahy’o térã emoneĩ ñe’ẽryapu ñongatupyre eporopytyvõ hag̃ua avei. Péicharupi ko tembiapo iporãveta opavavépe g̃uarã.
 
@@ -523,12 +552,6 @@ about-dataset-new = Common Voice mba’ekuaarã rupa
 about-dataset-new-text = Common Voice kuaapy’aty oñongatu pype hetaite ñe’ẽryapu oipytyvõva tembiporu guerojerahárape ojapo hag̃ua tembiporu oikũmbýva ha ohaikuaáva ohendúva.
 about-clip-graveyard = Ñongatuhakuéra mbyatyha
 about-clip-graveyard-text = Clip Graveyard, ñe’ẽryapu ñongatupyre tyvytýniko ombyaty umi ñe’ẽjoaju oñembohyapuva’ekue oñembotoveva’ekue, ikatúva avei oñemboguejy.
-about-partners = Irũnguéra
-about-become-a-partner = Toiko ndehegui irũ
-about-partnership =
-    Common Voice oguata oĩ rupi tapicha oporopytyvõva, upévare ore rembiapo osãingo pytyvõhára rehe oiko hag̃ua chugui ñe’ẽryapu ñongatupyre atypy tuichavéva ñande yvy ape árigua.
-    
-    Ore rombo’aguyjeme’ẽse opaite yvypóra ha tapicha aty orepytyvõvape:
 about-get-involved = Poropytyvõ
 about-get-involved-text-2 =
     Reipytyvõsépa ikatu hag̃uáicha Common Voice iporãve?
@@ -557,9 +580,19 @@ about-playbook-what-is-language-content-3 = Heta ñẽ’e iñambue tuicha iñe�
 
 about-playbook-how-add-language = ¿Mba’éicha ambojuajúta ñe’ẽ?
 about-playbook-how-add-language-content-1 = Ñepyrũrã, ehechajey ne ñe’ẽ <languageLink>oĩmapa</languageLink>. Ndapeichairamo, <strong>omoñe’ẽasava’erã pe tenda ha ombyaty ñe’ẽjuaju</strong>.
-about-playbook-how-add-language-content-2 = <strong>Emoñe’ẽasa hag̃ua ko tenda</strong> - emoheko <translateVideo></translateVideo> <pontoonLink>Pontoon</pontoonLink>-pe. Pontoon oguereko heta ñe’ẽ, hákatu ndoguerekóiramo ne ñe’ẽ, ikatu <pontoonRequestLink>ejerure</pontoonRequestLink>-pe. Upéi ejerure <repoLink>GitHub rupive</repoLink> pe apopyrã Common Voice oĩ hag̃ua ne ñe’ẽme. Eñemomaranduve <localizationFragment>tenda ñemoñe’ẽasa</localizationFragment> rehegua.
-about-playbook-how-add-language-content-3 = <strong>Embyaty hag̃ua ñe’ẽjuaju</strong> - <scVideo>emboheko</scVideo> <scLink>Sentence Collector</scLink>-pe.
-about-playbook-how-add-language-content-4 = Ikatu <scLinkAdd>embojualu michĩmí</scLinkAdd> ñe’ẽjuaju ápe, térã ejapokuaa </scLinkAdd>mba’ejegueru tuichaháicha</bulkImportDocsLink> peteĩ Github mba’ejerure rupi. Nemandu’áke ñe’ẽjuaju ha’eva’erã <licenseLink>CC0 (térã opavave mba’éva)</licenseLink>, térã ehaikuaa nemba’eteéva. Ehechave <scFragment>ñe’ẽjuaju apesã</scFragment>-pe.
+about-playbook-how-add-language-translating-heading = Omoñe’ẽasa tenda
+about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Ehecha mba’éichapa eipurúta Pontoon.</translateVideoLink>
+about-playbook-how-add-language-translating-content-2 =
+    Jaipuru peteĩ tembipuru Mozilla mba’e hérava <pontoonLink>Pontoon</pontoonLink> ñe’ẽmbohasarã. Pontoon oguereko heta ñe’ẽ,
+    hákatu ndoguerekóiramo ne mba’éva ikatu <pontoonRequestLink>ejerure oñembojoapy hag̃ua ne ñe’ẽ</pontoonRequestLink>.
+    Upéi, ojeguereko hag̃ua ñe’ẽ Common Voice apopyrãme,
+    </githubRepoLink>ejerure ñe’ẽ pyahúre GitHub-pe</githubRepoLink>. <localizationFragment>Ehechave tenda ñe’ẽasápe</localizationFragment>.
+about-playbook-how-add-language-collecting-sentences-heading = Ñe’ẽrysýi ñembyaty
+about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>Ehecha mba’éichapa eipurúta ñe’ẽjuaju ñembyatyha</sentenceCollectorVideo>.
+about-playbook-how-add-language-collecting-sentences-content-2 =
+    Ikatu <sentenceCollectorLinkAdd>embojuaju ñe’ẽjuaju michĩmimi</sentenceCollectorLinkAdd>, térã ejapokuaa <bulkImportDocsLink>mba’ejegueru tuichaháicha eipurúvo Github</bulkImportDocsLink>.
+    Nemandu’áke ñe’ẽjuaju ha’eva’erã <licenseLink>CC0 (térã opavave mba’éva)</licenseLink>, térã ehaikuaa nemba’eteéva.
+about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>Ehechave ñe’ẽjuaju aty rehegua</sentenceCollectorFragment>.
 
 ## How does localization work
 
@@ -610,6 +643,7 @@ about-playbook-how-validate-content-4 = Mokõi tapicha omboykérõ jekutu, ojehe
 ## How to access dataset
 
 about-playbook-how-access-dataset = ¿Mba’éicha aike ha aipurúta mba’ekuaarã aty?
+about-playbook-how-access-dataset-content-1 = Ikatu reike <datasetsPage>mba’ekuaarã aty kuatirogue</datasetsPage>-pe, eiporavo peteĩchagua ha ñe’ẽ reipotáva ha emboguejy. Umi vore oguereko <metadataLink>metadato ojoajúva</metadataLink>, ha’eháicha marandu demográfico ha marandu jegueroviapyrã. Tekotevẽta reme’ẽ peteĩ ñe’ẽveve remboguejy hag̃ua umi maranduryru.
 about-playbook-how-access-dataset-content-2 = Ehekaramohína tembipuru emoheñói hag̃ua peteĩchagua ASR, eikekuaa ambue tapicha ndive tekohápe <discourseLink>Discourse-pe</discourseLink>.
 
 ## How are decisions made
@@ -622,12 +656,6 @@ about-playbook-how-project-governance-content-4 = Tekohápe jeike ha mba'e tapé
 about-playbook-how-project-governance-content-5 = Tepykue ha jehechakuaa.
 about-playbook-how-project-governance-content-6 = Jepapapy mokõiveguáva.
 about-playbook-how-project-governance-content-7 = <governanceLink>Emoñe’ẽve mba’éichapa roñemongu’e</governanceLink>
-mycroft-title = Mycroft Ai
-mycroft-subtitle = Tembiporu Ikatupyrýva
-mycroft-description =
-    Mycroft niko pytyvõhára open source peteĩha.
-    Mycroft ojeporukuaa opaichagua tembiporúpe - mohendahápe, mba’yruguatápe térã pumbyrýpe.
-mycroft-secondary-description = Ko tembiporu open source oñemoambuekuaa, oñemoporãvekuaa ojeipotaháicha. Mycroft ikatu avei ojeporu oimeraẽva tembikuaaty aponde’ápe térã empresa  oguerojeráva software-pe.
 
 ## Glossary
 
@@ -695,6 +723,10 @@ datasets-positioning =
     
     Eikemi ko toguépe eikuaasevérõ ambue kuaapy’aty ãichagua oĩva opavavépe g̃uarã ha avei okakuaa ohóvo Common Voice, reikuaáta ápe mba’epyahu.
 language = Ñe’ẽ
+download-dataset-header = Emboguejy mba’ekuaarã aty
+download-delta-explainer = Romoambuékuri heta mba’e. Pe delta vore oguereko mba’epyahu roguenohẽramóvape. <deltaLink>Emoñe’ẽve ko tembiapo rehegua</deltaLink>.
+download-dataset-tag = Eiporavo ñe’ẽ mba’ekuaarã aty eipotáva ha mba’eichaguáva emboguejy hag̃ua.
+download-dataset-access = ¿Eheka itujavéva mba’ekuaarã aty? Ñanduti veve <emailLink> { $email } </emailLink>
 # File size in gigabytes
 size = Tuichakue
 validated-hr-total = Aravo mboajepyre
@@ -774,6 +806,11 @@ other-language = Ambue Ñe’ẽ
 ## Request Language Pages
 
 request-language-heading = Eporandu ñe’ẽ pyahúre
+request-language-explanation-1 =
+    Ehechamína oĩpa ne ñe’ẽ tysýipe
+    <languagesPageLink>Ñe’ẽkuaaty Ñe’ẽtekuaa rehegua Kuatiarogue</languagesPageLink>.
+    Ndaipóriramo, emyenyhẽ ko kuatiañe’ẽ ha <strong>romondóta ndéve peteĩ ñe’ẽmondo oipytyvõva.
+    omyesakãvo mba’éichapa remohendava’erã ne ñe’ẽ</strong>-pe.
 request-language-explanation-2 =
     Avei <strong>romomarandúta ore rekoha ñangarekohárape
     eikuaaséva rehegua</strong>, ikatukuaa hag̃uáicha
@@ -795,6 +832,17 @@ request-language-success-heading = ¡Aguyje! Emondo ñe’ẽ rehegua porandu
 request-language-success-list-1 =
     Og̃uahẽta ndéve peteĩ ñanduti veve omyesakãtava
     mba’éichapa embojuajúta ne ñe’ẽ Common Voice ndive
+request-language-success-list-2 =
+    Ore ñangarekohára tekohagua oñe’ẽta nendive oikuave’ẽ potávo
+    ñepytyvõve, ha oikuaauka hag̃ua oĩmapa
+    peteĩ avano’õ omba’apóva ne ñe’ẽ rehe
+request-language-success-list-3 =
+    ¡Nog̃uahẽiramo ndéve ore marandu ndahetái ára rire,
+    eñe’ẽ <emailLink>{ $email }</emailLink>
+    ndive ha upépe roñe’ẽta nendive!
+request-language-error =
+    Ikatu nog̃uahẽikuri pe nemba’ejerure. Emboukuaa ñanduti veve oréve
+    <emailLink>{ $email }</emailLink>-pe ha uperire roñe’ẽta nendive.
 
 ## Languages Overview
 
@@ -811,7 +859,8 @@ language-search-input =
 language-speakers = Ñe’ẽharakuéra
 localized = Ñe’ẽasapyre
 sentences = Ñe’ẽjoajukuéra
-total-hours = Aravo Moneĩmbyre
+language-validation-hours = Aravo
+language-validation-progress = Ñemboaje Jejapo
 
 ## Contribution
 
@@ -1136,25 +1185,30 @@ contribution-misreadings-example-7-explanation = [Ani ‘a’ moñe’ẽrã yp�
 contribution-misreadings-example-8-title = Pe mberuguasu ohasa pya’eterei.
 contribution-misreadings-example-8-explanation = [Tetepy ojokupyty’ỹva]
 contribution-varying-pronunciations-title = Je’epyre Hekoetáva
+contribution-varying-pronunciations-description = Ejesarekóke rembotove mboyve peteĩ jekutúpe heʼívo pe omoñe’ẽva omoñe’ẽvaihague peteĩ ñe’ẽ, omoĩvaihague térã haʼetévaicha ndojesarekoihague peteĩ kytaporandu rehe. Ko yvóra tuichakuére ojeporu hetaiterei ñembohyapu, ha ikatu oĩ nerehendúiva ne ava’atýpe. Peme’ẽmi peteĩ aguyjeme’ẽ pa’ũme umi ikatúva oñe’ẽ ambuéva pendehegui.
 contribution-varying-pronunciations-description-extended = Ambueháicha, peichahágui eguerovia mba’éramo pe moñe’ẽhára araka’eve ndohechamo’ãi pe ñe’ẽ ha oimo’ãreínte ojavývo pe iñemboayvu pukue, ha pévare omboyke. Ndereikuaa porãiramo, eipuru pe votõ Jepo.
 contribution-varying-pronunciations-example-1-title = Oguereko iñakã rehe akão.
 contribution-varying-pronunciations-example-1-explanation = [‘Beret’ oĩporã imyanduhéramo jepe ñe’ẽpehẽ peteĩhápe (Reino Unido) térã mokõihápe (EE.UU.)]
 contribution-varying-pronunciations-example-2-title = Omopu’ã ipo.
 contribution-varying-pronunciations-example-2-explanation = [‘Raised’ inglés-pe oñemoñe’ẽ peteĩ ñe’ẽpehẽme, ndaha’éi mokõime]
 contribution-background-noise-title = Tyapu tapykuegua
+contribution-background-noise-description = Roipota umi kuaapyhy ijeheguíva guatarã rehegua ikatu oñatende opaichagua tyapu tapykuegua rehe, ha umi tyapu hatãitereíva jepe ikatu ojeguerohory ndojokóiramo ndéve rehendu hag̃ua jehaipyre tuichakue. Purahéi kirirĩháme oĩ OK; purahéi hatãva ani hag̃ua rehendu peteĩteĩ ha opa ñe’ẽ ndaha’éi.
 contribution-background-noise-description-extended = Ne ñe’ẽñongatu osóramo térã nosẽporãmbái, ejapojeýnte noñehendupaiva’éramo opahaite peve ñe’ẽpu.
 contribution-background-noise-example-1-fixed-title = <strong>[Atĩa]</strong> Umi dinosaurio tuicháva <strong>[hu’u]</strong> Triásico pegua.
 contribution-background-noise-example-2-fixed-title = Dinosaurio tuicháva <strong>[hu’u]</strong> Triásico-gua.
 contribution-background-noise-example-2-explanation = [Ndaikatúi oñehendu moñe’ẽrã vore]
 contribution-background-noise-example-3-fixed-title = <strong>[Crackle]</strong> dinosaurio tuicháva <strong>[crackle]</strong> Triásico rehegua.
 contribution-background-voices-title = Ñe’ẽ tapykuegua
+contribution-background-voices-description = Mba’e’oka tapykuegua kirirĩháme oĩporã, hákatu ndoroipotái ñe’ẽ ambue ikatúva ojapo peteĩ algoritmo máquina rehegua ohechakuaa hag̃ua ñe’ẽ ndoikóiva jehaipyre ojehaívape. Ikatúramo rehendu ñe’ẽ iñambuéva jehaipyrégui, oñembotoveva’erã jekutu. Jepiveguáicha péva oiko ojehejahaguépe pe ta’angambyry térã oĩhápe peteĩ ñomongeta oikóva ag̃ui upégui.
 contribution-background-voices-description-extended = Ne ñe’ẽñongatu osóramo térã nosẽporãmbái, ejapojeýnte noñehendupaiva’éramo opahaite peve ñe’ẽpu.
 contribution-background-voices-example-1-title = Umi dinosaurio tuicháva Triásico pegua. <strong>[omoñe’ẽva ayvúpe]</strong>
 contribution-background-voices-example-1-explanation = ¿Ejútapa? <strong>[ambue renoimbyre]</strong>
 contribution-volume-title = Mbopuha
 contribution-volume-description = Ojuavýta katuetei hetakuépe umi moñe’ẽhára. Emboyke hetaiterei oĩjavénte pe ñeñongatu ikatu rehe oso oso térã (hetajey oikokuaa) mbegueterei ipúramo ñe’ẽayvu ha ñoñehenduporãi pe ojehechaháicha moñe’ẽrã jehaipyrépe.
 contribution-reader-effects-title = Moñe’ẽhára Oñandúva
+contribution-reader-effects-description = Hetavéva ñe’ẽñongatupy haʼe yvypóra oñeʼẽva iñeʼẽ rekoitépe. Ikatu pemoneĩ ñe’ẽñongatupy sapy’apy’a ndaha’éiva estándar ojesapukáiva, oñeñe’ẽñemi térã ojehechaháicha oñeme’ẽva ñe’ẽ dramático-pe. Embotove ñe’ẽñongatu ojepurahéiva ha oipurúva ñe’ẽ oñemombyky hag̃uánte mohendahápe.
 contribution-just-unsure-title = ¿Nahekorasãi?
+contribution-just-unsure-description = Ejuhúramo ko’ã pauta ndojaho’íriva, evota reñamindu’uhaichaite. Ndaikatúiramo añetehápe eiporavo, eipuru pe votõ jepoha ha eku’ejey ambue ñeñongatu ndive.
 see-more = <chevron></chevron>Ehechave
 see-less = <chevron></chevron>Ehecha’ive
 
@@ -1202,6 +1256,7 @@ sc-howto-addlang-title = Embojuaju ñe’ẽ emba’apo hag̃ua
 sc-howto-addlang-text = Emoñepyrũ rire ne tembiapo, eiporavokuaa ñe’ẽnguéra mba’ete rendápe.
 sc-howto-addsen-title = Embojuaju ñe’ẽjuaju pyahu
 sc-howto-addsen-item-5 = Tai pytagua. Umi kuatiahai oikova’erã ñe’ẽ ojepurúvape. Techapyrã, “ж” ha'e tai Rusia ñe’ẽ achegetýpe, hákatu araka’eve ndojepurúiva inglés ñe’ẽme ha, upévare, nosẽiva’erã mba’evéichagua moñe’ẽrã inglés-pe.
+sc-howto-addsen-item-6 = Ñe’ẽnguéra oguerekokuaa <validationRulesLink>ñemoneĩ mbojojaha imba’eteéva</validationRulesLink> mba’e tekotevẽmby ndive. Ndoguerekóiramo ñemoneĩha marandurenda ha’etéva peteĩ ñe’ẽme g̃uarã, roipuru upévare inglés mbojojahánte.
 sc-howto-cite-title = Mba’éicha emombe’úta
 sc-howto-cite-pre-1 = Iporã emombe’u moõpa ejuhu pe ñemoneĩ guasu emboyke hag̃ua ñemonda ha emoneĩ pe jehapykueho <copyrightIssuesLink>apohára derécho apañuãi</copyrightIssuesLink>. Ko’ápe ejuhúta heta hendáicha emombe’u hag̃ua tembiapokue.
 sc-howto-cite-item-1 = Emoingekuaa ñanduti renda, techapyrã, "Common Voice - https://commonvoice.mozilla.org/"
@@ -1474,3 +1529,15 @@ sc-validation-no-abbreviations = Pe ñe’ẽjoaju ndorekoiva’erã ñe’ẽmb
 
 localization-select =
     .label = Eiporavo ñe’ẽ/moñe’ẽasa
+# PARTNERSHIPS PAGE
+partnerships-header = Juajuguasu
+partnerships-header-text = ¡Tekotevẽ heta mba’e Common Voice oiko hag̃ua! Ndorojapói oreaño. ¿Ejuajusepa orendive? Roikuaaseve ndehegui.
+partnerships-get-in-touch = Eiméke ñandutípe
+partnerships-become-a-partner = Eiko Common Voice irũramo
+partnerships-community-header = Tekoha, Moheñoihára ha Tekohaygua
+partnerships-foundations-header = Viru’ỹgua
+partnerships-governments-header = Tekuái
+partnerships-academia-header = Mbo’ehaovusu, Mbo’ekuaahára ha Taperekahára
+partnerships-small-business-header = Mba’apohaguasu michĩvéva, oĩhápe mba’apohaguasu pyahu tembipurupyahugua ha IA
+partnerships-corporates-header = Mba’apohaguasu tuicháva ha pyendavusugua
+partnerships-our-partners = Ore irũnguéra

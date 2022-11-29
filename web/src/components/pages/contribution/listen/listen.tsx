@@ -100,7 +100,7 @@ class ListenPage extends React.Component<Props, State> {
   static getDerivedStateFromProps(props: Props, state: State) {
     if (state.clips.length > 0) return null;
 
-    if (props.clips.length > 0) {
+    if (props.clips && props.clips.length > 0) {
       return {
         clips: props.clips
           .slice(0, SET_COUNT)

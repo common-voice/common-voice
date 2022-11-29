@@ -1,7 +1,7 @@
 import * as React from 'react';
 import * as Modal from 'react-modal';
 import { Suspense } from 'react';
-import { connect, Provider } from 'react-redux';
+import { connect, Provider as ReduxProvider } from 'react-redux';
 import {
   Redirect,
   Route,
@@ -17,41 +17,29 @@ import { createBrowserHistory } from 'history';
 import { UserClient } from 'common';
 import store from '../stores/root';
 import URLS from '../urls';
-import {
-  isMobileSafari,
-  isProduction,
-  isStaging,
-  replacePathLocale,
-} from '../utility';
-import {
-  createLocalization,
-  DEFAULT_LOCALE,
-  LOCALES,
-  negotiateLocales,
-} from '../services/localization';
+import { isMobileSafari, isProduction, shouldEmitErrors } from '../utility';
 import API from '../services/api';
 import { Locale } from '../stores/locale';
+import * as Languages from '../stores/languages';
 import { Notifications } from '../stores/notifications';
 import StateTree from '../stores/tree';
 import { Uploads } from '../stores/uploads';
 import { User } from '../stores/user';
 import Layout from './layout/layout';
-import DemoLayout from './layout/demo-layout';
 import NotificationPill from './notification-pill/notification-pill';
 import { Spinner } from './ui/ui';
-import {
-  isContributable,
-  localeConnector,
-  LocalePropsFromState,
-} from './locale-helpers';
+import { localeConnector, LocalePropsFromState } from './locale-helpers';
 import { Flags } from '../stores/flags';
-import { ReactLocalization, LocalizationProvider } from '@fluent/react';
-// import ErrorSlowBanner from './error-slow-banner/error-slow-banner';
-const rtlLocales = require('../../../locales/rtl.json');
+
+import LanguagesProvider from './languages-provider';
+import ErrorBoundary from './error-boundary/error-boundary';
+import LocalizedErrorBoundary from './error-boundary/localized-error-boundary';
+
 const ListenPage = React.lazy(
   () => import('./pages/contribution/listen/listen')
 );
 const SpeakPage = React.lazy(() => import('./pages/contribution/speak/speak'));
+const DemoPage = React.lazy(() => import('./layout/demo-layout'));
 
 const SentryRoute = Sentry.withSentryRouting(Route);
 
@@ -59,7 +47,7 @@ const SENTRY_DSN_WEB =
   'https://40742891598c4900aacac78dd1145d7e@o1069899.ingest.sentry.io/6251028';
 
 Sentry.init({
-  dsn: SENTRY_DSN_WEB,
+  dsn: shouldEmitErrors() ? SENTRY_DSN_WEB : null,
   integrations: [new BrowserTracing()],
   environment: isProduction() ? 'prod' : 'stage',
   release: process.env.GIT_COMMIT_SHA || null,
@@ -70,6 +58,7 @@ interface PropsFromState {
   account: UserClient;
   notifications: Notifications.State;
   uploads: Uploads.State;
+  languages: Languages.State;
   messageOverwrites: Flags.MessageOverwrites;
 }
 
@@ -78,18 +67,17 @@ interface PropsFromDispatch {
   removeUpload: typeof Uploads.actions.remove;
   setLocale: typeof Locale.actions.set;
   refreshUser: typeof User.actions.refresh;
+  updateUser: typeof User.actions.update;
 }
 
 interface LocalizedPagesProps
   extends PropsFromState,
     PropsFromDispatch,
     LocalePropsFromState,
-    RouteComponentProps<any, any, any> {
-  userLocales: string[];
-}
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    RouteComponentProps<any, any, any> {}
 
 interface LocalizedPagesState {
-  l10n: ReactLocalization | null;
   uploadPercentage?: number;
 }
 
@@ -99,20 +87,24 @@ let LocalizedPage: any = class extends React.Component<
 > {
   seenAwardIds: number[] = [];
   state: LocalizedPagesState = {
-    l10n: null,
     uploadPercentage: null,
   };
 
   isUploading = false;
 
   async componentDidMount() {
-    await this.prepareBundleGenerator(this.props);
+    this.props.updateUser({});
     this.props.refreshUser();
+
+    if (isMobileSafari()) {
+      document.body.classList.add('mobile-safari');
+    }
+
     Modal.setAppElement('#root');
   }
 
   async UNSAFE_componentWillReceiveProps(nextProps: LocalizedPagesProps) {
-    const { account, addNotification, api, uploads, userLocales } = nextProps;
+    const { account, addNotification, api, uploads } = nextProps;
 
     this.runUploads(uploads).catch(e => console.error(e));
 
@@ -122,10 +114,6 @@ let LocalizedPage: any = class extends React.Component<
             (e.returnValue =
               'Leaving the page now aborts pending uploads. Are you sure?')
         : undefined;
-
-    if (userLocales.find((locale, i) => locale !== this.props.userLocales[i])) {
-      await this.prepareBundleGenerator(nextProps);
-    }
 
     const award = account?.awards
       ? account.awards.find(
@@ -174,50 +162,12 @@ let LocalizedPage: any = class extends React.Component<
     }
   }
 
-  async prepareBundleGenerator({
-    api,
-    history,
-    userLocales,
-  }: LocalizedPagesProps) {
-    const [mainLocale] = userLocales;
-    const pathname = history.location.pathname;
-
-    // Since we make no distinction between "en-US", "en-UK",... we redirect them all to "en"
-    if (mainLocale.startsWith('en-')) {
-      this.props.setLocale('en');
-      history.replace(replacePathLocale(pathname, 'en'));
-      return;
-    }
-
-    if (!LOCALES.includes(mainLocale)) {
-      userLocales[0] = DEFAULT_LOCALE;
-      this.props.setLocale(DEFAULT_LOCALE);
-      history.replace(replacePathLocale(pathname, DEFAULT_LOCALE));
-    } else {
-      this.props.setLocale(userLocales[0]);
-    }
-
-    const { documentElement } = document;
-    documentElement.setAttribute('lang', mainLocale);
-    documentElement.setAttribute(
-      'dir',
-      rtlLocales.includes(mainLocale) ? 'rtl' : 'ltr'
-    );
-
-    this.setState({
-      l10n: await createLocalization(
-        api,
-        userLocales,
-        this.props.messageOverwrites
-      ),
-    });
-  }
-
   render() {
-    const { locale, notifications, toLocaleRoute, location } = this.props;
-    const { l10n, uploadPercentage } = this.state;
+    const { locale, notifications, toLocaleRoute, location, languages } =
+      this.props;
+    const { uploadPercentage } = this.state;
 
-    if (!l10n) return null;
+    const isContributable = languages.contributableLocales.includes(locale);
 
     return (
       <>
@@ -238,173 +188,89 @@ let LocalizedPage: any = class extends React.Component<
                 }
           }
         />
-        <LocalizationProvider l10n={l10n}>
-          <>
-            <div className="notifications">
-              {notifications
-                .slice()
-                .reverse()
-                .map(
-                  notification =>
-                    notification.kind == 'pill' &&
-                    notification.type !== 'achievement' && (
-                      <NotificationPill
-                        key={notification.id}
-                        notification={notification}
-                      />
-                    )
-                )}
-            </div>
+        <div className="notifications">
+          {notifications
+            .slice()
+            .reverse()
+            .map(
+              notification =>
+                notification.kind == 'pill' &&
+                notification.type !== 'achievement' && (
+                  <NotificationPill
+                    key={notification.id}
+                    notification={notification}
+                  />
+                )
+            )}
+        </div>
 
-            {/* <ErrorSlowBanner /> */}
-
-            <Switch>
-              {[
-                { route: URLS.SPEAK, Component: SpeakPage },
-                { route: URLS.LISTEN, Component: ListenPage },
-              ].map(({ route, Component }: any) => (
-                <SentryRoute
-                  key={route}
-                  exact
-                  path={toLocaleRoute(route)}
-                  render={props =>
-                    isContributable(locale) ? (
-                      <Component {...props} />
-                    ) : (
-                      <Redirect to={toLocaleRoute(URLS.ROOT)} />
-                    )
-                  }
-                />
-              ))}
-              {location.pathname.includes(URLS.DEMO) ? (
-                <DemoLayout />
-              ) : (
-                <Layout />
-              )}
-            </Switch>
-          </>
-        </LocalizationProvider>
+        <Switch>
+          {[
+            { route: URLS.SPEAK, Component: SpeakPage },
+            { route: URLS.LISTEN, Component: ListenPage },
+          ].map(({ route, Component }: any) => (
+            <SentryRoute
+              key={route}
+              exact
+              path={toLocaleRoute(route)}
+              render={props =>
+                isContributable ? (
+                  <Component {...props} />
+                ) : (
+                  <Redirect to={toLocaleRoute(URLS.ROOT)} />
+                )
+              }
+            />
+          ))}
+          {location.pathname.includes(URLS.DEMO) ? <DemoPage /> : <Layout />}
+        </Switch>
       </>
     );
   }
 };
 
+LocalizedPage.displayName = 'LocalizedPage';
+
 LocalizedPage = withRouter(
   localeConnector(
     connect<PropsFromState, PropsFromDispatch>(
-      ({ api, flags, notifications, uploads, user }: StateTree) => ({
+      ({ api, flags, notifications, languages, uploads, user }: StateTree) => ({
         account: user.account,
         api,
         messageOverwrites: flags.messageOverwrites,
         notifications,
         uploads,
+        languages,
       }),
       {
         addNotification: Notifications.actions.addBanner,
         removeUpload: Uploads.actions.remove,
         setLocale: Locale.actions.set,
         refreshUser: User.actions.refresh,
+        updateUser: User.actions.update,
       }
     )(LocalizedPage)
   )
 );
 
-const history = createBrowserHistory();
+const App = () => {
+  const history = createBrowserHistory();
 
-class App extends React.Component {
-  main: HTMLElement;
-  userLocales: string[];
-
-  state: { error: Error } = { error: null };
-
-  /**
-   * App will handle routing to page controllers.
-   */
-  constructor(props: any, context: any) {
-    super(props, context);
-
-    store.dispatch(User.actions.update({}) as any);
-    store.dispatch(User.actions.refresh() as any);
-
-    if (isMobileSafari()) {
-      document.body.classList.add('mobile-safari');
-    }
-
-    this.userLocales = negotiateLocales(navigator.languages);
-  }
-
-  async componentDidCatch(error: Error, errorInfo: any) {
-    this.setState({ error }, () =>
-      history.push(`${this.userLocales[0]}/503`, {
-        prevPath: history.location.pathname,
-      })
-    );
-
-    // don't log errors in development
-    if (!isProduction() && !isStaging()) {
-      return;
-    }
-
-    Sentry.withScope(scope => {
-      Object.keys(errorInfo).forEach(key => {
-        scope.setExtra(key, errorInfo[key]);
-      });
-      Sentry.captureException(error);
-    });
-  }
-
-  render() {
-    const userLocale = this.userLocales[0];
-
-    return (
-      <Suspense fallback={<Spinner />}>
-        <Provider store={store}>
+  return (
+    <Suspense fallback={<Spinner />}>
+      <ErrorBoundary>
+        <ReduxProvider store={store}>
           <Router history={history}>
-            <Switch>
-              {Object.values(URLS).map(url => (
-                <SentryRoute
-                  key={url}
-                  exact
-                  path={url || '/'}
-                  render={() => (
-                    <Redirect to={`/${userLocale}${url}${location.search}`} />
-                  )}
-                />
-              ))}
-              <SentryRoute
-                path="/pt-BR"
-                render={({ location }) => (
-                  <Redirect to={location.pathname.replace('pt-BR', 'pt')} />
-                )}
-              />
-              <SentryRoute
-                path="/:locale"
-                render={({
-                  match: {
-                    params: { locale },
-                  },
-                }) =>
-                  LOCALES.includes(locale) ? (
-                    <LocalizedPage
-                      userLocales={[locale, ...this.userLocales]}
-                    />
-                  ) : (
-                    <Redirect
-                      push
-                      to={{
-                        pathname: `/${userLocale}/404`,
-                        state: { prevPath: location.pathname },
-                      }}
-                    />
-                  )
-                }
-              />
-            </Switch>
+            <LanguagesProvider>
+              <LocalizedErrorBoundary>
+                <LocalizedPage />
+              </LocalizedErrorBoundary>
+            </LanguagesProvider>
           </Router>
-        </Provider>
-      </Suspense>
-    );
-  }
-}
+        </ReduxProvider>
+      </ErrorBoundary>
+    </Suspense>
+  );
+};
 
 export default App;
