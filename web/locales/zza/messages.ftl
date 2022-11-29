@@ -1092,7 +1092,10 @@ sc-languages-fetch-error = Ma ziwanê estbîyayeyî nêdîyî. Na game beşdarî
 
 sc-howto-title = Senî beno
 sc-howto-addlang-title = Seba xebitîyayîşî, îlawekerdişê ziwanan
+sc-howto-addlang-text = Ti ke dekewtî/a, eşkenî/a beşê profîlê xo de ziwananê xo weçînê.
 sc-howto-addsen-title = Cumleyanê neweyan îlawe bike
+sc-howto-addsen-item-1 = Heme cumleyanê ke ti şawenî/a, ganî binê lîsansê <wikipediaLink>Milkê Pêroyî (CC-0)</wikipediaLink> de bibê. Seba ke eserê ke milkê pêroyî nîyê, ê zî bêrê tewrkerdene, ma <cc0WaiverLink>şablonê Peymana Beşdarîye</cc0WaiverLink> viraşt. Pê ney, wayîrê heqê telîfî eşkenê malzemeyê xo pêşkêşê Common Voice bikerê.
+sc-howto-addsen-item-2 = Hûmarî. Wa metnê çimeyî de hûmarî çin bê, çike beno ke wendiş de problem peyda kenê. Wendişê hûmaran tim girêdayeyê kontekstî yo û beno ke komdayeyî mîyan de têmîyanêk virazê. Mesela, merdim eşkeno hûmara "2409" hem sey "di hezar û çar sey û new" hem zî sey "di-çar-sifir-new" biwano.
 sc-howto-cite-title = Senî neql bibo?
 sc-howto-review-title = Çim biçarne cumleyan
 sc-howto-review-subtitle = Baldar be ke cumle rîayetê nê krîteran bikero:
