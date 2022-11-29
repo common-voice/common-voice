@@ -1106,6 +1106,7 @@ download-request-metadata-link = ຂໍ້ຄວາມປະໂຫຍກ
 
 ## Landing
 
+welcome-staff = ຍິນດີຕ້ອນຮັບພະນັກງານ { $company }!
 read-more-about = ອ່ານເພີ່ມເຕີມກ່ຽວກັບຫນ້າກ່ຽວກັບຂອງພວກເຮົາ
 
 ## DemoLayout
@@ -1302,4 +1303,6 @@ sc-settings-title = ການຕັ້ງຄ່າ
 
 localization-select =
     .label = ເລືອກພາສາ/ທ້ອງຖິ່ນ
+partnerships-foundations-header = ມູນນິທິ
 partnerships-governments-header = ລັດຖະບານ
+partnerships-our-partners = ຄູ່ຮ່ວມງານຂອງພວກເຮົາ
