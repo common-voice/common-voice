@@ -29,7 +29,6 @@ describe('FirstPostSubmissionCta', () => {
       <FirstPostSubmissionCta
         locale="en"
         onReset={jest.fn()}
-        hideVisibility={jest.fn()}
         addNotification={jest.fn()}
         successUploadMessage="Thanks"
         errorUploadMessage="An error occurred"
