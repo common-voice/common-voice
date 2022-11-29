@@ -1200,12 +1200,24 @@ sc-howto-findpd-tips-1 = Es melhores hònts que podetz cercar son podcasts, tran
 sc-howto-findpd-tips-2 = Es actes de govèrn, es libres e es articles tanben son excellenti, mès, com qu'eth tèxte acostume a èster un shinhau mès formau, son mens prioritaris.
 sc-howto-findpd-tips-3 = Malerosament, encara non podem auer articles dera Wikipèdia. Ei a díder que non copietz e peguetz tèxte d'aquiu estant.
 sc-howto-findpd-subtitle-2 = Collaborar damb persones o organizacions locaus
+sc-howto-findpd-partner-1 = I a fòrça organizacions publiques que dilhèu vòlen collaborar e ja an fòrça tèxtes que pòden dar coma domeni public. Metetz-vos eth contacte damb universitats, govèrns e organizacions de còdi dubèrt locau entà parlar deth projècte e demanar-les ajuda.
+sc-howto-findpd-partner-2 = Es lingüistes expèrts tanben vos pòden ajudar, sajatz de meter-vos eth contacte damb es universitats locaus (damb ensenhaires e estudiantes) e verificatz se pòden ajudar a amassar un conjunt diuèrs d'oracions damb diferenti sons ena vòsta lengua.
 
 ## MY SENTENCES
 
+sc-my-description = Aguesta pagina vos da ua vision generau de totes es frases qu’auetz enviat. Tanben podetz eliminar frases ja trametudes, se cau, en tot mercar eth caleishon de seleccion deth costat e en tot hèr clic en &quot;Suprimís es frases seleccionades&quot; baish de tot. Sonque esfaçatz frases s'ei absolutaments de besonh, coma per exemple se vos auetz encuedat de qu'ua frasa ei protegida per drets d'autor.
+sc-my-loading = Se carguen es frases…
+sc-my-err-fetching = S'a produsit un error en obtier es frases. Tornatz-ac a sajar.
+sc-my-no-sentences = Non s'a trobat cap de frasa!
+# Variables:
+#   $batchId (String) - A unique ID identifying the submission of sentences - sentences uploaded together all have the same batch ID
+sc-my-submission = Enviament: { $batchId }
 # Variables:
 #   $source (String) - Associated source the user filled out when uploading the sentence
-sc-my-source = Font : { $source }
+sc-my-source = Hònt: { $source }
+sc-my-delete = Suprimís es frases seleccionades
+sc-my-deleting = Se suprimissen es frases seleccionades…
+sc-my-err-failed-delete = Non s'an pogut suprimir es frases seleccionades… Tornatz-ac a provar!
 
 ## REJECTED
 
