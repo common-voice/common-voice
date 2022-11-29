@@ -7,7 +7,6 @@ const SOURCES = {
     "'self'",
     'https://fonts.googleapis.com',
     'https://tagmanager.google.com',
-    'https://fonts.googleapis.com',
   ],
   'img-src': [
     "'self'",
