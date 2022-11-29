@@ -5,6 +5,7 @@ import Confetti from 'react-confetti';
 import useWindowSize from '../../../../../hooks/use-window-size';
 
 import './secondSubmissionCTA.css';
+import { Button } from '../../../../ui/ui';
 
 export const SecondPostSubmissionCTA = () => {
   const { height, width } = useWindowSize();
@@ -36,16 +37,38 @@ export const SecondPostSubmissionCTA = () => {
           </div>
         </div>
 
-        <div>
-          <div className="subtitle-text-container">
-            <Localized id="second-cta-subtitle-text">
-              <h2 className="subtitle-text">
-                With a profile, you can keep track of your activity and connect
-                with a community of voice data contributors.
-              </h2>
-            </Localized>
-          </div>
+        <div className="subtitle-text-container">
+          <Localized id="second-cta-subtitle-text">
+            <h2 className="subtitle-text">
+              With a profile, you can keep track of your activity and connect
+              with a community of voice data contributors.
+            </h2>
+          </Localized>
         </div>
+
+        <div className="submission-buttons">
+          <Localized id="add-information-button">
+            <Button
+              rounded
+              className="create-profile-button"
+              data-testid="add-information-button">
+              Add information
+            </Button>
+          </Localized>
+          <Localized id="continue-speaking-button">
+            <Button rounded data-testid="continue-speaking-button">
+              No thanks, continue speaking
+            </Button>
+          </Localized>
+        </div>
+
+        <Localized
+          id="already-have-an-account"
+          elems={{
+            login: <a href="/login">Log-In</a>,
+          }}>
+          <p className="login-text">Already have an account? Log-In</p>
+        </Localized>
       </div>
     </>
   );

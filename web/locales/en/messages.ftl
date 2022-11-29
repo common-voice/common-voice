@@ -1574,3 +1574,4 @@ thanks-for-voice-toast-error = An error occurred submitting your voice informati
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = Thank you for contributing your voice!
 second-cta-subtitle-text = With a profile, you can keep track of your activity and connect with a community of voice data contributors.
+already-have-an-account = Already have an account? <login>Log-In</login>

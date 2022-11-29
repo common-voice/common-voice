@@ -121,7 +121,6 @@ describe('Contribution - Speak', () => {
     renderContributionPage({
       activeIndex: -1,
       shouldShowFirstCTA: true,
-      hideFirstCTA: mockHideFirstCTA,
       onReset: mockOnReset,
     });
 

@@ -34,4 +34,39 @@
     .subtitle-text {
         text-align: center;
     }
+
+    .subtitle-text-container {
+        margin-bottom: 70px;
+    }
+
+    & .create-profile-button {
+        background: var(--blue);
+        border: none;
+        margin-bottom: 25px;
+
+        &:hover {
+            border: 1px solid var(--black);
+        }
+    }
+
+    .submission-buttons {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 25px;
+
+        .button {
+            @media (--md-up) {
+                width: auto;
+            }
+        }
+    }
+
+    .login-text {
+        text-align: center;
+
+        a {
+            color: var(--anchor-text-blue);
+        }
+    }
 }
