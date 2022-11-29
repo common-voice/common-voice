@@ -956,15 +956,19 @@ download-start = Dayeyanê profîlê xo bîyare war
 download-request = Qeydan biwaze
 download-request-button = Bîya war
 download-request-title = { $created }
+download-request-description = { $clipCount } qeydê vengî, girsîya arşîvî ya kome { $size }. Heta { $expires } maneno.
 download-request-archive-single = Yew dosyaya ZIPî. Tedeyî:
+download-request-assembling-description = Dayeyê to nawo arê benê. Keremê xo ra badê cû kontrol bike.
 download-request-refresh-button = Newe bike
 download-request-modal-title = Lînkê Warardişî
+download-request-modal-description = Nê lînkê warardişê dosyayanê to yê ZIPî yê.
 download-request-link-text = Zîp: { $total } ra { $offset }
 download-request-metadata-link = Metnê cumle
 
 ## Landing
 
 welcome-staff = Şima xeyrî ameyî ekîpa { $company }!
+read-more-about = Rîpelê ma yê "Derheq de" ser o hîna zaf biwane
 
 ## DemoLayout
 
@@ -976,6 +980,8 @@ demo-welcome = Şima xeyrî ameyî Common Voice
 card-button-next = Aver
 card-button-back = Apey
 demo-language-select-label = Ro ziwanan bigêre
+demo-eofy-header = Versîyonê peynîya serra 2019î
+demo-eofy-sub_header = Komdayeyê vengan, seba warardişî amade yo
 demo-account = Hesab
 
 ## Demo Account
