@@ -1091,6 +1091,7 @@ sc-languages-fetch-error = Ma ziwanê estbîyayeyî nêdîyî. Na game beşdarî
 ## HOW-TO
 
 sc-howto-title = Senî beno
+sc-howto-addlang-title = Seba xebitîyayîşî, îlawekerdişê ziwanan
 sc-howto-addsen-title = Cumleyanê neweyan îlawe bike
 sc-howto-cite-title = Senî neql bibo?
 sc-howto-review-title = Çim biçarne cumleyan
