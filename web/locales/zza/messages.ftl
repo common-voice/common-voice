@@ -948,9 +948,12 @@ download-profile-title = Profîl
 download-profile-info = Tede e-maîl, nameyê xebitnayoxî û melumato demgrafîk est ê. Desinde yeno warardene.
 download-profile-size = Çend baytî
 download-recordings-title = Qeydî
+download-recordings-info = Tede MP3 û cumleyê têkildarî est ê. Amadekerdiş tenê wext gêno
 download-recordings-size = Normal de tayê megabaytî
 download-size = Girsîye
 download-selected = Weçînite
+download-start = Dayeyanê profîlê xo bîyare war
+download-request = Qeydan biwaze
 download-request-button = Bîya war
 download-request-title = { $created }
 download-request-archive-single = Yew dosyaya ZIPî. Tedeyî:
@@ -1200,6 +1203,13 @@ sc-lang-info-in-review =
         [0] Cumleyê çimçarnayeyî çin ê.
        *[other] Pêro pîya { $totalInReview } binê çimçarnayîşî de.
     }
+# Variables:
+#   $unreviewedSentencesByYou (Number) - Number of sentences the user can still review
+sc-lang-info-left-for-you =
+    { $unreviewedSentencesByYou ->
+        [0] Cumle seba çimçarnayîşî nêmenda.
+       *[other] { $unreviewedSentencesByYou } cumleyî pabeyê çimçarnayîşî yê.
+    }
 sc-lang-info-review-now = <reviewLink>Anika çim biçarne!</reviewLink>
 sc-lang-info-add-more = <addLink>Anika cumleyan îlawe bike!</addLink>
 # Variables:
@@ -1250,6 +1260,10 @@ sc-criteria-item-4 = Eke cumle rîayetê nê krîteran kena, destê raştî de g
 
 sc-review-title = Çim biçarne cumleyan
 sc-review-loading = Cumleyî bar benê...
+sc-review-select-language = Seba çimçarnayîşê cumleyan, keremê xo ra ziwanêk weçîne.
+sc-review-no-sentences = Seba çimçarnayîşî cumleyî çin ê. <addLink>Nika cumleyan îlawe bike!</addLink>
+sc-review-form-prompt =
+    .message = Cumleyê çimçarnayeyî nêameyî rusnayene. Ti emîn î/a?
 sc-review-form-usage = Seba tesdîqkerdişê cumle, heto raşt ser raşemitne. Seba betalkerdişî, heto çep ser raşemitne. Seba ravîyarnayîşî, acor raşemitne. <strong>Rusnayîşî xo vîr ra meke!</strong>
 # Variables:
 #   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
@@ -1280,6 +1294,10 @@ sc-review-link = Çim Biçarne
 
 sc-settings-title = Eyarî
 sc-settings-ui-language = Ziwanê Serrî
+sc-settings-reset-skipped = Cumleyanê ravîyarteyan saye bike
+sc-settings-skipped-decription = Wexto ke to çim çarna ci, to tayê cumleyî vîyarnayî ra. Ti ke cumleyanê ravîyarteyan saye kenî/a, ê reyna to rê yenê nawitene. No girêdayeyê ziwanî nîyo.
+sc-settings-show-all-button = Cumleyanê ravîyarteyan reyna binawne
+sc-settings-failed = Eyarî nêameyî vurnayene. Keremê xo ra badê reyna biceribne.
 # VALIDATION
 sc-validation-number-of-words = Ganî dergîya cumle mabênê 1 û 14 çekuyan de bo
 sc-validation-no-numbers = Zereyê cumle de reqemî çin bê
