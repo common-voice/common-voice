@@ -617,12 +617,16 @@ about-playbook-how-access-dataset = Ez senî biresî komdayeyî û ey senî bixe
 about-playbook-how-project-governance = Qerarê projeyî senî yenê girewtene?
 about-playbook-how-project-governance-content-5 = Qîymet û naskerdiş.
 about-playbook-how-project-governance-content-6 = Berpirsîyarîya hempare.
+about-playbook-how-project-governance-content-7 = <governanceLink>Biwane, ma senî îdare benîme</governanceLink>
 
 ## Glossary
 
 glossary = Ferhengek
 localization = Çarnayîş
+localization-explanation = No prosesê çarnayîş û adaptekerdişê muhtawaya ma seba xeylê ziwanan o.
 sentence-collection = Arêdayîşê Cumleyan
+sentence-collection-explanation = Milkê pêroyî ra cumleyan arêdayîş yan zî her kesî rê akerde cumleyanê neweyan nuştiş.
+hours-recorded-explanation = Hûmara saetanê qeydanê vengî ke ma heta nika dayê arê.
 sst = Qiseykerdiş ra bi nuştiş (STT)
 sst-explanation = Teknolojîyê Qiseykerdiş ra bi Nuştiş (STT) dayeyanê vengî çarnenê nuşte ser.
 de-identified = Anonîmkerde
@@ -1130,6 +1134,7 @@ sc-howto-review-criteria-6 = Eke cumleyî nêmendê ke bêrê çimçarnayene, ke
 sc-howto-findpd-title = Cumleyê ke rayapêroyî rê akerde yê, înan bivîne
 sc-howto-findpd-subtitle = Înternet de bigêre
 sc-howto-findpd-tips = Tayê şîretê dîyayîşê cumleyan:
+sc-howto-findpd-subtitle-2 = Rêxistin yan şexsanê cayîyan de hemkarîye bike
 
 ## MY SENTENCES
 
