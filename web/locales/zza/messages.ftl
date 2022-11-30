@@ -616,6 +616,7 @@ about-playbook-how-access-dataset = Ez senî biresî komdayeyî û ey senî bixe
 
 about-playbook-how-project-governance = Qerarê projeyî senî yenê girewtene?
 about-playbook-how-project-governance-content-2 = Îdareyê projeyê ma nê estunan ser o virazîyayo:
+about-playbook-how-project-governance-content-4 = Komelî reyde beşdarbîyayîş û qerargirewtiş.
 about-playbook-how-project-governance-content-5 = Qîymet û naskerdiş.
 about-playbook-how-project-governance-content-6 = Berpirsîyarîya hempare.
 about-playbook-how-project-governance-content-7 = <governanceLink>Biwane, ma senî îdare benîme</governanceLink>
