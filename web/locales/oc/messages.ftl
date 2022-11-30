@@ -1200,50 +1200,248 @@ sc-howto-findpd-tips-1 = Es melhores hònts que podetz cercar son podcasts, tran
 sc-howto-findpd-tips-2 = Es actes de govèrn, es libres e es articles tanben son excellenti, mès, com qu'eth tèxte acostume a èster un shinhau mès formau, son mens prioritaris.
 sc-howto-findpd-tips-3 = Malerosament, encara non podem auer articles dera Wikipèdia. Ei a díder que non copietz e peguetz tèxte d'aquiu estant.
 sc-howto-findpd-subtitle-2 = Collaborar damb persones o organizacions locaus
+sc-howto-findpd-partner-1 = I a fòrça organizacions publiques que dilhèu vòlen collaborar e ja an fòrça tèxtes que pòden dar coma domeni public. Metetz-vos eth contacte damb universitats, govèrns e organizacions de còdi dubèrt locau entà parlar deth projècte e demanar-les ajuda.
+sc-howto-findpd-partner-2 = Es lingüistes expèrts tanben vos pòden ajudar, sajatz de meter-vos eth contacte damb es universitats locaus (damb ensenhaires e estudiantes) e verificatz se pòden ajudar a amassar un conjunt diuèrs d'oracions damb diferenti sons ena vòsta lengua.
 
 ## MY SENTENCES
 
+sc-my-description = Aguesta pagina vos da ua vision generau de totes es frases qu’auetz enviat. Tanben podetz eliminar frases ja trametudes, se cau, en tot mercar eth caleishon de seleccion deth costat e en tot hèr clic en &quot;Suprimís es frases seleccionades&quot; baish de tot. Sonque esfaçatz frases s'ei absolutaments de besonh, coma per exemple se vos auetz encuedat de qu'ua frasa ei protegida per drets d'autor.
+sc-my-loading = Se carguen es frases…
+sc-my-err-fetching = S'a produsit un error en obtier es frases. Tornatz-ac a sajar.
+sc-my-no-sentences = Non s'a trobat cap de frasa!
+# Variables:
+#   $batchId (String) - A unique ID identifying the submission of sentences - sentences uploaded together all have the same batch ID
+sc-my-submission = Enviament: { $batchId }
 # Variables:
 #   $source (String) - Associated source the user filled out when uploading the sentence
-sc-my-source = Font : { $source }
+sc-my-source = Hònt: { $source }
+sc-my-delete = Suprimís es frases seleccionades
+sc-my-deleting = Se suprimissen es frases seleccionades…
+sc-my-err-failed-delete = Non s'an pogut suprimir es frases seleccionades… Tornatz-ac a provar!
 
 ## REJECTED
 
+sc-rejected-loading = Se carguen es frases refusades…
+sc-rejected-err-fetching = S'a produsit un error en obtier es frases refusades. Tornatz-ac a sajar.
+sc-rejected-none-found = Non s'a trobat cap de frasa refusada!
 
 ## STATS
 
+sc-stats-title = Estadistiques
+sc-stats-updating = S'actualize…
+sc-stats-error = Non s'an podut obtier es estadistiques. Tornatz-ac a sajar mès tard.
+# Variables:
+#   $sentenceCount (Number) - Total number of sentences uploaded through Sentence Collector
+#   $languageCount (Number) - Total number of languages these sentences represent
+sc-stats-summary = Eth Common Voice Sentence Collector a arrecuelhut { $sentenceCount } frases en { $languageCount } lengües!
 
 ## ADD
 
+sc-submit-err-select-lang = Seleccionatz ua lengua.
+sc-submit-err-add-sentences = Ahigetz frases.
+sc-submit-err-add-source = Ahigetz ua hònt.
+sc-submit-err-confirm-pd = Confirmatz qu'aguestes frases son de domeni public.
+sc-submit-prompt =
+    .message = Es frases non s'an enviat, ètz segur/a de que voletz gésser?
+sc-submit-title = Ahig frases
+sc-submit-select-language =
+    .labelText = Escuelhetz ua lengua
+sc-submit-add-sentences = Ahigetz frases de <wikipediaLink>domeni public</wikipediaLink>
+sc-submit-ph-one-per-line =
+    .placeholder = Ua frasa per linha
+sc-submit-from-where = D’a on son aguestes frases de <wikipediaLink>domeni public</wikipediaLink>?
+sc-submit-ph-read-how-to =
+    .placeholder = Liegetz es instruccions se non ètz segur(e)s de coma atribuïr
+sc-submit-confirm = Confirmi qu'aguestes frases son de <wikipediaLink>domeni public</wikipediaLink> e è autorizacion entà pujar-les.
+sc-submit-button =
+    .submitText = Envia
+sc-submit-filtered = Frases filtrades a causa de bèth error enes requeriments (enviatz es frases corregides coma frases naues):
+sc-submit-guidelines = Revisatz es <howToLink>directritzes</howToLink>.
 
 ## ADD LANGUAGE
 
+sc-add-lang-could-not-add = Non s'a pogut ahíger era lengua
+sc-add-lang-sec-label = Ahigetz era lengua a on voletz contribuïr
+sc-add-lang-sec-button = Ahig ua lengua
+sc-add-err-unexpected = Eth servidor a retornat ua responsa inesperada
+# Variables:
+#   $duplicates (Number) - Number of sentences which got rejected because they are duplicates
+sc-add-result =
+    { $duplicates ->
+        [0] Frases enviades. Non s'a refusat cap de frasa coma duplicada.
+        [one] Frases enviades. S'a refusat ua frasa coma duplicada.
+       *[other] Frases enviades. S'an refusat { $duplicates } frases coma duplicades.
+    }
+# Variables:
+#   $sentences (Number) - Number of sentences which failed to be saved to the database - could be several different reasons
+sc-add-err-failed =
+    { $sentences ->
+        [0] Non a falhat cap de frasa
+        [one] A falhat ua frasa
+       *[other] A falhat { $sentences } frases
+    }
+sc-add-err-submission = Error d'enviament
+sc-add-lang-process-notice = S'era vòsta lengua non apareish ací, la podetz sollicitar mejançant <languageProcessLink>aguest procès</languageProcessLink>.
 
 ## ADD SENTENCES CONFIRMATION
 
+sc-confirm-sentences-title = Confirma es frases naues
+# Variables:
+#   $countOfSentences (Number) - Number of sentences the user has filled in the submission form
+sc-confirm-sentences-found =
+    { $countOfSentences ->
+        [0] Non s'a trobat cap de frasa.
+        [one] S'a trobat 1 frasa.
+       *[other] S'an trobat { $countOfSentences } frases.
+    }
+# Variables:
+#   $countOfInvalidated (Number) - Number of sentences the user rejected in the review form before submission
+sc-confirm-rejected-by-you = N'auetz refusat { $countOfInvalidated }
+sc-confirm-already-reviewed =
+    { $countOfReviewed ->
+        [0] Non i a cap de frasa ja revisada.
+        [one] Ja s’a revisat ua frasa. Bon trabalh!
+       *[other] Ja s'an revisat { $countOfReviewed } frases. Bon trabalh!
+    }
+# Variables:
+#   $readyCount (Number) - Number of sentences ready to be uploaded
+sc-confirm-ready =
+    { $readyCount ->
+        [0] Non i a cap de frasa entà enviar!
+        [one] I a ua frasa preparada entar enviament!
+       *[other] I a { $readyCount } frases preparades entar enviament!
+    }
+# Variables:
+#   $countOfUnreviewed (Number) - Number of sentences unreviewed before the upload
+sc-confirm-unreviewed = { $countOfUnreviewed } frases son pendentes de revisar. Se voletz, tanben podetz revisar es vòstes frases ara abans d'enviar-les.
+sc-confirm-uploading = Es frases se pugen. Açò pòt trigar bères menutes segon eth nombre de frases ahijudes. Non barretz aguesta pagina.
 
 ## LANGUAGE INFO
 
+sc-lang-info-title-personal = Personau
+# Variables:
+#   $totalSentences (Number) - Number of sentences uploaded in total for this language
+sc-lang-info-total =
+    { $totalSentences ->
+        [0] Cap de frasa en totau.
+        [one] Ua frasa en totau.
+       *[other] { $totalSentences } frases en totau.
+    }
+# Variables:
+#   $totalInReview (Number) - Number of sentences currently in the review state for this language
+sc-lang-info-in-review =
+    { $totalInReview ->
+        [0] Non i a cap de frasa en revision.
+        [one] I a ua frasa en revision.
+       *[other] I a { $totalInReview } frases en revision.
+    }
+# Variables:
+#   $unreviewedSentencesByYou (Number) - Number of sentences the user can still review
+sc-lang-info-left-for-you =
+    { $unreviewedSentencesByYou ->
+        [0] Non auetz cap de frasa entà revisar.
+        [one] Auetz ua frasa entà revisar.
+       *[other] Auetz { $unreviewedSentencesByYou } frases entà revisar.
+    }
+sc-lang-info-review-now = <reviewLink>Revisatz ara!</reviewLink>
+sc-lang-info-add-more = <addLink>Ahigetz mès frases ara!</addLink>
+# Variables:
+#   $validatedSentences (Number) - Number of sentences which have been approved for this language
+sc-lang-info-validated =
+    { $validatedSentences ->
+        [0] Cap de frasa validada.
+        [one] Ua frasa validada.
+       *[other] { $validatedSentences } frases validades.
+    }
+# Variables:
+#   $rejectedSentences (Number) - Number of sentences which have been rejected for this language
+sc-lang-info-rejected =
+    { $rejectedSentences ->
+        [0] Cap de frasa refusada.
+        [one] Ua frasa refusada.
+       *[other] { $rejectedSentences } frases refusades.
+    }
 
 ## LOGIN
 
+sc-login-err-failed = Er inici de session a falhat
+sc-login-err-try-again = Tornatz-ac a sajar.
 
 ## PROFILE
 
-sc-personal-remove-button = levar
+# Variables:
+#   $username (String) - eMail address of the logged in user
+sc-profile-title = Perfil: { $username }
+sc-personal-err-lang-not-found = Non s'a podut suprimir era lengua: era lengua non s'a trobat
+sc-personal-err-remove = Non s'a podut suprimir era lengua
+sc-personal-your-languages = Es vòstes lengües:
+sc-personal-remove-button = elimina
+# Variables:
+#   $sentences (Number) - Number of sentences that were added by the currently logged in user for this language
+sc-personal-added-by-you = N'auetz ahijut { $sentences }
+sc-personal-not-added = Encara non auetz ahijut cap de lengua.
 
 ## REVIEW CRITERIA
 
+sc-criteria-modal = ⓘ Critèris de revision
+sc-criteria-title = Critèris de revision
+sc-criteria-make-sure = Asseguratz-vos de qu'era frasa complís es critèris següents:
+sc-criteria-item-2 = Era frasa ei gramaticaument corrècta.
+sc-criteria-item-3 = Era frasa ei pronunciabla.
+sc-criteria-item-4 = S'era frasa complís es critèris, hetz clic en boton «Apròva».
+sc-criteria-item-5-2 = S'era frasa non complís es critèris anteriors, hetz clic en boton «Refusa». Se non n'ètz segur/a, tanben la podetz sautar e passar ara següenta.
 
 ## REVIEW
 
+sc-review-lang-not-selected = Non auetz seleccionat cap de lengua. Anatz tath vòste <profileLink>Perfil</profileLink> entà escuélher bèra lengua.
+sc-review-title = Revisa es frases
+sc-review-loading = Se carguen es frases…
+sc-review-select-language = Escuelhetz ua lengua entà revisar-ne es frases.
+sc-review-no-sentences = Non i a cap de frasa entà revisar. <addLink>Ahigetz mès frases ara!</addLink>
+sc-review-form-prompt =
+    .message = Non s’an enviat es frases revisades, n’ètz segur/a?
+sc-review-form-usage = Lisatz tara dreta entà aprovar era frasa. Lisatz tara quèrra entà refusar-la. Lisatz ensús entà ometer-la. <strong>Non desbrembetz d’enviar era revision!</strong>
+# Variables:
+#   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
+sc-review-form-source = Hònt: ·{ $sentenceSource }
+sc-review-form-button-reject = Refusa
+sc-review-form-button-skip = Omet
+sc-review-form-button-approve = Apròva
+# Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
+sc-review-form-button-approve-shortcut = S
+# Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
+sc-review-form-button-reject-shortcut = N
+# Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
+sc-review-form-button-skip-shortcut = O
+sc-review-form-keyboard-usage-custom = Tanben podetz emplegar es dreceres de teclat: { sc-review-form-button-approve-shortcut } entà aprovar, { sc-review-form-button-reject-shortcut } entà refusar, { sc-review-form-button-skip-shortcut } entà ométer
+sc-review-form-button-submit =
+    .submitText = Acaba era revision
+# Variables:
+#   $sentences (Number) - Number of sentences the user has reviewed in this session
+sc-review-form-reviewed-message =
+    { $sentences ->
+        [0] Non auetz revisat cap de frasa.
+        [one] Auetz revisat ua frasa. Mercés!
+       *[other] Auetz revisat { $sentences } frases. Mercés!
+    }
+sc-review-form-review-failure = Non s'a pogut sauvar era revision. Tornatz-ac a provar mès tard.
+sc-review-link = Revisa
 
 ## SETTINGS
 
 sc-settings-title = Paramètres
-sc-settings-ui-language = Lenga de l’interfàcia
+sc-settings-ui-language = Lengua dera interfície
+sc-settings-reset-skipped = Restablís es frases ometudes
+sc-settings-skipped-decription = Abans auetz ometut frases mentre les revisàuetz. Se restablitz es frases omeses, se vos tornaràn a mostrar. Açò ei independent dera lengua.
+sc-settings-show-all-button = Mòstra de nau totes es frases ometudes
+sc-settings-failed = Non s'a pogut cambiar era configuracion. Tornatz-ac a provar.
+# VALIDATION
+sc-validation-number-of-words = Era frasa a de contier entre 1 e 14 paraules
+sc-validation-no-numbers = Era frasa non pòt contier chifres
+sc-validation-no-symbols = Era frasa non pòt contier simbèus
+sc-validation-no-abbreviations = Era frasa non pòt contier abreviatures
 
 # [/SentenceCollector]
 
 localization-select =
-    .label = Causissètz la lenga/varianta
+    .label = Causitz ua lengua/localizacion

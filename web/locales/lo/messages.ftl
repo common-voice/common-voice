@@ -1101,11 +1101,14 @@ download-request-title = { $created }
 download-request-archive-single = ໄຟລ໌ ZIP ດຽວປະກອບມີ
 download-request-refresh-button = ຟື້ນຟູ
 download-request-modal-title = ລິ້ງດາວໂຫລດ
+download-request-modal-description = ນີ້ແມ່ນລິ້ງເພື່ອດາວໂຫລດໄຟລ໌ ZIP ຂອງທ່ານ.
 download-request-link-text = Zip #{ $offset } ຂອງ { $total }
 download-request-metadata-link = ຂໍ້ຄວາມປະໂຫຍກ
 
 ## Landing
 
+welcome-staff = ຍິນດີຕ້ອນຮັບພະນັກງານ { $company }!
+login-company = ເຂົ້າສູ່ລະບົບ / ລົງທະບຽນດ້ວຍ { $company } ອີເມວ
 read-more-about = ອ່ານເພີ່ມເຕີມກ່ຽວກັບຫນ້າກ່ຽວກັບຂອງພວກເຮົາ
 
 ## DemoLayout
@@ -1126,6 +1129,8 @@ demo-account = ບັນຊີ
 ## Demo Account
 
 demo-account-card-header = ການມີບັນຊີບໍ່ຈໍາເປັນຕ້ອງປະກອບສ່ວນ, ເຖິງແມ່ນວ່າມັນເປັນປະໂຫຍດ.
+demo-account-enter-email =
+    .label = ໃສ່ອີເມວເພື່ອສົ່ງລິ້ງສະໝັກ
 demo-account-sign-up = ສົ່ງລິ້ງລົງທະບຽນ
 
 ## Demo Contribute
@@ -1140,6 +1145,7 @@ demo-dashboard-card-header = dashboards ສ່ວນບຸກຄົນເຮັ�
 ## Validation criteria
 
 contribution-criteria-nav = ເງື່ອນໄຂ
+contribution-criteria-link = ເຂົ້າໃຈເງື່ອນໄຂການປະກອບສ່ວນ
 contribution-criteria-page-title = ເງື່ອນໄຂການປະກອບສ່ວນ
 contribution-for-example = ຍົກ​ຕົວ​ຢ່າງ
 contribution-misreadings-title = ການອ່ານຜິດ
@@ -1150,10 +1156,15 @@ contribution-misreadings-example-4-title = ໄດໂນເສົາຍັກໃ�
 contribution-misreadings-example-5-title = ພວກເຮົາກໍາລັງອອກໄປຮັບກາເຟ.
 contribution-misreadings-example-6-title = ພວກເຮົາອອກໄປຮັບກາເຟ.
 contribution-misreadings-example-6-explanation = [ຄວນຈະເປັນ “ເຮົາ”]
+contribution-misreadings-example-7-title = ພວກເຮົາກໍາລັງອອກໄປຮັບກາເຟ.
+contribution-misreadings-example-7-explanation = [ບໍ່ມີ 'a' ໃນຂໍ້ຄວາມຕົ້ນສະບັບ]
+contribution-misreadings-example-8-title = bumblebee ໄດ້ sped ໂດຍ.
+contribution-misreadings-example-8-explanation = [ເນື້ອໃນບໍ່ກົງກັນ]
 contribution-varying-pronunciations-title = ການອອກສຽງທີ່ແຕກຕ່າງກັນ
 contribution-varying-pronunciations-example-2-title = ມືຂອງລາວຖືກຍົກຂຶ້ນ.
 contribution-varying-pronunciations-example-2-explanation = ['ຍົກຂຶ້ນມາ' ໃນພາສາອັງກິດສະເຫມີອອກສຽງເປັນພະຍັນຊະນະຫນຶ່ງ, ບໍ່ແມ່ນສອງ]
 contribution-background-noise-title = ສິ່ງລົບກວນພື້ນຫຼັງ
+contribution-background-noise-example-2-explanation = [ບາງສ່ວນຂອງຂໍ້ຄວາມບໍ່ສາມາດໄດ້ຍິນ]
 contribution-background-voices-title = ສຽງພື້ນຫຼັງ
 contribution-volume-title = ລະດັບສຽງ
 contribution-reader-effects-title = ຜົນກະທົບຂອງຜູ້ອ່ານ
@@ -1191,6 +1202,7 @@ sc-logout-button = ອອກ​ຈາກ​ລະ​ບົບ
 sc-home-title = ຍິນດີຕ້ອນຮັບສູ່ເຄື່ອງມືຮວບຮວມປະໂຫຍກ Common Voice
 sc-home-collect-title = ລວບລວມປະໂຫຍກ
 sc-home-review-title = ທົບທວນປະໂຫຍກ
+sc-home-review-text = ຊ່ວຍພວກເຮົາໂດຍການທົບທວນຄືນປະໂຫຍກທີ່ຖືກຕ້ອງຕາມຄໍາແນະນໍາ.
 
 ## GENERAL
 
@@ -1198,18 +1210,28 @@ sc-home-review-title = ທົບທວນປະໂຫຍກ
 ## HOW-TO
 
 sc-howto-title = ວິທີ
+sc-howto-addlang-title = ເພີ່ມພາສາເພື່ອເຮັດວຽກກັບ
+sc-howto-addlang-text = ເມື່ອເຂົ້າສູ່ລະບົບແລ້ວ, ທ່ານສາມາດເລືອກພາສາຂອງທ່ານຈາກພາກສ່ວນໂປຣໄຟລ໌.
 sc-howto-addsen-title = ເພີ່ມປະໂຫຍກໃຫມ່
 sc-howto-cite-title = ວິທີການອ້າງອີງ
+sc-howto-cite-item-1 = ທ່ານສາມາດໃສ່ເວັບໄຊທ໌ໄດ້, ເຊັ່ນ: "ສຽງທົ່ວໄປ - https://commonvoice.mozilla.org/"
 sc-howto-review-title = ທົບທວນປະໂຫຍກ
+sc-howto-review-subtitle = ໃຫ້ແນ່ໃຈວ່າປະໂຫຍກນີ້ກົງກັບເງື່ອນໄຂດັ່ງຕໍ່ໄປນີ້:
 sc-howto-review-criteria-1 = ປະໂຫຍກຕ້ອງສະກົດຖືກຕ້ອງ.
+sc-howto-review-criteria-2 = ປະໂຫຍກຕ້ອງຖືກຕ້ອງຕາມໄວຍະກອນ.
+sc-howto-review-criteria-3 = ປະໂຫຍກຕ້ອງເວົ້າໄດ້.
+sc-howto-review-criteria-4 = ຖ້າປະໂຫຍກກົງກັບເງື່ອນໄຂ, ໃຫ້ຄລິກໃສ່ປຸ່ມ "ອະນຸມັດ".
+sc-howto-review-criteria-6 = ຖ້າ​ຫາກ​ທ່ານ​ຫມົດ​ປະ​ໂຫຍກ​ທີ່​ຈະ​ກວດ​, ກະ​ລຸ​ນາ​ຊ່ວຍ​ພວກ​ເຮົາ​ເກັບ​ກໍາ​ປະ​ໂຫຍກ​ໃຫ້ຫຼາຍຂຶ້ນ​!
 sc-howto-findpd-title = ຊອກຫາປະໂຫຍກທີ່ມີຢູ່ແລ້ວໃນສາທາລະນະໂດເມນ
 sc-howto-findpd-subtitle = ຊອກຫາພວກເຂົາຢູ່ໃນອິນເຕີເນັດ
 sc-howto-findpd-tips = ນີ້ແມ່ນຄໍາແນະນໍາບາງຢ່າງເພື່ອຊອກຫາປະໂຫຍກ:
+sc-howto-findpd-subtitle-2 = ຄູ່ຮ່ວມງານກັບອົງການຈັດຕັ້ງທ້ອງຖິ່ນຫຼືບຸກຄົນ
 
 ## MY SENTENCES
 
 sc-my-title = ປະໂຫຍກຂອງຂ້ອຍ
 sc-my-loading = ກຳລັງໂຫລດປະໂຫຍກຂອງເຈົ້າ...
+sc-my-err-fetching = ຜິດພາດໃນຂະນະທີ່ດຶງເອົາປະໂຫຍກຂອງທ່ານ. ກະລຸນາລອງອີກຄັ້ງ.
 sc-my-no-sentences = ບໍ່ພົບປະໂຫຍກ!
 # Variables:
 #   $batchId (String) - A unique ID identifying the submission of sentences - sentences uploaded together all have the same batch ID
@@ -1244,6 +1266,7 @@ sc-submit-button =
 
 ## ADD LANGUAGE
 
+sc-add-lang-could-not-add = ບໍ່ສາມາດເພີ່ມພາສາໄດ້
 sc-add-lang-sec-label = ເພີ່ມພາສາທີ່ທ່ານຕ້ອງການປະກອບສ່ວນ
 sc-add-lang-sec-button = ເພີ່ມພາສາ
 sc-add-err-submission = ການຍື່ນສະເຫນີຜິດພາດ
@@ -1251,15 +1274,20 @@ sc-add-err-submission = ການຍື່ນສະເຫນີຜິດພາ�
 ## ADD SENTENCES CONFIRMATION
 
 sc-confirm-sentences-title = ຢືນຢັນປະໂຫຍກໃໝ່
+# Variables:
+#   $countOfInvalidated (Number) - Number of sentences the user rejected in the review form before submission
+sc-confirm-rejected-by-you = { $countOfInvalidated } ຖືກປະຕິເສດໂດຍທ່ານ
 sc-confirm-button-text = ຢືນຢັນ​
 
 ## LANGUAGE INFO
 
 sc-lang-info-title-total = ລວມ
 sc-lang-info-title-personal = ສ່ວນຕົວ
+sc-lang-info-review-now = <reviewLink>ກວດເບິ່ງດຽວນີ້!</reviewLink>
 
 ## LOGIN
 
+sc-login-err-failed = ເຂົ້າສູ່ລະບົບລົ້ມເຫລວ
 sc-login-err-try-again = ກະລຸນາລອງອີກຄັ້ງ.
 
 ## PROFILE
@@ -1279,17 +1307,29 @@ sc-personal-added-by-you = { $sentences } ເພີ່ມໂດຍທ່ານ
 sc-criteria-modal = ⓘ ກວດສອບເງື່ອນໄຂ
 sc-criteria-title = ກວດສອບເງື່ອນໄຂ
 sc-criteria-item-1 = ປະໂຫຍກຕ້ອງສະກົດຖືກຕ້ອງ.
+sc-criteria-item-2 = ປະໂຫຍກຕ້ອງຖືກຕ້ອງຕາມໄວຍະກອນ.
+sc-criteria-item-3 = ປະໂຫຍກຕ້ອງເວົ້າໄດ້.
 
 ## REVIEW
 
 sc-review-title = ທົບທວນປະໂຫຍກ
 sc-review-loading = ກຳລັງໂຫລດປະໂຫຍກ...
+sc-review-form-prompt =
+    .message = ບໍ່ໄດ້ສົ່ງປະໂຫຍກທີ່ທົບທວນຄືນ, ແນ່ໃຈບໍ?
 # Variables:
 #   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
 sc-review-form-source = ທີ່ມາ: { $sentenceSource }
 sc-review-form-button-reject = ປະຕິເສດ
 sc-review-form-button-skip = ຂ້າມ
 sc-review-form-button-approve = ອະນຸມັດ
+# Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
+sc-review-form-button-approve-shortcut = Y
+# Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
+sc-review-form-button-reject-shortcut = N
+# Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
+sc-review-form-button-skip-shortcut = S
+sc-review-form-button-submit =
+    .submitText = ສໍາເລັດການກວດສອບ
 sc-review-link = ທົບທວນ
 
 ## SETTINGS
@@ -1300,4 +1340,10 @@ sc-settings-title = ການຕັ້ງຄ່າ
 
 localization-select =
     .label = ເລືອກພາສາ/ທ້ອງຖິ່ນ
+# PARTNERSHIPS PAGE
+partnerships-header = ຫຸ້ນສ່ວນ
+partnerships-get-in-touch = ຕິດຕໍ່ໄດ້
+partnerships-foundations-header = ມູນນິທິ
 partnerships-governments-header = ລັດຖະບານ
+partnerships-academia-header = ມະຫາວິທະຍາໄລ, ນັກວິຊາການ ແລະນັກຄົ້ນຄວ້າ
+partnerships-our-partners = ຄູ່ຮ່ວມງານຂອງພວກເຮົາ
