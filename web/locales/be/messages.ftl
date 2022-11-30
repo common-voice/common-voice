@@ -1106,6 +1106,13 @@ contribution-for-example = напрыклад
 contribution-misreadings-title = Няправільнае прачытанне
 contribution-misreadings-description = Падчас праслухоўвання вельмі ўважліва правярайце, што было запісана менавіта тое, што было напісана; адхіляйце калі ёсць нават нязначныя памылкі. <br />Сярод найчасцейшых памылак:
 contribution-misreadings-description-extended-list-2 = У канцы слова адсутнічае сімвал <strong>«s»</strong> (для англійскай мовы).
+contribution-misreadings-example-3-title = Гіганцкія дыназаўры Трыясу-.
+contribution-misreadings-example-4-title = Гіганцкія дыназаўры трыясу. Так.
+contribution-misreadings-example-5-title = Можа сходзім на каву?
+contribution-misreadings-example-6-title = Мо сходзім на каву?
+contribution-misreadings-example-6-explanation = [Павінна быць "Можа"]
+contribution-misreadings-example-7-title = Можа сходзім на гэтую каву?
+contribution-misreadings-example-7-explanation = [У арыгінальным тэксце няма «гэтую»]
 contribution-varying-pronunciations-title = Розныя вымаўленні
 contribution-varying-pronunciations-description = Не спяшайцеся адхіляць кліп на падставе таго, што чытач няправільна вымавіў слова, паставіў націск у няправільным месцы, або магчыма праігнараваў пытальнік. У свеце існуе багата розных вымаўленняў, некаторыя з якіх вы маглі не чуць у сваёй мясцовасці. Калі ласка, паважайце тых, чыё вымаўленне адрозніваецца ад вашага.
 contribution-varying-pronunciations-description-extended = З іншага боку, калі вы лічыце, што чытач напэўна ніколі раней не сустракаў слова, і проста зрабіў няправільную здагадку наконт вымаўлення, калі ласка, адхіліце кліп. Калі вы няўпэўненыя, скарыстайцеся кнопкай пропуску.
@@ -1229,6 +1236,7 @@ sc-personal-remove-button = выдаліць
 
 ## REVIEW CRITERIA
 
+sc-criteria-item-3 = Сказ павінен быць такім, каб яго можна было прамовіць.
 
 ## REVIEW
 
