@@ -9,7 +9,7 @@ These two things can occur simultaneously
 
 ## Localization
 
-In order for a new language to be activated on Common Voice, it must be at least 90% localized in that given language.
+In order for a new language to be activated on Common Voice, it must be at least 75% localized in that given language.
 
 We use the [Mozilla localization platform Pontoon](https://pontoon.mozilla.org/projects/common-voice/) to handle translations of the web interface. Use the project page to find your language community and help submit new translations. If your language is not available for translation on Pontoon, you can request for it to be added by submitting a new issue using the [language requests template](https://github.com/mozilla/common-voice/issues/new?assignees=&labels=&template=language_request.md&title=).
 
