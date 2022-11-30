@@ -1214,6 +1214,7 @@ sc-howto-addlang-title = ເພີ່ມພາສາເພື່ອເຮັດ�
 sc-howto-addlang-text = ເມື່ອເຂົ້າສູ່ລະບົບແລ້ວ, ທ່ານສາມາດເລືອກພາສາຂອງທ່ານຈາກພາກສ່ວນໂປຣໄຟລ໌.
 sc-howto-addsen-title = ເພີ່ມປະໂຫຍກໃຫມ່
 sc-howto-cite-title = ວິທີການອ້າງອີງ
+sc-howto-cite-item-1 = ທ່ານສາມາດໃສ່ເວັບໄຊທ໌ໄດ້, ເຊັ່ນ: "ສຽງທົ່ວໄປ - https://commonvoice.mozilla.org/"
 sc-howto-review-title = ທົບທວນປະໂຫຍກ
 sc-howto-review-subtitle = ໃຫ້ແນ່ໃຈວ່າປະໂຫຍກນີ້ກົງກັບເງື່ອນໄຂດັ່ງຕໍ່ໄປນີ້:
 sc-howto-review-criteria-1 = ປະໂຫຍກຕ້ອງສະກົດຖືກຕ້ອງ.
@@ -1230,6 +1231,7 @@ sc-howto-findpd-subtitle-2 = ຄູ່ຮ່ວມງານກັບອົງກ
 
 sc-my-title = ປະໂຫຍກຂອງຂ້ອຍ
 sc-my-loading = ກຳລັງໂຫລດປະໂຫຍກຂອງເຈົ້າ...
+sc-my-err-fetching = ຜິດພາດໃນຂະນະທີ່ດຶງເອົາປະໂຫຍກຂອງທ່ານ. ກະລຸນາລອງອີກຄັ້ງ.
 sc-my-no-sentences = ບໍ່ພົບປະໂຫຍກ!
 # Variables:
 #   $batchId (String) - A unique ID identifying the submission of sentences - sentences uploaded together all have the same batch ID
@@ -1272,6 +1274,9 @@ sc-add-err-submission = ການຍື່ນສະເຫນີຜິດພາ�
 ## ADD SENTENCES CONFIRMATION
 
 sc-confirm-sentences-title = ຢືນຢັນປະໂຫຍກໃໝ່
+# Variables:
+#   $countOfInvalidated (Number) - Number of sentences the user rejected in the review form before submission
+sc-confirm-rejected-by-you = { $countOfInvalidated } ຖືກປະຕິເສດໂດຍທ່ານ
 sc-confirm-button-text = ຢືນຢັນ​
 
 ## LANGUAGE INFO
@@ -1302,6 +1307,7 @@ sc-personal-added-by-you = { $sentences } ເພີ່ມໂດຍທ່ານ
 sc-criteria-modal = ⓘ ກວດສອບເງື່ອນໄຂ
 sc-criteria-title = ກວດສອບເງື່ອນໄຂ
 sc-criteria-item-1 = ປະໂຫຍກຕ້ອງສະກົດຖືກຕ້ອງ.
+sc-criteria-item-2 = ປະໂຫຍກຕ້ອງຖືກຕ້ອງຕາມໄວຍະກອນ.
 sc-criteria-item-3 = ປະໂຫຍກຕ້ອງເວົ້າໄດ້.
 
 ## REVIEW
@@ -1322,6 +1328,8 @@ sc-review-form-button-approve-shortcut = Y
 sc-review-form-button-reject-shortcut = N
 # Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
 sc-review-form-button-skip-shortcut = S
+sc-review-form-button-submit =
+    .submitText = ສໍາເລັດການກວດສອບ
 sc-review-link = ທົບທວນ
 
 ## SETTINGS
@@ -1334,6 +1342,7 @@ localization-select =
     .label = ເລືອກພາສາ/ທ້ອງຖິ່ນ
 # PARTNERSHIPS PAGE
 partnerships-header = ຫຸ້ນສ່ວນ
+partnerships-get-in-touch = ຕິດຕໍ່ໄດ້
 partnerships-foundations-header = ມູນນິທິ
 partnerships-governments-header = ລັດຖະບານ
 partnerships-academia-header = ມະຫາວິທະຍາໄລ, ນັກວິຊາການ ແລະນັກຄົ້ນຄວ້າ
