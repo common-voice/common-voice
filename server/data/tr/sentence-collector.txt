@@ -2811,6 +2811,7 @@ Arılar.
 Arıyor.
 Arıyorlar, fakat sen ne dersin?
 Arıyoruz.
+Arızanın durumuna göre bu süre değişebilmektedir.
 Arşın malı kantar ile satılmaz.
 As.
 Asabileşme kaptanım, senin dediğin olsun! diye kamaraya sürüklemeye çalıştı.
@@ -15755,6 +15756,7 @@ Efem fidan boylu güzel efem.
 Efendi olduğum için hapishanede ilkönce bana pek itibar etmezlerdi.
 Efendi?
 Efendim anne?
+Efendim ilk başlarda böyle değildi bu hizmetiniz.
 Efendim!
 Efendim! diyordu, "Nafıa mühendislerine meram anlatamıyoruz…"
 Efendim, ben ona gittim: Beni dışarı attı.
@@ -15807,6 +15809,7 @@ Ehliyetinizi görebilir miyim?
 Ehliyetsiz iktidarın devamıdır.
 Ejderha!
 Ek tohumun hasını, çekme yiyecek yasını.
+Ekibin gelip kesilen kabloyu takması lazım.
 Ekici ol, bilici olma.
 Ekim bin dokuz yüz otuz beş.
 Ekim…
@@ -16336,6 +16339,7 @@ Endişeye gerek yok.
 Enfes bir şey doğrusu.
 Engel olamadım.
 Engel olamıyorum.
+Engelli indiriminiz var mı?
 Eni ve boyu iki karış kadar olan pencerenin camına parmağımla vurdum.
 Eninde sonunda hesaplaşıyoruz.
 Eniştelerim benimle alay eder gibi, ablalarım tamamen yabancı, anam eskisinden daha zavallıydı.
@@ -16406,6 +16410,7 @@ Erkekmiş… Ne olacak?
 Erken geldik galiba!
 Erken geldim.
 Erken gelmişsin.
+Erken iptal edilmesi durumunda tarafınıza cayma bedeli çıkabilir
 Erken kalkan yol alır, er evlenen döl alır.
 Erken kalkmayan avrat, söz dinlemeyen evlat, mahmuzla gitmeyen at, kapında varsa kaldır at.
 Erken kalktım işime, şeker kattım aşıma.
@@ -16519,6 +16524,7 @@ Esrarkeş bakkal iki gece uykusuzluktan sonra: "Hala geberemedi yahu!" diye söy
 Esrarkeş bakkal: "Telaş etme bulunur!".
 Esrarı içeri sokan gardiyanlar ve jandarmalardır.
 Esrik devenin çulu eğri gerek.
+Estağfurullah efendim
 Estetik danslar…
 Estetik değil.
 Et girmeyen yemekte tat olur mu?
@@ -16626,6 +16632,7 @@ Evceğizim evceğizim, saklar benim halceğizim.
 Evde Macide’yi kendisini bekler buldu.
 Evde annemle ikimiz kaldık.
 Evde beklerler!
+Evde bilgisayarla denerim
 Evde biri var.
 Evde değil.
 Evde durumlar nasıl?
@@ -16732,6 +16739,8 @@ Evet demiştim.
 Evet doktor.
 Evet dostum.
 Evet doğru.
+Evet efendim
+Evet efendim bu şekilde
 Evet efendim!
 Evet efendim, ben de onlara söyledim!
 Evet efendim, var.
@@ -17288,6 +17297,7 @@ Evlilik…
 Evlinin bir evi var, evsizin bin evi var.
 Evlisin.
 Evliyim.
+Evrak asıllarının tarafımıza kargo ile ulaşması gerekmektedir efendim
 Evraklar.
 Evrakı ve raporları savcılık kaleminde duruyor, takip eden olmadığı için sıra bekliyordu.
 Evrim geçirdiler.
@@ -17703,6 +17713,7 @@ Fakat hakikat ne kadar başka…
 Fakat hala "Sonbahar Şarkısı"nı vermemişti.
 Fakat hala dimdik duranlar ve içenler vardı.
 Fakat hala.
+Fakat hanım çok şikâyetçi başımı ağrıttı.
 Fakat hayalimdeki çehreyi çıkarıp atmak cesaretini kendimde bulamadım.
 Fakat hayat büsbütün başka…
 Fakat hayret: Yanmıyordu.
@@ -17965,6 +17976,8 @@ Fatma ha?
 Fatma herhalde aşağıdaki muşamba döşeli sofaya yatağını sermiş ve o hafif uykusuna dalmıştı.
 Fatma ıslak ellerini birer birer yanlarına kurulayarak bahçe tarafından geldi.
 Fatma, Ömer’in yanına sokularak kulağına fısıldadı:
+Fatura ödeyeceğim
+Faturamı ödemek istiyorum
 Favorim.
 Faydası yok.
 Faydasız baş, mezara yaraşır.
@@ -18033,6 +18046,7 @@ Fevkalade sevindim.
 Fevkalade süratle söylediği bu sözlerden sonra hakikaten gözlerini kapayarak bir adım ilerledi.
 Fevkalade üzüldüler.
 Fevkalade.
+Fiber değil
 Fikir Arkadaşı.
 Fikir ve Sanat Eserleri Kanunu'na göre eserin koruma süresi dolmuştur.
 Fikir çığırtkanları, politika tellalları…
@@ -18051,6 +18065,7 @@ Filmlerdeki şiddet ve televizyondaki cinsellik…
 Fincancı katırını ürküten sayısız dayak yer.
 Fincanı elimden alırken:
 Fincanını alarak birkaç yudum içti.
+Fiyatlarımız yıl sonuna kadar geçerlidir.
 Fiziksel olarak.
 Fişenkliklere dizilmiş martinin kurşunlarını takındı.
 Flaş haber!
@@ -18238,6 +18253,7 @@ Gebertin şunu!
 Gebertin!
 Gebertinceye kadar döveceklerdi.
 Gebertirim seni!
+Gebze
 Gece bu merdivenlerden çok aydınlıktı…
 Gece daha yeni başlıyor.
 Gece gece!
@@ -19000,6 +19016,7 @@ Geçici.
 Geçin şuraya.
 Geçiyordum.
 Geçiyorum.
+Geçiş yapabiliriz efendim port açık
 Geçmedi.
 Geçmeme izin verin.
 Geçmiyorum.
@@ -19321,6 +19338,7 @@ Gymnasium'un mozaikleri, şimdi birbirini kovalayan keçilerin tırnakları alt�
 Gök Büvet'in orda!
 Gök Büvet'in yanındaki kayalara oturur, koşmalar düzer söylermiş.
 Gök gürlemeden yağmur yağmaz.
+Gökpınar villaları çıkması lazım
 Gökte olduğu gibi, yeryüzünde de senin istediğin olsun.
 Gökteki yıldızların teker teker söndüğünü görmek fevkalade güzel bir şeydi.
 Gökten ne yağdı da yer kabul etmedi.
@@ -20115,6 +20133,7 @@ Güçsüz.
 Güç…
 Güğümün içindeki ayran her adımda çalkalanıyor ve garip sesler çıkarıyordu.
 Güğümün keskin kenarlı dibi ince bacaklarına çarpıp acıtıyor, fakat o, azıcık yüzünü buruşturarak:
+Gıbırnete geçiş yapmak istiyorum
 Gıda Dışı Malzeme Dağıtılması
 Gıdıklanıyor.
 Gıdıklanıyorum.
@@ -27780,6 +27799,7 @@ Miyav!
 Mm.
 Mmhm.
 Mmhmm.
+Modem açık kalsın.
 Mola verelim.
 Mola!
 Mola.
