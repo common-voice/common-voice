@@ -1155,6 +1155,7 @@ contribution-misreadings-title = ການອ່ານຜິດ
 contribution-misreadings-description-extended-list-2 = ຂາດ <strong>'s</strong> ຢູ່ທ້າຍຄຳສັບໃດໜຶ່ງ.
 contribution-misreadings-description-extended-list-5 = ພະຍາຍາມຫຼາຍຄັ້ງເພື່ອອ່ານຄຳສັບໃດໜຶ່ງ.
 contribution-misreadings-example-1-title = ໄດໂນເສົາຍັກໃຫຍ່ຂອງ Triassic.
+contribution-misreadings-example-2-title = ໄດໂນເສົາຍັກໃຫຍ່ຂອງ Triassic.
 contribution-misreadings-example-3-explanation = [ການ​ບັນ​ທຶກ​ການ​ຕັດ​ອອກ​ກ່ອນ​ທີ່​ຈະ​ສິ້ນ​ສຸດ​ຂອງ​ຄໍາ​ສຸດ​ທ້າຍ​]
 contribution-misreadings-example-4-title = ໄດໂນເສົາຍັກໃຫຍ່ຂອງ Triassic. ແມ່ນແລ້ວ.
 contribution-misreadings-example-5-title = ພວກເຮົາກໍາລັງອອກໄປຮັບກາເຟ.
@@ -1252,6 +1253,7 @@ sc-my-err-failed-delete = ລົ້ມເຫລວໃນການລຶບປະ
 
 sc-rejected-title = ປະໂຫຍກທີ່ຖືກປະຕິເສດ
 sc-rejected-loading = ກຳລັງໂຫລດປະໂຫຍກທີ່ຖືກປະຕິເສດ...
+sc-rejected-none-found = ບໍ່ພົບປະໂຫຍກທີ່ຖືກປະຕິເສດ!
 
 ## STATS
 
@@ -1272,12 +1274,14 @@ sc-submit-ph-one-per-line =
 sc-submit-from-where = ປະໂຫຍກ<wikipediaLink>ສາທາລະນະສົມບັດ</wikipediaLink>ເຫຼົ່ານີ້ມາຈາກໃສ?
 sc-submit-button =
     .submitText = ສົ່ງ
+sc-submit-guidelines = ກະລຸນາກວດເບິ່ງ<howToLink>ຂໍ້ແນະນຳ</howToLink>.
 
 ## ADD LANGUAGE
 
 sc-add-lang-could-not-add = ບໍ່ສາມາດເພີ່ມພາສາໄດ້
 sc-add-lang-sec-label = ເພີ່ມພາສາທີ່ທ່ານຕ້ອງການປະກອບສ່ວນ
 sc-add-lang-sec-button = ເພີ່ມພາສາ
+sc-add-err-unexpected = ການຕອບສະຫນອງທີ່ບໍ່ຄາດຄິດຈາກເຊີເວີ
 sc-add-err-submission = ການຍື່ນສະເຫນີຜິດພາດ
 
 ## ADD SENTENCES CONFIRMATION
@@ -1293,6 +1297,7 @@ sc-confirm-button-text = ຢືນຢັນ​
 sc-lang-info-title-total = ລວມ
 sc-lang-info-title-personal = ສ່ວນຕົວ
 sc-lang-info-review-now = <reviewLink>ກວດເບິ່ງດຽວນີ້!</reviewLink>
+sc-lang-info-add-more = <addLink>ເພີ່ມປະໂຫຍກເພີ່ມເຕີມດຽວນີ້!</addLink>
 
 ## LOGIN
 
@@ -1304,17 +1309,20 @@ sc-login-err-try-again = ກະລຸນາລອງອີກຄັ້ງ.
 # Variables:
 #   $username (String) - eMail address of the logged in user
 sc-profile-title = ໂປ​ຣ​ໄຟ​ລ໌: { $username }
+sc-personal-err-lang-not-found = ບໍ່ສາມາດລຶບພາສາອອກໄດ້: ບໍ່ພົບພາສາ
 sc-personal-err-remove = ບໍ່ສາມາດລຶບພາສາອອກໄດ້
 sc-personal-your-languages = ພາສາຂອງທ່ານ:
 sc-personal-remove-button = ລຶບ
 # Variables:
 #   $sentences (Number) - Number of sentences that were added by the currently logged in user for this language
 sc-personal-added-by-you = { $sentences } ເພີ່ມໂດຍທ່ານ
+sc-personal-not-added = ທ່ານຍັງບໍ່ໄດ້ເພີ່ມພາສາໃດໆເທື່ອ.
 
 ## REVIEW CRITERIA
 
 sc-criteria-modal = ⓘ ກວດສອບເງື່ອນໄຂ
 sc-criteria-title = ກວດສອບເງື່ອນໄຂ
+sc-criteria-make-sure = ໃຫ້ແນ່ໃຈວ່າປະໂຫຍກນີ້ກົງກັບເງື່ອນໄຂດັ່ງຕໍ່ໄປນີ້:
 sc-criteria-item-1 = ປະໂຫຍກຕ້ອງສະກົດຖືກຕ້ອງ.
 sc-criteria-item-2 = ປະໂຫຍກຕ້ອງຖືກຕ້ອງຕາມໄວຍະກອນ.
 sc-criteria-item-3 = ປະໂຫຍກຕ້ອງເວົ້າໄດ້.
@@ -1323,6 +1331,7 @@ sc-criteria-item-3 = ປະໂຫຍກຕ້ອງເວົ້າໄດ້.
 
 sc-review-title = ທົບທວນປະໂຫຍກ
 sc-review-loading = ກຳລັງໂຫລດປະໂຫຍກ...
+sc-review-select-language = ກະລຸນາເລືອກພາສາເພື່ອທົບທວນປະໂຫຍກ.
 sc-review-form-prompt =
     .message = ບໍ່ໄດ້ສົ່ງປະໂຫຍກທີ່ທົບທວນຄືນ, ແນ່ໃຈບໍ?
 # Variables:
