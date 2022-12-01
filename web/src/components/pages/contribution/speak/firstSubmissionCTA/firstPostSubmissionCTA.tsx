@@ -39,7 +39,11 @@ export const FirstPostSubmissionCta: React.FC<FirstPostSubmissionCtaProps> = ({
   successUploadMessage,
   errorUploadMessage,
 }) => {
-  const saveAccount = useAction(User.actions.saveAccount);
+
+  const saveAnonymousAccount = useAction(
+    User.actions.saveAnonymousAccountLanguages
+  );
+ 
   const [areLanguagesLoading, setAreLanguagesLoading] = React.useState(true);
 
   const [userLanguages, setUserLanguages] = useLocalStorageState<
@@ -71,7 +75,7 @@ export const FirstPostSubmissionCta: React.FC<FirstPostSubmissionCtaProps> = ({
     };
 
     try {
-      await saveAccount(data);
+      await saveAnonymousAccount(data);
       addNotification(successUploadMessage, 'success');
     } catch {
       addNotification(errorUploadMessage, 'error');
@@ -132,10 +136,18 @@ export const FirstPostSubmissionCta: React.FC<FirstPostSubmissionCtaProps> = ({
           <Localized id="why-donate-explanation-1">
             <p />
           </Localized>
-          <Localized id="why-donate-explanation-2">
-            <p />
-          </Localized>
-          <Localized id="why-donate-explanation-3">
+          <Localized
+            id="why-donate-explanation-2"
+            elems={{
+              learnMore: (
+                <a
+                  href="https://foundation.mozilla.org/en/blog/common-voice-metadata-matters"
+                  target="_blank"
+                  rel="noreferrer">
+                  Learn more about why metadata matters.
+                </a>
+              ),
+            }}>
             <p />
           </Localized>
         </ExpandableInformation>

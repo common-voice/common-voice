@@ -104,6 +104,7 @@ const initialState: State = {
 const SEEN_FIRST_CTA = 'seenFirstCTA';
 const SEEN_SECOND_CTA = 'seenSecondCTA';
 
+
 class SpeakPage extends React.Component<Props, State> {
   state: State = {
     ...initialState,
@@ -485,6 +486,15 @@ class SpeakPage extends React.Component<Props, State> {
         );
       },
     ]);
+
+    const hasSeenFirstCTA = window.sessionStorage.getItem(SEEN_FIRST_CTA);
+
+    // display first CTA screen if it has not been seen it before
+    // and the user does not have an account
+    if (hasSeenFirstCTA !== 'true' && !user.account) {
+      this.setState({ shouldShowFirstCTA: true });
+      window.sessionStorage.setItem(SEEN_FIRST_CTA, 'true');
+    }
 
     return true;
   };

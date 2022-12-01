@@ -31,10 +31,10 @@ import ShareModal from '../../share-modal/share-modal';
 import { ReportButton, ReportModal, ReportModalProps } from './report/report';
 import Wave from './wave';
 import { FirstPostSubmissionCta } from './speak/firstSubmissionCTA/firstPostSubmissionCTA';
+import { SecondPostSubmissionCTA } from './speak/secondSubmissionCTA/secondSubmissionCTA';
 import { Notifications } from '../../../stores/notifications';
 
 import './contribution.css';
-import { SecondPostSubmissionCTA } from './speak/secondSubmissionCTA/secondSubmissionCTA';
 
 export const SET_COUNT = 5;
 
@@ -195,7 +195,8 @@ class ContributionPage extends React.Component<ContributionPageProps, State> {
       event.altKey ||
       event.shiftKey ||
       event.metaKey ||
-      this.state.showReportModal
+      this.state.showReportModal ||
+      this.props.shouldShowFirstCTA
     ) {
       return;
     }
@@ -558,27 +559,24 @@ class ContributionPage extends React.Component<ContributionPageProps, State> {
                     required
                     onChange={handlePrivacyAgreedChange}
                     checked={privacyAgreedChecked}
+                    shouldShowTooltip
+                    isTooltipOpen={isFirstSubmit}
+                    tooltipTitle={getString(
+                      'review-instruction-checkbox-tooltip'
+                    )}
                     data-testid="checkbox"
                   />
                 )}
-                <Tooltip
-                  arrow
-                  disabled={!this.isDone}
-                  open={isFirstSubmit || undefined}
-                  title={getString('record-submit-tooltip', {
-                    actionType: getString('action-tap'),
-                  })}>
-                  <Localized id="submit-form-action">
-                    <PrimaryButton
-                      className={[
-                        'submit',
-                        getTrackClass('fs', `submit-${type}`),
-                      ].join(' ')}
-                      disabled={!this.isDone}
-                      type="submit"
-                    />
-                  </Localized>
-                </Tooltip>
+                <Localized id="submit-form-action">
+                  <PrimaryButton
+                    className={[
+                      'submit',
+                      getTrackClass('fs', `submit-${type}`),
+                    ].join(' ')}
+                    disabled={!this.isDone || !privacyAgreedChecked}
+                    type="submit"
+                  />
+                </Localized>
               </form>
             )}
           </div>
