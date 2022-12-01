@@ -1414,6 +1414,7 @@ partnerships-get-in-touch = رابطے وچ راہوو
 partnerships-become-a-partner = کامن وائس بھائیوال بݨو
 partnerships-community-header = برادری، تخلیقاں تے سول سوسائٹی
 partnerships-foundations-header = فاؤنڈیشناں
+partnerships-foundations-description = اساں فاؤنڈیشناں، سول سوسائٹی تے برادری بھائیوالاں نال رل تے انٹرنیٹ کوں صحت مند بݨاوݨ کیتے کم کریندے ہیں، خاص طور تے مشرقی افریقہ کیتے۔ ساݙے <programmaticWork>پروگراماتی کم</programmaticWork> بارے ٻیا سکھو۔
 partnerships-governments-header = حکومتاں
 partnerships-academia-header = یونیورسٹیاں، ماہرین تعلیم تے محققین
 partnerships-small-business-header = ٹیک تے اے آئی سٹارٹ اپ سمیت چھوٹے کاروبار
