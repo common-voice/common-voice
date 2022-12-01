@@ -1365,6 +1365,9 @@ sc-review-link = ທົບທວນ
 
 sc-settings-title = ການຕັ້ງຄ່າ
 sc-settings-show-all-button = ສະແດງປະໂຫຍກທີ່ຂ້າມທັງໝົດອີກຄັ້ງ
+sc-validation-no-numbers = ປະໂຫຍກບໍ່ຄວນມີຕົວເລກ
+sc-validation-no-symbols = ປະໂຫຍກບໍ່ຄວນມີສັນຍາລັກ
+sc-validation-no-abbreviations = ປະໂຫຍກບໍ່ຄວນມີຕົວຫຍໍ້
 
 # [/SentenceCollector]
 
