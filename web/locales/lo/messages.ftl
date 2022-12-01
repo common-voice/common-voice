@@ -1265,6 +1265,7 @@ sc-stats-updating = ກຳລັງອັບເດດ…
 sc-submit-err-select-lang = ກະລຸນາເລືອກພາສາ.
 sc-submit-err-add-sentences = ກະລຸນາເພີ່ມປະໂຫຍກ.
 sc-submit-err-add-source = ກະລຸນາເພີ່ມແຫຼ່ງທີ່ມາ.
+sc-submit-err-confirm-pd = ກະລຸນາຢືນຢັນວ່າປະໂຫຍກເຫຼົ່ານີ້ແມ່ນສົມບັດສາທາລະນະ.
 sc-submit-title = ເພີ່ມປະໂຫຍກ
 sc-submit-select-language =
     .labelText = ເລືອກພາສາ
@@ -1296,6 +1297,13 @@ sc-confirm-button-text = ຢືນຢັນ​
 
 sc-lang-info-title-total = ລວມ
 sc-lang-info-title-personal = ສ່ວນຕົວ
+# Variables:
+#   $totalSentences (Number) - Number of sentences uploaded in total for this language
+sc-lang-info-total =
+    { $totalSentences ->
+        [0] ບໍ່ມີປະໂຫຍກທັງໝົດ.
+       *[other] { $totalSentences } ປະໂຫຍກທັງໝົດ.
+    }
 sc-lang-info-review-now = <reviewLink>ກວດເບິ່ງດຽວນີ້!</reviewLink>
 sc-lang-info-add-more = <addLink>ເພີ່ມປະໂຫຍກເພີ່ມເຕີມດຽວນີ້!</addLink>
 
@@ -1361,7 +1369,9 @@ localization-select =
 # PARTNERSHIPS PAGE
 partnerships-header = ຫຸ້ນສ່ວນ
 partnerships-get-in-touch = ຕິດຕໍ່ໄດ້
+partnerships-become-a-partner = ກາຍເປັນຄູ່ຮ່ວມງານ Common Voice
 partnerships-foundations-header = ມູນນິທິ
 partnerships-governments-header = ລັດຖະບານ
 partnerships-academia-header = ມະຫາວິທະຍາໄລ, ນັກວິຊາການ ແລະນັກຄົ້ນຄວ້າ
+partnerships-small-business-header = ທຸລະກິດຂະຫນາດນ້ອຍ, ລວມທັງເຕັກໂນໂລຢີແລະທຸລະກິດລິເລີ່ມ AI
 partnerships-our-partners = ຄູ່ຮ່ວມງານຂອງພວກເຮົາ
