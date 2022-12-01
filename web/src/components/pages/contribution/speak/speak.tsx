@@ -86,6 +86,7 @@ interface State {
   showDiscardModal: boolean;
   privacyAgreedChecked?: boolean;
   shouldShowFirstCTA: boolean;
+  shouldShowSecondCTA: boolean;
 }
 
 const initialState: State = {
@@ -97,9 +98,11 @@ const initialState: State = {
   showPrivacyModal: false,
   showDiscardModal: false,
   shouldShowFirstCTA: false,
+  shouldShowSecondCTA: false,
 };
 
 const SEEN_FIRST_CTA = 'seenFirstCTA';
+const SEEN_SECOND_CTA = 'seenSecondCTA';
 
 class SpeakPage extends React.Component<Props, State> {
   state: State = {
@@ -483,15 +486,6 @@ class SpeakPage extends React.Component<Props, State> {
       },
     ]);
 
-    const hasSeenFirstCTA = window.sessionStorage.getItem(SEEN_FIRST_CTA);
-
-    // display first CTA screen if it has not been seen it before
-    // and the user does not have an account
-    if (hasSeenFirstCTA !== 'true' && !user.account) {
-      this.setState({ shouldShowFirstCTA: true });
-      window.sessionStorage.setItem(SEEN_FIRST_CTA, 'true');
-    }
-
     return true;
   };
 
@@ -518,13 +512,38 @@ class SpeakPage extends React.Component<Props, State> {
   };
 
   private handleSubmit = (evt: React.SyntheticEvent) => {
+    const { user } = this.props;
+
     const hasSeenFirstCTA = window.sessionStorage.getItem(SEEN_FIRST_CTA);
+    const hasSeenSecondCTA = window.sessionStorage.getItem(SEEN_SECOND_CTA);
 
     evt.preventDefault();
     this.upload();
 
-    // Reset for unauthenticated users who have seen the first CTA so they can see new clips to record
-    if (!this.props.user.account && hasSeenFirstCTA === 'true') {
+    // display first CTA screen if it has not been seen it before
+    // and the user does not have an account
+    if (hasSeenFirstCTA !== 'true' && !user.account) {
+      this.setState({ shouldShowFirstCTA: true });
+      window.sessionStorage.setItem(SEEN_FIRST_CTA, 'true');
+    }
+
+    // display second CTA screen if it has not been seen it before
+    // and the user does not have an account
+    if (
+      hasSeenFirstCTA === 'true' &&
+      hasSeenSecondCTA !== 'true' &&
+      !user.account
+    ) {
+      this.setState({ shouldShowSecondCTA: true });
+      window.sessionStorage.setItem(SEEN_SECOND_CTA, 'true');
+    }
+
+    // Reset for unauthenticated users who have seen the first and second CTA so they can see new clips to record
+    if (
+      !user.account &&
+      hasSeenFirstCTA === 'true' &&
+      hasSeenSecondCTA === 'true'
+    ) {
       this.resetState();
     }
   };
@@ -685,6 +704,7 @@ class SpeakPage extends React.Component<Props, State> {
             }
             privacyAgreedChecked={this.state.privacyAgreedChecked}
             shouldShowFirstCTA={this.state.shouldShowFirstCTA}
+            shouldShowSecondCTA={this.state.shouldShowSecondCTA}
             primaryButtons={
               <RecordButton
                 trackClass="speak-record"
