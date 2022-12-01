@@ -190,6 +190,7 @@ ts = Xitsonga
 tt = ພາສາຕາຕ່າ
 tw = ພາສາຕະວີ
 ty = ພາສາຕາຮິຕຽນ
+tyv = ຕູວານ
 uby = Ubykh
 udm = ພາສາຢູດເມີດ
 ug = ພາສາອຸຍເກີກ
@@ -1100,6 +1101,7 @@ download-requests-info = ເມື່ອທ່ານຮ້ອງຂໍການ�
 download-request-button = ດາວໂຫລດ
 download-request-title = { $created }
 download-request-archive-single = ໄຟລ໌ ZIP ດຽວປະກອບມີ
+download-request-archive-multiple = ແບ່ງອອກເປັນໄຟລ໌ ZIP { $archiveCount } ທີ່ມີ
 download-request-refresh-button = ຟື້ນຟູ
 download-request-modal-title = ລິ້ງດາວໂຫລດ
 download-request-modal-description = ນີ້ແມ່ນລິ້ງເພື່ອດາວໂຫລດໄຟລ໌ ZIP ຂອງທ່ານ.
@@ -1153,6 +1155,7 @@ contribution-misreadings-title = ການອ່ານຜິດ
 contribution-misreadings-description-extended-list-2 = ຂາດ <strong>'s</strong> ຢູ່ທ້າຍຄຳສັບໃດໜຶ່ງ.
 contribution-misreadings-description-extended-list-5 = ພະຍາຍາມຫຼາຍຄັ້ງເພື່ອອ່ານຄຳສັບໃດໜຶ່ງ.
 contribution-misreadings-example-1-title = ໄດໂນເສົາຍັກໃຫຍ່ຂອງ Triassic.
+contribution-misreadings-example-3-explanation = [ການ​ບັນ​ທຶກ​ການ​ຕັດ​ອອກ​ກ່ອນ​ທີ່​ຈະ​ສິ້ນ​ສຸດ​ຂອງ​ຄໍາ​ສຸດ​ທ້າຍ​]
 contribution-misreadings-example-4-title = ໄດໂນເສົາຍັກໃຫຍ່ຂອງ Triassic. ແມ່ນແລ້ວ.
 contribution-misreadings-example-5-title = ພວກເຮົາກໍາລັງອອກໄປຮັບກາເຟ.
 contribution-misreadings-example-6-title = ພວກເຮົາອອກໄປຮັບກາເຟ.
@@ -1162,6 +1165,7 @@ contribution-misreadings-example-7-explanation = [ບໍ່ມີ 'a' ໃນຂ�
 contribution-misreadings-example-8-title = bumblebee ໄດ້ sped ໂດຍ.
 contribution-misreadings-example-8-explanation = [ເນື້ອໃນບໍ່ກົງກັນ]
 contribution-varying-pronunciations-title = ການອອກສຽງທີ່ແຕກຕ່າງກັນ
+contribution-varying-pronunciations-example-1-title = ຢູ່ເທິງຫົວຂອງລາວ, ລາວນຸ່ງເສື້ອ beret.
 contribution-varying-pronunciations-example-2-title = ມືຂອງລາວຖືກຍົກຂຶ້ນ.
 contribution-varying-pronunciations-example-2-explanation = ['ຍົກຂຶ້ນມາ' ໃນພາສາອັງກິດສະເຫມີອອກສຽງເປັນພະຍັນຊະນະຫນຶ່ງ, ບໍ່ແມ່ນສອງ]
 contribution-background-noise-title = ສິ່ງລົບກວນພື້ນຫຼັງ
@@ -1242,10 +1246,12 @@ sc-my-submission = ສົ່ງ: { $batchId }
 sc-my-source = ທີ່ມາ: { $source }
 sc-my-delete = ລຶບປະໂຫຍກທີ່ເລືອກ
 sc-my-deleting = ກຳລັງລຶບປະໂຫຍກທີ່ເລືອກ...
+sc-my-err-failed-delete = ລົ້ມເຫລວໃນການລຶບປະໂຫຍກທີ່ເລືອກ... ກະລຸນາລອງໃໝ່ອີກຄັ້ງ!
 
 ## REJECTED
 
 sc-rejected-title = ປະໂຫຍກທີ່ຖືກປະຕິເສດ
+sc-rejected-loading = ກຳລັງໂຫລດປະໂຫຍກທີ່ຖືກປະຕິເສດ...
 
 ## STATS
 
