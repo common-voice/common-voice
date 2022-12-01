@@ -29,7 +29,6 @@ import { Button, StyledLink, LabeledCheckbox } from '../../ui/ui';
 import { PrimaryButton } from '../../primary-buttons/primary-buttons';
 import ShareModal from '../../share-modal/share-modal';
 import { ReportButton, ReportModal, ReportModalProps } from './report/report';
-import Success from './success';
 import Wave from './wave';
 import { FirstPostSubmissionCta } from './speak/firstSubmissionCTA/firstPostSubmissionCTA';
 import { Notifications } from '../../../stores/notifications';
@@ -235,6 +234,7 @@ class ContributionPage extends React.Component<ContributionPageProps, State> {
       user,
       demoMode,
       shouldShowFirstCTA,
+      shouldShowSecondCTA,
     } = this.props;
     const { showReportModal, showShareModal, showShortcutsModal } = this.state;
 
@@ -277,6 +277,7 @@ class ContributionPage extends React.Component<ContributionPageProps, State> {
             type,
             this.isDone ? 'submittable' : '',
             shouldShowFirstCTA ? 'first-cta-visible' : '',
+            shouldShowSecondCTA ? 'second-cta-visible' : '',
           ].join(' ')}>
           <div className="top">
             <LocaleLink
@@ -350,6 +351,7 @@ class ContributionPage extends React.Component<ContributionPageProps, State> {
       onPrivacyAgreedChange,
       privacyAgreedChecked,
       shouldShowFirstCTA,
+      shouldShowSecondCTA,
       user,
     } = this.props;
     const { selectedPill } = this.state;
@@ -373,8 +375,8 @@ class ContributionPage extends React.Component<ContributionPageProps, State> {
         <div className="cards-and-pills">
           <div />
 
-          {shouldShowFirstCTA ? (
-            <div style={{ width: '800px', height: '400px' }}></div>
+          {shouldShowFirstCTA || shouldShowSecondCTA ? (
+            <div className="cta-placeholder" />
           ) : (
             <div className="cards-and-instruction">
               {instruction({
@@ -434,13 +436,8 @@ class ContributionPage extends React.Component<ContributionPageProps, State> {
             </div>
           )}
 
-          {shouldShowFirstCTA ? (
-            <div
-              style={{
-                height: '400px',
-                width: '400px',
-              }}
-            />
+          {shouldShowFirstCTA || shouldShowSecondCTA ? (
+            <div />
           ) : (
             <div className="pills">
               <div className="inner">
@@ -473,7 +470,7 @@ class ContributionPage extends React.Component<ContributionPageProps, State> {
           )}
         </div>
 
-        {/* {!user.account && shouldShowFirstCTA && (
+        {!user.account && shouldShowFirstCTA && (
           <FirstPostSubmissionCta
             locale={this.props.locale}
             onReset={onReset}
@@ -481,8 +478,11 @@ class ContributionPage extends React.Component<ContributionPageProps, State> {
             successUploadMessage={getString('thanks-for-voice-toast')}
             errorUploadMessage={getString('thanks-for-voice-toast-error')}
           />
-        )} */}
-        {!user.account && shouldShowFirstCTA && <SecondPostSubmissionCTA />}
+        )}
+
+        {!user.account && shouldShowSecondCTA && (
+          <SecondPostSubmissionCTA onReset={onReset} />
+        )}
 
         {instruction({
           vars: { actionType: getString('action-tap') },
@@ -538,7 +538,7 @@ class ContributionPage extends React.Component<ContributionPageProps, State> {
               </Localized>{' '}
               <SkipIcon />
             </Button>
-            {onSubmit && !shouldShowFirstCTA && (
+            {onSubmit && !shouldShowFirstCTA && !shouldShowSecondCTA && (
               <form
                 onSubmit={onSubmit}
                 className="contribution-speak-form"
