@@ -5,9 +5,15 @@ import Confetti from 'react-confetti';
 import useWindowSize from '../../../../../hooks/use-window-size';
 
 import './secondSubmissionCTA.css';
-import { Button } from '../../../../ui/ui';
+import { Button, LinkButton } from '../../../../ui/ui';
 
-export const SecondPostSubmissionCTA = () => {
+type SecondPostSubmissionCtaProps = {
+  onReset: () => void;
+};
+
+export const SecondPostSubmissionCTA: React.FC<
+  SecondPostSubmissionCtaProps
+> = ({ onReset }) => {
   const { height, width } = useWindowSize();
 
   return (
@@ -47,16 +53,20 @@ export const SecondPostSubmissionCTA = () => {
         </div>
 
         <div className="submission-buttons">
-          <Localized id="add-information-button">
-            <Button
+          <Localized id="create-profile-button">
+            <LinkButton
               rounded
               className="create-profile-button"
-              data-testid="add-information-button">
-              Add information
-            </Button>
+              data-testid="create-profile-button"
+              href="/login">
+              Create a profile
+            </LinkButton>
           </Localized>
           <Localized id="continue-speaking-button">
-            <Button rounded data-testid="continue-speaking-button">
+            <Button
+              rounded
+              data-testid="continue-speaking-button"
+              onClick={onReset}>
               No thanks, continue speaking
             </Button>
           </Localized>

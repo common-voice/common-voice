@@ -249,6 +249,10 @@
         flex-direction: column;
         flex-shrink: 0;
 
+        .cta-placeholder {
+            height: 400px;
+        }
+
         @media (--md-up) {
             flex-direction: row;
         }
@@ -458,7 +462,8 @@
     }
 
     &.submittable,
-    &.first-cta-visible {
+    &.first-cta-visible,
+    &.second-cta-visible {
         .cards,
         .instruction,
         .primary-buttons,
