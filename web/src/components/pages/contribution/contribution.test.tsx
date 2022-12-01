@@ -115,7 +115,6 @@ describe('Contribution - Speak', () => {
   });
 
   it('renders first CTA', async () => {
-    const mockHideFirstCTA = jest.fn();
     const mockOnReset = jest.fn();
 
     renderContributionPage({
@@ -132,7 +131,6 @@ describe('Contribution - Speak', () => {
       const addInformationButton = screen.getByTestId('add-information-button');
 
       fireEvent.click(addInformationButton);
-      expect(mockHideFirstCTA).toHaveBeenCalled();
       expect(mockOnReset).toHaveBeenCalled();
     });
   });
