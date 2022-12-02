@@ -200,6 +200,7 @@ ve = Vendakî
 vec = Venedîkkî
 vi = Vîetnamkî
 vot = Votîkî
+wo = Wolofkî
 xh = Koza (Xhosa)
 yi = Yîdkî
 yo = Yoruba
