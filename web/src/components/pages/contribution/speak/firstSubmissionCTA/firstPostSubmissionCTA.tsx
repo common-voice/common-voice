@@ -83,7 +83,7 @@ export const FirstPostSubmissionCta: React.FC<FirstPostSubmissionCtaProps> = ({
   };
 
   return (
-    <div className="first-cta-container">
+    <div className="first-cta-container" data-testid="first-submission-cta">
       <div className="header-text-container">
         <Localized id="first-cta-header-text">
           <h1 className="header-text">

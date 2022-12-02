@@ -17,7 +17,7 @@ export const SecondPostSubmissionCTA: React.FC<
   const { height, width } = useWindowSize();
 
   return (
-    <>
+    <div data-testid="second-submission-cta">
       <Confetti
         width={width}
         height={height}
@@ -80,6 +80,6 @@ export const SecondPostSubmissionCTA: React.FC<
           <p className="login-text">Already have an account? Log-In</p>
         </Localized>
       </div>
-    </>
+    </div>
   );
 };
