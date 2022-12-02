@@ -487,6 +487,7 @@ faq-why-not-ask-read-a = Seba ke feydeyê komdayeyê Common Voice berz bo, ma qe
 faq-why-account-q = Ez çira hesabêk akerî?
 faq-is-account-public-q = Tirêm melumatê hesabê mi her kesî rê aseno?
 faq-how-privacy-q = Şima anonîmî û nimiteyîya bexişkerdoxanê vengan senî pawenê?
+faq-how-privacy-a = Heme qeydanê vengî yê komdayeyî ra melumato ke nîşanê nasnameyê şexsî dano, yeno estiritene. Eke beşdarêk profîlê xo de melumato demografîk pêşkêş keno, no melumat bi hawayêko anonîm girêdayeyê qeydê vengî beno. Wina, eke komdayeyî de kom benê ke bêrê warardene, rîpelê profîlê înan ser o caran nêweşanîyeno.
 faq-what-is-cv = Common Voice çi yo?
 faq-using-cv = Xebitnayîşê Common Voice
 faq-description = Common Voice projeyê Mozîlla yo ke makînayan (komputuran) rê bimusno ke merdimê raştikênî senî qisey kenê.
