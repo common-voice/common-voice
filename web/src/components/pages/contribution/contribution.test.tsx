@@ -28,6 +28,11 @@ jest.mock('../../../hooks/store-hooks', () => ({
   },
 }));
 
+jest.mock('react-confetti', () => ({
+  __esModule: true,
+  default: () => <div data-testid="confetti">Confetti</div>,
+}));
+
 const mockReportModalProps: Omit<ReportModalProps, 'onSubmitted'> = {
   reasons: [
     'offensive-language',
@@ -127,11 +132,35 @@ describe('Contribution - Speak', () => {
 
     await waitFor(async () => {
       expect(screen.getByText(thankYouText)).toBeTruthy();
+      expect(screen.getByTestId('first-submission-cta')).toBeTruthy();
 
       const addInformationButton = screen.getByTestId('add-information-button');
 
       fireEvent.click(addInformationButton);
       expect(mockOnReset).toHaveBeenCalled();
     });
+  });
+
+  it('renders second CTA', () => {
+    const mockOnReset = jest.fn();
+
+    renderContributionPage({
+      activeIndex: -1,
+      shouldShowSecondCTA: true,
+      onReset: mockOnReset,
+    });
+
+    const secondCTAWrapper = screen.getByTestId('second-submission-cta');
+    const confetti = screen.getByTestId('confetti');
+    const continueButton = screen.getByTestId('continue-speaking-button');
+
+    const thankYouText = 'Thank you for contributing your voice!';
+
+    expect(secondCTAWrapper).toBeTruthy();
+    expect(screen.getByText(thankYouText)).toBeTruthy();
+    expect(confetti).toBeTruthy();
+
+    fireEvent.click(continueButton);
+    expect(mockOnReset).toHaveBeenCalled();
   });
 });

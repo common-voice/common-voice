@@ -39,11 +39,10 @@ export const FirstPostSubmissionCta: React.FC<FirstPostSubmissionCtaProps> = ({
   successUploadMessage,
   errorUploadMessage,
 }) => {
-
   const saveAnonymousAccount = useAction(
     User.actions.saveAnonymousAccountLanguages
   );
- 
+
   const [areLanguagesLoading, setAreLanguagesLoading] = React.useState(true);
 
   const [userLanguages, setUserLanguages] = useLocalStorageState<
@@ -85,7 +84,7 @@ export const FirstPostSubmissionCta: React.FC<FirstPostSubmissionCtaProps> = ({
   };
 
   return (
-    <div className="first-cta-container">
+    <div className="first-cta-container" data-testid="first-submission-cta">
       <div className="header-text-container">
         <Localized id="first-cta-header-text">
           <h1 className="header-text">
