@@ -1208,6 +1208,7 @@ sc-logout-button = ອອກ​ຈາກ​ລະ​ບົບ
 
 sc-home-title = ຍິນດີຕ້ອນຮັບສູ່ເຄື່ອງມືຮວບຮວມປະໂຫຍກ Common Voice
 sc-home-collect-title = ລວບລວມປະໂຫຍກ
+sc-home-collect-text = ຊ່ວຍພວກເຮົາໂດຍການຂຽນຫຼືລວບລວມປະໂຫຍກສາທາລະນະໂດເມນ.
 sc-home-review-title = ທົບທວນປະໂຫຍກ
 sc-home-review-text = ຊ່ວຍພວກເຮົາໂດຍການທົບທວນຄືນປະໂຫຍກທີ່ຖືກຕ້ອງຕາມຄໍາແນະນໍາ.
 
