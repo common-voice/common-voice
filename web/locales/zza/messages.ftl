@@ -489,6 +489,10 @@ faq-is-account-public-q = Tirêm melumatê hesabê mi her kesî rê aseno?
 faq-how-privacy-q = Şima anonîmî û nimiteyîya bexişkerdoxanê vengan senî pawenê?
 faq-how-privacy-a = Heme qeydanê vengî yê komdayeyî ra melumato ke nîşanê nasnameyê şexsî dano, yeno estiritene. Eke beşdarêk profîlê xo de melumato demografîk pêşkêş keno, no melumat bi hawayêko anonîm girêdayeyê qeydê vengî beno. Wina, eke komdayeyî de kom benê ke bêrê warardene, rîpelê profîlê înan ser o caran nêweşanîyeno.
 faq-what-determine-identity-q = Nasnameyê qiseykerdoxanê komdayeyî "caran nêno zanayene" yeno ra çi mana?
+faq-what-determine-identity-a =
+    Komdayeyê Common Voice çime yo ke rayapêroyî rê akerde û her kesî rê mewcûd o. Pê merdim eşkeno tewir bi tewir applîkasyonanê bi vengî perwerde bikero. Seba ke asayîşê beşdaranê ma bêro seveknayene, ma her kesî ra ke komdayeyê Common Voice ano war, rica kenîme ke nimiteyîya beşdaran rê rêzdarîye bikero.
+    
+    Pêro qeydanê vengî yê komdayeyî ra melumato şexsî yeno estiritene. Wexto ke ti komdayeyî anî/a war, ti qebul kenî/a ke nêceribnenî/a nasnameyê beşdarêk eşkera bikerê. No yeno a mana ke ti nêeşkenî/a melumatê komdayeyî bi melumatê beşdarêk ê şexsî girê bidê. Labelê, ti eşkenî/a komdayeyî seba perwerdekerdişê naskerdişê vengî, naskerdişê qiseykerdoxan yan zî seba perwerdekerdişê yewna applîkasyonî bixebitnê, mavajîme, bi pagirêdayîşê melumatê komdayeyî bi yewna melumatê komdayeyî.
 faq-what-is-cv = Common Voice çi yo?
 faq-using-cv = Xebitnayîşê Common Voice
 faq-description = Common Voice projeyê Mozîlla yo ke makînayan (komputuran) rê bimusno ke merdimê raştikênî senî qisey kenê.
@@ -545,6 +549,8 @@ about-get-involved-text-2 =
     Pê e-maîl yan zî forumanê <discourseLink>Discourse</discourseLink> de bikewe têkilîye, problemanê sîteyî <githubLink>GitHub</githubLink> ser o birusne, yan zî beşdarê xoşebera komelê <matrixLink>Matrix</matrixLink>î bibe.
 about-stay-in-touch = Ez senî eşkena têkilîye de bimanî?
 about-stay-in-touch-button = Qeyd bibe
+about-stay-in-touch-text-1 = Lîsteya ma ya e-maîlî rê <emailFragment>qeyd bibe</emailFragment> û bimuse ke senî eşkenî/a beşdarê kampanyayan, aktîvîteyan û gureyanê dîzaynan bibê.
+about-stay-in-touch-text-2 = Seba xoşeberanê derheqê babete de, ti eşkenî tewrê <discourseLink>Discourse</discourseLink> bibê ke komelê Mozîlla yê ziwanî de kesanê bînan nas bikerê, yan zî seba şîretêko lez tewrê <matrixLink>Matrix</matrixLink> bibe.
 about-nav-why-common-voice = Çira?
 about-nav-how-it-works = Senî?
 about-nav-partners = Hemparî
