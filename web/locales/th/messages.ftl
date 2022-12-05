@@ -1210,6 +1210,7 @@ sc-add-err-failed =
        *[other] { $sentences } ประโยคเกิดข้อผิดพลาด
     }
 sc-add-err-submission = ข้อผิดพลาดในการส่ง
+sc-add-lang-process-notice = หากภาษาของคุณไม่อยู่ในรายการ คุณสามารถขอผ่าน <languageProcessLink>ขั้นตอนนี้</languageProcessLink>
 
 ## ADD SENTENCES CONFIRMATION
 
