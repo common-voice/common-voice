@@ -567,9 +567,14 @@ about-playbook-how-localize-content-5 = Për ndihmë, shihni videon tonë shpjeg
 
 about-playbook-how-add-sentences = Si të shtoj fraza?
 about-playbook-how-add-sentences-content-1 = <strong>Grumbulluesi i Togfjalëshave</strong> është një mjet për grumbullimin dhe vlerësimin e togfjalëshave nën përkatësi publike. Do t’ju <scAccountLink>duhet të krijoni një llogari</scAccountLink>. Mandej, shtoni gjuhën tuaj te <strong>Profili</strong> juaj.  Mund të <strong>Shtoni</strong> togfjalësha, ose të <strong>Shqyrtoni</strong> të tillë të shtuar më parë.
+about-playbook-how-add-sentences-content-2 = Togfjalëshat duhen shqyrtuar dhe pranuar nga dy vetë, që të përfshihen te Common Voice. Ju krijoni udhëzime për gjuhën tuaj <languageGuidelinesLink>këtu</languageGuidelinesLink>. Togfjalëshat duhet të jenë nën <licenseLink>përkatësinë publike</licenseLink> dhe më të shkurtër se 15 fjalë. Mund t’i kërkoni të zotit të tekstit ta kalojë nën <waiverLink>CC0 duke përdorur procesin tonë të heqjes dorë nga të drejta</waiverLink> dhe dërgojë te ne te commonvoice@mozilla.com
+about-playbook-how-add-sentences-content-3 = Që të shfrytëzoni togfjalësha të shkurtër nga Wikipedia mund të përdorni <scraperLink>Përftuesin e togfjalëshave</scraperLink>.
+about-playbook-how-add-sentences-content-4 = Togfjalëshat që janë vlerësuar, eksportohen të mërkurave dhe janë gati për përdorim pas hedhjes pasuese në qarkullim.
 
 ## How to record quality
 
+about-playbook-how-record-quality = Si të incizoj një copëz zanore me cilësi të lartë?
+about-playbook-how-record-content-1 = Flisni me zërin tuaj të zakonshëm! Mënyra se si flisni është ajo që mirëpritet këtu - e duam shqiptimin tuaj ashtu siç është dhe duam volumin, stilin dhe intonacionin tuaj të zakonshëm.
 
 ## How to grow language
 
