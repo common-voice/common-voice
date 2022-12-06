@@ -535,6 +535,10 @@ about-playbook-what-is-language-content-3 = Disa gjuhë kanë variacion shumë t
 ## How do I add a language
 
 about-playbook-how-add-language = Si ta shtoj një gjuhë?
+about-playbook-how-add-language-content-1 =
+    Së pari, kontrolloni nëse gjuha juaj <languageLink>ekziston tashmë</languageLink>.
+    Nëse jo, mundeni <languageRequestLink>të kërkoni shtimin e saj</languageRequestLink>.
+    Këtu ka dy faza. Përkthimi i sajtit dhe grumbullimi i togfjalëshave
 about-playbook-how-add-language-translating-heading = Përkthimi i këtij sajti
 about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Shihni udhërrëfyesin tonë se si të përdoret Pontoon-i.</translateVideoLink>
 about-playbook-how-add-language-translating-content-2 =
