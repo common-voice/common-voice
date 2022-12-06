@@ -1100,6 +1100,7 @@ download-requests = ການຮ້ອງຂໍການດາວໂຫຼດກ
 download-requests-info = ເມື່ອທ່ານຮ້ອງຂໍການບັນທຶກຂອງທ່ານ, ພວກເຮົາລວບລວມພວກມັນເຂົ້າໄປໃນຫນຶ່ງຫຼືຫຼາຍໄຟລ໌ ZIP. ນີ້ແມ່ນຄຳຮ້ອງຂໍທີ່ຜ່ານມາຂອງເຈົ້າ:
 download-request-button = ດາວໂຫລດ
 download-request-title = { $created }
+download-request-description = { $clipCount } ຄຣິບສຽງ, ຂະຫນາດທັງຫມົດ { $size }. ຫມົດອາຍຸ { $expires }.
 download-request-archive-single = ໄຟລ໌ ZIP ດຽວປະກອບມີ
 download-request-archive-multiple = ແບ່ງອອກເປັນໄຟລ໌ ZIP { $archiveCount } ທີ່ມີ
 download-request-refresh-button = ຟື້ນຟູ
