@@ -575,10 +575,16 @@ about-playbook-how-add-sentences-content-4 = Togfjalëshat që janë vlerësuar,
 
 about-playbook-how-record-quality = Si të incizoj një copëz zanore me cilësi të lartë?
 about-playbook-how-record-content-1 = Flisni me zërin tuaj të zakonshëm! Mënyra se si flisni është ajo që mirëpritet këtu - e duam shqiptimin tuaj ashtu siç është dhe duam volumin, stilin dhe intonacionin tuaj të zakonshëm.
+about-playbook-how-record-content-2 = Shmangni zhurmë të tepërt në sfond - aq sa të jetë e lehtë të dëgjoheni.
+about-playbook-how-record-content-3 = Lexojeni togfjalëshin me kujdes - mos kapërceni, ndryshoni apo shtoni fjalë.
+about-playbook-how-record-content-4 = Sigurohuni se platforma është duke incizuar, përpara se të filloni të flisni dhe se resht vetëm pasi të keni mbaruar.
+about-playbook-how-record-content-5 = <accuracyLink>Shihni më tepër mbi kritere të përpikërisë.</accuracyLink>
 
 ## How to grow language
 
+about-playbook-how-grow-language = Si mund ta fuqizojmë vërtet një gjuhë në Common Voice?
 about-playbook-how-grow-language-content-2 = Veprimtari
+about-playbook-how-grow-language-content-3 = Mund të zhvilloni veprimtari për t’i ndihmuar njerëzit të kontribuojnë. Është më e kollajtë se sa mendoni. Mund t’i bëni në internet, me një mjet për videokonferenca, ose si takim klasik, nëse s’ka problem. <eventTemplate>Kontrolloni gjedhet dhe burim tona për zhvillim veprimtarish</eventTemplate>.
 about-playbook-how-grow-language-content-4 = Media shoqërore
 
 ## How to validate
