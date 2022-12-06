@@ -548,17 +548,25 @@ about-playbook-how-add-language-translating-content-2 =
     <githubRepoLink>kërkojeni gjuhën e re nën GitHub</githubRepoLink>. <localizationFragment>Shihni më tepër mbi përkthim sajti</localizationFragment>.
 about-playbook-how-add-language-collecting-sentences-heading = Mbledhje togfjalëshash
 about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>Shihni udhërrëfyesin tonë mbi përdorimin e Mbledhësit të Togfjalëshave</sentenceCollectorVideo>.
+about-playbook-how-add-language-collecting-sentences-content-2 =
+    Mund të <sentenceCollectorLinkAdd>shtoni sasi të vogla togfjalëshash</sentenceCollectorLinkAdd>,
+    ose mund të <bulkImportDocsLink>bëni importime në masë, duke përdorur Github-in</bulkImportDocsLink>.
+    Remember that sentences need to be <licenseLink>CC0 (or public domain)</licenseLink>, or you can write your own.
+about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>Shihni më tepër mbi grumbullim togfjalëshash</sentenceCollectorFragment>.
 
 ## How does localization work
 
 about-playbook-how-localize = Si funksionon puna e përkthimit të sajtit?
 about-playbook-how-localize-content-1 = Përkthimi i sajtit Common Voice zhvillohet në <strong>Pontoon</strong>.
+about-playbook-how-localize-content-2 = <pontoonAccountLink>Krijoni një llogari</pontoonAccountLink>, nëse s’keni të tillë. Mandej, zgjidhni gjuhën tuaj <strong>(‘Team’)</strong> dhe mandej zgjidhni projektin, <pontoonCvLink>Common Voice</pontoonCvLink>. Do të ketë kartela që duhen përkthyer. Klikoni mbi një të tillë, mandej ajo shfaq fjalët në anglisht dhe një kuadrat për t’i përkthyer.
+about-playbook-how-localize-content-3 = Përkthimi është nga anlishtja, por mund të shihni <strong>Sugjerime</strong> në gjuhë të tjera. Klikoni mbi ikonën <strong>Profil</strong>, mandej mbi lidhjen <strong>Rregullime</strong> dhe shtoni cilëndo gjuhë që flisni. Në cepin e poshtëm djathtas do të ketë një listë të përkthimeve, të quajtur <strong>Vendore</strong>. Përkthimet shfaqen në sajt një ditë më pas.
 about-playbook-how-localize-content-4 = Sajti është gati për t’u hedhur në qarkullim kur mbërrin plotësim 75%.
 about-playbook-how-localize-content-5 = Për ndihmë, shihni videon tonë shpjeguese
 
 ## How to add sentences
 
 about-playbook-how-add-sentences = Si të shtoj fraza?
+about-playbook-how-add-sentences-content-1 = <strong>Grumbulluesi i Togfjalëshave</strong> është një mjet për grumbullimin dhe vlerësimin e togfjalëshave nën përkatësi publike. Do t’ju <scAccountLink>duhet të krijoni një llogari</scAccountLink>. Mandej, shtoni gjuhën tuaj te <strong>Profili</strong> juaj.  Mund të <strong>Shtoni</strong> togfjalësha, ose të <strong>Shqyrtoni</strong> të tillë të shtuar më parë.
 
 ## How to record quality
 
