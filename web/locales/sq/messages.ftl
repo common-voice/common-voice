@@ -759,6 +759,9 @@ request-language-form-email =
     .label = Adresa juaj email
 request-language-form-info =
     .label = Hollësi mbi gjuhën
+request-language-form-info-explanation =
+    Shtoni sa më tepër hollësi që mundeni për gjuhën. Këtu
+    mund të përfshihen:
 request-language-form-info-explanation-list-1 = Emra të gjuhës suaj
 request-language-form-info-explanation-list-2 = <isoCodeLink>Kode ISO</isoCodeLink> nëse njihen
 request-language-form-info-explanation-list-3 = Lidhje te sajte që mund të na ndihmojnë të kuptojmë gjuhën
@@ -766,6 +769,13 @@ request-language-google-recaptcha-required = reCAPTCHA është e domosdoshme, n�
 request-language-google-recaptcha-error = Diç shkoi ters me reCAPTCHA-n. Ju lutemi, riprovoni.
 # Success page
 request-language-success-heading = Faleminderi! Dërguat një kërkesë për gjuhë të re
+request-language-success-list-1 =
+    Do të duhej të merrnit një email pas pak kohe, ku
+    shpjegohen hapat si ta shtoni gjuhën tuaj te Common Voice
+request-language-success-list-2 =
+    Përgjegjësi ynë i bashkësisë do të lidhet me ju për t’ju
+    ofruar asistencë ekstra dhe për t’ju bërë të ditur nëse
+    ka tashmë një bashkësi që punon për gjuhën tuaj
 
 ## Languages Overview
 
@@ -1435,6 +1445,7 @@ localization-select =
     .label = Zgjidhni gjuhë/përkthim
 # PARTNERSHIPS PAGE
 partnerships-header = Bashkëpunime
+partnerships-header-text = Duhet shumë djersë që të vijë Common Voice! Nuk e bëjmë vetëm. Doni të bashkëpunoni me ne? Do të donim fort t’ju dëgjonim.
 partnerships-get-in-touch = Lidhuni
 partnerships-become-a-partner = Bëhuni një Partner i Common Voice-it
 partnerships-community-header = Bashkësi, Krijues dhe Shoqëri Civile
