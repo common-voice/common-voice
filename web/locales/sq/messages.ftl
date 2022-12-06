@@ -586,15 +586,28 @@ about-playbook-how-grow-language = Si mund ta fuqizojmë vërtet një gjuhë në
 about-playbook-how-grow-language-content-2 = Veprimtari
 about-playbook-how-grow-language-content-3 = Mund të zhvilloni veprimtari për t’i ndihmuar njerëzit të kontribuojnë. Është më e kollajtë se sa mendoni. Mund t’i bëni në internet, me një mjet për videokonferenca, ose si takim klasik, nëse s’ka problem. <eventTemplate>Kontrolloni gjedhet dhe burim tona për zhvillim veprimtarish</eventTemplate>.
 about-playbook-how-grow-language-content-4 = Media shoqërore
+about-playbook-how-grow-language-content-5 = Mund të përdorni platforma mediash shoqërore për të përhapur fjalën. Ndani me të tjerët postime që shpjegojnë pse kjo punë ka rëndësi dhe lidhuni me persona të tjerë që flasin për çështje të tilla si të drejta gjuhësore, AI zërash, ose anësi në fushën e teknologjisë. Shihni më tepër këshilla mbi <campaignLink>zhvillimin e një fushate shoqërore, përfshi lëndë që mund ta ripërdorni</campaignLink>.
+about-playbook-how-grow-language-content-6 = Partneritete dhe rrjete
+about-playbook-how-grow-language-content-7 = Gjeni të tjerë që e kanë për zemër këtë punë. Mund të jenë universitete, shkolla gjuhësh, grupe veprimtarësh apo bashkësi shkencash që merren me të dhëna. Drejtojuni dhe shpjegoni qartë se si mund t’ju ndihmojnë dhe pse. <outreachTemplates>Shihni gjedhet tona email për të shtrirë përfshirjen</outreachTemplates>.
+about-playbook-how-grow-language-content-8 = <strong>Bëhuni krijues!</strong> Bashkësia e gjuhës tuaj do të jetë unike dhe këto janë thjesht vetëm pak rrugë si t’ia fillohet.
 
 ## How to validate
 
+about-playbook-how-validate = Nga ta di nëse ta miratoj apo jo një copëz zanore?
+about-playbook-how-validate-content-1 = Nëse mundeni <strong>t’i dëgjoni</strong> dhe <strong>kuptoni</strong>, zakonisht më e mira është <strong>t’i miratoni</strong>.
+about-playbook-how-validate-content-2 = <strong>Mos hidhni tej copëza ku folësi ‘ka theks’ që është ndryshe nga i juaji</strong> - kjo është e rëndësishme që të kuptuarit e zërave të funksionojë për gjithkënd.
+about-playbook-how-validate-content-3 = Nëse mendoni se shqiptimi e bën <strong>të pamundur të kuptohet</strong>, ose ka <strong>shumë zhurmë në sfond</strong>, ose se ka <strong>persona të tjerë që flasin ndërkohë</strong>, atëherë duhet ta hidhni poshtë copëzën. <accuracyLink>Shihni më tepër hollësi mbi kriteret tona të përpikërisë</accuracyLink>.
 
 ## How to access dataset
 
+about-playbook-how-access-dataset = Si mund ta kem dhe ta përdor grupin e të dhënave?
 
 ## How are decisions made
 
+about-playbook-how-project-governance = Si merren vendimet për projektin?
+about-playbook-how-project-governance-content-2 = Qeverisja jonë bazohet në shtyllat e:
+about-playbook-how-project-governance-content-3 = Privatësisë, sigurisë dhe transparencës.
+about-playbook-how-project-governance-content-4 = Pjesëmarrje dhe vendimmarrje në bashkësi.
 
 ## Glossary
 
