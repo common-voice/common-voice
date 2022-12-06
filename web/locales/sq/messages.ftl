@@ -859,6 +859,9 @@ listen-loading-error =
     Ju lutemi, riprovoni më vonë.
 speak-empty-state = Na u mbaruan frazat për incizim në këtë gjuhë…
 speak-empty-state-cta = Jepni ndihmesë me fraza
+speak-loading-error =
+    S’morëm dot ndonjë copëz audio që ta shqiptoni.
+    Ju lutemi, riprovoni më vonë.
 record-button-label = Incizoni zërin tuaj
 share-title-new = <bold>Ndihmonani</bold> të gjejmë më tepër zëra
 keep-track-profile = Ndiqni ecurinë tuaj përmes një profili
@@ -1183,6 +1186,7 @@ sc-home-review-text = Ndihmonani duke shqyrtuar se togfjalëshat janë në pajti
 
 ## GENERAL
 
+sc-languages-fetch-error = S’arritëm të sjellim gjuhët e mundshme. Aktualisht s’mund të jepet kotribut. Ju lutemi, riprovoni më vonë.
 
 ## HOW-TO
 
@@ -1193,6 +1197,9 @@ sc-howto-addsen-title = Shtoni togfjalësha të rinj
 sc-howto-addsen-item-1 = Krejt togfjalëshat që parashtroni duhet të jenë nën <wikipediaLink>licencë Përkatësie Publike (CC-0)</wikipediaLink>. SI mbështetje për përfshirjen e punëve jo nën licencë publike, kemi krijuar një <cc0WaiverLink>gjedhe Marrëveshjeje Kontributesh</cc0WaiverLink> për punë për të cilat zotëruesi i të drejtave të kopjimit do të donte ta kontribuonte materialin për projektin Common Voice.
 sc-howto-addsen-item-2 = Numra. S’duhet të ketë shifra te teksti burim, ngaqë mund të shkaktojnë probleme, kur lexohen me zë. Mënyra se si lexohet një numër varet nga konteksti dhe mund të sjellë ngatërresë te grupi i të dhënave. Për shembull, numri “2409” mund të lexohet edhe si “njëzetekatër zero nëntë”, edhe si “dymijë e katërqind e nëntë”.
 sc-howto-addsen-item-3 = Shkurtime dhe Akronime. Shkurtimet dhe akronimet, bie fjala, “USA” ose “ICE” duhen shmangur te teksti burim, ngaqë mund të lexohen në një mënyrë që nuk përputhet me shqiptimin e tyre. Përveç kësaj, mund të ketë disa lexime të sakta për një shkurtim të vetëm. Për shembull, akronimi “ICE” mund të shqiptohet “I-C-E”, ose si një fjalë e vetme.
+sc-howto-addsen-item-5 = Shkronja gjuhësh të huaja. Shkronjat duhet të jenë të vlefshme për gjuhën që po flitet. Për shembull, “ж” është një shkronjë në alfabetin rus, por s’përdoret kurrë në ndonjë tekst në anglisht.
+sc-howto-cite-title = Si të Citohet
+sc-howto-cite-pre-1 = Është e rëndësishme që të jepni referencë se ku e gjetët licencën publike, për të shmangur plagjiarismin dhe për të lejuar ndjekje në rast <copyrightIssuesLink>problemesh me të drejta kopjimi</copyrightIssuesLink>. Ja ndopak mënyra se si mund të citoni veprën.
 sc-howto-cite-item-1 = Mund të përfshinit sajtin, p.sh., “Common Voice - https://commonvoice.mozilla.org/”
 sc-howto-review-title = Shqyrtoni Togfjalësha
 sc-howto-review-subtitle = Sigurohuni se togfjalëshi plotëson kushtet vijuese:
