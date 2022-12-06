@@ -776,6 +776,13 @@ request-language-success-list-2 =
     Përgjegjësi ynë i bashkësisë do të lidhet me ju për t’ju
     ofruar asistencë ekstra dhe për t’ju bërë të ditur nëse
     ka tashmë një bashkësi që punon për gjuhën tuaj
+request-language-success-list-3 =
+    Po nuk patët lajm prej nesh për nja dy ditë,
+    lidhuni përmes <emailLink>{ $email }</emailLink>
+    dhe do t’ju përgjigjemi!
+request-language-error =
+    Mund të mos e kemi marrë atë kërkesë. Ju lutemi, na dërgoni email neve drejtpërsëdrejti
+    te <emailLink>{ $email }</emailLink> dhe do t’ju përgjigjemi!
 
 ## Languages Overview
 
@@ -847,6 +854,9 @@ listen-again-instruction = Punë e paqme!<playIcon></playIcon> Ridëgjojeni, kur
 listen-3rd-time-instruction = 2 më pak, vazhdoni kështu!<playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon>E fundit!
 listen-empty-state = Na u mbaruan copëzat për vleftësim në këtë gjuhë…
+listen-loading-error =
+    S’morëm dot ndonjë copëz audio që ta dëgjoni.
+    Ju lutemi, riprovoni më vonë.
 speak-empty-state = Na u mbaruan frazat për incizim në këtë gjuhë…
 speak-empty-state-cta = Jepni ndihmesë me fraza
 record-button-label = Incizoni zërin tuaj
