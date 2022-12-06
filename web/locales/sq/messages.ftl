@@ -608,6 +608,9 @@ about-playbook-how-project-governance = Si merren vendimet për projektin?
 about-playbook-how-project-governance-content-2 = Qeverisja jonë bazohet në shtyllat e:
 about-playbook-how-project-governance-content-3 = Privatësisë, sigurisë dhe transparencës.
 about-playbook-how-project-governance-content-4 = Pjesëmarrje dhe vendimmarrje në bashkësi.
+about-playbook-how-project-governance-content-5 = Vlerë dhe njohje.
+about-playbook-how-project-governance-content-6 = Përgjegjësi e dyanshme.
+about-playbook-how-project-governance-content-7 = <governanceLink>Lexoni më tepër se si drejtohemi</governanceLink>
 
 ## Glossary
 
@@ -664,6 +667,7 @@ review-delete-recordings = Fshiji incizimet e mia
 
 ## Datasets Page
 
+datasets-heading = Grupe të dhënash
 datasets-headline = Po krijojmë një grup të dhënash zanore me burim të hapur, shumëgjuhëshe, të cilin mund ta përdorë gjithkush për të stërvitur aplikacione që njohin të folurën.
 datasets-positioning =
     Besojmë se grupe të dhënash zanore të mëdha, të përdorshme publikisht do të nxisin risitë dhe konkurrencë të shëndetshme komerciale në fushën e teknologjisë së nxënies nga makinat me bazë të folurën.
@@ -672,6 +676,10 @@ datasets-positioning =
     
     Shiheni këtë faqe si  një referencë për grupe të tjera të dhënash zanore me burim të hapët dhe, teksa Common Voice vazhdon të fuqizohet,si një shtëpi për përditësime të hedhjeve tona në qarkullim.
 language = Gjuhë
+download-dataset-header = Shkarkoni Grupin e të Dhënave
+download-delta-explainer = Kemi bërë disa ndryshime. Segmentet Delta tani përmbajnë copëzat më të freskëta që nga hedhja e fundit në qarkullim. <deltaLink>Lexoni më tepër rreth kësaj pune</deltaLink>.
+download-dataset-tag = Përzgjidhni grupin e të dhënave për gjuhën e dëshiruar dhe zgjidhni versionin që doni të shkarkoni.
+download-dataset-access = Po shihni për hedhje të mëparshme në qarkullim grupesh të dhënash? Dërgoni një email te <emailLink> { $email } </emailLink>
 # File size in gigabytes
 size = Madhësi
 validated-hr-total = Orë të Vlerësuara Gjithsej
@@ -746,6 +754,7 @@ other-language = Gjuhë Tjetër
 
 ## Request Language Pages
 
+request-language-heading = Kërkoni një gjuhë të re
 request-language-form-email =
     .label = Adresa juaj email
 request-language-form-info =
