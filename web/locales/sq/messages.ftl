@@ -469,6 +469,9 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Ç’duhet Common Voice?
+about-header-description-v2 =
+    <p>Common Voice është një grup të dhënash zëri që mund të kihet publikisht, i ngritur nga zërat e kontribuesve vullnetarë nga anembanë bota. Njerëzit që duan të krijojnë aplikacione zër mund ta përdorin grupin e të dhënave për të stërvitur modele të nxëni nga makinat.</p>
+    <p>Deri sot, shumica e grupeve të të dhënave mbi zëra janë pronë shoqërish, çka e bën të ngecë novacionin. Grupet e të dhënave të zërit përfaqësojnë dobët: folës jo të anglishtes, persona me ngjyrë, persona me aftësi të kufizuara, gra dhe persona LGBTQIA+. Kjo do të thotë se teknologji të bazuara në zërin s’funksionojnë fare për mjaft gjuhë dhe atje ku funksionojnë, mund të mos kenë të njëjtin sukses për gjithkënd. Duam ta ndryshojmë këtë, duke mobilizuar njerëz kudo të japin zërin e tyre.</p>
 how-does-it-work-title-v2 = Si funksionon Common Voice work?
 how-does-it-work-text = Po krijojmë, me ndihmën e publikut, një grup të dhënash zanore me burim të hapur. Dhuroni zërin tuaj, vlerësoni përpikërinë e copëzave të incizuara nga persona të tjerë, bëjeni grupin e të dhënave më të mirë për këdo.
 
@@ -479,6 +482,7 @@ about-localization-title = Përkthim Sajti
 about-localization-subtitle = Teksti i sajtit është përkthyer në atë gjuhë.
 about-sentence-collection-title = \Grumbullim Frazash
 about-sentence-collection-subtitle = Grumbullohen fraza që të lexohen nga njerëz.
+about-new-lang-title = Hedhje Në Qarkullim Gjuhësh të Reja
 about-new-lang-subtitle = E japin sajtin Common Voice në këtë gjuhë.
 about-voice-contrib-title = Kontributi Zërash
 about-voice-contrib-subtitle = Njerëzit vijnë dhe kontribuojnë me zërat e tyre.
@@ -511,6 +515,8 @@ about-get-involved-text-2 =
     ose merrni pjesë te biseda të bashkësisë, te <matrixLink>Matrix</matrixLink>.
 about-stay-in-touch = Si të mbaj lidhjet?
 about-stay-in-touch-button = Regjistrohuni
+about-stay-in-touch-text-1 = <emailFragment>Regjistrohuni</emailFragment> te lista jonë e postimeve, që të mësoni se si të merrni pjesë në fushata, veprimtari dhe bashkëhartim veçorish për Common Voice.
+about-stay-in-touch-text-2 = Mund të njiheni me të tjerë në bashkësitë gjuhësore të Mozilla-s, duke marrë pjesë te <discourseLink>Discourse</discourseLink> për biseda lidhur me subjekte të dhëna, ose në <matrixLink>Matrix</matrixLink> për këshilla të shpejta.
 about-nav-why-common-voice = Pse?
 about-nav-how-it-works = Si?
 about-nav-partners = Partnerë
@@ -522,6 +528,9 @@ about-nav-playbook = Mësoni si të merrni pjesë
 ## What is a language
 
 about-playbook-what-is-language = Ç’është një gjuhë në Common Voice?
+about-playbook-what-is-language-content-1 = Ka plot rrugë për të menduar rreth gjuhës. Lidhur me modele kuptimi të foluri, Common Voice sugjeron përqendrimin në “mutual intelligibility”, ose “a munden folësit e kësaj gjuhe të kuptojnë kryesisht njëri-tjetrin, nëse provojnë ta bëjnë këtë”?
+about-playbook-what-is-language-content-2 = Duam që modelet e të folurit të jenë më të mirë në të kuptuarit e një game të larmishme folësish. Që të ndodhë kjo, një grup të dhënash zëri duhet të përfaqësojë mjaft persona të ndryshëm.
+about-playbook-what-is-language-content-3 = Disa gjuhë kanë variacion shumë të madh në gramatikë, fjalor dhe shqiptim. Për këtë arsye, në 2022 po <ctaLink>sjellim “Variante”</ctaLink>. Kjo u jep bashkësive një mënyrë për të shquar gjuhët e tyre brenda një grupi më të madh të dhënash.
 
 ## How do I add a language
 
