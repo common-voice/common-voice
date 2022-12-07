@@ -963,8 +963,11 @@ goal-interval-weekly = Hewte de
 share-goal-type-speak = Qiseykerdiş
 share-goal-type-listen = Goşdarkerdiş
 share-goal-type-both = Qiseykerdiş û Goşdarkerdiş
+# LINK will be replaced with the current URL
+goal-share-text = Ez #CommonVoice ser o vengê xo bexişnena, coka mi xo rê hedefo taybetî viraşt -- Ti kî beşdar be û makîneyan rê bimusne ka însanê raştikênî senî qisey kenê { $link }
 weekly-goal-created = Hedefê to yê hewteyî virazîya
 daily-goal-created = Hedefê to yo rojane virazîya
+return-to-edit-goal = Key ke ti wazenî/a hedefê xo sereraşt bikerê, agêre tîya.
 share-goal = Hedefê mi pare bike
 
 ## Profile Delete
