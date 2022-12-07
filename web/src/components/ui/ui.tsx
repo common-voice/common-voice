@@ -2,7 +2,6 @@ import { Localized } from '@fluent/react';
 import * as React from 'react';
 import { HTMLProps, useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
-import { Tooltip } from 'react-tippy';
 import cx from 'classnames';
 import { LocaleLink } from '../locale-helpers';
 import { CheckIcon } from './icons';
@@ -73,21 +72,10 @@ Checkbox.displayName = 'Checkbox';
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 export const LabeledCheckbox = React.forwardRef((allProps: any, ref) => {
-  const {
-    label,
-    required,
-    style,
-    shouldShowTooltip,
-    isTooltipOpen,
-    tooltipTitle,
-    ...props
-  } = allProps;
+  const { label, required, style, ...props } = allProps;
 
   return (
     <label className="labeled-checkbox" style={style}>
-      {shouldShowTooltip && (
-        <Tooltip arrow open={isTooltipOpen} title={tooltipTitle} />
-      )}
       <Checkbox
         ref={ref}
         aria-required={required}

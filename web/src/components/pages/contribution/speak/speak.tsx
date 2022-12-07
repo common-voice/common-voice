@@ -486,15 +486,6 @@ class SpeakPage extends React.Component<Props, State> {
       },
     ]);
 
-    const hasSeenFirstCTA = window.sessionStorage.getItem(SEEN_FIRST_CTA);
-
-    // display first CTA screen if it has not been seen it before
-    // and the user does not have an account
-    if (hasSeenFirstCTA !== 'true' && !user.account) {
-      this.setState({ shouldShowFirstCTA: true });
-      window.sessionStorage.setItem(SEEN_FIRST_CTA, 'true');
-    }
-
     return true;
   };
 
@@ -510,7 +501,6 @@ class SpeakPage extends React.Component<Props, State> {
 
   private onPrivacyAgreedChange = (privacyAgreed: boolean) => {
     this.setState({ privacyAgreedChecked: privacyAgreed });
-    this.props.updateUser({ privacyAgreed });
   };
 
   private toggleDiscardModal = () => {
@@ -526,8 +516,10 @@ class SpeakPage extends React.Component<Props, State> {
     const hasSeenFirstCTA = window.sessionStorage.getItem(SEEN_FIRST_CTA);
     const hasSeenSecondCTA = window.sessionStorage.getItem(SEEN_SECOND_CTA);
 
+    this.props.updateUser({ privacyAgreed: this.state.privacyAgreedChecked });
+
     evt.preventDefault();
-    this.upload();
+    this.upload(this.state.privacyAgreedChecked);
 
     // display first CTA screen if it has not been seen it before
     // and the user does not have an account
