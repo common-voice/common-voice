@@ -17,5 +17,6 @@ export * from './send-language-request';
 export * from './sentences';
 export * from './datasets';
 export * from './statistics';
+export * from './random-clips-count';
 
 export default validate;
