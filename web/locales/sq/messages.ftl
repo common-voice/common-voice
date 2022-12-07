@@ -1197,15 +1197,22 @@ sc-howto-addsen-title = Shtoni togfjalësha të rinj
 sc-howto-addsen-item-1 = Krejt togfjalëshat që parashtroni duhet të jenë nën <wikipediaLink>licencë Përkatësie Publike (CC-0)</wikipediaLink>. SI mbështetje për përfshirjen e punëve jo nën licencë publike, kemi krijuar një <cc0WaiverLink>gjedhe Marrëveshjeje Kontributesh</cc0WaiverLink> për punë për të cilat zotëruesi i të drejtave të kopjimit do të donte ta kontribuonte materialin për projektin Common Voice.
 sc-howto-addsen-item-2 = Numra. S’duhet të ketë shifra te teksti burim, ngaqë mund të shkaktojnë probleme, kur lexohen me zë. Mënyra se si lexohet një numër varet nga konteksti dhe mund të sjellë ngatërresë te grupi i të dhënave. Për shembull, numri “2409” mund të lexohet edhe si “njëzetekatër zero nëntë”, edhe si “dymijë e katërqind e nëntë”.
 sc-howto-addsen-item-3 = Shkurtime dhe Akronime. Shkurtimet dhe akronimet, bie fjala, “USA” ose “ICE” duhen shmangur te teksti burim, ngaqë mund të lexohen në një mënyrë që nuk përputhet me shqiptimin e tyre. Përveç kësaj, mund të ketë disa lexime të sakta për një shkurtim të vetëm. Për shembull, akronimi “ICE” mund të shqiptohet “I-C-E”, ose si një fjalë e vetme.
+sc-howto-addsen-item-4 = Pikësimi. Shenjat speciale dhe të pikësimit duhen përfshirë vetëm kur është absolutisht e nevojshme. Për shembull, një apostrof që përfshihet në fjalë anglisht si “don’t” dhe “we’re” dhe duhet përfshirë te teksti burim, po ka pak gjasa që t’ju duhet ndonjëherë një simbol special si “@” ose “#.”
 sc-howto-addsen-item-5 = Shkronja gjuhësh të huaja. Shkronjat duhet të jenë të vlefshme për gjuhën që po flitet. Për shembull, “ж” është një shkronjë në alfabetin rus, por s’përdoret kurrë në ndonjë tekst në anglisht.
+sc-howto-addsen-item-6 = Gjuhët mund të kenë <validationRulesLink>rregullat e veta të vlerësimit</validationRulesLink> me kërkesa shtesë. Nëse s’ka një kartelë specifike vlerësimi për një gjuhë, ne përdorim rregullat elementare të anglishtes.
+sc-howto-addsen-post-1 = Parapëlqejmë togfjalësha të natyrshëm/bisedorë. Teksa larmia poetike dhe fjalët e ndryshme në togfjalësha janë të rëndësishëm, po përpiqemi ta bëjmë incizimin e togfjalëshave sa më zbavitës që të jetë e mundur. Ndaj do të ishte mirë t’i mbanit togfjalëshat tuaj, sa më natyrorë/tërheqës që të jetë e mundur.
 sc-howto-cite-title = Si të Citohet
 sc-howto-cite-pre-1 = Është e rëndësishme që të jepni referencë se ku e gjetët licencën publike, për të shmangur plagjiarismin dhe për të lejuar ndjekje në rast <copyrightIssuesLink>problemesh me të drejta kopjimi</copyrightIssuesLink>. Ja ndopak mënyra se si mund të citoni veprën.
 sc-howto-cite-item-1 = Mund të përfshinit sajtin, p.sh., “Common Voice - https://commonvoice.mozilla.org/”
+sc-howto-cite-item-2 = Mund të përdorni stil akademik referencash, p.sh., stilin e Harvardit "Mozilla (2021) Common Voice. Available at https://commonvoice.mozilla.org/ (Accessed: 15th September 2021)"
+sc-howto-cite-item-3 = Për tekst nën përkatësi publike, por që s’gjendet në internet, mund të përdorni stil akademik referencash, p.sh., në stil Harvardi, “Jess (2021) My Public licence poems”
 sc-howto-review-title = Shqyrtoni Togfjalësha
 sc-howto-review-subtitle = Sigurohuni se togfjalëshi plotëson kushtet vijuese:
 sc-howto-review-criteria-1 = Togfjalëshi duhet shkruar si duhet.
 sc-howto-review-criteria-2 = Togfjalëshi duhet të jetë i saktë gramatikisht.
 sc-howto-review-criteria-3 = Togfjalëshi duhet të jetë i shqiptueshëm.
+sc-howto-review-criteria-4 = Nëse togfjalëshi i plotëson kriteret, klikoni mbi butonin “Aprovojeni”
+sc-howto-review-criteria-5 = Nëse togfjalëshi nuk pajtohet me kriteret më sipër, klikoni mbi butonin “Hidhe poshtë”. Nëse jeni i pasigurt për togfjalëshin, mundeni edhe ta anashkaloni dhe të vazhdoni me pasuesin.
 sc-howto-review-criteria-6 = Nëse ju mbarohen togfjalëshat për shqyrtim, ju lutemi, ndihmonani të grumbullojmë më tepër fjali!
 sc-howto-findpd-title = Gjetje togfjalëshash  ekzistues nën Përkatësi Publike
 sc-howto-findpd-subtitle = Kërkoni për ta në Internet
@@ -1246,6 +1253,7 @@ sc-rejected-none-found = S’u gjetën togfjalësha të hedhur poshtë!
 
 sc-stats-title = Statistika
 sc-stats-updating = Po përditësohet…
+sc-stats-error = Nuk sollëm dot statistikat. Ju lutemi, riprovoni më vonë.
 # Variables:
 #   $sentenceCount (Number) - Total number of sentences uploaded through Sentence Collector
 #   $languageCount (Number) - Total number of languages these sentences represent
@@ -1429,6 +1437,13 @@ sc-review-form-source = Burim: { $sentenceSource }
 sc-review-form-button-reject = Hidhe poshtë
 sc-review-form-button-skip = Anashkaloje
 sc-review-form-button-approve = Miratoje
+# Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
+sc-review-form-button-approve-shortcut = P
+# Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
+sc-review-form-button-reject-shortcut = J
+# Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
+sc-review-form-button-skip-shortcut = K
+sc-review-form-keyboard-usage-custom = Mund të përdorni edhe Shkurtore Tastiere: { sc-review-form-button-approve-shortcut } për Miratim, { sc-review-form-button-reject-shortcut } për Hedhje poshtë, { sc-review-form-button-skip-shortcut } për Anashkalim
 sc-review-form-button-submit =
     .submitText = Përfundojeni Shqyrtimin
 # Variables:
@@ -1466,6 +1481,7 @@ partnerships-header-text = Duhet shumë djersë që të vijë Common Voice! Nuk 
 partnerships-get-in-touch = Lidhuni
 partnerships-become-a-partner = Bëhuni një Partner i Common Voice-it
 partnerships-community-header = Bashkësi, Krijues dhe Shoqëri Civile
+partnerships-community-description = Zemra e Common Voice-it është bashkësia - anëtarët e saj vijnë nga anembanë bota dhe janë veprimtarë gjuhësorë, shkencëtarë dhe artistë. Mund të mësoni më tepër rreth se si të përfshiheni, te faqja jonë <about>Mbi</about> dhe pjesa <community>Community playbook</community>. Nëse interesoheni për bashkëpunim më të thellë si ent, <emailFragment>lidhuni me ne.</emailFragment>
 partnerships-foundations-header = Fondacione
 partnerships-governments-header = Qeveri
 partnerships-academia-header = Universitete, Akaademikë dhe Kërkues
