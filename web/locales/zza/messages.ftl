@@ -960,6 +960,10 @@ n-clips-pluralized =
 help-share-goal = Dest bide ma ke hîna zaf vengan bivînîme, hedefê xo pare bike
 confirm-goal = Hedefî tesdîq bike
 goal-interval-weekly = Hewte de
+# $type is one of share-goal-type-*
+share-n-daily-contribution-goal = Hedefê xo yo rojane seba { $type } pare bike: { $count } qeydê vengî.
+# $type is one of share-goal-type-*
+share-n-weekly-contribution-goal = Hedefê xo yê hewteyî seba { $type } pare bike: { $count } qeydê vengî.
 share-goal-type-speak = Qiseykerdiş
 share-goal-type-listen = Goşdarkerdiş
 share-goal-type-both = Qiseykerdiş û Goşdarkerdiş
@@ -967,6 +971,7 @@ share-goal-type-both = Qiseykerdiş û Goşdarkerdiş
 goal-share-text = Ez #CommonVoice ser o vengê xo bexişnena, coka mi xo rê hedefo taybetî viraşt -- Ti kî beşdar be û makîneyan rê bimusne ka însanê raştikênî senî qisey kenê { $link }
 weekly-goal-created = Hedefê to yê hewteyî virazîya
 daily-goal-created = Hedefê to yo rojane virazîya
+track-progress = Tîya, rîpelê xo yê statîstîkî de averşîyayîşê xo taqîb bike.
 return-to-edit-goal = Key ke ti wazenî/a hedefê xo sereraşt bikerê, agêre tîya.
 share-goal = Hedefê mi pare bike
 
@@ -999,6 +1004,7 @@ download-request-button = Bîyare war
 download-request-title = { $created }
 download-request-description = { $clipCount } qeydê vengî, girsîya arşîvî ya kome { $size }. Heta { $expires } maneno.
 download-request-archive-single = Yew dosyaya ZIPî. Tedeyî:
+download-request-archive-multiple = Lete bike bi { $archiveCount } dosyayanê ZIP. Tedeyî:
 download-request-assembling-description = Dayeyê to nawo arê benê. Keremê xo ra badê cû kontrol bike.
 download-request-refresh-button = Newe bike
 download-request-modal-title = Lînkê Warardişî
@@ -1009,6 +1015,8 @@ download-request-metadata-link = Metnê cumle
 ## Landing
 
 welcome-staff = Şima xeyrî ameyî ekîpa { $company }!
+login-company = Bi e-maîlê { $company } dekewe/qeyd bibe
+profile-not-required = Seba beşdarbîyayîşî hewce nîyo ke ti profîlêk virazê, labelê tayê feydeyê ci est ê, cêr ra biewnî.
 read-more-about = Rîpelê ma yê "Derheq de" ser o hîna zaf biwane
 
 ## DemoLayout
@@ -1027,6 +1035,8 @@ demo-account = Hesab
 
 ## Demo Account
 
+demo-account-card-header = Seba beşdarbîyayîşî hewce nîyo ke ti hesabêk virazê, labelê tayê feydeyê ci est ê.
+demo-account-sign-up = Lînkê qeydbîyayîşî birusne
 
 ## Demo Contribute
 
@@ -1232,9 +1242,12 @@ sc-add-err-failed =
        *[other] { $sentences } cumleyî bar nêbîyî.
     }
 sc-add-err-submission = Xetaya Rusnayîşî
+sc-add-lang-process-notice = Eke ziwanê ti tîya rêz nêbîyo, ti eşkenî/a pê <languageProcessLink>nê prosesî</languageProcessLink> ziwanê xo biwazê.
 
 ## ADD SENTENCES CONFIRMATION
 
+sc-confirm-are-you-sure =
+    .message = Cumleyî nêameyî rusnayene. Ti raşta wazenî/a vejîyê?
 sc-confirm-sentences-title = Cumleyanê Neweyan Tesdîq Bike
 # Variables:
 #   $countOfSentences (Number) - Number of sentences the user has filled in the submission form
