@@ -9904,6 +9904,7 @@ Dungeons and Dragons is a splendid game.
 Dunham, can your boy go along with Jesse.
 During December it snows in Shimla.
 During a game, Bradley's eyes are always a glaze of panoptic attention.
+During all this time great care was taken of the twins.
 During all those years, Whitman couldn't decide what to reply.
 During her annual festival, her grove shone with a multitude of torches.
 During his illness his wife had spoilt him a little.
@@ -13960,6 +13961,7 @@ He replaced the sheet and gazed about the room.
 He replied with a long letter of the most tender warning.
 He replied with the high-shouldered bow.
 He replied, and was again silent.
+He reports that the father always appeared very thoughtful and gloomy.
 He represents it as never either recruited or exhausted.
 He resented being wakened.
 He resented bitterly the authority of the officers.
@@ -22988,6 +22990,7 @@ If a mass vehicle flaw is identified, a mandatory recall may be needed.
 If a person can't do a thing for first five years.
 If a quarrel took place, the whole play was spoilt.
 If a space ship fuel is depleted, does that mean they are stranded?
+If a twin bathed in a lake or stream, it would rain.
 If all citizens do their role of putting votes to the right person.
 If any questions should arise you may contact us using the below information:
 If anyone says that picture is a copy I'll break his head!
@@ -23004,6 +23007,7 @@ If he has, I must have been a baby.
 If he intends to kill the person outright, he burns or buries the puppet.
 If he means anything, it must be to please you.
 If he means this ironically, it may be truer than he thinks.
+If he says he feels quite well, they know it will not rain.
 If he sinned, she tortured him.
 If he takes me anywhere, I must go.
 If he understands horses and can groom tolerably, he despises gardening.
@@ -23114,6 +23118,7 @@ If they do, they go out extremely quickly, sir.
 If they don't stop, why should I?
 If they had known it, would they have saved her?
 If they had only realized!
+If they meet a man, they maul him and thrust him aside.
 If they show pluck and gumption they get promoted.
 If they thought they could get the information in Paris they would try there.
 If they want fresh.
@@ -23602,6 +23607,7 @@ In some countries, parsnips aren't commonly eaten.
 In some hysterical subjects there are so-called erogenous zones.
 In some of the backwaters are fine pike.
 In some of the midland counties, anything large is called a bumper.
+In some parts of Peru this period of fasting and abstinence lasted six months.
 In some parts of northwest New Guinea a woman with child may not plant.
 In some places, American football is snarkily called hand-egg.
 In some places, the tanning process is slightly modified.
@@ -28047,6 +28053,7 @@ Many of the rabbis are of opinion that Adam was created androgynous.
 Many of the shouts were unintelligible.
 Many of the shrines at the corners of the streets had been bricked up.
 Many of the strata below it have skirted out at the surface
+Many of them said that twins were grizzly bears in human form.
 Many other similar disconcerting omissions will be noticed in the Manuscript.
 Many others, including Maharashtra, Kerala and Delhi, are staring at impending blackouts.
 Many parents find pushchairs very convenient
@@ -28783,6 +28790,7 @@ Mr. Manson threatens a long screed of poetry on the subject.
 Mr. Miller was startled.
 Mr. Murphy was slowly being roused.
 Mr. Odgen, not appreciated and evidently uncomfortable, would not sing a second turn.
+Mr. Ogden arose in the midst of the despondent and inflammatory speakers.
 Mr. Pappleworth came at twenty minutes to three.
 Mr. Pappleworth was very close to him.
 Mr. Pickwick addressed the stranger.
@@ -28926,6 +28934,7 @@ Mrs. Holmes dispensed tea and gnomic wisdom.
 Mrs. Houghton was gone, but I went right on myself.
 Mrs. Hunt's tone grew tragic.
 Mrs. Hussain's voice was heard in shrill protest.
+Mrs. Jordan walks beside a go-cart, absorbed in the study of her part.
 Mrs. Kirk had Annie and William for dinner.
 Mrs. Leo Hunter looked round her in triumph.
 Mrs. Linton bent forward, and listened breathlessly.
@@ -29766,6 +29775,7 @@ No lurking horrors were to upbraid him for his easy credulity.
 No machine is an island.
 No man ate of the seal meat or the oil.
 No man is an island.
+No man may see these leaf-clad women going their rounds.
 No man rode more sportingly to hounds.
 No man with a trap who would go over?
 No man’s nerve could stand more than a day of being spied on.
@@ -38665,6 +38675,7 @@ The cholesterol count in this case was one hundred forty-seven, which is low.
 The choreographer wasn't happy with the result.
 The chrysanthemum is very hardy when planted in the ground.
 The church clock pealed out two before I had done.
+The church forbade any Indian to bear the name of Santiago.
 The church was used as the coal depot for the castle.
 The churches are coming together to provide disaster relief.
 The cigarette fell from his mouth almost singeing his throat.
@@ -39782,6 +39793,7 @@ The graphics designer presented several versions of the logo.
 The grass is greener where you water it.
 The gratings are also half covered when it blows hard.
 The grave of Apollo himself was shown at his other great sanctuary of Delphi.
+The grave of a twin ought always be moist.
 The grave of two maidens was shown under an olive tree.
 The graver possibilities of war did not intrude themselves upon their minds.
 The gray eyes faltered; the flush deepened.
@@ -41112,6 +41124,7 @@ The parameters are decoded on the server side.
 The paraphernalia of justice were sadly lacking.
 The parcel had sailed out of sight.
 The parent gives but the beginnings of life.
+The parents of twins had to fast for many days after the birth.
 The park is in the Mamma's Gram-Retrace.
 The park is part of the east of the Fire, the River.
 The park was built in the sixteenth century.
@@ -45086,6 +45099,7 @@ They had frittered down delicacy into frivolousness.
 They had glimpses of their own constellation, Orion, towards the west.
 They had grown very intimate unawares.
 They had had a fire, but it was nearly out.
+They had heard a phrase used by Spanish children when it thunders.
 They had heard of Paris.
 They had long legs and fierce eyes and sharp teeth.
 They had long wished to see him.
@@ -45306,6 +45320,7 @@ They present their hearty respects to you for the goodies.
 They pretend to be medics, but in reality they are simply ambulance chasers.
 They pricked the hearts of the images and inserted magical powders in the punctures.
 They probably miscalculated the effects of the public success.
+They produce rain by spilling water from a basket in the air.
 They produced an effect superior to that of the best executed pot wheels.
 They professed to be Marxists.
 They protrude nearly at right angles from the head
@@ -45608,6 +45623,7 @@ They were not welcomed home very cordially by their mother.
 They were on the crest of a hill.
 They were on the great journey to Geneva.
 They were on tiptoe of excitement.
+They were ordered to fast for ten days in the usual manner.
 They were overpowered afresh by his uncommon generosity.
 They were painted white and wore nothing but a short petticoat.
 They were planning to get married in June.
@@ -45680,6 +45696,7 @@ They will lift him.
 They will lose their hold of their children.
 They will never be distressed for money.
 They will never climb over the railing.
+They will not be allowed to eat the flesh of apes.
 They will not eat the flesh of the sluggish hog-sucker.
 They will not leave the state without a car
 They will only fall to other masters.
@@ -46207,6 +46224,7 @@ This is strong language, William.
 This is such an unromantic affliction.
 This is sufficiently proved by the circulation which it has obtained.
 This is supposed to be the age of enlightenment.
+This is supposed to be the only means of bringing down the rain.
 This is supposed to make the spearhead stick fast in the dugong or turtle.
 This is the Gross National Product.
 This is the There’s-always-a-bigger-fish principle.
@@ -47283,6 +47301,8 @@ Twice he brought in his walking-stick.
 Twice the town has been disgraced by mobs on their account.
 Twice they rejected Mariam — the Boss.
 Twilight makes you feel sad.
+Twins are supposed to be able to tell the weather.
+Twins were believed to be endowed with powers over the elements.
 Twitter users can be extraordinarily sexist
 Two batsmen are always on a ground from a team.
 Two beauty spots on my left cheek contrast with my blue eyes.
@@ -50927,6 +50947,7 @@ While the boys were reading, she went into the garden.
 While the men are returning from camp, they scratch their heads
 While the pressure on Whitehaven is building, its banks haven’t parted ways yet.
 While their mother was searching the house, the kittens had got into mischief.
+While they were being washed, the father described circles around them with fir-boughs.
 While they were drinking their coffee Harry joined them.
 While they were thus occupied, our jailor re-entered.
 While we were there a young man came in.

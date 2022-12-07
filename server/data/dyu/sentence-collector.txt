@@ -642,6 +642,8 @@ A nisondiyalen don ko dɔgɔtɔrɔw sɔnna ka cidenyabaara dabila.
 A nisondiyalen don ko kɛnɛyako ɲɛmɔgɔw sɔnna ka cidenyabaara in dabila.
 A nisɔndiyalen don k’a fɛ ka ɲɛnajɛ kɛrɛnkɛrɛnnen dɔ labɛn a kanubagaw ye.
 A somɔgɔw bɛ na sini.
+A soungo ka gwele
+A soungo man gwele
 A sɔngɔ man gɛlɛn kosɛbɛ.
 A sɔnna min fɔra masalabolo kɔnɔ ma wa?
 A terikɛ dɔ ka maana min ye a terikɛ cɛ kisi Dori dugu kɔnɔ.
@@ -664,6 +666,8 @@ A ye sɛgɛnbagatɔ ye.
 A ye teriyakɛla ye.
 A ye tiɲɛ fɔ.
 A ye wele bila fédéral gofɛrɛnaman ma, a ka fɛn dɔw sɛmɛntiya.
+A yi dileki ani samara di n ma
+A yi fini di a ma
 A yɔrɔ ka jan kojugu.
 A yɔrɔ ka jan yan.
 A y’a jira fana ko mɔgɔ si ma jogin nin ko in na.
@@ -719,6 +723,7 @@ Ali ye binkanni kɛ banki dɔ kan.
 Ali ye min ye kɛlɛ kɛ sugu la, o kɔrɔkɛ ye.
 Aly de ye taabolo ɲuman dafa ka ɲɛsin laadalakow ni kanko yiriwali ma.
 Amade ye Aya n'a muso mafiɲɛya.
+Ambasadɛrɛ dɔ bananen don kosɛbɛ.
 Ambasadɛrɛ dɔ ye bana jugu in sɔrɔ.
 Ameriki bɛ jɛɲɔgɔnya sabati ni Burukina ye.
 Ameriki b’a fɛ ka na ni Isidore ye so.
@@ -1005,6 +1010,7 @@ Bako ka nsiirin ye ko tiɲɛ na, ɲɔgɔndan dɔ Kɛra Tao ni Dao cɛ
 Bakurubafɔ:
 Bakɔrɔn bɛna segin a ka dɔnkili kan n’a sera sangaso la
 Bakɔrɔn taamana ne kun kan, ne nugu tun bɛ sagakulu kɔnɔ.
+Balimakɛ Oedraogo ye yafa kɛ.
 Balimakɛ Ouédraogo ye yafa ɲini.
 Balimakɛ b’a muso n’a somɔgɔw ladon cogo min na, o tɛ bɛn.
 Balimakɛ dɔ fagara jamakulu dɔ fɛ sabu a ɲɛw tun sirilen don.
@@ -1089,6 +1095,7 @@ Barokuntigi walima kalanden dɔ bi masalabolo bɛɛ kalan ka ɲɛ.
 Barokuntigi walima kalanden min bi se kalan na ka ɲɛ, bi kalan laban kɛ.
 Barokuntigiw bi se k'o dafa.
 Barokuntigiw ka baarakɛtaw ye:
+Basikɛti bracket seginna ka na.
 Basikɛti ntolatantɔn ŋana seginna ka na kɛnɛ kan.
 Bassano gofɛrɛnaman ye dɔrɔmɛ kɛ ka tɔnɔ sara an ka juru la
 Bato bɛ cogo di Sitanɛ ka Egilisi kɔnɔ?
@@ -1175,6 +1182,7 @@ Bose tun bɛ ka a ba ka finiw ko
 Bose tun bɛ tobili kɛ a baarakɛɲɔgɔnw ye a wolodon na.
 Bosede y'a sen don Olá ni Bimpé ka kɛlɛ la.
 Boukary ye hakilimaya dɔnkilidala ye.
+Boukary ye mɔgɔ ye min bɛ hakili ta fan fɛ.
 Brilikla nisɔndiyara bawo a tun b’a miiri ko a bɛna sa.
 Burkina Orthodoxe Egilisi Episkɔpu bɔra diɲɛ kɔnɔ.
 Burkina bɛ se ka kisi wa?
@@ -1219,6 +1227,7 @@ Cidenyabaara wɛrɛ bɛna daminɛ sɔɔni.
 Cissé tɔgɔ bɔra Ameriki jamana na.
 City kanubaga dɔw ka telefɔni nimɔrɔw bɔnɛna u la
 Compaoré ye muso kɔrɔba in ka buteli kari.
+Couliba ye kalan ban, a donna gɛlɛya dɔ la.
 Coulibaly kalanden min ye kalan kɛ ka ban, a donna inivɛrisite la.
 Coulibaly labɛnnen don ka Burukina mara.
 Coulibaly seginna ka bɔ Bobo Iniwɛrisite la.
@@ -1487,6 +1496,7 @@ Dorikaw ye ci bila Djibo walasa k’a ka layidu tiimɛ.
 Dorikaw y’a ye ko Dao y’a bolow ni a senw tigɛ.
 Dotun ko ale bɛna a ka wolodon fini don sini
 Dotun muso kɔnɔ ta dɔrɔn, a taara dɔgɔtɔrɔso la
+Doumbiya bɛ baara caman Changé.
 Dr President De Bama ye an ka peresidan barikama dɔ ye.
 Dugu dugutigi taara kaso la.
 Dugu dɔw bɛ jamana kɔkan, olu ye baara daminɛ kalanden kuraw kan.
@@ -1968,7 +1978,10 @@ Hɔrɔnya ni ɲɛtaga ɲinina u yɛrɛ ye
 Hɛrɛ ɲɔgɔnye dɔ Kɛra Dao ni Tao cɛ.
 I Jaabi minw bi se ka sɔrɔ:
 I Misali
+I Moussodô
 I b'a fɔ cogo di Dioula?
+I ba ke kôm i bisse ka mi ke
+I ba sân djoli?
 I balimakɛ taara Tenkodogo wa?
 I bangebagaw bɛ mun kɛ baara kama?
 I be ka mun kɛ?
@@ -2038,10 +2051,12 @@ I tɔgɔ sɛbɛnni bɛ kɛ ɛntɛrinɛti kan walasa ka kɛ polisi ye.
 I tɛgɛ degunnen don wa?
 I wulila waati jumɛn?
 I y'a bila min?
+I ya ke i tumise ka minke
 I ye makɔnɔni kɛ kabini waati jan wa?
 I ye mun kɛ kunun su fɛ?
 I ye mun kɛ kunun?
 I ye san joli ye?
+I yi teri mousso ye wa
 I y’a kalan min?
 Ibukun ye sigida gofɛrɛnaman mɔgɔw lasɔmi Lagelu ko u ka kan ka balo
 Ifa y'a ka lasɔmini di Dorikaw ma sanni u ka se.
@@ -2253,6 +2268,7 @@ Ka bolomala o daɲɛ nunu kan ka kumasenw labɛn ka tila masalabolow
 Ka cɛdenw hakili yɛlɛ u ka se ka musodenw bonya.
 Ka daɲɛ kalanta sɛbɛn aɲɔgɔnna jukɔrɔ, min bi kalansen ka kumasen kɔnɔ.
 Ka denbaya mɔgɔw niin don sigiyɔrɔ n'a lamini sariyasun siraw tagamali la
+Ka dougou niou mân gouin
 Ka dugukolo nagasili jɛnkulu sigi ;
 Ka dugukolo ni nɛɛmayacogo ka ɲɔgɔndafa ɲɛfɔ; ka kunnafoniɲumanw
 Ka dɔnkiliw, koladegiw walima yɛlɛkokumaw kɛ hakilifalenw cɛ
@@ -2317,6 +2333,7 @@ Kabakurun tulolanɛgɛw foto dɔ bɔra ɛntɛrinɛti kan sisan.
 Kabalikumasen bi laban ni kabalitomi ye, wajibiyali kumasen bi laban ni Kabalili tomi ye
 Kabila saba de bɛ an ka jamana na minnu ka nafolo ka bon kosɛbɛ
 Kaboré ni Tao y’u ka cidenyabaara daminɛ bi Akure.
+Kaboré taara dugu la.
 Kadi ko ale fa tun ye finitigi ye ani...
 Kadi kunsigi ka surun.
 Kadijatou ni Sali tɛ kelen ye, o la aw kana bakɔrɔnw suma ni sagaw
@@ -2353,6 +2370,7 @@ Kalanden dɔ b’a ɲɛfɔ mun na a kɔnɔma donna.
 Kalanden dɔ labɛnnen don k’a jugu faga.
 Kalanden dɔ tun bɛna sa.
 Kalanden fila taara u ka lakɔli la ka taa ɛkizamɛn kɛ
+Kalanden in bɛ inivɛrisite la.
 Kalanden in kumana kunnafonidilaw fɛ nin ko in kan.
 Kalanden joli ye Tao kunsigi siri o don
 Kalanden ka kan ka ɲɛ sɔrɔ.
@@ -2362,6 +2380,7 @@ Kalanden minnu b’a fɛ ka don inivɛrisite la, olu ka lajɛ lajɛ.
 Kalanden naani sara mobili kasaara dɔ la.
 Kalanden ni karamɔgɔw ka kunnafonidi ko bɛ daminɛ.
 Kalanden tan ni naani bɔnɛna u ni na nin pankurun in binna.
+Kalanden-sekeretɛriw ka kade dɔw bɛ yen minnu bɛ sara yen.
 Kalandenw
 Kalandenw b'o hakililata fɔ masalabolo nin kan
 Kalandenw bi jaabiw di.
@@ -2473,8 +2492,10 @@ Kamalenninw ye kɛlɛ kɛ ka da gofɛrɛnaman Mouedraogo kan
 Kamalenninw y’a faamu ko olu de ka kan ni gɔfɛrɛnaman ye.
 Kan ba kelen tɛ se ka Ala tanu ka dafa, tiɲɛ tɛ?
 Kan kelen ni diinɛ kelen bɛ se ka kelenya lase Burukina jamana ma.
+Kan ni laadalakow Changé an ka laadalakow kan
 Kan ni laadalakow daminɛna an ka telefɔni seleke naani kan
 Kan ni ladamu de b’an kalan
+Kan ni ladamu ka an kalan
 Kana a to Balma ka wolodon n'a balimakɛ kana sunɔgɔ.
 Kana jɔrɛ.
 Kana n ɲininka, i muso ɲininka.
@@ -2504,6 +2525,7 @@ Karamɔgɔw ka tɔnba ka kalataw daminɛna k'a sɔrɔ gɛlɛya ma sɔrɔ
 Karamɔgɔw ka tɔnba sɔnna k'u ka baara dabila.
 Karim bɛ sira kan walasa ka se sɔrɔ kalataw la.
 Karim bɛ waajuli kɛ ko a nɔfɛmɔgɔw man kan ka boloci kɛ.
+Karim enough bɛ taa ka kɛ kandida ye kalata la.
 Karim ye nanbarakɛlaw ɲɛmaa ye Burkina Faso.
 Karim, kɛnɛyaso ɲɛmɔgɔba sara.
 Kasara dɔ kɛra sababu ye ka kalanden tan ninnu minɛ.
@@ -2622,6 +2644,7 @@ Koo kunjɔnjɔn minw bi Musa kɛwali dagabaliya yira:
 Koo lɔnnikura:
 Koo y ɛrɛ y ɛrɛ
 Koo yɛrɛ yɛrɛ
+Koromousso
 Koronawirisi bɛ dimi dumuni kɛlen kɔfɛ.
 Kosɛbɛ kosɛbɛ barika Ala ye.
 Kow bɛ nin cogo de la bi Dori ka so.
@@ -2636,6 +2659,7 @@ Kuma bɛ fɔ ko Andre ni Tao bɛ ka ɲɔgɔn sɔrɔ
 Kuma bɛ fɔ ko ne ma dumuni si mara n ka so kɔnɔ.
 Kuma dɔ bɛ yen dugu tɛ masakɛ bonya tugun
 Kuma sugu dɔ bɛ yen yorubakan na.
+Kumafɔla in ko ale bɛ se ka kɛ sababu ye
 Kumafɔla ko ale bɛna sɔn kalanden tɔw ma
 Kumalaban
 Kumasen labɛnni, degelibaaraw
@@ -3100,6 +3124,7 @@ N bɛ se ka se Daniel Street cogo di?
 N bɛ segin ka na kɔfɛ.
 N bɛ segin ka na o yɔrɔnin bɛɛ.
 N bɛ taa dugu min na, o yɔrɔ ka jan nbɛda yɛrɛ la
+N bɛ taa lakɔli la.
 N bɛ taa n da.
 N bɛ taa ni i ye bisi jɔyɔrɔ la.
 N bɛ taa sini.
@@ -3454,6 +3479,7 @@ O ntolatankɛla in taara jamana wɛrɛ la.
 O sariyakolow bɛna mɔgɔw dɛmɛ.
 O sɛbɛnnikɛla sugu man ca Yoruba jamana na.
 O timinandiya bɛna fanga di mɔgɔ ma a ka se ka ɲɛtaa sɔrɔ.
+O tun ye Ala ka makari kalan ye.
 O tun ye nkalonba ye ko ne tun bɛ kaso la.
 O tɛ foyi ye ne fɛ.
 O ye dɔrɔmɛ tan ni wolonwula ye.
@@ -3539,6 +3565,9 @@ Ouedraogo mara ye wele bila ɲɛmaaw ma, u ka nanbarako ban
 Ouedraogo polisiw ko mɔgɔ si ma nin ko in fɔ.
 Ouedraogo ye kalanden ye.
 Ouedraogo ye karamɔgɔ ye.
+Oum bi dji deri ka mi
+Oum bi ta Claire fe
+Oum bisse ki dembe wa
 Ouédraogo banna ka taa jamana wɛrɛ la.
 Ouédraogo denbaya bɛ Ala deli ni sunɔgɔ ni delili ye.
 Ouédraogo denbaya ni mɔgɔ wɛrɛw ye wari sɔrɔ jɔnfeere la.
@@ -3692,6 +3721,7 @@ Said comeback bɛ se ka kɛ ko a tɛna kɛ dɔgɔkun laban na
 Sala fa ni Andre tun bɛ tulon kɛ ɲɔgɔn fɛ siɲɛ kelen
 Sala ko ale bɛ kuma sɛgɛsɛgɛlikɛjɛkuluw dɔrɔn de fɛ
 Salam ye a sɔsɔ ko a ma polisiw ɲɛmɔgɔ mafiɲɛya.
+Salif bisimilalen don so.
 Salif ko ale ba tun ye feerekɛla ye.
 Salif ko balilan si tɛ yen walasa ka laɲiniw dafa.
 Salif ye Aicha furu dɔgɔkun tɛmɛnen.
@@ -4165,6 +4195,7 @@ U ye Ouédraogo minɛ Djibo dugu kɔnɔ.
 U ye Traoré sugandi ka kɛ jamanakuntigi kura ye.
 U ye White House politikikɛla kɔrɔba dɔ tɔgɔ sɔrɔ
 U ye a fa su ka videyo kɛ ɛntɛrinɛti kan.
+U ye alamaɲi sara.
 U ye avoka jalaki a ka siranfɛn min ta.
 U ye bana in jɛnsɛn Dori yɔrɔ dɔ la.
 U ye binkanni kɛ polisikɛla in kan ni sɔgɔlan ye Dori dugu kɔnɔ.
@@ -4261,6 +4292,7 @@ Wari hakɛ min bɛ sɔrɔ jagokɛla fɛ, o bɛna kɛ kelen ye.
 Wari joli b’i bolo?
 Wari min tun bi yen
 Wari sara sarati n’a cogoya
+Wari thiama djân
 Warida sɔrɔnin:d…………………sefa wari ra.
 Watch Dori Town Girl Cogo min na a bɔnɛna a ka jɔyɔrɔ nafama na
 Weele taamasiyɛn ye mun ye?

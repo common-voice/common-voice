@@ -32870,6 +32870,7 @@ Mi travivis la nokton!
 Mi tre admiras vian spritecon; per viaj paroloj vi ja igas ĉion klara.
 Mi tre atendas.
 Mi tre baldaŭ igos vin sufiĉe sekaj!”
+Mi tre bedaŭras ke oni ĉagrenis vin.
 Mi tre bedaŭras nian terure maljustan sistemon, pro kiu vi devis atendi tiom longe!
 Mi tre bedaŭras pri tio.
 Mi tre bedaŭras tion, Leonardo.
@@ -42292,6 +42293,7 @@ Se Pollando havas radio-elsendojn, kial iu alia lando ne faru same?
 Se Usono konstruas kaj instalas defend-raketojn, neniu povas malhelpi tion.
 Se Vi vidus tiujn vizaĝaĉojn!
 Se al iu vi diros ion, mi neos ĉion.
+Se al vi plaĉas, vi povas varti ĝin?
 Se al vi plaĉos, Sinjoro...
 Se aliaj komitatanoj volas tiel servi, despli bone.
 Se almenaŭ Barlei kaj K-o estus la bankieroj de la Kompanio!
@@ -49550,6 +49552,7 @@ Tuj ellitiĝu!
 Tuj fajrigu ĉion, kio brulas!
 Tuj kelkaj aliaj elpafis komentojn, denove tuj aliaj respondis.
 Tuj kiam Alicio aperis, ĉiuj disputantoj alvokis ŝin por decidi la aferon.
+Tuj kiam Alicio aperis, ĉiuj disputantoj alvokis ŝin.
 Tuj kiam aperis la okuloj, Alicio amike salutis.
 Tuj kiam defalas unu frukto, alia ekfloras sur tiu sama loko.
 Tuj kiam la servistino eliris, la sinjorino sin turnis al la veninto.
@@ -54554,6 +54557,7 @@ sed mi povas programi ĝin bone kaj bonstile
 sed mi simple luigas la alian domon al aliaj homoj
 sed mi volas prezenti la ludon al vi.
 sed mi volas profunde esplori tion
+sed ne pli ol porkoj rajtas flugi.
 sed ni jam procesas kontraŭ vi, jen la formularo.
 sed ni ŝatas, dum kiel mi laboras
 sed nun estas fino al ĉio, Malanja.
@@ -60277,6 +60281,7 @@ zorgu
 Ŝi kolere diris al si:— "La ĉitieaj kreitaĵoj ja argumentas netolereble, frenezige."
 Ŝi komencis kompreni
 Ŝi komencis pripensi aliajn infanojn de ŝi konatajn, kiuj pli bone taŭgus kiel porkoj.
+Ŝi komencis pripensi aliajn infanojn de ŝi konatajn.
 Ŝi komencis rapide, rapide meti la laboraĵon en la korbon.
 Ŝi komencis ridi, sed li insistis.
 Ŝi komencis sonĝi ke ŝi marŝas mano en mano kun Dajna.
