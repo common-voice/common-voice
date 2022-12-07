@@ -924,7 +924,6 @@ review-tooltip = Review & re-record clips here as you go
 share-clip = Share your clip
 share-common-voice = Share Common Voice
 review-instruction = Review & re-record clips if needed
-review-instruction-checkbox-tooltip = Please check this box if you want to proceed
 record-submit-tooltip = { $actionType } submit when ready
 clips-uploaded = Clips Uploaded
 record-abort-title = Finish recording first?

@@ -4,8 +4,11 @@
     left: 15%;
     background: rgba(229, 229, 229, 0);
     width: 70%;
-    height: 65%;
     z-index: 10;
+
+    @media (--xs-only) {
+        height: 90%;
+    }
 
     .header-text-container {
         margin-bottom: 80px;
@@ -28,30 +31,31 @@
 
     .form-fields {
         .language-wrap {
-            @media (--lg-up) {
-                width: 60%;
+            display: grid;
+            grid-column-gap: 10px;
+            justify-content: center;
+            grid-template-columns: repeat(1, 600px);
+
+            @media (--xs-down) {
+                grid-template-columns: repeat(1, 320px);
             }
 
-            margin: 0 auto;
-            display: flex;
+            &.variant-input-visible {
+                grid-template-columns: repeat(2, 320px);
 
-            @media (--sm-down) {
-                flex-direction: column;
+                @media (--xs-down) {
+                    grid-template-columns: repeat(1, 320px);
+                    grid-row-gap: 15px;
+                }
             }
 
             label {
                 margin-right: 10px;
-                margin-bottom: 30px;
-            }
-
-            label,
-            .accents-input-wrapper {
-                width: 100%;
             }
         }
 
         ul {
-            margin: -30px 0 30px;
+            margin: 0px 0 30px;
             position: absolute;
             background: white;
             z-index: var(--override-z-index);
@@ -69,7 +73,7 @@
             border: 1px solid var(--light-grey);
 
             box-shadow: 0 2px 5px 0 var(--light-grey);
-            overflow: hidden;
+            overflow: scroll;
         }
     }
 
@@ -80,6 +84,7 @@
             text-align: center;
             width: 650px;
             margin: 0 auto;
+            margin-top: 30px;
         }
     }
 

@@ -340,7 +340,6 @@ class ContributionPage extends React.Component<ContributionPageProps, State> {
       errorContent,
       getString,
       instruction,
-      isFirstSubmit,
       isSubmitted,
       onReset,
       onSkip,
@@ -544,7 +543,7 @@ class ContributionPage extends React.Component<ContributionPageProps, State> {
                 onSubmit={onSubmit}
                 className="contribution-speak-form"
                 data-testid="speak-submit-form">
-                {this.isDone && (
+                {this.isDone && !user.privacyAgreed && (
                   <LabeledCheckbox
                     label={
                       <Localized
@@ -559,11 +558,6 @@ class ContributionPage extends React.Component<ContributionPageProps, State> {
                     required
                     onChange={handlePrivacyAgreedChange}
                     checked={privacyAgreedChecked}
-                    shouldShowTooltip
-                    isTooltipOpen={isFirstSubmit}
-                    tooltipTitle={getString(
-                      'review-instruction-checkbox-tooltip'
-                    )}
                     data-testid="checkbox"
                   />
                 )}
@@ -573,7 +567,7 @@ class ContributionPage extends React.Component<ContributionPageProps, State> {
                       'submit',
                       getTrackClass('fs', `submit-${type}`),
                     ].join(' ')}
-                    disabled={!this.isDone || !privacyAgreedChecked}
+                    disabled={!this.isDone}
                     type="submit"
                   />
                 </Localized>
