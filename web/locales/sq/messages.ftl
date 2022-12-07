@@ -583,6 +583,7 @@ about-playbook-how-record-content-5 = <accuracyLink>Shihni më tepër mbi kriter
 ## How to grow language
 
 about-playbook-how-grow-language = Si mund ta fuqizojmë vërtet një gjuhë në Common Voice?
+about-playbook-how-grow-language-content-1 = Krijimi i mundësive për të kontribuar te Common Voice për një larmi njerëzish garanton që grupi i të dhënave t’u hyjë në punë sa më shumë njerëzve që të jetë e mundur. Kemi krijuar burime dhe gjedhe që mund t’i përdorni!
 about-playbook-how-grow-language-content-2 = Veprimtari
 about-playbook-how-grow-language-content-3 = Mund të zhvilloni veprimtari për t’i ndihmuar njerëzit të kontribuojnë. Është më e kollajtë se sa mendoni. Mund t’i bëni në internet, me një mjet për videokonferenca, ose si takim klasik, nëse s’ka problem. <eventTemplate>Kontrolloni gjedhet dhe burim tona për zhvillim veprimtarish</eventTemplate>.
 about-playbook-how-grow-language-content-4 = Media shoqërore
@@ -597,10 +598,13 @@ about-playbook-how-validate = Nga ta di nëse ta miratoj apo jo një copëz zano
 about-playbook-how-validate-content-1 = Nëse mundeni <strong>t’i dëgjoni</strong> dhe <strong>kuptoni</strong>, zakonisht më e mira është <strong>t’i miratoni</strong>.
 about-playbook-how-validate-content-2 = <strong>Mos hidhni tej copëza ku folësi ‘ka theks’ që është ndryshe nga i juaji</strong> - kjo është e rëndësishme që të kuptuarit e zërave të funksionojë për gjithkënd.
 about-playbook-how-validate-content-3 = Nëse mendoni se shqiptimi e bën <strong>të pamundur të kuptohet</strong>, ose ka <strong>shumë zhurmë në sfond</strong>, ose se ka <strong>persona të tjerë që flasin ndërkohë</strong>, atëherë duhet ta hidhni poshtë copëzën. <accuracyLink>Shihni më tepër hollësi mbi kriteret tona të përpikërisë</accuracyLink>.
+about-playbook-how-validate-content-4 = Nëse një copëz hidhet poshtë nga 2 persona, hidhet në qarkullim në një tjetër nëngrup të grupit të të dhënave.
 
 ## How to access dataset
 
 about-playbook-how-access-dataset = Si mund ta kem dhe ta përdor grupin e të dhënave?
+about-playbook-how-access-dataset-content-1 = Mund të kaloni te <datasetsPage>faqja e grupeve të të dhënave</datasetsPage>, përzgjidhni versioni dhe gjuhën(t) që doni dhe shkarkojeni! Kartelat përshoqërohen nga <metadataLink>tejtëdhëna</metadataLink>, të tilla si hollësi demografike dhe të dhëna vlerësimi. Që të shkarkoni grupin e të dhënave, do t’ju duhet të jepni një adresë email.
+about-playbook-how-access-dataset-content-2 = Nëse po kërkoni mjete për të ndërtuar modele ASR, mund të lidheni me persona të tjerë në bashkësi, <discourseLink>në Discourse</discourseLink>.
 
 ## How are decisions made
 
@@ -1488,4 +1492,7 @@ partnerships-governments-header = Qeveri
 partnerships-academia-header = Universitete, Akaademikë dhe Kërkues
 partnerships-academia-description = Risitë me burim të hapët janë zemra e asaj ç’ka bëjmë. Për bashkëpunime kërkimore, grumbullim të dhënash apo intervista, <emailFragment>lidhuni me ne.</emailFragment>
 partnerships-small-business-header = Biznese të vegjël, përfshi të sapolindur teknikë dhe IA
+partnerships-small-business-description = Presim përherë të dëgjojmë prej konsumatorësh të dhënash rreth nevojave të tyre dhe rreth kontekstesh - nga bashkëpunimi për grumbullim të dhënash e deri te furnizim prirjesh shëndeti të dhënash, dëshirojmë të <emailFragment>dëgjojmë mendimin tuaj.</emailFragment>
+partnerships-corporates-header = Korporata të mëdha dhe shoqëri platformash
+partnerships-corporates-description = Nëse po kërkoni të flisni më gjerë rreth grupesh të dhënash, dëshironi të bashkë-investoni në zgjerime të planifikuara platformash, ose po shihni për mundësi bashkëpunimi, <emailFragment>ma shkruani.</emailFragment>
 partnerships-our-partners = Partnerët Tanë
