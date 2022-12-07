@@ -1,7 +1,7 @@
+import * as React from 'react';
 import { Localized } from '@fluent/react';
 import { UserLanguage } from 'common';
-// import React, { useEffect, useState } from 'react';
-import * as React from 'react';
+import cx from 'classnames';
 import InputLanguageVariant from '../../../profile/info/languages/input-language-variant';
 import InputLanguageAccents from '../../../profile/info/languages/input-language-accents/input-language-accents';
 
@@ -51,6 +51,8 @@ export const FirstPostSubmissionCta: React.FC<FirstPostSubmissionCtaProps> = ({
   const [accentsAll, setAccentsAll] = React.useState<AccentsAll>({});
   const [variantsAll, setVariantsAll] = React.useState<VariantsAll>({});
 
+  const isVariantInputVisible = Boolean(variantsAll[locale]);
+
   const isAddInformationButtonDisabled =
     userLanguages[0].accents.length === 0 && !userLanguages[0].variant;
 
@@ -92,7 +94,7 @@ export const FirstPostSubmissionCta: React.FC<FirstPostSubmissionCtaProps> = ({
         </Localized>
       </div>
 
-      <div>
+      <div className="share-information-wrapper">
         <div className="subtitle-text-container">
           <Localized id="first-cta-subtitle-text">
             <h2 className="subtitle-text">
@@ -103,7 +105,11 @@ export const FirstPostSubmissionCta: React.FC<FirstPostSubmissionCtaProps> = ({
 
         <div className="form-fields">
           {userLanguages.map(({ locale, accents }) => (
-            <div className="language-wrap" key={locale}>
+            <div
+              className={cx('language-wrap', {
+                'variant-input-visible': isVariantInputVisible,
+              })}
+              key={locale}>
               <InputLanguageVariant
                 locale={locale}
                 variantsAll={variantsAll}
@@ -111,15 +117,13 @@ export const FirstPostSubmissionCta: React.FC<FirstPostSubmissionCtaProps> = ({
                 setUserLanguages={setUserLanguages}
               />
 
-              <div className="accents-input-wrapper">
-                <InputLanguageAccents
-                  locale={locale}
-                  accents={accents}
-                  accentsAll={accentsAll}
-                  userLanguages={userLanguages}
-                  setUserLanguages={setUserLanguages}
-                />
-              </div>
+              <InputLanguageAccents
+                locale={locale}
+                accents={accents}
+                accentsAll={accentsAll}
+                userLanguages={userLanguages}
+                setUserLanguages={setUserLanguages}
+              />
             </div>
           ))}
         </div>

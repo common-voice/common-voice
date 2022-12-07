@@ -478,6 +478,12 @@
             }
         }
 
+        .primary-buttons {
+            @media (--xl-up) {
+                margin-top: 6vh;
+            }
+        }
+
         @media (--sm-down) {
             & .top .counter {
                 visibility: hidden;

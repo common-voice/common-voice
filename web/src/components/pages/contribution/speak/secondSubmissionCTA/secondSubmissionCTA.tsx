@@ -21,8 +21,9 @@ export const SecondPostSubmissionCTA: React.FC<
       <Confetti
         width={width}
         height={height}
-        numberOfPieces={200}
+        numberOfPieces={180}
         gravity={0.03}
+        recycle={false}
       />
       <div className="second-cta-container">
         <div className="header-container">
