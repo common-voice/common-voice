@@ -117,13 +117,15 @@ export const FirstPostSubmissionCta: React.FC<FirstPostSubmissionCtaProps> = ({
                 setUserLanguages={setUserLanguages}
               />
 
-              <InputLanguageAccents
-                locale={locale}
-                accents={accents}
-                accentsAll={accentsAll}
-                userLanguages={userLanguages}
-                setUserLanguages={setUserLanguages}
-              />
+              <div className="accents-wrapper">
+                <InputLanguageAccents
+                  locale={locale}
+                  accents={accents}
+                  accentsAll={accentsAll}
+                  userLanguages={userLanguages}
+                  setUserLanguages={setUserLanguages}
+                />
+              </div>
             </div>
           ))}
         </div>
