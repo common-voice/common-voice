@@ -1,6 +1,6 @@
 ## General
 
-yes-receive-emails = Kena, shinej titlanili nopa emails, ni neki nimatiz ipan Common Voice Project.
+yes-receive-emails = kenaj, xinechtlatlanilij nopa emails, ni neki nimatiz ipan Common Voice Project.
 return-to-cv = Ti mokuapase Common Voice
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
