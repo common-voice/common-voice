@@ -2,6 +2,7 @@
 
 yes-receive-emails = kenaj, xinechtlatlanilij nopa emails, ni neki nimatiz ipan Common Voice Project.
 return-to-cv = Ti mokuapase Common Voice
+email-opt-in-info = Ninekiskia xinechtitlanilij emails ipan tlen tinekin tichihuase, then tichiheia ,tlen ticonchiheia huan huan yankhuik tlatoli then Common Voice.
 email-opt-in-info-title = Xitechpalehui ipan Common Voice timitz tlalise ipan mailing list.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
