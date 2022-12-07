@@ -609,6 +609,7 @@ about-playbook-how-access-dataset-content-2 = Nëse po kërkoni mjete për të n
 ## How are decisions made
 
 about-playbook-how-project-governance = Si merren vendimet për projektin?
+about-playbook-how-project-governance-content-1 = Mozilla Common Voice është bërë i mundshëm nga një bashkësi e larmishme veprimtarësh, kërkuesish gjuhësorë, studiues të të dhënave dhe inxhinierë software-i nga anembanë bota. Projekti është organizuar nga Mozilla Foundation.
 about-playbook-how-project-governance-content-2 = Qeverisja jonë bazohet në shtyllat e:
 about-playbook-how-project-governance-content-3 = Privatësisë, sigurisë dhe transparencës.
 about-playbook-how-project-governance-content-4 = Pjesëmarrje dhe vendimmarrje në bashkësi.
@@ -759,6 +760,11 @@ other-language = Gjuhë Tjetër
 ## Request Language Pages
 
 request-language-heading = Kërkoni një gjuhë të re
+request-language-explanation-1 =
+    Shihni nëse gjuha juaj është e pranishme te
+    <languagesPageLink>faqja e Gjuhëve të Common Voice-it</languagesPageLink>.
+    Nëse jo, plotësoni këtë formular dhe do t’ju <strong>dërgojmë një email të dobishëm
+    ku shpjegohet se si ta bëni gati gjuhën tuaj</strong>.
 request-language-form-email =
     .label = Adresa juaj email
 request-language-form-info =
