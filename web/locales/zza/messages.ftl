@@ -591,6 +591,7 @@ about-playbook-how-localize-content-5 = Qayîtê vîdeoyê ma yê îzahkerî bik
 about-playbook-how-add-sentences = Ez senî cumleyan îlawe kena?
 about-playbook-how-add-sentences-content-1 = <strong>Arêdayoxê Cumleyan</strong> wesayît o ke pê cumleyê ke pêroyî rê akerde yê, arê dîyenê û tesdîq benê. Verê, ganî ti <scAccountLink>hesabêk virazê</scAccountLink>. Dima, ziwanê xo îlaweyê <strong>profîlê xo</strong> bike. Ti eşkenî/a cumleyan <strong>îlawe bikerê</strong> yan kî <strong>çim biçarnê</strong> cumleyanê îlawekerdeyan.
 about-playbook-how-add-sentences-content-2 = Seba ke cumleyî îlaweyê Common Voice bibê, ganî hetê di kesan ra kontrol bibê û qebul bibê. Ti <languageGuidelinesLink>tîya</languageGuidelinesLink> rayberê ziwanê xo virazenî/a. Ganî cumleyî binê lîsansê <licenseLink>milkê pêroyî</licenseLink> de bibê û 15 çekuyan ra kêmî bibê. Ti eşkenî/a wayîrê metnêk ra bipersî ke <waiverLink>pê feragatnameyê ma metnê xo sey CC0 tesnîf bikero</waiverLink> û adresa commonvoice@mozilla.com rê birusno.
+about-playbook-how-add-sentences-content-3 = Ti eşkenî/a <scraperLink>Vetoxê Cumleyan</scraperLink> bixebitnê ke Wîkîpedîa ra cumleyanê hurdîyan bigîrê.
 about-playbook-how-add-sentences-content-4 = Cumleyê tesdîqkerdeyî roja çarşemeyî de neqlê teberî benê û weşano ameyox ra dime seba wendişî benê amade.
 
 ## How to record quality
@@ -603,6 +604,7 @@ about-playbook-how-record-content-5 = <accuracyLink>Derheqê krîteranê raştb�
 
 ## How to grow language
 
+about-playbook-how-grow-language = Ma senî eşkenîme Common Voice ser o bi hawayêko tesîdar yew ziwan aver berîme?
 about-playbook-how-grow-language-content-2 = Aktîvîteyî
 about-playbook-how-grow-language-content-4 = Medyaya sosyale
 about-playbook-how-grow-language-content-6 = Hemparî û torrî
@@ -624,7 +626,9 @@ about-playbook-how-access-dataset = Ez senî biresî komdayeyî û ey senî bixe
 ## How are decisions made
 
 about-playbook-how-project-governance = Qerarê projeyî senî yenê girewtene?
+about-playbook-how-project-governance-content-1 = Mozilla Common Voice sayeyê tewir bi tewir grûbanê çalakîker, ziwannas, zanyarê dayeyan, akademîsyen û muhendisanê çîynerman ra ke her cayê dinya ra yenê, ame rayîr. No proje hetê Weqfê Mozîlla ra îdare beno.
 about-playbook-how-project-governance-content-2 = Îdareyê projeyê ma nê estunan ser o virazîyayo:
+about-playbook-how-project-governance-content-3 = Nimiteyîye, asayîş û şefafîye
 about-playbook-how-project-governance-content-4 = Komelî reyde beşdarbîyayîş û qerargirewtiş.
 about-playbook-how-project-governance-content-5 = Qîymet û naskerdiş.
 about-playbook-how-project-governance-content-6 = Berpirsîyarîya hempare.
@@ -695,6 +699,7 @@ why-email = <b>Çira e-maîl lazim o?</b> Beno ke ameyox de ma derheqê vurîyay
 confirm-size = Ti hazir î/a ke bi girsîya <b>{ $size }</b> bîyarê war?
 size-gigabyte = GB
 size-megabyte = MB
+confirm-no-identify = Ti <b>qebul kenî/a</b> ke ti yê nêceribnê nasnameyê qiseykerdoxanê komdayeyê Common Voice tesbît bikerê.
 download-language = { $language } bîyare war
 validated-hours = Saetê tesdîqkerdeyî
 recorded-hours = Saetê qeydkerdeyî
@@ -755,6 +760,7 @@ request-language-form-email =
     .label = Adresa to ya e-maîlî
 request-language-form-info =
     .label = Derheqê ziwanî de melumat
+request-language-form-info-explanation = Derheqê ziwanî de herçiqas melumat ke eşkenî/a bidê, bide. Mavajîme, nînan îlawe bike:
 request-language-form-info-explanation-list-1 = Nameyê ziwanê to
 request-language-form-info-explanation-list-2 = <isoCodeLink>Kodê ISO</isoCodeLink>, eke zanîyeno
 request-language-form-info-explanation-list-3 = Lînkê keyepelan ke fehmkerdişê ziwanî de hetkarîya ma kenê
@@ -824,6 +830,7 @@ record-abort-text = Ti ke nika vejîyenî/a, averşîyayîşo nikayin qeyd nêbe
 record-abort-submit = Qeydan birusne
 record-abort-continue = Qeydkerdişî biqedêne
 record-abort-delete = Vejîye & qeydan biestire
+listen-instruction = <playIcon></playIcon> { $actionType }. Cumle raşt wanîyaya?
 listen-again-instruction = Aferîn!<playIcon></playIcon> Eke hazir î/a, reyna goşdar bike
 listen-3rd-time-instruction = 2 hebî temam ê. Dewam bike! <playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon>Tena yew mendo!
@@ -911,7 +918,7 @@ get-started-goals = Hedefê xo rone
 create-custom-goal = Hedefo taybetî viraze
 goal-type = Ti wazenî/a kamcîn hedef xo rê ronê?
 both-speak-and-listen = Her di
-both-speak-and-listen-long = Her di (qisey ke û goşdarî ke)
+both-speak-and-listen-long = Her di (qiseykerdiş û goşdarîkerdiş)
 daily-goal = Hedefo Rojane
 weekly-goal = Hedefê Hewteyî
 easy-difficulty = Asan
@@ -950,11 +957,14 @@ n-clips-pluralized =
     { NUMBER($count) ->
        *[other] { $count } qeydê vengî
     }
+help-share-goal = Dest bide ma ke hîna zaf vengan bivînîme, hedefê xo pare bike
 confirm-goal = Hedefî tesdîq bike
 goal-interval-weekly = Hewte de
 share-goal-type-speak = Qiseykerdiş
 share-goal-type-listen = Goşdarkerdiş
 share-goal-type-both = Qiseykerdiş û Goşdarkerdiş
+weekly-goal-created = Hedefê to yê hewteyî virazîya
+daily-goal-created = Hedefê to yo rojane virazîya
 share-goal = Hedefê mi pare bike
 
 ## Profile Delete
