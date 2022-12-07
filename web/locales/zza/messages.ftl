@@ -1264,6 +1264,16 @@ sc-confirm-already-reviewed =
         [0] Hema çim nêçarnîyayo qet cumleyêk.
        *[other] Çima çarnîya { $countOfReviewed } cumleyan. Weş be!
     }
+# Variables:
+#   $readyCount (Number) - Number of sentences ready to be uploaded
+sc-confirm-ready =
+    { $readyCount ->
+        [0] Cumleyî çin ê birusnîyê.
+       *[other] { $readyCount } cumleyî seba rusnayîş amade yê!
+    }
+# Variables:
+#   $countOfUnreviewed (Number) - Number of sentences unreviewed before the upload
+sc-confirm-unreviewed = Hema çim nêçarnîyayo { $countOfUnreviewed } cumleyan. Eke wazenî/a, ti eşkenî/a rusnayîş ra ver cumleyanê xo kontrol bikerê.
 sc-confirm-button-text = Tesdîq ke
 
 ## LANGUAGE INFO
