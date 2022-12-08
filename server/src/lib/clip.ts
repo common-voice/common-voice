@@ -13,6 +13,8 @@ import Bucket from './bucket';
 import Awards from './model/awards';
 import { checkGoalsAfterContribution } from './model/goals';
 import { ChallengeToken, challengeTokens } from 'common';
+import validate from './validation';
+import { clipsSchema } from './validation/clips';
 
 const Transcoder = require('stream-transcoder');
 const { Converter } = require('ffmpeg-stream');
@@ -70,7 +72,7 @@ export default class Clip {
     router.get('/voices', this.serveVoicesStats);
     router.get('/votes/daily_count', this.serveDailyVotesCount);
     router.get('/:clip_id', this.serveClip);
-    router.get('*', this.serveRandomClips);
+    router.get('*', validate({ query: clipsSchema }), this.serveRandomClips);
 
     return router;
   }
@@ -323,7 +325,7 @@ export default class Clip {
     response: Response
   ): Promise<void> => {
     const { client_id, params } = request;
-    const count = this.getCountFromQuery(request) || 1;
+    const count = Number(request.query.count) || 1;
     const clips = await this.bucket.getRandomClips(
       client_id,
       params.locale,
@@ -386,22 +388,5 @@ export default class Clip {
     }
 
     return JSON.parse(cursor);
-  }
-
-  private getCountFromQuery(request: Request) {
-    const { count } = request.query;
-
-    if (!count || typeof count !== 'string') {
-      return null;
-    }
-
-    const number = parseInt(count, 10);
-
-    // if invalid number return nothing
-    if (Number.isNaN(number)) {
-      return null;
-    }
-
-    return number;
   }
 }
