@@ -131,6 +131,7 @@ nan-tw = Taiwanese (Minnan)
 nb-NO = Norwegian Bokmål
 nd = IsiNdebele (North)
 ne-NP = Nepali
+nhe = Eastern Huasteca Nahuatl
 nia = Nias
 nl = Dutch
 nn-NO = Norwegian Nynorsk

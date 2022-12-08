@@ -26,6 +26,7 @@ function stateReducer(state: any, changes: any) {
   switch (changes.type) {
     case Downshift.stateChangeTypes.keyDownEnter:
     case Downshift.stateChangeTypes.clickItem:
+    case Downshift.stateChangeTypes.mouseUp:
       return {
         ...changes,
         inputValue: '',
@@ -141,6 +142,7 @@ const InputLanguageAccentsInput = ({
                   disabled={locale.length === 0}
                   {...getInputProps({
                     onFocus: openMenu,
+                    onClick: openMenu,
                     type: 'text',
                     value: inputValue || '',
                     onKeyDown: handleKeyDown,
