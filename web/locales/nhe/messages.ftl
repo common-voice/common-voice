@@ -1,7 +1,10 @@
 ## General
 
 yes-receive-emails = kenaj, xinechtlatlanilij nopa emails, ni neki nimatiz ipan Common Voice Project.
+stayintouch = Ipan Mozilla titekitinj ipan se comunidad tlen tlatoli tecnologia.Tinekiskian tikamatize yankhuik tlatoli, yankhuik tekitl huan ti matiz kenikatza ti tekitin huan mo datos.
 return-to-cv = Ti mokuapase Common Voice
+email-input =
+    .label = email
 email-opt-in-info = Ninekiskia xinechtitlanilij emails ipan tlen tinekin tichihuase, then tichiheia ,tlen ticonchiheia huan huan yankhuik tlatoli then Common Voice.
 email-opt-in-info-title = Xitechpalehui ipan Common Voice timitz tlalise ipan mailing list.
 
@@ -17,6 +20,7 @@ email-opt-in-info-title = Xitechpalehui ipan Common Voice timitz tlalise ipan ma
 
 ## Layout
 
+share-title = Xi techpalehui ti temoze sekinoj tech palehuiz hua tlatoli.
 
 ## Home Page
 
