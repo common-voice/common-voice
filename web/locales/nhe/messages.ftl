@@ -21,6 +21,7 @@ email-opt-in-info-title = Xitechpalehui ipan Common Voice timitz tlalise ipan ma
 ## Layout
 
 share-title = Xi techpalehui ti temoze sekinoj tech palehuiz hua tlatoli.
+share-text = Xitechpalehui timachtize tepozme kenikatza ce tlakatl o cihuatl kamati, xitechmalehui ka mo tlatolij { $link }
 
 ## Home Page
 
