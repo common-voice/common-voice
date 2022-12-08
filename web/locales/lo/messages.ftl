@@ -1289,6 +1289,7 @@ sc-submit-ph-read-how-to =
     .placeholder = ອ່ານ How-to ຂອງພວກເຮົາ ຖ້າບໍ່ແນ່ໃຈວ່າຈະໃຫ້ຄຸນລັກສະນະແນວໃດ
 sc-submit-button =
     .submitText = ສົ່ງ
+sc-submit-filtered = ປະໂຫຍກທີ່ຖືກກັ່ນຕອງເນື່ອງຈາກຄວາມຕ້ອງການລົ້ມເຫລວ (ກະລຸນາສົ່ງສະບັບຄົງທີ່ເປັນປະໂຫຍກໃຫມ່):
 sc-submit-guidelines = ກະລຸນາກວດເບິ່ງ<howToLink>ຂໍ້ແນະນຳ</howToLink>.
 
 ## ADD LANGUAGE
