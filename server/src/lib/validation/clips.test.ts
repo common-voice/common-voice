@@ -1,8 +1,8 @@
 import { NextFunction, Request, Response } from 'express';
 import { ValidationError } from 'express-json-validator-middleware';
-import validate, { randomClipsCountSchema } from './index';
+import validate, { clipsSchema } from './index';
 
-describe('Random Clips Count Validation', () => {
+describe('Clips Count Validation', () => {
     let mockRequest: Partial<Request>;
     let mockResponse: Partial<Response>;
     let nextFunction: NextFunction;
@@ -16,7 +16,7 @@ describe('Random Clips Count Validation', () => {
     });
 
     it('should be invalid when the count is greater than 50', () => {
-        const validation = validate({ query: randomClipsCountSchema });
+        const validation = validate({ query: clipsSchema });
         mockRequest.query = {
             count: '99',
         };
@@ -28,7 +28,7 @@ describe('Random Clips Count Validation', () => {
     });
 
     it('should be invalid when the count is less than 1', () => {
-        const validation = validate({ query: randomClipsCountSchema });
+        const validation = validate({ query: clipsSchema });
         mockRequest.query = {
             count: '-1',
         };
@@ -40,7 +40,7 @@ describe('Random Clips Count Validation', () => {
     });
 
     it('should be invalid when the count is not a number', () => {
-        const validation = validate({ query: randomClipsCountSchema });
+        const validation = validate({ query: clipsSchema });
         mockRequest.query = {
             count: 'abc',
         };
@@ -53,7 +53,7 @@ describe('Random Clips Count Validation', () => {
 
     it('should be valid when count is not set ', () => {
         mockRequest.query = {};
-        const validation = validate({ query: randomClipsCountSchema });
+        const validation = validate({ query: clipsSchema });
 
         validation(mockRequest as Request, mockResponse as Response, nextFunction);
 

@@ -1,6 +1,6 @@
 import { AllowedSchema } from 'express-json-validator-middleware';
 
-export const randomClipsCountSchema: AllowedSchema = {
+export const clipsSchema: AllowedSchema = {
   type: 'object',
   properties: {
     count: {

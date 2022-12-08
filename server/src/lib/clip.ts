@@ -14,7 +14,7 @@ import Awards from './model/awards';
 import { checkGoalsAfterContribution } from './model/goals';
 import { ChallengeToken, challengeTokens } from 'common';
 import validate from './validation';
-import { randomClipsCountSchema } from './validation/random-clips-count';
+import { clipsSchema } from './validation/clips';
 
 const Transcoder = require('stream-transcoder');
 const { Converter } = require('ffmpeg-stream');
@@ -72,7 +72,7 @@ export default class Clip {
     router.get('/voices', this.serveVoicesStats);
     router.get('/votes/daily_count', this.serveDailyVotesCount);
     router.get('/:clip_id', this.serveClip);
-    router.get('*', validate({ query: randomClipsCountSchema }), this.serveRandomClips);
+    router.get('*', validate({ query: clipsSchema }), this.serveRandomClips);
 
     return router;
   }
