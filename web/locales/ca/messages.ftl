@@ -40,6 +40,7 @@ ba = baixkir
 bas = basaa
 be = bielorús
 bg = búlgar
+bm = bambara
 bn = bengalí
 br = bretó
 bs = bosnià
@@ -217,6 +218,7 @@ speak-now = Parleu ara
 datasets = Conjunts de dades
 languages = Llengües
 about = Qui som
+partner = Associats
 profile = Perfil
 help = Ajuda
 contact = Contacte
@@ -711,6 +713,7 @@ datasets-positioning =
     
     Considereu aquesta pàgina com a punt central de referència sobre els altres conjunts de dades de veu oberts i, a mesura que el Common Voice continua creixent, la pàgina on anunciarem les actualitzacions de les versions.
 language = Llengua
+download-dataset-header = Baixa el conjunt de dades
 # File size in gigabytes
 size = Mida
 validated-hr-total = Hores validades totals
