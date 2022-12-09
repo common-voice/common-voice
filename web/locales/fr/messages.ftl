@@ -1517,9 +1517,15 @@ localization-select =
     .label = Choisissez la langue/la localisation
 # PARTNERSHIPS PAGE
 partnerships-header = Partenariats
+partnerships-header-text = Créer Common Voice demande beaucoup d’efforts ! Nous ne le faisons pas seuls. Vous voulez vous associer à nous ? Faites-le-nous savoir !
 partnerships-get-in-touch = Nous contacter
 partnerships-become-a-partner = Devenir partenaire de Common Voice
+partnerships-community-header = Communauté, créatifs et société civile
 partnerships-foundations-header = Fondations
+partnerships-foundations-description = Nous travaillons avec des fondations, la société civile et des partenaires communautaires pour faire d’Internet un endroit plus sain, avec un accent particulier sur l’Afrique de l’Est. En savoir plus sur nos <programmaticWork>activités programmatiques.</programmaticWork>
 partnerships-governments-header = Gouvernements
+partnerships-academia-header = Universités, universitaires et chercheur·euse·s
+partnerships-small-business-header = Petites entreprises, y compris les start-ups dans le domaine de la tech et de l’IA
 partnerships-corporates-header = Grandes entreprises et plateformes
+partnerships-corporates-description = Si vous souhaitez en savoir plus sur le jeu de données, si vous souhaitez co-investir dans des extensions de plateforme planifiées ou rechercher des opportunités de collaboration, <emailFragment>écrivez-nous.</emailFragment>
 partnerships-our-partners = Nos partenaires
