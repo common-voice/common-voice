@@ -131,6 +131,7 @@ nan-tw = Taiwanese (Minnan)
 nb-NO = Norwegian Bokmål
 nd = IsiNdebele (North)
 ne-NP = Nepali
+nhe = Eastern Huasteca Nahuatl
 nia = Nias
 nl = Dutch
 nn-NO = Norwegian Nynorsk
@@ -746,7 +747,6 @@ language = Language
 download-dataset-header = Download the Dataset
 download-delta-explainer = We’ve made some changes. Delta Segments just contain the most recent clips since the last release. <deltaLink>Read more about this work</deltaLink>.
 download-dataset-tag = Select the desired language dataset and choose the version you wish to download.
-download-dataset-access = Looking for previous dataset releases? Email <emailLink> { $email } </emailLink>
 # File size in gigabytes
 size = Size
 validated-hr-total = Validated Hr. Total

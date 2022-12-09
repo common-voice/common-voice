@@ -122,17 +122,6 @@ const DatasetCorpusDownload = ({
               size={formatBytes(selectedDataset.size, initialLanguage)}
             />
           )}
-
-          <p className="intro-summary">
-            <Localized
-              id="download-dataset-access"
-              elems={{
-                emailLink: <StyledLink href={`mailto:${EMAIL_ADDRESS}`} />,
-              }}
-              vars={{ email: EMAIL_ADDRESS }}>
-              <span />
-            </Localized>
-          </p>
         </div>
       </div>
     </div>
