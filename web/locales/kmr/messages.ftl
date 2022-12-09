@@ -765,6 +765,8 @@ request-language-form-info-explanation-list-1 = Navên zimanê te
 request-language-form-info-explanation-list-2 = heke tê zanîn <isoCodeLink>Kodên ISOyê</isoCodeLink>
 request-language-google-recaptcha-required = Ji bo berdewamkirinê reCAPTCHA hewce ye
 request-language-google-recaptcha-error = Kêşeyek têkildarî reCAPTCHA'ê derket. Ji kerema xwe re dîsa biceribîne.
+# Success page
+request-language-success-heading = Spas! Te ji bo zimanekî nû daxwaznameyek şand
 
 ## Languages Overview
 
