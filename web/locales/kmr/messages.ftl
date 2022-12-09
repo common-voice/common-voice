@@ -190,6 +190,7 @@ ts = Xitsongayî
 tt = Teterî
 tw = Twi
 ty = Tahitian
+tyv = Tuvanî
 uby = Ûbîxî
 udm = Udmurtî
 ug = Uyghurî
@@ -200,6 +201,7 @@ ve = Tshivendayî
 vec = Venedîkî
 vi = Viyetnamî
 vot = Votîkî
+wo = Wolofî
 xh = Xhosa
 yi = Yîdîş
 yo = Yoruba
@@ -756,8 +758,13 @@ request-language-form-email =
     .label = Navnîşana emaîla te
 request-language-form-info =
     .label = Di derbarê zimên de agahî
+request-language-form-info-explanation =
+    Li ser zimên heta ji te bê agahiyan binivîse. Tu dikarî
+    vana tevlî bikî:
 request-language-form-info-explanation-list-1 = Navên zimanê te
 request-language-form-info-explanation-list-2 = heke tê zanîn <isoCodeLink>Kodên ISOyê</isoCodeLink>
+request-language-google-recaptcha-required = Ji bo berdewamkirinê reCAPTCHA hewce ye
+request-language-google-recaptcha-error = Kêşeyek têkildarî reCAPTCHA'ê derket. Ji kerema xwe re dîsa biceribîne.
 
 ## Languages Overview
 
