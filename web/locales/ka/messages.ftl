@@ -314,26 +314,26 @@ username-email-not-demographic = თქვენი მომხმარებ�
 ## Speak & Listen Shortcuts
 
 # Must be one letter that appears in the translated { skip } string.
-shortcut-skip = ტ
+shortcut-skip = t
 
 ## Listen Shortcuts
 
 # Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
-shortcut-play-toggle = გ
+shortcut-play-toggle = g
 shortcut-play-toggle-label = გაშვება/შეწყვეტა
 # Must be one letter that appears in the { vote-yes } string.
 # Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
-shortcut-vote-yes = დ
+shortcut-vote-yes = d
 # Must be one letter that appears in the { vote-no } string.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
-shortcut-vote-no = ა
+shortcut-vote-no = a
 
 ## Speak Shortcuts
 
 # Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
-shortcut-record-toggle = წ
+shortcut-record-toggle = w
 shortcut-record-toggle-label = ჩაწერა/შეწყვეტა
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = ახლიდან ჩაწერა
@@ -893,14 +893,14 @@ record-three-more-instruction = სამიღაა დარენილი!
 record-again-instruction = მშვენიერია! <recordIcon></recordIcon> გააკეთეთ შემდეგი ჩანაწერი
 record-again-instruction2 = ასე განაგრძეთ, ჩაწერეთ კვლავ <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon> ბოლო!
-review-tooltip = აქედან შეგიძლიათ შეამოწმოთ და ახლიდან შექმნათ ჩანაწერი
+review-tooltip = გადაამოწმეთ აქედან და ახლიდან ჩაწერეთ
 share-clip = გააზიარეთ თქვენი ჩანაწერი
 share-common-voice = გააზიარეთ Common Voice
-review-instruction = შეამოწმეთ ჩანაწერები ან ახლიდან ჩაწერეთ, თუ საჭიროა
+review-instruction = გადაამოწმეთ და ახლიდან ჩაწერეთ, თუ საჭიროა
 record-submit-tooltip = { $actionType } გადაგზავნას როცა მზად იქნებით
 clips-uploaded = ჩანაწერები ატვირთულია
 record-abort-title = ჯერ დასრულდეს ჩაწერა?
-record-abort-text = ახლავე დატოვება ნიშნავს რომ დაიკარგება არსებული შედეგი
+record-abort-text = ახლავე დატოვებით დაიკარგება არსებული შედეგი
 record-abort-submit = ჩანაწერების გადაგზავნა
 record-abort-continue = ჩაწერის დასრულება
 record-abort-delete = გამოსვლა და ჩანაწერების წაშლა
@@ -1107,7 +1107,7 @@ download-request-modal-title = ჩამოსატვირთი ბმულ
 download-request-modal-description = აქაა ბმულები, თქვენი ZIP-ფაილების ჩამოსატვირთად.
 download-request-link-text = Zip #{ $offset }, სულ { $total }
 download-request-metadata-link = წინადადების ტექსტი
-download-request-link-single = აგრეთვე, შეგიძლიათ ბმულის ასლები აიღოთ და ჩასვათ სასურველ ჩამოტვირთვების მმართველში. ვადა ამოიწურება 12 საათში, თუმცა ამ გვერდიდან, ნებისმიერ დროს მოახერხებთ, ბმულების ახლიდან წარმოქმნას.
+download-request-link-single = აგრეთვე შეგიძლიათ ბმულის ასლები აიღოთ და ჩასვათ სასურველ ჩამოტვირთვების მმართველში. ვადა ამოიწურება 12 საათში, თუმცა ამ გვერდიდან, ნებისმიერ დროს მოახერხებთ, ბმულების ახლიდან წარმოქმნას.
 
 ## Landing
 
