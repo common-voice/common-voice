@@ -190,6 +190,7 @@ ts = Тсонга
 tt = Татар
 tw = Тви
 ty = Таити
+tyv = Тыва
 uby = Убых
 udm = Удмурт
 ug = Уйгыр
@@ -200,6 +201,7 @@ ve = Венда
 vec = Венеция
 vi = Вьетнам
 vot = Вот
+wo = Волоф
 xh = Коса
 yi = Идиш
 yo = Йоруба
@@ -635,6 +637,7 @@ about-playbook-how-validate-content-4 = Әгәр дә клип 2 кеше тар
 ## How to access dataset
 
 about-playbook-how-access-dataset = Мәгълүматлар тупланмасын кайдан табып алып кулланып була?
+about-playbook-how-access-dataset-content-1 = <datasetsPage>Мәгълүмат тупланмасы битенә</datasetsPage> күчеп, версиясен һәм тел(ләр)не сайлап, аны компьютерыгызга йөкли аласыз! Файллар демографик һәм тикшерү мәгълүматлары кебек <metadataLink>метамәгълүматлар белән бәйләнгән</metadataLink>. Мәгълүмат тупланмасын йөкләү өчен эл. почта адресын кертергә кирәк булачак.
 
 ## How are decisions made
 
