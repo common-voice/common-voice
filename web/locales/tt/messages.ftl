@@ -643,6 +643,7 @@ about-playbook-how-access-dataset-content-2 = Автоматик сөйләм т
 ## How are decisions made
 
 about-playbook-how-project-governance = Проект карарлары ничек кабул ителә?
+about-playbook-how-project-governance-content-1 = Mozilla Common Voice бөтен дөньядан тупланган төрле активистлар, тел белгечләре, мәгълүмат эшкәртү белгечләре, галимнәр һәм програмчылардан торучы бер берләшмәнең хезмәте нәтиҗәсендә барлыкка килде. Проект белән Mozilla Foundation идарә итә.
 about-playbook-how-project-governance-content-3 = Хосусыйлык, хәвефсезлек һәм ачыклык.
 about-playbook-how-project-governance-content-5 = Кыйммәт һәм тану.
 about-playbook-how-project-governance-content-6 = Үзара җаваплылык.
