@@ -1226,6 +1226,7 @@ sc-howto-title = ວິທີ
 sc-howto-addlang-title = ເພີ່ມພາສາເພື່ອເຮັດວຽກກັບ
 sc-howto-addlang-text = ເມື່ອເຂົ້າສູ່ລະບົບແລ້ວ, ທ່ານສາມາດເລືອກພາສາຂອງທ່ານຈາກພາກສ່ວນໂປຣໄຟລ໌.
 sc-howto-addsen-title = ເພີ່ມປະໂຫຍກໃຫມ່
+sc-howto-addsen-item-2 = ຕົວເລກ. ບໍ່ຄວນມີຕົວເລກຢູ່ໃນຂໍ້ຄວາມຕົ້ນສະບັບເພາະວ່າພວກມັນສາມາດເຮັດໃຫ້ເກີດບັນຫາໃນເວລາທີ່ອ່ານດັງໆ. ວິທີການອ່ານຕົວເລກແມ່ນຂຶ້ນກັບບໍລິບົດແລະອາດຈະເຮັດໃຫ້ເກີດຄວາມສັບສົນໃນຊຸດຂໍ້ມູນ. ສໍາລັບຕົວຢ່າງ, ຕົວເລກ "2409" ສາມາດອ່ານໄດ້ຢ່າງຖືກຕ້ອງເປັນ "ຊາວສີ່ສູນເກົ້າ" ແລະ "ສອງພັນສີ່ຮ້ອຍເກົ້າ".
 sc-howto-addsen-item-5 = ຈົດໝາຍຕ່າງປະເທດ. ຕົວອັກສອນຕ້ອງຖືກຕ້ອງໃນພາສາທີ່ເວົ້າ. ຕົວຢ່າງ, "ж" ແມ່ນຕົວອັກສອນໃນພາສາລັດເຊຍແຕ່ບໍ່ເຄີຍໃຊ້ໃນພາສາອັງກິດແລະດັ່ງນັ້ນບໍ່ຄວນປາກົດຢູ່ໃນຂໍ້ຄວາມແຫຼ່ງພາສາອັງກິດໃດໆ.
 sc-howto-cite-title = ວິທີການອ້າງອີງ
 sc-howto-cite-item-1 = ທ່ານສາມາດໃສ່ເວັບໄຊທ໌ໄດ້, ເຊັ່ນ: "ສຽງທົ່ວໄປ - https://commonvoice.mozilla.org/"
@@ -1239,6 +1240,7 @@ sc-howto-review-criteria-6 = ຖ້າ​ຫາກ​ທ່ານ​ຫມົດ
 sc-howto-findpd-title = ຊອກຫາປະໂຫຍກທີ່ມີຢູ່ແລ້ວໃນສາທາລະນະໂດເມນ
 sc-howto-findpd-subtitle = ຊອກຫາພວກເຂົາຢູ່ໃນອິນເຕີເນັດ
 sc-howto-findpd-tips = ນີ້ແມ່ນຄໍາແນະນໍາບາງຢ່າງເພື່ອຊອກຫາປະໂຫຍກ:
+sc-howto-findpd-tips-1 = ແຫຼ່ງທີ່ດີທີ່ສຸດທີ່ເຈົ້າສາມາດຊອກຫາໄດ້ແມ່ນ podcasts, transcripts, scripts ຮູບເງົາແລະສິ່ງໃດກໍ່ຕາມທີ່ສາມາດມີການສົນທະນາປະຈໍາວັນ.
 sc-howto-findpd-subtitle-2 = ຄູ່ຮ່ວມງານກັບອົງການຈັດຕັ້ງທ້ອງຖິ່ນຫຼືບຸກຄົນ
 
 ## MY SENTENCES
@@ -1308,6 +1310,7 @@ sc-confirm-sentences-title = ຢືນຢັນປະໂຫຍກໃໝ່
 #   $countOfInvalidated (Number) - Number of sentences the user rejected in the review form before submission
 sc-confirm-rejected-by-you = { $countOfInvalidated } ຖືກປະຕິເສດໂດຍທ່ານ
 sc-confirm-button-text = ຢືນຢັນ​
+sc-confirm-uploading = ກຳລັງອັບໂຫຼດປະໂຫຍກ. ນີ້ສາມາດໃຊ້ເວລາຫຼາຍນາທີຂຶ້ນກັບຈໍານວນຂອງປະໂຫຍກທີ່ເພີ່ມ. ກະລຸນາຢ່າປິດເວັບໄຊທ໌ນີ້.
 
 ## LANGUAGE INFO
 
@@ -1378,6 +1381,7 @@ sc-review-link = ທົບທວນ
 ## SETTINGS
 
 sc-settings-title = ການຕັ້ງຄ່າ
+sc-settings-reset-skipped = ຣີເຊັດປະໂຫຍກທີ່ຂ້າມ
 sc-settings-show-all-button = ສະແດງປະໂຫຍກທີ່ຂ້າມທັງໝົດອີກຄັ້ງ
 sc-validation-no-numbers = ປະໂຫຍກບໍ່ຄວນມີຕົວເລກ
 sc-validation-no-symbols = ປະໂຫຍກບໍ່ຄວນມີສັນຍາລັກ
