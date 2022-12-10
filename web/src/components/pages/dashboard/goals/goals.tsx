@@ -13,7 +13,7 @@ const GoalsPage = ({ allGoals, dashboardLocale }: Props) => (
           <GoalRow key={i} goalInfo={goalInfo} />
         ))}
     </div>
-    <CustomGoal key={dashboardLocale} {...{ dashboardLocale }} />
+    {/* <CustomGoal key={dashboardLocale} {...{ dashboardLocale }} /> */}
   </div>
 );
 

@@ -146,22 +146,23 @@ function Success({
       </div>
 
       {hasAccount ? (
-        !customGoal && (
-          <div className="info-card">
-            <Localized
-              id="help-reach-hours-pluralized"
-              vars={{ hours: 10000, language: getString(locale) }}>
-              <p />
-            </Localized>
-            <Localized id="get-started-goals">
-              <LinkButton
-                rounded
-                href={toLocaleRoute(URLS.GOALS)}
-                data-testid="get-started-goals"
-              />
-            </Localized>
-          </div>
-        )
+        <div />
+        // !customGoal && (
+        //   <div className="info-card">
+        //     <Localized
+        //       id="help-reach-hours-pluralized"
+        //       vars={{ hours: 10000, language: getString(locale) }}>
+        //       <p />
+        //     </Localized>
+        //     <Localized id="get-started-goals">
+        //       <LinkButton
+        //         rounded
+        //         href={toLocaleRoute(URLS.GOALS)}
+        //         data-testid="get-started-goals"
+        //       />
+        //     </Localized>
+        //   </div>
+        // )
       ) : (
         <div className="info-card">
           <Localized id="profile-explanation">

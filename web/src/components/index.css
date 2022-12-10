@@ -141,6 +141,17 @@ button {
 #main {
     position: relative;
     background-color: var(--white);
+    .header-wrapper {
+        background-color: var(--ksaa-1);
+    }
+    header {
+        a{
+            color: var(--white);
+        }
+        a.button {
+            color: var(--ksaa-1);
+        }
+    }
 }
 
 /**

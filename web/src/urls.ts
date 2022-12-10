@@ -49,7 +49,8 @@ export default Object.freeze({
   TARGET_SEGMENT_INFO_ES:
     'https://discourse.mozilla.org/t/ayuda-a-crear-el-primer-objetivo-segmentado-de-common-voice/60472/',
 
-  HTTP_ROOT: 'https://anlp.ksaa.gov.sa/voice',
+  // HTTP_ROOT: 'https://anlp.ksaa.gov.sa/voice',
+  HTTP_ROOT: 'http://localhost:9000',
   STAGING_ROOT: 'https://commonvoice.allizom.org',
   GITHUB_ROOT: 'https://github.com/mozilla/common-voice',
   MOZILLA_BLOG_ROOT: 'http://foundation.mozilla.org/blog',

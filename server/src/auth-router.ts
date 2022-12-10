@@ -80,7 +80,7 @@ if (DOMAIN) {
           {
             stage: 'https://commonvoice.allizom.org',
             prod: 'https://commonvoice.mozilla.org',
-            dev: 'https://dev.voice.mozit.cloud',
+            dev: 'http://localhost:9000',
             sandbox: 'https://sandbox.voice.mozit.cloud',
           } as any
         )[ENVIRONMENT] || '') + CALLBACK_URL,

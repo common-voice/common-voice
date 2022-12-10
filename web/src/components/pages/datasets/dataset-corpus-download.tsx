@@ -17,7 +17,7 @@ import DatasetCorpusDownloadTable from './dataset-corpus-download-table';
 import PageHeading from '../../ui/page-heading';
 import { formatBytes } from '../../../utility';
 import { DeltaReadMoreLink } from '../../shared/links';
-const EMAIL_ADDRESS = 'commonvoice@mozilla.com';
+import { COMMON_VOICE_EMAIL } from '../../../constants';
 
 interface Props {
   languagesWithDatasets: { id: number; name: string }[];
@@ -130,9 +130,9 @@ const DatasetCorpusDownload = ({
             <Localized
               id="download-dataset-access"
               elems={{
-                emailLink: <StyledLink href={`mailto:${EMAIL_ADDRESS}`} />,
+                emailLink: <StyledLink href={`mailto:${COMMON_VOICE_EMAIL}`} />,
               }}
-              vars={{ email: EMAIL_ADDRESS }}>
+              vars={{ email: COMMON_VOICE_EMAIL }}>
               <span />
             </Localized>
           </p>

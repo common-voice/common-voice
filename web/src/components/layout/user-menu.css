@@ -12,6 +12,9 @@
 
 .user-menu {
     margin: 0 16px;
+    button, span {
+        color: var(--white);
+    }
 
     @media (--sm-up) {
         max-width: 200px;
@@ -61,6 +64,9 @@
 
     & .menu-wrap {
         position: relative;
+        ul span {
+            color: var(--ksaa-1);
+        }
     }
 
     & .menu {
@@ -85,7 +91,7 @@
             margin: 0;
             padding: 0;
             list-style: none;
-            background: var(--white);
+            background: var(--ksaa-5);
             box-shadow: 0 2px 5px 0 var(--light-grey);
         }
 

@@ -17,7 +17,7 @@
             border-style: solid;
             border-color: var(--darker-grey);
             border-width: 1px 0 1px 1px;
-            background: var(--white);
+            background: var(--ksaa-4);
             transition: all 0.5s 0.3s;
 
             &:first-child {
@@ -31,7 +31,7 @@
 
             .text {
                 transition: all 0.5s 0.3s;
-                color: var(--near-black);
+                color: var(--white);
                 font-size: var(--font-size-xs);
                 align-self: center;
                 z-index: var(--top-z-index);
@@ -52,7 +52,7 @@
 
             &:hover,
             &.active {
-                background: var(--blue);
+                background: var(--ksaa-2);
 
                 .text {
                     color: white;

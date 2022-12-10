@@ -1,12 +1,18 @@
 :root {
+    --ksaa-1: #024E28;
+    --ksaa-2: #474747;
+    --ksaa-3: #459AA8;
+    --ksaa-4: #193D58;
+    --ksaa-5: #CECECE;
+    --ksaa-6: ￼#57072D;
     --white: white;
     --black: black;
-    --red: #ff4f5e;
+    --red: #D56028;
     --light-red: #fdc6c8;
-    --dark-red: #b90010;
+    --dark-red: #57072D;
     --green: #b7d43f;
-    --valid-green: #59cbb7;
-    --dark-green: #028a72;
+    --valid-green: #024E28;
+    --dark-green: #082F18;
     --near-black: #4a4a4a;
     --grey: #e7e5e2;
     --dark-grey: #575757;
@@ -22,8 +28,10 @@
     --inactive-grey: #575757;
     --anchor-text-blue: #1570ef;
 
-    --gradient-pink: #f89096;
-    --gradient-purple: #b1b4e5;
+    /* --gradient-pink: #f89096;
+    --gradient-purple: #b1b4e5; */
+    --gradient-pink: var(--ksaa-3);
+    --gradient-purple: var(--ksaa-5);
 
     --link-color: var(--dark-blue);
 

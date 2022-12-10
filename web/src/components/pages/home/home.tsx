@@ -1,6 +1,6 @@
 import { Localized } from '@fluent/react';
 import * as React from 'react';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { shallowEqual } from 'react-redux';
 import { trackHome } from '../../../services/tracker';
 import { useTypedSelector } from '../../../stores/tree';
@@ -14,8 +14,17 @@ import { ClipsStats, VoiceStats } from './stats';
 import URLS from '../../../urls';
 
 import './home.css';
+import LanguageCard from '../languages/language-card/language-card';
+import { useAPI } from '../../../hooks/store-hooks';
+import { LanguageStatistics } from 'common';
+import { ModalOptions } from '../languages/languages';
 
 type HeroType = 'speak' | 'listen';
+
+interface State {
+  launched: LanguageStatistics[];
+  localeMessages: string[][];
+}
 
 export default function HomePage() {
   const heroes = ['speak', 'listen'];
@@ -30,6 +39,53 @@ export default function HomePage() {
 
   const [activeHero, setActiveHero] = useState<null | HeroType>(null);
   const [showWallOfText, setShowWallOfText] = useState(false);
+
+  const setModalOptions = (options: ModalOptions) => {
+    setState(previousState => ({
+      ...previousState,
+      modalOptions: options,
+    }));
+  };
+
+  const [state, setState] = useState({
+    launched: [],
+    localeMessages: null,
+  } as State);
+
+  const {
+    launched,
+    localeMessages,
+  } = state;
+
+  const api = useAPI();
+
+  const loadData = async () => {
+    const [localeMessages, languageStats] = await Promise.all([
+      api.fetchCrossLocaleMessages(),
+      api.fetchLanguageStats(),
+    ]);
+
+    const languageStatistics = languageStats ?? [];
+
+    return { localeMessages, languageStatistics };
+  };
+
+  // on mount
+  useEffect(() => {
+    loadData().then(({ localeMessages, languageStatistics }) => {
+      setState(previousState => ({
+        ...previousState,
+        isLoading: false,
+        inProgress: languageStatistics.filter(
+          (lang: LanguageStatistics) => !lang.is_contributable
+        ),
+        launched: languageStatistics.filter(lang => lang.is_contributable && lang.locale == 'ar'),
+        filteredLaunched: launched,
+        localeMessages,
+      }));
+    });
+  }, []);
+
 
   return (
     <Page className="home">
@@ -126,11 +182,19 @@ export default function HomePage() {
         <ClipsStats.Root />
         <VoiceStats />
       </div>
-
       {user.account ? (
         <section className="contribute-section">
           <div className="mars-container">
-            <img src="/img/mars.svg" alt="Mars" />
+            {/* <img src="/img/mars.svg" alt="Mars" /> */}
+              {launched.map(language => (
+                <LanguageCard
+                  key={language.locale}
+                  localeMessages={localeMessages}
+                  type="launched"
+                  language={language}
+                  setModalOptions={setModalOptions}
+                />
+              ))}
           </div>
           <div className="cta">
             <ContributableLocaleLock

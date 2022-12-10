@@ -151,7 +151,7 @@ function Settings(props: Props) {
         </Section>
       )}
 
-      <Section title={getString('contribution-experience')} className="box">
+      {/* <Section title={getString('contribution-experience')} className="box">
         <div>
           <Localized id="skip-submission-feedback">
             <h3 className="feedback-toggle-title" />
@@ -186,7 +186,7 @@ function Settings(props: Props) {
             alt="Submission Success Screenshot"
           />
         </div>
-      </Section>
+      </Section> */}
     </div>
   );
 }

@@ -1,5 +1,6 @@
 import { Localized } from '@fluent/react';
 import * as React from 'react';
+import { COMMON_VOICE_EMAIL } from '../../constants';
 import Modal from '../modal/modal';
 import { Button, LabeledInput, LabeledTextArea } from '../ui/ui';
 
@@ -11,7 +12,7 @@ export default function ContactModal({ onRequestClose }: Props) {
   return (
     <Modal innerClassName="contact-modal" onRequestClose={onRequestClose}>
       <form
-        action="mailto:commonvoice@mozilla.com"
+        action={'mailto:' + COMMON_VOICE_EMAIL}
         method="post"
         encType="text/plain">
         <div className="title-and-action">

@@ -7,8 +7,8 @@ import PageTextContent from '../../../ui/page-text-content';
 import PageHeading from '../../../ui/page-heading';
 
 import './request.css';
+import { COMMON_VOICE_EMAIL } from '../../../../constants';
 
-const EMAIL_ADDRESS = 'commonvoice@mozilla.com';
 
 const LanguagesRequestSuccessPage = () => {
   return (
@@ -31,9 +31,9 @@ const LanguagesRequestSuccessPage = () => {
               <Localized
                 id="request-language-success-list-3"
                 elems={{
-                  emailLink: <StyledLink href={`mailto:${EMAIL_ADDRESS}`} />,
+                  emailLink: <StyledLink href={`mailto:${COMMON_VOICE_EMAIL}`} />,
                 }}
-                vars={{ email: EMAIL_ADDRESS }}>
+                vars={{ email: COMMON_VOICE_EMAIL }}>
                 <li />
               </Localized>
             </ul>

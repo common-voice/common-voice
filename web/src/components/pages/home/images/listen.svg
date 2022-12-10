@@ -1,20 +1,20 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="928" height="219" viewBox="0 0 928 219">
     <defs>
         <linearGradient id="a1" x1="42.657%" x2="42.657%" y1="46.673%" y2="22.995%">
-            <stop offset="0%" stop-color="#629FF4"/>
-            <stop offset="100%" stop-color="#59CBB7"/>
+            <stop offset="0%" stop-color="#459AA8"/>
+            <stop offset="100%" stop-color="#CECECE"/>
         </linearGradient>
         <linearGradient id="a2" x1="100%" x2="0%" y1="50%" y2="50%">
-            <stop offset="0%" stop-color="#629FF4"/>
-            <stop offset="100%" stop-color="#59CBB7"/>
+            <stop offset="0%" stop-color="#459AA8"/>
+            <stop offset="100%" stop-color="#CECECE"/>
         </linearGradient>
         <linearGradient id="a3" x1="50.785%" x2="62.927%" y1="55.71%" y2="7.002%">
-            <stop offset="0%" stop-color="#629FF4"/>
-            <stop offset="100%" stop-color="#59CBB7"/>
+            <stop offset="0%" stop-color="#459AA8"/>
+            <stop offset="100%" stop-color="#CECECE"/>
         </linearGradient>
         <linearGradient id="a4" x1="59.046%" x2="59.046%" y1="119.929%" y2="5.285%">
-            <stop offset="0%" stop-color="#629FF4"/>
-            <stop offset="100%" stop-color="#59CBB7"/>
+            <stop offset="0%" stop-color="#459AA8"/>
+            <stop offset="100%" stop-color="#CECECE"/>
         </linearGradient>
     </defs>
     <path fill="url(#a1)" fill-rule="evenodd" d="M-176.76 59.256C9.35 57.427 139.86 192.7 219.165 218.888c79.306 26.188 128.875-1.008 178.44-28.201 49.567-27.193 110.7-42.301 204.877 30.215 94.177 72.517 188.141-97.007 188.141-97.007s34.733-66.78 127.361-64.64c93.893 2.17 104.205 80.244 129.015 111.447 24.81 31.204 47.48 109.167 369.892 109.167h429.389v19.733s-433.65 7.975-600.493 14.434c-128.21 4.969-173.152 51.143-189.69 82.358-16.54 31.214-54.584 122.592-133.978 121.478-79.394-1.114-110.82-30.091-168.71-104.766-57.89-74.674-155.057-47.673-196.363-35.587-41.307 12.085-135.484 37.265-204.877-34.245-69.392-71.51-138.788-51.366-180.092-24.171C130.773 346.297-18.295 522-176.76 522c-388.588-3.117-368.78-192.363-368.78-242.13 0-49.768-36.829-228.544 368.78-220.614z" opacity=".1" transform="translate(0 -59)"/>

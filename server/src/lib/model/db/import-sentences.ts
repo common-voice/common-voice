@@ -21,7 +21,8 @@ function print(...args: any[]) {
 
 async function getFilesInFolder(path: string): Promise<string[]> {
   const fileNames = await promisify(fs, fs.readdir, path);
-  return fileNames.map((name: string) => {
+  return fileNames
+  .map((name: string) => {
     return path + '/' + name;
   });
 }
@@ -159,7 +160,9 @@ export async function importSentences(pool: any) {
   print('locales', locales.join(','));
 
   for (const locale of locales) {
-    await importLocaleSentences(pool, locale, version);
+    if (locale === 'ar') {
+      await importLocaleSentences(pool, locale, version);
+    }
   }
 
   (await useRedis) &&

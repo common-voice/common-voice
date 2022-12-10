@@ -181,7 +181,7 @@
 
             & .mars-container {
                 margin-inline-end: 30px;
-                display: flex;
+                /* display: flex; */
                 justify-content: flex-end;
             }
         }

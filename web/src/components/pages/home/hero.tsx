@@ -124,7 +124,7 @@ class Hero extends React.Component<
           <div {...this.getToggleableProps(2)}>
             <Localized
               id="help-reach-goal"
-              vars={{ goal: DAILY_GOALS[type][0] }}>
+              vars={{ goal: type === 'speak' ? 'أسمعنا صوتك' : 'استمع واستمتع' }}>
               <div className="cta-message" />
             </Localized>
           </div>
@@ -136,8 +136,8 @@ class Hero extends React.Component<
           <span className="progress-count">
             <span className="current">{count === null ? '?' : count}</span>
             <span className="total">
-              {' / '}
-              {DAILY_GOALS[type][0]}
+              {/* {' / '}
+              {DAILY_GOALS[type][0]} */}
             </span>
           </span>
           <p>

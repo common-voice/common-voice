@@ -195,7 +195,9 @@ function ProfileInfo({
 
   return (
     <div className="profile-info">
-      <h1>Profile</h1>
+      <Localized id="profile">
+        <h1 />
+      </Localized>
 
       {termsStatus === 'show' && (
         <TermsModal onAgree={submit} onDisagree={() => setTermsStatus(null)} />
@@ -284,7 +286,7 @@ function ProfileInfo({
             </Tooltip>
 
             <div className="checkboxes">
-              <LabeledCheckbox
+              {/* <LabeledCheckbox
                 label={
                   <>
                     <Localized id="email-opt-in-info-title">
@@ -298,7 +300,7 @@ function ProfileInfo({
                 onChange={handleChangeFor('sendEmails')}
                 checked={sendEmails}
                 name="email-opt-in"
-              />
+              /> */}
 
               <LabeledCheckbox
                 {...(user.account || isSubmitted ? { disabled: true } : {})}

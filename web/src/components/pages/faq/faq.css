@@ -448,6 +448,10 @@
             &:nth-child(even) {
                 & .faq-a {
                     left: 0;
+                    [dir=rtl] & {
+                        right: 0;
+                        left: unset;
+                    }
                 }
             }
         }

@@ -1,4 +1,5 @@
 import * as React from 'react';
+import { COMMON_VOICE_EMAIL } from '../../../constants';
 
 export const PARTNER_OPTIONS = [
   {
@@ -15,7 +16,7 @@ export const PARTNER_OPTIONS = [
       ),
       emailFragment: (
         <a
-          href="mailto:commonvoice@mozilla.com?subject=Community partnership"
+          href={`mailto:${COMMON_VOICE_EMAIL}?subject=Community partnership`}
           target="_blank"
           rel="noreferrer">
           get in touch.
@@ -41,7 +42,7 @@ export const PARTNER_OPTIONS = [
     elems: {
       emailFragment: (
         <a
-          href="mailto:commonvoice@mozilla.com?subject=Government partnership"
+          href={`mailto:${COMMON_VOICE_EMAIL}?subject=Government partnership`}
           target="_blank"
           rel="noreferrer">
           get in touch.
@@ -54,7 +55,7 @@ export const PARTNER_OPTIONS = [
     elems: {
       emailFragment: (
         <a
-          href="mailto:commonvoice@mozilla.com?subject=Academic partnership"
+          href={`mailto:${COMMON_VOICE_EMAIL}?subject=Academic partnership`}
           target="_blank"
           rel="noreferrer">
           reach out.
@@ -67,7 +68,7 @@ export const PARTNER_OPTIONS = [
     elems: {
       emailFragment: (
         <a
-          href="mailto:commonvoice@mozilla.com?subject=Business partnership"
+          href={`mailto:${COMMON_VOICE_EMAIL}?subject=Business partnership`}
           target="_blank"
           rel="noreferrer">
           hear from you.
@@ -80,7 +81,7 @@ export const PARTNER_OPTIONS = [
     elems: {
       emailFragment: (
         <a
-          href="mailto:commonvoice@mozilla.com?subject=Corporate partnership"
+          href={`mailto:${COMMON_VOICE_EMAIL}?subject=Corporate partnership`}
           target="_blank"
           rel="noreferrer">
           drop us a line.

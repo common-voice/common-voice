@@ -26,10 +26,10 @@ const About: React.ComponentType = React.memo(() => {
           },
           Nav,
         ],
-        [SECTIONS.HOW_IT_WORKS, HowItWorks],
-        [SECTIONS.SUBSCRIBE, Subscribe],
+        // [SECTIONS.HOW_IT_WORKS, HowItWorks],
+        // [SECTIONS.SUBSCRIBE, Subscribe],
         [SECTIONS.PLAYBOOK, Playbook],
-        [SECTIONS.GET_INVOLVED, GetInvolved],
+        // [SECTIONS.GET_INVOLVED, GetInvolved],
       ].map(([section, SectionComponent]: [string, any], index: number) => {
         if (typeof section === 'object') {
           return <SectionComponent key={`section-${index}`} {...section} />;

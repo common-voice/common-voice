@@ -21,9 +21,8 @@ import ClientLogger from '../../../../logger';
 
 const logger = new ClientLogger({ name: 'LanguagesRequestFormPage' });
 
-const EMAIL_ADDRESS = 'commonvoice@mozilla.com';
-
 import './request.css';
+import { COMMON_VOICE_EMAIL } from '../../../../constants';
 
 const LanguagesRequestFormPage = () => {
   const api = useAPI();
@@ -100,9 +99,9 @@ const LanguagesRequestFormPage = () => {
         <Localized
           id="request-language-error"
           elems={{
-            emailLink: <StyledLink href={`mailto:${EMAIL_ADDRESS}`} />,
+            emailLink: <StyledLink href={`mailto:${COMMON_VOICE_EMAIL}`} />,
           }}
-          vars={{ email: EMAIL_ADDRESS }}>
+          vars={{ email: COMMON_VOICE_EMAIL }}>
           <p />
         </Localized>
       </ErrorPage>

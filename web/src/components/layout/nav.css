@@ -14,7 +14,7 @@ header {
     transition: background-color var(--transition-duration) linear,
         box-shadow var(--transition-duration) linear;
     padding: var(--page-margin);
-    background: var(--white);
+    background: var(--ksaa-1);
     z-index: var(--header-z-index);
 
     @media (--lg-up) {
@@ -174,7 +174,7 @@ header {
     }
 
     & .validate-tally {
-        color: var(--valid-green);
+        color: var(--ksaa-3);
 
         & svg {
             margin-inline-end: 5px;
@@ -182,7 +182,7 @@ header {
         }
 
         & path {
-            fill: var(--valid-green);
+            fill: var(--ksaa-3);
         }
     }
 }

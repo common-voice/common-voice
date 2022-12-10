@@ -20,7 +20,7 @@
     }
 
     .notification-text {
-        color: #f89096;
+        color: var(--gradient-pink);
         margin: 0 1rem;
 
         a {

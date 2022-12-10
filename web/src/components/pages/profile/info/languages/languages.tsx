@@ -79,7 +79,9 @@ function ProfileInfoLanguages({
 
   return (
     <>
-      <h2>Languages</h2>
+      <Localized id="languages">
+        <h2 />
+      </Localized>
 
       <div className="form-fields">
         {userLanguages.map(({ locale, accents }) => (
@@ -124,7 +126,7 @@ function ProfileInfoLanguages({
             </Localized>
           </ExpandableInformation>
         )}
-        <Button
+        {/* <Button
           className="add-language"
           outline
           disabled={hasNewEmptyLanguage}
@@ -133,7 +135,7 @@ function ProfileInfoLanguages({
             <span />
           </Localized>
           <span aria-hidden={true}>+</span>
-        </Button>
+        </Button> */}
 
         {!hasUserLanguages && (
           <Localized id="profile-select-language">
@@ -141,14 +143,14 @@ function ProfileInfoLanguages({
           </Localized>
         )}
 
-        <div style={{ marginTop: 10 }}>
+        {/* <div style={{ marginTop: 10 }}>
           <Localized id="request-language-text" />{' '}
           <LocaleLink to={URLS.LANGUAGE_REQUEST} className="link">
             <Localized id="request-language-button">
               <i />
             </Localized>
           </LocaleLink>
-        </div>
+        </div> */}
       </div>
     </>
   );

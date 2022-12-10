@@ -82,7 +82,7 @@ export default function ProgressCard({
         <Localized id={isSpeak ? 'clips-you-recorded' : 'clips-you-validated'}>
           <div className="description" />
         </Localized>
-        <div className="custom-goal-section">
+        {/* <div className="custom-goal-section">
           {customGoal && hasCustomGoalForThis ? (
             <LocaleLink className="custom-goal-link" to={goalsPath}>
               <CircleProgress value={currentCustomGoal / customGoal.amount} />
@@ -104,7 +104,7 @@ export default function ProgressCard({
               </Localized>
             )
           )}
-        </div>
+        </div> */}
       </div>
 
       <div className="progress-wrap">
@@ -130,7 +130,7 @@ export default function ProgressCard({
           }>
           <div className="description" />
         </Localized>
-        <Localized id="help-reach-goal" vars={{ goal: overallGoal }}>
+        {/* <Localized id="help-reach-goal" vars={{ goal: overallGoal }}>
           <LinkButton
             rounded
             outline
@@ -142,7 +142,7 @@ export default function ProgressCard({
               trackDashboard(isSpeak ? 'speak-cta' : 'listen-cta', globalLocale)
             }
           />
-        </Localized>
+        </Localized> */}
       </div>
     </div>
   );

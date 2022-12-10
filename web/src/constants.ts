@@ -21,4 +21,4 @@ export const WHATS_PUBLIC = [
 ];
 
 // @TODO: use this constant in other files where we use this email
-export const COMMON_VOICE_EMAIL = 'commonvoice@mozilla.com';
+export const COMMON_VOICE_EMAIL = 'info@ksaa.gov.sa';

@@ -115,7 +115,7 @@
     background-size: cover;
     #demo-contribute-speak-button {
         #speak-background {
-            background: linear-gradient(90deg, #f89096 0%, #b1b5e5 100%);
+            background: linear-gradient(90deg, var(--gradient-pink) 0%, var(--gradient-purple) 100%);
         }
     }
     &:hover {
