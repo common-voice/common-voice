@@ -637,7 +637,8 @@ about-playbook-how-validate-content-4 = Әгәр дә клип 2 кеше тар
 ## How to access dataset
 
 about-playbook-how-access-dataset = Мәгълүматлар тупланмасын кайдан табып алып кулланып була?
-about-playbook-how-access-dataset-content-1 = <datasetsPage>Мәгълүмат тупланмасы битенә</datasetsPage> күчеп, версиясен һәм тел(ләр)не сайлап, аны компьютерыгызга йөкли аласыз! Файллар демографик һәм тикшерү мәгълүматлары кебек <metadataLink>метамәгълүматлар белән бәйләнгән</metadataLink>. Мәгълүмат тупланмасын йөкләү өчен эл. почта адресын кертергә кирәк булачак.
+about-playbook-how-access-dataset-content-1 = <datasetsPage>Мәгълүмат тупланмасы битенә</datasetsPage> күчеп, версиясен һәм тел(ләр)не сайлап, аны компьютерыгызга иңдерә аласыз! Файллар демографик һәм тикшерү мәгълүматлары кебек <metadataLink>метамәгълүматлар белән бәйләнгән</metadataLink>. Мәгълүмат тупланмасын иңдерү өчен эл. почта адресын кертергә кирәк булачак.
+about-playbook-how-access-dataset-content-2 = Автоматик сөйләм тану (ASR) модельләрен төзү өчен корал эзлисез икән, берләшмәдәге башка кешеләр белән <discourseLink>Discourse аша</discourseLink> элемтәгә керә аласыз.
 
 ## How are decisions made
 
