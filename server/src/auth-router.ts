@@ -136,7 +136,7 @@ router.get(
 
     const { locale, old_user, old_email, redirect, enrollment } = currentState;
 
-    const basePath = locale ? `/${locale}/` : '/';
+    const basePath = locale ? `/voicewall/${locale}/` : '/voicewall/';
     if (!user) {
       response.redirect(basePath + 'login-failure');
     } else if (old_user) {
@@ -147,7 +147,7 @@ router.get(
       if (!success) {
         session.passport.user = old_user;
       }
-      response.redirect('/profile/settings?success=' + success.toString());
+      response.redirect('/voicewall/profile/settings?success=' + success.toString());
     } else if (enrollment?.challenge && enrollment?.team) {
       if (
         !(await UserClient.enrollRegisteredUser(
