@@ -63,29 +63,29 @@ const SECTION_CONTENTS: any = {
     //     },
     //   },
     // ],
-    'faq-do-want-native',
-    [
-      'faq-why-different-speakers-q',
-      'faq-why-different-speakers-a',
-      {
-        elems: {
-          articleLink: <StyledLink href="https://econ.st/2AVxVG3" blank />,
-        },
-      },
-    ],
-    [
-      'faq-why-my-lang-q',
-      'faq-why-my-lang-a',
-      {
-        elems: {
-          languageRequestLink: <StyledLink to={URLS.LANGUAGE_REQUEST} />,
-        },
-      },
-    ],
-    'faq-what-quality',
-    'faq-why-10k-hours',
-    'faq-why-not-ask-read',
-    'faq-how-calc-hours',
+    // 'faq-do-want-native',
+    // [
+    //   'faq-why-different-speakers-q',
+    //   'faq-why-different-speakers-a',
+    //   {
+    //     elems: {
+    //       articleLink: <StyledLink href="https://econ.st/2AVxVG3" blank />,
+    //     },
+    //   },
+    // ],
+    // [
+    //   'faq-why-my-lang-q',
+    //   'faq-why-my-lang-a',
+    //   {
+    //     elems: {
+    //       languageRequestLink: <StyledLink to={URLS.LANGUAGE_REQUEST} />,
+    //     },
+    //   },
+    // ],
+    // 'faq-what-quality',
+    // 'faq-why-10k-hours',
+    // 'faq-why-not-ask-read',
+    // 'faq-how-calc-hours',
     [
       'faq-where-src-from-2-q',
       'faq-where-src-from-2-a',
@@ -102,7 +102,7 @@ const SECTION_CONTENTS: any = {
       },
     ],
     ['faq-why-account-q', BENEFITS],
-    ['faq-is-account-public-q', WHATS_PUBLIC],
+    // ['faq-is-account-public-q', WHATS_PUBLIC],
     'faq-how-privacy',
     'faq-what-determine-identity',
   ],
