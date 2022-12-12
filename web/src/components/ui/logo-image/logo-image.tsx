@@ -10,7 +10,7 @@ const LogoImage = ({ isReverse }: Props) => {
     : require('./cv-logo-black.svg');
 
   return (
-    <img className="LogoImage" src="/img/logo-white-transparent.png" alt="Mozilla Common Voice" style={
+    <img className="LogoImage" src="/voicewall/img/logo-white-transparent.png" alt="Mozilla Common Voice" style={
       {
         width: "100%",
       }
