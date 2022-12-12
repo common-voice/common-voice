@@ -35,7 +35,7 @@ import RecordingPill from './recording-pill';
 import { SentenceRecording } from './sentence-recording';
 import SpeakErrorContent from './speak-error-content';
 import { USER_LANGUAGES } from './firstSubmissionCTA/firstPostSubmissionCTA';
-import { isStringTrue } from '../../../../utility';
+import { castTrueString } from '../../../../utility';
 
 import './speak.css';
 
@@ -514,8 +514,13 @@ class SpeakPage extends React.Component<Props, State> {
   private handleSubmit = (evt: React.SyntheticEvent) => {
     const { user } = this.props;
 
-    const hasSeenFirstCTA = window.sessionStorage.getItem(SEEN_FIRST_CTA);
-    const hasSeenSecondCTA = window.sessionStorage.getItem(SEEN_SECOND_CTA);
+    const hasSeenFirstCTA = castTrueString(
+      window.sessionStorage.getItem(SEEN_FIRST_CTA)
+    );
+
+    const hasSeenSecondCTA = castTrueString(
+      window.sessionStorage.getItem(SEEN_SECOND_CTA)
+    );
 
     this.props.updateUser({ privacyAgreed: this.state.privacyAgreedChecked });
 
@@ -523,23 +528,17 @@ class SpeakPage extends React.Component<Props, State> {
     this.upload(this.state.privacyAgreedChecked);
 
     if (!user.account) {
-      if (!isStringTrue(hasSeenFirstCTA)) {
+      if (!hasSeenFirstCTA) {
         // display first CTA screen if it has not been seen it before
         // and the user does not have an account
         this.setState({ shouldShowFirstCTA: true });
         window.sessionStorage.setItem(SEEN_FIRST_CTA, 'true');
-      } else if (
-        isStringTrue(hasSeenFirstCTA) &&
-        !isStringTrue(hasSeenSecondCTA)
-      ) {
+      } else if (hasSeenFirstCTA && !hasSeenSecondCTA) {
         // display second CTA screen if it has not been seen it before and the first CTA has been seen
         // and the user does not have an account
         this.setState({ shouldShowSecondCTA: true });
         window.sessionStorage.setItem(SEEN_SECOND_CTA, 'true');
-      } else if (
-        isStringTrue(hasSeenFirstCTA) &&
-        isStringTrue(hasSeenSecondCTA)
-      ) {
+      } else if (hasSeenFirstCTA && hasSeenSecondCTA) {
         // Reset for unauthenticated users who have seen the first and
         // second CTA so they can see new sentences to record
         this.resetState();
