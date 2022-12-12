@@ -101,7 +101,7 @@ const SECTION_CONTENTS: any = {
         },
       },
     ],
-    ['faq-why-account-q', BENEFITS],
+    'faq-why-account',
     // ['faq-is-account-public-q', WHATS_PUBLIC],
     'faq-how-privacy',
     'faq-what-determine-identity',
