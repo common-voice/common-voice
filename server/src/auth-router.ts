@@ -138,7 +138,7 @@ router.get(
 
     const { locale, old_user, old_email, redirect, enrollment } = currentState;
 
-    const basePath = locale ? `/voicewall/${locale}/` : '/voicewall/';
+    const basePath = locale ? `/${locale}/` : '/';
     if (!user) {
       response.redirect(basePath + 'login-failure');
     } else if (old_user) {
