@@ -10,6 +10,8 @@ import { LabeledInput } from '../../../../../ui/ui';
 import { AccentsAll } from '../languages';
 import { UserLanguage } from 'common';
 
+import InputLanguageAccentsList from '../input-language-accents/input-language-accents-list';
+
 import './input-language-accents.css';
 
 // TODO: Types for Downshift haven't caught up yet. Can be removed in the future
@@ -27,6 +29,7 @@ function stateReducer(state: any, changes: any) {
     case Downshift.stateChangeTypes.keyDownEnter:
     case Downshift.stateChangeTypes.clickItem:
     case Downshift.stateChangeTypes.mouseUp:
+    case Downshift.stateChangeTypes.blurInput:
       return {
         ...changes,
         inputValue: '',
@@ -38,6 +41,7 @@ function stateReducer(state: any, changes: any) {
 
 interface Props {
   locale: string;
+  accents?: Array<{ id: number; name: string }>;
   accentsAll: AccentsAll;
   userLanguages: UserLanguage[];
   setUserLanguages: (userLanguages: UserLanguage[]) => void;
@@ -46,6 +50,7 @@ interface Props {
 const InputLanguageAccentsInput = ({
   locale,
   accentsAll,
+  accents,
   userLanguages,
   setUserLanguages,
   getString,
@@ -98,7 +103,9 @@ const InputLanguageAccentsInput = ({
     <>
       <Downshift
         onChange={selection => {
-          updateCustomAccent(selection, locale);
+          if (selection !== null) {
+            updateCustomAccent(selection, locale);
+          }
         }}
         stateReducer={stateReducer}
         itemToString={item => (item ? item.name : '')}>
@@ -111,6 +118,7 @@ const InputLanguageAccentsInput = ({
           inputValue,
           highlightedIndex,
           selectItem,
+          clearSelection,
         }) => {
           const options = getAutocompleteAccents(locale).filter(item =>
             clean(item.name).includes(clean(inputValue))
@@ -188,6 +196,14 @@ const InputLanguageAccentsInput = ({
                   )}
                 </ul>
               ) : null}
+
+              <InputLanguageAccentsList
+                locale={locale}
+                accents={accents}
+                userLanguages={userLanguages}
+                setUserLanguages={setUserLanguages}
+                clearSelection={clearSelection}
+              />
             </div>
           );
         }}

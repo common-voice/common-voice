@@ -16,14 +16,26 @@ export const SecondPostSubmissionCTA: React.FC<
 > = ({ onReset }) => {
   const { height, width } = useWindowSize();
 
+  const confettiSourceObject = {
+    w: 10,
+    h: 10,
+    x: width / 2,
+    y: height / 2.5,
+  };
+
   return (
     <div data-testid="second-submission-cta">
       <Confetti
         width={width}
         height={height}
-        numberOfPieces={180}
-        gravity={0.03}
+        numberOfPieces={200}
+        gravity={0.1}
         recycle={false}
+        initialVelocityX={8}
+        initialVelocityY={14}
+        opacity={70}
+        confettiSource={confettiSourceObject}
+        tweenDuration={7000}
       />
       <div className="second-cta-container">
         <div className="header-container">
@@ -37,19 +49,14 @@ export const SecondPostSubmissionCTA: React.FC<
           </div>
           <div className="header-text-container">
             <Localized id="second-cta-header-text">
-              <h1 className="header-text">
-                Thank you for contributing your voice!
-              </h1>
+              <h1 className="header-text" />
             </Localized>
           </div>
         </div>
 
         <div className="subtitle-text-container">
           <Localized id="second-cta-subtitle-text">
-            <h2 className="subtitle-text">
-              With a profile, you can keep track of your activity and connect
-              with a community of voice data contributors.
-            </h2>
+            <h2 className="subtitle-text" />
           </Localized>
         </div>
 
@@ -59,26 +66,24 @@ export const SecondPostSubmissionCTA: React.FC<
               rounded
               className="create-profile-button"
               data-testid="create-profile-button"
-              href="/login">
-              Create a profile
-            </LinkButton>
+              href="/login"
+            />
           </Localized>
           <Localized id="continue-speaking-button">
             <Button
               rounded
               data-testid="continue-speaking-button"
-              onClick={onReset}>
-              No thanks, continue speaking
-            </Button>
+              onClick={onReset}
+            />
           </Localized>
         </div>
 
         <Localized
           id="already-have-an-account"
           elems={{
-            login: <a href="/login">Log-In</a>,
+            login: <a href="/login" />,
           }}>
-          <p className="login-text">Already have an account? Log-In</p>
+          <p className="login-text" />
         </Localized>
       </div>
     </div>

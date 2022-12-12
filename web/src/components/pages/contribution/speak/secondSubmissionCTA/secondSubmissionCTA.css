@@ -1,6 +1,6 @@
 .second-cta-container {
     position: absolute;
-    top: 20%;
+    top: 15%;
     left: 15%;
     background: rgba(229, 229, 229, 0);
     width: 70%;
@@ -14,6 +14,13 @@
 
         .happy-mars-container {
             margin-bottom: 30px;
+
+            img {
+                @media (--xs-only) {
+                    height: 120px;
+                    width: 120px;
+                }
+            }
         }
     }
 
@@ -37,6 +44,10 @@
 
     .subtitle-text-container {
         margin-bottom: 70px;
+
+        @media (--xs-only) {
+            margin-bottom: 40px;
+        }
     }
 
     & .create-profile-button {
@@ -64,6 +75,10 @@
 
     .login-text {
         text-align: center;
+
+        @media (--xs-only) {
+            margin-bottom: 20px;
+        }
 
         a {
             color: var(--anchor-text-blue);
