@@ -15,10 +15,13 @@ A kilame vana
 A kotî ciwîyena?
 A kî ma musnaya
 A mintiqa de kî vajîyeno
+A mitbaxe de bîye
 A musena
 A nuştoxa kirmance bîye
 A nêremena
 A nêwazena.
+A nêzana se vaja
+A nêzana se vajo
 A nêşîyêne
 A para pîl a
 A qala to zaf bi mi ginaye
@@ -47,18 +50,25 @@ Afîyet bo
 Agêreno welatê xo
 Agêrenê dewe
 Agêrenê şaristan
+Akademî xîret kena
 Akademîsyenê enstîtuyî yê
+Akademîya ma wayîra tedeyîya zengîn a
 Aktar zaf cigirîyeno
+Aktîvîteyê hunerî astêka berze de yê
+Aktîvîteyê hunerî seba mezgî zaf bifayde yê
 Ame tekrarkerdene
 Ameyî ey het
 Ancax ti zanî
 Ancî zî nêeşkayo
 Ancîya mi de bîyêne laubalî
+Ano koşkê xo
 Ano verê yew birrî
+Apey gamêk nêerzenê
 Apo, apo, vengê to weş o!
 Apê mi dewlemend o
 Aqilo sivik, baro giran.
 Ardêne tîya
+Armanc kenê ke domanê kurdî bêpar nêmanê
 Arêdayîşê enformasyonan muhîm o
 Asmên de estareyê girdî est bîyî
 Asmên de estareyê girsî est bîyî
@@ -78,6 +88,7 @@ Awir dana
 Awke de eksê xo vîneno
 Ax leminê!
 Axir qedîya
+Axir, ma netîceyêka hole viste dest
 Ay dayê!
 Aye beno nêweşxane
 Aye cewabêko winasî da
@@ -85,6 +96,7 @@ Aye ez dîya
 Aye hendê înan şîkayet nêkerd
 Aye lorna
 Aye na cumle vatbî
+Aye ra panc sey qat girdêr a
 Aye ra tepîya bena diganî
 Aye ra tepîya sere birnenê
 Aye solê mi esteritêne
@@ -93,6 +105,7 @@ Azad hevalê min o.
 Azadî şelwarê xo vermeqlub pay kerdê
 Aşma gulan a
 Aşma pirpancêse vînenîme
+Aşme de awe dîyaye
 Aşme hendeyê gole girse bîye
 Aşme qasê gole girde bîye
 Aşme şewle dana
@@ -142,6 +155,7 @@ Beşê Ziwan û Edebîyatê Zazayan est o
 Bi awe ra şutêne
 Bi dest werd
 Bi dimilîyan a zewijîyayê
+Bi dostênî bimanê weşîye de
 Bi erebe ra hereket kena.
 Bi goşanê xo cêser keno
 Bi hawayo pêroyî muqayese kenê
@@ -155,10 +169,13 @@ Bi hêvîya rojanê weşan
 Bi keyf û zerrîweşîye biwane
 Bi nameyê Heqî
 Bi nameyê Homayî
+Bi nê hawayî yeno kerdene
+Bi nê hawayî, merdiman de depresyon virazîya
 Bi nê nameyî dest pêkeno
 Bi nê peygirî nameyê nêrî virazîyenê
 Bi o tewir kewtîme wisar
 Bi o tewir roje vêrde ra
+Bi paştdayîşê Merdimînî tirkî ra çarnayo kirdkî
 Bi qeleme nuşt
 Bi rengo sûr nîşan kerdibî.
 Bi rêstike peşm rêsena
@@ -202,8 +219,10 @@ Birayê mi nêweş o.
 Birayê mi tîya de nîyo.
 Birayê mi zaf zanayox o
 Birayê min o
+Birayê xo ra vajî
 Birayê yewbînan ê
 Birayênê, mekerê!
+Biresnîme înan ke kulturê ma dewam kero
 Birîna to wegîrîyaya
 Birînî vejîyayê
 Bizan biçerêne
@@ -217,6 +236,7 @@ Bostan awe dîyayo
 Boya aye pirnika mi de bî
 Boya aye zîncîya mi de bî
 Boya pîse yena
+Boya rûnê gulan gêna
 Boye yena
 Broşur hîna çapxane de bî
 Burcê mi şêr o
@@ -226,6 +246,7 @@ Bê rayîr ser
 Bê to her kes amebî
 Bê tîya!
 Bê tîya, dostê min o ezîz!
+Bêemsal o
 Bêfeyde yo
 Bêguman merdim zereyê yew banî de yo.
 Bêguman nê her di formî zî kirmanckî yê
@@ -239,6 +260,7 @@ Bêçika mi dejena
 Bîlal avûkat o.
 Bîlasebeb qisey keno
 Bîyo wayîrê domanan
+Ca bi ca vurîyeno
 Ca de erzîya
 Ca de pel dareno we
 Ca de vazdano
@@ -322,6 +344,8 @@ De ti zî vaje
 De vaje!
 De weta şo
 Dejê înan dejê ma yo.
+Dem demê wayîrvejîyayîşê nê rojanê mîlîyan o
+Dem demê ziwanî yo
 Demêdo kilm de beno wayîrê pereyan
 Derba leşkerî hezar new sey û heştay de qewimîyaye
 Derdê kêneke ci ra vano
@@ -333,7 +357,12 @@ Dergaderg ewnîya mi ra
 Dergkerdişê qisa hewce nîyo.
 Derheqê ey de tewr zaf kitabî nusîyayî
 Derheqê nê meseleyî de zanayîşê mi çin o
+Derheqê tarîxê roje de her kes çîyê vano
+Derheqê çalakîyan de eşkerayîye daye
 Dersa masterê kurdkî ya verêne virazîyaye
+Derzîna vera kanserî, merdiman ser o ceribnena
+Derzîna vîrusê Korona viraşta
+Derzîne bitesîr a
 Derzîne destê mi de şîye
 Derzîne destê mi ra şîye
 Derzîne destê mi ro şîye
@@ -389,8 +418,10 @@ Deymîş nêbeno vano
 Deyndar beno
 Deyndarê ci yê
 Deyîra “Mehmedê Aldunî” zaf rindek a
+Di hezar û hewtês de Amed de awan bîye
 Di hezar û vîst û di
 Di hûmarî vejîyayî
+Di kesî birîndarî bîyî
 Di merdimî yenê.
 Di rey di, keno çar
 Di reyî ti şîya
@@ -414,6 +445,7 @@ Dima, mi reyna kitaban de nîyada
 Dima, tewşkanî qalî kerd
 Dimayî rê verde
 Dinya de kitabo tewr namdar o
+Dinya lezêr gêrena
 Dixazkanîye de mirena
 Diza Sêwregî demê Asurîyan de virazîyaya.
 Dizdî ya sindoqe kerde ra
@@ -446,11 +478,13 @@ Dêrsim de çemo tewr namdar o
 Dêsanê odaya xo de reng bi reng resimî est ê
 Dîwan de ronişte yo
 Dîwan nano ro
+Dîyarîya pêro cinîyan ameye kerdene
 Dîyayîşê aye ra peyda bîbî
 E, raşt o
 E, se bî?
 Ecêb o
 Edebîyatê kurdan, edebîyatê roşnvîran o
+Efendîyê xo ra vajî
 Egoîst mebe!
 Ehendêk bes nîyo?
 Eke a bêra, o zî yeno
@@ -501,6 +535,7 @@ Ero no çik o?
 Ero, ti se vana?
 Erzingan sûkêda kan a
 Erzingan şaristanêko kan o
+Erzîyeno zereyê bîrî
 Erê, vengê xo meke!
 Eserê girdî peyda benê
 Esker ame koyê Jêle
@@ -655,9 +690,11 @@ Ez pê qayîl nîya
 Ez pê îftîxar kena
 Ez pêşkêşê şima kena
 Ez qayîl nîya
+Ez qayît kena ke raştî kî rind nêno zanayene
 Ez qebul kena
 Ez qebul nêkena
 Ez qefilîyaya
+Ez qet nêtersaya
 Ez qet nêşîya
 Ez resimê ey virazena
 Ez resimê çitayî bideqnî?
@@ -671,6 +708,7 @@ Ez sey to keno
 Ez sey to nîya
 Ez sipas kena
 Ez soyaya
+Ez tayê ser o vineta
 Ez tena ya
 Ez tirkî nêzana
 Ez to ra hes kena.
@@ -686,6 +724,7 @@ Ez vejîyaya teber
 Ez ver bi Dîyarbekirî şona
 Ez vernî de, a mi dima ma şîyê mitbaxe.
 Ez wazena to rê bizike bipewjî
+Ez wazena çand çekuyan bîyarî ra ziwan û binusnî
 Ez xerîb a
 Ez xo rê yew weçînî
 Ez yarîyanê winayênan ra hes nêkena.
@@ -694,6 +733,7 @@ Ez yew gedeyê burjuwa yo
 Ez yew ko vînena
 Ez yew nimûne dana
 Ez zaf heyecanin bîya
+Ez zaf qefilîyaya
 Ez zaf şa bîya!
 Ez zana
 Ez zanena
@@ -723,6 +763,8 @@ Eşq kewtêne mîyanê miletî
 Eşt xo şele
 Eşîra milan Kurdîstan de eşîrêda tewr hîra ya.
 Fate yew meqale nusena
+Faturaya ci birîyena
+Faydeyanê ci ra bêpare mend
 Fehmkerdişê ci zaf asan o
 Fek ci ra veradano
 Fek ra çekuyêk zî vejîyo
@@ -749,10 +791,13 @@ Fir dano şono serê refî
 Firsend kewt cinîke dest
 Firsend xo dest ra nêfîneno
 Fistiqanê entebî ra hîna zaf, ez ti ra zaf hes kena
+Fêl û emelê to raşt şêro
 Fîstana xo ya sîyaye daye xo ra
 Gama ke mi nuşt
+Ganî dezgeh û komelê ma bixebitîyê
 Ganî ez se bikerî?
 Ganî ez şorî hetê ey
+Ganî her ca de xo biresnê kurdan
 Ganî ma ser o bigureyîme
 Ganî ma ser o bixebitîme
 Ganî ma yew bîme!
@@ -786,9 +831,14 @@ Ginena erd ro û mirena
 Giran bî
 Giran-giran musena
 Giran-giran şonê
+Goreyê cigêrayîşanê Unîversîteya Neteweyîye
+Goreyê herêmanê bînan, zêdêr serdin ê
+Goreyê kaxitanê nufusî yo
 Goreyê muslumanan, kitab hetê Homayî ra şirawîyayo.
+Goreyê pisporan, zafê nînan kêmî dîyeno
 Goreyê qafika xo pê ma kay kena
 Goreyê taye rîwayetan wina bî
+Goreyê vatena tayê kesan
 Govende heta destê şodirî ramena
 Goş pa nêkuweno
 Goşdaritişê nê qalan dima vanê
@@ -827,6 +877,7 @@ Harmeyê ma vetî têro
 Havildarî derso taybetî girewto
 Hawo huyeno
 Hawo vera to de vindeno
+Hawtemal kulturê ma de rojade muhîm û serfîraz a
 Haydarî şelwarê xo meqlub pay kerdê
 Hecî Alî Efendî zaf dewlemend beno
 Hedef çin o
@@ -871,6 +922,7 @@ Heq û huqûq nêzanenê
 Heq şîfa bido
 Heqê cîranîye ardo
 Her ca bîyo virt û vila
+Her ca de muzîk, her kesî rê muzîk
 Her cayê ci sûr û sipî û zerd bî
 Her derd rê yew derman est o
 Her di eynî yê
@@ -895,6 +947,7 @@ Her çî kenê binê kontrolê xo
 Her çî mi vîr ra şî
 Her çî veşna
 Herey mekewe!
+Herinda ke verê nînan bigêro, înan keno hedef
 Herinda nenûgan nêverdayî
 Herçend nuştox vajo zî
 Herçiqas nuştox vajo zî
@@ -925,6 +978,8 @@ Hetê mi de pere-mere çin o
 Hetê mi kerd
 Hetê mêrikî mekewe
 Hetê pîyê lajekî keno
+Hetê teorî û teknîkî ra muzîkî aver bero
+Hetêk ra xîret yeno kerdene
 Hevala min a
 Hevalê mi wazenê mi ra çi bipersê?
 Hevalê min o
@@ -937,6 +992,7 @@ Hewnê mi nêno
 Hewnê mi yeno
 Hewr bestîyayo
 Hewt kîlometreyî nêzdîyê Mamekîye de
+Hewt sey tewirê mîlçikan est ê
 Hewteyan ra pey yeno Bexdad
 Hey bê tîya
 Hey gidî!
@@ -945,6 +1001,7 @@ Heya bira
 Heya, rind o.
 Heyat heq nîyo
 Heyatê aye balkêş a
+Heywanan ser o ameye ceribnayene
 Heywanê înan zaf ê
 Heywanî qerqilîyenê
 Hezar new sey û heştay û new
@@ -968,10 +1025,12 @@ Homa to şa biko
 Homa zîyade bikero
 Homa zîyade biko
 Homa şîfa bido
+Homayî zî wina yew şêr nêviraşto
 Hukm sere û çiman ser.
 Hukm zî yê to yo
 Hukmat ra çi wazenê?
 Huner maneno
+Huner yeno manaya dermanî
 Hunermendî dinyaya xo bedilnaya
 Hunermendî dinyaya xo vurnaya
 Hêdî şonê
@@ -999,6 +1058,7 @@ Hît o
 Hûmara maliman çend a?
 Hûmara mamostayan çend a?
 Ka bê tîya
+Kadroyê ma jîhat ê
 Kadroyê wezîfedaran nawnenê
 Kajîn fekê mi ra gêra, la mi nêva
 Kakilî kerdî war
@@ -1008,6 +1068,7 @@ Kalikê mi ge-ge behsê ey kerdêne.
 Kalo erdîşsipî yo
 Kam eşkeno wina yew peşare bido?
 Kam henî vano?
+Kam ke dermanê derdî bivîno
 Kam ke esto, wa vejîyo teber
 Kam nê gureyî keno?
 Kam peşm rêseno?
@@ -1113,7 +1174,12 @@ Kovara Şewçila newe ra dest bi weşanayişî kena û nizda ra vejîyena.
 Kovaran de zî aseno
 Kovarêka sîyasî û kulturîye bîye
 Koyê Duzginî yew zîyare ya
+Kulturê ma de zaf rojê muhîmî û taybetî est ê
+Kulturê ma ke vîndî bo, ma kî benîme vîndî
+Kulturê ma ke vîndî bo, ma zî benê vîndî
 Kulturê xo biseveknê
+Kulturê xo rê wayîr vejîyê!
+Kupaya futbolî kotî virazîyena?
 Kurdan bi hezaran şehîdî dayî
 Kurdkî yew dar a
 Kutik ku yo?
@@ -1176,6 +1242,7 @@ Leza to ya?
 Lezabez ra karê xo keno
 Lezeto ke ma werdiş ra gênê
 Leşkerî ameyî
+Leşkerî ameyî cezakerdene
 Lihêf û doşekê ma yê
 Linga mi tadîyaye
 Linga mi vewre de şîye
@@ -1198,6 +1265,8 @@ Ma benê keyfweş
 Ma benî zerrîweş
 Ma benîme keyfweş
 Ma benîme zerrîweş
+Ma berhemêde hunerî vînenîme
+Ma berhemêkê hunerî vînenê
 Ma bifetilîme
 Ma bigêrê
 Ma bisevekne!
@@ -1235,6 +1304,8 @@ Ma gureyenê.
 Ma gureyenîme.
 Ma henî nîyo?
 Ma heq kerî
+Ma her ca de vanê
+Ma her ca de vanîme
 Ma her roje yewî to rê rusnenîme
 Ma her roje yewî to rê şawenî
 Ma het de wina yo
@@ -1259,6 +1330,7 @@ Ma kêmî kerd, Homa kêmî nêkero
 Ma kî dest cikerîme
 Ma mare birna
 Ma merkezê Çewlîgî de nişenîme ro
+Ma na akademî bi enerjî û îmkananê xo awan kerde
 Ma nan pewt
 Ma nanê xo wenîme
 Ma nanê xo werd
@@ -1266,12 +1338,17 @@ Ma ney rê teba nêvanîme
 Ma ney temam bikerê
 Ma neçar nîyî
 Ma neçar nîyîme
+Ma nika aşma adare de yê
+Ma nika aşma adare der îme
 Ma niştî ro
 Ma niştîme ro
 Ma no temam nêkerd
 Ma nêwazenîme.
+Ma nêzdîyê çadire de bîyîme
 Ma o wext ra pey pêro nêda
 Ma peynîya banî de kom bîyî
+Ma prosesê weçînayîşî de yê
+Ma prosesê weçînayîşî der îme
 Ma pê teyara şonê
 Ma pê teyara şonîme
 Ma pêrune ra zafêrî şa bîyêne
@@ -1288,6 +1365,8 @@ Ma qewe bişimîme
 Ma qirban kerdêne
 Ma ra nêvana
 Ma rew ra dardîbî we
+Ma reyna vanê
+Ma reyna vanîme
 Ma rindêr ê!
 Ma rindêr îme
 Ma rê beno roştî
@@ -1335,6 +1414,8 @@ Ma yad kenê
 Ma yad kenîme
 Ma yewbînî dî
 Ma zaf ti dekerna
+Ma zanenê ke ê cinîyan ra tersenê
+Ma zanenîme ke ê cinîkan ra tersenê
 Ma zazakî qesey kenîme.
 Ma ziwanê xo de perwerde wazenîme
 Ma zî dest pêkenî
@@ -1365,6 +1446,7 @@ Mamosta Alanî wina vatbî
 Mamosta şî rehmet
 Mamosta, vinde!
 Mamostayê min o verên o
+Mamostayî fakulteyanê bînan ra yenê
 Mana bi xo çi ya?
 Maneno Kalê Noelî
 Mangeyî çerenê
@@ -1391,6 +1473,7 @@ Mence kewta ra awe ver
 Mengî derbaz bîyî
 Menoşe sûyê Borane ana
 Meraq meke
+Merdim bi ziwanê xo est o
 Merdim ke ziwanê ci biwano
 Merdim mase roşeno
 Merdim nêeşkeno bikero
@@ -1399,9 +1482,11 @@ Merdim rutûrepal mend
 Merdim tim xeyalperest o
 Merdim wazeno bawer bikero
 Merdim zengîn o
+Merdiman ser o zî nika yena ceribnayene
 Merdimanê to ra kam est o?
 Merdimanê xo ra şono seyd
 Merdimo ke nê kitabî waneno, zaf zelal vîneno.
+Merdimî lingan ser gênê
 Merdimî şelwarê xo qelibnaye pay kerdê
 Mereyê ma çin o
 Merkezê bajarî de dize est a.
@@ -1413,6 +1498,8 @@ Mesele temam a
 Mesûd muhendis o
 Mevaje ke wina yo
 Mewzûyê ma no nîyo.
+Mezg de dopamîn zêdêneno
+Mezgê ma xeylê hetan ra têgêreno
 Meşo!
 Meşte Hewtemal o
 Meşte karê mi est o.
@@ -1551,23 +1638,28 @@ Mi înan rê bi hereret musna
 Micêcê ey abîyo
 Mihê mi keye ra radano
 Mij û duman o
+Mil bi milî têkoşînî rê dewam bikerê
 Milad ra ver o
 Miletê ke wayîrê nuştiş û wendişî yê
 Milkê xo girewt
 Milkê xo gênê
 Milqî dano
+Mintiqa bi mintiqa vurîyeno
 Miqatê xo be
 Miradê ma nêbeno
 Miradê şima bo
 Mistefa kî tey o
 Mizgîne lajê xo girewt verika xo
 Mizgîne lajê xo girewt xo verike
+Modelê Rojawanî bîyo şorişêk
 Mudirîya beşê karê nuşte û biran
 Mudirîya karanê xizmetê sosyalî û hetkarî
 Mufredatî nanî têro
 Muhendisê komputur o
 Musayîşê ziwanî dest pêkeno
 Muxtar yeno ey gêno
+Muzîk karêdo hende asan nîyo
+Muzîk karêko hende asan nîyo
 Muşterîyê ke yenê, huyenê
 Mêmanê ma est ê.
 Mêrdek bi yew cinîke ra ameyo
@@ -1583,18 +1675,22 @@ Mêrikî şelwarê xo dêmlaşt pay kerdê
 Mêse bars da
 Mîjdan heywananê bînan
 Mîjdanî ya, padîşah!
+Mîlyarê ra zêdêr est ê
 Mîlê xo keno çewt
 Mîyanê Palî ra vîyareno şino
 Mîyanê Palî ra vîyareno şono
 Mîyanê di dewan de koyê est bî
 Mîyanê nê xatirayan de ez şîya
+Mîyanê qeşayan de awe est a
 Mîyanê çend sanîyeyan de musa
 Mîyanê înan de kitabî zaf ê
 Mîyanê şarî de gêreno
+Na awe tim binê versîye de ya
 Na cinîke ez pîl kerda
 Na cinîke wayîrê domanan a
 Na cumle mi rê zaf xerîb amebî
 Na dele qizdan a
+Na dize rê vanê Diza Sêwregî
 Na herfe sey herfa verêne telefuz bena
 Na hîkaye çape dîyine ra tadîyaya.
 Na kam a?
@@ -1608,6 +1704,7 @@ Na meqale de nanîme têver o
 Na mesele meselêda bîn a
 Na mesele ra dime eskerî reyna ameyî
 Na meşke pêşona
+Na para to ya
 Na qisaya to bi zorê mi şîye
 Na qisaya to mi rê giran ameye
 Na qisaya to mi rê çetin ameye
@@ -1648,12 +1745,16 @@ Ne wendo ne nuşto
 Necmetîn na eşîre ra yo.
 Nefesê aye kî birîyeno
 Nehayî bîyare
+Neslo ke ma dima êno, rind nêzano
 Neteweyê Yewbîyayeyî
 Netîce eşkera yo
 Netîceya îmtihanî bellî nêbîya
 Newroza şima bimbarek bo!
 Newroza şima fîraz bo!
 Newroza şima pîroz bo!
+Newroze yena bimbarekkerdene
+Newroze yena fîrazkerdene
+Newroze yena pîrozkerdene
 Ney ferq kenî
 Ney kênekê, mi vat
 Ney, ez nêwende ya
@@ -1670,10 +1771,12 @@ Nika veng birîya
 Nika ziwanê ma nê sekeratî de yo
 Nika zî ez to ra çîyêk persena
 Nika zî, mi se kerd?
+Nimitkî ewnîyayêne
 Nimî bîyare
 Nişka ra merd
 No averşîyayîş aseno
 No bes nîyo
+No ceng, cengê ma nîyo
 No ciwal key wenîyayo nê herî?
 No dem de serekê eşîre bîyo
 No derheq de qisey keno
@@ -1703,6 +1806,7 @@ No la to cêmîyan vist
 No la zaf alozîyayo
 No la zaf cêmîyan kewt
 No lajek vano
+No lej, lejê ma nîyo
 No mekteb gird o
 No merdimêdo rind o
 No meru rêj dano
@@ -1712,6 +1816,7 @@ No mêrdek mi ra ewnîya
 No mêrik her çî keno pîl
 No name na pira
 No name tercîh kerdo
+No operasyon yeno çi mana?
 No paç zaf vay o
 No qefle asnawe nêzano
 No qesayê to mi rê çetin ame
@@ -1751,6 +1856,8 @@ No çiçî yo?
 No çîyêko weş o.
 No şak zaf ro to ame
 No şaristan çi rindek o!
+No şer, şerê ma nîyo
+No, vera têkoşînê cinîyan hêrişêk o
 Nobetçîyan ra vano
 Nuştene asan nîya
 Nuştox nêşêno ziwano bîn bixebitno
@@ -1761,6 +1868,7 @@ Nuştoxê zazakî yo verên bî
 Nê ayetî yenê çi mana?
 Nê cayî mi rê zaf xam ê
 Nê darûyî bide ci
+Nê dezgehan ra yew a
 Nê eşîran ra tewr girse eşîra bicax û qirwarijan ê.
 Nê eşîrî mîyanê Sêwregi û Çêrmûge de ca gênê.
 Nê halî ra zaf qehirîyeno
@@ -1792,6 +1900,7 @@ Nê xoverdayîşî ra dima benê vila
 Nê ziwannasê ma ra vanê
 Nê çîyan ra muradê ci çi yo?
 Nê çîyan vano
+Nê çûçik, çûkreş, qaqlîbaz û hechecik ê
 Nê şewatî ser a yew dilope estiş
 Nêewnîyayêne mi ra
 Nêeşkayêne reya dîyine vaja
@@ -1800,6 +1909,7 @@ Nêkela çira nêno?
 Nêmeyo bîn biney zerd mend
 Nêmeyê emrê to bîlasebeb vîyarto
 Nêmrojê yew hamnanî bî
+Nêrazîbîyayîşê xo mojna
 Nêverdano kes şoro
 Nêvurîyeno
 Nêweş deymîş nêbeno
@@ -1814,6 +1924,7 @@ Nêzdî de çare vîneno
 Nêzdîyê ci mebe wa şoro
 Nêzdîyê domanî mebe!
 Nêzdîyê temamê bazirgananê bajarî kirmancî bîy.
+Nîjadperestîye xirab a
 Nînan ra kes nêaseno
 Nîya meke!
 Nîyade!
@@ -1857,8 +1968,10 @@ O kî nîya dewam keno
 O kî tede bî
 O kî winî dewam keno
 O ma ra yo
+O neteweperest o
 O nê nimûneyan nuseno
 O nêwazeno.
+O nêzano se vajo
 O nêşîyêne
 O papaxano rind bî
 O peyser gêra
@@ -1940,6 +2053,7 @@ Par dest bi weşanê xo kerdo
 Par kar zaf bî
 Par ney pêrar
 Parekerdiş to rê keweno?
+Parçeyêde kulturê ma yo
 Pay na vaşî
 Pay vaşî na
 Payîz o
@@ -1968,6 +2082,7 @@ Peyê banî ra vîyarneno ra
 Pira merd
 Pira-pira ma ser o bixebitî
 Pirçê ey rişîyeno
+Pisînge kewena zereyê dikanî
 Pisînge merreyî dima şona
 Pisînge nîyawena
 Pisînge nîyawkena
@@ -1992,15 +2107,19 @@ Pê ma xapnenê
 Pê mi kay meke!
 Pê nê merdimê saf û zerrîpakî huyenê
 Pê pereyan aye hêrîneno
+Pê teleskopanê amatoran eşkena bivîno
+Pê teleskopanê amatoran yeno dîyene
 Pê tercumanî îfade da
 Pê û par bo
 Pêro dersî bi kirmanckî yenê dayene
 Pêro deverdîyayo erd ro
+Pêro dinya de bîyo felsefe
 Pêro heywanî tesayêne
 Pêro kewtê têmîyan
 Pêro medê
 Pêro medîn
 Pêro pîya bi zerrîweşî emrê xo vîyarnenîme
+Pêro pîya hawtemalê xo bifîraznê
 Pêro pîya çend serrî emrê ma mendo?
 Pêro pîya çiqas o?
 Pêro sirranê xo eşkera kena
@@ -2030,12 +2149,16 @@ Qala mi cemat ra teber
 Qalanê weşan vanê
 Qalkerdiş ca verde
 Qalê musayîşê asnawe kerdêne
+Qalê xebat û karanê înan kerd
 Qandê nuştoxanê ma zî wina ya
 Qatixê ma qehr o
 Qayîlê mi şî
 Qebul keno
+Qelema to weş bo!
 Qeleme kitabî ser o ya
 Qeraxê yew gole de bî
+Qereçarşemeyê martî çi yo?
+Qereçarşemeyê martî çik o?
 Qesey ke!
 Qesey meke!
 Qet bellî nêkerd
@@ -2068,6 +2191,7 @@ Qismo çarin de kî resenê ci
 Qismo çarin de zî resenê ci
 Qiymetê heyatê mi çin o
 Qiş girê da
+Qula sîyaya newîye ameye keşfkerdene
 Quran xitim kenê
 Qusurî de nîyamede
 Qusurî de nîyamede.
@@ -2097,6 +2221,7 @@ Raşta zî wina yo
 Raştîye vaje!
 Rehman o
 Rema qeraxê awe
+Rengê kulturê ma ra yew rojêda muhîm a
 Rengê sûrî bîyî tay
 Resamanê dagîrkeran teqdîr keno
 Resamê her di welatan terarekê xo vînenî
@@ -2112,6 +2237,7 @@ Reyna vaje
 Rimî bîyare
 Rind bizane
 Rind ke est a
+Rindîye bêro
 Roj akewt
 Roj ke şî ko ro, bî tarî
 Roj xow ra şî
@@ -2148,9 +2274,11 @@ Roşanê to bimbarek bo
 Roşanê to fîraz bo
 Roşanê to pîroz bo
 Roşanê şima fîraz bo.
+Roşn zî nêeşkeno antişê aye ra biremo
 Roşno kal bî, la gewz bî
 Roşnvîrê kurdan zanenê
 Roşnvîrêko qîymetin bî
+Roştî bêro
 Rîyê ey ra winî bîyo
 Rîyê mêrikî zerd o
 Rîyê xo çarna aşme
@@ -2169,6 +2297,7 @@ Se va ke wina bî?
 Seba hêrînayîşê nê banî barêk pereyî dayê.
 Seba ke nêweş bî nêame, nêke çira nêro?
 Seba ke nêweş bîye, nêameye
+Seba qewmê ma yê kirmancî aşmêda zaf taybetin a
 Seba to yo.
 Sebeb çi yo?
 Sebeb çik o?
@@ -2190,12 +2319,14 @@ Seke ti zî zana, lajek ewro nêweş o.
 Seke ti zî zanî, lajek ewro nêweş o.
 Seke yeno zanayene
 Seke zanîyeno
+Seke şima kî rind zanê
 Seke şima zanê
 Seke şima zî zanî
 Semedê naye yew sebeb lazim o
 Semedê nê çar bizan ma qir kenê
 Semedê seydî kewenê daristan
 Semedê to yo.
+Semedê tîcaretî şono Hindîstan
 Senî ameyo ra?
 Senî bêro eşnawitiş?
 Senî ke maya xo dîya, keyf kerdo
@@ -2209,6 +2340,8 @@ Sereyê aye ra yew-di muyê porî antî
 Sereyê aye serê çokanê mi de bî
 Sereyê mi dejeno.
 Sereyê to weş bo
+Sereyê to çira keçel o?
+Sereyê xo nêanê war
 Sereyê şima weş bo
 Sergovend kam o?
 Serra di hezarî de kewt fealîyet
@@ -2251,6 +2384,7 @@ Sêneyê min a yew deq biviraze
 Sêwregi de serra hewtay û newî de dest pêkerd
 Sêwregi de vêşî est ê
 Sînaye bîye kokime
+Sîstemê ma yê perwerdeyî est o
 Sîte de weşanîya
 Sûyê Vewrike yeno
 Ta verdîya re linga aye
@@ -2260,6 +2394,7 @@ Tabî xo vîr ra nêkerî
 Tacîr mat maneno
 Tacîr qayîl nîyo
 Tacîr vano
+Tam kamcîn roj a?
 Tamakarîya mi çin a
 Tarîx de mîsalê nîyanênî zaf ê
 Tarîx de mîsalê winasî zaf ê
@@ -2275,6 +2410,7 @@ Tebayê ey çin o
 Tebe ra veng da
 Teber puk û pukelek a
 Teber ra nano ro
+Tedawîya nê kesan dewam kena
 Tede destê dewleta tirkan est bî
 Tede tehmê welatê ma esto
 Tedeyî ra pey, yew vervate vînenî
@@ -2294,6 +2430,7 @@ Teq-req deverdano
 Terikneno
 Tersan ra ma teba nêkerd
 Tersenê ke ma bikişê
+Tesîrê weşîya merdiman kenê
 Tesîrêko pîl viraşt
 Tewir bi tewir tefsîrî est ê.
 Tewir-tewir îlacan virazeno
@@ -2302,6 +2439,7 @@ Teyara nişte
 Teyarageh kotî yo?
 Teyna nînan ra îbaret nîyo
 Teyna uca nîyo
+Teyr û tur binê emrê to de
 Teyro ke Mûş ra yeno
 Ti ancîya kewta çenteyê mi?
 Ti asnawe zanî?
@@ -2422,6 +2560,7 @@ Ti çi ewnîyenî wina?
 Ti çi wena?
 Ti çi wenî?
 Ti çikî rê tede nîyadana?
+Ti çinayî ra ameya keyeyê ma?
 Ti çiqas weş kilaman vana!
 Ti çira kewta erey?
 Ti çira poşman î?
@@ -2454,6 +2593,7 @@ To pak nêkerd
 To porê xo şane kerd?
 To potînê mi nêesteritê
 To ra qederî çi kes nêvano
+To ra xebere berde
 To ra yo
 To rê oxir bo
 To rê wad bo
@@ -2538,6 +2678,7 @@ Verba mi vindeto qisey keno
 Verg xo pêşeno têra
 Vergî fîneno erd ro
 Vernî de xeylê neqişîyabî
+Vervatoxa Meclîsê Cinîyan va
 Verê berê Efendî doşirme yo
 Verê bifikirîye, dima qisey ke
 Verê cû winî bî
@@ -2593,10 +2734,12 @@ Wa xeyr bo
 Wa zerrîya şarî to ra weş bo
 Wa zîyade bo
 Wa şar to ra weş bo
+Wa şima biameyêne
 Waka mi tim kilama ey vatêne.
 Waya mi leweyê ey de menda
 Waya min a
 Wayîrê keyeyî nêame
+Wayîrê warê çewres kîlometreyan o
 Wayîrê xo vejîyê
 Wazena biba doktore
 Wazeno bibo doktor
@@ -2604,10 +2747,12 @@ Wazeno ma reyde bêro
 Wazeno şoro wever
 Waşto ke naye vajo
 Waştî o yo
+Wefaya embazan wina ya?
 Welatê ma girs o.
 Welatê ma zaf rindek o.
 Welatê xo ra vanê "Kirdane"
 Welatê xo ra vanê "Kirmancîye"
+Welatê xo rê wayîr vejîyê!
 Welhasîl wina bî
 Welî cêr ra şono
 Wendegeh de ma kitab wendêne
@@ -2623,6 +2768,7 @@ Westa huyeno
 Wet ra cewab da
 Wexto ez şîyêne wendegeh
 Wexto ke dore yena papaxanî
+Wexto ke kewt Hindîstan
 Wexto ke mi cewab girewt
 Wexto ke mi o dî
 Wexto ke nişeno gemî, royê Dîcle vîneno.
@@ -2635,6 +2781,7 @@ Wextê xo veng mevîyarne
 Weyra ya
 Weyra yo
 Weçînitiş de hîle kerd
+Weşanxaneyî da zanayene
 Weşê min a şinê.
 Weşê min a şonê.
 Weşîye de bimane
@@ -2642,6 +2789,7 @@ Wilayî, mi nêdirnayo.
 Willayî billayî
 Willayî, ez to sînena
 Wina cewab dano ci
+Wina dejneno
 Wina dewam kerdbî
 Wina kerd
 Wina meke
@@ -2686,10 +2834,12 @@ Xesar dîyo
 Xeylê kede dîyaya nê kitabî
 Xeylê nuşteyî nuştî
 Xeylê welatan keno rêze
+Xeylê zanist û doktorê Ewropa hemfikr ê
 Xeylê çekê ci est ê.
 Xeylêk nusîyayê
 Xeylêk xetayê mi vejîyenê
 Xeymê xo de ciwîyayêne
+Xeymî ameyî îmhakerdene
 Xeyr a?
 Xeyr bi selamet
 Xeyr keno vila
@@ -2704,12 +2854,18 @@ Xezînaya padîşahî est a.
 Xidir doktor o.
 Xidir kitabê xo dano Gule.
 Xidir programviraştox o
+Xirabîye şoro
+Xirabîye şêro
 Xirreno
+Xizir bawerîya ma de zaf cayêde berz der o
 Xizir tenga ma de bireso
+Xizir çi yo, rind nêzanê
+Xizir çik o, rind nêzanê
 Xizmetkar herî besteno
 Xizmetê birayanê xo kena
 Xo bi xo fikirîyeno
 Xo bi xo vano
+Xo bierze zereyê deryayî
 Xo binawne!
 Xo cayê xo de ant pêser
 Xo dest de bî
@@ -2748,6 +2904,7 @@ Yanî Homa nê çîyan vano.
 Yanî, rey-rey ti wanenî.
 Yarenî meke!
 Yarî keno
+Yeno teslîmê şêrî beno
 Yeno verê berî
 Yeno verê keyberî
 Yeno, bar keno
@@ -2757,6 +2914,7 @@ Yew aşme mende
 Yew bi yew çarnayîşî rê zî vanê meal.
 Yew cinîke vîneno
 Yew dara sey şîlî ya
+Yew daristan de şêr ciwîyeno
 Yew doktor bêro û şima ra vajo
 Yew girawa dûrî de nano ro
 Yew gule ra wisar nêno.
@@ -2819,7 +2977,9 @@ Zaf îsot werdo
 Zaf şenik meaş girewtêne
 Zaf şikir Homayî ke doktorî estê
 Zalimî kesî rê merhemet nêkerd
+Zanyarî îdîa kenê ke no dîyo
 Zanîngehê Mêrdîn Artuklu de
+Zanîngehê Çewlîgî çend kesan perwerde keno?
 Zazakî şaxêka kurdkî ya.
 Zazayê Sêwregî demê Yavuz Sultan Selîmî de ameyê na mintiqa
 Zazayê Sêwregî, pêroyê xo henîfî yê.
@@ -2835,6 +2995,7 @@ Zereyê keyeyî de solî nênê paykerdene
 Zereyê keyeyî de solî pay nêbenî
 Zereyê ma taşîyeno ra
 Zereyê mi de yew alem est o
+Zereyê nê birrî de yo
 Zereyê nê mintiqayan de est ê
 Zereyê to pak o
 Zerrî keweno ci
@@ -2879,7 +3040,10 @@ Zîyade bo
 to ra zaf hêrs beno
 zerrîya mi engure şina
 Çap bike!
+Çapemenîye de vila kerdî
 Çapkerdiş de sey di cîldan çap bîyo.
+Çar sey wendekarê ma est bîyî
+Çar tewiran ra yeno meydan
 Çar yan panc hebî nusîyayê
 Çar-panc rojî vîyartî
 Çare helbet est o
@@ -2931,12 +3095,14 @@ zerrîya mi engure şina
 Çimê to roşn bê
 Çimê to roştî bê!
 Çimê to weş bê
+Çimê to weş bê!
 Çimê wendekaran de mamosta her çî zano
 Çimî sere de tadîyenê
 Çina yo?
 Çiqas ke şono
 Çira bermena?
 Çira nêbeno?
+Çira ti wina tersena?
 Çira to ê feqîrî tersna?
 Çira wina bîyo, nêzana.
 Çunke Homayî emir da mi
@@ -2971,6 +3137,7 @@ zerrîya mi engure şina
 Ê xeylê bêveng mendî
 Ê yenê.
 Ê şanenê pira
+Ê şonê ci rê qalî kenê
 Êdî armancê îdeolojî fermanê xo caardiş o.
 Êdî bes o!
 Êdî her çî qedîya
@@ -2999,15 +3166,18 @@ zerrîya mi engure şina
 Înan şawenê şêrî
 Înanê ma de o zî çin o
 Îngilizkî nêzana
+Însan bi kulturê xo est o
 Însan newe ra xo xapêneno
 Însan qey beno merdimo îdeolojîk?
 Însanan ê sereraşt kerdê
 Înşallah roşnvîrê ma zêdîyenê
 Îqrarê xo dano
+Îqtîdar keno ke payan ser de bimano
 Îstîsnayî şênê bibê
 Îzah kerdo
 Îzahat da
 Îşkence kerd
+Îşxalkerî hetê hêzanê ma ra ameyî pirodayene
 Şagirtan ra pers keno
 Şalûr biney verî şî
 Şalûr o
@@ -3032,6 +3202,7 @@ zerrîya mi engure şina
 Şaîrê erjayeyî ra pers kerd
 Şefeqê sibayî piro dano
 Şekilê înan ê xeripîyayeyan de
+Şer beno xorînêr
 Şewa Homayî rehmet
 Şewa to xeyr bo
 Şewa to şenike bo
@@ -3120,6 +3291,7 @@ zerrîya mi engure şina
 Şîfre bivurne
 Şîlanêre dara şîlan a
 Şîlpaxê eşte ra kerika layekî
+Şîrkete derzîna vera kanserî viraştbî
 Şîrîne malim a.
 Şîîre Helebce ser o nusîyaya
 Şîîre nusîyena
