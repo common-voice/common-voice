@@ -166,7 +166,7 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
 
     const alreadyEnrolled =
       this.state.showWelcomeModal && user.account?.enrollment?.challenge;
-    const redirectURL = URLS.DASHBOARD + URLS.CHALLENGE;
+    const redirectURL = '/voicewall' + URLS.DASHBOARD + URLS.CHALLENGE;
 
     return (
       <div id="main" className={className}>

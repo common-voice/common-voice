@@ -278,7 +278,7 @@ export default function Dashboard() {
   useEffect(() => {
     if (!account) {
       try {
-        sessionStorage.setItem('redirectURL', location.pathname);
+        sessionStorage.setItem('redirectURL', '/voicewall' + location.pathname);
       } catch (e) {
         console.warn(`A sessionStorage error occurred ${e.message}`);
       }
