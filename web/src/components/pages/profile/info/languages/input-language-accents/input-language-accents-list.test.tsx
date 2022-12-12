@@ -72,6 +72,7 @@ describe('InputLanguageAccentsList', () => {
         accents={MOCK_ACCENTS}
         userLanguages={mockUserLanguages}
         setUserLanguages={mockSetUserLanguage}
+        clearSelection={jest.fn()}
       />
     );
 
