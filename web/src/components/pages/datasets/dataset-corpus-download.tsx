@@ -60,10 +60,7 @@ const DatasetCorpusDownload = ({
 
     api.getLanguageDatasetStats(locale).then(data => {
       setLanguageDatasets(
-        data.filter(
-          (dataset: LanguageDatasets) =>
-            !!dataset.checksum && !!dataset.download_path
-        )
+        data.filter((dataset: LanguageDatasets) => !!dataset.download_path)
       );
       setSelectedDataset(data[0]);
       setIsLoading(false);
@@ -125,17 +122,6 @@ const DatasetCorpusDownload = ({
               size={formatBytes(selectedDataset.size, initialLanguage)}
             />
           )}
-
-          <p className="intro-summary">
-            <Localized
-              id="download-dataset-access"
-              elems={{
-                emailLink: <StyledLink href={`mailto:${EMAIL_ADDRESS}`} />,
-              }}
-              vars={{ email: EMAIL_ADDRESS }}>
-              <span />
-            </Localized>
-          </p>
         </div>
       </div>
     </div>
