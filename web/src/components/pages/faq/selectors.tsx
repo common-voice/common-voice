@@ -10,8 +10,8 @@ import { BENEFITS, WHATS_PUBLIC } from '../../../constants';
 
 export const SECTIONS: any = {
   whatIsCV: 'what-is-common-voice',
-  // usingCV: 'using-common-voice',
-  // glossary: 'glossary',
+  usingCV: 'using-common-voice',
+  glossary: 'glossary',
 };
 
 const SECTION_NAMES: any = {
