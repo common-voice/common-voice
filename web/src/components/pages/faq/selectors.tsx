@@ -16,15 +16,15 @@ export const SECTIONS: any = {
 
 const SECTION_NAMES: any = {
   [SECTIONS.whatIsCV]: 'faq-what-cv-q',
-  // [SECTIONS.usingCV]: 'faq-using-cv',
-  // [SECTIONS.glossary]: 'glossary',
+  [SECTIONS.usingCV]: 'faq-using-cv',
+  [SECTIONS.glossary]: 'glossary',
 };
 
 const SECTION_CONTENTS: any = {
   [SECTIONS.whatIsCV]: [
     ['faq-what-cv-q', 'faq-what-cv-a-2'],
     'faq-why-important',
-    'faq-why-mission',
+    // 'faq-why-mission',
     'faq-is-goal-assistant',
   ],
   [SECTIONS.usingCV]: [
