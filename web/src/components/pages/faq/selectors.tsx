@@ -10,14 +10,14 @@ import { BENEFITS, WHATS_PUBLIC } from '../../../constants';
 
 export const SECTIONS: any = {
   whatIsCV: 'what-is-common-voice',
-  usingCV: 'using-common-voice',
-  glossary: 'glossary',
+  // usingCV: 'using-common-voice',
+  // glossary: 'glossary',
 };
 
 const SECTION_NAMES: any = {
   [SECTIONS.whatIsCV]: 'faq-what-cv-q',
-  [SECTIONS.usingCV]: 'faq-using-cv',
-  [SECTIONS.glossary]: 'glossary',
+  // [SECTIONS.usingCV]: 'faq-using-cv',
+  // [SECTIONS.glossary]: 'glossary',
 };
 
 const SECTION_CONTENTS: any = {
@@ -43,26 +43,26 @@ const SECTION_CONTENTS: any = {
         },
       },
     ],
-    [
-      'faq-when-release2-q',
-      'faq-when-release2-a',
-      {
-        elems: {
-          sentenceCollectorLink: (
-            <StyledLink
-              href="https://common-voice.github.io/sentence-collector/"
-              blank
-            />
-          ),
-          pontoonLink: (
-            <StyledLink
-              href="https://pontoon.mozilla.org/projects/common-voice/"
-              blank
-            />
-          ),
-        },
-      },
-    ],
+    // [
+    //   'faq-when-release2-q',
+    //   'faq-when-release2-a',
+    //   {
+    //     elems: {
+    //       sentenceCollectorLink: (
+    //         <StyledLink
+    //           href="https://common-voice.github.io/sentence-collector/"
+    //           blank
+    //         />
+    //       ),
+    //       pontoonLink: (
+    //         <StyledLink
+    //           href="https://pontoon.mozilla.org/projects/common-voice/"
+    //           blank
+    //         />
+    //       ),
+    //     },
+    //   },
+    // ],
     'faq-do-want-native',
     [
       'faq-why-different-speakers-q',
