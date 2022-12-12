@@ -751,6 +751,9 @@ request-language-success-heading = تہاݙا تھورا! اساں نویں زب
 request-language-success-list-1 =
     تہاکوں جلدی وضاحت کرݨ آلی ای میل وصول کرݨی چاہیدی ہے جیندے وچ
     کامن وائس وچ زبان شامل کرݨ کیتے مرحلیاں دی تفصیل ہوسی
+request-language-error =
+    اساکوں ایہوں جئی درخواست کائناں ملی ہوسی۔ سوہݨا، ساکوں سدھا
+    <emailLink>{ $email }</emailLink> تے ای میل کرو تے اساں تہاݙے نال واپسی رابطہ کریسوں!
 
 ## Languages Overview
 
