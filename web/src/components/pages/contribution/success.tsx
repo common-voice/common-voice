@@ -171,7 +171,7 @@ function Success({
           <Localized id="login-signup">
             <LinkButton
               rounded
-              href="/login"
+              href="/voicewall/login"
               className={getTrackClass('fs', `nudge-profile-on-succcess`)}
             />
           </Localized>

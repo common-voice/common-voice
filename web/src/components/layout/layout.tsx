@@ -192,7 +192,7 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
                 <UserMenu />
               ) : isBuildingProfile ? null : (
                 <Localized id="login-signup">
-                  <LinkButton className="login" href="/login" rounded outline />
+                  <LinkButton className="login" href="/voicewall/login" rounded outline />
                 </Localized>
               )}
               <LocalizationSelectComplex
@@ -247,11 +247,11 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
               )}
               {user.account ? (
                 <Localized id="logout">
-                  <LinkButton rounded href="/logout" />
+                  <LinkButton rounded href="/voicewall/logout" />
                 </Localized>
               ) : (
                 <Localized id="login-signup">
-                  <LinkButton rounded href="/login" />
+                  <LinkButton rounded href="/voicewall/login" />
                 </Localized>
               )}
             </div>

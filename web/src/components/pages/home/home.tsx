@@ -239,7 +239,7 @@ export default function HomePage() {
         //   <Localized id="sign-up-account">
         //     <LinkButton
         //       rounded
-        //       href="/login"
+        //       href="/voicewall/login"
         //       onClick={() => trackHome('click-benefits-register', locale)}
         //     />
         //   </Localized>

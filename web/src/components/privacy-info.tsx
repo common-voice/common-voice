@@ -14,7 +14,7 @@ export default ({ localizedPrefix }: { localizedPrefix?: string }) => {
         id={localizedPrefix + 'privacy-info'}
         elems={{
           privacyLink: (
-            <a href="/privacy" target="_blank" rel="noopener noreferrer" />
+            <a href="/voicewall/privacy" target="_blank" rel="noopener noreferrer" />
           ),
         }}>
         <p className="small" />

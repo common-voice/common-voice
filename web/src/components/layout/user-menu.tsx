@@ -70,7 +70,7 @@ export default function UserMenu() {
                 </li>
               ))}
               <li>
-                <a href="/logout">
+                <a href="/voicewall/logout">
                   <LogoutIcon />
                   <Localized id="logout">
                     <span />

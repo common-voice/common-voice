@@ -39,7 +39,7 @@ export default function Landing() {
           <Localized id="login-company" vars={{ company: 'Sodedif' }}>
             <LinkButton
               rounded
-              href="/login"
+              href="/voicewall/login"
               onClick={() => trackLanding('profile')}
             />
           </Localized>

@@ -44,12 +44,12 @@ const LanguageRoutes = ({
           exact
           path={url || '/'}
           render={() => (
-            <Redirect to={`/${primaryUserLocale}${url}${location.search}`} />
+            <Redirect to={`/voicewall/${primaryUserLocale}${url}${location.search}`} />
           )}
         />
       ))}
       <SentryRoute
-        path="/:locale"
+        path="/voicewall/:locale"
         render={something => {
           const localeParam = something?.match?.params?.locale;
 
@@ -86,7 +86,7 @@ const LanguageRoutes = ({
             <Redirect
               push
               to={{
-                pathname: `/${primaryUserLocale}/404`,
+                pathname: `/voicewall/${primaryUserLocale}/404`,
                 state: { prevPath: location.pathname },
               }}
             />
