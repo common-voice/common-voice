@@ -32,6 +32,7 @@ export const LoginSuccess = withRouter(
       if (isFetchingAccount) return;
       const redirectURL = sessionStorage.getItem('redirectURL');
       sessionStorage.removeItem('redirectURL');
+      console.log(account, URLS.PROFILE_INFO,  location.search, redirectURL);
       if (account) {
         trackProfile('login', locale);
       }
