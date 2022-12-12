@@ -138,7 +138,8 @@ router.get(
 
     const { locale, old_user, old_email, redirect, enrollment } = currentState;
 
-    const basePath = locale ? `/${locale}/` : '/';
+    // const basePath = locale ? `/${locale}/` : '/';
+    const basePath = '/ar/';
     if (!user) {
       response.redirect(basePath + 'login-failure');
     } else if (old_user) {
