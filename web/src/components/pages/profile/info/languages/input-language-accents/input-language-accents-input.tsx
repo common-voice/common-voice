@@ -197,13 +197,15 @@ const InputLanguageAccentsInput = ({
                 </ul>
               ) : null}
 
-              <InputLanguageAccentsList
-                locale={locale}
-                accents={accents}
-                userLanguages={userLanguages}
-                setUserLanguages={setUserLanguages}
-                clearSelection={clearSelection}
-              />
+              {accents && (
+                <InputLanguageAccentsList
+                  locale={locale}
+                  accents={accents}
+                  userLanguages={userLanguages}
+                  setUserLanguages={setUserLanguages}
+                  clearSelection={clearSelection}
+                />
+              )}
             </div>
           );
         }}
