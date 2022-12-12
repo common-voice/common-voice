@@ -135,6 +135,7 @@ nan-tw = تیوانی (منان)
 nb-NO = نارویجی بوکمال
 nd = اندبیلی (شمالی)
 ne-NP = نیپالی
+nhe = مشرقی ہوسٹیکا نہوانی
 nia = نیاس
 nl = ڈچ
 nn-NO = نارویجی نورسک
@@ -662,7 +663,6 @@ datasets-headline = اساں آوازاں دا کھلا ماخذ، کثیر لس
 language = زبان
 download-dataset-header = ڈیٹاسیٹ ڈاؤن لوڈ کرو
 download-dataset-tag = آپݨی مطلوبہ زبان دا ڈیٹا سیٹ چݨو تے جہڑا ورشن تساں ڈاؤن لوڈ کرݨ چاہندے ہو چݨو۔
-download-dataset-access = پچھلی ڈیٹاسیٹ ریلیز کوں لبھدے پئے ہو؟ ای میل <emailLink> { $email } </emailLink>
 # File size in gigabytes
 size = سائز
 validated-hr-total = کل تصدیق تھئے گھنٹے
