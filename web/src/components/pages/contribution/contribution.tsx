@@ -356,6 +356,10 @@ class ContributionPage extends React.Component<ContributionPageProps, State> {
     } = this.props;
     const { selectedPill } = this.state;
 
+    const noUserAccount = !user.account;
+    const shouldShowCTA = shouldShowFirstCTA || shouldShowSecondCTA;
+    const shouldHideCTA = !shouldShowFirstCTA && !shouldShowSecondCTA;
+
     const handlePrivacyAgreedChange = (
       evt: React.ChangeEvent<HTMLInputElement>
     ) => {
@@ -375,7 +379,7 @@ class ContributionPage extends React.Component<ContributionPageProps, State> {
         <div className="cards-and-pills">
           <div />
 
-          {shouldShowFirstCTA || shouldShowSecondCTA ? (
+          {shouldShowCTA ? (
             <div className="cta-placeholder" />
           ) : (
             <div className="cards-and-instruction">
@@ -436,7 +440,7 @@ class ContributionPage extends React.Component<ContributionPageProps, State> {
             </div>
           )}
 
-          {shouldShowFirstCTA || shouldShowSecondCTA ? (
+          {shouldShowCTA ? (
             <div />
           ) : (
             <div className="pills">
@@ -470,7 +474,7 @@ class ContributionPage extends React.Component<ContributionPageProps, State> {
           )}
         </div>
 
-        {!user.account && shouldShowFirstCTA && (
+        {noUserAccount && shouldShowFirstCTA && (
           <FirstPostSubmissionCta
             locale={this.props.locale}
             onReset={onReset}
@@ -480,7 +484,7 @@ class ContributionPage extends React.Component<ContributionPageProps, State> {
           />
         )}
 
-        {!user.account && shouldShowSecondCTA && (
+        {noUserAccount && shouldShowSecondCTA && (
           <SecondPostSubmissionCTA onReset={onReset} />
         )}
 
@@ -538,7 +542,7 @@ class ContributionPage extends React.Component<ContributionPageProps, State> {
               </Localized>{' '}
               <SkipIcon />
             </Button>
-            {onSubmit && !shouldShowFirstCTA && !shouldShowSecondCTA && (
+            {onSubmit && shouldHideCTA && (
               <form
                 onSubmit={onSubmit}
                 className="contribution-speak-form"

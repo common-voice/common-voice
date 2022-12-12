@@ -362,10 +362,6 @@
         justify-content: center;
         align-items: center;
 
-        @media (--md-up) {
-            margin-top: 8vh;
-        }
-
         @media (--xl-up) {
             margin-top: 12vh;
         }

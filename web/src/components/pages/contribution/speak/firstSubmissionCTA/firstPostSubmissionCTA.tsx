@@ -88,18 +88,14 @@ export const FirstPostSubmissionCta: React.FC<FirstPostSubmissionCtaProps> = ({
     <div className="first-cta-container" data-testid="first-submission-cta">
       <div className="header-text-container">
         <Localized id="first-cta-header-text">
-          <h1 className="header-text">
-            Thank you for donating your voice clips!
-          </h1>
+          <h1 className="header-text" />
         </Localized>
       </div>
 
       <div className="share-information-wrapper">
         <div className="subtitle-text-container">
           <Localized id="first-cta-subtitle-text">
-            <h2 className="subtitle-text">
-              Would you like to share some information about how you speak?
-            </h2>
+            <h2 className="subtitle-text" />
           </Localized>
         </div>
 
@@ -147,9 +143,8 @@ export const FirstPostSubmissionCta: React.FC<FirstPostSubmissionCtaProps> = ({
                 <a
                   href="https://foundation.mozilla.org/en/blog/common-voice-metadata-matters"
                   target="_blank"
-                  rel="noreferrer">
-                  Learn more about why metadata matters.
-                </a>
+                  rel="noreferrer"
+                />
               ),
             }}>
             <p />
@@ -163,27 +158,23 @@ export const FirstPostSubmissionCta: React.FC<FirstPostSubmissionCtaProps> = ({
             className="add-information-button"
             onClick={handleAddInformationClick}
             data-testid="add-information-button"
-            disabled={isAddInformationButtonDisabled}>
-            Add information
-          </Button>
+            disabled={isAddInformationButtonDisabled}
+          />
         </Localized>
         <Localized id="continue-speaking-button">
           <Button
             rounded
             onClick={onReset}
-            data-testid="continue-speaking-button">
-            No thanks, continue speaking
-          </Button>
+            data-testid="continue-speaking-button"
+          />
         </Localized>
       </div>
       <Localized
         id="create-profile-text"
         elems={{
-          createProfile: <a href="/login">Create a Profile</a>,
+          createProfile: <a href="/login" />,
         }}>
-        <p className="create-profile-text">
-          Want to save your information? Create a profile
-        </p>
+        <p className="create-profile-text" />
       </Localized>
     </div>
   );
