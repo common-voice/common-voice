@@ -1415,3 +1415,4 @@ sc-validation-no-abbreviations = Ur ilaq ara tafyirt ad tegber asiwzel
 
 localization-select =
     .label = Fren tutlayt/tasuqqilt
+partnerships-our-partners = Iwiziwen-nneɣ
