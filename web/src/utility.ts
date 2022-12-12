@@ -160,4 +160,4 @@ export const msToHours = (msDuration: number) => {
   return Math.ceil(msDuration / MS_IN_HOUR);
 };
 
-export const isStringTrue = (str: string) => str === 'true';
+export const castTrueString = (strValue: string) => strValue === 'true';
