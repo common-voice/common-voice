@@ -82,7 +82,7 @@ const SECTION_CONTENTS: any = {
     //     },
     //   },
     // ],
-    // 'faq-what-quality',
+    'faq-what-quality',
     // 'faq-why-10k-hours',
     // 'faq-why-not-ask-read',
     // 'faq-how-calc-hours',
