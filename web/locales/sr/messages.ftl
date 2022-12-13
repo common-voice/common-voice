@@ -639,6 +639,8 @@ about-playbook-how-grow-language-content-8 = <strong>Будите креатив
 ## How to validate
 
 about-playbook-how-validate = Како да знам да ли да одобрим гласовни запис?
+about-playbook-how-validate-content-1 = Ако их <strong>чујете</strong> и </strong>разумете<strong>, онда је <strong>најбоље да их и одобрите</strong>.
+about-playbook-how-validate-content-2 = <strong>Не одбијајте клипове у којима говорник „има нагласак“, који је другачији од вашег</strong> - ово је важно да би препознавање говора било боље за све.
 
 ## How to access dataset
 
