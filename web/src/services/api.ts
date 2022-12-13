@@ -191,7 +191,7 @@ export default class API {
     name: 'privacy' | 'terms' | 'challenge-terms'
   ): Promise<string> {
     const locale = name === 'challenge-terms' ? 'en' : this.locale;
-    return this.fetch(`/${name}/${locale}.html`, { isJSON: false });
+    return this.fetch(`/voicewall/${name}/${locale}.html`, { isJSON: false });
   }
 
   skipSentence(id: string) {

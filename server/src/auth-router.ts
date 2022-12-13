@@ -120,8 +120,6 @@ router.get(
       session,
     } = request;
 
-    console.log(request);
-
     let currentState = {
       locale: '',
       old_user: '',
