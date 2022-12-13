@@ -107,8 +107,8 @@ const SECTION_CONTENTS: any = {
     'faq-what-determine-identity',
   ],
   [SECTIONS.glossary]: [
-    ['localization', 'localization-explanation'],
-    ['sentence-collection', 'sentence-collection-explanation'],
+    // ['localization', 'localization-explanation'],
+    // ['sentence-collection', 'sentence-collection-explanation'],
     ['hours-recorded', 'hours-recorded-explanation'],
     ['hours-validated', 'hours-validated-explanation'],
     ['sst', 'sst-explanation'],
