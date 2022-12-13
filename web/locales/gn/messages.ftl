@@ -135,6 +135,7 @@ nan-tw = Taiwán ñe’e (Minnan)
 nb-NO = Noruega ñe’ẽ
 nd = IsiNdebele (Yvatévo)
 ne-NP = Nepali ñe’ẽ
+nhe = Náhuatl Huasteca Oriental pegua
 nia = Nias
 nl = Paises Bajos ñe’ẽ
 nn-NO = Noruega ñe’ẽ Nynorsk
@@ -728,7 +729,6 @@ language = Ñe’ẽ
 download-dataset-header = Emboguejy mba’ekuaarã aty
 download-delta-explainer = Romoambuékuri heta mba’e. Pe delta vore oguereko mba’epyahu roguenohẽramóvape. <deltaLink>Emoñe’ẽve ko tembiapo rehegua</deltaLink>.
 download-dataset-tag = Eiporavo ñe’ẽ mba’ekuaarã aty eipotáva ha mba’eichaguáva emboguejy hag̃ua.
-download-dataset-access = ¿Eheka itujavéva mba’ekuaarã aty? Ñanduti veve <emailLink> { $email } </emailLink>
 # File size in gigabytes
 size = Tuichakue
 validated-hr-total = Aravo mboajepyre
