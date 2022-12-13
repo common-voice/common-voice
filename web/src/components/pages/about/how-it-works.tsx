@@ -50,14 +50,14 @@ const HowItWorks = React.memo(() => {
 
   return (
     <div className="how-it-works-container">
-      <div className="how-it-works-intro">
+      {/* <div className="how-it-works-intro">
         <Localized id="how-does-it-work-title-v2">
           <h2 />
         </Localized>
         <Localized id="how-does-it-work-text">
           <p />
         </Localized>
-      </div>
+      </div> */}
       <div className="how-it-works-content">
         {lastVisible && <div className="more-previous-overlay"></div>}
         {firstVisible && <div className="more-next-overlay"></div>}
