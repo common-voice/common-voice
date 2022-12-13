@@ -135,6 +135,7 @@ nan-tw = Тайванська (Мінан)
 nb-NO = Норвезька Букмол
 nd = IsiNdebele (північна)
 ne-NP = Непальська
+nhe = Східна уастека науатль
 nia = Ніаська
 nl = Нідерландська
 nn-NO = Норвезька Нюношк
@@ -738,7 +739,6 @@ language = Мова
 download-dataset-header = Завантажити набір даних
 download-delta-explainer = Ми внесли деякі зміни. Сегменти Delta містять лише найновіші кліпи з моменту останнього випуску. <deltaLink>Докладніше про цю роботу</deltaLink>.
 download-dataset-tag = Виберіть потрібний набір мовних даних і версію, яку хочете завантажити.
-download-dataset-access = Шукаєте попередні випуски набору даних? Надішліть електронний лист на <emailLink> { $email } </emailLink>
 # File size in gigabytes
 size = Розмір
 validated-hr-total = Всього годин перевірено
