@@ -641,9 +641,12 @@ about-playbook-how-grow-language-content-8 = <strong>Будите креатив
 about-playbook-how-validate = Како да знам да ли да одобрим гласовни запис?
 about-playbook-how-validate-content-1 = Ако их <strong>чујете</strong> и </strong>разумете<strong>, онда је <strong>најбоље да их и одобрите</strong>.
 about-playbook-how-validate-content-2 = <strong>Не одбијајте клипове у којима говорник „има нагласак“, који је другачији од вашег</strong> - ово је важно да би препознавање говора било боље за све.
+about-playbook-how-validate-content-3 = Ако мислите да је изговор <strong>неразумљив</strong>, <strong>има много позадинске буке</strong> или се <strong>други људи чују</strong> у позадини, требало би да одбијете снимак. <accuracyLink>Погледајте наше критеријуме тачности за више информација</accuracyLink>.
+about-playbook-how-validate-content-4 = Ако 2 особе врате снимак, онда ће исти да буде објављен у посебном подскупу података.
 
 ## How to access dataset
 
+about-playbook-how-access-dataset = Како да приступим и користим скуп података?
 
 ## How are decisions made
 
@@ -1215,6 +1218,23 @@ sc-logout-button = Одјава
 
 ## REVIEW
 
+sc-review-title = Прегледај реченице
+sc-review-loading = Учитавање реченица…
+sc-review-select-language = Изаберите језик да прегледате реченице.
+sc-review-no-sentences = Нема реченица за преглед. <addLink>Додајте нове предлоге!</addLink>
+# Variables:
+#   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
+sc-review-form-source = Извор: { $sentenceSource }
+sc-review-form-button-reject = Одбиј
+sc-review-form-button-skip = Прескочи
+sc-review-form-button-approve = Одобри
+# Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
+sc-review-form-button-approve-shortcut = Д
+# Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
+sc-review-form-button-reject-shortcut = Н
+# Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
+sc-review-form-button-skip-shortcut = П
+sc-review-form-keyboard-usage-custom = Можете да користите пречице на тастатури: { sc-review-form-button-approve-shortcut } да одобрите, { sc-review-form-button-reject-shortcut } да одбијете, { sc-review-form-button-skip-shortcut } да прескочите
 
 ## SETTINGS
 
