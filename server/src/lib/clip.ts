@@ -187,7 +187,7 @@ export default class Clip {
         headers,
         response,
         400,
-        `missing parameter: ${sentenceId ? 'client_id' : 'sentence_id'}`,
+        `missing parameter: ${!sentenceId ? 'client_id' : 'sentence_id'}`,
         ERRORS.MISSING_PARAM,
         'clip'
       );
