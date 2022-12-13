@@ -20,7 +20,7 @@ export const SecondPostSubmissionCTA: React.FC<
     w: 10,
     h: 10,
     x: width / 2,
-    y: height / 2.5,
+    y: height / 4,
   };
 
   return (
