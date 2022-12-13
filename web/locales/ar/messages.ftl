@@ -1070,7 +1070,7 @@ about-playbook-how-access-dataset-content-2 = إذا كنت تبحث عن أدو
 
 ## How are decisions made
 about-playbook-how-project-governance = كيف يتم اتخاذ قرارات المشروع؟
-about-playbook-how-project-governance-content-1 = أصبح تطبيق Mozilla Common Voice ممكنًا بفضل مجتمع متنوع من النشطاء واللغويين وعلماء البيانات والأكاديميين ومهندسي البرمجيات من جميع أنحاء العالم. تتم إدارة المشروع من قبل مؤسسة موزيلا.
+about-playbook-how-project-governance-content-1 = أصبح تطبيق الجدارية الصوتية ممكنًا بفضل مجتمع متنوع من النشطاء واللغويين وعلماء البيانات والأكاديميين ومهندسي البرمجيات من جميع أنحاء العالم. تتم إدارة المشروع من قبل مؤسسة موزيلا.
 about-playbook-how-project-governance-content-2 = ترتكز حوكمتنا على ركائز:
 about-playbook-how-project-governance-content-3 = الخصوصية والأمان والشفافية.
 about-playbook-how-project-governance-content-4 = المشاركة المجتمعية واتخاذ القرار.
