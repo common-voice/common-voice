@@ -135,6 +135,7 @@ nan-tw = Taiwanees (Minnan)
 nb-NO = Noors Bokmål
 nd = IsiNdebele (Noordelijk)
 ne-NP = Nepalees
+nhe = Oostelijk Huasteca Nahuatl
 nia = Nias
 nl = Nederlands
 nn-NO = Noors Nynorsk
@@ -724,7 +725,6 @@ language = Taal
 download-dataset-header = De gegevensset downloaden
 download-delta-explainer = We hebben enkele wijzigingen aangebracht. Delta Segments bevatten alleen de meest recente fragmenten sinds de vorige versie. <deltaLink>Meer info over dit werk</deltaLink>.
 download-dataset-tag = Selecteer de gewenste taalgegevensset en kies de versie die u wilt downloaden.
-download-dataset-access = Op zoek naar eerdere versies van de gegevensset? Stuur een e-mailbericht naar <emailLink> { $email } </emailLink
 # File size in gigabytes
 size = Grootte
 validated-hr-total = Totaal aantal gevalideerde uren
