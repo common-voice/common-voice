@@ -210,13 +210,13 @@ export default class Server {
 
   private setupPrivacyAndTermsRoutes() {
     this.app.get(
-      '/privacy/:locale.html',
+      '/voicewall/privacy/:locale.html',
       async ({ params: { locale } }, response) => {
         response.send(await fetchLegalDocument('privacy_notice', locale));
       }
     );
     this.app.get(
-      '/terms/:locale.html',
+      '/voicewall/terms/:locale.html',
       async ({ params: { locale } }, response) => {
         response.send(await fetchLegalDocument('terms', locale));
       }

@@ -28,7 +28,7 @@ const About: React.ComponentType = React.memo(() => {
         ],
         // [SECTIONS.HOW_IT_WORKS, HowItWorks],
         // [SECTIONS.SUBSCRIBE, Subscribe],
-        [SECTIONS.PLAYBOOK, Playbook],
+        // [SECTIONS.PLAYBOOK, Playbook],
         // [SECTIONS.GET_INVOLVED, GetInvolved],
       ].map(([section, SectionComponent]: [string, any], index: number) => {
         if (typeof section === 'object') {

@@ -69,13 +69,13 @@ export default React.memo(() => {
           <div>
             <LocalizedLocaleLink id="privacy" to={URLS.PRIVACY} />
             <LocalizedLocaleLink id="terms" to={URLS.TERMS} />
-            <Localized id="cookies">
+            {/* <Localized id="cookies">
               <a
                 target="_blank"
                 href="https://www.mozilla.org/en-US/privacy/websites/#cookies"
                 rel="noopener noreferrer"
               />
-            </Localized>
+            </Localized> */}
           </div>
           <div className="divider-vertical" />
           {/* <div>

@@ -380,7 +380,7 @@ class ContributionPage extends React.Component<Props, State> {
             </div>
             <div className="mobile-break" />
 
-            {!hasErrors && !isSubmitted && (
+            {/* {!hasErrors && !isSubmitted && (
               <LocaleLink
                 blank
                 to={URLS.CRITERIA}
@@ -388,7 +388,7 @@ class ContributionPage extends React.Component<Props, State> {
                 <ExternalLinkIcon />
                 <Localized id="contribution-criteria-link" />
               </LocaleLink>
-            )}
+            )} */}
           </div>
 
           {this.renderContent()}
@@ -536,7 +536,7 @@ class ContributionPage extends React.Component<Props, State> {
           {primaryButtons}
         </div>
 
-        {!hasErrors && !isSubmitted && (
+        {/* {!hasErrors && !isSubmitted && (
           <LocaleLink
             blank
             to={URLS.CRITERIA}
@@ -544,7 +544,7 @@ class ContributionPage extends React.Component<Props, State> {
             <ExternalLinkIcon />
             <Localized id="contribution-criteria-link" />
           </LocaleLink>
-        )}
+        )} */}
 
         <div className="buttons">
           <div>
