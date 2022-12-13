@@ -1103,6 +1103,7 @@ download-request-title = { $created }
 download-request-description = { $clipCount } ຄຣິບສຽງ, ຂະຫນາດທັງຫມົດ { $size }. ຫມົດອາຍຸ { $expires }.
 download-request-archive-single = ໄຟລ໌ ZIP ດຽວປະກອບມີ
 download-request-archive-multiple = ແບ່ງອອກເປັນໄຟລ໌ ZIP { $archiveCount } ທີ່ມີ
+download-request-assembling-description = ໄຟລ໌ຂອງທ່ານກໍາລັງຖືກລວບລວມ. ກະລຸນາກວດເບິ່ງອີກຄັ້ງໃນພາຍຫຼັງ.
 download-request-refresh-button = ຟື້ນຟູ
 download-request-modal-title = ລິ້ງດາວໂຫລດ
 download-request-modal-description = ນີ້ແມ່ນລິ້ງເພື່ອດາວໂຫລດໄຟລ໌ ZIP ຂອງທ່ານ.
@@ -1112,6 +1113,7 @@ download-request-metadata-link = ຂໍ້ຄວາມປະໂຫຍກ
 ## Landing
 
 welcome-staff = ຍິນດີຕ້ອນຮັບພະນັກງານ { $company }!
+help-contribute = ທ່ານສາມາດຊ່ວຍສ້າງຊຸດຂໍ້ມູນໂອເພນຊອດທີ່ຫຼາກຫຼາຍໂດຍການສ້າງໂປຣໄຟລ໌ Common Voice ແລະປະກອບສ່ວນສຽງຂອງທ່ານ.
 login-company = ເຂົ້າສູ່ລະບົບ / ລົງທະບຽນດ້ວຍ { $company } ອີເມວ
 read-more-about = ອ່ານເພີ່ມເຕີມກ່ຽວກັບຫນ້າກ່ຽວກັບຂອງພວກເຮົາ
 
@@ -1155,6 +1157,7 @@ contribution-criteria-page-title = ເງື່ອນໄຂການປະກອ
 contribution-criteria-page-description = ເຂົ້າໃຈສິ່ງທີ່ຕ້ອງຊອກຫາໃນເວລາຟັງຄລິບສຽງ ແລະຊ່ວຍເຮັດໃຫ້ການບັນທຶກສຽງຂອງທ່ານດີຂຶ້ນນຳ!
 contribution-for-example = ຍົກ​ຕົວ​ຢ່າງ
 contribution-misreadings-title = ການອ່ານຜິດ
+contribution-misreadings-description-extended-list-1 = ບໍ່ມີ <strong>'A'</strong> ຫຼື <strong>'The'</strong> ໃນຕອນຕົ້ນຂອງການບັນທຶກ.
 contribution-misreadings-description-extended-list-2 = ຂາດ <strong>'s</strong> ຢູ່ທ້າຍຄຳສັບໃດໜຶ່ງ.
 contribution-misreadings-description-extended-list-5 = ພະຍາຍາມຫຼາຍຄັ້ງເພື່ອອ່ານຄຳສັບໃດໜຶ່ງ.
 contribution-misreadings-example-1-title = ໄດໂນເສົາຍັກໃຫຍ່ຂອງ Triassic.
