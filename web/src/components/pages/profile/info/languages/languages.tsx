@@ -126,7 +126,7 @@ function ProfileInfoLanguages({
             </Localized>
           </ExpandableInformation>
         )}
-        {/* <Button
+        <Button
           className="add-language"
           outline
           disabled={hasNewEmptyLanguage}
@@ -135,7 +135,7 @@ function ProfileInfoLanguages({
             <span />
           </Localized>
           <span aria-hidden={true}>+</span>
-        </Button> */}
+        </Button>
 
         {!hasUserLanguages && (
           <Localized id="profile-select-language">
