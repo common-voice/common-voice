@@ -70,18 +70,18 @@ const TopBar = ({
     ? locales.slice(TITLE_BAR_LOCALE_COUNT)
     : locales;
 
-  useEffect(() => {
-    const checkSize = () => {
-      const { innerWidth } = window;
-      setIsAboveMdWidth(innerWidth >= 768);
-    };
-    checkSize();
-    window.addEventListener('resize', checkSize);
+  // useEffect(() => {
+  //   const checkSize = () => {
+  //     const { innerWidth } = window;
+  //     setIsAboveMdWidth(innerWidth >= 768);
+  //   };
+  //   checkSize();
+  //   window.addEventListener('resize', checkSize);
 
-    return () => {
-      window.removeEventListener('resize', checkSize);
-    };
-  }, [isChallengeTabSelected]);
+  //   return () => {
+  //     window.removeEventListener('resize', checkSize);
+  //   };
+  // }, [isChallengeTabSelected]);
 
   return (
     <div className={`top-bar${isChallengeEnrolled ? ' with-challenge' : ''}`}>
