@@ -53,7 +53,7 @@ const Nav: React.ComponentType<Props> = React.memo((props: Props) => {
 
   return (
     <div {...parentProps}>
-      {MENU_SECTIONS.map(([key, { className, ...otherProps }]) => (
+      {/* {MENU_SECTIONS.map(([key, { className, ...otherProps }]) => (
         <Link
           key={key}
           className={cx('menu-item', className, {
@@ -65,7 +65,7 @@ const Nav: React.ComponentType<Props> = React.memo((props: Props) => {
             <div className="text" />
           </Localized>
         </Link>
-      ))}
+      ))} */}
     </div>
   );
 });
