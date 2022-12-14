@@ -116,13 +116,13 @@ const TopBar = ({
               </Localized>
             </LocaleNavLink>
           ))}
-          <LocaleNavLink
+          {/* <LocaleNavLink
             to={
               URLS.DASHBOARD +
               (dashboardLocale ? '/' + dashboardLocale : '') +
               URLS.AWARDS
             }>
-            <h2 hidden>
+            <h2>
               <Localized id="awards">
                 <span />
               </Localized>{' '}
@@ -132,15 +132,15 @@ const TopBar = ({
                 </span>
               )}
             </h2>
-          </LocaleNavLink>
+          </LocaleNavLink> */}
         </nav>
-        {isChallengeTabSelected ? (
-          <div hidden className="language challenge-language">
+        {/* {isChallengeTabSelected ? (
+          <div className="language challenge-language">
             <span>Language:</span>
             <span className="language-text">English</span>
           </div>
         ) : (
-          <div hidden className="languages">
+          <div className="languages">
             <span>
               <Localized id="your-languages">
                 <span />
@@ -191,7 +191,7 @@ const TopBar = ({
               </select>
             )}
           </div>
-        )}
+        )} */}
       </div>
       {isChallengeTabSelected && (
         <ChallengeBar setShowInviteModal={setShowInviteModal} />
