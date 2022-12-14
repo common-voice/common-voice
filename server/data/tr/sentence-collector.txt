@@ -9414,6 +9414,7 @@ Biz sizi ararız.
 Biz sizin şanınız, şerefiniz için çalışıyoruz, sizin iyiliğinizden başka bir şey düşünmüyoruz.
 Biz tesadüfün bu lütfunu tekmelemeyecek kadar zekâ gösterelim…
 Biz teşekkür ederiz.
+Biz tt altyapısında hizmet veriyoruz efendim
 Biz yaklaştıkça da hava kararıyor…
 Biz yaparız.
 Biz yapmadık.
@@ -9792,6 +9793,7 @@ Bu adamın kendisini eskisinden daha az, yahut daha farklı sevmediği de muhakk
 Bu adamın nesi var?
 Bu adamın sorunu ne?
 Bu adil değil.
+Bu adreste alt yapı görünmüyor daha önce internet kullanımı sağlamış mıydınız?
 Bu affedilemez.
 Bu akıllıca.
 Bu akşam Tulu da ötekilerle beraber gelecek, babasını görecekmiş.
@@ -10659,8 +10661,10 @@ Bu münakaşayı burada bırakmış, fakat başka zamanlar gene ele almıştık.
 Bu münakaşayı duyan cemiyet reisi de gelmişti.
 Bu müteahhitlerle başa çıkamıyoruz efendim…
 Bu müthiş bir şey.
+Bu nasıl bi müşteri hizmeti telefonlara cevap verilmiyor
 Bu nasıl bir duygu?
 Bu nasıl hürriyet!
+Bu nasıl ilgisizlik
 Bu nasıl iş Dilek, seni anlayamıyorum…
 Bu nasıl mümkün olabilir ki?
 Bu nasıl mümkün olabilir?
@@ -10715,6 +10719,7 @@ Bu neden oluyor?
 Bu nedenle buradayım.
 Bu nedenle…
 Bu nedir böyle?
+Bu nedir şimdi, benim halen aboneliğim neden iptal olmadı?
 Bu nedir?
 Bu nerede oldu?
 Bu nereden çıktı şimdi?
@@ -10727,6 +10732,7 @@ Bu neyi kanıtlar?
 Bu niçin böyle?
 Bu noktalardan gökyüzüne doğru adeta aydınlık bir sis yükseliyordu.
 Bu normal değil.
+Bu numaraya gönderebilirsiniz efendim
 Bu numarayı ara.
 Bu numarayı nasıl buldun?
 Bu numarayı nereden buldun?
@@ -10917,6 +10923,7 @@ Bu size.
 Bu sizi ilgilendirmez.
 Bu sizin.
 Bu sokaklarda Macide’yi garip bir korku sardı.
+Bu sokakta bir müşteriz varHızınız ücretiniz.
 Bu son değil.
 Bu son ihtimal tereddüdünü kırdı.
 Bu son kelime Ömer’in üzerinde bir kamçı tesiri yaptı.
@@ -11246,6 +11253,7 @@ Bu şekilde devam edemeyiz.
 Bu şekilde değil.
 Bu şekilde olmaz.
 Bu şekilde sevdiklerim hayatla üç dört kişiden ibarettir.
+Bu şekilde yazabilirsiniz efendim
 Bu şey açık mı?
 Bu şey gibi…
 Bu şey nasıl çalışıyor?
@@ -11292,6 +11300,7 @@ Budalalık…
 Budalanın yağı çok olursa sakalına sürer.
 Budur be!
 Budur.
+Bugun hocam
 Bugün Noel.
 Bugün ayın kaçı?
 Bugün bana ise yarın sana.
@@ -12296,6 +12305,7 @@ Bunu...
 Bunun aksi niçin zararlıdır ve ne neticeler verir, izah etmiştik.
 Bunun aksini düşünenler başkalarını veya kendilerini aldatmaya çalışan divanelerdir.
 Bunun altına doğru, duvarlara tutunarak yürüdü.
+Bunun anlamı ne
 Bunun anlamı ne?
 Bunun anlamı nedir?
 Bunun anlamını biliyor musun?
@@ -12685,6 +12695,7 @@ Buradan sağa dön.
 Buradan sonrasını biz hallederiz.
 Buradan uzaklaşmalıyız.
 Buradan uzağa.
+Buradan yükseltme işlemi sağlayamıyoruz efendim
 Buradan çıkmak ister misin?
 Buradan çıkmak zorundayız.
 Buradan çıkmalıyız.
@@ -13509,6 +13520,7 @@ Cavit Bey de söylediklerini pek anlamış değildi.
 Cavit Bey iki üç gün kendini toparlayamadı.
 Cavit Bey sahiden inandı.
 Cavit Bey, bütün koğuşa, çıkınca nerelere gideceğini, nasıl iş tutacağını anlatıyordu.
+Cayma bedeli ne kadar
 Cebimde olacak!
 Cebimde.
 Cebimden bir elli kuruş çıkarıp uzattım: "Kardeş misiniz?" diye sordum.
@@ -13641,6 +13653,7 @@ Ciddileşti ve ayağa kalktı. Ne demek istiyorsunuz?
 Ciddiyim ben.
 Ciddiyim!
 Ciddiyim.
+Cihazı siz takıyor musunuz?
 Cin tutana bir muska yeter.
 Cinayet mi?
 Cinayet.
@@ -13880,6 +13893,7 @@ Daha önce karşılaştık mı?
 Daha önce tanışmıştık.
 Daha önce tanıştık mı?
 Daha önce yaptım.
+Daha önce. Temsilci internet şirkette çalıştım.
 Daha şimdiden zor zapt ettiğim bir merakla onun gideceği dakikayı bekliyordum.
 Daha?
 Dahası da var.
@@ -14025,6 +14039,7 @@ Dağılırken bile bile yavaş yürüdüm.
 Dağın suları serindir ama, yolları sarptır, kışı çetindir…
 Dağınıklık için kusura bakmayın.
 Dağınıklığın kusuruna bakma.
+Dağıtım kutusuyla alakalı değil ki kutuya gelen kabloyu çalmışlar
 De be kahpe nalı, amma da korkaksın ha…
 Dean!
 Dede koruk yer, torununun dişi kamaşır.
@@ -14282,6 +14297,7 @@ Dene de gör.
 Dene hadi.
 Dene.
 Denedik.
+Denedim olmadı
 Denedim.
 Deneme bile.
 Deneme, deneme.
@@ -14315,6 +14331,7 @@ Dengesiz.
 Deniyorum!
 Deniyorum.
 Deniyoruz.
+Deniz Kaya
 Deniz bal olmuş, fukara kaşık bulamamış.
 Deniz dalgasız olmaz, gönül sevdasız olmaz.
 Deniz dalgasız olmaz, kapı halkasız.
@@ -14634,6 +14651,7 @@ Dilencinin torbası dolmaz.
 Dilenciye benzemiyordu!
 Dilenciye borçlu olma, ya düğünde ister ya bayramda.
 Dilenciye hıyar vermişler de eğri diye beğenmemiş.
+Dilerseniz geçiş yapabiliriz efendim
 Dili onu biraz da münzevi yapmıştı.
 Dilim seni dilim dilim dileyim, başıma geleni senden bileyim.
 Dilim tutuldu.
@@ -15380,6 +15398,7 @@ Dün akşam yemekten sonra biraz dışarı çıkmıştım.
 Dün akşam, hele buraya geldikten sonra, bir an neler ümit etmiştim…
 Dün akşamdan beri bir şey yememiştim, fakat midemde açlıktan ziyade bir nevi bulantı hissediyordum.
 Dün akşamdan beri birbirini kovalayan hadiselerin ağırlığını ancak şimdi ve tamamen duyuyordu.
+Dün akşamdan beri internet kesik
 Dün akşamdan beri sen buradasın, bakındın bakındın da ne gördün?
 Dün akşamki hadiselerden sonra bu kadar canlı ve taze uyanacağını tahmin etmiyordu.
 Dün akşamki halinizi unutamayacağım!
@@ -15757,6 +15776,7 @@ Efendi olduğum için hapishanede ilkönce bana pek itibar etmezlerdi.
 Efendi?
 Efendim anne?
 Efendim ilk başlarda böyle değildi bu hizmetiniz.
+Efendim online işlemlere girmeye çalışıyorum telefona kod geliyor kodu girince hatalı sms kodu deniliyor.
 Efendim!
 Efendim! diyordu, "Nafıa mühendislerine meram anlatamıyoruz…"
 Efendim, ben ona gittim: Beni dışarı attı.
@@ -16494,6 +16514,7 @@ Eskiden…
 Eskisi gibi açlıktan değil, bu sefer soğuktan ağladı.
 Eskisi gibi değil.
 Eskisi gibi.
+Eskisi mi iptal edecek.
 Eskisinden daha harap, ancak duyulabilir bir sesle şoför: "Rahmi!"
 Eskisinin iki misli ezilmek için mi?
 Eskiye itibar olsaydı bitpazarına nur yağardı.
@@ -17299,6 +17320,7 @@ Evlisin.
 Evliyim.
 Evrak asıllarının tarafımıza kargo ile ulaşması gerekmektedir efendim
 Evraklar.
+Evrakları bu numarayı mi göndereceğiz.
 Evrakı ve raporları savcılık kaleminde duruyor, takip eden olmadığı için sıra bekliyordu.
 Evrim geçirdiler.
 Evvel can, sonra canan.
@@ -17479,6 +17501,7 @@ Fabrikaya!
 Fadime'yi yere bıraktı, gülmeye çalıştı...
 Fahişe mi?
 Fahişeler!
+Fahrettin Karbeyaz
 Faik'le beraber Katil Osman'ın avluya girdiklerini gördüm.
 Fakat "Avrupa'da ne öğrendin?" derse ne cevap verecektim?
 Fakat Ayşe hiçbir şey dinlemiyor, gözüne hiçbir şey görünmüyordu.
@@ -18046,6 +18069,7 @@ Fevkalade sevindim.
 Fevkalade süratle söylediği bu sözlerden sonra hakikaten gözlerini kapayarak bir adım ilerledi.
 Fevkalade üzüldüler.
 Fevkalade.
+Fiber alt yapılarda geçiş esnasında modemin devir hakları firmamıza geçmektedir.
 Fiber değil
 Fikir Arkadaşı.
 Fikir ve Sanat Eserleri Kanunu'na göre eserin koruma süresi dolmuştur.
@@ -18107,6 +18131,7 @@ Fıs fıstığı kırıp düşman gözü çıkarmalı.
 Fıstık gibi.
 Fıstık!
 Fısıltı ev yıkar.
+G net esnaf tarifesini seçebilirsiniz
 Gafil!
 Gafile kelam, nafile kelam.
 Galiba Anadolu, insanı romantik yapıyor da ondan…
@@ -18254,6 +18279,7 @@ Gebertin!
 Gebertinceye kadar döveceklerdi.
 Gebertirim seni!
 Gebze
+Gece ay ödemeyi yaptım vardı
 Gece bu merdivenlerden çok aydınlıktı…
 Gece daha yeni başlıyor.
 Gece gece!
@@ -42750,6 +42776,7 @@ insanlardan itimadınızı çekip almakla belki haklısınız.
 iştahla yediler.
 kendimi kendimden çıkarsam sıfır kalmaz
 ve bunları çalanların yüzünü kaplayan mühim ifade beni buradan da kaçıracaktı.
+ve kablosuz internet şirkette çalıştım. Antakya'da oturuyorum. Eğer burada ofisiniz varsa?
 Âdemoğlu hîlebâzdır, kimse bilmez fendini! Her kime rağbet edersen, sakın andan kendini.
 Âmin.
 Âşık olmaktan, hakikaten ve deli gibi sevmekten korkuyordu.
@@ -43986,6 +44013,7 @@ ve bunları çalanların yüzünü kaplayan mühim ifade beni buradan da kaçır
 Çıkmayacak.
 Çıkmayacağım.
 Çıkmayan candan umut kesilmez.
+Çıkmaz sokak
 Çıkmaz yol.
 Çıkmıyoruz.
 Çıkmış…
@@ -45172,6 +45200,7 @@ ve bunları çalanların yüzünü kaplayan mühim ifade beni buradan da kaçır
 Üşüyeceksin!
 Üşüyorsun, haydi içeri girelim! dedim.
 Üşüyorum.
+özür dilerim
 İIginç.
 İbadet de gizli kabahat de.
 İblis mi?
