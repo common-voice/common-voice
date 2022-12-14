@@ -722,7 +722,6 @@ language = Langue
 download-dataset-header = Télécharger le jeu de données
 download-delta-explainer = Nous avons effectué quelques changements. Les segments Delta contiennent uniquement les échantillons les plus récents depuis la dernière version. <deltaLink>En apprendre davantage à ce sujet</deltaLink>.
 download-dataset-tag = Sélectionnez le jeu de données dans la langue souhaitée et choisissez la version que vous souhaitez télécharger.
-download-dataset-access = Vous recherchez des versions antérieures de jeux de données ? Envoyez un e-mail à <emailLink> { $email } </emailLink>
 # File size in gigabytes
 size = Taille
 validated-hr-total = Total d’heures validées
@@ -1521,7 +1520,7 @@ partnerships-header-text = Créer Common Voice demande beaucoup d’efforts ! N
 partnerships-get-in-touch = Nous contacter
 partnerships-become-a-partner = Devenir partenaire de Common Voice
 partnerships-community-header = Communauté, créatifs et société civile
-partnerships-community-description = La communauté est au cœur même de Common Voice, ses membre viennent du monde entier, et sont des militant·e·s linguistiques, des scientifiques et des artistes. Vous pouvez en savoir plus sur la façon de vous impliquer sur notre page  <about>À propos</about> et dans notre <community>Guide communautaire</community>. Si vous souhaitez former un partenariat organisationnel plus large, <emailFragment>contactez-nous.</emailFragment>
+partnerships-community-description = La communauté est au cœur même de Common Voice, ses membres viennent du monde entier, et sont des militant·e·s linguistiques, des scientifiques et des artistes. Vous pouvez en savoir plus sur la façon de vous impliquer sur notre page  <about>À propos</about> et dans notre <community>Guide communautaire</community>. Si vous souhaitez former un partenariat organisationnel plus large, <emailFragment>contactez-nous.</emailFragment>
 partnerships-foundations-header = Fondations
 partnerships-foundations-description = Nous travaillons avec des fondations, la société civile et des partenaires communautaires pour faire d’Internet un endroit plus sain, avec un accent particulier sur l’Afrique de l’Est. En savoir plus sur nos <programmaticWork>activités programmatiques.</programmaticWork>
 partnerships-governments-header = Gouvernements
