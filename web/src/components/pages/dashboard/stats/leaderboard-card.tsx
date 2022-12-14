@@ -234,7 +234,7 @@ export default function LeaderboardCard({
       title="top-contributors"
       iconButtons={
         <div className="icon-buttons">
-          {isAccountVisible && (
+          {/* {isAccountVisible && (
             <>
               <button
                 type="button"
@@ -249,16 +249,16 @@ export default function LeaderboardCard({
 
               <div className="icon-divider" />
             </>
-          )}
+          )} */}
 
-          <button type="button" onClick={() => setShowOverlay(true)}>
+          {/* <button type="button" onClick={() => setShowOverlay(true)}>
             {isAccountVisible ? <EyeIcon /> : <EyeOffIcon />}
             <Localized id="set-visibility">
               <span className="text" />
             </Localized>
-          </button>
+          </button> */}
 
-          <div className="icon-divider" />
+          {/* <div className="icon-divider" /> */}
 
           <div
             className="leaderboard-info"
