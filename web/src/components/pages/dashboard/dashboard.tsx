@@ -70,18 +70,18 @@ const TopBar = ({
     ? locales.slice(TITLE_BAR_LOCALE_COUNT)
     : locales;
 
-  // useEffect(() => {
-  //   const checkSize = () => {
-  //     const { innerWidth } = window;
-  //     setIsAboveMdWidth(innerWidth >= 768);
-  //   };
-  //   checkSize();
-  //   window.addEventListener('resize', checkSize);
+  useEffect(() => {
+    const checkSize = () => {
+      const { innerWidth } = window;
+      setIsAboveMdWidth(innerWidth >= 768);
+    };
+    checkSize();
+    window.addEventListener('resize', checkSize);
 
-  //   return () => {
-  //     window.removeEventListener('resize', checkSize);
-  //   };
-  // }, [isChallengeTabSelected]);
+    return () => {
+      window.removeEventListener('resize', checkSize);
+    };
+  }, [isChallengeTabSelected]);
 
   return (
     <div className={`top-bar${isChallengeEnrolled ? ' with-challenge' : ''}`}>
@@ -134,7 +134,7 @@ const TopBar = ({
             </h2>
           </LocaleNavLink> */}
         </nav>
-        {/* {isChallengeTabSelected ? (
+        {isChallengeTabSelected ? (
           <div className="language challenge-language">
             <span>Language:</span>
             <span className="language-text">English</span>
@@ -191,7 +191,7 @@ const TopBar = ({
               </select>
             )}
           </div>
-        )} */}
+        )}
       </div>
       {isChallengeTabSelected && (
         <ChallengeBar setShowInviteModal={setShowInviteModal} />
