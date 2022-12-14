@@ -3,7 +3,13 @@ import PromiseRouter from 'express-promise-router';
 import Model from './model';
 import { getStatistics } from './model/statistics';
 import { TableNames } from 'common';
-import { clipStatScehma, sentenceStatScehma } from './validation/statistics';
+import {
+  accountStatSchema,
+  clipStatSchema,
+  downloadStatSchema,
+  sentenceStatSchema,
+  speakerStatSchema,
+} from './validation/statistics';
 import validate from './validation';
 
 /**
@@ -19,13 +25,25 @@ export default class Statistics {
   getRouter() {
     const router = PromiseRouter();
 
-    router.get('/downloads', this.downloadCount);
-    router.get('/clips', validate({ query: clipStatScehma }), this.clipCount);
-    router.get('/speakers', this.uniqueSpeakers);
-    router.get('/accounts', this.accountCount);
+    router.get('/clips', validate({ query: clipStatSchema }), this.clipCount);
+    router.get(
+      '/downloads',
+      validate({ query: downloadStatSchema }),
+      this.downloadCount
+    );
+    router.get(
+      '/speakers',
+      validate({ query: speakerStatSchema }),
+      this.uniqueSpeakers
+    );
+    router.get(
+      '/accounts',
+      validate({ query: accountStatSchema }),
+      this.accountCount
+    );
     router.get(
       '/sentences',
-      validate({ query: sentenceStatScehma }),
+      validate({ query: sentenceStatSchema }),
       this.sentenceCount
     );
 
