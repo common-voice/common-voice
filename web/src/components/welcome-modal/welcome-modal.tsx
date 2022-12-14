@@ -79,7 +79,7 @@ export default ({ challengeToken, teamToken, ...props }: WelcomeModalProps) => {
           },
         });
       } else {
-        window.location.href = `/login${enrollmentDetails}${referrerString}`;
+        window.location.href = `/voicewall/login${enrollmentDetails}${referrerString}`;
       }
     } else {
       window.location.reload();

@@ -94,7 +94,7 @@ function Settings(props: Props) {
         <LinkButton
           outline
           className="edit-button"
-          href={location.origin + '/login?change_email'}>
+          href={location.origin + '/voicewall/login?change_email'}>
           <PenIcon />
           <Localized id="edit">
             <span />

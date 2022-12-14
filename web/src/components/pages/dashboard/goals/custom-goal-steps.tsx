@@ -131,7 +131,7 @@ export default [
         </div>
 
         <div className="waves">
-          <img className="mars" src="/img/mars.svg" alt="Mars Robot" />
+          <img className="mars" src="/voicewall/img/mars.svg" alt="Mars Robot" />
         </div>
 
         {!dashboardLocale && (
@@ -189,7 +189,7 @@ export default [
         <ArrowButton {...nextButtonProps} />
       </Buttons>
       <div className="waves">
-        <img className="mars" src="/img/mars.svg" alt="Mars Robot" />
+        <img className="mars" src="/voicewall/img/mars.svg" alt="Mars Robot" />
         <div className="text">
           <Localized id="cant-decide">
             <h4 />

@@ -19,10 +19,10 @@ export function Fraction({
         numerator <= 99 ? ' md-right' : ''
       }`}>
       <div className="numerator">{numerator}</div>
-      <div className="denominator">
+      {/* <div className="denominator">
         {percentage ? ' % ' : ' / '}
         {denominator}
-      </div>
+      </div> */}
     </div>
   );
 }

@@ -19,7 +19,7 @@ export default function ShareModal({
   return (
     <Modal innerClassName="share-modal" {...props}>
       <div className="image-container">
-        <img className="mars" src="/img/mars.svg" alt="Robot" />
+        <img className="mars" src="/voicewall/img/mars.svg" alt="Robot" />
       </div>
       {title ? (
         <h1>{title}</h1>
