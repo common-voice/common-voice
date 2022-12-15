@@ -15,6 +15,7 @@ const SOURCES = {
     'https://gravatar.com',
     'https://*.mozilla.org',
     'https://*.allizom.org',
+    'https://*.linodeobjects.com',
     'data:',
   ],
   'media-src': [
