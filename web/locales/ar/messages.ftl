@@ -373,7 +373,7 @@ why-demographic = ما أهمية هذا؟
 why-demographic-explanation-2 = تُساعد بيانات المستخدمين المجهولة مثل العمر والجنس واللهجة واللكنة على تحسين البيانات الصوتية المستخدمة في تدريب أدوات التعرف على الكلام. لن يرتبط اسم المستخدم والبريد الإلكتروني مطلقًا بالبيانات التي تُرسلها، ويمكنك اختيار ما إن كنت تريد نشر اسم المستخدم من عدم ذلك.
 accept-privacy = لا أمانع التعامل مع بياناتي كما هو موضّح في <privacyLink>سياسة الخصوصية</privacyLink> للمجمع
 accept-privacy-title = سياسة الخصوصية
-login-identity = هويّة الولوج
+login-identity = هويّة الدخول
 login-signup = تسجيل
 edit = حرّر
 email-subscriptions = اشتراكات البريد الإلكتروني
@@ -408,7 +408,7 @@ manage-subscriptions = أدِر الاشتراكات
 manage-email-subscriptions = أدِر اشتراكات البريد
 email-already-used = يستخدم حساب آخر ذات البريد بالفعل
 add-language = أضِف لغة
-change-email-setings = غيّر بريدك الإلكتروني عبر الإعدادات ثمّ ”هوية الولوج“
+change-email-setings = غيّر بريدك الإلكتروني عبر الإعدادات ثمّ ”هوية الدخول“
 
 ## FAQ
 
