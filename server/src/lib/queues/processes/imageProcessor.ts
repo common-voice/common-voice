@@ -16,7 +16,7 @@ const getUnsignedUrl = (bucket: string, key: string) => {
     return `${S3_LOCAL_DEVELOPMENT_ENDPOINT}/${CLIP_BUCKET_NAME}/${key}`;
   }
 
-  return `https://${bucket}.s3.dualstack.${AWS_REGION}.amazonaws.com/${key}`;
+  return `https://common-voice-clips.eu-central-1.linodeobjects.com/${key}`;
 };
 
 const deleteAvatar = async (client_id: string, url: string, s3: any) => {
