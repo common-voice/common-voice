@@ -135,6 +135,7 @@ nan-tw = Ταϊβανικά (Μιννάν)
 nb-NO = Νορβηγικά (Bokmål)
 nd = IsiNdebele (Βόρεια)
 ne-NP = Νεπαλικά
+nhe = Ανατολικά Νάουατλ (Χουαστέκα)
 nia = Νας
 nl = Ολλανδικά
 nn-NO = Νορβηγικά (Nynorsk)
@@ -725,7 +726,6 @@ datasets-positioning =
 language = Γλώσσα
 download-dataset-header = Λήψη συνόλου δεδομένων
 download-dataset-tag = Επιλέξτε την επιθυμητή γλώσσα και την έκδοση του συνόλου δεδομένων.
-download-dataset-access = Ψάχνετε για τις προηγούμενες κυκλοφορίες συνόλων δεδομένων; Στείλτε email στο <emailLink>{ $email }</emailLink>
 # File size in gigabytes
 size = Μέγεθος
 validated-hr-total = Ώρες επαλήθευσης
