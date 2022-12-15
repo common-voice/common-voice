@@ -13,68 +13,28 @@ import { User } from '../../../stores/user';
 import { Sentence } from 'common';
 import {
   trackListening,
-  trackProfile,
   trackRecording,
   getTrackClass,
 } from '../../../services/tracker';
 import URLS from '../../../urls';
-import { LocaleLink, LocaleNavLink, useLocale } from '../../locale-helpers';
-import Modal, { ModalProps } from '../../modal/modal';
+import { LocaleLink, LocaleNavLink } from '../../locale-helpers';
+import Modal from '../../modal/modal';
 import {
   ArrowLeft,
-  CheckIcon,
   KeyboardIcon,
-  ShareIcon,
   SkipIcon,
   ExternalLinkIcon,
 } from '../../ui/icons';
-import { Button, StyledLink, LinkButton } from '../../ui/ui';
+import { Button, StyledLink, LabeledCheckbox } from '../../ui/ui';
 import { PrimaryButton } from '../../primary-buttons/primary-buttons';
 import ShareModal from '../../share-modal/share-modal';
 import { ReportButton, ReportModal, ReportModalProps } from './report/report';
-import Success from './success';
 import Wave from './wave';
+import { FirstPostSubmissionCta } from './speak/firstSubmissionCTA/firstPostSubmissionCTA';
+import { Notifications } from '../../../stores/notifications';
 
 import './contribution.css';
-
-const HAS_SEEN_ACCOUNT_MODAL_KEY = 'hasSeenAccountModal2';
-
-const AccountModal = (props: ModalProps) => {
-  const [locale] = useLocale();
-  return (
-    <Modal {...props} innerClassName="account-modal">
-      <div className="images">
-        <img src={require('./waves.svg')} alt="Waves" className="bg" />
-        <img
-          src={require('./mars-blue.svg')}
-          alt="Mars Robot"
-          className="mars"
-        />
-      </div>
-      <Localized id="keep-track-profile">
-        <h1 />
-      </Localized>
-      <Localized id="login-to-get-started">
-        <h2 />
-      </Localized>
-      <Localized id="login-signup">
-        <LinkButton
-          rounded
-          href="/login"
-          className={getTrackClass('fs', `nudge-profile-modal`)}
-          onClick={() => {
-            try {
-              sessionStorage.setItem('redirectURL', location.pathname);
-            } catch (e) {
-              console.warn(`A sessionStorage error occurred ${e.message}`);
-            }
-            trackProfile('contribution-conversion-modal', locale);
-          }}
-        />
-      </Localized>
-    </Modal>
-  );
-};
+import { SecondPostSubmissionCTA } from './speak/secondSubmissionCTA/secondSubmissionCTA';
 
 export const SET_COUNT = 5;
 
@@ -93,7 +53,14 @@ interface PropsFromState {
   user: User.State;
 }
 
-interface Props extends WithLocalizationProps, PropsFromState {
+interface PropsFromDispatch {
+  addNotification: typeof Notifications.actions.addPill;
+}
+
+export interface ContributionPageProps
+  extends WithLocalizationProps,
+    PropsFromState,
+    PropsFromDispatch {
   demoMode: boolean;
   activeIndex: number;
   hasErrors: boolean;
@@ -108,7 +75,11 @@ interface Props extends WithLocalizationProps, PropsFromState {
   isSubmitted: boolean;
   onReset: () => any;
   onSkip: () => any;
-  onSubmit?: () => any;
+  onSubmit?: (evt?: React.SyntheticEvent) => void;
+  onPrivacyAgreedChange?: (privacyAgreed: boolean) => void;
+  privacyAgreedChecked?: boolean;
+  shouldShowFirstCTA?: boolean;
+  shouldShowSecondCTA?: boolean;
   primaryButtons: React.ReactNode;
   pills: ((props: ContributionPillProps) => React.ReactNode)[];
   sentences: Sentence[];
@@ -123,20 +94,18 @@ interface Props extends WithLocalizationProps, PropsFromState {
 
 interface State {
   selectedPill: number;
-  showAccountModal: boolean;
   showReportModal: boolean;
   showShareModal: boolean;
   showShortcutsModal: boolean;
 }
 
-class ContributionPage extends React.Component<Props, State> {
+class ContributionPage extends React.Component<ContributionPageProps, State> {
   static defaultProps = {
     isFirstSubmit: false,
   };
 
   state: State = {
     selectedPill: null,
-    showAccountModal: false,
     showReportModal: false,
     showShareModal: false,
     showShortcutsModal: false,
@@ -145,52 +114,18 @@ class ContributionPage extends React.Component<Props, State> {
   private canvasRef: { current: HTMLCanvasElement | null } = React.createRef();
   private wave: Wave;
 
-  private get showAccountModalDefault() {
-    const { flags, user } = this.props;
-    return (
-      flags.showAccountConversionModal &&
-      !user.account &&
-      !JSON.parse(localStorage.getItem(HAS_SEEN_ACCOUNT_MODAL_KEY))
-    );
-  }
-
   componentDidMount() {
     this.startWaving();
     window.addEventListener('keydown', this.handleKeyDown);
-
-    // preload account modal images to prevent layout shifting
-    if (this.showAccountModalDefault) {
-      new Image().src = require('./waves.svg');
-      new Image().src = require('./mars-blue.svg');
-    }
   }
 
-  componentDidUpdate(prevProps: Props) {
+  componentDidUpdate() {
     this.startWaving();
 
-    const { activeIndex, isPlaying, isSubmitted, onReset, user } = this.props;
-
-    if (activeIndex == 1 && prevProps.activeIndex != activeIndex) {
-      const showAccountModal = this.showAccountModalDefault;
-      this.setState({ showAccountModal });
-      if (showAccountModal) {
-        try {
-          localStorage.setItem(
-            HAS_SEEN_ACCOUNT_MODAL_KEY,
-            JSON.stringify(true)
-          );
-        } catch (e) {
-          console.warn(`A sessionStorage error occurred ${e.message}`);
-        }
-      }
-    }
+    const { isPlaying } = this.props;
 
     if (this.wave) {
       isPlaying ? this.wave.play() : this.wave.idle();
-    }
-
-    if (isSubmitted && user.account?.skip_submission_feedback) {
-      onReset();
     }
   }
 
@@ -260,7 +195,8 @@ class ContributionPage extends React.Component<Props, State> {
       event.altKey ||
       event.shiftKey ||
       event.metaKey ||
-      this.state.showReportModal
+      this.state.showReportModal ||
+      this.props.shouldShowFirstCTA
     ) {
       return;
     }
@@ -291,7 +227,6 @@ class ContributionPage extends React.Component<Props, State> {
   render() {
     const {
       hasErrors,
-      flags,
       getString,
       isSubmitted,
       onSkip,
@@ -299,13 +234,10 @@ class ContributionPage extends React.Component<Props, State> {
       type,
       user,
       demoMode,
+      shouldShowFirstCTA,
+      shouldShowSecondCTA,
     } = this.props;
-    const {
-      showAccountModal,
-      showReportModal,
-      showShareModal,
-      showShortcutsModal,
-    } = this.state;
+    const { showReportModal, showShareModal, showShortcutsModal } = this.state;
 
     return (
       <div
@@ -340,16 +272,13 @@ class ContributionPage extends React.Component<Props, State> {
             {...reportModalProps}
           />
         )}
-        {showAccountModal && (
-          <AccountModal
-            onRequestClose={() => this.setState({ showAccountModal: false })}
-          />
-        )}
         <div
           className={[
             'contribution',
             type,
             this.isDone ? 'submittable' : '',
+            shouldShowFirstCTA ? 'first-cta-visible' : '',
+            shouldShowSecondCTA ? 'second-cta-visible' : '',
           ].join(' ')}>
           <div className="top">
             <LocaleLink
@@ -411,7 +340,6 @@ class ContributionPage extends React.Component<Props, State> {
       errorContent,
       getString,
       instruction,
-      isFirstSubmit,
       isSubmitted,
       onReset,
       onSkip,
@@ -420,12 +348,23 @@ class ContributionPage extends React.Component<Props, State> {
       primaryButtons,
       sentences,
       type,
+      onPrivacyAgreedChange,
+      privacyAgreedChecked,
+      shouldShowFirstCTA,
+      shouldShowSecondCTA,
+      user,
     } = this.props;
     const { selectedPill } = this.state;
 
-    if (isSubmitted) {
-      return <Success onReset={onReset} type={type} />;
-    }
+    const noUserAccount = !user.account;
+    const shouldShowCTA = shouldShowFirstCTA || shouldShowSecondCTA;
+    const shouldHideCTA = !shouldShowFirstCTA && !shouldShowSecondCTA;
+
+    const handlePrivacyAgreedChange = (
+      evt: React.ChangeEvent<HTMLInputElement>
+    ) => {
+      onPrivacyAgreedChange(evt.target.checked);
+    };
 
     if (hasErrors) {
       return errorContent;
@@ -440,91 +379,114 @@ class ContributionPage extends React.Component<Props, State> {
         <div className="cards-and-pills">
           <div />
 
-          <div className="cards-and-instruction">
-            {instruction({
-              vars: { actionType: getString('action-click') },
-              children: <div className="instruction hidden-sm-down" />,
-            }) || <div className="instruction hidden-sm-down" />}
+          {shouldShowCTA ? (
+            <div className="cta-placeholder" />
+          ) : (
+            <div className="cards-and-instruction">
+              {instruction({
+                vars: { actionType: getString('action-click') },
+                children: <div className="instruction hidden-sm-down" />,
+              }) || <div className="instruction hidden-sm-down" />}
 
-            <div className="cards">
-              {sentences.map((sentence, i) => {
-                const activeSentenceIndex = this.isDone
-                  ? SET_COUNT - 1
-                  : activeIndex;
-                const isActive = i === activeSentenceIndex;
-                return (
-                  <div
-                    // don't let Chrome auto-translate
-                    // https://html.spec.whatwg.org/multipage/dom.html#the-translate-attribute
-                    translate="no"
-                    key={sentence ? sentence.text : i}
-                    className={
-                      'card card-dimensions ' + (isActive ? '' : 'inactive')
-                    }
-                    style={{
-                      transform: [
-                        `scale(${isActive ? 1 : 0.9})`,
-                        `translateX(${
-                          (document.dir == 'rtl' ? -1 : 1) *
-                          (i - activeSentenceIndex) *
-                          -130
-                        }%)`,
-                      ].join(' '),
-                      opacity: i < activeSentenceIndex ? 0 : 1,
-                    }}>
-                    <div style={{ margin: 'auto', width: '100%' }}>
-                      {sentence?.text}
-                      {sentence?.taxonomy ? (
-                        <div className="sentence-taxonomy">
-                          <Localized id="target-segment-generic-card">
-                            <span className="taxonomy-message" />
-                          </Localized>
-                          <StyledLink
-                            className="taxonomy-link"
-                            blank
-                            href={`${URLS.GITHUB_ROOT}/blob/main/docs/taxonomies/${sentence.taxonomy.source}.md`}>
-                            <ExternalLinkIcon />
-                            <Localized id="target-segment-learn-more">
-                              <span />
+              <div className="cards">
+                {sentences.map((sentence, i) => {
+                  const activeSentenceIndex = this.isDone
+                    ? SET_COUNT - 1
+                    : activeIndex;
+                  const isActive = i === activeSentenceIndex;
+                  return (
+                    <div
+                      // don't let Chrome auto-translate
+                      // https://html.spec.whatwg.org/multipage/dom.html#the-translate-attribute
+                      translate="no"
+                      key={sentence ? sentence.text : i}
+                      className={
+                        'card card-dimensions ' + (isActive ? '' : 'inactive')
+                      }
+                      style={{
+                        transform: [
+                          `scale(${isActive ? 1 : 0.9})`,
+                          `translateX(${
+                            (document.dir == 'rtl' ? -1 : 1) *
+                            (i - activeSentenceIndex) *
+                            -130
+                          }%)`,
+                        ].join(' '),
+                        opacity: i < activeSentenceIndex ? 0 : 1,
+                      }}>
+                      <div style={{ margin: 'auto', width: '100%' }}>
+                        {sentence?.text}
+                        {sentence?.taxonomy ? (
+                          <div className="sentence-taxonomy">
+                            <Localized id="target-segment-generic-card">
+                              <span className="taxonomy-message" />
                             </Localized>
-                          </StyledLink>
-                        </div>
-                      ) : null}
+                            <StyledLink
+                              className="taxonomy-link"
+                              blank
+                              href={`${URLS.GITHUB_ROOT}/blob/main/docs/taxonomies/${sentence.taxonomy.source}.md`}>
+                              <ExternalLinkIcon />
+                              <Localized id="target-segment-learn-more">
+                                <span />
+                              </Localized>
+                            </StyledLink>
+                          </div>
+                        ) : null}
+                      </div>
                     </div>
-                  </div>
-                );
-              })}
+                  );
+                })}
+              </div>
             </div>
-          </div>
+          )}
 
-          <div className="pills">
-            <div className="inner">
-              {this.isDone && (
-                <div className="review-instructions">
-                  <Localized id="review-instruction">
-                    <span />
-                  </Localized>
-                </div>
-              )}
-              {pills.map((pill, i) =>
-                pill({
-                  isOpen: this.isDone || selectedPill === i,
-                  key: i,
-                  num: i + 1,
-                  onClick: () => this.selectPill(i),
-                  onShare: this.toggleShareModal,
-                  style:
-                    selectedPill !== null &&
-                    Math.abs(
-                      Math.min(Math.max(selectedPill, 1), pills.length - 2) - i
-                    ) > 1
-                      ? { display: 'none' }
-                      : {},
-                })
-              )}
+          {shouldShowCTA ? (
+            <div />
+          ) : (
+            <div className="pills">
+              <div className="inner">
+                {this.isDone && (
+                  <div className="review-instructions">
+                    <Localized id="review-instruction">
+                      <span />
+                    </Localized>
+                  </div>
+                )}
+                {pills.map((pill, i) =>
+                  pill({
+                    isOpen: this.isDone || selectedPill === i,
+                    key: i,
+                    num: i + 1,
+                    onClick: () => this.selectPill(i),
+                    onShare: this.toggleShareModal,
+                    style:
+                      selectedPill !== null &&
+                      Math.abs(
+                        Math.min(Math.max(selectedPill, 1), pills.length - 2) -
+                          i
+                      ) > 1
+                        ? { display: 'none' }
+                        : {},
+                  })
+                )}
+              </div>
             </div>
-          </div>
+          )}
         </div>
+
+        {noUserAccount && shouldShowFirstCTA && (
+          <FirstPostSubmissionCta
+            locale={this.props.locale}
+            onReset={onReset}
+            addNotification={this.props.addNotification}
+            successUploadMessage={getString('thanks-for-voice-toast')}
+            errorUploadMessage={getString('thanks-for-voice-toast-error')}
+          />
+        )}
+
+        {noUserAccount && shouldShowSecondCTA && (
+          <SecondPostSubmissionCTA onReset={onReset} />
+        )}
 
         {instruction({
           vars: { actionType: getString('action-tap') },
@@ -580,14 +542,29 @@ class ContributionPage extends React.Component<Props, State> {
               </Localized>{' '}
               <SkipIcon />
             </Button>
-            {onSubmit && (
-              <Tooltip
-                arrow
-                disabled={!this.isDone}
-                open={isFirstSubmit || undefined}
-                title={getString('record-submit-tooltip', {
-                  actionType: getString('action-tap'),
-                })}>
+            {onSubmit && shouldHideCTA && (
+              <form
+                onSubmit={onSubmit}
+                className="contribution-speak-form"
+                data-testid="speak-submit-form">
+                {this.isDone && !user.privacyAgreed && (
+                  <LabeledCheckbox
+                    label={
+                      <Localized
+                        id="accept-privacy-and-terms"
+                        elems={{
+                          termsLink: <LocaleLink to={URLS.TERMS} blank />,
+                          privacyLink: <LocaleLink to={URLS.PRIVACY} blank />,
+                        }}>
+                        <span />
+                      </Localized>
+                    }
+                    required
+                    onChange={handlePrivacyAgreedChange}
+                    checked={privacyAgreedChecked}
+                    data-testid="checkbox"
+                  />
+                )}
                 <Localized id="submit-form-action">
                   <PrimaryButton
                     className={[
@@ -595,11 +572,10 @@ class ContributionPage extends React.Component<Props, State> {
                       getTrackClass('fs', `submit-${type}`),
                     ].join(' ')}
                     disabled={!this.isDone}
-                    onClick={onSubmit}
                     type="submit"
                   />
                 </Localized>
-              </Tooltip>
+              </form>
             )}
           </div>
         </div>
@@ -608,10 +584,13 @@ class ContributionPage extends React.Component<Props, State> {
   }
 }
 
-export default connect<PropsFromState>(
+export default connect<PropsFromState, PropsFromDispatch>(
   ({ flags, locale, user }: StateTree) => ({
     flags,
     locale,
     user,
-  })
+  }),
+  {
+    addNotification: Notifications.actions.addPill,
+  }
 )(withLocalization(ContributionPage));

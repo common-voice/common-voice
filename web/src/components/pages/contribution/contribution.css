@@ -249,6 +249,10 @@
         flex-direction: column;
         flex-shrink: 0;
 
+        .cta-placeholder {
+            height: 400px;
+        }
+
         @media (--md-up) {
             flex-direction: row;
         }
@@ -358,10 +362,6 @@
         justify-content: center;
         align-items: center;
 
-        @media (--md-up) {
-            margin-top: 8vh;
-        }
-
         @media (--xl-up) {
             margin-top: 12vh;
         }
@@ -457,7 +457,9 @@
         }
     }
 
-    &.submittable {
+    &.submittable,
+    &.first-cta-visible,
+    &.second-cta-visible {
         .cards,
         .instruction,
         .primary-buttons,
@@ -469,6 +471,12 @@
 
             @media (--md-up) {
                 display: initial;
+            }
+        }
+
+        .primary-buttons {
+            @media (--xl-up) {
+                margin-top: 6vh;
             }
         }
 
@@ -665,6 +673,26 @@
         @media (--sm-down) {
             font-size: 90%;
             margin-top: 5px;
+        }
+    }
+
+    .contribution-speak-form {
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+
+        @media (--md-down) {
+            align-items: center;
+        }
+
+        .labeled-checkbox {
+            margin: 0 0 2em;
+            width: 60%;
+            text-align: center;
+
+            a {
+                color: var(--anchor-text-blue);
+            }
         }
     }
 }

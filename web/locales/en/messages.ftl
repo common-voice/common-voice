@@ -417,6 +417,7 @@ why-demographic = Why does this matter?
 why-demographic-explanation-2 = Anonymized user data like age, gender, and accent helps improve the audio data used to train the accuracy of speech recognition engines. Your username and email will never be associated with your submitted data, and you can choose whether to make your username public or anonymous.
 accept-privacy = I'm okay with you handling this info as you explain in Mozilla's <privacyLink>Privacy Policy</privacyLink>
 accept-privacy-title = Privacy Policy
+accept-privacy-and-terms = I agree to Common Voice's <termsLink>Terms</termsLink> and <privacyLink>Privacy Notice</privacyLink>
 login-identity = Login Identity
 login-signup = Log In / Sign Up
 edit = Edit
@@ -1556,3 +1557,21 @@ partnerships-small-business-description = We are always looking to hear from dat
 partnerships-corporates-header = Large scale corporates and platform companies
 partnerships-corporates-description = If you're looking to speak more about the dataset, want to co-invest in planned platform expansions or look for collaboration opportunities, <emailFragment>drop us a line.</emailFragment>
 partnerships-our-partners = Our Partners
+
+# FIRST POST SUBMISSION CTA
+first-cta-header-text = Thank you for donating your voice clips!
+first-cta-subtitle-text = Would you like to share some information about how you speak?
+why-donate = Why are you asking?
+why-donate-explanation-1 = This information is optional to provide - you should only add it if you feel comfortable. When we release the dataset, we pseudonymise all personal information, and make sure information like your name and email are not connected to demographic information like age or sex.
+why-donate-explanation-2 = For technology to work well for everyone, the data that helps developers to build technology needs to reflect a diverse range of people. For example, if we don't include any speakers with a particular accent, then the technology won't work well for people with that accent. <learnMore>Learn more about why metadata matters.</learnMore>
+add-information-button = Add information
+continue-speaking-button = No thanks, continue speaking
+create-profile-text = Want to save your information? <createProfile>Create a profile</createProfile>
+thanks-for-voice-toast = Thank you for your voice information
+thanks-for-voice-toast-error = An error occurred submitting your voice information
+
+# SECOND POST SUBMISSION CTA
+second-cta-header-text = Thank you for contributing your voice!
+second-cta-subtitle-text = With a profile, you can keep track of your activity and connect with a community of voice data contributors.
+already-have-an-account = Already have an account? <login>Log-In</login>
+create-profile-button = Create a profile
