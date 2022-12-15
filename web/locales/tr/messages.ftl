@@ -135,6 +135,7 @@ nan-tw = Tayvanca (Minnan)
 nb-NO = Norveç Bokmål
 nd = IsiNdebele (Kuzey)
 ne-NP = Nepalce
+nhe = Doğu Huasteca Nahuatl dili
 nia = Nias
 nl = Felemenkçe
 nn-NO = Norveççe (Nynorsk)
@@ -719,7 +720,6 @@ language = Dil
 download-dataset-header = Veri kümesini indirin
 download-delta-explainer = Bazı değişiklikler yaptık. Delta segmentleri, yalnızca son sürümden bu yana en yeni kayıtları içerir. <deltaLink>Bu çalışma hakkında daha fazla bilgi alın</deltaLink>.
 download-dataset-tag = İstediğiniz dilin veri kümesini ve indirmek istediğiniz sürümü seçin.
-download-dataset-access = Önceki veri seti sürümlerini mi arıyorsunuz? <emailLink> { $email } </emailLink> adresine e-posta gönderin
 # File size in gigabytes
 size = Boyut
 validated-hr-total = Doğrulanmış toplam saat
@@ -1532,3 +1532,16 @@ partnerships-academia-header = Üniversiteler, Akademisyenler ve Araştırmacıl
 partnerships-small-business-header = Teknoloji ve yapay zeka girişimleri de dahil olmak üzere küçük işletmeler
 partnerships-corporates-header = Büyük ölçekli şirketler ve platform şirketleri
 partnerships-our-partners = İş Ortaklarımız
+# FIRST POST SUBMISSION CTA
+first-cta-header-text = Ses kayıtlarınızı bağışladığınız için teşekkürler!
+first-cta-subtitle-text = Nasıl konuştuğunuz hakkında biraz bilgi paylaşmak ister misiniz?
+why-donate = Neden soruyorsunuz?
+add-information-button = Bilgi ekle
+continue-speaking-button = Hayır, konuşmaya devam et
+create-profile-text = Bilgilerinizi kaydetmek ister misiniz? <createProfile>Profil oluşturun</createProfile>
+thanks-for-voice-toast = Ses bilgileriniz için teşekkür ederiz
+thanks-for-voice-toast-error = Ses bilgileriniz gönderilirken bir hata oluştu
+# SECOND POST SUBMISSION CTA
+second-cta-header-text = Sesinizle katkıda bulunduğunuz için teşekkürler!
+already-have-an-account = Zaten hesabınız var mı? <login>Giriş yapın</login>
+create-profile-button = Profil oluştur
