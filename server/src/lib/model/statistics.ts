@@ -20,7 +20,7 @@ export type QueryOptions = {
   isDistinct?: boolean;
   isDuplicate?: boolean;
   filter?: Filters;
-  year?: string;
+  year?: number;
 };
 
 /**
@@ -40,7 +40,7 @@ const queryStatistics = async (
 ) => {
   const isDistinct = options?.isDistinct ?? false;
   const isDuplicate = options?.isDuplicate ?? false;
-  const year = options?.year ?? String(new Date().getFullYear());
+  const year = options?.year ?? new Date().getFullYear();
   options = { ...options, year };
   let monthlyIncrease, totalCount;
 
@@ -128,10 +128,10 @@ const getUniqueMonthlyContributions = async (
    FROM
     (
       SELECT * 
-      FROM ${tableName} d GROUP BY ${groupByColumn}
+      FROM ${tableName} d 
+      WHERE YEAR(created_at) = ${options.year}
+      GROUP BY ${groupByColumn}
     ) d
-    WHERE
-      YEAR(created_at) = ${options.year}
     GROUP BY
       DATE_FORMAT(created_at, "%Y-%m")
     ORDER BY created_at DESC;

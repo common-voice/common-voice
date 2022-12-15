@@ -5,8 +5,9 @@ const yearStatSchema: {
   [k: string]: JSONSchema4
 } = {
   year: {
-    type: 'string',
-    pattern: '^[12][0-9]{3}$',
+    type: 'number',
+    minimum: 2016,
+    maximum: 2035
   },
 };
 
