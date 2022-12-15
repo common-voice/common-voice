@@ -408,6 +408,7 @@ why-demographic = Warum sind diese Angaben relevant?
 why-demographic-explanation-2 = Das Verknüpfen von Ihren Aufzeichnungen mit anonymisierten Nutzerangaben wie Alter, Geschlecht und Akzent hilft Entwicklern dabei, die Genauigkeit von Spracherkennungssoftware besser zu trainieren. Ihr Benutzername und Ihre E-Mail-Adresse werden natürlich nicht mit diesen Daten verknüpft und es bleibt Ihnen überlassen, ob Sie Ihren Benutzernamen öffentlich machen oder lieber anonym bleiben möchten.
 accept-privacy = Ich bin einverstanden, dass diese Daten wie in der <privacyLink>Datenschutzerklärung</privacyLink> beschrieben verwendet werden.
 accept-privacy-title = Datenschutzerklärung
+accept-privacy-and-terms = Ich stimme den <termsLink>Bedingungen</termsLink> und der <privacyLink>Datenschutzerklärung</privacyLink> von Common Voice zu
 login-identity = Anmeldeidentität
 login-signup = Anmelden / Registrieren
 edit = Bearbeiten
@@ -1612,3 +1613,19 @@ partnerships-small-business-description = Wir sind immer auf der Suche nach Info
 partnerships-corporates-header = Große Unternehmen und Plattformunternehmen
 partnerships-corporates-description = Wenn Sie mehr über den Datensatz sprechen möchten, in geplante Plattformerweiterungen mitinvestieren oder nach Möglichkeiten zur Zusammenarbeit suchen möchten, <emailFragment>schreiben Sie uns.</emailFragment>
 partnerships-our-partners = Unsere Partner
+# FIRST POST SUBMISSION CTA
+first-cta-header-text = Vielen Dank, dass Sie Ihre Sprachclips gespendet haben!
+first-cta-subtitle-text = Möchten Sie Informationen darüber weitergeben, wie Sie sprechen?
+why-donate = Warum fragen Sie?
+why-donate-explanation-1 = Diese Angaben dieser Informationen ist optional – Sie sollten sie nur hinzufügen, wenn Sie sich wohl fühlen. Wenn wir den Datensatz veröffentlichen, pseudonymisieren wir alle persönlichen Daten und stellen sicher, dass Informationen wie Ihr Name und Ihre E-Mail-Adresse nicht mit demografischen Informationen wie Alter oder Geschlecht verbunden sind.
+why-donate-explanation-2 = Damit Technologie für alle gut funktioniert, müssen die Daten, die Entwicklern bei der Entwicklung von Technologien helfen, ein breites Spektrum von Menschen widerspiegeln. Wenn wir beispielsweise keine Sprecher mit einem bestimmten Akzent einbeziehen, funktioniert die Technologie für Menschen mit diesem Akzent nicht gut. <learnMore>Erfahren Sie mehr darüber, warum Metadaten wichtig sind.</learnMore>
+add-information-button = Informationen hinzufügen
+continue-speaking-button = Nein danke, mit dem Sprechen fortfahren
+create-profile-text = Möchten Sie Ihre Daten speichern? <createProfile>Erstellen Sie ein Profil</createProfile>
+thanks-for-voice-toast = Vielen Dank für Ihre Sprachinformationen
+thanks-for-voice-toast-error = Beim Senden Ihrer Sprachinformationen ist ein Fehler aufgetreten
+# SECOND POST SUBMISSION CTA
+second-cta-header-text = Vielen Dank, dass Sie Ihre Stimme beitragen!
+second-cta-subtitle-text = Mit einem Profil können Sie Ihre Aktivitäten im Auge behalten und mit einer Gemeinschaft von Mitwirkenden an Sprachdaten in Kontakt treten.
+already-have-an-account = Sie haben bereits ein Konto? <login>Melden Sie sich an</login>
+create-profile-button = Ein Profil erstellen
