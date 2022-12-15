@@ -48,7 +48,6 @@ export function useIsSubscribed() {
   return isSubscribed;
 }
 
-// eslint-disable-next-line @typescript-eslint/no-explicit-any
 export function useLocalStorageState<T>(
   defaultValue: T,
   key?: string
