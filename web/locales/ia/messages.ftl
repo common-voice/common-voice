@@ -1561,3 +1561,4 @@ partnerships-small-business-description = Nos cerca sempre de audir le consummat
 partnerships-corporates-header = Corporationes e platteformas de grande scala
 partnerships-corporates-description = Si tu vole discuter altero re le insimul de datos, vole co-investir in le expansiones de platteformas planate o prestar attention a opportunitates de collaboration, <emailFragment>scribe nos un rango.</emailFragment>
 partnerships-our-partners = Nostre socios
+why-donate-explanation-2 = Proque le technologia functiona ben pro totes, le datos que adjuta le disveloppatores a producer technologia debe reflecte un grande varietate de gente. Per exemplo, si nos non include ulle parlantes con un particular accento, pois le technologia non functionara ben pro gente con ille accento. <learnMore>Pro saper plus re perque metadatos importa.</learnMore>
