@@ -134,7 +134,7 @@ const TopBar = ({
             </h2>
           </LocaleNavLink> */}
         </nav>
-        {isChallengeTabSelected ? (
+        {/* {isChallengeTabSelected ? (
           <div className="language challenge-language">
             <span>Language:</span>
             <span className="language-text">English</span>
@@ -191,7 +191,7 @@ const TopBar = ({
               </select>
             )}
           </div>
-        )}
+        )} */}
       </div>
       {isChallengeTabSelected && (
         <ChallengeBar setShowInviteModal={setShowInviteModal} />
