@@ -1,7 +1,7 @@
-import { NextFunction, Request, Response } from 'express';
+import { Request, Response } from 'express';
 import PromiseRouter from 'express-promise-router';
 import Model from './model';
-import { getStatistics } from './model/statistics';
+import { getStatistics, QueryOptions } from './model/statistics';
 import { TableNames } from 'common';
 import {
   accountStatSchema,
@@ -51,12 +51,17 @@ export default class Statistics {
   }
 
   downloadCount = async (request: Request, response: Response) => {
-    return response.json(await getStatistics(TableNames.DOWNLOADS));
-  };
+    const options = request.query as QueryOptions;
 
+    return response.json(await getStatistics(TableNames.DOWNLOADS, options));
+  };
+  
   uniqueSpeakers = async (request: Request, response: Response) => {
+    const options = request.query as QueryOptions;
+
     return response.json(
       await getStatistics(TableNames.CLIPS, {
+        ...options,
         groupByColumn: 'client_id',
         isDistinct: true,
       })
@@ -64,28 +69,29 @@ export default class Statistics {
   };
 
   clipCount = async (request: Request, response: Response) => {
-    const { filter } = request.query as never;
+    const options = request.query as QueryOptions;
 
-    if (filter) {
-      return response.json(await getStatistics(TableNames.CLIPS, { filter }));
-    }
-
-    return response.json(await getStatistics(TableNames.CLIPS));
+    return response.json(await getStatistics(TableNames.CLIPS, options));
   };
 
   accountCount = async (request: Request, response: Response) => {
-    const filter = 'hasEmail';
-    return response.json(await getStatistics(TableNames.USERS, { filter }));
+    const options = request.query as QueryOptions;
+    
+    return response.json(
+      await getStatistics(TableNames.USERS, { ...options, filter: 'hasEmail' })
+    );
   };
 
   sentenceCount = async (request: Request, response: Response) => {
-    const { filter } = request.query as never;
+    const options = request.query as QueryOptions;
 
-    if (filter && typeof filter === 'string') {
-      return response.json(
-        await getStatistics(TableNames.SENTENCES, { isDuplicate: true })
-      );
+    if (typeof request.query.filter === 'string') {
+      delete options['filter'];
+      options['isDuplicate'] = true;
     }
-    return response.json(await getStatistics(TableNames.SENTENCES));
+
+    return response.json(
+      await getStatistics(TableNames.SENTENCES, options)
+    );
   };
 }
