@@ -408,6 +408,7 @@ why-demographic = Waarom is dit belangrijk?
 why-demographic-explanation-2 = Anonieme gebruikersgegevens zoals leeftijd, gender en accent helpen de audiogegevens die voor het trainen van de nauwkeurigheid van spraakherkenningsengines worden gebruikt te verbeteren. Uw gebruikersnaam en e-mailadres zullen nooit met uw ingediende gegevens worden gekoppeld, en u kunt ervoor kiezen uw gebruikersnaam openbaar of anoniem te maken.
 accept-privacy = Ik ga akkoord met hoe u met deze gegevens omgaat, zoals uitgelegd in Mozilla’s <privacyLink>Privacybeleid</privacyLink>
 accept-privacy-title = Privacybeleid
+accept-privacy-and-terms = Ik ga akkoord met de <termsLink>Voorwaarden</termsLink> en <privacyLink>Privacyverklaring</privacyLink> van Common Voice
 login-identity = Aanmeldingsidentiteit
 login-signup = Aanmelden / Registreren
 edit = Bewerken
@@ -1626,3 +1627,17 @@ partnerships-small-business-description = We horen altijd graag van gegevenscons
 partnerships-corporates-header = Grootschalige bedrijven en platformbedrijven
 partnerships-corporates-description = Als u meer wilt spreken over de gegevensset, mee wilt investeren in geplande platformuitbreidingen of op zoek bent naar samenwerkingsmogelijkheden, <emailFragment>laat dan een bericht achter.</emailFragment>
 partnerships-our-partners = Onze partners
+# FIRST POST SUBMISSION CTA
+first-cta-header-text = Bedankt voor het doneren van uw stemfragmenten!
+first-cta-subtitle-text = Wilt u wat informatie delen over hoe u spreekt?
+why-donate = Waarom vraagt u dat?
+add-information-button = Informatie toevoegen
+continue-speaking-button = Nee bedankt, ga door met spreken
+create-profile-text = Wilt u uw gegevens opslaan? <createProfile>Maak een profiel aan</createProfile>
+thanks-for-voice-toast = Bedankt voor uw steminformatie
+thanks-for-voice-toast-error = Er is een fout opgetreden bij het verzenden van uw steminformatie
+# SECOND POST SUBMISSION CTA
+second-cta-header-text = Bedankt voor het doneren van uw stem!
+second-cta-subtitle-text = Met een profiel kunt u uw activiteit bijhouden en verbinding maken met een gemeenschap van bijdragers aan spraakgegevens.
+already-have-an-account = Hebt u al een account? <login>Aannmelden</login>
+create-profile-button = Een profiel aanmaken
