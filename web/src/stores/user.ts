@@ -1,5 +1,5 @@
 import { Dispatch } from 'redux';
-import { UserClient } from 'common';
+import { UserClient, UserLanguage } from 'common';
 import { generateGUID, generateToken } from '../utility';
 import StateTree from './tree';
 
@@ -109,6 +109,25 @@ export namespace User {
           type: ActionType.UPDATE,
           state: {
             account: await api.saveAccount(data),
+            isFetchingAccount: false,
+          },
+        });
+        await actions.claimLocalUser(dispatch, getState);
+      },
+
+    saveAnonymousAccountLanguages:
+      (data: { languages: UserLanguage[] }) =>
+      async (dispatch: Dispatch<UpdateAction>, getState: () => StateTree) => {
+        const { api } = getState();
+        dispatch({
+          type: ActionType.UPDATE,
+          state: { isFetchingAccount: true },
+        });
+
+        dispatch({
+          type: ActionType.UPDATE,
+          state: {
+            account: await api.saveAnonymousAccountLanguages(data),
             isFetchingAccount: false,
           },
         });

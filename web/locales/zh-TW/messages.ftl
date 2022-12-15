@@ -135,6 +135,7 @@ nan-tw = 台語
 nb-NO = 挪威語（Bokmål）
 nd = 北恩德貝勒語（辛巴威）
 ne-NP = 尼泊爾語
+nhe = 墨西哥東華斯特的納華特語
 nia = 尼亞斯語
 nl = 荷蘭語
 nn-NO = 挪威語（Nynorsk）
@@ -713,7 +714,6 @@ language = 語言
 download-dataset-header = 下載資料集
 download-delta-explainer = 我們有些改變。差異片段僅包含從上次發佈以來最新版的片段。<deltaLink>了解此項目的更多資訊</deltaLink>。
 download-dataset-tag = 請選擇您想要下載的語言與資料集版本。
-download-dataset-access = 尋找舊版資料集嗎？請來信到 <emailLink>{ $email }</emailLink>
 # File size in gigabytes
 size = 大小
 validated-hr-total = 總驗證時數

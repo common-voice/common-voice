@@ -190,6 +190,7 @@ ts = Тсонга
 tt = Татар
 tw = Тви
 ty = Таити
+tyv = Тыва
 uby = Убых
 udm = Удмурт
 ug = Уйгыр
@@ -200,6 +201,7 @@ ve = Венда
 vec = Венеция
 vi = Вьетнам
 vot = Вот
+wo = Волоф
 xh = Коса
 yi = Идиш
 yo = Йоруба
@@ -635,10 +637,13 @@ about-playbook-how-validate-content-4 = Әгәр дә клип 2 кеше тар
 ## How to access dataset
 
 about-playbook-how-access-dataset = Мәгълүматлар тупланмасын кайдан табып алып кулланып була?
+about-playbook-how-access-dataset-content-1 = <datasetsPage>Мәгълүмат тупланмасы битенә</datasetsPage> күчеп, версиясен һәм тел(ләр)не сайлап, аны компьютерыгызга иңдерә аласыз! Файллар демографик һәм тикшерү мәгълүматлары кебек <metadataLink>метамәгълүматлар белән бәйләнгән</metadataLink>. Мәгълүмат тупланмасын иңдерү өчен эл. почта адресын кертергә кирәк булачак.
+about-playbook-how-access-dataset-content-2 = Автоматик сөйләм тану (ASR) модельләрен төзү өчен корал эзлисез икән, берләшмәдәге башка кешеләр белән <discourseLink>Discourse аша</discourseLink> элемтәгә керә аласыз.
 
 ## How are decisions made
 
 about-playbook-how-project-governance = Проект карарлары ничек кабул ителә?
+about-playbook-how-project-governance-content-1 = Mozilla Common Voice бөтен дөньядан тупланган төрле активистлар, тел белгечләре, мәгълүмат эшкәртү белгечләре, галимнәр һәм програмчылардан торучы бер берләшмәнең хезмәте нәтиҗәсендә барлыкка килде. Проект белән Mozilla Foundation идарә итә.
 about-playbook-how-project-governance-content-3 = Хосусыйлык, хәвефсезлек һәм ачыклык.
 about-playbook-how-project-governance-content-5 = Кыйммәт һәм тану.
 about-playbook-how-project-governance-content-6 = Үзара җаваплылык.

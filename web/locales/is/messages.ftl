@@ -135,6 +135,7 @@ nan-tw = Taívanska (Minnan)
 nb-NO = Norskt bókmál
 nd = IsiNdebele (Norður)
 ne-NP = Nepalska
+nhe = Austur-Huasteca Nahuatl
 nia = Nias
 nl = Hollenska
 nn-NO = Nýnorska
@@ -724,7 +725,6 @@ language = Tungumál
 download-dataset-header = Sækja gagnasettið
 download-delta-explainer = Við höfum gert nokkrar breytingar. 'Delta Segments' innihalda bara nýjustu upptökurnar síðan í síðustu útgáfu. <deltaLink>Lestu meira um þetta</deltaLink>.
 download-dataset-tag = Veldu tungumálagagnasettið sem þú vilt og veldu þá útgáfu sem þú vilt sækja.
-download-dataset-access = Ertu að leita að fyrri útgáfum gagnasafna? Sendu tölvupóst á <emailLink> { $email } </emailLink>
 # File size in gigabytes
 size = Stærð
 validated-hr-total = Staðfestar klst.

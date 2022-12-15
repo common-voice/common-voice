@@ -34,6 +34,8 @@ import AudioWeb, { AudioError, AudioInfo } from './audio-web';
 import RecordingPill from './recording-pill';
 import { SentenceRecording } from './sentence-recording';
 import SpeakErrorContent from './speak-error-content';
+import { USER_LANGUAGES } from './firstSubmissionCTA/firstPostSubmissionCTA';
+import { castTrueString } from '../../../../utility';
 
 import './speak.css';
 
@@ -83,6 +85,9 @@ interface State {
   rerecordIndex?: number;
   showPrivacyModal: boolean;
   showDiscardModal: boolean;
+  privacyAgreedChecked?: boolean;
+  shouldShowFirstCTA: boolean;
+  shouldShowSecondCTA: boolean;
 }
 
 const initialState: State = {
@@ -93,10 +98,21 @@ const initialState: State = {
   rerecordIndex: null,
   showPrivacyModal: false,
   showDiscardModal: false,
+  shouldShowFirstCTA: false,
+  shouldShowSecondCTA: false,
 };
 
+const SEEN_FIRST_CTA = 'seenFirstCTA';
+const SEEN_SECOND_CTA = 'seenSecondCTA';
+
 class SpeakPage extends React.Component<Props, State> {
-  state: State = initialState;
+  state: State = {
+    ...initialState,
+    privacyAgreedChecked: Boolean(
+      this.props.user.privacyAgreed || this.props.user.account
+    ),
+  };
+
   demoMode = this.props.location.pathname.includes(URLS.DEMO);
 
   audio: AudioWeb;
@@ -136,6 +152,10 @@ class SpeakPage extends React.Component<Props, State> {
   componentDidMount() {
     const { loadSentences } = this.props;
     loadSentences();
+
+    if (localStorage.getItem(USER_LANGUAGES)) {
+      localStorage.removeItem(USER_LANGUAGES);
+    }
 
     this.audio = new AudioWeb();
     this.audio.setVolumeCallback(this.updateVolume.bind(this));
@@ -354,7 +374,7 @@ class SpeakPage extends React.Component<Props, State> {
     });
   };
 
-  private upload = (hasAgreed: boolean = false) => {
+  private upload = (hasAgreed = false) => {
     const {
       addAchievement,
       addNotification,
@@ -475,8 +495,13 @@ class SpeakPage extends React.Component<Props, State> {
 
   private agreeToTerms = async () => {
     this.setState({ showPrivacyModal: false });
+    this.setState({ privacyAgreedChecked: true });
     this.props.updateUser({ privacyAgreed: true });
     this.upload(true);
+  };
+
+  private onPrivacyAgreedChange = (privacyAgreed: boolean) => {
+    this.setState({ privacyAgreedChecked: privacyAgreed });
   };
 
   private toggleDiscardModal = () => {
@@ -484,6 +509,41 @@ class SpeakPage extends React.Component<Props, State> {
       showPrivacyModal: false,
       showDiscardModal: !this.state.showDiscardModal,
     });
+  };
+
+  private handleSubmit = (evt: React.SyntheticEvent) => {
+    const { user } = this.props;
+
+    const hasSeenFirstCTA = castTrueString(
+      window.sessionStorage.getItem(SEEN_FIRST_CTA)
+    );
+
+    const hasSeenSecondCTA = castTrueString(
+      window.sessionStorage.getItem(SEEN_SECOND_CTA)
+    );
+
+    this.props.updateUser({ privacyAgreed: this.state.privacyAgreedChecked });
+
+    evt.preventDefault();
+    this.upload(this.state.privacyAgreedChecked);
+
+    if (!user.account) {
+      if (!hasSeenFirstCTA) {
+        // display first CTA screen if it has not been seen it before
+        // and the user does not have an account
+        this.setState({ shouldShowFirstCTA: true });
+        window.sessionStorage.setItem(SEEN_FIRST_CTA, 'true');
+      } else if (hasSeenFirstCTA && !hasSeenSecondCTA) {
+        // display second CTA screen if it has not been seen it before and the first CTA has been seen
+        // and the user does not have an account
+        this.setState({ shouldShowSecondCTA: true });
+        window.sessionStorage.setItem(SEEN_SECOND_CTA, 'true');
+      } else if (hasSeenFirstCTA && hasSeenSecondCTA) {
+        // Reset for unauthenticated users who have seen the first and
+        // second CTA so they can see new sentences to record
+        this.resetState();
+      }
+    }
   };
 
   private resetAndGoHome = () => {
@@ -561,7 +621,7 @@ class SpeakPage extends React.Component<Props, State> {
           )}
           {showPrivacyModal && (
             <TermsModal
-              onAgree={this.agreeToTerms}
+              onAgree={() => this.agreeToTerms()}
               onDisagree={this.toggleDiscardModal}
             />
           )}
@@ -636,7 +696,13 @@ class SpeakPage extends React.Component<Props, State> {
             isSubmitted={isSubmitted}
             onReset={() => this.resetState()}
             onSkip={this.handleSkip}
-            onSubmit={() => this.upload()}
+            onSubmit={this.handleSubmit}
+            onPrivacyAgreedChange={(privacyAgreed: boolean) =>
+              this.onPrivacyAgreedChange(privacyAgreed)
+            }
+            privacyAgreedChecked={this.state.privacyAgreedChecked}
+            shouldShowFirstCTA={this.state.shouldShowFirstCTA}
+            shouldShowSecondCTA={this.state.shouldShowSecondCTA}
             primaryButtons={
               <RecordButton
                 trackClass="speak-record"

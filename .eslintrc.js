@@ -37,6 +37,9 @@ module.exports = {
 
     // Old code uses any a lot, just show a warn instead
     '@typescript-eslint/no-explicit-any': 'warn',
+    // Disabling this because it seems there is no way for ESLint to know we use Localized for translating text
+    'jsx-a11y/heading-has-content': 'off',
+    'jsx-a11y/anchor-has-content': 'off',
   },
   settings: {
     react: {

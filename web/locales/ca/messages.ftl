@@ -40,10 +40,12 @@ ba = baixkir
 bas = basaa
 be = bielorús
 bg = búlgar
+bm = bambara
 bn = bengalí
 br = bretó
 bs = bosnià
 bxr = buriat
+byv = medumba
 ca = català
 cak = kaqtxikel
 ckb = kurd central
@@ -53,6 +55,7 @@ cs = txec
 cv = txuvaix
 cy = gal·lès
 da = danès
+dag = dagbani
 de = alemany
 dsb = baix sòrab
 dv = divehi
@@ -187,6 +190,7 @@ ts = xitsonga
 tt = tàtar
 tw = twi
 ty = tahitià
+tyv = tuvinià
 uby = ubikh
 udm = udmurt
 ug = uigur
@@ -197,6 +201,7 @@ ve = tshivenda
 vec = vènet
 vi = vietnamita
 vot = vòtic
+wo = wòlof
 xh = xhosa
 yi = ídix
 yo = ioruba
@@ -206,6 +211,7 @@ zh-CN = xinès (Xina)
 zh-HK = xinès (Hong Kong)
 zh-TW = xinès (Taiwan)
 zu = zulu
+zza = zaza
 
 # [/]
 
@@ -217,6 +223,7 @@ speak-now = Parleu ara
 datasets = Conjunts de dades
 languages = Llengües
 about = Qui som
+partner = Associats
 profile = Perfil
 help = Ajuda
 contact = Contacte
@@ -711,6 +718,10 @@ datasets-positioning =
     
     Considereu aquesta pàgina com a punt central de referència sobre els altres conjunts de dades de veu oberts i, a mesura que el Common Voice continua creixent, la pàgina on anunciarem les actualitzacions de les versions.
 language = Llengua
+download-dataset-header = Baixa el conjunt de dades
+download-delta-explainer = Hem fet alguns canvis. Els segments Delta només contenen els clips més recents des de la versió anterior. <deltaLink>Vegeu més informació sobre aquesta tasca</deltaLink>.
+download-dataset-tag = Seleccioneu el conjunt de dades de la llengua desitjada i trieu la versió que voleu baixar.
+download-dataset-access = Cerqueu versions anteriors del conjunt de dades? Envieu un correu electrònic a <emailLink> { $email } </emailLink>
 # File size in gigabytes
 size = Mida
 validated-hr-total = Hores validades totals
@@ -1522,3 +1533,21 @@ sc-validation-no-abbreviations = La frase no pot contenir abreviatures
 
 localization-select =
     .label = Trieu una llengua/localització
+# PARTNERSHIPS PAGE
+partnerships-header = Col·laboracions
+partnerships-header-text = Es necessita molt per a fer realitat Common Voice! No ho fem sols. Voleu associar-vos amb nosaltres? Ens encantaria conèixer-vos.
+partnerships-get-in-touch = Poseu-vos en contacte
+partnerships-become-a-partner = Convertiu-vos en un soci de Common Voice
+partnerships-community-header = Comunitat, creatius i societat civil
+partnerships-community-description = La comunitat és el cor bategant de Common Voice: venen d'arreu del món i són activistes lingüístics, científics i artistes. Podeu obtenir més informació sobre com participar en la nostra pàgina <about>Quant a</about> i en el nostre <community>Llibre de la comunitat</community>. Si esteu interessat en una associació organitzativa més profunda, <emailFragment>poseu-vos en contacte.</emailFragment>
+partnerships-foundations-header = Fundacions
+partnerships-foundations-description = Treballem amb fundacions, societat civil i socis comunitaris per a fer d'Internet un lloc més saludable, amb un enfocament particular a l'Àfrica Oriental. Obteniu més informació sobre el nostre <programmaticWork>treball programàtic.</programmaticWork>
+partnerships-governments-header = Governs
+partnerships-governments-description = Estem encantats de donar suport a la participació del sector públic en tecnologia, innovació i drets lingüístics. Si teniu previst executar un projecte o campanya important, <emailFragment>poseu-vos en contacte.</emailFragment>
+partnerships-academia-header = Universitats, acadèmics i investigadors
+partnerships-academia-description = La innovació oberta és el centre del que fem. Per a col·laboracions en recerca, recollida de dades o entrevistes, <emailFragment>poseu-vos en contacte.</emailFragment>
+partnerships-small-business-header = Petites empreses, incloses les empreses emergents de tecnologia i IA
+partnerships-small-business-description = Sempre busquem escoltar els consumidors de dades sobre les seves necessitats i el seu context: des de col·laborar a la plataforma de recollida de dades fins a proporcionar informació sobre la salut de les dades, volem <emailFragment>escoltar-vos.</emailFragment>
+partnerships-corporates-header = Grans empreses i empreses de plataformes
+partnerships-corporates-description = Si voleu parlar més sobre el conjunt de dades, voleu invertir conjuntament en les ampliacions planificades de la plataforma o busqueu oportunitats de col·laboració, <emailFragment>envieu-nos unes línies.</emailFragment>
+partnerships-our-partners = Els nostres socis

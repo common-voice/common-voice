@@ -135,6 +135,7 @@ nan-tw = تیوانی (منان)
 nb-NO = نارویجی بوکمال
 nd = اندبیلی (شمالی)
 ne-NP = نیپالی
+nhe = مشرقی ہوسٹیکا نہوانی
 nia = نیاس
 nl = ڈچ
 nn-NO = نارویجی نورسک
@@ -662,7 +663,6 @@ datasets-headline = اساں آوازاں دا کھلا ماخذ، کثیر لس
 language = زبان
 download-dataset-header = ڈیٹاسیٹ ڈاؤن لوڈ کرو
 download-dataset-tag = آپݨی مطلوبہ زبان دا ڈیٹا سیٹ چݨو تے جہڑا ورشن تساں ڈاؤن لوڈ کرݨ چاہندے ہو چݨو۔
-download-dataset-access = پچھلی ڈیٹاسیٹ ریلیز کوں لبھدے پئے ہو؟ ای میل <emailLink> { $email } </emailLink>
 # File size in gigabytes
 size = سائز
 validated-hr-total = کل تصدیق تھئے گھنٹے
@@ -751,6 +751,9 @@ request-language-success-heading = تہاݙا تھورا! اساں نویں زب
 request-language-success-list-1 =
     تہاکوں جلدی وضاحت کرݨ آلی ای میل وصول کرݨی چاہیدی ہے جیندے وچ
     کامن وائس وچ زبان شامل کرݨ کیتے مرحلیاں دی تفصیل ہوسی
+request-language-error =
+    اساکوں ایہوں جئی درخواست کائناں ملی ہوسی۔ سوہݨا، ساکوں سدھا
+    <emailLink>{ $email }</emailLink> تے ای میل کرو تے اساں تہاݙے نال واپسی رابطہ کریسوں!
 
 ## Languages Overview
 
@@ -1214,6 +1217,7 @@ sc-submit-ph-read-how-to =
 sc-submit-confirm = میں تصدیق کرینداں جو ایہ جملے <wikipediaLink> عوامی ڈومین</wikipediaLink> دے ہِن تے میکوں انہاں دے اپ لوڈ کرݨ دی اجازت ہے۔
 sc-submit-button =
     .submitText = جمع کرواؤ
+sc-submit-filtered = ضروریات پوری نہ تھیوݨ پاروں فلٹر تھئے جملے (سوہݨا، مقرر تھیا ورشن نویں جملے دے طور تے جمع کرواؤ):
 sc-submit-guidelines = سوہݨا <howToLink>رہنمائی ہدایات</howToLink> دی پڑتال کرو
 
 ## ADD LANGUAGE
@@ -1416,7 +1420,9 @@ partnerships-community-header = برادری، تخلیقاں تے سول سوس
 partnerships-foundations-header = فاؤنڈیشناں
 partnerships-foundations-description = اساں فاؤنڈیشناں، سول سوسائٹی تے برادری بھائیوالاں نال رل تے انٹرنیٹ کوں صحت مند بݨاوݨ کیتے کم کریندے ہیں، خاص طور تے مشرقی افریقہ کیتے۔ ساݙے <programmaticWork>پروگراماتی کم</programmaticWork> بارے ٻیا سکھو۔
 partnerships-governments-header = حکومتاں
+partnerships-governments-description = اساں ٹیکنالوجی، اختراعات تے زبان دے حقوق وچ عوامی شعبے دی شمولیت دی حمایت کیتے پرجوش ہیں۔ جے تساں کوئی وݙا منصوبہ یا مہم چلاوݨ دا سوچیندے پئے ہو تاں سوہݨا، <emailFragment>رابطے وچ راہوو۔</emailFragment>
 partnerships-academia-header = یونیورسٹیاں، ماہرین تعلیم تے محققین
+partnerships-academia-description = اساں جو کجھ کریندے ہیں اوندے دل وچ کھلی جدت ہے۔ تحقیقی تعاون، ڈیٹا کٹھا کرݨ یا انٹرویو کیتے <emailFragment> رابطہ کرو۔ </emailFragment>
 partnerships-small-business-header = ٹیک تے اے آئی سٹارٹ اپ سمیت چھوٹے کاروبار
 partnerships-corporates-header = وݙے پیمانے تے کارپوریٹاں تے پلیٹ فارم کمپنیاں
 partnerships-our-partners = ساݙے بھائیوال

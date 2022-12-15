@@ -5,22 +5,10 @@ import { fireEvent, RenderResult } from '@testing-library/react';
 import { renderWithLocalization } from '../../../../../../../test/render-with-localization';
 
 import InputLanguageAccentsList from './input-language-accents-list';
+import { MOCK_ACCENTS } from '../mocks';
 import { UserLanguage } from 'common';
 
 expect.extend(toHaveNoViolations);
-
-const MOCK_ACCENTS = [
-  {
-    id: 1,
-    token: 'england',
-    name: 'England English',
-  },
-  {
-    id: 13,
-    token: 'singapore',
-    name: 'Singaporean English',
-  },
-];
 
 const MOCK_USER_LANGUAGES = [] as UserLanguage[];
 
@@ -72,6 +60,7 @@ describe('InputLanguageAccentsList', () => {
         accents={MOCK_ACCENTS}
         userLanguages={mockUserLanguages}
         setUserLanguages={mockSetUserLanguage}
+        clearSelection={jest.fn()}
       />
     );
 
