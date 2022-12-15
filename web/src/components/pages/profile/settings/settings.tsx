@@ -91,7 +91,7 @@ function Settings(props: Props) {
           <LabeledInput value={account.email} disabled />
         </Localized>
 
-        <LinkButton
+        {/* <LinkButton
           outline
           className="edit-button"
           href={location.origin + '/voicewall/login?change_email'}>
@@ -99,7 +99,7 @@ function Settings(props: Props) {
           <Localized id="edit">
             <span />
           </Localized>
-        </LinkButton>
+        </LinkButton> */}
       </Section>
 
       {account.basket_token && (
