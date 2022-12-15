@@ -1,6 +1,6 @@
 # Statistics
 
-All statistics provide the increase in metrics over a 12 month period in monthly intervals.
+All statistics provide the increase in metrics for a given year in monthly intervals.
 
 ## How statistics are calculated
 
@@ -11,7 +11,7 @@ All statistics provide the increase in metrics over a 12 month period in monthly
 
 ## Endpoints
 
-Statistics endpoints are accessed at `/api/v1/statistics/<stat name>`
+Statistics endpoints are accessed at `/api/v1/statistics/<stat name>`. All endpoints can be queried by year, e.g. `?year=2022`. By default each endpoint returns the statistics for the current year. Where applicable, it can also be combined with other options, e.g. `?filter=rejected&year=2022`.
 
 ### Downloads
 
@@ -35,6 +35,9 @@ Filter by only the rejected clips by using query parameter:
 All unique speaker contributors:
 
 GET `/api/v1/statistics/speakers` HTTP/1.1
+
+#### Note:
+The number of unique speaker contributors is based on the given year. For example, a person who contributed in 2021 and 2022 will show up as a unique contributor in both time periods but will be counted only once for the time independent `total_count`.
 
 ### Accounts
 
@@ -65,15 +68,15 @@ Content-Type: application/json; charset=utf-8
   "total_count": 109,
   "monthly_increase": {
     "2022-10-26": 3,
-    "2022-7-21": 2,
-    "2022-6-14": 4,
-    "2022-5-13": 2
+    "2022-07-21": 2,
+    "2022-06-14": 4,
+    "2022-05-13": 2
   },
   "monthly_running_totals": {
     "2022-10-26": 11,
-    "2022-7-21": 8,
-    "2022-6-14": 6,
-    "2022-5-13": 2
+    "2022-07-21": 8,
+    "2022-06-14": 6,
+    "2022-05-13": 2
   },
   "metadata": { "last_fetched": "2022-10-26T12:59:56.397Z" }
 }
@@ -83,8 +86,9 @@ Content-Type: application/json; charset=utf-8
 
 `monthly_running_totals` represents the running total of statistics (total existing value + current month value).
 
-`yearly_sum` represents the sum of all monthly increases for the past 12 months
-`total_count` represents total count of all that values in the database (Not dependant on time)
+`yearly_sum` represents the sum of all monthly increases for the given year.
+
+`total_count` represents the total count of all the values in the database (not dependent on time).
 
 ## Implementation Details
 
