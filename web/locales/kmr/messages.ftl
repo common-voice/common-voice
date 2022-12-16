@@ -510,7 +510,7 @@ faq-where-src-from-2-a =
     
     Tu dikarî hevokên me yên çavkanî li ser vê<githubLink>Peldanka GitHubê</githubLink> bibînî.
 faq-why-not-ask-read-q = Çima hûn ji mirovan naxwazin ku pirtûkan an jî gotarên Wikipediayê bi zimanên cuda bixwînin?
-faq-why-not-ask-read-a = Ji bo ku bi awayekî baştir fêde ji komdaneya Common Voiceê were girtin me biryar da ku destûr tenê ji bo hevokên xwediyê lîsansa Creative Commonsê (CC0) bê dayîn.
+faq-why-not-ask-read-a = Ji bo ku bi awayekî baştir fêde ji komdaneya Common Voiceê were girtin me biryar da ku destûr tenê ji bo hevokên xwediyê lîsansa Creative Commonsê (CC0) bê dayîn. Bikaranîna standarda CC0ê dibe ku karê dîtin û berhevkirina hevokan zehmettir bike lê ev rê dide ku her kes karibe bêyî astengî û destûrstandina ji Mozillayê daneyên dengî bi kar bîne.
 faq-why-account-q = Çima divê ez hesabekî vekim?
 faq-is-account-public-q = Ew ê agahiyên hesabê min ji her kesî re vekirîbin?
 faq-how-privacy-q = Hûn çawa anonîmtî û nihêniya kesên ku dengên xwe bexşandine misoger dikin?
