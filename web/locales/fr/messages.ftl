@@ -1538,3 +1538,13 @@ partnerships-our-partners = Nos partenaires
 first-cta-header-text = Merci d’avoir fait don de vos échantillons vocaux !
 first-cta-subtitle-text = Souhaitez-vous partager des informations sur votre façon de parler ?
 why-donate = Pourquoi cette question ?
+why-donate-explanation-1 = Ces informations sont facultatives ; vous ne devez les ajouter que si vous vous sentez à l’aise. Lorsque nous publions le jeu de données, nous pseudonymisons toutes les informations personnelles, et nous nous assurons que les informations telles que votre nom et votre adresse e-mail ne sont pas connectées à des informations démographiques comme l’âge ou le sexe.
+add-information-button = Ajouter des informations
+continue-speaking-button = Non merci, continuer à parler
+create-profile-text = Souhaitez-vous enregistrer vos informations ? <createProfile>Créer un profil</createProfile>
+thanks-for-voice-toast = Merci pour vos informations vocales
+thanks-for-voice-toast-error = Une erreur est survenue lors de l’envoi de vos informations vocales
+# SECOND POST SUBMISSION CTA
+second-cta-header-text = Merci d’avoir fait don de votre voix !
+already-have-an-account = Vous avez déjà un compte ? <login>Connexion</login>
+create-profile-button = Créer un profil
