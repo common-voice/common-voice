@@ -46,9 +46,8 @@ export const clipStatSchema: AllowedSchema = {
 export const sentenceStatSchema: AllowedSchema = {
   type: 'object',
   properties: {
-    filter: {
-      type: 'string',
-      enum: ['duplicate'],
+    isDuplicate: {
+      type: 'boolean'
     },
     ...yearStatSchema
   },

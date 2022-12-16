@@ -1,8 +1,8 @@
 import { Request, Response } from 'express';
 import PromiseRouter from 'express-promise-router';
 import Model from './model';
-import { getStatistics, QueryOptions } from './model/statistics';
-import { TableNames } from 'common';
+import { getStatistics } from './model/statistics';
+import { QueryOptions, TableNames } from 'common';
 import {
   accountStatSchema,
   clipStatSchema,
@@ -84,11 +84,6 @@ export default class Statistics {
 
   sentenceCount = async (request: Request, response: Response) => {
     const options = request.query as QueryOptions;
-
-    if (typeof request.query.filter === 'string') {
-      delete options['filter'];
-      options['isDuplicate'] = true;
-    }
 
     return response.json(
       await getStatistics(TableNames.SENTENCES, options)

@@ -1,6 +1,7 @@
 import lazyCache from '../lazy-cache';
 import { getMySQLInstance } from './db/mysql';
-import { TableNames, TimeUnits } from 'common';
+import { QueryOptions, TableNames, TimeUnits } from 'common';
+
 const db = getMySQLInstance();
 
 type StatisticsCount = {
@@ -11,16 +12,6 @@ type StatisticsCount = {
 const FILTERS = {
   rejected: 'is_valid = false',
   hasEmail: 'email IS NOT null',
-};
-
-type Filters = 'rejected' | 'hasEmail';
-
-export type QueryOptions = {
-  groupByColumn?: string;
-  isDistinct?: boolean;
-  isDuplicate?: boolean;
-  filter?: Filters;
-  year?: number;
 };
 
 /**
@@ -57,10 +48,12 @@ const queryStatistics = async (
     monthlyIncrease = await getMonthlyContributions(tableName, options);
     totalCount = await getTotal(tableName, options);
   }
+
   const yearlySum = monthlyIncrease.reduce(
     (total: number, row) => (total += row.total_count),
     0
   );
+  
   totalCount = totalCount.total_count;
 
   return { yearlySum, totalCount, monthlyIncrease };
