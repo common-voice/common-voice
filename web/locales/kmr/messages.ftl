@@ -516,7 +516,10 @@ faq-is-account-public-q = Ew ê agahiyên hesabê min ji her kesî re vekirîbin
 faq-how-privacy-q = Hûn çawa anonîmtî û nihêniya kesên ku dengên xwe bexşandine misoger dikin?
 faq-how-privacy-a = Hemû tomarên dengî yên di komdaneyê de ji agahiyên şexsî tên paqijkirin. Dema ku beşdarekî bi rêya profîla xwe daneyên demografîkî tevlî kiribe, ew agahiyên şexsî berî daxistina komdaneyê tên anonîmkirin û li ser rûpelên profîlê qet nayên nîşandan.
 faq-what-determine-identity-q = Nasnameya axiverên komdaneya Common Voiceê "nikare bê diyarkirin", ev tê çi wate yê?
-faq-what-determine-identity-a = Komdaneya Common Voiceê çavkaniyeke vekirî û berdest e ku dikare ji bo rahênana sepanên cur bi cur ên axaftinê bê bikaranîn. Ji bo parastina ewlehiya beşdarên me, em ji her kesê ku komdaneya Common Voiceê daxistine, dixwazin ku rêzê li nehêniya beşdaran bigirin.
+faq-what-determine-identity-a =
+    Komdaneya Common Voiceê çavkaniyeke vekirî û berdest e ku dikare ji bo rahênana sepanên cur bi cur ên axaftinê bê bikaranîn. Ji bo parastina ewlehiya beşdarên me, em ji her kesê ku komdaneya Common Voiceê daxistine, dixwazin ku rêzê li nehêniya beşdaran bigirin.
+    
+    Hemû tomarên dengan ên di komdaneyê de ji agahiyên şexsî hatiye paqijkirin. Dema ku te komdaneyê daxist, tu pê re qebûl dikî ku tu yê li ser eşkerekirina nasnameya beşdaran naxebitî.
 faq-what-is-cv = Common Voice çi ye?
 faq-using-cv = Bikaranîna Common Voiceê
 faq-description = Common Voice beşek ji insiyatîva Mozillayê ye û ew çawaniya axaftina mirovan fêrî makîneyan dike ji bo ku makîne jî mîna mirovan rast biaxivin.
