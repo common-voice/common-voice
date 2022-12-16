@@ -514,6 +514,7 @@ faq-why-not-ask-read-a = Ji bo ku bi awayekî baştir fêde ji komdaneya Common 
 faq-why-account-q = Çima divê ez hesabekî vekim?
 faq-is-account-public-q = Ew ê agahiyên hesabê min ji her kesî re vekirîbin?
 faq-how-privacy-q = Hûn çawa anonîmtî û nihêniya kesên ku dengên xwe bexşandine misoger dikin?
+faq-how-privacy-a = Hemû tomarên dengî yên di komdaneyê de ji agahiyên şexsî tên paqijkirin. Dema ku beşdarekî bi rêya profîla xwe daneyên demografîkî tevlî kiribe, ew agahiyên şexsî berî daxistina komdaneyê tên anonîmkirin û li ser rûpelên profîlê qet nayên nîşandan.
 faq-what-determine-identity-q = Nasnameya axiverên komdaneya Common Voiceê "nikare bê diyarkirin", ev tê çi wate yê?
 faq-what-is-cv = Common Voice çi ye?
 faq-using-cv = Bikaranîna Common Voiceê
