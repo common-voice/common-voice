@@ -573,6 +573,7 @@ about-get-involved-text-2 =
 about-stay-in-touch = Ez çawa dikarim di têkiliyê de bimînim?
 about-stay-in-touch-button = Tomar bibe
 about-stay-in-touch-text-1 = Ji bo ku tu bizanibî tu yê çawa tevlî kampanya, çalakî û xebatên sêwirandinê bibî, li lîsteya me ya emaîlê <emailFragment>Tomar bibe</emailFragment>.
+about-stay-in-touch-text-2 = Tu dikarî bi rêya civakên zimên ên Mozillayê kesên din nas bikî, ji bo gotûbêjên rojane tevlî <discourseLink>Discourse</discourseLink>ê bibe yan jî ji bo tewsiyeyên bilez tevlî <matrixLink>Matrix</matrixLink>ê bibe.
 about-nav-why-common-voice = Çima ?
 about-nav-how-it-works = Çawa ?
 about-nav-partners = Hevkar
