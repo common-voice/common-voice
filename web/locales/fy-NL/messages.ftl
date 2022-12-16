@@ -1640,3 +1640,14 @@ partnerships-our-partners = Us partners
 first-cta-header-text = Tank foar it donearjen fan jo stimfragminten!
 first-cta-subtitle-text = Wolle jo wat ynformaasje diele oer hoe’t jo prate?
 why-donate = Wêrom freegje jo dat?
+why-donate-explanation-2 = Om technology foar elkenien goed wurkje te litten, moatte de gegevens dy’t ûntwikkelers helpe om technology te bouwen in útien rinnend skala oan minsken reflektearje. As wy bygelyks gjin sprekkers mei in bepaald aksint opnimme, wurket de technology net goed foar minsken mei dat aksint. <learnMore>Mear ynfo oer wêrom metadata wichtich binne.</learnMore>
+add-information-button = Ynformaasje tafoegje
+continue-speaking-button = Nee tankewol, trochgean mei ynsprekken
+create-profile-text = Wolle jo jo gegevens bewarje? <createProfile>Meitsje in profyl oan</createProfile>
+thanks-for-voice-toast = Tank foar jo stimynformaasje
+thanks-for-voice-toast-error = Der is in flater bard by it ferstjoeren fan jo stimynformaasje
+# SECOND POST SUBMISSION CTA
+second-cta-header-text = Tank foar it donearjen fan jo stim!
+second-cta-subtitle-text = Mei in profyl kinne jo jo aktiviteit byhâlde en ferbine mei in mienskip fan bydragers oan spraakgegevens.
+already-have-an-account = Hawwe jo al in account? <login>Oanmelde</login>
+create-profile-button = In profyl oanmeitsje
