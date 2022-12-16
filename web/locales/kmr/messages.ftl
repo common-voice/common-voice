@@ -135,6 +135,7 @@ nan-tw = Taywanî (Minnan)
 nb-NO = Norwecî (bokmål)
 nd = IsiNdebele (Bakur)
 ne-NP = Nepalî
+nhe = Zimanê Huasteca Nahuatl ê rojhilatî
 nia = Nias
 nl = Holendî
 nn-NO = Norwecî (nynorsk)

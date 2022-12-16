@@ -1093,6 +1093,7 @@ sc-logout-button = چېكىنىش
 sc-home-title = Common Voice نىڭ جۈملە توپلىغۇچىغا خۇش كەلدىڭىز
 sc-home-collect-title = جۈملە توپلاش
 sc-home-review-title = جۈملىلەرنى تەستىقلاش
+sc-home-review-text = كۆرسەتمىلەرگە ئاساسەن جۈملىلەرنى تەكشۈرۈپ بىزگە ياردەم قىلىڭ.
 
 ## GENERAL
 

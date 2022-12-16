@@ -418,6 +418,7 @@ why-demographic = Wêrom is dit wichtich?
 why-demographic-explanation-2 = Anonime brûkersgegevens lykas leeftyd, gender en aksint helpe de audiogegevens dy’t foar it trainen fan de sekuerens fan spraakwerkenningsmasinen brûkt wurde te ferbetterjen. Jo brûkersnamme en e-mailadres sille nea mei jo yntsjinne gegevens keppele wurde, en jo kinne derfoar kieze jo brûkersnamme iepenbier of anonym te meitsjen.
 accept-privacy = Ik gean akkoart mei hoe’t jo mei dizze gegevens omgean, lykas útlein yn Mozilla’s <privacyLink>Privacybelied</privacyLink>
 accept-privacy-title = Privacybelied
+accept-privacy-and-terms = Ik gean akkoard mei de <termsLink>Betingsten</termsLink> en <privacyLink>Privacybelied</privacyLink> fan Common Voice
 login-identity = Oanmeldingsidentiteit
 login-signup = Oanmelde / Registrearje
 edit = Bewurkje
@@ -1635,3 +1636,19 @@ partnerships-small-business-description = Wy sykje altyd gegevenskonsuminten oer
 partnerships-corporates-header = Grutskalige bedriuwen en platfoarmbedriuwen
 partnerships-corporates-description = As jo mear prate wolle oer de gegevensset, mei ynvestearje wolle yn plande platfoarmútwreidingen of sykje nei gearwurkingsmooglikheden, <emailFragment>lit dan in berjocht efter.</emailFragment>
 partnerships-our-partners = Us partners
+# FIRST POST SUBMISSION CTA
+first-cta-header-text = Tank foar it donearjen fan jo stimfragminten!
+first-cta-subtitle-text = Wolle jo wat ynformaasje diele oer hoe’t jo prate?
+why-donate = Wêrom freegje jo dat?
+why-donate-explanation-1 = Ferstrekken fan dizze gegevens is opsjoneel – foegje dizze allinnich ta as jo dat prima fine. As wy de gegevensset útjouwe, anonimisearje wy alle persoanlike gegevens en soargje wy derfoar dat gegevens as jo namme en e-mailadres net keppele binne oan demografyske gegevens lykas leeftiid of geslacht.
+why-donate-explanation-2 = Om technology foar elkenien goed wurkje te litten, moatte de gegevens dy’t ûntwikkelers helpe om technology te bouwen in útien rinnend skala oan minsken reflektearje. As wy bygelyks gjin sprekkers mei in bepaald aksint opnimme, wurket de technology net goed foar minsken mei dat aksint. <learnMore>Mear ynfo oer wêrom metadata wichtich binne.</learnMore>
+add-information-button = Ynformaasje tafoegje
+continue-speaking-button = Nee tankewol, trochgean mei ynsprekken
+create-profile-text = Wolle jo jo gegevens bewarje? <createProfile>Meitsje in profyl oan</createProfile>
+thanks-for-voice-toast = Tank foar jo stimynformaasje
+thanks-for-voice-toast-error = Der is in flater bard by it ferstjoeren fan jo stimynformaasje
+# SECOND POST SUBMISSION CTA
+second-cta-header-text = Tank foar it donearjen fan jo stim!
+second-cta-subtitle-text = Mei in profyl kinne jo jo aktiviteit byhâlde en ferbine mei in mienskip fan bydragers oan spraakgegevens.
+already-have-an-account = Hawwe jo al in account? <login>Oanmelde</login>
+create-profile-button = In profyl oanmeitsje

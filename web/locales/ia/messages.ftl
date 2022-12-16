@@ -408,6 +408,7 @@ why-demographic = Proque es isto relevante?
 why-demographic-explanation-2 = Le datos anonymisate de usatores como etate, genere e accento adjuta a meliorar le datos audio usate pro augmentar le precision del motores de recognition de voce. Tu nomine de usator e adresse de e-mail non essera jammais associate con tu datos submittite, e tu pote eliger si render tu nomine de usator public o anonyme.
 accept-privacy = Io concorda que vos tracta iste informationes como vos explica in le <privacyLink>Politica de confidentialitate</privacyLink> de Mozilla
 accept-privacy-title = Politica de confidentialitate
+accept-privacy-and-terms = Io concorda con le <termsLink>Terminos</termsLink> e con le <privacyLink>Aviso de confidentialitate</privacyLink>
 login-identity = Identitate pro aperir session
 login-signup = Aperir session / Inscriber se
 edit = Modificar
@@ -1561,3 +1562,19 @@ partnerships-small-business-description = Nos cerca sempre de audir le consummat
 partnerships-corporates-header = Corporationes e platteformas de grande scala
 partnerships-corporates-description = Si tu vole discuter altero re le insimul de datos, vole co-investir in le expansiones de platteformas planate o prestar attention a opportunitates de collaboration, <emailFragment>scribe nos un rango.</emailFragment>
 partnerships-our-partners = Nostre socios
+# FIRST POST SUBMISSION CTA
+first-cta-header-text = Gratias pro donar tu registrationes vocal!
+first-cta-subtitle-text = Vole tu compartir alcun informationes re como tu parla?
+why-donate = Perque demanda tu?
+why-donate-explanation-1 = Fornir iste informationes es optional: tu deberea solo adder illo si tu te senti commode. Quando nos publica le insimul de datos, nos pseudonymisa tote le informationes personal, e verifica que le informationes como tu nomine e email non es connectite a informationes demographic como etate o sexo.
+why-donate-explanation-2 = Proque le technologia functiona ben pro totes, le datos que adjuta le disveloppatores a producer technologia debe reflecte un grande varietate de gente. Per exemplo, si nos non include ulle parlantes con un particular accento, pois le technologia non functionara ben pro gente con ille accento. <learnMore>Pro saper plus re perque metadatos importa.</learnMore>
+add-information-button = Adder informationes
+continue-speaking-button = No gratias, continuar a parlar
+create-profile-text = Vole tu salvar tu informationes? <createProfile>Crea un profilo</createProfile>
+thanks-for-voice-toast = Gratias pro le informationes re tu voce
+thanks-for-voice-toast-error = Un error occurreva durante le invio del informationes re tu voce
+# SECOND POST SUBMISSION CTA
+second-cta-header-text = Gratias pro contribuer con tu voce!
+second-cta-subtitle-text = Con un profilo, tu pote mantener tracia de tu activitate e connecter te con collaboratores de un communitate de datos vocal.
+already-have-an-account = Ha tu jam un conto? <login>Accede</login>
+create-profile-button = Crear un profilo
