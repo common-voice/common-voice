@@ -54,7 +54,7 @@ GET `/api/v1/statistics/sentences` HTTP/1.1
 
 Filter by all sentences that have been read (a clip exists) multiple times:
 
-`?filter=duplicate`
+`?isDuplicate=true`
 
 ### Structure of response
 
