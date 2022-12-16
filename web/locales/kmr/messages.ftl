@@ -428,6 +428,7 @@ why-demographic = Ev çima girîng e?
 why-demographic-explanation-2 = Ji bo ku em motorên nasîna axaftinê bi awayekî baştir rahênan bikin, daneyên bikarhêner ên anonîm wekî; temen, zayend, û devok ji me re dibin alîkar. Navê bikarhêner û emaîla te ew ê ti carî bi daneyên ku te şandine re têkildar nebe, her wiha tu dikarî xuyabûn an jî nexuyabûna navê bikarhêneriyê bi xwe hilbijêrî.
 accept-privacy = Wekî ku di <privacyLink>Polîtîkaya Nihêniyê</privacyLink> ya Mozillayê de hatiye ravekirin, ez qebûl dikim ev agahî bên bikaranîn.
 accept-privacy-title = Polîtîkaya Nihêniyê
+accept-privacy-and-terms = Ez <termsLink>Şert</termsLink> û <privacyLink>Agahdariya Nihêniyê</privacyLink> ya Common Voiceê qebûl dikim.
 login-identity = Nasnameya têketinê
 login-signup = Têkeve / Tomar bibe
 edit = Sererast bike
