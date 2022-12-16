@@ -505,7 +505,12 @@ faq-why-10k-hours-a = Ev hejmara teqrîbî ya saetên pêwîst yê ji bo perwerd
 faq-how-calc-hours-q = Common Voice saetan çawa hesab dike?
 faq-how-calc-hours-a = Em saetan bi texmînkirina averaja dirêjahiya her qeydan hesab dikin, û piştre bi hejmara jimara yekûn ya qeydên bi hemû zimanan re dicarînin.
 faq-where-src-from-2-q = Nivîsên çavkanî ji ku derê tên?
+faq-where-src-from-2-a =
+    Hevokên me yên çavkanî hem ji bexşên beşdaran hem jî ji diyalogên senaryoyên fîlman ên çavkanî vekirî wekî <italic>It’s a Wonderful Life</italic>ê pêk tên.
+    
+    Tu dikarî hevokên me yên çavkanî li ser vê<githubLink>Peldanka GitHubê</githubLink> bibînî.
 faq-why-not-ask-read-q = Çima hûn ji mirovan naxwazin ku pirtûkan an jî gotarên Wikipediayê bi zimanên cuda bixwînin?
+faq-why-not-ask-read-a = Ji bo ku bi awayekî baştir fêde ji komdaneya Common Voiceê were girtin me biryar da ku destûr tenê ji bo hevokên xwediyê lîsansa Creative Commonsê (CC0) bê dayîn.
 faq-why-account-q = Çima divê ez hesabekî vekim?
 faq-is-account-public-q = Ew ê agahiyên hesabê min ji her kesî re vekirîbin?
 faq-how-privacy-q = Hûn çawa anonîmtî û nihêniya kesên ku dengên xwe bexşandine misoger dikin?
