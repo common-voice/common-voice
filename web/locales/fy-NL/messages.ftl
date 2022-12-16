@@ -1640,6 +1640,7 @@ partnerships-our-partners = Us partners
 first-cta-header-text = Tank foar it donearjen fan jo stimfragminten!
 first-cta-subtitle-text = Wolle jo wat ynformaasje diele oer hoe’t jo prate?
 why-donate = Wêrom freegje jo dat?
+why-donate-explanation-1 = Ferstrekken fan dizze gegevens is opsjoneel – foegje dizze allinnich ta as jo dat prima fine. As wy de gegevensset útjouwe, anonimisearje wy alle persoanlike gegevens en soargje wy derfoar dat gegevens as jo namme en e-mailadres net keppele binne oan demografyske gegevens lykas leeftiid of geslacht.
 why-donate-explanation-2 = Om technology foar elkenien goed wurkje te litten, moatte de gegevens dy’t ûntwikkelers helpe om technology te bouwen in útien rinnend skala oan minsken reflektearje. As wy bygelyks gjin sprekkers mei in bepaald aksint opnimme, wurket de technology net goed foar minsken mei dat aksint. <learnMore>Mear ynfo oer wêrom metadata wichtich binne.</learnMore>
 add-information-button = Ynformaasje tafoegje
 continue-speaking-button = Nee tankewol, trochgean mei ynsprekken
