@@ -572,6 +572,7 @@ about-get-involved-text-2 =
     bişîne yan jî beşdarî civaka <matrixLink>Matrix</matrixLink>ê bibe.
 about-stay-in-touch = Ez çawa dikarim di têkiliyê de bimînim?
 about-stay-in-touch-button = Tomar bibe
+about-stay-in-touch-text-1 = Ji bo ku tu bizanibî tu yê çawa tevlî kampanya, çalakî û xebatên sêwirandinê bibî, li lîsteya me ya emaîlê <emailFragment>Tomar bibe</emailFragment>.
 about-nav-why-common-voice = Çima ?
 about-nav-how-it-works = Çawa ?
 about-nav-partners = Hevkar
