@@ -1631,6 +1631,7 @@ partnerships-our-partners = Onze partners
 first-cta-header-text = Bedankt voor het doneren van uw stemfragmenten!
 first-cta-subtitle-text = Wilt u wat informatie delen over hoe u spreekt?
 why-donate = Waarom vraagt u dat?
+why-donate-explanation-2 = Om technologie voor iedereen goed te laten werken, moeten de gegevens die ontwikkelaars helpen om technologie te bouwen een uiteenlopend scala aan mensen reflecteren. Als we bijvoorbeeld geen sprekers met een bepaald accent opnemen, werkt de technologie niet goed voor mensen met dat accent. <learnMore>Meer info over waarom metadata belangrijk zijn.</learnMore>
 add-information-button = Informatie toevoegen
 continue-speaking-button = Nee bedankt, ga door met spreken
 create-profile-text = Wilt u uw gegevens opslaan? <createProfile>Maak een profiel aan</createProfile>
