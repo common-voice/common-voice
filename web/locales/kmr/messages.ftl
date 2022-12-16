@@ -1346,9 +1346,16 @@ sc-validation-no-abbreviations = Divê di hevokê de kurtenav tune bin
 
 localization-select =
     .label = Zimên hilbijêre
+# PARTNERSHIPS PAGE
+partnerships-header = Hevkarî
+partnerships-get-in-touch = Têkeve têkiliyê
+partnerships-become-a-partner = Bibin Hevkarên Common Voiceê
+partnerships-foundations-header = Weqif
 partnerships-our-partners = Hevkarên Me
 # FIRST POST SUBMISSION CTA
 first-cta-header-text = Spas ji bo ku te dengê xwe li projeyê bexşand!
+first-cta-subtitle-text = Tu dixwazî hin agahiyan li ser çawaniya axaftina xwe parve bikî?
+why-donate = Tu çima dipirsî?
 add-information-button = Agahiyê tevlî bike
 continue-speaking-button = Na spas, axaftinê bidomîne
 create-profile-text = Tu dixwazî agahiyên xwe tomar bikî? <createProfile>Profîlekê çêbike</createProfile>
