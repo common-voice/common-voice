@@ -418,6 +418,7 @@ why-demographic = Wêrom is dit wichtich?
 why-demographic-explanation-2 = Anonime brûkersgegevens lykas leeftyd, gender en aksint helpe de audiogegevens dy’t foar it trainen fan de sekuerens fan spraakwerkenningsmasinen brûkt wurde te ferbetterjen. Jo brûkersnamme en e-mailadres sille nea mei jo yntsjinne gegevens keppele wurde, en jo kinne derfoar kieze jo brûkersnamme iepenbier of anonym te meitsjen.
 accept-privacy = Ik gean akkoart mei hoe’t jo mei dizze gegevens omgean, lykas útlein yn Mozilla’s <privacyLink>Privacybelied</privacyLink>
 accept-privacy-title = Privacybelied
+accept-privacy-and-terms = Ik gean akkoard mei de <termsLink>Betingsten</termsLink> en <privacyLink>Privacybelied</privacyLink> fan Common Voice
 login-identity = Oanmeldingsidentiteit
 login-signup = Oanmelde / Registrearje
 edit = Bewurkje
@@ -1635,3 +1636,7 @@ partnerships-small-business-description = Wy sykje altyd gegevenskonsuminten oer
 partnerships-corporates-header = Grutskalige bedriuwen en platfoarmbedriuwen
 partnerships-corporates-description = As jo mear prate wolle oer de gegevensset, mei ynvestearje wolle yn plande platfoarmútwreidingen of sykje nei gearwurkingsmooglikheden, <emailFragment>lit dan in berjocht efter.</emailFragment>
 partnerships-our-partners = Us partners
+# FIRST POST SUBMISSION CTA
+first-cta-header-text = Tank foar it donearjen fan jo stimfragminten!
+first-cta-subtitle-text = Wolle jo wat ynformaasje diele oer hoe’t jo prate?
+why-donate = Wêrom freegje jo dat?
