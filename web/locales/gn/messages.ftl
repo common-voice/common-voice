@@ -1545,3 +1545,11 @@ partnerships-academia-description = Mba’epyahu jejapo oĩ ore ñe’ãitépe. 
 partnerships-small-business-header = Mba’apohaguasu michĩvéva, oĩhápe mba’apohaguasu pyahu tembipurupyahugua ha IA
 partnerships-corporates-header = Mba’apohaguasu tuicháva ha pyendavusugua
 partnerships-our-partners = Ore irũnguéra
+why-donate = ¿Mba’ére eporandu?
+add-information-button = Embojuaju marandu
+continue-speaking-button = Aguyje, eñe’ẽvékatu
+thanks-for-voice-toast = Aguyje ne ñe’ẽ marandu rehe
+# SECOND POST SUBMISSION CTA
+second-cta-header-text = ¡Aguyje ne ñe’ẽ ñeme’ẽre!
+already-have-an-account = ¿Ne mba’etéma? <login>Eñepyrũ tembiapo</login>
+create-profile-button = Emoheñói mba’ete
