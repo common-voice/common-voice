@@ -1346,3 +1346,16 @@ sc-validation-no-abbreviations = Divê di hevokê de kurtenav tune bin
 
 localization-select =
     .label = Zimên hilbijêre
+partnerships-our-partners = Hevkarên Me
+# FIRST POST SUBMISSION CTA
+first-cta-header-text = Spas ji bo ku te dengê xwe li projeyê bexşand!
+add-information-button = Agahiyê tevlî bike
+continue-speaking-button = Na spas, axaftinê bidomîne
+create-profile-text = Tu dixwazî agahiyên xwe tomar bikî? <createProfile>Profîlekê çêbike</createProfile>
+thanks-for-voice-toast = Spas ji bo agahiyên te yên dengî
+thanks-for-voice-toast-error = Di şandina agahiyên te yên dengî de çewtiyek derket.
+# SECOND POST SUBMISSION CTA
+second-cta-header-text = Spas ji bo ku te bi dengê xwe beşdarî kir!
+second-cta-subtitle-text = Bi rêya çêkirina profîlê tu dikarî çalakiyên xwe bişopînî û bi civakaka beşdarên daneya dengî re têkiliyê ava bikî.
+already-have-an-account = Jixwe hesabekî te heye? <login>Têkeve</login>
+create-profile-button = Profîlekê çêbike
