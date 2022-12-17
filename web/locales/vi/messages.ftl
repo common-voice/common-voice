@@ -404,6 +404,7 @@ why-demographic = Vì sao điều này quan trọng?
 why-demographic-explanation-2 = Dữ liệu người dùng ẩn danh như tuổi, giới tính và giọng vùng miền giúp cải thiện dữ liệu âm thanh được sử dụng để đào tạo sự chính xác của công cụ nhận dạng giọng nói. Tên người dùng và email của bạn sẽ không bao giờ được liên kết với dữ liệu đã gửi của bạn, và bạn có thể chọn đặt tên người dùng của mình ở chế độ công khai hoặc ẩn danh.
 accept-privacy = Tôi đồng ý với việc các bạn xử lý thông tin này khi các bạn giải thích trong <privacyLink>Chính sách bảo mật</privacyLink> của Mozilla
 accept-privacy-title = Chính sách riêng tư
+accept-privacy-and-terms = Tôi đồng ý với <termsLink>điều khoản</termsLink> và <privacyLink>thông báo về quyền riêng tư</privacyLink> của Common Voice
 login-identity = Nhận dạng đăng nhập
 login-signup = Đăng nhập / Đăng ký
 edit = Chỉnh sửa
@@ -1598,3 +1599,19 @@ partnerships-small-business-description = Chúng tôi luôn tìm cách lắng ng
 partnerships-corporates-header = Các công ty quy mô lớn và các công ty nền tảng
 partnerships-corporates-description = Nếu bạn đang muốn nói thêm về tập dữ liệu, muốn đồng đầu tư vào các kế hoạch mở rộng nền tảng hoặc tìm kiếm cơ hội cộng tác, hãy <emailFragment>cho chúng tôi biết.</emailFragment>
 partnerships-our-partners = Các đối tác của chúng tôi
+# FIRST POST SUBMISSION CTA
+first-cta-header-text = Cảm ơn bạn đã đóng góp clip giọng nói của bạn!
+first-cta-subtitle-text = Bạn có muốn chia sẻ một số thông tin về cách bạn nói?
+why-donate = Tại sao bạn lại hỏi?
+why-donate-explanation-1 = Thông tin này là tùy chọn để cung cấp - bạn chỉ nên thêm nó nếu bạn cảm thấy thoải mái. Khi chúng tôi phát hành tập dữ liệu, chúng tôi ẩn danh tất cả thông tin cá nhân và đảm bảo thông tin như tên và email của bạn không được kết nối với thông tin nhân khẩu học như tuổi hoặc giới tính.
+why-donate-explanation-2 = Để công nghệ hoạt động tốt cho mọi người, dữ liệu giúp các nhà phát triển xây dựng công nghệ cần phản ánh nhiều người khác nhau. Ví dụ: nếu chúng tôi không bao gồm bất kỳ người nói nào có giọng cụ thể, thì công nghệ sẽ không hoạt động tốt với những người có giọng đó. <learnMore>Tìm hiểu thêm về lý do tại sao siêu dữ liệu lại quan trọng.</learnMore>
+add-information-button = Thêm thông tin
+continue-speaking-button = Không, cảm ơn, tiếp tục nói
+create-profile-text = Bạn muốn lưu thông tin của bạn? <createProfile>Tạo hồ sơ</createProfile>
+thanks-for-voice-toast = Cảm ơn thông tin giọng nói của bạn
+thanks-for-voice-toast-error = Đã xảy ra lỗi khi gửi thông tin giọng nói của bạn
+# SECOND POST SUBMISSION CTA
+second-cta-header-text = Cảm ơn bạn đã đóng góp tiếng nói của bạn!
+second-cta-subtitle-text = Với một hồ sơ, bạn có thể theo dõi hoạt động của mình và kết nối với cộng đồng những người đóng góp dữ liệu giọng nói.
+already-have-an-account = Bạn đã có tài khoản? <login>Đăng nhập</login>
+create-profile-button = Tạo hồ sơ
