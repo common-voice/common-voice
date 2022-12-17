@@ -612,6 +612,7 @@ about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollec
 
 about-playbook-how-localize = Wergerandina malperê çawa tê kirin?
 about-playbook-how-localize-content-1 = Wergera malpera Common Voiceê li ser <strong>Pontoon</strong>ê tê kirin.
+about-playbook-how-localize-content-2 = Heke hesabê te tune be <pontoonAccountLink>Hesabekî çêbike</pontoonAccountLink>. Paşê, zimanê xwe <strong>(‘Tîm’)</strong> hilbijêre û piştre projeya <pontoonCvLink>Common Voice</pontoonCvLink>ê hilbijêre. Ew ê dosyeyên ji bo wergerê bêne nîşandan. Li yekê ji wan bitikîne, paşê ew ê nivîsên ingilîzî û kodikek ji bo wergerê were pêşberî te.
 about-playbook-how-localize-content-4 = Dema ku wergerandina malperê bigihîje 75% ew ê malper ji bo zimanê te berdest bibe.
 about-playbook-how-localize-content-5 = Li vîdeoya me ya ravekar temaşe bike
 
