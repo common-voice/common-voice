@@ -1570,3 +1570,12 @@ why-donate = Varför frågar du?
 why-donate-explanation-1 = Denna information är valfri att tillhandahålla - du bör bara lägga till den om du känner dig bekväm. När vi släpper datamängder pseudonymiserar vi all personlig information och ser till att information som ditt namn och e-post inte är kopplad till demografisk information som ålder eller kön.
 why-donate-explanation-2 = För att tekniken ska fungera bra för alla måste data som hjälper utvecklare att bygga teknik spegla ett brett spektrum av människor. Till exempel, om vi inte inkluderar några talare med en viss accent, kommer tekniken inte att fungera bra för personer med den accenten. <learnMore>Läs mer om varför metadata är viktigt.</learnMore>
 add-information-button = Lägg till information
+continue-speaking-button = Nej tack, fortsätt tala
+create-profile-text = Vill du spara din information? <createProfile>Skapa en profil</createProfile>
+thanks-for-voice-toast = Tack för din röstinformation
+thanks-for-voice-toast-error = Ett fel uppstod när din röstinformation skickades
+# SECOND POST SUBMISSION CTA
+second-cta-header-text = Tack för att du bidrar med din röst!
+second-cta-subtitle-text = Med en profil kan du hålla reda på din aktivitet och få kontakt med en grupp bidragsgivare av röstdata.
+already-have-an-account = Har du redan ett konto? <login>Logga in</login>
+create-profile-button = Skapa en profil
