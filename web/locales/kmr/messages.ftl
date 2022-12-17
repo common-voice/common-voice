@@ -585,6 +585,8 @@ about-nav-playbook = Beşdarî çawa tê kirin
 ## What is a language
 
 about-playbook-what-is-language = Zimanek li ser Common Voiceê çi ye?
+about-playbook-what-is-language-content-2 = Em dixwazin ku modelên axaftinê ji axaftina mirovên cuda cuda baştir fêm bike. Ji bo ev pêk were jî divê komdaneya dengî, dengê gelek mirovên cihêreng di xwe de bihewîne.
+about-playbook-what-is-language-content-3 = Di hin
 
 ## How do I add a language
 
