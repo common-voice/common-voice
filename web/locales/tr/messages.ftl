@@ -408,6 +408,7 @@ why-demographic = Bu neden önemli?
 why-demographic-explanation-2 = Yaş, cinsiyet ve aksan gibi anonim kullanıcı verileri, konuşma tanıma motorlarının doğruluğunu eğitmek için kullanılan ses verilerini geliştirmeye yardımcı olur. Kullanıcı adınız ve e-postanız gönderilen verilerinizle asla ilişkilendirilmez. Kullanıcı adınızın başkaları tarafından görünüp görünmeyeceğini de seçebilirsiniz.
 accept-privacy = Bu bilgilerin Mozilla’nın <privacyLink>Gizlilik Politikası</privacyLink>’nda açıklandığı şekilde kullanılmasını kabul ediyorum
 accept-privacy-title = Gizlilik Politikası
+accept-privacy-and-terms = Common Voice’un <termsLink>Koşullarını</termsLink> ve <privacyLink>Gizlilik İlkelerini</privacyLink> kabul ediyorum
 login-identity = Giriş kimliği
 login-signup = Giriş / Kayıt
 edit = Düzenle
