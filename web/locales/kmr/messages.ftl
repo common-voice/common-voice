@@ -597,6 +597,10 @@ about-playbook-how-add-language-content-1 =
     Ji bo tevlîkirinê du qonax hene; divê tu malperê wergerînî û hevokan berhev bikî.
 about-playbook-how-add-language-translating-heading = Wergerandina malperê
 about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Ji bo çawaniya bikaranînê ya Pontoonê li rêbernameya me temaşe bike.</translateVideoLink>
+about-playbook-how-add-language-translating-content-2 =
+    Em ji bo wergerê platforma Mozillayê ya bi navê <pontoonLink>Pontoon</pontoonLink> bi kar tînin. Li ser Pontoonê gelek ziman hene,
+    lê heke zimanê te tune be, ji bo tevlîkirinê tu dikarî <pontoonRequestLink>daxwaza zimanê xwe bikî</pontoonRequestLink>.
+    Paşê, ji bo berdestkirina zimên li ser projeya Common Voiceê li ser <githubRepoLink>GitHubê zimanê nû bixwaze</githubRepoLink>. <localizationFragment>Li ser wergerandina malperê zêdetir agahiyan bibîne</localizationFragment>.
 about-playbook-how-add-language-collecting-sentences-heading = Komkirina hevokan
 about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>Li rêbernameya me ya Berhevkara Hevokan temaşe bike</sentenceCollectorVideo>.
 about-playbook-how-add-language-collecting-sentences-content-2 =
