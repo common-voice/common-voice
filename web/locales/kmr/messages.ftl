@@ -599,6 +599,9 @@ about-playbook-how-add-language-translating-heading = Wergerandina malperê
 about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Ji bo çawaniya bikaranînê ya Pontoonê li rêbernameya me temaşe bike.</translateVideoLink>
 about-playbook-how-add-language-collecting-sentences-heading = Komkirina hevokan
 about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>Li rêbernameya me ya Berhevkara Hevokan temaşe bike</sentenceCollectorVideo>.
+about-playbook-how-add-language-collecting-sentences-content-2 =
+    Tu dikarî <sentenceCollectorLinkAdd>hinek hevokan tevlî vir bikî</sentenceCollectorLinkAdd>,
+    yan jî bi rêya bikaranîna Githubê <bulkImportDocsLink>hevokan bi komî tevlî bikî</bulkImportDocsLink>. Ji bîr neke, divê hevok xwediyên lîsansa <licenseLink>CC0 (anonîm)</licenseLink>ê bin an jî tu bi xwe hevokan binivîsî.
 about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>Li ser berhevkirina hevokan agahiyên zêdetir bibîne</sentenceCollectorFragment>.
 
 ## How does localization work
