@@ -586,11 +586,15 @@ about-nav-playbook = Beşdarî çawa tê kirin
 
 about-playbook-what-is-language = Zimanek li ser Common Voiceê çi ye?
 about-playbook-what-is-language-content-2 = Em dixwazin ku modelên axaftinê ji axaftina mirovên cuda cuda baştir fêm bike. Ji bo ev pêk were jî divê komdaneya dengî, dengê gelek mirovên cihêreng di xwe de bihewîne.
-about-playbook-what-is-language-content-3 = Di hin
+about-playbook-what-is-language-content-3 = Hin ziman ji aliyê rêziman, bilêvkirin û varyantên peyvan ve xwedî cudabûneke mezin in. Ji ber vê yekê em di 2022yê de <ctaLink>‘Varyantan’ didin destpêkirin</ctaLink>. Ev taybetî rê dide civakan ku di nav komdaneyên mezin de ziman/zaravayên xwe ji hev cuda bikin.
 
 ## How do I add a language
 
 about-playbook-how-add-language = Ez çawa dikarim zimanekî tevlî bikim?
+about-playbook-how-add-language-content-1 =
+    Pêşî, kontrol bike bê ka zimanê te <languageLink>ji berê ve heye yan na</languageLink>.
+    Heke tune be, tu dikarî <languageRequestLink>pirsa tevlîkirina zimanê xwe bikî</languageRequestLink>.
+    Ji bo tevlîkirinê du qonax hene; divê tu malperê wergerînî û hevokan berhev bikî.
 about-playbook-how-add-language-translating-heading = Wergerandina malperê
 about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Ji bo çawaniya bikaranînê ya Pontoonê li rêbernameya me temaşe bike.</translateVideoLink>
 about-playbook-how-add-language-collecting-sentences-heading = Komkirina hevokan
