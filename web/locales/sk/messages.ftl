@@ -1577,3 +1577,12 @@ why-donate = Prečo sa pýtate?
 why-donate-explanation-1 = Poskytnutie týchto informácií je nepovinné – mali by ste ich pridať, iba ak sa cítite dobre. Keď zverejníme súbor údajov, pseudonymizujeme všetky osobné informácie a uistíme sa, že informácie, ako je vaše meno a e-mail, nie sú spojené s demografickými informáciami, ako je vek alebo pohlavie.
 why-donate-explanation-2 = Aby technológia fungovala dobre pre každého, údaje, ktoré pomáhajú vývojárom vytvárať technológie, musia odrážať rôznorodú škálu ľudí. Ak napríklad nezahrnieme nahrávky s konkrétnym prízvukom, potom táto technológia nebude fungovať spoľahlivo pre ľudí s týmto prízvukom. <learnMore>Pozrite si ďalšie informácie o tom, prečo sú metadáta dôležité</learnMore>.
 add-information-button = Pridať informácie
+continue-speaking-button = Nie, ďakujem, hovorme ďalej
+create-profile-text = Chcete uložiť tieto informácie? <createProfile>Vytvoriť profil</createProfile>
+thanks-for-voice-toast = Ďakujeme za vaše hlasové informácie
+thanks-for-voice-toast-error = Pri odosielaní vašich hlasových informácií sa vyskytla chyba
+# SECOND POST SUBMISSION CTA
+second-cta-header-text = Ďakujeme, že ste prispeli svojím hlasom!
+second-cta-subtitle-text = Pomocou profilu môžete sledovať svoju aktivitu a spojiť sa s komunitou prispievateľov hlasových dát.
+already-have-an-account = Máte už účet? <login>Prihlásiť sa</login>
+create-profile-button = Vytvoriť profil
