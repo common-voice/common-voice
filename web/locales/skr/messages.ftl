@@ -1426,3 +1426,5 @@ partnerships-academia-description = اساں جو کجھ کریندے ہیں ا�
 partnerships-small-business-header = ٹیک تے اے آئی سٹارٹ اپ سمیت چھوٹے کاروبار
 partnerships-corporates-header = وݙے پیمانے تے کارپوریٹاں تے پلیٹ فارم کمپنیاں
 partnerships-our-partners = ساݙے بھائیوال
+add-information-button = معلومات شامل کرو
+create-profile-button = پروفائل بݨاؤ
