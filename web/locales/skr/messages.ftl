@@ -1427,6 +1427,9 @@ partnerships-academia-description = اساں جو کجھ کریندے ہیں ا�
 partnerships-small-business-header = ٹیک تے اے آئی سٹارٹ اپ سمیت چھوٹے کاروبار
 partnerships-corporates-header = وݙے پیمانے تے کارپوریٹاں تے پلیٹ فارم کمپنیاں
 partnerships-our-partners = ساݙے بھائیوال
+why-donate = تساں کیوں پچھدے پئے ہو؟
 add-information-button = معلومات شامل کرو
+continue-speaking-button = کائناں شکریہ، ٻولݨ جاری رکھو
 thanks-for-voice-toast = تہاݙی اواز معلومات پاروں تہاݙا شکریہ
+already-have-an-account = بھلا پہلے ای کھاتہ ہے؟ <login> لاگ ان تھیوو </login>
 create-profile-button = پروفائل بݨاؤ
