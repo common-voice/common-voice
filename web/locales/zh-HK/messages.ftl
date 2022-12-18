@@ -40,6 +40,7 @@ ba = 巴什基爾文
 bas = 巴薩文
 be = 白俄羅斯文
 bg = 保加利亞文
+bm = 班巴拉文
 bn = 孟加拉文
 br = 布里多尼文
 bs = 波斯尼亞文
@@ -53,6 +54,7 @@ cs = 捷克文
 cv = 楚瓦什文
 cy = 威爾斯文
 da = 丹麥文
+dag = 達戈姆巴文
 de = 德文
 dsb = 下索布文
 dv = 迪維西文
@@ -74,6 +76,7 @@ gn = 瓜拉尼文
 ha = 豪薩文
 he = 希伯來文
 hi = 印地文
+hil = 希利蓋農文
 hr = 克羅地亞文
 hsb = 上索布文
 ht = 海地文
@@ -96,6 +99,7 @@ ki = 基庫尤文
 kk = 哈薩克文
 km = 高棉文
 kmr = 北庫爾德文
+kn = 卡納達文
 ko = 韓文
 kpv = 科米-齊良文
 kw = 康和文
@@ -103,6 +107,7 @@ ky = 吉爾吉斯文
 lb = 盧森堡文
 lg = 盧干達文
 lij = 利古里亞文
+lo = 老撾文
 lt = 立陶宛文
 lv = 拉脫維亞文
 mai = 邁提利文
@@ -112,6 +117,7 @@ mhr = 草原馬里文
 mk = 馬其頓文
 ml = 馬拉亞拉姆文
 mn = 蒙古文
+mni = 曼尼普爾文
 mos = 莫西文
 mr = 馬拉提文
 mrj = 山地馬里文
@@ -149,6 +155,7 @@ sl = 斯洛維尼亞文
 so = 索馬里文
 sq = 阿爾巴尼亞文
 sr = 塞爾維亞文
+ss = 斯威士文
 sv-SE = 瑞典文
 sw = 斯華希里文
 syr = 敘利亞文
@@ -156,9 +163,11 @@ ta = 泰米爾文
 te = 泰盧固文
 tg = 塔吉克文
 th = 泰文
+ti = 提格利尼亞文
 tig = 提古利話
 tk = 土庫曼話
 tl = 他加祿文
+tn = 茨華拿文
 tok = 道本語
 tr = 土耳其文
 tt = 韃靼文
@@ -192,6 +201,7 @@ speak-now = 而家開始講話
 datasets = 數據集
 languages = 所有語言
 about = 關於我哋
+partner = 合作夥伴
 profile = 個人檔案
 help = 說明
 contact = 聯絡我們
@@ -386,6 +396,8 @@ off = 關
 on = 開
 help-accent = 須要知多一點「口音」嘅意思？
 help-accent-explanation = 你嘅口音即係你講嘢嘅方式。呢樣嘢可以由你住過嘅地方、你講嘅其他語言、同埋好多其他因素所形成㗎。你可以喺呢度分享任何你覺得相關嘅資訊。
+help-variants = 需要關於語言變體的相關說明嗎？
+help-variants-explanation = 語言變體係一種語言嘅特定形式。只由居住喺某啲地區或社群嘅人共享。有時亦稱為「方言」。
 
 ## Profile - Email
 
@@ -467,12 +479,23 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = 點解會有 Common Voice？
+how-does-it-work-title-v2 = Common Voice 喺點運作㗎？
 how-does-it-work-text = 我們集合眾人之力，打造開放原始碼的語音資料集。歡迎捐出您的聲音、協助驗證他人的錄音片段是否正確，讓數據集能夠變得更好。
 
 ## How does it work section
 
+about-language-req-subtitle = 有人要求加入一種語言。
 about-localization-title = 網站本地化
+about-localization-subtitle = 網站被翻譯為該語言。
+about-sentence-collection-title = 收集句子
+about-sentence-collection-subtitle = 收集好啲句子俾人錄音。
+about-new-lang-title = 發布新語言
+about-voice-contrib-title = 貢獻錄音
+about-voice-contrib-subtitle = 一班人貢獻自己嘅錄音。
+about-voice-validation-title = 驗證錄音
+about-voice-validation-subtitle = 而另一班人會驗證呢啲錄音片段。
 about-dataset-release-title = 數據集發佈
+about-dataset-release-subtitle = 我哋每 3 個月發放一次數據庫。
 about-subscribe-text = 想同 Common Voice 計劃保持聯絡？
 about-speak = 講
 about-speak-text = 貢獻者會朗讀數據庫内由大衆提供的句子，變成錄音片段。
@@ -518,6 +541,7 @@ about-playbook-how-add-language-content-1 =
     如果唔係，你可以<languageRequestLink>要求新增你嘅語言</languageRequestLink>。
     之後有兩個步驟：翻譯網站、同埋收集句子。
 about-playbook-how-add-language-translating-heading = 翻譯網站
+about-playbook-how-add-language-translating-content-1 = <translateVideoLink>睇一睇 Pontoon 嘅使用教學指南。</translateVideoLink>
 about-playbook-how-add-language-collecting-sentences-heading = 收集句子
 
 ## How does localization work
