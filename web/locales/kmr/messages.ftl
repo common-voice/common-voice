@@ -619,6 +619,7 @@ about-playbook-how-localize-content-5 = Li vîdeoya me ya ravekar temaşe bike
 ## How to add sentences
 
 about-playbook-how-add-sentences = Ez çawa dikarim hevokan tevlî bikim?
+about-playbook-how-add-sentences-content-1 = <strong>Berhevkara Hevokan</strong> karê berhevkirin û piştrastkirina hevokên anonîmî li xwe digire. Pêşî, divê tu <scAccountLink>hesabekî çê bikî</scAccountLink></scAccountLink>. Paşê, zimanê xwe tevlî <strong>Profîla xwe</strong> bike. Piştî van, tu yê bikaribî hevokan <strong>tevlî bikî</strong> yan jî hevokên ku berê hatine tevlîkirin <strong>kontrol bikî</strong>.
 
 ## How to record quality
 
