@@ -1148,6 +1148,7 @@ demo-account-sign-up = ສົ່ງລິ້ງລົງທະບຽນ
 ## Demo Contribute
 
 demo-contribute-card-header = ພ້ອມແລ້ວທີ່ຈະເພີ່ມສຽງ ຫຼືໃຫ້ຢືມຫູຟັງຂອງທ່ານແລ້ວບໍ?
+demo-contribute-card-body-v2 = ຕອນນີ້ເຈົ້າຮູ້ໜ້ອຍໜຶ່ງກ່ຽວກັບ Common Voice, ເປັນຫຍັງບໍ່ລອງໃຊ້ມັນເບິ່ງ? ຄລິກທີ່ໄອຄອນໄມໂຄຣໂຟນເພື່ອເລີ່ມການອ່ານປະໂຫຍກດັງໆ. <br/><br/>ຫາກທ່ານຕ້ອງການກວດສອບການປະກອບສ່ວນສຽງຂອງຄົນອື່ນ, ໃຫ້ຄລິກທີ່ໄອຄອນການຫຼິ້ນ. ເຈົ້າຈະຊ່ວຍຢືນຢັນວ່າບັນທຶກກົງກັບປະໂຫຍກທີ່ຂຽນໃນໜ້າຈໍ.
 demo-listen-subtitle = ພ້ອມທີ່ຈະປະກອບສ່ວນບໍ?
 
 ## Demo Dashboard
@@ -1191,6 +1192,7 @@ contribution-varying-pronunciations-example-2-explanation = ['ຍົກຂຶ້
 contribution-background-noise-title = ສິ່ງລົບກວນພື້ນຫຼັງ
 contribution-background-noise-description-extended = ຖ້າການບັນທຶກແຕກ, ຫຼືມີຮອຍແຕກ, ປະຕິເສດ ເວັ້ນເສຍແຕ່ວ່າຂໍ້ຄວາມທັງໝົດຈະຍັງໄດ້ຍິນ.
 contribution-background-noise-example-1-fixed-title = <strong>[ຈາມ]</strong> ໄດໂນເສົາຍັກຂອງ <strong>[ໄອ]</strong> Triassic.
+contribution-background-noise-example-2-fixed-title = ໄດໂນ້ຍັກ<strong>[ໄອ]</strong> Triassic.
 contribution-background-noise-example-2-explanation = [ບາງສ່ວນຂອງຂໍ້ຄວາມບໍ່ສາມາດໄດ້ຍິນ]
 contribution-background-voices-title = ສຽງພື້ນຫຼັງ
 contribution-background-voices-description-extended = ຖ້າການບັນທຶກແຕກ, ຫຼືມີຮອຍແຕກ, ປະຕິເສດ ເວັ້ນເສຍແຕ່ວ່າຂໍ້ຄວາມທັງໝົດຈະຍັງໄດ້ຍິນ.
