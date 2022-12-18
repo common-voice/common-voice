@@ -528,6 +528,7 @@ about-get-involved-text-2 =
     <matrixLink>Matrix</matrixLink>群組聊天室。
 about-stay-in-touch = 點樣可以保持聯絡？
 about-stay-in-touch-button = 註冊
+about-stay-in-touch-text-2 = 加入 <discourseLink>Discourse</discourseLink> 嚟認識 Mozilla 嘅語言社群並一齊討論，或者加入 <matrixLink>Matrix</matrixLink> 嚟獲得快啲嘅建議。
 about-nav-why-common-voice = 點解？
 about-nav-how-it-works = 點做？
 about-nav-partners = 合作夥伴
