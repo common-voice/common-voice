@@ -38,7 +38,19 @@ ast = Asturiankan na
 az = Azerbajankan na
 ba = Baskɛrikan na
 bas = Basaakan na
-be = Belarusian
+be = Belaruskaw ka kan
+bg = Bulgarikan na
+bm = Bamanankan na
+bn = Bengalikan
+br = Bretonkan na
+bs = Bosnikan
+bxr = Buryatikan na
+byv = Medumbakan na
+ca = Katalankan na
+cak = Kachikelikan
+ckb = Cɛma Kurdekan
+cnh = Hakasinkan
+co = Kɔrsikan
 
 # [/]
 
