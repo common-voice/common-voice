@@ -408,7 +408,7 @@ manage-subscriptions = أدِر الاشتراكات
 manage-email-subscriptions = أدِر اشتراكات البريد
 email-already-used = يستخدم حساب آخر ذات البريد بالفعل
 add-language = أضِف لغة
-change-email-setings = غيّر بريدك الإلكتروني عبر الإعدادات ثمّ ”هوية الدخول“
+change-email-setings = لا يمكنك تعديل البريد الإلكتروني
 
 ## FAQ
 
@@ -795,7 +795,7 @@ your-languages = لغاتك
 toward-next-goal = نحو الهدف التالي
 clips-you-recorded = المقاطع التي سجّلتها
 clips-you-validated = المقاطع التي دقّقتها
-todays-recorded-progress = إجمالي المساهمات لهذا اليوم اليوم
+todays-recorded-progress = إجمالي المساهمات لهذا اليوم
 todays-validated-progress = إجمالي المساهمات المدققة اليوم
 stats = إحصائيات
 awards = الجوائز

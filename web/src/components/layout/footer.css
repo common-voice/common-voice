@@ -95,6 +95,9 @@ footer {
             margin-right: 8rem;
             margin-top: 0;
         }
+        @media (--sm-down) {
+            flex-direction: column;
+        }
 
         & .Logo {
             font-size: 1rem;
@@ -108,6 +111,10 @@ footer {
 
             @media (--xl-up) {
                 height: auto;
+            }
+            @media (--sm-down) {
+                height: unset;
+                max-height: unset;
             }
         }
 

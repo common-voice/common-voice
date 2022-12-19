@@ -399,6 +399,9 @@
                     right: calc(-100% - 6rem);
                 }
                 @media (--sm-down) {
+                    [dir='rtl'] & {
+                        right: 0;
+                    }
                     left: 0;
                 }
             }
