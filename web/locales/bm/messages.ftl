@@ -25,6 +25,20 @@ error-something-went-wrong = Hakɛto , fɛn dɔ ma ɲɛ
 
 ## Languages
 
+ab = Abkhazikan na
+ace = Acehnekan na
+ady = Adyghe kan
+af = Afirikikan na
+am = Amharikikan na
+an = Aragonesekan na
+ar = Arabukan na
+arn = Mapudungunkan na
+as = Asamwakan na
+ast = Asturiankan na
+az = Azerbajankan na
+ba = Baskɛrikan na
+bas = Basaakan na
+be = Belarusian
 
 # [/]
 
