@@ -83,6 +83,18 @@ hil = Hiligaynonkan
 hr = Kurɔsikan na
 hsb = Sorbiyankan, Sanfɛla la
 ht = Haïtikan na
+hu = Hɔngirikan na
+hy-AM = Armenikan na
+hyw = Armeni Tlebi jamanaw
+ia = Kanw ni ɲɔgɔn cɛ
+id = Indonezikan na
+ie = Kanw ni ɲɔgɔn cɛ
+ig = Igbokan na
+is = Islandekan na
+it = Italikan na
+izh = Izhoriankan
+ja = Zapɔnkan na
+jbo = Lojbankan
 
 # [/]
 
