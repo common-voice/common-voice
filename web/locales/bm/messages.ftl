@@ -15,6 +15,9 @@ email-opt-in-privacy-v2 = Ni i y’a sugandi ka batakiw sɔrɔ i b’a jira k'I 
 indicates-required = Yɔrɔ minnu taamasiyɛn ye dolow (*) ye, olu wajibiyalen don.
 not-available-abbreviation = Surunyalen tɛ sɔrɔ
 banner-error-slow-1 = Hakɛto Common Voice ka suma. I ni ce I ka danaya  kɔsɔn
+banner-error-slow-2 = An bɛ ka trafic caman sɔrɔ, wa an bɛ ka koɲɛw sɛgɛsɛgɛ sisan.
+banner-error-slow-link = Sigisariyaw Paaji
+error-something-went-wrong = Hakɛto , fɛn dɔ ma ɲɛ
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
