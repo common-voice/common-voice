@@ -426,6 +426,7 @@ why-demographic = Pam fod hyn o bwys?
 why-demographic-explanation-2 = Mae data defnyddwyr dienw fel oed, rhyw ac acen yn helpu i wella'r data sain sy'n cael ei ddefnyddio i hyfforddi cywirdeb peiriannau adnabod llais. Ni fydd eich enw defnyddiwr ac e-bost yn cael ei gysylltu â'r data rydych wedi ei gyflwyno a gallwch ddewis os ydych am wneud eich enw defnyddiwr yn hysbys neu beidio.
 accept-privacy = Rwy'n hapus gyda chi'n defnyddio'r wybodaeth yma fel rydych yn ei esbonio ym <privacyLink>Mholisi Preifatrwydd Mozilla</privacyLink>
 accept-privacy-title = Polisi Preifatrwydd
+accept-privacy-and-terms = Rwy'n cytuno i <termsLink>Delerau</termsLink> a <PrivacyLink>Hysbysiad Preifatrwydd</privacyLink> Common Voice
 login-identity = Enw Mewngofnodi
 login-signup = Mewngofnodi / Cofrestru
 edit = Golygu
@@ -1655,3 +1656,17 @@ partnerships-small-business-description = Rydym bob amser yn awyddus i glywed ga
 partnerships-corporates-header = Corfforaethau mawr a chwmnïau platfform
 partnerships-corporates-description = Os ydych chi eisiau siarad ymhellach am y set ddata, eisiau cyd-fuddsoddi mewn ehangu platfformau arfaethedig neu chwilio am gyfleoedd cydweithio, <emailFragment>cysylltwch â ni.</emailFragment>
 partnerships-our-partners = Ein Partneriaid
+# FIRST POST SUBMISSION CTA
+first-cta-header-text = Diolch am gyfrannu eich clipiau llais!
+first-cta-subtitle-text = Hoffech chi rannu rhywfaint o wybodaeth am sut rydych chi'n llefaru?
+why-donate = Pam ydych chi'n gofyn?
+why-donate-explanation-1 = Mae darparu'r wybodaeth hon yn ddewisol - dim ond os ydych chi'n teimlo'n gyfforddus y dylech ei hychwanegu. Pan fyddwn yn rhyddhau'r set ddata, rydym yn ffugenwi'r holl wybodaeth bersonol, ac yn sicrhau nad yw gwybodaeth fel eich enw a'ch e-bost yn gysylltiedig â gwybodaeth ddemograffig fel oedran neu ryw.
+why-donate-explanation-2 = Er mwyn i dechnoleg weithio'n dda i bawb, mae angen i'r data sy'n helpu datblygwyr i adeiladu technoleg adlewyrchu ystod amrywiol o bobl. Er enghraifft, os na fyddwn yn cynnwys unrhyw siaradwyr ag acen benodol, yna ni fydd y dechnoleg yn gweithio'n dda i bobl â'r acen honno. <learnMore>Dysgu mwy am pam mae metadata'n bwysig.</learnMore>
+add-information-button = Ychwanegu gwybodaeth
+continue-speaking-button = Dim diolch, parhau i siarad
+create-profile-text = Eisiau arbed cadw eich gwybodaeth? <createProfile>Crëwch broffil</createProfile>
+thanks-for-voice-toast = Diolch am y wybodaeth am eich llais
+thanks-for-voice-toast-error = Bu gwall wrth gyflwyno'r wybodaeth am eich llais
+# SECOND POST SUBMISSION CTA
+second-cta-header-text = Diolch am gyfrannu eich llais!
+second-cta-subtitle-text = Gyda phroffil, gallwch gadw golwg ar eich gweithgaredd a chysylltu â chymuned o gyfranwyr data llais.
