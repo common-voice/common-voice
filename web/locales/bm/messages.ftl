@@ -51,6 +51,22 @@ cak = Kachikelikan
 ckb = Cɛma Kurdekan
 cnh = Hakasinkan
 co = Kɔrsikan
+cs = Cekikan na
+cv = Chuvashkan
+cy = Waleskan na
+da = Danemarkekan na
+dag = Dagibanikan
+de = Alemaɲikan na
+dsb = Sorbiyankan
+dv = Dwehikan na
+dyu = Julakan
+en = Angilɛkan
+es = Ɛsipaɲɔlikan
+et = Ɛsitonikan
+fa = Pɛrɛsikan
+fi = Finlandekan na
+fy-NL = Frisikan na
+ga-IE = Irlandikan na
 
 # [/]
 
