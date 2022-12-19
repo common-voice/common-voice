@@ -57,20 +57,32 @@ cy = Waleskan na
 da = Danemarkekan na
 dag = Dagibanikan
 de = Alemaɲikan na
-dsb = Sorbiyankan
+dsb = Sorbiyankan, Duguma
 dv = Dwehikan na
 dyu = Julakan
+el = Gɛrɛkikan na
 en = Angilɛkan
+eo = Esperantokan na
 es = Ɛsipaɲɔlikan
 et = Ɛsitonikan
+eu = Basque
 fa = Pɛrɛsikan
+ff = Fulakan
 fi = Finlandekan na
+fo = Farosikan
+fr = Faransikan
 fy-NL = Frisikan na
 ga-IE = Irlandikan na
 gl = Galisikan na
 gn = Gwaranikan
 gom = Goan konkan
+ha = Hausakan
+he = Heburukan na
 hi = Hindukan na
+hil = Hiligaynonkan
+hr = Kurɔsikan na
+hsb = Sorbiyankan, Sanfɛla la
+ht = Haïtikan na
 
 # [/]
 
