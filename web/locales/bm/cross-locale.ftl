@@ -4,6 +4,7 @@ contribute = Ka bolomafara di
 get-involved-button = k'aw sen don a la
 get-involved-title = bolomafara di  { $Bamanankan } dɛmɛlila
 get-involved-text = I ni ce I ka timinanjiya la { $langBamanankan } sankɔrɔtanni la. Anw bɛ cɛsirila walasa ka kanw bɛɛ lakodɔn ani ka ba‌arakɛɲɔgɔnw kunnafoni imɛyi fɛ. N'Aw b'a fɛ ka aw ka bólomafara lase, A y'aw  ka imayi sɛbɛn duguma.
+get-involved-form-title = I tɔgɔ sɛbɛn walasa ka { $lang } kunnafoni kuraw sɔrɔ:
 get-involved-email =
     .label = Imɛyi
 get-involved-opt-in = Ɔwɔ, i ka email ci n ma. N b'a fɛ ka to ka kunnafoni sɔrɔ kan in ka ɲɛtaa kan Common Voice kɔnɔ.
