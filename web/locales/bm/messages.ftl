@@ -67,6 +67,10 @@ fa = Pɛrɛsikan
 fi = Finlandekan na
 fy-NL = Frisikan na
 ga-IE = Irlandikan na
+gl = Galisikan na
+gn = Gwaranikan
+gom = Goan konkan
+hi = Hindukan na
 
 # [/]
 
