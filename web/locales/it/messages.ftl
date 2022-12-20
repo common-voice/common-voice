@@ -406,6 +406,7 @@ why-demographic = Perché è importante?
 why-demographic-explanation-2 = Dati utente anonimi come età, genere e accento aiutano a migliorare i dati audio utilizzati per addestrare l’accuratezza dei motori di riconoscimento vocale. Il tuo nome utente ed email non saranno mai associati ai dati inviati e potrai scegliere se rendere il tuo nome utente pubblico o privato.
 accept-privacy = Acconsento al trattamento dei dati come indicato nell’<privacyLink>informativa sulla privacy</privacyLink> di Mozilla
 accept-privacy-title = Informativa sulla privacy
+accept-privacy-and-terms = Accetto le <termsLink>condizioni</termsLink> e l’<privacyLink>informativa sulla privacy</privacyLink> di Common Voice
 login-identity = Identità di accesso
 login-signup = Accedi / Registrati
 edit = Modifica
@@ -1529,3 +1530,16 @@ partnerships-small-business-description = Per noi è importante scoprire le esig
 partnerships-corporates-header = Società di grandi dimensioni e fornitori di piattaforme
 partnerships-corporates-description = Se vuoi discutere del set di dati, contribuire all’investimento nelle espansioni previste della piattaforma, oppure cerchi opportunità di collaborazione, <emailFragment>inviaci un messaggio</emailFragment>.
 partnerships-our-partners = I nostri partner
+# FIRST POST SUBMISSION CTA
+first-cta-header-text = Grazie per aver donato le tue registrazioni vocali.
+first-cta-subtitle-text = Vuoi condividere delle informazioni sul tuo modo di parlare?
+why-donate = Per quale motivo te lo chiediamo?
+why-donate-explanation-1 = Fornire queste informazioni è facoltativo: aggiungile solo se lo desideri. Quando rilasciamo il dataset, pseudonimizziamo tutte le informazioni personali e ci assicuriamo che informazioni come il tuo nome e indirizzo email non siano collegate a informazioni demografiche come età o sesso.
+add-information-button = Aggiungi informazioni
+continue-speaking-button = No grazie, continua a parlare
+create-profile-text = Vuoi salvare le tue informazioni? <createProfile>Crea un profilo</createProfile>
+thanks-for-voice-toast-error = Si è verificato un errore durante l’invio delle informazioni sulla tua voce
+# SECOND POST SUBMISSION CTA
+second-cta-header-text = Grazie per aver donato la tua voce.
+already-have-an-account = Hai già un account? <login>Accedi</login>
+create-profile-button = Crea un profilo
