@@ -1194,8 +1194,10 @@ contribution-background-noise-description-extended = ຖ້າການບັນ
 contribution-background-noise-example-1-fixed-title = <strong>[ຈາມ]</strong> ໄດໂນເສົາຍັກຂອງ <strong>[ໄອ]</strong> Triassic.
 contribution-background-noise-example-2-fixed-title = ໄດໂນ້ຍັກ<strong>[ໄອ]</strong> Triassic.
 contribution-background-noise-example-2-explanation = [ບາງສ່ວນຂອງຂໍ້ຄວາມບໍ່ສາມາດໄດ້ຍິນ]
+contribution-background-noise-example-3-fixed-title = <strong>[Crackle]</strong> ໄດໂນເສົາຍັກຂອງ <strong>[crackle]</strong> -riassic.
 contribution-background-voices-title = ສຽງພື້ນຫຼັງ
 contribution-background-voices-description-extended = ຖ້າການບັນທຶກແຕກ, ຫຼືມີຮອຍແຕກ, ປະຕິເສດ ເວັ້ນເສຍແຕ່ວ່າຂໍ້ຄວາມທັງໝົດຈະຍັງໄດ້ຍິນ.
+contribution-background-voices-example-1-explanation = ເຈົ້າ​ກໍາ​ລັງ​ມາ​ບໍ່? <strong>[ເອີ້ນໂດຍຄົນອື່ນ]</strong>
 contribution-volume-title = ລະດັບສຽງ
 contribution-reader-effects-title = ຜົນກະທົບຂອງຜູ້ອ່ານ
 contribution-just-unsure-title = ພຽງແຕ່ບໍ່ແນ່ໃຈ?
@@ -1386,12 +1388,14 @@ sc-criteria-item-6 = ຖ້າ​ຫາກ​ທ່ານ​ຫມົດ​ປ�
 
 ## REVIEW
 
+sc-review-lang-not-selected = ທ່ານຍັງບໍ່ໄດ້ເລືອກພາສາໃດໆ. ກະລຸນາໄປທີ່ <profileLink>Profile</profileLink> ຂອງທ່ານເພື່ອເລືອກພາສາ.
 sc-review-title = ທົບທວນປະໂຫຍກ
 sc-review-loading = ກຳລັງໂຫລດປະໂຫຍກ...
 sc-review-select-language = ກະລຸນາເລືອກພາສາເພື່ອທົບທວນປະໂຫຍກ.
 sc-review-no-sentences = ບໍ່ມີປະໂຫຍກທີ່ຈະທົບທວນຄືນ. <addLink>ເພີ່ມປະໂຫຍກເພີ່ມເຕີມດຽວນີ້!</addLink>
 sc-review-form-prompt =
     .message = ບໍ່ໄດ້ສົ່ງປະໂຫຍກທີ່ທົບທວນຄືນ, ແນ່ໃຈບໍ?
+sc-review-form-usage = ປັດຂວາເພື່ອອະນຸມັດປະໂຫຍກ. ປັດຊ້າຍເພື່ອປະຕິເສດມັນ. ປັດຂຶ້ນເພື່ອຂ້າມມັນ. <strong>ຢ່າລືມສົ່ງການທົບທວນຄືນຂອງທ່ານ!</strong>
 # Variables:
 #   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
 sc-review-form-source = ທີ່ມາ: { $sentenceSource }
