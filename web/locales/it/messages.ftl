@@ -1535,11 +1535,14 @@ first-cta-header-text = Grazie per aver donato le tue registrazioni vocali.
 first-cta-subtitle-text = Vuoi condividere delle informazioni sul tuo modo di parlare?
 why-donate = Per quale motivo te lo chiediamo?
 why-donate-explanation-1 = Fornire queste informazioni è facoltativo: aggiungile solo se lo desideri. Quando rilasciamo il dataset, pseudonimizziamo tutte le informazioni personali e ci assicuriamo che informazioni come il tuo nome e indirizzo email non siano collegate a informazioni demografiche come età o sesso.
+why-donate-explanation-2 = Affinché la tecnologia funzioni al meglio per tutti, i dati utilizzati dagli sviluppatori per crearla devono riflettere una vasta gamma di persone. Per esempio, se non includiamo soggetti che parlano con un determinato accento, la tecnologia non funzionerà bene per queste persone. <learnMore>Ulteriori informazioni sull’importanza dei metadati.</learnMore>
 add-information-button = Aggiungi informazioni
 continue-speaking-button = No grazie, continua a parlare
 create-profile-text = Vuoi salvare le tue informazioni? <createProfile>Crea un profilo</createProfile>
+thanks-for-voice-toast = Grazie per aver aggiunto informazioni sulla tua voce
 thanks-for-voice-toast-error = Si è verificato un errore durante l’invio delle informazioni sulla tua voce
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = Grazie per aver donato la tua voce.
+second-cta-subtitle-text = Con un profilo puoi tenere traccia della tua attività ed entrare in contatto con una comunità di donatori di voce.
 already-have-an-account = Hai già un account? <login>Accedi</login>
 create-profile-button = Crea un profilo
