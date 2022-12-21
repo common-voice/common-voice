@@ -1773,6 +1773,7 @@ I was raised with morals, the majority of which I agree with
 any religions that have multiple deities, pagan beliefs
 A Bank Holiday in Britain is like a public holiday in America
 A Bavarian sower in sowing wheat will sometimes wear a golden ring.
+A Brahman is forbidden to blow a fire with his mouth.
 A Cancer tumor can be characterized as a benign or malignant growth.
 A Christmas Carol.
 A Christmas party at our hotel?
@@ -1977,6 +1978,7 @@ A distribution of note is the release of their final album, “Okumay”.
 A district of country is first divided into square miles, or sections.
 A disturbing picture, you will admit.
 A divided panel of the Ninth Circuit affirmed the District Court's decision.
+A divine sanction was sought for the centralization of religion at Jerusalem.
 A doctor is a made man of the medical mafia.
 A dog barked furiously.
 A door out of our garden will save the roundabout by the town.
@@ -1990,6 +1992,7 @@ A dream, surely, the fancy of a fantastic, voluptuous writer.
 A dreariness came over him.
 A droll account of the travels of two dolls.
 A drop of moisture fell on Oakley’s cheek.
+A dry piece of bamboo is pegged on the ground.
 A duel in Ipswich!’ said the magistrate, perfectly aghast at the notion.
 A dye is used to highlight blockages within the arteries.
 A face like an angel — a lost angel, she says.
@@ -2427,6 +2430,7 @@ A shudder of delight seemed to pass through her frame.
 A sigh followed on the words.
 A silo is erected with outside walls, and sometimes covered with slates.
 A similar box was fastened by a bolt furnished with a knob.
+A similar custom was observed in ancient Mexico and in Madagascar.
 A similar mode of injuring an enemy is practiced in some parts of France.
 A similar view as to the origin of the priestly kings prevailed in Greece.
 A simple story of the home life of four girls.
@@ -2598,6 +2602,7 @@ A very numerous class has long existed both at Oxford and Cambridge.
 A very old myth must have been behind both legends.
 A very pleasant routine, with perhaps a slight tinge of sameness.
 A very valuable person, and deservedly respected.
+A vile man who had polluted his lips was deemed unworthy.
 A voice gave orders, a sharp authoritative voice.
 A voice of despair rang through the room.
 A voice out of heaven!
@@ -2624,6 +2629,7 @@ A windscreen is easily chipped, but can be repaired if it's small.
 A winner, and just the sort for you.
 A woman came out to see.
 A woman came up from towards the sea shore.
+A woman carries it in procession past the houses of the village.
 A woman has been slowly roasted to death as a witch in Ireland.
 A woman laughed, and again it was Helene.
 A woman may not see such a parcel opened on any account.
@@ -2711,6 +2717,7 @@ Accidents, sir, happen in a moment, don't they?
 According to Herodotus, each grave contained the dust of a pair of Hyperborean sandals.
 According to another account, the woman is wrapped round with white thread.
 According to him, no.
+According to him, their relationship is one of mutual dependence.
 According to the forecast, there is a threat of inclement weather.
 According to the label, Heinz has fifty-seven varieties
 According to the latest list, he is still the chairman.
@@ -2868,6 +2875,7 @@ After a moment's pause, Tucker rode off.
 After a pause, Alice began, ‘Well!’
 After a pause, Lord Henry pulled out his watch.
 After a pause: "Are you ready for breakfast, sir?"
+After a season of prayer, these exemplary parents proceeded to the well.
 After a second cocktail they became enthusiastic.
 After a short interval, a tap at the door.
 After a short pause, he waved his hand and said, "Hold up."
@@ -3547,6 +3555,7 @@ Among the Lithuanians the proceeding is somewhat different.
 Among the Normans, everywhere, homosexuality was markedly prevalent.
 Among the books our father left was a curious old volume in Latin.
 Among the more interesting forms was the gigantic Irish elk.
+Among the old Celts, holy fires were tended by virgins.
 Among the wealthy the atavistic abnormalities are generally psychosexual in nature.
 Amusing fellows, they are.
 Amy, you've got it?
@@ -4978,6 +4987,7 @@ Any other phrases?
 Any other situation would have been much less in character.
 Any parent wants their children to be educated and that too educated well.
 Any particular reason, or just a whim?
+Any person, boy, man, or woman, might light the fire.
 Any question is clarified by bringing it down to the simplest terms.
 Any relation of old Tommy of the Sixtieth?
 Any relic of the dead is precious, if they were valued living.
@@ -5308,6 +5318,7 @@ As a young child she was able to sing even before she could speak
 As a youth, I was very fond of gossip.
 As an adult, you should have learned independence by now!
 As an individual.
+As brothers became patriarchs, the clan widened into the tribe.
 As events turned out, he was perfectly right.
 As far as possible, without surrender, be on good terms with all persons.
 As far out to sea as you can.
@@ -5972,6 +5983,7 @@ Behold this earthling standing by my side!
 Being illiterate, she signed with a cross.
 Being of my mother's race, he has my eyes.
 Being what it is, she neither knows nor cares.
+Bel and Ishtar, like Adonis, appear to have been gods of the Canaanites.
 Belief and practice, or, in theological language, faith and works, are equally essential.
 Believe her to be deceived, by all means.
 Bella and the fowls were deposited at the door.
@@ -9950,6 +9962,7 @@ Each artist at Openclipart releases all rights to the images they share at Openc
 Each belongs to a different category.
 Each branch of government can change acts of the other branches:
 Each buoy is to be divided horizontally into four.
+Each clan has a particular tree or shrub consecrated to it.
 Each day she became a more vital part of him.
 Each event object should have a date
 Each had been ragged on a subject of which he knew absolutely nothing.
@@ -9964,6 +9977,7 @@ Each nation is subdivided into a number of tribes or clans called totems.
 Each of its divisions must be let closely into others.
 Each of the men and boys had two extra weapons.
 Each of the three weapons is usually characterized by lateral projections.
+Each of them had care of the fire for a single night in turn.
 Each of them voted six times last election day.
 Each of these departments has a force of copy-readers.
 Each option should be given individual consideration.
@@ -10268,6 +10282,7 @@ Every Monday I have to catch the train into work
 Every October we celebrate Black History Month in the United Kingdom.
 Every artistic fibre in his body vibrated to the dramatic situation.
 Every author now looks after his mind.
+Every band should be lit by the unmarried daughter of a leader.
 Every bone in her aged body seemed broken or dislocated.
 Every boy must have his tutor.
 Every canal system needs its escapes.
@@ -10646,6 +10661,7 @@ Finish your dinner, and walk out with me.
 Fintech is short for Financial Technology.
 Fiona and Jamie were engaged to be married.
 Fiona is a Buddhist.
+Fire exists unseen in all wood, and is only elicited from it by friction.
 Fire seems to have played a foremost part in her ritual.
 Firefighters are heroes.
 Firefox is the best browser.
@@ -10857,6 +10873,7 @@ For himself, he frankly admitted that he did not.
 For himself, he had neither feeling nor reason.
 For his hand touched the bandage over her mouth — tentatively.
 For hours he talked to her, when she was well.
+For hours together they sit before it and talk with it.
 For how many, sir?
 For imposing Taxes on us without our Consent:
 For in the face of all aridity and disenchantment
@@ -12088,6 +12105,7 @@ He asked if he could borrow her umbrella for an hour or two
 He asked me for the introduction, and I gave it.
 He asked the travel agent whether she had a printed holiday brochure
 He asked to be excused
+He assumes the virtues of a pious layman obeying the moral law.
 He at once knocked off painting for the day.
 He ate and drank more noisily than he had need.
 He ate his supper discreetly.
@@ -13640,6 +13658,7 @@ He may be in the house now!
 He may be watching me now.
 He may desire to escape pain, or to enjoy pleasure.
 He may have been lovestruck, but he was no fool.
+He may have been worshiped first of all by older hill-folk.
 He may have lost, but he will always be the people's champ.
 He may have recalled mechanically the names of these stretches of water.
 He may have wept; it is certain that he prayed.
@@ -15761,6 +15780,7 @@ Her father took one for themselves once more.
 Her father was growing nervous, and could not understand her.
 Her father was to her the type of all men.
 Her father's feelings were quite distinct.
+Her father, or any other married man, twirled the vertical borer upon it.
 Her favorite Roman emperor is Hadrian due to his beard.
 Her feeling toward marriage has always been one of repugnance.
 Her feelings as she read were scarcely to be defined.
@@ -15806,6 +15826,7 @@ Her heart hardened; but then she stooped and took up her dish.
 Her heart was heavy now as it had never been.
 Her heavy arm lay negligently on the table.
 Her heavy, dun-coloured hair was coiled on top of her head.
+Her husband knocks two burning brands together so that the sparks fly out.
 Her husband was a miner.
 Her husband was blind, and she did laundry work.
 Her influence would have been enough.
@@ -22944,6 +22965,7 @@ Idea has been indifferently employed by modern philosophers
 Idealism led him to philosophic anarchy, and his family threw him off.
 Ideas always have some relation to our passional nature.
 Ideas are uncopyrightable.
+Ideas of the same primitive kind still linger among the French peasantry.
 Idiot that he had been, he had wrecked everything!
 Idle tales, you’ll say, and so say I.
 If Gabriella is bothering, I'll shake her.
@@ -23342,6 +23364,7 @@ In Goa, they speak in Konkani.
 In Gothic architecture quirks are abundantly used between mouldings.
 In Greece the homosexual impulse was recognized and idealized.
 In Greece the wheat is still ripe about that time.
+In Hindu temples sometimes a scaffolding is erected over a fire.
 In Holland, as in the East Indies, they can see ghosts.
 In Japanese tradition, the number four is often considered to be unlucky
 In Java the afterbirth is called the brother or sister of the infant.
@@ -23354,6 +23377,7 @@ In Muzaffarnagar, the remains were immersed respectfuly in Teerthnagari Shukrtal
 In New Caledonia, magic is blent with the worship of the dead.
 In Northwestern Queensland the blood may be drawn from any healthy man.
 In October Elena came out for a two weeks' visit.
+In Rome, the sacred fire was tended by unmarried women.
 In Shakespeare it is an occasional, but still manifest principle.
 In South Russia, A Jewish remedy for jaundice is to wear golden bracelets.
 In Spenser the didactic is a controlling principle.
@@ -23464,6 +23488,7 @@ In appearance there is nothing abnormal about him except an air of youth.
 In at least one copy, serpents twine around her lower arms.
 In back of them a dozen people had miraculously gathered.
 In black and white, of course — not like this.
+In both styles, they must rise in front more than at the back.
 In both the assertions there was some foundation of truth.
 In bracket stairs the internal angle of the steps is open to the end.
 In came Casper, thin, yellow, and in soiled khaki.
@@ -23482,6 +23507,7 @@ In due time a banquet was placed on the board.
 In each are two men holding hawks
 In each instance, they had been denied admission to schools.
 In early life he revealed no homosexual tendencies.
+In early society husband and wife desire nothing so much as offspring.
 In early society the king is frequently a magician as well as a priest.
 In essence, it will make our community an inviting place to live.
 In every quarter aeroplanes were receding.
@@ -23646,6 +23672,7 @@ In the Aztec mind, stone was symbolic of the atonement of sin.
 In the Black Forest ski boots are often made of dog or calf skin.
 In the Bohemian Club of San Francisco there are some crack sailors.
 In the Catholic it is different.
+In the Christian calendar, her festival falls the day before Candlemas.
 In the Council House they had been in darkness.
 In the Council or not.
 In the Middle Ages a similar form of adoption seems to have prevailed.
@@ -24883,6 +24910,7 @@ It is such an uncomfortable feeling to know one is a fool.
 It is such weary, weary work!
 It is supposed that the relationship is becoming closer and closer.
 It is supposed to benefit them sympathetically without direct contact.
+It is supposed to protect the reindeer from wolves and from sickness.
 It is sure to be crowded.
 It is the "Google Pixel Six A" phone with Graphene Operating System installed.
 It is the best you can do for everybody's sake.
@@ -25249,6 +25277,7 @@ It seems like madness!
 It seems like making a great disturbance about nothing particular.
 It seems people are living in a dream world.
 It seems probable that he was of bisexual temperament.
+It seems that you will keep a good watch over the herd.
 It seems to be constructed as a showcase for the rider.
 It seems to be my fate.
 It seems to me ridiculous.
@@ -27294,6 +27323,7 @@ King Charles the First was executed during the English Civil War
 King Richard was the overlord.
 King took every advantage he knew.
 King, if you wish.
+Kinglake rode through the great Serbian forest on his way from Belgrade to Constantinople.
 Kings are often expected to give rain and sunshine in due season.
 Kirsty didn’t like to mention it.
 Kirsty might be able to do it; she has just come off her break.
@@ -27682,6 +27712,7 @@ Lighter coloured roads make cooler cities.
 Lights sprang on with a click.
 Lightweight internationalization library
 Like Bounds, the woman prepared only breakfast.
+Like Minerva, Bridget was a goddess of poetry and wisdom.
 Like a bedspread.
 Like a fairy princess.
 Like a flash he launched himself into the feathered mass of the owl.
@@ -30243,6 +30274,7 @@ Not on your life.
 Not one had ever worked.
 Not one party, or scheme, or anything.
 Not one, upon my word.
+Not only sterner morals, but its quasi-religious claim, made it abominable.
 Not quite a dead halt, I think.
 Not quite so far, I hope?
 Not readily, sir.
@@ -31410,6 +31442,7 @@ One of the doors was broken.
 One of the favorite winter sports of the Canadians is snowshoeing.
 One of the instruments?
 One of the jurors had a pencil that squeaked.
+One of the maidens held the board of lucky wood on the ground.
 One of the marksmen knelt up.
 One of the men in our house is bad.
 One of the nicest I ever met.
@@ -31569,6 +31602,7 @@ OpenDnD is an open source project for beginners and seasoned players alike;
 Opening of Part Two.
 Operatic singers of the other sex are to be engaged.
 Opinion was greatly divided about his occupation.
+Opinions differ as to whether the fire-makers should be male or female.
 Opium is variously combined, besides, with other narcotics.
 Opposite to him — as far away as he could sit — was an enormous rat.
 Opposite, the wood heaped on the hill, green and still.
@@ -33578,6 +33612,7 @@ She caught Toto by the ear.
 She caught her by the neck and lifted her up.
 She caught his eye.
 She caught sight of another face.
+She caught the spark in a bundle of teased bark.
 She caught up the dress and tried again.
 She caught up with her before she reached the villa.
 She certainly did not hate him.
@@ -34827,6 +34862,7 @@ She uttered a bellow of rage.
 She uttered a little sound, half gasp, half cry.
 She utters a little sharp scream.
 She very rarely saw Miriam now.
+She waited for the spark to spring from the wood.
 She waited the result with impatience, but not without strong hopes.
 She waited, and she kept Paul near to her.
 She waited, wishing he would go.
@@ -35936,6 +35972,7 @@ Some even began to edge toward the pavilion.
 Some feel stimulus from looking at scarlet flowers.
 Some fool I'd never seen fired at random.
 Some friends of mine were serenaded by wolves while moose-hunting.
+Some have supposed that the events fit into the time of Ramses.
 Some horses revel in mud.
 Some immense but subtle change had come over our relations.
 Some individuals appear to lack energy.
@@ -36123,6 +36160,7 @@ Sometimes it is necessary to compel the ewes to admit the lambs.
 Sometimes lower motives concurred to whet the edge of the priest's hostility.
 Sometimes she praised his work; sometimes she was critical and cold.
 Sometimes she read a paper.
+Sometimes the Vestal virgins appear to have been the daughters of the king.
 Sometimes the best way to help someone is just listening to them.
 Sometimes the figure has the head of a pig or a goat.
 Sometimes the navel-string is deposited along with the placenta in the tree.
@@ -36468,6 +36506,7 @@ Such restraints are usual in the experiments of which I have read.
 Such roads I had never seen.
 Such sights as I saw, my dear!
 Such statements should not be lightly dismissed as late inventions of a rhetorical historian.
+Such sticks would be far too sacred to be thrown away.
 Such streams are often called continental rivers.
 Such tears in her eyes, and such love in her face.
 Such things do occur, undoubtedly.
@@ -37593,6 +37632,7 @@ The Castle grounds were very green and fresh.
 The Cat only grinned when it saw Alice.
 The Caterpillar was the first to speak.
 The Cathedral has a lovely interior.
+The Celtic Minerva, according to Caesar, was a goddess of the mechanical arts.
 The Celtic race is above all things temperamental.
 The Celts were expert metalworkers, in gold, silver and bronze.
 The Central government has taken this decision without consulting the states.
@@ -37896,6 +37936,8 @@ The Revolution accomplishes itself all over the world.
 The Revolutionary Collectivists have just met with a misadventure.
 The River Thames flows through Oxford, Reading and London.
 The Roman Church may be said to maximise, the Anglican to minimise.
+The Roman Vestals appear to have originally been the king's daughters.
+The Roman fire was fed with the wood of the sacred oak tree.
 The Roman turns pious opinions into necessary doctrines.
 The Roundabout, or more precisely the Cheshire-round, is danced by two only.
 The Ruble has lost thirty percent of its value.
@@ -37969,6 +38011,7 @@ The Venetian School is characterized by its lightness and elegance.
 The Venetian filigree consists of plain and colored enamel.
 The Venetian school is said to have neglected design a little too much.
 The Venetian swell is the only sort used in England.
+The Vestal fire at Rome was fed with the wood of the oak.
 The Victorian Commonwealth is the most wonderful picture on the face of the earth.
 The Victorian notion of empire.
 The Vienna Canning Company started out with thirteen stockholders and now has only three.
@@ -38096,6 +38139,7 @@ The amount of rain has decreased this year.
 The anaesthetist needs to apply a general anaesthetic before surgery.
 The analyst dissected the report and found some mistakes in the presented viewpoints.
 The analyst spent hours writing up a report of her findings.
+The ancestral sticks, whatever their origin, represent only men.
 The ancient Hindus performed an elaborate ceremony for the cure of jaundice.
 The ancient Scythian threw the seed of the Indian hemp on the hot stones.
 The ancient vanity was loud in his bosom.
@@ -38448,7 +38492,9 @@ The breaking off of flowers, etc., in dreams generally signifies masturbation
 The breast of her robe is decorated with two winged male figures.
 The breath was struck out of her body.
 The breathless solitude of night is bliss.
+The bride is escorted to a tree, which is thereupon cut down and burned.
 The bride is very happy, and therefore easier to please.
+The bride seats herself on a bag of fruit beside the hearth.
 The bride shuts her fly trap; the stranger complies.
 The bridge was so frail and shaky at the place of junction.
 The bright red flowers multiplied and covered the south bank.
@@ -38704,6 +38750,7 @@ The cities had still to devour them.
 The citron is an ancient and honorable citrus fruit.
 The city is located in the town, Sabin.
 The city is named for The Wishing.
+The city of David became the chief center of the Jewish religion.
 The city of the first.
 The city of the town is served by the town.
 The city was founded three centuries ago.
@@ -39237,6 +39284,7 @@ The duke of Bedford will stand as long as prescriptive law endures.
 The duke shed his coat and said he was all right, now.
 The duke turned to roulette, and sat down, and played fast, and lost largely.
 The dungeon was empty.
+The duty of making the sacred fire lay with the Vestal virgins.
 The duty which God requires of man, is obedience to his revealed will.
 The dwelling-place has become of less importance.
 The dynamics of the team changed when another senior manager joined.
@@ -39407,6 +39455,7 @@ The expression of her face seemed disturbed and anxious.
 The extension of the shell is entirely effected by the margin of the mantle.
 The external garage was left open all night.
 The external or facial surface forms the anterior part of the bone.
+The extinction of the fire was regarded as an evil omen.
 The extracted tooth was placed under the bark of a tree near a river.
 The extraction of a tooth might not really be the cause of the trouble.
 The extraction of gold is neither very laborious nor dangerous in Brazil.
@@ -39533,6 +39582,7 @@ The fire bell?
 The fire crackled and danced, and something sizzled.
 The fire hydrant sprang a leak.
 The fire of the sun is dying.
+The fire was made by an old woman and an old man.
 The fire was too small to please him.
 The firelight flurried up on the hearth.
 The fireworks wowed the crowd.
@@ -39756,6 +39806,7 @@ The girl shook her head again, gently but decisively.
 The girl smiles.
 The girl stiffened as if from a blow.
 The girl stood, dark-haired, glad to see him.
+The girl took the piece of soft wood and held it on the ground.
 The girl was passing near.
 The girl was romantic in her soul.
 The girl's face flushed rosily.
@@ -39788,6 +39839,7 @@ The goaded housemaster turned on him.
 The goal is a readable and accurate translation of Scripture.
 The goalkeeper should run forward so as to attempt to tackle him.
 The goblin disappeared in an instant.
+The god of the strongest clan would eventually become the strongest god.
 The gold became a diaphanous, glittering globe.
 The gold halos on the east wall might stand out too distinctly.
 The gold slid in a bright stream over the paper.
@@ -39834,6 +39886,7 @@ The great wall of China is long and high.
 The greater and the wins are found in both areas.
 The greatest exertions are required to secure the crop.
 The greatest minds in machine learning still take inspiration from the human brain.
+The greatest of the other gods were two known to the Babylonians.
 The greatest rocks must in time be subdued.
 The greatest stunt among college students is to make fudge.
 The green and red lights of the launches glided backwards and forwards.
@@ -39947,6 +40000,7 @@ The heraldic figures are applied in white cloth.
 The heroine had five lovers.
 The hides are next suspended in rockers.
 The high chimney-stacks telegraph family secrets to him.
+The high priest was the supreme ruler in all matters spiritual and secular.
 The high road passed close to the establishment.
 The high tide must somewhat dampen the poor departed.
 The higher the leap the taller the flax will be that year.
@@ -40505,6 +40559,7 @@ The majority of the experiments fail.
 The majority of the human body consists of water.
 The majority of victims are poor, Black and brown.
 The majority, consequently, are easily handled.
+The male fire-stick is generally made from the ancestral tree.
 The male relatives always take charge of a brother's children.
 The males were armed with spears, clubs, and the boomerang.
 The mammoth sequoias rose to their enormous proportions.
@@ -40599,6 +40654,7 @@ The material is non-porous.
 The material is porous.
 The material may tear if tugged excessively.
 The material was interwoven.
+The maternal aspect of the fire was represented by Mother Vesta.
 The maternal tigress in her will awake.
 The matron of the asylum made them for me.
 The matter eventually worked itself out with unhoped-for romance.
@@ -40927,6 +40983,7 @@ The note is the lowest that the pipe can give.
 The note of appeal in his voice was loud.
 The note was immediately dispatched, and its contents as quickly complied with.
 The noticeboard had swung round overnight, and now hung askew.
+The notion of the fire-mother was intimately associated with the female fire-stick.
 The novice actor was overly dramatic.
 The number of stones used to foster its growth is correspondingly great.
 The number of the bodyguard was not long confined to fifty.
@@ -41067,6 +41124,7 @@ The other cast a glance towards Moffat.
 The other cousins soon disperse.
 The other did not look seventeen.
 The other felt a sudden wave of irritation rush through him.
+The other fireboards are brought to the same place.
 The other girl took a few steps backward.
 The other girl was obviously a more subtle personality.
 The other governor control is known as the accelerator.
@@ -41190,6 +41248,7 @@ The patients will be brought for treatment by air ambulances.
 The patina and chalice were taken from his hands.
 The patina was flat, and held soup.
 The patroon humored his boat nearer in than was perhaps wholly safe.
+The patterns may also be cut straight without the swelling sides.
 The pause was to Elizabeth's feelings dreadful.
 The pavilion of the ear is seated behind the cheeks.
 The pavilions as we generally represent them are round at the top.
@@ -41335,6 +41394,7 @@ The poet reflected on his words.
 The poets are fond of personalizing both physical and moral qualities.
 The point doesn't arise at all.
 The point went big.
+The points of similarity between the two will now be indicated.
 The poles are called electrodes, the pole being the cathode.
 The poles were connected by charcoal so as to make an arc.
 The police are in possession.
@@ -41351,6 +41411,7 @@ The poliovirus has been eliminated in the wild.
 The politician had a reputation for buffoonery.
 The politics of Fox had their attraction for this idealist.
 The pond was deep under a hedge and overhanging oak trees.
+The pontiff inserted the point of a peg into the hole of the board.
 The pool was little more than a small watering hole.
 The poor almost live upon the dreadful piranha.
 The poor and hard-working are subject to mental upset.
@@ -42093,7 +42154,9 @@ The steeple-chaser was too much for him.
 The steps to recreate this are
 The steward graciously knocked off seventy-five per cent.
 The steward has just tendered me a respectful bit of advice.
+The stick would be an appropriate emblem of the deceased.
 The stickiness of the food would clog the passage of the boat.
+The sticks are kept in the house of the great wife.
 The still-condenser is generally of the worm-tub form.
 The stitching needs to be strengthened around the arms.
 The stock image was an absolute failure.
@@ -42281,6 +42344,7 @@ The termites are tropical or subtropical in habitat.
 The terms of cashiering and misconduct may be thought-provoking.
 The terms of defeat or victory were called sacking and bogging.
 The tete-a-tete surprised them.
+The theory and practice of the Basutos in South Africa were similar.
 The theory so calmly enunciated took his breath away.
 The thermal and the magnetic equators are connected.
 The thermal conductivity of the substance is not generally the same.
@@ -42490,6 +42554,7 @@ The two countries share a commitment to individual freedom, human rights, and de
 The two cultures thrived through understanding and co-operation.
 The two discoverers stare at them, who return the compliment.
 The two doors faced each other.
+The two fire-makers sit down facing each other at either end.
 The two freaks were retired into private life for purposes of refreshmen
 The two friends rise and look at one another.
 The two girls receded into a shadowy background, unperceived, unmissed.
@@ -42800,6 +42865,7 @@ The wolf-dog thrust his gaunt muzzle toward him.
 The wolves chased the cattle.
 The woman and her children were almost his disciples.
 The woman beckons her, with an appearance of interest.
+The woman drinks the water which has been fertilized by the fire.
 The woman herself is not the least item in his difficulty.
 The woman in the navy blue beret was running away.
 The woman in you is only incidental, accidental, and irrelevant.
@@ -43774,6 +43840,7 @@ There is a tendency toward the more elevated forms of homosexual feeling.
 There is a terrible draught in this room
 There is a terrible sickness among the monkeys out there.
 There is a very ancient division of hemorrhage drawn.
+There is a very widespread reluctance to spill royal blood.
 There is a violent pulsating pain, with a vehement heat in the back.
 There is a virtue even in striving unyieldingly.
 There is a wealth of myth to be unmistakably traced to astronomical reckonings.
@@ -44299,6 +44366,7 @@ There were also yatras that went through districts in Haryana.
 There were at high risk for eight of them.
 There were beds in every room in this house.
 There were bellows to mend in the Birch camp.
+There were continual wars and attempts to drive them out.
 There were dark faces with fierce mustaches and glittering eyes.
 There were eight crowded in one old seaside carriage.
 There were eight of these flamethrowers brought against the Sussex lads.
@@ -44680,6 +44748,7 @@ These momentary optical delusions are, I fancy, not uncommon.
 These moments are always difficult.
 These mortars and press boxes constitute what are called Dutch mills.
 These mud-larks bear generally a bad character.
+These mythical beings were represented in real life by a priest and a priestess.
 These nefarious practices are no new thing in the Chinese empire.
 These new rifles are only shallow, superficial imitations.
 These nuts are collected by the natives.
@@ -44709,6 +44778,7 @@ These rings were parcelled with canvas.
 These rollers delivered the cotton to a pair of nippers.
 These rose and fell, one after the other.
 These rumors may even originate with us.
+These sacred fireboards are often handed down from generation to generation.
 These several colonies fed on the spontaneous fruits of the earth.
 These shouting thousands beyond the little doorway had rescued him.
 These silly little horses are no good.
@@ -44776,6 +44846,7 @@ They all went into the house, and left me feeling a precious idiot.
 They all went out into the hall.
 They also fast much, eat no salt, and are bound to strict continence.
 They also sold sugar, and snuff.
+They always found the fire still burning and the usual quantity of fuel consumed.
 They always lump the petty officers and common seamen.
 They always made us do that at the asylum.
 They always preserve the form of very bloated pigs.
@@ -44803,6 +44874,7 @@ They are born, they are thwarted and they die.
 They are caged up with all the others.
 They are clamouring to see you.
 They are coming ashore, whoever they are.
+They are cut in two pieces, one for each side.
 They are documented in a charter of confirmation
 They are doing a great work in their own fashion.
 They are downstairs looking for things to steal.
@@ -44813,6 +44885,7 @@ They are full of energy which is merely dormant.
 They are full of plagiarisms, inappropriately borrowed.
 They are funny, but not uncommon.
 They are given a notoriety, a public exhibition in the limelight.
+They are gods of the wind, the cloud, and the storm.
 They are going out to supper now.
 They are going to defer taking a decision until the next meeting.
 They are gone off together from Brighton.
@@ -44861,7 +44934,9 @@ They are slowly getting into this vaccination drive.
 They are some of my very old friends.
 They are sometimes called Chinese flyers.
 They are still accepting people.
+They are still kept as holy relics in a shrine near the door.
 They are still only at the sub stage.
+They are taken from their bag and placed behind the frame.
 They are talking of a Commune.
 They are the brains behind some of the greatest programs on offer!
 They are the elect to whom beautiful things mean only beauty.
@@ -44913,6 +44988,7 @@ They both thought it worthwhile to take first aid courses.
 They both used to play squash when they were younger.
 They bought some handkerchiefs in a notion store near by.
 They bought the Salvation Army and reconstructed it as this.
+They bring her a small boy and set him on her lap.
 They broke up the pudding, the lobsters, the pears, and the oranges.
 They bundle stuff you don't need
 They burned well, and presently the rest followed.
@@ -44936,6 +45012,7 @@ They can sit at their ease and gape at the play.
 They cannot see a thing unless it be in a mist.
 They carried him along on this improvised chair.
 They carried the water in pitchers on their heads.
+They caused the forced fire to be made by two chaste boys.
 They certainly are changed now.
 They certainly gave us a slick time.
 They certainly had a very soporific effect upon the Flopsy Bunnies!
@@ -45046,6 +45123,7 @@ They edged nearer, and stood shoulder to shoulder facing their world.
 They endeavor to procure omens from kites.
 They enjoyed the shops immensely.
 They entered the Nelson with the satisfaction of returned travellers.
+They entrust the duty of making the fire to a boy and girl.
 They escape now and then from travelling shows.
 They escape the class of phenomena grouped as reminders.
 They eventually succeeded after five failed attempts
@@ -45141,6 +45219,7 @@ They had seen my advertisement about Celia in the Geneva paper.
 They had some chocolates on the table.
 They had sung together once or twice, it appeared, at Weymouth.
 They had taken the lead.
+They had to be chaste, because otherwise they could not light the fire.
 They had to expel him.
 They had to look all over the place for the hat.
 They had to wait a long time before the soldier returned.
@@ -45685,6 +45764,7 @@ They were to have tea in the hayfield.
 They were together, rigid, stubborn, silent.
 They were too much absorbed in their mutual joy to suffer embarrassment.
 They were totally unacquainted with country dances.
+They were treated with marks of respect usually accorded to royalty.
 They were two cushions, both indented, and indented in different ways.
 They were very loud indeed, but seemed quite natural.
 They were very near to each other.
@@ -45856,6 +45936,7 @@ This Fifth Avenue Chesterfield married at twenty-two.
 This Fox, it seemed, was a person of importance.
 This Friday is my last day of work.
 This Golden Cap had a charm.
+This Greek ceremony may perhaps be regarded as merely a purification.
 This I had never thought of.
 This I have named the neuron.
 This Otorhinolaryngologist treated my hearing problems.
@@ -46024,6 +46105,7 @@ This fruit is native to the region.
 This gateway will give trade people access to wholesale prices.
 This gentleman gave me my first certificate to teach.
 This gentleman is his very particular friend.
+This girl was the daughter of the man who served the troop as leader.
 This gives insight into the database state
 This goes straight back to the house!
 This graduation certificate symbolizes the years of hard work I put in.
@@ -46352,6 +46434,7 @@ This man is our only safe medium.
 This manner of looking has existed no where that I know of.
 This manner of parliamentary procedure was declared against at the revolution.
 This man’s was different: soft, non-intellectual, warm, a kind of gambolling.
+This may be the benefit for which the Estonian bride repays the tree.
 This may change in future
 This may end badly.
 This may vary based on gender
@@ -46465,6 +46548,7 @@ This room, at all events, was not empty.
 This rot of being engaged to Gussie.
 This rule of succession by the sword was observed down to imperial times.
 This sauce requires to be rather thick, to mask the fish.
+This saying was communicated to me by Miss Mabel Peacock.
 This scheme exhibits a progressive development.
 This scripture text has thirty Verses.
 This section describes the dev and production architecture of the app.
@@ -46506,6 +46590,7 @@ This story furnishes a sufficiently good ground for the use of the term.
 This story is an example of why you should use your head.
 This structure has stood for decades.
 This style is the last word of fashion.
+This style of house is characteristic of all British Central Africa.
 This style of painting is intended to be light and sketchy.
 This supermarket never has avocados.
 This supermarket sells shoes, food, nappies, car parts... the works!.
@@ -46518,6 +46603,7 @@ This tall man, Tom, is a rascally adventurer.
 This tech has the potential to change lives.
 This test applies to every supposition.
 This the Iron Heel foresaw and laid its schemes accordingly.
+This theory does not explain why the race took place around the hearth.
 This thick-voiced, oblivious man was a stranger to her.
 This thing was too much.
 This thing will be a blot on the Twentieth Century!
@@ -46785,6 +46871,7 @@ Thump, thump, thump, went his foot on the floor.
 Thunder won't hurt you, it's the lightning that'll get you.
 Thus does this base interloper caption himself.
 Thus ended Mrs. Dean’s story.
+Thus far we have regarded mainly the paternal aspect of the fire.
 Thus had the raw wilderness prepared him for this day.
 Thus he dipped gradually into a stupor, from exhaustion and intoxication.
 Thus he turned the tenets and jargon of psychology back on me.
@@ -47354,6 +47441,7 @@ Two of his pictures were in this year's Salon.
 Two of the Folk were already up.
 Two of the supports had slipped.
 Two people that we know going to be married.
+Two perfectly dry cylindrical pieces of wood are given to them.
 Two plump thrushes had blundered into it.
 Two sailors say he worked the ‘con’ game on them.
 Two spring plowings and pulverizations are desirable on the heavier soils.
@@ -50633,6 +50721,7 @@ When she again goes home to Westwood Park she nags and frets Sir John.
 When she alighted he quite jumped.
 When she came to herself she was tired for sleep.
 When she came, there happened to be a great slop on the table.
+When she comes back, the crops are as high as the walls.
 When she felt the vegetables she became very, very angry.
 When she finished there were bursts of honest applause.
 When she fretted he understood, and could have no peace.
@@ -50673,6 +50762,7 @@ When the time came for me to leave school I rather dreaded it.
 When the young birds are flown we must snuggle down in the empty nest.
 When their investments failed, Sophie and Bill lost nearly half a million pounds
 When there’s a war, they are leaders and commanders.
+When they are joined at the top, this part will stand out prominently.
 When they are shut into the back room, they speak low.
 When they came out his train was due.
 When they came to the light, he let go her hand.
