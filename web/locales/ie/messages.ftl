@@ -167,22 +167,48 @@ why-profile-title = Pro quo crear un profil?
 avatar = Avatar
 goals = Scopes
 settings = Parametres
+edit-profile = Modificar li profil
+profile-create-success = Li profil creat successosimen!
 profile-close = Cluder
+why-demographic = Pro quo to es important?
+edit = Modificar
+email-subscriptions = Abonnament per e-post
+download-profile = Descargar mi data
+off = No
+on = Yes
 
 ## Profile - Email
 
+browse-file-title = Cargar un file de image
+browse-file = Fa cader o <browseWrap>Trova</browseWrap>
+file_too_large = Li selectet file es tro grand
+avatar-uploaded = Avatar sta cargat
+max-file-size = { $kb }ko max
+remove-avatar = Remover li avatar
 
 ## Profile - Email
 
+manage-subscriptions = Gerer abonnamentes
+add-language = Adjunter un lingue
 
 ## FAQ
 
+faq-why-important-q = Pro quo to es important?
+faq-what-is-cv = Quo es Common Voice?
+faq-using-cv = Qualmen usar Common Voice
+faq-search-for-answers =
+    .label = Sercha por respondes
 
 ## ABOUT US
 
 
 ## How does it work section
 
+about-localization-title = Localisation del website
+about-sentence-collection-title = Colection de frases
+about-voice-contrib-title = Contribution de voce
+about-voice-validation-title = Validation de voce
+about-stay-in-touch-button = Inregistrar se
 about-nav-why-common-voice = Pro quo?
 about-nav-how-it-works = Qualmen?
 about-nav-partners = Parteneros
@@ -194,18 +220,24 @@ about-nav-get-involved = Colaborar
 
 ## How do I add a language
 
+about-playbook-how-add-language = Qualmen yo posse adjunter un lingue?
+about-playbook-how-add-language-translating-heading = Traducter li site
+about-playbook-how-add-language-collecting-sentences-heading = Colecter frases
 
 ## How does localization work
 
 
 ## How to add sentences
 
+about-playbook-how-add-sentences = Qualmen yo posse adjunter frases?
 
 ## How to record quality
 
 
 ## How to grow language
 
+about-playbook-how-grow-language-content-2 = Evenimentes
+about-playbook-how-grow-language-content-4 = Social medies
 
 ## How to validate
 
@@ -218,12 +250,24 @@ about-nav-get-involved = Colaborar
 
 ## Glossary
 
+glossary = Glossarium
+localization = Localisation
+sst = Parlada-a-textu (STT)
 
 ## Error pages
 
+error-code = Errore { $code }
 
 ## Data
 
+data-download-yes = Yes
+data-download-deny = No
+data-download-license = Licentie: <licenseLink>CC-0</licenseLink>
+data-other-goto = Ear a { $name }
+data-other-download = Descargar li data
+release-version = Version
+dataset-date = Date
+license = Licentie: <licenseLink>{ $license }</licenseLink>
 
 ## Datasets Page
 
