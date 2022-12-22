@@ -37,36 +37,61 @@ pl = Polonese
 ru = Russ
 sk = Slovac
 sv-SE = Svedese
+zh-CN = Chinese (China)
 
 # [/]
 
 
 ## Layout
 
+speak = Parlar
+speak-now = Parla nu
 languages = Lingues
 about = Pri
 profile = Profil
 help = Auxilie
 terms = Termines
 link-copied = Ligament sta copiat
+logout = Cluder li session
 
 ## Home Page
 
 show-wall-of-text = Leer plu
+help-us-title = Assiste nos validar frases!
 vote-yes = Yes
 vote-no = No
 speak-subtitle = Donar vor voce
+listen-subtitle = Assiste nos validar voces
 hours-recorded = Hores registrat
 hours-validated = Hores validat
 todays-progress = Progresse de hodie
 help-reach-goal = Assiste nos atinger { $goal }
+read-terms-q = Esque vu ha leet nor Termines?
+all-locales = Omni
 today = Hodie
+x-weeks-short =
+    { $count ->
+        [one] Semane
+       *[other] { $count } sem
+    }
+x-months-short =
+    { $count ->
+        [one] { "" }
+       *[other] { $count } men
+    }
+x-years-short =
+    { $count ->
+        [one] { "" }
+       *[other] { $count } a
+    }
 
 ## Account Benefits
 
+benefits = Avantages
 
 ## What's public
 
+whats-public = Quo es public?
 
 ## Speak & Listen Shortcuts
 
@@ -97,21 +122,51 @@ request-language-button = Demandar un lingue
 
 ## ProjectStatus
 
+status-contribute = Contribuer vor voce
+status-hours =
+    { $hours ->
+        [one] Un hor validat til nu!
+       *[other] { $hours } hores validat til nu!
+    }
+# Variables:
+# $goal - number of hours representing the next goal
+status-goal = Sequent scope: { $goal }
+english = Anglese
 
 ## ProfileForm
 
+profile-form-username =
+    .label = Nómine de usator
+profile-form-native-language =
+    .label = Nativ lingue
+profile-form-additional-language =
+    .label = Extra lingues
+profile-form-language =
+    .label = Lingue
+profile-form-variant =
+    .label = Quel variante de(l) { $language } vu parla?
+profile-form-variant-default-value = Null variante selectet
+profile-form-accent =
+    .label = Accentu
 profile-form-age =
     .label = Etá
 profile-form-gender-2 =
     .label = Génere
 hidden = Celat
 visible = Visibil
+native-language =
+    .label = Nativ lingue
+profile-form-add-accent = Adjunter un nov personal accentu «{ $inputValue }»
 profile-form-submit-save = Gardar
 profile-form-submit-saved = Gardat
 male = Masculin
 female = Feminin
 # Gender
 other = Altri
+why-profile-title = Pro quo crear un profil?
+avatar = Avatar
+goals = Scopes
+settings = Parametres
 profile-close = Cluder
 
 ## Profile - Email
