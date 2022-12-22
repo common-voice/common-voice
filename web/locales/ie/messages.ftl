@@ -4,6 +4,7 @@ return-to-cv = Retornar a Common Voice
 email-input =
     .label = E-post
 submit-form-action = Inviar
+banner-error-slow-link = Págine de statu
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -13,13 +14,26 @@ submit-form-action = Inviar
 
 ca = Catalan
 cs = Tchec
+cy = Wallese
 de = German
 el = Grec
 en = Anglese
 eo = Esperanto
 es = Hispan
+et = Estonian
+fr = Francese
+ga-IE = Irlandese
+he = Hebreic
+hu = Hungarian
 ia = Interlingua
+ie = Interlingue
+it = Italian
 ja = Japanese
+mhr = Prat-mari
+mrj = Colin-mari
+mt = Maltese
+nl = Holandese
+pl = Polonese
 ru = Russ
 sk = Slovac
 sv-SE = Svedese
@@ -111,10 +125,41 @@ profile-close = Cluder
 
 ## ABOUT US
 
+
+## How does it work section
+
 about-nav-why-common-voice = Pro quo?
 about-nav-how-it-works = Qualmen?
 about-nav-partners = Parteneros
 about-nav-get-involved = Colaborar
+
+## Community Playbook Content
+## What is a language
+
+
+## How do I add a language
+
+
+## How does localization work
+
+
+## How to add sentences
+
+
+## How to record quality
+
+
+## How to grow language
+
+
+## How to validate
+
+
+## How to access dataset
+
+
+## How are decisions made
+
 
 ## Glossary
 
@@ -135,6 +180,9 @@ about-nav-get-involved = Colaborar
 
 
 ## Request Language Modal
+
+
+## Request Language Pages
 
 
 ## Languages Overview
@@ -158,6 +206,9 @@ about-nav-get-involved = Colaborar
 ## Profile Delete
 
 
+## Profile Download
+
+
 ## Landing
 
 
@@ -177,4 +228,60 @@ about-nav-get-involved = Colaborar
 
 
 ## Validation criteria
+
+
+# Don't rename the following section, its contents are auto-inserted based on the name. These strings are
+# automatically exported from Sentence Collector.
+# [SentenceCollector]
+
+
+## HEADER/FOOTER
+
+
+## HOME
+
+
+## GENERAL
+
+
+## HOW-TO
+
+
+## MY SENTENCES
+
+
+## REJECTED
+
+
+## STATS
+
+
+## ADD
+
+
+## ADD LANGUAGE
+
+
+## ADD SENTENCES CONFIRMATION
+
+
+## LANGUAGE INFO
+
+
+## LOGIN
+
+
+## PROFILE
+
+
+## REVIEW CRITERIA
+
+
+## REVIEW
+
+
+## SETTINGS
+
+
+# [/SentenceCollector]
 
