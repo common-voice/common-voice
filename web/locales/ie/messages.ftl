@@ -4,6 +4,8 @@ return-to-cv = Retornar a Common Voice
 email-input =
     .label = E-post
 submit-form-action = Inviar
+loading = Cargante…
+indicates-required = Campes marcat con asterisco (*) es besonat.
 banner-error-slow-link = Págine de statu
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
@@ -33,9 +35,11 @@ mhr = Prat-mari
 mrj = Colin-mari
 mt = Maltese
 nl = Holandese
+nr = IsiNdebele (sud)
 pl = Polonese
 ru = Russ
 sk = Slovac
+so = Somalian
 sv-SE = Svedese
 zh-CN = Chinese (China)
 
@@ -51,6 +55,7 @@ about = Pri
 profile = Profil
 help = Auxilie
 terms = Termines
+cookies = Cookies
 link-copied = Ligament sta copiat
 logout = Cluder li session
 
