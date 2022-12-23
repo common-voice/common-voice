@@ -1185,6 +1185,7 @@ contribution-misreadings-example-8-title = bumblebee ໄດ້ sped ໂດຍ.
 contribution-misreadings-example-8-explanation = [ເນື້ອໃນບໍ່ກົງກັນ]
 contribution-varying-pronunciations-title = ການອອກສຽງທີ່ແຕກຕ່າງກັນ
 contribution-varying-pronunciations-description = ຈົ່ງລະມັດລະວັງກ່ອນທີ່ຈະປະຕິເສດຄລິບທີ່ຜູ້ອ່ານໄດ້ອອກສຽງຜິດ, ເຮັດໃຫ້ເກີດຄວາມກົດດັນໃນບ່ອນທີ່ບໍ່ຖືກຕ້ອງ, ຫຼືເບິ່ງຄືວ່າບໍ່ສົນໃຈເຄື່ອງຫມາຍຄໍາຖາມ. ມີ​ການ​ອອກ​ສຽງ​ທີ່​ຫຼາກ​ຫຼາຍ​ໃນ​ການ​ນໍາ​ໃຊ້​ໃນ​ທົ່ວ​ໂລກ​, ບາງ​ສ່ວນ​ທີ່​ທ່ານ​ອາດ​ຈະ​ບໍ່​ໄດ້​ຍິນ​ໃນ​ຊຸມ​ຊົນ​ທ້ອງ​ຖິ່ນ​ຂອງ​ທ່ານ​. ກະລຸນາໃຫ້ຂອບຄຳຂອບໃຈສຳລັບຜູ້ທີ່ອາດຈະເວົ້າຕ່າງຈາກເຈົ້າ.
+contribution-varying-pronunciations-description-extended = ໃນທາງກົງກັນຂ້າມ, ຖ້າທ່ານຄິດວ່າຜູ້ອ່ານອາດຈະບໍ່ເຄີຍພົບຄໍານີ້ມາກ່ອນ, ແລະພຽງແຕ່ຄາດເດົາການອອກສຽງທີ່ບໍ່ຖືກຕ້ອງ, ກະລຸນາປະຕິເສດ. ຖ້າທ່ານບໍ່ແນ່ໃຈ, ໃຫ້ໃຊ້ປຸ່ມຂ້າມ.
 contribution-varying-pronunciations-example-1-title = ຢູ່ເທິງຫົວຂອງລາວ, ລາວນຸ່ງເສື້ອ beret.
 contribution-varying-pronunciations-example-1-explanation = ['Beret' ແມ່ນ OK ບໍ່​ວ່າ​ຈະ​ມີ​ຄວາມ​ກົດ​ດັນ​ກ່ຽວ​ກັບ​ພະ​ຍາ​ງ​ທໍາ​ອິດ (UK) ຫຼື​ຄັ້ງ​ທີ​ສອງ (US)]
 contribution-varying-pronunciations-example-2-title = ມືຂອງລາວຖືກຍົກຂຶ້ນ.
@@ -1234,6 +1235,7 @@ sc-logout-button = ອອກ​ຈາກ​ລະ​ບົບ
 ## HOME
 
 sc-home-title = ຍິນດີຕ້ອນຮັບສູ່ເຄື່ອງມືຮວບຮວມປະໂຫຍກ Common Voice
+sc-home-intro = ຕົວເກັບກຳປະໂຫຍກເປັນສ່ວນໜຶ່ງຂອງ <commonVoiceLink>Common Voice</commonVoiceLink>. ມັນອະນຸຍາດໃຫ້ຜູ້ປະກອບສ່ວນເກັບກໍາແລະກວດສອບປະໂຫຍກທີ່ສ້າງໂດຍຊຸມຊົນ. ທ່ານສາມາດນໍາໃຊ້ເຄື່ອງມືນີ້ເພື່ອນໍາເຂົ້າແລະເຮັດຄວາມສະອາດ corpus ໂດເມນສາທາລະນະຂະຫນາດນ້ອຍເຖິງຂະຫນາດກາງທີ່ທ່ານໄດ້ພົບເຫັນຫຼືເກັບກໍາ. ປະໂຫຍກທັງໝົດຕ້ອງເປັນໂດເມນສາທາລະນະ. ປະໂຫຍກທີ່ໄດ້ຮັບການອະນຸມັດແມ່ນຖືກສົ່ງອອກທຸກໆອາທິດໄປຫາບ່ອນເກັບຂໍ້ມູນ Common Voice ແລະຖືກປ່ອຍອອກມາໃນເວັບໄຊທ໌ Common Voice ໃນທຸກໆການນໍາໃຊ້ໃຫມ່.
 sc-home-collect-title = ລວບລວມປະໂຫຍກ
 sc-home-collect-text = ຊ່ວຍພວກເຮົາໂດຍການຂຽນຫຼືລວບລວມປະໂຫຍກສາທາລະນະໂດເມນ.
 sc-home-review-title = ທົບທວນປະໂຫຍກ
