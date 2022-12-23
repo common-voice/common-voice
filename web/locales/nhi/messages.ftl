@@ -48,15 +48,22 @@ join-newsletter = nuhual huilis timu nilos ichin tu tlahcuilol correo electronic
 
 ## Speak Shortcuts
 
+request-language-text = ¿Ayamo ti cahsi mu tlahtol ich Common Voice?
+request-language-button = xictlahtlani mu tlahtol
 
 ## ProjectStatus
 
+status-contribute = xitechpalehui ica mu tlahtol
 
 ## ProfileForm
 
+profile-form-submit-saved = ahcuctoc
+male = tlakatl
+female = sihuatl
 
 ## Profile - Email
 
+file_too_large = tlahcuilol tlen utic nexte simi hueyi
 
 ## Profile - Email
 
