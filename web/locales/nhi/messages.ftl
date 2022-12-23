@@ -4,6 +4,7 @@ yes-receive-emails = Quemah, xinechimualtitlani correos. Onicniquisquiaya nicmat
 email-input =
     .label = Correo
 submit-form-action = Xictitlani
+error-something-went-wrong = Xitechtlapohpolui, amo oquis cuali.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
