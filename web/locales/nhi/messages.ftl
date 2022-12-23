@@ -21,9 +21,13 @@ error-something-went-wrong = Xitechtlapohpolui, amo oquis cuali.
 help = xinechpalehui
 privacy = ichtaca
 share-title = ¡xitechpalehui matiehcuca a cachi masehual aquihquen qui niquisqueh qui tetlaculisqueh in tlahtol!
+share-text = xitechpalehui tiquinnextilisque tiposmeh quenin tlahtuhuan masehualmeh, xictetlaoculi mu tlahtol ichin { $link }
+back-top = ximocuipa campa pehua
 
 ## Home Page
 
+home-title = tiquitl common Voice se pehualis de Mozilla ika sequin nextilis quenin monextilisqueh tiposmeh quenin tlahtuhuan masehualmeh
+wall-of-text-start = tlahtol isqui milahuak, tlahtol isqui masehual. Icanun se pactoc sek chihuas se tipostl tlahtol para tu maquinas. Axan para sec chihuas se tiquitl tlahtol, se puhuali simi hueyi ika nextililtlahtol muniqui
 
 ## Account Benefits
 
