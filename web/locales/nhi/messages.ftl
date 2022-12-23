@@ -28,6 +28,7 @@ back-top = ximocuipa campa pehua
 
 home-title = tiquitl common Voice se pehualis de Mozilla ika sequin nextilis quenin monextilisqueh tiposmeh quenin tlahtuhuan masehualmeh
 wall-of-text-start = tlahtol isqui milahuak, tlahtol isqui masehual. Icanun se pactoc sek chihuas se tipostl tlahtol para tu maquinas. Axan para sec chihuas se tiquitl tlahtol, se puhuali simi hueyi ika nextililtlahtol muniqui
+wall-of-text-more-desktop = axcan huilis tik tetlaculis mu tlahtol ika ti tech palehuis tic chihuaskeh se ikxitlanahuatil ika tlahtol ichtaca tlapuhtok aquinyihuili huili quicuis ika qui chihchihuas aplicaciones yankuic para tipusmeh huan web.<lineBreak></lineBreak>xiquita se tlahcuilol ika niquin palehuis mu nextilican tiposmeh quenin tlahtuhuan masehualmeh.xiquita tiquitl de ocsiquen tlapalehuaneh ika sek yectlalis tiquitl. ¡auhcon amosimi uhue!
 
 ## Account Benefits
 
