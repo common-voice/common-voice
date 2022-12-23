@@ -18,6 +18,9 @@ error-something-went-wrong = Xitechtlapohpolui, amo oquis cuali.
 
 ## Layout
 
+help = xinechpalehui
+privacy = ichtaca
+share-title = ¡xitechpalehui matiehcuca a cachi masehual aquihquen qui niquisqueh qui tetlaculisqueh in tlahtol!
 
 ## Home Page
 
