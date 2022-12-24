@@ -40,6 +40,7 @@ vote-no = amo
 toggle-play-tooltip = xipacho { shortcut-play-toggle } para sec xotlaltis mu pehua
 speak-subtitle = xitetlaoculi mu tlahtol
 listen-subtitle = xitechpalehui matic silicah tlahtulmeh
+voices-online = tlahtulmeh tlen axa catqui  en lìnea
 todays-progress = nimilis de axan
 help-reach-goal = xitechpalehui matic chihuacan
 ready-to-record = ¿yiticah cuali para tic tetlauculis mu tlahtol?
