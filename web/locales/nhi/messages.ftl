@@ -42,7 +42,9 @@ speak-subtitle = xitetlaoculi mu tlahtol
 listen-subtitle = xitechpalehui matic silicah tlahtulmeh
 todays-progress = nimilis de axan
 help-reach-goal = xitechpalehui matic chihuacan
+ready-to-record = ¿yiticah cuali para tic tetlauculis mu tlahtol?
 all-locales = Nochi
+today = Axan
 
 ## Account Benefits
 
