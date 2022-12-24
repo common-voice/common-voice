@@ -33,6 +33,7 @@ wall-of-text-first = tlahtol yeh milahuac, tlahtol yeh masehual. Icanun ti pactu
 wall-of-text-second = miakeh tlanahuatilmeh tlen mucueh por huehueyeh tiquimeh amo  catqui tlapuhtoc para nuchten masehualmeh. usecnimile nin quitzacuilia tutlanimilil. Icanun usec titlan Common Voice, se tiquitl para tic palehuisqueh moc chihchihuacah que ixmatilistlahtol mui tlapuhtoc huan mucahsicah nuchteh
 show-wall-of-text = ximomachti cachi
 help-us-title = xitechpalehui matiquitacah tlahtol
+help-us-explain = xicpacho mupehua, xicaqui huan techilhuis: ¿ ukihtuhke cuali tlahtol tlen achto?
 todays-progress = nimilis de axan
 help-reach-goal = xitechpalehui matic chihuacan
 all-locales = Nochi
