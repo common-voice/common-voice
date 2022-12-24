@@ -1430,6 +1430,7 @@ partnerships-our-partners = ساݙے بھائیوال
 why-donate = تساں کیوں پچھدے پئے ہو؟
 add-information-button = معلومات شامل کرو
 continue-speaking-button = کائناں شکریہ، ٻولݨ جاری رکھو
+create-profile-text = آپݨی ڄاݨکاری محفوظ کرݨ چاہندے ہو؟<createProfile> پروفائل بݨاؤ</createProfile>
 thanks-for-voice-toast = تہاݙی اواز معلومات پاروں تہاݙا شکریہ
 thanks-for-voice-toast-error = تہاݙی اواز معلومات جمع کرواوݨ وچ خرابی تھی ڳئی
 # SECOND POST SUBMISSION CTA
