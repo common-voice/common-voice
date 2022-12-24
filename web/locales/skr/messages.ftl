@@ -1431,5 +1431,8 @@ why-donate = تساں کیوں پچھدے پئے ہو؟
 add-information-button = معلومات شامل کرو
 continue-speaking-button = کائناں شکریہ، ٻولݨ جاری رکھو
 thanks-for-voice-toast = تہاݙی اواز معلومات پاروں تہاݙا شکریہ
+thanks-for-voice-toast-error = تہاݙی اواز معلومات جمع کرواوݨ وچ خرابی تھی ڳئی
+# SECOND POST SUBMISSION CTA
+second-cta-header-text = آپݨی اواز دان کرݨ تے تہاݙے تھورائت ہیسے!
 already-have-an-account = بھلا پہلے ای کھاتہ ہے؟ <login> لاگ ان تھیوو </login>
 create-profile-button = پروفائل بݨاؤ
