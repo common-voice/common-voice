@@ -56,6 +56,8 @@ join-newsletter = nuhual huilis timu nilos ichin tu tlahcuilol correo electronic
 
 ## What's public
 
+whats-public = ¿tlenon mu chihua iixpan masehualmeh?
+email-not-public = amo secnextis mu correo electrònico
 
 ## Speak & Listen Shortcuts
 
