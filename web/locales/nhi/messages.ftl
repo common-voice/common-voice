@@ -45,6 +45,9 @@ help-reach-goal = xitechpalehui matic chihuacan
 ready-to-record = ¿yiticah cuali para tic tetlauculis mu tlahtol?
 all-locales = Nochi
 today = Axan
+help-make-dataset = xitechpalehui matic chihuacah tlapalehuil amatl de  huehcapan cuahcual huan mucahsi para nuchin tlalticpac
+sign-up-account = ximoihcuilo para tic silis se cuenta
+email-subscription-title = ximoihcuilo para tic silis yancuik tlahtol ichin mu correo
 
 ## Account Benefits
 
