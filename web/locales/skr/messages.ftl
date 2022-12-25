@@ -1427,6 +1427,9 @@ partnerships-academia-description = اساں جو کجھ کریندے ہیں ا�
 partnerships-small-business-header = ٹیک تے اے آئی سٹارٹ اپ سمیت چھوٹے کاروبار
 partnerships-corporates-header = وݙے پیمانے تے کارپوریٹاں تے پلیٹ فارم کمپنیاں
 partnerships-our-partners = ساݙے بھائیوال
+# FIRST POST SUBMISSION CTA
+first-cta-header-text = تہاݙے اواز کلپ دان کرݨ تے تہاݙے تھورائت ہیسے!
+first-cta-subtitle-text = بھلا تساں ایں بارے کجھ ڄاݨ کاری سانجھی کرݨ پسند کریسو جو تساں کین٘ویں الیندے ہو؟
 why-donate = تساں کیوں پچھدے پئے ہو؟
 add-information-button = معلومات شامل کرو
 continue-speaking-button = کائناں شکریہ، ٻولݨ جاری رکھو
