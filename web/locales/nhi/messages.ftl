@@ -76,6 +76,8 @@ status-contribute = xitechpalehui ica mu tlahtol
 
 ## ProfileForm
 
+profile-form-variant =
+    .label = ¿tlen variante { $language } tiktlahtuhua?
 profile-form-custom-accent-help-text =
     .label = ¿quenin tic nextis mu acento?
 profile-form-custom-accent-placeholder-2 = xipehua xi tlahcuilo para tic nextis mu acento
