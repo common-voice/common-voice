@@ -625,6 +625,9 @@ about-playbook-how-record-content-5 = <accuracyLink>সঠিকতাৰ মা
 ## How to grow language
 
 about-playbook-how-grow-language = কমন ভইচত আমি কেনেকৈ সাৰ্থকভাৱে কোনো ভাষাক বৃদ্ধি কৰাব পাৰোঁ?
+about-playbook-how-grow-language-content-1 = কমন ভইচত বিভিন্নজাতীয় লোকে অৰিহণা যোগাব পৰাকৈ সুযোগৰ সৃষ্টি কৰিলে ডাটাছেটটোৱে যিমান পাৰি সিমান লোকক সেৱা আগবঢ়োৱাটো সুনিশ্চিত হয়। আমি সম্পদ আৰু টেমপ্লে'ট তৈয়াৰ কৰিছোঁ যিবোৰ আপুনি ব্যৱহাৰ কৰিব পাৰে!
+about-playbook-how-grow-language-content-2 = কাৰ্য্যসূচী
+about-playbook-how-grow-language-content-4 = ছ'চিয়েল মিডিয়া
 about-playbook-how-grow-language-content-6 = অংশীদাৰিত্ব আৰু নেটৱৰ্কবোৰ
 
 ## How to validate
@@ -1388,6 +1391,7 @@ sc-validation-no-abbreviations = বাক্যত সংক্ষিপ্ত 
 
 localization-select =
     .label = ভাষা/স্থানীয়কৰণ বাছি লওক
+thanks-for-voice-toast-error = আপোনাৰ মাত-সম্বন্ধীয় তথ্য দাখিল কৰোঁতে এটা ত্ৰুটি ঘটিছে
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = আপোনাৰ মাত দান কৰাৰ বাবে ধন্যবাদ!
 second-cta-subtitle-text = এটা প্ৰ'ফাইলেৰে আপুনি আপোনাৰ কাৰ্য্যকলাপৰ ওপৰত চকু ৰাখিব পাৰে আৰু ভইচ ডাটা অৱদানকাৰীসকলৰ সমাজৰ সৈতে সংযোগ স্থাপন কৰিব পাৰে।
