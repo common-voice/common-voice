@@ -52,6 +52,8 @@ email-subscription-title = ximoihcuilo para tic silis yancuik tlahtol ichin mu c
 
 ## Account Benefits
 
+rich-data = yehyeco tlen tlanahuatil tlen ticnaltitlantoc moican nuchten, xictemaca tlanahuatil demográficos ichtaca. Nuchten necateh tlanahuatilmeh panusqueh ichtaca achton mu ixnexticah
+compare-progress = xiquita mu nimilis ika tlen de ocsiquen tlapalehuaneh ichi nuchi tlalticpac
 join-newsletter = nuhual huilis timu nilos ichin tu tlahcuilol correo electronico para tic silis yancuic huan tlahtol ikan tiquitl
 
 ## What's public
