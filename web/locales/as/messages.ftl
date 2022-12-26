@@ -618,9 +618,13 @@ about-playbook-how-add-sentences-content-4 = বৈধকৰণ হোৱা ব
 about-playbook-how-record-quality = মই উচ্চমানৰ ভইচ ক্লিপ কেনেকৈ ৰেকৰ্ড কৰিম?
 about-playbook-how-record-content-1 = আপোনাৰ স্বাভাৱিক মাতেৰে কথা কওক! আপোনাৰ কথা কোৱা ধৰণক ইয়াত আদৰণি জনোৱা হৈছে - আপোনাৰ উচ্চাৰণ যেনেকুৱা, আমি তেনেকুৱাই বিচাৰোঁ আৰু আমি আপোনাৰ স্বাভাৱিক মাতৰ তীব্ৰতা, শৈলী আৰু স্বৰভংগি বিচাৰোঁ।
 about-playbook-how-record-content-2 = পিছফালৰ অত্যধিক চিঞৰ-বাখৰ এৰাই চলিব - আপোনাৰ মাত শুনিবলৈ সহজ হোৱা উচিত।
+about-playbook-how-record-content-3 = বাক্যটো মনোযোগেৰে পঢ়িব - কোনো শব্দ নেৰিব, সলনি বা যোগ নকৰিব।
+about-playbook-how-record-content-4 = এইটো নিশ্চিত কৰিব যে আপুনি কথা ক'বলৈ আৰম্ভ কৰাৰ আগতে প্লেটফৰ্মটোৱে ৰেকৰ্ডিং আৰম্ভ কৰে আৰু আপুনি শেষ কৰাৰ পাছতহে ৰখে।
+about-playbook-how-record-content-5 = <accuracyLink>সঠিকতাৰ মাপকাঠী সম্বন্ধে অধিক চাওক।</accuracyLink>
 
 ## How to grow language
 
+about-playbook-how-grow-language = কমন ভইচত আমি কেনেকৈ সাৰ্থকভাৱে কোনো ভাষাক বৃদ্ধি কৰাব পাৰোঁ?
 about-playbook-how-grow-language-content-6 = অংশীদাৰিত্ব আৰু নেটৱৰ্কবোৰ
 
 ## How to validate
