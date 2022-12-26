@@ -79,6 +79,8 @@ status-contribute = xitechpalehui ica mu tlahtol
 profile-form-submit-saved = ahcuctoc
 male = tlakatl
 female = sihuatl
+help-accent = ticniqui nimitspalehuis ican tono?
+help-variants = ticniqui nimitspalehuis ican variantes?
 
 ## Profile - Email
 
