@@ -87,20 +87,26 @@ join-newsletter = nuhual huilis timu nilos ichin tu tlahcuilol correo electronic
 whats-public = ¿tlenon mu chihua iixpan masehualmeh?
 email-not-public = amo secnextis mu correo electrònico
 username-optin-public = huilis tic nextis tla se tocayo nextilis o ichtaca
+username-email-not-demographic = mu tocayo de ususario huan correo electronico munilusqueh ica tlanahuatil tlen yumunextihqueh
 
 ## Speak & Listen Shortcuts
 
 
 ## Listen Shortcuts
 
+shortcut-play-toggle-label = nihnimilti/tzacuili
 
 ## Speak Shortcuts
 
+shortcut-discard-ongoing-recording-label = xiquixpulo grabacion tlen ticchiuhtok
+shortcut-submit = Xiualmocuipa
+shortcut-submit-label = xiquinaltitlani grabaciones
 request-language-text = ¿Ayamo ti cahsi mu tlahtol ich Common Voice?
 request-language-button = xictlahtlani mu tlahtol
 
 ## ProjectStatus
 
+status-title = quenin catqui totiquiuh: xiquita tlen huehca yu ti ehcuqueh!
 status-contribute = xitechpalehui ica mu tlahtol
 
 ## ProfileForm
