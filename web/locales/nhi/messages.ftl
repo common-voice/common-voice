@@ -108,14 +108,27 @@ request-language-button = xictlahtlani mu tlahtol
 
 status-title = quenin catqui totiquiuh: xiquita tlen huehca yu ti ehcuqueh!
 status-contribute = xitechpalehui ica mu tlahtol
+# Variables:
+# $goal - number of hours representing the next goal
+status-goal = ocse tiquitl: { $goal }
 
 ## ProfileForm
 
+profile-form-username =
+    .label = tocayo de usuario
+profile-form-native-language =
+    .label = tlahtol yoli
+profile-form-additional-language =
+    .label = ocse tlahtol
+profile-form-language =
+    .label = Tlahtol
 profile-form-variant =
     .label = ¿tlen variante { $language } tiktlahtuhua?
 profile-form-custom-accent-help-text =
     .label = ¿quenin tic nextis mu acento?
 profile-form-custom-accent-placeholder-2 = xipehua xi tlahcuilo para tic nextis mu acento
+profile-form-age =
+    .label = xihuitl
 hidden = mutlatihtok
 visible = mutztoc
 profile-form-submit-save = ahcocui
