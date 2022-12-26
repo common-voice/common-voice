@@ -184,6 +184,12 @@ faq-do-want-native-a = quemah, ¡tech cualtia ica tu tlahtol! siqui tu tiquitl d
 faq-why-different-speakers-q = ¿queyeh tiquiniqui miqueh tlahtuhuaneh tlatlamantl ica tlahtol?
 faq-why-my-lang-q = ¿Queye ayamo catqui notlahtol?
 faq-how-calc-hours-q = ¿quenin quixyehyecuhua Common Voice hora?
+faq-why-not-ask-read-q = ¿queyeh amo sequin tlahtlani masehualmeh mo machtican amatlahtol o tlahtol Wikipedia campa tlamantl tlahtol?
+faq-why-account-q = ¿queye quipia de ni mu ihcuilos?
+faq-is-account-public-q = ¿ tlanahuatil de nu cuenta mu nextis?
+faq-what-determine-identity-q = ¿tlenon quihtosniqui que amo¨ixpantis identidad¨ aquihquen tlahtuhuah campa base de tlanahuatil Common Voice?
+faq-what-is-cv = ¿tlenon Common Voice?
+faq-using-cv = ¿Queni mucui Common Voice?
 
 ## ABOUT US
 
