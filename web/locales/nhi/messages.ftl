@@ -176,6 +176,10 @@ faq-why-important-q = ¿queye simi mu niqui?
 faq-how-get-q = queni huili niquinsilis tlanahuatil de Common Voice?
 faq-when-release2-q = quemenia tiquin tlehcultis tlanahuatil de Common Voice ichi ocsiqueh tlahtulmeh?
 faq-why-mission-q = ¿queyeh Common Voice mu niluhua ican tiquitl de Mozilla?
+faq-why-mission-a = itiquitl de Mozilla yeh mui web tlapuhtok huan nochteh muc cuikah. Icanun quipia deque tiquin ulinisqueh aquihqueh qui chihchihuan web ikan nin tiquiuh quemeh Common Voice. Uhcon tiposmeh tlahtol hueyiya cachi nepa quen aplicaciones, secmati que sec pia de que sequin palehuis anuchten usuarios.nin quihtusniqui sequin tlalis cachi tlahtulmeh huan sequin tlalis acentos huan inextilis demográficas quemen quin chihchihuan huan qui yehyecuhuah tipostlahtol. Common Voice se tlapalehuil para nuchten huan equipos huan tlachihchihuaneh de Mozilla ichi nuchi tlalticpac nuyuhqui qui cuituqueh campa tehuan tu tiquiuh
+faq-what-cv-and-deepspeech-q = catleyeh ika amo mixmateh Common Voice huan Deep Speech?
+faq-is-goal-assistant-q = ¿itiquiuh de Common Voice yeh quichihuas se tepalehuani tlahtol?
+faq-do-want-native-q = amo uniyol ika masehualtlahtol huan ni tlahtuhua  ica acento,¿ uc cualtia nu tlahtol?
 
 ## ABOUT US
 
