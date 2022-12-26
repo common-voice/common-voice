@@ -18,11 +18,14 @@ error-something-went-wrong = Xitechtlapohpolui, amo oquis cuali.
 
 ## Layout
 
+speak-now = xitlahto axan
 help = xinechpalehui
 privacy = ichtaca
+faq = tlahtlanil simi
 share-title = ¡xitechpalehui matiehcuca a cachi masehual aquihquen qui niquisqueh qui tetlaculisqueh in tlahtol!
 share-text = xitechpalehui tiquinnextilisque tiposmeh quenin tlahtuhuan masehualmeh, xictetlaoculi mu tlahtol ichin { $link }
 back-top = ximocuipa campa pehua
+logout = sectzacuas sesión
 
 ## Home Page
 
@@ -46,6 +49,21 @@ help-reach-goal = xitechpalehui matic chihuacan
 ready-to-record = ¿yiticah cuali para tic tetlauculis mu tlahtol?
 all-locales = Nochi
 today = Axan
+x-weeks-short =
+    { $count ->
+        [one] chicueyitonal
+       *[other] chicueyitonal
+    }
+x-months-short =
+    { $count ->
+        [one] tlapoual
+       *[other] tlapoualmeh
+    }
+x-years-short =
+    { $count ->
+        [one] xiuitl
+       *[other] xiumeh
+    }
 help-make-dataset = xitechpalehui matic chihuacah tlapalehuil amatl de  huehcapan cuahcual huan mucahsi para nuchin tlalticpac
 sign-up-account = ximoihcuilo para tic silis se cuenta
 email-subscription-title = ximoihcuilo para tic silis yancuik tlahtol ichin mu correo
@@ -53,6 +71,7 @@ email-subscription-title = ximoihcuilo para tic silis yancuik tlahtol ichin mu c
 ## Account Benefits
 
 rich-data = yehyeco tlen tlanahuatil tlen ticnaltitlantoc moican nuchten, xictemaca tlanahuatil demográficos ichtaca. Nuchten necateh tlanahuatilmeh panusqueh ichtaca achton mu ixnexticah
+improve-audio = tlanahuatil den perfil mu yectlalis ican tlanahuatil tlahtol tlen mucui campa se mu nextilia ican cuali ixmatiliz tlahtol
 compare-progress = xiquita mu nimilis ika tlen de ocsiquen tlapalehuaneh ichi nuchi tlalticpac
 join-newsletter = nuhual huilis timu nilos ichin tu tlahcuilol correo electronico para tic silis yancuic huan tlahtol ikan tiquitl
 
