@@ -617,6 +617,7 @@ about-playbook-how-add-sentences-content-4 = বৈধকৰণ হোৱা ব
 
 about-playbook-how-record-quality = মই উচ্চমানৰ ভইচ ক্লিপ কেনেকৈ ৰেকৰ্ড কৰিম?
 about-playbook-how-record-content-1 = আপোনাৰ স্বাভাৱিক মাতেৰে কথা কওক! আপোনাৰ কথা কোৱা ধৰণক ইয়াত আদৰণি জনোৱা হৈছে - আপোনাৰ উচ্চাৰণ যেনেকুৱা, আমি তেনেকুৱাই বিচাৰোঁ আৰু আমি আপোনাৰ স্বাভাৱিক মাতৰ তীব্ৰতা, শৈলী আৰু স্বৰভংগি বিচাৰোঁ।
+about-playbook-how-record-content-2 = পিছফালৰ অত্যধিক চিঞৰ-বাখৰ এৰাই চলিব - আপোনাৰ মাত শুনিবলৈ সহজ হোৱা উচিত।
 
 ## How to grow language
 
