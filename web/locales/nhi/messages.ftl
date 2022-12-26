@@ -86,6 +86,7 @@ file_too_large = tlahcuilol tlen utic nexte simi hueyi
 
 ## Profile - Email
 
+change-email-setings = xicpatla mu correo electronico campa Ajustes, tlatlampa campa pehua sesión
 
 ## FAQ
 
