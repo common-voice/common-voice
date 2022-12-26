@@ -76,6 +76,11 @@ status-contribute = xitechpalehui ica mu tlahtol
 
 ## ProfileForm
 
+profile-form-custom-accent-help-text =
+    .label = ¿quenin tic nextis mu acento?
+profile-form-custom-accent-placeholder-2 = xipehua xi tlahcuilo para tic nextis mu acento
+hidden = mutlatihtok
+visible = mutztoc
 profile-form-submit-save = ahcocui
 profile-form-submit-saved = ahcuctoc
 male = tlakatl
