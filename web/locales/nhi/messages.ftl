@@ -82,10 +82,14 @@ female = sihuatl
 
 ## Profile - Email
 
+browse-file-title = tlehkulti se ixcupinalistl
+browse-file = xictilana huan xic cahcahua o<browseWrap> nihnimilti</broswerWrap>
+gravatar_not_found = amo secahsitoc niunse gravatar para mu correo electronico
 file_too_large = tlahcuilol tlen utic nexte simi hueyi
 
 ## Profile - Email
 
+email-already-used = email yi mu cuitoc ich ocse cuenta
 change-email-setings = xicpatla mu correo electronico campa Ajustes, tlatlampa campa pehua sesión
 
 ## FAQ
