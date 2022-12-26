@@ -16,6 +16,10 @@ email-opt-in-privacy-v2 =
      maklumat ini seperti yang dijelaskan dalam <privacyLink>Dasar Privasi</privacyLink> Mozilla.
 indicates-required = * Menunjukkan maklumat yang perlu disi
 not-available-abbreviation = N/A
+banner-error-slow-1 = Maaf, Common Voice berjalan perlahan. Terima kasih atas minat anda.
+banner-error-slow-2 = Kami menerima banyak trafik dan sedang menyiasat isu tersebut
+banner-error-slow-link = Halaman Status
+error-something-went-wrong = Ooops, ada sesuatu yang tidak kena
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -40,6 +44,7 @@ be = Bahasa Belarus
 bg = Bahasa Bulgaria
 bn = Bahasa Benggali
 br = Bahasa Breton
+bs = Bosnia
 bxr = Bahasa Buryat
 ca = Bahasa Catalonia
 cak = Bahasa Kaqchikel
@@ -68,6 +73,7 @@ fy-NL = Bahasa Frisia
 ga-IE = Bahasa Ireland
 gl = Bahasa Galicia
 gn = Bahasa Guaraní
+gom = Goan Konkani
 ha = Bahasa Hausa
 he = Ibrani
 hi = Bahasa Hindi
@@ -91,11 +97,14 @@ kab = Bahasa Kabyle
 kbd = Bahasa Kabardia
 ki = Bahasa Kikuyu
 kk = Bahasa Kazakh
+km = Khmer
 kmr = Bahasa Kurdi Utara
+knn = Konkani (Devanagari)
 ko = Bahasa Korea
 kpv = Bahasa Komi
 kw = Bahasa Cornish
 ky = Bahasa Kyrgyz
+lb = Luxembourgish
 lg = Luganda
 lij = Bahasa Liguria
 lt = Bahasa Lithuania
@@ -107,6 +116,7 @@ mhr = Meadow Mari
 mk = Bahasa Macedonia
 ml = Bahasa Malayalam
 mn = Bahasa Mongolia
+mni = Meetei Lon
 mos = Bahasa Mossi
 mr = Marathi
 mrj = Hill Mari
@@ -114,6 +124,8 @@ ms = Bahasa Melayu
 mt = Bahasa Malta
 my = Bahasa Burma
 myv = Erzya
+nan-tw = Taiwan(Minnan)
+nb-NO = Bahasa Norwegian Bokmål
 ne-NP = Bahasa Nepal
 nia = Bahasa Nias
 nl = Bahasa Belanda
@@ -126,6 +138,8 @@ pap-AW = Bahasa Papiamento (Aruba)
 pl = Bahasa Poland
 ps = Bahasa Pashto
 pt = Bahasa Portugis
+quc = K'iche'
+quy = Quechua Chanka
 rm-sursilv = Bahasa Romansh Sursilvan
 rm-vallader = Bahasa Romansh Vallader
 ro = Bahasa Romania
@@ -298,7 +312,6 @@ shortcut-discard-ongoing-recording-label = Buang rakaman yang sedang berlangsung
 shortcut-submit = Kembali
 shortcut-submit-label = Hantar Klip
 request-language-text = Masih belum melihat bahasa anda di Common Voice?
-request-language-text-learn = Ketahui cara memintanya di sini!
 request-language-button = Permintaan Bahasa
 
 ## ProjectStatus
@@ -323,6 +336,7 @@ profile-form-additional-language =
     .label = Bahasa Tambahan
 profile-form-language =
     .label = Bahasa
+profile-form-variant-default-value = Tiada varian dipilih
 profile-form-accent =
     .label = Loghat
 profile-form-custom-accent-help-text =
@@ -426,8 +440,6 @@ about-yes-votes = ≥ 2 undian Ya
 about-no-votes = ≥ 2 Tiada undian
 about-dataset-new = Set Data Common Voice
 about-clip-graveyard = Perkuburan Klip
-about-partners = Rakan Kongsi
-about-become-a-partner = Menjadi rakan kongsi
 about-get-involved = Melibatkan diri
 about-nav-why-common-voice = Kenapa?
 about-nav-how-it-works = Bagaimana?
@@ -461,8 +473,6 @@ about-nav-get-involved = Melibatkan diri
 
 ## How are decisions made
 
-mycroft-title = Mycroft Ai
-mycroft-subtitle = Kecerdasan buatan
 
 ## Glossary
 
@@ -474,7 +484,15 @@ localization = Lokalisasi
 
 ## Data
 
+data-download-yes = Ya
+data-download-deny = Tidak
 data-download-modal = Anda akan memulakan muat turun <size> { $size } GB </size>, teruskan?
+terms-agree = Saya setuju
+terms-disagree = saya tidak bersetuju
+review-submit-title = Semak & Hantar
+review-recording = Semakan
+review-rerecord = Rakam semula
+review-cancel = Batal Serahan
 review-keep-recordings = Simpan rakaman
 review-delete-recordings = Padamkan rakaman saya
 
@@ -491,6 +509,8 @@ confirm-no-identify = <b>Anda bersetuju</b> untuk tidak cuba menentukan identiti
 download-language = Muat turun { $language }
 validated-hours = Bilangan jam yang telah disahkan
 recorded-hours = Bilangan jam yang telah dirakam
+want-dataset-update = Mahukan kemas kini semasa kami mengeluarkan versi baru kumpulan data Common Voice? Langgan buletin kami.
+subscribe = Langgan
 get-started-speech = Mulakan dengan Pengecaman Pertuturan
 other-datasets = Set Data Suara Lain
 feedback-q = Ada Maklum balas?
@@ -524,6 +544,9 @@ request-language-success-title = Permintaan bahasa berjaya dihantar, terima kasi
 select-language = Pilih Bahasa...
 other-language = Bahasa Lain
 
+## Request Language Pages
+
+
 ## Languages Overview
 
 language-section-in-progress = Sedang Dijalankan
@@ -537,7 +560,6 @@ language-search-input =
 language-speakers = Penceramah
 localized = Dilokalisasi
 sentences = Ayat
-total-hours = Hrs Disahkan
 
 ## Contribution
 
@@ -583,6 +605,8 @@ report-different-language = Bahasa berbeza
 report-different-language-detail = Bahasa ini ditulis dalam bahasa yang berbeza daripada apa yang saya bercakap.
 report-difficult-pronounce = Sukar untuk disebut
 report-difficult-pronounce-detail = Ia mengandungi perkataan atau frasa yang sukar dibaca atau diucapkan.
+report-offensive-speech = Ucapan yang menyinggung perasaan
+report-offensive-speech-detail = Klip tersebut mempunyai bahasa yang tidak sopan atau menyinggung perasaan.
 report-other-comment =
     .placeholder = Komen
 success = Berjaya
@@ -674,6 +698,7 @@ share-goal = Kongsi matlamat saya
 delete-q = Adakah anda ingin meminta rakaman suara anda juga dihapuskan, atau adakah anda lebih suka menyimpannya dalam set data Common Voice?
 keep = Simpan
 remove = Buang
+keep-info = Rakaman suara awanama anda akan kekal dalam set data Common Voice. Sebaik sahaja anda memadamkan profil anda, anda tidak lagi dapat menyerahkan permintaan untuk mengalih keluar rakaman anda daripada set data
 profile-form-delete = Hapus Profil
 
 ## Profile Download
@@ -726,8 +751,13 @@ contribution-for-example = sebagai contoh
 contribution-misreadings-title = Kesalahan membaca
 contribution-misreadings-description-extended-list-4 = Kehilangan akhir perkataan terakhir dengan memotong rakaman terlalu cepat.
 contribution-misreadings-description-extended-list-5 = Mengambil beberapa percubaan untuk membaca satu perkataan.
+contribution-misreadings-example-1-title = Dinosaur gergasi Triassic.
+contribution-misreadings-example-2-title = Dinosaur gergasi Triassic.
+contribution-misreadings-example-2-explanation = [Sepatutnya 'dinosaur']
+contribution-misreadings-example-3-title = Dinosaur gergasi Triassi-.
 contribution-misreadings-example-3-explanation = [Rakaman terputus sebelum akhir perkataan]
 contribution-misreadings-example-6-explanation = [Sepatutnya "Kami"]
+contribution-reader-effects-title = Kesan Pembaca
 contribution-just-unsure-title = Tidak pasti?
 see-more = <chevron> </chevron> Lihat lagi
 see-less = <chevron></chevron>Lihat kurang
@@ -742,6 +772,9 @@ see-less = <chevron></chevron>Lihat kurang
 sc-footer-privacy = Privasi
 
 ## HOME
+
+
+## GENERAL
 
 
 ## HOW-TO
