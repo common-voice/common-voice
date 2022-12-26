@@ -150,8 +150,12 @@ login-signup = xicpehualti sesión / ximoihcuilo
 edit = yectlali
 email-subscriptions = ximuihcuilo ic correo electrónico
 skip-submission-feedback = amoticahuilisqueh muctitlanican tenunutzanil
+skip-submission-description = titlanil tlahtol amo culatias tla tic pachuhua campa kihtuhua `naltitlani`. tlen tlapalehuia oc isqui tlapohtoc tlen mu nichicuhuah ica 5 gravaciones o quinsiliah
 skip-submission-note = tlahcuilol: quipia de tic pihpinas tla ti tlahtos o tik caquis para tic patlas mu tiquipalehualistl
+off = amocualtia
+on = cualtia
 help-accent = ticniqui nimitspalehuis ican tono?
+help-accent-explanation = mu acento yen quemen tiquimihtuhua tlahtulmeh. huilis isqui uhcon porque campa yu ti chanchiuh, huili ti tlahtuhua ocsiqui tlahtol o ica ocse tlanimilil, huilis titech mactis ocsiqui tlanahuatil tlen tic machilis tech cualtias nicah
 help-variants = ticniqui nimitspalehuis ican variantes?
 
 ## Profile - Email
