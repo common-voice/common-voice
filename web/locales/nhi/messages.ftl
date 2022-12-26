@@ -18,7 +18,10 @@ error-something-went-wrong = Xitechtlapohpolui, amo oquis cuali.
 
 ## Layout
 
+speak = xitlahto
 speak-now = xitlahto axan
+languages = tlahtulmeh
+partner = nuyolchicauhca
 help = xinechpalehui
 privacy = ichtaca
 faq = tlahtlanil simi
@@ -30,6 +33,7 @@ logout = sectzacuas sesión
 ## Home Page
 
 home-title = tiquitl common Voice se pehualis de Mozilla ika sequin nextilis quenin monextilisqueh tiposmeh quenin tlahtuhuan masehualmeh
+home-cta = Xitlahto, ¡Xitechpaleui nican!
 wall-of-text-start = tlahtol isqui milahuak, tlahtol isqui masehual. Icanun se pactoc sek chihuas se tipostl tlahtol para tu maquinas. Axan para sec chihuas se tiquitl tlahtol, se puhuali simi hueyi ika nextililtlahtol muniqui
 wall-of-text-more-desktop = axcan huilis tik tetlaculis mu tlahtol ika ti tech palehuis tic chihuaskeh se ikxitlanahuatil ika tlahtol ichtaca tlapuhtok aquinyihuili huili quicuis ika qui chihchihuas aplicaciones yankuic para tipusmeh huan web.<lineBreak></lineBreak>xiquita se tlahcuilol ika niquin palehuis mu nextilican tiposmeh quenin tlahtuhuan masehualmeh.xiquita tiquitl de ocsiquen tlapalehuaneh ika sek yectlalis tiquitl. ¡auhcon amosimi uhue!
 wall-of-text-first = tlahtol yeh milahuac, tlahtol yeh masehual. Icanun ti pactukeh u sec chihchiuh se tipostlahtol maccuican tu tiposhuan. para sec chihuas se nimilis tlahtol, aquihquen qui chihchihuan quicueh miakeh tlanahuatil tlahtol
@@ -43,6 +47,7 @@ vote-no = amo
 toggle-play-tooltip = xipacho { shortcut-play-toggle } para sec xotlaltis mu pehua
 speak-subtitle = xitetlaoculi mu tlahtol
 listen-subtitle = xitechpalehui matic silicah tlahtulmeh
+listen-paragraph = sequinsilis siqueh tlahtulmeh tetlaoculil simi muniqui para tiquitl de Common Voice. Xicaqui huan xitech palehui maticchihuacan tlanunutztlahtol tlapuhtok huan tlen cachi cuahcual
 voices-online = tlahtulmeh tlen axa catqui  en lìnea
 todays-progress = nimilis de axan
 help-reach-goal = xitechpalehui matic chihuacan
@@ -70,8 +75,10 @@ email-subscription-title = ximoihcuilo para tic silis yancuik tlahtol ichin mu c
 
 ## Account Benefits
 
+benefits = tlapalehuilis
 rich-data = yehyeco tlen tlanahuatil tlen ticnaltitlantoc moican nuchten, xictemaca tlanahuatil demográficos ichtaca. Nuchten necateh tlanahuatilmeh panusqueh ichtaca achton mu ixnexticah
 improve-audio = tlanahuatil den perfil mu yectlalis ican tlanahuatil tlahtol tlen mucui campa se mu nextilia ican cuali ixmatiliz tlahtol
+keep-track = xicpia se tlahcuilol ica mu nemilis huan métricas ica miak tlahtol
 compare-progress = xiquita mu nimilis ika tlen de ocsiquen tlapalehuaneh ichi nuchi tlalticpac
 join-newsletter = nuhual huilis timu nilos ichin tu tlahcuilol correo electronico para tic silis yancuic huan tlahtol ikan tiquitl
 
@@ -79,6 +86,7 @@ join-newsletter = nuhual huilis timu nilos ichin tu tlahcuilol correo electronic
 
 whats-public = ¿tlenon mu chihua iixpan masehualmeh?
 email-not-public = amo secnextis mu correo electrònico
+username-optin-public = huilis tic nextis tla se tocayo nextilis o ichtaca
 
 ## Speak & Listen Shortcuts
 
