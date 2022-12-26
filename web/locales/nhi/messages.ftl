@@ -183,6 +183,7 @@ faq-do-want-native-q = amo uniyol ika masehualtlahtol huan ni tlahtuhua  ica ace
 faq-do-want-native-a = quemah, ¡tech cualtia ica tu tlahtol! siqui tu tiquitl de Common Voice sequin nichicos miqueh acentos quemen huilis para uhcon tiquitl ixmatilis tlahtol mucualtia cuali para nuchin tlalticpac. nin quichihua tlen tetlaoculiah in tlahtol  muicah importantes
 faq-why-different-speakers-q = ¿queyeh tiquiniqui miqueh tlahtuhuaneh tlatlamantl ica tlahtol?
 faq-why-my-lang-q = ¿Queye ayamo catqui notlahtol?
+faq-how-calc-hours-q = ¿quenin quixyehyecuhua Common Voice hora?
 
 ## ABOUT US
 
