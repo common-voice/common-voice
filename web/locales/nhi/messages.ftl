@@ -79,6 +79,8 @@ status-contribute = xitechpalehui ica mu tlahtol
 profile-form-submit-saved = ahcuctoc
 male = tlakatl
 female = sihuatl
+skip-submission-feedback = amoticahuilisqueh muctitlanican tenunutzanil
+skip-submission-note = tlahcuilol: quipia de tic pihpinas tla ti tlahtos o tik caquis para tic patlas mu tiquipalehualistl
 help-accent = ticniqui nimitspalehuis ican tono?
 help-variants = ticniqui nimitspalehuis ican variantes?
 
