@@ -172,8 +172,10 @@ change-email-setings = xicpatla mu correo electronico campa Ajustes, tlatlampa c
 
 ## FAQ
 
+faq-why-important-q = ¿queye simi mu niqui?
 faq-how-get-q = queni huili niquinsilis tlanahuatil de Common Voice?
 faq-when-release2-q = quemenia tiquin tlehcultis tlanahuatil de Common Voice ichi ocsiqueh tlahtulmeh?
+faq-why-mission-q = ¿queyeh Common Voice mu niluhua ican tiquitl de Mozilla?
 
 ## ABOUT US
 
