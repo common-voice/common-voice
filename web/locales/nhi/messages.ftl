@@ -89,6 +89,8 @@ file_too_large = tlahcuilol tlen utic nexte simi hueyi
 
 ## FAQ
 
+faq-how-get-q = queni huili niquinsilis tlanahuatil de Common Voice?
+faq-when-release2-q = quemenia tiquin tlehcultis tlanahuatil de Common Voice ichi ocsiqueh tlahtulmeh?
 
 ## ABOUT US
 
