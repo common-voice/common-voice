@@ -76,9 +76,11 @@ status-contribute = xitechpalehui ica mu tlahtol
 
 ## ProfileForm
 
+profile-form-submit-save = ahcocui
 profile-form-submit-saved = ahcuctoc
 male = tlakatl
 female = sihuatl
+why-profile-title = ¿queye se perfil?
 profile-explanation = xiquita tlen yuticchiuh ica se perfil huan xic palehui tu tlahcuiloltlahtol muican cachi cuali
 why-demographic = queye nicanca simi importante
 skip-submission-feedback = amoticahuilisqueh muctitlanican tenunutzanil
