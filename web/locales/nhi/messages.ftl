@@ -135,7 +135,10 @@ profile-form-submit-save = ahcocui
 profile-form-submit-saved = ahcuctoc
 male = tlakatl
 female = sihuatl
+# Gender
+other = Occe
 why-profile-title = ¿queye se perfil?
+why-profile-text = titechtemactis siqui tlanahuatil de teh, tlen amameh tlahtol tlen tiquin titlanis ichin Common Voice tech cualtilisqueh cachi para ixmatilis tlahtol  moquincuican ica quin yectlalihtacah queme quin tlahtlania
 profile-explanation = xiquita tlen yuticchiuh ica se perfil huan xic palehui tu tlahcuiloltlahtol muican cachi cuali
 why-demographic = queye nicanca simi importante
 skip-submission-feedback = amoticahuilisqueh muctitlanican tenunutzanil
