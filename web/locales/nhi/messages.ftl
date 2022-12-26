@@ -180,6 +180,9 @@ faq-why-mission-a = itiquitl de Mozilla yeh mui web tlapuhtok huan nochteh muc c
 faq-what-cv-and-deepspeech-q = catleyeh ika amo mixmateh Common Voice huan Deep Speech?
 faq-is-goal-assistant-q = ¿itiquiuh de Common Voice yeh quichihuas se tepalehuani tlahtol?
 faq-do-want-native-q = amo uniyol ika masehualtlahtol huan ni tlahtuhua  ica acento,¿ uc cualtia nu tlahtol?
+faq-do-want-native-a = quemah, ¡tech cualtia ica tu tlahtol! siqui tu tiquitl de Common Voice sequin nichicos miqueh acentos quemen huilis para uhcon tiquitl ixmatilis tlahtol mucualtia cuali para nuchin tlalticpac. nin quichihua tlen tetlaoculiah in tlahtol  muicah importantes
+faq-why-different-speakers-q = ¿queyeh tiquiniqui miqueh tlahtuhuaneh tlatlamantl ica tlahtol?
+faq-why-my-lang-q = ¿Queye ayamo catqui notlahtol?
 
 ## ABOUT US
 
