@@ -386,6 +386,7 @@ profile-close = Tutup
 profile-explanation = Jejaki kemajuan anda dengan profil dan bantu data suara kami menjadi lebih tepat.
 thanks-for-account = Terima kasih kerana mengesahkan akaun anda, sekarang mari bina profil anda.
 why-demographic = Kenapa ini penting?
+why-demographic-explanation-2 = Data pengguna awanama seperti umur, jantina dan loghat membantu meningkatkan data audio yang digunakan untuk melatih ketepatan enjin pengecaman pertuturan. Nama pengguna dan e-mel anda tidak akan dikaitkan dengan data yang anda hantar, dan anda boleh pilih sama ada mahu menjadikan nama pengguna anda umum atau tanpa nama.
 accept-privacy = Saya setuju anda mengendalikan maklumat ini seperti yang dijelaskan dalam <privacyLink>Dasar Privasi</privacyLink> Mozilla
 accept-privacy-title = Dasar Polisi
 login-identity = Identiti Log Masuk
@@ -399,6 +400,7 @@ skip-submission-description = Semasa maklum balas serahan sumbangan akan dilangk
 skip-submission-note = Catatan: Anda masih perlu memilih antara Cakap atau Dengarkan untuk menukar jenis sumbangan.
 off = Matikan
 on = Hidupkan
+help-accent = Perlukan bantuan dengan loghat?
 help-accent-explanation = Loghat ialah cara anda menyebut perkataan. Ia boleh dibentuk oleh tempat tinggal anda, bahasa lain yang anda tuturkan dan banyak faktor lain. Anda boleh berkongsi sebarang maklumat yang anda rasa relevan di sini.
 
 ## Profile - Email
@@ -423,6 +425,7 @@ change-email-setings = Tukar e-mel anda melalui Tetapan di bawah Identiti Log Ma
 
 faq-title = Soalan Lazim
 faq-what-cv-q = Apakah Common Voice?
+faq-what-cv-a = Teknologi pengecaman suara sedang merevolusikan cara kita berinteraksi dengan mesin, tetapi sistem yang tersedia pada masa ini adalah mahal dan proprietari. Common Voice adalah sebahagian daripada inisitif Mozilla untuk menjadikan teknologi pengecaman pengecaman suara lebih baik dan lebih mudah diakses oleh semua orang. Common Voice adalah pangkalan data global yang besar bagi suara yang didermakan yang membolehkan sesiapa sahaja dengan cepat dan mudah melatih aplikasi berdaya suara yang berpotensi untuk setiap bahasa.
 faq-why-important-q = Mengapa ia penting?
 faq-how-get-q = Bagaimana saya boleh mendapatkan data Common Voice?
 faq-when-release2-q = Bilakah anda akan mengeluarkan data Common Voice dalam bahasa lain?
@@ -435,7 +438,7 @@ faq-how-calc-hours-q = Bagaimana Common Voice mengira jam?
 faq-where-src-from-2-q = Dari manakah teks sumber berasal?
 faq-why-not-ask-read-q = Mengapa anda tidak meminta orang untuk membaca daripada buku atau artikel Wikipedia dalam bahasa yang berbeza?
 faq-why-account-q = Mengapa saya perlu mendaftar akaun?
-faq-is-account-public-q = Adakah maklumat akaun saya terbuka?
+faq-is-account-public-q = Adakah maklumat akaun saya publik?
 faq-how-privacy-q = Bagaimanakah anda memastikan ketanpanamaan dan privasi orang yang menderma suara mereka?
 faq-what-is-cv = Apakah Common Voice?
 faq-using-cv = Menggunakan Common Voice
@@ -446,6 +449,7 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Mengapa Common Voice?
+how-does-it-work-text = Kami sedang mengumpulkan set data suara yang bersumber terbuka. Sumbangkan suara anda, sahkan ketepatan klip pengguna lain, jadikan set data lebih baik untuk semua orang.
 
 ## How does it work section
 
@@ -497,14 +501,19 @@ about-nav-get-involved = Melibatkan diri
 
 glossary = Glosari
 localization = Lokalisasi
+hours-recorded-explanation = Jumlah jam rakaman suara yang telah kita kumpulkan setakat ini.
+sst = Ucapan-ke-teks (STT)
 
 ## Error pages
 
+error-title-404 = Kami tidak dapat mencari halaman itu untuk anda
+error-code = Ralat { $code }
 
 ## Data
 
 data-download-yes = Ya
 data-download-deny = Tidak
+data-download-license = Lesen: <licenseLink> CC-0 </licenseLink>
 data-download-modal = Anda akan memulakan muat turun <size> { $size } GB </size>, teruskan?
 terms-agree = Saya setuju
 terms-disagree = saya tidak bersetuju
