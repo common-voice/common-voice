@@ -194,9 +194,11 @@ faq-using-cv = ¿Queni mucui Common Voice?
 ## ABOUT US
 
 about-title = ¿queyeh sequicuis Common Voice?
+how-does-it-work-title-v2 = ¿quenin cualtia tlahtol comun?
 
 ## How does it work section
 
+about-language-req-subtitle = aquin quitlahtlani mac tlalilican ocse tlahtol
 
 ## Community Playbook Content
 ## What is a language
