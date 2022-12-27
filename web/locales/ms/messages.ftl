@@ -449,6 +449,7 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Mengapa Common Voice?
+how-does-it-work-title-v2 = Bagaimanakah Common Voice berfungsi?
 how-does-it-work-text = Kami sedang mengumpulkan set data suara yang bersumber terbuka. Sumbangkan suara anda, sahkan ketepatan klip pengguna lain, jadikan set data lebih baik untuk semua orang.
 
 ## How does it work section
@@ -481,6 +482,7 @@ about-nav-get-involved = Melibatkan diri
 
 ## How to add sentences
 
+about-playbook-how-add-sentences = Bagaimana saya boleh menambah ayat?
 
 ## How to record quality
 
@@ -654,6 +656,7 @@ report-success = Laporan berjaya dihantar
 
 ## Goals
 
+streaks = Lekapan
 days =
     { $count ->
        *[other] Hari
