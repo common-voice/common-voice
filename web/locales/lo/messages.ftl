@@ -1458,7 +1458,9 @@ partnerships-corporates-description = ຖ້າ​ຫາກ​ວ່າ​ທ່
 partnerships-our-partners = ຄູ່ຮ່ວມງານຂອງພວກເຮົາ
 # FIRST POST SUBMISSION CTA
 first-cta-header-text = ຂອບໃຈສຳລັບການບໍລິຈາກຄລິບສຽງຂອງເຈົ້າ!
+first-cta-subtitle-text = ເຈົ້າຢາກແບ່ງປັນຂໍ້ມູນບາງຢ່າງກ່ຽວກັບວິທີທີ່ເຈົ້າເວົ້າບໍ?
 why-donate = ເຈົ້າຖາມເຮັດຫຍັງ?
+why-donate-explanation-1 = ຂໍ້ມູນນີ້ແມ່ນທາງເລືອກທີ່ຈະສະຫນອງ - ທ່ານພຽງແຕ່ຄວນເພີ່ມມັນຖ້າທ່ານຮູ້ສຶກສະດວກສະບາຍ. ເມື່ອພວກເຮົາປ່ອຍຊຸດຂໍ້ມູນ, ພວກເຮົາລະບຸຂໍ້ມູນສ່ວນຕົວທັງໝົດ, ແລະໃຫ້ແນ່ໃຈວ່າຂໍ້ມູນເຊັ່ນ: ຊື່ ແລະ ອີເມວຂອງເຈົ້າບໍ່ໄດ້ເຊື່ອມຕໍ່ກັບຂໍ້ມູນປະຊາກອນ ເຊັ່ນ: ອາຍຸ ຫຼື ເພດ.
 add-information-button = ເພີ່ມຂໍ້ມູນ
 continue-speaking-button = ບໍ່ຂອບໃຈ, ສືບຕໍ່ເວົ້າ
 create-profile-text = ຕ້ອງການບັນທຶກຂໍ້ມູນຂອງທ່ານບໍ? <createProfile>ສ້າງໂປຣໄຟລ໌</createProfile>
