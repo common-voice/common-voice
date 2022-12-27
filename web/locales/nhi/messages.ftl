@@ -210,6 +210,8 @@ about-voice-validation-subtitle = ocsiqueh masehualmeh quin siliah nicancateh cl
 about-dataset-release-title = naltitlaneh nichicul tlanahuatilme
 about-dataset-release-subtitle = sequin nehnextia sansicah tlanahuatilme cada 3 tlapuhual
 about-subscribe-text = ¿tiniqui ihuan timu nuhnutstos ihuan Common Voice?
+about-speak = Tlahtoa
+about-listen = Tlacaqui
 
 ## Community Playbook Content
 ## What is a language
