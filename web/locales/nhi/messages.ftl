@@ -226,6 +226,7 @@ about-nav-playbook = xitlasalo quenin titech palehuis
 ## What is a language
 
 about-playbook-what-is-language = ¿tleno se masehual tlahtol ich Common Voice?
+about-playbook-what-is-language-content-1 = catqui miak tlamantl de sec tlanimilis ikan masehual tlahtol.tlen qui teixmateh tlahtol, Common Voice quihtuhua matimu nimiltica ichin ¨tiachcasaluhuani¨ o ¨¿ huilis tlahtuhuaneh de nicanca masehual tlahtol mu yecnutsasque tla qui yehyecuhuah?¨
 
 ## How do I add a language
 
