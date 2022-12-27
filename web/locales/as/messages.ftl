@@ -636,9 +636,13 @@ about-playbook-how-grow-language-content-8 = <strong>সৃষ্টিশীল
 about-playbook-how-validate = কোনো ভইচ ক্লিপ অনুমোদিত কৰিব লাগে নে নাই মই কেনেকৈ জানিম?
 about-playbook-how-validate-content-1 = যদি আপুনি সেইবোৰ <strong>শুনিব পাৰে</strong> আৰু <strong>বুজিব পাৰে</strong>, তেন্তে সাধাৰণতে <strong>অনুমোদন</strong> জনোৱাটোৱেই শ্ৰেষ্ঠ।
 about-playbook-how-validate-content-2 = <strong>এনেবোৰ ক্লিপ নাকচ নকৰিব য'ত আপোনাৰ পৰা কওঁতাগৰাকীৰ ’উচ্চাৰণবোৰ বেলেগ’</strong> - কণ্ঠস্বৰ চিনাক্তকৰণ সকলোৰে বাবে উন্নতভাৱে কাম কৰিবলৈ এইটো গুৰুত্বপূৰ্ণ।
+about-playbook-how-validate-content-3 = যদি আপুনি ভাবে যে উচ্চাৰণে <strong>বুজাটো অসম্ভৱ</strong> কৰি তুলিছে বা <strong>পিছফালে বহুত চিঞৰ-বাখৰ</strong> হৈছে বা <strong>অন্য লোকেও কথা পাতিছে</strong>, তেন্তে আপুনি  ক্লিপটো নাকচ কৰা উচিত।  <accuracyLink>আমাৰ সঠিকতাৰ মাপকাঠীত অধিক তথ্য চাওক</accuracyLink>।
+about-playbook-how-validate-content-4 = যদি এটা ক্লিপ দুগৰাকী লোকে নাকচ কৰে, তেন্তে ডাটাছেটৰ বেলেগ এটা উপবিভাগত সেইটো মুকলি কৰা হয়।
 
 ## How to access dataset
 
+about-playbook-how-access-dataset = মই ডাটাছেটটো কেনেকৈ চাম আৰু ব্যৱহাৰ কৰিম?
+about-playbook-how-access-dataset-content-1 = আপুনি <datasetsPage>ডাটাছেট পৃষ্ঠা</datasetsPage>লৈ গৈ আপুনি বিচৰা সংস্কৰণ আৰু ভাষা(বিলাক) বাছনি কৰি সেইটো ডাউনল'ড কৰিব পাৰে!  ফাইলবোৰৰ <metadataLink>সংশ্লিষ্ট মেটাডাটা</metadataLink> থাকে, যেনে জনগাঁথনিমূলক তথ্য আৰু বৈধকৰণৰ তথ্য।  ডাটাছেটটো ডাউনল'ড কৰিবলৈ আপুনি এটা ইমেইল ঠিকনা দিব লাগিব৷
 
 ## How are decisions made
 
