@@ -404,6 +404,8 @@ off = Matikan
 on = Hidupkan
 help-accent = Perlukan bantuan dengan loghat?
 help-accent-explanation = Loghat ialah cara anda menyebut perkataan. Ia boleh dibentuk oleh tempat tinggal anda, bahasa lain yang anda tuturkan dan banyak faktor lain. Anda boleh berkongsi sebarang maklumat yang anda rasa relevan di sini.
+help-variants = Perlukan bantuan dengan varian?
+help-variants-explanation = Varian adalah bentuk bahasa tertentu - contohnya dikongsi olej mereka yang tinggal dalam geografi atau komuniti. Kadang-kadang ini dipanggil dialek
 
 ## Profile - Email
 
@@ -527,6 +529,8 @@ data-download-yes = Ya
 data-download-deny = Tidak
 data-download-license = Lesen: <licenseLink> CC-0 </licenseLink>
 data-download-modal = Anda akan memulakan muat turun <size> { $size } GB </size>, teruskan?
+data-subtitle = Kami sedang membina set data suara terbuka dan tersedia untuk umum yang semua orang boleh gunakan untuk melatih aplikasi berdaya pertuturan.
+data-other-title = Set data suara lain ...
 terms-agree = Saya setuju
 terms-disagree = saya tidak bersetuju
 review-submit-title = Semak & Hantar
