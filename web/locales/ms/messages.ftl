@@ -277,6 +277,7 @@ email-subscription-title-new = Daftar untuk buletin Common Voice, peringatan mat
 ## Account Benefits
 
 benefits = Kebaikan
+rich-data = Jadikan data yang anda serahkan selengkap mungkin dengan menyediakan sebahagian data demografi awanama. Kami menyahkenalpasti semua data demografi sebelum menjadikannya umum.
 improve-audio = Maklumat profil menambahbaik baik data audio yang digunakan dalam latihan ketepatan pengecaman pertuturan.
 keep-track = Jejaki kemajuan dan metrik anda dalam pelbagai bahasa.
 compare-progress = Lihat bagaimana kemajuan anda dibandingkan dengan penyumbang lain di seluruh dunia.
@@ -362,6 +363,7 @@ profile-form-gender-2 =
 leaderboard-visibility =
     .label = Ketampakan Papan Pemuka
 hidden = Tersembunyi
+visible = Boleh dilihat
 native-language =
     .label = Bahasa Asal
 profile-form-add-accent = Tambah aksen baru { $inputValue }
@@ -491,12 +493,17 @@ about-playbook-how-record-content-5 = <accuracyLink>Lihat lebih lanjut tentang k
 
 ## How to grow language
 
+about-playbook-how-grow-language = Bagaimana kita dapat mengembangkan bahasa pada 'Voice' secara efektif?
+about-playbook-how-grow-language-content-1 = Mencipta peluang untuk kepelbagaian orang untuk menyumbang kepada Common Voice memastikan set data berfungsi kepada seramai mungkin orang. Kami telah mencipta sumber dan templat yang boleh anda gunakan!
+about-playbook-how-grow-language-content-4 = Media Sosial
 
 ## How to validate
 
+about-playbook-how-validate = Bagaimanakah saya tahu sama ada hendak meluluskan klip suara?
 
 ## How to access dataset
 
+about-playbook-how-access-dataset = Bagaimana saya boleh mengakses dan menggunakan set data ini?
 
 ## How are decisions made
 
