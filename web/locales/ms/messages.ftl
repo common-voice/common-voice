@@ -46,6 +46,7 @@ bn = Bahasa Benggali
 br = Bahasa Breton
 bs = Bosnia
 bxr = Bahasa Buryat
+byv = Bahasa Medumba
 ca = Bahasa Catalonia
 cak = Bahasa Kaqchikel
 ckb = Bahasa Kurdi Tengah
@@ -55,6 +56,7 @@ cs = Czech
 cv = Bahasa Chuvash
 cy = Bahasa Wales
 da = Bahasa Denmark
+dag = Bahasa Dagbani
 de = Bahasa Jerman
 dsb = Sorbian Bawah
 dv = Divehi
@@ -316,7 +318,7 @@ shortcut-vote-no = n
 # Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-record-toggle = r
-shortcut-record-toggle-label = Rekod/Berhenti
+shortcut-record-toggle-label = Rakam/Berhenti
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Rakam semula klip
 shortcut-discard-ongoing-recording = ESC
@@ -328,6 +330,7 @@ request-language-button = Permintaan Bahasa
 
 ## ProjectStatus
 
+status-title = Status keseluruhan projek: lihat sejauh mana perkembangan kita!
 status-contribute = Sumbang Suara Anda
 status-hours =
     { $hours ->
@@ -391,6 +394,7 @@ why-demographic = Kenapa ini penting?
 why-demographic-explanation-2 = Data pengguna awanama seperti umur, jantina dan loghat membantu meningkatkan data audio yang digunakan untuk melatih ketepatan enjin pengecaman pertuturan. Nama pengguna dan e-mel anda tidak akan dikaitkan dengan data yang anda hantar, dan anda boleh pilih sama ada mahu menjadikan nama pengguna anda umum atau tanpa nama.
 accept-privacy = Saya setuju anda mengendalikan maklumat ini seperti yang dijelaskan dalam <privacyLink>Dasar Privasi</privacyLink> Mozilla
 accept-privacy-title = Dasar Polisi
+accept-privacy-and-terms = Saya bersetuju dengan <termsLink>Terma</termsLink> dan <privacyLink>Notis Privasi</privacyLink>
 login-identity = Identiti Log Masuk
 login-signup = Log Masuk / Daftar
 edit = Sunting
@@ -416,6 +420,7 @@ gravatar_not_found = Tiada gravatar dijumpai untuk e-mel anda
 file_too_large = Fail yang dipilih terlalu besar
 avatar-uploaded = Avatar dimuat naik
 max-file-size = { $kb }kb maksima
+remove-avatar = Buang Avatar
 
 ## Profile - Email
 
