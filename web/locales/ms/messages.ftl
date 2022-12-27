@@ -479,6 +479,7 @@ about-nav-get-involved = Melibatkan diri
 
 ## How does localization work
 
+about-playbook-how-localize-content-5 = Tonton penjelasan video kami untuk membantu
 
 ## How to add sentences
 
@@ -486,6 +487,7 @@ about-playbook-how-add-sentences = Bagaimana saya boleh menambah ayat?
 
 ## How to record quality
 
+about-playbook-how-record-content-5 = <accuracyLink>Lihat lebih lanjut tentang kriteria ketepatan.</accuracyLink>
 
 ## How to grow language
 
