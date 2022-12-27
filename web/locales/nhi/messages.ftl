@@ -199,6 +199,10 @@ how-does-it-work-title-v2 = ¿quenin cualtia tlahtol comun?
 ## How does it work section
 
 about-language-req-subtitle = aquin quitlahtlani mac tlalilican ocse tlahtol
+about-localization-subtitle = tlahcuilol campa web mu cuiptoc ica necah tlahtol
+about-sentence-collection-title = tlahcuilol pihpintoc
+about-sentence-collection-subtitle = mu nuchicuhtuqueh tlahcuilolmeh para masehual huilis qui machtis ica tlahtol chicahuac
+about-new-lang-title = qui naltitlantuqueh se yancuic tlahtol
 
 ## Community Playbook Content
 ## What is a language
