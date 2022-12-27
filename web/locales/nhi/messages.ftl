@@ -233,6 +233,7 @@ about-playbook-what-is-language-content-3 = siqui tlahtulmeh quipia se hueyi var
 ## How do I add a language
 
 about-playbook-how-add-language = ¿queni nic tlalia ocse tlahtol?
+about-playbook-how-add-language-content-1 = primero xocon yectlali mu tlahtol <languageLink> yi catqui</languageLink> tla amo uhcon, huilis  <languageRequestLink> xictlahtlani tic tlalis mu  tlahtol </languageRequestLink> catqui umi etapas. tic cuipas sitio huan tic nichicos tlahtulmeh
 
 ## How does localization work
 
