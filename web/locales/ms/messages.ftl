@@ -511,6 +511,7 @@ error-code = Ralat { $code }
 
 ## Data
 
+data-download-button = Muat turun Data Common Voice
 data-download-yes = Ya
 data-download-deny = Tidak
 data-download-license = Lesen: <licenseLink> CC-0 </licenseLink>
@@ -529,6 +530,12 @@ review-delete-recordings = Padamkan rakaman saya
 language = Bahasa
 # File size in gigabytes
 size = Saiz
+validated-hr-total = Jumlah jam disahkan
+overall-hr-total = Keseluruhan Jumlah Jam
+cv-license = Lesen
+audio-format = Format Audio
+number-of-voices = Bilangan Suara
+splits = Pecahan
 email-to-download = Masukkan E-mel untuk Muat turun
 confirm-size = Anda bersedia untuk memulakan muat turun <b>{ $size }</b>
 size-gigabyte = GB
@@ -622,12 +629,16 @@ keep-track-profile = Jejaki kemajuan anda dengan profil
 login-to-get-started = Log masuk atau daftar untuk mulakan
 target-segment-first-card = Anda memberikan sumbangan untuk segmen sasaran pertama kami
 target-segment-generic-card = Anda menyumbang kepada segmen sasaran
+target-segment-first-banner = Bantu membuat segmen sasaran pertama Common Voice di { $locale }
 target-segment-add-voice = Tambahkan Suara Anda
 target-segment-learn-more = Ketahui Selanjutnya
 
 ## Reporting
 
+report = Laporan
+report-title = Hantar laporan
 report-ask = Apakah isu-isu yang anda alami dengan ayat ini?
+report-offensive-language = Bahasa yang menyinggung perasaan
 report-grammar-or-spelling = Kesalahan tatabahasa / ejaan
 report-different-language = Bahasa berbeza
 report-different-language-detail = Bahasa ini ditulis dalam bahasa yang berbeza daripada apa yang saya bercakap.
