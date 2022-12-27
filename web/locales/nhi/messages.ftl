@@ -193,6 +193,7 @@ faq-using-cv = ¿Queni mucui Common Voice?
 
 ## ABOUT US
 
+about-title = ¿queyeh sequicuis Common Voice?
 
 ## How does it work section
 
