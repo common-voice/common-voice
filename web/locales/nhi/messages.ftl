@@ -228,9 +228,11 @@ about-nav-playbook = xitlasalo quenin titech palehuis
 about-playbook-what-is-language = ¿tleno se masehual tlahtol ich Common Voice?
 about-playbook-what-is-language-content-1 = catqui miak tlamantl de sec tlanimilis ikan masehual tlahtol.tlen qui teixmateh tlahtol, Common Voice quihtuhua matimu nimiltica ichin ¨tiachcasaluhuani¨ o ¨¿ huilis tlahtuhuaneh de nicanca masehual tlahtol mu yecnutsasque tla qui yehyecuhuah?¨
 about-playbook-what-is-language-content-2 = secniqui tlen temacah tlahtol moc ixmaticah cuali se hueyi tenuhnutzaneh. para nicanca mu pano se nichicul tlanahuatil tlahtol quipia qui teixpantis a miqueh masehualmeh tlatlamantl
+about-playbook-what-is-language-content-3 = siqui tlahtulmeh quipia se hueyi variacion que tlahcuilohuah, quenin tlahtuhuah, huan quenin quihtuhuah. icanun ticateh<ctaLink> calaquilihtoc variantes </ctaLink> ichin 2022. nicanca qui temaca nichicomasehual queni qui pihpinas y tlahtol tlahtic campa mu nichicuhua tlanahuatil cachi hueyi
 
 ## How do I add a language
 
+about-playbook-how-add-language = ¿queni nic tlalia ocse tlahtol?
 
 ## How does localization work
 
