@@ -203,6 +203,9 @@ about-localization-subtitle = tlahcuilol campa web mu cuiptoc ica necah tlahtol
 about-sentence-collection-title = tlahcuilol pihpintoc
 about-sentence-collection-subtitle = mu nuchicuhtuqueh tlahcuilolmeh para masehual huilis qui machtis ica tlahtol chicahuac
 about-new-lang-title = qui naltitlantuqueh se yancuic tlahtol
+about-new-lang-subtitle = usecnaltitlan sitio de Common Voice icanin masehualtlahtol
+about-voice-contrib-title = pelehuil tlahtol
+about-voice-contrib-subtitle = masehual huitz huan tlapalehuia ica intlahtol
 
 ## Community Playbook Content
 ## What is a language
