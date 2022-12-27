@@ -212,6 +212,7 @@ about-dataset-release-subtitle = sequin nehnextia sansicah tlanahuatilme cada 3 
 about-subscribe-text = ¿tiniqui ihuan timu nuhnutstos ihuan Common Voice?
 about-speak = Tlahtoa
 about-listen = Tlacaqui
+about-stay-in-touch = queni ihuan nimu nuhnutztos
 
 ## Community Playbook Content
 ## What is a language
