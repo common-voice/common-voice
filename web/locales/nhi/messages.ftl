@@ -206,6 +206,10 @@ about-new-lang-title = qui naltitlantuqueh se yancuic tlahtol
 about-new-lang-subtitle = usecnaltitlan sitio de Common Voice icanin masehualtlahtol
 about-voice-contrib-title = pelehuil tlahtol
 about-voice-contrib-subtitle = masehual huitz huan tlapalehuia ica intlahtol
+about-voice-validation-subtitle = ocsiqueh masehualmeh quin siliah nicancateh clips tlahtol
+about-dataset-release-title = naltitlaneh nichicul tlanahuatilme
+about-dataset-release-subtitle = sequin nehnextia sansicah tlanahuatilme cada 3 tlapuhual
+about-subscribe-text = ¿tiniqui ihuan timu nuhnutstos ihuan Common Voice?
 
 ## Community Playbook Content
 ## What is a language
