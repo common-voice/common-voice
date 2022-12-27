@@ -443,8 +443,14 @@ faq-what-cv-and-deepspeech-q = Apa perbezaan antara Common Voice dan Deep Speech
 faq-why-my-lang-q = Mengapa bahasa saya belum dimasukkan lagi?
 faq-what-quality-q = Apakah tahap kualiti audio yang diperlukan untuk klip suara digunakan dalam set data?
 faq-why-10k-hours-q = Mengapa 10,000 jam disahkan matlamat setiap bahasa bagi menangkap audio?
+faq-why-10k-hours-a = Ini adalah kira-kira bilangan jam yang diperlukan untuk melatih sistem ucapan-ke-teks produksi.
 faq-how-calc-hours-q = Bagaimana Common Voice mengira jam?
+faq-how-calc-hours-a = Kami mengira jam dengan menganggarkan purata panjang setiap rakaman, dan kemudian mendarabkan nombor itu dengan jumlah bilangan rakaman merentas semua bahasa.
 faq-where-src-from-2-q = Dari manakah teks sumber berasal?
+faq-where-src-from-2-a =
+    Teks sumber kami terdiri daripada sumbangan penyumbang asal serta dialog daripada skrip filem domain awam seperti <italic>It’s a Wonderful Life</italic>
+    
+    Anda boleh melihat ayat sumber kami dalam <githubLink>folder GitHub ini</githubLink>.
 faq-why-not-ask-read-q = Mengapa anda tidak meminta orang untuk membaca daripada buku atau artikel Wikipedia dalam bahasa yang berbeza?
 faq-why-account-q = Mengapa saya perlu mendaftar akaun?
 faq-is-account-public-q = Adakah maklumat akaun saya publik?
@@ -478,13 +484,17 @@ about-nav-why-common-voice = Kenapa?
 about-nav-how-it-works = Bagaimana?
 about-nav-partners = Rakan kongsi
 about-nav-get-involved = Melibatkan diri
+about-nav-how-it-works-2 = Bagaimanakah Common Voice berfungsi?
+about-nav-playbook = Ketahui cara mengambil bahagian
 
 ## Community Playbook Content
 ## What is a language
 
+about-playbook-what-is-language = Apakah bahasa pada Common Voice?
 
 ## How do I add a language
 
+about-playbook-how-add-language = Bagaimanakah cara saya menambah bahasa?
 
 ## How does localization work
 
