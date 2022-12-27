@@ -215,6 +215,12 @@ about-listen = Tlacaqui
 about-stay-in-touch = queni ihuan nimu nuhnutztos
 about-stay-in-touch-button = ximuihcuilo
 about-stay-in-touch-text-1 = <emailFragment> ximuihcuilo</emailFragmento> ichin tu tlahcuilol correo para nic matis queni huilis tictech palehuis ichin campañas, ilhuimeh huan quenin cualtia Common Voice
+about-stay-in-touch-text-2 = huilis tiquin ixmatis ocsiquen masehualmeh ichin nichicumasehual tlahtol de Mozilla muniluhtok <discourselink>Discourse</discourseLink>para tlahtulmeh nichiculistli o <matrixLink>Matrix</matrixLink> para mutic silicah cuali tlahtol isiuhca
+about-nav-why-common-voice = ¿Queye?
+about-nav-how-it-works = ¿Queni?
+about-nav-get-involved = tepalehuia
+about-nav-how-it-works-2 = ¿quenin cualtia tlahtol comun?
+about-nav-playbook = xitlasalo quenin titech palehuis
 
 ## Community Playbook Content
 ## What is a language
