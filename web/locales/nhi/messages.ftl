@@ -213,6 +213,8 @@ about-subscribe-text = ¿tiniqui ihuan timu nuhnutstos ihuan Common Voice?
 about-speak = Tlahtoa
 about-listen = Tlacaqui
 about-stay-in-touch = queni ihuan nimu nuhnutztos
+about-stay-in-touch-button = ximuihcuilo
+about-stay-in-touch-text-1 = <emailFragment> ximuihcuilo</emailFragmento> ichin tu tlahcuilol correo para nic matis queni huilis tictech palehuis ichin campañas, ilhuimeh huan quenin cualtia Common Voice
 
 ## Community Playbook Content
 ## What is a language
