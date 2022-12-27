@@ -166,6 +166,7 @@ tg = Bahasa Tajik
 th = Bahasa Thai
 ti = Tigrinya
 tig = Bahasa Tigre
+tk = Bahasa Turkmen
 tl = Bahasa Tagalog
 tok = Toki Pona
 tr = Bahasa Turki
