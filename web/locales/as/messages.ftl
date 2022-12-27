@@ -723,6 +723,7 @@ datasets-positioning =
     অন্য মুক্ত উৎসৰ ভইচ ডাটাছেটবোৰৰ তথ্য-কেন্দ্ৰ হিচাপে আৰু, কমন ভইচ বৃদ্ধি হয়মানে, আমাৰ মুক্তিলাভ-সম্পৰ্কীয় আপডেটৰ মুখ্যপৃষ্ঠা হিচাপে এই পৃষ্ঠাখনৰ পৰা সহায় লওক।
 language = ভাষা
 download-dataset-header = ডাটাছেট ডাউনল'ড কৰক
+download-delta-explainer = আমি কিছুমান সাল-সলনি কৰিছোঁ৷ ডেল্টা ছেগমেণ্টবোৰত অন্তিম মুক্তিলাভৰ পাছৰ শেহতীয়া ক্লিপবোৰহে থাকে।  <deltaLink>এই কামৰ বিষয়ে অধিক পঢ়ক</deltaLink> ।
 download-dataset-tag = পছন্দৰ ভাষাৰ ডাটাছেট বাছনি কৰি আপুনি ডাউনল'ড কৰিব বিচৰা সংস্কৰণ বাছি লওক।
 # File size in gigabytes
 size = আকাৰ
@@ -803,6 +804,10 @@ other-language = অন্য ভাষাবোৰ
 ## Request Language Pages
 
 request-language-heading = নতুন ভাষাৰ অনুৰোধ কৰক
+request-language-form-email =
+    .label = আপোনাৰ ইমেইল ঠিকনা
+request-language-form-info =
+    .label = ভাষাটোৰ বিষয়ে তথ্য
 request-language-form-info-explanation-list-1 = আপোনাৰ ভাষাৰ নামবোৰ
 request-language-form-info-explanation-list-2 = <isoCodeLink>ISO ক'ডবোৰ</isoCodeLink> যদি জানে
 request-language-form-info-explanation-list-3 = ভাষাটো বুজাত সহায় কৰিব পৰা ৱেবছাইটবোৰৰ লিংক
