@@ -261,6 +261,8 @@ about-playbook-how-record-content-5 = <accuracyLink> xiquita cachi ican tlahtulm
 
 about-playbook-how-grow-language = ¿quenin huilis sek chihuas ma hueyiya cuali se tlahtol ichin Common Voice?
 about-playbook-how-grow-language-content-1 = sec chihua nin tlapalehuil para masehualmeh matech palehuican Common Voice tech iljuia que nichicol tlahtol maquin palehui cachi masehualmeh. usecchiuh se tiquitl tlen huilis tiquicuis
+about-playbook-how-grow-language-content-2 = ilhuitl
+about-playbook-how-grow-language-content-3 = huilis tic chihuas ilhuitl para tiquin palehuis masehualmeh ma tech palehuican. cachi isiuhca quen tic nimilia, huilis qui chihuas ichin linea ica se tipospalehuil nexitlahtol o sehseh masehual tla uhcon cachi cuali <eventTemplate> xiquita tu plantillas huan ica tleno sec palehuia sequin chihuas ilhuitl</eventTemplate>
 
 ## How to validate
 
