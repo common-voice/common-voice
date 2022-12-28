@@ -248,6 +248,7 @@ about-playbook-how-localize-content-5 = xiquita tuvideo campa huits quenin mits 
 
 ## How to add sentences
 
+about-playbook-how-add-sentences = ¿quini niquin ihcuiluhua cachi tlahtolmeh?
 
 ## How to record quality
 
