@@ -234,7 +234,7 @@ wall-of-text-more-desktop =
     penyumbang untuk meningkatkan kualiti. Sangat mudah!
 wall-of-text-first =
     Suara adalah semulajadi, suara adalah manusia. Itulah sebabnya kami teruja mencipta teknologi suara yang boleh digunakan
-    untuk mesin kita. Tetapi untuk mewujudkan sistem suara, pembangun memerlukan data suara yang sangat besar.
+    untuk mesin kita. Tetapi untuk mewujudkan sistem suara, pembangun memerlukan data suara yang sangat besar jumlahnya.
 wall-of-text-second =
     Sebilangan besar data yang digunakan oleh syarikat besar tidak tersedia untuk majoriti orang. Kami berpendapat bahawa itu menyekat inovasi. Oleh itu, kami telah melancarkan Common Voice, sebuah projek untuk membantu menjadikan pengecaman suara terbuka
     dan boleh diakses oleh semua orang.
