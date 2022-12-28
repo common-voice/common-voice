@@ -228,10 +228,6 @@ wall-of-text-more-mobile =
     Kebanyakan data yang digunakan oleh syarikat besar tidak tersedia untuk kebanyakan pengguna. Kami fikir
     itu yang menyekat inovasi. Oleh itu, kita telah melancarkan Projek Common Voice, projek untuk membantu membuat suara
     pengiktirafan terbuka kepada semua orang.
-wall-of-text-more-desktop =
-    Kini anda dapat menyumbangkan suara anda untuk membantu kami membina pangkalan data suara sumber terbuka yang boleh digunakan oleh sesiapa sahaja
-    untuk membuat aplikasi inovatif untuk peranti dan web. Baca ayat untuk membantu mesin mengetahui bagaimana orang sebenar bercakap. Periksa kerja orang lain
-    penyumbang untuk meningkatkan kualiti. Sangat mudah!
 wall-of-text-first =
     Suara adalah semulajadi, suara adalah manusia. Itulah sebabnya kami teruja mencipta teknologi suara yang boleh digunakan
     untuk mesin kita. Tetapi untuk mewujudkan sistem suara, pembangun memerlukan data suara yang sangat besar jumlahnya.
