@@ -204,7 +204,7 @@ about = Berkenaan
 partner = Rakan kongsi
 profile = Profil
 help = Bantuan
-contact = Hubungi
+contact = Kenalan
 privacy = Privasi
 terms = Terma
 cookies = Kuki
@@ -288,10 +288,10 @@ join-newsletter = Secara sukarela sertai senarai e-mel kami untuk kemas kini dan
 
 ## What's public
 
-whats-public = Apa itu awam?
-email-not-public = Kami tidak akan menjadikan e-mel anda umum.
-recordings-and-locale-public = Jumlah rakaman dan bahasa yang anda sumbangkan akan menjadi umum.
-username-optin-public = Anda boleh pilih untuk jadikan nama pengguna anda terbuka atau tanpa nama.
+whats-public = Apa yang umum?
+email-not-public = Kami tidak akan menjadikan e-mel Anda umum.
+recordings-and-locale-public = Jumlah rakaman dan bahasa yang Anda sumbangkan akan menjadi umum.
+username-optin-public = Anda boleh pilih untuk jadikan nama pengguna anda terbuka atau awanama.
 demographic-deidentified-clarity-2 = Data demografi (seperti umur, jantina, bahasa dan aksen)  yang diserahkan secara pilihan, tidak akan didedahkan kepada umum pada profil anda dan tidak akan dipautkan ke akaun anda dalam set data. Klip audio individu akan dikaitkan dengan data demografi untuk tujuan analisa yang lebih tepat - contohnya, seorang penyelidik mungkin ingin menyasarkan model latihan kepada segmen demografi tertentu
 username-email-not-demographic = Nama pengguna dan e-mel anda tidak akan dikaitkan dengan data yang diterbitkan.
 
