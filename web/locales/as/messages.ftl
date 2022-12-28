@@ -1282,9 +1282,9 @@ sc-review-form-button-submit =
 #   $sentences (Number) - Number of sentences the user has reviewed in this session
 sc-review-form-reviewed-message =
     { $sentences ->
-        [0] এটাও বাক্য পৰ্যালোচনা কৰা হোৱা নাই।
-        [one] এটা বাক্য পৰ্যালোচনা কৰা হৈছে। ধন্যবাদ!
-       *[other] { $sentences }টা বাক্য পৰ্যালোচনা কৰা হৈছে। ধন্যবাদ!
+        [0] এটাও বাক্যৰ পৰ্যালোচনা কৰা হোৱা নাই।
+        [one] এটা বাক্যৰ পৰ্যালোচনা কৰা হৈছে। ধন্যবাদ!
+       *[other] { $sentences }টা বাক্যৰ পৰ্যালোচনা কৰা হৈছে। ধন্যবাদ!
     }
 sc-review-form-review-failure = পৰ্যালোচনা সাঁচি থ'ব পৰা নগ'ল। অনুগ্ৰহ কৰি পিছত পুনৰ চেষ্টা কৰিব।
 sc-review-link = পৰ্যালোচনা কৰক
@@ -1305,6 +1305,13 @@ sc-validation-no-abbreviations = বাক্যত সংক্ষিপ্ত 
 
 # [/SentenceCollector]
 
+localization-select =
+    .label = ভাষা/স্থানীয়কৰণ বাছি লওক
+# PARTNERSHIPS PAGE
+partnerships-header = অংশীদাৰিত্ব
+partnerships-header-text = কমন ভইচক সম্ভৱপৰ কৰি তুলিবলৈ অনেক কিছুৰ প্ৰয়োজন! আমি সেয়া অকলে নকৰোঁ। আমাৰ অংশীদাৰ হ'ব বিচাৰেনে? আপুনি আমাৰ সৈতে যোগাযোগ কৰিলে আমি ভাল পাম।
+partnerships-get-in-touch = যোগাযোগ কৰক
+partnerships-become-a-partner = কমন ভইচৰ অংশীদাৰ হওক
 add-information-button = তথ্য যোগ কৰক
 continue-speaking-button = নালাগে ধন্যবাদ, কথা কোৱা জাৰী ৰাখক
 create-profile-text = আপোনাৰ তথ্য সাঁচি থ'ব বিচাৰেনে? <createProfile>প্ৰ'ফাইলৰ সৃষ্টি কৰক</createProfile>
