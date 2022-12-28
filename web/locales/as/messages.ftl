@@ -834,6 +834,10 @@ request-language-success-list-2 =
     ওপৰঞ্চি সাহায্য আগবঢ়াবলৈ আৰু আপোনাৰ ভাষাৰ ওপৰত
     ইতিমধ্যে কোনো সমাজে কাম কৰি আছেনে সেয়া আপোনাক জনাবলৈ
     আমাৰ সমাজ-পৰিচালক আপোনাৰ কাষ চাপিব
+request-language-success-list-3 =
+    দুদিনমানৰ ভিতৰত আপুনি আমাৰ পৰা কোনো খবৰ নাপালে 
+    <emailLink>{ $email }</emailLink>-ত যোগাযোগ কৰিব
+    আৰু আমি আপোনালৈ সঁহাৰি জনাম!
 
 ## Languages Overview
 
@@ -1256,6 +1260,8 @@ sc-review-title = বাক্যবোৰ পৰ্যালোচনা কৰ
 sc-review-loading = বাক্যবোৰ ল'ড কৰি থকা হৈছে…
 sc-review-select-language = অনুগ্ৰহ কৰি বাক্যবোৰ পৰ্যালোচনা কৰিবলৈ এটা ভাষা বাছনি কৰক।
 sc-review-no-sentences = পৰ্যালোচনা কৰিবলৈ কোনো বাক্য নাই। <addLink>এতিয়াই অধিক বাক্য যোগ কৰক!</addLink>
+sc-review-form-prompt =
+    .message = পৰ্যালোচনা কৰা বাক্যকেইটা জমা দিয়া হোৱা নাই, নিশ্চিতনে?
 sc-review-form-usage = বাক্যটো অনুমোদিত কৰিবলৈ সোঁফালে ছোৱাইপ কৰক। ইয়াক নাকচ কৰিবলৈ বাঁওফালে ছোৱাইপ কৰক। ইয়াক বাদ দিবলৈ ওপৰলৈ ছোৱাইপ কৰক। <strong>আপোনাৰ পৰ্যালোচনা জমা দিবলৈ নাপাহৰিব!</strong>
 # Variables:
 #   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
@@ -1272,6 +1278,14 @@ sc-review-form-button-skip-shortcut = S
 sc-review-form-keyboard-usage-custom = আপুনি কী-ব'ৰ্ড শ্বৰ্টকাটকেইটাও ব্যৱহাৰ কৰিব পাৰে: অনুমোদন জনাবলৈ { sc-review-form-button-approve-shortcut }, নাকচ কৰিবলৈ { sc-review-form-button-reject-shortcut }, বাদ দিবলৈ { sc-review-form-button-skip-shortcut }
 sc-review-form-button-submit =
     .submitText = পৰ্যালোচনা শেষ কৰক
+# Variables:
+#   $sentences (Number) - Number of sentences the user has reviewed in this session
+sc-review-form-reviewed-message =
+    { $sentences ->
+        [0] এটাও বাক্য পৰ্যালোচনা কৰা হোৱা নাই।
+        [one] এটা বাক্য পৰ্যালোচনা কৰা হৈছে। ধন্যবাদ!
+       *[other] { $sentences }টা বাক্য পৰ্যালোচনা কৰা হৈছে। ধন্যবাদ!
+    }
 sc-review-form-review-failure = পৰ্যালোচনা সাঁচি থ'ব পৰা নগ'ল। অনুগ্ৰহ কৰি পিছত পুনৰ চেষ্টা কৰিব।
 sc-review-link = পৰ্যালোচনা কৰক
 
