@@ -804,6 +804,11 @@ other-language = অন্য ভাষাবোৰ
 ## Request Language Pages
 
 request-language-heading = নতুন ভাষাৰ অনুৰোধ কৰক
+request-language-explanation-1 =
+    <languagesPageLink>কমন ভইচৰ ভাষা পৃষ্ঠা</languagesPageLink>ত আপোনাৰ ভাষা
+    তালিকাভুক্ত হৈ আছে নে নাই চাওক।
+    যদি নাই, তেন্তে এই প্ৰ-পত্ৰখন পূৰাওক আৰু আমি <strong>আপোনাৰ ভাষা কেনেকৈ
+    ছেট আপ কৰিব পাৰি সেয়া বুজাব পৰাকৈ আপোনালৈ এটা উপযোগী ইমেইল পঠিয়াম</strong>।
 request-language-form-email =
     .label = আপোনাৰ ইমেইল ঠিকনা
 request-language-form-info =
