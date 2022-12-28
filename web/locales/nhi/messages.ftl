@@ -234,6 +234,9 @@ about-playbook-what-is-language-content-3 = siqui tlahtulmeh quipia se hueyi var
 
 about-playbook-how-add-language = ¿queni nic tlalia ocse tlahtol?
 about-playbook-how-add-language-content-1 = primero xocon yectlali mu tlahtol <languageLink> yi catqui</languageLink> tla amo uhcon, huilis  <languageRequestLink> xictlahtlani tic tlalis mu  tlahtol </languageRequestLink> catqui umi etapas. tic cuipas sitio huan tic nichicos tlahtulmeh
+about-playbook-how-add-language-translating-content-1 = <translateVideoLink> xiquita tu tiachcanimilis quenin mucuis Pontoon.</translateVideoLink>
+about-playbook-how-add-language-collecting-sentences-heading = nichico tlahtol
+about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo> xiquita tu tiachcanimilis quenin mucuis nichicol tlahtol </sentenceCollectorVideo>
 
 ## How does localization work
 
