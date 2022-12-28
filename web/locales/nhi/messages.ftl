@@ -243,6 +243,7 @@ about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollec
 ## How does localization work
 
 about-playbook-how-localize-content-1 = campa mu patla tlahtol ich Common Voice  muchihua itich<strong> Pontoon</strong>
+about-playbook-how-localize-content-2 = <pontoonAccountLink>xicchihchihua se cuenta </pontoonAccountLink> tla amo tic pia se. San nima xic tlali mu tlahtol<strong> (´ team')</strong>huan nima xic tlali mu tiquiuh<pontoonCvLink>Common Voice</pontoonCvLink>Isqui miak tlahcuilol para tic patlas. xic pachu campa se, nima mits nextilis tlahtol ika Ingles huan quemenia tiquin patlas
 
 ## How to add sentences
 
