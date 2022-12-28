@@ -270,6 +270,7 @@ about-playbook-how-grow-language-content-8 = <strong>xií tlanimililyuli</strong
 
 about-playbook-how-validate = que nik mati tla quema nic silis se tlanahuatil tlahtol
 about-playbook-how-validate-content-1 = tla utihuilisquia<strong>xiquin caqui</strong> huan<strong> ticmatis </strong>cachi cuali secmatis </strong>
+about-playbook-how-validate-content-2 = <strong>amo xiquin pulilti tlahtulmeh campa tlahtuhuani 'quipia se acento' tlamantl quemen teh</strong> nicanca simi importante para ixmatilis tlahtol mucui cuali para nuchten
 
 ## How to access dataset
 
