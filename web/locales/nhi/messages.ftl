@@ -237,6 +237,7 @@ about-playbook-how-add-language-content-1 = primero xocon yectlali mu tlahtol <l
 about-playbook-how-add-language-translating-content-1 = <translateVideoLink> xiquita tu tiachcanimilis quenin mucuis Pontoon.</translateVideoLink>
 about-playbook-how-add-language-collecting-sentences-heading = nichico tlahtol
 about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo> xiquita tu tiachcanimilis quenin mucuis nichicol tlahtol </sentenceCollectorVideo>
+about-playbook-how-add-language-collecting-sentences-content-2 = huilis<sentenceCollectorLinkAdd> tiquin tlalihtas tzocopintsitsi tlahtulmeh</sentenceCollectorLinkAdd> o huilis tic chihuas <bulkImportDocsLink>quiculiniah miac quicuitihueh</bulkImportDocsLink> xiquilnamiqui quen tlanonots quipia de isqui <licenseLink>CC0 tlamo (iaxca nuchi masehual </licenseLink> o huilis tiquihcuilos mi axcahuah
 
 ## How does localization work
 
