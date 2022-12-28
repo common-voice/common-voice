@@ -210,7 +210,7 @@ terms = Terma
 cookies = Kuki
 faq = Soalan Lazim
 content-license-text = Kandungan tersedia di bawah <licenseLink>lesen Creative Commons</licenseLink>
-share-title = Bantu kami cari orang lain untuk menderma suara mereka!
+share-title = Bantu kami mencari orang lain untuk menderma suara mereka!
 share-text = Bantu mengajar mesin bagaimana orang sebenar bercakap, sumbangkan suara anda di { $link }
 link-copied = Pautan Disalin
 back-top = Kembali ke atas
@@ -392,7 +392,7 @@ profile-explanation = Jejaki kemajuan anda dengan profil dan bantu data suara ka
 thanks-for-account = Terima kasih kerana mengesahkan akaun anda, sekarang mari bina profil anda.
 why-demographic = Kenapa ini penting?
 why-demographic-explanation-2 = Data pengguna awanama seperti umur, jantina dan loghat membantu meningkatkan data audio yang digunakan untuk melatih ketepatan enjin pengecaman pertuturan. Nama pengguna dan e-mel anda tidak akan dikaitkan dengan data yang anda hantar, dan anda boleh pilih sama ada mahu menjadikan nama pengguna anda umum atau tanpa nama.
-accept-privacy = Saya setuju anda mengendalikan maklumat ini seperti yang dijelaskan dalam <privacyLink>Dasar Privasi</privacyLink> Mozilla
+accept-privacy = Saya setuju Mozilla mengendalikan maklumat ini seperti yang tertera pada <privacyLink>Dasar Privasi</privacyLink>
 accept-privacy-title = Dasar Polisi
 accept-privacy-and-terms = Saya bersetuju dengan <termsLink>Terma</termsLink> dan <privacyLink>Notis Privasi</privacyLink>
 login-identity = Identiti Log Masuk
@@ -597,6 +597,9 @@ dataset-version = Versi
 
 download-title = Muat turun anda telah bermula.
 download-helpus = Bantu kami membina komuniti di sekeliling teknologi suara, terus berhubung melalui e-mel.
+download-form-email =
+    .label = Masukkan e-mel Anda
+    .value = Terima kasih, kami akan berhubung.
 download-back = Kembali ke set data Common Voice
 
 ## Contact Modal
