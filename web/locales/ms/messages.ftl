@@ -659,9 +659,13 @@ record-abort-text = Pergi sekarang bermakna anda akan kehilangan kemajuan
 record-abort-submit = Hantar klip
 record-abort-continue = Selesai merakam
 record-abort-delete = Keluar & Padam klip
+listen-instruction = { $actionType }<playIcon></playIcon> adakah mereka bercakap ayat dengan tepat?
 listen-again-instruction = Syabas!<playIcon></playIcon> Dengar sekali lagi apabila anda sudah bersedia
 listen-last-time-instruction = <playIcon> </playIcon> Terakhir!
 listen-empty-state = Kami kehabisan klip untuk mengesahkan dalam bahasa ini ...
+listen-loading-error =
+    Kami tidak dapat mendapatkan sebarang klip audio untuk anda dengar.
+    Sila cuba sebentar lagi.
 speak-empty-state = Kami kehabisan ayat untuk dirakam dalam bahasa ini ...
 speak-empty-state-cta = Menyumbang ayat
 record-button-label = Rakam suara anda
@@ -683,7 +687,7 @@ report-offensive-language = Bahasa yang menyinggung perasaan
 report-offensive-language-detail = Ayat tersebut mempunyai bahasa yang tidak sopan atau menyinggung perasaan.
 report-grammar-or-spelling = Kesalahan tatabahasa / ejaan
 report-different-language = Bahasa berbeza
-report-different-language-detail = Bahasa ini ditulis dalam bahasa yang berbeza daripada apa yang saya bercakap.
+report-different-language-detail = Ayat ini ditulis dalam bahasa yang berbeza daripada apa yang saya bercakap.
 report-difficult-pronounce = Sukar diucapkan
 report-difficult-pronounce-detail = Ia mengandungi perkataan atau frasa yang sukar dibaca atau diucapkan.
 report-offensive-speech = Ucapan yang menyinggung perasaan
