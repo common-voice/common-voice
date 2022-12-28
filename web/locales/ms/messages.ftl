@@ -648,6 +648,7 @@ record-must-allow-microphone = Anda mesti membenarkan akses mikrofon.
 record-error-too-short = Rakaman terlalu pendek.
 record-error-too-quiet = Rakaman terlalu senyap.
 record-cancel = Batalkan Rakaman Semula
+record-instruction = { $actionType } <recordIcon></recordIcon> kemudian baca ayat dengan lantang
 record-three-more-instruction = Tiga lagi!
 share-clip = Kongsi klip anda
 share-common-voice = Kongsi Common Voice
@@ -675,14 +676,15 @@ target-segment-learn-more = Ketahui Selanjutnya
 
 ## Reporting
 
-report = Laporan
+report = Laporkan
 report-title = Hantar laporan
 report-ask = Apakah isu-isu yang anda alami dengan ayat ini?
 report-offensive-language = Bahasa yang menyinggung perasaan
+report-offensive-language-detail = Ayat tersebut mempunyai bahasa yang tidak sopan atau menyinggung perasaan.
 report-grammar-or-spelling = Kesalahan tatabahasa / ejaan
 report-different-language = Bahasa berbeza
 report-different-language-detail = Bahasa ini ditulis dalam bahasa yang berbeza daripada apa yang saya bercakap.
-report-difficult-pronounce = Sukar untuk disebut
+report-difficult-pronounce = Sukar diucapkan
 report-difficult-pronounce-detail = Ia mengandungi perkataan atau frasa yang sukar dibaca atau diucapkan.
 report-offensive-speech = Ucapan yang menyinggung perasaan
 report-offensive-speech-detail = Klip tersebut mempunyai bahasa yang tidak sopan atau menyinggung perasaan.
@@ -893,6 +895,7 @@ sc-footer-privacy = Privasi
 
 ## REVIEW
 
+sc-review-form-button-skip = Langkau
 
 ## SETTINGS
 
