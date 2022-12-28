@@ -198,9 +198,9 @@ zh-TW = Bahasa Cina (Taiwan)
 
 speak = Bercakap
 speak-now = Cakap sekarang
-datasets = Set data
+datasets = Datasets
 languages = Bahasa
-about = Mengenai
+about = Berkenaan
 partner = Rakan Kongsi
 profile = Profil
 help = Bantuan
