@@ -201,7 +201,7 @@ speak-now = Cakap sekarang
 datasets = Datasets
 languages = Bahasa
 about = Berkenaan
-partner = Rakan Kongsi
+partner = Rakan kongsi
 profile = Profil
 help = Bantuan
 contact = Hubungi
@@ -272,16 +272,16 @@ x-years-short =
        *[other] { $count }y
     }
 help-make-dataset = Bantu kami membina set data berkualiti tinggi dan terbuka untuk umum
-sign-up-account = Daftar untuk mendapatkan akaun
+sign-up-account = Daftarkan akaun
 email-subscription-title = Daftar untuk mendapatkan kemas kini emel
 email-subscription-title-new = Daftar untuk buletin Common Voice, peringatan matlamat dan kemas kini kemajuan
 
 ## Account Benefits
 
-benefits = Kebaikan
-rich-data = Jadikan data yang anda serahkan selengkap mungkin dengan menyediakan sebahagian data demografi awanama. Kami menyahkenalpasti semua data demografi sebelum menjadikannya umum.
-improve-audio = Maklumat profil menambahbaik baik data audio yang digunakan dalam latihan ketepatan pengecaman pertuturan.
-keep-track = Jejaki kemajuan dan metrik anda dalam pelbagai bahasa.
+benefits = Manfaat
+rich-data = Jadikan data yang anda serahkan selengkap mungkin dengan menyediakan sebahagian data demografi awanama. Kami menyahkenal pasti semua data demografi sebelum menjadikannya umum.
+improve-audio = Maklumat profil data audio dapat digunakan dalam melatih ketepatan pengecaman pertuturan.
+keep-track = Pantau kemajuan dan metrik anda dalam pelbagai bahasa.
 compare-progress = Lihat bagaimana kemajuan anda dibandingkan dengan penyumbang lain di seluruh dunia.
 view-goals = Lihat kemajuan anda terhadap matlamat peribadi dan projek.
 join-newsletter = Secara pilihan, sertai senarai e-mel kami untuk kemas kini dan maklumat baru mengenai projek ini.
@@ -785,6 +785,7 @@ profile-form-delete = Hapus Profil
 
 welcome-staff = Selamat Datang kakitangan { $company }!
 login-company = Log masuk / Daftar dengan e-mel { $company }
+profile-not-required = Mempunyai profil tidak wajibkan untuk menyumbang walaupun ia sangat membantu , lihat sebabnya di bawah.
 read-more-about = Baca lebih lanjut di halaman Perihal kami
 
 ## DemoLayout
