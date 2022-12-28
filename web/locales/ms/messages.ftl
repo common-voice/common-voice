@@ -636,7 +636,7 @@ sentences = Ayat
 ## Contribution
 
 action-click = Klik
-contribute = Penyumbang
+contribute = Menyumbang
 listen = Dengar
 skip = Langkau
 shortcuts = Pintasan
