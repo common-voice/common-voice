@@ -282,9 +282,9 @@ benefits = Manfaat
 rich-data = Jadikan data yang anda serahkan selengkap mungkin dengan menyediakan sebahagian data demografi awanama. Kami menyahkenal pasti semua data demografi sebelum menjadikannya umum.
 improve-audio = Maklumat profil data audio dapat digunakan dalam melatih ketepatan pengecaman pertuturan.
 keep-track = Pantau kemajuan dan metrik anda dalam pelbagai bahasa.
-compare-progress = Lihat bagaimana kemajuan anda dibandingkan dengan penyumbang lain di seluruh dunia.
+compare-progress = Lihat bagaimana kemajuan Anda dibandingkan dengan penyumbang lain di seluruh dunia.
 view-goals = Lihat kemajuan anda terhadap matlamat peribadi dan projek.
-join-newsletter = Secara pilihan, sertai senarai e-mel kami untuk kemas kini dan maklumat baru mengenai projek ini.
+join-newsletter = Secara sukarela sertai senarai e-mel kami untuk kemas kini dan maklumat baru mengenai projek ini.
 
 ## What's public
 
