@@ -249,9 +249,11 @@ about-playbook-how-localize-content-5 = xiquita tuvideo campa huits quenin mits 
 ## How to add sentences
 
 about-playbook-how-add-sentences = ¿quini niquin ihcuiluhua cachi tlahtolmeh?
+about-playbook-how-add-sentences-content-4 = tlahcuilolmeh tlen quema uquin silihqueh mu panultisqueh tunal miercoles  huan huilis mucuis satepan den ocse naltitlanil
 
 ## How to record quality
 
+about-playbook-how-record-content-1 = xi tlahto normal. Uhcon quenti tlahtuhua nican cuali sec silia, sec niqui mu tlahtol uhcon quen yuhui, huan secniqui uhcon chicahuac huan queni nun tlahtuhuah queme nucumateh
 
 ## How to grow language
 
