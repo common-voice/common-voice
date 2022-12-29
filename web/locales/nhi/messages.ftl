@@ -294,6 +294,10 @@ about-playbook-how-project-governance-content-7 = <governanceLink> ximomachti ca
 
 glossary = miactlahtol
 localization = cancatqui
+localization-explanation = nicanca tu nemilis para tic cuipasquehtlahtol huan semumatis ican tu tiquiuh ica miac tlahtol
+sentence-collection = tlahcuilol pihpintoc
+sentence-collection-explanation = Xiquin nichicon tlahtolmeh de dominio nextilis o tlahcuilol yancuic  para dominio masehualmeh
+sst = detlahcuilol a tlahtol (STT)
 
 ## Error pages
 
