@@ -459,7 +459,7 @@ faq-what-is-cv = Apakah Common Voice?
 faq-using-cv = Menggunakan Common Voice
 faq-description = Common Voice adalah sebahagian daripada inisiatif Mozilla untuk membantu mengajar mesin cara orang sebenar bercakap.
 faq-search-for-answers =
-    .label = Cari untuk jawapan
+    .label = Cari jawapan
 
 ## ABOUT US
 
