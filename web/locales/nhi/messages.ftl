@@ -282,6 +282,7 @@ about-playbook-how-access-dataset-content-2 = mu temuhtuqueh tipos palehuaneh pa
 
 ## How are decisions made
 
+about-playbook-how-project-governance = quenin tiquin mana tlahtol tiquitl
 
 ## Glossary
 
