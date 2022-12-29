@@ -435,6 +435,10 @@ change-email-setings = Tukar e-mel anda melalui Tetapan di bawah Identiti Log Ma
 faq-title = Soalan Lazim
 faq-what-cv-q = Apakah Common Voice?
 faq-what-cv-a = Teknologi pengecaman suara sedang merevolusikan cara kita berinteraksi dengan mesin, tetapi sistem yang tersedia pada masa ini adalah mahal dan proprietari. Common Voice adalah sebahagian daripada inisitif Mozilla untuk menjadikan teknologi pengecaman pengecaman suara lebih baik dan lebih mudah diakses oleh semua orang. Common Voice adalah pangkalan data global yang besar bagi suara yang didermakan yang membolehkan sesiapa sahaja dengan cepat dan mudah melatih aplikasi berdaya suara yang berpotensi untuk setiap bahasa.
+faq-what-cv-a-2 =
+    Teknologi pengecaman suara sedang merevolusikan cara kita berinteraksi dengan mesin, tetapi sistem yang tersedia pada buat masa ini adalah mahal dan proprietari. Mozilla Common Voice adalah inisitif untuk menjadikan teknologi pengecaman pengecaman suara lebih baik dan lebih mudah diakses oleh semua orang. Common Voice adalah pangkalan data global yang besar bagi suara yang didermakan yang membolehkan sesiapa sahaja dengan cepat dan mudah melatih aplikasi berdaya suara yang berpotensi untuk setiap bahasa.
+    
+    Kami bukan sahaja mengumpul sampel suara dalam bahasa yang dituturkan secara meluas, tetapi juga dalam bahasa yang mempunyai populasi penutur yang lebih kecil. Menerbitkan set data suara yang pelbagai akan memperkasakan pembangun, usahawan dan komuniti untuk menangani kekurangan ini sendiri.
 faq-why-important-q = Mengapa ia penting?
 faq-how-get-q = Bagaimana saya boleh mendapatkan data Common Voice?
 faq-when-release2-q = Bilakah anda akan mengeluarkan data Common Voice dalam bahasa lain?
