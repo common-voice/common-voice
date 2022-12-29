@@ -278,6 +278,7 @@ about-playbook-how-validate-content-4 = tla umi masehualmeh qui pulultia se tlah
 
 about-playbook-how-access-dataset = ¿queni ni calaqui huan queni nicui nichicul tlahtol?
 about-playbook-how-access-dataset-content-1 = huilis tiyas <datasetsPage>ichin pagina campa mu nuchicuhuan tlanahuatilmeh </datasetsPage>xic pihpina version huan tlahtulmeh tlen tik niquis huan xiquin ahcucui. tlanahuatilmeh quipiah <metadataLink>metadatos niliuhtuqueh </metadataLink>quemeh tlanahuatil demográfica huan tlanahuatil tlen oquisilihqueh. quipia de quitemactis se direccion de correo para huilis ticahcucuis nichicul tlanahuatil
+about-playbook-how-access-dataset-content-2 = mu temuhtuqueh tipos palehuaneh para sequin chihchihuas se yehyecolis ASR, huilis timo salos ihuan ocsiquen masehualme de ocsicah<discourseLink>ichin Discourse </discourseLink>
 
 ## How are decisions made
 
