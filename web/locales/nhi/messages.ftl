@@ -283,9 +283,17 @@ about-playbook-how-access-dataset-content-2 = mu temuhtuqueh tipos palehuaneh pa
 ## How are decisions made
 
 about-playbook-how-project-governance = quenin tiquin mana tlahtol tiquitl
+about-playbook-how-project-governance-content-1 = Mozilla Common Voice umuchiuh ikan tlapalehuil masehual nichiculis tlatlamantl tiquitl, tlahtulmeh, cientificos de tlanahuatil,academicos, huan ingenieros de sofware de nuchi tlalticpac . tiquitl qui chihchiuhtuqueh por fundacion Mozilla
+about-playbook-how-project-governance-content-2 = tu tiachcauh mu yicana ichin pilares de:
+about-playbook-how-project-governance-content-4 = tlapalehuani masehualnichicol huan xi cana se cuali tlahtol
+about-playbook-how-project-governance-content-5 = quexquich huan teixpantilis
+about-playbook-how-project-governance-content-6 = puhual sansicah
+about-playbook-how-project-governance-content-7 = <governanceLink> ximomachti cachi quemeh quenin tech ixpantiah</governanceLink>
 
 ## Glossary
 
+glossary = miactlahtol
+localization = cancatqui
 
 ## Error pages
 
