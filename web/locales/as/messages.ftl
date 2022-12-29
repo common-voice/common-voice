@@ -1024,11 +1024,30 @@ help-reach-hours-general-pluralized =
     }লৈ গৈ পোৱাত সহায় কৰক
 set-a-goal = লক্ষ্য ছেট কৰক
 cant-decide = সিদ্ধান্ত ল'ব পৰা নাই?
+activity-needed-calculation-plural =
+    { NUMBER($periodMonths) ->
+        [one] { $periodMonths } মাহৰ ভিতৰতেই
+       *[other] { $periodMonths } মাহৰ ভিতৰতেই
+    } { NUMBER($totalHours) ->
+        [one] { $totalHours } ঘণ্টা লাভ কৰিব পৰা যায় যদি
+       *[other] { $totalHours } ঘণ্টা লাভ কৰিব পৰা যায় যদি
+    } { NUMBER($people) ->
+        [one] { $people }গৰাকী লোকে
+       *[other] { $people }গৰাকী লোকে
+    } { NUMBER($clipsPerDay) ->
+        [one] এদিনত { $clipsPerDay }টাকৈ ক্লিপ ৰেকৰ্ড কৰে।
+       *[other] এদিনত { $clipsPerDay }টাকৈ ক্লিপ ৰেকৰ্ড কৰে।
+    }
 how-many-per-day = বঢ়িয়া! এদিনত কেইটাকৈ ক্লিপ?
 how-many-a-week = বঢ়িয়া! এসপ্তাহত কেইটাকৈ ক্লিপ?
 which-goal-type = আপুনি কথা ক'ব, শুনিব নে দুয়োটা কৰিব বিচাৰে?
 receiving-emails-info = আপুনি বৰ্তমান লক্ষ্যৰ ৰিমাইণ্ডাৰ, মোৰ প্ৰগতিৰ আপডেট আৰু কমন ভইচৰ বিষয়ে সংবাদপত্ৰৰ দৰে ইমেইল প্ৰাপ্ত কৰাটো ছেট কৰি থৈছে
 not-receiving-emails-info = আপুনি বৰ্তমান লক্ষ্যৰ ৰিমাইণ্ডাৰ, মোৰ প্ৰগতিৰ আপডেট আৰু কমন ভইচৰ বিষয়ে সংবাদপত্ৰৰ দৰে ইমেইল প্ৰাপ্ত <bold>নকৰা</bold>টো ছেট কৰি থৈছে
+n-clips-pluralized =
+    { NUMBER($count) ->
+        [one] { $count }টা ক্লিপ
+       *[other] { $count }টা ক্লিপ
+    }
 help-share-goal = আমাক আৰু মাত বিচৰাত সহায় কৰক, আপোনাৰ লক্ষ্য ভাগ-বতৰা কৰক
 confirm-goal = লক্ষ্য নিশ্চিত কৰক
 goal-interval-weekly = সপ্তাহিক
