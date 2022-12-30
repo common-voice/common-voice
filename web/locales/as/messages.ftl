@@ -1089,7 +1089,7 @@ sc-my-submission = দাখিল: { $batchId }
 # Variables:
 #   $source (String) - Associated source the user filled out when uploading the sentence
 sc-my-source = উৎস: { $source }
-sc-my-delete = বাছনি কৰা বাক্যবোৰ মচি পেলাওক
+sc-my-delete = বাছনি কৰা বাক্যকেইটা মচি পেলাওক
 sc-my-deleting = বাছনি কৰা বাক্যবোৰ মচি থকা হৈছে…
 sc-my-err-failed-delete = বাছনি কৰা বাক্যবোৰ মচিবলৈ ব্যৰ্থ... অনুগ্ৰহ কৰি পুনৰ চেষ্টা কৰক!
 
@@ -1138,6 +1138,25 @@ sc-confirm-button-text = নিশ্চিত কৰক
 sc-lang-info-title-total = মুঠ
 sc-lang-info-title-personal = ব্যক্তিগত
 sc-lang-info-review-now = <reviewLink>এতিয়াই পৰ্যালোচনা কৰক!</reviewLink>
+sc-lang-info-add-more = <addLink>এতিয়াই অধিক বাক্য যোগ কৰক!</addLink>
+# Variables:
+#   $validatedSentences (Number) - Number of sentences which have been approved for this language
+sc-lang-info-validated =
+    { $validatedSentences ->
+        [0] এটাও বাক্য বৈধকৰণ কৰা হোৱা নাই।
+        [one] এটা বাক্য বৈধকৰণ কৰা হৈছে।
+        [two] দুটা বাক্য বৈধকৰণ কৰা হৈছে।
+       *[other] { $validatedSentences }টা বাক্য বৈধকৰণ কৰা হৈছে।
+    }
+# Variables:
+#   $rejectedSentences (Number) - Number of sentences which have been rejected for this language
+sc-lang-info-rejected =
+    { $rejectedSentences ->
+        [0] এটাও বাক্য নাকচ কৰা হোৱা নাই।
+        [one] এটা বাক্য নাকচ কৰা হৈছে।
+        [two] দুটা বাক্য নাকচ কৰা হৈছে।
+       *[other] { $rejectedSentences }টা বাক্য নাকচ কৰা হৈছে।
+    }
 
 ## LOGIN
 
