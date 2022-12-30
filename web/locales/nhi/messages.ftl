@@ -314,6 +314,13 @@ data-download-button = timulti tlanahuatil de Common Voice
 data-download-yes = Quemah
 data-download-deny = Amo
 data-download-license = tlacahuil:<licenseLink>CC-0</licenseLink>
+data-download-modal = santipitzin huan tic pehualtis se timulistl de <size>{ $size }GB</size> ¿nihnimitis?
+data-subtitle = sec chiuhtoc se tlanahuatil tlahtol tlapuhtoc huan huilis quicuisqueh que nuchten mu huilican muc cuicah para yehyecusqueh aplicaciones ican ixmatilis tlahtol
+data-get-started = <speechBlogLink>xic pehualti ican ixmatilis tlahtol</speechBlogLink>
+data-other-title = ocsiqueh tlanahuatimeh tlahtol…
+data-other-goto = niyas campa { $name }
+data-other-download = xiquin timulti tlanahuatil
+data-bundle-description = tlanahuatil Common Voice sansicah ihuan nuchin tlen yi achton tlanahuatil tlahtol
 
 ## Datasets Page
 
