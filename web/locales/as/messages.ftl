@@ -1126,6 +1126,10 @@ sc-submit-add-sentences = <wikipediaLink>ৰাজহুৱা ডমেইন</
 sc-submit-ph-one-per-line =
     .placeholder = প্ৰত্যেক শাৰীত এটাকৈ বাক্য
 sc-submit-from-where = এই <wikipediaLink>ৰাজহুৱা ড'মেইন</wikipediaLink>ৰ বাক্যকেইটা ক'ৰ পৰা অনা হৈছে?
+sc-submit-ph-read-how-to =
+    .placeholder = গুণাৰোপ কৰাক লৈ অনিশ্চিত হ'লে আমাৰ নিৰ্দেশিকা পঢ়ক
+sc-submit-button =
+    .submitText = দাখিল কৰক
 
 ## ADD LANGUAGE
 
