@@ -344,6 +344,10 @@ confirm-size = yicuali ticah para ti pehuas ican timulistl de <b>{ $size }</b>
 confirm-no-identify = <b>timutlahtolmaca</b>que amo tic yehyecos tic temos inexican tlahtuhuaneh ichin base de tlanahuatil de Common Voice
 download-language = timulti{ $language }
 whats-inside = ¿tlanon catqui ichin base de tlanahuatil de Common Voice?
+want-dataset-update = ¿ticniqui tic silis tlanahuatil ica tu yancuic tlanahuatil huan actualizaciones den base de tlanahuatil Common Voice? ximuihcuilo ichin tu boletin
+subscribe = ximuihcuilo
+get-started-speech = xipehua axcan ican ixmatilis tlahtol
+feedback-q = ¿ticpia se tlahtol?
 
 ## Download Modal
 
