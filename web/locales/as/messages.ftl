@@ -273,12 +273,14 @@ all-locales = সকলো
 today = আজি
 x-weeks-short =
     { $count ->
-        [one] সপ্তাহ
+        [one] এসপ্তাহ
+        [two] দুসপ্তাহ
        *[other] { $count } সপ্তাহ
     }
 x-months-short =
     { $count ->
-        [one] { $count } মাহ
+        [one] এমাহ
+        [two] দুমাহ
        *[other] { $count } মাহ
     }
 x-years-short =
@@ -1335,18 +1337,13 @@ sc-confirm-sentences-found =
 # Variables:
 #   $countOfInvalidated (Number) - Number of sentences the user rejected in the review form before submission
 sc-confirm-rejected-by-you = আপুনি { $countOfInvalidated }টা নাকচ কৰিছে
-sc-confirm-already-reviewed =
-    { $countOfReviewed ->
-        [0] ইতিমধ্যে কোনো বাক্য পৰ্যালোচনা কৰা হোৱা নাই।
-        [one] ইতিমধ্যে এটা বাক্য পৰ্যালোচনা কৰা হৈছে।
-       *[other] ইতিমধ্যে { $countOfReviewed }টা বাক্য পৰ্যালোচনা কৰা হৈছে।
-    }
 # Variables:
 #   $readyCount (Number) - Number of sentences ready to be uploaded
 sc-confirm-ready =
     { $readyCount ->
         [0] জমা দিয়াৰ বাবে কোনো বাক্য সাজু নহয়!
         [one] এটা বাক্য জমা দিয়াৰ বাবে সাজু!
+        [two] দুটা বাক্য জমা দিয়াৰ বাবে সাজু!
        *[other] { $readyCount }টা বাক্য জমা দিয়াৰ বাবে সাজু!
     }
 sc-confirm-button-text = নিশ্চিত কৰক
