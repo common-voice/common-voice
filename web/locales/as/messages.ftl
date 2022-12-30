@@ -275,18 +275,19 @@ x-weeks-short =
     { $count ->
         [one] এসপ্তাহ
         [two] দুসপ্তাহ
-       *[other] { $count } সপ্তাহ
+       *[other] { $count }স.
     }
 x-months-short =
     { $count ->
         [one] এমাহ
         [two] দুমাহ
-       *[other] { $count } মাহ
+       *[other] { $count }ম.
     }
 x-years-short =
     { $count ->
-        [one] { $count } বছৰ
-       *[other] { $count } বছৰ
+        [one] এবছৰ
+        [two] দুবছৰ
+       *[other] { $count }ব.
     }
 help-make-dataset = উচ্চ গুণমানৰ, ৰাজহুৱাভাৱে মুকলি ডেটাছেট নিৰ্মাণ কৰাত আমাক সহায় কৰক
 sign-up-account = একাউণ্ট এটাৰ বাবে ছাইন আপ কৰক
@@ -352,6 +353,7 @@ status-contribute = আপোনাৰ মাত দান কৰক
 status-hours =
     { $hours ->
         [one] এতিয়ালৈকে এঘণ্টাৰ বৈধকৰণ হৈছে!
+        [two] এতিয়ালৈকে দুঘণ্টাৰ বৈধকৰণ হৈছে!
        *[other] এতিয়ালৈকে { $hours } ঘণ্টাৰ বৈধকৰণ হৈছে!
     }
 # Variables:
@@ -1015,15 +1017,17 @@ finish-editing = প্ৰথমে সম্পাদনা শেষ কৰি
 lose-changes-warning = এতিয়া এৰি যোৱা মানে আপুনি আপোনাৰ সাল-সলনি হেৰুৱাব
 build-custom-goal = নিজৰ হিচাপে লক্ষ্য গঢ়ক
 help-reach-hours-pluralized =
-    এটা ব্যক্তিগত লক্ষ্যৰে { $language } ভাষাত { NUMBER($hours) ->
-        [one] { $hours } ঘণ্টা
-       *[other] { $hours } ঘণ্টা
-    }লৈ গৈ পোৱাত সহায় কৰক
+    { NUMBER($hours) ->
+        [one] এটা ব্যক্তিগত লক্ষ্যৰে { $language } ভাষাত এঘণ্টালৈ গৈ পোৱাত সহায় কৰক
+        [two] এটা ব্যক্তিগত লক্ষ্যৰে { $language } ভাষাত দুঘণ্টালৈ গৈ পোৱাত সহায় কৰক
+       *[other] এটা ব্যক্তিগত লক্ষ্যৰে { $language } ভাষাত { $hours } ঘণ্টালৈ গৈ পোৱাত সহায় কৰক
+    }
 help-reach-hours-general-pluralized =
-    কমন ভইচক এটা ব্যক্তিগত লক্ষ্যৰে কোনো ভাষাত { NUMBER($hours) ->
-        [one] { $hours } ঘণ্টা
-       *[other] { $hours } ঘণ্টা
-    }লৈ গৈ পোৱাত সহায় কৰক
+    { NUMBER($hours) ->
+        [one] কমন ভইচক এটা ব্যক্তিগত লক্ষ্যৰে কোনো ভাষাত এঘণ্টালৈ গৈ পোৱাত সহায় কৰক
+        [two] কমন ভইচক এটা ব্যক্তিগত লক্ষ্যৰে কোনো ভাষাত দুঘণ্টালৈ গৈ পোৱাত সহায় কৰক
+       *[other] কমন ভইচক এটা ব্যক্তিগত লক্ষ্যৰে কোনো ভাষাত { $hours } ঘণ্টালৈ গৈ পোৱাত সহায় কৰক
+    }
 set-a-goal = লক্ষ্য ছেট কৰক
 cant-decide = সিদ্ধান্ত ল'ব পৰা নাই?
 activity-needed-calculation-plural =
@@ -1047,7 +1051,8 @@ receiving-emails-info = আপুনি বৰ্তমান লক্ষ্য
 not-receiving-emails-info = আপুনি বৰ্তমান লক্ষ্যৰ ৰিমাইণ্ডাৰ, মোৰ প্ৰগতিৰ আপডেট আৰু কমন ভইচৰ বিষয়ে সংবাদপত্ৰৰ দৰে ইমেইল প্ৰাপ্ত <bold>নকৰা</bold>টো ছেট কৰি থৈছে
 n-clips-pluralized =
     { NUMBER($count) ->
-        [one] { $count }টা ক্লিপ
+        [one] এটা ক্লিপ
+        [two] দুটা ক্লিপ
        *[other] { $count }টা ক্লিপ
     }
 help-share-goal = আমাক আৰু মাত বিচৰাত সহায় কৰক, আপোনাৰ লক্ষ্য ভাগ-বতৰা কৰক
@@ -1431,9 +1436,10 @@ sc-review-form-button-submit =
 #   $sentences (Number) - Number of sentences the user has reviewed in this session
 sc-review-form-reviewed-message =
     { $sentences ->
-        [0] এটাও বাক্যৰ পৰ্যালোচনা কৰা হোৱা নাই।
-        [one] এটা বাক্যৰ পৰ্যালোচনা কৰা হৈছে। ধন্যবাদ!
-       *[other] { $sentences }টা বাক্যৰ পৰ্যালোচনা কৰা হৈছে। ধন্যবাদ!
+        [0] এটাও বাক্য পৰ্যালোচনা কৰা হোৱা নাই।
+        [one] এটা বাক্য পৰ্যালোচনা কৰা হৈছে। ধন্যবাদ!
+        [two] দুটা বাক্য পৰ্যালোচনা কৰা হৈছে। ধন্যবাদ!
+       *[other] { $sentences }টা বাক্য পৰ্যালোচনা কৰা হৈছে। ধন্যবাদ!
     }
 sc-review-form-review-failure = পৰ্যালোচনা সাঁচি থ'ব পৰা নগ'ল। অনুগ্ৰহ কৰি পিছত পুনৰ চেষ্টা কৰিব।
 sc-review-link = পৰ্যালোচনা কৰক
