@@ -233,10 +233,10 @@ terms = চৰ্তাৱলী
 cookies = কুকীজ
 faq = স.উ.প্ৰ.
 content-license-text = সমল <licenseLink>Creative Commons লাইচেন্স</licenseLink>ৰ অধীনত উপলব্ধ
-share-title = নিজৰ মাত দান কৰিব পৰা অন্য লোকক বিচৰাত আমাক সহায় কৰক!
+share-title = নিজৰ মাত দান কৰিবপৰা অন্য লোকক বিচৰাত আমাক সহায় কৰক!
 share-text = আচল লোকে কেনেকৈ কথা পাতে সেয়া যন্ত্ৰবোৰক শিকোৱাত সহায় কৰক, আপোনাৰ মাত { $link }ত দান কৰক
 link-copied = লিংক প্ৰতিলিপি কৰা হ’ল
-back-top = শীৰ্ষলৈ ঘূৰি যাওক
+back-top = ওপৰলৈ ঘূৰি যাওক
 logout = লগ আউট
 
 ## Home Page
@@ -1233,7 +1233,7 @@ see-less = <chevron></chevron>কম চাওক
 
 ## HEADER/FOOTER
 
-sc-header-home = মূখ্যপৃষ্ঠা
+sc-header-home = মুখ্যপৃষ্ঠা
 sc-header-how-to = কেনেকৈ কৰা হয়
 sc-header-add = যোগ কৰক
 sc-header-review = পৰ্যালোচনা কৰক
