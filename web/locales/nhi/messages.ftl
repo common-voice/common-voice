@@ -328,9 +328,22 @@ review-terms = quemen tiquicui Common Voice, tic silia tu<termsLink> terminos qu
 review-submit-title = xiquita huan xic naltitlani
 review-submit-msg = ¡tlasohcamatictsin utimu tlahtolahcuc<lineBreak></lineBreak> axan xiquita huan xiquin titlani mu tlahtolahcuc
 review-recording = xiquita
+review-rerecord = ocsipatlahtolahcucui
+review-keep-recordings = xiquinpixto tlahtolahcuc
+review-delete-recordings = niquinpolos nu tlahtolahcuc
 
 ## Datasets Page
 
+datasets-heading = sansican tlanahuatil
+datasets-headline = secchiuhtoc se nimilis tlanahuatil de tlahtol, tlapuhtoc huan miak tlahtulmeh,aquinyihuili huilis quicuis para muc yehyeco aplicaciones tlen muc cuican tlahtol quemeh interfaz
+language = Tlahtol
+download-dataset-header = xiquintimulti sansican tlanahuatil
+number-of-voices = puhual tlahtol
+email-to-download = xiquihcuilo se email para tictimultis
+confirm-size = yicuali ticah para ti pehuas ican timulistl de <b>{ $size }</b>
+confirm-no-identify = <b>timutlahtolmaca</b>que amo tic yehyecos tic temos inexican tlahtuhuaneh ichin base de tlanahuatil de Common Voice
+download-language = timulti{ $language }
+whats-inside = ¿tlanon catqui ichin base de tlanahuatil de Common Voice?
 
 ## Download Modal
 
