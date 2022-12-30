@@ -348,6 +348,8 @@ want-dataset-update = ¿ticniqui tic silis tlanahuatil ica tu yancuic tlanahuati
 subscribe = ximuihcuilo
 get-started-speech = xipehua axcan ican ixmatilis tlahtol
 feedback-q = ¿ticpia se tlahtol?
+resource-deepspeech-info = nihnimilis de ixmatilistlahtol ica código tlapuhtoc de Mozilla Deep Speech huilis mucuis para muchihuas aplicaciones de ixmatilis tlahtol. tlen tehuan <githubLink>tsuhtsucuntiliah de Github</githubLink>o ximunilo ihuan<discourseLink>DeepSpeech</discourseLink> para tic salos quenin ti pehuas
+resource-coqui-info = <coquiLink>Coqui</coquiLink> quichihua tipostlahtol tlapuhtoc. itiquiuh temaca nemilis STT huan TTS teixpantilis ica tlamachtil tlahtic
 
 ## Download Modal
 
