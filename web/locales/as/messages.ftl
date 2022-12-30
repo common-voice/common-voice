@@ -1332,11 +1332,24 @@ sc-confirm-sentences-found =
     { $countOfSentences ->
         [0] এটাও বাক্য পোৱা নগ'ল।
         [one] এটা বাক্য পোৱা গৈছে।
+        [two] দুটা বাক্য পোৱা গৈছে।
        *[other] { $countOfSentences }টা বাক্য পোৱা গৈছে।
     }
 # Variables:
 #   $countOfInvalidated (Number) - Number of sentences the user rejected in the review form before submission
-sc-confirm-rejected-by-you = আপুনি { $countOfInvalidated }টা নাকচ কৰিছে
+sc-confirm-rejected-by-you =
+    { $countOfInvalidated ->
+        [one] আপুনি এটা নাকচ কৰিছে
+        [two] আপুনি দুটা নাকচ কৰিছে
+       *[other] আপুনি { $countOfInvalidated }টা নাকচ কৰিছে
+    }
+sc-confirm-already-reviewed =
+    { $countOfReviewed ->
+        [0] ইতিমধ্যে কোনো বাক্য পৰ্যালোচনা কৰা হোৱা নাই।
+        [one] ইতিমধ্যে এটা বাক্য পৰ্যালোচনা কৰা হৈছে।
+        [two] ইতিমধ্যে দুটা বাক্য পৰ্যালোচনা কৰা হৈছে।
+       *[other] ইতিমধ্যে { $countOfReviewed }টা বাক্য পৰ্যালোচনা কৰা হৈছে।
+    }
 # Variables:
 #   $readyCount (Number) - Number of sentences ready to be uploaded
 sc-confirm-ready =
