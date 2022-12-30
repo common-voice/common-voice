@@ -1103,7 +1103,11 @@ download-request-button = ডাউনল'ড কৰক
 download-request-title = { $created }
 download-request-description = { $clipCount }টা ভইচ ক্লিপ, আৰ্কাইভৰ মুঠ আকাৰ { $size }। { $expires } ম্যাদ উকলিব।
 download-request-archive-single = এটাই ZIP ফাইল য'ত থাকিব
-download-request-archive-multiple = { $archiveCount }টা ZIP ফাইলত বিভক্ত য'ত থাকিব
+download-request-archive-multiple =
+    { $archiveCount ->
+        [two] দুটা ZIP ফাইলত বিভক্ত কৰক য'ত থাকিব
+       *[other] { $archiveCount }টা ZIP ফাইলত বিভক্ত কৰক য'ত থাকিব
+    }
 download-request-assembling-description = আপোনাৰ ফাইলবোৰ একত্ৰিত কৰি থকা হৈছে। অনুগ্ৰহ কৰি পাছত পুনৰ পৰীক্ষা কৰিব।
 download-request-refresh-button = সতেজ কৰক
 download-request-modal-title = ডাউনল'ড লিংকবোৰ
