@@ -350,6 +350,7 @@ get-started-speech = xipehua axcan ican ixmatilis tlahtol
 feedback-q = ¿ticpia se tlahtol?
 resource-deepspeech-info = nihnimilis de ixmatilistlahtol ica código tlapuhtoc de Mozilla Deep Speech huilis mucuis para muchihuas aplicaciones de ixmatilis tlahtol. tlen tehuan <githubLink>tsuhtsucuntiliah de Github</githubLink>o ximunilo ihuan<discourseLink>DeepSpeech</discourseLink> para tic salos quenin ti pehuas
 resource-coqui-info = <coquiLink>Coqui</coquiLink> quichihua tipostlahtol tlapuhtoc. itiquiuh temaca nemilis STT huan TTS teixpantilis ica tlamachtil tlahtic
+resource-playbook-info = <playbookLink> xicahsi nimilis tlen cualtias </playbookLink> quemeh nuchi nemilis de Common Voice  campa cateh hasta campa quicueh sansicah tlanahuatil, huan quenin ti mu nilos ican tu nichicomasehual
 
 ## Download Modal
 
