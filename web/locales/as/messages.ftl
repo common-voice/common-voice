@@ -1176,6 +1176,15 @@ sc-confirm-uploading = বাক্যকেইটা আপল'ড কৰা �
 
 sc-lang-info-title-total = মুঠ
 sc-lang-info-title-personal = ব্যক্তিগত
+# Variables:
+#   $totalSentences (Number) - Number of sentences uploaded in total for this language
+sc-lang-info-total =
+    { $totalSentences ->
+        [0] মুঠ কোনো বাক্য নাই।
+        [one] মুঠ এটা বাক্য।
+        [two] মুঠ দুটা বাক্য।
+       *[other] মুঠ { $totalSentences }টা বাক্য।
+    }
 sc-lang-info-review-now = <reviewLink>এতিয়াই পৰ্যালোচনা কৰক!</reviewLink>
 sc-lang-info-add-more = <addLink>এতিয়াই অধিক বাক্য যোগ কৰক!</addLink>
 # Variables:
