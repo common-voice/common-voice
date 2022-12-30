@@ -1032,16 +1032,20 @@ set-a-goal = লক্ষ্য ছেট কৰক
 cant-decide = সিদ্ধান্ত ল'ব পৰা নাই?
 activity-needed-calculation-plural =
     { NUMBER($periodMonths) ->
-        [one] { $periodMonths } মাহৰ ভিতৰতেই
+        [one] এমাহৰ ভিতৰতেই
+        [two] দুমাহৰ ভিতৰতেই
        *[other] { $periodMonths } মাহৰ ভিতৰতেই
     } { NUMBER($totalHours) ->
-        [one] { $totalHours } ঘণ্টা লাভ কৰিব পৰা যায় যদি
+        [one] এঘণ্টা লাভ কৰিব পৰা যায় যদি
+        [two] দুঘণ্টা লাভ কৰিব পৰা যায় যদি
        *[other] { $totalHours } ঘণ্টা লাভ কৰিব পৰা যায় যদি
     } { NUMBER($people) ->
-        [one] { $people }গৰাকী লোকে
+        [one] এগৰাকী লোকে
+        [two] দুগৰাকী লোকে
        *[other] { $people }গৰাকী লোকে
     } { NUMBER($clipsPerDay) ->
-        [one] এদিনত { $clipsPerDay }টাকৈ ক্লিপ ৰেকৰ্ড কৰে।
+        [one] এদিনত এটাকৈ ক্লিপ ৰেকৰ্ড কৰে।
+        [two] এদিনত দুটাকৈ ক্লিপ ৰেকৰ্ড কৰে।
        *[other] এদিনত { $clipsPerDay }টাকৈ ক্লিপ ৰেকৰ্ড কৰে।
     }
 how-many-per-day = বঢ়িয়া! এদিনত কেইটাকৈ ক্লিপ?
