@@ -303,9 +303,17 @@ sst-explanation = tipotl tlahcuilol a tlahtol (STT) tlen qui patla tlanahuatil d
 ## Error pages
 
 error-title-404 = amo uhulic uticahsiqueh nun página para tejuatl
+error-content-404 = ¿kanah tu<homepageLink>página campa se pehua </homepageLink> huilis mits palehuis? para tic tlahtlanis, ximunilo<matrixLink> campa mu nuhnutsah nichicomasehual Matrix</matrixLink> xiquita problemas den sitio ic<githubLink>GitHub</githubLink> o xiyu<discourseLink>campan foros Discurse</discourseLink>
+error-title-503 = ti panutuque ich  se tiempo amo usecmatia amo se tiquitis
+error-content-503 = sitio ocsipa huilis mucuis. para huilis sec silis tlanahuatil cachi yancuic, ximunilo <matrixLink>campa mu nuhnutza nichicomasehual Matrix</matrixLink> o xiyu<githubLink>GitHub</githubLink> o <discourseLink> tu foros de Discourse</discourseLink> para sequinaltitlanis huan sec chihuas se nimilis den problemas ican tlen yi sec mati den sitio
+error-code = amohuili
 
 ## Data
 
+data-download-button = timulti tlanahuatil de Common Voice
+data-download-yes = Quemah
+data-download-deny = Amo
+data-download-license = tlacahuil:<licenseLink>CC-0</licenseLink>
 
 ## Datasets Page
 
