@@ -298,9 +298,11 @@ localization-explanation = nicanca tu nemilis para tic cuipasquehtlahtol huan se
 sentence-collection = tlahcuilol pihpintoc
 sentence-collection-explanation = Xiquin nichicon tlahtolmeh de dominio nextilis o tlahcuilol yancuic  para dominio masehualmeh
 sst = detlahcuilol a tlahtol (STT)
+sst-explanation = tipotl tlahcuilol a tlahtol (STT) tlen qui patla tlanahuatil de tlahtol a tlahcuilol
 
 ## Error pages
 
+error-title-404 = amo uhulic uticahsiqueh nun página para tejuatl
 
 ## Data
 
