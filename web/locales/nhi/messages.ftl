@@ -351,6 +351,8 @@ feedback-q = ¿ticpia se tlahtol?
 resource-deepspeech-info = nihnimilis de ixmatilistlahtol ica código tlapuhtoc de Mozilla Deep Speech huilis mucuis para muchihuas aplicaciones de ixmatilis tlahtol. tlen tehuan <githubLink>tsuhtsucuntiliah de Github</githubLink>o ximunilo ihuan<discourseLink>DeepSpeech</discourseLink> para tic salos quenin ti pehuas
 resource-coqui-info = <coquiLink>Coqui</coquiLink> quichihua tipostlahtol tlapuhtoc. itiquiuh temaca nemilis STT huan TTS teixpantilis ica tlamachtil tlahtic
 resource-playbook-info = <playbookLink> xicahsi nimilis tlen cualtias </playbookLink> quemeh nuchi nemilis de Common Voice  campa cateh hasta campa quicueh sansicah tlanahuatil, huan quenin ti mu nilos ican tu nichicomasehual
+data-other-voxforge-description = VoxForge umuchiuh para mu nuchicusqueh tlahtulme ihcuiluhtuqueh para muquin cuicah ica nemilis de ixmatilistlahtol ica código tlapuhtoc
+your-feedback = ¿ticpia se nimilil para tic chihuasque cachi cuali tlanahuatil de Common Voice?
 
 ## Download Modal
 
