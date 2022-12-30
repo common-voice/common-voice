@@ -321,6 +321,9 @@ data-other-title = ocsiqueh tlanahuatimeh tlahtol…
 data-other-goto = niyas campa { $name }
 data-other-download = xiquin timulti tlanahuatil
 data-bundle-description = tlanahuatil Common Voice sansicah ihuan nuchin tlen yi achton tlanahuatil tlahtol
+dataset-date = tunal
+license = tlacahuil:<licenseLink>{ $license }</licenseLink>
+license-mixed = niliuhqui
 
 ## Datasets Page
 
