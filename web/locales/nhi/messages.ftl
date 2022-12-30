@@ -324,6 +324,10 @@ data-bundle-description = tlanahuatil Common Voice sansicah ihuan nuchin tlen yi
 dataset-date = tunal
 license = tlacahuil:<licenseLink>{ $license }</licenseLink>
 license-mixed = niliuhqui
+review-terms = quemen tiquicui Common Voice, tic silia tu<termsLink> terminos quen mucuis </termsLink> huan <privacyLink> tiachca ichtaca
+review-submit-title = xiquita huan xic naltitlani
+review-submit-msg = ¡tlasohcamatictsin utimu tlahtolahcuc<lineBreak></lineBreak> axan xiquita huan xiquin titlani mu tlahtolahcuc
+review-recording = xiquita
 
 ## Datasets Page
 
