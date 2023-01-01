@@ -1338,6 +1338,7 @@ sc-submit-ph-one-per-line =
 sc-submit-from-where = ປະໂຫຍກ<wikipediaLink>ສາທາລະນະສົມບັດ</wikipediaLink>ເຫຼົ່ານີ້ມາຈາກໃສ?
 sc-submit-ph-read-how-to =
     .placeholder = ອ່ານ How-to ຂອງພວກເຮົາ ຖ້າບໍ່ແນ່ໃຈວ່າຈະໃຫ້ຄຸນລັກສະນະແນວໃດ
+sc-submit-confirm = ຂ້ອຍຢືນຢັນວ່າປະໂຫຍກເຫຼົ່ານີ້ແມ່ນ <wikipediaLink>ໂດເມນສາທາລະນະ</wikipediaLink> ແລະຂ້ອຍໄດ້ຮັບການອະນຸຍາດໃຫ້ອັບໂຫລດພວກມັນ.
 sc-submit-button =
     .submitText = ສົ່ງ
 sc-submit-filtered = ປະໂຫຍກທີ່ຖືກກັ່ນຕອງເນື່ອງຈາກຄວາມຕ້ອງການລົ້ມເຫລວ (ກະລຸນາສົ່ງສະບັບຄົງທີ່ເປັນປະໂຫຍກໃຫມ່):
@@ -1360,6 +1361,9 @@ sc-confirm-sentences-title = ຢືນຢັນປະໂຫຍກໃໝ່
 # Variables:
 #   $countOfInvalidated (Number) - Number of sentences the user rejected in the review form before submission
 sc-confirm-rejected-by-you = { $countOfInvalidated } ຖືກປະຕິເສດໂດຍທ່ານ
+# Variables:
+#   $countOfUnreviewed (Number) - Number of sentences unreviewed before the upload
+sc-confirm-unreviewed = { $countOfUnreviewed } ປະໂຫຍກບໍ່ໄດ້ຖືກກວດສອບ. ຖ້າທ່ານຕ້ອງການ, ທ່ານສາມາດທົບທວນປະໂຫຍກຂອງທ່ານໃນປັດຈຸບັນກ່ອນທີ່ຈະສົ່ງພວກມັນ.
 sc-confirm-button-text = ຢືນຢັນ​
 sc-confirm-uploading = ກຳລັງອັບໂຫຼດປະໂຫຍກ. ນີ້ສາມາດໃຊ້ເວລາຫຼາຍນາທີຂຶ້ນກັບຈໍານວນຂອງປະໂຫຍກທີ່ເພີ່ມ. ກະລຸນາຢ່າປິດເວັບໄຊທ໌ນີ້.
 
@@ -1430,6 +1434,7 @@ sc-review-form-button-approve-shortcut = Y
 sc-review-form-button-reject-shortcut = N
 # Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
 sc-review-form-button-skip-shortcut = S
+sc-review-form-keyboard-usage-custom = ທ່ານຍັງສາມາດໃຊ້ປຸ່ມລັດແປ້ນພິມ: { sc-review-form-button-approve-shortcut } ເພື່ອອະນຸມັດ, { sc-review-form-button-reject-shortcut } ເພື່ອປະຕິເສດ, { sc-review-form-button-skip-shortcut } ເພື່ອຂ້າມ
 sc-review-form-button-submit =
     .submitText = ສໍາເລັດການກວດສອບ
 sc-review-form-review-failure = ບໍ່ສາມາດບັນທຶກການກວດສອບໄດ້. ກະລຸນາລອງໃໝ່ໃນພາຍຫຼັງ.
