@@ -438,11 +438,15 @@ faq-what-cv-a = Teknologi pengecaman suara sedang merevolusikan cara kita berint
 faq-what-cv-a-2 =
     Teknologi pengecaman suara sedang merevolusikan cara kita berinteraksi dengan mesin, tetapi sistem yang tersedia pada buat masa ini adalah mahal dan proprietari. Mozilla Common Voice adalah inisitif untuk menjadikan teknologi pengecaman pengecaman suara lebih baik dan lebih mudah diakses oleh semua orang. Common Voice adalah pangkalan data global yang besar bagi suara yang didermakan yang membolehkan sesiapa sahaja dengan cepat dan mudah melatih aplikasi berdaya suara yang berpotensi untuk setiap bahasa.
     
-    Kami bukan sahaja mengumpul sampel suara dalam bahasa yang dituturkan secara meluas, tetapi juga dalam bahasa yang mempunyai populasi penutur yang lebih kecil. Menerbitkan set data suara yang pelbagai akan memperkasakan pembangun, usahawan dan komuniti untuk menangani kekurangan ini sendiri.
+    Kami bukan sahaja mengumpul sampel suara dalam bahasa yang dituturkan secara meluas, tetapi juga dalam bahasa yang mempunyai populasi penutur yang lebih kecil. Menerbitkan set data suara yang pelbagai akan membolehkan pembangun, usahawan dan komuniti untuk menangani kekurangan ini sendiri.
 faq-why-important-q = Mengapa ia penting?
+faq-why-important-a =
+    Pertuturan selalunya merupakan cara paling semula jadi kita berkomunikasi antara satu sama lain dan teknologi suara membawa kemudahan itu kepada komputer dan peranti mudah alih kita. Kami ingin membolehkan pembangun untuk membina aplikasi pengecaman suara yang menakjubkan seperti penterjemah masa nyata dan pembantu digital berdaya suara. Tetapi pada masa ini kebanyakan data suara yang diperlukan untuk membina aplikasi jenis ini adalah mahal dan proprietari. Kami berharap set data Common Voice akan memberikan pembangun perkara yang mereka perlukan untuk berinovasi dan menjadikan teknologi pertuturan tersedia dalam bahasa mereka sendiri.
+    
+    Untuk menjadikan pengecaman suara lebih universal, kami mengumpul sampel suara dalam bahasa yang dituturkan secara meluas, serta yang mempunyai populasi pentutur yang lebih kecil yang sering kurang mendapat perkhidmatan pengecaman pertuturan komersial. Menerbitkan set data suara yang pelbagai akan membolehkan pembangun, usahawan dan seluruh komuniti pertuturan untuk menangani kekurangan ini sendiri.
 faq-how-get-q = Bagaimana saya boleh mendapatkan data Common Voice?
 faq-when-release2-q = Bilakah anda akan mengeluarkan data Common Voice dalam bahasa lain?
-faq-why-mission-q = Mengapa Common Voice menjadi sebahagian daripada misi Mozilla?
+faq-why-mission-q = Mengapa Common Voice sebahagian daripada misi Mozilla?
 faq-what-cv-and-deepspeech-q = Apa perbezaan antara Common Voice dan Deep Speech?
 faq-why-my-lang-q = Mengapa bahasa saya belum dimasukkan lagi?
 faq-what-quality-q = Apakah tahap kualiti audio yang diperlukan untuk klip suara digunakan dalam set data?
