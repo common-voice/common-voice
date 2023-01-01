@@ -447,6 +447,7 @@ faq-why-important-a =
 faq-how-get-q = Bagaimana saya boleh mendapatkan data Common Voice?
 faq-when-release2-q = Bilakah anda akan mengeluarkan data Common Voice dalam bahasa lain?
 faq-why-mission-q = Mengapa Common Voice sebahagian daripada misi Mozilla?
+faq-why-mission-a = Mozilla berdedikasi untuk memastikan web terbuka dan boleh diakses oleh semua orang. Untuk melakukan itu, kami perlu memperkasakan pencipta web melalui projek seperti Common Voice. Memandangkan teknologi suara berkembang melangkaui aplikasi khusus, kami percaya ia mesti melayani semua pengguna secara sama rata. Ini bermakna melabur dalam lebih banyak bahasa dan menampung pelbagai aksen dan demografi apabila membina dan menguji teknologi suara. Common Voice ialah sumber awam yang tersedia untuk semua orang dan pasukan Mozilla serta pembangun di seluruh dunia sudah pun menggunakannya pada projek kami sendiri.
 faq-what-cv-and-deepspeech-q = Apa perbezaan antara Common Voice dan Deep Speech?
 faq-why-my-lang-q = Mengapa bahasa saya belum dimasukkan lagi?
 faq-what-quality-q = Apakah tahap kualiti audio yang diperlukan untuk klip suara digunakan dalam set data?
