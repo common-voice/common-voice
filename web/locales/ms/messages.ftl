@@ -204,7 +204,7 @@ about = Berkenaan
 partner = Rakan kongsi
 profile = Profil
 help = Bantuan
-contact = Kenalan
+contact = Hubungi
 privacy = Privasi
 terms = Terma
 cookies = Kuki
@@ -638,6 +638,7 @@ download-back = Kembali ke set data Common Voice
 
 ## Contact Modal
 
+contact-title = Borang Hubungi Kami
 contact-form-name =
     .label = Nama
 contact-form-message =
