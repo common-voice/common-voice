@@ -463,7 +463,7 @@ faq-why-my-lang-a =
     Common Voice ialah platform penyumberan ramai, dan semua bahasa telah ditambahkan oleh sukarelawan.
     Kami ingin anda menambah bahasa anda! <languageRequestLink>Tanya tentang menambah bahasa anda.</languageRequestLink></languageRequestLink>
 faq-what-quality-q = Apakah tahap kualiti audio yang diperlukan untuk klip suara digunakan dalam set data?
-faq-why-10k-hours-q = Mengapa 10,000 jam disahkan matlamat setiap bahasa bagi menangkap audio?
+faq-why-10k-hours-q = Mengapa 10,000 jam divalidasi merupakan sasaran setiap bahasa bagi mengumpulkan data audio?
 faq-why-10k-hours-a = Ini adalah kira-kira bilangan jam yang diperlukan untuk melatih sistem ucapan-ke-teks produksi.
 faq-how-calc-hours-q = Bagaimana Common Voice mengira jam?
 faq-how-calc-hours-a = Kami mengira jam dengan menganggarkan purata panjang setiap rakaman, dan kemudian mendarabkan nombor itu dengan jumlah bilangan rakaman merentas semua bahasa.
