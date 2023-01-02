@@ -368,9 +368,16 @@ download-helpus = xitech palehui matic chihuacah se nichicomasehual ican tipos t
 download-form-email =
     .label = xictlali mu correo
     .value = tlasohcamatictzin, ti mu nuhnutstusqueh
+download-back = ximucuipa ichin tlanahuatil de Common Voice
+download-no = Amo, tlasohcamatictsin
 
 ## Contact Modal
 
+contact-form-name =
+    .label = Motoca
+contact-form-message =
+    .label = tlahcuiloltlahtol
+contact-required = niquilia
 
 ## Request Language Modal
 
