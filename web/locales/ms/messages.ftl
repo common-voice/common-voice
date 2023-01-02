@@ -500,7 +500,19 @@ how-does-it-work-text = Kami sedang mengumpulkan set data suara yang bersumber t
 
 ## How does it work section
 
+about-language-req-subtitle = Seseorang meminta bahasa untuk ditambah.
+about-localization-title = Lokalisasi Laman Web
+about-localization-subtitle = Teks laman web diterjemahkan ke bahasa tersebut.
 about-sentence-collection-title = Pengumpulan Ayat
+about-sentence-collection-subtitle = Ayat dikumpul untuk dibaca oleh orang ramai.
+about-new-lang-title = Pelancaran Bahasa Baharu
+about-new-lang-subtitle = Kami melancarkan laman web Common Voice dalam bahasa itu.
+about-voice-contrib-title = Sumbangan Suara
+about-voice-contrib-subtitle = Orang ramai datang dan menyumbangkan suara mereka.
+about-voice-validation-title = Pengesahan Suara
+about-voice-validation-subtitle = Orang lain mengesahkan klip suara tersebut.
+about-dataset-release-title = Keluaran Set Data
+about-dataset-release-subtitle = Kami mengeluarkan set data setiap 3 bulan.
 about-speak = Cakap
 about-speak-text = Penyumbang merakam klip suara dengan membaca dari bank ayat yang disumbangkan.
 about-listen-queue = Giliran-Dengar
