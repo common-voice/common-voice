@@ -461,9 +461,20 @@ record-abort-continue = xictlami tlahtolahcucui
 record-abort-delete = quisa huan sequinpulos tlahtolhacucui
 listen-instruction = { $actionType }<playIcon></playIcon>¿ uquihtuhqueh tlahtol cuali?
 listen-again-instruction = cualitiquiuh<playIcon></playIcon> xicaqui ocsipa cuando yi ti isqui cuali
+listen-loading-error = amo huilic utic silihqueh dionse tlahtolahcucui para tic caquis. timits tlatlauhtiya xic yehyeco cachi tlahcahtsi
+speak-empty-state = usemucauh ica amose tlahtolihcuilol para tic tlahtolahcucuis ica nin tlahtol...
+speak-empty-state-cta = tlapalehui ica ocsiqueh tlahtolmeh
+record-button-label = tlahtol ahcucui
+share-title-new = <bold> xitechpalehui</bold> maticahsicah ocsiqueh tlahtolmeh
+login-to-get-started = pehualti sesio o ximuihcuilo para ti pehuas
+target-segment-first-card = titechpalehuihtoc ica tu primer tiquitl segmentado
+target-segment-add-voice = xictlali mu tlahtol
+target-segment-learn-more = cachi tlanahuatil
 
 ## Reporting
 
+report = tlanahuatil
+report-ask = catleyeh mu tiquiuh ica nin tlahtoltlahcuilol
 
 ## Goals
 
