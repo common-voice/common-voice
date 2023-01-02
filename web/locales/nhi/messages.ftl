@@ -406,6 +406,8 @@ request-language-google-recaptcha-required = muniqui reCAPTCHA ticniqui oc ti ni
 request-language-google-recaptcha-error = tleno amo uquis cuali ica reCAPTCHA. xic yehyeco ocsipa
 # Success page
 request-language-success-heading = ¡tlasohcamatictzin! uticnaltitlan se yancuic tlahtol
+request-language-success-list-1 = quipia nic silis se correo electronico campa nech nextia quenin nic tlalis se tlahtol Common Voice
+request-language-success-list-3 = tla amo utic sile tlanahuatil ic ninqueh tunalmeh, ximu nuhnutsa ihuan <emailLink>{ $email }</emailLink> huan timu nuhnutsasqueh muhuantsi
 
 ## Languages Overview
 
