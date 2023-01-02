@@ -455,6 +455,9 @@ faq-is-goal-assistant-a = Matlamat set data Common Voice adalah untuk membolehka
 faq-do-want-native-q = Saya bukan penutur bukan natif dan saya bercakap dengan loghat, adakah anda masih mahukan suara saya?
 faq-do-want-native-a = Ya, kami sangat mahukan suara anda! Sebahagian daripada matlamat Common Voice adalah untuk mengumpulkan sebanyak mungkin aksen yang berbeza supaya perkhidmatan pengecaman suara berfungsi dengan baik untuk semua orang. Ini bermakna sumbangan daripada bukan penutur natif amat penting.
 faq-why-different-speakers-q = Mengapa anda memerlukan begitu banyak pentutur berbeza bagi setiap bahasa?
+faq-why-different-speakers-a =
+    Kebanyakan pangkalan data pertuturan dilatih dengan representasi berlebihan bagi demografi tertentu yang mengakibatkan berat sebelah terhadap <articleLink>lelaki dan kelas pertengahan</articleLink>. Aksen dan dialek yang cenderung kurang diwakili dalam set data latihan biasanya dikaitkan dengan kumpulan orang yang sudah terpinggir. Banyak mesin juga menghadapi masalah untuk memahami suara wanita.
+    Inilah sebabnya dalam pangkalan data suara kami, kami mahukan variasi!
 faq-why-my-lang-q = Mengapa bahasa saya belum dimasukkan lagi?
 faq-what-quality-q = Apakah tahap kualiti audio yang diperlukan untuk klip suara digunakan dalam set data?
 faq-why-10k-hours-q = Mengapa 10,000 jam disahkan matlamat setiap bahasa bagi menangkap audio?
