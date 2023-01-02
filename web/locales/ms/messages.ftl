@@ -560,9 +560,14 @@ about-playbook-how-add-language-collecting-sentences-content-2 =
     Anda boleh <sentenceCollectorLinkAdd>menambah bilangan kecil ayat</sentenceCollectorLinkAdd>,
     atau anda boleh melakukan <bulkImportDocsLink>import pukal menggunakan Github</bulkImportDocsLink>.
     Ingat bahawa ayat mestilah <licenseLink>CC0 (atau domain awam)</licenseLink>, atau anda boleh menulis sendiri.
+about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>Lihat lebih lanjut tentang Pengumpulan Ayat</sentenceCollectorFragment>.
 
 ## How does localization work
 
+about-playbook-how-localize = Bagaimana lokalisasi laman web berfungsi?
+about-playbook-how-localize-content-1 = Terjemahan laman web Common Voice berlaku pada <strong>Pontoon</strong>.
+about-playbook-how-localize-content-2 = <pontoonAccountLink>Buat akaun</pontoonAccountLink> jika anda tidak mempunyai akaun. Kemudian, pilih bahasa anda <strong>(‘Team’)</strong> dan kemudian pilih projek, <pontoonCvLink>Common Voice</pontoonCvLink>. Akan ada fail untuk diterjemahkan. Klik salah satu, kemudian ia menunjukkan perkataan dalam bahasa Inggeris dan kotak untuk menterjemahkannya.
+about-playbook-how-localize-content-3 = Terjemahan adalah daripada Bahasa Inggeris, tetapi anda boleh melihat <strong>Cadangan</strong> dalam bahasa lain. Klik ikon <strong>Profil</strong>, kemudian pautan <strong>Tetapan</strong> dan tambahkan sebarang bahasa yang anda pertuturkan. Di penjuru kanan sebelah bawah terdapat senarai terjemahan yang dipanggil <strong>Tempatan</strong>. Terjemahan dipaparkan di tapak selepas satu hari.
 about-playbook-how-localize-content-5 = Tonton penjelasan video kami untuk membantu
 
 ## How to add sentences
