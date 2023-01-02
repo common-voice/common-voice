@@ -393,6 +393,14 @@ other-language = ocse tlahtol
 
 request-language-heading = xi tlahtlani ica ocse yancuic tlahtol
 request-language-explanation-1 = xiquit atla mu tlahtol huits tlahcuiliuhtok<languagesPageLink> pagina de tlahtol ixmateh</languagesPageLink> tla  amo uhcon, xic tlami nicancah formulario huan <strong> timits naltitlanisqueh se correo tlen mits cualtias, huits quenin tic yectlalis mu tlahtol</strong>
+request-language-explanation-2 = nuyuhqui<strong>tiquin nahuatisque tu ticticahuah  de masehual nichicol tlen mits pactia,</strong>para uhcon huilisqueh mits macasque tlensa palehuilis o tlanahuatil tlen huilis tiquicuis
+request-language-form-email =
+    .label = mu correo electronico
+request-language-form-info =
+    .label = tlanahuatil ican tlahtol
+request-language-form-info-explanation = xictlali nuchi tlanahuatil tlen huilis ipan tlahtol. nicanca huilis tic tlalis :
+request-language-form-info-explanation-list-1 = Itoca motlahtol
+request-language-form-info-explanation-list-2 = <isoCodeLink>Codigos ISO </isoCodeLink> quemah mu ixmateh
 
 ## Languages Overview
 
