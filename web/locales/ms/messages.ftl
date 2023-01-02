@@ -543,6 +543,12 @@ about-playbook-what-is-language-content-3 = Sesetengah bahasa mempunyai variasi 
 ## How do I add a language
 
 about-playbook-how-add-language = Bagaimanakah cara saya menambah bahasa?
+about-playbook-how-add-language-content-1 =
+    Mula-mula, semak sama ada bahasa anda <languageLink>sudah wujud</languageLink>.
+    Jika tidak, anda boleh <languageRequestLink>>bertanya tentang menambah bahasa anda</languageRequestLink>.
+    Terdapat dua peringkat. Menterjemah laman web, dan mengumpul ayat
+about-playbook-how-add-language-translating-heading = Menterjemah laman web
+about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Tonton panduan kami tentang cara menggunakan Pontoon.</translateVideoLink>
 
 ## How does localization work
 
