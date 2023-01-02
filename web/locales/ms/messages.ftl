@@ -1,8 +1,8 @@
 ## General
 
 yes-receive-emails = Ya, hantarkan e-mel kepada saya. Saya ingin terus mengetahui tentang projek Common Voice.
-stayintouch = Kami di Mozilla sedang membina komuniti di sekitar teknologi suara. Kami ingin terus berhubung dengan kemas kini, sumber data baru dan untuk mengetahui lebih lanjut mengenai bagaimana anda menggunakan data ini.
-privacy-info = Kami berjanji untuk mengendalikan maklumat anda dengan cermat. Ketahui selanjutnya dalam <privacyLink>Notis Privasi</privacyLink> kami.
+stayintouch = Kami di Mozilla sedang membina komuniti di sekitar teknologi suara. Kami ingin terus berhubung dengan kemas kini, sumber data baru dan untuk mengetahui lebih lanjut mengenai bagaimana Anda menggunakan data ini.
+privacy-info = Kami berjanji untuk mengendalikan maklumat Anda dengan cermat. Ketahui selanjutnya dalam <privacyLink>Notis Privasi</privacyLink> kami.
 return-to-cv = Kembali ke Common Voice
 email-input =
     .label = E-mel
@@ -12,11 +12,11 @@ email-opt-in-info = Saya ingin menerima e-mel seperti peringatan matlamat, kemas
 email-opt-in-info-title = Sertai senarai mel Common Voice
 email-opt-in-info-sub-with-challenge = Terima e-mel seperti peringatan cabaran dan matlamat, kemas kini kemajuan, dan buletin mengenai Common Voice.
 email-opt-in-privacy-v2 =
-    Dengan memilih untuk menerima e-mel, anda menyatakan bahawa anda baik-baik saja dengan Mozilla mengendalikan 
+    Dengan memilih untuk menerima e-mel, Anda menyatakan bahawa anda baik-baik saja dengan Mozilla mengendalikan 
      maklumat ini seperti yang dijelaskan dalam <privacyLink>Dasar Privasi</privacyLink> Mozilla.
-indicates-required = * Menunjukkan maklumat yang perlu disi
+indicates-required = Medan bertanda asterisk (*) diperlukan.
 not-available-abbreviation = N/A
-banner-error-slow-1 = Maaf, Common Voice berjalan perlahan. Terima kasih atas minat anda.
+banner-error-slow-1 = Maaf, Common Voice berjalan perlahan. Terima kasih atas minat Anda.
 banner-error-slow-2 = Kami menerima banyak trafik dan sedang menyiasat isu tersebut
 banner-error-slow-link = Halaman Status
 error-something-went-wrong = Ooops, ada sesuatu yang tidak kena
@@ -211,7 +211,7 @@ cookies = Kuki
 faq = Soalan Lazim
 content-license-text = Kandungan tersedia di bawah <licenseLink>lesen Creative Commons</licenseLink>
 share-title = Bantu kami mencari orang lain untuk menderma suara mereka!
-share-text = Bantu mengajar mesin bagaimana orang sebenar bercakap, sumbangkan suara anda di { $link }
+share-text = Bantu mengajar mesin bagaimana orang sebenar bercakap, sumbangkan suara Anda di { $link }
 link-copied = Pautan Disalin
 back-top = Kembali ke atas
 logout = Log Keluar
@@ -255,8 +255,8 @@ hours-validated = Jam Disahkan
 voices-online = Suara Dalam Talian Sekarang
 todays-progress = Perkembangan Hari ini
 help-reach-goal = Bantu kami mencapai { $goal }
-read-terms-q = Sudahkah anda membaca terma kami?
-ready-to-record = Bersedia untuk menyumbangkan suara anda?
+read-terms-q = Sudahkah Anda membaca terma kami?
+ready-to-record = Bersedia untuk menyumbangkan suara Anda?
 all-locales = Semua
 today = Hari ini
 x-weeks-short =
@@ -279,11 +279,11 @@ email-subscription-title-new = Daftar untuk buletin Common Voice, peringatan mat
 ## Account Benefits
 
 benefits = Manfaat
-rich-data = Jadikan data yang anda serahkan selengkap mungkin dengan menyediakan sebahagian data demografi awanama. Kami menyahkenal pasti semua data demografi sebelum menjadikannya umum.
+rich-data = Jadikan data yang Anda serahkan selengkap mungkin dengan menyediakan sebahagian data demografi awanama. Kami menyahkenal pasti semua data demografi sebelum menjadikannya umum.
 improve-audio = Maklumat profil data audio dapat digunakan dalam melatih ketepatan pengecaman pertuturan.
-keep-track = Pantau kemajuan dan metrik anda dalam pelbagai bahasa.
+keep-track = Pantau kemajuan dan metrik Anda dalam pelbagai bahasa.
 compare-progress = Lihat bagaimana kemajuan Anda dibandingkan dengan penyumbang lain di seluruh dunia.
-view-goals = Lihat kemajuan anda terhadap matlamat peribadi dan projek.
+view-goals = Lihat kemajuan Anda terhadap matlamat peribadi dan projek.
 join-newsletter = Secara sukarela sertai senarai e-mel kami untuk kemas kini dan maklumat baru mengenai projek ini.
 
 ## What's public
@@ -292,7 +292,7 @@ whats-public = Apa yang umum?
 email-not-public = Kami tidak akan menjadikan e-mel Anda umum.
 recordings-and-locale-public = Jumlah rakaman dan bahasa yang Anda sumbangkan akan menjadi umum.
 username-optin-public = Anda boleh pilih untuk jadikan nama pengguna anda terbuka atau awanama.
-demographic-deidentified-clarity-2 = Data demografi (seperti umur, jantina, bahasa dan aksen)  yang diserahkan secara pilihan, tidak akan didedahkan kepada umum pada profil anda dan tidak akan dipautkan ke akaun anda dalam set data. Klip audio individu akan dikaitkan dengan data demografi untuk tujuan analisa yang lebih tepat - contohnya, seorang penyelidik mungkin ingin menyasarkan model latihan kepada segmen demografi tertentu
+demographic-deidentified-clarity-2 = Data demografi (seperti umur, jantina, bahasa dan aksen)  yang diserahkan secara pilihan, tidak akan didedahkan kepada umum pada profil Anda dan tidak akan dipautkan ke akaun anda dalam set data. Klip audio individu akan dikaitkan dengan data demografi untuk tujuan analisa yang lebih tepat - contohnya, seorang penyelidik mungkin ingin menyasarkan model latihan kepada segmen demografi tertentu
 username-email-not-demographic = Nama pengguna dan e-mel anda tidak akan dikaitkan dengan data yang diterbitkan.
 
 ## Speak & Listen Shortcuts
@@ -743,6 +743,14 @@ request-language-explanation-2 =
     Kami juga akan <strong>memberitahu pengurus komuniti kami
     yang anda berminat</strong>, supaya mereka boleh memberikan apa-apa kepada anda
     sokongan atau maklumat tambahan yang mungkin anda perlukan.
+request-language-form-info =
+    .label = Maklumat tentang bahasa itu
+request-language-form-info-explanation =
+    Tambahkan seberapa banyak maklumat yang anda boleh tentang bahasa tersebut. ini
+    boleh termasuk:
+request-language-form-info-explanation-list-1 = Nama bahasa Anda
+request-language-form-info-explanation-list-2 = <isoCodeLink>Kod ISO</isoCodeLink> jika diketahui
+request-language-form-info-explanation-list-3 = Pautan ke laman web yang boleh membantu kami memahami bahasa tersebut
 
 ## Languages Overview
 
