@@ -408,9 +408,11 @@ request-language-google-recaptcha-error = tleno amo uquis cuali ica reCAPTCHA. x
 request-language-success-heading = ¡tlasohcamatictzin! uticnaltitlan se yancuic tlahtol
 request-language-success-list-1 = quipia nic silis se correo electronico campa nech nextia quenin nic tlalis se tlahtol Common Voice
 request-language-success-list-3 = tla amo utic sile tlanahuatil ic ninqueh tunalmeh, ximu nuhnutsa ihuan <emailLink>{ $email }</emailLink> huan timu nuhnutsasqueh muhuantsi
+request-language-error = canah amo u sek sileh nun tlahtol. timits tlatlauhtia xitech naltitlani se correo electronico ichin <emailLink>{ $email }</emailLink> huan ti mu nuhnutsasqueh muhuan
 
 ## Languages Overview
 
+language-section-in-progress = muchiuhtoc
 
 ## Contribution
 
