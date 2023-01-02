@@ -402,6 +402,10 @@ request-language-form-info-explanation = xictlali nuchi tlanahuatil tlen huilis 
 request-language-form-info-explanation-list-1 = Itoca motlahtol
 request-language-form-info-explanation-list-2 = <isoCodeLink>Codigos ISO </isoCodeLink> quemah mu ixmateh
 request-language-form-info-explanation-list-3 = enlaces huan sitios web tlen huilis tech palehuis ma sec ixmati tlahtol
+request-language-google-recaptcha-required = muniqui reCAPTCHA ticniqui oc ti nihnimis
+request-language-google-recaptcha-error = tleno amo uquis cuali ica reCAPTCHA. xic yehyeco ocsipa
+# Success page
+request-language-success-heading = ¡tlasohcamatictzin! uticnaltitlan se yancuic tlahtol
 
 ## Languages Overview
 
