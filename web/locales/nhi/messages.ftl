@@ -413,9 +413,26 @@ request-language-error = canah amo u sek sileh nun tlahtol. timits tlatlauhtia x
 ## Languages Overview
 
 language-section-in-progress = muchiuhtoc
+language-section-in-progress-new-description = nicancateh tlahtulmeh mu chihchiuhtuqueh ican nichicomasehual. barras nemilis qui nextia queniquichihua <localizationGlossaryLink> canincan web</localizationGlossaryLink>huan <sentenceCollectionGlossaryLink>nichicol tlahtol</sentenceCollectionGlossaryLink>
+language-section-launched = naltitlanque
+language-section-launched-description = para nicancateh tlahtulmeh yumunextihqueh, sitio web uyah<localizationGlossaryLink> yumahsic</localizationGlossaryLink> cuali huan quipia miqueh<sentenceCollectionGlossaryLink> nichicul tlahtulmeh</sentenceCollectionGlossaryLink>para huilis<speakLink>tlahtos</spenderLink>huan<listenLink>tlacaquis</listenLink>quin tlaliah san nimah
+languages-show-more = xiquita cachi
+languages-show-less = xiquita amocachi
+language-meter-in-progress = nemilis
+language-total-progress = nochi
+language-search-input =
+    .placeholder = Sectemos
+language-speakers = tlahtuhuaneh
+localized = tlacuipcahtlahtol
+sentences = tlahtoltlahcuilol
 
 ## Contribution
 
+action-click = xicpacho
+action-tap = xicnexti
+contribute = Xitiquiti touan
+listen = tlacaqui
+skip = ahcotzicuini
 
 ## Reporting
 
