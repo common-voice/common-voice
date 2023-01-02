@@ -509,9 +509,24 @@ daily-goal = tiquitl nuchipa
 easy-difficulty = amo uhueh
 difficult-difficulty = uhueh
 lose-changes-warning = tla tic cahua axan, tiquin polos tlapatla
+set-a-goal = xictlali mu tiquiuh
+how-many-per-day = ¡cuali! ¿ quesqui tlahtolahcucui tunal?
+which-goal-type = ¿ ticniqui ti tlahtos, tlacaquis o yen umeh?
+receiving-emails-info = axan qupia de tic yectlalis para tic silis correos electronicos, quemeh ilnamiquilis tiquitl, yancuic nemilis huan boletines de tlanahuatil ica Common Voice
+help-share-goal = xitechpalehui maticahsicah cachi tlahtol, tehuanti mu tiquiuh
+# $type is one of share-goal-type-*
+share-n-daily-contribution-goal = tehuanti mu tiquiuh nuchipa de { $count } tlahtolahcucui para{ $type }
+share-goal-type-speak = tlahtuhtuc
+share-goal-type-listen = tlacactoc
+share-goal-type-both = tlahtuhtuc huan tlacactoc
+daily-goal-created = umuchiuh se tiquitl nuchipa
+return-to-edit-goal = nuchipa huilis timu cuipas tic patlas mu tiquiuh
+share-goal = tehuantis nu tiquiuh
 
 ## Profile Delete
 
+delete-q = ¿nuyuhqui ticniqui muc pulucan mu tlahtolahcuhtoc o ticniqui mu ahcuctacah ichin base de datos Common Voice?
+remove = pololti
 
 ## Profile Download
 
