@@ -525,6 +525,7 @@ about-no-votes = ≥ 2 Tiada undian
 about-dataset-new = Set Data Common Voice
 about-clip-graveyard = Perkuburan Klip
 about-get-involved = Melibatkan diri
+about-stay-in-touch = Bagaimana saya boleh terus berhubung?
 about-nav-why-common-voice = Kenapa?
 about-nav-how-it-works = Bagaimana?
 about-nav-partners = Rakan kongsi
@@ -595,17 +596,35 @@ about-playbook-how-grow-language-content-1 = Mencipta peluang untuk kepelbagaian
 about-playbook-how-grow-language-content-2 = Acara
 about-playbook-how-grow-language-content-3 = Anda boleh menjalankan acara untuk membantu orang ramai menyumbang. Ia lebih mudah daripada yang anda fikirkan. Anda boleh melakukannya dalam talian dengan alat persidangan video, atau secara peribadi jika selamat. <eventTemplate>Lihat templat dan sumber kami untuk menjalankan acara</eventTemplate>.
 about-playbook-how-grow-language-content-4 = Media Sosial
+about-playbook-how-grow-language-content-5 = Anda boleh menggunakan platform media sosial untuk sampaikan pesanan itu. Kongsi pos yang menerangkan sebab ia penting, dan berhubung dengan orang lain yang bercakap tentang isu seperti hak bahasa, AI suara atau berat sebelah dalam teknologi. Lihat lebih banyak nasihat tentang <campaignLink>menjalankan kempen sosial, termasuk kandungan yang boleh anda gunakan semula</campaignLink>.
+about-playbook-how-grow-language-content-6 = Perkongsian dan rangkaian
+about-playbook-how-grow-language-content-7 = Cari orang lain yang peduli. Itu boleh jadi universiti, sekolah bahasa, kumpulan advokasi atau komuniti sains data. Jangkau dan terangkan dengan jelas bagaimana mereka boleh membantu dan sebabnya. <outreachTemplates>Lihat e-mel jangkauan templat kami</outreachTemplates>.
+about-playbook-how-grow-language-content-8 = <strong>Jadilah kreatif!</strong> Komuniti bahasa anda akan menjadi unik, dan ini hanyalah beberapa cara untuk bermula.
 
 ## How to validate
 
 about-playbook-how-validate = Bagaimanakah saya tahu sama ada hendak meluluskan klip suara?
+about-playbook-how-validate-content-1 = Jika anda boleh <strong>mendengarnya</strong> dan <strong>memahaminya</strong>, selalunya <strong>terbaik untuk meluluskan</strong>.
+about-playbook-how-validate-content-2 = <strong>Jangan tolak klip di mana pentutur ‘mempunyai loghat’ yang berbeza dengan anda sendiri</strong> - ini penting agar pengecaman suara berfungsi dengan lebih baik untuk semua orang.
+about-playbook-how-validate-content-3 = Jika anda fikir sebutan itu menjadikannya <strong>mustahil untuk difahami</strong>, atau terdapat <strong>banyak bunyi latar belakang</strong>, atau terdapat <strong>orang lain turut bercakap</strong>, maka anda harus menolak klip itu. <accuracyLink>Lihat maklumat lanjut dalam kriteria ketepatan kami</accuracyLink>.
+about-playbook-how-validate-content-4 = Jika klip ditolak oleh 2 orang, ia dikeluarkan dalam subset set data yang berbeza.
 
 ## How to access dataset
 
 about-playbook-how-access-dataset = Bagaimana saya boleh mengakses dan menggunakan set data ini?
+about-playbook-how-access-dataset-content-1 = Anda boleh pergi ke <datasetsPage>halaman set data</datasetsPage>, pilih versi dan bahasa yang anda mahukan dan muat turunnya! Fail mempunyai <metadataLink>metadata berkaitan</metadataLink>, seperti maklumat demografi dan data pengesahan. Anda perlu memberikan alamat e-mel untuk memuat turun set data.
+about-playbook-how-access-dataset-content-2 = Jika anda sedang mencari alat untuk membina model ASR, anda boleh berhubung dengan orang lain dalam komuniti <discourseLink>pada Discourse</discourseLink>.
 
 ## How are decisions made
 
+about-playbook-how-project-governance = Bagaimanakah keputusan projek dibuat?
+about-playbook-how-project-governance-content-1 = Mozilla Common Voice diwujudkan oleh pelbagai komuniti aktivis, ahli bahasa, saintis data, ahli akademik dan jurutera perisian dari seluruh dunia. Projek ini dikendalikan oleh Yayasan Mozilla.
+about-playbook-how-project-governance-content-2 = Tadbir urus kami diasaskan di atas tiang-tiang:
+about-playbook-how-project-governance-content-3 = Privasi, keselamatan dan ketelusan.
+about-playbook-how-project-governance-content-4 = Penyertaan komuniti dan membuat keputusan.
+about-playbook-how-project-governance-content-5 = Nilai dan pengenalan.
+about-playbook-how-project-governance-content-6 = Kebertanggungjawaban bersama.
+about-playbook-how-project-governance-content-7 = <governanceLink>Baca lebih lanjut tentang cara kami ditadbir</governanceLink>
 
 ## Glossary
 
