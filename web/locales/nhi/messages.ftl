@@ -354,9 +354,20 @@ resource-playbook-info = <playbookLink> xicahsi nimilis tlen cualtias </playbook
 data-other-voxforge-description = VoxForge umuchiuh para mu nuchicusqueh tlahtulme ihcuiluhtuqueh para muquin cuicah ica nemilis de ixmatilistlahtol ica código tlapuhtoc
 your-feedback = ¿ticpia se nimilil para tic chihuasque cachi cuali tlanahuatil de Common Voice? xitechilhui ichin Discourse
 go-discourse = yuhui a Discourse
+missing-language = amo neci mu tlahtol ichin tlanahuatil? tla ticniqui tic tlalis xiyu ichin tu pagina de tlahtulmeh
+go-languages-page = yas ichin pagina de tlahtulmeh
+ready-to-validate = yicuali tica para tiquin silis tlahtol
+more = Cachi
+close = tlatzacua
+download = timulti
 
 ## Download Modal
 
+download-title = mu timulistl yupeuh
+download-helpus = xitech palehui matic chihuacah se nichicomasehual ican tipos tlahtol, ximu nuhnutsto ika correo.
+download-form-email =
+    .label = xictlali mu correo
+    .value = tlasohcamatictzin, ti mu nuhnutstusqueh
 
 ## Contact Modal
 
