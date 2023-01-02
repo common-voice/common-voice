@@ -492,6 +492,9 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Mengapa Common Voice?
+about-header-description-v2 =
+    <p>Common Voice ialah set data suara yang tersedia untuk umum, dikuasakan oleh suara penyumbang sukarelawan di seluruh dunia. Orang yang ingin membina aplikasi suara boleh menggunakan set data untuk melatih model pembelajaran mesin.</p>
+    <p>Pada masa ini, kebanyakan set data suara dimiliki oleh syarikat, yang menghalang inovasi. Set data suara juga kurang mewakili: penutur bukan bahasa Inggeris, orang kulit berwarna, orang kurang upaya, wanita dan orang LGBTQIA+. Ini bermakna teknologi yang didayakan suara tidak berfungsi sama sekali untuk banyak bahasa, dan apabila ia berfungsi, ia mungkin tidak berfungsi dengan baik untuk semua orang. Kami mahu mengubahnya dengan menggerakkan orang ramai di mana-mana untuk berkongsi suara mereka.</p>
 how-does-it-work-title-v2 = Bagaimanakah Common Voice berfungsi?
 how-does-it-work-text = Kami sedang mengumpulkan set data suara yang bersumber terbuka. Sumbangkan suara anda, sahkan ketepatan klip pengguna lain, jadikan set data lebih baik untuk semua orang.
 
@@ -587,6 +590,7 @@ release-version = Versi
 dataset-date = Tarikh
 license-mixed = Campuran
 data-download-singleword-title = Muat turun Segmen Sasaran Kata Tunggal
+review-terms = Dengan menggunakan Common Voice, anda bersetuju menerima <termsLink>Terma</termsLink> dan <privacyLink>Notis Privasi</privacyLink>kami
 terms-agree = Saya setuju
 terms-disagree = saya tidak bersetuju
 review-submit-title = Semak & Hantar
@@ -621,6 +625,7 @@ get-started-speech = Mulakan dengan Pengecaman Pertuturan
 other-datasets = Set Data Suara Lain
 feedback-q = Ada Maklum balas?
 data-other-voxforge-description = VoxForge ditubuhkan untuk mengumpulkan ucapan yang ditranskrip untuk digunakan dengan Enjin Pengecaman Pertuturan Ucapan Sumber Bebas dan Terbuka.
+go-discourse = Pergi ke Discourse
 go-languages-page = Pergi ke Halaman Bahasa
 more = Selanjutnya
 close = Tutup
@@ -660,6 +665,7 @@ other-language = Bahasa Lain
 ## Languages Overview
 
 language-section-in-progress = Dalam proses
+language-section-in-progress-new-description = Bahasa-bahasa ini sedang dalam pembangunan komuniti. <localizationGlossaryLink>Lokalisasi laman web</localizationGlossaryLink> dan </localizationGlossaryLink>Pengumpulan ayat<sentenceCollectionGlossaryLink> diperlukan untuk dilancarkan.
 language-section-launched = Dilancarkan
 language-section-launched-description = Untuk bahasa yang dilancarkan ini, laman web telah berjaya <localizationGlossaryLink>dilokalisasi</localizationGlossaryLink> dan mempunyai cukup <sentenceCollectionGlossaryLink>ayat yang dikumpulkan</sentenceCollectionGlossaryLink> untuk membenarkan sumbangan <speakLink>Bercakap</speakLink> dan <listenLink>Dengar</listenLink> yang berterusan.
 languages-show-more = Lihat lagi
@@ -892,6 +898,7 @@ see-less = <chevron></chevron>Lihat kurang
 
 ## HEADER/FOOTER
 
+sc-footer-discourse = Discourse
 sc-footer-privacy = Privasi
 
 ## HOME
