@@ -40,6 +40,7 @@ ba = ܒܫܟܝܪܝܬ
 bas = ܒܐܣܐܝܬ
 be = ܒܝܠܘܐܘܪܘܣܢܝܬ
 bg = ܒܘܠܓܐܪܝܬ
+bm = ܒܡܒܪܐܝܬ
 bn = ܒܢܓܐܠܝܬ
 br = ܒܪܝܬܘܢܝܬ
 bs = ܒܘܣܢܝܢܝܬ
@@ -56,6 +57,8 @@ cy = ܘܝܠܫܝܬ
 da = ܕܐܢܡܪܟܝܬ
 dag = ܕܓܒܢܝܬ
 de = ܐܠܡܢܝܐ
+dsb = ܨܘܪܒܐܝܬ ܬܚܬܝܐ
+dv = ܕܗܝܒܝܗܐܝܬ
 dyu = ܕܝܘܠܐܝܬ
 el = ܝܘܢܐܝܬ
 en = ܐܢܓܠܝܣ
@@ -213,6 +216,7 @@ shortcut-discard-ongoing-recording = ܩܕܝܠܐ ܕܢܦܩܐ ESC
 shortcut-discard-ongoing-recording-label = ܡܗܡܐ ܡܟܬܒܘܬܐ ܗܫܝܐ
 shortcut-submit = ܕܥܪ
 shortcut-submit-label = ܫܕܪ ܡܐܡܪ̈ܐ
+request-language-text = ܠܝܬܘܢ ܒܚܙܝܐ ܠܫܢܘܟܘܢ ܥܠ ܩܠܐ ܓܘܢܝܐ؟
 request-language-button = ܛܠܒ ܠܫܢܐ
 
 ## ProjectStatus
@@ -230,7 +234,7 @@ status-hours =
 # Variables:
 # $goal - number of hours representing the next goal
 status-goal = ܢܝܫ̈ܐ ܕܐܬܐ: { $goal }
-english = ܐܢܓܠܣ
+english = ܐܢܓܠܝܣ
 
 ## ProfileForm
 
