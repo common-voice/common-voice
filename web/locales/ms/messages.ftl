@@ -513,6 +513,7 @@ about-voice-validation-title = Pengesahan Suara
 about-voice-validation-subtitle = Orang lain mengesahkan klip suara tersebut.
 about-dataset-release-title = Keluaran Set Data
 about-dataset-release-subtitle = Kami mengeluarkan set data setiap 3 bulan.
+about-subscribe-text = Ingin kekal berhubung dengan Common Voice?
 about-speak = Cakap
 about-speak-text = Penyumbang merakam klip suara dengan membaca dari bank ayat yang disumbangkan.
 about-listen-queue = Giliran-Dengar
@@ -534,7 +535,9 @@ about-nav-playbook = Ketahui cara mengambil bahagian
 ## Community Playbook Content
 ## What is a language
 
-about-playbook-what-is-language = Apakah bahasa pada Common Voice?
+about-playbook-what-is-language = Apa itu bahasa pada Common Voice?
+about-playbook-what-is-language-content-1 = Terdapat banyak cara untuk berfikir tentang bahasa. Untuk tujuan model pengecaman pertuturan, Common Voice mencadangkan untuk memfokuskan pada 'kefahaman bersama', atau 'bolehkah penutur bahasa ini kebanyakannya memahami satu sama lain jika mereka cuba melakukannya?'
+about-playbook-what-is-language-content-2 = Kami mahu model pertuturan menjadi lebih baik dalam memahami pelbagai jenis pentutur. Untuk ini berlaku, set data suara mesti mewakili banyak orang yang berbeza.
 
 ## How do I add a language
 
