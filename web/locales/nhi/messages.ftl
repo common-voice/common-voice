@@ -475,15 +475,40 @@ target-segment-learn-more = cachi tlanahuatil
 
 report = tlanahuatil
 report-ask = catleyeh mu tiquiuh ica nin tlahtoltlahcuilol
+report-different-language = ocse tlahtol
+report-different-language-detail = catqui ihcuiliuhtoc ica se tlahtol tlamatl  quement tlen neh ni tlahtuhua
+report-difficult-pronounce = yeh uhueh de niquihtos
+report-other-comment =
+    .placeholder = tlahtos
+success = cuali
+continue = nimilis
 
 ## Goals
 
+days =
+    { $count ->
+        [one] tunal
+       *[other] tunalmeh
+    }
 
 ## Dashboard
 
+your-languages = mu tlahtulmeh
+you = teh
+everyone = nuchin tlalticpac
+contribution-activity = tiquitl palehuis
+show-ranking = mucnextica nu nemilis
 
 ## Custom Goals
 
+get-started-goals = nipehuas nu tiquiuh
+goal-type = ¿tlen tiquitl nicniqui nic chihuas?
+both-speak-and-listen = tiumeh
+both-speak-and-listen-long = tiumeh (tlahtos huan tlacaqui)
+daily-goal = tiquitl nuchipa
+easy-difficulty = amo uhueh
+difficult-difficulty = uhueh
+lose-changes-warning = tla tic cahua axan, tiquin polos tlapatla
 
 ## Profile Delete
 
