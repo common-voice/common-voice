@@ -439,6 +439,7 @@ contribute-more = yiticah cuali para tic chihuas { $count } cachi?
 record-cta = pehua tlahtolahcucui
 record-platform-not-supported = xitech tlapohpolhui, pero mu plataforma axan amo catqui soportada
 record-platform-not-supported-desktop = ichin tipostlahcuilol, huilis tic timultis version tlen teicahuia
+record-platform-not-supported-ios-non-safari = campa iOS timits tlatlauhtiah campa Safari para tic nimiltisqueh tlahtolahcucui…
 
 ## Reporting
 
