@@ -471,10 +471,11 @@ faq-where-src-from-2-q = Dari manakah teks sumber berasal?
 faq-where-src-from-2-a =
     Teks sumber kami terdiri daripada sumbangan penyumbang asal serta dialog daripada skrip filem domain awam seperti <italic>It’s a Wonderful Life</italic>
     
-    Anda boleh melihat ayat sumber kami dalam <githubLink>folder GitHub ini</githubLink>.
+    Anda boleh melihat ayat sumber kami di <githubLink>folder GitHub ini</githubLink>.
 faq-why-not-ask-read-q = Mengapa anda tidak meminta orang untuk membaca daripada buku atau artikel Wikipedia dalam bahasa yang berbeza?
-faq-why-account-q = Mengapa saya perlu mendaftar akaun?
-faq-is-account-public-q = Adakah maklumat akaun saya publik?
+faq-why-not-ask-read-a = Untuk menjadikan set data Common Voice serbaguna yang mungkin, kami telah memutuskan untuk hanya membenarkan teks sumber yang tersedia di bawah lesen Creative Commons (CC0). Menggunakan standard CC0 bermakna lebih sukar untuk mencari dan mengumpul teks sumber, tetapi membenarkan sesiapa sahaja menggunakan data suara yang terhasil tanpa sekatan penggunaan atau kebenaran daripada Mozilla. Akhir sekali, kami ingin menjadikan set data berbilang bahasa serbaguna yang mungkin kepada semua orang, termasuk penyelidik, universiti, syarikat permulaan, kerajaan, organisasi tujuan sosial dan penghobi.
+faq-why-account-q = Mengapa saya patut mendaftar akaun?
+faq-is-account-public-q = Adakah maklumat akaun saya umum?
 faq-how-privacy-q = Bagaimanakah anda memastikan ketanpanamaan dan privasi orang yang menderma suara mereka?
 faq-what-is-cv = Apakah Common Voice?
 faq-using-cv = Menggunakan Common Voice
