@@ -462,7 +462,7 @@ faq-why-my-lang-q = Mengapa bahasa saya tidak disertakan lagi?
 faq-why-my-lang-a =
     Common Voice ialah platform penyumberan ramai, dan semua bahasa telah ditambahkan oleh sukarelawan.
     Kami ingin anda menambah bahasa anda! <languageRequestLink>Tanya tentang menambah bahasa anda.</languageRequestLink></languageRequestLink>
-faq-what-quality-q = Apakah tahap kualiti audio yang diperlukan untuk klip suara digunakan dalam set data?
+faq-what-quality-q = Apakah tahap kualiti audio yang diperlukan untuk klip suara yang akan digunakan dalam set data?
 faq-why-10k-hours-q = Mengapa 10,000 jam divalidasi merupakan sasaran setiap bahasa bagi mengumpulkan data audio?
 faq-why-10k-hours-a = Ini adalah kira-kira bilangan jam yang diperlukan untuk melatih sistem pertuturan-ke-teks produksi.
 faq-how-calc-hours-q = Bagaimana Common Voice mengira jam?
@@ -526,6 +526,8 @@ about-dataset-new = Set Data Common Voice
 about-clip-graveyard = Perkuburan Klip
 about-get-involved = Melibatkan diri
 about-stay-in-touch = Bagaimana saya boleh terus berhubung?
+about-stay-in-touch-text-1 = <emailFragment>Daftar</emailFragment> ke senarai mel kami untuk mengetahui cara anda boleh mengambil bahagian dalam kempen, acara dan ciri reka bentuk bersama di Common Voice.
+about-stay-in-touch-text-2 = Anda boleh bertemu orang lain dalam komuniti bahasa Mozilla dengan menyertai <discourseLink>Discourse</discourseLink> untuk perbualan topikal, atau <matrixLink>Matrix</matrixLink> untuk mendapatkan nasihat pantas.
 about-nav-why-common-voice = Kenapa?
 about-nav-how-it-works = Bagaimana?
 about-nav-partners = Rakan kongsi
@@ -641,6 +643,7 @@ de-identified-explanation = Proses di mana maklumat profil penyumbang dikaburkan
 ## Error pages
 
 error-title-404 = Kami tidak dapat mencari halaman itu untuk anda
+error-title-503 = Kami mengalami waktu henti yang tidak dijangka
 error-code = Ralat { $code }
 
 ## Data
