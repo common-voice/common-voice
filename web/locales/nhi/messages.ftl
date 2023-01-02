@@ -401,6 +401,7 @@ request-language-form-info =
 request-language-form-info-explanation = xictlali nuchi tlanahuatil tlen huilis ipan tlahtol. nicanca huilis tic tlalis :
 request-language-form-info-explanation-list-1 = Itoca motlahtol
 request-language-form-info-explanation-list-2 = <isoCodeLink>Codigos ISO </isoCodeLink> quemah mu ixmateh
+request-language-form-info-explanation-list-3 = enlaces huan sitios web tlen huilis tech palehuis ma sec ixmati tlahtol
 
 ## Languages Overview
 
