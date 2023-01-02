@@ -888,11 +888,22 @@ want-to-continue = Adakah anda mahu teruskan?
 finish-editing = Selesai mengedit dahulu?
 lose-changes-warning = Meninggalkan sekarang bermakna anda akan kehilangan perubahan anda
 build-custom-goal = Bina matlamat kustom
+help-reach-hours-pluralized =
+    { NUMBER($hours) ->
+       *[other] Bantu mencapai { $hours } jam dalam { $language } dengan matlamat peribadi
+    }
+help-reach-hours-general-pluralized =
+    { NUMBER($hours) ->
+       *[other] Bantu Common Voice mencapai { $hours } jam dalam bahasa dengan matlamat peribadi
+    }
 set-a-goal = Tetapkan matlamat
 cant-decide = Tidak dapat membuat keputusan?
 how-many-per-day = Hebat! Berapa banyak klip sehari?
 how-many-a-week = Hebat! Berapa banyak klip seminggu?
 which-goal-type = Adakah anda mahu bercakap, mendengar atau kedua-duanya?
+receiving-emails-info =
+    Anda kini ditetapkan untuk menerima e-mel seperti peringatan matlamat,
+    kemas kini kemajuan dan surat berita tentang Common Voice
 n-clips-pluralized =
     { NUMBER($count) ->
        *[other] { $count } klip
@@ -907,6 +918,8 @@ share-n-weekly-contribution-goal = Kongsi { $count } Klip Matlamat Mingguan anda
 share-goal-type-speak = Bercakap
 share-goal-type-listen = Mendengar
 share-goal-type-both = Bercakap dan Mendengar
+# LINK will be replaced with the current URL
+goal-share-text = Saya baru sahaja mencipta matlamat peribadi untuk menderma suara kepada #CommonVoice -- sertai saya dan bantu mengajar mesin cara orang sebenar bercakap { $link }
 weekly-goal-created = Matlamat mingguan anda telah dicipta
 daily-goal-created = Matlamat harian anda telah dicipta
 track-progress = Jejak kemajuan di sini dan di halaman statistik anda.
@@ -962,6 +975,7 @@ demo-listen-subtitle = Bersedia untuk menyumbang?
 
 ## Demo Dashboard
 
+demo-dashboard-card-body = Untuk setiap klip suara yang didermakan dan setiap klip audio yang disahkan, papan pemuka akaun Anda dikemas kini untuk menggambarkan kemajuan terkini anda dalam setiap bahasa yang anda sumbangkan. Ya, anda boleh menyumbang kepada lebih daripada satu!<br/><br/> Gunakan papan pemuka untuk menjejaki statistik anda, lihat prestasi anda bersama orang lain dalam komuniti dan tetapkan matlamat sumbangan harian atau mingguan.
 
 ## Validation criteria
 
