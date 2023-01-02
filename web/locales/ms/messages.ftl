@@ -458,7 +458,10 @@ faq-why-different-speakers-q = Mengapa anda memerlukan begitu banyak pentutur be
 faq-why-different-speakers-a =
     Kebanyakan pangkalan data pertuturan dilatih dengan representasi berlebihan bagi demografi tertentu yang mengakibatkan berat sebelah terhadap <articleLink>lelaki dan kelas pertengahan</articleLink>. Aksen dan dialek yang cenderung kurang diwakili dalam set data latihan biasanya dikaitkan dengan kumpulan orang yang sudah terpinggir. Banyak mesin juga menghadapi masalah untuk memahami suara wanita.
     Inilah sebabnya dalam pangkalan data suara kami, kami mahukan variasi!
-faq-why-my-lang-q = Mengapa bahasa saya belum dimasukkan lagi?
+faq-why-my-lang-q = Mengapa bahasa saya tidak disertakan lagi?
+faq-why-my-lang-a =
+    Common Voice ialah platform penyumberan ramai, dan semua bahasa telah ditambahkan oleh sukarelawan.
+    Kami ingin anda menambah bahasa anda! <languageRequestLink>Tanya tentang menambah bahasa anda.</languageRequestLink></languageRequestLink>
 faq-what-quality-q = Apakah tahap kualiti audio yang diperlukan untuk klip suara digunakan dalam set data?
 faq-why-10k-hours-q = Mengapa 10,000 jam disahkan matlamat setiap bahasa bagi menangkap audio?
 faq-why-10k-hours-a = Ini adalah kira-kira bilangan jam yang diperlukan untuk melatih sistem ucapan-ke-teks produksi.
