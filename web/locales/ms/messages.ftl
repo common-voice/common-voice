@@ -775,6 +775,8 @@ contribute = Menyumbang
 listen = Dengar
 skip = Langkau
 shortcuts = Pintasan
+goal-help-recording = Anda telah membantu Common Voice mencapai <goalPercentage></goalPercentage> daripada matlamat rakaman { $goalValue } harian kami!
+goal-help-validation = Anda telah membantu Common Voice mencapai <goalPercentage></goalPercentage> daripada matlamat pengesahan { $goalValue } harian kami!
 record-cta = Mula Merakam
 record-must-allow-microphone = Anda mesti membenarkan akses mikrofon.
 record-error-too-short = Rakaman terlalu pendek.
@@ -921,6 +923,7 @@ profile-form-delete = Hapus Profil
 
 ## Profile Download
 
+download-recordings-title = Rakaman
 
 ## Landing
 
@@ -1026,6 +1029,7 @@ sc-footer-privacy = Privasi
 
 ## PROFILE
 
+sc-personal-your-languages = Bahasa Anda:
 
 ## REVIEW CRITERIA
 
