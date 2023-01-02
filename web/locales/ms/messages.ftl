@@ -659,8 +659,9 @@ other-language = Bahasa Lain
 
 ## Languages Overview
 
-language-section-in-progress = Sedang Dijalankan
+language-section-in-progress = Dalam proses
 language-section-launched = Dilancarkan
+language-section-launched-description = Untuk bahasa yang dilancarkan ini, laman web telah berjaya <localizationGlossaryLink>dilokalisasi</localizationGlossaryLink> dan mempunyai cukup <sentenceCollectionGlossaryLink>ayat yang dikumpulkan</sentenceCollectionGlossaryLink> untuk membenarkan sumbangan <speakLink>Bercakap</speakLink> dan <listenLink>Dengar</listenLink> yang berterusan.
 languages-show-more = Lihat lagi
 languages-show-less = Lihat Kurang
 language-meter-in-progress = Kemajuan
