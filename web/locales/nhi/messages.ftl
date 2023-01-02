@@ -433,6 +433,12 @@ action-tap = xicnexti
 contribute = Xitiquiti touan
 listen = tlacaqui
 skip = ahcotzicuini
+goal-help-recording = tlasohcamate utitech palehue Common Voice yu ahsic <goalPercentage></goalPercentage> ica tiquitl tlen tlahtol ahcucueh{ $goalValue }
+goal-help-validation = tlasohcamateh utitech palehue Common Voice yu ahsic<goalPercentage></goalPercentage>ica tiquitl tlen tlahtol ahcucueh{ $goalValue }
+contribute-more = yiticah cuali para tic chihuas { $count } cachi?
+record-cta = pehua tlahtolahcucui
+record-platform-not-supported = xitech tlapohpolhui, pero mu plataforma axan amo catqui soportada
+record-platform-not-supported-desktop = ichin tipostlahcuilol, huilis tic timultis version tlen teicahuia
 
 ## Reporting
 
