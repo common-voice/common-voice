@@ -733,6 +733,16 @@ other-language = Bahasa Lain
 
 ## Request Language Pages
 
+request-language-heading = Tanya mengenai bahasa baharu
+request-language-explanation-1 =
+    Semak sama ada bahasa anda disenaraikan pada
+    <languagesPageLink>Halaman Bahasa Common Voice</languagesPageLink>.
+    Jika tidak, isikan borang ini dan kami akan <strong>menghantar e-mel berguna kepada anda
+    menerangkan cara menyediakan bahasa anda</strong>.
+request-language-explanation-2 =
+    Kami juga akan <strong>memberitahu pengurus komuniti kami
+    yang anda berminat</strong>, supaya mereka boleh memberikan apa-apa kepada anda
+    sokongan atau maklumat tambahan yang mungkin anda perlukan.
 
 ## Languages Overview
 
