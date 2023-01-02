@@ -381,9 +381,18 @@ contact-required = niquilia
 
 ## Request Language Modal
 
+request-language-title = tlahtlani tlahtol
+request-language-form-language =
+    .label = Tlahtol
+request-language-success-title = tlahtlani tlahtol yu mu naltitlan cuali, tlasohcamatictzin
+request-language-success-content = timu nuhnutstusqueh ica cachi tlanahuatil quemeh quenin tic tlalis mu tlahtol ichin Common Voice san nimah
+select-language = xicpihpina se tlahtol...
+other-language = ocse tlahtol
 
 ## Request Language Pages
 
+request-language-heading = xi tlahtlani ica ocse yancuic tlahtol
+request-language-explanation-1 = xiquit atla mu tlahtol huits tlahcuiliuhtok<languagesPageLink> pagina de tlahtol ixmateh</languagesPageLink> tla  amo uhcon, xic tlami nicancah formulario huan <strong> timits naltitlanisqueh se correo tlen mits cualtias, huits quenin tic yectlalis mu tlahtol</strong>
 
 ## Languages Overview
 
