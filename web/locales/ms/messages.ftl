@@ -464,7 +464,7 @@ faq-why-my-lang-a =
     Kami ingin anda menambah bahasa anda! <languageRequestLink>Tanya tentang menambah bahasa anda.</languageRequestLink></languageRequestLink>
 faq-what-quality-q = Apakah tahap kualiti audio yang diperlukan untuk klip suara digunakan dalam set data?
 faq-why-10k-hours-q = Mengapa 10,000 jam divalidasi merupakan sasaran setiap bahasa bagi mengumpulkan data audio?
-faq-why-10k-hours-a = Ini adalah kira-kira bilangan jam yang diperlukan untuk melatih sistem ucapan-ke-teks produksi.
+faq-why-10k-hours-a = Ini adalah kira-kira bilangan jam yang diperlukan untuk melatih sistem pertuturan-ke-teks produksi.
 faq-how-calc-hours-q = Bagaimana Common Voice mengira jam?
 faq-how-calc-hours-a = Kami mengira jam dengan menganggarkan purata panjang setiap rakaman, dan kemudian mendarabkan nombor itu dengan jumlah bilangan rakaman merentas semua bahasa.
 faq-where-src-from-2-q = Dari manakah teks sumber berasal?
@@ -479,6 +479,10 @@ faq-is-account-public-q = Adakah maklumat akaun saya umum?
 faq-how-privacy-q = Bagaimanakah anda memastikan ketanpanamaan dan privasi orang yang menderma suara mereka?
 faq-how-privacy-a = Semua klip suara dalam set data dihapuskan daripada maklumat pengenalpastian peribadi. Apabila penyumbang menyediakan data demografi melalui profil mereka, maklumat itu dinyahkenal pasti daripada klip suara mereka sebelum digabungkan untuk dimuat turun dalam set data dan tidak pernah didedahkan kepada umum pada halaman profil mereka.
 faq-what-determine-identity-q = Apakah maksudnya saya tidak boleh "menentukan identiti" pentutur dalam set data Common Voice?
+faq-what-determine-identity-a =
+    Set data Common Voice ialah sumber terbuka dan tersedia untuk umum yang boleh digunakan untuk melatih pelbagai jenis aplikasi yang didayakan pertuturan. Untuk melindungi keselamatan para penyumbang kami, kami meminta semua orang yang memuat turun set data Common Voice menghormati privasi penyumbang.
+    
+    Semua klip suara dalam set data dihapuskan daripada maklumat pengenalpastian peribadi. Apabila anda memuat turun set data, anda bersetuju untuk tidak cuba menentukan identiti mana-mana penyumbang. Ini bermakna anda tidak boleh cuba memautkan maklumat dalam set data kepada maklumat peribadi penyumbang. Walau bagaimanapun, anda boleh menggunakan set data untuk melatih pengecaman pertuturan, pengecaman pentutur atau aplikasi lain, dengan, contohnya, memautkan maklumat dalam set data kepada maklumat lain yang sudah ada dalam set data.
 faq-what-is-cv = Apakah Common Voice?
 faq-using-cv = Menggunakan Common Voice
 faq-description = Common Voice adalah sebahagian daripada inisiatif Mozilla untuk membantu mengajar mesin cara orang sebenar bercakap.
@@ -493,6 +497,7 @@ how-does-it-work-text = Kami sedang mengumpulkan set data suara yang bersumber t
 
 ## How does it work section
 
+about-sentence-collection-title = Pengumpulan Ayat
 about-speak = Cakap
 about-speak-text = Penyumbang merakam klip suara dengan membaca dari bank ayat yang disumbangkan.
 about-listen-queue = Giliran-Dengar
@@ -553,8 +558,13 @@ about-playbook-how-access-dataset = Bagaimana saya boleh mengakses dan menggunak
 
 glossary = Glosari
 localization = Lokalisasi
+localization-explanation = Ini ialah proses kami untuk menterjemah dan menyesuaikan kandungan kami untuk banyak tempat (bahasa).
+sentence-collection-explanation = Mengumpul ayat daripada domain awam, atau menulis ayat baharu untuk domain awam.
 hours-recorded-explanation = Jumlah jam rakaman suara yang telah kita kumpulkan setakat ini.
-sst = Ucapan-ke-teks (STT)
+sst = Pertuturan-ke-teks (STT)
+sst-explanation = Teknologi pertuturan-ke-teks (STT) menukar data suara kepada teks.
+de-identified = De-dikenalpasti
+de-identified-explanation = Proses di mana maklumat profil penyumbang dikaburkan daripada klip suara sumbangan mereka apabila dibungkus untuk dimuat turun sebagai sebahagian daripada set data.
 
 ## Error pages
 
