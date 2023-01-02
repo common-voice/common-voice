@@ -568,20 +568,32 @@ about-playbook-how-localize = Bagaimana lokalisasi laman web berfungsi?
 about-playbook-how-localize-content-1 = Terjemahan laman web Common Voice berlaku pada <strong>Pontoon</strong>.
 about-playbook-how-localize-content-2 = <pontoonAccountLink>Buat akaun</pontoonAccountLink> jika anda tidak mempunyai akaun. Kemudian, pilih bahasa anda <strong>(‘Team’)</strong> dan kemudian pilih projek, <pontoonCvLink>Common Voice</pontoonCvLink>. Akan ada fail untuk diterjemahkan. Klik salah satu, kemudian ia menunjukkan perkataan dalam bahasa Inggeris dan kotak untuk menterjemahkannya.
 about-playbook-how-localize-content-3 = Terjemahan adalah daripada Bahasa Inggeris, tetapi anda boleh melihat <strong>Cadangan</strong> dalam bahasa lain. Klik ikon <strong>Profil</strong>, kemudian pautan <strong>Tetapan</strong> dan tambahkan sebarang bahasa yang anda pertuturkan. Di penjuru kanan sebelah bawah terdapat senarai terjemahan yang dipanggil <strong>Tempatan</strong>. Terjemahan dipaparkan di tapak selepas satu hari.
+about-playbook-how-localize-content-4 = Tapak ini sedia untuk dilancarkan apabila ia mencapai 75% siap.
 about-playbook-how-localize-content-5 = Tonton penjelasan video kami untuk membantu
 
 ## How to add sentences
 
 about-playbook-how-add-sentences = Bagaimana saya boleh menambah ayat?
+about-playbook-how-add-sentences-content-1 = <strong>Sentence Collector</strong> ialah alat untuk mengumpul dan mengesahkan ayat domain awam. Anda akan <scAccountLink>perlu membuat akaun</scAccountLink>. Kemudian, tambahkan bahasa anda pada <strong>Profil</strong> anda. Anda boleh <strong>Tambah</strong> ayat atau <strong>Semak</strong> ayat yang ditambahkan sebelum ini.
+about-playbook-how-add-sentences-content-2 = Ayat mesti disemak dan diterima oleh dua orang untuk disertakan dalam Common Voice. Anda membuat garis panduan untuk bahasa anda <languageGuidelinesLink>di sini</languageGuidelinesLink>. Ayat mestilah dalam <licenseLink>domain awam</licenseLink> dan lebih pendek daripada 15 patah perkataan. Anda boleh meminta pemilik teks untuk menjadikannya <waiverLink>CC0 menggunakan proses penepian kami</waiverLink> dan hantar kepada kami di commonvoice@mozilla.com
+about-playbook-how-add-sentences-content-3 = Anda boleh menggunakan <scraperLink>Sentence extractor</scraperLink> untuk memanfaatkan ayat pendek daripada Wikipedia.
+about-playbook-how-add-sentences-content-4 = Ayat yang telah disahkan dieksport pada hari Rabu, dan tersedia selepas keluaran seterusnya.
 
 ## How to record quality
 
+about-playbook-how-record-quality = Bagaimanakah saya merakam klip suara berkualiti tinggi?
+about-playbook-how-record-content-1 = Bercakap dengan suara biasa anda! Cara anda bercakap dialu-alukan di sini - kami mahukan loghat anda sebagaimana adanya, dan kami mahukan kelantangan, gaya dan intonasi biasa anda.
+about-playbook-how-record-content-2 = Elakkan terlalu banyak bunyi latar belakang - ia sepatutnya mudah untuk mendengar anda.
+about-playbook-how-record-content-3 = Baca ayat dengan teliti - jangan ketinggalan, tukar atau tambah perkataan.
+about-playbook-how-record-content-4 = Pastikan platform sedang merakam sebelum anda mula bercakap dan ia hanya berhenti sebaik sahaja anda selesai.
 about-playbook-how-record-content-5 = <accuracyLink>Lihat lebih lanjut tentang kriteria ketepatan.</accuracyLink>
 
 ## How to grow language
 
 about-playbook-how-grow-language = Bagaimana kita dapat mengembangkan bahasa pada 'Voice' secara efektif?
 about-playbook-how-grow-language-content-1 = Mencipta peluang untuk kepelbagaian orang untuk menyumbang kepada Common Voice memastikan set data berfungsi kepada seramai mungkin orang. Kami telah mencipta sumber dan templat yang boleh anda gunakan!
+about-playbook-how-grow-language-content-2 = Acara
+about-playbook-how-grow-language-content-3 = Anda boleh menjalankan acara untuk membantu orang ramai menyumbang. Ia lebih mudah daripada yang anda fikirkan. Anda boleh melakukannya dalam talian dengan alat persidangan video, atau secara peribadi jika selamat. <eventTemplate>Lihat templat dan sumber kami untuk menjalankan acara</eventTemplate>.
 about-playbook-how-grow-language-content-4 = Media Sosial
 
 ## How to validate
