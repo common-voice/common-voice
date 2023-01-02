@@ -440,6 +440,15 @@ record-cta = pehua tlahtolahcucui
 record-platform-not-supported = xitech tlapohpolhui, pero mu plataforma axan amo catqui soportada
 record-platform-not-supported-desktop = ichin tipostlahcuilol, huilis tic timultis version tlen teicahuia
 record-platform-not-supported-ios-non-safari = campa iOS timits tlatlauhtiah campa Safari para tic nimiltisqueh tlahtolahcucui…
+record-no-mic-found = amo usecahsic niunse tlahtolahcucuilis
+record-error-too-short = tlahtolahcucui uyah sii tsohtsocotsin
+record-error-too-long = tlahtolahcucuini uyah simi hueyi
+record-error-too-quiet = tlahtulahcucuina amo simi mu caqui
+record-instruction = { $actionType }<recordIcon></recordIcon>huan satepan xic machti tlahcuilol chicahuac
+record-stop-instruction = { $actionType }<stopIcon></stopIcon> quen tic tlamis
+record-three-more-instruction = mucahuah yeyeh
+record-again-instruction = cuali<recordIcon></recordIcon> nihnimilti ican okse tlahtolahcucui
+record-again-instruction2 = ok ohcon xiiuhto, xi tlahtolahcucui ocsipa
 
 ## Reporting
 
