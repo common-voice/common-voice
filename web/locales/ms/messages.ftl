@@ -556,6 +556,10 @@ about-playbook-how-add-language-translating-content-2 =
     <githubRepoLink>minta bahasa baharu pada GitHub</githubRepoLink>. <localizationFragment>Lihat lebih lanjut pada terjemahan web</localizationFragment>.
 about-playbook-how-add-language-collecting-sentences-heading = Mengumpul ayat
 about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>Tonton panduan kami tentang menggunakan Sentence Collector</sentenceCollectorVideo>
+about-playbook-how-add-language-collecting-sentences-content-2 =
+    Anda boleh <sentenceCollectorLinkAdd>menambah bilangan kecil ayat</sentenceCollectorLinkAdd>,
+    atau anda boleh melakukan <bulkImportDocsLink>import pukal menggunakan Github</bulkImportDocsLink>.
+    Ingat bahawa ayat mestilah <licenseLink>CC0 (atau domain awam)</licenseLink>, atau anda boleh menulis sendiri.
 
 ## How does localization work
 
