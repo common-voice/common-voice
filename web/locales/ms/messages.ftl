@@ -549,6 +549,13 @@ about-playbook-how-add-language-content-1 =
     Terdapat dua peringkat. Menterjemah laman web, dan mengumpul ayat
 about-playbook-how-add-language-translating-heading = Menterjemah laman web
 about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Tonton panduan kami tentang cara menggunakan Pontoon.</translateVideoLink>
+about-playbook-how-add-language-translating-content-2 =
+    Kami menggunakan alat Mozilla yang dipanggil <pontoonLink>Pontoon</pontoonLink> untuk terjemahan. Ponton mempunyai banyak bahasa,
+    tetapi jika ia tiada milik anda, anda boleh <pontoonRequestLink>meminta agar bahasa anda ditambahkan</pontoonRequestLink>.
+    Kemudian, untuk menjadikan bahasa tersedia pada projek Common Voice,
+    <githubRepoLink>minta bahasa baharu pada GitHub</githubRepoLink>. <localizationFragment>Lihat lebih lanjut pada terjemahan web</localizationFragment>.
+about-playbook-how-add-language-collecting-sentences-heading = Mengumpul ayat
+about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>Tonton panduan kami tentang menggunakan Sentence Collector</sentenceCollectorVideo>
 
 ## How does localization work
 
