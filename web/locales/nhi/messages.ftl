@@ -449,6 +449,18 @@ record-stop-instruction = { $actionType }<stopIcon></stopIcon> quen tic tlamis
 record-three-more-instruction = mucahuah yeyeh
 record-again-instruction = cuali<recordIcon></recordIcon> nihnimilti ican okse tlahtolahcucui
 record-again-instruction2 = ok ohcon xiiuhto, xi tlahtolahcucui ocsipa
+review-tooltip = xiquita huan ocsipa xi tlahtolahcucui nica ichin nemilis
+share-clip = tehuanti mu clip
+share-common-voice = tehuanti Common Voice
+review-instruction = xiquita huan ocsipa xi tlahtolahcucui tla muniqui
+record-submit-tooltip = { $actionType } naltitlani cuando tic tlamis
+record-abort-title = ¿ticniqui tictlamis tlahtolahcucuis achton?
+record-abort-text = tla ti quisa axan, ticpulos nuchi tlen yutikchiuh
+record-abort-submit = xiquinaltitlani grabaciones
+record-abort-continue = xictlami tlahtolahcucui
+record-abort-delete = quisa huan sequinpulos tlahtolhacucui
+listen-instruction = { $actionType }<playIcon></playIcon>¿ uquihtuhqueh tlahtol cuali?
+listen-again-instruction = cualitiquiuh<playIcon></playIcon> xicaqui ocsipa cuando yi ti isqui cuali
 
 ## Reporting
 
