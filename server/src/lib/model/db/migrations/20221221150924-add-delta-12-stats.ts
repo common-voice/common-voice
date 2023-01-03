@@ -1958,6 +1958,13 @@ export const up = async function (db: any): Promise<any> {
   }
 };
 
-export const down = function (): Promise<any> {
-  return null;
+export const down = async function (db: any): Promise<any> {
+  const dataset_query = await db.runSql(`SELECT id from datasets WHERE release_dir='${STATS[0].release_dir}'`);
+
+  const dataset = dataset_query.reduce((obj: any, current: any) => {
+    obj['id'] = current.id;
+    return obj;
+  }, {});
+
+  await db.runSql(`DELETE FROM locale_datasets WHERE dataset_id=${dataset.id}`);
 };
