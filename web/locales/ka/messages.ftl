@@ -466,7 +466,7 @@ faq-why-important-a =
 faq-how-get-q = საიდან შეიძლება Common Voice-ის მონაცემების გადმოწერა?
 faq-how-get-a = Common Voice-ის მონაცემთა კრებული ხელმისაწვდომია ჩამოსატვირთად <licenseLink>CC0</licenseLink> ლიცენზიით ჩვენი <datasetLink>კრებულის გვერდზე</datasetLink>. აგრეთვე, შეგიძლიათ ჩამოტვირთოთ რამდენიმე სხვა ღიად ხელმისაწვდომი კრებულიც იმავე გვერდიდან.
 faq-when-release2-q = როდის გამოუშვებთ Common Voice-ის მონაცემებს სხვა ენებზე?
-faq-when-release2-a = მრავალენოვანი ვერსია Common Voice-ის მონაცემთა კრებულის ამჟამად მუშავდება და იხვეწება ერთობის მხარდაჭერით. თუ გსურთ დაგვეხმაროთ Common Voice-ში სხვადასხვა ენების შემოსატანად, იხილეთ ჩვენი <sentenceCollectorLink>წინადადებების შესაგროვებელი ხელსაწყო</sentenceCollectorLink> ახალი წინადადებების კრებულში დასამატებლად და აგრეთვე Mozilla <pontoonLink>Pontoon</pontoonLink> თავად საიტის გადასათარგმნად. ახალი ენები Common Voice-ში ხმის ჩანაწერების გასაკეთებლად დაემატება მას შემდეგ, როცა 5000 დამოწმებული წინადადება შეგროვდება.
+faq-when-release2-a = მრავალენოვანი ვერსია Common Voice-ის მონაცემთა კრებულის ამჟამად მუშავდება და იხვეწება ერთობის მხარდაჭერით. თუ გსურთ დაგვეხმაროთ Common Voice-ში სხვადასხვა ენების შემოსატანად, იხილეთ ჩვენი <sentenceCollectorLink>წინადადებების შესაგროვებელი ხელსაწყო</sentenceCollectorLink> ახალი წინადადებების კრებულში დასამატებლად და აგრეთვე Mozilla <pontoonLink>Pontoon</pontoonLink> თავად საიტის გადასათარგმნად. ახალი ენები Common Voice-ში ხმის ჩანაწერების გასაკეთებლად დაემატება მას შემდეგ, რაც 5000 დამოწმებული წინადადება შეგროვდება.
 faq-why-mission-q = Common Voice რატომაა Mozilla-ის მიზნის ნაწილი?
 faq-why-mission-a = Mozilla ერთგულია ინტერნეტის გახსნილობისა და საყოველთაო ხელმისაწვდომობის. ამისთვის საჭიროა ვებშემმუშავებელთა მხარდაჭერა ისეთი პროექტებით, როგორიცაა Common Voice. ხმოვანი ტექნოლოგიების გავრცელებისა და ზრდის კვალდაკვალ მიგვაჩნია, რომ ისინი ყველა მომხმარებლისთვის თანაბრად უნდა იყოს ხელმისაწვდომი. ეს კი გულისხმობს უფრო მეტი ენისა და აქცენტისთვის ნიმუშების მოგროვებას ხმოვანი ხელსაწყოების ასაწყობად და გამოსაცდელად. Common Voice არის საყოველთაოდ ხელმისაწვდომი საშუალება და Mozilla-ს შემმუშავებელთა ერთობა მთელი მსოფლიოდან უკვე იყენებს მას ჩვენს პროექტებშიც.
 faq-what-cv-and-deepspeech-q = რით განსხვავდება Common Voice და Deep Speech ერთმანეთისგან?
@@ -574,7 +574,7 @@ about-nav-playbook = როგორ უნდა მიიღოთ მონ�
 
 about-playbook-what-is-language = რას გულისხმობს „ენა“ Common Voice-ში?
 about-playbook-what-is-language-content-1 = მრავალი კუთხით შეიძლება განვიხილოთ ენა. ხმის ამომცნობი სისტემებისთვის კი Common Voice გთავაზობთ „ურთიერთგაგების“ გათვალისწინებას, ანუ „ამ ენაზე მოლაპარაკენი უნდა ახერხებდნენ აზრის გამოტანას ერთმანეთის საუბრიდან“.
-about-playbook-what-is-language-content-2 = გვსურს, რომ ხმის მოდელებს უკეთ შეეძლოს სხვადასხვა ადამიანის გაგება. ამისთვის, კრებული უნდა შედგებოდეს მრავალი განსხვავებული ხმის ჩანაწერისგან.
+about-playbook-what-is-language-content-2 = გვსურს, რომ ხმის მოდელებს უკეთ შეეძლოს სხვადასხვა ადამიანის გაგება. ამისთვის კრებული უნდა შედგებოდეს მრავალი განსხვავებული ხმის ჩანაწერისგან.
 about-playbook-what-is-language-content-3 = ზოგ ენას შეიძლება გააჩნდეს უამრავი სახესხვაობა გრამატიკაში, ლექსიკაში, ფონეტიკაში. ამიტომ გადავწყვიტეთ, <ctaLink>შემოგვეღო „ნაირსახეობები“</ctaLink> 2022 წელს. ეს საზოგადოების თითოეულ ჯგუფს მისცემს საშუალებას, გამოარჩიოს თავისი სალაპარაკო ენა მთლიანი კრებულიდან.
 
 ## How do I add a language
@@ -585,7 +585,7 @@ about-playbook-how-add-language-translating-heading = საიტის თა�
 about-playbook-how-add-language-translating-content-1 = <translateVideoLink>იხილეთ ჩვენი მითითებები, თუ როგორ უნდა გამოიყენოთ Pontoon.</translateVideoLink>
 about-playbook-how-add-language-translating-content-2 =
     თარგმნისთვის ჩვენ ვიყენებთ Mozilla-ს ხელსაწყოს სახელწოდებით <pontoonLink>Pontoon</pontoonLink>. Pontoon-ზე ბევრი ენაა, მაგრამ თუ ვერ იპოვით თქვენსას, შეგიძლიათ <pontoonRequestLink>მოითხოვოთ მისი დამატება</pontoonRequestLink>.
-    შემდეგ, Common Voice-ის პროექტში თქვენი ენის დასამატებლად
+    შემდეგ Common Voice-ის პროექტში თქვენი ენის დასამატებლად
     <githubRepoLink>მოგვმართეთ GitHub-ზე</githubRepoLink>. <localizationFragment>ვრცლად საიტის თარგმნის შესახებ</localizationFragment>.
 about-playbook-how-add-language-collecting-sentences-heading = წინადადებების შეგროვება
 about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>იხილეთ ჩვენი მითითებები, თუ როგორ უნდა გამოიყენოთ წინადადებების შემგროვებელი</sentenceCollectorVideo>.
@@ -1607,7 +1607,7 @@ localization-select =
     .label = აირჩიეთ ენა/არე
 # PARTNERSHIPS PAGE
 partnerships-header = თანამშრომლობა
-partnerships-header-text = Common Voice დიდ ძალისხმევას საჭიროებს! მარტონი ვერ გავუმკლავდებით. გსურთ თანამშრომლობა? მოხარულნი ვიქნებით, თუ შეგვეშველებით.
+partnerships-header-text = Common Voice დიდ ძალისხმევას საჭიროებს! მხოლოდ ჩვენ ვერ გავუმკლავდებით. გსურთ თანამშრომლობა? მოხარულნი ვიქნებით, თუ შეგვეშველებით.
 partnerships-get-in-touch = დაგვიკავშირდით
 partnerships-become-a-partner = გახდი Common Voice-ის თანამონაწილე
 partnerships-community-header = ერთობა, შემოქმედებითი და სამოქალაქო საზოგადოება
