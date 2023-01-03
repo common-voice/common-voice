@@ -198,7 +198,7 @@ zh-TW = Bahasa Cina (Taiwan)
 
 speak = Bercakap
 speak-now = Cakap sekarang
-datasets = Datasets
+datasets = Set data
 languages = Bahasa
 about = Berkenaan
 partner = Rakan kongsi
@@ -677,6 +677,12 @@ review-delete-recordings = Padamkan rakaman saya
 
 ## Datasets Page
 
+datasets-positioning =
+    Kami percaya bahawa set data suara yang besar dan tersedia untuk umum akan memupuk inovasi dan persaingan komersial yang sihat dalam teknologi pertuturan berasaskan pembelajaran mesin.
+    
+    Set data berbilang bahasa Common Voice sudah pun menjadi set data suara terbesar seumpamanya, tetapi ia bukan satu-satunya.
+    
+    Lihat halaman ini sebagai hab rujukan untuk set data suara sumber terbuka yang lain dan, apabila Common Voice terus berkembang, tempat untuk kemas kini keluaran kami.
 language = Bahasa
 # File size in gigabytes
 size = Saiz
