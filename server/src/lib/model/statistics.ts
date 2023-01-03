@@ -1,6 +1,7 @@
 import lazyCache from '../lazy-cache';
 import { getMySQLInstance } from './db/mysql';
-import { TableNames, TimeUnits } from 'common';
+import { QueryOptions, TableNames, TimeUnits } from 'common';
+
 const db = getMySQLInstance();
 
 type StatisticsCount = {
@@ -11,15 +12,6 @@ type StatisticsCount = {
 const FILTERS = {
   rejected: 'is_valid = false',
   hasEmail: 'email IS NOT null',
-};
-
-type Filters = 'rejected' | 'hasEmail';
-
-type QueryOptions = {
-  groupByColumn?: string;
-  isDistinct?: boolean;
-  isDuplicate?: boolean;
-  filter?: Filters;
 };
 
 /**
@@ -39,6 +31,8 @@ const queryStatistics = async (
 ) => {
   const isDistinct = options?.isDistinct ?? false;
   const isDuplicate = options?.isDuplicate ?? false;
+  const year = options?.year ?? new Date().getFullYear();
+  options = { ...options, year };
   let monthlyIncrease, totalCount;
 
   if (isDistinct) {
@@ -47,17 +41,19 @@ const queryStatistics = async (
     totalCount = await getUniqueSpeakersTotal();
   } else if (isDuplicate) {
     // Specific query flow since logic is more complicated
-    monthlyIncrease = await getMonthlyDuplicateSentences();
+    monthlyIncrease = await getMonthlyDuplicateSentences(options);
     totalCount = await getTotalDuplicateSentences();
   } else {
     // Simple queries
     monthlyIncrease = await getMonthlyContributions(tableName, options);
     totalCount = await getTotal(tableName, options);
   }
+
   const yearlySum = monthlyIncrease.reduce(
     (total: number, row) => (total += row.total_count),
     0
   );
+  
   totalCount = totalCount.total_count;
 
   return { yearlySum, totalCount, monthlyIncrease };
@@ -92,22 +88,22 @@ const formatStatistics = async (
 
 const getMonthlyContributions = async (
   tableName: TableNames,
-  options?: QueryOptions
+  options: QueryOptions
 ): Promise<StatisticsCount[]> => {
   const filter = options?.filter;
   const conditional = filter && FILTERS[filter];
 
   const [rows] = await db.query(`
     SELECT
-      MAX(DATE_FORMAT(created_at, "%Y-%c-%d")) as date,
+      MAX(DATE_FORMAT(created_at, "%Y-%m-%d")) as date,
       COUNT(created_at) as total_count
     FROM
       ${tableName} d
     WHERE
-      created_at > now() - INTERVAL 12 MONTH
+      YEAR(created_at) = ${options.year}
       ${conditional ? 'AND ' + conditional : ''}
     GROUP BY
-      DATE_FORMAT(created_at, "%Y-%c")
+      DATE_FORMAT(created_at, "%Y-%m")
     ORDER BY created_at DESC;
   `);
   return rows;
@@ -120,26 +116,28 @@ const getUniqueMonthlyContributions = async (
   const { groupByColumn } = options;
   const [rows] = await db.query(`
   SELECT
-      MAX(DATE_FORMAT(created_at, "%Y-%c-%d")) as date,
+      MAX(DATE_FORMAT(created_at, "%Y-%m-%d")) as date,
       COUNT(created_at) as total_count
    FROM
     (
       SELECT * 
-      FROM ${tableName} d GROUP BY ${groupByColumn}
+      FROM ${tableName} d 
+      WHERE YEAR(created_at) = ${options.year}
+      GROUP BY ${groupByColumn}
     ) d
-    WHERE
-      created_at > now() - INTERVAL 12 MONTH
     GROUP BY
-      DATE_FORMAT(created_at, "%Y-%c")
+      DATE_FORMAT(created_at, "%Y-%m")
     ORDER BY created_at DESC;
   `);
   return rows;
 };
 
-const getMonthlyDuplicateSentences = async (): Promise<StatisticsCount[]> => {
+const getMonthlyDuplicateSentences = async (
+  options: QueryOptions
+): Promise<StatisticsCount[]> => {
   const [rows] = await db.query(`
     SELECT
-      MAX(DATE_FORMAT(created_at, "%Y-%c-%d")) as date,
+      MAX(DATE_FORMAT(created_at, "%Y-%m-%d")) as date,
       COUNT(created_at) as total_count
     FROM
       (
@@ -154,9 +152,9 @@ const getMonthlyDuplicateSentences = async (): Promise<StatisticsCount[]> => {
         sentenceCount > 1
         ) d
     WHERE
-      created_at > now() - INTERVAL 12 MONTH
+      YEAR(created_at) = ${options.year}
     GROUP BY
-      DATE_FORMAT(created_at, "%Y-%c")
+      DATE_FORMAT(created_at, "%Y-%m")
     ORDER BY
       created_at DESC;
   `);

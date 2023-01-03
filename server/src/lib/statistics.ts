@@ -1,9 +1,15 @@
-import { NextFunction, Request, Response } from 'express';
+import { Request, Response } from 'express';
 import PromiseRouter from 'express-promise-router';
 import Model from './model';
 import { getStatistics } from './model/statistics';
-import { TableNames } from 'common';
-import { clipStatScehma, sentenceStatScehma } from './validation/statistics';
+import { QueryOptions, TableNames } from 'common';
+import {
+  accountStatSchema,
+  clipStatSchema,
+  downloadStatSchema,
+  sentenceStatSchema,
+  speakerStatSchema,
+} from './validation/statistics';
 import validate from './validation';
 
 /**
@@ -19,13 +25,25 @@ export default class Statistics {
   getRouter() {
     const router = PromiseRouter();
 
-    router.get('/downloads', this.downloadCount);
-    router.get('/clips', validate({ query: clipStatScehma }), this.clipCount);
-    router.get('/speakers', this.uniqueSpeakers);
-    router.get('/accounts', this.accountCount);
+    router.get('/clips', validate({ query: clipStatSchema }), this.clipCount);
+    router.get(
+      '/downloads',
+      validate({ query: downloadStatSchema }),
+      this.downloadCount
+    );
+    router.get(
+      '/speakers',
+      validate({ query: speakerStatSchema }),
+      this.uniqueSpeakers
+    );
+    router.get(
+      '/accounts',
+      validate({ query: accountStatSchema }),
+      this.accountCount
+    );
     router.get(
       '/sentences',
-      validate({ query: sentenceStatScehma }),
+      validate({ query: sentenceStatSchema }),
       this.sentenceCount
     );
 
@@ -33,12 +51,17 @@ export default class Statistics {
   }
 
   downloadCount = async (request: Request, response: Response) => {
-    return response.json(await getStatistics(TableNames.DOWNLOADS));
-  };
+    const options = request.query as QueryOptions;
 
+    return response.json(await getStatistics(TableNames.DOWNLOADS, options));
+  };
+  
   uniqueSpeakers = async (request: Request, response: Response) => {
+    const options = request.query as QueryOptions;
+
     return response.json(
       await getStatistics(TableNames.CLIPS, {
+        ...options,
         groupByColumn: 'client_id',
         isDistinct: true,
       })
@@ -46,28 +69,24 @@ export default class Statistics {
   };
 
   clipCount = async (request: Request, response: Response) => {
-    const { filter } = request.query as never;
+    const options = request.query as QueryOptions;
 
-    if (filter) {
-      return response.json(await getStatistics(TableNames.CLIPS, { filter }));
-    }
-
-    return response.json(await getStatistics(TableNames.CLIPS));
+    return response.json(await getStatistics(TableNames.CLIPS, options));
   };
 
   accountCount = async (request: Request, response: Response) => {
-    const filter = 'hasEmail';
-    return response.json(await getStatistics(TableNames.USERS, { filter }));
+    const options = request.query as QueryOptions;
+    
+    return response.json(
+      await getStatistics(TableNames.USERS, { ...options, filter: 'hasEmail' })
+    );
   };
 
   sentenceCount = async (request: Request, response: Response) => {
-    const { filter } = request.query as never;
+    const options = request.query as QueryOptions;
 
-    if (filter && typeof filter === 'string') {
-      return response.json(
-        await getStatistics(TableNames.SENTENCES, { isDuplicate: true })
-      );
-    }
-    return response.json(await getStatistics(TableNames.SENTENCES));
+    return response.json(
+      await getStatistics(TableNames.SENTENCES, options)
+    );
   };
 }
