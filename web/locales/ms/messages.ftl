@@ -466,6 +466,7 @@ faq-why-my-lang-a =
     Common Voice ialah platform penyumberan ramai, dan semua bahasa telah ditambahkan oleh sukarelawan.
     Kami ingin anda menambah bahasa anda! <languageRequestLink>Tanya tentang menambah bahasa anda.</languageRequestLink></languageRequestLink>
 faq-what-quality-q = Apakah tahap kualiti audio yang diperlukan untuk klip suara yang akan digunakan dalam set data?
+faq-what-quality-a = Kami mahu set data Common Voice mencerminkan kualiti audio yang akan didengari oleh enjin pertuturan ke teks di alam liar, jadi kami mencari variasi. Selain komuniti pentutur yang pelbagai, set data dengan kualiti audio yang berbeza-beza akan mengajar enjin pertuturan ke teks untuk mengendalikan pelbagai situasi dunia sebenar, daripada perbualan latar belakang hingga bunyi kereta. Selagi klip suara anda boleh difahami, ia sepatutnya cukup baik untuk set data.
 faq-why-10k-hours-q = Mengapa 10,000 jam divalidasi merupakan sasaran setiap bahasa bagi mengumpulkan data audio?
 faq-why-10k-hours-a = Ini adalah kira-kira bilangan jam yang diperlukan untuk melatih sistem pertuturan-ke-teks produksi.
 faq-how-calc-hours-q = Bagaimana Common Voice mengira jam?
@@ -1103,3 +1104,7 @@ sc-review-form-button-skip = Langkau
 
 # [/SentenceCollector]
 
+# PARTNERSHIPS PAGE
+partnerships-header = Rakan kongsi
+partnerships-get-in-touch = Berhubung
+partnerships-become-a-partner = Menjadi Rakan Kongsi Common Voice
