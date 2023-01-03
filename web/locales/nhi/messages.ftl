@@ -539,6 +539,11 @@ download-recordings-title = tlahtolahcuc
 download-recordings-info = nuyuhqui mp3 huan tlahtulmeh niliuhtuqueh, huilis cuicas siqui tiempo para mu chihuas
 download-recordings-unavailable = amo huilis tic tlahtlanis mu tlahtolahcuc tla yu tic tlahtlan ocse huan yi nihnintoc
 download-recently-requested = huilis tic tlahtlanis se yancuic quixtilis tlahtolahcuc nuchipa { $days } tunalmeh
+download-size = queniuhquihueyi
+download-start = timulti tlanahuatil nexica
+download-request = xiquintlahtlani tlahtolahcuc
+download-requests-info = cuando tuqun tlahtlani tlahtolahcuc, sequin nichicuhua ichin se o miqueh archivos ZIP. nicancateh tlen otucun tlahtlaneh achton
+download-request-button = timulti
 
 ## Landing
 
