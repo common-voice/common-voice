@@ -353,7 +353,7 @@ profile-form-additional-language =
 profile-form-language =
     .label = Bahasa
 profile-form-variant =
-    .label = Versi bahasa { $language } yang mana kamu bercakap?
+    .label = Variant { $language } yang mana kamu bercakap?
 profile-form-variant-default-value = Tiada varian dipilih
 profile-form-accent =
     .label = Aksen
@@ -528,6 +528,10 @@ about-yes-votes = ≥ 2 undian Ya
 about-no-votes = ≥ 2 Tiada undian
 about-dataset-new = Set Data Common Voice
 about-clip-graveyard = Perkuburan Klip
+about-clip-graveyard-text =
+    Klip Graveyard terdiri daripada klip suara yang tidak dimasukkan ke dalam set data Common Voice. Sama seperti set data, Clip Graveyard tersedia untuk dimuat turun.
+    
+    Kami ingin mengucapkan terima kasih kepada orang dan organisasi berikut atas bantuan mereka dengan projek ini:
 about-get-involved = Melibatkan diri
 about-stay-in-touch = Bagaimana saya boleh terus berhubung?
 about-stay-in-touch-text-1 = <emailFragment>Daftar</emailFragment> ke senarai mel kami untuk mengetahui cara anda boleh mengambil bahagian dalam kempen, acara dan ciri reka bentuk bersama di Common Voice.
@@ -662,6 +666,7 @@ data-get-started = <BRBlogLink>Mulakan Pengecaman Pertuturan</BRBlogLink>
 data-other-title = Set data suara lain ...
 data-other-goto = Pergi ke { $name }
 data-other-download = Muat turun Data
+data-bundle-button = Muat turun Pakej Dataset
 data-bundle-description = Data Common Voice serta semua set data suara lain di atas.
 release-version = Versi
 dataset-date = Tarikh
@@ -689,6 +694,7 @@ datasets-positioning =
     
     Lihat halaman ini sebagai hab rujukan untuk set data suara sumber terbuka yang lain dan, apabila Common Voice terus berkembang, tempat untuk kemas kini keluaran kami.
 language = Bahasa
+download-dataset-header = Muat turun Dataset
 download-delta-explainer = Kami telah membuat beberapa perubahan. Segmen Delta hanya mengandungi klip terbaharu sejak keluaran terakhir. <deltaLink>Baca lebih lanjut tentang kerja ini</deltaLink>
 download-dataset-tag = Pilih set data bahasa yang dikehendaki dan pilih versi yang ingin anda muat turun.
 # File size in gigabytes
@@ -712,7 +718,7 @@ whats-inside = Apa yang ada di dalam set data Common Voice?
 dataset-description-hours =
     Setiap entri dalam set data terdiri daripada MP3 unik dan fail teks yang sepadan. Kebanyakan <b>{ $total }</b> jam yang direkodkan dalam set data juga termasuk metadata demografi seperti umur, jantina dan aksen yang boleh membantu melatih ketepatan enjin pengecaman pertuturan.
     
-    Set data pada masa ini terdiri daripada <b>{ $valid }</b> jam yang disahkan dalam bahasa <b>{ $languages }</b>, tetapi kami sentiasa menambah lebih banyak suara dan bahasa. Lihat <languagesLink>halaman Bahasa</languagesLink> kami untuk meminta bahasa atau mula menyumbang.
+    Set data pada masa ini terdiri daripada <b>{ $valid }</b> jam yang disahkan dalam <b>{ $languages }</b>, tetapi kami sentiasa menambah lebih banyak suara dan bahasa. Lihat <languagesLink>halaman Bahasa</languagesLink> kami untuk meminta bahasa atau mula menyumbang.
 want-dataset-update = Mahukan kemas kini semasa kami mengeluarkan versi baru kumpulan data Common Voice? Langgan buletin kami.
 subscribe = Langgan
 get-started-speech = Mulai dengan Pengecaman Pertuturan
@@ -724,6 +730,7 @@ resource-coqui-info = <coquiLink>Coqui</coquiLink> didedikasikan untuk teknologi
 community-playbook = Playbook Komuniti
 resource-playbook-info = <playbookLink>Cari panduan berguna</playbookLink> pada keseluruhan perjalanan Common Voice, daripada penyetempatan kepada penggunaan set data, serta cara untuk berhubung dengan komuniti kami.
 data-other-librispeech-description = LibriSpeech ialah korpus kira-kira 1000 jam pertuturan bahasa Inggeris 16Khz yang diperoleh daripada buku audio yang dibaca daripada projek LibriVox.
+data-other-ted-name = Korpus TED-LIUM
 data-other-ted-description = Korpus TED-LIUM dibuat daripada ceramah audio dan transkripsinya tersedia di laman web TED.
 data-other-voxforge-description = VoxForge ditubuhkan untuk mengumpulkan ucapan yang ditranskrip untuk digunakan dengan Enjin Pengecaman Pertuturan Ucapan Sumber Bebas dan Terbuka.
 data-other-tatoeba-description = Tatoeba ialah pangkalan data besar ayat, terjemahan dan audio pertuturan untuk digunakan dalam pembelajaran bahasa. Muat turun ini mengandungi bahasa Inggeris pertuturan yang dirakam oleh komuniti mereka.
@@ -743,6 +750,7 @@ download-form-email =
     .label = Masukkan e-mel Anda
     .value = Terima kasih, kami akan berhubung.
 download-back = Kembali ke set data Common Voice
+download-no = Tidak Terima kasih
 
 ## Contact Modal
 
@@ -759,6 +767,7 @@ request-language-title = Permintaan Bahasa
 request-language-form-language =
     .label = Bahasa
 request-language-success-title = Permintaan bahasa berjaya dihantar, terima kasih.
+request-language-success-content = Kami akan menghubungi lebih banyak maklumat mengenai cara menambahkan bahasa anda ke Common Voice tidak lama lagi.
 select-language = Pilih Bahasa...
 other-language = Bahasa Lain
 
@@ -823,6 +832,7 @@ record-error-too-quiet = Rakaman terlalu senyap.
 record-cancel = Batalkan Rakaman Semula
 record-instruction = { $actionType } <recordIcon></recordIcon> kemudian baca ayat dengan lantang
 record-three-more-instruction = Tiga lagi!
+review-tooltip = Semak & rakam semula klip di sini semasa anda pergi
 share-clip = Kongsi klip anda
 share-common-voice = Kongsi Common Voice
 review-instruction = Semak & rakam semula klip jika diperlukan
@@ -1072,6 +1082,10 @@ sc-my-err-failed-delete = Gagal memadamkan ayat yang dipilih... Sila cuba lagi!
 
 ## STATS
 
+# Variables:
+#   $sentenceCount (Number) - Total number of sentences uploaded through Sentence Collector
+#   $languageCount (Number) - Total number of languages these sentences represent
+sc-stats-summary = Pengumpul Ayat Common Voice telah mengumpulkan { $sentenceCount } ayat dalam { $languageCount }!
 
 ## ADD
 
@@ -1117,3 +1131,7 @@ partnerships-governments-header = Kerajaan
 partnerships-governments-description = Kami teruja untuk menyokong penglibatan sektor awam dalam teknologi, inovasi dan hak bahasa. Jika anda merancang untuk menjalankan projek atau kempen utama, sila <emailFragment>berhubung.</emailFragment>
 partnerships-academia-header = Universiti, Akademik dan Penyelidik
 partnerships-academia-description = Inovasi terbuka adalah teras kepada apa yang kami lakukan. Untuk kerjasama penyelidikan, pengumpulan data atau temu bual, <emailFragment>hubungi.</emailFragment>
+partnerships-small-business-header = Perniagaan kecil, termasuk start up teknologi dan AI
+partnerships-small-business-description = Kami sentiasa mahu mendengar daripada pengguna data mengenai keperluan dan konteks mereka - daripada bekerjasama dalam platform pengumpulan data untuk menyediakan wawasan kesihatan data, kami mahu <emailFragment>mendapat maklum balas daripada anda.</emailFragment>
+partnerships-corporates-header = Syarikat korporat dan platform berskala besar
+partnerships-corporates-description = Jika Anda ingin bercakap lebih lanjut tentang set data, ingin melabur bersama dalam pengembangan platform yang dirancang atau mencari peluang kerjasama, <emailFragment>turun talian kepada kami.</emailFragment>
