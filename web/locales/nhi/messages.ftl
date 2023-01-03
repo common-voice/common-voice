@@ -527,9 +527,17 @@ share-goal = tehuantis nu tiquiuh
 
 delete-q = ¿nuyuhqui ticniqui muc pulucan mu tlahtolahcuhtoc o ticniqui mu ahcuctacah ichin base de datos Common Voice?
 remove = pololti
+profile-form-delete = secpolos nexica
 
 ## Profile Download
 
+download-q = ¿ticniqui tiquin timultis tlanahuatil?
+download-info = xitechilhui tleno o mits pactisquia tic timultis :
+download-profile-title = nexicah
+download-profile-size = siqui tsocopintsitsi bytes
+download-recordings-title = tlahtolahcuc
+download-recordings-info = nuyuhqui mp3 huan tlahtulmeh niliuhtuqueh, huilis cuicas siqui tiempo para mu chihuas
+download-recordings-unavailable = amo huilis tic tlahtlanis mu tlahtolahcuc tla yu tic tlahtlan ocse huan yi nihnintoc
 
 ## Landing
 
