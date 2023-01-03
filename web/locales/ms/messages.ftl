@@ -656,6 +656,7 @@ data-download-deny = Tidak
 data-download-license = Lesen: <licenseLink> CC-0 </licenseLink>
 data-download-modal = Anda akan memulakan muat turun <size> { $size } GB </size>, teruskan?
 data-subtitle = Kami sedang membina set data suara terbuka dan tersedia untuk umum yang semua orang boleh gunakan untuk melatih aplikasi berdaya pertuturan.
+data-get-started = <BRBlogLink>Mulakan Pengecaman Pertuturan</BRBlogLink>
 data-other-title = Set data suara lain ...
 data-other-goto = Pergi ke { $name }
 data-other-download = Muat turun Data
@@ -712,10 +713,18 @@ dataset-description-hours =
     Set data pada masa ini terdiri daripada <b>{ $valid }</b> jam yang disahkan dalam bahasa <b>{ $languages }</b>, tetapi kami sentiasa menambah lebih banyak suara dan bahasa. Lihat <languagesLink>halaman Bahasa</languagesLink> kami untuk meminta bahasa atau mula menyumbang.
 want-dataset-update = Mahukan kemas kini semasa kami mengeluarkan versi baru kumpulan data Common Voice? Langgan buletin kami.
 subscribe = Langgan
-get-started-speech = Mulakan dengan Pengecaman Pertuturan
+get-started-speech = Mulai dengan Pengecaman Pertuturan
 other-datasets = Set Data Suara Lain
 feedback-q = Ada Maklum balas?
+resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ ialah <docsLink>kit alat sumber terbuka</docsLink> untuk penyelidik membangunkan model AI perbualan terkini.
+resource-deepspeech-info = Enjin pengecaman suara sumber terbuka Mozilla Deep Speech boleh digunakan untuk membina aplikasi pengecaman pertuturan. Baca <githubLink>Gambaran keseluruhan Github</githubLink> kami atau sertai <discourseLink>DeepSpeech Discourse</discourseLink> untuk mengetahui cara untuk bermula.
+resource-coqui-info = <coquiLink>Coqui</coquiLink> didedikasikan untuk teknologi pertuturan terbuka. Projek mereka termasuk enjin STT dan TTS berasaskan pembelajaran mendalam.
+community-playbook = Playbook Komuniti
+resource-playbook-info = <playbookLink>Cari panduan berguna</playbookLink> pada keseluruhan perjalanan Common Voice, daripada penyetempatan kepada penggunaan set data, serta cara untuk berhubung dengan komuniti kami.
+data-other-librispeech-description = LibriSpeech ialah korpus kira-kira 1000 jam pertuturan bahasa Inggeris 16Khz yang diperoleh daripada buku audio yang dibaca daripada projek LibriVox.
+data-other-ted-description = Korpus TED-LIUM dibuat daripada ceramah audio dan transkripsinya tersedia di laman web TED.
 data-other-voxforge-description = VoxForge ditubuhkan untuk mengumpulkan ucapan yang ditranskrip untuk digunakan dengan Enjin Pengecaman Pertuturan Ucapan Sumber Bebas dan Terbuka.
+data-other-tatoeba-description = Tatoeba ialah pangkalan data besar ayat, terjemahan dan audio pertuturan untuk digunakan dalam pembelajaran bahasa. Muat turun ini mengandungi bahasa Inggeris pertuturan yang dirakam oleh komuniti mereka.
 go-discourse = Pergi ke Discourse
 go-languages-page = Pergi ke Halaman Bahasa
 more = Selanjutnya
@@ -794,6 +803,10 @@ contribute = Menyumbang
 listen = Dengar
 skip = Langkau
 shortcuts = Pintasan
+clips-with-count-pluralized =
+    { $count ->
+       *[other] Klip
+    }
 goal-help-recording = Anda telah membantu Common Voice mencapai <goalPercentage></goalPercentage> daripada matlamat rakaman { $goalValue } harian kami!
 goal-help-validation = Anda telah membantu Common Voice mencapai <goalPercentage></goalPercentage> daripada matlamat pengesahan { $goalValue } harian kami!
 record-cta = Mula Merakam
