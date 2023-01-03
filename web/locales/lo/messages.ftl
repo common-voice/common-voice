@@ -1350,6 +1350,20 @@ sc-add-lang-could-not-add = ບໍ່ສາມາດເພີ່ມພາສາ�
 sc-add-lang-sec-label = ເພີ່ມພາສາທີ່ທ່ານຕ້ອງການປະກອບສ່ວນ
 sc-add-lang-sec-button = ເພີ່ມພາສາ
 sc-add-err-unexpected = ການຕອບສະຫນອງທີ່ບໍ່ຄາດຄິດຈາກເຊີເວີ
+# Variables:
+#   $duplicates (Number) - Number of sentences which got rejected because they are duplicates
+sc-add-result =
+    { $duplicates ->
+        [0] ປະໂຫຍກທີ່ສົ່ງມາ. { $duplicates } ປະໂຫຍກຖືກປະຕິເສດວ່າຊໍ້າກັນ.
+       *[other] ປະໂຫຍກທີ່ສົ່ງມາ. { $duplicates } ປະໂຫຍກຖືກປະຕິເສດວ່າຊໍ້າກັນ.
+    }
+# Variables:
+#   $sentences (Number) - Number of sentences which failed to be saved to the database - could be several different reasons
+sc-add-err-failed =
+    { $sentences ->
+        [0] ບໍ່ມີປະໂຫຍກທີ່ລົ້ມເຫລວ
+       *[other] { $sentences } ປະໂຫຍກລົ້ມເຫລວ
+    }
 sc-add-err-submission = ການຍື່ນສະເຫນີຜິດພາດ
 sc-add-lang-process-notice = ຖ້າພາສາຂອງທ່ານບໍ່ຢູ່ໃນລາຍຊື່ນີ້, ທ່ານສາມາດຮ້ອງຂໍມັນໄດ້ຜ່ານ <languageProcessLink>ຂະບວນການນີ້</languageProcessLink>.
 
@@ -1359,8 +1373,27 @@ sc-confirm-are-you-sure =
     .message = ບໍ່ໄດ້ສົ່ງປະໂຫຍກ, ທ່ານແນ່ໃຈບໍ່ວ່າຕ້ອງການອອກ?
 sc-confirm-sentences-title = ຢືນຢັນປະໂຫຍກໃໝ່
 # Variables:
+#   $countOfSentences (Number) - Number of sentences the user has filled in the submission form
+sc-confirm-sentences-found =
+    { $countOfSentences ->
+        [0] ບໍ່ພົບປະໂຫຍກ.
+       *[other] ພົບ { $countOfSentences } ປະໂຫຍກ.
+    }
+# Variables:
 #   $countOfInvalidated (Number) - Number of sentences the user rejected in the review form before submission
 sc-confirm-rejected-by-you = { $countOfInvalidated } ຖືກປະຕິເສດໂດຍທ່ານ
+sc-confirm-already-reviewed =
+    { $countOfReviewed ->
+        [0] ບໍ່ພົບປະໂຫຍກທີ່ຖືກກວດສອບແລ້ວ.
+       *[other] { $countOfReviewed } ປະໂຫຍກຖືກກວດສອບແລ້ວ. ດີ​ຫຼາຍ!
+    }
+# Variables:
+#   $readyCount (Number) - Number of sentences ready to be uploaded
+sc-confirm-ready =
+    { $readyCount ->
+        [0] ບໍ່ພົບປະໂຫຍກທີ່ພ້ອມທີ່ຈະສົ່ງ!
+       *[other] ປະໂຫຍກ { $readyCount } ພ້ອມທີ່ຈະສົ່ງ!
+    }
 # Variables:
 #   $countOfUnreviewed (Number) - Number of sentences unreviewed before the upload
 sc-confirm-unreviewed = { $countOfUnreviewed } ປະໂຫຍກບໍ່ໄດ້ຖືກກວດສອບ. ຖ້າທ່ານຕ້ອງການ, ທ່ານສາມາດທົບທວນປະໂຫຍກຂອງທ່ານໃນປັດຈຸບັນກ່ອນທີ່ຈະສົ່ງພວກມັນ.
@@ -1380,6 +1413,13 @@ sc-lang-info-total =
     }
 sc-lang-info-review-now = <reviewLink>ກວດເບິ່ງດຽວນີ້!</reviewLink>
 sc-lang-info-add-more = <addLink>ເພີ່ມປະໂຫຍກເພີ່ມເຕີມດຽວນີ້!</addLink>
+# Variables:
+#   $rejectedSentences (Number) - Number of sentences which have been rejected for this language
+sc-lang-info-rejected =
+    { $rejectedSentences ->
+        [0] ບໍ່ມີປະໂຫຍກທີ່ຖືກປະຕິເສດ.
+       *[other] { $rejectedSentences } ປະໂຫຍກທີ່ຖືກປະຕິເສດ.
+    }
 
 ## LOGIN
 
@@ -1437,6 +1477,13 @@ sc-review-form-button-skip-shortcut = S
 sc-review-form-keyboard-usage-custom = ທ່ານຍັງສາມາດໃຊ້ປຸ່ມລັດແປ້ນພິມ: { sc-review-form-button-approve-shortcut } ເພື່ອອະນຸມັດ, { sc-review-form-button-reject-shortcut } ເພື່ອປະຕິເສດ, { sc-review-form-button-skip-shortcut } ເພື່ອຂ້າມ
 sc-review-form-button-submit =
     .submitText = ສໍາເລັດການກວດສອບ
+# Variables:
+#   $sentences (Number) - Number of sentences the user has reviewed in this session
+sc-review-form-reviewed-message =
+    { $sentences ->
+        [0] ບໍ່ມີປະໂຫຍກໃຫ້ກວດ.
+       *[other] ທົບທວນຄືນ { $sentences } ປະໂຫຍກແລ້ວ. ຂອບ​ໃຈ!
+    }
 sc-review-form-review-failure = ບໍ່ສາມາດບັນທຶກການກວດສອບໄດ້. ກະລຸນາລອງໃໝ່ໃນພາຍຫຼັງ.
 sc-review-link = ທົບທວນ
 
