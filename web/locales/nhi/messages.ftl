@@ -538,6 +538,7 @@ download-profile-size = siqui tsocopintsitsi bytes
 download-recordings-title = tlahtolahcuc
 download-recordings-info = nuyuhqui mp3 huan tlahtulmeh niliuhtuqueh, huilis cuicas siqui tiempo para mu chihuas
 download-recordings-unavailable = amo huilis tic tlahtlanis mu tlahtolahcuc tla yu tic tlahtlan ocse huan yi nihnintoc
+download-recently-requested = huilis tic tlahtlanis se yancuic quixtilis tlahtolahcuc nuchipa { $days } tunalmeh
 
 ## Landing
 
