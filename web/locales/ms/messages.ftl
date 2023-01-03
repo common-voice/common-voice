@@ -93,6 +93,7 @@ is = Bahasa Iceland
 it = Bahasa Itali
 izh = Bahasa Izhoria
 ja = Bahasa Jepun
+jbo = Lojban
 ka = Bahasa Georgia
 kaa = Bahasa Karakalpak
 kab = Bahasa Kabyle
@@ -727,6 +728,7 @@ data-other-voxforge-description = VoxForge ditubuhkan untuk mengumpulkan ucapan 
 data-other-tatoeba-description = Tatoeba ialah pangkalan data besar ayat, terjemahan dan audio pertuturan untuk digunakan dalam pembelajaran bahasa. Muat turun ini mengandungi bahasa Inggeris pertuturan yang dirakam oleh komuniti mereka.
 go-discourse = Pergi ke Discourse
 go-languages-page = Pergi ke Halaman Bahasa
+ready-to-validate = Sedia untuk membantu mengesahkan ayat?
 more = Selanjutnya
 close = Tutup
 download = Muat turun
@@ -809,6 +811,10 @@ clips-with-count-pluralized =
     }
 goal-help-recording = Anda telah membantu Common Voice mencapai <goalPercentage></goalPercentage> daripada matlamat rakaman { $goalValue } harian kami!
 goal-help-validation = Anda telah membantu Common Voice mencapai <goalPercentage></goalPercentage> daripada matlamat pengesahan { $goalValue } harian kami!
+contribute-more =
+    { $count ->
+       *[other] Bersedia untuk melakukan { $count } lagi?
+    }
 record-cta = Mula Merakam
 record-must-allow-microphone = Anda mesti membenarkan akses mikrofon.
 record-error-too-short = Rakaman terlalu pendek.
