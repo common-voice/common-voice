@@ -521,11 +521,15 @@ about-subscribe-text = Ingin kekal berhubung dengan Common Voice?
 about-speak = Cakap
 about-speak-text = Penyumbang merakam klip suara dengan membaca dari bank ayat yang disumbangkan.
 about-listen-queue = Giliran-Dengar
+about-listen-queue-text = Klip suara dimasukkan ke dalam baris gilir penyerahan yang menyediakannya untuk mendengar.
 about-listen = Dengar
+about-listen-text = Pengguna mengesahkan ketepatan klip yang didermakan, memastikan penceramah membaca ayat dengan betul.
 about-is-it-valid = Adakah clip ini sah?
 about-is-it-valid-text = Klip suara ditandakan "sah" apabila pengguna memberikan undi Ya.
 about-yes-votes = ≥ 2 undian Ya
+about-yes-votes-text = Untuk menjadikannya dalam set data Common Voice, klip suara mesti disahkan oleh dua pengguna berasingan.
 about-no-votes = ≥ 2 Tiada undian
+about-no-votes-text = Apabila pengguna menolak klip suara ia kembali ke Baris Gilir. Jika ditolak untuk kali kedua, klip suara dialihkan ke Klip Graveyard.
 about-dataset-new = Set Data Common Voice
 about-clip-graveyard = Perkuburan Klip
 about-clip-graveyard-text =
@@ -832,6 +836,7 @@ record-error-too-quiet = Rakaman terlalu senyap.
 record-cancel = Batalkan Rakaman Semula
 record-instruction = { $actionType } <recordIcon></recordIcon> kemudian baca ayat dengan lantang
 record-three-more-instruction = Tiga lagi!
+record-again-instruction = Bagus!<recordIcon></recordIcon> Rakam klip seterusnya
 review-tooltip = Semak & rakam semula klip di sini semasa anda pergi
 share-clip = Kongsi klip anda
 share-common-voice = Kongsi Common Voice
@@ -948,6 +953,16 @@ help-reach-hours-general-pluralized =
     }
 set-a-goal = Tetapkan matlamat
 cant-decide = Tidak dapat membuat keputusan?
+activity-needed-calculation-plural =
+    { NUMBER($totalHours) ->
+       *[other] { $totalHours } jam boleh dicapai dalam masa
+    } { NUMBER($periodMonths) ->
+       *[other] { $periodMonths } bulan jika
+    } { NUMBER($people) ->
+       *[other] { $people } orang menrakam
+    } { NUMBER($clipsPerDay) ->
+       *[other] { $clipsPerDay } klip sehari.
+    }
 how-many-per-day = Hebat! Berapa banyak klip sehari?
 how-many-a-week = Hebat! Berapa banyak klip seminggu?
 which-goal-type = Adakah anda mahu bercakap, mendengar atau kedua-duanya?
@@ -992,6 +1007,7 @@ profile-form-delete = Hapus Profil
 ## Profile Download
 
 download-recordings-title = Rakaman
+download-request-description = { $clipCount } klip suara, jumlah saiz arkib { $size }. Tamat tempoh { $expires }.
 
 ## Landing
 
@@ -1135,3 +1151,5 @@ partnerships-small-business-header = Perniagaan kecil, termasuk start up teknolo
 partnerships-small-business-description = Kami sentiasa mahu mendengar daripada pengguna data mengenai keperluan dan konteks mereka - daripada bekerjasama dalam platform pengumpulan data untuk menyediakan wawasan kesihatan data, kami mahu <emailFragment>mendapat maklum balas daripada anda.</emailFragment>
 partnerships-corporates-header = Syarikat korporat dan platform berskala besar
 partnerships-corporates-description = Jika Anda ingin bercakap lebih lanjut tentang set data, ingin melabur bersama dalam pengembangan platform yang dirancang atau mencari peluang kerjasama, <emailFragment>turun talian kepada kami.</emailFragment>
+# FIRST POST SUBMISSION CTA
+first-cta-header-text = Terima kasih kerana menderma klip suara anda!
