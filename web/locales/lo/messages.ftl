@@ -1035,6 +1035,16 @@ help-reach-hours-general-pluralized =
     }
 set-a-goal = ຕັ້ງເປົ້າໝາຍ
 cant-decide = ບໍ່​ສາ​ມາດ​ຕັດ​ສິນ​ໃຈ​?
+activity-needed-calculation-plural =
+    { NUMBER($totalHours) ->
+       *[other] { $totalHours } ຊົ່ວໂມງແມ່ນສາມາດເຮັດໄດ້ໃນຫຼາຍກວ່າ
+    } { $totalHours } ຊົ່ວໂມງແມ່ນສາມາດເຮັດໄດ້ໃນຫຼາຍກວ່າ { NUMBER($periodMonths) ->
+       *[other] { $periodMonths } ເດືອນຖ້າ
+    } { $periodMonths } ເດືອນຖ້າ{ NUMBER($people) ->
+       *[other] ຄົນບັນທຶກ { $people }
+    } ຄົນບັນທຶກ { $people }{ NUMBER($clipsPerDay) ->
+       *[other] { $clipsPerDay } ຄລິບຕໍ່ມື້
+    }
 how-many-per-day = ດີຫຼາຍ! ມີຈັກຄລິບຕໍ່ມື້?
 how-many-a-week = ດີຫຼາຍ! ມີຈັກຄລິບຕໍ່ອາທິດ?
 which-goal-type = ທ່ານຕ້ອງການເວົ້າ, ຟັງຫຼືທັງສອງ?
@@ -1411,8 +1421,29 @@ sc-lang-info-total =
         [0] ບໍ່ມີປະໂຫຍກທັງໝົດ.
        *[other] { $totalSentences } ປະໂຫຍກທັງໝົດ.
     }
+# Variables:
+#   $totalInReview (Number) - Number of sentences currently in the review state for this language
+sc-lang-info-in-review =
+    { $totalInReview ->
+        [0] ບໍ່ພົບປະໂຫຍກທີ່ກຳລັງກວດສອບ.
+       *[other] { $totalInReview } ປະໂຫຍກທີ່ກຳລັງກວດສອບ.
+    }
+# Variables:
+#   $unreviewedSentencesByYou (Number) - Number of sentences the user can still review
+sc-lang-info-left-for-you =
+    { $unreviewedSentencesByYou ->
+        [0] ບໍ່ພົບປະໂຫຍກໄວ້ໃຫ້ທ່ານກວດຄືນ.
+       *[other] ປະໂຫຍກ { $unreviewedSentencesByYou } ໄວ້ໃຫ້ທ່ານທົບທວນຄືນ.
+    }
 sc-lang-info-review-now = <reviewLink>ກວດເບິ່ງດຽວນີ້!</reviewLink>
 sc-lang-info-add-more = <addLink>ເພີ່ມປະໂຫຍກເພີ່ມເຕີມດຽວນີ້!</addLink>
+# Variables:
+#   $validatedSentences (Number) - Number of sentences which have been approved for this language
+sc-lang-info-validated =
+    { $validatedSentences ->
+        [0] ບໍ່ພົບປະໂຫຍກທີ່ຢືນຢັນແລ້ວ.
+       *[other] { $validatedSentences } ປະໂຫຍກທີ່ຢືນຢັນແລ້ວ.
+    }
 # Variables:
 #   $rejectedSentences (Number) - Number of sentences which have been rejected for this language
 sc-lang-info-rejected =
