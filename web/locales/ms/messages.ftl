@@ -677,6 +677,7 @@ review-delete-recordings = Padamkan rakaman saya
 
 ## Datasets Page
 
+datasets-headline = Kami sedang membina set data suara terbuka dan tersedia untuk umum yang semua orang boleh gunakan untuk melatih aplikasi berdaya pertuturan.
 datasets-positioning =
     Kami percaya bahawa set data suara yang besar dan tersedia untuk umum akan memupuk inovasi dan persaingan komersial yang sihat dalam teknologi pertuturan berasaskan pembelajaran mesin.
     
@@ -684,6 +685,8 @@ datasets-positioning =
     
     Lihat halaman ini sebagai hab rujukan untuk set data suara sumber terbuka yang lain dan, apabila Common Voice terus berkembang, tempat untuk kemas kini keluaran kami.
 language = Bahasa
+download-delta-explainer = Kami telah membuat beberapa perubahan. Segmen Delta hanya mengandungi klip terbaharu sejak keluaran terakhir. <deltaLink>Baca lebih lanjut tentang kerja ini</deltaLink>
+download-dataset-tag = Pilih set data bahasa yang dikehendaki dan pilih versi yang ingin anda muat turun.
 # File size in gigabytes
 size = Saiz
 validated-hr-total = Jumlah jam disahkan
@@ -693,13 +696,15 @@ audio-format = Format Audio
 number-of-voices = Bilangan Suara
 splits = Pecahan
 email-to-download = Masukkan E-mel untuk Muat turun
+why-email = <b>Mengapa e-mel?</b> Kami mungkin perlu menghubungi anda pada masa hadapan tentang perubahan pada set data, e-mel memberikan kami titik hubungan.
 confirm-size = Anda bersedia untuk memulakan muat turun <b>{ $size }</b>
 size-gigabyte = GB
 size-megabyte = MB
 confirm-no-identify = <b>Anda bersetuju</b> untuk tidak cuba menentukan identiti penceramah dalam set data Common Voice
 download-language = Muat turun { $language }
 validated-hours = Bilangan jam yang telah disahkan
-recorded-hours = Bilangan jam yang telah dirakam
+recorded-hours = Jam Dirakam
+whats-inside = Apa yang ada di dalam set data Common Voice?
 want-dataset-update = Mahukan kemas kini semasa kami mengeluarkan versi baru kumpulan data Common Voice? Langgan buletin kami.
 subscribe = Langgan
 get-started-speech = Mulakan dengan Pengecaman Pertuturan
