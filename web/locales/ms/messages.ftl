@@ -664,6 +664,7 @@ release-version = Versi
 dataset-date = Tarikh
 license-mixed = Campuran
 data-download-singleword-title = Muat turun Segmen Sasaran Kata Tunggal
+data-download-singleword-callout-v2 = Ini adalah segmen dipacu kes yang mengandungi data untuk pengiktirafan digit yang dipertuturkan dan pengesahan ya / tidak.
 review-terms = Dengan menggunakan Common Voice, anda bersetuju menerima <termsLink>Terma</termsLink> dan <privacyLink>Notis Privasi</privacyLink>kami
 terms-agree = Saya setuju
 terms-disagree = saya tidak bersetuju
@@ -705,6 +706,10 @@ download-language = Muat turun { $language }
 validated-hours = Bilangan jam yang telah disahkan
 recorded-hours = Jam Dirakam
 whats-inside = Apa yang ada di dalam set data Common Voice?
+dataset-description-hours =
+    Setiap entri dalam set data terdiri daripada MP3 unik dan fail teks yang sepadan. Kebanyakan <b>{ $total }</b> jam yang direkodkan dalam set data juga termasuk metadata demografi seperti umur, jantina dan aksen yang boleh membantu melatih ketepatan enjin pengecaman pertuturan.
+    
+    Set data pada masa ini terdiri daripada <b>{ $valid }</b> jam yang disahkan dalam bahasa <b>{ $languages }</b>, tetapi kami sentiasa menambah lebih banyak suara dan bahasa. Lihat <languagesLink>halaman Bahasa</languagesLink> kami untuk meminta bahasa atau mula menyumbang.
 want-dataset-update = Mahukan kemas kini semasa kami mengeluarkan versi baru kumpulan data Common Voice? Langgan buletin kami.
 subscribe = Langgan
 get-started-speech = Mulakan dengan Pengecaman Pertuturan
