@@ -445,11 +445,13 @@ faq-why-important-a =
     
     Untuk menjadikan pengecaman suara lebih universal, kami mengumpul sampel suara dalam bahasa yang dituturkan secara meluas, serta yang mempunyai populasi pentutur yang lebih kecil yang sering kurang mendapat perkhidmatan pengecaman pertuturan komersial. Menerbitkan set data suara yang pelbagai akan membolehkan pembangun, usahawan dan seluruh komuniti pertuturan untuk menangani kekurangan ini sendiri.
 faq-how-get-q = Bagaimana saya boleh mendapatkan data Common Voice?
+faq-how-get-a = Set data Common Voice tersedia untuk dimuat turun di bawah lesen <licenseLink>CC0</licenseLink> pada <datasetLink>halaman Set Data kami</datasetLink>. Anda juga boleh memuat turun beberapa set data lain yang tersedia secara umum dari halaman yang sama.
 faq-when-release2-q = Bilakah anda akan mengeluarkan data Common Voice dalam bahasa lain?
 faq-when-release2-a = Versi berbilang bahasa bagi set data Common Voice sedang menjalani penggabungan dan pembersihan yang disokong komuniti. Jika anda ingin membantu kami membawa Common Voice kepada bahasa baharu, lihat <sentenceCollectorLink>Alat Pengumpulan Ayat</sentenceCollectorLink> untuk menambah ayat baharu pada set data dan Mozilla <pontoonLink>Pontoon</pontoonLink> untuk menterjemah laman web itu sendiri. Bahasa baharu ditambahkan ke Common Voice untuk sumbangan suara apabila 5000 ayat yang diluluskan telah dikumpulkan.
 faq-why-mission-q = Mengapa Common Voice sebahagian daripada misi Mozilla?
 faq-why-mission-a = Mozilla berdedikasi untuk memastikan web terbuka dan boleh diakses oleh semua orang. Untuk melakukan itu, kami perlu memperkasakan pencipta web melalui projek seperti Common Voice. Memandangkan teknologi suara berkembang melangkaui aplikasi khusus, kami percaya ia mesti melayani semua pengguna secara sama rata. Ini bermakna melabur dalam lebih banyak bahasa dan menampung pelbagai aksen dan demografi apabila membina dan menguji teknologi suara. Common Voice ialah sumber awam yang tersedia untuk semua orang dan pasukan Mozilla serta pembangun di seluruh dunia sudah pun menggunakannya pada projek kami sendiri.
 faq-what-cv-and-deepspeech-q = Apa perbezaan antara Common Voice dan Deep Speech?
+faq-what-cv-and-deepspeech-a = Set data Common Voice melengkapkan enjin pengecaman suara sumber terbuka Mozilla Deep Speech. Versi pertama Deep Speech dikeluarkan pada November 2017 dan terus berkembang sejak itu. Bersama-sama dengan set data Common Voice, kami percaya teknologi pengecaman suara sumber terbuka ini harus tersedia untuk semua orang. Kami berharap teknologi ini akan membolehkan pembangun membina gelombang produk dan perkhidmatan yang inovatif.
 faq-is-goal-assistant-q = Adakah matlamat Common Voice untuk membina pembantu suara maya?
 faq-is-goal-assistant-a = Matlamat set data Common Voice adalah untuk membolehkan sesiapa sahaja di dunia membina pengecaman pertuturan, pengecaman pentutur, atau apa-apa jenis aplikasi lain yang memerlukan data suara. Pembantu suara maya hanyalah salah satu daripada banyak jenis aplikasi yang boleh anda gunakan set data untuk membina.
 faq-do-want-native-q = Saya bukan penutur bukan natif dan saya bercakap dengan loghat, adakah anda masih mahukan suara saya?
@@ -665,6 +667,7 @@ data-download-singleword-title = Muat turun Segmen Sasaran Kata Tunggal
 review-terms = Dengan menggunakan Common Voice, anda bersetuju menerima <termsLink>Terma</termsLink> dan <privacyLink>Notis Privasi</privacyLink>kami
 terms-agree = Saya setuju
 terms-disagree = saya tidak bersetuju
+review-aborted = Muat naik dibatalkan. Adakah anda ingin memadam rakaman anda?
 review-submit-title = Semak & Hantar
 review-recording = Semakan
 review-rerecord = Rakam semula
@@ -933,6 +936,11 @@ delete-q = Adakah anda ingin meminta rakaman suara anda juga dihapuskan, atau ad
 keep = Simpan
 remove = Buang
 keep-info = Rakaman suara awanama anda akan kekal dalam set data Common Voice. Sebaik sahaja anda memadamkan profil anda, anda tidak lagi dapat menyerahkan permintaan untuk mengalih keluar rakaman anda daripada set data
+remove-info = Kami akan menyemak permintaan Anda untuk membuang rakaman suara anda daripada set data. Jika permintaan Anda diluluskan, kami akan menghubungi mereka yang telah memuat turun set data dan meminta mereka membuang rakaman suara Anda juga.
+why-delete-recordings =
+    Rakaman Common voice digunakan oleh ahli akademik, perniagaan kecil dan peminat pengecaman suara untuk membantu melatih dan mengembangkan sumber yang tersedia secara umum seperti model suara.
+    
+    Bolehkah Anda memberitahu kami mengapa Anda ingin rakaman Anda dipadamkan?
 profile-form-delete = Hapus Profil
 
 ## Profile Download
@@ -1020,6 +1028,8 @@ sc-footer-privacy = Privasi
 
 ## MY SENTENCES
 
+sc-my-delete = Buang ayat-ayat yang dipilih
+sc-my-err-failed-delete = Gagal memadamkan ayat yang dipilih... Sila cuba lagi!
 
 ## REJECTED
 
