@@ -7,7 +7,7 @@ const STATS = [
     ld_valid_clips_duration: 226812340,
     average_clips_duration: 5166,
     total_users: 1152,
-    size: 0,
+    size: 1314755828,
     checksum:
       '0efd86ca6b40641b55d1411b7d3b1f1ab8626de4b207504953706df201d198a5',
     release_date: '2022-12-22',
