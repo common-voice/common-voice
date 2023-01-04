@@ -546,6 +546,8 @@ download-requests-info = cuando tuqun tlahtlani tlahtolahcuc, sequin nichicuhua 
 download-request-button = timulti
 download-request-description = { $clipCount } clips tlahtol, queniuhquihueyi nuchi archivo { $size }. tlamia { $expires }
 download-request-archive-multiple = xixilo ica { $archiveCount } archivos ZIP tlen quipias
+download-request-modal-description = nicancateh enlaces para tiquin timultis mu archivos ZIP
+download-request-metadata-link = Tlahcuilol tlahtol
 
 ## Landing
 
