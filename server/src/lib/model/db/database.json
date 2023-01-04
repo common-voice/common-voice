@@ -15,5 +15,21 @@
     "password": { "ENV": "CV_MYSQLPASS" },
     "user": { "ENV": "CV_MYSQLUSER" },
     "multipleStatements": true
+  },
+  "stage": {
+    "driver": "mysql",
+    "database": { "ENV": "CV_MYSQLDBNAME" },
+    "host": { "ENV": "CV_MYSQLHOST" },
+    "password": { "ENV": "CV_MYSQLPASS" },
+    "user": { "ENV": "CV_MYSQLUSER" },
+    "multipleStatements": true
+  },
+  "production": {
+    "driver": "mysql",
+    "database": { "ENV": "CV_MYSQLDBNAME" },
+    "host": { "ENV": "CV_MYSQLHOST" },
+    "password": { "ENV": "CV_MYSQLPASS" },
+    "user": { "ENV": "CV_MYSQLUSER" },
+    "multipleStatements": true
   }
 }
