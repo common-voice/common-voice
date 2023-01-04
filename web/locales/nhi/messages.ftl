@@ -580,6 +580,8 @@ demo-account-sign-up = naltitlani enlace campasemuihcuilos
 ## Demo Contribute
 
 demo-contribute-card-header = ¿yi cuali para tic tlalis mu tlahtol o tic tlaneuhtis mu nacas?
+demo-contribute-card-body-v2 = axan tic mati cachi ica Common Voice, ¿ queye amo secyehyecus? xicpachu campa catqui se tipostlanunutz para tic pehuas tiquin machtis tlahtulme ica tlahtol chicahuac<br/><br/> tla tic niqui tiquimitas aquihquen tlapalehuia ican in tlahtol ocsiqui masehualmeh, xicpacho campa mu nextia para pehuas. titechpalehuis para tiquin silisqueh tlahtolahcuc tlen catqui cuali ihuan tlahtol ihcuiliuhtoc ichin pantalla
+demo-listen-subtitle = ¿ yiticah cuali para titechpalehuis?
 
 ## Demo Dashboard
 
