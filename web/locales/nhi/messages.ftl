@@ -551,6 +551,7 @@ download-request-metadata-link = Tlahcuilol tlahtol
 
 ## Landing
 
+help-contribute = huilis titech palehuis matic chihchihuacan se hueyi base de tlanahuatil ican codigo tlapuhtoc timitz chihchihuilihtosqueh se nexica de Common Voice huan se tiquitis ica mu tlahtol
 
 ## DemoLayout
 
