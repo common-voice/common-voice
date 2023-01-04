@@ -595,6 +595,10 @@ contribution-misreadings-description-extended-list-1 = qupulihua <strong> 'A'</s
 contribution-misreadings-description-extended-list-2 = quipuluhua se <strong>'s'</strong> campa tlamia tlahtol
 contribution-misreadings-description-extended-list-4 = puluhua campa tlamia tlahtol campa sec tiqui tlahtolahcuc simi isiuhca
 contribution-misreadings-description-extended-list-5 = xiquimanah miak yehyecul para tic machtis se tlahcuilol
+contribution-misreadings-example-2-explanation = [quipia de isqui ‘ dinosaurio ´]
+contribution-misreadings-example-3-explanation = tlahtolahcuc achton uc ticqueh campa tlami tlahtol]
+contribution-misreadings-example-4-explanation = [mu tlahtolahcuc cachi que tlen muniqui tlahcuiliuhtoc]
+contribution-misreadings-example-5-title = tiquisasqueh ticunisqueh café
 
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
