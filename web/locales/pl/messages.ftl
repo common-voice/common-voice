@@ -135,6 +135,7 @@ nan-tw = tajwański (minnański)
 nb-NO = norweski (bokmål)
 nd = ndebele północny
 ne-NP = nepalski
+nhe = wschodni nahuatl huastecański
 nia = nias
 nl = holenderski
 nn-NO = norweski (nynorsk)
