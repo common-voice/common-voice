@@ -591,6 +591,10 @@ demo-listen-subtitle = ¿ yiticah cuali para titechpalehuis?
 contribution-criteria-page-description = ¡xicumati tla tucuntemus cuando tucun caquis tlahtolahcuc huan tech palehui sequinchihuas tlahtulahcuc nuyuhqui!
 contribution-for-example = musequihto
 contribution-misreadings-title = amocuali tlamachtil
+contribution-misreadings-description-extended-list-1 = qupulihua <strong> 'A'</strong> O <strong> 'The'</strong> campa pehua tlahtolahcuc
+contribution-misreadings-description-extended-list-2 = quipuluhua se <strong>'s'</strong> campa tlamia tlahtol
+contribution-misreadings-description-extended-list-4 = puluhua campa tlamia tlahtol campa sec tiqui tlahtolahcuc simi isiuhca
+contribution-misreadings-description-extended-list-5 = xiquimanah miak yehyecul para tic machtis se tlahcuilol
 
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
