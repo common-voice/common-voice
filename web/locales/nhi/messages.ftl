@@ -572,6 +572,10 @@ demo-language-select-label = xiquimahsi tlahtulmeh
 ## Demo Account
 
 demo-account-card-header = amo muniqui sec pias se cuenta para titech palehuis, masquiquema tech palehuis
+demo-account-card-body = ichin mu yecman isequihcuili tepalehuani huan usequihto tlen tlanahutil sec nextis nuchi masehualmeh. xiquicui enlaces tlen mu nextia cachi tlatzintla para ti pehuas ica se cuenta de Common Vioce itich mu tipostl
+demo-account-enter-email =
+    .label = xictlali mu correo para secnaltitlanis se enlace campa mu ihcuilos
+demo-account-sign-up = naltitlani enlace campasemuihcuilos
 
 ## Demo Contribute
 
