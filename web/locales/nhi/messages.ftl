@@ -579,6 +579,7 @@ demo-account-sign-up = naltitlani enlace campasemuihcuilos
 
 ## Demo Contribute
 
+demo-contribute-card-header = ¿yi cuali para tic tlalis mu tlahtol o tic tlaneuhtis mu nacas?
 
 ## Demo Dashboard
 
