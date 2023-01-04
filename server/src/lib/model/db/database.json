@@ -1,6 +1,19 @@
 {
-  "dev": {
+  "defaultEnv": "local",
+  "local": {
     "driver": "mysql",
+    "host": "db",
+    "user": "root",
+    "password": "voicewebroot",
+    "database": "voiceweb",
+    "multipleStatements": true
+  },
+  "sandbox": {
+    "driver": "mysql",
+    "database": { "ENV": "CV_MYSQLDBNAME" },
+    "host": { "ENV": "CV_MYSQLHOST" },
+    "password": { "ENV": "CV_MYSQLPASS" },
+    "user": { "ENV": "CV_MYSQLUSER" },
     "multipleStatements": true
   }
 }

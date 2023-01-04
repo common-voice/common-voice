@@ -208,6 +208,11 @@ export const down = async function (): Promise<any> {
 
 Migrations are always run when the server is started.
 
+To migrate up or down manually run:
+`yarn migrate [up|down]`.
+
+This will execute the most recently added migration in the migrations folder.
+
 ## Localization
 
 We're using [Fluent](http://projectfluent.org/) to localize strings. You can find examples all over the frontend code. Strings that appear in the [english message files](https://github.com/mozilla/common-voice/tree/main/web/locales/en), can then be translated on [Pontoon](https://pontoon.mozilla.org/projects/common-voice/). Some things to note regarding string changes are documented on [MDN](https://developer.mozilla.org/en-US/docs/Mozilla/Localization/Localization_content_best_practices#Changing_existing_strings).
