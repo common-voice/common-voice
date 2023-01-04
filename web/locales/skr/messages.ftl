@@ -1213,6 +1213,7 @@ contribution-background-noise-example-2-fixed-title = ٹریاسک دے دیوہ
 contribution-background-noise-example-2-explanation = [عبارت دا حصہ کائنی سُݨ سڳیندا]
 contribution-background-noise-example-3-fixed-title = <strong>[کریکل]<strong/>ریاسک دے دیوہیکل ڈایناسار <strong>[کریکل]</strong>۔
 contribution-background-voices-title = پس منظر دی آوازاں
+contribution-background-voices-description-extended = جے ریکارڈنگ ترٹ ویندی ہے، یا اوندے وِچ ڳتھا پئے ویندے، تݙاں تائیں رد کر ݙیو جے تائیں جو مکمل متن کوں سݨیا نہ ونڄ سڳے۔
 contribution-background-voices-example-1-title = ٹریاسک دے دیوہیکل ڈایناسور۔ <strong>[ہک آواز وچ پڑھا ڳیا]</strong>
 contribution-background-voices-example-1-explanation = بھلا تساں آندے پئے ہو؟ <strong>[ٻئے دے سݙے ہوئے]</strong>
 contribution-volume-title = حجم
