@@ -602,6 +602,8 @@ contribution-misreadings-example-5-title = tiquisasqueh ticunisqueh café
 contribution-misreadings-example-6-title = tiquisasqueh ticunisqueh café
 contribution-misreadings-example-7-title = tehuan tiyasqueh ti cunitihueh se café
 contribution-varying-pronunciations-title = tlahtulmeh tlatlamantl
+contribution-varying-pronunciations-description-extended = ic ocsican, tla tucumati machtani amayic cahsitoc tlahtol huan san qui tlalilihtoc amocuali tlahtol, xucunpolo. tla amo tucun yecmati xucun ahcotzicuini
+contribution-varying-pronunciations-example-2-title = ima ucatca ahcuctuc
 
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
