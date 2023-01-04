@@ -600,6 +600,8 @@ contribution-misreadings-example-3-explanation = tlahtolahcuc achton uc ticqueh 
 contribution-misreadings-example-4-explanation = [mu tlahtolahcuc cachi que tlen muniqui tlahcuiliuhtoc]
 contribution-misreadings-example-5-title = tiquisasqueh ticunisqueh café
 contribution-misreadings-example-6-title = tiquisasqueh ticunisqueh café
+contribution-misreadings-example-7-title = tehuan tiyasqueh ti cunitihueh se café
+contribution-varying-pronunciations-title = tlahtulmeh tlatlamantl
 
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
