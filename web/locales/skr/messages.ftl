@@ -654,10 +654,12 @@ about-playbook-how-validate-content-4 = جے ہک کلپ کوں ٢ لوک مست
 
 about-playbook-how-access-dataset = میں ڈیٹاسیٹ تے کین٘ویں پہنچ سڳداں تے کین٘ویں ورت سڳداں؟
 about-playbook-how-access-dataset-content-1 = تساں <datasetsPage> ڈیٹا سیٹ ورقہ </datasetsPage> تے ونڄ سڳدے او، اپݨی مرضی دے ورژن تے زبان (زباناں) کوں منتخب کر سڳدے او، تے اونکوں ڈاؤن لوڈ کر سڳدے او! فائلاں وِچ <metadataLink> متعلق میٹا ڈیٹا </metadataLink> ہوندا ہے، جینکوں آبادیاتی معلومات تے توثیق دا ڈیٹا۔ ڈیٹا سیٹ ڈاؤن لوڈ کرݨ کیتے تہاکوں ہک ای میل پتہ فراہم کرݨا پوسے۔
+about-playbook-how-access-dataset-content-2 = جے تساں ASR ماڈلز بݨاوݨ کیتے ٹولز ڳولیندے پئے او، تاں تساں برادری دے ٻئے لوکاں نال رابطہ کر سڳدے او<discourseLink> گفتگو کر سڳدے او </discourseLink>۔
 
 ## How are decisions made
 
 about-playbook-how-project-governance = منصوبہ فیصلے کین٘ویں تھیندے ہن؟
+about-playbook-how-project-governance-content-1 = موزِلّا کامن وائس کوں دنیا بھر دے کارکنان، ماہرین لسانیات، ڈیٹا سائنسداناں، ماہرین تعلیم تے سافٹ ویئر انجینئرز دی متنوع برادری ممکن بݨایا ہے۔ ایہ پروجیکٹ موزیلا فاؤنڈیشن دے زیر انتظام ہے۔
 about-playbook-how-project-governance-content-2 = ساݙی حکمرانی دی بݨیاد انہاں تھمبیاں تے ہے:
 about-playbook-how-project-governance-content-3 = رازداری، حفاظت تے شفافیت۔
 about-playbook-how-project-governance-content-4 = برادری دی شرکت تے فیصلہ سازی۔
@@ -673,6 +675,7 @@ localization-explanation = ایہ ساݙے ٻہوں سارے مقامیاوݨ(ز
 sentence-collection = فقریاں دا مجموعہ
 sentence-collection-explanation = عوامی ڈومیناں کنوں جملے کٹھے کرݨ، یا عوامی ڈومین کیتے نویں لکھݨ۔
 hours-recorded-explanation = وائس رکاڈنگ گھنٹیاں دی ڳنتری جیڑے اساں ہُݨ تائیں کٹھے کیتن۔
+hours-validated-explanation = صوتی ریکارڈنگ دے اوقات دی ڳݨتری جیندی توثیق 3 وِچوں 2 صارفین "جیا" دے ووٹ دے نال کیتی ہے۔ ایہ مجموعی تے پروجیکٹ 10k گھنٹے دے ہدف دے پاسے پیشرفت کوں نشان زد کریندے ہن۔
 sst = (Speech-to-text (STT
 sst-explanation = (Speech-to-text (STT  ٹیکنالوجی وائس ڈیٹا کوں عبارت وچ تبدیل کریندیاں ہن۔
 de-identified = سُن٘ڄاݨ پھیرݨ
@@ -681,7 +684,11 @@ de-identified-explanation = او عمل جیندے نال ونگارو دی پر
 ## Error pages
 
 error-title-404 = اساں تہاݙے کیتے او ورقہ کائنی لبھ سڳے
+error-content-404 =
+    تھی سڳدا ہے جو ساݙا  <homepageLink> ہوم پیج </homepageLink> مدد کرے؟ سوال پچھݨ کیتے، براہ مہربانی <matrixLink>میٹرکس کمیونٹی چیٹ </matrixLink> وِچ شامل تھیوو، 
+    <githubLink>GitHub</githubLink> دے ذریعے سائٹ دے مسائل دی نگرانی کرو یا <discourseLink> ساݙے ڈسکورس فورماں </discourseLink> تے ونڄو۔
 error-title-503 = ساکوں ابڑغت ڈاؤن ٹائم دا سامھݨا ہے۔
+error-content-503 = سائٹ دا ٹھَک پھَک بیک اپ گھدا ویسے۔ نویاں نکور معلومات کیتے، براہ مہربانی <matrixLink> میٹرکس کمیونٹی چیٹ </matrixLink> وِچ شامل تھیوو یا <githubLink>GitHub</githubLink> یا <discourseLink> اساݙے ڈسکورس فورمز </discourseLink> کوں سائٹ دے تجربے دے مسائل کون جمع کراوݨ تے مانیٹر کرݨ کیتے ݙیکھو۔
 error-code = خرابی { $code }
 
 ## Data
@@ -692,6 +699,7 @@ data-download-deny = کو
 data-download-license = لائسنس: <licenseLink>CC-0</licenseLink>
 data-download-modal = تساں <size>{ $size }GB</size> دا ڈاؤن لوڈ شروع کرݨ آلے ہی ہو، اڳوں تے ودھوں؟
 data-subtitle = اساں آوازاں دا آزاد تے عوامی طور تے دستیاب ڈیٹاسیٹ بݨیندے پئے ہیں جیکوں ہر کوئی تقریر فعال تھئی ایپاں دے ذریعے ورت سڳدے۔
+data-explanatory-text = اساں سمجھدے ہیں جو وݙے تے عوامی طور تے دستیاب صوتی ڈیٹا سیٹس مشین لرننگ تے مبنی سپیچ ٹیکنالوجی وِچ جدت تے صحت مند تجارتی مقابلے کوں فروغ ݙیندے ہن۔ ایہ ہک عالمی کوشش ہے تے اساں سبھݨاں کوں شرکت دی دعوت ݙیندے ہیں۔ اساݙا مقصد دنیا بھر دیاں آوازاں دے تنوع دی عکاسی کریندے ہوئے سپیچ ٹیکنالوجی کوں ودھیک جامع بݨاوݨ وِچ مدد کرݨ ہے۔
 data-get-started = <speechBlogLink>کلام شناسی نال شروع کرو</speechBlogLink>
 data-other-title = ٻئے اواز ڈیٹاسیٹس۔۔۔
 data-other-goto = { $name } تے ون٘ڄو
