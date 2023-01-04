@@ -599,6 +599,7 @@ contribution-misreadings-example-2-explanation = [quipia de isqui ‘ dinosaurio
 contribution-misreadings-example-3-explanation = tlahtolahcuc achton uc ticqueh campa tlami tlahtol]
 contribution-misreadings-example-4-explanation = [mu tlahtolahcuc cachi que tlen muniqui tlahcuiliuhtoc]
 contribution-misreadings-example-5-title = tiquisasqueh ticunisqueh café
+contribution-misreadings-example-6-title = tiquisasqueh ticunisqueh café
 
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
