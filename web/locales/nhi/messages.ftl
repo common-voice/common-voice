@@ -588,6 +588,9 @@ demo-listen-subtitle = ¿ yiticah cuali para titechpalehuis?
 
 ## Validation criteria
 
+contribution-criteria-page-description = ¡xicumati tla tucuntemus cuando tucun caquis tlahtolahcuc huan tech palehui sequinchihuas tlahtulahcuc nuyuhqui!
+contribution-for-example = musequihto
+contribution-misreadings-title = amocuali tlamachtil
 
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
