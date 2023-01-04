@@ -552,15 +552,26 @@ download-request-metadata-link = Tlahcuilol tlahtol
 ## Landing
 
 help-contribute = huilis titech palehuis matic chihchihuacan se hueyi base de tlanahuatil ican codigo tlapuhtoc timitz chihchihuilihtosqueh se nexica de Common Voice huan se tiquitis ica mu tlahtol
+login-company = pehualtin sesion/ ximu ihcuilo ican correo de { $company }
+profile-not-required = amo mu niqui ticpixtos se nexica para ti tiquitis, mas yeh huilis tech cualtias
+read-more-about = xicahsi cachi ican tu página ican Common Voice
 
 ## DemoLayout
 
+demo-get-started = ticpehualticah
+demo-welcome-subheader = ¿ticniqui ticmu nextilis cachi huan titech palehuis ican tu tiquiuh?
 
 ## Demo Datasets
 
+demo-language-select-card-header = Common Voice se nichicul tlahtol ican miquen tlahtulmeh tlen nuchten quicueh chi hueyi den tlalticpac
+demo-language-select-card-body = tlasohcamatictzin ica mu tiquiuh cachi de 259,000 masehualmeh ican cachi de 50 tlahtulmeh, nicancateh tlanahuatilmeh mucueh para quin yehyecuhuan aplicaciones para tlahtol, ica sec nanquilis cachi cuali tlahtol masehual
+card-button-next = ocse
+card-button-back = tlacutlapa
+demo-language-select-label = xiquimahsi tlahtulmeh
 
 ## Demo Account
 
+demo-account-card-header = amo muniqui sec pias se cuenta para titech palehuis, masquiquema tech palehuis
 
 ## Demo Contribute
 
