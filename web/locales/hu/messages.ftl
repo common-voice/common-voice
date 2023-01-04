@@ -413,6 +413,7 @@ why-demographic = Miért számít ez?
 why-demographic-explanation-2 = Az anonimizált felhasználói adatok, mint az életkor, nem és akcentus segít jobbá tenni a hangadatokat, melyek a hangfelismerő motorok pontosságának tanítására használhatóak. A felhasználónév és a jelszó sosem lesz hozzákapcsolva a beküldött adatokhoz, és megadhatja azt is, hogy a felhasználóneve nyilvános vagy anonim legyen.
 accept-privacy = Beleegyezem, hogy a Mozilla <privacyLink>Adatvédelmi irányelveiben</privacyLink> leírtak szerint kezeljék az adataimat
 accept-privacy-title = Adatvédelmi irányelvek
+accept-privacy-and-terms = Elfogadom a Common Voice <termsLink>Jogi feltételeit</termsLink> és az <privacyLink>Adatvédelmi nyilatkozatát</privacyLink>
 login-identity = Bejelentkezési azonosító
 login-signup = Bejelentkezés / Regisztráció
 edit = Szerkesztés
@@ -724,7 +725,6 @@ language = Nyelv
 download-dataset-header = Az adatkészlet letöltése
 download-delta-explainer = Néhány változtatást hajtottunk végre. A delta szegmensek csak a legutóbbi kiadás óta készült legfrissebb klipeket tartalmazzák. <deltaLink>További információk erről a munkáról</deltaLink>.
 download-dataset-tag = Válassza ki a kívánt nyelvi adatkészletet, és válassza ki a letölteni kívánt verziót.
-download-dataset-access = A korábbi adatkészlet-kiadásokat keresi? E-mail: <emailLink> { $email } </emailLink
 # File size in gigabytes
 size = Méret
 validated-hr-total = Ellenőrzött óra összesen
@@ -1565,3 +1565,19 @@ partnerships-small-business-description = Mindig szeretnénk hallani az adatfogy
 partnerships-corporates-header = Nagyvállalatok és platform cégek
 partnerships-corporates-description = Ha többet szeretne beszélni az adatkészletről, szeretne közösen befektetni a tervezett platformbővítésekbe, vagy együttműködési lehetőségeket keres, <emailFragment>írjon nekünk</emailFragment>.
 partnerships-our-partners = Partnereink
+# FIRST POST SUBMISSION CTA
+first-cta-header-text = Köszönjük, hogy felajánlotta a hangklipjeit!
+first-cta-subtitle-text = Szeretne megosztani néhány információt arról, hogyan beszél?
+why-donate = Miért kérdezik?
+why-donate-explanation-1 = Ezt az információt nem kötelező megadni – csak akkor adja meg, ha nem érzi kellemetlennek. Amikor kiadjuk az adatkészletet, minden személyes adatot álnevekkel látunk el, és gondoskodunk arról, hogy az olyan információk, mint az Ön neve és e-mail-címe, ne kapcsolódjanak a demográfiai adatokhoz, például életkorhoz vagy nemhez.
+why-donate-explanation-2 = Ahhoz, hogy a technológia mindenki számára jól működjön, azoknak az adatoknak, amelyek segítik a fejlesztőket a technológia felépítésében, sokféle embert kell tükrözniük. Például, ha nem használunk egy adott akcentusú beszélőket, akkor a technológia nem fog jól működni az ilyen akcentussal rendelkezők számára. <learnMore>További információk arról, hogy miért fontosak a metaadatok.</learnMore>
+add-information-button = Információk hozzáadása
+continue-speaking-button = Köszönöm nem, beszéd folytatása
+create-profile-text = Szeretné menteni az adatait? <createProfile>Hozzon létre egy profilt</createProfile>
+thanks-for-voice-toast = Köszönjük a hanginformációit
+thanks-for-voice-toast-error = Hiba történt a hanginformációk elküldése során
+# SECOND POST SUBMISSION CTA
+second-cta-header-text = Köszönjük, hogy közreműködött a hangjával!
+second-cta-subtitle-text = Egy profil segítségével nyomon követheti tevékenységét, és kapcsolatba léphet a hangadatokat biztosító közreműködők közösségével.
+already-have-an-account = Már van fiókja? <login>Bejelentkezés</login>
+create-profile-button = Profil létrehozása

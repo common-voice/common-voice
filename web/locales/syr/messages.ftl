@@ -40,10 +40,12 @@ ba = ܒܫܟܝܪܝܬ
 bas = ܒܐܣܐܝܬ
 be = ܒܝܠܘܐܘܪܘܣܢܝܬ
 bg = ܒܘܠܓܐܪܝܬ
+bm = ܒܡܒܪܐܝܬ
 bn = ܒܢܓܐܠܝܬ
 br = ܒܪܝܬܘܢܝܬ
 bs = ܒܘܣܢܝܢܝܬ
 bxr = ܒܘܪܝܬܝܬ
+byv = ܡܕܘܡܒܐܝܬ
 ca = ܟܬܠܢܝܬ
 cak = ܩܐܟܬܫܝܩܠܝܬ
 ckb = ܩܘܪܕܝܬ ܡܨܥܝܐ
@@ -53,11 +55,18 @@ cs = ܬܫܟܢܝܬ‎
 cv = ܬܫܘܒܐܫܝܬ
 cy = ܘܝܠܫܝܬ
 da = ܕܐܢܡܪܟܝܬ
+dag = ܕܓܒܢܝܬ
 de = ܐܠܡܢܝܐ
+dsb = ܨܘܪܒܐܝܬ ܬܚܬܝܐ
+dv = ܕܗܝܒܝܗܐܝܬ
+dyu = ܕܝܘܠܐܝܬ
 el = ܝܘܢܐܝܬ
 en = ܐܢܓܠܝܣ
+eo = ܐܣܦܪܢܬܘܐܝܬ
 es = ܣܦܢܝܝܐ
-fa = ܦܪܣܐܝܼܬ
+et = ܐܣܬܘܢܝܬ
+fa = ܦܪܣܐܝܬ
+ff = ܦܘܠܗܐܝܬ
 fi = ܦܝܢܠܢܕܝܬ
 fr = ܦܪܢܣܝܬ
 ga-IE = ܐܝܪܝܐܝܬ
@@ -131,6 +140,7 @@ listen-goal-text = ܡܐܡܪ̈ܐ ܫܪܝܪ̈ܐ
 hours-recorded = ܫܥ̈ܐ ܡܟܬܒܝ
 hours-validated = ܫܥ̈ܐ ܫܪܝܪ̈ܐ
 voices-online = ܐܝܬ ܩܠ̈ܐ ܥܠ ܢܘܠܐ ܗܫܐ
+todays-progress = ܫܘܘܫܛܐ ܕܐܕܝܘܡ
 help-reach-goal = ܥܕܪ ܩܕ ܕܝܝܢ ܡܛܚ ܥܠ { $goal }
 read-terms-q = ܩܪܝܬܗܘܢ ܬܢܘ̈ܝ ܕܝܝܢ؟
 ready-to-record = ܦܝܫܝܬܘܢ ܥܬܝܕܐ (ready) ܥܡ ܫܘܬܦܝܬܘܢ ܩܠܘܟܘܢ؟
@@ -207,6 +217,7 @@ shortcut-discard-ongoing-recording = ܩܕܝܠܐ ܕܢܦܩܐ ESC
 shortcut-discard-ongoing-recording-label = ܡܗܡܐ ܡܟܬܒܘܬܐ ܗܫܝܐ
 shortcut-submit = ܕܥܪ
 shortcut-submit-label = ܫܕܪ ܡܐܡܪ̈ܐ
+request-language-text = ܠܝܬܘܢ ܒܚܙܝܐ ܠܫܢܘܟܘܢ ܥܠ ܩܠܐ ܓܘܢܝܐ؟
 request-language-button = ܛܠܒ ܠܫܢܐ
 
 ## ProjectStatus
@@ -224,7 +235,7 @@ status-hours =
 # Variables:
 # $goal - number of hours representing the next goal
 status-goal = ܢܝܫ̈ܐ ܕܐܬܐ: { $goal }
-english = ܐܢܓܠܣ
+english = ܐܢܓܠܝܣ
 
 ## ProfileForm
 

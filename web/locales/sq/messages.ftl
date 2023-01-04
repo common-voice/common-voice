@@ -394,6 +394,7 @@ why-demographic = Pse ka rëndësi kjo?
 why-demographic-explanation-2 = Të dhëna të anonimizuara përdoruesish, të tilla si mosha, gjinia dhe theksi ndihmojnë të përmirësohen të dhënat audio e përdorura për të stërvitur mekanizmat e kuptimit të të folurës në pikëpamje të saktësisë. Emri juaj i përdoruesit dhe email nuk do të përshoqërohen kurrë me të dhënat e parashtruara prej jush, dhe mund të zgjidhni bërjen publik të emrit tuaj të përdoruesit ose anonimitetin.
 accept-privacy = Pajtohem me trajtimin që u bëni këtyre të dhënave ashtu siç e shpjegoni <privacyLink>Rregulla Privatësie</privacyLink> të Mozilla-s
 accept-privacy-title = Rregulla Privatësie
+accept-privacy-and-terms = Pajtohem me <termsLink>Kushtet</termsLink> dhe <privacyLink>Shënimin mbi Privatësinë</privacyLink> të Common Voice-it
 login-identity = Identitet Hyrjesh
 login-signup = Hyni / Regjistrohuni
 edit = Përpunoni
@@ -709,7 +710,6 @@ language = Gjuhë
 download-dataset-header = Shkarkoni Grupin e të Dhënave
 download-delta-explainer = Kemi bërë disa ndryshime. Segmentet Delta tani përmbajnë copëzat më të freskëta që nga hedhja e fundit në qarkullim. <deltaLink>Lexoni më tepër rreth kësaj pune</deltaLink>.
 download-dataset-tag = Përzgjidhni grupin e të dhënave për gjuhën e dëshiruar dhe zgjidhni versionin që doni të shkarkoni.
-download-dataset-access = Po shihni për hedhje të mëparshme në qarkullim grupesh të dhënash? Dërgoni një email te <emailLink> { $email } </emailLink>
 # File size in gigabytes
 size = Madhësi
 validated-hr-total = Orë të Vlerësuara Gjithsej
@@ -1532,3 +1532,19 @@ partnerships-small-business-description = Presim përherë të dëgjojmë prej k
 partnerships-corporates-header = Korporata të mëdha dhe shoqëri platformash
 partnerships-corporates-description = Nëse po kërkoni të flisni më gjerë rreth grupesh të dhënash, dëshironi të bashkë-investoni në zgjerime të planifikuara platformash, ose po shihni për mundësi bashkëpunimi, <emailFragment>ma shkruani.</emailFragment>
 partnerships-our-partners = Partnerët Tanë
+# FIRST POST SUBMISSION CTA
+first-cta-header-text = Faleminderit që dhuroni copëzat tuaja zanore!
+first-cta-subtitle-text = Do të doni të jepnit ca hollësi mbi se si flisni?
+why-donate = Pse pyesni?
+why-donate-explanation-1 = Ky informacion është në dëshirë për t’u dhënë a jo - jepeni vetën nëse ndiheni rehat. Kur hedhim në qarkullim grupin e të dhënave, i kalojmë në pseudonime krejt hollësitë personale dhe garantojmë që të tilla si emri dhe email-i juaj të mos kenë lidhje me të dhëna demografike të tilla si mosha apo gjinia.
+why-donate-explanation-2 = Që teknologjia të punojë mirë për këdo, të dhënat që i ndihmojnë zhvilluesit të ndërtojnë teknologji, është e nevojshme të pasqyrojnë një segment të larmishëm të popullatës. Për shembull, nëse nuk përfshijmë çfarëdo folësish me një theks të veçantë, teknologjia s’do të punojë mirë për persona me atë theks. <learnMore>Mësoni më tepër se pse tejtëdhënat kanë vlerë.</learnMore>
+add-information-button = Shtoni hollësi
+continue-speaking-button = Jo, faleminderit, vazhdojmë me të folurit
+create-profile-text = Doni të ruhen hollësitë tuaja? <createProfile>Krijoni një profil</createProfile>
+thanks-for-voice-toast = Faleminderit për hollësitë tuaja mbi zërin
+thanks-for-voice-toast-error = Ndodhi një gabim gjatë parashtrimit të hollësive tuaja mbi zërin
+# SECOND POST SUBMISSION CTA
+second-cta-header-text = Faleminderit që jepni zërin tuaj!
+second-cta-subtitle-text = Me një profil, mund të ndiqni veprimtarinë tuaj dhe të lidheni me një bashkësi kontribuesish te të dhëna zanore.
+already-have-an-account = Keni tashmë një llogari? <login>Hyni</login>
+create-profile-button = Krijoni profil

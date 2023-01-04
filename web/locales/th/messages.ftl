@@ -135,6 +135,7 @@ nan-tw = ชาวไต้หวัน (มินหนาน)
 nb-NO = นอร์เวย์บุคมอล
 nd = IsiNdebele (เหนือ)
 ne-NP = เนปาล
+nhe = นาวัตล์วัสเตกาตะวันออก
 nia = เกาะนียัซ
 nl = ดัตช์
 nn-NO = นอร์เวย์ไนนอสก์
@@ -418,6 +419,7 @@ why-demographic = ทำไมจึงสำคัญ?
 why-demographic-explanation-2 = ข้อมูลผู้ใช้ที่ไม่สื่อถึงตัวบุคคล เช่น อายุ เพศภาวะ และสำเนียง จะช่วยปรับปรุงข้อมูลเสียงที่ใช้เพิ่มความแม่นยำของกลไกรู้จำเสียงพูด ชื่อผู้ใช้และอีเมลของคุณจะไม่ถูกเชื่อมโยงกับข้อมูลที่คุณส่งมา และคุณสามารถเลือกได้ว่าจะแสดงชื่อผู้ใช้กับสาธารณะหรือจะไม่ระบุชื่อ
 accept-privacy = ฉันยินยอมให้คุณจัดการข้อมูลนี้ตามที่คุณอธิบายไว้ใน<privacyLink>นโยบายความเป็นส่วนตัว</privacyLink>ของ Mozilla
 accept-privacy-title = นโยบายความเป็นส่วนตัว
+accept-privacy-and-terms = ฉันยอมรับ<termsLink>เงื่อนไข</termsLink>และ<privacyLink>ประกาศความเป็นส่วนตัว</privacyLink>ของ Common Voice
 login-identity = ข้อมูลประจำตัวการเข้าสู่ระบบ
 login-signup = เข้าสู่ระบบ / ลงทะเบียน
 edit = แก้ไข
@@ -587,6 +589,10 @@ about-playbook-what-is-language-content-3 = บางภาษาจะมีค
 ## How do I add a language
 
 about-playbook-how-add-language = ฉันจะเพิ่มภาษาได้อย่างไร
+about-playbook-how-add-language-content-1 =
+    ก่อนอื่น ให้ตรวจสอบดูว่า<languageLink>มีภาษาของคุณอยู่แล้วหรือยัง</languageLink>
+    หากยังไม่มี คุณสามารถ<languageRequestLink>ขอให้เพิ่มภาษาของคุณได้</languageRequestLink>
+    โดยมีสองขั้นตอนคือ การแปลไซต์ และการรวบรวมประโยค
 about-playbook-how-add-language-translating-heading = การแปลเว็บไซต์
 about-playbook-how-add-language-translating-content-1 = <translateVideoLink>ดูวิดีโอของเราเกี่ยวกับวิธีใช้ Pontoon</translateVideoLink>
 about-playbook-how-add-language-translating-content-2 =
@@ -596,11 +602,19 @@ about-playbook-how-add-language-translating-content-2 =
     เพื่อให้ภาษาพร้อมใช้งานบนโครงการ Common Voice <localizationFragment>ดูข้อมูลเพิ่มเติมเกี่ยวกับการแปลเว็บไซต์</localizationFragment>
 about-playbook-how-add-language-collecting-sentences-heading = การรวบรวมประโยค
 about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>ดูวิธีใช้เครื่องมือรวบรวมประโยค</sentenceCollectorVideo>
+about-playbook-how-add-language-collecting-sentences-content-2 =
+    คุณสามารถ<sentenceCollectorLinkAdd>เพิ่มประโยคสักเล็กน้อย</sentenceCollectorLinkAdd>
+    หรือสามารถ<bulkImportDocsLink>นำเข้าประโยคเป็นจำนวนมากโดยใช้ Github</bulkImportDocsLink>ก็ได้
+    โปรดทราบว่าประโยคจะต้องเป็น <licenseLink>CC0 (หรือสาธารณสมบัติ)</licenseLink> หรือคุณสามารถแต่งประโยคของคุณเองก็ได้
+about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>ดูเพิ่มเติมเกี่ยวกับการรวบรวมประโยค</sentenceCollectorFragment>
 
 ## How does localization work
 
 about-playbook-how-localize = การแปลเว็บไซต์ทำงานอย่างไร
 about-playbook-how-localize-content-1 = การแปลเว็บไซต์ Common Voice เกิดขึ้นที่ <strong>Pontoon</strong>
+about-playbook-how-localize-content-2 = <pontoonAccountLink>สร้างบัญชี</pontoonAccountLink>หากคุณยังไม่มี หลังจากนั้น ให้เลือกภาษาของคุณ <strong>(‘ทีม’)</strong> แล้วเลือกโครงการ <pontoonCvLink>Common Voice</pontoonCvLink> ซึ่งจะมีไฟล์สำหรับให้แปล ให้คลิกที่ไฟล์หนึ่ง แล้วระบบจะแสดงข้อความต่าง ๆ ในภาษาอังกฤษและกล่องสำหรับแปลข้อความเหล่านั้น
+about-playbook-how-localize-content-3 = การแปลจะทำจากภาษาอังกฤษ แต่คุณสามารถดู<strong>ข้อเสนอแนะ</strong>ในภาษาอื่น ๆ ได้ คลิกไอคอน<strong>โปรไฟล์</strong> แล้วคลิกลิงก์ <strong>Settings</strong> แล้วเพิ่มภาษาใดก็ได้ที่คุณพูด ที่มุมขวาล่างจะแสดงรายการภาษาที่เรียกว่า <strong>Locales</strong> โดยคำแปลจะปรากฏบนไซต์หลังจากแปลเสร็จแล้วหนึ่งวัน
+about-playbook-how-localize-content-4 = ไซต์จะพร้อมเปิดตัวเมื่อการแปลเสร็จสมบูรณ์แล้ว 75%
 about-playbook-how-localize-content-5 = ดูวิดีโออธิบายเพื่อทำความเข้าใจ
 
 ## How to add sentences
@@ -1409,6 +1423,7 @@ localization-select =
 partnerships-header = พันธมิตร
 partnerships-get-in-touch = ติดต่อเรา
 partnerships-become-a-partner = ร่วมเป็นพันธมิตร Common Voice
+partnerships-community-description = ชุมชนคือหัวใจสำคัญของ Common Voice พวกเขามาจากทั่วทุกมุมโลก และเป็นนักเคลื่อนไหวด้านภาษา นักวิทยาศาสตร์ และศิลปิน คุณสามารถเรียนรู้เพิ่มเติมเกี่ยวกับวิธีการมีส่วนร่วมได้ในหน้า <about>เกี่ยวกับ</about> และใน <community>คู่มือชุมชน</community> หากคุณสนใจในการเป็นพันธมิตรระดับองค์กรที่ลึกซึ้งยิ่งขึ้น <emailFragment>ติดต่อหาพวกเรา</emailFragment>
 partnerships-foundations-header = มูลนิธิ
 partnerships-governments-header = รัฐบาล
 partnerships-small-business-header = ธุรกิจขนาดเล็ก รวมถึงสตาร์ทอัพด้านเทคโนโลยีและ AI

@@ -421,6 +421,7 @@ why-demographic = ایہ اہم کیوں ہے؟
 why-demographic-explanation-2 = گمنام صارف ڈیٹا جیندے وچ عمر ، جنس ، تے لہجہ شامل ہےایں آڈیو ڈیٹا دے معیار کوں بہتر بݨیندا ہے جیندے نال آواز سُن٘ڄاݨ انجݨ دی بہتر تربیت تھیندی ہے۔ تہاݙا ورتݨ ناں تے ای میل کݙان٘ہیں وی تہاݙے جمع تھئے ڈیٹا نال وابستہ کائناں ہوسن ، تے تساں ایہ چُݨ سڳدے ہو جو آپݨا ورتݨ ناں عوامی رکھݨے یا گمنام۔
 accept-privacy = جین٘ویں جو تساں موزِلّا دی <privacyLink>رازداری پالیسی</privacyLink> وچ وضاحت کریندے ہو میں ایں ڄاݨکاری کوں سمبھالݨ وچ ٹھیک ہاں۔
 accept-privacy-title = رازداری پالیسی
+accept-privacy-and-terms = میں کامن وائس  <termsLink>شرطاں</termsLink> تے <privacyLink> رازداری نوٹس</privacyLink> نال متفق ہاں۔
 login-identity = لاگ ان سُن٘ڄاݨ
 login-signup = لاگ ان/ سائن اپ
 edit = تبدیلی کرو
@@ -751,6 +752,10 @@ request-language-success-heading = تہاݙا تھورا! اساں نویں زب
 request-language-success-list-1 =
     تہاکوں جلدی وضاحت کرݨ آلی ای میل وصول کرݨی چاہیدی ہے جیندے وچ
     کامن وائس وچ زبان شامل کرݨ کیتے مرحلیاں دی تفصیل ہوسی
+request-language-success-list-3 =
+    جے تہاکوں ساݙے ولوں ݙو ترائے ݙین٘ہ وچ جواب کائنی آندا تاں 
+    <emailLink>{ $email }</emailLink> تے رابطہ کرو
+    تے اساں تہاکوں واپسی جواب ݙیسوں!
 request-language-error =
     اساکوں ایہوں جئی درخواست کائناں ملی ہوسی۔ سوہݨا، ساکوں سدھا
     <emailLink>{ $email }</emailLink> تے ای میل کرو تے اساں تہاݙے نال واپسی رابطہ کریسوں!
@@ -1381,6 +1386,7 @@ sc-review-form-button-approve-shortcut = جیا
 sc-review-form-button-reject-shortcut = کو
 # Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
 sc-review-form-button-skip-shortcut = چھوڑو
+sc-review-form-keyboard-usage-custom = تساں کی بورڈ شارٹ کٹ وی ورت سڳدے ہو: { sc-review-form-button-approve-shortcut } منظور کرݨ کیتے، { sc-review-form-button-reject-shortcut } مسترد کرݨ کیتے، { sc-review-form-button-skip-shortcut } چھوڑ تے اڳوں تے ون٘ڄݨ کیتے
 sc-review-form-button-submit =
     .submitText = جائزہ مکمل کرو
 # Variables:
@@ -1426,3 +1432,16 @@ partnerships-academia-description = اساں جو کجھ کریندے ہیں ا�
 partnerships-small-business-header = ٹیک تے اے آئی سٹارٹ اپ سمیت چھوٹے کاروبار
 partnerships-corporates-header = وݙے پیمانے تے کارپوریٹاں تے پلیٹ فارم کمپنیاں
 partnerships-our-partners = ساݙے بھائیوال
+# FIRST POST SUBMISSION CTA
+first-cta-header-text = تہاݙے اواز کلپ دان کرݨ تے تہاݙے تھورائت ہیسے!
+first-cta-subtitle-text = بھلا تساں ایں بارے کجھ ڄاݨ کاری سانجھی کرݨ پسند کریسو جو تساں کین٘ویں الیندے ہو؟
+why-donate = تساں کیوں پچھدے پئے ہو؟
+add-information-button = معلومات شامل کرو
+continue-speaking-button = کائناں شکریہ، ٻولݨ جاری رکھو
+create-profile-text = آپݨی ڄاݨکاری محفوظ کرݨ چاہندے ہو؟<createProfile> پروفائل بݨاؤ</createProfile>
+thanks-for-voice-toast = تہاݙی اواز معلومات پاروں تہاݙا شکریہ
+thanks-for-voice-toast-error = تہاݙی اواز معلومات جمع کرواوݨ وچ خرابی تھی ڳئی
+# SECOND POST SUBMISSION CTA
+second-cta-header-text = آپݨی اواز دان کرݨ تے تہاݙے تھورائت ہیسے!
+already-have-an-account = بھلا پہلے ای کھاتہ ہے؟ <login> لاگ ان تھیوو </login>
+create-profile-button = پروفائل بݨاؤ

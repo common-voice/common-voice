@@ -428,6 +428,7 @@ why-demographic = Ev çima girîng e?
 why-demographic-explanation-2 = Ji bo ku em motorên nasîna axaftinê bi awayekî baştir rahênan bikin, daneyên bikarhêner ên anonîm wekî; temen, zayend, û devok ji me re dibin alîkar. Navê bikarhêner û emaîla te ew ê ti carî bi daneyên ku te şandine re têkildar nebe, her wiha tu dikarî xuyabûn an jî nexuyabûna navê bikarhêneriyê bi xwe hilbijêrî.
 accept-privacy = Wekî ku di <privacyLink>Polîtîkaya Nihêniyê</privacyLink> ya Mozillayê de hatiye ravekirin, ez qebûl dikim ev agahî bên bikaranîn.
 accept-privacy-title = Polîtîkaya Nihêniyê
+accept-privacy-and-terms = Ez <termsLink>Şert</termsLink> û <privacyLink>Agahdariya Nihêniyê</privacyLink> ya Common Voiceê qebûl dikim.
 login-identity = Nasnameya têketinê
 login-signup = Têkeve / Tomar bibe
 edit = Sererast bike
@@ -504,11 +505,21 @@ faq-why-10k-hours-a = Ev hejmara teqrîbî ya saetên pêwîst yê ji bo perwerd
 faq-how-calc-hours-q = Common Voice saetan çawa hesab dike?
 faq-how-calc-hours-a = Em saetan bi texmînkirina averaja dirêjahiya her qeydan hesab dikin, û piştre bi hejmara jimara yekûn ya qeydên bi hemû zimanan re dicarînin.
 faq-where-src-from-2-q = Nivîsên çavkanî ji ku derê tên?
+faq-where-src-from-2-a =
+    Hevokên me yên çavkanî hem ji bexşên beşdaran hem jî ji diyalogên senaryoyên fîlman ên çavkanî vekirî wekî <italic>It’s a Wonderful Life</italic>ê pêk tên.
+    
+    Tu dikarî hevokên me yên çavkanî li ser vê<githubLink>Peldanka GitHubê</githubLink> bibînî.
 faq-why-not-ask-read-q = Çima hûn ji mirovan naxwazin ku pirtûkan an jî gotarên Wikipediayê bi zimanên cuda bixwînin?
+faq-why-not-ask-read-a = Ji bo ku bi awayekî baştir fêde ji komdaneya Common Voiceê were girtin me biryar da ku destûr tenê ji bo hevokên xwediyê lîsansa Creative Commonsê (CC0) bê dayîn. Bikaranîna standarda CC0ê dibe ku karê dîtin û berhevkirina hevokan zehmettir bike lê ev rê dide ku her kes karibe bêyî astengî û destûrstandina ji Mozillayê daneyên dengî bi kar bîne. Bi kurt û kurmancî, em dixwazin komdaneya pirzimanî ji bo lêkoler, zanîngeh, hewlkar, dewlet, saziyên civakî û tevî kesên meraqdar her weha ji bo her kesî berdest bihêlin.
 faq-why-account-q = Çima divê ez hesabekî vekim?
 faq-is-account-public-q = Ew ê agahiyên hesabê min ji her kesî re vekirîbin?
 faq-how-privacy-q = Hûn çawa anonîmtî û nihêniya kesên ku dengên xwe bexşandine misoger dikin?
+faq-how-privacy-a = Hemû tomarên dengî yên di komdaneyê de ji agahiyên şexsî tên paqijkirin. Dema ku beşdarekî bi rêya profîla xwe daneyên demografîkî tevlî kiribe, ew agahiyên şexsî berî daxistina komdaneyê tên anonîmkirin û li ser rûpelên profîlê qet nayên nîşandan.
 faq-what-determine-identity-q = Nasnameya axiverên komdaneya Common Voiceê "nikare bê diyarkirin", ev tê çi wate yê?
+faq-what-determine-identity-a =
+    Komdaneya Common Voiceê çavkaniyeke vekirî û berdest e ku dikare ji bo rahênana sepanên cur bi cur ên axaftinê bê bikaranîn. Ji bo parastina ewlehiya beşdarên me, em ji her kesê ku komdaneya Common Voiceê daxistine, dixwazin ku rêzê li nihêniya beşdaran bigirin.
+    
+    Hemû tomarên dengan ên di komdaneyê de ji agahiyên şexsî hatiye paqijkirin. Dema ku te komdaneyê daxist, tu pê re qebûl dikî ku tu yê li ser eşkerekirina nasnameya beşdaran naxebitî. Bi kurt û kurmancî, tu yê nekaribî agahiyên komdaneyê û agahiyên beşdaran têkildarî hev bikî. Lê belê ji bo rahênana modelên dengnasîn û axêvernasînê yan jî sepanên din tu yê bikaribî agahiyên di komdaneyê de û agahiyên ji berê ve di komdaneyê de têkildarî hev bikî û wan bi kar bînî.
 faq-what-is-cv = Common Voice çi ye?
 faq-using-cv = Bikaranîna Common Voiceê
 faq-description = Common Voice beşek ji insiyatîva Mozillayê ye û ew çawaniya axaftina mirovan fêrî makîneyan dike ji bo ku makîne jî mîna mirovan rast biaxivin.
@@ -561,6 +572,8 @@ about-get-involved-text-2 =
     bişîne yan jî beşdarî civaka <matrixLink>Matrix</matrixLink>ê bibe.
 about-stay-in-touch = Ez çawa dikarim di têkiliyê de bimînim?
 about-stay-in-touch-button = Tomar bibe
+about-stay-in-touch-text-1 = Ji bo ku tu bizanibî tu yê çawa tevlî kampanya, çalakî û xebatên sêwirandinê bibî, li lîsteya me ya emaîlê <emailFragment>Tomar bibe</emailFragment>.
+about-stay-in-touch-text-2 = Tu dikarî bi rêya civakên zimên ên Mozillayê kesên din nas bikî, ji bo gotûbêjên rojane tevlî <discourseLink>Discourse</discourseLink>ê bibe yan jî ji bo tewsiyeyên bilez tevlî <matrixLink>Matrix</matrixLink>ê bibe.
 about-nav-why-common-voice = Çima ?
 about-nav-how-it-works = Çawa ?
 about-nav-partners = Hevkar
@@ -572,26 +585,41 @@ about-nav-playbook = Beşdarî çawa tê kirin
 ## What is a language
 
 about-playbook-what-is-language = Zimanek li ser Common Voiceê çi ye?
+about-playbook-what-is-language-content-2 = Em dixwazin ku modelên axaftinê ji axaftina mirovên cuda cuda baştir fêm bike. Ji bo ev pêk were jî divê komdaneya dengî, dengê gelek mirovên cihêreng di xwe de bihewîne.
+about-playbook-what-is-language-content-3 = Hin ziman ji aliyê rêziman, bilêvkirin û varyantên peyvan ve xwedî cudabûneke mezin in. Ji ber vê yekê em di 2022yê de <ctaLink>‘Varyantan’ didin destpêkirin</ctaLink>. Ev taybetî rê dide civakan ku di nav komdaneyên mezin de ziman/zaravayên xwe ji hev cuda bikin.
 
 ## How do I add a language
 
 about-playbook-how-add-language = Ez çawa dikarim zimanekî tevlî bikim?
+about-playbook-how-add-language-content-1 =
+    Pêşî, kontrol bike bê ka zimanê te <languageLink>ji berê ve heye yan na</languageLink>.
+    Heke tune be, tu dikarî <languageRequestLink>pirsa tevlîkirina zimanê xwe bikî</languageRequestLink>.
+    Ji bo tevlîkirinê du qonax hene; divê tu malperê wergerînî û hevokan berhev bikî.
 about-playbook-how-add-language-translating-heading = Wergerandina malperê
 about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Ji bo çawaniya bikaranînê ya Pontoonê li rêbernameya me temaşe bike.</translateVideoLink>
+about-playbook-how-add-language-translating-content-2 =
+    Em ji bo wergerê platforma Mozillayê ya bi navê <pontoonLink>Pontoon</pontoonLink> bi kar tînin. Li ser Pontoonê gelek ziman hene,
+    lê heke zimanê te tune be, ji bo tevlîkirinê tu dikarî <pontoonRequestLink>daxwaza zimanê xwe bikî</pontoonRequestLink>.
+    Paşê, ji bo berdestkirina zimên li ser projeya Common Voiceê li ser <githubRepoLink>GitHubê zimanê nû bixwaze</githubRepoLink>. <localizationFragment>Li ser wergerandina malperê zêdetir agahiyan bibîne</localizationFragment>.
 about-playbook-how-add-language-collecting-sentences-heading = Komkirina hevokan
 about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>Li rêbernameya me ya Berhevkara Hevokan temaşe bike</sentenceCollectorVideo>.
+about-playbook-how-add-language-collecting-sentences-content-2 =
+    Tu dikarî <sentenceCollectorLinkAdd>hinek hevokan tevlî vir bikî</sentenceCollectorLinkAdd>,
+    yan jî bi rêya bikaranîna Githubê <bulkImportDocsLink>hevokan bi komî tevlî bikî</bulkImportDocsLink>. Ji bîr neke, divê hevok xwediyên lîsansa <licenseLink>CC0 (anonîm)</licenseLink>ê bin an jî tu bi xwe hevokan binivîsî.
 about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>Li ser berhevkirina hevokan agahiyên zêdetir bibîne</sentenceCollectorFragment>.
 
 ## How does localization work
 
 about-playbook-how-localize = Wergerandina malperê çawa tê kirin?
 about-playbook-how-localize-content-1 = Wergera malpera Common Voiceê li ser <strong>Pontoon</strong>ê tê kirin.
+about-playbook-how-localize-content-2 = Heke hesabê te tune be <pontoonAccountLink>Hesabekî çêbike</pontoonAccountLink>. Paşê, zimanê xwe <strong>(‘Tîm’)</strong> hilbijêre û piştre projeya <pontoonCvLink>Common Voice</pontoonCvLink>ê hilbijêre. Ew ê dosyeyên ji bo wergerê bêne nîşandan. Li yekê ji wan bitikîne, paşê ew ê nivîsên ingilîzî û kodikek ji bo wergerê were pêşberî te.
 about-playbook-how-localize-content-4 = Dema ku wergerandina malperê bigihîje 75% ew ê malper ji bo zimanê te berdest bibe.
 about-playbook-how-localize-content-5 = Li vîdeoya me ya ravekar temaşe bike
 
 ## How to add sentences
 
 about-playbook-how-add-sentences = Ez çawa dikarim hevokan tevlî bikim?
+about-playbook-how-add-sentences-content-1 = <strong>Berhevkara Hevokan</strong> karê berhevkirin û piştrastkirina hevokên anonîmî li xwe digire. Pêşî, divê tu <scAccountLink>hesabekî çê bikî</scAccountLink></scAccountLink>. Paşê, zimanê xwe tevlî <strong>Profîla xwe</strong> bike. Piştî van, tu yê bikaribî hevokan <strong>tevlî bikî</strong> yan jî hevokên ku berê hatine tevlîkirin <strong>kontrol bikî</strong>.
 
 ## How to record quality
 
@@ -1346,3 +1374,23 @@ sc-validation-no-abbreviations = Divê di hevokê de kurtenav tune bin
 
 localization-select =
     .label = Zimên hilbijêre
+# PARTNERSHIPS PAGE
+partnerships-header = Hevkarî
+partnerships-get-in-touch = Têkeve têkiliyê
+partnerships-become-a-partner = Bibin Hevkarên Common Voiceê
+partnerships-foundations-header = Weqif
+partnerships-our-partners = Hevkarên Me
+# FIRST POST SUBMISSION CTA
+first-cta-header-text = Spas ji bo ku te dengê xwe li projeyê bexşand!
+first-cta-subtitle-text = Tu dixwazî hin agahiyan li ser çawaniya axaftina xwe parve bikî?
+why-donate = Tu çima dipirsî?
+add-information-button = Agahiyê tevlî bike
+continue-speaking-button = Na spas, axaftinê bidomîne
+create-profile-text = Tu dixwazî agahiyên xwe tomar bikî? <createProfile>Profîlekê çêbike</createProfile>
+thanks-for-voice-toast = Spas ji bo agahiyên te yên dengî
+thanks-for-voice-toast-error = Di şandina agahiyên te yên dengî de çewtiyek derket.
+# SECOND POST SUBMISSION CTA
+second-cta-header-text = Spas ji bo ku te bi dengê xwe beşdarî kir!
+second-cta-subtitle-text = Bi rêya çêkirina profîlê tu dikarî çalakiyên xwe bişopînî û bi civakaka beşdarên daneya dengî re têkiliyê ava bikî.
+already-have-an-account = Jixwe hesabekî te heye? <login>Têkeve</login>
+create-profile-button = Profîlekê çêbike

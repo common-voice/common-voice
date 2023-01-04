@@ -11,7 +11,13 @@ loading = A bɛ na
 email-opt-in-info = N bɛ fɛ ka imɛyi sɔrɔ walasa ka N Hakilijigin N ka laɲiniw na, N ka baraw taabolo la ani Common Voice Kunnafɔni kuraw la
 email-opt-in-info-title = Don Common Voice imɛyi listi kɔnɔ
 email-opt-in-info-sub-with-challenge = N bɛ fɛ ka imɛyi sɔrɔ walasa ka N Hakilijigin N ka laɲiniw na, N ka baraw taabolo la ani Common Voice Kunnafɔni kuraw la
+email-opt-in-privacy-v2 = Ni i y’a sugandi ka batakiw sɔrɔ i b’a jira k'I sɔna ko Mozilla ka nin kunnafoni in lasago i n’a fɔ a ɲɛfɔlen bɛ cogo min na Mozilla ka <privacyLink> Gundo sariya </privacyLink> kɔnɔ.
+indicates-required = Yɔrɔ minnu taamasiyɛn ye dolow (*) ye, olu wajibiyalen don.
+not-available-abbreviation = Surunyalen tɛ sɔrɔ
 banner-error-slow-1 = Hakɛto Common Voice ka suma. I ni ce I ka danaya  kɔsɔn
+banner-error-slow-2 = An bɛ ka trafic caman sɔrɔ, wa an bɛ ka koɲɛw sɛgɛsɛgɛ sisan.
+banner-error-slow-link = Sigisariyaw Paaji
+error-something-went-wrong = Hakɛto , fɛn dɔ ma ɲɛ
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -19,6 +25,76 @@ banner-error-slow-1 = Hakɛto Common Voice ka suma. I ni ce I ka danaya  kɔsɔn
 
 ## Languages
 
+ab = Abkhazikan na
+ace = Acehnekan na
+ady = Adyghe kan
+af = Afirikikan na
+am = Amharikikan na
+an = Aragonesekan na
+ar = Arabukan na
+arn = Mapudungunkan na
+as = Asamwakan na
+ast = Asturiankan na
+az = Azerbajankan na
+ba = Baskɛrikan na
+bas = Basaakan na
+be = Belaruskaw ka kan
+bg = Bulgarikan na
+bm = Bamanankan na
+bn = Bengalikan
+br = Bretonkan na
+bs = Bosnikan
+bxr = Buryatikan na
+byv = Medumbakan na
+ca = Katalankan na
+cak = Kachikelikan
+ckb = Cɛma Kurdekan
+cnh = Hakasinkan
+co = Kɔrsikan
+cs = Cekikan na
+cv = Chuvashkan
+cy = Waleskan na
+da = Danemarkekan na
+dag = Dagibanikan
+de = Alemaɲikan na
+dsb = Sorbiyankan, Duguma
+dv = Dwehikan na
+dyu = Julakan
+el = Gɛrɛkikan na
+en = Angilɛkan
+eo = Esperantokan na
+es = Ɛsipaɲɔlikan
+et = Ɛsitonikan
+eu = Basque
+fa = Pɛrɛsikan
+ff = Fulakan
+fi = Finlandekan na
+fo = Farosikan
+fr = Faransikan
+fy-NL = Frisikan na
+ga-IE = Irlandikan na
+gl = Galisikan na
+gn = Gwaranikan
+gom = Goan konkan
+ha = Hausakan
+he = Heburukan na
+hi = Hindukan na
+hil = Hiligaynonkan
+hr = Kurɔsikan na
+hsb = Sorbiyankan, Sanfɛla la
+ht = Haïtikan na
+hu = Hɔngirikan na
+hy-AM = Armenikan na
+hyw = Armeni Tlebi jamanaw
+ia = Kanw ni ɲɔgɔn cɛ
+id = Indonezikan na
+ie = Kanw ni ɲɔgɔn cɛ
+ig = Igbokan na
+is = Islandekan na
+it = Italikan na
+izh = Izhoriankan
+ja = Zapɔnkan na
+jbo = Lojbankan
 
 # [/]
 
