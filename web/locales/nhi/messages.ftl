@@ -627,6 +627,12 @@ sc-header-how-to = queni
 sc-header-add = xictlali
 sc-header-review = xiquita
 sc-header-rejected = tlahtulmeh pulultiuh
+sc-header-my = nu tlahcuiloltlahtol
+sc-header-profile = nexicah
+sc-footer-discourse = tlahtol
+sc-footer-report-bugs = nextia amocuali
+sc-footer-translate = tlahtolpatla nin pagina
+sc-footer-privacy = ichtaca
 
 ## HOME
 
