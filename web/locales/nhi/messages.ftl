@@ -604,6 +604,7 @@ contribution-misreadings-example-7-title = tehuan tiyasqueh ti cunitihueh se caf
 contribution-varying-pronunciations-title = tlahtulmeh tlatlamantl
 contribution-varying-pronunciations-description-extended = ic ocsican, tla tucumati machtani amayic cahsitoc tlahtol huan san qui tlalilihtoc amocuali tlahtol, xucunpolo. tla amo tucun yecmati xucun ahcotzicuini
 contribution-varying-pronunciations-example-2-title = ima ucatca ahcuctuc
+contribution-background-noise-description-extended = tlayen tlahtolahcuc cutuna o simi tlensamucaqui, xic pululti, amo tlayeh mu caqui cuali tlahtol
 
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
