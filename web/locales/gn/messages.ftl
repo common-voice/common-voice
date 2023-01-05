@@ -1560,5 +1560,6 @@ thanks-for-voice-toast = Aguyje ne ñe’ẽ marandu rehe
 thanks-for-voice-toast-error = Oiko jejavy ne ñe’ẽ marandu emondokuévo
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = ¡Aguyje ne ñe’ẽ ñeme’ẽre!
+second-cta-subtitle-text = Peteĩ mba’ete ndive, ehapykuehokuaa ne rembiapo ha eike ayvu mba’ekuaarã pytyvõhára rekohápe.
 already-have-an-account = ¿Ne mba’etéma? <login>Eñepyrũ tembiapo</login>
 create-profile-button = Emoheñói mba’ete
