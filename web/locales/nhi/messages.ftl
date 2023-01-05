@@ -609,6 +609,7 @@ contribution-background-noise-description-extended = tlayen tlahtolahcuc cutuna 
 contribution-background-noise-example-2-explanation = [sansiqui tlahtol amo huili mu caqui]
 contribution-background-voices-title = tlahtol tlahtic
 contribution-background-voices-description-extended = tlayen tlahtolahcuc cutuna o simi tlensamucaqui, xic pululti, amo tlayeh mu caqui cuali tlahtol
+contribution-background-voices-example-1-explanation = ¿tihuis?<strong>[oquinuhnuts ocse]</strong>
 
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
