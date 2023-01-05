@@ -611,6 +611,9 @@ contribution-background-voices-title = tlahtol tlahtic
 contribution-background-voices-description-extended = tlayen tlahtolahcuc cutuna o simi tlensamucaqui, xic pululti, amo tlayeh mu caqui cuali tlahtol
 contribution-background-voices-example-1-explanation = ¿tihuis?<strong>[oquinuhnuts ocse]</strong>
 contribution-just-unsure-title = ¿amo yulchicauh?
+contribution-just-unsure-description = tla ticahsi tlen amo quitzacua ninquen pautas, xicnexti ica cuali nemilil. tla milahuac amo ti huilis tic nextis, xucuncui boton de ancutsicuini huan xic ninimiti ican ocse tlahtolahcuc
+see-more = </chevron></chevron> xiquita cachi
+see-less = <chevron></chevron> xiquita amocachi
 
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
@@ -619,6 +622,11 @@ contribution-just-unsure-title = ¿amo yulchicauh?
 
 ## HEADER/FOOTER
 
+sc-header-home = cali
+sc-header-how-to = queni
+sc-header-add = xictlali
+sc-header-review = xiquita
+sc-header-rejected = tlahtulmeh pulultiuh
 
 ## HOME
 
