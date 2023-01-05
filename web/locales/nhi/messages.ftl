@@ -633,6 +633,8 @@ sc-footer-discourse = tlahtol
 sc-footer-report-bugs = nextia amocuali
 sc-footer-translate = tlahtolpatla nin pagina
 sc-footer-privacy = ichtaca
+sc-login-signup-button = xicpehualti sesion/ ximuihcuilo
+sc-logout-button = xictsacua sesion
 
 ## HOME
 
