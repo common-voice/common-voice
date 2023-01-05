@@ -1258,6 +1258,7 @@ sc-howto-title = Mba’éichapa
 sc-howto-addlang-title = Embojuaju ñe’ẽ emba’apo hag̃ua
 sc-howto-addlang-text = Emoñepyrũ rire ne tembiapo, eiporavokuaa ñe’ẽnguéra mba’ete rendápe.
 sc-howto-addsen-title = Embojuaju ñe’ẽjuaju pyahu
+sc-howto-addsen-item-4 = Ñemokyta. Umi ta’ãnga’i ha ñemokyta oñemoingeva’erã tekotevẽ añetetéramonte. Techapyrã, oikéramoe puso inglés ñe’ẽme ikatúva “don’t” ha “we’re” ha toñemoĩ moñe’ẽrã ñepyrũguápe, hákatu hasy oikotevẽ hag̃ua ko’ã ta’ãnga’i rehe ha’ẽva “@” térã “#.”
 sc-howto-addsen-item-5 = Tai pytagua. Umi kuatiahai oikova’erã ñe’ẽ ojepurúvape. Techapyrã, “ж” ha'e tai Rusia ñe’ẽ achegetýpe, hákatu araka’eve ndojepurúiva inglés ñe’ẽme ha, upévare, nosẽiva’erã mba’evéichagua moñe’ẽrã inglés-pe.
 sc-howto-addsen-item-6 = Ñe’ẽnguéra oguerekokuaa <validationRulesLink>ñemoneĩ mbojojaha imba’eteéva</validationRulesLink> mba’e tekotevẽmby ndive. Ndoguerekóiramo ñemoneĩha marandurenda ha’etéva peteĩ ñe’ẽme g̃uarã, roipuru upévare inglés mbojojahánte.
 sc-howto-addsen-post-1 = Rohayhuve umi ñe’ẽjoaju hasy’ỹ/ñe’ẽrãvéva. Jepéramo ñe’ẽpueta ha ñe’ẽ opaichagua ñe’ẽjuajúpe iporãiterei, roñeha’ã rojapo ñe’ẽjuaju ñeñongatu osẽ hag̃uáicha tetia’épe. Upéva rehe, iporãiteva’erã ikatúramo eguereko ne ñe’ẽjuajukuéra hasy’ỹ/ojehecharamo hag̃uáicha.
@@ -1550,6 +1551,7 @@ partnerships-corporates-header = Mba’apohaguasu tuicháva ha pyendavusugua
 partnerships-our-partners = Ore irũnguéra
 # FIRST POST SUBMISSION CTA
 first-cta-header-text = ¡Aguyjevete ne ñe’ẽpu ñeme’ẽre!
+first-cta-subtitle-text = ¿Emoherakuãsépa peteĩva marandu nde ayvu reko rehegua?
 why-donate = ¿Mba’ére eporandu?
 add-information-button = Embojuaju marandu
 continue-speaking-button = Aguyje, eñe’ẽvékatu
