@@ -638,6 +638,11 @@ sc-logout-button = xictsacua sesion
 
 ## HOME
 
+sc-home-intro = xiquin nichico tlahtolmeh <commonVoiceLink> Common Voice</commonVoiceLink> xic macti tlapalehuaneh muc nichicucah huan muquin silicah tlahtolmeh tlen o quinchihchiuh nichicomasehual. Nuyuhqui huilis tiquincuis tipostl para tic panultis huan tic chupahuas corpus de dominio nextoc tzocotzin tlahcuya tlen uquinahsiqueh. nuchin tlahcuilolmeh quipia de isqueh de dominio nextoc. tlahcuilolmeh tlen uquin silihqueh quin panultisqueh cada chicueyi tunal ichin repositorio Common Voice huan mu nextisqueh ichin web Common Voice ichin yancuic
+sc-home-collect-title = xiquimehua tlahtulmeh
+sc-home-collect-text = xitech palehui ihcuilo o xiquin nichico tlahtulmeh de dominio nextia
+sc-home-review-title = yehyeco tlahtol
+sc-home-review-text = xitechpalehui mutiquimitacah tlahtolihcuiliuhtoc para ti quitasque tla quemah cateh cuali ican pautas
 
 ## GENERAL
 
