@@ -800,6 +800,19 @@ read-more-about = Lasiet vairāk mūsu lapā Par mums
 ## Validation criteria
 
 contribution-criteria-link = Kā vērtēt ierakstus
+contribution-misreadings-title = Kļūdaini lasījumi
+contribution-misreadings-description = Klausoties ļoti rūpīgi pārbaudiet, vai ierakstītais ir tieši tas, kas uzrakstīts; noraidiet, ja ir pat nelielas kļūdas. <br />Biežākās kļūdas ir šādas:
+contribution-misreadings-description-extended-list-1 = Izlaisti vārdi, piemēram trūkst <strong>'ja'</strong> vai <strong>'es'</strong>, piemēram 'es esmu' vietā ierunāts tikai 'esmu'.
+contribution-misreadings-description-extended-list-2 = Norautas vārdu galotnes, piemēram <strong>'s'</strong> vārda beigās.
+contribution-misreadings-description-extended-list-3 = Ierunāts vārds nepareizā locījumā.
+contribution-misreadings-description-extended-list-4 = Trūkst vārda beigu, jo ieraksts ir izslēgts pārāk ātri
+contribution-misreadings-description-extended-list-5 = Ierakstā dzirdami vairāki mēģinājumi ierakstīt vienu un to pašu frāzi
+contribution-misreadings-example-1-title = Senā laikmeta dinozauri
+contribution-misreadings-example-2-title = Senā laikmeta dinozaurs
+contribution-misreadings-example-2-explanation = [Jābūt ‘dinozauri’]
+contribution-misreadings-example-3-title = Senā laikmeta dinozauri
+contribution-misreadings-example-3-explanation = [Ieraksts pārtraukts pirms pēdējā vārda beigām]
+contribution-misreadings-example-4-title = Senā laikmeta dinozauri. Jā.
 
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
