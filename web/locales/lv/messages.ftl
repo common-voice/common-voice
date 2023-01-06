@@ -439,12 +439,14 @@ about-nav-get-involved = Iesaistieties
 
 ## How to record quality
 
+about-playbook-how-record-content-2 = Izvairieties no pārāk liela fona trokšņa — Jūs jāvar viegli saklausīt.
 
 ## How to grow language
 
 
 ## How to validate
 
+about-playbook-how-validate-content-3 = Ja uzskatāt, ka izruna <strong>neļauj pilnībā saprast</strong> vai ir <strong>liels fona troksnis</strong> vai <strong>fonā runā arī citi cilvēki</strong>, tad ieraksts ir jānoraida. <accuracyLink>Skatiet plašāku informāciju mūsu precizitātes kritērijos</accuracyLink>.
 
 ## How to access dataset
 
@@ -823,6 +825,11 @@ contribution-misreadings-example-8-title = Bites ir čakli kukaiņi
 contribution-misreadings-example-8-explanation = [Neatbilstošs saturs]
 contribution-background-noise-title = Fona troksnis
 contribution-background-noise-description = Mēs vēlamies, lai mašīnmācīšanās algoritmi spētu apstrādāt dažādus fona trokšņus, un var tikt pieņemti pat salīdzinoši skaļi trokšņi, ja tie netraucē dzirdēt visu tekstu. Klusa fona mūzika ir ok; mūzika kas traucē skaidri sadzirdēt katru vārdu nav ok.
+contribution-background-noise-description-extended = Ja ieraksts raustās vai tajā ir sprakšķi, noraidiet, ja vien joprojām nav pilnībā dzirdams viss teksts.
+contribution-reader-effects-title = Ierunātāja izrunas īpatnības
+contribution-reader-effects-description = Lielākā daļa ierakstu ir cilvēki, kas runā savā dabiskajā balsī. Varat pieņemt nelielas atkāpes, ja piemēram kāda frāze tiek pateikta skaļāk, klusāk vai tiek pasniegta ‘dramatiskā’ balsī. Lūdzu, noraidiet dziedātos ierakstus un tos, kas ierunāti robotiskā datora balsī.
+contribution-just-unsure-title = Vienkārši neesat pārliecināti?
+contribution-just-unsure-description = Ja saskaraties ar kaut ko, kas šajās vadlīnijās nav ietverts, lūdzu, balsojiet kā jums šķiet pareizi. Kvalitāte un precizitāte ir svarīgāka par ierakstu skaitu. Ja tiešām nevarat izlemt, izmantojiet izlaišanas pogu un pārejiet uz nākamo ierakstu.
 
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
