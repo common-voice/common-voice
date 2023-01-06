@@ -73,7 +73,10 @@
   },
   "scripts": {
     "build": "tsc",
-    "migrate": "cd src/lib/model/db && db-migrate",
+    "migrate:local": "db-migrate --config src/lib/model/db/database.json --migrations-dir js/lib/model/db/migrations",
+    "migrate:sandbox": "db-migrate --config src/lib/model/db/database.json --migrations-dir js/lib/model/db/migrations --env sandbox",
+    "migrate:stage": "db-migrate --config src/lib/model/db/database.json --migrations-dir js/lib/model/db/migrations --env stage",
+    "migrate:production": "db-migrate --config src/lib/model/db/database.json --migrations-dir js/lib/model/db/migrations --env production",
     "start": "tsc-watch --onSuccess \"yarn start:prod\"",
     "start:prod": "cd .. && node server/js/main.js",
     "test": "jest --forceExit --config=jest.config.js",
