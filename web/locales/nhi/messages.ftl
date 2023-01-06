@@ -651,6 +651,7 @@ sc-languages-fetch-error = amo u se huilic usequinpix tlahtulmeh. tlaxixiluhuane
 ## HOW-TO
 
 sc-howto-title = queni
+sc-howto-addlang-title = ocsiqueh tlahtulmeh para se tiquitis
 
 ## MY SENTENCES
 
