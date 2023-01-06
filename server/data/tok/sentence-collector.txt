@@ -2261,6 +2261,7 @@ mi kama tan ma Posuka. taso, mi toki lon toki Inli.
 mi kama tawa tomo tan ni.
 mi kama. mi lukin. mi lanpan.
 mi kapesi lon tenpo ali.
+mi ken ala ante e ijo la, o pana e pilin pi awen pona.
 mi ken ala awen e soweli tomo lon tomo mi.
 mi ken ala awen lon tenpo suli.
 mi ken ala insa lawa sina
@@ -2303,6 +2304,7 @@ mi ken ala toki tawa sina tan ni: mi o pali lon tenpo ni.
 mi ken ala!
 mi ken alasa e pakala.
 mi ken anpa. mi ken pali e ko insa moku.
+mi ken ante e ijo la, o pana e pilin pi wile pali.
 mi ken ante e ni.
 mi ken ante e ni: lipu sina li kama pona tawa kulupu Komanpo.
 mi ken ante e sitelen tawa nimi kepeken nasin seme?
@@ -6259,6 +6261,7 @@ tenpo ale la mi wile lukin e ni: sina pilin pona mute.
 tenpo ale la mije li wile e unpa taso.
 tenpo ale la ni li kama sama.
 tenpo ale la o olin e mi.
+tenpo ale la o pana e ken sona ni: mi ken ala ken ante e ijo.
 tenpo ale la olin pi mi tu li awen suli.
 tenpo ale la ona li awen lon ilo toki.
 tenpo ale la ona li lon insa tomo.

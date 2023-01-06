@@ -604,6 +604,7 @@ Baby vaknade till.
 Baby var mitt i elden, med gäll stämma och blixtrande ögon.
 Baby är litet mindre entusiastisk.
 Bad du henne komma?
+Badande i svett gick jag till sängs.
 Bageln har spridits över världen från Polen av judar.
 Baggen vände sig blixtsnabbt om, kastade ett par gånger med huvudet och stampade.
 Baggen övergick omedelbart till behandling av hans vackra mössa.
@@ -2386,6 +2387,7 @@ Det blev en lugn och klar natt.
 Det blev en långsam vandring.
 Det blev en munter resa.
 Det blev en ohygglig storm.
+Det blev en orolig sömn.
 Det blev en skarp jakt inöver skärgårdshavet.
 Det blev en trevlig serie, som skulle passa bra just nu.
 Det blev en uppståndelse.
@@ -2994,6 +2996,7 @@ Det här landet kallas Bergslagen.
 Det här landet är klätt i granriskjortel och gråstenströja.
 Det här landet är lika randigt som mors förkläde.
 Det här med akvariefiskar är en hel vetenskap.
+Det här måste vara en bokhandel?
 Det här måste väl ändå vara början till slutet.
 Det här priset gäller bara i dag.
 Det här räknas inte ens.
@@ -3930,6 +3933,7 @@ Det var troligare, att det var han själv, som misstog sig.
 Det var två brev från min fästmö.
 Det var tydligt att hon var förlorad om han inte hjälpte henne.
 Det var tydligt, att han hade kommit att tänka på något obehagligt.
+Det var under den värsta kristiden.
 Det var unga människor som var ute på fotvandring.
 Det var ungefär allt, som sades.
 Det var ungt och växande.
@@ -4196,6 +4200,7 @@ Det är en duktig älv.
 Det är en dåraktig tanke.
 Det är en dårskap.
 Det är en egenhet hos mina chefer.
+Det är en fakking legend du pratar med.
 Det är en felaktig karaktärisering av gårdens agenda.
 Det är en förträfflig linje.
 Det är en gammal avrättningsplats.
@@ -4216,6 +4221,7 @@ Det är en liten by, och den är inte lätt att hitta på kartan.
 Det är en liten gubbe inuti som gnuggar sina händer.
 Det är en liten, klar källsjö.
 Det är en lycka för sig, att jag aldrig brukar kämpa med gäss.
+Det är en mycket tidig anteckning.
 Det är en människa, herr Ermenrich.
 Det är en märkligt tid för en tupplur.
 Det är en namngivningspresent till lilla Alice.
@@ -5752,6 +5758,7 @@ Där kunde vi plantera apelsinträd.
 Där ligger man definitivt i lä, tyvärr.
 Där ligger problemet.
 Där ligger åker vid åker alldeles som här i Skåne.
+Där lyste hans ögon upp.
 Där låg ett slott, och där låg en stuga.
 Där låg han sakta stönande men med hårt ihopknipna ögon.
 Där minns jag att folket kokade välling av sammanmalet havremjöl.
@@ -6427,6 +6434,7 @@ En gång bad mig min vän se efter hur sönerna hade det.
 En gång stod ett parti sill nere vid stationen.
 En gång till och hårdare.
 En gång till så är du frisk. säger jag.
+En gång trampade han mig rakt i ansiktet.
 En gång tyckte de mycket om varandra.
 En habil permobil tar dig många mil.
 En halv macka?
@@ -6607,6 +6615,7 @@ En rak persika.
 En randig katt betyder tur!
 En redogörelse för huvuddragen i dataskyddsförordningen finns i kapitel fyra.
 En redogörelse för tidigare, närliggande utredningar görs i kapitel nio.
+En ringklocka ljöd.
 En risk med detta är att informationen inte uppdateras när den blir inaktuell.
 En rosa haj.
 En rosa panda.
@@ -7939,6 +7948,7 @@ Glenn har gjort många inlägg i landslaget som glatt invånarna.
 Gluten låter som ett av era ord.
 Gluten är livet!
 Glutenfri pasta smakar skit.
+Glycerin ingår bunden vid fettsyror i alla fetter och feta oljor.
 Glädje och belåtenhet lyste även ut ur hans ögon.
 Glädjen kändes i hela kroppen.
 Glödlamporna hittar du i sjätte lådan nerifrån.
@@ -8325,6 +8335,7 @@ Han började läsa latin med mig då jag var sju år gammal.
 Han började vänja sig vid ljuden från bygget utanför.
 Han dog ett par år efteråt i tarmvred.
 Han drabbades av cancer och andra sjukdomar efter sekelskiftet.
+Han drabbas av en svår stroke och blir liggande länge i koma.
 Han drack alldeles nyss ett glas punsch.
 Han dricker aldrig med en smålänning mera.
 Han dricker för mycket
@@ -8953,6 +8964,7 @@ Han stannade men gick inte emot henne.
 Han stannade och började prata.
 Han steg med stolt flykt upp till skyarna.
 Han stirrade frånvarande över hennes huvud utan att hälsa.
+Han stirrade på dukens yta.
 Han stod belåten och värmde sig.
 Han stod bredbent på bryggan och hans väldiga grå mustascher fladdrade i vinden.
 Han stod inte ut med värken längre.
@@ -9044,6 +9056,7 @@ Han tillbringar åtta av månadens dagar i Paris.
 Han tipsade polisen.
 Han tittade bakom stolar och skåp och under liggsoffan och i bakugnen.
 Han tittade i kulhålet.
+Han tittade på kanterna.
 Han tittade åter på klockan.
 Han tog dem inte.
 Han tog emot det lilla paketet och stoppade det i fickan.
@@ -9130,6 +9143,7 @@ Han var emellertid nästan lika så utmärkt läkare som kirurg.
 Han var en av Finlands mera flitiga författare.
 Han var en av mina största desillusioner.
 Han var en förförare i stor stil, älskad och fruktad på en gång.
+Han var en gangfluencer som byggde sitt varumärke.
 Han var en hedersman och fick hjälp överallt.
 Han var en man.
 Han var en svag härskare och av ett melankoliskt lynne.
@@ -11225,6 +11239,7 @@ I regioner och kommuner är som sagt varje nämnd en egen myndighet.
 I regioner och kommuner är varje nämnd en egen myndighet.
 I resten av era liv.
 I rollerna som målvakten och bulvanen såg vi Kalle och Roland.
+I rummet bredvid hörde jag sprakandet av tändstickor och yrvakna röster.
 I rummet stod tre våningssängar.
 I ryggen, klagar en gamling.
 I rättvisans namn är dagen inte över än.
@@ -11985,6 +12000,7 @@ Jag bad honom komma och hämta mig på Grand Hôtel följande morgon.
 Jag bad om ursäkt.
 Jag bara beklagade.
 Jag bara dör.
+Jag befinner mig i skrivande stund i Zorngården i Mora.
 Jag begav mig till ladugården.
 Jag begrep det aldrig.
 Jag begriper inte ett dugg!
@@ -12045,6 +12061,7 @@ Jag betalade in till sjuk- och begravningskassan i går för kvartalet.
 Jag betalar henne, när jag kan.
 Jag beundrar verkligen hennes tålamod med honom.
 Jag bjuder på ärtsoppa och punsch!
+Jag bjöd honom och pojken på middag.
 Jag blev avstängd.
 Jag blev för några dagar sedan vittne till en rörande vacker scen.
 Jag blev förfärligt glad och överraskad och gav honom handen, som han kysste.
@@ -12142,6 +12159,7 @@ Jag fick knappt ut svensexa förrän hon sågade idén.
 Jag fick mvg!
 Jag fick ner det till sex miljoner.
 Jag fick ritningarna.
+Jag fick sluta på fabriken. Jag tror jag kommer bli en giggare igen.
 Jag fick veta av en fiskmås, att du fanns här denna natt.
 Jag fick åka hem en dag tidigare.
 Jag finansierade honom.
@@ -12168,6 +12186,7 @@ Jag frågar ju, eller hur?
 Jag funderar på att investera i en elcykel.
 Jag funderar på att köpa torp.
 Jag funderar på att stämma honom.
+Jag fäste mig särskilt vid en gammal viking.
 Jag får försöka ställa så, att du blir botad.
 Jag får goda dar, jag med, bara mina barn blir vuxna.
 Jag får gå till Matte.
@@ -12212,6 +12231,7 @@ Jag förstår, men.
 Jag försöker hindra dig att göra bort dig.
 Jag försöker skydda det vi byggt.
 Jag försöker undvika kreditkort.
+Jag försökte jaga så tyst som möjligt.
 Jag försökte slippa göra lumpen, genom att säga att jag fortfarande kissade i sängen.
 Jag försökte stålsätta mig inför beskedet.
 Jag försökte, men då brast rösten för mig.
@@ -13123,6 +13143,7 @@ Jag slog en kille med en vattendunk!
 Jag slog hövligt ihop klackarna, räckte fram vacker hand, bockade och sprang min väg.
 Jag slog mig ned på kappsäcken och tecknade av det för övrigt pittoreska rummet.
 Jag slog mig på käften.
+Jag släckte ljuset och somnade trots rävens skällande.
 Jag slängde ett skott efter honom och han blev liggande.
 Jag slängde på luren.
 Jag sms: ar dig adressen.
@@ -14244,6 +14265,7 @@ Karlarna var snart framme vid torpen och följdes åt till en av stugorna.
 Karlarna var trötta och sömniga.
 Karlen kom in med fånget fullt av halm.
 Karlen väntade nu tills vargarna var alldeles inpå släden.
+Karlsson redo för finalen trots borttappade skor.
 Karr bara gläfste och försökte komma åt honom.
 Karr gick själv i vattnet och började simma.
 Karr har inte jagat olovligt på många år.
@@ -15577,6 +15599,7 @@ Men det var egentligen för sent.
 Men det var en bok som inte gav sig.
 Men det var för sent på sommarn och inga kunder kom till hennes stuga.
 Men det var för sent.
+Men det var inte det jag ville tala om.
 Men det var inte nog med detta.
 Men det var inte om den jag skulle berätta.
 Men det var just det han var.
@@ -17401,6 +17424,7 @@ När han hade slutat, satt pojken tyst en stund och såg framför sig.
 När han hade slutat, var han helt förnöjd.
 När han höll på med detta, hörde han en klocka slå.
 När han kom hem till sig, hörde han kvinnoröster inne i salongen.
+När han kom in i min salong lade han mössan vid tröskeln.
 När han kom till tröskeln, gav han till ett utrop.
 När han kom upp ur sänkan, var barnen försvunna.
 När han lyfte det, följde en lång, präktig ål med upp ur djupet.
@@ -17412,6 +17436,7 @@ När han såg hennes tårar, grep han sin hatt.
 När han vaknade framåt kvällen, var han ganska bekymrad.
 När han vaknade var det mörkt.
 När han vaknade, var månen uppgången för längesedan.
+När han vaknar är han knappt kontaktbar.
 När han var på hemväg, råkade han på ett par kamrater.
 När han väntat en stund, hörde han frasandet av kjolar.
 När han åter slog upp ögonen, befann han sig högt över jorden.
@@ -18419,6 +18444,7 @@ Omständigheterna är visserligen besvärande.
 Omsättningen på en krona räcker inte för att stimulera ekonomin.
 Onödigt att vanhedra lejon på det viset.
 Operasångaren hade en pompös uppsyn.
+Operationskortet innehåller endast de absolut nödvändigaste uppgifterna.
 Oppositionen behöver vårt stöd!
 Oppositionen kan sätta press på regeringen.
 Oppositionen kunde lura alla bara genom att spela död.
@@ -19024,6 +19050,7 @@ Rektorer ser till att skolbiblioteket har en självklar roll då undervisningen 
 Rektorers engagemang för skolbiblioteket förefaller öka när de ansvarar för personalen i skolbiblioteket.
 Rektorn kan då fråga vad du kan bistå med.
 Rektorn tar ansvar för att skolbibliotekarien är väl insatt i skolans styrdokument.
+Rekvirerandet av material går i princip till på följande sätt.
 Religionen hade förlorat sitt grepp över de nya generationerna.
 Renoxar skulle fångas in och tämjas till dragoxar.
 Rent lagligt har du petat på en stol i två timmar!
@@ -20176,6 +20203,7 @@ Stockholm passade honom inte.
 Stockholm var nytt för honom.
 Stockholm är en vacker stad med mycket vatten.
 Stockholmare tycker att allt norr om Gävle är Norrland.
+Stockholmarna såg inte att det var en räv.
 Stockholms skärgård är Sveriges största skärgård.
 Stockholms tingsrätt är Patent- och marknadsdomstol och Svea hovrätt Patent- och marknadsöverdomstol.
 Stolen har massproducerats från ett original i en fabrik.
@@ -20475,6 +20503,7 @@ Så förlider dag efter dag.
 Så förskräckligt luktade det.
 Så gav hon honom två kronor bara för det.
 Så gick den lilla truppen vidare uppåt backen med folkskolan som mål.
+Så gick han fram och strök med fingrarna på tavlan.
 Så gick han fram till sängen och kysste hustrun på pannan.
 Så gick han till sängs och somnade.
 Så gick vi då alla tjugo vägen åt Falun.
@@ -22595,6 +22624,7 @@ Vi hade inte planerat långsiktigt för kostnaden i samband med utförsäljninge
 Vi hade ju städat tills du kom.
 Vi hade kommit i farten att dansa boston och roade oss oskyldigt till dragspel.
 Vi hade kört igenom en annan bil!
+Vi hade ungefär samma åsikter.
 Vi har aldrig träffats ”på riktigt”.
 Vi har alla våra brister.
 Vi har alla våra hjärtefrågor.
@@ -23255,6 +23285,7 @@ Vilken idiot.
 Vilken jäkla dag!
 Vilken kort tid låg dock inte mellan då och nu.
 Vilken kväll för dig.
+Vilken liten söt vovve!
 Vilken låt är det här?
 Vilken mat är den mest överskattade?
 Vilken minsta insats?
@@ -23811,6 +23842,7 @@ rappa på!
 Även de två viktigaste skolbiblioteksutmärkelserna i Sverige understryker rektors betydelse.
 Även detta hörde Dagny och satte omedelbart bättre fart.
 Även frågan om ersättning till arbetstagare har utretts tidigare.
+Även här måste ekonomiska synpunkter fälla avgörandet.
 Även jag läste den och fick tillåtelse att göra illustrationer på de breda marginalerna.
 Även motsatt tendens noterades under våra hearings.
 Även när det gäller förlängningar av blåkort beviljas de flesta ansökningar.
