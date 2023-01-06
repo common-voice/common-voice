@@ -646,9 +646,11 @@ sc-home-review-text = xitechpalehui mutiquimitacah tlahtolihcuiliuhtoc para ti q
 
 ## GENERAL
 
+sc-languages-fetch-error = amo u se huilic usequinpix tlahtulmeh. tlaxixiluhuaneh amo cateh axan. timitz tlatlauhtuyah xic yehyeco cachi tlahca.
 
 ## HOW-TO
 
+sc-howto-title = queni
 
 ## MY SENTENCES
 
