@@ -135,6 +135,7 @@ nan-tw = Tajvani (minnan)
 nb-NO = Norvég bokmål
 nd = Ndebele (északi)
 ne-NP = Nepáli
+nhe = Keleti huastecai nahuatl
 nia = Nias
 nl = Holland
 nn-NO = Norvég nynorsk
