@@ -1511,6 +1511,7 @@ first-cta-header-text = 感谢您贡献语音片段！
 first-cta-subtitle-text = 您愿意分享您的语音片段吗？
 why-donate = 为什么这么问？
 why-donate-explanation-1 = 您可以自由选择是否提供此信息，且只应在您觉得合适的情况下提供。发布数据集时，我们会对所有个人信息进行匿名处理，并确保您的姓名和电子邮件等信息与年龄和性别等人口统计信息无关。
+why-donate-explanation-2 = 为了使技术人人适用，开发人员构建技术所用的数据需要反映出各类人群的语音特点。举例来说，如果我们不采集任何具有特定口音的朗读者的语音片段，那么该技术就无法很好地适用于具有该口音的人。 <learnMore>详细了解为什么元数据至关重要。</learnMore>
 add-information-button = 添加信息
 continue-speaking-button = 不用了，继续朗读
 create-profile-text = 想保存您的信息吗？<createProfile>创建用户资料</createProfile>
