@@ -628,10 +628,12 @@ about-playbook-how-validate = 批准语音片段的标准是什么？
 about-playbook-how-validate-content-1 = 如果您能<strong>听到他们的声音</strong>，同时也能<strong>听懂他们所念出的句子</strong>，通常来说<strong>这段语音可以被批准</strong>。
 about-playbook-how-validate-content-2 = <strong>不要因为说话人“有和我不一样的口音”而拒绝这个语音片段</strong> - 若要让语音识别能为各种各样的人服务，接受不同的口音是很重要的。
 about-playbook-how-validate-content-3 = 如果您认为<strong>语音片段中的发音无法听懂</strong>，或者是<strong>有很大的背景噪音</strong>，亦或<strong>有其他人也在说话</strong>，那么您应该拒绝这个语音片段。 <accuracyLink>在我们的准确性判断标准中详细了解</accuracyLink>。
+about-playbook-how-validate-content-4 = 如果有两人拒绝了这个语音片段，它将被发布到数据集的另一个子集中。
 
 ## How to access dataset
 
 about-playbook-how-access-dataset = 如何访问和使用数据集？
+about-playbook-how-access-dataset-content-1 = 您可以前往 <datasetsPage>数据集页面</datasetsPage>选择您想要的版本和语言，然后就可以直接下载了！这些文件包含<metadataLink>相关的元数据</metadataLink>，例如人口统计信息和验证数据等。只需提供一个电子邮箱地址就能下载数据集。
 about-playbook-how-access-dataset-content-2 = 若您正在寻找构建 ASR 模型的工具，欢迎到 <discourseLink>Discourse</discourseLink> 联系社区成员。
 
 ## How are decisions made
@@ -641,6 +643,7 @@ about-playbook-how-project-governance-content-1 = Mozilla Common Voice 是由来
 about-playbook-how-project-governance-content-2 = 我们的治理建立在以下的基础上：
 about-playbook-how-project-governance-content-3 = 隐私、安全和透明度。
 about-playbook-how-project-governance-content-4 = 社区参与决策。
+about-playbook-how-project-governance-content-5 = 价值观和表彰。
 about-playbook-how-project-governance-content-6 = 相互问责。
 about-playbook-how-project-governance-content-7 = <governanceLink>详细了解我们如何管理此项目</governanceLink>
 
@@ -710,6 +713,9 @@ datasets-positioning =
     
     您可在此页面找到其他的开源语音数据集。随着 Common Voice 不断成长，我们也会在此处发布更新信息。
 language = 语言
+download-dataset-header = 下载数据集
+download-delta-explainer = 我们做出了一些改变。差异片段仅包含自上次发布以来的最新片段。 <deltaLink>了解更多关于这项工作的信息</deltaLink>。
+download-dataset-tag = 选择所需的语言数据集并选择您要下载的版本。
 # File size in gigabytes
 size = 大小
 validated-hr-total = 总验证小时数
@@ -789,6 +795,13 @@ other-language = 其他语言
 ## Request Language Pages
 
 request-language-heading = 请求添加新语言
+request-language-explanation-1 =
+    请先检查您的语言是否已经在<languagesPageLink>Common Voice 语言页面</languagesPageLink>中。如果在该页面上没能找到您的语言，请填写这个表格，我们会<strong>向您发送一份简短的电子邮件，
+    介绍如何发起新的语言项目</strong>。
+request-language-explanation-2 =
+    与此同时，我们也会<strong>让我们的社区经理
+    知道您对该项目感兴趣</strong>，这样他们就可以
+    向您提供可能需要的额外支持和信息。
 request-language-form-email =
     .label = 您的电子邮件地址
 request-language-form-info =
@@ -801,6 +814,12 @@ request-language-google-recaptcha-required = 若要继续，需完成 reCAPTCHA 
 request-language-google-recaptcha-error = reCAPTCHA 人机验证异常，请重试。
 # Success page
 request-language-success-heading = 感谢！您已成功发起新语言请求
+request-language-success-list-1 =
+    您很快就会收到一封电子邮件
+    邮件中会简要说明将您的语言添加到 Common Voice 的步骤。
+request-language-success-list-2 =
+    我们的社区经理将与您联系以提供更多支持
+    以及告知您是否已有一个社区已在处理该语言
 request-language-success-list-3 = 若您在几天内未收到我们的消息，请直接发邮件至 <emailLink>{ $email }</emailLink> 联系我们，我们会尽快回复。
 request-language-error = 我们可能还未收到该请求。请直接发邮件至 <emailLink>{ $email }</emailLink> 联系我们，我们会尽快回复。
 
@@ -1469,3 +1488,17 @@ sc-validation-no-abbreviations = 句子不应包含缩写
 
 localization-select =
     .label = 选择语言 / 本地化
+# PARTNERSHIPS PAGE
+partnerships-header = 合作伙伴
+partnerships-header-text = 建设 Common Voice 需要付出很多努力！我们无法单靠一人完成这个项目。想加入我们吗？我们很乐意听取您的意见。
+partnerships-get-in-touch = 联系我们
+partnerships-become-a-partner = 加入 Common Voice
+partnerships-community-header = 社区、创作者和民间社会组织
+partnerships-foundations-header = 基金会
+partnerships-foundations-description = 我们与基金会、民间社会和社区共同努力，确保互联网健康发展，对东非尤其关注。详细了解我们的<programmaticWork>程序化工作。</programmaticWork>
+partnerships-governments-header = 政府
+partnerships-governments-description = 我们非常愿意为公共部门的技术、创新和语言权利提供支持。如果您计划开展重大项目或活动，欢迎<emailFragment>联系我们。</emailFragment>
+partnerships-academia-header = 高等院校、学者与研究人员
+partnerships-academia-description = 我们追求开放创新。如有意合作开展研究、收集数据或访谈，请<emailFragment>联系我们。</emailFragment>
+partnerships-small-business-header = 中小企业（包含科技或人工智能初创企业）
+partnerships-corporates-header = 大型企业与平台型企业
