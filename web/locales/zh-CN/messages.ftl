@@ -561,11 +561,14 @@ about-nav-playbook = 了解如何参与
 ## What is a language
 
 about-playbook-what-is-language = Common Voice 上的“语言”指的是什么？
+about-playbook-what-is-language-content-1 = “语言”有多重定义。出于建立语音识别模型的目的，Common Voice 建议关注“相互可理解性“，或者说，“如果使用这种语言的人试图相互理解的话，他们是否能相互理解？”
+about-playbook-what-is-language-content-2 = 我们希望语音模型能够更好地理解各类人群的声音。为此，语音数据集必须代表诸多不同人群。
 about-playbook-what-is-language-content-3 = 某些语言在内部有诸多语法、词汇和发音差异。由此，我们自 2022 年起<ctaLink>引入了“变体”的概念</ctaLink>。让各社区能够在大型数据集中更精准地分辨他们的语言。
 
 ## How do I add a language
 
 about-playbook-how-add-language = 如何添加语言？
+about-playbook-how-add-language-content-1 = 首先，请检查您的语言是否<languageLink>已经存在</languageLink>。如果没有，您可以<languageRequestLink>请求添加该语言</languageRequestLink>。
 about-playbook-how-add-language-translating-heading = 翻译网站
 about-playbook-how-add-language-translating-content-1 = <translateVideoLink>观看 Pontoon 使用指南。</translateVideoLink>
 about-playbook-how-add-language-collecting-sentences-heading = 收集句子
