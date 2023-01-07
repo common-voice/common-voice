@@ -571,12 +571,25 @@ about-playbook-how-add-language = 如何添加语言？
 about-playbook-how-add-language-content-1 = 首先，请检查您的语言是否<languageLink>已经存在</languageLink>。如果没有，您可以<languageRequestLink>请求添加该语言</languageRequestLink>。
 about-playbook-how-add-language-translating-heading = 翻译网站
 about-playbook-how-add-language-translating-content-1 = <translateVideoLink>观看 Pontoon 使用指南。</translateVideoLink>
+about-playbook-how-add-language-translating-content-2 =
+    我们使用名为 <pontoonLink>Pontoon</pontoonLink> 的 Mozilla 工具进行翻译。Pontoon 上有多种语言，
+    但如果没有您的语言，您可以<pontoonRequestLink>申请添加您的语言</pontoonRequestLink>。
+    然后，为了在 Common Voice 项目中使用该语言，
+    您需要<githubRepoLink>在 GitHub 上请求添加新语言</githubRepoLink>。 <localizationFragment>详细了解关于网站翻译的信息</localizationFragment>。
 about-playbook-how-add-language-collecting-sentences-heading = 收集句子
+about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>观看 Sentence Collector 使用指南</sentenceCollectorVideo>。
+about-playbook-how-add-language-collecting-sentences-content-2 =
+    您可以<sentenceCollectorLinkAdd>添加少量句子</sentenceCollectorLinkAdd>，
+    或者使用 Github <bulkImportDocsLink>批量导入</bulkImportDocsLink>。
+    请记住，这些句子必须采用 <licenseLink>CC0 授权协议（或公有领域）</licenseLink>，或者您也可以自行撰写句子。
+about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>查看更多关于搜集语句的信息</sentenceCollectorFragment>。
 
 ## How does localization work
 
 about-playbook-how-localize = 如何进行网站本地化？
 about-playbook-how-localize-content-1 = Common Voice 网站的翻译工作在 <strong>Pontoon</strong> 上进行。
+about-playbook-how-localize-content-2 = 如果您还没有账户，请先<pontoonAccountLink>创建一个</pontoonAccountLink>。然后选择您的语言<strong>（即“团队”）</strong>，并选择 <pontoonCvLink>Common Voice 项目</pontoonCvLink>，里面列出了需要翻译的文件。选择其中一项，你就可以看到英文原文及译文编辑框。
+about-playbook-how-localize-content-3 = 译文翻译自英文，不过您也可以看到其他语言的<strong>提议</strong>。点击 <strong>Profile（个人资料）</strong>图标，然后点击 <strong>Settings（设置）</strong>链接并添加您使用的任何语言。右下角有一个名为 <strong>Locales（多语言）</strong>的译文列表。译文会于一天后应用到网站上。
 about-playbook-how-localize-content-4 = 网站本地化完成度达 75% 后即可上线。
 about-playbook-how-localize-content-5 = 观看我们的帮助视频
 
