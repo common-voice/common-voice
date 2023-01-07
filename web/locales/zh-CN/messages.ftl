@@ -620,9 +620,14 @@ about-playbook-how-grow-language-content-4 = 社交媒体
 about-playbook-how-grow-language-content-5 = 您可以使用社交平台来发布帖子，分享解释其重要性，并与其他人联系以讨论语言权利、语音 AI 和技术偏见等问题。查看有关<campaignLink>开展社会活动的更多建议，其中包括您可以参考使用的内容</campaignLink>。
 about-playbook-how-grow-language-content-6 = 合作伙伴网络
 about-playbook-how-grow-language-content-7 = 寻找其他同您一样关心此项目的人。这其中可能有大学、语言学校、社会活动团体或数据科学社区。联系他们，并清楚地解释他们为何以及如何提供帮助。<outreachTemplates>参见我们的外联电子邮件模板</outreachTemplates>。
+about-playbook-how-grow-language-content-8 = <strong>发挥创意！</strong>您的语言社区将是独一无二的，并且这些只是几种入门的方法。
 
 ## How to validate
 
+about-playbook-how-validate = 批准语音片段的标准是什么？
+about-playbook-how-validate-content-1 = 如果您能<strong>听到他们的声音</strong>，同时也能<strong>听懂他们所念出的句子</strong>，通常来说<strong>这段语音可以被批准</strong>。
+about-playbook-how-validate-content-2 = <strong>不要因为说话人“有和我不一样的口音”而拒绝这个语音片段</strong> - 若要让语音识别能为各种各样的人服务，接受不同的口音是很重要的。
+about-playbook-how-validate-content-3 = 如果您认为<strong>语音片段中的发音无法听懂</strong>，或者是<strong>有很大的背景噪音</strong>，亦或<strong>有其他人也在说话</strong>，那么您应该拒绝这个语音片段。 <accuracyLink>在我们的准确性判断标准中详细了解</accuracyLink>。
 
 ## How to access dataset
 
