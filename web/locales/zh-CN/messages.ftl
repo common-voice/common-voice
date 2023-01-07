@@ -597,6 +597,7 @@ about-playbook-how-localize-content-5 = 观看我们的帮助视频
 
 about-playbook-how-add-sentences = 如何添加语句？
 about-playbook-how-add-sentences-content-1 = <strong>语句收集工具</strong>是一个收集和审核公共领域语句的工具。您首先<scAccountLink>需要创建一个账户</scAccountLink>。然后，将您的语言添加到您的<strong>个人资料</strong>中。您可以<strong>添加</strong>句子并<strong>查看</strong>以前添加的句子。
+about-playbook-how-add-sentences-content-2 = 句子必须经过两个人的审核和接受才能出现在 Common Voice 中。您可以在<languageGuidelinesLink>此处</languageGuidelinesLink>为您的语言创建指南。句子必须属于<licenseLink>公有领域</licenseLink> 且少于 15 字。您可以请求文本的所有者<waiverLink>通过我们的放弃所有权流程将其转为采用 CC0 授权协议</waiverLink>，然后通过 commonvoice@mozilla.com 发送给我们
 about-playbook-how-add-sentences-content-3 = 您可以使用 <scraperLink>Sentence extractor</scraperLink> 从维基百科收集短句。
 about-playbook-how-add-sentences-content-4 = 通过的句子在周三导出，并在下一次数据集发布后可用。
 
@@ -612,9 +613,13 @@ about-playbook-how-record-content-5 = <accuracyLink>了解准确性的判断标�
 ## How to grow language
 
 about-playbook-how-grow-language = 如何有效推进 Common Voice 上的语言项目？
+about-playbook-how-grow-language-content-1 = 创造机会来让不同人群为 Common Voice 做出贡献，以确保数据集能够服务尽可能多的人。我们已经创建了供您使用的资源和模板！
 about-playbook-how-grow-language-content-2 = 活动
+about-playbook-how-grow-language-content-3 = 您可以举办活动来帮助人们做出贡献，这没有您想象中那么困难。您可以使用视频会议工具在线进行，如果安全的话也可以当面进行。 <eventTemplate>查看我们用于举办活动的模板和资源</eventTemplate>。
 about-playbook-how-grow-language-content-4 = 社交媒体
+about-playbook-how-grow-language-content-5 = 您可以使用社交平台来发布帖子，分享解释其重要性，并与其他人联系以讨论语言权利、语音 AI 和技术偏见等问题。查看有关<campaignLink>开展社会活动的更多建议，其中包括您可以参考使用的内容</campaignLink>。
 about-playbook-how-grow-language-content-6 = 合作伙伴网络
+about-playbook-how-grow-language-content-7 = 寻找其他同您一样关心此项目的人。这其中可能有大学、语言学校、社会活动团体或数据科学社区。联系他们，并清楚地解释他们为何以及如何提供帮助。<outreachTemplates>参见我们的外联电子邮件模板</outreachTemplates>。
 
 ## How to validate
 
