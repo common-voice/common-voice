@@ -721,7 +721,6 @@ language = Llengua
 download-dataset-header = Baixa el conjunt de dades
 download-delta-explainer = Hem fet alguns canvis. Els segments Delta només contenen els clips més recents des de la versió anterior. <deltaLink>Vegeu més informació sobre aquesta tasca</deltaLink>.
 download-dataset-tag = Seleccioneu el conjunt de dades de la llengua desitjada i trieu la versió que voleu baixar.
-download-dataset-access = Cerqueu versions anteriors del conjunt de dades? Envieu un correu electrònic a <emailLink> { $email } </emailLink>
 # File size in gigabytes
 size = Mida
 validated-hr-total = Hores validades totals
@@ -1551,3 +1550,5 @@ partnerships-small-business-description = Sempre busquem escoltar els consumidor
 partnerships-corporates-header = Grans empreses i empreses de plataformes
 partnerships-corporates-description = Si voleu parlar més sobre el conjunt de dades, voleu invertir conjuntament en les ampliacions planificades de la plataforma o busqueu oportunitats de col·laboració, <emailFragment>envieu-nos unes línies.</emailFragment>
 partnerships-our-partners = Els nostres socis
+already-have-an-account = Ja teniu compte? <login>Inicieu la sessió</login>
+create-profile-button = Crea un perfil
