@@ -577,7 +577,7 @@ about-playbook-how-add-language-translating-content-2 =
     然后，为了在 Common Voice 项目中使用该语言，
     您需要<githubRepoLink>在 GitHub 上请求添加新语言</githubRepoLink>。 <localizationFragment>详细了解关于网站翻译的信息</localizationFragment>。
 about-playbook-how-add-language-collecting-sentences-heading = 收集句子
-about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>观看 Sentence Collector 使用指南</sentenceCollectorVideo>。
+about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>观看语句收集工具使用指南</sentenceCollectorVideo>。
 about-playbook-how-add-language-collecting-sentences-content-2 =
     您可以<sentenceCollectorLinkAdd>添加少量句子</sentenceCollectorLinkAdd>，
     或者使用 Github <bulkImportDocsLink>批量导入</bulkImportDocsLink>。
@@ -596,6 +596,7 @@ about-playbook-how-localize-content-5 = 观看我们的帮助视频
 ## How to add sentences
 
 about-playbook-how-add-sentences = 如何添加语句？
+about-playbook-how-add-sentences-content-1 = <strong>语句收集工具</strong>是一个收集和审核公共领域语句的工具。您首先<scAccountLink>需要创建一个账户</scAccountLink>。然后，将您的语言添加到您的<strong>个人资料</strong>中。您可以<strong>添加</strong>句子并<strong>查看</strong>以前添加的句子。
 about-playbook-how-add-sentences-content-3 = 您可以使用 <scraperLink>Sentence extractor</scraperLink> 从维基百科收集短句。
 about-playbook-how-add-sentences-content-4 = 通过的句子在周三导出，并在下一次数据集发布后可用。
 
