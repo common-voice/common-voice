@@ -665,7 +665,7 @@ about-playbook-how-project-governance-content-3 = رازداری، حفاظت ت
 about-playbook-how-project-governance-content-4 = برادری دی شرکت تے فیصلہ سازی۔
 about-playbook-how-project-governance-content-5 = قدر تے سُن٘ڄاݨ
 about-playbook-how-project-governance-content-6 = باہمی احتساب
-about-playbook-how-project-governance-content-7 = <governanceLink>اساں حکمومت کین٘ویں کریندیسے، ایں بارے ٻیا پڑھو </governanceLink>
+about-playbook-how-project-governance-content-7 = <governanceLink>اساں حکومت کین٘ویں کریندیسے، ایں بارے ٻیا پڑھو </governanceLink>
 
 ## Glossary
 
