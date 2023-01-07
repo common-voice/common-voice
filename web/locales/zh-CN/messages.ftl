@@ -401,6 +401,7 @@ why-demographic = 为什么这很重要？
 why-demographic-explanation-2 = 匿名的用户数据，如年龄、性别、口音等，帮助改进用于训练语音识别引擎准确性的音频数据。您的用户名和电子邮件永远不会与您提交的数据相关联，并且您可以选择将您的用户名设为公开或匿名。
 accept-privacy = 我同意依照 Mozilla 的<privacyLink>隐私政策</privacyLink>所描述的方式处理这些信息
 accept-privacy-title = 隐私政策
+accept-privacy-and-terms = 我同意 Common Voice 的<termsLink>使用条款</termsLink>和<privacyLink>隐私声明</privacyLink>
 login-identity = 登录身份
 login-signup = 登录 / 注册
 edit = 编辑
@@ -501,6 +502,9 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = 为什么会有 Common Voice？
+about-header-description-v2 =
+    <p>Common Voice 是一个公开可用的语音数据集，由世界各地志愿者贡献的声音提供支持。想要开发语音应用程序的人可以使用该数据集来训练机器学习模型。</p>
+    <p>目前，大多数语音数据集归各公司私有，这扼杀了创新。语音数据集也未充分代表各类人群，如非英语人士、有色人种、残疾人、女性和 LGBTQIA+ 群体。这意味着支持语音的技术对许多语言根本没有作用，而即使在它有作用的地方，也可能无法对每个人都表现得同样好。我们希望通过动员世界各地的人分享自己声音来改变这种状况。</p>
 how-does-it-work-title-v2 = Common Voice 是如何工作的？
 how-does-it-work-text = 我们集众人之力，构建开源的语音数据集。欢迎捐出一段声音，或者帮助验证录音片段是否正确，让数据集能够变得更好。
 
@@ -511,6 +515,7 @@ about-localization-title = 网站本地化
 about-localization-subtitle = 将网站文本完全本地化。
 about-sentence-collection-title = 收集语句
 about-sentence-collection-subtitle = 收集语句，供人们进行录音。
+about-new-lang-title = 发起新的语言项目
 about-new-lang-subtitle = 我们上线此语言版本的 Common Voice 网站。
 about-voice-contrib-title = 贡献录音
 about-voice-contrib-subtitle = 有一群人参与贡献录音。
@@ -543,6 +548,8 @@ about-get-involved-text-2 =
     也可以加入我们的 <matrixLink>Matrix</matrixLink> 社区群组。
 about-stay-in-touch = 如何获取最新信息？
 about-stay-in-touch-button = 注册
+about-stay-in-touch-text-1 = <emailFragment>加入</emailFragment>加入我们的邮件列表，了解如何参与 Common Voice 上的倡议与活动，还能与我们一同设计功能。
+about-stay-in-touch-text-2 = 您可以加入 <discourseLink>Discourse</discourseLink> 来与 Mozilla 语言社区中的其他人分话题进行交流，或加入 <matrixLink>Matrix</matrixLink> 以获得简明建议。
 about-nav-why-common-voice = 为什么？
 about-nav-how-it-works = 怎么做？
 about-nav-partners = 合作伙伴
@@ -553,6 +560,7 @@ about-nav-playbook = 了解如何参与
 ## Community Playbook Content
 ## What is a language
 
+about-playbook-what-is-language = Common Voice 上的“语言”指的是什么？
 about-playbook-what-is-language-content-3 = 某些语言在内部有诸多语法、词汇和发音差异。由此，我们自 2022 年起<ctaLink>引入了“变体”的概念</ctaLink>。让各社区能够在大型数据集中更精准地分辨他们的语言。
 
 ## How do I add a language
