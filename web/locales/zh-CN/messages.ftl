@@ -222,6 +222,7 @@ speak-now = 开始朗读
 datasets = 数据集
 languages = 语言
 about = 关于我们
+partner = 合作伙伴
 profile = 用户资料
 help = 帮助
 contact = 联系我们
@@ -1171,8 +1172,8 @@ contribution-reader-effects-title = 朗读者因素
 contribution-reader-effects-description = 大多数录音都是人们用自然的声音说话。但您可以偶尔接受非标准录音，即大喊大叫、低声说话或明显用“抑扬顿挫”的声音说话。请驳回唱出来的录音和那些使用计算机合成的声音。
 contribution-just-unsure-title = 仍有不解之处？
 contribution-just-unsure-description = 如果遇到了这些准则没有涵盖的内容，请根据您的最佳判断来投票。如果真的无法决定，请使用跳过按钮，继续下一个录音。
-see-more = <chevron></chevron>看更多
-see-less = <chevron></chevron>看更少
+see-more = <chevron></chevron>查看更多
+see-less = <chevron></chevron>折叠
 
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
@@ -1494,6 +1495,7 @@ partnerships-header-text = 建设 Common Voice 需要付出很多努力！我们
 partnerships-get-in-touch = 联系我们
 partnerships-become-a-partner = 加入 Common Voice
 partnerships-community-header = 社区、创作者和民间社会组织
+partnerships-community-description = 社区是 Common Voice 活力的源泉，社区成员来自世界各地，可能是语言活动家，可能是科学家，也可能是艺术家。您可以在我们的<about>关于</about>页面和<community>社区手册</community>中详细了解参与的方式。如果您对更深层的组织合作感兴趣，请<emailFragment>联系我们。</emailFragment>
 partnerships-foundations-header = 基金会
 partnerships-foundations-description = 我们与基金会、民间社会和社区共同努力，确保互联网健康发展，对东非尤其关注。详细了解我们的<programmaticWork>程序化工作。</programmaticWork>
 partnerships-governments-header = 政府
@@ -1502,3 +1504,20 @@ partnerships-academia-header = 高等院校、学者与研究人员
 partnerships-academia-description = 我们追求开放创新。如有意合作开展研究、收集数据或访谈，请<emailFragment>联系我们。</emailFragment>
 partnerships-small-business-header = 中小企业（包含科技或人工智能初创企业）
 partnerships-corporates-header = 大型企业与平台型企业
+partnerships-corporates-description = 如果您想了解数据库、投资本平台或寻求合作机会，<emailFragment>请联系我们。</emailFragment>
+partnerships-our-partners = 我们的合作伙伴
+# FIRST POST SUBMISSION CTA
+first-cta-header-text = 感谢您贡献语音片段！
+first-cta-subtitle-text = 您愿意分享您的语音片段吗？
+why-donate = 为什么这么问？
+why-donate-explanation-1 = 您可以自由选择是否提供此信息，且只应在您觉得合适的情况下提供。发布数据集时，我们会对所有个人信息进行匿名处理，并确保您的姓名和电子邮件等信息与年龄和性别等人口统计信息无关。
+add-information-button = 添加信息
+continue-speaking-button = 不用了，继续朗读
+create-profile-text = 想保存您的信息吗？<createProfile>创建用户资料</createProfile>
+thanks-for-voice-toast = 感谢您的提供的语音信息
+thanks-for-voice-toast-error = 提交您的语音信息时发生错误
+# SECOND POST SUBMISSION CTA
+second-cta-header-text = 感谢您贡献语音！
+second-cta-subtitle-text = 创建用户文件后，您就可以记录自己的活动并与语音数据贡献者社区联系。
+already-have-an-account = 已有账户？<login>登录</login>
+create-profile-button = 创建用户资料
