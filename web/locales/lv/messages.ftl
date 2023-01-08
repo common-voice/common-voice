@@ -839,6 +839,7 @@ contribution-background-voices-description-extended = Ja ieraksts raustās vai t
 contribution-background-voices-example-1-title = Triasa laikmeta milzu dinozauri. <strong>[lasīt vienā balsī]</strong>
 contribution-background-voices-example-1-explanation = Vai tu nāc? <strong>[saka kāds cits]</strong>
 contribution-volume-title = Skaļums
+contribution-volume-description = Starp lasītājiem būs dabiskas ieraksta skaļuma atšķirības. Noraidīt tikai tad, ja skaļums ir tik liels, ka ierakstā ir krakšķi vai tas pārtrūkst, vai arī, ja tas ir tik kluss, ka nevar saklausīt dzirdēt teikto bez atsauces uz rakstīto tekstu.
 contribution-reader-effects-title = Ierunātāja izrunas īpatnības
 contribution-reader-effects-description = Lielākā daļa ierakstu ir cilvēki, kas runā savā dabiskajā balsī. Varat pieņemt nelielas atkāpes, ja piemēram kāda frāze tiek pateikta skaļāk, klusāk vai tiek pasniegta ‘dramatiskā’ balsī. Lūdzu, noraidiet dziedātos ierakstus un tos, kas ierunāti robotiskā datora balsī.
 contribution-just-unsure-title = Vienkārši neesat pārliecināti?
