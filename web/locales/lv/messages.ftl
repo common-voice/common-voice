@@ -801,7 +801,11 @@ read-more-about = Lasiet vairāk mūsu lapā Par mums
 
 ## Validation criteria
 
+contribution-criteria-nav = Kriteriji
 contribution-criteria-link = Kā vērtēt ierakstus
+contribution-criteria-page-title = Ieguldījuma kritēriji
+contribution-criteria-page-description = Izprotiet, kam jāpievērš uzmanība, klausoties balss klipus, un ziniet kā padarīt arī savus ierakstus labākus!
+contribution-for-example = piemēram
 contribution-misreadings-title = Kļūdaini lasījumi
 contribution-misreadings-description = Klausoties ļoti rūpīgi pārbaudiet, vai ierakstītais ir tieši tas, kas uzrakstīts; noraidiet, ja ir pat nelielas kļūdas. <br />Biežākās kļūdas ir šādas:
 contribution-misreadings-description-extended-list-1 = Izlaisti vārdi, piemēram trūkst <strong>'ja'</strong> vai <strong>'es'</strong>, piemēram 'es esmu' vietā ierunāts tikai 'esmu'.
@@ -823,6 +827,7 @@ contribution-misreadings-example-7-title = Ja, es esmu liels kafijas mīļotājs
 contribution-misreadings-example-7-explanation = [‘Ja‘ nav tas pats kas ‘jā‘]
 contribution-misreadings-example-8-title = Bites ir čakli kukaiņi
 contribution-misreadings-example-8-explanation = [Neatbilstošs saturs]
+contribution-varying-pronunciations-title = Dažādas izrunas
 contribution-background-noise-title = Fona troksnis
 contribution-background-noise-description = Mēs vēlamies, lai mašīnmācīšanās algoritmi spētu apstrādāt dažādus fona trokšņus, un var tikt pieņemti pat salīdzinoši skaļi trokšņi, ja tie netraucē dzirdēt visu tekstu. Klusa fona mūzika ir ok; mūzika kas traucē skaidri sadzirdēt katru vārdu nav ok.
 contribution-background-noise-description-extended = Ja ieraksts raustās vai tajā ir sprakšķi, noraidiet, ja vien joprojām nav pilnībā dzirdams viss teksts.
