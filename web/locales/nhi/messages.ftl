@@ -220,6 +220,7 @@ about-subscribe-text = ¿tiniqui ihuan timu nuhnutstos ihuan Common Voice?
 about-speak = Tlahtoa
 about-speak-text = tiquitini ahcucui y tlahtol sansipa quimachtihtoc tlahcuilol tlen uquin tetlauculihqueh usuarios
 about-listen = Tlacaqui
+about-is-it-valid = ¿tlahtolahcuc cualtia?
 about-stay-in-touch = queni ihuan nimu nuhnutztos
 about-stay-in-touch-button = ximuihcuilo
 about-stay-in-touch-text-1 = <emailFragment> ximuihcuilo</emailFragmento> ichin tu tlahcuilol correo para nic matis queni huilis tictech palehuis ichin campañas, ilhuimeh huan quenin cualtia Common Voice
@@ -257,6 +258,7 @@ about-playbook-how-localize-content-5 = xiquita tuvideo campa huits quenin mits 
 ## How to add sentences
 
 about-playbook-how-add-sentences = ¿quini niquin ihcuiluhua cachi tlahtolmeh?
+about-playbook-how-add-sentences-content-3 = huilis tiquicuis <scraperLink> Sentence extractor</scraperLink> para tiquincuis tlahcuilol tzocopintzitzi de Wikipedia
 about-playbook-how-add-sentences-content-4 = tlahcuilolmeh tlen quema uquin silihqueh mu panultisqueh tunal miercoles  huan huilis mucuis satepan den ocse naltitlanil
 
 ## How to record quality
