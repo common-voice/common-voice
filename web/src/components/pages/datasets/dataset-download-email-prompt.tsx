@@ -179,7 +179,7 @@ const DatasetDownloadEmailPrompt = ({
             </Localized>
             {checksum && (
               <div className="checksum">
-                <strong>sha256 checksum</strong>: {checksum}
+                <strong>sha256 checksum</strong>: <p>{checksum}</p>
               </div>
             )}
           </div>

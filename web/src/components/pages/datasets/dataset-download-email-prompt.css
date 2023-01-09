@@ -5,8 +5,8 @@
     flex-wrap: wrap;
     justify-content: space-between;
 
-    .input-group{
-        flex:  1 1 50%;
+    .input-group {
+        flex: 1 1 50%;
         padding: 1rem;
         @media (--sm-down) {
             width: 100%;
@@ -48,6 +48,10 @@
         font-size: var(--font-size-xs);
         color: var(--warm-grey);
         margin-bottom: 1rem;
+
+        p {
+            overflow-wrap: break-word;
+        }
     }
 
     .download-language {
