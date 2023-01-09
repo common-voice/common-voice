@@ -185,12 +185,17 @@ faq-why-different-speakers-q = ¿queyeh tiquiniqui miqueh tlahtuhuaneh tlatlaman
 faq-why-my-lang-q = ¿Queye ayamo catqui notlahtol?
 faq-why-my-lang-a = Common Voice se plataforma crowdsourcing, huan nuchten tlahtulmeh umu tlalihqueh aquin ucniquisquiaya .¡techpactisquia xic tlali mu tlahtol!<languageRequestLink> xictlahtlani queni tic tlalis mu tlahtol </languageRequestLink>
 faq-how-calc-hours-q = ¿quenin quixyehyecuhua Common Voice hora?
+faq-where-src-from-2-q = ¿ de canin huits tlahcuilol?
 faq-why-not-ask-read-q = ¿queyeh amo sequin tlahtlani masehualmeh mo machtican amatlahtol o tlahtol Wikipedia campa tlamantl tlahtol?
 faq-why-account-q = ¿queye quipia de ni mu ihcuilos?
 faq-is-account-public-q = ¿ tlanahuatil de nu cuenta mu nextis?
+faq-how-privacy-q = ¿ quenin titechilhuia ichtaca masehual tlen qui temacah in tlahtol?
 faq-what-determine-identity-q = ¿tlenon quihtosniqui que amo¨ixpantis identidad¨ aquihquen tlahtuhuah campa base de tlanahuatil Common Voice?
 faq-what-is-cv = ¿tlenon Common Voice?
 faq-using-cv = ¿Queni mucui Common Voice?
+faq-description = Common Voice muniluhua ihuan Mozilla para sequin nextilis tipusmeh quenin tlahtuhuan masehualmeh
+faq-search-for-answers =
+    .label = xictemo tlananquilil a mu tlahtlanilis
 
 ## ABOUT US
 
@@ -207,11 +212,13 @@ about-new-lang-title = qui naltitlantuqueh se yancuic tlahtol
 about-new-lang-subtitle = usecnaltitlan sitio de Common Voice icanin masehualtlahtol
 about-voice-contrib-title = pelehuil tlahtol
 about-voice-contrib-subtitle = masehual huitz huan tlapalehuia ica intlahtol
+about-voice-validation-title = tlahtol silia
 about-voice-validation-subtitle = ocsiqueh masehualmeh quin siliah nicancateh clips tlahtol
 about-dataset-release-title = naltitlaneh nichicul tlanahuatilme
 about-dataset-release-subtitle = sequin nehnextia sansicah tlanahuatilme cada 3 tlapuhual
 about-subscribe-text = ¿tiniqui ihuan timu nuhnutstos ihuan Common Voice?
 about-speak = Tlahtoa
+about-speak-text = tiquitini ahcucui y tlahtol sansipa quimachtihtoc tlahcuilol tlen uquin tetlauculihqueh usuarios
 about-listen = Tlacaqui
 about-stay-in-touch = queni ihuan nimu nuhnutztos
 about-stay-in-touch-button = ximuihcuilo
