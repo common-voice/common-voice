@@ -42,7 +42,7 @@ const GetInvolved: React.ComponentType = () => {
             <Localized
               id="about-stay-in-touch-text-1"
               elems={{
-                emailFragment: <a href={`#${SECTIONS.SUBSCRIBE}`} />,
+                emailFragment: <a href={`#${SECTIONS.FOOTER}`} />,
               }}>
               <span />
             </Localized>

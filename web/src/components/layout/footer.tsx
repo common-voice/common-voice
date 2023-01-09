@@ -21,10 +21,10 @@ const LocalizedLocaleLink = ({ id, to }: { id: string; to: string }) => {
   );
 };
 
-export default React.memo(() => {
+const Footer = React.memo(() => {
   const [locale] = useLocale();
   return (
-    <footer>
+    <footer id="footer">
       <div id="help-links">
         <LocaleLink to={URLS.FAQ} onClick={() => trackNav('faq', locale)}>
           <SupportIcon />
@@ -110,3 +110,7 @@ export default React.memo(() => {
     </footer>
   );
 });
+
+Footer.displayName = 'Footer';
+
+export default Footer;
