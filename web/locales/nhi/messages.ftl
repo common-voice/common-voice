@@ -538,7 +538,19 @@ both-speak-and-listen-long = tiumeh (tlahtos huan tlacaqui)
 daily-goal = tiquitl nuchipa
 easy-difficulty = amo uhueh
 difficult-difficulty = uhueh
+want-to-continue = ¿ticniqui tic nihnimiltis?
+finish-editing = ¿ticniqui tic tlamis de tic patlas achton?
 lose-changes-warning = tla tic cahua axan, tiquin polos tlapatla
+help-reach-hours-pluralized =
+    { NUMBER($hours) ->
+        [one] xitech palehui ticahsisqueh { $hours }horaen{ $language } quemeh se tiquitl sesiahcah
+       *[other] xitech palehui ticahsisqueh { $hours }horasen{ $language }ica se tiquitl sesiahcah
+    }
+help-reach-hours-general-pluralized =
+    { NUMBER($hours) ->
+        [one] xicpalehui Common Voice mucahsi{ $hours }horaen se tlahtol ica se tiquitl sesiahcah
+       *[other] xicpalehui Common Voice mucahsi{ $hours }horasen se tlahtol ica se tiquitl sesiahcah
+    }
 set-a-goal = xictlali mu tiquiuh
 how-many-per-day = ¡cuali! ¿ quesqui tlahtolahcucui tunal?
 which-goal-type = ¿ ticniqui ti tlahtos, tlacaquis o yen umeh?
