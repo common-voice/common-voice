@@ -425,6 +425,7 @@ request-language-google-recaptcha-error = tleno amo uquis cuali ica reCAPTCHA. x
 # Success page
 request-language-success-heading = ¡tlasohcamatictzin! uticnaltitlan se yancuic tlahtol
 request-language-success-list-1 = quipia nic silis se correo electronico campa nech nextia quenin nic tlalis se tlahtol Common Voice
+request-language-success-list-2 = ti tiquitcau nichicumasehual mu nuhnutzas muhuantzin para mitzon macas soporte adicional, huan para tucumatis tla yi catqui se nichicumasehual tiquitoc ica mu masehual tlantol
 request-language-success-list-3 = tla amo utic sile tlanahuatil ic ninqueh tunalmeh, ximu nuhnutsa ihuan <emailLink>{ $email }</emailLink> huan timu nuhnutsasqueh muhuantsi
 request-language-error = canah amo u sek sileh nun tlahtol. timits tlatlauhtia xitech naltitlani se correo electronico ichin <emailLink>{ $email }</emailLink> huan ti mu nuhnutsasqueh muhuan
 
@@ -479,9 +480,11 @@ record-abort-continue = xictlami tlahtolahcucui
 record-abort-delete = quisa huan sequinpulos tlahtolhacucui
 listen-instruction = { $actionType }<playIcon></playIcon>¿ uquihtuhqueh tlahtol cuali?
 listen-again-instruction = cualitiquiuh<playIcon></playIcon> xicaqui ocsipa cuando yi ti isqui cuali
+listen-empty-state = utimucauhqueh amitlen clips para tiquin silisqueh nicancah tlantol...
 listen-loading-error = amo huilic utic silihqueh dionse tlahtolahcucui para tic caquis. timits tlatlauhtiya xic yehyeco cachi tlahcahtsi
 speak-empty-state = usemucauh ica amose tlahtolihcuilol para tic tlahtolahcucuis ica nin tlahtol...
 speak-empty-state-cta = tlapalehui ica ocsiqueh tlahtolmeh
+speak-loading-error = amo usehuilik usecpix se tlahcuilol para que tuhuatzin xun tlahto. timitz tlatlauhtia, xic yehyeco cachi tlahca.
 record-button-label = tlahtol ahcucui
 share-title-new = <bold> xitechpalehui</bold> maticahsicah ocsiqueh tlahtolmeh
 login-to-get-started = pehualti sesio o ximuihcuilo para ti pehuas
