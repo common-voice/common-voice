@@ -518,6 +518,12 @@ days =
 ## Dashboard
 
 your-languages = mu tlahtulmeh
+toward-next-goal = campa ocse tiquitl
+goal-reached = tiquitl mahsitoc
+clips-you-recorded = tlanonots tlen yutic tlahtolahcuc
+todays-recorded-progress = nemilis de axan tlahcuilol tlahtolahcuc para Common Voice
+todays-validated-progress = nemilis de axan tlahcuilol silihqueh para Common Voice
+awards = tetlaoculil
 you = teh
 everyone = nuchin tlalticpac
 contribution-activity = tiquitl palehuis
