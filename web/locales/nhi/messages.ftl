@@ -263,8 +263,10 @@ about-playbook-how-add-sentences-content-4 = tlahcuilolmeh tlen quema uquin sili
 
 ## How to record quality
 
+about-playbook-how-record-quality = queni ni tlahtolahcucui se clip mui cuali?
 about-playbook-how-record-content-1 = xi tlahto normal. Uhcon quenti tlahtuhua nican cuali sec silia, sec niqui mu tlahtol uhcon quen yuhui, huan secniqui uhcon chicahuac huan queni nun tlahtuhuah queme nucumateh
 about-playbook-how-record-content-3 = xicmumachti tlahtol ica cuidado, amo xic pulo xic patla o xin tlalili tlahtol
+about-playbook-how-record-content-4 = xiquita quen plataforma mu yupeuh tlahtolahcucui achton ti pehuas ti tlahtos huan mumunacti cuando yutic tlameh
 about-playbook-how-record-content-5 = <accuracyLink> xiquita cachi ican tlahtulmeh cuali</accuracyLink>
 
 ## How to grow language
@@ -330,6 +332,7 @@ data-get-started = <speechBlogLink>xic pehualti ican ixmatilis tlahtol</speechBl
 data-other-title = ocsiqueh tlanahuatimeh tlahtol…
 data-other-goto = niyas campa { $name }
 data-other-download = xiquin timulti tlanahuatil
+data-bundle-button = timulti paquete de tlanahuatil tlahtol
 data-bundle-description = tlanahuatil Common Voice sansicah ihuan nuchin tlen yi achton tlanahuatil tlahtol
 dataset-date = tunal
 license = tlacahuil:<licenseLink>{ $license }</licenseLink>
