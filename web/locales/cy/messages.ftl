@@ -18,6 +18,8 @@ banner-error-slow-1 = Ymddiheuriadau, mae Common Voice yn rhedeg yn araf. Diolch
 banner-error-slow-2 = Rydym yn derbyn llawer o draffig ac ar hyn o bryd yn ymchwilio i'r materion.
 banner-error-slow-link = Tudalen Statws
 error-something-went-wrong = Ymddiheuriadau, aeth rhywbeth o'i le
+error-clip-upload = Mae llwytho'r clip hwn yn dal i fethu, parhau i roi cynnig arall arni?
+error-clip-upload-server = Mae llwytho'r clip hwn yn parhau i fethu ar y gweinydd. Ail-lwythwch y dudalen neu ceisiwch eto yn nes ymlaen.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -1672,3 +1674,5 @@ second-cta-header-text = Diolch am gyfrannu eich llais!
 second-cta-subtitle-text = Gyda phroffil, gallwch gadw golwg ar eich gweithgaredd a chysylltu â chymuned o gyfranwyr data llais.
 already-have-an-account = Cyfrif yn barod? <login>Mewngofnodwch</login>
 create-profile-button = Crëwch broffil
+# IMAGE TAGS
+img-alt-success-checkmark = marc gwirio llwyddiant
