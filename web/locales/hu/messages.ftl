@@ -18,6 +18,8 @@ banner-error-slow-1 = Sajnáljuk, a Common Voice lassan fut. Köszönjük érdek
 banner-error-slow-2 = Nagy a forgalom, és jelenleg vizsgáljuk a problémákat.
 banner-error-slow-link = Állapot oldal
 error-something-went-wrong = Elnézést, hiba történt
+error-clip-upload = A klip feltöltése továbbra is sikertelen, folytatja az újrapróbálkozást?
+error-clip-upload-server = Ennek a klipnek a feltöltése folyamatosan sikertelen a kiszolgálón. Töltse újra az oldalt, vagy próbálja újra később.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -1582,3 +1584,5 @@ second-cta-header-text = Köszönjük, hogy közreműködött a hangjával!
 second-cta-subtitle-text = Egy profil segítségével nyomon követheti tevékenységét, és kapcsolatba léphet a hangadatokat biztosító közreműködők közösségével.
 already-have-an-account = Már van fiókja? <login>Bejelentkezés</login>
 create-profile-button = Profil létrehozása
+# IMAGE TAGS
+img-alt-success-checkmark = sikert jelző pipa
