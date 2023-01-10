@@ -139,6 +139,7 @@ speak-now = Runā tagad
 datasets = Datu kopas
 languages = Valodas
 about = Par
+partner = Partnerība
 profile = Profils
 help = Palīdzība
 contact = Kontakti
@@ -443,6 +444,7 @@ about-playbook-how-record-content-2 = Izvairieties no pārāk liela fona trokš�
 
 ## How to grow language
 
+about-playbook-how-grow-language-content-6 = Partnerības un tīkli
 
 ## How to validate
 
@@ -900,3 +902,6 @@ contribution-just-unsure-description = Ja saskaraties ar kaut ko, kas šajās va
 
 # [/SentenceCollector]
 
+# PARTNERSHIPS PAGE
+partnerships-header = Partnerības
+partnerships-get-in-touch = Sazināties
