@@ -1,13 +1,19 @@
 import * as React from 'react';
 import { useState, useEffect } from 'react';
-import { Localized } from '@fluent/react';
+import {
+  Localized,
+  withLocalization,
+  WithLocalizationProps,
+} from '@fluent/react';
 import classNames from 'classnames';
 
 import { useAPI } from '../../../hooks/store-hooks';
+import useCopyToClipboard from '../../../hooks/use-copy-to-clipboard';
 import { CloudIcon } from '../../ui/icons';
 import { Button, LabeledCheckbox, LabeledInput, LinkButton } from '../../ui/ui';
 import './dataset-download-email-prompt.css';
-interface DownloadFormProps {
+
+interface DownloadFormProps extends WithLocalizationProps {
   downloadPath: string;
   isLight: boolean;
   selectedLocale: string;
@@ -32,6 +38,7 @@ const DatasetDownloadEmailPrompt = ({
   releaseId,
   checksum,
   size,
+  getString,
 }: DownloadFormProps) => {
   const api = useAPI();
 
@@ -43,6 +50,8 @@ const DatasetDownloadEmailPrompt = ({
     downloadLink: null,
     hideEmailForm: false,
   } as FormState);
+
+  const [, copy] = useCopyToClipboard(getString);
 
   const {
     email,
@@ -178,7 +187,12 @@ const DatasetDownloadEmailPrompt = ({
               <p className="why-email " />
             </Localized>
             {checksum && (
-              <div className="checksum">
+              <div
+                className="checksum"
+                onClick={() => copy(checksum)}
+                onKeyDown={() => copy(checksum)}
+                role="button"
+                tabIndex={0}>
                 <strong>sha256 checksum</strong>: <p>{checksum}</p>
               </div>
             )}
@@ -188,7 +202,9 @@ const DatasetDownloadEmailPrompt = ({
     </div>
   );
 };
+
 DatasetDownloadEmailPrompt.defaultProps = {
   isLight: false,
 };
-export default DatasetDownloadEmailPrompt;
+
+export default withLocalization(DatasetDownloadEmailPrompt);

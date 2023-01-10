@@ -48,6 +48,7 @@
         font-size: var(--font-size-xs);
         color: var(--warm-grey);
         margin-bottom: 1rem;
+        cursor: pointer;
 
         p {
             overflow-wrap: break-word;

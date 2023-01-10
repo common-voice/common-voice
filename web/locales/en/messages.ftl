@@ -796,6 +796,9 @@ more = More
 close = Close
 download = Download
 dataset-version = Version
+sha256-checksum-copied = SHA256 Checksum Copied!
+sha256-checksum-copied-error = Failed to copy SHA256 Checksum
+clipboard-not-supported = Clipboard not supported
 
 ## Download Modal
 download-title = Your download has started.
