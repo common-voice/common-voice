@@ -1,4 +1,4 @@
-import { Localized, WithLocalizationProps } from '@fluent/react';
+import { Localized, withLocalization, WithLocalizationProps } from '@fluent/react';
 import * as React from 'react';
 import { useState } from 'react';
 import { useAPI } from '../../../../hooks/store-hooks';
@@ -27,13 +27,13 @@ const CheckboxRow = ({ children, title, ...props }: any) => (
   </div>
 );
 
-export function ReportModal({
+export const ReportModal = withLocalization(({
   kind,
   id,
   reasons,
   onSubmitted,
   ...props
-}: ReportModalProps) {
+}: ReportModalProps) => {
   const { getString } = props;
   const api = useAPI();
   const [selectedReasons, setSelectedReasons] = useState<{
@@ -127,7 +127,7 @@ export function ReportModal({
       </Button>
     </Modal>
   );
-}
+});
 
 export const ReportButton = (props: React.HTMLProps<HTMLButtonElement>) => (
   <Button outline rounded className="open-report-button" {...props}>
