@@ -3,7 +3,6 @@ export const SECTIONS = {
   HOW_IT_WORKS: 'how-it-works-2',
   PLAYBOOK: 'playbook',
   SUBSCRIBE: 'subscribe',
-  FOOTER: 'footer',
   GET_INVOLVED: 'get-involved',
 };
 

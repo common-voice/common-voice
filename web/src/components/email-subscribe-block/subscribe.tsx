@@ -3,7 +3,6 @@ import * as React from 'react';
 import { connect } from 'react-redux';
 import URLS from '../../urls';
 import { LocaleLink } from '../locale-helpers';
-import { ArrowLeft } from '../ui/icons';
 import { Button, LabeledCheckbox, LabeledInput } from '../ui/ui';
 import {
   SubscribeMapDispatchToProps,
@@ -13,7 +12,6 @@ import {
   SubscribeProps,
 } from './types';
 import './subscribe.css';
-import { Link } from 'react-router-dom';
 import classNames from 'classnames';
 
 interface State {
@@ -23,7 +21,11 @@ interface State {
 }
 
 class Subscribe extends React.Component<SubscribeProps, State> {
-  state: State = { email: '', privacyAgreed: false, submitStatus: null };
+  state: State = {
+    email: '',
+    privacyAgreed: Boolean(this.props.account),
+    submitStatus: null,
+  };
 
   emailInputRef = React.createRef<HTMLInputElement>();
 
@@ -37,12 +39,14 @@ class Subscribe extends React.Component<SubscribeProps, State> {
 
   handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
-    const { account, api, addNotification } = this.props;
+    const { account, api, addNotification, updateUser } = this.props;
     this.setState({ submitStatus: 'submitting' });
     try {
-      await api.subscribeToNewsletter(
+      const { token } = await api.subscribeToNewsletter(
         account ? account.email : this.state.email
       );
+
+      updateUser({ account: { basket_token: token } });
       addNotification(
         <Localized id="profile-form-submit-saved">
           <span />
@@ -62,7 +66,7 @@ class Subscribe extends React.Component<SubscribeProps, State> {
     const { submitStatus } = this.state;
     const isEditable = submitStatus == null;
     const email = account ? account.email : this.state.email;
-    const privacyAgreed = account || this.state.privacyAgreed;
+    const privacyAgreed = this.state.privacyAgreed;
     const emailInput = this.emailInputRef.current;
 
     if (account?.basket_token || submitStatus == 'submitted') {

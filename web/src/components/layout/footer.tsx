@@ -24,7 +24,7 @@ const LocalizedLocaleLink = ({ id, to }: { id: string; to: string }) => {
 const Footer = React.memo(() => {
   const [locale] = useLocale();
   return (
-    <footer id="footer">
+    <footer>
       <div id="help-links">
         <LocaleLink to={URLS.FAQ} onClick={() => trackNav('faq', locale)}>
           <SupportIcon />

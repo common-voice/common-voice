@@ -2,7 +2,7 @@ import { UserClient } from 'common';
 import API from '../../services/api';
 import { Notifications } from '../../stores/notifications';
 import StateTree from '../../stores/tree';
-import { WithLocalizationProps } from '@fluent/react';
+import { User } from '../../stores/user';
 
 //Subscribe form interfaces
 export interface SubscribePropsFromState {
@@ -12,6 +12,7 @@ export interface SubscribePropsFromState {
 
 export interface SubscribePropsFromDispatch {
   addNotification: typeof Notifications.actions.addPill;
+  updateUser: typeof User.actions.update;
 }
 
 export interface SubscribeProps
@@ -32,4 +33,5 @@ export function SubscribeMapStateToProps({ api, user }: StateTree) {
 
 export const SubscribeMapDispatchToProps = {
   addNotification: Notifications.actions.addPill,
+  updateUser: User.actions.update,
 };
