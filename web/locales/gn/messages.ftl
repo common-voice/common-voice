@@ -18,6 +18,8 @@ banner-error-slow-1 = Rombyasy, Common Voice omba’apo mbeguekatu. Aguyje remom
 banner-error-slow-2 = Og̃uahẽ oréve heta mba’e ha ko’ága rohapykuehohína umi apañuãi.
 banner-error-slow-link = Kuatiarogue Rekotee
 error-something-went-wrong = Che ñyrõ, oĩ osẽvaíva
+error-clip-upload = Eikutukuévo ndoikopái, ¿ejapojey ag̃amieve?
+error-clip-upload-server = Eikutúvo ndoikopái mba’e’okápe, ¿Emyanyhẽjey kuatiarogue térã eha’ãjey ag̃amieve?
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
