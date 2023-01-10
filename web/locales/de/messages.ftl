@@ -18,6 +18,8 @@ banner-error-slow-1 = Entschuldigung, Common Voice läuft langsam. Danke für Ih
 banner-error-slow-2 = Wir empfangen aktuell viel Datenverkehr und untersuchen derzeit die Probleme.
 banner-error-slow-link = Statusseite
 error-something-went-wrong = Entschuldigung, etwas ist schiefgegangen!
+error-clip-upload = Das Hochladen dieses Clips schlägt immer wieder fehl. Weitere Versuche unternehmen?
+error-clip-upload-server = Das Hochladen dieses Clips schlägt aufseiten des Servers immer wieder fehl. Laden Sie die Seite neu oder versuchen Sie es später erneut.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -1629,3 +1631,5 @@ second-cta-header-text = Vielen Dank, dass Sie Ihre Stimme beitragen!
 second-cta-subtitle-text = Mit einem Profil können Sie Ihre Aktivitäten im Auge behalten und mit einer Gemeinschaft von Mitwirkenden an Sprachdaten in Kontakt treten.
 already-have-an-account = Sie haben bereits ein Konto? <login>Melden Sie sich an</login>
 create-profile-button = Ein Profil erstellen
+# IMAGE TAGS
+img-alt-success-checkmark = Symbol: Häkchen/Erfolg
