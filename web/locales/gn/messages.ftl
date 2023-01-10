@@ -1563,3 +1563,5 @@ second-cta-header-text = ¡Aguyje ne ñe’ẽ ñeme’ẽre!
 second-cta-subtitle-text = Peteĩ mba’ete ndive, ehapykuehokuaa ne rembiapo ha eike ayvu mba’ekuaarã pytyvõhára rekohápe.
 already-have-an-account = ¿Ne mba’etéma? <login>Eñepyrũ tembiapo</login>
 create-profile-button = Emoheñói mba’ete
+# IMAGE TAGS
+img-alt-success-checkmark = marca ojehayhúva
