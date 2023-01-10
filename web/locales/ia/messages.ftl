@@ -18,6 +18,8 @@ banner-error-slow-1 = Desolate, Common Voice es exequite lentemente. Gratias pro
 banner-error-slow-2 = Nos recipe multe traffico e actualmente nos investiga le problemas.
 banner-error-slow-link = Pagina de stato
 error-something-went-wrong = Desolate, alco errate eveniva
+error-clip-upload = Le cargamento de ce clip falle ancora, retentar?
+error-clip-upload-server = Le cargamento de ce clip falle ancora al servitor, recarga le pagina o prova plus tarde.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -1578,3 +1580,5 @@ second-cta-header-text = Gratias pro contribuer con tu voce!
 second-cta-subtitle-text = Con un profilo, tu pote mantener tracia de tu activitate e connecter te con collaboratores de un communitate de datos vocal.
 already-have-an-account = Ha tu jam un conto? <login>Accede</login>
 create-profile-button = Crear un profilo
+# IMAGE TAGS
+img-alt-success-checkmark = marca de successo
