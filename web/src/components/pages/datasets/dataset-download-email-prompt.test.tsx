@@ -24,6 +24,7 @@ jest.mock('../../../hooks/store-hooks', () => ({
       saveHasDownloaded: mockSaveHasDownload,
     };
   },
+  useAction: () => jest.fn(),
 }));
 
 const bundleUrlTemplate =

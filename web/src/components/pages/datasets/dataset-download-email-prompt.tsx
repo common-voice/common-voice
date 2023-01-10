@@ -15,7 +15,7 @@ import './dataset-download-email-prompt.css';
 
 interface DownloadFormProps extends WithLocalizationProps {
   downloadPath: string;
-  isLight: boolean;
+  isLight?: boolean;
   selectedLocale: string;
   releaseId: string;
   checksum: string;
