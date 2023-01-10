@@ -47,7 +47,7 @@ export const ReportModal = withLocalization(({
   if (submitStatus == 'submitted') {
     return (
       <Modal {...props} innerClassName="report-success-modal">
-        <img className="check" src={require('./success.svg')} alt={getString('img-alt-green-checkmark')} />
+        <img className="check" src={require('./success.svg')} alt={getString('img-alt-success-checkmark')} />
         <Localized id="success">
           <h1 />
         </Localized>

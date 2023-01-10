@@ -1579,4 +1579,4 @@ already-have-an-account = Already have an account? <login>Log-In</login>
 create-profile-button = Create a profile
 
 # IMAGE TAGS
-img-alt-green-checkmark = green checkmark
+img-alt-success-checkmark = success checkmark
