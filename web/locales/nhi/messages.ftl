@@ -561,7 +561,9 @@ share-n-daily-contribution-goal = tehuanti mu tiquiuh nuchipa de { $count } tlah
 share-goal-type-speak = tlahtuhtuc
 share-goal-type-listen = tlacactoc
 share-goal-type-both = tlahtuhtuc huan tlacactoc
+weekly-goal-created = yumuchiuh mu tiquiuh chicueyitunal
 daily-goal-created = umuchiuh se tiquitl nuchipa
+track-progress = xic nihnimilti nica mu nemilis huan ichin página de estadísticas
 return-to-edit-goal = nuchipa huilis timu cuipas tic patlas mu tiquiuh
 share-goal = tehuantis nu tiquiuh
 
