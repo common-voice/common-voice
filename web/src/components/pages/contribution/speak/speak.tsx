@@ -745,6 +745,7 @@ class SpeakPage extends React.Component<Props, State> {
                 recordingIndex == -1 || !clips[recordingIndex].sentence
                   ? null
                   : clips[recordingIndex].sentence.id,
+              getString
             }}
             sentences={clips.map(({ sentence }) => sentence)}
             shortcuts={[

@@ -1,4 +1,4 @@
-import { Localized } from '@fluent/react';
+import { Localized, WithLocalizationProps } from '@fluent/react';
 import * as React from 'react';
 import { connect } from 'react-redux';
 import { Clip as ClipType } from 'common';
@@ -90,7 +90,7 @@ const initialState: State = {
   isSubmitted: false,
 };
 
-class ListenPage extends React.Component<Props, State> {
+class ListenPage extends React.Component<Props & WithLocalizationProps, State> {
   audioRef = React.createRef<HTMLAudioElement>();
   playedSomeInterval: any;
 
@@ -375,6 +375,7 @@ class ListenPage extends React.Component<Props, State> {
               ],
               kind: 'clip',
               id: activeClip ? activeClip.id : null,
+              getString: this.props.getString
             }}
             sentences={clips.map(clip => clip.sentence)}
             shortcuts={[
