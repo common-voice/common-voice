@@ -42,6 +42,7 @@ const mockReportModalProps: Omit<ReportModalProps, 'onSubmitted'> = {
   ],
   kind: 'sentence',
   id: 'test-id',
+  getString: () => 'test',
 };
 
 const mockSentences = [

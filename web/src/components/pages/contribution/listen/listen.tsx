@@ -90,7 +90,7 @@ const initialState: State = {
   isSubmitted: false,
 };
 
-class ListenPage extends React.Component<Props, State> {
+class ListenPage extends React.Component<Props , State> {
   audioRef = React.createRef<HTMLAudioElement>();
   playedSomeInterval: any;
 

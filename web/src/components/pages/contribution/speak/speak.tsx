@@ -385,6 +385,7 @@ class SpeakPage extends React.Component<Props, State> {
       tallyRecording,
       user,
       refreshUser,
+      getString
     } = this.props;
 
     if (!hasAgreed && !(user.privacyAgreed || user.account)) {
@@ -458,16 +459,16 @@ class SpeakPage extends React.Component<Props, State> {
             }
             retries = 0;
           } catch (error) {
-            let msg;
+            let key = 'error-clip-upload';
+
             if (error.message.includes('save_clip_error')) {
-              msg =
-                'Upload of this clip keeps failing at server, reload the page or try after sometime';
-            } else {
-              msg = 'Upload of this clip keeps failing, keep retrying?';
+              key = 'error-clip-upload-server';
             }
+
             retries--;
             await new Promise(resolve => setTimeout(resolve, 1000));
-            if (retries == 0 && confirm(msg)) {
+
+            if (retries == 0 && confirm(getString(key))) {
               retries = 3;
             }
           }
