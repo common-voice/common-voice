@@ -152,6 +152,15 @@ ps = Pasitokan
 pt = Porotigɛkan
 quc = Kisekan
 quy = Kesuwasankakan
+rm-sursilv = Romansi Surisilivankan
+rm-vallader = Romansi Valaderikan
+ro = Romaniyankan
+ru = Irisikan
+rw = Kiniyariwandakan
+sah = Sakakan
+sat = Santalikan
+sc = Saridiniyankan
+scn = Sisiliyankan
 
 # [/]
 
