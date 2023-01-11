@@ -627,6 +627,7 @@ read-more-about = xicahsi cachi ican tu página ican Common Voice
 ## DemoLayout
 
 demo-get-started = ticpehualticah
+demo-welcome = timitzsiliah ichin Common Voice
 demo-welcome-subheader = ¿ticniqui ticmu nextilis cachi huan titech palehuis ican tu tiquiuh?
 
 ## Demo Datasets
@@ -659,6 +660,7 @@ demo-listen-subtitle = ¿ yiticah cuali para titechpalehuis?
 contribution-criteria-page-description = ¡xicumati tla tucuntemus cuando tucun caquis tlahtolahcuc huan tech palehui sequinchihuas tlahtulahcuc nuyuhqui!
 contribution-for-example = musequihto
 contribution-misreadings-title = amocuali tlamachtil
+contribution-misreadings-description = cuando tic caquis xic tlali cuidado tlen umu tlahtolahcuch yen tlen u mu ihcuilo. amo xic sili tla mas tzocotzitzi tlen amo iuhqui <br />. tlen amo iuhqui quipiah:
 contribution-misreadings-description-extended-list-1 = qupulihua <strong> 'A'</strong> O <strong> 'The'</strong> campa pehua tlahtolahcuc
 contribution-misreadings-description-extended-list-2 = quipuluhua se <strong>'s'</strong> campa tlamia tlahtol
 contribution-misreadings-description-extended-list-4 = puluhua campa tlamia tlahtol campa sec tiqui tlahtolahcuc simi isiuhca
@@ -668,6 +670,7 @@ contribution-misreadings-example-3-explanation = tlahtolahcuc achton uc ticqueh 
 contribution-misreadings-example-4-explanation = [mu tlahtolahcuc cachi que tlen muniqui tlahcuiliuhtoc]
 contribution-misreadings-example-5-title = tiquisasqueh ticunisqueh café
 contribution-misreadings-example-6-title = tiquisasqueh ticunisqueh café
+contribution-misreadings-example-6-explanation = [Quipia de isqui ¨tehuan¨]
 contribution-misreadings-example-7-title = tehuan tiyasqueh ti cunitihueh se café
 contribution-varying-pronunciations-title = tlahtulmeh tlatlamantl
 contribution-varying-pronunciations-description-extended = ic ocsican, tla tucumati machtani amayic cahsitoc tlahtol huan san qui tlalilihtoc amocuali tlahtol, xucunpolo. tla amo tucun yecmati xucun ahcotzicuini
