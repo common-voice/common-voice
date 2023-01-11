@@ -552,6 +552,7 @@ Daudz jaunāks un daudz varenāks.
 Daudz labāk nekā sēdēt birojā.
 Daudz labāk.
 Daudz tādu blandās.
+Daudzdzīvokļu mājās esošo tradicionālo mājokļu skaits
 Daļiņas sašķels mikročipus gabalos.
 Daļu iedosi man, labi?
 Dažas dienas man pie tā bija jāpierod, bet tagad es jūtos labi.
@@ -588,6 +589,7 @@ Divas galvas vienmēr gudrākas nekā viena.
 Divi kaili aizdomās turamie mēģināja sevi uzspridzināt uz lielceļa, bet uztaisīja tikai lielu caurumu.
 Divi līdzinieki esam, arvien mums saskan.
 Diviem zaķiem pakaļ dzīdamies, nevienu nenoķersi.
+Divu dzīvokļu mājās esošo tradicionālo mājokļu skaits
 Diētisko kolu, lūdzu.
 Dod man minūti.
 Dod man roku.
@@ -632,6 +634,7 @@ Draugu grūti iegūt, bet vēl grūtāk paturēt.
 Draņķa spirts. Gandrīz kļuvu akls.
 Draņķi, kāpēc apkauno formastērpu?
 Drošam pieder pasaule.
+Droši uzdodiet mums jautājumus!
 Droši vien saputroju. Vainīgs, Jāni.
 Droši vien šausmīgi.
 Droši vien.
@@ -655,6 +658,7 @@ Dumiķīt, mamma ir desmit štatus tālāk.
 Dumjš kā zābaks.
 Dusmas saīsina mūžu
 Dusmās sirds nesaprot, kas labs un kas ļauns.
+Dvīņu mājās esošo tradicionālo mājokļu skaits
 Dzer, kamēr nodzer prātu.
 Dzirdi mani?
 Dzirdi? Mums jābrauc augšā, nevis lejā.
@@ -669,6 +673,10 @@ Dzīvo godīgs – būsi laimīgs
 Dzīvo no rokas mutē.
 Dzīvo viņpus ielai.
 Dzīvo, cepuri kuldams.
+Dzīvojamo vienību skaits ar mājoklī esošu tualeti ar ūdens novadu
+Dzīvojamo vienību skaits ar vannu vai dušu
+Dzīvojamo vienību skaits ar ūdensvadu
+Dzīvojamo vienību skaits bez apkures
 Dzīvoklis mani neinteresē.
 Dāmas un kungi, esam jau gaidījuši labu laiku.
 Dārdoša mūzika, veikli dīdžeji
@@ -1259,6 +1267,7 @@ Es viņu redzēju divdesmit astotajā. novembrī.
 Es viņu visur izmeklējos.
 Es viņu ļoti pievīlu.
 Es vēl neesmu pateicis vissliktāko.
+Es vēlos atvērt uzņēmuma kontu
 Es vēlētos atvainoties personīgi.
 Es zinu lielisku vietu. Pie dārza.
 Es zinu, Kārli.
@@ -1559,6 +1568,7 @@ Ilgus gadus mēs dzīvojām Templā, Teksasā.
 Ilgā gaidīšana tomēr atmaksājas.
 Ilze domā, ka strādāsim par krupjē pēc pāris mēnešiem.
 Impulss droši vien ir elektrisks, ja reiz tāds ātrums.
+Individuālajās mājās esošo tradicionālo mājokļu skaits
 Interesanta doma.
 Ir cita iespēja.
 Ir divi sieviešu veidi, viegli un grūti iegūstamas.
@@ -1620,6 +1630,7 @@ Izmaksāšu tev kafiju pirms dodies mājup.
 Izmanto manas zināšanas, es lūdzu.
 Izmeklējos visur, līgavas nav.
 Izmetīšu. Kārli, man ir tevi jāizmet.
+Izmēģiniet mūsu jauno automatizēto risinājumu
 Iznesīšu ārā aukstumkasti.
 Iznīciniet viņus!
 Izplet rokas. Rokas plati!
@@ -1679,6 +1690,7 @@ Ja ne, netiek.
 Ja neatradīšu, tik un tā uzsmēķēsim?
 Ja negribat būt forša, pati vainīga.
 Ja negribi, nevajag.
+Ja nepieciešams apmeklēt filiāli, lūdzu, piesakiet apmeklējumu
 Ja nu bumba?
 Ja nu demokrātija, kurai it kā kalpojam, vairs nepastāv?
 Ja nu es izgāzīšos?
@@ -2063,6 +2075,7 @@ Jūs, nu gan iznesāt mani cauri.
 Jūsu avanss?
 Jūsu darīšanas tagad ir manas.
 Jūsu gaismas zobeni lieliski papildinās manu kolekciju.
+Jūsu izvēle attiecībā uz sīkdatņu izmantošanu tiks saglabāta vienu gadu.
 Jūsu majestāte, šeit!
 Jūsu vecumā ar mani bija tāpat.
 Jūsu zobenus, lūdzu.
@@ -3005,6 +3018,7 @@ Laipni lūgts atpakaļ.
 Lara, zvanīšu tev vēlāk.
 Lasies, puika.
 Latviešiem vajag naudu.
+Latvijas Nacionālais terminoloģijas portāls
 Lauka izjaukšana var iedzīt viņu slazdā.
 Leitnant! Uzgaidiet!
 Leitnant, tieši par to es jums stāstīju.
@@ -3468,6 +3482,7 @@ Mācos piecus gadus, bet vēl daudz kas jāapgūst.
 Mācījis atšķirt labu no ļauna.
 Mācīju tevi kopš zēna gadiem.
 Mācīties nekad nav par vēlu.
+Mājokļu skaits
 Mājā ir divas signalizācijas sistēmas.
 Mājās atgriezīsimies bagāti.
 Mājās iedzersim šņabi ar zemeņu pieniņu.
@@ -3524,6 +3539,7 @@ Mēs iebrūkam, izvietojam spridzekļus, izkļūstam pirms sprādziena.
 Mēs iesim iekšā katrā mājā, skaidrs?
 Mēs ieviešam kārtību.
 Mēs izmainīsim nākotni kopā.
+Mēs izmantojam sīkdatnes, lai nodrošinātu Jums iespējami labāko mājaslapas pārlūkošanas pieredzi
 Mēs jau desmit gadus gatavojāmies, brīdim kad tu ieradīsies.
 Mēs jau mēnešiem ilgi teicām, ka jums tas jādara.
 Mēs jūs gaidījām.
@@ -3626,6 +3642,7 @@ Mūžam? Tas ir tikko noticis.
 Mūžs mana skola, un liktens mans skolotājs.
 Mūžu dzīvo, mūžu mācies.
 Nabags no mantas, bagāts no prieka.
+Nakts patversmju skaits
 Nauda ir labs kalps, bet bīstams kungs.
 Nauda nesmird.
 Nauda pelna naudu, nabadzība dzen nabadzībā.
@@ -3718,6 +3735,7 @@ Nedomāju, ka tā ir laba ideja.
 Nedomāju, ka viņš tevi dzird.
 Nedrīkstu to teikt.
 Nedzīvo, kā gribi, bet dzīvo, kā vari.
+Nedzīvojamās ēkās esošo tradicionālo mājokļu skaits
 Nedēļu pēc šķiršanās ar draugu?
 Neej ar aizsietām acīm.
 Neej cita pirtī kašķi meklēt.
@@ -3825,6 +3843,7 @@ Nepateicība ir pasaules alga.
 Nepateicīgais lops.
 Nepazaudē viņu!
 Nepazīstu tevi, ticu vīra vārdam.
+Nepieciešama palīdzība?
 Nepierunāšu tevi ņemt mani atpakaļ.
 Nepievērs uzmanību.
 Nepriecājies par cita bēdām, savas bēdas priekšā.
@@ -4469,6 +4488,7 @@ Pašlaik neesmu pieejams.
 Pašnovērtējums - augsts, finansiālais stāvoklis - brīnišķīgs.
 Pelnrušķīte atpakaļ no balles.
 Peras kā pliks pa nātrām.
+Personas dati tiek apstrādāti tik ilgi, cik nepieciešams personas datu apstrādes nolūkam.
 Pie Roberta un manis tev labi klāsies.
 Pie darba.
 Pie durvīm apsardze.
@@ -4748,6 +4768,7 @@ Reiz bērnībā vienu pamēģināju.
 Reizēm es atceros to Ziemassvētku rītu.
 Reizēm kaut ko ļoti gribas un tad pēkšņi - vairs ne.
 Restorāni mūsdieu cilvēkiem ir tas pats, kas teātris astoņdesmitajos gados.
+Rindu mājās esošo tradicionālo mājokļu skaits
 Rindā sadraudzējos ar kādu.
 Ripinies prom, citādi nožēlosi.
 Rises ļoti labi saredzamas.
@@ -4859,6 +4880,7 @@ Sen neesam tikušies!
 Sen neesmu tevi redzējusi skolā.
 Sen neviens te nav bijis.
 Sensenos laikos, tāltālā galaktikā...
+Senākā tradicionālā mājokļa celšanas gads
 Ser, jūs mani dzirdat?
 Ser, man nav tiesību sniegt informāciju par iemītniekiem.
 Ser, mums nav...
@@ -5337,6 +5359,7 @@ Telefons kaut kur iekritis.
 Telefonā ir aplikācija "Atrast mobilo".
 Telts balstus? Pati telts ir?
 Tencinu.
+Terminoloģijas portālā apkopota apstiprināta nozaru terminoloģija.
 Tev ar mani jāaprunājas.
 Tev arī vajadzētu aiziet uz randiņu.
 Tev bija taisnība.
@@ -5563,11 +5586,13 @@ Toties bez kruķiem.
 Toties man laba. Tātad izlīdzinās.
 Toties viņa tētis strādā Jemenas vēstniecībā.
 Tovakar mēs iepazināmies.
+Tradicionālo mājokļu vidējais celšanas gads
 Traka suņa murgi.
 Trakas lietas.
 Trako jūra, es sodu.
 Trakums!
 Trauks jāsūta no kreisās uz labo pusi.
+Treileru, šķūņu un citu pajumšu skaits
 Treniņš labu labais.
 Trešo reizi, kad mēs satikāmies, mēs kļuvām draugi.
 Trijos naktī kādam sūtīju ziņu, lai mani piekauj.
@@ -6226,6 +6251,7 @@ Uzklausi mani.
 Uzliec modinātāju uz vienpadsmitiem.
 Uzlikt skābekļa maskas! Uz priekšu!
 Uzlikt skābekļa maskas! Veicīgi! Uzlikt maskas!
+Uzmanies no krāpniekiem!
 Uzmanies!
 Uzmanies, ka nesabojā manu ceļojumu.
 Uzmanību visam medicīnas personālam.
@@ -6496,9 +6522,11 @@ Vakar runāju ar šefpavāru.
 Vakariņas draugu lokā.
 Vakaros pēc skolas par grūtu.
 Vakarā brauksim uz drupām, brauc līdzi.
+Vakcinācijai ir ļoti būtiska loma, lai atgrieztos pie straujākas ekonomiskās izaugsmes.
 Valdi! Vai varam aprunāties?
 Valdi, tas ir jauki, bet es no tevis to negaidu.
 Valdis rīko mājas ballīti, brīnos, ka Kārlis nav stāstījis.
+Valsts sociālās apdrošināšanas aģentūra
 Valērij? Kas tas? Smaids?
 Var jau būt.
 Var paiet mēneši, kamēr mums sāks patikt satikties ar kādu citu.
@@ -6672,6 +6700,7 @@ Viens atgriezās, otrs ne.
 Viens ceļš kā to uzzināt.
 Viens es netikšu galā.
 Viens no jums rīkojās kā draugs.
+Viens no pandēmijas "blakusefektiem" ir neskaidrība par daudziem dzīves aspektiem.
 Viens striķis atraisījies.
 Viens suns ilgi nerej.
 Viens vīrietis pazvanīja.
