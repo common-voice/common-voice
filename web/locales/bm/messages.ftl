@@ -95,6 +95,32 @@ it = Italikan na
 izh = Izhoriankan
 ja = Zapɔnkan na
 jbo = Lojbankan
+ka = Jeorijikan
+kaa = Karakalipakikan
+kab = Kabilekan
+kbd = Kabarijiyankan
+ki = Kikuyukan
+kk = Kazakikan
+km = Kimɛrikan
+kmr = Kuridusikan
+kn = Kannadakan
+knn = Konkanikan
+ko = Koriyɛnkan
+kpv = Komikan
+kw = Koronisikan
+ky = Kirigizikan
+lb = Likisanburukan
+lg = Lugandakan
+lij = Ligurikan
+ln = Lingalakan
+lo = Laokan
+lt = Litiyanikan
+lv = Latviyankan
+mai = Mɛtilikan
+mdf = Mokisakan
+mg = Malagasikan
+mhr = Mɛadomarikan
+mk = Masedoniyankan
 
 # [/]
 
