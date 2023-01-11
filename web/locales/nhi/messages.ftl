@@ -590,6 +590,7 @@ share-goal = tehuantis nu tiquiuh
 
 delete-q = ¿nuyuhqui ticniqui muc pulucan mu tlahtolahcuhtoc o ticniqui mu ahcuctacah ichin base de datos Common Voice?
 remove = pololti
+keep-info = mu tlahtol ahcuctok ichtaca isqueh ichin base de tlanahuatil de Common Voce. cuando tic pulultis mu perfil amo huilis tic tlahtlanis que muc puluca mu tlahtolahcuctoc ichin base de tlanahuatil
 profile-form-delete = secpolos nexica
 
 ## Profile Download
