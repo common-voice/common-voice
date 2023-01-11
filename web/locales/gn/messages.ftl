@@ -778,6 +778,7 @@ more = Hetave
 close = Mboty
 download = Mboguejy
 dataset-version = Peteĩchagua
+sha256-checksum-copied = SHA256 Jehechajey monguatiapyre!
 
 ## Download Modal
 
