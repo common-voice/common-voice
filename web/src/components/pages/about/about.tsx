@@ -1,5 +1,7 @@
 import * as React from 'react';
 import cx from 'classnames';
+import { connect } from 'react-redux';
+
 import Nav from './nav';
 import { SECTIONS } from './constants';
 import HowItWorks from './how-it-works';
@@ -9,10 +11,15 @@ import WhyCommonVoice from './why-common-voice';
 import Subscribe from '../../email-subscribe-block/subscribe';
 import useActiveSection from '../../../hooks/use-active-section';
 import Page from '../../ui/page';
+import StateTree from '../../../stores/tree';
 
 import './about.css';
 
-const About: React.ComponentType = React.memo(() => {
+interface PropsFromState {
+  isSubscribedToMailingList: boolean;
+}
+
+const About: React.FC<PropsFromState> = ({ isSubscribedToMailingList }) => {
   const activeSection = useActiveSection(Object.values(SECTIONS));
 
   return (
@@ -30,30 +37,39 @@ const About: React.ComponentType = React.memo(() => {
         [SECTIONS.SUBSCRIBE, Subscribe],
         [SECTIONS.PLAYBOOK, Playbook],
         [SECTIONS.GET_INVOLVED, GetInvolved],
-      ].map(([section, SectionComponent]: [string, any], index: number) => {
-        if (typeof section === 'object') {
-          return <SectionComponent key={`section-${index}`} {...section} />;
-        }
+      ].map(
+        (
+          [section, SectionComponent]: [string | Record<string, string>, any],
+          index: number
+        ) => {
+          if (typeof section === 'object') {
+            return <SectionComponent key={`section-${index}`} {...section} />;
+          }
 
-        return (
-          <section
-            id={section}
-            key={`section-${section}`}
-            className={cx('about-hero', section, {
-              active: section === activeSection,
-            })}>
-            {section === SECTIONS.SUBSCRIBE ? (
-              <SectionComponent light subscribeText="about-subscribe-text" />
-            ) : (
-              <SectionComponent />
-            )}
-          </section>
-        );
-      })}
+          return (
+            <section
+              id={section}
+              key={`section-${section}`}
+              className={cx('about-hero', section, {
+                active: section === activeSection,
+              })}>
+              {section === SECTIONS.SUBSCRIBE ? (
+                <SectionComponent light subscribeText="about-subscribe-text" />
+              ) : (
+                <SectionComponent
+                  isSubscribedToMailingList={isSubscribedToMailingList}
+                />
+              )}
+            </section>
+          );
+        }
+      )}
     </Page>
   );
-});
+};
 
 About.displayName = 'About';
 
-export default About;
+export default connect<PropsFromState>(({ user }: StateTree) => ({
+  isSubscribedToMailingList: user.isSubscribedToMailingList,
+}))(About);

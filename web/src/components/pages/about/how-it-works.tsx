@@ -90,4 +90,6 @@ const HowItWorks = React.memo(() => {
   );
 });
 
+HowItWorks.displayName = 'HowItWorks';
+
 export default HowItWorks;
