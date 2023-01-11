@@ -187,6 +187,26 @@ tl = Tagalogikan
 tn = Setisuwanakan
 tok = Tokiponakan
 tr = Turukikan
+ts = Sitisongakan
+tt = Tatarikan
+tw = Tuwikan
+ty = Tahitiyankan
+tyv = Tufankan
+uby = Ubykikan
+udm = Udimuritikan
+ug = Uyghurikan
+uk = Ikaraniyankan
+ur = Uridukan
+uz = Uzibekikan
+ve = Tisifendakan
+vec = Venetiyankan
+vi = Viyetinamesikan
+vot = Votikikan
+wo = Wɔlɔfɔkan
+xh = Sosakan
+yi = Yididikan
+yo = Yorubakan
+yue = Kantonesikan
 
 # [/]
 
