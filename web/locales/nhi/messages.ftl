@@ -591,6 +591,7 @@ share-goal = tehuantis nu tiquiuh
 delete-q = ¿nuyuhqui ticniqui muc pulucan mu tlahtolahcuhtoc o ticniqui mu ahcuctacah ichin base de datos Common Voice?
 remove = pololti
 keep-info = mu tlahtol ahcuctok ichtaca isqueh ichin base de tlanahuatil de Common Voce. cuando tic pulultis mu perfil amo huilis tic tlahtlanis que muc puluca mu tlahtolahcuctoc ichin base de tlanahuatil
+remove-info = tiquitasqueh mu solicitud para tic pulusqueh mu tlahtolahcuctoc campa base de tlanunuts. tla mu silia mu solicitud, timu nuhnutzasqueh ihuan aquihqueh uquin timultihqueh base de tlanahuatil huan sequin tlahtlanis nuyuhqui muquin pululticah mu tlahtolahcuctoc
 profile-form-delete = secpolos nexica
 
 ## Profile Download
@@ -606,6 +607,7 @@ download-recently-requested = huilis tic tlahtlanis se yancuic quixtilis tlahtol
 download-size = queniuhquihueyi
 download-start = timulti tlanahuatil nexica
 download-request = xiquintlahtlani tlahtolahcuc
+download-requests = tlahtlanilis timulistl de tlahtolahcuctoc yiachton
 download-requests-info = cuando tuqun tlahtlani tlahtolahcuc, sequin nichicuhua ichin se o miqueh archivos ZIP. nicancateh tlen otucun tlahtlaneh achton
 download-request-button = timulti
 download-request-description = { $clipCount } clips tlahtol, queniuhquihueyi nuchi archivo { $size }. tlamia { $expires }
