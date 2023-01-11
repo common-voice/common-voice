@@ -566,9 +566,11 @@ help-reach-hours-general-pluralized =
 set-a-goal = xictlali mu tiquiuh
 cant-decide = ¿amo timu nimilia?
 how-many-per-day = ¡cuali! ¿ quesqui tlahtolahcucui tunal?
+how-many-a-week = cuali! ¿quesqui tlahtolahcuc ipan chicueyi tunal?
 which-goal-type = ¿ ticniqui ti tlahtos, tlacaquis o yen umeh?
 receiving-emails-info = axan qupia de tic yectlalis para tic silis correos electronicos, quemeh ilnamiquilis tiquitl, yancuic nemilis huan boletines de tlanahuatil ica Common Voice
 help-share-goal = xitechpalehui maticahsicah cachi tlahtol, tehuanti mu tiquiuh
+goal-interval-weekly = chicueyitunal
 # $type is one of share-goal-type-*
 share-n-daily-contribution-goal = tehuanti mu tiquiuh nuchipa de { $count } tlahtolahcucui para{ $type }
 share-goal-type-speak = tlahtuhtuc
