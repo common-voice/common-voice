@@ -19,6 +19,7 @@ banner-error-slow-2 = Nous rencontrons une forte affluence et analysons les diff
 banner-error-slow-link = Page d’état
 error-something-went-wrong = Désolé, une erreur s’est produite
 error-clip-upload = L’envoi de ce clip échoue sans cesse. Voulez-vous réessayer ?
+error-clip-upload-server = L’envoi de ce clip échoue toujours sur le serveur. Rechargez la page ou réessayez plus tard.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -1551,3 +1552,5 @@ second-cta-header-text = Merci d’avoir fait don de votre voix !
 second-cta-subtitle-text = Avec un profil, vous pouvez suivre votre activité et vous connecter à une communauté de contributeurs de données vocales.
 already-have-an-account = Vous avez déjà un compte ? <login>Connexion</login>
 create-profile-button = Créer un profil
+# IMAGE TAGS
+img-alt-success-checkmark = coche de réussite
