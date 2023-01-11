@@ -121,6 +121,37 @@ mdf = Mokisakan
 mg = Malagasikan
 mhr = Mɛadomarikan
 mk = Masedoniyankan
+ml = Malayalamukan
+mn = Mongolikan
+mni = Meeteyilonkan
+mos = Mosikan
+mr = Maratikan
+mrj = Hilimarikan
+ms = Malayikan
+mt = Malitɛsikan
+my = Burimɛsikan
+myv = Eriziyakan
+nan-tw = Tayiwanikan
+nb-NO = Norowɛzikan
+nd = Isindebelekan
+ne-NP = Nepalikan
+nhe = Kɔrɔnfɛla Huwasitekakan
+nia = Niyasikan
+nl = Alimankan
+nn-NO = Norowɛzininorosikikan
+nr = Isindebelekan
+nso = Worodugu Sotokan
+nyn = Runiyankolekan
+oc = Okitankan
+om = Afan Oromokan
+or = Odiyakan
+pa-IN = Punjabikan
+pap-AW = Papiyamentokan
+pl = Polonɛkan
+ps = Pasitokan
+pt = Porotigɛkan
+quc = Kisekan
+quy = Kesuwasankakan
 
 # [/]
 
