@@ -161,6 +161,32 @@ sah = Sakakan
 sat = Santalikan
 sc = Saridiniyankan
 scn = Sisiliyankan
+sdh = Worodugu Kuridisikan
+shi = Silihakan
+si = Sinihalakan
+sk = Solovakikan
+skr = Sarɛkikan
+sl = Soloveniyankan
+snk = Marakakan
+so = Somalikan
+sq = Alibaniyankan
+sr = Sɛribiyankan
+ss = Siwatikan
+st = Worodugu Sotokan
+sv-SE = Suwɛdikan
+sw = Suwahilikan
+syr = Syriakikan
+ta = Tamilikan
+te = Telugukan
+tg = Tajikikan
+th = Tayilandikan
+ti = Tigirinyakan
+tig = Tigirekan
+tk = Turkmenikan
+tl = Tagalogikan
+tn = Setisuwanakan
+tok = Tokiponakan
+tr = Turukikan
 
 # [/]
 
