@@ -19,6 +19,7 @@ banner-error-slow-2 = اساں ٻہوںساری ٹریفک وصول کریندے
 banner-error-slow-link = سٹیٹس ورقہ
 error-something-went-wrong = افسوس، کجھ خرابی تھی ڳئی
 error-clip-upload = ایں کلپ دا اپ لوڈ کرݨ ناکام تھیندا رہندے۔ کوشش کریندے رہوں؟
+error-clip-upload-server = ایں کلپ دا سرور تے اپ لوڈ ناکام تھیندا رہندے۔ ورقہ ولدا لوڈ کرو یا بعد وچ ولدا کوشش کرو۔
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
