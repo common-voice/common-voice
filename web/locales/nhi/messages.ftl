@@ -708,11 +708,13 @@ sc-footer-discourse = tlahtol
 sc-footer-report-bugs = nextia amocuali
 sc-footer-translate = tlahtolpatla nin pagina
 sc-footer-privacy = ichtaca
+sc-footer-terms = tlahcuilol tzohtzocutzi
 sc-login-signup-button = xicpehualti sesion/ ximuihcuilo
 sc-logout-button = xictsacua sesion
 
 ## HOME
 
+sc-home-title = timitz yecsiliah campa mu nichicuhua tlahtol tlahcuilol de Common Voice
 sc-home-intro = xiquin nichico tlahtolmeh <commonVoiceLink> Common Voice</commonVoiceLink> xic macti tlapalehuaneh muc nichicucah huan muquin silicah tlahtolmeh tlen o quinchihchiuh nichicomasehual. Nuyuhqui huilis tiquincuis tipostl para tic panultis huan tic chupahuas corpus de dominio nextoc tzocotzin tlahcuya tlen uquinahsiqueh. nuchin tlahcuilolmeh quipia de isqueh de dominio nextoc. tlahcuilolmeh tlen uquin silihqueh quin panultisqueh cada chicueyi tunal ichin repositorio Common Voice huan mu nextisqueh ichin web Common Voice ichin yancuic
 sc-home-collect-title = xiquimehua tlahtulmeh
 sc-home-collect-text = xitech palehui ihcuilo o xiquin nichico tlahtulmeh de dominio nextia
@@ -727,6 +729,7 @@ sc-languages-fetch-error = amo u se huilic usequinpix tlahtulmeh. tlaxixiluhuane
 
 sc-howto-title = queni
 sc-howto-addlang-title = ocsiqueh tlahtulmeh para se tiquitis
+sc-howto-addlang-text = deque tucun pehualte sesion, huilis tic nextis mu masehual tlahtol ichin mu nexica
 
 ## MY SENTENCES
 
