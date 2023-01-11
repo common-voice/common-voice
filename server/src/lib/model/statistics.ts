@@ -9,6 +9,10 @@ type StatisticsCount = {
   date?: string;
 };
 
+type ClipsMetaDataCount = {
+  clips_metadata_count: number;
+};
+
 const FILTERS = {
   rejected: 'is_valid = false',
   hasEmail: 'email IS NOT null',
@@ -31,7 +35,8 @@ const queryStatistics = async (
 ) => {
   const isDistinct = options?.isDistinct ?? false;
   const isDuplicate = options?.isDuplicate ?? false;
-  const year = options?.year ?? new Date().getFullYear();
+  const hasMetadata = options?.hasMetadata ?? false;
+  const year = getYearFromOptions(options);
   options = { ...options, year };
   let monthlyIncrease, totalCount;
 
@@ -211,6 +216,41 @@ const getTotal = async (
   return rows;
 };
 
+const queryClipsWithMetadata = async (year: Number): Promise<ClipsMetaDataCount> => {
+  const [[rows]] = await db.query(`
+    SELECT
+	COUNT(1) as clips_metatadata_count
+    FROM
+	(
+	SELECT
+		c.id
+	FROM
+		clips c
+	LEFT JOIN user_client_accents uca ON
+		uca.client_id = c.client_id
+	LEFT JOIN user_client_variants ucv ON
+		ucv.client_id = c.client_id
+	LEFT JOIN demographics d ON
+		d.client_id = c.client_id
+	WHERE
+	YEAR(c.created_at) = ${year} AND
+		(uca.id IS NOT NULL
+			OR 
+		ucv.id IS NOT NULL
+			OR 
+		d.age_id IS NOT NULL
+			OR 
+		d.gender_id IS NOT NULL)
+	GROUP BY
+		c.id 
+    ) clips_with_metadata
+  `);
+
+  return rows;
+};
+
+const getYearFromOptions = (options?: QueryOptions): number => options?.year ?? new Date().getFullYear();
+
 export const getStatistics = lazyCache(
   'get-stats',
   async (tableName: TableNames, options?: QueryOptions) => {
@@ -218,6 +258,10 @@ export const getStatistics = lazyCache(
       tableName,
       options
     );
+
+    const clipsWithMetadata = tableName === TableNames.CLIPS && typeof options.hasMetadata !== 'undefined'
+      ? await queryClipsWithMetadata(getYearFromOptions(options))
+      : undefined;
 
     const formattedStatistics = await formatStatistics(
       yearlySum,
@@ -228,6 +272,7 @@ export const getStatistics = lazyCache(
     const metadata = getResponseMetadata();
 
     return {
+      ...clipsWithMetadata,
       ...formattedStatistics,
       metadata,
     };

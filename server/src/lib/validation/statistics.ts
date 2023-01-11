@@ -39,6 +39,9 @@ export const clipStatSchema: AllowedSchema = {
       type: 'string',
       enum: ['rejected'],
     },
+    hasMetadata: {
+      type: 'boolean'
+    },
     ...yearStatSchema
   },
 };
