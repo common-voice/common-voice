@@ -1,7 +1,7 @@
 ## General
 
-yes-receive-emails = 是的，给我发送邮件，我想了解 Common Voice 项目。
-stayintouch = 我们在 Mozilla 正围绕语音技术建立一个社区。 我们想与新技术、新数据来源保持联系，也想知道您会如何使用这些数据。
+yes-receive-emails = 是的，请给我发送电子邮件，我想了解 Common Voice 项目的最新信息。
+stayintouch = 在 Mozilla，我们正围绕语音技术建立一个社区。我们想与新技术、新数据的来源保持联系，也想知道您会如何使用这些数据。
 privacy-info = 我们承诺谨慎处理您的信息。阅读我们的<privacyLink>隐私声明</privacyLink>详细了解。
 return-to-cv = 返回 Common Voice
 email-input =
@@ -40,10 +40,12 @@ ba = 巴什基尔语
 bas = 巴萨语
 be = 白俄罗斯语
 bg = 保加利亚语
+bm = 班巴拉语
 bn = 孟加拉语
 br = 布列塔尼语
 bs = 波斯尼亚语
 bxr = 布里亚特语
+byv = 美敦巴语
 ca = 加泰罗尼亚语
 cak = 喀克其奎语
 ckb = 中库尔德语
@@ -53,6 +55,7 @@ cs = 捷克语
 cv = 楚瓦什语
 cy = 威尔士语
 da = 丹麦语
+dag = 达戈姆巴语
 de = 德语
 dsb = 下索布语
 dv = 迪维希语
@@ -76,6 +79,7 @@ gom = 孔卡尼语（果阿）
 ha = 豪萨语
 he = 希伯莱语
 hi = 印地语
+hil = 希利盖农语
 hr = 克罗地亚语
 hsb = 上索布语
 ht = 海地语
@@ -90,6 +94,7 @@ is = 冰岛语
 it = 意大利语
 izh = 英格里亚语
 ja = 日语
+jbo = 逻辑语
 ka = 格鲁吉亚语
 kaa = 卡拉卡尔帕克语
 kab = 卡拜尔语
@@ -98,6 +103,7 @@ ki = 基库尤语
 kk = 哈萨克语
 km = 高棉语
 kmr = 库尔曼吉库尔德语
+kn = 卡纳达语
 knn = 孔卡尼语（天城文）
 ko = 朝鲜语
 kpv = 科米-齐良语
@@ -106,6 +112,8 @@ ky = 吉尔吉斯语
 lb = 卢森堡语
 lg = 卢干达语
 lij = 利古里亚语
+ln = 林加拉语
+lo = 老挝语
 lt = 立陶宛语
 lv = 拉脱维亚语
 mai = 迈蒂利语
@@ -127,6 +135,7 @@ nan-tw = 闽南语（台湾地区）
 nb-NO = 书面挪威语
 nd = 北恩德贝勒语
 ne-NP = 尼泊尔语
+nhe = 东瓦斯特卡纳瓦特尔语
 nia = 尼亚斯语
 nl = 荷兰语
 nn-NO = 新挪威语
@@ -152,11 +161,13 @@ sah = 萨哈语
 sat = 桑塔利语（Ol Chiki 文）
 sc = 萨丁尼亚语
 scn = 西西里语
+sdh = 南库尔德语
 shi = 希尔哈语
 si = 僧伽罗语
 sk = 斯洛伐克语
 skr = 西莱基语
 sl = 斯洛文尼亚语
+snk = 索宁克语
 so = 索马里语
 sq = 阿尔巴尼亚语
 sr = 塞尔维亚语
@@ -180,6 +191,7 @@ ts = 齐聪加语
 tt = 鞑靼语
 tw = 契维语
 ty = 塔希提语
+tyv = 图瓦语
 uby = 尤比克语
 udm = 乌德穆尔特语
 ug = 维吾尔语
@@ -190,14 +202,17 @@ ve = 齐文达语
 vec = 威尼斯语
 vi = 越南语
 vot = 沃提克语
+wo = 沃洛夫语
 xh = 科萨语
 yi = 意第绪语
 yo = 约鲁巴语
 yue = 粤语
+zgh = 塔玛齐格特语
 zh-CN = 汉语（中国大陆）
 zh-HK = 汉语（香港）
 zh-TW = 汉语（台湾）
 zu = 祖鲁语
+zza = 扎扎其语
 
 # [/]
 
@@ -209,6 +224,7 @@ speak-now = 开始朗读
 datasets = 数据集
 languages = 语言
 about = 关于我们
+partner = 合作伙伴
 profile = 用户资料
 help = 帮助
 contact = 联系我们
@@ -388,6 +404,7 @@ why-demographic = 为什么这很重要？
 why-demographic-explanation-2 = 匿名的用户数据，如年龄、性别、口音等，帮助改进用于训练语音识别引擎准确性的音频数据。您的用户名和电子邮件永远不会与您提交的数据相关联，并且您可以选择将您的用户名设为公开或匿名。
 accept-privacy = 我同意依照 Mozilla 的<privacyLink>隐私政策</privacyLink>所描述的方式处理这些信息
 accept-privacy-title = 隐私政策
+accept-privacy-and-terms = 我同意 Common Voice 的<termsLink>使用条款</termsLink>和<privacyLink>隐私声明</privacyLink>
 login-identity = 登录身份
 login-signup = 登录 / 注册
 edit = 编辑
@@ -454,6 +471,9 @@ faq-why-different-speakers-a =
     大多数语音数据库的语音来源偏重于某一特定人群，造成结果偏向于<articleLink>男性与中产阶级</articleLink>。而在训练数据集中，代表性不足的口音与方言往往会与被边缘化的人群相关联。许多机器也很难理解女性的声音。
     这就是为何我们的语音数据库应该海纳百川，收集各种语音！
 faq-why-my-lang-q = 为什么还没有我的语言？
+faq-why-my-lang-a =
+    Common Voice 是一个众包平台，语言均由志愿者提议添加。
+    我们很乐意您添加您的语言！ <languageRequestLink>询问有关添加语言的问题。</languageRequestLink>
 faq-what-quality-q = 录音片段的音质要达到什么等级，才可用于数据集中？
 faq-what-quality-a = 我们希望 Common Voice 数据集能够反映出语音转文字引擎就算在野外也会听到的音频质量，所以我们希望能够收集各种环境与录音质量下的片段。除了各种说话者以外，具有不同音频质量的数据集，可让语音转文字引擎更能处理各种真实情况，例如背景中有人在讲话，或是有车辆的噪音。只要您的片段能让人听得懂，即可收录至数据集中。
 faq-why-10k-hours-q = 为什么每种语言均有 10,000 小时的有效音频采集目标？
@@ -485,6 +505,9 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = 为什么会有 Common Voice？
+about-header-description-v2 =
+    <p>Common Voice 是一个公开可用的语音数据集，由世界各地志愿者贡献的声音提供支持。想要开发语音应用程序的人可以使用该数据集来训练机器学习模型。</p>
+    <p>目前，大多数语音数据集归各公司私有，这扼杀了创新。语音数据集也未充分代表各类人群，如非英语人士、有色人种、残疾人、女性和 LGBTQIA+ 群体。这意味着支持语音的技术对许多语言根本没有作用，而即使在它有作用的地方，也可能无法对每个人都表现得同样好。我们希望通过动员世界各地的人分享自己声音来改变这种状况。</p>
 how-does-it-work-title-v2 = Common Voice 是如何工作的？
 how-does-it-work-text = 我们集众人之力，构建开源的语音数据集。欢迎捐出一段声音，或者帮助验证录音片段是否正确，让数据集能够变得更好。
 
@@ -495,6 +518,7 @@ about-localization-title = 网站本地化
 about-localization-subtitle = 将网站文本完全本地化。
 about-sentence-collection-title = 收集语句
 about-sentence-collection-subtitle = 收集语句，供人们进行录音。
+about-new-lang-title = 发起新的语言项目
 about-new-lang-subtitle = 我们上线此语言版本的 Common Voice 网站。
 about-voice-contrib-title = 贡献录音
 about-voice-contrib-subtitle = 有一群人参与贡献录音。
@@ -527,6 +551,8 @@ about-get-involved-text-2 =
     也可以加入我们的 <matrixLink>Matrix</matrixLink> 社区群组。
 about-stay-in-touch = 如何获取最新信息？
 about-stay-in-touch-button = 注册
+about-stay-in-touch-text-1 = <emailFragment>加入</emailFragment>加入我们的邮件列表，了解如何参与 Common Voice 上的倡议与活动，还能与我们一同设计功能。
+about-stay-in-touch-text-2 = 您可以加入 <discourseLink>Discourse</discourseLink> 来与 Mozilla 语言社区中的其他人分话题进行交流，或加入 <matrixLink>Matrix</matrixLink> 以获得简明建议。
 about-nav-why-common-voice = 为什么？
 about-nav-how-it-works = 怎么做？
 about-nav-partners = 合作伙伴
@@ -537,25 +563,44 @@ about-nav-playbook = 了解如何参与
 ## Community Playbook Content
 ## What is a language
 
+about-playbook-what-is-language = Common Voice 上的“语言”指的是什么？
+about-playbook-what-is-language-content-1 = “语言”有多重定义。出于建立语音识别模型的目的，Common Voice 建议关注“相互可理解性“，或者说，“如果使用这种语言的人试图相互理解的话，他们是否能相互理解？”
+about-playbook-what-is-language-content-2 = 我们希望语音模型能够更好地理解各类人群的声音。为此，语音数据集必须代表诸多不同人群。
 about-playbook-what-is-language-content-3 = 某些语言在内部有诸多语法、词汇和发音差异。由此，我们自 2022 年起<ctaLink>引入了“变体”的概念</ctaLink>。让各社区能够在大型数据集中更精准地分辨他们的语言。
 
 ## How do I add a language
 
 about-playbook-how-add-language = 如何添加语言？
+about-playbook-how-add-language-content-1 = 首先，请检查您的语言是否<languageLink>已经存在</languageLink>。如果没有，您可以<languageRequestLink>请求添加该语言</languageRequestLink>。
 about-playbook-how-add-language-translating-heading = 翻译网站
 about-playbook-how-add-language-translating-content-1 = <translateVideoLink>观看 Pontoon 使用指南。</translateVideoLink>
+about-playbook-how-add-language-translating-content-2 =
+    我们使用名为 <pontoonLink>Pontoon</pontoonLink> 的 Mozilla 工具进行翻译。Pontoon 上有多种语言，
+    但如果没有您的语言，您可以<pontoonRequestLink>申请添加您的语言</pontoonRequestLink>。
+    然后，为了在 Common Voice 项目中使用该语言，
+    您需要<githubRepoLink>在 GitHub 上请求添加新语言</githubRepoLink>。 <localizationFragment>详细了解关于网站翻译的信息</localizationFragment>。
 about-playbook-how-add-language-collecting-sentences-heading = 收集句子
+about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>观看语句收集工具使用指南</sentenceCollectorVideo>。
+about-playbook-how-add-language-collecting-sentences-content-2 =
+    您可以<sentenceCollectorLinkAdd>添加少量句子</sentenceCollectorLinkAdd>，
+    或者使用 Github <bulkImportDocsLink>批量导入</bulkImportDocsLink>。
+    请记住，这些句子必须采用 <licenseLink>CC0 授权协议（或公有领域）</licenseLink>，或者您也可以自行撰写句子。
+about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>查看更多关于搜集语句的信息</sentenceCollectorFragment>。
 
 ## How does localization work
 
 about-playbook-how-localize = 如何进行网站本地化？
 about-playbook-how-localize-content-1 = Common Voice 网站的翻译工作在 <strong>Pontoon</strong> 上进行。
+about-playbook-how-localize-content-2 = 如果您还没有账户，请先<pontoonAccountLink>创建一个</pontoonAccountLink>。然后选择您的语言<strong>（即“团队”）</strong>，并选择 <pontoonCvLink>Common Voice 项目</pontoonCvLink>，里面列出了需要翻译的文件。选择其中一项，你就可以看到英文原文及译文编辑框。
+about-playbook-how-localize-content-3 = 译文翻译自英文，不过您也可以看到其他语言的<strong>提议</strong>。点击 <strong>Profile（个人资料）</strong>图标，然后点击 <strong>Settings（设置）</strong>链接并添加您使用的任何语言。右下角有一个名为 <strong>Locales（多语言）</strong>的译文列表。译文会于一天后应用到网站上。
 about-playbook-how-localize-content-4 = 网站本地化完成度达 75% 后即可上线。
 about-playbook-how-localize-content-5 = 观看我们的帮助视频
 
 ## How to add sentences
 
 about-playbook-how-add-sentences = 如何添加语句？
+about-playbook-how-add-sentences-content-1 = <strong>语句收集工具</strong>是一个收集和审核公共领域语句的工具。您首先<scAccountLink>需要创建一个账户</scAccountLink>。然后，将您的语言添加到您的<strong>个人资料</strong>中。您可以<strong>添加</strong>句子并<strong>查看</strong>以前添加的句子。
+about-playbook-how-add-sentences-content-2 = 句子必须经过两个人的审核和接受才能出现在 Common Voice 中。您可以在<languageGuidelinesLink>此处</languageGuidelinesLink>为您的语言创建指南。句子必须属于<licenseLink>公有领域</licenseLink> 且少于 15 字。您可以请求文本的所有者<waiverLink>通过我们的放弃所有权流程将其转为采用 CC0 授权协议</waiverLink>，然后通过 commonvoice@mozilla.com 发送给我们
 about-playbook-how-add-sentences-content-3 = 您可以使用 <scraperLink>Sentence extractor</scraperLink> 从维基百科收集短句。
 about-playbook-how-add-sentences-content-4 = 通过的句子在周三导出，并在下一次数据集发布后可用。
 
@@ -571,16 +616,27 @@ about-playbook-how-record-content-5 = <accuracyLink>了解准确性的判断标�
 ## How to grow language
 
 about-playbook-how-grow-language = 如何有效推进 Common Voice 上的语言项目？
+about-playbook-how-grow-language-content-1 = 创造机会来让不同人群为 Common Voice 做出贡献，以确保数据集能够服务尽可能多的人。我们已经创建了供您使用的资源和模板！
 about-playbook-how-grow-language-content-2 = 活动
+about-playbook-how-grow-language-content-3 = 您可以举办活动来帮助人们做出贡献，这没有您想象中那么困难。您可以使用视频会议工具在线进行，如果安全的话也可以当面进行。 <eventTemplate>查看我们用于举办活动的模板和资源</eventTemplate>。
 about-playbook-how-grow-language-content-4 = 社交媒体
+about-playbook-how-grow-language-content-5 = 您可以使用社交平台来发布帖子，分享解释其重要性，并与其他人联系以讨论语言权利、语音 AI 和技术偏见等问题。查看有关<campaignLink>开展社会活动的更多建议，其中包括您可以参考使用的内容</campaignLink>。
 about-playbook-how-grow-language-content-6 = 合作伙伴网络
+about-playbook-how-grow-language-content-7 = 寻找其他同您一样关心此项目的人。这其中可能有大学、语言学校、社会活动团体或数据科学社区。联系他们，并清楚地解释他们为何以及如何提供帮助。<outreachTemplates>参见我们的外联电子邮件模板</outreachTemplates>。
+about-playbook-how-grow-language-content-8 = <strong>发挥创意！</strong>您的语言社区将是独一无二的，并且这些只是几种入门的方法。
 
 ## How to validate
 
+about-playbook-how-validate = 批准语音片段的标准是什么？
+about-playbook-how-validate-content-1 = 如果您能<strong>听到他们的声音</strong>，同时也能<strong>听懂他们所念出的句子</strong>，通常来说<strong>这段语音可以被批准</strong>。
+about-playbook-how-validate-content-2 = <strong>不要因为说话人“有和我不一样的口音”而拒绝这个语音片段</strong> - 若要让语音识别能为各种各样的人服务，接受不同的口音是很重要的。
+about-playbook-how-validate-content-3 = 如果您认为<strong>语音片段中的发音无法听懂</strong>，或者是<strong>有很大的背景噪音</strong>，亦或<strong>有其他人也在说话</strong>，那么您应该拒绝这个语音片段。 <accuracyLink>在我们的准确性判断标准中详细了解</accuracyLink>。
+about-playbook-how-validate-content-4 = 如果有两人拒绝了这个语音片段，它将被发布到数据集的另一个子集中。
 
 ## How to access dataset
 
 about-playbook-how-access-dataset = 如何访问和使用数据集？
+about-playbook-how-access-dataset-content-1 = 您可以前往 <datasetsPage>数据集页面</datasetsPage>选择您想要的版本和语言，然后就可以直接下载了！这些文件包含<metadataLink>相关的元数据</metadataLink>，例如人口统计信息和验证数据等。只需提供一个电子邮箱地址就能下载数据集。
 about-playbook-how-access-dataset-content-2 = 若您正在寻找构建 ASR 模型的工具，欢迎到 <discourseLink>Discourse</discourseLink> 联系社区成员。
 
 ## How are decisions made
@@ -590,6 +646,7 @@ about-playbook-how-project-governance-content-1 = Mozilla Common Voice 是由来
 about-playbook-how-project-governance-content-2 = 我们的治理建立在以下的基础上：
 about-playbook-how-project-governance-content-3 = 隐私、安全和透明度。
 about-playbook-how-project-governance-content-4 = 社区参与决策。
+about-playbook-how-project-governance-content-5 = 价值观和表彰。
 about-playbook-how-project-governance-content-6 = 相互问责。
 about-playbook-how-project-governance-content-7 = <governanceLink>详细了解我们如何管理此项目</governanceLink>
 
@@ -659,6 +716,9 @@ datasets-positioning =
     
     您可在此页面找到其他的开源语音数据集。随着 Common Voice 不断成长，我们也会在此处发布更新信息。
 language = 语言
+download-dataset-header = 下载数据集
+download-delta-explainer = 我们做出了一些改变。差异片段仅包含自上次发布以来的最新片段。 <deltaLink>了解更多关于这项工作的信息</deltaLink>。
+download-dataset-tag = 选择所需的语言数据集并选择您要下载的版本。
 # File size in gigabytes
 size = 大小
 validated-hr-total = 总验证小时数
@@ -738,6 +798,13 @@ other-language = 其他语言
 ## Request Language Pages
 
 request-language-heading = 请求添加新语言
+request-language-explanation-1 =
+    请先检查您的语言是否已经在<languagesPageLink>Common Voice 语言页面</languagesPageLink>中。如果在该页面上没能找到您的语言，请填写这个表格，我们会<strong>向您发送一份简短的电子邮件，
+    介绍如何发起新的语言项目</strong>。
+request-language-explanation-2 =
+    与此同时，我们也会<strong>让我们的社区经理
+    知道您对该项目感兴趣</strong>，这样他们就可以
+    向您提供可能需要的额外支持和信息。
 request-language-form-email =
     .label = 您的电子邮件地址
 request-language-form-info =
@@ -750,6 +817,12 @@ request-language-google-recaptcha-required = 若要继续，需完成 reCAPTCHA 
 request-language-google-recaptcha-error = reCAPTCHA 人机验证异常，请重试。
 # Success page
 request-language-success-heading = 感谢！您已成功发起新语言请求
+request-language-success-list-1 =
+    您很快就会收到一封电子邮件
+    邮件中会简要说明将您的语言添加到 Common Voice 的步骤。
+request-language-success-list-2 =
+    我们的社区经理将与您联系以提供更多支持
+    以及告知您是否已有一个社区已在处理该语言
 request-language-success-list-3 = 若您在几天内未收到我们的消息，请直接发邮件至 <emailLink>{ $email }</emailLink> 联系我们，我们会尽快回复。
 request-language-error = 我们可能还未收到该请求。请直接发邮件至 <emailLink>{ $email }</emailLink> 联系我们，我们会尽快回复。
 
@@ -790,7 +863,7 @@ contribute-more = 准备好再来 { $count } 条了吗？
 record-cta = 开始录音
 record-platform-not-supported = 很抱歉，尚不支持您的平台。
 record-platform-not-supported-desktop = 您可以在桌面电脑上下载最新内容：
-record-platform-not-supported-ios-non-safari = iOS 用户，请使用 Safari 以继续录制…
+record-platform-not-supported-ios-non-safari = iOS 用户，请使用 Safari 浏览器以继续录制…
 record-must-allow-microphone = 您必须允许访问麦克风。
 record-no-mic-found = 未找到麦克风
 record-error-too-short = 这份录音太短了。
@@ -1101,8 +1174,8 @@ contribution-reader-effects-title = 朗读者因素
 contribution-reader-effects-description = 大多数录音都是人们用自然的声音说话。但您可以偶尔接受非标准录音，即大喊大叫、低声说话或明显用“抑扬顿挫”的声音说话。请驳回唱出来的录音和那些使用计算机合成的声音。
 contribution-just-unsure-title = 仍有不解之处？
 contribution-just-unsure-description = 如果遇到了这些准则没有涵盖的内容，请根据您的最佳判断来投票。如果真的无法决定，请使用跳过按钮，继续下一个录音。
-see-more = <chevron></chevron>看更多
-see-less = <chevron></chevron>看更少
+see-more = <chevron></chevron>查看更多
+see-less = <chevron></chevron>折叠
 
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
@@ -1418,3 +1491,37 @@ sc-validation-no-abbreviations = 句子不应包含缩写
 
 localization-select =
     .label = 选择语言 / 本地化
+# PARTNERSHIPS PAGE
+partnerships-header = 合作伙伴
+partnerships-header-text = 建设 Common Voice 需要付出很多努力！我们无法单靠一人完成这个项目。想加入我们吗？我们很乐意听取您的意见。
+partnerships-get-in-touch = 联系我们
+partnerships-become-a-partner = 加入 Common Voice
+partnerships-community-header = 社区、创作者和民间社会组织
+partnerships-community-description = 社区是 Common Voice 活力的源泉，社区成员来自世界各地，可能是语言活动家，可能是科学家，也可能是艺术家。您可以在我们的<about>关于</about>页面和<community>社区手册</community>中详细了解参与的方式。如果您对更深层的组织合作感兴趣，请<emailFragment>联系我们。</emailFragment>
+partnerships-foundations-header = 基金会
+partnerships-foundations-description = 我们与基金会、民间社会和社区共同努力，确保互联网健康发展，对东非尤其关注。详细了解我们的<programmaticWork>程序化工作。</programmaticWork>
+partnerships-governments-header = 政府
+partnerships-governments-description = 我们非常愿意为公共部门的技术、创新和语言权利提供支持。如果您计划开展重大项目或活动，欢迎<emailFragment>联系我们。</emailFragment>
+partnerships-academia-header = 高等院校、学者与研究人员
+partnerships-academia-description = 我们追求开放创新。如有意合作开展研究、收集数据或访谈，请<emailFragment>联系我们。</emailFragment>
+partnerships-small-business-header = 中小企业（包含科技或人工智能初创企业）
+partnerships-small-business-description = 我们一直希望了解数据使用者的具体需要和使用场景，请在数据收集平台上分享您对数据健康的见地，我们很乐意<emailFragment>听取您的意见。</emailFragment>
+partnerships-corporates-header = 大型企业与平台型企业
+partnerships-corporates-description = 如果您想了解数据库、投资本平台或寻求合作机会，<emailFragment>请联系我们。</emailFragment>
+partnerships-our-partners = 我们的合作伙伴
+# FIRST POST SUBMISSION CTA
+first-cta-header-text = 感谢您贡献语音片段！
+first-cta-subtitle-text = 您愿意分享您的语音片段吗？
+why-donate = 为什么这么问？
+why-donate-explanation-1 = 您可以自由选择是否提供此信息，且只应在您觉得合适的情况下提供。发布数据集时，我们会对所有个人信息进行匿名处理，并确保您的姓名和电子邮件等信息与年龄和性别等人口统计信息无关。
+why-donate-explanation-2 = 为了使技术人人适用，开发人员构建技术所用的数据需要反映出各类人群的语音特点。举例来说，如果我们不采集任何具有特定口音的朗读者的语音片段，那么该技术就无法很好地适用于具有该口音的人。 <learnMore>详细了解为什么元数据至关重要。</learnMore>
+add-information-button = 添加信息
+continue-speaking-button = 不用了，继续朗读
+create-profile-text = 想保存您的信息吗？<createProfile>创建用户资料</createProfile>
+thanks-for-voice-toast = 感谢您的提供的语音信息
+thanks-for-voice-toast-error = 提交您的语音信息时发生错误
+# SECOND POST SUBMISSION CTA
+second-cta-header-text = 感谢您贡献语音！
+second-cta-subtitle-text = 创建用户文件后，您就可以记录自己的活动并与语音数据贡献者社区联系。
+already-have-an-account = 已有账户？<login>登录</login>
+create-profile-button = 创建用户资料

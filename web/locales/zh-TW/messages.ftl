@@ -18,6 +18,8 @@ banner-error-slow-1 = 感謝您使用 Common Voice，很抱歉目前運作有點
 banner-error-slow-2 = 我們收到大量連線流量，目前正在調查處理相關問題。
 banner-error-slow-link = 狀態頁面
 error-something-went-wrong = 抱歉，有些東西不對勁
+error-clip-upload = 這個片段持續上傳失敗，要繼續重試嗎？
+error-clip-upload-server = 伺服器端處理這個片段時持續遇到失敗，請重新載入頁面，或稍後再試。
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -1512,3 +1514,5 @@ second-cta-header-text = 感謝您捐出錄音片段！
 second-cta-subtitle-text = 註冊帳號後，您可以追蹤您的貢獻紀錄，並連繫社群中的其他語音資料貢獻者。
 already-have-an-account = 已經有帳號了嗎？<login>請登入</login>
 create-profile-button = 註冊帳號
+# IMAGE TAGS
+img-alt-success-checkmark = 成功勾勾

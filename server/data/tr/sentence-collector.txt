@@ -420,6 +420,9 @@ Abla!
 Abla?
 Ablanız gençtir…
 Ablanız olabilirim!
+Abone isim soy isim rica edebilir miyim?
+Abone olacağım
+Aboneye ait telefon numarası rica edebilir miyim?
 Aca dokuz yorgan örtmüşler, yine uyuyamamış.
 Acaba Beria bunların farkında mıydı?
 Acaba Edremit'e dönsem de bizim koca sakallı İsmail Baba'yı beklesem mi?
@@ -674,11 +677,16 @@ Adil mi?
 Adin ne?
 Adları neydi?
 Adrenalin.
+Adres değişikliği yapıyorum taşıma işlemi yapabiliyor musunuz yoksa abonelik iptali mi yapmam gerekiyor
 Adres nedir?
 Adres var mı?
 Adresi ne?
+Adresi versem sorgulayabilir misiniz
 Adresin ne?
 Adresini ver.
+Adreste altyapı yok gözüküyor
+Adreste sorun yaşıyorum alt yapı icin
+Adresteki benzer ilçeler aşağıda:
 Adı buydu.
 Adı da…
 Adı ne demiştin?
@@ -1365,6 +1373,9 @@ Alo, alo?
 Alo, kimsiniz?
 Alo.
 Alo...
+Alt yapınıza tanımlama yapılması halinde bağlantı sağlanabilir
+Alt Yapı Sorgulamak İstiyorum
+Alt Yapım Yok
 Alt değirmen güçlü akar.
 Alt dudaklarını kanatacak kadar ısırıyordu.
 Alt dudağı bana doğru uzanıyor, ağzı.
@@ -1372,7 +1383,11 @@ Alt dudağı hafif hafif ürperiyordu.
 Alt dudağının sol tarafını dişlerinin arasına alarak başıyla kısa bir hareket yaptı.
 Alt kat sofasında yatan Fatma karanlıkta başını kaldırarak:
 Alt katta.
+Alt katımda yaşayan insanların yaptığı başvuru neden benim sürecimi etkiliyor onu anlayamadım
+Alt komşumda var
+Alt sorgulama
 Alt tarafını okuyamadım.
+Alt yapı için talep oluşturursunuz acil
 Altmış altı.
 Altmış beş.
 Altmış bir.
@@ -2081,6 +2096,7 @@ Anlayacak bir şey yok.
 Anlayacaklardır.
 Anlayacaksın.
 Anlayacağını biliyordum.
+Anlayamadım efendim
 Anlayamadım.
 Anlayamadım?
 Anlayamadın mı?
@@ -2239,6 +2255,7 @@ Annesiyle beraber Prag'dan döndükleri zaman yeni bir eve çıktıklarını yaz
 Annesiyle beraber orada kalacaktı…
 Annesiyle bir göz işaretinden sonra genç erkeğin kolundan çekti ve: "Hadi cicim, gidelim!" dedi.
 Annesi…
+Antalya için
 Antibiyotik.
 Antika.
 Anzavur delikanlıyı yola getirmenin imkân dahiliğinde olmadığını anlamıştı.
@@ -2473,6 +2490,7 @@ Arayan belasını da devasını da bulur.
 Arayan bulur, inleyen ölür.
 Arayan kim?
 Arayan var mı?
+Arayarak alt yapı talebi oluşturmanız gerekmektedir.
 Arayıp, bulup görmek lazım.
 Araştır.
 Araştıracağım.
@@ -2811,6 +2829,7 @@ Arılar.
 Arıyor.
 Arıyorlar, fakat sen ne dersin?
 Arıyoruz.
+Arıza talebi oluştuduk fakat gelen giden olmadı kaç gündür bekliyoruz yardım ve desteklerinize..
 Arızanın durumuna göre bu süre değişebilmektedir.
 Arşın malı kantar ile satılmaz.
 As.
@@ -4158,6 +4177,8 @@ Bakınız şunlara…
 Bakınız…
 Bakıyor musun?
 Bakıyor, bakıyor ve gözlerini başka tarafa çeviremiyordu.
+Bakıyorum
+Bakıyorum çekim gözükmüyor
 Bakıyorum.
 Bakışları biraz karanlık fakat tabiiydi.
 Bakışları dumanlı ve manasızdı.
@@ -4687,6 +4708,7 @@ Bağladığım yerde huysuzlanmaya başlayan atı çözdüm, eski Çerkez eyerin
 Bağlandık.
 Bağlantı kesildi.
 Bağlantı kuruldu.
+Bağlantımız kalmadı
 Bağlanıyor.
 Bağlayın!
 Bağlı aslana tavşan bile hücum eder.
@@ -4780,6 +4802,7 @@ Başka bir fikrim var.
 Başka bir insanın zayıf olduğu yerde kendimizin kuvvetli kaldığımızı bilmek gurur verici bir şey…
 Başka bir kırlangıç olsaydı hemen:
 Başka bir nokta da, özellikle iki bin yirmi pandemisinin bize gösterdiği sonuçlardan birisi.
+Başka bir servis sağlayıcıdan geçiş yapmayı düşünüyorum
 Başka bir seçeneğim yok.
 Başka bir yere gidelim.
 Başka bir yere taşındıysanız, haber verin de polise bildirelim.
@@ -4967,6 +4990,8 @@ Baştan başlıyoruz.
 Baştan.
 Başucunda iki üç sinek dolaşıyor, vınlıyordu.
 Başvekilin kendisi…
+Başvuru formunu dolduruyorum
+Başvurumu aldınız mı?
 Başçavuş!
 Başüstüne.
 Başı ancak göğsümün hizasına gelebilen bir kadındı.
@@ -5207,6 +5232,7 @@ Bedri’nin şimdi gelivermesi arzusuna vardığını fark edince telaş etti.
 Bedri’ye hatta biraz kızgın gibiydi.
 Bedri’ye ne ihtiyacı olacaktı?
 Bedri’yi yolda karşılamak istiyordu.
+Begüm hanım net ile ilgili bilgi almak istiyorum.
 Bekar gözü, kör gözü.
 Bekarlık maskaralık.
 Bekarlık sultanlık.
@@ -5270,6 +5296,7 @@ Bekleyebilir misin?
 Bekleyebilir.
 Bekleyebilirim.
 Bekleyecek misin?
+Bekleyecek miyim daha
 Bekleyeceğim.
 Bekleyeceğiz.
 Bekleyemedim.
@@ -5286,7 +5313,9 @@ Bekleyin.
 Bekleyip göreceğiz.
 Bekliyor olacağım.
 Bekliyordum.
+Bekliyorum
 Bekliyorum.
+Bekliyoruz efendim
 Bekliyoruz.
 Bekâr gözü ile kız alınmaz.
 Bekâra karı boşamak kolay gelir.
@@ -8949,6 +8978,7 @@ Biraz zor.
 Biraz çay iç.
 Biraz çirkin, fakat cana yakın bir karısı vardı.
 Biraz önce buradaydı.
+Biraz önce yeni abonelik için sormuştum
 Biraz öne doğru eğilerek özür diledim.
 Biraz üzüleceksin herhalde…
 Biraz şarap ister misin?
@@ -9213,6 +9243,7 @@ Birkaç saniye evvel kesilmiş bir konuşmaya devam eder gibi: "Bu işe kabaday�
 Birkaç sesi güzel ve çok şarkı bilen kadın buldurmak istiyoruz.
 Birkaç silah sesi duyuldu.
 Birkaç sorum olacak.
+Birkaç sorum olacaktı
 Birkaç sorum var.
 Birkaç takunyalı kız, ellerinde su tenekeleri ile geçerlerken durup ona baktılar.
 Birkaç tanesi ilerleyecek oldu, jandarmalar bırakmadı, ben de sesimi çıkarmadım ama neşemin yarısı kaçtı.
@@ -9607,6 +9638,7 @@ Bizimle.
 Bizimlesin.
 Bizim…
 Bizi…
+Bizler Türk Telekom alt yapısıyla hizmet sağlamaktayız
 Bizler: Batı rüzgarı kadar serbest dolaşan ve kendimizden başka Allah tanımayan biz Çingene'ler.
 Bizler…
 Biçimli kes, ızdırap verdirtme…
@@ -9793,6 +9825,7 @@ Bu adamın kendisini eskisinden daha az, yahut daha farklı sevmediği de muhakk
 Bu adamın nesi var?
 Bu adamın sorunu ne?
 Bu adil değil.
+Bu adres üzerinde alt yapı yok
 Bu adreste alt yapı görünmüyor daha önce internet kullanımı sağlamış mıydınız?
 Bu affedilemez.
 Bu akıllıca.

@@ -2105,6 +2105,7 @@ Adicione ocasionalmente um balde de água fria, se necessário.
 Adicione uma coluna e insira o valor aqui.
 Adicione uma conta de loja na parte de trás.
 Adicione uma pitada de açúcar e outra de sal.
+Adicionem palavras inusuais para enriquecer o projeto
 Adivinha o resultado das primeiras pontuações.
 Adivinha o resultado no primeiro experimento.
 Adição e subtração são ensinadas na escola primária.
@@ -5835,6 +5836,7 @@ Cada uma das seções de seus sete movimentos conclui com um coral homofônico.
 Cada vez eles serão mais baratos, pois temos mais laptops em produção.
 Cada vez mais filhos cortam laços com os pais por sua saúde mental
 Cada vez que penso esta frase com toda a atenção dos meus nervos
+Cada voluntário dedica tempo, não atrapalhe o progresso por delírios de grandeza
 Cadastro de Pessoa Física
 Cadastro de Pessoas Físicas
 Cadeira alta em abril: bom verão está chegando.
@@ -10781,6 +10783,7 @@ Ele reiniciou seus esforços pela vigésima vez.
 Ele resolveu a equação muito mais rápido do que se pensava anteriormente.
 Ele respirou profundamente
 Ele respondeu que não, que esperasse.
+Ele restaura minha alma.
 Ele riu desconfortavelmente nisso.
 Ele riu.
 Ele sabe
@@ -11110,6 +11113,7 @@ Eles lá ficariam nas fazendas.
 Eles mal podiam ver o menino.
 Eles mantêm suas coisas em ordem.
 Eles me deram uma casa em um hotel comigo.
+Eles me dão força.
 Eles me ligaram do seu prédio e empréstimo.
 Eles montaram seus cavalos.
 Eles montaram seus cavalos? e cavalgaram na direção das Pirâmides do Egito.
@@ -13002,6 +13006,7 @@ Eu amo isso
 Eu amo shooters? Call of Duty é o meu favorito.
 Eu amo você
 Eu andei por mais de duas horas depois de ouvir o guia de áudio.
+Eu ando pelo vale mais escuro.
 Eu aninho.
 Eu apenas sei que a Tradição está sempre certa.
 Eu apenas sentiria falta!
@@ -14220,6 +14225,7 @@ Eu tenho te carregado por três dias.
 Eu tenho tentado descobrir isso.
 Eu tenho tentado levá-la a vir.
 Eu tenho tudo pronto.
+Eu tenho um carro.
 Eu tenho um encontro de almoço.
 Eu tenho um flash para você!
 Eu tenho um gato.
@@ -16708,6 +16714,7 @@ Isto é para você.
 Isto é possivelmente pensado por muitos conselhos municipais.
 Isto é provavelmente porque os edifícios foram feitos de pedra.
 Isto é ser um bom redator.
+Isto é uma bíblia.
 Isto é uma história.
 Isto é verdade especialmente para os homens que vivem em países livres.
 Isto é óbvio.
@@ -20277,6 +20284,7 @@ Não apresenta prova de taxas de exame.
 Não aqui, ainda muito forte
 Não assino o Netflix
 Não atendê-la é negar seus valores intrínsecos
+Não atrapalha os outros voluntários do projeto, se você rejeita será rejeitado
 Não atravesse as linhas amarelas.
 Não atravesse suas pontes até chegar a elas.
 Não até a lua estar alta, o alquimista apareceu.
@@ -21822,6 +21830,7 @@ O comerciante foi irresistível quando ele começou a falar sobre seu vizinho.
 O comerciante olhou ansiosamente para o menino.
 O cometa passou raspando
 O comitê de revisão deve assinar um acordo de confidencialidade
+O common voice é um trabalho coletivo, não individualista
 O comprador sabe ou pode razoavelmente saber a incorreção.
 O computador estava enlouquecendo, exibia um absurdo truncado e depois desligava.
 O computador foi um estímulo para você aprender a ler e escrever.
@@ -23431,6 +23440,7 @@ O senador de Idaho foi contra isso.
 O senhor tem um grande susto...
 O sentimento de instabilidade é perpetuado no meio da ordem.
 O sentimento de mágoa é subjetivo
+O servidor discord da Soberana é o maior do Brasil
 O servidor está anormal.
 O serviço de hospedagem e backup custará seiscentos euros por ano.
 O serviço de saúde é outro problema importante.
@@ -24249,6 +24259,7 @@ Os conceitos a serem aumentados serão o salário base e mais acordo.
 Os condenados da Terra
 Os contratos foram superfaturados
 Os contratos subscritos não se tornarão indefinidos.
+Os contribuidores estão de parabéns pela dedicação ao projeto common voice
 Os cortes começam a tocar a pêra da verdade.
 Os critérios estabelecidos nas três letras anteriores representarão um total de cinco por cento.
 Os cursos serão ministrados por horas, distribuídos pelos dias que o curso escolhido durar.
@@ -26498,6 +26509,7 @@ Precisamos de mais dados.
 Precisamos de mais privacidade online.
 Precisamos de mais sabão.
 Precisamos de muita coragem para chegar ao fim.
+Precisamos de um banheiro.
 Precisamos de um grão para manter as plantas saudáveis.
 Precisamos decidir quando e depois nos encontrar algum dia.
 Precisamos descer a colina antes que o sol se ponha.
@@ -26518,6 +26530,7 @@ Preciso abastecer minha nave
 Preciso comprar cama, geladeira, armários e fogão
 Preciso dar, no mínimo, cinco mil passos por dia.
 Preciso de ajuda no final da tarde, a partir de março.
+Preciso de um livro.
 Preciso encontrar uma maneira de ganhar dinheiro primeiro.
 Preciso falar com meu advogado.
 Preciso falar com você acerca de um problema pessoal.
@@ -26943,6 +26956,7 @@ Qual o seu Instagram?
 Qual o seu Telegram?
 Qual o seu WhatsApp?
 Qual o seu nome, mesmo?
+Qual o seu nome?
 Qual o seu status?
 Qual o significado de bucéfalo?
 Qual o significado de merecimento?
@@ -34834,6 +34848,7 @@ Você está certo
 Você está certo?
 Você está cheio?
 Você está cometendo um erro.
+Você está comigo.
 Você está decidindo tudo!
 Você está estudando espanhol ou chinês?
 Você está exigindo seus direitos.
@@ -38525,6 +38540,7 @@ neurorreceptores, recaptação nas sinapses, homeostase
 neutralizadores, neutralizador, exaustores, exaustor, extratores, extrator, solvente, metabólicas, metabólica
 newton, nêutron, constituinte, orbitais, prótons, nêutrons, isótopo, ondulatória, concêntricas, ohm
 nexo causal
+nexus, mitsubishi
 nicotina, piretrina, sabadina, rotenona
 nicotinamida, adenina, benzoíla, diéster, fenilalanina, cinâmico
 ninguém poderá ser compelido a associar-se ou a permanecer associado
@@ -38588,6 +38604,7 @@ não se podem quebrar com nomeações
 não sei o que penso nem o que sou.
 não sendo possível mensurá-lo, sobre o valor atualizado da causa
 não será concedida extradição de estrangeiro por crime político ou de opinião;
+não temerei mal algum.
 não teriam senão que florescer com maior rapidez e amplitude
 não vê de forma aguda as contradições existentes na sociedade americana
 não-analíticas, aporte, acelerações, gradientes, algébricas, idealização, convecção
@@ -39383,6 +39400,7 @@ rotação de culturas, sintéticos, reprodução seletiva, nitrato de amônio, r
 rotação do dinheiro
 rotocultor, secador rotativo, tratometro, trator, triturador de galhos
 rotulagem, protocolo de cartagena, genoma, glifosato
+rubredoxina, ferredoxina, citocromos, azurina, iões, sideróforos, hemo, mioglobina, hemocianina, hemeritrina
 rubricará
 rubídio, estrôncio, ítrio, zircônio, nióbio, molibdênio, tecnécio, rutênio, ródio, paládio, cádmio, índio
 rugosidade, evaporação, camada compactada, equinos, bovinos, humidade, micro-fauna, decomposição

@@ -18,6 +18,7 @@ banner-error-slow-1 = Désolé, Common Voice fonctionne lentement. Merci de votr
 banner-error-slow-2 = Nous rencontrons une forte affluence et analysons les différents problèmes.
 banner-error-slow-link = Page d’état
 error-something-went-wrong = Désolé, une erreur s’est produite
+error-clip-upload = L’envoi de ce clip échoue sans cesse. Voulez-vous réessayer ?
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]

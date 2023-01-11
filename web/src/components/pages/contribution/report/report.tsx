@@ -1,4 +1,4 @@
-import { Localized } from '@fluent/react';
+import { Localized, withLocalization, WithLocalizationProps } from '@fluent/react';
 import * as React from 'react';
 import { useState } from 'react';
 import { useAPI } from '../../../../hooks/store-hooks';
@@ -8,7 +8,7 @@ import { Button, Checkbox } from '../../../ui/ui';
 
 import './report.css';
 
-export interface ReportModalProps extends ModalProps {
+export interface ReportModalProps extends ModalProps, WithLocalizationProps {
   kind: 'clip' | 'sentence';
   id: string;
   reasons: string[];
@@ -27,13 +27,14 @@ const CheckboxRow = ({ children, title, ...props }: any) => (
   </div>
 );
 
-export function ReportModal({
+export const ReportModal = withLocalization(({
   kind,
   id,
   reasons,
   onSubmitted,
   ...props
-}: ReportModalProps) {
+}: ReportModalProps) => {
+  const { getString } = props;
   const api = useAPI();
   const [selectedReasons, setSelectedReasons] = useState<{
     [key: string]: boolean;
@@ -46,7 +47,7 @@ export function ReportModal({
   if (submitStatus == 'submitted') {
     return (
       <Modal {...props} innerClassName="report-success-modal">
-        <img className="check" src={require('./success.svg')} alt="Success" />
+        <img className="check" src={require('./success.svg')} alt={getString('img-alt-success-checkmark')} />
         <Localized id="success">
           <h1 />
         </Localized>
@@ -126,7 +127,7 @@ export function ReportModal({
       </Button>
     </Modal>
   );
-}
+});
 
 export const ReportButton = (props: React.HTMLProps<HTMLButtonElement>) => (
   <Button outline rounded className="open-report-button" {...props}>

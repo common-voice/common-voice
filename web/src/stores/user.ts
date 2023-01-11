@@ -20,6 +20,7 @@ export namespace User {
 
     userClients: UserClient[];
     isFetchingAccount: boolean;
+    isSubscribedToMailingList: boolean;
     account: UserClient;
   }
 
@@ -33,6 +34,7 @@ export namespace User {
       privacyAgreed: false,
       recordTally: 0,
       validateTally: 0,
+      isSubscribedToMailingList: false,
 
       userClients: [],
       isFetchingAccount: true,

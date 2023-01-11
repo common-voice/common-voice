@@ -18,6 +18,8 @@ banner-error-slow-1 = Tyvärr, Common Voice går sakta. Tack för visat intresse
 banner-error-slow-2 = Vi har mycket trafik och utreder just nu problemet.
 banner-error-slow-link = Statussida
 error-something-went-wrong = Förlåt, något gick fel
+error-clip-upload = Uppladdningen av det här klippet misslyckas hela tiden. Vill du fortsätta försöka igen?
+error-clip-upload-server = Uppladdningen av det här klippet misslyckas hela tiden på servern. Ladda om sidan eller försök igen senare.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]

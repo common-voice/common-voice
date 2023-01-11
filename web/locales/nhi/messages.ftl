@@ -183,13 +183,19 @@ faq-do-want-native-q = amo uniyol ika masehualtlahtol huan ni tlahtuhua  ica ace
 faq-do-want-native-a = quemah, ¡tech cualtia ica tu tlahtol! siqui tu tiquitl de Common Voice sequin nichicos miqueh acentos quemen huilis para uhcon tiquitl ixmatilis tlahtol mucualtia cuali para nuchin tlalticpac. nin quichihua tlen tetlaoculiah in tlahtol  muicah importantes
 faq-why-different-speakers-q = ¿queyeh tiquiniqui miqueh tlahtuhuaneh tlatlamantl ica tlahtol?
 faq-why-my-lang-q = ¿Queye ayamo catqui notlahtol?
+faq-why-my-lang-a = Common Voice se plataforma crowdsourcing, huan nuchten tlahtulmeh umu tlalihqueh aquin ucniquisquiaya .¡techpactisquia xic tlali mu tlahtol!<languageRequestLink> xictlahtlani queni tic tlalis mu tlahtol </languageRequestLink>
 faq-how-calc-hours-q = ¿quenin quixyehyecuhua Common Voice hora?
+faq-where-src-from-2-q = ¿ de canin huits tlahcuilol?
 faq-why-not-ask-read-q = ¿queyeh amo sequin tlahtlani masehualmeh mo machtican amatlahtol o tlahtol Wikipedia campa tlamantl tlahtol?
 faq-why-account-q = ¿queye quipia de ni mu ihcuilos?
 faq-is-account-public-q = ¿ tlanahuatil de nu cuenta mu nextis?
+faq-how-privacy-q = ¿ quenin titechilhuia ichtaca masehual tlen qui temacah in tlahtol?
 faq-what-determine-identity-q = ¿tlenon quihtosniqui que amo¨ixpantis identidad¨ aquihquen tlahtuhuah campa base de tlanahuatil Common Voice?
 faq-what-is-cv = ¿tlenon Common Voice?
 faq-using-cv = ¿Queni mucui Common Voice?
+faq-description = Common Voice muniluhua ihuan Mozilla para sequin nextilis tipusmeh quenin tlahtuhuan masehualmeh
+faq-search-for-answers =
+    .label = xictemo tlananquilil a mu tlahtlanilis
 
 ## ABOUT US
 
@@ -206,12 +212,15 @@ about-new-lang-title = qui naltitlantuqueh se yancuic tlahtol
 about-new-lang-subtitle = usecnaltitlan sitio de Common Voice icanin masehualtlahtol
 about-voice-contrib-title = pelehuil tlahtol
 about-voice-contrib-subtitle = masehual huitz huan tlapalehuia ica intlahtol
+about-voice-validation-title = tlahtol silia
 about-voice-validation-subtitle = ocsiqueh masehualmeh quin siliah nicancateh clips tlahtol
 about-dataset-release-title = naltitlaneh nichicul tlanahuatilme
 about-dataset-release-subtitle = sequin nehnextia sansicah tlanahuatilme cada 3 tlapuhual
 about-subscribe-text = ¿tiniqui ihuan timu nuhnutstos ihuan Common Voice?
 about-speak = Tlahtoa
+about-speak-text = tiquitini ahcucui y tlahtol sansipa quimachtihtoc tlahcuilol tlen uquin tetlauculihqueh usuarios
 about-listen = Tlacaqui
+about-is-it-valid = ¿tlahtolahcuc cualtia?
 about-stay-in-touch = queni ihuan nimu nuhnutztos
 about-stay-in-touch-button = ximuihcuilo
 about-stay-in-touch-text-1 = <emailFragment> ximuihcuilo</emailFragmento> ichin tu tlahcuilol correo para nic matis queni huilis tictech palehuis ichin campañas, ilhuimeh huan quenin cualtia Common Voice
@@ -249,12 +258,15 @@ about-playbook-how-localize-content-5 = xiquita tuvideo campa huits quenin mits 
 ## How to add sentences
 
 about-playbook-how-add-sentences = ¿quini niquin ihcuiluhua cachi tlahtolmeh?
+about-playbook-how-add-sentences-content-3 = huilis tiquicuis <scraperLink> Sentence extractor</scraperLink> para tiquincuis tlahcuilol tzocopintzitzi de Wikipedia
 about-playbook-how-add-sentences-content-4 = tlahcuilolmeh tlen quema uquin silihqueh mu panultisqueh tunal miercoles  huan huilis mucuis satepan den ocse naltitlanil
 
 ## How to record quality
 
+about-playbook-how-record-quality = queni ni tlahtolahcucui se clip mui cuali?
 about-playbook-how-record-content-1 = xi tlahto normal. Uhcon quenti tlahtuhua nican cuali sec silia, sec niqui mu tlahtol uhcon quen yuhui, huan secniqui uhcon chicahuac huan queni nun tlahtuhuah queme nucumateh
 about-playbook-how-record-content-3 = xicmumachti tlahtol ica cuidado, amo xic pulo xic patla o xin tlalili tlahtol
+about-playbook-how-record-content-4 = xiquita quen plataforma mu yupeuh tlahtolahcucui achton ti pehuas ti tlahtos huan mumunacti cuando yutic tlameh
 about-playbook-how-record-content-5 = <accuracyLink> xiquita cachi ican tlahtulmeh cuali</accuracyLink>
 
 ## How to grow language
@@ -320,11 +332,13 @@ data-get-started = <speechBlogLink>xic pehualti ican ixmatilis tlahtol</speechBl
 data-other-title = ocsiqueh tlanahuatimeh tlahtol…
 data-other-goto = niyas campa { $name }
 data-other-download = xiquin timulti tlanahuatil
+data-bundle-button = timulti paquete de tlanahuatil tlahtol
 data-bundle-description = tlanahuatil Common Voice sansicah ihuan nuchin tlen yi achton tlanahuatil tlahtol
 dataset-date = tunal
 license = tlacahuil:<licenseLink>{ $license }</licenseLink>
 license-mixed = niliuhqui
 review-terms = quemen tiquicui Common Voice, tic silia tu<termsLink> terminos quen mucuis </termsLink> huan <privacyLink> tiachca ichtaca
+review-aborted = amohuilic umutlehculte. ¿ticniqui tiquinpulos mu tlahtolahcuc?
 review-submit-title = xiquita huan xic naltitlani
 review-submit-msg = ¡tlasohcamatictsin utimu tlahtolahcuc<lineBreak></lineBreak> axan xiquita huan xiquin titlani mu tlahtolahcuc
 review-recording = xiquita
@@ -338,8 +352,11 @@ datasets-heading = sansican tlanahuatil
 datasets-headline = secchiuhtoc se nimilis tlanahuatil de tlahtol, tlapuhtoc huan miak tlahtulmeh,aquinyihuili huilis quicuis para muc yehyeco aplicaciones tlen muc cuican tlahtol quemeh interfaz
 language = Tlahtol
 download-dataset-header = xiquintimulti sansican tlanahuatil
+# File size in gigabytes
+size = hueyicah
 number-of-voices = puhual tlahtol
 email-to-download = xiquihcuilo se email para tictimultis
+why-email = <b>¿ queyeh se email?</b> canah mu niquis timits nuhnutstusqueh cachi tlaixpan ican queni mu patlas base de datos; se email ica se huilis se mu nuhnutstos
 confirm-size = yicuali ticah para ti pehuas ican timulistl de <b>{ $size }</b>
 confirm-no-identify = <b>timutlahtolmaca</b>que amo tic yehyecos tic temos inexican tlahtuhuaneh ichin base de tlanahuatil de Common Voice
 download-language = timulti{ $language }
@@ -352,6 +369,7 @@ resource-deepspeech-info = nihnimilis de ixmatilistlahtol ica código tlapuhtoc 
 resource-coqui-info = <coquiLink>Coqui</coquiLink> quichihua tipostlahtol tlapuhtoc. itiquiuh temaca nemilis STT huan TTS teixpantilis ica tlamachtil tlahtic
 resource-playbook-info = <playbookLink> xicahsi nimilis tlen cualtias </playbookLink> quemeh nuchi nemilis de Common Voice  campa cateh hasta campa quicueh sansicah tlanahuatil, huan quenin ti mu nilos ican tu nichicomasehual
 data-other-voxforge-description = VoxForge umuchiuh para mu nuchicusqueh tlahtulme ihcuiluhtuqueh para muquin cuicah ica nemilis de ixmatilistlahtol ica código tlapuhtoc
+data-other-tatoeba-description = Tatoeba yeh se hueyi nichicol tlanahuatil, tlahtolcuipah huan tlahtolahcuc para munextilisqueh tipusmeh. nicancah timulistl quoia nuchi ingles tlahtulahcuctoc ica y nichicomasehual
 your-feedback = ¿ticpia se nimilil para tic chihuasque cachi cuali tlanahuatil de Common Voice? xitechilhui ichin Discourse
 go-discourse = yuhui a Discourse
 missing-language = amo neci mu tlahtol ichin tlanahuatil? tla ticniqui tic tlalis xiyu ichin tu pagina de tlahtulmeh
@@ -407,6 +425,7 @@ request-language-google-recaptcha-error = tleno amo uquis cuali ica reCAPTCHA. x
 # Success page
 request-language-success-heading = ¡tlasohcamatictzin! uticnaltitlan se yancuic tlahtol
 request-language-success-list-1 = quipia nic silis se correo electronico campa nech nextia quenin nic tlalis se tlahtol Common Voice
+request-language-success-list-2 = ti tiquitcau nichicumasehual mu nuhnutzas muhuantzin para mitzon macas soporte adicional, huan para tucumatis tla yi catqui se nichicumasehual tiquitoc ica mu masehual tlantol
 request-language-success-list-3 = tla amo utic sile tlanahuatil ic ninqueh tunalmeh, ximu nuhnutsa ihuan <emailLink>{ $email }</emailLink> huan timu nuhnutsasqueh muhuantsi
 request-language-error = canah amo u sek sileh nun tlahtol. timits tlatlauhtia xitech naltitlani se correo electronico ichin <emailLink>{ $email }</emailLink> huan ti mu nuhnutsasqueh muhuan
 
@@ -461,13 +480,16 @@ record-abort-continue = xictlami tlahtolahcucui
 record-abort-delete = quisa huan sequinpulos tlahtolhacucui
 listen-instruction = { $actionType }<playIcon></playIcon>¿ uquihtuhqueh tlahtol cuali?
 listen-again-instruction = cualitiquiuh<playIcon></playIcon> xicaqui ocsipa cuando yi ti isqui cuali
+listen-empty-state = utimucauhqueh amitlen clips para tiquin silisqueh nicancah tlantol...
 listen-loading-error = amo huilic utic silihqueh dionse tlahtolahcucui para tic caquis. timits tlatlauhtiya xic yehyeco cachi tlahcahtsi
 speak-empty-state = usemucauh ica amose tlahtolihcuilol para tic tlahtolahcucuis ica nin tlahtol...
 speak-empty-state-cta = tlapalehui ica ocsiqueh tlahtolmeh
+speak-loading-error = amo usehuilik usecpix se tlahcuilol para que tuhuatzin xun tlahto. timitz tlatlauhtia, xic yehyeco cachi tlahca.
 record-button-label = tlahtol ahcucui
 share-title-new = <bold> xitechpalehui</bold> maticahsicah ocsiqueh tlahtolmeh
-login-to-get-started = pehualti sesio o ximuihcuilo para ti pehuas
+keep-track-profile = xic chihua se nimiliz ica mu progreso ica se perfil
 target-segment-first-card = titechpalehuihtoc ica tu primer tiquitl segmentado
+target-segment-first-banner = xitech palehui tic chihuasqueh primer tiquitl de Common Voice{ $locale }
 target-segment-add-voice = xictlali mu tlahtol
 target-segment-learn-more = cachi tlanahuatil
 
@@ -478,6 +500,8 @@ report-ask = catleyeh mu tiquiuh ica nin tlahtoltlahcuilol
 report-different-language = ocse tlahtol
 report-different-language-detail = catqui ihcuiliuhtoc ica se tlahtol tlamatl  quement tlen neh ni tlahtuhua
 report-difficult-pronounce = yeh uhueh de niquihtos
+report-difficult-pronounce-detail = nuyuhqui yuhui tlahtol o tlahcuilol uhueh para tic machtis o ti quihtos
+report-offensive-speech-detail = tlahtolahcuc cuica se tlanunutz camanal o irrespetuoso
 report-other-comment =
     .placeholder = tlahtos
 success = cuali
@@ -494,6 +518,12 @@ days =
 ## Dashboard
 
 your-languages = mu tlahtulmeh
+toward-next-goal = campa ocse tiquitl
+goal-reached = tiquitl mahsitoc
+clips-you-recorded = tlanonots tlen yutic tlahtolahcuc
+todays-recorded-progress = nemilis de axan tlahcuilol tlahtolahcuc para Common Voice
+todays-validated-progress = nemilis de axan tlahcuilol silihqueh para Common Voice
+awards = tetlaoculil
 you = teh
 everyone = nuchin tlalticpac
 contribution-activity = tiquitl palehuis
@@ -508,7 +538,19 @@ both-speak-and-listen-long = tiumeh (tlahtos huan tlacaqui)
 daily-goal = tiquitl nuchipa
 easy-difficulty = amo uhueh
 difficult-difficulty = uhueh
+want-to-continue = ¿ticniqui tic nihnimiltis?
+finish-editing = ¿ticniqui tic tlamis de tic patlas achton?
 lose-changes-warning = tla tic cahua axan, tiquin polos tlapatla
+help-reach-hours-pluralized =
+    { NUMBER($hours) ->
+        [one] xitech palehui ticahsisqueh { $hours }horaen{ $language } quemeh se tiquitl sesiahcah
+       *[other] xitech palehui ticahsisqueh { $hours }horasen{ $language }ica se tiquitl sesiahcah
+    }
+help-reach-hours-general-pluralized =
+    { NUMBER($hours) ->
+        [one] xicpalehui Common Voice mucahsi{ $hours }horaen se tlahtol ica se tiquitl sesiahcah
+       *[other] xicpalehui Common Voice mucahsi{ $hours }horasen se tlahtol ica se tiquitl sesiahcah
+    }
 set-a-goal = xictlali mu tiquiuh
 how-many-per-day = ¡cuali! ¿ quesqui tlahtolahcucui tunal?
 which-goal-type = ¿ ticniqui ti tlahtos, tlacaquis o yen umeh?
@@ -519,7 +561,9 @@ share-n-daily-contribution-goal = tehuanti mu tiquiuh nuchipa de { $count } tlah
 share-goal-type-speak = tlahtuhtuc
 share-goal-type-listen = tlacactoc
 share-goal-type-both = tlahtuhtuc huan tlacactoc
+weekly-goal-created = yumuchiuh mu tiquiuh chicueyitunal
 daily-goal-created = umuchiuh se tiquitl nuchipa
+track-progress = xic nihnimilti nica mu nemilis huan ichin página de estadísticas
 return-to-edit-goal = nuchipa huilis timu cuipas tic patlas mu tiquiuh
 share-goal = tehuantis nu tiquiuh
 
@@ -546,27 +590,74 @@ download-requests-info = cuando tuqun tlahtlani tlahtolahcuc, sequin nichicuhua 
 download-request-button = timulti
 download-request-description = { $clipCount } clips tlahtol, queniuhquihueyi nuchi archivo { $size }. tlamia { $expires }
 download-request-archive-multiple = xixilo ica { $archiveCount } archivos ZIP tlen quipias
+download-request-modal-description = nicancateh enlaces para tiquin timultis mu archivos ZIP
+download-request-metadata-link = Tlahcuilol tlahtol
 
 ## Landing
 
+help-contribute = huilis titech palehuis matic chihchihuacan se hueyi base de tlanahuatil ican codigo tlapuhtoc timitz chihchihuilihtosqueh se nexica de Common Voice huan se tiquitis ica mu tlahtol
+login-company = pehualtin sesion/ ximu ihcuilo ican correo de { $company }
+profile-not-required = amo mu niqui ticpixtos se nexica para ti tiquitis, mas yeh huilis tech cualtias
+read-more-about = xicahsi cachi ican tu página ican Common Voice
 
 ## DemoLayout
 
+demo-get-started = ticpehualticah
+demo-welcome-subheader = ¿ticniqui ticmu nextilis cachi huan titech palehuis ican tu tiquiuh?
 
 ## Demo Datasets
 
+demo-language-select-card-header = Common Voice se nichicul tlahtol ican miquen tlahtulmeh tlen nuchten quicueh chi hueyi den tlalticpac
+demo-language-select-card-body = tlasohcamatictzin ica mu tiquiuh cachi de 259,000 masehualmeh ican cachi de 50 tlahtulmeh, nicancateh tlanahuatilmeh mucueh para quin yehyecuhuan aplicaciones para tlahtol, ica sec nanquilis cachi cuali tlahtol masehual
+card-button-next = ocse
+card-button-back = tlacutlapa
+demo-language-select-label = xiquimahsi tlahtulmeh
 
 ## Demo Account
 
+demo-account-card-header = amo muniqui sec pias se cuenta para titech palehuis, masquiquema tech palehuis
+demo-account-card-body = ichin mu yecman isequihcuili tepalehuani huan usequihto tlen tlanahutil sec nextis nuchi masehualmeh. xiquicui enlaces tlen mu nextia cachi tlatzintla para ti pehuas ica se cuenta de Common Vioce itich mu tipostl
+demo-account-enter-email =
+    .label = xictlali mu correo para secnaltitlanis se enlace campa mu ihcuilos
+demo-account-sign-up = naltitlani enlace campasemuihcuilos
 
 ## Demo Contribute
 
+demo-contribute-card-header = ¿yi cuali para tic tlalis mu tlahtol o tic tlaneuhtis mu nacas?
+demo-contribute-card-body-v2 = axan tic mati cachi ica Common Voice, ¿ queye amo secyehyecus? xicpachu campa catqui se tipostlanunutz para tic pehuas tiquin machtis tlahtulme ica tlahtol chicahuac<br/><br/> tla tic niqui tiquimitas aquihquen tlapalehuia ican in tlahtol ocsiqui masehualmeh, xicpacho campa mu nextia para pehuas. titechpalehuis para tiquin silisqueh tlahtolahcuc tlen catqui cuali ihuan tlahtol ihcuiliuhtoc ichin pantalla
+demo-listen-subtitle = ¿ yiticah cuali para titechpalehuis?
 
 ## Demo Dashboard
 
 
 ## Validation criteria
 
+contribution-criteria-page-description = ¡xicumati tla tucuntemus cuando tucun caquis tlahtolahcuc huan tech palehui sequinchihuas tlahtulahcuc nuyuhqui!
+contribution-for-example = musequihto
+contribution-misreadings-title = amocuali tlamachtil
+contribution-misreadings-description-extended-list-1 = qupulihua <strong> 'A'</strong> O <strong> 'The'</strong> campa pehua tlahtolahcuc
+contribution-misreadings-description-extended-list-2 = quipuluhua se <strong>'s'</strong> campa tlamia tlahtol
+contribution-misreadings-description-extended-list-4 = puluhua campa tlamia tlahtol campa sec tiqui tlahtolahcuc simi isiuhca
+contribution-misreadings-description-extended-list-5 = xiquimanah miak yehyecul para tic machtis se tlahcuilol
+contribution-misreadings-example-2-explanation = [quipia de isqui ‘ dinosaurio ´]
+contribution-misreadings-example-3-explanation = tlahtolahcuc achton uc ticqueh campa tlami tlahtol]
+contribution-misreadings-example-4-explanation = [mu tlahtolahcuc cachi que tlen muniqui tlahcuiliuhtoc]
+contribution-misreadings-example-5-title = tiquisasqueh ticunisqueh café
+contribution-misreadings-example-6-title = tiquisasqueh ticunisqueh café
+contribution-misreadings-example-7-title = tehuan tiyasqueh ti cunitihueh se café
+contribution-varying-pronunciations-title = tlahtulmeh tlatlamantl
+contribution-varying-pronunciations-description-extended = ic ocsican, tla tucumati machtani amayic cahsitoc tlahtol huan san qui tlalilihtoc amocuali tlahtol, xucunpolo. tla amo tucun yecmati xucun ahcotzicuini
+contribution-varying-pronunciations-example-2-title = ima ucatca ahcuctuc
+contribution-varying-pronunciations-example-2-explanation = ['Raised' ican tlahtol ingles nuchipa mu ihtuhua quemeh se silaba, amo umeh]
+contribution-background-noise-description-extended = tlayen tlahtolahcuc cutuna o simi tlensamucaqui, xic pululti, amo tlayeh mu caqui cuali tlahtol
+contribution-background-noise-example-2-explanation = [sansiqui tlahtol amo huili mu caqui]
+contribution-background-voices-title = tlahtol tlahtic
+contribution-background-voices-description-extended = tlayen tlahtolahcuc cutuna o simi tlensamucaqui, xic pululti, amo tlayeh mu caqui cuali tlahtol
+contribution-background-voices-example-1-explanation = ¿tihuis?<strong>[oquinuhnuts ocse]</strong>
+contribution-just-unsure-title = ¿amo yulchicauh?
+contribution-just-unsure-description = tla ticahsi tlen amo quitzacua ninquen pautas, xicnexti ica cuali nemilil. tla milahuac amo ti huilis tic nextis, xucuncui boton de ancutsicuini huan xic ninimiti ican ocse tlahtolahcuc
+see-more = </chevron></chevron> xiquita cachi
+see-less = <chevron></chevron> xiquita amocachi
 
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
@@ -575,15 +666,36 @@ download-request-archive-multiple = xixilo ica { $archiveCount } archivos ZIP tl
 
 ## HEADER/FOOTER
 
+sc-header-home = cali
+sc-header-how-to = queni
+sc-header-add = xictlali
+sc-header-review = xiquita
+sc-header-rejected = tlahtulmeh pulultiuh
+sc-header-my = nu tlahcuiloltlahtol
+sc-header-profile = nexicah
+sc-footer-discourse = tlahtol
+sc-footer-report-bugs = nextia amocuali
+sc-footer-translate = tlahtolpatla nin pagina
+sc-footer-privacy = ichtaca
+sc-login-signup-button = xicpehualti sesion/ ximuihcuilo
+sc-logout-button = xictsacua sesion
 
 ## HOME
 
+sc-home-intro = xiquin nichico tlahtolmeh <commonVoiceLink> Common Voice</commonVoiceLink> xic macti tlapalehuaneh muc nichicucah huan muquin silicah tlahtolmeh tlen o quinchihchiuh nichicomasehual. Nuyuhqui huilis tiquincuis tipostl para tic panultis huan tic chupahuas corpus de dominio nextoc tzocotzin tlahcuya tlen uquinahsiqueh. nuchin tlahcuilolmeh quipia de isqueh de dominio nextoc. tlahcuilolmeh tlen uquin silihqueh quin panultisqueh cada chicueyi tunal ichin repositorio Common Voice huan mu nextisqueh ichin web Common Voice ichin yancuic
+sc-home-collect-title = xiquimehua tlahtulmeh
+sc-home-collect-text = xitech palehui ihcuilo o xiquin nichico tlahtulmeh de dominio nextia
+sc-home-review-title = yehyeco tlahtol
+sc-home-review-text = xitechpalehui mutiquimitacah tlahtolihcuiliuhtoc para ti quitasque tla quemah cateh cuali ican pautas
 
 ## GENERAL
 
+sc-languages-fetch-error = amo u se huilic usequinpix tlahtulmeh. tlaxixiluhuaneh amo cateh axan. timitz tlatlauhtuyah xic yehyeco cachi tlahca.
 
 ## HOW-TO
 
+sc-howto-title = queni
+sc-howto-addlang-title = ocsiqueh tlahtulmeh para se tiquitis
 
 ## MY SENTENCES
 

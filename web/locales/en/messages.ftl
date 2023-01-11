@@ -17,6 +17,8 @@ banner-error-slow-1 = Sorry, Common Voice is running slowly. Thanks for your int
 banner-error-slow-2 = We're receiving a lot of traffic and are currently investigating the issues.
 banner-error-slow-link = Status Page
 error-something-went-wrong = Sorry, something went wrong
+error-clip-upload = Upload of this clip keeps failing, keep retrying?
+error-clip-upload-server = Upload of this clip keeps failing at server. Reload the page or try again later.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -796,6 +798,9 @@ more = More
 close = Close
 download = Download
 dataset-version = Version
+sha256-checksum-copied = SHA256 Checksum Copied!
+sha256-checksum-copied-error = Failed to copy SHA256 Checksum
+clipboard-not-supported = Clipboard not supported
 
 ## Download Modal
 download-title = Your download has started.
@@ -1575,3 +1580,6 @@ second-cta-header-text = Thank you for contributing your voice!
 second-cta-subtitle-text = With a profile, you can keep track of your activity and connect with a community of voice data contributors.
 already-have-an-account = Already have an account? <login>Log-In</login>
 create-profile-button = Create a profile
+
+# IMAGE TAGS
+img-alt-success-checkmark = success checkmark

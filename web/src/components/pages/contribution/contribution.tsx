@@ -65,7 +65,7 @@ export interface ContributionPageProps
   activeIndex: number;
   hasErrors: boolean;
   errorContent?: React.ReactNode;
-  reportModalProps: Omit<ReportModalProps, 'onSubmitted'>;
+  reportModalProps: Omit<ReportModalProps, 'onSubmitted' | 'getString'>;
   instruction: (props: {
     vars: { actionType: string };
     children: any;

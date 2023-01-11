@@ -920,6 +920,7 @@ Alles ist relativ, meint Albert.
 Alles ist verstopft.
 Alles kann nichts muß.
 Alles kann, nichts muss.
+Alles kaputt.
 Alles kein Problem!
 Alles klar bei dir?
 Alles klar, dann weiß ich Bescheid!
@@ -934,6 +935,7 @@ Alles muss raus!
 Alles muss raus.
 Alles müsste komplett überarbeitet werden.
 Alles nach vorne!
+Alles nass.
 Alles nur Fassade.
 Alles nur aus Liebe, mein Schatz!
 Alles nur wegen der Zeitumstellung!
@@ -5921,6 +5923,7 @@ Das ist ja auch so eine Floskel.
 Das ist ja brutal!
 Das ist ja das Blöde an Selbstmordattentätern.
 Das ist ja das Geile daran.
+Das ist ja der Böller!
 Das ist ja der Gipfel!
 Das ist ja der Wahnsinn.
 Das ist ja eine Sause hier am Wochenende auf dem Schulhof.
@@ -7884,6 +7887,7 @@ Der Teig hatte sich um das Nudelholz gewickelt.
 Der Teilnehmer ist zurzeit nicht erreichbar, wird aber per Kurznachricht über Ihren Anruf informiert.
 Der Telefonroboter sagt doch tatsächlich, dass er mich gleich an einen Kollegen weitervermittelt.
 Der Teller hat bei fast allen Mikrowellen den gleichen Durchmesser.
+Der Temperatur ist für einen Winrer zu hoch.
 Der Termin wurde gestern bestätigt.
 Der Test besteht aus Lückentexten und Aufgaben zum Ankreuzen.
 Der Test muss dokumentiert werden.
@@ -9895,6 +9899,7 @@ Die dazu benötigten Heilkräuter wachsen nur im Himalaja.
 Die derzeitigen Temperaturen sind fast schon tropisch.
 Die deutsche Post A-G ging aus der Privatisierung der deutschen Bundespost hervor.
 Die deutsche Rechtschreibung ist für einige Korrekturprogramme eine große Herausforderung.
+Die diesjährige Erkältungswelle hat viele Menschen umgehauen.
 Die direkt Betroffenen waren nämlich von der Befragung ausgeschlossen.
 Die drei Journalistinnen mussten fliehen.
 Die drei Leuchten blinken kurz auf, während die Tastatur initialisiert wird.
@@ -10211,6 +10216,7 @@ Die sind am Hintereingang.
 Die sind ferngesteuert.
 Die sind ferngesteuert?
 Die sind hier schon krass in der Unterzahl.
+Die sind lecker.
 Die sind sogar noch schlimmer als Versicherungen.
 Die sogenannte Dritte Hand hält die beiden Kabelenden, die verlötet werden sollen.
 Die sollen sich nicht so anstellen!
@@ -12370,6 +12376,7 @@ Einen Partnerwechsel stelle ich mir unbürokratischer vor als einen Wechsel der 
 Einen Pickel kann man nicht mit Worten ausdrücken.
 Einen Polizisten möchte man nicht als Unfallgegner haben.
 Einen Rechtsstaat erkennt man nicht daran, dass er von Gerichten regiert wird.
+Einen Satz noch.
 Einen Schaukelstuhl hatte sich Beppo schon immer gewünscht.
 Einen Schuldigen hat man aber schon gefunden.
 Einen Schäferhund vielleicht?
@@ -12944,6 +12951,7 @@ Er kennt sich damit zehnmal so gut aus, wie alle anderen zusammen.
 Er klettert die Sprossenwand hinauf.
 Er knackt Codes.
 Er kommt in friedlicher Absicht.
+Er kommt später.
 Er kriegt die Tür nicht auf.
 Er kämpfte mit einer Kampflanze.
 Er könnte heute so viele Menschen verklagen und abkassieren!
@@ -13435,6 +13443,7 @@ Es gibt kein richtig oder falsch.
 Es gibt kein schlechtes Wetter, es gibt nur schlechte Kleidung.
 Es gibt keine Beweise für den Sachverhalt.
 Es gibt keine Bilder von mir.
+Es gibt keine Groschen mehr.
 Es gibt keine Patente auf Kulturgut und das soll auch so bleiben.
 Es gibt keine dummen Fragen.
 Es gibt keine medizinische Notwendigkeit, Segelohren zu korrigieren.
@@ -15660,6 +15669,7 @@ Grimms Märchen sind aber schon sehr alt.
 Grob geschätzt besteht diese Tütensuppe zu einhundert Prozent aus Geschmacksverstärkern.
 Grob überschlagen müssten wir bei etwa vierhundert Kronen landen.
 Grob überschlagen würden wir bei etwa hundertfünfzig Euronen landen.
+Groschenheftromane gab es am Kiosk.
 Groß war das Geschrei.
 Groß- und Kleinschreibung werden unterschieden.
 Große Eiszapfen stellen eine Gefahr dar.
@@ -18134,6 +18144,7 @@ Ich habe nichts Gegenteiliges gehört.
 Ich habe nichts gesagt.
 Ich habe nie behauptet ein Engel zu sein.
 Ich habe nie daran geglaubt, dass der Storch die Kinder bringt.
+Ich habe noch einen Haufen Arbeit vor mir.
 Ich habe noch nicht ein freundliches Wort von ihm gehört.
 Ich habe noch nie einen so unauthentischen Dialekt gehört.
 Ich habe noch nie gehört, dass irgendwo eine Autobahn stillgelegt wird.
@@ -33976,6 +33987,7 @@ Was nennen Sie »frühzeitig«?
 Was nennen die Menschen am liebsten dumm? Das Gescheite, das sie nicht verstehen.
 Was nicht dokumentiert ist, ist auch nicht passiert.
 Was nicht im Lehrplan steht, wird auch nicht unterrichtet.
+Was nicht passt, wird passend gemacht!
 Was nicht umbringt, härtet ab.
 Was nicht unmitterlbar zum Tod führt, kann nur abhärten.
 Was nicht war, kann noch werden.
@@ -35341,6 +35353,7 @@ Wer kann den Satz mit den meisten Modalverben bilden?
 Wer kann der kann.
 Wer kann die Kirschkerne am weitesten spucken?
 Wer kann die meisten Scheiben Brot übereinander stapeln und sie dann noch essen?
+Wer kann mir helfen, meinen E-Herd anzuschließen?
 Wer kann schon das gesamte Bach-Werke-Verzeichnis auswendig?
 Wer kann schon neunzig Minuten lang pausenlos konzentriert zuhören?
 Wer kann sich das noch leisten?
@@ -36893,6 +36906,7 @@ Wir hoffen es geht euch allen gut.
 Wir holen unsere Brötchen immer bei der Bäckerei Gehring.
 Wir hätten es auch einfacher lösen können.
 Wir hätten es so oder so emulieren müssen.
+Wir hören uns später!
 Wir hörten schon das Tatütata des Löschzugs.
 Wir iterieren also über alle Permutationen.
 Wir kamen zügig vorwärts.

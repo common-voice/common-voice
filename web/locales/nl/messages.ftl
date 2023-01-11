@@ -18,6 +18,8 @@ banner-error-slow-1 = Sorry, Common Voice werkt langzaam. Bedankt voor uw intere
 banner-error-slow-2 = We ontvangen veel verkeer en zijn momenteel de problemen aan het onderzoeken.
 banner-error-slow-link = Statuspagina
 error-something-went-wrong = Sorry, er is iets misgegaan
+error-clip-upload = Het uploaden van dit fragment mislukt steeds, blijven proberen?
+error-clip-upload-server = Het uploaden van dit fragment mislukt steeds op de server. Herlaad de pagina of probeer het later nog eens.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -1643,3 +1645,5 @@ second-cta-header-text = Bedankt voor het doneren van uw stem!
 second-cta-subtitle-text = Met een profiel kunt u uw activiteit bijhouden en verbinding maken met een gemeenschap van bijdragers aan spraakgegevens.
 already-have-an-account = Hebt u al een account? <login>Aannmelden</login>
 create-profile-button = Een profiel aanmaken
+# IMAGE TAGS
+img-alt-success-checkmark = succesvinkje

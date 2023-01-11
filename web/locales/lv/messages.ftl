@@ -9,6 +9,7 @@ email-input =
 submit-form-action = Nosūtīt
 loading = Ielāde...
 email-opt-in-info = Es vēlos saņemt e-pasta ziņojumus, piemēram, mērķa atgādinājumus, progresa atjauninājumus un informatīvos biļetenus par šo projektu.
+email-opt-in-info-title = Pievienoties Common Voice ziņojumiem e-pastā
 indicates-required = * Obligātie lauki
 not-available-abbreviation = N/A
 
@@ -29,6 +30,7 @@ as = Asāmiešu
 ast = Astūriešu
 az = Azerbaidžāņu
 ba = Baškīru
+be = Baltkrievu
 bg = Bulgāru
 bn = Bengāļu
 br = Bretoņu
@@ -59,6 +61,7 @@ ga-IE = Īru
 gl = Galisiešu
 ha = Hausu
 he = Ebreju
+hi = Hindi
 hr = Horvātu
 hsb = Sorbiju, augšējā
 hu = Ungāru
@@ -136,6 +139,7 @@ speak-now = Runā tagad
 datasets = Datu kopas
 languages = Valodas
 about = Par
+partner = Partnerība
 profile = Profils
 help = Palīdzība
 contact = Kontakti
@@ -436,12 +440,15 @@ about-nav-get-involved = Iesaistieties
 
 ## How to record quality
 
+about-playbook-how-record-content-2 = Izvairieties no pārāk liela fona trokšņa — Jūs jāvar viegli saklausīt.
 
 ## How to grow language
 
+about-playbook-how-grow-language-content-6 = Partnerības un tīkli
 
 ## How to validate
 
+about-playbook-how-validate-content-3 = Ja uzskatāt, ka izruna <strong>neļauj pilnībā saprast</strong> vai ir <strong>liels fona troksnis</strong> vai <strong>fonā runā arī citi cilvēki</strong>, tad ieraksts ir jānoraida. <accuracyLink>Skatiet plašāku informāciju mūsu precizitātes kritērijos</accuracyLink>.
 
 ## How to access dataset
 
@@ -629,7 +636,7 @@ record-last-instruction = <recordIcon> </recordIcon> Pēdējais!
 review-tooltip = Pārskatiet un atkārtoti ierakstiet klipus
 review-instruction = Ja nepieciešams, pārskatiet un atkārtoti ierakstiet klipus
 record-submit-tooltip = { $actionType } iesniedziet, kad viss gatavs
-clips-uploaded = Augšupielādētie ieraksti
+clips-uploaded = Ieraksti saglabāti
 record-abort-title = Varbūt vispirms pabeidz ierakstu?
 record-abort-text = Aizejot, jūs zaudēsiet savu progresu
 record-abort-submit = Iesniegt ierakstu
@@ -639,6 +646,7 @@ listen-instruction = { $actionType } <playIcon> </playIcon> vai viņi precīzi i
 listen-again-instruction = Lieliski paveikts darbs! <playIcon> </playIcon> Klausieties vēlreiz, kad esat gatavs
 listen-3rd-time-instruction = 2 pabeigti, tā tik turi! <playIcon> </playIcon>
 listen-last-time-instruction = <playIcon> </playIcon> Pēdējais!
+listen-empty-state = Iespējams visi ieraksti jau ir apstrādāti - pārlādējiet lapu vai mēģiniet nedaudz vēlāk.
 record-button-label = Ierakstiet savu balsi
 share-title-new = <bold> Palīdziet mums </bold> atrast vairāk balsu
 keep-track-profile = Sekojiet līdzi progresam, izmantojot profilu
@@ -795,6 +803,49 @@ read-more-about = Lasiet vairāk mūsu lapā Par mums
 
 ## Validation criteria
 
+contribution-criteria-nav = Kriteriji
+contribution-criteria-link = Kā vērtēt ierakstus
+contribution-criteria-page-title = Ieguldījuma kritēriji
+contribution-criteria-page-description = Izprotiet, kam jāpievērš uzmanība, klausoties ierakstus, un ziniet kā padarīt arī savus ierakstus labākus!
+contribution-for-example = piemēram
+contribution-misreadings-title = Kļūdaini lasījumi
+contribution-misreadings-description = Klausoties ļoti rūpīgi pārbaudiet, vai ierakstītais ir tieši tas, kas uzrakstīts; noraidiet, ja ir pat nelielas kļūdas. <br />Biežākās kļūdas ir šādas:
+contribution-misreadings-description-extended-list-1 = Izlaisti vārdi, piemēram trūkst <strong>'ja'</strong> vai <strong>'es'</strong>, piemēram 'es esmu' vietā ierunāts tikai 'esmu'.
+contribution-misreadings-description-extended-list-2 = Norautas vārdu galotnes, piemēram <strong>'s'</strong> vārda beigās.
+contribution-misreadings-description-extended-list-3 = Ierunāts vārds nepareizā locījumā.
+contribution-misreadings-description-extended-list-4 = Trūkst vārda beigu, jo ieraksts ir izslēgts pārāk ātri
+contribution-misreadings-description-extended-list-5 = Ierakstā dzirdami vairāki mēģinājumi ierakstīt vienu un to pašu frāzi
+contribution-misreadings-example-1-title = Senā laikmeta dinozauri
+contribution-misreadings-example-2-title = Senā laikmeta dinozaurs
+contribution-misreadings-example-2-explanation = [Jābūt ‘dinozauri’]
+contribution-misreadings-example-3-title = Senā laikmeta dinozaur-
+contribution-misreadings-example-3-explanation = [Ieraksts pārtraukts pirms pēdējā vārda beigām]
+contribution-misreadings-example-4-title = Senā laikmeta dinozauri. Jā.
+contribution-misreadings-example-4-explanation = [Ir ierakstīts vairāk nekā bija rakstīts]
+contribution-misreadings-example-5-title = Jā, es esmu liels kafijas mīļotājs
+contribution-misreadings-example-6-title = Jā, esmu liels kafijas mīļotājs
+contribution-misreadings-example-6-explanation = [Jābūt “es esmu”]
+contribution-misreadings-example-7-title = Ja, es esmu liels kafijas mīļotājs
+contribution-misreadings-example-7-explanation = [‘Ja‘ nav tas pats kas ‘jā‘]
+contribution-misreadings-example-8-title = Bites ir čakli kukaiņi
+contribution-misreadings-example-8-explanation = [Neatbilstošs saturs]
+contribution-varying-pronunciations-title = Dažādas izrunas
+contribution-varying-pronunciations-description = Esiet piesardzīgi, pirms noraidāt ierakstu, pamatojoties uz to, ka lasītājs ir nepareizi izrunājis vārdu, ievietojis uzsvaru nepareizā vietā vai acīmredzami ignorējis jautājuma zīmi. Izrunas pasaulē ir dažādas un dažus no tām jūs, iespējams, ikdienā nedzirdat sev apkārt. Novērtējiet to, ka dažādi cilvēki runā citādāk nekā jūs.
+contribution-varying-pronunciations-description-extended = No otras puses, ja izruna ir nepareiza vai kļūdaina, noraidiet ierakstu. Ja neesat pārliecināti, izmantojiet izlaišanas pogu.
+contribution-background-noise-title = Fona troksnis
+contribution-background-noise-description = Mēs vēlamies, lai mašīnmācīšanās algoritmi spētu apstrādāt dažādus fona trokšņus, un var tikt pieņemti pat salīdzinoši skaļi trokšņi, ja tie netraucē dzirdēt visu tekstu. Klusa fona mūzika ir ok; mūzika kas traucē skaidri sadzirdēt katru vārdu nav ok.
+contribution-background-noise-description-extended = Ja ieraksts raustās vai tajā ir sprakšķi, noraidiet, ja vien joprojām nav pilnībā dzirdams viss teksts.
+contribution-background-voices-title = Balsis fonā
+contribution-background-voices-description = Klusa murmināšana fonā ir pieņemama, taču mēs nevēlamies papildu balsis, kas varētu traucēt algoritmam pareizi noteikt vārdus, kas nav rakstītajā tekstā. Ja dzirdat vārdus, kas nav rakstīti tekstā, klips ir jānoraida. Parasti tas notiek tur, kur televizors ir atstāts ieslēgts vai kad tuvumā notiek saruna.
+contribution-background-voices-description-extended = Ja ieraksts raustās vai tajā ir sprakšķi, noraidiet, ja vien joprojām nav pilnībā dzirdams viss teksts.
+contribution-background-voices-example-1-title = Triasa laikmeta milzu dinozauri. <strong>[lasīt vienā balsī]</strong>
+contribution-background-voices-example-1-explanation = Vai tu nāc? <strong>[saka kāds cits]</strong>
+contribution-volume-title = Skaļums
+contribution-volume-description = Starp lasītājiem būs dabiskas ieraksta skaļuma atšķirības. Noraidīt tikai tad, ja skaļums ir tik liels, ka ierakstā ir krakšķi vai tas pārtrūkst, vai arī, ja tas ir tik kluss, ka nevar saklausīt dzirdēt teikto bez atsauces uz rakstīto tekstu.
+contribution-reader-effects-title = Ierunātāja izrunas īpatnības
+contribution-reader-effects-description = Lielākā daļa ierakstu ir cilvēki, kas runā savā dabiskajā balsī. Varat pieņemt nelielas atkāpes, ja piemēram kāda frāze tiek pateikta skaļāk, klusāk vai tiek pasniegta ‘dramatiskā’ balsī. Lūdzu, noraidiet dziedātos ierakstus un tos, kas ierunāti robotiskā datora balsī.
+contribution-just-unsure-title = Vienkārši neesat pārliecināti?
+contribution-just-unsure-description = Ja saskaraties ar kaut ko, kas šajās vadlīnijās nav ietverts, lūdzu, balsojiet kā jums šķiet pareizi. Kvalitāte un precizitāte ir svarīgāka par ierakstu skaitu. Ja tiešām nevarat izlemt, izmantojiet izlaišanas pogu un pārejiet uz nākamo ierakstu.
 
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
@@ -851,3 +902,6 @@ read-more-about = Lasiet vairāk mūsu lapā Par mums
 
 # [/SentenceCollector]
 
+# PARTNERSHIPS PAGE
+partnerships-header = Partnerības
+partnerships-get-in-touch = Sazināties
