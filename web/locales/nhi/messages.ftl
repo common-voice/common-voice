@@ -684,6 +684,7 @@ contribution-background-noise-example-2-explanation = [sansiqui tlahtol amo huil
 contribution-background-voices-title = tlahtol tlahtic
 contribution-background-voices-description-extended = tlayen tlahtolahcuc cutuna o simi tlensamucaqui, xic pululti, amo tlayeh mu caqui cuali tlahtol
 contribution-background-voices-example-1-explanation = ¿tihuis?<strong>[oquinuhnuts ocse]</strong>
+contribution-reader-effects-description = miqueh tlahtolahcuctoc de masehual tlahtuhtuc ica i tlahtol tlen milahuak. huilis tic silis tlahtolahcuctoc campa amo tzahtzeh amo tlahtolchicahuac huan mu temaca ica se tlahtol  ¨dramatica¨. nimits tlatlauhtia amo xic sili tlahtolahcuctoc tlen mu tzutzuna huan tlen quicueh se tlahtol quemeh tipostl
 contribution-just-unsure-title = ¿amo yulchicauh?
 contribution-just-unsure-description = tla ticahsi tlen amo quitzacua ninquen pautas, xicnexti ica cuali nemilil. tla milahuac amo ti huilis tic nextis, xucuncui boton de ancutsicuini huan xic ninimiti ican ocse tlahtolahcuc
 see-more = </chevron></chevron> xiquita cachi
