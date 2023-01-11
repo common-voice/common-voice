@@ -779,6 +779,8 @@ close = Mboty
 download = Mboguejy
 dataset-version = Peteĩchagua
 sha256-checksum-copied = SHA256 Jehechajey monguatiapyre!
+sha256-checksum-copied-error = Ojavy emonguatiávo SHA256 Checksum
+clipboard-not-supported = Kuatiajokoha ndojokupytýiva
 
 ## Download Modal
 
