@@ -564,6 +564,7 @@ help-reach-hours-general-pluralized =
        *[other] xicpalehui Common Voice mucahsi{ $hours }horasen se tlahtol ica se tiquitl sesiahcah
     }
 set-a-goal = xictlali mu tiquiuh
+cant-decide = ¿amo timu nimilia?
 how-many-per-day = ¡cuali! ¿ quesqui tlahtolahcucui tunal?
 which-goal-type = ¿ ticniqui ti tlahtos, tlacaquis o yen umeh?
 receiving-emails-info = axan qupia de tic yectlalis para tic silis correos electronicos, quemeh ilnamiquilis tiquitl, yancuic nemilis huan boletines de tlanahuatil ica Common Voice
