@@ -18,6 +18,8 @@ banner-error-slow-1 = Sorry, Common Voice rint stadich. Tank foar jo belangstell
 banner-error-slow-2 = Wy krije in soad ferkear en ûndersykje op dit stuit de problemen.
 banner-error-slow-link = Statusside
 error-something-went-wrong = Sorry, der is wat misgien
+error-clip-upload = It opladen fan dit fragmint mislearret hieltyd, probearje bliuwe?
+error-clip-upload-server = It opladen fan dit fragmint mislearret hieltyd op de server. Laad de side opnij of probearje it letter nochris.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -1652,3 +1654,5 @@ second-cta-header-text = Tank foar it donearjen fan jo stim!
 second-cta-subtitle-text = Mei in profyl kinne jo jo aktiviteit byhâlde en ferbine mei in mienskip fan bydragers oan spraakgegevens.
 already-have-an-account = Hawwe jo al in account? <login>Oanmelde</login>
 create-profile-button = In profyl oanmeitsje
+# IMAGE TAGS
+img-alt-success-checkmark = suksesfinkje
