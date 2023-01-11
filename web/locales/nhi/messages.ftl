@@ -618,6 +618,7 @@ download-request-metadata-link = Tlahcuilol tlahtol
 
 ## Landing
 
+welcome-staff = nimits silia ica cualtzin, tiquitini de { $company }
 help-contribute = huilis titech palehuis matic chihchihuacan se hueyi base de tlanahuatil ican codigo tlapuhtoc timitz chihchihuilihtosqueh se nexica de Common Voice huan se tiquitis ica mu tlahtol
 login-company = pehualtin sesion/ ximu ihcuilo ican correo de { $company }
 profile-not-required = amo mu niqui ticpixtos se nexica para ti tiquitis, mas yeh huilis tech cualtias
