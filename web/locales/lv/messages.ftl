@@ -804,7 +804,7 @@ read-more-about = Lasiet vairāk mūsu lapā Par mums
 ## Validation criteria
 
 contribution-criteria-nav = Kriteriji
-contribution-criteria-link = Kā vērtēt ierakstus
+contribution-criteria-link = Ierakstu kvalitātes kritēriji
 contribution-criteria-page-title = Ieguldījuma kritēriji
 contribution-criteria-page-description = Izprotiet, kam jāpievērš uzmanība, klausoties ierakstus, un ziniet kā padarīt arī savus ierakstus labākus!
 contribution-for-example = piemēram
@@ -838,7 +838,7 @@ contribution-background-noise-description-extended = Ja ieraksts raustās vai ta
 contribution-background-voices-title = Balsis fonā
 contribution-background-voices-description = Klusa murmināšana fonā ir pieņemama, taču mēs nevēlamies papildu balsis, kas varētu traucēt algoritmam pareizi noteikt vārdus, kas nav rakstītajā tekstā. Ja dzirdat vārdus, kas nav rakstīti tekstā, klips ir jānoraida. Parasti tas notiek tur, kur televizors ir atstāts ieslēgts vai kad tuvumā notiek saruna.
 contribution-background-voices-description-extended = Ja ieraksts raustās vai tajā ir sprakšķi, noraidiet, ja vien joprojām nav pilnībā dzirdams viss teksts.
-contribution-background-voices-example-1-title = Triasa laikmeta milzu dinozauri. <strong>[lasīt vienā balsī]</strong>
+contribution-background-voices-example-1-title = Triasa laikmeta milzu dinozauri. <strong>[lasa vienā balsa]</strong>
 contribution-background-voices-example-1-explanation = Vai tu nāc? <strong>[saka kāds cits]</strong>
 contribution-volume-title = Skaļums
 contribution-volume-description = Starp lasītājiem būs dabiskas ieraksta skaļuma atšķirības. Noraidīt tikai tad, ja skaļums ir tik liels, ka ierakstā ir krakšķi vai tas pārtrūkst, vai arī, ja tas ir tik kluss, ka nevar saklausīt dzirdēt teikto bez atsauces uz rakstīto tekstu.
@@ -846,6 +846,8 @@ contribution-reader-effects-title = Ierunātāja izrunas īpatnības
 contribution-reader-effects-description = Lielākā daļa ierakstu ir cilvēki, kas runā savā dabiskajā balsī. Varat pieņemt nelielas atkāpes, ja piemēram kāda frāze tiek pateikta skaļāk, klusāk vai tiek pasniegta ‘dramatiskā’ balsī. Lūdzu, noraidiet dziedātos ierakstus un tos, kas ierunāti robotiskā datora balsī.
 contribution-just-unsure-title = Vienkārši neesat pārliecināti?
 contribution-just-unsure-description = Ja saskaraties ar kaut ko, kas šajās vadlīnijās nav ietverts, lūdzu, balsojiet kā jums šķiet pareizi. Kvalitāte un precizitāte ir svarīgāka par ierakstu skaitu. Ja tiešām nevarat izlemt, izmantojiet izlaišanas pogu un pārejiet uz nākamo ierakstu.
+see-more = <chevron></chevron>Rādīt vairāk
+see-less = <chevron></chevron>Rādīt mazāk
 
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
