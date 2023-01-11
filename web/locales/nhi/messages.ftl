@@ -578,6 +578,8 @@ share-n-weekly-contribution-goal = tehuanti mu tiquiuh chicueyi tunal{ $count }t
 share-goal-type-speak = tlahtuhtuc
 share-goal-type-listen = tlacactoc
 share-goal-type-both = tlahtuhtuc huan tlacactoc
+# LINK will be replaced with the current URL
+goal-share-text = unicchiuh se tiquitl sesiahca para qui temacas tlahtol a#CommonVoice ximunilo huan xi tech palehui tiquin nextilisqueh tipusmeh queni se tlahtuhua ti masehualmeh{ $link }
 weekly-goal-created = yumuchiuh mu tiquiuh chicueyitunal
 daily-goal-created = umuchiuh se tiquitl nuchipa
 track-progress = xic nihnimilti nica mu nemilis huan ichin página de estadísticas
