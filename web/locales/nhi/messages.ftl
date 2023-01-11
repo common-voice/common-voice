@@ -573,6 +573,8 @@ help-share-goal = xitechpalehui maticahsicah cachi tlahtol, tehuanti mu tiquiuh
 goal-interval-weekly = chicueyitunal
 # $type is one of share-goal-type-*
 share-n-daily-contribution-goal = tehuanti mu tiquiuh nuchipa de { $count } tlahtolahcucui para{ $type }
+# $type is one of share-goal-type-*
+share-n-weekly-contribution-goal = tehuanti mu tiquiuh chicueyi tunal{ $count }tlahtolahcuc { $type }
 share-goal-type-speak = tlahtuhtuc
 share-goal-type-listen = tlacactoc
 share-goal-type-both = tlahtuhtuc huan tlacactoc
