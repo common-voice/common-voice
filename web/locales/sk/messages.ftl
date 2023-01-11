@@ -1591,3 +1591,5 @@ second-cta-header-text = Ďakujeme, že ste prispeli svojím hlasom!
 second-cta-subtitle-text = Pomocou profilu môžete sledovať svoju aktivitu a spojiť sa s komunitou prispievateľov hlasových dát.
 already-have-an-account = Máte už účet? <login>Prihlásiť sa</login>
 create-profile-button = Vytvoriť profil
+# IMAGE TAGS
+img-alt-success-checkmark = symbol začiarknutia
