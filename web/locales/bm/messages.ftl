@@ -207,21 +207,30 @@ xh = Sosakan
 yi = Yididikan
 yo = Yorubakan
 yue = Kantonesikan
+zgh = Tamazigikan
+zh-CN = Siniwakan (Siini)
+zh-HK = Siniwakan(Hongukongu)
+zh-TW = Siniwakan (Tayiwani)
+zu = Zulukan
+zza = Zazakan
 
 # [/]
 
 
 ## Layout
 
+languages = Kanw
 
 ## Home Page
 
 
 ## Account Benefits
 
+keep-track = Aw ye aw ka ɲɛtaa ni jateminɛw jateminɛ kan caman kɔnɔ.
 
 ## What's public
 
+recordings-and-locale-public = Fɔlisenw hakɛ ani i bɛ dɛmɛ don kan minnu na, o bɛna kɛ foroba ye.
 
 ## Speak & Listen Shortcuts
 
