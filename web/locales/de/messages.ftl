@@ -774,6 +774,9 @@ more = Mehr
 close = Schließen
 download = Herunterladen
 dataset-version = Version
+sha256-checksum-copied = SHA256-Prüfsumme kopiert!
+sha256-checksum-copied-error = Kopieren der SHA256-Prüfsumme fehlgeschlagen
+clipboard-not-supported = Zwischenablage wird nicht unterstützt
 
 ## Download Modal
 
