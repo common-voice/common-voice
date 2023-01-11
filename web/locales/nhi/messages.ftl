@@ -503,7 +503,10 @@ target-segment-learn-more = cachi tlanahuatil
 ## Reporting
 
 report = tlanahuatil
+report-title = xicnaltitlani se tlanahuatil
 report-ask = catleyeh mu tiquiuh ica nin tlahtoltlahcuilol
+report-offensive-language = pitsotic tlahtol
+report-offensive-language-detail = tlahtol cuica se pitsotictlahtol
 report-different-language = ocse tlahtol
 report-different-language-detail = catqui ihcuiliuhtoc ica se tlahtol tlamatl  quement tlen neh ni tlahtuhua
 report-difficult-pronounce = yeh uhueh de niquihtos
@@ -534,11 +537,13 @@ awards = tetlaoculil
 you = teh
 everyone = nuchin tlalticpac
 contribution-activity = tiquitl palehuis
+total-approved = nuchi tlen umu silihqueh
 show-ranking = mucnextica nu nemilis
 
 ## Custom Goals
 
 get-started-goals = nipehuas nu tiquiuh
+create-custom-goal = sec chihuas se tiquitl sehseh
 goal-type = ¿tlen tiquitl nicniqui nic chihuas?
 both-speak-and-listen = tiumeh
 both-speak-and-listen-long = tiumeh (tlahtos huan tlacaqui)
