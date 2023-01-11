@@ -246,6 +246,7 @@ recordings-and-locale-public = Fɔlisenw hakɛ ani i bɛ dɛmɛ don kan minnu na
 
 ## ProfileForm
 
+help-accent-explanation = I ka fɔcogo ye i bɛ daɲɛw fɔcogo minna. O bɛ sɔrɔ  I sigiyɔrɔ  fɛ , i bɛ kan wɛrɛ minnu fɔ ani fɛn caman wɛrɛw. Aw bɛ se ka kunnafoni bɛɛ lase yan aw hakili la min bɛ se ka mago ɲɛ.
 
 ## Profile - Email
 
@@ -255,6 +256,10 @@ recordings-and-locale-public = Fɔlisenw hakɛ ani i bɛ dɛmɛ don kan minnu na
 
 ## FAQ
 
+faq-what-cv-a-2 =
+    Kan dɔnni fɛɛrɛ bɛ ka taɲɛ sɛmɛntiya masinw ka jɛɲɔgɔnya kɛcogo la, nka sisan, sisitɛmugódongódongódon minnu bɛ yen, olu sɔngɔ ka gɛlɛn, wa u ye an yɛrɛ ta ye. Mozilla Common Voice ye fɛɛrɛ ye min bɛ kan dɔnni fɛɛrɛw kɛ ka ɲɛ ani ka se ka sɔrɔ bɛɛ fɛ. Common Voice ye diɲɛ kɔnɔ kunnafonisɛbɛnba ye min bɛ kumakanw dilabɔ, min b’a to mɔgɔ bɛɛ bɛ se ka kumakan-porogaramuw dege teliya la ani nɔgɔya la kan bɛɛ la min bɛ se ka kɛ.
+    
+    An tɛ kan misaliw dɔrɔn lajɛ kanw na minnu bɛ fɔ kosɛbɛ, nka an bɛ kanw fana lajɛ minnu ka fɔbagaw hakɛ ka dɔgɔ. Kumakanw kunnafonidilan suguya caman bɔli bɛna fanga di yiriwalikɛlaw, baarakɛlaw ani sigidamɔgɔw ma walasa u yɛrɛ ka se ka o danfara in ɲɛnabɔ.
 
 ## ABOUT US
 
