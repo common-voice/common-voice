@@ -779,6 +779,8 @@ more = Mer
 close = Stäng
 download = Hämta
 dataset-version = Version
+sha256-checksum-copied = SHA256-kontrollsumma kopierad!
+clipboard-not-supported = Urklipp stöds inte
 
 ## Download Modal
 
