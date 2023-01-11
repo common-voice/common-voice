@@ -16,10 +16,10 @@ import StateTree from '../../../stores/tree';
 import './about.css';
 
 interface PropsFromState {
-  basketToken?: string;
+  isSubscribedToMailingList: boolean;
 }
 
-const About: React.FC<PropsFromState> = ({ basketToken }) => {
+const About: React.FC<PropsFromState> = ({ isSubscribedToMailingList }) => {
   const activeSection = useActiveSection(Object.values(SECTIONS));
 
   return (
@@ -56,7 +56,9 @@ const About: React.FC<PropsFromState> = ({ basketToken }) => {
               {section === SECTIONS.SUBSCRIBE ? (
                 <SectionComponent light subscribeText="about-subscribe-text" />
               ) : (
-                <SectionComponent basketToken={basketToken} />
+                <SectionComponent
+                  isSubscribedToMailingList={isSubscribedToMailingList}
+                />
               )}
             </section>
           );
@@ -69,5 +71,5 @@ const About: React.FC<PropsFromState> = ({ basketToken }) => {
 About.displayName = 'About';
 
 export default connect<PropsFromState>(({ user }: StateTree) => ({
-  basketToken: user.account?.basket_token,
+  isSubscribedToMailingList: user.isSubscribedToMailingList,
 }))(About);

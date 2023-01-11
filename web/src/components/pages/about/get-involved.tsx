@@ -10,10 +10,10 @@ import { SECTIONS } from './constants';
 import './get-involved.css';
 
 type Props = {
-  basketToken?: string;
+  isSubscribedToMailingList?: boolean;
 };
 
-const GetInvolved: React.FC<Props> = ({ basketToken }) => {
+const GetInvolved: React.FC<Props> = ({ isSubscribedToMailingList }) => {
   return (
     <>
       <img
@@ -34,7 +34,7 @@ const GetInvolved: React.FC<Props> = ({ basketToken }) => {
             <h1 />
           </Localized>
 
-          {!basketToken && (
+          {!isSubscribedToMailingList && (
             <p>
               <RoundButton>
                 <Link

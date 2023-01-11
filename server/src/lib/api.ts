@@ -319,7 +319,7 @@ export default class API {
     );
     await Basket.sync(clientId, true);
 
-    response.json({ token: JSON.parse(basketResponse).token });
+    response.json({});
   };
 
   saveAvatar = async (

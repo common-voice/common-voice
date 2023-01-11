@@ -27,8 +27,6 @@ class Subscribe extends React.Component<SubscribeProps, State> {
     submitStatus: null,
   };
 
-  emailInputRef = React.createRef<HTMLInputElement>();
-
   handleEmailChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     this.setState({ email: event.target.value });
   };
@@ -42,11 +40,10 @@ class Subscribe extends React.Component<SubscribeProps, State> {
     const { account, api, addNotification, updateUser } = this.props;
     this.setState({ submitStatus: 'submitting' });
     try {
-      const { token } = await api.subscribeToNewsletter(
+      await api.subscribeToNewsletter(
         account ? account.email : this.state.email
       );
-
-      updateUser({ account: { basket_token: token } });
+      updateUser({ isSubscribedToMailingList: true });
       addNotification(
         <Localized id="profile-form-submit-saved">
           <span />
@@ -67,7 +64,6 @@ class Subscribe extends React.Component<SubscribeProps, State> {
     const isEditable = submitStatus == null;
     const email = account ? account.email : this.state.email;
     const privacyAgreed = this.state.privacyAgreed;
-    const emailInput = this.emailInputRef.current;
 
     if (account?.basket_token || submitStatus == 'submitted') {
       return null;
@@ -87,19 +83,12 @@ class Subscribe extends React.Component<SubscribeProps, State> {
                 disabled={!isEditable || account}
                 type="email"
                 required
-                ref={this.emailInputRef}
               />
             </Localized>
 
             <Button
               type="submit"
-              disabled={
-                !isEditable ||
-                !privacyAgreed ||
-                !email ||
-                !emailInput ||
-                !emailInput.checkValidity()
-              }>
+              disabled={!isEditable || !privacyAgreed || !email}>
               {!demoMode && (
                 <Localized id="subscribe">
                   <span />

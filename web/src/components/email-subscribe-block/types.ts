@@ -4,9 +4,10 @@ import { Notifications } from '../../stores/notifications';
 import StateTree from '../../stores/tree';
 import { User } from '../../stores/user';
 
-//Subscribe form interfaces
+// Subscribe form interfaces
 export interface SubscribePropsFromState {
   account: UserClient;
+  isSubscribedToMailingList: boolean;
   api: API;
 }
 
@@ -27,6 +28,7 @@ export interface SubscribeProps
 export function SubscribeMapStateToProps({ api, user }: StateTree) {
   return {
     account: user.account,
+    isSubscribedToMailingList: user.isSubscribedToMailingList,
     api,
   };
 }

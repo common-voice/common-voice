@@ -15,7 +15,7 @@ describe('GetInvolved component', () => {
   });
 
   it('hides email signup button if basket token is available', () => {
-    renderWithProviders(<GetInvolved basketToken="test-basket-token" />);
+    renderWithProviders(<GetInvolved isSubscribedToMailingList />);
 
     expect(screen.queryByTestId('email-signup-button')).toBeNull();
     expect(screen.queryByTestId('discourse-button')).toBeDefined();
