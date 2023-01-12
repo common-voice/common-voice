@@ -772,6 +772,9 @@ more = Informations supplémentaires
 close = Fermer
 download = Télécharger
 dataset-version = Version
+sha256-checksum-copied = Somme de contrôle SHA256 copiée !
+sha256-checksum-copied-error = Échec de la copie de la somme de contrôle SHA256
+clipboard-not-supported = Presse-papiers non pris en charge
 
 ## Download Modal
 
