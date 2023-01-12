@@ -257,9 +257,20 @@ help-accent-explanation = I ka fɔcogo ye i bɛ daɲɛw fɔcogo minna. O bɛ sɔ
 ## FAQ
 
 faq-what-cv-a-2 =
-    Kan dɔnni fɛɛrɛ bɛ ka taɲɛ sɛmɛntiya masinw ka jɛɲɔgɔnya kɛcogo la, nka sisan, sisitɛmugódongódongódon minnu bɛ yen, olu sɔngɔ ka gɛlɛn, wa u ye an yɛrɛ ta ye. Mozilla Common Voice ye fɛɛrɛ ye min bɛ kan dɔnni fɛɛrɛw kɛ ka ɲɛ ani ka se ka sɔrɔ bɛɛ fɛ. Common Voice ye diɲɛ kɔnɔ kunnafonisɛbɛnba ye min bɛ kumakanw dilabɔ, min b’a to mɔgɔ bɛɛ bɛ se ka kumakan-porogaramuw dege teliya la ani nɔgɔya la kan bɛɛ la min bɛ se ka kɛ.
+    Kan dɔnni fɛɛrɛw bɛ ka taɲɛ sɛmɛntiya masinw ka jɛɲɔgɔnya kɛcogo la, nka sisan, sisitɛmu gódongódonlen minnu bɛ yen, olu sɔngɔ ka gɛlɛn, wa  ma kɛrɛnkɛrɛnlenw de ta don  . Mozilla Common Voice ye hakilinan ye min bɛ kan dɔnni fɛɛrɛw nɔgɔya ani ka lasɔrɔli dayɛlɛ ma kelenkelen  bɛɛ fe. Common Voice ye diɲɛ kɔnɔ kunnafonisɛbɛnba ye min bɛ kumakanw lamara, min b’a to mɔgɔ bɛɛ bɛ se ka kumakan-porogaramuw labɛn kɛ teliya la ani nɔgɔya la kan bɛɛ la.
     
     An tɛ kan misaliw dɔrɔn lajɛ kanw na minnu bɛ fɔ kosɛbɛ, nka an bɛ kanw fana lajɛ minnu ka fɔbagaw hakɛ ka dɔgɔ. Kumakanw kunnafonidilan suguya caman bɔli bɛna fanga di yiriwalikɛlaw, baarakɛlaw ani sigidamɔgɔw ma walasa u yɛrɛ ka se ka o danfara in ɲɛnabɔ.
+faq-why-important-a =
+    A ka c’a la, kuma de ye an ni ɲɔgɔn cɛ kumaɲɔgɔnya kɛcogo ye min bɛ kɛ cogo la min bɛ kɛ cogo la min bɛ sɔrɔ an yɛrɛ la ani kanko fɛɛrɛw bɛ ka o nɔgɔya lase an ka ɔridinatɛriw ni telefɔni selilɛriw ma. An b’a fɛ ka fanga di baarakɛlaw ma walasa u ka se ka kumakan dɔnni baarakɛminɛn kabakomaw jɔ i n’a fɔ bamanankan bamanankan baarakɛlaw minnu bɛ baara kɛ waati yɛrɛ la ani dɛmɛbagaw nizɛrikan na minnu bɛ se ka kumakan di. Nka sisan yɛrɛ, kumakan kunnafonidilan minnu ka kan ka kɛ walasa ka nin porogaramu suguw dilan, olu fanba sɔngɔ ka gɛlɛn, wa u ye u yɛrɛ ta ye. An jigi b’a kan ko Common Voice kunnafonidilan bɛna fɛn di baarakɛlaw ma u mago bɛ min na walasa ka fɛn kuraw don ani ka kumakan fɛɛrɛbɔ kɛ u yɛrɛ ka kan na.
+    
+    Walasa ka kan dɔnni kɛ diɲɛ bɛɛ ta ye ka tɛmɛn fɔlɔ kan, an bɛ kan misaliw lajɛ kanw na minnu bɛ fɔ kosɛbɛ ani minnu ka kumalasela hakɛ ka dɔgɔ, tuma caman na, jagokɛlaw ka kuma dɔnni baarakɛlaw tɛ baara kɛ kosɛbɛ. Kumakanw kunnafonidilan suguya caman bɔli bɛna fanga di yiriwalikɛlaw, baarakɛlaw, ani kumakan jɛkulu bɛɛ ma walasa u yɛrɛ ka se ka o danfara in ɲɛnabɔ.
+faq-when-release2-q = Tuma jumɛn na i bɛna Common Voice kunnafoniw bɔ kan wɛrɛw la?
+faq-when-release2-a = Common Voice kunnafonidilan min bɛ kan caman na, o bɛ ka sigida dɛmɛni ni a saniyalen kɛ sisan. N’i ​​b’a fɛ k’an dɛmɛ ka Common Voice lase kan kuraw la, taa <sentenceCollectorLink>Kunnafoni dalajɛminɛn</sentenceCollectorLink> lajɛ walasa ka kumasen kura fara kunnafonidilan kan, ani Mozilla <pontoonLink>Pontoon</pontoonLink> walasa ka siti in baara a yɛrɛ ye. Kan kura bɛ Fàra Common Voice kan kanko dɛmɛni kama ni kumasen 5000 dabɔra minnu Dabɔra.
+faq-why-mission-a = Mozilla y’a yɛrɛ di walasa ka ɛntɛrinɛti da wuli ani ka se ka sɔrɔ bɛɛ bolo. Walasa k’o kɛ an ka kan ka fanga di ɛntɛrinɛti dabɔbagaw ma porozɛw fɛ i n’a fɔ Common Voice. Ni kanko fɛɛrɛw bɛ ka caya ka tɛmɛn nisɛ baarakɛminɛnw kan, an dalen b’a la k’u ka kan ka baara kɛ baarakɛlaw bɛɛ ye cogo kelen na. O kɔrɔ ye ka wari bila kan caman na ani ka fɔcogo ni jamanadenw hakɛ suguya caman ladon ni kanko fɛɛrɛw jɔli n’u kɔrɔbɔ. Common Voice ye foroba nafolo ye min bɛ sɔrɔ bɛɛ bolo wa Mozilla jɛkuluw ni baarakɛlaw bɛ baara kɛ n’a ye kaban an yɛrɛ ka porozɛw kan fana.
+faq-why-my-lang-a =
+    Common Voice ye jama sɔrɔyɔrɔ ye, wa kanw bɛɛ farala ɲɔgɔn kan ni bolomafaraw ye.
+    An b’a fɛ kosɛbɛ k’aw ka kan fara a kan! <languageRequestLink>Aw ye ɲininkali kɛ aw ka kan farali kan.
+faq-how-calc-hours-a = An bɛ lɛrɛw jatebɔ ni fɔlisen kelen-kelen bɛɛ janya cɛmancɛ jateminɛ ye, ka sɔrɔ k’o hakɛ caya ni fɔlisenw bɛɛ lajɛlen hakɛ ye kan bɛɛ kɔnɔ.
 
 ## ABOUT US
 
