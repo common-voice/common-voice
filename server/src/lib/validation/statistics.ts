@@ -1,7 +1,7 @@
 import { AllowedSchema } from 'express-json-validator-middleware';
 import { JSONSchema4 } from 'json-schema';
 
-const yearStatSchema: {
+export const yearStatSchema: {
   [k: string]: JSONSchema4
 } = {
   year: {
@@ -38,9 +38,6 @@ export const clipStatSchema: AllowedSchema = {
     filter: {
       type: 'string',
       enum: ['rejected'],
-    },
-    hasMetadata: {
-      type: 'boolean'
     },
     ...yearStatSchema
   },

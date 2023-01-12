@@ -1,7 +1,7 @@
 import { Request, Response } from 'express';
 import PromiseRouter from 'express-promise-router';
 import Model from './model';
-import { getStatistics } from './model/statistics';
+import { getMetadataQueryHandler, getStatistics } from './model/statistics';
 import { QueryOptions, TableNames } from 'common';
 import {
   accountStatSchema,
@@ -9,6 +9,7 @@ import {
   downloadStatSchema,
   sentenceStatSchema,
   speakerStatSchema,
+  yearStatSchema,
 } from './validation/statistics';
 import validate from './validation';
 
@@ -26,6 +27,7 @@ export default class Statistics {
     const router = PromiseRouter();
 
     router.get('/clips', validate({ query: clipStatSchema }), this.clipCount);
+    router.get('/metadata', validate({ query: yearStatSchema }), this.getMetadata);
     router.get(
       '/downloads',
       validate({ query: downloadStatSchema }),
@@ -87,6 +89,14 @@ export default class Statistics {
 
     return response.json(
       await getStatistics(TableNames.SENTENCES, options)
+    );
+  };
+
+  getMetadata = async (request: Request, response: Response) => {
+    const options = request.query as QueryOptions;
+
+    return response.json(
+      await getMetadataQueryHandler(TableNames.CLIPS, options, 'metadata')
     );
   };
 }

@@ -30,6 +30,38 @@ Filter by only the rejected clips by using query parameter:
 
 `?filter=rejected`
 
+### Metadata
+
+All clip contributions that contain metadata, e.g. age, gender, accents or variants. The response shows
+clips with metadata in comparison to all clips. The format is as follows: `[clips with metadata]/[all clips]`.
+
+GET `/api/v1/statistics/metadata` HTTP/1.1
+
+
+```json
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+{
+  "yearly_sum": "253/300",
+  "yearly_sum_coverage": 0.84,
+  "total_count": "990/1000",
+  "total_count_coverage": 0.99,
+  "monthly_increase": {
+    "2022-12": "78/100",
+    "2022-11": "80/100",
+    "2022-10": "95/100",
+  },
+  "monthly_increase_coverage": {
+    "2022-12": 0.78,
+    "2022-11": 0.8,
+    "2022-10": 0.95,
+  },
+  "metadata": {
+    "last_fetched": "2023-01-12T12:17:06.864Z"
+  }
+}
+```
+
 ### Speaker
 
 All unique speaker contributors:
