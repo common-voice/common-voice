@@ -771,6 +771,7 @@ more = Plus
 close = Clauder
 download = Discargar
 dataset-version = Version
+clipboard-not-supported = Area de transferentia non supportate
 
 ## Download Modal
 
