@@ -788,6 +788,7 @@ more = ٻئے
 close = بند کرو
 download = ڈاؤن لوڈ
 dataset-version = ورشن
+clipboard-not-supported = کلپ بورڈ سہارا تھیا کائنی
 
 ## Download Modal
 
@@ -1587,3 +1588,5 @@ second-cta-header-text = آپݨی اواز دان کرݨ تے تہاݙے تھو�
 second-cta-subtitle-text = پروفائل نال تساں آپݨی سرگرمی تے نظر رکھ سڳدے ہو تے صوتی ڈیٹا وچ حصہ پاوݨ آلی برادری نال جُڑ سڳدے ہو۔
 already-have-an-account = بھلا پہلے ای کھاتہ ہے؟ <login> لاگ ان تھیوو </login>
 create-profile-button = پروفائل بݨاؤ
+# IMAGE TAGS
+img-alt-success-checkmark = کامیابی دا نشان
