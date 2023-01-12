@@ -3,17 +3,12 @@ import pick = require('lodash.pick');
 import lazyCache from '../lazy-cache';
 import { getMySQLInstance } from './db/mysql';
 import { QueryOptions, TableNames, TimeUnits } from 'common';
-import Table from './db/table';
 
 const db = getMySQLInstance();
 
 export type StatisticsCount = {
   total_count: number;
   date?: string;
-};
-
-type ClipsMetaDataCount = {
-  clips_metadata_count: number;
 };
 
 const FILTERS = {
