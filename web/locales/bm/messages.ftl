@@ -271,9 +271,13 @@ faq-why-my-lang-a =
     Common Voice ye jama sɔrɔyɔrɔ ye, wa kanw bɛɛ farala ɲɔgɔn kan ni bolomafaraw ye.
     An b’a fɛ kosɛbɛ k’aw ka kan fara a kan! <languageRequestLink>Aw ye ɲininkali kɛ aw ka kan farali kan.
 faq-how-calc-hours-a = An bɛ lɛrɛw jatebɔ ni fɔlisen kelen-kelen bɛɛ janya cɛmancɛ jateminɛ ye, ka sɔrɔ k’o hakɛ caya ni fɔlisenw bɛɛ lajɛlen hakɛ ye kan bɛɛ kɔnɔ.
+faq-why-not-ask-read-q = Mun na i t’a ɲini mɔgɔw fɛ u ka kalan kɛ gafew kɔnɔ walima Wikipeja barokunw na kan wɛrɛw la?
 
 ## ABOUT US
 
+about-header-description-v2 =
+    Common Voice ye kan kunnafonidilan ye min bɛ sɔrɔ foroba la, min bɛ baara kɛ ni bolomafara dibagaw kanw ye diɲɛ fan bɛɛ. Mɔgɔ minnu b’a fɛ ka kumakan baarakɛminɛnw dilan, olu bɛ se ka baara kɛ ni kunnafonidilan ye walasa ka masin kalanni misaliw dege.</p>
+    <p>Sisan , kumakan kunnafonidilan fanba ye tɔnw ta ye , o bɛ kokuradonni bali . Kan kunnafonidilanw fana tɛ : tubabukan fɔbagaw tɛ, mɔgɔ kulɛrilenw, sebaliw, musow ani LGBTQIA+ mɔgɔw. O kɔrɔ ye ko fɛɛrɛ min bɛ Kɛ ni kan ye, o tɛ baara Kɛ hali dɔɔnin kan caman na, wa a bɛ baara Kɛ yɔrɔ min na, a bɛ Se ka Kɛ ko a tɛ baara Kɛ cogo kelen na bɛɛ fɛ. An b' a fɛ k' o fɛn caman Changer ni ka mɔgɔw lajɛ yɔrɔ bɛɛ walasa k' u kan tila ɲɔgɔn na .</p>
 
 ## How does it work section
 
@@ -281,12 +285,19 @@ faq-how-calc-hours-a = An bɛ lɛrɛw jatebɔ ni fɔlisen kelen-kelen bɛɛ jany
 ## Community Playbook Content
 ## What is a language
 
+about-playbook-what-is-language-content-3 = Kan dɔw ka daɲɛgafe, daɲɛw ani fɔcogo bɛ ɲɔgɔn Bɔ kosɛbɛ. O de kama, an bɛ <ctaLink>ka ‘Variants’</ctaLink> bila senkan san 2022. O bɛ fɛɛrɛ di sigidamɔgɔw ma u ka kanw danfara la kunnafonidilanba kɔnɔ.
 
 ## How do I add a language
 
+about-playbook-how-add-language-translating-content-2 =
+    An bɛ baara Kɛ ni Mozilla baarakɛminɛn dɔ ye min bɛ Weele ko <pontoonLink>Pontoon</pontoonLink> bamanankan-falen-falen kama. Pontoon bɛ kan caman fɔ,
+    nka n'i ta t'a la i bɛ se ka <pontoonRequestLink>ɲini i ka kan ka fara a kan</pontoonRequestLink>.
+    O kɔfɛ, walasa kan in ka se ka sɔrɔ Common Voice porozɛ kan,
+    <githubRepoLink>kan kura ɲini GitHub</githubRepoLink> kan. <localizationFragment>Aw ye kunnafoni wɛrɛw lajɛ site bamanankan</localizationFragment> kan.
 
 ## How does localization work
 
+about-playbook-how-localize-content-3 = Bayɛlɛmali bɛ kɛ ka bɔ Angilɛkan  na, nka i bɛ se ka <strong>Ladilikan</strong> ye kan wɛrɛw la. <strong>Profile</strong> taamasiyɛn digi, o kɔ <strong>Settings</strong> yɔrɔ digi ani i bɛ kan minnu fɔ, i bɛ olu fara a kan. Jiginni kininbolo fɛ, bamanankan baarakɛcogo dɔw bɛna sɔrɔ minnu bɛ wele ko <strong>Yɔrɔw</strong>. Bamanankan bayɛlɛmaniw bɛ jira site web kan tile kelen kɔfɛ.
 
 ## How to add sentences
 
@@ -308,6 +319,7 @@ faq-how-calc-hours-a = An bɛ lɛrɛw jatebɔ ni fɔlisen kelen-kelen bɛɛ jany
 
 ## Glossary
 
+localization-explanation = Nin ye an ka taabolo ye walasa k’an ka bayɛlɛmali baara ani k’u bɛrɛbɛn sigida (kan caman) caman ma.
 
 ## Error pages
 
@@ -317,6 +329,10 @@ faq-how-calc-hours-a = An bɛ lɛrɛw jatebɔ ni fɔlisen kelen-kelen bɛɛ jany
 
 ## Datasets Page
 
+dataset-description-hours =
+    Donan kelen-kelen bɛɛ bɛ Kɛ ni MP3 kɛrɛnkɛrɛnnen ye ani sɛbɛnni-dosiyɛri min bɛ Bɛn o ma. <b>{ $total }</b> lɛrɛ minnu sɛbɛnna kunnafonidilan kɔnɔ, olu caman fana bɛ jamanadenw ka kunnafonidilanw kɔnɔ i n’a fɔ si hakɛ, cɛya ni musoya, ani fɔcogo minnu bɛ se ka dɛmɛ don ka kuma dɔnni masinw ka tiɲɛni dege.
+    
+    Donanw kulu bɛ kɛ sisan <b>{ $valid }</b> lɛrɛw ye minnu sɛgɛsɛgɛra <b>{ $kanw }</b> kanw na, nka an bɛ kan ni kan caman fara a kan tuma bɛɛ. Aw ye an ka <languagesLink>Kanw ɲɛ</languagesLink> lajɛ walasa ka kan dɔ ɲini walima ka dɛmɛ daminɛ.
 
 ## Download Modal
 
