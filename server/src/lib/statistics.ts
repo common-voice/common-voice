@@ -96,7 +96,7 @@ export default class Statistics {
     const options = request.query as QueryOptions;
 
     return response.json(
-      await getMetadataQueryHandler(TableNames.CLIPS, options, 'metadata')
+      await getMetadataQueryHandler(TableNames.CLIPS, options)
     );
   };
 }

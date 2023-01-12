@@ -330,8 +330,7 @@ export const formatMetadataStatistics = (
 // an overlap with the clips endpoint.
 const getMetadataQueryHandlerImpl = async (
   table: TableNames,
-  options?: QueryOptions,
-  route = 'metadata'
+  options?: QueryOptions
 ) => {
   const year = getYearFromOptions(options);
   options = { ...options, year };
@@ -374,7 +373,7 @@ const getMetadataQueryHandlerImpl = async (
 };
 
 export const getMetadataQueryHandler = lazyCache(
-  'get-stats',
+  'get-stats-metadata',
   getMetadataQueryHandlerImpl,
   TimeUnits.DAY
 );
