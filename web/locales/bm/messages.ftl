@@ -219,6 +219,9 @@ zza = Zazakan
 
 ## Layout
 
+speak = Kuma
+speak-now = Kuma sisan
+datasets = Daɲɛgafew
 languages = Kanw
 
 ## Home Page
@@ -406,6 +409,8 @@ your-languages = Aw ka Kanw
 
 ## Demo Datasets
 
+demo-language-select-card-body = Mɔgɔ 259000 ni kɔ ka dɛmɛ sababu la kan 50 ni kɔ la, o kunnafoniw bɛ kɛ ka kuma-se-minɛnw dege walasa ka hadamaden kan jaabi ka ɲɛ.
+demo-language-select-label = Kanw lajɛ
 
 ## Demo Account
 
@@ -432,9 +437,13 @@ your-languages = Aw ka Kanw
 
 ## GENERAL
 
+sc-languages-fetch-error = An ma se ka kanw sɔrɔ minnu bɛ sɔrɔ. Bolomafaraw tɛ se ka kɛ sisan. Aw ye aw jija ka segin ka a lajɛ kɔfɛ.
 
 ## HOW-TO
 
+sc-howto-addlang-title = Kanw farali ka baara kɛ ni minnu ye
+sc-howto-addlang-text = Ni i donna a kɔnɔ i bɛ se k’i ka kanw sugandi ka bɔ i ka profil yɔrɔ la.
+sc-howto-addsen-item-6 = Kanw bɛ se k’u ka <validationRulesLink>u yɛrɛ ka dantigɛli sariyaw</validationRulesLink> ni wajibi wɛrɛw ye. Ni kan dɔ ka dantigɛli-dosiyɛri kɛrɛnkɛrɛnnen tɛ yen, an bɛ baara kɛ ni tubabukan sariyaw bɛɛ lajɛlen ye.
 
 ## MY SENTENCES
 
@@ -444,6 +453,10 @@ your-languages = Aw ka Kanw
 
 ## STATS
 
+# Variables:
+#   $sentenceCount (Number) - Total number of sentences uploaded through Sentence Collector
+#   $languageCount (Number) - Total number of languages these sentences represent
+sc-stats-summary = Common Voice Sentence Collector ye { $sentenceCount } kumasenw lajɛ { $languageCount } kanw na!
 
 ## ADD
 
@@ -462,12 +475,15 @@ your-languages = Aw ka Kanw
 
 ## PROFILE
 
+sc-personal-your-languages = Aw ka kanw:
+sc-personal-not-added = Aw ma kan si Fàra o kan fɔlɔ.
 
 ## REVIEW CRITERIA
 
 
 ## REVIEW
 
+sc-review-lang-not-selected = I ma kan si sugandi. Aw ye taa aw ka <profileLink>Profile</profileLink> la walasa ka kanw sugandi.
 
 ## SETTINGS
 
