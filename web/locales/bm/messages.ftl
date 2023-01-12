@@ -333,6 +333,8 @@ dataset-description-hours =
     Donan kelen-kelen bɛɛ bɛ Kɛ ni MP3 kɛrɛnkɛrɛnnen ye ani sɛbɛnni-dosiyɛri min bɛ Bɛn o ma. <b>{ $total }</b> lɛrɛ minnu sɛbɛnna kunnafonidilan kɔnɔ, olu caman fana bɛ jamanadenw ka kunnafonidilanw kɔnɔ i n’a fɔ si hakɛ, cɛya ni musoya, ani fɔcogo minnu bɛ se ka dɛmɛ don ka kuma dɔnni masinw ka tiɲɛni dege.
     
     Donanw kulu bɛ kɛ sisan <b>{ $valid }</b> lɛrɛw ye minnu sɛgɛsɛgɛra <b>{ $kanw }</b> kanw na, nka an bɛ kan ni kan caman fara a kan tuma bɛɛ. Aw ye an ka <languagesLink>Kanw ɲɛ</languagesLink> lajɛ walasa ka kan dɔ ɲini walima ka dɛmɛ daminɛ.
+missing-language = I ɲɛ tɛ i ka kan na Dataset kɔnɔ wa? Walasa ka kan dɔ ɲini,  taa an ka Kanw ɲɛ kan.
+go-languages-page = Taga kanw ɲɛ kan
 
 ## Download Modal
 
@@ -345,9 +347,18 @@ dataset-description-hours =
 
 ## Request Language Pages
 
+request-language-explanation-1 =
+    A lajɛ n’i ka kan sɛbɛnnen bɛ
+    <languagesPageLink>kan jɛlenw ɲɛ</languagesPageLink>.
+    N’o tɛ, i ka nin sɛbɛn in dafa, an bɛna <strong>i ka bataki ci i ma min bɛ se ka kɛ i bolo
+    ka ɲɛfɔli kɛ i ka kan sigicogo kan</strong>.
 
 ## Languages Overview
 
+language-section-in-progress = A bɛ ka taa ɲɛ
+language-section-in-progress-new-description = O kan ninnu bɛ sigida yiriwali la sisan. <localizationGlossaryLink>Website sigidako</localizationGlossaryLink> ani <sentenceCollectionGlossaryLink>kumasenw dalajɛ</sentenceCollectionGlossaryLink> ka kan ka daminɛ.
+language-section-launched = A daminɛna
+language-section-launched-description = Nin kan daminɛna ninnu na, siti in ye <localizationGlossaryLink>localization</localizationGlossaryLink> sɔrɔ ka ɲɛ, wa <sentenceCollectionGlossaryLink>kumasen caman bɛ a la minnu lajɛlen don</sentenceCollectionGlossaryLink> walasa ka sira di <speakLink>Speak</speakLink> ani <listenLink>Lamɛnni</listenLink ma minnu bɛ taa ɲɛ > bolomafaraw.
 
 ## Contribution
 
