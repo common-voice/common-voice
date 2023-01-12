@@ -780,6 +780,7 @@ close = Stäng
 download = Hämta
 dataset-version = Version
 sha256-checksum-copied = SHA256-kontrollsumma kopierad!
+sha256-checksum-copied-error = Det gick inte att kopiera SHA256-kontrollsumma
 clipboard-not-supported = Urklipp stöds inte
 
 ## Download Modal
