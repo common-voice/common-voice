@@ -359,6 +359,17 @@ language-section-in-progress = A bɛ ka taa ɲɛ
 language-section-in-progress-new-description = O kan ninnu bɛ sigida yiriwali la sisan. <localizationGlossaryLink>Website sigidako</localizationGlossaryLink> ani <sentenceCollectionGlossaryLink>kumasenw dalajɛ</sentenceCollectionGlossaryLink> ka kan ka daminɛ.
 language-section-launched = A daminɛna
 language-section-launched-description = Nin kan daminɛna ninnu na, siti in ye <localizationGlossaryLink>localization</localizationGlossaryLink> sɔrɔ ka ɲɛ, wa <sentenceCollectionGlossaryLink>kumasen caman bɛ a la minnu lajɛlen don</sentenceCollectionGlossaryLink> walasa ka sira di <speakLink>Speak</speakLink> ani <listenLink>Lamɛnni</listenLink ma minnu bɛ taa ɲɛ > bolomafaraw.
+languages-show-more = Dɔ wɛrɛ lajɛ
+languages-show-less = Lajɛta dɔgɔya
+language-meter-in-progress = Ka taa ɲɛ
+language-total-progress = Jɛkulu Bɛɛ lajɛlen
+language-search-input =
+    .placeholder = Ɲinili
+language-speakers = Kanfɔbagaw
+localized = Sigida la
+sentences = Kumasenw
+language-validation-hours = Lɛriw
+language-validation-progress = Validation (dafali) ɲɛtaa
 
 ## Contribution
 
@@ -376,6 +387,7 @@ record-cta = Kumakan taali daminɛ
 
 ## Dashboard
 
+your-languages = Aw ka Kanw
 
 ## Custom Goals
 
