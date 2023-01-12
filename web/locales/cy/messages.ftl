@@ -791,6 +791,9 @@ more = Rhagor
 close = Cau
 download = Llwytho i Lawr
 dataset-version = Fersiwn
+sha256-checksum-copied = SHA256 Checksum Wedi'i Gopïo!
+sha256-checksum-copied-error = Wedi methu â chopïo SHA256 Checksum
+clipboard-not-supported = Nid yw'r clipfwrdd yn cael ei gopïo
 
 ## Download Modal
 
