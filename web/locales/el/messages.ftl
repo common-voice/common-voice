@@ -772,6 +772,7 @@ more = Περισσότερα
 close = Κλείσιμο
 download = Λήψη
 dataset-version = Έκδοση
+clipboard-not-supported = Το πρόχειρο δεν υποστηρίζεται
 
 ## Download Modal
 
