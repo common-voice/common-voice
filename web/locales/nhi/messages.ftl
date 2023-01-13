@@ -738,6 +738,7 @@ sc-howto-review-subtitle = xic yequita tlahcuilol muc pia tlen mu icahuia tlanah
 sc-howto-review-criteria-1 = tlahcuilol quipia de isqui cuali
 sc-howto-review-criteria-2 = tlahcuilol quipia de isqui gramaticalmente cuali
 sc-howto-review-criteria-3 = tlahcuilol quipia de isqui tlanunutz
+sc-howto-review-criteria-4 = tla tlahcuilol quipia nuchi tlanahuatil, xic pacho campa quihtuhua  ¨quisilis¨
 
 ## MY SENTENCES
 
