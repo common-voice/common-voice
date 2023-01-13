@@ -743,6 +743,7 @@ sc-howto-review-criteria-5 = tla tlahcuilol amo qui chihua ican tlanahuatil, xic
 sc-howto-review-criteria-6 = tlamucahua sin tlahcuilol para ti quitas, ¡ yitech palehui para tic nichicusqueh cachi miak tlahcuilol!
 sc-howto-findpd-subtitle = xiquintemo ichin internet
 sc-howto-findpd-tips = nican catqui siqui tlanimilil para ti cahsis tlahcuilolmeh
+sc-howto-findpd-partner-1 = catqui miak nichicomasehual nestuqueh tlen huilis quiniquisqueh qui chihuasqueh huan yi qui piah miqueh tlahcuilolmeh tlen huilis qui tetlaoculisqueh quemeh Dominio nexica. ximu nuhnutsa ihuan universidades locales, tiquihuahqueh huan nichicomasehual de codigo tlapuhtoc para timu nuhnutzasqueh ican tiquitl huan sek tlahtlanis mutech palehuican
 
 ## MY SENTENCES
 
