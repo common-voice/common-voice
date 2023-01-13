@@ -733,6 +733,11 @@ sc-howto-addlang-text = deque tucun pehualte sesion, huilis tic nextis mu masehu
 sc-howto-addsen-title = tic tlalilisqueh yancuic tlahcuilol
 sc-howto-cite-title = quenin nic nutzas
 sc-howto-cite-item-1 = huilis tic tlalilisqueh sitio web,queme nicancah Common Voice-https://commonvoice.mozilla.org/
+sc-howto-review-title = tiquitasqueh tlahcuilol
+sc-howto-review-subtitle = xic yequita tlahcuilol muc pia tlen mu icahuia tlanahuatilmeh:
+sc-howto-review-criteria-1 = tlahcuilol quipia de isqui cuali
+sc-howto-review-criteria-2 = tlahcuilol quipia de isqui gramaticalmente cuali
+sc-howto-review-criteria-3 = tlahcuilol quipia de isqui tlanunutz
 
 ## MY SENTENCES
 
