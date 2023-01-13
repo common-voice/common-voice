@@ -741,6 +741,8 @@ sc-howto-review-criteria-3 = tlahcuilol quipia de isqui tlanunutz
 sc-howto-review-criteria-4 = tla tlahcuilol quipia nuchi tlanahuatil, xic pacho campa quihtuhua  ¨quisilis¨
 sc-howto-review-criteria-5 = tla tlahcuilol amo qui chihua ican tlanahuatil, xic pacho campa quintuhua ¨amonicsilia¨ tla amo tic yecmati ican tlahcuilol, nuyuhqui huilis tic panultis tlen hualahtoc
 sc-howto-review-criteria-6 = tlamucahua sin tlahcuilol para ti quitas, ¡ yitech palehui para tic nichicusqueh cachi miak tlahcuilol!
+sc-howto-findpd-subtitle = xiquintemo ichin internet
+sc-howto-findpd-tips = nican catqui siqui tlanimilil para ti cahsis tlahcuilolmeh
 
 ## MY SENTENCES
 
