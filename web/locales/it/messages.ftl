@@ -761,6 +761,9 @@ more = Altro
 close = Chiudi
 download = Scarica
 dataset-version = Versione
+sha256-checksum-copied = Checksum SHA256 copiato.
+sha256-checksum-copied-error = Impossibile copiare il checksum SHA256
+clipboard-not-supported = Appunti non supportati
 
 ## Download Modal
 
@@ -1546,3 +1549,5 @@ second-cta-header-text = Grazie per aver donato la tua voce.
 second-cta-subtitle-text = Con un profilo puoi tenere traccia della tua attività ed entrare in contatto con una comunità di donatori di voce.
 already-have-an-account = Hai già un account? <login>Accedi</login>
 create-profile-button = Crea un profilo
+# IMAGE TAGS
+img-alt-success-checkmark = spunta di successo
