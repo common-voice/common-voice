@@ -730,6 +730,9 @@ sc-languages-fetch-error = amo u se huilic usequinpix tlahtulmeh. tlaxixiluhuane
 sc-howto-title = queni
 sc-howto-addlang-title = ocsiqueh tlahtulmeh para se tiquitis
 sc-howto-addlang-text = deque tucun pehualte sesion, huilis tic nextis mu masehual tlahtol ichin mu nexica
+sc-howto-addsen-title = tic tlalilisqueh yancuic tlahcuilol
+sc-howto-cite-title = quenin nic nutzas
+sc-howto-cite-item-1 = huilis tic tlalilisqueh sitio web,queme nicancah Common Voice-https://commonvoice.mozilla.org/
 
 ## MY SENTENCES
 
