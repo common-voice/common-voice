@@ -788,6 +788,8 @@ more = ٻئے
 close = بند کرو
 download = ڈاؤن لوڈ
 dataset-version = ورشن
+sha256-checksum-copied = ایس ایچ اے 256 پڑتالی جمع نقل تھی ڳیا!
+sha256-checksum-copied-error = ایس ایچ اے 256 پڑتالی جمع نقل کرݨ وچ ناکامی تھئی۔
 clipboard-not-supported = کلپ بورڈ سہارا تھیا کائنی
 
 ## Download Modal
