@@ -756,9 +756,11 @@ sc-my-no-sentences = ¡amo mu ahsituqueh tlahcuilolmeh!
 sc-my-submission = tenextiliah: { $batchId }
 sc-my-delete = sequinpulultis tlahcuilulmeh tlen umu nextihqueh
 sc-my-deleting = sequinpuluhtihtok tlahcuilolmeh tlen umu nextihqueh...
+sc-my-err-failed-delete = amo uhuilik umu puluhqueh tlahcuilol tlen umu nexte... xicyehyeco ocsipa
 
 ## REJECTED
 
+sc-rejected-title = tlahtulmeh pulultiuh
 
 ## STATS
 
