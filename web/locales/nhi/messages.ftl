@@ -749,6 +749,11 @@ sc-howto-findpd-partner-1 = catqui miak nichicomasehual nestuqueh tlen huilis qu
 
 sc-my-title = nu tlahtulmeh
 sc-my-loading = yehyecuhtuc mu tlahcuilol
+sc-my-err-fetching = amo uhuilik usequin sileh mu tlahcuilol. xicyehyeco ucsipa
+sc-my-no-sentences = ¡amo mu ahsituqueh tlahcuilolmeh!
+# Variables:
+#   $batchId (String) - A unique ID identifying the submission of sentences - sentences uploaded together all have the same batch ID
+sc-my-submission = tenextiliah: { $batchId }
 
 ## REJECTED
 
