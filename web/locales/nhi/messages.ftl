@@ -754,6 +754,8 @@ sc-my-no-sentences = ¡amo mu ahsituqueh tlahcuilolmeh!
 # Variables:
 #   $batchId (String) - A unique ID identifying the submission of sentences - sentences uploaded together all have the same batch ID
 sc-my-submission = tenextiliah: { $batchId }
+sc-my-delete = sequinpulultis tlahcuilulmeh tlen umu nextihqueh
+sc-my-deleting = sequinpuluhtihtok tlahcuilolmeh tlen umu nextihqueh...
 
 ## REJECTED
 
