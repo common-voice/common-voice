@@ -777,6 +777,7 @@ more = অধিক
 close = বন্ধ কৰক
 download = ডাউনল’ড কৰক
 dataset-version = সংস্কৰণ
+sha256-checksum-copied = SHA256 চেকছাম প্ৰতিলিপি কৰা হ’ল!
 
 ## Download Modal
 
