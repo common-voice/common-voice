@@ -19,7 +19,7 @@ banner-error-slow-2 = 网站受到大流量访问冲击，我们正在调查处�
 banner-error-slow-link = 状态页面
 error-something-went-wrong = 抱歉，出了点问题
 error-clip-upload = 多次尝试上传这个片段均失败，要继续尝试吗？
-error-clip-upload-server = 多次尝试上传这个片段到服务器均失败。请刷新页面或稍后重试。
+error-clip-upload-server = 多次尝试上传此片段到服务器均失败。请刷新页面或稍后重试。
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -769,6 +769,7 @@ download = 下载
 dataset-version = 版本
 sha256-checksum-copied = SHA256 校验和已复制！
 sha256-checksum-copied-error = 复制 SHA256 校验和失败
+clipboard-not-supported = 剪贴板不支持
 
 ## Download Modal
 
@@ -1529,3 +1530,5 @@ second-cta-header-text = 感谢您贡献语音！
 second-cta-subtitle-text = 创建用户文件后，您就可以记录自己的活动并与语音数据贡献者社区联系。
 already-have-an-account = 已有账户？<login>登录</login>
 create-profile-button = 创建用户资料
+# IMAGE TAGS
+img-alt-success-checkmark = 标记成功
