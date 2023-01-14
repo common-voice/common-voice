@@ -1528,6 +1528,7 @@ localization-select =
 partnerships-header = İş Ortaklıkları
 partnerships-get-in-touch = Bize ulaşın
 partnerships-become-a-partner = Common Voice İş Ortağı Olun
+partnerships-community-header = Toplum, Yaratıcılar ve Sivil Toplum
 partnerships-foundations-header = Vakıflar
 partnerships-governments-header = Devletler
 partnerships-academia-header = Üniversiteler, Akademisyenler ve Araştırmacılar
