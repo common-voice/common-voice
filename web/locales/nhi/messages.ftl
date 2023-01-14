@@ -747,6 +747,8 @@ sc-howto-findpd-partner-1 = catqui miak nichicomasehual nestuqueh tlen huilis qu
 
 ## MY SENTENCES
 
+sc-my-title = nu tlahtulmeh
+sc-my-loading = yehyecuhtuc mu tlahcuilol
 
 ## REJECTED
 
