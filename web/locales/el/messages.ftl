@@ -1546,3 +1546,5 @@ partnerships-governments-header = Kυβερνήσεις
 partnerships-academia-header = Πανεπιστήμια, ακαδημαϊκοί και ερευνητές
 partnerships-small-business-header = Μικρές επιχειρήσεις, όπως νεοφυείς επιχειρήσεις τεχνολογίας και τεχνητής νοημοσύνης
 partnerships-our-partners = Οι συνεργάτες μας
+add-information-button = Προσθήκη πληροφοριών
+create-profile-button = Δημιουργία προφίλ
