@@ -18,6 +18,7 @@ banner-error-slow-1 = Извините, Common Voice работает медле
 banner-error-slow-2 = Мы испытываем высокую нагрузку и в данный момент изучаем проблему.
 banner-error-slow-link = Страница состояния
 error-something-went-wrong = Ой, что-то пошло не так
+error-clip-upload = Не удается выгрузить этот клип. Повторить попытку?
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
