@@ -8,6 +8,7 @@ email-input =
     .label = ⵉⵎⴰⵢⵍ
 submit-form-action = ⴰⵣⵏ
 loading = ⴰⴽⵜⵓⵔ...
+banner-error-slow-link = ⵜⴰⵙⵏⴰ ⵏ ⵡⴰⴷⴷⴰⴷ
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -92,6 +93,18 @@ kn = ⵜⴰⴽⴰⵏⵏⴰⴷⴰⵢⵜ
 ko = ⵜⴰⴽⵓⵔⵉⵢⵜ
 ky = ⵜⴰⴽⵉⵔⴳⵉⵣⵉⵜ
 lb = ⵜⴰⵍⵓⴽⵙⵎⴱⵓⵔⴳⵉⵜ
+ln = ⵜⴰⵍⵉⵏⴳⴰⵍⴰⵜ
+mn = ⵜⴰⵎⵓⵏⴳⵓⵍⵉⵜ
+mt = ⵜⴰⵎⴰⵍⵟⵉⵜ
+nl = ⵜⴰⵀⵓⵍⴰⵏⴷⵉⵜ
+pt = ⵜⴰⴱⵔⵜⵇⵉⵣⵜ
+ru = ⵜⴰⵔⵓⵙⵉⵜ
+shi = ⵜⴰⵛⵍⵃⵉⵜ
+so = ⵜⴰⵚⵓⵎⴰⵍⵉⵜ
+sq = ⵜⴰⵍⴱⴰⵏⵉⵜ
+sr = ⵜⴰⵚⵉⵕⴱⵉⵜ
+sv-SE = ⵜⴰⵙⵡⵉⴷⵉⵜ
+wo = ⵜⴰⵡⵓⵍⵓⴼⵜ
 zgh = ⵜⴰⵎⴰⵣⵉⵖⵜ
 zh-CN = ⵜⴰⵛⵉⵏⵡⵉⵜ (ⵛⵉⵏⵡⴰ)
 zh-HK = ⵜⴰⵛⵉⵏⵡⵉⵜ (ⵀⵓⵏⴳ ⴽⵓⵏⴳ)
@@ -105,6 +118,7 @@ zza = ⵜⴰⵣⴰⵣⴰⵜ
 ## Layout
 
 languages = ⵜⵓⵜⵍⴰⵢⵉⵏ
+profile = ⵉⴼⵔⵙ
 
 ## Home Page
 
