@@ -501,7 +501,9 @@ speak-loading-error = amo usehuilik usecpix se tlahcuilol para que tuhuatzin xun
 record-button-label = tlahtol ahcucui
 share-title-new = <bold> xitechpalehui</bold> maticahsicah ocsiqueh tlahtolmeh
 keep-track-profile = xic chihua se nimiliz ica mu progreso ica se perfil
+login-to-get-started = xic pehualti sesion o ximuihcuilo para ti pehuas
 target-segment-first-card = titechpalehuihtoc ica tu primer tiquitl segmentado
+target-segment-generic-card = tic palehuihtos a se segmento tiquitl
 target-segment-first-banner = xitech palehui tic chihuasqueh primer tiquitl de Common Voice{ $locale }
 target-segment-add-voice = xictlali mu tlahtol
 target-segment-learn-more = cachi tlanahuatil
@@ -522,6 +524,7 @@ report-other-comment =
     .placeholder = tlahtos
 success = cuali
 continue = nimilis
+report-success = tlanahuatil u mu nlatitlane cuali
 
 ## Goals
 
@@ -529,6 +532,12 @@ days =
     { $count ->
         [one] tunal
        *[other] tunalmeh
+    }
+recordings =
+    { $count ->
+        [one] tlahtolahcuctok
+        [many] tlahtolahcuctuqueh
+       *[other] { "" }
     }
 
 ## Dashboard
@@ -554,7 +563,9 @@ goal-type = ¿tlen tiquitl nicniqui nic chihuas?
 both-speak-and-listen = tiumeh
 both-speak-and-listen-long = tiumeh (tlahtos huan tlacaqui)
 daily-goal = tiquitl nuchipa
+weekly-goal = tiquitl chicueyitica
 easy-difficulty = amo uhueh
+average-difficulty = tlahto
 difficult-difficulty = uhueh
 want-to-continue = ¿ticniqui tic nihnimiltis?
 finish-editing = ¿ticniqui tic tlamis de tic patlas achton?
