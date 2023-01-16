@@ -345,11 +345,14 @@ dataset-date = tunal
 license = tlacahuil:<licenseLink>{ $license }</licenseLink>
 license-mixed = niliuhqui
 review-terms = quemen tiquicui Common Voice, tic silia tu<termsLink> terminos quen mucuis </termsLink> huan <privacyLink> tiachca ichtaca
+terms-agree = quema nic silia
+terms-disagree = amo nic silia
 review-aborted = amohuilic umutlehculte. ¿ticniqui tiquinpulos mu tlahtolahcuc?
 review-submit-title = xiquita huan xic naltitlani
 review-submit-msg = ¡tlasohcamatictsin utimu tlahtolahcuc<lineBreak></lineBreak> axan xiquita huan xiquin titlani mu tlahtolahcuc
 review-recording = xiquita
 review-rerecord = ocsipatlahtolahcucui
+review-cancel = amo xic naltitlani
 review-keep-recordings = xiquinpixto tlahtolahcuc
 review-delete-recordings = niquinpolos nu tlahtolahcuc
 
