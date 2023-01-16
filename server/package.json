@@ -61,7 +61,7 @@
     "@types/node-fetch": "2.6.2",
     "@types/nodemailer": "6.4.4",
     "@types/passport-auth0": "1.0.5",
-    "@types/redlock": "4.0.3",
+    "@types/redlock": "4.0.4",
     "@types/request-promise-native": "1.0.18",
     "@types/universal-analytics": "0.4.5",
     "dotenv": "16.0.3",
