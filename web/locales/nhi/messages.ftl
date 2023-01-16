@@ -362,6 +362,7 @@ datasets-heading = sansican tlanahuatil
 datasets-headline = secchiuhtoc se nimilis tlanahuatil de tlahtol, tlapuhtoc huan miak tlahtulmeh,aquinyihuili huilis quicuis para muc yehyeco aplicaciones tlen muc cuican tlahtol quemeh interfaz
 language = Tlahtol
 download-dataset-header = xiquintimulti sansican tlanahuatil
+download-dataset-tag = xicnexti  datased den tlahtol tlan tic niqui huan xic nexti tlan tic niquis tic timultis
 # File size in gigabytes
 size = hueyicah
 number-of-voices = puhual tlahtol
