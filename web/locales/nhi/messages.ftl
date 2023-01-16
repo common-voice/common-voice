@@ -567,9 +567,12 @@ weekly-goal = tiquitl chicueyitica
 easy-difficulty = amo uhueh
 average-difficulty = tlahto
 difficult-difficulty = uhueh
+pro-difficulty = quixmati
+lose-goal-progress-warning = tla tic paltal mu tiquitl huilis tic pulos mu nemilis
 want-to-continue = ¿ticniqui tic nihnimiltis?
 finish-editing = ¿ticniqui tic tlamis de tic patlas achton?
 lose-changes-warning = tla tic cahua axan, tiquin polos tlapatla
+build-custom-goal = xic chihua se tiquitl sesiahca
 help-reach-hours-pluralized =
     { NUMBER($hours) ->
         [one] xitech palehui ticahsisqueh { $hours }horaen{ $language } quemeh se tiquitl sesiahcah
@@ -586,7 +589,15 @@ how-many-per-day = ¡cuali! ¿ quesqui tlahtolahcucui tunal?
 how-many-a-week = cuali! ¿quesqui tlahtolahcuc ipan chicueyi tunal?
 which-goal-type = ¿ ticniqui ti tlahtos, tlacaquis o yen umeh?
 receiving-emails-info = axan qupia de tic yectlalis para tic silis correos electronicos, quemeh ilnamiquilis tiquitl, yancuic nemilis huan boletines de tlanahuatil ica Common Voice
+not-receiving-emails-info = mu patilis de axan quintuhua <bold> amo</bold> ticsilis correos ica ilnamiquilis tiquitl, yancuic nemilis amo boletines de tlanahuatil Common Voice
+n-clips-pluralized =
+    { NUMBER($count) ->
+        [one] tlahcuilol
+        [many] tlahcuilolmeh
+       *[other] { "" }
+    }
 help-share-goal = xitechpalehui maticahsicah cachi tlahtol, tehuanti mu tiquiuh
+confirm-goal = teixpanti tiquitl
 goal-interval-weekly = chicueyitunal
 # $type is one of share-goal-type-*
 share-n-daily-contribution-goal = tehuanti mu tiquiuh nuchipa de { $count } tlahtolahcucui para{ $type }
@@ -606,6 +617,7 @@ share-goal = tehuantis nu tiquiuh
 ## Profile Delete
 
 delete-q = ¿nuyuhqui ticniqui muc pulucan mu tlahtolahcuhtoc o ticniqui mu ahcuctacah ichin base de datos Common Voice?
+keep = yekpixto
 remove = pololti
 keep-info = mu tlahtol ahcuctok ichtaca isqueh ichin base de tlanahuatil de Common Voce. cuando tic pulultis mu perfil amo huilis tic tlahtlanis que muc puluca mu tlahtolahcuctoc ichin base de tlanahuatil
 remove-info = tiquitasqueh mu solicitud para tic pulusqueh mu tlahtolahcuctoc campa base de tlanunuts. tla mu silia mu solicitud, timu nuhnutzasqueh ihuan aquihqueh uquin timultihqueh base de tlanahuatil huan sequin tlahtlanis nuyuhqui muquin pululticah mu tlahtolahcuctoc
@@ -622,6 +634,7 @@ download-recordings-info = nuyuhqui mp3 huan tlahtulmeh niliuhtuqueh, huilis cui
 download-recordings-unavailable = amo huilis tic tlahtlanis mu tlahtolahcuc tla yu tic tlahtlan ocse huan yi nihnintoc
 download-recently-requested = huilis tic tlahtlanis se yancuic quixtilis tlahtolahcuc nuchipa { $days } tunalmeh
 download-size = queniuhquihueyi
+download-selected = tenextilihtok
 download-start = timulti tlanahuatil nexica
 download-request = xiquintlahtlani tlahtolahcuc
 download-requests = tlahtlanilis timulistl de tlahtolahcuctoc yiachton
@@ -630,6 +643,7 @@ download-request-button = timulti
 download-request-description = { $clipCount } clips tlahtol, queniuhquihueyi nuchi archivo { $size }. tlamia { $expires }
 download-request-archive-multiple = xixilo ica { $archiveCount } archivos ZIP tlen quipias
 download-request-assembling-description = mu archibos mu niliuhtuqueh. nimitz tlatlauhtiya, xic yehyeco cachi tiutlac
+download-request-refresh-button = yancuictlali
 download-request-modal-description = nicancateh enlaces para tiquin timultis mu archivos ZIP
 download-request-metadata-link = Tlahcuilol tlahtol
 
@@ -654,6 +668,7 @@ demo-language-select-card-body = tlasohcamatictzin ica mu tiquiuh cachi de 259,0
 card-button-next = ocse
 card-button-back = tlacutlapa
 demo-language-select-label = xiquimahsi tlahtulmeh
+demo-eofy-header = ticateh yi tlamian xihuitl 2019
 
 ## Demo Account
 
