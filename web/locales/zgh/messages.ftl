@@ -119,9 +119,16 @@ zza = ⵜⴰⵣⴰⵣⴰⵜ
 
 languages = ⵜⵓⵜⵍⴰⵢⵉⵏ
 profile = ⵉⴼⵔⵙ
+help = ⵜⵉⵡⵉⵙⵉ
+privacy = ⵜⵉⵏⵏⵓⵜⵍⴰ
+terms = ⵜⵉⴼⴰⴷⵉⵡⵉⵏ
+cookies = ⵉⴽⵓⴽⵉⵜⵏ
+logout = ⴼⴼⵖ
 
 ## Home Page
 
+vote-yes = ⵢⴰⵀ
+vote-no = ⵓⵀⵓ
 
 ## Account Benefits
 
@@ -153,10 +160,16 @@ shortcut-discard-ongoing-recording = ⵔⵡⵍ
 
 ## ProfileForm
 
+profile-form-username =
+    .label = ⵉⵙⵎ ⵏ ⵓⵏⵙⵙⵎⵔⵙ
+profile-form-native-language =
+    .label = ⵜⵓⵜⵍⴰⵢⵜ ⵜⴰⵢⵎⵎⴰⵜ
 profile-form-language =
     .label = ⵜⵓⵜⵍⴰⵢⵜ
 profile-form-variant =
     .label = ⵎⴰⵏ ⵜⴰⵎⵣⴰⵔⴰⵢⵜ ⵏ { $language } ⴰ ⵙ ⵜⵙⴰⵡⴰⵍⵎ?
+profile-close = ⵔⴳⵍ
+edit = ⵙⵏⴼⵍ
 
 ## Profile - Email
 
@@ -292,6 +305,7 @@ your-languages = ⵜⵓⵜⵍⴰⵢⵉⵏ ⵏⵏⵓⵏ
 
 ## HEADER/FOOTER
 
+sc-footer-privacy = ⵜⵉⵏⵏⵓⵜⵍⴰ
 
 ## HOME
 
