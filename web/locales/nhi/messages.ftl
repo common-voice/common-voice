@@ -766,6 +766,7 @@ sc-howto-title = queni
 sc-howto-addlang-title = ocsiqueh tlahtulmeh para se tiquitis
 sc-howto-addlang-text = deque tucun pehualte sesion, huilis tic nextis mu masehual tlahtol ichin mu nexica
 sc-howto-addsen-title = tic tlalilisqueh yancuic tlahcuilol
+sc-howto-addsen-item-5 = tlahcuilol quisa. tlahcuilol quipia de isqui cuali ican tlahtol tlen mu nuhnutsa. musequihto, “ж” se talhcuilol ruso pero amayic mucuis ican ingles huan icanun amayic mu nextis ichin se tlahcuilol de ingles
 sc-howto-cite-title = quenin nic nutzas
 sc-howto-cite-item-1 = huilis tic tlalilisqueh sitio web,queme nicancah Common Voice-https://commonvoice.mozilla.org/
 sc-howto-review-title = tiquitasqueh tlahcuilol
