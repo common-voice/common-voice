@@ -1547,4 +1547,5 @@ partnerships-academia-header = Πανεπιστήμια, ακαδημαϊκοί 
 partnerships-small-business-header = Μικρές επιχειρήσεις, όπως νεοφυείς επιχειρήσεις τεχνολογίας και τεχνητής νοημοσύνης
 partnerships-our-partners = Οι συνεργάτες μας
 add-information-button = Προσθήκη πληροφοριών
+create-profile-text = Θέλετε να αποθηκεύσετε τις πληροφορίες σας; <createProfile>Δημιουργήστε ένα προφίλ</createProfile>
 create-profile-button = Δημιουργία προφίλ
