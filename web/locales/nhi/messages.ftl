@@ -769,6 +769,7 @@ sc-howto-addsen-title = tic tlalilisqueh yancuic tlahcuilol
 sc-howto-addsen-item-5 = tlahcuilol quisa. tlahcuilol quipia de isqui cuali ican tlahtol tlen mu nuhnutsa. musequihto, “ж” se talhcuilol ruso pero amayic mucuis ican ingles huan icanun amayic mu nextis ichin se tlahcuilol de ingles
 sc-howto-cite-title = quenin nic nutzas
 sc-howto-cite-item-1 = huilis tic tlalilisqueh sitio web,queme nicancah Common Voice-https://commonvoice.mozilla.org/
+sc-howto-cite-item-2 = huilis tiquicuis referencia academica. musequihto  quenin Harvard  ¨Mozilla (2021) Common Voice. catqui https://commonvoice.mozilla.org/  (xiquita: 15 de septiembre de 2021)¨
 sc-howto-review-title = tiquitasqueh tlahcuilol
 sc-howto-review-subtitle = xic yequita tlahcuilol muc pia tlen mu icahuia tlanahuatilmeh:
 sc-howto-review-criteria-1 = tlahcuilol quipia de isqui cuali
