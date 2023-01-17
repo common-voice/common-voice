@@ -118,14 +118,9 @@ export default [
           </Localized>
           <Localized
             id={
-              dashboardLocale
-                ? 'help-reach-hours-pluralized'
-                : 'help-reach-hours-general-pluralized'
+              dashboardLocale ? 'help-reach-hours' : 'help-reach-hours-general'
             }
-            vars={{
-              hours: 10000,
-              language: getString(dashboardLocale),
-            }}>
+            vars={{ language: getString(dashboardLocale) }}>
             <span className="sub-head" />
           </Localized>
         </div>
@@ -194,14 +189,7 @@ export default [
           <Localized id="cant-decide">
             <h4 />
           </Localized>
-          <Localized
-            id="activity-needed-calculation-plural"
-            vars={{
-              totalHours: 10000,
-              periodMonths: 6,
-              people: 1000,
-              clipsPerDay: 45,
-            }}>
+          <Localized id="activity-needed-calculation">
             <p />
           </Localized>
         </div>
