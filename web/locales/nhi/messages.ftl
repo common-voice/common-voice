@@ -12,6 +12,7 @@ error-something-went-wrong = Xitechtlapohpolui, amo oquis cuali.
 
 ## Languages
 
+eo = Esperanto
 
 # [/]
 
