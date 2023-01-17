@@ -807,9 +807,16 @@ sc-rejected-none-found = amo umahsiqueh sentencias tlen amo uquin silihqueh
 
 sc-stats-updating = yancuic...
 sc-stats-error = amo uhuilic usequimpix estadisticas. Xic yehyeco ocsipa cachi tlahcah
+# Variables:
+#   $sentenceCount (Number) - Total number of sentences uploaded through Sentence Collector
+#   $languageCount (Number) - Total number of languages these sentences represent
+sc-stats-summary = Common Voice Sentence Collector oc nuchico{ $sentenceCount } tlahcuilulmeh { $languageCount } tlahtulmeh!
 
 ## ADD
 
+sc-submit-err-select-lang = xicnexti mu tlahtol
+sc-submit-err-add-sentences = timits tlatlauhtiyah, xiquin tlali tlahcuilulmeh
+sc-submit-err-add-source = timits tlatlauhtiyah, xictlali se fuente
 
 ## ADD LANGUAGE
 
