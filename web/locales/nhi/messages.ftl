@@ -823,9 +823,16 @@ sc-submit-title = xiquintlali tlahcuilolmeh
 sc-submit-select-language =
     .labelText = xicnexti mu tlahtol
 sc-submit-add-sentences = xiquin tlali tlahcuilolmeh de <wikipediaLink> dominio masehualnexica</wikipediaLink>
+sc-submit-ph-one-per-line =
+    .placeholder = se tlahcuilol por linea
+sc-submit-from-where = de cani nicancateh sentencia de <wikipediaLink> dominio masehualnexicah</wikipediaLink>
+sc-submit-button =
+    .submitText = Xictitlani
+sc-submit-guidelines = timits tlatlauhtiah, xiquita<howToLink>directrices</howToLink>
 
 ## ADD LANGUAGE
 
+sc-add-lang-could-not-add = amo uhuilic umu tlale tlahtol
 
 ## ADD SENTENCES CONFIRMATION
 
