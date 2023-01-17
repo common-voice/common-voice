@@ -800,9 +800,13 @@ sc-my-err-failed-delete = amo uhuilik umu puluhqueh tlahcuilol tlen umu nexte...
 
 sc-rejected-title = tlahtulmeh pulultiuh
 sc-rejected-loading = nichicuhtok tlahtulmeh tlen amo umu silihqueh
+sc-rejected-err-fetching = amo usequimpix tlahcuilolmeh tlen amo uquin silihqueh. xic yehyeco ocsipa
+sc-rejected-none-found = amo umahsiqueh sentencias tlen amo uquin silihqueh
 
 ## STATS
 
+sc-stats-updating = yancuic...
+sc-stats-error = amo uhuilic usequimpix estadisticas. Xic yehyeco ocsipa cachi tlahcah
 
 ## ADD
 
