@@ -817,6 +817,12 @@ sc-stats-summary = Common Voice Sentence Collector oc nuchico{ $sentenceCount } 
 sc-submit-err-select-lang = xicnexti mu tlahtol
 sc-submit-err-add-sentences = timits tlatlauhtiyah, xiquin tlali tlahcuilulmeh
 sc-submit-err-add-source = timits tlatlauhtiyah, xictlali se fuente
+sc-submit-prompt =
+    .message = tlahcuilulmeh amo umu naltitlanque, milahuac ticniqui tiyas?
+sc-submit-title = xiquintlali tlahcuilolmeh
+sc-submit-select-language =
+    .labelText = xicnexti mu tlahtol
+sc-submit-add-sentences = xiquin tlali tlahcuilolmeh de <wikipediaLink> dominio masehualnexica</wikipediaLink>
 
 ## ADD LANGUAGE
 
