@@ -833,6 +833,7 @@ sc-submit-guidelines = timits tlatlauhtiah, xiquita<howToLink>directrices</howTo
 ## ADD LANGUAGE
 
 sc-add-lang-could-not-add = amo uhuilic umu tlale tlahtol
+sc-add-lang-sec-label = xictlali se tlahtol tlen tic niquis ica tech palehuis
 
 ## ADD SENTENCES CONFIRMATION
 
