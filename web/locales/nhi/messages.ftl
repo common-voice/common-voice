@@ -779,6 +779,7 @@ sc-howto-review-criteria-4 = tla tlahcuilol quipia nuchi tlanahuatil, xic pacho 
 sc-howto-review-criteria-5 = tla tlahcuilol amo qui chihua ican tlanahuatil, xic pacho campa quintuhua ¨amonicsilia¨ tla amo tic yecmati ican tlahcuilol, nuyuhqui huilis tic panultis tlen hualahtoc
 sc-howto-review-criteria-6 = tlamucahua sin tlahcuilol para ti quitas, ¡ yitech palehui para tic nichicusqueh cachi miak tlahcuilol!
 sc-howto-findpd-subtitle = xiquintemo ichin internet
+sc-howto-findpd-text-2 = xiquilnamiqui que tech niquilian permiso para sequin nextis tlahcuilolmeh, asi que  nuchipa xiquita quen tlahcuilol mui de <wikipediaLink> dominio masehualnexicah </wikipediaLink>. tla amo quihtuhua quenin ximu nuhnutza ihuan masehual aquin uc chihchiuh tlahcuilol huan xic tlahtlani tla quiniqui tech palehuis ica y tlahcuilol ican dominio masehualtlanexicah. tla qumah quiniqueh xiquin palehui muc panultican tiquitl <cc0WaiverLink> tlahcuilol palehuani </cc0WaiverLink> tla amo quiniqueh palehuisqueh ican tlahcuilol entonces amo huilis mucuis nin tlahcuilol.
 sc-howto-findpd-tips = nican catqui siqui tlanimilil para ti cahsis tlahcuilolmeh
 sc-howto-findpd-partner-1 = catqui miak nichicomasehual nestuqueh tlen huilis quiniquisqueh qui chihuasqueh huan yi qui piah miqueh tlahcuilolmeh tlen huilis qui tetlaoculisqueh quemeh Dominio nexica. ximu nuhnutsa ihuan universidades locales, tiquihuahqueh huan nichicomasehual de codigo tlapuhtoc para timu nuhnutzasqueh ican tiquitl huan sek tlahtlanis mutech palehuican
 
