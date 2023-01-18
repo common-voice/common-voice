@@ -654,6 +654,7 @@ de-identified-explanation = Wexto ke qeydê vengî komdaye de seba warardişî p
 
 error-title-404 = Ma no rîpel nêdî
 error-title-503 = Sîteyê ma de problemêko teknîk qewimîya
+error-content-503 = Sîte demêko nêzdî de agêreno. Seba melumato peyên, keremê xo ra beşdarê <matrixLink>xoşebera Matrixî</matrixLink> bibe yan zî <githubLink>GitHub</githubLink> yan <discourseLink>forumanê ma yê Discourse</discourseLink> zîyaret bike û uca raporê xetayan biwane yan zî bi xo birusne.
 error-code = Xeta { $code }
 
 ## Data
@@ -674,6 +675,7 @@ dataset-date = Tarîx
 license = Lîsans: <licenseLink>{ $license }</licenseLink>
 license-mixed = Têmîyan
 data-download-singleword-title = Beşê Hedefî yê Yewçekuyan bîyare war
+review-terms = Bi xebitnayîşê Common Voice, ti <termsLink>Şert û Merc</termsLink> û <privacyLink>Polîtîkaya ma ya NImiteyîye</privacyLink> qebul kenî/a.
 terms-agree = Ez qebul kena
 terms-disagree = Ez qebul nêkena
 review-aborted = Barkerdiş betal bî. Ti wazenî/a qeydanê xo biestirê?
@@ -690,6 +692,7 @@ review-delete-recordings = Qeydanê mi biestire
 datasets-heading = Komdayeyî
 language = Ziwan
 download-dataset-header = Komdayeyî Bîyare War
+download-dataset-tag = Komdayeyê ziwanî yo ke ti wazenî/a, ey weçîne û seba warardişî versîyonêk weçîne.
 # File size in gigabytes
 size = Girsîye
 validated-hr-total = Pêro saetê tesdîqkerdeyî
@@ -704,6 +707,7 @@ confirm-size = Ti hazir î/a ke bi girsîya <b>{ $size }</b> bîyarê war?
 size-gigabyte = GB
 size-megabyte = MB
 confirm-no-identify = Ti <b>qebul kenî/a</b> ke ti yê nêceribnê nasnameyê qiseykerdoxanê komdayeyê Common Voice tesbît bikerê.
+confirm-join-mailing-list = Ez wazena beşdarê lîsteya e-maîl ya Common Voice bibî
 download-language = { $language } bîyare war
 validated-hours = Saetê tesdîqkerdeyî
 recorded-hours = Saetê qeydkerdeyî
@@ -728,6 +732,7 @@ more = Hîna zaf
 close = Pade
 download = Bîyare war
 dataset-version = Versîyon
+clipboard-not-supported = Pano dest nêbeno
 
 ## Download Modal
 
@@ -1421,3 +1426,13 @@ partnerships-academia-header = Unîversîte, Akademîsyen û Cigêrayoxî
 partnerships-small-business-header = Şîrketê qijkekî, yê zîrekîya viraştîye û teknolojî zî tede
 partnerships-corporates-header = Şîrketê girsî û şîrketê platformî
 partnerships-our-partners = Hemparê Ma
+# FIRST POST SUBMISSION CTA
+first-cta-header-text = Seba ke to qeydê vengî bexişnayî, ti weş be!
+first-cta-subtitle-text = Ti wazenî/a derheqê tarzê xo yê qiseykerdişî de hîna zaf melumat bidê?
+why-donate = Çira persenî/a?
+why-donate-explanation-1 = No melumat mecburî nîyo - tena eke pê rehet î/a, pare bike. Ma ke komdayeyî weşanenîme, ma heme melumato şexsî anonîmîze kenîme û garantî kenîme ke melumato sey name û e-maîlê to bi qet yew melumato demografîk ra, sey serrî yan cinsîyetî, nêro girêdayene.
+add-information-button = Melumat îlawe bike
+continue-speaking-button = Ney, sipas. Qiseykerdişî rê dewam
+create-profile-button = Profîlêk viraze
+# IMAGE TAGS
+img-alt-success-checkmark = nîşanê serkewtişî
