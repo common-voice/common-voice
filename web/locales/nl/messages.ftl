@@ -774,6 +774,9 @@ more = Meer
 close = Sluiten
 download = Downloaden
 dataset-version = Versie
+sha256-checksum-copied = SHA256-checksum gekopieerd!
+sha256-checksum-copied-error = Kopiëren van SHA256-checksum mislukt
+clipboard-not-supported = Klembord wordt niet ondersteund
 
 ## Download Modal
 

@@ -152,21 +152,88 @@ ps = Pasitokan
 pt = Porotigɛkan
 quc = Kisekan
 quy = Kesuwasankakan
+rm-sursilv = Romansi Surisilivankan
+rm-vallader = Romansi Valaderikan
+ro = Romaniyankan
+ru = Irisikan
+rw = Kiniyariwandakan
+sah = Sakakan
+sat = Santalikan
+sc = Saridiniyankan
+scn = Sisiliyankan
+sdh = Worodugu Kuridisikan
+shi = Silihakan
+si = Sinihalakan
+sk = Solovakikan
+skr = Sarɛkikan
+sl = Soloveniyankan
+snk = Marakakan
+so = Somalikan
+sq = Alibaniyankan
+sr = Sɛribiyankan
+ss = Siwatikan
+st = Worodugu Sotokan
+sv-SE = Suwɛdikan
+sw = Suwahilikan
+syr = Syriakikan
+ta = Tamilikan
+te = Telugukan
+tg = Tajikikan
+th = Tayilandikan
+ti = Tigirinyakan
+tig = Tigirekan
+tk = Turkmenikan
+tl = Tagalogikan
+tn = Setisuwanakan
+tok = Tokiponakan
+tr = Turukikan
+ts = Sitisongakan
+tt = Tatarikan
+tw = Tuwikan
+ty = Tahitiyankan
+tyv = Tufankan
+uby = Ubykikan
+udm = Udimuritikan
+ug = Uyghurikan
+uk = Ikaraniyankan
+ur = Uridukan
+uz = Uzibekikan
+ve = Tisifendakan
+vec = Venetiyankan
+vi = Viyetinamesikan
+vot = Votikikan
+wo = Wɔlɔfɔkan
+xh = Sosakan
+yi = Yididikan
+yo = Yorubakan
+yue = Kantonesikan
+zgh = Tamazigikan
+zh-CN = Siniwakan (Siini)
+zh-HK = Siniwakan(Hongukongu)
+zh-TW = Siniwakan (Tayiwani)
+zu = Zulukan
+zza = Zazakan
 
 # [/]
 
 
 ## Layout
 
+speak = Kuma
+speak-now = Kuma sisan
+datasets = Daɲɛgafew
+languages = Kanw
 
 ## Home Page
 
 
 ## Account Benefits
 
+keep-track = Aw ye aw ka ɲɛtaa ni jateminɛw jateminɛ kan caman kɔnɔ.
 
 ## What's public
 
+recordings-and-locale-public = Fɔlisenw hakɛ ani i bɛ dɛmɛ don kan minnu na, o bɛna kɛ foroba ye.
 
 ## Speak & Listen Shortcuts
 
@@ -182,6 +249,7 @@ quy = Kesuwasankakan
 
 ## ProfileForm
 
+help-accent-explanation = I ka fɔcogo ye i bɛ daɲɛw fɔcogo minna. O bɛ sɔrɔ  I sigiyɔrɔ  fɛ , i bɛ kan wɛrɛ minnu fɔ ani fɛn caman wɛrɛw. Aw bɛ se ka kunnafoni bɛɛ lase yan aw hakili la min bɛ se ka mago ɲɛ.
 
 ## Profile - Email
 
@@ -191,9 +259,28 @@ quy = Kesuwasankakan
 
 ## FAQ
 
+faq-what-cv-a-2 =
+    Kan dɔnni fɛɛrɛw bɛ ka taɲɛ sɛmɛntiya masinw ka jɛɲɔgɔnya kɛcogo la, nka sisan, sisitɛmu gódongódonlen minnu bɛ yen, olu sɔngɔ ka gɛlɛn, wa  ma kɛrɛnkɛrɛnlenw de ta don  . Mozilla Common Voice ye hakilinan ye min bɛ kan dɔnni fɛɛrɛw nɔgɔya ani ka lasɔrɔli dayɛlɛ ma kelenkelen  bɛɛ fe. Common Voice ye diɲɛ kɔnɔ kunnafonisɛbɛnba ye min bɛ kumakanw lamara, min b’a to mɔgɔ bɛɛ bɛ se ka kumakan-porogaramuw labɛn kɛ teliya la ani nɔgɔya la kan bɛɛ la.
+    
+    An tɛ kan misaliw dɔrɔn lajɛ kanw na minnu bɛ fɔ kosɛbɛ, nka an bɛ kanw fana lajɛ minnu ka fɔbagaw hakɛ ka dɔgɔ. Kumakanw kunnafonidilan suguya caman bɔli bɛna fanga di yiriwalikɛlaw, baarakɛlaw ani sigidamɔgɔw ma walasa u yɛrɛ ka se ka o danfara in ɲɛnabɔ.
+faq-why-important-a =
+    A ka c’a la, kuma de ye an ni ɲɔgɔn cɛ kumaɲɔgɔnya kɛcogo ye min bɛ kɛ cogo la min bɛ kɛ cogo la min bɛ sɔrɔ an yɛrɛ la ani kanko fɛɛrɛw bɛ ka o nɔgɔya lase an ka ɔridinatɛriw ni telefɔni selilɛriw ma. An b’a fɛ ka fanga di baarakɛlaw ma walasa u ka se ka kumakan dɔnni baarakɛminɛn kabakomaw jɔ i n’a fɔ bamanankan bamanankan baarakɛlaw minnu bɛ baara kɛ waati yɛrɛ la ani dɛmɛbagaw nizɛrikan na minnu bɛ se ka kumakan di. Nka sisan yɛrɛ, kumakan kunnafonidilan minnu ka kan ka kɛ walasa ka nin porogaramu suguw dilan, olu fanba sɔngɔ ka gɛlɛn, wa u ye u yɛrɛ ta ye. An jigi b’a kan ko Common Voice kunnafonidilan bɛna fɛn di baarakɛlaw ma u mago bɛ min na walasa ka fɛn kuraw don ani ka kumakan fɛɛrɛbɔ kɛ u yɛrɛ ka kan na.
+    
+    Walasa ka kan dɔnni kɛ diɲɛ bɛɛ ta ye ka tɛmɛn fɔlɔ kan, an bɛ kan misaliw lajɛ kanw na minnu bɛ fɔ kosɛbɛ ani minnu ka kumalasela hakɛ ka dɔgɔ, tuma caman na, jagokɛlaw ka kuma dɔnni baarakɛlaw tɛ baara kɛ kosɛbɛ. Kumakanw kunnafonidilan suguya caman bɔli bɛna fanga di yiriwalikɛlaw, baarakɛlaw, ani kumakan jɛkulu bɛɛ ma walasa u yɛrɛ ka se ka o danfara in ɲɛnabɔ.
+faq-when-release2-q = Tuma jumɛn na i bɛna Common Voice kunnafoniw bɔ kan wɛrɛw la?
+faq-when-release2-a = Common Voice kunnafonidilan min bɛ kan caman na, o bɛ ka sigida dɛmɛni ni a saniyalen kɛ sisan. N’i ​​b’a fɛ k’an dɛmɛ ka Common Voice lase kan kuraw la, taa <sentenceCollectorLink>Kunnafoni dalajɛminɛn</sentenceCollectorLink> lajɛ walasa ka kumasen kura fara kunnafonidilan kan, ani Mozilla <pontoonLink>Pontoon</pontoonLink> walasa ka siti in baara a yɛrɛ ye. Kan kura bɛ Fàra Common Voice kan kanko dɛmɛni kama ni kumasen 5000 dabɔra minnu Dabɔra.
+faq-why-mission-a = Mozilla y’a yɛrɛ di walasa ka ɛntɛrinɛti da wuli ani ka se ka sɔrɔ bɛɛ bolo. Walasa k’o kɛ an ka kan ka fanga di ɛntɛrinɛti dabɔbagaw ma porozɛw fɛ i n’a fɔ Common Voice. Ni kanko fɛɛrɛw bɛ ka caya ka tɛmɛn nisɛ baarakɛminɛnw kan, an dalen b’a la k’u ka kan ka baara kɛ baarakɛlaw bɛɛ ye cogo kelen na. O kɔrɔ ye ka wari bila kan caman na ani ka fɔcogo ni jamanadenw hakɛ suguya caman ladon ni kanko fɛɛrɛw jɔli n’u kɔrɔbɔ. Common Voice ye foroba nafolo ye min bɛ sɔrɔ bɛɛ bolo wa Mozilla jɛkuluw ni baarakɛlaw bɛ baara kɛ n’a ye kaban an yɛrɛ ka porozɛw kan fana.
+faq-why-my-lang-a =
+    Common Voice ye jama sɔrɔyɔrɔ ye, wa kanw bɛɛ farala ɲɔgɔn kan ni bolomafaraw ye.
+    An b’a fɛ kosɛbɛ k’aw ka kan fara a kan! <languageRequestLink>Aw ye ɲininkali kɛ aw ka kan farali kan.
+faq-how-calc-hours-a = An bɛ lɛrɛw jatebɔ ni fɔlisen kelen-kelen bɛɛ janya cɛmancɛ jateminɛ ye, ka sɔrɔ k’o hakɛ caya ni fɔlisenw bɛɛ lajɛlen hakɛ ye kan bɛɛ kɔnɔ.
+faq-why-not-ask-read-q = Mun na i t’a ɲini mɔgɔw fɛ u ka kalan kɛ gafew kɔnɔ walima Wikipeja barokunw na kan wɛrɛw la?
 
 ## ABOUT US
 
+about-header-description-v2 =
+    Common Voice ye kan kunnafonidilan ye min bɛ sɔrɔ foroba la, min bɛ baara kɛ ni bolomafara dibagaw kanw ye diɲɛ fan bɛɛ. Mɔgɔ minnu b’a fɛ ka kumakan baarakɛminɛnw dilan, olu bɛ se ka baara kɛ ni kunnafonidilan ye walasa ka masin kalanni misaliw dege.</p>
+    <p>Sisan , kumakan kunnafonidilan fanba ye tɔnw ta ye , o bɛ kokuradonni bali . Kan kunnafonidilanw fana tɛ : tubabukan fɔbagaw tɛ, mɔgɔ kulɛrilenw, sebaliw, musow ani LGBTQIA+ mɔgɔw. O kɔrɔ ye ko fɛɛrɛ min bɛ Kɛ ni kan ye, o tɛ baara Kɛ hali dɔɔnin kan caman na, wa a bɛ baara Kɛ yɔrɔ min na, a bɛ Se ka Kɛ ko a tɛ baara Kɛ cogo kelen na bɛɛ fɛ. An b' a fɛ k' o fɛn caman Changer ni ka mɔgɔw lajɛ yɔrɔ bɛɛ walasa k' u kan tila ɲɔgɔn na .</p>
 
 ## How does it work section
 
@@ -201,12 +288,19 @@ quy = Kesuwasankakan
 ## Community Playbook Content
 ## What is a language
 
+about-playbook-what-is-language-content-3 = Kan dɔw ka daɲɛgafe, daɲɛw ani fɔcogo bɛ ɲɔgɔn Bɔ kosɛbɛ. O de kama, an bɛ <ctaLink>ka ‘Variants’</ctaLink> bila senkan san 2022. O bɛ fɛɛrɛ di sigidamɔgɔw ma u ka kanw danfara la kunnafonidilanba kɔnɔ.
 
 ## How do I add a language
 
+about-playbook-how-add-language-translating-content-2 =
+    An bɛ baara Kɛ ni Mozilla baarakɛminɛn dɔ ye min bɛ Weele ko <pontoonLink>Pontoon</pontoonLink> bamanankan-falen-falen kama. Pontoon bɛ kan caman fɔ,
+    nka n'i ta t'a la i bɛ se ka <pontoonRequestLink>ɲini i ka kan ka fara a kan</pontoonRequestLink>.
+    O kɔfɛ, walasa kan in ka se ka sɔrɔ Common Voice porozɛ kan,
+    <githubRepoLink>kan kura ɲini GitHub</githubRepoLink> kan. <localizationFragment>Aw ye kunnafoni wɛrɛw lajɛ site bamanankan</localizationFragment> kan.
 
 ## How does localization work
 
+about-playbook-how-localize-content-3 = Bayɛlɛmali bɛ kɛ ka bɔ Angilɛkan  na, nka i bɛ se ka <strong>Ladilikan</strong> ye kan wɛrɛw la. <strong>Profile</strong> taamasiyɛn digi, o kɔ <strong>Settings</strong> yɔrɔ digi ani i bɛ kan minnu fɔ, i bɛ olu fara a kan. Jiginni kininbolo fɛ, bamanankan baarakɛcogo dɔw bɛna sɔrɔ minnu bɛ wele ko <strong>Yɔrɔw</strong>. Bamanankan bayɛlɛmaniw bɛ jira site web kan tile kelen kɔfɛ.
 
 ## How to add sentences
 
@@ -228,6 +322,7 @@ quy = Kesuwasankakan
 
 ## Glossary
 
+localization-explanation = Nin ye an ka taabolo ye walasa k’an ka bayɛlɛmali baara ani k’u bɛrɛbɛn sigida (kan caman) caman ma.
 
 ## Error pages
 
@@ -237,6 +332,12 @@ quy = Kesuwasankakan
 
 ## Datasets Page
 
+dataset-description-hours =
+    Donan kelen-kelen bɛɛ bɛ Kɛ ni MP3 kɛrɛnkɛrɛnnen ye ani sɛbɛnni-dosiyɛri min bɛ Bɛn o ma. <b>{ $total }</b> lɛrɛ minnu sɛbɛnna kunnafonidilan kɔnɔ, olu caman fana bɛ jamanadenw ka kunnafonidilanw kɔnɔ i n’a fɔ si hakɛ, cɛya ni musoya, ani fɔcogo minnu bɛ se ka dɛmɛ don ka kuma dɔnni masinw ka tiɲɛni dege.
+    
+    Donanw kulu bɛ kɛ sisan <b>{ $valid }</b> lɛrɛw ye minnu sɛgɛsɛgɛra <b>{ $kanw }</b> kanw na, nka an bɛ kan ni kan caman fara a kan tuma bɛɛ. Aw ye an ka <languagesLink>Kanw ɲɛ</languagesLink> lajɛ walasa ka kan dɔ ɲini walima ka dɛmɛ daminɛ.
+missing-language = I ɲɛ tɛ i ka kan na Dataset kɔnɔ wa? Walasa ka kan dɔ ɲini,  taa an ka Kanw ɲɛ kan.
+go-languages-page = Taga kanw ɲɛ kan
 
 ## Download Modal
 
@@ -249,9 +350,29 @@ quy = Kesuwasankakan
 
 ## Request Language Pages
 
+request-language-explanation-1 =
+    A lajɛ n’i ka kan sɛbɛnnen bɛ
+    <languagesPageLink>kan jɛlenw ɲɛ</languagesPageLink>.
+    N’o tɛ, i ka nin sɛbɛn in dafa, an bɛna <strong>i ka bataki ci i ma min bɛ se ka kɛ i bolo
+    ka ɲɛfɔli kɛ i ka kan sigicogo kan</strong>.
 
 ## Languages Overview
 
+language-section-in-progress = A bɛ ka taa ɲɛ
+language-section-in-progress-new-description = O kan ninnu bɛ sigida yiriwali la sisan. <localizationGlossaryLink>Website sigidako</localizationGlossaryLink> ani <sentenceCollectionGlossaryLink>kumasenw dalajɛ</sentenceCollectionGlossaryLink> ka kan ka daminɛ.
+language-section-launched = A daminɛna
+language-section-launched-description = Nin kan daminɛna ninnu na, siti in ye <localizationGlossaryLink>localization</localizationGlossaryLink> sɔrɔ ka ɲɛ, wa <sentenceCollectionGlossaryLink>kumasen caman bɛ a la minnu lajɛlen don</sentenceCollectionGlossaryLink> walasa ka sira di <speakLink>Speak</speakLink> ani <listenLink>Lamɛnni</listenLink ma minnu bɛ taa ɲɛ > bolomafaraw.
+languages-show-more = Dɔ wɛrɛ lajɛ
+languages-show-less = Lajɛta dɔgɔya
+language-meter-in-progress = Ka taa ɲɛ
+language-total-progress = Jɛkulu Bɛɛ lajɛlen
+language-search-input =
+    .placeholder = Ɲinili
+language-speakers = Kanfɔbagaw
+localized = Sigida la
+sentences = Kumasenw
+language-validation-hours = Lɛriw
+language-validation-progress = Validation (dafali) ɲɛtaa
 
 ## Contribution
 
@@ -269,6 +390,7 @@ record-cta = Kumakan taali daminɛ
 
 ## Dashboard
 
+your-languages = Aw ka Kanw
 
 ## Custom Goals
 
@@ -287,6 +409,8 @@ record-cta = Kumakan taali daminɛ
 
 ## Demo Datasets
 
+demo-language-select-card-body = Mɔgɔ 259000 ni kɔ ka dɛmɛ sababu la kan 50 ni kɔ la, o kunnafoniw bɛ kɛ ka kuma-se-minɛnw dege walasa ka hadamaden kan jaabi ka ɲɛ.
+demo-language-select-label = Kanw lajɛ
 
 ## Demo Account
 
@@ -313,9 +437,13 @@ record-cta = Kumakan taali daminɛ
 
 ## GENERAL
 
+sc-languages-fetch-error = An ma se ka kanw sɔrɔ minnu bɛ sɔrɔ. Bolomafaraw tɛ se ka kɛ sisan. Aw ye aw jija ka segin ka a lajɛ kɔfɛ.
 
 ## HOW-TO
 
+sc-howto-addlang-title = Kanw farali ka baara kɛ ni minnu ye
+sc-howto-addlang-text = Ni i donna a kɔnɔ i bɛ se k’i ka kanw sugandi ka bɔ i ka profil yɔrɔ la.
+sc-howto-addsen-item-6 = Kanw bɛ se k’u ka <validationRulesLink>u yɛrɛ ka dantigɛli sariyaw</validationRulesLink> ni wajibi wɛrɛw ye. Ni kan dɔ ka dantigɛli-dosiyɛri kɛrɛnkɛrɛnnen tɛ yen, an bɛ baara kɛ ni tubabukan sariyaw bɛɛ lajɛlen ye.
 
 ## MY SENTENCES
 
@@ -325,6 +453,10 @@ record-cta = Kumakan taali daminɛ
 
 ## STATS
 
+# Variables:
+#   $sentenceCount (Number) - Total number of sentences uploaded through Sentence Collector
+#   $languageCount (Number) - Total number of languages these sentences represent
+sc-stats-summary = Common Voice Sentence Collector ye { $sentenceCount } kumasenw lajɛ { $languageCount } kanw na!
 
 ## ADD
 
@@ -343,12 +475,15 @@ record-cta = Kumakan taali daminɛ
 
 ## PROFILE
 
+sc-personal-your-languages = Aw ka kanw:
+sc-personal-not-added = Aw ma kan si Fàra o kan fɔlɔ.
 
 ## REVIEW CRITERIA
 
 
 ## REVIEW
 
+sc-review-lang-not-selected = I ma kan si sugandi. Aw ye taa aw ka <profileLink>Profile</profileLink> la walasa ka kanw sugandi.
 
 ## SETTINGS
 

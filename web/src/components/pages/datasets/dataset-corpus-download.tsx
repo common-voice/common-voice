@@ -7,7 +7,7 @@ import * as React from 'react';
 import { useState, useEffect } from 'react';
 import { localeConnector } from '../../locale-helpers';
 import useSortedLocales from '../../../hooks/use-sorted-locales';
-import { LabeledSelect, Spinner, StyledLink } from '../../ui/ui';
+import { LabeledSelect, Spinner } from '../../ui/ui';
 
 import DatasetDownloadEmailPrompt from './dataset-download-email-prompt';
 
@@ -17,9 +17,8 @@ import DatasetCorpusDownloadTable from './dataset-corpus-download-table';
 import PageHeading from '../../ui/page-heading';
 import { formatBytes } from '../../../utility';
 import { DeltaReadMoreLink } from '../../shared/links';
-const EMAIL_ADDRESS = 'commonvoice@mozilla.com';
 
-interface Props {
+interface Props extends WithLocalizationProps {
   languagesWithDatasets: { id: number; name: string }[];
   initialLanguage: string;
 }
@@ -35,7 +34,7 @@ const DatasetCorpusDownload = ({
   getString,
   languagesWithDatasets,
   initialLanguage,
-}: Props & WithLocalizationProps) => {
+}: Props) => {
   const [isLoading, setIsLoading] = useState(true);
   const [selectedDataset, setSelectedDataset] = useState<LanguageDatasets>();
   const [languageDatasets, setLanguageDatasets] = useState<LanguageDatasets[]>(
@@ -48,10 +47,12 @@ const DatasetCorpusDownload = ({
     languagesWithDatasets.map(s => s.name),
     getString
   )[0];
+
   const handleLanguageChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     const newLocale = event.target.value;
     setLocale(newLocale);
   };
+
   const handleRowSelect = (selectedId: number) =>
     setSelectedDataset(languageDatasets.find(d => d.id === selectedId));
 
@@ -66,6 +67,7 @@ const DatasetCorpusDownload = ({
       setIsLoading(false);
     });
   }, [locale]);
+
   return (
     <div className="dataset-corpus-download">
       <div className="dataset-corpus-download-container">

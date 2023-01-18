@@ -779,6 +779,9 @@ more = Mer
 close = Stäng
 download = Hämta
 dataset-version = Version
+sha256-checksum-copied = SHA256-kontrollsumma kopierad!
+sha256-checksum-copied-error = Det gick inte att kopiera SHA256-kontrollsumma
+clipboard-not-supported = Urklipp stöds inte
 
 ## Download Modal
 
@@ -1581,3 +1584,5 @@ second-cta-header-text = Tack för att du bidrar med din röst!
 second-cta-subtitle-text = Med en profil kan du hålla reda på din aktivitet och få kontakt med en grupp bidragsgivare av röstdata.
 already-have-an-account = Har du redan ett konto? <login>Logga in</login>
 create-profile-button = Skapa en profil
+# IMAGE TAGS
+img-alt-success-checkmark = lyckad kryssmarkering

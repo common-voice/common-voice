@@ -771,6 +771,9 @@ more = Plus
 close = Clauder
 download = Discargar
 dataset-version = Version
+sha256-checksum-copied = Summa de controlo SHA256 copiate!
+sha256-checksum-copied-error = Impossibile copiar le summa de controlo SHA256
+clipboard-not-supported = Area de transferentia non supportate
 
 ## Download Modal
 

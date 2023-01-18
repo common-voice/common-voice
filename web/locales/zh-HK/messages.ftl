@@ -497,6 +497,7 @@ about-localization-subtitle = 網站被翻譯為該語言。
 about-sentence-collection-title = 收集句子
 about-sentence-collection-subtitle = 收集好啲句子俾人錄音。
 about-new-lang-title = 發布新語言
+about-new-lang-subtitle = 我哋會推出呢個語言嘅 Common Voice 網站。
 about-voice-contrib-title = 貢獻錄音
 about-voice-contrib-subtitle = 一班人貢獻自己嘅錄音。
 about-voice-validation-title = 驗證錄音
@@ -551,6 +552,7 @@ about-playbook-how-add-language-content-1 =
 about-playbook-how-add-language-translating-heading = 翻譯網站
 about-playbook-how-add-language-translating-content-1 = <translateVideoLink>睇一睇 Pontoon 嘅使用教學指南。</translateVideoLink>
 about-playbook-how-add-language-collecting-sentences-heading = 收集句子
+about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo> 睇睇我哋嘅 Sentence Collector 使用教學短片</sentenceCollectorVideo>。
 
 ## How does localization work
 

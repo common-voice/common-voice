@@ -774,6 +774,9 @@ more = Több
 close = Bezárás
 download = Letöltés
 dataset-version = Verzió
+sha256-checksum-copied = SHA256 ellenőrzőösszeg másolva!
+sha256-checksum-copied-error = Az SHA256 ellenőrzőösszeg másolása sikertelen
+clipboard-not-supported = A vágólap nem támogatott
 
 ## Download Modal
 

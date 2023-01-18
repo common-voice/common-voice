@@ -13,4 +13,3 @@ get-involved-stayintouch = Mozilla-ত আমি কণ্ঠস্বৰ প্
 get-involved-privacy-info = আমি আপোনাৰ তথ্য যতনেৰে পৰিচালনা কৰাৰ প্ৰতিশ্ৰুতি দিছোঁ। আমাৰ <privacyLink>গোপনীয়তাৰ জাননী</privacyLink>ত অধিক পঢ়ক।
 get-involved-success-title = { $language }ত অৱদান দিবলৈ আপুনি সফলভাৱে ছাইন আপ কৰিলে। ধন্যবাদ।
 get-involved-success-text = এয়া উপলব্ধ হ’লে আমি অধিক তথ্যৰ সৈতে যোগাযোগ কৰিম।
-get-involved-return-to-languages = ভাষালৈ উভতি যাওক

@@ -18,6 +18,8 @@ banner-error-slow-1 = Rất tiếc, Common Voice đang chạy chậm. Cảm ơn 
 banner-error-slow-2 = Chúng tôi đang nhận được rất nhiều lưu lượng truy cập và hiện đang điều tra các vấn đề.
 banner-error-slow-link = Trang trạng thái
 error-something-went-wrong = Xin lỗi, có gì đó không ổn
+error-clip-upload = Clip này không thể tải lên trong nhiều lần gần đây, thử lại?
+error-clip-upload-server = Clip này không thể tải lên trong nhiều lần gần đây tại máy chủ? Tải lại trang hoặc thử lại sau.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -768,6 +770,9 @@ more = Thêm
 close = Đóng
 download = Tải xuống
 dataset-version = Phiên bản
+sha256-checksum-copied = Đã sao chép Checksum SHA256!
+sha256-checksum-copied-error = Không thể sao chép Checksum SHA256
+clipboard-not-supported = Khay nhớ tạm không được hỗ trợ
 
 ## Download Modal
 
@@ -1615,3 +1620,5 @@ second-cta-header-text = Cảm ơn bạn đã đóng góp tiếng nói của b�
 second-cta-subtitle-text = Với một hồ sơ, bạn có thể theo dõi hoạt động của mình và kết nối với cộng đồng những người đóng góp dữ liệu giọng nói.
 already-have-an-account = Bạn đã có tài khoản? <login>Đăng nhập</login>
 create-profile-button = Tạo hồ sơ
+# IMAGE TAGS
+img-alt-success-checkmark = dấu kiểm thành công

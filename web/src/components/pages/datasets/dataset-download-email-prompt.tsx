@@ -27,6 +27,7 @@ interface FormState {
   isEmailValid: boolean;
   confirmNoIdentify: boolean;
   confirmSize: boolean;
+  confirmJoinMailingList: boolean;
   downloadLink?: string;
   hideEmailForm: boolean;
 }
@@ -47,6 +48,7 @@ const DatasetDownloadEmailPrompt = ({
     isEmailValid: false,
     confirmNoIdentify: false,
     confirmSize: false,
+    confirmJoinMailingList: false,
     downloadLink: null,
     hideEmailForm: false,
   } as FormState);
@@ -58,6 +60,7 @@ const DatasetDownloadEmailPrompt = ({
     isEmailValid,
     confirmNoIdentify,
     confirmSize,
+    confirmJoinMailingList,
     downloadLink,
     hideEmailForm,
   } = formState;
@@ -80,6 +83,14 @@ const DatasetDownloadEmailPrompt = ({
   const saveHasDownloaded = async () => {
     if (canDownloadFile) {
       await api.saveHasDownloaded(email, selectedLocale, releaseId);
+    }
+
+    if (confirmJoinMailingList) {
+      try {
+        await api.subscribeToNewsletter(email);
+      } catch (error) {
+        console.error(error);
+      }
     }
   };
 
@@ -166,6 +177,12 @@ const DatasetDownloadEmailPrompt = ({
               checked={confirmNoIdentify}
               onChange={handleInputChange}
               required
+            />
+            <LabeledCheckbox
+              label={<Localized id="confirm-join-mailing-list" />}
+              name="confirmJoinMailingList"
+              checked={confirmJoinMailingList}
+              onChange={handleInputChange}
             />
           </div>
           <div className="input-group">

@@ -13,7 +13,7 @@ import { useAPI } from '../../../hooks/store-hooks';
 import { Dataset, Datasets } from 'common';
 import { useLocale } from '../../locale-helpers';
 
-const DatasetSegmentDownload = () => {
+const DatasetSegmentDownload: React.FC = () => {
   const [isLoading, setIsLoading] = useState(true);
   const [releaseData, setReleaseData] = useState<Dataset>();
   const api = useAPI();

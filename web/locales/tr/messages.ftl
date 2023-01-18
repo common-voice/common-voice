@@ -768,6 +768,7 @@ more = Daha fazla
 close = Kapat
 download = İndir
 dataset-version = Sürüm
+clipboard-not-supported = Pano desteklenmiyor
 
 ## Download Modal
 
@@ -1527,6 +1528,7 @@ localization-select =
 partnerships-header = İş Ortaklıkları
 partnerships-get-in-touch = Bize ulaşın
 partnerships-become-a-partner = Common Voice İş Ortağı Olun
+partnerships-community-header = Toplum, Yaratıcılar ve Sivil Toplum
 partnerships-foundations-header = Vakıflar
 partnerships-governments-header = Devletler
 partnerships-academia-header = Üniversiteler, Akademisyenler ve Araştırmacılar
@@ -1546,3 +1548,5 @@ thanks-for-voice-toast-error = Ses bilgileriniz gönderilirken bir hata oluştu
 second-cta-header-text = Sesinizle katkıda bulunduğunuz için teşekkürler!
 already-have-an-account = Zaten hesabınız var mı? <login>Giriş yapın</login>
 create-profile-button = Profil oluştur
+# IMAGE TAGS
+img-alt-success-checkmark = başarı onay işareti

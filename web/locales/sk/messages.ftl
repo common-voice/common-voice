@@ -18,6 +18,8 @@ banner-error-slow-1 = Ospravedlňujeme sa, Common Voice beží pomaly. Ďakujeme
 banner-error-slow-2 = Zaznamenávame veľkú návštevnosť a momentálne problémy skúmame.
 banner-error-slow-link = Stavová stránka
 error-something-went-wrong = Ospravedlňujeme sa, niečo sa pokazilo
+error-clip-upload = Nahrávanie tohto klipu stále zlyháva, skúšať to znova?
+error-clip-upload-server = Nahrávanie tohto klipu na serveri stále zlyháva. Znova načítajte stránku alebo to skúste znova neskôr.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -786,6 +788,9 @@ more = Viac
 close = Zavrieť
 download = Stiahnuť
 dataset-version = Verzia
+sha256-checksum-copied = Kontrolný súčet SHA256 bol skopírovaný!
+sha256-checksum-copied-error = Nepodarilo sa skopírovať kontrolný súčet SHA256
+clipboard-not-supported = Schránka nie je podporovaná
 
 ## Download Modal
 
@@ -1586,3 +1591,5 @@ second-cta-header-text = Ďakujeme, že ste prispeli svojím hlasom!
 second-cta-subtitle-text = Pomocou profilu môžete sledovať svoju aktivitu a spojiť sa s komunitou prispievateľov hlasových dát.
 already-have-an-account = Máte už účet? <login>Prihlásiť sa</login>
 create-profile-button = Vytvoriť profil
+# IMAGE TAGS
+img-alt-success-checkmark = symbol začiarknutia

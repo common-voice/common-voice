@@ -783,6 +783,9 @@ more = Mear
 close = Slute
 download = Downloade
 dataset-version = Ferzje
+sha256-checksum-copied = SHA256-checksum kopiearre!
+sha256-checksum-copied-error = Kopiearjen SHA256-checksum mislearre
+clipboard-not-supported = Klamboerd wurdt net stipe
 
 ## Download Modal
 

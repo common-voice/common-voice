@@ -8,6 +8,7 @@ email-input =
     .label = ⵉⵎⴰⵢⵍ
 submit-form-action = ⴰⵣⵏ
 loading = ⴰⴽⵜⵓⵔ...
+banner-error-slow-link = ⵜⴰⵙⵏⴰ ⵏ ⵡⴰⴷⴷⴰⴷ
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -92,6 +93,18 @@ kn = ⵜⴰⴽⴰⵏⵏⴰⴷⴰⵢⵜ
 ko = ⵜⴰⴽⵓⵔⵉⵢⵜ
 ky = ⵜⴰⴽⵉⵔⴳⵉⵣⵉⵜ
 lb = ⵜⴰⵍⵓⴽⵙⵎⴱⵓⵔⴳⵉⵜ
+ln = ⵜⴰⵍⵉⵏⴳⴰⵍⴰⵜ
+mn = ⵜⴰⵎⵓⵏⴳⵓⵍⵉⵜ
+mt = ⵜⴰⵎⴰⵍⵟⵉⵜ
+nl = ⵜⴰⵀⵓⵍⴰⵏⴷⵉⵜ
+pt = ⵜⴰⴱⵔⵜⵇⵉⵣⵜ
+ru = ⵜⴰⵔⵓⵙⵉⵜ
+shi = ⵜⴰⵛⵍⵃⵉⵜ
+so = ⵜⴰⵚⵓⵎⴰⵍⵉⵜ
+sq = ⵜⴰⵍⴱⴰⵏⵉⵜ
+sr = ⵜⴰⵚⵉⵕⴱⵉⵜ
+sv-SE = ⵜⴰⵙⵡⵉⴷⵉⵜ
+wo = ⵜⴰⵡⵓⵍⵓⴼⵜ
 zgh = ⵜⴰⵎⴰⵣⵉⵖⵜ
 zh-CN = ⵜⴰⵛⵉⵏⵡⵉⵜ (ⵛⵉⵏⵡⴰ)
 zh-HK = ⵜⴰⵛⵉⵏⵡⵉⵜ (ⵀⵓⵏⴳ ⴽⵓⵏⴳ)
@@ -105,9 +118,17 @@ zza = ⵜⴰⵣⴰⵣⴰⵜ
 ## Layout
 
 languages = ⵜⵓⵜⵍⴰⵢⵉⵏ
+profile = ⵉⴼⵔⵙ
+help = ⵜⵉⵡⵉⵙⵉ
+privacy = ⵜⵉⵏⵏⵓⵜⵍⴰ
+terms = ⵜⵉⴼⴰⴷⵉⵡⵉⵏ
+cookies = ⵉⴽⵓⴽⵉⵜⵏ
+logout = ⴼⴼⵖ
 
 ## Home Page
 
+vote-yes = ⵢⴰⵀ
+vote-no = ⵓⵀⵓ
 
 ## Account Benefits
 
@@ -139,10 +160,16 @@ shortcut-discard-ongoing-recording = ⵔⵡⵍ
 
 ## ProfileForm
 
+profile-form-username =
+    .label = ⵉⵙⵎ ⵏ ⵓⵏⵙⵙⵎⵔⵙ
+profile-form-native-language =
+    .label = ⵜⵓⵜⵍⴰⵢⵜ ⵜⴰⵢⵎⵎⴰⵜ
 profile-form-language =
     .label = ⵜⵓⵜⵍⴰⵢⵜ
 profile-form-variant =
     .label = ⵎⴰⵏ ⵜⴰⵎⵣⴰⵔⴰⵢⵜ ⵏ { $language } ⴰ ⵙ ⵜⵙⴰⵡⴰⵍⵎ?
+profile-close = ⵔⴳⵍ
+edit = ⵙⵏⴼⵍ
 
 ## Profile - Email
 
@@ -278,6 +305,7 @@ your-languages = ⵜⵓⵜⵍⴰⵢⵉⵏ ⵏⵏⵓⵏ
 
 ## HEADER/FOOTER
 
+sc-footer-privacy = ⵜⵉⵏⵏⵓⵜⵍⴰ
 
 ## HOME
 

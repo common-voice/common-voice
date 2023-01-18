@@ -18,6 +18,8 @@ banner-error-slow-1 = Ci dispiace, il funzionamento di Common Voice è rallentat
 banner-error-slow-2 = Stiamo ricevendo molto traffico e stiamo attualmente analizzando il problema.
 banner-error-slow-link = Pagina di stato
 error-something-went-wrong = Siamo spiacenti, si è verificato un errore
+error-clip-upload = Si continua a verificare un errore con il caricamento di questa registrazione. Riprovare ancora?
+error-clip-upload-server = Si continua a verificare un errore con il caricamento sul server di questa registrazione. Ricarica la pagina o riprova più tardi.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -761,6 +763,9 @@ more = Altro
 close = Chiudi
 download = Scarica
 dataset-version = Versione
+sha256-checksum-copied = Checksum SHA256 copiato.
+sha256-checksum-copied-error = Impossibile copiare il checksum SHA256
+clipboard-not-supported = Appunti non supportati
 
 ## Download Modal
 
@@ -1546,3 +1551,5 @@ second-cta-header-text = Grazie per aver donato la tua voce.
 second-cta-subtitle-text = Con un profilo puoi tenere traccia della tua attività ed entrare in contatto con una comunità di donatori di voce.
 already-have-an-account = Hai già un account? <login>Accedi</login>
 create-profile-button = Crea un profilo
+# IMAGE TAGS
+img-alt-success-checkmark = spunta di successo

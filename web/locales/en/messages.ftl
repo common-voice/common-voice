@@ -764,6 +764,7 @@ confirm-size = You are prepared to initiate a download of <b>{ $size }</b>
 size-gigabyte = GB
 size-megabyte = MB
 confirm-no-identify = <b>You agree</b> to not attempt to determine the identity of speakers in the Common Voice dataset
+confirm-join-mailing-list = I want to join the Common Voice mailing list
 download-language = Download { $language }
 validated-hours = Validated Hours
 recorded-hours = Recorded Hours
