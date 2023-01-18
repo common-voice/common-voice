@@ -51,11 +51,14 @@ vote-yes = quemah
 vote-no = amo
 toggle-play-tooltip = xipacho { shortcut-play-toggle } para sec xotlaltis mu pehua
 speak-subtitle = xitetlaoculi mu tlahtol
+speak-paragraph = tlahtolahcucui tlahtulmeh para tic chihuas tu base de datos tlapuhtoc; sansiqueh quihtusque nuyuhqui nicancah ahuiltil
+speak-goal-text = tlahcuilol tlahtolahcuctoc
 listen-subtitle = xitechpalehui matic silicah tlahtulmeh
 listen-paragraph = sequinsilis siqueh tlahtulmeh tetlaoculil simi muniqui para tiquitl de Common Voice. Xicaqui huan xitech palehui maticchihuacan tlanunutztlahtol tlapuhtok huan tlen cachi cuahcual
 voices-online = tlahtulmeh tlen axa catqui  en lìnea
 todays-progress = nimilis de axan
 help-reach-goal = xitechpalehui matic chihuacan
+read-terms-q = yutiquin machteh condiciones de quenin ticuis servicio?
 ready-to-record = ¿yiticah cuali para tic tetlauculis mu tlahtol?
 all-locales = Nochi
 today = Axan
@@ -77,6 +80,7 @@ x-years-short =
 help-make-dataset = xitechpalehui matic chihuacah tlapalehuil amatl de  huehcapan cuahcual huan mucahsi para nuchin tlalticpac
 sign-up-account = ximoihcuilo para tic silis se cuenta
 email-subscription-title = ximoihcuilo para tic silis yancuik tlahtol ichin mu correo
+email-subscription-title-new = ximuihcuilo ichin boletin de tlanahuatil, ichin ilnamiquilis huan yancuic nemilis de Common Voice
 
 ## Account Benefits
 
@@ -85,12 +89,14 @@ rich-data = yehyeco tlen tlanahuatil tlen ticnaltitlantoc moican nuchten, xictem
 improve-audio = tlanahuatil den perfil mu yectlalis ican tlanahuatil tlahtol tlen mucui campa se mu nextilia ican cuali ixmatiliz tlahtol
 keep-track = xicpia se tlahcuilol ica mu nemilis huan métricas ica miak tlahtol
 compare-progress = xiquita mu nimilis ika tlen de ocsiquen tlapalehuaneh ichi nuchi tlalticpac
+view-goals = xiquita mu nemilis ica mu tiquitl sesiahcah huan de mu tiquiuh
 join-newsletter = nuhual huilis timu nilos ichin tu tlahcuilol correo electronico para tic silis yancuic huan tlahtol ikan tiquitl
 
 ## What's public
 
 whats-public = ¿tlenon mu chihua iixpan masehualmeh?
 email-not-public = amo secnextis mu correo electrònico
+recordings-and-locale-public = puhual den tlahtolahcuctok huan tlahtulmeh campa titech palehuia quemah mu nextis
 username-optin-public = huilis tic nextis tla se tocayo nextilis o ichtaca
 username-email-not-demographic = mu tocayo de ususario huan correo electronico munilusqueh ica tlanahuatil tlen yumunextihqueh
 
@@ -103,6 +109,8 @@ shortcut-play-toggle-label = nihnimilti/tzacuili
 
 ## Speak Shortcuts
 
+shortcut-record-toggle-label = tlahtolahcucui/xicmana
+shortcut-rerecord-toggle-label = xi tlahtolahcucui ocsipa clip
 shortcut-discard-ongoing-recording-label = xiquixpulo grabacion tlen ticchiuhtok
 shortcut-submit = Xiualmocuipa
 shortcut-submit-label = xiquinaltitlani grabaciones
@@ -129,6 +137,7 @@ profile-form-language =
     .label = Tlahtol
 profile-form-variant =
     .label = ¿tlen variante { $language } tiktlahtuhua?
+profile-form-variant-default-value = amo cah variante tlen u mu nexte
 profile-form-custom-accent-help-text =
     .label = ¿quenin tic nextis mu acento?
 profile-form-custom-accent-placeholder-2 = xipehua xi tlahcuilo para tic nextis mu acento
