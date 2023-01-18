@@ -739,6 +739,7 @@ confirm-size = Tu es preste a initiar un discargamento de <b>{ $size }</b>
 size-gigabyte = GB
 size-megabyte = MB
 confirm-no-identify = <b>Tu concorda</b> de non tentar de determinar le identitate del parlantes in le collection de datos de Common Voice
+confirm-join-mailing-list = Io vole junger me al lista de diffusion de Common Voice
 download-language = Discargar { $language }
 validated-hours = Horas validate
 recorded-hours = Horas registrate
