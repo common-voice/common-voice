@@ -745,6 +745,7 @@ confirm-size = আপুনি <b>{ $size }</b>-ৰ ডাউনল’ড এট
 size-gigabyte = GB
 size-megabyte = MB
 confirm-no-identify = কমন ভইচ ডেটাছেটত থকা কওঁতাসকলৰ পৰিচয় নিৰ্ধাৰণ কৰিবলৈ চেষ্টা নকৰে বুলি <b>আপুনি সন্মত হৈছে</b>
+confirm-join-mailing-list = মই কমন ভইচৰ মেইলিং তালিকাত যোগদান কৰিব খোজোঁ
 download-language = { $language } ডাউনল’ড কৰক
 validated-hours = বৈধকৰণ হোৱা ঘণ্টা
 recorded-hours = ৰেকৰ্ড হোৱা ঘণ্টা
