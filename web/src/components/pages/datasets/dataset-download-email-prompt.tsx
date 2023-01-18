@@ -178,14 +178,12 @@ const DatasetDownloadEmailPrompt = ({
               onChange={handleInputChange}
               required
             />
-            {
-              <LabeledCheckbox
-                label={<Localized id="confirm-join-mailing-list" />}
-                name="confirmJoinMailingList"
-                checked={confirmJoinMailingList}
-                onChange={handleInputChange}
-              />
-            }
+            <LabeledCheckbox
+              label={<Localized id="confirm-join-mailing-list" />}
+              name="confirmJoinMailingList"
+              checked={confirmJoinMailingList}
+              onChange={handleInputChange}
+            />
           </div>
           <div className="input-group">
             <LinkButton
