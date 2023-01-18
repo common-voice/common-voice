@@ -5,6 +5,8 @@ email-input =
     .label = Correo
 submit-form-action = Xictitlani
 error-something-went-wrong = Xitechtlapohpolui, amo oquis cuali.
+error-clip-upload = y yehyeculis nicancah clip ayamo cualtia, ocxic yehyeco
+error-clip-upload-server = y yehyeculis nicancah clip ayamo cualtia ichin servidor, ocsipa xic yehyecolti pagina o xic yehyeco ocsipa cachi tlahcah
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -22,7 +24,9 @@ eo = Esperanto
 speak = xitlahto
 speak-now = xitlahto axan
 languages = tlahtulmeh
+about = ica Common Voice
 partner = nuyolchicauhca
+profile = nexicah
 help = xinechpalehui
 privacy = ichtaca
 faq = tlahtlanil simi
