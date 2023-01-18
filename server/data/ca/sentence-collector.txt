@@ -7854,6 +7854,7 @@ En Joan sembla que sigui al·lèrgic a l'aigua!
 En Joan va anar a córrer una estona pel parc.
 En Joan va arribar ahir.
 En Joan és qui remena les cireres en aquella associació. Parla amb ell.
+En Jordi era des cos d'artillers del rei.
 En Jordi no sap estar amb els nens.
 En Josep Rodon arribà al portal de Llotja
 En Josep dorm més que el guix de Senterada.
@@ -8789,6 +8790,7 @@ Es pot parlar com d'una empresa d'ampliació quantitativa de la vida humana.
 Es pot saber qui t’ha telefonat?
 Es pot utilitzar oli, mantega, llard o llard i mantega, o bé margarina.
 Es presenta a les proteïnes fibroses i a les globulars.
+Es primer menorquí des seu llinatge.
 Es produeixen en les formes condemnades, com la poesia o la novel·la.
 Es produeixen noves formes de lluita paral·lelament als conflictes directament econòmics i polítics.
 Es produí el descobriment d'Amèrica.
@@ -8849,6 +8851,7 @@ Es va alçar un senyor entre la concurrència, dient amb vivesa i aplom:
 Es va alçar un senyor entre la concurrència.
 Es va alçar una mica adolorit i molt profundament ofès.
 Es va aturar al mig de les atxes
+Es va casar amb una al•lota mallorquina.
 Es va colgar as llit i ja no hi va haver més festes
 Es va comprar unes ulleres a la pastisseria de sota casa.
 Es va constituir una Internacional dels Artistes Experimentals.
@@ -9010,6 +9013,7 @@ Estava ben a punt per a encetar una nova jornada
 Estava cansat, així que s'en va anar a dormir.
 Estava composta per tres estaments socials:.
 Estava convençut de l'encís que causen els panorames naturals
+Estava destinat as Castell de Sant Felip.
 Estava empedrada amb cranis de calaveres.
 Estava ficat en especulacions de què ell era l'ànima i el braç.
 Estava lesionat del genoll i, tot i així, va jugar.
@@ -18219,6 +18223,7 @@ S'havia de ficar dins.
 S'havia distret i descomptat, mirant aquell jovent
 S'havia establert ja al carrer de Trafalgar.
 S'havia fet l'exterior, que ja es fer
+S'havia format a s'escola d'artillers de Mallorca.
 S'havia marcat un objectiu massa difícil d'assolir.
 S'havia ordenat la dissolució de les patrulles de control
 S'havia produït una onada d'entusiasme
@@ -21695,6 +21700,7 @@ Van ser precisament els que es considerarien, posteriorment, com a deuterocanòn
 Van sonar més trets.
 Van sortir a baladrejar eslògans revolucionaris només per salvar la pell.
 Van tenir de rascar branca per branca i fulla per fulla
+Van tenir un fill, en Biel.
 Van tornar a encendre les pipes;
 Van treure balancins i cadires
 Van treure les mules a airejar
@@ -21705,9 +21711,11 @@ Van trobar un riu de comerç, i varen seguir la corrent.
 Van trobar, a més de les oques, una font i una barraca de fusta
 Van units, imbricats en un mateix cos del qual es fa difícil destriar especificitats.
 Van venir a veure un amic ferit i em van reconèixer
+Van venir a viure as raval de Sant Felip.
 Van venir els mateixos convidats
 Van venir uns parents de Ribes de Freser.
 Van veure un infant que plorava, que cridava
+Van viure una vida molt dura i no van tenir més descendència.
 Vandellòs i Hospitalet de l’Infant es troba al Baix Camp
 Vandellòs i l'Hospitalet de l'Infant es un bon lloc per anar-hi
 Varem baixar la rampa d'entrada

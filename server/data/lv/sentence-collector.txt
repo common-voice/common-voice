@@ -3108,6 +3108,7 @@ Maikls nesekmīgi centās tevi uzmundrināt visu vakaru.
 Maikls tagad ir mans vīrs.
 Maisās kā spainis pa aku.
 Maita! Es taču liku nākt vienam!
+Maize ar desu ir garšīga
 Maize vienmēr ir ar garozu.
 Maize ēdājam pakaļ neiet.
 Malace, mīļā.
@@ -3311,6 +3312,7 @@ Man viņā ir jāiemīlas.
 Man viņš ir jāatrod.
 Man viņš neliekas pievilcīgs, bet varbūt tev liksies.
 Man vēl kaut kas jāizdara.
+Man ļoti garšo zupa
 Man ļoti žēl.
 Man šis plāns neiet pie dūšas.
 Man šķiet, ka bāžat savu degunu, kur nevajag.
@@ -4986,6 +4988,7 @@ Stāviet te un nekur neejiet!
 Stāvēt šeit!
 Stūrgalvīgs kā auns.
 Suns ieķēra delmā un nelaida vaļā, līdz ugunsdzēsējs palīdzēja.
+Suns ir cilvēka labākais draugs
 Suns zina, ko ēdis; vilks zina, ko darījis.
 Suns, kas rej, ne vienmēr nekož.
 Super!
