@@ -20,7 +20,6 @@ interface DownloadFormProps extends WithLocalizationProps {
   releaseId: string;
   checksum: string;
   size: number | string;
-  isSubscribedToMailingList: boolean;
 }
 
 interface FormState {
@@ -41,7 +40,6 @@ const DatasetDownloadEmailPrompt = ({
   checksum,
   size,
   getString,
-  isSubscribedToMailingList,
 }: DownloadFormProps) => {
   const api = useAPI();
 
@@ -180,14 +178,12 @@ const DatasetDownloadEmailPrompt = ({
               onChange={handleInputChange}
               required
             />
-            {!isSubscribedToMailingList && (
-              <LabeledCheckbox
-                label={<Localized id="confirm-join-mailing-list" />}
-                name="confirmJoinMailingList"
-                checked={confirmJoinMailingList}
-                onChange={handleInputChange}
-              />
-            )}
+            <LabeledCheckbox
+              label={<Localized id="confirm-join-mailing-list" />}
+              name="confirmJoinMailingList"
+              checked={confirmJoinMailingList}
+              onChange={handleInputChange}
+            />
           </div>
           <div className="input-group">
             <LinkButton

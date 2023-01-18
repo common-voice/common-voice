@@ -21,7 +21,6 @@ import { DeltaReadMoreLink } from '../../shared/links';
 interface Props extends WithLocalizationProps {
   languagesWithDatasets: { id: number; name: string }[];
   initialLanguage: string;
-  isSubscribedToMailingList: boolean;
 }
 
 type LanguageDatasets = {
@@ -35,7 +34,6 @@ const DatasetCorpusDownload = ({
   getString,
   languagesWithDatasets,
   initialLanguage,
-  isSubscribedToMailingList,
 }: Props) => {
   const [isLoading, setIsLoading] = useState(true);
   const [selectedDataset, setSelectedDataset] = useState<LanguageDatasets>();
@@ -124,7 +122,6 @@ const DatasetCorpusDownload = ({
               releaseId={selectedDataset.id.toString()}
               checksum={selectedDataset.checksum}
               size={formatBytes(selectedDataset.size, initialLanguage)}
-              isSubscribedToMailingList={isSubscribedToMailingList}
             />
           )}
         </div>
