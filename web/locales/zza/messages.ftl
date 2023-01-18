@@ -644,9 +644,11 @@ localization-explanation = No prosesê çarnayîş û adaptekerdişê muhtawaya 
 sentence-collection = Arêdayîşê Cumleyan
 sentence-collection-explanation = Milkê pêroyî ra cumleyan arêdayîş yan zî her kesî rê akerde cumleyanê neweyan nuştiş.
 hours-recorded-explanation = Hûmara saetanê qeydanê vengî ke ma heta nika dayê arê.
+hours-validated-explanation = Hûmara saetanê qeydanê vengî yê ke 3 xebitnayoxan ra 2 teneyan bi raya "Heya" tesdîq kerd. No, averşîyayîşê hedefê projeyî yê 10 hezar saetan nawneno.
 sst = Qiseykerdiş ra bi nuştiş (STT)
 sst-explanation = Teknolojîyê Qiseykerdiş ra bi Nuştiş (STT) dayeyanê vengî çarnenê nuşte ser.
 de-identified = Anonîmkerde
+de-identified-explanation = Wexto ke qeydê vengî komdaye de seba warardişî paket benê, proseso ke pê melumatê profîlê beşdarêk yew qeydo bexişnaye ra yenê nimitene.
 
 ## Error pages
 
