@@ -732,6 +732,7 @@ confirm-size = Sei pronto per iniziare un download di <b>{ $size }</b>
 size-gigabyte = GB
 size-megabyte = MB
 confirm-no-identify = <b>Accetti</b> di rinunciare a determinare l’identità dei parlanti presenti nel dataset di Common Voice
+confirm-join-mailing-list = Voglio iscrivermi alla mailing list di Common Voice
 download-language = Scarica { $language }
 validated-hours = Ore convalidate
 recorded-hours = Ore registrate
