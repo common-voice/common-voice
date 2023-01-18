@@ -94,7 +94,12 @@ export namespace User {
         ]);
         dispatch({
           type: ActionType.UPDATE,
-          state: { account, userClients, isFetchingAccount: false },
+          state: {
+            account,
+            userClients,
+            isFetchingAccount: false,
+            isSubscribedToMailingList: Boolean(account?.basket_token),
+          },
         });
         await actions.claimLocalUser(dispatch, getState);
       },

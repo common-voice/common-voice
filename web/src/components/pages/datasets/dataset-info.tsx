@@ -1,18 +1,27 @@
 import * as React from 'react';
 import { useEffect, useState } from 'react';
+import { connect } from 'react-redux';
 import { Spinner } from '../../ui/ui';
 
 import DatasetIntro from './dataset-intro';
 import DatasetCorpusDownload from './dataset-corpus-download';
 import DatasetSegmentDownload from './dataset-segment-download';
 import { useAPI } from '../../../hooks/store-hooks';
+import StateTree from '../../../stores/tree';
 
-import './dataset-info.css';
 import { useLocale } from '../../locale-helpers';
 import DatasetDescription from './dataset-description';
 import { Dataset } from 'common';
 
-const DatasetInfo = () => {
+import './dataset-info.css';
+
+interface PropsFromState {
+  isSubscribedToMailingList: boolean;
+}
+
+const DatasetInfo: React.FC<PropsFromState> = ({
+  isSubscribedToMailingList,
+}) => {
   const [isLoading, setIsLoading] = useState(true);
 
   const [languagesWithDatasets, setLanguagesWithDatasets] = useState([]);
@@ -48,6 +57,7 @@ const DatasetInfo = () => {
           <DatasetCorpusDownload
             languagesWithDatasets={languagesWithDatasets}
             initialLanguage={globalLocale}
+            isSubscribedToMailingList={isSubscribedToMailingList}
           />
         )}
       </div>
@@ -58,9 +68,13 @@ const DatasetInfo = () => {
         <DatasetDescription releaseData={currentDataset} />
       )}
 
-      <DatasetSegmentDownload />
+      <DatasetSegmentDownload
+        isSubscribedToMailingList={isSubscribedToMailingList}
+      />
     </div>
   );
 };
 
-export default DatasetInfo;
+export default connect<PropsFromState>(({ user }: StateTree) => ({
+  isSubscribedToMailingList: user.isSubscribedToMailingList,
+}))(DatasetInfo);
