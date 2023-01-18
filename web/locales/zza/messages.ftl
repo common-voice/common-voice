@@ -1431,6 +1431,7 @@ first-cta-header-text = Seba ke to qeydê vengî bexişnayî, ti weş be!
 first-cta-subtitle-text = Ti wazenî/a derheqê tarzê xo yê qiseykerdişî de hîna zaf melumat bidê?
 why-donate = Çira persenî/a?
 why-donate-explanation-1 = No melumat mecburî nîyo - tena eke pê rehet î/a, pare bike. Ma ke komdayeyî weşanenîme, ma heme melumato şexsî anonîmîze kenîme û garantî kenîme ke melumato sey name û e-maîlê to bi qet yew melumato demografîk ra, sey serrî yan cinsîyetî, nêro girêdayene.
+why-donate-explanation-2 = Seba ke teknolojî rind bigureyo, ganî dayeyê ke viraştoxan rê viraştişê teknolojî de ardim kenê, însananê cîya-cîyayan temsîl bikerê. Sey nimûne, eke qiseykerdoxê yew fekî tede çin bê, teknolojî seba ê kesan rind nêgureyena. <learnMore>Bimuse ke dayeyê meta çira muhîm ê.</learnMore>
 add-information-button = Melumat îlawe bike
 continue-speaking-button = Ney, sipas. Qiseykerdişî rê dewam
 create-profile-button = Profîlêk viraze
