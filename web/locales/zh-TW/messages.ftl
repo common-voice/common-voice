@@ -731,6 +731,7 @@ confirm-size = 請準備好下載 <b>{ $size }</b> 的檔案
 size-gigabyte = GB
 size-megabyte = MB
 confirm-no-identify = <b>您同意</b>不嘗試識別 Common Voice 資料集中，說話者的身分
+confirm-join-mailing-list = 我想加入 Common Voice 郵件群組
 download-language = 下載 { $language } 資料集
 validated-hours = 已驗證時數
 recorded-hours = 已錄製時數
@@ -763,6 +764,9 @@ more = 更多
 close = 關閉
 download = 下載
 dataset-version = 版本
+sha256-checksum-copied = 已複製 SHA256 Checksum！
+sha256-checksum-copied-error = SHA256 Checksum 複製失敗！
+clipboard-not-supported = 不支援剪貼簿
 
 ## Download Modal
 

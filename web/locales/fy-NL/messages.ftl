@@ -751,6 +751,7 @@ confirm-size = Jo binne ree om in download te starten fan <b>{ $size }</b>
 size-gigabyte = GB
 size-megabyte = MB
 confirm-no-identify = <b>Jo geane dermei akkoart</b> om net te probearjen de identiteit fan sprekkers yn de Common Voice-gegevensset te achterheljen
+confirm-join-mailing-list = Ik wol my oanmelde foar de Common Voice-mailinglist
 download-language = { $language } downloade
 validated-hours = Falidearre oeren:
 recorded-hours = Opnommen oeren

@@ -756,6 +756,7 @@ confirm-size = Ste pripravení stiahnuť <b>{ $size }</b>
 size-gigabyte = GB
 size-megabyte = MB
 confirm-no-identify = <b>Súhlasíte</b>, že sa nebudete pokúšať zistiť identitu prispievateľov v datasete Common Voice.
+confirm-join-mailing-list = Chcem sa pridať do e-mailovej skupiny Common Voice
 download-language = Stiahnuť jazyk { $language }
 validated-hours = Počet overených hodín
 recorded-hours = Počet nahraných hodín

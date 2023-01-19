@@ -772,6 +772,8 @@ more = Περισσότερα
 close = Κλείσιμο
 download = Λήψη
 dataset-version = Έκδοση
+sha256-checksum-copied = Το SHA256 Checksum αντιγράφηκε!
+sha256-checksum-copied-error = Αποτυχία αντιγραφής του SHA256 Checksum
 clipboard-not-supported = Το πρόχειρο δεν υποστηρίζεται
 
 ## Download Modal
@@ -1548,4 +1550,5 @@ partnerships-small-business-header = Μικρές επιχειρήσεις, όπ
 partnerships-our-partners = Οι συνεργάτες μας
 add-information-button = Προσθήκη πληροφοριών
 create-profile-text = Θέλετε να αποθηκεύσετε τις πληροφορίες σας; <createProfile>Δημιουργήστε ένα προφίλ</createProfile>
+already-have-an-account = Έχετε ήδη λογαριασμό; <login>Σύνδεση</login>
 create-profile-button = Δημιουργία προφίλ

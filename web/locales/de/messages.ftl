@@ -742,6 +742,7 @@ confirm-size = Sie können jetzt einen Download von <b>{ $size }</b> starten
 size-gigabyte = GB
 size-megabyte = MB
 confirm-no-identify = <b>Sie stimmen zu</b>, nicht zu versuchen, die Identität der Sprecher im Common-Voice-Datensatz zu ermitteln
+confirm-join-mailing-list = Ich möchte der Common-Voice-Mailingliste beitreten
 download-language = { $language } herunterladen
 validated-hours = Bestätigte Stunden
 recorded-hours = Erfasste Stunden

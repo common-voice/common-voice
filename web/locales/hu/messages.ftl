@@ -742,6 +742,7 @@ confirm-size = Készen áll <b>{ $size }</b> letöltésének kezdeményezésére
 size-gigabyte = GB
 size-megabyte = MB
 confirm-no-identify = <b>Elfogadja</b>, hogy nem próbálja meg meghatározni a beszélők személyazonosságát a Common Voice adatkészletben
+confirm-join-mailing-list = Szeretnék csatlakozni a Common Voice levelezőlistához
 download-language = Letöltés: { $language }
 validated-hours = Ellenőrzött órák
 recorded-hours = Rögzített órák

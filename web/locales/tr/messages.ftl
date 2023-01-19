@@ -900,7 +900,7 @@ listen-instruction = <playIcon></playIcon> düğmesine { $actionType }. Cümle d
 listen-again-instruction = Çok iyi iş! <playIcon></playIcon> Hazır olduğunuzda yeniden dinleyin.
 listen-3rd-time-instruction = İkisi gitti, çalışmaya devam! <playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon> Son bir tane!
-listen-empty-state = Bu dilde doğrulanacak ses kaydı kalmadı...
+listen-empty-state = Doğrulanacak ses kaydı kalmamış olabilir. Sayfayı yenileyin veya daha sonra tekrar deneyin.
 listen-loading-error =
     Dinleyebileceğiniz hiç ses kaydı bulamadık.
     Lütfen daha sonra tekrar deneyin.
