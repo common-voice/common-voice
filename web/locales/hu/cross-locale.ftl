@@ -3,7 +3,7 @@
 contribute = Közreműködés
 get-involved-button = Kapcsolódjon be
 get-involved-title = Közreműködés a(z) { $lang } nyelvben
-get-involved-text = Köszönjük az érdeklődését a { $lang } nyelvhez való közreműködésben. Keményen dolgozunk, hogy minden nyelvet elindítsunk, és a csapatokat e-mailben tájékoztassuk. Ha szeretne közreműködni, adja meg az e-mail címét.
+get-involved-text = Köszönjük az érdeklődését a { $lang } nyelvhez való közreműködésben. Keményen dolgozunk, hogy minden nyelvet elindítsunk, és hogy a csapatokat e-mailben tájékoztassuk. Ha szeretne közreműködni, adja meg az e-mail címét.
 get-involved-form-title = Iratkozzon fel a(z) { $lang } hírlevélre:
 get-involved-email =
     .label = E-mail
