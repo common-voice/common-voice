@@ -141,7 +141,7 @@ export const FirstPostSubmissionCta: React.FC<FirstPostSubmissionCtaProps> = ({
             elems={{
               learnMore: (
                 <a
-                  href="https://foundation.mozilla.org/en/blog/common-voice-metadata-matters"
+                  href="https://foundation.mozilla.org/en/blog/why-metadata-matters/"
                   target="_blank"
                   rel="noreferrer"
                 />
