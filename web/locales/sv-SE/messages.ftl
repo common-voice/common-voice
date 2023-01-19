@@ -747,6 +747,7 @@ confirm-size = Du är beredd att initiera en nedladdning av <b>{ $size }</b>
 size-gigabyte = GB
 size-megabyte = MB
 confirm-no-identify = <b>Du godkänner</b> att du inte försöker bestämma talarnas identitet i Common Voice-datamängden
+confirm-join-mailing-list = Jag vill gå med i e-postlistan för Common Voice
 download-language = Ladda ner { $language }
 validated-hours = Validerade timmar
 recorded-hours = Inspelade timmar
