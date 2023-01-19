@@ -18,7 +18,6 @@ const LanguagesRequestSuccessPage = React.lazy(() => {
 });
 const DashboardPage = React.lazy(() => import('../pages/dashboard/dashboard'));
 const ProfileLayoutPage = React.lazy(() => import('../pages/profile/layout'));
-const FAQPage = React.lazy(() => import('../pages/faq/faq'));
 const AboutPage = React.lazy(() => import('../pages/about/about'));
 const LandingPage = React.lazy(() => import('../pages/landing/landing'));
 const ErrorPage = React.lazy(() => import('../pages/error-page/error-page'));
@@ -122,7 +121,6 @@ export default function Content({ location }: { location: any }) {
             <Redirect to={toLocaleRoute(URLS.DASHBOARD + '/' + URLS.GOALS)} />
           )}
         />
-        <SentryRoute exact path={toLocaleRoute(URLS.FAQ)} component={FAQPage} />
         <SentryRoute
           exact
           path={toLocaleRoute(URLS.ABOUT)}

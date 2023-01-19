@@ -79,7 +79,7 @@ const Footer = React.memo(() => {
           </div>
           <div className="divider-vertical" />
           <div>
-            <LocalizedLocaleLink id="faq" to={URLS.FAQ} />
+            <LocalizedLocaleLink id="about" to={URLS.ABOUT} />
             <GitHubLink>GitHub</GitHubLink>
           </div>
         </div>
