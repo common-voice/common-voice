@@ -190,6 +190,7 @@ ts = Tsongakî
 tt = Tatarkî
 tw = Twî
 ty = Tahîtkî
+tyv = Tuvakî
 uby = Ubixkî
 udm = Udmurtkî
 ug = Uygurkî
@@ -402,6 +403,7 @@ why-demographic = No çira muhîm o?
 why-demographic-explanation-2 = Seba ke ma çîynermanê naskerdişê qiseykerdişî tekûzêr bikerîme, dayeyê anonîmî, sey serrî, cinsîyet û fek, hetê ma kenê ke nê qeydanê vengî rindêr bikerîme.
 accept-privacy = Ez qebul kena ke şima nê melumatî seke <privacyLink> Polîtîkaya Nimiteyîye</privacyLink> ya Mozîlla de îzah bî, bixebitnê.
 accept-privacy-title = Polîtîkaya Nimiteyîye
+accept-privacy-and-terms = Ez <termsLink>Şert û Merc</termsLink> û <privacyLink>Polîtîkaya NImiteyî</privacyLink> ya Common Voice qebul kena
 login-identity = Nasnameyê dekewtişî
 login-signup = Dekewe/Hesab Viraze
 edit = Sereraşt ke
@@ -642,14 +644,17 @@ localization-explanation = No prosesê çarnayîş û adaptekerdişê muhtawaya 
 sentence-collection = Arêdayîşê Cumleyan
 sentence-collection-explanation = Milkê pêroyî ra cumleyan arêdayîş yan zî her kesî rê akerde cumleyanê neweyan nuştiş.
 hours-recorded-explanation = Hûmara saetanê qeydanê vengî ke ma heta nika dayê arê.
+hours-validated-explanation = Hûmara saetanê qeydanê vengî yê ke 3 xebitnayoxan ra 2 teneyan bi raya "Heya" tesdîq kerd. No, averşîyayîşê hedefê projeyî yê 10 hezar saetan nawneno.
 sst = Qiseykerdiş ra bi nuştiş (STT)
 sst-explanation = Teknolojîyê Qiseykerdiş ra bi Nuştiş (STT) dayeyanê vengî çarnenê nuşte ser.
 de-identified = Anonîmkerde
+de-identified-explanation = Wexto ke qeydê vengî komdaye de seba warardişî paket benê, proseso ke pê melumatê profîlê beşdarêk yew qeydo bexişnaye ra yenê nimitene.
 
 ## Error pages
 
 error-title-404 = Ma no rîpel nêdî
 error-title-503 = Sîteyê ma de problemêko teknîk qewimîya
+error-content-503 = Sîte demêko nêzdî de agêreno. Seba melumato peyên, keremê xo ra beşdarê <matrixLink>xoşebera Matrixî</matrixLink> bibe yan zî <githubLink>GitHub</githubLink> yan <discourseLink>forumanê ma yê Discourse</discourseLink> zîyaret bike û uca raporê xetayan biwane yan zî bi xo birusne.
 error-code = Xeta { $code }
 
 ## Data
@@ -670,6 +675,7 @@ dataset-date = Tarîx
 license = Lîsans: <licenseLink>{ $license }</licenseLink>
 license-mixed = Têmîyan
 data-download-singleword-title = Beşê Hedefî yê Yewçekuyan bîyare war
+review-terms = Bi xebitnayîşê Common Voice, ti <termsLink>Şert û Merc</termsLink> û <privacyLink>Polîtîkaya ma ya NImiteyîye</privacyLink> qebul kenî/a.
 terms-agree = Ez qebul kena
 terms-disagree = Ez qebul nêkena
 review-aborted = Barkerdiş betal bî. Ti wazenî/a qeydanê xo biestirê?
@@ -686,6 +692,7 @@ review-delete-recordings = Qeydanê mi biestire
 datasets-heading = Komdayeyî
 language = Ziwan
 download-dataset-header = Komdayeyî Bîyare War
+download-dataset-tag = Komdayeyê ziwanî yo ke ti wazenî/a, ey weçîne û seba warardişî versîyonêk weçîne.
 # File size in gigabytes
 size = Girsîye
 validated-hr-total = Pêro saetê tesdîqkerdeyî
@@ -700,6 +707,7 @@ confirm-size = Ti hazir î/a ke bi girsîya <b>{ $size }</b> bîyarê war?
 size-gigabyte = GB
 size-megabyte = MB
 confirm-no-identify = Ti <b>qebul kenî/a</b> ke ti yê nêceribnê nasnameyê qiseykerdoxanê komdayeyê Common Voice tesbît bikerê.
+confirm-join-mailing-list = Ez wazena beşdarê lîsteya e-maîl ya Common Voice bibî
 download-language = { $language } bîyare war
 validated-hours = Saetê tesdîqkerdeyî
 recorded-hours = Saetê qeydkerdeyî
@@ -724,6 +732,7 @@ more = Hîna zaf
 close = Pade
 download = Bîyare war
 dataset-version = Versîyon
+clipboard-not-supported = Pano dest nêbeno
 
 ## Download Modal
 
@@ -1036,10 +1045,15 @@ demo-account = Hesab
 ## Demo Account
 
 demo-account-card-header = Seba beşdarbîyayîşî hewce nîyo ke ti hesabêk virazê, labelê tayê feydeyê ci est ê.
+demo-account-card-body = Desto raşt de ma avantajan û melumato ke ma rayapêroyî de pare kenîme, înan îzah kenîme. Pê lînkanê cêrênan ti eşkenî/a haceta xo ser o hesabêde Common Voice akerê.
+demo-account-enter-email =
+    .label = Seba girewtişê lînkê dekewtişî, e-maîlê xo binuse
 demo-account-sign-up = Lînkê qeydbîyayîşî birusne
 
 ## Demo Contribute
 
+demo-contribute-card-header = Ti hazir î/a ke vengê xo îlawe bikerê yan zî goşdar bikerê?
+demo-contribute-card-body-v2 = Ti nika Common Voice hîna zaf nas kenî/a. Çira nêceribnenî/a? Resimê mîkrofonî ser o bitikne û cumleyan bi veng biwane. <br/><br/> Eke ti hîna zaf wazenî/a qeydanê vengî yê kesanê bînan kontrol bikerê, resimê cinitişî ser o bitikne. Wina, ti dest danî/a ke qeydê vengî rîayetê cumleyanê nuştekîyan bikerê.
 demo-listen-subtitle = Ti hazir î/a ke beşdar bibê?
 
 ## Demo Dashboard
@@ -1412,3 +1426,14 @@ partnerships-academia-header = Unîversîte, Akademîsyen û Cigêrayoxî
 partnerships-small-business-header = Şîrketê qijkekî, yê zîrekîya viraştîye û teknolojî zî tede
 partnerships-corporates-header = Şîrketê girsî û şîrketê platformî
 partnerships-our-partners = Hemparê Ma
+# FIRST POST SUBMISSION CTA
+first-cta-header-text = Seba ke to qeydê vengî bexişnayî, ti weş be!
+first-cta-subtitle-text = Ti wazenî/a derheqê tarzê xo yê qiseykerdişî de hîna zaf melumat bidê?
+why-donate = Çira persenî/a?
+why-donate-explanation-1 = No melumat mecburî nîyo - tena eke pê rehet î/a, pare bike. Ma ke komdayeyî weşanenîme, ma heme melumato şexsî anonîmîze kenîme û garantî kenîme ke melumato sey name û e-maîlê to bi qet yew melumato demografîk ra, sey serrî yan cinsîyetî, nêro girêdayene.
+why-donate-explanation-2 = Seba ke teknolojî rind bigureyo, ganî dayeyê ke viraştoxan rê viraştişê teknolojî de ardim kenê, însananê cîya-cîyayan temsîl bikerê. Sey nimûne, eke qiseykerdoxê yew fekî tede çin bê, teknolojî seba ê kesan rind nêgureyena. <learnMore>Bimuse ke dayeyê meta çira muhîm ê.</learnMore>
+add-information-button = Melumat îlawe bike
+continue-speaking-button = Ney, sipas. Qiseykerdişî rê dewam
+create-profile-button = Profîlêk viraze
+# IMAGE TAGS
+img-alt-success-checkmark = nîşanê serkewtişî

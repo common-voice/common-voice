@@ -754,6 +754,7 @@ confirm-size = تساں <b>{ $size }</b>  کوں ڈاؤن لوڈ شروع کرݨ
 size-gigabyte = جی بی
 size-megabyte = ایم بی
 confirm-no-identify = <b>تساں متفق ہو</b> جو تساں کامن وائس ڈیٹا سیٹ وچ مقررین دی سُن٘ڄاݨ دا تعین کرݨ دی کوشش کائناں کریسو
+confirm-join-mailing-list = میں کامن وائس میلنگ تندیر وچ شامل تھیوݨ چاہنداں
 download-language = { $language } ڈاؤن لوڈ کرو
 validated-hours = کل تصدیق تھئے گھنٹے
 recorded-hours = ریکارڈ تھئے گھنٹے

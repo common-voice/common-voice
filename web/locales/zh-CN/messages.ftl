@@ -735,6 +735,7 @@ confirm-size = 您将下载 <b>{ $size }</b> 的文件
 size-gigabyte = GB
 size-megabyte = MB
 confirm-no-identify = <b>您同意</b>不试图去确定 Common Voice 数据集中任何说话者的身份
+confirm-join-mailing-list = 我愿意加入 Common Voice 邮件列表
 download-language = 下载 { $language }
 validated-hours = 已验证小时数
 recorded-hours = 已录制小时数

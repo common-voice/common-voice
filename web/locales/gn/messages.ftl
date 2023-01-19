@@ -746,6 +746,7 @@ confirm-size = Reiméma remboguejy hag̃uáicha <b>{ $size }</b>
 size-gigabyte = GB
 size-megabyte = MB
 confirm-no-identify = <b>Remoneĩ</b> nderehekamo’ãiha mávapa ombohyapuva’ekue ñe’ẽjoaju oĩva Common Voice kuaapy’atýpe.
+confirm-join-mailing-list = Aikese Common Voice ñanduti veve rysýipe
 download-language = Emboguejy { $language }
 validated-hours = Aravo mboajepyre
 recorded-hours = Aravo ñongatupyre
