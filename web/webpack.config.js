@@ -13,7 +13,8 @@ const HASH_LENGTH = 16; // length specified for our compressed-size action
 const OUTPUT_PATH = path.resolve(__dirname, 'dist');
 
 module.exports = (_env, argv) => {
-  const IS_DEVELOPMENT = argv.mode === 'development';
+  // const IS_DEVELOPMENT = argv.mode === 'development';
+  const IS_DEVELOPMENT = true;
 
   if (IS_DEVELOPMENT) {
     const result = dotenv.config({ path: '../.env-local-docker' });
