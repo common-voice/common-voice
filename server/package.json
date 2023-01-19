@@ -20,7 +20,7 @@
     "event-stream": "3.3.5",
     "express": "4.17.3",
     "express-json-validator-middleware": "2.2.1",
-    "express-mysql-session": "2.1.7",
+    "express-mysql-session": "2.1.8",
     "express-promise-router": "4.1.1",
     "express-session": "1.17.2",
     "ffmpeg-stream": "0.7.0",
