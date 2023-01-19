@@ -759,6 +759,7 @@ confirm-size = Rydych yn barod i gychwyn llwytho i lawr <b>{ $size }</b>
 size-gigabyte = GB
 size-megabyte = MB
 confirm-no-identify = <b>Rydych yn cytuno</b> i beidio â cheisio adnabod y siaradwyr yn set data Common Voice.
+confirm-join-mailing-list = Rwyf eisiau ymuno â rhestr e-bost Common Voice
 download-language = Llwytho { $language } i Lawr
 validated-hours = Oriau â Ddilyswyd
 recorded-hours = Oriau â Recordiwyd
