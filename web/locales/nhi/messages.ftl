@@ -1,6 +1,7 @@
 ## General
 
 yes-receive-emails = Quemah, xinechimualtitlani correos. Onicniquisquiaya nicmatis ica in tlanimilil Common Voice.
+stayintouch = Ich Mozilla secchiutoc se nichicomasehual campa tipostl notzani. Otechpactisquia timitzmatiltisqueh ica in  tepanoltilistl, yancuic nemilis ica tlahcuilol uan secmatis cachi queni teh tiquintiquitiltia necateh datos.
 email-input =
     .label = Correo
 submit-form-action = Xictitlani
