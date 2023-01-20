@@ -769,6 +769,9 @@ more = Més
 close = Tanca
 download = Baixa
 dataset-version = Versió
+sha256-checksum-copied = S'ha copiat la suma de verificació SHA256
+sha256-checksum-copied-error = No s'ha pogut copiar la suma de verificació SHA256
+clipboard-not-supported = El porta-retalls no és compatible
 
 ## Download Modal
 
@@ -1552,5 +1555,10 @@ partnerships-small-business-description = Sempre busquem escoltar els consumidor
 partnerships-corporates-header = Grans empreses i empreses de plataformes
 partnerships-corporates-description = Si voleu parlar més sobre el conjunt de dades, voleu invertir conjuntament en les ampliacions planificades de la plataforma o busqueu oportunitats de col·laboració, <emailFragment>envieu-nos unes línies.</emailFragment>
 partnerships-our-partners = Els nostres socis
+# FIRST POST SUBMISSION CTA
+first-cta-header-text = Gràcies per donar els talls de veu!
+first-cta-subtitle-text = Voldríeu compatir informació sobre la vostra forma de parlar?
+add-information-button = Afegeix informació
+create-profile-text = Voleu desar la vostra informació? <createProfile>Creeu un perfil</createProfile>
 already-have-an-account = Ja teniu compte? <login>Inicieu la sessió</login>
 create-profile-button = Crea un perfil
