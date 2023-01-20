@@ -18,6 +18,7 @@ banner-error-slow-1 = Ens sap greu, el Common Voice està tardant a carregar-se,
 banner-error-slow-2 = La plataforma va molt carregada últimament, estem investigant els problemes i esperem solucionar-los aviat.
 banner-error-slow-link = Estat del projecte
 error-something-went-wrong = Hi ha hagut un problema
+error-clip-upload-server = La pujada d'aquest clip continua fallant en el servidor. Torneu a carregar la pàgina o proveu-ho més tard.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -407,6 +408,7 @@ why-demographic = Per què és important?
 why-demographic-explanation-2 = Les dades d'usuari anònimes com l'edat, el gènere i l'accent ajuden a millorar les dades d'àudio utilitzades per entrenar la precisió dels motors de reconeixement de veu. Les dades que envieu no estaran mai associades amb cap nom d'usuari ni adreça electrònica, i podeu triar si voleu que el vostre nom d'usuari sigui públic o anònim.
 accept-privacy = Accepto que gestioneu aquesta informació en els termes descrits en la <privacyLink>política de privadesa</privacyLink> de Mozilla
 accept-privacy-title = Política de privadesa
+accept-privacy-and-terms = Accepto les <termsLink>condicions d'ús</termsLink> i l'<privacyLink>avís de privadesa</privacyLink> del Common Voice.
 login-identity = Identitat d'inici de sessió
 login-signup = Inici de sessió / Registre
 edit = Edita
