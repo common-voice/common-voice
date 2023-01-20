@@ -740,6 +740,7 @@ confirm-size = Vous vous apprêtez à lancer un téléchargement de <b>{ $size }
 size-gigabyte = Go
 size-megabyte = Mo
 confirm-no-identify = <b>Vous acceptez</b> de ne pas essayer de découvrir l’identité des locuteurs et locutrices du jeu de données Common Voice.
+confirm-join-mailing-list = Je souhaite rejoindre la liste de diffusion de Common Voice
 download-language = Télécharger | { $language }
 validated-hours = Heures validées
 recorded-hours = Heures enregistrées
