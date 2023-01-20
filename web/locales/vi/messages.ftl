@@ -738,6 +738,7 @@ confirm-size = Bạn đã sẵn sàng để bắt đầu tải xuống <b>{ $siz
 size-gigabyte = GB
 size-megabyte = MB
 confirm-no-identify = <b>Bạn đồng ý</b> về việc không cố gắng xác định danh tính của người nói trong bộ dữ liệu Common Voice
+confirm-join-mailing-list = Tôi muốn tham gia danh sách gửi thư của Common Voice
 download-language = Tải xuống { $language }
 validated-hours = Số giờ đã xác thực
 recorded-hours = Số giờ đã ghi âm

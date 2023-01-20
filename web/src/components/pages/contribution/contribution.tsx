@@ -35,6 +35,7 @@ import { Notifications } from '../../../stores/notifications';
 
 import './contribution.css';
 import { SecondPostSubmissionCTA } from './speak/secondSubmissionCTA/secondSubmissionCTA';
+import Success from './success';
 
 export const SET_COUNT = 5;
 
@@ -355,6 +356,10 @@ class ContributionPage extends React.Component<ContributionPageProps, State> {
       user,
     } = this.props;
     const { selectedPill } = this.state;
+
+    if (isSubmitted && type === 'listen') {
+      return <Success onReset={onReset} type={type} />;
+    }
 
     const noUserAccount = !user.account;
     const shouldShowCTA = shouldShowFirstCTA || shouldShowSecondCTA;
