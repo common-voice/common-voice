@@ -18,6 +18,7 @@ banner-error-slow-1 = Ens sap greu, el Common Voice està tardant a carregar-se,
 banner-error-slow-2 = La plataforma va molt carregada últimament, estem investigant els problemes i esperem solucionar-los aviat.
 banner-error-slow-link = Estat del projecte
 error-something-went-wrong = Hi ha hagut un problema
+error-clip-upload = La pujada d'aquest tall continua fallant. Voleu reintentar-ho?
 error-clip-upload-server = La pujada d'aquest clip continua fallant en el servidor. Torneu a carregar la pàgina o proveu-ho més tard.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
@@ -737,6 +738,7 @@ confirm-size = Estic preparat per a iniciar una baixada de <b>{ $size }</b>
 size-gigabyte = GB
 size-megabyte = MB
 confirm-no-identify = <b>Accepto</b> no intentar determinar la identitat dels parlants del conjunt de dades del Common Voice
+confirm-join-mailing-list = Vull subscriure'm a la llista de correu del Common Voice
 download-language = Baixa ({ $language })
 validated-hours = Hores validades
 recorded-hours = Hores enregistrades
