@@ -913,7 +913,7 @@ listen-instruction = { $actionType } a <playIcon></playIcon> ikonra, pontosan ol
 listen-again-instruction = Jó munka! <playIcon></playIcon> Hallgassa meg újra, ha kész
 listen-3rd-time-instruction = 2 kész <playIcon></playIcon>, csak így tovább!
 listen-last-time-instruction = <playIcon></playIcon> Utolsó!
-listen-empty-state = Elfogytak az ellenőrzésre váró klipek ezen a nyelven…
+listen-empty-state = Elfogytak az ellenőrzésre váró klipek ezen a nyelven… frissítse az oldalt, vagy próbálja újra később.
 listen-loading-error =
     Nem tudtunk meghallgatható hangfelvételeket lekérni.
     Próbálja újra később.
