@@ -318,7 +318,7 @@ join-newsletter = Csatlakozhat a levelezőlistánkhoz, hogy értesüljön a proj
 whats-public = Mi nyilvános?
 email-not-public = Nem fogjuk nyilvánossá tenni az e-mail címét.
 recordings-and-locale-public = A felvételei száma, és a nyelvek, amelyekben Ön közreműködik, nyilvánosak lesznek.
-username-optin-public = Kiválaszthatja, hogy a felhasználó neve nyilvános vagy privát legyen.
+username-optin-public = Választhat, hogy a felhasználóneve nyilvános vagy anonim legyen.
 demographic-deidentified-clarity-2 = Az opcionálisan benyújtott demográfiai adatok (például életkor, nem, nyelv és akcentus) sosem lesznek közzétéve a profilján, és nem lesznek összekapcsolva a fiókjával az adatkészletben. Az egyes hangklipek a pontosabb elemzés céljából össze lesznek kapcsolva a demográfiai adatokkal – ha, például, egy kutató egy konkrét demográfiai szegmensre szeretne betanítani egy modellt.
 username-email-not-demographic = A felhasználóneve és az e-mail címe nem lesz társítva a közzétett adatokkal.
 
@@ -412,7 +412,7 @@ avatar = Avatár
 goals = Célok
 settings = Beállítások
 edit-profile = Profil szerkesztése
-profile-create-success = Profil sikeresen létrehozva!
+profile-create-success = Profil sikeresen létrehozva.
 profile-close = Bezárás
 profile-explanation = Kövesse saját előrehaladását egy profillal, és ezzel segítsen pontosabbá tenni az adatainkat.
 thanks-for-account = Köszönjük, hogy megerősítette a fiókját, most állítsuk össze a profilját.
@@ -485,7 +485,7 @@ faq-do-want-native-a = Igen, különösen az Ön hangját szeretnénk! A Common 
 faq-why-different-speakers-q = Miért van szükség annyi különböző beszélőre nyelvenként?
 faq-why-different-speakers-a =
     A legtöbb beszédadatbázist bizonyos demográfiák felülreprezentálásával tanítják be, amely a <articleLink>férfiak és a középosztály</articleLink> felé torzít. Az alulreprezentált akcentusok és dialektusok jellemzően pont olyan embercsoportokhoz kapcsolódnak, akik eleve marginalizáltak. Számos gép a női hangok megértésével is küszködik.
-    Ezért akarunk változatosságot a saját hangadatbázisunkban!
+    Ezért akarunk változatosságot a saját hangadatbázisunkban.
 faq-why-my-lang-q = Az én nyelven miért nem szerepel még?
 faq-why-my-lang-a =
     A Common Voice egy közösségi munkavégzési platform, és a nyelveket önkéntesek adták hozzá.
@@ -626,7 +626,7 @@ about-playbook-how-record-content-5 = <accuracyLink>További információ a pont
 ## How to grow language
 
 about-playbook-how-grow-language = Hogyan fejleszthetünk hatékonyan egy nyelvet a Common Voice-ban?
-about-playbook-how-grow-language-content-1 = A lehetőségek megteremtése, hogy sokféle ember működjön közre a Common Voice-ban, biztosítja, hogy az adatkészlet a lehető legtöbb embert szolgálja ki. Olyan forrásokat és sablonokat hoztunk létre, amelyeket Ön is használhat!
+about-playbook-how-grow-language-content-1 = A lehetőségek megteremtése, hogy sokféle ember működjön közre a Common Voice-ban, biztosítja, hogy az adatkészlet a lehető legtöbb embert szolgálja ki. Olyan forrásokat és sablonokat hoztunk létre, amelyeket Ön is használhat.
 about-playbook-how-grow-language-content-2 = Események
 about-playbook-how-grow-language-content-3 = Rendezvényeket szervezhet, hogy segítse az embereket. Könnyebb, mint gondolná. Megteheti online egy videokonferencia eszközzel, vagy személyesen is, ha az biztonságos. <eventTemplate>Nézze meg sablonjainkat és erőforrásainkat az események megtartásához</eventTemplate>.
 about-playbook-how-grow-language-content-4 = Közösségi média
@@ -776,7 +776,7 @@ more = Több
 close = Bezárás
 download = Letöltés
 dataset-version = Verzió
-sha256-checksum-copied = SHA256 ellenőrzőösszeg másolva!
+sha256-checksum-copied = SHA256 ellenőrzőösszeg másolva.
 sha256-checksum-copied-error = Az SHA256 ellenőrzőösszeg másolása sikertelen
 clipboard-not-supported = A vágólap nem támogatott
 
@@ -847,7 +847,7 @@ request-language-success-list-3 =
     címen, és válaszolni fogunk.
 request-language-error =
     Lehet, hogy nem kaptuk meg ezt a kérést. Írjon nekünk közvetlenül
-    a <emailLink>{ $email }</emailLink> címre, és felvesszük Önnel a kapcsolatot!
+    a <emailLink>{ $email }</emailLink> címre, és felvesszük Önnel a kapcsolatot.
 
 ## Languages Overview
 
@@ -880,8 +880,8 @@ clips-with-count-pluralized =
         [one] <bold>{ $count }</bold> klip
        *[other] <bold>{ $count }</bold> klip
     }
-goal-help-recording = Segítettél a Common Voice-nak elérni a napi rögzítési céljának ({ $goalValue }) <goalPercentage></goalPercentage>-át!
-goal-help-validation = Segítettél a Common Voice-nak elérni a napi ellenőrzési céljának ({ $goalValue }) <goalPercentage></goalPercentage>-át!
+goal-help-recording = Segített a Common Voice-nak elérni a napi rögzítési cél ({ $goalValue }) <goalPercentage></goalPercentage>-át.
+goal-help-validation = Segített a Common Voice-nak elérni a napi ellenőrzési cél ({ $goalValue }) <goalPercentage></goalPercentage>-át!
 contribute-more = Készen áll még { $count } felvételre?
 record-cta = Felvétel indítása
 record-platform-not-supported = Sajnáljuk, de a platformja jelenleg nem támogatott.
@@ -1119,7 +1119,7 @@ download-request-link-single = Lemásolhatja és beillesztheti a közvetlen URL-
 
 ## Landing
 
-welcome-staff = Üdvözöljük a { $company } kötelékében!
+welcome-staff = Üdvözöljük a { $company } kötelékében.
 help-contribute = Az Ön segítségével sokoldalú, nyílt forráskódú adatkészletet hozhatunk létre, ha létrehoz egy Common Voice profilt, és a hangját adja.
 login-company = Jelentkezzen be / regisztráljon a { $company } e-mail címével
 profile-not-required = Profil nem szükséges a közreműködéshez, de hasznos ha van
@@ -1557,7 +1557,7 @@ localization-select =
     .label = Válasszon nyelvet/honosítást
 # PARTNERSHIPS PAGE
 partnerships-header = Partnerkapcsolatok
-partnerships-header-text = Sok kell ahhoz, hogy a Common Voice megvalósuljon! Nem egyedül csináljuk. A partnerünk szeretne lenni? Meghallgatnánk.
+partnerships-header-text = Sok kell ahhoz, hogy a Common Voice megvalósuljon. Nem egyedül csináljuk. A partnerünk szeretne lenni? Meghallgatnánk.
 partnerships-get-in-touch = Lépjen kapcsolatba
 partnerships-become-a-partner = Legyen Ön is Common Voice partner
 partnerships-community-header = Közösség, alkotók és civil társadalom
@@ -1574,7 +1574,7 @@ partnerships-corporates-header = Nagyvállalatok és platform cégek
 partnerships-corporates-description = Ha többet szeretne beszélni az adatkészletről, szeretne közösen befektetni a tervezett platformbővítésekbe, vagy együttműködési lehetőségeket keres, <emailFragment>írjon nekünk</emailFragment>.
 partnerships-our-partners = Partnereink
 # FIRST POST SUBMISSION CTA
-first-cta-header-text = Köszönjük, hogy felajánlotta a hangklipjeit!
+first-cta-header-text = Köszönjük, hogy felajánlotta a hangklipjeit.
 first-cta-subtitle-text = Szeretne megosztani néhány információt arról, hogyan beszél?
 why-donate = Miért kérdezik?
 why-donate-explanation-1 = Ezt az információt nem kötelező megadni – csak akkor adja meg, ha nem érzi kellemetlennek. Amikor kiadjuk az adatkészletet, minden személyes adatot álnevekkel látunk el, és gondoskodunk arról, hogy az olyan információk, mint az Ön neve és e-mail-címe, ne kapcsolódjanak a demográfiai adatokhoz, például életkorhoz vagy nemhez.
@@ -1585,7 +1585,7 @@ create-profile-text = Szeretné menteni az adatait? <createProfile>Hozzon létre
 thanks-for-voice-toast = Köszönjük a hanginformációit
 thanks-for-voice-toast-error = Hiba történt a hanginformációk elküldése során
 # SECOND POST SUBMISSION CTA
-second-cta-header-text = Köszönjük, hogy közreműködött a hangjával!
+second-cta-header-text = Köszönjük, hogy közreműködött a hangjával.
 second-cta-subtitle-text = Egy profil segítségével nyomon követheti tevékenységét, és kapcsolatba léphet a hangadatokat biztosító közreműködők közösségével.
 already-have-an-account = Már van fiókja? <login>Bejelentkezés</login>
 create-profile-button = Profil létrehozása
