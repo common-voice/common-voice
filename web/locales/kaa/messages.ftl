@@ -1,5 +1,6 @@
 ## General
 
+submit-form-action = Jiberiw
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -13,9 +14,13 @@
 
 ## Layout
 
+back-top = Joqarıǵa qaytıw
+logout = Shıǵıw
 
 ## Home Page
 
+vote-yes = Awa
+vote-no = Yaq
 
 ## Account Benefits
 
