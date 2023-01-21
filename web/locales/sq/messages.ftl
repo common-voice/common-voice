@@ -18,6 +18,8 @@ banner-error-slow-1 = Na ndjeni, Common Voice po xhiron ngadalë. Faleminderit p
 banner-error-slow-2 = Po marrim shumë trafik dhe aktualisht po hetojmë problemet.
 banner-error-slow-link = Faqe Gjendjeje
 error-something-went-wrong = Na ndjeni, diç shkoi ters
+error-clip-upload = Ngarkimi i kësaj copëze vazhdon të dështojë, të vazhdohet të provohet?
+error-clip-upload-server = Ngarkimi i kësaj copëze vazhdon të dështojë te shërbyesi. Ringarkoni faqen, ose riprovoni më vonë.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
