@@ -1,16 +1,16 @@
 ## General
 
 yes-receive-emails = Igen, kérek e-maileket. Figyelemmel szeretném kísérni a Common Voice projektet.
-stayintouch = Mi a Mozillánál közösséget építünk a hangtechnológia köré. Szeretnénk tartani a kapcsolatot a közösséggel, tájékoztatni a frissítésekről és az új adatforrásokról, valamint tájékozódni arról, hogyan használja a közösség az adatokat.
+stayintouch = Mi a Mozillánál közösséget építünk a hangtechnológia köré. Szeretnénk kapcsolatban maradni Önnel, hogy tájékoztathassuk a frissítésekről és az új adatforrásokról, illetve azért, hogy megismerhessük, hogyan használja Ön ezeket az adatokat.
 privacy-info = Ígérjük, hogy adatait körültekintően kezeljük. További információk az <privacyLink>Adatvédelmi nyilatkozatunkban</privacyLink>.
 return-to-cv = Visszatérés a Common Voice oldalra
 email-input =
     .label = E-mail
 submit-form-action = Elküldés
 loading = Betöltés…
-email-opt-in-info = Szeretnék e-maileket kapni, köztük cél emlékeztetőket, előrehaladási híreket és a Common Voice hírlevelét.
+email-opt-in-info = Szeretnék e-maileket kapni, köztük a kitűzött céljaimmal kapcsolatos emlékeztetőket, a személyes előrehaladásommal kapcsolatos híreket és a Common Voice hírlevelét.
 email-opt-in-info-title = Csatlakozzon a Common Voice levelezőlistához
-email-opt-in-info-sub-with-challenge = Kapjon e-maileket, köztük kihívásokat, cél emlékeztetőket, előrehaladási híreket és a Common Voice hírlevelét.
+email-opt-in-info-sub-with-challenge = Iratkozzon fel e-mailekre, köztük a kihívásokkal, a kitűzött céljaival és személyes előrehaladásával kapcsolatos emlékeztetőkre, illetve a Common Voice hírlevelére.
 email-opt-in-privacy-v2 = Azzal, hogy az e-mailek fogadását kéri, beleegyezik abba, hogy a Mozilla az <privacyLink>adatvédelmi irányelvekben</privacyLink> leírt módon kezelje ezeket az adatokat.
 indicates-required = * Kötelező mezőt jelez
 not-available-abbreviation = Nincs
@@ -236,15 +236,15 @@ cookies = Sütik
 faq = GYIK
 content-license-text = A tartalom <licenseLink>Creative Commons licenc</licenseLink> alatt érhető el.
 share-title = Segítsen megtalálni azokat, akik a hangjukat adják.
-share-text = Segítsen megtanítani a gépeknek, hogyan beszélnek az emberek. Adja a hangját: { $link }
+share-text = Segítsen megtanítani a gépeknek, hogyan beszélnek az igazi emberek. Adja a hangját: { $link }
 link-copied = Hivatkozás másolva
 back-top = Vissza a tetejére
 logout = Kijelentkezés
 
 ## Home Page
 
-home-title = A Common Voice projekt egy Mozilla kezdeményezés arra, hogy segítsük a gépeket megtanítani, hogyan beszélnek az emberek.
-default-tagline = A Mozilla Common Voice egy kezdeményezés arra, hogy segítsük a gépeket megtanítani, hogyan beszélnek az emberek.
+home-title = A Common Voice projekt a Mozilla kezdeményezése, amelynek célja, hogy segítsük a gépeket megtanítani arra, hogyan beszélnek az emberek.
+default-tagline = A Common Voice projekt a Mozilla kezdeményezése, amelynek célja, hogy segítsük a gépeket megtanítani arra, hogyan beszélnek az emberek.
 home-cta = Szólaljon meg, működjön közre.
 wall-of-text-start = A beszéd természetes, a beszéd emberi. Ezért lelkesedünk egy gépeink számára használható beszédtechnológia létrehozásáért. Azonban ehhez hatalmas mennyiségű beszédmintára van szükség.
 wall-of-text-more-mobile = A nagyvállalatok által használt hangminták a legtöbb ember számára nem érhetőek el. Szerintünk ez elfojtja az innovációt. Ezért létrehoztuk a Common Voice projektet, hogy segítsük a hangfelismerési technológiát mindenki számára hozzáférhetővé tenni.
@@ -259,13 +259,13 @@ wall-of-text-second =
     segítsük a hangfelismerési technológiát mindenki számára hozzáférhetővé tenni.
 show-wall-of-text = Bővebben
 help-us-title = Segítsen ellenőrizni a mondatokat.
-help-us-explain = Nyomja meg a lejátszás gombot, hallgassa meg a mondatot és mondja el: helyesen hangzik el az alábbi mondat?
+help-us-explain = Nyomja meg a lejátszás gombot, hallgassa meg a mondatot és döntse el: helyesen hangzik el az alábbi mondat?
 no-clips-to-validate = Úgy néz ki egyetlen meghallgatható klip sincs ezen a nyelven. Segítsen feltölteni a sort azáltal, hogy rögzít néhányat.
 vote-yes = Igen
 vote-no = Nem
 toggle-play-tooltip = Nyomja meg az { shortcut-play-toggle } gombot a lejátszási módba váltáshoz
 speak-subtitle = Adja a hangját
-speak-paragraph = A hangklipek rögzítése a nyílt adatkészletünk összeállításának szerves része; egyesek azt mondanák, hogy ez a szórakoztató része.
+speak-paragraph = A hangklipek rögzítése a nyílt adatkészletünk összeállításának szerves része – egyesek azt mondanák, hogy ez a szórakoztató része.
 speak-goal-text = Rögzített klip
 listen-subtitle = Segítsen ellenőrizni a hangokat
 listen-paragraph = A közzétett klipek ellenőrzése hasonlóan fontos a Common Voice küldetéséhez. Hallgasson bele, és segítsen nekünk a minőségi nyílt forráskódú beszédadatok létrehozásában.
@@ -297,7 +297,7 @@ x-years-short =
 help-make-dataset = Segítsen minket egy kiváló minőségű, nyilvános és nyílt adatkészlet létrehozásában
 sign-up-account = Regisztráljon egy fiókot
 email-subscription-title = iratkozzon fel a hírlevélre
-email-subscription-title-new = Iratkozzon fel a Common Voice hírlevelekre, a cél emlékeztetőkre és az előhaladásról szóló hírekre
+email-subscription-title-new = Iratkozzon fel a Common Voice hírlevelekre, a célokkal kapcsolatos emlékeztetőkre és az előhaladásról szóló hírekre
 
 ## Account Benefits
 
@@ -305,7 +305,7 @@ benefits = Előnyök
 rich-data = A névtelen demográfiai adatokkal a lehető leggazdagabbá teheti a benyújtott adatokat. A demográfiai adatok a nyilvánosságra hozáskor anonimizálásra kerülnek.
 improve-audio = A profiladatok javítják a beszédfelismerő pontosságának tanításához használt hangadatokat.
 keep-track = Kövesse nyomon az előrehaladást és a metrikákat több nyelven is.
-compare-progress = Nézze meg, hogyan haladnak a világ többi részéről érkező közreműködőkkel összehasonlítva.
+compare-progress = Nézze meg, hogyan halad a világ többi részéről érkező közreműködőkkel összehasonlítva.
 view-goals = Nézze meg az előrehaladást a személyes és a projekt céljaihoz képest.
 join-newsletter = Csatlakozhat a levelezőlistánkhoz, hogy értesüljön a projekttel kapcsolatos újdonságokról és információkról.
 
@@ -313,7 +313,7 @@ join-newsletter = Csatlakozhat a levelezőlistánkhoz, hogy értesüljön a proj
 
 whats-public = Mi nyilvános?
 email-not-public = Nem fogjuk nyilvánossá tenni az e-mail címét.
-recordings-and-locale-public = A felvételei száma, és a nyelvek amikben Ön közreműködik, nyilvánosak lesznek.
+recordings-and-locale-public = A felvételei száma, és a nyelvek, amelyekben Ön közreműködik, nyilvánosak lesznek.
 username-optin-public = Kiválaszthatja, hogy a felhasználó neve nyilvános vagy privát legyen.
 demographic-deidentified-clarity-2 = Az opcionálisan benyújtott demográfiai adatok (például életkor, nem, nyelv és akcentus) sosem lesznek közzétéve a profilján, és nem lesznek összekapcsolva a fiókjával az adatkészletben. Az egyes hangklipeket a pontosabb elemzés céljából össze lesznek kapcsolva a demográfiai adatokkal – például egy kutató egy konkrét demográfiai szegmensre akarhat betanítani egy modellt.
 username-email-not-demographic = A felhasználóneve és az e-mail címe nem lesz társítva a közzétett adatokkal.
