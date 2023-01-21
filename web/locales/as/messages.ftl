@@ -467,7 +467,7 @@ faq-why-important-a =
 faq-how-get-q = মই কমন ভইচ ডেটা কেনেকৈ পাব পাৰোঁ?
 faq-how-get-a = কমন ভইচ ডেটাছেট <datasetLink>আমাৰ ডেটাছেট পৃষ্ঠা</datasetLink>ত <licenseLink>CC0</licenseLink> লাইচেন্সৰ অধীনত ডাউনল’ডৰ বাবে উপলব্ধ। আপুনি সেইখন পৃষ্ঠাৰ পৰাই আন বহুতো ৰাজহুৱাকৈ উপলব্ধ ডেটাছেট ডাউনল’ড কৰিব পাৰে।
 faq-when-release2-q = আপোনালোকে অন্য ভাষাবোৰত কমন ভইচ ডেটা কেতিয়া মুকলি কৰিব?
-faq-when-release2-a = কমন ভইচ ডেটাছেটৰ বহুভাষিক সংস্কৰণৰ বৰ্তমান সমাজটোৰ সহযোগত সংগ্ৰহ আৰু চাফাই প্ৰক্ৰিয়া চলি আছে। যদি আপুনি কমন ভইচত নতুন ভাষা যোগ কৰাত আমাক সহায় কৰিব বিচাৰে, তেন্তে ডেটাছেটত নতুন বাক্য যোগ কৰিবলৈ <sentenceCollectorLink>বাক্য গোটোৱা সঁজুলি</sentenceCollectorLink> আৰু ৱেবছাইট অনুবাদ কৰিবলৈ Mozilla <pontoonLink>Pontoon</pontoonLink>-লৈ গৈ চাওক। 5000টা অনুমোদিত বাক্য গোটোৱা হ’লে মাত-দানৰ বাবে কমন ভইচত নতুন ভাষা যোগ কৰা হয়।
+faq-when-release2-a = কমন ভইচ ডেটাছেটৰ বহুভাষিক সংস্কৰণৰ বৰ্তমান সমাজটোৰ সহযোগত সংগ্ৰহ আৰু চাফাই প্ৰক্ৰিয়া চলি আছে। যদি আপুনি কমন ভইচত নতুন ভাষা যোগ কৰাত আমাক সহায় কৰিব বিচাৰে, তেন্তে ডেটাছেটত নতুন বাক্য যোগ কৰিবলৈ <sentenceCollectorLink>বাক্য-সংগ্ৰহৰ সঁজুলি</sentenceCollectorLink> আৰু ৱেবছাইট অনুবাদ কৰিবলৈ Mozilla <pontoonLink>Pontoon</pontoonLink>-লৈ গৈ চাওক। 5000টা অনুমোদিত বাক্য গোটোৱা হ’লে মাত-দানৰ বাবে কমন ভইচত নতুন ভাষা যোগ কৰা হয়।
 faq-why-mission-q = কমন ভইচ Mozilla অভিযানৰ অংশ কিয়?
 faq-why-mission-a = ৱেব সকলোৰে বাবে মুকলি আৰু সাধ্য কৰি ৰাখিবলৈ Mozilla সমৰ্পিত। তেনে কৰিবলৈ আমি ৱেব-সৃষ্টিকৰ্তাসকলক কমন ভইচৰ দৰে প্ৰকল্পৰ জৰিয়তে ক্ষমতা প্ৰদান কৰিব লাগিব। যিহেতু বিশেষ এপ্লিকেশ্যনৰ উপৰিও আন বহুতো এপ্লিকেশ্যনত কণ্ঠস্বৰ প্ৰযুক্তিৰ ব্যৱহাৰ বৃদ্ধি পাবলৈ ধৰিছে, আমাৰ বিশ্বাস যে সেইবোৰে প্ৰতিগৰাকী ব্যৱহাৰকাৰীকেই সমানভাৱে সেৱা আগবঢ়োৱা উচিত। তাৰমানে এয়া যে কণ্ঠস্বৰ প্ৰযুক্তি নিৰ্মাণ আৰু পৰীক্ষা কৰোঁতে অধিক ভাষাত বিনিয়োগ কৰা আৰু বৈচিত্ৰময় উচ্চাৰণ আৰু জনগাঁথনিক ঠাই দিয়া। কমন ভইচ সকলোৰে বাবে উপলব্ধ ৰাজহুৱা সম্পদ আৰু Mozilla দল আৰু সমগ্ৰ বিশ্বৰ বিকাশকৰ্তাসকলে ইতিমধ্যে আমাৰ নিজা প্ৰকল্পবোৰতো ইয়াক ব্যৱহাৰ কৰি আছে।
 faq-what-cv-and-deepspeech-q = কমন ভইচ আৰু Deep Speech-ৰ মাজত পাৰ্থক্য কি?
@@ -592,12 +592,12 @@ about-playbook-how-add-language-translating-content-2 =
     তাৰপাছত, কমন ভইচ প্ৰকল্পত ভাষাটো উপলব্ধ কৰোৱাবলৈ
     <githubRepoLink>GitHub-ত নতুন ভাষাৰ অনুৰোধ কৰিব</githubRepoLink>। <localizationFragment>ছাইটৰ অনুবাদ সম্বন্ধে অধিক চাওক</localizationFragment>।
 about-playbook-how-add-language-collecting-sentences-heading = বাক্য গোটোৱা
-about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>বাক্য গোটোৱা সঁজুলিৰ ব্যৱহাৰ-সম্পৰ্কীয় আমাৰ নিৰ্দেশনা চাওক</sentenceCollectorVideo>।
+about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>বাক্য-সংগ্ৰাহকৰ ব্যৱহাৰ-সম্পৰ্কীয় আমাৰ নিৰ্দেশনা চাওক</sentenceCollectorVideo>।
 about-playbook-how-add-language-collecting-sentences-content-2 =
     আপুনি <sentenceCollectorLinkAdd>কম পৰিমাণে বাক্য যোগ কৰিব</sentenceCollectorLinkAdd> পাৰে
     বা আপুনি <bulkImportDocsLink>Github ব্যৱহাৰ কৰি সমূহীয়া আমদানি</bulkImportDocsLink> কৰিব পাৰে।
     মনত ৰাখিব যে বাক্যবোৰ <licenseLink>CC0 (বা ৰাজহুৱা ড’মেইন)</licenseLink>ৰ হোৱাটো প্ৰয়োজনীয় বা আপুনি নিজে লিখিব পাৰে।
-about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>বাক্য গোটোৱা সঁজুলি সম্বন্ধে অধিক চাওক</sentenceCollectorFragment>।
+about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>বাক্য-সংগ্ৰহ সম্বন্ধে অধিক চাওক</sentenceCollectorFragment>।
 
 ## How does localization work
 
@@ -1259,8 +1259,8 @@ sc-logout-button = লগ-আউট কৰক
 
 ## HOME
 
-sc-home-title = কমন ভইচৰ বাক্য গোটোৱা সঁজুলিলৈ আদৰণি জনাইছোঁ
-sc-home-intro = বাক্য গোটোৱা সঁজুলিটো <commonVoiceLink>কমন ভইচ</commonVoiceLink>ৰ অংশ। ই অৱদানকাৰীসকলক সমাজটোৱে সৃষ্টি কৰা বাক্যবোৰ সংগ্ৰহ আৰু বৈধকৰণ কৰাত সহায় কৰে। আপুনি পোৱা বা সংগ্ৰহ কৰা সৰু-মজলীয়া আকাৰৰ ৰাজহুৱা ড’মেইনৰ কৰ্পাছ আমদানি আৰু পৰিষ্কাৰ কৰিবলৈও আপুনি এই সঁজুলি ব্যৱহাৰ কৰিব পাৰে। সকলো বাক্য ৰাজহুৱা ড’মেইনৰ হোৱাটো প্ৰয়োজনীয়। অনুমোদিত বাক্যবোৰ প্ৰতি সপ্তাহে কমন ভইচৰ ভঁৰাললৈ ৰপ্তানি কৰা হয় আৰু প্ৰতিটো নতুন মোতায়েনত কমন ভইচৰ ৱেবছাইটত মুকলি কৰা হয়।
+sc-home-title = কমন ভইচৰ বাক্য-সংগ্ৰাহকলৈ আদৰণি জনাইছোঁ
+sc-home-intro = বাক্য-সংগ্ৰাহক <commonVoiceLink>কমন ভইচ</commonVoiceLink>ৰ অংশ। ই অৱদানকাৰীসকলক সমাজটোৱে সৃষ্টি কৰা বাক্যবোৰ সংগ্ৰহ আৰু বৈধকৰণ কৰাত সহায় কৰে। আপুনি পোৱা বা সংগ্ৰহ কৰা সৰু-মজলীয়া আকাৰৰ ৰাজহুৱা ড’মেইনৰ কৰ্পাছ আমদানি আৰু পৰিষ্কাৰ কৰিবলৈও আপুনি এই সঁজুলি ব্যৱহাৰ কৰিব পাৰে। সকলো বাক্য ৰাজহুৱা ড’মেইনৰ হোৱাটো প্ৰয়োজনীয়। অনুমোদিত বাক্যবোৰ প্ৰতি সপ্তাহে কমন ভইচৰ ভঁৰাললৈ ৰপ্তানি কৰা হয় আৰু প্ৰতিটো নতুন মোতায়েনত কমন ভইচৰ ৱেবছাইটত মুকলি কৰা হয়।
 sc-home-collect-title = বাক্য গোটাওক
 sc-home-collect-text = লিখি অথবা ৰাজহুৱা ড’মেইনৰ বাক্য সংগ্ৰহ কৰি আমাক সহায় কৰক।
 sc-home-review-title = বাক্যবোৰ পৰ্যালোচনা কৰক
@@ -1339,7 +1339,7 @@ sc-stats-error = আমি পৰিসংখ্যা আনিব নোৱা
 # Variables:
 #   $sentenceCount (Number) - Total number of sentences uploaded through Sentence Collector
 #   $languageCount (Number) - Total number of languages these sentences represent
-sc-stats-summary = কমন ভইচৰ বাক্য গোটোৱা সঁজুলিয়ে { $languageCount }টা ভাষাত { $sentenceCount }টা বাক্য গোটাইছে!
+sc-stats-summary = কমন ভইচৰ বাক্য-সংগ্ৰাহকে { $languageCount }টা ভাষাত { $sentenceCount }টা বাক্য গোটাইছে!
 
 ## ADD
 
