@@ -246,7 +246,9 @@ logout = Kijelentkezés
 home-title = A Common Voice projekt a Mozilla kezdeményezése, amelynek célja, hogy segítsük a gépeket megtanítani arra, hogyan beszélnek az emberek.
 default-tagline = A Common Voice projekt a Mozilla kezdeményezése, amelynek célja, hogy segítsük a gépeket megtanítani arra, hogyan beszélnek az emberek.
 home-cta = Szólaljon meg, működjön közre.
-wall-of-text-start = A beszéd természetes, a beszéd emberi. Ezért lelkesedünk egy gépeink számára használható beszédtechnológia létrehozásáért. Azonban ehhez hatalmas mennyiségű beszédmintára van szükség.
+wall-of-text-start =
+    A beszéd természetes, a beszéd emberi. Ezért villanyoz fel bennünket egy használható beszédtechnológia
+    létrehozása a gépeink számára. Ehhez azonban hatalmas mennyiségű beszédmintára van szükség.
 wall-of-text-more-mobile = A nagyvállalatok által használt hangminták a legtöbb ember számára nem érhetőek el. Szerintünk ez elfojtja az innovációt. Ezért létrehoztuk a Common Voice projektet, hogy segítsük a hangfelismerési technológiát mindenki számára hozzáférhetővé tenni.
 wall-of-text-more-desktop =
     Most a hangjával járulhat hozzá egy olyan nyílt forráskódú hangadatbázis építéséhez, amelyet bárki szabadon használhat innovatív
