@@ -724,6 +724,7 @@ confirm-size = Jeni gati të nisni një shkarkim prej <b>{ $size }</b>
 size-gigabyte = GB
 size-megabyte = MB
 confirm-no-identify = <b>Pranoni</b> se nuk do të rrekeni të përcaktoni identitetin e folësve në grupin e të dhënave nga Common Voice
+confirm-join-mailing-list = Dua të bëhem pjesë e listës së postimeve nga Common Voice
 download-language = Shkarkoni { $language }
 validated-hours = Orë Vleftësim
 recorded-hours = Orë Incizim
@@ -752,6 +753,9 @@ more = Më tepër
 close = Mbylle
 download = Shkarkoje
 dataset-version = Version
+sha256-checksum-copied = Checksum-i  SHA256 u Kopjua!
+sha256-checksum-copied-error = S’u arrit të kopjohej Checksum-i SHA256
+clipboard-not-supported = Nuk mbulohet e papastra
 
 ## Download Modal
 
