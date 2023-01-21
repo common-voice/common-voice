@@ -320,7 +320,7 @@ email-not-public = Nem fogjuk nyilvánossá tenni az e-mail címét.
 recordings-and-locale-public = A felvételei száma, és a nyelvek, amelyekben Ön közreműködik, nyilvánosak lesznek.
 username-optin-public = Választhat, hogy a felhasználóneve nyilvános vagy anonim legyen.
 demographic-deidentified-clarity-2 = Az opcionálisan benyújtott demográfiai adatok (például életkor, nem, nyelv és akcentus) sosem lesznek közzétéve a profilján, és nem lesznek összekapcsolva a fiókjával az adatkészletben. Az egyes hangklipek a pontosabb elemzés céljából össze lesznek kapcsolva a demográfiai adatokkal – ha, például, egy kutató egy konkrét demográfiai szegmensre szeretne betanítani egy modellt.
-username-email-not-demographic = A felhasználóneve és az e-mail címe nem lesz társítva a közzétett adatokkal.
+username-email-not-demographic = A felhasználóneve és az e-mail-címe nem lesz társítva a közzétett adatokkal.
 
 ## Speak & Listen Shortcuts
 
@@ -1091,7 +1091,7 @@ profile-form-delete = Profil törlése
 download-q = Le kell töltenie az adatait?
 download-info = Mondja el, mit szeretne letölteni:
 download-profile-title = Profil
-download-profile-info = Tartalmazza az e-mail-címet, felhasználónevet és a demográfiai adatokat; azonnal elérhető
+download-profile-info = Tartalmazza az e-mail-címet, a felhasználónevet és a demográfiai adatokat; azonnal elérhető
 download-profile-size = Néhány bájt
 download-recordings-title = Felvételek
 download-recordings-info = Tartalmazza az mp3 fájlokat és a kapcsolódó mondatokat is, az összeállítás eltarthat egy ideig
