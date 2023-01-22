@@ -20,6 +20,7 @@ an = ⵜⴰⵕⴰⴳⵓⵏⵉⵜ
 ar = ⵜⴰⵄⵕⴰⴱⵜ
 arn = ⵜⴰⵎⴰⴱⴰⴷⵓⵏⴳⵓⵏⵜ
 as = ⵜⴰⵙⵙⴰⵎⵉⵜ
+ast = ⵜⴰⵙⵜⵓⵔⵉⵜ
 az = ⵜⴰⵣⵔⵉⴱⵉⴷⵊⴰⵏⵉⵜ
 ba = ⵜⴰⴱⴰⵛⴽⵉⵔⵉⵜ
 bas = ⵜⴰⴱⴰⵙⴰⵜ
@@ -178,9 +179,11 @@ add-language = ⵔⵏⵓ ⵜⵓⵜⵍⴰⵢⵜ
 
 ## ABOUT US
 
+how-does-it-work-title-v2 = ⵎⴰⵏⵎⴽ ⴷⴰ ⵉⵙⵡⵓⵔⵓⵢ ⴽⴰⵎⵏ ⴼⵓⵢⵙ?
 
 ## How does it work section
 
+about-nav-how-it-works-2 = ⵎⴰⵏⵎⴽ ⴷⴰ ⵉⵙⵡⵓⵔⵓⵢ ⴽⴰⵎⵏ ⴼⵓⵢⵙ?
 
 ## Community Playbook Content
 ## What is a language
@@ -252,6 +255,7 @@ language-validation-hours = ⵜⵉⵙⵔⴰⴳⵉⵏ
 
 ## Contribution
 
+share-common-voice = ⴱⴹⵓ ⴽⴰⵎⵏ ⴼⵓⵢⵙ
 
 ## Reporting
 
@@ -277,6 +281,7 @@ your-languages = ⵜⵓⵜⵍⴰⵢⵉⵏ ⵏⵏⵓⵏ
 
 ## DemoLayout
 
+demo-welcome = ⴱⵔⵔⴽⴰⵜ ⴳ ⴽⴰⵎⵏ ⴼⵓⵢⵙ
 
 ## Demo Datasets
 
