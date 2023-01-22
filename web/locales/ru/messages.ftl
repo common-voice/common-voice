@@ -742,6 +742,7 @@ confirm-size = Вы собираетесь совершить загрузку <
 size-gigabyte = ГБ
 size-megabyte = МБ
 confirm-no-identify = <b>Вы соглашаетесь</b> не пытаться определять личность дикторов в наборе данных Common Voice
+confirm-join-mailing-list = Я хочу присоединиться к списку рассылки Common Voice
 download-language = Загрузить { $language }
 validated-hours = Часов проверено
 recorded-hours = Часов записано
