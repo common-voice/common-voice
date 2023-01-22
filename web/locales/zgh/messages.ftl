@@ -1,13 +1,8 @@
 ## General
 
-yes-receive-emails = ⵢⵢⵉⵀ, ⴰⵣⵏⴰⵜ-ⵉⴷ ⵜⵉⴱⵔⴰⵜⵉⵜ. ⵔⵉⵖ ⴰⴷ ⵖⵓⵔⵉ ⵉⵍⵉⵏ ⵉⵏⵖⵎⵉⵙⵏ ⵏ ⴽⴰⵎⵏ ⵠⵓⵢⵙ.
-stayintouch = ⴳ ⵎⵓⵣⵉⵍⵍⴰ ⴷⴰ ⵏⵥⴽⴽⵓ ⵢⴰⵜ ⵜⴳⵔⴱⴰⵣⵜ ⵖⵉⴼ ⵓⵙⵓⵜⵉ ⵏ ⵜⵉⵜⵉⴽⵏⵓⵍⵓⵊⵉⵢⵉⵏ ⵏ ⵡⴰⵡⴰⵍ. ⵏⵔⴰ ⴰⴷ ⴷ-ⵏⴰⵡⵉ ⵏⵏⵀⵉⵢⵜ ⵉ ⵜⵎⵣⴷⵉⵡⵉⵏ ⴷ ⵉⵙⵓⴳⴰⵎ ⵉⵎⴰⵢⵏⵓⵜⵉⵏ ⵏ ⵉⵙⴼⴽⴰ ⵏⵉⵙⵉⵏ ⴰⵡⴷ ⵎⵉⵎⴽ ⴷⴰ ⵜⵙⵙⵅⴷⴰⵎⵎ ⴰⵢⴰ ⵏ ⵉⵙⴼⴽⴰ.
-privacy-info = ⴰⵔ ⵏⵙⵙⵓⵖⵓⵏ ⴰⴷ ⵏⵙⵙⵅⴷⴰⵎ ⵉⵏⵖⵎⵉⵙⵏ-ⵏⵏⵓⵏ ⵙ ⵓⵙⴳⴳⴷ. ⴰⴼⴰ ⴰⴷ ⵜⵉⵙⵉⵏⵎ ⵓⴳⴰⵔ, ⵉⵥⵉⵔⴰⵜ <privacyLink>ⴰⵙⵎⵉⴳⵍ ⵏ ⵜⵉⵏⵏⵓⵜⵍⴰ ⵏ ⵉⵙⴼⴽⴰ</privacyLink>.
-return-to-cv = ⵓⵖⵓⵍ ⵙ ⴽⴰⵎⵏ ⵠⵓⵢⵙ
 email-input =
     .label = ⵉⵎⴰⵢⵍ
 submit-form-action = ⴰⵣⵏ
-loading = ⴰⴽⵜⵓⵔ...
 banner-error-slow-link = ⵜⴰⵙⵏⴰ ⵏ ⵡⴰⴷⴷⴰⴷ
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
