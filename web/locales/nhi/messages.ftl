@@ -981,6 +981,17 @@ sc-review-form-usage = xic panulti mu mahpil ichin mu yecmah para tic silis tlah
 sc-review-form-button-reject = amo tic silis
 sc-review-form-button-skip = ahcotzicuini
 sc-review-form-button-approve = ticsilis
+# Variables:
+#   $sentences (Number) - Number of sentences the user has reviewed in this session
+sc-review-form-reviewed-message =
+    { $sentences ->
+        [0] amo umutaqueh sentencias
+        [one] 1 tlahcuilol ytuquitaqueh. ¡tlasohcamatictsin
+        [many] { "" }
+       *[other] { $sentences } tlahcuilolmeh yuquimitaqueh. tlasohcamatictsin
+    }
+sc-review-form-review-failure = amo uhuilic umahcuc. xic yehyeco ocsipa cachi tlahcah
+sc-review-link = xiquita
 
 ## SETTINGS
 
