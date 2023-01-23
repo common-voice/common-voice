@@ -1003,7 +1003,7 @@ sc-settings-failed = amo uhuilic u mu patlac. xic yehyeco ocsipa
 # VALIDATION
 sc-validation-number-of-words = tlahcuilol huilis qui pias 1 huan 14 tlahtol
 sc-validation-no-numbers = tlahcuilol amo huilis qui pixtos puhual
-sc-validation-no-symbols = tlahcuilol amo huilis quipias simbolos
+sc-validation-no-symbols = tlahcuilol a mo huilis qui pias simbolos
 
 # [/SentenceCollector]
 
