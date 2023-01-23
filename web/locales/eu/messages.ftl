@@ -1115,6 +1115,7 @@ sc-howto-title = Nola
 sc-howto-addlang-title = Gehitu landuko dituzun hizkuntzak
 sc-howto-addsen-title = Gehitu esaldi berriak
 sc-howto-cite-title = Nola egin aipuak
+sc-howto-cite-item-1 = Webgunea gehi zenezake. Adibidez: "Common Voice - https://commonvoice.mozilla.org/eu"
 sc-howto-review-title = Berrikusi esaldiak
 sc-howto-review-subtitle = Ziurtatu esaldiek ondoko irizpideak betetzen dituztela:
 sc-howto-review-criteria-1 = Esaldiek ez dute akats ortografikorik izan behar.
@@ -1330,3 +1331,13 @@ sc-validation-no-abbreviations = Esaldiak ez du laburdurarik izan behar
 
 localization-select =
     .label = Aukeratu hizkuntza/lokalizazioa
+# PARTNERSHIPS PAGE
+partnerships-header = Lankidetzak
+partnerships-foundations-header = Fundazioak
+partnerships-governments-header = Gobernuak
+add-information-button = Gehitu informazioa
+continue-speaking-button = Ez eskerrik asko, hitz egiten jarraitu
+thanks-for-voice-toast = Eskerrik asko zure ahots-informazioagatik
+# SECOND POST SUBMISSION CTA
+second-cta-header-text = Eskerrik asko zure ahotsarekin parte hartzeagatik!
+create-profile-button = Sortu profil bat
