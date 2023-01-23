@@ -949,9 +949,21 @@ sc-login-err-try-again = xic yehyeco ocsipa
 #   $username (String) - eMail address of the logged in user
 sc-profile-title = ixnexicah{ $username }
 sc-personal-err-lang-not-found = amo uhuilic umucuileh masehual tlahtol: masehual tlahtol amo umahsik
+sc-personal-err-remove = amo uhuilic umu cuile masehual tlahtol
+sc-personal-your-languages = in masehualtlahtol:
+sc-personal-remove-button = xicpololti
+# Variables:
+#   $sentences (Number) - Number of sentences that were added by the currently logged in user for this language
+sc-personal-added-by-you = { $sentences } tuhuatzin utucun tlaleh
+sc-personal-not-added = ayamo tucun tlalia se masehual tlahtol
 
 ## REVIEW CRITERIA
 
+sc-criteria-title = tlanunutz de yuquitaqueh
+sc-criteria-make-sure = xic yequita tlahcuilol muc pia tlen mu icahuia tlanahuatilmeh:
+sc-criteria-item-1 = tlahcuilol quipia de isqui cuali tlahcuiliuhtok
+sc-criteria-item-2 = tlahcuilol quipia de isqui gramaticalmente cuali
+sc-criteria-item-3 = tlahcuilol quipia de isqui tlanunutz
 
 ## REVIEW
 
