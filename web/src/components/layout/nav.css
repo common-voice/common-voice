@@ -57,13 +57,15 @@ header {
         }
     }
 
-    & .nav-links a {
+    & .nav-links a,
+    .nav-links .nav-link-item {
         justify-content: space-evenly;
         font-family: var(--base-font-family);
         font-size: var(--font-size-xs);
         text-transform: uppercase;
         font-weight: 600;
         white-space: nowrap;
+        margin-right: 8px;
     }
 
     & .user-menu {
@@ -105,6 +107,11 @@ header {
         display: flex;
         font-family: var(--strong-font-family);
 
+        & .contribute-menu {
+            padding: 0 1rem;
+            display: block;
+        }
+
         & a {
             padding: 0 1rem;
             display: block;
@@ -114,8 +121,11 @@ header {
             }
         }
 
-        /* do we need this wrapper class?? */
         & .contribute-menu {
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+
             & .nav-menu-wrap {
                 position: relative;
             }
@@ -124,16 +134,15 @@ header {
                 display: none;
                 flex-direction: column;
                 position: absolute;
-                right: 0;
+                right: -15px;
                 top: 0;
 
-                & .triangle {
-                    /* border-bottom: 10px solid var(--white); */
-                    /* border-bottom: 10px solid green; */
-                    margin-inline-start: auto;
-                    margin-inline-end: 10px;
-                    padding-top: 30px;
+                & .blue-border {
                     display: inline-block;
+                    padding-top: 35px;
+                    border-bottom: 4px solid var(--blue);
+                    margin-left: 15px;
+                    margin-right: 15px;
                 }
 
                 & ul {
@@ -142,21 +151,26 @@ header {
                     list-style: none;
                     margin: 0;
                     padding: 0;
+
+                    & p {
+                        text-transform: uppercase;
+                        font-family: var(--base-font-family);
+                        font-size: var(--font-size-xs);
+                        font-weight: 600;
+                        color: var(--warm-grey);
+                        text-align: center;
+                        margin-top: 32px;
+                    }
                 }
 
                 & a {
-                    padding: 10px 40px;
+                    padding: 15px 45px;
                     display: flex;
                     flex-direction: row;
                     align-items: center;
                     font-weight: 400;
                     text-transform: capitalize;
                     font-size: 16px;
-
-                    /* & svg {
-                        margin-inline-end: 12px;
-                        height: 16px;
-                    } */
                 }
             }
 
@@ -164,6 +178,18 @@ header {
                 & .menu {
                     display: flex;
                 }
+
+                & .nav-link-item {
+                    color: var(--blue);
+                }
+
+                & svg {
+                    fill: var(--blue);
+                }
+            }
+
+            & .rotate-180 {
+                transform: rotate(180deg);
             }
         }
     }

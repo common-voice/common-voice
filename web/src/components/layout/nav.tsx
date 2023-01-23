@@ -9,6 +9,7 @@ import {
   LocaleNavLink,
   useLocale,
 } from '../locale-helpers';
+import { ChevronDown } from '../ui/icons';
 
 import './nav.css';
 
@@ -37,18 +38,22 @@ export default function Nav({ children, ...props }: { [key: string]: any }) {
             className={classNames('contribute-menu', { active: showMenu })}
             onMouseEnter={() => setShowMenu(true)}
             onMouseLeave={() => setShowMenu(false)}>
-            <LocalizedNavLink id="contribute" to={URLS.SPEAK} />
+            <p className="nav-link-item">
+              <Localized id="contribute" />
+            </p>
+            <ChevronDown className={classNames({ 'rotate-180': showMenu })} />
             <div className="nav-menu-wrap">
               <div className="menu">
-                <span className="triangle" />
+                <span className="blue-border" />
                 <ul>
+                  <p>Voice Collection</p>
                   <li>
-                    <LocaleLink>
+                    <LocaleLink to={URLS.SPEAK}>
                       <Localized id="speak" />
                     </LocaleLink>
                   </li>
                   <li>
-                    <LocaleLink>
+                    <LocaleLink to={URLS.LISTEN}>
                       <Localized id="listen" />
                     </LocaleLink>
                   </li>
