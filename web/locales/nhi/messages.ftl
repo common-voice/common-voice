@@ -889,6 +889,10 @@ sc-confirm-ready =
         [many] { "" }
        *[other] { $readyCount } tlahcuilolmeh cuali para tiquin nextis
     }
+# Variables:
+#   $countOfUnreviewed (Number) - Number of sentences unreviewed before the upload
+sc-confirm-unreviewed = { $countOfUnreviewed } tlahcuilolmeh ayamo quimitstukeh. tla tik niqui, nuyuhqui huilis ti quitas mu tlancuilol antes de que tic naltitlanis
+sc-confirm-button-text = tlananquili
 
 ## LANGUAGE INFO
 
