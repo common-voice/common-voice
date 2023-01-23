@@ -1000,7 +1000,10 @@ sc-settings-reset-skipped = sequinyectlalis tlahtulmeh tlen umu panultihqueh
 sc-settings-skipped-decription = yiachton utiquinpanulte tlahcuilolmeh tlen utiquimitayah,tiquin yectlalis tlahcuilolmeh tlen utiquin panultaya mu nextisqueh nuchten tlahcuilulmeh tlen u mu panultihqueh ocsipa. nicancan simi sesiahcah den masehualtlahtol
 sc-settings-show-all-button = munextican nuchten tlahcuilolmeh tlen u mu panultihqueh ocsipa
 sc-settings-failed = amo uhuilic u mu patlac. xic yehyeco ocsipa
+# VALIDATION
+sc-validation-number-of-words = tlahcuilol huilis qui pias 1 huan 14 tlahtol
 sc-validation-no-numbers = tlahcuilol amo huilis qui pixtos puhual
+sc-validation-no-symbols = tlahcuilol amo huilis quipias simbolos
 
 # [/SentenceCollector]
 
