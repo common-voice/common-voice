@@ -113,6 +113,59 @@ header {
                 color: var(--red);
             }
         }
+
+        /* do we need this wrapper class?? */
+        & .contribute-menu {
+            & .nav-menu-wrap {
+                position: relative;
+            }
+
+            & .menu {
+                display: none;
+                flex-direction: column;
+                position: absolute;
+                right: 0;
+                top: 0;
+
+                & .triangle {
+                    /* border-bottom: 10px solid var(--white); */
+                    /* border-bottom: 10px solid green; */
+                    margin-inline-start: auto;
+                    margin-inline-end: 10px;
+                    padding-top: 30px;
+                    display: inline-block;
+                }
+
+                & ul {
+                    background: var(--white);
+                    box-shadow: 0 2px 5px 0 var(--light-grey);
+                    list-style: none;
+                    margin: 0;
+                    padding: 0;
+                }
+
+                & a {
+                    padding: 10px 40px;
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    font-weight: 400;
+                    text-transform: capitalize;
+                    font-size: 16px;
+
+                    /* & svg {
+                        margin-inline-end: 12px;
+                        height: 16px;
+                    } */
+                }
+            }
+
+            &.active {
+                & .menu {
+                    display: flex;
+                }
+            }
+        }
     }
 }
 
