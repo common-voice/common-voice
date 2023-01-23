@@ -893,9 +893,41 @@ sc-confirm-ready =
 #   $countOfUnreviewed (Number) - Number of sentences unreviewed before the upload
 sc-confirm-unreviewed = { $countOfUnreviewed } tlahcuilolmeh ayamo quimitstukeh. tla tik niqui, nuyuhqui huilis ti quitas mu tlancuilol antes de que tic naltitlanis
 sc-confirm-button-text = tlananquili
+sc-confirm-uploading = mu tlehcultuqueh tlahcuilolmeh. nicanca hulis huehcahuas siqui minutos dependiendo quesqui tlahcuilol utiquin tlale. timits tlatlauhtia amo xic tzacua nin nicancah sitio web
 
 ## LANGUAGE INFO
 
+sc-lang-info-title-total = nochi
+sc-lang-info-title-personal = sesiahcah
+# Variables:
+#   $totalSentences (Number) - Number of sentences uploaded in total for this language
+sc-lang-info-total =
+    { $totalSentences ->
+        [0] amo catqui nuchi sentecias
+        [one] 1 nuchi sentencia
+        [many] { "" }
+       *[other] { $totalSentences } nuchi tlacuilolmeh
+    }
+# Variables:
+#   $totalInReview (Number) - Number of sentences currently in the review state for this language
+sc-lang-info-in-review =
+    { $totalInReview ->
+        [0] amo catqui tlahcuilol mutstok
+        [one] 1 mutstoc se tlahcuilol
+        [many] { "" }
+       *[other] { $totalInReview } tlahcuilolmeh mutstuqueh
+    }
+# Variables:
+#   $unreviewedSentencesByYou (Number) - Number of sentences the user can still review
+sc-lang-info-left-for-you =
+    { $unreviewedSentencesByYou ->
+        [0] amo umu cauhqueh tlahcuilolmeh para tiquimitasqueh
+        [one] mu cahua 1 tlahcuilol para quitasqueh
+        [many] { "" }
+       *[other] { $unreviewedSentencesByYou } umucauhqueh tlahcuilolmeh para muquimitacah
+    }
+sc-lang-info-review-now = <reviewLink> xiquita axan </reviewLink>
+sc-lang-info-add-more = <addLink>xiquintlali cachi tlahcuilolmeh axan </addLink>
 
 ## LOGIN
 
