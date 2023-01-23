@@ -970,6 +970,13 @@ sc-criteria-item-6 = tlamucahua sin tlahcuilol para ti quitas, ¡ yitech palehui
 
 ## REVIEW
 
+sc-review-lang-not-selected = ayamo tic nextia se masehual tlahtol. timits tlatlauhtiah xiyuh <profileLink>ixnexicah</profileLink> para tic nextis masehualtlahtulmeh
+sc-review-title = tiquitasqueh tlahcuilol
+sc-review-loading = nichicuhtuc tlahcuilolmeh...
+sc-review-select-language = xicnexti se masehual tlahtol para tiquitasqueh tlahcuilolmeh
+sc-review-no-sentences = amo cah tlahcuilolmeh para tiquimitasqueh <addLink> xiquintlali cachi tlahcuilolmeh axan</addLink>
+sc-review-form-prompt =
+    .message = tlahcuilolmeh tlen yumutaquh amo u mu naltitlanqueh, cateh seguras?
 
 ## SETTINGS
 
