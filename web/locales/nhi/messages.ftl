@@ -964,6 +964,9 @@ sc-criteria-make-sure = xic yequita tlahcuilol muc pia tlen mu icahuia tlanahuat
 sc-criteria-item-1 = tlahcuilol quipia de isqui cuali tlahcuiliuhtok
 sc-criteria-item-2 = tlahcuilol quipia de isqui gramaticalmente cuali
 sc-criteria-item-3 = tlahcuilol quipia de isqui tlanunutz
+sc-criteria-item-4 = tla yen tlahcuilol mahsi ica nuchi criterios, xic pachi nican&quot;yecmati&quot; ichin mu yecman
+sc-criteria-item-5-2 = tla yen tlahcuilol amo qui nextia criterios de achton xic mahpacho &quot;amo nic silia&quot; ichin mu yecman, tla amo tic yecmati ica nin tlahcuilol nuyuhqui huilis tic panultis huan ti panos ihuan ocse
+sc-criteria-item-6 = tlamucahua sin tlahcuilol para ti quitas, ¡ yitech palehui para tic nichicusqueh cachi miak tlahcuilol!
 
 ## REVIEW
 
