@@ -9,7 +9,7 @@ import {
   LocaleNavLink,
   useLocale,
 } from '../locale-helpers';
-import { ChevronDown } from '../ui/icons';
+import { ChevronDown, ListenIcon, MicIcon } from '../ui/icons';
 
 import './nav.css';
 
@@ -46,13 +46,17 @@ export default function Nav({ children, ...props }: { [key: string]: any }) {
               <div className="menu">
                 <span className="blue-border" />
                 <ul>
-                  <p>Voice Collection</p>
+                  <Localized id="contribute-nav-item-header-1">
+                    <p />
+                  </Localized>
                   <li>
+                    <MicIcon />
                     <LocaleLink to={URLS.SPEAK}>
                       <Localized id="speak" />
                     </LocaleLink>
                   </li>
                   <li>
+                    <ListenIcon />
                     <LocaleLink to={URLS.LISTEN}>
                       <Localized id="listen" />
                     </LocaleLink>
