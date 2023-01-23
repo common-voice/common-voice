@@ -977,6 +977,10 @@ sc-review-select-language = xicnexti se masehual tlahtol para tiquitasqueh tlahc
 sc-review-no-sentences = amo cah tlahcuilolmeh para tiquimitasqueh <addLink> xiquintlali cachi tlahcuilolmeh axan</addLink>
 sc-review-form-prompt =
     .message = tlahcuilolmeh tlen yumutaquh amo u mu naltitlanqueh, cateh seguras?
+sc-review-form-usage = xic panulti mu mahpil ichin mu yecmah para tic silis tlahcuilol.xic panulti mu mahpil ichin mu pochman para amo tic silis. xic panulti mu mahpil para tlacpac para tic panultis <strong>amo xi quilcahua tic titlanis mu tlahtol</strong>
+sc-review-form-button-reject = amo tic silis
+sc-review-form-button-skip = ahcotzicuini
+sc-review-form-button-approve = ticsilis
 
 ## SETTINGS
 
