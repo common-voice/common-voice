@@ -242,6 +242,7 @@ about-is-it-valid-text = cuando se usuario qui yehyecuhua se tlahtolahcuc, munex
 about-yes-votes = cachi de omi votos positivos (quemah)
 about-no-votes = cachi de umi votos negativos (amo)
 about-no-votes-text = cuando se usuario amo qui siliah se tlahtolahcuc, mu cuipa hasta tlacutlapa. tla amo mu siliah ik upa, tlahtolahcuc yas ichin cementerio tlahtolahcuc
+about-get-involved-text-2 = ¿ticniqui ti tech palehuis a que common voice mui cachi cuali? Cuali ximu nuhnutsa ich correo o tlamo campan foro<discourseLink> Discourse</discourseLink>,xiquin naltitlani tlahuel ican sitio ik<githubLink>GitHub</githubLink> o ximunilo campa mu tlahcuilhuiliah masehual nichicuhuah<matrixLink>Matrix</matrixLink>
 about-stay-in-touch = queni ihuan nimu nuhnutztos
 about-stay-in-touch-button = ximuihcuilo
 about-stay-in-touch-text-1 = <emailFragment> ximuihcuilo</emailFragmento> ichin tu tlahcuilol correo para nic matis queni huilis tictech palehuis ichin campañas, ilhuimeh huan quenin cualtia Common Voice
@@ -850,9 +851,16 @@ sc-submit-guidelines = timits tlatlauhtiah, xiquita<howToLink>directrices</howTo
 
 sc-add-lang-could-not-add = amo uhuilic umu tlale tlahtol
 sc-add-lang-sec-label = xictlali se tlahtol tlen tic niquis ica tech palehuis
+sc-add-lang-sec-button = xictlali tlahtolmasehual
+sc-add-err-unexpected = tlananquilil amo u secmatia mu cuipas ican servidor
+sc-add-err-submission = amo uhuilic umu naltitlan
+sc-add-lang-process-notice = tla mu masehual tlahtol amo mu nextia nicah, hulis tic tlahtlanis ic <languageProcessLink> nicancah nemilis </languageProcessLink>.
 
 ## ADD SENTENCES CONFIRMATION
 
+sc-confirm-are-you-sure =
+    .message = tlahcuilulmeh amo umu naltitlanque, milahuac ticniqui tiyas?
+sc-confirm-sentences-title = xiquinsili yancuic tlahcuilol
 
 ## LANGUAGE INFO
 
