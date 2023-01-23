@@ -861,6 +861,34 @@ sc-add-lang-process-notice = tla mu masehual tlahtol amo mu nextia nicah, hulis 
 sc-confirm-are-you-sure =
     .message = tlahcuilulmeh amo umu naltitlanque, milahuac ticniqui tiyas?
 sc-confirm-sentences-title = xiquinsili yancuic tlahcuilol
+# Variables:
+#   $countOfSentences (Number) - Number of sentences the user has filled in the submission form
+sc-confirm-sentences-found =
+    { $countOfSentences ->
+        [0] amo umahsiqueh sentencias
+        [one] 1 tlahcuilol umahsik
+        [many] { "" }
+       *[other] { $countOfSentences }tlahcuilolmeh umahsiqueh
+    }
+# Variables:
+#   $countOfInvalidated (Number) - Number of sentences the user rejected in the review form before submission
+sc-confirm-rejected-by-you = { $countOfInvalidated }amo umusileh por tehuatzin
+sc-confirm-already-reviewed =
+    { $countOfReviewed ->
+        [0] amotlen tlahcuilol tlen yuquitaqueh
+        [one] 1 tlahcuilol yumutac. ¡ cuali tiquiuh!
+        [many] { "" }
+       *[other] { $countOfReviewed } tlahcuilulmeh yuquimitaqueh. ¡ cuali tiquiuh!
+    }
+# Variables:
+#   $readyCount (Number) - Number of sentences ready to be uploaded
+sc-confirm-ready =
+    { $readyCount ->
+        [0] amo catqui se tlahcuilol para mu nextis
+        [one] 1 tlahcuilol cuali para tic naltitlanis
+        [many] { "" }
+       *[other] { $readyCount } tlahcuilolmeh cuali para tiquin nextis
+    }
 
 ## LANGUAGE INFO
 
