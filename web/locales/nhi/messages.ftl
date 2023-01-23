@@ -928,12 +928,27 @@ sc-lang-info-left-for-you =
     }
 sc-lang-info-review-now = <reviewLink> xiquita axan </reviewLink>
 sc-lang-info-add-more = <addLink>xiquintlali cachi tlahcuilolmeh axan </addLink>
+# Variables:
+#   $validatedSentences (Number) - Number of sentences which have been approved for this language
+sc-lang-info-validated =
+    { $validatedSentences ->
+        [0] amo uquin silihqueh sentencias
+        [one] 1 sentencia uc silihqueh
+        [many] { "" }
+       *[other] { $validatedSentences }tlahcuilolmeh uquin silihqueh
+    }
 
 ## LOGIN
 
+sc-login-err-failed = amo uhuilic utic pehualteh sesion
+sc-login-err-try-again = xic yehyeco ocsipa
 
 ## PROFILE
 
+# Variables:
+#   $username (String) - eMail address of the logged in user
+sc-profile-title = ixnexicah{ $username }
+sc-personal-err-lang-not-found = amo uhuilic umucuileh masehual tlahtol: masehual tlahtol amo umahsik
 
 ## REVIEW CRITERIA
 
