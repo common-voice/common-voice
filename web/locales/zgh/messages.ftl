@@ -1,13 +1,8 @@
 ## General
 
-yes-receive-emails = ⵢⵢⵉⵀ, ⴰⵣⵏⴰⵜ-ⵉⴷ ⵜⵉⴱⵔⴰⵜⵉⵜ. ⵔⵉⵖ ⴰⴷ ⵖⵓⵔⵉ ⵉⵍⵉⵏ ⵉⵏⵖⵎⵉⵙⵏ ⵏ ⴽⴰⵎⵏ ⵠⵓⵢⵙ.
-stayintouch = ⴳ ⵎⵓⵣⵉⵍⵍⴰ ⴷⴰ ⵏⵥⴽⴽⵓ ⵢⴰⵜ ⵜⴳⵔⴱⴰⵣⵜ ⵖⵉⴼ ⵓⵙⵓⵜⵉ ⵏ ⵜⵉⵜⵉⴽⵏⵓⵍⵓⵊⵉⵢⵉⵏ ⵏ ⵡⴰⵡⴰⵍ. ⵏⵔⴰ ⴰⴷ ⴷ-ⵏⴰⵡⵉ ⵏⵏⵀⵉⵢⵜ ⵉ ⵜⵎⵣⴷⵉⵡⵉⵏ ⴷ ⵉⵙⵓⴳⴰⵎ ⵉⵎⴰⵢⵏⵓⵜⵉⵏ ⵏ ⵉⵙⴼⴽⴰ ⵏⵉⵙⵉⵏ ⴰⵡⴷ ⵎⵉⵎⴽ ⴷⴰ ⵜⵙⵙⵅⴷⴰⵎⵎ ⴰⵢⴰ ⵏ ⵉⵙⴼⴽⴰ.
-privacy-info = ⴰⵔ ⵏⵙⵙⵓⵖⵓⵏ ⴰⴷ ⵏⵙⵙⵅⴷⴰⵎ ⵉⵏⵖⵎⵉⵙⵏ-ⵏⵏⵓⵏ ⵙ ⵓⵙⴳⴳⴷ. ⴰⴼⴰ ⴰⴷ ⵜⵉⵙⵉⵏⵎ ⵓⴳⴰⵔ, ⵉⵥⵉⵔⴰⵜ <privacyLink>ⴰⵙⵎⵉⴳⵍ ⵏ ⵜⵉⵏⵏⵓⵜⵍⴰ ⵏ ⵉⵙⴼⴽⴰ</privacyLink>.
-return-to-cv = ⵓⵖⵓⵍ ⵙ ⴽⴰⵎⵏ ⵠⵓⵢⵙ
 email-input =
     .label = ⵉⵎⴰⵢⵍ
 submit-form-action = ⴰⵣⵏ
-loading = ⴰⴽⵜⵓⵔ...
 banner-error-slow-link = ⵜⴰⵙⵏⴰ ⵏ ⵡⴰⴷⴷⴰⴷ
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
@@ -25,6 +20,7 @@ an = ⵜⴰⵕⴰⴳⵓⵏⵉⵜ
 ar = ⵜⴰⵄⵕⴰⴱⵜ
 arn = ⵜⴰⵎⴰⴱⴰⴷⵓⵏⴳⵓⵏⵜ
 as = ⵜⴰⵙⵙⴰⵎⵉⵜ
+ast = ⵜⴰⵙⵜⵓⵔⵉⵜ
 az = ⵜⴰⵣⵔⵉⴱⵉⴷⵊⴰⵏⵉⵜ
 ba = ⵜⴰⴱⴰⵛⴽⵉⵔⵉⵜ
 bas = ⵜⴰⴱⴰⵙⴰⵜ
@@ -93,17 +89,31 @@ kn = ⵜⴰⴽⴰⵏⵏⴰⴷⴰⵢⵜ
 ko = ⵜⴰⴽⵓⵔⵉⵢⵜ
 ky = ⵜⴰⴽⵉⵔⴳⵉⵣⵉⵜ
 lb = ⵜⴰⵍⵓⴽⵙⵎⴱⵓⵔⴳⵉⵜ
+lg = ⵜⴰⵍⵓⴳⴰⵏⴷⵉⵜ
+lij = ⵜⴰⵍⵉⴳⵓⵔⵉⵜ
 ln = ⵜⴰⵍⵉⵏⴳⴰⵍⴰⵜ
+lo = ⵜⴰⵍⴰⵡⵉⵜ
+lt = ⵜⴰⵍⵉⵜⵡⴰⵏⵉⵜ
+lv = ⵜⴰⵍⴰⵜⴼⵉⵜ
+mai = ⵜⴰⵎⴰⵢⵜⵉⵍⵉⵜ
+mdf = ⵜⴰⵎⵓⴽⵛⴰⵢⵜ
+mg = ⵜⴰⵎⴰⵍⴳⴰⵛⵉⵜ
+mk = ⵜⴰⵎⴰⵇⴷⵓⵏⵉⵜ
 mn = ⵜⴰⵎⵓⵏⴳⵓⵍⵉⵜ
 mt = ⵜⴰⵎⴰⵍⵟⵉⵜ
 nl = ⵜⴰⵀⵓⵍⴰⵏⴷⵉⵜ
 pt = ⵜⴰⴱⵔⵜⵇⵉⵣⵜ
+ro = ⵜⴰⵕⵓⵎⴰⵏⵉⵜ
 ru = ⵜⴰⵔⵓⵙⵉⵜ
 shi = ⵜⴰⵛⵍⵃⵉⵜ
+sl = ⵜⴰⵙⵍⵓⴼⵉⵏⵉⵜ
+snk = ⵜⴰⵙⵓⵏⵉⵏⴽⵉⵜ
 so = ⵜⴰⵚⵓⵎⴰⵍⵉⵜ
 sq = ⵜⴰⵍⴱⴰⵏⵉⵜ
 sr = ⵜⴰⵚⵉⵕⴱⵉⵜ
 sv-SE = ⵜⴰⵙⵡⵉⴷⵉⵜ
+ta = ⵜⴰⵜⴰⵎⵉⵍⵜ
+tr = ⵜⴰⵜⵓⵔⴽⵉⵜ
 wo = ⵜⴰⵡⵓⵍⵓⴼⵜ
 zgh = ⵜⴰⵎⴰⵣⵉⵖⵜ
 zh-CN = ⵜⴰⵛⵉⵏⵡⵉⵜ (ⵛⵉⵏⵡⴰ)
@@ -183,9 +193,11 @@ add-language = ⵔⵏⵓ ⵜⵓⵜⵍⴰⵢⵜ
 
 ## ABOUT US
 
+how-does-it-work-title-v2 = ⵎⴰⵏⵎⴽ ⴷⴰ ⵉⵙⵡⵓⵔⵓⵢ ⴽⴰⵎⵏ ⴼⵓⵢⵙ?
 
 ## How does it work section
 
+about-nav-how-it-works-2 = ⵎⴰⵏⵎⴽ ⴷⴰ ⵉⵙⵡⵓⵔⵓⵢ ⴽⴰⵎⵏ ⴼⵓⵢⵙ?
 
 ## Community Playbook Content
 ## What is a language
@@ -257,6 +269,7 @@ language-validation-hours = ⵜⵉⵙⵔⴰⴳⵉⵏ
 
 ## Contribution
 
+share-common-voice = ⴱⴹⵓ ⴽⴰⵎⵏ ⴼⵓⵢⵙ
 
 ## Reporting
 
@@ -282,6 +295,7 @@ your-languages = ⵜⵓⵜⵍⴰⵢⵉⵏ ⵏⵏⵓⵏ
 
 ## DemoLayout
 
+demo-welcome = ⴱⵔⵔⴽⴰⵜ ⴳ ⴽⴰⵎⵏ ⴼⵓⵢⵙ
 
 ## Demo Datasets
 

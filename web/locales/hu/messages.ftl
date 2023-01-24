@@ -1,16 +1,16 @@
 ## General
 
 yes-receive-emails = Igen, kérek e-maileket. Figyelemmel szeretném kísérni a Common Voice projektet.
-stayintouch = Mi a Mozillánál közösséget építünk a hangtechnológia köré. Szeretnénk tartani a kapcsolatot a közösséggel, tájékoztatni a frissítésekről és az új adatforrásokról, valamint tájékozódni arról, hogyan használja a közösség az adatokat.
+stayintouch = Mi a Mozillánál közösséget építünk a hangtechnológia köré. Szeretnénk kapcsolatban maradni Önnel, hogy tájékoztathassuk a frissítésekről és az új adatforrásokról, illetve azért, hogy megismerhessük, hogyan használja Ön ezeket az adatokat.
 privacy-info = Ígérjük, hogy adatait körültekintően kezeljük. További információk az <privacyLink>Adatvédelmi nyilatkozatunkban</privacyLink>.
 return-to-cv = Visszatérés a Common Voice oldalra
 email-input =
     .label = E-mail
 submit-form-action = Elküldés
 loading = Betöltés…
-email-opt-in-info = Szeretnék e-maileket kapni, köztük cél emlékeztetőket, előrehaladási híreket és a Common Voice hírlevelét.
+email-opt-in-info = Szeretnék e-maileket kapni, köztük a kitűzött céljaimmal kapcsolatos emlékeztetőket, a személyes előrehaladásommal kapcsolatos híreket és a Common Voice hírlevelét.
 email-opt-in-info-title = Csatlakozzon a Common Voice levelezőlistához
-email-opt-in-info-sub-with-challenge = Kapjon e-maileket, köztük kihívásokat, cél emlékeztetőket, előrehaladási híreket és a Common Voice hírlevelét.
+email-opt-in-info-sub-with-challenge = Iratkozzon fel e-mailekre, köztük a kihívásokkal, a kitűzött céljaival és személyes előrehaladásával kapcsolatos emlékeztetőkre, illetve a Common Voice hírlevelére.
 email-opt-in-privacy-v2 = Azzal, hogy az e-mailek fogadását kéri, beleegyezik abba, hogy a Mozilla az <privacyLink>adatvédelmi irányelvekben</privacyLink> leírt módon kezelje ezeket az adatokat.
 indicates-required = * Kötelező mezőt jelez
 not-available-abbreviation = Nincs
@@ -236,36 +236,40 @@ cookies = Sütik
 faq = GYIK
 content-license-text = A tartalom <licenseLink>Creative Commons licenc</licenseLink> alatt érhető el.
 share-title = Segítsen megtalálni azokat, akik a hangjukat adják.
-share-text = Segítsen megtanítani a gépeknek, hogyan beszélnek az emberek. Adja a hangját: { $link }
+share-text = Segítsen megtanítani a gépeknek, hogyan beszélnek az igazi emberek. Adja a hangját: { $link }
 link-copied = Hivatkozás másolva
 back-top = Vissza a tetejére
 logout = Kijelentkezés
 
 ## Home Page
 
-home-title = A Common Voice projekt egy Mozilla kezdeményezés arra, hogy segítsük a gépeket megtanítani, hogyan beszélnek az emberek.
-default-tagline = A Mozilla Common Voice egy kezdeményezés arra, hogy segítsük a gépeket megtanítani, hogyan beszélnek az emberek.
+home-title = A Common Voice projekt a Mozilla kezdeményezése, amelynek célja, hogy segítsük a gépeket megtanítani arra, hogyan beszélnek az emberek.
+default-tagline = A Common Voice projekt a Mozilla kezdeményezése, amelynek célja, hogy segítsük a gépeket megtanítani arra, hogyan beszélnek az emberek.
 home-cta = Szólaljon meg, működjön közre.
-wall-of-text-start = A beszéd természetes, a beszéd emberi. Ezért lelkesedünk egy gépeink számára használható beszédtechnológia létrehozásáért. Azonban ehhez hatalmas mennyiségű beszédmintára van szükség.
+wall-of-text-start =
+    A beszéd természetes, a beszéd emberi. Ezért villanyoz fel bennünket egy használható beszédtechnológia
+    létrehozása a gépeink számára. Ehhez azonban hatalmas mennyiségű beszédmintára van szükség.
 wall-of-text-more-mobile = A nagyvállalatok által használt hangminták a legtöbb ember számára nem érhetőek el. Szerintünk ez elfojtja az innovációt. Ezért létrehoztuk a Common Voice projektet, hogy segítsük a hangfelismerési technológiát mindenki számára hozzáférhetővé tenni.
-wall-of-text-more-desktop = Most adhatja a hangját, hogy segítsen nekünk egy nyílt forrású hang adatbázist építeni, amit bárki szabadon használhat arra, hogy innovatív alkalmazásokat készítsen eszközökre és a webre.<lineBreak></lineBreak>Olvasson fel egy mondatot, hogy segítse a gépeket megtanulni, hogyan beszélnek az emberek. Ellenőrizze mások hozzájárulásait, javítva a minőséget. Ilyen egyszerű!
+wall-of-text-more-desktop =
+    Most a hangjával járulhat hozzá egy olyan nyílt forráskódú hangadatbázis építéséhez, amelyet bárki szabadon használhat innovatív
+    alkalmazások készítéséhez eszközökre és a webre egyaránt. Olvasson fel egy mondatot, ezzel segítve a gépeket annak elsajátításában,
+    hogy hogyan beszélnek az emberek. Ellenőrizze mások közreműködését, ezzel javítva a minőséget. Ilyen egyszerű.
 wall-of-text-first =
-    A beszéd természetes, a beszéd emberi. Ezért lelkesedünk egy gépeink számára használható
-    beszédtechnológia létrehozásáért. Azonban ehhez hatalmas mennyiségű beszédmintára
-    van szükség.
+    A beszéd természetes, a beszéd emberi. Ezért villanyoz fel bennünket egy használható beszédtechnológia
+    létrehozása a gépeink számára. Ehhez azonban hatalmas mennyiségű beszédmintára van szükség.
 wall-of-text-second =
     A nagyvállalatok által használt hangminták a legtöbb ember számára nem érhetőek el.
     Szerintünk ez elfojtja az innovációt. Ezért létrehoztuk a Common Voice projektet, hogy
     segítsük a hangfelismerési technológiát mindenki számára hozzáférhetővé tenni.
 show-wall-of-text = Bővebben
 help-us-title = Segítsen ellenőrizni a mondatokat.
-help-us-explain = Nyomja meg a lejátszás gombot, hallgassa meg a mondatot és mondja el: helyesen hangzik el az alábbi mondat?
+help-us-explain = Nyomja meg a lejátszás gombot, hallgassa meg a mondatot és döntse el: helyesen hangzik el az alábbi mondat?
 no-clips-to-validate = Úgy néz ki egyetlen meghallgatható klip sincs ezen a nyelven. Segítsen feltölteni a sort azáltal, hogy rögzít néhányat.
 vote-yes = Igen
 vote-no = Nem
 toggle-play-tooltip = Nyomja meg az { shortcut-play-toggle } gombot a lejátszási módba váltáshoz
 speak-subtitle = Adja a hangját
-speak-paragraph = A hangklipek rögzítése a nyílt adatkészletünk összeállításának szerves része; egyesek azt mondanák, hogy ez a szórakoztató része.
+speak-paragraph = A hangklipek rögzítése a nyílt adatkészletünk összeállításának szerves része – egyesek azt mondanák, hogy ez a szórakoztató része.
 speak-goal-text = Rögzített klip
 listen-subtitle = Segítsen ellenőrizni a hangokat
 listen-paragraph = A közzétett klipek ellenőrzése hasonlóan fontos a Common Voice küldetéséhez. Hallgasson bele, és segítsen nekünk a minőségi nyílt forráskódú beszédadatok létrehozásában.
@@ -297,7 +301,7 @@ x-years-short =
 help-make-dataset = Segítsen minket egy kiváló minőségű, nyilvános és nyílt adatkészlet létrehozásában
 sign-up-account = Regisztráljon egy fiókot
 email-subscription-title = iratkozzon fel a hírlevélre
-email-subscription-title-new = Iratkozzon fel a Common Voice hírlevelekre, a cél emlékeztetőkre és az előhaladásról szóló hírekre
+email-subscription-title-new = Iratkozzon fel a Common Voice hírlevelekre, a célokkal kapcsolatos emlékeztetőkre és az előhaladásról szóló hírekre
 
 ## Account Benefits
 
@@ -305,7 +309,7 @@ benefits = Előnyök
 rich-data = A névtelen demográfiai adatokkal a lehető leggazdagabbá teheti a benyújtott adatokat. A demográfiai adatok a nyilvánosságra hozáskor anonimizálásra kerülnek.
 improve-audio = A profiladatok javítják a beszédfelismerő pontosságának tanításához használt hangadatokat.
 keep-track = Kövesse nyomon az előrehaladást és a metrikákat több nyelven is.
-compare-progress = Nézze meg, hogyan haladnak a világ többi részéről érkező közreműködőkkel összehasonlítva.
+compare-progress = Nézze meg, hogyan halad a világ többi részéről érkező közreműködőkkel összehasonlítva.
 view-goals = Nézze meg az előrehaladást a személyes és a projekt céljaihoz képest.
 join-newsletter = Csatlakozhat a levelezőlistánkhoz, hogy értesüljön a projekttel kapcsolatos újdonságokról és információkról.
 
@@ -313,10 +317,10 @@ join-newsletter = Csatlakozhat a levelezőlistánkhoz, hogy értesüljön a proj
 
 whats-public = Mi nyilvános?
 email-not-public = Nem fogjuk nyilvánossá tenni az e-mail címét.
-recordings-and-locale-public = A felvételei száma, és a nyelvek amikben Ön közreműködik, nyilvánosak lesznek.
-username-optin-public = Kiválaszthatja, hogy a felhasználó neve nyilvános vagy privát legyen.
-demographic-deidentified-clarity-2 = Az opcionálisan benyújtott demográfiai adatok (például életkor, nem, nyelv és akcentus) sosem lesznek közzétéve a profilján, és nem lesznek összekapcsolva a fiókjával az adatkészletben. Az egyes hangklipeket a pontosabb elemzés céljából össze lesznek kapcsolva a demográfiai adatokkal – például egy kutató egy konkrét demográfiai szegmensre akarhat betanítani egy modellt.
-username-email-not-demographic = A felhasználóneve és az e-mail címe nem lesz társítva a közzétett adatokkal.
+recordings-and-locale-public = A felvételei száma, és a nyelvek, amelyekben Ön közreműködik, nyilvánosak lesznek.
+username-optin-public = Választhat, hogy a felhasználóneve nyilvános vagy anonim legyen.
+demographic-deidentified-clarity-2 = Az opcionálisan benyújtott demográfiai adatok (például életkor, nem, nyelv és akcentus) sosem lesznek közzétéve a profilján, és nem lesznek összekapcsolva a fiókjával az adatkészletben. Az egyes hangklipek a pontosabb elemzés céljából össze lesznek kapcsolva a demográfiai adatokkal – ha, például, egy kutató egy konkrét demográfiai szegmensre szeretne betanítani egy modellt.
+username-email-not-demographic = A felhasználóneve és az e-mail-címe nem lesz társítva a közzétett adatokkal.
 
 ## Speak & Listen Shortcuts
 
@@ -382,7 +386,7 @@ profile-form-accent =
     .label = Akcentus
 profile-form-custom-accent-help-text =
     .label = Hogyan jellemezné az akcentusát?
-profile-form-custom-accent-placeholder-2 = Írja be, hogy írná le az akcentusát
+profile-form-custom-accent-placeholder-2 = Hogyan írná körül az akcentusát?
 profile-form-age =
     .label = Életkor
 profile-form-gender-2 =
@@ -401,19 +405,19 @@ female = Nő
 # Gender
 other = Egyéb
 why-profile-title = Miért kell a profil?
-why-profile-text = Azáltal, hogy megad néhány adatot magáról, a hangminták, amiket a Common Voice részére beküld hasznosabbak lesznek a hangfelismerő rendszerek számára, melyek a pontosságuk javítására használják a hangmintákat.
+why-profile-text = Az, hogy megad néhány adatot magáról, hozzájárul ahhoz, hogy a hangminták, amiket a Common Voice részére beküld, hasznosabbak legyenek a hangfelismerő rendszerek számára, amelyek a pontosságuk növelésére használhatják ezeket az adatokat.
 dashboard = Vezérlőpult
 build-profile = Összeállítási profil
 avatar = Avatár
 goals = Célok
 settings = Beállítások
 edit-profile = Profil szerkesztése
-profile-create-success = Profil sikeresen létrehozva!
+profile-create-success = Profil sikeresen létrehozva.
 profile-close = Bezárás
-profile-explanation = Kövesse az előrehaladását egy profillal, és segítsen pontosabbá tenni az adatainkat.
+profile-explanation = Kövesse saját előrehaladását egy profillal, és ezzel segítsen pontosabbá tenni az adatainkat.
 thanks-for-account = Köszönjük, hogy megerősítette a fiókját, most állítsuk össze a profilját.
 why-demographic = Miért számít ez?
-why-demographic-explanation-2 = Az anonimizált felhasználói adatok, mint az életkor, nem és akcentus segít jobbá tenni a hangadatokat, melyek a hangfelismerő motorok pontosságának tanítására használhatóak. A felhasználónév és a jelszó sosem lesz hozzákapcsolva a beküldött adatokhoz, és megadhatja azt is, hogy a felhasználóneve nyilvános vagy anonim legyen.
+why-demographic-explanation-2 = Az anonimizált felhasználói adatok, mint az életkor, a nem és az akcentus segít jobbá tenni a hangadatokat, melyek a hangfelismerő motorok pontosságának tanítására használhatóak. A felhasználónév és a jelszó sosem lesz hozzákapcsolva a beküldött adatokhoz, és megadhatja azt is, hogy a felhasználóneve nyilvános vagy anonim legyen.
 accept-privacy = Beleegyezem, hogy a Mozilla <privacyLink>Adatvédelmi irányelveiben</privacyLink> leírtak szerint kezeljék az adataimat
 accept-privacy-title = Adatvédelmi irányelvek
 accept-privacy-and-terms = Elfogadom a Common Voice <termsLink>Jogi feltételeit</termsLink> és az <privacyLink>Adatvédelmi nyilatkozatát</privacyLink>
@@ -456,14 +460,11 @@ change-email-setings = Módosítsa az e-mail beállításait a Beállításokban
 
 faq-title = Gyakran Ismételt Kérdések
 faq-what-cv-q = Mi a Common Voice?
-faq-what-cv-a =
-    A hangfelismerési technológia forradalmasítja a gépekkel történő interakciót, de a jelenleg elérhető rendszerek drágák és tulajdonosi modellűek. A Common Voice a Mozilla kezdeményezésének része, amellyel a hangfelismerési technológia mindenki számára elérhetővé akarjuk tenni. A Common Voice felajánlott hangok hatalmas globális adatbázisa, amellyel bárki gyorsan és könnyen betaníthatja a hangfelismerést használó alkalmazását, akár tetszőleges nyelven.
-    
-    Nemcsak a széles körűen beszélt nyelveken gyűjtünk hangmintákat, de a kisebb beszélőszámú nyelveken is. A változatos hangadatkészlet közzététele lehetőséget ad a fejlesztőknek, vállalkozóknak és a közösségeknek, hogy leküzdjék ezt a különbséget. A Common Voice adatkészlete mellett egy nyílt forráskódú beszédfelismerő motort is készítünk, melyet Deep Speechnek hívunk.
+faq-what-cv-a = A hangfelismerési technológia forradalmasítja ahogy a gépekkel kommunikálunk, de a jelenleg elérhető rendszerek drágák és tulajdonosi modellűek. A Common Voice a Mozilla egy olyan kezdeményezése, amely a hangfelismerési technológiát kívánja mindenki számára elérhetővé tenni. A Common Voice felajánlott hangok hatalmas globális adatbázisa, amellyel bárki gyorsan és könnyen betaníthatja a hangfelismerést használó alkalmazását, akár tetszőleges nyelven.
 faq-what-cv-a-2 =
-    A hangfelismerési technológia forradalmasítja a gépekkel történő interakciót, de a jelenleg elérhető rendszerek drágák és tulajdonosi modellűek. A Mozilla Common Voice egy olyan kezdeményezés, amellyel a hangfelismerési technológiát mindenki számára elérhetővé akarjuk tenni. A Common Voice felajánlott hangok hatalmas globális adatbázisa, amellyel bárki gyorsan és könnyen betaníthatja a hangfelismerést használó alkalmazását, akár tetszőleges nyelven.
+    A hangfelismerési technológia forradalmasítja ahogy a gépekkel kommunikálunk, de a jelenleg elérhető rendszerek drágák és tulajdonosi modellűek. A Common Voice a Mozilla egy olyan kezdeményezése, amely a hangfelismerési technológiát kívánja mindenki számára elérhetővé tenni. A Common Voice felajánlott hangok hatalmas globális adatbázisa, amellyel bárki gyorsan és könnyen betaníthatja a hangfelismerést használó alkalmazását, akár tetszőleges nyelven.
     
-    Nemcsak a széles körűen beszélt nyelveken gyűjtünk hangmintákat, de a kisebb beszélőszámú nyelveken is. A változatos hangadatkészlet közzététele lehetőséget ad a fejlesztőknek, vállalkozóknak és a közösségeknek, hogy leküzdjék ezt a különbséget. A Common Voice adatkészlete mellett egy nyílt forráskódú beszédfelismerő motort is készítünk, melyet Deep Speechnek hívunk.
+    Nemcsak a széles körűen beszélt nyelveken gyűjtünk hangmintákat, de a kisebb beszélőszámú nyelveken is. A változatos hangadatkészlet közzététele lehetőséget ad a fejlesztőknek, vállalkozóknak és a közösségeknek, hogy leküzdjék ezt a különbséget.
 faq-why-important-q = Ez miért fontos?
 faq-why-important-a =
     A beszéd gyakran a legtermészetesebb módja az egymással történő kommunikációnak, és a hangtechnológiák elhozzák ezt a kényelmet a számítógépeinkhez és mobileszközeinkhez. Szeretnénk lehetővé tenni, hogy a fejlesztők lenyűgöző hangfelismerő alkalmazásokat készítsenek, mint a szinkrontolmácsok és a hangfelismerést használó digitális asszisztensek. De jelenleg az ehhez szükséges hangadatok költségesek és tulajdonosi modellt használnak. Reméljük, hogy a Common Voice megadja a fejlesztőknek azt, amire szükségük van ahhoz, hogy elérhetővé tegyék a beszédfelismerést a saját nyelvükön.
@@ -484,7 +485,7 @@ faq-do-want-native-a = Igen, különösen az Ön hangját szeretnénk! A Common 
 faq-why-different-speakers-q = Miért van szükség annyi különböző beszélőre nyelvenként?
 faq-why-different-speakers-a =
     A legtöbb beszédadatbázist bizonyos demográfiák felülreprezentálásával tanítják be, amely a <articleLink>férfiak és a középosztály</articleLink> felé torzít. Az alulreprezentált akcentusok és dialektusok jellemzően pont olyan embercsoportokhoz kapcsolódnak, akik eleve marginalizáltak. Számos gép a női hangok megértésével is küszködik.
-    Ezért akarunk változatosságot a saját hangadatbázisunkban!
+    Ezért akarunk változatosságot a saját hangadatbázisunkban.
 faq-why-my-lang-q = Az én nyelven miért nem szerepel még?
 faq-why-my-lang-a =
     A Common Voice egy közösségi munkavégzési platform, és a nyelveket önkéntesek adták hozzá.
@@ -625,7 +626,7 @@ about-playbook-how-record-content-5 = <accuracyLink>További információ a pont
 ## How to grow language
 
 about-playbook-how-grow-language = Hogyan fejleszthetünk hatékonyan egy nyelvet a Common Voice-ban?
-about-playbook-how-grow-language-content-1 = A lehetőségek megteremtése, hogy sokféle ember működjön közre a Common Voice-ban, biztosítja, hogy az adatkészlet a lehető legtöbb embert szolgálja ki. Olyan forrásokat és sablonokat hoztunk létre, amelyeket Ön is használhat!
+about-playbook-how-grow-language-content-1 = A lehetőségek megteremtése, hogy sokféle ember működjön közre a Common Voice-ban, biztosítja, hogy az adatkészlet a lehető legtöbb embert szolgálja ki. Olyan forrásokat és sablonokat hoztunk létre, amelyeket Ön is használhat.
 about-playbook-how-grow-language-content-2 = Események
 about-playbook-how-grow-language-content-3 = Rendezvényeket szervezhet, hogy segítse az embereket. Könnyebb, mint gondolná. Megteheti online egy videokonferencia eszközzel, vagy személyesen is, ha az biztonságos. <eventTemplate>Nézze meg sablonjainkat és erőforrásainkat az események megtartásához</eventTemplate>.
 about-playbook-how-grow-language-content-4 = Közösségi média
@@ -775,7 +776,7 @@ more = Több
 close = Bezárás
 download = Letöltés
 dataset-version = Verzió
-sha256-checksum-copied = SHA256 ellenőrzőösszeg másolva!
+sha256-checksum-copied = SHA256 ellenőrzőösszeg másolva.
 sha256-checksum-copied-error = Az SHA256 ellenőrzőösszeg másolása sikertelen
 clipboard-not-supported = A vágólap nem támogatott
 
@@ -846,7 +847,7 @@ request-language-success-list-3 =
     címen, és válaszolni fogunk.
 request-language-error =
     Lehet, hogy nem kaptuk meg ezt a kérést. Írjon nekünk közvetlenül
-    a <emailLink>{ $email }</emailLink> címre, és felvesszük Önnel a kapcsolatot!
+    a <emailLink>{ $email }</emailLink> címre, és felvesszük Önnel a kapcsolatot.
 
 ## Languages Overview
 
@@ -879,8 +880,8 @@ clips-with-count-pluralized =
         [one] <bold>{ $count }</bold> klip
        *[other] <bold>{ $count }</bold> klip
     }
-goal-help-recording = Segítettél a Common Voice-nak elérni a napi rögzítési céljának ({ $goalValue }) <goalPercentage></goalPercentage>-át!
-goal-help-validation = Segítettél a Common Voice-nak elérni a napi ellenőrzési céljának ({ $goalValue }) <goalPercentage></goalPercentage>-át!
+goal-help-recording = Segített a Common Voice-nak elérni a napi rögzítési cél ({ $goalValue }) <goalPercentage></goalPercentage>-át.
+goal-help-validation = Segített a Common Voice-nak elérni a napi ellenőrzési cél ({ $goalValue }) <goalPercentage></goalPercentage>-át!
 contribute-more = Készen áll még { $count } felvételre?
 record-cta = Felvétel indítása
 record-platform-not-supported = Sajnáljuk, de a platformja jelenleg nem támogatott.
@@ -913,7 +914,7 @@ listen-instruction = { $actionType } a <playIcon></playIcon> ikonra, pontosan ol
 listen-again-instruction = Jó munka! <playIcon></playIcon> Hallgassa meg újra, ha kész
 listen-3rd-time-instruction = 2 kész <playIcon></playIcon>, csak így tovább!
 listen-last-time-instruction = <playIcon></playIcon> Utolsó!
-listen-empty-state = Elfogytak az ellenőrzésre váró klipek ezen a nyelven… frissítse az oldalt, vagy próbálja újra később.
+listen-empty-state = Elfogytak az ellenőrzésre váró klipek ezen a nyelven: frissítse az oldalt, vagy próbálja újra később.
 listen-loading-error =
     Nem tudtunk meghallgatható hangfelvételeket lekérni.
     Próbálja újra később.
@@ -1090,7 +1091,7 @@ profile-form-delete = Profil törlése
 download-q = Le kell töltenie az adatait?
 download-info = Mondja el, mit szeretne letölteni:
 download-profile-title = Profil
-download-profile-info = Tartalmazza az e-mail-címet, felhasználónevet és a demográfiai adatokat; azonnal elérhető
+download-profile-info = Tartalmazza az e-mail-címet, a felhasználónevet és a demográfiai adatokat; azonnal elérhető
 download-profile-size = Néhány bájt
 download-recordings-title = Felvételek
 download-recordings-info = Tartalmazza az mp3 fájlokat és a kapcsolódó mondatokat is, az összeállítás eltarthat egy ideig
@@ -1118,7 +1119,7 @@ download-request-link-single = Lemásolhatja és beillesztheti a közvetlen URL-
 
 ## Landing
 
-welcome-staff = Üdvözöljük a { $company } kötelékében!
+welcome-staff = Üdvözöljük a { $company } kötelékében.
 help-contribute = Az Ön segítségével sokoldalú, nyílt forráskódú adatkészletet hozhatunk létre, ha létrehoz egy Common Voice profilt, és a hangját adja.
 login-company = Jelentkezzen be / regisztráljon a { $company } e-mail címével
 profile-not-required = Profil nem szükséges a közreműködéshez, de hasznos ha van
@@ -1292,7 +1293,7 @@ sc-howto-review-criteria-4 = Ha a mondat megfelel a feltételeknek, kattintson a
 sc-howto-review-criteria-5 =
     Ha a mondat nem felel meg a fenti feltételeknek, kattintson az „Elutasítás” gombra.
     Ha nem biztos a mondatban, akkor ki is hagyhatja, és továbbléphet a következőre.
-sc-howto-review-criteria-6 = Ha elfogynak az ellenőrizhető mondatok, akkor segítsen további mondatok összegyűjtésében!
+sc-howto-review-criteria-6 = Ha elfogynak az ellenőrizhető mondatok, akkor segítsen további mondatok összegyűjtésében.
 sc-howto-findpd-title = Meglévő közkincsű szövegek keresése
 sc-howto-findpd-subtitle = Keressen rájuk az interneten
 sc-howto-findpd-text-2 = Ne feledje, hogy engedélyre van szükségünk ezeknek a mondatoknak a közzétételéhez, ezért mindig győződjön meg arról, hogy a szöveg <wikipediaLink>közkincs</wikipediaLink>. Ha nincs erre kifejezett utalás, lépjen kapcsolatba azzal a személlyel, akihez a szöveg tartozik, és kérdezze meg, hogy szeretné-e a szövegét közkinccsé tenni. Ha szeretnék, akkor segítse őket végig a <cc0WaiverLink>Közreműködői megállapodás</cc0WaiverLink> folyamatán. Ha nem akarnak hozzájárulni a szöveg közzétételéhez, akkor nem használhatja ezt a szöveget.
@@ -1498,7 +1499,7 @@ sc-criteria-item-2 = A mondatok nyelvtanilag helyesek.
 sc-criteria-item-3 = A mondatok kimondhatók.
 sc-criteria-item-4 = Ha a mondat megfelel a feltételeknek, kattintson a „Jóváhagyás” gombra a jobb oldalon.
 sc-criteria-item-5-2 = Ha a mondat nem felel meg a fenti feltételeknek, kattintson a bal oldali „Elutasítás” gombra. Ha nem biztos a mondatban, akkor ki is hagyhatja, és továbbléphet a következőre.
-sc-criteria-item-6 = Ha elfogynak az ellenőrizhető mondatok, akkor segítsen további mondatok összegyűjtésében!
+sc-criteria-item-6 = Ha elfogynak az ellenőrizhető mondatok, akkor segítsen további mondatok összegyűjtésében.
 
 ## REVIEW
 
@@ -1556,7 +1557,7 @@ localization-select =
     .label = Válasszon nyelvet/honosítást
 # PARTNERSHIPS PAGE
 partnerships-header = Partnerkapcsolatok
-partnerships-header-text = Sok kell ahhoz, hogy a Common Voice megvalósuljon! Nem egyedül csináljuk. A partnerünk szeretne lenni? Meghallgatnánk.
+partnerships-header-text = Sok kell ahhoz, hogy a Common Voice megvalósuljon. Nem egyedül csináljuk. A partnerünk szeretne lenni? Meghallgatnánk.
 partnerships-get-in-touch = Lépjen kapcsolatba
 partnerships-become-a-partner = Legyen Ön is Common Voice partner
 partnerships-community-header = Közösség, alkotók és civil társadalom
@@ -1573,7 +1574,7 @@ partnerships-corporates-header = Nagyvállalatok és platform cégek
 partnerships-corporates-description = Ha többet szeretne beszélni az adatkészletről, szeretne közösen befektetni a tervezett platformbővítésekbe, vagy együttműködési lehetőségeket keres, <emailFragment>írjon nekünk</emailFragment>.
 partnerships-our-partners = Partnereink
 # FIRST POST SUBMISSION CTA
-first-cta-header-text = Köszönjük, hogy felajánlotta a hangklipjeit!
+first-cta-header-text = Köszönjük, hogy felajánlotta a hangklipjeit.
 first-cta-subtitle-text = Szeretne megosztani néhány információt arról, hogyan beszél?
 why-donate = Miért kérdezik?
 why-donate-explanation-1 = Ezt az információt nem kötelező megadni – csak akkor adja meg, ha nem érzi kellemetlennek. Amikor kiadjuk az adatkészletet, minden személyes adatot álnevekkel látunk el, és gondoskodunk arról, hogy az olyan információk, mint az Ön neve és e-mail-címe, ne kapcsolódjanak a demográfiai adatokhoz, például életkorhoz vagy nemhez.
@@ -1584,7 +1585,7 @@ create-profile-text = Szeretné menteni az adatait? <createProfile>Hozzon létre
 thanks-for-voice-toast = Köszönjük a hanginformációit
 thanks-for-voice-toast-error = Hiba történt a hanginformációk elküldése során
 # SECOND POST SUBMISSION CTA
-second-cta-header-text = Köszönjük, hogy közreműködött a hangjával!
+second-cta-header-text = Köszönjük, hogy közreműködött a hangjával.
 second-cta-subtitle-text = Egy profil segítségével nyomon követheti tevékenységét, és kapcsolatba léphet a hangadatokat biztosító közreműködők közösségével.
 already-have-an-account = Már van fiókja? <login>Bejelentkezés</login>
 create-profile-button = Profil létrehozása

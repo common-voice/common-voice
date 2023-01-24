@@ -1260,7 +1260,8 @@ sc-lang-info-total =
 #   $totalInReview (Number) - Number of sentences currently in the review state for this language
 sc-lang-info-in-review =
     { $totalInReview ->
-        [0] { "" }
+        [0] Di kontrolê de hevok tune ye.
+        [one] Hevokek di kontorolê de ye
        *[other] { $totalInReview } hevok di kontrolê de ne.
     }
 # Variables:
