@@ -137,6 +137,7 @@ logout = ⴼⴼⵖ
 
 ## Home Page
 
+show-wall-of-text = ⵖⵔ ⵓⴳⴳⴰⵔ
 vote-yes = ⵢⴰⵀ
 vote-no = ⵓⵀⵓ
 
@@ -197,6 +198,7 @@ how-does-it-work-title-v2 = ⵎⴰⵏⵎⴽ ⴷⴰ ⵉⵙⵡⵓⵔⵓⵢ ⴽⴰ�
 
 ## How does it work section
 
+about-stay-in-touch-button = ⴽⵛⵎ
 about-nav-how-it-works-2 = ⵎⴰⵏⵎⴽ ⴷⴰ ⵉⵙⵡⵓⵔⵓⵢ ⴽⴰⵎⵏ ⴼⵓⵢⵙ?
 
 ## Community Playbook Content
