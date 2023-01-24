@@ -735,6 +735,7 @@ confirm-size = <b>{ $size }</b> boyutundaki indirme işlemini başlatmaya hazır
 size-gigabyte = GB
 size-megabyte = MB
 confirm-no-identify = Common Voice veri kümesindeki konuşmacıların kimliğini belirlemeye çalışmamayı <b>kabul ediyorsunuz</b>
+confirm-join-mailing-list = Common Voice e-posta listesine katılmak istiyorum
 download-language = { $language } indir
 validated-hours = Doğrulanmış saat
 recorded-hours = Kaydedilen saat

@@ -1,6 +1,7 @@
 ## General
 
 yes-receive-emails = Quemah, xinechimualtitlani correos. Onicniquisquiaya nicmatis ica in tlanimilil Common Voice.
+stayintouch = Ich Mozilla secchiutoc se nichicomasehual campa tipostl notzani. Otechpactisquia timitzmatiltisqueh ica in  tepanoltilistl, yancuic nemilis ica tlahcuilol uan secmatis cachi queni teh tiquintiquitiltia necateh datos.
 email-input =
     .label = Correo
 submit-form-action = Xictitlani
@@ -138,6 +139,8 @@ profile-form-language =
 profile-form-variant =
     .label = ¿tlen variante { $language } tiktlahtuhua?
 profile-form-variant-default-value = amo cah variante tlen u mu nexte
+profile-form-accent =
+    .label = chicahuak tlahtol
 profile-form-custom-accent-help-text =
     .label = ¿quenin tic nextis mu acento?
 profile-form-custom-accent-placeholder-2 = xipehua xi tlahcuilo para tic nextis mu acento
@@ -239,6 +242,7 @@ about-is-it-valid-text = cuando se usuario qui yehyecuhua se tlahtolahcuc, munex
 about-yes-votes = cachi de omi votos positivos (quemah)
 about-no-votes = cachi de umi votos negativos (amo)
 about-no-votes-text = cuando se usuario amo qui siliah se tlahtolahcuc, mu cuipa hasta tlacutlapa. tla amo mu siliah ik upa, tlahtolahcuc yas ichin cementerio tlahtolahcuc
+about-get-involved-text-2 = ¿ticniqui ti tech palehuis a que common voice mui cachi cuali? Cuali ximu nuhnutsa ich correo o tlamo campan foro<discourseLink> Discourse</discourseLink>,xiquin naltitlani tlahuel ican sitio ik<githubLink>GitHub</githubLink> o ximunilo campa mu tlahcuilhuiliah masehual nichicuhuah<matrixLink>Matrix</matrixLink>
 about-stay-in-touch = queni ihuan nimu nuhnutztos
 about-stay-in-touch-button = ximuihcuilo
 about-stay-in-touch-text-1 = <emailFragment> ximuihcuilo</emailFragmento> ichin tu tlahcuilol correo para nic matis queni huilis tictech palehuis ichin campañas, ilhuimeh huan quenin cualtia Common Voice
@@ -847,27 +851,159 @@ sc-submit-guidelines = timits tlatlauhtiah, xiquita<howToLink>directrices</howTo
 
 sc-add-lang-could-not-add = amo uhuilic umu tlale tlahtol
 sc-add-lang-sec-label = xictlali se tlahtol tlen tic niquis ica tech palehuis
+sc-add-lang-sec-button = xictlali tlahtolmasehual
+sc-add-err-unexpected = tlananquilil amo u secmatia mu cuipas ican servidor
+sc-add-err-submission = amo uhuilic umu naltitlan
+sc-add-lang-process-notice = tla mu masehual tlahtol amo mu nextia nicah, hulis tic tlahtlanis ic <languageProcessLink> nicancah nemilis </languageProcessLink>.
 
 ## ADD SENTENCES CONFIRMATION
 
+sc-confirm-are-you-sure =
+    .message = tlahcuilulmeh amo umu naltitlanque, milahuac ticniqui tiyas?
+sc-confirm-sentences-title = xiquinsili yancuic tlahcuilol
+# Variables:
+#   $countOfSentences (Number) - Number of sentences the user has filled in the submission form
+sc-confirm-sentences-found =
+    { $countOfSentences ->
+        [0] amo umahsiqueh sentencias
+        [one] 1 tlahcuilol umahsik
+        [many] { "" }
+       *[other] { $countOfSentences }tlahcuilolmeh umahsiqueh
+    }
+# Variables:
+#   $countOfInvalidated (Number) - Number of sentences the user rejected in the review form before submission
+sc-confirm-rejected-by-you = { $countOfInvalidated }amo umusileh por tehuatzin
+sc-confirm-already-reviewed =
+    { $countOfReviewed ->
+        [0] amotlen tlahcuilol tlen yuquitaqueh
+        [one] 1 tlahcuilol yumutac. ¡ cuali tiquiuh!
+        [many] { "" }
+       *[other] { $countOfReviewed } tlahcuilulmeh yuquimitaqueh. ¡ cuali tiquiuh!
+    }
+# Variables:
+#   $readyCount (Number) - Number of sentences ready to be uploaded
+sc-confirm-ready =
+    { $readyCount ->
+        [0] amo catqui se tlahcuilol para mu nextis
+        [one] 1 tlahcuilol cuali para tic naltitlanis
+        [many] { "" }
+       *[other] { $readyCount } tlahcuilolmeh cuali para tiquin nextis
+    }
+# Variables:
+#   $countOfUnreviewed (Number) - Number of sentences unreviewed before the upload
+sc-confirm-unreviewed = { $countOfUnreviewed } tlahcuilolmeh ayamo quimitstukeh. tla tik niqui, nuyuhqui huilis ti quitas mu tlancuilol antes de que tic naltitlanis
+sc-confirm-button-text = tlananquili
+sc-confirm-uploading = mu tlehcultuqueh tlahcuilolmeh. nicanca hulis huehcahuas siqui minutos dependiendo quesqui tlahcuilol utiquin tlale. timits tlatlauhtia amo xic tzacua nin nicancah sitio web
 
 ## LANGUAGE INFO
 
+sc-lang-info-title-total = nochi
+sc-lang-info-title-personal = sesiahcah
+# Variables:
+#   $totalSentences (Number) - Number of sentences uploaded in total for this language
+sc-lang-info-total =
+    { $totalSentences ->
+        [0] amo catqui nuchi sentecias
+        [one] 1 nuchi sentencia
+        [many] { "" }
+       *[other] { $totalSentences } nuchi tlacuilolmeh
+    }
+# Variables:
+#   $totalInReview (Number) - Number of sentences currently in the review state for this language
+sc-lang-info-in-review =
+    { $totalInReview ->
+        [0] amo catqui tlahcuilol mutstok
+        [one] 1 mutstoc se tlahcuilol
+        [many] { "" }
+       *[other] { $totalInReview } tlahcuilolmeh mutstuqueh
+    }
+# Variables:
+#   $unreviewedSentencesByYou (Number) - Number of sentences the user can still review
+sc-lang-info-left-for-you =
+    { $unreviewedSentencesByYou ->
+        [0] amo umu cauhqueh tlahcuilolmeh para tiquimitasqueh
+        [one] mu cahua 1 tlahcuilol para quitasqueh
+        [many] { "" }
+       *[other] { $unreviewedSentencesByYou } umucauhqueh tlahcuilolmeh para muquimitacah
+    }
+sc-lang-info-review-now = <reviewLink> xiquita axan </reviewLink>
+sc-lang-info-add-more = <addLink>xiquintlali cachi tlahcuilolmeh axan </addLink>
+# Variables:
+#   $validatedSentences (Number) - Number of sentences which have been approved for this language
+sc-lang-info-validated =
+    { $validatedSentences ->
+        [0] amo uquin silihqueh sentencias
+        [one] 1 sentencia uc silihqueh
+        [many] { "" }
+       *[other] { $validatedSentences }tlahcuilolmeh uquin silihqueh
+    }
 
 ## LOGIN
 
+sc-login-err-failed = amo uhuilic utic pehualteh sesion
+sc-login-err-try-again = xic yehyeco ocsipa
 
 ## PROFILE
 
+# Variables:
+#   $username (String) - eMail address of the logged in user
+sc-profile-title = ixnexicah{ $username }
+sc-personal-err-lang-not-found = amo uhuilic umucuileh masehual tlahtol: masehual tlahtol amo umahsik
+sc-personal-err-remove = amo uhuilic umu cuile masehual tlahtol
+sc-personal-your-languages = in masehualtlahtol:
+sc-personal-remove-button = xicpololti
+# Variables:
+#   $sentences (Number) - Number of sentences that were added by the currently logged in user for this language
+sc-personal-added-by-you = { $sentences } tuhuatzin utucun tlaleh
+sc-personal-not-added = ayamo tucun tlalia se masehual tlahtol
 
 ## REVIEW CRITERIA
 
+sc-criteria-title = tlanunutz de yuquitaqueh
+sc-criteria-make-sure = xic yequita tlahcuilol muc pia tlen mu icahuia tlanahuatilmeh:
+sc-criteria-item-1 = tlahcuilol quipia de isqui cuali tlahcuiliuhtok
+sc-criteria-item-2 = tlahcuilol quipia de isqui gramaticalmente cuali
+sc-criteria-item-3 = tlahcuilol quipia de isqui tlanunutz
+sc-criteria-item-4 = tla yen tlahcuilol mahsi ica nuchi criterios, xic pachi nican&quot;yecmati&quot; ichin mu yecman
+sc-criteria-item-5-2 = tla yen tlahcuilol amo qui nextia criterios de achton xic mahpacho &quot;amo nic silia&quot; ichin mu yecman, tla amo tic yecmati ica nin tlahcuilol nuyuhqui huilis tic panultis huan ti panos ihuan ocse
+sc-criteria-item-6 = tlamucahua sin tlahcuilol para ti quitas, ¡ yitech palehui para tic nichicusqueh cachi miak tlahcuilol!
 
 ## REVIEW
 
+sc-review-lang-not-selected = ayamo tic nextia se masehual tlahtol. timits tlatlauhtiah xiyuh <profileLink>ixnexicah</profileLink> para tic nextis masehualtlahtulmeh
+sc-review-title = tiquitasqueh tlahcuilol
+sc-review-loading = nichicuhtuc tlahcuilolmeh...
+sc-review-select-language = xicnexti se masehual tlahtol para tiquitasqueh tlahcuilolmeh
+sc-review-no-sentences = amo cah tlahcuilolmeh para tiquimitasqueh <addLink> xiquintlali cachi tlahcuilolmeh axan</addLink>
+sc-review-form-prompt =
+    .message = tlahcuilolmeh tlen yumutaquh amo u mu naltitlanqueh, cateh seguras?
+sc-review-form-usage = xic panulti mu mahpil ichin mu yecmah para tic silis tlahcuilol.xic panulti mu mahpil ichin mu pochman para amo tic silis. xic panulti mu mahpil para tlacpac para tic panultis <strong>amo xi quilcahua tic titlanis mu tlahtol</strong>
+sc-review-form-button-reject = amo tic silis
+sc-review-form-button-skip = ahcotzicuini
+sc-review-form-button-approve = ticsilis
+# Variables:
+#   $sentences (Number) - Number of sentences the user has reviewed in this session
+sc-review-form-reviewed-message =
+    { $sentences ->
+        [0] amo umutaqueh sentencias
+        [one] 1 tlahcuilol ytuquitaqueh. ¡tlasohcamatictsin
+        [many] { "" }
+       *[other] { $sentences } tlahcuilolmeh yuquimitaqueh. tlasohcamatictsin
+    }
+sc-review-form-review-failure = amo uhuilic umahcuc. xic yehyeco ocsipa cachi tlahcah
+sc-review-link = xiquita
 
 ## SETTINGS
 
+sc-settings-ui-language = masehual tlahtol de interfaz
+sc-settings-reset-skipped = sequinyectlalis tlahtulmeh tlen umu panultihqueh
+sc-settings-skipped-decription = yiachton utiquinpanulte tlahcuilolmeh tlen utiquimitayah,tiquin yectlalis tlahcuilolmeh tlen utiquin panultaya mu nextisqueh nuchten tlahcuilulmeh tlen u mu panultihqueh ocsipa. nicancan simi sesiahcah den masehualtlahtol
+sc-settings-show-all-button = munextican nuchten tlahcuilolmeh tlen u mu panultihqueh ocsipa
+sc-settings-failed = amo uhuilic u mu patlac. xic yehyeco ocsipa
+# VALIDATION
+sc-validation-number-of-words = tlahcuilol huilis qui pias 1 huan 14 tlahtol
+sc-validation-no-numbers = tlahcuilol amo huilis qui pixtos puhual
+sc-validation-no-symbols = tlahcuilol a mo huilis qui pias simbolos
 
 # [/SentenceCollector]
 

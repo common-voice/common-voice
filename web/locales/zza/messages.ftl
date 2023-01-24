@@ -1434,6 +1434,9 @@ why-donate-explanation-1 = No melumat mecburî nîyo - tena eke pê rehet î/a, 
 why-donate-explanation-2 = Seba ke teknolojî rind bigureyo, ganî dayeyê ke viraştoxan rê viraştişê teknolojî de ardim kenê, însananê cîya-cîyayan temsîl bikerê. Sey nimûne, eke qiseykerdoxê yew fekî tede çin bê, teknolojî seba ê kesan rind nêgureyena. <learnMore>Bimuse ke dayeyê meta çira muhîm ê.</learnMore>
 add-information-button = Melumat îlawe bike
 continue-speaking-button = Ney, sipas. Qiseykerdişî rê dewam
+# SECOND POST SUBMISSION CTA
+second-cta-header-text = Seba ke to vengê xo bexişna, ti weş be!
+already-have-an-account = Xora hesabê to est o? <login>Dekewe</login>
 create-profile-button = Profîlêk viraze
 # IMAGE TAGS
 img-alt-success-checkmark = nîşanê serkewtişî

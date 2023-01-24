@@ -123,6 +123,11 @@ export default function Content({ location }: { location: any }) {
         />
         <SentryRoute
           exact
+          path={toLocaleRoute(URLS.FAQ)}
+          render={() => <Redirect to={toLocaleRoute(URLS.ABOUT)} />}
+        />
+        <SentryRoute
+          exact
           path={toLocaleRoute(URLS.ABOUT)}
           component={AboutPage}
         />

@@ -18,6 +18,8 @@ banner-error-slow-1 = Ens sap greu, el Common Voice està tardant a carregar-se,
 banner-error-slow-2 = La plataforma va molt carregada últimament, estem investigant els problemes i esperem solucionar-los aviat.
 banner-error-slow-link = Estat del projecte
 error-something-went-wrong = Hi ha hagut un problema
+error-clip-upload = La pujada d'aquest tall continua fallant. Voleu reintentar-ho?
+error-clip-upload-server = La pujada d'aquest clip continua fallant en el servidor. Torneu a carregar la pàgina o proveu-ho més tard.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -407,6 +409,7 @@ why-demographic = Per què és important?
 why-demographic-explanation-2 = Les dades d'usuari anònimes com l'edat, el gènere i l'accent ajuden a millorar les dades d'àudio utilitzades per entrenar la precisió dels motors de reconeixement de veu. Les dades que envieu no estaran mai associades amb cap nom d'usuari ni adreça electrònica, i podeu triar si voleu que el vostre nom d'usuari sigui públic o anònim.
 accept-privacy = Accepto que gestioneu aquesta informació en els termes descrits en la <privacyLink>política de privadesa</privacyLink> de Mozilla
 accept-privacy-title = Política de privadesa
+accept-privacy-and-terms = Accepto les <termsLink>condicions d'ús</termsLink> i l'<privacyLink>avís de privadesa</privacyLink> del Common Voice.
 login-identity = Identitat d'inici de sessió
 login-signup = Inici de sessió / Registre
 edit = Edita
@@ -735,6 +738,7 @@ confirm-size = Estic preparat per a iniciar una baixada de <b>{ $size }</b>
 size-gigabyte = GB
 size-megabyte = MB
 confirm-no-identify = <b>Accepto</b> no intentar determinar la identitat dels parlants del conjunt de dades del Common Voice
+confirm-join-mailing-list = Vull subscriure'm a la llista de correu del Common Voice
 download-language = Baixa ({ $language })
 validated-hours = Hores validades
 recorded-hours = Hores enregistrades
@@ -767,6 +771,9 @@ more = Més
 close = Tanca
 download = Baixa
 dataset-version = Versió
+sha256-checksum-copied = S'ha copiat la suma de verificació SHA256
+sha256-checksum-copied-error = No s'ha pogut copiar la suma de verificació SHA256
+clipboard-not-supported = El porta-retalls no és compatible
 
 ## Download Modal
 
@@ -1550,5 +1557,10 @@ partnerships-small-business-description = Sempre busquem escoltar els consumidor
 partnerships-corporates-header = Grans empreses i empreses de plataformes
 partnerships-corporates-description = Si voleu parlar més sobre el conjunt de dades, voleu invertir conjuntament en les ampliacions planificades de la plataforma o busqueu oportunitats de col·laboració, <emailFragment>envieu-nos unes línies.</emailFragment>
 partnerships-our-partners = Els nostres socis
+# FIRST POST SUBMISSION CTA
+first-cta-header-text = Gràcies per donar els talls de veu!
+first-cta-subtitle-text = Voldríeu compatir informació sobre la vostra forma de parlar?
+add-information-button = Afegeix informació
+create-profile-text = Voleu desar la vostra informació? <createProfile>Creeu un perfil</createProfile>
 already-have-an-account = Ja teniu compte? <login>Inicieu la sessió</login>
 create-profile-button = Crea un perfil
