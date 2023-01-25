@@ -14,6 +14,7 @@ email-opt-in-info-sub-with-challenge = Få e-post om utfordrings- og målpåminn
 email-opt-in-privacy-v2 = Ved å registrere deg for å motta e-post godtar du at Mozilla handterar denne informasjonen som forklart i Mozillas <privacyLink>personvernerklæring</privacyLink>.
 indicates-required = * Viser påkravd felt
 not-available-abbreviation = Ikkje tilgjengeleg
+banner-error-slow-link = Statusside
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -322,6 +323,7 @@ profile-form-additional-language =
     .label = Ytterlegare språk
 profile-form-language =
     .label = Språk
+profile-form-variant-default-value = Ingen variant valt
 profile-form-accent =
     .label = Dialekt
 profile-form-age =
@@ -472,10 +474,12 @@ about-get-involved-text-2 =
     Flott! Ta kontakt via e-post eller på <discourseLink>Discourse</discourseLink>,
     forum, send inn nettstadtilbakemelding via <githubLink>GitHub</githubLink>,
     eller bli med på <matrixLink>Matrix</matrixLink>-samfunnsprat.
+about-stay-in-touch-button = Registrer deg
 about-nav-why-common-voice = Kvifor ?
 about-nav-how-it-works = Korleis ?
 about-nav-partners = Partnarar
 about-nav-get-involved = Ver med
+about-nav-how-it-works-2 = Korleis fungerer Common Voice?
 
 ## Community Playbook Content
 ## What is a language
