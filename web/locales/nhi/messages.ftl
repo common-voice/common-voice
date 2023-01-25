@@ -200,6 +200,9 @@ yue = Cantonés
 zgh = Tamazight
 zh-CN = Chino (China)
 zh-HK = Chino (Hong Kong)
+zh-TW = Chino (Taiwán)
+zu = Zulu
+zza = Zaza
 
 # [/]
 
@@ -208,11 +211,13 @@ zh-HK = Chino (Hong Kong)
 
 speak = xitlahto
 speak-now = xitlahto axan
+datasets = amatl tlanahuatil
 languages = tlahtulmeh
 about = ica Common Voice
 partner = nuyolchicauhca
 profile = nexicah
 help = xinechpalehui
+contact = nuhnutza
 privacy = ichtaca
 faq = tlahtlanil simi
 share-title = ¡xitechpalehui matiehcuca a cachi masehual aquihquen qui niquisqueh qui tetlaculisqueh in tlahtol!
@@ -341,6 +346,9 @@ other = Occe
 why-profile-title = ¿queye se perfil?
 why-profile-text = titechtemactis siqui tlanahuatil de teh, tlen amameh tlahtol tlen tiquin titlanis ichin Common Voice tech cualtilisqueh cachi para ixmatilis tlahtol  moquincuican ica quin yectlalihtacah queme quin tlahtlania
 build-profile = xicchihchihua se perfil
+goals = tiquitl
+edit-profile = ticpatlas mu nexicah
+profile-create-success = yumuchiuh, ¡nexicah yumuchiuh!
 profile-close = Xitlatzacua
 profile-explanation = xiquita tlen yuticchiuh ica se perfil huan xic palehui tu tlahcuiloltlahtol muican cachi cuali
 thanks-for-account = tlasohcamatictzin yutitechilhue mu cuenta, axan tic chihchihuasqueh mu perfil
