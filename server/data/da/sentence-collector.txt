@@ -2299,6 +2299,7 @@ Det kan undtagelsesvist accepteres, at køreeleven er en eller flere teorilektio
 Det kan vi takke vor gode frue for.
 Det kan virke fristende at lukke af for en besværlig omverden.
 Det kan være farligt at være allergisk.
+Det kan være herligt i indledningen
 Det kender du nok, du gamle!
 Det kender jeg ikke
 Det kender jeg ikke i din tro og dine gerninger.
@@ -8711,6 +8712,8 @@ Vi hører nu til Deres art.
 Vi kan jo lette med lempe!
 Vi kan jo svømme ned og undersøge!
 Vi kan meget godt leve for hinanden, men gifte os nej
+Vi kan skifte mellem kameratyper
+Vi kan sætte flere kameraer op foran den samme person
 Vi kan undvære dem!
 Vi kender alle sammen lykken.
 Vi kender den begravede stad, siger de.
@@ -10580,6 +10583,7 @@ hvor skal jeg finde mit lille barn!
 hvor sprudede den, hvor brændte den!
 hvor sød og velsignet ser han ud!
 hvor velsignet lys og broget!
+hvor vi måske gerne vil have en fortælling.
 hvor ville de dreie Øine og lade Knebbren gaae!
 hvor yndigt de synger!
 hvordan kan man afkode om indhold på nettet kan være beskyttet af ophavsret
@@ -11006,6 +11010,7 @@ klokken var kun seks.
 knap en Favn under Vandet stod den.
 knap var hun paa Ord, tvær af Mine, men villig til sin Dont.
 kobbertøjet skinner, bordet er som bonet, vasken er som et nys skuret spækkebræt.
+kode det sådan at vi får lavet nogle kameraskift.
 kolerne har i mange år relativt nemt kunnet forholde sig til ophavsretten
 kom der en degn for hans øjne, blev han ganske rasende.
 kom dog for rigtig at se!

@@ -474,6 +474,8 @@ A bolsa é negada quando a soma das percentagens mencionadas excede cem.
 A brisa parecia branca e solitária.
 A bruxa irritou-se com a sugestão
 A bunda linda assume o controle e ele não sente isso.
+A burguesia é unida e age pelos seus interesses, o povo ainda não
+A burguesia é, em maior parte, herdeira e alcançou a riqueza de modo criminoso
 A burrice parece imperar neste local
 A busca levou dois meses
 A busca para sua morte foi reaberta ontem a pedido de sua família.
@@ -512,6 +514,7 @@ A caravana teria muita sorte em chegar ao oásis.
 A carga de maconha foi encontrada no porão do navio
 A carga foi avaliada pelos peritos
 A caridade começa em casa.
+A caridade nunca será suficiente, pois a pobreza é estrutural e inerente ao capitalismo
 A caridade é uma das mais belas virtudes
 A carne de carneiro é saborosa
 A carne frita não volta ao abate.
@@ -568,6 +571,8 @@ A cisterna estava com defeito.
 A civilização ocidental está em risco
 A ciência mostrou que o kit cloroquina não funciona
 A ciência tem discutido sobre a classificação zoológica da espécie há décadas.
+A classe média está mais próxima dos mendigos do que dos ricos
+A classe média se vê como rica, mas é ridicularizada entre os grandes
 A classe média sofreu com o aumento de impostos
 A classificação é?, entre outras coisas?, uma disciplina de aprendizado de máquina.
 A cliente foi informada do encaminhamento via protocolo
@@ -596,6 +601,7 @@ A comissão será consultada no próximo mês
 A comitiva visitará a Bahia e o Pará
 A comoção crescia de minuto a minuto.
 A companhia faliu.
+A competição desenfreada está esgotando os recursos do planeta e a humanidade
 A competição foi acirrada
 A composição da forragem mudará conforme o ciclo de produção progride.
 A composição do conselho foi diferente desta vez.
@@ -654,6 +660,7 @@ A criatura gorda lança a mãe no buraco.
 A criatura se moveu com ondas peristálticas de seu corpo estranho e musculoso.
 A criatura se movia muito rapidamente.
 A criminalização do aborto mata, persegue
+A criminalização do aborto só tem um fim: aumentar a quantidade de escravos
 A crise deve ser superada
 A crise epiléptica pode ter sido causada pelas luzes estroboscópicas.
 A crise monetária na Europa
@@ -676,6 +683,7 @@ A defensoria pública do estado me ajudou muito
 A deflagração será realizada nos próximos dias
 A degeneração do populismo na teoria mais vulgar do radicalismo pequeno-burguês
 A delinquência juvenil precisa ser combatida com igual rigor
+A democracia direta e radical é superior à democracia parlamentar burguesa
 A dentista precisa aplicar anestesia antes de fazer o procedimento de remoção
 A depilação a laser visa impedir o crescimento de novos pelos
 A derrota de sete a um foi gravada na mente coletiva nacional.
@@ -695,6 +703,7 @@ A distância até o centro da cidade é de aproximadamente dois mil metros.
 A distância de outras fazendas dedicadas à mesma atividade é de quinhentos metros.
 A ditadura me causa repulsa, nojo, ódio e desprezo
 A divisão digital não termina quando as pessoas estão conectadas à Internet.
+A divisão do trabalho leva a alienação, o trabalhador não percebe sua importância
 A dobrez é evasiva e oblíqua; o riso dele era jovial e franco.
 A doce primavera no deserto também é consumida
 A documentação de remessa consiste em: projeto técnico e documentação anexa.
@@ -919,6 +928,7 @@ A grama do vizinho é sempre mais verde
 A grama e os arbustos estavam molhados de orvalho.
 A grama e os arbustos estavam molhados.
 A grande dançarina está jogando o cabelo ao redor
+A grande maioria dos prisioneiros dos gulags não eram políticos
 A gravata de cetim preto
 A gravação é proibida na sala de aula
 A grelha do fogo, sob o creme de cinzas.
@@ -944,6 +954,7 @@ A historiadora redigiu um ensaio
 A história da cidade começa há alguns milhares de anos.
 A história da escola está intimamente ligada à história de Figueres.
 A história da história foi Child Denzil e Eileen.
+A história da humanidade é traçada pela luta de classes, escravidão, feudalismo, capitalismo, socialismo
 A história de dois que começaram um novo episódio em suas vidas.
 A história do Brasil é antiga.
 A história do mundo oferece vários exemplos esplêndidos.
@@ -965,6 +976,7 @@ A ideia é juntar os dois escravos.
 A identidade dos doadores deve ser registrada em um registro público.
 A igreja promoverá uma festa para os moradores
 A igualdade de gênero foi alcançada nos Países Baixos
+A igualdade formal perante a lei não é suficiente, necessitamos de igualdade econômica
 A igualdade é protegida pela Constituição.
 A ilha fica a cerca de duas horas de Curitiba.
 A iluminação criou um ambiente agradável.
@@ -1017,6 +1029,7 @@ A jaqueta estava pendurada na parte de trás da cadeira larga.
 A jaqueta tinha um propósito? e o menino também.
 A jaqueta vazia não fica em pé.
 A jogadora surpreendeu a torcida na comemoração
+A jornada de trabalho na União Soviética era menor, o desemprego quase inexistente
 A jornada é mais longa que o normal
 A jovem está jogando basquete.
 A jovem mulher na camisa azul e no sobretudo preto faz waffles caseiros.
@@ -1076,6 +1089,8 @@ A lua é responsável pela maré do mar.
 A lua é responsável pelas marés da terra.
 A luminosidade adentrou os cômodos vagarosamente
 A lusofonia se espalhou pela América do Sul e África
+A luta de classes deve caminhar com a luta dos outros oprimidos
+A luta dos capitalistas contra o home office prova a sua irracionalidade e ineficiência
 A luz da lavanderia queimou, acabei de chamar a manutenção.
 A luz dançou através do lago.
 A luz das estrelas cintila no céu branco
@@ -1335,6 +1350,7 @@ A palavra chave é queijo.
 A palavra era tão bela
 A palavra pode ser atingida mais do que um punho.
 A palavra é um machado que abre seus corações.
+A pandemia escancarou a irracionalidade do sistema capitalista
 A pandemia já está na segunda onda.
 A panela ferveu, mas o conteúdo falhou.
 A paralaxe de movimento é uma dica de profundidade monocular.
@@ -1443,6 +1459,7 @@ A posse do cartão manipulador de pesticidas fitossanitário é obrigatória par
 A praia parecia tão bonita.
 A praia é seca e arenosa.
 A praia é seca e rasa na maré baixa.
+A precarização de um setor de trabalhadores desvaloriza para baixo todos os outros
 A prefeitura de Manlleu é obrigada a dar-lhes uma resposta fundamentada.
 A prefeitura é uma área administrativa da França e do Japão.
 A preocupação é também uma cesta
@@ -1484,6 +1501,8 @@ A proposta comercial não foi entregue a tempo
 A proposta de assistência técnica deverá conter pelo menos as seguintes especificações.
 A propriedade construída, mas não vendida, ocupa uma parte do território.
 A propriedade da licença do software mencionado acima deve ser creditada.
+A propriedade intelectual atrasa o desenvolvimento tecnológico
+A propriedade privada dos meios de produção não possui justificativa ética
 A propriedade é nove dezenas dos nossos.
 A prova ainda vai ser periciada.
 A província de Alberta é uma das mais frias do Canadá
@@ -1540,6 +1559,7 @@ A regra é não deixar estrangeiros entrarem.
 A regra é verdadeira?
 A reivindicação legal ganhou um verdadeiro epílogo judicial.
 A rejeição do presidente subiu a níveis estratosféricos
+A relativização da prostituição digital é uma estratégia do capitalismo
 A relação é a menos
 A religiosidade é uma escolha pessoal
 A religião é a única coisa que pode conter todas as pessoas daqui.
@@ -1592,6 +1612,7 @@ A sede eletrônica passa a ser o mecanismo de consulta dessas entidades.
 A segunda característica essencial do fenômeno é que é muito homogeneamente territorial.
 A segunda coisa é que ele usa um pneu em quase toda parte.
 A segunda credibilidade no mundo
+A segurança nos países socialistas é superior, a criminalidade é tratada na raiz
 A semana de três quintas-feiras, a décima segunda terá treze ovos.
 A semente da videira germinou
 A semente é necessária para a produção de milho primavera.
@@ -1627,6 +1648,8 @@ A situação reunida nestes relatórios não está longe do que encontramos na C
 A situação só vai piorar e piorar
 A soberania da União é um trabalho artificial.
 A soberania popular será exercida pelo sufrágio universal e pelo voto direto e secreto
+A social-democracia faz de tudo para sabotar o espírito revolucionário popular
+A social-democracia só dá migalhas, só enquanto o povo luta
 A sociedade americana muda a um ritmo maior do que a oferta eleitoral republicana.
 A sociedade era organizada e desenvolvida.
 A sociedade é uma ferramenta de fraude
@@ -1644,6 +1667,7 @@ A sorte não é aquela que procura, mas quem a encontra.
 A sorte te atende!
 A sorte é de quem a encontra.
 A subsidiária apresentou prejuízos no trimestre
+A subversividade individual e performática é inofensiva ao capitalismo. Se organize
 A superfície da tampa será antiderrapante.
 A síndrome de Asperger é uma forma de autismo.
 A síntese proteica que ocorre no interior das organelas
@@ -1708,6 +1732,7 @@ A uma certa escala
 A unidade da Espanha é um conceito recorrente.
 A unificação sólida de todos os grupos revolucionários não social-democratas
 A universidade não aceita alunos com notas baixa.
+A ursal vem aí
 A vaca preguiçosa estava deitada na grama fresca.
 A vacina chegará aos jovens europeus
 A vagina é um canal do órgão sexual feminino dos mamíferos
@@ -4517,10 +4542,12 @@ As pessoas ou entidades especializadas solicitarão o credenciamento administrat
 As pessoas que aparecem na foto estão vestidas de moda.
 As pessoas que estão fora devem ter cuidado!
 As pessoas que jogam são muito felizes
+As pessoas que tendem ao voluntariado são propensas ao comunismo
 As pessoas selecionadas serão responsáveis ​​por manter suas informações de contato atualizadas.
 As pessoas sempre se ressentem de sua origem.
 As pessoas sob as estrelas mudam todos os dias
 As pessoas também estavam orando ao céu por proteção.
+As pessoas tendem a universalizar suas experiências individuais
 As pessoas tomam lições de kickboxing no parque.
 As pessoas têm confundido curtidas no Instagram com afeto
 As pessoas vestidas de branco estão se divertindo.
@@ -4722,6 +4749,7 @@ Atitude própria
 Atitudes e qualidades que favorecem a competição relacional com aqueles que sofrem.
 Atitudes nobres e virtuosas
 Ativamente ligar o mercado global
+Ativar gravação de chamada e áudio
 Ativar legendas.
 Ativar modo de segurança.
 Ativar modo nortuno.
@@ -5592,6 +5620,7 @@ Branquinha
 Brasil
 Brasil Novo
 Brasil, Argentina, Bolívia, Peru
+Brasil, a eterna colônia agrícola
 Brasil, um sonho intenso, um raio vívido
 Brasileira
 Brasilândia
@@ -5901,6 +5930,7 @@ Cajuri
 Cajuru
 Calazam André de Sousa
 Calcanhar de Aquiles
+Calcula a raiz quadrada de dezoito
 Calcula-se o nível de disseminação
 Calculado por posição relativa
 Calcule a compactação da lactação ou a redução parcial, total ou parcial dos dias.
@@ -6071,6 +6101,7 @@ Canadá, México e Uruguai.
 Canal e Armazém
 Canal e Armazém de Otaru
 Canalizar significa que um espírito passou as informações através de um médium.
+Canalize seu ódio para os responsáveis da situação, a burguesia é o alvo
 Cananéia
 Canapi
 Canarana
@@ -6138,6 +6169,7 @@ Capinópolis
 Capistrano
 Capitais provinciais.
 Capital constante e capital variável
+Capitalismo chegou no limite tecnológico e ambiental, repartiremos o bolo com uma revolução
 Capitalização
 Capitu fez quatorze à semana passada; são dois criançolas.
 Capitão
@@ -6658,6 +6690,7 @@ Central de Minas
 Central do Maranhão
 Centralina
 Centralismo democrático
+Centralismo democrático: liberdade de crítica, unidade de ação
 Centralizar reflexões e avaliações
 Centralize, formalize e priorize as atividades do Centro de Liderança.
 Centro Novo do Maranhão
@@ -7814,6 +7847,7 @@ Cooperativa de vacas leiteiras
 Cooperativas, cooperativismo, cooperados
 Cooperação
 Cooperação e intercâmbio mais diversificados e internacionais
+Cooperação é superior à competição, só que requer maturidade e pensamento a longo prazo
 Coordena as ações de verificação e investigação das diferentes unidades operacionais.
 Coordena e supervisiona a elaboração do Manual Organizacional do Departamento.
 Coordena e supervisiona estudos sobre dados demográficos de saúde profissional.
@@ -8216,6 +8250,7 @@ Da véspera de Ano Novo ao Festival das Lanternas
 Dado apenas a chave pública?, é muito difícil calcular a chave privada.
 Dado o grau de antropização, as espécies encontradas são geralmente de ampla distribuição cronológica.
 Dados acadêmicos e profissionais: história, pertencente a associações profissionais, trabalho em que participa.
+Dados desclassificados revelam que o cidadão soviético médio se alimentava melhor
 Dados são o novo petróleo
 Daiane Schmidt Batista
 Daiane Terra Queiroga
@@ -8530,6 +8565,7 @@ Denise
 Dennis não podia se aproximar do monólito.
 Dentro da unidade há grande contraste interno, devido à heterogeneidade dos elementos.
 Dentro das restrições de sua mente,? não havia como voltar atrás.
+Dentro de um partido marxista-leninista, há muita democracia
 Dentro do banco
 Dentro do período de exposição pública, nenhuma reclamação ou reclamação foi feita.
 Dentro dos órgãos oficiais, devido à especialização das funções, pode haver escalas.
@@ -8696,6 +8732,7 @@ Desfralda a invicta bandeira
 Desfrutando de um parque de corda em um dia ensolarado.
 Desfrute de um ambiente que não tenha medo de falhas
 Design colocado ao redor
+Desigualdade e miséria são inseparáveis, já que os recursos são finitos
 Desligar.
 Desligue a luz que nos dá luz.
 Desligue a tv imediatamente!
@@ -8971,6 +9008,7 @@ Distorcido na cama do hospital
 Distrações raras.
 Distribuída
 Distrito Federal
+Ditadura do proletariado é o novo estado que se forma das ruínas do capitalismo
 Ditadura, totalitária, autoritária
 Ditas assim, pela voz do outro, tinham um tom de mistério e ameaça.
 Dito e feito
@@ -12865,6 +12903,7 @@ Estudantes universitários em um kegger.
 Estudar e decidir quantas propostas as empresas realizam para evitar riscos.
 Estudar estas frases-chave irá ajudá-lo durante a viagem.
 Estudar o campo gravitacional e outras finalidades científicas
+Estude o comunismo, o marxismo-leninismo e ganhe terapia gratuita no discord da Soberana.
 Estudos clínicos da nova vacina ainda são excelentes.
 Estudos investigam a influência dos ciclos lunares no sono e no período menstrual
 Está aberto ao público?
@@ -14606,6 +14645,7 @@ Fartura do Piauí
 Farão o que for prescrito
 Faríamos hoje uma autoavaliação
 Faróis em um mundo nebuloso.
+Fascismo ilude o povo ao clamar por uma "unidade nacional" entre classes antagônicas
 Fascistas, fascismo, Julius Evola
 Fatal.
 Fatia de peixe, peixe barato.
@@ -14624,6 +14664,7 @@ Faxinal do Soturno
 Faxinal dos Guedes
 Faxinalzinho
 Faz cerca de cinco mil por ano.
+Faz esse favor pra mim
 Faz sentido
 Faz sentido ter pesos negativos?
 Faz sombra ruim, a madeira é inútil.
@@ -15669,6 +15710,7 @@ Habilidades paranormais
 Habilidades pessoais e sociais que melhoram a comunicação interpessoal.
 Habitação
 Habitação no térreo, porta número um, tipo D, com distribuição própria para morar.
+Haha, que viagem, isso.
 Harmonia
 Harmonização facial já é uma prática compartilhada entre influenciadores digitais
 Harmonização não é falsa.
@@ -15857,6 +15899,7 @@ Homens que estão em um campo com um cão.
 Homens sendo entrevistados pela Fox News
 Homens tocando instrumentos em um campo de beisebol.
 Homens usando capacetes e coletes de segurança estão trabalhando.
+Homofobia é outra forma de divisão dos trabalhadores, contra quem não gera mais escravos
 Honestamente, eu espero que ele morra.
 Honesto Ahmed não convenceu os desenvolvedores.
 Hong Kong é muito ventoso
@@ -16296,6 +16339,7 @@ Inhumas
 Inicialize mais rápido.
 Inicialmente o plano parecia ser bom.
 Inicialmente, gostaria de uma salada verde.
+Iniciativas de código aberto, como esse projeto, se aproximam do comunismo
 Inicie o processo de rendenização do vídeo.
 Inimutaba
 Injetando o soro na veia
@@ -17208,6 +17252,7 @@ Junqueirópolis
 Junte-se ao clube.
 Juntos caminham e conversam
 Juntos podemos governar o mundo!
+Juntos somos invencíveis
 Juntos, o aplicativo de voz
 Juntos? podemos governar o mundo!
 Jupi
@@ -17546,6 +17591,7 @@ Leópolis
 Li isso em algum blog
 Liam os mesmos livros, iam juntos a teatros e passeios.
 Libanês, Colombiano, Paraguaio
+Liberalismo fez avançar a história contra o feudalismo, o socialismo é a nova etapa
 Liberato Salzano
 Liberdade
 Liberdade de expressão pressupõe responsabilidade de expressão
@@ -17743,6 +17789,7 @@ Lupércio
 Luta de Carnaval, Luta por Todos os Santos.
 Luta de Classes e Luta Política
 Luta de classes, proletários, proletariado, burgueses, burguesia
+Luta por direitos é fundamental, mas deve mirar na solução, a revolução
 Lutador de capoeira
 Lutadora de karatê
 Lutando contra brinquedos elétricos ilegais
@@ -17891,6 +17938,7 @@ Mais vale um pássaro na mão do que dois voando
 Mais valia acautelarem-se, sacrificando-se por algumas semanas.
 Mais verde que maduro.
 Mais é uma mentira doce do que uma verdade amarga.
+Mais-valia é o que o trabalhador produziu que não foi pago
 Mais-valia, internacionalismo, autogestão, simbologia
 Maitê e Daniel
 Majestade
@@ -18127,6 +18175,7 @@ Maruim
 Marumbi
 Marx e Engels
 Marxismo-leninismo, clandestinidade, anti-comunistas
+Marxismo-leninismo-maoísmo, a ideologia do Sendero Luminoso
 Marzagão
 Março ventoso e chuvoso abril eles se alegram em maio.
 Março, falsa primavera que engana o gado.
@@ -18971,6 +19020,7 @@ Miszar estava dormindo mal.
 Miséria da Filosofia
 Miséria e presunção de que os pobres só podiam deslumbrar!
 Mobilidade e Velocidade
+Mobilizar, agitar, se unir, contra a elite parasitária, nossos urubus
 Mobilizações
 Mocajuba
 Mococa
@@ -19387,6 +19437,7 @@ Na Espanha, cada um está chateado.
 Na França, a constituição é um trabalho inabalável ou considerado como tal.
 Na Idade Média, o poder de testar era, por assim dizer, ilimitado.
 Na Rússia, os restos das instituições medievais, de tipo semifeudal
+Na União Soviética, pessoas recebiam moradia estatal ou pagavam aluguel de um por cento
 Na aldeia não havia ninguém com quem entreter durante o dia.
 Na aldeia, só ele sabia como ajudar uma missa.
 Na alquimia? é chamado a alma do mundo.
@@ -19806,6 +19857,8 @@ No caminho de volta
 No caminho de volta houve o desagrado entre as empresas e o colapso comercial.
 No campo das ciências.
 No campo você vai, o que você come vai comer.
+No capitalismo é assim, privatizam os lucros, socializam os prejuízos
+No capitalismo, três opções para a maioria: bolo de pote, entregador ou onlyfans
 No casamento, o hóspede nunca ficará desapontado.
 No caso de engenheiros técnicos agrícolas, será necessário especificar a especialidade.
 No caso de modificação deste acordo, haverá um acordo unânime de ambas as partes.
@@ -20289,6 +20342,7 @@ Não atravesse as linhas amarelas.
 Não atravesse suas pontes até chegar a elas.
 Não até a lua estar alta, o alquimista apareceu.
 Não basta conquistar a sabedoria, é preciso usá-la.
+Não basta entender a precariedade humanitária do capitalismo, é necessário agir em unidade
 Não bata as árvores sob as quais você descansa.
 Não brigue mais
 Não certifica cartões de carteira de motorista.
@@ -20500,6 +20554,7 @@ Não há divisão de lote porque é um pacote indivisível.
 Não há divisões, nem competição, nem interesses parciais nessa questão.
 Não há doces no lado negro.
 Não há dois sóis no céu, em uma casa sólida, não dois mestres.
+Não há espaço para o povo nessa falsa democracia
 Não há estrela na cidade
 Não há fogo cintilante.
 Não há frango gordo por pouco dinheiro.
@@ -20609,6 +20664,7 @@ Não me pergunte como eu sei.
 Não me sinto cidadã de lugar algum.
 Não me surpreende
 Não me surpreende, é um santo do pau oco
+Não mexe no meu zap
 Não misture a academia com a magnésia.
 Não morda a mão que te alimenta.
 Não muito
@@ -21299,6 +21355,7 @@ Nós, portanto, o máximo que podemos aspirar no campo dos encantamentos é prod
 Número de componentes a serem obtidos.
 Número de pessoas treinadas e serviços e agências às quais pertencem.
 O mais do tempo é gasto em hortar, jardinar e ler
+O "holodomor" foi uma mistura de crise ecônomica, erros humanos e desastres naturais
 O Acordo de Paris previu o derretimento mais acentuado das geleiras
 O Alex Fabiano marcou dois gols.
 O Alex chegou sozinho.
@@ -21511,6 +21568,7 @@ O alquimista parou abruptamente? e se debruçou no chão.
 O alquimista provavelmente já sabia de tudo isso.
 O alquimista retirou a panela do fogo? e a colocou de lado para esfriar.
 O alquimista seguiu enquanto o cavalo do menino corria por quase meia hora.
+O alto desemprego é útil para manter os salários baixos. Lute.
 O aluguel de equipamentos, máquinas e móveis, se não os seus próprios.
 O aluno produziu o texto que o professor havia pedido.
 O aluno usa uma câmera para tirar uma foto de uma obra de arte.
@@ -21563,6 +21621,7 @@ O amor é percebido como um buraco nas meias.
 O amor é um bom desejo que acaba bem.
 O amor é um mel reticulado; o mel está mentindo, a cruz permanece.
 O amor, que é liderado pela razão, raramente sofre.
+O anarquismo foi importante, mas incapaz de libertar o povo definitivamente
 O andar nobre incluía um guarda-roupa e vários quartos.
 O animal escapou da armadilha.
 O animal selvagem veio em minha direção.
@@ -21994,6 +22053,7 @@ O diretor da biblioteca municipal ou pessoa delegada.
 O diretor geral com poderes na política de livros será o vice-presidente.
 O diretor recrutou vários graduados oferecendo altas recompensas.
 O diretor tem uma queda pela atriz, eu acho.
+O discord da Soberana tem quase cinquenta mil membros. Só falta você.
 O discurso continuará.
 O discurso do amor está nos olhos.
 O discurso durou duas horas
@@ -22110,6 +22170,7 @@ O exército brasileiro foi convocado a se manifestar
 O fabricante recomenda isso.
 O falcão é um caçador incrível!
 O falecido tinha que ter feito alguma armadilha.
+O fascismo é o botão de emergência dos capitalistas
 O fato de que existe um requisito anterior.
 O fato é que agora não há nada para pegar.
 O fazendeiro sente falta se ele se afasta da terra.
@@ -22135,6 +22196,7 @@ O filhote puxou a coleira quando viu uma forma felina.
 O filme acabou
 O filme do Pantera Negra.
 O filme foi muito bom, ele disse a um amigo.
+O fim da propriedade intelectual é uma exigência comunista
 O fim da reunião de família no final do ano
 O fim do cilindro ainda estava como Ogilvy e Henderson tinham deixado.
 O final da boca é muito longo e fresco.
@@ -22251,6 +22313,7 @@ O headphone tinha quebrado
 O herói misterioso voltou a fazer um salvamento.
 O herói sempre tem inimigos.
 O hidratante move-o e as chuvas do leste.
+O holodomor foi um termo cunhado pelos nazistas para criminalizar a União Soviética
 O homem acabou de subir uma pedra
 O homem acredita firmemente, porque ele adota uma crença sem aprofundamento.
 O homem aspira um pêlo peludo.
@@ -22447,6 +22510,7 @@ O lápis de cera acabou.
 O lápis foi cortado para ser afiado em ambas as extremidades.
 O líder do grupo era sábio.
 O líquido flamejava.
+O machismo é incentivado para desvalorizar o trabalho doméstico e dividir os trabalhadores
 O macho em uma camisa azul e boné skates em uma rua da cidade.
 O madrugador pega o verme primeiro.
 O mago lançou um feitiço muito poderoso sobre a cidade.
@@ -22872,6 +22936,7 @@ O pote escuro estava pendurado no armário da frente.
 O potencial humano se desenvolve quando a atenção do mesmo está no presente
 O povo canadense é um pouco humilde demais.
 O povo reclama de insegurança.
+O povo unido, jamais será vencido.
 O povo é contra a regulamentação do serviço de internet.
 O prato era à base de camarão, lula e tomate
 O prato estava um tanto quanto salgado
@@ -23440,6 +23505,7 @@ O senador de Idaho foi contra isso.
 O senhor tem um grande susto...
 O sentimento de instabilidade é perpetuado no meio da ordem.
 O sentimento de mágoa é subjetivo
+O ser humano é naturalmente egoísta e altruísta, mas o capitalismo favorece o primeiro
 O servidor discord da Soberana é o maior do Brasil
 O servidor está anormal.
 O serviço de hospedagem e backup custará seiscentos euros por ano.
@@ -24223,6 +24289,8 @@ Os candidatos recebem um email de confirmação com as etapas que devem seguir.
 Os candidatos só podem optar por bolsas de estudo para um dos laboratórios.
 Os candidatos terão um prazo de dez dias úteis para alterações ou reclamações.
 Os candidatos, juntamente com o aplicativo e o currículo, não acompanharão nenhuma documentação.
+Os capitalistas fazem as políticas visando o lucro, não moralidades. O conservadorismo é falso
+Os capitalistas financiam tanto os liberais quanto os conservadores, um grande teatro
 Os capítulos seguintes farão Nissaga pensar em poder.
 Os carros podem começar a se mover sozinhos no futuro.
 Os catalisadores possibilitam reações químicas em baixas temperaturas.
@@ -24562,6 +24630,7 @@ Os seres humanos são mais amigáveis ​​do que imaginavam
 Os servidores do projeto de voz comum não conseguiam lidar com a carga pesada.
 Os serviços de emergência foram chamados há cerca de uma hora.
 Os setores emergentes que poderiam ser relevantes.
+Os setores mais avançados do proletariado se organizam em coletivos e partidos
 Os setores que estão no estabelecimento devem ser anotados e justificados.
 Os sistemas de depuração para emissões atmosféricas possuem um plano de manutenção periódica.
 Os socialistas levaram o computador para a sessão plenária.
@@ -25333,6 +25402,7 @@ Patrick tem câncer terminal.
 Patrocínio
 Patrocínio Paulista
 Patrocínio do Muriaé
+Patrões são parasitas e políticos são fantoches de grandes empresários
 Patu
 Paty do Alferes
 Pau Brasil
@@ -27263,6 +27333,7 @@ Quando o pardal fica mais velho, os pássaros zombam.
 Quando o pardal se torna velho, os pássaros brincam.
 Quando o peixe está pronto, já pode ser servido.
 Quando o peixe não quer, não vale a pena saber sobre a pesca.
+Quando o povo se divide, os tubarões lhe devoram
 Quando o rio soa, algo traz.
 Quando o sol ficar coberto, três dias não vão escapar.
 Quando o sol se põe, vai para todos.
@@ -28057,6 +28128,7 @@ Queremos alcançar as duas mil pessoas em um dia!
 Queremos alguma ação nessas fotos.
 Queremos dispersar o núcleo do casco.
 Queremos misericórdia, contudo quase nunca somos misericordiosos
+Queremos que todos tenham o mínimo: saúde, segurança, educação, moradia
 Queremos vender botas artesanais de chukka naquele caminhão de comida.
 Queremos vender botas artesanais naquele caminhão.
 Queremos ver você.
@@ -28128,6 +28200,8 @@ Rachadinhas entram no rol dos tipos de corrupção?
 Rachid disse que gosta de abacaxi no café da manhã.
 Racionais, Mano Brown
 Racionalizar, radiano, central, subtendido, raio, raiz quadrada, reajuste, tarifas, recíproco, redução
+Racismo é a forma que os capitalistas usam para dividir os trabalhadores por migalhas
+Racismo, machismo, xenofobia, individualismo, arrastam a situação de todos para pior
 Radicalizando as bases eleitorais
 Rado Mulej não é um jogador de golfe famoso.
 Rafael e Giovanna
@@ -28256,6 +28330,7 @@ Reduza a dor da vítima
 Reduza o risco de câncer
 Reduzir as responsabilidades de cuidados familiares
 Reduzir, entretanto, significa reduzir a quantidade e a natureza prejudicial de uma origem residual.
+Redução da jornada de trabalho para trinta horas, pauta da Sofia Manzano
 Redução de danos
 Redução no consumo de combustível e desgaste do veículo.
 Reembolsar a enorme dívida
@@ -28685,6 +28760,7 @@ Rã, lebre, camundongo, rato, jacaré e hipopótamo
 Rãs cuspem nas abelhas.
 Róger, Daniela, Josiane, Luciane e Maciel
 Rômulo, Marcus, Willian, Jessé e Edilene
+Rússia vence a guerra contra a Ucrânia, marcando a queda do império decadente estadunidense
 Sabará
 Sabe me dizer se o Gouveia está?
 Sabe que estou casado?
@@ -29210,6 +29286,7 @@ Se o que encontrarmos for feito de matéria pura, nunca irá estragar.
 Se o tomate é um pouco ácido, adicione uma colher de café de açúcar.
 Se o trabalho fosse realmente tão fácil, o prefeito teria feito isso.
 Se o vento não separasse a aranha, o mundo gotejaria.
+Se organize num sindicato, coletivo ou partido, você faz a diferença
 Se os caracóis estiverem profundamente enterrados, acumularão invernos rigorosos.
 Se os desejos fossem cavalos?, os mendigos montariam.
 Se os desejos não são muito grandes, eles se renovam constantemente.
@@ -29443,6 +29520,7 @@ Sem responder?, o guarda entrou na tenda?, onde permaneceu por algum tempo.
 Sem solidariedade não somos nada.
 Sem sombra de dúvida
 Sem sombra de dúvidas!
+Sem teoria, não é possível ter outra concepção de mundo antissistema
 Sem um sistema operacional, um computador é apenas um conjunto de cabos e metal.
 Sem um único quiver.
 Sem uma solução para isso, nada será possível.
@@ -29953,6 +30031,7 @@ Soledade
 Soledade de Minas
 Solicite uma solução da Câmara Municipal para não combinar os benefícios com os custos.
 Solicitou mais guardanapos à garçonete
+Solidariedade e cooperação é subversivo e ousado em tempos de individualismo
 Solidão
 Solitário nas ruas, contando com caridade para viver
 Solonópole
@@ -31003,6 +31082,7 @@ Tenório
 Teodoro Sampaio
 Teofilândia
 Teolândia
+Teoria e prática, juntas, levam à revolução e à libertação
 Teoricamente, o melhor é onde a taxa não reduz a demanda.
 Teotônio Vilela
 Ter completado comunicação e coordenação
@@ -31905,6 +31985,7 @@ Técnicas que eles trazem para aprender as habilidades de autonomia pessoal e so
 Tóquio é tão úmida nesta época do ano.
 Tóquio é uma cidade cosmopolita e tecnologicamente avançada
 Tô finalmente trazendo para o canal porque finalmente foi traduzido para o português.
+Tô nem ai
 Túnel de tempo paralelo
 Uarini
 Uau! O cowboy está debaixo dos cascos do cavalo marrom e está sendo pisado.
@@ -34988,6 +35069,7 @@ Você nunca nasceu.
 Você nunca quer discutir com quem não sabe resumir.
 Você nunca sabe o que pode fazer até tentar.
 Você nunca será capaz de escapar do seu coração.
+Você nunca será rico, só aumentará a riqueza de quem está acima
 Você nunca vai reabrir.
 Você não acha que eu vou contar!
 Você não acha que é o suficiente?
@@ -35099,6 +35181,7 @@ Você não vê os belos e os cegos verem aonde ir juntos.
 Você não vê que coisa maravilhosa isso pode ser?
 Você não é capaz disto
 Você não é pago para ser um canário.
+Você não é superior nem inferior a ninguém, juntos podemos exigir direitos
 Você o que quer é um capote; ande, vá buscar o gamão.
 Você o viu?
 Você obterá das mulheres algumas coisas boas.
@@ -35890,6 +35973,7 @@ Zabelê
 Zacarias
 Zacarias Rodrigues da Silva
 Zaidisson da Costa Oliveira
+Zelensky leva a Ucrânia para o abismo em nome da ganância
 Zelma Aparecida da Silva
 Zeneida Lindalva Alves da Silva
 Zeneide de Franca Luna
@@ -40663,6 +40747,7 @@ zé Doca
 Óbidos
 Óculos e bengala, sinal do médico.
 Óculos espessos ajudaram-no a ler a impressão.
+Ódio aos indiferentes à exploração
 Óleo
 Óleo de coco tem propriedades fungicidas e bactericidas
 Óleo diesel e gás natural

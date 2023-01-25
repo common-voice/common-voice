@@ -3263,7 +3263,9 @@ Beziehen Sie das Kind in die Entscheidung mit ein.
 Beziehungsweise die Betrüger, die sich als solches ausgeben.
 Bezugspersonen, du meinst Bezugspersonen.
 Bezüglich Getrennt- und Auseinanderschreibung halten wir uns an die Empfehlungen des Dudens.
+Bibi ist zu "erwachsen" um die Rechnung zu bezahlen.
 Bibi kann aber zum Glück nicht überall sein.
+Bibi reitet wieder auf dem Besen.
 Biblische Namen sterben scheinbar nie aus.
 Biden gewann sein erstes politisches Mandat im November neunzehnhundertsiebzig.
 Bidens Familie ist römisch-katholisch und irisch-amerikanischer Herkunft.
@@ -3346,6 +3348,7 @@ Bis jetzt ist nicht ein Lastwagen eingetroffen.
 Bis letztes Jahr stiegen die Einnahmen der Kirchen trotz zahlreicher Austritte.
 Bis morgen muss ich das können.
 Bis morgens um vier zogen sie um die Häuser.
+Bis nächste Woche.
 Bis später!
 Bis später, Peter.
 Bis wann geht das denn noch?
@@ -5036,6 +5039,7 @@ Das Fahrrad ist kaputt.
 Das Fahrrad ist zu einem Laufrad umbaubar.
 Das Fahrzeug muss vollständig zerlegt werden.
 Das Feedback von Sarah ist immer hart und ehrlich.
+Das Fell muss täglich gebürstet werden.
 Das Fell muß täglich gebürstet werden.
 Das Fell von deinem Hund ist so puffig und flaschig.
 Das Ferkel hat ja noch nichts auf den Rippen.
@@ -5920,12 +5924,14 @@ Das ist ja auch der Sinn und Zweck des Ganzen.
 Das ist ja auch kein Wunder, wenn die neuen auf die alten anspielen.
 Das ist ja auch nur grob über den Daumen gepeilt.
 Das ist ja auch so eine Floskel.
+Das ist ja blöd.
 Das ist ja brutal!
 Das ist ja das Blöde an Selbstmordattentätern.
 Das ist ja das Geile daran.
 Das ist ja der Böller!
 Das ist ja der Gipfel!
 Das ist ja der Wahnsinn.
+Das ist ja ein Schnapper.
 Das ist ja eine Sause hier am Wochenende auf dem Schulhof.
 Das ist ja eine Wucht!
 Das ist ja einfach.
@@ -6319,6 +6325,7 @@ Das sieht ulkig aus.
 Das sieht wichtig aus.
 Das sind Ausschnitte aus meinem Poesiealbum aus den Achtzigern.
 Das sind Ausschnitte aus meinem Poesiealbum aus den achzigern.
+Das sind Fragen, die niemand braucht.
 Das sind die gesellschaftlichen Erwartungen, die an einen gestellt werden.
 Das sind die klassischen Beispiele.
 Das sind die schönen Straßen.
@@ -7010,6 +7017,7 @@ Den ganzen Weg von Schweden und Norwegen.
 Den genauen Betrag konnte er nicht beziffern.
 Den geringen Busfaktor sollte man nicht unter den Tisch fallen lassen.
 Den gilt es sich dann natürlich zu merken.
+Den habe ich einfach übernommen.
 Den habe ich schon mal in der Muckibude gesehen.
 Den habe ich wer weiss wie lange nicht gesehen.
 Den habe ich.
@@ -8136,6 +8144,7 @@ Der frühe Vogel stirbt wegen Schlafmangel.
 Der frühe Wurm stirbt am Vogel.
 Der furchtlose Junge wollte mit seinem Vater auf die Drehleiter.
 Der fährt doch einen dicken Benz.
+Der fährt erst um fünfzehn Uhr vierzig los.
 Der fährt nach vorne.
 Der fünfunddreißigste Mai ist ein guter Tag, um den Äquator zu schrubben.
 Der ganz normale Wahnsinn.
@@ -12466,6 +12475,7 @@ Einfach hat man es nie in dieser Stadt.
 Einfach ignorieren kann man diese Tendenz aber auch nicht.
 Einfach immer der Hauptstraße folgen.
 Einfach lesen, nicht kommentieren.
+Einfach mal etwas schönes machen hat er gesagt.
 Einfach mal in die Natur gehen und die Seele baumeln lassen!
 Einfach mit einer Schere ausschneiden und dann in dieses Heftchen kleben.
 Einfach nicht nach unten schauen.
@@ -15525,6 +15535,7 @@ Gibt es etwa gute Neuigkeiten?
 Gibt es etwa keinen Finderlohn?
 Gibt es für das Gerät überhaupt noch Updates?
 Gibt es für dieses Phänomen auch eine anschauliche Erklärung?
+Gibt es heute Regen?
 Gibt es heute schon wieder nur Nudeln?
 Gibt es hier WiFi?
 Gibt es hier denn keine Garderobe?
@@ -16291,6 +16302,7 @@ Hast du mich gerade fett genannt?
 Hast du mich verstanden?
 Hast du mir eigentlich das Buch zurückgegeben, das ich dir mal geliehen habe?
 Hast du mit ihm einen Rückruf abgesprochen?
+Hast du morgen frei, Erna?
 Hast du neben der Duschkabine geduscht oder warum ist der Boden so nass?
 Hast du nicht gehört?
 Hast du noch ein Problem?
@@ -16947,6 +16959,7 @@ Hier muss man schon von einer steilen These sprechen.
 Hier musste ein Komma gesetzt werden, denn es beginnt ein Nebensatz.
 Hier müssen Gerichte geltendes Recht durchsetzen.
 Hier müsste der Gesetzgeber reglementieren und einen erlaubten Frequenzbereich vorgeben.
+Hier nicht, andere Seite.
 Hier noch ein Satz für den Algorithmus.
 Hier noch einmal für alle, deren Lieblingsfach "Singen und Klatschen" in der Schule war.
 Hier noch mal die Kurzform.
@@ -17949,6 +17962,7 @@ Ich habe Großes mit Ihnen vor.
 Ich habe Heimweh.
 Ich habe Ihr Anliegen verstanden und würde gerne zu Problemlösung kommen.
 Ich habe Lea letztens im Flugzeug getroffen.
+Ich habe Post bekommen.
 Ich habe Probleme mit der Standhaftigkeit, seit ich die Tabletten nehme.
 Ich habe Ralf noch nie so glücklich und entspannt gesehen.
 Ich habe Root-Rechte auf meinen Geräten!
@@ -17999,6 +18013,7 @@ Ich habe dich gewarnt.
 Ich habe dich heimlich tanzen sehen.
 Ich habe dich noch nie gesehen.
 Ich habe die Cold Mirror Referenz wahrgenommen.
+Ich habe die Kasse schon geschlossen.
 Ich habe die Mitarbeiterin darauf angesprochen, sie bejahte es.
 Ich habe die Mondfinsternis verschlafen.
 Ich habe die Schnauze voll.
@@ -18415,7 +18430,9 @@ Ich komme früher mit Schlüssel.
 Ich komme gerade nicht auf den Namen.
 Ich komme gleich.
 Ich komme heute etwas später von der Arbeit zurück.
+Ich komme hier nicht heraus.
 Ich komme hier nicht raus!
+Ich komme hier nicht weg.
 Ich komme ja bei dir nicht rein.
 Ich komme mir hier vor wie im Baumarkt.
 Ich komme mit dem Bus.
@@ -21838,6 +21855,7 @@ Kann man dem Öko-Institut heutzutage noch Glauben schenken?
 Kann man den Akku wechseln, oder ist er verklebt?
 Kann man den Namen seiner Straße offiziell ändern lassen?
 Kann man den Newsletter nicht auch irgendwo deabonnieren?
+Kann man denn davon überhaupt Leben?
 Kann man die Haustür eigentlich nicht abschließen?
 Kann man die Instanz auch lokal laufen lassen?
 Kann man die Pfannkuchen im Toaster machen?
@@ -21957,6 +21975,7 @@ Kannst du ein Köpfer ins Wasser machen?
 Kannst du einen Krankenwagen rufen?
 Kannst du einen Köpfer ins Wasser machen?
 Kannst du einen korrekten maskulinen Akkusativ bilden?
+Kannst du einmal die Tür aufmachen?
 Kannst du englisch sprechen?
 Kannst du ertasten, wie viele Murmeln du zwischen den Zehen hast?
 Kannst du es mir beibringen?
@@ -22074,6 +22093,7 @@ Karten nutzen auch nichts, wenn Terminals aufgrund von Softwarefehlern nicht fun
 Kartenzahlung nicht möglich.
 Kartoffeln haben viele Facetten.
 Kartoffeln schmecken gut und sind sehr gesund.
+Kassel Hauptbahnhof ist ein Kopfbahnhof.
 Katastrophe!
 Katharina läuft schreiend im Kreis herum.
 Katharina macht eine Ausbildung zur Rechtsanwaltsgehilfin.
@@ -22667,6 +22687,7 @@ Kräuersoße oder Knoblauchsoße?
 Kräuternudeln wären toll.
 Kräutersoße oder Knoblauchsoße?
 Kuchengabeln sind kleinere Versionen selbiger.
+Kuckuck sagte der Gerichtsvollzieher, als er Barry antraf.
 Kugelschreiber bekommt man oft als Werbegeschenk.
 Kultur gibt es in diesem Viertel quasi nicht.
 Kultur umfasst weit mehr als nur Musik und Theater.
@@ -23156,6 +23177,7 @@ Lehrers Kinder, Pfarrers Vieh, gedeihen selten oder nie.
 Lehrjahre sind keine Herrenjahre.
 Leicht angetrunken lesen sich Verträge immer am besten.
 Leicht verdientes Geld.
+Leicht verstrahlt.
 Leichte Küche hat noch keinen umgebracht.
 Leichte körperliche Tätigkeiten nach dem Mittagessen verhindern den üblichen Tiefschlaf.
 Leichter gesagt als getan.
@@ -25006,6 +25028,7 @@ Mit der Golftasche unterm Arm ist sie dann abgedampft.
 Mit der Hand nahm er seinen Zylinder vom Kopf und verbeugte sich tief.
 Mit der Herstellung dieser Aggregate wird Fiete sich selbstständig machen.
 Mit der Holzhammermethode werdet ihr nicht weit kommen.
+Mit der Karte kommt sie bis nach Hamm.
 Mit der Kippe sind Sie für Ihr Kind gefährlicher als ich.
 Mit der Maske hat man auch einen Pollenfilter vor Mund und Nase.
 Mit der Medienkompetenz von Abiturienten ist es nicht weit her.
@@ -25323,6 +25346,7 @@ Morgen war es das schon wieder mit dem Urlaub.
 Morgen werde ich Karotten und Paradeiser säen.
 Morgen werden die Kurse bereits abgestürzt sein.
 Morgen wird der Verdächtige dem Haftrichter vorgeführt.
+Morgen wird es stürmisch.
 Morgen wird im Hallenbad das neue Becken mit künstlichen Wellen eröffnet.
 Morgen zieht der Arzt ihr die Fäden.
 Morgen, morgen, nur nicht heute, sagen alle faulen Leute.
@@ -25425,6 +25449,7 @@ Mädchen, was machst du da?
 Mängel sollten angesprochen, aber nicht darauf herumgeritten werden.
 Männer in Machtpositionen sollten vorsichtig sein, wenn sie von jungen Frauen angebaggert werden.
 Männer mit Pferdeschwanz sind selten.
+Männer mit mehreren Zöpfen waren mir schon immer suspekt.
 Männer müssen stark und Frauen müssen hübsch sein.
 Männer sind alle gleich!
 Männlichkeitssteigernde Hormone werden Androgene genannt.
@@ -31736,6 +31761,7 @@ Und habt ihr den Rotschimmel geritten?
 Und hast du mal genug davon, dann schenk es einfach weiter.
 Und hat’s geschmeckt?
 Und heraus kommt folgendes Interferenzmuster.
+Und heute die Uranversion.
 Und hier ist noch ein cooler Lifehack.
 Und hier kann man auf Stroboskopmodus umschalten.
 Und hier kommen die Eier in den Brutkasten.
@@ -36422,6 +36448,7 @@ Wie wird Anneliese wohl reagieren, wenn sie von Kitzbühel erfährt?
 Wie wird Gouda hergestellt?
 Wie wird das Wetter in Dargun?
 Wie wird das Wetter morgen auf Insel Usedom?
+Wie wird das Wetter?
 Wie wird der Herd angeschlossen?
 Wie wird dieses Wort geschrieben?
 Wie wird man Clown?
