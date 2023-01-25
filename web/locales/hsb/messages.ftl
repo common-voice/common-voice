@@ -45,6 +45,7 @@ bn = Bengalšćina
 br = Bretonšćina
 bs = Bosnišćina
 bxr = Burjatšćina
+byv = Medumba
 ca = Katalanšćina
 cak = Kaqchikel
 ckb = Centralna kurdišćina
@@ -54,6 +55,7 @@ cs = Čěšćina
 cv = Čuwašćina
 cy = Walizišćina
 da = Danšćina
+dag = Dagbani
 de = Němčina
 dsb = Delnjoserbšćina
 dv = Dhivehi
@@ -188,6 +190,7 @@ ts = Tsongašćina
 tt = Tataršćina
 tw = Twi
 ty = Tahitišćina
+tyv = Tuwinšćina
 uby = Ubychišćina
 udm = Udmurtšćina
 ug = Ujguršćina
@@ -208,6 +211,7 @@ zh-CN = Chinšćina (China)
 zh-HK = Chinšćina (Hong Kong)
 zh-TW = Chinšćina (Taiwan)
 zu = Zulu
+zza = Zaza
 
 # [/]
 
@@ -1516,10 +1520,15 @@ partnerships-foundations-header = Załožby
 partnerships-governments-header = Knježerstwa
 partnerships-academia-header = Uniwersity, akademikarjo a slědźerjo
 partnerships-our-partners = Naši partnerjo
+# FIRST POST SUBMISSION CTA
+first-cta-header-text = Wulki dźak, zo waše rěčenske klipy darił!
 why-donate = Čehodla so prašeće?
 add-information-button = Informacije přidać
 continue-speaking-button = Ně, dźakuju so, z rěčenjom pokročować
 create-profile-text = Chceće swoje informacije składować? <createProfile>Załožće profil</createProfile>
+thanks-for-voice-toast = Wulki dźak za waše rěčenske informacije
+# SECOND POST SUBMISSION CTA
+second-cta-header-text = Wulki dźak, zo waš hłós přinošujeće!
 already-have-an-account = Maće hižo konto? <login>Přizjewić</login>
 create-profile-button = Profil załožić
 # IMAGE TAGS
