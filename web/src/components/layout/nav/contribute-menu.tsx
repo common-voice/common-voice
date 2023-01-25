@@ -32,7 +32,10 @@ export const ContributeMenu: React.FC<ContributeMenuProps> = ({
             onClick={toggleMobileMenuVisible}
           />
         </Localized>
-        <ChevronDown className={classNames({ 'rotate-180': showMobileMenu })} />
+        <ChevronDown
+          className={classNames({ 'rotate-180': showMobileMenu })}
+          onClick={toggleMobileMenuVisible}
+        />
       </div>
       <div className="contribute-link-wrapper">
         <p className="nav-link-item">

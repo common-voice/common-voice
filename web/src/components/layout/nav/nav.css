@@ -238,11 +238,12 @@ header {
 
                     & li {
                         display: flex;
-                        align-items: center;
+                        align-items: end;
 
                         & svg {
                             width: 16px;
                             height: 16px;
+                            margin-bottom: 2px;
                         }
                     }
 
@@ -325,14 +326,18 @@ header {
         margin: 0 30px;
         padding: 15px 0;
         line-height: 1.17;
-        font-family: var(--strong-font-family);
-        font-size: var(--font-size-lg);
+        font-family: var(--base-font-family);
+        font-size: var(--font-size-sm);
+        font-weight: 600;
+        text-transform: uppercase;
 
         .contribute-link {
             margin-left: 8px;
-            padding: 20px 0;
+            padding: 20px 0 0;
             font-family: var(--base-font-family);
             font-size: var(--font-size);
+            font-weight: 400;
+            text-transform: capitalize;
         }
 
         @media (--sm-up) {
@@ -390,8 +395,10 @@ header {
     }
 
     & .contribute-btn {
-        font-size: var(--font-size-lg);
-        font-family: var(--strong-font-family);
+        font-family: var(--base-font-family);
+        font-size: var(--font-size-sm);
+        font-weight: 600;
+        text-transform: uppercase;
         margin-right: 8px;
     }
 }
