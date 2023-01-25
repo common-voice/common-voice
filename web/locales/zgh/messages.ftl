@@ -184,6 +184,7 @@ edit = ⵙⵏⴼⵍ
 
 ## Profile - Email
 
+remove-avatar = ⵙⵉⵜⵜⵢ ⴰⴼⴰⵜⴰⵔ
 
 ## Profile - Email
 
@@ -288,6 +289,7 @@ your-languages = ⵜⵓⵜⵍⴰⵢⵉⵏ ⵏⵏⵓⵏ
 
 ## Profile Delete
 
+remove = ⵙⵉⵜⵜⵢ
 
 ## Profile Download
 
@@ -360,6 +362,7 @@ sc-add-lang-sec-button = ⵔⵏⵓ ⵜⵓⵜⵍⴰⵢⵜ
 ## PROFILE
 
 sc-personal-your-languages = ⵜⵓⵜⵍⴰⵢⵉⵏ ⵏⵏⵓⵏ:
+sc-personal-remove-button = ⵙⵉⵜⵜⵢ
 
 ## REVIEW CRITERIA
 
