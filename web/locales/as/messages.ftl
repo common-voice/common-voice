@@ -884,8 +884,8 @@ clips-with-count-pluralized =
         [two] <bold>দুটা</bold> ক্লিপ
        *[other] <bold>{ $count }টা</bold> ক্লিপ
     }
-goal-help-recording = আপুনি কমন ভইচক আমাৰ দৈনিক { $goalValue } ৰেকৰ্ডিং লক্ষ্যৰ <goalPercentage></goalPercentage>-লৈ গৈ পোৱাত সহায় কৰিছে!
-goal-help-validation = আপুনি কমন ভইচক আমাৰ দৈনিক { $goalValue } বৈধকৰণ লক্ষ্যৰ <goalPercentage></goalPercentage>-লৈ গৈ পোৱাত সহায় কৰিছে!
+goal-help-recording = আপুনি কমন ভইচক আমাৰ দৈনিক { $goalValue } ৰেকৰ্ডিঙৰ লক্ষ্যৰ <goalPercentage></goalPercentage>-লৈ গৈ পোৱাত সহায় কৰিছে!
+goal-help-validation = আপুনি কমন ভইচক আমাৰ দৈনিক { $goalValue } বৈধকৰণৰ লক্ষ্যৰ <goalPercentage></goalPercentage>-লৈ গৈ পোৱাত সহায় কৰিছে!
 contribute-more =
     { $count ->
         [one] আৰু { $count }টা কৰিবলৈ সাজুনে?
