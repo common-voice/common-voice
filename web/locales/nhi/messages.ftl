@@ -108,6 +108,23 @@ lt = Lituano
 lv = Letón
 mai = Maithili
 mdf = moksha
+mg = Malgache
+mhr = Mari Oriental
+mk = Macedonio
+ml = Malabar
+mn = mongol
+mni = Meetei Lon
+mos = Mossi
+mr = Maratí
+mrj = Mari occidental
+ms = Malayo
+mt = Maltés
+my = Birmano
+myv = Erzya
+nan-tw = Taiwanese (Minnan)
+nb-NO = Noruego (Bokmal)
+nd = IsiNdebele (North)
+ne-NP = Nepalí
 
 # [/]
 
