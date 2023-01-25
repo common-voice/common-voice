@@ -1,4 +1,4 @@
-@import url('../media.css');
+@import url('../../media.css');
 
 .header-wrapper {
     border-bottom: 1px solid var(--light-grey);
@@ -151,7 +151,7 @@ header {
                 top: 0;
                 right: -50px;
 
-                & .foo-class {
+                & .menu-list {
                     background: var(--white);
                     box-shadow: 0 2px 5px 0 var(--light-grey);
                 }
