@@ -1516,3 +1516,11 @@ partnerships-foundations-header = Załožby
 partnerships-governments-header = Knježerstwa
 partnerships-academia-header = Uniwersity, akademikarjo a slědźerjo
 partnerships-our-partners = Naši partnerjo
+why-donate = Čehodla so prašeće?
+add-information-button = Informacije přidać
+continue-speaking-button = Ně, dźakuju so, z rěčenjom pokročować
+create-profile-text = Chceće swoje informacije składować? <createProfile>Załožće profil</createProfile>
+already-have-an-account = Maće hižo konto? <login>Přizjewić</login>
+create-profile-button = Profil załožić
+# IMAGE TAGS
+img-alt-success-checkmark = Symbol wuspěcha
