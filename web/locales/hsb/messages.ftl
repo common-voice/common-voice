@@ -744,6 +744,9 @@ more = Wjace
 close = Začinić
 download = Sćahnyć
 dataset-version = Wersija
+sha256-checksum-copied = Pruwowanska suma SHA256 kopěrowana!
+sha256-checksum-copied-error = Kopěrowanje pruwowanskeje sumy SHA256 njeje so poradźiło
+clipboard-not-supported = Mjezyskład so njepodpěruje
 
 ## Download Modal
 
@@ -1505,3 +1508,11 @@ sc-validation-no-abbreviations = Sada njeměła skrótšenki wobsahować
 
 localization-select =
     .label = Rěč/Lokalizaciju wubrać
+# PARTNERSHIPS PAGE
+partnerships-header = Partnerstwa
+partnerships-get-in-touch = Kontakt
+partnerships-become-a-partner = Budźće partner Common Voice
+partnerships-foundations-header = Załožby
+partnerships-governments-header = Knježerstwa
+partnerships-academia-header = Uniwersity, akademikarjo a slědźerjo
+partnerships-our-partners = Naši partnerjo
