@@ -37,7 +37,37 @@ bs = Bosnian
 bxr = Buriato
 byv = Medumba
 ca = Catalán
+cak = Kaqchikel
+ckb = Kurdo central
+cnh = Hakha Chin
+co = Corso
+cs = Checo
+cv = Chuvasio
+cy = Galés
+da = Danés
+dag = Dagbani
+de = Alemán
+dsb = Bajo sorabo
+dv = Maldivo
+dyu = Dioula
+el = Griego
+en = Inglés
 eo = Esperanto
+es = Español
+et = Estonio
+eu = euskera
+fa = persa
+ff = Fula
+fi = Finlandés
+fo = Feroés
+fr = Francés
+fy-NL = Frisón
+ga-IE = Irlandés
+gl = Gallego
+gn = Guaraní
+gom = Goan Konkani
+ha = Hausa
+he = Hebreo
 
 # [/]
 
