@@ -15,6 +15,28 @@ error-clip-upload-server = y yehyeculis nicancah clip ayamo cualtia ichin servid
 
 ## Languages
 
+ab = Abjasio
+ace = achenés
+ady = Adigué
+af = Africano
+am = Amárico
+an = Aragonés
+ar = Árabe
+arn = Mapuche
+as = Asamés
+ast = Asturiano
+az = Azerí
+ba = Bashkir
+bas = Basaa
+be = Bieloruso
+bg = búlgaro
+bm = Bambara
+bn = Bengalí
+br = Bretón
+bs = Bosnian
+bxr = Buriato
+byv = Medumba
+ca = Catalán
 eo = Esperanto
 
 # [/]
