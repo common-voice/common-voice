@@ -323,6 +323,7 @@ demo-welcome = ⴱⵔⵔⴽⴰⵜ ⴳ ⴽⴰⵎⵏ ⴼⵓⵢⵙ
 
 ## HEADER/FOOTER
 
+sc-header-home = ⴰⵙⵏⵓⴱⴳ
 sc-footer-privacy = ⵜⵉⵏⵏⵓⵜⵍⴰ
 
 ## HOME
@@ -361,6 +362,11 @@ sc-add-lang-sec-button = ⵔⵏⵓ ⵜⵓⵜⵍⴰⵢⵜ
 
 ## PROFILE
 
+# Variables:
+#   $username (String) - eMail address of the logged in user
+sc-profile-title = ⵉⴼⵔⵙ: { $username }
+sc-personal-err-lang-not-found = ⵓⵔ ⵏⵣⵎⵉⵔ ⴰⴷ ⵏⵙⵉⵜⵜⵢ ⵜⵓⵜⵍⴰⵢⵜ: ⵓⵔ ⵜⴻⵜⵜⵢⴰⴼⴰ ⵜⵓⵜⵍⴰⵢⵜ
+sc-personal-err-remove = ⵓⵔ ⵏⵣⵎⵉⵔ ⴰⴷ ⵏⵙⵉⵜⵜⵢ ⵜⵓⵜⵍⴰⵢⵜ
 sc-personal-your-languages = ⵜⵓⵜⵍⴰⵢⵉⵏ ⵏⵏⵓⵏ:
 sc-personal-remove-button = ⵙⵉⵜⵜⵢ
 
@@ -376,6 +382,7 @@ sc-review-form-button-reject-shortcut = ⵓ
 
 ## SETTINGS
 
+sc-settings-ui-language = ⵜⵓⵜⵍⴰⵢⵜ ⵏ ⵓⴳⵔⵓⴷⵎ
 
 # [/SentenceCollector]
 
