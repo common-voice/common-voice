@@ -68,6 +68,36 @@ gn = Guaraní
 gom = Goan Konkani
 ha = Hausa
 he = Hebreo
+hi = Hindi
+hil = Hiligaynon
+hr = Croata
+hsb = Alto sorabo
+ht = Haitiano
+hu = Húngaro
+hy-AM = Armenio
+hyw = Armenio (occidental)
+ia = Interlingua
+id = Indonesio
+ie = Interlingue
+ig = Igbo
+is = Islandés
+it = Italiano
+izh = Izhoriano
+ja = Japonés
+jbo = Lojban
+ka = Georgiano
+kaa = Karakalpak
+kab = Cabillo
+kbd = Cabardiano
+ki = Kikuyu
+kk = Kazajo
+km = Khmer
+kmr = Kurdo kurmanji
+kn = Kannada
+knn = Konkani (Devanagari)
+ko = Coreano
+kpv = Komi-Zyrian
+kw = Córnico
 
 # [/]
 
