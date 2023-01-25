@@ -98,6 +98,16 @@ knn = Konkani (Devanagari)
 ko = Coreano
 kpv = Komi-Zyrian
 kw = Córnico
+ky = Kirguís
+lb = Luxembourgish
+lg = Luganda
+lij = Ligur
+ln = Lingala
+lo = Lao
+lt = Lituano
+lv = Letón
+mai = Maithili
+mdf = moksha
 
 # [/]
 
