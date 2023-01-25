@@ -499,6 +499,7 @@ about-nav-how-it-works-2 = Korleis fungerer Common Voice?
 
 ## How to grow language
 
+about-playbook-how-grow-language-content-4 = Sosiale medium
 about-playbook-how-grow-language-content-8 = <strong>Ver kreativ!</strong> Ditt språkfellesskapet vil vere unikt, og dette er berre nokre få måtar å kome i gang på.
 
 ## How to validate
@@ -567,6 +568,7 @@ review-delete-recordings = Slett opptaka mine
 
 ## Datasets Page
 
+datasets-heading = Datasett
 datasets-headline = Vi lagar fleirspråkleg taleinnspeling med open kjeldekode som alle kan bruke for å trene applikasjonar med talegjenkjenning.
 datasets-positioning =
     Vi trur at store, offentleg tilgjengelege stemmedamengda vil fremje innovasjon og sunn kommersiell konkurranse innan maskinlæringsbasert taleteknologi.
@@ -575,6 +577,7 @@ datasets-positioning =
     
     Sjå på denne sida som eit referansemidtpunkt for andre datasett med open kjeldekode, og etterkvart som Common Voice fortset å vekse, ein heim for oppdateringane våre.
 language = Språk
+download-dataset-header = Last ned datasettet
 # File size in gigabytes
 size = Storleik
 validated-hr-total = Totalt validerte timar
@@ -652,6 +655,7 @@ other-language = Anna språk
 
 ## Request Language Pages
 
+request-language-heading = Spør om eit nytt språk
 
 ## Languages Overview
 
@@ -668,6 +672,7 @@ language-search-input =
 language-speakers = Talt av
 localized = Omsett
 sentences = Setningar
+language-validation-hours = Timar
 
 ## Contribution
 
@@ -999,8 +1004,10 @@ see-less = <chevron></chevron>Vis mindre
 ## HEADER/FOOTER
 
 sc-header-home = Heim
+sc-header-how-to = Slik gjer du det
 sc-header-add = Legg til
 sc-header-review = Vurdering
+sc-header-rejected = Avviste setningar
 sc-header-my = MIne setningar
 sc-header-statistics = Statistikk
 sc-header-profile = Profil
@@ -1013,6 +1020,8 @@ sc-logout-button = Logg ut
 
 ## HOME
 
+sc-home-collect-title = Saml inn setningar
+sc-home-review-title = Vurder setningane
 
 ## GENERAL
 
@@ -1020,6 +1029,7 @@ sc-logout-button = Logg ut
 ## HOW-TO
 
 sc-howto-addsen-title = Legg til nye setningar
+sc-howto-review-title = Vurder setningar
 
 ## MY SENTENCES
 
@@ -1107,3 +1117,6 @@ sc-settings-title = Innstillingar
 
 # [/SentenceCollector]
 
+partnerships-get-in-touch = Kontakt oss
+add-information-button = Legg til informasjon
+create-profile-button = Opprett ein profil
