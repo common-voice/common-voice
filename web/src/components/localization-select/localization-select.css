@@ -19,10 +19,6 @@
         }
     }
 
-    &.with-down-arrow::after {
-        top: 0;
-    }
-
     & select,
     & .button {
         border: 1.6px solid #e6e4e1;
