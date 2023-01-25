@@ -3,9 +3,8 @@ import classNames from 'classnames';
 import { Localized } from '@fluent/react';
 
 import { TextButton } from '../../ui/ui';
-import { ChevronDown, ListenIcon, MicIcon } from '../../ui/icons';
-import { LocaleLink } from '../../locale-helpers';
-import URLS from '../../../urls';
+import { ChevronDown } from '../../ui/icons';
+import { ContributeMenuContent } from './contribute-menu-content';
 
 type ContributeMenuProps = {
   showMenu: boolean;
@@ -45,49 +44,13 @@ export const ContributeMenu: React.FC<ContributeMenuProps> = ({
         <div
           className="nav-menu-wrapper-mobile"
           data-testid="contribute-mobile-menu">
-          <div>
-            <Localized id="contribute-nav-header-item-1">
-              <p className="nav-header-item" />
-            </Localized>
-            <ul>
-              <li>
-                <MicIcon />
-                <LocaleLink to={URLS.SPEAK} className="contribute-link">
-                  <Localized id="speak" />
-                </LocaleLink>
-              </li>
-              <li>
-                <ListenIcon />
-                <LocaleLink to={URLS.LISTEN} className="contribute-link">
-                  <Localized id="listen" />
-                </LocaleLink>
-              </li>
-            </ul>
-          </div>
+          <ContributeMenuContent />
         </div>
       )}
       <div className="nav-menu-wrapper" data-testid="nav-menu-wrapper">
         <div className="menu">
           <span className="blue-border" />
-          <div className="menu-list">
-            <Localized id="contribute-nav-header-item-1">
-              <p className="nav-header-item" />
-            </Localized>
-            <ul>
-              <li>
-                <MicIcon />
-                <LocaleLink to={URLS.SPEAK}>
-                  <Localized id="speak" />
-                </LocaleLink>
-              </li>
-              <li>
-                <ListenIcon />
-                <LocaleLink to={URLS.LISTEN}>
-                  <Localized id="listen" />
-                </LocaleLink>
-              </li>
-            </ul>
-          </div>
+          <ContributeMenuContent className="menu-list" />
         </div>
       </div>
     </div>

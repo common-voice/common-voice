@@ -5,7 +5,7 @@ import { ContributeMenu } from './contribute-menu';
 import { renderWithProviders } from '../../../../test/render-with-providers';
 
 describe('Contribute Menu Test', () => {
-  it('renders Contribute Menu', () => {
+  it('renders Contribute Menu', async () => {
     renderWithProviders(
       <ContributeMenu
         showMenu={false}
@@ -16,6 +16,8 @@ describe('Contribute Menu Test', () => {
     );
 
     expect(screen.queryByTestId('contribute-menu')).toBeTruthy();
+    expect(await screen.findByText('Speak')).toBeTruthy();
+    expect(await screen.findByText('Listen')).toBeTruthy();
   });
 
   it('shows the menu on hover', () => {
