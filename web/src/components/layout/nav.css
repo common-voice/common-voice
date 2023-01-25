@@ -126,7 +126,21 @@ header {
             display: flex;
             align-items: center;
 
-            & .nav-menu-wrap {
+            @media (--md-down) {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            & .contribute-link-wrapper {
+                display: flex;
+                align-items: center;
+
+                @media (--md-down) {
+                    display: none;
+                }
+            }
+
+            & .nav-menu-wrapper {
                 position: relative;
             }
 
@@ -134,20 +148,23 @@ header {
                 display: none;
                 flex-direction: column;
                 position: absolute;
-                right: -50px;
                 top: 0;
+                right: -50px;
+
+                & .foo-class {
+                    background: var(--white);
+                    box-shadow: 0 2px 5px 0 var(--light-grey);
+                }
 
                 & .blue-border {
-                    display: inline-block;
-                    padding-top: 35px;
                     border-bottom: 4px solid var(--blue);
-                    margin-left: 50px;
-                    margin-right: 50px;
+                    display: inline-block;
+                    margin-inline-end: 50px;
+                    margin-inline-start: 50px;
+                    padding-top: 30px;
                 }
 
                 & ul {
-                    background: var(--white);
-                    box-shadow: 0 2px 5px 0 var(--light-grey);
                     list-style: none;
                     margin: 0;
                     width: 200px;
@@ -167,16 +184,6 @@ header {
 
                     & li:last-child {
                         margin-bottom: 0;
-                    }
-
-                    & p {
-                        text-transform: uppercase;
-                        font-family: var(--base-font-family);
-                        font-size: var(--font-size-xs);
-                        font-weight: 600;
-                        color: var(--warm-grey);
-                        text-align: center;
-                        margin-bottom: 20px;
                     }
                 }
 
@@ -204,8 +211,54 @@ header {
                 }
             }
 
+            & .nav-header-item {
+                text-transform: uppercase;
+                font-family: var(--base-font-family);
+                font-size: var(--font-size-xs);
+                font-weight: 600;
+                color: var(--warm-grey);
+                margin-top: 20px;
+                @media (--lg-up) {
+                    text-align: center;
+                }
+            }
+
             & .rotate-180 {
                 transform: rotate(180deg);
+            }
+
+            & .nav-menu-wrapper-mobile {
+                @media (--lg-up) {
+                    display: none;
+                }
+
+                & ul {
+                    list-style: none;
+                    margin: 0;
+
+                    & li {
+                        display: flex;
+                        align-items: center;
+
+                        & svg {
+                            width: 16px;
+                            height: 16px;
+                        }
+                    }
+
+                    & li:last-child {
+                        margin-bottom: 0;
+                    }
+                }
+            }
+
+            & .contribute-btn-wrapper {
+                display: flex;
+                align-items: center;
+
+                @media (--lg-up) {
+                    display: none;
+                }
             }
         }
     }
@@ -275,6 +328,13 @@ header {
         font-family: var(--strong-font-family);
         font-size: var(--font-size-lg);
 
+        .contribute-link {
+            margin-left: 8px;
+            padding: 20px 0;
+            font-family: var(--base-font-family);
+            font-size: var(--font-size);
+        }
+
         @media (--sm-up) {
             padding: 30px 0;
         }
@@ -326,6 +386,12 @@ header {
     }
 
     & .nav-link-item {
+        margin-right: 8px;
+    }
+
+    & .contribute-btn {
+        font-size: var(--font-size-lg);
+        font-family: var(--strong-font-family);
         margin-right: 8px;
     }
 }
