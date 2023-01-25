@@ -268,6 +268,7 @@ languages-show-more = ⵥⵕ ⵓⴳⴳⴰⵔ
 languages-show-less = ⵥⵕ ⴷⵔⵓⵙ
 language-search-input =
     .placeholder = ⵔⵣⵓ
+sentences = ⵜⵉⵡⵉⵏⴰⵙ
 language-validation-hours = ⵜⵉⵙⵔⴰⴳⵉⵏ
 
 ## Contribution
@@ -293,6 +294,7 @@ remove = ⵙⵉⵜⵜⵢ
 
 ## Profile Download
 
+download-request-metadata-link = ⴰⴹⵕⵉⵚⵏ ⵜⵡⵉⵏⵙⵜ
 
 ## Landing
 
@@ -324,6 +326,8 @@ demo-welcome = ⴱⵔⵔⴽⴰⵜ ⴳ ⴽⴰⵎⵏ ⴼⵓⵢⵙ
 ## HEADER/FOOTER
 
 sc-header-home = ⴰⵙⵏⵓⴱⴳ
+sc-header-rejected = ⵜⵉⵡⵉⵏⴰⵙ ⵜⵜⵢⴰⴳⴰⵢⵏⵉⵏ
+sc-header-my = ⵜⵉⵡⵉⵏⴰⵙ ⵉⵏⵓ
 sc-footer-privacy = ⵜⵉⵏⵏⵓⵜⵍⴰ
 
 ## HOME
@@ -334,18 +338,24 @@ sc-footer-privacy = ⵜⵉⵏⵏⵓⵜⵍⴰ
 
 ## HOW-TO
 
+sc-howto-addsen-title = ⵔⵏⵓ ⵜⵉⵡⵉⵏⴰⵙ ⵜⵉⵎⴰⵢⵏⵓⵜⵉⵏ
 
 ## MY SENTENCES
 
+sc-my-title = ⵜⵉⵡⵉⵏⴰⵙ ⵉⵏⵓ
+sc-my-loading = ⴰⵣⴷⴰⵎ ⵏ ⵜⵡⵉⵏⴰⵙ ⵏⵏⵓⵏ…
 
 ## REJECTED
 
+sc-rejected-title = ⵜⵉⵡⵉⵏⴰⵙ ⵜⵜⵢⴰⴳⴰⵢⵏⵉⵏ
+sc-rejected-loading = ⴰⵣⴷⴰⵎ ⵏ ⵜⵡⵉⵏⴰⵙ ⵜⵜⵢⴰⴳⴰⵢⵏⵉⵏ…
 
 ## STATS
 
 
 ## ADD
 
+sc-submit-title = ⵔⵏⵓ ⵜⵉⵡⵉⵏⴰⵙ
 
 ## ADD LANGUAGE
 
@@ -353,9 +363,20 @@ sc-add-lang-sec-button = ⵔⵏⵓ ⵜⵓⵜⵍⴰⵢⵜ
 
 ## ADD SENTENCES CONFIRMATION
 
+# Variables:
+#   $countOfInvalidated (Number) - Number of sentences the user rejected in the review form before submission
+sc-confirm-rejected-by-you = { $countOfInvalidated } ⵜⵜⵢⴰⴳⴰⵢⵏⵉⵏ ⵙⴳ ⵖⵓⵔⵓⵏ
 
 ## LANGUAGE INFO
 
+# Variables:
+#   $rejectedSentences (Number) - Number of sentences which have been rejected for this language
+sc-lang-info-rejected =
+    { $rejectedSentences ->
+        [0] ⵡⴰⵍⵓ ⵜⵉⵡⵉⵏⴰⵙ ⵜⵜⵢⴰⴳⴰⵢⵏⵉⵏ.
+        [one] 1 ⵜⵡⵉⵏⵙⵜ ⵉⵜⵜⵢⴰⴳⴰⵢⵏ.
+       *[other] { $rejectedSentences } ⵜⵡⵉⵏⴰⵙ ⵜⵜⵢⴰⴳⴰⵢⵏⵉⵏ.
+    }
 
 ## LOGIN
 
@@ -375,6 +396,8 @@ sc-personal-remove-button = ⵙⵉⵜⵜⵢ
 
 ## REVIEW
 
+sc-review-loading = ⴰⵣⴷⴰⵎ ⵏ ⵜⵡⵉⵏⴰⵙ…
+sc-review-form-button-reject = ⴰⴳⵢ
 # Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
 sc-review-form-button-approve-shortcut = ⵢ
 # Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
