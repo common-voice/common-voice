@@ -1205,3 +1205,7 @@ partnerships-header-text = muniqui miac para que Common Voice mu chihua! amo sec
 partnerships-get-in-touch = xitech nuhnutza
 partnerships-become-a-partner = xumupatla quemeh tu socio de Common Voice
 partnerships-governments-header = tiachcamasehual
+partnerships-small-business-header = tzucutzitzin empresas, nuyuhqui yancuiquen empresas de tipostl ixmatilis
+# FIRST POST SUBMISSION CTA
+first-cta-header-text = tlasohcamatictzin utitech tlauculeh mu tlahtolahcuc
+first-cta-subtitle-text = utic niquisquiaya tic temactis cachi tlanahuatil de quenin ti tlahtuhua?
