@@ -273,6 +273,7 @@ language-validation-hours = ⵜⵉⵙⵔⴰⴳⵉⵏ
 
 ## Contribution
 
+contribute = ⴰⵔⴳ
 share-common-voice = ⴱⴹⵓ ⴽⴰⵎⵏ ⴼⵓⵢⵙ
 
 ## Reporting
