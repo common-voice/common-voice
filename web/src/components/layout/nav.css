@@ -83,6 +83,7 @@ header {
     & .login {
         margin: 0 20px;
         min-width: max-content;
+        text-transform: uppercase;
 
         @media (--md-down) {
             display: none;
