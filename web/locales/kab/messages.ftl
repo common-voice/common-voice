@@ -574,6 +574,7 @@ about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollec
 about-playbook-how-localize = Amek i tetteddu tsuqqilt n usmel?
 about-playbook-how-localize-content-1 = Tasuqqilt n usmel Common Voice tḍerru deg <strong>Pontoon</strong>.
 about-playbook-how-localize-content-2 = <pontoonAccountLink> Rnu amiḍan </pontoonAccountLink> ma ur tesɛiḍ ara. Syin, gren tutlayt-ik•im <strong>(' Tarbaɛt')</strong> syin gren asenfar, <pontoonCvLink> Common Voice</pontoonCvLink>. Ad ilin yifuyla i usuɣel. Sit ɣef yiwen, syin ad d-banen wawalen s teglizit d texxamt i usuɣl-nsen.
+about-playbook-how-localize-content-3 = Tasuqqilt seg tegnizit i tella, maca tzemreḍ ad teẓreḍ <strong>Isumar</strong> s tutlayin-nniḍen. Sit ɣef <strong> tignit Amaɣnu</strong>, syin <strong> useɣwen n Iɣewwaṛen </strong> ternuḍ tutlayin i tettmeslayeḍ. Deg teɣmert n ukessar, tama tayeffust ad tafeḍ tabdart n tsuqqilin isem-is <strong>Tutlayin</strong>. Tisuqqilin ad d-banent deg usmel seld yiwen n wass.
 about-playbook-how-localize-content-4 = Asmel ihegga akken ad yekker ticki yewweḍ ɣer 75%.
 about-playbook-how-localize-content-5 = Wali tavidyut-nneɣ n usegzi ara k-iɛiwnen
 
