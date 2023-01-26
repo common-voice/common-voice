@@ -1195,6 +1195,9 @@ sc-settings-failed = amo uhuilic u mu patlac. xic yehyeco ocsipa
 sc-validation-number-of-words = tlahcuilol huilis qui pias 1 huan 14 tlahtol
 sc-validation-no-numbers = tlahcuilol amo huilis qui pixtos puhual
 sc-validation-no-symbols = tlahcuilol a mo huilis qui pias simbolos
+sc-validation-no-abbreviations = tlahcuilol amo huilis qui pias abreviaturas
 
 # [/SentenceCollector]
 
+localization-select =
+    .label = xicnexti masehualtlahtol/ caninmahsitok
