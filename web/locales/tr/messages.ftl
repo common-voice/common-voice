@@ -18,6 +18,8 @@ banner-error-slow-1 = Maalesef Common Voice yavaş çalışıyor. İlginiz için
 banner-error-slow-2 = Çok fazla trafik alıyoruz ve şu anda sorunları araştırıyoruz.
 banner-error-slow-link = Durum Sayfası
 error-something-went-wrong = Üzgünüz, bir şeyler ters gitti
+error-clip-upload = Bu kaydın yüklenmesi sürekli başarısız oluyor. Yeniden denensin mi?
+error-clip-upload-server = Bu kaydın yüklenmesi sırasında sunucu sürekli hata bildiriyor. Sayfayı tazeleyin veya daha sonra tekrar deneyin.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -769,6 +771,7 @@ more = Daha fazla
 close = Kapat
 download = İndir
 dataset-version = Sürüm
+sha256-checksum-copied = SHA256 sağlama toplamı kopyalandı.
 clipboard-not-supported = Pano desteklenmiyor
 
 ## Download Modal
