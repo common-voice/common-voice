@@ -126,6 +126,10 @@ header {
             display: flex;
             align-items: center;
 
+            & svg {
+                transition: transform var(--easing) var(--transition-duration);
+            }
+
             @media (--md-down) {
                 flex-direction: column;
                 align-items: flex-start;
