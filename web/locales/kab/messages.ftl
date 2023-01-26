@@ -566,13 +566,14 @@ about-playbook-how-add-language-translating-heading = Asuqqel n usmel
 about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Wali Amnir-nneɣ ɣef wamek ara tesqedceḍ Ponroon. </translateVideoLink>
 about-playbook-how-add-language-collecting-sentences-heading = Alqaḍ n tefyar
 about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>Wali Amnir-nneɣ ɣef wamek ara tesqedceḍ Sentencd Collector </sentenceCollectorVideo>
-about-playbook-how-add-language-collecting-sentences-content-2 = Tzemreḍ <sentenceCollectorLinkAdd> ad ternuḍ imḍanen meẓẓiyen n tefyar </sentenceCollectorLinkAdd>,
+about-playbook-how-add-language-collecting-sentences-content-2 = Tzemreḍ <sentenceCollectorLinkAdd> ad ternuḍ imḍanen meẓẓiyen n tefyar </sentenceCollectorLinkAdd>, neɣ tzemreḍ ad tafeḍ <bulkImportDocsLink>ikayaden seg Github </bulkImportDocsLink>. Cfu dakken tifyar ilaq ad ilint <licenseLink>CC0 (neɣ taɣunt tazayezt)</licenseLink>, neɣ tzemreḍ ad d-taruḍ ayla-k•m.
 about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>Issin ugar ɣef ulqaḍ n tefyar</sentenceCollectorFragment>
 
 ## How does localization work
 
 about-playbook-how-localize = Amek i tetteddu tsuqqilt n usmel?
 about-playbook-how-localize-content-1 = Tasuqqilt n usmel Common Voice tḍerru deg <strong>Pontoon</strong>.
+about-playbook-how-localize-content-2 = <pontoonAccountLink> Rnu amiḍan </pontoonAccountLink> ma ur tesɛiḍ ara. Syin, gren tutlayt-ik•im <strong>(' Tarbaɛt')</strong> syin gren asenfar, <pontoonCvLink> Common Voice</pontoonCvLink>. Ad ilin yifuyla i usuɣel. Sit ɣef yiwen, syin ad d-banen wawalen s teglizit d texxamt i usuɣl-nsen.
 about-playbook-how-localize-content-4 = Asmel ihegga akken ad yekker ticki yewweḍ ɣer 75%.
 about-playbook-how-localize-content-5 = Wali tavidyut-nneɣ n usegzi ara k-iɛiwnen
 
