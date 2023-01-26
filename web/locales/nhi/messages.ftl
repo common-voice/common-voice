@@ -1172,6 +1172,12 @@ sc-review-form-usage = xic panulti mu mahpil ichin mu yecmah para tic silis tlah
 sc-review-form-button-reject = amo tic silis
 sc-review-form-button-skip = ahcotzicuini
 sc-review-form-button-approve = ticsilis
+# Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
+sc-review-form-button-approve-shortcut = y
+# Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
+sc-review-form-button-reject-shortcut = n
+# Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
+sc-review-form-button-skip-shortcut = s
 # Variables:
 #   $sentences (Number) - Number of sentences the user has reviewed in this session
 sc-review-form-reviewed-message =
