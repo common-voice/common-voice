@@ -1201,3 +1201,6 @@ sc-validation-no-abbreviations = tlahcuilol amo huilis qui pias abreviaturas
 
 localization-select =
     .label = xicnexti masehualtlahtol/ caninmahsitok
+partnerships-header-text = muniqui miac para que Common Voice mu chihua! amo sec chihua tuhsel. ¿ticniqui timunilos tihuan? tech pactisquia ti matisqueh de tehuatzin
+partnerships-get-in-touch = xitech nuhnutza
+partnerships-become-a-partner = xumupatla quemeh tu socio de Common Voice
