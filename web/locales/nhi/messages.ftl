@@ -1209,3 +1209,8 @@ partnerships-small-business-header = tzucutzitzin empresas, nuyuhqui yancuiquen 
 # FIRST POST SUBMISSION CTA
 first-cta-header-text = tlasohcamatictzin utitech tlauculeh mu tlahtolahcuc
 first-cta-subtitle-text = utic niquisquiaya tic temactis cachi tlanahuatil de quenin ti tlahtuhua?
+why-donate = queyen tic tlahtlani?
+add-information-button = xictlali tlanahuatil
+continue-speaking-button = amo, tlasohcamatictsin, oc ximu nuhnutzto
+create-profile-text = ¿tin niqui ticahcucuis tlanahuatil?<createProfile> xicchihua se nexicah</createProfile>
+thanks-for-voice-toast = tlasohcamatictzin ica mu tlanahuatil tlahtol
