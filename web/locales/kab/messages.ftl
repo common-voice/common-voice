@@ -398,6 +398,7 @@ why-demographic = Ayɣer aya isεa azal?
 why-demographic-explanation-2 = Talɣut tusligt am laεmer, tuzuft, akked tmeslayt ad aɣ-d-mudden afus akken senqed isefka n umesli deg imesdayen n uεqal aɣectan. Isem-ik n useqdac akked imayl-inek werǧin ad ddun akked isefka ad ittwaznen, tzemreḍ daɣen ad terreḍ isem-inek n useqdec d aziraz neɣ d uslig.
 accept-privacy = Qebleɣ akken ad tesqedcem talɣut inu am akken yella deg <privacyLink>tsertit n tbaḍnit</privacyLink> n Mozilla.
 accept-privacy-title = Tasertit n tbaḍnit
+accept-privacy-and-terms = Qebleɣ <termsLink>Tiwtilin</termsLink> d <privacyLink> Tasertit n tbaḍnit </privacyLink> n Common Voice
 login-identity = Tinekkit n tuqna
 login-signup = Kcem / Jerred
 edit = Ẓreg
@@ -562,7 +563,10 @@ about-playbook-what-is-language-content-3 = Kra n tutlayin ur-sent ddeqs n ubedd
 about-playbook-how-add-language = Amek ara rnuɣ tutlayt?
 about-playbook-how-add-language-content-1 = Deg tazwara, wali tutlayt-ik ma <languageLink>tella yakan</languageLink>. Ma ulac-itt, ilaq <strong>ad tseqleḍ asmel daɣen ad tleqḍeḍ tifyar</strong>.
 about-playbook-how-add-language-translating-heading = Asuqqel n usmel
+about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Wali Amnir-nneɣ ɣef wamek ara tesqedceḍ Ponroon. </translateVideoLink>
 about-playbook-how-add-language-collecting-sentences-heading = Alqaḍ n tefyar
+about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>Wali Amnir-nneɣ ɣef wamek ara tesqedceḍ Sentencd Collector </sentenceCollectorVideo>
+about-playbook-how-add-language-collecting-sentences-content-2 = Tzemreḍ <sentenceCollectorLinkAdd> ad ternuḍ imḍanen meẓẓiyen n tefyar </sentenceCollectorLinkAdd>,
 about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>Issin ugar ɣef ulqaḍ n tefyar</sentenceCollectorFragment>
 
 ## How does localization work
