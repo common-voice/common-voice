@@ -591,6 +591,7 @@ about-playbook-how-localize-content-5 = Wali tavidyut-nneɣ n usegzi ara k-iɛiw
 ## How to add sentences
 
 about-playbook-how-add-sentences = Amek ara rnuɣ tifyar?
+about-playbook-how-add-sentences-content-1 = <strong>Sentencd Collector</strong> d afecku n ugar d usebter n tefyar n taɣult tazayezt. Ilaq <scAccountLink> ad ternuḍ amiḍan</scAccountLink>. Syin, rnu tutlayt-ik•im ɣer <strong> Amaɣnu-inek•inem</strong>. Tzemreḍ<strong>ad ternuḍ</strong> tifyar neɣ <strong> ad tesneqdeḍ</strong> tifyar yettwasnen yakan.
 about-playbook-how-add-sentences-content-3 = Tzemreḍ ad tesqedceḍ <scraperLink>amakkas n tefyar</scraperLink> akken ad tleqḍeḍ tifyar meẓẓiyen seg Wikipédia.
 about-playbook-how-add-sentences-content-4 = Tifyaryettwaqeblen ad d-ffɣent yal larbɛa daɣen ad ilint wejdent i llqem i d-iteddun.
 
