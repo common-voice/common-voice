@@ -578,6 +578,22 @@ export const MicIcon = uniqueIcon(id => (
   </svg>
 ));
 
+export const ListenIcon = () => (
+  <svg
+    width="16"
+    height="17"
+    viewBox="0 0 16 17"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg">
+    <path
+      fillRule="evenodd"
+      clipRule="evenodd"
+      d="M3.68054 2.3925C3.89459 2.27564 4.15537 2.28498 4.36051 2.41686L13.6938 8.41686C13.8847 8.53952 14 8.7508 14 8.97764C14 9.20448 13.8847 9.41576 13.6938 9.53843L4.36051 15.5384C4.15537 15.6703 3.89459 15.6796 3.68054 15.5628C3.46649 15.4459 3.33333 15.2215 3.33333 14.9776V2.97764C3.33333 2.73377 3.46649 2.50936 3.68054 2.3925ZM4.66667 4.19875V13.7565L12.1005 8.97764L4.66667 4.19875Z"
+      fill="#59CBB7"
+    />
+  </svg>
+);
+
 export const OldPlayIcon = (props: any) => (
   <svg viewBox="0 0 13 15" {...props}>
     <g stroke="none" strokeWidth="1" fill="none" fillRule="evenodd">
