@@ -54,8 +54,12 @@
         }
 
         & svg {
-            margin: 0 11px;
+            margin: 0 11px 0 0;
             transition: transform var(--easing) var(--transition-duration);
+        }
+
+        .rotate-180 {
+            transform: rotate(180deg);
         }
     }
 
@@ -72,13 +76,9 @@
         display: none;
 
         & .triangle {
-            border-left: 8px solid transparent;
-            border-right: 8px solid transparent;
-            border-bottom: 10px solid var(--white);
-            margin-inline-start: auto;
-            margin-inline-end: 10px;
             padding-top: 15px;
             display: inline-block;
+            border-bottom: 4px solid var(--blue);
         }
 
         & ul {
@@ -118,6 +118,14 @@
     &.active {
         & .menu {
             display: flex;
+        }
+
+        & svg {
+            fill: var(--blue);
+        }
+
+        & .name {
+            color: var(--blue);
         }
     }
 }
