@@ -563,6 +563,7 @@ about-nav-playbook = Issin amek ara tekkiḍ
 
 about-playbook-what-is-language = D acu i d tutlayt deg Common Voice?
 about-playbook-what-is-language-content-1 = Ddeqs n yiberdan i yellan akken ad nxemmem ɣef tutlayin. I lmendad n tneɣrufin n uɛqal n taɣect, Common Voice yessumur aserked  n tmuɣli ɣef 'umɛiwen', neɣ 'ma zemren yimeɣriyen n tutlayt-a ad msefhamen gar-asen ma yella ɛerḍen'?
+about-playbook-what-is-language-content-2 = Nebɣa ad gerrzent tmudmin n umeslay deg tegzi gar yigrawen yemgaraden n yimutlayen. Akken ad d-yeḍru waya, isefra imeslawen yessefk ad d-snekden aṭas n yimdanen yemgaraden.
 about-playbook-what-is-language-content-3 = Kra n tutlayin ur-sent ddeqs n ubeddel deg tjerrumt, amawal akked usuru. ɣef waya <ctaLink>nsekcem-d ‘titanliyin’</ctaLink> deg 2022. Aya ad imudd i trebbaɛ abrid akken ad nsemgired tutlayin-nsen deg tegrumma meqqren.
 
 ## How do I add a language
@@ -571,6 +572,7 @@ about-playbook-how-add-language = Amek ara rnuɣ tutlayt?
 about-playbook-how-add-language-content-1 = Deg tazwara, wali tutlayt-ik ma <languageLink>tella yakan</languageLink>. Ma ulac-itt, ilaq <strong>ad tseqleḍ asmel daɣen ad tleqḍeḍ tifyar</strong>.
 about-playbook-how-add-language-translating-heading = Asuqqel n usmel
 about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Wali Amnir-nneɣ ɣef wamek ara tesqedceḍ Ponroon. </translateVideoLink>
+about-playbook-how-add-language-translating-content-2 = Nesseqdac afecku n Mozilla iwumi neqqar <pontoonLink>Pontoon</pontoonLink> i tsuqqilin. Pontoon deg-s aṭas n tutlayin, ¶ maca ma ulac ayla-k•m tzemreḍ<pontoonRequestLink>ad tessutreḍ timerniwt n tutlayt-ik•im<pontoonRequestLink>.¶Syin, akken ad tili tutlayt deg usenfar n Common Voice, ¶<githubRepoLink> ssuter tutlayt tamaynut deg GitHub</githubRepoLink>. <localizationFragment> Ẓer ugar deg tasuqqilt n usmel </localizationFragment>.
 about-playbook-how-add-language-collecting-sentences-heading = Alqaḍ n tefyar
 about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>Wali Amnir-nneɣ ɣef wamek ara tesqedceḍ Sentencd Collector </sentenceCollectorVideo>
 about-playbook-how-add-language-collecting-sentences-content-2 = Tzemreḍ <sentenceCollectorLinkAdd> ad ternuḍ imḍanen meẓẓiyen n tefyar </sentenceCollectorLinkAdd>, neɣ tzemreḍ ad tafeḍ <bulkImportDocsLink>ikayaden seg Github </bulkImportDocsLink>. Cfu dakken tifyar ilaq ad ilint <licenseLink>CC0 (neɣ taɣunt tazayezt)</licenseLink>, neɣ tzemreḍ ad d-taruḍ ayla-k•m.
