@@ -161,6 +161,7 @@ sah = Tasaxit
 sat = Santali (Ol Chiki)
 sc = Tasardinit
 scn = Tasisiliyant
+sdh = Takurdit n unẓul
 shi = Tacelḥit
 si = Tasinhalit
 sk = Tasluvakt
