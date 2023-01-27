@@ -22,7 +22,7 @@ import Footer from './footer';
 import LocalizationSelect from '../localization-select/localization-select';
 import LocalizationSelectComplex from '../localization-select/localization-select-complex';
 import Logo from './logo';
-import Nav from './nav';
+import Nav from './nav/nav';
 import UserMenu from './user-menu';
 import cx from 'classnames';
 import WelcomeModal from '../welcome-modal/welcome-modal';
