@@ -19,10 +19,6 @@
         }
     }
 
-    &.with-down-arrow::after {
-        top: 0;
-    }
-
     & select,
     & .button {
         border: 1.6px solid #e6e4e1;
@@ -42,7 +38,6 @@
         display: flex;
         align-items: center;
         justify-content: left;
-        padding: 0.8px 40px;
         height: var(--input-height);
 
         min-width: auto;
@@ -53,31 +48,16 @@
         height: 100%;
         filter: drop-shadow(0 0 3px rgba(0, 0, 0, 0.15));
 
-        & .triangle {
-            position: absolute;
-            bottom: -10px;
-            right: 13px;
-            border-left: 8px solid transparent;
-            border-right: 8px solid transparent;
-            border-bottom: 10px solid var(--white);
-
-            [dir='rtl'] & {
-                right: auto;
-                left: 13px;
-            }
-        }
-
         & ul {
             position: absolute;
             right: 0;
             list-style: none;
-            margin: 0;
-            padding: 0;
-            margin-top: 10px;
+            padding: 0 16px;
             max-height: 16rem;
             overflow-y: auto;
             background: var(--white);
             color: var(--near-black);
+            width: 210px;
 
             [dir='rtl'] & {
                 right: auto;
@@ -87,11 +67,13 @@
             & li {
                 border-bottom: 1px solid var(--light-grey);
                 padding: 0.85em 1em;
-                font-size: 0.85em;
+                font-size: var(--font-size);
                 text-overflow: ellipsis;
                 overflow-x: hidden;
-                text-transform: uppercase;
+                text-transform: capitalize;
                 cursor: pointer;
+                line-height: 24px;
+                letter-spacing: 0.8px;
 
                 &.selected {
                     font-weight: 600;
