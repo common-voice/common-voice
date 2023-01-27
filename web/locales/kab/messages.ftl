@@ -471,6 +471,7 @@ faq-why-different-speakers-a =
     Tuget n taffiwin n yisefka n taɣect bnant ɣef kra n tdimugrafin, ayen i d-yeglan s kra n usmenyef i  <articleLink> irgazen d tneɣrit talemmast</articleLink>. Isusruyen akked tutlayin ur d-nettban ara  s waṭas d tid n yimdanen yuɣalen yakan deg rrif. Ihi, deg ṭaqa, timacinin ur zmirent ara ad ɛeqlent tuɣac n tlawin.
     Ɣef aya i nebɣa ddeqs n yisusruyen d yimdanen deg taffa-nneɣ n yisefka.
 faq-why-my-lang-q = Acuɣer tutlayt-iw ulac-itt yakan?
+faq-why-my-lang-a = Common Voice d tiɣerɣert yebnan ɣef yiɣbula n lɣaci, tutlayin ttwarnant sɣur yiwiziwen. Nebɣa ad d-ternuḍ tutlzyt-ik•im!           <languageRequestLink> Seqsi ɣef tmernz n tutlayt-ik•im.   </languageRequestLink>
 faq-what-quality-q = D acu-t uswir n tɣara n umeslaw i yelaqen i tukkisin yellan deg taffa n yisefka?
 faq-what-quality-a = Nessaram d akken tagrumma n yisefka Common Voice ad terr udem n tɣara tameslawt ara d-yemmager unagraw n taɣect deg tilawt, ihi nesra ddeqs n ususru yemgaraden. Ɣer tama n terbaɛt yemmalen amgarad wessiɛen n wid yettmeslayen, tagrumma n yisefka s tɣara timeslit yemgaraden ad iselmed amsedday n uɛqal n taɣect amek ara yegzu taɣect deg tudert n yal ass, ama s udiwenni deg ugilal neɣ ṣṣut n tkeṛṛust. Ma yella tukkisin ttwafhament, ihi yelha i tegrumma n yisefka.
 faq-why-10k-hours-q = Acuɣer iswi n 10 000 n yisragen imeslawen?
