@@ -189,7 +189,6 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
               <Nav id="main-nav" />
             </div>
             <div>
-              {this.renderTallies()}
               {user.account ? (
                 <UserMenu />
               ) : isBuildingProfile ? null : (
@@ -260,31 +259,6 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
           </Nav>
         </div>
       </div>
-    );
-  }
-
-  private renderTallies() {
-    const { user } = this.props;
-    return (
-      <LocaleLink
-        className={[
-          'tallies',
-          getTrackClass('fs', 'menubar-cta'),
-          user.account ? getTrackClass('fs', 'logged-in') : '',
-        ].join(' ')}
-        to={user.account ? URLS.DASHBOARD : URLS.SPEAK}>
-        <div className="record-tally">
-          <MicIcon />
-          <div>
-            {user.account ? user.account.clips_count : user.recordTally}
-          </div>
-        </div>
-        <div className="divider" />
-        <div className="validate-tally">
-          <OldPlayIcon />
-          {user.account ? user.account.votes_count : user.validateTally}
-        </div>
-      </LocaleLink>
     );
   }
 }
