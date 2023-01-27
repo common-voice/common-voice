@@ -12,7 +12,7 @@
         background-position-y: center;
         background-size: 17px 16px;
         pointer-events: none;
-        z-index: var(--top-z-index);
+        z-index: var(--middle-z-index);
 
         [dir='rtl'] & {
             background-position-x: calc(100% - 13px);
