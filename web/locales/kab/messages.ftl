@@ -709,6 +709,7 @@ confirm-size = Theggaḍ akken ad tebduḍ asader n <b>{ $size }</b>
 size-gigabyte = GAṬ
 size-megabyte = MAṬ
 confirm-no-identify = <b>Ad tqebleḍ</b> d akken ur tetttaɛreḍeḍ ara ad tafeḍ timagit n wid yettmeslayen deg tagrumma n yisefka Common Voice.
+confirm-join-mailing-list = Bɣiɣ ad rnuh ɣer tebdart n unermes n Common Voice
 download-language = Sader { $language }
 validated-hours = Isragen yettwasnetmen
 recorded-hours = Isragen yettwaskelsen
@@ -1430,4 +1431,6 @@ sc-validation-no-abbreviations = Ur ilaq ara tafyirt ad tegber asiwzel
 
 localization-select =
     .label = Fren tutlayt/tasuqqilt
+partnerships-become-a-partner = Uɣal d amendid n Common Voice
+partnerships-foundations-header = Tisbeddiyin
 partnerships-our-partners = Iwiziwen-nneɣ
