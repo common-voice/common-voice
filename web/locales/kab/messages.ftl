@@ -18,6 +18,8 @@ banner-error-slow-1 = Suref-aɣ, Common Voice iteddu s ttawil. Tanemmirt ɣef lw
 banner-error-slow-2 = Nremmes-d ddeqs n yisefka, dɣa aql-aɣ nettwali ansa i d-kkan wuguren-a.
 banner-error-slow-link = Asebter n waddaden
 error-something-went-wrong = Nesḥassef, yella wayen ur nteddu ara
+error-clip-upload = Tuzna n uklip-a tezga tettecceḍ, ad as-tɛawdeḍ?
+error-clip-upload-server = Tuzna n uklip-a tezga tettecceḍ deg uqeddac. Ales asali n usebter neɣ ɛreḍ tikkelt-nniḍen ticki
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -45,6 +47,7 @@ bn = Tabengalit
 br = Tabrutunt
 bs = Tabusnit
 bxr = Taburyat
+byv = Medumba
 ca = Takatalant
 cak = Kaqčikel
 ckb = Takurdit Talemmast
@@ -54,6 +57,7 @@ cs = Tačikit
 cv = Tačuvacit
 cy = Tagalit
 da = Tadanit
+dag = Dagbani
 de = Talmanit
 dsb = Sorbyan, Tamectuḥt
 dv = Tadhivhit
@@ -184,6 +188,7 @@ tr = Taṭurkit
 tt = Taṭaṭarit
 tw = Tatwit
 ty = Tahesiant
+tyv = Tuvan
 uby = Tubyixt
 udm = Tudmurt
 ug = Tawigurt
@@ -203,6 +208,7 @@ zh-CN = Tacinwat (Cinwa)
 zh-HK = Tacinwat (Hung Kung)
 zh-TW = Tacinwat (Taywan)
 zu = Tazulut
+zza = Zaza
 
 # [/]
 
