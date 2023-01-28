@@ -1203,6 +1203,7 @@ sc-howto-review-criteria-5 = Ma tafyirt ur teddu ara d yisefranen n ufella, sit 
 sc-howto-review-criteria-6 = Ma yella ur tesɛiḍ ara tifyar ara tesneqdeḍ, efk-aɣ-d afus ad d-nelqeḍ ugar n tefyar!
 sc-howto-findpd-title = Tifin n tefyar yellan deg taqult tazayazt
 sc-howto-findpd-subtitle = Nadi-ten deg Internet
+sc-howto-findpd-text-2 = Cfu dakken nesra tasiregt akken ad d-nessufeɣ tifyar-nni, ihi ilaq ad tiliḍ dima tettḥeqqeḍ dakken aḍris yedda d <wikipediaLink>taɣult tazayezt</wikipediaLink>. Ma ulac timitar, nermes bab n uḍris testeqsiḍ-t ma yebɣa ad imudd aḍris-is i taɣult tazayezt. Ma yeqbel, ɛawen-it ad yeḍfer akal n umwata n Yittekkiyen. Ma ur yebɣu ara ad d-imudd aḍris-is, ihi ur tettusirgeḍ ara ad tesqedceḍ aḍris-nni.
 sc-howto-findpd-tips = Ha-ten-a kra n yiwellihen i tifin n tefyar:
 sc-howto-findpd-subtitle-2 = Ttekki akked tkebbaniyin neɣ akked yimdanen i ak·akem-iqerben
 
