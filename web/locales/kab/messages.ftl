@@ -1197,6 +1197,7 @@ sc-howto-cite-item-1 = Tzemreḍ ad tsedduḍ asmel web, am. "Common Voice - htt
 sc-howto-review-title = Senqed tifyar
 sc-howto-review-criteria-1 = Tafyirt ilaq ad tettwaru akken iwata.
 sc-howto-review-criteria-2 = Tafyirt ilaq ad tili d tameɣtut seg tama n tjerrumt.
+sc-howto-review-criteria-3 = Tafyirt ilaq ad tili tettwanṭaq.
 sc-howto-review-criteria-4 = Ma yella tafyirt deg-s akk isefranen, sit ɣef tqeffalt "Sentem".
 sc-howto-review-criteria-6 = Ma yella ur tesɛiḍ ara tifyar ara tesneqdeḍ, efk-aɣ-d afus ad d-nelqeḍ ugar n tefyar!
 sc-howto-findpd-title = Tifin n tefyar yellan deg taqult tazayazt
