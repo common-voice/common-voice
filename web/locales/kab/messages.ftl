@@ -1206,6 +1206,8 @@ sc-howto-findpd-subtitle = Nadi-ten deg Internet
 sc-howto-findpd-text-2 = Cfu dakken nesra tasiregt akken ad d-nessufeɣ tifyar-nni, ihi ilaq ad tiliḍ dima tettḥeqqeḍ dakken aḍris yedda d <wikipediaLink>taɣult tazayezt</wikipediaLink>. Ma ulac timitar, nermes bab n uḍris testeqsiḍ-t ma yebɣa ad imudd aḍris-is i taɣult tazayezt. Ma yeqbel, ɛawen-it ad yeḍfer akal n umwata n Yittekkiyen. Ma ur yebɣu ara ad d-imudd aḍris-is, ihi ur tettusirgeḍ ara ad tesqedceḍ aḍris-nni.
 sc-howto-findpd-tips = Ha-ten-a kra n yiwellihen i tifin n tefyar:
 sc-howto-findpd-tips-1 = Iɣbula igerrzen i tzemreḍ ad tnadiḍ d ipudkasten, tirawin, isekripten n yisura d wayen akk izemren ad yegber tameslayt n yal ass.
+sc-howto-findpd-tips-2 = Tisekkirin, idlisen d yimagraden inabaḍanen lhan daɣen, maca imi aḍris d alɣawan ugar, mačči d ayen yezwawen.
+sc-howto-findpd-tips-3 = Nesḥassef imi ur nezmir ara ad nesɛu imagraden n Wikipedia taswiɛt-a. Ihi ur xeddem ara-nɣel senṭeḍ syin.
 sc-howto-findpd-subtitle-2 = Ttekki akked tkebbaniyin neɣ akked yimdanen i ak·akem-iqerben
 
 ## MY SENTENCES
