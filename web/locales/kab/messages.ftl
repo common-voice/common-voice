@@ -1181,6 +1181,7 @@ sc-logout-button = Ffeɣ
 ## HOME
 
 sc-home-title = Anṣuf ɣer Common Voice Sentence Collector
+sc-home-intro = Sentence Collector d aḥric seg <commonVoiceLink> Common Voice</commonVoiceLink>. Yettɛawan imettekkiyen ad d-gemren rnu ad snetmen tifyar yettwarnan sɣur temɣiwent. Tzemreḍ ad tesqedceḍ afecku-a daɣen i ukter d usizdeg n tegrummiwin n taɣult tazayezt timeẓẓyanin almi d tilemmasin i tufiḍ neɣ i d-tgemreḍ. Akk tifyar ilaq ad ilint deg taɣult tazayezt. Tifyar yettwaqeblen ad ttusifḍent yal imalas ɣer usarsay n Common Voice syin ad ttwasufɣent deg usmel Web n Common Voice deg yal afsar amaynut.
 sc-home-collect-title = Lqeḍ-d tifyar
 sc-home-collect-text = Mudd-aɣ-d afus s tira neɣ s ulqaḍ n tefyar tizuyaz.
 sc-home-review-title = Senqed tifyar
