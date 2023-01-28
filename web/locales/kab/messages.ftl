@@ -1199,6 +1199,7 @@ sc-howto-review-criteria-1 = Tafyirt ilaq ad tettwaru akken iwata.
 sc-howto-review-criteria-2 = Tafyirt ilaq ad tili d tameɣtut seg tama n tjerrumt.
 sc-howto-review-criteria-3 = Tafyirt ilaq ad tili tettwanṭaq.
 sc-howto-review-criteria-4 = Ma yella tafyirt deg-s akk isefranen, sit ɣef tqeffalt "Sentem".
+sc-howto-review-criteria-5 = Ma tafyirt ur teddu ara d yisefranen n ufella, sit ɣef tqeffalt "Agi". Mayella ur tettḥeqqeḍ ara ɣef tefyirt, tzemreḍ daɣen ad as-tɛeddiḍ akken ad tedduḍ ɣer tin i d-itteddun.
 sc-howto-review-criteria-6 = Ma yella ur tesɛiḍ ara tifyar ara tesneqdeḍ, efk-aɣ-d afus ad d-nelqeḍ ugar n tefyar!
 sc-howto-findpd-title = Tifin n tefyar yellan deg taqult tazayazt
 sc-howto-findpd-subtitle = Nadi-ten deg Internet
