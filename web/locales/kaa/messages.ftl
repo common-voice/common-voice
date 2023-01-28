@@ -106,12 +106,28 @@ profile-form-gender-2 =
 hidden = Jasırın
 native-language =
     .label = Ana tili
+profile-form-submit-save = Saqlaw
+profile-form-submit-saved = Saqlandı
+male = Erkek
+female = Hayal
+# Gender
+other = Basqa
+avatar = Avatar
+goals = Maqsetler
+settings = Sazlamalar
+profile-close = Jabıw
+login-signup = Kiriw/Dizimnen ótiw
+edit = Ózgeris kiritiw
+off = Óshirilgen
+on = Qosıwlı
 
 ## Profile - Email
 
+remove-avatar = Avatardı óshiriw
 
 ## Profile - Email
 
+add-language = Til qosıw
 
 ## FAQ
 
