@@ -616,6 +616,7 @@ about-playbook-how-grow-language-content-6 = Amɛiwen n yiẓedwa
 
 about-playbook-how-validate = Amek ara teẓreḍ ma yella tukkist s taɣect ilaq ad tettwaqel?
 about-playbook-how-validate-content-1 = Ma tessiwḍeḍ ad <strong>asent-tesleḍ</strong> daɣen ad <strong>tent-tegzuḍ</strong>, sumata <strong> yelha ad tent-tqebleḍ</strong>.
+about-playbook-how-validate-content-2 = <strong> Ur ttagi ara iklipen ideg amutlay 'ɣur-s aɣdebbu' yemgaraden ɣef wayla-k•m</strong> - aya yesɛa azal iwakken ad yeddu akken ilaq uɛqal n taɣect i yal yiwen.
 about-playbook-how-validate-content-4 = Ma yella akalas yettwagi sɣur sin medden, ad d-yeffeɣ deg tegrumma tasnawant yemgaraden ɣef tegrumma n yisefka.
 
 ## How to access dataset
@@ -1209,6 +1210,7 @@ sc-howto-findpd-tips-1 = Iɣbula igerrzen i tzemreḍ ad tnadiḍ d ipudkasten, 
 sc-howto-findpd-tips-2 = Tisekkirin, idlisen d yimagraden inabaḍanen lhan daɣen, maca imi aḍris d alɣawan ugar, mačči d ayen yezwawen.
 sc-howto-findpd-tips-3 = Nesḥassef imi ur nezmir ara ad nesɛu imagraden n Wikipedia taswiɛt-a. Ihi ur xeddem ara-nɣel senṭeḍ syin.
 sc-howto-findpd-subtitle-2 = Ttekki akked tkebbaniyin neɣ akked yimdanen i ak·akem-iqerben
+sc-howto-findpd-partner-1 = Llant aṭas n tuddsiwin tizayazin i izemren ad ttekkint, tid i yesɛan aṭas n yiḍrisen i zemrent ad d-muddent deg taɣult tazayezt. Rzu ɣer tesdawiyin tidiganin, tuddsiwin tinabaḍin d tid n uɣbalu yeldin akken ad asent-temmeslayeḍ ɣef usenfar, tessutreḍ-asent tallelt.
 
 ## MY SENTENCES
 
