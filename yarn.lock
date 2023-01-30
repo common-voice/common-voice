@@ -6775,10 +6775,10 @@ istanbul-reports@^3.1.3:
     html-escaper "^2.0.0"
     istanbul-lib-report "^3.0.0"
 
-jest-axe@6.0.0:
-  version "6.0.0"
-  resolved "https://registry.yarnpkg.com/jest-axe/-/jest-axe-6.0.0.tgz#e5ca8e9a0363c8c5f4e00760317bd7d7d29b90b4"
-  integrity sha512-gAh/2zoWii4Rbhe6IUIo5TTiseGJDCitFnDFwBNpIuaOciyQgVZue6jtd4W7oMoKHewKoRSuIol7t/MuGx+mqg==
+jest-axe@6.0.1:
+  version "6.0.1"
+  resolved "https://registry.yarnpkg.com/jest-axe/-/jest-axe-6.0.1.tgz#54a8b7dc09afd6190b21f38b51b8bddc2d923834"
+  integrity sha512-+KcRAdZeKXBbtHTmMkokRq5/hXHaVFpX+WS2o3uvhkmF3szdr4+TYAz+QuOTeM0B1d4YPoNmQWhGzSzxHJNZrA==
   dependencies:
     axe-core "4.4.1"
     chalk "4.1.0"
