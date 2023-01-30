@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { fireEvent, screen } from '@testing-library/react';
 
-import { ContributeMenu } from './contribute-menu';
+import ContributeMenu from './contribute-menu';
 import { renderWithProviders } from '../../../../test/render-with-providers';
 
 describe('Contribute Menu Test', () => {
@@ -12,6 +12,7 @@ describe('Contribute Menu Test', () => {
         setShowMenu={jest.fn()}
         showMobileMenu={false}
         toggleMobileMenuVisible={jest.fn()}
+        isContributionPageActive={false}
       />
     );
 
@@ -29,6 +30,7 @@ describe('Contribute Menu Test', () => {
         setShowMenu={setShowMenuSpy}
         showMobileMenu={false}
         toggleMobileMenuVisible={jest.fn()}
+        isContributionPageActive={false}
       />
     );
 

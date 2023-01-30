@@ -59,6 +59,7 @@ interface LayoutState {
   hasScrolled: boolean;
   showWelcomeModal: boolean;
   featureStorageKey?: string;
+  shouldExpandNavItems: boolean;
 }
 
 class Layout extends React.PureComponent<LayoutProps, LayoutState> {
@@ -72,6 +73,7 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
 
     showWelcomeModal: false,
     featureStorageKey: null,
+    shouldExpandNavItems: false,
   };
 
   async componentDidMount() {
@@ -160,8 +162,17 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
       isMenuVisible,
       showWelcomeModal,
     } = this.state;
+
+    const CONTRIBUTION_PAGES = [
+      `/${locale}${URLS.SPEAK}`,
+      `/${locale}${URLS.LISTEN}`,
+    ];
+
     const isBuildingProfile = location.pathname.includes(URLS.PROFILE_INFO);
     const isDemoMode = location.pathname.includes(URLS.DEMO);
+    const isContributionPageActive = CONTRIBUTION_PAGES.includes(
+      location.pathname
+    );
     const pathParts = location.pathname.split('/');
     const className = cx(pathParts[2] ? pathParts.slice(2).join(' ') : 'home', {
       'nav-modal-active': this.state.isMenuVisible,
@@ -170,6 +181,10 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
     const alreadyEnrolled =
       this.state.showWelcomeModal && user.account?.enrollment?.challenge;
     const redirectURL = URLS.DASHBOARD + URLS.CHALLENGE;
+
+    const handleMenuIcon = () => {
+      this.setState({ shouldExpandNavItems: !this.state.shouldExpandNavItems });
+    };
 
     return (
       <div id="main" className={className}>
@@ -186,8 +201,20 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
         <div className="header-wrapper">
           <header className={cx('header', { active: hasScrolled })}>
             <div>
+              {isContributionPageActive && (
+                <MenuIcon
+                  onClick={handleMenuIcon}
+                  className={cx({ active: this.state.shouldExpandNavItems })}
+                />
+              )}
               <Logo />
-              <Nav id="main-nav" />
+              <Nav
+                id="main-nav"
+                shouldExpandNavItems={
+                  this.state.shouldExpandNavItems || !isContributionPageActive
+                }
+                isContributionPageActive={isContributionPageActive}
+              />
             </div>
             <div>
               {user.account ? (
@@ -213,38 +240,40 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
               </button>
             </div>
           </header>
-          <div className="secondary-nav">
-            <div className="options">
-              <div
-                className={cx({
-                  'selected-option': location.pathname.includes(URLS.SPEAK),
-                })}>
-                <MicIcon />
-                <Localized id="speak">
-                  <LocaleNavLink
-                    to={isDemoMode ? URLS.DEMO_SPEAK : URLS.SPEAK}
-                  />
-                </Localized>
-                {location.pathname.includes(URLS.SPEAK) && (
-                  <span className="border" />
-                )}
-              </div>
-              <div
-                className={cx({
-                  'selected-option': location.pathname.includes(URLS.LISTEN),
-                })}>
-                <ListenIcon />
-                <Localized id="listen">
-                  <LocaleNavLink
-                    to={isDemoMode ? URLS.DEMO_LISTEN : URLS.LISTEN}
-                  />
-                </Localized>
-                {location.pathname.includes(URLS.LISTEN) && (
-                  <span className="border" />
-                )}
+          {isContributionPageActive && (
+            <div className="secondary-nav">
+              <div className="options">
+                <div
+                  className={cx({
+                    'selected-option': location.pathname.includes(URLS.SPEAK),
+                  })}>
+                  <MicIcon />
+                  <Localized id="speak">
+                    <LocaleNavLink
+                      to={isDemoMode ? URLS.DEMO_SPEAK : URLS.SPEAK}
+                    />
+                  </Localized>
+                  {location.pathname.includes(URLS.SPEAK) && (
+                    <span className="border" />
+                  )}
+                </div>
+                <div
+                  className={cx({
+                    'selected-option': location.pathname.includes(URLS.LISTEN),
+                  })}>
+                  <ListenIcon />
+                  <Localized id="listen">
+                    <LocaleNavLink
+                      to={isDemoMode ? URLS.DEMO_LISTEN : URLS.LISTEN}
+                    />
+                  </Localized>
+                  {location.pathname.includes(URLS.LISTEN) && (
+                    <span className="border" />
+                  )}
+                </div>
               </div>
             </div>
-          </div>
+          )}
         </div>
         <NonProductionBanner />
         <main id="content">

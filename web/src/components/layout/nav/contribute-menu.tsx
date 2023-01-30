@@ -11,19 +11,33 @@ type ContributeMenuProps = {
   setShowMenu: React.Dispatch<React.SetStateAction<boolean>>;
   showMobileMenu: boolean;
   toggleMobileMenuVisible: () => void;
+  isContributionPageActive: boolean;
 };
 
-export const ContributeMenu: React.FC<ContributeMenuProps> = ({
+const ContributeMenu: React.FC<ContributeMenuProps> = ({
   showMenu,
   setShowMenu,
   showMobileMenu,
   toggleMobileMenuVisible,
+  isContributionPageActive,
 }) => {
+  const handleMouseEnter = () => {
+    if (!isContributionPageActive) {
+      setShowMenu(true);
+    }
+  };
+
+  const handleMouseLeave = () => {
+    if (!isContributionPageActive) {
+      setShowMenu(false);
+    }
+  };
+
   return (
     <div
       className={classNames('contribute-menu', { active: showMenu })}
-      onMouseEnter={() => setShowMenu(true)}
-      onMouseLeave={() => setShowMenu(false)}
+      onMouseEnter={handleMouseEnter}
+      onMouseLeave={handleMouseLeave}
       data-testid="contribute-menu">
       <div className="contribute-btn-wrapper">
         <Localized id="contribute">
@@ -41,7 +55,9 @@ export const ContributeMenu: React.FC<ContributeMenuProps> = ({
         <p className="nav-link-item">
           <Localized id="contribute" />
         </p>
-        <ChevronDown className={classNames({ 'rotate-180': showMenu })} />
+        {!isContributionPageActive && (
+          <ChevronDown className={classNames({ 'rotate-180': showMenu })} />
+        )}
       </div>
       {showMobileMenu && (
         <div
@@ -51,6 +67,7 @@ export const ContributeMenu: React.FC<ContributeMenuProps> = ({
         </div>
       )}
       <div className="nav-menu-wrapper" data-testid="nav-menu-wrapper">
+        {isContributionPageActive && <span className="black-border" />}
         <div className="menu">
           <span className="blue-border" />
           <ContributeMenuContent className="menu-list" />
@@ -59,3 +76,5 @@ export const ContributeMenu: React.FC<ContributeMenuProps> = ({
     </div>
   );
 };
+
+export default ContributeMenu;
