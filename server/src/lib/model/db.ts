@@ -712,21 +712,23 @@ export default class DB {
     original_sentence_id,
     path,
     sentence,
+    duration,
   }: {
     client_id: string;
     localeId: number;
     original_sentence_id: string;
     path: string;
     sentence: string;
+    duration: number;
   }): Promise<void> {
     try {
       const [{ insertId }] = await this.mysql.query(
         `
-          INSERT INTO clips (client_id, original_sentence_id, path, sentence, locale_id)
-          VALUES (?, ?, ?, ?, ?)
+          INSERT INTO clips (client_id, original_sentence_id, path, sentence, locale_id, duration)
+          VALUES (?, ?, ?, ?, ?, ?)
           ON DUPLICATE KEY UPDATE created_at = NOW()
         `,
-        [client_id, original_sentence_id, path, sentence, localeId]
+        [client_id, original_sentence_id, path, sentence, localeId, duration]
       );
       await this.mysql.query(
         `
