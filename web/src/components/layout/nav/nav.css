@@ -79,6 +79,18 @@ header {
         pointer-events: none;
     }
 
+    & .menu-icon {
+        margin-right: 35px;
+        cursor: pointer;
+    }
+
+    & .menu-icon.expanded {
+        display: block;
+        pointer-events: all;
+        transition-duration: var(--transition-duration-slow);
+        visibility: visible;
+    }
+
     &.active {
         box-shadow: var(--nav-shadow-overhang);
 
@@ -196,6 +208,15 @@ header {
 
             & .nav-menu-wrapper {
                 position: relative;
+
+                & .black-border {
+                    border-bottom: 4px solid var(--black);
+                    margin-inline-end: 6px;
+                    padding-top: 35px;
+                    position: absolute;
+                    right: 0;
+                    width: 78px;
+                }
             }
 
             & .menu {

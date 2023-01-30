@@ -7,9 +7,16 @@ import {
   LocaleNavLink,
   useLocale,
 } from '../../locale-helpers';
-import { ContributeMenu } from './contribute-menu';
+import ContributeMenu from './contribute-menu';
 
 import './nav.css';
+
+type NavProps = {
+  id?: string;
+  shouldExpandNavItems?: boolean;
+  isContributionPageActive?: boolean;
+  children?: React.ReactNode;
+};
 
 const LocalizedNavLink = ({ id, to }: { id: string; to: string }) => {
   const [locale] = useLocale();
@@ -25,7 +32,12 @@ const LocalizedNavLink = ({ id, to }: { id: string; to: string }) => {
   );
 };
 
-export default function Nav({ children, ...props }: { [key: string]: any }) {
+const Nav: React.FC<NavProps> = ({
+  children,
+  shouldExpandNavItems,
+  isContributionPageActive,
+  ...props
+}) => {
   const [showMenu, setShowMenu] = React.useState(false);
   const [showMobileMenu, setShowMobileMenu] = React.useState(false);
 
@@ -42,14 +54,21 @@ export default function Nav({ children, ...props }: { [key: string]: any }) {
             setShowMenu={setShowMenu}
             showMobileMenu={showMobileMenu}
             toggleMobileMenuVisible={toggleMobileMenuVisible}
+            isContributionPageActive={isContributionPageActive}
           />
         </ContributableLocaleLock>
-        <LocalizedNavLink id="datasets" to={URLS.DATASETS} />
-        <LocalizedNavLink id="languages" to={URLS.LANGUAGES} />
-        <LocalizedNavLink id="partner" to={URLS.PARTNER} />
-        <LocalizedNavLink id="about" to={URLS.ABOUT} />
+        {shouldExpandNavItems && (
+          <>
+            <LocalizedNavLink id="datasets" to={URLS.DATASETS} />
+            <LocalizedNavLink id="languages" to={URLS.LANGUAGES} />
+            <LocalizedNavLink id="partner" to={URLS.PARTNER} />
+            <LocalizedNavLink id="about" to={URLS.ABOUT} />
+          </>
+        )}
       </div>
       {children}
     </nav>
   );
-}
+};
+
+export default Nav;
