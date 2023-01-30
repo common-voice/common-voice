@@ -2,19 +2,19 @@ import { Localized } from '@fluent/react';
 import * as React from 'react';
 import { connect } from 'react-redux';
 import { RouteComponentProps, Redirect, withRouter } from 'react-router';
-import { trackGlobal, getTrackClass } from '../../services/tracker';
+import { trackGlobal } from '../../services/tracker';
 import StateTree from '../../stores/tree';
 import { User } from '../../stores/user';
 import { Locale } from '../../stores/locale';
 import URLS from '../../urls';
 import { replacePathLocale } from '../../utility';
-import { LocaleLink, LocaleNavLink } from '../locale-helpers';
+import { LocaleNavLink } from '../locale-helpers';
 import {
   CogIcon,
   DashboardIcon,
+  ListenIcon,
   MenuIcon,
   MicIcon,
-  OldPlayIcon,
 } from '../ui/icons';
 import { Avatar, LinkButton } from '../ui/ui';
 import Content from './content';
@@ -161,6 +161,7 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
       showWelcomeModal,
     } = this.state;
     const isBuildingProfile = location.pathname.includes(URLS.PROFILE_INFO);
+    const isDemoMode = location.pathname.includes(URLS.DEMO);
     const pathParts = location.pathname.split('/');
     const className = cx(pathParts[2] ? pathParts.slice(2).join(' ') : 'home', {
       'nav-modal-active': this.state.isMenuVisible,
@@ -212,6 +213,38 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
               </button>
             </div>
           </header>
+          <div className="secondary-nav">
+            <div className="options">
+              <div
+                className={cx({
+                  'selected-option': location.pathname.includes(URLS.SPEAK),
+                })}>
+                <MicIcon />
+                <Localized id="speak">
+                  <LocaleNavLink
+                    to={isDemoMode ? URLS.DEMO_SPEAK : URLS.SPEAK}
+                  />
+                </Localized>
+                {location.pathname.includes(URLS.SPEAK) && (
+                  <span className="border" />
+                )}
+              </div>
+              <div
+                className={cx({
+                  'selected-option': location.pathname.includes(URLS.LISTEN),
+                })}>
+                <ListenIcon />
+                <Localized id="listen">
+                  <LocaleNavLink
+                    to={isDemoMode ? URLS.DEMO_LISTEN : URLS.LISTEN}
+                  />
+                </Localized>
+                {location.pathname.includes(URLS.LISTEN) && (
+                  <span className="border" />
+                )}
+              </div>
+            </div>
+          </div>
         </div>
         <NonProductionBanner />
         <main id="content">
