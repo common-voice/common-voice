@@ -1,5 +1,7 @@
 ## General
 
+email-input =
+    .label = Elektron pochta
 submit-form-action = Jiberiw
 loading = Júklenbekte…
 
