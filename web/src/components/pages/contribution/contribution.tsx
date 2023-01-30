@@ -233,6 +233,7 @@ class ContributionPage extends React.Component<ContributionPageProps, State> {
     return (
       <div
         className="contribution-wrapper"
+        data-testid="contribution-page"
         onClick={() => this.selectPill(null)}>
         {showShareModal && (
           <ShareModal onRequestClose={this.toggleShareModal} />
