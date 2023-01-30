@@ -2,6 +2,10 @@
     --vote-button-box-shadow: 0 5px 10px;
 }
 
+#listen-page {
+    width: 100%;
+}
+
 .contribution.listen {
     & .instruction svg {
         max-height: 20px;
