@@ -37,4 +37,21 @@ describe('Contribute Menu Test', () => {
     fireEvent.mouseEnter(screen.getByTestId('contribute-menu'));
     expect(setShowMenuSpy).toHaveBeenCalledWith(true);
   });
+
+  it('does not show the menu on hover if a contribution page is active', () => {
+    const setShowMenuSpy = jest.fn();
+
+    renderWithProviders(
+      <ContributeMenu
+        showMenu={false}
+        setShowMenu={setShowMenuSpy}
+        showMobileMenu={false}
+        toggleMobileMenuVisible={jest.fn()}
+        isContributionPageActive
+      />
+    );
+
+    fireEvent.mouseEnter(screen.getByTestId('contribute-menu'));
+    expect(setShowMenuSpy).not.toHaveBeenCalled();
+  });
 });
