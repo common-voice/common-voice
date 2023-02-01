@@ -273,9 +273,25 @@ vote-yes = Wi
 vote-no = Non
 toggle-play-tooltip = Peze { shortcut-play-toggle } pou chanje mòd jwe
 speak-subtitle = Bay vwa ou.
+speak-paragraph = Anrejistreman son vwa se yon pati entegral nan bati done ouvè nou an; gen moun ki ta di se pati ki amizan tou.
+speak-goal-text = Son ki anrejistre yo
 listen-subtitle = Ede nou valide vwa yo
+listen-paragraph = Validasyon klip moun bay yo egalman enpòtan pou misyon Common Voice la. Pran yonn koute epi ede nou kreye bon jan kalite done vwa sous louvri.
+listen-goal-text = Son ki valide ye
+hours-recorded = Konbyen lè ki anrejistre
+hours-validated = Konbyen Lè Valide
+voices-online = Vwa yo Ki An liy Kounye a
+todays-progress = Pwogrè jodi a
+help-reach-goal = Ede nou rive nan { $goal }
+read-terms-q = Èske w li kondisyon nou yo?
+ready-to-record = Eske'w pare pou pataje vwa'w?
 all-locales = Tout
 today = Jodi a
+x-weeks-short =
+    { $count ->
+        [one] Semèn
+       *[other] sem
+    }
 
 ## Account Benefits
 
