@@ -459,3 +459,16 @@ faq-why-important-q = Poukisa li enpòtan?
 
 # [/SentenceCollector]
 
+why-donate-explanation-2 = Pou teknoloji sa travay byen pou tout moun, done ki ede devlopè yo pou bati teknoloji sa bezwen reflete yon seri divès moun. Pa egzanp, si nou pa mete okenn moun ki pale ak yon aksan patikilye, Lè sa a, teknoloji a pa pral travay byen pou moun ki gen aksan sa a. <learnMore>Aprann plis sou poukisa metadata enpòtan.</learnMore>
+add-information-button = Ajoute enfòmasyon
+continue-speaking-button = Non mèsi, ou mèt kontinye pale
+create-profile-text = Ou vle kenbe enfòmasyon'w yo? <createProfile>Ebyen kreye yon pwofil</createProfile>
+thanks-for-voice-toast = Mèsi pou enfòmasyon vwa'w
+thanks-for-voice-toast-error = Yon erè te fèt lè'w te voye enfòmasyon vwa'w
+# SECOND POST SUBMISSION CTA
+second-cta-header-text = Mèsi paske'w kontribye vwa'w!
+second-cta-subtitle-text = Avèk yon pwofil, ou ka kenbe tras aktivite'w epi konekte ak yon kominote ki gen kontribitè done vwa yo.
+already-have-an-account = Ou deja genyen yon kont? Ebyen <login>Konekte</login>
+create-profile-button = Kreye yon pwofil
+# IMAGE TAGS
+img-alt-success-checkmark = mak siksè
