@@ -250,9 +250,28 @@ wall-of-text-start =
     Vwa natirèl, vwa se moun. Se poutèt sa nou kontan anpil nan kreye teknoloj vwa
     pou machin nou yo ka itilize. Men, pou kreye sistèm vwa, yon gwo kantite vwa
     done obligatwa.
+wall-of-text-more-mobile =
+    Pifò nan done yo itilize pa gwo konpayi yo pa disponib pou majorite moun. Nou panse
+    ke sa anpeche inovasyon. Se konsa, nou te lanse Project Common Voice, yon pwojè pou ede fè vwa
+    rekonesans pou ekri Haitian ouvè a tout moun.
+wall-of-text-more-desktop =
+    Koulye a, ou ka bay vwa ou pou ede nou bati yon baz done vwa ak kòd sous ouvè ke nenpòt moun ka itilize
+    pou fè aplikasyon inovatè pou aparèy ak entènèt la. Li yon fraz pou ede machin yo aprann kijan moun reyèl yo pale. Tcheke travay lòt moun
+    ki kontribitè yo pou amelyore kalite a. Li senp konsa!
+wall-of-text-first =
+    Vwa natirèl, vwa se moun. Se poutèt sa nou kontan anpil nan kreye teknoloj vwa
+    pou machin nou yo ka itilize. Men, pou kreye sistèm vwa, yon gwo kantite done vwa obligatwa.
+wall-of-text-second =
+    Pifò nan done yo ki itilize pa gwo konpayi yo pa disponib pou majorite moun. Nou panse
+    ke sa anpeche inovasyon. Se konsa, nou te lanse Project Common Voice, yon pwojè pou ede fè vwa
+    rekonesans pou ekri Haitian ouvè a tout moun.
+show-wall-of-text = Li piplis
 help-us-title = Ede nou valide fraz yo!
+help-us-explain = Peze jwe, koute epi di nou: èske yo te byen pale fraz ki anba a?
+no-clips-to-validate = Sanble pa gen okenn son pou koute nan lang sa a. Ede nou ranpli ke a lèw anrejistre kèk kounye a.
 vote-yes = Wi
 vote-no = Non
+toggle-play-tooltip = Peze { shortcut-play-toggle } pou chanje mòd jwe
 speak-subtitle = Bay vwa ou.
 listen-subtitle = Ede nou valide vwa yo
 all-locales = Tout
