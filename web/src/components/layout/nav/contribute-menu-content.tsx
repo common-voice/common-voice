@@ -19,14 +19,14 @@ export const ContributeMenuContent: React.FC<ContributeMenuContentProps> = ({
       </Localized>
       <ul>
         <li>
-          <MicIcon />
           <LocaleLink to={URLS.SPEAK} className="contribute-link">
+            <MicIcon />
             <Localized id="speak" />
           </LocaleLink>
         </li>
         <li>
-          <ListenIcon />
           <LocaleLink to={URLS.LISTEN} className="contribute-link">
+            <ListenIcon />
             <Localized id="listen" />
           </LocaleLink>
         </li>

@@ -152,6 +152,7 @@ header {
                 display: none;
                 flex-direction: column;
                 position: absolute;
+                cursor: auto;
                 top: 0;
                 right: -50px;
 
@@ -177,12 +178,13 @@ header {
                     & li {
                         display: flex;
                         align-items: center;
-                        margin-left: 15px;
+                        margin-left: 5px;
                         margin-bottom: 20px;
 
                         & svg {
                             width: 16px;
                             height: 16px;
+                            margin-inline-end: 12px;
                         }
                     }
 
@@ -248,6 +250,11 @@ header {
                             width: 16px;
                             height: 16px;
                             margin-bottom: 2px;
+
+                            @media (--md-down) {
+                                margin-right: 8px;
+                                align-self: end;
+                            }
                         }
                     }
 
@@ -342,6 +349,11 @@ header {
             font-size: var(--font-size);
             font-weight: 400;
             text-transform: capitalize;
+
+            @media (--md-down) {
+                display: flex;
+                margin: 0;
+            }
         }
 
         @media (--sm-up) {
