@@ -205,7 +205,14 @@ vec = Venisyen
 vi = Vyetnamyen
 vot = Votik
 wo = Wolòf
+xh = Zosa
+yi = Yidich
+yo = Yowouba
+yue = Kantonèz
+zgh = Tamazigt
 zh-CN = Chinwa
+zh-HK = Chinwa (Hong Kong)
+zh-TW = Chinwa (Taywann)
 
 # [/]
 
