@@ -377,6 +377,10 @@
                 rgba(0, 0, 0, 0) 97%
             );
         }
+
+        & button {
+            z-index: var(--middle-z-index);
+        }
     }
 
     .buttons {

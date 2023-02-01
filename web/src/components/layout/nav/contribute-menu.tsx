@@ -1,18 +1,19 @@
 import * as React from 'react';
 import classNames from 'classnames';
 import { Localized } from '@fluent/react';
+import { RouteComponentProps, withRouter } from 'react-router';
 
 import { TextButton } from '../../ui/ui';
 import { ChevronDown } from '../../ui/icons';
 import { ContributeMenuContent } from './contribute-menu-content';
 
-type ContributeMenuProps = {
+interface ContributeMenuProps extends RouteComponentProps {
   showMenu: boolean;
   setShowMenu: React.Dispatch<React.SetStateAction<boolean>>;
   showMobileMenu: boolean;
   toggleMobileMenuVisible: () => void;
   isContributionPageActive: boolean;
-};
+}
 
 const ContributeMenu: React.FC<ContributeMenuProps> = ({
   showMenu,
@@ -20,6 +21,7 @@ const ContributeMenu: React.FC<ContributeMenuProps> = ({
   showMobileMenu,
   toggleMobileMenuVisible,
   isContributionPageActive,
+  location,
 }) => {
   const handleMouseEnter = () => {
     if (!isContributionPageActive) {
@@ -35,7 +37,10 @@ const ContributeMenu: React.FC<ContributeMenuProps> = ({
 
   return (
     <div
-      className={classNames('contribute-menu', { active: showMenu })}
+      className={classNames('contribute-menu', {
+        active: showMenu,
+        'contribution-page-active': isContributionPageActive,
+      })}
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
       data-testid="contribute-menu">
@@ -46,10 +51,13 @@ const ContributeMenu: React.FC<ContributeMenuProps> = ({
             onClick={toggleMobileMenuVisible}
           />
         </Localized>
-        <ChevronDown
-          className={classNames({ 'rotate-180': showMobileMenu })}
-          onClick={toggleMobileMenuVisible}
-        />
+        {!isContributionPageActive && (
+          <ChevronDown
+            className={classNames({ 'rotate-180': showMobileMenu })}
+            onClick={toggleMobileMenuVisible}
+          />
+        )}
+        {isContributionPageActive && <span className="black-border" />}
       </div>
       <div className="contribute-link-wrapper">
         <p className="nav-link-item">
@@ -63,7 +71,7 @@ const ContributeMenu: React.FC<ContributeMenuProps> = ({
         <div
           className="nav-menu-wrapper-mobile"
           data-testid="contribute-mobile-menu">
-          <ContributeMenuContent />
+          <ContributeMenuContent pathname={location.pathname} />
         </div>
       )}
       <div className="nav-menu-wrapper" data-testid="nav-menu-wrapper">
@@ -77,4 +85,4 @@ const ContributeMenu: React.FC<ContributeMenuProps> = ({
   );
 };
 
-export default ContributeMenu;
+export default withRouter(ContributeMenu);
