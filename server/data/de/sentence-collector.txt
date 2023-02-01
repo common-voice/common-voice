@@ -532,6 +532,7 @@ Ach du meine Güte!
 Ach egal, dann nehme ich halt einen neuen.
 Ach hier versteckt er sich.
 Ach hier, Kamikaze Klaus ist auch wieder da!
+Ach hör doch auf damit.
 Ach hör' doch auf damit.
 Ach ist das aufregend.
 Ach ja, das war ja ich!
@@ -6229,6 +6230,7 @@ Das muss ich kurz nachgucken.
 Das muss ich mir jetzt nicht bis zum Ende ansehen.
 Das muss ich mir nicht auch noch ans Bein binden.
 Das muss ich mir sowieso noch ansehen.
+Das muss ich nicht.
 Das muss im Jahre neunzehnhundertacht gewesen sein.
 Das muss in den Zwanziger- oder Dreißigerjahren gewesen sein.
 Das muss man ausnutzen.
@@ -12918,6 +12920,7 @@ Er ist einer von der übelsten Sorte.
 Er ist enttäuscht.
 Er ist es nicht und war es auch nie.
 Er ist für den weiteren Spielverlauf nicht entscheidend.
+Er ist gerade aufgestanden.
 Er ist geschmeidig wie ein Aal.
 Er ist halt clever und nimmt beides.
 Er ist in Richtung der Pool-Anlagen verschwunden.
@@ -13100,6 +13103,7 @@ Er war einer der ganz Großen.
 Er war gestern nicht so gut drauf.
 Er war immer so vernünftig.
 Er war in der Schule schon ein Raufbold.
+Er war negativ überrascht.
 Er war nur mit meinem Handtuch um die Hüften bekleidet.
 Er war schon mit sechzehn Jahren als Programmierer tätig.
 Er war so besoffen, dass er sich mit der Klobürste die Zähne putzen wollte.
@@ -16154,6 +16158,7 @@ Harmlose Wasserbomben sollte man nicht mit Wasserstoffbomben verwechseln.
 Harry wusste nur so ungefähr wo die Braunkohle her kam.
 Hart kann ich nicht bestätigen.
 Hart.
+Harte Locke.
 Harte Schale weicher Kern.
 Hartes Wasser schmeckt besser als weiches, sorgt aber für Verkalkung.
 Hartz vier und der Tag gehört dir.
@@ -18927,6 +18932,7 @@ Ich war wohl nur zu nervös.
 Ich war zwar dort, habe aber eigentlich nur mit ihr geredet.
 Ich war zwar gelähmt, habe aber noch alles mitbekommen.
 Ich warte auf das Paket, doch es kommt wohl wieder zu spät.
+Ich warte auf dich.
 Ich warte auf die Annahme meiner Bewerbung.
 Ich warte darauf, dass mein neues Smartphone geliefert wird.
 Ich warte immer noch auf den Zwischenbericht.
@@ -22514,6 +22520,7 @@ Komm, trink noch einen mit mir.
 Komm, wir bauen uns eine Höhle!
 Komm, wir frieren das ein und essen es später.
 Komm, wir gehen auf die Jagd!
+Komm, wir gehen zusammen.
 Komm, wir machen das noch mal ordentlich.
 Komm, wir rauchen zusammen was!
 Komm, wir sortieren mal aus!
@@ -22994,6 +23001,7 @@ Lass mich raten: Wir müssen sie retten?
 Lass mich rein, du Opfer!
 Lass mich!
 Lass sie doch zappeln.
+Lass sie liegen.
 Lass sie los.
 Lass sie nicht im Regen stehen!
 Lass sie noch ein bisschen zappeln.
@@ -23311,6 +23319,7 @@ Leute, es ist früh morgens!
 Leuten noch mehr Druck zu machen, ist meistens kontraproduktiv.
 Levin steht mitten im Leben.
 Licht aus, Spot an!
+Licht und Sicht sind wichtig.
 Lichtschutzfaktor fünfzig ist genau das Richtige für meine Haut.
 Lichtschwerter sind vielfältig einsetzbar.
 Liebe Anleger, ich kann nur auf die Worte meines zugekoksten Kollegen verweisen.
@@ -29415,6 +29424,7 @@ Sie kratzt mit den Fingernägeln an der Tafel.
 Sie kriegt ein Baby.
 Sie kämpft mit dem schweren Koffer und versucht, diesen auf die Gepäckablage hochzuwuchten.
 Sie können Ihre Charaktere nicht zwischen verschiedenen Realms wechseln lassen.
+Sie können auch zu mir kommen.
 Sie können darauf rechnen.
 Sie können das Spiel auch über das Windows Startmenü starten.
 Sie können das unternehmerische Risiko doch nicht einfach auf den Kunden abwälzen!
@@ -29645,6 +29655,7 @@ Sie war gigantisch.
 Sie war immer für ein Pläuschchen zu haben.
 Sie war immer schon so aktiv.
 Sie war mit der jungen Houston dort, die damals auch Model war.
+Sie war schon immer besonders.
 Sie war schon immer ein Plaudertäschchen.
 Sie war schon sehr lange nicht mehr am Grab ihres Vaters.
 Sie war unten rum, komplett glatt rasiert bis auf einen schmalen Bremsstreifen.
@@ -33983,6 +33994,7 @@ Was macht eigentlich gerade der kleine Timmy?
 Was macht er denn immer so lange im Badezimmer?
 Was macht hier so ein Geräusch?
 Was macht ihn so euphorisch?
+Was macht ihr denn jetzt eigentlich hier?
 Was macht man bei einer Zerrung, außer der empfohlenen Kühlung?
 Was macht man damit, wenn es fertig ist?
 Was macht man mit einem Salzstreuer auf der Eisfläche?
