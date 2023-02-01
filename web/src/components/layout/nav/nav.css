@@ -216,6 +216,10 @@ header {
                     position: absolute;
                     right: 0;
                     width: 78px;
+
+                    @media (--md-down) {
+                        display: none;
+                    }
                 }
             }
 
@@ -293,6 +297,8 @@ header {
                 font-weight: 600;
                 color: var(--warm-grey);
                 margin-top: 20px;
+                margin-left: 30px;
+                margin-bottom: 10px;
                 @media (--lg-up) {
                     text-align: center;
                 }
@@ -303,6 +309,7 @@ header {
             }
 
             & .nav-menu-wrapper-mobile {
+                width: 100%;
                 @media (--lg-up) {
                     display: none;
                 }
@@ -313,12 +320,40 @@ header {
 
                     & li {
                         display: flex;
+                        flex-wrap: wrap;
                         align-items: end;
+                        padding-left: 30px;
+                        margin-bottom: 8px;
 
                         & svg {
                             width: 16px;
                             height: 16px;
                             margin-bottom: 2px;
+                        }
+                    }
+
+                    & li.selected-option {
+                        background: var(--lighter-grey);
+
+                        & .border {
+                            border: 1px solid var(--blue);
+                            flex-basis: 20%;
+                            display: inline-block;
+                            margin-bottom: 8px;
+                            margin-top: 2px;
+
+                            @media (--md-only) {
+                                flex-basis: 9%;
+                            }
+                        }
+
+                        & a {
+                            color: var(--blue);
+                        }
+
+                        & g,
+                        path {
+                            fill: var(--blue);
                         }
                     }
 
@@ -331,9 +366,21 @@ header {
             & .contribute-btn-wrapper {
                 display: flex;
                 align-items: center;
+                flex-wrap: wrap;
+                padding-left: 30px;
 
                 @media (--lg-up) {
                     display: none;
+                }
+
+                & .black-border {
+                    border-bottom: 4px solid var(--black);
+                    flex-basis: 93%;
+                    padding-top: 4px;
+
+                    @media (--lg-up) {
+                        display: none;
+                    }
                 }
             }
         }
@@ -394,10 +441,56 @@ header {
     & .nav-list,
     & .nav-links {
         flex-direction: column;
+
+        & .divider {
+            border-bottom: 1px solid color-mod(var(--black) alpha(10%));
+            margin: 0 30px;
+
+            @media (--lg-up) {
+                display: none;
+            }
+        }
     }
 
-    & .nav-links a,
-    .contribute-menu {
+    & .contribute-menu {
+        margin: 0;
+        padding: 15px 0px;
+        line-height: 1.17;
+        font-family: var(--base-font-family);
+        font-size: var(--font-size-sm);
+        font-weight: 600;
+        text-transform: uppercase;
+        border-bottom: none;
+
+        .contribute-link {
+            margin-left: 8px;
+            padding: 20px 0 0;
+            font-family: var(--base-font-family);
+            font-size: var(--font-size);
+            font-weight: 400;
+            text-transform: capitalize;
+            flex-basis: 84%;
+            border-bottom: none;
+
+            @media (--md-only) {
+                flex-basis: 85%;
+            }
+        }
+
+        @media (--sm-up) {
+            padding: 30px 0;
+        }
+    }
+
+    & .contribute-menu.contribution-page-active {
+        background: var(--desert-storm);
+    }
+
+    & .contribute-menu.active-page {
+        background: var(--desert-storm);
+    }
+
+    & .nav-links a {
         margin: 0 30px;
         padding: 15px 0;
         line-height: 1.17;
@@ -456,8 +549,7 @@ header {
         }
     }
 
-    & a,
-    .contribute-menu {
+    & a {
         border-bottom: 1px solid color-mod(var(--black) alpha(10%));
 
         &:last-child {
