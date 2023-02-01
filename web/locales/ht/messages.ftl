@@ -213,6 +213,8 @@ zgh = Tamazigt
 zh-CN = Chinwa
 zh-HK = Chinwa (Hong Kong)
 zh-TW = Chinwa (Taywann)
+zu = Zoulou
+zza = Zaza
 
 # [/]
 
