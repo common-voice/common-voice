@@ -292,9 +292,29 @@ x-weeks-short =
         [one] Semèn
        *[other] sem
     }
+x-months-short =
+    { $count ->
+        [one] mwa
+       *[other] { "" }
+    }
+x-years-short =
+    { $count ->
+        [one] ane
+       *[other] { "" }
+    }
+help-make-dataset = Ede nou konstwi yon seri done ki gen bon jan kalite, ki louvri piblikman
+sign-up-account = Enskri pou yon kont
+email-subscription-title = enskri pou jwen imel pwogrè
+email-subscription-title-new = Enskri pou bilten Common Voice, rapèl objektif ak pwogrè
 
 ## Account Benefits
 
+benefits = Benefis
+rich-data = Fè done ou soumèt yo valab ke posib lè w bay kèk done demografik anonim. Nou de-idantifye tout done demografik anvan nou fè yo piblik.
+improve-audio = Enfòmasyon sou pwofil amelyore done odyo yo ki itilize nan fòmasyon presizyon rekonesans lapawòl.
+keep-track = Kenbe tras pwogrè'w ak meziman nan plizyè lang.
+compare-progress = Gade ki jan pwogrè'w konpare ak lòt kontribitè nan tout mond lan.
+view-goals = Gade pwogrè'w kont objektif pèsonèl ak objektif pwojè yo.
 
 ## What's public
 
