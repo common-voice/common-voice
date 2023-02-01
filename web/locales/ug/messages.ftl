@@ -1054,6 +1054,8 @@ demo-dashboard-card-body = ھەر بىر ھەدىيە قىلغان ئاۋاز، 
 ## Validation criteria
 
 contribution-criteria-nav = ئۆلچەم
+contribution-criteria-link = تۆھپە ئۆلچىمىنى چۈشىنىڭ
+contribution-criteria-page-title = تۆھپە ئۆلچىمى
 contribution-for-example = مەسىلەن
 contribution-misreadings-example-5-title = بىز قەھۋە ئالماقچى.
 contribution-misreadings-example-6-title = بىز قەھۋە ئالماقچى.
@@ -1080,8 +1082,10 @@ sc-header-rejected = رەت قىلىنغان جۈملىلەر
 sc-header-my = جۈملىلىرىم
 sc-header-statistics = ستاتىستىكا
 sc-header-profile = ئارخىپىم
+sc-footer-discourse = { "" }
 sc-footer-report-bugs = كەمتۈكلەرنى دوكىلات قىلىش
 sc-footer-translate = بۇ بەتنى تەرجىمە قىلىش
+sc-footer-report-copyright = نەشر ھوقۇقى مەسىلىسىنى دوكلات قىلىڭ
 sc-footer-privacy = شەخسىيەت
 sc-footer-terms = تۈزۈملەر
 sc-footer-cookies = Cookies
@@ -1092,6 +1096,7 @@ sc-logout-button = چېكىنىش
 
 sc-home-title = Common Voice نىڭ جۈملە توپلىغۇچىغا خۇش كەلدىڭىز
 sc-home-collect-title = جۈملە توپلاش
+sc-home-collect-text = تور جۈملىلەرنى يېزىش ياكى توپلاش ئارقىلىق بىزگە ياردەم قىلىڭ.
 sc-home-review-title = جۈملىلەرنى تەستىقلاش
 sc-home-review-text = كۆرسەتمىلەرگە ئاساسەن جۈملىلەرنى تەكشۈرۈپ بىزگە ياردەم قىلىڭ.
 
@@ -1173,15 +1178,21 @@ sc-login-err-try-again = قايتا سىناڭ.
 # Variables:
 #   $username (String) - eMail address of the logged in user
 sc-profile-title = ئارخىپ: { $username }
+sc-personal-err-lang-not-found = تىلنى ئۆچۈرەلمىدى: تىل تېپىلمىدى
 sc-personal-err-remove = تىلنى ئۆچۈرەلمىدى
 sc-personal-your-languages = تىلىڭىز:
 sc-personal-remove-button = چىقىرىۋەت
+# Variables:
+#   $sentences (Number) - Number of sentences that were added by the currently logged in user for this language
+sc-personal-added-by-you = { $sentences }نى سىز قوشقان
 sc-personal-not-added = سىز تېخى ھېچقانداق تىل قوشمىدىڭىز.
 
 ## REVIEW CRITERIA
 
 sc-criteria-modal = ⓘ تەستىقلاش ئۆلچىمى
 sc-criteria-title = تەستىقلاش ئۆلچىمى
+sc-criteria-make-sure = جۈملىنىڭ تۆۋەندىكى ئۆلچەملەرگە ماس كېلىدىغانلىقىنى جەزملەشتۈرۈڭ:
+sc-criteria-item-1 = جۈملىنىڭ ئىملاسى چوقۇم توغرا يېزىلىشى كېرەك.
 
 ## REVIEW
 
@@ -1200,11 +1211,20 @@ sc-review-form-button-reject-shortcut = N
 sc-review-form-button-skip-shortcut = S
 sc-review-form-button-submit =
     .submitText = تەكشۈرۈش تامام
+# Variables:
+#   $sentences (Number) - Number of sentences the user has reviewed in this session
+sc-review-form-reviewed-message =
+    { $sentences ->
+        [0] تەكشۈرۈلگەن جۈملە يوق.
+        [one] 1جۈملە تەكشۈرۈلدى، رەھمەت سىزگە!
+       *[other] { $sentences }جۈملە تەكشۈرۈلدى، رەھمەت سىزگە!
+    }
 sc-review-link = تەكشۈرۈش
 
 ## SETTINGS
 
 sc-settings-title = تەڭشەك
+sc-settings-ui-language = بەت يۈزى تىلى
 sc-settings-reset-skipped = ئاتلانغان جۈملىنى ئەسلىگە كەلتۈرىدۇ
 sc-settings-failed = تەڭشەكنى ئۆزگەرتكىلى بولمىدى، قايتا سىناڭ.
 sc-validation-no-numbers = جۈملىدە رەقەم بولماسلىقى كېرەك
