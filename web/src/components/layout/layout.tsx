@@ -283,7 +283,11 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
         <div
           id="navigation-modal"
           className={this.state.isMenuVisible ? 'active' : ''}>
-          <Nav>
+          <Nav
+            shouldExpandNavItems={
+              this.state.shouldExpandNavItems || !isContributionPageActive
+            }
+            isContributionPageActive={isContributionPageActive}>
             <div className="user-nav">
               <LocalizationSelect
                 locale={locale}

@@ -57,6 +57,7 @@ const Nav: React.FC<NavProps> = ({
             isContributionPageActive={isContributionPageActive}
           />
         </ContributableLocaleLock>
+        <span className="divider" />
         {shouldExpandNavItems && (
           <>
             <LocalizedNavLink id="datasets" to={URLS.DATASETS} />
