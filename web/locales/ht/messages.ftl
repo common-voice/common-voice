@@ -139,15 +139,115 @@ nd = IsiNdebele (Nò)
 ne-NP = Nepali
 nhe = Huasteca Nahuatl de Lès
 nia = Nias
+nl = Olandè
+nn-NO = Nòvejyen Ninòsk
+nr = IsiNdebele (Sid)
+nso = Sotho di Nò
+nyn = Rounyankoli
+oc = Oksitan
+om = Afan Owomo
+or = Odya
+pa-IN = Pounjabi
+pap-AW = Papyamento (Aruba)
+pl = Polonè
+ps = Pachto
+pt = Pòtigè
+quc = Kiche
+quy = Kwechwa Chanka
+rm-sursilv = Romanch Sousilvan
+rm-vallader = Romanch Valadè
+ro = Woumen
+ru = Ris
+rw = Kinyawanda
+sah = Saka
+sat = Santali (Ol Chiki)
+sc = Sadinyen
+scn = Sisilyen
+sdh = Koudich di Sid
+shi = Chila
+si = Sinyala
+sk = Slovak
+skr = Sarayki
+sl = Slovenyen
+snk = Soninke
+so = Somalyen
+sq = Albanè
+sr = Sèb
+ss = Siswati
+st = Sid Sotho
+sv-SE = Swis
+sw = Swahili
+syr = Siryak
+ta = Tamil
+te = Telougou
+tg = Tajik
+th = Tay
+ti = Tigrinya
+tig = Tig
+tk = Tikmen
+tl = Tagalog
+tn = Sètswana
+tok = Toki Pona
+tr = Tik
+ts = Chitsonga
+tt = Tata
+tw = Twi
+ty = Tayisyen
+tyv = Touvan
+uby = Oubik
+udm = Oudmout
+ug = Ouygou
+uk = Ikrenyen
+ur = Oudou
+uz = Ouzbèk
+ve = Tchivenda
+vec = Venisyen
+vi = Vyetnamyen
+vot = Votik
+wo = Wolòf
+zh-CN = Chinwa
 
 # [/]
 
 
 ## Layout
 
+speak = pale
+speak-now = Pale kounye a
+datasets = Ansanm done
+languages = Lang yo
+about = Konsènan
+partner = Patnè
+profile = Pwofil
+help = èd
+contact = Kontak
+privacy = Konfidansyalite
+terms = Règleman
+cookies = Moso done
+faq = Kesyon Ki Poze Souvan
+content-license-text = Kontni ki disponib anba yon <licenseLink>Lisans Creative Commons</licenseLink>
+share-title = Ede nou jwenn lòt moun pou bay vwa pa yo!
+share-text = Ede antrene machin yo kijan moun reyèl yo pale, bay vwa'w kòm donasyon nan { $link }
+link-copied = Lyen kopye
+back-top = Retounen Anwo Nèt
+logout = Dekonekte
 
 ## Home Page
 
+home-title = Common Voice  se inisyativ Mozilla pou aprann machin kijan moun pale.
+default-tagline = Mozilla Common Voice se yon inisyativ pou ede anseye machin ki jan moun reyèl pale.
+home-cta = Ou mèt pale, kontribye isit la!
+wall-of-text-start =
+    Vwa natirèl, vwa se moun. Se poutèt sa nou kontan anpil nan kreye teknoloj vwa
+    pou machin nou yo ka itilize. Men, pou kreye sistèm vwa, yon gwo kantite vwa
+    done obligatwa.
+help-us-title = Ede nou valide fraz yo!
+vote-yes = Wi
+vote-no = Non
+speak-subtitle = Bay vwa ou.
+listen-subtitle = Ede nou valide vwa yo
+all-locales = Tout
+today = Jodi a
 
 ## Account Benefits
 
@@ -160,15 +260,36 @@ nia = Nias
 
 ## Listen Shortcuts
 
+shortcut-play-toggle-label = Jwe/Sispann
 
 ## Speak Shortcuts
 
+shortcut-record-toggle-label = Anregistre/Sispann
+shortcut-submit = Retounen
+request-language-text = Ou poko wè lang paw' la sou Common Voice kounye a?
 
 ## ProjectStatus
 
+english = Anglè
 
 ## ProfileForm
 
+profile-form-username =
+    .label = Non itilizatè
+profile-form-accent =
+    .label = Aksan
+profile-form-age =
+    .label = Laj
+hidden = Kache
+visible = Visib
+male = Gason
+female = Fanm
+# Gender
+other = Lòt
+goals = Objektif yo
+profile-close = Fèmen
+off = Etenn
+on = Limen
 
 ## Profile - Email
 
@@ -178,6 +299,7 @@ nia = Nias
 
 ## FAQ
 
+faq-why-important-q = Poukisa li enpòtan?
 
 ## ABOUT US
 
