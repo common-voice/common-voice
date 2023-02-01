@@ -31,6 +31,7 @@ const SOURCES = {
     "'sha256-Hul+6x+TsK84TeEjS1fwBMfUYPvUBBsSivv6wIfKY9s='",
     "'sha256-GzFSggTMJH0+aLj5HI3ZiCtxjVrlSWczZ/oHezdwRgE='",
     'https://www.google-analytics.com',
+    'https://www.googletagmanager.com',
     'https://pontoon.mozilla.org',
     'https://anlp.ksaa.gov.sa',
     'https://*.sentry.io',
