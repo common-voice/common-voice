@@ -242,6 +242,7 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
           </header>
           {isContributionPageActive && (
             <div className="secondary-nav">
+              <MenuIcon />
               <div className="options">
                 <div
                   className={cx({
