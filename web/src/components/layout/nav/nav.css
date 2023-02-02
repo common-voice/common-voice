@@ -205,7 +205,9 @@ header {
 
             &.active {
                 & .menu {
-                    display: flex;
+                    @media (--lg-up) {
+                        display: flex;
+                    }
                 }
 
                 & .nav-link-item {
@@ -213,7 +215,9 @@ header {
                 }
 
                 & svg {
-                    fill: var(--blue);
+                    @media (--lg-up) {
+                        fill: var(--blue);
+                    }
                 }
             }
 
