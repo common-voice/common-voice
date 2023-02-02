@@ -59,7 +59,7 @@ const ContributeMenu: React.FC<ContributeMenuProps> = ({
         )}
         {isContributionPageActive && <span className="black-border" />}
       </div>
-      <div className="contribute-link-wrapper">
+      <div className="contribute-links-wrapper">
         <p className="nav-link-item">
           <Localized id="contribute" />
         </p>
@@ -69,12 +69,12 @@ const ContributeMenu: React.FC<ContributeMenuProps> = ({
       </div>
       {showMobileMenu && (
         <div
-          className="nav-menu-wrapper-mobile"
+          className="menu-wrapper-mobile"
           data-testid="contribute-mobile-menu">
           <ContributeMenuContent pathname={location.pathname} />
         </div>
       )}
-      <div className="nav-menu-wrapper" data-testid="nav-menu-wrapper">
+      <div className="menu-wrapper" data-testid="menu-wrapper">
         {isContributionPageActive && <span className="black-border" />}
         <div className="menu">
           <span className="blue-border" />

@@ -214,7 +214,7 @@ header {
                 align-items: flex-start;
             }
 
-            & .contribute-link-wrapper {
+            & .contribute-links-wrapper {
                 display: flex;
                 align-items: center;
 
@@ -223,7 +223,7 @@ header {
                 }
             }
 
-            & .nav-menu-wrapper {
+            & .menu-wrapper {
                 position: relative;
 
                 & .black-border {
@@ -325,7 +325,7 @@ header {
                 transform: rotate(180deg);
             }
 
-            & .nav-menu-wrapper-mobile {
+            & .menu-wrapper-mobile {
                 width: 100%;
                 @media (--lg-up) {
                     display: none;
