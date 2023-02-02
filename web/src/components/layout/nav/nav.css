@@ -7,11 +7,28 @@
         background: var(--desert-storm);
         margin: 0 auto;
 
+        @media (--md-down) {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            padding-left: var(--page-margin);
+        }
+
+        & .menu-icon {
+            @media (--lg-up) {
+                display: none;
+            }
+        }
+
         & .options {
             display: flex;
             margin: 0 auto;
             max-width: var(--desktop-width);
             padding: 0 var(--page-margin);
+
+            @media (--md-down) {
+                margin: 0;
+            }
 
             & .selected-option {
                 background: var(--lighter-grey);
