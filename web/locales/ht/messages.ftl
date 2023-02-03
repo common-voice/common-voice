@@ -598,12 +598,36 @@ total-approved = Total Apwouve
 
 ## Custom Goals
 
+both-speak-and-listen = Tou de
+daily-goal = Objektif chak jou
+weekly-goal = Objektif chak semèn
+easy-difficulty = Fasil
+average-difficulty = Mwayèn
+difficult-difficulty = Difisil
+set-a-goal = Mete yon objektif
+cant-decide = Ou pa ka deside?
+confirm-goal = Konfime Objektif
+goal-interval-weekly = Chak semèn
+share-goal-type-speak = Pale
+share-goal-type-listen = Tande
+share-goal-type-both = Pale ak Tande
+share-goal = Pataje objektif mwen
 
 ## Profile Delete
 
+keep = Kenbe
+remove = Retire
+profile-form-delete = Efase Profile
 
 ## Profile Download
 
+download-profile-title = Pwofil
+download-recordings-title = Anrejistreman yo
+download-size = Gwosè
+download-selected = Chwazi
+download-request = Mande anrejistreman yo
+download-request-button = Telechaje
+download-request-refresh-button = Rafrechi
 
 ## Landing
 
