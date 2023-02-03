@@ -432,6 +432,8 @@ login-signup = Konekte / Enskri
 edit = Modifye
 email-subscriptions = Abònman Imèl
 download-profile = Telechaje Done mwen yo
+contribution-experience = Eksperyans kontribisyon
+skip-submission-feedback = Sote Reyaksyon Soumèt
 off = Etenn
 on = Limen
 
