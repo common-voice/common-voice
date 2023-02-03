@@ -13,7 +13,7 @@ services:
       - MYSQL_PASSWORD=voicecommons
       - MYSQL_ROOT_PASSWORD=voicewebroot
     ports:
-      - 3306:3306
+      - 3307:3306
   redis:
     image: redis:alpine
     container_name: redis
