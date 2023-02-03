@@ -395,14 +395,43 @@ profile-form-age =
     .label = Laj
 profile-form-gender-2 =
     .label = Sèks
+leaderboard-visibility =
+    .label = Vizibilite Tablo Lidè
 hidden = Kache
 visible = Visib
+native-language =
+    .label = Lang natif natal
+profile-form-add-accent = Ajoute nouvo dyalèk diferan "{ $inputValue }"
+profile-form-submit-save = Sere
+profile-form-submit-saved = Li Sere
 male = Gason
 female = Fanm
 # Gender
 other = Lòt
+why-profile-title = Poukisa yon pwofil?
+why-profile-text =
+    Lè'w bay kèk enfòmasyon sou tèt ou, done odyo ou voye bay Common Voice yo ap pi itil pou Motè rekonesans
+    Lapawòl ki itilize done sa yo pou amelyore presizyon yo.
+dashboard = Tableau
+build-profile = Konstwi pwofil
+avatar = Avata
 goals = Objektif yo
+settings = Konfigirasyon
+edit-profile = Modifye Pwofil
+profile-create-success = Bravo, pwofil ou kreye!
 profile-close = Fèmen
+profile-explanation = Kenbe tras de pwogrè'w ak yon pwofil epi ede done vwa nou yo vinn pi egzak.
+thanks-for-account = Mèsi paske ou konfime kont ou, kounye a ann bati pwofil ou.
+why-demographic = Poukisa sa enpòtan?
+why-demographic-explanation-2 = Done itilizatè anonimize tankou laj, sèks, ak dyalèk ede amelyore done odyo yo ki itilize pou antrene presizyon nan motè rekonesans lapawòl. Non itilizatè'w ak imel ou pap janm asosye ak done ou soumèt, epi ou ka chwazi si'w vle fè non itilizatè ou an piblik oswa anonim.
+accept-privacy = Mwen dakò ak ou jere enfòmasyon sa jan ou eksplike nan <privacyLink>Politik sou enfòmasyon prive</privacyLink> Mozilla.
+accept-privacy-title = Règleman sou enfòmasyon prive
+accept-privacy-and-terms = Mwen dakò ak <termsLink>Kondisyon</termsLink> ak <privacyLink>Avi sou enfòmasyon prive</privacyLink> Common Voice.
+login-identity = Idantite Kredansyèl
+login-signup = Konekte / Enskri
+edit = Modifye
+email-subscriptions = Abònman Imèl
+download-profile = Telechaje Done mwen yo
 off = Etenn
 on = Limen
 
@@ -458,6 +487,7 @@ faq-why-important-q = Poukisa li enpòtan?
 
 ## Data
 
+dataset-date = Dat
 
 ## Datasets Page
 
