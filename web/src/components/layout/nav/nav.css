@@ -4,7 +4,7 @@
     border-bottom: 1px solid var(--light-grey);
 
     & .secondary-nav {
-        background: var(--desert-storm);
+        background: var(--grey);
         margin: 0 auto;
 
         @media (--md-down) {
@@ -31,7 +31,7 @@
             }
 
             & .selected-option {
-                background: var(--lighter-grey);
+                background: var(--desert-storm);
                 padding: 10px;
                 flex-wrap: wrap;
 
