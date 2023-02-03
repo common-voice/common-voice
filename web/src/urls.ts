@@ -33,6 +33,7 @@ export default Object.freeze({
   ABOUT: '/about',
   CRITERIA: '/criteria',
   PARTNER: '/partner',
+  GUIDELINES: '/guidelines',
 
   LANGUAGES: '/languages',
   LANGUAGE_REQUEST: '/language/request',
