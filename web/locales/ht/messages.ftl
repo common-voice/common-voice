@@ -481,43 +481,120 @@ faq-why-important-q = Poukisa li enpòtan?
 
 ## Glossary
 
+glossary = Glosè
+localization = Lokalizasyon
 
 ## Error pages
 
+error-code = Erè { $code }
 
 ## Data
 
+data-download-yes = Wi
+data-download-deny = Non
+data-other-title = Lòt done vwa...
+data-other-goto = Ale nan { $name }
+release-version = vèsyon
 dataset-date = Dat
+license = Lisans: <licenseLink>{ $license }</licenseLink>
+license-mixed = Melanje
+terms-agree = Mwen dakò
+review-recording = Revize
 
 ## Datasets Page
 
+# File size in gigabytes
+size = Gwosè
+cv-license = Lisans
+splits = Fann
+subscribe = Abòne
+more = Plis
+close = Fèmen
+download = Telechaje
+dataset-version = Vèsyon
 
 ## Download Modal
 
+download-no = Non Mèsi
 
 ## Contact Modal
 
+contact-form-name =
+    .label = Non
+contact-form-message =
+    .label = Mesaj
+contact-required = *obligatwa
 
 ## Request Language Modal
 
+request-language-title = Demann Lang
+request-language-form-language =
+    .label = Lang
+other-language = Lòt Lang
 
 ## Request Language Pages
 
+request-language-form-email =
+    .label = Adrès imel ou
+request-language-form-info-explanation-list-1 = Non lang ou
 
 ## Languages Overview
 
+language-section-in-progress = Nan Pwogrè
+languages-show-more = Gade plis
+languages-show-less = Gade Mwens
+language-meter-in-progress = Pwogrè
+language-total-progress = Total
+language-search-input =
+    .placeholder = Chache
+language-speakers = Moun kap pale
+localized = Lokalize
+sentences = Fraz yo
 
 ## Contribution
 
+action-click = Klike
+action-tap = Tape
+contribute = Kontribye
+listen = Koute
+skip = Sote
+shortcuts = Rakousi
+record-cta = Kòmanse anrejistreman
+record-must-allow-microphone = Ou dwe pèmèt aksè mikwofòn.
+record-no-mic-found = Pa jwenn mikwofòn.
+record-error-too-short = Anrejistreman an te twò kout.
+record-error-too-long = Anrejistreman an te twò long.
+record-error-too-quiet = Anrejistreman an te twò ba.
+record-cancel = Anile Re-anrejistreman
+record-three-more-instruction = Twa pou ale!
+share-common-voice = Pataje Common Voice
+record-abort-submit = Soumèt odyo yo
+record-abort-continue = Fini anrejistreman
+record-button-label = Anrejistre vwa'w
+target-segment-add-voice = Ajoute Vwa'w
 
 ## Reporting
 
+report = Rapòte
+report-title = Soumèt yon rapò
+report-offensive-language = Lang ofansif
+report-different-language = Diferan lang
+report-other-comment =
+    .placeholder = Kòmantè
+success = Siksè
+continue = Kontinye
 
 ## Goals
 
 
 ## Dashboard
 
+goal-reached = Objektif ateri
+awards = Prim
+you = Ou menm
+everyone = Tout moun
+contribution-activity = Aktivite Kontribisyon
+total-approved = Total Apwouve
 
 ## Custom Goals
 
