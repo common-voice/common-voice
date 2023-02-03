@@ -315,35 +315,86 @@ improve-audio = Enfòmasyon sou pwofil amelyore done odyo yo ki itilize nan fòm
 keep-track = Kenbe tras pwogrè'w ak meziman nan plizyè lang.
 compare-progress = Gade ki jan pwogrè'w konpare ak lòt kontribitè nan tout mond lan.
 view-goals = Gade pwogrè'w kont objektif pèsonèl ak objektif pwojè yo.
+join-newsletter = Opsyonèlman rantre nan lis imèl nou an pou pwogrè ak nouvo enfòmasyon sou pwojè a.
 
 ## What's public
 
+whats-public = Ki sa ki piblik?
+email-not-public = Nou pa'p fè imèl ou an piblik.
+recordings-and-locale-public = Kantite anrejistreman ak nan ki lang ou kontribye yo pral piblik.
+username-optin-public = Ou ka chwazi pou fè non itilizatè ou an piblik oswa anonim.
+demographic-deidentified-clarity-2 = Done demografik ou te soumèt (pa egzanp, laj, sèks, lang, ak aksan) pa'p janm pibliye sou pwofil ou a, epi yo pa'p lye ak kont ou nan seri done a. Klip odyo endividyèl yo pral asosye ak done demografik nan bi pou analize yo pi egzak - pou egzanp, yon chèchè ta ka vle vize yon modèl fòmasyon nan yon segman demografik espesifik.
+username-email-not-demographic = Non itilizatè ou ak imel ou pa'p asosye ak done ki pibliye yo.
 
 ## Speak & Listen Shortcuts
 
+# Must be one letter that appears in the translated { skip } string.
+shortcut-skip = s
 
 ## Listen Shortcuts
 
+# Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-play-toggle = j
 shortcut-play-toggle-label = Jwe/Sispann
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = w
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = n
 
 ## Speak Shortcuts
 
+# Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-record-toggle = a
 shortcut-record-toggle-label = Anregistre/Sispann
+shortcut-rerecord-toggle = [1-5]
+shortcut-rerecord-toggle-label = Re-anrejistre odyo
+shortcut-discard-ongoing-recording = ESC
+shortcut-discard-ongoing-recording-label = Jete anrejistreman k'ap kontinye
 shortcut-submit = Retounen
+shortcut-submit-label = Soumèt odyo yo
 request-language-text = Ou poko wè lang paw' la sou Common Voice kounye a?
+request-language-button = Mande yon lang
 
 ## ProjectStatus
 
+status-title = Estati pwojè an jeneral: gade ki jan nou te avanse!
+status-contribute = Kontribye Vwa'w
+status-hours =
+    { $hours ->
+        [one] inèdtan valide jiskaprezan!
+       *[other] { $hours } èdtan valide jiskaprezan!
+    }
+# Variables:
+# $goal - number of hours representing the next goal
+status-goal = Pwochen objektif: { $goal }
 english = Anglè
 
 ## ProfileForm
 
 profile-form-username =
     .label = Non itilizatè
+profile-form-native-language =
+    .label = Lang natif natal
+profile-form-additional-language =
+    .label = Lòt Lang
+profile-form-language =
+    .label = Lang
+profile-form-variant =
+    .label = Ki dyalèk de { $language } ou pale?
+profile-form-variant-default-value = Pa gen okenn dyalèk chwazi
 profile-form-accent =
     .label = Aksan
+profile-form-custom-accent-help-text =
+    .label = Ki jan ou ta dekri dyalèk ou a?
+profile-form-custom-accent-placeholder-2 = Kòmanse tape pou dekri dyalèk ou
 profile-form-age =
     .label = Laj
+profile-form-gender-2 =
+    .label = Sèks
 hidden = Kache
 visible = Visib
 male = Gason
