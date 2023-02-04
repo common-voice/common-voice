@@ -442,10 +442,17 @@ on = Limen
 
 ## Profile - Email
 
+manage-subscriptions = Jere abònman
+manage-email-subscriptions = Jere abònman imel
+add-language = Ajoute Lang
 
 ## FAQ
 
 faq-why-important-q = Poukisa li enpòtan?
+faq-why-mission-q = Poukisa Common Voice fè pati misyon Mozilla la?
+faq-is-goal-assistant-q = Èske objektif Common Voice pou konstwi yon asistan vwa?
+faq-why-different-speakers-q = Poukisa ou bezwen anpil moun ki pale diferan pou chak lang?
+faq-why-my-lang-q = Poukisa lang mwen an poko enkli?
 
 ## ABOUT US
 
