@@ -581,14 +581,24 @@ review-submit-msg = Mèsi pou anrejistreman!<lineBreak></lineBreak>Koulye a, rev
 review-recording = Revize
 review-rerecord = Re-anrejistre
 review-cancel = Anile soumisyon
+review-keep-recordings = Kenbe anrejistreman yo
+review-delete-recordings = Efase anrejistreman mwen yo
 
 ## Datasets Page
 
+language = Lang
 # File size in gigabytes
 size = Gwosè
 cv-license = Lisans
+audio-format = Fòma odyo
+number-of-voices = Kantite vwa
 splits = Fann
+email-to-download = Antre imel pou telechaje
+confirm-size = Ou pare pou kòmanse yon telechajman de <b>{ $size }</b>
+confirm-join-mailing-list = Mwen vle rantre nan lis adrès Common Voice la
 subscribe = Abòne
+get-started-speech = Kòmanse ak Rekonesans Lapawòl
+go-languages-page = Ale nan Paj Lang yo
 more = Plis
 close = Fèmen
 download = Telechaje
@@ -600,6 +610,7 @@ download-no = Non Mèsi
 
 ## Contact Modal
 
+contact-title = Fòm kontak
 contact-form-name =
     .label = Non
 contact-form-message =
@@ -611,17 +622,22 @@ contact-required = *obligatwa
 request-language-title = Demann Lang
 request-language-form-language =
     .label = Lang
+select-language = Chwazi yon lang...
 other-language = Lòt Lang
 
 ## Request Language Pages
 
+request-language-heading = Mande sou yon nouvo lang
 request-language-form-email =
     .label = Adrès imel ou
+request-language-form-info =
+    .label = Enfòmasyon sou lang lan
 request-language-form-info-explanation-list-1 = Non lang ou
 
 ## Languages Overview
 
 language-section-in-progress = Nan Pwogrè
+language-section-launched = Te lanse
 languages-show-more = Gade plis
 languages-show-less = Gade Mwens
 language-meter-in-progress = Pwogrè
@@ -631,6 +647,7 @@ language-search-input =
 language-speakers = Moun kap pale
 localized = Lokalize
 sentences = Fraz yo
+language-validation-progress = Pwogrè Validasyon
 
 ## Contribution
 
@@ -641,6 +658,7 @@ listen = Koute
 skip = Sote
 shortcuts = Rakousi
 record-cta = Kòmanse anrejistreman
+record-platform-not-supported = Nou regrèt sa, platfòm ou a pa sipòte kounye a.
 record-must-allow-microphone = Ou dwe pèmèt aksè mikwofòn.
 record-no-mic-found = Pa jwenn mikwofòn.
 record-error-too-short = Anrejistreman an te twò kout.
