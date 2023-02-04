@@ -987,33 +987,121 @@ sc-submit-add-sentences = Ajoute fraz <wikipediaLink>domèn piblik</wikipediaLin
 sc-submit-ph-one-per-line =
     .placeholder = Yon fraz pou chak liy
 sc-submit-from-where = Ki kote fraz <wikipediaLink>domèn piblik</wikipediaLink> sa yo soti?
+sc-submit-button =
+    .submitText = Soumèt
 
 ## ADD LANGUAGE
 
+sc-add-lang-could-not-add = Pa t 'kapab ajoute lang
+sc-add-lang-sec-label = Ajoute yon lang ou vle kontribye ladan'l
+sc-add-lang-sec-button = Ajoute Lang
+sc-add-err-unexpected = Repons inatandi tounen soti nan sèvè
+sc-add-err-submission = Erè soumisyon
 
 ## ADD SENTENCES CONFIRMATION
 
+sc-confirm-sentences-title = Konfime nouvo fraz yo
+sc-confirm-button-text = Konfime
 
 ## LANGUAGE INFO
 
+sc-lang-info-title-total = Total
+sc-lang-info-title-personal = Pèsonèl
+# Variables:
+#   $totalSentences (Number) - Number of sentences uploaded in total for this language
+sc-lang-info-total =
+    { $totalSentences ->
+        [0] { $totalSentences } fraz total.
+        [one] { "" }
+       *[other] { "" }
+    }
+# Variables:
+#   $totalInReview (Number) - Number of sentences currently in the review state for this language
+sc-lang-info-in-review =
+    { $totalInReview ->
+        [0] Pa gen fraz nan revizyon.
+        [one] 1 fraz nan revizyon.
+       *[other] { $totalInReview } fraz nan revizyon yo.
+    }
+# Variables:
+#   $unreviewedSentencesByYou (Number) - Number of sentences the user can still review
+sc-lang-info-left-for-you =
+    { $unreviewedSentencesByYou ->
+        [0] Pa gen fraz ki rete pou'w revize.
+        [one] 1 fraz ki rete pou'w revize.
+       *[other] { $unreviewedSentencesByYou } fraz ki rete pou'w revize yo.
+    }
 
 ## LOGIN
 
+sc-login-err-failed = Keksyon an echwe
+sc-login-err-try-again = Tanpri eseye ankò.
 
 ## PROFILE
 
+# Variables:
+#   $username (String) - eMail address of the logged in user
+sc-profile-title = Pwofil: { $username }
+sc-personal-err-lang-not-found = Pa t 'kapab retire lang nan: pa jwenn lang nan
+sc-personal-err-remove = Pa t 'kapab retire lang nan
+sc-personal-your-languages = Lang ou yo:
+sc-personal-remove-button = retire
+# Variables:
+#   $sentences (Number) - Number of sentences that were added by the currently logged in user for this language
+sc-personal-added-by-you = { $fraz } ou te ajoute
+sc-personal-not-added = Ou poko ajoute okenn lang.
 
 ## REVIEW CRITERIA
 
+sc-criteria-modal = ⓘ Kritè Pou Revize yo
+sc-criteria-title = Kritè Pou Revize yo
+sc-criteria-make-sure = Asire'w ke fraz la satisfè kritè sa yo:
+sc-criteria-item-1 = Fraz la dwe eple kòrèkteman.
+sc-criteria-item-2 = Fraz la dwe gramatikalman kòrèk.
+sc-criteria-item-3 = Fraz la dwe palab.
+sc-criteria-item-4 = Si fraz la satisfè kritè yo, klike sou &quot;Apwouve&quot; bouton sou bò dwat la.
+sc-criteria-item-5-2 = Si fraz la pa satisfè kritè ki anwo yo, klike sou &quot;Rejte&quot; bouton sou bò gòch la. Si ou pa sèten sou fraz la, ou ka sote'l tou epi ale nan pwochen an.
+sc-criteria-item-6 = Si'w fini ak fraz pou revize, tanpri ede nou kolekte plis fraz!
 
 ## REVIEW
 
+sc-review-title = Revizyon fraz yo
+sc-review-loading = Chaje fraz yo...
+sc-review-select-language = Tanpri chwazi yon lang pou revize fraz yo.
+# Variables:
+#   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
+sc-review-form-source = Sous: { $sentenceSource }
+sc-review-form-button-reject = Rejte
+sc-review-form-button-skip = Sote
+sc-review-form-button-approve = Apwouve
+# Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
+sc-review-form-button-approve-shortcut = W
+# Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
+sc-review-form-button-reject-shortcut = N
+# Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
+sc-review-form-button-skip-shortcut = S
+sc-review-form-button-submit =
+    .submitText = Fini revizyon
+sc-review-link = Revize
 
 ## SETTINGS
 
+sc-settings-title = Konfigirasyon
+sc-settings-reset-skipped = Reyajiste fraz sote yo
+sc-settings-show-all-button = Montre tout fraz sote yo ankò
+sc-settings-failed = Pa t 'kapab chanje paramèt yo. Tanpri eseye ankò.
+# VALIDATION
+sc-validation-number-of-words = Fraz dwe genyen ant 1 ak 14 mo (enklizif).
+sc-validation-no-numbers = Fraz pa ta dwe gen nimewo
+sc-validation-no-symbols = Fraz pa ta dwe gen senbòl
+sc-validation-no-abbreviations = Fraz pa ta dwe genyen abrevyasyon
 
 # [/SentenceCollector]
 
+localization-select =
+    .label = Chwazi lang/lokalizasyon
+# PARTNERSHIPS PAGE
+partnerships-header = Patenarya
 why-donate-explanation-2 = Pou teknoloji sa travay byen pou tout moun, done ki ede devlopè yo pou bati teknoloji sa bezwen reflete yon seri divès moun. Pa egzanp, si nou pa mete okenn moun ki pale ak yon aksan patikilye, Lè sa a, teknoloji a pa pral travay byen pou moun ki gen aksan sa a. <learnMore>Aprann plis sou poukisa metadata enpòtan.</learnMore>
 add-information-button = Ajoute enfòmasyon
 continue-speaking-button = Non mèsi, ou mèt kontinye pale
