@@ -907,27 +907,86 @@ sc-header-home = Lakay
 sc-header-how-to = Kijan pou
 sc-header-add = Ajoute
 sc-header-review = Revize
+sc-header-rejected = Fraz ki rejte
+sc-header-my = Fraz mwen yo
+sc-header-statistics = Estatistik
+sc-header-profile = Pwofil
+sc-footer-discourse = Discourse
+sc-footer-report-bugs = Rapòte pwoblèm
+sc-footer-translate = Tradui paj sa a
+sc-footer-report-copyright = Rapòte pwoblèm copyright
+sc-footer-privacy = Konfidansyalite
+sc-footer-terms = Règleman
+sc-footer-cookies = Moso done
+sc-login-signup-button = Konekte / Enskripsyon
+sc-logout-button = Dekonekte
 
 ## HOME
 
+sc-home-title = Byenvini nan Common Voice Kolektè Fraz
+sc-home-collect-title = Kolekte fraz yo
+sc-home-review-title = Revizyon fraz yo
 
 ## GENERAL
 
 
 ## HOW-TO
 
+sc-howto-title = Kijan pou
+sc-howto-addlang-title = Ajoute lang pou travay avèk yo
+sc-howto-addsen-title = Ajoute nouvo fraz yo
+sc-howto-review-title = Revizyon fraz yo
+sc-howto-review-subtitle = Asire'w ke fraz la satisfè kritè sa yo:
+sc-howto-review-criteria-1 = Fraz la dwe eple kòrèkteman.
+sc-howto-review-criteria-2 = Fraz la dwe gramatikalman kòrèk.
+sc-howto-review-criteria-3 = Fraz la dwe palab.
+sc-howto-review-criteria-4 = Si fraz la satisfè kritè yo, klike sou bouton "Apwouve".
+sc-howto-findpd-subtitle = Chèche yo sou entènèt la
+sc-howto-findpd-tips = Men kèk konsèy pou jwenn fraz yo:
 
 ## MY SENTENCES
 
+sc-my-title = Fraz mwen yo
+sc-my-loading = Chaje fraz ou yo...
+sc-my-no-sentences = Pa gen fraz pou jwenn!
+# Variables:
+#   $batchId (String) - A unique ID identifying the submission of sentences - sentences uploaded together all have the same batch ID
+sc-my-submission = Soumèt: { $batchId }
+# Variables:
+#   $source (String) - Associated source the user filled out when uploading the sentence
+sc-my-source = Sous: { $source }
+sc-my-delete = Efase fraz ki chwazi yo
+sc-my-deleting = Efase fraz ki chwazi yo...
+sc-my-err-failed-delete = Echwe nan efase fraz chwazi yo... Tanpri eseye ankò!
 
 ## REJECTED
 
+sc-rejected-title = Fraz ki te rejte yo
+sc-rejected-loading = Chajman fraz rejte yo...
+sc-rejected-err-fetching = Erè pandan ap chèche fraz rejte yo. Tanpri eseye ankò.
+sc-rejected-none-found = Pa gen okenn fraz rejte ki jwenn!
 
 ## STATS
 
+sc-stats-title = Estatistik
+sc-stats-updating = Mete ajou...
+sc-stats-error = Nou pa t 'kapab jwen estatistik yo. Tanpri eseye ankò pita.
 
 ## ADD
 
+sc-submit-err-select-lang = Tanpri chwazi yon lang.
+sc-submit-err-add-sentences = Tanpri ajoute fraz.
+sc-submit-err-add-source = Tanpri ajoute yon sous.
+sc-submit-err-confirm-pd = Tanpri konfime ke fraz sa yo se domèn piblik.
+sc-submit-prompt =
+    .message = Fraz yo pa soumèt, èske ou sèten ou vle kite?
+sc-submit-title = Ajoute Fraz Yo
+sc-submit-select-language =
+    .labelText = Chwazi Lang
+sc-submit-add-sentences = Ajoute fraz <wikipediaLink>domèn piblik</wikipediaLink>
+sc-submit-ph-one-per-line =
+    .placeholder = Yon fraz pou chak liy
+sc-submit-from-where = Ki kote fraz <wikipediaLink>domèn piblik</wikipediaLink> sa yo soti?
 
 ## ADD LANGUAGE
 
