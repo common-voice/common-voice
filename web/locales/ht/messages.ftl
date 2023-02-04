@@ -483,7 +483,11 @@ faq-when-release2-a = Vèsyon plizyè lang nan seri done Common Voice la kounye 
 faq-why-mission-q = Poukisa Common Voice fè pati misyon Mozilla la?
 faq-why-mission-a = Mozilla dedye nan kenbe entènèt la louvri epi aksesib pou tout moun. Pou fè sa, nou bezwen otorize kreyatè entènèt yo atravè pwojè tankou Common Voice. Lè teknoloji vwa pwopaje pi lwen tikal nich aplikasyon yo, nou kwè yo dwe sèvi tout itilizatè yo egalman. Sa vle di envesti nan plis lang ak akomode aksan divès ak demografik lè teknoloji vwa ap bati ak teste . Common Voice se yon resous piblik ki disponib pou tout moun ak ekip Mozilla e devlopè atravè mond lan deja itilize li sou pwòp pwojè nou yo tou.
 faq-what-cv-and-deepspeech-q = Ki diferans ki genyen ant Common Voice (vwa komen) ak Deep Speech (diskou pwofon)?
+faq-what-cv-and-deepspeech-a = Ansanm done Common Voice konplete motè rekonesans vwa sous pwogram louvri Mozilla Deep Speech. Premye vèsyon Deep Speech te pibliye an Novanm 2017 e li kontinye evolye depi lè sa a. Ansanm ak seri done Common Voice, nou kwè teknoloji rekonesans vwa sous pwogram louvri sa dwe disponib pou tout moun. Nou espere ke teknoloji sa yo pral pèmèt devlopè yo bati yon bann pwodwi ak sèvis inovatè.
 faq-is-goal-assistant-q = Èske objektif Common Voice pou konstwi yon asistan vwa?
+faq-is-goal-assistant-a = Objektif done Common Voice la se pou pèmèt nenpòt moun nan mond lan bati rekonesans lapawòl, rekonesans moun k'ap pale, oswa nenpòt lòt kalite aplikasyon ki mande done vwa. Yon asistan vwa se jis youn nan plizyè kalite aplikasyon ou ta ka itilize ansanm done a pou konstwi.
+faq-do-want-native-q = Mwen se yon moun ki pa pale natif natal epi mwen pale ak yon aksan, ou toujou vle vwa mwen?
+faq-do-want-native-a = Wi, nou espesyalman vle vwa'w! Yon pati nan objektif Common Voice se rasanble otan aksan ak dyalèk diferan posib pou sèvis rekonesans vwa yo travay egalman byen pou tout moun. Sa vle di kontribisyon ki soti nan moun ki pa pale natif natal yo patikilyèman enpòtan.
 faq-why-different-speakers-q = Poukisa ou bezwen anpil moun ki pale diferan pou chak lang?
 faq-why-my-lang-q = Poukisa lang mwen an poko enkli?
 faq-why-10k-hours-q = Poukisa se 10,000 èdtan valide se objektif pou chak lang pou kaptire odyo?
@@ -684,6 +688,7 @@ language-search-input =
 language-speakers = Moun kap pale
 localized = Lokalize
 sentences = Fraz yo
+language-validation-hours = Èdtan
 language-validation-progress = Pwogrè Validasyon
 
 ## Contribution
@@ -694,6 +699,13 @@ contribute = Kontribye
 listen = Koute
 skip = Sote
 shortcuts = Rakousi
+clips-with-count-pluralized =
+    { $count ->
+        [one] odyo
+       *[other] odyo yo
+    }
+goal-help-recording = Ou te ede Common Voice rive nan <goalPercentage></goalPercentage> objektif anrejistreman { $goalValue } nou chak jou!
+goal-help-validation = Ou te ede Common Voice rive nan <goalPercentage></goalPercentage> nou chak jou pou { $goalValue } objektif validasyon !
 record-cta = Kòmanse anrejistreman
 record-platform-not-supported = Nou regrèt sa, platfòm ou a pa sipòte kounye a.
 record-must-allow-microphone = Ou dwe pèmèt aksè mikwofòn.
