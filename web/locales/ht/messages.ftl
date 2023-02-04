@@ -436,9 +436,17 @@ contribution-experience = Eksperyans kontribisyon
 skip-submission-feedback = Sote Reyaksyon Soumèt
 off = Etenn
 on = Limen
+help-accent = Bezwen èd ak aksan?
+help-variants = Bezwen èd ak dyalèk?
 
 ## Profile - Email
 
+browse-file-title = Telechaje yon fichye imaj
+browse-file = Trennen epi depoze oswa <browseWrap>Navige</browseWrap>
+connect-gravatar = Konekte ak Gravatar
+gravatar_not_found = Pa gen gravatar pou imèl ou
+file_too_large = Fichye ou chwazi a twò gwo
+avatar-uploaded = Avata telechaje
 
 ## Profile - Email
 
@@ -448,7 +456,10 @@ add-language = Ajoute Lang
 
 ## FAQ
 
+faq-title = Kesyon yo poze souvan
 faq-why-important-q = Poukisa li enpòtan?
+faq-how-get-q = Kijan mwen ka jwenn done Common Voice yo?
+faq-when-release2-q = Kilè w ap pibliye done Common Voice nan lòt lang?
 faq-why-mission-q = Poukisa Common Voice fè pati misyon Mozilla la?
 faq-is-goal-assistant-q = Èske objektif Common Voice pou konstwi yon asistan vwa?
 faq-why-different-speakers-q = Poukisa ou bezwen anpil moun ki pale diferan pou chak lang?
@@ -458,6 +469,9 @@ faq-how-calc-hours-q = Ki jan Common Voice kalkile èdtan?
 faq-where-src-from-2-q = Ki kote tèks sous la soti?
 faq-why-account-q = Poukisa mwen ta dwe enskri pou yon kont?
 faq-is-account-public-q = Èske enfòmasyon sou kont mwen an piblik?
+faq-how-privacy-q = Ki jan ou asire anonimite ak vi prive moun ki bay vwa yo?
+faq-what-is-cv = Ki sa ki se Common Voice?
+faq-using-cv = Sèvi ak Common Voice
 faq-search-for-answers =
     .label = Chèche repons
 
@@ -479,6 +493,7 @@ about-voice-contrib-title = Kontribisyon Vwa
 about-voice-contrib-subtitle = Moun vini e kontribye vwa yo.
 about-voice-validation-title = Validasyon vwa
 about-voice-validation-subtitle = Lòt moun valide klip vwa sa yo.
+about-dataset-release-title = Piblikasyon Ansanm Done
 about-speak = pale
 about-listen = Koute
 about-listen-text = Itilizatè yo valide presizyon klip yo bay yo, tcheke si moun nan li fraz la kòrèkteman.
