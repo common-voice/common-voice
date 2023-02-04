@@ -505,49 +505,82 @@ about-playbook-what-is-language = Ki sa ki se yon lang sou Common Voice?
 
 ## How do I add a language
 
+about-playbook-how-add-language = Kouman pou mwen ajoute yon lang?
+about-playbook-how-add-language-translating-heading = Tradiksyon sit la
+about-playbook-how-add-language-collecting-sentences-heading = Kolekte fraz yo
 
 ## How does localization work
 
+about-playbook-how-localize = Ki jan lokalizasyon sit travay?
+about-playbook-how-localize-content-1 = Tradiksyon sit Common Voice la fèt sou <strong>Pontoon</strong>.
+about-playbook-how-localize-content-4 = Sit la pare pou lanse lè li rive nan 75% fini.
+about-playbook-how-localize-content-5 = Gade esplikasyon videyo nou an pou ede w
 
 ## How to add sentences
 
+about-playbook-how-add-sentences = Kouman pou mwen ajoute fraz?
+about-playbook-how-add-sentences-content-1 = <strong>Sentence Collector</strong>se yon zouti pou kolekte epi valide santans domèn piblik yo. Ou pral <scAccountLink>bezwen kreye yon kont</scAccountLink>. Apre sa, ajoute lang ou nan <strong>Profil</strong>ou. Ou ka <strong>Ajoute</strong> fraz oswa <strong>Revize</strong> fraz ki te ajoute deja.
+about-playbook-how-add-sentences-content-2 = Fraz yo dwe revize epi aksepte pa de moun pou yo enkli nan Common Voice. Ou kreye gid pou lang ou <languageGuidelinesLink>isit</languageGuidelinesLink>. Fraz yo dwe nan <licenseLink>domèn piblik</licenseLink> epi yo dwe pi kout pase 15 mo. Ou ka mande pwopriyetè yon tèks pou fè l <waiverLink>CC0 lè l sèvi avèk pwosesis egzansyon nou an</waiverLink>, epi voye l ba nou sou commonvoice@mozilla.com.
 
 ## How to record quality
 
+about-playbook-how-record-quality = Kouman pou mwen anrejistre yon clip vwa kalite siperyè?
+about-playbook-how-record-content-3 = Li fraz la ak anpil atansyon - pa manke, chanje oswa ajoute mo.
 
 ## How to grow language
 
+about-playbook-how-grow-language = Ki jan nou ka efektivman devlope yon lang sou Common Voice?
+about-playbook-how-grow-language-content-2 = Evènman yo
+about-playbook-how-grow-language-content-6 = Patenarya ak rezo
 
 ## How to validate
 
+about-playbook-how-validate = Kouman pou mwen konnen si pou apwouve yon klip vwa?
 
 ## How to access dataset
 
 
 ## How are decisions made
 
+about-playbook-how-project-governance = Ki jan yo pran desizyon pwojè yo?
+about-playbook-how-project-governance-content-2 = Gouvènans nou an baze sou poto sa yo:
+about-playbook-how-project-governance-content-4 = Patisipasyon kominote a ak pran desizyon.
+about-playbook-how-project-governance-content-5 = Valè ak rekonesans.
+about-playbook-how-project-governance-content-6 = Responsablite mityèl.
 
 ## Glossary
 
 glossary = Glosè
 localization = Lokalizasyon
+sentence-collection = Koleksyon fraz
+hours-recorded-explanation = Konte èdtan anrejistreman vwa nou te kolekte jiskaprezan.
+sst = Lapawòl-a-tèks (LAT)
+de-identified = De-idantifye
 
 ## Error pages
 
+error-title-404 = Nou pa t 'kapab jwenn paj sa a pou ou
 error-code = Erè { $code }
 
 ## Data
 
+data-download-button = Telechaje done vwa komen
 data-download-yes = Wi
 data-download-deny = Non
 data-other-title = Lòt done vwa...
 data-other-goto = Ale nan { $name }
+data-other-download = Telechaje Done
 release-version = vèsyon
 dataset-date = Dat
 license = Lisans: <licenseLink>{ $license }</licenseLink>
 license-mixed = Melanje
 terms-agree = Mwen dakò
+terms-disagree = mwen pa dakò
+review-submit-title = Revize & Soumèt
+review-submit-msg = Mèsi pou anrejistreman!<lineBreak></lineBreak>Koulye a, revize epi voye klip ou yo anba a.
 review-recording = Revize
+review-rerecord = Re-anrejistre
+review-cancel = Anile soumisyon
 
 ## Datasets Page
 
