@@ -581,6 +581,7 @@ about-playbook-how-validate = Kouman pou mwen konnen si pou apwouve yon klip vwa
 
 ## How to access dataset
 
+about-playbook-how-access-dataset = Kouman pou mwen jwenn aksè ak itilize done yo?
 
 ## How are decisions made
 
@@ -605,6 +606,7 @@ de-identified = De-idantifye
 ## Error pages
 
 error-title-404 = Nou pa t 'kapab jwenn paj sa a pou ou
+error-title-503 = No'ap fè eksperyans tan inatandi
 error-code = Erè { $code }
 
 ## Data
@@ -612,6 +614,8 @@ error-code = Erè { $code }
 data-download-button = Telechaje done vwa komen
 data-download-yes = Wi
 data-download-deny = Non
+data-download-license = Lisans: <licenseLink>CC-0</licenseLink>
+data-get-started = <speechBlogLink>Kòmanse ak Rekonesans Lapawòl</speechBlogLink>
 data-other-title = Lòt done vwa...
 data-other-goto = Ale nan { $name }
 data-other-download = Telechaje Done
@@ -848,6 +852,10 @@ n-clips-pluralized =
 help-share-goal = Ede nou jwenn plis vwa, pataje objektif ou
 confirm-goal = Konfime Objektif
 goal-interval-weekly = Chak semèn
+# $type is one of share-goal-type-*
+share-n-daily-contribution-goal = Pataje objektif chak jou { $count } ou pou { $type }
+# $type is one of share-goal-type-*
+share-n-weekly-contribution-goal = Pataje { $count } objektif chak semèn ou pou { $type }
 share-goal-type-speak = Pale
 share-goal-type-listen = Tande
 share-goal-type-both = Pale ak Tande
@@ -868,11 +876,13 @@ profile-form-delete = Efase Profile
 download-q = Bezwen telechaje done'w la?
 download-info = Di nou sa'w ta renmen telechaje:
 download-profile-title = Pwofil
+download-profile-info = Gen ladann imèl, non itilizatè ak enfòmasyon demografik, ki disponib touswit
 download-recordings-title = Anrejistreman yo
 download-size = Gwosè
 download-selected = Chwazi
 download-start = Telechaje done pwofil ou
 download-request = Mande anrejistreman yo
+download-requests = Demann telechajman anrejistreman ki sot pase yo
 download-request-button = Telechaje
 download-request-refresh-button = Rafrechi
 download-request-modal-title = Telechaje Lyen
@@ -881,22 +891,27 @@ download-request-metadata-link = Tèks fraz
 ## Landing
 
 welcome-staff = Byenveni anplwaye { $company }!
+help-contribute = Ou ka ede konstwi yon seri done divès, sous louvri lè'w kreye yon pwofil Common Voice epi kontribye vwa'w.
+login-company = Konekte / Enskri ak imel { $company }
 read-more-about = Li plis sou paj About nou an
 
 ## DemoLayout
 
 demo-get-started = An'n kòmanse
 demo-welcome = Byenveni nan Common Voice
+demo-welcome-subheader = Ou enterese aprann plis ak kontribiye nan pwojè a?
 
 ## Demo Datasets
 
 card-button-next = Pwochen
 card-button-back = Retounen
 demo-language-select-label = Navige Lang yo
+demo-eofy-header = Divilgasyon nan fen ane 2019
 demo-account = Kont
 
 ## Demo Account
 
+demo-account-card-header = Ou pa oblije gen yon kont pou kontribye, poutan li tap itil.
 demo-account-sign-up = Voye lyen pou enskri
 
 ## Demo Contribute
@@ -965,6 +980,7 @@ sc-home-review-title = Revizyon fraz yo
 
 sc-howto-title = Kijan pou
 sc-howto-addlang-title = Ajoute lang pou travay avèk yo
+sc-howto-addlang-text = Yon fwa ou konekte ou ka chwazi lang ou yo nan seksyon pwofil la.
 sc-howto-addsen-title = Ajoute nouvo fraz yo
 sc-howto-review-title = Revizyon fraz yo
 sc-howto-review-subtitle = Asire'w ke fraz la satisfè kritè sa yo:
@@ -1099,6 +1115,8 @@ sc-criteria-item-6 = Si'w fini ak fraz pou revize, tanpri ede nou kolekte plis f
 sc-review-title = Revizyon fraz yo
 sc-review-loading = Chaje fraz yo...
 sc-review-select-language = Tanpri chwazi yon lang pou revize fraz yo.
+sc-review-form-prompt =
+    .message = Fraz revize yo pa soumèt, èske'w sèten?
 # Variables:
 #   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
 sc-review-form-source = Sous: { $sentenceSource }
@@ -1113,6 +1131,7 @@ sc-review-form-button-reject-shortcut = N
 sc-review-form-button-skip-shortcut = S
 sc-review-form-button-submit =
     .submitText = Fini revizyon
+sc-review-form-review-failure = Revizyon pa t 'kapab sere. Tanpri eseye ankò pita.
 sc-review-link = Revize
 
 ## SETTINGS
@@ -1133,10 +1152,12 @@ localization-select =
     .label = Chwazi lang/lokalizasyon
 # PARTNERSHIPS PAGE
 partnerships-header = Patenarya
+partnerships-header-text = Li pran anpil pou fè Common Voice rive! Nou pa fè li pou kont nou. Ou vle asosye avèk nou? Nou ta renmen tande pale de ou.
 partnerships-get-in-touch = Pran kontak
 partnerships-become-a-partner = Vin yon patnè Common Voice
 partnerships-community-header = Kominote, Kreyativ ak Sosyete Sivil
 partnerships-foundations-header = Fondasyon yo
+partnerships-foundations-description = Nou travay ak fondasyon, sosyete sivil ak patnè kominotè yo pou fè entènèt la yon kote ki pi an sante, ak yon konsantrasyon patikilye sou Afrik lès. Aprann plis sou <programmaticWork>travay pwogram nou an.</programmaticWork>
 partnerships-governments-header = Gouvènman yo
 partnerships-academia-header = Inivèsite, Akademisyen ak Chèchè
 partnerships-small-business-header = Ti biznis, ki gen ladan teknoloji ak EA k'ap debite
