@@ -472,9 +472,17 @@ faq-what-cv-a-2 =
     
     Nou pa sèlman kolekte echantiyon vwa  nan lang yo pale anpil men tou nan moun ki gen yon popilasyon ki pi piti nan moun ki pale lang panyo. Pibliye yon seri done divès vwa pral pèmèt devlopè, antreprenè, ak kominote yo abòde diferans sa nan mitan yo.
 faq-why-important-q = Poukisa li enpòtan?
+faq-why-important-a =
+    Lapawòl se souvan fason ki pi natirèl nou kominike youn ak lòt ak teknoloji vwa yo ap pote konvenyans sa nan òdinatè nou yo ak aparèy mobil yo. Nou vle pèmèt devlopè yo bati aplikasyon pou rekonesans vwa eksepsyonel tankou jan moun tradiktè yo fè'l an tan reyèl ak tankou asistan dijital ki travay ak vwa. Men kounye a pi fò nan done vwa ki nesesè pou bati kalite aplikasyon sa yo chè anpil e yon gent mèt pa yo. Nou espere ke seri done Common Voice la pral bay devlopè yo sa yo bezwen pou yo inove epi fè teknoloji lapawòl disponib nan pwòp lang yo.
+    
+    Pou rann rekonesans vwa a vin pi inivèsèl, n'ap kolekte echantiyon vwa nan lang yo pale anpil ansanm ak moun ki gen yon popilasyon ki pi piti nan moun ki pi souvan yo pa sèvis rekonesans lapawòl ak pwodwi komèsyal chè yo. Pibliye yon seri done divès vwa pral pèmèt devlopè yo, antreprenè yo, ak tout kominote lapawòl yo abòde diferans sa nan mitan yo.
 faq-how-get-q = Kijan mwen ka jwenn done Common Voice yo?
+faq-how-get-a = Ansanm done Common Voice la disponib pou telechaje anba lisans <licenseLink>CC0</licenseLink> sou <datasetLink>paj Datasets nou an</datasetLink>. Ou ka telechaje plizyè lòt done ki disponib piblikman nan menm paj la.
 faq-when-release2-q = Kilè w ap pibliye done Common Voice nan lòt lang?
+faq-when-release2-a = Vèsyon plizyè lang nan seri done Common Voice la kounye a ap sibi gwoupman ak netwayaj nan kominote a. Si ou ta renmen ede nou pote Common Voice nan nouvo lang, ale tcheke <sentenceCollectorLink>Outil Koleksyon Fraz</sentenceCollectorLink> pou ajoute nouvo fraz nan seri done a, epi Mozilla <pontoonLink>Pontoon</pontoonLink> pou tradwi sit entènèt la tou. Nouvo lang yo vin  ajoute nan Common Voice pou kontribisyon vwa lè 5000 fraz yo te kolekte yo apwouve.
 faq-why-mission-q = Poukisa Common Voice fè pati misyon Mozilla la?
+faq-why-mission-a = Mozilla dedye nan kenbe entènèt la louvri epi aksesib pou tout moun. Pou fè sa, nou bezwen otorize kreyatè entènèt yo atravè pwojè tankou Common Voice. Lè teknoloji vwa pwopaje pi lwen tikal nich aplikasyon yo, nou kwè yo dwe sèvi tout itilizatè yo egalman. Sa vle di envesti nan plis lang ak akomode aksan divès ak demografik lè teknoloji vwa ap bati ak teste . Common Voice se yon resous piblik ki disponib pou tout moun ak ekip Mozilla e devlopè atravè mond lan deja itilize li sou pwòp pwojè nou yo tou.
+faq-what-cv-and-deepspeech-q = Ki diferans ki genyen ant Common Voice (vwa komen) ak Deep Speech (diskou pwofon)?
 faq-is-goal-assistant-q = Èske objektif Common Voice pou konstwi yon asistan vwa?
 faq-why-different-speakers-q = Poukisa ou bezwen anpil moun ki pale diferan pou chak lang?
 faq-why-my-lang-q = Poukisa lang mwen an poko enkli?
