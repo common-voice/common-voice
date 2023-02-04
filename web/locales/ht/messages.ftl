@@ -434,6 +434,7 @@ email-subscriptions = Abònman Imèl
 download-profile = Telechaje Done mwen yo
 contribution-experience = Eksperyans kontribisyon
 skip-submission-feedback = Sote Reyaksyon Soumèt
+skip-submission-description = Pandan kontribisyon soumisyon reaksyon yo pral sote apre'w klike sou 'Soumèt'. Kontribisyon ap kontinye dirèkteman ak pwochen seri 5 anrejistreman oswa validation yo.
 skip-submission-note = Remak: W ap toujou bezwen chwazi ant Pale oswa Koute pou chanje kalite kontribisyon.
 off = Etenn
 on = Limen
@@ -465,6 +466,11 @@ change-email-setings = Chanje imel ou atravè Konfigirasyon anba Idantite Konekt
 
 faq-title = Kesyon yo poze souvan
 faq-what-cv-q = Ki sa ki se Common Voice?
+faq-what-cv-a = Teknoloji rekonesans vwa a ap revolisyone fason nou kominike avèk machin yo, men sistèm ki disponib kounye a yo chè e yo gen mèt pa yo. Common Voice fè pati inisyativ Mozilla pou fè teknoloji rekonesans vwa yo pi byen ak plis aksesib pou tout moun. Common Voice se yon gwo baz done mondyal ki gen vwa ki pèmèt nenpòt moun antrene aplikasyon pou vwa yo byen vit e fasil nan tout lang.
+faq-what-cv-a-2 =
+    Teknoloji rekonesans vwa a ap revolisyone fason nou kominike avèk machin yo, men sistèm ki disponib kounye a yo chè ak pwòp. Mozilla Common Voice se yon inisyativ pou fè teknoloji rekonesans vwa yo pi byen ak plis aksesib pou tout moun. Common Voice se yon gwo baz done mondyal ki gen vwa ki pèmèt nenpòt moun antrene aplikasyon pou vwa yo byen vit e fasil nan tout lang.
+    
+    Nou pa sèlman kolekte echantiyon vwa  nan lang yo pale anpil men tou nan moun ki gen yon popilasyon ki pi piti nan moun ki pale lang panyo. Pibliye yon seri done divès vwa pral pèmèt devlopè, antreprenè, ak kominote yo abòde diferans sa nan mitan yo.
 faq-why-important-q = Poukisa li enpòtan?
 faq-how-get-q = Kijan mwen ka jwenn done Common Voice yo?
 faq-when-release2-q = Kilè w ap pibliye done Common Voice nan lòt lang?
