@@ -706,27 +706,64 @@ clips-with-count-pluralized =
     }
 goal-help-recording = Ou te ede Common Voice rive nan <goalPercentage></goalPercentage> objektif anrejistreman { $goalValue } nou chak jou!
 goal-help-validation = Ou te ede Common Voice rive nan <goalPercentage></goalPercentage> nou chak jou pou { $goalValue } objektif validasyon !
+contribute-more =
+    { $count ->
+        [one] Pare pou fè { $count } anplis?
+       *[other] { "" }
+    }
 record-cta = Kòmanse anrejistreman
 record-platform-not-supported = Nou regrèt sa, platfòm ou a pa sipòte kounye a.
+record-platform-not-supported-desktop = Sou aparèy Desktop ou ka kontribye lè'w telechaje...
+record-platform-not-supported-ios-non-safari = Sou iOS tanpri kontinye ak Safari pou pèmèt anrejistreman...
 record-must-allow-microphone = Ou dwe pèmèt aksè mikwofòn.
 record-no-mic-found = Pa jwenn mikwofòn.
 record-error-too-short = Anrejistreman an te twò kout.
 record-error-too-long = Anrejistreman an te twò long.
 record-error-too-quiet = Anrejistreman an te twò ba.
 record-cancel = Anile Re-anrejistreman
+record-instruction = { $actionType }<recordIcon></recordIcon> Lè sa a, li fraz la byen fò
+record-stop-instruction = { $actionType }<stopIcon></stopIcon> lè'w fini
 record-three-more-instruction = Twa pou ale!
+record-again-instruction = Trè byen!<recordIcon></recordIcon> Anrejistre pwochen odyo'w la
+record-again-instruction2 = Kontinye trè byen, anrejistre ankò <recordIcon></recordIcon>
+record-last-instruction = <recordIcon></recordIcon> Dènye an!
+review-tooltip = Revize ak re-anrejistre odyo yo isit la pandan w'ap kontinye
+share-clip = Pataje odyo'w la
 share-common-voice = Pataje Common Voice
+review-instruction = Revize epi re-anrejistre odyo yo si sa nesesè
+record-submit-tooltip = { $actionType } soumèt lè'w pare
+clips-uploaded = Odyo yo monte.
+record-abort-title = Fini anrejistreman an premye?
+record-abort-text = Si'w kite kounye a sa vle di w'ap pèdi pwogrè'w fè
 record-abort-submit = Soumèt odyo yo
 record-abort-continue = Fini anrejistreman
+record-abort-delete = Sòti & Efase klip yo
+listen-instruction = { $actionType }<playIcon></playIcon> èske yo te di fraz la avèk presizyon?
+listen-again-instruction = Bèl travay!<playIcon></playIcon> Koute ankò lè'w pare
+listen-3rd-time-instruction = 2 ki fini, Kontinye toujou!<playIcon></playIcon>
+listen-last-time-instruction = <playIcon></playIcon>Dènye an!
+listen-empty-state = Nou genlè ta fini ak odyo yo - rafrechi paj la, oswa eseye ankò pita.
+speak-empty-state-cta = Kontribye fraz yo
 record-button-label = Anrejistre vwa'w
+keep-track-profile = Kenbe tras pwogrè'w ak yon pwofil
+login-to-get-started = Konekte oswa enskri pou kòmanse
 target-segment-add-voice = Ajoute Vwa'w
+target-segment-learn-more = Aprann plis
 
 ## Reporting
 
 report = Rapòte
 report-title = Soumèt yon rapò
+report-ask = Ki pwoblèm w'ap fè eksperyans ak fraz sa a?
 report-offensive-language = Lang ofansif
+report-offensive-language-detail = Fraz lan gen yon langaj derespektan oswa ofansif.
+report-grammar-or-spelling = Gramatikal / erè òtograf
+report-grammar-or-spelling-detail = Fraz la gen yon erè gramatikal oswa òtograf.
 report-different-language = Diferan lang
+report-different-language-detail = Li ekri nan yon lang diferan de sa m'ap pale.
+report-difficult-pronounce = Li difisil pou pwononse
+report-difficult-pronounce-detail = Li gen mo oswa fraz ki difisil pou ka li oswa pwononse.
+report-offensive-speech = Diskou ofansif
 report-other-comment =
     .placeholder = Kòmantè
 success = Siksè
