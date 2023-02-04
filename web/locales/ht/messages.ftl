@@ -572,6 +572,7 @@ about-playbook-how-record-content-3 = Li fraz la ak anpil atansyon - pa manke, c
 
 about-playbook-how-grow-language = Ki jan nou ka efektivman devlope yon lang sou Common Voice?
 about-playbook-how-grow-language-content-2 = Evènman yo
+about-playbook-how-grow-language-content-4 = Rezo Sosyo
 about-playbook-how-grow-language-content-6 = Patenarya ak rezo
 
 ## How to validate
@@ -585,15 +586,18 @@ about-playbook-how-validate = Kouman pou mwen konnen si pou apwouve yon klip vwa
 
 about-playbook-how-project-governance = Ki jan yo pran desizyon pwojè yo?
 about-playbook-how-project-governance-content-2 = Gouvènans nou an baze sou poto sa yo:
+about-playbook-how-project-governance-content-3 = Konfidansyalite, sekirite ak transparans.
 about-playbook-how-project-governance-content-4 = Patisipasyon kominote a ak pran desizyon.
 about-playbook-how-project-governance-content-5 = Valè ak rekonesans.
 about-playbook-how-project-governance-content-6 = Responsablite mityèl.
+about-playbook-how-project-governance-content-7 = <governanceLink>Li plis sou fason nou gouvène</governanceLink>
 
 ## Glossary
 
 glossary = Glosè
 localization = Lokalizasyon
 sentence-collection = Koleksyon fraz
+sentence-collection-explanation = Kolekte fraz ki soti nan domèn piblik la, oswa ekri nouvo fraz pou domèn piblik la.
 hours-recorded-explanation = Konte èdtan anrejistreman vwa nou te kolekte jiskaprezan.
 sst = Lapawòl-a-tèks (LAT)
 de-identified = De-idantifye
@@ -639,6 +643,7 @@ confirm-size = Ou pare pou kòmanse yon telechajman de <b>{ $size }</b>
 confirm-join-mailing-list = Mwen vle rantre nan lis adrès Common Voice la
 subscribe = Abòne
 get-started-speech = Kòmanse ak Rekonesans Lapawòl
+feedback-q = Gen Reyaksyon?
 go-languages-page = Ale nan Paj Lang yo
 more = Plis
 close = Fèmen
@@ -647,6 +652,11 @@ dataset-version = Vèsyon
 
 ## Download Modal
 
+download-title = Telechajman'w la te kòmanse.
+download-form-email =
+    .label = Antre imel ou a
+    .value = Mèsi, n'ap kenbe kontak.
+download-back = Retounen nan ansanm done Common Voice yo
 download-no = Non Mèsi
 
 ## Contact Modal
@@ -745,6 +755,7 @@ listen-last-time-instruction = <playIcon></playIcon>Dènye an!
 listen-empty-state = Nou genlè ta fini ak odyo yo - rafrechi paj la, oswa eseye ankò pita.
 speak-empty-state-cta = Kontribye fraz yo
 record-button-label = Anrejistre vwa'w
+share-title-new = <bold>Ede nou</bold> jwenn plis vwa
 keep-track-profile = Kenbe tras pwogrè'w ak yon pwofil
 login-to-get-started = Konekte oswa enskri pou kòmanse
 target-segment-add-voice = Ajoute Vwa'w
@@ -764,6 +775,7 @@ report-different-language-detail = Li ekri nan yon lang diferan de sa m'ap pale.
 report-difficult-pronounce = Li difisil pou pwononse
 report-difficult-pronounce-detail = Li gen mo oswa fraz ki difisil pou ka li oswa pwononse.
 report-offensive-speech = Diskou ofansif
+report-offensive-speech-detail = Odyo a gen yon langaj derespektan oswa ofansif.
 report-other-comment =
     .placeholder = Kòmantè
 success = Siksè
@@ -828,6 +840,11 @@ set-a-goal = Mete yon objektif
 cant-decide = Ou pa ka deside?
 how-many-per-day = Trè byen! Konbyen odyo pa jou?
 which-goal-type = Èske ou vle Pale, Koute oswa toude?
+n-clips-pluralized =
+    { NUMBER($count) ->
+        [one] odyo
+       *[other] odyo yo
+    }
 help-share-goal = Ede nou jwenn plis vwa, pataje objektif ou
 confirm-goal = Konfime Objektif
 goal-interval-weekly = Chak semèn
@@ -837,6 +854,7 @@ share-goal-type-both = Pale ak Tande
 weekly-goal-created = Objektif chak semèn ou sot kreye
 daily-goal-created = Objektif chak jou'w sot kreye
 track-progress = Swiv pwogrè isit la ak sou paj estatistik ou a.
+return-to-edit-goal = Retounen isit la pou modifye objektif ou nenpòt lè.
 share-goal = Pataje objektif mwen
 
 ## Profile Delete
@@ -848,6 +866,7 @@ profile-form-delete = Efase Profile
 ## Profile Download
 
 download-q = Bezwen telechaje done'w la?
+download-info = Di nou sa'w ta renmen telechaje:
 download-profile-title = Pwofil
 download-recordings-title = Anrejistreman yo
 download-size = Gwosè
@@ -861,6 +880,8 @@ download-request-metadata-link = Tèks fraz
 
 ## Landing
 
+welcome-staff = Byenveni anplwaye { $company }!
+read-more-about = Li plis sou paj About nou an
 
 ## DemoLayout
 
@@ -871,6 +892,7 @@ demo-welcome = Byenveni nan Common Voice
 
 card-button-next = Pwochen
 card-button-back = Retounen
+demo-language-select-label = Navige Lang yo
 demo-account = Kont
 
 ## Demo Account
@@ -887,14 +909,23 @@ demo-listen-subtitle = Pare pou kontribiye?
 ## Validation criteria
 
 contribution-criteria-nav = Kritè
+contribution-criteria-link = Konprann kritè kontribisyon yo
+contribution-criteria-page-title = Kritè Kontribisyon
+contribution-criteria-page-description = Konprann sa pou'w chèche lè w'ap koute klip vwa yo epi ede fè anrejistreman vwa'w yo vin pi rich tou!
 contribution-for-example = pa egzanp
+contribution-misreadings-title = Move lekti
 contribution-misreadings-description-extended-list-5 = Pran plizyè tantativ pou li yon mo.
 contribution-misreadings-example-1-title = Dinozò yo jeyan nan triyas la.
 contribution-misreadings-example-2-explanation = [Ta dwe 'dinozò yo']
 contribution-misreadings-example-5-title = N'soti al pran kafe.
 contribution-misreadings-example-6-title = Nou soti al pran kafe.
+contribution-misreadings-example-7-title = Nou soti al pran kafe.
+contribution-background-noise-title = Bri Dèyè
+contribution-background-voices-title = Bri Dèyè Yo
 contribution-volume-title = Volim
 contribution-reader-effects-title = Efè lektè
+see-more = <chevron></chevron>Gade plis
+see-less = <chevron></chevron>Wè mwens
 
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
@@ -1092,9 +1123,9 @@ sc-settings-show-all-button = Montre tout fraz sote yo ankò
 sc-settings-failed = Pa t 'kapab chanje paramèt yo. Tanpri eseye ankò.
 # VALIDATION
 sc-validation-number-of-words = Fraz dwe genyen ant 1 ak 14 mo (enklizif).
-sc-validation-no-numbers = Fraz pa ta dwe gen nimewo
-sc-validation-no-symbols = Fraz pa ta dwe gen senbòl
-sc-validation-no-abbreviations = Fraz pa ta dwe genyen abrevyasyon
+sc-validation-no-numbers = Fraz lapa ta dwe gen nimewo
+sc-validation-no-symbols = Fraz la pa ta dwe gen senbòl
+sc-validation-no-abbreviations = Fraz la pa ta dwe genyen abrevyasyon
 
 # [/SentenceCollector]
 
@@ -1102,6 +1133,20 @@ localization-select =
     .label = Chwazi lang/lokalizasyon
 # PARTNERSHIPS PAGE
 partnerships-header = Patenarya
+partnerships-get-in-touch = Pran kontak
+partnerships-become-a-partner = Vin yon patnè Common Voice
+partnerships-community-header = Kominote, Kreyativ ak Sosyete Sivil
+partnerships-foundations-header = Fondasyon yo
+partnerships-governments-header = Gouvènman yo
+partnerships-academia-header = Inivèsite, Akademisyen ak Chèchè
+partnerships-small-business-header = Ti biznis, ki gen ladan teknoloji ak EA k'ap debite
+partnerships-corporates-header = Gwo echèl antrepriz ak konpayi platfòm
+partnerships-corporates-description = Si w ap chèche pale plis sou seri done a, si w vle ko-envesti nan planifye agrandisman platfòm an oswa chèche opòtinite kolaborasyon, <emailFragment>depoze nou yon mo.</emailFragment>
+partnerships-our-partners = Patnè nou yo
+# FIRST POST SUBMISSION CTA
+first-cta-header-text = Mèsi paske w bay klip vwa w yo!
+first-cta-subtitle-text = Èske ou ta renmen pataje kèk enfòmasyon sou fason'w pale?
+why-donate = Poukisa wap mande?
 why-donate-explanation-2 = Pou teknoloji sa travay byen pou tout moun, done ki ede devlopè yo pou bati teknoloji sa bezwen reflete yon seri divès moun. Pa egzanp, si nou pa mete okenn moun ki pale ak yon aksan patikilye, Lè sa a, teknoloji a pa pral travay byen pou moun ki gen aksan sa a. <learnMore>Aprann plis sou poukisa metadata enpòtan.</learnMore>
 add-information-button = Ajoute enfòmasyon
 continue-speaking-button = Non mèsi, ou mèt kontinye pale
