@@ -768,34 +768,75 @@ report-other-comment =
     .placeholder = Kòmantè
 success = Siksè
 continue = Kontinye
+report-success = Rapò a te pase avèk siksè
 
 ## Goals
 
+days =
+    { $count ->
+        [one] Jou
+       *[other] Jou yo
+    }
+recordings =
+    { $count ->
+        [one] Anrejistreman
+       *[other] Anrejistreman yo
+    }
+validations =
+    { $count ->
+        [one] Validasyon
+       *[other] Validasyon yo
+    }
 
 ## Dashboard
 
+your-languages = Lang ou yo
+toward-next-goal = Nan direksyon pwochen objektif
 goal-reached = Objektif ateri
+clips-you-recorded = Odyo ou te anrejistre
+clips-you-validated = Odyo ou te valide
+stats = Statistik
 awards = Prim
 you = Ou menm
 everyone = Tout moun
 contribution-activity = Aktivite Kontribisyon
+top-contributors = Top kontribitè yo
+recorded-clips = Odyo Ki Te Anrejistre
+validated-clips = Odyo Ki Te Valide
 total-approved = Total Apwouve
+overall-accuracy = Presizyon an jeneral
+set-visibility = Mete vizibilite mwen
+show-ranking = Montre klasman mwen an
 
 ## Custom Goals
 
+get-started-goals = Kòmanse ak objektif yo
+goal-type = Ki kalite objektif ou vle bati?
 both-speak-and-listen = Tou de
+both-speak-and-listen-long = Tou de (Pale ak Koute)
 daily-goal = Objektif chak jou
 weekly-goal = Objektif chak semèn
 easy-difficulty = Fasil
 average-difficulty = Mwayèn
 difficult-difficulty = Difisil
+pro-difficulty = Pwofesyonèl
+lose-goal-progress-warning = Lè'w modifye objektif ou, ou ka pèdi pwogrè ki egziste deja.
+want-to-continue = Ou vle kontinye?
+finish-editing = Fini koreksyon an premye?
+lose-changes-warning = Si'w kite kounye a vle di ou pral pèdi chanjman'w yo
 set-a-goal = Mete yon objektif
 cant-decide = Ou pa ka deside?
+how-many-per-day = Trè byen! Konbyen odyo pa jou?
+which-goal-type = Èske ou vle Pale, Koute oswa toude?
+help-share-goal = Ede nou jwenn plis vwa, pataje objektif ou
 confirm-goal = Konfime Objektif
 goal-interval-weekly = Chak semèn
 share-goal-type-speak = Pale
 share-goal-type-listen = Tande
 share-goal-type-both = Pale ak Tande
+weekly-goal-created = Objektif chak semèn ou sot kreye
+daily-goal-created = Objektif chak jou'w sot kreye
+track-progress = Swiv pwogrè isit la ak sou paj estatistik ou a.
 share-goal = Pataje objektif mwen
 
 ## Profile Delete
@@ -806,34 +847,54 @@ profile-form-delete = Efase Profile
 
 ## Profile Download
 
+download-q = Bezwen telechaje done'w la?
 download-profile-title = Pwofil
 download-recordings-title = Anrejistreman yo
 download-size = Gwosè
 download-selected = Chwazi
+download-start = Telechaje done pwofil ou
 download-request = Mande anrejistreman yo
 download-request-button = Telechaje
 download-request-refresh-button = Rafrechi
+download-request-modal-title = Telechaje Lyen
+download-request-metadata-link = Tèks fraz
 
 ## Landing
 
 
 ## DemoLayout
 
+demo-get-started = An'n kòmanse
+demo-welcome = Byenveni nan Common Voice
 
 ## Demo Datasets
 
+card-button-next = Pwochen
+card-button-back = Retounen
+demo-account = Kont
 
 ## Demo Account
 
+demo-account-sign-up = Voye lyen pou enskri
 
 ## Demo Contribute
 
+demo-listen-subtitle = Pare pou kontribiye?
 
 ## Demo Dashboard
 
 
 ## Validation criteria
 
+contribution-criteria-nav = Kritè
+contribution-for-example = pa egzanp
+contribution-misreadings-description-extended-list-5 = Pran plizyè tantativ pou li yon mo.
+contribution-misreadings-example-1-title = Dinozò yo jeyan nan triyas la.
+contribution-misreadings-example-2-explanation = [Ta dwe 'dinozò yo']
+contribution-misreadings-example-5-title = N'soti al pran kafe.
+contribution-misreadings-example-6-title = Nou soti al pran kafe.
+contribution-volume-title = Volim
+contribution-reader-effects-title = Efè lektè
 
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
@@ -842,6 +903,10 @@ download-request-refresh-button = Rafrechi
 
 ## HEADER/FOOTER
 
+sc-header-home = Lakay
+sc-header-how-to = Kijan pou
+sc-header-add = Ajoute
+sc-header-review = Revize
 
 ## HOME
 
