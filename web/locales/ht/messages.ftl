@@ -453,16 +453,55 @@ faq-why-mission-q = Poukisa Common Voice fè pati misyon Mozilla la?
 faq-is-goal-assistant-q = Èske objektif Common Voice pou konstwi yon asistan vwa?
 faq-why-different-speakers-q = Poukisa ou bezwen anpil moun ki pale diferan pou chak lang?
 faq-why-my-lang-q = Poukisa lang mwen an poko enkli?
+faq-why-10k-hours-q = Poukisa se 10,000 èdtan valide se objektif pou chak lang pou kaptire odyo?
+faq-how-calc-hours-q = Ki jan Common Voice kalkile èdtan?
+faq-where-src-from-2-q = Ki kote tèks sous la soti?
+faq-why-account-q = Poukisa mwen ta dwe enskri pou yon kont?
+faq-is-account-public-q = Èske enfòmasyon sou kont mwen an piblik?
+faq-search-for-answers =
+    .label = Chèche repons
 
 ## ABOUT US
 
+about-title = Poukisa Common Voice?
+how-does-it-work-title-v2 = Ki jan Common Voice travay?
 
 ## How does it work section
 
+about-language-req-subtitle = Yon moun mande pou ajoute yon lang.
+about-localization-title = Sit wèb lokalizasyon
+about-localization-subtitle = Tèks sit entènèt la tradwi nan lang sa a.
+about-sentence-collection-title = Koleksyon fraz
+about-sentence-collection-subtitle = Yo kolekte fraz pou moun yo li awotvwa.
+about-new-lang-title = Lansman nouvo lang
+about-new-lang-subtitle = Nou lanse sit Common Voice nan lang sa a.
+about-voice-contrib-title = Kontribisyon Vwa
+about-voice-contrib-subtitle = Moun vini e kontribye vwa yo.
+about-voice-validation-title = Validasyon vwa
+about-voice-validation-subtitle = Lòt moun valide klip vwa sa yo.
+about-speak = pale
+about-listen = Koute
+about-listen-text = Itilizatè yo valide presizyon klip yo bay yo, tcheke si moun nan li fraz la kòrèkteman.
+about-is-it-valid = Èske clip la valab?
+about-is-it-valid-text = Yon clip vwa make "valid" lè yon itilizatè ba li yon vòt Wi.
+about-yes-votes = ≥ 2 vòt Wi yo
+about-no-votes = ≥ 2 Vòt Non yo
+about-get-involved = Patisipe
+about-stay-in-touch = Kouman pou mwen rete an kontak?
+about-stay-in-touch-button = Enskri
+about-stay-in-touch-text-1 = <emailFragment>Enskri</emailFragment> nan lis adrès nou an pou aprann kijan ou ka patisipe nan kanpay, evènman ak karakteristik ko-design sou Common Voice.
+about-stay-in-touch-text-2 = Ou ka rankontre lòt moun nan kominote lang Mozilla yo lè w rantre nan <discourseLink>Discourse</discourseLink> pou konvèsasyon aktualite, oswa <matrixLink>Matrix</matrixLink> pou jwenn konsèy rapid.
+about-nav-why-common-voice = Poukisa?
+about-nav-how-it-works = Ki jan?
+about-nav-partners = Patnè yo
+about-nav-get-involved = Patisipe
+about-nav-how-it-works-2 = Ki jan Common Voice travay?
+about-nav-playbook = Aprann kijan pou patisipe
 
 ## Community Playbook Content
 ## What is a language
 
+about-playbook-what-is-language = Ki sa ki se yon lang sou Common Voice?
 
 ## How do I add a language
 
