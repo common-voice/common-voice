@@ -434,10 +434,13 @@ email-subscriptions = Abònman Imèl
 download-profile = Telechaje Done mwen yo
 contribution-experience = Eksperyans kontribisyon
 skip-submission-feedback = Sote Reyaksyon Soumèt
+skip-submission-note = Remak: W ap toujou bezwen chwazi ant Pale oswa Koute pou chanje kalite kontribisyon.
 off = Etenn
 on = Limen
 help-accent = Bezwen èd ak aksan?
+help-accent-explanation = Dyalèk ou se fason ou pwononse mo yo. Li ka fòme pa kote ou te viv, ki lòt lang ou pale ak anpil lòt faktè. Ou ka pataje nenpòt enfòmasyon ou santi ki enpòtan isit la.
 help-variants = Bezwen èd ak dyalèk?
+help-variants-explanation = Varyan(dyalèk) se yon fòm espesifik nan yon lang - pa egzanp pataje pa moun k ap viv nan yon jewografi oswa kominote. Pafwa yo rele sa yo dyalèk.
 
 ## Profile - Email
 
@@ -447,16 +450,21 @@ connect-gravatar = Konekte ak Gravatar
 gravatar_not_found = Pa gen gravatar pou imèl ou
 file_too_large = Fichye ou chwazi a twò gwo
 avatar-uploaded = Avata telechaje
+max-file-size = { $kb }kb max
+remove-avatar = Retire Avata
 
 ## Profile - Email
 
 manage-subscriptions = Jere abònman
 manage-email-subscriptions = Jere abònman imel
+email-already-used = Imèl sa deja itilize pou yon lòt kont
 add-language = Ajoute Lang
+change-email-setings = Chanje imel ou atravè Konfigirasyon anba Idantite Konekte
 
 ## FAQ
 
 faq-title = Kesyon yo poze souvan
+faq-what-cv-q = Ki sa ki se Common Voice?
 faq-why-important-q = Poukisa li enpòtan?
 faq-how-get-q = Kijan mwen ka jwenn done Common Voice yo?
 faq-when-release2-q = Kilè w ap pibliye done Common Voice nan lòt lang?
