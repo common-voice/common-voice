@@ -1588,3 +1588,17 @@ create-profile-button = Create a profile
 
 # IMAGE TAGS
 img-alt-success-checkmark = success checkmark
+
+# GUIDELINES PAGE
+guidelines-header = Contribution Guidelines
+guidelines-header-subtitle = Understand how to contribute and validate sentences and audio clips to the Common Voice dataset
+voice-collection = Voice Collection
+sentence-collection = Sentence Collection
+varying-pronunciations = Varying Pronunciations
+misreadings = Misreadings
+offensive-content = Offensive Content
+background-noise = Background Noise
+background-voices = Background Voices
+volume = Volume
+reader-effects = Reader Effects
+just-unsure = Just Unsure?
