@@ -2951,6 +2951,13 @@
     "@types/history" "^4.7.11"
     "@types/react" "*"
 
+"@types/react-tabs@2.3.2":
+  version "2.3.2"
+  resolved "https://registry.yarnpkg.com/@types/react-tabs/-/react-tabs-2.3.2.tgz#99fb6866bbc6912d44f7bbc99eca03fbbd217960"
+  integrity sha512-QfMelaJSdMcp+CenKhATp12XFFqqUcLXILgwpX3dgWfVYNZPtsLXZDDCRsVn+kwmBOWB+DFPKpQorxbUhnXINw==
+  dependencies:
+    "@types/react" "*"
+
 "@types/react-test-renderer@>=16.9.0":
   version "17.0.1"
   resolved "https://registry.yarnpkg.com/@types/react-test-renderer/-/react-test-renderer-17.0.1.tgz#3120f7d1c157fba9df0118dae20cb0297ee0e06b"
@@ -4255,6 +4262,11 @@ clone-regexp@^2.1.0:
   integrity sha512-beMpP7BOtTipFuW8hrJvREQ2DrRu3BE7by0ZpibtfBA+qfHYvMGTc2Yb1JMYPKg/JUw0CHYvpg796aNTSW9z7Q==
   dependencies:
     is-regexp "^2.0.0"
+
+clsx@^1.1.0:
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/clsx/-/clsx-1.2.1.tgz#0ddc4a20a549b59c93a4116bb26f5294ca17dc12"
+  integrity sha512-EcR6r5a8bj6pu3ycsa/E/cKVGuTgZJZdsyUYHOksG/UHIiKfjxzRxYJpyVBwYaQeOvghal9fcc4PidlgzugAQg==
 
 cluster-key-slot@^1.1.0:
   version "1.1.0"
@@ -9369,7 +9381,7 @@ prompts@^2.0.1:
     kleur "^3.0.3"
     sisteransi "^1.0.5"
 
-prop-types@^15.6.2, prop-types@^15.7.2, prop-types@^15.8.1:
+prop-types@^15.5.0, prop-types@^15.6.2, prop-types@^15.7.2, prop-types@^15.8.1:
   version "15.8.1"
   resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.8.1.tgz#67d87bf1a694f48435cf332c24af10214a3140b5"
   integrity sha512-oj87CgZICdulUohogVAR7AjlC0327U4el4L6eAvOqCeudMDVU0NThNaV+b9Df4dXgSP1gXMTnPdhfe/2qDH5cg==
@@ -9615,6 +9627,14 @@ react-router@5.2.1:
     react-is "^16.6.0"
     tiny-invariant "^1.0.2"
     tiny-warning "^1.0.0"
+
+react-tabs@4.2.1:
+  version "4.2.1"
+  resolved "https://registry.yarnpkg.com/react-tabs/-/react-tabs-4.2.1.tgz#82e2dc787555e791f909746dd64164d780d7d477"
+  integrity sha512-nQcEN3KrAsSry6f9Jz2oyMQsnh+sLEy31YjlskL/mnI3KU/c7BeyD1VzHZmmcJ15UEFu12pYOXYkdTzZ0uyIbw==
+  dependencies:
+    clsx "^1.1.0"
+    prop-types "^15.5.0"
 
 react-tippy@1.4.0:
   version "1.4.0"

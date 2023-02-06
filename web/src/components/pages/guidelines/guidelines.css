@@ -1,0 +1,108 @@
+.guidelines-main-container {
+    & .header-section {
+        height: 400px;
+        background: url('./images/guidelines-waves.png');
+        background-size: 100% 100%;
+
+        & .header-container {
+            margin: 0 auto;
+            max-width: var(--desktop-width);
+            min-height: 100%;
+            padding-top: 25px;
+            transition: opacity var(--transition-duration-slow) var(--easing);
+
+            & .page-heading {
+                font-size: var(--font-size-max);
+            }
+
+            & .subtitle-text {
+                font-weight: 300;
+                font-size: var(--font-size-lg);
+            }
+
+            & div {
+                width: 600px;
+                margin-left: 15px;
+            }
+        }
+    }
+
+    & .content-section {
+        & .tablist {
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            cursor: pointer;
+            margin-left: 30px;
+            margin-left: 90px;
+            width: 500px;
+            font-weight: 400;
+            font-size: var(--font-size-lg);
+            font-family: var(--strong-font-family);
+
+            & li {
+                list-style: none;
+            }
+
+            & .tab {
+                color: var(--dark-grey);
+            }
+
+            & .selected-tab {
+                color: var(--black);
+                border-bottom: 2px solid var(--black);
+            }
+        }
+
+        & .tabpanel {
+            margin: 0 135px;
+            max-width: var(--desktop-width);
+            display: flex;
+
+            nav {
+                max-width: 270px;
+                margin-inline-end: 115px;
+                position: sticky;
+                top: 50px;
+                height: 100%;
+            }
+
+            ul {
+                list-style: none;
+                font-weight: 600;
+                font-size: var(--font-size-lg);
+                font-family: var(--strong-font-family);
+
+                li {
+                    margin-bottom: 30px;
+
+                    a {
+                        color: var(--warm-grey);
+                    }
+
+                    & a.selected-option {
+                        color: var(--black);
+
+                        &::before {
+                            content: '';
+                            background: linear-gradient(
+                                90deg,
+                                #f89096 0%,
+                                #b1b5e5 100%
+                            );
+                            height: 4px;
+                            width: 270px;
+                            margin-bottom: 5px;
+                            display: block;
+                        }
+                    }
+                }
+            }
+        }
+
+        & .tabpanel--selected {
+            padding-top: 50px;
+            border-top: 1px solid var(--grey);
+        }
+    }
+}
