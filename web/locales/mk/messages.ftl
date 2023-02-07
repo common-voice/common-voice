@@ -1060,10 +1060,14 @@ sc-howto-review-title = Прегледајте реченици
 sc-howto-review-criteria-1 = Реченицата мора да биде правилно напишана.
 sc-howto-review-criteria-2 = Реченицата мора да биде граматички точна.
 sc-howto-review-criteria-4 = Ако реченицата ги исполнува критериумите, кликнете на копчето „Одобри“.
+sc-howto-findpd-subtitle = Побарајте ги на интернет
+sc-howto-findpd-tips = Еве неколку совети за наоѓање реченици:
+sc-howto-findpd-subtitle-2 = Соработувајте со локални организации или поединци
 
 ## MY SENTENCES
 
 sc-my-title = Моите реченици
+sc-my-no-sentences = Нема реченици!
 # Variables:
 #   $source (String) - Associated source the user filled out when uploading the sentence
 sc-my-source = Извор:  { $source }
@@ -1081,14 +1085,18 @@ sc-stats-title = Статистики
 sc-submit-err-select-lang = Ве молиме изберете јазик.
 sc-submit-err-add-sentences = Ве молиме додадете реченици.
 sc-submit-err-add-source = Ве молиме додадете извор.
+sc-submit-title = Додадете реченици
 sc-submit-select-language =
     .labelText = Изберете јазик
+sc-submit-ph-one-per-line =
+    .placeholder = Една реченица по ред
 sc-submit-button =
     .submitText = Поднеси
 
 ## ADD LANGUAGE
 
 sc-add-lang-sec-button = Додај Јазик
+sc-add-err-submission = Грешка при поднесување
 
 ## ADD SENTENCES CONFIRMATION
 
@@ -1096,6 +1104,8 @@ sc-confirm-button-text = Потврди
 
 ## LANGUAGE INFO
 
+sc-lang-info-title-total = Вкупно
+sc-lang-info-title-personal = Лично
 
 ## LOGIN
 
@@ -1115,6 +1125,8 @@ sc-personal-added-by-you = { $sentences } додадени од вас
 
 ## REVIEW CRITERIA
 
+sc-criteria-modal = ⓘ Критериуми за преглед
+sc-criteria-title = Критериуми за преглед
 sc-criteria-item-1 = Реченицата мора да биде правилно напишана.
 sc-criteria-item-2 = Реченицата мора да биде граматички точна.
 
@@ -1136,3 +1148,5 @@ sc-validation-no-abbreviations = Реченицата не треба да со�
 
 # [/SentenceCollector]
 
+# PARTNERSHIPS PAGE
+partnerships-header = Партнерства
