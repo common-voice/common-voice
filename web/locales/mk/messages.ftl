@@ -539,6 +539,7 @@ about-playbook-how-add-sentences = Како да додадам реченици
 ## How to grow language
 
 about-playbook-how-grow-language-content-2 = Настани
+about-playbook-how-grow-language-content-4 = Социјални мрежи
 
 ## How to validate
 
