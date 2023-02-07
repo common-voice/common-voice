@@ -314,6 +314,7 @@ shortcut-record-toggle = ק
 shortcut-record-toggle-label = הקלטה/עצירה
 shortcut-rerecord-toggle-label = הקלטת קטע מחדש
 shortcut-discard-ongoing-recording = ESC
+shortcut-discard-ongoing-recording-label = עצירה וביטול הקלטה
 request-language-text = השפה שלך עדיין לא מופיעה ב־Common Voice?
 request-language-button = בקשת שפה
 
@@ -387,6 +388,7 @@ skip-submission-feedback = דילוג על משוב הגשה
 skip-submission-note = לתשומת לבך: עדיין יהיה עליך לבחור בין דיבור להאזנה כדי לשנות את סוג התרומה.
 off = כבוי
 on = פעיל
+help-accent-explanation = המבטא שלכם הוא האופן שבו אתם מבטאים מילים. הוא עשוי להיות מושפע ממקום מגוריכם, השפות הנוספות אותן אתם דוברים וגורמים רבים אחרים. באפשרותכם לחלוק כאן כל מידע שבעיניכם הוא רלוונטי.
 
 ## Profile - Email
 
@@ -1076,3 +1078,6 @@ sc-validation-no-abbreviations = משפט לא יכול להכיל ראשי תי
 
 localization-select =
     .label = בחירה בשפה/תרגום
+partnerships-our-partners = השותפים שלנו
+thanks-for-voice-toast-error = אירעה שגיאה בעת שליחת נתוני הקול שלך
+create-profile-button = יצירת פרופיל
