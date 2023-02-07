@@ -38,7 +38,7 @@
     "redlock": "4.2.0",
     "request": "2.88.2",
     "request-promise-native": "1.0.9",
-    "s3-zip": "3.2.0",
+    "s3-zip": "3.2.1",
     "stream-transcoder": "0.0.5",
     "ts-node": "8.10.2"
   },
