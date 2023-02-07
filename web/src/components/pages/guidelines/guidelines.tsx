@@ -31,14 +31,16 @@ const Guidelines = () => {
       </section>
       <section className="content-section">
         <Tabs>
-          <TabList className="tablist">
-            <Localized id="voice-collection">
-              <Tab selectedClassName="selected-tab" className="tab" />
-            </Localized>
-            <Localized id="sentence-collection">
-              <Tab selectedClassName="selected-tab" className="tab" />
-            </Localized>
-          </TabList>
+          <div className="tablist-wrapper">
+            <TabList className="tablist">
+              <Localized id="voice-collection">
+                <Tab selectedClassName="selected-tab" className="tab" />
+              </Localized>
+              <Localized id="sentence-collection">
+                <Tab selectedClassName="selected-tab" className="tab" />
+              </Localized>
+            </TabList>
+          </div>
 
           <TabPanel selectedClassName="tabpanel--selected" className="tabpanel">
             <nav>
@@ -59,7 +61,7 @@ const Guidelines = () => {
               </ul>
             </nav>
             <div className="sections">
-              <SidebarContent id={selectedOption} />
+              <SidebarContent />
             </div>
           </TabPanel>
           <TabPanel selectedClassName="tabpanel--selected" className="tabpanel">
@@ -67,6 +69,7 @@ const Guidelines = () => {
           </TabPanel>
         </Tabs>
       </section>
+      <section className="contact">{/*  */}</section>
     </Page>
   );
 };
