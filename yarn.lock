@@ -10025,22 +10025,22 @@ rxjs@^6.5.2:
   dependencies:
     tslib "^1.9.0"
 
-s3-files@^2.0.0:
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/s3-files/-/s3-files-2.0.1.tgz#c5297417b19b4c4d86aae8d57d232153d60530b1"
-  integrity sha512-fZTj+WwndviG7QDwK6qZgR02qbhR4IwPjrmX3S98Zp2gWJhvAyzJnZQA4PQgfr8mEuTgUbjWp7ul/KzY8UaecA==
+s3-files@^2.0.3:
+  version "2.0.3"
+  resolved "https://registry.yarnpkg.com/s3-files/-/s3-files-2.0.3.tgz#cefbafb2821df33a7d776a3cd4bc374ba44462f8"
+  integrity sha512-cpBj6r7JgW+RC8IOnVDq/TM+27ApuC7hRF+VAszBVfYz+bAGpO6MnBjmmgE0eGidad3zxM/wmhIALO6/cVlGJQ==
   dependencies:
     aws-sdk "^2.449.0"
     concat-stream "^2.0.0"
     stream-array "^1.1.2"
 
-s3-zip@3.2.0:
-  version "3.2.0"
-  resolved "https://registry.yarnpkg.com/s3-zip/-/s3-zip-3.2.0.tgz#175c7cf23fc915e3cd596bf566a5102efcb36b81"
-  integrity sha512-WsvhvhcPghREmJGO56pStoR0Ib0ppcjmEDO7d1EFUIlDWRhUg+yRrzlBWwIenmqliL7EPVm5iHUt34vhxGtlJQ==
+s3-zip@3.2.1:
+  version "3.2.1"
+  resolved "https://registry.yarnpkg.com/s3-zip/-/s3-zip-3.2.1.tgz#ddb0c613a5db33a2b241524a52385aa56b7d4739"
+  integrity sha512-2uuQyXMrXMWgoeqLOr6HAzykfd7kqKMeRrChdNwD6jalnJxP+HHj8MpQqGvilTMnf8Vh0GMqx/xMNRNBivrs1w==
   dependencies:
     archiver "^5.2.0"
-    s3-files "^2.0.0"
+    s3-files "^2.0.3"
 
 safe-buffer@5.1.2, safe-buffer@~5.1.0, safe-buffer@~5.1.1:
   version "5.1.2"
