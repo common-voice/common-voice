@@ -327,6 +327,8 @@ header {
 
             & .menu-wrapper-mobile {
                 width: 100%;
+                padding-bottom: 20px;
+
                 @media (--lg-up) {
                     display: none;
                 }
@@ -379,27 +381,6 @@ header {
                     }
                 }
             }
-
-            & .contribute-btn-wrapper {
-                display: flex;
-                align-items: center;
-                flex-wrap: wrap;
-                padding-left: 30px;
-
-                @media (--lg-up) {
-                    display: none;
-                }
-
-                & .black-border {
-                    border-bottom: 4px solid var(--black);
-                    flex-basis: 93%;
-                    padding-top: 4px;
-
-                    @media (--lg-up) {
-                        display: none;
-                    }
-                }
-            }
         }
     }
 }
@@ -416,6 +397,36 @@ header {
 
     &:hover {
         background-color: transparent;
+    }
+}
+
+#contribute-btn-wrapper {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-left: 30px;
+    width: fit-content;
+
+    @media (--lg-up) {
+        display: none;
+    }
+
+    & .black-border {
+        border-bottom: 4px solid var(--black);
+        flex-basis: 93%;
+        padding-top: 8px;
+
+        @media (--lg-up) {
+            display: none;
+        }
+    }
+
+    & svg {
+        transition: transform var(--easing) var(--transition-duration);
+    }
+
+    & .rotate-180 {
+        transform: rotate(180deg);
     }
 }
 
@@ -479,6 +490,10 @@ header {
         text-transform: uppercase;
         border-bottom: none;
 
+        @media (--md-down) {
+            padding-top: 0;
+        }
+
         .contribute-link {
             margin-left: 8px;
             padding: 20px 0 0;
@@ -501,6 +516,10 @@ header {
 
     & .contribute-menu.contribution-page-active {
         background: var(--desert-storm);
+    }
+
+    & .contribute-menu.mobile-menu-active {
+        padding-bottom: 0;
     }
 
     & .contribute-menu.active-page {
