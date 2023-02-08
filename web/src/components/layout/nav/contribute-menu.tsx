@@ -56,7 +56,6 @@ const ContributeMenu: React.FC<ContributeMenuProps> = ({
         className={classNames('contribute-menu', {
           active: showMenu,
           'contribution-page-active': isContributionPageActive,
-          'mobile-menu-active': showMobileMenu,
         })}
         onMouseEnter={handleMouseEnter}
         onMouseLeave={handleMouseLeave}
@@ -69,7 +68,7 @@ const ContributeMenu: React.FC<ContributeMenuProps> = ({
             <ChevronDown className={classNames({ 'rotate-180': showMenu })} />
           )}
         </div>
-        {showMobileMenu && (
+        {(showMobileMenu || isContributionPageActive) && (
           <div
             className="menu-wrapper-mobile"
             data-testid="contribute-mobile-menu">

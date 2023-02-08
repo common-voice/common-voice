@@ -101,6 +101,18 @@ header {
         cursor: pointer;
     }
 
+    & .menu-icon.desktop-menu-icon {
+        @media (--md-down) {
+            display: none;
+        }
+    }
+
+    & .menu-icon.mobile-menu-icon {
+        @media (--lg-up) {
+            display: none;
+        }
+    }
+
     & .menu-icon.expanded {
         display: block;
         pointer-events: all;
@@ -327,7 +339,6 @@ header {
 
             & .menu-wrapper-mobile {
                 width: 100%;
-                padding-bottom: 20px;
 
                 @media (--lg-up) {
                     display: none;
@@ -397,6 +408,17 @@ header {
 
     &:hover {
         background-color: transparent;
+    }
+
+    & a.button {
+        text-transform: uppercase;
+        min-width: 100px;
+        padding: 15px;
+    }
+
+    & a.button.avatar {
+        background: none;
+        border: none;
     }
 }
 

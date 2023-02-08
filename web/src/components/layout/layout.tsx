@@ -182,8 +182,13 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
       this.state.showWelcomeModal && user.account?.enrollment?.challenge;
     const redirectURL = URLS.DASHBOARD + URLS.CHALLENGE;
 
-    const handleMenuIcon = () => {
+    const handleMenuIconClick = () => {
       this.setState({ shouldExpandNavItems: !this.state.shouldExpandNavItems });
+    };
+
+    const handleSecondaryNavMobileMenuClick = () => {
+      this.toggleMenu();
+      this.setState({ shouldExpandNavItems: true });
     };
 
     return (
@@ -203,8 +208,20 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
             <div>
               {isContributionPageActive && (
                 <MenuIcon
-                  onClick={handleMenuIcon}
-                  className={cx({ active: this.state.shouldExpandNavItems })}
+                  onClick={handleMenuIconClick}
+                  className={cx(
+                    { active: this.state.shouldExpandNavItems },
+                    'desktop-menu-icon'
+                  )}
+                />
+              )}
+              {(!isContributionPageActive || this.state.isMenuVisible) && (
+                <MenuIcon
+                  onClick={this.toggleMenu}
+                  className={cx(
+                    { active: this.state.isMenuVisible },
+                    'mobile-menu-icon'
+                  )}
                 />
               )}
               <Logo />
@@ -230,19 +247,22 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
               />
               <button
                 id="hamburger-menu"
-                onClick={this.toggleMenu}
                 className={isMenuVisible ? 'active' : ''}>
                 {user.account ? (
-                  <Avatar url={user.account.avatar_url} />
+                  <LinkButton href="/profile" className="avatar">
+                    <Avatar url={user.account.avatar_url} />
+                  </LinkButton>
                 ) : (
-                  <MenuIcon className={isMenuVisible ? 'active' : ''} />
+                  <Localized id="login-signup">
+                    <LinkButton href="/login" rounded outline />
+                  </Localized>
                 )}
               </button>
             </div>
           </header>
           {isContributionPageActive && (
             <div className="secondary-nav">
-              <MenuIcon />
+              <MenuIcon onClick={handleSecondaryNavMobileMenuClick} />
               <div className="options">
                 <div
                   className={cx({
