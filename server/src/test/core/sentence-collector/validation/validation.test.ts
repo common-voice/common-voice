@@ -12,6 +12,16 @@ describe('Sentence validation', () => {
     ).toBe('This is a simple question.');
   });
 
+  it('Should validate sentence with locale not in list', () => {
+    const result = validateSentence('abc')('This is a simple question.');
+    expect(
+      E.fold(
+        err => err,
+        res => res
+      )(result)
+    ).toBe('This is a simple question.');
+  });
+
   it('Should invalidate sentence with too many words', () => {
     const result = validateSentence('en')(
       'This is very very very very very very very very very very very very very very very very very very very very long'
