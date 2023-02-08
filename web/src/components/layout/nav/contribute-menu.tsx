@@ -36,15 +36,8 @@ const ContributeMenu: React.FC<ContributeMenuProps> = ({
   };
 
   return (
-    <div
-      className={classNames('contribute-menu', {
-        active: showMenu,
-        'contribution-page-active': isContributionPageActive,
-      })}
-      onMouseEnter={handleMouseEnter}
-      onMouseLeave={handleMouseLeave}
-      data-testid="contribute-menu">
-      <div className="contribute-btn-wrapper">
+    <div>
+      <div id="contribute-btn-wrapper">
         <Localized id="contribute">
           <TextButton
             className="contribute-btn"
@@ -59,26 +52,36 @@ const ContributeMenu: React.FC<ContributeMenuProps> = ({
         )}
         {isContributionPageActive && <span className="black-border" />}
       </div>
-      <div className="contribute-links-wrapper">
-        <p className="nav-link-item">
-          <Localized id="contribute" />
-        </p>
-        {!isContributionPageActive && (
-          <ChevronDown className={classNames({ 'rotate-180': showMenu })} />
-        )}
-      </div>
-      {showMobileMenu && (
-        <div
-          className="menu-wrapper-mobile"
-          data-testid="contribute-mobile-menu">
-          <ContributeMenuContent pathname={location.pathname} />
+      <div
+        className={classNames('contribute-menu', {
+          active: showMenu,
+          'contribution-page-active': isContributionPageActive,
+          'mobile-menu-active': showMobileMenu,
+        })}
+        onMouseEnter={handleMouseEnter}
+        onMouseLeave={handleMouseLeave}
+        data-testid="contribute-menu">
+        <div className="contribute-links-wrapper">
+          <p className="nav-link-item">
+            <Localized id="contribute" />
+          </p>
+          {!isContributionPageActive && (
+            <ChevronDown className={classNames({ 'rotate-180': showMenu })} />
+          )}
         </div>
-      )}
-      <div className="menu-wrapper" data-testid="menu-wrapper">
-        {isContributionPageActive && <span className="black-border" />}
-        <div className="menu">
-          <span className="blue-border" />
-          <ContributeMenuContent className="menu-list" />
+        {showMobileMenu && (
+          <div
+            className="menu-wrapper-mobile"
+            data-testid="contribute-mobile-menu">
+            <ContributeMenuContent pathname={location.pathname} />
+          </div>
+        )}
+        <div className="menu-wrapper" data-testid="menu-wrapper">
+          {isContributionPageActive && <span className="black-border" />}
+          <div className="menu">
+            <span className="blue-border" />
+            <ContributeMenuContent className="menu-list" />
+          </div>
         </div>
       </div>
     </div>
