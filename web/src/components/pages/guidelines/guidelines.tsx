@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import { Localized } from '@fluent/react';
 import { Tabs, TabList, Tab, TabPanel } from 'react-tabs';
 import classNames from 'classnames';
@@ -6,9 +7,12 @@ import classNames from 'classnames';
 import Page from '../../ui/page';
 import PageHeading from '../../ui/page-heading';
 import { NAV_IDS } from './constants';
+import SidebarContent from './sidebar-content/sidebar-content';
+import RoundButton from '../../ui/round-button';
+import { MailIcon } from '../../ui/icons';
+import VisuallyHidden from '../../visually-hidden/visually-hidden';
 
 import './guidelines.css';
-import SidebarContent from './sidebar-content/sidebar-content';
 
 const Guidelines = () => {
   const defaultOption = NAV_IDS.PRONUNCIATIONS;
@@ -69,7 +73,26 @@ const Guidelines = () => {
           </TabPanel>
         </Tabs>
       </section>
-      <section className="contact">{/*  */}</section>
+      <section className="contact-section">
+        <div className="contact-container">
+          <Localized id="still-have-questions">
+            <h1 />
+          </Localized>
+          <p>
+            <RoundButton>
+              <Link to="#" data-testid="email-signup-button">
+                <VisuallyHidden>
+                  <Localized id="about-stay-in-touch-button" />
+                </VisuallyHidden>
+                <MailIcon />
+              </Link>
+            </RoundButton>
+            <Localized id="about-stay-in-touch-text-1">
+              <span />
+            </Localized>
+          </p>
+        </div>
+      </section>
     </Page>
   );
 };
