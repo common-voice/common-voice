@@ -177,6 +177,7 @@ Aber das hätte sie sicher mitbekommen.
 Aber das impliziert ja, dass es eine reziproke Abbildung gibt.
 Aber das ist dann auch wirklich die letzte für heute!
 Aber das ist doch kein Geheimnis!
+Aber das ist doch kein Grund!
 Aber das ist es mir wert.
 Aber das ist ja das Schöne an der Shuffle-Funktion.
 Aber das ist ja nicht die einzige Unstimmigkeit.
@@ -594,6 +595,7 @@ Ach, das kannst du vergessen!
 Ach, das sind doch alles nur Gerüchte!
 Ach, davon hatte ich in der Zeitung gelesen.
 Ach, den Abfall verklappen wir einfach irgendwo im Niemandsland.
+Ach, den Kindern ist das doch alles egal!
 Ach, der Postbote kennt mich schon.
 Ach, die Marion und die Michaela haben immer so viel zu machen.
 Ach, die kennen das schon.
@@ -1039,6 +1041,7 @@ Als Reaktion springen Fußgänger oft unvorhersehbar in irgendeine Richtung.
 Als Rentner im Erdgeschoss ist man der Liebling eines jeden Paketboten.
 Als Rentner werde ich mich von Enten ernähren, die von heutigen Rentnern gefüttert werden.
 Als Reporterin muss man immer verständnisvoll nicken.
+Als Schlagzeugerin bin ich geübt darin.
 Als Segler fühlt man sich frei wie der Wind.
 Als Shorts werden kurze Hosen bezeichnet, die meist nicht bis unter die Knie reichen.
 Als Sigmar erkältet war, klang seine Stimme ein wenig nach Schlumpf.
@@ -1187,6 +1190,7 @@ Also ich hatte vorhin schon ein Eis von Magnum.
 Also ich lüge schon länger als vierzig Tage nicht.
 Also ich schneide mein Wiener Schnitzel nicht halb durch.
 Also ich will die nur zum Rechnen haben.
+Also ich würde es als Kompliment auffassen.
 Also ich würde jetzt schon gerne etwas essen.
 Also jedenfalls bis zur nächsten Schlacht.
 Also jetzt geht es aber zu weit!
@@ -1436,6 +1440,7 @@ Am meisten wird der Schokokuchen verkauft.
 Am neunten März zweitausendeinundzwanzig gab Löw bekannt, seinen Posten im Sommer des Jahres aufzugeben.
 Am nächsten Morgen waren die Bedenken wie verflogen.
 Am nächsten Samstag wartet ein wahrer Angstgegner auf die Eintracht.
+Am richtigen Computer geht das viel schneller.
 Am schnellsten kommen die Freistil-Schwimmer voran.
 Am schockierendsten fand ich ihre spontane Reaktion auf die Nachricht.
 Am sechsten Dezember feierten wir gemeinsam den zweiten Advent.
@@ -2501,6 +2506,7 @@ Außer der Orgel hat auch die Kirche erheblichen Einfluss auf den Klang.
 Außer der Werbung funktioniert hier nichts.
 Außer die Nächte, die sind kalt.
 Außer dir benutzt das niemand.
+Außer dir findet das keiner witzig.
 Außer dir trinkt sowieso keiner Birnensaft.
 Außer dir wollte eh niemand nach Osnabrück.
 Außer ein paar Hundespaziergängern ist niemand mehr unterwegs.
@@ -2935,6 +2941,7 @@ Bei schönem Wetter kaufen wir uns vielleicht ein Eis auf dem Weg.
 Bei seinen Ausführungen bleibt er auffällig unkonkret.
 Bei so einem Arbeitsklima würde ich sofort wieder kündigen.
 Bei so einem Spottpreis fragt man sich natürlich, wie das möglich ist.
+Bei so einer Arbeitslast würde ich auch krank werden.
 Bei so einer Staubschicht auf dem Radio wundert der schlechte Empfang mich nicht.
 Bei so einer großen Population unmöglich.
 Bei so etwas bekomme ich auch immer Panikzustände.
@@ -2965,6 +2972,7 @@ Bei vielen der heutigen Profi-Spielerinnen sieht die Geschichte ähnlich aus.
 Bei vielen potenziellen Ersthelfern kommt es zur Verantwortungsdiffusion.
 Bei weißem Rauschen rauscht jede Frequenz gleich stark.
 Bei welcher Krankenkasse sind sie versichert?
+Bei welcher Temperatur schmilzt Kerzenwachs?
 Bei wem hast du abgeschrieben?
 Bei wem muss ich klingeln?
 Bei wem?
@@ -2984,6 +2992,7 @@ Beide konkurrieren um Licht und Mineralien.
 Beide überleben schwer verletzt.
 Beides gleichzeitig geht nicht.
 Beides ist nicht ohne.
+Beides wurde bereits in mehreren unabhängigen Studien nachgewiesen.
 Beilagen sind manchmal ungenießbar.
 Beim Abgießen die kulinarischen Spezialitäten aussortieren.
 Beim Arzt kam ich mir vor wie in einem Verkaufsgespräch.
@@ -3362,6 +3371,7 @@ Bis zu seiner Heirat hatte Dieter vier Sexualpartnerinnen, eine davon war seine 
 Bis zu welcher Geschwindigkeit bestehen Omnibusse den Elchtest?
 Bis zu welcher Länge können Sie sich Passwörter merken?
 Bis zu welcher Tauchtiefe wurde dieses U-Boot geprüft?
+Bis zu welcher Windstärke kann man noch Raketen starten?
 Bis zu welcher Windstärke lassen sich neue Windräder errichten?
 Bis zum Ende des Urlaubs will ich das gelernt haben.
 Bis zum Sommer muss ich unbedingt meine Bikini-Figur erreicht haben.
@@ -3379,6 +3389,7 @@ Bisher ist nichts Überraschendes dabei.
 Bisher kein einziges Mal.
 Bisher kenne ich die Strecke nur aus dem Fahrsimulator.
 Bisher konnte keine Sicherheitslücke gefunden werden.
+Bisher sind es nichts als Mutmaßungen.
 Bisher waren alle Antworten korrekt.
 Bisher wurden alle Eisberge sicher umschifft.
 Bislang ist keiner der Schlümpfe flöten gegangen.
@@ -3480,6 +3491,7 @@ Bitte niemals damit aufhören!
 Bitte noch einmal!
 Bitte noch mal alles von vorne.
 Bitte nochmal alles von vorne.
+Bitte nur Werbung für sinnvolle Produkte einwerfen!
 Bitte nur mit kleinen Scheinen und Münzen bezahlen!
 Bitte nutzen Sie ein komplexes Passwort.
 Bitte ohne Zwiebeln und ohne Knoblauchsoße.
@@ -4064,6 +4076,7 @@ Da sitzt er auf dem Präsentierteller.
 Da soll mich doch sogleich der Blitz treffen!
 Da sollte Hanna mal einen Blick drauf werfen.
 Da sollte jeder Zollbeamte skeptisch werden.
+Da sollte man mal die Abgaswerte prüfen lassen.
 Da sollte man schon genau drauf achten.
 Da staunt sogar der Fuchs.
 Da steckt bestimmt eine richtig gute Idee dahinter.
@@ -4395,6 +4408,7 @@ Damit macht ihr es euch viel zu einfach.
 Damit man Lecks schnell entdeckt, wird dem Erdgas künstlich ein Aroma beigemischt.
 Damit man ihr Spiegelbild sieht, müssen sich die Lichtquellen vor einem befinden.
 Damit meine ich eine richtige Zeitung, nicht so ein Boulevard-Blatt.
+Damit muss ich dich jetzt noch ein bisschen aufziehen.
 Damit muss man bei der Besichtigung nun wirklich keine Zeit verschwenden.
 Damit möchte ich nicht die Vorteile digitaler Signalübertragung leugnen.
 Damit rettet der Staat systemrelevante Banken.
@@ -4849,6 +4863,7 @@ Darf man Ameisen kritisieren?
 Darf man Memes zur Krankmeldung nutzen?
 Darf man Tiere einfach einsperren und zur Schau stellen?
 Darf man Traubenzucker als gesund bewerben, oder wäre das Verbrauchertäuschung?
+Darf man Verkehrsschilder, die man gefunden hat, behalten?
 Darf man am Steuer telefonieren, wenn der Motor aus ist?
 Darf man am Steuer trinken, wenn der Motor nicht läuft?
 Darf man auch beim Rauchen beten?
@@ -4925,6 +4940,7 @@ Das Abonnement ist in dieser Region nicht gültig.
 Das Abrollgeräusch der Reifen ist sehr leise.
 Das Adrenalin hält einen wach.
 Das Alter der Täterin wird zwischen zwanzig und dreißig Jahre geschätzt.
+Das Altersheim von gegenüber hat schon Bedarf angemeldet.
 Das Altpapier kommt durch den Briefkasten herein und mit der blauen Tonne wieder heraus.
 Das Amt des Bundespräsidenten dauert sechs Jahre.
 Das Amt kann sich vor Anfragen kaum retten.
@@ -4953,6 +4969,7 @@ Das Baby zermatschte mit großer Freude das Essen in seinen Händen.
 Das Babyfon hat sogar einen Monitor.
 Das Baden im Baggersee ist zwar verboten, doch dieses Verbot hält niemanden ab.
 Das Barometer zeigt beständiges Wetter an.
+Das Bauern-Cabrio ist nicht mehr fahrtüchtig.
 Das Bauernhaus wird auch Kotten genannt.
 Das Bauwerk nimmt langsam Gestalt an.
 Das Bekannteste Moped aus der D-D-R ist die Simson S einundfünfzig.
@@ -5388,6 +5405,7 @@ Das Ticket gilt für einen Tag und ist nicht übertragbar.
 Das Ticket müssen Sie hinten am Automaten lösen.
 Das Ticket zur Anfahrt ist in der Eintrittskarte enthalten.
 Das Tief Manfred ist im Anmarsch.
+Das Tippen auf dem Handy ist immer so langsam!
 Das Topmodell ist freilich nicht für jedermann erschwinglich.
 Das Tunnelsystem im Untergrund von New York ist sehr komplex.
 Das Twerken zum Beispiel gefällt auch Männern, die sonst keine Frauenbewegungen mögen.
@@ -5936,6 +5954,7 @@ Das ist ja ein Schnapper.
 Das ist ja eine Sause hier am Wochenende auf dem Schulhof.
 Das ist ja eine Wucht!
 Das ist ja einfach.
+Das ist ja fies!
 Das ist ja furchtbar.
 Das ist ja fürchterlich mit diesen schwarzen Balken überall!
 Das ist ja klar.
@@ -6143,6 +6162,7 @@ Das kommt davon, wenn man so viele Dinge gleichzeitig tut.
 Das kommt durch meine Stauballergie.
 Das kommt in die gelbe Tonne!
 Das kommt ungefähr so häufig vor wie ein Schlachter mit veganer Freundin.
+Das konnte doch keiner ahnen!
 Das konnte einfach nicht stimmen.
 Das konnte ich noch nicht in Erfahrung bringen.
 Das kontaktlose Bezahlen mittels Karte oder Smartphone setzt sich auch in Deutschland langsam durch.
@@ -6664,6 +6684,7 @@ Davon wissen sie nur noch nichts.
 Davon würde ich Abstand nehmen.
 Davon wüsste ich aber!
 Davor darfst du erst mal ordentlich Geld abdrücken.
+Davor fürchten sich unsere Entwickler.
 Davor hat man keine Chance.
 Davor ist man noch in der Probezeit.
 Davor standen bei mir nur geklaute Sitzmöbel.
@@ -6754,6 +6775,7 @@ Dein Kontingent ist fast erschöpft.
 Dein Kostüm wird auf der Party ein echter Hingucker sein.
 Dein Kunde bittet um Rückruf.
 Dein Link funktioniert mal wieder nicht.
+Dein Luxusleben hat nun wirklich gar nichts mit Minimalismus zu tun.
 Dein Mixer macht einen Höllenlärm!
 Dein Name ist dort falsch geschrieben.
 Dein Namensgedächtnis möchte ich haben.
@@ -6810,10 +6832,12 @@ Deine Stellungnahme enthält viel zu viele einschränkende Wörter und wirkt dah
 Deine Stimme klingt wie das Eichhörnchen aus dieser einen Zeichentrickserie.
 Deine Stimme kommt mir bekannt vor.
 Deine Sünde sei dir vergeben.
+Deine Tricks haben sich seit zehn Jahren nicht weiterentwickelt.
 Deine Truppe scheint recht bunt gemischt zu sein.
 Deine Umarmung hat mir gut getan.
 Deine Vorstellung ist durchaus zutreffend.
 Deine Zimmerpflanze führt aber ein trauriges Dasein.
+Deine Zivis feiern dich.
 Deine Zöglinge kasperten ausgelassen herum.
 Deine fruchtbare Erscheinung beeindruckt mich zutiefst.
 Deine große Stiefschwester ist ein heißes Eisen!
@@ -7869,6 +7893,7 @@ Der Stoff ist gerade angekommen.
 Der Strafverteidiger ist eine Koryphäe auf seinem Gebiet.
 Der Strand wurde gesäubert.
 Der Strandzugang sollte kostenlos für alle sein.
+Der Straßenbahnführerin wurde vorgeworfen, sie sei nicht ausgewichen.
 Der Straßenbauer war mit aufwendigen Pflasterarbeiten beschäftigt.
 Der Straßenfeger gibt sich Mühe, die Instruktionen genau zu befolgen.
 Der Streit ging nicht darum, ob die Musik schön ist.
@@ -8044,6 +8069,7 @@ Der Wind bläst.
 Der Wind hat den Sand fein gemahlen.
 Der Wind hat viele Bäume gefällt.
 Der Wind kommt aus Norden; er hat sich nach Osten gedreht, er legt sich.
+Der Wind weht immer frischer und wir grüßen Bruno Fischer.
 Der Wind weht von Ost bis Nordost.
 Der Winter hat den Norden fest im Griff.
 Der Winter ist bald vorbei, der Frühling naht.
@@ -8411,6 +8437,7 @@ Deswegen duftet es am ersten Advent im ganzen Haus nach Tanne.
 Deswegen dünstet Dagmar die Datteln der Dorfbewohner.
 Deswegen erfordern sie den Einsatz von Insektiziden.
 Deswegen erklärt er es ja.
+Deswegen fahren die da ja auch alle wie die Geisteskranken.
 Deswegen findet man auch kaum Fotos von ihnen.
 Deswegen greifen wir auf eine Trägersubstanz zurück, die nicht durch die Poren geht.
 Deswegen hab ich wohl auch vergessen zu antworten, sorry!
@@ -8939,6 +8966,7 @@ Die Glühbirnen sind sehr alt.
 Die Grafik könnte etwas mehr Kontrast vertragen.
 Die Gravitationskraft ist uns noch immer ein Rätsel.
 Die Grenze verläuft nicht immer genau in der Mitte.
+Die Grenzen verschwimmen immer mehr.
 Die Grillzange ist schon dreißig Jahre alt.
 Die Grundform wird aus Ziegelsteinen gemauert.
 Die Grundzutaten bleiben immer dieselben.
@@ -9107,6 +9135,7 @@ Die Klägerin klagte dann sogleich.
 Die Koalitionspartner übten sich in demonstrativer Gelassenheit.
 Die Kohlensäure juckt in der Nase.
 Die Kokosnuss ist eine gigantische Frucht.
+Die Kollegen staunten nicht schlecht, als ich meinen Photovoltaik-Sonnenschirm auspackte.
 Die Kombination aus Bleifuß und Holzkopf ist ein häufiger orthopädischer Befund auf deutschen Autobahnen.
 Die Komfortzone trägt ihren Namen nicht ohne Grund.
 Die Kommentarsektion ist hiermit eröffnet!
@@ -9538,6 +9567,7 @@ Die Sonne scheint heute wirklich so schön.
 Die Sonne scheint.
 Die Sonne steht fast senkrecht am Himmel.
 Die Sonne wird erst heute Nachmittag wieder herauskommen.
+Die Sonne wurde schon oft besungen – von Rolf Zuckowski bis Rammstein.
 Die Soundkarte ist auf dem Mainboard integriert.
 Die Spalte in der Wohnzimmerwand ärgert mich.
 Die Spalte wieder quer sitzen?
@@ -10072,6 +10102,7 @@ Die ist zwei Wochen dort.
 Die junge Hals-Nasen-Ohren-Ärztin bangt um ihren Arbeitsplatz.
 Die jungen Leute haben heutzutage keinen Respekt mehr!
 Die jungen Leute wollen lieber zu Genderthemen forschen als Wärmepumpen installieren.
+Die jungen Talente machen Hoffnung.
 Die jungs gehen morgen in die Sauna.
 Die kann jeder gebrauchen.
 Die kann man auf einer Skihütte nutzen.
@@ -10170,6 +10201,7 @@ Die neuen Beiträge werden erst sichtbar, nachdem sie manuell importiert wurden.
 Die neuen Covid Mutanten sind teilweise als besorgniserregend eingestuft worden.
 Die neuen Enthüllungen über den Funktionär ändern alles.
 Die neuen Fenster schirmen den Straßenlärm deutlich besser ab.
+Die neuen Nachbarn sind schon ein wenig seltsam.
 Die neugeborenen Löwen sind noch ganz handzahm.
 Die neunundzwanzigjährige Pharmazeutin wuchs in einem Hundert-Seelen-Dorf auf.
 Die neusten Nachrichten im Anschluss.
@@ -10277,6 +10309,7 @@ Die vielen Patrouillen haben Sie vielleicht auch schon bemerkt.
 Die vielen Quellwolken lassen Aufwinde vermuten.
 Die vielen Schulbücher sind total unnötig.
 Die vielen schlechten Rezensionen kann ich nicht ganz nachvollziehen.
+Die vielen tausend eingesprochenen Sätze sollte man mal zu einer Geschichte verbinden.
 Die vier Feldspieler spielen in einer Rautenformation.
 Die vierte Coronawelle rollt.
 Die vierte Welle ist nun auch hier eingetroffen.
@@ -10431,6 +10464,7 @@ Diese Erfahrung wird außerdem auch in Ihrem Chatlog und in Ihrem Kampflog angez
 Diese Erkenntnis ist wohl der erste Schritt in die Selbstständigkeit.
 Diese Erklärung kannst und solltest du eins zu eins ins Wiki kopieren.
 Diese Fanpost ist nicht so berauschend.
+Diese Fehlermeldung kriege ich neuerdings ständig zu Gesicht.
 Diese Filiale wird geschlossen.
 Diese Firma beschäftigt sich mit Robotik.
 Diese Formulierung ist mir noch zu verschwurbelt.
@@ -10473,6 +10507,7 @@ Diese Milch ist laktosefrei.
 Diese Musik wird dir helfen, besser auf dich selbst zu hören.
 Diese Musiksammlung soll die Vielfalt des Lebens widerspiegeln.
 Diese Nachricht beruhigte ihn augenscheinlich und er hielt kurz inne.
+Diese Nacht hat sie zu mir gesprochen und mir befohlen, den Entführer zu finden.
 Diese Neuerung ist löblich.
 Diese Pandemie macht mich fertig.
 Diese Playlist höre ich jetzt den ganzen Tag in Dauerschleife.
@@ -10622,6 +10657,7 @@ Dieses Argument war allerdings immer schon umstritten.
 Dieses Bild als Hintergrund festlegen.
 Dieses Buch hat mir die Augen geöffnet.
 Dieses Einbahnstraßensystem in der Altstadt ist das reinste Labyrinth!
+Dieses Eisen ist zum Brechen, genau wie deine Fotos.
 Dieses Ersatzteil gibt es nicht mehr zu kaufen.
 Dieses Fahrrad gehört nicht mir.
 Dieses Formular ist mir gänzlich unbekannt.
@@ -10907,6 +10943,7 @@ Dreißigmal drücken, zweimal beatmen.
 Dribbeln ist nicht erlaubt.
 Drillige können drei Kinder sein oder aber kleine Kartoffeln.
 Drinnen wartet eine Überraschung auf euch.
+Drogen wären aus meiner Sicht umweltfreundlicher gewesen.
 Drogenabhängige Jugendliche klauen das Geld bei ihren Eltern.
 Drogenbeauftragte Dörfler möchte das Thema salonfähig machen.
 Drogenfahnder können ein Lied davon singen.
@@ -11093,6 +11130,7 @@ Du isst viele Garnelen, oder?
 Du kannst Beijing oder auch Peking sagen.
 Du kannst auch einmal etwas holen.
 Du kannst das Bett schon neu beziehen.
+Du kannst das doch überhaupt nicht beurteilen!
 Du kannst das genauso gut wie ich.
 Du kannst davon ausgehen, dass sie die Liste nicht ohne Hintergedanken erstellt hat.
 Du kannst deine Versicherung jederzeit in Anspruch nehmen.
@@ -11211,10 +11249,12 @@ Du solltest Gesangsunterricht nehmen.
 Du solltest darüber nachdenken.
 Du solltest den Salat kurz abbeuteln, damit er nicht alles antropft.
 Du solltest dich beeilen, es sieht nach Regen aus.
+Du solltest dich nicht darauf verlassen, dass du eine zweite Chance bekommst.
 Du solltest einfach mal Fünfe gerade sein lassen.
 Du solltest es sein lassen.
 Du solltest geradeaus über den Kreisverkehr fahren!
 Du solltest im Möbelhaus nach einem Probestuhl fragen, nicht nach einer Stuhlprobe!
+Du solltest mal wieder deine Lachmuskeln trainieren.
 Du solltest mehr zuhören und weniger interpretieren.
 Du solltest nicht alles glauben, was im Fernsehen gezeigt wird.
 Du solltest nicht andere für dein Scheitern verantwortlich machen.
@@ -11258,6 +11298,7 @@ Du willst also ganz nach oben?
 Du willst dich besaufen?
 Du willst dich nur einschleimen.
 Du willst doch jetzt noch nicht gehen, oder?
+Du willst doch wieder nur bei irgendeinem Trend mitmachen.
 Du willst eine "Freundschaft mit besonderen Vorzügen"?
 Du willst eine Revanche?
 Du willst es zwar jetzt nicht hören, aber ich sage es dir trotzdem.
@@ -11383,6 +11424,7 @@ Durch ihre Rechtschreibung sind ihre Nachrichten ausreichend verschlüsselt.
 Durch ihre jüngsten Äußerungen ist die Komikerin in Verruf geraten.
 Durch jede Zwischenstation verzögert sich die Reaktion weiter.
 Durch krankheitsbedingte Ausfälle dauert es derzeit etwas länger.
+Durch meine wundersamen Selbstheilungskräfte.
 Durch meinen Schnupfen erlebe ich gerade einen zweiten Stimmbruch.
 Durch neue Vorwürfe ist die Konzernspitze jüngst in Bedrängnis geraten.
 Durch niedrigeren Verbrauch profitiert die Umwelt und Ihr Portemonnaie wird entlastet.
@@ -11405,6 +11447,7 @@ Dutzende stehen Schlange vor der Ankleidekabine.
 Döner macht nicht nur schöner sondern auch Fettflecken.
 Dörte kam zehn Minuten zu spät zur Arbeit und wurde abgemahnt.
 Dörte sucht einen Fachmann, der den Herd an den Starkstrom anschließt.
+Dümmer geht es echt nicht mehr!
 Dümmer geht's nicht mehr.
 Dümmste Ausrede ever!
 Dünner ist nicht besser.
@@ -11639,6 +11682,7 @@ Ein Computer verfügt über verschiedene Anschlüsse.
 Ein Containerschiff ist umgekippt, nachdem es falsch beladen wurde.
 Ein Danke sollte man nicht aufschieben.
 Ein Dateimanager, der keine Tabs kann, das ist eine Zumutung!
+Ein Datenschützer verweigert die Auskunft.
 Ein Deal mit den Taliban erschien undenkbar.
 Ein Deckel ist nicht die Lösung für alles.
 Ein Dessert gefällig?
@@ -11720,6 +11764,7 @@ Ein Kleintransporter biegt in die schmale Gasse ein.
 Ein Klick genügt.
 Ein Knirps gerät auf seiner Gummiente in Seenot.
 Ein Kontoausgleich wird dringend empfohlen.
+Ein Kontoauszug statt eines Profilfotos hat dazu geführt, dass die Frauen mich beachten.
 Ein Krankenwagen steckt im Stau fest.
 Ein Kugelgelenk hat mehr Freiheitsgrade.
 Ein Kunde hat die Blu-Ray in die falsche Hülle gelegt.
@@ -11790,6 +11835,7 @@ Ein Sachschaden ist besser als ein Dachschaden.
 Ein Salamander ist bei Dunkelheit in den Fensterschacht gefallen.
 Ein Satz aus seinem Nachruf.
 Ein Satz wird eigentlich mit einem Punkt beendet.
+Ein Schaden ist nicht entstanden.
 Ein Schallplattenspieler und ein Kassettenrekorder zählten dazu, ebenso ein Radio.
 Ein Schauder lief ihr kalt den Rücken runter.
 Ein Schema, mehrere Schemata.
@@ -11925,6 +11971,7 @@ Ein feiner Pinkel.
 Ein frei fliegender Kolben bewegte sich in engen Bahnen durch den Trittschall.
 Ein freies Leben ist erstrebenswert.
 Ein funktionierendes Kundenbindungsprogramm muss her.
+Ein fürsorglicher Arbeitgeber unterstützt seine Angestellten bei der Partnersuche.
 Ein ganz bestimmter Bakterienstamm verleiht dem Getränk seinen unverwechselbaren Geschmack.
 Ein ganz wichtiger Punkt fehlt noch auf deiner Liste.
 Ein ganze Teil sind kombinierte Rad und Fußwege.
@@ -13250,6 +13297,7 @@ Erst mal tief durchatmen.
 Erst mal zeigt Maybrit uns, was sie in der Halfpipe drauf hat.
 Erst mal zu Jenny.
 Erst nach zwölf Jahren brach er sein Schweigen.
+Erst noch die Werbung wegklicken.
 Erst recht nicht nach Eins.
 Erst seit Kurzem gibt es in der Wohngemeinschaft einen Putzplan.
 Erst später fand man heraus, dass Kretschmann bloß mit Platzpatronen geschossen hatte.
@@ -13748,6 +13796,7 @@ Es ist wahnsinnig schwierig, die Helix unbeschädigt um den Stift zu friemeln.
 Es ist warm, zieh doch deinen Pulli aus.
 Es ist wichtig, dass Sie meinen Anweisungen folge leisten.
 Es ist wichtig, den Rasenziegel gut anzugießen.
+Es ist wie Fahrradfahren.
 Es ist wie damals, nur dass es heute einen besseren Grund gibt.
 Es ist wie mit guten Freunden.
 Es ist wie verhext.
@@ -14139,6 +14188,7 @@ Eugene stahl ein Chamäleon aus dem alten Tiergeschäft.
 Eulen nach Athen tragen.
 Euphorisiert wirbelte sie das Ding in der Luft herum.
 Eure Administratoren arbeiten im Keller?
+Eure Ansprüche sind zu hoch.
 Eure Armut kotzt mich an!
 Eure Begeisterung scheint mir noch steigerungsfähig.
 Eure Gier nach Gold wird euch nichts als Tod und Unheil bringen!
@@ -14234,6 +14284,7 @@ Falls der erste Versuch daneben geht, auf jeden Fall einen zweiten Versuch start
 Falls du denkst, du hättest mir damit einen Gefallen getan, dann liegst du falsch.
 Falls du es nicht siehst: Ich bin gerade gestresst.
 Falls ich dran denke, melde ich mich.
+Falls wir uns morgen nicht mehr sehen sollten, verabschiede ich mich jetzt schon mal.
 Falsch eingestellte Scheinwerfer blenden den Gegenverkehr.
 Falsche Antwort.
 Falsche Diäten gibt es nicht nur bei Politikern.
@@ -14289,6 +14340,7 @@ Felix Kummer ist ein deutscher Sänger und Rapper aus Chemnitz.
 Felix Peter ist ein bekannter Krankenwagenbelademeister.
 Felix doch nicht!
 Felsenbirnen sehen überhaupt nicht aus wie normale Birnen.
+Fenster müssen stets wärmedurchlässiger sein als die Wände.
 Fensterputzer wäre kein Beruf für mich.
 Fensterscheiben klirren.
 Fermionen unterteilt man weiter in Quarks und Leptonen.
@@ -14328,8 +14380,10 @@ Finde ich persönlich super.
 Finden Sie Ihren lückenlosen Lebenslauf nicht ein bisschen langweilig?
 Finden Sie das nicht auch absonderlich?
 Finden die Pflanzen es gut, wenn man in den Garten pinkelt?
+Findern gibt man direkt noch eine Vorlage, die eigene Unterschrift zu fälschen.
 Findest du das etwa gerecht?
 Findest du es in Ordnung, den Sperrmüll anderer nach nützlichen Dingen zu durchsuchen?
+Findest du es moralisch verwerflich, wenn ich darüber lache?
 Findest du etwa nicht?
 Findest du mich erwachsen?
 Findest du nicht auch?
@@ -14536,6 +14590,7 @@ Freuen Sie sich schon mal auf Post von meinem Anwalt!
 Freundchen, du begibst dich hier auf ganz dünnes Eis!
 Freundlich lächelnd begrüßte uns die Empfangsdame.
 Freundschaft zwischen Männern und Frauen gibt es sehr wohl.
+Freundschaften sind nicht strafbar.
 Freut mich echt, dass das so gut läuft.
 Freut mich.
 Fridolin gewann eine Schachpartie nach der anderen gegen den Sensenmann.
@@ -14600,6 +14655,7 @@ Früher hielt man den Aderlass für ein probates Mittel zur Entgiftung des Körp
 Früher hieß es Tadel, heute heißt es schriftliche Missbilligung.
 Früher hätte es auch nichts geholfen.
 Früher konnte man doch mal eine Beschreibung hinzufügen, oder täusche ich mich?
+Früher konnten Schulhöfe auch nachmittags als Spielplatz genutzt werden.
 Früher musste man nicht erst tausend Meldungen wegklicken.
 Früher nutzte ich umweltschädliche Akkus oder Batterien.
 Früher sind wir an Aschermittwoch in die Kirche und anschließend zur Schule gegangen.
@@ -14895,6 +14951,7 @@ Für mich ist das ganz klar gleiche Höhe.
 Für mich ist das kein Spiel.
 Für mich ist es schwer nachvollziehbar, weshalb jemand auf den Enkeltrick hereinfällt.
 Für mich kannst du das Pronomen "es" verwenden.
+Für mich klingt das nach großem Unsinn.
 Für mich klingt das ziemlich primitiv.
 Für mich macht das keinen Sinn.
 Für mich passt das alles.
@@ -14966,6 +15023,7 @@ Gaffer behindern die Rettungsarbeiten.
 Gandalf ist mein persönlicher Gott.
 Gangsta-Rapper werden in ihrem Intellekt manchmal unterschätzt.
 Ganove Schuster mixt sich einen Molotow-Cocktail.
+Ganz besonders möchte ich mich bei Hermine für ihre Engelsgeduld bedanken.
 Ganz der Papa!
 Ganz egal was passiert, aber diese Tür bleibt immer offen!
 Ganz egoistisch hatte er sich für den vermögendsten entschieden.
@@ -14998,6 +15056,7 @@ Ganz überrascht stellen sie fest, dass die Bäume nicht von oben nach unten wac
 Ganze Branchen leben vom Verkauf von Produkten, die keiner braucht.
 Ganze Industriezweige leben davon, Leuten überflüssige Produkte zu verkaufen.
 Gar nicht mal so übel.
+Gar nicht so einfach, wie ich dachte!
 Gar nicht so schlimm. Pengpeng. Oh nein, doch schlimm!
 Gar nichts ist okay, Alter!
 Gar so lange ist es nicht her, dass mir das überhaupt erst wieder einfiel.
@@ -15054,6 +15113,7 @@ Gefühlt jeder zehnte bis fünfzehnte Satz enthält eine Abkürzung.
 Gefüttert wird dort nicht mehr.
 Gegebenenfalls benötigte Ersatzteile werden frei Haus geliefert.
 Gegen Abend fing der Großvater wieder an vom Krieg zu erzählen.
+Gegen Abend hatte der Wind gedreht und so verlangsamte sich ihre Fahrt noch weiter.
 Gegen Echo und "verdoppelte" Wörter bei der Aufnahme hilft meistens ein Neustart des Handys.
 Gegen Fieber sollst du nichts tun, der Körper arbeitet dann und behebt das Problem.
 Gegen Frankfurt zeigten sich die Eisbären eiskalt und bärenstark.
@@ -15103,6 +15163,7 @@ Geh mal in den Schatten, sonst holst du dir noch einen Sonnenbrand.
 Geh mal nach hinten in die Werkstatt.
 Geh mir bitte aus dem Weg!
 Geh mir nicht auf den Keks.
+Geh nicht hin.
 Geh nicht zu hart mit ihm ins Gericht.
 Geh von der Couch, du fauler Hund!
 Geh vorsichtig damit um!
@@ -15784,6 +15845,7 @@ Gut, dass wir nach Ostfriesland gefahren sind!
 Gut, dass wir nicht gleicher Meinung sind, sonst hätten wir ja beide Unrecht.
 Gut, der hat halt einen anderen Humor.
 Gut, ich denke, ihr habt den Stoff jetzt ausreichend verinnerlicht.
+Gut, ich denke, wir müssen das jetzt nicht alles noch mal durchkauen.
 Gut, ich nehme sie; hier ist das Geld.
 Gut, im Grunde ist das ja alles nichts Neues.
 Gut, in drei Jahren werden die Wähler meine Versprechen sowieso vergessen haben.
@@ -15796,6 +15858,7 @@ Gute Bockwürste platzen beim Brühen auf.
 Gute Fahrt!
 Gute Frau, das ist kein Selbstbedienungsladen.
 Gute Gedanken, gute Worte, gute Taten.
+Gute Journalisten verlinken ihre Quellen, sofern sie nicht schützenswert sind.
 Gute Nacht ihr Lausbuben!
 Gute Nacht ihr Lieben, bis morgen.
 Gute Nacht zusammen!
@@ -15991,7 +16054,9 @@ Haben wir gerade ein Reh überfahren?
 Haben wir jemanden vergessen?
 Haben wir nicht, kriegen wir nicht, kriegen wir auch nicht wieder rein: so nicht!
 Haben wir noch Butter im Kühlschrank?
+Haben wir noch Geld auf dem Konto?
 Haben wir noch etwas Zeit?
+Haben wir schon einen Sommerhit zweitausenddreiundzwanzig?
 Haben wir vergessen, ein Mitglied des Betriebsrates einzuladen?
 Habibi, mach nicht so.
 Habt Erbarmen mit mir!
@@ -16502,6 +16567,7 @@ Hauhaltsbücher finde ich total überbewertet.
 Hauke hat zwar keine Freundin, möchte aber dennoch nicht als Single veröffentlicht werden.
 Hauptbestandteil von Regen ist Wasser in flüssiger Form.
 Hauptsache die Haare sitzen! Alles andere ist zweitrangig.
+Hauptsache die haben ihr Spielzeug.
 Hauptsache es klingt gut.
 Hauptsache es kommt von Herzen!
 Hauptsache es werden Santiano und Helene Fischer aufgelegt.
@@ -16682,6 +16748,7 @@ Heute Morgen war es kurzzeitig recht stürmisch.
 Heute Morgen war es so glatt, daß ich gestürzt bin.
 Heute Nachmittag hatte ich dann noch ein Meeting mit den Designern.
 Heute Nacht um zwei Uhr mitteleuropäischer Zeit ist die Kapsel im Ozean gelandet.
+Heute Nacht werde ich von euren Stimmen träumen.
 Heute Nacht, beziehungsweise heute Morgen hatte ich einen Traum von meinem ehemaligen Lieblingslehrer.
 Heute anscheinend nicht.
 Heute backen wir Lebkuchen.
@@ -16710,6 +16777,7 @@ Heute habe ich den Originaltext kennengelernt.
 Heute habe ich gehört, wir könnten mal vierzig Tage nicht Lügen.
 Heute habe ich gehört, wir könnten mal vierzig Tage nicht lügen.
 Heute habe ich schon zehn unterschiedliche Insekten im Garten entdeckt.
+Heute habe ich vieles gelernt, was ich nicht wissen wollte.
 Heute habe ich zwei Bier getrunken. Na ja, ein Bier und ein Radler.
 Heute hat Frau Büchner Spätschicht.
 Heute hatten wir eine ganztägige Betriebsversammlung.
@@ -17162,6 +17230,7 @@ Hohe Temperaturen sind dafür nicht notwendig.
 Hohe Temperaturen verkürzen die Lebensdauer enorm.
 Hol das Stöckchen.
 Hol den Klappspaten heraus!
+Hol dir eine Sprühdose und begib dich zur Brücke.
 Hol doch schon mal das Nudelholz aus dem Schrank.
 Hol mal eine neue.
 Hol mal noch eine Dose Erbsen und eine Dose grüne Bohnen.
@@ -17193,6 +17262,7 @@ Holz besteht aus Naturfasern.
 Holzeisenbahn - ein Widerspruch in sich.
 Holzschrauben drehen sich ihr eigenes Gewinde.
 Holzschrauben haben eine Spitze am Ende.
+Homepage ist ein Begriff, der in der Regel völlig falsch verwendet wird.
 Homer Simpson ist nicht der dümmste Mann den ich kenne.
 Homer dichtete die Epen Odyssee und Ilias.
 Homer dichtete die Epen-Odyssee und Ilias.
@@ -17376,6 +17446,7 @@ Ich arbeite.
 Ich auch nicht.
 Ich bedanke mich recht herzlich für Ihre Aufmerksamkeit.
 Ich bedanke mich recht schmerzlich.
+Ich bedankte mich für sein Entgegenkommen und verabschiedete ihn dann mit einem Arschtritt.
 Ich bedauere sehr, ich bin hier selbst fremd.
 Ich bedauere sehr, mein Herr.
 Ich bedauere unendlich, ich kann es Ihnen nicht sagen.
@@ -17702,6 +17773,7 @@ Ich empfand nicht das Gleiche wie sie, aber ich stand ihr bei.
 Ich empfehle Ihnen das Wiederherstellen der Werkseinstellungen.
 Ich empfehle Opus, einen Hybridcodec, für verlustbehaftete Audiodatenkomprimierung im Internet.
 Ich empfehle dazu ein Bankschließfach.
+Ich empfehle dir, deine Wahl nochmals zu überdenken.
 Ich empfehle jedem Vater seine Elternzeit zu nehmen.
 Ich empfinde es als schlecht, wenn man unnötigerweise viele Fremdwörter nutzt.
 Ich erinnere mich noch, als wäre es gestern gewesen.
@@ -17731,6 +17803,7 @@ Ich finde das Unterhaltsrecht in seiner aktuellen Form ungerecht.
 Ich finde das auch mega cool!
 Ich finde das mega.
 Ich finde das völlig überteuert.
+Ich finde die Platzierung irritierend.
 Ich finde die Schaltfläche nicht.
 Ich finde die Teams ungerecht.
 Ich finde diese Kommode hübsch.
@@ -17786,6 +17859,7 @@ Ich freue mich, hierzu einen kleinen Beitrag leisten zu können.
 Ich freue mich, wenn meine Coronaimpfung endlich wirkt.
 Ich fände es konsequent.
 Ich füge hier Sätze hinzu.
+Ich füge hier mal ein paar weitere hinzu.
 Ich fühle mich an mein Studium erinnert.
 Ich fühle mich diskriminiert!
 Ich fühle mich hier ein wenig wie auf dem Präsentierteller.
@@ -17827,6 +17901,7 @@ Ich gehe gleich erstmal aufs Zimmer die Powerbank holen.
 Ich gehe hier mit meinem Dackel spazieren.
 Ich gehe jetzt duschen.
 Ich gehe jetzt einkaufen, sonst muss ich hungern.
+Ich gehe mal rüber und sage den Nachbarn Bescheid.
 Ich gehe meistens in den Schuppen um Dinge zu reparieren.
 Ich gehe mich vergraben.
 Ich gehe morgen Abend ins Ballett.
@@ -18036,6 +18111,7 @@ Ich habe echt eine kleine Zeckenphobie.
 Ich habe ein Fahrrad gefunden.
 Ich habe ein Gamepad an den Computer angeschlossen.
 Ich habe ein Geräusch gehört.
+Ich habe ein Paket für Sie.
 Ich habe ein neues Handy.
 Ich habe eine Decke mitgebracht und wir setzen uns unter einen Baum.
 Ich habe eine Lösung und suche ein passendes Problem.
@@ -18197,6 +18273,7 @@ Ich habe sowieso schon rissige Haut.
 Ich habe süße Kaninchen im Auto!
 Ich habe unsere Katze seit einigen Tagen nicht mehr gesehen.
 Ich habe viele Muffins gebacken.
+Ich habe vieles versucht, damit meine Tochter nicht zur Tussi wird.
 Ich habe von den Kunden nur Bargeld erhalten.
 Ich habe vorhin gesehen, dass viele Leute ihren Müll gar nicht trennen.
 Ich habe vorhin nasse Flecken an der Decke und einer Wand entdeckt.
@@ -18255,6 +18332,7 @@ Ich hoffe, du kannst dich bei all den Möglichkeiten auch für eine davon entsch
 Ich hoffe, du kannst ein Geheimnis für dich behalten.
 Ich hoffe, du kannst mir das verzeihen.
 Ich hoffe, du kannst schweigen wie ein Grab.
+Ich hoffe, du verstehst das.
 Ich hoffe, es Ihnen in kurzer Zeit besorgen zu können.
 Ich hoffe, es fühlt sich niemand auf den Schlips getreten.
 Ich hoffe, ich habe keinen eurer Namen falsch geschrieben.
@@ -18460,6 +18538,7 @@ Ich krieg noch immer jedes Jahr einen selbstgemachten Adventkalender von meinem 
 Ich kriege den Fuß da nicht raus!
 Ich kriege dich sowieso!
 Ich kriege gleich einen cholerischen Anfall.
+Ich kriege jedes Mal einen Schreck, wenn ich den Deckel abnehme.
 Ich kriege so eine Krawatte.
 Ich kriege so einen Hals.
 Ich kriege wieder Kopfschmerzen.
@@ -18859,6 +18938,7 @@ Ich trinke lieber Wein.
 Ich tu das im Moment nämlich nicht mehr.
 Ich tu mein Bestes.
 Ich tu' immer nur rein.
+Ich tue das wirklich nicht gerne, aber ich sehe keinen anderen Weg.
 Ich tue doch keinem etwas.
 Ich und sonst niemand.
 Ich unterhalte mich mit einer Frau, die den Unfall aus nächster Nähe beobachtet hat.
@@ -19436,6 +19516,7 @@ Ihre Redezeit ist leider schon abgelaufen.
 Ihre Schale muss schwer sein, damit sie nicht schwimmen.
 Ihre Schilderungen kommen mir reichlich surreal vor.
 Ihre Signale gehen daher schnell im Rauschen unter.
+Ihre Sitzung ist abgelaufen.
 Ihre Uhr geht vor.
 Ihre Versicherung hat mehr Erfahrung mit dem Einschätzen von Risiken als Sie.
 Ihre Videos zum Thema Fußpflege gehen für meinen Geschmack zu weit unter die Gürtellinie.
@@ -19492,6 +19573,7 @@ Im Dezember zweitausendvier wurde sie für vier Jahre wiedergewählt.
 Im Dunkeln ist die Entfernung von Motorrädern schwieriger einzuschätzen, als die von Autos.
 Im Dunkeln ist gut munkeln.
 Im Dunkeln traut sich Erna nicht mehr vor die Tür.
+Im Durchschnitt geben Paare sage und schreibe zehntausend Euro für eine Hochzeit aus.
 Im Durchschnitt ändert sich nichts.
 Im Eifer des Gefechts hätte Roswitha beinahe den Pflock umgerissen.
 Im Eifer des Gefechts konnte Nils aus der unangenehmen Situation fliehen.
@@ -19770,6 +19852,7 @@ Im weiteren Spielverlauf verflachte die Partie zunehmends.
 Im zweiten Band geht es um Bekannte der Charaktere aus dem ersten Band.
 Im Übrigen ist das Urheberrecht unübertragbar.
 Im überkritischen Zustand sind Fluide irgendwie gleichzeitig flüssig und gasförmig.
+Immer am fünfundzwanzigsten eines Monats.
 Immer brav alles ankreuzen!
 Immer dann, wenn man den Service braucht, steht er vorübergehend nicht zur Verfügung.
 Immer dann, wenn man es braucht, vergisst man es.
@@ -19940,6 +20023,7 @@ In Tests zersplitterte der Rahmen in alle Richtungen.
 In Tirol enthält gefühlt jedes zweite Brötchen Kümmel.
 In Travemünde mündet die Trave in die Ostsee, daher der Name.
 In Ulm, um Ulm, und um Ulm herum wachsen viele Ulmen.
+In Unterzahlsituationen wird daher auf die Raumdeckung zurückgegriffen.
 In Vancouver kann man am selben Tag Ski fahren und am Strand liegen.
 In Verfahren wegen mit gerichtlicher Strafe bedrohter Handlungen nehmen sie Ermittlungs- und Anklagefunktionen wahr.
 In Wahrheit ist das Leben als Model nicht so glamourös wie oft dargestellt.
@@ -20238,6 +20322,7 @@ In einer Stunde muss ich zu Hause sein.
 In einer alten Kaverne werden die Gasvorräte gespeichert.
 In einer besseren Welt würden Weltverbesserer die Welt tatsächlich verbessern.
 In einer einfachen Laube wird eine eidgenössische Spezialität serviert.
+In einer festen Beziehung sind einem andere gut aussehende Männer völlig egal.
 In einer freien und aufgeklärten Gesellschaft ist Sex kein Tabuthema.
 In einer fremden Stadt ist die Wohnungssuche noch komplizierter.
 In einer guten Autobiografie wird der Mensch mit allen Characterzüge porträtiert.
@@ -20278,6 +20363,7 @@ In jedes Kästchen muss eine Zahl eingetragen werden.
 In jungen Jahren arbeitete Einstein beim Patentamt in Bern.
 In jüngerer Vergangenheit häuften sich Überfälle auf Postkutschen.
 In kaltem Zustand ist das Wassereis hoch belastbar.
+In kaum einem Land wird so viel gestreikt und protestiert wie in Frankreich.
 In kaum einem anderen Schleichspiel kommt so viel Spannung auf.
 In künftigen Projekten sollten wir die Fehler der Vergangenheit vermeiden.
 In langweiligen Videokonferenzen werden viele Kästchen ausgemalt.
@@ -20317,6 +20403,7 @@ In naher Zukunft ist eher mit Evolution statt mit Revolution zu rechnen.
 In natürlichem Gestein treten die Mineralien nur sporadisch auf.
 In nicht einmal einer Minute hatten sie die Blackstory schon gelöst.
 In nur zehn Tagen soll ein Krankenhaus aus dem Boden gestampft werden.
+In professionellen Feuerwerken wird alles zeitgesteuert gezündet.
 In ruhigen Uferschichten mit zersetzender Biomasse wird schweflige Säure frei.
 In schwarzem Tee ist die Konzentration vergleichsweise hoch.
 In sechs Monaten wird eine Auffrischung der Covid neunzehn Impfung erforderlich sein.
@@ -20469,6 +20556,7 @@ Intelligenz kann man sich nicht kaufen.
 Interessant ist vor allem, was dort nicht steht.
 Interessant, dass es sich dort so spiegelt.
 Interessant, wie du das faltest.
+Interessant, über solche Themen sprichst du also mit deiner Gynäkologin.
 Interessante Auffassung.
 Interessanterweise sogar zwei Bundesländer an der Grenze zu Polen.
 Interessanterweise wird Globalisierung als etwas von "da oben" Verordnetes angesehen.
@@ -20573,6 +20661,7 @@ Irgendwo geht immer etwas zu Ende.
 Irgendwo im Asteroidengürtel ist die Lieferung verloren gegangen.
 Irgendwo in der Ferne klingelte ein Telefon.
 Irgendwo in dieser Schublade liegen doch eigentlich immer Zahnstocher.
+Irgendwo muss ich mich festhalten.
 Irgendwo muss man ja auch noch kochen können.
 Irgendwo müssen die ja auch ihre Notdurft verrichten.
 Irgendwoher muss man es sich ja besorgen.
@@ -20769,6 +20858,7 @@ Ist doch nichts Verwerfliches.
 Ist doch schick, oder?
 Ist doch so, oder?
 Ist doch süß!
+Ist doch völlig klar!
 Ist echt so.
 Ist eigentlich schon aufgefallen, dass ich nicht da bin?
 Ist ein Eigenbau besser als ein Gerät von der Stange?
@@ -20963,6 +21053,7 @@ Ja, bitte.
 Ja, bringen Sie ihn mir herauf.
 Ja, da haben wir noch einmal Glück gehabt.
 Ja, da muss er selber lachen.
+Ja, da sind Frauen halt mal unter sich.
 Ja, da staunen Sie, was?
 Ja, damals hatte ich mir auch so eins bestellt.
 Ja, dann gehen wir eben zu Bauhaus.
@@ -21006,6 +21097,7 @@ Ja, das wäre super.
 Ja, das würde mich auch interessieren.
 Ja, dass finde ich auch
 Ja, dazu stehe ich.
+Ja, der Chef musste offenbar noch dringend Geld ausgeben, bevor es versteuert wird.
 Ja, der Witz ist gut! Er hat nur einen Moment zum Zünden gebraucht.
 Ja, der ist schon lange wieder zurück; ich sehe ihn sehr häufig.
 Ja, die Anröchter Steineklopper wieder!
@@ -21206,6 +21298,7 @@ Jede mir bekannte Hausfrau strapaziert ihr Staubsaugerkabel unsachgemäß.
 Jede noch so dumme Bemerkung wird beklatscht.
 Jedem Bild kann man ein oder mehrere Schlagwörter geben.
 Jedem Hinweis wird nachgegangen.
+Jedem Horrorfilm wohnt ein Schauder inne.
 Jedem Tierchen sein Pläsierchen.
 Jeden Abend das gleiche Theater!
 Jeden Abend lassen wir die Gerade, wo sie ist.
@@ -21327,6 +21420,7 @@ Jeder wählt sich seine eigene Regierung.
 Jeder, der Zeitung liest, weiß das.
 Jeder, der den Eintritt bezahlt hat, bekommt an der Kasse einen Schwarzlichtstempel aufgedrückt.
 Jeder, der ein Anliegen hat, kann seine Frage offen stellen.
+Jeder, der irgendetwas kann, wird sofort zum Experten erklärt.
 Jeder, der jetzt lacht, ist ein Nerd.
 Jeder, der nur ein Fünkchen Anstand hat, wäre längst zurückgetreten.
 Jeder, ohne Unterschied, hat das Recht auf gleichen Lohn für gleiche Arbeit.
@@ -21501,6 +21595,7 @@ Jetzt hat er Bock.
 Jetzt hat er doch tatsächlich die Portion Spaghetti verschmäht, der Lotzi.
 Jetzt hat er mich einfach gelindnert.
 Jetzt hat er sich ganz schmutzig gemacht.
+Jetzt hat er vor dem Schlafengehen wieder so viel getrunken!
 Jetzt hat sie einfach aufgelegt!
 Jetzt hat sie sich ganz dreckig gemacht.
 Jetzt hat sie wieder einen cholerischen Anfall.
@@ -21525,6 +21620,7 @@ Jetzt ist der optimale Zeitpunkt.
 Jetzt ist er dran.
 Jetzt ist er eingeschnappt.
 Jetzt ist er rückwärts in seine Einfahrt gefahren.
+Jetzt ist es nämlich auf einmal da.
 Jetzt ist mir glatt der Name entfallen.
 Jetzt ist nicht der richtige Moment, um darüber zu diskutieren!
 Jetzt ist sie selber schuld.
@@ -21589,6 +21685,7 @@ Jetzt nur noch die Schuhe.
 Jetzt pass mal gut auf!
 Jetzt probiere ich bereits das dritte Mikro aus.
 Jetzt sag du doch auch einmal etwas!
+Jetzt sag mir, was daran schlecht ist!
 Jetzt sag nicht, du hast schon alles verbraucht!
 Jetzt schau dir den mal an!
 Jetzt schläft Anne schon.
@@ -21653,6 +21750,7 @@ Jetzt, wo die Autos Internet haben, warte ich auf das erste Modell mit Flugmodus
 Joachim Löw ist ein ehemaliger deutscher Fußballspieler und heutiger Fußballtrainer.
 Joachim Löw wurde am dritten Februar neunzehnhundertsechzig in Schönau im Schwarzwald geboren.
 Joachim Löws jüngerer Bruder Markus Löw ist ebenfalls ein ehemaliger Profifußballer.
+Jodeln dürft ihr auf der Alm, aber nicht im Bergkloster.
 Joe Biden ist Nachfolger von Donald Trump als Präsident der Vereinigten Staaten.
 Joe Biden ist der sechsundvierzigste Präsident der Vereinigten Staaten.
 Joe Biden wurde am zwanzigsten Januar zweitausendeinundzwanzig zum Präsidenten vereidigt.
@@ -21775,6 +21873,7 @@ Kann ein Mann seine Erektion im Schwimmbad überhaupt verstecken?
 Kann einem das Abitur nachträglich aberkannt werden?
 Kann er dann immer noch nicht, muss er noch mal ziehen.
 Kann es denn nicht sein, daß hier immer nur vorgelesen wird?
+Kann es sein, das sie den frisiert hat?
 Kann es sein, dass Sie mich verfolgen?
 Kann es sein, dass deine Handschuhe noch im Kindergarten liegen?
 Kann es sein, dass der Metalldetektor gar nicht funktioniert?
@@ -21825,6 +21924,7 @@ Kann ich stattdessen auch Sojamilch verwenden?
 Kann ich verstehen.
 Kann ja eigentlich nicht sein.
 Kann mal bitte jemand wieder das Licht am Ende des Tunnels anschalten?
+Kann man Airbags mit Mehlstaub auslösen?
 Kann man Bayern noch als sicheren Herkunftsstaat bezeichnen?
 Kann man Bestechungsgelder von der Steuer absetzen?
 Kann man Eselfleisch essen?
@@ -21981,6 +22081,7 @@ Kannst du ein Köpfer ins Wasser machen?
 Kannst du einen Krankenwagen rufen?
 Kannst du einen Köpfer ins Wasser machen?
 Kannst du einen korrekten maskulinen Akkusativ bilden?
+Kannst du einhändig Gitarre spielen?
 Kannst du einmal die Tür aufmachen?
 Kannst du englisch sprechen?
 Kannst du ertasten, wie viele Murmeln du zwischen den Zehen hast?
@@ -22073,6 +22174,7 @@ Kannst ja was anderes Hübsches davon kaufen.
 Kannst ja was anderes hübsches davon kaufen.
 Kannst mich mal.
 Kannst oder willst du es nicht verstehen?
+Kanntest du das schon?
 Kanntest du sie schon?
 Kant wird eindeutig den Aufklärern zugeordnet.
 Kantonesisch wird vor allem im Süden Chinas und in Hongkong gesprochen.
@@ -22148,6 +22250,7 @@ Kein Angriffsszenario wird ohne Alice und Bob beschrieben.
 Kein Anschluss unter dieser Nummer.
 Kein Anschluß unter dieser Nummer!
 Kein Autohersteller nimmt den Datenschutz ernst.
+Kein Automat der Welt prüft, ob da eine Unterschrift ist.
 Kein Backup, kein Mitleid!
 Kein Bier vor vier.
 Kein Ding.
@@ -22332,6 +22435,8 @@ Kinder legen eben andere Kriterien an als Erwachsene.
 Kinder legen gerne Steckperlen zu bunten Mustern zusammen.
 Kinder mit älteren Geschwistern kennen oft üble Beschimpfungen.
 Kinder schämen sich nicht fürs Nacktsein, es sei denn man redet es ihnen ein.
+Kinder sind so lange toll, bis sie in die Pubertät kommen.
+Kinder und Betrunkene sagen immer die Wahrheit.
 Kinder wären so toll, wenn da nicht ständig diese Eltern wären!
 Kinder zeugen ist nicht schwer, sie großzuziehen hingegen sehr.
 Kinder, wie sich die Sprache wandelt!
@@ -22367,6 +22472,7 @@ Klappe zu, Affe tot.
 Klar geht das!
 Klar ist jedenfalls, dass das Thema polarisiert.
 Klar ist nur, das ihn jemand beerben wird.
+Klar könnten wir das, aber wir werfen doch keine Perlen vor die Säue!
 Klar, alles eine Frage des Preises.
 Klar, das hätte man auch anders lösen können.
 Klar, die Enttäuschung ist groß.
@@ -22543,6 +22649,7 @@ Kommen Sie herein, kommen Sie heran, hier werden Sie betrogen wie nebenan.
 Kommen Sie mal mit in mein Arbeitszimmer!
 Kommen Sie mir nicht mit Vorschriften!
 Kommen Sie sofort da runter!
+Kommen Sie zurück ans Mikrofon, wenn Sie erkältet sind!
 Kommen Sie zurück auf die Erde.
 Kommen Sie zurück, wenn Sie ein neues Mikrofon haben!
 Kommen Sie, ich bin extra früh aufgestanden deswegen!
@@ -22580,6 +22687,7 @@ Kommt Hartmut auch zum Klassentreffen am See?
 Kommt Jungs, wir sind nicht zum Spaß hier!
 Kommt Zeit, kommt Rat.
 Kommt alle her, das Roastbeef wird kalt!
+Kommt als Nächstes in der Playlist.
 Kommt bei Stromausfall noch Wasser aus der Leitung?
 Kommt das auch in den gelben Sack?
 Kommt das nicht jeden Tag vor?
@@ -22626,6 +22734,7 @@ Konnte Grubengas nachgewiesen werden?
 Konnte der Protagonist sein Computerproblem lösen?
 Konnte er dich zum Höhepunkt bringen?
 Konnte ja auch nur besser werden
+Konnte ja keiner ahnen, dass sie sich so heftig wehren wird!
 Konnte man das Humane Immundefizienz-Virus nachweisen?
 Konnte man dem Koalitionspartner sonst noch etwas abringen?
 Konntest du das Kreuzworträtsel lösen?
@@ -22666,6 +22775,7 @@ Krass, ne. Ich sag dir was Digga.
 Krass, oder?
 Krasse Nummer.
 Krawatten zu binden, ist auch echt kompliziert.
+Kreativität speist sich nicht selten aus Langeweile.
 Kreischend hüpft sie im Kreis herum.
 Kreischend rennt sie davon.
 Kreta ist ein beliebtes Ausflugsziel.
@@ -22896,6 +23006,7 @@ Laien wundern sich, Experten staunen.
 Laila inhaliert lieber Omas Kamillentee.
 Laila war völlig außer Atem, als sie ankam.
 Laktosefreie Milch schmeckt leicht süßlich.
+Laktoseintolerante Menschen sollten nach dem Milchkonsum nicht rauchen, denn sie atmen hochexplosiven Wasserstoff aus.
 Lamas sind Kamele ohne Höcker.
 Landen sie anschließend einfach in der Tonne?
 Landesweit bibbern die Menschen in der Kälte.
@@ -23167,6 +23278,7 @@ Lediglich seinem eigenen Gewissen ist er unterworfen.
 Leere Wagen klappern am meisten.
 Leeres Geschwafel.
 Leerrohre liegen schon in der Wand.
+Leerzeichen in Verzeichnisnamen waren eine dumme Idee.
 Leg beim Aufbauen einen Karton oder etwas Weiches unter!
 Leg den Deckel wieder hin.
 Leg es doch einfach über die Heizung.
@@ -23333,6 +23445,7 @@ Liebe geht durch den Magen.
 Liebe ist das beim Du seiende Ich.
 Liebe ist die Anerkennung des Anderen als den Anderen.
 Liebe ist kein Verbrechen.
+Liebe ist offensichtlich kein unbegrenztes Gut.
 Liebe ist wohl doch nicht mehr als nur ein Wort.
 Liebe macht blind.
 Liebe vergeht, Hektar besteht.
@@ -23392,6 +23505,7 @@ Lina ist nur zu Gast bei uns.
 Linda Koch dümpelt mit einer völlig veralteten Version herum.
 Linker Aktivismus wird mit allen Mitteln unterdrückt.
 Links davon liegen viele kleine Wochenendhäuser.
+Links neben ihr war doch alles frei!
 Links oben in der schwarzen Leiste ist der Knopf.
 Linksfaschisten angreifen!
 Linksklicken Sie auf das Monster, um es anzuwählen.
@@ -23448,6 +23562,7 @@ Lustige Reden vor großem Publikum zu halten, ist komplett gegen seine Natur.
 Lydia will in den Urlaub nach Luxemburg fahren.
 Lächel und sei froh, es könnte schlimmer kommen.
 Lächel, solange du noch Zähne hast.
+Lächeln Sie einfach in die Kamera.
 Lächeln ist die kürzeste Verbindung zwischen zwei Menschen.
 Lächeln wird in jeder Kultur verstanden.
 Lächle und sei froh, es könnte schlimmer kommen.
@@ -23907,6 +24022,7 @@ Man sieht den Code vor lauter Kommentaren nicht mehr.
 Man sieht einige Gebrauchsspuren, aber das Gerät ist noch okay.
 Man sieht es in jeder Kantine.
 Man sieht es trotzdem noch.
+Man sieht hier, wie sich das Material langsam auflöst.
 Man sieht seine Hand vor Augen nicht.
 Man sieht tiefe Reifenspuren, die teilweise mit Wasser gefüllt sind.
 Man sieht, dass eine Menge Fleiß vonnöten war, und das sollte man honorieren.
@@ -23957,6 +24073,7 @@ Man sollte sie vorher also ausmessen.
 Man sollte sie wegen ihrer Sollbruchstelle reklamieren.
 Man sollte stets einen interessierten Eindruck machen, selbst wenn das Angebot eher durchschnittlich ist.
 Man sollte versuchen, beim Braten nichts anbrennen zu lassen.
+Man sollte wirklich gut prüfen, wen man einstellt.
 Man sollte über Brandschutzschneisen in Wäldern nachdenken.
 Man spricht auch vom Eisenwert.
 Man spricht auch vom Freundschaftsparadoxon.
@@ -24059,6 +24176,7 @@ Manche Stimmen und Akzente sind bei Common Voice noch stark unterrepräsentiert.
 Manche Studenten muss ich nur einmal kurz angucken und weiß sofort, was sie studieren.
 Manche Teile der Infrastruktur gehören einfach nicht ans Internet.
 Manche Tiere wollen vielleicht nicht, dass man ihr Fortpflanzungsverhalten erforscht.
+Manche Trottel merken halt erst am Ton, dass man ihnen widerspricht.
 Manche Tätigkeiten übt man besser inkognito aus.
 Manche bemerken es halt erst nach sechsundsechzig Jahren.
 Manche demonstrieren freitags für ihre Zukunft, andere montags für die Rückkehr der Vergangenheit.
@@ -24161,6 +24279,8 @@ Mann, Mann, Mann, da könnte ich mich wieder aufregen!
 Mann, hat man wenig Freizeit, wenn man Vollzeit arbeitet!
 Mann, war das eine Arbeit!
 Mann, war die Predigt heute langweilig!
+Manndeckung macht im Frauenfußball keinen Sinn.
+Manndeckung macht keinen Sinn, wenn die Verteidiger in der Unterzahl sind.
 Mannheim ist wieder komplett.
 Manni und seine achtziger Jahre Friese.
 Manometer, sind unsere Kunden dumm!
@@ -24186,6 +24306,7 @@ Marian hat sich vorgenommen, Xaver und Merit bei der Gelegenheit zu verkuppeln.
 Marian schwebt im siebten Himmel.
 Mariechen sprach zu Mariechen: Lass mich mal riechen, Mariechen!
 Marienkäfer fressen Blattläuse.
+Marina empfiehlt uns die abgesägte Schrotflinte.
 Mariniert und beidseitig gebraten schmeckt das Lamm am besten.
 Mario konnte seine Gefühle erwidern.
 Marion war schon immer die "fleißigste" von allen.
@@ -24491,6 +24612,7 @@ Meine Geduld ist langsam am Ende.
 Meine Geschichten müssen keinen Sinn ergeben.
 Meine Großeltern hatten letzte Woche ihre goldene Hochzeit.
 Meine Grundschüler sind ausgerastet, als ich ihnen diesen Trick vorgeführt habe.
+Meine Güte, die sind ja alle nackt!
 Meine Güte, fährt der lahmarschig!
 Meine Haarschnitte müssen immer perfekt sein.
 Meine Handschuhe gehen immer an der gleichen Stelle kaputt.
@@ -24512,6 +24634,7 @@ Meine Kollegen waren echte Yankees.
 Meine Kollegen werden selbst Hand anlegen müssen.
 Meine Kontonummer ist bereits beim Notar hinterlegt.
 Meine Krankenkasse bekommt echt die einfachsten Dinge nicht gebacken.
+Meine Kritik richtet sich nicht gegen dich als Person, sondern gegen dich als Sachgegenstand.
 Meine Kunden verfolgen mich bis nach Hause!
 Meine Lieblinge sind Banken.
 Meine Lieblingsband hat aufgehört.
@@ -24560,6 +24683,7 @@ Meine Uhr geht fünf Minuten vor geht fünf Minuten nach.
 Meine Uhr geht nicht mehr sie steht; ich habe vergessen, sie aufzuziehen.
 Meine Urlaubsplanung ist noch nicht abgeschlossen.
 Meine Vermieterin hat mir schriftlich bestätigt, dass ich ein attraktiver Mieter bin.
+Meine Versicherung hat mich gänzlich verunsichert.
 Meine Versicherung verunsichert mich permanent.
 Meine Verwandten wollen mich bei jeder Begrüßung abbusseln.
 Meine Waage ist falsch kalibriert.
@@ -24765,6 +24889,7 @@ Mir fehlen hier die Pfeiltasten.
 Mir fehlt eine anfängliche Einordnung.
 Mir fehlt nichts.
 Mir fällt bestimmt noch etwas ein.
+Mir fällt da immer nichts ein.
 Mir fällt jetzt wirklich nichts mehr ein.
 Mir fällt nichts Besseres ein.
 Mir fällt nichts besseres ein.
@@ -24814,6 +24939,7 @@ Mir scheint, ihr habt viel zu viele Spielsachen.
 Mir schmecken weder Pilze noch Tomaten.
 Mir schmeckt Schokoladeneis am besten.
 Mir sind da leider die Hände gebunden.
+Mir sind die Kinder trotzdem lieber.
 Mir sind direkt ein paar weitere Ideen eingefallen.
 Mir soll es recht sein.
 Mir stehen die Haare zu Berge.
@@ -24944,6 +25070,7 @@ Mit Säure kriegt man den Kalk weg.
 Mit Tante Tanja fahren wir zum Reiterhof.
 Mit Verantwortung hat das für mich nichts mehr zu tun.
 Mit Vergnügen!
+Mit Vermutungen ist keinem weitergeholfen.
 Mit Volkskrankheiten wie Krebs oder Diabetes lässt sich richtig viel Geld verdienen.
 Mit Vorhängen schützen viele ihre Wohnung vor Blicken von außen.
 Mit Waschbenzin lassen sich auch Ölflecken beseitigen.
@@ -24983,6 +25110,7 @@ Mit dem Fahrrad zu pendeln hält fit.
 Mit dem Finger malt er ein männliches Glied auf die beschlagene Fensterscheibe.
 Mit dem Finger vor der Linse werden die Videos nicht so gut.
 Mit dem Finger zeigt es auf das beeindruckende Vehikel.
+Mit dem Gaspreis steigen natürlich auch die Preise für Rammstein-Tickets.
 Mit dem Geländewagen geht es durch unwegsames Gelände.
 Mit dem Gesocks habe ich nichts zu schaffen!
 Mit dem Henkelmann zur Arbeit gehen.
@@ -25018,6 +25146,7 @@ Mit dem technischen Krimskrams kenne ich mich nicht aus.
 Mit den "Overknees" geht immer etwas.
 Mit den Lahmen lernt man hinken, mit den Säufern trinken.
 Mit den Lieferzeiten von Amazon konnte der Buchladen einfach nicht mithalten.
+Mit den Neuankömmlingen müsst ihr behutsam umgehen.
 Mit den Vorschriften können wir keinen Platz für Kinder schaffen.
 Mit den begrenzten Vorräten müssen wir also ein wenig haushalten.
 Mit den heutigen Lastwagen haben Brückenarchitekten in den Sechzigern nicht gerechnet.
@@ -25314,6 +25443,7 @@ Moment, ich muss kurz meine Notizen hervorholen.
 Moment, ich muss mal kurz Beatrix Hallo sagen.
 Moment, ich muss mal kurz nachschauen.
 Moment, ich notiere mir mal kurz die Adresse.
+Moment, ich schaue mal eben auf meine Liste.
 Moment, ich schaue mal kurz auf mein Handy.
 Moment, ich will mir mal kurz eine Sprachnachricht von Babsi anhören.
 Moment, warte mal.
@@ -25355,6 +25485,7 @@ Morgen war es das schon wieder mit dem Urlaub.
 Morgen werde ich Karotten und Paradeiser säen.
 Morgen werden die Kurse bereits abgestürzt sein.
 Morgen wird der Verdächtige dem Haftrichter vorgeführt.
+Morgen wird erst mal ausgeschlafen!
 Morgen wird es stürmisch.
 Morgen wird im Hallenbad das neue Becken mit künstlichen Wellen eröffnet.
 Morgen zieht der Arzt ihr die Fäden.
@@ -26189,6 +26320,7 @@ Nervös kratzt sie sich am Kopf.
 Nervös lief die Studentin im Flur auf und ab.
 Nervös rutscht Eugen auf seinem Stuhl hin und her.
 Netflix merkt schnell, wenn du krank bist.
+Nett hier, aber waren Sie schon mal in Baden-Württemberg?
 Netter Bestechungsversuch, aber über so eine Summe kann ich nur lachen.
 Netto bleibt natürlich viel weniger über.
 Networking ist eine Schlüsselkompetenz für den eigenen Erfolg.
@@ -26304,6 +26436,7 @@ Nicht in diesem Ton!
 Nicht jede Begründung ist eine Rechtfertigung.
 Nicht jede Gesellschaft funktioniert gleich.
 Nicht jede Klasse steht für jedes Volk zur Verfügung.
+Nicht jede Platzersparnis ist gewünscht.
 Nicht jeder Biomüll eignet sich für den heimischen Kompost.
 Nicht jeder Mensch, der Sätze korrigiert, beherrscht sämtliche Regeln der deutschen Sprache.
 Nicht jeder Staplerfahrer heißt Klaus.
@@ -26806,6 +26939,7 @@ Nun schlage das Lenkrad ganz nach rechts ein und gib leicht Gas.
 Nun schreit hier nicht so herum!
 Nun sei doch nichr so knickerig!
 Nun sei nicht so ein Dickkopf!
+Nun seien Sie nicht so knauserig mit den Portionen!
 Nun sieht er, wie sie in sich zusammenfällt.
 Nun sind alle gefordert, sich einzuschränken.
 Nun spiel nicht den sterbenden Schwan.
@@ -27092,6 +27226,7 @@ Och, alles ist voll gekleckert!
 Och, das klingt doch gar nicht so verkehrt.
 Och, ich glaube, ich lasse mir noch kurz die Nägel machen.
 Och, komm schon her!
+Och, musst du mich denn an meine Arbeit erinnern?
 Och, nicht schon wieder ein Kassenpatient!
 Och, schade!
 Oder Feste feste?
@@ -27631,6 +27766,7 @@ Pfeife rauchen ist ungesund, aber es gehört zu Großvater dazu.
 Pfeifend pinselt der Malermeister die Wand an.
 Pfennigschwärmer wurden hier Zisselmänner genannt.
 Pferde brauchen jetzt auch ein Nummernschild?
+Pflanzen können genauso von Viren befallen werden wie Menschen.
 Pflanzliche Zellen sind durch Zellwände begrenzt.
 Pflanzt hier sonst noch jemand Bäume auf dem Balkon?
 Pflaster muss man schnell abziehen.
@@ -27662,6 +27798,7 @@ Pirat war schon immer mein Traumberuf.
 Piratenschiffe erkennt man an den Fahnen mit Totenkopf.
 Pit Pohlmann präpariert pausenlos platte Pisten.
 Pit müsste etwas zielstrebiger zu Werke gehen.
+Pizza Hawaii ist wohl ein prominentes Beispiel, wozu kulturelle Aneignung führen kann.
 Plakatierungen bedürfen einer schriftlichen Genehmigung.
 Planen Sie genug Reserve ein.
 Planet Core Productions, Frankfurt am Main.
@@ -27750,6 +27887,7 @@ Professor Steiner hat mich voll in die Irre geführt.
 Professoren und Studenten kennen sich sogar persönlich.
 Profi-Fußballer sind nun einmal nicht immer die Sprachbegabtesten.
 Profi-Tipp: Nehmen Sie das Kaugummi vor Ihrer Rede aus dem Mund!
+Programmiersprachen gibt es viele.
 Projekte verzögern sich immer wegen den Softwareentwicklern.
 Projektgegner könnten versuchen, die Kosten in die Höhe zu treiben.
 Prominente sind sehr oft viele Wochen nicht zu Hause.
@@ -27760,6 +27898,7 @@ Protein oder Eiweiß ist lebenswichtig.
 Protest in Hörweite muss doch erlaubt sein.
 Protestanten und Katholiken sind gleichermaßen zum Abendmahl eingeladen.
 Provokation ist ein einfaches Mittel, um Aufmerksamkeit zu erzeugen.
+Provozieren macht am meisten Spaß, wenn Leute sich provozieren lassen.
 Präsidentensprache neuerdings auch.
 Präzision ist nicht jedermanns Sache.
 Prüfen Sie Türen und Fenster, ob diese richtig öffnen und schließen.
@@ -28446,6 +28585,7 @@ Schnick schnack schnuck!
 Schnitzel gibt es auf Gut Warmenbrunn.
 Schnitzel mit Pommes sind das Wichtigste.
 Schnurlostelefone kann man auch bei Gewitter gefahrlos verwenden.
+Schnüffelst du schon wieder Kleber, oder warum riecht es hier so?
 Schokolade kann Leben retten!
 Schokolade und Erdnüsse veredeln die Süßspeise des Tages.
 Schon Goethe hatte das erkannt.
@@ -28454,6 +28594,7 @@ Schon aus als Volumen gemessen wenig Wasser lässt sich dabei viel Energie gewin
 Schon bald schmieden die Teilnehmer erste Allianzen.
 Schon beim Lesen des Klappentexts wurde mir klar, dass ich mich vergriffen hatte.
 Schon beim Pfropfen entstehen chimäre Organismen.
+Schon damals hatte er viel Unsinn im Kopf.
 Schon damals war meine Mutter zu geizig für einen Ritt auf dem Roboterpferd.
 Schon daran, wie er sitzt, sieht man, dass er überhaupt keine Körperspannung hat.
 Schon der Versuch ist strafbar.
@@ -28503,6 +28644,7 @@ Schon wieder Ecke für weiß.
 Schon wieder ein Bürgerbegehren.
 Schon wieder ein Fehler mit dem Code vierhundertdrei.
 Schon wieder geht ein Jahrzehnt zu Ende.
+Schon wieder hatte mich ein Betrunkener in ein Gespräch verwickelt.
 Schon wieder hier!
 Schon wieder hier?
 Schon wieder ist die Flasche leer.
@@ -28597,6 +28739,7 @@ Schwund ist überall.
 Schwächen wollte die Sowjetunion gegenüber dem Westen natürlich nicht zugeben.
 Schädlinge freuen sich über solche Monokulturen.
 Schäm dich!
+Schätzchen, willst du mir deine Steueridentifikationsnummer verraten?
 Schön aufgeplustert.
 Schön dass du da bist und nicht hier!
 Schön dunkel, hier!
@@ -28810,6 +28953,7 @@ Sein Wert wird ins Unermessliche steigen.
 Sein Widersacher trägt ein abgewetztes T-Shirt.
 Sein Widersacher trägt ein abgewetztes T-shirt.
 Sein betrübtes Gesicht zeigt, dass ihm nicht zum Spaßen zumute ist.
+Sein erster Vorschlag ist immer falsch.
 Sein erstes Instrument war Klavier.
 Sein neuestes Werk ist eine Sinfonie, wie sie die Welt noch nicht gehört hat.
 Sein rhythmischer Sprechgesang ist bis heute unübertroffen.
@@ -29102,6 +29246,9 @@ Sicher wird die Kartellbehörde alle Register ziehen, um die Übernahme zu verhi
 Sicher, nur zu!
 Sicherheit durch Verschlüsselung und Sicherheit trotz Verschlüsselung widerspricht sich gegenseitig.
 Sicherheitsabstand!
+Sicherheitsmaßnahmen sind uncool!
+Sicherlich nur ein blödes Vorurteil.
+Sicherlich stammt diese Regelung noch aus dem letzten Jahrhundert.
 Sicherlich war der Sprengmeister jederzeit Herr der Lage.
 Sicherlich wertet es die Müllkippe etwas auf.
 Sichtlich um Frieden bemüht versucht die Kassiererin noch irgendwo welche aufzutreiben.
@@ -29115,6 +29262,7 @@ Sie alle können das bezeugen!
 Sie arbeitet aber daran.
 Sie bat mich, mir einen runterzuholen.
 Sie bauten ihre Zelte rund um das Lagerfeuer auf.
+Sie beauftragte einen Gutachter, der ein psychologisches Profil ihrer Katze erstellen sollte.
 Sie begehen eine Straftat.
 Sie begründet das mit der geringen Nachfrage.
 Sie behaupteten, dasss diese Angelegenheit ein Einzelfall sei.
@@ -29195,6 +29343,7 @@ Sie fährt schon hart an der Grenze.
 Sie fällt als Kieselsäuregeel aus.
 Sie fühlen sich willkommen in einer lebendigen Gemeinschaft.
 Sie fühlte sich unwohl dabei.
+Sie fühlte sich wohl von der Anrede geschmeichelt.
 Sie führen Sprengstoff in das Land ein.
 Sie führen bei den Wahlhelfern zu Diskussionen.
 Sie führen zu inneren Spannungen.
@@ -29338,6 +29487,7 @@ Sie hielt inne.
 Sie hoffen, von den Mitreisenden respektiert zu werden.
 Sie honorieren es, wenn man ihnen zuhört.
 Sie hält Michael Faraday für den bedeutendsten Experimentalphysiker.
+Sie hält sich wohl für unangreifbar.
 Sie hätte aber unumwunden, die Kuh am Wegesrand gefunden.
 Sie hätte den Mund nicht so voll nehmen sollen.
 Sie hätte es fast nicht gemerkt.
@@ -29565,6 +29715,7 @@ Sie sind ein tüchtiger Leser!
 Sie sind es gewöhnt, alle Probleme mit Geld lösen zu können.
 Sie sind hinter dem Falschen her!
 Sie sind in einen Käfig eingeschlossen, damit Fremde nicht in ihnen herumwühlen.
+Sie sind ja häufiger schon aufgefallen, nicht wahr?
 Sie sind ja noch blutjung!
 Sie sind ja schon für trainierte Astronauten sehr belastend.
 Sie sind mein allererster Patient.
@@ -29584,6 +29735,7 @@ Sie sind vielleicht etwas spät zu Bett gegangen?
 Sie sind voll in die Impfstoffproduktion eingestiegen.
 Sie sind warm und brüderlich, doch warme Brüder sind sie nicht!
 Sie sind wirklich zu liebenswürdig.
+Sie sind wohl ein Maschinenflüsterer!
 Sie sind zwar absolute Anfänger ihres Sports, haben sich aber bereits Profi-Ausstattung zugelegt.
 Sie singt nur, die Texte schreibt jemand anderes.
 Sie sitzen am Steuer - am Steuer einer Straßenbahn und können nur begrenzt Weichen stellen.
@@ -29614,6 +29766,7 @@ Sie studiert Jura.
 Sie studierte Wirtschafts-, Sozial- und Politikwissenschaften in Göttingen, Paris und Berlin.
 Sie stöckelt quer durch den Saal und setzt sich ans Nussbaumklavier.
 Sie suchen Ihr Futter im seichten Wasser dicht an der Küste.
+Sie sucht erst die Nähe zu Menschen, nur um sich danach zu verkriechen.
 Sie suchte ein vertrauensvolles Gespräch mit ihr.
 Sie suchte nach der richtigen Ausstechform.
 Sie suchte noch nach einem Fünfzig-Cent-Stück.
@@ -29801,6 +29954,7 @@ Simone rechnet mit einer deutlichen Absage.
 Simsalabim!
 Simulatoren sind etwas symbolisches, Emulatoren etwas emotionales.
 Sind Abmahngebühren in irgendeiner Weise gedeckelt?
+Sind Chefs im Schnitt dümmer als ihre Angestellten?
 Sind Frauen anatomisch im Vorteil beim Spagat?
 Sind Ihnen noch weitere öffentliche Projekte bekannt?
 Sind Menschen gute Subsummatoren?
@@ -29836,14 +29990,17 @@ Sind Sie voll einsatzbereit?
 Sind Sie überhaupt Parteimitglied?
 Sind Smartwatches erlaubt, erkundigt sich Leonie.
 Sind Sommersprossen hübsch oder nicht?
+Sind Zahnspangen medizinisch sinnvoll?
 Sind alle Türen breit genug, dass die Möbel hindurch passen?
 Sind alle elektrischen Geräte ausgeschaltet?
+Sind arme Menschen hilfsbereiter als reiche?
 Sind das Kaustiken von der Wasseroberfläche oder sehen wir hier einen Grafikfehler?
 Sind das Lampen speziell für diese Fassung?
 Sind das Wassermelonen oder Honigmelonen?
 Sind das alles deine Schnapsgläser?
 Sind das alles freiwillige Helfer an ihrer Seite?
 Sind das alles verkappte Kommunisten?
+Sind das eure neuen Dienstwagen?
 Sind das vegetarische Würste?
 Sind deine Eltern so intolerant?
 Sind die Blumen echt oder aus Plastik?
@@ -29892,6 +30049,7 @@ Singen Sie mit Ihren Kindern?
 Singen macht ihm Spaß.
 Singen macht mir großen Spaß.
 Singen und Wandern passen ideal zusammen.
+Singst du deine Patienten nicht in den Schlaf?
 Singst du mir noch mal das Lied von gestern vor?
 Singt ihr mit mir im Kanon?
 Sinja braucht eine Pause davon, die ganze Zeit auf den Bildschirm zu starren.
@@ -30543,6 +30701,7 @@ Sollte die Sache auffliegen, will ich einen guten Anwalt gestellt bekommen.
 Sollte die erste versagen, greift automatisch die zweite Sicherheitsmaßnahme.
 Sollte es doch mal tropfen, wird die Farbe abgefangen.
 Sollte es weltweit nur noch eine Währung geben?
+Sollte ich damit jetzt zum Arzt oder erst mal abwarten?
 Sollte ich dennoch der Versuchung verfallen, darfst du mich bestrafen.
 Sollte man Moore trockenlegen?
 Sollte man auf seinen Kopf oder auf sein Herz hören?
@@ -30552,6 +30711,7 @@ Sollte man versehentlich abgetrennte Finger bis zum Eintreffen des Krankenwagens
 Sollte man verunglückten Motorradfahrern den Helm abnehmen?
 Sollte sich das ändern, kommen Sie gerne auf mich zurück!
 Sollte sie auf den Kosten sitzen bleiben, wäre Marina praktisch sofort pleite.
+Sollte so einer frei herumlaufen?
 Sollten Allergiker im Garten den Rasen mähen?
 Sollten Lastwagenfahrer sich einseitig gegen die Sonne eincremen?
 Sollten Männer wirklich bauchfrei herumlaufen?
@@ -30600,6 +30760,7 @@ Sonst ist sie nicht so schweigsam.
 Sonst kaufe ich einfach, was ich da so finde.
 Sonst kommt die Polizei.
 Sonst kommt ihr nicht wieder zurück aufs Boot.
+Sonst kondensiert die Luftfeuchte nämlich an den Wänden und es schimmelt.
 Sonst kümmert er sich um bürokratisches Pillepalle.
 Sonst laufen sie Gefahr, nicht das Kind, sondern das Elternhaus zu bewerten.
 Sonst müsste ich jetzt einen Notarzt rufen.
@@ -31005,6 +31166,7 @@ Stuttgart hätte kein Feinstaubproblem mehr, wenn man sofort alle Baustellen sto
 Styropor ist ein Markenname für weißen Schaumstoff.
 Ständig alte Produkte zu reklamieren und neue zu bestellen, ist mir auch zu nervig.
 Ständig fällt man sich gegenseitig ins Wort.
+Ständig greife ich ins Leere.
 Ständig hast du Probleme mit ihm.
 Ständig muss der Kühlschrank abgetaut werden.
 Ständig musst du mich berichtigen!
@@ -31210,6 +31372,7 @@ Tja, anscheinend habe ich mich getäuscht.
 Tja, da kann man wohl nichts machen.
 Tja, da machste nix.
 Tja, damit hast du jetzt die Arschkarte gezogen.
+Tja, dann bleibt der Lehrstuhl wohl leer, also unbesetzt.
 Tja, dann musst du ihr eben eine kleine Notlüge auftischen.
 Tja, dann wird es halt wieder nur Tütensuppe geben.
 Tja, daraus wird nichts.
@@ -31245,6 +31408,7 @@ Togo ist Teil der Westafrikanischen Wirtschaftsgemeinschaft.
 Toilette und Badezimmer sind voneinander getrennt.
 Toll ein anderer macht's.
 Toll finde ich, dass die Mitarbeit inzwischen auch unaufgefordert funktioniert.
+Toll, jetzt denken alle, ich hätte Geburtstag!
 Toll, wie er hier mitläuft und seinen Mitspieler abschirmt!
 Tolle Ausrede!
 Tolle Gene hast du, das schreit nach Fortpflanzung.
@@ -31587,6 +31751,7 @@ Unachtsam stieß der Doktor gegen den Turm, welcher daraufhin umfiel.
 Unbeaufsichtigte Kinder bekommen einen Espresso und einen Hundewelpen geschenkt.
 Unbefugten ist das Öffnen oder das Beseitigen der Verschlüsse untersagt.
 Unbeirrbar bahnt er sich seinen Weg.
+Und Abfahrt!
 Und Action!
 Und Blaukraut bleibt Blaukraut.
 Und Geld ausgeben möchte man dafür erst recht nicht.
@@ -31594,6 +31759,7 @@ Und Geschwister können ziemlich verschieden sein.
 Und Ihr wollt euch bewegen?
 Und Malte, du weisst wie der Hase hoppelt.
 Und Malte, du weißt, dass wir gut ausgerüstet sind.
+Und Menschen ist dies auch egal.
 Und Papa bringt kein Frühstück mehr an's Bett.
 Und Papa bringt kein Frühstück mehr ans Bett.
 Und Protonen sind nun mal positiv geladen.
@@ -31678,6 +31844,7 @@ Und das ist das Wichtigste.
 Und das ist der Punkt, ab dem es gefährlich wird.
 Und das ist euch ja auch fast gelungen.
 Und das ist ihr Problem.
+Und das liegt ausnahmsweise nicht an ausartender Bürokratie beim Amt.
 Und das nennst du großartig?
 Und das nur, weil auf ihnen irgendwelche Fußballspieler abgebildet sind.
 Und das obwohl die Veranstaltung komplett unpolitisch sein sollte.
@@ -31721,6 +31888,7 @@ Und die typischen Rucksacktouristen trifft man natürlich auch an.
 Und dienstags war ich auch nicht da.
 Und diese Gleichung sollte Ihnen bekannt vorkommen.
 Und diese Kraft muss von einem kleinen Motor aufgebracht werden.
+Und diesen Satz von ihm finde ich wirklich bemerkenswert.
 Und dieser Fund, da bin ich mir sicher, wird in die Annalen eingehen.
 Und dieses Kabel hat es in sich.
 Und doch bietet schon diese kleine Teilmenge eine enorme Vielfalt.
@@ -32066,6 +32234,7 @@ Unnachgiebig pochen die Naturschützer auf den Erhalt des Reservoirs.
 Unpassende Geschenke sind viel schlimmer als keine Geschenke.
 Unrasierte Männer fühlen sich zu Barbieren hingezogen.
 Uns allen könnte es besser gehen, wenn ihr den Worten des Propheten folgt!
+Uns fehlen Leute zum Korrekturlesen.
 Uns geht es gut. Was ist mit euch?
 Uns hat es damals auch nicht geschadet!
 Uns ist das im Prinzip egal.
@@ -32202,6 +32371,7 @@ Untersuchen Sie Ihr Kind bitte auf Kopfläuse!
 Unverhofft kommt oft.
 Unverschämt, was hier schon wieder für die Käfigreinigung berechnet wurde!
 Unverschämt, was sich die Leute heutzutage erlauben!
+Unweit des Atomkraftwerks Brokdorf gab es an der Stör einen Störfall.
 Unwissenheit schützt vor Strafe nicht.
 Unzucht ist so alt wie der Mensch - wer hat behauptet wir sind gut?
 Unzutreffendes bitte durchstreichen.
@@ -32323,6 +32493,7 @@ Verlassen Sie sich nicht auf irgendwelche Aussagen von Passanten!
 Verlassen Sie sich nicht darauf.
 Verlassene oder unbenützte Grubenräume sind in deutlich erkennbarer Weise abzusperren
 Verlegen sah sie zur Seite.
+Verletzt euch bitte nicht.
 Verlieben sich zwei Menschen, wenn man ihnen nur die richtigen Hormone verabreicht?
 Verliebtheit und Liebe sind zwei vollkommen unterschiedliche Dinge.
 Verlustbehaftete Verfahren bedienen sich meistens psychoakustischer Effekte.
@@ -32656,6 +32827,7 @@ Vielleicht kann ich im Sommerschlussverkauf noch ein Schnäppchen schießen.
 Vielleicht kannst du dich ja daran ein bisschen orientieren.
 Vielleicht kannst du dir ein Stück bei ihm abzwacken.
 Vielleicht kommt Rosanna und ganz vielleicht bringt sie noch Lieselotte mit.
+Vielleicht können Ihnen diese beiden Herren da weiterhelfen.
 Vielleicht können wir dann im August die Campingausrüstung auspacken.
 Vielleicht können wir uns der Gruppe anschließen.
 Vielleicht könnt ihr euch ja auf eine Karte einigen.
@@ -33132,6 +33304,7 @@ Wahrscheinlich ist der Akzent nur aufgesetzt.
 Wahrscheinlich ist er bereits der berühmteste Dirigent der Welt.
 Wahrscheinlich kennen wir alle dieses eine Bild von Albert Einstein.
 Wahrscheinlich liegt es daran, dass vor allem technikbezogene News-Seiten über das Projekt berichten.
+Wahrscheinlich nur ein Rundungsfehler.
 Wahrscheinlich sendet Werbung einfach klarere Botschaften als wissenschaftliche Veröffentlichungen.
 Wahrscheinlich sind die Wissenschaftler an ihm verzweifelt und haben aufgegeben.
 Wahrscheinlich sogar noch weniger.
@@ -33253,6 +33426,7 @@ Wann strahlt die Sonne am stärksten?
 Wann stürzt Putin auf tragische Weise aus einem Fenster?
 Wann treffen wir uns noch mal bei dir?
 Wann treffen wir uns nochmal bei dir?
+Wann tritt sie zum ersten Mal unmaskiert auf?
 Wann und warum fiel der eiserne Vorhang?
 Wann und weswegen wurde denn das Grundgesetz letztmalig geändert?
 Wann war Marius das letzte Mal online?
@@ -33383,6 +33557,7 @@ Warum finde ich dieses Feature nirgendwo?
 Warum funktioniert Stackoverflow nicht ohne Skripte von Google?
 Warum geht beim Videoschnitt immer die Synchronisation verloren?
 Warum geht das nicht zu?
+Warum gibt es Zimmermänner und Zimmermädchen, aber keine Zimmerfrauen?
 Warum gibt es auf Stackoverflow keine Jobbörse mehr?
 Warum gibt es kein Emoji, was die Haare flippt.
 Warum gibt man die Fläche nicht in Fußballfeldern an?
@@ -33396,6 +33571,7 @@ Warum habe ich diese Seite erst jetzt entdeckt?
 Warum habe ich keinen Backofen?
 Warum haben Monde keine natürlichen Satelliten wie die meisten Planeten?
 Warum haben Sie denn so gerötete Augen?
+Warum hast du ihn ohne Not ans Messer geliefert?
 Warum hast du keine Buttermilch eingekauft?
 Warum hat Jüllich ein falsches Geständnis abgelegt?
 Warum hat Vera nicht ein Foto gemacht?
@@ -33458,6 +33634,7 @@ Warum musste die Y-Trasse scheitern?
 Warum mussten wir auch abseits der Fahrrinne fahren?
 Warum musstest du alles so kompliziert machen?
 Warum mutieren manche Viren schneller als andere?
+Warum müssen Schulen überall eingezäunt werden?
 Warum müssen ausgerechnet fünf Pubertierende das Zimmer neben uns haben?
 Warum müssen sie mit Luft befüllt werden?
 Warum nehmen wir nicht einfach den Fahrstuhl?
@@ -33655,6 +33832,7 @@ Was für ein Kitsch!
 Was für ein Klientel tummelt sich denn dort?
 Was für ein Lauch!
 Was für ein Prachtstück!
+Was für ein Saftladen!
 Was für ein Schwachsinn!
 Was für ein Tag ist heute?
 Was für ein Unglück!
@@ -33678,6 +33856,7 @@ Was für eine Überspitzung!
 Was gedenkt ihr zu tun?
 Was geht dich das an?
 Was geht gar nicht?
+Was geht im Kopf eines Redakteurs vor, der so eine Überschrift wählt?
 Was geht sonst so bei dir?
 Was geht?
 Was gehört in welche Tonne?
@@ -33825,6 +34004,7 @@ Was ist das auch für ein Name?
 Was ist das bitte für ein Bockmist?
 Was ist das bitte für ein Satz?
 Was ist das denn für ein Otto?
+Was ist das denn für ein Stuss?
 Was ist das denn für ein renitenter Rentner?
 Was ist das denn für eine Teppichhupe?
 Was ist das denn hier für eine Freakshow?
@@ -34084,6 +34264,7 @@ Was schlägst du stattdessen vor, was ich kochen soll?
 Was schmeckt am besten?
 Was schmeckt nicht sonderlich gut?
 Was schreibst du auf dein Banner?
+Was schreibt man denn zu solchen Anlässen?
 Was schätzen Sie, wie modebewusst ist Ihr Gegenüber?
 Was schätzen Sie?
 Was schätzt du, wie viele Glühweinstände gibt es auf dem Weihnachtsmarkt?
@@ -34100,6 +34281,7 @@ Was sind Helikoptereltern und wo leben diese?
 Was sind Ihre Schwerpunktthemen?
 Was sind aber das für Waffen gegen einen Grizzlybären!
 Was sind das für Haare an dem Kissen?
+Was sind das für Idioten?
 Was sind das für Tabletten in dem Blister?
 Was sind das überhaupt für Weicheier!
 Was sind denn das für Gesetze?
@@ -34136,6 +34318,7 @@ Was soll ich mit einem Sparbuch, auf das es keine Zinsen gibt?
 Was soll ich nur kochen?
 Was soll ich sagen?
 Was soll man auch anderes machen?
+Was soll man denn sonst machen, wenn das Anästhetikum knapp wird?
 Was soll man gegen Mode gewordenen Unfug unternehmen?
 Was soll's Frau Scholz.
 Was soll's, Frau Scholz.
@@ -34385,6 +34568,7 @@ Weil es nachweislich nichts bewirkt.
 Weil es so voll war, mussten wir auf dem Boden sitzen.
 Weil ich ausschließlich regionale Produkte kaufe, kommen als Automarke nur Porsche und Mercedes infrage.
 Weil ich nie die Gelegenheit hatte, werde ich meine Kinder zwingen, Cello zu lernen.
+Weil ich so ein cooles Kind bin, überklebe ich die Reflektoren an meiner Jacke.
 Weil ihr Licht defekt war, wich sie der Polizei über Schleichwege aus.
 Weil ihr beide das Gleiche auf dem Teller habt.
 Weil ihr meine Empfehlung und die Erwartung dieser Leute noch übertroffen habt!
@@ -34535,6 +34719,7 @@ Welche Seite nach innen und welche nach außen kommt, ist schnurzpiepegal.
 Welche Sorte soll es sein?
 Welche Soße willst du auf deinen Burger?
 Welche Speditionen wären davon betroffen?
+Welche Sprache hatten wir noch nicht?
 Welche Sprache ist deine Muttersprache?
 Welche Sprache spreche ich eigentlich mit dir?
 Welche Sprache spricht die Frau?
@@ -34694,6 +34879,7 @@ Wenigstens bietet die Holzhütte etwas Windschutz.
 Wenigstens darin waren wir uns einig.
 Wenigstens darüber sind wir mal einer Meinung.
 Wenigstens den Aufbau einer Webadresse sollte man kennen.
+Wenigstens der Johanne gefällt die Musik.
 Wenigstens die unter den Achseln.
 Wenigstens ehrlich.
 Wenigstens ein kleiner Schluck.
@@ -34701,6 +34887,7 @@ Wenigstens etwas positives, Mister Finger.
 Wenigstens haben die beiden verhütet.
 Wenigstens hat es diesmal den Richtigen getroffen.
 Wenigstens hatte sie ein Mittel gegen ihren Mundgeruch gefunden.
+Wenigstens musst du nicht allein dorthin.
 Wenigstens nicht Letzter!
 Wenigstens weiß ich jetzt, wen ich nicht wählen werde.
 Wenn Amazon bloß ein Versandhändler wäre, könnte man da vielleicht noch etwas bestellen.
@@ -34777,6 +34964,7 @@ Wenn alle einer Meinung wären, bräuchten wir keine Wahlen.
 Wenn alle schlafen und einer spricht, nennt man dies Unterricht.
 Wenn auf dem Display "Rufnummer unterdrückt" steht, weiß ich schon, dass du es bist.
 Wenn aus allen vier Richtungen gleichzeitig jemand kommt, muss einer auf seine Vorfahrt verzichten.
+Wenn bei den Nachbarn Party ist, stehen die Schuhe im ganzen Treppenhaus.
 Wenn da Stachelbeeren drin sind, kann ich es leider nicht essen.
 Wenn das Fieber steigt, friert man, wenn es sinkt, schwitzt man.
 Wenn das Klopapier ausverkauft ist, kaufe ich stattdessen eine Bildzeitung.
@@ -34873,6 +35061,7 @@ Wenn du die Pfanne und die Töpfe noch mit abwaschen könntest?
 Wenn du die Wahl zwischen Heuschnupfen und Migräne hättest, wofür würdest du dich entscheiden?
 Wenn du dir ein kompetentes Team zusammen rekrutierst und dann deren Vorschläge ignorierst.
 Wenn du eine unverschlüsselte E-Mail falsch zustellst, hast du ein Problem.
+Wenn du es einmal richtig gelernt hast, verlernst du es nie.
 Wenn du es nicht erklären kannst, hast du es auch nicht richtig verstanden.
 Wenn du es nicht machst, macht es niemand.
 Wenn du es nicht zu Ende hörst, verpasst du die Pointe.
@@ -34922,6 +35111,7 @@ Wenn ein Feststoff direkt gasförmig wird, spricht man von Sublimation.
 Wenn ein Körper tot in der Wohnung liegt, wird er bald von Insekten befallen.
 Wenn ein Wort mit einem Vokal beginnt, tun wir automatisch den Knacklaut davor.
 Wenn ein autonomes Fahrzeug zum Fahren eine Internetverbindung benötigt, ist es nicht autonom.
+Wenn ein großer Konzern etwas kauft, wird es häufig schlechter.
 Wenn eine Hand die andere wäscht, spricht man von Korruption.
 Wenn einer nicht zahlen kann, muss er eine Hypothek aufnehmen.
 Wenn er Hunger hat, kann Boris Unmengen an Essen vertilgen.
@@ -35162,6 +35352,7 @@ Wenn was ist, dann kannst du mich ansprechen.
 Wenn wir Glück haben, können wir gleich auf unsere Zimmer.
 Wenn wir Pech haben, schon morgen früh.
 Wenn wir Prominente zum Mitmachen bewegen, werden deren Anhänger folgen.
+Wenn wir alle gleichzeitig ins Becken steigen, läuft es wahrscheinlich über.
 Wenn wir auch der Schmeichelei keinen Glauben schenken, der Schmeichler gewinnt uns doch.
 Wenn wir da sind, werde ich dir alles erzählen.
 Wenn wir das Dorf zurücklassen, werden die Invasoren es plündern.
@@ -35270,6 +35461,7 @@ Wer ersetzt mir das?
 Wer erst im Endstadium zum Arzt geht, dem kann nicht mehr geholfen werden.
 Wer erzieht hier eigentlich wen?
 Wer es glaubt wird selig.
+Wer es pompös braucht, muss eben hinblättern.
 Wer es selbst anbaut, kann das Gras zum Selbstkostenpreis beziehen.
 Wer es selbst anpackt, lernt mehr als der Käufer der Fertiglösung.
 Wer etwas sagen will, meldet sich vorher.
@@ -35341,6 +35533,7 @@ Wer hier wohnt, kam oft nicht ganz legal zu seinem Reichtum.
 Wer hilft mir die Wäsche aufhängen?
 Wer hingegen gegen den Strom schwimmt, der muss leben.
 Wer hungrig nicht ins Wasser geht, wird auch keinen Fisch fangen.
+Wer hätte Lust auf so ein Kunstprojekt?
 Wer hätte gedacht, dass das so heftig ballert?
 Wer hätte gedacht, dass die Grundlagen aus dem ersten Semester zu etwas nützlich sind?
 Wer hätte gedacht, dass er dieses Jahrzehnt des Drogenkonsums überlebt!
@@ -35459,10 +35652,12 @@ Wer nicht kann, muss eine Karte vom Stapel ziehen.
 Wer nicht kochen kann, verursacht am Herd schnell mal einen Wohnungsbrand.
 Wer nicht kräftig rudert, muss nachher das Deck schrubben.
 Wer nicht kämpft, hat schon verloren.
+Wer nicht mit Leid konfrontiert werden will, sollte nicht Arzt werden.
 Wer nicht mit der Zeit geht, muss mit der Zeit gehen.
 Wer nicht wagt, der nicht gewinnt!
 Wer nicht will, sucht Gründe.
 Wer nichts besitzt, hat auch nichts zu verlieren.
+Wer nichts glaubt, muss alles mühsam selbst in Erfahrung bringen.
 Wer nichts weiß, kann auch nichts verraten.
 Wer nichts zu verbergen hat, braucht auch kein Anwaltsgeheimnis.
 Wer nichts zu verbergen hat, braucht auch kein Bankgeheimnis.
@@ -35857,6 +36052,7 @@ Wie gehts Mirna?
 Wie geht’s Ihrem Herrn Bruder?
 Wie geleckt sieht das aus!
 Wie gelingt ihnen diese leckere Tomatensoße?
+Wie genau ist dein biologisches Metronom?
 Wie genau ticken die genauesten Uhren der Welt?
 Wie gesagt, dies ist auch ein Sonderangebot.
 Wie gesagt, es ist ein Pilotprojekt.
@@ -35993,6 +36189,7 @@ Wie kannst du bei dieser Temperatur nicht frieren?
 Wie kannst du nach so vielen Arbeitsunfällen eigentlich noch am Leben sein?
 Wie kannst du nur so grausam sein?
 Wie kannst du nur so lange nichts trinken?
+Wie kannst du schon wieder nur ans Essen denken?
 Wie klettert man ins Kanu, ohne es umzuwerfen?
 Wie knapp sind deine Tabakvorräte?
 Wie komme ich am Besten zur alten Vikarie?
@@ -36187,6 +36384,7 @@ Wie schminkt man sich als Clown?
 Wie schnell darf man auf der Autobahn fahren?
 Wie schnell fährt die "Rennsemmel"?
 Wie schnell fährt so ein E-Scooter eigentlich?
+Wie schnell ist eigentlich der Motorroller von Karla Kolumna?
 Wie schnell kann man das Marmeladenglas rotieren lassen, ohne dass es zerplatzt?
 Wie schnell kannst du zählen?
 Wie schnell wirkt so eine Narkose?
@@ -36310,6 +36508,7 @@ Wie viel ist Ihren dieser unreparierte Unfallwagen Wert?
 Wie viel kommt zusammen an einem Tag des Pfandflaschensammelns?
 Wie viel kostet derzeit eigentlich eine Aktie der katholischen Kirche?
 Wie viel kriegen wir für den Wagen?
+Wie viel muss er wohl gesoffen haben, um jetzt so eine Stimme zu haben?
 Wie viel muss man monatlich für eine Parzelle bezahlen?
 Wie viel verdient man als Fernsehmoderator?
 Wie viel von meinem Datenvolumen habe ich diesen Monat schon verbraucht?
@@ -36419,6 +36618,7 @@ Wie viele und welche Sinne hat der Mensch?
 Wie viele verschiedene Zonen gibt es?
 Wie viele waren es beim Bau des Nord-Ostsee-Kanals?
 Wie viele Ü-Eier legt eine Überraschungshenne im Monat?
+Wie vielen Zöllnern hat die Schengen-Reform den Arbeitsplatz gekostet?
 Wie voll ist dein Terminkalender im Moment?
 Wie von Geisterhand fährt der Hobel über das Holz.
 Wie war das?
@@ -36462,6 +36662,7 @@ Wie wird das Wetter in Dargun?
 Wie wird das Wetter morgen auf Insel Usedom?
 Wie wird das Wetter?
 Wie wird der Herd angeschlossen?
+Wie wird die Software aktuell gehalten?
 Wie wird dieses Wort geschrieben?
 Wie wird man Clown?
 Wie wird sich das Maschinenintelligenzzeitalter anfühlen?
@@ -36480,6 +36681,7 @@ Wie zufrieden sind Sie mit unserer heutigen Wagenreihung?
 Wie zum Teufel kommen wir auf eine jährliche Durchschnittsmenge von hundertdreißig Litern alkoholischer Getränke?
 Wie zur Hölle soll das funktionieren?
 Wie zuverlässig eine Versicherung zahlt, weiß man erst, wenn man sie braucht.
+Wie zuverlässig sind diese Tests?
 Wie zäume ich ein Pferd von hinten auf?
 Wie züchtet man eigentlich Weintrauben ohne Kerne?
 Wie ändert man das Hintergrundbild?
@@ -36492,6 +36694,7 @@ Wie, du magst beides?
 Wiebke Wagner würzt weniger wegen Weihnachten.
 Wieder andere stehen einfach nur ratlos oder staunend daneben.
 Wieder die Sätze aus dem Ärmel geschüttelt, wie?
+Wieder ein Problem, das sich mit Reichtum lösen lässt.
 Wieder eine Punktlandung.
 Wieder einmal hatten die Bremsen versagt.
 Wieder einmal ist Geld der entscheidende Faktor.
@@ -36538,6 +36741,7 @@ Wieso denn nicht?
 Wieso die iberische Halbinsel besser geeignet wäre, musst du vernünftig darlegen.
 Wieso dreht sich die Kompassnadel ständig im Kreis?
 Wieso finde ich in dieser Datenbank eigentlich keine Witze?
+Wieso finden die Kurse immer nur mittwochs statt?
 Wieso fragen wir nicht einen von denen?
 Wieso fragst du mich eigentlich solche Fragen?
 Wieso fragst du mich eigentlich, wenn du sowieso alles besser weißt?
@@ -36656,6 +36860,7 @@ Wieso tut denn keiner etwas?
 Wieso tut er sich das noch länger an?
 Wieso vergisst Thaddäus seine Passwörter immer?
 Wieso verschließen sich alle gegen offene Standards?
+Wieso versteckt sich deine Katze in der Kloschüssel?
 Wieso versteht der Sprachassistent mich nicht mehr?
 Wieso waren in den Achtzigern so viele Menschen drogenabhängig?
 Wieso werden Investitionen in die Infrastruktur immer von irgendwelchen Sportevents abhängig gemacht?
@@ -36718,6 +36923,7 @@ Willkommen in der Europäischen Union!
 Willkommen zur zweiten Aluhütchen-Bastelstunde!
 Willst Du Dir den Tag versauen, musst Du in den Spiegel schauen.
 Willst du Börek oder Pide?
+Willst du Fleisch haben?
 Willst du Gurken auf deinen Hotdog?
 Willst du Jule nicht mit nach Madrid nehmen?
 Willst du am Donnerstag ein Spiel spielen?
@@ -36802,6 +37008,7 @@ Wir bauen auf, wir reißen nieder – so haben wir Arbeit immer wieder.
 Wir bauen uns also so eine Art Intranet für Arme.
 Wir befinden uns fast auf der Zielgeraden.
 Wir befinden uns irgendwo in Osteuropa, fernab jeglicher Zivilisation.
+Wir befragen nun ein paar schockierte Nachbarn, um die Reportage dramatischer zu gestalten.
 Wir beginnen beim Ventil und nehmen dann ringsum jede Speiche einzeln in Angriff.
 Wir beginnen mit einer kleinen Umfrage.
 Wir behalten uns vor, in dieser Angelegenheit rechtliche Schritte einzuleiten.
@@ -37112,6 +37319,7 @@ Wir sollten uns auf seine Rückkehr vorbereiten.
 Wir sollten uns nicht auf ihn verlassen.
 Wir sollten uns weniger Zeug und stattdessen mehr Zeit schenken.
 Wir sollten unser Augenmerk darauf richten, wie wir möglichst schnell einen vorzeigbaren Prototypen bauen.
+Wir spielen das Ganze einmal auf dem Reißbrett durch.
 Wir spielen die besten Hits der Siebziger, Achtziger und das Beste von heute!
 Wir sprechen uns später noch mal.
 Wir sprechen uns später.
@@ -37372,6 +37580,7 @@ Wo finde ich hier das Fellnasenfutter?
 Wo finde ich in diesem Laden Käse aus Holland?
 Wo findet die Substitution statt?
 Wo findet die diesjährige Landesgartenschau statt?
+Wo früher eine Leber war, ist heute eine Minibar.
 Wo fährt man hin, wenn man im Ruhrpott wohnt und mal ins Grüne will?
 Wo geht es denn hier ins Zentrum?
 Wo geht es denn nun zum Quiz?
@@ -37415,6 +37624,7 @@ Wo häufig die Mieter wechseln, wird auch häufig gebohrt und gehämmert.
 Wo im Periodensystem ist die Elektronegativität am größten?
 Wo in München wohnt denn Erika Mustermann?
 Wo ist Ausbilder Schmitt, wenn man ihn braucht?
+Wo ist Karl Klammer, wenn man ihn braucht?
 Wo ist Lea?
 Wo ist bloß die Zeit geblieben?
 Wo ist das Besteck?
@@ -37716,6 +37926,7 @@ Wollt ihr die Vereinfachung jetzt ernsthaft dafür kritisieren, dass sie eine Ve
 Wollt ihr etwa den ganzen Weg zu Fuß latschen?
 Wollt ihr gar nicht tanzen?
 Wollt ihr ihn einmal auf euren Rotschimmel klettern lassen?
+Wollt ihr lieber das unkomprimierte Original?
 Wollt ihr mal einen Intelligenztest machen?
 Wollt ihr mich ärgern?
 Wollt ihr mir ernsthaft mein altes Nokia rauben?
@@ -37790,6 +38001,7 @@ Wovon soll man diese Preise bezahlen, wenn man damit keine Kryptowährungen sch�
 Wovon träumst du nachts?
 Wovor hast du Angst?
 Wovor hat der Staatsanwalt am meisten Angst?
+Wovor soll Gott die Königin eigentlich retten?
 Wow, du kannst diese Städte aber sauber aussprechen!
 Wow, ist das Puzzel aber schwer.
 Wow, ist das aber hellhörig hier.
@@ -37804,6 +38016,7 @@ Wozu die vielen Anführungszeichen?
 Wozu diese Extrawurst?
 Wozu muss eine Drahtbürste Zink enthalten?
 Wozu soll ich mir Formeln merken, die ich jederzeit problemlos nachschlagen kann?
+Wozu soll man Bank- und Versichertenkarten händisch unterschreiben?
 Wozu soll man heute noch Schreibschrift lernen?
 Wozu versuche ich überhaupt noch anzurufen?
 Wulff lässt nicht locker.
@@ -38503,6 +38716,7 @@ x und y heben sich gegenseitig weg.
 Ärzte können mit Datenschutz oft nichts anfangen.
 Ärzte können sehr gut fachchinesisch sprechen.
 Ärzte und Apotheker müssen viele Fragen beantworten.
+Ärzte und Chirurgen haben sowieso schon genug zu tun.
 Äthylen bezeichnet man nach neuer Nomenklatur als Ethen.
 Ätsch!
 Äußerst nützlich, so ein Klappspaten!
