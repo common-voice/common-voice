@@ -224,4 +224,34 @@
             /* border-top: 1px solid var(--grey); */
         }
     }
+
+    & .contact-section {
+        /* height: 400px;
+        background: url('./images/guidelines-waves-2.png');
+        background-size: 100% 100%; */
+        & .contact-container {
+            max-width: var(--desktop-width);
+            margin: 50px auto 0;
+
+            h1 {
+                font-size: var(--font-size-max);
+                font-weight: 400;
+                margin: 0 auto;
+                width: fit-content;
+
+                &::before {
+                    content: '';
+                    background: linear-gradient(
+                        to right,
+                        var(--gradient-pink),
+                        var(--gradient-purple)
+                    );
+                    height: 3px;
+                    margin-bottom: 20px;
+                    width: 70px;
+                    display: block;
+                }
+            }
+        }
+    }
 }
