@@ -106,7 +106,7 @@
     }
 
     .how-it-works-block {
-        width: 15rem;
+        width: 20rem;
         min-height: 6rem;
         margin: 1rem 2rem;
         padding: 2rem;
@@ -121,7 +121,7 @@
         }
 
         @media (--md-down) {
-            width: 12rem;
+            width: 60vw;
             padding: 3rem 1.5rem 2rem;
             padding-inline-start: 1.5rem;
             margin: 2rem 0.5rem 1.25rem;
@@ -141,8 +141,8 @@
         color: #1570ef;
         font-weight: 600;
         background: url('./images/hex.svg') no-repeat;
-        background-color: white;
         background-size: contain;
+
         &.done {
             background-image: url('./images/hex-done.svg');
             color: transparent;

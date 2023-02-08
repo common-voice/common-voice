@@ -96,6 +96,7 @@ ki = Kikuja
 kk = Kazaĥa
 km = Kmera
 kmr = Kurmanĉa kurda
+knn = Konkana (nagaria)
 ko = Korea
 kpv = Komiziriana
 kw = Korniŝa
@@ -120,6 +121,7 @@ ms = Malaja
 mt = Malta
 my = Birma
 myv = Erzja
+nan-tw = Hokla
 nb-NO = Norvega Bokmål
 ne-NP = Nepala
 nia = Niasa
@@ -134,6 +136,7 @@ pl = Pola
 ps = Paŝtuna
 pt = Portugala
 quc = Kiĉea
+quy = Keĉua (Ĉankao)
 rm-sursilv = Romanĉa surselva
 rm-vallader = Valadera romanĉa
 ro = Rumana
@@ -309,7 +312,6 @@ shortcut-discard-ongoing-recording-label = Forigi okazantan registradon
 shortcut-submit = Enigi
 shortcut-submit-label = Sendi registraĵojn
 request-language-text = Ĉu vi ne vidas vian lingvon en Common Voice?
-request-language-text-learn = Jen pli da informo pri tiu peto!
 request-language-button = Peti lingvon
 
 ## ProjectStatus
@@ -336,6 +338,9 @@ profile-form-additional-language =
     .label = Aldona lingvo
 profile-form-language =
     .label = Lingvo
+profile-form-variant =
+    .label = Kiun varianton de la { $language } vi parolas?
+profile-form-variant-default-value = Neniu varianto elektita
 profile-form-accent =
     .label = Akĉento
 profile-form-custom-accent-help-text =
@@ -387,6 +392,8 @@ off = Malŝaltita
 on = Ŝaltita
 help-accent = Ĉu vi bezonas helpon pri akĉento?
 help-accent-explanation = Via akĉento estas la maniero kiel vi prononcas vortojn. Ĝin influas la lokoj kie vi iam loĝis, viaj aliaj parolataj lingvoj kaj pluraj diversaj faktoroj. Vi povas dividi ĉi tie iun ajn informon, kiun vi opinias grava.
+help-variants = Ĉu vi bezonas helpon kun variantoj?
+help-variants-explanation = Variantoj estas specifaj formoj de lingvo - ekzemple dividitaj de tiuj kiuj loĝas en regiono aŭ komunumo. Kelkfoje oni nomas ilin dialektoj.
 
 ## Profile - Email
 
@@ -414,6 +421,7 @@ faq-what-cv-a =
     Voĉrekonaj teknologioj revolucie ŝanĝas nian manieron interagi kun maŝinoj, sed la nune haveblaj sistemoj estas multekostaj kaj malliberaj. Common Voice estas parto de iniciato de Mozilla, kiu celas plibonigi parolrekonajn teknologiojn kaj igi ilin alireblaj por ĉiuj. Common Voice estas grandega datumbazo de donacitaj voĉregistroj, kaj ĝi permesas al iu ajn rapide kaj facile trejni parolrekonajn programojn en, eventuale, ĉiuj lingvoj.
     
     Ni ne nur kolektas voĉajn specimenojn en vaste parolataj lingvoj, sed ankaŭ en tiuj, kiuj havas pli etajn komunumojn de parolantoj. Publikigo de diversa datumaro de voĉoj helpos programistojn, entreprenistojn kaj komunumojn mem etigi la breĉon. Kune kun la datumaro de Common Voice ni ankaŭ konstruas malfermitkodan parolrekonilon nomita Deep Speech.
+faq-what-cv-a-2 = Voĉrekonaj teknologioj revolucie ŝanĝas nian manieron interagi kun maŝinoj, sed la nune haveblaj sistemoj estas multekostaj kaj malliberaj. Mozilla Common Voice estas iniciato, kiu celas plibonigi voĉrekonajn teknologiojn kaj igi ilin alireblaj por ĉiuj. Common Voice estas grandega datumbazo de donacitaj voĉregistroj, kiu permesas al iu ajn rapide kaj facile trejni voĉrekonajn programojn eventuale en ĉiuj lingvoj.
 faq-why-important-q = Kial ĝi gravas?
 faq-why-important-a =
     Parolado estas ofte la plej natura maniero komunikiĝi kun la aliaj, kaj voĉaj teknologioj alportas tiun konvenecon al niaj komputiloj kaj poŝaparatoj. Ni volas doni al programistoj la rimedojn kontrui ravajn parorekonajn programojn, kiel samtempajn tradukantojn kaj parolkapablajn helpantojn. Tamen, nuntempe la plimulto de la voĉaj datumoj bezonataj por krei tiajn programojn estas multekosta kaj mallibera. Ni esperas ke la datumaro de Common Voice donos al la programistoj tion, kion ili bezonas por novaĵkrei kaj igi parolajn tekcnologiojn haveblaj en siaj propraj lingvoj.
@@ -436,7 +444,6 @@ faq-why-different-speakers-a =
     La plejmulto da voĉaj datumbazoj estas konstruitaj kun superreprezento de kelkaj demografiaj grupoj, kiu favoras  <articleLink>virojn kaj mezan klason</articleLink>. Normale subreprezentitaj akĉentoj kaj dialektoj en trejnaj datumaroj estas kutime asociitaj kun homgrupoj, kiuj jam estas eksterigitaj. Cetere, multaj maŝinoj penas kompeni virinajn voĉojn.
     Tial en nia voĉa datumbazo ni volas diversecon!
 faq-why-my-lang-q = Kial mia lingvo ne estas ankoraŭ inkluzivita?
-faq-why-my-lang-new-a = Mozilla ne elektas aŭ favoras iun ajn lingvon super alia. Male, Common Voice estas nur pelata de komunumoj, sed bezonatas <multilangLink>pluraj paŝoj por aldoni novan lingvon</ multilangLink> kaj komenci kolekti voĉregistrojn. Unue, la retejo de Common devas esti tradukita, por permesi al la membroj de la komunumoj sperti la kontribuadon en siaj propraj lingvoj. Poste, ni bezonas grandan kolekton de frazoj liberaj je kopirajto, kiuj estos laŭtlegitaj.  Kiam tiuj du kondiĉoj estos plenumitaj, la lingvoj estos "lanĉitaj" en Common Voice por ke homoj komencu registri siajn voĉojn kaj validigi la voĉregistrojn de aliaj. Se vi volas helpi lanĉi novan lingvon, iru al nia <sentenceCollectorLink>iloj por kolekti frazojn</ phraseCollectorLink> por komenci.
 faq-what-quality-q = Kiu nivelo de sonkvalito estas postulata por la voĉaregistroj en la datumaro?
 faq-what-quality-a = Ni volas ke la datumaro de Common Voice reflektu la sonkvaliton de la ĉiutaga vivo, do ni serĉas diversecon. Krom diversa komunumo de parolantoj, datumaro kun varianta sonkvalito permesos al voĉrekoniloj trakti diversajn realajn situaciojn, ĉu fona parolado ĉu aŭta bruo. Se via voĉregistro kompreneblas, ĝi devus esti sufiĉe bona por la datumaro.
 faq-why-10k-hours-q = Kial la celo estas 10.000 validigitaj horoj de sono?
@@ -468,10 +475,23 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Kial Common Voice?
+about-header-description-v2 =
+    <p>Common Voice estas publike disponebla voĉa datumaro, pelata de la voĉoj de kontribuantaj volontuloj en la tuta mondo. Tiuj kiuj volas krei voĉrekonaj programoj povas uzi la datumaron por trejni maŝinlernajn modelojn.</p>
+    <p>Nuntempe la plimulton de la voĉaj datumaroj posedas entreprenoj, kaj tio bremsas novaĵkreemon. Voĉaj datumaroj cetere troe reprezentas blankajn angloparolantajn virojn. Tio signifas ke parolrekonaj teknologioj tute ne funkcias por kelkaj lingvoj, kaj kiam ĝi funkcias, ĝi ne estos same bona por ĉiuj. Ni volas ŝanĝi tion kun la helpo de personoj ĉie, kaj tial ni petas al ili dividi siajn voĉojn.</p>
+how-does-it-work-title-v2 = Kiel funkcias Common Voice?
 how-does-it-work-text = Ni kalkulas je kolektiva patropreno por konstrui malfermitkodan voĉan datumaron. Donacu vian voĉon, validigu la precizecon de la voĉregistroj de aliaj personoj, plibonigu la datumaron por ĉiuj.
 
 ## How does it work section
 
+about-language-req-subtitle = Iu petas aldonon de lingvo.
+about-localization-title = Traduko de retejo
+about-localization-subtitle = La retejo estas tradukita en tiun lingvon.
+about-sentence-collection-title = Kolekto de frazoj
+about-sentence-collection-subtitle = Frazoj estas kolektitaj por homoj, kiuj legos ilin laŭte.
+about-new-lang-title = Lanĉo de nova lingvo
+about-dataset-release-title = Eldono de datumaro
+about-dataset-release-subtitle = Ni eldonas la datumaron ĉiun trian monaton.
+about-subscribe-text = Ĉu vi volas resti en kontakto kun Common Voice?
 about-speak = Paroli
 about-speak-text = Kontribuantoj laŭtlegas el kolekto de donacitaj frazoj kaj registras siajn voĉojn.
 about-listen-queue = Vico de aŭskulto
@@ -488,12 +508,6 @@ about-dataset-new = Datumaro de Common Voice
 about-dataset-new-text = La datumaro de Common Voice enhavas centojn da miloj da voĉregistroj, kiuj helpas programistojn konstrui parolrekonajn ilojn.
 about-clip-graveyard = Tombejo de voĉregistroj
 about-clip-graveyard-text = La tombejo de voĉregistroj konsistas el voĉregistroj kiuj ne sukcesis eniri la datumaron de Common Voice. Same kiel la datumaro, la tombejo de voĉregistroj estas elŝutebla.
-about-partners = Asociitoj
-about-become-a-partner = Iĝi asociito
-about-partnership =
-    Common Voice estas kunlabora projekto, kaj ni dependas de nian komunumo de partoprenantoj kaj kontribuantoj por konstrui la plej grandan malfermitkodan datumaron de voĉoj.
-    
-    Ni ŝatus danki la jenaj personojn kaj organizojn pro ilia helpo kun la projekto:
 about-get-involved = Partopreni
 about-get-involved-text-2 =
     Ĉu vi volas igi Common Voice eĉ pli bona?
@@ -507,13 +521,17 @@ about-nav-why-common-voice = Kial?
 about-nav-how-it-works = Kiel?
 about-nav-partners = Asociitoj
 about-nav-get-involved = Partopreni
+about-nav-how-it-works-2 = Kiel funkcias Common Voice?
+about-nav-playbook = Lernu kiel partopreni
 
 ## Community Playbook Content
 ## What is a language
 
+about-playbook-what-is-language = Kio estas lingvo ĉe Common Voice?
 
 ## How do I add a language
 
+about-playbook-how-add-language = Kiel aldoni lingvon?
 
 ## How does localization work
 
@@ -535,10 +553,8 @@ about-nav-get-involved = Partopreni
 
 ## How are decisions made
 
-mycroft-title = Mycroft Ai
-mycroft-subtitle = Artefarita intelekto
-mycroft-description = Mycroft estas la unua malfermitkoda asistanto en la mondo. Mycroft funkcias ĉie: en komputilo, en aŭto aŭ en Raspberry Pi.
-mycroft-secondary-description = Tiu ĉi estas malfermitkoda programo kiu povas estis libere rearanĝita, etendita kaj plibonigita. Mycroft povas esti uzata en io ajn, ĉu sciencia projekto ĉu entreprena sistemo.
+about-playbook-how-project-governance-content-6 = Reciproka respondeco.
+about-playbook-how-project-governance-content-7 = <governanceLink>Pli da informo pri nia administro</governanceLink>
 
 ## Glossary
 
@@ -678,6 +694,9 @@ request-language-success-title = La propono de lingvo estis sukcese sendita, dan
 request-language-success-content = Ni baldaŭ skribos al vi kun pli da informo pri la aldono de via lingvo al Common Voice.
 select-language = Elektu lingvon...
 other-language = Alia lingvo
+
+## Request Language Pages
+
 
 ## Languages Overview
 

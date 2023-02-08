@@ -1,6 +1,5 @@
 ## General
 
-yes-receive-emails = Ndio, nitumie barua pepe. Ningependa kuendelea kupokea taarifa kuhusu Mradi wa Common Voice.
 stayintouch = Sisi katika Mozilla tunajenga jamii inayohusika na teknolojia ya sauti. Tungependa kuendelea kupokea visasisho, vyanzo vipya vya data na kujuzwa zaidi kuhusu jinsi unavyotumia data hii
 privacy-info = Tunaahidi kushughulikia maelezo yako kwa uangalifu. Soma zaidi katika <privacyLink> sera yetu ya faragha </privacyLink>.
 return-to-cv = Rudi kwa Common Voice
@@ -314,7 +313,6 @@ shortcut-discard-ongoing-recording-label = Puuza rekodi inayoendelea
 shortcut-submit = Rejesha
 shortcut-submit-label = Wasilisha vipande
 request-language-text = hujaona lugha yako kwenye common voice bado?
-request-language-text-learn = Jifunze jinsi ya kuiomba hapa!
 request-language-button = Agiza lugha
 
 ## ProjectStatus
@@ -446,7 +444,6 @@ faq-why-different-speakers-a =
     Hifadhidata nyingi za sauti zinafunzwa na uwasilishaji mkubwa wa data inayohusu watu ambayo husababisha upendeleo kuelekea <articleLink> daraja la kiume na la kati</articleLink>. Lafudhi na lahaja ambazo huwa zinawakilishwa chini ya uwasilishaji katika seti za data ya mafunzo kawaida zinahusishwa na vikundi vya watu ambao tayari wametengwa. Mashine nyingi pia zinapambana kuelewa sauti za kike.
     Hii ndio sababu katika daftari letu tunataka sauti tofauti!
 faq-why-my-lang-q = Kwa nini lugha yangu bado haijajumuishwa?
-faq-why-my-lang-new-a = Mozilla haichagui au kupendelea lugha yoyote kuliko nyingine. Badala yake, Common Voice ni mpango unaoendeshwa na jamii, lakini inachukua <multilangLink> hatua kadhaa kuongeza lugha mpya </multilangLink> na kuanza kukusanya michango ya sauti. Kwanza, wavuti wa Common Voice unahitaji kutafsiriwa ili wanajamii waweze kupata uzoefu wa wachangiaji katika lugha yao wenyewe. Kisha tunahitaji mkusanyiko mkubwa wa sentensi zisizo na hakimiliki kwa watu kusoma kwa sauti. Mara tu mahitaji hayo yote yanapokamilika lugha "huzinduliwa" kwa Common Voice kwa watu kuanza kurekodi sauti zao na kuhalalisha michango ya wengine. Ikiwa unataka kusaidia kuzindua lugha mpya, nenda kwenye <sentenceCollectorLink>kifaa chetu cha kukusanya sentensi </sentenceCollectorLink> ili uanze.
 faq-what-quality-q = Ni kiwango gani cha ubora wa sauti kinahitajika ili kipande cha sauti kitumiwe kwenye daftari?
 faq-what-quality-a = Tunataka daftari la data la Common Voice kuonesha ubora wa sauti ambayo injini ya sauti-kwa-maandishi itaelewa porini, kwa hivyo tunatafuta sauti nyingi tofauti. Mbali na jamii tofauti ya wasemaji, daftari lenye ubora wa sauti nyingi tofauti litafundisha injini ya sauti-kwa-maandishi kushughulikia hali tofauti za ulimwengu, kutoka kelele za kuongea za nyuma hadi kelele za magari. Ili mradi kipande chako cha sauti kinaeleweka, inapaswa kuwa ya kutosha kwa daftari.
 faq-why-10k-hours-q = Kwa nini saa 10,000 zilizothibitishwa ndio lengo la kila lugha la kurekodi sauti?
@@ -513,12 +510,6 @@ about-dataset-new = Daftari la Common Voice
 about-dataset-new-text = Daftari la Common Voice ina mamia ya maelfu ya sampuli za sauti ambazo husaidia wasanidi kuunda zana za utambuzi wa sauti.
 about-clip-graveyard = Maziara ya vipande vya sauti.
 about-clip-graveyard-text = Maziara ya vipande vya sauti vina sehemu za sauti ambazo hazikuweza kuwekwa kwenye daftari la Common Voice. Kama daftari tu, maziara ya vipande vya sauti vinapatikana kwa kupakuliwa.
-about-partners = Washiriki
-about-become-a-partner = Kuwa mshiriki
-about-partnership =
-    Common Voice ni mradi wa kushirikiana, na tunategemea jamii yetu ya washirika na wachangiaji wa kutengeneza chanzo wazi cha daftari kubwa la sauti.
-    
-    Tungependa kuwashukuru watu na mashirika yafuatayo kwa msaada wao kwenye huu mradi:
 about-get-involved = Jihusishe
 about-get-involved-text-2 =
     Je! Unataka kusaidia kufanya Common Voice kuwa bora zaidi?
@@ -544,7 +535,6 @@ about-playbook-what-is-language = Lugha kwenye Common Voice ni nini?
 
 about-playbook-how-add-language = Je, ninawezaje kuongeza lugha?
 about-playbook-how-add-language-content-1 = Kwanza, angalia kama lugha yako <languageLink>tayari ipo</languageLink>. Ikiwa halipo, unahitaji <strong>kutafsiri tovuti na kukusanya sentensi</strong>.
-about-playbook-how-add-language-content-3 = <strong>Ili kukusanya sentensi</strong> - <scVideo>sanidi</scVideo> kwenye <scLink>Kikusanya Sentensi</scLink>.
 
 ## How does localization work
 
@@ -576,12 +566,6 @@ about-playbook-how-access-dataset = Je, ninawezaje kufikia na kutumia mkusanyiko
 
 ## How are decisions made
 
-mycroft-title = Mycroft Ai
-mycroft-subtitle = Intelijensia bandia
-mycroft-description =
-    Mycroft ni msaidizi wa kwanza wa chanzo wazi ulimwenguni.
-    Mycroft inatumika popote - kwenye tarakilishi, ndani ya gari, au kwenye Raspberry Pi.
-mycroft-secondary-description = Hii ni programu ya chanzo wazi ambayo inaweza kurekebishwa kwa uhuru na kuboreshwa. Mycroft inaweza kutumika katika kitu chochote kutoka kwa mradi wa sayansi hadi programu ya wamiliki.
 
 ## Glossary
 
@@ -719,6 +703,9 @@ request-language-success-content = Tutawasiliana na habari zaidi juu ya jinsi ya
 select-language = Chagua lugha ...
 other-language = Lugha Nyingine
 
+## Request Language Pages
+
+
 ## Languages Overview
 
 language-section-in-progress = Inaendelea
@@ -734,7 +721,6 @@ language-search-input =
 language-speakers = Wasemaji
 localized = Ujanibishaji
 sentences = Masentensi
-total-hours = Masaa yaliyo halalishwa
 
 ## Contribution
 

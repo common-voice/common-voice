@@ -1,6 +1,6 @@
 ## General
 
-yes-receive-emails = Ja tak, send mig gerne e-mails. Jeg ønsker at holde mig informeret om Common Voice Project.
+yes-receive-emails = Ja tak, send mig gerne e-mails. Jeg ønsker at holde mig informeret om projektet Common Voice.
 stayintouch = Hos Mozilla bygger vi et fællesskab omkring stemmeteknologi. Vi vil gerne holde kontakten med opdateringer, nye datakilder og høre mere om, hvordan du bruger disse informationer.
 privacy-info = Vi lover at behandle dine oplysninger på betryggende vis. Læs mere i vores <privacyLink>Privatlivspolitik</privacyLink>.
 return-to-cv = Vend tilbage til Common Voice
@@ -14,6 +14,10 @@ email-opt-in-info-sub-with-challenge = Modtag e-mails med påmindelser om udford
 email-opt-in-privacy-v2 = Ved at tilmelde dig e-mails accepterer du, at Mozilla håndterer disse oplysninger som forklaret i Mozillas <privacyLink>privatlivspolitik</privacyLink>.
 indicates-required = * Betyder at feltet skal udfyldes
 not-available-abbreviation = Ikke tilgængelig
+banner-error-slow-1 = Beklager, Common Voice arbejder langsomt. Tak for din interesse.
+banner-error-slow-2 = Vi modtager meget trafik og er i øjeblikket ved at undersøge sagerne.
+banner-error-slow-link = Statusside
+error-something-went-wrong = Noget gik galt
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -39,7 +43,9 @@ bg = Bulgarsk
 bm = Bambara
 bn = Bengalsk
 br = Bretonsk
+bs = Bosnisk
 bxr = Burjatisk
+byv = Medumba
 ca = Catalansk
 cak = Kaqchikel
 ckb = Sorani
@@ -49,9 +55,11 @@ cs = Tjekkisk
 cv = Tjuvasjisk
 cy = Walisisk
 da = Dansk
+dag = Dagbani
 de = Tysk
 dsb = Nedresorbisk
 dv = Divehi
+dyu = Dyula
 el = Græsk
 en = Engelsk
 eo = Esperanto
@@ -67,9 +75,11 @@ fy-NL = Frisisk
 ga-IE = Irsk
 gl = Galicisk
 gn = Guarani
+gom = Goan Konkani
 ha = Hausa
 he = Hebraisk
 hi = Hindi
+hil = Hiligaynon
 hr = Kroatisk
 hsb = Øvresorbisk
 ht = Haitisk kreol
@@ -78,22 +88,32 @@ hy-AM = Armensk
 hyw = Vestarmensk
 ia = Interlingua
 id = Indonesisk
+ie = Iinterlingue
+ig = Igbo
 is = Islandsk
 it = Italiensk
 izh = Izhorian
 ja = Japansk
+jbo = Lojban
 ka = Georgisk
 kaa = Karakalpakisk
 kab = Kabylisk
 kbd = Kabardian
+ki = Kikuyu
 kk = Kasakhisk
+km = Khmer
 kmr = Kurmanji
+kn = Kannaresisk
+knn = Konkani (devanagari)
 ko = Koreansk
 kpv = Komi
 kw = Cornisk
 ky = Kirgisisk
+lb = Luxembourgsk
 lg = Ganda
 lij = Ligurisk
+ln = Lingala
+lo = Laotisk
 lt = Litauisk
 lv = Lettisk
 mai = Maithili
@@ -103,6 +123,7 @@ mhr = Meadow Mari
 mk = Makedonsk
 ml = Malayalam
 mn = Mongolsk
+mni = Meetei Lon
 mos = Moore
 mr = Marathi
 mrj = Hill Mari
@@ -110,32 +131,47 @@ ms = Malajisk
 mt = Maltesisk
 my = Burmesisk
 myv = Erzya
+nan-tw = Taiwanesisk (Minnan)
 nb-NO = Bokmål
+nd = Nordndebele
 ne-NP = Nepalesisk
+nia = Nias
 nl = Nederlandsk
 nn-NO = Nynorsk
+nr = Sydndebele
+nso = Nordsotho
+nyn = Nyankole
 oc = Occitansk
+om = Oromo
 or = Oriya
 pa-IN = Punjabisk
 pap-AW = Papiamento (Aruba)
 pl = Polsk
 ps = Pashto
 pt = Portugisisk
+quc = K'iche'
+quy = Quechua Chanka
 rm-sursilv = Rætoromansk sursilvansk
 rm-vallader = Rætoromansk Lavengadinsk
 ro = Rumænsk
 ru = Russisk
 rw = Kinyarwanda
 sah = Yakut
+sat = Santali (Ol Chiki)
 sc = Sardisk
 scn = Siciliansk
+sdh = Sydkurdisk
 shi = Shilha
 si = Singalesisk
 sk = Slovakisk
+skr = Saraiki
 sl = Slovensk
+snk = Soninke
 so = Somali
 sq = Albansk
 sr = Serbisk
+ss = Swati
+st = Sydsotho
 sv-SE = Svensk
 sw = Swahili
 syr = Syrisk
@@ -143,22 +179,36 @@ ta = Tamil
 te = Telugu
 tg = Tadsjikisk
 th = Thai
+ti = Tigrinya
+tig = Tigre
+tk = Turkmensk
 tl = Tagalog
+tn = Tswana
+tok = Toki Pona
 tr = Tyrkisk
+ts = Tsonga
 tt = Tatarisk
+tw = Twi
+ty = Tahitiansk
 uby = Ubykh
 udm = Udmurt
 ug = Uigurisk
 uk = Ukrainsk
 ur = Urdu
 uz = Usbekisk
+ve = Venda
 vec = Venetiansk
 vi = Vietnamesisk
 vot = Votisk
+xh = Xhosa
+yi = Jiddisch
+yo = Yoruba
 yue = Kantonesisk
+zgh = Tamazigh
 zh-CN = Kinesisk (Kina)
 zh-HK = Kinesisk (Hong Kong)
 zh-TW = Kinesisk (Taiwan)
+zu = Zulu
 
 # [/]
 
@@ -187,6 +237,7 @@ logout = Log ud
 ## Home Page
 
 home-title = Projektet Common Voice er et Mozilla-initiativ, der skal hjælpe maskiner med at forstå, hvordan mennesker taler.
+default-tagline = Mozilla Common Voice er et initiativ, der skal hjælpe maskiner med at forstå hvordan rigtige mennesker taler.
 home-cta = Åbn munden og vær med her!
 wall-of-text-start = Stemmen er naturlig, stemmen er menneskelig. Det er derfor, vi er fascineret af at skabe en brugbar stemmeteknologi til vores maskiner. Men for at skabe systemer til stemmegenkendelse kræves en ekstrem stor mængde stemmedata.
 wall-of-text-more-mobile = Hovedparten af de data, som bruges af store virksomheder, er ikke tilgængelige for flertallet af mennesker. Vi mener, at det bremser ny innovation. Derfor har vi startet projektet Common Voice, der skal hjælpe med at gøre stemmegenkendelse tilgængeligt for alle.
@@ -280,8 +331,11 @@ shortcut-record-toggle = O
 shortcut-record-toggle-label = Optag/Stop
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Optag igen
+shortcut-discard-ongoing-recording = Esc
+shortcut-discard-ongoing-recording-label = Kassér igangværende optagelse
+shortcut-submit = Retur
+shortcut-submit-label = Indsend stemmeoptagelser
 request-language-text = Kan du ikke finde dit sprog på Common Voice?
-request-language-text-learn = Lær hvordan du anmoder om det her!
 request-language-button = Anmod om at få tilføjet et nyt sprog
 
 ## ProjectStatus
@@ -306,8 +360,16 @@ profile-form-native-language =
     .label = Modersmål
 profile-form-additional-language =
     .label = Yderligere sprog
+profile-form-language =
+    .label = Sprog
+profile-form-variant =
+    .label = Hvilken variant af { $language } taler du?
+profile-form-variant-default-value = Ingen variant valgt
 profile-form-accent =
     .label = Accent
+profile-form-custom-accent-help-text =
+    .label = Hvordan vil du beskrive din accent?
+profile-form-custom-accent-placeholder-2 = Begynd at skrive for at beskrive din accent
 profile-form-age =
     .label = Alder
 profile-form-gender-2 =
@@ -318,6 +380,7 @@ hidden = Skjult
 visible = Synlig
 native-language =
     .label = Modersmål
+profile-form-add-accent = Tilføj ny brugerdefineret accent "{ $inputValue }"
 profile-form-submit-save = Gem
 profile-form-submit-saved = Gemt
 male = Mand
@@ -351,6 +414,10 @@ skip-submission-description = Ved indsendelse af bidrag ignoreres feedback efter
 skip-submission-note = Bemærk: Du skal stadig vælge mellem Tal eller Lyt for at ændre bidragstype.
 off = Fra
 on = Til
+help-accent = Har du brug for hjælp til accent?
+help-accent-explanation = Din accent er den måde, du udtaler ord på. Det kan formes af hvor du har boet, hvilke andre sprog du taler og mange andre faktorer. Du kan dele enhver information, du føler er relevant, her.
+help-variants = Har du brug for hjælp til varianter?
+help-variants-explanation = Varianter er en specifik form for et sprog - som for eksempel deles af dem, der bor i et geografisk område eller et samfund. Nogle gange kaldes disse også dialekter.
 
 ## Profile - Email
 
@@ -361,6 +428,7 @@ gravatar_not_found = Ingen gravatar fundet for din mailadresse
 file_too_large = Den valgte fil er for stor
 avatar-uploaded = Avatar uploadet
 max-file-size = { $kb }kb max
+remove-avatar = Fjern Avatar
 
 ## Profile - Email
 
@@ -378,6 +446,10 @@ faq-what-cv-a =
     Stemmegenkendelsesteknologi revolutionerer måden, vi interagerer med computere på. Men de nuværende systemer er dyre og proprietære. Common Voice er en del af Mozillas initiativ til at gøre stemmegenkendelsesteknologier bedre og mere tilgængelige for alle. Common Voice er en stor, global database med donerede stemmer, der gør det muligt for alle hurtigt og nemt at træne stemmestyrede programmer på potentielt set set alle sprog.
     
     Vi samler ikke kun donerede stemmer på de mest talte sprog, men også på mindre udbredte sprog. Adgangen til et alsidigt datasæt af stemmer vil give udviklere, iværksættere og samfund mulighed for at udvikle nye produkter, uanset hvor stort et sprog, det handler om. Udover datasættet bag Common Voice  opbygger vi også en open source-talegenkendelse kaldet Deep Speech.
+faq-what-cv-a-2 =
+    Stemmegenkendelsesteknologi revolutionerer måden, vi interagerer med computere på. Men de nuværende systemer er dyre og proprietære. Mozilla Common Voice er et initiativ til at gøre stemmegenkendelsesteknologier bedre og mere tilgængelige for alle. Common Voice er en stor, global database med donerede stemmer, der gør det muligt for alle, hurtigt og nemt at træne stemmestyrede programmer på potentielt set set alle sprog.
+    
+    Vi samler ikke kun donerede stemmer på de mest talte sprog, men også på mindre udbredte sprog. Adgangen til et alsidigt datasæt af stemmer vil give udviklere, iværksættere og samfund mulighed for at udvikle nye produkter, uanset hvor stort et sprog, det handler om.
 faq-why-important-q = Hvorfor er det vigtigt?
 faq-why-important-a =
     Tale er ofte den mest naturlige måde, vi kommunikerer med hinanden på. Og med stemmeteknologiens hjælp har vi nu mulighed for at få computere og telefoner til at forstå, hvad vi siger. Vi ønsker at give udviklere mulighed for at oprette fantastiske talegenkendelsesprogrammer som fx apps, der kan oversætte i realtid, og stemmeaktiverede digitale assistenter. Men lige nu er de fleste af de stemmedata, der kræves for at udvikle disse typer programmer både dyre og proprietære. Vi håber, at Common Voice-datasættet vil give udviklere dét, de har brug for til at forny og gøre teknologien tilgængelig på deres eget sprog.
@@ -400,7 +472,9 @@ faq-why-different-speakers-a =
     De fleste databaser med stemmedata har en overrepræsentation af bestemte demografier, hvilket resulterer i en overvægt af data fra <articleLink>mænd og middelklassen</articleLink>. Underrepræsenterede accenter og dialekter er typisk forbundet med grupper af mennesker, der allerede er marginaliserede. Mange computere har svært ved at forstå kvindestemmer. 
     Derfor vil vi have variation i vores stemme-database!
 faq-why-my-lang-q = Hvorfor er mit sprog her ikke?
-faq-why-my-lang-new-a = Mozilla udvælger ikke sprog og foretrækker ikke nogle sprog fremfor andre. Common Voice er drevet af fællesskabet. Det kræver en <multilangLink>række trin at tilføje et nyt sprog</multilangLink> og komme i gang med at indsamle stemmeoptagelser. For det første skal Common Voice-hjemmesiden oversættes, så medlemmer af fællesskabet kan anvende værktøjerne på deres eget sprog. Vi behøver desuden en stor samling af sætninger til at læse op, der ikke må være underlagt copyright. Når begge disse betingelser er opfyldt, så bliver sproget lanceret på Common Voice. Derefter kan folk gå i gang med at optage deres stemmer og godkende andres bidrag. Har du lyst til at hjælpe med at lancere et nyt sprog? Så besøg vores <sentenceCollectorLink>værktøj til indsamling af sætninger</sentenceCollectorLink> for at komme i gang.
+faq-why-my-lang-a =
+    Common Voice er en crowdsourcing-platform, og sprogene er alle tilføjet af frivillige.
+    Vi vil meget gerne have, at du tilføjer dit sprog! <languageRequestLink>Spørg om du kan få tilføjet dit sprog.</languageRequestLink>
 faq-what-quality-q = Hvilken lydkvalitet er nødvendig for at en optagelse kan bruges i datasættet?
 faq-what-quality-a = Datasættet bag Common Voice skal afspejle den lydkvalitet, som tale-til-tekst-software kommer til at støde på ude i den rigtige verden. Det vil sige, at vi ikke blot leder efter et stort udvalg af talere, men også et stort udvalg af lydkvalitet - fra snak i baggrunden til bilstøj. Så længe dine optagelser er forståelige, så bør de være god nok til datasættet.
 faq-why-10k-hours-q = Hvorfor er 10.000 timers validerede stemmeoptagelser målet for alle sprog?
@@ -409,7 +483,7 @@ faq-how-calc-hours-q = Hvordan bliver timerne udregnet af Common Voice?
 faq-how-calc-hours-a = Vi beregner timerne ved at estimere den gennemsnitlige længde af hver optagelse, og ganger det antal med det samlede antal optagelser på tværs af alle sprog.
 faq-where-src-from-2-q = Hvor kommer teksten fra?
 faq-where-src-from-2-a =
-    Sætningerne består af originale sætninger fra vores frivillige bidragsydere, samt dialog fra gamle filmmanuskripter, der ikke er underlagt ophavsrettigheder. Fx filmen <italic>Det er herligt at leve</ italic>.
+    Sætningerne består af originale sætninger fra vores frivillige bidragsydere, samt dialog fra gamle filmmanuskripter, der ikke er underlagt ophavsrettigheder. Fx filmen <italic>Det er herligt at leve</italic>.
     
     Du kan se vores sætninger i denne <githubLink> mappe på GitHub  </ githubLink>.
 faq-why-not-ask-read-q = Hvorfor beder I ikke folk om at læse op fra bøger eller Wikipedia-artikler på forskellige sprog?
@@ -432,12 +506,28 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Hvorfor Common Voice?
-about-subtitle = Common Voice er en del af Mozillas initiativ, der skal hjælpe maskiner med at forstå, hvordan mennesker snakker i virkeligheden. Udover Common Voice-datasættet bygger vi også en open source-tjeneste til talegenkendelse ved navn Deep Speech.
-about-header-description =
-    Begge projekter er en del af vores forsøg på at gøre digital tale-teknologi mere tilgængeligt. Teknologi, der kan genkende stemmer, giver vores computere og telefoner en mere menneskelig dimension - men udviklerne bag teknologierne har brug for enorme mængder stemmedata for at kunne bygge dem. I øjeblikket er hovedparten af disse data både dyre og underlagt ophavsret.
-    Vi vil gøre stemmedata offentligt tilgængelige - gratis. Data skal repræsentere, hvor forskellige folk faktisk er. Sammen kan vi gøre stemmegenkendelse bedre for alle.
-how-does-it-work-title = Hvordan fungerer det?
+about-header-description-v2 =
+    <p>Common Voice er et offentligt tilgængeligt stemmedatasæt, drevet af stemmer fra frivillige bidragydere rundt om i verden. Folk, der ønsker at bygge stemmeapplikationer, kan bruge datasættet til at træne maskinlæringsmodeller.</p>
+    <p>På nuværende tidspunkt er de fleste stemmedatasæt ejet af virksomheder, hvilket hæmmer innovation. Stemmedatasæt underrepræsenterer også: ikke-engelsktalende, farvede, handicappede, kvinder og LGBTQIA+-personer. Det betyder, at stemmeaktiveret teknologi slet ikke virker på mange sprog, og hvor den virker, fungerer den muligvis ikke lige godt for alle. Det vil vi ændre ved at mobilisere folk overalt til at dele deres stemme.</p>
+how-does-it-work-title-v2 = Hvordan fungerer Common Voice?
 how-does-it-work-text = Vi crowdsourcer et open source-datasæt med stemmer. Donér din stemme, vurdér nøjagtigheden af andre menneskers optagelser, og gør datasættet bedre for alle.
+
+## How does it work section
+
+about-language-req-subtitle = Nogen beder om at få et sprog tilføjet.
+about-localization-title = Oversættelse af webstedet
+about-localization-subtitle = Webstedets tekst er oversat til det sprog.
+about-sentence-collection-title = Indsamling af sætninger
+about-sentence-collection-subtitle = Sætninger indsamles, som folk kan læse højt.
+about-new-lang-title = Lancering af nyt sprog
+about-new-lang-subtitle = Vi lancerer Common Voice-siden på dette sprog.
+about-voice-contrib-title = Stemmebidrag
+about-voice-contrib-subtitle = Folk kommer og bidrager med deres stemmer.
+about-voice-validation-title = Stemmevalidering
+about-voice-validation-subtitle = Andre mennesker validerer disse stemmeklip.
+about-dataset-release-title = Udgivelse af datasæt
+about-dataset-release-subtitle = Vi udgiver datasættet hver 3. måned.
+about-subscribe-text = Vil du holde kontakten med Common Voice?
 about-speak = Tal
 about-speak-text = Bidragsydere optager stemmeoptagelser ved at læse dem op fra en samling af donerede sætninger.
 about-listen-queue = Lytte-kø
@@ -454,26 +544,113 @@ about-dataset-new = Common Voice-datasæt
 about-dataset-new-text = Common Voice-datasættet indeholder hundredtusindvis af stemme-optagelser, der hjælper udviklere med at bygge teknologi til stemmegenkendelse.
 about-clip-graveyard = Optagelses-kirkegården
 about-clip-graveyard-text = Optagelses-kirkegården består af stemmeoptagelser, der ikke kom med i Common Voice-datasættet. Akkurat som datasættet kan optagelser fra optagelses-kirkegården også downloades.
-about-partners = Partnere
-about-become-a-partner = Bliv partner
-about-partnership =
-    Common Voice er et projekt baseret på samarbejde, og vi er afhængige af vores fællesskab af bidragsydere og partnere for at kunne bygge det mest omfattende open-source-datasæt af stemmer nogensinde.
-    
-    Vi vil gerne takke følgende personer og organisationer for deres hjælp med projektet:
 about-get-involved = Bliv involveret
 about-get-involved-text-2 =
     Vil du hjælpe med at gøre Common Voice endnu bedre?
     Det er vi glade for at høre! Send os en mail eller kig forbi vores forum på <discourseLink>Discourse</discourseLink>, indberet fejl med hjemmesiden på <githubLink>GitHub</githubLink> eller kom og vær med  på vores fælles-chat på <matrixLink>Matrix</matrixLink>.
+about-stay-in-touch = Hvordan holder jeg kontakten?
+about-stay-in-touch-button = Tilmeld dig
+about-stay-in-touch-text-1 = <emailFragment>Tilmeld dig</emailFragment> vores mailingliste for at lære, hvordan du kan deltage i kampagner, begivenheder og co-design-funktioner på Common Voice.
+about-stay-in-touch-text-2 = Du kan møde andre i Mozilla-sprogfællesskaberne ved at deltage i <discourseLink>Discourse</discourseLink> for aktuelle samtaler eller benytte <matrixLink>Matrix</matrixLink> for at få hurtige råd.
 about-nav-why-common-voice = Hvorfor?
 about-nav-how-it-works = Hvordan?
 about-nav-partners = Partnere
 about-nav-get-involved = Bliv involveret
-mycroft-title = Mycroft Ai
-mycroft-subtitle = Kunstig intelligens
-mycroft-description =
-    Mycroft er verdens første open source-assistent.
-    Mycroft kan afvikles alle steder - på en computer, i en bil eller på en Raspberry Pi.
-mycroft-secondary-description = Dette er open source-software, der frit kan ændres, udvides og forbedres. Mycroft kan bruges til alt fra forskningsprojekter til store software-produkter.
+about-nav-how-it-works-2 = Hvordan fungerer Common Voice?
+about-nav-playbook = Lær hvordan du deltager
+
+## Community Playbook Content
+## What is a language
+
+about-playbook-what-is-language = Hvad er et sprog på Common Voice?
+about-playbook-what-is-language-content-1 = Der er mange måder at tænke sprog på. Med henblik på talegenkendelsesmodeller foreslår Common Voice at fokusere på 'gensidig forståelighed', eller 'kan talere af dette sprog for det meste forstå hinanden, hvis de prøver på det?'
+about-playbook-what-is-language-content-2 = Vi ønsker, at talemodeller skal være bedre til at forstå en bred vifte af talere. For at dette kan ske, skal et stemmedatasæt repræsentere mange forskellige mennesker.
+about-playbook-what-is-language-content-3 = Nogle sprog har enorm variation i grammatik, ordforråd og udtale. Af denne grund <ctaLink>introducerer vi 'Varianter'</ctaLink> i 2022. Dette giver fællesskaber en måde at skelne mellem deres sprogs varianter inden for det større datasæt.
+
+## How do I add a language
+
+about-playbook-how-add-language = Hvordan tilføjer jeg et sprog?
+about-playbook-how-add-language-content-1 =
+    Tjek først, om dit sprog <languageLink>allerede eksisterer</languageLink>.
+    Hvis det ikke gør det, kan du <languageRequestLink>spørge om du kan få tilføjet dit sprog</languageRequestLink>.
+    Der er to trin. Oversættelse af webstedet og indsamling af sætninger
+about-playbook-how-add-language-translating-heading = Oversættelse af webstedet
+about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Se vores vejledning i, hvordan du bruger Pontoon.</translateVideoLink>
+about-playbook-how-add-language-translating-content-2 =
+    Vi bruger et Mozilla-værktøj kaldet <pontoonLink>Pontoon</pontoonLink> til oversættelser. Pontoon har masser af sprog -
+    men hvis det ikke har dit, kan du <pontoonRequestLink>anmode om at få dit sprog tilføjet</pontoonRequestLink>.
+    For derefter at gøre sproget tilgængeligt i Common Voice-projektet,
+    <githubRepoLink>anmod om det nye sprog på GitHub</githubRepoLink>. <localizationFragment>Læs mere om oversættelse af webstedet</localizationFragment>.
+about-playbook-how-add-language-collecting-sentences-heading = Indsamling af sætninger
+about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>Se vores vejledning i, hvordan du bruger Sætningsindsamleren</sentenceCollectorVideo>.
+about-playbook-how-add-language-collecting-sentences-content-2 =
+    Du kan <sentenceCollectorLinkAdd>tilføje et mindre antal sætninger</sentenceCollectorLinkAdd>,
+    eller du kan foretage <bulkImportDocsLink>masseimporter via Github</bulkImportDocsLink>.
+    Husk at sætninger skal være <licenseLink>CC0 (eller offentligt domæne)</licenseLink>, eller du kan skrive dine egne sætninger.
+about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>Læs mere om indsamling af sætninger</sentenceCollectorFragment>.
+
+## How does localization work
+
+about-playbook-how-localize = Hvordan fungerer webstedsoversættelse?
+about-playbook-how-localize-content-1 = Oversættelse af Common Voice-webstedet sker på <strong>Ponton</strong>.
+about-playbook-how-localize-content-2 = <pontoonAccountLink>Opret en konto</pontoonAccountLink>, hvis du ikke har en. Vælg derefter dit sprog <strong>('Teams')</strong> og vælg derefter projektet, <pontoonCvLink>Common Voice</pontoonCvLink>. Der vil være filer til oversættelse. Klik på en, så viser den ord på engelsk og en boks til at oversætte dem.
+about-playbook-how-localize-content-3 = Oversættelsen er fra engelsk, men du kan se <strong>forslag</strong> på andre sprog. Klik på ikonet <strong>Profil</strong>, klik derefter på linket <strong>Settings</strong>, og tilføj eventuelle sprog, du taler. I nederste højre hjørne vil der være en liste over oversættelser kaldet <strong>Locales</strong>. Oversættelser vises på webstedet efter en dag.
+about-playbook-how-localize-content-4 = Siden er klar til at blive lanceret, når den opnår 75 % fuldførelse.
+about-playbook-how-localize-content-5 = Se vores videoforklaring for hjælp
+
+## How to add sentences
+
+about-playbook-how-add-sentences = Hvordan tilføjer jeg sætninger?
+about-playbook-how-add-sentences-content-1 = <strong>Sætnings-indsamleren</strong> er et værktøj til at indsamle og validere sætninger i det offentlige domæne. Du skal <scAccountLink>oprette en konto</scAccountLink>. Tilføj derefter dit sprog til din <strong>profil</strong>. Du kan <strong>tilføje</strong> sætninger eller <strong>gennemgå</strong> tidligere tilføjede sætninger.
+about-playbook-how-add-sentences-content-2 = Sætninger skal gennemgås og accepteres af to personer for at blive inkluderet i Common Voice. Du opretter retningslinjer for dit sprog <languageGuidelinesLink>her</languageGuidelinesLink>. Sætninger skal være i det <licenseLink>offentlige domæne</licenseLink> og være kortere end 15 ord. Du kan bede ejeren af en tekst om at gøre den til <waiverLink>CC0 ved hjælp af vores afståelsesproces</waiverLink> og sende den til os på commonvoice@mozilla.com
+about-playbook-how-add-sentences-content-3 = Du kan bruge <scraperLink>Sætningsudtrækkeren</scraperLink> til at benytte korte sætninger fra Wikipedia.
+about-playbook-how-add-sentences-content-4 = Sætninger, der er blevet valideret, eksporteres om onsdagen og er tilgængelige efter næste udgivelse.
+
+## How to record quality
+
+about-playbook-how-record-quality = Hvordan optager jeg et stemmeklip i høj kvalitet?
+about-playbook-how-record-content-1 = Tal med din normale stemme! Måden du taler på er velkommen her - vi vil have din accent, som den er, og vi vil have din sædvanlige lydstyrke, stil og intonation.
+about-playbook-how-record-content-2 = Undgå for meget baggrundsstøj – det skal være nemt at høre dig.
+about-playbook-how-record-content-3 = Læs sætningen omhyggeligt - hop ikke over ord, byt ikke ord ud og tilføj ikke nye ord.
+about-playbook-how-record-content-4 = Sørg for, at platformen optager, før du begynder at tale, og at den først stopper, når du er færdig.
+about-playbook-how-record-content-5 = <accuracyLink>Se mere om nøjagtighedskriterier.</accuracyLink>
+
+## How to grow language
+
+about-playbook-how-grow-language = Hvordan kan vi effektivt udvikle et sprog på Common Voice?
+about-playbook-how-grow-language-content-1 = Datasættet skal kunne hjælpe så mange mennesker som muligt - og det opnår vi bedst ved at sørge for, at mange forskellige mennesker kan bidrage til Common Voice. Vi har lavet ressourcer og skabeloner, du kan bruge!
+about-playbook-how-grow-language-content-2 = Begivenheder
+about-playbook-how-grow-language-content-3 = Du kan afholde begivenheder for at hjælpe folk med at bidrage. Det er nemmere end du tror. Du kan gøre det online med et videokonferenceværktøj eller personligt, hvis det er muligt. <eventTemplate>Tjek vores skabeloner og ressourcer til at køre begivenheder</eventTemplate>.
+about-playbook-how-grow-language-content-4 = Sociale medier
+about-playbook-how-grow-language-content-5 = Du kan bruge sociale medieplatforme til at få budskabet ud. Del opslag, der forklarer, hvorfor det er vigtigt, og kom i kontakt med andre, der diskuterer spørgsmål som sprogrettigheder, stemme-AI eller hvilken rolle fordomme spiller i udvikling af teknologi. Se flere råd om <campaignLink>afholdelse af sociale kampagner, inklusive indhold, du kan genbruge</campaignLink>.
+about-playbook-how-grow-language-content-6 = Partnerskaber og netværk
+about-playbook-how-grow-language-content-7 = Find andre, der interesserer sig for de samme ting. Det kunne være universiteter, sprogskoler, græsrodsbevægelser eller videnskabssamfund. Kontakt dem og forklar klart, hvordan de kan hjælpe og hvorfor. <outreachTemplates>Se vores skabeloner for opsøgende e-mails</outreachTemplates>.
+about-playbook-how-grow-language-content-8 = <strong>Vær kreativ!</strong> Dit sprogfællesskab er unikt, og dette er blot nogle få måder at komme i gang på.
+
+## How to validate
+
+about-playbook-how-validate = Hvordan ved jeg, om jeg skal godkende et stemmeklip?
+about-playbook-how-validate-content-1 = Hvis du kunne <strong>høre dem</strong> og <strong>forstå dem</strong>, er det normalt <strong>bedst at godkende</strong>.
+about-playbook-how-validate-content-2 = <strong>Afvis ikke klip, hvor indtaleren 'har en accent', der er anderledes end din egen</strong> - dette er vigtigt for, at stemmegenkendelse fungerer bedre for alle.
+about-playbook-how-validate-content-3 = Hvis du mener, at udtalen gør det <strong>umuligt at forstå</strong>, eller der er <strong>meget baggrundsstøj</strong>, eller der er <strong>andre mennesker, der også taler</strong>, så bør du afvise klippet. <accuracyLink>Se flere oplysninger i vores nøjagtighedskriterier</accuracyLink>.
+about-playbook-how-validate-content-4 = Hvis en stemmeoptagelse afvises af 2 personer, frigives det i en anden delmængde af datasættet.
+
+## How to access dataset
+
+about-playbook-how-access-dataset = Hvordan får jeg adgang til og gør brug af datasættet?
+about-playbook-how-access-dataset-content-1 = Du kan gå til <datasetsPage>oversigtssiden over datasæt</datasetsPage>, vælge den eller de ønskede versioner og sprog og downloade det! Filerne har <metadataLink>tilknyttede metadata</metadataLink>, såsom demografiske oplysninger og valideringsdata. Du skal angive en mailadresse for at downloade datasættet.
+about-playbook-how-access-dataset-content-2 = Hvis du leder efter værktøjer til at bygge ASR-modeller, kan du oprette forbindelse til andre mennesker i fællesskabet <discourseLink>på Discourse</discourseLink>.
+
+## How are decisions made
+
+about-playbook-how-project-governance = Hvordan træffes projektbeslutninger?
+about-playbook-how-project-governance-content-1 = Mozilla Common Voice er gjort mulig af et mangfoldigt fællesskab af aktivister, lingvister, datavidenskabsfolk, akademikere og softwareingeniører fra hele verden. Projektet ledes af Mozilla Foundation.
+about-playbook-how-project-governance-content-2 = Vores ledelse er baseret på:
+about-playbook-how-project-governance-content-3 = Privatliv, sikkerhed og gennemsigtighed.
+about-playbook-how-project-governance-content-4 = Fællesskabets deltagelse og beslutningstagning.
+about-playbook-how-project-governance-content-5 = Værdi og anerkendelse.
+about-playbook-how-project-governance-content-6 = Gensidig ansvarlighed.
+about-playbook-how-project-governance-content-7 = <governanceLink>Læs mere om, hvordan vi styres</governanceLink>
 
 ## Glossary
 
@@ -532,6 +709,7 @@ review-delete-recordings = Slet mine optagelser
 
 ## Datasets Page
 
+datasets-heading = Datasæt
 datasets-headline = Vi bygger et open source-datasæt af stemmer på mange forskellige sprog, som alle kan bruge til at træne taleaktiverede programmer.
 datasets-positioning =
     Vi mener, at store, offentligt tilgængelige stemme-datasæt vil give grobund for innovation og sund kommerciel konkurrence indenfor stemmeteknologier baseret på maskinlæring.
@@ -567,8 +745,11 @@ subscribe = Abonnér
 get-started-speech = Kom godt i gang med talegenkendelse
 other-datasets = Andre stemme-datasæt
 feedback-q = Har du feedback?
-deepspeech-info = Datasættet fra Common Voice supplerer Deep Speech, en open source-tjeneste til stemmegenkendelse fra Mozilla, som du kan bruge til at bygge software, der gør brug af stemmegenkendelse. Få <githubLink>overblik over projektet på Github</githubLink> eller deltag i <discourseLink>diskussionen om Deepspeech på Discourse</discourseLink> for at komme godt i gang.
-common-voice-info-new = Har du spørgsmål om Common Voice? Ideer til forbedringer eller feedback om et specifikt sprog? Deltag i vores <discourseLink>Discourse-forum</discourseLink> og fortæl os det.
+resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ er et <docsLink>open source-værktøjssæt</docsLink> til forskere, der udvikler avancerede samtale-AI-modeller.
+resource-deepspeech-info = Datasættet fra Common Voice supplerer Deep Speech, en open source-tjeneste til stemmegenkendelse fra Mozilla, som du kan bruge til at bygge software, der gør brug af stemmegenkendelse. Få <githubLink>overblik over projektet på Github</githubLink> eller deltag i <discourseLink>diskussionen om Deepspeech på Discourse</discourseLink> for at komme godt i gang.
+resource-coqui-info = <coquiLink>Coqui</coquiLink> er dedikeret til åben taleteknologi. Deres projekter omfatter deep learning-baserede STT- og TTS-motorer.
+community-playbook = Fællesskabsguide
+resource-playbook-info = <playbookLink>Find nyttig vejledning</playbookLink> om hele Common Voice-rejsen, fra oversættelse til brug af datasæt, og hvordan du bliver en del af fællesskabet.
 data-other-librispeech-description = LibriSpeech er et korpus af cirka 1000 timers engelsk tale (optaget ved 16Khz), der stammer fra lydbøger fra LibriVox-projektet.
 data-other-ted-name = TED-LIUM korpus
 data-other-ted-description = TED-LIUM korpus er lavet på baggrund af taler og deres transskriptioner fra TED's websted.
@@ -613,6 +794,47 @@ request-language-success-content = Vi kontakter dig snart med oplysninger om, hv
 select-language = Vælg et sprog...
 other-language = Andet sprog
 
+## Request Language Pages
+
+request-language-heading = Anmod om et nyt sprog
+request-language-explanation-1 =
+    Tjek, om dit sprog er angivet på
+    <languagesPageLink>oversigten over aktive sprog</languagesPageLink>.
+    Hvis ikke, udfyld denne formular, så <strong>sender vi dig en praktisk e-mail, der
+    forklarer, hvordan du får sat dit sprog op</strong>.
+request-language-explanation-2 =
+    Vi vil også fortælle <strong>vores community managere,
+    at du er interesseret</strong>, så de kan give dig den hjælp,
+     du har brug for.
+request-language-form-email =
+    .label = Din mailadresse
+request-language-form-info =
+    .label = Information om sproget
+request-language-form-info-explanation =
+    Tilføj så mange oplysninger som muligt om sproget. Dette
+    kunne omfatte:
+request-language-form-info-explanation-list-1 = Dit sprogs navn(e)
+request-language-form-info-explanation-list-2 = <isoCodeLink>ISO-koder</isoCodeLink> hvis kendt
+request-language-form-info-explanation-list-3 = Links til hjemmesider, der kan hjælpe os med at forstå sproget
+request-language-google-recaptcha-required = reCAPTCHA er påkrævet, hvis du vil fortsætte
+request-language-google-recaptcha-error = Noget gik galt med reCAPTCHA. Prøv igen.
+# Success page
+request-language-success-heading = Tak skal du have! Du har sendt en forespørgsel om et nyt sprog
+request-language-success-list-1 =
+    Du burde modtage en e-mail med en kort forklaring
+    om trinene for at få dit sprog tilføjet til Common Voice
+request-language-success-list-2 =
+    Vores community manager vil kontakte dig for at tilbyde
+    ekstra støtte og for at fortælle dig, hvis der
+    allerede findes et fællesskab, der arbejder med dit sprog
+request-language-success-list-3 =
+    Kontakt os på <emailLink>{ $email }</emailLink>,
+    hvis du ikke hører fra os inden et par dage.
+    Så vender vi tilbage til dig!
+request-language-error =
+    Vi har muligvis ikke modtaget den anmodning. Send en mail til os
+    på <emailLink>{ $email }</emailLink>, så vender vi tilbage til dig!
+
 ## Languages Overview
 
 language-section-in-progress = I gang
@@ -628,7 +850,8 @@ language-search-input =
 language-speakers = Talere
 localized = Oversat
 sentences = Sætninger
-total-hours = Validerede timer
+language-validation-hours = Timer
+language-validation-progress = Valideringsfremgang
 
 ## Contribution
 
@@ -673,13 +896,19 @@ record-abort-text = Hvis du stopper nu, så mister du din fremgang
 record-abort-submit = Indsend stemmeoptagelser
 record-abort-continue = Afslut optagelse
 record-abort-delete = Afslut og slet optagelse
-listen-instruction = { $actionType } <playIcon></playIcon> udtalte de sætningen nøjagtigt?
+listen-instruction = { $actionType } <playIcon></playIcon> Blev sætningen læst korrekt op?
 listen-again-instruction = Godt arbejde! <playIcon></playIcon> Lyt igen når du er klar
 listen-3rd-time-instruction = 2 overstået <playIcon></playIcon>, fortsæt det gode arbejde!
 listen-last-time-instruction = <playIcon></playIcon>Den sidste!
 listen-empty-state = Der er ikke flere stemmeoptagelser at validere på dette sprog...
+listen-loading-error =
+    Vi kunne ikke finde nogen lydklip, som du kan lytte til.
+    Prøv igen senere.
 speak-empty-state = Der er ikke flere sætninger at optage på dette sprog...
 speak-empty-state-cta = Bidrag med sætninger
+speak-loading-error =
+    Vi kunne ikke finde nogen sætninger, du kan indtale.
+    Prøv igen senere.
 record-button-label = Optag din stemme
 share-title-new = <bold>Hjælp os</bold> med at finde flere stemmer
 keep-track-profile = Hold styr på dine fremskridt med en profil
@@ -843,6 +1072,37 @@ why-delete-recordings =
     Kan du fortælle os, hvorfor du vil have dine optagelser slettet?
 profile-form-delete = Slet profil
 
+## Profile Download
+
+download-q = Har du brug for at downloade dine data?
+download-info = Fortæl os, hvad du vil downloade:
+download-profile-title = Profil
+download-profile-info = Inkluderer mailadresse, brugernavn og demografiske oplysninger, tilgængelige med det samme
+download-profile-size = Nogle få bytes
+download-recordings-title = Optagelser
+download-recordings-info = Indeholder mp3'er og relaterede sætninger. Kan tage lidt tid at forberede
+download-recordings-size = Typisk megabytes
+download-recordings-unavailable = Du kan ikke anmode om dine optagelser, mens en anden anmodning allerede er i gang.
+download-recently-requested = Du kan anmode om en ny udtagning af dine optagelser hver { $days }. dag.
+download-size = Størrelse
+download-selected = Valgt
+download-start = Download profildata
+download-request = Anmod om optagelser
+download-requests = Anmodninger om download af tidligere optagelser
+download-requests-info = Når du anmoder om dine optagelser, samler vi dem til en eller flere ZIP-filer. Her er dine tidligere anmodninger:
+download-request-button = Download
+download-request-title = { $created }
+download-request-description = { $clipCount } stemmeoptagelser, samlet arkivstørrelse { $size }. Udløber { $expires }.
+download-request-archive-single = Enkelt ZIP-fil, der indeholder
+download-request-archive-multiple = Opdel i { $archiveCount } ZIP-filer, der indeholder
+download-request-assembling-description = Dine filer samles. Tjek igen senere.
+download-request-refresh-button = Genindlæs
+download-request-modal-title = Download-links
+download-request-modal-description = Her er links til at downloade dine ZIP-filer.
+download-request-link-text = Zip nr. { $offset } af { $total }
+download-request-metadata-link = Sætningstekst
+download-request-link-single = Du kan også kopiere og indsætte de direkte URL'er i din foretrukne downloadmanager. De udløber om 12 timer, men du kan til enhver tid vende tilbage til denne side for at generere nye.
+
 ## Landing
 
 welcome-staff = Velkommen til medarbejdere fra { $firma }!
@@ -886,3 +1146,379 @@ demo-listen-subtitle = Klar til at bidrage?
 
 demo-dashboard-card-header = Personlige dashboards holder dig opdateret med din individuelle og fællesskabets fremskridt.
 demo-dashboard-card-body = For hvert doneret stemmeklip og hvert lydklip, der valideres, opdateres dine dashboards for at afspejle dine seneste fremskridt på hvert sprog, du bidrager til. Ja, du kan bidrage til mere end et! <br/> <br/> Brug dashboards til at spore din statistik, se hvordan du klarer dig sammen med andre i fællesskabet, og indstil daglige eller ugentlige bidragsmål.
+
+## Validation criteria
+
+contribution-criteria-nav = Kriterier
+contribution-criteria-link = Forstå bidragskriterierne
+contribution-criteria-page-title = Bidragskriterier
+contribution-criteria-page-description = Forstå, hvad du skal være opmærksom på, når du lytter til andres stemmeklip - og vær med til at gøre dine stemmeoptagelser bedre!
+contribution-for-example = for eksempel
+contribution-misreadings-title = Fejllæsninger
+contribution-misreadings-description = Når du lytter, så tjek meget omhyggeligt, at det, der er blevet optaget, er præcis det, der er blevet skrevet; afvis, hvis der er selv mindre fejl. <br />Meget almindelige fejl omfatter:
+contribution-misreadings-description-extended-list-1 = Manglende <strong>'En'/'Et'</strong> eller <strong>'Den'/Det'</strong> i begyndelsen af optagelsen.
+contribution-misreadings-description-extended-list-2 = Manglende <strong>'s'</strong> i slutningen af et ord.
+contribution-misreadings-description-extended-list-3 = Oplæsning af sammentrækninger, der faktisk ikke er der, såsom engelske "we're" i stedet for "we are", eller omvendt.
+contribution-misreadings-description-extended-list-4 = Manglende slutningen af det sidste ord ved at afbryde optagelsen for hurtigt.
+contribution-misreadings-description-extended-list-5 = Flere forsøg på at læse et ord.
+contribution-misreadings-example-1-title = De gigantiske dinosaurer i trias.
+contribution-misreadings-example-2-title = Den gigantiske dinosaur i trias.
+contribution-misreadings-example-2-explanation = [Skulle være ‘dinosaurer’]
+contribution-misreadings-example-3-title = De gigantiske dinosaurer i tri-.
+contribution-misreadings-example-3-explanation = [Optagelse afbrudt før slutningen af det sidste ord]
+contribution-misreadings-example-4-title = De gigantiske dinosaurer i trias. Ja.
+contribution-misreadings-example-4-explanation = [Der er blevet optaget mere end den påkrævede tekst]
+contribution-misreadings-example-5-title = Vi går ud for at hente kaffe.
+contribution-misreadings-example-7-title = Vi går ud for at hente noget kaffe.
+contribution-misreadings-example-7-explanation = [Intet ‘noget' i den originale tekst]
+contribution-misreadings-example-8-title = Humlebien susede forbi.
+contribution-misreadings-example-8-explanation = [Ikke matchende indhold]
+contribution-varying-pronunciations-title = Forskellige udtaler
+contribution-varying-pronunciations-description = Vær forsigtig, når du overvejer at afvise et klip, fordi du synes at oplæseren har udtalt et ord forkert, lægger trykket forkert eller tilsyneladende har overset et spørgsmålstegn. Der er mange måder at bruge sproget på - og det er ikke sikkert, at du har hørt dem alle. Husk at tænke på, at der findes mennesker, der taler anderledes end du gør.
+contribution-varying-pronunciations-description-extended = Hvis du på den anden side får indtrykket af, at oplæseren aldrig er stødt på ordet før og simpelthen gætter på, hvordan det skal udtales - så afvis optagelsen. Hvis du er usikker, så klik på knappen "Spring over".
+contribution-background-noise-title = Baggrundsstøj
+contribution-background-noise-description = Vi ønsker, at maskinlæringsalgoritmerne skal kunne håndtere forskellig baggrundsstøj, og selv relativt høje lyde kan accepteres, forudsat at de ikke forhindrer dig i at høre hele teksten. Stille baggrundsmusik er OK; musik der er så høj at det forhindrer dig i at høre hvert eneste ord, er ikke.
+contribution-background-noise-description-extended = Hvis der er udfald eller knitren i optagelsen, så afvis optagelsen - medmindre hele teksten stadig kan høres.
+contribution-background-noise-example-1-fixed-title = <strong>[Nys]</strong> De gigantiske dinosaurer i <strong>[hoste]</strong> trias.
+contribution-background-noise-example-2-fixed-title = Den gigantiske dino <strong>[hoste]</strong> trias.
+contribution-background-noise-example-2-explanation = [En del af teksten kan ikke høres]
+contribution-background-noise-example-3-fixed-title = <strong>[Knitre]</strong> kæmpe dinosaurer af <strong>[knitre]</strong> -riassic.
+contribution-background-voices-title = Baggrundsstemmer
+contribution-background-voices-description = Stille baggrundslyd er OK, men vi ønsker ikke yderligere stemmer, der kan få en maskinalgoritme til at identificere ord, der ikke er i den skrevne tekst. Hvis du kan høre forskellige ord bortset fra dem i teksten, bør klippet afvises. Typisk sker dette, hvor tv'et har været tændt, eller hvor der er en samtale i gang i nærheden.
+contribution-background-voices-description-extended = Hvis der er udfald eller knitren i optagelsen, så afvis optagelsen - medmindre hele teksten stadig kan høres.
+contribution-background-voices-example-1-title = De gigantiske dinosaurer i trias. <strong>[læst af én stemme]</strong>
+contribution-background-voices-example-1-explanation = Kommer du? <strong>[sagt af en anden]</strong>
+contribution-volume-title = Lydstyrke
+contribution-volume-description = Der vil være naturlige variationer i lydstyrken mellem oplæsere. Afvis kun, hvis lydstyrken er så høj, at den ødelægger optagelsen, eller (mere almindeligt), hvis den er så lav, at du ikke kan høre, hvad der bliver sagt uden henvisning til den skrevne tekst.
+contribution-reader-effects-title = Oplæsereffekter
+contribution-reader-effects-description = De fleste optagelser er af mennesker, der taler med deres naturlige stemme. Du kan acceptere den lejlighedsvise ikke-standardoptagelse, hvor der bliver råbt, hvisket eller åbenlyst leveret med en 'dramatisk' stemme. Afvis venligst sungne optagelser og dem, der bruger en computersyntetiseret stemme.
+contribution-just-unsure-title = Bare usikker?
+contribution-just-unsure-description = Hvis du støder på noget, som disse retningslinjer ikke dækker, bedes du stemme efter din bedste vurdering. Hvis du virkelig ikke kan beslutte dig, så brug knappen 'Spring over' og gå videre til næste optagelse.
+see-more = <chevron></chevron>Se mere
+see-less = <chevron></chevron>Se mindre
+
+# Don't rename the following section, its contents are auto-inserted based on the name. These strings are
+# automatically exported from Sentence Collector.
+# [SentenceCollector]
+
+
+## HEADER/FOOTER
+
+sc-header-home = Hjem
+sc-header-how-to = Sådan gør du
+sc-header-add = Tilføj
+sc-header-review = Gennemgang
+sc-header-rejected = Afviste sætninger
+sc-header-my = Mine sætninger
+sc-header-statistics = Statistikker
+sc-header-profile = Profil
+sc-footer-discourse = Discourse
+sc-footer-report-bugs = Rapportér fejl
+sc-footer-translate = Oversæt denne side
+sc-footer-report-copyright = Anmeld forhold om ophavsret
+sc-footer-privacy = Privatliv
+sc-footer-terms = Betingelser
+sc-footer-cookies = Cookies
+sc-login-signup-button = Log ind/Tilmeld dig
+sc-logout-button = Log ud
+
+## HOME
+
+sc-home-title = Velkommen til Common Voice Sætningsindsamler
+sc-home-intro = Sætningsindsamleren er en del af <commonVoiceLink>Common Voice</commonVoiceLink>. Værktøjet giver bidragydere mulighed for at indsamle og validere sætninger skabt af fællesskabet. Du kan også bruge dette værktøj til at importere og rydde op i små til mellemstore offentlige tekstsamlinger, du har fundet eller indsamlet. Alle sætninger skal være i det offentlige domæne. Godkendte sætninger eksporteres hver uge til Common Voice-lageret og frigives på Common Voice-webstedet ved hver ny opdatering.
+sc-home-collect-title = Indsaml sætninger
+sc-home-collect-text = Hjælp os ved at skrive eller samle sætninger, der ikke er omfattet af ophavsretten.
+sc-home-review-title = Gennemgå sætninger
+sc-home-review-text = Hjælp os ved at gennemgå sætninger for korrekthed i henhold til retningslinjerne.
+
+## GENERAL
+
+sc-languages-fetch-error = Vi kunne ikke hente tilgængelige sprog og kan ikke modtage bidrag i øjeblikket. Prøv igen senere.
+
+## HOW-TO
+
+sc-howto-title = Sådan gør du
+sc-howto-addlang-title = Tilføjelse af sprog at arbejde med
+sc-howto-addlang-text = Når du er logget ind, kan du vælge dine sprog fra profilsektionen.
+sc-howto-addsen-title = Tilføj nye sætninger
+sc-howto-addsen-item-1 = Alle sætninger, du indsender, skal være offentliggjort under licensen <wikipediaLink>Public Domain (CC-0)</wikipediaLink>. For at kunne inkludere værker, der ikke er under offentlig licens, har vi oprettet en <cc0WaiverLink>bidragsaftaleskabelon</cc0WaiverLink> for værker, hvor ophavsretsejeren gerne vil bidrage med materialet til Common Voice.
+sc-howto-addsen-item-2 = Tal. Der bør ikke være cifre i kildeteksten, fordi de kan give problemer, når de læses højt. Måden et tal læses på afhænger af kontekst og kan skabe forvirring i datasættet. For eksempel kunne tallet "2409" læses nøjagtigt som både "fireogtyve nul ni" og "to tusinde fire hundrede ni".
+sc-howto-addsen-item-3 = Forkortelser og akronymer. Forkortelser og akronymer som "USA" eller "ICE" bør undgås i kildeteksten, fordi de kan læses på en måde, der ikke stemmer overens med deres stavemåde. Derudover kan der være flere nøjagtige aflæsninger for en enkelt forkortelse. For eksempel kunne akronymet "ICE" udtales "I-C-E" eller som et enkelt ord.
+sc-howto-addsen-item-4 = Tegnsætning. Særlige symboler og tegnsætning bør kun inkluderes, når det er absolut nødvendigt. For eksempel er en apostrof inkluderet i engelske ord som "don't" og "we're" og bør inkluderes i kildeteksten, men det er usandsynligt, at du nogensinde får brug for et specielt symbol som "@" eller "#. ”
+sc-howto-addsen-item-5 = Udenlandske bogstaver. Bogstaver skal være gyldige på det sprog, der tales. For eksempel er "ж" et bogstav i det russiske alfabet, men det bruges aldrig på dansk og bør derfor aldrig forekomme i nogen dansk kildetekst.
+sc-howto-addsen-item-6 = Sprog kan have deres <validationRulesLink>egne valideringsregler</validationRulesLink> med yderligere krav. Hvis der ikke er nogen specifik valideringsfil for et sprog, bruger vi de generiske engelske regler.
+sc-howto-addsen-post-1 = Vi vil helst have sætninger, der kunne forekomme i en almindelig samtale. Selvom fonetisk mangfoldighed og forskellige ord i sætninger er vigtigt, forsøger vi at gøre det så sjovt som muligt at optage sætninger. Derfor ville det være fantastisk, hvis du kunne prøve at holde dine sætninger så naturlige og engagerende som muligt.
+sc-howto-cite-title = Sådan citeres
+sc-howto-cite-pre-1 = Det er vigtigt, at du refererer til, hvor du fandt den offentlige licens for at undgå plagiat og for at give mulighed for opfølgning på <copyrightIssuesLink>ophavsretlige spørgsmål</copyrightIssuesLink>. Her er et par måder, du kan citere værket på.
+sc-howto-cite-item-1 = Du kan inkludere webstedet, f.eks. "Common Voice - https://commonvoice.mozilla.org/"
+sc-howto-cite-item-2 = Du kan bruge akademisk referencestil, fx Harvard-stil: "Mozilla (2021) Common Voice. Tilgængelig på https://commonvoice.mozilla.org/ (Besøgt: 15. september 2021)"
+sc-howto-cite-item-3 = For tekst i det offentlige domæne, der ikke er tilgængelig online, kan du bruge akademisk referencestil, fx Harvard-stilen: "Kirsten (2021) Mine digte i offentligt domæne"
+sc-howto-review-title = Gennemgå sætninger
+sc-howto-review-subtitle = Sørg for, at sætningen opfylder følgende kriterier:
+sc-howto-review-criteria-1 = Sætningen skal være stavet korrekt.
+sc-howto-review-criteria-2 = Sætningen skal være grammatisk korrekt.
+sc-howto-review-criteria-3 = Sætningen skal kunne siges.
+sc-howto-review-criteria-4 = Hvis sætningen opfylder kriterierne, skal du klikke på knappen "Godkend".
+sc-howto-review-criteria-5 = Hvis sætningen ikke opfylder ovenstående kriterier, skal du klikke på knappen "Afvis". Hvis du er usikker på sætningen, kan du også springe den over og gå videre til den næste.
+sc-howto-review-criteria-6 = Hvis du løber tør for sætninger at gennemgå, må du meget gerne hjælpe os med at indsamle flere sætninger!
+sc-howto-findpd-title = Find eksisterende sætninger i det offentlige domæne
+sc-howto-findpd-subtitle = Søg efter dem på internettet
+sc-howto-findpd-text-2 = Husk, at vi har brug for tilladelse til at offentliggøre disse sætninger, så sørg altid for, at teksten tilhører det <wikipediaLink>offentlige domæne</wikipediaLink>. Hvis der ikke er nogen eksplicit indikation, skal du kontakte den person, som teksten tilhører, og spørge, om de vil bidrage med deres tekst til det offentlige domæne. Hvis de vil, skal du hjælpe dem med at gennemgå <cc0WaiverLink>bidragsaftale</cc0WaiverLink>-processen. Hvis de ikke ønsker at bidrage med teksten, så må du ikke bruge den tekst.
+sc-howto-findpd-tips = Her er nogle tips til at finde sætninger:
+sc-howto-findpd-tips-1 = De bedste kilder, du kan lede efter, er podcasts, transskriptioner, filmmanuskripter og alt, hvad der potentielt kan indeholde hverdagssamtaler.
+sc-howto-findpd-tips-2 = Referater, bøger og artikler udgivet af regeringer er også brugbare. Men da teksterne har en tendens til at være lidt mere formelle har de lavere prioritet.
+sc-howto-findpd-tips-3 = Desværre kan vi ikke have Wikipedia-artikler endnu. Så lad være med at kopiere ind derfra.
+sc-howto-findpd-subtitle-2 = Arbejd sammen med lokale organisationer eller enkeltpersoner
+sc-howto-findpd-partner-1 = Der er mange offentlige organisationer, der måske vil samarbejde, og som allerede har en masse tekster uden ophavsret, de kan donere. Prøv at kontakte lokale universiteter, regeringer og open source-organisationer for at tale om projektet og bede om deres hjælp.
+sc-howto-findpd-partner-2 = Erfarne lingvister kan også være til stor hjælp. Prøv at kontakte sprogvidenskabelige institutter ved dit lokale universitet (både lærere og studerende) og hør, om de kan hjælpe med at indsamle et mangfoldigt udbud af sætninger med forskellig udtale på dit sprog.
+
+## MY SENTENCES
+
+sc-my-title = Mine sætninger
+sc-my-description = Denne side giver dig et overblik over alle dine indsendte sætninger. Du kan også slette allerede indsendte sætninger, hvis det er nødvendigt, ved at markere afkrydsningsfeltet ud for sætningen, og klikke på &quot;Slet valgte sætninger&quot; nederst på siden. Fjern kun sætninger, hvis det er absolut nødvendigt, for eksempel hvis du har bemærket, at en sætning er beskyttet af ophavsret.
+sc-my-loading = Indlæser dine sætninger...
+sc-my-err-fetching = Fejl under hentning af dine sætninger. Prøv igen.
+sc-my-no-sentences = Ingen sætninger fundet!
+# Variables:
+#   $batchId (String) - A unique ID identifying the submission of sentences - sentences uploaded together all have the same batch ID
+sc-my-submission = Indsendelse: { $batchId }
+# Variables:
+#   $source (String) - Associated source the user filled out when uploading the sentence
+sc-my-source = Kilde:  { $source }
+sc-my-delete = Slet valgte sætninger
+sc-my-deleting = Sletter valgte sætninger...
+sc-my-err-failed-delete = Kunne ikke slette valgte sætninger... Prøv igen!
+
+## REJECTED
+
+sc-rejected-title = Afviste sætninger
+sc-rejected-loading = Indlæser afviste sætninger...
+sc-rejected-err-fetching = Fejl under hentning af afviste sætninger. Prøv igen.
+sc-rejected-none-found = Ingen afviste sætninger fundet!
+
+## STATS
+
+sc-stats-title = Statistikker
+sc-stats-updating = Opdaterer…
+sc-stats-error = Vi kunne ikke hente statistikkerne. Prøv igen senere.
+# Variables:
+#   $sentenceCount (Number) - Total number of sentences uploaded through Sentence Collector
+#   $languageCount (Number) - Total number of languages these sentences represent
+sc-stats-summary = Common Voice' sætnings-indsamler har indsamlet { $sentenceCount } sætninger på { $languageCount } sprog!
+
+## ADD
+
+sc-submit-err-select-lang = Vælg et sprog.
+sc-submit-err-add-sentences = Tilføj sætninger.
+sc-submit-err-add-source = Tilføj en kilde.
+sc-submit-err-confirm-pd = Bekræft, at disse sætninger er offentligt domæne.
+sc-submit-prompt =
+    .message = Sætningerne er ikke indsendt. Er du sikker på, at du vil forlade siden?
+sc-submit-title = Tilføj sætninger
+sc-submit-select-language =
+    .labelText = Vælg sprog
+sc-submit-add-sentences = Tilføj sætninger fra <wikipediaLink>offentligt domæne</wikipediaLink>
+sc-submit-ph-one-per-line =
+    .placeholder = En sætning pr. linje
+sc-submit-from-where = Hvor stammer disse <wikipediaLink>offentligt domæne</wikipediaLink>-sætninger fra?
+sc-submit-ph-read-how-to =
+    .placeholder = Læs vores 'Sådan gør du', hvis du er usikker på, hvordan du krediterer
+sc-submit-confirm = Jeg bekræfter, at disse sætninger er i <wikipediaLink>offentligt domæne</wikipediaLink>, og at jeg har tilladelse til at uploade dem.
+sc-submit-button =
+    .submitText = Indsend
+sc-submit-filtered = Sætninger, der er frasorterede, fordi de ikke lever op til kravene. (Indsend rettede versioner som nye sætninger):
+sc-submit-guidelines = Tjek venligst <howToLink>retningslinjerne</howToLink>.
+
+## ADD LANGUAGE
+
+sc-add-lang-could-not-add = Kunne ikke tilføje sprog
+sc-add-lang-sec-label = Tilføj et sprog, du vil bidrage til
+sc-add-lang-sec-button = Tilføj sprog
+sc-add-err-unexpected = Uventet svar fra server
+# Variables:
+#   $duplicates (Number) - Number of sentences which got rejected because they are duplicates
+sc-add-result =
+    { $duplicates ->
+        [0] Afgivne sætninger. { $duplicates } sætninger blev afvist som dubletter.
+        [one] Afgivne sætninger. { $duplicates } sætning blev afvist som dublet.
+       *[other] Afgivne sætninger. { $duplicates } sætninger blev afvist som dubletter.
+    }
+# Variables:
+#   $sentences (Number) - Number of sentences which failed to be saved to the database - could be several different reasons
+sc-add-err-failed =
+    { $sentences ->
+        [0] Ingen sætning mislykkedes
+        [one] 1 sætning mislykkedes
+       *[other] { $sentences } sætninger mislykkedes
+    }
+sc-add-err-submission = Indsendelsesfejl
+sc-add-lang-process-notice = Hvis dit sprog ikke er angivet her, kan du anmode om det gennem <languageProcessLink>denne proces</languageProcessLink>.
+
+## ADD SENTENCES CONFIRMATION
+
+sc-confirm-are-you-sure =
+    .message = Sætningerne er ikke indsendt. Er du sikker på, at du vil forlade siden?
+sc-confirm-sentences-title = Bekræft nye sætninger
+# Variables:
+#   $countOfSentences (Number) - Number of sentences the user has filled in the submission form
+sc-confirm-sentences-found =
+    { $countOfSentences ->
+        [0] Ingen sætning fundet.
+        [one] En sætning fundet.
+       *[other] { $countOfSentences } sætninger fundet.
+    }
+# Variables:
+#   $countOfInvalidated (Number) - Number of sentences the user rejected in the review form before submission
+sc-confirm-rejected-by-you = { $countOfInvalidated } afvist af dig
+sc-confirm-already-reviewed =
+    { $countOfReviewed ->
+        [0] Ingen sætninger er allerede gennemgået.
+        [one] En sætning er allerede gennemgået. Godt arbejde!
+       *[other] { $countOfReviewed } sætninger er allerede gennemgået. Godt arbejde!
+    }
+# Variables:
+#   $readyCount (Number) - Number of sentences ready to be uploaded
+sc-confirm-ready =
+    { $readyCount ->
+        [0] Ingen sætninger er klar til indsendelse!
+        [one] En sætning er klar til indsendelse!
+       *[other] { $readyCount } sætninger er klar til indsendelse!
+    }
+# Variables:
+#   $countOfUnreviewed (Number) - Number of sentences unreviewed before the upload
+sc-confirm-unreviewed = { $countOfUnreviewed } sætninger er ikke gennemgået. Hvis du vil, kan du også gennemgå dine sætninger nu, inden du indsender dem.
+sc-confirm-button-text = Bekræft
+sc-confirm-uploading = Sætningerne er ved at blive uploadet. Dette kan tage flere minutter afhængigt af antallet af tilføjede sætninger. Luk venligst ikke websiden.
+
+## LANGUAGE INFO
+
+sc-lang-info-title-total = I alt
+sc-lang-info-title-personal = Personlig
+# Variables:
+#   $totalSentences (Number) - Number of sentences uploaded in total for this language
+sc-lang-info-total =
+    { $totalSentences ->
+        [0] Ingen sætninger i alt.
+        [one] En sætning i alt.
+       *[other] { $totalSentences } sætninger i alt.
+    }
+# Variables:
+#   $totalInReview (Number) - Number of sentences currently in the review state for this language
+sc-lang-info-in-review =
+    { $totalInReview ->
+        [0] Ingen sætninger under gennemgang.
+        [one] En sætning under gennemgang.
+       *[other] { $totalInReview } sætninger under gennemgang.
+    }
+# Variables:
+#   $unreviewedSentencesByYou (Number) - Number of sentences the user can still review
+sc-lang-info-left-for-you =
+    { $unreviewedSentencesByYou ->
+        [0] Ingen sætninger tilbage, som du kan gennemgå.
+        [one] En sætning tilbage, som du kan gennemgå.
+       *[other] { $unreviewedSentencesByYou } sætninger tilbage, som du kan gennemgå.
+    }
+sc-lang-info-review-now = <reviewLink>Gennemse nu!</reviewLink>
+sc-lang-info-add-more = <addLink>Tilføj flere sætninger nu!</addLink>
+# Variables:
+#   $validatedSentences (Number) - Number of sentences which have been approved for this language
+sc-lang-info-validated =
+    { $validatedSentences ->
+        [0] Ingen validerede sætninger.
+        [one] En valideret sætning.
+       *[other] { $validatedSentences } validerede sætninger.
+    }
+# Variables:
+#   $rejectedSentences (Number) - Number of sentences which have been rejected for this language
+sc-lang-info-rejected =
+    { $rejectedSentences ->
+        [0] Ingen afviste sætninger.
+        [one] En afvist sætning.
+       *[other] { $rejectedSentences } afviste sætninger.
+    }
+
+## LOGIN
+
+sc-login-err-failed = Login mislykkedes
+sc-login-err-try-again = Prøv igen.
+
+## PROFILE
+
+# Variables:
+#   $username (String) - eMail address of the logged in user
+sc-profile-title = Profil: { $username }
+sc-personal-err-lang-not-found = Kunne ikke fjerne sproget; sproget blev ikke fundet
+sc-personal-err-remove = Kunne ikke fjerne sproget
+sc-personal-your-languages = Dine sprog:
+sc-personal-remove-button = fjern
+# Variables:
+#   $sentences (Number) - Number of sentences that were added by the currently logged in user for this language
+sc-personal-added-by-you = { $sentences } tilføjet af dig
+sc-personal-not-added = Du har ikke tilføjet nogen sprog endnu.
+
+## REVIEW CRITERIA
+
+sc-criteria-modal = ⓘ Kriterier for gennemgang
+sc-criteria-title = Kriterier for gennemgang
+sc-criteria-make-sure = Sørg for, at sætningen opfylder følgende kriterier:
+sc-criteria-item-1 = Sætningen skal være stavet korrekt.
+sc-criteria-item-2 = Sætningen skal være grammatisk korrekt.
+sc-criteria-item-3 = Sætningen skal kunne siges.
+sc-criteria-item-4 = Hvis sætningen opfylder kriterierne, skal du klikke på knappen &quot;Godkend&quot; til højre.
+sc-criteria-item-5-2 = Hvis sætningen ikke opfylder ovenstående kriterier, skal du klikke på knappen &quot;Afvis&quot; til venstre. Hvis du er usikker på sætningen, kan du også springe den over og gå videre til den næste.
+sc-criteria-item-6 = Hvis du løber tør for sætninger at gennemgå, må du meget gerne hjælpe os med at indsamle flere sætninger!
+
+## REVIEW
+
+sc-review-lang-not-selected = Du har ikke valgt sprog. Gå til din <profileLink>profil</profileLink> for at vælge sprog.
+sc-review-title = Gennemgå sætninger
+sc-review-loading = Indlæser sætninger...
+sc-review-select-language = Vælg et sprog for at gennemgå sætninger.
+sc-review-no-sentences = Ingen sætninger at gennemgå. <addLink>Tilføj flere sætninger nu!</addLink>
+sc-review-form-prompt =
+    .message = Gennemgåede sætninger er ikke indsendt, er du sikker?
+sc-review-form-usage = Stryg til højre for at godkende sætningen. Stryg til venstre for at afvise den. Stryg op for at springe den over. <strong>Glem ikke at indsende din gennemgang!</strong>
+# Variables:
+#   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
+sc-review-form-source = Kilde: { $sentenceSource }
+sc-review-form-button-reject = Afvis
+sc-review-form-button-skip = Spring over
+sc-review-form-button-approve = Godkend
+# Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
+sc-review-form-button-approve-shortcut = G
+# Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
+sc-review-form-button-reject-shortcut = A
+# Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
+sc-review-form-button-skip-shortcut = S
+sc-review-form-keyboard-usage-custom = Du kan også bruge tastaturgenveje: { sc-review-form-button-approve-shortcut } for at Godkende, { sc-review-form-button-reject-shortcut } for at Afvise, { sc-review-form-button-skip-shortcut } for at Springe over
+sc-review-form-button-submit =
+    .submitText = Afslut gennemgang
+# Variables:
+#   $sentences (Number) - Number of sentences the user has reviewed in this session
+sc-review-form-reviewed-message =
+    { $sentences ->
+        [0] Ingen sætninger gennemgået.
+        [one] En sætning gennemgået. Tak skal du have!
+       *[other] { $sentences } sætninger gennemgået. Tak skal du have!
+    }
+sc-review-form-review-failure = Gennemgangen kunne ikke gemmes. Prøv igen senere.
+sc-review-link = Gennemgang
+
+## SETTINGS
+
+sc-settings-title = Indstillinger
+sc-settings-ui-language = Sprog i brugerfladen
+sc-settings-reset-skipped = Nulstil oversprungne sætninger
+sc-settings-skipped-decription = Du har tidligere sprunget sætninger over, mens du gennemgik. Nulstilling af oversprungne sætninger vil vise alle oversprungne sætninger igen. Dette er uafhængigt af sproget.
+sc-settings-show-all-button = Vis alle oversprungne sætninger igen
+sc-settings-failed = Kunne ikke ændre indstillinger. Prøv igen.
+# VALIDATION
+sc-validation-number-of-words = Sætning skal indeholde mellem 1 og 14 (inklusive) ord
+sc-validation-no-numbers = Sætning bør ikke indeholde tal
+sc-validation-no-symbols = Sætning bør ikke indeholde symboler
+sc-validation-no-abbreviations = Sætning bør ikke indeholde forkortelser
+
+# [/SentenceCollector]
+
+localization-select =
+    .label = Vælg sprog/oversættelse

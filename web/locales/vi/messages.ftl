@@ -18,6 +18,8 @@ banner-error-slow-1 = Rất tiếc, Common Voice đang chạy chậm. Cảm ơn 
 banner-error-slow-2 = Chúng tôi đang nhận được rất nhiều lưu lượng truy cập và hiện đang điều tra các vấn đề.
 banner-error-slow-link = Trang trạng thái
 error-something-went-wrong = Xin lỗi, có gì đó không ổn
+error-clip-upload = Clip này không thể tải lên trong nhiều lần gần đây, thử lại?
+error-clip-upload-server = Clip này không thể tải lên trong nhiều lần gần đây tại máy chủ? Tải lại trang hoặc thử lại sau.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -40,10 +42,12 @@ ba = Bashkir
 bas = Basaa
 be = Belarut
 bg = Bulgaria
+bm = Bambara
 bn = Bengal
 br = Breton
 bs = Bosnian
 bxr = Buryat
+byv = Medumba
 ca = Catalunya
 cak = Kaqchikel
 ckb = Tiếng Soran
@@ -53,9 +57,11 @@ cs = Séc
 cv = Chuvash
 cy = Wales
 da = Đan Mạch
+dag = Dagbani
 de = Đức
 dsb = Hạ Sorb
 dv = Dhivehi
+dyu = Dioula
 el = Hy Lạp
 en = Anh
 eo = Quốc tế ngữ
@@ -75,6 +81,7 @@ gom = Goan Konkani
 ha = Hausa
 he = Do Thái
 hi = Hindi
+hil = Hiligaynon
 hr = Croatia
 hsb = Thượng Sorb
 ht = Haiti
@@ -89,6 +96,7 @@ is = Iceland
 it = Ý
 izh = Izhorian
 ja = Nhật
+jbo = Lojban
 ka = Gruzia
 kaa = Karakalpak
 kab = Kabyle
@@ -97,6 +105,7 @@ ki = Kikuyu
 kk = Kazakh
 km = Khmer
 kmr = Tiếng Kurmanji
+kn = Kannada
 knn = Konkani (Devanagari)
 ko = Hàn
 kpv = Komi-Zyria
@@ -105,6 +114,8 @@ ky = Kyrgyz
 lb = Luxembourgish
 lg = Luganda
 lij = Ligurian
+ln = Lingala
+lo = Lào
 lt = Litva
 lv = Latvia
 mai = Maithili
@@ -124,12 +135,17 @@ my = Miến Điện
 myv = Erzya
 nan-tw = Taiwanese (Minnan)
 nb-NO = Na Uy Bokmål
+nd = IsiNdebele (Bắc)
 ne-NP = Nepal
+nhe = Đông Huasteca Nahuatl
 nia = Nias
 nl = Hà Lan
 nn-NO = Na Uy Nynorsk
+nr = IsiNdebele (Nam)
+nso = Bắc Sotho
 nyn = Nyankole
 oc = Occitan
+om = Afaan Ormoo
 or = Odia
 pa-IN = Punjabi
 pap-AW = Papiamento (Aruba)
@@ -147,14 +163,18 @@ sah = Sakha
 sat = Santali (Ol Chiki)
 sc = Sardinia
 scn = Sicilian
+sdh = Southern Kurdish
 shi = Shilha
 si = Sinhala
 sk = Slovakia
 skr = Saraiki
 sl = Slovenia
+snk = Soninke
 so = Somali
 sq = Albania
 sr = Serbia
+ss = Siswati
+st = Sesotho
 sv-SE = Thụy Điển
 sw = Swahili
 syr = Syriac
@@ -166,26 +186,35 @@ ti = Tigrinya
 tig = Tigre
 tk = Turkmen
 tl = Tagalog
+tn = Setswana
 tok = Toki Pona
 tr = Thổ Nhĩ Kỳ
+ts = Xitsonga
 tt = Tatar
 tw = Twi
 ty = Tahitian
+tyv = Tuvan
 uby = Ubykh
 udm = Udmurt
 ug = Uyghur
 uk = Ukraina
 ur = Urdu
 uz = Uzbek
+ve = Tshivenda
 vec = Venetian
 vi = Việt
 vot = Votic
+wo = Wolof
+xh = Xhosa
 yi = Yiddish
 yo = Yoruba
 yue = Quảng Đông
+zgh = Tamazight
 zh-CN = Trung (Trung Quốc)
 zh-HK = Trung (Hồng Kông)
 zh-TW = Trung (Đài Loan)
+zu = Zulu
+zza = Zaza
 
 # [/]
 
@@ -197,6 +226,7 @@ speak-now = Nói ngay
 datasets = Tập dữ liệu
 languages = Ngôn ngữ
 about = Giới thiệu về chúng tôi
+partner = Đối tác
 profile = Hồ sơ
 help = Trợ giúp
 contact = Liên hệ
@@ -310,7 +340,6 @@ shortcut-discard-ongoing-recording-label = Hủy ghi âm đang diễn ra
 shortcut-submit = Quay lại
 shortcut-submit-label = Gửi đoạn thoại
 request-language-text = Chưa thấy ngôn ngữ của mình trên Common Voice?
-request-language-text-learn = Tìm hiểu cách yêu cầu nó ở đây!
 request-language-button = Yêu cầu ngôn ngữ
 
 ## ProjectStatus
@@ -365,7 +394,7 @@ why-profile-title = Tại sao phải tạo một hồ sơ?
 why-profile-text = Bằng cách cung cấp một số thông tin về bản thân bạn, dữ liệu âm thanh mà bạn gửi tới Common Voice sẽ hữu ích hơn đối với công cụ Nhận dạng giọng nói và cũng để cải thiện độ chính xác của chúng.
 dashboard = Bảng điều khiển
 build-profile = Xây dựng hồ sơ
-avatar = Ảnh đại diện
+avatar = Hình đại diện
 goals = Mục tiêu
 settings = Cài đặt
 edit-profile = Chỉnh sửa hồ sơ
@@ -377,6 +406,7 @@ why-demographic = Vì sao điều này quan trọng?
 why-demographic-explanation-2 = Dữ liệu người dùng ẩn danh như tuổi, giới tính và giọng vùng miền giúp cải thiện dữ liệu âm thanh được sử dụng để đào tạo sự chính xác của công cụ nhận dạng giọng nói. Tên người dùng và email của bạn sẽ không bao giờ được liên kết với dữ liệu đã gửi của bạn, và bạn có thể chọn đặt tên người dùng của mình ở chế độ công khai hoặc ẩn danh.
 accept-privacy = Tôi đồng ý với việc các bạn xử lý thông tin này khi các bạn giải thích trong <privacyLink>Chính sách bảo mật</privacyLink> của Mozilla
 accept-privacy-title = Chính sách riêng tư
+accept-privacy-and-terms = Tôi đồng ý với <termsLink>điều khoản</termsLink> và <privacyLink>thông báo về quyền riêng tư</privacyLink> của Common Voice
 login-identity = Nhận dạng đăng nhập
 login-signup = Đăng nhập / Đăng ký
 edit = Chỉnh sửa
@@ -402,6 +432,7 @@ gravatar_not_found = Không tìm thấy gravatar cho email của bạn
 file_too_large = Tập tin đã chọn quá lớn
 avatar-uploaded = Đã tải lên hình đại diện
 max-file-size = Tối đa { $kb }kb
+remove-avatar = Xóa hình đại diện
 
 ## Profile - Email
 
@@ -445,7 +476,9 @@ faq-why-different-speakers-a =
     Hầu hết các cơ sở dữ liệu giọng nói được đào tạo với sự biểu hiện quá mức của các nhóm nhân khẩu học nhất định, dẫn đến ưu tiên cho <articleLink>nam giới và tầng lớp trung lưu</articleLink>. Điểm nhấn và phương ngữ thường được thể hiện trong bộ dữ liệu đào tạo thường được liên kết với các nhóm người đã bị thiệt thòi. Nhiều máy cũng gặp khó khăn trong việc hiểu giọng nói của phụ nữ.
     Đây là lý do tại sao chúng tôi muốn thay đổi trong cơ sở dữ liệu lời nói của chúng tôi!
 faq-why-my-lang-q = Tại sao ngôn ngữ của tôi chưa được đưa vào?
-faq-why-my-lang-new-a = Mozilla không chọn hay ưu tiên bất kỳ ngôn ngữ nào hơn ngôn ngữ khác. Thay vào đó, Common Voice là một sáng kiến hoàn toàn dựa vào cộng đồng, nhưng cần có <multilangLink>một vài bước để thêm một ngôn ngữ mới</multilangLink> và bắt đầu thu thập giọng nói. Đầu tiên, trang web Common Voice cần được dịch để các thành viên cộng đồng có thể truy cập vào trải nghiệm của người đóng góp bằng ngôn ngữ của họ. Tiếp theo, chúng tôi cần một bộ lớn các câu không có bản quyền để mọi người đọc thành tiếng. Khi cả hai yêu cầu đó được thỏa mãn, một ngôn ngữ sẽ ra mắt trên nền tảng Common Voice để mọi người bắt đầu ghi âm giọng nói của mình và xác thực các đóng góp của người khác. Nếu bạn muốn giúp khởi chạy một ngôn ngữ mới, hãy đến <sentenceCollectorLink>công cụ thu thập câu</sentenceCollectorLink> của chúng tôi để bắt đầu.
+faq-why-my-lang-a =
+    Common Voice là một nền tảng tìm nguồn cung ứng cộng đồng và tất cả các ngôn ngữ đều do các tình nguyện viên thêm vào.
+    Chúng tôi rất muốn bạn thêm ngôn ngữ của mình! <languageRequestLink>Hỏi về cách thêm ngôn ngữ của bạn.</languageRequestLink>
 faq-what-quality-q = Mức chất lượng âm thanh nào được yêu cầu cho một đoạn thoại được sử dụng trong bộ dữ liệu?
 faq-what-quality-a = Chúng tôi muốn bộ dữ liệu Common Voice phản ánh chất lượng âm thanh mà một công cụ chuyển lời nói thành văn bản sẽ nghe thấy trong tự nhiên, vì vậy chúng tôi đang tìm kiếm sự đa dạng. Ngoài cộng đồng người nói đa dạng, bộ dữ liệu với chất lượng âm thanh khác nhau sẽ nghiên cứu cho công cụ chuyển lời nói thành văn bản để xử lý các tình huống thực tế khác nhau, từ nói chuyện nền tảng đến tiếng ồn xe hơi. Miễn là đoạn thoại của bạn dễ hiểu, nó sẽ đủ tốt cho bộ dữ liệu.
 faq-why-10k-hours-q = Tại sao 10.000 giờ được xác thực là mục tiêu cho mỗi ngôn ngữ để thu âm thanh?
@@ -515,12 +548,6 @@ about-dataset-new = Bộ dữ liệu Common Voice
 about-dataset-new-text = Bộ dữ liệu Common Voice chứa hàng trăm ngàn mẫu giọng nói giúp các nhà phát triển xây dựng các công cụ nhận dạng giọng nói.
 about-clip-graveyard = Đoạn thoại không hợp lệ
 about-clip-graveyard-text = Đoạn thoại không hợp lệ bao gồm các đoạn thoại không được đưa vào bộ dữ liệu Common Voice. Giống như tập dữ liệu, đoạn thoại không hợp lệ có sẵn để tải xuống.
-about-partners = Đối tác
-about-become-a-partner = Trở thành một đối tác
-about-partnership =
-    Common Voice là một dự án hợp tác và chúng tôi phụ thuộc vào cộng đồng đối tác và cộng tác viên của mình để xây dựng bộ dữ liệu giọng nói nguồn mở lớn nhất từ trước đến nay.
-    
-    Chúng tôi xin cảm ơn những người và tổ chức sau đây đã giúp đỡ cho dự án:
 about-get-involved = Tham gia đóng góp
 about-get-involved-text-2 =
     Bạn muốn giúp làm cho Common Voice trở nên tốt hơn?
@@ -550,9 +577,20 @@ about-playbook-what-is-language-content-3 = Một số ngôn ngữ có sự bi�
 
 about-playbook-how-add-language = Làm cách nào để thêm ngôn ngữ?
 about-playbook-how-add-language-content-1 = Trước tiên, hãy kiểm tra xem ngôn ngữ của bạn <languageLink>đã tồn tại chưa</languageLink>. Nếu không, bạn cần phải <strong>dịch trang web và thu thập các câu</strong>.
-about-playbook-how-add-language-content-2 = <strong>Để dịch trang web</strong> - <translateVideo>hãy thiết lập</translateVideo> trên <pontoonLink>Pontoon</pontoonLink>. Pontoon có rất nhiều ngôn ngữ, nhưng nếu nó không có ngôn ngữ của bạn, bạn có thể <pontoonRequestLink>yêu cầu nó</pontoonRequestLink>. Sau đó, yêu cầu <repoLink>qua GitHub</repoLink> để cung cấp dự án Common Voice cho ngôn ngữ. Xem thêm về <localizationFragment>bản dịch trang web</localizationFragment>.
-about-playbook-how-add-language-content-3 = <strong>Để thu thập câu</strong> - <scVideo>hãy thiết lập</scVideo> trên <scLink>trình thu thập câu</scLink>.
-about-playbook-how-add-language-content-4 = Bạn có thể <scLinkAdd>thêm số lượng nhỏ</scLinkAdd> các câu tại đây hoặc bạn có thể thực hiện <bulkImportDocsLink>nhập hàng loạt</bulkImportDocsLink> thông qua yêu cầu Github. Hãy nhớ rằng các câu cần phải là <licenseLink>CC0 (hoặc miền công cộng)</licenseLink>, hoặc bạn có thể viết câu của riêng mình. Xem thêm về <scFragment>bộ sưu tập câu</scFragment>.
+about-playbook-how-add-language-translating-heading = Dịch trang web
+about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Xem hướng dẫn của chúng tôi về cách sử dụng Pontoon.</translateVideoLink>
+about-playbook-how-add-language-translating-content-2 =
+    Chúng tôi sử dụng một công cụ Mozilla có tên là <pontoonLink>Pontoon</pontoonLink> để dịch. Pontoon có rất nhiều ngôn ngữ,
+    nhưng nếu nó không có ngôn ngữ của bạn, bạn có thể <pontoonRequestLink>yêu cầu thêm ngôn ngữ</pontoonRequestLink>.
+    Sau đó, để cung cấp ngôn ngữ cho dự án Common Voice,
+    <githubRepoLink>yêu cầu ngôn ngữ mới trên GitHub</githubRepoLink>. <localizationFragment>Xem thêm về bản dịch trang web</localizationFragment>.
+about-playbook-how-add-language-collecting-sentences-heading = Thu thập câu
+about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>Xem hướng dẫn của chúng tôi về cách sử dụng Trình thu thập câu </sentenceCollectorVideo>.
+about-playbook-how-add-language-collecting-sentences-content-2 =
+    Bạn có thể <sentenceCollectorLinkAdd>thêm một số câu nhỏ</sentenceCollectorLinkAdd>,
+    hoặc bạn có thể thực hiện nhập hàng loạt <bulkImportDocsLink>bằng Github</bulkImportDocsLink>.
+    Hãy nhớ rằng các câu cần phải là <licenseLink>CC0 (hoặc miền công cộng)</licenseLink>, hoặc bạn có thể viết câu của riêng mình.
+about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>Xem thêm về bộ sưu tập câu</sentenceCollectorFragment>.
 
 ## How does localization work
 
@@ -616,12 +654,6 @@ about-playbook-how-project-governance-content-4 = Sự tham gia của cộng đ�
 about-playbook-how-project-governance-content-5 = Giá trị và sự công nhận.
 about-playbook-how-project-governance-content-6 = Trách nhiệm giải trình.
 about-playbook-how-project-governance-content-7 = <governanceLink>Đọc thêm về cách chúng tôi quản lý</governanceLink>
-mycroft-title = Mycroft Ai
-mycroft-subtitle = Trí tuệ nhân tạo
-mycroft-description =
-    Mycroft là trợ lý mã nguồn mở đầu tiên trên thế giới.
-    Mycroft chạy mọi nơi - trên máy tính để bàn, bên trong ô tô hoặc trên Raspberry Pi.
-mycroft-secondary-description = Đây là phần mềm nguồn mở có thể được tự do phối lại, mở rộng và cải thiện. Mycroft có thể được sử dụng trong mọi thứ từ dự án khoa học đến ứng dụng phần mềm doanh nghiệp.
 
 ## Glossary
 
@@ -689,6 +721,9 @@ datasets-positioning =
     
     Hãy xem trang này như một trung tâm tham chiếu cho các bộ dữ liệu giọng nói nguồn mở khác và, khi Common Voice tiếp tục phát triển, một ngôi nhà cho các bản cập nhật phát hành của chúng tôi.
 language = Ngôn ngữ
+download-dataset-header = Tải xuống tập dữ liệu
+download-delta-explainer = Chúng tôi đã thực hiện một số thay đổi. Phân đoạn delta chỉ chứa các clip gần đây nhất kể từ lần phát hành cuối cùng. <deltaLink>Đọc thêm về công việc này</deltaLink>.
+download-dataset-tag = Chọn tập dữ liệu ngôn ngữ mong muốn và chọn phiên bản bạn muốn tải xuống.
 # File size in gigabytes
 size = Kích thước
 validated-hr-total = Tổng số giờ đã xác nhận
@@ -703,6 +738,7 @@ confirm-size = Bạn đã sẵn sàng để bắt đầu tải xuống <b>{ $siz
 size-gigabyte = GB
 size-megabyte = MB
 confirm-no-identify = <b>Bạn đồng ý</b> về việc không cố gắng xác định danh tính của người nói trong bộ dữ liệu Common Voice
+confirm-join-mailing-list = Tôi muốn tham gia danh sách gửi thư của Common Voice
 download-language = Tải xuống { $language }
 validated-hours = Số giờ đã xác thực
 recorded-hours = Số giờ đã ghi âm
@@ -735,6 +771,9 @@ more = Thêm
 close = Đóng
 download = Tải xuống
 dataset-version = Phiên bản
+sha256-checksum-copied = Đã sao chép Checksum SHA256!
+sha256-checksum-copied-error = Không thể sao chép Checksum SHA256
+clipboard-not-supported = Khay nhớ tạm không được hỗ trợ
 
 ## Download Modal
 
@@ -765,6 +804,46 @@ request-language-success-content = Chúng tôi sẽ giữ liên lạc với bạ
 select-language = Chọn một ngôn ngữ...
 other-language = Ngôn ngữ khác
 
+## Request Language Pages
+
+request-language-heading = Hỏi về một ngôn ngữ mới
+request-language-explanation-1 =
+    Kiểm tra xem ngôn ngữ của bạn có được liệt kê trên <languagesPageLink>trang ngôn ngữ giọng nói phổ biến</languagesPageLink>.
+    Nếu không, hãy điền vào biểu mẫu này và chúng tôi sẽ <strong>gửi cho bạn một email hữu ích
+    giải thích cách thiết lập ngôn ngữ của bạn</strong>.
+request-language-explanation-2 =
+    Chúng tôi cũng sẽ <strong>cho người quản lý cộng đồng của chúng tôi biết
+    mà bạn quan tâm</strong>, vì vậy họ có thể cung cấp cho bạn bất kỳ
+    hỗ trợ thêm hoặc thông tin bạn có thể cần.
+request-language-form-email =
+    .label = Địa chỉ email của bạn
+request-language-form-info =
+    .label = Thông tin về ngôn ngữ
+request-language-form-info-explanation =
+    Thêm càng nhiều thông tin về ngôn ngữ càng tốt. Điều này
+    có thể bao gồm:
+request-language-form-info-explanation-list-1 = Tên ngôn ngữ của bạn
+request-language-form-info-explanation-list-2 = <isoCodeLink>Mã ISO</isoCodeLink> nếu biết
+request-language-form-info-explanation-list-3 = Liên kết đến các trang web có thể giúp chúng tôi hiểu ngôn ngữ
+request-language-google-recaptcha-required = reCAPTCHA là bắt buộc nếu bạn muốn tiếp tục
+request-language-google-recaptcha-error = Đã xảy ra sự cố với reCAPTCHA. Vui lòng thử lại.
+# Success page
+request-language-success-heading = Cảm ơn bạn! Bạn đã gửi một câu hỏi về ngôn ngữ mới
+request-language-success-list-1 =
+    Bạn sẽ sớm nhận được một email giải thích
+    các bước để thêm ngôn ngữ của bạn vào Common Voice
+request-language-success-list-2 =
+    Người quản lý cộng đồng của chúng tôi sẽ liên hệ với bạn
+    để cung cấp hỗ trợ thêm và cho bạn biết nếu đã có
+    một cộng đồng làm việc trên ngôn ngữ của bạn
+request-language-success-list-3 =
+    Nếu bạn không nhận được phản hồi từ chúng tôi trong vòng vài ngày,
+    liên hệ với <emailLink>{ $email }</emailLink>
+    và chúng tôi sẽ liên hệ lại với bạn!
+request-language-error =
+    Chúng tôi có thể đã không nhận được yêu cầu đó. Vui lòng gửi email trực tiếp cho chúng tôi
+    trên <emailLink>{ $email }</emailLink> và chúng tôi sẽ liên hệ lại với bạn!
+
 ## Languages Overview
 
 language-section-in-progress = Trong tiến trình
@@ -780,7 +859,8 @@ language-search-input =
 language-speakers = Diễn giả
 localized = Bản địa hóa
 sentences = Các câu
-total-hours = Giờ đã xác thực
+language-validation-hours = Giờ
+language-validation-progress = Tiến độ xác thực
 
 ## Contribution
 
@@ -1490,7 +1570,6 @@ sc-review-link = Đánh giá
 
 sc-settings-title = Cài đặt
 sc-settings-ui-language = Ngôn ngữ giao diện
-sc-settings-language-translated-warning = Các trang cho ngôn ngữ này có thể không được dịch đầy đủ. Bạn có thể trợ giúp chúng tôi dịch <pontoonLinkLink>trên Pontoon</pontoonLinkLink>.
 sc-settings-reset-skipped = Đặt lại các câu đã bỏ qua
 sc-settings-skipped-decription =
     Bạn đã bỏ qua các câu trước đó trong khi đánh giá.
@@ -1508,3 +1587,39 @@ sc-validation-no-abbreviations = Câu không được viết tắt
 
 localization-select =
     .label = Chọn ngôn ngữ/bản địa hóa
+# PARTNERSHIPS PAGE
+partnerships-header = Quan hệ đối tác
+partnerships-header-text = Cần rất nhiều để tạo ra Common Voice! Chúng tôi không làm điều đó một mình. Muốn hợp tác với chúng tôi? Chúng tôi rất muốn nghe từ bạn.
+partnerships-get-in-touch = Giữ liên lạc
+partnerships-become-a-partner = Trở thành đối tác Common Voice
+partnerships-community-header = Cộng đồng, Sáng tạo và Xã hội dân sự
+partnerships-community-description = Cộng đồng là trái tim của Common Voice - họ đến từ khắp nơi trên thế giới, là những nhà hoạt động ngôn ngữ, nhà khoa học và nghệ sĩ. Bạn có thể tìm hiểu thêm về cách tham gia trên trang <about>Giới thiệu</about> và trong <community>Kế hoạch cộng đồng</community> của chúng tôi. Nếu bạn quan tâm đến quan hệ đối tác tổ chức sâu sắc hơn, <emailFragment>hãy liên hệ.</emailFragment>
+partnerships-foundations-header = Tổ chức
+partnerships-foundations-description = Chúng tôi làm việc với các tổ chức, xã hội dân sự và các đối tác cộng đồng để làm cho Internet trở thành một nơi lành mạnh hơn, đặc biệt tập trung vào Đông Phi. Tìm hiểu thêm về <programmaticWork>công việc lập trình</programmaticWork> của chúng tôi.
+partnerships-governments-header = Chính phủ
+partnerships-governments-description = Chúng tôi rất vui được hỗ trợ sự tham gia của khu vực công vào công nghệ, đổi mới và quyền ngôn ngữ. Nếu bạn dự định chạy một dự án hoặc chiến dịch lớn, vui lòng <emailFragment>giữ liên lạc.</emailFragment>
+partnerships-academia-header = Các trường đại học, viện hàn lâm và nhà nghiên cứu
+partnerships-academia-description = Đổi mới mở là trọng tâm của những gì chúng tôi làm. Để hợp tác nghiên cứu, thu thập dữ liệu hoặc phỏng vấn, <emailFragment>hãy liên lạc.</emailFragment>
+partnerships-small-business-header = Các doanh nghiệp nhỏ, bao gồm các công ty khởi nghiệp về công nghệ và AI
+partnerships-small-business-description = Chúng tôi luôn tìm cách lắng nghe người tiêu dùng dữ liệu về nhu cầu và bối cảnh của họ - từ việc cộng tác trên nền tảng thu thập dữ liệu để cung cấp thông tin chi tiết về tình trạng dữ liệu, chúng tôi muốn <emailFragment>lắng nghe ý kiến của bạn.</emailFragment>
+partnerships-corporates-header = Các công ty quy mô lớn và các công ty nền tảng
+partnerships-corporates-description = Nếu bạn đang muốn nói thêm về tập dữ liệu, muốn đồng đầu tư vào các kế hoạch mở rộng nền tảng hoặc tìm kiếm cơ hội cộng tác, hãy <emailFragment>cho chúng tôi biết.</emailFragment>
+partnerships-our-partners = Các đối tác của chúng tôi
+# FIRST POST SUBMISSION CTA
+first-cta-header-text = Cảm ơn bạn đã đóng góp clip giọng nói của bạn!
+first-cta-subtitle-text = Bạn có muốn chia sẻ một số thông tin về cách bạn nói?
+why-donate = Tại sao bạn lại hỏi?
+why-donate-explanation-1 = Thông tin này là tùy chọn để cung cấp - bạn chỉ nên thêm nó nếu bạn cảm thấy thoải mái. Khi chúng tôi phát hành tập dữ liệu, chúng tôi ẩn danh tất cả thông tin cá nhân và đảm bảo thông tin như tên và email của bạn không được kết nối với thông tin nhân khẩu học như tuổi hoặc giới tính.
+why-donate-explanation-2 = Để công nghệ hoạt động tốt cho mọi người, dữ liệu giúp các nhà phát triển xây dựng công nghệ cần phản ánh nhiều người khác nhau. Ví dụ: nếu chúng tôi không bao gồm bất kỳ người nói nào có giọng cụ thể, thì công nghệ sẽ không hoạt động tốt với những người có giọng đó. <learnMore>Tìm hiểu thêm về lý do tại sao siêu dữ liệu lại quan trọng.</learnMore>
+add-information-button = Thêm thông tin
+continue-speaking-button = Không, cảm ơn, tiếp tục nói
+create-profile-text = Bạn muốn lưu thông tin của bạn? <createProfile>Tạo hồ sơ</createProfile>
+thanks-for-voice-toast = Cảm ơn thông tin giọng nói của bạn
+thanks-for-voice-toast-error = Đã xảy ra lỗi khi gửi thông tin giọng nói của bạn
+# SECOND POST SUBMISSION CTA
+second-cta-header-text = Cảm ơn bạn đã đóng góp tiếng nói của bạn!
+second-cta-subtitle-text = Với một hồ sơ, bạn có thể theo dõi hoạt động của mình và kết nối với cộng đồng những người đóng góp dữ liệu giọng nói.
+already-have-an-account = Bạn đã có tài khoản? <login>Đăng nhập</login>
+create-profile-button = Tạo hồ sơ
+# IMAGE TAGS
+img-alt-success-checkmark = dấu kiểm thành công

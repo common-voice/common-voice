@@ -2,7 +2,6 @@
 
 .pill {
     border-radius: 29px;
-    box-sizing: border-box;
 
     width: 46px;
     height: 46px;
@@ -75,6 +74,7 @@
         @media (--md-up) {
             border: none;
             padding-inline-start: 6px;
+            width: 85%;
 
             &.closed {
                 padding-inline-start: 0;
@@ -98,7 +98,8 @@
     }
 
     &.open {
-        justify-content: flex-end;
+        justify-content: space-between;
+        width: 175px;
 
         @media (--sm-down) {
             width: auto;
@@ -110,7 +111,7 @@
 
         & .num {
             border: solid 1px #f5f4f3;
-            margin: 7px;
+            margin: 7px 15px 7px 7px;
             background: var(--desert-storm);
 
             @media (--md-up) {

@@ -1,88 +1,137 @@
 import {
   Localized,
+  ReactLocalization,
   withLocalization,
   WithLocalizationProps,
 } from '@fluent/react';
 import * as React from 'react';
-import { connect } from 'react-redux';
-import { BaseLanguage, InProgressLanguage, LaunchedLanguage } from 'common';
-import API from '../../../services/api';
-import { NATIVE_NAMES } from '../../../services/localization';
-import { trackLanguages } from '../../../services/tracker';
-import { Locale } from '../../../stores/locale';
-import StateTree from '../../../stores/tree';
+import { useState, useEffect } from 'react';
+import { BaseLanguage, LanguageStatistics } from 'common';
+
+import { useAPI } from '../../../hooks/store-hooks';
+import { useLocale, useNativeLocaleNames } from '../../locale-helpers';
 import URLS from '../../../urls';
 import { CloseIcon, SearchIcon } from '../../ui/icons';
-import { LinkButton, Button, Hr, StyledLink, TextButton } from '../../ui/ui';
-import LocalizationBox, { LoadingLocalizationBox } from './localization-box';
+import { LinkButton, StyledLink, TextButton } from '../../ui/ui';
+import Page from '../../ui/page';
+import PageHeading from '../../ui/page-heading';
+import PageTextContent from '../../ui/page-text-content';
 
-interface PropsFromState {
-  api: API;
-  locale: Locale.State;
+import LanguagesPageWaves from './languages-waves';
+import LanguageCard from './language-card/language-card';
+import LoadingLanguageCard from './language-card/loading-language-card';
+import GetInvolvedModal from './get-involved-modal';
+
+import './languages.css';
+
+export interface ModalOptions {
+  locale: string;
+  l10n: ReactLocalization;
 }
-
-interface Props extends PropsFromState, WithLocalizationProps {}
-
-type LanguageSection = 'in-progress' | 'launched';
-
 interface State {
-  inProgress: InProgressLanguage[];
-  filteredInProgress: InProgressLanguage[];
-  launched: LaunchedLanguage[];
-  filteredLaunched: LaunchedLanguage[];
+  isLoading: boolean;
+  inProgress: LanguageStatistics[];
+  filteredInProgress: LanguageStatistics[];
+  launched: LanguageStatistics[];
+  filteredLaunched: LanguageStatistics[];
   localeMessages: string[][];
-  selectedSection: LanguageSection;
   showAllInProgress: boolean;
   showAllLaunched: boolean;
   query: string;
+  modalOptions?: ModalOptions;
 }
 
-class LanguagesPage extends React.PureComponent<Props, State> {
-  state: State = {
+interface LanguageSearchProps {
+  inputRef: { current: HTMLInputElement };
+  query: string;
+  handleQueryChange: (event: React.ChangeEvent<HTMLInputElement>) => void;
+  handleQueryKeyDown: (event: React.KeyboardEvent<HTMLInputElement>) => void;
+  toggleSearch: () => void;
+}
+
+const LanguageSearch = ({
+  inputRef,
+  query,
+  handleQueryChange,
+  handleQueryKeyDown,
+  toggleSearch,
+}: LanguageSearchProps) => {
+  return (
+    <div className="search">
+      <Localized id="language-search-input" attrs={{ placeholder: true }}>
+        <input
+          type="text"
+          value={query}
+          onChange={handleQueryChange}
+          onKeyDown={handleQueryKeyDown}
+          ref={inputRef}
+        />
+      </Localized>
+      {query ? (
+        <TextButton onClick={toggleSearch} style={{ padding: 0 }}>
+          <CloseIcon
+            black
+            style={{
+              marginTop: 2,
+              marginRight: 8,
+              padding: 4,
+              boxSizing: 'border-box',
+            }}
+          />
+        </TextButton>
+      ) : (
+        <TextButton onClick={() => inputRef.current.focus()}>
+          <SearchIcon />
+        </TextButton>
+      )}
+    </div>
+  );
+};
+
+const LanguagesPage = ({ getString }: WithLocalizationProps) => {
+  const [locale] = useLocale();
+  const api = useAPI();
+  const inputRef = React.createRef<HTMLInputElement>();
+  const [state, setState] = useState({
+    isLoading: true,
     inProgress: [],
     filteredInProgress: [],
     launched: [],
     filteredLaunched: [],
     localeMessages: null,
-    selectedSection: 'launched',
     showAllInProgress: false,
     showAllLaunched: false,
     query: '',
-  };
+    modalOptions: null,
+  } as State);
 
-  smallSearchInputRef = React.createRef<HTMLInputElement>();
-  largeSearchInputRef = React.createRef<HTMLInputElement>();
+  const {
+    isLoading,
+    inProgress,
+    filteredInProgress,
+    launched,
+    filteredLaunched,
+    localeMessages,
+    showAllInProgress,
+    showAllLaunched,
+    query,
+    modalOptions,
+  } = state;
 
-  async componentDidMount() {
-    const { api } = this.props;
-
-    const [localeMessages, { launched, inProgress }] = await Promise.all([
+  const loadData = async () => {
+    const [localeMessages, languageStats] = await Promise.all([
       api.fetchCrossLocaleMessages(),
       api.fetchLanguageStats(),
     ]);
 
-    this.setState(
-      {
-        inProgress,
-        filteredInProgress: inProgress,
-        launched,
-        filteredLaunched: launched,
-        localeMessages,
-      },
-      this.sortLocales
-    );
-  }
+    const languageStatistics = languageStats ?? [];
 
-  componentDidUpdate({ locale }: Props) {
-    if (this.props.locale !== locale) {
-      this.sortLocales();
-    }
-  }
+    return { localeMessages, languageStatistics };
+  };
 
-  sortLocales = () => {
-    const { locale } = this.props;
-    const inProgress = this.state.inProgress.slice();
-    const launched = this.state.launched.slice();
+  const sortLocales = () => {
+    const newInProgress = inProgress.slice();
+    const newLaunched = launched.slice();
 
     function presortLanguages<T extends BaseLanguage>(
       sortFn: (l1: T, l2: T) => number
@@ -107,76 +156,67 @@ class LanguagesPage extends React.PureComponent<Props, State> {
       };
     }
 
-    inProgress.sort(
+    newInProgress.sort(
       presortLanguages((l1, l2) =>
-        l1.sentencesCount < l2.sentencesCount ||
+        l1.sentencesCount.currentCount < l2.sentencesCount.currentCount ||
         l1.localizedPercentage < l2.localizedPercentage
           ? 1
           : -1
       )
     );
-    launched.sort(
-      presortLanguages((l1, l2) => (l1.seconds < l2.seconds ? 1 : -1))
+    newLaunched.sort(
+      presortLanguages((l1, l2) =>
+        l1.validatedHours < l2.validatedHours ? 1 : -1
+      )
     );
 
-    this.setState({
-      inProgress,
-      filteredInProgress: inProgress,
-      launched,
-      filteredLaunched: launched,
-    });
+    setState(previousState => ({
+      ...previousState,
+      inProgress: newInProgress,
+      filteredInProgress: newInProgress,
+      launched: newLaunched,
+      filteredLaunched: newLaunched,
+    }));
   };
 
-  toggleShowAllInProgress = () => {
-    this.setState(state => {
-      const showAllInProgress = !state.showAllInProgress;
-      trackLanguages(
-        showAllInProgress ? 'see-more' : 'see-less',
-        this.props.locale
-      );
-      return { showAllInProgress };
-    });
+  const toggleShowAllInProgress = () => {
+    setState(previousState => ({
+      ...previousState,
+      showAllInProgress: !previousState.showAllInProgress,
+    }));
   };
 
-  toggleShowAllLaunched = () => {
-    this.setState(state => {
-      const showAllLaunched = !state.showAllLaunched;
-      trackLanguages(
-        showAllLaunched ? 'see-more' : 'see-less',
-        this.props.locale
-      );
-      return { showAllLaunched };
-    });
+  const toggleShowAllLaunched = () => {
+    setState(previousState => ({
+      ...previousState,
+      showAllLaunched: !previousState.showAllLaunched,
+    }));
   };
 
-  toggleSearch = () =>
-    this.setState(({ inProgress, launched }) => ({
-      filteredInProgress: inProgress,
-      filteredLaunched: launched,
+  const toggleSearch = () => {
+    setState(previousState => ({
+      ...previousState,
+      filteredInProgress: previousState.inProgress,
+      filteredLaunched: previousState.launched,
       query: '',
     }));
-
-  changeSection = (section: LanguageSection) => {
-    this.setState({
-      selectedSection: section,
-      showAllInProgress: false,
-      showAllLaunched: false,
-    });
   };
 
-  handleQueryChange = (event: React.ChangeEvent<HTMLInputElement>) => {
-    const { getString } = this.props;
-    const { inProgress, launched, selectedSection } = this.state;
+  const handleQueryChange = (
+    event: React.ChangeEvent<HTMLInputElement>,
+    nativeNames: any
+  ) => {
     const query = event.target.value;
 
     function filterLanguages<T>(languages: T[]): T[] {
       return query
-        ? languages.filter(({ locale }: any) => {
+        ? // eslint-disable-next-line @typescript-eslint/no-explicit-any
+          languages.filter(({ locale }: any) => {
             const q = query.toLowerCase().trim();
             return (
               locale.includes(q) ||
               getString(locale).toLowerCase().includes(q) ||
-              (NATIVE_NAMES[locale] || '').toLowerCase().includes(q)
+              (nativeNames[locale] || '').toLowerCase().includes(q)
             );
           })
         : languages;
@@ -184,247 +224,208 @@ class LanguagesPage extends React.PureComponent<Props, State> {
 
     const filteredInProgress = filterLanguages(inProgress);
     const filteredLaunched = filterLanguages(launched);
-    this.setState({
-      filteredInProgress: filteredInProgress,
-      filteredLaunched: filteredLaunched,
+
+    setState(previousState => ({
+      ...previousState,
+      filteredInProgress,
+      filteredLaunched,
       query,
-      selectedSection:
-        filteredInProgress.length == 0
-          ? 'launched'
-          : filteredLaunched.length == 0
-          ? 'in-progress'
-          : selectedSection,
-    });
+    }));
   };
 
-  handleQueryKeyDown = (event: React.KeyboardEvent<HTMLInputElement>) => {
+  const handleQueryKeyDown = (event: React.KeyboardEvent<HTMLInputElement>) => {
     if (event.key === 'Escape') {
-      this.toggleSearch();
+      toggleSearch();
     }
   };
 
-  render() {
-    const { getString } = this.props;
-    const {
-      inProgress,
-      filteredInProgress,
-      launched,
-      filteredLaunched,
-      localeMessages,
-      selectedSection,
-      showAllInProgress,
-      showAllLaunched,
-      query,
-    } = this.state;
+  const setModalOptions = (options: ModalOptions) => {
+    setState(previousState => ({
+      ...previousState,
+      modalOptions: options,
+    }));
+  };
 
-    const descriptionElems = {
-      localizationGlossaryLink: <StyledLink to={URLS.FAQ + '#localization'} />,
-      sentenceCollectionGlossaryLink: (
-        <StyledLink to={URLS.FAQ + '#sentence-collection'} />
-      ),
-      speakLink: <StyledLink to={URLS.SPEAK} />,
-      listenLink: <StyledLink to={URLS.LISTEN} />,
-    };
+  const hideModal = () => {
+    setState(previousState => ({
+      ...previousState,
+      modalOptions: null,
+    }));
+  };
 
-    const inProgressCountLabel = query ? (
-      <span className="count">({filteredInProgress.length})</span>
-    ) : (
-      ''
-    );
-    const launchedCountLabel = query ? (
-      <span className="count">({filteredLaunched.length})</span>
-    ) : (
-      ''
-    );
+  // on mount
+  useEffect(() => {
+    loadData().then(({ localeMessages, languageStatistics }) => {
+      setState(previousState => ({
+        ...previousState,
+        isLoading: false,
+        inProgress: languageStatistics.filter(
+          (lang: LanguageStatistics) => !lang.is_contributable
+        ),
+        filteredInProgress: inProgress,
+        launched: languageStatistics.filter(lang => lang.is_contributable),
+        filteredLaunched: launched,
+        localeMessages,
+      }));
+    });
+  }, []);
 
-    return (
-      <div className={'selected-' + selectedSection}>
-        <br />
+  useEffect(() => {
+    sortLocales();
+  }, [locale, isLoading]);
 
+  const descriptionElems = {
+    localizationGlossaryLink: <StyledLink to={URLS.FAQ + '#localization'} />,
+    sentenceCollectionGlossaryLink: (
+      <StyledLink to={URLS.FAQ + '#sentence-collection'} />
+    ),
+    speakLink: <StyledLink to={URLS.SPEAK} />,
+    listenLink: <StyledLink to={URLS.LISTEN} />,
+  };
+
+  const inProgressCountLabel = query && (
+    <span className="count">({filteredInProgress.length})</span>
+  );
+  const launchedCountLabel = query && (
+    <span className="count">({filteredLaunched.length})</span>
+  );
+
+  const launchedLanguages =
+    query || showAllLaunched ? filteredLaunched : filteredLaunched.slice(0, 3);
+
+  const inProgressLanguages =
+    query || showAllInProgress
+      ? filteredInProgress
+      : filteredInProgress.slice(0, 3);
+  const nativeNames = useNativeLocaleNames();
+
+  return (
+    <React.Fragment>
+      {modalOptions && (
+        <GetInvolvedModal
+          locale={modalOptions.locale}
+          l10n={modalOptions.l10n}
+          onRequestClose={() => hideModal()}
+        />
+      )}
+      <Page className="languages-page" isCentered>
+        <LanguagesPageWaves />
         <div className="top">
-          <div className="waves">
-            <img src={require('./images/_1.svg')} />
-            <img src={require('./images/_2.svg')} />
-            <img src={require('./images/_3.svg')} className="red" />
-
-            <img src={require('./images/fading.svg')} style={{ right: -5 }} />
-            <img src={require('./images/Eq.svg')} className="eq" />
-          </div>
-
+          <PageHeading>Languages</PageHeading>
           <div className="text">
             <div className="inner">
-              <h2>
+              <p>
                 <Localized id="request-language-text" />{' '}
-                <Localized id="request-language-text-learn" />
-              </h2>
-              <Localized id="request-language-button">
-                <LinkButton
-                  outline
-                  rounded
-                  blank
-                  href="https://github.com/mozilla/common-voice/blob/main/docs/LANGUAGE.md"
-                />
-              </Localized>
+              </p>
+              <LinkButton outline rounded to={URLS.LANGUAGE_REQUEST}>
+                <Localized id="request-language-button"></Localized>
+              </LinkButton>
             </div>
           </div>
         </div>
-
-        <br />
-
-        <div className="mobile-headings">
-          <Hr />
-
-          <div className="labels">
-            <h2
-              className="launched"
-              onClick={this.changeSection.bind(this, 'launched')}>
-              {getString('language-section-launched')}
-              {launchedCountLabel}
-            </h2>
-
-            <h2
-              className="in-progress"
-              onClick={this.changeSection.bind(this, 'in-progress')}>
-              {getString('language-section-in-progress')}
-              {inProgressCountLabel}
-            </h2>
-          </div>
-
-          {this.renderSearch(this.smallSearchInputRef)}
-        </div>
-
         <div className="language-sections">
           <section className="launched">
             <div className="title-and-search">
-              <h1>
-                {getString('language-section-launched')}
+              <LanguageSearch
+                inputRef={inputRef}
+                query={query}
+                handleQueryChange={e => handleQueryChange(e, nativeNames)}
+                handleQueryKeyDown={handleQueryKeyDown}
+                toggleSearch={toggleSearch}
+              />
+              <h2 className="language-sections__heading">
+                <Localized id="language-section-launched" />
                 {launchedCountLabel}
-              </h1>
-              {this.renderSearch(this.largeSearchInputRef)}
-              <Hr />
+              </h2>
             </div>
+            <PageTextContent>
+              <Localized
+                id="language-section-launched-description"
+                elems={descriptionElems}>
+                <p />
+              </Localized>
+            </PageTextContent>
+            <div className="languages-page__language-cards">
+              {isLoading && (
+                <>
+                  <LoadingLanguageCard type="launched" />
+                  <LoadingLanguageCard type="launched" />
+                  <LoadingLanguageCard type="launched" />
+                </>
+              )}
 
-            <Localized
-              id="language-section-launched-description"
-              elems={descriptionElems}>
-              <p />
-            </Localized>
-            <ul>
-              {launched.length > 0
-                ? (query || showAllLaunched
-                    ? filteredLaunched
-                    : filteredLaunched.slice(0, 3)
-                  ).map((localization, i) => (
-                    <LocalizationBox
-                      key={localization.locale}
-                      localeMessages={localeMessages}
-                      type="launched"
-                      {...localization}
-                    />
-                  ))
-                : [1, 2, 3].map((n, i) => <LoadingLocalizationBox key={i} />)}
-            </ul>
+              {!isLoading &&
+                launchedLanguages.map(language => (
+                  <LanguageCard
+                    key={language.locale}
+                    localeMessages={localeMessages}
+                    type="launched"
+                    language={language}
+                  />
+                ))}
+            </div>
 
             {!query && (
               <Localized
                 id={'languages-show-' + (showAllLaunched ? 'less' : 'more')}>
                 <button
-                  disabled={launched.length === 0}
+                  disabled={isLoading}
                   className="show-all-languages"
-                  onClick={this.toggleShowAllLaunched}
+                  onClick={toggleShowAllLaunched}
                 />
               </Localized>
             )}
           </section>
 
           <section className="in-progress">
-            <div className="md-block">
-              <div style={{ display: 'flex', flexDirection: 'row' }}>
-                <h1 style={{ marginRight: '1.5rem' }}>
-                  {getString('language-section-in-progress')}
-                  {inProgressCountLabel}
-                </h1>
-              </div>
-              <Hr />
-            </div>
+            <h2 className="language-sections__heading">
+              <Localized id="language-section-in-progress" />
+              {inProgressCountLabel}
+            </h2>
 
-            <Localized
-              id="language-section-in-progress-new-description"
-              elems={descriptionElems}>
-              <p />
-            </Localized>
-            <ul>
-              {inProgress.length > 0
-                ? (query || showAllInProgress
-                    ? filteredInProgress
-                    : filteredInProgress.slice(0, 3)
-                  ).map((localization, i) => (
-                    <LocalizationBox
-                      key={localization.locale}
-                      localeMessages={localeMessages}
-                      type="in-progress"
-                      {...localization}
-                    />
-                  ))
-                : [1, 2, 3].map(i => <LoadingLocalizationBox key={i} />)}
-            </ul>
+            <PageTextContent>
+              <Localized
+                id="language-section-in-progress-new-description"
+                elems={descriptionElems}>
+                <p />
+              </Localized>
+            </PageTextContent>
+            <div className="languages-page__language-cards">
+              {isLoading && (
+                <>
+                  <LoadingLanguageCard type="in-progress" />
+                  <LoadingLanguageCard type="in-progress" />
+                  <LoadingLanguageCard type="in-progress" />
+                </>
+              )}
+
+              {!isLoading &&
+                inProgressLanguages.map(language => (
+                  <LanguageCard
+                    key={language.locale}
+                    localeMessages={localeMessages}
+                    type="in-progress"
+                    language={language}
+                    setModalOptions={setModalOptions}
+                  />
+                ))}
+            </div>
 
             {!query && (
               <Localized
                 id={'languages-show-' + (showAllInProgress ? 'less' : 'more')}>
                 <button
-                  disabled={inProgress.length === 0}
+                  disabled={isLoading}
                   className="show-all-languages"
-                  onClick={this.toggleShowAllInProgress}
+                  onClick={toggleShowAllInProgress}
                 />
               </Localized>
             )}
           </section>
         </div>
-      </div>
-    );
-  }
+      </Page>
+    </React.Fragment>
+  );
+};
 
-  renderSearch(inputRef: { current: null | HTMLInputElement }) {
-    const { query } = this.state;
-    return (
-      <div className="search">
-        <Localized id="language-search-input" attrs={{ placeholder: true }}>
-          <input
-            type="text"
-            value={query}
-            onChange={this.handleQueryChange}
-            onKeyDown={this.handleQueryKeyDown}
-            ref={inputRef}
-          />
-        </Localized>
-        {query ? (
-          <TextButton onClick={this.toggleSearch} style={{ padding: 0 }}>
-            <CloseIcon
-              black
-              style={{
-                marginTop: 2,
-                marginRight: 8,
-                padding: 4,
-                boxSizing: 'border-box',
-              }}
-            />
-          </TextButton>
-        ) : (
-          <TextButton onClick={() => inputRef.current.focus()}>
-            <SearchIcon />
-          </TextButton>
-        )}
-      </div>
-    );
-  }
-}
-
-const mapStateToProps = ({ api, locale }: StateTree) => ({
-  api,
-  locale,
-});
-
-export default connect<PropsFromState>(mapStateToProps)(
-  withLocalization(LanguagesPage)
-);
+export default withLocalization(LanguagesPage);

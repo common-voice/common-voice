@@ -1,5 +1,6 @@
 import * as fs from 'fs';
 import { S3, SSM } from 'aws-sdk';
+import { SESClientConfig } from '@aws-sdk/client-ses';
 import { config } from 'dotenv';
 
 if (process.env.DOTENV_CONFIG_PATH) {
@@ -25,10 +26,11 @@ export type CommonVoiceConfig = {
   MYSQLREPLICAPORT?: number;
   CLIP_BUCKET_NAME: string;
   DATASET_BUCKET_NAME: string;
-  BUCKET_LOCATION: string;
+  AWS_REGION: string;
   ENVIRONMENT: string;
   RELEASE_VERSION?: string;
   SECRET: string;
+  AWS_SES_CONFIG: SESClientConfig;
   S3_CONFIG: S3.Types.ClientConfiguration;
   S3_LOCAL_DEVELOPMENT_ENDPOINT?: string;
   CINCHY_CONFIG: S3.Types.ClientConfiguration;
@@ -49,6 +51,8 @@ export type CommonVoiceConfig = {
   MAINTENANCE_MODE: boolean;
   DEBUG: boolean;
   FLAG_BUFFER_STREAM_ENABLED: boolean;
+  EMAIL_USERNAME_FROM: string;
+  EMAIL_USERNAME_TO: string;
 };
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
@@ -79,10 +83,11 @@ const BASE_CONFIG: CommonVoiceConfig = {
     'CV_DATASET_BUCKET_NAME',
     'common-voice-datasets'
   ),
-  BUCKET_LOCATION: configEntry('CV_BUCKET_LOCATION', 'us-west-2'),
   ENVIRONMENT: configEntry('CV_ENVIRONMENT', 'prod'),
   SECRET: configEntry('CV_SECRET', 'super-secure-secret'),
   ADMIN_EMAILS: configEntry('CV_ADMIN_EMAILS', null),
+  AWS_REGION: configEntry('CV_AWS_REGION', 'us-west-2'),
+  AWS_SES_CONFIG: configEntry('CV_AWS_SES_CONFIG', {}, castJson),
   S3_CONFIG: configEntry('CV_S3_CONFIG', {}, castJson),
   S3_LOCAL_DEVELOPMENT_ENDPOINT: configEntry(
     'CV_S3_LOCAL_DEVELOPMENT_ENDPOINT',
@@ -109,6 +114,8 @@ const BASE_CONFIG: CommonVoiceConfig = {
     false,
     castBoolean
   ),
+  EMAIL_USERNAME_FROM: configEntry('CV_EMAIL_USERNAME_FROM', null),
+  EMAIL_USERNAME_TO: configEntry('CV_EMAIL_USERNAME_TO', null),
 };
 
 let injectedConfig: CommonVoiceConfig;

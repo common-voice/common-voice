@@ -1,5 +1,5 @@
 import { Dispatch } from 'redux';
-import { UserClient } from 'common';
+import { UserClient, UserLanguage } from 'common';
 import { generateGUID, generateToken } from '../utility';
 import StateTree from './tree';
 
@@ -20,6 +20,7 @@ export namespace User {
 
     userClients: UserClient[];
     isFetchingAccount: boolean;
+    isSubscribedToMailingList: boolean;
     account: UserClient;
   }
 
@@ -33,6 +34,7 @@ export namespace User {
       privacyAgreed: false,
       recordTally: 0,
       validateTally: 0,
+      isSubscribedToMailingList: false,
 
       userClients: [],
       isFetchingAccount: true,
@@ -92,7 +94,12 @@ export namespace User {
         ]);
         dispatch({
           type: ActionType.UPDATE,
-          state: { account, userClients, isFetchingAccount: false },
+          state: {
+            account,
+            userClients,
+            isFetchingAccount: false,
+            isSubscribedToMailingList: Boolean(account?.basket_token),
+          },
         });
         await actions.claimLocalUser(dispatch, getState);
       },
@@ -109,6 +116,25 @@ export namespace User {
           type: ActionType.UPDATE,
           state: {
             account: await api.saveAccount(data),
+            isFetchingAccount: false,
+          },
+        });
+        await actions.claimLocalUser(dispatch, getState);
+      },
+
+    saveAnonymousAccountLanguages:
+      (data: { languages: UserLanguage[] }) =>
+      async (dispatch: Dispatch<UpdateAction>, getState: () => StateTree) => {
+        const { api } = getState();
+        dispatch({
+          type: ActionType.UPDATE,
+          state: { isFetchingAccount: true },
+        });
+
+        dispatch({
+          type: ActionType.UPDATE,
+          state: {
+            account: await api.saveAnonymousAccountLanguages(data),
             isFetchingAccount: false,
           },
         });

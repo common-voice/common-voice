@@ -1,17 +1,26 @@
 import * as React from 'react';
 import { useState, useEffect } from 'react';
-import { Localized } from '@fluent/react';
+import {
+  Localized,
+  withLocalization,
+  WithLocalizationProps,
+} from '@fluent/react';
 import classNames from 'classnames';
 
 import { useAPI } from '../../../hooks/store-hooks';
-import { BundleState } from './types';
+import useCopyToClipboard from '../../../hooks/use-copy-to-clipboard';
 import { CloudIcon } from '../../ui/icons';
 import { Button, LabeledCheckbox, LabeledInput, LinkButton } from '../../ui/ui';
+import './dataset-download-email-prompt.css';
 
-interface DownloadFormProps {
-  urlPattern: string;
-  bundleState: BundleState;
+interface DownloadFormProps extends WithLocalizationProps {
+  downloadPath: string;
   isLight?: boolean;
+  selectedLocale: string;
+  releaseId: string;
+  checksum: string;
+  size: number | string;
+  isSubscribedToMailingList: boolean;
 }
 
 interface FormState {
@@ -19,14 +28,20 @@ interface FormState {
   isEmailValid: boolean;
   confirmNoIdentify: boolean;
   confirmSize: boolean;
+  confirmJoinMailingList: boolean;
   downloadLink?: string;
   hideEmailForm: boolean;
 }
 
 const DatasetDownloadEmailPrompt = ({
-  urlPattern,
-  bundleState,
-  isLight = false,
+  downloadPath,
+  isLight,
+  selectedLocale,
+  releaseId,
+  checksum,
+  size,
+  getString,
+  isSubscribedToMailingList,
 }: DownloadFormProps) => {
   const api = useAPI();
 
@@ -35,15 +50,19 @@ const DatasetDownloadEmailPrompt = ({
     isEmailValid: false,
     confirmNoIdentify: false,
     confirmSize: false,
+    confirmJoinMailingList: false,
     downloadLink: null,
-    hideEmailForm: true,
+    hideEmailForm: false,
   } as FormState);
+
+  const [, copy] = useCopyToClipboard(getString);
 
   const {
     email,
     isEmailValid,
     confirmNoIdentify,
     confirmSize,
+    confirmJoinMailingList,
     downloadLink,
     hideEmailForm,
   } = formState;
@@ -58,18 +77,22 @@ const DatasetDownloadEmailPrompt = ({
     // disable link while we load a new one
     setFormState(prevState => ({ ...prevState, downloadLink: null }));
 
-    const key = urlPattern.replace('{locale}', bundleState.bundleLocale);
+    const key = downloadPath.replace('{locale}', selectedLocale);
     const { url } = await api.getPublicUrl(encodeURIComponent(key), 'dataset');
     return url;
   };
 
   const saveHasDownloaded = async () => {
     if (canDownloadFile) {
-      await api.saveHasDownloaded(
-        email,
-        bundleState.bundleLocale,
-        bundleState.releaseId
-      );
+      await api.saveHasDownloaded(email, selectedLocale, releaseId);
+    }
+
+    if (confirmJoinMailingList) {
+      try {
+        await api.subscribeToNewsletter(email);
+      } catch (error) {
+        console.error(error);
+      }
     }
   };
 
@@ -98,7 +121,7 @@ const DatasetDownloadEmailPrompt = ({
         downloadLink,
       }));
     });
-  }, [urlPattern, bundleState.bundleLocale]);
+  }, [downloadPath, selectedLocale]);
 
   // check if email is valid
   useEffect(() => {
@@ -122,62 +145,87 @@ const DatasetDownloadEmailPrompt = ({
         </>
       ) : (
         <>
-          <Localized id="email-input" attrs={{ label: true }}>
-            <LabeledInput
-              name="email"
-              type="email"
-              onInput={handleInputChange}
-              value={email}
+          <div className="input-group">
+            <Localized id="email-input" attrs={{ label: true }}>
+              <LabeledInput
+                name="email"
+                type="email"
+                onInput={handleInputChange}
+                value={email}
+                required
+              />
+            </Localized>
+            <LabeledCheckbox
+              label={
+                <Localized
+                  id="confirm-size"
+                  elems={{ b: <strong /> }}
+                  vars={{ size }}>
+                  <span />
+                </Localized>
+              }
+              name="confirmSize"
+              checked={confirmSize}
+              onChange={handleInputChange}
               required
             />
-          </Localized>
-          <LabeledCheckbox
-            label={
+            <LabeledCheckbox
+              label={
+                <Localized id="confirm-no-identify" elems={{ b: <strong /> }}>
+                  <span />
+                </Localized>
+              }
+              name="confirmNoIdentify"
+              checked={confirmNoIdentify}
+              onChange={handleInputChange}
+              required
+            />
+            {!isSubscribedToMailingList && (
+              <LabeledCheckbox
+                label={<Localized id="confirm-join-mailing-list" />}
+                name="confirmJoinMailingList"
+                checked={confirmJoinMailingList}
+                onChange={handleInputChange}
+              />
+            )}
+          </div>
+          <div className="input-group">
+            <LinkButton
+              role="button"
+              href={canDownloadFile ? downloadLink : null}
+              onClick={saveHasDownloaded}
+              rounded
+              blank
+              className="download-language">
               <Localized
-                id="confirm-size"
-                elems={{ b: <strong /> }}
-                vars={{ size: bundleState.size }}>
-                <span />
-              </Localized>
-            }
-            name="confirmSize"
-            checked={confirmSize}
-            onChange={handleInputChange}
-            required
-          />
-          <LabeledCheckbox
-            label={
-              <Localized id="confirm-no-identify" elems={{ b: <strong /> }}>
-                <span />
-              </Localized>
-            }
-            name="confirmNoIdentify"
-            checked={confirmNoIdentify}
-            onChange={handleInputChange}
-            required
-          />
-          <LinkButton
-            href={canDownloadFile ? downloadLink : null}
-            onClick={saveHasDownloaded}
-            rounded
-            blank
-            className="download-language">
-            <Localized
-              id="download-language"
-              vars={{ language: bundleState.language }}>
-              <span />
+                id={
+                  canDownloadFile ? 'data-bundle-button' : 'email-to-download'
+                }
+              />
+              <CloudIcon />
+            </LinkButton>
+            <Localized id="why-email" elems={{ b: <strong /> }}>
+              <p className="why-email " />
             </Localized>
-            <CloudIcon />
-          </LinkButton>
-          {bundleState.checksum && (
-            <div className="checksum">
-              <strong>sha256 checksum</strong>: {bundleState.checksum}
-            </div>
-          )}
+            {checksum && (
+              <div
+                className="checksum"
+                onClick={() => copy(checksum)}
+                onKeyDown={() => copy(checksum)}
+                role="button"
+                tabIndex={0}>
+                <strong>sha256 checksum</strong>: <p>{checksum}</p>
+              </div>
+            )}
+          </div>
         </>
       )}
     </div>
   );
 };
 
-export default DatasetDownloadEmailPrompt;
+DatasetDownloadEmailPrompt.defaultProps = {
+  isLight: false,
+};
+
+export default withLocalization(DatasetDownloadEmailPrompt);

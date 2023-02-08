@@ -4,29 +4,12 @@
             max-width: var(--wide-desktop-width);
         }
     }
-
-    #content {
-        padding: 0;
-
-        & > div {
-            max-width: none;
-
-            @media (--lg-down) {
-                padding: 0;
-            }
-        }
-    }
-
-    & footer {
-        margin-top: 0;
-    }
 }
 
 .partner-landing {
     & .partner-header {
         margin: 0 auto;
         max-width: var(--wide-desktop-width);
-        box-sizing: border-box;
 
         @media (--sm-down) {
             display: flex;

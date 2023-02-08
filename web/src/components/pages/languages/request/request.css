@@ -1,0 +1,72 @@
+.languages-request-page {
+    position: relative;
+
+    /* wave at bottom of page */
+    background-image: url('./images/background-wave.svg');
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: bottom right;
+}
+
+.languages-request-page--success {
+    /* wave at bottom of page */
+    background-image: url('./images/background-wave-success.svg');
+    background-size: 100%;
+    background-position: bottom;
+}
+
+.languages-request-page-wrapper {
+    padding: 0 var(--page-margin);
+    margin: 0 auto;
+    max-width: var(--desktop-width);
+
+    @media (--md-up) {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+    }
+}
+
+.languages-request-page__content {
+    max-width: 35em;
+}
+
+.languages-request-page__image {
+    @media (--md-up) {
+        padding-left: 2em;
+        padding-top: 10vh;
+    }
+
+    img {
+        display: block;
+        max-width: 100%;
+    }
+}
+
+.languages-request-page__content__form {
+    padding: 1em 0;
+    margin-bottom: 3em;
+
+    .labeled-form-control,
+    .labeled-checkbox {
+        margin: 2em 0;
+    }
+}
+
+.languages-request-page__content__form--changed {
+    .labeled-form-control input:not(:focus):invalid,
+    .labeled-form-control textarea:not(:focus):invalid {
+        color: red;
+        border-color: red;
+    }
+}
+
+.languages-request-page__content__form__required {
+    font-size: 0.85em;
+}
+
+.languages-request-page__content__form__text-area textarea {
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 150px;
+}

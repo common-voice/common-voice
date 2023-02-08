@@ -4,7 +4,7 @@ import { SQS, S3 } from 'aws-sdk';
 const awsDefaults = {
   signatureVersion: 'v4',
   useDualstack: true,
-  region: getConfig().BUCKET_LOCATION,
+  region: getConfig().AWS_REGION,
 };
 
 export namespace AWS {

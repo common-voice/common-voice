@@ -1,6 +1,6 @@
 .notification-pill {
     position: fixed;
-    top: 0;
+    top: 10px;
     border-radius: 29px;
     margin-top: 10px;
     padding: 7px 20px;

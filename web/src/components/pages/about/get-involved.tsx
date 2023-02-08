@@ -1,5 +1,6 @@
 import * as React from 'react';
 import { Localized } from '@fluent/react';
+import { Link } from 'react-router-dom';
 import { DiscourseLink, MatrixLink } from '../../shared/links';
 import { DiscourseIconCode, MailIcon } from '../../ui/icons';
 import RoundButton from '../../ui/round-button';
@@ -7,9 +8,12 @@ import VisuallyHidden from '../../visually-hidden/visually-hidden';
 import { SECTIONS } from './constants';
 
 import './get-involved.css';
-import PageHeading from '../../ui/page-heading';
 
-const GetInvolved: React.ComponentType = () => {
+type Props = {
+  isSubscribedToMailingList?: boolean;
+};
+
+const GetInvolved: React.FC<Props> = ({ isSubscribedToMailingList }) => {
   return (
     <>
       <img
@@ -30,27 +34,31 @@ const GetInvolved: React.ComponentType = () => {
             <h1 />
           </Localized>
 
-          <p>
-            <RoundButton>
-              <a href={`#${SECTIONS.SUBSCRIBE}`}>
-                <VisuallyHidden>
-                  <Localized id="about-stay-in-touch-button" />
-                </VisuallyHidden>
-                <MailIcon />
-              </a>
-            </RoundButton>
-            <Localized
-              id="about-stay-in-touch-text-1"
-              elems={{
-                emailFragment: <a href={`#${SECTIONS.SUBSCRIBE}`} />,
-              }}>
-              <span />
-            </Localized>
-          </p>
+          {!isSubscribedToMailingList && (
+            <p>
+              <RoundButton>
+                <Link
+                  to={`#${SECTIONS.SUBSCRIBE}`}
+                  data-testid="email-signup-button">
+                  <VisuallyHidden>
+                    <Localized id="about-stay-in-touch-button" />
+                  </VisuallyHidden>
+                  <MailIcon />
+                </Link>
+              </RoundButton>
+              <Localized
+                id="about-stay-in-touch-text-1"
+                elems={{
+                  emailFragment: <a href={`#${SECTIONS.SUBSCRIBE}`} />,
+                }}>
+                <span />
+              </Localized>
+            </p>
+          )}
 
           <p>
             <RoundButton>
-              <DiscourseLink>
+              <DiscourseLink data-testid="discourse-button">
                 <VisuallyHidden>Discourse</VisuallyHidden>
                 <DiscourseIconCode />
               </DiscourseLink>

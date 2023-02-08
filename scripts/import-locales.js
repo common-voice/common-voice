@@ -5,9 +5,7 @@ const { parse } = require('@fluent/syntax');
 const fetch = require('node-fetch');
 const { promisify } = require('util');
 const { getConfig } = require('../server/js/config-helper');
-console.log('test');
 const TRANSLATED_MIN_PROGRESS = 0.75;
-const CONTRIBUTABLE_MIN_SENTENCES = 5000;
 
 const dataPath = path.join(__dirname, '..', 'locales');
 const localeMessagesPath = path.join(__dirname, '..', 'web', 'locales');
@@ -107,11 +105,6 @@ async function importContributableLocales(locales) {
     fs.readFileSync(path.join(dataPath, 'contributable.json'), 'utf-8')
   );
   const names = fs.readdirSync(sentencesPath).filter(name => {
-    console.log(
-      'name',
-      name,
-      locales[name] && locales[name].target_sentence_count
-    );
     if (oldContributable.includes(name)) {
       return true;
     }
@@ -134,7 +127,7 @@ async function importContributableLocales(locales) {
             : count,
         0
       );
-    return count > locales[name].target_sentence_count;
+    return count > locales[name].targetSentenceCount;
   });
   saveDataJSON('contributable', names.sort());
 }
@@ -174,7 +167,7 @@ async function importLocales() {
             obj[locale.name] = {
               name: locale.name,
               id: locale.id,
-              target_sentence_count: locale.target_sentence_count,
+              targetSentenceCount: locale.target_sentence_count,
             };
             return obj;
           }, {});
@@ -185,12 +178,12 @@ async function importLocales() {
             importContributableLocales(locales),
             buildLocaleNativeNameMapping(),
           ]);
-          connection.destroy()
+          connection.destroy();
         });
     });
   } catch (error) {
     console.error(error);
-    process.exit(1)
+    process.exit(1);
   }
 }
 

@@ -63,7 +63,7 @@ const BottomRightPane = () => {
             </li>
             <li>
               <Link to={toLocaleRoute(urls.DEMO_CONTRIBUTE)}>
-                <img src={upload} alt="" />
+                <img src={upload} alt="upload" />
                 <Localized id="contribute">
                   <span />
                 </Localized>
@@ -76,7 +76,7 @@ const BottomRightPane = () => {
             <Link
               to={toLocaleRoute(urls.DEMO)}
               id="kiosk-bottom-right-pane__expanded--home">
-              <img src={home} alt="" />
+              <img src={home} alt="home" />
             </Link>
             <button
               id="kiosk-bottom-right-pane__expanded--close"

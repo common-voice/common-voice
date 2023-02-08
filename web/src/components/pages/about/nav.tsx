@@ -1,10 +1,10 @@
 import * as React from 'react';
+import { Link } from 'react-router-dom';
 import throttle from 'lodash.throttle';
 
 import cx from 'classnames';
 import { SECTIONS } from './constants';
 import { Localized } from '@fluent/react';
-import { FlagIcon, LayersIcon, BookmarkIcon, HeartIcon } from '../../ui/icons';
 
 import './nav.css';
 
@@ -13,9 +13,10 @@ interface Props {
   navType: string;
 }
 
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 const MENU_SECTIONS: any[] = [
-  [SECTIONS.HOW_IT_WORKS, LayersIcon, { className: 'i2' }],
-  [SECTIONS.PLAYBOOK, BookmarkIcon, { className: 'i3' }],
+  [SECTIONS.HOW_IT_WORKS, { className: 'i2' }],
+  [SECTIONS.PLAYBOOK, { className: 'i3' }],
 ];
 
 const Nav: React.ComponentType<Props> = React.memo((props: Props) => {
@@ -41,6 +42,7 @@ const Nav: React.ComponentType<Props> = React.memo((props: Props) => {
     };
   }, []);
 
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const parentProps: any = {
     className: cx('nav', props.navType),
   };
@@ -51,21 +53,23 @@ const Nav: React.ComponentType<Props> = React.memo((props: Props) => {
 
   return (
     <div {...parentProps}>
-      {MENU_SECTIONS.map(([key, MobileIcon, { className, ...otherProps }]) => (
-        <a
+      {MENU_SECTIONS.map(([key, { className, ...otherProps }]) => (
+        <Link
           key={key}
           className={cx('menu-item', className, {
             active: key === props.activeSection,
           })}
-          href={`#${key}`}
+          to={`#${key}`}
           {...otherProps}>
           <Localized id={`about-nav-${key}`}>
             <div className="text" />
           </Localized>
-        </a>
+        </Link>
       ))}
     </div>
   );
 });
+
+Nav.displayName = 'Nav';
 
 export default Nav;

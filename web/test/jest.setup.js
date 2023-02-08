@@ -1,4 +1,8 @@
 // jest.setup.js
-const { Crypto } = require('@peculiar/webcrypto');
 
+// mock crypto
+const { Crypto } = require('@peculiar/webcrypto');
 global.crypto = new Crypto();
+
+// ignore console.debug messages
+console.debug = () => null;

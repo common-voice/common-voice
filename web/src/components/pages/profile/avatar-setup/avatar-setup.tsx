@@ -13,7 +13,7 @@ import StateTree from '../../../../stores/tree';
 import { User } from '../../../../stores/user';
 import { Uploads } from '../../../../stores/uploads';
 import { CheckIcon, LinkIcon } from '../../../ui/icons';
-import { Spinner } from '../../../ui/ui';
+import { Avatar, Button, Spinner } from '../../../ui/ui';
 
 import './avatar-setup.css';
 
@@ -140,12 +140,16 @@ class AvatarSetup extends React.Component<Props, State> {
       trackProfile('give-avatar', locale);
     } catch (e) {
       if (e.message.includes('too_large')) {
-        addNotification(getString('file_' + e.message));
+        addNotification(getString('file_' + e.message), 'error');
       } else {
-        addNotification(e.message);
+        addNotification(e.message, 'error');
       }
+      this.setState({
+        isSaving: false,
+      });
     }
   }
+
   async getPolling() {
     const { jobId } = this.state;
     const { api, refreshUser } = this.props;
@@ -182,7 +186,32 @@ class AvatarSetup extends React.Component<Props, State> {
         {account.avatar_url && (
           <div className="avatar-current">
             <div className="avatar-wrap">
-              <img src={account.avatar_url} />
+              <img src={account.avatar_url} alt="avatar" />
+            </div>
+            <Button
+              outline
+              rounded
+              style={{ marginTop: '10px' }}
+              onClick={async () => {
+                this.setState({ isSaving: true });
+                const { error } = await api.saveAvatar('default');
+                if (['not_found'].includes(error)) {
+                  addNotification(getString('gravatar_' + error));
+                }
+
+                if (!error) {
+                  refreshUser();
+                }
+                this.setState({ isSaving: false });
+              }}>
+              <Localized id="remove-avatar" />
+            </Button>
+          </div>
+        )}
+        {!account.avatar_url && (
+          <div className="avatar-current">
+            <div className="avatar-wrap">
+              <Avatar />
             </div>
           </div>
         )}
@@ -235,9 +264,7 @@ class AvatarSetup extends React.Component<Props, State> {
               }
               this.setState({ isSaving: false });
             }}>
-            <Localized id="connect-gravatar">
-              <span />
-            </Localized>{' '}
+            <Localized id="connect-gravatar" />{' '}
             {avatarType == 'gravatar' ? (
               <CheckIcon className="check" />
             ) : (

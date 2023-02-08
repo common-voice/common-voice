@@ -1,114 +1,121 @@
 import * as request from 'request-promise-native';
-import { LanguageStats, Sentence } from 'common';
+import { GenericStatistic, Language, Sentence } from 'common';
 import DB from './model/db';
 import { DBClip } from './model/db/tables/clip-table';
 import lazyCache from './lazy-cache';
+import { secondsToHours } from './utils/secondsToHours';
 
-const locales = require('locales/all.json') as string[];
-const contributableLocales = require('locales/contributable.json') as string[];
-
-// based on the latest dataset
-const AVG_CLIP_SECONDS = 4.896;
+// TODO: Retrieve average clip data from database (datasets/locale_datasets tables)
+const AVG_CLIP_SECONDS = 4.694;
 const AVG_CLIP_SECONDS_PER_LOCALE: { [locale: string]: number } = {
-  en: 5.142,
-  fa: 4.019,
-  fr: 4.983,
-  es: 5.036,
-  sl: 3.868,
-  kab: 3.325,
-  cy: 4.828,
-  ca: 5.432,
-  de: 5.125,
-  tt: 3.739,
-  ta: 6.218,
-  ru: 5.232,
-  nl: 4.291,
-  it: 5.349,
-  eu: 5.187,
-  tr: 3.706,
-  ar: 4.17,
-  'zh-TW': 3.241,
-  br: 3.075,
-  pt: 4.226,
-  eo: 5.371,
-  'zh-CN': 5.238,
-  id: 4.066,
-  ia: 4.176,
-  lv: 3.409,
-  ja: 4.765,
+  en: 5.146,
+  eu: 5.19,
+  tr: 3.694,
+  ar: 4.169,
+  'zh-TW': 3.249,
+  br: 3.076,
+  pt: 4.198,
+  eo: 6.068,
+  'zh-CN': 5.181,
+  id: 4.065,
+  ia: 4.178,
+  lv: 3.41,
+  ja: 4.781,
   rw: 5.008,
-  'sv-SE': 3.936,
+  'sv-SE': 3.946,
   cnh: 3.564,
-  et: 6.74,
-  ky: 4.544,
-  ro: 3.957,
+  et: 6.759,
+  ky: 4.542,
+  ro: 3.961,
   hsb: 6.101,
-  el: 4.124,
-  cs: 4.319,
-  pl: 4.457,
-  'rm-sursilv': 5.507,
-  'rm-vallader': 5.791,
-  mn: 5.468,
-  'zh-HK': 4.236,
-  ab: 5.127,
-  cv: 4.985,
-  uk: 4.853,
-  mt: 4.736,
-  as: 5.304,
-  ka: 5.362,
+  el: 4.126,
+  cs: 4.332,
+  pl: 4.469,
+  'rm-sursilv': 5.484,
+  'rm-vallader': 5.807,
+  mn: 5.475,
+  'zh-HK': 4.224,
+  ab: 5.125,
+  cv: 5.006,
+  uk: 4.827,
+  mt: 4.737,
+  as: 5.307,
+  ka: 5.338,
   'fy-NL': 4.977,
   dv: 5.042,
-  'pa-IN': 4.802,
-  vi: 3.968,
-  or: 5.053,
+  'pa-IN': 4.826,
+  vi: 3.97,
+  or: 5.047,
   'ga-IE': 3.527,
   fi: 4.549,
-  hu: 4.9,
-  th: 4.264,
+  hu: 4.909,
+  th: 4.183,
   lt: 5.156,
   lg: 5.806,
-  hi: 4.749,
-  bas: 4.403,
-  sk: 4,
-  kmr: 4.422,
-  bg: 5.499,
-  kk: 5.022,
-  ba: 4.425,
-  gl: 4.808,
-  ug: 6.032,
-  'hy-AM': 6.138,
-  be: 4.8,
-  ur: 4.19,
-  gn: 4.422,
-  sr: 2.829,
-  uz: 4.022,
-  mr: 5.76,
-  da: 4.355,
+  hi: 4.787,
+  bas: 4.429,
+  sk: 4.001,
+  kmr: 4.423,
+  bg: 5.504,
+  kk: 5.004,
+  ba: 4.426,
+  gl: 4.824,
+  ug: 6.031,
+  'hy-AM': 6.113,
+  be: 4.761,
+  ur: 4.23,
+  gn: 4.38,
+  sr: 2.834,
+  uz: 4.04,
+  mr: 6.149,
+  da: 4.323,
   myv: 5.718,
-  'nn-NO': 4.739,
-  ha: 4.336,
-  ckb: 3.833,
-  ml: 4.082,
-  mdf: 5.289,
-  sw: 5.3,
-  sat: 5.087,
-  sah: 5.993,
+  'nn-NO': 4.512,
+  ha: 4.339,
+  ckb: 3.791,
+  ml: 4.097,
+  mdf: 5.285,
+  sw: 5.35,
+  sat: 4.983,
+  tig: 4.112,
+  ig: 5.452,
+  'nan-tw': 2.679,
+  mhr: 4.812,
+  bn: 6.222,
+  tok: 3.557,
+  yue: 4.279,
+  sah: 5.996,
+  fa: 4.01,
+  fr: 4.988,
+  es: 5.042,
+  sl: 3.851,
+  kab: 3.325,
+  cy: 4.839,
+  ca: 5.592,
+  de: 5.14,
+  tt: 3.744,
+  ta: 6.199,
+  ru: 5.172,
+  nl: 4.305,
+  it: 5.35,
   vot: 2.408,
-  az: 5.362,
-  mk: 4.973,
-  ig: 6.494,
+  az: 5.597,
+  mk: 5.028,
 };
 
-const getAvgSecondsPerClip = (locale: string) =>
+const getAverageSecondsPerClip = (locale: string) =>
   AVG_CLIP_SECONDS_PER_LOCALE[locale] || AVG_CLIP_SECONDS;
 
-function fetchLocalizedPercentagesByLocale() {
+// TODO: Update startup script to save % and retreive from database
+function fetchLocalizedPercentagesByLocale(): Promise<any> {
   return request({
     uri: 'https://pontoon.mozilla.org/graphql?query={project(slug:%22common-voice%22){localizations{totalStrings,approvedStrings,locale{code}}}}',
     method: 'GET',
     json: true,
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
   }).then(({ data }: any) =>
     data.project.localizations.reduce(
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
       (obj: { [locale: string]: number }, l: any) => {
         obj[l.locale.code] = Math.round(
           (100 * l.approvedStrings) / l.totalStrings
@@ -119,8 +126,10 @@ function fetchLocalizedPercentagesByLocale() {
     )
   );
 }
+
 const MINUTE = 1000 * 60;
 const DAY = MINUTE * 60 * 24;
+
 /**
  * The Model loads all clip and user data into memory for quick access.
  */
@@ -181,80 +190,113 @@ export default class Model {
     original_sentence_id: string;
     path: string;
     sentence: string;
+    duration: number;
   }) {
     await this.db.saveClip(clipData);
   }
 
-  getValidatedHours = lazyCache(
-    'validated-hours',
-    async () => {
-      const english = (await this.db.getValidClipCount(['en']))[0];
-      return Math.round(
-        ((english ? english.count : 0) * getAvgSecondsPerClip('en')) / 3600
-      );
+  getLanguages = lazyCache(
+    'get-all-languages-with-sentence-count',
+    async (): Promise<Language[]> => {
+      return await this.db.getLanguages();
+    },
+    1
+  );
+
+  getAllLanguages = lazyCache(
+    'get-all-languages-with-metadata',
+    async (): Promise<any[]> => {
+      const languages = await this.db.getAllLanguages();
+      return languages;
     },
     DAY
   );
 
-  getLanguageStats = lazyCache(
-    'language-stats',
-    async (): Promise<LanguageStats> => {
-      const inProgressLocales = locales.filter(
-        locale => !contributableLocales.includes(locale)
-      );
+  getAllDatasets = lazyCache(
+    `get-all-datasets-with-release-types`,
+    async (releaseType: string): Promise<any[]> => {
+      return await this.db.getAllDatasets(releaseType);
+    },
+    DAY
+  );
 
-      function indexCountByLocale(
-        rows: { locale: string; count: number; target_sentence_count: number }[]
-      ): {
-        [locale: string]: number;
-      } {
-        return rows.reduce(
-          (
-            obj: { [locale: string]: any },
-            { count, locale, target_sentence_count }: any
-          ) => {
-            obj[locale] = {
-              current_count: count,
-              target_sentence_count: target_sentence_count,
-            };
-            return obj;
-          },
-          {}
-        );
-      }
+  getLanguageDatasetStats = lazyCache(
+    'get-language-datasets',
+    async (languageCode: string): Promise<any[]> => {
+      return await this.db.getLanguageDatasetStats(languageCode);
+    },
+    DAY
+  );
+
+  getAllLanguagesWithDatasets = lazyCache(
+    'get-all-languages-datasets',
+    async (): Promise<any[]> => {
+      return await this.db.getAllLanguagesWithDatasets();
+    },
+    DAY
+  );
+
+  getLocalizedPercentages = lazyCache(
+    'get-localized-percentages',
+    async (): Promise<any> => fetchLocalizedPercentagesByLocale(),
+    DAY
+  );
+
+  getLanguageStats = lazyCache(
+    'get-all-language-stats',
+    async (): Promise<any> => {
+      const languages = await this.db.getLanguages();
+      const allLanguageIds = languages.map(language => language.id);
+
+      const statsReducer = (langStats: GenericStatistic[]) => {
+        return langStats.reduce((obj: any, stat: GenericStatistic) => {
+          obj[stat.locale_id] = stat.count;
+          return obj;
+        }, {});
+      };
 
       const [
         localizedPercentages,
-        sentenceCounts,
         validClipsCounts,
         speakerCounts,
+        allClipsCount,
       ] = await Promise.all([
-        fetchLocalizedPercentagesByLocale(),
+        this.getLocalizedPercentages(), //translation %, no en
         this.db
-          .getSentenceCountByLocale(inProgressLocales)
-          .then(indexCountByLocale),
+          .getValidClipCount(allLanguageIds)
+          .then(data => statsReducer(data)),
         this.db
-          .getValidClipCount(contributableLocales)
-          .then(indexCountByLocale),
-        this.db.getSpeakerCount(contributableLocales).then(indexCountByLocale),
+          .getTotalUniqueSpeakerCount(allLanguageIds)
+          .then(data => statsReducer(data)),
+        this.db
+          .getAllClipCount(allLanguageIds)
+          .then(data => statsReducer(data)),
       ]);
 
-      return {
-        inProgress: inProgressLocales.map(locale => ({
-          locale,
-          localizedPercentage: localizedPercentages[locale] || 0,
-          sentencesCount: sentenceCounts[locale] || 0,
-        })),
-        launched: contributableLocales.map(locale => ({
-          locale,
-          seconds: Math.floor(
-            (validClipsCounts[locale] || 0) * getAvgSecondsPerClip(locale)
-          ),
-          speakers: speakerCounts[locale] || 0,
-        })),
-      };
+      // map over every lang in db
+      const languageStats = languages.map(lang => {
+        const totalSecDur =
+          getAverageSecondsPerClip(lang.name) * (allClipsCount[lang.id] || 0);
+        const validSecDur =
+          getAverageSecondsPerClip(lang.name) *
+          (validClipsCounts[lang.id] || 0);
+
+        // default to zero if stats not in db
+        const currentLangStat = {
+          ...lang,
+          localizedPercentage: localizedPercentages[lang.name] || 0,
+          recordedHours: secondsToHours(totalSecDur),
+          validatedHours: secondsToHours(validSecDur),
+          speakersCount: speakerCounts[lang.id] || 0,
+          locale: lang.name,
+        };
+        delete currentLangStat.name;
+        return currentLangStat;
+      });
+
+      return languageStats;
     },
-    DAY
+    DAY / 2
   );
 
   getClipsStats = lazyCache(
@@ -262,8 +304,8 @@ export default class Model {
     async (locale: string) =>
       (await this.db.getClipsStats(locale)).map(stat => ({
         ...stat,
-        total: Math.round(stat.total * getAvgSecondsPerClip(locale)),
-        valid: Math.round(stat.valid * getAvgSecondsPerClip(locale)),
+        total: Math.round(stat.total * getAverageSecondsPerClip(locale)),
+        valid: Math.round(stat.valid * getAverageSecondsPerClip(locale)),
       })),
     DAY / 2
   );

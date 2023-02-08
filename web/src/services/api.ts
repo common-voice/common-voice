@@ -1,8 +1,16 @@
-import { AllGoals, CustomGoalParams } from 'common';
-import { LanguageStats } from 'common';
-import { UserClient } from 'common';
-import { WeeklyChallenge, Challenge, TeamChallenge } from 'common';
-import { Sentence, Clip } from 'common';
+import {
+  AllGoals,
+  CustomGoalParams,
+  LanguageStatistics,
+  Language,
+  UserClient,
+  WeeklyChallenge,
+  Challenge,
+  TeamChallenge,
+  Sentence,
+  Clip,
+  UserLanguage,
+} from 'common';
 import { Locale } from '../stores/locale';
 import { User } from '../stores/user';
 import { USER_KEY } from '../stores/root';
@@ -13,7 +21,7 @@ interface FetchOptions {
   headers?: {
     [headerName: string]: string;
   };
-  body?: any;
+  body?: any; // eslint-disable-line @typescript-eslint/no-explicit-any
 }
 
 interface Vote extends Event {
@@ -40,6 +48,7 @@ export default class API {
     this.user = user;
   }
 
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   private async fetch(path: string, options: FetchOptions = {}): Promise<any> {
     const { method, headers, body, isJSON } = Object.assign(
       {
@@ -140,10 +149,6 @@ export default class API {
     });
   }
 
-  fetchValidatedHours(): Promise<number> {
-    return this.fetch(this.getClipPath() + '/validated_hours');
-  }
-
   fetchDailyClipsCount(): Promise<number> {
     return this.fetch(this.getClipPath() + '/daily_count');
   }
@@ -175,8 +180,12 @@ export default class API {
     });
   }
 
-  async fetchLanguageStats(): Promise<LanguageStats> {
-    return this.fetch(`${API_PATH}/language_stats`);
+  async fetchAllLanguages(): Promise<Language[]> {
+    return this.fetch(`${API_PATH}/languages`);
+  }
+
+  async fetchLanguageStats(): Promise<LanguageStatistics[]> {
+    return this.fetch(`${API_PATH}/stats/languages`);
   }
 
   fetchDocument(
@@ -242,6 +251,15 @@ export default class API {
 
   saveAccount(data: UserClient): Promise<UserClient> {
     return this.fetch(API_PATH + '/user_client', {
+      method: 'PATCH',
+      body: data,
+    });
+  }
+
+  saveAnonymousAccountLanguages(data: {
+    languages: UserLanguage[];
+  }): Promise<UserClient> {
+    return this.fetch(`${API_PATH}/anonymous_user`, {
       method: 'PATCH',
       body: data,
     });
@@ -355,6 +373,7 @@ export default class API {
     );
   }
 
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   report(body: any) {
     return this.fetch(API_PATH + '/reports', {
       method: 'POST',
@@ -475,5 +494,36 @@ export default class API {
 
   getVariants(lang?: string) {
     return this.fetch(`${API_PATH}/language/variants${lang ? '/' + lang : ''}`);
+  }
+
+  getDatasets(releaseType: string) {
+    const query = releaseType ? `?releaseType=${releaseType}` : '';
+    return this.fetch(`${API_PATH}/datasets${query ? query : ''}`);
+  }
+
+  getLanguagesWithDatasets() {
+    return this.fetch(`${API_PATH}/datasets/languages`);
+  }
+
+  getLanguageDatasetStats(languageCode: string) {
+    return this.fetch(`${API_PATH}/datasets/languages/${languageCode}`);
+  }
+  async sendLanguageRequest({
+    email,
+    languageInfo,
+    languageLocale,
+  }: {
+    email: string;
+    languageInfo: string;
+    languageLocale: string;
+  }) {
+    return this.fetch(`${API_PATH}/language/request`, {
+      method: 'POST',
+      body: {
+        email,
+        languageInfo,
+        languageLocale,
+      },
+    });
   }
 }

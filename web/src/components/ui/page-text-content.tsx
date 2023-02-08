@@ -7,7 +7,7 @@ interface Props {
 }
 
 const PageTextContent = ({ children }: Props) => {
-  return <div className="page-content">{children}</div>;
+  return <div className="page-text-content">{children}</div>;
 };
 
 export default PageTextContent;

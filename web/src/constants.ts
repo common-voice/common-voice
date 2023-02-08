@@ -19,3 +19,6 @@ export const WHATS_PUBLIC = [
   'demographic-deidentified-clarity-2',
   'username-email-not-demographic',
 ];
+
+// @TODO: use this constant in other files where we use this email
+export const COMMON_VOICE_EMAIL = 'commonvoice@mozilla.com';

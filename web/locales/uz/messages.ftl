@@ -3,7 +3,7 @@
 yes-receive-emails = Xabarlar yuborib turilishiga roziman. “Common Voice” loyihasi haqida koʻproq bilishni istayman.
 stayintouch = Mozilla ovoz texnologiyasi boʻyicha butun dunyo tillari jamoalarini tuzmoqda. Yangiliklar, yangi maʼlumot manbalari va bu maʼlumotlardan qanday foydalanish boʻyicha koʻrsatmalarni sizga yuborib turamiz.
 privacy-info = Biz maʼlumotlaringizni ehtiyot qilamiz. <privacyLink>Maxfiylik siyosati</privacyLink> haqidagi maʼlumotlarni oʻqib chiqing.
-return-to-cv = Common Voiceʼga qaytish
+return-to-cv = Common Voice loyihasiga qaytish
 email-input =
     .label = Email
 submit-form-action = Yuborish
@@ -230,7 +230,7 @@ listen-goal-text = Kliplar tekshirildi
 hours-recorded = Yozilgan soatlar
 hours-validated = Tekshirilgan soatlar
 voices-online = Joriy qaydlar
-todays-progress = Bugungi o'zgarish
+todays-progress = Bugungi natija
 help-reach-goal = { $goal } ga yetishga yordam bering
 read-terms-q = Shartlarimiz bilan tanishdingizmi?
 ready-to-record = Ovozingiz bilan hissa qo‘shishga tayyormisiz?
@@ -306,7 +306,6 @@ shortcut-discard-ongoing-recording-label = Joriy yozishni bekor qilish
 shortcut-submit = Joʻnatish
 shortcut-submit-label = Ovozni yuborish
 request-language-text = Common Voice loyihasida ona tilingizni koʻrmayapsizmi?
-request-language-text-learn = Qanday qilib qoʻshishni bu yerda bilib oling!
 request-language-button = Til qoʻshishga soʻrov yuborish
 
 ## ProjectStatus
@@ -433,7 +432,6 @@ faq-why-different-speakers-a =
     Ko'pgina nutq ma'lumotlar bazalari ma'lum demografik ma'lumotlarning haddan tashqari taqdim etilishi bilan o'qitiladi, natijada <articleLink> erkak va o'rta sinf </articleLink> tomon yo'naltiriladi. Ta'lim ma'lumotlari to'plamida etarlicha aks ettirilmaydigan urg'u va lahjalar, odatda allaqachon chetga chiqqan odamlar guruhlari bilan bog'liq. Ko'pgina mashinalar ayollarning ovozini tushunish uchun ham kurashmoqda.
     Shuning uchun bizning ovozli ma'lumotlar bazamizda xilma-xillikni xohlaymiz!
 faq-why-my-lang-q = Mening ona tilim nega haligacha qoʻshilmagan?!
-faq-why-my-lang-new-a = Mozilla biron bir tilni boshqasidan ustun qo'ymaydi yoki yoqtirmaydi. Buning o'rniga, "Umumiy ovoz" bu faqat jamoatchilik tomonidan olib boriladigan tashabbusdir, ammo yangi til qo'shish uchun </multilangLink> va ovozli xayr-ehsonlarni yig'ishni boshlash uchun <multilangLink> bir necha bosqich kerak bo'ladi. Birinchidan, umumiy ovozli veb-sayt tarjima qilinishi kerak, shunda hamjamiyat a'zolari o'zlarining tillarida o'z hissalarini qo'sha oladilar. Keyinchalik, odamlar tashqarida ovoz chiqarib o'qishlari uchun bizga mualliflik huquqisiz so'zlarning katta to'plami kerak. Ikkala talab ham bajarilgandan so'ng, odamlar o'z ovozlarini yozib olishlari va boshqa xayriyalarni tasdiqlashlari uchun Common Voice-da til ishga tushadi. Agar siz yangi til ochishga yordam bermoqchi bo'lsangiz, ishni boshlash uchun bizning <sentenceCollectorLink> jumlalar yig'ish vositamiz </sentenceCollectorLink> ga o'ting.
 faq-what-quality-q = Ovoz klipidan ma'lumotlar bazasida foydalanish uchun audio sifatining qaysi darajasi talab qilinadi?
 faq-what-quality-a = Biz "Ovozli ma'lumotlar to'plami" tabiatda nutqni matnga aylantiradigan vosita eshitadigan audio sifatini aks ettirishini xohlaymiz, shuning uchun biz xilma-xillikni qidirmoqdamiz. Turli xil ma'ruzachilar jamoasiga qo'shimcha ravishda, turli xil ovoz sifati bilan ma'lumotlar to'plami nutqni matndan boshqarish mexanizmiga turli xil real vaziyatlarni, fonda gaplashishdan tortib to avtomobil shovqinlarigacha ishlashga o'rgatadi. Ovozli klipingiz tushunarli ekan, u ma'lumotlar bazasi uchun etarlicha yaxshi bo'lishi kerak.
 faq-why-10k-hours-q = Nima uchun audio yozib olish uchun har bir maqsad uchun 10000 soat tasdiqlangan?
@@ -500,12 +498,6 @@ about-dataset-new = Umumiy ovozli ma'lumotlar to'plami
 about-dataset-new-text = Umumiy ovozli ma'lumotlar bazasida ishlab chiquvchilarga ovozni aniqlash vositalarini yaratishga yordam beradigan yuz minglab ovoz namunalari mavjud.
 about-clip-graveyard = Ovozlar qabristoni
 about-clip-graveyard-text = Kliplar qabristoni Umumiy ovozli ma'lumotlar to'plamiga kiritilmagan ovozli kliplardan iborat. Ma'lumotlar to'plamidagi kabi, qabristonni ham ko'chirib olish mumkin.
-about-partners = Hamkorlar
-about-become-a-partner = Sherik bo'ling
-about-partnership =
-    Common Voice bu qo'shma loyihadir va biz har doim eng katta ovoz manbaini eng katta ma'lumotlar bazasini yaratish uchun sheriklar va hissa qo'shuvchilarga bog'liqmiz.
-    
-    Loyihada ko'rsatgan yordami uchun quyidagi odamlar va tashkilotlarga minnatdorchilik bildiramiz:
 about-get-involved = Jamiyatga qo‘shiling
 about-get-involved-text-2 =
     Umumiy ovozni yanada yaxshilashga yordam bermoqchimisiz?
@@ -532,8 +524,6 @@ about-playbook-what-is-language-content-3 = Baʼzi tillar grammatika, lugʻat va
 
 about-playbook-how-add-language = Tilni qanday qoʻshishim mumkin?
 about-playbook-how-add-language-content-1 = Avval tilingiz <languageLink>allaqachon</languageLink> mavjudligini tekshiring. Yoʻq boʻlsa, <strong>saytni tarjima qilishingiz va jumlalarni toʻplashingiz</strong> kerak.
-about-playbook-how-add-language-content-2 = <strong>Saytni tarjima qilish</strong> uchun <pontoonLink>Pontoon</pontoonLink> saytida <translateVideo>sozlashingiz</translateVideo> kerak. Pontoonda juda koʻp tillar bor, u yerda ona tilingiz boʻlmasa, <pontoonRequestLink>soʻrov yuborishingiz mumkin</pontoonRequestLink>. Keyin <repoLink>GitHub</repoLink> orqali til uchun Common Voice loyihasini taqdim etishini soʻrang. <localizationFragment>sayt tarjimasi</localizationFragment> haqida batafsil.
-about-playbook-how-add-language-content-3 = <strong>Gaplarni toʻplash</strong> - <scLink>Jumlalarni yigʻgich</scLink>ni <scVideo>sozlang</scVideo>.
 
 ## How does localization work
 
@@ -555,12 +545,6 @@ about-playbook-how-add-language-content-3 = <strong>Gaplarni toʻplash</strong> 
 
 ## How are decisions made
 
-mycroft-title = Mycroft Ai
-mycroft-subtitle = Sunʼiy idrok
-mycroft-description =
-    Mycroft - dunyodagi birinchi ochiq manbali yordamchi.
-    Mycroft har qanday joyda ishlaydi - ish stoli kompyuterida, avtomobil ichida yoki Raspberry Pi-da.
-mycroft-secondary-description = Bu ochiq kodli dasturiy ta'minot bo'lib, uni erkin qayta tuzatish, kengaytirish va takomillashtirish mumkin. Mycroft-dan ilmiy loyihadan tortib korxona dasturiy ta'minotiga qadar har qanday narsada foydalanish mumkin.
 
 ## Glossary
 
@@ -698,6 +682,9 @@ request-language-success-content = Ona tilingizni Common Voice loyihasiga qo‘s
 select-language = Tilni tanlash...
 other-language = Boshqa tillar
 
+## Request Language Pages
+
+
 ## Languages Overview
 
 language-section-in-progress = Tayyor bo‘lmagan tillar
@@ -713,7 +700,6 @@ language-search-input =
 language-speakers = So‘zlovchilar
 localized = Tarjima qilingan
 sentences = Jumlalar
-total-hours = Jami soat
 
 ## Contribution
 
@@ -1006,6 +992,8 @@ demo-dashboard-card-body = Xayriya qilingan va tasdiqlangan har bir audio tasma 
 
 ## Validation criteria
 
+contribution-criteria-link = Qoidalar bilan tanishish
+contribution-criteria-page-description = Ovozli kliplarni tinglashda nimalarga eʼtibor berish kerakligini tushuning va ovozli yozuvlaringizni yanada boyroq qilishga yordam bering!
 contribution-for-example = masalan
 contribution-misreadings-title = Notoʻgʻri oʻqilgan
 contribution-misreadings-description = Tinglayotganda yozilgan matnning aynan yozib olingan ovoz bilan bir xilligini diqqat bilan tekshiring. Hatto kichik xatolar boʻlsa ham rad eting. <br />Juda keng tarqalgan xatolarga quyidagilar kiradi:
@@ -1041,6 +1029,9 @@ sc-logout-button = Chiqish
 sc-home-title = Common Voice jumla yigʻgichga xush kelibsiz
 sc-home-collect-title = Jumlalarni yigʻish
 
+## GENERAL
+
+
 ## HOW-TO
 
 sc-howto-title = Qanday
@@ -1057,10 +1048,6 @@ sc-howto-review-criteria-3 = Jumlani gapirish mumkin boʻlishi kerak.
 
 ## STATS
 
-# Variables:
-#   $lastUpdate (Date) - Localized date of last statistics update
-sc-stats-last-update = Oxirgi yangilanish: { $lastUpdate }
-sc-stats-last-update-never = Oxirgi yangilanish: hech qachon
 
 ## ADD
 
@@ -1093,7 +1080,6 @@ sc-personal-your-languages = Tillaringiz:
 
 sc-settings-title = Sozlamalar
 sc-settings-ui-language = Interfeys tili
-sc-settings-language-translated-warning = Bu til uchun sahifalar tarjima qilinmagan boʻlishi mumkin. Tarjimaga <pontoonLinkLink> Pontoon</pontoonLinkLink> orqali yordam berishingiz mumkin.
 sc-settings-reset-skipped = Oʻtkazib yuborilgan jumlalarni tiklash
 
 # [/SentenceCollector]

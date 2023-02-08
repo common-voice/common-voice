@@ -58,14 +58,14 @@ export default class Bucket {
       ENVIRONMENT,
       S3_LOCAL_DEVELOPMENT_ENDPOINT,
       CLIP_BUCKET_NAME,
-      BUCKET_LOCATION,
+      AWS_REGION,
     } = getConfig();
 
     if (ENVIRONMENT === 'local') {
       return `${S3_LOCAL_DEVELOPMENT_ENDPOINT}/${CLIP_BUCKET_NAME}/${key}`;
     }
 
-    return `https://${bucket}.s3.dualstack.${BUCKET_LOCATION}.amazonaws.com/${key}`;
+    return `https://${bucket}.s3.dualstack.${AWS_REGION}.amazonaws.com/${key}`;
   }
 
   /**

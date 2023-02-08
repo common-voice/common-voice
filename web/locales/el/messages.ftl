@@ -40,10 +40,12 @@ ba = Μπασκίρ
 bas = Μπασάα
 be = Λευκορωσικά
 bg = Βουλγαρικά
+bm = Μπαμπάρα
 bn = Μπενγκάλι
 br = Βρετονικά
 bs = Βοσνιακά
 bxr = Μπουργιάτ
+byv = Μεντούμπα
 ca = Καταλανικά
 cak = Κακτσικέλ
 ckb = Κεντρικά Κουρδικά
@@ -53,9 +55,11 @@ cs = Τσέχικα
 cv = Τσουβασικά
 cy = Ουαλικά
 da = Δανικά
+dag = Νταγκμπάνι
 de = Γερμανικά
 dsb = Κάτω Σορβικά
 dv = Ντιβέχι
+dyu = Ντιούλα
 el = Ελληνικά
 en = Αγγλικά
 eo = Εσπεράντο
@@ -75,6 +79,7 @@ gom = Κονκανικά (Γκόα)
 ha = Χάουσα
 he = Εβραϊκά
 hi = Χίντι
+hil = Χιλιγκάινον
 hr = Κροατικά
 hsb = Άνω Σορβικά
 ht = Αϊτινά
@@ -89,6 +94,7 @@ is = Ισλανδικά
 it = Ιταλικά
 izh = Ιζοριανά
 ja = Ιαπωνικά
+jbo = Λοζμπάν
 ka = Γεωργιανά
 kaa = Κάρα-Καλπάκ
 kab = Καβυλικά
@@ -97,6 +103,7 @@ ki = Κικούγιου
 kk = Καζακικά
 km = Χμερ
 kmr = Κουρμάντζι Κουρδικά
+kn = Κανάντα
 knn = Κονκανικά (Ντεβανάγκαρι)
 ko = Κορεατικά
 kpv = Komi-Zyrian
@@ -105,6 +112,8 @@ ky = Κιργιζικά
 lb = Λουξεμβουργιανά
 lg = Λουγκάντα
 lij = Λιγουριανά
+ln = Λινγκάλα
+lo = Λαοτινά
 lt = Λιθουανικά
 lv = Λετονικά
 mai = Μαϊθίλι
@@ -124,12 +133,17 @@ my = Βιρμανικά
 myv = Έρζυα
 nan-tw = Ταϊβανικά (Μιννάν)
 nb-NO = Νορβηγικά (Bokmål)
+nd = IsiNdebele (Βόρεια)
 ne-NP = Νεπαλικά
+nhe = Ανατολικά Νάουατλ (Χουαστέκα)
 nia = Νας
 nl = Ολλανδικά
 nn-NO = Νορβηγικά (Nynorsk)
+nr = IsiNdebele (Νότια)
+nso = Βόρεια Σότο
 nyn = Νιανκόλε
 oc = Οξιτανικά
+om = Αφάν Ορόμο
 or = Odia
 pa-IN = Παντζάμπι
 pap-AW = Παπιαμέντο (Αρούμπα)
@@ -147,14 +161,18 @@ sah = Σαχά
 sat = Σαντάλι (Ολ Τσίκι)
 sc = Σαρδηνιακά
 scn = Σικελικά
+sdh = Νότια Κουρδικά
 shi = Σίλα
 si = Σινχαλέζικα
 sk = Σλοβακικά
 skr = Σαραϊκά
 sl = Σλοβενικά
+snk = Σονίνκε
 so = Σομαλικά
 sq = Αλβανικά
 sr = Σερβικά
+ss = Σουάτι
+st = Νότια Σότο
 sv-SE = Σουηδικά
 sw = Σουαχίλι
 syr = Συριακά
@@ -166,26 +184,35 @@ ti = Τιγκρινιακά
 tig = Τίγκρε
 tk = Τουρκμενικά
 tl = Τάγκαλογκ
+tn = Τσουάνα
 tok = Τόκι Πόνα
 tr = Τουρκικά
+ts = Ξιτσόνγκα
 tt = Ταταρικά
 tw = Τουί
 ty = Ταϊτινά
+tyv = Τιβανικά
 uby = Ουμπίχ
 udm = Ούντμουρτ
 ug = Ουιγκούρ
 uk = Ουκρανικά
 ur = Ούρντου
 uz = Ουζμπεκικά
+ve = Τσιβέντα
 vec = Βενετικά
 vi = Βιετναμέζικα
 vot = Βοτικά
+wo = Γουόλοφ
+xh = Κόσα
 yi = Γίντις
 yo = Γιορούμπα
 yue = Καντονέζικα
+zgh = Ταμαζίγκχτ
 zh-CN = Κινέζικα (Κίνα)
 zh-HK = Κινέζικα (Χονγκ Κονγκ)
 zh-TW = Κινέζικα (Ταϊβάν)
+zu = Ζουλού
+zza = Ζαζαϊκά
 
 # [/]
 
@@ -197,6 +224,7 @@ speak-now = Μιλήστε τώρα
 datasets = Σύνολα δεδομένων
 languages = Γλώσσες
 about = Σχετικά
+partner = Συνεργασία
 profile = Προφίλ
 help = Βοήθεια
 contact = Επικοινωνία
@@ -243,7 +271,7 @@ todays-progress = Σημερινή πρόοδος
 help-reach-goal = Βοηθήστε μας να φτάσουμε στα { $goal }
 read-terms-q = Έχετε διαβάσει τους όρους;
 ready-to-record = Θέλετε να δωρίσετε τη φωνή σας;
-all-locales = Όλα
+all-locales = Όλες
 today = Σήμερα
 x-weeks-short =
     { $count ->
@@ -311,9 +339,8 @@ shortcut-rerecord-toggle-label = Νέα εγγραφή κλιπ
 shortcut-discard-ongoing-recording = ESC
 shortcut-discard-ongoing-recording-label = Απόρριψη τρέχουσας ηχογράφησης
 shortcut-submit = Επιστροφή
-shortcut-submit-label = Υποβολή κλιπ
+shortcut-submit-label = Υποβολή αποσπασμάτων
 request-language-text = Δεν βλέπετε τη γλώσσα σας στο Common Voice;
-request-language-text-learn = Μάθετε πώς να το ζητήσετε εδώ!
 request-language-button = Αίτημα για γλώσσα
 
 ## ProjectStatus
@@ -408,6 +435,7 @@ gravatar_not_found = Δεν βρέθηκε gravatar για το email σας
 file_too_large = Το επιλεγμένο αρχείο είναι πολύ μεγάλο
 avatar-uploaded = Μεταφορτώθηκε το avatar
 max-file-size = έως { $kb }KB
+remove-avatar = Αφαίρεση avatar
 
 ## Profile - Email
 
@@ -437,7 +465,7 @@ faq-why-important-a =
 faq-how-get-q = Πώς μπορώ να αποκτήσω τα δεδομένα του Common Voice;
 faq-how-get-a = Το σύνολο δεδομένων του Common Voice είναι διαθέσιμο προς λήψη, υπό την άδεια <licenseLink>CC0</ licenseLink>, στη <datasetLink>σελίδα συνόλων δεδομένων μας</ datasetLink>. Μπορείτε επίσης να κάνετε λήψη ορισμένων άλλων συνόλων δεδομένων, που διατίθενται δημοσίως, από την ίδια σελίδα.
 faq-when-release2-q = Πότε θα κυκλοφορήσετε δεδομένα του Common Voice σε άλλες γλώσσες;
-faq-when-release2-a = Αυτήν τη στιγμή, η πολύγλωσση έκδοση του συνόλου δεδομένων του Common Voice ομαδοποιείται και τακτοποιείται με την υποστήριξη της κοινότητας. Εάν θέλετε να μας βοηθήσετε να φέρουμε το Common Voice σε νέες γλώσσες, μεταβείτε στο <sentenceCollectorLink>εργαλείο συλλογής προτάσεων</sentenceCollectorLink> για να προσθέσετε νέες προτάσεις στο σύνολο δεδομένων και το Mozilla <pontoonLink>Pontoon</pontoonLink> για να μεταφράσετε αυτόν τον ιστότοπο. Οι νέες γλώσσες προστίθενται στο Common Voice για συνεισφορά ηχογραφήσεων όταν συλλεχθούν 5000 εγκεκριμένες προτάσεις.
+faq-when-release2-a = Αυτήν τη στιγμή, η πολύγλωσση έκδοση του συνόλου δεδομένων του Common Voice ομαδοποιείται και τακτοποιείται με την υποστήριξη της κοινότητας. Εάν θέλετε να μας βοηθήσετε να φέρουμε το Common Voice σε νέες γλώσσες, μεταβείτε στο <sentenceCollectorLink>Sentence Collector</sentenceCollectorLink> για να προσθέσετε νέες προτάσεις στο σύνολο δεδομένων και το Mozilla <pontoonLink>Pontoon</pontoonLink> για να μεταφράσετε αυτόν τον ιστότοπο. Οι νέες γλώσσες προστίθενται στο Common Voice για συνεισφορά ηχογραφήσεων όταν συλλεχθούν 5000 εγκεκριμένες προτάσεις.
 faq-why-mission-q = Γιατί το Common Voice είναι μέρος της αποστολής της Mozilla;
 faq-why-mission-a = Η Mozilla αγωνίζεται για ένα ανοικτό διαδίκτυο, που είναι προσβάσιμο σε όλους. Για επιτευχθεί αυτός ο στόχος, πρέπει να υποστηρίξουμε τους δημιουργούς περιεχομένου στο διαδίκτυο μέσα από έργα, όπως το Common Voice. Καθώς οι τεχνολογίες φωνής επεκτείνονται πέρα από εξειδικευμένες εφαρμογές, πιστεύουμε ότι πρέπει να εξυπηρετούν όλους τους χρήστες ισότιμα. Αυτό σημαίνει επένδυση σε περισσότερες γλώσσες και σε διαφορετικές προφορές και δημογραφικά, κατά την ανάπτυξη και τη δοκιμή τεχνολογιών φωνής. Το Common Voice είναι ένας δημόσιος πόρος, διαθέσιμος για όλους, ενώ οι ομάδες και οι προγραμματιστές της Mozilla σε όλο τον κόσμο το χρησιμοποιούν ήδη για τα δικά τους έργα.
 faq-what-cv-and-deepspeech-q = Ποια είναι η διαφορά των Common Voice και Deep Speech;
@@ -451,8 +479,10 @@ faq-why-different-speakers-a =
     Κατά την εκπαίδευση των περισσότερων βάσεων δεδομένων ομιλίας υπερεκπροσωπούνται ορισμένα δημογραφικά στοιχεία, με αποτέλεσμα να ευνοούνται οι <articleLink>άρρενες και η μεσαία τάξη</articleLink>. Οι προφορές και οι διάλεκτοι που τείνουν να υποεκπροσωπούνται στα σύνολα δεδομένων εκπαίδευσης τυπικά συνδέονται με ομάδες ατόμων που έχουν ήδη περιθωριοποιηθεί. Πολλές μηχανές δυσκολεύονται επίσης να κατανοήσουν τις γυναίκες φωνές.
     Γι' αυτό στη βάση φωνητικών δεδομένων μας θέλουμε ποικιλία!
 faq-why-my-lang-q = Γιατί δεν περιλαμβάνεται ακόμη η γλώσσα μου;
-faq-why-my-lang-new-a = H Mozilla δεν επιλέγει ούτε ευνοεί καμία γλώσσα. Αντίθετα, το Common Voice αποτελεί μια πρωτοβουλία που βασίζεται αποκλειστικά στην κοινότητα, αλλά απαιτούνται <multilangLink>μερικά βήματα για την προσθήκη μιας νέας γλώσσας</multilangLink> και την έναρξη της συλλογής αποσπασμάτων. Πρώτον, ο ιστότοπος του Common Voice πρέπει να μεταφραστεί, ώστε τα μέλη της κοινότητας να μπορούν να συνεισφέρουν στη δική τους γλώσσα. Έπειτα, χρειαζόμαστε μια μεγάλη συλλογή από προτάσεις χωρίς πνευματικά δικαιώματα, τις οποίες θα διαβάσουν οι χρήστες. Μόλις ικανοποιηθούν και οι δύο αυτές απαιτήσεις, η γλώσσα «ξεκινά» στο Common Voice και οι χρήστες μπορούν να ηχογραφούν τη φωνή τους και να επικυρώνουν άλλες συνεισφορές. Αν θέλετε να ξεκινήσετε μια νέα γλώσσα, μεταβείτε στο <sentenceCollectorLink>εργαλείο συλλογής προτάσεων</ sentenceCollectorLink> για να ξεκινήσετε.
-faq-what-quality-q = Ποιο είναι το απαιτούμενο επίπεδο ποιότητας φωνής για ένα κλιπ φωνής που θα χρησιμοποιηθεί στο σύνολο δεδομένων;
+faq-why-my-lang-a =
+    Το Common Voice αποτελεί μια πλατφόρμα πληθοπορισμού και όλες οι γλώσσες προστίθενται από εθελοντές.
+    Θα θέλαμε πολύ να προσθέσετε τη γλώσσα σας! <languageRequestLink>Ρωτήστε για την προσθήκη της γλώσσας σας.</languageRequestLink>
+faq-what-quality-q = Ποιο είναι το απαιτούμενο επίπεδο ποιότητας ήχου για ένα φωνητικό απόσπασμα που θα χρησιμοποιηθεί στο σύνολο δεδομένων;
 faq-what-quality-a = Θέλουμε το σύνολο δεδομένων Common Voice να αντικατοπτρίζει την ποιότητα ήχου που μια μηχανή μετατροπής ομιλίας σε κείμενο θα συναντήσει στην πραγματική ζωή, οπότε αναζητούμε ποικιλία. Εκτός από μια πολύμορφη κοινότητα ομιλητών, ένα σύνολο δεδομένων με διαφορετικές ποιότητες ήχου θα διδάξει τη μηχανή μετατροπής ομιλίας σε κείμενο να χειρίζεται διάφορες καταστάσεις, από άτομα που μιλάν στο παρασκήνιο έως το θόρυβο του αυτοκινήτου. Εάν το φωνητικό σας κλιπ είναι κατανοητό, τότε κάνει για το σύνολο δεδομένων.
 faq-why-10k-hours-q = Γιατί είναι οι 10.000 ώρες επαλήθευσης ο στόχος κάθε γλώσσας για την καταγραφή ήχου;
 faq-why-10k-hours-a = Αυτός είναι περίπου ο αριθμός των ωρών που απαιτείται για την εκπαίδευση ενός συστήματος ομιλίας-σε-κείμενο.
@@ -510,7 +540,7 @@ about-speak-text = Οι εθελοντές ηχογραφούν αποσπάσμ
 about-listen-queue = Ουρά ακρόασης
 about-listen-queue-text = Τα αποσπάσματα εισάγονται σε μια ουρά υποβολής που τα προετοιμάζει για ακρόαση.
 about-listen = Ακρόαση
-about-listen-text = Οι χρήστες επικυρώνουν την ακρίβεια των κλιπ, ελέγχοντας ότι ο εκφωνητής διάβασε σωστά την πρόταση.
+about-listen-text = Οι χρήστες επικυρώνουν την ακρίβεια των αποσπασμάτων, ελέγχοντας ότι ο εκφωνητής διάβασε σωστά την πρόταση.
 about-is-it-valid = Είναι έγκυρο το απόσπασμα;
 about-is-it-valid-text = Ένα απόσπασμα επισημαίνεται ως «έγκυρο» όταν ένας χρήστης ψηφίσει «Ναι».
 about-yes-votes = ≥ 2 θετικές ψήφοι
@@ -519,14 +549,8 @@ about-no-votes = ≥ 2 αρνητικές ψήφοι
 about-no-votes-text = Όταν ένας χρήστης απορρίπτει ένα κλιπ ομιλίας, αυτό επιστρέφει στην ουρά. Αν απορριφθεί για δεύτερη φορά, το κλιπ ομιλίας μετακινείται στο Νεκροταφείο των Κλιπ.
 about-dataset-new = Σύνολο δεδομένων Common Voice
 about-dataset-new-text = Το σύνολο δεδομένων της Common Voice περιέχει εκατοντάδες χιλιάδες δείγματα φωνής που βοηθούν τους προγραμματιστές να δημιουργήσουν εργαλεία αναγνώρισης φωνής.
-about-clip-graveyard = Κοιμητήριο κλιπ
+about-clip-graveyard = Κοιμητήριο αποσπασμάτων
 about-clip-graveyard-text = Το Κοιμητήριο κλιπ αποτελείται από φωνητικά κλιπ που δεν κατάφεραν να μπουν στο σύνολο δεδομένων του Common Voice. Όπως και το σύνολο των δεδομένων, το κοιμητήριο είναι διαθέσιμο προς λήψη.
-about-partners = Συνεργάτες
-about-become-a-partner = Γίνετε συνεργάτης
-about-partnership =
-    Το Common Voice είναι ένα έργο συνεργασίας και εξαρτάται από την κοινότητα των συνεργατών μας και από τους συνεργάτες μας για τη δημιουργία του μεγαλύτερου φωνητικού συνόλου δεδομένων ανοιχτού κώδικα που έχει γίνει ποτέ.
-    
-    Θα θέλαμε να ευχαριστήσουμε τους ακόλουθους ανθρώπους και οργανισμούς για τη βοήθειά τους στο έργο:
 about-get-involved = Συμμετοχή
 about-get-involved-text-2 =
     Θέλετε να βοηθήσετε το Common Voice να γίνει ακόμη καλύτερο;
@@ -556,9 +580,20 @@ about-playbook-what-is-language-content-3 = Ορισμένες γλώσσες έ
 
 about-playbook-how-add-language = Πώς προσθέτω μια γλώσσα;
 about-playbook-how-add-language-content-1 = Αρχικά, ελέγξτε εάν η γλώσσα σας <languageLink>υπάρχει ήδη</languageLink>. Εάν δεν υπάρχει, θα πρέπει να <strong>μεταφράσετε τον ιστότοπο και να συγκεντρώσετε προτάσεις</strong>.
-about-playbook-how-add-language-content-2 = <strong>Για να μεταφράσετε τον ιστότοπο</strong> - <translateVideo>ξεκινήστε</translateVideo> στο <pontoonLink>Pontoon</pontoonLink>. Το Pontoon διαθέτει πολλές γλώσσες, αλλά αν δεν έχει τη δική σας, μπορείτε να <pontoonRequestLink>τη ζητήσετε</pontoonRequestLink>. Στη συνέχεια, ζητήστε <repoLink>μέσω του GitHub</repoLink> να γίνει διαθέσιμο το Common Voice στη γλώσσα σας. Δείτε περισσότερα σχετικά με τη <localizationFragment>μετάφραση του ιστοτόπου</localizationFragment>.
-about-playbook-how-add-language-content-3 = <strong>Για να συλλέξετε προτάσεις</strong> - <scVideo>ρυθμίστε</scVideo> το <scLink>Sentence Collector</scLink>.
-about-playbook-how-add-language-content-4 = Μπορείτε να <scLinkAdd>προσθέσετε μικρούς αριθμούς</scLinkAdd> προτάσεων εδώ ή μπορείτε να κάνετε <bulkImportDocsLink>μαζικές εισαγωγές</bulkImportDocsLink> μέσω ενός αιτήματος στο Github. Θυμηθείτε ότι οι προτάσεις πρέπει να είναι <licenseLink>CC0 (ή δημόσιου τομέα)</licenseLink> ή μπορείτε να γράψετε τις δικές σας. Δείτε περισσότερα σχετικά με τη <scFragment>συλλογή προτάσεων</scFragment>.
+about-playbook-how-add-language-translating-heading = Μετάφραση ιστοτόπου
+about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Δείτε τον οδηγό χρήσης μας για το Pontoon.</translateVideoLink>
+about-playbook-how-add-language-translating-content-2 =
+    Για τις μεταφράσεις, χρησιμοποιούμε ένα εργαλείο της Mozilla που ονομάζεται <pontoonLink>Pontoon</pontoonLink>. Το Pontoon διαθέτει πολλές γλώσσες,
+    αλλά εάν δεν έχει τη δική σας, μπορείτε να <pontoonRequestLink>ζητήσετε να προστεθεί</pontoonRequestLink>.
+    Στη συνέχεια, για να γίνει διαθέσιμη η γλώσσα στο έργο του Common Voice,
+    <githubRepoLink>ζητήστε τη νέα γλώσσα στο GitHub</githubRepoLink>. <localizationFragment>Δείτε περισσότερα σχετικά με τη μετάφραση του ιστοτόπου</localizationFragment>.
+about-playbook-how-add-language-collecting-sentences-heading = Συλλογή προτάσεων
+about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>Παρακολουθήστε τον οδηγό μας σχετικά με τη χρήση του Sentence Collector</sentenceCollectorVideo>.
+about-playbook-how-add-language-collecting-sentences-content-2 =
+    Μπορείτε να <sentenceCollectorLinkAdd>προσθέσετε μικρούς αριθμούς προτάσεων</sentenceCollectorLinkAdd>
+    ή μπορείτε να κάνετε <bulkImportDocsLink>μαζικές εισαγωγές μέσω του Github</bulkImportDocsLink>.
+    Θυμηθείτε ότι οι προτάσεις πρέπει να είναι <licenseLink>CC0 (ή δημόσιου τομέα)</licenseLink> ή μπορείτε να γράψετε τις δικές σας.
+about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>Δείτε περισσότερα για τη συλλογή προτάσεων</sentenceCollectorFragment>.
 
 ## How does localization work
 
@@ -622,10 +657,6 @@ about-playbook-how-project-governance-content-4 = Κοινοτική συμμε�
 about-playbook-how-project-governance-content-5 = Αξία και αναγνώριση.
 about-playbook-how-project-governance-content-6 = Αμοιβαία ευθύνη.
 about-playbook-how-project-governance-content-7 = <governanceLink>Διαβάστε περισσότερα σχετικά με τον τρόπο διακυβέρνησής μας</governanceLink>
-mycroft-title = Mycroft Ai
-mycroft-subtitle = Τεχνητή νοημοσύνη
-mycroft-description = Ο Mycroft είναι ο πρώτος βοηθός ανοιχτού κώδικα στον κόσμο. Ο Mycroft λειτουργεί οπουδήποτε - σε επιτραπέζιο υπολογιστή, σε ένα αυτοκίνητο ή στο Raspberry Pi.
-mycroft-secondary-description = Πρόκειται για λογισμικό ανοιχτού κώδικα, το οποίο μπορεί να αναδιανεμηθεί ελεύθερα, να επεκταθεί και να βελτιωθεί. Το Mycroft μπορεί να χρησιμοποιηθεί σε οτιδήποτε από ένα έργο επιστήμης μέχρι μια εφαρμογή λογισμικού για επιχειρήσεις.
 
 ## Glossary
 
@@ -693,6 +724,8 @@ datasets-positioning =
     
     Σε αυτήν τη σελίδα θα βρείτε αναφορές σε άλλα σύνολα φωνητικών δεδομένων ανοιχτού κώδικα και, καθώς το Common Voice συνεχίζει να αυξάνεται, θα βρείτε επίσης ανανεωμένες εκδόσεις του Common Voice.
 language = Γλώσσα
+download-dataset-header = Λήψη συνόλου δεδομένων
+download-dataset-tag = Επιλέξτε την επιθυμητή γλώσσα και την έκδοση του συνόλου δεδομένων.
 # File size in gigabytes
 size = Μέγεθος
 validated-hr-total = Ώρες επαλήθευσης
@@ -739,6 +772,9 @@ more = Περισσότερα
 close = Κλείσιμο
 download = Λήψη
 dataset-version = Έκδοση
+sha256-checksum-copied = Το SHA256 Checksum αντιγράφηκε!
+sha256-checksum-copied-error = Αποτυχία αντιγραφής του SHA256 Checksum
+clipboard-not-supported = Το πρόχειρο δεν υποστηρίζεται
 
 ## Download Modal
 
@@ -769,6 +805,47 @@ request-language-success-content = Θα σας ενημερώσουμε πώς �
 select-language = Επιλέξτε γλώσσα...
 other-language = Άλλη γλώσσα
 
+## Request Language Pages
+
+request-language-heading = Αίτημα προσθήκης νέας γλώσσας
+request-language-explanation-1 =
+    Ελέγξτε εάν η γλώσσα σας βρίσκεται στη
+    <languagesPageLink>σελίδα γλωσσών του Common Voice</languagesPageLink>.
+    Εάν όχι, συμπληρώστε αυτήν τη φόρμα και θα <strong>σας στείλουμε ένα email
+    με οδηγίες σχετικά με το πώς να ρυθμίσετε τη γλώσσα σας</strong>.
+request-language-explanation-2 =
+    Θα ενημερώσουμε και <strong>τον διαχειριστή της κοινότητάς μας
+    για το ενδιαφέρον σας</strong>, ώστε να σας παράσχει οποιαδήποτε
+    επιπλέον βοήθεια ή πληροφορίες που πιθανώς χρειάζεστε.
+request-language-form-email =
+    .label = Η διεύθυνση email σας
+request-language-form-info =
+    .label = Πληροφορίες σχετικά με τη γλώσσα
+request-language-form-info-explanation =
+    Προσθέστε όσες περισσότερες πληροφορίες μπορείτε σχετικά με τη γλώσσα.
+    Θα μπορούσατε να συμπεριλάβετε:
+request-language-form-info-explanation-list-1 = Ονόματα της γλώσσας σας
+request-language-form-info-explanation-list-2 = <isoCodeLink>Κωδικούς ISO</isoCodeLink> εάν τους γνωρίζετε
+request-language-form-info-explanation-list-3 = Συνδέσμους για ιστοτόπους ώστε να κατανοήσουμε τη γλώσσα
+request-language-google-recaptcha-required = Εάν θέλετε να συνεχίσετε, απαιτείται το reCAPTCHA
+request-language-google-recaptcha-error = Κάτι πήγε στραβά με το reCAPTCHA. Παρακαλούμε δοκιμάστε ξανά.
+# Success page
+request-language-success-heading = Σας ευχαριστούμε! Έχετε στείλει αίτημα για νέα γλώσσα
+request-language-success-list-1 =
+    Θα λάβετε σύντομα ένα email όπου θα εξηγεί συνοπτικά
+    τα βήματα για την προσθήκη της γλώσσας σας στο Common Voice
+request-language-success-list-2 =
+    Ο διαχειριστής της κοινότητάς μας θα επικοινωνήσει μαζί σας
+    για επιπλέον υποστήριξη και ενημέρωση σχετικά με το εάν
+    υπάρχει κάποια κοινότητα που να εργάζεται πάνω στη γλώσσα σας
+request-language-success-list-3 =
+    Εάν δεν λάβετε απάντηση από εμάς εντός λίγων ημερών,
+    στείλτε email στο <emailLink>{ $email }</emailLink>
+    και θα επικοινωνήσουμε μαζί σας!
+request-language-error =
+    Μπορεί να μην έχουμε λάβει αυτό το αίτημα. Παρακαλούμε στείλτε απευθείας email
+    στο <emailLink>{ $email }</emailLink> και θα επικοινωνήσουμε μαζί σας!
+
 ## Languages Overview
 
 language-section-in-progress = Σε εξέλιξη
@@ -784,7 +861,8 @@ language-search-input =
 language-speakers = Ομιλητές
 localized = Μετάφραση
 sentences = Προτάσεις
-total-hours = Ώρες επαλήθευσης
+language-validation-hours = Ώρες
+language-validation-progress = Πρόοδος επικύρωσης
 
 ## Contribution
 
@@ -806,7 +884,7 @@ contribute-more =
         [one] Έτοιμοι να κάνετε { $count } ακόμη;
        *[other] Έτοιμοι να κάνετε { $count } ακόμη;
     }
-record-cta = Έναρξη εγγραφής
+record-cta = Έναρξη καταγραφής
 record-platform-not-supported = Δυστυχώς, η πλατφόρμα σας δεν υποστηρίζεται ακόμα.
 record-platform-not-supported-desktop = Σε υπολογιστές, μπορείτε να συνεισφέρετε κάνοντας λήψη…
 record-platform-not-supported-ios-non-safari = Στο iOS παρακαλούμε συνεχίστε με το Safari για ενεργοποίησης ηχογράφησης…
@@ -823,21 +901,21 @@ record-again-instruction = Υπέροχα! <recordIcon></recordIcon> Ηχογρ�
 record-again-instruction2 = Συνεχίστε, ηχογραφήστε ξανά <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon> Τελευταίο!
 review-tooltip = Ελέγξτε και ηχογραφήστε ξανά τα ηχητικά κλιπ
-share-clip = Κοινοποίηση του κλιπ σας
+share-clip = Κοινοποίηση αποσπάσματος
 share-common-voice = Κοινοποίηση του Common Voice
 review-instruction = Ελέγξτε και ηχογραφήστε ξανά τα ηχητικά κλιπ, εφόσον χρειάζεται
 record-submit-tooltip = { $actionType } στο «Υποβολή» όταν τελειώσετε
 clips-uploaded = Μεταφορτώθηκαν κλιπ
 record-abort-title = Να ολοκληρωθεί πρώτα η ηχογράφηση;
 record-abort-text = Αν αποχωρήσετε τώρα, θα χάσετε την πρόοδό σας
-record-abort-submit = Υποβολή κλιπ
+record-abort-submit = Υποβολή αποσπασμάτων
 record-abort-continue = Λήξη ηχογράφησης
-record-abort-delete = Έξοδος & διαγραφή κλιπ
+record-abort-delete = Έξοδος & διαγραφή αποσπασμάτων
 listen-instruction = { $actionType } στο <playIcon></playIcon> Εκφώνησε σωστά την πρόταση:
 listen-again-instruction = Εξαιρετική δουλειά! <playIcon></playIcon> Ακούστε ξανά όταν είστε έτοιμος
 listen-3rd-time-instruction = Έφυγαν 2, συνεχίστε! <playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon> Τελευταίο!
-listen-empty-state = Δεν υπάρχουν κλιπ προς επαλήθευση σε αυτή τη γλώσσα...
+listen-empty-state = Μάλλον τελείωσαν τα αποσπάσματα - ανανεώστε τη σελίδα ή δοκιμάστε ξανά αργότερα.
 listen-loading-error =
     Δεν μπορέσαμε να βρούμε κανένα απόσπασμα για να ακούσετε.
     Παρακαλούμε δοκιμάστε ξανά.
@@ -1447,7 +1525,6 @@ sc-review-link = Έλεγχος
 
 sc-settings-title = Ρυθμίσεις
 sc-settings-ui-language = Γλώσσα περιβάλλοντος
-sc-settings-language-translated-warning = Οι σελίδες για αυτήν τη γλώσσα ενδέχεται να μην έχουν μεταφραστεί πλήρως. Μπορείτε να βοηθήσετε με τη μετάφραση <pontoonLinkLink>στο Pontoon</pontoonLinkLink>.
 sc-settings-reset-skipped = Επαναφορά παραλειφθεισών προτάσεων
 sc-settings-skipped-decription = Προηγουμένως παραλείψατε προτάσεις κατά τον έλεγχο. Η επαναφορά των παραλειφθεισών προτάσεων θα εμφανίσει ξανά όλες αυτές τις προτάσεις. Αυτό είναι ανεξάρτητο από τη γλώσσα.
 sc-settings-show-all-button = Εμφάνιση όλων των παραλειφθεισών προτάσεων ξανά
@@ -1462,3 +1539,16 @@ sc-validation-no-abbreviations = Η πρόταση δεν πρέπει να πε
 
 localization-select =
     .label = Επιλογή γλώσσας/μετάφρασης
+# PARTNERSHIPS PAGE
+partnerships-header = Συνεργασίες
+partnerships-get-in-touch = Επικοινωνία
+partnerships-become-a-partner = Γίνετε συνεργάτης του Common Voice
+partnerships-foundations-header = Ιδρύματα
+partnerships-governments-header = Kυβερνήσεις
+partnerships-academia-header = Πανεπιστήμια, ακαδημαϊκοί και ερευνητές
+partnerships-small-business-header = Μικρές επιχειρήσεις, όπως νεοφυείς επιχειρήσεις τεχνολογίας και τεχνητής νοημοσύνης
+partnerships-our-partners = Οι συνεργάτες μας
+add-information-button = Προσθήκη πληροφοριών
+create-profile-text = Θέλετε να αποθηκεύσετε τις πληροφορίες σας; <createProfile>Δημιουργήστε ένα προφίλ</createProfile>
+already-have-an-account = Έχετε ήδη λογαριασμό; <login>Σύνδεση</login>
+create-profile-button = Δημιουργία προφίλ

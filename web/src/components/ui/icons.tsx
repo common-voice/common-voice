@@ -3,7 +3,7 @@ import * as React from 'react';
 const Icon =
   (path: string, title = '') =>
   ({ children, ...props }: any) =>
-    <img src={path} title={title} {...props} />;
+    <img src={path} title={title} {...props} alt="icon" />;
 
 let idCounter = 0;
 function uniqueIcon(component: (id: number, props: any) => React.ReactNode) {
@@ -272,26 +272,6 @@ export const FlagIcon = () => (
   </svg>
 );
 
-export const LayersIcon = () => (
-  <svg width="24" height="24" viewBox="0 0 24 24">
-    <defs>
-      <path
-        id="layers"
-        d="M1.6 7.883l10 5.006c.1.1.2.1.4.1s.3 0 .4-.1l10-5.006c.4-.2.6-.5.6-.901 0-.4-.2-.701-.6-.901l-10-5.006c-.3-.1-.6-.1-.9 0l-10 5.006c-.3.2-.5.5-.5.9 0 .401.2.702.6.902zM12 3.077l7.8 3.905-7.8 3.904-7.8-3.904L12 3.077zm10.9 13.516c.2.5 0 1.101-.4 1.301l-10 5.006c-.2.1-.3.1-.5.1s-.3 0-.4-.1l-10-5.006c-.5-.2-.7-.8-.4-1.301.2-.5.8-.701 1.3-.4l9.6 4.805 9.6-4.806c.3-.3.9-.1 1.2.4zm0-5.006c.2.5 0 1.101-.4 1.302l-10 5.005c-.2.1-.3.1-.5.1s-.3 0-.4-.1l-10-5.005c-.5-.2-.7-.801-.4-1.302.2-.5.8-.7 1.3-.4l9.6 4.805 9.6-4.805c.3-.3.9-.1 1.2.4z"
-      />
-    </defs>
-    <g fill="none" fillRule="evenodd">
-      <mask id="layersB" fill="#fff">
-        <use xlinkHref="#layers" />
-      </mask>
-      <use fill="#000" fillRule="nonzero" xlinkHref="#layers" />
-      <g fill="#4A4A4A" mask="url(#layersB)">
-        <path d="M0 0h24v24H0z" />
-      </g>
-    </g>
-  </svg>
-);
-
 export const UsersIcon = () => (
   <svg width="24" height="24" viewBox="0 0 24 24">
     <defs>
@@ -306,26 +286,6 @@ export const UsersIcon = () => (
       </mask>
       <use fill="#000" fillRule="nonzero" xlinkHref="#users" />
       <g fill="#4A4A4A" mask="url(#usersB)">
-        <path d="M0 0h24v24H0z" />
-      </g>
-    </g>
-  </svg>
-);
-
-export const HeartIcon = () => (
-  <svg width="24" height="24" viewBox="0 0 24 24">
-    <defs>
-      <path
-        id="heart"
-        d="M21.233 3.881C20.077 2.693 18.535 2 16.898 2a6.268 6.268 0 0 0-4.433 1.881l-.385.396-.385-.396a6.104 6.104 0 0 0-8.768 0C1.674 5.07 1 6.752 1 8.436c0 1.683.674 3.366 1.83 4.554l8.48 8.713c.192.198.385.297.674.297.289 0 .481-.099.674-.297l8.479-8.713c1.156-1.188 1.83-2.871 1.83-4.554.193-1.684-.481-3.367-1.734-4.555zm-1.349 7.723l-7.804 8.02-7.804-8.02c-.867-.891-1.253-1.98-1.253-3.168 0-1.188.482-2.278 1.253-3.169.77-.89 1.927-1.287 2.987-1.287 1.156 0 2.216.396 3.083 1.287l1.06 1.09a.914.914 0 0 0 1.349 0l.963-1.09c.867-.792 1.927-1.287 3.18-1.287 1.156 0 2.216.495 3.083 1.287.77.891 1.252 1.98 1.252 3.169 0 1.188-.482 2.277-1.349 3.168z"
-      />
-    </defs>
-    <g fill="none" fillRule="evenodd">
-      <mask id="heartB" fill="#fff">
-        <use xlinkHref="#heart" />
-      </mask>
-      <use fill="#000" fillRule="nonzero" xlinkHref="#heart" />
-      <g fill="#4A4A4A" mask="url(#heartB)">
         <path d="M0 0h24v24H0z" />
       </g>
     </g>
@@ -996,6 +956,8 @@ export const CautionIcon = Icon(
   require('./icons/exclamation.svg'),
   'exclamation'
 );
+
+export const QuestionMarkIcon = Icon(require('./icons/question-mark.svg'));
 
 const FONT_ICONS = {
   chrome: '',

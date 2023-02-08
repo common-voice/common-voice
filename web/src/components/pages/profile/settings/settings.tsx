@@ -150,43 +150,6 @@ function Settings(props: Props) {
           </div>
         </Section>
       )}
-
-      <Section title={getString('contribution-experience')} className="box">
-        <div>
-          <Localized id="skip-submission-feedback">
-            <h3 className="feedback-toggle-title" />
-          </Localized>
-          <Toggle
-            offText="off"
-            onText="on"
-            defaultChecked={account.skip_submission_feedback}
-            onChange={(event: React.ChangeEvent<HTMLInputElement>) =>
-              saveAccount({
-                skip_submission_feedback: event.target.checked,
-              })
-            }
-          />
-          <Localized id="skip-submission-description">
-            <p className="skip-submission-description" />
-          </Localized>
-          <Localized id="skip-submission-note">
-            <p className="skip-submission-note" />
-          </Localized>
-        </div>
-
-        <div className="images">
-          <img
-            className="hidden-sm-down"
-            src={require('./submission-screenshot-lg.jpg')}
-            alt="Submission Success Screenshot"
-          />
-          <img
-            className="hidden-md-up"
-            src={require('./submission-screenshot-xs.jpg')}
-            alt="Submission Success Screenshot"
-          />
-        </div>
-      </Section>
     </div>
   );
 }

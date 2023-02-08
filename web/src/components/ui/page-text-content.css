@@ -1,4 +1,4 @@
-.page-content {
+.page-text-content {
     h1,
     h2,
     h3,
@@ -15,7 +15,14 @@
         margin-bottom: 0.5em;
     }
 
+    strong {
+        font-weight: 600;
+    }
+
     a {
         color: var(--link-color);
+        text-decoration: underline;
+        text-underline-offset: 0.15em;
+        text-decoration-thickness: 2px;
     }
 }

@@ -3,11 +3,9 @@ import { axe, toHaveNoViolations } from 'jest-axe';
 import { act, fireEvent, RenderResult } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 
-import { renderWithLocalization } from '../../../../test/mock-localization';
+import { renderWithLocalization } from '../../../../test/render-with-localization';
 
 import DatasetDownloadEmailPrompt from './dataset-download-email-prompt';
-
-import { CURRENT_RELEASE_ID } from './releases';
 
 expect.extend(toHaveNoViolations);
 
@@ -16,36 +14,44 @@ const mockGetPublicUrl = jest.fn(() =>
   Promise.resolve({ url: 'https://example.com/fake/url' })
 );
 const mockSaveHasDownload = jest.fn();
+const mockSubscribeToNewsLetter = jest.fn();
+
 jest.mock('../../../hooks/store-hooks', () => ({
   useAPI: () => {
     return {
       getPublicUrl: mockGetPublicUrl,
       saveHasDownloaded: mockSaveHasDownload,
+      subscribeToNewsletter: mockSubscribeToNewsLetter,
     };
   },
+  useAction: () => jest.fn(),
 }));
 
 const bundleUrlTemplate =
   'cv-corpus-8.0-2022-01-19/cv-corpus-8.0-2022-01-19-{locale}.tar.gz';
-
-const bundleState = {
-  bundleLocale: 'en',
-  checksum: 'd00f7dc59f890def0cc228ce6d9aa9b82553fdc9e0c7da05717776527c9aa809',
-  size: '50 GB',
-  language: 'English',
-  totalHours: 10,
-  validHours: 20,
-  rawSize: 10,
-  releaseId: CURRENT_RELEASE_ID,
+const locale = 'en';
+const selectedDataset = {
+  download_path: bundleUrlTemplate,
+  id: 1,
+  checksum: 'checksumtest1234',
+  size: '100000',
 };
+
+afterEach(() => {
+  jest.clearAllMocks();
+});
 
 describe('DatasetDownloadEmailPrompt', () => {
   it('should render with no accessibility violations', async () => {
     await act(async () => {
-      const renderResult: RenderResult = await renderWithLocalization(
+      const renderResult: RenderResult = renderWithLocalization(
         <DatasetDownloadEmailPrompt
-          urlPattern={bundleUrlTemplate}
-          bundleState={bundleState}
+          selectedLocale={locale}
+          downloadPath={selectedDataset.download_path}
+          releaseId={selectedDataset.id.toString()}
+          checksum={selectedDataset.checksum}
+          size={selectedDataset.size}
+          isSubscribedToMailingList={false}
         />
       );
       const results = await axe(renderResult.container);
@@ -55,13 +61,16 @@ describe('DatasetDownloadEmailPrompt', () => {
 
   it('should render email form with no accessibility violations', async () => {
     await act(async () => {
-      const { getByRole, container }: RenderResult =
-        await renderWithLocalization(
-          <DatasetDownloadEmailPrompt
-            urlPattern={bundleUrlTemplate}
-            bundleState={bundleState}
-          />
-        );
+      const { getByRole, container }: RenderResult = renderWithLocalization(
+        <DatasetDownloadEmailPrompt
+          selectedLocale={locale}
+          downloadPath={selectedDataset.download_path}
+          releaseId={selectedDataset.id.toString()}
+          checksum={selectedDataset.checksum}
+          size={selectedDataset.size}
+          isSubscribedToMailingList={false}
+        />
+      );
 
       fireEvent.click(getByRole('button', { name: 'Enter Email to Download' }));
 
@@ -72,10 +81,14 @@ describe('DatasetDownloadEmailPrompt', () => {
 
   it('should handle bundleURLTemplate strings', async () => {
     await act(async () => {
-      await renderWithLocalization(
+      renderWithLocalization(
         <DatasetDownloadEmailPrompt
-          urlPattern={bundleUrlTemplate}
-          bundleState={bundleState}
+          selectedLocale={locale}
+          downloadPath={selectedDataset.download_path}
+          releaseId={selectedDataset.id.toString()}
+          checksum={selectedDataset.checksum}
+          size={selectedDataset.size}
+          isSubscribedToMailingList={false}
         />
       );
     });
@@ -88,10 +101,14 @@ describe('DatasetDownloadEmailPrompt', () => {
 
   it('should allow download if filled in details', async () => {
     const { getByRole, queryByRole, getByLabelText }: RenderResult =
-      await renderWithLocalization(
+      renderWithLocalization(
         <DatasetDownloadEmailPrompt
-          urlPattern={bundleUrlTemplate}
-          bundleState={bundleState}
+          selectedLocale={locale}
+          downloadPath={selectedDataset.download_path}
+          releaseId={selectedDataset.id.toString()}
+          checksum={selectedDataset.checksum}
+          size={selectedDataset.size}
+          isSubscribedToMailingList={false}
         />
       );
 
@@ -101,22 +118,30 @@ describe('DatasetDownloadEmailPrompt', () => {
 
     // check the download link is disabled
     const disabledDownloadLink = queryByRole('link', {
-      name: /Download English/,
+      name: /Enter Email to Download/,
     });
     expect(disabledDownloadLink).toBeNull(); // not exist as a link
 
     // type in email address
-    await userEvent.type(getByLabelText(/Email/), 'billgates@example.com');
+    userEvent.type(getByLabelText(/Email/), 'testemail@example.com');
 
     // check the checkboxes
     userEvent.click(
-      getByLabelText(/You are prepared to initiate a download of 50 GB/)
+      getByLabelText(/You are prepared to initiate a download of /)
     );
+
     userEvent.click(getByLabelText(/You agree to not attempt to determine/));
 
+    userEvent.click(
+      getByLabelText(/I want to join the Common Voice mailing list/)
+    );
+
     // now has the link
-    const downloadLink = getByRole('link', { name: /Download English/ });
-    await expect(downloadLink.getAttribute('href')).toBe(
+    const downloadLink = getByRole('button', {
+      name: /Download Dataset Bundle/,
+    });
+
+    expect(downloadLink.getAttribute('href')).toBe(
       'https://example.com/fake/url'
     );
 
@@ -126,9 +151,130 @@ describe('DatasetDownloadEmailPrompt', () => {
     // calls api.saveHasDownloaded correctly
     expect(mockSaveHasDownload).toBeCalledTimes(1);
     expect(mockSaveHasDownload).toBeCalledWith(
-      'billgates@example.com',
+      'testemail@example.com',
       'en',
-      'cv-corpus-8.0-2022-01-19'
+      '1'
+    );
+  });
+
+  it('should allow download if user is subscribed to mailing list', async () => {
+    const {
+      getByRole,
+      queryByRole,
+      getByLabelText,
+      queryByLabelText,
+    }: RenderResult = renderWithLocalization(
+      <DatasetDownloadEmailPrompt
+        selectedLocale={locale}
+        downloadPath={selectedDataset.download_path}
+        releaseId={selectedDataset.id.toString()}
+        checksum={selectedDataset.checksum}
+        size={selectedDataset.size}
+        isSubscribedToMailingList
+      />
+    );
+
+    await act(async () => {
+      fireEvent.click(getByRole('button', { name: 'Enter Email to Download' }));
+    });
+
+    // check the download link is disabled
+    const disabledDownloadLink = queryByRole('link', {
+      name: /Enter Email to Download/,
+    });
+    expect(disabledDownloadLink).toBeNull(); // not exist as a link
+
+    // type in email address
+    userEvent.type(getByLabelText(/Email/), 'testemail@example.com');
+
+    // check the checkboxes
+    userEvent.click(
+      getByLabelText(/You are prepared to initiate a download of /)
+    );
+
+    userEvent.click(getByLabelText(/You agree to not attempt to determine/));
+
+    expect(
+      queryByLabelText(/I want to join the Common Voice mailing list/)
+    ).toBeNull();
+
+    // now has the link
+    const downloadLink = getByRole('button', {
+      name: /Download Dataset Bundle/,
+    });
+
+    expect(downloadLink.getAttribute('href')).toBe(
+      'https://example.com/fake/url'
+    );
+
+    // click link
+    fireEvent.click(downloadLink);
+
+    // calls api.saveHasDownloaded correctly
+    expect(mockSaveHasDownload).toBeCalledTimes(1);
+    expect(mockSaveHasDownload).toBeCalledWith(
+      'testemail@example.com',
+      'en',
+      '1'
+    );
+  });
+
+  it('should still allow download if user decides not to join mailing list', async () => {
+    const { getByRole, queryByRole, getByLabelText }: RenderResult =
+      renderWithLocalization(
+        <DatasetDownloadEmailPrompt
+          selectedLocale={locale}
+          downloadPath={selectedDataset.download_path}
+          releaseId={selectedDataset.id.toString()}
+          checksum={selectedDataset.checksum}
+          size={selectedDataset.size}
+          isSubscribedToMailingList={false}
+        />
+      );
+
+    await act(async () => {
+      fireEvent.click(getByRole('button', { name: 'Enter Email to Download' }));
+    });
+
+    // check the download link is disabled
+    const disabledDownloadLink = queryByRole('link', {
+      name: /Enter Email to Download/,
+    });
+    expect(disabledDownloadLink).toBeNull(); // not exist as a link
+
+    // type in email address
+    userEvent.type(getByLabelText(/Email/), 'testemail@example.com');
+
+    // check the checkboxes
+    userEvent.click(
+      getByLabelText(/You are prepared to initiate a download of /)
+    );
+
+    userEvent.click(getByLabelText(/You agree to not attempt to determine/));
+
+    // assert that checkbox is visible but don't click it
+    expect(
+      getByLabelText(/I want to join the Common Voice mailing list/)
+    ).toBeDefined();
+
+    // now has the link
+    const downloadLink = getByRole('button', {
+      name: /Download Dataset Bundle/,
+    });
+
+    expect(downloadLink.getAttribute('href')).toBe(
+      'https://example.com/fake/url'
+    );
+
+    // click link
+    fireEvent.click(downloadLink);
+
+    // calls api.saveHasDownloaded correctly
+    expect(mockSaveHasDownload).toBeCalledTimes(1);
+    expect(mockSaveHasDownload).toBeCalledWith(
+      'testemail@example.com',
+      'en',
+      '1'
     );
   });
 });

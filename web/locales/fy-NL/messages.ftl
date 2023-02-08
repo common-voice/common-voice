@@ -18,6 +18,8 @@ banner-error-slow-1 = Sorry, Common Voice rint stadich. Tank foar jo belangstell
 banner-error-slow-2 = Wy krije in soad ferkear en ûndersykje op dit stuit de problemen.
 banner-error-slow-link = Statusside
 error-something-went-wrong = Sorry, der is wat misgien
+error-clip-upload = It opladen fan dit fragmint mislearret hieltyd, probearje bliuwe?
+error-clip-upload-server = It opladen fan dit fragmint mislearret hieltyd op de server. Laad de side opnij of probearje it letter nochris.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -40,10 +42,12 @@ ba = Bashkyrsk
 bas = Basaa
 be = Wit-Russysk
 bg = Bulgaarsk
+bm = Bambara
 bn = Bingaalsk
 br = Bretonsk
 bs = Bosnysk
 bxr = Burjatysk
+byv = Medumba
 ca = Katalaansk
 cak = Kaqchikel
 ckb = Sintraal-Koerdysk
@@ -53,9 +57,11 @@ cs = Tsjechysk
 cv = Tsjoevasjysk
 cy = Welsk
 da = Deensk
+dag = Dagbani
 de = Dútsk
 dsb = Leger Sorbysk
 dv = Divehi
+dyu = Dioula
 el = Gryksk
 en = Ingelsk
 eo = Esperanto
@@ -75,6 +81,7 @@ gom = Goaneesk Konkani
 ha = Hausa
 he = Hebriuwsk
 hi = Hindy
+hil = Hiligaynon
 hr = Kroätysk
 hsb = Boppe-Sorbysk
 ht = Haïtiaansk
@@ -89,6 +96,7 @@ is = Iislânsk
 it = Italiaansk
 izh = Izjorysk
 ja = Japansk
+jbo = Lojban
 ka = Georgysk
 kaa = Karakalpaksk
 kab = Kabylysk
@@ -97,6 +105,7 @@ ki = Kikuyu
 kk = Kazaksk
 km = Khmer
 kmr = Kurmanci
+kn = Kannada
 knn = Konkani (Devanagari)
 ko = Koreaansk
 kpv = Kom-Zyrian
@@ -105,6 +114,8 @@ ky = Kirgizysk
 lb = Lúksemburgsk
 lg = Luganda
 lij = Ligurysk
+ln = Lingala
+lo = Laotiaansk
 lt = Litousk
 lv = Letsk
 mai = Maithili
@@ -124,12 +135,17 @@ my = Burmeesk
 myv = Erzja
 nan-tw = Taiwaneesk (Minnan)
 nb-NO = Noarsk Bokmål
+nd = IsiNdebele (Noardlik)
 ne-NP = Nepaleesk
+nhe = Eastlik Huasteca Nahuatl
 nia = Nias
 nl = Nederlânsk
 nn-NO = Norwegysk Nynorsk
+nr = IsiNdebele (Súdlik)
+nso = Noard-Sotho
 nyn = Nyankole
 oc = Okkitaansk
+om = Afaan Oromo
 or = Odia
 pa-IN = Punjabi
 pap-AW = Papiamintsk (Aruba)
@@ -147,16 +163,20 @@ sah = Sakha
 sat = Santali (Ol Chiki)
 sc = Sardyn
 scn = Sisiliaansk
+sdh = Súd-Koerdysk
 shi = Tashelhiyt (Shilha)
 si = Singaleesk
 sk = Slowaaksk
 skr = Saraiki
 sl = Sloveensk
+snk = Sonynke
 so = Somalysk
 sq = Albaneesk
 sr = Servysk
+ss = Siswaty
+st = Súd-Sotho
 sv-SE = Sweedsk
-sw = Swahily
+sw = Swahili
 syr = Syrysk
 ta = Tamilsk
 te = Telugu
@@ -166,26 +186,35 @@ ti = Tigriniaansk
 tig = Tigre
 tk = Turkmeensk
 tl = Tagalog
+tn = Tswana
 tok = Toki Pona
 tr = Turksk
+ts = Tsonga
 tt = Tatarsk
 tw = Twi
 ty = Tahitiaansk
+tyv = Toevaansk
 uby = Oebyksk
 udm = Oedmoertsk
 ug = Oeigoersk
 uk = Oekraynsk
 ur = Urdu
 uz = Oezbeeksk
+ve = Fenda
 vec = Fenetiaansk
 vi = Fjetnameesk
 vot = Wotysk
+wo = Wolof
+xh = Xhosa
 yi = Jiddysk
 yo = Yoruba
 yue = Kantoneesk
+zgh = Tamazight
 zh-CN = Sineesk (Sina)
 zh-HK = Sineesk (Hong Kong)
 zh-TW = Sineesk (Taiwan)
+zu = Zoeloe
+zza = Zazaki
 
 # [/]
 
@@ -197,6 +226,7 @@ speak-now = Sprek no
 datasets = Datasets
 languages = Talen
 about = Oer ús
+partner = Partner wurde
 profile = Profyl
 help = Help
 contact = Kontakt
@@ -323,7 +353,6 @@ shortcut-discard-ongoing-recording-label = Rinnende opname fuortsmite
 shortcut-submit = Tebek
 shortcut-submit-label = Fragminten yntsjinje
 request-language-text = Sjogge jo jo taal noch net op Common Voice?
-request-language-text-learn = Lês hjir hoe’t jo it oanfreegje kinne!
 request-language-button = In taal oanfreegje
 
 ## ProjectStatus
@@ -391,6 +420,7 @@ why-demographic = Wêrom is dit wichtich?
 why-demographic-explanation-2 = Anonime brûkersgegevens lykas leeftyd, gender en aksint helpe de audiogegevens dy’t foar it trainen fan de sekuerens fan spraakwerkenningsmasinen brûkt wurde te ferbetterjen. Jo brûkersnamme en e-mailadres sille nea mei jo yntsjinne gegevens keppele wurde, en jo kinne derfoar kieze jo brûkersnamme iepenbier of anonym te meitsjen.
 accept-privacy = Ik gean akkoart mei hoe’t jo mei dizze gegevens omgean, lykas útlein yn Mozilla’s <privacyLink>Privacybelied</privacyLink>
 accept-privacy-title = Privacybelied
+accept-privacy-and-terms = Ik gean akkoard mei de <termsLink>Betingsten</termsLink> en <privacyLink>Privacybelied</privacyLink> fan Common Voice
 login-identity = Oanmeldingsidentiteit
 login-signup = Oanmelde / Registrearje
 edit = Bewurkje
@@ -416,6 +446,7 @@ gravatar_not_found = Ggjin gravatar foar jo e-mailadres fûn
 file_too_large = It selektearre bestân is te grut
 avatar-uploaded = Avatar opladen
 max-file-size = maks. { $kb }kb
+remove-avatar = Avatar fuortsmite
 
 ## Profile - Email
 
@@ -459,7 +490,9 @@ faq-why-different-speakers-a =
     De measte spraakdatabases wurde traind mei in oerfertsjinwurdiging fan bepaalde demografyske groepen, wat liedt ta in foarkar foar <articleLink>manlik en út de middenklasse</articleLink>. Aksinten en dialekten dy’t faak ûnderfertsjinwurdige binne yn trainingsgegevenssets wurde meastentiids yn ferbân brocht mei groepen minsken dy’t al marzjinalisearre binne. In protte masinen hawwe it ek swier mei it begripen fan froulike stimmen.
     Dit is de reden wêrom wy fariaasje yn ús spraakdatabase wolle!
 faq-why-my-lang-q = Wêrom sit myn taal der noch net by?
-faq-why-my-lang-new-a = Mozilla ferkiest net ien taal boppe de oare. Yn stee dêrfan is Common Voice in inisjatyf dat útslutend troch de mienskip oanstjoerd wurdt, mar it ferget <multilangLink>diverske stappen om in nije taal ta te foegjen</multilangLink> en mei it sammeljen fan spraakdonaasjes te begjinnen. Alderearst moat de Common Voice-website oerset wurde, sadat mienskipsleden tagong hawwe ta de ûnderfining fan de meiwurker yn harren eigen taal. Dêrnei hawwe wy in grutte samling auteursrjochtfrije sinnen nedich dy’t minsken foarlêze kinne. Sa gau as oan beide easken foldien is, wurdt in taal ‘útbrocht’ op Common Voice, sadat minsken harren stim opnimme kinne en donaasjes fan oaren falidearje kinne. As jo in nije taal beskikber helpe meitsje wolle, gean dan nei 'us <sentenceCollectorLink>helpmiddel foar sinnensamling</sentenceCollectorLink> om te begjinnen.
+faq-why-my-lang-a =
+    Common Voice is in crowdsourcingplatfoarm en de talen binne allegearre tafoege troch frijwilligers.
+    Wy soene graach sjen dat jo jo taal tafoegje! <languageRequestLink>Freegje nei it tafoegjen fan jo taal.</languageRequestLink>
 faq-what-quality-q = Hokker lûdskwaliteitsnivo is nedich foar in spraakfragmint om yn de gegevensset brûkt wurde te kinnen?
 faq-what-quality-a = Wy wolle dat de Common Voice-gegevensset de audiokwaliteit wjerspegelet dy’t yn spraak-nei-tekst-engine yn it wyld hearre sil, dus wy binne op syk nei ôfwikseling. Neist in fariearre sprekkersmienskip leart in gegevensset mei ferskate audiokwaliteiten de spraak-nei-tekst-engine om ferskate libbensechte situaasjes oan te kinnen, fan achtergrûnlûd oant autolawaai. Sa lang jo spraakopname begryplik is, moat dizze goed genôch wêze foar de gegevensset.
 faq-why-10k-hours-q = Wêrom is de doelstelling foar lûdsopnamen 10.000 oeren per taal?
@@ -529,12 +562,6 @@ about-dataset-new = Common Voice-gegevensset
 about-dataset-new-text = De Common Voice-gegevensset befettet hûnderttûzenen spraakfragminten dy’t ûntwikkelers helpe spraakwerkenningshelpmiddelen te bouwen.
 about-clip-graveyard = Fragmintetsjerkhôf
 about-clip-graveyard-text = It Fragmintetsjerkhôf bestiet ut stimfragminten dy’t de Common Voice-gegevensset net helle hawwe. Krekt as de gegevensset kin it Fragmintetsjerkhôf download wurde.
-about-partners = Partners
-about-become-a-partner = Partner wurde
-about-partnership =
-    Common Voice is in gearwurkingsprojekt en wy binne ôfhinklik fan ús mienskip fan partners en meiwurkers om de grutste iepen boarne gegevensset fan stimmen ea te bouwen.
-    
-    Wy wolle de folgjende minsken en organisaasjes tankje foar harren help by it projekt:
 about-get-involved = Meiwurkje
 about-get-involved-text-2 =
     Wolle jo helpe Common Voice noch better te meitsjen?
@@ -564,9 +591,19 @@ about-playbook-what-is-language-content-3 = Guon talen hawwe in enoarme fariaasj
 
 about-playbook-how-add-language = Hoe foegje ik in taal ta?
 about-playbook-how-add-language-content-1 = Kontrolearje earst oft jo taal <languageLink>al bestiet</languageLink>. As dat net sa is, moatte jo <strong>de website oersette en sinnen sammelje</strong>.
-about-playbook-how-add-language-content-2 = <strong>Om de side oer te setten</strong> – soargje dat jo <translateVideo>ynsteld binne</translateVideo> op <pontoonLink>Pontoon</pontoonLink>. Pontoon befettet in protte talen, mar as dy fan jo der net by sit, kinne jo <pontoonRequestLink>dizze oanfreegje</pontoonRequestLink>. Freegje dan <repoLink>fia GitHub</repoLink> om it Common Voice-projekt beskikber te meitsjen foar de taal. Mear ynfo oer <localizationFragment>website-oersetting</localizationFragment>.
-about-playbook-how-add-language-content-3 = <strong>Om sinnen te sammeljen</strong> – <scVideo>stel</scVideo> <scLink>Sentence Collector</scLink> yn.
-about-playbook-how-add-language-content-4 = Jo kinne hjir <scLinkAdd>lytse oantallen</scLinkAdd> sinnen tafoegje, of jo kinne <bulkImportDocsLink>bulkymport</bulkImportDocsLink> dwaan fia in Github-fersyk. Unthâld dat sinnen <licenseLink>CC0 (of publyk domein)</licenseLink> wêze moatte, of jo kinne jo eigen sinnen skriuwe. Mear ynfo oer <scFragment>sinnensamling</scFragment>.
+about-playbook-how-add-language-translating-heading = De website oersette
+about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Besjoch ús gids foar it gebrûk fan Pontoon.</translateVideoLink>
+about-playbook-how-add-language-translating-content-2 =
+    Wy brûke in Mozilla-tool mei de namme <pontoonLink>Pontoon</pontoonLink> foar oersettingen. Pontoon hat in protte talen,
+    mar as it dy fan jo net hat, kinne jo <pontoonRequestLink>fersykje om jo taal ta te foegjen</pontoonRequestLink>.
+    Om dernei de taal beskikber te meitsjen foar it Common Voice-projekt,
+    <githubRepoLink>freegje jo de nije taal op GitHub oan</githubRepoLink>. <localizationFragment>Mear ynfo oer website-oersettingen</localizationFragment>.
+about-playbook-how-add-language-collecting-sentences-heading = Sinnen sammelje
+about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>Besjoch ús hantlieding oer it brûken fan de Sentence Collector</sentenceCollectorVideo>.
+about-playbook-how-add-language-collecting-sentences-content-2 =
+    Jo kinne hjir <sentenceCollectorLinkAdd>lytse oantallen</sentenceCollectorLinkAdd> sinnen tafoegje, of jo kinne <bulkImportDocsLink>bulkymport</bulkImportDocsLink> dwaan mei Github.
+    Unthâld dat sinnen <licenseLink>CC0 (of publyk domein)</licenseLink> wêze moatte, of jo kinne jo eigen sinnen skriuwe.
+about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>Mear ynfo oer it sammeljen fan sinnen</sentenceCollectorFragment>.
 
 ## How does localization work
 
@@ -630,12 +667,6 @@ about-playbook-how-project-governance-content-4 = Dielnimming fan en beslútfoar
 about-playbook-how-project-governance-content-5 = Wearde en erkenning.
 about-playbook-how-project-governance-content-6 = Underlinge ferantwurdlikheid.
 about-playbook-how-project-governance-content-7 = <governanceLink>Mear ynfo oer hoe’t wy bestjoerd wurde</governanceLink>
-mycroft-title = Mycroft Ai
-mycroft-subtitle = Artificial intelligence
-mycroft-description =
-    Mycroft is de earste iepen boarne assistint fan de wrâld.
-    Mycroft draait oeral – op in desktopkompjûter, yn in auto of op in Raspberry Pi.
-mycroft-secondary-description = Dit is opensourcesoftware dy’t frij remikst wurde kin, útwreide en ferbettere. Mycroft mei brûkt wurde yn alles fan in wittenskiplik projekt oant in saaklike softwaretapassing.
 
 ## Glossary
 
@@ -703,6 +734,9 @@ datasets-positioning =
     
     Beskôgje dizze side as in list mei referinsjes nei oare iepenboarne-spraakgegevenssets en, wylst Common Voice trochgroeit, de startside foar ús nije útjefte.
 language = Taal
+download-dataset-header = De gegevensset downloade
+download-delta-explainer = Wy hawwe inkelde wizigingen oanbrocht. Delta Segments befetsje allinnich de meast resinte fragminten sûnt de foarige ferzje. <deltaLink>Mear ynfo oer dit wurk</deltaLink>.
+download-dataset-tag = Selektearje de winske taalgegevensset en kies de ferzje dy’t jo downloade wolle.
 # File size in gigabytes
 size = Grutte
 validated-hr-total = Totaal falidearre oeren
@@ -717,6 +751,7 @@ confirm-size = Jo binne ree om in download te starten fan <b>{ $size }</b>
 size-gigabyte = GB
 size-megabyte = MB
 confirm-no-identify = <b>Jo geane dermei akkoart</b> om net te probearjen de identiteit fan sprekkers yn de Common Voice-gegevensset te achterheljen
+confirm-join-mailing-list = Ik wol my oanmelde foar de Common Voice-mailinglist
 download-language = { $language } downloade
 validated-hours = Falidearre oeren:
 recorded-hours = Opnommen oeren
@@ -749,6 +784,9 @@ more = Mear
 close = Slute
 download = Downloade
 dataset-version = Ferzje
+sha256-checksum-copied = SHA256-checksum kopiearre!
+sha256-checksum-copied-error = Kopiearjen SHA256-checksum mislearre
+clipboard-not-supported = Klamboerd wurdt net stipe
 
 ## Download Modal
 
@@ -779,6 +817,47 @@ request-language-success-content = Wy nimme ynkoarten kontakt op mei mear ynform
 select-language = Selektearje in taal…
 other-language = Oare taal
 
+## Request Language Pages
+
+request-language-heading = Neifreegje nei in nije taal
+request-language-explanation-1 =
+    Kontrolearje oft jo taal fermeld wurdt op de
+    <languagesPageLink>Common Voice-taleside</languagesPageLink>.
+    Sa net, folje dan dit formulier yn en wy <strong>stjoere jo in handich e-mailberjocht
+    wêryn útlein wurdt hoe’t jo jo taal opsette litte kinne</strong>.
+request-language-explanation-2 =
+    Wy sille ek <strong>ús mienskipsbehearder witte litte
+    dat jo ynteressearre binne</strong>, sadat se jo eventuele
+    ekstra stipe of ynformaasje dy’t jo nedich hawwe jaan kinne.
+request-language-form-email =
+    .label = Jo e-mailadres
+request-language-form-info =
+    .label = Ynformaasje oer de taal
+request-language-form-info-explanation =
+    Foegje safolle mooglik ynformaasje oer de taal ta. Dit
+    soe wêze kinne:
+request-language-form-info-explanation-list-1 = Nammen fan jo taal
+request-language-form-info-explanation-list-2 = <isoCodeLink>ISO-koaden</isoCodeLink>, wannear bekend
+request-language-form-info-explanation-list-3 = Keppelingen nei websites dy’t ús helpe kinne de taal te begripen
+request-language-google-recaptcha-required = reCAPTCHA is fereaske as jo trochgean wolle
+request-language-google-recaptcha-error = Der is wat misgien mei reCAPTCHA. Probearje it letter opnij.
+# Success page
+request-language-success-heading = Tank! Jo hawwe in nije taaloanfraach ferstjoerd
+request-language-success-list-1 =
+    Jo soene ynkoarten in e-mailberjocht ûntfange moatte mei útlis
+    oer de stappen om jo taal oan Common Voice ta te foegjen
+request-language-success-list-2 =
+    Us mienskipsbehearder sil kontakt mei jo opnimme om
+    ekstra stipe oan te bieden, en om jo witte te litten oft der
+    al in mienskip is dy’t oan jo taal wurket
+request-language-success-list-3 =
+    As jo net binnen in pear dagen wat fan ús hearre,
+    nim dan kontakt op fia <emailLink>{ $email }</emailLink>
+    en wy sille dêrop reagearje!
+request-language-error =
+    Mooglik hawwe wy dat fersyk net ûntfongen. Stjoer ús in e-mailberjocht
+    op <emailLink>{ $email }</emailLink> en wy nimme kontakt mei jo op!
+
 ## Languages Overview
 
 language-section-in-progress = Yn útfiering
@@ -794,7 +873,8 @@ language-search-input =
 language-speakers = Sprekkers
 localized = Oerset
 sentences = Sinnen
-total-hours = Oeren totaal
+language-validation-hours = Oeren
+language-validation-progress = Falidaasjefoarútgong
 
 ## Contribution
 
@@ -1527,7 +1607,6 @@ sc-review-link = Beoardiele
 
 sc-settings-title = Ynstellingen
 sc-settings-ui-language = Ynterfacetaal
-sc-settings-language-translated-warning = De siden foar dizze taal binne mooglik net folslein oerset. Jo kinne helpe mei oersetten <pontoonLinkLink>op Pontoon</pontoonLinkLink>.
 sc-settings-reset-skipped = Oerslagge sinnen opnij inisjalisearje
 sc-settings-skipped-decription =
     Jo hawwe earder sinnen oerslagge wylst it beoardielen.
@@ -1545,3 +1624,39 @@ sc-validation-no-abbreviations = Sin mei gjin ôfkoartingen befetsje
 
 localization-select =
     .label = Kies jo taal/lokalisaasje
+# PARTNERSHIPS PAGE
+partnerships-header = Partners
+partnerships-header-text = Der komt in protte sjen by Common Voice! Wy dogge it net allinnich. Wolle jo mei ús gearwurkje? Wy hearre graach fan jo.
+partnerships-get-in-touch = Kontakt opnimme
+partnerships-become-a-partner = Wur in Common Voice-partner
+partnerships-community-header = Mienskip, kreativelingen en it maatskiplike middenfjild
+partnerships-community-description = De mienskip is it klopjend hert fan Common Voice – de leden komme fan oer de hiele wrâld en binne taalaktivisten, wittenskippers en keunstners. Jo kinne mear leare oer hoe’t jo meidwaan kinne op ús side <about>Oer</about> en yn ús <community>Community Playbook</community>. As jo ynteressearre binne yn in djipper organisatoarysk partnerskip, <emailFragment>nim dan kontakt mei ús op.</emailFragment>
+partnerships-foundations-header = Stichtingen
+partnerships-foundations-description = Wy wurkje gear mei stichtingen, boargerlike maatskippij en maatskiplike partners om it ynternet in sûner plak te meitsjen, mei in bysûndere fokus op East-Afrika. Mear ynfo oer ús <programmaticWork>programmatysk wurk.</programmaticWork>
+partnerships-governments-header = Oerheden
+partnerships-governments-description = Wy binne entûsjast om publike sektor belutsenens by technology, ynnovaasje en taalrjochten te stypjen. As jo fan plan binne in grut projekt of kampanje út te fieren, nim dan <emailFragment>kontakt op.</emailFragment>
+partnerships-academia-header = Universiteiten, akademisy en ûndersikers
+partnerships-academia-description = Iepen ynnovaasje is it hert fan wat wy dogge. Foar ûndersyksgearwurkingen, gegevenssamling of ynterviews, <emailFragment>nim kontakt op.</emailFragment>
+partnerships-small-business-header = Midden- en lytsbedriuwen, wêrûnder technyske en AI-start-ups
+partnerships-small-business-description = Wy sykje altyd gegevenskonsuminten oer harren behoeften en kontekst – fan gearwurkjen oan gegevenssamlingsplatfoarm oant it jaan fan ynsjoch yn gegevenssûnens, wy wolle <emailFragment>fan jo hearre.</emailFragment>
+partnerships-corporates-header = Grutskalige bedriuwen en platfoarmbedriuwen
+partnerships-corporates-description = As jo mear prate wolle oer de gegevensset, mei ynvestearje wolle yn plande platfoarmútwreidingen of sykje nei gearwurkingsmooglikheden, <emailFragment>lit dan in berjocht efter.</emailFragment>
+partnerships-our-partners = Us partners
+# FIRST POST SUBMISSION CTA
+first-cta-header-text = Tank foar it donearjen fan jo stimfragminten!
+first-cta-subtitle-text = Wolle jo wat ynformaasje diele oer hoe’t jo prate?
+why-donate = Wêrom freegje jo dat?
+why-donate-explanation-1 = Ferstrekken fan dizze gegevens is opsjoneel – foegje dizze allinnich ta as jo dat prima fine. As wy de gegevensset útjouwe, anonimisearje wy alle persoanlike gegevens en soargje wy derfoar dat gegevens as jo namme en e-mailadres net keppele binne oan demografyske gegevens lykas leeftiid of geslacht.
+why-donate-explanation-2 = Om technology foar elkenien goed wurkje te litten, moatte de gegevens dy’t ûntwikkelers helpe om technology te bouwen in útien rinnend skala oan minsken reflektearje. As wy bygelyks gjin sprekkers mei in bepaald aksint opnimme, wurket de technology net goed foar minsken mei dat aksint. <learnMore>Mear ynfo oer wêrom metadata wichtich binne.</learnMore>
+add-information-button = Ynformaasje tafoegje
+continue-speaking-button = Nee tankewol, trochgean mei ynsprekken
+create-profile-text = Wolle jo jo gegevens bewarje? <createProfile>Meitsje in profyl oan</createProfile>
+thanks-for-voice-toast = Tank foar jo stimynformaasje
+thanks-for-voice-toast-error = Der is in flater bard by it ferstjoeren fan jo stimynformaasje
+# SECOND POST SUBMISSION CTA
+second-cta-header-text = Tank foar it donearjen fan jo stim!
+second-cta-subtitle-text = Mei in profyl kinne jo jo aktiviteit byhâlde en ferbine mei in mienskip fan bydragers oan spraakgegevens.
+already-have-an-account = Hawwe jo al in account? <login>Oanmelde</login>
+create-profile-button = In profyl oanmeitsje
+# IMAGE TAGS
+img-alt-success-checkmark = suksesfinkje

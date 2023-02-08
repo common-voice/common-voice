@@ -410,6 +410,7 @@ Balogun onye kwuru na site na ọdụ ụgbọelu Ibadan rue nke Murtala Muhamme
 Banyere echi
 Banyere ihe mere na ụgbọelu kwesiri ịdà ebe ahụ ụbọchị ahụ adàghịzị
 Banyere nsogbu ahụ na-adapụta n'obodo ahụ n'etiti eze ọdịnala obodo ahụ
+Barack Obama
 Barack Obama ekwuputego usoro ohuru a ga-esi na-enwe egbe n'Amerika
 Barack Obama meriri Romney n’ụdị Romney na ndị Rịpọblịkan na-atụwaha anya
 Barack Obama, onye isi ala Amerika kwadoro alum di nwoke na nwoke
@@ -449,6 +450,7 @@ Chidi Egwu
 Chidiebere Ojiego kèlèkwara ndị ahụ maka nkwàdo ha dị iche iche
 Chidiebere Ojiego na Onyeka Mbamalu kọwàrà ezi ọrụ ahụ dịka nke kwesiri nñòmi
 Chidoka kpọrọ ndị isi ọlụ
+Chiheb Esseghaier
 Chiheb bi na Montreal ebe onye ogbo ya bu Raed bi na Toronto.
 Chiji Akoma
 Chijindu Samuel
@@ -1299,6 +1301,7 @@ Iwu Ikwubuzo
 Iwu ji ya ịnọ n’okpuru nna ya ukwu
 Iwulite Ala Anyị
 James Comey
+James Malizia
 Jerome Udọjị
 Ji bụ ézè ihe a kọrọ n'ubì
 Jimin Geoffrey site n'ozi ọ kụpụụrụ ndị nta akụkọ
@@ -3577,6 +3580,7 @@ Richard Donahue
 Robert Mueller
 Robert Mueller gbara Menafort na Gates akwụkwọ.
 Rochas Okorocha
+Romney meriri Obama
 Romney nabatara mmeri a Obama meriri ya
 Ryan chịịrị flagụ ndị mba Rọshịa na-aja Trump
 Samson Peter
@@ -4052,6 +4056,7 @@ arụrụala na omekoome ndị ọzọ dị iche iche.
 asụsụ
 atabiena ire taa
 atọ
+atụmatụ 'Anambra State Health Insurance Scheme'.
 atụmatụ a maara dịka "Osupo" n'ala Yoruba.
 atụmatụ ahụ
 atụmatụ imegharịiwu ahụ e ji n'aka ugbua
@@ -7169,6 +7174,7 @@ maka ichètà ndị ihe na-esiri ike n'obodo ahụ
 maka igùzobe ụlọ ọrụ ahụ na
 maka igùzòbè ụlọ ikpe mkpegharị na steeti ahụ
 maka ihazi usoro e si anakọ ụtụ isi na mba ahụ.
+maka iji akụnụba ya wee cheta ndị obodo ya
 maka iji kpụọ ya bụ arụ
 maka iji kụọ elu ụlọ ahụ.
 maka ilebà anya na nsogbu ahụ pụrụ iche na-adapụta n'etiti obodo Aguleri na Umueri
@@ -8151,6 +8157,7 @@ na Maazị Charles Udegbe kọwara ịkụtùsi ụlọ ndị ahụ dịka nke z
 na Maazị Evaristus Ubah
 na Maazị Osita Chukwu kọwara ya bụ mmemme dịka nke magburu onwe ya
 na Maazị Tony Iwoba.
+na Mitt Romney
 na Muhawenimana Colodine Mukamulenzi
 na New York.
 na Ngwom
@@ -10275,6 +10282,7 @@ onyeisi ụlọakwụkwọ 'St
 onyeisi ụlọakwụkwọ 'Udodimma Primary School' dị na Nodu
 onyeisi ụlọọgwụ Toronto
 onyeisi ụlọọrụ 'Anambra State Housing Development Corporation'
+onyeisi ụlọọrụ 'Anambra State Signage and Advertisement Agency
 onyeisi ụlọọrụ 'Anambra Transport Management Agency' bụ Maazị Pat Obiefuna
 onyeisi ụlọọrụ 'Bank of Industry'
 onyeisi ụlọọrụ 'Zero Energy Healing Touch' ma bụrụkwa onye chọpụtara òtù Ụmụ Anyanwụ Ọra
@@ -11069,6 +11077,7 @@ ya kwupụtara nke n'aha Nwankpọ
 ya mekwàrànụ onwe ya
 ya na "Song of Sorrow" nke si n'aka Awoonor-Williams.
 ya na Mkpologwu dị n'okpuru ọchịchị ime obodo Agụata na steeti Anambra.
+ya na Raed Jaser
 ya na ajọ ọnọdụ dị iche iche nke ahụ pụrụ iwèta.
 ya na aka na-achị steeti Anambra bụ Gọvanọ Willie Obianọ
 ya na akọnuche iji chepụta ụzọ kachasị mma a ga-esi chụsòó ihe ndị ahụ.
@@ -11229,6 +11238,7 @@ zụlite ya n'egwu Chineke
 ògbò ya nke Ụmụawụlụ
 ògìgè ụmụaka enweghị nne na nna
 òkpú
+òtù a kpọrọ 'Interministerial Steering Committee on Water
 òtù a maara dịka 'Association of Professional Women Engineers Nigeria
 òtù ahụ jikọtara ndị gọvanọ ndịda anyanwụ ala Nigeria enweela ọgbakọ pụrụ iche
 òtù jikọtara ndị ntorobịa Ụmụnnama

@@ -9,6 +9,7 @@ interface Props {
   accents: Array<{ id: number; name: string }>;
   userLanguages: UserLanguage[];
   setUserLanguages: (userLanguages: UserLanguage[]) => void;
+  clearSelection?: () => void;
 }
 
 const InputLanguageAccents = ({
@@ -16,6 +17,7 @@ const InputLanguageAccents = ({
   accents,
   setUserLanguages,
   userLanguages,
+  clearSelection,
 }: Props) => {
   if (!locale || locale.length === 0) {
     return null;
@@ -28,6 +30,10 @@ const InputLanguageAccents = ({
     });
     newLanguages[languageIndex].accents.splice(accentIndex, 1);
     setUserLanguages(newLanguages);
+
+    // when we remove an accent clear the currently selected item
+    // so it can be selected again
+    clearSelection();
   };
 
   return (

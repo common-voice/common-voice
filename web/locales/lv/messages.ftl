@@ -9,7 +9,7 @@ email-input =
 submit-form-action = Nosūtīt
 loading = Ielāde...
 email-opt-in-info = Es vēlos saņemt e-pasta ziņojumus, piemēram, mērķa atgādinājumus, progresa atjauninājumus un informatīvos biļetenus par šo projektu.
-email-opt-in-privacy = Izvēloties saņemt epasta ziņojumus, jūs piekrītat, ka Mozilla apstrādās tos tā kā tas ir norādīts Mozillas <privacyLink>privātuma politikā<privacyLink>.
+email-opt-in-info-title = Pievienoties Common Voice ziņojumiem e-pastā
 indicates-required = * Obligātie lauki
 not-available-abbreviation = N/A
 
@@ -30,6 +30,7 @@ as = Asāmiešu
 ast = Astūriešu
 az = Azerbaidžāņu
 ba = Baškīru
+be = Baltkrievu
 bg = Bulgāru
 bn = Bengāļu
 br = Bretoņu
@@ -60,7 +61,7 @@ ga-IE = Īru
 gl = Galisiešu
 ha = Hausu
 he = Ebreju
-hi-IN = Hindu
+hi = Hindi
 hr = Horvātu
 hsb = Sorbiju, augšējā
 hu = Ungāru
@@ -75,7 +76,6 @@ kab = Kabilu
 kk = Kazaku
 ko = Korejiešu
 kpv = Komi-Zīriju
-ku = Kurdu
 kw = Kornvolu
 ky = Kirgīzu
 lij = Ligūru
@@ -139,6 +139,7 @@ speak-now = Runā tagad
 datasets = Datu kopas
 languages = Valodas
 about = Par
+partner = Partnerība
 profile = Profils
 help = Palīdzība
 contact = Kontakti
@@ -156,6 +157,7 @@ logout = Izrakstīties
 ## Home Page
 
 home-title = Common Voice ir Mozilla iniciatīva, lai palīdzētu mācīt mašīnas, kā reāli cilvēki runā.
+default-tagline = Common Voice ir Mozilla iniciatīva, lai palīdzētu mācīt mašīnas, kā reāli cilvēki runā.
 home-cta = Runā skaļi, veic ieguldījumu šeit!
 wall-of-text-start = Balss ir dabiska, balss ir cilvēciska. Tieši tāpēc mēs vēlamies izveidot balss atpazīšanas tehnoloģiju, kuru varētu lietot dažādās ierīcēs. Bet, lai radītu šādu balss tehnoloģiju ir nepieciešams liels balss ierakstu skaits.
 wall-of-text-more-mobile = Lielākā daļa datu, ko izmanto lielie uzņēmumi, nav pieejami visiem cilvēkiem. Mēs domājam, ka tas kavē inovāciju. Tāpēc mēs esam uzsākuši projektu Common Voice, projektu, kas padarīs balss atpazīšanu pieejamu ikvienam.
@@ -225,7 +227,6 @@ whats-public = Kas ir publiski pieejms?
 email-not-public = Mēs nepublicēsim jūsu epastu publiski.
 recordings-and-locale-public = Ieguldīto Ierakstu skaits un valodas, būs pieejmas publiski.
 username-optin-public = Jūs varat izvēlēties, vai lietotājvārds ir publisks vai anonīms.
-demographic-deidentified = Pēc jūsu izvēles iesnigtie demogrāfiskie dati (piemēram, vecums, dzimums, valoda un akcents) tiks noņemti no jūsu iesniegtajiem balss datiem un nekad netiks publiskoti jūsu profilā.
 username-email-not-demographic = Jūsu lietotājvārds un epasts netiks piesaistīti publicētajiem datiem.
 
 ## Speak & Listen Shortcuts
@@ -284,8 +285,6 @@ profile-form-accent =
     .label = Akcents
 profile-form-age =
     .label = Vecums
-profile-form-gender =
-    .label = Dzimums
 leaderboard-visibility =
     .label = Līderu saraksta redzamība
 hidden = Paslēpts
@@ -311,7 +310,6 @@ profile-close = Aizvērt
 profile-explanation = Sekojiet savam progresam ar savu profilu un palīdziet mūsu balss datiem būt precīzākiem.
 thanks-for-account = Paldies, ka apstiprinājāt savu kontu, tagad izveidosim jūsu profilu.
 why-demographic = Kāpēc tas ir svarīgi?
-why-demographic-explanation = Anonimizēti lietotāja dati, piemēram, vecums, dzimums un akcents, palīdz uzlabot ierakstus, ko izmanto, lai trenētu runas atpazīšanas algoritmu precizitāti. Jūsu lietotājvārds un epasts nekad netiks piesaistīti jūsu iesniegtajiem datiem, un jūs varat izvēlēties, vai padarīt savu lietotājvārdu publisku vai anonīmu.
 accept-privacy = Es piekrītu, ka Mozilla apstrādā manu informāciju tā kā tas ir norādīts Mozillas <privacyLink>privātuma politikā</privacyLink>
 login-identity = Pieteikšanās identitāte
 login-signup = Ielogoties / Reģistrēties
@@ -324,17 +322,17 @@ skip-submission-description = Iesnieguma iesniegšanas laikā atgriezeniskā sai
 skip-submission-note = Piezīme: mainot ieguldījuma veidu, jums būs jāizvēlas ierakstīt vai klausīties.
 off = Izslēgts
 on = Ieslēgts
-avatar-clip-title = Piešķiriet savam avataram balsi
-recording-voice-wave = ierakstīšana
-ready-to-upload = Augšupielādēt
-avatar-clip-fact = Tas ir sen zināms fakts, ka lasītājs, lasot lapas izkārtojumu, novērš uzmanību no lasāmā lapas satura.
-recreate-voice = Atjaunojiet balss vilni
-cancel-avatar-clip-recording = Atcelt
+
+## Profile - Email
+
 browse-file-title = Augšupielādējiet attēlu
 browse-file = Velciet un nometiet vai <browseWrap> Pārlūkojiet </browseWrap>
 connect-gravatar = Savienoties ar Gravatar
 gravatar_not_found = Jūsu epastam nav atrasts gravatārs
 file_too_large = Atlasītais fails ir pārāk liels
+
+## Profile - Email
+
 manage-subscriptions = Pārvaldīt abonementus
 manage-email-subscriptions = Pārvaldiet e-pasta abonementus
 email-already-used = Epasts jau tiek izmantots citam kontam
@@ -371,7 +369,6 @@ faq-why-different-speakers-a =
     Lielākā daļa runas datu bāzu tiek apmācītas ar dažu demogrāfisko datu pārmērīgu attēlošanu, kas rada novirzi attiecībā uz <articleLink>vidušķiras vīriešiem</articleLink>. Akcenti un dialekti, kas parasti ir nepietiekami pārstāvēti mācību datu kopās, parasti ir saistīti ar cilvēku grupām, kuras jau tā ir atstumtas. Daudzas mašīnas arī cenšas izprast sieviešu balsis.
     Tāpēc mūsu balss datu bāzē mēs vēlamies daudzveidību!
 faq-why-my-lang-q = Kāpēc mana valoda vēl nav iekļauta?
-faq-why-my-lang-new-a = Mozilla neizvēlas nevienu valodu un nepiešķir prioritātes. Tā vietā, kopīgā balss ir tikai kopienas iniciatīva, bet, lai pievienotu jaunu valodu, nepieciešams <multilangLink>vairāki soļi</multilangLink>, lai sāktu balss ziedojumu apkopošanu. Pirmkārt, kopīgā balss tīmekļa vietne ir jātulko, lai kopienas locekļi varētu piekļūt tai savā valodā. Tālāk mums ir vajadzīgs plašs no autortiesībām brīvu teikumu krājums, lai cilvēki varētu lasīt. Tiklīdz abas šīs prasības ir izpildītas, valoda tiek iekļauta kopīgajā balsī, lai cilvēki varētu sākt ierakstīt savu balsi un apstiprināt citus ziedojumus. Ja vēlaties palīdzēt sākt jaunu valodu, dodieties uz mūsu <sentenceCollectorLink>teikuma vākšanas rīku</sentenceCollectorLink>, lai sāktu darbu.
 faq-what-quality-q = Kāda līmeņa audio kvalitāte ir nepieciešama, lai balss ierakstu varētu izmantot datu kopā?
 faq-what-quality-a = Mēs vēlamies, lai kopīgā balss datu kopa atspoguļotu skaņas kvalitāti, ko runātājs dzirdēs savvaļā, tāpēc mēs meklējam dažādību. Papildus daudzveidīgai runātāju kopai datu kopa ar atšķirīgu skaņas kvalitāti iemācīs runas-teksta dzinējam, rīkoties ar dažādām reālām situācijām, piemēram no fona ar automašīnu troksni. Kamēr jūsu balss klips ir saprotams, tas ir pietiekami labs datu kopai.
 faq-why-10k-hours-q = Kādēļ 10000 stundas ir mērķis ierakstu pārbaudē?
@@ -403,12 +400,10 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Kāpēc ir kopīgā balss?
-about-subtitle = Kopējā balss ir daļa no Mozilla iniciatīvas, lai palīdzētu mācīt mašīnas, kā reāli cilvēki runā. Papildus kopīgajai balss datu kopai mēs veidojam arī atvērtā pirmkoda runas atpazīšanas dzinēju, ko sauc par Deep Speech.
-about-header-description =
-    Abi šie projekti ir daļa no mūsu centieniem pārvarēt digitālās runas dalījumu. Balss atpazīšanas tehnoloģijas mūsu ierīcēm rada cilvēcisku dimensiju, bet izstrādātājiem ir nepieciešams milzīgs balss datu apjoms. Pašlaik lielākā daļa šo datu ir dārgi un patentēti.
-    Mēs vēlamies, lai balss dati būtu brīvi un publiski pieejami, un pārliecinieties, ka dati atspoguļo reālo cilvēku daudzveidību. Kopā mēs varam uzlabot balss atpazīstamību ikvienam.
-how-does-it-work-title = Kā tas darbojās?
 how-does-it-work-text = Mēs piedāvājam atklātu un brīvi pieejamsu datu kopu. Ziedojiet savu balsi, apstipriniet citu cilvēku klipu precizitāti, uzlabojiet datu kopu visiem.
+
+## How does it work section
+
 about-speak = Runājiet
 about-speak-text = Dalībnieki ieraksta balss klipus, lasot no apkopoto teikumu datu bāzes.
 about-listen-queue = Klausīšanās rinda
@@ -425,23 +420,42 @@ about-dataset-new = Balss datu kopa
 about-dataset-new-text = Balss datu kopai ir simtiem tūkstošu balss paraugu, kas palīdz izstrādātājiem izveidot balss atpazīšanas rīkus.
 about-clip-graveyard = Klipu kapsēta
 about-clip-graveyard-text = Klipu kapsēta sastāv no balss klipiem, kas netika iekļauti balss datu kopā. Tāpat kā datu kopa, klipu kapsēta ir pieejama lejupielādei.
-about-partners = Partneri
-about-become-a-partner = Kļūsti par partneri
-about-partnership =
-    Kopējā balss ir kopējs sadarbības projekts, un mēs esam atkarīgi no mūsu partneru un dalībnieku kopienas, lai izveidotu lielāko atklāto balss datu kopu.
-    
-    Mēs vēlētos pateikties šādiem cilvēkiem un organizācijām par viņu palīdzību projektā:
 about-get-involved = Iesaistieties
 about-nav-why-common-voice = Kāpēc?
 about-nav-how-it-works = Kā?
 about-nav-partners = Partneri
 about-nav-get-involved = Iesaistieties
-mycroft-title = Mycroft Ai
-mycroft-subtitle = Mākslīgais intelekts
-mycroft-description =
-    Mycroft ir pasaulē pirmais atklātā pirmkoda palīgs.
-    Mycroft darbojas jebkurā vietā - uz galda datora, automobiļa iekšienē vai Raspberry Pi.
-mycroft-secondary-description = Tā ir atvērtā koda programmatūra, ko var brīvi pārveidot, paplašināt un uzlabot. Mycroft var izmantot visur no zinātnes projekta līdz biznesa programmatūrai.
+
+## Community Playbook Content
+## What is a language
+
+
+## How do I add a language
+
+
+## How does localization work
+
+
+## How to add sentences
+
+
+## How to record quality
+
+about-playbook-how-record-content-2 = Izvairieties no pārāk liela fona trokšņa — Jūs jāvar viegli saklausīt.
+
+## How to grow language
+
+about-playbook-how-grow-language-content-6 = Partnerības un tīkli
+
+## How to validate
+
+about-playbook-how-validate-content-3 = Ja uzskatāt, ka izruna <strong>neļauj pilnībā saprast</strong> vai ir <strong>liels fona troksnis</strong> vai <strong>fonā runā arī citi cilvēki</strong>, tad ieraksts ir jānoraida. <accuracyLink>Skatiet plašāku informāciju mūsu precizitātes kritērijos</accuracyLink>.
+
+## How to access dataset
+
+
+## How are decisions made
+
 
 ## Glossary
 
@@ -457,10 +471,8 @@ sst-explanation = Runas-teksta (STT) tehnoloģijas pārvērš balss datus tekst�
 de-identified = Atbrīvots no identifikācijas
 de-identified-explanation = Process, kurā ierunātāja profila informācija tiek maskēta viņu ziedotajos balss klipos, ja tie ir pieejami lejupielādei kā datu kopas daļa.
 
-## NotFound
+## Error pages
 
-notfound-title = Nav atrasts
-notfound-content = Es baidos, ka nezinu, ko jūs meklējat.
 
 ## Data
 
@@ -528,8 +540,6 @@ subscribe = Pierakstīties
 get-started-speech = Darba sākšana ar runas atpazīšanu
 other-datasets = Citas balss datu kopas
 feedback-q = Vai jum ir atsauksmes?
-deepspeech-info = Kopējā balss datu kopa papildina Mozilla atvērtā koda balss atpazīšanas dzinēju Deep Speech, ko var izmantot, lai izveidotu runas atpazīšanas lietojumprogrammas. Izlasiet mūsu <githubLink>Github pārskatu</githubLink> vai pievienojieties <discourseLink>DeepSpeech Discourse</discourseLink>, lai uzzinātu, kā sākt darbu.
-common-voice-info-new = Vai jums ir jautājumi par kopējo balsi? Idejas uzlabojumiem vai atsauksmes par konkrētu valodu? Pievienojieties mums mūsu <discourseLink>Diskursa forumā</discourseLink> un informējiet mūs.
 data-other-librispeech-description = LibriSpeech ir aptuveni 1000 stundu 16Khz ar angļu valodas runu, kas iegūta no LibriVox projekta lasītajām audio grāmatām.
 data-other-ted-name = TED-LIUM korpuss
 data-other-ted-description = TED-LIUM korpuss tika izgatavots no audio ierakstiem un to transkripcijām, kas pieejamas TED tīmekļa vietnē.
@@ -574,6 +584,9 @@ request-language-success-content = Mēs nosūtīsim vairāk informācijas par to
 select-language = Uzstādiet valodu...
 other-language = Cita valoda
 
+## Request Language Pages
+
+
 ## Languages Overview
 
 language-section-in-progress = Procesā
@@ -589,17 +602,15 @@ language-search-input =
 language-speakers = Runātāji
 localized = Lokalizēts
 sentences = Teikumi
-total-hours = Pārbaudītās st.
 
 ## Contribution
 
 action-click = Klikšķis
 action-tap = Piesit
 contribute = Veic ieguldījumu
-listen = Klausīties
+listen = Klausies
 skip = Izlaist
 shortcuts = Īsceļi
-clips-with-count = <bold>{ $count }</bold> ieraksti
 goal-help-recording = Jūs esat palīdzējuši kopējai balsij sasniegt <goalPercentage> </goalPercentage> no mūsu ikdienas { $goalValue } ierakstu mērķa!
 goal-help-validation = Jūs esat palīdzējuši kopējai balsij sasniegt <goalPercentage> </goalPercentage> no mūsu ikdienas { $goalValue } pārbaudīto ierakstu mērķa!
 contribute-more =
@@ -611,7 +622,6 @@ contribute-more =
 record-cta = Sāciet ierakstīšanu
 record-platform-not-supported = Diemžēl jūsu platforma pašlaik netiek atbalstīta.
 record-platform-not-supported-desktop = Datoros varat lejupielādēt jaunāko:
-record-platform-not-supported-ios = <bold>iOS</bold> lietotāji var lejupielādēt mūsu bezmaksas lietotni:
 record-must-allow-microphone = Jums jāļauj piekļūt mikrofonam.
 record-no-mic-found = Nav atrasts neviens mikrofons.
 record-error-too-short = Ieraksts bija pārāk īss.
@@ -627,7 +637,7 @@ record-last-instruction = <recordIcon> </recordIcon> Pēdējais!
 review-tooltip = Pārskatiet un atkārtoti ierakstiet klipus
 review-instruction = Ja nepieciešams, pārskatiet un atkārtoti ierakstiet klipus
 record-submit-tooltip = { $actionType } iesniedziet, kad viss gatavs
-clips-uploaded = Augšupielādētie ieraksti
+clips-uploaded = Ieraksti saglabāti
 record-abort-title = Varbūt vispirms pabeidz ierakstu?
 record-abort-text = Aizejot, jūs zaudēsiet savu progresu
 record-abort-submit = Iesniegt ierakstu
@@ -637,6 +647,7 @@ listen-instruction = { $actionType } <playIcon> </playIcon> vai viņi precīzi i
 listen-again-instruction = Lieliski paveikts darbs! <playIcon> </playIcon> Klausieties vēlreiz, kad esat gatavs
 listen-3rd-time-instruction = 2 pabeigti, tā tik turi! <playIcon> </playIcon>
 listen-last-time-instruction = <playIcon> </playIcon> Pēdējais!
+listen-empty-state = Iespējams visi ieraksti jau ir apstrādāti - pārlādējiet lapu vai mēģiniet nedaudz vēlāk.
 record-button-label = Ierakstiet savu balsi
 share-title-new = <bold> Palīdziet mums </bold> atrast vairāk balsu
 keep-track-profile = Sekojiet līdzi progresam, izmantojot profilu
@@ -725,13 +736,8 @@ want-to-continue = Vai vēlaties turpināt?
 finish-editing = Vai vispirms pabeigt rediģēšanu?
 lose-changes-warning = Ja aiziesiet tagad, jūs zaudēsit izmaiņas
 build-custom-goal = Izveidojiet pielāgotu mērķi
-help-reach-hours = Palīdziet sasniegt { NUMBER($hours) } stundas { $language } ar personīgu mērķi
-help-reach-hours-general = Palīdziet sasniegt { NUMBER($hours) } stundas { $language } ar personīgu mērķi
 set-a-goal = Izvirziet mērķi
 cant-decide = Nevar izlemt?
-activity-needed-calculation =
-    { NUMBER($totalHours) } stundas ir sasniedzamas nedaudz vairāk kā { NUMBER($periodMonths) }
-    mēnešos, ja { NUMBER($people) } cilvēki dienā ieraksta { NUMBER($clipsPerDay) } klipus.
 how-many-per-day = Lieliski! Cik klipu dienā?
 how-many-a-week = Lieliski! Cik klipu nedēļā?
 which-goal-type = Vai vēlaties runāt, klausīties vai abus?
@@ -739,7 +745,6 @@ receiving-emails-info = Es vēlos saņemt e-pasta ziņojumus, piemēram, mērķa
 not-receiving-emails-info =
     Pašlaik jums ir iestatīts <bold> NESAŅEMT </bold> e-pastus, piemēram, atgādinājumus par mērķiem, mans
     progresa atjauninājumi un biļeteni par kopīgo balsi
-n-clips = { NUMBER($count) } klipi
 help-share-goal = Palīdziet mums atrast vairāk balsu, dalieties ar savu mērķi
 confirm-goal = Apstipriniet mērķi
 goal-interval-weekly = Reizi nedēļā
@@ -771,6 +776,9 @@ why-delete-recordings =
     Vai jūs varat mums paziņot, kāpēc vēlaties, lai jūsu ieraksti tiktu dzēsti?
 profile-form-delete = Dzēst profilu
 
+## Profile Download
+
+
 ## Landing
 
 welcome-staff = Sveicināti { $company } darbinieki!
@@ -778,3 +786,125 @@ help-contribute = Jūs varat palīdzēt veidot daudzveidīgu, atvērtā pirmkoda
 login-company = Piesakieties / pierakstieties ar { $company } e-pastu
 profile-not-required = Lai veiktu ieguldījumu, profilu veidot nevajag, bet tas var būt noderīgi ja jūs to izveidosiet
 read-more-about = Lasiet vairāk mūsu lapā Par mums
+
+## DemoLayout
+
+
+## Demo Datasets
+
+
+## Demo Account
+
+
+## Demo Contribute
+
+
+## Demo Dashboard
+
+
+## Validation criteria
+
+contribution-criteria-nav = Kriteriji
+contribution-criteria-link = Ierakstu kvalitātes kritēriji
+contribution-criteria-page-title = Ieguldījuma kritēriji
+contribution-criteria-page-description = Izprotiet, kam jāpievērš uzmanība, klausoties ierakstus, un ziniet kā padarīt arī savus ierakstus labākus!
+contribution-for-example = piemēram
+contribution-misreadings-title = Kļūdaini lasījumi
+contribution-misreadings-description = Klausoties ļoti rūpīgi pārbaudiet, vai ierakstītais ir tieši tas, kas uzrakstīts; noraidiet, ja ir pat nelielas kļūdas. <br />Biežākās kļūdas ir šādas:
+contribution-misreadings-description-extended-list-1 = Izlaisti vārdi, piemēram trūkst <strong>'ja'</strong> vai <strong>'es'</strong>, piemēram 'es esmu' vietā ierunāts tikai 'esmu'.
+contribution-misreadings-description-extended-list-2 = Norautas vārdu galotnes, piemēram <strong>'s'</strong> vārda beigās.
+contribution-misreadings-description-extended-list-3 = Ierunāts vārds nepareizā locījumā.
+contribution-misreadings-description-extended-list-4 = Trūkst vārda beigu, jo ieraksts ir izslēgts pārāk ātri
+contribution-misreadings-description-extended-list-5 = Ierakstā dzirdami vairāki mēģinājumi ierakstīt vienu un to pašu frāzi
+contribution-misreadings-example-1-title = Senā laikmeta dinozauri
+contribution-misreadings-example-2-title = Senā laikmeta dinozaurs
+contribution-misreadings-example-2-explanation = [Jābūt ‘dinozauri’]
+contribution-misreadings-example-3-title = Senā laikmeta dinozaur-
+contribution-misreadings-example-3-explanation = [Ieraksts pārtraukts pirms pēdējā vārda beigām]
+contribution-misreadings-example-4-title = Senā laikmeta dinozauri. Jā.
+contribution-misreadings-example-4-explanation = [Ir ierakstīts vairāk nekā bija rakstīts]
+contribution-misreadings-example-5-title = Jā, es esmu liels kafijas mīļotājs
+contribution-misreadings-example-6-title = Jā, esmu liels kafijas mīļotājs
+contribution-misreadings-example-6-explanation = [Jābūt “es esmu”]
+contribution-misreadings-example-7-title = Ja, es esmu liels kafijas mīļotājs
+contribution-misreadings-example-7-explanation = [‘Ja‘ nav tas pats kas ‘jā‘]
+contribution-misreadings-example-8-title = Bites ir čakli kukaiņi
+contribution-misreadings-example-8-explanation = [Neatbilstošs saturs]
+contribution-varying-pronunciations-title = Dažādas izrunas
+contribution-varying-pronunciations-description = Esiet piesardzīgi, pirms noraidāt ierakstu, pamatojoties uz to, ka lasītājs ir nepareizi izrunājis vārdu, ievietojis uzsvaru nepareizā vietā vai acīmredzami ignorējis jautājuma zīmi. Izrunas pasaulē ir dažādas un dažus no tām jūs, iespējams, ikdienā nedzirdat sev apkārt. Novērtējiet to, ka dažādi cilvēki runā citādāk nekā jūs.
+contribution-varying-pronunciations-description-extended = No otras puses, ja izruna ir nepareiza vai kļūdaina, noraidiet ierakstu. Ja neesat pārliecināti, izmantojiet izlaišanas pogu.
+contribution-background-noise-title = Fona troksnis
+contribution-background-noise-description = Mēs vēlamies, lai mašīnmācīšanās algoritmi spētu apstrādāt dažādus fona trokšņus, un var tikt pieņemti pat salīdzinoši skaļi trokšņi, ja tie netraucē dzirdēt visu tekstu. Klusa fona mūzika ir ok; mūzika kas traucē skaidri sadzirdēt katru vārdu nav ok.
+contribution-background-noise-description-extended = Ja ieraksts raustās vai tajā ir sprakšķi, noraidiet, ja vien joprojām nav pilnībā dzirdams viss teksts.
+contribution-background-voices-title = Balsis fonā
+contribution-background-voices-description = Klusa murmināšana fonā ir pieņemama, taču mēs nevēlamies papildu balsis, kas varētu traucēt algoritmam pareizi noteikt vārdus, kas nav rakstītajā tekstā. Ja dzirdat vārdus, kas nav rakstīti tekstā, klips ir jānoraida. Parasti tas notiek tur, kur televizors ir atstāts ieslēgts vai kad tuvumā notiek saruna.
+contribution-background-voices-description-extended = Ja ieraksts raustās vai tajā ir sprakšķi, noraidiet, ja vien joprojām nav pilnībā dzirdams viss teksts.
+contribution-background-voices-example-1-title = Triasa laikmeta milzu dinozauri. <strong>[lasa vienā balsa]</strong>
+contribution-background-voices-example-1-explanation = Vai tu nāc? <strong>[saka kāds cits]</strong>
+contribution-volume-title = Skaļums
+contribution-volume-description = Starp lasītājiem būs dabiskas ieraksta skaļuma atšķirības. Noraidīt tikai tad, ja skaļums ir tik liels, ka ierakstā ir krakšķi vai tas pārtrūkst, vai arī, ja tas ir tik kluss, ka nevar saklausīt dzirdēt teikto bez atsauces uz rakstīto tekstu.
+contribution-reader-effects-title = Ierunātāja izrunas īpatnības
+contribution-reader-effects-description = Lielākā daļa ierakstu ir cilvēki, kas runā savā dabiskajā balsī. Varat pieņemt nelielas atkāpes, ja piemēram kāda frāze tiek pateikta skaļāk, klusāk vai tiek pasniegta ‘dramatiskā’ balsī. Lūdzu, noraidiet dziedātos ierakstus un tos, kas ierunāti robotiskā datora balsī.
+contribution-just-unsure-title = Vienkārši neesat pārliecināti?
+contribution-just-unsure-description = Ja saskaraties ar kaut ko, kas šajās vadlīnijās nav ietverts, lūdzu, balsojiet kā jums šķiet pareizi. Kvalitāte un precizitāte ir svarīgāka par ierakstu skaitu. Ja tiešām nevarat izlemt, izmantojiet izlaišanas pogu un pārejiet uz nākamo ierakstu.
+see-more = <chevron></chevron>Rādīt vairāk
+see-less = <chevron></chevron>Rādīt mazāk
+
+# Don't rename the following section, its contents are auto-inserted based on the name. These strings are
+# automatically exported from Sentence Collector.
+# [SentenceCollector]
+
+
+## HEADER/FOOTER
+
+
+## HOME
+
+
+## GENERAL
+
+
+## HOW-TO
+
+
+## MY SENTENCES
+
+
+## REJECTED
+
+
+## STATS
+
+
+## ADD
+
+
+## ADD LANGUAGE
+
+
+## ADD SENTENCES CONFIRMATION
+
+
+## LANGUAGE INFO
+
+
+## LOGIN
+
+
+## PROFILE
+
+
+## REVIEW CRITERIA
+
+
+## REVIEW
+
+
+## SETTINGS
+
+
+# [/SentenceCollector]
+
+# PARTNERSHIPS PAGE
+partnerships-header = Partnerības
+partnerships-get-in-touch = Sazināties

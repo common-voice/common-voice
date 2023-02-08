@@ -1,6 +1,6 @@
 import { Localized } from '@fluent/react';
 import * as React from 'react';
-import { useEffect, useRef, useState } from 'react';
+import { useState } from 'react';
 import { shallowEqual } from 'react-redux';
 import { trackHome } from '../../../services/tracker';
 import { useTypedSelector } from '../../../stores/tree';
@@ -8,8 +8,10 @@ import { ContributableLocaleLock } from '../../locale-helpers';
 import { RecordLink } from '../../primary-buttons/primary-buttons';
 import RegisterSection from '../../register-section/register-section';
 import { LinkButton } from '../../ui/ui';
+import Page from '../../ui/page';
 import Hero from './hero';
 import { ClipsStats, VoiceStats } from './stats';
+import URLS from '../../../urls';
 
 import './home.css';
 
@@ -17,6 +19,7 @@ type HeroType = 'speak' | 'listen';
 
 export default function HomePage() {
   const heroes = ['speak', 'listen'];
+
   const { locale, user } = useTypedSelector(
     ({ locale, user }) => ({
       locale,
@@ -28,19 +31,10 @@ export default function HomePage() {
   const [activeHero, setActiveHero] = useState<null | HeroType>(null);
   const [showWallOfText, setShowWallOfText] = useState(false);
 
-  const statsRef = useRef<HTMLDivElement>(null);
-
-  useEffect(() => {
-    if (location.hash == '#stats') {
-      statsRef.current.scrollIntoView(true);
-      window.scrollBy(0, -130);
-    }
-  }, []);
-
   return (
-    <div className="home">
+    <Page className="home">
       <ContributableLocaleLock
-        render={({ isContributable }: any) =>
+        render={({ isContributable }: { isContributable: boolean }) =>
           isContributable ? (
             <div
               className={
@@ -84,9 +78,9 @@ export default function HomePage() {
       <div className="text">
         <div className="inner">
           <div className="title">
-            <Localized id="default-tagline">
-              <h1 />
-            </Localized>
+            <h1>
+              <Localized id="default-tagline" />
+            </h1>
           </div>
 
           <div className="description">
@@ -128,7 +122,7 @@ export default function HomePage() {
         </div>
       </div>
 
-      <div className="stats" ref={statsRef}>
+      <div className="stats">
         <ClipsStats.Root />
         <VoiceStats />
       </div>
@@ -140,28 +134,27 @@ export default function HomePage() {
           </div>
           <div className="cta">
             <ContributableLocaleLock
-              render={({ isContributable }: any) =>
+              render={({ isContributable }: { isContributable: boolean }) =>
                 isContributable ? (
                   <>
                     <RecordLink
                       onClick={() => trackHome('speak-mars', locale)}
                     />
-                    <Localized id="ready-to-record">
-                      <h1 />
-                    </Localized>
+                    <h1>
+                      <Localized id="ready-to-record" />
+                    </h1>
                   </>
                 ) : (
                   <>
-                    <Localized id="request-language-text">
-                      <h1 />
-                    </Localized>
+                    <h1>
+                      <Localized id="request-language-text" />
+                    </h1>
                     <div style={{ width: '100%' }} />
                     <Localized id="request-language-button">
                       <LinkButton
                         type="button"
                         className="request-language"
-                        blank
-                        href="https://github.com/mozilla/common-voice/blob/main/docs/LANGUAGE.md"
+                        to={URLS.LANGUAGE_REQUEST}
                       />
                     </Localized>
                   </>
@@ -172,12 +165,12 @@ export default function HomePage() {
         </section>
       ) : (
         <RegisterSection marsSrc="/img/mars.svg">
-          <Localized id="help-make-dataset">
-            <h1 />
-          </Localized>
-          <Localized id="profile-not-required">
-            <h2 />
-          </Localized>
+          <h1>
+            <Localized id="help-make-dataset" />
+          </h1>
+          <h2>
+            <Localized id="profile-not-required" />
+          </h2>
           <Localized id="sign-up-account">
             <LinkButton
               rounded
@@ -187,6 +180,6 @@ export default function HomePage() {
           </Localized>
         </RegisterSection>
       )}
-    </div>
+    </Page>
   );
 }

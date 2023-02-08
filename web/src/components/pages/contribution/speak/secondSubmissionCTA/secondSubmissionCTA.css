@@ -1,0 +1,87 @@
+.second-cta-container {
+    position: absolute;
+    top: 15%;
+    left: 15%;
+    background: rgba(229, 229, 229, 0);
+    width: 70%;
+    height: 65%;
+    z-index: 10;
+
+    .header-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .happy-mars-container {
+            margin-bottom: 30px;
+
+            img {
+                @media (--xs-only) {
+                    height: 120px;
+                    width: 120px;
+                }
+            }
+        }
+    }
+
+    .header-text-container {
+        margin-bottom: 80px;
+
+        @media (--xs-down) {
+            margin-bottom: 40px;
+        }
+
+        .header-text {
+            font-size: 36px;
+            font-weight: 400;
+            text-align: center;
+        }
+    }
+
+    .subtitle-text {
+        text-align: center;
+    }
+
+    .subtitle-text-container {
+        margin-bottom: 70px;
+
+        @media (--xs-only) {
+            margin-bottom: 40px;
+        }
+    }
+
+    & .create-profile-button {
+        background: var(--blue);
+        border: none;
+        margin-bottom: 25px;
+
+        &:hover {
+            border: 1px solid var(--black);
+        }
+    }
+
+    .submission-buttons {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 25px;
+
+        .button {
+            @media (--md-up) {
+                width: auto;
+            }
+        }
+    }
+
+    .login-text {
+        text-align: center;
+
+        @media (--xs-only) {
+            margin-bottom: 20px;
+        }
+
+        a {
+            color: var(--anchor-text-blue);
+        }
+    }
+}

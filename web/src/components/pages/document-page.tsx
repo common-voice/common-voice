@@ -1,9 +1,13 @@
 import * as React from 'react';
+import { useEffect, useState } from 'react';
 import { connect } from 'react-redux';
+
 import API from '../../services/api';
 import StateTree from '../../stores/tree';
 import { Spinner } from '../ui/ui';
-import { useEffect, useState } from 'react';
+import Page from '../ui/page';
+import PageTextContent from '../ui/page-text-content';
+import PageHeading from '../ui/page-heading';
 
 interface PropsFromState {
   api: API;
@@ -21,10 +25,11 @@ type Props = {
 function DocumentPage(props: Props) {
   const { api, name, locale } = props;
   const [html, setHtml] = useState('');
+  const [h1Content, setH1Content] = useState('');
 
   // Whenever locale changes (and on first draw) fetch the document to be displayed.
   useEffect(() => {
-    fetchDocument().then();
+    fetchDocument();
   }, [locale]);
 
   /**
@@ -32,13 +37,28 @@ function DocumentPage(props: Props) {
    */
   async function fetchDocument() {
     const nextHtml = await api.fetchDocument(name);
-    setHtml(nextHtml);
+
+    const h1Regex = /<h1>(.*)<\/h1>/;
+    const nextH1Content = nextHtml.match(h1Regex)[1];
+    const htmlWithoutH1 = nextHtml.replace(h1Regex, '');
+
+    setH1Content(nextH1Content);
+    setHtml(htmlWithoutH1);
   }
 
-  return html ? (
-    <div dangerouslySetInnerHTML={{ __html: html }} />
-  ) : (
-    <Spinner />
+  return (
+    <Page isCentered>
+      {html ? (
+        <React.Fragment>
+          <PageHeading>{h1Content}</PageHeading>
+          <PageTextContent>
+            <div dangerouslySetInnerHTML={{ __html: html }} />
+          </PageTextContent>
+        </React.Fragment>
+      ) : (
+        <Spinner />
+      )}
+    </Page>
   );
 }
 

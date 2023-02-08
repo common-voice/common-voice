@@ -12,10 +12,6 @@ import { importLocales } from './lib/model/db/import-locales';
 import { importTargetSegments } from './lib/model/db/import-target-segments';
 import { scrubUserActivity } from './lib/model/db/scrub-user-activity';
 import Model from './lib/model';
-import {
-  getFullClipLeaderboard,
-  getFullVoteLeaderboard,
-} from './lib/model/leaderboard';
 import API from './lib/api';
 import { redis, useRedis, redlock } from './lib/redis';
 import { APIError, ClientError, getElapsedSeconds } from './lib/utility';
@@ -26,7 +22,6 @@ import fetchLegalDocument from './fetch-legal-document';
 import { createTaskQueues, TaskQueues } from './lib/takeout';
 import getCSPHeaderValue from './csp-header-value';
 import { ValidationError } from 'express-json-validator-middleware';
-const contributableLocales = require('locales/contributable.json');
 
 const MAINTENANCE_VERSION_KEY = 'maintenance-version';
 const FULL_CLIENT_PATH = path.join(__dirname, '..', '..', 'web');
@@ -137,11 +132,6 @@ export default class Server {
 
       app.use(express.static(FULL_CLIENT_PATH, staticOptions));
 
-      app.use(
-        '/contribute.json',
-        express.static(path.join(__dirname, '..', '..', 'contribute.json'))
-      );
-
       if (options.bundleCrossLocaleMessages) {
         this.setupCrossLocaleRoute();
       }
@@ -175,7 +165,9 @@ export default class Server {
           const isAPIError = error instanceof APIError;
           return response
             .status(error?.status || StatusCodes.INTERNAL_SERVER_ERROR)
-            .json({ message: isAPIError ? error.message : '' });
+            .json({
+              message: isAPIError ? error.message : 'Something went wrong',
+            });
         }
       );
     }
@@ -341,6 +333,9 @@ export default class Server {
       'common-voice-maintenance-lock',
       1000 * 60 * 60 * 6 /* keep lock for 6 hours */
     );
+
+    console.log('lock acquired: ', lock?.resource?.toString());
+
     // we need to check again after the lock was acquired, as another instance
     // might've already migrated in the meantime
     if (await this.hasMigrated()) {

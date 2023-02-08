@@ -67,7 +67,7 @@
         position: absolute;
         top: 0;
         right: 0;
-        box-sizing: border-box;
+
         flex-direction: column;
         display: none;
 

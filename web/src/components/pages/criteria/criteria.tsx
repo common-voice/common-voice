@@ -1,7 +1,10 @@
 import { Localized } from '@fluent/react';
 import * as React from 'react';
 import { useState } from 'react';
+
 import { CheckWithBoxIcon, AlertIcon, ChevronDown } from '../../ui/icons';
+import Page from '../../ui/page';
+import PageHeading from '../../ui/page-heading';
 
 import './criteria.css';
 
@@ -118,11 +121,12 @@ export default function Criteria() {
   };
 
   return (
-    <div className="contribution-criteria">
+    <Page className="contribution-criteria">
       <div className="contribution-criteria-content">
-        <Localized id="contribution-criteria-page-title">
-          <h1 className="contribution-criteria-page-title" />
-        </Localized>
+        <PageHeading>
+          <Localized id="contribution-criteria-page-title" />
+        </PageHeading>
+
         <Localized id="contribution-criteria-page-description">
           <div className="contribution-criteria-page-description" />
         </Localized>
@@ -214,6 +218,6 @@ export default function Criteria() {
           );
         })}
       </div>
-    </div>
+    </Page>
   );
 }

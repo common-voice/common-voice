@@ -5,6 +5,10 @@
     "color-function-notation": "legacy",
     "declaration-block-no-duplicate-properties": true,
     "font-family-name-quotes": "always-where-recommended",
+    "function-no-unknown": [
+      true,
+      { "ignoreFunctions": ["color-mod", "alpha"] }
+    ],
 
     "rule-empty-line-before": null,
     "selector-class-pattern": null,

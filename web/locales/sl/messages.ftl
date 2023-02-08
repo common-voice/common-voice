@@ -273,6 +273,7 @@ whats-public = Kaj je javno?
 email-not-public = Vašega e-poštnega naslova ne bomo javno objavili.
 recordings-and-locale-public = Število posnetkov in jeziki, pri katerih sodelujete, bodo javni.
 username-optin-public = Svoje uporabniško ime lahko nastavite kot javno ali anonimno.
+demographic-deidentified-clarity-2 = Izbirno predloženi demografski podatki (npr. starost, spol, jezik in naglas) v vašem profilu ne bodo nikoli objavljeni in ne bodo povezani z vašim računom v naboru podatkov. Posamezni zvočni posnetki bodo zaradi natančnejše analize povezani z demografskimi podatki - na primer, raziskovalec bo morda želel model usposabljanja usmeriti na določen demografski segment.
 username-email-not-demographic = Vaše uporabniško ime in e-poštni naslov ne bosta povezana z objavljenimi podatki.
 
 ## Speak & Listen Shortcuts
@@ -305,7 +306,6 @@ shortcut-discard-ongoing-recording = ESC
 shortcut-discard-ongoing-recording-label = Zavrzi trenutno snemanje
 shortcut-submit-label = Pošlji posnetke
 request-language-text = Vaš jezik še ni vključen v Common Voice?
-request-language-text-learn = Naučite se, kako to zahtevati!
 request-language-button = Predlagaj jezik
 
 ## ProjectStatus
@@ -404,7 +404,12 @@ change-email-setings = E-poštni naslov spremenite v nastavitvah pod Identiteta 
 
 faq-title = Pogosta vprašanja
 faq-what-cv-q = Kaj je Common Voice?
+faq-what-cv-a = Tehnologija prepoznavanja glasu predstavlja revolucijo na področju interakcije s stroji, vendar so trenutno razpoložljivi sistemi dragi in lastniški. Common Voice je del pobude Mozille, da se tehnologije za prepoznavanje glasu izboljšajo in postanejo dostopnejše za vse. Common Voice je obsežna globalna baza podarjenih glasov, ki vsakomur omogoča hitro in enostavno učenje aplikacij z glasovno podporo v potencialno vseh jezikih.
 faq-why-important-q = Zakaj je to pomembno?
+faq-why-important-a =
+    Govor je pogosto najbolj naraven način medsebojne komunikacije in glasovne tehnologije prinašajo to udobje našim računalnikom in mobilnim napravam. Razvijalce želimo opolnomočiti za izdelavo neverjetnih aplikacij za prepoznavanje glasu, kot so prevajalci v realnem času in digitalni pomočniki z glasovno podporo. Toda trenutno je večina glasovnih podatkov, potrebnih za izdelavo tovrstnih aplikacij, draga in lastniška. Upamo, da bo nabor podatkov Common Voice razvijalcem dal tisto, kar potrebujejo za inovacije, in omogočil, da bo tehnologija govora na voljo v njihovem jeziku.
+    
+    Da bi bilo prepoznavanje glasu še bolj univerzalno, zbiramo vzorce glasu v široko govorjenih jezikih, pa tudi tiste z manjšo populacijo govorcev, ki jih komercialne storitve za prepoznavanje govora pogosto premalo uporabljajo. Objava raznolikega nabora glasov bo razvijalcem, podjetnikom in celotnim govornim skupnostim omogočila, da sami odpravijo to vrzel.
 faq-how-get-q = Kako lahko prenesem podatke Common Voice?
 faq-how-get-a = Podatkovni niz Common Voice je na voljo za prenos pod licenco <licenseLink>CC0</licenseLink> na <datasetLink>naši strani podatkovnih nizov</datasetLink>. Z iste strani lahko prenesete tudi več drugih javno dostopnih podatkovnih nizov.
 faq-when-release2-q = Kdaj boste objavili podatke Common Voice v drugih jezikih?
@@ -469,12 +474,6 @@ about-dataset-new = Nabor podatkov Common Voice
 about-dataset-new-text = Nabor podatkov Common Voice vsebuje več sto tisoč glasovnih posnetkov, ki razvijalcem pomagajo pri izdelavi orodij za prepoznavanje govora.
 about-clip-graveyard = Pokopališče posnetkov
 about-clip-graveyard-text = Pokopališče posnetkov sestavljajo glasovni posnetki, ki niso bili vključeni v nabor podatkov Common Voice. Tako kot nabor podatkov, je tudi pokopališče posnetkov na voljo za prenos.
-about-partners = Partnerji
-about-become-a-partner = Postanite partner
-about-partnership =
-    Common Voice je skupni projekt, pri katerem s pomočjo naše skupnosti partnerjev in sodelavcev ustvarjamo največji odprtokodni nabor podatkov doslej.
-    
-    Za pomoč pri projektu se zahvaljujemo naslednjim posameznikom in organizacijam:
 about-get-involved = Pridružite se
 about-get-involved-text-2 =
     Želite izboljšati Common Voice?
@@ -520,12 +519,6 @@ about-playbook-how-grow-language-content-6 = Partnerstva in mreže
 ## How are decisions made
 
 about-playbook-how-project-governance-content-3 = Zasebnost, varnost in preglednost.
-mycroft-title = Mycroft Ai
-mycroft-subtitle = Umetna inteligenca
-mycroft-description =
-    Mycroft je prvi odprtokodni asistent.
-    Mycroft deluje kjerkoli – na namiznem računalniku, v avtomobilu ali na Raspberry Pi.
-mycroft-secondary-description = To je odprtokodna programska oprema, ki jo je mogoče prosto prilagajati, razširiti in izboljšati. Mycroft se lahko uporablja za karkoli, od znanstvenega projekta do programske opreme.
 
 ## Glossary
 
@@ -659,6 +652,9 @@ request-language-success-content = V kratkem se vam bomo oglasili z več informa
 select-language = Izberite jezik ...
 other-language = Drug jezik
 
+## Request Language Pages
+
+
 ## Languages Overview
 
 language-section-in-progress = V nastajanju
@@ -674,7 +670,6 @@ language-search-input =
 language-speakers = Govorcev
 localized = Lokalizirano
 sentences = Stavki
-total-hours = Skupaj ur
 
 ## Contribution
 

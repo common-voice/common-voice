@@ -18,6 +18,8 @@ banner-error-slow-1 = Maalesef Common Voice yavaş çalışıyor. İlginiz için
 banner-error-slow-2 = Çok fazla trafik alıyoruz ve şu anda sorunları araştırıyoruz.
 banner-error-slow-link = Durum Sayfası
 error-something-went-wrong = Üzgünüz, bir şeyler ters gitti
+error-clip-upload = Bu kaydın yüklenmesi sürekli başarısız oluyor. Yeniden denensin mi?
+error-clip-upload-server = Bu kaydın yüklenmesi sırasında sunucu sürekli hata bildiriyor. Sayfayı tazeleyin veya daha sonra tekrar deneyin.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -40,10 +42,12 @@ ba = Başkurtça
 bas = Basaa
 be = Belarusça
 bg = Bulgarca
+bm = Bambara
 bn = Bengalce
 br = Bretonca
 bs = Boşnakça
 bxr = Buryatça
+byv = Medumba
 ca = Katalanca
 cak = Kakçikelce
 ckb = Soranice
@@ -53,9 +57,11 @@ cs = Çekçe
 cv = Çuvaşça
 cy = Galce
 da = Danca
+dag = Dagbani
 de = Almanca
 dsb = Aşağı Sorbca
 dv = Maldivce
+dyu = Dioula
 el = Yunanca
 en = İngilizce
 eo = Esperanto
@@ -75,6 +81,7 @@ gom = Goan Konkani
 ha = Hausaca
 he = İbranice
 hi = Hintçe
+hil = Hiligaynon
 hr = Hırvatça
 hsb = Yukarı Sorbca
 ht = Haiti dili
@@ -89,6 +96,7 @@ is = İzlandaca
 it = İtalyanca
 izh = İngrice
 ja = Japonca
+jbo = Lojban
 ka = Gürcüce
 kaa = Karakalpakça
 kab = Berberice
@@ -97,6 +105,7 @@ ki = Kikuyu
 kk = Kazakça
 km = Kmerce
 kmr = Kurmançça
+kn = Kannada
 knn = Konkani (Devanagari)
 ko = Korece
 kpv = Komi Zıryan
@@ -105,6 +114,8 @@ ky = Kırgızca
 lb = Lüksemburgca
 lg = Luganda
 lij = Liguryanca
+ln = Lingala
+lo = Lao
 lt = Litvanca
 lv = Letonca
 mai = Maithili
@@ -124,12 +135,17 @@ my = Birmanca
 myv = Erzyanca
 nan-tw = Tayvanca (Minnan)
 nb-NO = Norveç Bokmål
+nd = IsiNdebele (Kuzey)
 ne-NP = Nepalce
+nhe = Doğu Huasteca Nahuatl dili
 nia = Nias
 nl = Felemenkçe
 nn-NO = Norveççe (Nynorsk)
+nr = IsiNdebele (Güney)
+nso = Kuzey Sotho
 nyn = Nyankole
 oc = Oksitanca
+om = Oromca
 or = Odia
 pa-IN = Pencapça
 pap-AW = Papiamento (Aruba)
@@ -147,14 +163,18 @@ sah = Yakutça
 sat = Santali (Ol Chiki)
 sc = Sardinya dili
 scn = Sicilyaca
+sdh = Kelhurice
 shi = Şilha
 si = Seylanca
 sk = Slovakça
 skr = Saraiki
 sl = Slovakça
+snk = Soninke
 so = Somalice
 sq = Arnavutça
 sr = Sırpça
+ss = Siswati
+st = Güney Sotho
 sv-SE = İsveççe
 sw = Svahili
 syr = Süryanice
@@ -166,26 +186,35 @@ ti = Tigrinya dili
 tig = Tigre
 tk = Türkmence
 tl = Tagalog
+tn = Tsvana
 tok = Toki Pona
 tr = Türkçe
+ts = Tsongaca
 tt = Tatarca
 tw = Twi
 ty = Tahitice
+tyv = Tuvaca
 uby = Ubıhça
 udm = Udmurtça
 ug = Uygurca
 uk = Ukraynaca
 ur = Urduca
 uz = Özbekçe
+ve = Venda
 vec = Venedikçe
 vi = Vietnamca
 vot = Votic
+wo = Volofça
+xh = Xhosa
 yi = Yidiş
 yo = Yoruba
 yue = Kantonca
+zgh = Tamazight
 zh-CN = Çince (Çin)
 zh-HK = Çince (Hong Kong)
 zh-TW = Çince (Tayvan)
+zu = Zulu
+zza = Zazaca
 
 # [/]
 
@@ -197,6 +226,7 @@ speak-now = Şimdi konuşun
 datasets = Veri kümeleri
 languages = Diller
 about = Hakkında
+partner = İş Ortaklığı
 profile = Profil
 help = Yardım
 contact = İletişim
@@ -313,7 +343,6 @@ shortcut-discard-ongoing-recording-label = Yapılmakta olan kaydı sil
 shortcut-submit = Enter
 shortcut-submit-label = Kayıtları gönder
 request-language-text = Dilinizi henüz Common Voice’ta göremiyor musunuz?
-request-language-text-learn = Nasıl talep edebileceğinizi öğrenin!
 request-language-button = Yeni dil iste
 
 ## ProjectStatus
@@ -381,6 +410,7 @@ why-demographic = Bu neden önemli?
 why-demographic-explanation-2 = Yaş, cinsiyet ve aksan gibi anonim kullanıcı verileri, konuşma tanıma motorlarının doğruluğunu eğitmek için kullanılan ses verilerini geliştirmeye yardımcı olur. Kullanıcı adınız ve e-postanız gönderilen verilerinizle asla ilişkilendirilmez. Kullanıcı adınızın başkaları tarafından görünüp görünmeyeceğini de seçebilirsiniz.
 accept-privacy = Bu bilgilerin Mozilla’nın <privacyLink>Gizlilik Politikası</privacyLink>’nda açıklandığı şekilde kullanılmasını kabul ediyorum
 accept-privacy-title = Gizlilik Politikası
+accept-privacy-and-terms = Common Voice’un <termsLink>Koşullarını</termsLink> ve <privacyLink>Gizlilik İlkelerini</privacyLink> kabul ediyorum
 login-identity = Giriş kimliği
 login-signup = Giriş / Kayıt
 edit = Düzenle
@@ -406,6 +436,7 @@ gravatar_not_found = E-postanıza ait gravatar bulunamadı
 file_too_large = Seçilen dosya çok büyük
 avatar-uploaded = Avatar yüklendi
 max-file-size = en fazla { $kb } kb
+remove-avatar = Avatarı kaldır
 
 ## Profile - Email
 
@@ -447,7 +478,9 @@ faq-do-want-native-a = Evet, sizin sesinizi özellikle istiyoruz! Common Voice'u
 faq-why-different-speakers-q = Neden her dil için bu kadar fazla konuşmacıya ihtiyacınız var?
 faq-why-different-speakers-a = Çoğu konuşma veritabanı, <articleLink>erkek ve orta sınıfın</articleLink> aşırı temsil edildiği demografik bilgilerle eğitilir. Eğitimde kullanılan veri kümelerinde yetersiz temsil edilen aksanlar ve lehçeler genellikle marjinalleşmiş halklar ve topluluklarla ilişkilidir. Birçok makine, kadın seslerini anlamakta da zorlanır. Bu yüzden ses veritabanımızda çeşitlilik istiyoruz!
 faq-why-my-lang-q = Neden dilim henüz eklenmedi?
-faq-why-my-lang-new-a = Mozilla hiçbir dili diğerlerinden üstün görmez. Common Voice tamamen topluluk tarafından yürütülen bir girişimdir, ancak <multilangLink>yeni bir dil eklemek</multilangLink> ve ses bağışlarını toplamaya başlamak için birkaç adımın tamamlanması gerekir. İlk olarak, kişilerin kendi dillerinde katkıda bulunabilmeleri için Common Voice web sitesinin o dile çevrilmesi gerekir. Daha sonra, insanların sesli olarak okuyabileceği, telif hakkı olmayan, büyük bir cümle koleksiyonunun derlenmesi gerekir. Bu gereksinimlerin her ikisi de karşılandığında insanların seslerini kaydetmeye ve başkalarının kaydettiği sesleri doğrulamaya başlaması için Common Voice'a o dil eklenir. Yeni bir dil eklemeye yardım etmek istiyorsanız <sentenceCollectorLink>cümle toplama aracımıza</sentenceCollectorLink> bakabilirsiniz.
+faq-why-my-lang-a =
+    Common Voice kitle kaynaklı bir platformdur ve dillerin tümü gönüllüler tarafından eklenmiştir.
+    Sizin de dilinizi eklemenizi çok isteriz! <languageRequestLink>Dilinizin eklenmesini talep edin.</languageRequestLink>
 faq-what-quality-q = Bir ses kaydının veri kümesinde kullanılabilmesi için hangi düzeyde ses kalitesi gerekir?
 faq-what-quality-a = Common Voice veri kümesinin, bir konuşmayı metne dönüştürme motorunun doğal ortamda duyacağı ses kalitesini yansıtmasını istiyoruz, bu nedenle çeşitlilik arıyoruz. Farklı konuşmacılara ek olarak, değişen ses kalitelerine sahip bir veri kümesi, konuşmayı metne dönüştürme motoruna, gerçek hayatta karşılaşabileceği arka plan sesleri ve araba gürültüsü gibi çeşitli gerçek durumlarının üstesinden gelmeyi öğretecektir. Kendi sesiniz anlaşılıyorsa, kaydınız veri kümesi için yeterince iyi demektir.
 faq-why-10k-hours-q = Neden dil başına 10.000 saat onaylı ses kaydı hedefi var?
@@ -517,12 +550,6 @@ about-dataset-new = Common Voice Veri Kümesi
 about-dataset-new-text = Common Voice Veri Kümesi, geliştiricilerin ses tanıma araçları oluşturmasına yardımcı olan yüz binlerce ses örneği içerir.
 about-clip-graveyard = Kayıt Mezarlığı
 about-clip-graveyard-text = Kayıt Mezarlığı, Common Voice veri kümesine girmeyen ses kayıtlarından oluşur. Veri kümesi gibi Kayıt Mezarlığı da indirilebilir.
-about-partners = İş ortakları
-about-become-a-partner = Ortağımız olun
-about-partnership =
-    Common Voice işbirliğine dayalı bir projedir. Tüm zamanların en büyük açık kaynaklı ses veri kümesini oluşturmak için iş ortaklarımıza ve projeye katkıda bulunan gönüllülerimize bel bağlıyoruz.
-    
-    Projeye yardımlarından dolayı aşağıdaki kişi ve kuruluşlara teşekkür etmek isteriz:
 about-get-involved = Bize katılın
 about-get-involved-text-2 =
     Common Voice'u daha da iyileştirmeye yardımcı olmak ister misiniz?
@@ -544,6 +571,7 @@ about-nav-playbook = Nasıl katılacağınızı öğrenin
 ## What is a language
 
 about-playbook-what-is-language = Common Voice'ta dil nedir?
+about-playbook-what-is-language-content-1 = Dil üzerine düşünmenin birçok yolu var. Konuşma tanıma modelleri geliştirme amacı söz konusu olduğunda, Common Voice "karşılıklı anlaşılabilirlik" veya "Bu dili konuşanlar birbirlerini genelde anlayabilirler mi?" üzerine odaklanmayı öneriyor.
 about-playbook-what-is-language-content-2 = Konuşma modellerinin çok çeşitli konuşmacıları anlamada daha iyi olmasını istiyoruz. Bunun için ses veri kümesilerinin birçok farklı insanı temsil etmesi gerekir.
 about-playbook-what-is-language-content-3 = Bazı diller arasında gramer, söz dağarcığı ve telaffuz açısından çok büyük farklılıklar vardır. Bu nedenle, 2022'de <ctaLink>"varyantları" uygulamaya sokuyoruz</ctaLink>. Bu özellik, topluluklara daha büyük veri kümeleri içinde kendi dillerini ayırt etmelerinin bir yolunu sunuyor.
 
@@ -551,25 +579,39 @@ about-playbook-what-is-language-content-3 = Bazı diller arasında gramer, söz 
 
 about-playbook-how-add-language = Nasıl dil eklerim?
 about-playbook-how-add-language-content-1 = Öncelikle dilinizin <languageLink>zaten var olup olmadığını</languageLink> kontrol edin. Yoksa <strong>siteyi çevirmeniz ve cümle toplamanız</strong> gerekir.
-about-playbook-how-add-language-content-2 = <strong>Siteyi çevirmek için</strong> - <pontoonLink>Pontoon</pontoonLink>'da <translateVideo>çalışmaya</translateVideo> başlayın. Pontoon'da pek çok dil vardır, ancak sizin diliniz yoksa <pontoonRequestLink>talep edebilirsiniz</pontoonRequestLink>. Ardından, Common Voice projesinin diliniz için kullanıma sunulmasını <repoLink>GitHub aracılığıyla</repoLink> isteyin. <localizationFragment>Site çevirisi</localizationFragment> hakkında daha fazla bilgi edinin.
-about-playbook-how-add-language-content-3 = <strong>Cümleleri toplamak için</strong> - <scLink>Cümle Toplayıcı</scLink> üzerinde <scVideo>çalışmaya başlayın</scVideo>.
-about-playbook-how-add-language-content-4 = Buraya <scLinkAdd>az sayıda cümle ekleyebilir</scLinkAdd> veya bir Github isteği aracılığıyla <bulkImportDocsLink>toplu içe aktarma</bulkImportDocsLink> yapabilirsiniz. Cümlelerin <licenseLink>CC0 (veya kamu malı)</licenseLink> olması gerektiğini veya kendi cümlelerinizi yazabileceğinizi unutmayın. <scFragment>Cümle Toplayıcı</scFragment> hakkında daha fazla bilgi edinin.
+about-playbook-how-add-language-translating-heading = Siteyi çevirmek
+about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Pontoon'un nasıl kullanılacağına ilişkin kılavuzumuzu izleyin.</translateVideoLink>
+about-playbook-how-add-language-translating-content-2 =
+    Çeviriler için <pontoonLink>Pontoon</pontoonLink> adlı bir Mozilla aracını kullanıyoruz. Pontoon'da bir sürü dil var,
+    ancak sizin diliniz yoksa <pontoonRequestLink>dilinizin eklenmesini isteyebilirsiniz</pontoonRequestLink>.
+    Ardından, dili Common Voice projesinde kullanılabilir hale getirmek için,
+    <githubRepoLink>GitHub'da yeni dili isteyin</githubRepoLink>. <localizationFragment>Site çevirisi hakkında daha fazlasını görün</localizationFragment>.
+about-playbook-how-add-language-collecting-sentences-heading = Cümle derleme
+about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>Cümle Toplayıcıyı kullanma kılavuzumuzu izleyin</sentenceCollectorVideo>.
+about-playbook-how-add-language-collecting-sentences-content-2 = Buraya <scLinkAdd>az sayıda cümle ekleyebilir</scLinkAdd> veya bir Github isteği aracılığıyla <bulkImportDocsLink>toplu içe aktarma</bulkImportDocsLink> yapabilirsiniz. Cümlelerin <licenseLink>CC0 (veya kamu malı)</licenseLink> olması gerektiğini veya kendi cümlelerinizi yazabileceğinizi unutmayın. <scFragment>Cümle Toplayıcı</scFragment> hakkında daha fazla bilgi edinin.
+about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>Cümle toplama hakkında daha fazla bilgi edinin</sentenceCollectorFragment>.
 
 ## How does localization work
 
 about-playbook-how-localize = Site yerelleştirmesi nasıl yapılır?
 about-playbook-how-localize-content-1 = Common Voice sitesinin çevirisi <strong>Pontoon</strong>'da yapılır.
+about-playbook-how-localize-content-2 = Hesabınız yoksa <pontoonAccountLink>hesap açın</pontoonAccountLink>. Ardından dilinizi <strong>("takım")</strong> seçin ve sonra <pontoonCvLink>Common Voice</pontoonCvLink> projesini seçin. Çevrilecek dosyalar listelenecek. Birine tıklayın. Ardından İngilizce kelimeler ve çevirisini yazmak için bir kutu önünüze gelecek.
+about-playbook-how-localize-content-3 = Çeviri İngilizceden yapılır ama diğer dillerden <strong>öneriler</strong> görebilirsiniz. <strong>Profil</strong> simgesine ve ardından <strong>Ayarlar</strong> bağlantısına tıklayıp konuştuğunuz dilleri ekleyin. Sağ alt köşede, <strong>Locales</strong> başlığı altında çevirilerin bir listesi olacaktır. Çeviriler bir gün sonra sitede yayına girer.
 about-playbook-how-localize-content-4 = Çeviriler %75'e ulaştığında site sizin dilinizde açılmaya hazır olur.
 about-playbook-how-localize-content-5 = Açıklayıcı videomuzu izleyin
 
 ## How to add sentences
 
 about-playbook-how-add-sentences = Nasıl cümle ekleyebilirim?
+about-playbook-how-add-sentences-content-1 = <strong>Cümle Toplayıcı</strong>, kamuya açık cümleleri toplamamızı ve doğrulamamızı sağlayan bir araçtır. Önce <scAccountLink>bir hesap oluşturmanız gerekecek</scAccountLink>. Ardından dilinizi <strong>profilinize</strong> ekleyin. Sonra cümleleri <strong>ekleyebilir</strong> veya önceden eklenmiş cümleleri <strong>inceleyebilirsiniz</strong>.
+about-playbook-how-add-sentences-content-2 = Cümlelerin Common Voice'a dahil olabilmesi için iki kişi tarafından incelenip kabul edilmesi gerekir. <languageGuidelinesLink>Burada</languageGuidelinesLink> dilinizin yönergelerini oluşturabilirsiniz. Cümleler <licenseLink>kamu malı</licenseLink> olmalı ve 15 kelimeden kısa olmalıdır. Bir metnin sahibinden <waiverLink>feragat sürecimizi kullanarak metnin lisansını CC0 yapmasını</waiverLink> isteyebilir ve commonvoice@mozilla.com adresinden bize gönderebilirsiniz.
 about-playbook-how-add-sentences-content-3 = Wikipedia'daki kısa cümlelerden yararlanmak için <scraperLink>Cümle çekici</scraperLink>'yi kullanabilirsiniz.
 about-playbook-how-add-sentences-content-4 = Doğrulanan cümleler çarşamba günleri dışa aktarılır ve bir sonraki sürümde kullanılabilir hale gelir.
 
 ## How to record quality
 
+about-playbook-how-record-quality = Kaliteli bir ses kaydını nasıl kaydederim?
+about-playbook-how-record-content-1 = Normal sesinizle konuş! Her türlü konuşma şeklinize açığız. Aksanınızı olduğu gibi duymak istiyoruz. Her zamanki ses düzeyiniz, üslubunuz ve tonlamanızla konuşun.
 about-playbook-how-record-content-2 = Çok fazla arka plan gürültüsünden kaçının. Sesinizin kolayca duyulması gerekir.
 about-playbook-how-record-content-3 = Cümleyi dikkatlice okuyun. Kelimeleri atlamayın, değiştirmeyin ve kelime eklemeyin.
 about-playbook-how-record-content-4 = Konuşmaya başlamadan önce platformun kayıt yaptığından ve konuşmanız bitince kaydı durdurduğunuzdan emin olun.
@@ -580,11 +622,19 @@ about-playbook-how-record-content-5 = <accuracyLink>Doğruluk ölçütleri hakk�
 about-playbook-how-grow-language = Common Voice'ta bir dili nasıl etkili bir şekilde geliştirebiliriz?
 about-playbook-how-grow-language-content-1 = Common Voice'a katkıda bulunmak amacıyla farklı insanlar için fırsatlar yaratmak, veri kümesinin mümkün olduğunca çok kişiye hizmet etmesini sağlar. Kullanabileceğiniz kaynaklar ve şablonlar oluşturduk.
 about-playbook-how-grow-language-content-2 = Etkinlikler
+about-playbook-how-grow-language-content-3 = İnsanların katkıda bulunmasına yardımcı olmak için etkinlikler düzenleyebilirsiniz. Bunu bir video konferans aracıyla çevrimiçi olarak veya yüz yüze yapabilirsiniz. <eventTemplate>Etkinlik düzenlemek için şablonlarımıza ve kaynaklarımıza göz atın</eventTemplate>.
 about-playbook-how-grow-language-content-4 = Sosyal medya
+about-playbook-how-grow-language-content-5 = Mesajı iletmek için sosyal medya platformlarını kullanabilirsiniz. Bunun önemini açıklayan gönderiler paylaşın; dil hakları, yapay zekâ veya teknolojide önyargı gibi konular üzerine konuşan ve yazan kişilerle iletişime geçin. <campaignLink>Yeniden kullanabileceğiniz içerikleri de kapsayan sosyal kampanya yürütme</campaignLink> önerilerimizi de inceleyin.
 about-playbook-how-grow-language-content-6 = Ortaklıklar ve ağlar
+about-playbook-how-grow-language-content-7 = Konuyla ilgilenen başkalarını bulun. Bunlar üniversiteler, dil okulları, ilgi alanı grupları veya veri bilimi toplulukları olabilir. Onlara ulaşıp nasıl ve neden yardımcı olabileceklerini açık bir şekilde anlatın. <outreachTemplates>Geniş kitlelerle iletişim için şablon e-postalarımıza bakın</outreachTemplates>.
+about-playbook-how-grow-language-content-8 = <strong>Yaratıcı olun!</strong> Dil topluluğunuz benzersiz olacak. Bunlar başlangıç için yalnızca birkaç yol.
 
 ## How to validate
 
+about-playbook-how-validate = Bir ses kaydını onaylayıp onaylamayacağıma nasıl karar verebilirim?
+about-playbook-how-validate-content-1 = <strong>Kaydı duyabiliyorsanız</strong> ve <strong>anlayabiliyorsanız</strong> genellikle <strong>onaylamak en iyisidir</strong>.
+about-playbook-how-validate-content-2 = <strong>Konuşmacının sizinkinden farklı aksana sahip olduğu kayıtları reddetmeyin</strong>. Bu kayıtlar ses tanımanın herkes için daha iyi çalışması için önemlidir.
+about-playbook-how-validate-content-3 = Telaffuzun kaydı <strong>anlamayı imkansız kıldığını</strong> düşünüyorsanız veya <strong>çok fazla arka plan gürültüsü</strong> varsa veya <strong>başka insanların da konuştuğunu</strong> duyuyorsanız kaydı reddetmelisiniz. <accuracyLink>Doğruluk kriterlerimizde daha fazla bilgi görün</accuracyLink>.
 about-playbook-how-validate-content-4 = Bir kayıt 2 kişi tarafından reddedilirse veri kümesinin farklı bir alt kümesinde yayınlanır.
 
 ## How to access dataset
@@ -600,14 +650,9 @@ about-playbook-how-project-governance-content-1 = Mozilla Common Voice, dünyan�
 about-playbook-how-project-governance-content-2 = Yönetişimimiz şu temeller üzerine kurulmuştur:
 about-playbook-how-project-governance-content-3 = Gizlilik, güvenlik ve şeffaflık.
 about-playbook-how-project-governance-content-4 = Topluluk katılımı ve karar alma.
+about-playbook-how-project-governance-content-5 = Değer ve tanınma.
 about-playbook-how-project-governance-content-6 = Karşılıklı hesap verebilirlik.
 about-playbook-how-project-governance-content-7 = <governanceLink>Nasıl yönetildiğimiz hakkında daha fazla bilgi edinin</governanceLink>
-mycroft-title = Mycroft Ai
-mycroft-subtitle = Yapay zekâ
-mycroft-description =
-    Mycroft dünyanın ilk açık kaynaklı asistanıdır.
-    Mycroft her yerde (masaüstü bilgisayarda, otomobilde veya Raspberry Pi'da) çalışabilir.
-mycroft-secondary-description = Bu, serbestçe düzenlenebilen, genişletilebilen ve geliştirilebilen açık kaynaklı bir yazılımdır. Mycroft, bir bilim projesinden kurumsal yazılım uygulamasına kadar her türlü uygulamada kullanılabilir.
 
 ## Glossary
 
@@ -666,6 +711,7 @@ review-delete-recordings = Kayıtlarımı sil
 
 ## Datasets Page
 
+datasets-heading = Veri kümeleri
 datasets-headline = Herkesin konuşma özellikli uygulamaları eğitmek için kullanabileceği açık kaynaklı, çok dilli bir ses veri kümesi oluşturuyoruz.
 datasets-positioning =
     Herkese açık, büyük ses verisi kümelerinin makine öğrenimi tabanlı konuşma teknolojilerinde yeniliği ve sağlıklı ticari rekabeti teşvik edeceğine inanıyoruz.
@@ -674,6 +720,9 @@ datasets-positioning =
     
     Bu sayfayı hem diğer açık kaynaklı ses veri kümeleri için bir referans kaynağı hem de Common Voice büyümeye devam ettikçe yayımlayacağımız sürüm güncellemelerinin yuvası olarak görebilirsiniz.
 language = Dil
+download-dataset-header = Veri kümesini indirin
+download-delta-explainer = Bazı değişiklikler yaptık. Delta segmentleri, yalnızca son sürümden bu yana en yeni kayıtları içerir. <deltaLink>Bu çalışma hakkında daha fazla bilgi alın</deltaLink>.
+download-dataset-tag = İstediğiniz dilin veri kümesini ve indirmek istediğiniz sürümü seçin.
 # File size in gigabytes
 size = Boyut
 validated-hr-total = Doğrulanmış toplam saat
@@ -688,6 +737,7 @@ confirm-size = <b>{ $size }</b> boyutundaki indirme işlemini başlatmaya hazır
 size-gigabyte = GB
 size-megabyte = MB
 confirm-no-identify = Common Voice veri kümesindeki konuşmacıların kimliğini belirlemeye çalışmamayı <b>kabul ediyorsunuz</b>
+confirm-join-mailing-list = Common Voice e-posta listesine katılmak istiyorum
 download-language = { $language } indir
 validated-hours = Doğrulanmış saat
 recorded-hours = Kaydedilen saat
@@ -721,6 +771,9 @@ more = Daha fazla
 close = Kapat
 download = İndir
 dataset-version = Sürüm
+sha256-checksum-copied = SHA256 sağlama toplamı kopyalandı.
+sha256-checksum-copied-error = SHA256 sağlama toplamı kopyalanamadı
+clipboard-not-supported = Pano desteklenmiyor
 
 ## Download Modal
 
@@ -751,6 +804,38 @@ request-language-success-content = Dilinizi Common Voice’a nasıl ekleyeceğin
 select-language = Bir dil seçin...
 other-language = Başka bir dil
 
+## Request Language Pages
+
+request-language-heading = Yeni bir dil hakkında soru sorun
+request-language-explanation-1 =
+    Dilinizin <languagesPageLink>Common Voice Dilleri sayfasında</languagesPageLink> olmup olmadığını kontrol edin.
+    Yoksa bu formu doldurun. Ardından size <strong>dilinizi nasıl kuracağınızı açıklayan pratik bir e-posta göndereceğiz</strong>.
+request-language-explanation-2 =
+    Ayrıca <strong>ilgilendiğinizi topluluk yöneticimize de
+    bildireceğiz</strong>, böylece size ihtiyaç duyabileceğiniz
+    ek destek ya da bilgiyi verebilecekler.
+request-language-form-email =
+    .label = E-posta adresiniz
+request-language-form-info =
+    .label = Dil hakkında bilgi
+request-language-form-info-explanation = Dil hakkında olabildiğince fazla bilgi ekleyin. Şunları ekleyebilirsiniz:
+request-language-form-info-explanation-list-1 = Dilinizin adları
+request-language-form-info-explanation-list-2 = biliniyorsa <isoCodeLink>ISO Kodları</isoCodeLink>
+request-language-form-info-explanation-list-3 = Dili anlamamıza yardımcı olabilecek web sitelerine bağlantılar
+request-language-google-recaptcha-required = Devam etmek istiyorsanız reCAPTCHA gereklidir
+request-language-google-recaptcha-error = reCAPTCHA ile ilgili bir sorun oluştu. Lütfen tekrar deneyin.
+# Success page
+request-language-success-heading = Teşekkürler! Yeni bir dil talebi gönderdiniz
+request-language-success-list-1 =
+    Kısa süre içinde dilinizi Common Voice'a ekleme
+    adımlarını açıklayan bir e-posta alacaksınız
+request-language-success-list-2 =
+    Topluluk yöneticimiz size ek destek ve bilgi verme
+    teklifi ile size ulaşacak ve zaten diliniz üzerinde
+    çalışan bir topluluk varsa size bildirecek
+request-language-success-list-3 = Birkaç gün içinde bizden haber alamazsanız size dönüş yapmamız için <emailLink>{ $email }</emailLink> adresinden bize ulaşabilirsiniz.
+request-language-error = Bu talebi almamış olabiliriz. Size dönebilmemiz için lütfen <emailLink>{ $email }</emailLink> üzerinden bize e-posta gönderin.
+
 ## Languages Overview
 
 language-section-in-progress = Devam ediyor
@@ -766,7 +851,8 @@ language-search-input =
 language-speakers = Konuşmacı
 localized = Yerelleştirilmiş
 sentences = Cümleler
-total-hours = Toplam saat
+language-validation-hours = Saat
+language-validation-progress = Doğrulama İlerlemesi
 
 ## Contribution
 
@@ -819,7 +905,7 @@ listen-instruction = <playIcon></playIcon> düğmesine { $actionType }. Cümle d
 listen-again-instruction = Çok iyi iş! <playIcon></playIcon> Hazır olduğunuzda yeniden dinleyin.
 listen-3rd-time-instruction = İkisi gitti, çalışmaya devam! <playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon> Son bir tane!
-listen-empty-state = Bu dilde doğrulanacak ses kaydı kalmadı...
+listen-empty-state = Doğrulanacak ses kaydı kalmamış olabilir. Sayfayı yenileyin veya daha sonra tekrar deneyin.
 listen-loading-error =
     Dinleyebileceğiniz hiç ses kaydı bulamadık.
     Lütfen daha sonra tekrar deneyin.
@@ -1429,7 +1515,6 @@ sc-review-link = İncele
 
 sc-settings-title = Ayarlar
 sc-settings-ui-language = Arayüz dili
-sc-settings-language-translated-warning = Bu dilin sayfaları tam olarak çevrilmemiş olabilir. <pontoonLinkLink>Pontoon</pontoonLinkLink>'da çeviriye yardımcı olabilirsiniz.
 sc-settings-reset-skipped = Atlanan cümleleri sıfırla
 sc-settings-skipped-decription = Daha önce incelemeniz sırasında bazı cümleleri atladınız. Atlanan cümleleri sıfırlamak, atlanan tüm cümleleri tekrar gösterecektir. Bu işlem dilden bağımsızdır.
 sc-settings-show-all-button = Atlanan tüm cümleleri tekrar göster
@@ -1444,3 +1529,29 @@ sc-validation-no-abbreviations = Cümle kısaltma içermemelidir
 
 localization-select =
     .label = Dil seçin
+# PARTNERSHIPS PAGE
+partnerships-header = İş Ortaklıkları
+partnerships-get-in-touch = Bize ulaşın
+partnerships-become-a-partner = Common Voice İş Ortağı Olun
+partnerships-community-header = Toplum, Yaratıcılar ve Sivil Toplum
+partnerships-foundations-header = Vakıflar
+partnerships-governments-header = Devletler
+partnerships-academia-header = Üniversiteler, Akademisyenler ve Araştırmacılar
+partnerships-small-business-header = Teknoloji ve yapay zeka girişimleri de dahil olmak üzere küçük işletmeler
+partnerships-corporates-header = Büyük ölçekli şirketler ve platform şirketleri
+partnerships-our-partners = İş Ortaklarımız
+# FIRST POST SUBMISSION CTA
+first-cta-header-text = Ses kayıtlarınızı bağışladığınız için teşekkürler!
+first-cta-subtitle-text = Nasıl konuştuğunuz hakkında biraz bilgi paylaşmak ister misiniz?
+why-donate = Neden soruyorsunuz?
+add-information-button = Bilgi ekle
+continue-speaking-button = Hayır, konuşmaya devam et
+create-profile-text = Bilgilerinizi kaydetmek ister misiniz? <createProfile>Profil oluşturun</createProfile>
+thanks-for-voice-toast = Ses bilgileriniz için teşekkür ederiz
+thanks-for-voice-toast-error = Ses bilgileriniz gönderilirken bir hata oluştu
+# SECOND POST SUBMISSION CTA
+second-cta-header-text = Sesinizle katkıda bulunduğunuz için teşekkürler!
+already-have-an-account = Zaten hesabınız var mı? <login>Giriş yapın</login>
+create-profile-button = Profil oluştur
+# IMAGE TAGS
+img-alt-success-checkmark = başarı onay işareti

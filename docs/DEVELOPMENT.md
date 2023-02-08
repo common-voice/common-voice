@@ -192,7 +192,7 @@ For local development, in `config.json`:
 We use [db-migrate](https://github.com/db-migrate/node-db-migrate) for running database migrations.
 
 To add a migration run:
-`yarn migrate create <MIGRATION_NAME>`.
+`yarn migrate:local create <MIGRATION_NAME>`.
 
 At the moment you manually have to change the migration file extension to `.ts`. A migration has to expose the following API:
 
@@ -208,6 +208,11 @@ export const down = async function (): Promise<any> {
 
 Migrations are always run when the server is started.
 
+To migrate up or down manually run:
+`yarn migrate:local [up|down]`.
+
+This will execute the most recently added migration in the migrations folder.
+
 ## Localization
 
 We're using [Fluent](http://projectfluent.org/) to localize strings. You can find examples all over the frontend code. Strings that appear in the [english message files](https://github.com/mozilla/common-voice/tree/main/web/locales/en), can then be translated on [Pontoon](https://pontoon.mozilla.org/projects/common-voice/). Some things to note regarding string changes are documented on [MDN](https://developer.mozilla.org/en-US/docs/Mozilla/Localization/Localization_content_best_practices#Changing_existing_strings).
@@ -219,12 +224,6 @@ To update the list of locales run:
 ```
 > yarn import-locales
 ```
-
-This creates/updates files in `/locales`:
-
-- fetch locale codes & names from Pontoon and save them in `all.json`
-- based on Pontoon translated data and a threshold defined in the script, save "completed" locales to `translated.json`
-- add codes that have a sentence folder in `/server/data` and at least 5k sentences to `contributable.json`
 
 ## Submitting an Issue
 

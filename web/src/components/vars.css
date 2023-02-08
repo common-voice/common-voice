@@ -3,22 +3,29 @@
     --black: black;
     --red: #ff4f5e;
     --light-red: #fdc6c8;
+    --dark-red: #b90010;
     --green: #b7d43f;
     --valid-green: #59cbb7;
+    --dark-green: #028a72;
     --near-black: #4a4a4a;
     --grey: #e7e5e2;
+    --dark-grey: #575757;
     --darker-grey: #e6e5e3;
     --light-grey: #f3f2f0;
     --lighter-grey: #f9f9f9;
+    --lighest-grey: #fdfdfd;
     --desert-storm: #f3f2f1;
     --warm-grey: #959595;
+    --light-blue: #e3ecf8;
     --blue: #629ff4;
+    --dark-blue: #195ebf;
     --inactive-grey: #575757;
+    --anchor-text-blue: #1570ef;
 
     --gradient-pink: #f89096;
     --gradient-purple: #b1b4e5;
 
-    --link-color: var(--blue);
+    --link-color: var(--dark-blue);
 
     --override-z-index: 4;
     --header-z-index: 3;
@@ -28,8 +35,10 @@
 
     --base-font-family: 'Open Sans', sans-serif;
     --strong-font-family: 'Zilla Slab', 'Georgia', 'Utopia', 'Charter', serif;
-    --font-size: 16px;
     --font-size-xs: 12px;
+    --font-size-sm: 14px;
+    --font-size: 16px;
+    --font-size-md: 18px;
     --font-size-lg: 24px;
     --font-size-xl: 32px;
     --font-size-xxl: 34px;
@@ -42,6 +51,9 @@
     --old-desktop-width: 55rem;
 
     --page-margin: 1rem;
+    --page-margin-padding: calc(
+        ((100vw - var(--desktop-width)) / 2) + (var(--page-margin) * 0.5)
+    );
 
     --input-height: 2.5rem;
 
@@ -60,6 +72,13 @@
 
     --profile-column-margin: 30px;
 }
+
+@media (prefers-reduced-motion: reduce) {
+    :root {
+      --transition-duration: 0.05s;
+      --transition-duration-slow: 0.05s;
+    }
+  }
 
 .md-block {
     display: none;

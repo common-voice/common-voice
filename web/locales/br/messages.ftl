@@ -17,6 +17,7 @@ not-available-abbreviation = Dihegerz
 banner-error-slow-1 = Hon digarezit, gorrek eo Common Voice. Trugarez evit hoc’h interest.
 banner-error-slow-2 = Kalz a dud a zo war al lec’hienn ha klask a reomp diskoulmañ ar c'hudennoù.
 banner-error-slow-link = Pajenn statud
+error-something-went-wrong = Hon digarezit, degouezhet ez eus bet ur fazi
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -39,10 +40,12 @@ ba = Bachkireg
 bas = Basaaeg
 be = Belaruseg
 bg = Bulgareg
+bm = Bambaraeg
 bn = Bengaleg
 br = Brezhoneg
 bs = Bosneg
 bxr = Bouriateg
+byv = Medumbaeg
 ca = Katalaneg
 cak = Kakchikeleg
 ckb = Kurdeg ar c’hreiz
@@ -52,9 +55,11 @@ cs = Tchekeg
 cv = Tchouvacheg
 cy = Kembraeg
 da = Daneg
+dag = Dagbanieg
 de = Alamaneg
 dsb = Izel-Sorabeg
 dv = Diveheg
+dyu = Dioulaeg
 el = Gresianeg
 en = Saozneg
 eo = Esperanteg
@@ -74,6 +79,7 @@ gom = Goan Konkani
 ha = Haousaeg
 he = Hebraeg
 hi = Hindeg
+hil = Hiligaynoneg
 hr = Kroateg
 hsb = Uhel-Sorabeg
 ht = Haitieg
@@ -88,6 +94,7 @@ is = Islandeg
 it = Italianeg
 izh = Ijoreg
 ja = Japaneg
+jbo = Lojbaneg
 ka = Jorjieg
 kaa = Karakalpakeg
 kab = Kabileg
@@ -96,6 +103,7 @@ ki = Kikuyu
 kk = Kazakheg
 km = Khmer
 kmr = Kurdeg Kurmanji
+kn = Kannadeg
 knn = Konkani (devanagari)
 ko = Koreaneg
 kpv = Komieg-zirieg
@@ -104,6 +112,8 @@ ky = Kirgizeg
 lb = Luksembourgeg
 lg = Gandaeg
 lij = Ligureg
+ln = Lingalaeg
+lo = Laoseg
 lt = Lituaneg
 lv = Latveg
 mai = Maitilieg
@@ -123,12 +133,16 @@ my = Birmaneg
 myv = Erzyeg
 nan-tw = Taiwaneg (Minnan)
 nb-NO = Norvegeg bokmål
+nd = IsiNdebele (Norzh)
 ne-NP = Nepaleg
 nia = Niaseg
 nl = Nederlandeg
 nn-NO = Norvegeg nynorsk
+nr = IsiNdebele (Su)
+nso = Sothoeg an norzh
 nyn = Nyankole
 oc = Okitaneg
+om = Afaan Ormoo
 or = Oriyeg
 pa-IN = Pandjabeg
 pap-AW = Papiamento (Aruba)
@@ -146,14 +160,18 @@ sah = Yakouteg
 sat = Santali (Ol Chiki)
 sc = Sardinieg
 scn = Sikilianeg
+sdh = Kurdeg ar Su
 shi = Tacheliteg
 si = Sinhaleg
 sk = Slovakeg
 skr = Saraiki
 sl = Sloveneg
+snk = Sininkeeg
 so = Somalieg
 sq = Albaneg
 sr = Serbeg
+ss = Swati
+st = Sothoeg ar su
 sv-SE = Svedeg
 sw = Swahileg
 syr = Syirieg
@@ -165,8 +183,10 @@ ti = Tigrinya
 tig = Tigreeg
 tk = Turkmen
 tl = Tagalogeg
+tn = Setswanaeg
 tok = Toki Pona
 tr = Turkeg
+ts = Gzitsongaeg
 tt = Tatareg
 tw = Twieg
 ty = Tahitianeg
@@ -176,15 +196,20 @@ ug = Ouigoureg
 uk = Ukraineg
 ur = Ourdoueg
 uz = Ouzbekeg
+ve = Tshivendaeg
 vec = Veneteg
 vi = Vietnameg
 vot = Voteg
+xh = Xhosaeg
 yi = Yiddish
 yo = Yoroubeg
 yue = Kantoneg
+zgh = Tamazighteg
 zh-CN = Sinaeg (Sina)
 zh-HK = Sinaeg (Hong Kong)
 zh-TW = Sinaeg (Taiwan)
+zu = Zouloueg
+zza = Zazaeg
 
 # [/]
 
@@ -196,6 +221,7 @@ speak-now = Komz bremañ
 datasets = Spletadoù roadennoù
 languages = Yezhoù
 about = A-zivout
+partner = Dont da vezañ keveler
 profile = Profil
 help = Skoazell
 contact = Darempred
@@ -321,7 +347,6 @@ shortcut-discard-ongoing-recording-label = Leuskel an enrolladenn vremanel
 shortcut-submit = Distreiñ
 shortcut-submit-label = Kas ar c’hlipoù
 request-language-text = Ne welit ket ho yezh e Common Voice evit ar mare?
-request-language-text-learn = Deskit penaos goulenn anezhi amañ!
 request-language-button = Goulenn ouzhpennañ ur yezh
 
 ## ProjectStatus
@@ -417,6 +442,7 @@ gravatar_not_found = Gravatar ebet kavet evit ho postel
 file_too_large = Re vras eo ar restr diuzet
 avatar-uploaded = Avatar ezkarget
 max-file-size = { $kb }kb max
+remove-avatar = Dilemel an Avatar
 
 ## Profile - Email
 
@@ -458,7 +484,6 @@ faq-do-want-native-a = Ya, c’hoant hon eus ho mouezh! Ul lodenn eus pal Common
 faq-why-different-speakers-q = Perak ho peus ezhomm kement a gomzerien disheñvel dre yezh?
 faq-why-different-speakers-a = Lodenn vrasañ an diaz roadennoù mouezhioù a zo gourdonet gant un dreistdileuridigezh eus poblañsoù ’zo, dreist-holl ar <articleLink>gwazed a renkad etre</articleLink>. An taolioù-mouezh hag ar rannyezhoù a zo is-dileuriet er roadennoù gourdonañ a zo peurvuiañ liammet gant strolladoù a zo arlezekaet endeo. Meur a vekanik o deus diaesterioù evit adanavezout mouezhioù maouezed. Setu perak e fell deomp kaout liesseurted en hor diaz-roadennoù!
 faq-why-my-lang-q = Perak n’eo ket enkorfet ma yezh c’hoazh?
-faq-why-my-lang-new-a = Ne vez ket lakaet ur yezh a-us d’eben gant Mozilla. Un intrudu lusket gant ar gumuniezh eo, met <multilangLink>meur a bazenn a zo evit ouzhpennañ ur yezh nevez</multilangLink> ha kregiñ da zastum enrolladennoù. Da gentañ penn eo dav treiñ lec’hienn ar gumuniezh evit ma c’hallfe bezañ merdeet gant izili ar gumuniezh en o yezh. Da c’houde hon eus ezhomm eus un dastumadeg bras a frazennoù hep gwirioù aozer evit ma c’hallfent bezañ lennet a vouezh uhel gant an dud. Ur wech m’eo leuniet an daou dra-se e c’hall bezañ "lañset" ar yezh war Common Voice evit ma krogfe an dud da enrollañ o mouezh ha da wiriekaat ar roadoù all. Ma fell deoc’h skoazellañ evit lañsañ ur yezh nevez, kit da welet hon ostilh <sentenceCollectorLink>dastum frazennoù</sentenceCollectorLink> evit kregiñ.
 faq-what-quality-q = Peseurt perzhded son a zo goulennet evit implijout ur c’hlip mouezh er spletad roadennoù?
 faq-what-quality-a = Fellout a ra deomp e vefe spletad roadennoù Common Voice heverk eus perzhded ar son a vo enrollet gant un anaoudeger ar vouezh neuze e klaskomp kaout liesseurted. Asambles gant ur gumuniezh liesseurt e c’hallo ur spletad roadennoù gant perzhded son disheñvel deskiñ d’al lusker anaoudegezh ar vouezh merañ meur a zegouezhioù er bed gwirion, gant trouzioù ur c’harr pe gant tud o komz en drekleur. Keit ha m’eo komprenus ho klip mouezh eo mat a-walc’h da vezañ enkorfet er spletad roadennoù.
 faq-why-10k-hours-q = Perak eo 10 000 eurvezh gwiriekaet ar pal dre yezh evit tapout ar son?
@@ -490,10 +515,22 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Perak Common Voice?
+how-does-it-work-title-v2 = Penaos ez a en-dro Common Voice?
 how-does-it-work-text = Sevel a reomp un teskad roadennoù mouezhioù a-stroll. Roit ho mouezh, gwiriekait klipoù an dud all ha lakait ar spletad roadennoù da vezañ gwelloc’h evit an holl.
 
 ## How does it work section
 
+about-language-req-subtitle = Unan bennak a c'houlenn e vefe ouzhpennet ur yezh.
+about-localization-title = Treiñ al lec'hienn
+about-localization-subtitle = Testenn al lec'hienn a zo troet er yezh-mañ.
+about-sentence-collection-title = Dastumadeg frazennoù
+about-sentence-collection-subtitle = Frazennoù a vez dastumet evit ma vefent lennet a vouezh uhel.
+about-new-lang-title = Loc'hañ gant ur yezh nevez
+about-new-lang-subtitle = Loc'hañ a reomp lec'hienn Common Coice evit ar yezh-mañ.
+about-voice-contrib-title = Kendaoladurioù mouezh
+about-voice-contrib-subtitle = Tud a zeu da gendeurel gant o mouezh.
+about-voice-validation-title = Gwiriekaat ar vouezh
+about-voice-validation-subtitle = Tud all o deus gwiriekaet ar c'hlipoù aodio-mañ.
 about-speak = Komz
 about-speak-text = Ar gendaolerien a enroll klipoù mouezh en ul lenn e-touez un hollad a frazennoù roet.
 about-listen-queue = Roll gortoz
@@ -510,55 +547,56 @@ about-dataset-new = Spletad roadennoù Common Voice
 about-dataset-new-text = Spletad roadennoù Common Voice a endalc’h kantadoù a viliadoù standilhonoù mouezh a skoazell an diorroerien da sevel ostilhoù adanaoudegezh ar vouezh.
 about-clip-graveyard = Bered ar c’hlipoù
 about-clip-graveyard-text = Bered ar c’hlipoù a zo ar c’hlipoù mouezh n’int ket bet asantet e spletad roadennoù Common Voice. Gallout a raer pellgargañ bered ar c’hlipoù evel ar spletad roadennoù.
-about-partners = Kevelerien
-about-become-a-partner = Dont da vezañ keveler
-about-partnership =
-    Ur raktres a-stroll eo Common Voice, gant ar gumuniezh a gevelerien hag a gendaolerien e savomp ar spletad roadennoù digor o zarzh brasañ zo bet.
-    
-    Fellout a rafe deomp trugarekaat an dud hag an aozadurioù da-heul evit o sikour gant ar raktres:
 about-get-involved = Kemer perzh
 about-get-involved-text-2 =
     C’hoant ho peus sikour da wellaat Common Voice?
     Dreist! Kit e darempred ganeomp dre bostel pe war ar foromoù <discourseLink>Discourse</discourseLink>,
     disklêriit kudennoù lec’hiennoù dre <githubLink>GitHub</githubLink>, pe kemerit perzh e flap ar gumuniezh war <matrixLink>Matrix</matrixLink>.
+about-stay-in-touch-button = Kevreañ
 about-nav-why-common-voice = Perak?
 about-nav-how-it-works = Penaos?
 about-nav-partners = Kevelerien
 about-nav-get-involved = Kemer perzh
+about-nav-playbook = Deskiñ penaos kemer-perzh
 
 ## Community Playbook Content
 ## What is a language
 
+about-playbook-what-is-language = Petra eo ur yezh evit Common Voice?
 
 ## How do I add a language
 
+about-playbook-how-add-language = Penaos e c'hallan ouzhpennañ ur yezh?
+about-playbook-how-add-language-translating-heading = Treiñ al lec'hienn
+about-playbook-how-add-language-collecting-sentences-heading = Dastum frazennoù
 
 ## How does localization work
 
+about-playbook-how-localize = Penaos ez en-dro troidigezh al lec'hienn?
+about-playbook-how-localize-content-5 = Sellout ouzh hon video displegañ evit kaout sikour
 
 ## How to add sentences
 
+about-playbook-how-add-sentences = Penaos e c'hellan ouzhpennañ frazennoù?
 
 ## How to record quality
 
 
 ## How to grow language
 
+about-playbook-how-grow-language-content-2 = Darvoudoù
+about-playbook-how-grow-language-content-4 = Media sokial
+about-playbook-how-grow-language-content-6 = Kevelerien ha kenrouedad
 
 ## How to validate
 
+about-playbook-how-validate = Penaos gouzout hag-eñ e rank bezañ gwiriekaet ur c'hlip mouezhiek?
 
 ## How to access dataset
 
 
 ## How are decisions made
 
-mycroft-title = Mycroft Ai
-mycroft-subtitle = Speredegezh kalvezadel
-mycroft-description =
-    Kentañ skoazeller open-source ar bed eo Mycroft.
-    Mycroft a c’hall bezañ lañset e pep lec’h - war un urzhiataer burev, e-barzh ur c’harr pe war ur Raspberry Pi.
-mycroft-secondary-description = Ur meziant frank a c’hall bezañ admesket, astennet ha gwellaet an hini eo. Gallout a ra Mycroft bezañ implijet e raktresoù liesseurt, eus ur raktres skiantel betek un meziant evit an embregerezhioù.
 
 ## Glossary
 
@@ -616,6 +654,7 @@ review-delete-recordings = Dilemel ma enrolladennoù
 
 ## Datasets Page
 
+datasets-heading = Diazoù-roadennoù
 datasets-headline = Sevel a reomp spletadoù roadennoù mouezhioù digor o zarzh, lies-yezh hag a c’hall bezañ implijet gant forzh piv evit gourdonañ arloadoù anaoudegezh ar vouezh.
 datasets-positioning =
     Soñjal a ra deomp e c’hall spletadoù roadennoù bras hag hegerz d’ar foran degas nevezenti ha kevezerezh kenwerzhel yac’h e teknologiezhioù ar vouezh diazezet war an deskadurezh emgefreek.
@@ -651,6 +690,7 @@ subscribe = Koumanantiñ
 get-started-speech = Kregiñ gant anaoudegezh ar vouezh
 other-datasets = Spletadoù roadennoù all
 feedback-q = Evezhiadennoù ho peus?
+community-playbook = Dornlevr ar gumuniezh
 data-other-librispeech-description = LibriSpeech a zo anezhañ ur c’horpus a 1000 eurvezh skrid bennak lennet e saozneg (16 kHz) hag a zeu diwar levrioù son ar raktres LibriVox.
 data-other-ted-name = Korpus TED-LIUM
 data-other-ted-description = Savet eo bet ar c’horpus TED-LIUM diwar divizoù komzet hag an treuzskrivadurioù anezho a c’haller kavout war lec’hienn TED.
@@ -695,6 +735,19 @@ request-language-success-content = Mont a raimp e darempred ganeoc’h a-barzh n
 select-language = Diuzañ ur yezh...
 other-language = Yezhoù all
 
+## Request Language Pages
+
+request-language-heading = Goulenn ouzhpennañ ur yezh
+request-language-form-email =
+    .label = Ho chomlec'h postel
+request-language-form-info =
+    .label = Titouroù diwar-benn ar yezh
+request-language-form-info-explanation-list-1 = Anvioù ho yezh
+request-language-form-info-explanation-list-2 = <isoCodeLink>Kodoù ISO</isoCodeLink> ma ouzoc'h
+request-language-form-info-explanation-list-3 = Liammoù davet lec'hiennoù evit sikour ac'hanomp da gompren ar yezh
+request-language-google-recaptcha-required = reCAPTCHA a zo rekis m'ho peus c'hoant mont betek penn
+request-language-google-recaptcha-error = Un dra bennak a zo aet a-dreuz gant ar reCAPTCHA. Klaskit adarre mar plij.
+
 ## Languages Overview
 
 language-section-in-progress = War ober
@@ -710,7 +763,7 @@ language-search-input =
 language-speakers = Komzerien
 localized = Lec’helaet
 sentences = Frazennoù
-total-hours = Hollad eurvezhioù
+language-validation-hours = Eurvezhioù
 
 ## Contribution
 
@@ -1029,6 +1082,23 @@ see-less = <chevron></chevron>Gwelet nebeutoc’h
 
 ## HEADER/FOOTER
 
+sc-header-home = Degemer
+sc-header-how-to = Penaos ober
+sc-header-add = Ouzhpennañ
+sc-header-review = Gwiriañ
+sc-header-rejected = Frazennoù nac'het
+sc-header-my = Ma frazennoù
+sc-header-statistics = Stadegoù
+sc-header-profile = Profil
+sc-footer-discourse = Discourse
+sc-footer-report-bugs = Danevellañ kudennoù
+sc-footer-translate = Treiñ ar bajenn-mañ
+sc-footer-report-copyright = Danevelliñ kudennoù copyright
+sc-footer-privacy = Buhez prevez
+sc-footer-terms = Termenoù
+sc-footer-cookies = Toupinoù
+sc-login-signup-button = Kevreañ / Lakaat e anv
+sc-logout-button = Digevreañ
 
 ## HOME
 
@@ -1047,6 +1117,8 @@ see-less = <chevron></chevron>Gwelet nebeutoc’h
 
 ## STATS
 
+sc-stats-title = Stadegoù
+sc-stats-updating = Oc'h hizivaat…
 
 ## ADD
 
@@ -1059,21 +1131,37 @@ see-less = <chevron></chevron>Gwelet nebeutoc’h
 
 ## LANGUAGE INFO
 
+sc-lang-info-title-total = Hollad
+sc-lang-info-title-personal = Personel
 
 ## LOGIN
 
 
 ## PROFILE
 
+sc-personal-your-languages = Ho yezhoù:
+sc-personal-remove-button = dilemel
 
 ## REVIEW CRITERIA
 
 
 ## REVIEW
 
+sc-review-form-button-reject = Nac'hañ
+sc-review-form-button-skip = Tremen
+sc-review-form-button-approve = Aprouiñ
+# Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
+sc-review-form-button-approve-shortcut = Y
+# Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
+sc-review-form-button-reject-shortcut = K
+# Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
+sc-review-form-button-skip-shortcut = T
+sc-review-link = Gwiriañ
 
 ## SETTINGS
 
+sc-settings-title = Arventennoù
 
 # [/SentenceCollector]
 
+partnerships-our-partners = Hor c'hevelerien

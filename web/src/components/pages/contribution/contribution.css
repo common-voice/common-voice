@@ -24,7 +24,6 @@
     max-width: var(--wide-desktop-width);
     width: 100%;
     height: 100%;
-    box-sizing: border-box;
 
     @media (--md-up) {
         padding: 20px;
@@ -250,6 +249,10 @@
         flex-direction: column;
         flex-shrink: 0;
 
+        .cta-placeholder {
+            height: 400px;
+        }
+
         @media (--md-up) {
             flex-direction: row;
         }
@@ -359,10 +362,6 @@
         justify-content: center;
         align-items: center;
 
-        @media (--md-up) {
-            margin-top: 8vh;
-        }
-
         @media (--xl-up) {
             margin-top: 12vh;
         }
@@ -458,7 +457,9 @@
         }
     }
 
-    &.submittable {
+    &.submittable,
+    &.first-cta-visible,
+    &.second-cta-visible {
         .cards,
         .instruction,
         .primary-buttons,
@@ -470,6 +471,12 @@
 
             @media (--md-up) {
                 display: initial;
+            }
+        }
+
+        .primary-buttons {
+            @media (--xl-up) {
+                margin-top: 6vh;
             }
         }
 
@@ -540,7 +547,6 @@
 
     .card-dimensions {
         padding: 0 20px;
-        box-sizing: border-box;
 
         text-align: center;
         font-weight: 600;
@@ -573,7 +579,6 @@
         padding: 30px 25px;
         max-width: 700px;
         width: 100%;
-        box-sizing: border-box;
 
         display: flex;
         flex-direction: column;
@@ -668,6 +673,26 @@
         @media (--sm-down) {
             font-size: 90%;
             margin-top: 5px;
+        }
+    }
+
+    .contribution-speak-form {
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+
+        @media (--md-down) {
+            align-items: center;
+        }
+
+        .labeled-checkbox {
+            margin: 0 0 2em;
+            width: 60%;
+            text-align: center;
+
+            a {
+                color: var(--anchor-text-blue);
+            }
         }
     }
 }

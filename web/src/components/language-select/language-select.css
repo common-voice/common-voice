@@ -7,7 +7,6 @@
         max-height: 50px;
         min-width: 220px;
         padding: 13px 22px;
-        box-sizing: border-box;
 
         font-family: var(--base-font-family);
         text-transform: uppercase;

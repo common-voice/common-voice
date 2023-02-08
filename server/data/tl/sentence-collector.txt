@@ -81,6 +81,7 @@ Ang pisikal na pagpapakita ay nangangahulugan na kayo ay talagang nasa Estados U
 Ang pool ay hindi maaaring buksan!
 Ang sa matandang lalaki naman ay "Patawarin mo kami, Pio!"
 Ang sertipikong ito ay nagpapatunay na kayo ay isang mamamayan ng Estados Unidos.
+Ang sumusunod ay talaan
 Ang talagang kailangan namin ay kaunting pag-aalaga.
 Ang taong maysakit ay dapat magsuot ng mask kapag gumagamit ng banyo, kung maaari.
 Ang taong nagigipit, sa patalim kumakapit.
@@ -123,6 +124,7 @@ Bakit nakakakita tayo ng maraming away sa telebisyon?
 Bakit ngayon mo lang ako naalala
 Balang araw, maaari akong magpatala.
 Baliw 'to di naman ganun yung nangyari
+Banal na mga Puso nina Hesus at Maria
 Bantayan ang mga palatandaan ng stress o pagbabago ng pag-uugali.
 Batong buhay ka man na sakdal ng tigas, sa patak ng tubig lamang naaagnas.
 Bawal ba sa office nyo pag naka-tattoo?
@@ -132,6 +134,7 @@ Bukas ang mga Opisina, na may mga Hakbang sa Pag-iingat
 Bukas baka pumunta 'ko sa Cubao
 Bumusita sa
 Buong lakas na tinuktok uli ng ibon ang kawayan.
+Cebu ay labis din napinsala
 Dagdag na Deribatibong Benepisyaryo
 Dagdag na deribatibong mga benepisyaryo
 Dalawa o higit na krimen na may magkasamang sentensiya na limang taon o higit;
@@ -212,6 +215,7 @@ Ilan ang mga pangungusap na kailangan nating isulat?
 Ilayo mo sa akin ang pusa!
 Iligal na Pananatili
 Iligal na Pananatili at Pagkakakulong
+Ilog
 Inaasahan nating lahat na maging abala ang ating sarili.
 Ingles at Sibika
 Iniangat ng Diyos ang Kanyang kamay at ito'y itinurong pababa.
@@ -281,6 +285,7 @@ Kinakansela ang mga proyekto sa kaliwa at kanan.
 Kinamaya-maya'y narito na si Dalen.
 Kinuha ang kanyang gulok na nakasabit sa dingding.
 Komunsulta sa nakatalagang medikal na tauhan ng iyong barko.
+Kongregasyon
 Kritikal ang mga pag-aaral ng wika.
 Kumaba na naman ang dibdib ko.
 Kumusta ka
@@ -327,6 +332,7 @@ Lalong mapasarap.
 Limit sa Edad para sa mga Deribatibong Benepisyaryo
 Limitahan ang iyong kontak sa may sakit hangga’t maaari.
 Limitahan ang mga bisita doon sa mga kinakailangan lamang sa bahay
+Linggo
 Liniligawan ko ang iyong larawan
 Lumipas ang araw na lubhang matamis
 Maaari ba niya akong mahalin?
@@ -385,6 +391,7 @@ Manatili sa bahay hangga’t maaari.
 Manatiling Updated
 Manunulisan na muna ako bago bumalik sa Unibersidad.
 Maraming tao ang nagsasama ng kanilang mga pamilya at nagdiriwang sila pagkatapos ng seremonya.
+Maribojoc
 Mas mahabang mga oras sa koleksyon ng biometrics.
 Masasayang Ninfas sa lawa ng Bai
 Masyadong malaki ang istasyong ito!
@@ -484,6 +491,7 @@ Naturalisasyon:
 Nayari ng Diyos ang sanlibutan. Ito ay isang ginintuan at mahiwagang paraiso.
 Ngayong namamanglaw sa pangungulila
 Nilisan mo ang Estados Unidos; o
+Nobyembre
 O suriin ang mga opsyon ng paghahatid na mayroon sa inyong lugar.
 O tumawag sa
 Overtime ka na naman mamaya, 'no?
@@ -556,6 +564,7 @@ Pisikal na pamamalagi:
 Proseso Pagkatapos ng Panayam
 Protektahan ang iyong sarili at ang iyong pamilya sa mga panloloko sa imigrasyon.
 Protektahan ang iyong sarili at ang iyong pamilya.
+Punong Hukom
 Puti ang kulay ng bangka.
 Pwede muna ba ko magpaampon kahit hanggang bukas lang?
 Sa Sabado kasama 'ko sina Garry pa-Zambales
@@ -575,6 +584,7 @@ Sabi ni Magda
 Sagot ni Pio
 Sakaling ako'y makapanaogbaka wala akong mabitbit naanuman!
 Sampung minuto pa ang dumaan bago ka lumabas sa pinto ng inyong bahay.
+San Isidro
 Selya'y talastas ko't malalim na umid
 Sentido Komun ang Inyong Pinakamahusay na Pananggol
 Si Dalen ay malumanay na sumagot.
@@ -608,6 +618,7 @@ Sirenas, ang tinig ay kawili-wili
 Siya'y dumapo sa naturang kawayan upang magpahinga.
 Siyasatin Bago Kayo Magtiwala
 Sumapit ang oras ng tipanan.
+Surigao
 Taga saan po ba kayo
 Tandaan
 Taong di marunong sumangguini, may dunong ma’y namamali.
@@ -659,12 +670,15 @@ Walang pinapayagan na sasakyan sa sasakyan.
 Walang sapat na oras upang mamuhunan sa isang bagay.
 Wikang English at Mga Sibikang Eksempsiyon
 Yaong Selyang laging pinanganganiban
+Zamboanga
 ako at tahasang ilalahad ang aking mg̃a kuro-kuro.
 ang anumang mga aplikasyon na nai-sumite sa ngalan ng mga kamag-anak.
 ang asawa ng beterano ay
 ang ginagawa kong pang-aliw sa dusa
 ang ikinalubog niring kapalaran
+ang layo sa pagitan
 ang makakapagbigay ng payong legal.
+ang mga ruta
 ang pag-iisip ko sa tuwang kumupas;
 ang pagpatay, panggagahasa, sekswal na pang-aabuso ng isang bata, marahas na pag-atake
 ang panayam ay maaaring muling maiskedyul.
@@ -673,9 +687,12 @@ ang siyang buhay ko, kaluluwa't Langit?
 ang siyang umakay na ako'y tumula
 ang suyuan nami'y bakit 'di lumawig?
 ang ulilang sinta'y aking inaaliw.
+anggulo
+anumang uri
 at 'di mananakaw magpahanggang libing.
 at huwag hawakan ang iyong mga mata, ilong, bibig o mask.
 at isang indibidwal na nagbibigay ng tulong sa kapansanan
+at kalusugang pang - isipan Sinusuri rin nito ang kung paanong ang pagkaunawa
 at maaaring magpasa ng aplikasyon para sa panibagong panahon ng parol
 at nabanggit na karapat-dapat para humingi ng parol sa itaas na seksyon
 at naninirahan sa Estados Unidos noong panahon na sila ay pumanaw.
@@ -691,6 +708,7 @@ ay nagpakita ng̃ kanikanilang kasiglahan at kapuripuring kabayanihan.
 ay sumipot naman ang mg̃a kilalang kapisanan ng̃ mg̃a babae na ang mg̃a pamagat
 ay unti-unting nahahapay ang aking pananalig sa di pagsangayon sa kababaihan.
 ay “Liga de Mujeres Filipinas” at “Ang Babae Ngayon”.
+babae
 bago kayo lumabas ng Estados Unidos nang isang taon.
 bago sila makapagsimula ng pagpuproseso ng naturalisasyon.
 baka makalimot sa pag-iibigan;
@@ -699,9 +717,17 @@ bayan ay napagtalunan hanggang sa mg̃a pahayagan.
 benepisyaryo ay nagpakasal o nagkaanak mula nang maaprubahan
 binabakas ko rin sa masayang do'ngan
 bisitahin ang Imigrasyon, Mga Nagsilikas, at Pagkamamamayan sa Canada
+bombang atomikong ibinagsak sa Hiroshima
+dalawang punto
+damdamin
 damit mula sa baywang paibaba habang ang hubad o kahubaran naman ay kawalan
 di-kinikilala sa Ingles o Kastila
 dito ang panahong masayang lumipas;
+emosyon
+espirituwal
+galaw
+ganitong uri
+guhit
 habang kayo ay malayo.
 halimbawa, ang paggamit o pagbebenta ng pinagbabawal na gamot; at
 halimbawa, bayaran ang mga buwis
@@ -712,15 +738,25 @@ himutok ko noo'y inaaring-Langit
 hindi kayo maaaring maging mamamayan ng Estados Unidos at malamang na paalisin sa bansa.
 ilista ang hindi lahat ng kabilang
 inanunsyo namin ang aming layunin sa pagwawakas ng Programang
+ipinagdiriwang
+isang Kastilang nagsasalita
 isang benepisyaryo bago pumanaw ang nagpetisyon at pagkatapos ay muling
+isang emperador
 isang kinikilalang institusyon sa pananaliksik, o isang korporasyong ng Estados Unidos
+isang lalaking mula sa Pransiya na dumating sa Dulac
+isang nakaririnig na Pilipinang maalam sa wika
+isang proyekto na magpapaunlad
+isang taong banal at karapatdapat na parangalan
 kabilang ang mga nagpepetisyon sa sarili
 kabilang ang sinumang kasamang asawa o anak
 kailangan kayong pumunta sa seremonya at mag-sabi ng Oath of Allegiance.
 kailangan ninyong umpisahang muli ang inyong patuloy na paninirahan.
+kalunasan
 kaniyang pagsintang ginugol sa akin
 kasama ang iyong sarili, kung ikaw ay isang nagpepetisyon sa sarili
+kasama maging ang isang database
 katawan sa kalagayan
+katekismo at sa pagsasagawa
 kayo ngayo'y siyang pinipintakasi
 kilala bilang mga deribatibong benepisyaryo
 kinilala ng Kagawaran ng
@@ -729,18 +765,38 @@ kung gunitain ka'y aking kamatayan
 kung sila ay nakadepende sa suporta ng kanilang mga magulang
 kusang inilimbag sa puso't panimdim
 lalo na kung tatanggapin ninyo ang trabaho sa ibang bansa.
+layo
+layo o metriko sa konsepto
+leeg
+leeg ay maaaring bumukol
 lubha pa’t ang humihiling ay isang gaya ni Bb. Fausta Cortés na di marapat
 lumagpas na sa eded
 maaari kayong bumisita sa aming pahina na Makataong Pagbabalik.
 maaari kayong makabalik kung mayroon kayong pahintulot para sa muling pagpasok.
 maaaring hindi ninyo nakamit ang mga kinakailangang pisikal na pagpapakita.
 maaaring pinutol ninyo ang inyong patuloy na paninirahan.
+malalaking halaga
 maliban kung ikaw ay kumpletong nabakunahan
 maliban na lamang kung winakasan
 maliban pa sa sertipikadong mga pagsasalin sa Ingles ng mga dokumentong ito;
 mangmang ang musa ko't malumbay ang tinig;
+may populasyon na
+mga bahagi
+mga dekada
 mga eksperto sa imigrasyon
+mga gamot
+mga gawain
+mga gusali
+mga lathalain at paglulunsad
+mga negosyo
 mga panlabas na bahagi
+mga proseso
+mga senyas sa pagtuturo
+mga sintomas
+mga talahuluganan at mga panturong mga materyales
+mga tao ang nawalan
+mga tinig
+minumungkahi ang paggamit
 n Humingi ng mga photocopy ng mga form na hinanda para sa iyo.
 n Humingi ng resibo kapag magbayad kayo kaninuman upang tulungan kayo.
 n Ipaliwanag ang mga inyong mapagpipilian pang-immigration.
@@ -753,6 +809,8 @@ n Tulungan kayong pakahulugan ang mga tanong sa mga immigration form; at
 na ako ang siyang magbigay pang-unang salita dito
 na gulang, kasal na anak, o kapatid ng mamamayan ng Estados Unidos.
 na inihahandog sa mahal mong yapak;
+na isang kalahatan
+na isang uri
 na karaniwang tinutukoy bilang isang “dagdag” na deribatibo
 na kung maliligo'y sa tubig aagap
 na maaaring miyembro ng pamilya
@@ -762,6 +820,7 @@ nag-iisang sanlang naiwan sa akin
 nagbuhat sa puso ng lingkod na tapat.
 nagdaang panaho'y inaalaala
 nagdaang panahon ng suyuan namin?
+naging pinakapangunahing sa mga impluhong lokal at mga pananaliksik si Liza Martinez
 nagpapakarapat-dapat na mga deribatibo hangga’t:
 nahan ang panahong isa niyang titig
 nang dahil sa iyo, O nalayong tuwa
@@ -776,21 +835,34 @@ ngunit kahit isang benepisyaryo ay naninirahan sa Estados Unidos sa panahon
 o isang kahilingan para sa makataong pagbabalik dahil tinanggihan namin ang nakaraan mong kahilingan
 o kung kayo ay may ginawang maraming maiiksing pagbiyahe sa labas ng bansa
 o nagpepetisyon ng sarili
+operasyon
+pagbuo
 pagkaitan, kaya mahirap man sakali sa akin ang tumungkol sa ganitong bagay ay tutupad
+pagpili
+pagpiyok sa mga binatang lalaki
+pagsesenyas na ginagamit
 pakiusap na sundin ang mga bilin sa abiso sa iyong panayam.
 palaring dinggin mo ng tainga't isip.
+pamahalaan sa pulo
+pamilihan
 panahong ginugol sa labas ng Estados Unidos.
+panganib
 pangmilitar ay kinilala ng
+pantaong pagtalos
 para lamang madaya at maperahan ka.
+para sa kapakanan
 para sa may kapansanan sa pandinig
 para sa parol base sa kanilang kaugnayan sa pangunahing
 pumanaw na rin Ang Pilipinong beterano ng
 pumanaw nang Pilipinong
 sa Birheng mag-ina'y ipamintakasi
 sa Dayuhang Kamag-anak, hangga’t ang iyong kaugayan sa kanila ay umiral noong o
+sa Estados Unidos
 sa Ilog Beata't Hilom na mababaw
 sa Makating ilog na kinalagian;
+sa bibig
 sa buntung-hininga nang ika'y may sakit
+sa butas
 sa ilalim ng orihinal na mga tuntunin ng programa.
 sa inyo mula sa pisikal na pagpapakita ng lubos.
 sa iyong larawa'y ninitang ginhawa.
@@ -803,17 +875,25 @@ sa puno ng manggang naraanan natin;
 sa puso ko Selya'y, 'di ka mapaparam.
 saan ang serbisyong
 sabay ang taghoy kong "O, nasawing palad!"
+salapi sa Estados Unidos
 segundong pagpapasahimpapawid
+senyas sa Pilipinas
 serbisyong pangmilitar ay
+silangan
 tanggapin mo nawa kahit walang lasap
 tapat na pagsinta'y hangad na lumawig.
 tapat na pagsuyong lalagi sa dibdib
+tinatawag itong uri
+tinutukoy
 tonohan ng lira yaring abang awit
 tubo ko'y dakila sa pahunang pagod;
 tulad ng paglabag sa alinmang mga batas ng Estados Unidos.
+tumutukoy ang layo sa pisikal na haba
 ulit na parol
 ulit ng parol
 upang mapangalagaan ang inyong estado bilang isang permanenteng residente upang maipagpatuloy ang naturalisayon.
+walang limitasyong ang termino
+wika
 www.uscis.gov para sa karagdagang impormasyon.
 yapak ng paa mo sa batong tuntungan.
 yaring aking puso'y laging lumiligaw.

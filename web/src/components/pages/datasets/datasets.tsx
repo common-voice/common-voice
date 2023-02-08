@@ -1,15 +1,17 @@
 import { Localized } from '@fluent/react';
 import * as React from 'react';
+
 import URLS from '../../../urls';
 import { LocaleLink } from '../../locale-helpers';
 import { PlayOutlineIcon } from '../../ui/icons';
 import DatasetInfo from './dataset-info';
-
 import Resources from './resources';
+import Page from '../../ui/page';
+
 import './datasets.css';
 
 const Datasets = () => (
-  <div className="datasets-content">
+  <Page className="datasets-content">
     <DatasetInfo />
     <Resources />
     <div className="mars-validate">
@@ -27,7 +29,7 @@ const Datasets = () => (
         </div>
       </div>
     </div>
-  </div>
+  </Page>
 );
 
 export default Datasets;

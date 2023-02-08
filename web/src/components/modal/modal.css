@@ -13,13 +13,13 @@
 /* We need to use !important because the react modal library we use sets inline-styles */
 .ReactModal__Content {
     position: static !important;
-    display: table-cell;
-    vertical-align: middle;
+    margin-top: 2em;
     pointer-events: none;
     border: none !important;
 
     @media (--sm-down) {
         position: absolute !important;
+        margin-top: 0;
         top: 0 !important;
         left: 0 !important;
         right: 0 !important;
@@ -38,7 +38,7 @@
     & .inner {
         position: relative;
         margin: 0 auto;
-        box-sizing: border-box;
+
         padding: 2rem;
         width: 100%;
         max-width: 40rem;
@@ -50,6 +50,10 @@
 
         @media (--md-up) {
             min-height: auto;
+        }
+
+        a {
+            color: var(--anchor-text-blue);
         }
     }
 

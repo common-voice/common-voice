@@ -38,7 +38,8 @@ export function trackGlobal(
     | 'discourse'
     | 'contact'
     | 'footer-newsletter'
-    | 'matrix',
+    | 'matrix'
+    | 'blog',
   locale: string
 ) {
   track('Global', action, locale);
@@ -109,17 +110,6 @@ export function trackProfile(
   track('Profile', action, locale);
 }
 
-export function trackLanguages(
-  action:
-    | 'open-request-language-modal'
-    | 'contribute'
-    | 'see-more'
-    | 'see-less',
-  locale: string
-) {
-  track('Languages', action, locale);
-}
-
 export function trackDataset(action: string, locale: string) {
   track('Data', action, locale);
 }
@@ -158,7 +148,7 @@ export function trackChallenge(
 
 // Error pages send the full previous route as a third argument, which is
 // typically reserved for locale.
-export function trackError(action: '404' | '503', route: string) {
+export function trackError(action: '404' | '503' | '500', route: string) {
   track('Error', action, route);
 }
 

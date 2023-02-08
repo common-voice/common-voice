@@ -66,16 +66,25 @@
         grid-row-end: 100;
         grid-column-start: 2;
 
-        h2 {
+        .about-playbook-content__heading {
             font-family: var(--base-font-family);
+            font-weight: 600;
+            font-size: var(--font-size-lg);
+            margin-bottom: 1rem;
 
             @media (--sm-down) {
                 display: none;
             }
         }
 
+        h4 {
+            font-weight: 600;
+            font-size: var(--font-size-md);
+            margin-bottom: 1rem;
+        }
+
         p {
-            margin: 1rem 0 0;
+            margin-bottom: 1rem;
         }
 
         a {
@@ -87,19 +96,20 @@
         }
 
         .tab-subtitle {
-            margin-bottom: -1rem;
+            margin-bottom: 1rem;
         }
 
         .button {
             margin-top: 1rem;
             text-transform: uppercase;
             font-weight: 600;
-            display: inline-block;
+            display: inline-flex;
             line-height: 1.5rem;
             padding: 0.75rem 1rem 0.75rem 2rem;
             border-color: var(--blue);
             background: var(--blue);
             color: var(--white);
+            height: auto;
 
             svg {
                 float: right;

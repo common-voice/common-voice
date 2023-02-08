@@ -18,6 +18,8 @@ banner-error-slow-1 = Tyvärr, Common Voice går sakta. Tack för visat intresse
 banner-error-slow-2 = Vi har mycket trafik och utreder just nu problemet.
 banner-error-slow-link = Statussida
 error-something-went-wrong = Förlåt, något gick fel
+error-clip-upload = Uppladdningen av det här klippet misslyckas hela tiden. Vill du fortsätta försöka igen?
+error-clip-upload-server = Uppladdningen av det här klippet misslyckas hela tiden på servern. Ladda om sidan eller försök igen senare.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -40,10 +42,12 @@ ba = Basjkiriska
 bas = Basaa
 be = Vitryska
 bg = Bulgariska
+bm = Bambara
 bn = Bengaliska
 br = Bretonska
 bs = Bosniska
 bxr = Buryat
+byv = Medumba
 ca = Katalanska
 cak = Cakchiquel
 ckb = Centralkurdiska
@@ -53,9 +57,11 @@ cs = Tjeckiska
 cv = Tjuvasjiska
 cy = Walesiska
 da = Danska
+dag = { "" }
 de = Tyska
 dsb = Lågsorbiska
 dv = Dhivehi
+dyu = Dioula
 el = Grekiska
 en = Engelska
 eo = Esperanto
@@ -75,6 +81,7 @@ gom = Goa-konkani
 ha = Hausa
 he = Hebreiska
 hi = Hindi
+hil = Hiligaynon
 hr = Kroatiska
 hsb = Högsorbiska
 ht = Haitiska
@@ -89,6 +96,7 @@ is = Isländska
 it = Italienska
 izh = Ingriska
 ja = Japanska
+jbo = Lojban
 ka = Georgiska
 kaa = Karakalpakiska
 kab = Kabyliska
@@ -97,6 +105,7 @@ ki = Kikuyu
 kk = Kazakstanska
 km = Khmer
 kmr = Kurmanji kurdiska
+kn = Kannada
 knn = Konkani (devanagari)
 ko = Koreanska
 kpv = Komi-syrjänska
@@ -105,6 +114,8 @@ ky = Kirgiziska
 lb = Luxemburgiska
 lg = Luganda
 lij = Liguriska
+ln = Lingala
+lo = Laotiska
 lt = Litauiska
 lv = Lettiska
 mai = Maithili
@@ -124,12 +135,17 @@ my = Burmesiska
 myv = Erzya
 nan-tw = Taiwanesiska (Minnan)
 nb-NO = Norska Bokmål
+nd = Nordndebele
 ne-NP = Nepali
+nhe = Östra Huasteca Nahuatl
 nia = Nias
 nl = Nederländska
 nn-NO = Norska, nynorska
+nr = Sydndebele
+nso = Nordsotho
 nyn = Nyankole
 oc = Occitanska
+om = Oromo
 or = Odia
 pa-IN = Punjabi
 pap-AW = Papiamento (Aruba)
@@ -147,14 +163,18 @@ sah = Sakha
 sat = Santali (Ol Chiki)
 sc = Sardiska
 scn = Sicilianska
+sdh = Sydkurdiska
 shi = Shilha
 si = Singalesiska
 sk = Slovakiska
 skr = Saraiki
 sl = Slovenska
+snk = Soninke
 so = Somaliska
 sq = Albanska
 sr = Serbiska
+ss = Siswati
+st = Sesotho
 sv-SE = Svenska
 sw = Swahili
 syr = Syriska
@@ -166,26 +186,35 @@ ti = Tigrinska
 tig = Tigre
 tk = Turkmeniska
 tl = Tagalog
+tn = Setswana
 tok = Toki Pona
 tr = Turkiska
+ts = Tsonga
 tt = Tatariska
 tw = Twi
 ty = Tahitiska
+tyv = Tuvinska
 uby = Ubychiska
 udm = Udmurtiska
 ug = Uiguriska
 uk = Ukrainska
 ur = Urdu
 uz = Uzbekistanska
+ve = Venda
 vec = Venetianska
 vi = Vietnamesiska
 vot = Votiska
+wo = Wolof
+xh = Xhosa
 yi = Jiddisch
 yo = Yoruba
 yue = Kantonesiska
+zgh = Tamazight
 zh-CN = Kinesiska (Kina)
 zh-HK = Kinesiska (Hong Kong)
 zh-TW = Kinesiska (Taiwan)
+zu = Zulu
+zza = { "" }
 
 # [/]
 
@@ -197,6 +226,7 @@ speak-now = Prata nu
 datasets = Datamängder
 languages = Språk
 about = Om oss
+partner = Partner
 profile = Profil
 help = Hjälp
 contact = Kontakt
@@ -316,7 +346,6 @@ shortcut-discard-ongoing-recording-label = Ignorera pågående inspelning
 shortcut-submit = Återgå
 shortcut-submit-label = Skicka in klipp
 request-language-text = Kan du inte se ditt språk på Common Voice än?
-request-language-text-learn = Lär dig hur du kan begära det här!
 request-language-button = Skicka en förfrågan
 
 ## ProjectStatus
@@ -384,6 +413,7 @@ why-demographic = Vad innebär det?
 why-demographic-explanation-2 = Anonyma användardata som ålder, kön och accent hjälper till att förbättra ljuddata som används för att träna noggrannheten hos taligenkänningsmotorer. Ditt användarnamn och e-post kommer aldrig att kopplas till dina inlämnade data och du kan välja om du vill göra ditt användarnamn offentligt eller anonymt.
 accept-privacy = Jag är okej med att du hanterar denna information som du förklarar i Mozillas <privacyLink>sekretesspolicy</privacyLink>
 accept-privacy-title = Sekretesspolicy
+accept-privacy-and-terms = Jag godkänner Common Voices <termsLink>villkor</termsLink> och <privacyLink>sekretessmeddelande</privacyLink>
 login-identity = Inloggningsidentitet
 login-signup = Logga in / Registrera dig
 edit = Redigera
@@ -409,6 +439,7 @@ gravatar_not_found = Ingen gravatar hittades för din e-postadress
 file_too_large = Den valda filen är för stor
 avatar-uploaded = Avatar uppladdad
 max-file-size = max { $kb } kb
+remove-avatar = Ta bort avatar
 
 ## Profile - Email
 
@@ -454,7 +485,9 @@ faq-why-different-speakers-a =
     De flesta taldatabaser tränas med en överrepresentation av en viss demografi vilket resulterar i en partiskhet mot <articleLink>man och medelklass</articleLink>. Accenter och dialekter som tenderar att vara underrepresenterade i träningsdata är vanligtvis förknippade med grupper av människor som redan är marginaliserade. Många maskiner kämpar också för att förstå kvinnliga röster.
     Det är därför vi vill ha variation i vår röstdatabas!
 faq-why-my-lang-q = Varför är inte mitt språk inkluderat än?
-faq-why-my-lang-new-a = Mozilla väljer inte eller favoriserar ett språk över ett annat. Istället är Common Voice ett rent community-drivet initiativ, men det krävs <multilangLink>flera steg att lägga till ett nytt språk</multilangLink> och att börja samla röstdonationer. Först måste Common Voice-webbplatsen översättas så att medlemmar i communityn kan få tillgång till det på sitt eget språk. Därefter behöver vi en stor samling upphovsrättsfria meningar som människor ska kunna läsa upp. När båda dessa krav är uppfyllda, lanseras ett språk på Common Voice för att folk ska börja spela in sin röst och att bekräfta andras donationer. Om du vill hjälpa till att starta ett nytt språk går du vidare till vårt <sentenceCollectorLink>verktyg för meningsinsamling</sentenceCollectorLink> för att komma igång.
+faq-why-my-lang-a =
+    Common Voice är en crowdsourcing-plattform, och alla språken har lagts till av frivilliga.
+    Vi vill gärna att du lägger till ditt språk! <languageRequestLink>Fråga om att lägga till ditt språk.</languageRequestLink>
 faq-what-quality-q = Vilken nivå på ljudkvalitet krävs för att ett röstklipp ska kunna användas i datamängden?
 faq-what-quality-a = Vi vill att Common Voice-datamängd ska återspegla ljudkvaliteten som en tal-till-text-motor kommer att höra naturligt, så vi letar efter en variation. Förutom en blandning av talare kommer en datamängd med varierande ljudkvalitet att lära tal-till-text-motorn att hantera olika verkliga situationer, från samtal i bakgrunden till oljud från en bil. Så länge ditt röstklipp är förståeligt ska det vara tillräckligt bra för datamängden.
 faq-why-10k-hours-q = Varför är 10 000 validerade timmar per språk målet för inspelat ljud?
@@ -524,12 +557,6 @@ about-dataset-new = Common Voice datamängd
 about-dataset-new-text = Common Voice datamängd innehåller hundratusentals röstprover som hjälper utvecklare att skapa röstigenkänningsverktyg.
 about-clip-graveyard = Klippkyrkogården
 about-clip-graveyard-text = Klippkyrkogården består av röstklipp som inte platsar i Common Voice-datamängd. Precis som datamängden är klippkyrkogården tillgänglig för nedladdning.
-about-partners = Partners
-about-become-a-partner = Bli en partner
-about-partnership =
-    Common Voice är ett samarbetsprojekt och vi är beroende av våra samarbetspartners och medarbetares sammansättning för att skapa den största datamängden med öppen källkod för röster någonsin.
-    
-    Vi vill tacka följande personer och organisationer för deras hjälp med projektet:
 about-get-involved = Engagera dig
 about-get-involved-text-2 =
     Vill du göra Common Voice ännu bättre?
@@ -559,9 +586,20 @@ about-playbook-what-is-language-content-3 = Vissa språk har enorm variation i g
 
 about-playbook-how-add-language = Hur lägger jag till ett språk?
 about-playbook-how-add-language-content-1 = Kontrollera först om ditt språk <languageLink>redan finns</languageLink>. Om det inte gör det måste du <strong>översätta webbplatsen och samla meningar</strong>.
-about-playbook-how-add-language-content-2 = <strong>För att översätta webbplatsen</strong> - <translateVideo>konfigurera</translateVideo <pontoonLink>Pontoon</pontoonLink>. Pontoon har många språk, men om det inte har ditt kan du <pontoonRequestLink>begära det</pontoonRequestLink>. Be sedan <repoLink>via GitHub</repoLink> att få Common Voice-projektet tillgängligt för språket. Se mer om <localizationFragment>webbplatsöversättning</localizationFragment>.
-about-playbook-how-add-language-content-3 = <strong>För att samla in meningar</strong> - <scVideo>konfigurera</scVideo> <scLink>meningsinsamlaren</scLink>.
-about-playbook-how-add-language-content-4 = Du kan <scLinkAdd>lägga till ett litet antal</scLinkAdd> meningar här eller så kan du göra <bulkImportDocsLink>massimport</bulkImportDocsLink> via en Github-förfrågan. Kom ihåg att meningar måste vara <licenseLink>CC0 (eller allmän egendom)</licenseLink> eller så kan du skriva din egen. Se mer om <scFragment>meningsinsamling</scFragment>.
+about-playbook-how-add-language-translating-heading = Översätt webbplatsen
+about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Se vår guide om hur du använder Pontoon.</translateVideoLink>
+about-playbook-how-add-language-translating-content-2 =
+    Vi använder ett Mozilla-verktyg som heter <pontoonLink>Pontoon</pontoonLink> för översättningar. Pontoon har många språk,
+    men om den inte har ditt kan du <pontoonRequestLink>begära att ditt språk läggs till</pontoonRequestLink>.
+    Sedan, för att göra språket tillgängligt i Common Voice-projektet,
+    <githubRepoLink>begär det nya språket på GitHub</githubRepoLink>. <localizationFragment>Se mer på webbplatsöversättning</localizationFragment>.
+about-playbook-how-add-language-collecting-sentences-heading = Samla in meningar
+about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>Se vår guide om hur du använder meningssamlaren</sentenceCollectorVideo>.
+about-playbook-how-add-language-collecting-sentences-content-2 =
+    Du kan <sentenceCollectorLinkAdd>lägga till ett litet antal meningar</sentenceCollectorLinkAdd>,
+    eller så kan du göra <bulkImportDocsLink>bulkimporter med Github</bulkImportDocsLink>.
+    Kom ihåg att meningar måste vara <licenseLink>CC0 (eller allmän egendom)</licenseLink>, eller så kan du skriva din egen.
+about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>Se mer om meningsinsamling</sentenceCollectorFragment>.
 
 ## How does localization work
 
@@ -625,12 +663,6 @@ about-playbook-how-project-governance-content-4 = Gemenskapens deltagande och be
 about-playbook-how-project-governance-content-5 = Värde och erkännande.
 about-playbook-how-project-governance-content-6 = Ömsesidigt ansvar.
 about-playbook-how-project-governance-content-7 = <governanceLink>Läs mer om hur vi styrs</governanceLink>
-mycroft-title = Mycroft Ai
-mycroft-subtitle = Artificiell intelligens
-mycroft-description =
-    Mycroft är världens första assistent med öppen källkod. 
-    Mycroft körs var som helst - på en stationär dator, inuti en bil, eller på en Raspberry Pi.
-mycroft-secondary-description = Detta är öppen källkodsprogramvara som kan remixas, utvidgas och förbättras fritt. Mycroft kan användas i allt från ett vetenskapligt projekt till en företagsprogramvara.
 
 ## Glossary
 
@@ -660,7 +692,7 @@ data-download-button = Ladda ner Common Voice Data
 data-download-yes = Ja
 data-download-deny = Nej
 data-download-license = Licens: <licenseLink>CC-0</licenseLink>
-data-download-modal = Du håller på att starta en nedladdning av <<size>{ $size }GB</size>, vill du fortsätta?
+data-download-modal = Du håller på att starta en nedladdning av <size>{ $size }GB</size>, vill du fortsätta?
 data-subtitle = Vi bygger en öppen och allmänt tillgänglig datamängd av röster som alla kan använda för att träna talanpassade applikationer.
 data-explanatory-text = Vi tror att stora och allmänt tillgängliga röstdatamängder främjar innovation och hälsosam kommersiell konkurrens mellan språkteknik baserad på maskininlärning. Detta är en global insats och vi bjuder in alla att delta. Vårt mål är att göra språkteknologin mer öppen så att de återspeglar mångfalden av röster från hela världen.
 data-get-started = <speechBlogLink>Kom igång med taligenkänning</speechBlogLink>
@@ -698,6 +730,9 @@ datasets-positioning =
     
     Titta på den här sidan som referensnav för andra datakällor med öppen källkod och eftersom Common Voice fortsätter att växa, ett hem för våra uppdateringar.
 language = Språk
+download-dataset-header = Ladda ner datamängden
+download-delta-explainer = Vi har gjort några ändringar. Delta Segments innehåller bara de senaste klippen sedan den senaste releasen. <deltaLink>Läs mer om detta arbete</deltaLink>.
+download-dataset-tag = Välj önskat språkdatamängd och välj den version du vill ladda ner.
 # File size in gigabytes
 size = Storlek
 validated-hr-total = Totalt validerade timmar
@@ -712,6 +747,7 @@ confirm-size = Du är beredd att initiera en nedladdning av <b>{ $size }</b>
 size-gigabyte = GB
 size-megabyte = MB
 confirm-no-identify = <b>Du godkänner</b> att du inte försöker bestämma talarnas identitet i Common Voice-datamängden
+confirm-join-mailing-list = Jag vill gå med i e-postlistan för Common Voice
 download-language = Ladda ner { $language }
 validated-hours = Validerade timmar
 recorded-hours = Inspelade timmar
@@ -744,6 +780,9 @@ more = Mer
 close = Stäng
 download = Hämta
 dataset-version = Version
+sha256-checksum-copied = SHA256-kontrollsumma kopierad!
+sha256-checksum-copied-error = Det gick inte att kopiera SHA256-kontrollsumma
+clipboard-not-supported = Urklipp stöds inte
 
 ## Download Modal
 
@@ -774,13 +813,54 @@ request-language-success-content = Vi hör av oss med mer information om hur du 
 select-language = Välj ett språk...
 other-language = Andra språk
 
+## Request Language Pages
+
+request-language-heading = Fråga om ett nytt språk
+request-language-explanation-1 =
+    Kontrollera om ditt språk finns med på sidan
+    <languagesPageLink>Common Voice Languages</languagesPageLink>.
+    Om inte, fyll i det här formuläret så <strong>skickar vi dig ett praktiskt
+    e-postmeddelande som förklarar hur du ställer in ditt språk</strong>.
+request-language-explanation-2 =
+    Vi kommer också att <strong>låta vår community manager veta
+    att du är intresserad</strong>, så att de kan ge dig all extra support
+    eller information du kan behöva.
+request-language-form-email =
+    .label = Din e-postadress
+request-language-form-info =
+    .label = Information om språket
+request-language-form-info-explanation =
+    Lägg till så mycket information du kan om språket. Detta
+    kan inkludera:
+request-language-form-info-explanation-list-1 = Namn på ditt språk
+request-language-form-info-explanation-list-2 = <isoCodeLink>ISO-koder</isoCodeLink> om kända
+request-language-form-info-explanation-list-3 = Länkar till webbplatser som kan hjälpa oss att förstå språket
+request-language-google-recaptcha-required = reCAPTCHA krävs om du vill fortsätta
+request-language-google-recaptcha-error = Något gick fel med reCAPTCHA. Var god försök igen.
+# Success page
+request-language-success-heading = Tack! Du har skickat en ny språkförfrågan
+request-language-success-list-1 =
+    Du bör få ett e-postmeddelande inom kort som förklarar
+    stegen för att lägga till ditt språk i Common Voice
+request-language-success-list-2 =
+    Vår community manager kommer att kontakta dig för att
+    erbjuda extra support och för att meddela dig om det redan
+    finns en community som arbetar med ditt språk
+request-language-success-list-3 =
+    Om du inte hör från oss inom ett par dagar,
+    kontakta <emailLink>{ $email }</emailLink>
+    så återkommer vi till dig!
+request-language-error =
+    Vi kanske inte har fått den begäran. Vänligen maila oss direkt
+    på <emailLink>{ $email }</emailLink> så återkommer vi till dig!
+
 ## Languages Overview
 
 language-section-in-progress = Pågående
 language-section-in-progress-new-description = Dessa språk är för närvarande under utveckling. Förloppsindikatorn visar hur långt varje språk är i färd med <localizationGlossaryLink> webbplatsöversättning</localizationGlossaryLink> och <sentenceCollectionGlossaryLink>insamling av meningar</sentenceCollectionGlossaryLink>.
 language-section-launched = Lanserad
 language-section-launched-description = För dessa lanserade språk har webbplatsen blivit <localizationGlossaryLink>översatt</localizationGlossaryLink> och har tillräckligt med <sentenceCollectionGlossaryLink>meningar insamlade</sentenceCollectionGlossaryLink> för att tillåta bidrag för <talkLink>Röst</speakLink> och <listenLink>Lyssna</listenLink>.
-languages-show-more = Läs mer
+languages-show-more = Visa mer
 languages-show-less = Visa mindre
 language-meter-in-progress = Förlopp
 language-total-progress = Totalt
@@ -789,7 +869,8 @@ language-search-input =
 language-speakers = Talas av
 localized = Översatt
 sentences = Meningar
-total-hours = Validerade timmar
+language-validation-hours = Timmar
+language-validation-progress = Valideringsförlopp
 
 ## Contribution
 
@@ -1100,22 +1181,35 @@ contribution-misreadings-title = Felläsningar
 contribution-misreadings-description = När du lyssnar, kontrollera mycket noga att det som har spelats in är exakt det som har skrivits; avvisa om det är mindre fel.<br />Mycket vanliga fel inkluderar:
 contribution-misreadings-description-extended-list-1 = Saknar <strong>'En'</strong> eller <strong>'Den'</strong> i början av inspelningen.
 contribution-misreadings-description-extended-list-2 = Saknar ett <strong>s</strong> i slutet av ett ord.
+contribution-misreadings-description-extended-list-3 = Att läsa upp sammandragningar som faktiskt inte finns där, som i engelskans "we're" istället för "we are", eller vice versa.
 contribution-misreadings-description-extended-list-4 = Slutet på det sista ordet saknades eftersom inspelningen avbröts för snabbt.
 contribution-misreadings-description-extended-list-5 = Gör flera försök med att läsa ett ord.
-contribution-misreadings-example-1-title = De enorma dinosaurierna i Trias.
-contribution-misreadings-example-2-title = Den enorma dinosaurien i Trias.
-contribution-misreadings-example-2-explanation = [Ska vara "dinosaurier"]
+contribution-misreadings-example-1-title = De gigantiska dinosaurierna i Trias.
+contribution-misreadings-example-2-title = De gigantiska dinosaurien i Trias.
+contribution-misreadings-example-2-explanation = [Borde vara 'dinosaurierna']
+contribution-misreadings-example-3-title = De gigantiska dinosaurierna i Triassi-.
 contribution-misreadings-example-3-explanation = [Inspelning avbruten före slutet av det sista ordet]
+contribution-misreadings-example-4-title = De gigantiska dinosaurierna i Trias. Ja.
 contribution-misreadings-example-4-explanation = [Mer har spelats in än den obligatoriska texten]
+contribution-misreadings-example-5-title = Vi ska ut och hämta kaffe.
+contribution-misreadings-example-6-title = Vi är ut och hämta kaffe.
+contribution-misreadings-example-6-explanation = [Borde vara "Vi går"]
+contribution-misreadings-example-7-title = Vi ska ut och hämta en kaffe.
+contribution-misreadings-example-7-explanation = [Inget "en" i originaltexten]
+contribution-misreadings-example-8-title = Humlan flög förbi.
 contribution-misreadings-example-8-explanation = [Felaktigt innehåll]
 contribution-varying-pronunciations-title = Varierande uttal
 contribution-varying-pronunciations-description = Var försiktig innan du avvisar ett klipp med motiveringen att läsaren har uttalat ett ord fel, har lagt betoningen på fel ställe eller uppenbarligen har ignorerat ett frågetecken. Det finns en mängd olika uttal som används runt om i världen, av vilka du kanske inte har hört några i ditt område. Vänligen ge en marginal för uppskattning för dem som kanske talar annorlunda än du.
 contribution-varying-pronunciations-description-extended = Å andra sidan, om du tror att läsaren förmodligen aldrig har stött på ordet tidigare, och bara gör en felaktig gissning på uttalet, vänligen avvisa. Om du är osäker, använd knappen hoppa över.
+contribution-varying-pronunciations-example-1-title = On his head he wore a beret.
+contribution-varying-pronunciations-example-1-explanation = [‘Beret’ is OK whether with stress on the first syllable (UK) or the second (US)]
+contribution-varying-pronunciations-example-2-title = His hand was rais-ed.
+contribution-varying-pronunciations-example-2-explanation = [‘Raised’ in English is always pronounced as one syllable, not two]
 contribution-background-noise-title = Bakgrundsbrus
 contribution-background-noise-description = Vi vill att maskininlärningsalgoritmerna ska kunna hantera en mängd olika bakgrundsljud, och även relativt höga ljud kan accepteras förutsatt att de inte hindrar dig från att höra hela texten. Tyst bakgrundsmusik är OK; musik tillräckligt hög för att hindra dig från att höra vartenda ord är det inte.
 contribution-background-noise-description-extended = Om inspelningen stoppar eller sprakar, avvisa den om du inte fortfarande kan höra all text.
-contribution-background-noise-example-1-fixed-title = <strong>[Nysning]</strong> De gigantiska dinosaurierna i <strong>[hostning]</strong> trias.
-contribution-background-noise-example-2-fixed-title = Jätten dino <strong>[hostning]</strong> trias.
+contribution-background-noise-example-1-fixed-title = <strong>[Nysning]</strong> De gigantiska dinosaurierna i <strong>[hostning]</strong> Trias.
+contribution-background-noise-example-2-fixed-title = Den gigantiska dino <strong>[hostning]</strong> i Trias.
 contribution-background-noise-example-2-explanation = [Delar av texten kan inte höras]
 contribution-background-noise-example-3-fixed-title = <strong>[Knaster]</strong> gigantiska dinosaurierna i <strong>[knaster]</strong> -as.
 contribution-background-voices-title = Bakgrundsröster
@@ -1443,7 +1537,6 @@ sc-review-link = Granska
 
 sc-settings-title = Inställningar
 sc-settings-ui-language = Gränssnittsspråk
-sc-settings-language-translated-warning = Sidorna för detta språk kanske inte är helt översatta. Du kan hjälpa till med översättning <pontoonLinkLink>på Pontoon</pontoonLinkLink>.
 sc-settings-reset-skipped = Återställ överhoppade meningar
 sc-settings-skipped-decription = Du hoppade över meningar tidigare när du granskade. Om du återställer överhoppade meningar visas alla överhoppade meningar igen. Detta är oberoende av språket.
 sc-settings-show-all-button = Visa alla överhoppade meningar igen
@@ -1458,3 +1551,39 @@ sc-validation-no-abbreviations = Meningen ska inte innehålla förkortningar
 
 localization-select =
     .label = Välj språk/lokalisering
+# PARTNERSHIPS PAGE
+partnerships-header = Partnerskap
+partnerships-header-text = Det krävs mycket för att göra Common Voice till verklighet! Vi gör det inte ensamma. Vill du jobba med oss? Vi skulle älska att höra från dig.
+partnerships-get-in-touch = Kontakta oss
+partnerships-become-a-partner = Bli en Common Voice-partner
+partnerships-community-header = Gemenskap, kreativa och civila samhället
+partnerships-community-description = Gemenskapen är det bultande hjärtat i Common Voice – de kommer från hela världen och är språkaktivister, vetenskapsmän och konstnärer. Besök vår <about>Om oss</about>-sida och vår <community>Community-strategibok</community> för att lära dig mer om hur du kan engagera dig. Om du är intresserad av ett djupare organisatoriskt partnerskap, <emailFragment>kontakta oss</emailFragment>.
+partnerships-foundations-header = Stiftelser
+partnerships-foundations-description = Vi arbetar med stiftelser, civilsamhället och samhällspartners för att göra internet till en hälsosammare plats, med särskilt fokus på Östafrika. Läs mer om vårt <programmaticWork>programmatiska arbete.</programmaticWork>
+partnerships-governments-header = Myndigheter
+partnerships-governments-description = Vi är glada över att stödja den offentliga sektorns engagemang i teknik, innovation och språkrättigheter. Om du planerar att driva ett större projekt eller en större kampanj, vänligen <emailFragment>kontakta oss.</emailFragment>
+partnerships-academia-header = Universitet, akademiker och forskare
+partnerships-academia-description = Öppen innovation är kärnan i vad vi gör. <emailFragment>Ta kontakt med oss</emailFragment> om du vill genomföra forskningssamarbeten, datainsamling eller intervjuer.
+partnerships-small-business-header = Små företag, inklusive nystartade teknik- och AI-företag
+partnerships-small-business-description = Oavsett om det handlar om att samarbeta på en datainsamlingsplattform eller ge insikter om datahälsa, letar vi alltid efter input från datakonsumenter om deras behov och sammanhang: <emailFragment>Ta kontakt med oss</emailFragment>.
+partnerships-corporates-header = Storskaliga företag och plattformsföretag
+partnerships-corporates-description = Om du vill prata mer om datamängden, saminvestera i planerade plattformsförbättringar eller leta efter samarbetsmöjligheter, <emailFragment>skriv till oss</emailFragment>
+partnerships-our-partners = Våra partners
+# FIRST POST SUBMISSION CTA
+first-cta-header-text = Tack för att du donerade dina röstklipp!
+first-cta-subtitle-text = Vill du dela med dig av lite information om hur du talar?
+why-donate = Varför frågar du?
+why-donate-explanation-1 = Denna information är valfri att tillhandahålla - du bör bara lägga till den om du känner dig bekväm. När vi släpper datamängder pseudonymiserar vi all personlig information och ser till att information som ditt namn och e-post inte är kopplad till demografisk information som ålder eller kön.
+why-donate-explanation-2 = För att tekniken ska fungera bra för alla måste data som hjälper utvecklare att bygga teknik spegla ett brett spektrum av människor. Till exempel, om vi inte inkluderar några talare med en viss accent, kommer tekniken inte att fungera bra för personer med den accenten. <learnMore>Läs mer om varför metadata är viktigt.</learnMore>
+add-information-button = Lägg till information
+continue-speaking-button = Nej tack, fortsätt tala
+create-profile-text = Vill du spara din information? <createProfile>Skapa en profil</createProfile>
+thanks-for-voice-toast = Tack för din röstinformation
+thanks-for-voice-toast-error = Ett fel uppstod när din röstinformation skickades
+# SECOND POST SUBMISSION CTA
+second-cta-header-text = Tack för att du bidrar med din röst!
+second-cta-subtitle-text = Med en profil kan du hålla reda på din aktivitet och få kontakt med en grupp bidragsgivare av röstdata.
+already-have-an-account = Har du redan ett konto? <login>Logga in</login>
+create-profile-button = Skapa en profil
+# IMAGE TAGS
+img-alt-success-checkmark = lyckad kryssmarkering

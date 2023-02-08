@@ -14,6 +14,10 @@ email-opt-in-info-sub-with-challenge = Heɓ iimeeluuji hono ciiftinooji ko fad-m
 email-opt-in-privacy-v2 = Suɓaade heɓde iimeeliiji firti ko aɗa yahdi e kuutoragol Mozilla ngoo humpito hono no facciraa e <privacyLink>Dawirgol Duturo</privacyLink> Mozilla.
 indicates-required = * Joofii ko gallol baɗɗingol
 not-available-abbreviation = N/A
+banner-error-slow-1 = Ɗaccu hakke, Common Voice ena leeli. A jaaraama e golle maa.
+banner-error-slow-2 = Amin eɓa yillotooɓe heewɓe oo sahaa, min ngoni ko e yuurnitaade caɗeele ɗee.
+banner-error-slow-link = Hello Ngonka
+error-something-went-wrong = Ɗaccu hakke, won ko feewaani
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -36,9 +40,9 @@ ba = Bashkirs
 bas = Basaa
 be = Belarusian
 bg = Bulgarian
-bm = Bambara
 bn = Bengali
 br = Breton
+bs = Bisniire
 bxr = Buryat
 ca = Catalan
 cak = Kaqchikel
@@ -52,6 +56,7 @@ da = Danish
 de = German
 dsb = Sorbian, Lower
 dv = Dhivehi
+dyu = Julaa
 el = Greek
 en = English
 eo = Esperanto
@@ -67,6 +72,7 @@ fy-NL = Frisian
 ga-IE = Irish
 gl = Galician
 gn = Guarani
+gom = Goan Konkani
 ha = Hawsa
 he = Hebruŋkoore
 hi = Hinndi
@@ -78,6 +84,8 @@ hy-AM = Armenian
 hyw = Armeniire baŋnge hirnaange
 ia = Interlingua
 id = Indonesiire
+ie = Interlingue
+ig = Igbo
 is = Islanndiire
 it = Italiire
 izh = Ishoriire
@@ -86,12 +94,16 @@ ka = Jorjiire
 kaa = Karakalpak
 kab = Kabileere
 kbd = Kabardian
+ki = Kikuyu
 kk = Kasakiire
+km = Khmer
 kmr = Kurmanji Kurdish
+knn = Konkani (Devanagari)
 ko = Koreere
 kpv = Komi-Siryaniire
 kw = Korniseere
 ky = Kyrgyz
+lb = Luxembourgish
 lg = Luganda
 lij = Ligurian
 lt = Lithuanian
@@ -103,6 +115,7 @@ mhr = Meadow Mari
 mk = Macedonian
 ml = Malayalam
 mn = Mongolian
+mni = Meetei Lon
 mos = Mossi
 mr = Marathi
 mrj = Hill Mari
@@ -110,32 +123,45 @@ ms = Malay
 mt = Maltese
 my = Burmese
 myv = Erzya
+nan-tw = Taiwanese (Minnan)
 nb-NO = Norwegian Bokmål
+nd = IsiNdebele (Soɓɓiire)
 ne-NP = Nepali
+nia = Nias
 nl = Dutch
 nn-NO = Norwegian Nynorsk
+nr = IsiNdebele (Ɓaleeri)
+nso = Sotho Soɓɓiire
+nyn = Runyankole
 oc = Occitan
+om = Afaan Ormoo
 or = Odia
 pa-IN = Punjabi
 pap-AW = Papiamento (Aruba)
 pl = Polish
 ps = Pashto
 pt = Portuguese
+quc = K'iche'
+quy = Quechua Chanka
 rm-sursilv = Romansh Sursilvan
 rm-vallader = Romansh Vallader
 ro = Romanian
 ru = Russian
 rw = Kinyarwanda
 sah = Sakha
+sat = Santali (Ol Chiki)
 sc = Sardinian
 scn = Sicilian
 shi = Shilha
 si = Sinhala
 sk = Slovak
+skr = Saraiki
 sl = Slovenian
 so = Somali
 sq = Albanian
 sr = Serbian
+ss = Siswati
+st = Sotho Ɓaleeri
 sv-SE = Swedish
 sw = Swahili
 syr = Syriac
@@ -143,22 +169,35 @@ ta = Tamil
 te = Telugu
 tg = Tajik
 th = Thai
+ti = Tigrinya
+tig = Tigre
+tk = Turkmen
 tl = Tagalog
+tn = Setswana
+tok = Toki Pona
 tr = Turkish
+ts = Xitsonga
 tt = Tatar
+tw = Twi
+ty = Tahitian
 uby = Ubykh
 udm = Udmurt
 ug = Uyghur
 uk = Ukrainian
 ur = Urdu
 uz = Uzbek
+ve = Tshivenda
 vec = Venetian
 vi = Vietnamese
 vot = Votic
+xh = Xhosa
+yi = Yiddish
+yo = Yoruba
 yue = Cantonese
 zh-CN = Chinese (China)
 zh-HK = Chinese (Hong Kong)
 zh-TW = Chinese (Taiwan)
+zu = Zulu
 
 # [/]
 
@@ -187,6 +226,7 @@ logout = Seŋto
 ## Home Page
 
 home-title = Common Voice ko eɓɓoore Mozilla ngam wallude masiŋaaji jaŋngude no yimɓe kaaldata.
+default-tagline = Mozilla Common Voice ko eɓɓoore ngam wallude masiŋaaji jaŋngude no yimɓe kaaldata jaati.
 home-cta = Ɓamtu daande, wallit ɗoo!
 wall-of-text-start =
     Sawto ko tago, ko e neɗɗo jeyaa. Ɗuum waɗi amin cummbanoo sosde karalle sawto
@@ -294,8 +334,11 @@ shortcut-record-toggle = r
 shortcut-record-toggle-label = Nanngito/Dartin
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Nanngito kadi lefel
+shortcut-discard-ongoing-recording = ESC
+shortcut-discard-ongoing-recording-label = Momtu nanngitol wonaande
+shortcut-submit = Rutto
+shortcut-submit-label = Naatnu lefon
 request-language-text = A suwaa yiy ɗemngal maa e Common Voice tawo?
-request-language-text-learn = Ƴeew ɗoo no ngal ɗaɓɓitirtee!
 request-language-button = Ɗaɓɓit Ɗemngal
 
 ## ProjectStatus
@@ -320,8 +363,16 @@ profile-form-native-language =
     .label = Ɗemngal neeniwal
 profile-form-additional-language =
     .label = Ɗemngal goɗngal
+profile-form-language =
+    .label = Ɗemngal
+profile-form-variant =
+    .label = Hol caltuka { $language } kaalataa?
+profile-form-variant-default-value = Alaa caltuka suɓaa
 profile-form-accent =
     .label = Ngaddiin
+profile-form-custom-accent-help-text =
+    .label = Hol no ciforto-ɗaa nganndin maa?
+profile-form-custom-accent-placeholder-2 = Fuɗɗo tappude ngam sifaade ngaddin maa
 profile-form-age =
     .label = Duuɓi
 profile-form-gender-2 =
@@ -332,6 +383,7 @@ hidden = Cuuɗiiɗo
 visible = Peeñɗo
 native-language =
     .label = Ɗemngal neeniwal
+profile-form-add-accent = Ɓeydu ngaddin keertuɗo "{ $inputValue }"
 profile-form-submit-save = Danndu
 profile-form-submit-saved = Danndaama
 male = Gorko
@@ -367,6 +419,12 @@ skip-submission-description = Tuma naatnoygol ballitol maa, duttinal maa diwe ɓ
 skip-submission-note = Tesko: maa sokloy labaade hakkunde Haal walla Heɗo ngam waylude sifaa ballital.
 off = Ñifol
 on = Kuɓɓol
+help-accent = Aɗa sokli ballal seeɗa baɗte ngaddin?
+help-accent-explanation = Ngaddiin maa ko no ngowlirtaa konngi. Seerndata ngaddinaaji ko ɗo neɗɗo hoti, ɗemɗe goɗɗe ɗe o haalata kañum e geɗe goɗɗe keewɗe.Aɗa waawi waɗde ɗoo humpito kala cikuu-ɗaa ena ɓeydoo faamminde.
+help-variants = Aɗa sokli ballal seeɗa e caltuɗe?
+help-variants-explanation =
+    Caltuka ko haala keeriika  - wano kaaleteeka e diiwaan keeriiɗo maa renndo.
+    Sahaaji ena wiyee ngaddiin.
 
 ## Profile - Email
 
@@ -394,6 +452,10 @@ faq-what-cv-a =
     Karalle keftingol sawto nana wayla kesamhesamaagu jotondiral men e masiŋaaji, kono juɓɓe goodɗe oo sahaa ɗee ko jeyaaɗe. Common Voice jeyaa ko e miijo Mozilla ngam ɓeydude ƴellitaare karalle keftingol sawto kadi tawa mo woni kala ena haɓa heen. Common Voice ko diiñorde keɓe maamaare sawtooji dokkaaɗi ballooje mo woni kala e mbaadi njaawndi eeltude jaaɓɗe ɓeydaaɗe sawto e ɗemgal kala goodngal.
     
     Wonaa tan sawtooji tan min ndoɓindotoo e ɗemɗe ɓurɗe yaajde ɗee kono kadi e ɗemɗe ɓurɗe famɗude haalooɓe. Bayyinde leemre keɓe sawtooji limtindiinde maa doolnu topayɓe, yeñcinamgolle en e renndooji ngam ɓe ñawnde ndeen ŋakkere kamɓe e koye maɓɓe. Kadi takko leemre keɓe Common Voice ndee, amin mahora masiŋ keftinirɗo haala ena wiyee Deep Speech.
+faq-what-cv-a-2 =
+    Karalle keftingol sawto nana wayla kesamhesamaagu jotondiral men e masiŋaaji, kono juɓɓe goodɗe oo sahaa ɗee ko jeyaaɗe. Common Voice ko miijo Mozilla ngam ɓeydude ƴellitaare karalle keftingol sawto kadi tawa mo woni kala ena haɓa heen. Common Voice ko diiñorde keɓe maamaare sawtooji dokkaaɗi ballooje mo woni kala e mbaadi njaawndi eeltude jaaɓɗe ɓeydaaɗe sawto e ɗemgal kala goodngal.
+    
+    Wonaa tan sawtooji tan min ndoɓindotoo e ɗemɗe ɓurɗe yaajde ɗee kono kadi e ɗemɗe ɓurɗe famɗude haalooɓe. Bayyinde leemre keɓe sawtooji limtindiinde maa doolnu topayɓe, yeñcinamgolle en e renndooji ngam ɓe ñawnde ndeen ŋakkere kamɓe e koye maɓɓe. Kadi takko leemre keɓe Common Voice ndee, amin mahora masiŋ keftinirɗo haala ena wiyee Deep Speech.
 faq-why-important-q = Ko saabii ɗum himmude?
 faq-why-important-a =
     Haala woni ko ɓuri tagoɗinde e no jokkondirirten hakkunde men etee maa karalle sawto ɗee ngaddu ɗeen baawtine e ordinateeruuji men e kaɓirɗi cinnde men. Min njiɗi ko doolnude topayɓe yoo mah jaaɓnirɗe keftinirɗe sawto moolanaaɗe wono pirooje e saasi e keedooje ɓeydaaɗe sawto. Kono oo sahaa ko ɓuri heewde e keɓe coklaaɗe ngam mahde hono ɗeen jaaɓɗe ena tiiɗi kadi ko jeyaaɗe. Amin ɗaminii leemre keɓe Common Voice ndee maa hokku topayɓe ko ɓe cokli ngam kesamhesnude e waɗde karalle haala heɓaade e ɗemɗe maɓɓe keeriiɗe.
@@ -416,7 +478,6 @@ faq-why-different-speakers-a =
     Keɓe keftinirkon haala ɓurɗe heewde ko eeltaaɗe tawa won leƴrenndooje ena ɓurtinaa, kisa ɗum wufta e wuuraare faade e <articleLink>worɓe e dañɓe</articleLink>. Ngaddinaaji e caltuɗe ŋakkooje e leeme keɓe eeltugol ena keewi yahdineede e dente yimɓe ɓurɓe joñeede e yeebeede. Kadi masiŋaaji keewi ena cugga e keftingol sawtooji rewɓe.
     Ko ɗuum waɗi amin cokli limlimtam e diiñorde keɓe sawto amen.
 faq-why-my-lang-q = Ko saabii ɗemngal am jeyaaka heen tawo?
-faq-why-my-lang-new-a = Mozilla suɓotaako, faltotaako ɗemngal fawa ɗum e goɗɗe. E jaati, Common Voice ko golle renndo, kono ena waɗi <multilangLink>daawe keewɗe ngam ɓeydude ɗemngal kesal</multilangLink> kisa fuɗɗee roɓindaade sawtooji dokkaaɗi. Ko adii, lowre Common Voice ndee maa firee ngam terɗe renndo ɗee mbaawa naatde e ballitgol tawa ko e ɗemngal mum'en. Rewa heen, amin cokli konngi keewɗi sanne tawa eɗi momtaa jojjanɗe jeyal ngam yimɓe mbaawa tarde ɗe daande dow. Tuma nde ɗee baɗɗiiɗe ɗiɗi keɓaa, ɗemngal ndeen ”hurmintee“ e Common Voice ngam yimɓe puɗɗoo nanngitaade sawtooji mum'en e jaalɗinde dokkaaɗe woɗɓe. So aɗa yiɗi wallude hurminde ɗemngal kesal, yaaɓ to <sentenceCollectorLink>kuutorgal roɓindo konnguɗi</sentenceCollectorLink> amen ngam fuɗɗaade toon.
 faq-what-quality-q = Hol ɗo keelɗugol ojoo foti tolnaade ngam lefel sawto huutoree e leemre keɓe ndee?
 faq-what-quality-a = Min njiɗi ko Leemre keɓe Common Voice nannda keelɗugol ojoo masiŋ haala-to-binndol nanoyta e weeyo, wadde min njiylotoo ko limlimtam. Kam e renndo haalooɓe limlimtinde, leemre keɓe waɗnde keelɗugol ojoo limlimtinde maa janngin masiŋaaji haala-tobinndol gollaade e ngonka goongiray-goonga, foti ko e haala ngoɗɗuka walla dille oto. Tawde tan lefel sawto maa ena faamnii, engel fota naatde e leemre keɓe ndee.
 faq-why-10k-hours-q = Ko waɗi waktuuji 10,000 jaalɗinaaɗi woni faandaare ɗemngal kala ngam heɓɓaade ojoo?
@@ -448,12 +509,10 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Ko saabii Common Voice?
-about-subtitle = Common Voice jeyaa ko e eɓɓooje Mozilla ballooje janngide masiŋaaji no yimɓe kaaldata e jaati. Takko Leemre keɓe Common Voice ndee, min ngoni kadi ko e mahde  masiŋ keftinirgol haala udditiiɗo ena wiyee Deep Speech.
-about-header-description =
-    Ɗee-ɗoo eɓɓoje ɗiɗi kala njeyaa ko e darnde amen ngam sukkude yolnde peecol karalle haala. Karalle keftingol sawto ɓeydat e kaɓirɗi men fannu neɗɗaŋke, kono topayɓe ena cokli keɓe sawto moolanaaɗe keewal ngam mahde ɗe. E oo sahaa, ko heewi e ɗeen keɓe ena tiiɗi njaru etee ko jeyi keeriiɗo.
-    Min njiɗi ko waɗde haa keɓe sawto heɓoo e wellitaare kam e peñcu, tawa amin ndaranii keɓe ɗee ena noddi limlimtam yimɓe e jaati. Eɗen fof mbaawi beydude moƴƴugol keftingol sawto.
-how-does-it-work-title = Hol no ɗum gollortoo?
 how-does-it-work-text = Amin nodda ballondiral e leemre keɓe sawtooji.  Hokkir sawto maa, jaalɗin ceeɓndam lefon yimɓe woɗɓe, waɗ leemre keɓe ndee ɓeydoo moƴƴanɗe mo woni kala.
+
+## How does it work section
+
 about-speak = Haal
 about-speak-text = Wallitooɓe nanngitto lefon sawto so tarde iwɗe e gerngal konnguɗi dokkaaɗi.
 about-listen-queue = Doggol cabbiiɗe keɗagol
@@ -470,12 +529,6 @@ about-dataset-new = Leemre Keɓe Common Voice
 about-dataset-new-text = Leemre Keɓe Common Voice ndee ena waɗi teemedde ujunnaaje jubbanɗe sawto ballooje topayɓe mahde kutorɗe keftinooje sawto.
 about-clip-graveyard = Genaale Lefon
 about-clip-graveyard-text = Genaale Lefon ɗee ko lefon sawto koriiɗe ɓennude to leemre keɓe Common Voice ndee. Hono leemre keɓe ndee nih, Genaale Lefon ɗee ena waawi aawteede.
-about-partners = Gollidiiɓe
-about-become-a-partner = Won gollidiiɗo
-about-partnership =
-    Common Voice ko eɓɓoore balwaltondiral, kadi min njowitii ko e renndo amen gollodiiɓe e wallitooɓe ngam mahde leemre keɓe sawto udditiinde ɓurnde yaajde e ko yiyaa tawo.
-    
-    Amin njiɗi jaarde ɓee-ɗoo yimɓe e pelle ngam ballal mum'en e eɓɓoore ndee:
 about-get-involved = Ar yantu e amen
 about-get-involved-text-2 =
     Aɗa yiɗi wallude Common Voice ɓeydaade moƴƴude?
@@ -486,12 +539,36 @@ about-nav-why-common-voice = Hol sabaabu?
 about-nav-how-it-works = Hol noon?
 about-nav-partners = Gollidiiɓe
 about-nav-get-involved = Ar yantu e amen
-mycroft-title = Mycroft Ai
-mycroft-subtitle = Ƴoyre tafaande
-mycroft-description =
-    Mycroft ko heedirde udditiinde adiinde e winndere ndee.
-    Mycroft ena dogo nokku kala- e ñigal, nder oto, walla e Raspberry Pi.
-mycroft-secondary-description = Ɗum ko topateeri udditiinde mbaawndi irfiteede, timmineede e ƴelliteede e wellitaare. Mycroft ena waawi huutoreede e huunde fof e foti ko eɓɓoore ganndiwal walla jaaɓnirgal topateeri yeñcamgolliwal.
+
+## Community Playbook Content
+## What is a language
+
+
+## How do I add a language
+
+
+## How does localization work
+
+
+## How to add sentences
+
+
+## How to record quality
+
+about-playbook-how-record-content-1 = Haaldu no keew-ɗaa haaldude nih. No kaaldataa nih ena hatojinaa ɗoo - min njiɗi ko kaaldaa ngaddin maa oo siforii nih, kadi hito maa, daande e no kaaldataa tawa waylaaki.
+
+## How to grow language
+
+
+## How to validate
+
+about-playbook-how-validate-content-2 = <strong>Hoto riiwtu hito ɗo kaaloowo oo ‘ena jogii ngaddin’ mo jiidaani e mo mah</strong> - Ɗuum eba teeŋti sanne ngam Heftingol Hito ena waawa yuɓɓande mo woni kala.
+
+## How to access dataset
+
+
+## How are decisions made
+
 
 ## Glossary
 
@@ -585,11 +662,9 @@ subscribe = Lulno
 get-started-speech = Fuɗɗoro ɗoo e Keftinirgol Haalaa
 other-datasets = Leeme Keɓe Sawto Goɗɗe
 feedback-q = Aɗa jogii duttinal?
-deepspeech-info = Leemre keɓe Common Voice ndee timminat masiŋ keftinirgol sawto udditiiɗo hono Deep Speech,  mo mbaaw-ɗaa huutoraade ngam mahde jaaɓnirɗe keftinirgol haala. Tar <githubLink> tonngol Github</githubLink> amen walla njantaa e <discourseLink>Discourse DeepSpeech </discourseLink> ngam ekkaade no fuɗɗortee.
-common-voice-info-new = Aɗa jogii naamne baɗte Common Voice? Mijjoji ƴellitgol walla duttine baɗte ɗemngal keeringal? Yantu e amen to <discourseLink>forum Discourse</discourseLink> amen toh kisa nganndinaa-min.
-data-other-librispeech-description = LibriSpeech ko ndoɓordi ngigiindi hakke waktuuji 1000 haala Engeleere taraande itaande e defte hito to eɓɓoore LibriVox toh.
+data-other-librispeech-description = LibriSpeech ko ndoɓri ngigiindi hakke waktuuji 1000 haala Engeleere taraande ittaande e defte hito to eɓɓoore LibriVox toh.
 data-other-ted-name = TED-LIUM Corpus
-data-other-ted-description = Ndoɓordi TED-LIUM waɗiraa ko jeewte ojoo e binnditte mum keɓotooɗe to lowre TED toh.
+data-other-ted-description = Ndoɓri TED-LIUM waɗiraa ko jeewte ojoo e binnditte mum keɓotooɗe to lowre TED toh.
 data-other-voxforge-description = VoxForge waɗiraa ko roɓindaade haala mbinnditaaka ngam huutoreede e Masiŋaaji Keftingol Haala de Sewnde-Udditigol
 data-other-tatoeba-description = Tatoeba ko diiñorde keɓe konnguɗi, firooji e ojoo gowlaaɗo mawnde ngam huutoraade e jaŋde ɗemɗe. Ngol gaawtol ena jogii Engleleere wowlaande nanngitaande renndo ngoo.
 your-feedback = Aɗa jogii miijooji no min ɓamtirta Leemre keɓe Common Voice ndee? Haalan-min e DIscourse
@@ -631,6 +706,9 @@ request-language-success-content = Ma min njokkondir e maa e humpito woɗngo ba�
 select-language = Labo ɗemngal...
 other-language = Ɗemngal goɗngal
 
+## Request Language Pages
+
+
 ## Languages Overview
 
 language-section-in-progress = Ena e Laawol
@@ -646,7 +724,6 @@ language-search-input =
 language-speakers = Haalooɓe
 localized = Nokkuɗinaama
 sentences = Koŋnguɗi
-total-hours = Waktuuji jaalɗinaaɗi
 
 ## Contribution
 
@@ -863,6 +940,9 @@ why-delete-recordings =
     Aɗa waawi anndinde min ko waɗ-maa yiɗde momtude nanngite maa?
 profile-form-delete = Momtu Heftinirde
 
+## Profile Download
+
+
 ## Landing
 
 welcome-staff = On njaɓɓaama gollanooɓe { $company }!
@@ -906,3 +986,62 @@ demo-listen-subtitle = Aɗa hebii wallitde?
 
 demo-dashboard-card-header = Tiimtorde heeriinde ena hollu maa ko ɓuri hesɗude e taabagol neɗɗo walla renndo fof.
 demo-dashboard-card-body = Kala lefel sawto dokkangel, e kala lefel ojoo jaalɗinangel, tiimtorde konte maa hesɗitinte ngam hollude taaɓagol maa cakkitiingol e ɗemɗe kala ngal mballittaa. Eey, aɗa waawi wallitde e ko ɓuri ɗemngal gootal!<br/><br/> Huutoro tiimtorde ngam rewindaade limte maa, njiyaa no golle maa mbaadi e woɗɓe e renndo ngoo, kisa taƴaa paandaale ballitte ñalngu walla yontere.
+
+## Validation criteria
+
+
+# Don't rename the following section, its contents are auto-inserted based on the name. These strings are
+# automatically exported from Sentence Collector.
+# [SentenceCollector]
+
+
+## HEADER/FOOTER
+
+
+## HOME
+
+
+## GENERAL
+
+
+## HOW-TO
+
+
+## MY SENTENCES
+
+
+## REJECTED
+
+
+## STATS
+
+
+## ADD
+
+
+## ADD LANGUAGE
+
+
+## ADD SENTENCES CONFIRMATION
+
+
+## LANGUAGE INFO
+
+
+## LOGIN
+
+
+## PROFILE
+
+
+## REVIEW CRITERIA
+
+
+## REVIEW
+
+
+## SETTINGS
+
+
+# [/SentenceCollector]
+

@@ -14,6 +14,10 @@ email-opt-in-info-sub-with-challenge = Haluan vastaanottaa sähköposteja, kuten
 email-opt-in-privacy-v2 = Tilaamalla uutiskirjeen hyväksyt Mozillan käsittelevän tätä tietoa Mozillan <privacyLink>tietosuojakäytännössä</privacyLink> kuvatulla tavalla.
 indicates-required = * Pakollinen kenttä
 not-available-abbreviation = N/A
+banner-error-slow-1 = Valitettavasti Common Voice toimii hitaasti. Kiitos kiinnostuksestasi.
+banner-error-slow-2 = Vastaanotamme paljon liikennettä ja tutkimme parhaillaan ongelmia.
+banner-error-slow-link = Tilatietosivu
+error-something-went-wrong = Jokin meni pieleen
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -36,7 +40,6 @@ ba = baškiiri
 bas = basaa
 be = valkovenäjä
 bg = bulgaria
-bm = bambara
 bn = bengali
 br = bretoni
 bxr = burjaatti
@@ -307,6 +310,8 @@ profile-form-native-language =
     .label = Äidinkieli
 profile-form-additional-language =
     .label = Lisäkieli
+profile-form-language =
+    .label = Kieli
 profile-form-accent =
     .label = Murre
 profile-form-age =
@@ -360,6 +365,7 @@ connect-gravatar = Yhdistä Gravatariin
 gravatar_not_found = Sähköpostiosoitteella ei löytynyt gravataria
 file_too_large = Valittu tiedosto on liian suuri
 avatar-uploaded = Profiilikuva lähetetty
+max-file-size = enintään { $kb } kt
 
 ## Profile - Email
 
@@ -397,7 +403,6 @@ faq-do-want-native-a = Kyllä, me haluamme erityisesti sinun äänesi! Osa Commo
 faq-why-different-speakers-q = Miksi tarvitsette niin monta jokaisen kielen puhujaa?
 faq-why-different-speakers-a = Useimmat ääniaineistot on opetettu tietyn väestöryhmän yliedustuksella, mikä johtaa vinoumaan <articeLink>valkoihoisten ja keskiluokkaisten</articleLink> suuntaan. Tyypillisesti ennalta syrjäytyneiden väestöryhmien korostukset ja murteet tapaavat olla aliedustettuja ääniaineistoissa. Monilla koneilla on lisäksi haasteita naisten ymmärtämisessä. Tästä syystä me haluamme monipuolisuutta aineistoomme!
 faq-why-my-lang-q = Miksei kieleni ole vielä mukana?
-faq-why-my-lang-new-a = Mozilla ei valikoi tai suosi mitään yksittäistä kieltä muiden kustannuksella. Päinvastoin, Common Voice on täysin yhteisövetoinen hanke, ja <multilangLing>uuden kielen lisääminen</multilangLink> ja lauseiden keräämisen aloittaminen vaatii monia työvaiheita. Ensiksi, Common Voice -verkkosivu täytyy kääntää, jotta yhteisön jäsenet voivat osallistua nauhoitustyöhön omalla kielellään. Toiseksi, tarvitsemme suuren määrän tekijänoikeusvapaita lauseita, joita ihmiset voivat lukea ääneen. Kun molemmat vaatimukset on täytetty, voidaan kieli "julkaista" Common Voicessa, ja ihmiset voivat alkaa nauhoittaa omaa puhettaan ja tarkistaa muiden nauhoituksia. Jos haluat auttaa uuden kielen lisäämisessä, siirry <sentenceCollectorLink>lauseiden keräämiseksi tarkoitettuun työkaluumme</sentenceCollectorLink> niin pääset alkuun.
 faq-what-quality-q = Minkä tasoinen äänenlaatu tarvitaan näytteen käyttämiseksi aineistossa?
 faq-what-quality-a = Haluamme Common Voice -aineiston heijastelevan puheentunnistusmoottorin luonnossa kuulemaa äänenlaatua, joten toivomme vaihtelua. Monipuolisen puhujien yhteisön lisäksi erilaista äänenlaatua sisältävä aineisto opettaa puheentunnistusmoottoria käsittelemään erilaisia tosielämän tilanteita, taustalla puhumisesta liikenteen meluun. Niin kauan kuin ääninäytteesi on ymmärrettävä, sen pitäisi olla tarpeeksi hyvä aineistoon.
 faq-why-10k-hours-q = Miksi tavoitteena on 10 000 tuntia tarkistettuja ääninäytteitä jokaista kieltä kohden?
@@ -429,10 +434,16 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Miksi Common Voice?
-about-subtitle = Common Voice on osa Mozillan aloitetta auttaa opettamaan koneelle, kuinka todelliset ihmiset puhuvat. Common Voice -aineiston lisäksi kehitämme myös avoimen lähdekoodin puheentunnistuskirjastoa, DeepSpeechiä.
-about-header-description = Kummatkin näistä projekteista ovat osa pyrkimyksiämme kaventaa digitaalisen puheen kuilua. Äänentunnistusteknologiat tuovat ihmisulottuvuuden laitteisiimme, mutta niiden kehitys vaatii valtavasti äänidataa. Tällä hetkellä tällainen data on pääasiassa kallista ja suljettujen ovien takana. Haluamme asettaa äänidatan vapaasti ja julkisesti saataville, sekä varmistaa, että kyseinen data edustaa ihmisten aitoa monimuotoisuutta. Rakennamme paremman äänentunnistusteknologian, yhdessä.
-how-does-it-work-title = Miten se toimii?
+how-does-it-work-title-v2 = Miten Common Voice toimii?
 how-does-it-work-text = Joukkoutamme avointa ääniaineistoa. Lahjoita äänesi, tarkasta muiden ihmisten ääninäytteiden tarkkuus, tee aineistosta kaikille parempi.
+
+## How does it work section
+
+about-language-req-subtitle = Joku pyytää kieltä lisättäväksi.
+about-localization-title = Verkkosivuston lokalisointi
+about-dataset-release-title = Aineistojulkaisu
+about-dataset-release-subtitle = Julkaisemme aineiston kolmen kuukauden välein.
+about-subscribe-text = Haluatko olla ajan tasalla Common Voicen suhteen?
 about-speak = Puhu
 about-speak-text = Avustajat äänittävät äänileikkeitä lukemalla lahjoitettujen lauseiden varastoa.
 about-listen-queue = Kuuntelujono
@@ -449,28 +460,58 @@ about-dataset-new = Common Voice -aineisto
 about-dataset-new-text = Common Voice -aineisto koostuu sadoistatuhansista ääninäytteistä, jotka helpottavat puheentunnistustyökalujen kehittämistyötä.
 about-clip-graveyard = Äänileikkeiden hautausmaa
 about-clip-graveyard-text = Äänileikkeiden hautausmaa koostuu äänileikkeistä jotka on hylätty Common Voice -aineistosta. Kyseisen aineiston lailla, äänileikkeiden hautausmaakin on ladattavissa.
-about-partners = Partnerit
-about-become-a-partner = Ryhdy partneriksi
-about-partnership =
-    Common voice on yhteistyöhanke. Olemme riippuvaisia kumppaniemme ja lahjoittajien muodostamasta yhteisöstä rakentaessamme kaikkien aikojen laajointa avointa ääniaineistoa.
-    
-    Haluaisimme kiittää seuraavia henkilöitä ja organisaatioita heidän panoksestaan hankkeen eteen:
 about-get-involved = Tule mukaan
 about-get-involved-text-2 =
     Haluatko tehdä Common Voice -hankkeesta vielä paremman? 
     Mahtavaa! Ota yhteyttä sähköpostilla tai <discourseLink>Discoursen</discourseLink> kautta, 
     lähetä palautetta sivustosta <githubLink>GitHubin</githubLink> kautta, 
     tai liity joukkoomme <matrixLink>Matrixin</matrixLink> yhteisöchatissa.
+about-stay-in-touch = Miten pysyn yhteydessä?
 about-nav-why-common-voice = Miksi?
 about-nav-how-it-works = Miten?
 about-nav-partners = Partnerit
 about-nav-get-involved = Tule mukaan
-mycroft-title = Mycroft Ai
-mycroft-subtitle = Tekoäly
-mycroft-description =
-    Mycroft on maailman ensimmäinen avoimen lähdekoodin assistentti. 
-    Mycroft pyörii missä tahansa - pöytätietokoneessa, auton sisällä tai Raspberry Pi -minitietokoneessa.
-mycroft-secondary-description = Tämä on avoimen lähdekoodin ohjelmisto, jota voi vapaasti yhdistää, laajentaa ja parantaa. Mycroftia voi käyttää mihin tahansa koululaisprojektin ja tuotannossa olevan yrityskäytön välillä.
+about-nav-how-it-works-2 = Miten Common Voice toimii?
+
+## Community Playbook Content
+## What is a language
+
+about-playbook-what-is-language = Mikä on kieli Common Voicessa?
+
+## How do I add a language
+
+about-playbook-how-add-language = Kuinka lisään kielen?
+
+## How does localization work
+
+about-playbook-how-localize = Miten sivuston lokalisointi toimii?
+about-playbook-how-localize-content-1 = Common Voice -sivuston käännös tapahtuu <strong>Pontoonissa</strong>.
+
+## How to add sentences
+
+about-playbook-how-add-sentences = Kuinka lisään lauseita?
+
+## How to record quality
+
+about-playbook-how-record-quality = Kuinka nauhoitan korkealaatuisen äänileikkeen?
+about-playbook-how-record-content-2 = Vältä turhaa taustamelua – ääntäsi pitäisi olla helppo kuulla.
+about-playbook-how-record-content-3 = Lue lause huolellisesti – älä ohita, muuta tai lisää sanoja.
+
+## How to grow language
+
+about-playbook-how-grow-language-content-2 = Tapahtumat
+about-playbook-how-grow-language-content-4 = Sosiaalinen media
+about-playbook-how-grow-language-content-6 = Kumppanuudet ja verkostot
+
+## How to validate
+
+
+## How to access dataset
+
+about-playbook-how-access-dataset = Kuinka saan pääsyn ja kuinka käytän aineistoa?
+
+## How are decisions made
+
 
 ## Glossary
 
@@ -527,6 +568,7 @@ review-delete-recordings = Poista nauhoitukset
 
 ## Datasets Page
 
+datasets-heading = Aineistot
 datasets-headline = Rakennamme avointa ja monikielistä ääniaineistoa, jota kuka tahansa voi käyttää puheeseen liittyvien sovellusten kehittämisessä.
 datasets-positioning =
     Uskomme, että suuri ja avoin ääniaineisto lisää innovaatiota ja tervettä kaupallista kilpailua koneoppimiseen pohjautuvan puheteknologian saralla.
@@ -605,6 +647,18 @@ request-language-success-content = Otamme yhteyttä siitä miten voidaan lisät�
 select-language = Valitse kieli...
 other-language = Muu kieli
 
+## Request Language Pages
+
+request-language-heading = Kysy uudesta kielestä
+request-language-form-email =
+    .label = Sähköpostiosoitteesi
+request-language-form-info =
+    .label = Tietoja kielestä
+request-language-form-info-explanation-list-2 = <isoCodeLink>ISO-koodit</isoCodeLink>, jos tiedossa
+request-language-form-info-explanation-list-3 = Linkkejä verkkosivustoille, jotka voivat auttaa meitä ymmärtämään kieltä
+request-language-google-recaptcha-required = reCAPTCHA vaaditaan jos haluat jatkaa
+request-language-google-recaptcha-error = Jotain meni pieleen reCAPTCHA:n kanssa. Yritä uudelleen.
+
 ## Languages Overview
 
 language-section-in-progress = Työn alla
@@ -620,7 +674,6 @@ language-search-input =
 language-speakers = Puhujat
 localized = Lokalisoitu
 sentences = Lauseet
-total-hours = Tarkastetut tunnit
 
 ## Contribution
 
@@ -629,7 +682,7 @@ action-tap = Napauta
 contribute = Osallistu
 listen = Kuuntele
 skip = Ohita
-shortcuts = Oikopolut
+shortcuts = Pikanäppäimet
 clips-with-count-pluralized =
     { $count ->
         [one] <bold>{ $count }</bold> ääninäyte
@@ -768,15 +821,15 @@ finish-editing = Viimeistelläänkö muokkaaminen ensin?
 lose-changes-warning = Nyt poistumalla muutokset katoavat
 build-custom-goal = Rakenna mukautettu tavoite
 help-reach-hours-pluralized =
-    Auta saavuttamaan{ NUMBER($hours) ->
-        [one] { $hours } tunti
-       *[other] { $hours } tuntia
-    }kielelle { $language } henkilökohtaisen tavoitteen avulla
+    { NUMBER($hours) ->
+        [one] Auta saavuttamaan { $hours } tunti kielelle { $language } henkilökohtaisen tavoitteen avulla
+       *[other] Auta saavuttamaan { $hours } tuntia kielelle { $language } henkilökohtaisen tavoitteen avulla
+    }
 help-reach-hours-general-pluralized =
-    Auta Common Voicea saavuttamaan{ NUMBER($hours) ->
-        [one] { $hours } tunti
-       *[other] { $hours } tuntia
-    }kielessä henkilökohtaisen tavoitteen avulla
+    { NUMBER($hours) ->
+        [one] Auta Common Voicea saavuttamaan { $hours } tunti kielessä henkilökohtaisen tavoitteen avulla
+       *[other] Auta Common Voicea saavuttamaan { $hours } tuntia kielessä henkilökohtaisen tavoitteen avulla
+    }
 set-a-goal = Aseta tavoite
 cant-decide = Vaikeuksia päättää?
 activity-needed-calculation-plural =
@@ -838,6 +891,7 @@ profile-form-delete = Poista profiili
 download-q = Haluatko ladata tietosi?
 download-info = Kerro meille mitä haluat ladata:
 download-profile-title = Profiili
+download-profile-info = Sisältää sähköpostiosoitteen, käyttäjätunnuksen ja yksilöön liittyviä tietoja, saatavilla heti
 download-profile-size = Muutama tavu
 download-recordings-title = Äänitallenteet
 download-recordings-info = Sisältää mp3-tiedostoja ja niihin liittyviä lauseita, valmistelu voi kestää jonkin aikaa
@@ -846,6 +900,7 @@ download-size = Koko
 download-selected = Valittu
 download-start = Lataa profiilitiedot
 download-request = Pyydä äänitallenteet
+download-requests = Aiemmat näytteiden latauspyynnöt
 download-requests-info = Kun pyydät tallenteitasi, kokoamme ne yhteen tai useampaan ZIP -tiedostoon. Tässä ovat aiemmat pyyntösi:
 download-request-button = Lataa
 download-request-title = { $created }
@@ -857,6 +912,7 @@ download-request-refresh-button = Päivitä
 download-request-modal-title = Latauslinkit
 download-request-modal-description = Tässä on linkit ZIP-tiedostojen lataamiseksi.
 download-request-link-text = Zip-tiedosto { $offset }/{ $total }
+download-request-metadata-link = Lauseen teksti
 
 ## Landing
 
@@ -896,9 +952,11 @@ demo-listen-subtitle = Valmiina osallistumaan?
 
 ## Demo Dashboard
 
+demo-dashboard-card-header = Henkilökohtaiset kojelaudat pitävät sinut ajan tasalla yksilön ja yhteisön edistymisestä.
 
 ## Validation criteria
 
+contribution-criteria-nav = Kriteeristö
 contribution-criteria-link = Ymmärrä osallistumiskriteerit
 contribution-criteria-page-title = Osallistumiskriteerit
 contribution-criteria-page-description = Ymmärrä, mihin keskittyä äänileikkeitä kuunnellessa, ja auta tekemään äänitallenteistasi entistä parempia!
@@ -912,3 +970,152 @@ contribution-reader-effects-title = Lukutehosteet
 contribution-just-unsure-title = Vielä epävarma?
 see-more = <chevron></chevron>Näytä lisää
 see-less = <chevron></chevron>Näytä vähemmän
+
+# Don't rename the following section, its contents are auto-inserted based on the name. These strings are
+# automatically exported from Sentence Collector.
+# [SentenceCollector]
+
+
+## HEADER/FOOTER
+
+sc-header-home = Etusivu
+sc-header-how-to = Ohje
+sc-header-add = Lisää
+sc-header-review = Tarkista
+sc-header-rejected = Hylätyt lauseet
+sc-header-my = Omat lauseet
+sc-header-statistics = Tilastot
+sc-header-profile = Profiili
+sc-footer-discourse = Discourse
+sc-footer-report-bugs = Ilmoita virheestä
+sc-footer-translate = Käännä sivu
+sc-footer-report-copyright = Ilmoita tekijänoikeusongelmista
+sc-footer-privacy = Tietosuoja
+sc-footer-terms = Käyttöehdot
+sc-footer-cookies = Evästeet
+sc-login-signup-button = Kirjaudu / Rekisteröidy
+sc-logout-button = Kirjaudu ulos
+
+## HOME
+
+sc-home-review-title = Tarkista lauseet
+
+## GENERAL
+
+
+## HOW-TO
+
+sc-howto-addlang-text = Kun olet kirjautunut sisään, voit valita kielesi profiiliosiosta.
+sc-howto-addsen-title = Lisää uusia lauseita
+sc-howto-cite-item-1 = Voit sisällyttää mukaan verkkosivuston, esim. "Common Voice - https://commonvoice.mozilla.org/"
+sc-howto-review-subtitle = Varmista, että lause täyttää seuraavat kriteerit:
+sc-howto-review-criteria-2 = Lauseen tulee olla kieliopillisesti oikein.
+sc-howto-review-criteria-3 = Lauseen on oltava lausuttavissa ääneen.
+sc-howto-findpd-tips = Tässä on vinkkejä lauseiden löytämiseen:
+
+## MY SENTENCES
+
+sc-my-title = Omat lauseet
+sc-my-loading = Ladataan lauseitasi…
+sc-my-err-fetching = Virhe noudettaessa omia lauseita. Yritä uudelleen.
+sc-my-no-sentences = Lauseita ei löytynyt!
+# Variables:
+#   $source (String) - Associated source the user filled out when uploading the sentence
+sc-my-source = Lähde:  { $source }
+sc-my-delete = Poista valitut lauseet
+sc-my-deleting = Poistetaan valittuja lauseita…
+sc-my-err-failed-delete = Valittujen lauseiden poistaminen epäonnistui… Yritä uudelleen!
+
+## REJECTED
+
+sc-rejected-title = Hylätyt lauseet
+sc-rejected-loading = Ladataan hylättyjä lauseita…
+sc-rejected-err-fetching = Virhe hylättyjä lauseita haettaessa. Yritä uudelleen.
+sc-rejected-none-found = Hylättyjä lauseita ei löytynyt!
+
+## STATS
+
+sc-stats-title = Tilastot
+sc-stats-updating = Päivitetään…
+sc-stats-error = Tilastoja ei voitu noutaa. Yritä uudelleen myöhemmin.
+
+## ADD
+
+sc-submit-err-select-lang = Valitse kieli.
+sc-submit-err-add-sentences = Lisää lauseita.
+sc-submit-err-add-source = Lisää lähde.
+sc-submit-prompt =
+    .message = Lauseita ei lähetetty. Haluatko varmasti poistua?
+sc-submit-title = Lisää lauseita
+sc-submit-select-language =
+    .labelText = Valitse kieli
+sc-submit-ph-one-per-line =
+    .placeholder = Yksi lause per rivi
+
+## ADD LANGUAGE
+
+sc-add-lang-could-not-add = Kieltä ei voitu lisätä
+sc-add-lang-sec-button = Lisää kieli
+sc-add-err-unexpected = Odottamaton vastaus palvelimelta
+
+## ADD SENTENCES CONFIRMATION
+
+sc-confirm-are-you-sure =
+    .message = Lauseita ei lähetetty. Haluatko varmasti poistua?
+sc-confirm-sentences-title = Vahvista uudet lauseet
+sc-confirm-uploading = Lauseita lähetetään. Tämä voi kestää useita minuutteja lisättävien lauseiden määrästä riippuen. Älä sulje tätä sivua.
+
+## LANGUAGE INFO
+
+sc-lang-info-title-total = Yhteensä
+sc-lang-info-add-more = <addLink>Lisää enemmän lauseita nyt!</addLink>
+
+## LOGIN
+
+sc-login-err-failed = Kirjautuminen epäonnistui
+sc-login-err-try-again = Yritä uudestaan.
+
+## PROFILE
+
+# Variables:
+#   $username (String) - eMail address of the logged in user
+sc-profile-title = Profiili: { $username }
+sc-personal-err-lang-not-found = Kieltä ei voitu poistaa: kieltä ei löydy
+sc-personal-err-remove = Kieltä ei voitu poistaa
+sc-personal-your-languages = Kielesi:
+sc-personal-remove-button = poista
+sc-personal-not-added = Et ole vielä lisännyt yhtään kieltä.
+
+## REVIEW CRITERIA
+
+sc-criteria-make-sure = Varmista, että lause täyttää seuraavat kriteerit:
+sc-criteria-item-2 = Lauseen tulee olla kieliopillisesti oikein.
+sc-criteria-item-3 = Lauseen on oltava lausuttavissa ääneen.
+
+## REVIEW
+
+sc-review-lang-not-selected =
+    Et ole valinnut yhtään kieltä. Siirry
+    <profileLink>profiiliisi</profileLink> valitaksesi kielet.
+sc-review-loading = Ladataan lauseita…
+# Variables:
+#   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
+sc-review-form-source = Lähde: { $sentenceSource }
+sc-review-form-button-reject = Hylkää
+sc-review-form-button-skip = Ohita
+sc-review-form-button-approve = Hyväksy
+
+## SETTINGS
+
+sc-settings-title = Asetukset
+sc-settings-ui-language = Käyttöliittymän kieli
+sc-settings-show-all-button = Näytä kaikki ohitetut lauseet uudelleen
+sc-settings-failed = Asetuksia ei voitu muuttaa. Yritä uudelleen.
+sc-validation-no-numbers = Lause ei saa sisältää numeroita
+sc-validation-no-symbols = Lause ei saa sisältää symboleja
+sc-validation-no-abbreviations = Lause ei saa sisältää lyhenteitä
+
+# [/SentenceCollector]
+
+localization-select =
+    .label = Valitse kieli/lokalisointi

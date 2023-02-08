@@ -1,0 +1,17 @@
+.cta {
+    outline: none;
+    border: none;
+    padding: 1rem;
+    width: 100%;
+    transition: background-color linear var(--transition-duration);
+    background-color: var(--cta-background-color);
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: 0.4px;
+    font-family: var(--base-font-family);
+
+    &:hover {
+        background: var(--light-grey);
+    }
+}

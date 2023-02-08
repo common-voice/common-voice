@@ -11,8 +11,11 @@ loading = 読み込み中…
 email-opt-in-info = Common Voice に関する目標リマインダ、進捗状況の更新、ニュースレターなどのメールを受け取ります。
 email-opt-in-info-title = Common Voice メーリングリストに参加
 email-opt-in-info-sub-with-challenge = Common Voice に関する目標リマインダーや進捗状況の更新、ニュースレターなどのメールを受け取ります。
+email-opt-in-privacy-v2 = メールの受信を選択した場合、Mozilla の <privacyLink>プライバシーポリシー</privacyLink> に記載のとおり、この情報を Mozilla が取り扱うことに同意したものとみなされます。
 indicates-required = * の付いた項目は入力必須です
 not-available-abbreviation = 該当なし
+banner-error-slow-link = ステータスページ
+error-something-went-wrong = 申し訳ありません。問題が発生しました。
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -512,6 +515,7 @@ about-nav-get-involved = 参加しよう
 
 ## How to grow language
 
+about-playbook-how-grow-language-content-2 = イベント
 
 ## How to validate
 
@@ -582,6 +586,7 @@ review-delete-recordings = 録音を削除
 
 ## Datasets Page
 
+datasets-heading = データセット
 datasets-headline = 音声対応のアプリケーションをトレーニングするために誰でも使用できるオープンソースの多言語音声データセットを構築しています。
 datasets-positioning =
     私たちは、大規模で公的に利用可能な音声データセットが機械学習ベースの音声技術において技術革新と健全な商業競争を促進すると信じています。
@@ -660,6 +665,9 @@ request-language-success-title = ありがとうございます。言語のリ�
 request-language-success-content = Common Voice にあなたの言語を追加する方法について、こちらから連絡します。
 select-language = 言語を選択...
 other-language = 他の言語
+
+## Request Language Pages
+
 
 ## Languages Overview
 

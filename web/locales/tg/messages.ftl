@@ -1,6 +1,6 @@
 ## General
 
-yes-receive-emails = Бале, ба ман паёмҳои электрониро фиристед. Ман мехоҳам оид ба лоиҳаи «Common Voice» бохабар бошам.
+yes-receive-emails = Бале, ба ман паёмҳои электрониро фиристед. Ман мехоҳам, ки оид ба лоиҳаи «Common Voice» бохабар бошам.
 stayintouch = Мо дар Mozilla аз паи бунёди ҷомеа атрофи технологияҳои забонҳо ҳастем. Мо мехоҳем, ки шумо аз навигариҳо, манбаъҳои нави маълумот бохабар бошед ва бифаҳмем, ки шумо чӣ гуна ин маълумотҳоро истифода мебаред.
 privacy-info = Мо ваъда медиҳем, ки маълумоти шуморо эҳтиёткорона коркард мекунем. Маълумоти бештарро дар <PrivacyLink>Огоҳиномаи махфият</ PrivacyLink> хонед.
 return-to-cv = Бозгашт ба «Common Voice»
@@ -14,6 +14,10 @@ email-opt-in-info-sub-with-challenge = Паёмҳои электрониро б�
 email-opt-in-privacy-v2 = Бо интихоби қабули паёмҳои электронӣ, шумо изҳор мекунед, ки шумо бо Mozilla барои коркарди ин иттилоот ба тавре, ки дар <privacyLink> Сиёсати махфияти</privacyLink> Mozilla шарҳ дода шудааст, розӣ ҳастед.
 indicates-required = * ин аломат майдони ҳатмиро нишон медиҳад
 not-available-abbreviation = Дастнорас
+banner-error-slow-1 = Бубахшед, «Common Voice» суст аст. Ташаккур барои таваҷҷӯҳатон.
+banner-error-slow-2 = Мо паёмҳои зиёде мегирем ва ҳоло мушкилотро баррасӣ мекунем.
+banner-error-slow-link = Саҳифаи вазъият
+error-something-went-wrong = Мутаассифона, чизе нодуруст иҷро шуд
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -39,6 +43,7 @@ bg = Булғорӣ
 bm = Бамбара
 bn = Банголӣ
 br = Бретонӣ
+bs = Босниягӣ
 bxr = Бурятӣ
 ca = Каталонӣ
 cak = Какчикелӣ
@@ -90,11 +95,13 @@ kab = Кабилӣ
 kbd = Кабардинӣ
 ki = Кикуйю
 kk = Қазоқӣ
+km = Хмерӣ
 kmr = Курдии Курманҷӣ
 ko = Кореягӣ
 kpv = Коми-зирянӣ
 kw = Корнишӣ
 ky = Қирғизӣ
+lb = Люксембургӣ
 lg = Луганда
 lij = Лигурӣ
 lt = Литвонӣ
@@ -120,6 +127,7 @@ ne-NP = Непалӣ
 nia = Ниасӣ
 nl = Ҳоландӣ
 nn-NO = Нюнорски норвегӣ
+nso = Сотои Шимолӣ
 nyn = Рунянколевӣ
 oc = Окситанӣ
 or = Одия
@@ -146,6 +154,8 @@ sl = Словенӣ
 so = Сомалӣ
 sq = Албанӣ
 sr = Сербӣ
+ss = Сисватӣ
+st = Сотои Ҷанубӣ
 sv-SE = Шведӣ
 sw = Суахилӣ
 syr = Суриёнӣ
@@ -163,19 +173,21 @@ tw = Тви
 ty = Таҳитӣ
 uby = Убихӣ
 udm = Удмуртӣ
-ug = Ӯйғурӣ
+ug = Уйғурӣ
 uk = Украинӣ
 ur = Урду
 uz = Ӯзбекӣ
 vec = Венетсиягӣ
 vi = Ветнамӣ
 vot = Вотӣ
-yi = Идишӣ
+xh = Коса
+yi = Идиш
 yo = Ёруба
 yue = Кантонӣ
 zh-CN = Хитоӣ (Чин)
 zh-HK = Чинӣ (Ҳонконг)
 zh-TW = Хитоӣ (Тайван)
+zu = Зулу
 
 # [/]
 
@@ -259,6 +271,8 @@ benefits = Бартариҳо
 rich-data = Бо пешниҳоди баъзе маълумоти демографии ношинос маълумоти пешниҳодкардаи худро то ҳадди имкон бой кунед. Мо ҳама маълумоти демографиро пеш аз он ки оммавӣ кунем, ношинос мекунем.
 improve-audio = Маълумоти профилӣ маълумоти садоиро, ки дар омӯзиши дақиқии садошиносӣ истифода мешавад, беҳтар мекунад.
 keep-track = Пешрафт ва ченакҳои худро дар бисёр забонҳо пайгирӣ кунед.
+compare-progress = Бубинед, ки пешрафти шумо нисбат бо саҳмгузорони дигар дар саросари ҷаҳон чӣ гуна аст.
+view-goals = Пешрафти худро дар муқобили ҳадафҳои шахсӣ ва лоиҳавӣ бубинед.
 
 ## What's public
 
@@ -301,8 +315,15 @@ profile-form-native-language =
     .label = Забони модарӣ
 profile-form-additional-language =
     .label = Забони иловагӣ
+profile-form-language =
+    .label = Забон
+profile-form-variant =
+    .label = Бо кадом лаҳҷаи { $language } ҳарф мезанед?
+profile-form-variant-default-value = Ягон вариант интихоб нашудааст
 profile-form-accent =
     .label = Лаҳҷа
+profile-form-custom-accent-help-text =
+    .label = Лаҳҷаи худро чӣ гуна тавсиф мекардед?
 profile-form-age =
     .label = Синну сол
 profile-form-gender-2 =
@@ -313,6 +334,7 @@ hidden = Ноаён
 visible = Намоён
 native-language =
     .label = Забони модарӣ
+profile-form-add-accent = Илова кардани лаҳҷаи фармоишии нави «{ $inputValue }»
 profile-form-submit-save = Нигоҳ доштан
 profile-form-submit-saved = Нигоҳ дошта шуд
 male = Мард
@@ -339,11 +361,14 @@ download-profile = Боргирӣ кардани маълумоти ман
 contribution-experience = Таҷрибаи саҳмгузорӣ
 off = Ғайрифаъол
 on = Фаъол
+help-accent = Оид ба лаҳҷа кумак лозим аст?
+help-variants = Оид ба гунаҳо кумак лозим аст?
 
 ## Profile - Email
 
 browse-file-title = Бор кардани файли тасвирӣ
-connect-gravatar = Бо Gravatar пайваст шавед
+connect-gravatar = Бо «Gravatar» пайваст шавед
+file_too_large = Файли интихобшуда хеле калон аст
 avatar-uploaded = Аватар бор карда шуд
 
 ## Profile - Email
@@ -373,22 +398,59 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Чаро «Common Voice»?
-how-does-it-work-title = Он чӣ тавр кор мекунад?
+
+## How does it work section
+
 about-speak = Ҳарф занед
 about-listen = Гӯш кунед
 about-yes-votes = ≥ 2 овози «Ҳа»
 about-no-votes = ≥ 2 овози «Не»
 about-dataset-new = Маҷмӯаи маълумоти «Common Voice»
 about-dataset-new-text = Маҷмӯаи маълумоти «Common Voice» садҳо ҳазор намунаҳои овозиро дар бар мегирад, ки ба таҳиягарон дар сохтани асбобҳои садошиносӣ кумак мекунанд.
-about-partners = Шарикон
-about-become-a-partner = Шарик шавед
 about-get-involved = Ҳамроҳ шудан
+about-stay-in-touch-button = Бақайдгирӣ
 about-nav-why-common-voice = Чаро?
 about-nav-how-it-works = Чӣ тавр?
 about-nav-partners = Шарикон
 about-nav-get-involved = Ҳамроҳ шудан
-mycroft-title = Mycroft Ai
-mycroft-subtitle = Зеҳни сунъӣ
+about-nav-playbook = Тарзи иштирок намуданро омӯзед
+
+## Community Playbook Content
+## What is a language
+
+
+## How do I add a language
+
+about-playbook-how-add-language = Чӣ тавр ман забонро илова намоям?
+about-playbook-how-add-language-translating-heading = Тарҷумаи сомона
+about-playbook-how-add-language-collecting-sentences-heading = Ҷамъкунии ҷумлаҳо
+
+## How does localization work
+
+about-playbook-how-localize = Чӣ тавр маҳаллисозии сомона кор мекунад?
+
+## How to add sentences
+
+about-playbook-how-add-sentences = Чӣ тавр ман ибораҳоро илова намоям?
+
+## How to record quality
+
+about-playbook-how-record-quality = Чӣ тавр ман сабти овозии баландсифатро сабт намоям?
+
+## How to grow language
+
+about-playbook-how-grow-language-content-2 = Рӯйдодҳо
+about-playbook-how-grow-language-content-6 = Шарикӣ ва шабакаҳо
+
+## How to validate
+
+
+## How to access dataset
+
+
+## How are decisions made
+
+about-playbook-how-project-governance-content-3 = Махфият, амният ва шаффофият.
 
 ## Glossary
 
@@ -429,6 +491,7 @@ review-delete-recordings = Нест кардани сабтҳои ман
 
 ## Datasets Page
 
+datasets-heading = Маҷмӯаи маълумот
 language = Забон
 # File size in gigabytes
 size = Андоза
@@ -473,6 +536,9 @@ request-language-success-title = Дархости забон бо муваффа
 select-language = Забонеро интихоб кунед ...
 other-language = Забони дигар
 
+## Request Language Pages
+
+
 ## Languages Overview
 
 languages-show-more = Дидани бештар
@@ -483,6 +549,7 @@ language-search-input =
     .placeholder = Ҷустуҷӯ
 language-speakers = Баландгӯякҳо
 sentences = Ҷумлаҳо
+language-validation-hours = Соат
 
 ## Contribution
 
@@ -531,6 +598,7 @@ validations =
 ## Dashboard
 
 your-languages = Забонҳои шумо
+awards = Мукофот
 you = Шумо
 everyone = Ҳар як кас
 
@@ -550,9 +618,19 @@ return-to-edit-goal = Барои таҳрир кардани ҳадафи худ
 
 keep = Ногоҳ доштан
 remove = Тоза кардан
+profile-form-delete = Нест кардани профил
 
 ## Profile Download
 
+download-profile-title = Профил
+download-recordings-title = Сабтҳо
+download-size = Андоза
+download-start = Маълумоти профилро боргирӣ кунед
+download-request = Сабтҳоро дархост кунед
+download-request-button = Боргирӣ кардан
+download-request-refresh-button = Навсозӣ кардан
+download-request-modal-title = Пайвандҳоро боргирӣ кунед
+download-request-metadata-link = Матни ҷумлаҳо
 
 ## Landing
 
@@ -561,9 +639,12 @@ read-more-about = Дар саҳифаи «Дар бораи мо» бештар 
 
 ## DemoLayout
 
+demo-get-started = Биёед оғоз намоем
 
 ## Demo Datasets
 
+card-button-next = Навбатӣ
+card-button-back = Бозгашт
 demo-account = Ҳисоб
 
 ## Demo Account
@@ -578,6 +659,7 @@ demo-listen-subtitle = Ба саҳмгузорӣ омода ҳастед?
 
 ## Validation criteria
 
+contribution-for-example = масалан
 
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
@@ -586,8 +668,19 @@ demo-listen-subtitle = Ба саҳмгузорӣ омода ҳастед?
 
 ## HEADER/FOOTER
 
+sc-header-home = Саҳифаи асосӣ
+sc-header-profile = Профил
+sc-footer-privacy = Махфият
+sc-footer-terms = Шартҳо
+sc-footer-cookies = Кукиҳо
+sc-login-signup-button = Воридшавӣ / Бақайдгирӣ
+sc-logout-button = Баромадан
 
 ## HOME
+
+sc-home-collect-title = Ҷумлаҳоро ҷамъ кунед
+
+## GENERAL
 
 
 ## HOW-TO
@@ -595,24 +688,40 @@ demo-listen-subtitle = Ба саҳмгузорӣ омода ҳастед?
 
 ## MY SENTENCES
 
+sc-my-no-sentences = Ягон ҷумла ёфт нашуд!
+# Variables:
+#   $batchId (String) - A unique ID identifying the submission of sentences - sentences uploaded together all have the same batch ID
+sc-my-submission = Пешниҳод: { $batchId }
+# Variables:
+#   $source (String) - Associated source the user filled out when uploading the sentence
+sc-my-source = Манбаъ:  { $source }
+sc-my-delete = Нест кардани ҷумлаҳои интихобшуда
+sc-my-deleting = Несткунии ҷумлаҳои интихобшуда…
 
 ## REJECTED
 
 
 ## STATS
 
+sc-stats-updating = Нав шуда истодааст...
 
 ## ADD
 
+sc-submit-button =
+    .submitText = Пешниҳод кардан
 
 ## ADD LANGUAGE
 
+sc-add-lang-sec-button = Илова кардани забон
 
 ## ADD SENTENCES CONFIRMATION
 
+sc-confirm-button-text = Тасдиқ кардан
 
 ## LANGUAGE INFO
 
+sc-lang-info-title-total = Ҳамагӣ
+sc-lang-info-title-personal = Шахсӣ
 
 ## LOGIN
 
@@ -625,9 +734,16 @@ demo-listen-subtitle = Ба саҳмгузорӣ омода ҳастед?
 
 ## REVIEW
 
+# Variables:
+#   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
+sc-review-form-source = Манбаъ: { $sentenceSource }
+sc-review-form-button-reject = Рад кардан
+sc-review-form-button-skip = Нодида гузарондан
+sc-review-form-button-approve = Тасдиқ кардан
 
 ## SETTINGS
 
+sc-settings-title = Танзимот
 
 # [/SentenceCollector]
 

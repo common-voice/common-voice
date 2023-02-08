@@ -18,10 +18,10 @@ export interface InviteModalProps extends ModalProps {
   enrollment: Enrollment;
 }
 
-export default ({
+export default function Invite({
   enrollment: { challenge, team, invite },
   ...props
-}: InviteModalProps) => {
+}: InviteModalProps) {
   const [copiedRecently, setCopiedRecently] = useState<boolean>(false);
   const inputRef = useRef();
   const api = useAPI();
@@ -101,4 +101,4 @@ export default ({
       </Button>
     </Modal>
   );
-};
+}

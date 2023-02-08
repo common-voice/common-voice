@@ -16,7 +16,7 @@
         padding-inline-start: 50px;
         padding-inline-end: 20px;
         min-height: 130px;
-        box-sizing: border-box;
+
         display: flex;
         flex-direction: row;
         align-items: center;

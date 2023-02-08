@@ -21,7 +21,7 @@ const LocalizedLocaleLink = ({ id, to }: { id: string; to: string }) => {
   );
 };
 
-export default React.memo(() => {
+const Footer = React.memo(() => {
   const [locale] = useLocale();
   return (
     <footer>
@@ -47,7 +47,7 @@ export default React.memo(() => {
       </div>
       <div id="moz-links">
         <div className="logo-container">
-          <Logo reverse />
+          <Logo isReverse />
           <p className="license">
             <Localized
               id="content-license-text"
@@ -79,7 +79,7 @@ export default React.memo(() => {
           </div>
           <div className="divider-vertical" />
           <div>
-            <LocalizedLocaleLink id="faq" to={URLS.FAQ} />
+            <LocalizedLocaleLink id="about" to={URLS.ABOUT} />
             <GitHubLink>GitHub</GitHubLink>
           </div>
         </div>
@@ -110,3 +110,7 @@ export default React.memo(() => {
     </footer>
   );
 });
+
+Footer.displayName = 'Footer';
+
+export default Footer;

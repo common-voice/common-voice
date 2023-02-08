@@ -4,10 +4,10 @@ import { connect } from 'react-redux';
 import Modal from '../modal/modal';
 import { Button, Hr, LabeledInput, LabeledSelect } from '../ui/ui';
 import API from '../../services/api';
-import { NATIVE_NAMES } from '../../services/localization';
 import { RequestedLanguages } from '../../stores/requested-languages';
 import StateTree from '../../stores/tree';
 import { User } from '../../stores/user';
+import * as Languages from '../../stores/languages';
 import PrivacyInfo from '../privacy-info';
 import LanguageAutocomplete from './language-autocomplete';
 import LanguageRequestSuccess from './language-request-success';
@@ -15,6 +15,7 @@ import LanguageRequestSuccess from './language-request-success';
 interface PropsFromState {
   api: API;
   user: User.State;
+  languages: Languages.State;
 }
 
 interface PropsFromDispatch {
@@ -38,12 +39,22 @@ class RequestLanguageModal extends React.Component<Props, State> {
   state: State = {
     email: this.props.user.email,
     isSubmitted: false,
-    language:
-      NATIVE_NAMES[
-        navigator.languages.find(lang => lang.split('-')[0] !== 'en')
-      ],
+    language: null,
     otherLanguage: '',
     sendEmails: this.props.user.sendEmails,
+  };
+
+  componentDidMount = () => {
+    const { languages } = this.props;
+
+    if (languages.nativeNames) {
+      this.setState({
+        language:
+          languages.nativeNames[
+            navigator.languages.find(lang => lang.split('-')[0] !== 'en')
+          ],
+      });
+    }
   };
 
   private update = ({ target }: any) => {
@@ -70,14 +81,9 @@ class RequestLanguageModal extends React.Component<Props, State> {
   };
 
   render() {
-    const { onRequestClose } = this.props;
-    const {
-      email,
-      language,
-      otherLanguage,
-      isSubmitted,
-      sendEmails,
-    } = this.state;
+    const { onRequestClose, languages } = this.props;
+    const { email, language, otherLanguage, isSubmitted, sendEmails } =
+      this.state;
     return (
       <Modal
         innerClassName={
@@ -89,9 +95,9 @@ class RequestLanguageModal extends React.Component<Props, State> {
         ) : (
           <form onSubmit={this.save}>
             <div className="title-and-action">
-              <Localized id="request-language-title">
-                <h2 />
-              </Localized>
+              <h2>
+                <Localized id="request-language-title" />
+              </h2>
             </div>
 
             <br />
@@ -107,7 +113,7 @@ class RequestLanguageModal extends React.Component<Props, State> {
                 <Localized id="select-language">
                   <option value="" />
                 </Localized>
-                {Object.entries(NATIVE_NAMES).map(([code, name]) => (
+                {Object.values(languages.nativeNames).map((name: string) => (
                   <option key={name} value={name}>
                     {name}
                   </option>
@@ -170,9 +176,10 @@ class RequestLanguageModal extends React.Component<Props, State> {
   }
 }
 
-const mapStateToProps = ({ api, user }: StateTree) => ({
+const mapStateToProps = ({ api, user, languages }: StateTree) => ({
   api,
   user,
+  languages,
 });
 
 const mapDispatchToProps = {
