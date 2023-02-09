@@ -26,16 +26,15 @@ export const ContributeMenu: React.FC<ContributeMenuProps> = ({
       onMouseLeave={() => setShowMenu(false)}
       data-testid="contribute-menu">
       <div className="contribute-btn-wrapper">
-        <Localized id="contribute">
-          <TextButton
-            className="contribute-btn"
+        <TextButton
+          className="contribute-btn"
+          onClick={toggleMobileMenuVisible}>
+          <Localized id="contribute" />
+          <ChevronDown
+            className={classNames({ 'rotate-180': showMobileMenu })}
             onClick={toggleMobileMenuVisible}
           />
-        </Localized>
-        <ChevronDown
-          className={classNames({ 'rotate-180': showMobileMenu })}
-          onClick={toggleMobileMenuVisible}
-        />
+        </TextButton>
       </div>
       <div className="contribute-link-wrapper">
         <p className="nav-link-item">
