@@ -276,7 +276,7 @@ header {
                     list-style: none;
                     margin: 0;
                     width: 200px;
-                    padding: 20px 32px 32px 20px;
+                    padding: 20px 32px 32px 30px;
 
                     & li {
                         display: flex;
@@ -326,8 +326,12 @@ header {
                 font-weight: 600;
                 color: var(--warm-grey);
                 margin-top: 20px;
-                margin-left: 30px;
-                margin-bottom: 10px;
+
+                @media (--md-down) {
+                    margin-left: 30px;
+                    margin-bottom: 10px;
+                }
+
                 @media (--lg-up) {
                     text-align: center;
                 }
@@ -397,8 +401,7 @@ header {
 }
 
 #hamburger-menu {
-    min-width: 20px;
-    min-height: 20px;
+    width: 80px;
     border: none;
     padding: 0;
 
