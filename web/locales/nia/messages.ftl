@@ -21,12 +21,12 @@ not-available-abbreviation = Lö'ö
 
 ## Languages
 
-ab = Abkhaz
+ab = Li Abkhaz
 ace = Li Aceh
-ady = Adyghe
-af = Afrikaans
-am = Amharic
-an = Aragonese
+ady = Li Adyghe
+af = Li Afrikaans
+am = Li Amharic
+an = Li Aragonese
 ar = Li Arab
 arn = Mapudungun
 as = Assamese
@@ -234,6 +234,37 @@ vote-yes = Ya
 ## ABOUT US
 
 
+## How does it work section
+
+
+## Community Playbook Content
+## What is a language
+
+
+## How do I add a language
+
+
+## How does localization work
+
+
+## How to add sentences
+
+
+## How to record quality
+
+
+## How to grow language
+
+
+## How to validate
+
+
+## How to access dataset
+
+
+## How are decisions made
+
+
 ## Glossary
 
 
@@ -253,6 +284,9 @@ vote-yes = Ya
 
 
 ## Request Language Modal
+
+
+## Request Language Pages
 
 
 ## Languages Overview
@@ -276,6 +310,9 @@ vote-yes = Ya
 ## Profile Delete
 
 
+## Profile Download
+
+
 ## Landing
 
 
@@ -292,4 +329,63 @@ vote-yes = Ya
 
 
 ## Demo Dashboard
+
+
+## Validation criteria
+
+
+# Don't rename the following section, its contents are auto-inserted based on the name. These strings are
+# automatically exported from Sentence Collector.
+# [SentenceCollector]
+
+
+## HEADER/FOOTER
+
+
+## HOME
+
+
+## GENERAL
+
+
+## HOW-TO
+
+
+## MY SENTENCES
+
+
+## REJECTED
+
+
+## STATS
+
+
+## ADD
+
+
+## ADD LANGUAGE
+
+
+## ADD SENTENCES CONFIRMATION
+
+
+## LANGUAGE INFO
+
+
+## LOGIN
+
+
+## PROFILE
+
+
+## REVIEW CRITERIA
+
+
+## REVIEW
+
+
+## SETTINGS
+
+
+# [/SentenceCollector]
 
