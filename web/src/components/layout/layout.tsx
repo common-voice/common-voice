@@ -253,7 +253,7 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
                     <Avatar url={user.account.avatar_url} />
                   </LinkButton>
                 ) : (
-                  <Localized id="login-signup">
+                  <Localized id="login">
                     <LinkButton href="/login" rounded outline />
                   </Localized>
                 )}

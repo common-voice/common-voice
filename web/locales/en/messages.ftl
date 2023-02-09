@@ -421,6 +421,7 @@ accept-privacy = I'm okay with you handling this info as you explain in Mozilla'
 accept-privacy-title = Privacy Policy
 accept-privacy-and-terms = I agree to Common Voice's <termsLink>Terms</termsLink> and <privacyLink>Privacy Notice</privacyLink>
 login-identity = Login Identity
+login = Log In
 login-signup = Log In / Sign Up
 edit = Edit
 email-subscriptions = Email Subscriptions
