@@ -238,6 +238,8 @@ header {
             }
 
             & .nav-menu-wrapper-mobile {
+                width: 100%;
+
                 @media (--lg-up) {
                     display: none;
                 }
@@ -271,6 +273,7 @@ header {
             & .contribute-btn-wrapper {
                 display: flex;
                 align-items: center;
+                width: 100%;
 
                 @media (--lg-up) {
                     display: none;
@@ -357,6 +360,7 @@ header {
             @media (--md-down) {
                 display: flex;
                 margin: 0;
+                width: 100%;
             }
         }
 
@@ -415,10 +419,16 @@ header {
     }
 
     & .contribute-btn {
+        width: 100%;
+        text-align: left;
         font-family: var(--base-font-family);
         font-size: var(--font-size-sm);
         font-weight: 600;
         text-transform: uppercase;
         margin-right: 8px;
+
+        & svg {
+            margin-inline-start: 8px;
+        }
     }
 }
