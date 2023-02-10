@@ -221,14 +221,10 @@
 
         & .tabpanel--selected {
             padding-top: 50px;
-            /* border-top: 1px solid var(--grey); */
         }
     }
 
     & .contact-section {
-        /* height: 400px;
-        background: url('./images/guidelines-waves-2.png');
-        background-size: 100% 100%; */
         & .contact-container {
             max-width: var(--desktop-width);
             margin: 50px auto 0;
@@ -252,6 +248,49 @@
                     display: block;
                 }
             }
+        }
+
+        & .text-container {
+            max-width: 760px;
+            margin: 24px 60px 24px auto;
+
+            & p {
+                display: flex;
+                align-items: center;
+                gap: 1rem;
+                font-size: 1.25rem;
+                margin-bottom: 28px;
+
+                & a {
+                    color: var(--anchor-text-blue);
+                }
+            }
+
+            & p:last-of-type {
+                margin-bottom: 48px;
+            }
+
+            & .button {
+                background: var(--blue);
+                color: var(--white);
+                justify-content: flex-start;
+                border: none;
+                font-size: var(--font-size);
+                height: 60px;
+                width: 370px;
+
+                svg {
+                    flex: 0.6;
+                }
+
+                path {
+                    fill: var(--white);
+                }
+            }
+        }
+
+        img {
+            width: 100%;
         }
     }
 }
