@@ -51,69 +51,10 @@ const VALIDATORS: Validators = {
 // and therefore will be saved to the database in normalized form.
 const USE_NFC_NORMALIZATION = ['ko']
 
-// export function validateSentences(language: ValidatorLocale, sentences: string[]) {
-//   const validator = getValidatorFor(language);
-//
-//   return runValidation(validator, {
-//     sentences,
-//     normalize: USE_NFC_NORMALIZATION.includes(language),
-//   });
-// }
-//
-// function runValidation(validator, { sentences = { unreviewed: [], validated: [] }, normalize }) {
-//   let filtered = [];
-//
-//   const validate = (validSentences, sentence) => {
-//     const sentenceToValidate = normalize ? sentence.normalize('NFC') : sentence;
-//     const validationResult = validateSentence(validator, sentenceToValidate);
-//     if (validationResult.error) {
-//       filtered.push(validationResult);
-//       return validSentences;
-//     }
-//
-//     validSentences.push(sentenceToValidate);
-//     return validSentences;
-//   };
-//
-//   const valid = sentences.unreviewed.reduce(validate, []);
-//   const validValidated = sentences.validated.reduce(validate, []);
-//
-//   return {
-//     valid,
-//     validValidated,
-//     filtered,
-//   };
-// }
-//
-// function validateSentence(validator, sentence) {
-//   const validationResult = {
-//     sentence,
-//   };
-//
-//   // We use `some` so we stop once an invalid condition is found
-//   validator.INVALIDATIONS.some((invalidation) => {
-//     let invalid = false;
-//
-//     if (invalidation.fn && typeof invalidation.fn === 'function') {
-//       invalid = invalidation.fn(sentence);
-//     } else if (invalidation.regex) {
-//       invalid = sentence.match(invalidation.regex);
-//     }
-//
-//     if (invalid) {
-//       validationResult.error = invalidation.error;
-//     }
-//
-//     return invalid;
-//   });
-//
-//   return validationResult;
-// }
-
 const getValidatorFor = (locale: ValidatorLocale | string): ValidatorRule[] =>
   isValidatorLocale(locale) ? VALIDATORS[locale] : default_locale
 
-const valSentence =
+const runValidatorOnSentence =
   (rules: ValidatorRule[]) =>
   (sentence: string): E.Either<string, string> => {
     for (const rule of rules) {
@@ -134,13 +75,12 @@ const normalize = (sentence: string) => sentence.normalize('NFC')
 const normalizeForLocale = (locale: string) => (sentence: string) =>
   USE_NFC_NORMALIZATION.includes(locale) ? normalize(sentence) : sentence
 
-const validateSentenceForLocale = flow(getValidatorFor, valSentence)
+const validateSentenceForLocale = flow(getValidatorFor, runValidatorOnSentence)
 
-export const validateSentence =
-  (locale: string) => (sentence: string) => {
-    return pipe(
-      sentence,
-      normalizeForLocale(locale),
-      validateSentenceForLocale(locale)
-    )
-  }
+export const validateSentence = (locale: string) => (sentence: string) => {
+  return pipe(
+    sentence,
+    normalizeForLocale(locale),
+    validateSentenceForLocale(locale)
+  )
+}
