@@ -25,7 +25,7 @@ const INVALIDATIONS: ValidatorRule[] = [{
   error: 'Sentence should not contain symbols',
 }, {
   // Any words consisting of uppercase letters or uppercase letters with a period
-  // inbetween are considered abbreviations or acronyms.
+  // in between are considered abbreviations or acronyms.
   // This currently also matches fooBAR but we most probably don't want that either
   // as users wouldn't know how to pronounce the uppercase letters.
   type: 'regex',
