@@ -1,4 +1,4 @@
-import { AllowedSchema } from 'express-json-validator-middleware';
+import { AllowedSchema } from 'express-json-validator-middleware'
 
 export const AddSentenceRequest: AllowedSchema = {
   type: 'object',
@@ -18,4 +18,4 @@ export const AddSentenceRequest: AllowedSchema = {
       type: 'string',
     },
   },
-};
+}
