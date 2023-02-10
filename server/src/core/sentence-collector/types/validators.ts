@@ -17,7 +17,7 @@ const ValidatorLocales = [
   'ur',
   'uz',
   'yue',
-  'default-locale',
+  'default_locale',
 ] as const
 
 export type ValidatorLocale = typeof ValidatorLocales[number]
