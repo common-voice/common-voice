@@ -1,21 +1,21 @@
 # How to add a new language validation
 
-1. Copy the `en.js` file in the `languages` folder and name it according to the new language
+1. Copy the `en.ts` file in the `languages` folder and name it according to the new language
 2. Adjust the content of the file to represent the new requirements for this specific language
 3. Feel free to add comments to better explain what each validation does - if the error message can't be phrased descriptive enough
-4. In `index.js` add a new require (as example for German - de)
+4. In `validation.ts` add a new import (as example for German - de):
 
-```
-const de = require('./languages/de');
+```TypeScript
+import de from './languages/de'
 ```
 
 5. Expose the new require in the `VALIDATORS` object
 
-```
-const VALIDATORS = {
+```TypeScript
+const VALIDATORS: Validators = {
   en,
   de,
-};
+}
 ```
 
 ## Invalidation rules structure
@@ -26,20 +26,21 @@ Each validation rule file exposes an array of invalidation rules. For each of th
 
 The following is a simplified example. You can run any regex checks that are deemed useful for the language you create a validation for.
 
-```
+```TypeScript
 const INVALIDATIONS = [{
+  type: 'fn',
   fn: (sentence) => {
     return sentence.length < 2 || words.length > 100;
   },
   error: `Number of words must be between 2 and 100 characters (inclusive)`,
-}, {
+},
+{
+  type: 'regex',
   regex: /[0-9]+/,
   error: 'Sentence contains numbers',
-}];
+}]
 
-module.exports = {
-  INVALIDATIONS,
-};
+export default INVALIDATIONS
 ```
 
 In this example we are defining one function and one regex:
