@@ -52,7 +52,7 @@ You can return the same error message for multiple invalidation rules if appropr
 
 ## Normalization
 
-For certain languages there are benefits of normalizing the sentence in NFC before running through validation. This can be enabled by adding the language code to the `USE_NFC_NORMALIZATION` array in `index.js`. Activating normalization means that any further steps will get the normalized sentence. This includes the validation rules, as well as saving it to the database and then later on exporting it to the Common Voice repository.
+For certain languages there are benefits of normalizing the sentence in NFC before running through validation. This can be enabled by adding the language code to the `USE_NFC_NORMALIZATION` array in `validation.ts`. Activating normalization means that any further steps will get the normalized sentence. This includes the validation rules, as well as saving it to the database.
 
 **Example:** In Korean you can either type `"ᄏ", "ᅩ" and "ᆯ"` which results in `콜` of length 3 (when checked with `.length`), or `콜` which is one code point.
 
