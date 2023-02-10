@@ -9,8 +9,11 @@ import PageHeading from '../../ui/page-heading';
 import { NAV_IDS } from './constants';
 import SidebarContent from './sidebar-content/sidebar-content';
 import RoundButton from '../../ui/round-button';
-import { MailIcon } from '../../ui/icons';
+import { DiscourseIconCode, MailIcon } from '../../ui/icons';
 import VisuallyHidden from '../../visually-hidden/visually-hidden';
+import { DiscourseLink, MatrixLink } from '../../shared/links';
+import { LinkButton } from '../../ui/ui';
+import { COMMON_VOICE_EMAIL } from '../../../constants';
 
 import './guidelines.css';
 
@@ -78,20 +81,45 @@ const Guidelines = () => {
           <Localized id="still-have-questions">
             <h1 />
           </Localized>
-          <p>
-            <RoundButton>
-              <Link to="#" data-testid="email-signup-button">
-                <VisuallyHidden>
-                  <Localized id="about-stay-in-touch-button" />
-                </VisuallyHidden>
-                <MailIcon />
-              </Link>
-            </RoundButton>
-            <Localized id="about-stay-in-touch-text-1">
-              <span />
-            </Localized>
-          </p>
+          <div className="text-container">
+            <p>
+              <RoundButton>
+                <Link to="#" data-testid="email-signup-button">
+                  <VisuallyHidden>
+                    <Localized id="about-stay-in-touch-button" />
+                  </VisuallyHidden>
+                  <MailIcon />
+                </Link>
+              </RoundButton>
+              <Localized id="about-stay-in-touch-text-1">
+                <span />
+              </Localized>
+            </p>
+
+            <p>
+              <RoundButton>
+                <DiscourseLink data-testid="discourse-button">
+                  <VisuallyHidden>Discourse</VisuallyHidden>
+                  <DiscourseIconCode />
+                </DiscourseLink>
+              </RoundButton>
+              <Localized
+                id="about-stay-in-touch-text-2"
+                elems={{
+                  discourseLink: <DiscourseLink />,
+                  matrixLink: <MatrixLink />,
+                }}>
+                <span />
+              </Localized>
+            </p>
+
+            <LinkButton rounded blank href={`mailto:${COMMON_VOICE_EMAIL}`}>
+              <MailIcon />
+              <Localized id="contact-common-voice" />
+            </LinkButton>
+          </div>
         </div>
+        <img src={require('./images/guidelines-waves-2.png')} alt="" />
       </section>
     </Page>
   );
