@@ -3,6 +3,8 @@ import { Sentence, validateSentence } from '../../../../core/sentence-collector'
 import { insertSentenceIntoDb } from '../../repository/sentence-repository'
 import { AddSentenceCommand } from './command/add-sentence-command'
 import { either as E, taskEither as TE } from 'fp-ts'
+import { ApplicationError } from '../../../types/error'
+import { createScSentenceValidationError } from '../../../helper/error-helper'
 
 const createSentenceFromCommand =
   (command: AddSentenceCommand) =>
@@ -15,10 +17,11 @@ const createSentenceFromCommand =
 
 export default (
   command: AddSentenceCommand
-): TE.TaskEither<string, unknown> => {
+): TE.TaskEither<ApplicationError, unknown> => {
   return pipe(
     command.sentence,
     validateSentence(command.localeName),
+    E.mapLeft(createScSentenceValidationError),
     E.map(createSentenceFromCommand(command)),
     E.map(insertSentenceIntoDb),
     TE.fromEither,
