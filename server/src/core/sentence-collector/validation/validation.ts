@@ -43,7 +43,7 @@ const VALIDATORS: Validators = {
   ur,
   uz,
   yue,
-  'default-locale': default_locale,
+  default_locale,
 }
 
 // For certain language we want to normalize before we validate.
