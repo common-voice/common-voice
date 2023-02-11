@@ -631,12 +631,38 @@ data-explanatory-text = ትልቅ እና በይፋ የሚገኙ የድምፅ መ
 data-get-started = <speechBlogLink> በንግግር ዕውቅና ይጀምሩ </SpeckBlogLink>
 data-other-title = ሌሎች የድምጽ ውሂብ ስብስቦች…
 data-other-goto = ወደ { $name } ይሂዱ
+data-other-download = ውሂብ ያውርዱ
+data-bundle-button = የውሂብ ስብስብ ቅርቅብ ያውርዱ
+data-bundle-description = የጋራ ልሳን ውሂብ በተጨማሪም ሁሉም ከላይ ያሉ የድምጽ ውሂብ ስብስቦች።
+release-version = ስሪት
+dataset-date = ቀን
+license = ፈቃድ ፦ <licenseLink> { $license } </licenseLink>
 license-mixed = የተቀላቀለ
+data-download-singleword-title = የነጠላ ቃል ዒላማ ክፍልን ያውርዱ
+review-terms = የጋራ ልሳንን በመጠቀም በኛ <termsLink>ደንቦች</termsLink> እና <privacyLink>የግላዊነት ማስታወቂያ</privacyLink> ተስማምተዋል
 terms-agree = እስማማለሁ
 terms-disagree = አልስማማም
+review-submit-title = ይገምግሙ እና ያስገቡ
+review-submit-msg = ስለቀረጹ እናመሰግናለን! <lineBreak> </lineBreak>ከዚህ በታች ክሊፖችዎን ይገምግሙ እና ያስገቡ።
+review-recording = ይገምግሙ
+review-rerecord = እንደገና ይቅረጹ
+review-cancel = ማስገባትን ሰርዝ
+review-keep-recordings = ቀረጻዎቹን ያስቀምጡ
+review-delete-recordings = ቀረጻዎቼን ሰርዝ
 
 ## Datasets Page
 
+datasets-headline = በንግግር የነቁ መተግበሪያዎችን ለማሠልጠን ማንም ሰው ሊጠቀምበት የሚችል ክፍት ምንጭ ፣ ባለብዙ ቋንቋ የድምፅ መረጃ ስብስብ እየገነባን ነው።
+datasets-positioning =
+    ትልቅ ፣ በይፋ የሚገኝ የድምፅ የውሂብ ስብስቦች በማሽን መማር ላይ በተመሠረተ የንግግር ቴክኖሎጂ ውስጥ ፈጠራን እና ጤናማ የንግድ ውድድርን እንደሚያሳድጉ እናምናለን።
+    
+    የጋራ ድምፅ ባለብዙ ቋንቋ የመረጃ ቋት ቀድሞውኑ በዓይነቱ ትልቁ በሕዝብ የሚገኝ የድምፅ የመረጃ ስብስብ ነው ፣ ግን እሱ ብቻ አይደለም።
+    
+    ይህንን ገጽ ለሌሎች ክፍት ምንጭ የድምፅ የውሂብ ስብስቦች ዋቢ ማዕከል ሆኖ ፣ እና Common Voice ማደጉን እንደቀጠለ ፣ የእኛ የተለቀቁ ዝመናዎች መኖሪያ ቤት ነው።
+language = ቋንቋ
+# File size in gigabytes
+size = መጠን
+cv-license = ፈቃድ
 
 ## Download Modal
 
