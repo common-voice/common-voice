@@ -646,6 +646,7 @@ request-language-google-recaptcha-required = Kinakailangan ang reCAPTCHA kung gu
 
 language-section-in-progress = Isinasagawa
 language-section-launched = Inilunsad na
+languages-show-more = Tingnan ng Higit Pa
 languages-show-less = Tignan ng Kaunti
 language-meter-in-progress = Progreso
 language-total-progress = Kabuuan
