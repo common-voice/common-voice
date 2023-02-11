@@ -769,6 +769,11 @@ share-common-voice = የጋራ ልሳንን ያጋሩ
 review-instruction = አስፈላጊ ከሆነ ቅንጥቦችን ይገምግሙ እና ከንደገና ይቅዱ
 record-submit-tooltip = ዝግጁ ሲሆኑ { $actionType } ያስገቡ
 clips-uploaded = ቅንጥቦች ተጭነዋል
+record-abort-text = አሁን መውጣት ማለት ያሉበትን ደረጃ ያጣሉ ማለት ነው።
+record-abort-continue = ቀረጻን ጨርስ
+record-abort-delete = ውጣ እና ቅንጥቦችን ሰርዝ
+listen-instruction = { $actionType } <playIcon> </playIcon> ዓረፍተ ነገሩን በትክክል ተናገሩ?
+listen-again-instruction = ምርጥ ሥራ! <playIcon> </playIcon> ዝግጁ ሲሆኑ እንደገና ያዳምጡ
 
 ## Reporting
 
