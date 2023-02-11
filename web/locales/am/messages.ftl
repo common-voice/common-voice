@@ -14,6 +14,10 @@ email-opt-in-info-sub-with-challenge = እንደ የአላማ ማስታወሻ፣
 email-opt-in-privacy-v2 = ኢሜይል ለመቀበል ፈቃደኛ ሲሆኑ፤ ሞዚላ እነዚህን መረጃዎች የሚይዝበትን በሞዚላ <privacyLink>የግላዊነት ፖሊሲ</privacyLink> ላይ የተገለፀውን መቀበልዎትን ያሳያል።
 indicates-required = * የግድ መሞላት ያለበት ቦታ መሆኑን ያመለክታል
 not-available-abbreviation = ሊገኝ የማይችል
+banner-error-slow-1 = ይቅርታ፥ የጋራ ልሳን በጣም ዘግይቷል። ስለፍላጎቶ እናመሰግናለን።
+banner-error-slow-2 = በጣም ብዙ ትራፊክ እየተቀበልን ስለሆነ በአሁኑ ሰዓት ጉዳዪን በማጣራት ላይ እንገኛለን።
+banner-error-slow-link = የሁኔታ ገፅ
+error-something-went-wrong = ይቅርታ፣ የሆነ ችግር ተፈጥሯል
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -339,6 +343,37 @@ browse-file-title = የምስል ፋይል ይጫኑ
 ## ABOUT US
 
 
+## How does it work section
+
+
+## Community Playbook Content
+## What is a language
+
+
+## How do I add a language
+
+
+## How does localization work
+
+
+## How to add sentences
+
+
+## How to record quality
+
+
+## How to grow language
+
+
+## How to validate
+
+
+## How to access dataset
+
+
+## How are decisions made
+
+
 ## Glossary
 
 
@@ -369,6 +404,9 @@ terms-disagree = አልስማማም
 
 
 ## Request Language Modal
+
+
+## Request Language Pages
 
 
 ## Languages Overview
@@ -414,4 +452,60 @@ terms-disagree = አልስማማም
 
 
 ## Validation criteria
+
+
+# Don't rename the following section, its contents are auto-inserted based on the name. These strings are
+# automatically exported from Sentence Collector.
+# [SentenceCollector]
+
+
+## HEADER/FOOTER
+
+
+## HOME
+
+
+## GENERAL
+
+
+## HOW-TO
+
+
+## MY SENTENCES
+
+
+## REJECTED
+
+
+## STATS
+
+
+## ADD
+
+
+## ADD LANGUAGE
+
+
+## ADD SENTENCES CONFIRMATION
+
+
+## LANGUAGE INFO
+
+
+## LOGIN
+
+
+## PROFILE
+
+
+## REVIEW CRITERIA
+
+
+## REVIEW
+
+
+## SETTINGS
+
+
+# [/SentenceCollector]
 
