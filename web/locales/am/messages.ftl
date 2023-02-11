@@ -663,12 +663,47 @@ language = ቋንቋ
 # File size in gigabytes
 size = መጠን
 cv-license = ፈቃድ
+audio-format = የድምጽ ቅርጸት
+number-of-voices = የድምፅ ብዛት
+splits = ክፋዮች
+email-to-download = ለማውረድ ኢሜል ያስገቡ
+why-email = <b> ኢሜል ለምን? </b> በውሂብ ስብስቡ ላይ ስለሚደረጉ ለውጦች ወደፊት እርስዎን ማነጋገር ሊያስፈልገን ይችላል ፣ ኢሜል የመገናኛ ነጥብ ይሰጠናል።
+confirm-size = የ <b> { $size } </b> ን ማውረድ ለመጀመር ተዘጋጅቷል
+size-gigabyte = ጊባ
+size-megabyte = ሜባ
+confirm-no-identify = በጋራ ልሳን የውሂብ ስብስብ ውስጥ የተናጋሪዎችን ማንነት ለማወቅ ላለመሞከር <b>ተስማምተዋል</b>
+download-language = { $language }ን አውርድ
+validated-hours = የተረጋገጡ ሰዓቶች
+recorded-hours = የተመዘገቡ ሰዓታት
+whats-inside = በጋራ ልሳን የውሂብ ስብስብ ውስጥ ምን አለ?
+want-dataset-update = አዲስ የጋራ ልሳን የውሂብ ስብስብ ስሪት ስንለቅ ዝማኔዎችን ይፈልጋሉ? ለጋዜጣችን ይመዝገቡ።
+subscribe = ደንበኛ ይሁኑ
+get-started-speech = በንግግር ዕውቅና ይጀምሩ
+other-datasets = ሌሎች የድምጽ ውሂብ ስብስቦች
+feedback-q = ግብረመልስ አለዎት?
+data-other-ted-description = የ TED-LIUM ኮርፐስ የተሰራው ከድምጽ ንግግሮች እና ጽሑፎቻቸው በ TED ድርጣቢያ ላይ ይገኛሉ።
+go-languages-page = ወደ ቋንቋዎች ገጽ ይሂዱ
+ready-to-validate = ዓረፍተ ነገሮችን በማረጋገጥ ለመርዳት ዝግጁ ነዎት?
+more = ተጨማሪ
+close = ዝጋ
+download = አውርድ
+dataset-version = ስሪት
 
 ## Download Modal
 
+download-title = የእርስዎ ማውረድ ተጀምሯል።
+download-helpus = በድምጽ ቴክኖሎጂ ዙሪያ ማህበረሰብ እንድንገነባ ያግዙን፣ በኢሜል እንደተገናኙ ይቆዩ።
+download-form-email =
+    .label = የእርስዎን ኢሜይል ያስገቡ
+    .value = እናመሰግናለን ፣ እንገናኛለን
+download-back = ወደ የጋራ ልሳን ውሂብ ስብስቦች ተመለስ
+download-no = አይ አመሰግናለሁ
 
 ## Contact Modal
 
+contact-title = የአድራሻ ቅጽ
+contact-form-name =
+    .label = ስም
 
 ## Request Language Modal
 
