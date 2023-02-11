@@ -704,18 +704,71 @@ download-no = አይ አመሰግናለሁ
 contact-title = የአድራሻ ቅጽ
 contact-form-name =
     .label = ስም
+contact-form-message =
+    .label = መልዕክት
+contact-required = *ያስፈልጋል
 
 ## Request Language Modal
 
+request-language-title = የቋንቋ ጥያቄ
+request-language-form-language =
+    .label = ቋንቋ
+request-language-success-title = የቋንቋ ጥያቄ በተሳካ ሁኔታ ገብቷል ፣ አመሰግናለሁ።
+select-language = ቋንቋ ይምረጡ ...
+other-language = ሌላ ቋንቋ
 
 ## Request Language Pages
 
 
 ## Languages Overview
 
+language-section-in-progress = በሂደት ላይ
+language-section-launched = ተለቀቀ
+languages-show-more = ተጨማሪ ይመልከቱ
+languages-show-less = ያነሰ ይመልከቱ
+language-meter-in-progress = ሂደት
+language-total-progress = ጠቅላላ
+language-search-input =
+    .placeholder = ፈልግ
+language-speakers = ተናጋሪዎች
+sentences = ዓረፍተ ነገሮች
 
 ## Contribution
 
+action-click = ጠቅ ያድርጉ
+action-tap = ይንኩ
+contribute = ያበርክቱ
+listen = ያዳምጡ
+skip = ዝለል
+shortcuts = አቋራጮች
+clips-with-count-pluralized =
+    { $count ->
+        [one] <bold>{ $count }</bold> ቅንጥብ
+       *[other] <bold>{ $count }</bold> ቅንጥቦች
+    }
+goal-help-recording = የጋራ ልሳን ከዕለታዊ የ{ $goalValue } የመቅጃ ግባችን <goalPercentage></goalPercentage> ላይ እንዲደርስ አግዘዋል!
+goal-help-validation = የጋራ ልሳን ከዕለታዊ የ{ $goalValue } ማረጋገጫ ግባችን <goalPercentage></goalPercentage> ላይ እንዲደርስ አግዘዋል!
+record-cta = መቅዳት ይጀምሩ
+record-platform-not-supported = እናዝናለን ፣ የእርስዎ መድረክ በአሁኑ ጊዜ አይደገፍም።
+record-platform-not-supported-desktop = በዴስክቶፕ መሣሪያዎች ላይ በማውረድ አስተዋፅዖ ማበርከት ይችላሉ…
+record-platform-not-supported-ios-non-safari = በ iOS ላይ ቀረጻን ለማንቃት እባክዎን በ Safari ይቀጥሉ…
+record-must-allow-microphone = የማይክሮፎን መዳረሻን መፍቀድ አለብዎት።
+record-no-mic-found = ምንም ማይክሮፎን አልተገኘም።
+record-error-too-short = ቀረጻው በጣም አጭር ነበር።
+record-error-too-long = ቀረጻው በጣም ረጅም ነበር።
+record-error-too-quiet = ቀረጻው በጣም ጸጥ ያለ ነበር።
+record-cancel = ዳግም መቅረጽን ሰርዝ
+record-instruction = { $actionType } <recordIcon> </recordIcon> ከዚያም ዓረፍተ ነገሩን ጮክ ብለው ያንብቡ
+record-stop-instruction = ሲጨርሱ { $actionType } <stopIcon> </stopIcon>
+record-three-more-instruction = ሶስት ይቀራል!
+record-again-instruction = አሪፍ! <recordIcon> </recordIcon> የሚቀጥለውን ቅንጥብዎን ይመዝግቡ
+record-again-instruction2 = ይቀጥሉ ፣ እንደገና ይቅረጹ <recordIcon> </recordIcon>
+record-last-instruction = <recordIcon></recordIcon> የመጨረሻው!
+share-clip = ቅንጥብዎን ያጋሩ
+share-common-voice = የጋራ ልሳንን ያጋሩ
+review-instruction = አስፈላጊ ከሆነ ቅንጥቦችን ይገምግሙ እና ከንደገና ይቅዱ
+record-submit-tooltip = ዝግጁ ሲሆኑ { $actionType } ያስገቡ
+clips-uploaded = ቅንጥቦች ተጭነዋል
 
 ## Reporting
 
