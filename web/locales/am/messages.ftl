@@ -630,6 +630,10 @@ about-playbook-how-add-sentences-content-4 = የተረጋገጡ ዓረፍተ ነ
 
 ## How to record quality
 
+about-playbook-how-record-quality = ከፍተኛ ጥራት ያለው የድምጽ ቅንጥብ እንዴት መቅረፅ እችላለሁ?
+about-playbook-how-record-content-1 = በተለመደው ድምጽዎ ይናገሩ! እርስዎ የሚናገሩበት መንገድ እዚህ ጋር ተቀባይነት አለው - ያንተን ዘዬ እንዳለ እንፈልጋለን፣ እና የእርስዎን የተለመደ ድምጽ፣ ዘይቤ እና ኢንቶኔሽን እንፈልጋለን።
+about-playbook-how-record-content-2 = በጣም ብዙ የጀርባ ድምጽን ያስወግዱ - እርስዎን ለመስማት ቀላል መሆን አለበት።
+about-playbook-how-record-content-3 = ዓረፍተ ነገሩን በጥንቃቄ ያንብቡ - የተቀይሩ ወይም የተጨመሩ ቃላት አያምልጥዎ።
 
 ## How to grow language
 
