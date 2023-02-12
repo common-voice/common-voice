@@ -1163,6 +1163,7 @@ demo-dashboard-card-body = ለእያንዳንዱ የተለገሰ የድምጽ �
 
 ## Validation criteria
 
+contribution-criteria-nav = መስፈርት
 contribution-criteria-link = የአስተዋጽኦ መስፈርቶችን ይረዱ
 contribution-criteria-page-title = የአስተዋጽኦ መስፈርቶች
 contribution-criteria-page-description = የድምጽ ቅንጥቦችን በሚያዳምጡበት ጊዜ ምን እንደሚፈልጉ ይረዱ እና የድምጽ ቅጂዎችዎንም የበለጠ የበለፀጉ እንዲሆኑ ያግዙ!
@@ -1174,7 +1175,12 @@ contribution-misreadings-description-extended-list-2 = በአንድ ቃል መ�
 contribution-misreadings-description-extended-list-4 = ቀረጻውን በፍጥነት በመቁረጥ የመጨረሻውን ቃል መጨረሻ ማጣት።
 contribution-misreadings-description-extended-list-5 = አንድ ቃል ለማንበብ ብዙ ሙከራዎችን በማድረግ።
 contribution-misreadings-example-1-title = የ Triassic ግዙፍ ዳይኖሰርስ።
+contribution-misreadings-example-2-title = የ Triassic ግዙፍ ዳይኖሰርስ።
+contribution-misreadings-example-2-explanation = [‘ዳይኖሰርስ’ መሆን አለበት]
+contribution-misreadings-example-3-title = የ Triassic ግዙፍ ዳይኖሰርስ።
 contribution-misreadings-example-3-explanation = [ቀረጻው ከመጨረሻው ቃል መጨረሻ በፊት ተቆርጧል]
+contribution-misreadings-example-4-title = የ Triassic ግዙፍ ዳይኖሰርስ። አዎ።
+contribution-misreadings-example-4-explanation = [ከሚያስፈልገው ጽሑፍ የበለጠ ተቀርጿል]
 see-more = <chevron></chevron>ተጨማሪ ይመልከቱ
 see-less = <chevron></chevron>ትንሽ ይመልከቱ
 
