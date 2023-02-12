@@ -1078,9 +1078,29 @@ share-goal = ግቤን አጋራ።
 delete-q = የድምጽ ቅጂዎችዎ እንዲሰረዙ መጠየቅ ይፈልጋሉ ወይንስ በጋራ ልሳን የውሂብ ስብስብ ውስጥ ማስቀመጥ ይመርጣሉ?
 keep = አቆይ
 remove = አስወግድ
+keep-info = ያልታወቁ የድምጽ ቅጂዎችህ በጋራ ልሳን የውሂብ ስብስብ ውስጥ ይቀራሉ። አንዴ መገለጫዎን ከሰረዙ በኋላ ቅጂዎችዎን ከውሂብ ስብስብ ለማስወገድ ጥያቄ ማቅረብ አይችሉም።
+remove-info = የድምጽ ቅጂዎችዎን ከውሂብ ስብስብ ለማስወገድ ያቀረቡትን ጥያቄ እንገመግመዋለን። ጥያቄዎ ተቀባይነት ካገኘ የመረጃ ቋቱን ያወረዱትን እናገኛቸዋለን እና የድምጽ ቅጂዎችዎንም እንዲያስወግዱ እንጠይቃለን።
+why-delete-recordings =
+    የጋራ ልሳን የድምፅ ቅጂዎች በአካዳሚክ፣ አነስተኛ ንግዶች እና የድምጽ ማወቂያ አድናቂዎች እንደ የድምጽ ሞዴሎች ያሉ በይፋ የሚገኙ ሀብቶችን ለማሰልጠን እና ለማሳደግ ያገለግላሉ።
+    
+    ቅጂዎችዎ እንዲሰረዙ ለምን እንደሚፈልጉ ሊነግሩን ይችላሉ?
+profile-form-delete = መገለጫን ሰርዝ
 
 ## Profile Download
 
+download-q = የእርስዎን ውሂብ ማውረድ ይፈልጋሉ?
+download-info = ምን ማውረድ እንደሚፈልጉ ይንገሩን፡-
+download-profile-title = መገለጫ
+download-profile-info = ኢሜይል፣ የተጠቃሚ ስም እና የስነ ሕዝብ አወቃቀር መረጃን ያካትታል፣ ወዲያውኑ ይገኛል።
+download-profile-size = ጥቂት ባይቶች
+download-recordings-title = ቀረፃዎች
+download-recordings-info = mp3s እና ተዛማጅ ዓረፍተ ነገሮችን ያካትታል፣ ለመዘጋጀት የተወሰነ ጊዜ ሊወስድ ይችላል።
+download-recordings-size = በተለምዶ ሜጋባይት
+download-recordings-unavailable = ሌላ ጥያቄ በሂደት ላይ እያለ ቅጂዎችዎን መጠየቅ አይችሉም።
+download-recently-requested = በየ{ $days } ቀረጻዎችዎ ላይ አዲስ ቀረጻ እንዲወስድ መጠየቅ ይችላሉ።
+download-size = መጠን
+download-selected = ተመርጧል
+download-start = የመገለጫ ውሂብ አውርድ
 
 ## Landing
 
