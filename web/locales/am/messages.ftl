@@ -1011,9 +1011,17 @@ validated-clips = የተረጋገጡ ቅንጥቦች
 total-approved = ጠቅላላ የጸደቀ
 overall-accuracy = አጠቃላይ ትክክለኛነት
 set-visibility = የእኔን ታይታነት አዘጋጅ
+visibility-explainer = ይህ ቅንብር የመሪዎች ሰሌዳዎን ታይታነት ይቆጣጠራል። ሲደበቅ፣ እድገትህ ግላዊ ይሆናል። ይህ ማለት የእርስዎ ምስል፣ የተጠቃሚ ስም እና እድገት በመሪዎች ሰሌዳው ላይ አይታይም። የመሪዎች ሰሌዳ እድሳት ለውጦቹን ለመሙላት ~{ $minutes } ደቂቃ እንደሚፈጅ ልብ ይበሉ።
+visibility-overlay-note = ማስታወሻ፡ ወደ 'የሚታይ' ሲዋቀር ይህ ቅንብር ከ<profileLink>የመገለጫ ገጽ</profileLink> ሊቀየር ይችላል።
+show-ranking = ደረጃዬን አሳይ
 
 ## Custom Goals
 
+get-started-goals = በግብ ጀምር
+create-custom-goal = ብጁ ግብ ፍጠር
+goal-type = ምን ዓይነት ግብ መገንባት ይፈልጋሉ?
+both-speak-and-listen = ሁለቱም
+both-speak-and-listen-long = ሁለቱም (ይናገሩ እና ያዳምጡ)
 
 ## Profile Delete
 
