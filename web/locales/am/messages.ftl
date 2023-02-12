@@ -647,9 +647,13 @@ about-playbook-how-grow-language-content-4 = ማህበራዊ ሚዲያ
 about-playbook-how-grow-language-content-5 = መልእክቱን ለማውጣት የማህበራዊ ሚዲያ መድረኮችን መጠቀም ይችላሉ። ለምን እንደሚያስፈልግ የሚገልጹ ልጥፎችን ያጋሩ እና እንደ ቋንቋ መብቶች፣ የድምጽ አስተውሎቶች ወይም የቴክኖሎጂ አድሎአዊ ጉዳዮችን ከሌሎች ሰዎች ጋር ይገናኙ። እንደገና ሊጠቀሙበት የሚችሉትን ይዘት ጨምሮ <campaignLink>ማህበራዊ ዘመቻ ማካሄድ ላይ ተጨማሪ ምክር ይመልከቱ</campaignLink>።
 about-playbook-how-grow-language-content-6 = ሽርክናዎች እና አውታረ መረቦች
 about-playbook-how-grow-language-content-7 = የሚመለከታቸው ሌሎችን ያግኙ።  ዩኒቨርሲቲዎች፣ የቋንቋ ትምህርት ቤቶች፣ የጥብቅና ቡድኖች ወይም የውሂብ ሳይንስ ማህበረሰቦች ሊሆኑ ይችላሉ። እንዴት ሊረዱ እንደሚችሉ እና ለምን እንደሆነ ይድረሱ እና በግልፅ ያብራሩ። <outreachTemplates>የእኛን የአብነት ስምሪት ኢሜይሎች ይመልከቱ</outreachTemplates>።
+about-playbook-how-grow-language-content-8 = <strong>ፈጠራ ፍጠር!</strong> የቋንቋዎ ማህበረሰብህ ልዩ ይሆናል፣ እና እነዚህ ለመጀመር ጥቂት መንገዶች ናቸው።
 
 ## How to validate
 
+about-playbook-how-validate = የድምጽ ቅንጥብ ማጽደቅን እንዴት አውቃለሁ?
+about-playbook-how-validate-content-1 = እርስዎ <strong>ለመስማት</strong>እና <strong>መረዳት</strong>ከቻሉ፣ አብዛኛው ጊዜ <strong>ማጽደቅ</strong> የተሻለ ነው።
+about-playbook-how-validate-content-2 = <strong>የተናጋሪው ‘አነጋገር ዘዬ’ ከእርስዎ የተለየ</strong> ቢሆንም ቅንጥቦችን እንዳይተው - ይህ ለሁሉም ሰው የድምጽ ማወቂያ በተሻለ ሁኔታ እንዲሰራ አስፈላጊ ነው።
 
 ## How to access dataset
 
