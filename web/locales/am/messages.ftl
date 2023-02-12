@@ -1033,6 +1033,18 @@ want-to-continue = መቀጠል ይፈልጋሉ?
 finish-editing = መጀመሪያ አርትኦት ይጨርሱ?
 lose-changes-warning = አሁን መተው ማለት ለውጦችዎን ያጣሉ ማለት ነው።
 build-custom-goal = ብጁ ግብ ይገንቡ
+help-reach-hours-pluralized =
+    { NUMBER($hours) ->
+        [one] ከግል ግብ ጋር በ{ $language } ውስጥ { $hours } ሰዓት ለመድረስ ያግዙ
+       *[other] ከግል ግብ ጋር በ{ $language } ውስጥ { $hours } ሰዓቶችን ለመድረስ ያግዙ
+    }
+help-reach-hours-general-pluralized =
+    { NUMBER($hours) ->
+        [one] የጋራ ልሳን ግላዊ ግብ ባለው ቋንቋ { $hours } ሰዓት እንዲደርስ ይርዱ
+       *[other] የጋራ ልሳን ግላዊ ግብ ባለው ቋንቋ { $hours } ሰዓቶችን እንዲደርስ ይርዱ
+    }
+set-a-goal = ግብ አዘጋጅ
+cant-decide = መወሰን አልቻሉም?
 
 ## Profile Delete
 
