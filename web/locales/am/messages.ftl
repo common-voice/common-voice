@@ -1430,9 +1430,47 @@ sc-review-form-usage = ዓረፍተ ነገሩን ለማጽደቅ ወደ ቀኝ �
 sc-review-form-source = ምንጭ፡ { $sentenceSource }
 sc-review-form-button-reject = ውድቅ አድርግ
 sc-review-form-button-skip = ዝለል
+sc-review-form-button-approve = አጽድቅ
+# Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
+sc-review-form-button-approve-shortcut = ዓ
+# Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
+sc-review-form-button-reject-shortcut = ኖ
+# Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
+sc-review-form-button-skip-shortcut = ቅ
+sc-review-form-button-submit =
+    .submitText = ግምገማን ጨርስ
+# Variables:
+#   $sentences (Number) - Number of sentences the user has reviewed in this session
+sc-review-form-reviewed-message =
+    { $sentences ->
+        [0] ምንም ዓረፍተ ነገር አልተገመገመም።
+        [one] 1 ዓረፍተ ነገር ተገምግሟል። አመሰግናለሁ!
+       *[other] { $sentences } ዓረፍተ ነገሮች ተገምግመዋል። አመሰግናለሁ!
+    }
+sc-review-form-review-failure = ግምገማ ሊቀመጥ አልቻለም። እባክዎ ቆየት ብለው ይሞክሩ።
+sc-review-link = ይገምግሙ
 
 ## SETTINGS
 
+sc-settings-title = ቅንብሮች
+sc-settings-ui-language = የበይነገጽ ቋንቋ
+sc-settings-reset-skipped = የተዘለሉ ዓረፍተ ነገሮችን ዳግም ያስጀምሩ
+sc-settings-skipped-decription = ከዚህ ቀደም በሚገመግሙበት ጊዜ ዓረፍተ ነገሮችን ዘለከው ነበር። የተዘለሉ ዓረፍተ ነገሮችን ዳግም ማስጀመር ሁሉንም የተዘለሉ ዓረፍተ ነገሮችን እንደገና ያሳያል። ይህ ከቋንቋው ነፃ ነው።
+sc-settings-show-all-button = ሁሉንም የተዘለሉ ዓረፍተ ነገሮችን እንደገና አሳይ
+sc-settings-failed = ቅንብሮችን መቀየር አልተቻለም። እባክዎ ዳግም ይሞክሩ።
+# VALIDATION
+sc-validation-number-of-words = ዓረፍተ ነገሩ በ1 እና 14 (ያካተተ) ቃላት መካከል መያዝ አለበት።
+sc-validation-no-numbers = ዓረፍተ ነገሩ ቁጥሮችን መያዝ የለበትም
+sc-validation-no-symbols = ዓረፍተ ነገሩ ምልክቶችን መያዝ የለበትም
+sc-validation-no-abbreviations = ዓረፍተ ነገሩ ምህጻረ ቃላትን መያዝ የለበትም
 
 # [/SentenceCollector]
 
+localization-select =
+    .label = ቋንቋ/አካባቢን ምረጥ
+# PARTNERSHIPS PAGE
+partnerships-header = ሽርክናዎች
+partnerships-header-text = የጋራ ልሳን እንዲከሰት ለማድረግ ብዙ ያስፈልጋል! ብቻችንን አናደርገውም። ከእኛ ጋር አጋር መሆን ይፈልጋሉ? ከእርስዎ መስማት እንፈልጋለን።
+partnerships-get-in-touch = ተገናኝ
+partnerships-become-a-partner = የጋራ ልሳን አጋር ይሁኑ
+partnerships-community-header = ማህበረሰብ, ፈጠራዎች እና ሲቪል ማህበረሰብ
