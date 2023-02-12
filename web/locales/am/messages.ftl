@@ -596,9 +596,26 @@ about-playbook-how-add-language-content-1 =
     በመጀመሪያ ቋንቋህ <languageLink>ቀድሞውንም መኖሩን</languageLink> አረጋግጥ።
     ካልሆነ፣ ቋንቋዎን ስለማከል <languageRequestLink>ለመጠየቅ</languageRequestLink> ይችላሉ።
     ሁለት ደረጃዎች አሉ. ድህረ ገጹን መተርጎም, እና ዓረፍተ ነገሮችን መሰብሰብ
+about-playbook-how-add-language-translating-heading = ድህረ ገፁን መተርጎም
+about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Pontoonን እንዴት መጠቀም እንዳለብዎ መመሪያችንን ይመልከቱ።</translateVideoLink>
+about-playbook-how-add-language-translating-content-2 =
+    ለትርጉሞች <pontoonLink>ፖንቶን</pontoonLink> የሚባል የሞዚላ መሳሪያ እንጠቀማለን። ፖንቶን ብዙ ቋንቋዎች አሉት
+    ግን ያንተ ከሌለው <pontoonRequestLink>ቋንቋህ እንዲታከል መጠይቅ</pontoonRequestLink> ትችላለህ።
+    ከዚያም ቋንቋውን በጋራ ልሳን ፕሮጀክት ላይ እንዲገኝ ለማድረግ፣
+    <githubRepoLink>አዲሱን ቋንቋ GitHub ላይ ጠይቅ</githubRepoLink>። <localizationFragment>በድህረገፅ ትርጉም ላይ ተጨማሪ ይመልከቱ</localizationFragment>።
+about-playbook-how-add-language-collecting-sentences-heading = ዓረፍተ ነገሮችን መሰብሰብ
+about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>ዓረፍተ ነገር መሰብሳቢውን ስለመጠቀም መመሪያችንን ይመልከቱ</sentenceCollectorVideo>።
+about-playbook-how-add-language-collecting-sentences-content-2 =
+    <sentenceCollectorLinkAdd>ትንንሽ የዓረፍተ ነገር ቁጥሮች ማከል ይችላሉ</sentenceCollectorLinkAdd>፣
+    ወይም Github</bulkImportDocsLink>ን በመጠቀም <bulkImportDocsLink>በጅምላ ለማስገባት ይችላሉ።
+    ያስታውሱ ዓረፍተ ነገሮች <licenseLink>CC0 (ወይም ይፋዊ ጎራ)</licenseLink> መሆን አለባቸው ወይም የራስዎን መጻፍ ይችላሉ።
+about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>በዓረፍተ ነገር መሰብሰብ ላይ የበለጠ ይመልከቱ</sentenceCollectorFragment>።
 
 ## How does localization work
 
+about-playbook-how-localize = የጣቢያ አካባቢያዊነት እንዴት ነው የሚሰራው?
+about-playbook-how-localize-content-1 = የጋራ ልሳን ጣቢያ ትርጉም በ<strong>ፖንቶን</strong> ላይ ይከሰታል።
+about-playbook-how-localize-content-2 = ከሌልዎት <pontoonAccountLink>መለያ ይፍጠሩ</pontoonAccountLink>። በመቀጠል የቋንቋዎን <strong>('ቡድን') ይምረጡ እና ፕሮጀክቱን <pontoonCvLink>የጋራ ልሳን</pontoonCvLink>ን ይምረጡ። የሚተረጎሙ ፋይሎች ይኖራሉ። አንዱን ጠቅ ያድርጉ፣ ከዚያ በእንግሊዝኛ ቃላትን እና እነሱን ለመተርጎም ሳጥን ያሳያል።
 
 ## How to add sentences
 
