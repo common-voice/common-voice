@@ -868,6 +868,7 @@ request-language-error =
 language-section-in-progress = በሂደት ላይ
 language-section-in-progress-new-description = እነዚህ ቋንቋዎች በአሁኑ ጊዜ በማህበረሰብ ልማት ላይ ናቸው። <localizationGlossaryLink>የድረ-ገጽ አካባቢያዊነት</localizationGlossaryLink> እና አረፍተ-ነገር ስብሰባ</sentenceCollectionGlossaryLink> ለማስጀመር ያስፈልጋል።
 language-section-launched = ተለቀቀ
+language-section-launched-description = ለእነዚህ ለጀመሩ ቋንቋዎች ድህረ ገጹ በተሳካ ሁኔታ <localizationGlossaryLink>አካባቢያዊ</localizationGlossaryLink> እና በቂ <sentenceCollectionGlossaryLink>የተሰበሰበ ዓረፍተ ነገር አለው</sentenceCollectionGlossaryLink> ቀጣይነት ያለው <speakLink>ንግግር</speakLink> እና ማደመጥ አስተዋፆ ለማስጀመር።
 languages-show-more = ተጨማሪ ይመልከቱ
 languages-show-less = ያነሰ ይመልከቱ
 language-meter-in-progress = ሂደት
@@ -875,7 +876,10 @@ language-total-progress = ጠቅላላ
 language-search-input =
     .placeholder = ፈልግ
 language-speakers = ተናጋሪዎች
+localized = አካባቢያዊ የተደረገ
 sentences = ዓረፍተ ነገሮች
+language-validation-hours = ሰዓታት
+language-validation-progress = የማረጋገጫ ሂደት
 
 ## Contribution
 
@@ -892,6 +896,11 @@ clips-with-count-pluralized =
     }
 goal-help-recording = የጋራ ልሳን ከዕለታዊ የ{ $goalValue } የመቅጃ ግባችን <goalPercentage></goalPercentage> ላይ እንዲደርስ አግዘዋል!
 goal-help-validation = የጋራ ልሳን ከዕለታዊ የ{ $goalValue } ማረጋገጫ ግባችን <goalPercentage></goalPercentage> ላይ እንዲደርስ አግዘዋል!
+contribute-more =
+    { $count ->
+        [one] { "" }
+       *[other] ተጨማሪ { $count } ለማድረግ ዝግጁ ነዎት?
+    }
 record-cta = መቅዳት ይጀምሩ
 record-platform-not-supported = እናዝናለን ፣ የእርስዎ መድረክ በአሁኑ ጊዜ አይደገፍም።
 record-platform-not-supported-desktop = በዴስክቶፕ መሣሪያዎች ላይ በማውረድ አስተዋፅዖ ማበርከት ይችላሉ…
@@ -908,16 +917,20 @@ record-three-more-instruction = ሶስት ይቀራል!
 record-again-instruction = አሪፍ! <recordIcon> </recordIcon> የሚቀጥለውን ቅንጥብዎን ይመዝግቡ
 record-again-instruction2 = ይቀጥሉ ፣ እንደገና ይቅረጹ <recordIcon> </recordIcon>
 record-last-instruction = <recordIcon></recordIcon> የመጨረሻው!
+review-tooltip = ሲሄዱ እዚህ ቅንጥቦችን ይገምግሙ እና እንደገና ይቅዱ
 share-clip = ቅንጥብዎን ያጋሩ
 share-common-voice = የጋራ ልሳንን ያጋሩ
 review-instruction = አስፈላጊ ከሆነ ቅንጥቦችን ይገምግሙ እና ከንደገና ይቅዱ
 record-submit-tooltip = ዝግጁ ሲሆኑ { $actionType } ያስገቡ
 clips-uploaded = ቅንጥቦች ተጭነዋል
+record-abort-title = መጀመሪያ መቅዳት ይጨርስ?
 record-abort-text = አሁን መውጣት ማለት ያሉበትን ደረጃ ያጣሉ ማለት ነው።
 record-abort-continue = ቀረጻን ጨርስ
 record-abort-delete = ውጣ እና ቅንጥቦችን ሰርዝ
 listen-instruction = { $actionType } <playIcon> </playIcon> ዓረፍተ ነገሩን በትክክል ተናገሩ?
 listen-again-instruction = ምርጥ ሥራ! <playIcon> </playIcon> ዝግጁ ሲሆኑ እንደገና ያዳምጡ
+listen-3rd-time-instruction = 2 አልቋል፣ ቀጥልበት!<playIcon></playIcon>
+listen-last-time-instruction = <playIcon></playIcon>የመጨረሻው!
 
 ## Reporting
 
