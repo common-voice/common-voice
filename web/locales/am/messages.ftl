@@ -1049,9 +1049,35 @@ how-many-per-day = በጣም ጥሩ! በቀን ስንት ቅንጥቦች?
 how-many-a-week = በጣም ጥሩ! በሳምንት ስንት ቅንጥቦች?
 which-goal-type = መናገር፣ ማዳመጥ ይፈልጋሉ ወይስ ሁለቱንም?
 receiving-emails-info = እንደ የአላማ ማስታወሻ፣ ስለራሴ የለውጥ ሂደቶች እና ስለ የጋራ ልሳኖች አጫጭር ዜናዎች፤ የኢሜይል መልእክቶችን ለመቀበል ተፈቅዷል።
+not-receiving-emails-info = በአሁኑ ጊዜ እንደ ግብ አስታዋሾች፣ የእኔ የመሳሰሉ ኢሜይሎችን፣ ስለ የጋራ ልሳን የሂደት ዝመናዎች እና ጋዜጣዎች <bold>እንዳይቀበሉ</bold>ተደርገዋል።
+n-clips-pluralized =
+    { NUMBER($count) ->
+        [one] ቅንጥብ
+       *[other] ቅንጥቦች
+    }
+help-share-goal = ተጨማሪ ድምጾችን እንድናገኝ ይርዱን፣ ግብዎን ያጋሩ
+confirm-goal = ግብ ያረጋግጡ
+goal-interval-weekly = ሳምንታዊ
+# $type is one of share-goal-type-*
+share-n-daily-contribution-goal = የእርስዎን { $count } ቅንጥብ ዕለታዊ ግብ ለ{ $type } ያጋሩ
+# $type is one of share-goal-type-*
+share-n-weekly-contribution-goal = የእርስዎን { $count } ቅንጥብ ሳምንታዊ ግብ ለ{ $type } ያጋሩ
+share-goal-type-speak = በመናገር ላይ
+share-goal-type-listen = በማድመጥ ላይ
+share-goal-type-both = በመናገር እና በማዳመጥ ላይ
+# LINK will be replaced with the current URL
+goal-share-text = ለድምጽ ልገሳ የግል ግብ ለ #CommonVoice ፈጠሪያለሁ -- እባክዎ ተቀላቀሉኝ እና ማሽኖቹን ሰዎች እንዴት እንደሚናገሩ አስተምሩ { $link }
+weekly-goal-created = ሳምንታዊ ግብዎ ተፈጥሯል።
+daily-goal-created = ዕለታዊ ግብዎ ተፈጥሯል።
+track-progress = ግስጋሴውን እዚህ እና በስታቲስቲክስ ገጽዎ ላይ ይከታተሉ።
+return-to-edit-goal = ግብዎን በማንኛውም ጊዜ ለማርትዕ ወደዚህ ይመለሱ።
+share-goal = ግቤን አጋራ።
 
 ## Profile Delete
 
+delete-q = የድምጽ ቅጂዎችዎ እንዲሰረዙ መጠየቅ ይፈልጋሉ ወይንስ በጋራ ልሳን የውሂብ ስብስብ ውስጥ ማስቀመጥ ይመርጣሉ?
+keep = አቆይ
+remove = አስወግድ
 
 ## Profile Download
 
