@@ -925,15 +925,35 @@ record-submit-tooltip = ዝግጁ ሲሆኑ { $actionType } ያስገቡ
 clips-uploaded = ቅንጥቦች ተጭነዋል
 record-abort-title = መጀመሪያ መቅዳት ይጨርስ?
 record-abort-text = አሁን መውጣት ማለት ያሉበትን ደረጃ ያጣሉ ማለት ነው።
+record-abort-submit = ቅንጥቦችን አስገባ
 record-abort-continue = ቀረጻን ጨርስ
 record-abort-delete = ውጣ እና ቅንጥቦችን ሰርዝ
 listen-instruction = { $actionType } <playIcon> </playIcon> ዓረፍተ ነገሩን በትክክል ተናገሩ?
 listen-again-instruction = ምርጥ ሥራ! <playIcon> </playIcon> ዝግጁ ሲሆኑ እንደገና ያዳምጡ
 listen-3rd-time-instruction = 2 አልቋል፣ ቀጥልበት!<playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon>የመጨረሻው!
+listen-empty-state = ቅንጥቦች አልቆብን ይሆናል - ገጹን ያድሱ ወይም ቆይተው እንደገና ይሞክሩ።
+listen-loading-error =
+    ለማዳመጥ ምንም የድምጽ ቅንጥቦችን ማግኘት አልቻልንም።
+    እባክዎ ቆየት ብለው ይሞክሩ።
+speak-empty-state = በዚህ ቋንቋ ለመቅዳት ዓረፍተ ነገር አልቆብናል...
+speak-empty-state-cta = ዓረፍተ ነገሮችን አበርክቱ
+speak-loading-error =
+    እንድትናገሩ ምንም ዓረፍተ ነገር ልናገኝ አልቻልንም።
+    እባክዎ ቆየት ብለው ይሞክሩ።
+record-button-label = ድምጽዎን ይቅረጹ
+share-title-new = ተጨማሪ ድምጾችን እንድናገኝ <bold>ያግዙን</bold>
+keep-track-profile = ሂደትዎን በመገለጫ ይከታተሉ
+login-to-get-started = ለመጀመር ይግቡ ወይም ይመዝገቡ
+target-segment-first-card = ለመጀመሪያው የዒላማ ክፍላችን አስተዋጽዖ እያበረከቱ ነው።
+target-segment-generic-card = ለታለመው ክፍል አስተዋጽዖ እያደረጉ ነው።
+target-segment-first-banner = በ{ $locale } ውስጥ የጋራ ልሳንን የመጀመሪያ ዒላማ ክፍል ለመፍጠር ያግዙ
+target-segment-add-voice = ድምጽዎን ይጨምሩ
 
 ## Reporting
 
+report = ሪፖርት ያድርጉ
+report-ask = በዚህ ዓረፍተ ነገር ምን ችግሮች እያጋጠምዎት ነው?
 
 ## Goals
 
