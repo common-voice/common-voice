@@ -1022,6 +1022,17 @@ create-custom-goal = ብጁ ግብ ፍጠር
 goal-type = ምን ዓይነት ግብ መገንባት ይፈልጋሉ?
 both-speak-and-listen = ሁለቱም
 both-speak-and-listen-long = ሁለቱም (ይናገሩ እና ያዳምጡ)
+daily-goal = ዕለታዊ ግብ
+weekly-goal = ሳምንታዊ ግብ
+easy-difficulty = ቀላል
+average-difficulty = አማካይ
+difficult-difficulty = አስቸጋሪ
+pro-difficulty = ፕሮ
+lose-goal-progress-warning = ግብዎት ላይ አርትኦት ከፈፀሙ፣ ያለዎትን ሂደት ሊያጡ ይችላሉ።
+want-to-continue = መቀጠል ይፈልጋሉ?
+finish-editing = መጀመሪያ አርትኦት ይጨርሱ?
+lose-changes-warning = አሁን መተው ማለት ለውጦችዎን ያጣሉ ማለት ነው።
+build-custom-goal = ብጁ ግብ ይገንቡ
 
 ## Profile Delete
 
