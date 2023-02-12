@@ -1168,6 +1168,11 @@ contribution-criteria-page-title = የአስተዋጽኦ መስፈርቶች
 contribution-criteria-page-description = የድምጽ ቅንጥቦችን በሚያዳምጡበት ጊዜ ምን እንደሚፈልጉ ይረዱ እና የድምጽ ቅጂዎችዎንም የበለጠ የበለፀጉ እንዲሆኑ ያግዙ!
 contribution-for-example = ለምሳሌ
 contribution-misreadings-title = የተሳሳተ ንባብ
+contribution-misreadings-description = በሚያዳምጡበት ጊዜ, የተቀዳው በትክክል የተጻፈው መሆኑን በጥንቃቄ ያረጋግጡ፣ ጥቃቅን ስህተቶች እንኳን ሳይቀር ውድቅ ያድርጉ።<br /> በጣም የተለመዱ ስህተቶች የሚከተሉትን ያካትታሉ:
+contribution-misreadings-description-extended-list-1 = በቀረጻው መጀመሪያ ላይ <strong>'A'</strong> ወይም <strong>'The'</strong> ይጎድላል።
+contribution-misreadings-description-extended-list-2 = በአንድ ቃል መጨረሻ ላይ <strong>s</strong> ይጎድላል።
+contribution-misreadings-description-extended-list-4 = ቀረጻውን በፍጥነት በመቁረጥ የመጨረሻውን ቃል መጨረሻ ማጣት።
+contribution-misreadings-description-extended-list-5 = አንድ ቃል ለማንበብ ብዙ ሙከራዎችን በማድረግ።
 
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
