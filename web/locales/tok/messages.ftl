@@ -762,6 +762,8 @@ close = o pini
 download = o kama jo
 dataset-version = nanpa
 sha256-checksum-copied = sina kama jo e nanpa pi nasin SHA256!
+sha256-checksum-copied-error = pakala la sina kama ala jo e nanpa pi nasin SHA256
+clipboard-not-supported = sina ken ala kama jo e sitelen.
 
 ## Download Modal
 
@@ -1495,3 +1497,5 @@ sc-validation-no-abbreviations = o kepeken ala sitelen lili lon sitelen sina.
 
 localization-select =
     .label = o kepeken toki
+# PARTNERSHIPS PAGE
+partnerships-header = kulupu poka
