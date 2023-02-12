@@ -18,6 +18,12 @@ banner-error-slow-1 = mi pakala. ilo Common Voice li pakala lili. sina pona tan 
 banner-error-slow-2 = jan mute li kama tawa ilo. mi alasa sona e pakala.
 banner-error-slow-link = ilo li pilin seme?
 error-something-went-wrong = ijo li pakala.
+error-clip-upload =
+    mi ken ala pana e kalama sina.
+    mi o awen alasa pana e ona anu seme?
+error-clip-upload-server =
+    mi awen ken ala pana.
+    o sin e lipu ni, anu kama sin lon tenpo kama.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
