@@ -654,15 +654,36 @@ about-playbook-how-grow-language-content-8 = <strong>ፈጠራ ፍጠር!</stron
 about-playbook-how-validate = የድምጽ ቅንጥብ ማጽደቅን እንዴት አውቃለሁ?
 about-playbook-how-validate-content-1 = እርስዎ <strong>ለመስማት</strong>እና <strong>መረዳት</strong>ከቻሉ፣ አብዛኛው ጊዜ <strong>ማጽደቅ</strong> የተሻለ ነው።
 about-playbook-how-validate-content-2 = <strong>የተናጋሪው ‘አነጋገር ዘዬ’ ከእርስዎ የተለየ</strong> ቢሆንም ቅንጥቦችን እንዳይተው - ይህ ለሁሉም ሰው የድምጽ ማወቂያ በተሻለ ሁኔታ እንዲሰራ አስፈላጊ ነው።
+about-playbook-how-validate-content-3 = አጠራሩ ለመረዳት የማይቻል ያደርገዋል ብለው ካሰቡ ወይም ብዙ የጀርባ ጫጫታ አለ ወይም ደግሞ ሌሎች የሚናገሩት</strong>ሰዎች ካሉ እርስዎ ቅንጥቡን ውድቅ ማድረግ አለቦት። <accuracyLink>በእኛ ትክክለኛነት መስፈርት ውስጥ ተጨማሪ መረጃ ይመልከቱ</accuracyLink>።
+about-playbook-how-validate-content-4 = ቅንጥቡ በ2 ሰዎች ውድቅ ከተደረገ፣ በተለየ የውሂብ ስብስብ ውስጥ ይለቀቃል።
 
 ## How to access dataset
 
+about-playbook-how-access-dataset = የመረጃ ውሂቡን እንዴት ማግኘት እና መጠቀም እችላለሁ?
+about-playbook-how-access-dataset-content-1 = ወደ <datasetspage>የውሂብ ስብስቦች ገጽ</datasetsPage> በመሄድ የሚፈልጉትን ስሪት እና ቋንቋ(ዎች) ይምረጡ እና ያውርዱት! ፋይሎቹ እንደ የስነሕዝብ መረጃ እና የማረጋገጫ ውሂብ ያሉ <metadataLink>የተጎዳኘ ሜታዳታ</metadataLink> አላቸው። የመረጃ ቋቱን ለማውረድ የኢሜል አድራሻ ማቅረብ ያስፈልግዎታል።
+about-playbook-how-access-dataset-content-2 = የ ድምፅ ማወቂያ ሞዴሎችን ለመገንባት መሳሪያዎችን እየፈለጉ ከሆነ ከማህበረሰቡ ጋር ከሌሎች ሰዎች ጋር መገናኘት ይችላሉ <discourseLink> በ Disccourse</discourseLink>።
 
 ## How are decisions made
 
+about-playbook-how-project-governance = የፕሮጀክት ውሳኔዎች እንዴት ይደረጋሉ?
+about-playbook-how-project-governance-content-1 = የሞዚላ የጋራ ላሳን በተለያዩ የአክቲቪስቶች፣ የቋንቋ ሊቃውንት፣ የውሂብ ሳይንቲስቶች፣ ምሁራን እና የሶፍትዌር መሐንዲሶች ከተለያዩ የዓለም ክፍሎች የተገኘ ነው። ፕሮጀክቱ በሞዚላ ፋውንዴሽን የሚመራ ነው።
+about-playbook-how-project-governance-content-2 = የእኛ አስተዳደር በሚከተሉት ምሰሶዎች ላይ የተመሰረተ ነው÷
+about-playbook-how-project-governance-content-3 = ግላዊነት ፣ ደህንነት እና ግልፅነት።
+about-playbook-how-project-governance-content-4 = የማህበረሰብ ተሳትፎ እና ውሳኔ አሰጣጥ።
+about-playbook-how-project-governance-content-5 = ዋጋ እና እውቅና።
+about-playbook-how-project-governance-content-6 = የጋራ ተጠያቂነት።
+about-playbook-how-project-governance-content-7 = <governanceLink>እንዴት እንደምንመራ የበለጠ ያንብቡ</ governanceLink>
 
 ## Glossary
 
+glossary = መዝገበ ቃላት
+localization = አካባቢያዊነት
+localization-explanation = ይህ ይዘታችንን ለብዙ አከባቢዎች (ቋንቋዎች) ለመተርጎም እና ለማስተካከል የእኛ ሂደት ነው።
+sentence-collection = የአረፍተ ነገር ስብሰባ
+sentence-collection-explanation = ዓረፍተ ነገሮችን ከሕዝብ ጎራ መሰብሰብ፣ ወይም ለሕዝብ ጎራ አዲስ መጻፍ።
+hours-recorded-explanation = እስካሁን የሰበሰብናቸው የድምጽ ቀረጻ ሰዓቶች ብዛት።
+hours-validated-explanation = በ"አዎ" ድምጽ በ2 ከ3 ተጠቃሚዎች የተረጋገጠ የድምጽ ቀረጻ ሰዓቶች ብዛት። እነዚህ የ10ሺህ ሰአታት ግብ ወደ አጠቃላይ ፕሮጀክቱ እድገት ያመለክታሉ።
+sst = ንግግር-ወደ-ጽሑፍ (STT)
 
 ## Error pages
 
