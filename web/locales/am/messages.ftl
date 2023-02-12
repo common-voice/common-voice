@@ -980,9 +980,24 @@ days =
         [one] Day
        *[other] Days
     }
+recordings =
+    { $count ->
+        [one] ቀረፃ
+       *[other] ቀረፃዎች
+    }
+validations =
+    { $count ->
+        [one] ማረጋገጫ
+       *[other] ማረጋገጫዎች
+    }
 
 ## Dashboard
 
+your-languages = የእርስዎ ቋንቋዎች
+toward-next-goal = ወደ ቀጣዩ ግብ
+goal-reached = ግብ ላይ ደርሷል
+clips-you-recorded = የቀረጿቸው ቅንጥቦች
+clips-you-validated = ያረጋገጡዋቸው ቅንጥቦች
 
 ## Custom Goals
 
