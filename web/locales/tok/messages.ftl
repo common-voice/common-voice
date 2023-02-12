@@ -210,6 +210,7 @@ zh-CN = toki Sonko
 zh-HK = toki Onkon
 zh-TW = toki Tawan
 zu = toki Sulu
+zza = toki Sasa
 
 # [/]
 
@@ -221,6 +222,7 @@ speak-now = o toki uta
 datasets = kulupu kalama
 languages = toki
 about = sona
+partner = kulupu poka
 profile = lipu jan
 help = o pona e mi
 contact = o toki tawa lawa
