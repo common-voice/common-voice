@@ -1045,6 +1045,67 @@ help-reach-hours-general-pluralized =
     }
 set-a-goal = ግብ አዘጋጅ
 cant-decide = መወሰን አልቻሉም?
+activity-needed-calculation-plural =
+    { NUMBER($totalHours) ->
+        [one]
+            { NUMBER($periodMonths) ->
+                [one]
+                    { NUMBER($people) ->
+                        [one]
+                            { NUMBER($clipsPerDay) ->
+                                [one] { $totalHours } hour is achievable in just over { $periodMonths } month if { $people } person record { $clipsPerDay } clip a day.
+                               *[other] { $totalHours } hour is achievable in just over { $periodMonths } month if { $people } person record { $clipsPerDay } clips a day.
+                            }
+                       *[other]
+                            { NUMBER($clipsPerDay) ->
+                                [one] { $totalHours } hour is achievable in just over { $periodMonths } month if { $people } people record { $clipsPerDay } clip a day.
+                               *[other] { $totalHours } hour is achievable in just over { $periodMonths } month if { $people } people record { $clipsPerDay } clips a day.
+                            }
+                    }
+               *[other]
+                    { NUMBER($people) ->
+                        [one]
+                            { NUMBER($clipsPerDay) ->
+                                [one] { $totalHours } hour is achievable in just over { $periodMonths } months if { $people } person record { $clipsPerDay } clip a day.
+                               *[other] { $totalHours } hour is achievable in just over { $periodMonths } months if { $people } person record { $clipsPerDay } clips a day.
+                            }
+                       *[other]
+                            { NUMBER($clipsPerDay) ->
+                                [one] { $totalHours } hour is achievable in just over { $periodMonths } months if { $people } people record { $clipsPerDay } clip a day.
+                               *[other] { $totalHours } hour is achievable in just over { $periodMonths } months if { $people } people record { $clipsPerDay } clips a day.
+                            }
+                    }
+            }
+       *[other]
+            { NUMBER($periodMonths) ->
+                [one]
+                    { NUMBER($people) ->
+                        [one]
+                            { NUMBER($clipsPerDay) ->
+                                [one] { $totalHours } hours is achievable in just over { $periodMonths } month if { $people } person record { $clipsPerDay } clip a day.
+                               *[other] { $totalHours } hours is achievable in just over { $periodMonths } month if { $people } person record { $clipsPerDay } clips a day.
+                            }
+                       *[other]
+                            { NUMBER($clipsPerDay) ->
+                                [one] { $totalHours } hours is achievable in just over { $periodMonths } month if { $people } people record { $clipsPerDay } clip a day.
+                               *[other] { $totalHours } hours is achievable in just over { $periodMonths } month if { $people } people record { $clipsPerDay } clips a day.
+                            }
+                    }
+               *[other]
+                    { NUMBER($people) ->
+                        [one]
+                            { NUMBER($clipsPerDay) ->
+                                [one] { $totalHours } hours is achievable in just over { $periodMonths } months if { $people } person record { $clipsPerDay } clip a day.
+                               *[other] { $totalHours } hours is achievable in just over { $periodMonths } months if { $people } person record { $clipsPerDay } clips a day.
+                            }
+                       *[other]
+                            { NUMBER($clipsPerDay) ->
+                                [one] { $totalHours } hours is achievable in just over { $periodMonths } months if { $people } people record { $clipsPerDay } clip a day.
+                               *[other] { $totalHours } hours is achievable in just over { $periodMonths } months if { $people } people record { $clipsPerDay } clips a day.
+                            }
+                    }
+            }
+    }
 how-many-per-day = በጣም ጥሩ! በቀን ስንት ቅንጥቦች?
 how-many-a-week = በጣም ጥሩ! በሳምንት ስንት ቅንጥቦች?
 which-goal-type = መናገር፣ ማዳመጥ ይፈልጋሉ ወይስ ሁለቱንም?
@@ -1390,6 +1451,20 @@ sc-confirm-sentences-found =
 # Variables:
 #   $countOfInvalidated (Number) - Number of sentences the user rejected in the review form before submission
 sc-confirm-rejected-by-you = { $countOfInvalidated } በአንተ ተቀባይነት አላገኘም።
+sc-confirm-already-reviewed =
+    { $countOfReviewed ->
+        [0] ምንም ዓረፍተ ነገር አስቀድሞ አልተገመገመም።
+        [one] 1 ዓረፍተ ነገር አስቀድሞ ተገምግሟል። ታላቅ ስራ!
+       *[other] { $countOfReviewed } ዓረፍተ ነገሮች አስቀድሞ ተገምግመዋል። ታላቅ ስራ!
+    }
+# Variables:
+#   $readyCount (Number) - Number of sentences ready to be uploaded
+sc-confirm-ready =
+    { $readyCount ->
+        [0] ምንም ዓረፍተ ነገር ለመግባት ዝግጁ ነው!
+        [one] 1 ዓረፍተ ነገር ለመግባት ዝግጁ ነው!
+       *[other] { $readyCount } ዓረፍተ ነገሮች ለመግባት ዝግጁ ናቸው!
+    }
 sc-confirm-button-text = አረጋግጥ
 sc-confirm-uploading = ዓረፍተ ነገሮች እየተሰቀሉ ነው። ይህ በተጨመሩት ዓረፍተ ነገሮች ብዛት ላይ በመመስረት ብዙ ደቂቃዎችን ሊወስድ ይችላል። እባኮትን ይህን ድህረ ገጽ አትዝጉት።
 
@@ -1397,6 +1472,48 @@ sc-confirm-uploading = ዓረፍተ ነገሮች እየተሰቀሉ ነው። �
 
 sc-lang-info-title-total = ጠቅላላ
 sc-lang-info-title-personal = የግል
+# Variables:
+#   $totalSentences (Number) - Number of sentences uploaded in total for this language
+sc-lang-info-total =
+    { $totalSentences ->
+        [0] ምንም ጠቅላላ ዓረፍተ ነገር።
+        [one] 1 ጠቅላላ ዓረፍተ ነገር።
+       *[other] { $TotalSentences } ጠቅላላ ዓረፍተ ነገሮች።
+    }
+# Variables:
+#   $totalInReview (Number) - Number of sentences currently in the review state for this language
+sc-lang-info-in-review =
+    { $totalInReview ->
+        [0] ምንም ዓረፍተ ነገር በግምገማ ላይ።
+        [one] 1 ዓረፍተ ነገር በግምገማ ላይ።
+       *[other] { $totalInReview } ዓረፍተ ነገሮች በግምገማ ላይ።
+    }
+# Variables:
+#   $unreviewedSentencesByYou (Number) - Number of sentences the user can still review
+sc-lang-info-left-for-you =
+    { $unreviewedSentencesByYou ->
+        [0] ምንም ዓረፍተነገር እንድትገመግም ቀርቷል።
+        [one] 1 ዓረፍተነገር እንድትገመግም ቀርቷል።
+       *[other] { $unreviewedSentencesByYou } ዓረፍተ ነገሮች እንድትገመግም ቀርቷል።
+    }
+sc-lang-info-review-now = <reviewLink>አሁን ይገምግሙ!</reviewLink>
+sc-lang-info-add-more = <addLink>አሁን ተጨማሪ ዓረፍተ ነገሮችን ጨምር!</ addLink>
+# Variables:
+#   $validatedSentences (Number) - Number of sentences which have been approved for this language
+sc-lang-info-validated =
+    { $validatedSentences ->
+        [0] ምንም ተረጋጡ ዓረፍተነገሮች።
+        [one] 1 የተረጋገጠ ዓረፍተነገር።
+       *[other] { $validatedSentences } የተረጋገጡ ዓረፍተ ነገሮች።
+    }
+# Variables:
+#   $rejectedSentences (Number) - Number of sentences which have been rejected for this language
+sc-lang-info-rejected =
+    { $rejectedSentences ->
+        [0] ምንም ውድቅ የተደረጉ ዓረፍተነገሮች።
+        [one] 1 ውድቅ የተደረገ ዓረፍተነገር።
+       *[other] { $rejectedSentences } ውድቅ የተደረጉ ዓረፍተ ነገሮች።
+    }
 
 ## LOGIN
 
@@ -1451,6 +1568,7 @@ sc-review-form-button-approve-shortcut = ዓ
 sc-review-form-button-reject-shortcut = ኖ
 # Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
 sc-review-form-button-skip-shortcut = ቅ
+sc-review-form-keyboard-usage-custom = እንዲሁም የቁልፍ ሰሌዳ አቋራጮችን መጠቀም ይችላሉ፡ { sc-review-form-button-approve-shortcut } ለማጽደቅ፣ { sc-review-form-button-reject-shortcut } ውድቅ ለማድረግ፣ { sc-review-form-button-skip-shortcut } ለመዝለል
 sc-review-form-button-submit =
     .submitText = ግምገማን ጨርስ
 # Variables:
