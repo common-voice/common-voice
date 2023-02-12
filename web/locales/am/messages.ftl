@@ -1173,6 +1173,10 @@ contribution-misreadings-description-extended-list-1 = በቀረጻው መጀመ
 contribution-misreadings-description-extended-list-2 = በአንድ ቃል መጨረሻ ላይ <strong>s</strong> ይጎድላል።
 contribution-misreadings-description-extended-list-4 = ቀረጻውን በፍጥነት በመቁረጥ የመጨረሻውን ቃል መጨረሻ ማጣት።
 contribution-misreadings-description-extended-list-5 = አንድ ቃል ለማንበብ ብዙ ሙከራዎችን በማድረግ።
+contribution-misreadings-example-1-title = የ Triassic ግዙፍ ዳይኖሰርስ።
+contribution-misreadings-example-3-explanation = [ቀረጻው ከመጨረሻው ቃል መጨረሻ በፊት ተቆርጧል]
+see-more = <chevron></chevron>ተጨማሪ ይመልከቱ
+see-less = <chevron></chevron>ትንሽ ይመልከቱ
 
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
@@ -1181,9 +1185,27 @@ contribution-misreadings-description-extended-list-5 = አንድ ቃል ለማ�
 
 ## HEADER/FOOTER
 
+sc-header-home = መነሻ
+sc-header-how-to = እንዴት እንደሚደረግ
+sc-header-add = አክል
+sc-header-review = ይገምግሙ
+sc-header-rejected = ውድቅ የተደረጉ ዓረፍተ ነገሮች
+sc-header-my = የእኔ ዓረፍተ ነገሮች
+sc-header-statistics = ስታትስቲክስ
+sc-header-profile = መገለጫ
+sc-footer-discourse = ዲስኩር
+sc-footer-report-bugs = ሳንካዎችን ሪፖርት ያድርጉ
+sc-footer-translate = ይህን ገጽ ተርጉም።
+sc-footer-report-copyright = የቅጂ መብት ጉዳዮችን ሪፖርት አድርግ
+sc-footer-privacy = ግላዊነት
+sc-footer-terms = ደንቦች
+sc-footer-cookies = ተሸጓጭ
+sc-login-signup-button = ይግቡ / ይመዝገቡ
+sc-logout-button = ውጣ
 
 ## HOME
 
+sc-home-title = ወደ የጋራ ልሳን ዓረፍተ ነገር ሰብሳቢ እንኳን በደህና መጡ
 
 ## GENERAL
 
