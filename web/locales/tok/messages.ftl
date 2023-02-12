@@ -1499,5 +1499,9 @@ localization-select =
     .label = o kepeken toki
 # PARTNERSHIPS PAGE
 partnerships-header = kulupu poka
+partnerships-header-text =
+    pali Common Voice li mute a!
+    ni la kulupu mute li kama li pali lon poka li pona e ilo.
+    sina wile ala wile poka? wile la o kama toki tawa mi!
 partnerships-get-in-touch = o kama toki
 partnerships-become-a-partner = o kama poka pi kulupu Common Voice
