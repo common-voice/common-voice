@@ -18,9 +18,7 @@ banner-error-slow-1 = mi pakala. ilo Common Voice li pakala lili. sina pona tan 
 banner-error-slow-2 = jan mute li kama tawa ilo. mi alasa sona e pakala.
 banner-error-slow-link = ilo li pilin seme?
 error-something-went-wrong = ijo li pakala.
-error-clip-upload =
-    mi ken ala pana e kalama sina.
-    mi o awen alasa pana e ona anu seme?
+error-clip-upload = mi ken ala pana e kalama sina. mi o awen alasa pana e ona anu seme?
 error-clip-upload-server =
     mi awen ken ala pana.
     o sin e lipu ni, anu kama sin lon tenpo kama.
@@ -421,6 +419,7 @@ why-demographic = ni li suli tan seme?
 why-demographic-explanation-2 = sona ni li pona e ilo kute: tenpo sike lon en kule kon en nasin kalama toki. ijo ala li ken lukin e nimi sina lon poka pi sona sina. sina wile la sina ken len e nimi sina.
 accept-privacy = ni li pona: ilo li jo e sona mi kepeken <privacyLink>nasin pi len sona</privacyLink> pi kulupu Mozilla
 accept-privacy-title = nasin pi len sona li pona tawa mi
+accept-privacy-and-terms = <termsLink>lawa kepeken</termsLink> en <privacyLink>nasin pi len sona</privacyLink> li pona tawa mi.
 login-identity = nasin nimi pi sijelo sina
 login-signup = o kama / o pali e sijelo ilo
 edit = o ante
@@ -716,6 +715,7 @@ datasets-positioning =
     
     o lukin e lipu ni tawa sona ni: mi pana e sona pi kulupu sona ante. ilo Common Voice li kama suli la, mi pana e sin ona tawa lipu ni.
 language = toki
+download-dataset-header = o kama jo e kulupu kalama
 # File size in gigabytes
 size = suli
 validated-hr-total = nanpa tenpo pona
@@ -761,6 +761,7 @@ more = o mute
 close = o pini
 download = o kama jo
 dataset-version = nanpa
+sha256-checksum-copied = sina kama jo e nanpa pi nasin SHA256!
 
 ## Download Modal
 
