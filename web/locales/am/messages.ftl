@@ -1269,18 +1269,54 @@ sc-howto-review-criteria-5 = ዓረፍተ ነገሩ ከላይ የተጠቀሱት
 sc-howto-review-criteria-6 = ለመገምገም ዓረፍተ ነገሮች ካለቀብዎት፣ እባክዎን ተጨማሪ ዓረፍተ ነገሮችን እንድንሰበስብ ያግዙን!
 sc-howto-findpd-title = በሕዝብ ጎራ ውስጥ ያሉትን ዓረፍተ ነገሮች ማግኘት
 sc-howto-findpd-subtitle = በይነመረብ ላይ ፈልጋቸው
+sc-howto-findpd-text-2 = እነዚያን ዓረፍተ ነገሮች ለማተም ፈቃድ እንደሚያስፈልገን አስታውስ፣ ስለዚህ ሁልጊዜ ጽሑፉ የ<wikipediaLink>ይፋዊ ጎራ</wikipediaLink> መሆኑን ያረጋግጡ። ምንም ግልጽ ምልክት ከሌለ፣ ጽሁፉ ያለበትን ሰው ያግኙ እና ጽሑፎቻቸውን ለህዝብ ጎራ ለማበርከት ከፈለጉ ይጠይቁ። ከፈለጉ በ<cc0WaiverLink>የአስተዋጽኦዎች ስምምነት</cc0WaiverLink> ሂደት ውስጥ እንዲያልፉ እርዳቸው። ጽሑፉን ማበርከት ካልፈለጉ ያን ጽሑፍ መጠቀም አይፈቀድልዎትም ማለት ነው።
+sc-howto-findpd-tips = ዓረፍተ ነገሮችን ለማግኘት አንዳንድ ጠቃሚ ምክሮች እዚህ አሉ
+sc-howto-findpd-tips-1 = የምትፈልጋቸው ምርጥ ምንጮች ፖድካስቶች፣ ግልባጮች፣ የፊልም ስክሪፕቶች እና እምቅ የዕለት ተዕለት ንግግሮችን ሊይዝ የሚችል ማንኛውም ነገር ናቸው።
+sc-howto-findpd-tips-2 = የመንግስት ሂደቶች፣ መጽሃፎች እና መጣጥፎች እንዲሁ ጥሩ ናቸው ነገር ግን ጽሑፉ ትንሽ መደበኛ የመሆን አዝማሚያ ስላለው ቅድሚያ የሚሰጣቸው ነገሮች ያነሱ ናቸው።
+sc-howto-findpd-tips-3 = እንደ አለመታደል ሆኖ እስካሁን የዊኪሚዲያ መጣጥፎች ሊኖረን አይችልም። ስለዚህ መለጠፍን ከዚያ አይቅዱ።
+sc-howto-findpd-subtitle-2 = ከአካባቢያዊ ድርጅቶች ወይም ግለሰቦች ጋር አጋርነት
+sc-howto-findpd-partner-1 = መተባበር የሚፈልጉ እና ብዙ ጽሁፎች ያሏቸው ብዙ የህዝብ ድርጅቶች አሉ። ስለ ፕሮጀክቱ ለመነጋገር የአካባቢ ዩኒቨርሲቲዎችን፣ መንግስታትን እና ክፍት ምንጭ ድርጅቶችን ያግኙ እና የእነርሱን እርዳታ ይጠይቁ።
+sc-howto-findpd-partner-2 = ቋንቋ ባለሙያ ሊቃውንትም ሊረዱ ይችላሉ፣ ወደ አካባቢው የቋንቋ ዩኒቨርሲቲዎች (ሁለቱንም አስተማሪዎች እና ተማሪዎች) ለማግኘት ይሞክሩ እና በቋንቋዎ ውስጥ የተለያዩ የድምፅ-ልዩነት አረፍተ ነገሮችን ለመሰብሰብ መርዳት ይችሉ እንደሆነ ይመልከቱ።
 
 ## MY SENTENCES
 
+sc-my-title = የእኔ ዓረፍተ ነገሮች
+sc-my-description = ይህ ገጽ የገቡትን ሁሉንም ዓረፍተ ነገሮች አጠቃላይ እይታ ይሰጥዎታል። እንዲሁም ካስፈለገዎት አመልካች ሳጥን ላይ ምልክት በማድረግ እና &quot;የተመረጡትን ዓረፍተ ነገሮች ሰርዝ&quot; የሚለውን ጠቅ በማድረግ አስቀድመው የገቡትን ዓረፍተ ነገሮች መሰረዝ ይችላሉ። በሥሩ. እባክዎ አስፈላጊ ከሆነ ብቻ አረፍተ ነገሮችን ያስወግዱ ለምሳሌ አንድ ዓረፍተ ነገር በቅጂ መብት የተጠበቀ መሆኑን ካስተዋሉ በኋላ።
+sc-my-loading = አረፍተ ነገሮችህን በመጫን ላይ…
+sc-my-err-fetching = አረፍተ ነገሮችዎን በማምጣት ላይ ስህተት። እባክዎ ዳግም ይሞክሩ።
+sc-my-no-sentences = ምንም ዓረፍተ ነገሮች አልተገኙም!
+# Variables:
+#   $batchId (String) - A unique ID identifying the submission of sentences - sentences uploaded together all have the same batch ID
+sc-my-submission = ማስረከብ፡ { $batchId }
+# Variables:
+#   $source (String) - Associated source the user filled out when uploading the sentence
+sc-my-source = ምንጭ፡ { $source }
+sc-my-delete = የተመረጡትን ዓረፍተ ነገሮች ሰርዝ
+sc-my-deleting = የተመረጡ ዓረፍተ ነገሮችን በመሰረዝ ላይ…
+sc-my-err-failed-delete = የተመረጡትን ዓረፍተ ነገሮች መሰረዝ አልተሳካም… እባክዎ እንደገና ይሞክሩ!
 
 ## REJECTED
 
+sc-rejected-title = ውድቅ የተደረጉ ዓረፍተ ነገሮች
+sc-rejected-loading = ውድቅ የሆኑ ዓረፍተ ነገሮችን በመጫን ላይ…
+sc-rejected-err-fetching = ውድቅ የሆኑ ዓረፍተ ነገሮችን በማምጣት ላይ ስህተት። እባክዎ ዳግም ይሞክሩ።
+sc-rejected-none-found = ውድቅ የሆኑ ዓረፍተ ነገሮች አልተገኙም!
 
 ## STATS
 
+sc-stats-title = ስታትስቲክስ
+sc-stats-updating = በማዘመን ላይ…
+sc-stats-error = ስታቲስቲክስን ማምጣት አልቻልንም። እባክዎ ቆየት ብለው ይሞክሩ።
+# Variables:
+#   $sentenceCount (Number) - Total number of sentences uploaded through Sentence Collector
+#   $languageCount (Number) - Total number of languages these sentences represent
+sc-stats-summary = የጋራ ልሳን ዓረፍተ ነገር ሰብሳቢ { $sentenceCount } ዓረፍተ ነገሮችን በ{ $languageCount } ቋንቋዎች ሰብስቧል!
 
 ## ADD
 
+sc-submit-err-select-lang = እባክዎ ቋንቋ ይምረጡ።
+sc-submit-err-add-sentences = እባክዎ ዓረፍተ ነገሮችን ይጨምሩ።
+sc-submit-err-add-source = እባክዎ ምንጭ ይጨምሩ።
 
 ## ADD LANGUAGE
 
