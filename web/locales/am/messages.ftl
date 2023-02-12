@@ -616,9 +616,17 @@ about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollec
 about-playbook-how-localize = የጣቢያ አካባቢያዊነት እንዴት ነው የሚሰራው?
 about-playbook-how-localize-content-1 = የጋራ ልሳን ጣቢያ ትርጉም በ<strong>ፖንቶን</strong> ላይ ይከሰታል።
 about-playbook-how-localize-content-2 = ከሌልዎት <pontoonAccountLink>መለያ ይፍጠሩ</pontoonAccountLink>። በመቀጠል የቋንቋዎን <strong>('ቡድን') ይምረጡ እና ፕሮጀክቱን <pontoonCvLink>የጋራ ልሳን</pontoonCvLink>ን ይምረጡ። የሚተረጎሙ ፋይሎች ይኖራሉ። አንዱን ጠቅ ያድርጉ፣ ከዚያ በእንግሊዝኛ ቃላትን እና እነሱን ለመተርጎም ሳጥን ያሳያል።
+about-playbook-how-localize-content-3 = ትርጉም ከእንግሊዝኛ ነው፣ ግን በሌሎች ቋንቋዎች <strong>የአስተያየት ጥቆማዎችን</strong>ን ማየት ይችላሉ። የ<strong>መገለጫ</strong> አዶን ጠቅ ያድርጉ፣ በመቀጠል <strong>ቅንብሮች</strong>ያገናኙ እና የሚናገሩትን ቋንቋዎች ያክሉ። ከታች በስተቀኝ ጥግ ላይ <strong>አካባቢዎች</strong>የሚባሉ የትርጉም ዝርዝሮች ይኖራሉ። ትርጉሞች ከአንድ ቀን በኋላ በጣቢያው ላይ ይታያሉ።
+about-playbook-how-localize-content-4 = ድህረ ገፁ 75% ሲጠናቀቅ ለመጀመር ዝግጁ ነው።
+about-playbook-how-localize-content-5 = ለመርዳት የእኛን የቪዲዮ ማብራሪያ ይመልከቱ
 
 ## How to add sentences
 
+about-playbook-how-add-sentences = ዓረፍተ ነገሮችን እንዴት ማከል እችላለሁ?
+about-playbook-how-add-sentences-content-1 = <strong>አረፍተ ነገር ሰብሳቢ</strong>የሕዝብ ጎራ አረፍተ ነገሮችን ለመሰብሰብ እና ለማረጋገጥ የሚሆን መሳሪያ ነው። <scAccountLink>መለያ መፍጠር ያስፈልግዎታል</scAccountLink>። ከዚያ ቋንቋዎን ወደ <strong>መገለጫዎ</strong> ያክሉ። ዓረፍተ ነገሮችን ማከል</strong>ወይም ከዚህ ቀደም የተጨመሩትን ዓረፍተ ነገሮች <strong>መገምገም</strong> ትችላለህ።
+about-playbook-how-add-sentences-content-2 = የጋራ ልሳን ውስጥ ለመካተት ዓረፍተ ነገሮች በሁለት ሰዎች መከለስ እና መቀበል አለባቸው። ለቋንቋዎ <languageGuidelinesLink>እዚህ</languageGuidelinesLink> መመሪያዎችን ይፍጠሩ። ዓረፍተ ነገሮች በ<licenseLink>ይፋዊ ጎራ</licenseLink> ውስጥ እና ከ15 ቃላት ያነሱ መሆን አለባቸው። የጽሁፍ ባለቤት <waiverLink>CC0 እንዲያደርግልን የመተው ሂደታችንን</waiverLink> ይጠይቁ እና በ commonvoice@mozilla.com ላይ ይላኩልን
+about-playbook-how-add-sentences-content-3 = ከዊኪፔዲያ አጫጭር ዓረፍተ ነገሮችን ለመጠቀም የ<scraperLink>አረፍተ ነገር ማውጫ</scraperLink>ን መጠቀም ይችላሉ።
+about-playbook-how-add-sentences-content-4 = የተረጋገጡ ዓረፍተ ነገሮች እሮብ ወደ ውጭ ይላካሉ እና ከሚቀጥለው መለቀቅ በኋላ ይገኛሉ።
 
 ## How to record quality
 
