@@ -998,6 +998,19 @@ toward-next-goal = ወደ ቀጣዩ ግብ
 goal-reached = ግብ ላይ ደርሷል
 clips-you-recorded = የቀረጿቸው ቅንጥቦች
 clips-you-validated = ያረጋገጡዋቸው ቅንጥቦች
+todays-recorded-progress = የጋራ ልሳን ላይ ዛሬ የተቀረጹ ቅንጥቦች ሂደት
+todays-validated-progress = የዛሬው የጋራ ልሳን ቅንጥቦች ላይ ያለው ሂደት ተረጋግጧል
+stats = ስታትስቲክስ
+awards = ሽልማቶች
+you = እርስዎ
+everyone = ሁሉም ሰው
+contribution-activity = የአስተዋጽኦ እንቅስቃሴ
+top-contributors = ከፍተኛ አስተዋጽዖ አበርካቾች
+recorded-clips = የተቀረፁ ቅንጥቦች
+validated-clips = የተረጋገጡ ቅንጥቦች
+total-approved = ጠቅላላ የጸደቀ
+overall-accuracy = አጠቃላይ ትክክለኛነት
+set-visibility = የእኔን ታይታነት አዘጋጅ
 
 ## Custom Goals
 
