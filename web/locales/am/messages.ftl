@@ -587,9 +587,15 @@ about-nav-playbook = እንዴት እንደሚሳተፉ ይማሩ
 about-playbook-what-is-language = በጋራ ልሳን ላይ ቋንቋ ምንድን ነው?
 about-playbook-what-is-language-content-1 = ስለ ቋንቋ ለማሰብ ብዙ መንገዶች አሉ። ለንግግር ማወቂያ ሞዴሎች ዓላማዎች፣ የጋራ ልሳን  'በጋራ መግባባት' ላይ ትኩረት ማድረግን ይጠቁማል፣ ወይም 'የዚህ ቋንቋ ተናጋሪዎች ቢሞክሩ እርስ በርሳቸው ሊግባቡ ይችላሉ?'
 about-playbook-what-is-language-content-2 = የተለያዩ የድምጽ ማጉያዎችን በመረዳት የንግግር ሞዴሎች የተሻሉ እንዲሆኑ እንፈልጋለን። ይህ እንዲሆን፣ የድምጽ ውሂብ ስብስብ ብዙ የተለያዩ ሰዎችን መወከል አለበት።
+about-playbook-what-is-language-content-3 = አንዳንድ ቋንቋዎች በሰዋስው፣ በቃላት አነጋገር እና በድምፅ አነጋገር ውስጥ ትልቅ ልዩነት አላቸው። በዚህ ምክንያት፣ በ 2022 <ctaLink>‘ተለዋዋጮች’</ctaLink>ን እናስተዋውቃቸዋለን። ይህ ማህበረሰቦች ቋንቋቸውን በትልቁ የውሂብ ስብስብ ውስጥ እንዲለዩ መንገድ ይሰጣል።
 
 ## How do I add a language
 
+about-playbook-how-add-language = ቋንቋ እንዴት እጨምራለሁ?
+about-playbook-how-add-language-content-1 =
+    በመጀመሪያ ቋንቋህ <languageLink>ቀድሞውንም መኖሩን</languageLink> አረጋግጥ።
+    ካልሆነ፣ ቋንቋዎን ስለማከል <languageRequestLink>ለመጠየቅ</languageRequestLink> ይችላሉ።
+    ሁለት ደረጃዎች አሉ. ድህረ ገጹን መተርጎም, እና ዓረፍተ ነገሮችን መሰብሰብ
 
 ## How does localization work
 
