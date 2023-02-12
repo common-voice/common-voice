@@ -1101,6 +1101,8 @@ download-recently-requested = በየ{ $days } ቀረጻዎችዎ ላይ አዲ�
 download-size = መጠን
 download-selected = ተመርጧል
 download-start = የመገለጫ ውሂብ አውርድ
+download-request = የተቀረፁትን ጠይቅ
+download-requests = ያለፉ ቀረፃዎችን የማውረድ ጥያቄዎች
 
 ## Landing
 
