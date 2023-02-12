@@ -849,10 +849,24 @@ request-language-google-recaptcha-required = መቀጠል ከፈለጉ reCAPTCHA
 request-language-google-recaptcha-error = በreCAPTCHA ላይ የሆነ ችግር ተፈጥሯል። እባክዎ ዳግም ይሞክሩ።
 # Success page
 request-language-success-heading = አመሰግናለሁ! አዲስ የቋንቋ ጥያቄ ለከዋል
+request-language-success-list-1 =
+    በቅርቡ የሚያብራራ ኢሜል ሊደርስዎት ይገባል።
+    ቋንቋዎን ወደ የጋራ ልሳን እንዲታከሉ ለማድረግ
+request-language-success-list-2 =
+    የእኛ የማህበረሰቡ አስተዳዳሪ ተጨማሪ ድጋፍ እንደሚያስፈልግዎ ለማዎቅ ያነጋግርዎታል
+    እንዲሁም በቋንቋዎ ላይ አስቀድሞ የሚሰራ ማህበረሰብ ካለ ለማሳወቅም።
+request-language-success-list-3 =
+    በሁለት ቀናት ውስጥ ከእኛ ካልሰሙ
+    በ<emailLink>{ $email }</emailLink> ያግኙን
+    እና ወደ እርስዎ እንመለሳለን!
+request-language-error =
+    ያን ጥያቄ አላገኘን ይሆናል። እባክዎን በቀጥታ ኢሜይል ያድርጉልን
+    በ<emailLink>{ $email }</emailLink> ላይ እና እኛ ወደ እርስዎ እንመለሳለን!
 
 ## Languages Overview
 
 language-section-in-progress = በሂደት ላይ
+language-section-in-progress-new-description = እነዚህ ቋንቋዎች በአሁኑ ጊዜ በማህበረሰብ ልማት ላይ ናቸው። <localizationGlossaryLink>የድረ-ገጽ አካባቢያዊነት</localizationGlossaryLink> እና አረፍተ-ነገር ስብሰባ</sentenceCollectionGlossaryLink> ለማስጀመር ያስፈልጋል።
 language-section-launched = ተለቀቀ
 languages-show-more = ተጨማሪ ይመልከቱ
 languages-show-less = ያነሰ ይመልከቱ
