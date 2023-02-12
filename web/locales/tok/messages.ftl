@@ -1499,3 +1499,5 @@ localization-select =
     .label = o kepeken toki
 # PARTNERSHIPS PAGE
 partnerships-header = kulupu poka
+partnerships-get-in-touch = o kama toki
+partnerships-become-a-partner = o kama poka pi kulupu Common Voice
