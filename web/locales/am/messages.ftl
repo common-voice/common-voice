@@ -974,6 +974,12 @@ report-success = ሪፖርት በተሳካ ሁኔታ ተላልፏል
 
 ## Goals
 
+streaks = ጭረቶች
+days =
+    { $count ->
+        [one] Day
+       *[other] Days
+    }
 
 ## Dashboard
 
