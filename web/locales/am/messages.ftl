@@ -640,6 +640,13 @@ about-playbook-how-record-content-5 = <accuracyLink>በትክክለኛነት መ
 ## How to grow language
 
 about-playbook-how-grow-language = የጋራ ልሳን ላይ ቋንቋን በብቃት እንዴት ማሳደግ እንችላለን?
+about-playbook-how-grow-language-content-1 = ለተለያዩ ሰዎች ለጋራ ልሳን አስተዋፅዖ እንዲያበረክቱ ዕድሎችን መፍጠር የመረጃ ቋቱ በተቻለ መጠን ብዙ ሰዎችን እንደሚያገለግል ያረጋግጣል። ሊጠቀሙባቸው የሚችሏቸውን ግብዓቶችን እና አብነቶችን ፈጥረናል!
+about-playbook-how-grow-language-content-2 = ክስተቶች
+about-playbook-how-grow-language-content-3 = ሰዎች አስተዋጽዖ እንዲያበረክቱ ለማገዝ ዝግጅቶችን ማካሄድ ይችላሉ። እርስዎ ከሚያስቡት በላይ ቀላል ነው። በመስመር ላይ በቪዲዮ ኮንፈረንስ መሳሪያ ወይም በአስተማማኝ ሁኔታ በአካል ተገኝተው ሊያደርጉት ይችላሉ። <eventTemplate>ክስተቶችን ለማሄድ የእኛን አብነቶች እና ግብዓቶች ይመልከቱ</eventTemplate>።
+about-playbook-how-grow-language-content-4 = ማህበራዊ ሚዲያ
+about-playbook-how-grow-language-content-5 = መልእክቱን ለማውጣት የማህበራዊ ሚዲያ መድረኮችን መጠቀም ይችላሉ። ለምን እንደሚያስፈልግ የሚገልጹ ልጥፎችን ያጋሩ እና እንደ ቋንቋ መብቶች፣ የድምጽ አስተውሎቶች ወይም የቴክኖሎጂ አድሎአዊ ጉዳዮችን ከሌሎች ሰዎች ጋር ይገናኙ። እንደገና ሊጠቀሙበት የሚችሉትን ይዘት ጨምሮ <campaignLink>ማህበራዊ ዘመቻ ማካሄድ ላይ ተጨማሪ ምክር ይመልከቱ</campaignLink>።
+about-playbook-how-grow-language-content-6 = ሽርክናዎች እና አውታረ መረቦች
+about-playbook-how-grow-language-content-7 = የሚመለከታቸው ሌሎችን ያግኙ።  ዩኒቨርሲቲዎች፣ የቋንቋ ትምህርት ቤቶች፣ የጥብቅና ቡድኖች ወይም የውሂብ ሳይንስ ማህበረሰቦች ሊሆኑ ይችላሉ። እንዴት ሊረዱ እንደሚችሉ እና ለምን እንደሆነ ይድረሱ እና በግልፅ ያብራሩ። <outreachTemplates>የእኛን የአብነት ስምሪት ኢሜይሎች ይመልከቱ</outreachTemplates>።
 
 ## How to validate
 
