@@ -1103,6 +1103,16 @@ download-selected = ተመርጧል
 download-start = የመገለጫ ውሂብ አውርድ
 download-request = የተቀረፁትን ጠይቅ
 download-requests = ያለፉ ቀረፃዎችን የማውረድ ጥያቄዎች
+download-requests-info = ቅጂዎችዎን ሲጠይቁ ወደ አንድ ወይም ብዙ ዚፕ ፋይሎች እንሰበስባቸዋለን። ያለፉ ጥያቄዎችዎ እነኚሁና፡
+download-request-button = አውርድ
+download-request-title = { $created }
+download-request-description = { $clipCount } የድምጽ ቅንጥቦች፣ አጠቃላይ የማህደር መጠን { $size }። ጊዜው የሚያበቃው { $expires }።
+download-request-archive-single = ነጠላ ዚፕ ፋይል የያዘ
+download-request-archive-multiple = ወደ { $archiveCount } ዚፕ ፋይሎች በያዙ ይከፈል።
+download-request-assembling-description = የእርስዎ ፋይሎች እየተሰበሰቡ ነው። እባክዎ ቆይተው እንደገና ያረጋግጡ።
+download-request-refresh-button = አድስ
+download-request-modal-title = አውርድ አገናኞች
+download-request-modal-description = ዚፕ ፋይሎችዎን ለማውረድ አገናኞች እዚህ አሉ።
 
 ## Landing
 
