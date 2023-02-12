@@ -1317,15 +1317,71 @@ sc-stats-summary = የጋራ ልሳን ዓረፍተ ነገር ሰብሳቢ { $se
 sc-submit-err-select-lang = እባክዎ ቋንቋ ይምረጡ።
 sc-submit-err-add-sentences = እባክዎ ዓረፍተ ነገሮችን ይጨምሩ።
 sc-submit-err-add-source = እባክዎ ምንጭ ይጨምሩ።
+sc-submit-err-confirm-pd = እባኮትን እነዚህ አረፍተ ነገሮች የህዝብ ጎራ መሆናቸውን ያረጋግጡ።
+sc-submit-prompt =
+    .message = ዓረፍተ ነገሮች አልገቡም፣ እርግጠኛ ነህ መውጣት ትፈልጋለህ?
+sc-submit-title = ዓረፍተ ነገሮችን ያክሉ
+sc-submit-select-language =
+    .labelText = ቋንቋ ይምረጡ
+sc-submit-add-sentences = < wikipediaLink>የወል ጎራ</wikipediaLink> ዓረፍተ ነገሮችን ያክሉ
+sc-submit-ph-one-per-line =
+    .placeholder = በአንድ መስመር አንድ ዓረፍተ ነገር
+sc-submit-from-where = እነዚህ <wikipediaLink>ይፋዊ ጎራ</wikipediaLink> ዓረፍተ ነገሮች ከየት ናቸው?
+sc-submit-ph-read-how-to =
+    .placeholder = እንዴት እንደሚገለጽ እርግጠኛ ካልሆኑ የእኛን እንዴት ነው ያንብቡ
+sc-submit-confirm = እነዚህ ዓረፍተ ነገሮች <wikipediaLink>የወል ጎራ</wikipediaLink> መሆናቸውን አረጋግጣለሁ እና እነሱን ለመጫን ፍቃድ አለኝ።
+sc-submit-button =
+    .submitText = አስገባ
+sc-submit-filtered = በተሟሉ መስፈርቶች ምክንያት የተጣሩ ዓረፍተ ነገሮች (እባክዎ ቋሚ ስሪቶችን እንደ አዲስ ዓረፍተ ነገር ያስገቡ)
+sc-submit-guidelines = እባክዎ <howToLink>መመሪያዎችን</howToLink>ን ይመልከቱ።
 
 ## ADD LANGUAGE
 
+sc-add-lang-could-not-add = ቋንቋ ማከል አልተቻለም
+sc-add-lang-sec-label = ማበርከት የሚፈልጉትን ቋንቋ ያክሉ
+sc-add-lang-sec-button = ቋንቋ ጨምር
+sc-add-err-unexpected = ከአገልጋዩ ያልተጠበቀ ምላሽ ተመለሰ
+# Variables:
+#   $duplicates (Number) - Number of sentences which got rejected because they are duplicates
+sc-add-result =
+    { $duplicates ->
+        [0] የገቡ ዓረፍተ ነገሮች።{ $duplicates } ዓረፍተ ነገሮች እንደ ብዜት ውድቅ ተደርገዋል።
+        [one] የገቡ ዓረፍተ ነገሮች።{ $duplicates } ዓረፍተ ነገሮች እንደ ብዜት ውድቅ ተደርገዋል።
+       *[other] የገቡ ዓረፍተ ነገሮች።{ $duplicates } ዓረፍተ ነገሮች እንደ ብዜት ውድቅ ተደርገዋል።
+    }
+# Variables:
+#   $sentences (Number) - Number of sentences which failed to be saved to the database - could be several different reasons
+sc-add-err-failed =
+    { $sentences ->
+        [0] { "" }
+        [one] ዓረፍተ ነገሩ አልተሳካም
+       *[other] { $sentences } ዓረፍተ ነገሮች አልተሳኩም
+    }
+sc-add-err-submission = የማስገቢያ ስህተት
+sc-add-lang-process-notice = ቋንቋዎ እዚህ ካልተዘረዘረ በ<languageProcessLink>በዚህ ሂደት</languageProcessLink> በኩል መጠየቅ ይችላሉ።
 
 ## ADD SENTENCES CONFIRMATION
 
+sc-confirm-are-you-sure =
+    .message = ዓረፍተ ነገሮች አልገቡም፣ እርግጠኛ ነህ መውጣት ትፈልጋለህ?
+sc-confirm-sentences-title = አዲስ ዓረፍተ ነገሮችን ያረጋግጡ
+# Variables:
+#   $countOfSentences (Number) - Number of sentences the user has filled in the submission form
+sc-confirm-sentences-found =
+    { $countOfSentences ->
+        [0] ምንም ዓረፍተ ነገር አልተገኘም።
+        [one] 1 ዓረፍተ ነገር ተገኝቷል።
+       *[other] { $countOfSentences } ዓረፍተ ነገሮች ተገኝተዋል።
+    }
+# Variables:
+#   $countOfInvalidated (Number) - Number of sentences the user rejected in the review form before submission
+sc-confirm-rejected-by-you = { $countOfInvalidated } በአንተ ተቀባይነት አላገኘም።
+sc-confirm-button-text = አረጋግጥ
+sc-confirm-uploading = ዓረፍተ ነገሮች እየተሰቀሉ ነው። ይህ በተጨመሩት ዓረፍተ ነገሮች ብዛት ላይ በመመስረት ብዙ ደቂቃዎችን ሊወስድ ይችላል። እባኮትን ይህን ድህረ ገጽ አትዝጉት።
 
 ## LANGUAGE INFO
 
+sc-lang-info-title-total = ጠቅላላ
 
 ## LOGIN
 
