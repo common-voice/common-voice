@@ -1,2 +1,2 @@
 export * from './validators';
-export * from './sentence';
+export * from './pending-sentence-submission';
