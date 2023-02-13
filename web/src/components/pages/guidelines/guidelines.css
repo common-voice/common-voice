@@ -4,6 +4,10 @@
         background: url('./images/guidelines-waves.png');
         background-size: 100% 100%;
 
+        @media (--sm-down) {
+            height: 270px;
+        }
+
         & .header-container {
             margin: 0 auto;
             max-width: var(--desktop-width);
@@ -13,15 +17,26 @@
 
             & .page-heading {
                 font-size: var(--font-size-max);
+
+                @media (--sm-down) {
+                    font-size: var(--font-size-xl);
+                }
             }
 
             & .subtitle-text {
                 font-weight: 300;
                 font-size: var(--font-size-lg);
+
+                @media (--sm-down) {
+                    font-size: var(--font-size);
+                }
             }
 
             & div {
-                width: 600px;
+                @media (--lg-up) {
+                    width: 600px;
+                }
+
                 margin-left: 15px;
             }
         }
@@ -42,6 +57,10 @@
             font-size: var(--font-size-lg);
             font-family: var(--strong-font-family);
             padding-inline-start: 16px;
+
+            @media (--sm-down) {
+                font-size: var(--font-size-md);
+            }
 
             & li {
                 list-style: none;
@@ -66,6 +85,29 @@
             margin: 0 auto;
             max-width: var(--desktop-width);
             padding-left: 16px;
+
+            @media (--sm-down) {
+                margin: 0 12px;
+                padding-left: 0;
+            }
+
+            & .sections {
+                & .line {
+                    display: inline-block;
+                    background: linear-gradient(
+                        90deg,
+                        #88d1f1 0%,
+                        #b1b5e5 100%
+                    );
+                    width: 350px;
+                    height: 4px;
+                    margin-bottom: 8px;
+
+                    @media (--md-up) {
+                        display: none;
+                    }
+                }
+            }
 
             nav {
                 max-width: 270px;
@@ -105,14 +147,37 @@
                         }
                     }
                 }
+
+                @media (--sm-down) {
+                    display: none;
+                }
             }
 
             & .sidebar-content {
+                & .chevron {
+                    @media (--md-up) {
+                        display: none;
+                    }
+                }
+
+                & .sidebar-content-header {
+                    @media (--sm-down) {
+                        display: flex;
+                        align-items: baseline;
+                        justify-content: space-between;
+                    }
+                }
+
                 & .guidelines-content-heading {
                     font-family: var(--base-font-family);
                     font-size: var(--font-size-lg);
                     font-weight: 600;
                     margin-bottom: 1rem;
+
+                    @media (--sm-down) {
+                        font-family: var(--strong-font-family);
+                        flex: 0.2;
+                    }
                 }
 
                 & .guidelines-content-explanation {
@@ -152,6 +217,12 @@
                     padding: 50px 30px;
                     margin-bottom: 24px;
 
+                    @media (--sm-down) {
+                        flex-direction: column;
+                        padding: 40px 0 0;
+                        width: 350px;
+                    }
+
                     & .example-text-container {
                         background: var(--white);
                         font-size: var(--font-size-lg);
@@ -162,12 +233,22 @@
                         margin-inline-end: 40px;
                         display: flex;
                         align-items: center;
+
+                        @media (--sm-down) {
+                            margin-inline-end: 0;
+                            width: 300px;
+                        }
                     }
 
                     & .example-tips-container {
                         div {
                             display: flex;
                             flex-direction: column;
+                        }
+
+                        @media (--sm-down) {
+                            width: 350px;
+                            padding: 30px;
                         }
 
                         & .circle {
@@ -180,6 +261,11 @@
                             display: flex;
                             align-items: center;
                             justify-content: center;
+
+                            @media (--sm-down) {
+                                height: 43px;
+                                width: 43px;
+                            }
 
                             & .check-icon {
                                 path {
@@ -197,6 +283,16 @@
                             flex-direction: column;
                             justify-content: center;
 
+                            @media (--sm-down) {
+                                width: 220px;
+                            }
+
+                            p {
+                                @media (--sm-down) {
+                                    font-size: var(--font-size-xs);
+                                }
+                            }
+
                             p:nth-child(1) {
                                 margin-bottom: 6px;
                                 font-style: italic;
@@ -205,6 +301,10 @@
                             p:nth-child(2) {
                                 font-size: var(--font-size-xs);
                                 color: var(--dark-grey);
+
+                                @media (--sm-down) {
+                                    font-size: 10px;
+                                }
                             }
                         }
                     }
@@ -215,12 +315,20 @@
                     display: inline-block;
                     width: 100%;
                     margin-bottom: 24px;
+
+                    @media (--sm-down) {
+                        display: none;
+                    }
                 }
             }
         }
 
         & .tabpanel--selected {
             padding-top: 50px;
+
+            @media (--sm-down) {
+                padding-top: 20px;
+            }
         }
     }
 
