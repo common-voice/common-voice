@@ -1,5 +1,6 @@
 import { Localized } from '@fluent/react';
 import React from 'react';
+import { ChevronDown } from '../../../../ui/icons';
 
 import { NAV_IDS } from '../../constants';
 import { ExampleContent, ExampleTip } from './example-content';
@@ -19,9 +20,13 @@ const exampleTips: ExampleTip[] = [
 
 export const VaryingPronounciation = () => (
   <div className="sidebar-content" id={NAV_IDS.PRONUNCIATIONS}>
-    <Localized id="varying-pronunciations">
-      <h3 className="guidelines-content-heading" />
-    </Localized>
+    <span className="line" />
+    <div className="sidebar-content-header">
+      <Localized id="varying-pronunciations">
+        <h3 className="guidelines-content-heading" />
+      </Localized>
+      <ChevronDown className="chevron" />
+    </div>
     <Localized id="varying-pronunciations-explanation-1">
       <p className="guidelines-content-explanation" />
     </Localized>
