@@ -1,12 +1,12 @@
-export const ScSentenceRepositoryErrorKind = 'ScSentenceRepository'
-export const ScSentenceValidationKind = 'ScSentenceValidation'
+export const PendingSentencesRepositoryErrorKind = 'PendingSentencesRepository'
+export const PendingSentenceValidationKind = 'PendingSentenceValidation'
 export const ValidationKind = 'Validation'
 export const Other = 'Other'
 
 export const ApplicationErrorKinds = [
   ValidationKind,
-  ScSentenceRepositoryErrorKind,
-  ScSentenceValidationKind,
+  PendingSentencesRepositoryErrorKind,
+  PendingSentenceValidationKind,
   Other,
 ] as const
 
