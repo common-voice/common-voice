@@ -1,7 +1,7 @@
 
 export const up = async function (db: any): Promise<any> {
   await db.runSql(`
-    CREATE TABLE IF NOT EXISTS sc_sentences 
+    CREATE TABLE IF NOT EXISTS pending_sentences 
     (
       id int NOT NULL AUTO_INCREMENT,
       sentence varchar(255) COLLATE utf8mb4_bin NOT NULL,
@@ -19,16 +19,16 @@ export const up = async function (db: any): Promise<any> {
   `);
 
   await db.runSql(`
-    CREATE TABLE IF NOT EXISTS sc_votes
+    CREATE TABLE IF NOT EXISTS pending_sentences_votes
     (
       id int NOT NULL AUTO_INCREMENT,
-      sc_sentence_id int NOT NULL,
+      pending_sentence_id int NOT NULL,
       is_valid tinyint(1) NOT NULL,
       created_at datetime NOT NULL DEFAULT NOW(),
       updated_at datetime NOT NULL DEFAULT NOW(),
       client_id char(36) DEFAULT NULL,
       PRIMARY KEY (id),
-      FOREIGN KEY (sc_sentence_id) REFERENCES sc_sentences(id),
+      FOREIGN KEY (pending_sentence_id) REFERENCES pending_sentences(id),
       FOREIGN KEY (client_id) REFERENCES user_clients(client_id)
     );
   `);
@@ -36,6 +36,6 @@ export const up = async function (db: any): Promise<any> {
 
 export const down = async function (db: any): Promise<any> {
   return db.runSql(`
-    DROP TABLE IF EXISTS sc_sentences, sc_votes
+    DROP TABLE IF EXISTS pending_sentences_votes, pending_sentences
   `);
 };
