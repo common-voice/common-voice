@@ -9,7 +9,7 @@ import it from './languages/it'
 import kab from './languages/kab'
 import ko from './languages/ko'
 import lo from './languages/lo'
-import ne from './languages/ne'
+import neNp from './languages/ne-NP'
 import or from './languages/or'
 import ru from './languages/ru'
 import th from './languages/th'
@@ -35,7 +35,7 @@ const VALIDATORS: Validators = {
   kab,
   ko,
   lo,
-  'ne-NP': ne,
+  'ne-NP': neNp,
   or,
   ru,
   th,
