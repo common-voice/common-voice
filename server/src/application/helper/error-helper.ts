@@ -8,9 +8,9 @@ export const createError =
   })
 
 export const createValidationError = createError('Validation')
-export const createScSentenceValidationError = createError(
-  'ScSentenceValidation'
+export const createPendingSentenceValidationError = createError(
+  'PendingSentenceValidation'
 )
-export const createScSentenceRepositoryError = createError(
-  'ScSentenceRepository'
+export const createPendingSentencesRepositoryError = createError(
+  'PendingSentencesRepository'
 )
