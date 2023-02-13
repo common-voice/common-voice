@@ -4,13 +4,13 @@ import {
   validateSentence,
 } from '../../../../core/sentence-collector'
 import { insertSentenceIntoDb } from '../../repository/pending-sentences-repository'
-import { AddSentenceCommand } from './command/add-pending-sentence-command'
+import { AddPendingSentenceCommand } from './command/add-pending-sentence-command'
 import { either as E, taskEither as TE } from 'fp-ts'
 import { ApplicationError } from '../../../types/error'
 import { createPendingSentenceValidationError } from '../../../helper/error-helper'
 
 const createSentenceSubmissionFromCommand =
-  (command: AddSentenceCommand) =>
+  (command: AddPendingSentenceCommand) =>
   (validatedSentence: string): PendingSentenceSubmission => ({
     client_id: command.clientId,
     locale_id: command.localeId,
@@ -19,7 +19,7 @@ const createSentenceSubmissionFromCommand =
   })
 
 export default (
-  command: AddSentenceCommand
+  command: AddPendingSentenceCommand
 ): TE.TaskEither<ApplicationError, unknown> => {
   return pipe(
     command.sentence,

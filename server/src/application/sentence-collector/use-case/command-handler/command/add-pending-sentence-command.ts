@@ -1,4 +1,4 @@
-export type AddSentenceCommand = {
+export type AddPendingSentenceCommand = {
   clientId: string
   sentence: string
   localeId: number
