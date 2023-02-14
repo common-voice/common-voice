@@ -52,7 +52,7 @@ ca = ካታላን
 cak = ካክቺከል
 ckb = ማዕከላዊ ኩርዲሽ
 cnh = ሀካ ቺን
-co = ኮርሲካን
+co = ኮርሲካንኛ
 cs = ቼክ
 cv = ቹቫሽ
 cy = ዌልስ
@@ -223,7 +223,7 @@ zza = ዛዛ
 
 speak = ተናገር
 speak-now = አሁን ተናገር
-datasets = የመረጃ ቋት
+datasets = የውሂብ ስብስቦች
 languages = ቋንቋዎች
 about = ስለ
 partner = አጋር
