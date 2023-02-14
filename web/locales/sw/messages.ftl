@@ -1040,9 +1040,20 @@ see-more = <chevron></chevron>Angalia zaidi
 
 ## HEADER/FOOTER
 
+sc-header-add = Ongeza
+sc-header-rejected = Sentensi zilizokataliwa
+sc-header-my = Sentensi zangu
+sc-header-statistics = Takwimu
+sc-header-profile = Wasifu
+sc-footer-translate = Tafsiri ukurasa huu
+sc-footer-privacy = Faragha
+sc-footer-terms = Masharti
+sc-login-signup-button = Ingia / Jisajili
+sc-logout-button = Ondoka
 
 ## HOME
 
+sc-home-collect-title = Kusanya sentensi
 
 ## GENERAL
 
@@ -1076,6 +1087,7 @@ see-more = <chevron></chevron>Angalia zaidi
 
 ## PROFILE
 
+sc-personal-remove-button = ondoa
 
 ## REVIEW CRITERIA
 
