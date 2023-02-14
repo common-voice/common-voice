@@ -1,12 +1,13 @@
 ## General
 
-stayintouch = Sisi katika Mozilla tunajenga jamii inayohusika na teknolojia ya sauti. Tungependa kuendelea kupokea visasisho, vyanzo vipya vya data na kujuzwa zaidi kuhusu jinsi unavyotumia data hii
-privacy-info = Tunaahidi kushughulikia maelezo yako kwa uangalifu. Soma zaidi katika <privacyLink> sera yetu ya faragha </privacyLink>.
+yes-receive-emails = Ndio, nitumie barua pepe. Ningependa kuarifiwa kuhusu Mradi wa Common Voice.
+stayintouch = Sisi katika Mozilla tunajenga jamii inayohusika na teknolojia ya sauti. Tungependa kuzidi kupokea visasisho, vyanzo vipya vya data na kujuzwa zaidi kuhusu jinsi unavyotumia data hii
+privacy-info = Tunaahidi kushughulikia maelezo yako kwa uangalifu. Soma maelezo zaidi kwenye <privacyLink> sera yetu ya faragha </privacyLink>.
 return-to-cv = Rudi kwa Common Voice
 email-input =
     .label = Barua pepe
 submit-form-action = wasilisha
-loading = Kupakia…
+loading = inpakia…
 email-opt-in-info =
     Ningependa kupokea barua pepe kama ukumbusho wa lengo, sasisho zangu za maendeleo na 
     majarida kuhusu huduma za Common Voice.
@@ -233,7 +234,7 @@ speak-paragraph = Kurekodi vipande vya sauti ni sehemu muhimu ya kujenga daftari
 speak-goal-text = Vipande vilivyo rekodiwa
 listen-subtitle = Tusaidie kuthibitisha sauti
 listen-paragraph = Kuhalalisha vipande vya sauti vilivyochangiwa ni muhimu kwa dhamira ya Common Voice. Sikiliza na utusaidie kuunda data ya sauti ya chanzo wazi bora.
-listen-goal-text = vipande vilivyo halalishwa
+listen-goal-text = vipande vilivyodhibitishwa
 hours-recorded = masaa yaliyorekodiwa
 hours-validated = masaa yaliyo halalishwa
 voices-online = Sauti ziko mtandaoni sana
@@ -557,6 +558,7 @@ about-playbook-how-grow-language-content-4 = Mtandao wa kijamii
 
 ## How to validate
 
+about-playbook-how-validate = Nitajuaje kama nitaidhinisha kipande cha sauti?
 about-playbook-how-validate-content-1 = Ikiwa ungeweza <strong>kuzisikia</strong> na <strong>kuzielewa</strong>, kwa kawaida ni <strong>bora zaidi kuziidhinisha</strong>.
 about-playbook-how-validate-content-2 = <strong>Usikatae vipande vya sauti ambavyo mzungumzaji ‘ana lafudhi’ ambayo ni tofauti na yako</strong> - hii ni muhimu ili utambuzi wa sauti ifanye kazi vyema kwa kila mtu.
 
@@ -566,6 +568,9 @@ about-playbook-how-access-dataset = Je, ninawezaje kufikia na kutumia mkusanyiko
 
 ## How are decisions made
 
+about-playbook-how-project-governance = Je, maamuzi ya mradi hufanywaje?
+about-playbook-how-project-governance-content-2 = Utawala wetu umejengwa juu ya nguzo za:
+about-playbook-how-project-governance-content-3 = Faragha, usalama na uwazi.
 
 ## Glossary
 
