@@ -20,7 +20,7 @@ export const ContributeMenuContent: React.FC<ContributeMenuContentProps> = ({
 
   return (
     <div className={className}>
-      <Localized id="contribute-nav-header-item-1">
+      <Localized id="contribute-voice-collection-nav-header">
         <p className="nav-header-item" />
       </Localized>
       <ul>

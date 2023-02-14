@@ -962,7 +962,7 @@ target-segment-add-voice = Add Your Voice
 target-segment-learn-more = Learn More
 
 ## Contribution Nav Items
-contribute-nav-header-item-1=Voice Collection
+contribute-voice-collection-nav-header=Voice Collection
 
 ## Reporting
 report = Report
