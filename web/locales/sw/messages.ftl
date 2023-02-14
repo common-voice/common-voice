@@ -1004,6 +1004,7 @@ contribution-for-example = Kwa mfano
 contribution-misreadings-example-4-explanation = [Mengi zaidi yamerekodiwa kuliko maandishi yanayohitajika]
 contribution-misreadings-example-5-title = Tunakwenda nje kunywa kahawa.
 contribution-misreadings-example-6-title = Tunakwenda nje kunywa kahawa.
+contribution-misreadings-example-6-explanation = [Inapaswa kuwa "Sisi ni"]
 contribution-misreadings-example-7-title = Tunakwenda nje kunywa kahawa.
 contribution-misreadings-example-7-explanation = [Hakuna ‘a’ katika maandishi asili]
 contribution-misreadings-example-8-explanation = [Maudhui yasiyolingana]
