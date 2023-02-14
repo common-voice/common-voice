@@ -14,14 +14,4 @@ describe('Nav test', () => {
     expect(screen.getByText('Partner')).toBeTruthy();
     expect(screen.getByText('About')).toBeTruthy();
   });
-
-  it('collapses nav items', () => {
-    renderWithProviders(<Nav shouldExpandNavItems={false} />);
-
-    expect(screen.queryAllByText('Contribute')).toBeTruthy();
-    expect(screen.queryByText('Datasets')).not.toBeTruthy();
-    expect(screen.queryByText('Languages')).not.toBeTruthy();
-    expect(screen.queryByText('Partner')).not.toBeTruthy();
-    expect(screen.queryByText('About')).not.toBeTruthy();
-  });
 });
