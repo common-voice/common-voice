@@ -6,6 +6,7 @@ import { RouteComponentProps, withRouter } from 'react-router';
 import { TextButton } from '../../ui/ui';
 import { ChevronDown } from '../../ui/icons';
 import { ContributeMenuContent } from './contribute-menu-content';
+import URLS from '../../../urls';
 
 interface ContributeMenuProps extends RouteComponentProps {
   showMenu: boolean;
@@ -36,7 +37,7 @@ const ContributeMenu: React.FC<ContributeMenuProps> = ({
   };
 
   return (
-    <div>
+    <div className="contribute-wrapper">
       <div id="contribute-btn-wrapper">
         <Localized id="contribute">
           <TextButton
@@ -70,7 +71,9 @@ const ContributeMenu: React.FC<ContributeMenuProps> = ({
         </div>
         {(showMobileMenu || isContributionPageActive) && (
           <div
-            className="menu-wrapper-mobile"
+            className={classNames('menu-wrapper-mobile', {
+              'listen-active': location.pathname.includes(URLS.LISTEN),
+            })}
             data-testid="contribute-mobile-menu">
             <ContributeMenuContent pathname={location.pathname} />
           </div>

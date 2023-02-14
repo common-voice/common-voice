@@ -50,6 +50,7 @@ interface LayoutProps
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
     RouteComponentProps<any, any, any> {
   children?: React.ReactNode;
+  shouldHideFooter?: boolean;
 }
 
 interface LayoutState {
@@ -154,7 +155,7 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
   };
 
   render() {
-    const { children, locale, location, user } = this.props;
+    const { children, locale, location, user, shouldHideFooter } = this.props;
     const {
       challengeTeamToken,
       challengeToken,
@@ -300,7 +301,7 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
         <main id="content">
           {children ? children : <Content location={location} />}
         </main>
-        <Footer />
+        {shouldHideFooter ? <></> : <Footer />}
         <div
           id="navigation-modal"
           className={this.state.isMenuVisible ? 'active' : ''}>

@@ -58,14 +58,14 @@ const Nav: React.FC<NavProps> = ({
           />
         </ContributableLocaleLock>
         <span className="divider" />
-        {shouldExpandNavItems && (
+        <div className={shouldExpandNavItems ? 'fade-in' : 'fade-out'}>
           <>
             <LocalizedNavLink id="datasets" to={URLS.DATASETS} />
             <LocalizedNavLink id="languages" to={URLS.LANGUAGES} />
             <LocalizedNavLink id="partner" to={URLS.PARTNER} />
             <LocalizedNavLink id="about" to={URLS.ABOUT} />
           </>
-        )}
+        </div>
       </div>
       {children}
     </nav>

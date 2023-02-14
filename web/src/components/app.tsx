@@ -215,7 +215,7 @@ let LocalizedPage: any = class extends React.Component<
               path={toLocaleRoute(route)}
               render={props =>
                 isContributable ? (
-                  <Layout>
+                  <Layout shouldHideFooter>
                     <Component {...props} />
                   </Layout>
                 ) : (

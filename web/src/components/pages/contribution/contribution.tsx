@@ -16,9 +16,14 @@ import {
   getTrackClass,
 } from '../../../services/tracker';
 import URLS from '../../../urls';
-import { LocaleLink } from '../../locale-helpers';
+import { LocaleLink, LocaleNavLink } from '../../locale-helpers';
 import Modal from '../../modal/modal';
-import { KeyboardIcon, SkipIcon, ExternalLinkIcon } from '../../ui/icons';
+import {
+  KeyboardIcon,
+  SkipIcon,
+  ExternalLinkIcon,
+  ArrowLeft,
+} from '../../ui/icons';
 import { Button, StyledLink, LabeledCheckbox } from '../../ui/ui';
 import { PrimaryButton } from '../../primary-buttons/primary-buttons';
 import ShareModal from '../../share-modal/share-modal';
@@ -27,9 +32,10 @@ import Wave from './wave';
 import { FirstPostSubmissionCta } from './speak/firstSubmissionCTA/firstPostSubmissionCTA';
 import { Notifications } from '../../../stores/notifications';
 
-import './contribution.css';
 import { SecondPostSubmissionCTA } from './speak/secondSubmissionCTA/secondSubmissionCTA';
 import Success from './success';
+
+import './contribution.css';
 
 export const SET_COUNT = 5;
 
@@ -227,6 +233,8 @@ class ContributionPage extends React.Component<ContributionPageProps, State> {
       type,
       shouldShowFirstCTA,
       shouldShowSecondCTA,
+      user,
+      demoMode,
     } = this.props;
     const { showReportModal, showShareModal, showShortcutsModal } = this.state;
 
@@ -273,6 +281,36 @@ class ContributionPage extends React.Component<ContributionPageProps, State> {
             shouldShowSecondCTA ? 'second-cta-visible' : '',
           ].join(' ')}>
           <div className="top">
+            {demoMode && (
+              <LocaleLink
+                to={
+                  user.account && !demoMode
+                    ? URLS.DASHBOARD
+                    : demoMode
+                    ? URLS.DEMO_CONTRIBUTE
+                    : URLS.ROOT
+                }
+                className="back">
+                <ArrowLeft />
+              </LocaleLink>
+            )}
+
+            {demoMode && (
+              <div className="links">
+                <Localized id="speak">
+                  <LocaleNavLink
+                    className={getTrackClass('fs', `toggle-speak`)}
+                    to={URLS.DEMO_SPEAK}
+                  />
+                </Localized>
+                <Localized id="listen">
+                  <LocaleNavLink
+                    className={getTrackClass('fs', `toggle-listen`)}
+                    to={URLS.DEMO_LISTEN}
+                  />
+                </Localized>
+              </div>
+            )}
             <div className="mobile-break" />
           </div>
           {this.renderContent()}
