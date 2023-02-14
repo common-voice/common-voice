@@ -571,6 +571,10 @@ about-playbook-how-access-dataset = Je, ninawezaje kufikia na kutumia mkusanyiko
 about-playbook-how-project-governance = Je, maamuzi ya mradi hufanywaje?
 about-playbook-how-project-governance-content-2 = Utawala wetu umejengwa juu ya nguzo za:
 about-playbook-how-project-governance-content-3 = Faragha, usalama na uwazi.
+about-playbook-how-project-governance-content-4 = Ushiriki wa jamii na kufanya maamuzi.
+about-playbook-how-project-governance-content-5 = Thamani na kutambuliwa.
+about-playbook-how-project-governance-content-6 = Uwajibikaji wa pande zote.
+about-playbook-how-project-governance-content-7 = <governanceLink>Soma zaidi kuhusu jinsi tunavyotawaliwa</governanceLink>
 
 ## Glossary
 
@@ -629,6 +633,7 @@ review-delete-recordings = Futa rekodi zangu
 
 ## Datasets Page
 
+datasets-heading = Daftari
 datasets-headline = Tunaunda chanzo wazi la hifadhidata ya sauti yenye lugha nyingi tofauti ambayo kila mtu anaweza kutumia kufudhisha programu ambazo zina uwezo wa kutambua sauti.
 datasets-positioning =
     Tunaamini kuwa hifadhidata kubwa ya sauti, inayopatikana kwa umma itakuza uvumbuzi na ushindani mzuri wa kibiashara katika kufunza mashine inayotegemea teknojia ya sauti.
@@ -710,6 +715,16 @@ other-language = Lugha Nyingine
 
 ## Request Language Pages
 
+request-language-heading = Uliza kuhusu lugha mpya
+request-language-form-email =
+    .label = Barua pepe yako
+request-language-form-info =
+    .label = Taarifa kuhusu lugha
+request-language-form-info-explanation-list-1 = Majina ya lugha yako
+request-language-google-recaptcha-required = reCAPTCHA inahitajika ikiwa unataka kuendelea
+request-language-google-recaptcha-error = Kuna hitilafu na reCAPTCHA. Tafadhali jaribu tena.
+# Success page
+request-language-success-heading = Asante! Umetuma uchunguzi wa lugha mpya
 
 ## Languages Overview
 
