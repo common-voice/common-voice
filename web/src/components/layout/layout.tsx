@@ -1,4 +1,5 @@
 import { Localized } from '@fluent/react';
+import classNames from 'classnames';
 import * as React from 'react';
 import { connect } from 'react-redux';
 import { RouteComponentProps, Redirect, withRouter } from 'react-router';
@@ -34,6 +35,7 @@ import {
   challengeTokens,
 } from 'common';
 import API from '../../services/api';
+
 interface PropsFromState {
   locale: Locale.State;
   user: User.State;
@@ -248,7 +250,10 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
               />
               <button
                 id="hamburger-menu"
-                className={isMenuVisible ? 'active' : ''}>
+                className={classNames({
+                  active: isMenuVisible,
+                  'logged-in': user.account,
+                })}>
                 {user.account ? (
                   <LinkButton href="/profile" className="avatar">
                     <Avatar url={user.account.avatar_url} />

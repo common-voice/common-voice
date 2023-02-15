@@ -393,6 +393,14 @@
             margin-top: 3.5vh;
         }
 
+        @media (--sm-down) {
+            margin-bottom: 3.5rem;
+        }
+
+        @media (--md-only) {
+            margin-bottom: 2.5rem;
+        }
+
         button img {
             margin-inline-end: 10px;
         }

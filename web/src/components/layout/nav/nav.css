@@ -13,6 +13,7 @@
         @media (--md-down) {
             display: flex;
             flex-direction: row;
+            height: var(--header-height);
             align-items: center;
             padding-left: var(--page-margin);
         }
@@ -31,19 +32,26 @@
             display: flex;
             margin: 0 auto;
             max-width: var(--desktop-width);
-            padding: 0 var(--page-margin);
+            padding: 0 4rem;
 
             @media (--md-down) {
                 margin: 0;
                 width: 100%;
                 background: var(--grey);
                 padding-left: 0px;
+                height: 100%;
+                align-items: center;
             }
 
             & .selected-option {
                 background: var(--desert-storm);
                 padding: 12px;
                 flex-wrap: wrap;
+                height: 100%;
+
+                @media (--md-down) {
+                    padding: 20px 12px;
+                }
 
                 & path,
                 g {
@@ -441,9 +449,13 @@ header {
 }
 
 #hamburger-menu {
-    width: 80px;
+    width: 100px;
     border: none;
     padding: 0;
+
+    &.logged-in {
+        width: 80px;
+    }
 
     @media (--lg-up) {
         display: none;
