@@ -15,7 +15,9 @@ email-opt-in-privacy-v2 = <privacyLink>Хосусилек сәйәсәтендә
 indicates-required = Мотлаҡ тултырырға
 not-available-abbreviation = Бирелмәгән
 banner-error-slow-1 = Ғәфү итегеҙ, "Common Voice" әле яй эшләй. Ҡыҙыҡһыныуығыҙ өсөн рәхмәт.
-error-something-went-wrong = Ғәфү, бер нәмә лә килеп сыҡманы.
+banner-error-slow-2 = Күп трафик алабыҙ һәм әле был мәсьәләне тикшерәбеҙ.
+banner-error-slow-link = Сәхифәнең торошо
+error-something-went-wrong = Ғәфү итегеҙ, нимәлер дөрөҫ килеп сыҡманы
 error-clip-upload = Тейәгәндә хата булды, кире эшләп ҡарайһығыҙмы?
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
