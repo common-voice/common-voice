@@ -899,6 +899,10 @@ target-segment-first-banner = 幫助 Common Voice 設定 { $locale } 的第一�
 target-segment-add-voice = 加入您的聲音
 target-segment-learn-more = 了解更多
 
+## Contribution Nav Items
+
+contribute-nav-header-item-1 = 收集語音
+
 ## Reporting
 
 report = 回報

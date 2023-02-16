@@ -932,6 +932,10 @@ target-segment-first-banner = Helfen Sie dabei, das erste Zielsegment von Common
 target-segment-add-voice = Fügen Sie Ihre Stimme hinzu
 target-segment-learn-more = Weitere Informationen
 
+## Contribution Nav Items
+
+contribute-nav-header-item-1 = Stimmensammlung
+
 ## Reporting
 
 report = Melden

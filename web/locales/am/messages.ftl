@@ -52,7 +52,7 @@ ca = ካታላን
 cak = ካክቺከል
 ckb = ማዕከላዊ ኩርዲሽ
 cnh = ሀካ ቺን
-co = ክሮሽያን
+co = ኮርሲካንኛ
 cs = ቼክ
 cv = ቹቫሽ
 cy = ዌልስ
@@ -223,7 +223,7 @@ zza = ዛዛ
 
 speak = ተናገር
 speak-now = አሁን ተናገር
-datasets = የመረጃ ቋት
+datasets = የውሂብ ስብስቦች
 languages = ቋንቋዎች
 about = ስለ
 partner = አጋር
@@ -233,9 +233,9 @@ contact = እውቂያ
 privacy = ግላዊነት
 terms = ደንቦች
 cookies = ኩኪዎች(የሚሸጎጡ)
-faq = FAQ (አዘውትረው የሚጠየቁ)
-content-license-text = ዝርዝሩ በ <licenseLink> በፈጠራ የጋራ ፈቃድ </licenseLink> ስር ይገኛል።
-share-title = ሌሎች ድምፃቸውን አነዲሰጡ በማድረግ ይተባበሩን።
+faq = (ብየጥ) ብዙ ጊዜ የሚጠየቁ ጥያቄዎች
+content-license-text = ዝርዝሩ በ <licenseLink> ክሬቲቭ ኮመንስ ፈቃድ </licenseLink> ስር ይገኛል።
+share-title = ድምፃቸዉን የሚለግሱን ሌሎች ሰዎች እንድናገኝ ያግዙን!
 share-text = እውነተኛ ሰዎች እንዴት እንደሚናገሩ ማሽኖችን ለማስተማር ይረዱ ፣ ድምጽዎን በ { $link } ላይ ያቅርቡ
 link-copied = የአገናኝ አድራሻ ቅዳ
 back-top = ወደ ላይ ተመለስ
@@ -951,6 +951,10 @@ target-segment-first-banner = በ{ $locale } ውስጥ የጋራ ልሳንን �
 target-segment-add-voice = ድምጽዎን ይጨምሩ
 target-segment-learn-more = ተጨማሪ ይወቁ
 
+## Contribution Nav Items
+
+contribute-nav-header-item-1 = የድምጽ ስብስብ
+
 ## Reporting
 
 report = ሪፖርት ያድርጉ
@@ -1465,6 +1469,9 @@ sc-confirm-ready =
         [one] 1 ዓረፍተ ነገር ለመግባት ዝግጁ ነው!
        *[other] { $readyCount } ዓረፍተ ነገሮች ለመግባት ዝግጁ ናቸው!
     }
+# Variables:
+#   $countOfUnreviewed (Number) - Number of sentences unreviewed before the upload
+sc-confirm-unreviewed = { $countOfUnreviewed } ዓረፍተ-ነገሮች አልተገመገሙም። ከፈለጉ፣ ከማስገባትዎ በፊት የእርስዎን ዓረፍተ-ነገሮች አሁን መከለስ ይችላሉ።
 sc-confirm-button-text = አረጋግጥ
 sc-confirm-uploading = ዓረፍተ ነገሮች እየተሰቀሉ ነው። ይህ በተጨመሩት ዓረፍተ ነገሮች ብዛት ላይ በመመስረት ብዙ ደቂቃዎችን ሊወስድ ይችላል። እባኮትን ይህን ድህረ ገጽ አትዝጉት።
 
@@ -1565,9 +1572,9 @@ sc-review-form-button-approve = አጽድቅ
 # Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
 sc-review-form-button-approve-shortcut = ዓ
 # Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
-sc-review-form-button-reject-shortcut = ኖ
+sc-review-form-button-reject-shortcut = ው
 # Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
-sc-review-form-button-skip-shortcut = ቅ
+sc-review-form-button-skip-shortcut = ዝ
 sc-review-form-keyboard-usage-custom = እንዲሁም የቁልፍ ሰሌዳ አቋራጮችን መጠቀም ይችላሉ፡ { sc-review-form-button-approve-shortcut } ለማጽደቅ፣ { sc-review-form-button-reject-shortcut } ውድቅ ለማድረግ፣ { sc-review-form-button-skip-shortcut } ለመዝለል
 sc-review-form-button-submit =
     .submitText = ግምገማን ጨርስ

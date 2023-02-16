@@ -1,12 +1,13 @@
 ## General
 
-stayintouch = Sisi katika Mozilla tunajenga jamii inayohusika na teknolojia ya sauti. Tungependa kuendelea kupokea visasisho, vyanzo vipya vya data na kujuzwa zaidi kuhusu jinsi unavyotumia data hii
-privacy-info = Tunaahidi kushughulikia maelezo yako kwa uangalifu. Soma zaidi katika <privacyLink> sera yetu ya faragha </privacyLink>.
+yes-receive-emails = Ndio, nitumie barua pepe. Ningependa kuarifiwa kuhusu Mradi wa Common Voice.
+stayintouch = Sisi katika Mozilla tunajenga jamii inayohusika na teknolojia ya sauti. Tungependa kuzidi kupokea visasisho, vyanzo vipya vya data na kujuzwa zaidi kuhusu jinsi unavyotumia data hii
+privacy-info = Tunaahidi kushughulikia maelezo yako kwa uangalifu. Soma maelezo zaidi kwenye <privacyLink> sera yetu ya faragha </privacyLink>.
 return-to-cv = Rudi kwa Common Voice
 email-input =
     .label = Barua pepe
 submit-form-action = wasilisha
-loading = Kupakia…
+loading = inpakia…
 email-opt-in-info =
     Ningependa kupokea barua pepe kama ukumbusho wa lengo, sasisho zangu za maendeleo na 
     majarida kuhusu huduma za Common Voice.
@@ -233,7 +234,7 @@ speak-paragraph = Kurekodi vipande vya sauti ni sehemu muhimu ya kujenga daftari
 speak-goal-text = Vipande vilivyo rekodiwa
 listen-subtitle = Tusaidie kuthibitisha sauti
 listen-paragraph = Kuhalalisha vipande vya sauti vilivyochangiwa ni muhimu kwa dhamira ya Common Voice. Sikiliza na utusaidie kuunda data ya sauti ya chanzo wazi bora.
-listen-goal-text = vipande vilivyo halalishwa
+listen-goal-text = vipande vilivyodhibitishwa
 hours-recorded = masaa yaliyorekodiwa
 hours-validated = masaa yaliyo halalishwa
 voices-online = Sauti ziko mtandaoni sana
@@ -557,6 +558,7 @@ about-playbook-how-grow-language-content-4 = Mtandao wa kijamii
 
 ## How to validate
 
+about-playbook-how-validate = Nitajuaje kama nitaidhinisha kipande cha sauti?
 about-playbook-how-validate-content-1 = Ikiwa ungeweza <strong>kuzisikia</strong> na <strong>kuzielewa</strong>, kwa kawaida ni <strong>bora zaidi kuziidhinisha</strong>.
 about-playbook-how-validate-content-2 = <strong>Usikatae vipande vya sauti ambavyo mzungumzaji ‘ana lafudhi’ ambayo ni tofauti na yako</strong> - hii ni muhimu ili utambuzi wa sauti ifanye kazi vyema kwa kila mtu.
 
@@ -566,6 +568,13 @@ about-playbook-how-access-dataset = Je, ninawezaje kufikia na kutumia mkusanyiko
 
 ## How are decisions made
 
+about-playbook-how-project-governance = Je, maamuzi ya mradi hufanywaje?
+about-playbook-how-project-governance-content-2 = Utawala wetu umejengwa juu ya nguzo za:
+about-playbook-how-project-governance-content-3 = Faragha, usalama na uwazi.
+about-playbook-how-project-governance-content-4 = Ushiriki wa jamii na kufanya maamuzi.
+about-playbook-how-project-governance-content-5 = Thamani na kutambuliwa.
+about-playbook-how-project-governance-content-6 = Uwajibikaji wa pande zote.
+about-playbook-how-project-governance-content-7 = <governanceLink>Soma zaidi kuhusu jinsi tunavyotawaliwa</governanceLink>
 
 ## Glossary
 
@@ -624,6 +633,7 @@ review-delete-recordings = Futa rekodi zangu
 
 ## Datasets Page
 
+datasets-heading = Daftari
 datasets-headline = Tunaunda chanzo wazi la hifadhidata ya sauti yenye lugha nyingi tofauti ambayo kila mtu anaweza kutumia kufudhisha programu ambazo zina uwezo wa kutambua sauti.
 datasets-positioning =
     Tunaamini kuwa hifadhidata kubwa ya sauti, inayopatikana kwa umma itakuza uvumbuzi na ushindani mzuri wa kibiashara katika kufunza mashine inayotegemea teknojia ya sauti.
@@ -705,6 +715,16 @@ other-language = Lugha Nyingine
 
 ## Request Language Pages
 
+request-language-heading = Uliza kuhusu lugha mpya
+request-language-form-email =
+    .label = Barua pepe yako
+request-language-form-info =
+    .label = Taarifa kuhusu lugha
+request-language-form-info-explanation-list-1 = Majina ya lugha yako
+request-language-google-recaptcha-required = reCAPTCHA inahitajika ikiwa unataka kuendelea
+request-language-google-recaptcha-error = Kuna hitilafu na reCAPTCHA. Tafadhali jaribu tena.
+# Success page
+request-language-success-heading = Asante! Umetuma uchunguzi wa lugha mpya
 
 ## Languages Overview
 
@@ -1004,6 +1024,7 @@ contribution-for-example = Kwa mfano
 contribution-misreadings-example-4-explanation = [Mengi zaidi yamerekodiwa kuliko maandishi yanayohitajika]
 contribution-misreadings-example-5-title = Tunakwenda nje kunywa kahawa.
 contribution-misreadings-example-6-title = Tunakwenda nje kunywa kahawa.
+contribution-misreadings-example-6-explanation = [Inapaswa kuwa "Sisi ni"]
 contribution-misreadings-example-7-title = Tunakwenda nje kunywa kahawa.
 contribution-misreadings-example-7-explanation = [Hakuna ‘a’ katika maandishi asili]
 contribution-misreadings-example-8-explanation = [Maudhui yasiyolingana]
@@ -1019,9 +1040,20 @@ see-more = <chevron></chevron>Angalia zaidi
 
 ## HEADER/FOOTER
 
+sc-header-add = Ongeza
+sc-header-rejected = Sentensi zilizokataliwa
+sc-header-my = Sentensi zangu
+sc-header-statistics = Takwimu
+sc-header-profile = Wasifu
+sc-footer-translate = Tafsiri ukurasa huu
+sc-footer-privacy = Faragha
+sc-footer-terms = Masharti
+sc-login-signup-button = Ingia / Jisajili
+sc-logout-button = Ondoka
 
 ## HOME
 
+sc-home-collect-title = Kusanya sentensi
 
 ## GENERAL
 
@@ -1055,12 +1087,20 @@ see-more = <chevron></chevron>Angalia zaidi
 
 ## PROFILE
 
+sc-personal-remove-button = ondoa
 
 ## REVIEW CRITERIA
 
 
 ## REVIEW
 
+sc-review-form-button-approve = Idhinisha
+# Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
+sc-review-form-button-approve-shortcut = Y
+# Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
+sc-review-form-button-reject-shortcut = N
+# Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
+sc-review-form-button-skip-shortcut = S
 
 ## SETTINGS
 
