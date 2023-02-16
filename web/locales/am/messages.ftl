@@ -951,6 +951,10 @@ target-segment-first-banner = በ{ $locale } ውስጥ የጋራ ልሳንን �
 target-segment-add-voice = ድምጽዎን ይጨምሩ
 target-segment-learn-more = ተጨማሪ ይወቁ
 
+## Contribution Nav Items
+
+contribute-nav-header-item-1 = የድምጽ ስብስብ
+
 ## Reporting
 
 report = ሪፖርት ያድርጉ
