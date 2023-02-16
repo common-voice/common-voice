@@ -541,6 +541,7 @@ about-nav-playbook = 了解點樣成爲我哋一份子
 ## What is a language
 
 about-playbook-what-is-language-content-1 = 對語言嘅睇法有好多種。以語音識別模型嘅用途嚟講，Common Voice 建議集中喺「容易互相理解」或者「如果呢種語言嘅講者想互相理解，佢哋做唔做得到？」
+about-playbook-what-is-language-content-3 = 有啲語言嘅文法、詞彙同發音差異可以好大。因此，我哋喺 2022 年<ctaLink>引入咗「語言變體」</ctaLink>。令各個社群能夠喺更完善嘅數據集中準確識別語言。
 
 ## How do I add a language
 

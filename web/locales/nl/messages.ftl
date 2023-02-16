@@ -600,7 +600,7 @@ about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollec
 
 about-playbook-how-localize = Hoe werkt websitelocalisatie?
 about-playbook-how-localize-content-1 = De vertaling van de Common Voice-website gebeurt op <strong>Pontoon</strong>.
-about-playbook-how-localize-content-2 = <pontoonAccountLink>Maak een account aan</pontoonAccountLink> als u er nog geen heeft. Kies vervolgens uw taal <strong>(‘Team’)</strong> en kies vervolgens het project, <pontoonCvLink>Common Voice</pontoonCvLink>. Er zullen bestanden zijn om te vertalen. Klik op een ervan, dan toont Pontoon woorden in het Engels en een vak om ze te vertalen.
+about-playbook-how-localize-content-2 = <pontoonAccountLink>Maak een account aan</pontoonAccountLink> als u er nog geen hebt. Kies vervolgens uw taal <strong>(‘Team’)</strong> en kies vervolgens het project, <pontoonCvLink>Common Voice</pontoonCvLink>. Er zullen bestanden zijn om te vertalen. Klik op een ervan, dan toont Pontoon woorden in het Engels en een vak om ze te vertalen.
 about-playbook-how-localize-content-3 = De vertaling is uit het Engels, maar u kunt <strong>Suggesties</strong> in andere talen zien. Klik op het pictogram <strong>Profiel</strong>, vervolgens op de koppeling <strong>Settings</strong> en voeg eventuele talen toe die u spreekt. In de rechterbenedenhoek staat een lijst met vertalingen genaamd <strong>Locales</strong>. Vertalingen verschijnen na een dag op de website.
 about-playbook-how-localize-content-4 = De website kan worden gelanceerd wanneer 75% is voltooid.
 about-playbook-how-localize-content-5 = Bekijk onze video-uitleg om te helpen

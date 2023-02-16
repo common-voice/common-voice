@@ -1408,7 +1408,7 @@ sc-confirm-sentences-title = Подтверждение новых предло�
 #   $countOfSentences (Number) - Number of sentences the user has filled in the submission form
 sc-confirm-sentences-found =
     { $countOfSentences ->
-        [0] Предложения не найдены
+        [0] Предложения не найдены.
         [one] Найдено { $countOfSentences } предложение.
         [few] Найдены { $countOfSentences } предложения.
        *[many] Найдено { $countOfSentences } предложений.

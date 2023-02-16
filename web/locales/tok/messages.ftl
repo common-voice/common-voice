@@ -18,6 +18,10 @@ banner-error-slow-1 = mi pakala. ilo Common Voice li pakala lili. sina pona tan 
 banner-error-slow-2 = jan mute li kama tawa ilo. mi alasa sona e pakala.
 banner-error-slow-link = ilo li pilin seme?
 error-something-went-wrong = ijo li pakala.
+error-clip-upload = mi ken ala pana e kalama sina. mi o awen alasa pana e ona anu seme?
+error-clip-upload-server =
+    mi awen ken ala pana.
+    o sin e lipu ni, anu kama sin lon tenpo kama.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -40,10 +44,12 @@ ba = toki Pakosa
 bas = toki Pasawa
 be = toki Pijelalukaja
 bg = toki Pokasi
+bm = toki Pamanankan
 bn = toki Panla
 br = toki Peson
 bs = toki Posan
 bxr = toki Pulijata
+byv = toki Makijunpa
 ca = toki Katala
 cak = toki Kakisike
 ckb = toki Solani
@@ -53,6 +59,7 @@ cs = toki Seki
 cv = toki Sepasula
 cy = toki Kinla
 da = toki Tansi
+dag = toki Takani
 de = toki Tosi
 dsb = toki Tonosesuki
 dv = toki Sipeki
@@ -76,6 +83,7 @@ gom = toki Konki
 ha = toki Awasa
 he = toki Iwisi
 hi = toki Insi
+hil = toki Ilikanan
 hr = toki Lowasi
 hsb = toki Konkosepusina
 ht = toki Awisi
@@ -90,6 +98,7 @@ is = toki Isilenka
 it = toki Italija
 izh = toki Inkelon
 ja = toki Nijon
+jbo = toki Losupan
 ka = toki Katuli
 kaa = toki Kalakapa
 kab = toki Sakeli
@@ -98,6 +107,7 @@ ki = toki Kekojo
 kk = toki Kasakusa
 km = toki Kemalapisa
 kmr = toki Kunlansi
+kn = toki Kanata
 knn = toki Konkani (sitelen Tepanakali)
 ko = toki Anku, toki Soson
 kpv = toki Komi Sijan
@@ -106,6 +116,8 @@ ky = toki Kukusa
 lb = toki Lesepoje
 lg = toki Lukanta
 lij = toki Likile
+ln = toki Linkala
+lo = toki Pasala
 lt = toki Lijetupiju
 lv = toki Lapijesu
 mai = toki Metili
@@ -125,10 +137,12 @@ my = toki Mijama
 myv = toki Elisijan
 nan-tw = toki Minan
 nb-NO = toki Nosiki lipu
+nd = toki Isintepele Sasenjakato
 ne-NP = toki Nepali
 nia = toki Linika
 nl = toki Netelan
 nn-NO = toki Nosiki sin
+nr = toki Isintepele Sesewula
 nso = toki Soto Noto
 nyn = toki Lunjankole
 oc = toki Usita
@@ -155,6 +169,7 @@ si = toki Sinala
 sk = toki Sopa
 skr = toki Salaki
 sl = toki Soleni
+snk = toki Soninkankane
 so = toki Somalija
 sq = toki Sipe
 sr = toki Sepi
@@ -178,6 +193,7 @@ ts = toki Sisonka
 tt = toki Tatasa
 tw = toki Sijuwi
 ty = toki Tasiti
+tyv = toki Tuwa
 uby = toki Tuwekise
 udm = toki Untu
 ug = toki Uwiku
@@ -188,14 +204,17 @@ ve = toki Sipenta
 vec = toki Peneto
 vi = toki Wije
 vot = toki Patija
+wo = toki Olo
 xh = toki Sosa
 yi = toki Isi
 yo = toki Jolupa
 yue = toki Kantun
+zgh = toki Samasi
 zh-CN = toki Sonko
 zh-HK = toki Onkon
 zh-TW = toki Tawan
 zu = toki Sulu
+zza = toki Sasa
 
 # [/]
 
@@ -207,6 +226,7 @@ speak-now = o toki uta
 datasets = kulupu kalama
 languages = toki
 about = sona
+partner = kulupu poka
 profile = lipu jan
 help = o pona e mi
 contact = o toki tawa lawa
@@ -399,6 +419,7 @@ why-demographic = ni li suli tan seme?
 why-demographic-explanation-2 = sona ni li pona e ilo kute: tenpo sike lon en kule kon en nasin kalama toki. ijo ala li ken lukin e nimi sina lon poka pi sona sina. sina wile la sina ken len e nimi sina.
 accept-privacy = ni li pona: ilo li jo e sona mi kepeken <privacyLink>nasin pi len sona</privacyLink> pi kulupu Mozilla
 accept-privacy-title = nasin pi len sona li pona tawa mi
+accept-privacy-and-terms = <termsLink>lawa kepeken</termsLink> en <privacyLink>nasin pi len sona</privacyLink> li pona tawa mi.
 login-identity = nasin nimi pi sijelo sina
 login-signup = o kama / o pali e sijelo ilo
 edit = o ante
@@ -694,6 +715,7 @@ datasets-positioning =
     
     o lukin e lipu ni tawa sona ni: mi pana e sona pi kulupu sona ante. ilo Common Voice li kama suli la, mi pana e sin ona tawa lipu ni.
 language = toki
+download-dataset-header = o kama jo e kulupu kalama
 # File size in gigabytes
 size = suli
 validated-hr-total = nanpa tenpo pona
@@ -739,6 +761,9 @@ more = o mute
 close = o pini
 download = o kama jo
 dataset-version = nanpa
+sha256-checksum-copied = sina kama jo e nanpa pi nasin SHA256!
+sha256-checksum-copied-error = pakala la sina kama ala jo e nanpa pi nasin SHA256
+clipboard-not-supported = sina ken ala kama jo e sitelen.
 
 ## Download Modal
 
@@ -1472,3 +1497,11 @@ sc-validation-no-abbreviations = o kepeken ala sitelen lili lon sitelen sina.
 
 localization-select =
     .label = o kepeken toki
+# PARTNERSHIPS PAGE
+partnerships-header = kulupu poka
+partnerships-header-text =
+    pali Common Voice li mute a!
+    ni la kulupu mute li kama li pali lon poka li pona e ilo.
+    sina wile ala wile poka? wile la o kama toki tawa mi!
+partnerships-get-in-touch = o kama toki
+partnerships-become-a-partner = o kama poka pi kulupu Common Voice
