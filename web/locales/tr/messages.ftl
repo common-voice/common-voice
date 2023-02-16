@@ -772,6 +772,7 @@ close = Kapat
 download = İndir
 dataset-version = Sürüm
 sha256-checksum-copied = SHA256 sağlama toplamı kopyalandı.
+sha256-checksum-copied-error = SHA256 sağlama toplamı kopyalanamadı
 clipboard-not-supported = Pano desteklenmiyor
 
 ## Download Modal

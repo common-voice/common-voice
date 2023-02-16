@@ -618,8 +618,8 @@ about-playbook-how-localize-content-5 = مدد کیتے ساݙے وڈیو تشر
 about-playbook-how-add-sentences = میں فقرے کین٘ویں شامل کر سڳداں؟
 about-playbook-how-add-sentences-content-1 = <strong>Sentence Collector</strong> عوامی ڈومین جملیاں کوں جمع کرݨ تے انہاں دی توثیق کرݨ دا ہک ٹول ہے۔ تہاکوں <scAccountLink>اکاؤنٹ بݨاوݨ دی ضرورت ہوسے </scAccountLink>۔ ول، اپݨی زبان کوݨ اپݨے <strong>پروفائل</strong> وِچ شامل کرو۔ تساں جملے <strong>شامل</strong> کر سڳدے او یا پہلے شامل کیتے ڳئے جملیاں دا <strong>جائزہ</strong> گھن سڳدے او۔
 about-playbook-how-add-sentences-content-2 =
-    کامن وائس وِچ شامل کیتے ونڄݨ کیتے جملیاں دا جائزہ گھنݨ تے ݙو لوکاں کو قبول کرݨا چاہیدا ہے۔ تساں اپݨی زبان کیتے رہنما خطوط <languageGuidelinesLink> اتھاں </languageGuidelinesLink> 
-     بݨیندے او۔ جملے <licenseLink> عوامی ڈومین </licenseLink> وِچ تے 15 الفاظ کنوں چھوٹے ہووݨے چاہیدے ہں۔ تساں ٹیکسٹ دے مالک کنوں <waiverLink> اساݙے چھوٹ دے عمل کوں استعمال کریندے ہوئے CC0</waiverLink> بݨاوݨ کیتے آکھ سڳدے او، تے اساکوں  commonvoice@mozilla.com تے بھیڄ سڳدے او۔
+    کامن وائس وِچ شامل کیتے ونڄݨ کیتے جملیاں دا جائزہ گھنݨ تے ݙو لوکاں کو قبول کرݨا چاہیدا ہے۔ تساں اپݨی زبان کیتے ہدایت نامہ  <languageGuidelinesLink> اتھاں </languageGuidelinesLink> 
+     بݨیندے ہو۔ جملے <licenseLink> عوامی ڈومین </licenseLink> وِچ تے 15 الفاظ کنوں چھوٹے ہووݨے چاہیدے ہں۔ تساں ٹیکسٹ دے مالک کنوں <waiverLink> اساݙے چھوٹ دے عمل کوں استعمال کریندے ہوئے CC0</waiverLink> بݨاوݨ کیتے آکھ سڳدے او، تے اساکوں  commonvoice@mozilla.com تے بھیڄ سڳدے او۔
 about-playbook-how-add-sentences-content-3 = تساں وکی پیڈیا کنوں مختصر جملیاں دا فائدہ چاوݨ کیتے <scraperLink> جملے نکھیڑݨ والا </scraperLink> استعمال کرسڳدے او۔
 about-playbook-how-add-sentences-content-4 = جہڑے جملے تصدیق تھی ویندن او ٻُدھ کوں ایکسپورٹ تھیندن تے اڳلی ریلیز وچ دستیاب ہوندن۔
 

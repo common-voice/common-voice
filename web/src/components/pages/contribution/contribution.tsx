@@ -5,7 +5,6 @@ import {
 } from '@fluent/react';
 import * as React from 'react';
 import { connect } from 'react-redux';
-import { Tooltip } from 'react-tippy';
 import { Flags } from '../../../stores/flags';
 import { Locale } from '../../../stores/locale';
 import StateTree from '../../../stores/tree';
@@ -20,10 +19,10 @@ import URLS from '../../../urls';
 import { LocaleLink, LocaleNavLink } from '../../locale-helpers';
 import Modal from '../../modal/modal';
 import {
-  ArrowLeft,
   KeyboardIcon,
   SkipIcon,
   ExternalLinkIcon,
+  ArrowLeft,
 } from '../../ui/icons';
 import { Button, StyledLink, LabeledCheckbox } from '../../ui/ui';
 import { PrimaryButton } from '../../primary-buttons/primary-buttons';
@@ -33,9 +32,10 @@ import Wave from './wave';
 import { FirstPostSubmissionCta } from './speak/firstSubmissionCTA/firstPostSubmissionCTA';
 import { Notifications } from '../../../stores/notifications';
 
-import './contribution.css';
 import { SecondPostSubmissionCTA } from './speak/secondSubmissionCTA/secondSubmissionCTA';
 import Success from './success';
+
+import './contribution.css';
 
 export const SET_COUNT = 5;
 
@@ -227,22 +227,21 @@ class ContributionPage extends React.Component<ContributionPageProps, State> {
 
   render() {
     const {
-      hasErrors,
       getString,
-      isSubmitted,
       onSkip,
       reportModalProps,
       type,
-      user,
-      demoMode,
       shouldShowFirstCTA,
       shouldShowSecondCTA,
+      user,
+      demoMode,
     } = this.props;
     const { showReportModal, showShareModal, showShortcutsModal } = this.state;
 
     return (
       <div
         className="contribution-wrapper"
+        data-testid="contribution-page"
         onClick={() => this.selectPill(null)}>
         {showShareModal && (
           <ShareModal onRequestClose={this.toggleShareModal} />
@@ -282,45 +281,38 @@ class ContributionPage extends React.Component<ContributionPageProps, State> {
             shouldShowSecondCTA ? 'second-cta-visible' : '',
           ].join(' ')}>
           <div className="top">
-            <LocaleLink
-              to={
-                user.account && !demoMode
-                  ? URLS.DASHBOARD
-                  : demoMode
-                  ? URLS.DEMO_CONTRIBUTE
-                  : URLS.ROOT
-              }
-              className="back">
-              <ArrowLeft />
-            </LocaleLink>
-
-            <div className="links">
-              <Localized id="speak">
-                <LocaleNavLink
-                  className={getTrackClass('fs', `toggle-speak`)}
-                  to={demoMode ? URLS.DEMO_SPEAK : URLS.SPEAK}
-                />
-              </Localized>
-              <Localized id="listen">
-                <LocaleNavLink
-                  className={getTrackClass('fs', `toggle-listen`)}
-                  to={demoMode ? URLS.DEMO_LISTEN : URLS.LISTEN}
-                />
-              </Localized>
-            </div>
-            <div className="mobile-break" />
-
-            {!hasErrors && !isSubmitted && (
+            {demoMode && (
               <LocaleLink
-                blank
-                to={URLS.CRITERIA}
-                className="contribution-criteria hidden-sm-down">
-                <ExternalLinkIcon />
-                <Localized id="contribution-criteria-link" />
+                to={
+                  user.account && !demoMode
+                    ? URLS.DASHBOARD
+                    : demoMode
+                    ? URLS.DEMO_CONTRIBUTE
+                    : URLS.ROOT
+                }
+                className="back">
+                <ArrowLeft />
               </LocaleLink>
             )}
-          </div>
 
+            {demoMode && (
+              <div className="links">
+                <Localized id="speak">
+                  <LocaleNavLink
+                    className={getTrackClass('fs', `toggle-speak`)}
+                    to={URLS.DEMO_SPEAK}
+                  />
+                </Localized>
+                <Localized id="listen">
+                  <LocaleNavLink
+                    className={getTrackClass('fs', `toggle-listen`)}
+                    to={URLS.DEMO_LISTEN}
+                  />
+                </Localized>
+              </div>
+            )}
+            <div className="mobile-break" />
+          </div>
           {this.renderContent()}
         </div>
       </div>
