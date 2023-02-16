@@ -829,6 +829,9 @@ target-segment-first-banner = په { $locale } کې د ګډ غږ لومړي هد
 target-segment-add-voice = خپل غږ اضافه کړئ
 target-segment-learn-more = نور زده کړئ
 
+## Contribution Nav Items
+
+
 ## Reporting
 
 report = راپور
@@ -1081,6 +1084,7 @@ demo-dashboard-card-body = د هر غږیز کلیپ چې ډالۍ شوی، او
 
 ## REVIEW
 
+sc-review-form-button-reject = رد کړه
 
 ## SETTINGS
 
