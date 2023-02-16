@@ -415,6 +415,7 @@ why-demographic-explanation-2 = Nafnlaus notendagögn eins og um aldur, kyn og h
 accept-privacy = Mér finnst allt í lagi að þið meðhöndlið þessar upplýsingar eins og útskýrt er í <privacyLink>persónuverndarstefnu</privacyLink> Mozilla
 accept-privacy-title = Persónuverndarstefna
 login-identity = Innskráningarauðkenni
+login = Skrá inn
 login-signup = Skrá inn / Nýskrá
 edit = Breyta
 email-subscriptions = Tölvupóstáskriftir
@@ -739,6 +740,7 @@ confirm-size = Þú getur nú hafið niðurhal með stærðina <b>{ $size }</b>.
 size-gigabyte = GB
 size-megabyte = MB
 confirm-no-identify = <b>Þú samþykkir</b> að þú munir ekki reyna að bera kennsl á mælendur í gagnasafni Samróms.
+confirm-join-mailing-list = Ég vil skrá mig á póstlista Common Voice
 download-language = Sækja { $language }
 validated-hours = Staðfestar klukkustundir
 recorded-hours = Klukkustundir af upptökum
@@ -771,6 +773,9 @@ more = Meira
 close = Loka
 download = Sækja
 dataset-version = Útgáfa
+sha256-checksum-copied = SHA256-gátsumma afrituð!
+sha256-checksum-copied-error = Mistókst að afrita SHA256-gátsummu
+clipboard-not-supported = Klippispjald ekki stutt
 
 ## Download Modal
 
@@ -929,6 +934,10 @@ target-segment-generic-card = Þú leggur af mörkum til hlutamarkmiðs
 target-segment-first-banner = Hjálpaðu til við að klára fyrsta hlutamarkmið Samróms í { $locale }
 target-segment-add-voice = Bættu við röddinni þinni
 target-segment-learn-more = Fræðast meira
+
+## Contribution Nav Items
+
+contribute-voice-collection-nav-header = Raddasafn
 
 ## Reporting
 
@@ -1557,3 +1566,12 @@ partnerships-small-business-description = Við leggjum áherslu á að heyra fr�
 partnerships-corporates-header = Stórfyrirtæki og tækniþjónustufyrirtæki
 partnerships-corporates-description = Ef þú ert að leita að einhverju til að segja meira um gagnasafnið, vilt vera meðfjárfestir í fyrirhuguðum stækkunum kerfisins eða leitar að samstarfstækifærum, þá skaltu <emailFragment>senda okkur línu.</emailFragment>
 partnerships-our-partners = Samstarfsaðilar okkar
+# FIRST POST SUBMISSION CTA
+first-cta-header-text = Þakka þér fyrir að gefa raddbútana þína!
+why-donate = Afhverju spyrðu?
+add-information-button = Bæta við upplýsingum
+continue-speaking-button = Nei takk, halda áfram að tala
+# SECOND POST SUBMISSION CTA
+second-cta-header-text = Þakka þér fyrir að leggja þitt af mörkum!
+already-have-an-account = Ertu nú þegar með reikning? <login>Skrá inn</login>
+create-profile-button = Búa til notandasnið
