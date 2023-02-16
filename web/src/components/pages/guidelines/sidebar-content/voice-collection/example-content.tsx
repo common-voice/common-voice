@@ -26,8 +26,8 @@ export const ExampleContent: React.FC<ExampleContentProps> = ({
     </div>
     <div className="example-tips-container">
       <div>
-        {exampleTips.map(tip => (
-          <div key={tip.text} className="tip">
+        {exampleTips.map((tip, index) => (
+          <div key={`${tip.text}${index}`} className="tip">
             <span className="circle">
               {tip.icon === 'check' ? (
                 <CheckIcon className="check-icon" />
@@ -39,9 +39,11 @@ export const ExampleContent: React.FC<ExampleContentProps> = ({
               <Localized id={tip.text}>
                 <p />
               </Localized>
-              <Localized id={tip.explanation}>
-                <p />
-              </Localized>
+              {tip.explanation && (
+                <Localized id={tip.explanation}>
+                  <p />
+                </Localized>
+              )}
             </div>
           </div>
         ))}
