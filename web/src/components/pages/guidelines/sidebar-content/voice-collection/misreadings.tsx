@@ -1,7 +1,10 @@
 import { Localized } from '@fluent/react';
+import classNames from 'classnames';
 import React from 'react';
 
-import { NAV_IDS } from '../../constants';
+import { ChevronDown } from '../../../../ui/icons';
+import { SidebarContentProps } from '../sidebar-content';
+
 import { ExampleContent, ExampleTip } from './example-content';
 
 const exampleTips: ExampleTip[] = [
@@ -23,43 +26,58 @@ const exampleTips: ExampleTip[] = [
   },
 ];
 
-export const Misreadings = () => (
-  <div className="sidebar-content" id={NAV_IDS.MISREADINGS}>
-    <Localized id="misreadings">
-      <h3 className="guidelines-content-heading" />
-    </Localized>
-    <Localized id="misreadings-explanation-1">
-      <p className="guidelines-content-explanation" />
-    </Localized>
-    <Localized id="misreadings-explanation-2">
-      <p className="guidelines-content-explanation" />
-    </Localized>
-    <ul>
-      <Localized id="misreadings-explanation-3">
-        <li />
+export const Misreadings: React.FC<SidebarContentProps> = ({
+  id,
+  contentVisible,
+  toggleSectionVisible,
+}) => (
+  <div className="sidebar-content" id={id}>
+    <span className="line" />
+    <div className="sidebar-content-header">
+      <Localized id="misreadings">
+        <h3 className="guidelines-content-heading" />
       </Localized>
-      <Localized id="misreadings-explanation-4">
-        <li />
-      </Localized>
-      <Localized id="misreadings-explanation-5">
-        <li />
-      </Localized>
-      <Localized id="misreadings-explanation-6">
-        <li />
-      </Localized>
-      <Localized id="misreadings-explanation-7">
-        <li />
-      </Localized>
-    </ul>
-    <div>
-      <Localized id="example">
-        <p className="example" />
-      </Localized>
-      <ExampleContent
-        exampleText="misreadings-example-1"
-        exampleTips={exampleTips}
+      <ChevronDown
+        onClick={toggleSectionVisible}
+        className={classNames('chevron', { 'rotate-180': contentVisible })}
       />
     </div>
-    <span className="border" />
+    {contentVisible && (
+      <div className="content-wrapper">
+        <Localized id="misreadings-explanation-1">
+          <p className="guidelines-content-explanation" />
+        </Localized>
+        <Localized id="misreadings-explanation-2">
+          <p className="guidelines-content-explanation" />
+        </Localized>
+        <ul>
+          <Localized id="misreadings-explanation-3">
+            <li />
+          </Localized>
+          <Localized id="misreadings-explanation-4">
+            <li />
+          </Localized>
+          <Localized id="misreadings-explanation-5">
+            <li />
+          </Localized>
+          <Localized id="misreadings-explanation-6">
+            <li />
+          </Localized>
+          <Localized id="misreadings-explanation-7">
+            <li />
+          </Localized>
+        </ul>
+        <div>
+          <Localized id="example">
+            <p className="example" />
+          </Localized>
+          <ExampleContent
+            exampleText="misreadings-example-1"
+            exampleTips={exampleTips}
+          />
+        </div>
+        <span className="border" />
+      </div>
+    )}
   </div>
 );
