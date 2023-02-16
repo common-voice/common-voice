@@ -35,8 +35,8 @@
     "redux-thunk": "2.4.2"
   },
   "devDependencies": {
-    "@babel/core": "7.17.10",
-    "@babel/preset-env": "7.17.10",
+    "@babel/core": "7.20.12",
+    "@babel/preset-env": "7.20.2",
     "@peculiar/webcrypto": "1.2.3",
     "@testing-library/react": "12.1.5",
     "@testing-library/react-hooks": "7.0.2",
