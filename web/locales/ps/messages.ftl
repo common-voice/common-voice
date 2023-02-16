@@ -1085,6 +1085,8 @@ demo-dashboard-card-body = د هر غږیز کلیپ چې ډالۍ شوی، او
 ## REVIEW
 
 sc-review-form-button-reject = رد کړه
+sc-review-form-button-skip = پرېږدئ
+sc-review-link = بیاکتنه
 
 ## SETTINGS
 
