@@ -421,6 +421,7 @@ accept-privacy = I'm okay with you handling this info as you explain in Mozilla'
 accept-privacy-title = Privacy Policy
 accept-privacy-and-terms = I agree to Common Voice's <termsLink>Terms</termsLink> and <privacyLink>Privacy Notice</privacyLink>
 login-identity = Login Identity
+login = Log In
 login-signup = Log In / Sign Up
 edit = Edit
 email-subscriptions = Email Subscriptions
@@ -961,7 +962,7 @@ target-segment-add-voice = Add Your Voice
 target-segment-learn-more = Learn More
 
 ## Contribution Nav Items
-contribute-nav-header-item-1=Voice Collection
+contribute-voice-collection-nav-header=Voice Collection
 
 ## Reporting
 report = Report

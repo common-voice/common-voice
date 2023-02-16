@@ -26,7 +26,7 @@
     height: 100%;
 
     @media (--md-up) {
-        padding: 20px;
+        padding: 0 20px 60px;
     }
 
     @media (--tall) {
@@ -377,6 +377,10 @@
                 rgba(0, 0, 0, 0) 97%
             );
         }
+
+        & button {
+            z-index: var(--middle-z-index);
+        }
     }
 
     .buttons {
@@ -387,6 +391,14 @@
 
         @media (--xl-up) {
             margin-top: 3.5vh;
+        }
+
+        @media (--sm-down) {
+            margin-bottom: 3.5rem;
+        }
+
+        @media (--md-only) {
+            margin-bottom: 2.5rem;
         }
 
         button img {
