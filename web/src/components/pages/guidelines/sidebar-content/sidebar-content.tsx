@@ -1,25 +1,36 @@
-import React from 'react';
+import React, { useState } from 'react';
+import { guidelinesSections } from '../constants';
 
-import { BackgoundNoise } from './voice-collection/background-noise';
-import { BackgoundVoices } from './voice-collection/background-voices';
-import { Effects } from './voice-collection/effects';
-import { Misreadings } from './voice-collection/misreadings';
-import { OffensiveContent } from './voice-collection/offensive-content';
-import { Unsure } from './voice-collection/unsure';
-import { VaryingPronounciation } from './voice-collection/varying-pronunciations';
-import { Volume } from './voice-collection/volume';
+export type SidebarContentProps = {
+  id: string;
+  contentVisible: boolean;
+  toggleSectionVisible: (id: string) => void;
+};
 
 const SidebarContent: React.FC = () => {
+  const [visibleSections, setVisibleSections] = useState(guidelinesSections);
+
+  const handleToggleVisibleSection = (id: string) => {
+    const newSections = visibleSections.map(section => {
+      if (section.id === id) {
+        return { ...section, visible: !section.visible };
+      }
+      return section;
+    });
+
+    setVisibleSections(newSections);
+  };
+
   return (
     <>
-      <VaryingPronounciation />
-      <OffensiveContent />
-      <Misreadings />
-      <BackgoundNoise />
-      <BackgoundVoices />
-      <Volume />
-      <Effects />
-      <Unsure />
+      {visibleSections.map(section => (
+        <section.component
+          id={section.id}
+          key={section.id}
+          contentVisible={section.visible}
+          toggleSectionVisible={() => handleToggleVisibleSection(section.id)}
+        />
+      ))}
     </>
   );
 };
