@@ -1,6 +1,10 @@
 import { Localized } from '@fluent/react';
+import classNames from 'classnames';
 import React from 'react';
-import { NAV_IDS } from '../../constants';
+
+import { ChevronDown } from '../../../../ui/icons';
+import { SidebarContentProps } from '../sidebar-content';
+
 import { ExampleContent, ExampleTip } from './example-content';
 
 const exampleTips: ExampleTip[] = [
@@ -22,23 +26,38 @@ const exampleTips: ExampleTip[] = [
   },
 ];
 
-export const BackgoundNoise = () => (
-  <div className="sidebar-content" id={NAV_IDS.BACKGROUND_NOISE}>
-    <Localized id="background-noise">
-      <h3 className="guidelines-content-heading" />
-    </Localized>
-    <Localized id="background-noise-explanation">
-      <p className="guidelines-content-explanation" />
-    </Localized>
-    <div>
-      <Localized id="example">
-        <p className="example" />
+export const BackgoundNoise: React.FC<SidebarContentProps> = ({
+  id,
+  contentVisible,
+  toggleSectionVisible,
+}) => (
+  <div className="sidebar-content" id={id}>
+    <span className="line" />
+    <div className="sidebar-content-header">
+      <Localized id="background-noise">
+        <h3 className="guidelines-content-heading" />
       </Localized>
-      <ExampleContent
-        exampleText="background-noise-example-1"
-        exampleTips={exampleTips}
+      <ChevronDown
+        onClick={toggleSectionVisible}
+        className={classNames('chevron', { 'rotate-180': contentVisible })}
       />
-      <span className="border" />
     </div>
+    {contentVisible && (
+      <div className="content-wrapper">
+        <Localized id="background-noise-explanation">
+          <p className="guidelines-content-explanation" />
+        </Localized>
+        <div>
+          <Localized id="example">
+            <p className="example" />
+          </Localized>
+          <ExampleContent
+            exampleText="background-noise-example-1"
+            exampleTips={exampleTips}
+          />
+          <span className="border" />
+        </div>
+      </div>
+    )}
   </div>
 );

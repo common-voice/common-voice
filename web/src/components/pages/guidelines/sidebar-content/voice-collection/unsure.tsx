@@ -1,15 +1,32 @@
 import { Localized } from '@fluent/react';
+import classNames from 'classnames';
 import React from 'react';
 
-import { NAV_IDS } from '../../constants';
+import { ChevronDown } from '../../../../ui/icons';
+import { SidebarContentProps } from '../sidebar-content';
 
-export const Unsure = () => (
-  <div className="sidebar-content" id={NAV_IDS.UNSURE}>
-    <Localized id="just-unsure">
-      <h3 className="guidelines-content-heading" />
-    </Localized>
-    <Localized id="just-unsure-explanation">
-      <p className="guidelines-content-explanation" />
-    </Localized>
+export const Unsure: React.FC<SidebarContentProps> = ({
+  id,
+  contentVisible,
+  toggleSectionVisible,
+}) => (
+  <div className="sidebar-content" id={id}>
+    <span className="line" />
+    <div className="sidebar-content-header">
+      <Localized id="just-unsure">
+        <h3 className="guidelines-content-heading" />
+      </Localized>
+      <ChevronDown
+        onClick={toggleSectionVisible}
+        className={classNames('chevron', { 'rotate-180': contentVisible })}
+      />
+    </div>
+    {contentVisible && (
+      <div className="content-wrapper">
+        <Localized id="just-unsure-explanation">
+          <p className="guidelines-content-explanation" />
+        </Localized>
+      </div>
+    )}
   </div>
 );
