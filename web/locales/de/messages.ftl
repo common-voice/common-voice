@@ -412,6 +412,7 @@ accept-privacy = Ich bin einverstanden, dass diese Daten wie in der <privacyLink
 accept-privacy-title = Datenschutzerklärung
 accept-privacy-and-terms = Ich stimme den <termsLink>Bedingungen</termsLink> und der <privacyLink>Datenschutzerklärung</privacyLink> von Common Voice zu
 login-identity = Anmeldeidentität
+login = Anmelden
 login-signup = Anmelden / Registrieren
 edit = Bearbeiten
 email-subscriptions = E-Mail-Abonnements
@@ -934,7 +935,7 @@ target-segment-learn-more = Weitere Informationen
 
 ## Contribution Nav Items
 
-contribute-nav-header-item-1 = Stimmensammlung
+contribute-voice-collection-nav-header = Stimmensammlung
 
 ## Reporting
 
