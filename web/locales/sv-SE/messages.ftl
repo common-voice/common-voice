@@ -415,6 +415,7 @@ accept-privacy = Jag är okej med att du hanterar denna information som du förk
 accept-privacy-title = Sekretesspolicy
 accept-privacy-and-terms = Jag godkänner Common Voices <termsLink>villkor</termsLink> och <privacyLink>sekretessmeddelande</privacyLink>
 login-identity = Inloggningsidentitet
+login = Logga in
 login-signup = Logga in / Registrera dig
 edit = Redigera
 email-subscriptions = E-prenumerationer
@@ -941,6 +942,9 @@ target-segment-generic-card = Du bidrar till ett målsegment
 target-segment-first-banner = Hjälp till med att skapa Common Voice första målsegment i { $locale }
 target-segment-add-voice = Lägg till din röst
 target-segment-learn-more = Läs mer
+
+## Contribution Nav Items
+
 
 ## Reporting
 
