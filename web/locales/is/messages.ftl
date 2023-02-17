@@ -1571,6 +1571,7 @@ first-cta-header-text = Þakka þér fyrir að gefa raddbútana þína!
 why-donate = Afhverju spyrðu?
 add-information-button = Bæta við upplýsingum
 continue-speaking-button = Nei takk, halda áfram að tala
+thanks-for-voice-toast = Takk fyrir raddupplýsingarnar þínar
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = Þakka þér fyrir að leggja þitt af mörkum!
 already-have-an-account = Ertu nú þegar með reikning? <login>Skrá inn</login>
