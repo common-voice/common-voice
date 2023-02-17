@@ -230,6 +230,12 @@ partner = Jɛɲɔgɔn
 profile = Porofili
 help = Dɛmɛ
 contact = aw ka kuma an fɛ
+privacy = Kunnafoni dogolenw
+terms = Bɛnkanw
+cookies = Kukisɛw
+faq = Ɲininkaliw
+content-license-text = Kɔnɔkow bɛ sɔrɔ <licenseLink>Creative Commons license< kɔnɔ
+share-title = An dɛmɛ ka mɔgɔ wɛrɛw sɔrɔ walasa k’u kan di!
 
 ## Home Page
 
