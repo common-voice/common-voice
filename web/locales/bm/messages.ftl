@@ -238,9 +238,26 @@ content-license-text = Kɔnɔkow bɛ sɔrɔ <licenseLink>Creative Commons licens
 share-title = An dɛmɛ ka mɔgɔ wɛrɛw sɔrɔ walasa k’u kan di!
 share-text = Dɛmɛ ka masinw kalan mɔgɔ lakikaw bɛ kuma cogo min na, i ka kan di { $link } ma.
 link-copied = Lien Kopi kɛra
+back-top = Segin ka na Sanfɛ
+logout = Aw ka bɔ kɛnɛ kan
 
 ## Home Page
 
+home-title = Common Voice ye Mozilla ka fɛɛrɛ ye walasa ka dɛmɛ don ka masinw kalan mɔgɔ lakikaw bɛ kuma cogo min na.
+default-tagline = Mozilla Common Voice ye fɛɛrɛ ye min bɛ dɛmɛ don ka masinw kalan mɔgɔ lakikaw bɛ kuma cogo min na.
+home-cta = Aw ka kuma, aw ka dɛmɛ don yan!
+wall-of-text-start =
+    Kan ye dacogo ye, kan ye hadamaden ye. O de y’a To an bɛ ɲɛnajɛ ni kan ye min bɛ Se ka baara Kɛ¶
+    fɛɛrɛ kuraw ka ɲɛsin an ka masinw ma. Nka walasa ka kumakanw dabɔ, kan hakɛ min ka bon kosɛbɛ¶ .
+    kunnafoniw de wajibiyalen don.
+wall-of-text-more-mobile =
+    Baarakɛdabaw bɛ baara kɛ ni kunnafonidilan minnu ye, olu fanba tɛ sɔrɔ mɔgɔ fanba bolo. An b'a miiri¶
+    min bɛ kokuradonni dabila. O la an ye Project Common Voice daminɛ, porozɛ min bɛ dɛmɛ don ka kumakan dilan¶
+    dɛmɛbagaw walasa ka jogoɲumanya yiriwa. A ka nɔgɔn ten dɛ!
+    dɔnniya dabɔra bɛɛ ye.
+wall-of-text-more-desktop =
+    Sisan aw bɛ se k’aw ka kan di walasa k’an dɛmɛ ka kan kunnafonidilan dafalen dɔ jɔ, mɔgɔ bɛɛ bɛ se ka baara kɛ ni min ye¶
+    ka porogaramu kura dilan minɛnw ni ɛntɛrinɛti kan. Kumasen dɔ kalan walasa ka masinw dɛmɛ u k’a dɔn mɔgɔ sɛbɛw bɛ kuma cogo min na. Aw ye mɔgɔ wɛrɛw ka baara lajɛ¶
 
 ## Account Benefits
 
