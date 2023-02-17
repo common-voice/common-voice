@@ -18,6 +18,8 @@ banner-error-slow-1 = Hakɛto Common Voice ka suma. I ni ce I ka danaya  kɔsɔn
 banner-error-slow-2 = An bɛ ka trafic caman sɔrɔ, wa an bɛ ka koɲɛw sɛgɛsɛgɛ sisan.
 banner-error-slow-link = Sigisariyaw Paaji
 error-something-went-wrong = Hakɛto , fɛn dɔ ma ɲɛ
+error-clip-upload = Nin klip in bilali ma ɲɛ, i ka to k’a ɲini wa?
+error-clip-upload-server = Nin klip in bilali bɛ taa a fɛ ka dɛsɛ sèrwɛri kan. I ka ɲɛ in doni kokura walima k’a lajɛ kokura kɔfɛ.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -223,6 +225,11 @@ speak = Kuma
 speak-now = Kuma sisan
 datasets = Daɲɛgafew
 languages = Kanw
+about = Ka ɲɛsin
+partner = Jɛɲɔgɔn
+profile = Porofili
+help = Dɛmɛ
+contact = aw ka kuma an fɛ
 
 ## Home Page
 
@@ -381,6 +388,9 @@ contribute-more =
        *[other] I labɛnlen don ka do faara a kan wa ?
     }
 record-cta = Kumakan taali daminɛ
+
+## Contribution Nav Items
+
 
 ## Reporting
 
