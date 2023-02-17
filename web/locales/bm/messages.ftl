@@ -236,6 +236,8 @@ cookies = Kukisɛw
 faq = Ɲininkaliw
 content-license-text = Kɔnɔkow bɛ sɔrɔ <licenseLink>Creative Commons license< kɔnɔ
 share-title = An dɛmɛ ka mɔgɔ wɛrɛw sɔrɔ walasa k’u kan di!
+share-text = Dɛmɛ ka masinw kalan mɔgɔ lakikaw bɛ kuma cogo min na, i ka kan di { $link } ma.
+link-copied = Lien Kopi kɛra
 
 ## Home Page
 
