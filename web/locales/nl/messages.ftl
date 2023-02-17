@@ -412,6 +412,7 @@ accept-privacy = Ik ga akkoord met hoe u met deze gegevens omgaat, zoals uitgele
 accept-privacy-title = Privacybeleid
 accept-privacy-and-terms = Ik ga akkoord met de <termsLink>Voorwaarden</termsLink> en <privacyLink>Privacyverklaring</privacyLink> van Common Voice
 login-identity = Aanmeldingsidentiteit
+login = Aanmelden
 login-signup = Aanmelden / Registreren
 edit = Bewerken
 email-subscriptions = E-mailinschrijvingen
@@ -932,6 +933,9 @@ target-segment-generic-card = U draagt bij aan een doelsegment
 target-segment-first-banner = Help bij het maken van het eerste doelsegment in het { $locale } van Common Voice
 target-segment-add-voice = Uw stem toevoegen
 target-segment-learn-more = Meer info
+
+## Contribution Nav Items
+
 
 ## Reporting
 
