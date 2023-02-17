@@ -945,6 +945,7 @@ target-segment-learn-more = Läs mer
 
 ## Contribution Nav Items
 
+contribute-voice-collection-nav-header = Insamling av röster
 
 ## Reporting
 
