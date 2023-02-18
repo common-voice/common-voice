@@ -1099,6 +1099,9 @@ contribution-background-noise-description-extended = که ریکارډ مات ش
 contribution-background-noise-example-1-fixed-title = <strong>[پرنجی]</strong> د لوی ډیناسور د <strong>[ټوخی]</strong>  ټریاسیک.
 contribution-background-noise-example-2-fixed-title = لوی ډینو <strong>[ټوخی]</strong> تریاسیک.
 contribution-background-voices-example-1-title = د ټریاسیک لوی ډیناسور. <strong>[په یو غږ لوستل]</strong>
+contribution-background-voices-example-1-explanation = ته راځې؟ <strong>[د بل لخوا ویل کیږي]</strong>
+see-more = <chevron></chevron>نور وګوری
+see-less = <chevron></chevron>لږ وګورئ
 
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
@@ -1108,6 +1111,11 @@ contribution-background-voices-example-1-title = د ټریاسیک لوی ډین
 ## HEADER/FOOTER
 
 sc-header-home = کور پاڼه
+sc-footer-report-bugs = د بګ راپور ورکړئ
+sc-footer-translate = دا پاڼه وژباړئ
+sc-footer-report-copyright = د کاپي حق مسلو راپور ورکړئ
+sc-footer-privacy = محرمیت
+sc-logout-button = وتل
 
 ## HOME
 
