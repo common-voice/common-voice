@@ -1215,6 +1215,12 @@ sc-criteria-item-6 = که تاسو د بیاکتنې لپاره جملې ختم�
 ## REVIEW
 
 sc-review-lang-not-selected = تاسو کومه ژبه نه ده غوره کړې. مهرباني وکړئ د ژبې غوره کولو لپاره خپل <profileLink>Profile</profileLink> ته لاړ شئ.
+sc-review-title = جملو ته بیا کتنه وکړئ
+sc-review-loading = جملې لوډیږي...
+sc-review-select-language = مهرباني وکړئ د جملو بیاکتنې لپاره یوه ژبه غوره کړئ.
+sc-review-no-sentences = د بیاکتنې لپاره هیڅ جملې نشته. <addLink>اوس نورې جملې اضافه کړئ!</addLink>
+sc-review-form-prompt =
+    .message = بیاکتل شوي جملې ندي سپارل شوي، ایا تاسو ډاډه یاست؟
 sc-review-form-button-reject = رد کړه
 sc-review-form-button-skip = پرېږدئ
 sc-review-link = بیاکتنه
