@@ -1148,12 +1148,28 @@ sc-howto-findpd-partner-2 = متخصص ژبپوهان هم کولی شي مرس�
 
 ## MY SENTENCES
 
+sc-my-description = دا پاڼه تاسو ته ستاسو د ټولو سپارل شویو جملو یوه عمومي کتنه درکوي. تاسو کولی شئ د اړتیا په صورت کې دمخه وړاندې شوي جملې هم حذف کړئ ، د هغې څنګ ته د چیک بکس په نښه کولو او د &quot;ټاکل شوې جملې حذف کړئ&quot; کلیک کولو سره په پای کې. مهرباني وکړئ یوازې هغه جملې لرې کړئ که چیرې بالکل اړین وي، د بیلګې په توګه که تاسو د دې حقیقت څخه وروسته ولیدل چې یوه جمله د کاپي حق خوندي دی.
+sc-my-loading = ستاسو جملې لوډیږي…
+sc-my-err-fetching = ستاسو د جملو په راوړلو کې تېروتنه. مهرباني وکړئ بیا هڅه وکړئ.
+# Variables:
+#   $batchId (String) - A unique ID identifying the submission of sentences - sentences uploaded together all have the same batch ID
+sc-my-submission = سپارل: { $batchId }
+# Variables:
+#   $source (String) - Associated source the user filled out when uploading the sentence
+sc-my-source = سرچینه: { $source }
+sc-my-delete = ټاکل شوې جملې ړنګ کړئ
+sc-my-deleting = ټاکل شوې جملې ړنګول کیږي ….
+sc-my-err-failed-delete = د ټاکلو جملو په ړنګولو کې پاتې راغلل... مهرباني وکړئ بیا هڅه وکړئ!
 
 ## REJECTED
 
 
 ## STATS
 
+# Variables:
+#   $sentenceCount (Number) - Total number of sentences uploaded through Sentence Collector
+#   $languageCount (Number) - Total number of languages these sentences represent
+sc-stats-summary = د عام غږ جملې راټولونکي په { $languageCount } ژبو کې { $sentenceCount } جملې راټولې کړې دي!
 
 ## ADD
 
