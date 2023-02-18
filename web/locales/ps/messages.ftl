@@ -1094,6 +1094,11 @@ contribution-misreadings-example-7-explanation = [په اصلي متن کې 'a' 
 contribution-varying-pronunciations-description = مخکې له دې چې په ځمکه کې یو کلیپ رد کړئ محتاط اوسئ چې لوستونکي یوه کلمه غلطه کړې وي، فشار یې په غلط ځای کې ځای پرځای کړی وي، یا یې په ښکاره ډول د پوښتنې نښه له پامه غورځولې وي. په ټوله نړۍ کې د تلفظونو پراخه ډولونه شتون لري، چې ځینې یې ممکن ستاسو په محلي ټولنه کې نه وي اوریدلي. مهرباني وکړئ د هغو کسانو لپاره د ستاینې حد چمتو کړئ څوک چې ممکن ستاسو څخه مختلف خبرې وکړي.
 contribution-varying-pronunciations-description-extended = له بلې خوا، که تاسو فکر کوئ چې لوستونکی شاید هیڅکله د کلمې سره مخ نه وي، او په ساده ډول د تلفظ په اړه غلط اټکل کوي، مهرباني وکړئ رد کړئ. که تاسو ډاډه نه یاست، د Skip تڼۍ وکاروئ.
 contribution-varying-pronunciations-example-1-explanation = ['بیرټ' سم دی که په لومړي حرف (UK) یا دوهم (US) باندې فشار سره]
+contribution-background-noise-description = موږ غواړو چې د ماشین زده کړې الګوریتمونه د دې وړتیا ولري چې د مختلف شالید شور اداره کړي، او حتی نسبتا لوړ غږونه ومنل شي په دې شرط چې دوی د متن د بشپړ اوریدلو مخه ونه نیسي. خاموش پس منظر موسیقي سمه ده؛ میوزیک دومره لوړ غږ کوي چې تاسو د هرې کلمې اوریدلو مخه نیسي, دا سمه نه ده.
+contribution-background-noise-description-extended = که ریکارډ مات شي، یا کریکونه ولري، رد کړئ پرته لدې چې ټول متن لاهم واوریدل شي.
+contribution-background-noise-example-1-fixed-title = <strong>[پرنجی]</strong> د لوی ډیناسور د <strong>[ټوخی]</strong>  ټریاسیک.
+contribution-background-noise-example-2-fixed-title = لوی ډینو <strong>[ټوخی]</strong> تریاسیک.
+contribution-background-voices-example-1-title = د ټریاسیک لوی ډیناسور. <strong>[په یو غږ لوستل]</strong>
 
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
