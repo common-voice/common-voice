@@ -990,6 +990,7 @@ profile-form-delete = پېژنیال ړنګ کړئ
 
 ## Profile Download
 
+download-size = جسامت
 
 ## Landing
 
@@ -1045,6 +1046,7 @@ demo-dashboard-card-body = د هر غږیز کلیپ چې ډالۍ شوی، او
 
 ## HEADER/FOOTER
 
+sc-header-home = کور پاڼه
 
 ## HOME
 
