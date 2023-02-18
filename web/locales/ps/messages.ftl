@@ -608,6 +608,10 @@ about-playbook-how-record-content-4 = ډاډ ترلاسه کړئ چې پلیټ �
 
 ## How to grow language
 
+about-playbook-how-grow-language-content-5 = تاسو کولی شئ د پیغام ترلاسه کولو لپاره د ټولنیزو رسنیو پلیټ فارمونه وکاروئ. پوسټونه شریک کړئ چې تشریح کړي چې ولې دا مهم دي، او د نورو خلکو سره اړیکه ونیسئ لکه د ژبې حقونه، غږ AI، یا په ټیکنالوژۍ کې تعصب. د <compaignLink> د ټولنیز کمپاین د چلولو په اړه نور مشورې وګورئ، په شمول هغه مواد چې تاسو یې بیا کارولی شئ</campaignLink>.
+about-playbook-how-grow-language-content-6 = شراکتونه او شبکې
+about-playbook-how-grow-language-content-7 = نور پیدا کړئ څوک چې پاملرنه کوي. دا کیدای شي پوهنتونونه، د ژبې ښوونځي، د مدافعې ډلې یا د معلوماتو ساینس ټولنې وي. ورشئ او په واضح ډول تشریح کړئ چې دوی څنګه مرسته کولی شي او ولې. <outreachTemplates>زموږ د بریښنالیکونه د رسونې ټیمپلیټ وګورئ</outreachTemplates>.
+about-playbook-how-grow-language-content-8 = <strong>تخلیق پیدا کړئ!</strong> ستاسو د ژبې ټولنه به ځانګړې وي، او دا د پیل کولو لپاره یوازې یو څو لارې دي.
 
 ## How to validate
 
@@ -683,6 +687,7 @@ datasets-positioning =
     
     دې پاڼې ته د نورو آزاد کوډ غږیز ډېټاسیټونو لپاره د ماخذ مرکز په توګه وګورئ او لکه څنګه چې عام غږ وده کوي، دا زموږ د خپراوي په اړه تازه مالوماتو لپاره کور دي.
 language = ژبه
+download-delta-explainer = موږ ځینې بدلونونه کړي دي. د ډیلټا برخې یوازې د وروستي خوشې کیدو راهیسې خورا وروستي کلپونه لري. <deltaLink>د دې کار په اړه نور ولولئ</deltaLink>.
 # File size in gigabytes
 size = اندازه
 validated-hr-total = باوري شوي ساعت ټولټال
