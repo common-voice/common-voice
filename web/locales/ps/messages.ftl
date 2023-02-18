@@ -783,6 +783,13 @@ request-language-success-list-2 =
     زموږ د ټولنې مدیر به تاسو ته وړاندیز وکړي
     اضافي ملاتړ، او تاسو ته خبر ورکړئ که چیرې شتون ولري
     مخکې له دې یوه ټولنه چې ستاسو په ژبه کار کوي
+request-language-success-list-3 =
+    که تاسو په څو ورځو کې زموږ څخه غوږ ونه نیسئ،
+    <emailLink> { $email }</emailLink> ته ورشئ
+    او موږ به بیرته تاسو ته ورسیږو!
+request-language-error =
+    موږ ممکن دا غوښتنه نه وي ترلاسه کړې. مهرباني وکړئ موږ ته مستقیم بریښنالیک وکړئ
+    په <emailLink>{ $email }</emailLink> کې او موږ به بیرته تاسو ته ورسیږو!
 
 ## Languages Overview
 
@@ -866,6 +873,7 @@ target-segment-learn-more = نور زده کړئ
 
 ## Contribution Nav Items
 
+contribute-voice-collection-nav-header = د غږ راټولول
 
 ## Reporting
 
@@ -1022,7 +1030,14 @@ profile-form-delete = پېژنیال ړنګ کړئ
 
 ## Profile Download
 
+download-profile-info = بریښنالیک، کارن نوم او ډیموګرافیک معلومات شامل دي، سمدلاسه شتون لري
 download-size = جسامت
+download-request-title = { $created }
+download-request-description = { $clipCount } غږیز کلیپونه، د ټول آرشیف اندازه { $size }. ختمیږي { $expires }.
+download-request-archive-single = یو زپ فایل لري
+download-request-archive-multiple = په { $archiveCount } کې ویشل شوي زپ فایلونه پکې شامل دي
+download-request-link-text = زپ #{ $offset } د { $total } څخه
+download-request-link-single = تاسو کولی شئ مستقیم URLs په خپل غوره ډاونلوډ مدیر کې کاپي او پیسټ کړئ. دوی به په 12 ساعتونو کې پای ته ورسیږي، مګر تاسو کولی شئ دې پاڼې ته بیرته راشئ ترڅو هر وخت نوي جوړ کړئ.
 
 ## Landing
 
@@ -1070,6 +1085,14 @@ demo-dashboard-card-body = د هر غږیز کلیپ چې ډالۍ شوی، او
 
 ## Validation criteria
 
+contribution-misreadings-description-extended-list-1 = د ثبت کولو په پیل کې <strong>'A'</strong> یا <strong>'The'</strong> ورک شوی.
+contribution-misreadings-description-extended-list-2 = د یوې کلمې په پای کې د یوه <strong>'</strong> ورکیدل.
+contribution-misreadings-description-extended-list-3 = د انقباض لوستل چې په حقیقت کې شتون نلري، لکه "موږ یو" پر ځای "موږ یو"، یا برعکس.
+contribution-misreadings-description-extended-list-4 = په چټکۍ سره د ریکارډ قطع کولو سره د وروستي کلمې پای له لاسه ورکول.
+contribution-misreadings-example-6-explanation = [باید "موږ یو" وي]
+contribution-misreadings-example-7-explanation = [په اصلي متن کې 'a' نه دی]
+contribution-varying-pronunciations-description = مخکې له دې چې په ځمکه کې یو کلیپ رد کړئ محتاط اوسئ چې لوستونکي یوه کلمه غلطه کړې وي، فشار یې په غلط ځای کې ځای پرځای کړی وي، یا یې په ښکاره ډول د پوښتنې نښه له پامه غورځولې وي. په ټوله نړۍ کې د تلفظونو پراخه ډولونه شتون لري، چې ځینې یې ممکن ستاسو په محلي ټولنه کې نه وي اوریدلي. مهرباني وکړئ د هغو کسانو لپاره د ستاینې حد چمتو کړئ څوک چې ممکن ستاسو څخه مختلف خبرې وکړي.
+contribution-varying-pronunciations-description-extended = له بلې خوا، که تاسو فکر کوئ چې لوستونکی شاید هیڅکله د کلمې سره مخ نه وي، او په ساده ډول د تلفظ په اړه غلط اټکل کوي، مهرباني وکړئ رد کړئ. که تاسو ډاډه نه یاست، د Skip تڼۍ وکاروئ.
 
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
