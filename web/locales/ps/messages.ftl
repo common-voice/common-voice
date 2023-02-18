@@ -1205,12 +1205,16 @@ sc-add-err-failed =
 
 ## PROFILE
 
+sc-personal-err-remove = ژبه نشي لرې کولی
 
 ## REVIEW CRITERIA
 
+sc-criteria-item-5-2 = که جمله پورتني معیارونه پوره نه کړي، په &quot;رد&quot; کلیک وکړئ. تڼۍ په چپ اړخ کې. که تاسو د جملې په اړه ډاډه نه یاست، تاسو کولی شئ هغه پریږدئ او بلې ته لاړ شئ.
+sc-criteria-item-6 = که تاسو د بیاکتنې لپاره جملې ختمې کړئ، مهرباني وکړئ موږ سره د نورو جملو په راټولولو کې مرسته وکړئ!
 
 ## REVIEW
 
+sc-review-lang-not-selected = تاسو کومه ژبه نه ده غوره کړې. مهرباني وکړئ د ژبې غوره کولو لپاره خپل <profileLink>Profile</profileLink> ته لاړ شئ.
 sc-review-form-button-reject = رد کړه
 sc-review-form-button-skip = پرېږدئ
 sc-review-link = بیاکتنه
