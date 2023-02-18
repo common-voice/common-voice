@@ -1166,6 +1166,7 @@ sc-my-err-failed-delete = د ټاکلو جملو په ړنګولو کې پاتې
 
 ## STATS
 
+sc-stats-updating = تازه کیږي…
 # Variables:
 #   $sentenceCount (Number) - Total number of sentences uploaded through Sentence Collector
 #   $languageCount (Number) - Total number of languages these sentences represent
@@ -1176,6 +1177,22 @@ sc-stats-summary = د عام غږ جملې راټولونکي په { $languageCo
 
 ## ADD LANGUAGE
 
+# Variables:
+#   $duplicates (Number) - Number of sentences which got rejected because they are duplicates
+sc-add-result =
+    { $duplicates ->
+        [0] سپارل شوي جملې. { $duplicates } جملې د نقل په توګه رد شوي.
+        [one] سپارل شوې جمله. { $duplicates } جمله د نقل په توګه رد شوه.
+       *[other] سپارل شوي جملې. { $duplicates } جملې د نقل په توګه رد شوې.
+    }
+# Variables:
+#   $sentences (Number) - Number of sentences which failed to be saved to the database - could be several different reasons
+sc-add-err-failed =
+    { $sentences ->
+        [0] هیڅ جمله نه ده ناکامه شوې
+        [one] 1 جمله ناکامه شوه
+       *[other] { $sentences } جملې ناکامې شوې
+    }
 
 ## ADD SENTENCES CONFIRMATION
 
