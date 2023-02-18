@@ -417,6 +417,7 @@ why-demographic = ولې دا مهمه ده؟
 why-demographic-explanation-2 = بې‌نومه شوې ډېټا لکه عمر، جنس، او تلفظ د غږیزي ډېټا په پېژندلو کې چې د وینا انجنونو کره روزلو لپاره کارول کیږي ښه کولو کې مرسته کوي. ستاسو کارن-نوم او برېښنالیک ته به هیڅکله ستاسو له سپارل شوي ډېټا سره تړاو ور نکړل شي، او تاسو کولی شئ غوره کړئ چې خپل کارن نوم عام یا بې‌نومه کړئ.
 accept-privacy = زه ستاسو سره د دې مالوماتو په سمبالولو کې جوړ یم څنګه چې تاسو د موزیلا <privacyLink> د محرمیت (پټتیا) تګلاره </privacyLink> کې تشریح کړې
 accept-privacy-title = د پټتیا تګلاره
+accept-privacy-and-terms = زه د عام غږ د<termsLink> شرائط</termsLink> او <privacyLink>د محرمیت خبرتیا</privacyLink> سره موافق یم
 login-identity = د ننوتنې پېژند
 login-signup = ننوتنه/ نوملیکنه
 edit = سمون
@@ -563,6 +564,7 @@ about-get-involved-text-2 =
     <matrixLink> میټریکس </matrixLink> د ټولنې چټ غړیتوب ترلاسه کړئ.
 about-stay-in-touch = زه څنګه په اړيکه کې پاتې شم؟
 about-stay-in-touch-button = ګډون کول
+about-stay-in-touch-text-1 = زموږ د بریښنالیک لیست <emailFragment>لپاره نوم لیکنه وکړئ</emailFragment> د دې زده کولو لپاره چې تاسو څنګه ګډون کولی شئ  په عام غږ کې په کمپاینونو، پیښو او ګډ ډیزاین ځانګړتیاو کې.
 about-nav-why-common-voice = ولې؟
 about-nav-how-it-works = څنګه؟
 about-nav-partners = شریکان
@@ -574,6 +576,7 @@ about-nav-playbook = زده کړئ چې څنګه برخه واخلئ
 ## What is a language
 
 about-playbook-what-is-language = په عام غږ کې يو ژبه څه ده؟
+about-playbook-what-is-language-content-1 = د ژبې په اړه فکر کولو لپاره ډیری لارې شتون لري. د وینا د پیژندنې ماډلونو لپاره، عام غږ وړاندیز کوي چې په متقابل پوهاوي تمرکز وکړي، یا "ایا د دې ژبې ویونکي اکثرا یو بل پوهیږي که دوی هڅه وکړي؟"
 
 ## How do I add a language
 
