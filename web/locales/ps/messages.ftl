@@ -718,6 +718,7 @@ other-datasets = نور غږیز ډېټاسیټونه ...
 feedback-q = غبرګون لرئ؟
 resource-deepspeech-info = د موزیلا د خلاصې سرچینې غږ پیژندنې انجن ډیپ سپیچ د وینا پیژندنې غوښتنلیکونو جوړولو لپاره کارول کیدی شي. زموږ <githubLink>Github عمومي کتنه</githubLink> ولولئ یا د <discourseLink>DeepSpeech Discourse</discourseLink> سره یوځای شئ ترڅو د پیل کولو څرنګوالی زده کړئ.
 resource-coqui-info = <coquiLink>Coqui</coquiLink> د خلاصې وینا ټیکنالوژۍ ته وقف شوی. د دوی په پروژو کې د ژورې زده کړې پر بنسټ د STT او TTS انجنونه شامل دي.
+resource-playbook-info = <playbookLink> ګټور لارښود ومومئ</playbookLink> په ټول عام غږ سفر کې، د ځایی کولو څخه د ډیټاسیټ کارولو پورې، او همدارنګه زموږ د ټولنې سره څنګه اړیکه ونیسئ.
 data-other-librispeech-description = LibriSpeech د 16Khz نږدې 1000 ساعتونو انګلیسي ژبې لیک ټولګه ده چې د LibriVox پروژې څخه د لوستل شوي غږیز کتابونو څخه اخیستل شوي.
 data-other-ted-name = د ټیډ - لیم لیک ټولګه
 data-other-ted-description = د TED-LIUM لیک ټولګه د غږیزو خبرو او د دوی له لیکنو چې د TED ویب پاڼې کې يې شتون درلود جوړ شوی.
@@ -732,6 +733,9 @@ more = نور
 close = بندکړئ
 download = ډاونلوډ
 dataset-version = نسخه
+sha256-checksum-copied = SHA256 چکسم کاپي شوی!
+sha256-checksum-copied-error = د SHA256 چیکسم کاپي کولو کې پاتې راغلی
+clipboard-not-supported = کلپ بورډ نه ملاتړ کیږي
 
 ## Download Modal
 
@@ -764,6 +768,21 @@ other-language = بله ژبه
 
 ## Request Language Pages
 
+request-language-explanation-1 =
+    وګورئ چې ستاسو ژبه په کې لیست شوې ده
+    <languagesPageLink>د عام غږ ژبې پاڼه</languagesPageLink>.
+    که نه، دا فورمه ډکه کړئ او موږ به <strong>تاسو ته یو اسانه بریښنالیک واستوو
+    تشریح کول چې څنګه خپله ژبه جوړه کړئ</strong>.
+request-language-explanation-2 =
+    موږ به هم<strong>زموږ د ټولنې مدیر خبر کړو
+    چې تاسو لیوالتیا لرئ</strong>، نو دوی کولی شي تاسو ته هر څه درکړي
+    اضافي ملاتړ یا معلومات چې تاسو ورته اړتیا لرئ.
+request-language-form-info-explanation = د ژبې په اړه څومره چې تاسو کولی شئ معلومات اضافه کړئ. د ‏‎کېدای شي شامل وي:
+request-language-form-info-explanation-list-2 = <isoCodeLink>ISO کوډونه</isoCodeLink> که معلوم وي
+request-language-success-list-2 =
+    زموږ د ټولنې مدیر به تاسو ته وړاندیز وکړي
+    اضافي ملاتړ، او تاسو ته خبر ورکړئ که چیرې شتون ولري
+    مخکې له دې یوه ټولنه چې ستاسو په ژبه کار کوي
 
 ## Languages Overview
 
