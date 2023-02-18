@@ -915,6 +915,7 @@ target-segment-learn-more = 详细了解
 
 ## Contribution Nav Items
 
+contribute-voice-collection-nav-header = 收集语音
 
 ## Reporting
 
