@@ -2,7 +2,7 @@
 
 yes-receive-emails = Áno, posielajte mi e-maily. Rád by som zostal o projekte Common Voice informovaný.
 stayintouch = V Mozille budujeme komunitu okolo technológií rozpoznávania reči. Radi by sme s vami zostali v kontakte prostredníctvom noviniek, napríklad o nových zdrojoch údajov. Radi by sme sa taktiež dozvedeli, ako tieto údaje používate.
-privacy-info = Sľubujeme, že sa o vaše informácie budeme príkladne starať. Ďalšie informácie sa dočítate v našich <privacyLink>zásadách ochrany súkromia</privacyLink>.
+privacy-info = Sľubujeme, že sa o vaše informácie budeme príkladne starať. Ďalšie informácie sa dočítate v našom <privacyLink>Vyhlásení o ochrane osobných údajov</privacyLink>.
 return-to-cv = Návrat do Common Voice
 email-input =
     .label = E-mailová adresa
@@ -425,7 +425,7 @@ why-demographic = Prečo na tom záleží?
 why-demographic-explanation-2 = Anonymizované údaje, ako vek, pohlavie a prízvuk pomáhajú vylepšovať naše údaje, ktoré budú použité na trénovanie systémov rozpoznávania reči. Vaše používateľské meno a e-mailová adresa nebudú nikdy spojené s odoslanými údajmi a môžete si vybrať, či chcete svoje používateľské meno zverejniť alebo nie.
 accept-privacy = Súhlasím so spracovaním týchto údajov tak, ako je to popísané v <privacyLink>Zásadách ochrany osobných údajov</privacyLink>
 accept-privacy-title = Zásady ochrany osobných údajov
-accept-privacy-and-terms = Súhlasím s <termsLink>Podmienkami</termsLink> a <privacyLink>Zásadami ochrany osobných údajov</privacyLink> projektu Common Voice
+accept-privacy-and-terms = Súhlasím s <termsLink>Podmienkami používania služby</termsLink> a <privacyLink>Vyhlásení o ochrane osobných údajov</privacyLink> projektu Common Voice
 login-identity = Identita pre prihlásenie
 login-signup = Prihlásenie/registrácia
 edit = Upraviť
@@ -716,7 +716,7 @@ license = Licencia: <licenseLink>{ $license }</licenseLink>
 license-mixed = Zmiešaná
 data-download-singleword-title = Stiahnite si Jednoslovnú dátovú sadu
 data-download-singleword-callout-v2 = Toto je sada určená na podporu rozpoznávania hovorených číslic a slov áno / nie.
-review-terms = Používaním Common Voice súhlasíte s našimi <termsLink>podmienkami</termsLink> a <privacyLink>zásadami ochrany súkromia</privacyLink>
+review-terms = Používaním Common Voice súhlasíte s našimi <termsLink>Podmienkami používania služby</termsLink> a <privacyLink>Vyhlásením o ochrane osobných údajov</privacyLink>
 terms-agree = Súhlasím
 terms-disagree = Nesúhlasím
 review-aborted = Nahrávanie bolo zrušené. Chcete odstrániť vaše nahrávky?
