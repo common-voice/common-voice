@@ -11,7 +11,7 @@ loading = Načítava sa…
 email-opt-in-info = Chcem dostávať e-maily, ako sú upozornenia na ciele, môj pokrok a novinky o službe Common Voice.
 email-opt-in-info-title = Pripojte so do e-mailovej skupiny Common Voice
 email-opt-in-info-sub-with-challenge = Dostávajte e-maily, ako sú upozornenia na ciele či výzvy, informácie o pokroku a novinky o službe Common Voice.
-email-opt-in-privacy-v2 = Rozhodnutím prijímať e-maily potvrdzujete svoj súhlas so spracovaním vašich údajov tak, ako je to popísané v <privacyLink>zásadách ochrany súkromia</privacyLink>.
+email-opt-in-privacy-v2 = Prihlásením sa na odber e-mailov vyjadrujete, že súhlasíte s tým, že Mozilla narába s týmito informáciami tak, ako je vysvetlené v <privacyLink>Zásadách ochrany osobných údajov</privacyLink> spoločnosti Mozilla.
 indicates-required = * označuje povinné pole
 not-available-abbreviation = N/A
 banner-error-slow-1 = Ospravedlňujeme sa, Common Voice beží pomaly. Ďakujeme za Váš záujem.
@@ -423,7 +423,7 @@ profile-explanation = Sledujte svoj pokrok pomocou profilu a pomôžte nám spre
 thanks-for-account = Ďakujeme za potvrdenie vášho účtu, poďme vytvoriť váš profil.
 why-demographic = Prečo na tom záleží?
 why-demographic-explanation-2 = Anonymizované údaje, ako vek, pohlavie a prízvuk pomáhajú vylepšovať naše údaje, ktoré budú použité na trénovanie systémov rozpoznávania reči. Vaše používateľské meno a e-mailová adresa nebudú nikdy spojené s odoslanými údajmi a môžete si vybrať, či chcete svoje používateľské meno zverejniť alebo nie.
-accept-privacy = Súhlasím so spracovaním týchto údajov tak, ako je to popísané v <privacyLink>zásadách ochrany súkromia</privacyLink>
+accept-privacy = Súhlasím so spracovaním týchto údajov tak, ako je to popísané v <privacyLink>Zásadách ochrany osobných údajov</privacyLink>
 accept-privacy-title = Zásady ochrany osobných údajov
 accept-privacy-and-terms = Súhlasím s <termsLink>Podmienkami</termsLink> a <privacyLink>Zásadami ochrany osobných údajov</privacyLink> projektu Common Voice
 login-identity = Identita pre prihlásenie
@@ -931,6 +931,9 @@ target-segment-generic-card = Prispievate do cieľového segmentu
 target-segment-first-banner = Pomôžte vytvoriť prvý cieľový segment Common Voice v jazyku { $locale }
 target-segment-add-voice = Pridajte svoj hlas
 target-segment-learn-more = Ďalšie informácie
+
+## Contribution Nav Items
+
 
 ## Reporting
 
