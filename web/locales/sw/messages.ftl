@@ -1086,9 +1086,26 @@ sc-languages-fetch-error = Tumeshindwa kuleta lugha zinazopatikana. Michango kwa
 
 ## HOW-TO
 
+sc-howto-title = Jinsi ya
+sc-howto-addsen-title = Ongeza sentensi mpya
+sc-howto-review-title = Kagua Sentensi
+sc-howto-review-subtitle = Hakikisha sentensi inakidhi vigezo vifuatavyo:
+sc-howto-review-criteria-1 = Sentensi lazima iandikwe kwa usahihi.
+sc-howto-review-criteria-2 = Sentensi lazima iwe sahihi kisarufi.
 
 ## MY SENTENCES
 
+sc-my-title = Sentensi Zangu
+sc-my-loading = Inapakia sentensi zako...
+sc-my-no-sentences = Hakuna sentensi zilizopatikana!
+# Variables:
+#   $batchId (String) - A unique ID identifying the submission of sentences - sentences uploaded together all have the same batch ID
+sc-my-submission = Wasilisho: { $batchId }
+# Variables:
+#   $source (String) - Associated source the user filled out when uploading the sentence
+sc-my-source = Chanzo: { $source }
+sc-my-delete = Futa sentensi zilizochaguliwa
+sc-my-deleting = Inafuta sentensi zilizochaguliwa...
 
 ## REJECTED
 
