@@ -1203,6 +1203,7 @@ sc-howto-addsen-title = Rnu tifyar tmaynutin
 sc-howto-cite-title = Amek ara d-temmleḍ
 sc-howto-cite-item-1 = Tzemreḍ ad tsedduḍ asmel web, am. "Common Voice - https://commonvoice.mozilla.org/"
 sc-howto-review-title = Senqed tifyar
+sc-howto-review-subtitle = Ttḥeqs dakken tafyirt teḍfer isefranen-a:
 sc-howto-review-criteria-1 = Tafyirt ilaq ad tettwaru akken iwata.
 sc-howto-review-criteria-2 = Tafyirt ilaq ad tili d tameɣtut seg tama n tjerrumt.
 sc-howto-review-criteria-3 = Tafyirt ilaq ad tili tettwanṭaq.
@@ -1286,6 +1287,7 @@ sc-add-err-failed =
        *[other] { $sentences } n tefyar ccḍent
     }
 sc-add-err-submission = Tuccḍa deg tuzna
+sc-add-lang-process-notice = Ma ulac tutlayt-ik deg tebdart-a, tzemreḍ ad tt-tessutreḍ deg <languageProcessLink> ukala-a </languageProcessLink>.
 
 ## ADD SENTENCES CONFIRMATION
 
@@ -1392,9 +1394,12 @@ sc-personal-not-added = Ur terniḍ ara yakan tutlayin.
 
 sc-criteria-modal = Tiwtilin n usenqed
 sc-criteria-title = Tiwtilin n usenqed
+sc-criteria-make-sure = Ttḥeqs dakken tafyirt teḍfer isefranen-a:
 sc-criteria-item-1 = Tafyirt ilaq ad tettwaru akken iwata.
 sc-criteria-item-2 = Tafyirt ilaq ad tili d tameɣtut seg tama n tjerrumt.
+sc-criteria-item-3 = Tafyirt ilaq ad tili tettwanṭaq.
 sc-criteria-item-4 = Ma yella tafyirt deg-s akk isefranen, sit ɣef tqeffalt &quot;Sentem&quot; yellan ɣef yeffus.
+sc-criteria-item-5-2 = Ma tafyirt ur teddi ara d yisefranen n ufella, sit ɣef tqeffalt &quot;Agi&quot; i yellan deg tama tazelmaḍt. Mayella ur tettḥeqqeḍ ara ɣef tefyirt, tzemreḍ daɣen ad as-tɛeddiḍ akken ad tedduḍ ɣer tin i d-itteddun.
 sc-criteria-item-6 = Ma yella ur tesɛiḍ ara tifyar ara tesneqdeḍ, efk-aɣ-d afus ad d-nelqeḍ ugar n tefyar!
 
 ## REVIEW
