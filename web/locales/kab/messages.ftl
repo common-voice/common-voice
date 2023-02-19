@@ -407,6 +407,7 @@ accept-privacy = Qebleɣ akken ad tesqedcem talɣut inu am akken yella deg <priv
 accept-privacy-title = Tasertit n tbaḍnit
 accept-privacy-and-terms = Qebleɣ <termsLink>Tiwtilin</termsLink> d <privacyLink> Tasertit n tbaḍnit </privacyLink> n Common Voice
 login-identity = Tinekkit n tuqna
+login = Qqen
 login-signup = Kcem / Jerred
 edit = Ẓreg
 email-subscriptions = Ajerred ɣer Imayl
@@ -880,6 +881,9 @@ target-segment-generic-card = Tettekkaḍ deg teggayt tasaḍast
 target-segment-first-banner = Mudd tallalt i tmerna n taggayt tasaḍast tamezwarut n Common Voice deg { $locale }
 target-segment-add-voice = Rnu taɣect-ik.m
 target-segment-learn-more = Issin ugar
+
+## Contribution Nav Items
+
 
 ## Reporting
 
