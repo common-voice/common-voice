@@ -1076,9 +1076,13 @@ sc-logout-button = Ondoka
 
 sc-home-title = Karibu kwenye Mkusanyaji wa Sentensi wa Common Voice
 sc-home-collect-title = Kusanya sentensi
+sc-home-collect-text = Tusaidie kwa kuandika au kukusanya sentensi za Kikoa cha Umma.
+sc-home-review-title = Kagua sentensi
+sc-home-review-text = Tusaidie kwa kukagua sentensi kwa usahihi kulingana na miongozo.
 
 ## GENERAL
 
+sc-languages-fetch-error = Tumeshindwa kuleta lugha zinazopatikana. Michango kwa sasa haiwezekani. Tafadhali jaribu tena baadae.
 
 ## HOW-TO
 
