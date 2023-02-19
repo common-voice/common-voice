@@ -1109,15 +1109,35 @@ sc-my-deleting = Inafuta sentensi zilizochaguliwa...
 
 ## REJECTED
 
+sc-rejected-title = Sentensi zilizokataliwa
+sc-rejected-loading = Inapakia sentensi zilizokataliwa...
+sc-rejected-none-found = Hakuna sentensi zilizokataliwa zilizopatikana!
 
 ## STATS
 
+sc-stats-title = Takwimu
+sc-stats-updating = Inasasisha...
 
 ## ADD
 
+sc-submit-err-select-lang = Tafadhali chagua lugha.
+sc-submit-err-add-sentences = Tafadhali ongeza sentensi.
+sc-submit-err-add-source = Tafadhali ongeza chanzo.
+sc-submit-err-confirm-pd = Tafadhali thibitisha kuwa sentensi hizi ni za umma.
+sc-submit-prompt =
+    .message = Hukumu hazijawasilishwa, una uhakika unataka kuondoka?
+sc-submit-title = Ongeza Sentensi
+sc-submit-select-language =
+    .labelText = Chagua Lugha
+sc-submit-ph-one-per-line =
+    .placeholder = Sentensi moja kwa kila mstari
+sc-submit-guidelines = Tafadhali angalia <howToLink>miongozo</howToLink>.
 
 ## ADD LANGUAGE
 
+sc-add-lang-could-not-add = Haikuweza kuongeza lugha
+sc-add-lang-sec-button = Ongeza Lugha
+sc-add-err-submission = Hitilafu ya Kuwasilisha
 
 ## ADD SENTENCES CONFIRMATION
 
