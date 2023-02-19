@@ -1141,6 +1141,15 @@ sc-add-err-submission = Hitilafu ya Kuwasilisha
 
 ## ADD SENTENCES CONFIRMATION
 
+sc-confirm-sentences-title = Thibitisha Sentensi Mpya
+# Variables:
+#   $countOfSentences (Number) - Number of sentences the user has filled in the submission form
+sc-confirm-sentences-found =
+    { $countOfSentences ->
+        [0] Hakuna sentensi zilizopatikana.
+        [one] Sentensi 1 imepatikana.
+       *[other] Sentensi { $countOfSentences } zimepatikana.
+    }
 
 ## LANGUAGE INFO
 
