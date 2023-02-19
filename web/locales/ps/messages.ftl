@@ -1254,3 +1254,4 @@ localization-select =
     .label = ژبه/سیمه ایز کول غوره کړئ
 # PARTNERSHIPS PAGE
 partnerships-header = شراکتونه
+partnerships-header-text = د عام غږ رامینځته کولو لپاره ډیر څه اړتیا لري! موږ دا یوازې نه کوو. غواړئ له موږ سره ملګرتیا وکړئ؟ موږ خوښ یو چې له تاسو څخه واورو.
