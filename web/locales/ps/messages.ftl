@@ -1231,10 +1231,26 @@ sc-review-form-prompt =
     .message = بیاکتل شوي جملې ندي سپارل شوي، ایا تاسو ډاډه یاست؟
 sc-review-form-button-reject = رد کړه
 sc-review-form-button-skip = پرېږدئ
+sc-review-form-button-submit =
+    .submitText = بیاکتنه پای ته ورسوي
 sc-review-link = بیاکتنه
 
 ## SETTINGS
 
+sc-settings-ui-language = د انٹرفیس ژبه
+sc-settings-reset-skipped = پریښودل شوي جملې بیا تنظیم کړئ
+sc-settings-skipped-decription = تاسو مخکې د بیاکتنې پر مهال جملې پریښودې. د پریښودو جملو بیا تنظیم کول به ټول پریښودل شوي جملې بیا وښیې. دا عمل د ټولو ژبو لپاره یو شان دی.
+sc-settings-show-all-button = ټول پریښودل شوي جملې بیا وښایئ
+sc-settings-failed = ترتیبات نشي بدلولی. مهرباني وکړئ بیا هڅه وکړئ.
+# VALIDATION
+sc-validation-number-of-words = جمله باید د 1 او 14 ترمنځ (په شمول) کلمې ولري
+sc-validation-no-numbers = په جمله کې باید شمیرې نه وي
+sc-validation-no-symbols = په جمله کې باید سمبولونه شامل نه وي
+sc-validation-no-abbreviations = جمله باید لنډیزونه ونه لري
 
 # [/SentenceCollector]
 
+localization-select =
+    .label = ژبه/سیمه ایز کول غوره کړئ
+# PARTNERSHIPS PAGE
+partnerships-header = شراکتونه
