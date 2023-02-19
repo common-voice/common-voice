@@ -806,6 +806,9 @@ target-segment-first-banner = Saidia kuunda sehemu ya kwanza ya lengo la Common 
 target-segment-add-voice = Ongeza Sauti yako
 target-segment-learn-more = Jifunze zaidi
 
+## Contribution Nav Items
+
+
 ## Reporting
 
 report = Ripoti
@@ -970,6 +973,7 @@ download-selected = Imechaguliwa
 download-start = Pakua data ya wasifu
 download-request = Omba rekodi
 download-request-button = Pakua
+download-request-refresh-button = onyesha upya
 
 ## Landing
 
@@ -1021,6 +1025,12 @@ contribution-criteria-nav = Vigezo
 contribution-criteria-link = Elewa vigezo vya michango
 contribution-criteria-page-title = Vigezo vya Mchango
 contribution-for-example = Kwa mfano
+contribution-misreadings-example-1-title = Dinosaurs kubwa za Triassic.
+contribution-misreadings-example-2-title = Dinosaur kubwa ya Triassic.
+contribution-misreadings-example-2-explanation = [Inapaswa kuwa 'dinosaurs']
+contribution-misreadings-example-3-title = Dinosaurs kubwa za Triassi-.
+contribution-misreadings-example-3-explanation = [Rekodi imekatwa kabla ya mwisho wa neno la mwisho]
+contribution-misreadings-example-4-title = Dinosaurs kubwa za Triassic. Ndio.
 contribution-misreadings-example-4-explanation = [Mengi zaidi yamerekodiwa kuliko maandishi yanayohitajika]
 contribution-misreadings-example-5-title = Tunakwenda nje kunywa kahawa.
 contribution-misreadings-example-6-title = Tunakwenda nje kunywa kahawa.
@@ -1030,8 +1040,15 @@ contribution-misreadings-example-7-explanation = [Hakuna ‘a’ katika maandish
 contribution-misreadings-example-8-explanation = [Maudhui yasiyolingana]
 contribution-varying-pronunciations-title = Matamshi tofauti
 contribution-varying-pronunciations-example-1-title = Kichwani alikuwa amevaa bereti.
+contribution-varying-pronunciations-example-2-title = Mkono wake uliinuliwa.
+contribution-varying-pronunciations-example-2-explanation = [‘Imeinuliwa’ kwa Kiingereza kila mara hutamkwa kama silabi moja, si mbili]
 contribution-background-noise-title = Kelele za mandharinyuma
+contribution-background-voices-title = Kelele za mandharinyuma
+contribution-volume-title = Sauti
+contribution-reader-effects-title = Athari za Msomaji
+contribution-just-unsure-title = Huna uhakika tu?
 see-more = <chevron></chevron>Angalia zaidi
+see-less = <chevron></chevron>Tazama kidogo
 
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
@@ -1040,19 +1057,24 @@ see-more = <chevron></chevron>Angalia zaidi
 
 ## HEADER/FOOTER
 
+sc-header-how-to = Jinsi ya
 sc-header-add = Ongeza
 sc-header-rejected = Sentensi zilizokataliwa
 sc-header-my = Sentensi zangu
 sc-header-statistics = Takwimu
 sc-header-profile = Wasifu
+sc-footer-report-bugs = Ripoti Hitilafu
 sc-footer-translate = Tafsiri ukurasa huu
+sc-footer-report-copyright = Ripoti suala la tovuti
 sc-footer-privacy = Faragha
 sc-footer-terms = Masharti
+sc-footer-cookies = Vidakuzi
 sc-login-signup-button = Ingia / Jisajili
 sc-logout-button = Ondoka
 
 ## HOME
 
+sc-home-title = Karibu kwenye Mkusanyaji wa Sentensi wa Common Voice
 sc-home-collect-title = Kusanya sentensi
 
 ## GENERAL
