@@ -1127,6 +1127,7 @@ sc-home-intro = د جملې راټولونکی د <commonVoiceLink>عام غږ</
 
 ## GENERAL
 
+sc-languages-fetch-error = موږ د شته ژبو په راوړلو کې پاتې راغلل. ونډې اوس مهال ممکنه نه دي. مهرباني وکړئ وروسته بیا هڅه وکړئ.
 
 ## HOW-TO
 
@@ -1200,9 +1201,12 @@ sc-add-err-failed =
 
 ## ADD SENTENCES CONFIRMATION
 
+sc-confirm-uploading = جملې پورته کیږي. دا کولی شي څو دقیقې وخت ونیسي د جملو د شمیر پورې اړه لري. مهرباني وکړئ دا ویب پاڼه مه بندوئ.
 
 ## LANGUAGE INFO
 
+sc-lang-info-review-now = <reviewLink>اوس بیا کتنه وکړئ!</reviewLink>
+sc-lang-info-add-more = <addLink>اوس نورې جملې اضافه کړئ!</addLink>
 
 ## LOGIN
 
