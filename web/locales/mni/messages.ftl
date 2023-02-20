@@ -18,6 +18,7 @@ banner-error-slow-1 = ꯄꯨꯛꯅꯤꯡ ꯂꯩꯇꯥꯕꯤꯌꯨ, ꯑꯆꯝꯕ 
 banner-error-slow-2 = ꯑꯩꯈꯣꯏꯅꯥ ꯇ꯭ꯔꯥꯐꯤꯛ ꯀꯌꯥ ꯑꯃꯥ ꯐꯪꯂꯤ ꯑꯃꯁꯨꯡ ꯍꯧꯖꯤꯛ ꯋꯥꯐꯃꯁꯤꯡ ꯑꯁꯤ ꯊꯤꯖꯤꯜꯂꯤ ꯫
 banner-error-slow-link = ꯂꯃꯥꯏ ꯊꯥꯛ
 error-something-went-wrong = ꯄꯨꯛꯅꯤꯡ ꯐꯥꯊꯕꯤꯌꯨ, ꯑꯁꯣꯢꯕ ꯈꯔꯥ ꯂꯩꯔꯦ
+error-clip-upload = ꯀ꯭ꯂꯤꯞ ꯑꯁꯤ ꯊꯥꯒꯠꯄ ꯉꯝꯗ꯭ꯔꯤ, ꯑꯃꯨꯛ ꯍꯟꯅꯥ ꯍꯣꯠꯅꯔꯤꯕꯔꯥ?
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -475,6 +476,9 @@ size-megabyte = ꯑꯦꯝꯕꯤ
 
 
 ## Contribution
+
+
+## Contribution Nav Items
 
 
 ## Reporting
