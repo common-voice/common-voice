@@ -936,6 +936,7 @@ target-segment-learn-more = Meer info
 
 ## Contribution Nav Items
 
+contribute-voice-collection-nav-header = Spraakcollectie
 
 ## Reporting
 
