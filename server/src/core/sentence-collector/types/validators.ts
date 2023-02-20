@@ -1,4 +1,5 @@
 const ValidatorLocales = [
+  'am',
   'bas',
   'ca',
   'ckb',
