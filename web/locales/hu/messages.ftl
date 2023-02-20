@@ -422,6 +422,7 @@ accept-privacy = Beleegyezem, hogy a Mozilla <privacyLink>Adatvédelmi irányelv
 accept-privacy-title = Adatvédelmi irányelvek
 accept-privacy-and-terms = Elfogadom a Common Voice <termsLink>Jogi feltételeit</termsLink> és az <privacyLink>Adatvédelmi nyilatkozatát</privacyLink>
 login-identity = Bejelentkezési azonosító
+login = Bejelentkezés
 login-signup = Bejelentkezés / Regisztráció
 edit = Szerkesztés
 email-subscriptions = E-mail feliratkozások
@@ -932,6 +933,10 @@ target-segment-generic-card = Közreműködik egy célszegmensben
 target-segment-first-banner = Segítsen a Common Voice első { $locale } célszegmensének létrehozásában
 target-segment-add-voice = Adja a hangját
 target-segment-learn-more = További tudnivalók
+
+## Contribution Nav Items
+
+contribute-voice-collection-nav-header = Hanggyűjtemény
 
 ## Reporting
 

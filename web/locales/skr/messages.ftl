@@ -425,6 +425,7 @@ accept-privacy = جین٘ویں جو تساں موزِلّا دی <privacyLink>�
 accept-privacy-title = رازداری پالیسی
 accept-privacy-and-terms = میں کامن وائس  <termsLink>شرطاں</termsLink> تے <privacyLink> رازداری نوٹس</privacyLink> نال متفق ہاں۔
 login-identity = لاگ ان سُن٘ڄاݨ
+login = لاگ ان
 login-signup = لاگ ان/ سائن اپ
 edit = تبدیلی کرو
 email-subscriptions = ای میل سبسکرپشناں
@@ -950,6 +951,10 @@ target-segment-generic-card = تساں ہدف ٹوٹے وچ حصہ پیندے پ
 target-segment-first-banner = { $locale } وچ کامن وائس دا پہلا ہدف حصہ بݨاوݨ وچ مدد کرو
 target-segment-add-voice = آپݨی آواز رلاؤ
 target-segment-learn-more = ٻیا سِکھو
+
+## Contribution Nav Items
+
+contribute-voice-collection-nav-header = اوازاں دا مجموعہ
 
 ## Reporting
 

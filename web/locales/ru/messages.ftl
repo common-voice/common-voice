@@ -416,6 +416,7 @@ accept-privacy = Я соглашаюсь с тем, как вы обрабаты
 accept-privacy-title = Политика приватности
 accept-privacy-and-terms = Я согласен с <termsLink>Условиями</termsLink> и <privacyLink>Примечанием о конфиденциальности</privacyLink> Common Voice.
 login-identity = Идентификатор для входа
+login = Войти
 login-signup = Войти / Зарегистрироваться
 edit = Редактировать
 email-subscriptions = Подписки по электронной почте
@@ -938,6 +939,10 @@ target-segment-generic-card = Вы вносите свой вклад в цел�
 target-segment-first-banner = Помогите создать первый целевой сегмент Common Voice на { $locale }
 target-segment-add-voice = Добавить свой голос
 target-segment-learn-more = Подробнее
+
+## Contribution Nav Items
+
+contribute-voice-collection-nav-header = Коллекция голосов
 
 ## Reporting
 

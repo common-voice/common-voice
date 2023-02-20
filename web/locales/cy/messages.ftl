@@ -430,6 +430,7 @@ accept-privacy = Rwy'n hapus gyda chi'n defnyddio'r wybodaeth yma fel rydych yn 
 accept-privacy-title = Polisi Preifatrwydd
 accept-privacy-and-terms = Rwy'n cytuno i <termsLink>Delerau</termsLink> a <PrivacyLink>Hysbysiad Preifatrwydd</privacyLink> Common Voice
 login-identity = Enw Mewngofnodi
+login = Mewngofnodi
 login-signup = Mewngofnodi / Cofrestru
 edit = Golygu
 email-subscriptions = Tanysgrifiadau E-bost
@@ -954,6 +955,10 @@ target-segment-generic-card = Rydych yn cyfrannu at segment targed
 target-segment-first-banner = Helpwch i greu segment targed cyntaf Common Voice yn { $locale }
 target-segment-add-voice = Ychwanegwch Eich Llais
 target-segment-learn-more = Dysgu Rhagor
+
+## Contribution Nav Items
+
+contribute-voice-collection-nav-header = Casglu Lleisiau
 
 ## Reporting
 

@@ -412,6 +412,7 @@ accept-privacy = Io concorda que vos tracta iste informationes como vos explica 
 accept-privacy-title = Politica de confidentialitate
 accept-privacy-and-terms = Io concorda con le <termsLink>Terminos</termsLink> e con le <privacyLink>Aviso de confidentialitate</privacyLink>
 login-identity = Identitate pro aperir session
+login = Aperir session
 login-signup = Aperir session / Inscriber se
 edit = Modificar
 email-subscriptions = Subscriptiones de email
@@ -929,6 +930,10 @@ target-segment-generic-card = Tu contribue a un segmento objectivo
 target-segment-first-banner = Adjuta crear le prime segmento objectivo de Common Voice in { $locale }
 target-segment-add-voice = Adde tu voce
 target-segment-learn-more = Saper plus
+
+## Contribution Nav Items
+
+contribute-voice-collection-nav-header = Collection de voces
 
 ## Reporting
 

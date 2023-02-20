@@ -408,6 +408,7 @@ accept-privacy = Tôi đồng ý với việc các bạn xử lý thông tin nà
 accept-privacy-title = Chính sách riêng tư
 accept-privacy-and-terms = Tôi đồng ý với <termsLink>điều khoản</termsLink> và <privacyLink>thông báo về quyền riêng tư</privacyLink> của Common Voice
 login-identity = Nhận dạng đăng nhập
+login = Đăng nhập
 login-signup = Đăng nhập / Đăng ký
 edit = Chỉnh sửa
 email-subscriptions = Đăng ký email
@@ -929,6 +930,10 @@ target-segment-generic-card = Bạn đang đóng góp cho một phân đoạn m�
 target-segment-first-banner = Giúp tạo phân đoạn mục tiêu đầu tiên của Common Voice trong { $locale }
 target-segment-add-voice = Thêm giọng nói của bạn
 target-segment-learn-more = Tìm hiểu thêm
+
+## Contribution Nav Items
+
+contribute-voice-collection-nav-header = Bộ sưu tập giọng nói
 
 ## Reporting
 
