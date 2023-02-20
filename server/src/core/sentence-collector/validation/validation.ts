@@ -1,4 +1,5 @@
 import default_locale from './languages/default-locale'
+import am from './languages/am'
 import bas from './languages/bas'
 import ca from './languages/ca'
 import ckb from './languages/ckb'
@@ -25,6 +26,7 @@ import { Validators } from '../../sentence-collector'
 import { isValidatorLocale, ValidatorLocale, ValidatorRule } from '../types'
 
 const VALIDATORS: Validators = {
+  am,
   bas,
   ca,
   ckb,
