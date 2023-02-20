@@ -316,6 +316,7 @@ email-not-public = ꯑꯦꯈꯣꯏꯅ ꯅꯍꯥꯛꯀꯤ ꯏꯃꯦꯜ ꯃꯌꯥ�
 recordings-and-locale-public = ꯔꯦꯀꯣꯔꯗꯤꯡꯒꯤ ꯃꯁꯤꯡ ꯑꯃꯁꯨꯡ ꯅꯍꯥꯛꯅꯥ ꯀꯟꯇ꯭ꯔꯤꯕ꯭ꯌꯨꯠ ꯇꯧꯔꯤꯕꯥ ꯂꯣꯜꯁꯤꯡ ꯑꯗꯨ ꯃꯤꯌꯥꯝꯗꯥ ꯈꯪꯍꯟꯒꯅꯤ ꯫
 username-optin-public = ꯅꯍꯥꯛꯀꯤ ꯌꯨꯖꯔꯅꯦꯝ ꯑꯗꯨ ꯄꯕ꯭ꯂꯤꯛ ꯅꯠꯇ꯭ꯔꯒꯥ ꯑꯦꯅꯣꯅꯤꯝ ꯑꯣꯏꯅꯥ ꯁꯦꯝꯕꯥ ꯌꯥꯏ ꯫
 demographic-deidentified-clarity-2 = ꯑꯣꯄꯁꯅꯦꯜ ꯑꯣꯏꯅꯥ ꯄꯤꯁꯤꯜꯂꯀꯄꯥ ꯗꯦꯃꯣꯒ꯭ꯔꯥꯐꯤꯛ ꯗꯦꯇꯥ (ꯈꯨꯗꯝ ꯑꯣꯏꯅꯥ, ꯆꯍꯤ, ꯖꯦꯟꯗꯔ, ꯂꯣꯜ, ꯑꯃꯁꯨꯡ ꯑꯦꯛꯁꯦꯟꯇ) ꯑꯁꯤ ꯅꯍꯥꯛꯀꯤ ꯄ꯭ꯔꯣꯐꯥꯏꯂꯗꯥ ꯀꯩꯗꯧꯉꯩꯗꯥ ꯃꯤꯌꯥꯃꯗꯥ ꯈꯪꯍꯜꯂꯣꯏ, ꯑꯃꯁꯨꯡ ꯗꯦꯇꯥꯁꯦꯇꯇꯥ ꯂꯩꯕꯥ ꯅꯍꯥꯛꯀꯤ ꯑꯦꯀꯥꯎꯟꯇ ꯑꯗꯨꯒꯥ ꯂꯤꯑꯣꯄꯁꯅꯦꯜ ꯑꯣꯏꯅꯥ ꯄꯤꯁꯤꯜꯂꯀꯄꯥ ꯗꯦꯃꯣꯒ꯭ꯔꯥꯐꯤꯛ ꯗꯦꯇꯥ (ꯈꯨꯗꯝ ꯑꯣꯏꯅꯥ, ꯆꯍꯤ, ꯖꯦꯟꯗꯔ, ꯂꯣꯜ, ꯑꯃꯁꯨꯡ ꯑꯦꯛꯁꯦꯟꯇ) ꯑꯁꯤ ꯅꯍꯥꯛꯀꯤ ꯄ꯭ꯔꯣꯐꯥꯏꯂꯗꯥ ꯀꯩꯗꯧꯉꯩꯗꯥ ꯃꯤꯌꯥꯃꯗꯥ ꯈꯪꯍꯜꯂꯣꯏ, ꯑꯃꯁꯨꯡ ꯗꯦꯇꯥꯁꯦꯇꯇꯥ ꯂꯩꯕꯥ ꯅꯍꯥꯛꯀꯤ ꯑꯦꯀꯥꯎꯟꯇ ꯑꯗꯨꯒꯥ ꯂꯤꯉ꯭ꯛ ꯇꯧꯔꯣꯏ꯫ ꯃꯤꯑꯣꯏ ꯑꯃꯒꯤ ꯑꯣꯗꯤꯑꯣ ꯀ꯭ꯂꯤꯄꯁꯤꯡ ꯑꯁꯤ ꯍꯦꯟꯅꯥ ꯑꯆꯨꯝꯕꯥ ꯑꯦꯅꯥꯂꯥꯏꯁꯤꯁꯀꯤ ꯄꯥꯟꯗꯃꯗꯥ ꯗꯦꯃꯣꯒ꯭ꯔꯥꯐꯤꯛ ꯗꯦꯇꯥꯒꯥ ꯃꯔꯤ ꯂꯩꯅꯍꯅꯒꯅꯤ - ꯈꯨꯗꯝ ꯑꯣꯏꯅꯥ, ꯔꯤꯁꯔꯆꯔ ꯑꯃꯅꯥ ꯇ꯭ꯔꯦꯅꯤꯡ ꯃꯣꯗꯦꯜ ꯑꯃꯥ ꯑꯀꯛꯅꯕꯥ ꯗꯦꯃꯣꯒ꯭ꯔꯥꯐꯤꯛ ꯁꯦꯒꯃꯦꯟꯇ ꯑꯃꯗꯥ ꯇꯥꯔꯒꯦꯠ ꯇꯧꯕꯥ ꯄꯥꯝꯂꯕꯁꯨ ꯌꯥꯏ꯫
+username-email-not-demographic = ꯅꯍꯥꯛꯀꯤ ꯁꯤꯖꯤꯟꯅꯔꯤꯕ-ꯃꯃꯤꯡ ꯑꯃꯁꯨꯡ ꯏꯃꯦꯏꯜ ꯑꯗꯨ ꯐꯣꯡꯗꯣꯛꯂꯤꯕꯥ ꯗꯦꯇꯥ ꯑꯗꯨꯒꯥ ꯃꯔꯤ ꯂꯩꯅꯔꯣꯏ ꯫
 
 ## Speak & Listen Shortcuts
 
@@ -344,13 +345,17 @@ shortcut-record-toggle-label = ꯔꯦꯀ꯭ꯣꯔꯗ/ꯂꯦꯞꯄꯨ
 shortcut-rerecord-toggle = [꯱-꯲]
 shortcut-rerecord-toggle-label = ꯑꯃꯨꯛ ꯍꯟꯅ ꯔꯦꯀ꯭ꯔꯗ ꯇꯧꯈꯔꯕꯁꯤꯡ
 shortcut-discard-ongoing-recording = ꯑꯃꯨꯛꯍꯟꯕ
+shortcut-discard-ongoing-recording-label = ꯍꯧꯖꯤꯛ ꯆꯠꯊꯔꯤꯕꯥ ꯔꯦꯀꯣꯔꯗꯤꯡ ꯑꯗꯨ ꯊꯥꯗꯣꯛꯎ
 shortcut-submit = ꯍꯟꯂꯨ
+shortcut-submit-label = ꯀ꯭ꯂꯤꯄꯁꯤꯡ ꯄꯤꯁꯤꯟꯕꯥ
 request-language-text = ꯑꯆꯝꯕ ꯈꯣꯟꯖꯦꯜꯒꯤꯗ ꯅꯍꯥꯛꯀꯤ ꯂꯣꯟ ꯎꯗ꯭ꯔꯤꯕ ꯍꯧꯖꯤꯛꯁꯨ ?
 request-language-button = ꯂꯣꯟ ꯱ ꯍꯪꯒꯠꯆꯕ
 
 ## ProjectStatus
 
+status-title = ꯑꯄꯨꯟꯕꯥ ꯄ꯭ꯔꯣꯖꯦꯛꯇꯀꯤ ꯐꯤꯚꯝ: ꯑꯩꯈꯣꯏꯅꯥ ꯀꯌꯥ ꯌꯥꯝꯅꯥ ꯂꯥꯞꯅꯥ ꯂꯥꯛꯈꯤꯕꯒꯦ ꯍꯥꯏꯕꯗꯨ ꯌꯦꯡꯕꯤꯌꯨ!
 status-contribute = ꯅꯍꯥꯛꯀꯤ ꯈꯧꯟꯖꯦꯜ ꯁꯔꯨꯛ ꯌꯥꯎ
+status-hours = ꯍꯧꯖꯤꯛ ꯐꯥꯎꯕꯗꯗꯥ ꯚꯦꯂꯤꯗꯦꯠ ꯇꯧꯔꯕꯥ ꯄꯨꯡ ꯑꯃꯥ! { $hours } ꯍꯧꯖꯤꯛ ꯐꯥꯎꯕꯗꯥ ꯚꯦꯂꯤꯗꯦꯠ ꯇꯧꯔꯕꯥ ꯄꯨꯡꯁꯤꯡ!
 # Variables:
 # $goal - number of hours representing the next goal
 status-goal = ꯃꯊꯪꯒꯤ ꯄꯥꯟꯖꯤꯜ:{ $goal }
@@ -366,16 +371,25 @@ profile-form-additional-language =
     .label = ꯑꯍꯦꯟꯕ ꯍꯥꯞꯆꯤꯟꯂꯛꯄ ꯂꯣꯟ
 profile-form-language =
     .label = ꯂꯣꯟ
+profile-form-variant =
+    .label = { $language } ꯒꯤ ꯀꯔꯤ ꯚꯦꯔꯤꯑꯦꯟꯇ ꯅꯍꯥꯛꯅꯥ ꯉꯥꯡꯂꯤꯕꯒꯦ?
+profile-form-variant-default-value = ꯚꯦꯔꯤꯑꯦꯟꯇ ꯑꯃꯠꯇꯥ ꯈꯅꯈꯤꯗꯦ
 profile-form-accent =
     .label = ꯃꯔꯣꯜ
+profile-form-custom-accent-help-text =
+    .label = ꯅꯍꯥꯛꯀꯤ ꯑꯦꯛꯁꯦꯟꯇ ꯑꯗꯨ ꯀꯔꯝꯅꯥ ꯐꯣꯡꯗꯣꯛꯀꯅꯤ?
+profile-form-custom-accent-placeholder-2 = ꯅꯍꯥꯛꯀꯤ ꯑꯦꯛꯁꯦꯟꯇ ꯑꯗꯨ ꯐꯣꯡꯗꯣꯛꯅꯕꯒꯤꯗꯃꯛ ꯇꯥꯏꯞ ꯇꯧꯕꯥ ꯍꯧꯒꯗꯕꯅꯤ ꯫
 profile-form-age =
     .label = ꯆꯩꯍꯤ
 profile-form-gender-2 =
     .label = ꯅꯨꯄꯥ/ꯅꯨꯄꯤ
+leaderboard-visibility =
+    .label = ꯂꯤꯗꯔꯕꯣꯔꯗ ꯎꯕꯒꯤ ꯆꯥꯡ
 hidden = ꯑꯔꯣꯠꯄ
 visible = ꯑꯎꯕ
 native-language =
     .label = ꯌꯦꯜꯍꯧ ꯂꯣꯟ
+profile-form-add-accent = ꯑꯅꯧꯕꯥ ꯀꯁ꯭ꯇꯝ ꯂꯩꯇꯣꯟ ꯁꯦꯡꯕ ꯈꯣꯟꯖꯦꯜ ꯍꯥꯞꯆꯤꯜꯂꯨ { $inputValue }
 profile-form-submit-save = ꯇꯨꯡꯁꯤꯟꯕ
 profile-form-submit-saved = ꯇꯨꯡꯁꯤꯟꯂꯕ
 male = ꯅꯨꯄꯥ
@@ -384,6 +398,7 @@ female = ꯅꯨꯄꯤ
 other = ꯑꯇꯩ
 why-profile-title = ꯀꯔꯤꯒꯤ ꯄ꯭ꯔꯣꯐꯥꯏꯜ ?
 why-profile-text = ꯅꯁꯥꯒꯤ ꯃꯔꯝꯗ ꯋꯥꯐꯝ ꯈꯔ ꯄꯤꯗꯨꯅ, ꯅꯪꯅ ꯀꯝꯃꯟ ꯚꯣꯢꯁꯇ ꯊꯥꯖꯤꯟꯈ꯭ꯔꯤꯕ ꯈꯣꯟꯖꯦꯜꯒꯤ ꯄꯥꯎ-ꯏ ꯑꯗꯨ ꯈꯣꯟꯖꯦꯜ ꯁꯛꯈꯪꯕ ꯏꯟꯖꯤꯟꯁꯤꯡꯗ ꯍꯦꯟꯅ ꯀꯥꯟꯅꯅꯤ ꯫ ꯈꯣꯟꯖꯦꯜ ꯁꯛꯈꯪꯕ ꯏꯟꯖꯤꯟꯁꯤꯡꯗꯨ ꯆꯞ ꯆꯥꯕꯒꯤ ꯆꯥꯡ ꯍꯦꯟꯒꯠꯅꯕ ꯃꯁꯤꯒꯤ ꯄꯥꯎ-ꯏ ꯑꯁꯤ ꯁꯤꯖꯤꯟꯅꯩ ꯫
+dashboard = ꯑꯄꯥꯛꯄꯥ ꯌꯦꯡꯝ
 build-profile = ꯄ꯭ꯔꯣꯐꯥꯢꯜ ꯁꯥꯒꯠꯂꯨ
 avatar = ꯃꯁꯛ
 goals = ꯄꯥꯟꯗꯝꯁꯤꯡ
