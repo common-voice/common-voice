@@ -410,6 +410,7 @@ accept-privacy = 我同意你依照 Mozilla 的<privacyLink>隱私權保護政�
 accept-privacy-title = 隱私權保護政策
 accept-privacy-and-terms = 我同意 Common Voice 的<termsLink>使用條款</termsLink>與<privacyLink>隱私權公告</privacyLink>
 login-identity = 登入身分
+login = 登入
 login-signup = 登入 / 註冊
 edit = 編輯
 email-subscriptions = 電子郵件訂閱
@@ -898,6 +899,10 @@ target-segment-generic-card = 您正在朝目標段落數貢獻錄音
 target-segment-first-banner = 幫助 Common Voice 設定 { $locale } 的第一組目標段落數
 target-segment-add-voice = 加入您的聲音
 target-segment-learn-more = 了解更多
+
+## Contribution Nav Items
+
+contribute-voice-collection-nav-header = 收集語音
 
 ## Reporting
 

@@ -416,6 +416,7 @@ accept-privacy = Я соглашаюсь с тем, как вы обрабаты
 accept-privacy-title = Политика приватности
 accept-privacy-and-terms = Я согласен с <termsLink>Условиями</termsLink> и <privacyLink>Примечанием о конфиденциальности</privacyLink> Common Voice.
 login-identity = Идентификатор для входа
+login = Войти
 login-signup = Войти / Зарегистрироваться
 edit = Редактировать
 email-subscriptions = Подписки по электронной почте
@@ -939,6 +940,10 @@ target-segment-first-banner = Помогите создать первый це�
 target-segment-add-voice = Добавить свой голос
 target-segment-learn-more = Подробнее
 
+## Contribution Nav Items
+
+contribute-voice-collection-nav-header = Коллекция голосов
+
 ## Reporting
 
 report = Пожаловаться
@@ -1408,7 +1413,7 @@ sc-confirm-sentences-title = Подтверждение новых предло�
 #   $countOfSentences (Number) - Number of sentences the user has filled in the submission form
 sc-confirm-sentences-found =
     { $countOfSentences ->
-        [0] Предложения не найдены
+        [0] Предложения не найдены.
         [one] Найдено { $countOfSentences } предложение.
         [few] Найдены { $countOfSentences } предложения.
        *[many] Найдено { $countOfSentences } предложений.

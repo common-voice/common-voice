@@ -1965,6 +1965,7 @@ A couple of times, I almost burst into tears after I mess up.
 A couple of tomahawks will be found useful.
 A cradle is a leather platform, made to receive the seat.
 A crate must be safely secured to avoid damage during transport.
+A creature either has a condition or doesn’t.
 A creature of my splendid mind.
 A crimson footmark on the grey concrete!
 A crocodile must’ve taken his shadow when he crossed the stream.
@@ -2072,6 +2073,7 @@ A few thugs terrorized the city with beating, stabbing, and shooting.
 A few whiffs of the raw, strong scent of phlox invigorated her.
 A few words more, and I have said my say.
 A few words will show the difference for the shedding in this loom.
+A few, such as invisible, can be advantageous.
 A film came over Tom Smart’s eyes.
 A fine drake gliding past tipped over in midair and dropped in the rice.
 A fine example of an American.
@@ -2312,6 +2314,7 @@ A man must keep his head.
 A man of a low intellectual type cannot see mathematical or logical proofs.
 A man of a very low character of mind.
 A man received an injury to the spine from an accident.
+A man who has taken a life is considered to be impure.
 A man whose family god was the turtle may not eat a turtle.
 A man will never eat a coconut without first asking for its permission.
 A man’s shadow vanishes or grows very small at death.
@@ -2405,10 +2408,12 @@ A number of people hurried by.
 A number of the people who took part could easily point to the problem
 A page is a formidable addition to my body-guard of females.
 A page of the book was ripped out.
+A paladin tries to hold to the highest standards of conduct.
 A panel of light shone upon the wall a few paces ahead.
 A paraffin lamp is very useful if you're intending to go camping
 A parent is a nurturer of positive energy.
 A parent will resent it if you say that the baby is like them.
+A part of the ceremony consists of a dance accompanied by a song.
 A part of the neck ornament was made by rolling back and forth.
 A particular phosphorescence is occasionally visible on lagoon shoals in the Maldives.
 A partition is effected between the civil and the religious aspect of the kingship.
@@ -2731,6 +2736,7 @@ A trooper was never yet billeted upon a household more unlike him.
 A truck is known as a lorry in England.
 A tumult of shouts came drifting up to him.
 A turbulent and tempestuous storm arose.
+A turned creature must spend its fleeing.
 A twiglet is a small twig.
 A twin can save the crops from the ravages of hail and heavy rain.
 A two hour slot would be fine, thanks.
@@ -2843,6 +2849,7 @@ About Us and Site Notices
 About a hundred a month.
 About a mile to the east lie the ruins of stately temples.
 About eight next morning I witnessed the arrival of two constables and a sergeant.
+About eighty years ago, a chicken survived for three years without a head!
 About four o'clock Theodore presented himself in the back kitchen.
 About half-way through, faint signs of life had begun to show.
 About her acting she was least of all satisfied.
@@ -3031,6 +3038,7 @@ Adultery is a cause of plague and especially sterility among women.
 Adults often reminisce about their teenage years.
 Advance Child Tax Credit and Economic Impact Payments - Stimulus Checks
 Advanced Threat Protection
+Advanced age could account for a high Intelligence or Wisdom.
 Advancing liberty and justice also requires protecting the rights of women.
 Adversarial machine learning algorithms compete against each other to improve themselves.
 Advertise with us!
@@ -3059,6 +3067,7 @@ After a moment's pause, Tucker rode off.
 After a pause, Alice began, ‘Well!’
 After a pause, Lord Henry pulled out his watch.
 After a pause: "Are you ready for breakfast, sir?"
+After a rite of confession and forgiveness, the paladin starts fresh.
 After a season of prayer, these exemplary parents proceeded to the well.
 After a second cocktail they became enthusiastic.
 After a short interval, a tap at the door.
@@ -3292,6 +3301,7 @@ Alas, cultural differences meant they could not be together.
 Alas, for the effects of bad tea and bad temper!
 Albatross cloth is a new smooth-faced fabric similar to mohair.
 Albert paid a fortune to earthquake retrofit his house.
+Alder is associated with air.
 Ale, beer, wine, anything really.
 Alec acknowledges that he is a complete nerd.
 Alert at once, she sat up straight.
@@ -3894,6 +3904,7 @@ An implementation of Bruce McAdam's Algorithm W prime
 An implementation of Oukseh Lee and Kwagkeun Yi's Algorithm M
 An implementation of Robin Milner's Algorithm W
 An improvement in commerce can help a community flourish.
+An incapacitated creature can’t take actions or reactions.
 An inclination to mob violence springs up in the breast of every man.
 An incompetent government.
 An indefinite alteration had come over his whole person and manner.
@@ -5733,6 +5744,7 @@ As you wish.
 Asbestos is a mineral substance of a whitish silver color and a woolly texture.
 Asceticism has sought to brand and criminalize the desires.
 Asexual plants are flowerless.
+Ash is associated with life and oak with strength.
 Ashamed, he corrected her work, humbly writing above her words.
 Asia is pioneering online action to offline services.
 Asia is the largest continent on our planet earth.
@@ -8065,6 +8077,7 @@ By unplugging the holes, we let the soap-suds off the decks.
 By using our site, you consent and are in agreeance with our privacy policy.
 By using the horizontal swing, it may often be brought into focus.
 By virtue of that power we shall remain in power.
+By virtue of your race, your character can speak, read, and write certain languages.
 By way of a start, I read the note again.
 By way of balance you should always consider the other side.
 By your account, he does seem to have had some scruples.
@@ -8496,6 +8509,7 @@ Chantelle gossiped non-stop.
 Character is not an overnight creation.
 Characteristically he thought last of where he was to go.
 Characters are defined more by their skills, species and choice of deity
+Characters of most races are Medium.
 Charcoal is an accelerator of decomposition.
 Charities are developing systems to offer cash direct to the needy in emergencies.
 Charities must be vigilant for the protection of the vulnerable.
@@ -8568,6 +8582,7 @@ Chocolate with a caramel filling.
 Choir or Cantor: Alleluia! All repeat: Alleluia!
 Choirboys reinforce the ranks to a considerable extent.
 Choose a pair of ear-rings to suit yourself.
+Choose one type of dragon from the Draconic Ancestry table.
 Choose your own degree of crossness.
 Chops and tomato sauce.
 Choreography is harder than it looks.
@@ -8897,6 +8912,7 @@ Consumer electronics are not built to last like they used to.
 Consumer reporting agencies compile and disseminate personal information about consumers.
 Consumers want an appealing, stylish and durable product.
 Contact Us to ask a question, provide feedback, or report a problem.
+Contact me if you need any help.
 Contagious magic is founded on the association of ideas by contiguity.
 Content Management Systems are outdated now-a-days.
 Content-based community involvement can provide great enrichment for the students.
@@ -8926,6 +8942,7 @@ Cool; very cool.
 Copies are usually made by inferior hands.
 Copies were made of the said statute.
 Copper is always employed on account of its superior conductive power.
+Copying that spell into your spellbook involves reproducing the basic form of the spell.
 Copying-books have an unlucky knack of coming to pieces.
 Copyright hunters with their bought patents playing sitting duck and raking in the money.
 Copyright infringement must be avoided.
@@ -10360,6 +10377,7 @@ Drop the Mic, I'm out.
 Drops of water fell from the elm-trees.
 Drowning myself, you mean?
 Drug companies will still do very well.
+Druids from regions have chosen other plants to take on similar uses.
 Dual-carriageways and motorways have a central reservation that divides the carriageways
 Dubious is no word for it, Jeeves.
 Dublin is the capital of the Republic of Ireland.
@@ -10418,6 +10436,9 @@ Dust ground upon it.
 Dust swept from the churches on Palm Sunday had been spread on the fields.
 Dutch-pins is a pastime much resembling skittles.
 Duty called me elsewhere.
+Dwarves mature at the same rate as humans.
+Dwarves stand between four and five feet tall.
+Dwarvish is full of hard consonants and guttural sounds.
 Dyeing my hair cured me of vanity.
 Dynamic Link Libraries are reusable modules of windows software applications.
 Dyslexia is a learning difficulty experienced in reading and writing.
@@ -10472,6 +10493,7 @@ Each tree when first planted was placed in a bricked-off partition.
 Each tribe is distinguished by certain animals or things.
 Eagerly I seized on it, for I fancied it would tell me something.
 Earl Stanhope also made important improvements in the process of stereotype printing.
+Earlier today I was watching some television when it exploded!
 Early audiences were hungry for escapist entertainment.
 Early civilization was primitive.
 Early in this age, they began to simplify their spoken language.
@@ -10860,6 +10882,7 @@ Every person requires a driving license before they are allowed to drive.
 Every possible inquiry was made, and every place was searched.
 Every pretty girl likes to be flirted with.
 Every print shop should have a layout man.
+Every race increases one or more of a character’s ability scores.
 Every religious community in India preserves and administers its own traditional law.
 Every school child knows that six is three times two
 Every search you make, every link you click, and every email you send.
@@ -10924,6 +10947,7 @@ Everybody's would, I expect.
 Everybody’s helping everybody and working together, and that’s the way it should be.
 Everyone abroad seemed involved.
 Everyone began to move.
+Everyone deserves to share in the benefits of a just order.
 Everyone from students to retirees teachers turned soldiers defending their homeland.
 Everyone has a desire to be liked, it's perfectly natural.
 Everyone has the right to freedom of opinion and expression.
@@ -11037,6 +11061,7 @@ Exemplary, the teacher beamed, awarding Karen an A.
 Exercise and diet can restore vitality.
 Exercise caution in your business affairs, for the world is full of trickery.
 Exerting excess pressure could damage the equipment.
+Exhaustion is measured in six levels.
 Exit boots to his slumbers once more.
 Exo-skeletons are being introduced in the commercial space especially warehouses.
 Exorbitant house prices would inhibit people joining the housing ladder.
@@ -11693,6 +11718,7 @@ Full of twisted feeling, she was afraid she did want him.
 Full process flow.
 Full tide at ten.
 Fully a tumblerful, sir.
+Fun fact: I went to the store the other day.
 Fun forever, and no grubbing!
 Fun ways with whipped cream.
 Fun with flags.
@@ -11939,6 +11965,7 @@ Gloria, you want parties as much as I do.
 Glory be to God on high.
 Glucose is found in commerce under three different forms.
 Glucose is used in the manufacture of beer and alcohol.
+Gnomes are good-­hearted.
 Go ahead and chop down your forests.
 Go ahead, I've got time.
 Go all in when you learn something, as opposed to half-heartedly.
@@ -13780,6 +13807,7 @@ He has spoken through the Prophets.
 He has stamina; he can take the initiative in emergencies.
 He has startled and distressed me shockingly!
 He has strained his guiders.
+He has strong sense of fair play.
 He has submitted samples to the Post Office Department.
 He has the confidence of the very bricks and mortar.
 He has the most amazing appetite.
@@ -15501,6 +15529,7 @@ He used to keep them at school.
 He used to pore over its pages for hours at a time.
 He used to tell his mother all these things.
 He used to turn them over and count them when she was not there.
+He uses artillery to blast enemy armies from afar.
 He usually postponed the scrapbooking until Sunday.
 He uttered a yell and sprang into the air.
 He uttered no word for quite three minutes.
@@ -15529,6 +15558,7 @@ He walked miles of streets.
 He walked on tiptoe to the door, and gave a gentle tap.
 He walked right up to him and presented himself
 He walked sideways to the door.
+He walked up to me, called me "sus", and left!
 He walked up to one of the presses.
 He walked well, as if he were used to running.
 He walked whistling down the room, flirted and laughed with Hilda.
@@ -17869,6 +17899,7 @@ How could I be expected to judge delicate points of expertise in earthenware?
 How could I be so wicked?
 How could I doubt his word, Laura?
 How could I ever be worthy of those tears?
+How could I reject such a compelling offer?
 How could he contrive to come?
 How could he escape the notice of the watchers?
 How could he explain his possession of the sketch.
@@ -20047,6 +20078,7 @@ I found myself cut off from the understanding of others.
 I found myself in a bit of a predicament.
 I found somewhat that seemed like a recession in the wall.
 I found speech: "But I haven't ridden for years."
+I found that I, a mere stage magician, was deemed "suspicious"!
 I found that Miss Darcy was expected to dinner.
 I found the Duchess of Devonshire in the Back Court
 I found the place.
@@ -24187,6 +24219,7 @@ If the charm has succeeded, the water boils up and rain follows.
 If the child does not die, recovery is sure to follow sooner or later.
 If the child is a girl, a needle is deposited in the pot.
 If the company floats, the promoter gets his money
+If the creature has any legendary or lair actions, you can’t use them.
 If the cupboard held such deadly explosives, why not the boxes?
 If the custom were not observed, the corn would be mildewed.
 If the data does not change often use caching.
@@ -24592,6 +24625,7 @@ In all your ways submit to him and he will make your paths straight.”
 In an English courtroom, nobody ever shouts "object!"
 In an empire like Turkey we see neglect, stagnation, and decay everywhere.
 In an instant Adele's head was out of the window.
+In an instant his face grew violently red — in another as excessively pale.
 In an instant it came to him what this meant.
 In an instant it was sent flying to the other side of the road.
 In an instant she was free.
@@ -24722,6 +24756,7 @@ In manner: close and dry.
 In many books on garden design the authors misuse words.
 In many cases they are escapes from gardens.
 In many cases, Refugees were highly educated professionals in their former home nation.
+In many fantasy gaming worlds, there are two kinds of high elves.
 In many places we found money-pits dug.
 In many respects it is unique.
 In many small churches the Norman door has been suffered to remain.
@@ -24807,6 +24842,7 @@ In some places the bridal pair was called the prince and the princess.
 In some places the cattle are crowned and driven from their stalls.
 In some places, American football is snarkily called hand-egg.
 In some places, the tanning process is slightly modified.
+In some places, these traditions are literally schools.
 In some regiments they were linked.
 In some respects, he treads in the footsteps of his sainted mother.
 In some way it has to do with me.
@@ -25063,6 +25099,7 @@ In, and of itself, it would have little impact.
 Incidentally, I shall have left by then.
 Incidentally, too, I lost the friendship of Connie.
 Incidents of childhood and youth have faded from our memory.
+Include the following attribution statement in your own work:
 Income and outgoings are of interest to accountants.
 Increase funding for prevention, treatment, harm reduction, and recovery.
 Incredible!
@@ -25462,6 +25499,8 @@ It all depends on whether they apologise or not.
 It almost broke her heart.
 It almost choked me, and I couldn’t answer when my partner spoke.
 It almost made her dizzy.
+It also can’t take reactions.
+It also disappears if you use this feature again.
 It also doesn't allow you to have different placeholders
 It also handles publishing the static site
 It also includes home and long-term care.
@@ -25622,6 +25661,7 @@ It drew up at the door, and there was the sound of people alighting.
 It drove her desperate.
 It drove him almost insane to have her thus.
 It drowned all sound that brute agony and death may have made.
+It ends early if you are knocked unconscious.
 It enlivens work most excessively.
 It established structural racial inequalities that would favor the White minority for decades.
 It extends north and west over an enormous area of country.
@@ -25783,6 +25823,7 @@ It is a fine quality in a young woman.
 It is a foolish mercy.
 It is a freehold house.
 It is a full blown idea now.
+It is a gift of the king.
 It is a good property, and worth more than that.
 It is a grievous affair to my poor girls, you must confess.
 It is a habit of which I altogether disapprove.
@@ -25959,6 +26000,7 @@ It is fairer to describe a quarter mile as one of the middle distances.
 It is fairly evident why this should be so.
 It is fifty years old.
 It is firmly believed that this influence affects the mineral, vegetable, and animal kingdoms.
+It is firmly established in fantasy gaming worlds.
 It is for me to speak now.
 It is for some people.
 It is for them we have to search.
@@ -26170,6 +26212,7 @@ It is seldom that he is dampened with saltwater.
 It is separated from the sea only by a casino of the king's.
 It is set in an alternate version of the present.
 It is shady, elegant, convenient, luxurious, and snug.
+It is shown in the table.
 It is simple.
 It is siphoned off and a fresh charge put in.
 It is so bad for your poor eyes.
@@ -26645,6 +26688,7 @@ It sticks out a mile.
 It sticks to its old name of populists.
 It still doesn’t sound very vegetarian.
 It stood forth without disguise.
+It stretches back to the earliest mortal discoveries of magic.
 It strikes me as a rather unpleasant brand of nightmare.
 It strikes me that you might pioneer a little at home.
 It strikingly bespeaks the first-class man that he pre-eminently was.
@@ -27930,6 +27974,7 @@ Its branches are twined together so as to form what is called a crown.
 Its clear, knowing eyes gave her pain and fear.
 Its community is located in the township.
 Its customs and its businesses are no concern at all of his.
+Its default form can be a reflection of your patron.
 Its diameter was not more than two hundred yards.
 Its effect is therefore to accentuate the note rather than to lighten it.
 Its field was crowded with folk from Nottingham.
@@ -28014,6 +28059,7 @@ It’s getting as dark as it can.
 It’s going to take time.
 It’s good to get back.
 It’s hard to explain.
+It’s hard to make generalizations about humans, but your human character has these traits
 It’s hard work bringing them through fevers, and such things.
 It’s her mother you’ve got to reckon with.
 It’s killing, a breath of night air!
@@ -29745,6 +29791,7 @@ Melancholy lithographs represent to us a long-faced, square-browed man.
 Melanoma is a very rare pigmented tumour.
 Melissa looked up, confused.
 Melt butter in fry pan
+Members of a few races are Small.
 Members of the press should make their application here.
 Memories of the aching void at my belt-line were lost.
 Memory's art parades the past before thy face.
@@ -30095,6 +30142,7 @@ Most commonly the scene occupies the middle distance.
 Most countries are inward looking.
 Most disturbing, sir.
 Most doctors are invertebrate, infantile, impotent bedwetters.
+Most dwarves are lawful, believing firmly in the benefits of a well‑ordered society.
 Most earnestly he besought the artist never to destroy the sketch.
 Most fears people have are really nothing mortally threatening.
 Most inconsiderate, he thought, as they reached the road.
@@ -30131,6 +30179,7 @@ Most probably tomorrow.
 Most professionals make use of a specialised vocabulary called jargon.
 Most remarkable children I ever saw.
 Most seemed to have an unsavoury opinion of him.
+Most species have tendencies toward certain alignments, described in this entry.
 Most substances absorbed with great avidity rays of certain colors.
 Most unconvincing!
 Most welcome to Bath, sir.
@@ -31333,6 +31382,7 @@ No need to take that tone sir.
 No need, I ordered take away, it should be here soon.
 No notion could be further from the truth.
 No one appeared to notice me very pointedly.
+No one approaches him or takes any notice of him whatsoever.
 No one but themselves ever did know, I believe.
 No one came in, the door remained closed.
 No one can understand him better than I do.
@@ -32777,6 +32827,7 @@ On all other subjects I believe he is tolerably sane.
 On an appointed day he was taken out to the bar.
 On an ordinary field the rain soaks down quite uniformly.
 On arrival at his house, he found the door shut in his face.
+On average, they live about three hundred fifty years.
 On baking day she decided to shut them up in a cupboard.
 On bein gathered, it was deposited in the sanctuary of the Sun.
 On being discharged it is immediately buried with great care.
@@ -32898,6 +32949,7 @@ On what days did you put them in battery?
 On what point?
 On your last two birthdays, to be mathematically exact.
 On your local network you can use your internal address
+On your turn, you can enter a rage as a bonus action.
 Once I gave out two bum checks — remember?
 Once I had a great friendship with a beautiful and noble woman.
 Once I wanted something and got it.
@@ -33098,6 +33150,7 @@ One sighs and passes on.
 One solitary overture Ali made during that first fortnight.
 One spot on the retina is entirely insensitive to light.
 One strange thing is that the feeling is mutual.
+One such platform is YouTube Shorts.
 One surveys the region round, while the other scouts the plain.
 One tablespoonful should be enough.
 One tablespoonful to be taken at bed-time.
@@ -33113,6 +33166,7 @@ One time, however, we were near quarrelling.
 One tiny square of light stood opposite at Crossleigh Bank Farm.
 One to come, and one to go.
 One touched his cap in salute, and I responded graciously.
+One type is haughty and reclusive, believing themselves to be superior.
 One usually does at a ball.
 One variety of Brussels lace affords the best example of application.
 One was a hunger-bitten, out-of-work clerk.
@@ -33942,6 +33996,7 @@ Plans are no good.
 Planting can proceed on moist or irrigated soil until July.
 Plants reproduce their kinds through the sexual union of male and female elements.
 Plateaus are the thing now.
+Platforms that compete with TikTok are quickly rising in popularity.
 Plato found such attraction a subject for sentimental metaphysics.
 Plato's Dialogues have frequently been found a source of great help and consolation.
 Play games, till it's cooler.
@@ -33968,6 +34023,7 @@ Please can you acknowledge when this message has been read?
 Please can you assure me that the project can be delivered before January?
 Please can you order me a cab?
 Please can you tend to the plants while I am away?
+Please check the guidelines.
 Please check the inside leg measurement
 Please check with the harbourmaster before tying up
 Please check your basket is correct before clicking buy.
@@ -33985,6 +34041,7 @@ Please cross the road at the zebra crossing
 Please cycle, walk, or use public transport
 Please detach the charging cable.
 Please do not breach this contract.
+Please do not include any other attribution regarding Wizards other than that provided above.
 Please do not move, Sergeant.
 Please do not patronize me.
 Please do not think that I already know it all.
@@ -34196,6 +34253,7 @@ Pounded plants and the blood of a black goat are added to the water.
 Pour coffee.
 Poutine is a dish consisting of fries, unripened cheese curds, and gravy.
 Poverty and income inequality levels remain high.
+Power is honed to deadly perfection.
 Prabhu is her husband.
 Practically I know no history.
 Practically all soils contain sufficient plant food for good crop yields.
@@ -35845,6 +35903,7 @@ She is asked where the jewels are hidden.
 She is at the office already.
 She is believed to send the rain and to cause the plants to grow.
 She is by far the prettiest woman I have seen here.
+She is communing with nature.
 She is conscientious.
 She is daughter of a widow in the village.
 She is eminently calculated for a mother-in-law.
@@ -36187,6 +36246,7 @@ She plodded beside him.
 She pointed to the recess; her voice rang with contempt.
 She popped over yesterday and drank four glasses of wine!
 She positively laughed at the fancy.
+She practices advanced meditation that can protect her from harm.
 She practises very constantly. So much the better.
 She prayed earnestly for his safety that night.
 She prayed for William, prayed that he would recognise her.
@@ -37385,6 +37445,7 @@ Slowly, I calm down, my breathes evening out.
 Slowly, I came to find that there were others like myself.
 Sly, Mr. Pickwick, sly.
 Slyness and untruthfulness — that’s what she has displayed.
+Small characters have trouble wielding heavy weapons.
 Small coals, such as smudge and slack, are plentiful.
 Small left us at a week's notice.
 Small lumps, called nuggets, are discovered in a remarkably pure state.
@@ -37763,6 +37824,7 @@ Some eat turkey for Thanksgiving, but I ate lasagna.
 Some elimination of the worst dispositions is always in progress.
 Some employers think it easiest just to hire and fire.
 Some even began to edge toward the pavilion.
+Some fantasy races have subraces.
 Some feel stimulus from looking at scarlet flowers.
 Some fool I'd never seen fired at random.
 Some fourteen or fifteen men act as watchmen to enforce the taboo.
@@ -37821,6 +37883,7 @@ Some of the old Latin kings were begotten by slave fathers.
 Some of the persons involved in these affairs were burned alive.
 Some of the pines were short and scraggy, some were shaky.
 Some of the rules are negative and some are positive.
+Some of the sentences on this platform are kind of boring.
 Some of the smaller veins had doubtless been ruptured.
 Some of the students still don’t get optimization.
 Some of the woodwork of the benches was torn from its place.
@@ -37888,6 +37951,7 @@ Some slaves returned to Africa.
 Some smartwatches can detect atrial fibrillation.
 Some sort of paste on toast.
 Some sort of struggle had sprung into life.
+Some special abilities and environmental hazards, can lead to exhaustion.
 Some spy must have found me out.
 Some stood with their mugs in their hands.
 Some tentacles on the same leaf were more sensitive than others.
@@ -38021,6 +38085,7 @@ Somewhere a ukulele thrills and cries.
 Somewhere behind me I felt fresh air.
 Somewhere through the labyrinthine obscurity his death sought him.
 Soon Edgar came in.
+Soon after dark they arrived, and gave me a most cordial welcome.
 Soon after the Scarecrow stopped.
 Soon he was pottering about downstairs.
 Soon his preoccupation vanished.
@@ -38061,6 +38126,7 @@ Sorry, but we need your original birth certificate, not a copy.
 Sorry, it's like a nervous tick.
 Sorry, my calendar is full until late next week.
 Sorry, that book is no longer in circulation.
+Sorry, that one's not available.
 Sort by highest price last.
 Sort by lowest price first.
 Sort by product description.
@@ -38506,6 +38572,7 @@ Supposing we take a little rest here.
 Suppression is liable to occur in all the parts of plants
 Sure he will not leave London before he has found them.
 Sure, I'll drop you off at the central station.
+Sure, cars are cool, but what about this motorcycle?
 Sure, just grab whatever you need.
 Surely I will excuse you, she cried.
 Surely a shilling's enough?
@@ -39019,6 +39086,7 @@ That man's a foreigner.
 That marmoset that isn't mine; it's theirs!
 That may be done without horses.
 That may very well be.
+That means that certain rules of the game affect them differently.
 That means, there aren’t any more.
 That melody really tugs at the heartstrings, doesn't it?
 That might be an option, but I doubt it.
@@ -39054,6 +39122,7 @@ That really doesn't seem appropriate.
 That really made everything easier for us.
 That really takes the biscuit
 That reference was not first inserted in the said committee's agenda book.
+That replenishes when you take a long rest.
 That reply will do for the present.
 That retaining wall doesn’t look very secure
 That right but we need some correct way to do it right?
@@ -39707,6 +39776,7 @@ The Guatemalans declared themselves independent.
 The Guatemalans have established themselves as a sovereign state.
 The Gulf of Morbihan is a natural harbour on the coast of Brittany, France.
 The Haber Process is an industrial process for producing ammonia
+The Halfling language isn’t secret, but halflings are loath to share it with others.
 The Hallelujah Chorus from Handel's Messiah.
 The Hatter shook his head mournfully.
 The Hatter was the first to break the silence.
@@ -39966,6 +40036,7 @@ The Surveyor-General, in effect, endorsed the old man’s words.
 The Swahili has been called a lingua franca.
 The Swedes always attributed good or bad crops to their kings as the cause.
 The Swedes have given it the name of Indian hemp.
+The System Reference Document, version five, is provided to you free of charge.
 The Tale of Two Cities is on the landing.
 The Tea-Room party won their way, and Disraeli's Bill passed.
 The Teutonic thunder god resembled his southern counterparts Zeus and Jupiter.
@@ -40101,6 +40172,7 @@ The afterbirth is wrapped up in plantain leaves and buried by the child's mother
 The afterbirth of boys is sometimes exposed at places where ravens will eat it.
 The afternoon was golden over the hills of Derbyshire.
 The afternoon wore away, however, and he did not appear.
+The age entry notes when one is considered an adult.
 The age of Homer is surrounded with darkness, his very personality with doubt.
 The agony abates.
 The aid of the sorcerer is called in to capture the vagrant spirit.
@@ -40754,6 +40826,7 @@ The charge should be no faster than the pace of the slowest man.
 The charity found it hard to measure outcomes and efficiencies.
 The charity is an ecocentric organisation that works to educate the public.
 The charity needs a governance review urgently
+The charmer has advantage on any ability check to interact socially with the creature.
 The charred remains of the wood prove that the fire was extinguished.
 The charring of the casks was more effectual than the immersion.
 The charwoman had been sent home.
@@ -41162,6 +41235,7 @@ The creation of the internet has dropped the cost of communication drastically.
 The creative commons licensing system makes sharing intellectual property easy to follow.
 The creative joy, I murmured.
 The creature croaks terribly while the ants are gnawing the flesh from its bones.
+The creature’s location can be detected by any noise it makes.
 The crescent bodies become the sexual bodies.
 The crew gave three cheers: hurrah!
 The crew held a live viewing party when the show aired on T V.
@@ -41318,6 +41392,7 @@ The derangement of the woolen trade was causing distress all over the country.
 The derivative class has been formed by accumulation of material.
 The descending water sinks down and forms an undercurrent.
 The description coincides with the authentic letters of the visitors.
+The description of each race includes racial traits.
 The desert was pudding, cherry pie,and strawberries, cream and sugar.
 The desiccated loaf remained swathed up in the scullery.
 The design of this map is awful.
@@ -41336,6 +41411,7 @@ The deuce you did!
 The developer is now poured over the plate.
 The development of Canada since the peace is hardly mentioned.
 The development of the sponges has been carefully investigated.
+The device ceases to function after twenty-four hours.
 The device has a gyro motor.
 The devil is licking the blood and munching the liver.
 The devil-dancer is now worshipped as a present deity.
@@ -41932,6 +42008,7 @@ The fog was dense and impenetrable to light.
 The folds bound her lips more surely.
 The folks were of the genus cinch, species pushover.
 The following collation was served to the royal party.
+The following entries appear among the traits of most fantasy races.
 The following facts may possibly be of interest to you.
 The following is another extract from the same treatise.
 The following table contains the formulas of the compounds.
@@ -42912,6 +42989,7 @@ The light was tepid, the temperature of warm blood.
 The light went out as suddenly as it had appeared.
 The light went out in the salon.
 The light will be from the East on that date.
+The lighting of fires is a certain method of scaring the ghost.
 The lighting of the flame on earth is supposed to rekindle the solar fire.
 The lights of the city fell away behind them.
 The lights were not lit, which struck me as odd.
@@ -43363,6 +43441,7 @@ The most common ground is duress — physical pressure.
 The most dangerous variety is the black rock scorpion.
 The most depressed-looking of the three.
 The most difficult question in radium treatment is that of dosage.
+The most important of these rules is strikes.
 The most negligent stock-holders now carefully house their wool.
 The most popular stall at the village fete was the lucky dip
 The most popular type of council housing is a council house
@@ -43750,6 +43829,7 @@ The other side had imprisoned him, debated his death.
 The other side of what?’ thought Alice to herself.
 The other three officers remained in the boat.
 The other two agreed.
+The other type is more common and more friendly.
 The other warriors have hidden themselves close by behind trees and bushes.
 The other was hurt, like losing both his props.
 The other windows upon that floor were shuttered.
@@ -43792,6 +43872,7 @@ The pair of vases were a gift from the prince.
 The pair stood, loth to part, hugging their books.
 The palace stands in the middle of a little town.
 The palace was painted an acid shade of yellow-green.
+The paladin might spend an all-­night vigil in prayer.
 The pale-green hat upon her fair head heavy with its curls!
 The palm forest which belongs to the crown is divided into two parts.
 The panda has been discovered only of late years, in the mountains of India.
@@ -44813,6 +44894,7 @@ The sixth commandment is, Thou shalt not kill.
 The sixth commandment requires all lawful endeavors to preserve our own life, and the
 The sixth day he spent in the cabin with Gregson.
 The sixth mast was denominated the driver and the seventh the pusher.
+The size category including creatures that are roughly four feet tall.
 The size of the restaurant bill really grabbed his attention.
 The skeletal framework does not go beyond the fibrous stage.
 The skewer may lead you to the criminal.
@@ -45112,6 +45194,7 @@ The study had many flaws.
 The study of Anatolian languages has been facilitated by the excavation of Hittite inscriptions.
 The study of philosophy is an interesting project for retirement.
 The study of the framework will be absolutely necessary.
+The study of wizardry is ancient.
 The stupidity of that man never ceases to amaze me.
 The style of modern embroidery dates from the commencement of the present century.
 The style of the letter was far above her expectation.
@@ -45712,6 +45795,7 @@ The way ran deviously through a maze of buildings.
 The way through the mill gate leads onto the golf course.
 The weakness of nations is in actual war.
 The weakness passed.
+The weapon ceases being your favorite.
 The weapon owes its name to the large wounds it caused.
 The wear on the rails on all parts of the gradient is exceedingly irregular.
 The weather added what it could of gloom.
@@ -46093,6 +46177,7 @@ Their object was to get these dispositions without our knowing it.
 Their objects were as various as their demands.
 Their office was hereditary, passing by rights from mother to daughter.
 Their optic nerve has shrunk to an insensitive thread.
+Their oral tradition, however, is very strong.
 Their other meals they took at restaurants and hotels.
 Their parents forbade them to write when any of their fathers was away.
 Their parents were respectable farmers, content with their station.
@@ -47773,10 +47858,12 @@ These are memories of another era.
 These are mere straws, Jeeves.
 These are murmurers, complainers, walking after their lusts.
 These are my top grades.
+These are not binding for player characters
 These are not its only artifices.
 These are only my opinions
 These are our recent hires.
 These are our respected benefactors.
+These are part and parcel of dwarven nature.
 These are peaches, these are.
 These are personal matters.
 These are prospects held out by the Minister.
@@ -47972,6 +48059,7 @@ These were perplexities and contradictions that I could not account for.
 These were the people who were on his side.
 These winds rarely carry fog with them up from the gulf.
 These women friends are all heterosexual except one.
+These woods make excellent hafts or whole weapons.
 These words jarred the Wooster pride, inducing asperity.
 These would have received no countenance from him.
 These, Elliot explained severely, were to widen his audience.
@@ -48527,6 +48615,7 @@ They hesitate, and wait for the public opinion.
 They hold a feast with what they get from begging from door to door.
 They hold him up by the heels to empty out the soul.
 They hold their great fans close to the ground to shelter him.
+They hold to the Old Faith.
 They honor the spirits by depositing food under the trees.
 They hopped upon it like a duck on a June bug.
 They hung on my lips.
@@ -48889,6 +48978,7 @@ They tell me some women find it useful.
 They tell me there was no one here.
 They tell me you've been on the stage, my man.
 They tell one another.
+They tend toward good as well.
 They thank and praise him when a heavy rain has fallen.
 They thanked him much for that.
 They that are effectually called do in this life partake of justification, adoption, and
@@ -49041,6 +49131,7 @@ They were following the shore of a lake.
 They were for passenger traffic alone.
 They were forced up above the ground in the shape of arches.
 They were found under the floor of the bedroom.
+They were free to eat as much food as they pleased.
 They were from two disparate communities.
 They were going for a ten-mile walk across the fields to Nottingham.
 They were going to arrest her and her accomplices.
@@ -49263,6 +49354,7 @@ They’re always laughing.
 They’re always wanting the big scholars to recite.
 They’re both gone to the town.
 They’re coming in a flood presently.
+They’re considered young until they reach the age of fifty.
 They’re fearfully skimpy.
 They’re in the dining-room having whiskies-and-sodas.
 They’re just conceited — like that collie in Puddleby.
@@ -49274,6 +49366,7 @@ They’re white with pink middles.
 They’ve all had a bath this morning.
 They’ve been most everywhere but here.
 They’ve had their time.
+They’ve made a place for themselves inside the human heart, too.
 They’ve not been sleeping, I know that.
 Thin the paste with slowly adding broth.
 Things are sweeter when they're lost.
@@ -49428,6 +49521,7 @@ This cord is worn by him until it decays and drops off.
 This correspondence will be brought out in the following pages.
 This could not be better situated or more suitable for a game reserve.
 This could pave the way for significant free and open source endeavors
+This could provide an explanation for some of your ability scores.
 This could restore optimism and boost morale.
 This crab is eaten in both the hard and soft shell condition.
 This curious superstition prevails among some of the Indian tribes of British Columbia.
@@ -49549,6 +49643,7 @@ This in its turn he moved quickly aside.
 This includes the use of unconventional spelling and dialect.
 This inference is reasonable and receives some confirmation from the analogy of modern custom.
 This inference is strengthened by a precept laid down by grave Roman writers.
+This information can help you decide how old your character is.
 This ink is to be evenly spread on leaves of thin paper.
 This instrument has not been long in use.
 This interested Ayaan, tired as he was.
@@ -49749,6 +49844,7 @@ This is strictly between ourselves.
 This is strong language, William.
 This is such an unromantic affliction.
 This is sufficiently proved by the circulation which it has obtained.
+This is supposed impart courage and strength to them.
 This is supposed to be the age of enlightenment.
 This is supposed to be the only means of bringing down the rain.
 This is supposed to make the spearhead stick fast in the dugong or turtle.
@@ -49926,6 +50022,7 @@ This other gentleman is in the preaching line, I think?
 This ought to be my nephew, if likenesses run in families.
 This ought to satisfy the most inflated pathologic vanity.
 This outflow of heat necessitates a rise of temperature with increase of depth.
+This page is intentionally left blank.
 This paper is only a Scotch mist from one end to the other.
 This paper is remarkable, who wrote it?
 This paper lacks references and bibliography.
@@ -50101,6 +50198,7 @@ This useful species of grain is here called quinoa.
 This uses the Cisc processor architecture.
 This uses the Risc processor architecture.
 This uses word embeddings.
+This value should not be relied on!
 This valve gear has an unusually large range of cutoff.
 This verb is not in the English dictionaries.
 This very much resembles what is sold in the shops for Venetian talc.
@@ -50235,6 +50333,7 @@ Those aspects were roundly condemned by the critics.
 Those bandages surprised me, to be sure!
 Those boys talk as if I was a baby.
 Those broadcasters hate me for my suggestions.
+Those characteristics spill over into whatever other language a dwarf might speak.
 Those circumstances it is not necessary to offer in argument.
 Those creatures frightened me so badly that my heart is beating yet.
 Those deep black eyes!
@@ -50476,6 +50575,7 @@ To find a man agreeable whom one is determined to hate!
 To fix a poster to a noticeboard you should use a drawing pin
 To fix this problem we'll have to involve the specialists.
 To frame a definition of it which would satisfy everyone must obviously be impossible.
+To gain this benefit, you can’t be blinded, deafened, or incapacitated.
 To gain time I answered them.
 To get from London to Bath you need to drive down the motorway
 To get it to all the people.
@@ -51122,6 +51222,7 @@ Use at your own risk
 Use boiled water, or disinfected water until regular water service is restored.
 Use butter moderately.
 Use glitter that naturally breaks down.
+Use the creature’s bonus instead of yours.
 Use the same Zoom link above as for joining Sunday worship.
 Use the snowball method to become free of debt sooner.
 Use this cream sparingly.
@@ -51137,6 +51238,8 @@ Using another language or version?
 Using contextual analysis, machine learning algorithms can make predictions that make sense.
 Using decomposition we can find the final value.
 Using stuffing bread works best. Bread that is not sliced.
+Using the device requires your action.
+Using those tools, you can construct a Tiny clockwork device.
 Usually he preferred to go out with a scarf round his neck.
 Usually he rang his bell and laughed towards the house.
 Usually it is bound round with magic cords and wrapped up in a sheepskin.
@@ -53591,6 +53694,7 @@ What if they fail to do so?
 What if they were playing Peter’s game?
 What if we all joined forces?
 What if you could trust the answer I gave you
+What if you play a young or very old character?
 What important or leading measure is there which can be adopted?
 What improvements in democracy are we looking for?
 What in Heaven's name had he undertaken?
@@ -54337,11 +54441,13 @@ When my judgment should be given.
 When one extinguishes this word the whole figure falls in pieces.
 When one king marched out to fight, the other should stay at home.
 When one loses one's nerve, one simply babbles.
+When opened, this music box plays a single song at a moderate volume.
 When oranges came in, a curious proceeding was gone through.
 When others need help, we’ve got to be there.
 When our eyes met, I felt that I was growing pale.
 When our religious experience stops in emotionality, it is apt to do this.
 When parents sing, their children do too.
+When placed on the ground, the toy moves five feet across the ground.
 When presented like this
 When rubbed into the skin, it depresses sensory nerve-endings and is absorbed.
 When shall Ada come to see you, my love?
@@ -54472,6 +54578,7 @@ When you got home.
 When you make tea, do you pour the tea or the milk first?
 When you say 'No, sir,' do you mean 'Yes, sir'?
 When you say correctly croquet;
+When you transform, you assume the beast’s hit points and Hit Dice.
 When you were ten!
 When you're at rock bottom, the only way is up.
 When your cervix dilates ten centimetres you are in stage two labour.
@@ -54733,6 +54840,7 @@ While they were being washed, the father described circles around them with fir-
 While they were drinking their coffee Harry joined them.
 While they were thus occupied, our jailor re-entered.
 While we were there a young man came in.
+While you are not wearing any armor, you run faster.
 While you're out and about, please pass by the supermarket.
 Whilst attempting to jump over the wall, he broke his leg.
 Whilst we wait, here are a few kittens to look at.
@@ -55511,6 +55619,7 @@ Without their knowledge at home?
 Without them he could not run his empire.
 Without them, who's going to ensure if the programs we watch are family-friendly?
 Wizards are continually setting traps to catch souls that wander from their bodies.
+Wizards are dedicated to its complex study.
 Wizards of the Coast has a fantastic seclection of tools.
 Woah, ma, your hair looks wack.
 Woah, that's amazing!
@@ -55590,6 +55699,7 @@ Working hard to reduce inequality.
 Working with Wordpress is hectic now-a-days.
 World Health Organization Technical Briefing on Boil Water
 Worldly goods are divided unequally, and man must not repine.
+Worn equipment functions as normal.
 Worn socks have a pungent odour.
 Worried is right.
 Worrying about Angela, I suppose?
@@ -55611,6 +55721,7 @@ Would it be justifiable to bring it into English through the French?
 Would it be possible for you to tell me the questions?
 Would it be right for me to do so too?
 Would it not be better to rest now?
+Would it not have been better that we should remain friends?
 Would make genuine sensation.
 Would not such realization be either dangerous or inconvenient?
 Would she go with me?
@@ -55970,6 +56081,7 @@ Yet, how just a humiliation!
 Yet, in accordance with Ernest's test of truth, it worked.
 Yet, in reality, you are worse a scourge than the Black Death.
 Yet, who knows how long you’ll be a stranger?
+Yew is associated with death and rebirth.
 Yield yourself to the waters that are ripping and tearing at you.
 You accept it, you rejoice in it.
 You accepted him!
@@ -55991,6 +56103,7 @@ You and I are very different creatures.
 You and I must part.
 You and I need not be afraid.
 You and I.
+You and others who know this language automatically spot such a message.
 You and papa, and my sisters, must come down and see us.
 You and the tool have become magically one.
 You and your 'Well, Gussie'!
@@ -56036,6 +56149,7 @@ You are charmingly grouped, and appear to uncommon advantage.
 You are coming, then, to help us?
 You are familiar to me in these strange circumstances, very familiar.
 You are following what I say?
+You are free to use this content in any manner permitted by that license.
 You are gaming right now.
 You are going out into the great world.
 You are going to be great.
@@ -56083,6 +56197,7 @@ You are only doing your duty.
 You are only too likely to find yourself cast at the next election.
 You are positively soulless, he said savagely.
 You are presenting him with the drawing prize.
+You are proficient with it while you wield it.
 You are pulling into the parking lot of the One Stop Mart.
 You are quite black.
 You are quite chivalrous in her defence.
@@ -56143,6 +56258,7 @@ You asked her to share the winnings of your bank.
 You asked me the other day what my wishes were.
 You asked my sister if there was cancer in the family.
 You asked, what has driven me to flight at last?
+You assume a different form.
 You astound me, Jeeves.
 You back-pedal so hard that you grab for your hat.
 You began it too, for he wasn’t doing nothing.
@@ -56170,8 +56286,10 @@ You can bring out your old ribbon-box.
 You can build and disassemble the robot easily.
 You can call model dot summary to see the model structure.
 You can carry it back when you return.
+You can choose any age for your character.
 You can choose either the fruit salad or the cheese
 You can choose the colour Navy or Azure for the baby's bedroom.
+You can choose the form that this melee weapon takes.
 You can clearly hear that.
 You can contemplate your beauty at another time.
 You can convert a currency value from one to another using a conversion factor.
@@ -56183,6 +56301,7 @@ You can do him no good.
 You can do it.
 You can do it. Just take baby steps.
 You can do nothing worse to me than you have done.
+You can do that as long as you want.
 You can do what you like, old boy!
 You can edit the files in the source folder
 You can exchange your foreign currency at a bureau de change
@@ -56195,6 +56314,7 @@ You can hardly make the best of me if I don't.
 You can harm a man by maltreating or cursing an image of him.
 You can have my money.
 You can have perfect data in an imperfect world.
+You can have up to three such devices active at a time.
 You can hear it — a sound like the sea.
 You can hear the gears grinding while driving.
 You can hear very clear that my recorded clips are not artificial.
@@ -56203,6 +56323,7 @@ You can heat the rice pudding on the hob
 You can hover your cursor in a way that makes you select just one.
 You can imagine the state I was in.
 You can impress the fruit with the belief that you are a pig.
+You can inspire others through stirring words or music.
 You can invent reasons.
 You can learn how to build parts for a prosthetic arm.
 You can lie as snug here as if you were in a moss-hole.
@@ -56228,6 +56349,7 @@ You can see the pendulum swing.
 You can see the window from this corner.
 You can see thousands of stars with the naked eye in the night sky?
 You can sit behind and hang on to my waist.
+You can speak the language and use it to leave hidden messages.
 You can stay with me for tonight.
 You can stop those monkey tricks at once!
 You can take a vacation on pay.
@@ -56240,10 +56362,13 @@ You can trust her.
 You can turn out if you feel like it.
 You can update five thousand repositories
 You can use a combination of marketing strategies at the same time.
+You can use a shield and still gain this benefit.
 You can use either a fountain pen or a biro
 You can use sultanas or raisins when making fruitcake
 You can use that tea towel to dry the dishes
+You can use them if the new form is physically capable of doing so.
 You can use this teatowel to dry yourself.
+You can use your action to exhale destructive energy.
 You can withdraw cash from a cash machine, sometimes known as a cashpoint
 You can't answer for him?
 You can't be too quiet, Jo.
@@ -56278,6 +56403,8 @@ You cannot follow in time.
 You cannot help me.
 You cannot really, seriously, doubt it.
 You cannot shut it out.
+You can’t affect an artifact or a sentient weapon in this way.
+You can’t cast spells.
 You can’t mistake it.
 You can’t stop if you haven’t got an anchor.
 You can’t; the human frame won’t stand it.
@@ -56472,6 +56599,7 @@ You have a short memory.
 You have a splendid, chivalrous soul.
 You have a strong skin — yes?
 You have a try.
+You have advantage on saving throws against poison
 You have all the advantage.
 You have an unequivocal proof of nervous sympathy.
 You have an unusual amount of correspondence this morning.
@@ -56502,6 +56630,7 @@ You have delighted us long enough.
 You have done all this!
 You have done this? Why have you done it?
 You have done yourself no good by it.
+You have draconic ancestry.
 You have employed your time much better.
 You have every right to be nervous.
 You have exactly one minute.
@@ -56543,6 +56672,7 @@ You have petrol for a long journey?
 You have really been most kind.
 You have reason in shutting it up, I assure you.
 You have reduced him to his present state of poverty — comparative poverty.
+You have resistance against poison damage.
 You have roused my curiosity, and now you must gratify it.
 You have seen her.
 You have sense, and we all expect you to use it.
@@ -56627,6 +56757,7 @@ You know that I have barely had my tea.
 You know that’s really quite remarkable — quite.
 You know the thing.
 You know the third time's the charm.
+You know the type of any being whose presence you sense.
 You know the way they think.
 You know tomorrow is Elena’s birthday.
 You know we are on a wrong track altogether.
@@ -56730,6 +56861,7 @@ You may visit our site anonymously and choose not to register.
 You may well exclaim.
 You may well say 'Golly!'
 You may well warn me against such an evil.
+You may, however, include this statement on your work.
 You may, perhaps, have abandoned this project a long time.
 You mean 'Hullo,' don't you?
 You mean Jane, I suppose, because he danced with her twice.
@@ -56753,6 +56885,7 @@ You might be interested in that
 You might be interested in the other system
 You might be interested in this
 You might describe it as a passing coolness, but no more.
+You might find other spells during your adventures.
 You might get more than you bargained for.
 You might have been a cat yourself.
 You might have got into a frightful row.
@@ -57070,6 +57203,7 @@ You speak as though he were a dress to be re-dyed.
 You spend a great deal, Jax.
 You spoke to me sometimes.
 You stand silent and twiddle the fingers.
+You start with the following equipment.
 You stay where you are — don't interrupt too much.
 You stay, we stay.
 You stink.
@@ -57471,12 +57605,14 @@ Young people shouldn't let their vote go to waste.
 Young people shower long grass stalks at the shamefaced and dripping couple.
 Young people throw a puppet called Death into the water.
 Young people used to dance round an old oak on Easter Saturday.
+Your Constitution score increases by two.
 Your Health
 Your accent is different, where are you from?
 Your account does not have admin privileges.
 Your account of the Indian grass was entertaining
 Your actions today can help protect the environment for tomorrow.
 Your advice has been followed by anticipation.
+Your age could explain a particularly low Strength or Constitution score.
 Your app will automatically update.
 Your application has been acknowledged, we will be in touch shortly.
 Your aunt was quite right in what she said of him.
@@ -57485,6 +57621,7 @@ Your bed is placed directly in front of the window.
 Your being wrecked here has been a godsend to me.
 Your bliss lies, like his, in inflicting misery.
 Your blood pressure has stabilized.
+Your breath weapon and damage resistance are determined by the dragon type.
 Your brother did not respond to it till now.
 Your brother will talk to you; I'm busy.
 Your cab, Gussie.
@@ -57501,6 +57638,7 @@ Your days were the days of freedom.
 Your dear mother was so clever at all those things!
 Your determination, Sir.
 Your duty is to send your car for the police and give me up.
+Your dwarf character has an assortment of inborn abilities.
 Your email was forwarded to us in the marketing office.
 Your encounters at Thornbury were really comic.
 Your endurance is all mental, eh?
@@ -57569,6 +57707,8 @@ Your shoes are below the table.
 Your sister I also watched.
 Your solo was perfectly elegant, Elsa.
 Your son's all right.
+Your speed determines how far you can move when traveling and fighting.
+Your speed is not reduced by wearing heavy armor.
 Your steed looks a little groggy about the legs.
 Your story of the pea-shooter answers no end that I can see.
 Your superior knowledge of your sister must make the latter probable.

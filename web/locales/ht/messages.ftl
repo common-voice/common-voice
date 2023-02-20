@@ -315,158 +315,640 @@ improve-audio = Enfòmasyon sou pwofil amelyore done odyo yo ki itilize nan fòm
 keep-track = Kenbe tras pwogrè'w ak meziman nan plizyè lang.
 compare-progress = Gade ki jan pwogrè'w konpare ak lòt kontribitè nan tout mond lan.
 view-goals = Gade pwogrè'w kont objektif pèsonèl ak objektif pwojè yo.
+join-newsletter = Opsyonèlman rantre nan lis imèl nou an pou pwogrè ak nouvo enfòmasyon sou pwojè a.
 
 ## What's public
 
+whats-public = Ki sa ki piblik?
+email-not-public = Nou pa'p fè imèl ou an piblik.
+recordings-and-locale-public = Kantite anrejistreman ak nan ki lang ou kontribye yo pral piblik.
+username-optin-public = Ou ka chwazi pou fè non itilizatè ou an piblik oswa anonim.
+demographic-deidentified-clarity-2 = Done demografik ou te soumèt (pa egzanp, laj, sèks, lang, ak aksan) pa'p janm pibliye sou pwofil ou a, epi yo pa'p lye ak kont ou nan seri done a. Klip odyo endividyèl yo pral asosye ak done demografik nan bi pou analize yo pi egzak - pou egzanp, yon chèchè ta ka vle vize yon modèl fòmasyon nan yon segman demografik espesifik.
+username-email-not-demographic = Non itilizatè ou ak imel ou pa'p asosye ak done ki pibliye yo.
 
 ## Speak & Listen Shortcuts
 
+# Must be one letter that appears in the translated { skip } string.
+shortcut-skip = s
 
 ## Listen Shortcuts
 
+# Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-play-toggle = j
 shortcut-play-toggle-label = Jwe/Sispann
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = w
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = n
 
 ## Speak Shortcuts
 
+# Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-record-toggle = a
 shortcut-record-toggle-label = Anregistre/Sispann
+shortcut-rerecord-toggle = [1-5]
+shortcut-rerecord-toggle-label = Re-anrejistre odyo
+shortcut-discard-ongoing-recording = ESC
+shortcut-discard-ongoing-recording-label = Jete anrejistreman k'ap kontinye
 shortcut-submit = Retounen
+shortcut-submit-label = Soumèt odyo yo
 request-language-text = Ou poko wè lang paw' la sou Common Voice kounye a?
+request-language-button = Mande yon lang
 
 ## ProjectStatus
 
+status-title = Estati pwojè an jeneral: gade ki jan nou te avanse!
+status-contribute = Kontribye Vwa'w
+status-hours =
+    { $hours ->
+        [one] inèdtan valide jiskaprezan!
+       *[other] { $hours } èdtan valide jiskaprezan!
+    }
+# Variables:
+# $goal - number of hours representing the next goal
+status-goal = Pwochen objektif: { $goal }
 english = Anglè
 
 ## ProfileForm
 
 profile-form-username =
     .label = Non itilizatè
+profile-form-native-language =
+    .label = Lang natif natal
+profile-form-additional-language =
+    .label = Lòt Lang
+profile-form-language =
+    .label = Lang
+profile-form-variant =
+    .label = Ki dyalèk de { $language } ou pale?
+profile-form-variant-default-value = Pa gen okenn dyalèk chwazi
 profile-form-accent =
     .label = Aksan
+profile-form-custom-accent-help-text =
+    .label = Ki jan ou ta dekri dyalèk ou a?
+profile-form-custom-accent-placeholder-2 = Kòmanse tape pou dekri dyalèk ou
 profile-form-age =
     .label = Laj
+profile-form-gender-2 =
+    .label = Sèks
+leaderboard-visibility =
+    .label = Vizibilite Tablo Lidè
 hidden = Kache
 visible = Visib
+native-language =
+    .label = Lang natif natal
+profile-form-add-accent = Ajoute nouvo dyalèk diferan "{ $inputValue }"
+profile-form-submit-save = Sere
+profile-form-submit-saved = Li Sere
 male = Gason
 female = Fanm
 # Gender
 other = Lòt
+why-profile-title = Poukisa yon pwofil?
+why-profile-text =
+    Lè'w bay kèk enfòmasyon sou tèt ou, done odyo ou voye bay Common Voice yo ap pi itil pou Motè rekonesans
+    Lapawòl ki itilize done sa yo pou amelyore presizyon yo.
+dashboard = Tableau
+build-profile = Konstwi pwofil
+avatar = Avata
 goals = Objektif yo
+settings = Konfigirasyon
+edit-profile = Modifye Pwofil
+profile-create-success = Bravo, pwofil ou kreye!
 profile-close = Fèmen
+profile-explanation = Kenbe tras de pwogrè'w ak yon pwofil epi ede done vwa nou yo vinn pi egzak.
+thanks-for-account = Mèsi paske ou konfime kont ou, kounye a ann bati pwofil ou.
+why-demographic = Poukisa sa enpòtan?
+why-demographic-explanation-2 = Done itilizatè anonimize tankou laj, sèks, ak dyalèk ede amelyore done odyo yo ki itilize pou antrene presizyon nan motè rekonesans lapawòl. Non itilizatè'w ak imel ou pap janm asosye ak done ou soumèt, epi ou ka chwazi si'w vle fè non itilizatè ou an piblik oswa anonim.
+accept-privacy = Mwen dakò ak ou jere enfòmasyon sa jan ou eksplike nan <privacyLink>Politik sou enfòmasyon prive</privacyLink> Mozilla.
+accept-privacy-title = Règleman sou enfòmasyon prive
+accept-privacy-and-terms = Mwen dakò ak <termsLink>Kondisyon</termsLink> ak <privacyLink>Avi sou enfòmasyon prive</privacyLink> Common Voice.
+login-identity = Idantite Kredansyèl
+login-signup = Konekte / Enskri
+edit = Modifye
+email-subscriptions = Abònman Imèl
+download-profile = Telechaje Done mwen yo
+contribution-experience = Eksperyans kontribisyon
+skip-submission-feedback = Sote Reyaksyon Soumèt
+skip-submission-description = Pandan kontribisyon soumisyon reaksyon yo pral sote apre'w klike sou 'Soumèt'. Kontribisyon ap kontinye dirèkteman ak pwochen seri 5 anrejistreman oswa validation yo.
+skip-submission-note = Remak: W ap toujou bezwen chwazi ant Pale oswa Koute pou chanje kalite kontribisyon.
 off = Etenn
 on = Limen
+help-accent = Bezwen èd ak aksan?
+help-accent-explanation = Dyalèk ou se fason ou pwononse mo yo. Li ka fòme pa kote ou te viv, ki lòt lang ou pale ak anpil lòt faktè. Ou ka pataje nenpòt enfòmasyon ou santi ki enpòtan isit la.
+help-variants = Bezwen èd ak dyalèk?
+help-variants-explanation = Varyan(dyalèk) se yon fòm espesifik nan yon lang - pa egzanp pataje pa moun k ap viv nan yon jewografi oswa kominote. Pafwa yo rele sa yo dyalèk.
 
 ## Profile - Email
 
+browse-file-title = Telechaje yon fichye imaj
+browse-file = Trennen epi depoze oswa <browseWrap>Navige</browseWrap>
+connect-gravatar = Konekte ak Gravatar
+gravatar_not_found = Pa gen gravatar pou imèl ou
+file_too_large = Fichye ou chwazi a twò gwo
+avatar-uploaded = Avata telechaje
+max-file-size = { $kb }kb max
+remove-avatar = Retire Avata
 
 ## Profile - Email
 
+manage-subscriptions = Jere abònman
+manage-email-subscriptions = Jere abònman imel
+email-already-used = Imèl sa deja itilize pou yon lòt kont
+add-language = Ajoute Lang
+change-email-setings = Chanje imel ou atravè Konfigirasyon anba Idantite Konekte
 
 ## FAQ
 
+faq-title = Kesyon yo poze souvan
+faq-what-cv-q = Ki sa ki se Common Voice?
+faq-what-cv-a = Teknoloji rekonesans vwa a ap revolisyone fason nou kominike avèk machin yo, men sistèm ki disponib kounye a yo chè e yo gen mèt pa yo. Common Voice fè pati inisyativ Mozilla pou fè teknoloji rekonesans vwa yo pi byen ak plis aksesib pou tout moun. Common Voice se yon gwo baz done mondyal ki gen vwa ki pèmèt nenpòt moun antrene aplikasyon pou vwa yo byen vit e fasil nan tout lang.
+faq-what-cv-a-2 =
+    Teknoloji rekonesans vwa a ap revolisyone fason nou kominike avèk machin yo, men sistèm ki disponib kounye a yo chè ak pwòp. Mozilla Common Voice se yon inisyativ pou fè teknoloji rekonesans vwa yo pi byen ak plis aksesib pou tout moun. Common Voice se yon gwo baz done mondyal ki gen vwa ki pèmèt nenpòt moun antrene aplikasyon pou vwa yo byen vit e fasil nan tout lang.
+    
+    Nou pa sèlman kolekte echantiyon vwa  nan lang yo pale anpil men tou nan moun ki gen yon popilasyon ki pi piti nan moun ki pale lang panyo. Pibliye yon seri done divès vwa pral pèmèt devlopè, antreprenè, ak kominote yo abòde diferans sa nan mitan yo.
 faq-why-important-q = Poukisa li enpòtan?
+faq-why-important-a =
+    Lapawòl se souvan fason ki pi natirèl nou kominike youn ak lòt ak teknoloji vwa yo ap pote konvenyans sa nan òdinatè nou yo ak aparèy mobil yo. Nou vle pèmèt devlopè yo bati aplikasyon pou rekonesans vwa eksepsyonel tankou jan moun tradiktè yo fè'l an tan reyèl ak tankou asistan dijital ki travay ak vwa. Men kounye a pi fò nan done vwa ki nesesè pou bati kalite aplikasyon sa yo chè anpil e yon gent mèt pa yo. Nou espere ke seri done Common Voice la pral bay devlopè yo sa yo bezwen pou yo inove epi fè teknoloji lapawòl disponib nan pwòp lang yo.
+    
+    Pou rann rekonesans vwa a vin pi inivèsèl, n'ap kolekte echantiyon vwa nan lang yo pale anpil ansanm ak moun ki gen yon popilasyon ki pi piti nan moun ki pi souvan yo pa sèvis rekonesans lapawòl ak pwodwi komèsyal chè yo. Pibliye yon seri done divès vwa pral pèmèt devlopè yo, antreprenè yo, ak tout kominote lapawòl yo abòde diferans sa nan mitan yo.
+faq-how-get-q = Kijan mwen ka jwenn done Common Voice yo?
+faq-how-get-a = Ansanm done Common Voice la disponib pou telechaje anba lisans <licenseLink>CC0</licenseLink> sou <datasetLink>paj Datasets nou an</datasetLink>. Ou ka telechaje plizyè lòt done ki disponib piblikman nan menm paj la.
+faq-when-release2-q = Kilè w ap pibliye done Common Voice nan lòt lang?
+faq-when-release2-a = Vèsyon plizyè lang nan seri done Common Voice la kounye a ap sibi gwoupman ak netwayaj nan kominote a. Si ou ta renmen ede nou pote Common Voice nan nouvo lang, ale tcheke <sentenceCollectorLink>Outil Koleksyon Fraz</sentenceCollectorLink> pou ajoute nouvo fraz nan seri done a, epi Mozilla <pontoonLink>Pontoon</pontoonLink> pou tradwi sit entènèt la tou. Nouvo lang yo vin  ajoute nan Common Voice pou kontribisyon vwa lè 5000 fraz yo te kolekte yo apwouve.
+faq-why-mission-q = Poukisa Common Voice fè pati misyon Mozilla la?
+faq-why-mission-a = Mozilla dedye nan kenbe entènèt la louvri epi aksesib pou tout moun. Pou fè sa, nou bezwen otorize kreyatè entènèt yo atravè pwojè tankou Common Voice. Lè teknoloji vwa pwopaje pi lwen tikal nich aplikasyon yo, nou kwè yo dwe sèvi tout itilizatè yo egalman. Sa vle di envesti nan plis lang ak akomode aksan divès ak demografik lè teknoloji vwa ap bati ak teste . Common Voice se yon resous piblik ki disponib pou tout moun ak ekip Mozilla e devlopè atravè mond lan deja itilize li sou pwòp pwojè nou yo tou.
+faq-what-cv-and-deepspeech-q = Ki diferans ki genyen ant Common Voice (vwa komen) ak Deep Speech (diskou pwofon)?
+faq-what-cv-and-deepspeech-a = Ansanm done Common Voice konplete motè rekonesans vwa sous pwogram louvri Mozilla Deep Speech. Premye vèsyon Deep Speech te pibliye an Novanm 2017 e li kontinye evolye depi lè sa a. Ansanm ak seri done Common Voice, nou kwè teknoloji rekonesans vwa sous pwogram louvri sa dwe disponib pou tout moun. Nou espere ke teknoloji sa yo pral pèmèt devlopè yo bati yon bann pwodwi ak sèvis inovatè.
+faq-is-goal-assistant-q = Èske objektif Common Voice pou konstwi yon asistan vwa?
+faq-is-goal-assistant-a = Objektif done Common Voice la se pou pèmèt nenpòt moun nan mond lan bati rekonesans lapawòl, rekonesans moun k'ap pale, oswa nenpòt lòt kalite aplikasyon ki mande done vwa. Yon asistan vwa se jis youn nan plizyè kalite aplikasyon ou ta ka itilize ansanm done a pou konstwi.
+faq-do-want-native-q = Mwen se yon moun ki pa pale natif natal epi mwen pale ak yon aksan, ou toujou vle vwa mwen?
+faq-do-want-native-a = Wi, nou espesyalman vle vwa'w! Yon pati nan objektif Common Voice se rasanble otan aksan ak dyalèk diferan posib pou sèvis rekonesans vwa yo travay egalman byen pou tout moun. Sa vle di kontribisyon ki soti nan moun ki pa pale natif natal yo patikilyèman enpòtan.
+faq-why-different-speakers-q = Poukisa ou bezwen anpil moun ki pale diferan pou chak lang?
+faq-why-my-lang-q = Poukisa lang mwen an poko enkli?
+faq-what-quality-q = Ki nivo bon jan kalite odyo ki nesesè pou yon klip vwa yo dwe itilize nan seri done a?
+faq-why-10k-hours-q = Poukisa se 10,000 èdtan valide se objektif pou chak lang pou kaptire odyo?
+faq-why-10k-hours-a = Sa se apeprè kantite èdtan ki nesesè pou fòme yon sistèm pwodiksyon diskou a tèks.
+faq-how-calc-hours-q = Ki jan Common Voice kalkile èdtan?
+faq-how-calc-hours-a = Nou kalkile èdtan lè nou estime longè mwayèn chak anrejistreman, epi answit miltipliye nimewo sa pa kantite total anrejistreman nan tout lang.
+faq-where-src-from-2-q = Ki kote tèks sous la soti?
+faq-why-not-ask-read-q = Poukisa ou pa mande moun li nan liv oswa atik Wikipedya yo nan diferan lang?
+faq-why-account-q = Poukisa mwen ta dwe enskri pou yon kont?
+faq-is-account-public-q = Èske enfòmasyon sou kont mwen an piblik?
+faq-how-privacy-q = Ki jan ou asire anonimite ak vi prive moun ki bay vwa yo?
+faq-what-determine-identity-q = Kisa sa vle di mwen pa ka "detèmine idantite" moun ki pale yo nan seri done Common Voice la?
+faq-what-is-cv = Ki sa ki se Common Voice?
+faq-using-cv = Sèvi ak Common Voice
+faq-description = Common Voice se yon pati nan inisyativ Mozilla pou ede anseye machin ki jan moun reyèl pale.
+faq-search-for-answers =
+    .label = Chèche repons
 
 ## ABOUT US
 
+about-title = Poukisa Common Voice?
+how-does-it-work-title-v2 = Ki jan Common Voice travay?
 
 ## How does it work section
 
+about-language-req-subtitle = Yon moun mande pou ajoute yon lang.
+about-localization-title = Sit wèb lokalizasyon
+about-localization-subtitle = Tèks sit entènèt la tradwi nan lang sa a.
+about-sentence-collection-title = Koleksyon fraz
+about-sentence-collection-subtitle = Yo kolekte fraz pou moun yo li awotvwa.
+about-new-lang-title = Lansman nouvo lang
+about-new-lang-subtitle = Nou lanse sit Common Voice nan lang sa a.
+about-voice-contrib-title = Kontribisyon Vwa
+about-voice-contrib-subtitle = Moun vini e kontribye vwa yo.
+about-voice-validation-title = Validasyon vwa
+about-voice-validation-subtitle = Lòt moun valide klip vwa sa yo.
+about-dataset-release-title = Piblikasyon Ansanm Done
+about-dataset-release-subtitle = Nou pibliye ansanm done a chak 3 mwa.
+about-subscribe-text = Ou vle rete an kontak ak Common Voice?
+about-speak = pale
+about-listen = Koute
+about-listen-text = Itilizatè yo valide presizyon klip yo bay yo, tcheke si moun nan li fraz la kòrèkteman.
+about-is-it-valid = Èske odyo a valab?
+about-is-it-valid-text = Yon clip vwa make "valid" lè yon itilizatè ba li yon vòt Wi.
+about-yes-votes = ≥ 2 vòt Wi yo
+about-no-votes = ≥ 2 Vòt Non yo
+about-get-involved = Patisipe
+about-stay-in-touch = Kouman pou mwen rete an kontak?
+about-stay-in-touch-button = Enskri
+about-stay-in-touch-text-1 = <emailFragment>Enskri</emailFragment> nan lis adrès nou an pou aprann kijan ou ka patisipe nan kanpay, evènman ak karakteristik ko-design sou Common Voice.
+about-stay-in-touch-text-2 = Ou ka rankontre lòt moun nan kominote lang Mozilla yo lè w rantre nan <discourseLink>Discourse</discourseLink> pou konvèsasyon aktualite, oswa <matrixLink>Matrix</matrixLink> pou jwenn konsèy rapid.
+about-nav-why-common-voice = Poukisa?
+about-nav-how-it-works = Ki jan?
+about-nav-partners = Patnè yo
+about-nav-get-involved = Patisipe
+about-nav-how-it-works-2 = Ki jan Common Voice travay?
+about-nav-playbook = Aprann kijan pou patisipe
 
 ## Community Playbook Content
 ## What is a language
 
+about-playbook-what-is-language = Ki sa ki se yon lang sou Common Voice?
 
 ## How do I add a language
 
+about-playbook-how-add-language = Kouman pou mwen ajoute yon lang?
+about-playbook-how-add-language-translating-heading = Tradiksyon sit la
+about-playbook-how-add-language-collecting-sentences-heading = Kolekte fraz yo
 
 ## How does localization work
 
+about-playbook-how-localize = Ki jan lokalizasyon sit travay?
+about-playbook-how-localize-content-1 = Tradiksyon sit Common Voice la fèt sou <strong>Pontoon</strong>.
+about-playbook-how-localize-content-4 = Sit la pare pou lanse lè li rive nan 75% fini.
+about-playbook-how-localize-content-5 = Gade esplikasyon videyo nou an pou ede w
 
 ## How to add sentences
 
+about-playbook-how-add-sentences = Kouman pou mwen ajoute fraz?
+about-playbook-how-add-sentences-content-1 = <strong>Sentence Collector</strong>se yon zouti pou kolekte epi valide santans domèn piblik yo. Ou pral <scAccountLink>bezwen kreye yon kont</scAccountLink>. Apre sa, ajoute lang ou nan <strong>Profil</strong>ou. Ou ka <strong>Ajoute</strong> fraz oswa <strong>Revize</strong> fraz ki te ajoute deja.
+about-playbook-how-add-sentences-content-2 = Fraz yo dwe revize epi aksepte pa de moun pou yo enkli nan Common Voice. Ou kreye gid pou lang ou <languageGuidelinesLink>isit</languageGuidelinesLink>. Fraz yo dwe nan <licenseLink>domèn piblik</licenseLink> epi yo dwe pi kout pase 15 mo. Ou ka mande pwopriyetè yon tèks pou fè l <waiverLink>CC0 lè l sèvi avèk pwosesis egzansyon nou an</waiverLink>, epi voye l ba nou sou commonvoice@mozilla.com.
 
 ## How to record quality
 
+about-playbook-how-record-quality = Kouman pou mwen anrejistre yon clip vwa kalite siperyè?
+about-playbook-how-record-content-3 = Li fraz la ak anpil atansyon - pa manke, chanje oswa ajoute mo.
 
 ## How to grow language
 
+about-playbook-how-grow-language = Ki jan nou ka efektivman devlope yon lang sou Common Voice?
+about-playbook-how-grow-language-content-2 = Evènman yo
+about-playbook-how-grow-language-content-4 = Rezo Sosyo
+about-playbook-how-grow-language-content-6 = Patenarya ak rezo
 
 ## How to validate
 
+about-playbook-how-validate = Kouman pou mwen konnen si pou apwouve yon klip vwa?
 
 ## How to access dataset
 
+about-playbook-how-access-dataset = Kouman pou mwen jwenn aksè ak itilize done yo?
 
 ## How are decisions made
 
+about-playbook-how-project-governance = Ki jan yo pran desizyon pwojè yo?
+about-playbook-how-project-governance-content-2 = Gouvènans nou an baze sou poto sa yo:
+about-playbook-how-project-governance-content-3 = Konfidansyalite, sekirite ak transparans.
+about-playbook-how-project-governance-content-4 = Patisipasyon kominote a ak pran desizyon.
+about-playbook-how-project-governance-content-5 = Valè ak rekonesans.
+about-playbook-how-project-governance-content-6 = Responsablite mityèl.
+about-playbook-how-project-governance-content-7 = <governanceLink>Li plis sou fason nou gouvène</governanceLink>
 
 ## Glossary
 
+glossary = Glosè
+localization = Lokalizasyon
+sentence-collection = Koleksyon fraz
+sentence-collection-explanation = Kolekte fraz ki soti nan domèn piblik la, oswa ekri nouvo fraz pou domèn piblik la.
+hours-recorded-explanation = Konte èdtan anrejistreman vwa nou te kolekte jiskaprezan.
+sst = Lapawòl-a-tèks (LAT)
+de-identified = De-idantifye
 
 ## Error pages
 
+error-title-404 = Nou pa t 'kapab jwenn paj sa a pou ou
+error-title-503 = No'ap fè eksperyans tan inatandi
+error-code = Erè { $code }
 
 ## Data
 
+data-download-button = Telechaje done vwa komen
+data-download-yes = Wi
+data-download-deny = Non
+data-download-license = Lisans: <licenseLink>CC-0</licenseLink>
+data-get-started = <speechBlogLink>Kòmanse ak Rekonesans Lapawòl</speechBlogLink>
+data-other-title = Lòt done vwa...
+data-other-goto = Ale nan { $name }
+data-other-download = Telechaje Done
+release-version = vèsyon
+dataset-date = Dat
+license = Lisans: <licenseLink>{ $license }</licenseLink>
+license-mixed = Melanje
+terms-agree = Mwen dakò
+terms-disagree = mwen pa dakò
+review-submit-title = Revize & Soumèt
+review-submit-msg = Mèsi pou anrejistreman!<lineBreak></lineBreak>Koulye a, revize epi voye klip ou yo anba a.
+review-recording = Revize
+review-rerecord = Re-anrejistre
+review-cancel = Anile soumisyon
+review-keep-recordings = Kenbe anrejistreman yo
+review-delete-recordings = Efase anrejistreman mwen yo
 
 ## Datasets Page
 
+language = Lang
+# File size in gigabytes
+size = Gwosè
+cv-license = Lisans
+audio-format = Fòma odyo
+number-of-voices = Kantite vwa
+splits = Fann
+email-to-download = Antre imel pou telechaje
+confirm-size = Ou pare pou kòmanse yon telechajman de <b>{ $size }</b>
+confirm-join-mailing-list = Mwen vle rantre nan lis adrès Common Voice la
+subscribe = Abòne
+get-started-speech = Kòmanse ak Rekonesans Lapawòl
+feedback-q = Gen Reyaksyon?
+go-languages-page = Ale nan Paj Lang yo
+more = Plis
+close = Fèmen
+download = Telechaje
+dataset-version = Vèsyon
 
 ## Download Modal
 
+download-title = Telechajman'w la te kòmanse.
+download-form-email =
+    .label = Antre imel ou a
+    .value = Mèsi, n'ap kenbe kontak.
+download-back = Retounen nan ansanm done Common Voice yo
+download-no = Non Mèsi
 
 ## Contact Modal
 
+contact-title = Fòm kontak
+contact-form-name =
+    .label = Non
+contact-form-message =
+    .label = Mesaj
+contact-required = *obligatwa
 
 ## Request Language Modal
 
+request-language-title = Demann Lang
+request-language-form-language =
+    .label = Lang
+select-language = Chwazi yon lang...
+other-language = Lòt Lang
 
 ## Request Language Pages
 
+request-language-heading = Mande sou yon nouvo lang
+request-language-form-email =
+    .label = Adrès imel ou
+request-language-form-info =
+    .label = Enfòmasyon sou lang lan
+request-language-form-info-explanation-list-1 = Non lang ou
 
 ## Languages Overview
 
+language-section-in-progress = Nan Pwogrè
+language-section-launched = Te lanse
+languages-show-more = Gade plis
+languages-show-less = Gade Mwens
+language-meter-in-progress = Pwogrè
+language-total-progress = Total
+language-search-input =
+    .placeholder = Chache
+language-speakers = Moun kap pale
+localized = Lokalize
+sentences = Fraz yo
+language-validation-hours = Èdtan
+language-validation-progress = Pwogrè Validasyon
 
 ## Contribution
 
+action-click = Klike
+action-tap = Tape
+contribute = Kontribye
+listen = Koute
+skip = Sote
+shortcuts = Rakousi
+clips-with-count-pluralized =
+    { $count ->
+        [one] odyo
+       *[other] odyo yo
+    }
+goal-help-recording = Ou te ede Common Voice rive nan <goalPercentage></goalPercentage> objektif anrejistreman { $goalValue } nou chak jou!
+goal-help-validation = Ou te ede Common Voice rive nan <goalPercentage></goalPercentage> nou chak jou pou { $goalValue } objektif validasyon !
+contribute-more =
+    { $count ->
+        [one] Pare pou fè { $count } anplis?
+       *[other] { "" }
+    }
+record-cta = Kòmanse anrejistreman
+record-platform-not-supported = Nou regrèt sa, platfòm ou a pa sipòte kounye a.
+record-platform-not-supported-desktop = Sou aparèy Desktop ou ka kontribye lè'w telechaje...
+record-platform-not-supported-ios-non-safari = Sou iOS tanpri kontinye ak Safari pou pèmèt anrejistreman...
+record-must-allow-microphone = Ou dwe pèmèt aksè mikwofòn.
+record-no-mic-found = Pa jwenn mikwofòn.
+record-error-too-short = Anrejistreman an te twò kout.
+record-error-too-long = Anrejistreman an te twò long.
+record-error-too-quiet = Anrejistreman an te twò ba.
+record-cancel = Anile Re-anrejistreman
+record-instruction = { $actionType }<recordIcon></recordIcon> Lè sa a, li fraz la byen fò
+record-stop-instruction = { $actionType }<stopIcon></stopIcon> lè'w fini
+record-three-more-instruction = Twa pou ale!
+record-again-instruction = Trè byen!<recordIcon></recordIcon> Anrejistre pwochen odyo'w la
+record-again-instruction2 = Kontinye trè byen, anrejistre ankò <recordIcon></recordIcon>
+record-last-instruction = <recordIcon></recordIcon> Dènye an!
+review-tooltip = Revize ak re-anrejistre odyo yo isit la pandan w'ap kontinye
+share-clip = Pataje odyo'w la
+share-common-voice = Pataje Common Voice
+review-instruction = Revize epi re-anrejistre odyo yo si sa nesesè
+record-submit-tooltip = { $actionType } soumèt lè'w pare
+clips-uploaded = Odyo yo monte.
+record-abort-title = Fini anrejistreman an premye?
+record-abort-text = Si'w kite kounye a sa vle di w'ap pèdi pwogrè'w fè
+record-abort-submit = Soumèt odyo yo
+record-abort-continue = Fini anrejistreman
+record-abort-delete = Sòti & Efase klip yo
+listen-instruction = { $actionType }<playIcon></playIcon> èske yo te di fraz la avèk presizyon?
+listen-again-instruction = Bèl travay!<playIcon></playIcon> Koute ankò lè'w pare
+listen-3rd-time-instruction = 2 ki fini, Kontinye toujou!<playIcon></playIcon>
+listen-last-time-instruction = <playIcon></playIcon>Dènye an!
+listen-empty-state = Nou genlè ta fini ak odyo yo - rafrechi paj la, oswa eseye ankò pita.
+speak-empty-state-cta = Kontribye fraz yo
+record-button-label = Anrejistre vwa'w
+share-title-new = <bold>Ede nou</bold> jwenn plis vwa
+keep-track-profile = Kenbe tras pwogrè'w ak yon pwofil
+login-to-get-started = Konekte oswa enskri pou kòmanse
+target-segment-add-voice = Ajoute Vwa'w
+target-segment-learn-more = Aprann plis
 
 ## Reporting
 
+report = Rapòte
+report-title = Soumèt yon rapò
+report-ask = Ki pwoblèm w'ap fè eksperyans ak fraz sa a?
+report-offensive-language = Lang ofansif
+report-offensive-language-detail = Fraz lan gen yon langaj derespektan oswa ofansif.
+report-grammar-or-spelling = Gramatikal / erè òtograf
+report-grammar-or-spelling-detail = Fraz la gen yon erè gramatikal oswa òtograf.
+report-different-language = Diferan lang
+report-different-language-detail = Li ekri nan yon lang diferan de sa m'ap pale.
+report-difficult-pronounce = Li difisil pou pwononse
+report-difficult-pronounce-detail = Li gen mo oswa fraz ki difisil pou ka li oswa pwononse.
+report-offensive-speech = Diskou ofansif
+report-offensive-speech-detail = Odyo a gen yon langaj derespektan oswa ofansif.
+report-other-comment =
+    .placeholder = Kòmantè
+success = Siksè
+continue = Kontinye
+report-success = Rapò a te pase avèk siksè
 
 ## Goals
 
+days =
+    { $count ->
+        [one] Jou
+       *[other] Jou yo
+    }
+recordings =
+    { $count ->
+        [one] Anrejistreman
+       *[other] Anrejistreman yo
+    }
+validations =
+    { $count ->
+        [one] Validasyon
+       *[other] Validasyon yo
+    }
 
 ## Dashboard
 
+your-languages = Lang ou yo
+toward-next-goal = Nan direksyon pwochen objektif
+goal-reached = Objektif ateri
+clips-you-recorded = Odyo ou te anrejistre
+clips-you-validated = Odyo ou te valide
+stats = Statistik
+awards = Prim
+you = Ou menm
+everyone = Tout moun
+contribution-activity = Aktivite Kontribisyon
+top-contributors = Top kontribitè yo
+recorded-clips = Odyo Ki Te Anrejistre
+validated-clips = Odyo Ki Te Valide
+total-approved = Total Apwouve
+overall-accuracy = Presizyon an jeneral
+set-visibility = Mete vizibilite mwen
+show-ranking = Montre klasman mwen an
 
 ## Custom Goals
 
+get-started-goals = Kòmanse ak objektif yo
+goal-type = Ki kalite objektif ou vle bati?
+both-speak-and-listen = Tou de
+both-speak-and-listen-long = Tou de (Pale ak Koute)
+daily-goal = Objektif chak jou
+weekly-goal = Objektif chak semèn
+easy-difficulty = Fasil
+average-difficulty = Mwayèn
+difficult-difficulty = Difisil
+pro-difficulty = Pwofesyonèl
+lose-goal-progress-warning = Lè'w modifye objektif ou, ou ka pèdi pwogrè ki egziste deja.
+want-to-continue = Ou vle kontinye?
+finish-editing = Fini koreksyon an premye?
+lose-changes-warning = Si'w kite kounye a vle di ou pral pèdi chanjman'w yo
+set-a-goal = Mete yon objektif
+cant-decide = Ou pa ka deside?
+how-many-per-day = Trè byen! Konbyen odyo pa jou?
+which-goal-type = Èske ou vle Pale, Koute oswa toude?
+n-clips-pluralized =
+    { NUMBER($count) ->
+        [one] odyo
+       *[other] odyo yo
+    }
+help-share-goal = Ede nou jwenn plis vwa, pataje objektif ou
+confirm-goal = Konfime Objektif
+goal-interval-weekly = Chak semèn
+# $type is one of share-goal-type-*
+share-n-daily-contribution-goal = Pataje objektif chak jou { $count } ou pou { $type }
+# $type is one of share-goal-type-*
+share-n-weekly-contribution-goal = Pataje { $count } objektif chak semèn ou pou { $type }
+share-goal-type-speak = Pale
+share-goal-type-listen = Tande
+share-goal-type-both = Pale ak Tande
+weekly-goal-created = Objektif chak semèn ou sot kreye
+daily-goal-created = Objektif chak jou'w sot kreye
+track-progress = Swiv pwogrè isit la ak sou paj estatistik ou a.
+return-to-edit-goal = Retounen isit la pou modifye objektif ou nenpòt lè.
+share-goal = Pataje objektif mwen
 
 ## Profile Delete
 
+keep = Kenbe
+remove = Retire
+profile-form-delete = Efase Profile
 
 ## Profile Download
 
+download-q = Bezwen telechaje done'w la?
+download-info = Di nou sa'w ta renmen telechaje:
+download-profile-title = Pwofil
+download-profile-info = Gen ladann imèl, non itilizatè ak enfòmasyon demografik, ki disponib touswit
+download-recordings-title = Anrejistreman yo
+download-size = Gwosè
+download-selected = Chwazi
+download-start = Telechaje done pwofil ou
+download-request = Mande anrejistreman yo
+download-requests = Demann telechajman anrejistreman ki sot pase yo
+download-request-button = Telechaje
+download-request-refresh-button = Rafrechi
+download-request-modal-title = Telechaje Lyen
+download-request-metadata-link = Tèks fraz
 
 ## Landing
 
+welcome-staff = Byenveni anplwaye { $company }!
+help-contribute = Ou ka ede konstwi yon seri done divès, sous louvri lè'w kreye yon pwofil Common Voice epi kontribye vwa'w.
+login-company = Konekte / Enskri ak imel { $company }
+read-more-about = Li plis sou paj About nou an
 
 ## DemoLayout
 
+demo-get-started = An'n kòmanse
+demo-welcome = Byenveni nan Common Voice
+demo-welcome-subheader = Ou enterese aprann plis ak kontribiye nan pwojè a?
 
 ## Demo Datasets
 
+card-button-next = Pwochen
+card-button-back = Retounen
+demo-language-select-label = Navige Lang yo
+demo-eofy-header = Divilgasyon nan fen ane 2019
+demo-account = Kont
 
 ## Demo Account
 
+demo-account-card-header = Ou pa oblije gen yon kont pou kontribye, poutan li tap itil.
+demo-account-sign-up = Voye lyen pou enskri
 
 ## Demo Contribute
 
+demo-listen-subtitle = Pare pou kontribiye?
 
 ## Demo Dashboard
 
 
 ## Validation criteria
 
+contribution-criteria-nav = Kritè
+contribution-criteria-link = Konprann kritè kontribisyon yo
+contribution-criteria-page-title = Kritè Kontribisyon
+contribution-criteria-page-description = Konprann sa pou'w chèche lè w'ap koute klip vwa yo epi ede fè anrejistreman vwa'w yo vin pi rich tou!
+contribution-for-example = pa egzanp
+contribution-misreadings-title = Move lekti
+contribution-misreadings-description-extended-list-5 = Pran plizyè tantativ pou li yon mo.
+contribution-misreadings-example-1-title = Dinozò yo jeyan nan triyas la.
+contribution-misreadings-example-2-explanation = [Ta dwe 'dinozò yo']
+contribution-misreadings-example-5-title = N'soti al pran kafe.
+contribution-misreadings-example-6-title = Nou soti al pran kafe.
+contribution-misreadings-example-7-title = Nou soti al pran kafe.
+contribution-background-noise-title = Bri Dèyè
+contribution-background-voices-title = Bri Dèyè Yo
+contribution-volume-title = Volim
+contribution-reader-effects-title = Efè lektè
+see-more = <chevron></chevron>Gade plis
+see-less = <chevron></chevron>Wè mwens
 
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
@@ -475,54 +957,225 @@ faq-why-important-q = Poukisa li enpòtan?
 
 ## HEADER/FOOTER
 
+sc-header-home = Lakay
+sc-header-how-to = Kijan pou
+sc-header-add = Ajoute
+sc-header-review = Revize
+sc-header-rejected = Fraz ki rejte
+sc-header-my = Fraz mwen yo
+sc-header-statistics = Estatistik
+sc-header-profile = Pwofil
+sc-footer-discourse = Discourse
+sc-footer-report-bugs = Rapòte pwoblèm
+sc-footer-translate = Tradui paj sa a
+sc-footer-report-copyright = Rapòte pwoblèm copyright
+sc-footer-privacy = Konfidansyalite
+sc-footer-terms = Règleman
+sc-footer-cookies = Moso done
+sc-login-signup-button = Konekte / Enskripsyon
+sc-logout-button = Dekonekte
 
 ## HOME
 
+sc-home-title = Byenvini nan Common Voice Kolektè Fraz
+sc-home-collect-title = Kolekte fraz yo
+sc-home-review-title = Revizyon fraz yo
 
 ## GENERAL
 
 
 ## HOW-TO
 
+sc-howto-title = Kijan pou
+sc-howto-addlang-title = Ajoute lang pou travay avèk yo
+sc-howto-addlang-text = Yon fwa ou konekte ou ka chwazi lang ou yo nan seksyon pwofil la.
+sc-howto-addsen-title = Ajoute nouvo fraz yo
+sc-howto-review-title = Revizyon fraz yo
+sc-howto-review-subtitle = Asire'w ke fraz la satisfè kritè sa yo:
+sc-howto-review-criteria-1 = Fraz la dwe eple kòrèkteman.
+sc-howto-review-criteria-2 = Fraz la dwe gramatikalman kòrèk.
+sc-howto-review-criteria-3 = Fraz la dwe palab.
+sc-howto-review-criteria-4 = Si fraz la satisfè kritè yo, klike sou bouton "Apwouve".
+sc-howto-findpd-subtitle = Chèche yo sou entènèt la
+sc-howto-findpd-tips = Men kèk konsèy pou jwenn fraz yo:
 
 ## MY SENTENCES
 
+sc-my-title = Fraz mwen yo
+sc-my-loading = Chaje fraz ou yo...
+sc-my-no-sentences = Pa gen fraz pou jwenn!
+# Variables:
+#   $batchId (String) - A unique ID identifying the submission of sentences - sentences uploaded together all have the same batch ID
+sc-my-submission = Soumèt: { $batchId }
+# Variables:
+#   $source (String) - Associated source the user filled out when uploading the sentence
+sc-my-source = Sous: { $source }
+sc-my-delete = Efase fraz ki chwazi yo
+sc-my-deleting = Efase fraz ki chwazi yo...
+sc-my-err-failed-delete = Echwe nan efase fraz chwazi yo... Tanpri eseye ankò!
 
 ## REJECTED
 
+sc-rejected-title = Fraz ki te rejte yo
+sc-rejected-loading = Chajman fraz rejte yo...
+sc-rejected-err-fetching = Erè pandan ap chèche fraz rejte yo. Tanpri eseye ankò.
+sc-rejected-none-found = Pa gen okenn fraz rejte ki jwenn!
 
 ## STATS
 
+sc-stats-title = Estatistik
+sc-stats-updating = Mete ajou...
+sc-stats-error = Nou pa t 'kapab jwen estatistik yo. Tanpri eseye ankò pita.
 
 ## ADD
 
+sc-submit-err-select-lang = Tanpri chwazi yon lang.
+sc-submit-err-add-sentences = Tanpri ajoute fraz.
+sc-submit-err-add-source = Tanpri ajoute yon sous.
+sc-submit-err-confirm-pd = Tanpri konfime ke fraz sa yo se domèn piblik.
+sc-submit-prompt =
+    .message = Fraz yo pa soumèt, èske ou sèten ou vle kite?
+sc-submit-title = Ajoute Fraz Yo
+sc-submit-select-language =
+    .labelText = Chwazi Lang
+sc-submit-add-sentences = Ajoute fraz <wikipediaLink>domèn piblik</wikipediaLink>
+sc-submit-ph-one-per-line =
+    .placeholder = Yon fraz pou chak liy
+sc-submit-from-where = Ki kote fraz <wikipediaLink>domèn piblik</wikipediaLink> sa yo soti?
+sc-submit-button =
+    .submitText = Soumèt
 
 ## ADD LANGUAGE
 
+sc-add-lang-could-not-add = Pa t 'kapab ajoute lang
+sc-add-lang-sec-label = Ajoute yon lang ou vle kontribye ladan'l
+sc-add-lang-sec-button = Ajoute Lang
+sc-add-err-unexpected = Repons inatandi tounen soti nan sèvè
+sc-add-err-submission = Erè soumisyon
 
 ## ADD SENTENCES CONFIRMATION
 
+sc-confirm-sentences-title = Konfime nouvo fraz yo
+sc-confirm-button-text = Konfime
 
 ## LANGUAGE INFO
 
+sc-lang-info-title-total = Total
+sc-lang-info-title-personal = Pèsonèl
+# Variables:
+#   $totalSentences (Number) - Number of sentences uploaded in total for this language
+sc-lang-info-total =
+    { $totalSentences ->
+        [0] { $totalSentences } fraz total.
+        [one] { "" }
+       *[other] { "" }
+    }
+# Variables:
+#   $totalInReview (Number) - Number of sentences currently in the review state for this language
+sc-lang-info-in-review =
+    { $totalInReview ->
+        [0] Pa gen fraz nan revizyon.
+        [one] 1 fraz nan revizyon.
+       *[other] { $totalInReview } fraz nan revizyon yo.
+    }
+# Variables:
+#   $unreviewedSentencesByYou (Number) - Number of sentences the user can still review
+sc-lang-info-left-for-you =
+    { $unreviewedSentencesByYou ->
+        [0] Pa gen fraz ki rete pou'w revize.
+        [one] 1 fraz ki rete pou'w revize.
+       *[other] { $unreviewedSentencesByYou } fraz ki rete pou'w revize yo.
+    }
 
 ## LOGIN
 
+sc-login-err-failed = Keksyon an echwe
+sc-login-err-try-again = Tanpri eseye ankò.
 
 ## PROFILE
 
+# Variables:
+#   $username (String) - eMail address of the logged in user
+sc-profile-title = Pwofil: { $username }
+sc-personal-err-lang-not-found = Pa t 'kapab retire lang nan: pa jwenn lang nan
+sc-personal-err-remove = Pa t 'kapab retire lang nan
+sc-personal-your-languages = Lang ou yo:
+sc-personal-remove-button = retire
+# Variables:
+#   $sentences (Number) - Number of sentences that were added by the currently logged in user for this language
+sc-personal-added-by-you = { $fraz } ou te ajoute
+sc-personal-not-added = Ou poko ajoute okenn lang.
 
 ## REVIEW CRITERIA
 
+sc-criteria-modal = ⓘ Kritè Pou Revize yo
+sc-criteria-title = Kritè Pou Revize yo
+sc-criteria-make-sure = Asire'w ke fraz la satisfè kritè sa yo:
+sc-criteria-item-1 = Fraz la dwe eple kòrèkteman.
+sc-criteria-item-2 = Fraz la dwe gramatikalman kòrèk.
+sc-criteria-item-3 = Fraz la dwe palab.
+sc-criteria-item-4 = Si fraz la satisfè kritè yo, klike sou &quot;Apwouve&quot; bouton sou bò dwat la.
+sc-criteria-item-5-2 = Si fraz la pa satisfè kritè ki anwo yo, klike sou &quot;Rejte&quot; bouton sou bò gòch la. Si ou pa sèten sou fraz la, ou ka sote'l tou epi ale nan pwochen an.
+sc-criteria-item-6 = Si'w fini ak fraz pou revize, tanpri ede nou kolekte plis fraz!
 
 ## REVIEW
 
+sc-review-title = Revizyon fraz yo
+sc-review-loading = Chaje fraz yo...
+sc-review-select-language = Tanpri chwazi yon lang pou revize fraz yo.
+sc-review-form-prompt =
+    .message = Fraz revize yo pa soumèt, èske'w sèten?
+# Variables:
+#   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
+sc-review-form-source = Sous: { $sentenceSource }
+sc-review-form-button-reject = Rejte
+sc-review-form-button-skip = Sote
+sc-review-form-button-approve = Apwouve
+# Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
+sc-review-form-button-approve-shortcut = W
+# Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
+sc-review-form-button-reject-shortcut = N
+# Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
+sc-review-form-button-skip-shortcut = S
+sc-review-form-button-submit =
+    .submitText = Fini revizyon
+sc-review-form-review-failure = Revizyon pa t 'kapab sere. Tanpri eseye ankò pita.
+sc-review-link = Revize
 
 ## SETTINGS
 
+sc-settings-title = Konfigirasyon
+sc-settings-reset-skipped = Reyajiste fraz sote yo
+sc-settings-show-all-button = Montre tout fraz sote yo ankò
+sc-settings-failed = Pa t 'kapab chanje paramèt yo. Tanpri eseye ankò.
+# VALIDATION
+sc-validation-number-of-words = Fraz dwe genyen ant 1 ak 14 mo (enklizif).
+sc-validation-no-numbers = Fraz lapa ta dwe gen nimewo
+sc-validation-no-symbols = Fraz la pa ta dwe gen senbòl
+sc-validation-no-abbreviations = Fraz la pa ta dwe genyen abrevyasyon
 
 # [/SentenceCollector]
 
+localization-select =
+    .label = Chwazi lang/lokalizasyon
+# PARTNERSHIPS PAGE
+partnerships-header = Patenarya
+partnerships-header-text = Li pran anpil pou fè Common Voice rive! Nou pa fè li pou kont nou. Ou vle asosye avèk nou? Nou ta renmen tande pale de ou.
+partnerships-get-in-touch = Pran kontak
+partnerships-become-a-partner = Vin yon patnè Common Voice
+partnerships-community-header = Kominote, Kreyativ ak Sosyete Sivil
+partnerships-foundations-header = Fondasyon yo
+partnerships-foundations-description = Nou travay ak fondasyon, sosyete sivil ak patnè kominotè yo pou fè entènèt la yon kote ki pi an sante, ak yon konsantrasyon patikilye sou Afrik lès. Aprann plis sou <programmaticWork>travay pwogram nou an.</programmaticWork>
+partnerships-governments-header = Gouvènman yo
+partnerships-academia-header = Inivèsite, Akademisyen ak Chèchè
+partnerships-small-business-header = Ti biznis, ki gen ladan teknoloji ak EA k'ap debite
+partnerships-corporates-header = Gwo echèl antrepriz ak konpayi platfòm
+partnerships-corporates-description = Si w ap chèche pale plis sou seri done a, si w vle ko-envesti nan planifye agrandisman platfòm an oswa chèche opòtinite kolaborasyon, <emailFragment>depoze nou yon mo.</emailFragment>
+partnerships-our-partners = Patnè nou yo
+# FIRST POST SUBMISSION CTA
+first-cta-header-text = Mèsi paske w bay klip vwa w yo!
+first-cta-subtitle-text = Èske ou ta renmen pataje kèk enfòmasyon sou fason'w pale?
+why-donate = Poukisa wap mande?
 why-donate-explanation-2 = Pou teknoloji sa travay byen pou tout moun, done ki ede devlopè yo pou bati teknoloji sa bezwen reflete yon seri divès moun. Pa egzanp, si nou pa mete okenn moun ki pale ak yon aksan patikilye, Lè sa a, teknoloji a pa pral travay byen pou moun ki gen aksan sa a. <learnMore>Aprann plis sou poukisa metadata enpòtan.</learnMore>
 add-information-button = Ajoute enfòmasyon
 continue-speaking-button = Non mèsi, ou mèt kontinye pale

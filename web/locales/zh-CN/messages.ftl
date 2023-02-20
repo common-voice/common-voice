@@ -408,6 +408,7 @@ accept-privacy = 我同意依照 Mozilla 的<privacyLink>隐私政策</privacyLi
 accept-privacy-title = 隐私政策
 accept-privacy-and-terms = 我同意 Common Voice 的<termsLink>使用条款</termsLink>和<privacyLink>隐私声明</privacyLink>
 login-identity = 登录身份
+login = 登录
 login-signup = 登录 / 注册
 edit = 编辑
 email-subscriptions = 电子邮件订阅
@@ -911,6 +912,10 @@ target-segment-generic-card = 您正朝着目标段落数贡献录音
 target-segment-first-banner = 帮助在 Common Voice 创建 { $locale } 的第一段目标细分语音
 target-segment-add-voice = 添加您的声音
 target-segment-learn-more = 详细了解
+
+## Contribution Nav Items
+
+contribute-voice-collection-nav-header = 收集语音
 
 ## Reporting
 

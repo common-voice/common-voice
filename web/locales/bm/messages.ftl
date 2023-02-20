@@ -18,6 +18,8 @@ banner-error-slow-1 = Hakɛto Common Voice ka suma. I ni ce I ka danaya  kɔsɔn
 banner-error-slow-2 = An bɛ ka trafic caman sɔrɔ, wa an bɛ ka koɲɛw sɛgɛsɛgɛ sisan.
 banner-error-slow-link = Sigisariyaw Paaji
 error-something-went-wrong = Hakɛto , fɛn dɔ ma ɲɛ
+error-clip-upload = Nin klip in bilali ma ɲɛ, i ka to k’a ɲini wa?
+error-clip-upload-server = Nin klip in bilali bɛ taa a fɛ ka dɛsɛ sèrwɛri kan. I ka ɲɛ in doni kokura walima k’a lajɛ kokura kɔfɛ.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -223,9 +225,43 @@ speak = Kuma
 speak-now = Kuma sisan
 datasets = Daɲɛgafew
 languages = Kanw
+about = Ka ɲɛsin
+partner = Jɛɲɔgɔn
+profile = Porofili
+help = Dɛmɛ
+contact = aw ka kuma an fɛ
+privacy = Kunnafoni dogolenw
+terms = Bɛnkanw
+cookies = Kukisɛw
+faq = Ɲininkaliw
+content-license-text = Kɔnɔkow bɛ sɔrɔ <licenseLink>Creative Commons license< kɔnɔ
+share-title = An dɛmɛ ka mɔgɔ wɛrɛw sɔrɔ walasa k’u kan di!
+share-text = Dɛmɛ ka masinw kalan mɔgɔ lakikaw bɛ kuma cogo min na, i ka kan di { $link } ma.
+link-copied = Lien Kopi kɛra
+back-top = Segin ka na Sanfɛ
+logout = Aw ka bɔ kɛnɛ kan
 
 ## Home Page
 
+home-title = Common Voice ye Mozilla ka fɛɛrɛ ye walasa ka dɛmɛ don ka masinw kalan mɔgɔ lakikaw bɛ kuma cogo min na.
+default-tagline = Mozilla Common Voice ye fɛɛrɛ ye min bɛ dɛmɛ don ka masinw kalan mɔgɔ lakikaw bɛ kuma cogo min na.
+home-cta = Aw ka kuma, aw ka dɛmɛ don yan!
+wall-of-text-start =
+    Kan ye dacogo ye, kan ye hadamaden ye. O de y’a To an bɛ ɲɛnajɛ ni kan ye min bɛ Se ka baara Kɛ¶
+    fɛɛrɛ kuraw ka ɲɛsin an ka masinw ma. Nka walasa ka kumakanw dabɔ, kan hakɛ min ka bon kosɛbɛ¶ .
+    kunnafoniw de wajibiyalen don.
+wall-of-text-more-mobile =
+    Baarakɛdabaw bɛ baara kɛ ni kunnafonidilan minnu ye, olu fanba tɛ sɔrɔ mɔgɔ fanba bolo. An b'a miiri¶
+    min bɛ kokuradonni dabila. O la an ye Project Common Voice daminɛ, porozɛ min bɛ dɛmɛ don ka kumakan dilan¶
+    dɛmɛbagaw walasa ka jogoɲumanya yiriwa. A ka nɔgɔn ten dɛ!
+    dɔnniya dabɔra bɛɛ ye.
+wall-of-text-more-desktop =
+    Sisan aw bɛ se k’aw ka kan di walasa k’an dɛmɛ ka kan kunnafonidilan dafalen dɔ jɔ, mɔgɔ bɛɛ bɛ se ka baara kɛ ni min ye¶
+    ka porogaramu kura dilan minɛnw ni ɛntɛrinɛti kan. Kumasen dɔ kalan walasa ka masinw dɛmɛ u k’a dɔn mɔgɔ sɛbɛw bɛ kuma cogo min na. Aw ye mɔgɔ wɛrɛw ka baara lajɛ¶
+wall-of-text-first =
+    Kan ye dacogo ye, kan ye hadamaden ye. O de y’a to an nisɔndiyalen don ka kumakan fɛɛrɛbɔlanw dilan minnu bɛ se ka baara kɛ¶
+    an ka masinw kama. Nka walasa ka kumakanw dabɔ, baarakɛlaw mago bɛ kan hakɛ camanba la kosɛbɛ¶
+    kunnafoniw.
 
 ## Account Benefits
 
@@ -381,6 +417,9 @@ contribute-more =
        *[other] I labɛnlen don ka do faara a kan wa ?
     }
 record-cta = Kumakan taali daminɛ
+
+## Contribution Nav Items
+
 
 ## Reporting
 

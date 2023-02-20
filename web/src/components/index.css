@@ -66,6 +66,10 @@ body,
     &.nav-modal-active {
         @media (--md-down) {
             overflow-y: hidden;
+
+            & .header {
+                display: flex;
+            }
         }
     }
 }
@@ -145,6 +149,17 @@ button {
 #main {
     position: relative;
     background-color: var(--white);
+
+    &.speak,
+    &.listen {
+        overflow: hidden;
+
+        & header {
+            @media (--md-down) {
+                display: none;
+            }
+        }
+    }
 }
 
 /**
@@ -257,17 +272,6 @@ a.small,
 .small a,
 .text-button.small {
     text-decoration: underline;
-}
-
-.with-down-arrow::after {
-    content: '';
-    position: absolute;
-    inset-inline-end: 15px;
-    width: 13px;
-    height: 100%;
-    background: url('~img/down-arrow.svg') no-repeat 0 center;
-    background-size: 13px 9px;
-    pointer-events: none;
 }
 
 .tippy-popper {
