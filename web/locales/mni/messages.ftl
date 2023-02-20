@@ -445,10 +445,13 @@ remove-avatar = ꯑꯕꯇꯥꯔ ꯂꯧꯊꯣꯛꯄꯥ
 
 manage-subscriptions = ꯁꯕꯁ꯭ꯛꯔꯤꯄꯁꯟꯁꯤꯡ ꯁꯤꯟꯂꯥꯡꯕ
 manage-email-subscriptions = ꯏꯃꯦꯜ ꯁꯕꯁ꯭ꯛꯔꯤꯄꯁꯟꯁꯤꯡ ꯁꯤꯟꯂꯥꯡꯕ
+email-already-used = ꯏꯃꯦꯜ ꯑꯁꯤ ꯍꯥꯟꯅꯅꯥ ꯇꯣꯉꯥꯟꯕꯥ ꯑꯦꯀꯥꯎꯟꯠ ꯑꯃꯒꯤꯗꯃꯛ ꯁꯤꯖꯤꯟꯅꯈ꯭ꯔꯦ
 add-language = ꯂꯣꯟ ꯍꯥꯞꯆꯤꯟꯂꯨ
+change-email-setings = ꯃꯅꯨꯡ ꯆꯪꯁꯤꯟꯕ ꯁꯛꯇꯥꯛꯀꯤ ꯃꯈꯥꯗꯥ ꯂꯩꯕꯥ ꯁꯦꯇꯤꯡꯁꯤꯡꯒꯤ ꯈꯨꯠꯊꯥꯡꯗꯥ ꯅꯍꯥꯛꯀꯤ ꯏꯃꯦꯏꯜ ꯑꯗꯨ ꯍꯣꯡꯗꯣꯛꯎ
 
 ## FAQ
 
+faq-title = ꯇꯣꯏꯅ ꯍꯪꯕ ꯋꯥꯍꯪꯁꯤꯡ
 faq-what-cv-q = ꯑꯆꯝꯕ ꯈꯣꯟꯖꯦꯜ ꯍꯥꯢꯕꯁꯤ ꯀꯔꯤꯅꯣ?
 faq-why-important-q = ꯃꯁꯤ ꯀꯔꯤꯒꯤ ꯃꯔꯨꯑꯣꯢꯔꯤꯅꯣ?
 faq-why-different-speakers-q = ꯑꯩꯈꯣꯢꯅ ꯀꯩꯗꯧꯕꯒꯤ ꯂꯣꯟ ꯱ꯗ ꯃꯥꯟꯅꯗꯕ ꯋꯉꯥꯡꯂꯣꯢ ꯃꯌꯥꯝ ꯆꯪꯉꯤꯕ ꯀꯔꯤꯒꯤꯅꯣ?
