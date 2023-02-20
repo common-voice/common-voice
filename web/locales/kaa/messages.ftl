@@ -4,6 +4,7 @@ email-input =
     .label = Elektron pochta
 submit-form-action = Jiberiw
 loading = Júklenbekte…
+banner-error-slow-link = Status beti
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -118,6 +119,7 @@ avatar = Avatar
 goals = Maqsetler
 settings = Sazlamalar
 profile-close = Jabıw
+login = Kiriw
 login-signup = Kiriw/Dizimnen ótiw
 edit = Ózgeris kiritiw
 off = Óshirilgen
@@ -196,6 +198,9 @@ add-language = Til qosıw
 
 
 ## Contribution
+
+
+## Contribution Nav Items
 
 
 ## Reporting

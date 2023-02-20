@@ -806,6 +806,9 @@ target-segment-first-banner = Saidia kuunda sehemu ya kwanza ya lengo la Common 
 target-segment-add-voice = Ongeza Sauti yako
 target-segment-learn-more = Jifunze zaidi
 
+## Contribution Nav Items
+
+
 ## Reporting
 
 report = Ripoti
@@ -970,6 +973,7 @@ download-selected = Imechaguliwa
 download-start = Pakua data ya wasifu
 download-request = Omba rekodi
 download-request-button = Pakua
+download-request-refresh-button = onyesha upya
 
 ## Landing
 
@@ -1021,6 +1025,12 @@ contribution-criteria-nav = Vigezo
 contribution-criteria-link = Elewa vigezo vya michango
 contribution-criteria-page-title = Vigezo vya Mchango
 contribution-for-example = Kwa mfano
+contribution-misreadings-example-1-title = Dinosaurs kubwa za Triassic.
+contribution-misreadings-example-2-title = Dinosaur kubwa ya Triassic.
+contribution-misreadings-example-2-explanation = [Inapaswa kuwa 'dinosaurs']
+contribution-misreadings-example-3-title = Dinosaurs kubwa za Triassi-.
+contribution-misreadings-example-3-explanation = [Rekodi imekatwa kabla ya mwisho wa neno la mwisho]
+contribution-misreadings-example-4-title = Dinosaurs kubwa za Triassic. Ndio.
 contribution-misreadings-example-4-explanation = [Mengi zaidi yamerekodiwa kuliko maandishi yanayohitajika]
 contribution-misreadings-example-5-title = Tunakwenda nje kunywa kahawa.
 contribution-misreadings-example-6-title = Tunakwenda nje kunywa kahawa.
@@ -1030,8 +1040,15 @@ contribution-misreadings-example-7-explanation = [Hakuna ‘a’ katika maandish
 contribution-misreadings-example-8-explanation = [Maudhui yasiyolingana]
 contribution-varying-pronunciations-title = Matamshi tofauti
 contribution-varying-pronunciations-example-1-title = Kichwani alikuwa amevaa bereti.
+contribution-varying-pronunciations-example-2-title = Mkono wake uliinuliwa.
+contribution-varying-pronunciations-example-2-explanation = [‘Imeinuliwa’ kwa Kiingereza kila mara hutamkwa kama silabi moja, si mbili]
 contribution-background-noise-title = Kelele za mandharinyuma
+contribution-background-voices-title = Kelele za mandharinyuma
+contribution-volume-title = Sauti
+contribution-reader-effects-title = Athari za Msomaji
+contribution-just-unsure-title = Huna uhakika tu?
 see-more = <chevron></chevron>Angalia zaidi
+see-less = <chevron></chevron>Tazama kidogo
 
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
@@ -1040,44 +1057,99 @@ see-more = <chevron></chevron>Angalia zaidi
 
 ## HEADER/FOOTER
 
+sc-header-how-to = Jinsi ya
 sc-header-add = Ongeza
 sc-header-rejected = Sentensi zilizokataliwa
 sc-header-my = Sentensi zangu
 sc-header-statistics = Takwimu
 sc-header-profile = Wasifu
+sc-footer-report-bugs = Ripoti Hitilafu
 sc-footer-translate = Tafsiri ukurasa huu
+sc-footer-report-copyright = Ripoti suala la tovuti
 sc-footer-privacy = Faragha
 sc-footer-terms = Masharti
+sc-footer-cookies = Vidakuzi
 sc-login-signup-button = Ingia / Jisajili
 sc-logout-button = Ondoka
 
 ## HOME
 
+sc-home-title = Karibu kwenye Mkusanyaji wa Sentensi wa Common Voice
 sc-home-collect-title = Kusanya sentensi
+sc-home-collect-text = Tusaidie kwa kuandika au kukusanya sentensi za Kikoa cha Umma.
+sc-home-review-title = Kagua sentensi
+sc-home-review-text = Tusaidie kwa kukagua sentensi kwa usahihi kulingana na miongozo.
 
 ## GENERAL
 
+sc-languages-fetch-error = Tumeshindwa kuleta lugha zinazopatikana. Michango kwa sasa haiwezekani. Tafadhali jaribu tena baadae.
 
 ## HOW-TO
 
+sc-howto-title = Jinsi ya
+sc-howto-addsen-title = Ongeza sentensi mpya
+sc-howto-review-title = Kagua Sentensi
+sc-howto-review-subtitle = Hakikisha sentensi inakidhi vigezo vifuatavyo:
+sc-howto-review-criteria-1 = Sentensi lazima iandikwe kwa usahihi.
+sc-howto-review-criteria-2 = Sentensi lazima iwe sahihi kisarufi.
 
 ## MY SENTENCES
 
+sc-my-title = Sentensi Zangu
+sc-my-loading = Inapakia sentensi zako...
+sc-my-no-sentences = Hakuna sentensi zilizopatikana!
+# Variables:
+#   $batchId (String) - A unique ID identifying the submission of sentences - sentences uploaded together all have the same batch ID
+sc-my-submission = Wasilisho: { $batchId }
+# Variables:
+#   $source (String) - Associated source the user filled out when uploading the sentence
+sc-my-source = Chanzo: { $source }
+sc-my-delete = Futa sentensi zilizochaguliwa
+sc-my-deleting = Inafuta sentensi zilizochaguliwa...
 
 ## REJECTED
 
+sc-rejected-title = Sentensi zilizokataliwa
+sc-rejected-loading = Inapakia sentensi zilizokataliwa...
+sc-rejected-none-found = Hakuna sentensi zilizokataliwa zilizopatikana!
 
 ## STATS
 
+sc-stats-title = Takwimu
+sc-stats-updating = Inasasisha...
 
 ## ADD
 
+sc-submit-err-select-lang = Tafadhali chagua lugha.
+sc-submit-err-add-sentences = Tafadhali ongeza sentensi.
+sc-submit-err-add-source = Tafadhali ongeza chanzo.
+sc-submit-err-confirm-pd = Tafadhali thibitisha kuwa sentensi hizi ni za umma.
+sc-submit-prompt =
+    .message = Hukumu hazijawasilishwa, una uhakika unataka kuondoka?
+sc-submit-title = Ongeza Sentensi
+sc-submit-select-language =
+    .labelText = Chagua Lugha
+sc-submit-ph-one-per-line =
+    .placeholder = Sentensi moja kwa kila mstari
+sc-submit-guidelines = Tafadhali angalia <howToLink>miongozo</howToLink>.
 
 ## ADD LANGUAGE
 
+sc-add-lang-could-not-add = Haikuweza kuongeza lugha
+sc-add-lang-sec-button = Ongeza Lugha
+sc-add-err-submission = Hitilafu ya Kuwasilisha
 
 ## ADD SENTENCES CONFIRMATION
 
+sc-confirm-sentences-title = Thibitisha Sentensi Mpya
+# Variables:
+#   $countOfSentences (Number) - Number of sentences the user has filled in the submission form
+sc-confirm-sentences-found =
+    { $countOfSentences ->
+        [0] Hakuna sentensi zilizopatikana.
+        [one] Sentensi 1 imepatikana.
+       *[other] Sentensi { $countOfSentences } zimepatikana.
+    }
 
 ## LANGUAGE INFO
 

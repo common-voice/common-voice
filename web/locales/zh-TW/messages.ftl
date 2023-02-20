@@ -410,6 +410,7 @@ accept-privacy = 我同意你依照 Mozilla 的<privacyLink>隱私權保護政�
 accept-privacy-title = 隱私權保護政策
 accept-privacy-and-terms = 我同意 Common Voice 的<termsLink>使用條款</termsLink>與<privacyLink>隱私權公告</privacyLink>
 login-identity = 登入身分
+login = 登入
 login-signup = 登入 / 註冊
 edit = 編輯
 email-subscriptions = 電子郵件訂閱
@@ -901,7 +902,7 @@ target-segment-learn-more = 了解更多
 
 ## Contribution Nav Items
 
-contribute-nav-header-item-1 = 收集語音
+contribute-voice-collection-nav-header = 收集語音
 
 ## Reporting
 

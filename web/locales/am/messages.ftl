@@ -424,6 +424,7 @@ accept-privacy = በሞዚላ <privacyLink>የግላዊነት መመሪያ</priv
 accept-privacy-title = የግላዊነት ፖሊሲ
 accept-privacy-and-terms = በ ጋራ ድምፅ <termsLink>ደንቦች</termsLink> እና <privacyLink>የግላዊነት ማስታወቂያ</privacyLink> እስማማለሁ
 login-identity = የመግቢያ መለያ
+login = ግባ
 login-signup = ይግቡ / ይመዝገቡ
 edit = አርትዕ ያድርጉ
 email-subscriptions = የኢሜል ምዝገባዎች
@@ -953,7 +954,7 @@ target-segment-learn-more = ተጨማሪ ይወቁ
 
 ## Contribution Nav Items
 
-contribute-nav-header-item-1 = የድምጽ ስብስብ
+contribute-voice-collection-nav-header = የድምጽ ስብስብ
 
 ## Reporting
 
