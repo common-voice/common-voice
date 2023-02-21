@@ -421,6 +421,7 @@ accept-privacy = Oĩ porã, amoneĩ ojeporu kuaapyrã chemba’éva oñemyesakã
 accept-privacy-title = Temiñemi Purureko
 accept-privacy-and-terms = Amoneĩ umi <termsLink>Ñe’ẽkuaa</termsLink> ha pe Common Voice <privacyLink>Ñemurã ñemigua</privacyLink>
 login-identity = Tembiapo ñepyrũ kuaaukaha
+login = Tembiapo Ñepyrũ
 login-signup = Emoñeprũ tembiapo / Eñemboheraguapy
 edit = Mbosako’i
 email-subscriptions = Ñe’ẽveve Ñemboheraguapy
@@ -939,6 +940,7 @@ target-segment-learn-more = Kuaave
 
 ## Contribution Nav Items
 
+contribute-voice-collection-nav-header = Ayvu Ñembyaty
 
 ## Reporting
 
