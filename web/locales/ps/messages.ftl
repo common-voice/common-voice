@@ -594,6 +594,7 @@ about-playbook-how-add-language-collecting-sentences-heading = د جملو را�
 ## How does localization work
 
 about-playbook-how-localize = د سایټ سیمه ایز کول  څنګه کار کوي؟
+about-playbook-how-localize-content-2 = <pontoonAccountLink>یو حساب جوړ کړئ</pontoonAccountLink> که تاسو نه لرئ. بیا، خپله ژبه غوره کړئ <strong>('ټیم')</strong> او بیا پروژه غوره کړئ، <pontoonCvLink>عام غږ</pontoonCvLink>. د ژباړې لپاره به فایلونه وي. په یوه باندې کلیک وکړئ، بیا دا په انګلیسي کې ټکي او د هغوی د ژباړلو لپاره بکس ښیې.
 about-playbook-how-localize-content-5 = د مرستې لپاره زموږ ویډیوي تشریح وګورئ
 
 ## How to add sentences
