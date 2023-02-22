@@ -34,12 +34,8 @@ import validate, {
   datasetSchema,
 } from './validation';
 import Statistics from './statistics';
-<<<<<<< HEAD
 import SentencesRouter from '../api/sentences';
 import { reportsRouter } from '../api/reports/routes';
-=======
-import SentenceCollectorRouter from '../api/sentence-collector';
->>>>>>> 224ad1cef (Add sentence collector basic layout and sentence validation)
 
 export default class API {
   model: Model;
