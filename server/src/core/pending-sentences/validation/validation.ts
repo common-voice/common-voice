@@ -22,7 +22,7 @@ import yue from './languages/yue'
 import * as E from 'fp-ts/Either'
 import { flow, pipe } from 'fp-ts/function'
 
-import { Validators } from '../../sentence-collector'
+import { Validators } from '..'
 import { isValidatorLocale, ValidatorLocale, ValidatorRule } from '../types'
 
 const VALIDATORS: Validators = {
