@@ -593,6 +593,7 @@ about-playbook-how-add-language-collecting-sentences-heading = د جملو را�
 
 ## How does localization work
 
+about-playbook-how-localize = د سایټ سیمه ایز کول  څنګه کار کوي؟
 about-playbook-how-localize-content-5 = د مرستې لپاره زموږ ویډیوي تشریح وګورئ
 
 ## How to add sentences
@@ -610,6 +611,7 @@ about-playbook-how-record-content-4 = ډاډ ترلاسه کړئ چې پلیټ �
 
 ## How to grow language
 
+about-playbook-how-grow-language = موږ څنګه  په عام غږ کې ژبه په مؤثره  توګه وده کولی شو؟
 about-playbook-how-grow-language-content-1 = د خلکو تنوع لپاره د فرصتونو رامینځته کول چې په عام غږ کې برخه واخلي ډاډ ترلاسه کوي چې ډیټاسیټ د امکان تر حده ډیرو خلکو ته خدمت کوي. موږ سرچینې او ټیمپلیټونه جوړ کړي دي چې تاسو یې کارولی شئ!
 about-playbook-how-grow-language-content-5 = تاسو کولی شئ د پیغام ترلاسه کولو لپاره د ټولنیزو رسنیو پلیټ فارمونه وکاروئ. پوسټونه شریک کړئ چې تشریح کړي چې ولې دا مهم دي، او د نورو خلکو سره اړیکه ونیسئ لکه د ژبې حقونه، غږ AI، یا په ټیکنالوژۍ کې تعصب. د <compaignLink> د ټولنیز کمپاین د چلولو په اړه نور مشورې وګورئ، په شمول هغه مواد چې تاسو یې بیا کارولی شئ</campaignLink>.
 about-playbook-how-grow-language-content-6 = شراکتونه او شبکې
