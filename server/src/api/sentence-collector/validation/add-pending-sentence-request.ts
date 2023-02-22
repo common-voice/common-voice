@@ -19,3 +19,14 @@ export const AddPendingSentenceRequest: AllowedSchema = {
     },
   },
 }
+
+export const GetPendingSentencesForReviewRequest: AllowedSchema = {
+  type: 'object',
+  required: ['localeId'],
+  properties: {
+    localeId: {
+      type: 'integer',
+      minimum: 1,
+    },
+  },
+}
