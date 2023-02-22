@@ -1,13 +1,11 @@
 import { pipe } from 'fp-ts/lib/function'
-import {
-  PendingSentenceSubmission,
-  validateSentence,
-} from '../../../../core/sentence-collector'
+import { validateSentence } from '../../../../core/pending-sentences'
 import { insertSentenceIntoDb } from '../../repository/pending-sentences-repository'
 import { AddPendingSentenceCommand } from './command/add-pending-sentence-command'
 import { either as E, taskEither as TE } from 'fp-ts'
 import { ApplicationError } from '../../../types/error'
 import { createPendingSentenceValidationError } from '../../../helper/error-helper'
+import { PendingSentenceSubmission } from '../../../types/pending-sentence-submission'
 
 const createSentenceSubmissionFromCommand =
   (command: AddPendingSentenceCommand) =>

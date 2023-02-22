@@ -118,9 +118,9 @@ describe('Sentence validation', () => {
   )
 
   it('Should normalize sentence for the "ko" locale', () => {
-    const result = validateSentence('ko')('콜')
+    const result = validateSentence('ko')('콜')
     expect(
-      E.getOrElse((err: ValidatorRuleError) => err.error)(result) === '콜'
+      E.getOrElse((err: ValidatorRuleError) => err.error)(result) === '콜'
     ).toBeFalsy()
   })
 })
