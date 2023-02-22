@@ -34,7 +34,7 @@ import validate, {
   datasetSchema,
 } from './validation';
 import Statistics from './statistics';
-import SentenceCollectorRouter from '../api/sentence-collector';
+import SentenceCollectorRouter from '../api/pending-sentences';
 
 export default class API {
   model: Model;
