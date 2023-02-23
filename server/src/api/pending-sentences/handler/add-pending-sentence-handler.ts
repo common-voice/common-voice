@@ -9,6 +9,7 @@ import {
   PendingSentencesRepositoryErrorKind,
   PendingSentenceValidationKind,
 } from '../../../application/types/error'
+import { createPresentableError } from '../../../application/helper/error-helper'
 
 export default async (req: Request, res: Response) => {
   const { sentence, localeId, localeName, source } = req.body
@@ -25,13 +26,13 @@ export default async (req: Request, res: Response) => {
     AddPendingSentenceCommandHandler(command),
     TE.fold(
       (err: ApplicationError) => {
-        const { error, ...show } = err
+        const presentableError = createPresentableError(err)
         switch (err.kind) {
           case PendingSentencesRepositoryErrorKind: {
-            return T.of(res.status(500).json(show))
+            return T.of(res.status(500).json(presentableError))
           }
           case PendingSentenceValidationKind:
-            return T.of(res.status(400).json(show))
+            return T.of(res.status(400).json(presentableError))
         }
       },
       () => T.of(res.status(200).json({ status: 'success' }))
