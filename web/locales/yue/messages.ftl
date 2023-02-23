@@ -701,6 +701,11 @@ other-language = 其他語言
 
 ## Request Language Pages
 
+request-language-heading = 申請加入新語言
+request-language-form-email =
+    .label = 閣下電郵地址
+request-language-form-info =
+    .label = 呢種語言嘅資料
 
 ## Languages Overview
 
@@ -717,6 +722,8 @@ language-search-input =
 language-speakers = 獻聲人數
 localized = 已被本地化
 sentences = 句子
+language-validation-hours = 個鐘
+language-validation-progress = 驗證進度
 
 ## Contribution
 
@@ -768,6 +775,7 @@ listen-again-instruction = 好嘢！<playIcon></playIcon> 準備好就可以再�
 listen-3rd-time-instruction = 完成兩筆喇 <playIcon></playIcon>，繼續加油！
 listen-last-time-instruction = <playIcon></playIcon> 最後一個！
 listen-empty-state = 呢個語言嘅錄音都已經驗證晒喇……
+listen-loading-error = 我哋冇晒錄音畀你聽嘞，遲啲再試啦。
 speak-empty-state = 呢個語言可以錄嘅句子已經錄晒啦⋯⋯
 speak-empty-state-cta = 貢獻句子
 record-button-label = 錄低你把聲
@@ -1100,6 +1108,8 @@ sc-howto-addsen-item-1 = 所有語句必須符合<wikipediaLink>公共領域 (CC
 sc-howto-addsen-item-2 = 數字嘅問題：源文本中唔應該出現數字，因為數字可能會導致朗讀方面出問題。 數字嘅讀法會因上下文而有所不同，可能會導致數據集出現混淆。例如，數字「2409」可以被讀作「二四零九」或者「二千四百零九」。
 sc-howto-cite-title = 點樣引用
 sc-howto-review-title = 審核句子
+sc-howto-review-criteria-2 = 句子要符合語法。
+sc-howto-review-criteria-3 = 句子要係讀得出嘅。
 
 ## MY SENTENCES
 
