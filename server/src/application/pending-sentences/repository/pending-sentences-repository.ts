@@ -1,4 +1,4 @@
-import { taskEither as TE, taskOption as TO } from 'fp-ts'
+import { number, taskEither as TE, taskOption as TO } from 'fp-ts'
 import { pipe } from 'fp-ts/lib/function'
 import { MysqlError } from 'mysql2Types'
 import { PendingSentence } from '../../../core/pending-sentences/types'
@@ -47,6 +47,29 @@ const insertSentence =
     )
   }
 
+const insertPendingSentenceVote =
+  (db: Mysql) =>
+  (vote: {
+    pendingSentenceId: number
+    isValid: boolean
+    client_id: string
+  }): TE.TaskEither<ApplicationError, unknown> => {
+    return TE.tryCatch(
+      () =>
+        db.query(
+          `INSERT INTO pending_sentences_vote (pending_sentence_id, is_valid, client_id)
+          VALUES (?, ?, ?)
+          ON DUPLICATE KEY UPDATE is_valid = VALUES(is_valid)`,
+          [vote.pendingSentenceId, vote.isValid, vote.client_id]
+        ),
+      (err: Error) =>
+        createPendingSentencesRepositoryError(
+          `Error inserting vote for pending_sentence ${vote.pendingSentenceId} with client_id ${vote.client_id}`,
+          err
+        )
+    )
+  }
+
 const mapRowToPendingSentence = ([pendingSentenceRows]: [
   [PendingSentencesForReviewRow]
 ]): PendingSentence[] =>
@@ -92,4 +115,5 @@ const findPendingSentencesForReview =
   }
 
 export const insertSentenceIntoDb = insertSentence(db)
+export const insertPendingSentenceVoteIntoDb = insertPendingSentenceVote(db)
 export const findPendingSentencesForReviewInDb = findPendingSentencesForReview(db)
