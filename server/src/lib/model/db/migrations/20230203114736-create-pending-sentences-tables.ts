@@ -29,7 +29,8 @@ export const up = async function (db: any): Promise<any> {
       client_id char(36) DEFAULT NULL,
       PRIMARY KEY (id),
       FOREIGN KEY (pending_sentence_id) REFERENCES pending_sentences(id),
-      FOREIGN KEY (client_id) REFERENCES user_clients(client_id)
+      FOREIGN KEY (client_id) REFERENCES user_clients(client_id),
+      UNIQUE INDEX pending_sentence_id_client_id (pending_sentence_id, client_id) 
     );
   `);
 };
