@@ -535,6 +535,7 @@ about-dataset-release-title = ꯗꯦꯇꯥꯁꯦꯠ ꯊꯥꯗꯣꯛꯄ
 about-dataset-release-subtitle = ꯑꯩꯈꯣꯏꯅꯥ ꯊꯥ ꯳ ꯈꯨꯗꯤꯡꯒꯤ ꯗꯦꯇꯥꯁꯦꯠ ꯑꯁꯤ ꯊꯥꯗꯣꯛꯏ ꯫
 about-subscribe-text = ꯀꯃꯟ ꯈꯣꯟꯖꯦꯜꯒ ꯂꯣꯏꯅꯅꯥ ꯋꯥꯔꯤ ꯁꯥꯅꯕꯥ ꯄꯥꯝꯕꯤꯕꯔꯥ?
 about-speak = ꯋꯥ ꯉꯥꯡꯉꯨ
+about-speak-text = ꯁꯔꯨꯛꯌꯥꯔꯤꯕꯁꯤꯡꯅꯥ ꯀꯠꯂꯛꯄꯋꯥꯍꯩꯄꯔꯦꯡꯁꯤꯡꯒꯤ ꯊꯝꯐꯝ ꯑꯃꯗꯒꯤ ꯄꯥꯗꯨꯅꯥ ꯈꯣꯟꯖꯦꯜ ꯀ꯭ꯂꯤꯞꯁꯤꯡ ꯔꯦꯀꯣꯔꯗ ꯇꯧꯏ ꯫
 about-listen = ꯃꯨꯟꯅ ꯇꯥꯎ
 about-yes-votes = ≥ ꯲ ꯚꯣꯠ ꯄꯤ
 about-no-votes = ≥ ꯲ ꯚꯣꯠ ꯄꯤꯗꯦ
