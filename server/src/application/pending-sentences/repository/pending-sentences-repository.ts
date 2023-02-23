@@ -52,19 +52,19 @@ const insertPendingSentenceVote =
   (vote: {
     pendingSentenceId: number
     isValid: boolean
-    client_id: string
+    clientId: string
   }): TE.TaskEither<ApplicationError, unknown> => {
     return TE.tryCatch(
       () =>
         db.query(
-          `INSERT INTO pending_sentences_vote (pending_sentence_id, is_valid, client_id)
+          `INSERT INTO pending_sentences_votes (pending_sentence_id, is_valid, client_id)
           VALUES (?, ?, ?)
           ON DUPLICATE KEY UPDATE is_valid = VALUES(is_valid)`,
-          [vote.pendingSentenceId, vote.isValid, vote.client_id]
+          [vote.pendingSentenceId, vote.isValid, vote.clientId]
         ),
       (err: Error) =>
         createPendingSentencesRepositoryError(
-          `Error inserting vote for pending_sentence ${vote.pendingSentenceId} with client_id ${vote.client_id}`,
+          `Error inserting vote for pending_sentence ${vote.pendingSentenceId} with client_id ${vote.clientId}`,
           err
         )
     )
