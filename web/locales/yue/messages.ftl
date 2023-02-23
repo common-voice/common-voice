@@ -14,6 +14,10 @@ email-opt-in-info-sub-with-challenge = 接收挑戰及目標提醒、進度更�
 email-opt-in-privacy-v2 = 選擇接收電郵意味住閣下同意 Mozilla 根據<privacyLink>私隱政策</privacyLink>嚟處理呢啲個人數據。
 indicates-required = ＊表示必填
 not-available-abbreviation = 唔適用
+banner-error-slow-1 = 對唔住，Common Voice 運行得好慢。多謝你嘅耐心等待。
+banner-error-slow-2 = 我哋有太多流量湧入嚟喇，而家仲調查緊發生咗啲咩事。
+banner-error-slow-link = 狀態頁面
+error-something-went-wrong = 對唔住，出咗啲問題
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -759,6 +763,9 @@ target-segment-generic-card = 你現正貢獻緊錄音畀一個目標細分群�
 target-segment-first-banner = 幫 Common Voice 創立 { $locale } 嘅第一個目標細分群體
 target-segment-add-voice = 加入你嘅聲音
 target-segment-learn-more = 了解更多
+
+## Contribution Nav Items
+
 
 ## Reporting
 
