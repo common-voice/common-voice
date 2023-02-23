@@ -17,3 +17,10 @@ export type ApplicationError = {
   message: string
   error: Error
 }
+
+// We don't want to show the stack trace or the specific error to
+// clients for security reasons.
+export type PresentableApplicationError = {
+  kind: ApplicationErrorKind
+  message: string
+}

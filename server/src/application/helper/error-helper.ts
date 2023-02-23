@@ -1,4 +1,8 @@
-import { ApplicationErrorKind } from '../types/error'
+import {
+  ApplicationError,
+  ApplicationErrorKind,
+  PresentableApplicationError,
+} from '../types/error'
 
 export const createError =
   (kind: ApplicationErrorKind) => (message: string, error?: Error) => ({
@@ -14,3 +18,7 @@ export const createPendingSentenceValidationError = createError(
 export const createPendingSentencesRepositoryError = createError(
   'PendingSentencesRepository'
 )
+
+export const createPresentableError = (
+  err: ApplicationError
+): PresentableApplicationError => ({ kind: err.kind, message: err.message })
