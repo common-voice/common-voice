@@ -1,4 +1,4 @@
-import { number, taskEither as TE, taskOption as TO } from 'fp-ts'
+import { taskEither as TE, taskOption as TO } from 'fp-ts'
 import { pipe } from 'fp-ts/lib/function'
 import { MysqlError } from 'mysql2Types'
 import { PendingSentence } from '../../../core/pending-sentences/types'
