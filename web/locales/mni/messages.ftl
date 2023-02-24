@@ -679,10 +679,15 @@ de-identified-explanation = ꯗꯦꯇꯥꯁꯦꯠꯀꯤ ꯁꯔꯨꯛ ꯑꯃꯥ �
 
 ## Error pages
 
+error-title-404 = ꯑꯩꯈꯣꯏꯅꯥ ꯑꯗꯣꯝꯒꯤꯗꯃꯛ ꯂꯃꯥꯏ ꯑꯗꯨ ꯊꯤꯕꯥ ꯐꯪꯈꯤꯗꯦ ꯫
+error-content-404 = ꯑꯩꯈꯣꯏꯒꯤ <homepageLink>ꯂꯃꯥꯏꯌꯨꯝ</homepageLink>ꯅꯥ ꯃꯇꯦꯡ ꯄꯥꯡꯂꯕꯔꯥ? ꯋꯥꯍꯪ ꯑꯃꯥ ꯍꯪꯅꯕꯒꯤꯗꯃꯛ, ꯆꯥꯟꯕꯤꯗꯨꯅꯥ <matrixLink>ꯃꯦꯠꯔꯤꯛ ꯀꯝꯝꯌꯨꯅꯤꯇꯤ ꯆꯦꯠ</matrixLink>ꯗꯥ ꯌꯥꯎꯕꯤꯌꯨ, <githubLink>GitHub</githubLink>ꯒꯤ ꯈꯨꯠꯊꯥꯡꯗꯥ ꯁꯥꯏꯠꯀꯤ ꯏꯁꯨꯁꯤꯡ ꯌꯦꯡꯁꯤꯅꯕꯤꯌꯨ ꯅꯠꯇ꯭ꯔꯒꯥ <discourseLink>ꯑꯩꯈꯣꯏꯒꯤ ꯗꯤꯁ꯭ꯀꯣꯔꯁ ꯐꯣꯔꯝꯁꯤꯡ</discourseLink>ꯗꯥ ꯆꯠꯄꯤꯌꯨ ꯫
+error-title-503 = ꯑꯩꯈꯣꯏꯅꯥ ꯊꯥꯖꯗꯕꯥ ꯌꯥꯗꯕꯥ ꯃꯇꯝ ꯑꯃꯥ ꯊꯦꯡꯅꯔꯤ ꯫
+error-content-503 = ꯁꯥꯏꯠ ꯑꯁꯤ ꯌꯥꯔꯤꯕꯃꯈꯩ ꯊꯨꯅꯥ ꯁꯦꯝꯒꯠꯀꯅꯤ ꯫ ꯈ꯭ꯋꯥꯏꯗꯒꯤ ꯅꯧꯕꯥ ꯋꯥꯔꯣꯜꯃꯛꯇꯥ, ꯆꯥꯟꯕꯤꯗꯨꯅꯥ <matrixLink>ꯃꯦꯠꯔꯤꯛ ꯀꯝꯝꯌꯨꯅꯤꯇꯤ ꯆꯦꯠ</matrixLink>ꯗꯥ ꯌꯥꯎꯕꯤꯌꯨ ꯅꯠꯇ꯭ꯔꯒꯥ ꯁꯥꯏꯠ ꯊꯦꯡꯅꯔꯛꯈꯤꯕꯁꯤꯡꯒꯤ ꯏꯁꯨꯁꯤꯡ ꯄꯤꯁꯤꯟꯕꯤꯌꯨ ꯑꯃꯁꯨꯡ ꯌꯦꯡꯁꯤꯟꯅꯕꯥ <githubLink>GitHub</githubLink> ꯅꯠꯇ꯭ꯔꯒꯥ <discourseLink>ꯑꯩꯈꯣꯏꯒꯤ ꯗꯤꯁ꯭ꯀꯣꯔꯁ ꯐꯣꯔꯝꯁꯤꯡ</discourseLink>ꯗꯥ ꯆꯪꯕꯤꯌꯨ ꯫
 error-code = { $code } ꯑꯔꯥꯟꯕ
 
 ## Data
 
+data-download-button = ꯀꯃꯟ ꯈꯣꯟꯖꯦꯜ ꯗꯦꯇꯥ ꯆꯤꯡꯊꯧ ꯫
 data-download-yes = ꯍꯣꯏ
 data-download-deny = ꯅꯠꯇꯦ
 data-other-goto = { $name }ꯗ ꯆꯠꯂꯨ
