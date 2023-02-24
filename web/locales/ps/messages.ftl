@@ -771,8 +771,10 @@ subscribe = ګډون وکړئ
 get-started-speech = وینا پېژندنې باندې پیل وکړئ
 other-datasets = نور غږیز ډېټاسیټونه ...
 feedback-q = غبرګون لرئ؟
+resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ د څیړونکو لپاره یو <docsLink>د خلاصې سرچینې اوزار کټ</docsLink> دی چې د عصري خبرو اترو AI ماډلونه رامینځته کوي.
 resource-deepspeech-info = د موزیلا د خلاصې سرچینې غږ پیژندنې انجن ډیپ سپیچ د وینا پیژندنې غوښتنلیکونو جوړولو لپاره کارول کیدی شي. زموږ <githubLink>Github عمومي کتنه</githubLink> ولولئ یا د <discourseLink>DeepSpeech Discourse</discourseLink> سره یوځای شئ ترڅو د پیل کولو څرنګوالی زده کړئ.
 resource-coqui-info = <coquiLink>Coqui</coquiLink> د خلاصې وینا ټیکنالوژۍ ته وقف شوی. د دوی په پروژو کې د ژورې زده کړې پر بنسټ د STT او TTS انجنونه شامل دي.
+community-playbook = د ټولنې طرېقه کار
 resource-playbook-info = <playbookLink> ګټور لارښود ومومئ</playbookLink> په ټول عام غږ سفر کې، د ځایی کولو څخه د ډیټاسیټ کارولو پورې، او همدارنګه زموږ د ټولنې سره څنګه اړیکه ونیسئ.
 data-other-librispeech-description = LibriSpeech د 16Khz نږدې 1000 ساعتونو انګلیسي ژبې لیک ټولګه ده چې د LibriVox پروژې څخه د لوستل شوي غږیز کتابونو څخه اخیستل شوي.
 data-other-ted-name = د ټیډ - لیم لیک ټولګه
@@ -823,6 +825,7 @@ other-language = بله ژبه
 
 ## Request Language Pages
 
+request-language-heading = د نوې ژبې په اړه پوښتنه وکړئ
 request-language-explanation-1 =
     وګورئ چې ستاسو ژبه په کې لیست شوې ده
     <languagesPageLink>د عام غږ ژبې پاڼه</languagesPageLink>.
@@ -832,8 +835,21 @@ request-language-explanation-2 =
     موږ به هم<strong>زموږ د ټولنې مدیر خبر کړو
     چې تاسو لیوالتیا لرئ</strong>، نو دوی کولی شي تاسو ته هر څه درکړي
     اضافي ملاتړ یا معلومات چې تاسو ورته اړتیا لرئ.
+request-language-form-email =
+    .label = ستاسو بریښنالیک آدرس
+request-language-form-info =
+    .label = د ژبې په اړه معلومات
 request-language-form-info-explanation = د ژبې په اړه څومره چې تاسو کولی شئ معلومات اضافه کړئ. د ‏‎کېدای شي شامل وي:
+request-language-form-info-explanation-list-1 = ستاسو د ژبې نومونه
 request-language-form-info-explanation-list-2 = <isoCodeLink>ISO کوډونه</isoCodeLink> که معلوم وي
+request-language-form-info-explanation-list-3 = د ویب پاڼو لینکونه چې زموږ سره د ژبې په پوهیدو کې مرسته کولی شي
+request-language-google-recaptcha-required = reCAPTCHA ته اړتیا ده که تاسو غواړئ پرمخ لاړشئ
+request-language-google-recaptcha-error = په reCAPTCHA کې یو څه غلط شوي. مهرباني وکړئ بیا هڅه وکړئ.
+# Success page
+request-language-success-heading = مننه! تاسو د نوې ژبې پوښتنې لیږلي دي
+request-language-success-list-1 =
+    تاسو باید په لنډه توګه یو بریښنالیک ترلاسه کړئ چې
+    په عام غږ کې ستاسو د ژبې اضافه کولو ګامونه  تشریح کوي
 request-language-success-list-2 =
     زموږ د ټولنې مدیر به تاسو ته وړاندیز وکړي
     اضافي ملاتړ، او تاسو ته خبر ورکړئ که چیرې شتون ولري
@@ -1153,8 +1169,11 @@ contribution-background-noise-description = موږ غواړو چې د ماشین
 contribution-background-noise-description-extended = که ریکارډ مات شي، یا کریکونه ولري، رد کړئ پرته لدې چې ټول متن لاهم واوریدل شي.
 contribution-background-noise-example-1-fixed-title = <strong>[پرنجی]</strong> د لوی ډیناسور د <strong>[ټوخی]</strong>  ټریاسیک.
 contribution-background-noise-example-2-fixed-title = لوی ډینو <strong>[ټوخی]</strong> تریاسیک.
+contribution-background-voices-description-extended = که ریکارډ مات شي، یا کریکونه ولري، رد کړئ پرته لدې چې ټول متن لاهم واوریدل شي.
 contribution-background-voices-example-1-title = د ټریاسیک لوی ډیناسور. <strong>[په یو غږ لوستل]</strong>
 contribution-background-voices-example-1-explanation = ته راځې؟ <strong>[د بل لخوا ویل کیږي]</strong>
+contribution-just-unsure-title = بس ډاډه نه یاست؟
+contribution-just-unsure-description = که تاسو د هغه څه سره مخ شئ چې دا لارښوونې نه پوښي، مهرباني وکړئ د خپل غوره قضاوت سره سم رایه ورکړئ. که تاسو واقعیا پریکړه نشئ کولی ، د سکیپ تڼۍ وکاروئ او راتلونکي ریکارډ ته لاړشئ.
 see-more = <chevron></chevron>نور وګوری
 see-less = <chevron></chevron>لږ وګورئ
 
