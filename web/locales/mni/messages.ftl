@@ -709,6 +709,9 @@ data-download-singleword-callout-v2 = ꯃꯁꯤ ꯁ꯭ꯄꯣꯀꯦꯟ ꯗꯤꯖ�
 review-terms = ꯀꯃꯟ ꯈꯣꯟꯖꯦꯜꯁꯤꯖꯤꯟꯅꯗꯨꯅꯥ, ꯅꯍꯥꯛꯅꯥ ꯑꯩꯈꯣꯏꯒꯤ <termsLink>ꯋꯥꯐꯝꯁꯤꯡ</termsLink> ꯑꯃꯁꯨꯡ <privacyLink>ꯄ꯭ꯔꯥꯏꯚꯦꯁꯤ ꯅꯣꯇꯤꯁ</privacyLink> ꯑꯁꯤ ꯌꯥꯔꯦ ꯫
 terms-agree = ꯑꯩ ꯌꯥꯔꯦ
 terms-disagree = ꯑꯩ ꯌꯥꯅꯤꯡꯗꯦ
+review-aborted = ꯊꯥꯐꯠꯄ ꯂꯦꯄꯈ꯭ꯔꯦ ꯫ ꯅꯍꯥꯛꯀꯤ ꯔꯦꯀꯣꯔꯗꯁꯤꯡ ꯑꯗꯨ ꯃꯨꯠꯊꯠꯄꯥ ꯄꯥꯝꯕꯤꯕ꯭ꯔꯥ?
+review-submit-title = ꯌꯦꯡꯁꯤꯟꯕ ꯱ꯁꯨꯡ ꯄꯤꯁꯤꯟꯕ
+review-submit-msg = ꯔꯦꯀꯣꯔꯗ ꯇꯧꯕꯤꯕꯒꯤꯗꯃꯛ ꯊꯥꯒꯠꯆꯔꯤ!<lineBreak></lineBreak>ꯍꯧꯖꯤꯛ ꯃꯈꯥꯗꯥ ꯅꯍꯥꯛꯀꯤ ꯀ꯭ꯂꯤꯞꯁꯤꯡ ꯑꯗꯨ ꯔꯤꯚꯤꯌꯨ ꯇꯧꯕꯤꯌꯨ ꯑꯃꯁꯨꯡ ꯊꯥꯕꯤꯌꯨ ꯫
 review-recording = ꯑꯃꯨꯛꯍꯟꯅ ꯌꯦꯡꯕ
 
 ## Datasets Page
