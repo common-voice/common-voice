@@ -690,6 +690,7 @@ error-code = { $code } ꯑꯔꯥꯟꯕ
 data-download-button = ꯀꯃꯟ ꯈꯣꯟꯖꯦꯜ ꯗꯦꯇꯥ ꯆꯤꯡꯊꯧ ꯫
 data-download-yes = ꯍꯣꯏ
 data-download-deny = ꯅꯠꯇꯦ
+data-download-license = ꯑꯌꯥꯕ:<licenseLink>ꯁꯤꯁꯤ-꯰</licenseLink>
 data-other-goto = { $name }ꯗ ꯆꯠꯂꯨ
 data-other-download = ꯗꯥꯇꯥ ꯆꯤꯡꯊꯧ
 dataset-date = ꯆꯩꯆꯠ
