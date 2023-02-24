@@ -838,9 +838,27 @@ request-language-google-recaptcha-required = ꯀꯔꯤꯒꯨꯝꯕꯥ ꯅꯍꯥ�
 request-language-google-recaptcha-error = reCAPTCHA ꯒꯤ ꯃꯇꯥꯡꯗꯥ ꯀꯔꯤꯒꯨꯝꯕꯥ ꯈꯔꯥ ꯑꯁꯣꯏꯕꯥ ꯊꯣꯛꯈꯤ ꯫ ꯆꯥꯅꯕꯤꯗꯨꯅꯥ ꯑꯃꯨꯛ ꯍꯟꯅꯥ ꯍꯣꯠꯅꯕꯤꯌꯨ ꯫
 # Success page
 request-language-success-heading = ꯊꯥꯒꯠꯆꯔꯤ! ꯅꯪꯅꯥ ꯑꯅꯧꯕꯥ ꯂꯣꯜꯒꯤ ꯊꯤꯒꯠꯄ ꯑꯃꯥ ꯊꯥꯔꯛꯂꯦ
+request-language-success-list-1 =
+    ꯅꯍꯥꯛꯅꯥ ꯊꯨꯅꯥ ꯏꯃꯦꯜ ꯑꯃꯥ ꯐꯪꯒꯗꯕꯅꯤ ꯫
+    ꯅꯍꯥꯛꯀꯤ ꯂꯣꯜ ꯑꯗꯨ ꯀꯃꯟ ꯈꯣꯟꯖꯦꯜꯗ ꯍꯥꯞꯆꯤꯟꯅꯕꯥ ꯈꯣꯡꯊꯥꯡꯁꯤꯡ
+request-language-success-list-2 =
+    ꯑꯩꯈꯣꯏꯒꯤ ꯀꯝꯝꯌꯨꯅꯤꯇꯤ ꯃꯦꯅꯦꯖꯔꯅꯥ ꯑꯗꯣꯝꯗꯥ ꯌꯧꯔꯛꯇꯨꯅꯥ ꯑꯣꯐꯔ ꯇꯧꯒꯅꯤ ꯫
+    ꯑꯍꯦꯟꯕꯥ ꯉꯥꯛꯂꯧ, ꯑꯃꯁꯨꯡ ꯂꯩꯔꯕꯗꯤ ꯅꯍꯥꯀꯄꯨ ꯈꯪꯍꯟꯅꯕꯥ ꯫
+    ꯍꯥꯟꯅꯗꯒꯤ ꯅꯍꯥꯛꯀꯤ ꯂꯣꯜꯗꯥ ꯊꯕꯛ ꯇꯧꯔꯤꯕꯥ ꯀꯝꯝꯌꯨꯅꯤꯇꯤ ꯑꯃꯅꯤ ꯫
+request-language-success-list-3 =
+    ꯀꯔꯤꯒꯨꯝꯕꯥ ꯅꯍꯥꯛꯅꯥ ꯅꯨꯃꯤꯠ ꯈꯔꯅꯤꯒꯤ ꯃꯅꯨꯡꯗꯥ ꯑꯩꯈꯣꯏꯒꯤ ꯋꯥꯐꯝ ꯇꯥꯕꯥ ꯐꯪꯗ꯭ꯔꯕꯗꯤ,
+    <emailLink>{ $email }</emailLink> ꯗꯥ ꯌꯧꯕꯤꯌꯨ ꯫
+    ꯑꯃꯁꯨꯡ ꯑꯩꯈꯣꯏꯅꯥ ꯅꯈꯣꯏꯒꯥ ꯍꯜꯂꯛꯀꯅꯤ!
+request-language-error =
+    ꯑꯩꯈꯣꯏꯅꯥ ꯍꯥꯏꯖꯕꯥ ꯑꯗꯨ ꯐꯪꯂꯝꯗꯕꯥ ꯌꯥꯏ ꯫ ꯑꯩꯈꯣꯏꯗꯥ ꯍꯛꯊꯦꯡꯅꯅꯥ ꯏꯃꯦꯜ ꯇꯧꯕꯤꯌꯨ꯫
+    <email Link>{ $email }</email Link> ꯗꯥ ꯑꯃꯁꯨꯡ ꯑꯩꯈꯣꯏꯅꯥ ꯑꯗꯣꯝꯒꯥ ꯑꯃꯨꯛ ꯍꯟꯅꯥ ꯋꯥꯔꯤ ꯁꯥꯅꯒꯅꯤ!
 
 ## Languages Overview
 
+language-section-in-progress = ꯈꯨꯃꯥꯡ ꯆꯥꯎꯁꯤꯟꯂꯤ
+language-section-in-progress-new-description = ꯍꯥꯏꯔꯤꯕꯥ ꯂꯣꯜꯁꯤꯡ ꯑꯁꯤ ꯍꯧꯖꯤꯛ ꯀꯝꯝꯌꯨꯅꯤꯇꯤ ꯗꯤꯕꯦꯂꯄꯃꯦꯟꯠꯀꯤ ꯃꯈꯥꯗꯥ ꯂꯩꯔꯤ ꯫ <localizationGlossaryLink>ꯋꯦꯕꯁꯥꯏꯠ ꯂꯣꯀꯦꯂꯥꯏꯖꯦꯁꯟ</localizationGlossaryLink> ꯑꯃꯁꯨꯡ <sentenceCollectionGlossaryLink>ꯁꯦꯟꯇꯦꯟꯁ ꯀꯂꯦꯛꯁꯟ</sentenceCollectionGlossaryLink> ꯑꯁꯤ ꯍꯧꯗꯣꯛꯅꯕꯥ ꯃꯊꯧ ꯇꯥꯏ ꯫
+language-section-launched = ꯍꯧꯗꯣꯀꯈ꯭ꯔꯦ
+language-section-launched-description = ꯍꯧꯗꯣꯛꯈ꯭ꯔꯕꯥ ꯂꯣꯜꯁꯤꯡ ꯑꯁꯤꯒꯤꯗꯃꯛ ꯋꯦꯕꯁꯥꯏꯠ ꯑꯁꯤ ꯃꯥꯏ ꯄꯥꯛꯅꯥ <localizationGlossaryLink>localized</localizationGlossaryLink> ꯇꯧꯈ꯭ꯔꯦ, ꯑꯃꯁꯨꯡ ꯍꯧꯖꯤꯛ ꯆꯠꯊꯔꯤꯕꯥ <speakLink>ꯋꯥ ꯉꯥꯡꯕ</speakLink> ꯑꯃꯁꯨꯡ <listenLink>ꯇꯥꯕꯥ</listenLink ꯇꯧꯕꯥ ꯌꯥꯅꯕꯥ <sentenceCollectionGlossaryLink>ꯋꯥꯍꯩꯄꯔꯦꯡꯁꯤꯡ ꯈꯣꯃꯖꯤꯜꯂꯕꯥ</sentenceCollectionGlossaryLink> ꯃꯇꯤꯛ ꯆꯥꯅꯥ ꯂꯩꯔꯦ > ꯁꯔꯨꯛꯌꯥꯈꯤꯕꯁꯤꯡ ꯫
 
 ## Contribution
 
