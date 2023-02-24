@@ -1559,6 +1559,7 @@ partnerships-governments-description = Oremoakãraku roykekóvo tetã remimoĩmb
 partnerships-academia-header = Mbo’ehaovusu, Mbo’ekuaahára ha Taperekahára
 partnerships-academia-description = Mba’epyahu jejapo oĩ ore ñe’ãitépe. Ore pytyvõséva tembikuaareka, mba’ekuaarã ñembyaty térã ñomongetarã, <emailFragment>eñe’ẽ orendive.</emailFragment>
 partnerships-small-business-header = Mba’apohaguasu michĩvéva, oĩhápe mba’apohaguasu pyahu tembipurupyahugua ha IA
+partnerships-small-business-description = Tapiaite rohenduse mba’ekuaarã puruhárape hemikotevẽ ha ijere rehegua: pyendavusúpe mba’ekuaarã ñembyatyha guive marandu ñeme’ẽ mba’ekuaarã rekotee peve, roikotevẽ <emailFragment>ñehendu ndehegui.</emailFragment>
 partnerships-corporates-header = Mba’apohaguasu tuicháva ha pyendavusugua
 partnerships-corporates-description = Eñe’ẽsevéramo mba’ekuaarã aty rehegua, emyasãisépa pyendavusúpe iporã hag̃uáicha térã ehekáta pa’ũ ñepytyvõrã, <emailFragment>ehai oréve.</emailFragment>
 partnerships-our-partners = Ore irũnguéra
