@@ -910,12 +910,39 @@ record-abort-text = ꯍꯧꯖꯤꯛ ꯆꯠꯈꯤꯕꯥ ꯑꯁꯤꯅꯥ ꯅꯍꯥ
 record-abort-submit = ꯀ꯭ꯂꯤꯄꯁꯤꯡ ꯄꯤꯁꯤꯟꯕꯥ
 record-abort-continue = ꯔꯦꯀꯣꯔꯗꯤꯡ ꯂꯣꯏꯁꯤꯟꯕꯥ
 record-abort-delete = ꯀ꯭ꯂꯤꯄꯁꯤꯡ ꯊꯣꯛꯄꯥ ꯱ꯁꯨꯡ ꯀꯛꯊꯠꯄ
+listen-instruction = { $actionType }<playIcon></playIcon> ꯃꯈꯣꯏꯅꯥ ꯋꯥꯍꯩ ꯑꯗꯨ ꯑꯆꯨꯝꯕꯥ ꯃꯑꯣꯡꯗꯥ ꯉꯥꯡꯈꯤꯕ꯭ꯔꯥ?
+listen-again-instruction = ꯑꯆꯧꯕꯥ ꯊꯕꯛ!<playIcon></playIcon> ꯅꯍꯥꯛꯅꯥ ꯁꯦꯝ ꯁꯥꯕꯥ ꯃꯇꯝꯗꯥ ꯑꯃꯨꯛ ꯍꯟꯅꯥ ꯇꯥꯕꯤꯌꯨ
+listen-3rd-time-instruction = ꯲ ꯀꯨꯝꯊꯔꯒꯥ ꯊꯝꯃꯨ!<playIcon></playIcon>
+listen-last-time-instruction = <playIcon></playIcon>ꯑꯔꯣꯏꯕꯥ ꯑꯃꯥ!
+listen-empty-state = ꯑꯩꯈꯣꯏꯅꯥ ꯀ꯭ꯂꯤꯞꯁꯤꯡ ꯂꯣꯏꯁꯤꯟꯈꯤꯕꯥ ꯌꯥꯏ - ꯂꯃꯥꯏ ꯑꯗꯨ ꯔꯤꯐ꯭ꯔꯦꯁ ꯇꯧꯕꯤꯌꯨ, ꯅꯠꯇ꯭ꯔꯒꯥ ꯇꯨꯡꯗꯥ ꯑꯃꯨꯛ ꯍꯟꯅꯥ ꯍꯣꯠꯅꯕꯤꯌꯨ ꯫
+listen-loading-error =
+    ꯑꯩꯈꯣꯏꯅꯥ ꯑꯗꯣꯃꯒꯤꯗꯃꯛ ꯑꯣꯗꯤꯑꯣ ꯀ꯭ꯂꯤꯞ ꯑꯃꯍꯑꯛꯇ ꯐꯪꯍꯟꯕꯥ ꯉꯝꯈꯤꯗꯦ꯫
+    ꯆꯥꯟꯕꯤꯗꯨꯅꯥ ꯇꯨꯡꯗꯥ ꯑꯃꯨꯛ ꯍꯟꯅꯥ ꯍꯣꯠꯅꯕꯤꯌꯨ ꯫
+speak-empty-state = ꯑꯩꯈꯣꯏꯅꯥ ꯂꯣꯜ ꯑꯁꯤꯗꯥ ꯔꯦꯀꯣꯔꯗ ꯇꯧꯅꯕꯥ ꯋꯥꯍꯩꯁꯤꯡ ꯂꯣꯏꯁꯤꯟꯈ꯭ꯔꯦ...
+speak-empty-state-cta = ꯋꯥꯍꯩꯄꯔꯦꯡꯁꯤꯡ  ꯈꯣꯝꯖꯤꯟꯕꯗ ꯁꯔꯨꯛꯌꯥꯕꯤꯌꯨ
+speak-loading-error =
+    ꯑꯩꯈꯣꯏꯅꯥ ꯅꯈꯣꯏꯅꯥ ꯋꯥ ꯉꯥꯡꯅꯕꯥ ꯋꯥꯍꯩ ꯑꯃꯍꯦꯛꯇ ꯐꯪꯍꯟꯕꯥ ꯉꯝꯈꯤꯗꯦ ꯫
+    ꯆꯥꯟꯕꯤꯗꯨꯅꯥ ꯇꯨꯡꯗꯥ ꯑꯃꯨꯛ ꯍꯟꯅꯥ ꯍꯣꯠꯅꯕꯤꯌꯨ ꯫
+record-button-label = ꯅꯍꯥꯛꯀꯤ ꯈꯣꯟꯖꯦꯜ ꯑꯗꯨ ꯔꯦꯀꯣꯔꯗ ꯇꯧ
+share-title-new = <bold>ꯑꯩꯈꯣꯏꯗꯥ ꯃꯇꯦꯡ ꯄꯥꯡꯕꯤꯌꯨ</bold> ꯍꯦꯟꯅꯥ ꯈꯣꯟꯖꯦꯜꯁꯤꯡ ꯊꯤꯕꯥ
+keep-track-profile = ꯄ꯭ꯔꯣꯐꯥꯏꯜ ꯑꯃꯒꯥ ꯂꯣꯏꯅꯅꯥ ꯅꯍꯥꯛꯀꯤ ꯄ꯭ꯔꯣꯒ꯭ꯔꯦꯁ ꯑꯗꯨ ꯌꯦꯡꯁꯤꯜꯂꯨ
+login-to-get-started = ꯍꯧꯗꯣꯛꯅꯕꯒꯤꯗꯃꯛ ꯂꯣꯒ ꯏꯟ ꯇꯧꯕꯤꯌꯨ ꯅꯠꯇ꯭ꯔꯒꯥ ꯁꯥꯏꯟ ꯑꯥꯞ ꯇꯧꯕꯤꯌꯨ
+target-segment-first-card = ꯑꯩꯈꯣꯏꯒꯤ ꯑꯍꯥꯟꯕꯥ ꯇꯥꯔꯒꯦꯠ ꯁꯦꯒꯃꯦꯟꯇꯇꯥ ꯑꯗꯣꯝꯅꯥ ꯁꯔꯨꯛꯌꯥꯔꯤ
+target-segment-generic-card = ꯑꯗꯣꯝꯅꯥ ꯇꯥꯔꯒꯦꯠ ꯁꯦꯒꯃꯦꯟꯇ ꯑꯃꯗꯥ ꯁꯔꯨꯛꯌꯥꯔꯤ
+target-segment-first-banner = { $locale } ꯗꯥ ꯀꯃꯟ ꯈꯣꯟꯖꯦꯜꯒꯤ ꯑꯍꯥꯟꯕꯥ ꯇꯥꯔꯒꯦꯠ ꯁꯦꯒꯃꯦꯟꯇ ꯁꯦꯝꯕꯗꯥ ꯃꯇꯦꯡ ꯄꯥꯡꯕꯤꯌꯨ
+target-segment-add-voice = ꯅꯍꯥꯛꯀꯤ ꯈꯣꯟꯖꯦꯜ ꯍꯥꯞꯆꯤꯟꯂꯨ
+target-segment-learn-more = ꯍꯦꯟꯅ ꯇꯝꯃꯨ
 
 ## Contribution Nav Items
 
+contribute-voice-collection-nav-header = ꯈꯣꯟꯖꯦꯜ ꯈꯣꯝꯖꯤꯟꯕ
 
 ## Reporting
 
+report = ꯋꯥꯀꯠꯄ
+report-title = ꯋꯥꯀꯠ ꯱ ꯊꯥꯖꯤꯟꯕ
+report-ask = ꯋꯥꯍꯩ ꯑꯁꯤꯒꯥ ꯂꯣꯏꯅꯅꯥ ꯑꯗꯣꯝꯅꯥ ꯀꯔꯤ ꯈꯨꯗꯣꯡꯆꯥꯗꯕꯁꯤꯡ ꯊꯦꯡꯅꯔꯤꯕꯒꯦ?
+report-offensive-language = ꯁꯥꯎꯅꯤꯡꯍꯟꯕ ꯂꯣꯟ
 
 ## Goals
 
