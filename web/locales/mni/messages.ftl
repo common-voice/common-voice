@@ -613,9 +613,17 @@ about-playbook-how-localize-content-5 = ꯃꯇꯦꯡ ꯄꯥꯡꯅꯕꯥ ꯑꯩ�
 
 about-playbook-how-add-sentences = ꯑꯩꯅ ꯀꯔꯝꯅ ꯋꯥꯍꯩꯄꯔꯦꯡ  ꯍꯥꯞꯆꯤꯟꯒꯅꯤ ?
 about-playbook-how-add-sentences-content-1 = strong>ꯋꯥꯍꯩꯄꯔꯦꯡ ꯈꯣꯝꯖꯤꯟꯅꯕ</strong> ꯑꯁꯤ ꯄꯕ꯭ꯂꯤꯛ ꯗꯣꯃꯦꯏꯟ ꯋꯥꯍꯩꯄꯔꯦꯡꯁꯤꯡ ꯈꯣꯝꯖꯤꯟꯅꯕꯥ ꯑꯃꯁꯨꯡ ꯆꯠꯅꯍꯟꯅꯕꯒꯤ ꯈꯨꯠꯂꯥꯏ ꯑꯃꯅꯤ ꯫ ꯅꯍꯥꯛꯅꯥ <scAccountLink>ꯑꯦꯀꯥꯎꯟꯠ ꯑꯃꯥ ꯁꯦꯝꯕꯥ ꯃꯊꯧ ꯇꯥꯏ</scAccountLink>. ꯃꯗꯨꯒꯤ ꯃꯇꯨꯡꯗꯥ, ꯅꯍꯥꯛꯀꯤ ꯂꯣꯜ ꯑꯗꯨ ꯅꯍꯥꯛꯀꯤ <strong>ꯄ꯭ꯔꯣꯐꯥꯏꯜ</strong>ꯗꯥ ꯍꯥꯞꯆꯤꯜꯂꯨ ꯫ ꯅꯍꯥꯛꯅꯥ <strong>ꯍꯥꯞꯆꯤꯟꯂꯨ</strong> ꯋꯥꯍꯩꯄꯔꯦꯡꯁꯤꯡ ꯅꯠꯇ꯭ꯔꯒꯥ <strong>ꯔꯤꯚꯤꯌꯨ ꯇꯧꯕ</strong> ꯃꯃꯥꯡꯗꯥ ꯍꯥꯞꯆꯤꯟꯈꯔꯕ ꯋꯥꯍꯩꯄꯔꯦꯡꯁꯤꯡ ꯫
+about-playbook-how-add-sentences-content-2 = ꯋꯥꯍꯩꯄꯔꯦꯡꯁꯤꯡ ꯑꯁꯤ ꯀꯃꯟ ꯈꯣꯟꯖꯦꯜꯗ ꯌꯥꯎꯍꯟꯅꯕꯥ ꯃꯤꯑꯣꯏ ꯑꯅꯤꯅꯥ ꯌꯦꯡꯁꯤꯟꯕꯥ ꯑꯃꯁꯨꯡ ꯌꯥꯕꯥ ꯇꯥꯏ ꯫ ꯅꯍꯥꯛꯅꯥ ꯅꯍꯥꯛꯀꯤ ꯂꯣꯜꯒꯤ <languageGuidelinesLink>ꯃꯐꯝꯁꯤꯗꯥ</languageGuidelinesLink>ꯒꯤꯗꯃꯛ ꯒꯥꯏꯗꯂꯥꯏꯅꯁꯤꯡ ꯁꯦꯝꯃꯤ꯫ ꯁꯦꯟꯁꯅꯁꯤꯡ ꯑꯁꯤ <licenseLink>ꯄꯕ꯭ꯂꯤꯛ ꯗꯣꯃꯦꯟ</licenseLink>ꯗꯥ ꯑꯃꯁꯨꯡ ꯋꯥꯍꯩ ꯱꯵ꯗꯒꯤ ꯍꯦꯟꯅꯥ ꯀꯨꯞꯄꯥ ꯑꯣꯏꯒꯗꯕꯅꯤ ꯫ ꯅꯍꯥꯛꯅꯥ ꯑꯏꯕ ꯋꯥ ꯑꯃꯒꯤ ꯃꯄꯨꯗꯥ ꯑꯩꯈꯣꯏꯒꯤ ꯋꯥꯏꯚꯔ ꯄ꯭ꯔꯣꯁꯦꯁ</waiverLink> ꯁꯤꯖꯤꯟꯅꯗꯨꯅꯥ ꯃꯁꯤꯕꯨ <waiverLink>CC0 ꯑꯣꯏꯍꯟꯅꯕꯥ ꯍꯥꯏꯕꯥ ꯌꯥꯏ, ꯑꯃꯁꯨꯡ ꯑꯩꯈꯣꯏꯗꯥ commonvoice@mozilla.com ꯗꯥ ꯊꯥꯕꯥ ꯌꯥꯏ ꯫
+about-playbook-how-add-sentences-content-3 = ꯋꯤꯀꯤꯄꯤꯗꯤꯌꯥꯗꯒꯤ ꯊꯣꯏꯗꯣꯛꯄꯥ ꯋꯥꯍꯩꯄꯔꯦꯡꯁꯤꯡ ꯂꯤꯚꯔ ꯇꯧꯅꯕꯥ ꯅꯍꯥꯛꯅꯥ <scraperLink>ꯋꯥꯍꯩꯄꯔꯦꯡ ꯆꯤꯡꯊꯣꯛꯜꯛꯅꯕ</scraperLink> ꯁꯤꯖꯤꯟꯅꯕꯥ ꯌꯥꯒꯅꯤ ꯫
+about-playbook-how-add-sentences-content-4 = ꯆꯠꯅꯍꯟꯂꯕ ꯋꯥꯍꯩꯄꯔꯦꯡꯁꯤꯡ ꯑꯁꯤ ꯌꯨꯝꯁꯥꯀꯩꯁꯥꯗ ꯄꯨ/ꯊꯣꯔꯛꯀꯅꯤ, ꯑꯃꯁꯨꯡ ꯃꯊꯪꯒꯤ ꯊꯥꯗꯣꯛꯂꯕ  ꯃꯇꯨꯡꯗꯥ ꯐꯪꯒꯅꯤ ꯫
 
 ## How to record quality
 
+about-playbook-how-record-quality = ꯑꯋꯥꯡꯕꯥ ꯊꯥꯛꯀꯤ ꯈꯣꯟꯖꯦꯜ ꯀ꯭ꯂꯤꯞ ꯑꯃꯥ ꯃꯇꯧ ꯀꯔꯝꯅꯥ ꯔꯦꯀꯣꯔꯗ ꯇꯧꯒꯅꯤ?
+about-playbook-how-record-content-1 = ꯅꯍꯥꯛꯀꯤ ꯅꯣꯔꯃꯦꯜ ꯑꯣꯏꯕꯥ ꯈꯣꯟꯖꯦꯜꯗꯥ ꯋꯥ ꯉꯥꯡꯕꯤꯌꯨ! ꯑꯗꯣꯝꯅꯥ ꯋꯥ ꯉꯥꯡꯕꯒꯤ ꯃꯑꯣꯡ ꯑꯁꯤ ꯃꯐꯝ ꯑꯁꯤꯗꯥ ꯇꯔꯥꯝꯅꯥ ꯑꯣꯛꯆꯔꯤ - ꯑꯩꯈꯣꯏꯅꯥ ꯑꯗꯣꯝꯒꯤ ꯑꯦꯛꯁꯦꯟꯠ ꯑꯗꯨ ꯃꯗꯨꯒꯨꯝꯅꯥ ꯄꯥꯝꯃꯤ, ꯑꯃꯁꯨꯡ ꯑꯗꯣꯝꯒꯤ ꯃꯍꯧꯁꯥꯒꯤ ꯚꯣꯜꯌꯨꯝ, ꯁ꯭ꯇꯥꯏꯜ ꯑꯃꯁꯨꯡ ꯏꯟꯇꯣꯅꯦꯁꯟ ꯑꯗꯨ ꯑꯩꯈꯣꯏꯅꯥ ꯄꯥꯝꯃꯤ ꯫
+about-playbook-how-record-content-2 = ꯃꯅꯤꯡꯗ ꯌꯥꯝꯅ ꯅꯤꯜ ꯈꯣꯡꯕꯗꯒꯤ ꯂꯥꯞꯅꯥ ꯂꯩꯌꯨ - ꯃꯗꯨ ꯅꯍꯥꯛꯅ ꯇꯥꯕꯗꯥ ꯂꯥꯏꯕꯥ ꯑꯣꯏꯒꯗꯕꯅꯤ ꯫
+about-playbook-how-record-content-3 = ꯋꯥꯍꯩ ꯄꯔꯦꯡ ꯑꯗꯨ ꯅꯤꯡꯊꯤꯅꯥ ꯄꯥꯕꯤꯌꯨ - ꯋꯥꯍꯩꯁꯤꯡ ꯍꯣꯡꯗꯣꯛꯄꯥ, ꯍꯣꯡꯗꯣꯛꯄꯥ ꯅꯠꯇ꯭ꯔꯒꯥ ꯍꯥꯞꯆꯤꯟꯕꯥ ꯀꯥꯎꯔꯣꯏꯗꯕꯅꯤ ꯫
+about-playbook-how-record-content-4 = ꯅꯍꯥꯛꯅꯥ ꯋꯥ ꯉꯥꯡꯕꯥ ꯍꯧꯗ꯭ꯔꯤꯉꯩꯗꯥ ꯐꯝꯄꯥꯛ ꯑꯗꯨ ꯔꯦꯀꯣꯔꯗ ꯇꯧꯔꯤꯕ꯭ꯔꯥ ꯍꯥꯏꯕꯗꯨ ꯌꯦꯡꯎ, ꯑꯃꯁꯨꯡ ꯅꯍꯥꯛꯅꯥ ꯂꯣꯏꯁꯤꯜꯂꯕꯥ ꯃꯇꯨꯡꯗꯥ ꯈꯛꯇꯃꯛ ꯊꯤꯡꯖꯤꯜꯂꯨ ꯫
 
 ## How to grow language
 
