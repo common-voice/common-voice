@@ -1037,6 +1037,24 @@ which-goal-type = ꯑꯗꯣꯝꯅꯥ ꯋꯥ ꯉꯥꯡꯕꯥ ꯄꯥꯝꯕꯤꯕ�
 receiving-emails-info =
     ꯍꯧꯖꯤꯛ ꯑꯗꯣꯝꯅꯥ ꯄꯥꯟꯗꯝ ꯀꯥꯣꯗꯅꯕꯒꯨꯝꯕꯥ ꯏꯃꯦꯜꯁꯤꯡ ꯐꯪꯅꯕꯥ ꯁꯦꯝ ꯁꯥꯔꯦ, ꯑꯩꯒꯤ...
     ꯈꯨꯃꯥꯡ ꯆꯥꯎꯁꯤꯟꯕ ꯑꯄꯗꯦꯠꯁꯤꯡ ꯑꯃꯁꯨꯡ ꯀꯃꯟ ꯈꯣꯟꯖꯦꯜꯒꯤ ꯃꯇꯥꯡꯗꯥ ꯄꯥꯎ-ꯆꯦꯁꯤꯡ ꯫
+not-receiving-emails-info =
+    ꯍꯧꯖꯤꯛ ꯅꯍꯥꯛꯅꯥ <bold>NOT</bold> ꯄꯥꯟꯗꯝ ꯀꯥꯎꯗꯅꯕꯒꯨꯝꯕꯥ ꯏꯃꯦꯜꯁꯤꯡ ꯐꯪꯅꯕꯥ ꯁꯦꯠ ꯇꯧꯔꯦ, ꯑꯩꯒꯤ...
+    ꯈꯨꯃꯥꯡ ꯆꯥꯎꯁꯤꯟꯕ ꯑꯄꯗꯦꯠꯁꯤꯡ ꯑꯃꯁꯨꯡ ꯀꯃꯟ ꯈꯣꯟꯖꯦꯜꯒꯤ ꯃꯇꯥꯡꯗꯥ ꯄꯥꯎ-ꯆꯦꯁꯤꯡ ꯫
+n-clips-pluralized =
+    { NUMBER($count) ->
+        [one] { $count } ꯀ꯭ꯂꯤꯞ
+       *[other] { $count } clips
+    }
+help-share-goal = ꯑꯩꯈꯣꯏꯗꯥ ꯈꯣꯟꯖꯦꯜ ꯍꯦꯟꯅꯥ ꯐꯪꯍꯟꯕꯗꯥ ꯃꯇꯦꯡ ꯄꯥꯡꯕꯤꯌꯨ, ꯑꯗꯣꯝꯒꯤ ꯄꯥꯟꯗꯝ ꯑꯗꯨ ꯁꯦꯌꯔ ꯇꯧꯕꯤꯌꯨ꯫
+confirm-goal = ꯄꯥꯟꯗꯝ ꯀꯅꯐꯥꯔꯝ ꯇꯧꯕꯥ
+goal-interval-weekly = ꯆꯌꯣꯜꯒꯤ
+# $type is one of share-goal-type-*
+share-n-daily-contribution-goal = { $count } ꯀ꯭ꯂꯤꯞ ꯅꯨꯃꯤꯠ ꯈꯨꯗꯤꯡꯒꯤ ꯄꯥꯟꯗꯝ ꯑꯗꯨ { $type } ꯒꯤꯗꯃꯛ ꯁꯦꯌꯔ ꯇꯧꯕꯤꯌꯨ ꯫
+# $type is one of share-goal-type-*
+share-n-weekly-contribution-goal = { $count } ꯀ꯭ꯂꯤꯞ ꯅꯨꯃꯤꯠ ꯈꯨꯗꯤꯡꯒꯤ ꯄꯥꯟꯗꯝ ꯑꯗꯨ { $type } ꯒꯤꯗꯃꯛ ꯁꯦꯌꯔ ꯇꯧꯕꯤꯌꯨ ꯫
+share-goal-type-speak = ꯋꯥ ꯉꯥꯡꯕꯥ
+share-goal-type-listen = ꯇꯥꯔꯤ
+share-goal-type-both = ꯋꯥ ꯉꯥꯡꯕꯥ ꯑꯃꯁꯨꯡ ꯇꯥꯕꯥ
 
 ## Profile Delete
 
