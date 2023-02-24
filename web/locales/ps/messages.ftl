@@ -1301,12 +1301,14 @@ sc-review-form-prompt =
     .message = بیاکتل شوي جملې ندي سپارل شوي، ایا تاسو ډاډه یاست؟
 sc-review-form-button-reject = رد کړه
 sc-review-form-button-skip = پرېږدئ
+sc-review-form-button-approve = تصویب کړه
 sc-review-form-button-submit =
     .submitText = بیاکتنه پای ته ورسوي
 sc-review-link = بیاکتنه
 
 ## SETTINGS
 
+sc-settings-title = امستنې
 sc-settings-ui-language = د انٹرفیس ژبه
 sc-settings-reset-skipped = پریښودل شوي جملې بیا تنظیم کړئ
 sc-settings-skipped-decription = تاسو مخکې د بیاکتنې پر مهال جملې پریښودې. د پریښودو جملو بیا تنظیم کول به ټول پریښودل شوي جملې بیا وښیې. دا عمل د ټولو ژبو لپاره یو شان دی.
