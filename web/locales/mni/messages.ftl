@@ -859,9 +859,30 @@ language-section-in-progress = ꯈꯨꯃꯥꯡ ꯆꯥꯎꯁꯤꯟꯂꯤ
 language-section-in-progress-new-description = ꯍꯥꯏꯔꯤꯕꯥ ꯂꯣꯜꯁꯤꯡ ꯑꯁꯤ ꯍꯧꯖꯤꯛ ꯀꯝꯝꯌꯨꯅꯤꯇꯤ ꯗꯤꯕꯦꯂꯄꯃꯦꯟꯠꯀꯤ ꯃꯈꯥꯗꯥ ꯂꯩꯔꯤ ꯫ <localizationGlossaryLink>ꯋꯦꯕꯁꯥꯏꯠ ꯂꯣꯀꯦꯂꯥꯏꯖꯦꯁꯟ</localizationGlossaryLink> ꯑꯃꯁꯨꯡ <sentenceCollectionGlossaryLink>ꯁꯦꯟꯇꯦꯟꯁ ꯀꯂꯦꯛꯁꯟ</sentenceCollectionGlossaryLink> ꯑꯁꯤ ꯍꯧꯗꯣꯛꯅꯕꯥ ꯃꯊꯧ ꯇꯥꯏ ꯫
 language-section-launched = ꯍꯧꯗꯣꯀꯈ꯭ꯔꯦ
 language-section-launched-description = ꯍꯧꯗꯣꯛꯈ꯭ꯔꯕꯥ ꯂꯣꯜꯁꯤꯡ ꯑꯁꯤꯒꯤꯗꯃꯛ ꯋꯦꯕꯁꯥꯏꯠ ꯑꯁꯤ ꯃꯥꯏ ꯄꯥꯛꯅꯥ <localizationGlossaryLink>localized</localizationGlossaryLink> ꯇꯧꯈ꯭ꯔꯦ, ꯑꯃꯁꯨꯡ ꯍꯧꯖꯤꯛ ꯆꯠꯊꯔꯤꯕꯥ <speakLink>ꯋꯥ ꯉꯥꯡꯕ</speakLink> ꯑꯃꯁꯨꯡ <listenLink>ꯇꯥꯕꯥ</listenLink ꯇꯧꯕꯥ ꯌꯥꯅꯕꯥ <sentenceCollectionGlossaryLink>ꯋꯥꯍꯩꯄꯔꯦꯡꯁꯤꯡ ꯈꯣꯃꯖꯤꯜꯂꯕꯥ</sentenceCollectionGlossaryLink> ꯃꯇꯤꯛ ꯆꯥꯅꯥ ꯂꯩꯔꯦ > ꯁꯔꯨꯛꯌꯥꯈꯤꯕꯁꯤꯡ ꯫
+languages-show-more = ꯍꯦꯟꯅ ꯌꯦꯡꯉꯨ
+languages-show-less = ꯌꯥꯝꯗꯅ ꯌꯦꯡꯕꯤꯌꯨ
+language-meter-in-progress = ꯕꯨꯃꯥꯡ ꯆꯥꯎꯁꯤꯟꯂꯤ
+language-total-progress = ꯑꯄꯨꯟꯕ
+language-search-input =
+    .placeholder = ꯊꯤꯕꯥ
+language-speakers = ꯋꯥꯉꯥꯡꯂꯣꯏꯁꯤꯡ
+localized = ꯂꯣꯀꯦꯂꯥꯏꯖ
+sentences = ꯋꯥꯍꯩꯄꯔꯦꯡꯁꯤꯡ
+language-validation-hours = ꯄꯨꯡꯁꯤꯡ
+language-validation-progress = ꯑꯆꯨꯝ ꯑꯔꯥꯟ ꯌꯦꯡꯕꯒꯤ ꯈꯨꯃꯥꯡꯆꯥꯎꯁꯤꯟꯕ
 
 ## Contribution
 
+action-click = ꯅꯝꯕ
+action-tap = ꯊꯦꯡꯕ
+contribute = ꯁꯔꯨꯛꯌꯥꯕ
+listen = ꯃꯨꯟꯅ ꯇꯥꯎ
+skip = ꯆꯣꯡꯉꯨ
+shortcuts = ꯑꯇꯦꯟꯕꯁꯤꯡ
+clips-with-count-pluralized = <bold>{ $count }</bold> ꯀ꯭ꯂꯤꯞ  <bold>{ $count }</bold> ꯀ꯭ꯂꯤꯞꯁꯤꯡ
+goal-help-recording = ꯑꯗꯣꯝꯅꯥ ꯀꯃꯟ ꯈꯣꯟꯖꯦꯜꯄꯨ ꯑꯩꯈꯣꯏꯒꯤ ꯅꯨꯃꯤꯠ ꯈꯨꯗꯤꯡꯒꯤ { $goalValue } ꯔꯦꯀꯣꯔꯗꯤꯡꯒꯤ ꯄꯥꯟꯗꯝ ꯑꯗꯨꯒꯤ <goalPercentage></goalPercentage> ꯌꯧꯍꯟꯕꯗꯥ ꯃꯇꯦꯡ ꯄꯥꯡꯈ꯭ꯔꯦ!
+goal-help-validation = ꯑꯗꯣꯝꯅꯥ ꯀꯃꯟ ꯈꯣꯟꯖꯦꯜꯕꯨ ꯑꯩꯈꯣꯌꯒꯤ ꯅꯨꯃꯤꯠ ꯈꯨꯗꯤꯡꯒꯤ { $goalValue } ꯚꯦꯂꯤꯗꯦꯁꯟꯒꯤ ꯄꯥꯟꯗꯝ ꯑꯗꯨꯒꯤ <goalPercentage></goalPercentage> ꯌꯧꯍꯟꯕꯗꯥ ꯃꯇꯦꯡ ꯄꯥꯡꯈ꯭ꯔꯦ!
+contribute-more = { $count } ꯍꯦꯟꯅꯥ ꯇꯧꯅꯕꯥ ꯁꯦꯝ ꯁꯥꯔꯦ?
 
 ## Contribution Nav Items
 
