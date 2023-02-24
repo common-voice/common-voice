@@ -1276,8 +1276,48 @@ sc-confirm-uploading = جملې پورته کیږي. دا کولی شي څو د�
 
 ## LANGUAGE INFO
 
+# Variables:
+#   $totalSentences (Number) - Number of sentences uploaded in total for this language
+sc-lang-info-total =
+    { $totalSentences ->
+        [0] { $totalSentences } ټول جملې.
+        [one] 1 ټوله جمله.
+       *[other] { $totalSentences } ټول جملې.
+    }
+# Variables:
+#   $totalInReview (Number) - Number of sentences currently in the review state for this language
+sc-lang-info-in-review =
+    { $totalInReview ->
+        [0] په بیاکتنه کې هیڅ جملې نشته.
+        [one] 1 جمله په بیاکتنه کې.
+       *[other] { $totalInReview } جملې په بیاکتنه کې.
+    }
+# Variables:
+#   $unreviewedSentencesByYou (Number) - Number of sentences the user can still review
+sc-lang-info-left-for-you =
+    { $unreviewedSentencesByYou ->
+        [0] ستاسو د بیاکتنې لپاره هیڅ جمله پاتې نه ده.
+        [one] 1 جمله ستاسو د بیاکتنې لپاره پاتې ده.
+       *[other] { $unreviewedSentencesByYou } جملې ستاسو د بیاکتنې لپاره پاتې دي.
+    }
 sc-lang-info-review-now = <reviewLink>اوس بیا کتنه وکړئ!</reviewLink>
 sc-lang-info-add-more = <addLink>اوس نورې جملې اضافه کړئ!</addLink>
+# Variables:
+#   $validatedSentences (Number) - Number of sentences which have been approved for this language
+sc-lang-info-validated =
+    { $validatedSentences ->
+        [0] هیڅ تایید شوي جملې نشته.
+        [one] 1 تایید شوې جمله.
+       *[other] { $validatedSentences } تایید شوي جملې.
+    }
+# Variables:
+#   $rejectedSentences (Number) - Number of sentences which have been rejected for this language
+sc-lang-info-rejected =
+    { $rejectedSentences ->
+        [0] هیڅ جملې رد شوې نه دي.
+        [one] 1 رد شوی جمله.
+       *[other] { $rejectedSentences } رد شوې جملې.
+    }
 
 ## LOGIN
 
@@ -1300,11 +1340,23 @@ sc-review-select-language = مهرباني وکړئ د جملو بیاکتنې �
 sc-review-no-sentences = د بیاکتنې لپاره هیڅ جملې نشته. <addLink>اوس نورې جملې اضافه کړئ!</addLink>
 sc-review-form-prompt =
     .message = بیاکتل شوي جملې ندي سپارل شوي، ایا تاسو ډاډه یاست؟
+# Variables:
+#   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
+sc-review-form-source = سرچینه: { $source }
 sc-review-form-button-reject = رد کړه
 sc-review-form-button-skip = پرېږدئ
 sc-review-form-button-approve = تصویب کړه
 sc-review-form-button-submit =
     .submitText = بیاکتنه پای ته ورسوي
+# Variables:
+#   $sentences (Number) - Number of sentences the user has reviewed in this session
+sc-review-form-reviewed-message =
+    { $sentences ->
+        [0] هیڅ جمله بیاکتنه نه ده شوې.
+        [one] 1 جمله بیاکتنه شوې. له تاسو مننه!
+       *[other] { $sentences } جملې بیاکتنه شوې. له تاسو مننه!
+    }
+sc-review-form-review-failure = بیاکتنه خوندي نه شوه. مهرباني وکړئ وروسته بیا هڅه وکړئ.
 sc-review-link = بیاکتنه
 
 ## SETTINGS
@@ -1328,3 +1380,6 @@ localization-select =
 # PARTNERSHIPS PAGE
 partnerships-header = شراکتونه
 partnerships-header-text = د عام غږ رامینځته کولو لپاره ډیر څه اړتیا لري! موږ دا یوازې نه کوو. غواړئ له موږ سره ملګرتیا وکړئ؟ موږ خوښ یو چې له تاسو څخه واورو.
+partnerships-get-in-touch = اړیکه ونیسئ
+partnerships-become-a-partner = د عام غږ همکار اوسئ
+partnerships-community-header = ټولنه، نوښتګر او مدني ټولنه
