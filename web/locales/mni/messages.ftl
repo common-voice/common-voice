@@ -1239,6 +1239,14 @@ contribution-misreadings-example-8-title = ꯕꯝꯕꯂꯕꯤ ꯑꯗꯨ ꯈꯣ�
 contribution-misreadings-example-8-explanation = [ꯃꯁꯤꯒꯥ ꯃꯥꯟꯅꯗꯕꯥ ꯀꯟꯇꯦꯟꯇ]
 contribution-varying-pronunciations-title = ꯇꯣꯉꯥꯟ ꯇꯣꯉꯥꯟꯕꯥ ꯈꯣꯟꯂꯩꯁꯤꯡ
 contribution-varying-pronunciations-description = ꯄꯥꯔꯤꯕꯥ ꯃꯤ ꯑꯗꯨꯅꯥ ꯋꯥꯍꯩ ꯑꯃꯥ ꯂꯥꯟꯅꯥ ꯂꯧꯁꯤꯟꯈꯤꯕꯥ, ꯁ꯭ꯠꯔꯦꯁ ꯑꯗꯨ ꯑꯔꯥꯅꯕꯥ ꯃꯐꯝꯗꯥ ꯊꯝꯈꯤꯕꯥ ꯅꯠꯇ꯭ꯔꯒꯥ ꯋꯥꯍꯪ ꯍꯪꯕꯒꯤ ꯃꯁꯛ ꯑꯃꯥ ꯌꯦꯡꯂꯃꯗꯕꯥ ꯍꯥꯏꯅꯥ ꯂꯧꯗꯨꯅꯥ ꯀ꯭ꯂꯤꯞ ꯑꯃꯥ ꯔꯤꯖꯦꯛꯇ ꯇꯧꯗ꯭ꯔꯤꯉꯩꯗꯥ ꯆꯦꯛꯁꯤꯅꯒꯗꯕꯅꯤ ꯫ ꯃꯥꯂꯦꯝ ꯁꯤꯟꯕꯥ ꯊꯨꯡꯅꯥ ꯃꯈꯜ ꯀꯌꯥꯒꯤ ꯈꯣꯟꯂꯩ ꯁꯤꯖꯤꯟꯅꯔꯤ, ꯃꯗꯨꯒꯤ ꯃꯅꯨꯡꯗꯥ ꯈꯔꯗꯤ ꯅꯍꯥꯛꯀꯤ ꯂꯣꯀꯦꯜ ꯀꯝꯝꯌꯨꯅꯤꯇꯤꯗꯥ ꯇꯥꯈꯤꯗꯕꯥ ꯌꯥꯏ ꯫ ꯑꯗꯣꯝꯗꯒꯤ ꯇꯣꯉꯥꯟꯅꯥ ꯋꯥꯔꯤ ꯁꯥꯕꯥ ꯌꯥꯕꯥ ꯃꯤꯑꯣꯏꯁꯤꯡꯒꯤꯗꯃꯛ ꯊꯥꯒꯠꯄꯥ ꯐꯣꯡꯗꯣꯛꯆꯔꯤ ꯫
+contribution-varying-pronunciations-description-extended = ꯑꯃꯔꯣꯝꯗꯥ, ꯀꯔꯤꯒꯨꯝꯕꯥ ꯅꯍꯥꯛꯅꯥ ꯄꯥꯔꯤꯕꯥ ꯃꯤ ꯑꯗꯨꯅꯥ ꯋꯥꯍꯩ ꯑꯁꯤ ꯃꯃꯥꯡꯗꯥ ꯀꯩꯗꯧꯉꯩꯗꯁꯨ ꯊꯦꯡꯅꯈꯤꯗ꯭ꯔꯤꯕꯅꯤ ꯍꯥꯏꯅꯥ ꯈꯜꯂꯕꯗꯤ, ꯑꯃꯁꯨꯡ ꯋꯥꯍꯩ ꯑꯁꯤ ꯐꯣꯡꯗꯣꯛꯄꯗꯥ ꯑꯔꯥꯟꯕꯥ ꯋꯥꯐꯝ ꯑꯃꯥ ꯈꯛꯇꯃꯛ ꯊꯝꯂꯕꯗꯤ, ꯆꯥꯟꯕꯤꯗꯨꯅꯥ ꯌꯥꯕꯤꯒꯅꯨ ꯫ ꯀꯔꯤꯒꯨꯝꯕꯥ ꯅꯍꯥꯛꯅꯥ ꯁꯣꯏꯗꯅꯥ ꯈꯪꯂꯕꯗꯤ, ꯁ꯭ꯀꯤꯞ ꯕꯇꯟ ꯑꯗꯨ ꯁꯤꯖꯤꯟꯅꯧ ꯫
+contribution-varying-pronunciations-example-1-title = ꯃꯍꯥꯛꯀꯤ ꯃꯀꯣꯛꯊꯣꯡꯕꯗꯥ ꯃꯍꯥꯛꯅꯥ ꯕꯦꯔꯦꯠ ꯑꯃꯥ ꯊꯝꯈꯤ ꯫
+contribution-varying-pronunciations-example-1-explanation = [‘ꯕꯦꯔꯦꯠ’ ꯑꯁꯤ ꯑꯍꯥꯟꯕꯥ ꯈꯣꯜꯍꯥꯏꯗꯣꯛ (ꯌꯨ.ꯀꯦ.) ꯅꯠꯇ꯭ꯔꯒꯥ ꯑꯅꯤꯁꯨꯕꯥ (ꯌꯨ.ꯑꯦꯁ.)ꯗꯥ ꯁ꯭ꯠꯔꯦꯁ ꯂꯩꯔꯕꯁꯨ ꯑꯣ.ꯀꯦ.]
+contribution-varying-pronunciations-example-2-title = ꯃꯍꯥꯛꯀꯤ ꯃꯈꯨꯠ ꯑꯗꯨ ꯋꯥꯡꯈꯠꯂꯛꯈꯤ ꯫
+contribution-varying-pronunciations-example-2-explanation = [ꯏꯪꯂꯤꯁꯗꯇ ‘ꯔꯦꯏꯖ’ ꯍꯥꯏꯕꯁꯤ ꯃꯇꯝ ꯄꯨꯝꯕꯗꯥ ꯈꯣꯜꯍꯥꯏꯗꯣꯛ ꯑꯃꯥ ꯑꯣꯏꯅꯥ ꯐꯣꯡꯗꯣꯛꯏ, ꯑꯅꯤ ꯅꯠꯇꯦ]
+contribution-background-noise-title = ꯃꯅꯤꯡꯒꯤ ꯅꯤꯜ ꯈꯣꯡꯕ
+contribution-background-noise-description = ꯑꯩꯈꯣꯏꯅꯥ ꯃꯦꯁꯤꯟ ꯇꯝꯕ ꯑꯦꯂꯒꯣꯔꯤꯊꯃꯁꯤꯡ ꯑꯁꯤꯅꯥ ꯃꯈꯜ ꯀꯌꯥꯒꯤ ꯕꯦꯀꯒ꯭ꯔꯥꯎꯟꯗꯒꯤ ꯅꯤꯜ ꯈꯣꯡꯕ ꯍꯦꯟꯗꯜ ꯇꯧꯕꯥ ꯉꯝꯕꯥ ꯄꯥꯝꯃꯤ, ꯑꯃꯁꯨꯡ ꯌꯥꯝꯅꯥ  ꯍꯧꯕ ꯅꯤꯜ ꯈꯣꯡꯕ ꯐꯥꯎꯕꯥ ꯌꯥꯕꯥ ꯌꯥꯏ, ꯃꯈꯣꯏꯅꯥ ꯅꯍꯥꯀꯄꯨ ꯋꯥꯍꯩ ꯄꯨꯝꯅꯃꯛ ꯇꯥꯕꯥ ꯉꯝꯍꯟꯗꯕꯥ ꯌꯥꯏ ꯫ ꯊꯨꯅꯥ ꯌꯥꯡꯅꯥ ꯕꯦꯀꯒ꯭ꯔꯥꯎꯟꯗ ꯃ꯭ꯌꯨꯖꯤꯛ ꯑꯁꯤ ꯑꯣ.ꯀꯦ. ꯋꯥꯍꯩ ꯈꯨꯗꯤꯡꯃꯛ ꯇꯥꯕꯥ ꯉꯝꯍꯟꯗꯕꯥ ꯃꯑꯣꯡꯗꯥ ꯃ꯭ꯌꯨꯖꯤꯛ ꯌꯥꯝꯅꯥ ꯋꯥꯅꯥ ꯉꯥꯡꯏ ꯫
+contribution-background-noise-description-extended = ꯀꯔꯤꯒꯨꯝꯕꯥ ꯔꯦꯀꯣꯔꯗꯤꯡ ꯑꯗꯨ ꯊꯨꯒꯥꯏꯔꯕꯗꯤ, ꯅꯠꯇ꯭ꯔꯒꯥ ꯀ꯭ꯔꯦꯛ ꯇꯧꯔꯕꯗꯤ, ꯇꯦꯛꯁꯠ ꯑꯗꯨꯒꯤ ꯃꯄꯨꯡꯐꯥꯕꯥ ꯁꯔꯨꯛ ꯑꯗꯨ ꯍꯧꯖꯤꯛꯁꯨ ꯇꯥꯕꯥ ꯉꯝꯗ꯭ꯔꯕꯗꯤ ꯌꯥꯍꯟꯒꯅꯨ ꯫
 
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
