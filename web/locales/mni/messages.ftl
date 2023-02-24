@@ -691,6 +691,7 @@ data-download-button = ꯀꯃꯟ ꯈꯣꯟꯖꯦꯜ ꯗꯦꯇꯥ ꯆꯤꯡꯊꯧ
 data-download-yes = ꯍꯣꯏ
 data-download-deny = ꯅꯠꯇꯦ
 data-download-license = ꯑꯌꯥꯕ:<licenseLink>ꯁꯤꯁꯤ-꯰</licenseLink>
+data-download-modal = ꯅꯍꯥꯛꯅꯥ <size>{ $size }ꯖꯤꯕꯤ</size>ꯒꯤ ꯆꯤꯡꯊꯕ ꯑꯃꯥ ꯍꯧꯗꯣꯛꯀꯗꯧꯔꯤꯕꯅꯤ, ꯃꯈꯥ ꯆꯠꯊꯔꯤꯕꯔꯥ?
 data-other-goto = { $name }ꯗ ꯆꯠꯂꯨ
 data-other-download = ꯗꯥꯇꯥ ꯆꯤꯡꯊꯧ
 dataset-date = ꯆꯩꯆꯠ
