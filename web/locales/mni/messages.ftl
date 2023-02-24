@@ -883,6 +883,18 @@ clips-with-count-pluralized = <bold>{ $count }</bold> ꯀ꯭ꯂꯤꯞ  <bold>{ $
 goal-help-recording = ꯑꯗꯣꯝꯅꯥ ꯀꯃꯟ ꯈꯣꯟꯖꯦꯜꯄꯨ ꯑꯩꯈꯣꯏꯒꯤ ꯅꯨꯃꯤꯠ ꯈꯨꯗꯤꯡꯒꯤ { $goalValue } ꯔꯦꯀꯣꯔꯗꯤꯡꯒꯤ ꯄꯥꯟꯗꯝ ꯑꯗꯨꯒꯤ <goalPercentage></goalPercentage> ꯌꯧꯍꯟꯕꯗꯥ ꯃꯇꯦꯡ ꯄꯥꯡꯈ꯭ꯔꯦ!
 goal-help-validation = ꯑꯗꯣꯝꯅꯥ ꯀꯃꯟ ꯈꯣꯟꯖꯦꯜꯕꯨ ꯑꯩꯈꯣꯌꯒꯤ ꯅꯨꯃꯤꯠ ꯈꯨꯗꯤꯡꯒꯤ { $goalValue } ꯚꯦꯂꯤꯗꯦꯁꯟꯒꯤ ꯄꯥꯟꯗꯝ ꯑꯗꯨꯒꯤ <goalPercentage></goalPercentage> ꯌꯧꯍꯟꯕꯗꯥ ꯃꯇꯦꯡ ꯄꯥꯡꯈ꯭ꯔꯦ!
 contribute-more = { $count } ꯍꯦꯟꯅꯥ ꯇꯧꯅꯕꯥ ꯁꯦꯝ ꯁꯥꯔꯦ?
+record-cta = ꯔꯦꯀꯣꯔꯗꯤꯡ ꯍꯧꯔꯣ
+record-platform-not-supported = ꯑꯩꯈꯣꯏꯅꯥ ꯅꯨꯡꯉꯥꯏꯇꯕꯥ ꯐꯥꯎꯏ, ꯑꯗꯣꯝꯒꯤ ꯄ꯭ꯂꯦꯠꯐꯣꯔꯝ ꯑꯁꯤ ꯍꯧꯖꯤꯛ ꯉꯥꯛꯂꯧ ꯇꯧꯗ꯭ꯔꯤ꯫
+record-platform-not-supported-desktop = ꯗꯦꯁ꯭ꯀꯇꯣꯞ ꯗꯤꯚꯥꯏꯁꯁꯤꯡꯗꯥ ꯅꯍꯥꯛꯅꯥ ꯆꯤꯡꯊꯗꯨꯅ ꯁꯔꯨꯛꯌꯥꯕ ꯌꯥꯏ...
+record-platform-not-supported-ios-non-safari = ꯑꯥꯏ.ꯑꯣ.ꯑꯦꯁ.ꯇꯥ ꯆꯥꯟꯕꯤꯗꯨꯅꯥ ꯔꯦꯀꯣꯔꯗ ꯇꯧꯕꯥ ꯌꯥꯅꯕꯥ ꯁꯥꯐꯥꯔꯤꯒꯥ ꯂꯣꯏꯅꯅꯥ ꯃꯈꯥ ꯆꯠꯊꯕꯤꯌꯨ...
+record-must-allow-microphone = ꯅꯍꯥꯛꯅꯥ ꯃꯥꯏꯛꯔꯣꯐꯣꯟ ꯑꯦꯛꯁꯦꯁ ꯇꯧꯕꯥ ꯌꯥꯍꯟꯒꯗꯕꯅꯤ ꯫
+record-no-mic-found = ꯃꯥꯏꯛꯔꯣꯐꯣꯟ ꯑꯃꯠꯇꯥ ꯐꯪꯈꯤꯗꯦ ꯫
+record-error-too-short = ꯔꯦꯀꯣꯔꯗꯤꯡ ꯑꯗꯨ ꯌꯥꯝꯅꯥ ꯇꯦꯟꯂꯤ ꯫
+record-error-too-long = ꯔꯦꯀꯣꯔꯗꯤꯡ ꯑꯗꯨ ꯌꯥꯝꯅꯥ ꯁꯥꯡꯏ ꯫
+record-error-too-quiet = ꯔꯦꯀꯣꯔꯗꯤꯡ ꯑꯗꯨ ꯌꯥꯝꯅꯥ ꯇꯨꯃꯤꯟꯅꯥ ꯂꯩ ꯫
+record-cancel = ꯑꯃꯨꯛ ꯍꯟꯅꯥ ꯔꯦꯀꯣꯔꯗ ꯇꯧꯕꯥ ꯇꯣꯛꯄ
+record-instruction = { $actionType }<recordIcon></recordIcon> ꯃꯗꯨꯒꯤ ꯃꯇꯨꯡꯗꯥ ꯋꯥꯍꯩ ꯑꯗꯨ ꯍꯧꯅ ꯄꯥꯕꯤꯌꯨ꯫
+record-stop-instruction = { $actionType }<stopIcon></stopIcon> ꯇꯧꯕꯥ ꯃꯇꯝꯗꯥ
 
 ## Contribution Nav Items
 
