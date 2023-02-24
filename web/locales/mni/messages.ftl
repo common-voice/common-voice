@@ -1146,9 +1146,21 @@ demo-listen-subtitle = ꯁꯔꯨꯛꯌꯥꯅꯕ ꯁꯦꯝ ꯁꯥꯔꯦꯕꯔꯥ?
 ## Demo Dashboard
 
 demo-dashboard-card-header = ꯄꯔꯁꯣꯅꯦꯜ ꯗꯦꯁꯕꯣꯔꯗꯁꯤꯡꯅꯥ ꯑꯗꯣꯝꯕꯨ ꯃꯤꯑꯣꯏ ꯑꯃꯒꯤ ꯑꯃꯁꯨꯡ ꯈꯨꯟꯅꯥꯏꯒꯤ ꯈꯨꯃꯥꯡ ꯆꯥꯎꯁꯤꯜꯂꯛꯄꯒꯤ ꯃꯇꯥꯡꯗꯥ ꯈꯪꯍꯜꯂꯤ ꯫
+demo-dashboard-card-body = ꯀꯠꯊꯣꯛꯂꯕ ꯈꯣꯟꯖꯦꯜ ꯀ꯭ꯂꯤꯞ ꯈꯨꯗꯤꯡꯃꯛꯀꯤ, ꯑꯃꯁꯨꯡ ꯚꯦꯂꯤꯗꯦꯠ ꯇꯧꯔꯕꯥ ꯑꯣꯗꯤꯑꯣ ꯀ꯭ꯂꯤꯞ ꯈꯨꯗꯤꯡꯃꯛꯀꯤ, ꯅꯍꯥꯛꯀꯤ ꯑꯦꯀꯥꯎꯟꯇ ꯗꯦꯁꯕꯣꯔꯗꯁꯤꯡ ꯑꯁꯤ ꯅꯍꯥꯛꯅꯥꯁꯔꯨꯛꯌꯥꯔꯤꯕꯥ ꯂꯣꯜ ꯈꯨꯗꯤꯡꯃꯛꯇꯥ ꯅꯍꯥꯛꯀꯤ ꯈ꯭ꯋꯥꯏꯗꯒꯤ ꯅꯧꯕꯥ ꯈꯨꯃꯥꯡ ꯆꯥꯎꯁꯤꯟꯕ ꯑꯗꯨ ꯌꯦꯡꯁꯤꯟꯅꯕꯥ ꯑꯄꯗꯦꯠ ꯇꯧꯏ ꯫ ꯍꯣꯏ, ꯅꯍꯥꯛꯅꯥ ꯑꯃꯗꯒꯤ ꯍꯦꯟꯅꯥ ꯁꯔꯨꯛꯌꯥꯕ ꯌꯥꯏ!<br/><br/> ꯅꯍꯥꯛꯀꯤ ꯁ꯭ꯇꯦꯠꯁꯤꯡ ꯇ꯭ꯔꯦꯛ ꯇꯧꯅꯕꯥ, ꯀꯝꯌꯨꯅꯤꯇꯤꯗꯥ ꯂꯩꯔꯤꯕꯥ ꯑꯇꯣꯞꯄꯁꯤꯡꯒꯥ ꯂꯣꯏꯅꯅꯥ ꯅꯍꯥꯛꯅꯥ ꯀꯔꯝꯅꯥ ꯇꯧꯔꯤꯕꯒꯦ ꯍꯥꯏꯕꯗꯨ ꯌꯦꯡꯅꯕꯥ, ꯑꯃꯁꯨꯡ ꯅꯨꯃꯤꯠ ꯈꯨꯗꯤꯡꯒꯤ ꯅꯠꯇ꯭ꯔꯒꯥ ꯅꯨꯃꯤꯠ ꯈꯨꯗꯤꯡꯒꯤ ꯁꯥꯔꯨꯛꯌꯥꯕꯒꯤ ꯄꯥꯟꯗꯝꯁꯤꯡ ꯊꯝꯅꯕꯥ ꯗꯦꯁꯕꯣꯔꯗꯁꯤꯡ ꯁꯤꯖꯤꯟꯅꯧ ꯫
 
 ## Validation criteria
 
+contribution-criteria-nav = ꯃꯊꯧ ꯇꯥꯕ
+contribution-criteria-link = ꯁꯔꯨꯛꯌꯥꯕꯒꯤ ꯃꯊꯧ ꯇꯥꯕꯗꯨ  ꯈꯪꯖꯤꯟꯕꯥ
+contribution-criteria-page-title = ꯁꯔꯨꯛꯌꯥꯅꯕ ꯃꯊꯧ ꯇꯥꯕ
+contribution-criteria-page-description = ꯈꯣꯟꯖꯦꯜ ꯀ꯭ꯂꯤꯞꯁꯤꯡ ꯇꯥꯕꯥ ꯃꯇꯝꯗꯥ ꯀꯔꯤ ꯌꯦꯡꯒꯗꯒꯦ ꯍꯥꯏꯕꯗꯨ ꯈꯪꯕꯤꯌꯨ ꯑꯃꯁꯨꯡ ꯅꯍꯥꯛꯀꯤ ꯈꯣꯟꯖꯦꯜ ꯔꯦꯀꯣꯔꯗꯤꯡꯁꯤꯡꯁꯨ ꯍꯦꯟꯅꯥ ꯏꯅꯥꯠ ꯈꯨꯜꯕ ꯑꯣꯏꯍꯟꯕꯗꯥ ꯃꯇꯦꯡ ꯄꯥꯡꯕꯤꯌꯨ!
+contribution-for-example = ꯈꯨꯗꯝ ꯑꯣꯏꯅ
+contribution-misreadings-title = ꯂꯥꯟꯅ-ꯄꯥꯈꯤꯕꯁꯤꯡ
+contribution-misreadings-description = ꯇꯥꯕꯥ ꯃꯇꯝꯗꯥ, ꯔꯦꯀꯣꯔꯗ ꯇꯧꯔꯕꯥ ꯑꯗꯨ ꯇꯁꯦꯡꯅꯥ ꯏꯔꯝꯕꯥ ꯑꯗꯨꯅꯤ ꯍꯥꯏꯕꯁꯤ ꯌꯥꯝꯅꯥ ꯆꯦꯀꯁꯤꯟꯅꯥ ꯌꯦꯡꯁꯤꯟꯕꯤꯌꯨ; ꯀꯔꯤꯒꯨꯝꯕꯥ ꯑꯄꯤꯛꯄꯥ ꯑꯁꯣꯏꯕꯥ ꯐꯥꯎꯕꯥ ꯂꯩꯔꯕꯗꯤ ꯌꯥꯍꯟꯒꯅꯨ ꯫ <br />ꯌꯥꯝꯅꯥ ꯀꯃꯟ ꯑꯣꯏꯕꯥ ꯑꯁꯣꯏꯕꯁꯤꯡꯒꯤ ꯃꯅꯨꯡꯗꯥ ꯃꯈꯥꯗꯥ ꯄꯤꯔꯤꯕꯁꯤꯡ ꯑꯁꯤ ꯌꯥꯎꯔꯤ:
+contribution-misreadings-description-extended-list-1 = ꯔꯦꯀꯣꯔꯗꯤꯡꯒꯤ ꯍꯧꯔꯛꯐꯝꯗꯥ <strong>'A'</strong> ꯅꯠꯇ꯭ꯔꯒꯥ <strong>'The'</strong> ꯌꯥꯥꯎꯗꯕꯥ ꯫
+contribution-misreadings-description-extended-list-2 = ꯋꯥꯍꯩ ꯑꯃꯒꯤ ꯑꯔꯣꯏꯕꯗꯥ <strong>ꯒꯤ</strong> ꯑꯃꯥ ꯃꯥꯡꯈꯤꯕꯥ ꯫
+contribution-misreadings-description-extended-list-3 = ꯇꯁꯦꯡꯅꯥ ꯂꯩꯇꯕꯥ ꯀꯟꯠꯔꯦꯀꯁꯅꯁꯤꯡ ꯄꯥꯕꯥ, ꯃꯗꯨꯗꯤ "ꯑꯩꯈꯣꯏꯅꯥ ꯂꯩꯔꯤ" ꯍꯥꯏꯕꯁꯤꯒꯤ ꯃꯍꯨꯠꯇꯥ "ꯑꯩꯈꯣꯏꯅꯥ ꯂꯩꯔꯤ" ꯍꯥꯏꯕꯁꯤꯅꯤ, ꯅꯠꯇ꯭ꯔꯒꯥ ꯃꯁꯤꯒꯤ ꯑꯀꯣꯟꯕꯥ ꯑꯣꯏꯅꯥ ꯫
+contribution-misreadings-description-extended-list-4 = ꯔꯦꯀꯣꯔꯗꯤꯡ ꯑꯗꯨ ꯌꯥꯝꯅꯥ ꯊꯨꯅꯥ ꯀꯛꯊꯗꯨꯅꯥ ꯑꯔꯣꯏꯕꯥ ꯋꯥꯍꯩ ꯑꯗꯨꯒꯤ ꯑꯔꯣꯏꯕꯥ ꯑꯗꯨ ꯃꯥꯡꯍꯅꯕꯥ ꯫
 
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
