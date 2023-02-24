@@ -35,6 +35,7 @@ import validate, {
 } from './validation';
 import Statistics from './statistics';
 import SentenceCollectorRouter from '../api/pending-sentences';
+import { reportsRouter } from '../api/reports/routes';
 
 export default class API {
   model: Model;
@@ -137,7 +138,7 @@ export default class API {
 
     router.post('/:locale/downloaders', this.insertDownloader);
 
-    router.post('/reports', this.createReport);
+    router.use('/reports', reportsRouter);
 
     router.use('/challenge', this.challenge.getRouter());
 
