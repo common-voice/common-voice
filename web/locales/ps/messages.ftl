@@ -616,11 +616,15 @@ about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollec
 about-playbook-how-localize = د سایټ سیمه ایز کول  څنګه کار کوي؟
 about-playbook-how-localize-content-1 = د عام غږ سایټ ژباړه په <strong>Pontoon</strong> کې کیږي.
 about-playbook-how-localize-content-2 = <pontoonAccountLink>یو حساب جوړ کړئ</pontoonAccountLink> که تاسو نه لرئ. بیا، خپله ژبه غوره کړئ <strong>('ټیم')</strong> او بیا پروژه غوره کړئ، <pontoonCvLink>عام غږ</pontoonCvLink>. د ژباړې لپاره به فایلونه وي. په یوه باندې کلیک وکړئ، بیا دا په انګلیسي کې ټکي او د هغوی د ژباړلو لپاره بکس ښیې.
+about-playbook-how-localize-content-3 = ژباړه له انګلیسي څخه ده، مګر تاسو په نورو ژبو کې <strong>وړاندیزونه</strong> لیدلی شئ. د <strong>پروفایل</strong> آیکون باندې کلیک وکړئ، بیا د <strong>ترتیباتو</strong> لینک او هر هغه ژبه اضافه کړئ چې تاسو یې خبرې کوئ. په ښکته ښي لاس کونج کې به د ژباړو یو لیست وي چې نوم یې <strong>سیمه ایز</strong> دی. ژباړه یوه ورځ وروسته په سایټ کې ښودل کیږي.
+about-playbook-how-localize-content-4 = دا سایټ د پیل کولو لپاره چمتو دی کله چې دا 75٪ بشپړیدو ته ورسیږي.
 about-playbook-how-localize-content-5 = د مرستې لپاره زموږ ویډیوي تشریح وګورئ
 
 ## How to add sentences
 
 about-playbook-how-add-sentences = څنګه جملې اضافه کړم؟
+about-playbook-how-add-sentences-content-1 = <strong>د جملې راټولونکی</strong> د عامه ډومین جملو راټولولو او اعتبار کولو لپاره یوه وسیله ده. تاسو به <scAccountLink> ته اړتیا ولرئ چې یو حساب جوړ کړئ</scAccountLink>. بیا، خپله ژبه په خپل <strong>پروفایل</strong> کې اضافه کړئ. تاسو کولی شئ جملې <strong>اضافه کړئ</strong> یا <strong>بیا کتنه</strong> مخکې اضافه شوي جملې.
+about-playbook-how-add-sentences-content-2 = جملې باید بیاکتنه وشي او د دوه خلکو لخوا ومنل شي ترڅو په عام غږ کې شامل شي. تاسو د خپلې ژبې لپاره لارښودونه <languageGuidelinesLink>دلته</languageGuidelinesLink> جوړ کړئ. جملې باید په <licenseLink> عامه ډومین</licenseLink> کې وي او د 15 کلمو څخه لنډې وي. تاسو کولی شئ د متن له مالک څخه وغواړئ چې دا زموږ د معافیت پروسې په کارولو سره <waiverLink>CC0</waiverLink> جوړ کړي، او موږ ته په commonvoice@mozilla.com ولیږئ.
 about-playbook-how-add-sentences-content-4 = هغه جملې چې تایید شوي د څلورنۍ په ورځ صادریږي، او د راتلونکي خپريدو وروسته شتون لري.
 
 ## How to record quality
