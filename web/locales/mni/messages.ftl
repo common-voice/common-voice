@@ -656,6 +656,11 @@ about-playbook-how-access-dataset-content-2 = ꯀꯔꯤꯒꯨꯝꯕꯥ ꯅꯍꯥ
 
 about-playbook-how-project-governance = ꯊꯧꯔꯥꯡꯒꯤ ꯋꯥꯔꯦꯞꯁꯤꯡ ꯑꯁꯤ ꯀꯔꯝꯅꯥ ꯂꯧꯕꯒꯦ?
 about-playbook-how-project-governance-content-1 = ꯃꯣꯖꯤꯂꯥ ꯀꯃꯟꯈꯣꯟꯖꯦꯜ ꯑꯁꯤ ꯃꯥꯂꯦꯝ ꯄꯨꯝꯕꯒꯤ ꯑꯦꯛꯇꯤꯕꯤꯁ꯭ꯇꯁꯤꯡ, ꯂꯤꯉ꯭ꯒꯨꯏꯁ꯭ꯇꯁꯤꯡ, ꯗꯦꯇꯥ ꯁꯥꯏꯟꯇꯤꯁ꯭ꯇꯁꯤꯡ, ꯑꯦꯀꯥꯗꯦꯃꯤꯛꯁꯤꯡ ꯑꯃꯁꯨꯡ ꯁꯣꯐꯋꯦꯌꯔ ꯏꯟꯖꯤꯅꯤꯌꯔꯁꯤꯡꯒꯤ ꯇꯣꯞ ꯇꯣꯞꯄꯥ ꯀꯝꯝꯌꯨꯅꯤꯇꯤ ꯑꯃꯅꯥ ꯑꯣꯏꯊꯣꯛꯄꯥ ꯉꯝꯍꯜꯂꯤ ꯫ ꯊꯧꯔꯥꯡ ꯑꯁꯤ ꯃꯣꯖꯤꯂꯥ ꯐꯥꯎꯟꯗꯦꯁꯟꯅꯥ ꯁꯦꯝꯒꯠꯄꯅꯤ ꯫
+about-playbook-how-project-governance-content-2 = ꯑꯩꯈꯣꯏꯒꯤ ꯂꯩꯉꯥꯛ ꯑꯁꯤ ꯃꯈꯥꯒꯤ ꯌꯨꯝꯕꯤꯁꯤꯡꯗꯥ ꯌꯨꯝꯐꯝ ꯑꯣꯏꯕꯅꯤ:
+about-playbook-how-project-governance-content-3 = ꯑꯔꯣꯟ ꯑꯊꯨꯞ, ꯉꯥꯛꯁꯦꯟꯕ ꯑꯃꯁꯨꯡ ꯃꯅꯨꯡ-ꯃꯄꯥꯟ ꯎꯕ ꯫
+about-playbook-how-project-governance-content-4 = ꯀꯝꯌꯨꯅꯤꯇꯤꯅꯥ ꯁꯔꯨꯛ ꯌꯥꯕꯥ ꯑꯃꯁꯨꯡ ꯋꯥꯔꯦꯞ ꯂꯧꯕꯥ ꯫
+about-playbook-how-project-governance-content-5 = ꯃꯃꯜ ꯂꯩꯕ ꯑꯃꯁꯨꯡ ꯁꯛꯈꯪꯕ ꯫
+about-playbook-how-project-governance-content-6 = ꯃꯈꯣꯏ ꯃꯁꯦꯜ ꯱ꯁꯨꯡ ꯋꯥꯔꯣꯜ ꯂꯩꯈꯥꯏ ꯇꯥꯅꯕ ꯫
 
 ## Glossary
 
