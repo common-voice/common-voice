@@ -412,6 +412,7 @@ accept-privacy = Bu bilgilerin Mozilla’nın <privacyLink>Gizlilik Politikası<
 accept-privacy-title = Gizlilik Politikası
 accept-privacy-and-terms = Common Voice’un <termsLink>Koşullarını</termsLink> ve <privacyLink>Gizlilik İlkelerini</privacyLink> kabul ediyorum
 login-identity = Giriş kimliği
+login = Giriş yap
 login-signup = Giriş / Kayıt
 edit = Düzenle
 email-subscriptions = E-posta abonelikleri
@@ -923,6 +924,10 @@ target-segment-generic-card = Bir hedef segmentine katkıda bulunuyorsunuz
 target-segment-first-banner = Common Voice’un ilk { $locale } hedef segmentini oluşturmaya yardımcı olun
 target-segment-add-voice = Sesinizi ekleyin
 target-segment-learn-more = Daha fazla bilgi alın
+
+## Contribution Nav Items
+
+contribute-voice-collection-nav-header = Ses Toplama
 
 ## Reporting
 
