@@ -605,10 +605,14 @@ about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollec
 about-playbook-how-localize = ꯁꯥꯏꯠ ꯂꯣꯀꯦꯂꯥꯏꯖꯦꯁꯟ ꯑꯁꯤ ꯀꯔꯝꯅꯥ ꯊꯕꯛ ꯇꯧꯕꯒꯦ?
 about-playbook-how-localize-content-1 = ꯀꯃꯟꯈꯣꯟꯖꯦꯜ ꯁꯥꯏꯇꯀꯤ ꯍꯟꯗꯣꯛꯄꯥ ꯑꯁꯤ <strong>ꯄꯣꯟꯇꯨꯟ</strong>ꯗꯥ ꯊꯣꯛꯏ ꯫
 about-playbook-how-localize-content-2 = <pontoonAccountLink>ꯀꯔꯤꯒꯨꯝꯕꯥ ꯅꯍꯥꯛꯅꯥ ꯑꯦꯀꯥꯎꯟꯠ ꯑꯃꯥ ꯂꯩꯇꯔꯕꯗꯤ</pontoonAccountLink> ꯑꯃꯥ ꯁꯦꯝꯃꯨ ꯫ ꯃꯗꯨꯒꯤ ꯃꯇꯨꯡꯗꯥ, ꯅꯍꯥꯛꯀꯤ ꯂꯣꯜ <strong>(‘ꯇꯤꯝ’)</strong> ꯈꯜꯂꯨ ꯑꯃꯁꯨꯡ ꯃꯗꯨꯒꯤ ꯃꯇꯨꯡꯗꯥ ꯊꯧꯔꯥꯡ ꯑꯗꯨ ꯈꯜꯂꯨ, <pontoonCvLink>ꯀꯃꯟ ꯈꯣꯟꯖꯦꯜ</pontoonCvLink>. ꯍꯟꯗꯣꯛꯄꯥ ꯌꯥꯕꯥ ꯐꯥꯏꯜꯁꯤꯡ ꯂꯩꯒꯅꯤ꯫ ꯑꯃꯗꯥ ꯅꯝꯃꯒꯥ, ꯃꯗꯨꯒꯤ ꯃꯇꯨꯡꯗꯥ ꯏꯪꯂꯤꯁ  ꯋꯥꯍꯩꯁꯤꯡ ꯑꯃꯁꯨꯡ ꯃꯗꯨ ꯍꯟꯗꯣꯛꯄꯥ ꯌꯥꯅꯕꯥ ꯕꯣꯛꯁ ꯑꯃꯥ ꯎꯠꯂꯤ ꯫
+about-playbook-how-localize-content-3 = ꯍꯟꯗꯣꯛꯄꯥ ꯑꯁꯤ ꯏꯪꯂꯤꯁꯇꯒꯤꯅꯤ, ꯑꯗꯨꯕꯨ ꯑꯇꯣꯞꯄꯥ ꯂꯣꯜꯁꯤꯡꯗꯥ <strong>ꯁꯖꯦꯁꯟ</strong> ꯌꯦꯡꯕꯥ ꯌꯥꯒꯅꯤ ꯫ <strong>ꯄ꯭ꯔꯣꯐꯥꯏꯜ</strong> ꯑꯥꯏꯀꯟ ꯑꯗꯨ ꯅꯝꯃꯨ, ꯃꯗꯨꯒꯤ ꯃꯇꯨꯡꯗꯥ <strong>ꯁꯦꯇꯤꯡ</strong> ꯂꯤꯡꯛ ꯑꯗꯨ ꯅꯝꯃꯨ ꯑꯃꯁꯨꯡ ꯅꯍꯥꯛꯅꯥ ꯉꯥꯡꯂꯤꯕꯥ ꯂꯣꯜ ꯑꯃꯍꯦꯛꯇꯕꯨ ꯍꯥꯄꯆꯤꯜꯂꯨ ꯫ ꯃꯈꯥꯒꯤ ꯑꯔꯣꯏꯕꯥ ꯀꯣꯟꯅꯥ <strong>ꯂꯣꯀꯦꯜ</strong> ꯀꯧꯕꯥ ꯍꯟꯗꯣꯛꯄꯒꯤ ꯂꯤꯁ꯭ꯠ ꯑꯃꯥ ꯂꯩꯒꯅꯤ ꯫ ꯍꯟꯗꯣꯛꯄꯥ ꯅꯨꯃꯤꯠ ꯑꯃꯒꯤ ꯃꯇꯨꯡꯗꯥ ꯁꯥꯏꯠꯇꯥ ꯎꯠꯂꯤ ꯫
+about-playbook-how-localize-content-4 = ꯁꯥꯏꯠ ꯑꯁꯤ ꯷꯵% ꯃꯄꯨꯡ ꯐꯥꯔꯛꯄꯥ ꯃꯇꯝꯗꯥ ꯍꯧꯗꯣꯛꯅꯕꯥ ꯁꯦꯝ ꯁꯥꯔꯦ ꯫
+about-playbook-how-localize-content-5 = ꯃꯇꯦꯡ ꯄꯥꯡꯅꯕꯥ ꯑꯩꯈꯣꯏꯒꯤ ꯚꯤꯗꯤꯑꯣ ꯑꯦꯛꯁꯞꯂꯦꯅꯔ ꯑꯗꯨ ꯌꯦꯡꯕꯤꯌꯨ ꯫
 
 ## How to add sentences
 
 about-playbook-how-add-sentences = ꯑꯩꯅ ꯀꯔꯝꯅ ꯋꯥꯍꯩꯄꯔꯦꯡ  ꯍꯥꯞꯆꯤꯟꯒꯅꯤ ?
+about-playbook-how-add-sentences-content-1 = strong>ꯋꯥꯍꯩꯄꯔꯦꯡ ꯈꯣꯝꯖꯤꯟꯅꯕ</strong> ꯑꯁꯤ ꯄꯕ꯭ꯂꯤꯛ ꯗꯣꯃꯦꯏꯟ ꯋꯥꯍꯩꯄꯔꯦꯡꯁꯤꯡ ꯈꯣꯝꯖꯤꯟꯅꯕꯥ ꯑꯃꯁꯨꯡ ꯆꯠꯅꯍꯟꯅꯕꯒꯤ ꯈꯨꯠꯂꯥꯏ ꯑꯃꯅꯤ ꯫ ꯅꯍꯥꯛꯅꯥ <scAccountLink>ꯑꯦꯀꯥꯎꯟꯠ ꯑꯃꯥ ꯁꯦꯝꯕꯥ ꯃꯊꯧ ꯇꯥꯏ</scAccountLink>. ꯃꯗꯨꯒꯤ ꯃꯇꯨꯡꯗꯥ, ꯅꯍꯥꯛꯀꯤ ꯂꯣꯜ ꯑꯗꯨ ꯅꯍꯥꯛꯀꯤ <strong>ꯄ꯭ꯔꯣꯐꯥꯏꯜ</strong>ꯗꯥ ꯍꯥꯞꯆꯤꯜꯂꯨ ꯫ ꯅꯍꯥꯛꯅꯥ <strong>ꯍꯥꯞꯆꯤꯟꯂꯨ</strong> ꯋꯥꯍꯩꯄꯔꯦꯡꯁꯤꯡ ꯅꯠꯇ꯭ꯔꯒꯥ <strong>ꯔꯤꯚꯤꯌꯨ ꯇꯧꯕ</strong> ꯃꯃꯥꯡꯗꯥ ꯍꯥꯞꯆꯤꯟꯈꯔꯕ ꯋꯥꯍꯩꯄꯔꯦꯡꯁꯤꯡ ꯫
 
 ## How to record quality
 
