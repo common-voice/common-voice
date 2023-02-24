@@ -539,11 +539,6 @@ export default class API {
     response.json({});
   };
 
-  createReport = async ({ client_id, body }: Request, response: Response) => {
-    await this.model.db.createReport(client_id, body);
-    response.json({});
-  };
-
   getPublicUrl = async (
     { params: { bucket_type, path } }: Request,
     response: Response
