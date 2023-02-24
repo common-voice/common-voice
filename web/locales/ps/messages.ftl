@@ -1389,3 +1389,27 @@ partnerships-foundations-description = موږ د بنسټونو، مدني ټو�
 partnerships-governments-header = حکومتونه
 partnerships-governments-description = موږ د ټیکنالوژۍ، نوښت او ژبې حقونو کې د عامه سکتور ښکیلتیا ملاتړ کولو ته لیواله یو. که تاسو پلان لرئ چې یوه لویه پروژه یا کمپاین پرمخ وړئ، مهرباني وکړئ <emailFragment> اړیکه ونیسئ.</emailFragment>
 partnerships-academia-header = پوهنتونونه، اکادمیکان او څیړونکي
+partnerships-academia-description = خلاص نوښت د هغه څه په زړه کې دی چې موږ یې کوو. د څیړنې همکارۍ، د معلوماتو راټولولو یا مرکو لپاره، <emailFragment>رسیږئ.</emailFragment>
+partnerships-small-business-header = کوچني کاروبارونه، په شمول د تخنیک او AI پيلونه
+partnerships-small-business-description = موږ تل د ډیټا مصرف کونکو څخه د دوی اړتیاو او شرایطو په اړه اوریدلو په لټه کې یو - د ډیټا راټولولو پلیټ فارم کې همکارۍ څخه د ډیټا روغتیا بصیرت چمتو کولو پورې ، موږ غواړو <emailFragment>له تاسو څخه واورو.</emailFragment>
+partnerships-corporates-header = لوی پیمانه کارپوریشنونه او پلیټ فارم شرکتونه
+partnerships-corporates-description = که تاسو د ډیټاسیټ په اړه د نورو خبرو کولو په لټه کې یاست، غواړئ په پلان شوي پلیټ فارم پراخولو کې شریکه پانګه اچونه وکړئ یا د همکارۍ فرصتونو په لټه کې شئ، <emailFragment>موږ ته یوه کرښه پریږدئ.</emailFragment>
+partnerships-our-partners = زموږ همکاران
+# FIRST POST SUBMISSION CTA
+first-cta-header-text = ستاسو د غږ کلپونو د مرستې لپاره مننه!
+first-cta-subtitle-text = ایا تاسو غواړئ د خبرو کولو څرنګوالي په اړه یو څه معلومات شریک کړئ؟
+why-donate = تاسو ولې پوښتنه کوئ؟
+why-donate-explanation-1 = دا معلومات د چمتو کولو لپاره اختیاري دي - تاسو باید یوازې دا اضافه کړئ که تاسو آرام احساس کوئ. کله چې موږ ډیټاسیټ خپروو، موږ ټول شخصي معلومات تخلص کوو، او ډاډ ترلاسه کوو چې ستاسو نوم او بریښنالیک په څیر معلومات د ډیموګرافیک معلوماتو سره تړاو نلري لکه عمر یا جنسیت.
+why-donate-explanation-2 = د ټیکنالوژۍ لپاره چې د هرچا لپاره ښه کار وکړي، هغه معلومات چې پراختیا کونکو سره د ټیکنالوژۍ په جوړولو کې مرسته کوي اړتیا لري د خلکو متنوع لړۍ منعکس کړي. د مثال په توګه، که موږ کوم سپیکر د ځانګړي تلفظ سره شامل نه کړو، نو ټیکنالوژي به د هغه تلفظ لرونکي خلکو لپاره ښه کار ونکړي. <learnMore>په دې اړه نور معلومات زده کړئ چې ولې میټاډاټا اهمیت لري.</learnMore>
+add-information-button = معلومات اضافه کړئ
+continue-speaking-button = نه مننه، خبرو ته دوام ورکړئ
+create-profile-text = غواړئ خپل معلومات خوندي کړئ؟ <createProfile>یو پروفایل جوړ کړئ</createProfile>
+thanks-for-voice-toast = ستاسو د غږ معلوماتو لپاره مننه
+thanks-for-voice-toast-error = ستاسو د غږ معلوماتو په سپارلو کې یوه تېروتنه رامنځته شوه
+# SECOND POST SUBMISSION CTA
+second-cta-header-text = ستاسو د غږ کلپونو د مرستې لپاره مننه!
+second-cta-subtitle-text = د پروفایل سره، تاسو کولی شئ خپل فعالیت تعقیب کړئ او د غږ ډیټا مرسته کونکو ټولنې سره اړیکه ونیسئ.
+already-have-an-account = ایا دمخه حساب لرئ؟ <login>ننوتل</login>
+create-profile-button = یو پروفایل جوړ کړئ
+# IMAGE TAGS
+img-alt-success-checkmark = د بریالیتوب نښه
