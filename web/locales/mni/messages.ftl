@@ -1247,6 +1247,18 @@ contribution-varying-pronunciations-example-2-explanation = [ꯏꯪꯂꯤꯁꯗ�
 contribution-background-noise-title = ꯃꯅꯤꯡꯒꯤ ꯅꯤꯜ ꯈꯣꯡꯕ
 contribution-background-noise-description = ꯑꯩꯈꯣꯏꯅꯥ ꯃꯦꯁꯤꯟ ꯇꯝꯕ ꯑꯦꯂꯒꯣꯔꯤꯊꯃꯁꯤꯡ ꯑꯁꯤꯅꯥ ꯃꯈꯜ ꯀꯌꯥꯒꯤ ꯕꯦꯀꯒ꯭ꯔꯥꯎꯟꯗꯒꯤ ꯅꯤꯜ ꯈꯣꯡꯕ ꯍꯦꯟꯗꯜ ꯇꯧꯕꯥ ꯉꯝꯕꯥ ꯄꯥꯝꯃꯤ, ꯑꯃꯁꯨꯡ ꯌꯥꯝꯅꯥ  ꯍꯧꯕ ꯅꯤꯜ ꯈꯣꯡꯕ ꯐꯥꯎꯕꯥ ꯌꯥꯕꯥ ꯌꯥꯏ, ꯃꯈꯣꯏꯅꯥ ꯅꯍꯥꯀꯄꯨ ꯋꯥꯍꯩ ꯄꯨꯝꯅꯃꯛ ꯇꯥꯕꯥ ꯉꯝꯍꯟꯗꯕꯥ ꯌꯥꯏ ꯫ ꯊꯨꯅꯥ ꯌꯥꯡꯅꯥ ꯕꯦꯀꯒ꯭ꯔꯥꯎꯟꯗ ꯃ꯭ꯌꯨꯖꯤꯛ ꯑꯁꯤ ꯑꯣ.ꯀꯦ. ꯋꯥꯍꯩ ꯈꯨꯗꯤꯡꯃꯛ ꯇꯥꯕꯥ ꯉꯝꯍꯟꯗꯕꯥ ꯃꯑꯣꯡꯗꯥ ꯃ꯭ꯌꯨꯖꯤꯛ ꯌꯥꯝꯅꯥ ꯋꯥꯅꯥ ꯉꯥꯡꯏ ꯫
 contribution-background-noise-description-extended = ꯀꯔꯤꯒꯨꯝꯕꯥ ꯔꯦꯀꯣꯔꯗꯤꯡ ꯑꯗꯨ ꯊꯨꯒꯥꯏꯔꯕꯗꯤ, ꯅꯠꯇ꯭ꯔꯒꯥ ꯀ꯭ꯔꯦꯛ ꯇꯧꯔꯕꯗꯤ, ꯇꯦꯛꯁꯠ ꯑꯗꯨꯒꯤ ꯃꯄꯨꯡꯐꯥꯕꯥ ꯁꯔꯨꯛ ꯑꯗꯨ ꯍꯧꯖꯤꯛꯁꯨ ꯇꯥꯕꯥ ꯉꯝꯗ꯭ꯔꯕꯗꯤ ꯌꯥꯍꯟꯒꯅꯨ ꯫
+contribution-background-noise-example-1-fixed-title = <strong>[ꯍꯥꯛꯊꯤ ꯈꯟꯕ]</strong> <strong>[ꯂꯣꯛ ꯈꯨꯕ]</strong> ꯇ꯭ꯔꯥꯏꯑꯦꯁꯤꯀꯀꯤ ꯑꯆꯧꯕꯥ ꯗꯥꯏꯅꯣꯁꯔꯁꯤꯡ ꯫
+contribution-background-noise-example-2-fixed-title = ꯑꯆꯧꯕꯥ ꯗꯤꯅꯣ <strong>[ꯂꯣꯛ ꯈꯨꯕ]</strong> ꯇ꯭ꯔꯥꯏꯑꯦꯁꯤꯛ ꯫
+contribution-background-noise-example-2-explanation = [ꯋꯥꯍꯩꯒꯤ ꯁꯔꯨꯛ ꯑꯃꯥ ꯇꯥꯕꯥ ꯉꯝꯗꯦ]
+contribution-background-noise-example-3-fixed-title = <strong>[ꯀ꯭ꯔꯦꯀꯜ]</strong> <strong>[ꯀ꯭ꯔꯦꯀꯜ]</strong> -ꯔꯤꯌꯥꯁꯤꯛꯀꯤ ꯑꯆꯧꯕꯥ ꯗꯥꯏꯅꯣꯁꯔꯁꯤꯡ ꯫
+contribution-background-voices-title = ꯃꯅꯤꯡꯒꯤ ꯈꯣꯟꯖꯦꯜꯁꯤꯡ
+contribution-background-voices-description = ꯊꯨꯅꯥ ꯌꯥꯡꯅꯥ ꯃꯅꯤꯡꯒꯤ ꯍꯕꯕꯕ ꯑꯁꯤ ꯌꯥꯏ, ꯑꯗꯨꯕꯨ ꯑꯩꯈꯣꯏꯅꯥ ꯃꯦꯁꯤꯟ ꯑꯦꯂꯒꯣꯔꯤꯊꯝ ꯑꯃꯅꯥ ꯑꯏꯕꯥ ꯇꯦꯛꯁꯇꯥ ꯌꯥꯎꯗꯕꯥ ꯋꯥꯍꯩꯁꯤꯡ ꯈꯪꯗꯣꯛꯄꯥ ꯌꯥꯕꯥ ꯑꯍꯦꯟꯕꯥ ꯈꯣꯟꯖꯦꯜꯁꯤꯡ ꯄꯥꯝꯗꯦ ꯫ ꯀꯔꯤꯒꯨꯝꯕꯥ ꯅꯍꯥꯛꯅꯥ ꯋꯥꯍꯩ ꯑꯗꯨꯒꯤ ꯃꯊꯛꯇꯥ ꯇꯣꯉꯥꯟꯕꯥ ꯋꯥꯍꯩꯁꯤꯡ ꯇꯥꯕꯥ ꯉꯝꯂꯕꯗꯤ ꯀ꯭ꯂꯤꯞ ꯑꯗꯨ ꯌꯥꯗꯒꯗꯕꯅꯤ ꯫ ꯃꯍꯧꯁꯥꯅꯥ ꯃꯁꯤ ꯇꯤ.ꯚꯤ.ꯅꯥ ꯊꯝꯈꯤꯕꯥ ꯃꯐꯝꯗꯥ, ꯅꯠꯇ꯭ꯔꯒꯥ ꯃꯅꯥꯛ ꯅꯀꯄꯗꯥ ꯋꯥꯔꯤ ꯁꯥꯅꯕꯥ ꯑꯃꯥ ꯂꯩꯕꯥ ꯃꯐꯝꯗꯥ ꯊꯣꯛꯏ ꯫
+contribution-background-voices-description-extended = ꯀꯔꯤꯒꯨꯝꯕꯥ ꯔꯦꯀꯣꯔꯗꯤꯡ ꯑꯗꯨ ꯊꯨꯒꯥꯏꯔꯕꯗꯤ, ꯅꯠꯇ꯭ꯔꯒꯥ ꯀ꯭ꯔꯦꯛ ꯇꯧꯔꯕꯗꯤ, ꯇꯦꯛꯁꯠ ꯑꯗꯨꯒꯤ ꯃꯄꯨꯡꯐꯥꯕꯥ ꯁꯔꯨꯛ ꯑꯗꯨ ꯍꯧꯖꯤꯛꯁꯨ ꯇꯥꯕꯥ ꯉꯝꯗ꯭ꯔꯕꯗꯤ ꯌꯥꯍꯟꯒꯅꯨ ꯫
+contribution-background-voices-example-1-title = ꯇ꯭ꯔꯥꯏꯑꯦꯁꯤꯛꯀꯤ ꯑꯆꯧꯕꯥ ꯗꯥꯏꯅꯣꯁꯥꯔꯁꯁꯤꯡ ꯫ <strong>[ꯈꯣꯟꯖꯦꯜ ꯑꯃꯈꯛꯇꯅꯥ ꯄꯥꯕꯥ]
+contribution-background-voices-example-1-explanation = ꯅꯪ ꯂꯥꯛꯂꯤꯕꯔꯥ? <strong>[ꯑꯇꯣꯞꯄꯥ ꯑꯃꯅꯥ ꯀꯧꯔꯛꯄꯥ]</strong>
+contribution-volume-title = ꯍꯧꯕꯒꯤ ꯆꯥꯡ
+contribution-volume-description = ꯄꯥꯔꯤꯕꯁꯤꯡꯒꯤ ꯃꯔꯛꯇꯥ ꯍꯧꯕꯒꯤ ꯃꯍꯧꯁꯥꯒꯤ ꯑꯣꯏꯕꯥ ꯈꯦꯠꯅꯕꯥ ꯂꯩꯒꯅꯤ ꯫ ꯚꯣꯜꯌꯨꯝ ꯑꯗꯨ ꯔꯦꯀꯣꯔꯗꯤꯡ ꯑꯗꯨ ꯊꯨꯒꯥꯏꯔꯛꯄꯥ ꯃꯇꯝꯗꯥ ꯚꯣꯜꯌꯨꯝ ꯑꯗꯨ ꯌꯥꯝꯅꯥ ꯋꯥꯡꯂꯕꯗꯤ, ꯅꯠꯇ꯭ꯔꯒꯥ (ꯍꯦꯟꯅꯥ ꯀꯃꯟ ꯑꯣꯏꯅꯥ) ꯀꯔꯤꯒꯨꯝꯕꯥ ꯃꯗꯨ ꯌꯥꯝꯅꯥ ꯅꯦꯝꯂꯕꯗꯤ ꯅꯍꯥꯛꯅꯥ ꯑꯏꯕꯥ ꯋꯥꯍꯩ ꯑꯗꯨꯒꯤ ꯃꯇꯥꯡꯗꯥ ꯔꯤꯐꯔꯦꯟꯁ ꯇꯧꯗꯅꯥ ꯍꯥꯏꯔꯤꯕꯥ ꯑꯗꯨ ꯇꯥꯕꯥ ꯉꯝꯗ꯭ꯔꯕꯈꯛꯇꯗꯥ ꯔꯤꯖꯦꯛꯇ ꯇꯧ ꯫
+contribution-reader-effects-title = ꯄꯥꯔꯤꯕꯁꯤꯡꯗ ꯁꯣꯛꯄꯁꯤꯡ
 
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
