@@ -575,10 +575,23 @@ about-nav-playbook = ꯇꯝꯃꯨ ꯛꯔꯝꯅ ꯁꯔꯨꯛ ꯌꯥꯒꯅꯤ ꯍ�
 
 about-playbook-what-is-language = ꯑꯆꯝꯕ ꯈꯣꯟꯖꯦꯜꯗ ꯂꯣꯟ ꯱ ꯍꯥꯢꯕꯁꯤ ꯛꯔꯤꯅꯣ ?
 about-playbook-what-is-language-content-1 = ꯂꯣꯜꯒꯤ ꯃꯔꯝꯗꯥ ꯈꯅꯕꯒꯤ ꯃꯑꯣꯡ ꯀꯌꯥ ꯑꯃꯥ ꯂꯩꯔꯤ ꯫ ꯋꯥꯉꯥꯡ ꯁꯛꯈꯪꯕ ꯃꯑꯣꯡꯁꯤꯡꯒꯤ ꯄꯥꯟꯗꯃꯁꯤꯡꯒꯤꯗꯃꯛꯇꯥ ꯀꯃꯟ ꯈꯣꯟꯖꯦꯜꯅꯥ ‘ꯃ꯭ꯌꯨꯆꯨꯑꯦꯜ ꯏꯟꯇꯦꯂꯤꯖꯤꯕꯤꯂꯤꯇꯤ’ꯗꯥ ꯃꯤꯠꯌꯦꯡ ꯊꯝꯅꯕꯥ ꯄꯥꯎꯇꯥꯛ ꯄꯤꯔꯤ, ꯅꯠꯇ꯭ꯔꯒꯥ ‘ꯂꯣꯜ ꯑꯁꯤꯒꯤ ꯋꯥꯉꯥꯡꯂꯣꯏꯁꯤꯡꯅꯥ ꯍꯣꯠꯅꯔꯕꯗꯤ ꯑꯌꯥꯝꯕꯅꯥ ꯑꯃꯒꯥ ꯑꯃꯒꯥ ꯂꯧꯁꯤꯟꯕꯥ ꯉꯝꯒꯗ꯭ꯔꯥ?’
+about-playbook-what-is-language-content-2 = ꯑꯩꯈꯣꯏꯅꯥ ꯋꯥꯉꯥꯡꯂꯣꯏꯁꯤꯡꯒꯤ ꯇꯣꯞ ꯇꯣꯞꯄꯥ ꯔꯦꯟꯖ ꯑꯃꯥ ꯍꯦꯟꯅꯥ ꯈꯪꯕꯗꯥ ꯋꯥ ꯉꯥꯡꯕꯒꯤ ꯃꯑꯣꯡꯁꯤꯡ ꯍꯦꯟꯅꯥ ꯐꯕꯥ ꯑꯣꯏꯍꯟꯕꯥ ꯄꯥꯝꯃꯤ ꯫ ꯃꯁꯤ ꯊꯣꯛꯅꯕꯒꯤꯗꯃꯛ, ꯈꯣꯟꯖꯦꯜ ꯗꯦꯇꯥꯁꯦꯠ ꯑꯃꯅꯥ ꯇꯣꯉꯥꯟ-ꯇꯣꯉꯥꯟꯕꯥ ꯃꯤꯑꯣꯏ ꯀꯌꯥ ꯑꯃꯥ ꯃꯤꯍꯨꯠ ꯁꯤꯟꯒꯗꯕꯅꯤ ꯫
+about-playbook-what-is-language-content-3 = ꯂꯣꯜ ꯈꯔꯗꯥ ꯂꯣꯟꯃꯤꯠ, ꯋꯥꯍꯩ ꯑꯃꯁꯨꯡ ꯋꯥꯍꯩ ꯁꯤꯖꯤꯟꯅꯕꯒꯤ ꯃꯇꯥꯡꯗꯥ ꯌꯥꯝꯅꯥ ꯆꯥꯎꯅꯥ ꯈꯦꯠꯅꯕꯥ ꯂꯩ ꯫ ꯃꯔꯝ ꯑꯁꯤꯅꯥ ꯑꯩꯈꯣꯏꯅꯥ <ctaLink>꯲꯰꯲꯲ꯗꯥ ‘ꯈꯦꯠꯅꯕꯁꯤꯡ’</ctaLink> ꯍꯧꯗꯣꯛꯂꯤ, ꯃꯁꯤꯅꯥ ꯀꯝꯝꯌꯨꯅꯤꯇꯤꯁꯤꯡꯗꯥ ꯑꯆꯧꯕꯥ ꯗꯦꯇꯥꯁꯦꯠꯀꯤ ꯃꯅꯨꯡꯗꯥ ꯃꯈꯣꯏꯒꯤ ꯂꯣꯜꯁꯤꯡ ꯈꯦꯠꯅꯍꯟꯅꯕꯒꯤ ꯃꯑꯣꯡ ꯑꯃꯥ ꯄꯤꯔꯤ ꯫
 
 ## How do I add a language
 
 about-playbook-how-add-language = ꯑꯩꯅ ꯀꯔꯝꯅ ꯂꯣꯟ ꯱ ꯍꯥꯞꯆꯤꯟꯒꯅꯤ ?
+about-playbook-how-add-language-content-1 =
+    ꯑꯍꯥꯟꯕꯗꯥ, ꯅꯍꯥꯛꯀꯤ ꯂꯣꯜ <languageLink>ꯍꯥꯟꯅꯅꯥ ꯂꯩꯕ꯭ꯔꯥ</languageLink> ꯑꯗꯨ ꯌꯦꯡꯁꯤꯟꯂꯣ ꯫
+    ꯀꯔꯤꯒꯨꯝꯕꯥ ꯑꯣꯏꯗ꯭ꯔꯕꯗꯤ, ꯅꯍꯥꯛꯅꯥ <languageRequestLink>ꯅꯍꯥꯛꯀꯤ ꯂꯣꯜ</languageRequestLink> ꯍꯥꯞꯆꯤꯟꯅꯕꯒꯤ ꯃꯇꯥꯡꯗꯥ ꯍꯪꯂꯛꯄꯥ ꯌꯥꯏ ꯫
+    ꯊꯥꯛ ꯑꯅꯤ ꯂꯩ ꯫ ꯁꯥꯏꯠ ꯑꯁꯤ ꯍꯟꯗꯣꯛꯄꯥ, ꯑꯃꯁꯨꯡ ꯋꯥꯍꯩꯄꯔꯦꯡꯁꯤꯡ ꯈꯣꯝꯖꯤꯟꯕꯥ
+about-playbook-how-add-language-translating-heading = ꯁꯥꯏꯠ ꯑꯁꯤ ꯍꯟꯗꯣꯛꯂꯤ
+about-playbook-how-add-language-translating-content-1 = <translateVideoLink>ꯄꯣꯟꯇꯨꯟ ꯑꯁꯤ ꯀꯔꯝꯅꯥ ꯁꯤꯖꯤꯟꯅꯒꯗꯒꯦ ꯍꯥꯏꯕꯒꯤ ꯃꯇꯥꯡꯗꯥ ꯑꯩꯈꯣꯏꯒꯤ ꯆꯠꯅꯄꯊꯥꯞꯁꯤꯡ ꯌꯦꯡꯕꯤꯌꯨ ꯫</translateVideoLink>
+about-playbook-how-add-language-translating-content-2 =
+    ꯑꯩꯈꯣꯏꯅꯥ ꯍꯟꯗꯣꯛꯄꯒꯤ ꯊꯕꯛ <pontoonLink>Pontoon</pontoonLink> ꯀꯧꯕꯥ ꯃꯣꯖꯤꯂꯥ ꯈꯨꯠꯂꯥꯏ ꯑꯃꯥ ꯁꯤꯖꯤꯟꯅꯩ ꯫ ꯄꯣꯟꯇꯨꯟꯗꯥ ꯂꯣꯜ ꯀꯌꯥ ꯑꯃꯥ ꯂꯩꯔꯤ,
+    ꯑꯗꯨꯕꯨ ꯀꯔꯤꯒꯨꯝꯕꯥ ꯃꯁꯤꯗꯥ ꯅꯍꯥꯛꯀꯤ ꯂꯩꯇ꯭ꯔꯕꯗꯤ ꯅꯍꯥꯛꯅꯥ <pontoonRequestLink>ꯅꯍꯥꯛꯀꯤ ꯂꯣꯜ ꯍꯥꯞꯆꯤꯟꯅꯕꯥ ꯍꯪꯒꯠꯆꯕ ꯌꯥꯏ</pontoonRequestLink>.
+    ꯃꯗꯨꯒꯤ ꯃꯇꯨꯡꯗꯥ ꯀꯝꯃꯟ ꯈꯣꯟꯖꯦꯜ ꯊꯧꯔꯥꯡ ꯂꯣꯜ ꯑꯁꯤ ꯐꯪꯍꯟꯅꯕꯥ, [...]
+    <githubRepoLink>GitHub</githubRepoLink>ꯗꯥ ꯑꯅꯧꯕꯥ ꯂꯣꯜ ꯑꯗꯨ ꯍꯥꯏꯖꯔꯣ <localizationFragment>ꯁꯥꯏꯠ ꯍꯟꯗꯣꯛꯄꯒꯤ ꯃꯇꯥꯡꯗꯥ ꯍꯦꯟꯅꯥ ꯌꯦꯡꯕꯤꯌꯨ</localizationFragment>꯫
 
 ## How does localization work
 
