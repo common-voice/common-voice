@@ -624,9 +624,15 @@ about-playbook-how-record-content-1 = ꯅꯍꯥꯛꯀꯤ ꯅꯣꯔꯃꯦꯜ ꯑ�
 about-playbook-how-record-content-2 = ꯃꯅꯤꯡꯗ ꯌꯥꯝꯅ ꯅꯤꯜ ꯈꯣꯡꯕꯗꯒꯤ ꯂꯥꯞꯅꯥ ꯂꯩꯌꯨ - ꯃꯗꯨ ꯅꯍꯥꯛꯅ ꯇꯥꯕꯗꯥ ꯂꯥꯏꯕꯥ ꯑꯣꯏꯒꯗꯕꯅꯤ ꯫
 about-playbook-how-record-content-3 = ꯋꯥꯍꯩ ꯄꯔꯦꯡ ꯑꯗꯨ ꯅꯤꯡꯊꯤꯅꯥ ꯄꯥꯕꯤꯌꯨ - ꯋꯥꯍꯩꯁꯤꯡ ꯍꯣꯡꯗꯣꯛꯄꯥ, ꯍꯣꯡꯗꯣꯛꯄꯥ ꯅꯠꯇ꯭ꯔꯒꯥ ꯍꯥꯞꯆꯤꯟꯕꯥ ꯀꯥꯎꯔꯣꯏꯗꯕꯅꯤ ꯫
 about-playbook-how-record-content-4 = ꯅꯍꯥꯛꯅꯥ ꯋꯥ ꯉꯥꯡꯕꯥ ꯍꯧꯗ꯭ꯔꯤꯉꯩꯗꯥ ꯐꯝꯄꯥꯛ ꯑꯗꯨ ꯔꯦꯀꯣꯔꯗ ꯇꯧꯔꯤꯕ꯭ꯔꯥ ꯍꯥꯏꯕꯗꯨ ꯌꯦꯡꯎ, ꯑꯃꯁꯨꯡ ꯅꯍꯥꯛꯅꯥ ꯂꯣꯏꯁꯤꯜꯂꯕꯥ ꯃꯇꯨꯡꯗꯥ ꯈꯛꯇꯃꯛ ꯊꯤꯡꯖꯤꯜꯂꯨ ꯫
+about-playbook-how-record-content-5 = <accuracy Link>ꯑꯆꯨꯝꯕꯥ ꯃꯊꯧ ꯇꯥꯕ ꯍꯤꯔꯝ ꯃꯇꯥꯡꯗꯥ ꯍꯦꯟꯅꯥ ꯌꯦꯡꯕꯤꯌꯨ ꯫</accuracy Link>
 
 ## How to grow language
 
+about-playbook-how-grow-language = ꯀꯃꯟ ꯈꯣꯟꯖꯦꯜꯗ ꯑꯩꯈꯣꯏꯅꯥ ꯃꯇꯧ ꯀꯔꯝꯅꯥ ꯂꯣꯜ ꯑꯃꯥ ꯏꯐꯦꯛꯇꯤꯕ ꯑꯣꯏꯅꯥ ꯆꯥꯎꯈꯠꯍꯟꯒꯅꯤ?
+about-playbook-how-grow-language-content-1 = ꯀꯃꯟ ꯈꯣꯟꯖꯦꯜ ꯁꯔꯨꯛꯌꯥꯅꯕ ꯃꯤꯑꯣꯏ ꯀꯌꯥꯅꯥ ꯈꯨꯗꯣꯡꯆꯥꯕꯁꯤꯡ ꯁꯦꯝꯒꯠꯄꯅꯥ ꯗꯦꯇꯥꯁꯦꯠ ꯑꯁꯤꯅꯥ ꯌꯥꯔꯤꯕꯃꯈꯩ ꯃꯤꯑꯣꯏ ꯀꯌꯥꯒꯤ ꯊꯧꯒꯜ ꯇꯧꯕꯥ ꯉꯃꯍꯜꯂꯤ ꯫ ꯑꯩꯈꯣꯏꯅꯥ ꯑꯗꯣꯝꯅꯥ ꯁꯤꯖꯤꯟꯅꯕꯥ ꯌꯥꯕꯥ ꯔꯤꯁꯣꯔꯁꯁꯤꯡ ꯑꯃꯁꯨꯡ ꯇꯦꯝꯞ꯭ꯂꯦꯠꯁꯤꯡ ꯁꯦꯝꯈ꯭ꯔꯦ!
+about-playbook-how-grow-language-content-2 = ꯊꯧꯔꯃꯁꯤꯡ
+about-playbook-how-grow-language-content-3 = ꯃꯤꯌꯥꯝꯅꯥ ꯁꯔꯨꯛꯌꯥꯕꯗꯥ ꯃꯇꯦꯡ ꯄꯥꯡꯅꯕꯥ ꯊꯧꯔꯝꯁꯤꯡ ꯄꯥꯡꯊꯣꯛꯄꯥ ꯌꯥꯏ ꯫ ꯃꯁꯤ ꯑꯗꯣꯝꯅꯥ ꯈꯜꯂꯤꯕꯗꯒꯤ ꯍꯦꯟꯅꯥ ꯂꯥꯏꯕꯅꯤ ꯫ ꯅꯍꯥꯛꯅꯥ ꯃꯁꯤ ꯚꯤꯗꯤꯑꯣ ꯀꯅꯐꯔꯦꯟꯁꯤꯡ ꯈꯨꯠꯂꯥꯏ ꯑꯃꯒꯥ ꯂꯣꯏꯅꯅꯥ ꯑꯣꯟꯂꯥꯏꯟꯗꯥ ꯇꯧꯕꯥ ꯌꯥꯏ, ꯅꯠꯇ꯭ꯔꯒꯥ ꯀꯔꯤꯒꯨꯝꯕꯥ ꯃꯁꯤ ꯁꯥꯐꯕꯥ ꯑꯣꯏꯔꯕꯗꯤ ꯃꯁꯥꯃꯛꯅꯥ ꯇꯧꯕꯥ ꯌꯥꯏ ꯫ <eventTemplate>ꯊꯧꯔꯝꯁꯤꯡ ꯆꯠꯊꯅꯕꯒꯤꯗꯃꯛ ꯑꯩꯈꯣꯏꯒꯤ ꯇꯦꯝꯞ꯭ꯂꯦꯠꯁꯤꯡ ꯑꯃꯁꯨꯡ ꯔꯤꯁꯣꯔꯁꯁꯤꯡ ꯌꯦꯡꯕꯤꯌꯨ</eventTemplate> ꯫
+about-playbook-how-grow-language-content-4 = ꯁꯣꯁꯤꯌꯦꯜ ꯃꯤꯗꯤꯌꯥ
 
 ## How to validate
 
