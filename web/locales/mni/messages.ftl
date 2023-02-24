@@ -592,9 +592,19 @@ about-playbook-how-add-language-translating-content-2 =
     ꯑꯗꯨꯕꯨ ꯀꯔꯤꯒꯨꯝꯕꯥ ꯃꯁꯤꯗꯥ ꯅꯍꯥꯛꯀꯤ ꯂꯩꯇ꯭ꯔꯕꯗꯤ ꯅꯍꯥꯛꯅꯥ <pontoonRequestLink>ꯅꯍꯥꯛꯀꯤ ꯂꯣꯜ ꯍꯥꯞꯆꯤꯟꯅꯕꯥ ꯍꯪꯒꯠꯆꯕ ꯌꯥꯏ</pontoonRequestLink>.
     ꯃꯗꯨꯒꯤ ꯃꯇꯨꯡꯗꯥ ꯀꯝꯃꯟ ꯈꯣꯟꯖꯦꯜ ꯊꯧꯔꯥꯡ ꯂꯣꯜ ꯑꯁꯤ ꯐꯪꯍꯟꯅꯕꯥ, [...]
     <githubRepoLink>GitHub</githubRepoLink>ꯗꯥ ꯑꯅꯧꯕꯥ ꯂꯣꯜ ꯑꯗꯨ ꯍꯥꯏꯖꯔꯣ <localizationFragment>ꯁꯥꯏꯠ ꯍꯟꯗꯣꯛꯄꯒꯤ ꯃꯇꯥꯡꯗꯥ ꯍꯦꯟꯅꯥ ꯌꯦꯡꯕꯤꯌꯨ</localizationFragment>꯫
+about-playbook-how-add-language-collecting-sentences-heading = ꯋꯥꯍꯩꯄꯔꯦꯡꯁꯤꯡ ꯈꯣꯝꯖꯤꯟꯕ
+about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>ꯋꯥꯍꯩꯄꯔꯦꯡ ꯈꯣꯝꯖꯤꯟꯅꯕ</sentenceCollectorVideo> ꯁꯤꯖꯤꯟꯅꯕꯒꯤ ꯃꯇꯥꯡꯗꯥ ꯑꯩꯈꯣꯏꯒꯤ ꯆꯠꯅꯄꯊꯥꯞꯁꯤꯡ ꯌꯦꯡꯕꯤꯌꯨ ꯫
+about-playbook-how-add-language-collecting-sentences-content-2 =
+    ꯅꯍꯥꯛꯅꯥ <sentenceCollectorLinkAdd>ꯑꯄꯤꯛꯄꯥ ꯃꯁꯤꯡꯒꯤ ꯋꯥꯍꯩꯄꯔꯦꯡꯁꯤꯡ</sentenceCollectorLinkAdd> ꯍꯥꯞꯆꯤꯟꯕꯥ ꯌꯥꯏ,
+    ꯅꯠꯇ꯭ꯔꯒꯥ ꯅꯍꯥꯛꯅꯥ Github</bulkImportDocsLink> ꯁꯤꯖꯤꯟꯅꯗꯨꯅꯥ <bulkImportDocsLink>ꯃꯄꯩ ꯄꯨꯁꯤꯟꯂꯛꯄ ꯌꯥꯏ ꯫
+    ꯋꯥꯍꯩꯄꯔꯦꯡꯁꯤꯡ ꯑꯁꯤ <licenseLink>CC0 (ꯅꯠꯇ꯭ꯔꯒꯥ ꯄꯕ꯭ꯂꯤꯛ ꯗꯣꯃꯦꯏꯟ)</licenseLink> ꯑꯣꯏꯕꯥ ꯃꯊꯧ ꯇꯥꯏ ꯍꯥꯏꯕꯁꯤ ꯅꯤꯡꯁꯤꯡꯕꯤꯌꯨ, ꯅꯠꯇ꯭ꯔꯒꯥ ꯅꯍꯥꯛꯅꯥ ꯃꯁꯥꯒꯤ ꯑꯣꯏꯕꯥ ꯏꯕꯥ ꯌꯥꯏ ꯫
+about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>ꯋꯥꯍꯩꯄꯔꯦꯡ ꯈꯣꯝꯖꯤꯟꯕꯒꯤ ꯃꯇꯥꯡꯗꯥ ꯍꯦꯟꯅꯥ ꯌꯦꯡꯕꯤꯌꯨ</sentenceCollectorFragment> ꯫
 
 ## How does localization work
 
+about-playbook-how-localize = ꯁꯥꯏꯠ ꯂꯣꯀꯦꯂꯥꯏꯖꯦꯁꯟ ꯑꯁꯤ ꯀꯔꯝꯅꯥ ꯊꯕꯛ ꯇꯧꯕꯒꯦ?
+about-playbook-how-localize-content-1 = ꯀꯃꯟꯈꯣꯟꯖꯦꯜ ꯁꯥꯏꯇꯀꯤ ꯍꯟꯗꯣꯛꯄꯥ ꯑꯁꯤ <strong>ꯄꯣꯟꯇꯨꯟ</strong>ꯗꯥ ꯊꯣꯛꯏ ꯫
+about-playbook-how-localize-content-2 = <pontoonAccountLink>ꯀꯔꯤꯒꯨꯝꯕꯥ ꯅꯍꯥꯛꯅꯥ ꯑꯦꯀꯥꯎꯟꯠ ꯑꯃꯥ ꯂꯩꯇꯔꯕꯗꯤ</pontoonAccountLink> ꯑꯃꯥ ꯁꯦꯝꯃꯨ ꯫ ꯃꯗꯨꯒꯤ ꯃꯇꯨꯡꯗꯥ, ꯅꯍꯥꯛꯀꯤ ꯂꯣꯜ <strong>(‘ꯇꯤꯝ’)</strong> ꯈꯜꯂꯨ ꯑꯃꯁꯨꯡ ꯃꯗꯨꯒꯤ ꯃꯇꯨꯡꯗꯥ ꯊꯧꯔꯥꯡ ꯑꯗꯨ ꯈꯜꯂꯨ, <pontoonCvLink>ꯀꯃꯟ ꯈꯣꯟꯖꯦꯜ</pontoonCvLink>. ꯍꯟꯗꯣꯛꯄꯥ ꯌꯥꯕꯥ ꯐꯥꯏꯜꯁꯤꯡ ꯂꯩꯒꯅꯤ꯫ ꯑꯃꯗꯥ ꯅꯝꯃꯒꯥ, ꯃꯗꯨꯒꯤ ꯃꯇꯨꯡꯗꯥ ꯏꯪꯂꯤꯁ  ꯋꯥꯍꯩꯁꯤꯡ ꯑꯃꯁꯨꯡ ꯃꯗꯨ ꯍꯟꯗꯣꯛꯄꯥ ꯌꯥꯅꯕꯥ ꯕꯣꯛꯁ ꯑꯃꯥ ꯎꯠꯂꯤ ꯫
 
 ## How to add sentences
 
