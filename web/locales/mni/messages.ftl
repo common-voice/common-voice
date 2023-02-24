@@ -983,6 +983,20 @@ your-languages = ꯅꯍꯥꯛꯀꯤ ꯂꯣꯟꯁꯤꯡ
 toward-next-goal = ꯃꯊꯪꯒꯤ ꯄꯥꯟꯗꯝꯒꯤ ꯃꯥꯏꯀꯩꯗꯥ
 goal-reached = ꯄꯥꯟꯗꯝ ꯑꯗꯨ ꯌꯧꯔꯦ
 clips-you-recorded = ꯅꯍꯥꯛꯅꯥ ꯔꯦꯀꯣꯔꯗ ꯇꯧꯔꯕꯥ ꯀ꯭ꯂꯤꯞꯁꯤꯡ ꯫
+clips-you-validated = ꯅꯍꯥꯛꯅꯥ ꯆꯨꯝꯕ꯭ꯔꯥ ꯌꯦꯡꯂꯕ ꯀ꯭ꯂꯤꯞꯁꯤꯡ
+todays-recorded-progress = ꯔꯦꯀꯣꯔꯗ ꯇꯧꯔꯕꯥ ꯀ꯭ꯂꯤꯞꯁꯤꯡꯗꯥ ꯉꯁꯤꯒꯤ ꯀꯃꯟ ꯈꯣꯟꯖꯦꯜ ꯈꯨꯃꯥꯡ ꯆꯥꯎꯁꯤꯟꯕ ꯫
+todays-validated-progress = ꯆꯨꯝꯕ꯭ꯔꯥ ꯌꯦꯡꯂꯕꯥ ꯀ꯭ꯂꯤꯞꯁꯤꯡꯗꯥ ꯉꯁꯤꯒꯤ ꯀꯃꯟ ꯈꯣꯟꯖꯦꯜ ꯈꯨꯃꯥꯡ ꯆꯥꯎꯁꯤꯟꯕ ꯫
+stats = ꯋꯥꯡꯈꯠꯄ ꯍꯥꯏꯊꯔꯛꯄ ꯌꯦꯡꯕ
+awards = ꯃꯅꯥ ꯄꯤꯕꯥ
+you = ꯅꯍꯥꯛ
+everyone = ꯃꯤꯄꯨꯝ ꯈꯨꯗꯤꯡꯃꯛ
+contribution-activity = ꯁꯔꯨꯛꯌꯥꯕꯒꯤ ꯊꯕꯛ ꯊꯧꯔꯝ
+top-contributors = ꯃꯀꯣꯛ ꯊꯣꯡꯕꯥ ꯁꯔꯨꯛꯌꯥꯔꯤꯕꯁꯤꯡ꯫
+recorded-clips = ꯔꯦꯀꯣꯔꯗ ꯇꯧꯈꯤꯕꯥ ꯀ꯭ꯂꯤꯞꯁꯤꯡ
+validated-clips = ꯆꯨꯝꯕ꯭ꯔꯥ ꯌꯦꯡꯂꯕ ꯀ꯭ꯂꯤꯞ
+total-approved = ꯑꯄꯨꯟꯕꯥ ꯑꯌꯥꯕꯥ ꯄꯤꯈ꯭ꯔꯦ
+overall-accuracy = ꯑꯄꯨꯟꯕꯥ ꯑꯣꯏꯅꯥ ꯑꯆꯨꯝꯕꯥ
+set-visibility = ꯑꯩꯒꯤ ꯎꯕꯒꯤ ꯃꯑꯣꯡ ꯁꯦꯝꯃꯨ
 
 ## Custom Goals
 
