@@ -1121,6 +1121,12 @@ demo-welcome-subheader = ꯍꯦꯟꯅꯥ ꯇꯝꯁꯤꯟꯕꯥ ꯑꯃꯁꯨꯡ �
 ## Demo Datasets
 
 demo-language-select-card-header = ꯀꯃꯟ ꯈꯣꯟꯖꯦꯜ ꯑꯁꯤ ꯃꯥꯂꯦꯝꯒꯤ ꯈ꯭ꯋꯥꯏꯗꯒꯤ ꯆꯥꯎꯕꯥ ꯃꯤꯌꯥꯝꯅꯥ ꯁꯤꯖꯤꯟꯅꯕꯥ ꯌꯥꯕꯥ, ꯂꯣꯟ-ꯃꯌꯥꯝ ꯈꯣꯟꯖꯦꯜ ꯗꯦꯇꯥꯁꯦꯠꯅꯤ ꯫
+demo-language-select-card-body = ꯂꯣꯜ ꯵꯰ ꯍꯦꯟꯕꯗꯥ ꯃꯤꯑꯣꯏ ꯲꯵꯹k ꯍꯦꯟꯕꯒꯤ ꯁꯔꯨꯛꯌꯥꯕꯁꯤꯡꯅꯥ ꯃꯔꯝ ꯑꯣꯏꯗꯨꯅꯥ ꯗꯦꯇꯥ ꯑꯁꯤ ꯃꯤꯑꯣꯏꯕꯒꯤ ꯈꯣꯟꯖꯦꯜꯗꯥ ꯍꯦꯟꯅꯥ ꯐꯕꯥ ꯄꯥꯎꯈꯨꯝ ꯄꯤꯅꯕꯥ ꯋꯥ ꯉꯥꯡꯕꯥ ꯉꯝꯕꯥ ꯑꯦꯞꯂꯤꯀꯦꯁꯟꯁꯤꯡ ꯇꯝꯕꯤꯅꯕꯥ ꯁꯤꯖꯤꯟꯅꯔꯤ ꯫
+card-button-next = ꯃꯊꯪ
+card-button-back = ꯃꯇꯨꯡ
+demo-language-select-label = ꯂꯣꯟꯁꯤꯡ ꯐꯪꯍꯟꯕ
+demo-eofy-header = ꯲꯰꯱꯹ꯒꯤ ꯆꯍꯤ ꯂꯣꯏꯔꯕꯥ  ꯊꯥꯗꯣꯔꯛꯏ
+demo-eofy-sub_header = ꯈꯣꯟꯖꯦꯜ ꯗꯦꯇꯥꯁꯦꯠ, ꯆꯤꯡꯊꯅꯕꯥ ꯁꯦꯝ ꯁꯥꯕꯥ
 
 ## Demo Account
 
