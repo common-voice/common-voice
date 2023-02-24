@@ -997,9 +997,27 @@ validated-clips = ꯆꯨꯝꯕ꯭ꯔꯥ ꯌꯦꯡꯂꯕ ꯀ꯭ꯂꯤꯞ
 total-approved = ꯑꯄꯨꯟꯕꯥ ꯑꯌꯥꯕꯥ ꯄꯤꯈ꯭ꯔꯦ
 overall-accuracy = ꯑꯄꯨꯟꯕꯥ ꯑꯣꯏꯅꯥ ꯑꯆꯨꯝꯕꯥ
 set-visibility = ꯑꯩꯒꯤ ꯎꯕꯒꯤ ꯃꯑꯣꯡ ꯁꯦꯝꯃꯨ
+visibility-explainer = ꯁꯦꯇꯤꯡ ꯑꯁꯤꯅꯥ ꯅꯍꯥꯛꯀꯤ ꯂꯤꯗꯔꯕꯣꯔꯗꯀꯤ ꯎꯕꯒꯤ ꯃꯑꯣꯡ ꯂꯥꯛꯁꯤꯟꯂꯤ ꯫ ꯂꯣꯠꯁꯤꯜꯂꯕꯥ ꯃꯇꯝꯗꯥ ꯅꯍꯥꯛꯀꯤ ꯈꯨꯃꯥꯡ ꯆꯥꯎꯁꯤꯟꯕ ꯑꯗꯨ ꯄ꯭ꯔꯥꯏꯚꯦꯠ ꯑꯣꯏꯒꯅꯤ ꯫ ꯃꯁꯤꯅꯥ ꯇꯥꯛꯄꯗꯤ ꯅꯍꯥꯛꯀꯤ ꯏꯃꯦꯖ, ꯁꯤꯖꯤꯟꯅꯔꯤꯕ ꯃꯃꯤꯡ  ꯑꯃꯁꯨꯡ ꯈꯨꯃꯥꯡ ꯆꯥꯎꯁꯤꯟꯕ ꯑꯗꯨ ꯂꯤꯗꯔꯕꯣꯔꯗꯇꯥ ꯌꯥꯎꯔꯣꯏ ꯫ ꯂꯤꯗꯔꯕꯣꯔꯗ ꯔꯤꯐ꯭ꯔꯦꯁ ꯇꯧꯕꯗꯥ ꯑꯍꯣꯡꯕꯁꯤꯡ ꯄꯣꯄꯨꯂꯦꯠ ꯇꯧꯕꯗꯥ ~{ $minutes }min ꯆꯪꯏ ꯍꯥꯏꯕꯥ ꯈꯪꯖꯤꯟꯕꯤꯌꯨ꯫
+visibility-overlay-note = ꯈꯪꯖꯤꯟꯒꯗꯕꯥ: 'ꯎꯕ'ꯗꯥ ꯁꯦꯠ ꯇꯧꯕꯥ ꯃꯇꯝꯗꯥ, ꯁꯦꯇꯤꯡ ꯑꯁꯤ <profileLink>ꯄ꯭ꯔꯣꯐꯥꯏꯜ ꯂꯃꯥꯏ</profileLink>ꯗꯒꯤ ꯍꯣꯡꯗꯣꯛꯄꯥ ꯌꯥꯏ
+show-ranking = ꯑꯩꯒꯤ ꯔꯦꯉꯡꯀꯤꯡ ꯎꯠꯄꯥ
 
 ## Custom Goals
 
+get-started-goals = ꯄꯥꯟꯗꯃꯁꯤꯡꯒꯥ ꯂꯣꯏꯅꯅꯥ ꯍꯧꯗꯣꯛꯎ
+create-custom-goal = ꯅꯍꯥꯛꯀꯤ ꯑꯣꯏꯕ ꯄꯥꯟꯗꯝ ꯑꯃꯥ ꯁꯦꯝꯕꯥ
+goal-type = ꯑꯗꯣꯝꯅꯥ ꯀꯔꯤ ꯃꯈꯜꯒꯤ ꯄꯥꯟꯗꯝ ꯑꯃꯥ ꯁꯦꯝꯒꯠꯄꯥ ꯄꯥꯝꯂꯤꯕꯒꯦ?
+both-speak-and-listen = ꯑꯅꯤꯃꯛ
+both-speak-and-listen-long = ꯑꯅꯤꯃꯛ (ꯋꯥ ꯉꯥꯡꯕꯥ ꯑꯃꯁꯨꯡ ꯇꯥꯕꯥ)
+daily-goal = ꯅꯨꯡꯇꯤꯒꯤ ꯄꯥꯟꯗꯝ
+weekly-goal = ꯆꯌꯣꯜꯒꯤ ꯄꯥꯟꯗꯝ
+easy-difficulty = ꯑꯔꯥꯏꯕ
+average-difficulty = ꯆꯥꯡꯆꯠ
+difficult-difficulty = ꯑꯔꯨꯕ
+pro-difficulty = ꯄ꯭ꯔꯣ
+lose-goal-progress-warning = ꯅꯍꯥꯛꯀꯤ ꯄꯥꯟꯗꯝ ꯑꯗꯨ ꯑꯦꯗꯤꯠ ꯇꯧꯕꯅꯥ ꯅꯍꯥꯛꯀꯤ ꯍꯧꯖꯤꯛ ꯂꯩꯔꯤꯕꯥ ꯈꯨꯃꯥꯡ ꯆꯥꯎꯁꯤꯟꯕ ꯑꯗꯨ ꯃꯥꯡꯍꯟꯕꯥ ꯌꯥꯏ ꯫
+want-to-continue = ꯅꯍꯥꯛ ꯃꯈꯥ ꯆꯠꯊꯕꯥ ꯄꯥꯝꯕꯤꯕ꯭ꯔꯥ?
+finish-editing = ꯑꯍꯥꯟꯕꯗꯥ ꯑꯦꯗꯤꯇꯤꯡ ꯇꯧꯕꯥ ꯂꯣꯏꯁꯤꯟꯕꯔꯥ?
+lose-changes-warning = ꯍꯧꯖꯤꯛ ꯆꯠꯈꯤꯕꯥ ꯑꯁꯤꯅꯥ ꯅꯍꯥꯛꯀꯤ ꯑꯍꯣꯡꯕꯁꯤꯡ ꯑꯗꯨ ꯃꯥꯡꯍꯟꯒꯅꯤ ꯍꯥꯏꯕꯅꯤ
 
 ## Profile Delete
 
