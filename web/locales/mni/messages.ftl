@@ -643,12 +643,19 @@ about-playbook-how-grow-language-content-8 = <strong>ꯑꯅꯧꯕ ꯋꯥꯈꯜ�
 about-playbook-how-validate = ꯈꯣꯟꯖꯦꯜ ꯀ꯭ꯂꯤꯞ ꯑꯃꯥ ꯑꯦꯞꯔꯨꯕ ꯇꯧꯒꯗ꯭ꯔꯥ ꯍꯥꯏꯕꯗꯨ ꯑꯩꯅꯥ ꯀꯔꯝꯅꯥ ꯈꯪꯒꯅꯤ?
 about-playbook-how-validate-content-1 = ꯀꯔꯤꯒꯨꯝꯕꯥ ꯅꯍꯥꯛꯅꯥ ꯃꯈꯣꯏꯕꯨ <strong> ꯇꯥꯕꯥ</strong> ꯑꯃꯁꯨꯡ <strong>ꯃꯈꯣꯏꯕꯨ ꯂꯧꯁꯤꯟꯕꯥ</strong> ꯉꯝꯂꯕꯗꯤ ꯃꯍꯧꯁꯥꯅꯥ <strong>ꯑꯌꯥꯕꯥ ꯄꯤꯕꯥ</strong> ꯈ꯭ꯋꯥꯏꯗꯒꯤ ꯐꯩ ꯫
 about-playbook-how-validate-content-2 = <strong>ꯋꯥ ꯉꯥꯡꯕꯥ ꯃꯤꯑꯣꯏ ꯑꯗꯨꯅꯥ ꯅꯍꯥꯛꯀꯤ ꯏꯁꯥꯗꯒꯤ ꯇꯣꯉꯥꯟꯕꯥ ‘ꯑꯦꯀꯁꯦꯟꯠ ꯑꯃꯥ ꯂꯩꯕꯥ’ ꯀ꯭ꯂꯤꯞꯁꯤꯡ ꯊꯥꯗꯣꯛꯂꯣꯏꯗꯕꯅꯤ</strong> - ꯃꯁꯤ ꯃꯤꯄꯨꯝ ꯈꯨꯗꯤꯡꯃꯛꯀꯤꯗꯃꯛ ꯍꯦꯟꯅꯥ ꯐꯕꯥ ꯊꯕꯛ ꯇꯧꯅꯕꯒꯤꯗꯃꯛ ꯈꯣꯟꯖꯦꯜ ꯈꯪꯗꯣꯛꯄꯒꯤꯗꯃꯛ ꯃꯔꯨꯑꯣꯏ ꯫
+about-playbook-how-validate-content-3 = ꯅꯍꯥꯛꯅꯥ ꯈꯜꯂꯤꯕꯁꯤ ꯂꯩꯇꯣꯟ ꯁꯦꯡꯅ ꯉꯥꯡꯕ ꯑꯁꯤꯅꯥ <strong>ꯂꯧꯁꯤꯟꯕꯥ ꯉꯝꯗꯕꯥ</strong> ꯑꯣꯏꯍꯜꯂꯤ, ꯅꯠꯇ꯭ꯔꯒꯥ <strong>ꯃꯌꯥꯏ ꯑꯣꯏꯕꯥ ꯃꯅꯤꯡꯗꯒꯤ ꯈꯣꯟꯖꯦꯜ</strong> ꯑꯃꯥ ꯂꯩ, ꯅꯠꯇ꯭ꯔꯒꯥ <strong>ꯑꯇꯣꯞꯄꯥ ꯃꯤꯑꯣꯏꯁꯤꯡꯁꯨ ꯋꯥ ꯉꯥꯡꯂꯤ</strong>, ꯃꯗꯨꯒꯤ ꯃꯇꯨꯡꯗꯥ ꯅꯍꯥꯛꯅꯥ... ꯀ꯭ꯂꯤꯞ ꯑꯗꯨ ꯔꯤꯖꯦꯛꯇ ꯇꯧꯒꯗꯕꯅꯤ ꯫ <accuracyLink>ꯑꯩꯈꯣꯏꯒꯤ ꯑꯆꯨꯝꯕꯥ ꯃꯊꯧ ꯇꯥꯕ</accuracyLink>ꯗꯥ ꯑꯍꯦꯟꯕꯥ ꯋꯥꯔꯣꯜ ꯌꯦꯡꯕꯤꯌꯨ ꯫
+about-playbook-how-validate-content-4 = ꯀꯔꯤꯒꯨꯝꯕꯥ ꯀ꯭ꯂꯤꯞ ꯑꯃꯥ ꯃꯤꯑꯣꯏ ꯲ꯅꯥ ꯔꯤꯖꯦꯛꯇ ꯇꯧꯔꯕꯗꯤ, ꯃꯗꯨ ꯗꯦꯇꯥꯁꯦꯠꯀꯤ ꯇꯣꯉꯥꯟꯕꯥ ꯁꯕꯁꯦꯠ ꯑꯃꯗꯥ ꯊꯥꯗꯣꯛꯏ ꯫
 
 ## How to access dataset
 
+about-playbook-how-access-dataset = ꯑꯩꯅꯥ ꯀꯔꯝꯅꯥ ꯗꯦꯇꯥꯁꯦꯠ ꯑꯗꯨ ꯐꯪꯒꯅꯤ ꯑꯃꯁꯨꯡ ꯁꯤꯖꯤꯟꯅꯒꯅꯤ?
+about-playbook-how-access-dataset-content-1 = ꯅꯍꯥꯛꯅꯥ <datasetsPage>datasets ꯂꯃꯥꯏ</datasetsPage>ꯗꯥ ꯆꯠꯄꯥ ꯌꯥꯏ, ꯅꯍꯥꯛꯅꯥ ꯄꯥꯝꯂꯤꯕꯥ ꯚꯔꯁꯟ ꯑꯃꯁꯨꯡ ꯂꯣꯜ(ꯁꯤꯡ) ꯑꯗꯨ ꯈꯟꯕꯥ ꯌꯥꯏ, ꯑꯃꯁꯨꯡ ꯃꯁꯤ ꯆꯤꯡꯊꯕ ꯌꯥꯏ! ꯐꯥꯏꯜꯁꯤꯡ ꯑꯁꯤꯗꯥ <metadataLink>ꯑꯦꯁꯣꯁꯤꯑꯦꯠ ꯃꯦꯇꯥꯗꯦꯇꯥ</metadataLink>, ꯍꯥꯏꯕꯗꯤ ꯗꯦꯃꯣꯒ꯭ꯔꯥꯐꯤꯛ ꯋꯥꯔꯣꯜ ꯑꯃꯁꯨꯡ ꯗꯥꯇꯥ ꯆꯠꯅꯍꯟꯕ ꯂꯩ꯫ ꯗꯦꯇꯥꯁꯦꯠ ꯑꯗꯨ ꯆꯤꯡꯊꯕ ꯇꯧꯅꯕꯒꯤꯗꯃꯛ ꯅꯍꯥꯛꯅꯥ ꯏꯃꯦꯏꯜ ꯑꯦꯗ꯭ꯔꯦꯁ ꯑꯃꯥ ꯄꯤꯕꯥ ꯃꯊꯧ ꯇꯥꯏ ꯫
+about-playbook-how-access-dataset-content-2 = ꯀꯔꯤꯒꯨꯝꯕꯥ ꯅꯍꯥꯛꯅꯥ ꯑꯦꯑꯦꯁꯑꯥꯔ ꯃꯑꯣꯡꯁꯤꯡ ꯁꯦꯝꯅꯕꯥ ꯈꯨꯠꯂꯥꯏꯁꯤꯡ ꯊꯤꯔꯕꯗꯤ, ꯅꯍꯥꯛꯅꯥ ꯀꯝꯌꯨꯅꯤꯇꯤꯒꯤ ꯑꯇꯣꯞꯄꯥ ꯃꯤꯑꯣꯏꯁꯤꯡꯒꯥ <discourseLink>ꯗꯤꯁ꯭ꯀꯣꯔꯁ</discourseLink>ꯗꯥ ꯁꯝꯅꯍꯟꯕꯥ ꯌꯥꯏ ꯫
 
 ## How are decisions made
 
+about-playbook-how-project-governance = ꯊꯧꯔꯥꯡꯒꯤ ꯋꯥꯔꯦꯞꯁꯤꯡ ꯑꯁꯤ ꯀꯔꯝꯅꯥ ꯂꯧꯕꯒꯦ?
+about-playbook-how-project-governance-content-1 = ꯃꯣꯖꯤꯂꯥ ꯀꯃꯟꯈꯣꯟꯖꯦꯜ ꯑꯁꯤ ꯃꯥꯂꯦꯝ ꯄꯨꯝꯕꯒꯤ ꯑꯦꯛꯇꯤꯕꯤꯁ꯭ꯇꯁꯤꯡ, ꯂꯤꯉ꯭ꯒꯨꯏꯁ꯭ꯇꯁꯤꯡ, ꯗꯦꯇꯥ ꯁꯥꯏꯟꯇꯤꯁ꯭ꯇꯁꯤꯡ, ꯑꯦꯀꯥꯗꯦꯃꯤꯛꯁꯤꯡ ꯑꯃꯁꯨꯡ ꯁꯣꯐꯋꯦꯌꯔ ꯏꯟꯖꯤꯅꯤꯌꯔꯁꯤꯡꯒꯤ ꯇꯣꯞ ꯇꯣꯞꯄꯥ ꯀꯝꯝꯌꯨꯅꯤꯇꯤ ꯑꯃꯅꯥ ꯑꯣꯏꯊꯣꯛꯄꯥ ꯉꯝꯍꯜꯂꯤ ꯫ ꯊꯧꯔꯥꯡ ꯑꯁꯤ ꯃꯣꯖꯤꯂꯥ ꯐꯥꯎꯟꯗꯦꯁꯟꯅꯥ ꯁꯦꯝꯒꯠꯄꯅꯤ ꯫
 
 ## Glossary
 
