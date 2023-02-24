@@ -1018,6 +1018,19 @@ lose-goal-progress-warning = ꯅꯍꯥꯛꯀꯤ ꯄꯥꯟꯗꯝ ꯑꯗꯨ ꯑꯦ
 want-to-continue = ꯅꯍꯥꯛ ꯃꯈꯥ ꯆꯠꯊꯕꯥ ꯄꯥꯝꯕꯤꯕ꯭ꯔꯥ?
 finish-editing = ꯑꯍꯥꯟꯕꯗꯥ ꯑꯦꯗꯤꯇꯤꯡ ꯇꯧꯕꯥ ꯂꯣꯏꯁꯤꯟꯕꯔꯥ?
 lose-changes-warning = ꯍꯧꯖꯤꯛ ꯆꯠꯈꯤꯕꯥ ꯑꯁꯤꯅꯥ ꯅꯍꯥꯛꯀꯤ ꯑꯍꯣꯡꯕꯁꯤꯡ ꯑꯗꯨ ꯃꯥꯡꯍꯟꯒꯅꯤ ꯍꯥꯏꯕꯅꯤ
+build-custom-goal = ꯏꯁꯥꯒꯤ ꯑꯣꯏꯕ ꯄꯥꯟꯗꯝ ꯑꯃꯥ ꯁꯦꯃꯒꯠꯄꯥ
+help-reach-hours-pluralized =
+    { NUMBER($hours) ->
+        [one] ꯂꯅꯥꯏꯒꯤ ꯑꯣꯏꯕꯥ ꯄꯥꯟꯗꯝ ꯑꯃꯒꯥ ꯂꯣꯏꯅꯅꯥ { $hours } ꯄꯨꯡ ꯑꯃꯥ { $language }ꯗꯥ ꯌꯧꯍꯟꯕꯗꯥ ꯃꯇꯦꯡ ꯄꯥꯡꯕꯤꯌꯨ
+       *[other] Help reach { $hours } hours in { $language } with a personal goal
+    }
+help-reach-hours-general-pluralized =
+    { NUMBER($hours) ->
+        [one] ꯀꯃꯟ ꯈꯣꯟꯖꯦꯜꯅꯥ ꯂꯅꯥꯏꯒꯤ ꯑꯣꯏꯕꯥ ꯄꯥꯟꯗꯝ ꯑꯃꯥ ꯂꯩꯕꯥ ꯂꯣꯜ ꯑꯃꯗꯥ { $hours } ꯄꯨꯡ ꯌꯧꯍꯟꯕꯗꯥ ꯃꯇꯦꯡ ꯄꯥꯡꯕꯤꯌꯨ
+       *[other] Help Common Voice reach { $hours } hours in a language with a personal goal
+    }
+set-a-goal = ꯄꯥꯟꯗꯝ ꯑꯃꯥ ꯊꯝꯃꯨ
+cant-decide = ꯋꯥꯔꯦꯞ ꯂꯧꯕꯥ ꯉꯝꯗ꯭ꯔꯤꯕꯔꯥ?
 
 ## Profile Delete
 
