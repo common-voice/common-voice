@@ -943,6 +943,10 @@ report = ꯋꯥꯀꯠꯄ
 report-title = ꯋꯥꯀꯠ ꯱ ꯊꯥꯖꯤꯟꯕ
 report-ask = ꯋꯥꯍꯩ ꯑꯁꯤꯒꯥ ꯂꯣꯏꯅꯅꯥ ꯑꯗꯣꯝꯅꯥ ꯀꯔꯤ ꯈꯨꯗꯣꯡꯆꯥꯗꯕꯁꯤꯡ ꯊꯦꯡꯅꯔꯤꯕꯒꯦ?
 report-offensive-language = ꯁꯥꯎꯅꯤꯡꯍꯟꯕ ꯂꯣꯟ
+report-offensive-language-detail = ꯋꯥꯍꯩꯄꯔꯦꯡ ꯑꯗꯨꯗꯥ ꯏꯀꯥꯏ ꯈꯨꯝꯅꯗꯕꯥ ꯅꯠꯇ꯭ꯔꯒꯥ ꯐꯖꯗꯕ ꯂꯣꯜ ꯌꯥꯎꯔꯦ ꯫
+report-grammar-or-spelling = ꯂꯣꯟꯃꯤꯠ / ꯂꯣꯟꯆꯟ ꯑꯔꯥꯟꯕ
+report-grammar-or-spelling-detail = ꯋꯥꯍꯩꯄꯔꯦꯡ ꯑꯁꯤ ꯂꯣꯟꯃꯤꯠ ꯅꯠꯇ꯭ꯔꯒ ꯂꯣꯟꯆꯟ ꯑꯔꯥꯟꯕ ꯌꯥꯎꯔꯦ ꯫
+report-different-language = ꯇꯣꯉꯥꯟ ꯇꯣꯉꯥꯟꯕꯥ ꯂꯣꯜ
 
 ## Goals
 
