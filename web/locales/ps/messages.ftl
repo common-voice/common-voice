@@ -625,6 +625,7 @@ about-playbook-how-localize-content-5 = د مرستې لپاره زموږ ویډ
 about-playbook-how-add-sentences = څنګه جملې اضافه کړم؟
 about-playbook-how-add-sentences-content-1 = <strong>د جملې راټولونکی</strong> د عامه ډومین جملو راټولولو او اعتبار کولو لپاره یوه وسیله ده. تاسو به <scAccountLink> ته اړتیا ولرئ چې یو حساب جوړ کړئ</scAccountLink>. بیا، خپله ژبه په خپل <strong>پروفایل</strong> کې اضافه کړئ. تاسو کولی شئ جملې <strong>اضافه کړئ</strong> یا <strong>بیا کتنه</strong> مخکې اضافه شوي جملې.
 about-playbook-how-add-sentences-content-2 = جملې باید بیاکتنه وشي او د دوه خلکو لخوا ومنل شي ترڅو په عام غږ کې شامل شي. تاسو د خپلې ژبې لپاره لارښودونه <languageGuidelinesLink>دلته</languageGuidelinesLink> جوړ کړئ. جملې باید په <licenseLink> عامه ډومین</licenseLink> کې وي او د 15 کلمو څخه لنډې وي. تاسو کولی شئ د متن له مالک څخه وغواړئ چې دا زموږ د معافیت پروسې په کارولو سره <waiverLink>CC0</waiverLink> جوړ کړي، او موږ ته په commonvoice@mozilla.com ولیږئ.
+about-playbook-how-add-sentences-content-3 = تاسو کولی شئ د ویکیپیډیا څخه د لنډو جملو د ګټې اخیستنې لپاره <scraperLink>Sentence Extractor</scraperLink> وکاروئ.
 about-playbook-how-add-sentences-content-4 = هغه جملې چې تایید شوي د څلورنۍ په ورځ صادریږي، او د راتلونکي خپريدو وروسته شتون لري.
 
 ## How to record quality
@@ -634,11 +635,15 @@ about-playbook-how-record-content-1 = په خپل عادي غږ خبرې وکړ�
 about-playbook-how-record-content-2 = د ډیر شالید شور څخه مخنیوی وکړئ - ستاسو اوریدل بايد اسانه وي.
 about-playbook-how-record-content-3 = جمله په دقت سره ولولئ - مه يې د ځانه تيروئ، بدلوئ یا لغات وراضافه کوئ.
 about-playbook-how-record-content-4 = ډاډ ترلاسه کړئ چې پلیټ فارم ثبت کوي مخکې له دې چې تاسو خبرې پیل کړئ، او یوازې هغه وخت ودریږي کله چې تاسو پای ته ورسیږئ.
+about-playbook-how-record-content-5 = <accuracyLink>د دقت په معیارونو نور وګورئ.</accuracyLink>
 
 ## How to grow language
 
 about-playbook-how-grow-language = موږ څنګه  په عام غږ کې ژبه په مؤثره  توګه وده کولی شو؟
 about-playbook-how-grow-language-content-1 = د خلکو تنوع لپاره د فرصتونو رامینځته کول چې په عام غږ کې برخه واخلي ډاډ ترلاسه کوي چې ډیټاسیټ د امکان تر حده ډیرو خلکو ته خدمت کوي. موږ سرچینې او ټیمپلیټونه جوړ کړي دي چې تاسو یې کارولی شئ!
+about-playbook-how-grow-language-content-2 = پیښې
+about-playbook-how-grow-language-content-3 = تاسو  پیښې ترسره کولی شئ ترڅو خلک د سره مرسته وکړي. دا ستاسو د فکر په پرتله اسانه ده. تاسو دا د ویډیو کنفرانس کولو وسیلې سره آنلاین ترسره کولی شئ ، یا په شخصي توګه که دا خوندي وي. <eventTemplate>د پیښو د چلولو لپاره زموږ ټیمپلیټونه او سرچینې وګورئ</eventTemplate>.
+about-playbook-how-grow-language-content-4 = ټولنیز رسنۍ
 about-playbook-how-grow-language-content-5 = تاسو کولی شئ د پیغام ترلاسه کولو لپاره د ټولنیزو رسنیو پلیټ فارمونه وکاروئ. پوسټونه شریک کړئ چې تشریح کړي چې ولې دا مهم دي، او د نورو خلکو سره اړیکه ونیسئ لکه د ژبې حقونه، غږ AI، یا په ټیکنالوژۍ کې تعصب. د <compaignLink> د ټولنیز کمپاین د چلولو په اړه نور مشورې وګورئ، په شمول هغه مواد چې تاسو یې بیا کارولی شئ</campaignLink>.
 about-playbook-how-grow-language-content-6 = شراکتونه او شبکې
 about-playbook-how-grow-language-content-7 = نور پیدا کړئ څوک چې پاملرنه کوي. دا کیدای شي پوهنتونونه، د ژبې ښوونځي، د مدافعې ډلې یا د معلوماتو ساینس ټولنې وي. ورشئ او په واضح ډول تشریح کړئ چې دوی څنګه مرسته کولی شي او ولې. <outreachTemplates>زموږ د بریښنالیکونه د رسونې ټیمپلیټ وګورئ</outreachTemplates>.
@@ -646,13 +651,28 @@ about-playbook-how-grow-language-content-8 = <strong>تخلیق پیدا کړئ!
 
 ## How to validate
 
+about-playbook-how-validate = زه څنګه پوهیږم چې ایا د غږ کلپ تصویب کول؟
+about-playbook-how-validate-content-1 = که تاسو کولی شئ <strong>دوی واورئ</strong> او <strong>پوهیږئ</strong>، دا معمولا<strong>غوره ده چې تصویب کړئ</strong>.
+about-playbook-how-validate-content-2 = <strong>کلیپونه مه ردوئ چیرې چې خبرې کوونکی یو تلفظ لري چې ستاسو له ځان سره توپیر لري</strong> - دا د غږ پیژندلو لپاره مهم دی ترڅو د هرچا لپاره ښه کار وکړي.
+about-playbook-how-validate-content-3 = که تاسو فکر کوئ چې تلفظ یې د پوهیدو لپاره ناشونی دی</strong>، یا دلته <strong>ډیر شالید شور</strong> شتون لري، یا هلته <strong>نور خلک هم خبرې کوي</strong>، نو تاسو باید کلیپ رد کړي. <accuracyLink>زموږ د دقت په معیارونو کې نور معلومات وګورئ</accuracyLink>.
+about-playbook-how-validate-content-4 = که یو کلیپ د 2 خلکو لخوا رد شي، دا د ډیټاسیټ په مختلف فرعي سیټ کې خپور شوی.
 
 ## How to access dataset
 
+about-playbook-how-access-dataset = زه څنګه ډیټا سیټ ته لاسرسی او کارولی شم؟
 about-playbook-how-access-dataset-content-1 = تاسو کولی شئ <datasetsPag>ډاټاسیټونه پاڼې</datasetsPage> ته لاړ شئ، هغه نسخه او ژبه غوره کړئ چې تاسو یې غواړئ، او ډاونلوډ یې کړئ! فایلونه <metadataLink> تړلي میټاډاټا</metadataLink> لري، لکه د ډیموګرافیک معلومات او د اعتبار ډاټا. تاسو به د ډیټاسیټ ډاونلوډ کولو لپاره د بریښنالیک پته چمتو کولو ته اړتیا ولرئ.
+about-playbook-how-access-dataset-content-2 = که تاسو د ASR موډلونو جوړولو لپاره د وسیلو په لټه کې یاست، تاسو کولی شئ په ټولنه کې د نورو خلکو سره اړیکه ونیسئ <discourseLink> on Discourse</discourseLink>.
 
 ## How are decisions made
 
+about-playbook-how-project-governance = د پروژې پریکړې څنګه کیږي؟
+about-playbook-how-project-governance-content-1 = د موزیلا کامن غږ د نړۍ له ګوټ ګوټ څخه د فعالینو، ژبپوهانو، ډیټا ساینس پوهانو، اکادمیکانو او سافټویر انجینرانو د متنوع ټولنې لخوا ممکنه شوی. دا پروژه د موزیلا فاونډیشن لخوا اداره کیږي.
+about-playbook-how-project-governance-content-2 = زموږ حکومتوالۍ په لاندې ستنو ولاړه ده:
+about-playbook-how-project-governance-content-3 = محرمیت، امنیت او روڼتیا.
+about-playbook-how-project-governance-content-4 = د ټولنې ګډون او پریکړې کول.
+about-playbook-how-project-governance-content-5 = ارزښت او پیژندنه.
+about-playbook-how-project-governance-content-6 = متقابل حساب ورکول.
+about-playbook-how-project-governance-content-7 = <governanceLink>په دې اړه نور ولولئ چې موږ څنګه اداره کوو</governanceLink>
 
 ## Glossary
 
@@ -711,6 +731,7 @@ review-delete-recordings = زما ثبتونه ړنګ کړئ
 
 ## Datasets Page
 
+datasets-heading = ډیټاسیټونه
 datasets-headline = موږ د غږونو یو د آزاد کوډ، ګڼ ژبې ډېټاسیټ جوړ وو چې هرڅوک کولی شي د وینا-وړ کاریالونو روزلو لپاره ترې کار واخلي.
 datasets-positioning =
     موږ باور لرو چې لوی او په عامه توګه موجود غږیز ډېټاسیټونه د ماشین زده کړې پرمټ ویناو ټیکنالوژۍ کې نوښت او سالم تجارتي سیالۍ پیاوړه کوي. 
@@ -719,7 +740,9 @@ datasets-positioning =
     
     دې پاڼې ته د نورو آزاد کوډ غږیز ډېټاسیټونو لپاره د ماخذ مرکز په توګه وګورئ او لکه څنګه چې عام غږ وده کوي، دا زموږ د خپراوي په اړه تازه مالوماتو لپاره کور دي.
 language = ژبه
+download-dataset-header = ډیټاسیټ ډاونلوډ کړئ
 download-delta-explainer = موږ ځینې بدلونونه کړي دي. د ډیلټا برخې یوازې د وروستي خوشې کیدو راهیسې خورا وروستي کلپونه لري. <deltaLink>د دې کار په اړه نور ولولئ</deltaLink>.
+download-dataset-tag = د غوښتل شوي ژبې ډیټاسیټ غوره کړئ او هغه نسخه غوره کړئ چې تاسو یې ډاونلوډ کول غواړئ.
 # File size in gigabytes
 size = اندازه
 validated-hr-total = باوري شوي ساعت ټولټال
