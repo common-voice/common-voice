@@ -592,12 +592,29 @@ about-playbook-what-is-language-content-3 = ځینې ​​ژبې په ګرام�
 ## How do I add a language
 
 about-playbook-how-add-language = زه څنګه يو ژبه اضافه کړم؟
+about-playbook-how-add-language-content-1 =
+    لومړی، وګورئ چې آیا ستاسو ژبه <languageLink>مخکې شتون لري</languageLink>.
+    که دا نه وي، تاسو  <languageRequestLink>د خپلې ژبې د اضافه کولو په اړه پوښتنه وکړئ</languageRequestLink>.
+    دوه مرحلې شتون لري. د سایټ ژباړه، او د جملو راټولول
 about-playbook-how-add-language-translating-heading = د سایټ ژباړه
+about-playbook-how-add-language-translating-content-1 = <translateVideoLink>د پونټون کارولو څرنګوالي په اړه زموږ لارښود وګورئ.</translateVideoLink>
+about-playbook-how-add-language-translating-content-2 =
+    موږ د ژباړې لپاره د موزیلا وسیله کاروو چې <pontoonLink>Pontoon</pontoonLink> نومیږي. پونټون ډیرې ژبې لري
+    مګر که دا ستاسو نه وي تاسو  <pontoonRequestLink>د خپلې ژبې د اضافه کولو غوښتنه کولی شئ</pontoonRequestLink>.
+    بیا، دعام غږ په پروژه کې د ژبې چمتو کولو لپاره،
+    <githubRepoLink>په GitHub کې د نوې ژبې غوښتنه وکړئ</githubRepoLink>. <localizationFragment>د سایټ په ژباړه کې نور وګورئ</localizationFragment>.
 about-playbook-how-add-language-collecting-sentences-heading = د جملو راټولول
+about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>د جملې راټولونکی د کارولو په اړه زموږ لارښود وګورئ</sentenceCollectorVideo>.
+about-playbook-how-add-language-collecting-sentences-content-2 =
+    تاسو کولی شئ <sentenceCollectorLinkAdd> لږ شمیر جملې اضافه کړئ</sentenceCollectorLinkAdd>،
+    یا تاسو کولی شئ <bulkImportDocsLink>د Github</bulkImportDocsLink> په کارولو سره ډیری واردات ترسره کړئ.
+    په یاد ولرئ چې جملې باید <licenseLink>CC0 (یا عامه ډومین)</licenseLink> وي، یا تاسو کولی شئ خپل ځان ولیکئ.
+about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>د جملې په ټولګه کې نور وګورئ</sentenceCollectorFragment>.
 
 ## How does localization work
 
 about-playbook-how-localize = د سایټ سیمه ایز کول  څنګه کار کوي؟
+about-playbook-how-localize-content-1 = د عام غږ سایټ ژباړه په <strong>Pontoon</strong> کې کیږي.
 about-playbook-how-localize-content-2 = <pontoonAccountLink>یو حساب جوړ کړئ</pontoonAccountLink> که تاسو نه لرئ. بیا، خپله ژبه غوره کړئ <strong>('ټیم')</strong> او بیا پروژه غوره کړئ، <pontoonCvLink>عام غږ</pontoonCvLink>. د ژباړې لپاره به فایلونه وي. په یوه باندې کلیک وکړئ، بیا دا په انګلیسي کې ټکي او د هغوی د ژباړلو لپاره بکس ښیې.
 about-playbook-how-localize-content-5 = د مرستې لپاره زموږ ویډیوي تشریح وګورئ
 
