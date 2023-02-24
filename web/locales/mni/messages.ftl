@@ -1259,6 +1259,8 @@ contribution-background-voices-example-1-explanation = ꯅꯪ ꯂꯥꯛꯂꯤꯕ
 contribution-volume-title = ꯍꯧꯕꯒꯤ ꯆꯥꯡ
 contribution-volume-description = ꯄꯥꯔꯤꯕꯁꯤꯡꯒꯤ ꯃꯔꯛꯇꯥ ꯍꯧꯕꯒꯤ ꯃꯍꯧꯁꯥꯒꯤ ꯑꯣꯏꯕꯥ ꯈꯦꯠꯅꯕꯥ ꯂꯩꯒꯅꯤ ꯫ ꯚꯣꯜꯌꯨꯝ ꯑꯗꯨ ꯔꯦꯀꯣꯔꯗꯤꯡ ꯑꯗꯨ ꯊꯨꯒꯥꯏꯔꯛꯄꯥ ꯃꯇꯝꯗꯥ ꯚꯣꯜꯌꯨꯝ ꯑꯗꯨ ꯌꯥꯝꯅꯥ ꯋꯥꯡꯂꯕꯗꯤ, ꯅꯠꯇ꯭ꯔꯒꯥ (ꯍꯦꯟꯅꯥ ꯀꯃꯟ ꯑꯣꯏꯅꯥ) ꯀꯔꯤꯒꯨꯝꯕꯥ ꯃꯗꯨ ꯌꯥꯝꯅꯥ ꯅꯦꯝꯂꯕꯗꯤ ꯅꯍꯥꯛꯅꯥ ꯑꯏꯕꯥ ꯋꯥꯍꯩ ꯑꯗꯨꯒꯤ ꯃꯇꯥꯡꯗꯥ ꯔꯤꯐꯔꯦꯟꯁ ꯇꯧꯗꯅꯥ ꯍꯥꯏꯔꯤꯕꯥ ꯑꯗꯨ ꯇꯥꯕꯥ ꯉꯝꯗ꯭ꯔꯕꯈꯛꯇꯗꯥ ꯔꯤꯖꯦꯛꯇ ꯇꯧ ꯫
 contribution-reader-effects-title = ꯄꯥꯔꯤꯕꯁꯤꯡꯗ ꯁꯣꯛꯄꯁꯤꯡ
+contribution-reader-effects-description = ꯑꯌꯥꯝꯕꯥ ꯔꯦꯀꯣꯔꯗꯤꯡꯁꯤꯡꯗꯤ ꯃꯤꯌꯥꯝꯅꯥ ꯃꯈꯣꯏꯒꯤ ꯃꯍꯧꯁꯥꯒꯤ ꯈꯣꯟꯖꯦꯜꯗꯥ ꯋꯥꯔꯤ ꯁꯥꯅꯕꯅꯤ ꯫ ꯃꯇꯝ ꯃꯇꯝꯒꯤ ꯑꯣꯏꯅꯥ ꯂꯥꯎꯊꯣꯛꯄꯥ, ꯋꯥ ꯉꯥꯡꯕꯥ ꯅꯠꯇ꯭ꯔꯒꯥ ꯃꯌꯦꯛ ꯁꯦꯡꯅꯥ ‘ꯅꯥꯠꯀꯤ ꯑꯣꯏꯕꯥ’ ꯈꯣꯟꯖꯦꯜ ꯑꯃꯗꯥ ꯄꯤꯕꯥ ꯅꯟ-ꯁ꯭ꯇꯦꯟꯗꯔꯗ ꯔꯦꯀꯣꯔꯗꯤꯡ ꯑꯗꯨ ꯅꯍꯥꯛꯅꯥ ꯌꯥꯕꯥ ꯌꯥꯏ ꯫ ꯆꯥꯟꯕꯤꯗꯨꯅꯥ ꯏꯁꯩ ꯅꯣꯡꯃꯥꯏꯒꯤ ꯔꯦꯀꯣꯔꯗꯁꯤꯡ ꯑꯃꯁꯨꯡ ꯀꯝꯞꯌꯨꯇꯔꯅꯥ ꯁꯦꯝꯕꯥ ꯈꯣꯟꯖꯦꯜ ꯁꯤꯖꯤꯟꯅꯔꯤꯕꯁꯤꯡ ꯑꯗꯨ ꯌꯥꯕꯤꯒꯅꯨ ꯫
+contribution-just-unsure-title = ꯁꯣꯌꯗꯅꯥ ꯂꯩꯕ꯭ꯔꯥ?
 
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
