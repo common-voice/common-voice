@@ -947,12 +947,42 @@ report-offensive-language-detail = ꯋꯥꯍꯩꯄꯔꯦꯡ ꯑꯗꯨꯗꯥ ꯏ�
 report-grammar-or-spelling = ꯂꯣꯟꯃꯤꯠ / ꯂꯣꯟꯆꯟ ꯑꯔꯥꯟꯕ
 report-grammar-or-spelling-detail = ꯋꯥꯍꯩꯄꯔꯦꯡ ꯑꯁꯤ ꯂꯣꯟꯃꯤꯠ ꯅꯠꯇ꯭ꯔꯒ ꯂꯣꯟꯆꯟ ꯑꯔꯥꯟꯕ ꯌꯥꯎꯔꯦ ꯫
 report-different-language = ꯇꯣꯉꯥꯟ ꯇꯣꯉꯥꯟꯕꯥ ꯂꯣꯜ
+report-different-language-detail = ꯑꯩꯅꯥ ꯉꯥꯡꯂꯤꯕꯥ ꯑꯁꯤꯗꯒꯤ ꯇꯣꯉꯥꯟꯕꯥ ꯂꯣꯟ ꯑꯃꯗꯥ ꯏꯔꯦ ꯫
+report-difficult-pronounce = ꯐꯣꯡꯗꯣꯛꯄꯥ ꯌꯥꯝꯅꯥ ꯂꯨꯕꯥ
+report-difficult-pronounce-detail = ꯃꯁꯤꯗꯥ ꯄꯥꯕꯥ ꯅꯠꯇ꯭ꯔꯒꯥ ꯋꯥꯍꯟꯊꯣꯛ ꯄꯤꯕꯥ ꯉꯝꯗꯕꯥ ꯋꯥꯍꯩ ꯅꯠꯇ꯭ꯔꯒꯥ ꯋꯥꯍꯩ ꯄꯔꯦꯡꯁꯤꯡ ꯌꯥꯑꯣꯏ ꯫
+report-offensive-speech = ꯁꯥꯎꯅꯤꯡꯒꯗꯕ ꯋꯥꯉꯥꯡ
+report-offensive-speech-detail = ꯀ꯭ꯂꯤꯞ ꯑꯁꯤꯗꯥ ꯏꯀꯥꯏ ꯈꯨꯝꯅꯗꯕꯥ ꯅꯠꯇ꯭ꯔꯒꯥ ꯁꯥꯎꯅꯤꯡꯒꯗꯕ ꯂꯣꯜ ꯌꯥꯎꯔꯦ ꯫
+report-other-comment =
+    .placeholder = ꯋꯥꯐꯝ ꯊꯝꯕ
+success = ꯃꯥꯏꯄꯥꯛꯄ
+continue = ꯃꯈꯥ ꯆꯠꯊꯕ
+report-success = ꯋꯥꯀꯠ ꯑꯁꯤ ꯃꯥꯏꯄꯥꯛꯅꯥ ꯄꯥꯁ ꯇꯧꯈꯤ ꯫
 
 ## Goals
 
+streaks = ꯄꯥꯟꯗꯝ
+days =
+    { $count ->
+        [one] ꯅꯨꯃꯤꯠ
+       *[other] Days
+    }
+recordings =
+    { $count ->
+        [one] ꯔꯦꯀꯣꯔꯗ
+       *[other] Recordings
+    }
+validations =
+    { $count ->
+        [one] ꯆꯠꯅꯍꯟꯕ
+       *[other] Validations
+    }
 
 ## Dashboard
 
+your-languages = ꯅꯍꯥꯛꯀꯤ ꯂꯣꯟꯁꯤꯡ
+toward-next-goal = ꯃꯊꯪꯒꯤ ꯄꯥꯟꯗꯝꯒꯤ ꯃꯥꯏꯀꯩꯗꯥ
+goal-reached = ꯄꯥꯟꯗꯝ ꯑꯗꯨ ꯌꯧꯔꯦ
+clips-you-recorded = ꯅꯍꯥꯛꯅꯥ ꯔꯦꯀꯣꯔꯗ ꯇꯧꯔꯕꯥ ꯀ꯭ꯂꯤꯞꯁꯤꯡ ꯫
 
 ## Custom Goals
 
