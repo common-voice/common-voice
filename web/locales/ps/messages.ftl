@@ -1169,6 +1169,7 @@ contribution-background-noise-description = موږ غواړو چې د ماشین
 contribution-background-noise-description-extended = که ریکارډ مات شي، یا کریکونه ولري، رد کړئ پرته لدې چې ټول متن لاهم واوریدل شي.
 contribution-background-noise-example-1-fixed-title = <strong>[پرنجی]</strong> د لوی ډیناسور د <strong>[ټوخی]</strong>  ټریاسیک.
 contribution-background-noise-example-2-fixed-title = لوی ډینو <strong>[ټوخی]</strong> تریاسیک.
+contribution-background-voices-description = یو خاموش شالید شور سم دی، مګر موږ اضافي غږونه نه غواړو چې کیدای شي د ماشین الګوریتم لامل شي چې هغه ټکي وپیژني چې په لیکل شوي متن کې ندي. که تاسو د متن څخه د شالید شور کې پوهېدلو وړ کلمې واورئ، کلیپ باید رد شي. معمولا دا واقع کیږي چیرې چې تلویزیون پریښودل شوی وي، یا چیرې چې نږدې خبرې اترې روانې وي.
 contribution-background-voices-description-extended = که ریکارډ مات شي، یا کریکونه ولري، رد کړئ پرته لدې چې ټول متن لاهم واوریدل شي.
 contribution-background-voices-example-1-title = د ټریاسیک لوی ډیناسور. <strong>[په یو غږ لوستل]</strong>
 contribution-background-voices-example-1-explanation = ته راځې؟ <strong>[د بل لخوا ویل کیږي]</strong>
