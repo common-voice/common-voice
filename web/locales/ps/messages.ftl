@@ -192,6 +192,7 @@ ts = شیتسونګا
 tt = تاتاري
 tw = توي
 ty = تایتیاني
+tyv = تووان
 uby = اوبیخي
 udm = اډمورټي
 ug = اویغوري
@@ -572,6 +573,7 @@ about-get-involved-text-2 =
 about-stay-in-touch = زه څنګه په اړيکه کې پاتې شم؟
 about-stay-in-touch-button = ګډون کول
 about-stay-in-touch-text-1 = زموږ د بریښنالیک لیست <emailFragment>لپاره نوم لیکنه وکړئ</emailFragment> د دې زده کولو لپاره چې تاسو څنګه ګډون کولی شئ  په عام غږ کې په کمپاینونو، پیښو او ګډ ډیزاین ځانګړتیاو کې.
+about-stay-in-touch-text-2 = تاسو کولی شئ د موزیلا ژبو ټولنو کې د موضوعي خبرو اترو لپاره د <discourseLink>Discourse</discourseLink> سره یوځای کیدو سره، یا د چټک مشورې لپاره <matrixLink>Matrix</matrixLink> سره لیدنه وکړئ.
 about-nav-why-common-voice = ولې؟
 about-nav-how-it-works = څنګه؟
 about-nav-partners = شریکان
@@ -584,6 +586,8 @@ about-nav-playbook = زده کړئ چې څنګه برخه واخلئ
 
 about-playbook-what-is-language = په عام غږ کې يو ژبه څه ده؟
 about-playbook-what-is-language-content-1 = د ژبې په اړه فکر کولو لپاره ډیری لارې شتون لري. د وینا د پیژندنې ماډلونو لپاره، عام غږ وړاندیز کوي چې په متقابل پوهاوي تمرکز وکړي، یا "ایا د دې ژبې ویونکي اکثرا یو بل پوهیږي که دوی هڅه وکړي؟"
+about-playbook-what-is-language-content-2 = موږ غواړو چې د وینا ماډلونه د سپیکرو د متنوع سلسلې په پوهیدو کې غوره وي. د دې لپاره چې پیښ شي، د غږ ډیټاسیټ باید د ډیری مختلف خلکو استازیتوب وکړي.
+about-playbook-what-is-language-content-3 = ځینې ​​ژبې په ګرامر، لغتونو او تلفظ کې خورا لوی توپیر لري. د همدې دلیل لپاره، موږ په 2022 کې <ctaLink>متغیرات معرفي کوو</ctaLink>- دا ټولنو ته یوه لاره ورکوي چې خپلې ژبې په لوی ډیټاسیټ کې توپیر کړي.
 
 ## How do I add a language
 
