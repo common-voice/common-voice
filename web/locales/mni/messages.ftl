@@ -1161,6 +1161,17 @@ contribution-misreadings-description-extended-list-1 = ꯔꯦꯀꯣꯔꯗꯤꯡ�
 contribution-misreadings-description-extended-list-2 = ꯋꯥꯍꯩ ꯑꯃꯒꯤ ꯑꯔꯣꯏꯕꯗꯥ <strong>ꯒꯤ</strong> ꯑꯃꯥ ꯃꯥꯡꯈꯤꯕꯥ ꯫
 contribution-misreadings-description-extended-list-3 = ꯇꯁꯦꯡꯅꯥ ꯂꯩꯇꯕꯥ ꯀꯟꯠꯔꯦꯀꯁꯅꯁꯤꯡ ꯄꯥꯕꯥ, ꯃꯗꯨꯗꯤ "ꯑꯩꯈꯣꯏꯅꯥ ꯂꯩꯔꯤ" ꯍꯥꯏꯕꯁꯤꯒꯤ ꯃꯍꯨꯠꯇꯥ "ꯑꯩꯈꯣꯏꯅꯥ ꯂꯩꯔꯤ" ꯍꯥꯏꯕꯁꯤꯅꯤ, ꯅꯠꯇ꯭ꯔꯒꯥ ꯃꯁꯤꯒꯤ ꯑꯀꯣꯟꯕꯥ ꯑꯣꯏꯅꯥ ꯫
 contribution-misreadings-description-extended-list-4 = ꯔꯦꯀꯣꯔꯗꯤꯡ ꯑꯗꯨ ꯌꯥꯝꯅꯥ ꯊꯨꯅꯥ ꯀꯛꯊꯗꯨꯅꯥ ꯑꯔꯣꯏꯕꯥ ꯋꯥꯍꯩ ꯑꯗꯨꯒꯤ ꯑꯔꯣꯏꯕꯥ ꯑꯗꯨ ꯃꯥꯡꯍꯅꯕꯥ ꯫
+contribution-misreadings-description-extended-list-5 = ꯋꯥꯍꯩ ꯑꯃꯥ ꯇꯣꯏꯅ ꯄꯥꯅꯕꯥ ꯍꯣꯠꯅꯕꯥ ꯀꯌꯥꯃꯔꯣꯝ ꯂꯩ  ꯫
+contribution-misreadings-example-1-title = ꯇ꯭ꯔꯥꯏꯑꯦꯁꯤꯀꯀꯤ ꯑꯆꯧꯕꯥ ꯗꯥꯏꯅꯣꯁꯥꯔꯁꯁꯤꯡ ꯫
+contribution-misreadings-example-2-title = ꯇ꯭ꯔꯥꯏꯑꯦꯁꯤꯀꯀꯤ ꯑꯆꯧꯕꯥ ꯗꯥꯏꯅꯣꯁꯥꯔꯁ ꯫
+contribution-misreadings-example-2-explanation = [‘ꯗꯥꯏꯅꯣꯁꯔ’ ꯑꯣꯏꯒꯗꯕꯅꯤ]
+contribution-misreadings-example-3-title = ꯇ꯭ꯔꯥꯏꯑꯦꯁꯤꯒꯤ ꯑꯆꯧꯕꯥ ꯗꯥꯏꯅꯣꯁꯔꯁꯤꯡ-...
+contribution-misreadings-example-3-explanation = [ꯑꯔꯣꯏꯕꯥ ꯋꯥꯍꯩ ꯂꯣꯏꯗ꯭ꯔꯤꯉꯩꯒꯤ ꯃꯃꯥꯡꯗꯥ ꯔꯦꯀꯣꯔꯗ ꯇꯧꯕꯥ]
+contribution-misreadings-example-4-title = ꯇ꯭ꯔꯥꯏꯑꯦꯁꯤꯀꯀꯤ ꯑꯆꯧꯕꯥ ꯗꯥꯏꯅꯣꯁꯥꯔꯁꯁꯤꯡ ꯫ ꯍꯣꯏ ꯫
+contribution-misreadings-example-4-explanation = [ꯃꯊꯧ ꯇꯥꯕꯥ ꯇꯦꯛꯁꯇꯒꯤ ꯍꯦꯟꯅꯥ ꯔꯦꯀꯣꯔꯗ ꯇꯧꯈ꯭ꯔꯦ]
+contribution-misreadings-example-5-title = ꯑꯩꯈꯣꯏ ꯀꯣꯐꯤ ꯂꯧꯅꯕꯥ ꯆꯠꯂꯤ ꯫
+contribution-misreadings-example-6-title = ꯑꯩꯈꯣꯏ ꯀꯐꯤ ꯂꯧꯅꯕꯥ ꯆꯠꯂꯤ꯫
+contribution-misreadings-example-6-explanation = [“ꯑꯩꯈꯣꯏꯅꯥ” ꯍꯥꯏꯕꯁꯤ ꯑꯣꯏꯒꯗꯕꯅꯤ]
 
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
