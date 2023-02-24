@@ -729,15 +729,27 @@ datasets-positioning =
     
     ꯄꯦꯖ ꯑꯁꯤ ꯑꯇꯣꯞꯄꯥ ꯑꯣꯄꯟ ꯁꯣꯔꯁ ꯚꯣꯏꯁ ꯗꯦꯇꯥꯁꯦꯇꯁꯤꯡꯒꯤ ꯔꯦꯐꯥꯔꯦꯟꯁ ꯍꯕ ꯑꯃꯥ ꯑꯣꯏꯅꯥ ꯌꯦꯡꯕꯤꯌꯨ ꯑꯃꯁꯨꯡ ꯀꯃꯟ ꯚꯣꯏꯁ ꯑꯁꯤ ꯃꯈꯥ ꯇꯥꯅꯥ ꯍꯦꯅꯒꯠꯂꯀꯄꯒꯥ ꯂꯣꯌꯅꯅꯥ ꯑꯩꯈꯣꯌꯒꯤ ꯔꯤꯂꯤꯖ ꯑꯄꯗꯦꯇꯁꯤꯡꯒꯤ ꯌꯨꯝ ꯑꯃꯥ ꯑꯣꯏꯅꯥ ꯌꯦꯡꯕꯤꯌꯨ꯫
 language = ꯂꯣꯟ
+download-dataset-header = ꯗꯥꯇꯥꯁꯦꯠ ꯆꯤꯡꯊꯧ
+download-delta-explainer = ꯑꯩꯈꯣꯏꯅꯥ ꯑꯍꯣꯡꯕꯥ ꯈꯔꯥ ꯄꯨꯔꯛꯂꯦ ꯫ ꯗꯦꯜꯇꯥ ꯃꯆꯦꯠꯁꯤꯡꯗꯥ ꯍꯧꯈꯤꯕꯥ ꯔꯤꯂꯤꯖ ꯇꯧꯔꯕꯥ ꯃꯇꯨꯡꯗꯥ ꯈ꯭ꯋꯥꯏꯗꯒꯤ ꯅꯧꯕꯥ ꯀ꯭ꯂꯤꯞꯁꯤꯡ ꯈꯛꯇꯃꯛ ꯌꯥꯎꯔꯤ ꯫ <deltaLink>ꯋꯥꯔꯛ ꯑꯁꯤꯒꯤ ꯃꯇꯥꯡꯗꯥ ꯃꯈꯥ ꯇꯥꯅꯥ ꯄꯥꯕꯤꯌꯨ</deltaLink> ꯫
+download-dataset-tag = ꯑꯄꯥꯝꯕꯥ ꯂꯣꯜꯒꯤ ꯗꯦꯇꯥꯁꯦꯠ ꯑꯗꯨ ꯈꯜꯂꯨ ꯑꯃꯁꯨꯡ ꯅꯍꯥꯛꯅꯥ ꯆꯤꯡꯊꯕ ꯄꯥꯝꯂꯤꯕꯥ ꯚꯔꯖꯟ ꯑꯗꯨ ꯈꯜꯂꯨ ꯫
 # File size in gigabytes
 size = ꯆꯥꯎꯕꯒꯤ ꯆꯥꯡ
+validated-hr-total = ꯌꯥꯍꯟꯈꯤꯕ ꯑꯩꯆ.ꯑꯥꯔ. ꯑꯄꯨꯟꯕ
+overall-hr-total = ꯑꯄꯨꯟꯕꯥ ꯑꯣꯏꯅꯥ ꯑꯩꯆ.ꯑꯥꯔ. ꯑꯄꯨꯟꯕ
 cv-license = ꯑꯌꯥꯕ
 audio-format = ꯈꯣꯟꯖꯦꯜꯒꯤ ꯃꯑꯣꯡ
 number-of-voices = ꯈꯣꯟꯖꯦꯜꯁꯤꯡ ꯃꯁꯤꯡ
 splits = ꯁꯦꯠꯇꯣꯛꯅꯕ
 email-to-download = ꯆꯤꯡꯊꯅꯕ ꯏꯃꯦꯜ ꯍꯥꯞꯄꯨ
+why-email = <b>ꯏꯃꯦꯏꯜ ꯀꯔꯤꯒꯤꯅꯣ?</b> ꯑꯩꯈꯣꯏꯅꯥ ꯇꯨꯡꯗꯥ ꯗꯦꯇꯥꯁꯦꯠꯇꯥ ꯑꯍꯣꯡꯕꯥ ꯂꯥꯛꯄꯒꯤ ꯃꯇꯥꯡꯗꯥ ꯅꯍꯥꯛꯄꯨ ꯀꯟꯇꯦꯛꯇ ꯇꯧꯕꯥ ꯃꯊꯧ ꯇꯥꯕꯥ ꯌꯥꯏ, ꯏꯃꯦꯏꯜ ꯑꯃꯅꯥ ꯑꯩꯈꯣꯏꯗꯥ ꯀꯟꯇꯦꯛꯇꯀꯤ ꯄꯣꯏꯟꯇ ꯑꯃꯥ ꯄꯤ ꯫
+confirm-size = <b>{ $size }</b>ꯒꯤ ꯆꯤꯡꯊꯕ ꯑꯃꯥ ꯍꯧꯗꯣꯛꯅꯕꯥ ꯅꯍꯥꯛꯅꯥ ꯁꯦꯝ ꯁꯥꯔꯦ
 size-gigabyte = ꯖꯤꯕꯤ
 size-megabyte = ꯑꯦꯝꯕꯤ
+confirm-no-identify = <b>ꯀꯃꯟ ꯈꯣꯟꯖꯦꯜ ꯗꯦꯇꯥꯁꯦꯠꯇ ꯋꯥꯉꯥꯡꯂꯣꯏꯁꯤꯡꯒꯤ ꯃꯁꯛ ꯈꯪꯗꯣꯛꯅꯕꯥ ꯍꯣꯠꯅꯗꯅꯕꯥ ꯅꯍꯥꯛꯅꯥ ꯌꯥꯔꯦ</b> ꯫
+confirm-join-mailing-list = ꯑꯩꯍꯥꯛꯅꯥ ꯀꯃꯟ ꯈꯣꯟꯖꯦꯜ ꯄꯥꯎꯖꯦꯜ ꯊꯥꯕꯒꯤ ꯄꯔꯤꯡꯗ ꯌꯥꯎꯕꯥ ꯄꯥꯝꯃꯤ ꯫
+download-language = ꯆꯤꯡꯊꯧ { $language }
+validated-hours = ꯆꯨꯝꯕ꯭ꯔꯥ ꯌꯦꯡꯕ ꯄꯨꯡ
+recorded-hours = ꯔꯦꯀꯣꯔꯗ ꯇꯧꯈꯤꯕꯥ ꯄꯨꯡꯁꯤꯡ
 
 ## Download Modal
 
