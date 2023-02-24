@@ -1107,12 +1107,20 @@ download-request-link-single = ꯅꯍꯥꯛꯅꯥ ꯍꯛꯊꯦꯡꯅꯅꯥ URL�
 ## Landing
 
 welcome-staff = { $company } ꯁ꯭ꯇꯥꯐꯁꯤꯡꯕꯨ ꯇꯔꯥꯝꯅꯥ ꯑꯣꯛꯆꯔꯤ!
+help-contribute = ꯀꯃꯟ ꯈꯣꯟꯖꯦꯜ ꯄ꯭ꯔꯣꯐꯥꯏꯜ ꯑꯃꯥ ꯁꯦꯝꯗꯨꯅꯥ ꯑꯃꯁꯨꯡ ꯅꯍꯥꯛꯀꯤ ꯈꯣꯟꯖꯦꯜ ꯁꯔꯨꯛꯌꯥꯗꯨꯅꯥ ꯅꯍꯥꯛꯅꯥ ꯇꯣꯞ ꯇꯣꯞꯄꯥ, ꯑꯣꯄꯟ-ꯁꯣꯔꯁ ꯗꯦꯇꯥꯁꯦꯠ ꯑꯃꯥ ꯁꯦꯝꯕꯗꯥ ꯃꯇꯦꯡ ꯄꯥꯡꯕꯥ ꯌꯥꯏ ꯫
+login-company = { $company } ꯏꯃꯦꯜꯒꯥ ꯂꯣꯏꯅꯅꯥ ꯂꯣꯒ ꯏꯟ / ꯁꯥꯏꯟ ꯑꯥꯞ ꯇꯧꯕꯥ
+profile-not-required = ꯄ꯭ꯔꯣꯐꯥꯏꯜ ꯑꯃꯥ ꯂꯩꯕꯥ ꯑꯁꯤ ꯃꯇꯦꯡ ꯄꯥꯡꯂꯕꯁꯨ ꯁꯔꯨꯛꯌꯥꯕꯒꯤ ꯃꯊꯧ ꯇꯥꯗꯦ, ꯀꯔꯤꯒꯤꯗꯃꯛꯇꯥ ꯃꯈꯥꯗꯥ ꯄꯤꯔꯤꯕꯅꯣ ꯍꯥꯏꯕꯗꯨ ꯌꯦꯡꯕꯤꯌꯨ ꯫
+read-more-about = ꯑꯩꯈꯣꯏꯒꯤ ꯃꯇꯥꯡ ꯂꯃꯥꯏꯗꯥ ꯃꯈꯥ ꯇꯥꯅꯥ ꯄꯥꯕꯤꯌꯨ
 
 ## DemoLayout
 
+demo-get-started = ꯍꯧꯔꯁꯤ
+demo-welcome = ꯀꯃꯟ ꯈꯣꯟꯖꯦꯜꯇꯗ ꯇꯔꯥꯝꯅꯥ ꯑꯣꯀꯆꯔꯤ
+demo-welcome-subheader = ꯍꯦꯟꯅꯥ ꯇꯝꯁꯤꯟꯕꯥ ꯑꯃꯁꯨꯡ ꯊꯧꯔꯥꯡ ꯑꯁꯤꯗꯥ ꯁꯔꯨꯛꯌꯥꯕꯥ ꯄꯥꯝꯕꯤꯕꯔꯥ?
 
 ## Demo Datasets
 
+demo-language-select-card-header = ꯀꯃꯟ ꯈꯣꯟꯖꯦꯜ ꯑꯁꯤ ꯃꯥꯂꯦꯝꯒꯤ ꯈ꯭ꯋꯥꯏꯗꯒꯤ ꯆꯥꯎꯕꯥ ꯃꯤꯌꯥꯝꯅꯥ ꯁꯤꯖꯤꯟꯅꯕꯥ ꯌꯥꯕꯥ, ꯂꯣꯟ-ꯃꯌꯥꯝ ꯈꯣꯟꯖꯦꯜ ꯗꯦꯇꯥꯁꯦꯠꯅꯤ ꯫
 
 ## Demo Account
 
