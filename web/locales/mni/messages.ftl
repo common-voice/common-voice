@@ -761,6 +761,10 @@ get-started-speech = ꯁ꯭ꯄꯤꯆ ꯁꯛꯈꯪꯕꯒꯥ ꯂꯣꯏꯅꯅꯥ �
 other-datasets = ꯑꯇꯣꯞꯄꯥ ꯈꯣꯟꯖꯦꯜ ꯗꯦꯇꯥꯁꯦꯠꯁꯤꯡ
 feedback-q = ꯐꯤꯗꯕꯦꯛ ꯂꯩꯕ꯭ꯔꯥ?
 resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink> ꯑꯁꯤ ꯑꯅꯧꯕꯥ ꯃꯇꯝꯒꯤ ꯋꯥꯔꯤ ꯁꯥꯅꯕꯥ ꯑꯦ.ꯑꯥꯏ.ꯒꯤ ꯃꯣꯗꯦꯜꯁꯤꯡ ꯁꯦꯝꯒꯠꯂꯤꯕꯥ ꯔꯤꯁꯔꯆꯔꯁꯤꯡꯒꯤꯗꯃꯛꯇꯥ <docsLink>ꯑꯣꯄꯟ-ꯁꯣꯔꯁ ꯇꯨꯂꯀꯤꯠ</docsLink> ꯑꯃꯅꯤ ꯫
+resource-deepspeech-info = ꯃꯣꯖꯤꯂꯥꯒꯤ ꯑꯣꯄꯟ ꯁꯣꯔꯁ ꯈꯣꯟꯖꯦꯜ ꯁꯛꯈꯪꯕ ꯏꯟꯖꯤꯟ ꯗꯤꯞ ꯁ꯭ꯄꯤꯆ ꯑꯁꯤ ꯁ꯭ꯄꯤꯆ ꯁꯀꯈꯪꯕ ꯑꯦꯞꯂꯤꯀꯦꯁꯟꯁꯤꯡ ꯁꯦꯝꯒꯠꯄꯗꯥ ꯁꯤꯖꯤꯟꯅꯕꯥ ꯌꯥꯏ ꯫ ꯑꯩꯈꯣꯏꯒꯤ <githubLink>ꯒꯤꯠꯍꯕ ꯑꯣꯚꯔꯚꯤꯌꯨ</githubLink> ꯄꯥꯕꯤꯌꯨ ꯅꯠꯇ꯭ꯔꯒꯥ ꯃꯇꯧ ꯀꯔꯝꯅꯥ ꯍꯧꯒꯗꯒꯦ ꯍꯥꯏꯕꯗꯨ ꯈꯪꯅꯕꯒꯤꯗꯃꯛ <discourseLink>DeepSpeech Discourse</discourseLink> ꯗꯥ ꯌꯥꯎꯕꯤꯌꯨ ꯫
+resource-coqui-info = <coquiLink>ꯀꯣꯀꯤ</coquiLink> ꯑꯁꯤ ꯑꯣꯄꯟ ꯁ꯭ꯄꯤꯆ ꯇꯦꯛꯅꯣꯂꯣꯖꯤꯗꯥ ꯀꯠꯊꯣꯛꯂꯤ ꯫ ꯃꯈꯣꯏꯒꯤ ꯄ꯭ꯔꯣꯖꯦꯛꯇꯁꯤꯡꯗꯥ ꯂꯨꯊꯅ ꯇꯝꯕꯗꯥ ꯌꯨꯝꯐꯝ ꯑꯣꯏꯕꯥ ꯑꯦꯁ.ꯇꯤ.ꯇꯤ. ꯑꯃꯁꯨꯡ ꯇꯤ.ꯇꯤ.ꯑꯦꯁ. ꯏꯟꯖꯤꯟꯁꯤꯡ ꯫
+community-playbook = ꯀꯝꯝꯌꯨꯅꯤꯇꯤ ꯄ꯭ꯂꯦꯕꯨꯛ
+resource-playbook-info = <playbookLink>ꯀꯃꯟ ꯈꯣꯟꯖꯦꯜꯒꯤ  ꯈꯣꯡꯆꯠ ꯄꯨꯝꯅꯃꯛꯇꯥ ꯃꯇꯦꯡ ꯄꯥꯡꯒꯗꯕꯥ ꯒꯥꯏꯗꯂꯥꯏꯟꯁꯤꯡ</playbookLink> ꯊꯤꯕꯤꯌꯨ, ꯂꯣꯀꯦꯂꯥꯏꯖꯦꯁꯟꯗꯒꯤ ꯍꯧꯔꯒꯥ ꯗꯦꯇꯥꯁꯦꯠ ꯁꯤꯖꯤꯟꯅꯕꯐꯥꯎꯕꯥ, ꯂꯣꯏꯅꯅꯥ ꯑꯩꯈꯣꯏꯒꯤ ꯀꯝꯌꯨꯅꯤꯇꯤꯒꯥ ꯀꯔꯝꯅꯥ ꯁꯝꯅꯍꯟꯒꯅꯤ ꯫
 
 ## Download Modal
 
