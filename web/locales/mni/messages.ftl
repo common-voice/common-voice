@@ -554,6 +554,15 @@ about-clip-graveyard-text =
     
     ꯊꯧꯔꯥꯡ ꯑꯁꯤꯒꯤ ꯃꯇꯦꯡ ꯄꯥꯡꯕꯤꯕꯒꯤꯗꯃꯛ ꯑꯩꯈꯣꯏꯅꯥ ꯃꯈꯥꯒꯤ ꯃꯤꯑꯣꯏꯁꯤꯡ ꯑꯃꯁꯨꯡ ꯂꯨꯞꯁꯤꯡ ꯑꯁꯤꯕꯨ ꯊꯥꯒꯠꯄꯥ ꯐꯣꯡꯗꯣꯛꯆꯔꯤ:
 about-get-involved = ꯌꯥꯎꯁꯤꯟꯕ
+about-get-involved-text-2 =
+    ꯀꯃꯟ ꯈꯣꯟꯖꯦꯜ ꯑꯁꯤ ꯍꯦꯟꯅꯥ ꯐꯕꯥ ꯑꯣꯏꯍꯟꯕꯗꯥ ꯃꯇꯦꯡ ꯄꯥꯡꯅꯤꯡꯕ꯭ꯔꯥ?
+    ꯌꯥꯝꯅꯥ ꯐꯔꯦ! ꯏꯃꯦꯜ ꯅꯠꯇ꯭ꯔꯒꯥ <discourseLink>ꯗꯤꯁꯀꯣꯔꯁ</discourseLink>ꯒꯤ ꯈꯨꯠꯊꯥꯡꯗꯥ ꯄꯥꯎ ꯐꯥꯎꯅꯕꯤꯌꯨ ꯫
+    ꯐꯣꯔꯝꯁꯤꯡꯗꯥ, <githubLink>ꯒꯤꯠꯍꯨꯕ</githubLink>ꯀꯤ ꯈꯨꯠꯊꯥꯡꯗꯥ ꯁꯥꯏꯠꯀꯤ ꯏꯁꯨꯁꯤꯡ ꯊꯥꯕꯤꯌꯨ, ꯅꯠꯇ꯭ꯔꯒꯥ ꯌꯥꯎꯕꯤꯌꯨ ꯫
+    <matrixLink>ꯃꯦꯠꯔꯤꯛ</matrixLink> ꯀꯝꯝꯌꯨꯅꯤꯇꯤ ꯋꯥꯔꯤ ꯁꯥꯐꯝ ꯫
+about-stay-in-touch = ꯑꯩꯅꯥ ꯃꯇꯧ ꯀꯔꯝꯅꯥ ꯄꯥꯎ ꯐꯥꯎꯅꯒꯅꯤ?
+about-stay-in-touch-button = ꯃꯤꯡ ꯄꯤꯁꯤꯟꯂꯨ
+about-stay-in-touch-text-1 = <email Fragment>ꯁꯥꯏꯟ ꯑꯥꯞ</email Fragment> ꯑꯁꯤ ꯀꯃꯟ ꯈꯣꯟꯖꯦꯜꯗ ꯀꯦꯝꯄꯦꯟꯁꯤꯡ, ꯊꯧꯔꯝꯁꯤꯡ ꯑꯃꯁꯨꯡ ꯀꯣ-ꯗꯤꯖꯥꯏꯟ ꯐꯤꯆꯔꯁꯤꯡꯗꯥ ꯀꯔꯝꯅꯥ ꯁꯔꯨꯛ ꯌꯥꯕꯥ ꯌꯥꯕꯒꯦ ꯍꯥꯏꯕꯗꯨ ꯈꯪꯅꯕꯒꯤꯗꯃꯛ ꯑꯩꯈꯣꯏꯒꯤ ꯃꯦꯏꯜ ꯂꯤꯁ꯭ꯇꯇꯥ ꯌꯥꯎꯕꯤꯌꯨ ꯫
+about-stay-in-touch-text-2 = ꯅꯍꯥꯛꯅꯥ ꯃꯣꯖꯤꯂꯥ ꯂꯣꯜ ꯀꯝꯝꯌꯨꯅꯤꯇꯤꯁꯤꯡꯗꯥ ꯂꯩꯕꯥ ꯑꯇꯣꯞꯄꯁꯤꯡꯒꯥ ꯎꯅꯕꯗꯥ <discourseLink>Discourse</discourseLink>ꯗꯥ ꯌꯥꯎꯕꯥ ꯌꯥꯏ, ꯅꯠꯇ꯭ꯔꯒꯥ ꯊꯨꯅꯥ ꯄꯥꯎꯇꯥꯛ ꯂꯧꯅꯕꯒꯤꯗꯃꯛ <matrixLink>Matrix</matrixLink>ꯗꯥ ꯌꯥꯎꯕꯥ ꯌꯥꯏ ꯫
 about-nav-why-common-voice = ꯀꯔꯤꯒꯤ?
 about-nav-how-it-works = ꯀꯔꯝꯅ?
 about-nav-partners = ꯈꯣꯡꯂꯣꯏ
@@ -565,6 +574,7 @@ about-nav-playbook = ꯇꯝꯃꯨ ꯛꯔꯝꯅ ꯁꯔꯨꯛ ꯌꯥꯒꯅꯤ ꯍ�
 ## What is a language
 
 about-playbook-what-is-language = ꯑꯆꯝꯕ ꯈꯣꯟꯖꯦꯜꯗ ꯂꯣꯟ ꯱ ꯍꯥꯢꯕꯁꯤ ꯛꯔꯤꯅꯣ ?
+about-playbook-what-is-language-content-1 = ꯂꯣꯜꯒꯤ ꯃꯔꯝꯗꯥ ꯈꯅꯕꯒꯤ ꯃꯑꯣꯡ ꯀꯌꯥ ꯑꯃꯥ ꯂꯩꯔꯤ ꯫ ꯋꯥꯉꯥꯡ ꯁꯛꯈꯪꯕ ꯃꯑꯣꯡꯁꯤꯡꯒꯤ ꯄꯥꯟꯗꯃꯁꯤꯡꯒꯤꯗꯃꯛꯇꯥ ꯀꯃꯟ ꯈꯣꯟꯖꯦꯜꯅꯥ ‘ꯃ꯭ꯌꯨꯆꯨꯑꯦꯜ ꯏꯟꯇꯦꯂꯤꯖꯤꯕꯤꯂꯤꯇꯤ’ꯗꯥ ꯃꯤꯠꯌꯦꯡ ꯊꯝꯅꯕꯥ ꯄꯥꯎꯇꯥꯛ ꯄꯤꯔꯤ, ꯅꯠꯇ꯭ꯔꯒꯥ ‘ꯂꯣꯜ ꯑꯁꯤꯒꯤ ꯋꯥꯉꯥꯡꯂꯣꯏꯁꯤꯡꯅꯥ ꯍꯣꯠꯅꯔꯕꯗꯤ ꯑꯌꯥꯝꯕꯅꯥ ꯑꯃꯒꯥ ꯑꯃꯒꯥ ꯂꯧꯁꯤꯟꯕꯥ ꯉꯝꯒꯗ꯭ꯔꯥ?’
 
 ## How do I add a language
 
