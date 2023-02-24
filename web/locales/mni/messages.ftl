@@ -785,15 +785,36 @@ clipboard-not-supported = ꯀ꯭ꯂꯤꯞꯕꯣꯔꯗ ꯑꯁꯤ ꯉꯥꯛꯂꯧ 
 
 ## Download Modal
 
+download-title = ꯅꯍꯥꯛꯀꯤ ꯆꯤꯡꯊꯕ ꯍꯧꯔꯦ ꯫
+download-helpus = ꯈꯣꯟꯖꯦꯜ ꯇꯦꯛꯅꯣꯂꯣꯖꯤꯒꯤ ꯑꯀꯣꯏꯕꯗꯥ ꯀꯝꯝꯌꯨꯅꯤꯇꯤ ꯑꯃꯥ ꯁꯦꯝꯒꯠꯄꯗꯥ ꯑꯩꯈꯣꯏꯗꯥ ꯃꯇꯦꯡ ꯄꯥꯡꯕꯤꯌꯨ, ꯏꯃꯦꯜꯒꯤ ꯈꯨꯠꯊꯥꯡꯗꯥ ꯄꯥꯎ ꯐꯥꯎꯅꯕꯤꯌꯨ ꯫
+download-form-email =
+    .label = ꯅꯍꯥꯛꯀꯤ ꯏꯃꯦꯜ ꯍꯥꯞꯆꯤꯟꯂꯨ
+    .value = ꯊꯥꯒꯠꯆꯔꯤ, ꯑꯩꯈꯣꯏꯅꯥ ꯄꯥꯎ ꯐꯥꯎꯅꯒꯅꯤ ꯫
+download-back = ꯀꯃꯟ ꯈꯣꯟꯖꯦꯜ ꯗꯦꯇꯥꯁꯦꯠꯁꯤꯡꯗꯥ ꯍꯜꯂꯛꯎ ꯫
+download-no = ꯄꯥꯝꯗꯔꯦ
 
 ## Contact Modal
 
+contact-title = ꯀꯟꯇꯦꯛꯠ ꯐꯣꯔꯝ
+contact-form-name =
+    .label = ꯃꯤꯡ
+contact-form-message =
+    .label = ꯄꯥꯎꯖꯦꯜ
+contact-required = *ꯃꯊꯧ ꯇꯥꯕ
 
 ## Request Language Modal
 
+request-language-title = ꯂꯣꯟ ꯍꯪꯒꯠꯆꯕ
+request-language-form-language =
+    .label = ꯂꯣꯟ
+request-language-success-title = ꯂꯣꯜꯒꯤ ꯔꯤꯀꯣꯔꯗ ꯃꯥꯌ ꯄꯥꯛꯅꯥ ꯄꯤꯁꯤꯜꯂꯦ, ꯊꯥꯒꯠꯆꯔꯤ ꯫
+request-language-success-content = ꯑꯗꯣꯝꯒꯤ ꯂꯣꯜ ꯑꯁꯤ ꯀꯃꯟ ꯈꯣꯟꯖꯦꯜꯇꯗ ꯀꯔꯝꯅꯥ ꯍꯥꯞꯀꯗꯒꯦ ꯍꯥꯏꯕꯒꯤ ꯃꯇꯥꯡꯗꯥ ꯑꯩꯈꯣꯏꯅꯥ ꯌꯥꯝꯅꯥ ꯊꯨꯅꯥ ꯄꯥꯎ ꯐꯥꯎꯅꯒꯅꯤ ꯫
+select-language = ꯂꯣꯜ ꯑꯃꯥ ꯈꯟꯕꯤꯌꯨ...
+other-language = ꯑꯇꯩ ꯂꯣꯟ
 
 ## Request Language Pages
 
+request-language-heading = ꯑꯅꯧꯕꯥ ꯂꯣꯜ ꯑꯃꯒꯤ ꯃꯔꯝꯗꯥ ꯍꯪꯕꯤꯌꯨ
 
 ## Languages Overview
 
