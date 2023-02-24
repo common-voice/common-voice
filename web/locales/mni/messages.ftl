@@ -1031,6 +1031,67 @@ help-reach-hours-general-pluralized =
     }
 set-a-goal = ꯄꯥꯟꯗꯝ ꯑꯃꯥ ꯊꯝꯃꯨ
 cant-decide = ꯋꯥꯔꯦꯞ ꯂꯧꯕꯥ ꯉꯝꯗ꯭ꯔꯤꯕꯔꯥ?
+activity-needed-calculation-plural =
+    { NUMBER($totalHours) ->
+        [one]
+            { NUMBER($periodMonths) ->
+                [one]
+                    { NUMBER($people) ->
+                        [one]
+                            { NUMBER($clipsPerDay) ->
+                                [one] { $totalHours } ꯄꯨꯡ ꯐꯪꯕ ꯌꯥꯕ ꯍꯧꯖꯤꯛꯇꯗ { $periodMonths } ꯊꯥ ꯀꯔꯤꯒꯨꯝꯕ { $people } ꯃꯤꯑꯣꯏ record { $clipsPerDay } ꯀ꯭ꯂꯤꯞ ꯅꯣꯡꯃꯗ ꯫
+                               *[other] { $totalHours } ꯄꯨꯡ ꯐꯪꯕ ꯌꯥꯕ ꯍꯧꯖꯤꯛꯇꯗ { $periodMonths } ꯊꯥ ꯀꯔꯤꯒꯨꯝꯕ { $people } ꯃꯤꯑꯣꯏ record { $clipsPerDay } ꯀ꯭ꯂꯤꯞꯁꯤꯡ ꯅꯣꯡꯃꯗ ꯫
+                            }
+                       *[other]
+                            { NUMBER($clipsPerDay) ->
+                                [one] { $totalHours } ꯄꯨꯡ ꯐꯪꯕ ꯌꯥꯕ ꯍꯧꯖꯤꯛꯇꯗ { $periodMonths } ꯊꯥ ꯀꯔꯤꯒꯨꯝꯕ { $people } ꯃꯤꯑꯣꯏ record { $clipsPerDay } ꯀ꯭ꯂꯤꯞ ꯅꯣꯡꯃꯗ ꯫
+                               *[other] { $totalHours } ꯄꯨꯡ ꯐꯪꯕ ꯌꯥꯕ ꯍꯧꯖꯤꯛꯇꯗ { $periodMonths } ꯊꯥ ꯀꯔꯤꯒꯨꯝꯕ { $people } ꯃꯤꯑꯣꯏ record { $clipsPerDay } ꯀ꯭ꯂꯤꯞꯁꯤꯡ ꯅꯣꯡꯃꯗ ꯫
+                            }
+                    }
+               *[other]
+                    { NUMBER($people) ->
+                        [one]
+                            { NUMBER($clipsPerDay) ->
+                                [one] { $totalHours } ꯄꯨꯡ ꯐꯪꯕ ꯌꯥꯕ ꯍꯧꯖꯤꯛꯇꯗ { $periodMonths } ꯊꯥꯁꯤꯡ ꯀꯔꯤꯒꯨꯝꯕ { $people } ꯃꯤꯑꯣꯏ record { $clipsPerDay } ꯀ꯭ꯂꯤꯞ ꯅꯣꯡꯃꯗ ꯫
+                               *[other] { $totalHours } ꯄꯨꯡ ꯐꯪꯕ ꯌꯥꯕ ꯍꯧꯖꯤꯛꯇꯗ { $periodMonths } ꯊꯥꯁꯤꯡ ꯀꯔꯤꯒꯨꯝꯕ { $people } ꯃꯤꯑꯣꯏ record { $clipsPerDay } ꯀ꯭ꯂꯤꯞꯁꯤꯡ ꯅꯣꯡꯃꯗ ꯫
+                            }
+                       *[other]
+                            { NUMBER($clipsPerDay) ->
+                                [one] { $totalHours } ꯄꯨꯡ ꯐꯪꯕ ꯌꯥꯕ ꯍꯧꯖꯤꯛꯇꯗ { $periodMonths } ꯊꯥꯁꯤꯡ ꯀꯔꯤꯒꯨꯝꯕ { $people } ꯃꯤꯑꯣꯏ record { $clipsPerDay } ꯀ꯭ꯂꯤꯞ ꯅꯣꯡꯃꯗ ꯫
+                               *[other] { $totalHours } ꯄꯨꯡ ꯐꯪꯕ ꯌꯥꯕ ꯍꯧꯖꯤꯛꯇꯗ { $periodMonths } ꯊꯥꯁꯤꯡ ꯀꯔꯤꯒꯨꯝꯕ { $people } ꯃꯤꯑꯣꯏ record { $clipsPerDay } ꯀ꯭ꯂꯤꯞꯁꯤꯡ ꯅꯣꯡꯃꯗ ꯫
+                            }
+                    }
+            }
+       *[other]
+            { NUMBER($periodMonths) ->
+                [one]
+                    { NUMBER($people) ->
+                        [one]
+                            { NUMBER($clipsPerDay) ->
+                                [one] { $totalHours } ꯄꯨꯡꯁꯤꯡ ꯐꯪꯕ ꯌꯥꯕ ꯍꯧꯖꯤꯛꯇꯗ { $periodMonths } ꯊꯥ ꯀꯔꯤꯒꯨꯝꯕ { $people } ꯃꯤꯑꯣꯏ record { $clipsPerDay } ꯀ꯭ꯂꯤꯞ ꯅꯣꯡꯃꯗ ꯫
+                               *[other] { $totalHours } ꯄꯨꯡꯁꯤꯡ ꯐꯪꯕ ꯌꯥꯕ ꯍꯧꯖꯤꯛꯇꯗ { $periodMonths } ꯊꯥ ꯀꯔꯤꯒꯨꯝꯕ { $people } ꯃꯤꯑꯣꯏ record { $clipsPerDay } ꯀ꯭ꯂꯤꯞꯁꯤꯡ ꯅꯣꯡꯃꯗ ꯫
+                            }
+                       *[other]
+                            { NUMBER($clipsPerDay) ->
+                                [one] { $totalHours } ꯄꯨꯡꯁꯤꯡ ꯐꯪꯕ ꯌꯥꯕ ꯍꯧꯖꯤꯛꯇꯗ { $periodMonths } ꯊꯥ ꯀꯔꯤꯒꯨꯝꯕ { $people } ꯃꯤꯑꯣꯏ record { $clipsPerDay } ꯀ꯭ꯂꯤꯞ ꯅꯣꯡꯃꯗ ꯫
+                               *[other] { $totalHours } ꯄꯨꯡꯁꯤꯡ ꯐꯪꯕ ꯌꯥꯕ ꯍꯧꯖꯤꯛꯇꯗ { $periodMonths } ꯊꯥ ꯀꯔꯤꯒꯨꯝꯕ { $people } ꯃꯤꯑꯣꯏ record { $clipsPerDay } ꯀ꯭ꯂꯤꯞꯁꯤꯡ ꯅꯣꯡꯃꯗ ꯫
+                            }
+                    }
+               *[other]
+                    { NUMBER($people) ->
+                        [one]
+                            { NUMBER($clipsPerDay) ->
+                                [one] { $totalHours } ꯄꯨꯡꯁꯤꯡ ꯐꯪꯕ ꯌꯥꯕ ꯍꯧꯖꯤꯛꯇꯗ { $periodMonths } ꯊꯥꯁꯤꯡ ꯀꯔꯤꯒꯨꯝꯕ { $people } ꯃꯤꯑꯣꯏ record { $clipsPerDay } ꯀ꯭ꯂꯤꯞ ꯅꯣꯡꯃꯗ ꯫
+                               *[other] { $totalHours } ꯄꯨꯡꯁꯤꯡ ꯐꯪꯕ ꯌꯥꯕ ꯍꯧꯖꯤꯛꯇꯗ { $periodMonths } ꯊꯥꯁꯤꯡ ꯀꯔꯤꯒꯨꯝꯕ { $people } ꯃꯤꯑꯣꯏ record { $clipsPerDay } ꯀ꯭ꯂꯤꯞꯁꯤꯡ ꯅꯣꯡꯃꯗ ꯫
+                            }
+                       *[other]
+                            { NUMBER($clipsPerDay) ->
+                                [one] { $totalHours } ꯄꯨꯡꯁꯤꯡ ꯐꯪꯕ ꯌꯥꯕ ꯍꯧꯖꯤꯛꯇꯗ { $periodMonths } ꯊꯥꯁꯤꯡ ꯀꯔꯤꯒꯨꯝꯕ { $people } ꯃꯤꯑꯣꯏ record { $clipsPerDay } ꯀ꯭ꯂꯤꯞ ꯅꯣꯡꯃꯗ ꯫
+                               *[other] { $totalHours } ꯄꯨꯡꯁꯤꯡ ꯐꯪꯕ ꯌꯥꯕ ꯍꯧꯖꯤꯛꯇꯗ { $periodMonths } ꯊꯥꯁꯤꯡ ꯀꯔꯤꯒꯨꯝꯕ { $people } ꯃꯤꯑꯣꯏ record { $clipsPerDay } ꯀ꯭ꯂꯤꯞꯁꯤꯡ ꯅꯣꯡꯃꯗ ꯫
+                            }
+                    }
+            }
+    }
 how-many-per-day = ꯌꯥꯝꯅꯥ ꯐꯔꯦ! ꯅꯣꯡꯃꯗꯥ ꯀ꯭ꯂꯤꯞ ꯀꯌꯥ?
 how-many-a-week = ꯌꯥꯝꯅꯥ ꯐꯔꯦ! ꯆꯌꯣꯜꯗꯥ ꯀ꯭ꯂꯤꯞ ꯀꯌꯥ?
 which-goal-type = ꯑꯗꯣꯝꯅꯥ ꯋꯥ ꯉꯥꯡꯕꯥ ꯄꯥꯝꯕꯤꯕ꯭ꯔꯥ, ꯇꯥꯕꯥ ꯄꯥꯝꯕꯤꯕ꯭ꯔꯥ ꯅꯠꯇ꯭ꯔꯒꯥ ꯑꯅꯤꯃꯛ ꯄꯥꯝꯕꯤꯕ꯭ꯔꯥ?
@@ -1172,6 +1233,12 @@ contribution-misreadings-example-4-explanation = [ꯃꯊꯧ ꯇꯥꯕꯥ ꯇꯦ�
 contribution-misreadings-example-5-title = ꯑꯩꯈꯣꯏ ꯀꯣꯐꯤ ꯂꯧꯅꯕꯥ ꯆꯠꯂꯤ ꯫
 contribution-misreadings-example-6-title = ꯑꯩꯈꯣꯏ ꯀꯐꯤ ꯂꯧꯅꯕꯥ ꯆꯠꯂꯤ꯫
 contribution-misreadings-example-6-explanation = [“ꯑꯩꯈꯣꯏꯅꯥ” ꯍꯥꯏꯕꯁꯤ ꯑꯣꯏꯒꯗꯕꯅꯤ]
+contribution-misreadings-example-7-title = ꯑꯩꯈꯣꯏ ꯀꯣꯐꯤ ꯱ ꯂꯧꯅꯕꯥ ꯆꯠꯂꯤ ꯫
+contribution-misreadings-example-7-explanation = [ꯑꯔꯤꯖꯤꯅꯦꯜ ꯇꯦꯛꯁꯇꯥ ‘ꯑꯦ’ ꯂꯩꯇꯦ]
+contribution-misreadings-example-8-title = ꯕꯝꯕꯂꯕꯤ ꯑꯗꯨ ꯈꯣꯡꯖꯦꯜ ꯌꯥꯡꯅꯥ ꯆꯠꯈꯤꯅ꯫
+contribution-misreadings-example-8-explanation = [ꯃꯁꯤꯒꯥ ꯃꯥꯟꯅꯗꯕꯥ ꯀꯟꯇꯦꯟꯇ]
+contribution-varying-pronunciations-title = ꯇꯣꯉꯥꯟ ꯇꯣꯉꯥꯟꯕꯥ ꯈꯣꯟꯂꯩꯁꯤꯡ
+contribution-varying-pronunciations-description = ꯄꯥꯔꯤꯕꯥ ꯃꯤ ꯑꯗꯨꯅꯥ ꯋꯥꯍꯩ ꯑꯃꯥ ꯂꯥꯟꯅꯥ ꯂꯧꯁꯤꯟꯈꯤꯕꯥ, ꯁ꯭ꯠꯔꯦꯁ ꯑꯗꯨ ꯑꯔꯥꯅꯕꯥ ꯃꯐꯝꯗꯥ ꯊꯝꯈꯤꯕꯥ ꯅꯠꯇ꯭ꯔꯒꯥ ꯋꯥꯍꯪ ꯍꯪꯕꯒꯤ ꯃꯁꯛ ꯑꯃꯥ ꯌꯦꯡꯂꯃꯗꯕꯥ ꯍꯥꯏꯅꯥ ꯂꯧꯗꯨꯅꯥ ꯀ꯭ꯂꯤꯞ ꯑꯃꯥ ꯔꯤꯖꯦꯛꯇ ꯇꯧꯗ꯭ꯔꯤꯉꯩꯗꯥ ꯆꯦꯛꯁꯤꯅꯒꯗꯕꯅꯤ ꯫ ꯃꯥꯂꯦꯝ ꯁꯤꯟꯕꯥ ꯊꯨꯡꯅꯥ ꯃꯈꯜ ꯀꯌꯥꯒꯤ ꯈꯣꯟꯂꯩ ꯁꯤꯖꯤꯟꯅꯔꯤ, ꯃꯗꯨꯒꯤ ꯃꯅꯨꯡꯗꯥ ꯈꯔꯗꯤ ꯅꯍꯥꯛꯀꯤ ꯂꯣꯀꯦꯜ ꯀꯝꯝꯌꯨꯅꯤꯇꯤꯗꯥ ꯇꯥꯈꯤꯗꯕꯥ ꯌꯥꯏ ꯫ ꯑꯗꯣꯝꯗꯒꯤ ꯇꯣꯉꯥꯟꯅꯥ ꯋꯥꯔꯤ ꯁꯥꯕꯥ ꯌꯥꯕꯥ ꯃꯤꯑꯣꯏꯁꯤꯡꯒꯤꯗꯃꯛ ꯊꯥꯒꯠꯄꯥ ꯐꯣꯡꯗꯣꯛꯆꯔꯤ ꯫
 
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
