@@ -661,13 +661,21 @@ about-playbook-how-project-governance-content-3 = ꯑꯔꯣꯟ ꯑꯊꯨꯞ, ꯉ
 about-playbook-how-project-governance-content-4 = ꯀꯝꯌꯨꯅꯤꯇꯤꯅꯥ ꯁꯔꯨꯛ ꯌꯥꯕꯥ ꯑꯃꯁꯨꯡ ꯋꯥꯔꯦꯞ ꯂꯧꯕꯥ ꯫
 about-playbook-how-project-governance-content-5 = ꯃꯃꯜ ꯂꯩꯕ ꯑꯃꯁꯨꯡ ꯁꯛꯈꯪꯕ ꯫
 about-playbook-how-project-governance-content-6 = ꯃꯈꯣꯏ ꯃꯁꯦꯜ ꯱ꯁꯨꯡ ꯋꯥꯔꯣꯜ ꯂꯩꯈꯥꯏ ꯇꯥꯅꯕ ꯫
+about-playbook-how-project-governance-content-7 = <governanceLink>ꯑꯩꯈꯣꯏꯅꯥ ꯀꯔꯝꯅꯥ ꯂꯩꯉꯥꯛꯄꯒꯦ ꯍꯥꯏꯕꯒꯤ ꯃꯇꯥꯡꯗꯥ ꯍꯦꯟꯅꯥ ꯄꯥꯕꯤꯌꯨ</governanceLink>
 
 ## Glossary
 
+glossary = ꯋꯥꯍꯩ ꯋꯥꯇꯥ
+localization = ꯂꯣꯀꯦꯂꯥꯏꯖꯦꯁꯟ
+localization-explanation = ꯃꯁꯤ ꯑꯩꯈꯣꯏꯒꯤ ꯀꯟꯇꯦꯟꯠ ꯑꯁꯤ ꯂꯣꯀꯦꯜ (ꯂꯣꯜ) ꯀꯌꯥꯒꯤꯗꯃꯛ ꯍꯟꯗꯣꯛꯄꯥ ꯑꯃꯁꯨꯡ ꯑꯦꯗꯞꯇꯦꯠ ꯇꯧꯕꯒꯤ ꯑꯩꯈꯣꯏꯒꯤ ꯊꯧꯑꯣꯡꯅꯤ ꯫
 sentence-collection = ꯋꯥꯍꯩꯄꯔꯦꯡ ꯈꯣꯝꯖꯤꯟꯕ
+sentence-collection-explanation = ꯄꯕ꯭ꯂꯤꯛ ꯗꯣꯃꯦꯟꯗꯒꯤ ꯋꯥꯍꯩꯄꯔꯦꯡ ꯈꯣꯃꯖꯤꯟꯕꯥ, ꯅꯠꯇ꯭ꯔꯒꯥ ꯄꯕ꯭ꯂꯤꯛ ꯗꯣꯃꯦꯟꯒꯤꯗꯃꯛ ꯑꯅꯧꯕꯥ ꯏꯕꯥ ꯫
+hours-recorded-explanation = ꯍꯧꯖꯤꯛ ꯐꯥꯎꯕꯗꯥ ꯑꯩꯈꯣꯏꯅꯥ ꯈꯣꯃꯖꯤꯜꯂꯛꯄꯥ ꯈꯣꯟꯖꯦꯜ ꯔꯦꯀꯣꯔꯗꯤꯡꯒꯤ ꯄꯨꯡꯁꯤꯡꯒꯤ ꯃꯁꯤꯡ ꯫
+hours-validated-explanation = “ꯍꯣꯏ” ꯍꯥꯏꯕꯥ ꯚꯣꯠ ꯑꯃꯒꯥ ꯂꯣꯏꯅꯅꯥ ꯁꯤꯖꯤꯟꯅꯔꯤꯕ ꯳ꯒꯤ ꯃꯅꯨꯡꯗꯥ ꯲ꯅꯥ ꯆꯠꯟꯍꯜꯂꯕꯗꯤ ꯈꯣꯟꯖꯦꯟ ꯔꯦꯀꯣꯔꯗꯤꯡ ꯄꯨꯡꯁꯤꯡꯒꯤ ꯃꯁꯤꯡ ꯫ ꯍꯥꯏꯔꯤꯕꯁꯤꯡ ꯑꯁꯤꯅꯥ ꯑꯄꯨꯟꯕꯥ ꯊꯧꯔꯥꯡ ꯑꯁꯤꯒꯤ ꯄꯨꯡ ꯂꯤꯁꯤꯡ ꯱꯰ ꯒꯤ ꯄꯥꯟꯗꯝ ꯑꯁꯤꯒꯤ ꯃꯥꯏꯀꯩꯗꯥ ꯈꯨꯃꯥꯡꯆꯥꯎꯁꯤꯟꯂꯛꯂꯤ ꯫
 sst = ꯈꯣꯟꯖꯦꯜ_ꯗꯒꯤ_ꯋꯥꯍꯩ ꯋꯥꯇꯥ
 sst-explanation = ꯈꯣꯟꯖꯦꯜ_ꯗꯒꯤ_ꯋꯥꯍꯩ ꯋꯥꯇꯥ (ꯈꯗꯋ) ꯁꯤꯟ-ꯁꯥꯔꯣꯜ ꯑꯁꯤꯅ ꯈꯣꯟꯖꯦꯜꯒꯤ ꯗꯥꯇꯥ ꯑꯗꯨ ꯋꯥꯍꯩ ꯋꯥꯇꯥꯗ ꯑꯣꯟꯊꯣꯛꯄ
 de-identified = ꯃꯁꯛ ꯈꯪꯗꯣꯛꯇꯕ
+de-identified-explanation = ꯗꯦꯇꯥꯁꯦꯠꯀꯤ ꯁꯔꯨꯛ ꯑꯃꯥ ꯑꯣꯏꯅꯥꯆꯤꯡꯊꯅꯕꯥ ꯄꯦꯀꯦꯖ ꯇꯧꯕꯥ ꯃꯇꯝꯗꯥ ꯁꯔꯨꯛꯌꯥꯔꯤꯕ ꯑꯃꯒꯤ ꯄ꯭ꯔꯣꯐꯥꯏꯜ ꯋꯥꯔꯣꯜ ꯑꯗꯨ ꯃꯈꯣꯏꯒꯤ ꯀꯠꯊꯣꯛꯂꯕ ꯈꯣꯟꯖꯦꯜ ꯀ꯭ꯂꯤꯞꯁꯤꯡꯗꯒꯤ ꯊꯨꯒꯥꯏꯕꯒꯤ ꯊꯧꯑꯣꯡ ꯫
 
 ## Error pages
 
