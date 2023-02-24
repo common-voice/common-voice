@@ -10,7 +10,7 @@ export const up = async function (db: any): Promise<any> {
       PRIMARY KEY (id),
       FOREIGN KEY (pending_sentence_id) REFERENCES pending_sentences(id),
       FOREIGN KEY (client_id) REFERENCES user_clients(client_id),
-      UNIQUE INDEX unique_report (pending_sentence_id, client_id) 
+      UNIQUE INDEX unique_report (pending_sentence_id, client_id, reason) 
     );
   `);
 };
