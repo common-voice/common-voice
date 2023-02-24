@@ -18,6 +18,7 @@ export const createPendingSentenceValidationError = createError(
 export const createPendingSentencesRepositoryError = createError(
   'PendingSentencesRepository'
 )
+export const createDatabaseError = createError('DatabaseError')
 
 export const createPresentableError = (
   err: ApplicationError
