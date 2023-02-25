@@ -18,6 +18,7 @@ banner-error-slow-1 = Því miður gengur Common Voice vefurinn hægt fyrir sig 
 banner-error-slow-2 = Við erum að fá mjög mikla umferð og erum nú að rannsaka málin.
 banner-error-slow-link = Stöðusíða
 error-something-went-wrong = Því miður, eitthvað fór úrskeiðis
+error-clip-upload = Upphleðsla þessa búts mistekst stöðugt, halda áfram að reyna aftur?
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -1572,7 +1573,10 @@ why-donate = Afhverju spyrðu?
 add-information-button = Bæta við upplýsingum
 continue-speaking-button = Nei takk, halda áfram að tala
 thanks-for-voice-toast = Takk fyrir raddupplýsingarnar þínar
+thanks-for-voice-toast-error = Villa kom upp við að senda raddupplýsingarnar þínar
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = Þakka þér fyrir að leggja þitt af mörkum!
 already-have-an-account = Ertu nú þegar með reikning? <login>Skrá inn</login>
 create-profile-button = Búa til notandasnið
+# IMAGE TAGS
+img-alt-success-checkmark = gátmerki fyrir árangur
