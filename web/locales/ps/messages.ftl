@@ -1101,7 +1101,13 @@ profile-form-delete = پېژنیال ړنګ کړئ
 
 ## Profile Download
 
+download-q = ایا تاسو اړتیا لرئ  خپل معلومات ډاونلوډ کړئ؟
+download-info = موږ ته ووایاست چې تاسو څه ډاونلوډ کول غواړئ:
+download-profile-title = پروفایل
 download-profile-info = بریښنالیک، کارن نوم او ډیموګرافیک معلومات شامل دي، سمدلاسه شتون لري
+download-profile-size = یو څو بایټس
+download-recordings-title = ریکارډونه
+download-recordings-info = mp3s او اړونده جملې پکې شاملې دي، کیدای شي د چمتو کولو لپاره یو څه وخت ونیسي
 download-size = جسامت
 download-request-title = { $created }
 download-request-description = { $clipCount } غږیز کلیپونه، د ټول آرشیف اندازه { $size }. ختمیږي { $expires }.
@@ -1173,6 +1179,7 @@ contribution-background-voices-description = یو خاموش شالید شور �
 contribution-background-voices-description-extended = که ریکارډ مات شي، یا کریکونه ولري، رد کړئ پرته لدې چې ټول متن لاهم واوریدل شي.
 contribution-background-voices-example-1-title = د ټریاسیک لوی ډیناسور. <strong>[په یو غږ لوستل]</strong>
 contribution-background-voices-example-1-explanation = ته راځې؟ <strong>[د بل لخوا ویل کیږي]</strong>
+contribution-reader-effects-description = ډیری ریکارډونه د هغه خلکو څخه دي چې په خپل طبیعي غږ کې خبرې کوي. تاسو کولی شئ کله ناکله غیر معیاري ریکارډونه ومنئ چې په "ډراماتیک" غږ کې، ګونګوسې، یا په ښکاره ډول وړاندې کیږي. مهرباني وکړئ د سندرو ریکارډونه رد کړئ او هغه څوک چې د کمپیوټر ترکیب شوي غږ کاروي.
 contribution-just-unsure-title = بس ډاډه نه یاست؟
 contribution-just-unsure-description = که تاسو د هغه څه سره مخ شئ چې دا لارښوونې نه پوښي، مهرباني وکړئ د خپل غوره قضاوت سره سم رایه ورکړئ. که تاسو واقعیا پریکړه نشئ کولی ، د سکیپ تڼۍ وکاروئ او راتلونکي ریکارډ ته لاړشئ.
 see-more = <chevron></chevron>نور وګوری
@@ -1272,6 +1279,23 @@ sc-add-err-failed =
 
 ## ADD SENTENCES CONFIRMATION
 
+# Variables:
+#   $countOfSentences (Number) - Number of sentences the user has filled in the submission form
+sc-confirm-sentences-found =
+    { $countOfSentences ->
+        [0] هیڅ جملې ونه موندل شوې.
+        [one] 1 جمله وموندل شوه.
+       *[other] { $countOfSentences } جملې وموندل شوې.
+    }
+# Variables:
+#   $countOfInvalidated (Number) - Number of sentences the user rejected in the review form before submission
+sc-confirm-rejected-by-you = { $countOfInvalidated } ستاسو لخوا رد شوی
+sc-confirm-already-reviewed =
+    { $countOfReviewed ->
+        [0] هیڅ جمله لا دمخه بیاکتنه شوې نه ده.
+        [one] 1 جمله لا دمخه بیاکتنه شوې. ډیر ښه کار!
+       *[other] { $countOfReviewed } جملې لا دمخه کتل شوي دي. ډیر ښه کار!
+    }
 sc-confirm-uploading = جملې پورته کیږي. دا کولی شي څو دقیقې وخت ونیسي د جملو د شمیر پورې اړه لري. مهرباني وکړئ دا ویب پاڼه مه بندوئ.
 
 ## LANGUAGE INFO
