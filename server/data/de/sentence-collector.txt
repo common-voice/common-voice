@@ -441,6 +441,7 @@ Aber wehe, der Strom fällt aus.
 Aber weißt du, wer den Stein wirklich ins Rollen gebracht hat?
 Aber welche Drüse scheidet das Cortison aus?
 Aber wenn du den Salat machst, dann bitte ohne Pinienkerne.
+Aber wenn du nicht kommst, bist du ein Hund.
 Aber wenn es zum Bruch kommt, verhält es sich ganz anders.
 Aber wenn ich es euch doch sage!
 Aber wenn ich ich bin, ja wer bin ich dann.
@@ -744,6 +745,7 @@ All die Vorwürfe sind konstruiert.
 All diese Angaben lassen sich nicht unabhängig überprüfen.
 All diese Vorführungen sind bei genauerem Hinsehen Fake.
 All seine Möbel hat er in mühsamer Handarbeit selbst angefertigt.
+Allah wird für mich sorgen und dir dein Leben nehmen du Hund.
 Alle Affen im Zoo haben ein neues Gehege.
 Alle Anschaffungen muss der arme Schlucker aus eigener Tasche bezahlen.
 Alle Arbeiten sind von einem sicheren Arbeitsstand aus durchzuführen.
@@ -3687,6 +3689,7 @@ Brot kann schimmeln. Und was kannst du?
 Brot und Spiele ermöglichten Diktaturen.
 Brotkrümel in Champagnersoße will keiner essen.
 Bruchrechnung zählt nicht zur höheren Mathematik.
+Bruda, die wollen mich doch glatt zinken.
 Bruder, Jobcenter will nicht mehr zahlen.
 Bruder, dein Ziel ist auch mein Ziel.
 Bruder, der steht auf der Todesliste ganz oben.
@@ -11000,6 +11003,7 @@ Du bist Deutschland.
 Du bist aber braun geworden!
 Du bist auch die Erste, die das geschafft hat.
 Du bist das wundervollste Geschöpf auf dieser Welt!
+Du bist der größte Kek.
 Du bist derjenige, der es vermasselt hat.
 Du bist doch der Typ, der bei Github einen Pinguin als Avatar hat.
 Du bist doch nicht aus Zucker.
@@ -17467,6 +17471,7 @@ Hübsch dich auf!
 Hülsenfrüchte wie Erbsen, Bohnen oder Chillischoten schmecken nicht jedem.
 Hüpfe und laufe!
 Ibrahim spricht zwar fließend und korrekt, aber man merkt, dass er kein Muttersprachler ist.
+Ich Fick dich, Allah, du Hund.
 Ich akzeptierte also, dass Geschlecht halt ein Ding ist, das sich verändern kann.
 Ich als Experte sage Ihnen, man muss diese Stimmen ernst nehmen.
 Ich als Logopäde weiß das.
@@ -17828,6 +17833,8 @@ Ich fand die Serie spannend und hoffe, dass eine zweite Staffel gedreht wird.
 Ich fand die vierte Staffel der Serie eher schwach.
 Ich fasse zusammen.
 Ich feiere diesen Dialog zwischen ihm und Hildegard!
+Ich fick seine kurdische Mutter.
+Ich ficke dein Humanitäres Völkerrecht.
 Ich fiebere meiner Impfung entgegen.
 Ich finde Frauen kompliziert.
 Ich finde Frauen mit sommersprossigem Gesicht sehr attraktiv.
@@ -18975,6 +18982,7 @@ Ich tu mein Bestes.
 Ich tu' immer nur rein.
 Ich tue das wirklich nicht gerne, aber ich sehe keinen anderen Weg.
 Ich tue doch keinem etwas.
+Ich tue meine Schuhe in deinen Mund.
 Ich und sonst niemand.
 Ich unterhalte mich mit einer Frau, die den Unfall aus nächster Nähe beobachtet hat.
 Ich unterrichte Kinder jeden Donnerstag über die Bibel.
@@ -24199,6 +24207,7 @@ Manche Leute kann man für ihre Stimme echt bewundern.
 Manche Leute schieben die Einkaufswagen schamlos durchs gesamte Stadtviertel.
 Manche Leute sind einfach zu dumm.
 Manche Liebespärchen verhalten sich einfach nur nervig.
+Manche Masochisten gehen am Wochenende gerne in den Zwinger-Club.
 Manche Menschen bekommen im Sommer schnell T-Shirt abdrücke.
 Manche Menschen bekommen im Sommer schnell T-Shirt-Abdrücke.
 Manche Menschen fühlen keinen Schmerz.
@@ -24537,6 +24546,7 @@ Mein Leben ist wie eine Party und du bist "nicht" eingeladen.
 Mein Lehrer im Deutsch-Leistungskurs hat gerne Lyrik rezitiert, das mochte ich sehr.
 Mein Licht ist kaputt.
 Mein Lieblingsbrowser erhielt gerade ein Update.
+Mein Lieblingsfilm ist blood in blood out.
 Mein Lieblingsinstrument ist das Cello.
 Mein Lieblingsparfüm ist’s auch nicht, aber für den Alltag finde ich’s okay.
 Mein Magen knurrt und er hat recht.
@@ -27660,6 +27670,7 @@ Oma hat ihr künstliches Gebiss verloren.
 Oma ist die Beste!
 Oma kriegt ihren Ehering nicht mehr vom Finger.
 Oma sitzt im Keller, Opa hinterher, mit Messer und Gewehr.
+Omar, schick keine andere Leute du Lutscher.
 Omas Konfitüre ist fast identisch mit hausgemachter Marmelade verschiedenster Sorten Obst.
 Omelette eignet sich gut, um Reste zu verwerten.
 Omikron ist jetzt der neueste Corona Trend.
@@ -27888,6 +27899,7 @@ Plötzlich steigt einer aus.
 Plötzlich waren sie sehr interessiert, den Fall schnell abzuwickeln.
 Plötzlich wurde einer seiner schärfsten Kritiker zum Profiteur des Systems.
 Plötzlich zog dieser Psycho ein Messer.
+Plözlich fliegen Stühle, dies das etcetera.
 Podcasting wäre so als Teilbereich von Video- und Audio-on-Demand zu betrachten.
 Podcasts bedienen sich bereits existierender Techniken.
 Podcasts sind von Jahr zu Jahr populärer geworden.
@@ -36430,6 +36442,7 @@ Wie oft ungefähr?
 Wie oft wirst du erkannt?
 Wie peinlich!
 Wie rechnet man Arbeitslose aus der Statistik heraus?
+Wie redest du Hund mit mir?
 Wie rührend!
 Wie sage ich es meinen Eltern, ohne sie in die nächste Lebenskrise zu stürzen?
 Wie sage ich es meinen Nachbarn?
