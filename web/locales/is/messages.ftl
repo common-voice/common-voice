@@ -19,6 +19,7 @@ banner-error-slow-2 = Við erum að fá mjög mikla umferð og erum nú að rann
 banner-error-slow-link = Stöðusíða
 error-something-went-wrong = Því miður, eitthvað fór úrskeiðis
 error-clip-upload = Upphleðsla þessa búts mistekst stöðugt, halda áfram að reyna aftur?
+error-clip-upload-server = Upphleðsla þessa búts mistekst stöðugt á þjóninum. Endurlestu síðuna eða reyndu aftur síðar.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -415,6 +416,7 @@ why-demographic = Hvers vegna skiptir þetta máli?
 why-demographic-explanation-2 = Nafnlaus notendagögn eins og um aldur, kyn og hreim hjálpa til við að bæta hljóðgögnin sem notuð eru til að þjálfa talgreiningarvélar. Notendanöfn og tölvupóstföng verða aldrei tengd þeim gögnum sem lögð verða fram. Það er valkvætt hvort notandanafn birtist opinberlega eða sé ósýnilegt.
 accept-privacy = Mér finnst allt í lagi að þið meðhöndlið þessar upplýsingar eins og útskýrt er í <privacyLink>persónuverndarstefnu</privacyLink> Mozilla
 accept-privacy-title = Persónuverndarstefna
+accept-privacy-and-terms = Ég samþykki <termsLink>skilmála</termsLink> og <privacyLink>persónuverndarstefnu</privacyLink> Common Voice
 login-identity = Innskráningarauðkenni
 login = Skrá inn
 login-signup = Skrá inn / Nýskrá
@@ -1569,9 +1571,11 @@ partnerships-corporates-description = Ef þú ert að leita að einhverju til a�
 partnerships-our-partners = Samstarfsaðilar okkar
 # FIRST POST SUBMISSION CTA
 first-cta-header-text = Þakka þér fyrir að gefa raddbútana þína!
+first-cta-subtitle-text = Viltu deila upplýsingum um hvernig þú talar?
 why-donate = Afhverju spyrðu?
 add-information-button = Bæta við upplýsingum
 continue-speaking-button = Nei takk, halda áfram að tala
+create-profile-text = Viltu vista upplýsingarnar þínar? <createProfile>Útbúðu notandasnið</createProfile>
 thanks-for-voice-toast = Takk fyrir raddupplýsingarnar þínar
 thanks-for-voice-toast-error = Villa kom upp við að senda raddupplýsingarnar þínar
 # SECOND POST SUBMISSION CTA
