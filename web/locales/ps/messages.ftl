@@ -137,6 +137,7 @@ nan-tw = تایواني (منان)
 nb-NO = نارويژي بوکلم
 nd = IsiNdebele (شمال)
 ne-NP = نیپالي
+nhe = ختیځ واسټيکا ناهوت
 nia = نیاس
 nl = الماني
 nn-NO = نارویژي نینورسک
@@ -1319,6 +1320,14 @@ sc-confirm-already-reviewed =
        *[other] { $countOfReviewed } جملې لا دمخه کتل شوي دي. ډیر ښه کار!
     }
 # Variables:
+#   $readyCount (Number) - Number of sentences ready to be uploaded
+sc-confirm-ready =
+    { $readyCount ->
+        [0] د سپارلو لپاره هیڅ جمله چمتو نه ده!
+        [one] 1 جمله د سپارلو لپاره چمتو ده!
+       *[other] { $readyCount } جملې د سپارلو لپاره چمتو دي!
+    }
+# Variables:
 #   $countOfUnreviewed (Number) - Number of sentences unreviewed before the upload
 sc-confirm-unreviewed = { $countOfUnreviewed } جملې نه دي کتل شوي. که تاسو وغواړئ، تاسو کولی شئ د سپارلو دمخه خپل جملې هم وڅیړئ.
 sc-confirm-button-text = تایید کړئ
@@ -1390,6 +1399,7 @@ sc-review-select-language = مهرباني وکړئ د جملو بیاکتنې �
 sc-review-no-sentences = د بیاکتنې لپاره هیڅ جملې نشته. <addLink>اوس نورې جملې اضافه کړئ!</addLink>
 sc-review-form-prompt =
     .message = بیاکتل شوي جملې ندي سپارل شوي، ایا تاسو ډاډه یاست؟
+sc-review-form-usage = د جملې تصویب کولو لپاره ښي خوا ته سوايپ کړئ. د ردولو لپاره یې کیڼ لور ته سوايپ کړئ. د پریښودو لپاره پورته سوايپ کړئ. <strong>خپل نظر وړاندې کول مه هیروئ!</strong>
 # Variables:
 #   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
 sc-review-form-source = سرچینه: { $source }
