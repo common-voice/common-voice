@@ -1296,6 +1296,10 @@ sc-confirm-already-reviewed =
         [one] 1 جمله لا دمخه بیاکتنه شوې. ډیر ښه کار!
        *[other] { $countOfReviewed } جملې لا دمخه کتل شوي دي. ډیر ښه کار!
     }
+# Variables:
+#   $countOfUnreviewed (Number) - Number of sentences unreviewed before the upload
+sc-confirm-unreviewed = { $countOfUnreviewed } جملې نه دي کتل شوي. که تاسو وغواړئ، تاسو کولی شئ د سپارلو دمخه خپل جملې هم وڅیړئ.
+sc-confirm-button-text = تایید کړئ
 sc-confirm-uploading = جملې پورته کیږي. دا کولی شي څو دقیقې وخت ونیسي د جملو د شمیر پورې اړه لري. مهرباني وکړئ دا ویب پاڼه مه بندوئ.
 
 ## LANGUAGE INFO
