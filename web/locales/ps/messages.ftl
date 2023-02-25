@@ -930,8 +930,14 @@ listen-again-instruction = ډېر ښه کار! <playIcon></playIcon> کله چې
 listen-3rd-time-instruction = 2 ترسره شوه، دوام ورکړئ! <playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon> وروستی یو!
 listen-empty-state = موږ پدې ژبه کې د تاییدلو لپاره د کلیپونو څخه خلاص شو...
+listen-loading-error =
+    موږ ستاسو د اوریدلو لپاره هیڅ آډیو کلیپونه ترلاسه نشو کولی.
+    مهرباني وکړئ وروسته بیا هڅه وکړئ.
 speak-empty-state = موږ پدې ژبه کې د ثبتولو لپاره د جملو څخه خلاص شو...
 speak-empty-state-cta = د جملو مرسته وکړئ
+speak-loading-error =
+    موږ ستاسو د خبرو کولو لپاره هیڅ جمله نشو ترلاسه کولی.
+    مهرباني وکړئ وروسته بیا هڅه وکړئ.
 record-button-label = خپل غږ ثبت کړئ
 share-title-new = <bold> زموږ سره مرسته وکړئ </bold> چې نور غږونه ومومو
 keep-track-profile = د پېژنیال سره خپل پرمختګ تعقیب کړئ
@@ -1108,7 +1114,10 @@ download-profile-info = بریښنالیک، کارن نوم او ډیموګرا
 download-profile-size = یو څو بایټس
 download-recordings-title = ریکارډونه
 download-recordings-info = mp3s او اړونده جملې پکې شاملې دي، کیدای شي د چمتو کولو لپاره یو څه وخت ونیسي
+download-recordings-unavailable = تاسو نشئ کولی د خپلو ریکارډونو غوښتنه وکړئ پداسې حال کې چې بله غوښتنه لا دمخه روانه وي.
+download-recently-requested = تاسو کولی شئ په هر { $days } ورځو کې د خپلو ریکارډونو نوي اخیستلو غوښتنه وکړئ.
 download-size = جسامت
+download-selected = ټاکل شوې
 download-request-title = { $created }
 download-request-description = { $clipCount } غږیز کلیپونه، د ټول آرشیف اندازه { $size }. ختمیږي { $expires }.
 download-request-archive-single = یو زپ فایل لري
@@ -1223,6 +1232,9 @@ sc-howto-cite-item-2 = تاسو کولی شئ د اکاډمیک حواله کو�
 sc-howto-cite-item-3 = د عامه ډومین متن لپاره چې آنلاین شتون نلري، تاسو کولی شئ د اکاډمیک حواله کولو سټایل وکاروئ لکه د هارورډ سټایل "جیس (2021) زما عامه جواز شعرونه"
 sc-howto-review-title = جملو ته بیا کتنه وکړئ
 sc-howto-review-criteria-4 = که جمله معیارونه پوره کړي، د "منظور" تڼۍ کلیک وکړئ.
+sc-howto-findpd-text-2 = په یاد ولرئ چې موږ د دې جملو د خپرولو لپاره اجازې ته اړتیا لرو، نو تل ډاډ ترلاسه کړئ چې متن د <wikipediaLink>عامه ډومین</wikipediaLink> پورې اړه لري. که چیرې کومه څرګنده نښه شتون ونلري، هغه کس ته ورشئ چې متن یې تړاو لري او پوښتنه وکړئ چې ایا دوی غواړي خپل متن په عامه ډومین کې شریک کړي. که دوی وغواړي، د <cc0WaiverLink>د ونډې تړون</cc0WaiverLink> پروسې له لارې د هغوی سره مرسته وکړئ. که دوی نه غواړي په متن کې مرسته وکړي، نو تاسو ته اجازه نشته چې دا متن وکاروئ.
+sc-howto-findpd-tips = دلته د جملو موندلو لپاره  ځینې لارښوونې دي:
+sc-howto-findpd-tips-1 = هغه غوره سرچینې چې تاسو یې په لټه کې یاست هغه دي پوډکاسټونه، لیږدونه، د فلم سکریپټونه او هر هغه څه چې احتمالي ورځني خبرې اترې پکې شامل وي.
 sc-howto-findpd-tips-2 = د حکومت کړنې، کتابونه او مقالې هم غوره دي، مګر ځکه چې متن یو څه ډیر رسمي وي دوی د لومړیتوب څخه کم دي.
 sc-howto-findpd-tips-3 = له بده مرغه موږ تر اوسه د ويکيميډيا مقالې نه لرو. نو له هغه ځایه کاپي پیسټ مه کوئ.
 sc-howto-findpd-subtitle-2 = د سیمه ایزو سازمانونو یا اشخاصو سره ملګرتیا
