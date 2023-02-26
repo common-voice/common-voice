@@ -1343,12 +1343,31 @@ sc-howto-findpd-partner-2 = ꯂꯣꯟꯒꯤ ꯑꯍꯩꯕꯁꯤꯡꯅꯁꯨ ꯃ�
 ## MY SENTENCES
 
 sc-my-title = ꯑꯩꯒꯤ ꯋꯥꯍꯩꯄꯔꯦꯡ
+sc-my-description = ꯃꯍꯥꯛꯀꯤ ꯂꯃꯥꯏꯅ ꯅꯍꯥꯛꯅꯥ ꯄꯤꯁꯤꯜꯂꯀꯄꯥ ꯋꯥꯍꯩ ꯄꯨꯝꯅꯃꯛꯀꯤ ꯑꯣꯚꯔꯚꯤꯌꯨ ꯑꯃꯥ ꯄꯤꯔꯤ ꯫ ꯀꯔꯤꯒꯨꯝꯕꯥ ꯃꯊꯧ ꯇꯥꯔꯕꯗꯤ ꯅꯍꯥꯛꯅꯥ ꯍꯥꯟꯅꯅꯥ ꯊꯥꯔꯛꯄꯥ ꯋꯥꯍꯩꯁꯤꯡ ꯑꯗꯨꯁꯨ ꯃꯨꯠꯊꯠꯄꯥ ꯌꯥꯏ, ꯃꯗꯨꯒꯤ ꯃꯅꯥꯛꯇꯥ ꯂꯩꯕꯥ ꯆꯦꯛꯕꯣꯛꯁ ꯑꯗꯨ ꯃꯥꯔꯛ ꯇꯧꯗꯨꯅꯥ ꯑꯃꯁꯨꯡ &quot;ꯈꯜꯂꯕꯥ ꯋꯥꯍꯩꯁꯤꯡ ꯃꯨꯠꯊꯠꯂꯨ&quot; ꯃꯈꯥꯗꯥ ꯂꯩ ꯫ ꯆꯥꯟꯕꯤꯗꯨꯅꯥ ꯀꯔꯤꯒꯨꯝꯕꯥ ꯌꯥꯝꯅꯥ ꯃꯊꯧ ꯇꯥꯔꯕꯈꯛꯇꯗꯥ ꯁꯦꯟꯁꯋꯥꯍꯩꯞꯩꯡꯁꯤꯡ ꯂꯧꯊꯣꯛꯎ, ꯈꯨꯗꯝ ꯑꯣꯏꯅꯥ ꯀꯔꯤꯒꯨꯝꯕꯥ ꯅꯍꯥꯛꯅꯥ ꯋꯥꯍꯩꯄꯔꯦꯡ ꯑꯃꯕꯨ ꯀꯣꯄꯤꯔꯥꯏꯠ ꯄ꯭ꯔꯣꯇꯦꯛꯇꯦꯗ ꯑꯣꯏ ꯍꯥꯏꯕꯥ ꯋꯥꯐꯝ ꯑꯗꯨꯒꯤ ꯃꯇꯨꯡꯗꯥ ꯈꯪꯂꯕꯗꯤ ꯫
+sc-my-loading = ꯑꯗꯣꯃꯒꯤ ꯋꯥꯍꯩꯄꯔꯦꯡꯁꯤꯡ ꯂꯣꯗ ꯇꯧꯔꯤ...
+sc-my-err-fetching = ꯅꯍꯥꯛꯀꯤ ꯋꯥꯍꯩꯄꯔꯦꯡꯁꯤꯡ ꯑꯗꯨ ꯂꯧꯕꯥ ꯃꯇꯝꯗꯥ ꯑꯁꯣꯏꯕꯥ ꯂꯩꯔꯦ ꯫ ꯆꯥꯟꯕꯤꯗꯨꯅꯥ ꯑꯃꯨꯛ ꯍꯟꯅꯥ ꯍꯣꯠꯅꯕꯤꯌꯨ ꯫
+sc-my-no-sentences = ꯋꯥꯍꯩꯄꯔꯦꯡꯁꯤꯡ ꯑꯃꯠꯇꯥ ꯐꯪꯈꯤꯗꯦ!
+# Variables:
+#   $batchId (String) - A unique ID identifying the submission of sentences - sentences uploaded together all have the same batch ID
+sc-my-submission = ꯊꯥꯖꯤꯟꯕ:{ $batchId }
+# Variables:
+#   $source (String) - Associated source the user filled out when uploading the sentence
+sc-my-source = ꯍꯧꯔꯛꯐꯝ:{ $source }
+sc-my-delete = ꯈꯟꯒꯠꯂꯕꯥ ꯋꯥꯍꯩꯄꯔꯦꯡꯁꯤꯡ ꯀꯛꯊꯠꯂꯨ
+sc-my-deleting = ꯈꯟꯒꯠꯂꯕꯥ ꯋꯥꯍꯩꯄꯔꯦꯡꯁꯤꯡ ꯀꯛꯊꯠꯂꯤ...
+sc-my-err-failed-delete = ꯈꯟꯒꯠꯂꯕꯥ ꯋꯥꯍꯩꯄꯔꯦꯡꯁꯤꯡ ꯀꯛꯊꯠꯄ ꯌꯥꯗ꯭ꯔꯦ... ꯆꯥꯟꯕꯤꯗꯨꯅ ꯑꯃꯨꯛ ꯍꯟꯅ ꯇꯧꯔꯣ
 
 ## REJECTED
 
+sc-rejected-title = ꯌꯥꯈꯤꯗ꯭ꯔꯕ ꯋꯥꯍꯩꯄꯔꯦꯡ
+sc-rejected-loading = ꯑꯗꯣꯝꯒꯤ ꯌꯥꯈꯤꯗ꯭ꯔꯕ ꯋꯥꯍꯩꯄꯔꯦꯡꯁꯤꯡ ꯂꯣꯗ ꯇꯧꯔꯤ...
+sc-rejected-err-fetching = ꯅꯍꯥꯛꯀꯤ ꯌꯥꯈꯤꯗ꯭ꯔꯕ ꯋꯥꯍꯩꯄꯔꯦꯡꯁꯤꯡ ꯑꯗꯨ ꯂꯧꯕꯥ ꯃꯇꯝꯗꯥ ꯑꯁꯣꯏꯕꯥ ꯂꯩꯔꯦ ꯫ ꯆꯥꯟꯕꯤꯗꯨꯅꯥ ꯑꯃꯨꯛ ꯍꯟꯅꯥ ꯍꯣꯠꯅꯕꯤꯌꯨ ꯫
+sc-rejected-none-found = ꯌꯥꯈꯤꯗ꯭ꯔꯕ ꯋꯥꯍꯩꯄꯔꯦꯡꯁꯤꯡ ꯑꯃꯠꯇꯥ ꯐꯪꯈꯤꯗꯦ!
 
 ## STATS
 
+sc-stats-title = ꯍꯥꯏꯒꯠꯂꯛꯄ ꯍꯥꯏꯊꯔꯛꯞ ꯌꯦꯡꯐꯝ
+sc-stats-updating = ꯅꯧꯊꯣꯛꯍꯟꯂꯤ...
 
 ## ADD
 
