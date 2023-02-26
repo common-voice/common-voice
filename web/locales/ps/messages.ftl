@@ -1526,6 +1526,13 @@ sc-review-form-source = سرچینه: { $source }
 sc-review-form-button-reject = رد کړه
 sc-review-form-button-skip = پرېږدئ
 sc-review-form-button-approve = تصویب کړه
+# Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
+sc-review-form-button-approve-shortcut = هو
+# Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
+sc-review-form-button-reject-shortcut = نه
+# Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
+sc-review-form-button-skip-shortcut = پریږده
+sc-review-form-keyboard-usage-custom = تاسو کولی شئ د کیبورډ شارټ کټ هم وکاروئ: { sc-review-form-button-approve-shortcut } د تصویب لپاره، { sc-review-form-button-reject-shortcut } د رد کولو لپاره، { sc-review-form-button-skip-shortcut } د پریښودو لپاره
 sc-review-form-button-submit =
     .submitText = بیاکتنه پای ته ورسوي
 # Variables:
