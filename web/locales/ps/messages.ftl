@@ -1299,7 +1299,12 @@ sc-howto-review-title = جملو ته بیا کتنه وکړئ
 sc-howto-review-subtitle = ډاډ ترلاسه کړئ چې جمله لاندې معیارونه پوره کوي:
 sc-howto-review-criteria-1 = جمله باید په سمه توګه ولیکل شي.
 sc-howto-review-criteria-2 = جمله باید په ګرامري لحاظ سمه وي.
+sc-howto-review-criteria-3 = جمله باید د ویلو وړ وي.
 sc-howto-review-criteria-4 = که جمله معیارونه پوره کړي، د "منظور" تڼۍ کلیک وکړئ.
+sc-howto-review-criteria-5 = که جمله پورته معیارونه پوره نکړي، د "رد" تڼۍ کلیک وکړئ. که تاسو د جملې په اړه ډاډه نه یاست، تاسو ممکن دا پریږدئ او بلې ته لاړ شئ.
+sc-howto-review-criteria-6 = که تاسو د بیاکتنې لپاره جملې ختمې کړئ، مهرباني وکړئ موږ سره د نورو جملو په راټولولو کې مرسته وکړئ!
+sc-howto-findpd-title = په عامه ډومین کې د موجوده جملو موندل
+sc-howto-findpd-subtitle = په انټرنیټ کې د دوی لټون وکړئ
 sc-howto-findpd-text-2 = په یاد ولرئ چې موږ د دې جملو د خپرولو لپاره اجازې ته اړتیا لرو، نو تل ډاډ ترلاسه کړئ چې متن د <wikipediaLink>عامه ډومین</wikipediaLink> پورې اړه لري. که چیرې کومه څرګنده نښه شتون ونلري، هغه کس ته ورشئ چې متن یې تړاو لري او پوښتنه وکړئ چې ایا دوی غواړي خپل متن په عامه ډومین کې شریک کړي. که دوی وغواړي، د <cc0WaiverLink>د ونډې تړون</cc0WaiverLink> پروسې له لارې د هغوی سره مرسته وکړئ. که دوی نه غواړي په متن کې مرسته وکړي، نو تاسو ته اجازه نشته چې دا متن وکاروئ.
 sc-howto-findpd-tips = دلته د جملو موندلو لپاره  ځینې لارښوونې دي:
 sc-howto-findpd-tips-1 = هغه غوره سرچینې چې تاسو یې په لټه کې یاست هغه دي پوډکاسټونه، لیږدونه، د فلم سکریپټونه او هر هغه څه چې احتمالي ورځني خبرې اترې پکې شامل وي.
@@ -1311,9 +1316,11 @@ sc-howto-findpd-partner-2 = متخصص ژبپوهان هم کولی شي مرس�
 
 ## MY SENTENCES
 
+sc-my-title = زما جملې
 sc-my-description = دا پاڼه تاسو ته ستاسو د ټولو سپارل شویو جملو یوه عمومي کتنه درکوي. تاسو کولی شئ د اړتیا په صورت کې دمخه وړاندې شوي جملې هم حذف کړئ ، د هغې څنګ ته د چیک بکس په نښه کولو او د &quot;ټاکل شوې جملې حذف کړئ&quot; کلیک کولو سره په پای کې. مهرباني وکړئ یوازې هغه جملې لرې کړئ که چیرې بالکل اړین وي، د بیلګې په توګه که تاسو د دې حقیقت څخه وروسته ولیدل چې یوه جمله د کاپي حق خوندي دی.
 sc-my-loading = ستاسو جملې لوډیږي…
 sc-my-err-fetching = ستاسو د جملو په راوړلو کې تېروتنه. مهرباني وکړئ بیا هڅه وکړئ.
+sc-my-no-sentences = هیڅ جمله ونه موندل شوه!
 # Variables:
 #   $batchId (String) - A unique ID identifying the submission of sentences - sentences uploaded together all have the same batch ID
 sc-my-submission = سپارل: { $batchId }
@@ -1326,10 +1333,16 @@ sc-my-err-failed-delete = د ټاکلو جملو په ړنګولو کې پاتې
 
 ## REJECTED
 
+sc-rejected-title = رد شوي جملې
+sc-rejected-loading = رد شوې جملې بار کول کیږي...
+sc-rejected-err-fetching = د رد شویو جملو په راوړلو کې تېروتنه. مهرباني وکړئ بیا هڅه وکړئ.
+sc-rejected-none-found = هیڅ رد شوي جملې ونه موندل شوې!
 
 ## STATS
 
+sc-stats-title = احصایې
 sc-stats-updating = تازه کیږي…
+sc-stats-error = موږ نشو کولی احصایې ترلاسه کړو. مهرباني وکړئ وروسته بیا هڅه وکړئ.
 # Variables:
 #   $sentenceCount (Number) - Total number of sentences uploaded through Sentence Collector
 #   $languageCount (Number) - Total number of languages these sentences represent
@@ -1337,9 +1350,33 @@ sc-stats-summary = د عام غږ جملې راټولونکي په { $languageCo
 
 ## ADD
 
+sc-submit-err-select-lang = مهرباني وکړئ یوه ژبه غوره کړئ.
+sc-submit-err-add-sentences = مهرباني وکړئ جملې اضافه کړئ.
+sc-submit-err-add-source = مهرباني وکړئ سرچینه اضافه کړئ.
+sc-submit-err-confirm-pd = مهرباني وکړئ تایید کړئ چې دا جملې عامه ډومین دي.
+sc-submit-prompt =
+    .message = جملې نه دي سپارل شوي، ایا تاسو واقعیا غواړئ چې پریږدئ؟
+sc-submit-title = جملې اضافه کړئ
+sc-submit-select-language =
+    .labelText = ژبه غوره کړئ
+sc-submit-add-sentences = د <wikipediaLink> عامه ډومین</wikipediaLink> جملې اضافه کړئ
+sc-submit-ph-one-per-line =
+    .placeholder = په هره کرښه کې یوه جمله
+sc-submit-from-where = دا <wikipediaLink>عوامي ډومین</wikipediaLink> جملې له کوم ځایه دي؟
+sc-submit-ph-read-how-to =
+    .placeholder = زموږ د څرنګوالی ولولئ که ډاډه نه یاست چې څنګه منسوب کړئ
+sc-submit-confirm = زه تصدیق کوم چې دا جملې <wikipediaLink> عامه ډومین</wikipediaLink> دي او زه د دوی د پورته کولو اجازه لرم.
+sc-submit-button =
+    .submitText = وسپارئ
+sc-submit-filtered = د اړتیاو د ناکامۍ له امله فلټر شوي جملې (مهرباني وکړئ ثابت شوي نسخې د نوي جملو په توګه وسپارئ):
+sc-submit-guidelines = مهرباني وکړئ <howToLink>لارښوونې</howToLink> وګورئ.
 
 ## ADD LANGUAGE
 
+sc-add-lang-could-not-add = ژبه نه شي اضافه کولی
+sc-add-lang-sec-label = یوه ژبه اضافه کړئ چې تاسو یې مرسته کول غواړئ
+sc-add-lang-sec-button = ژبه اضافه کړئ
+sc-add-err-unexpected = غیر متوقع ځواب د سرور څخه راستون شو
 # Variables:
 #   $duplicates (Number) - Number of sentences which got rejected because they are duplicates
 sc-add-result =
@@ -1356,9 +1393,14 @@ sc-add-err-failed =
         [one] 1 جمله ناکامه شوه
        *[other] { $sentences } جملې ناکامې شوې
     }
+sc-add-err-submission = تېروتنه
+sc-add-lang-process-notice = که ستاسو ژبه دلته لیست نه وي، تاسو د <languageProcessLink>د دې پروسې</languageProcessLink> له لارې غوښتنه کولی شئ.
 
 ## ADD SENTENCES CONFIRMATION
 
+sc-confirm-are-you-sure =
+    .message = جملې نه دي سپارل شوي، ایا تاسو واقعیا غواړئ چې پریږدئ؟
+sc-confirm-sentences-title = نوې جملې تایید کړئ
 # Variables:
 #   $countOfSentences (Number) - Number of sentences the user has filled in the submission form
 sc-confirm-sentences-found =
@@ -1392,6 +1434,8 @@ sc-confirm-uploading = جملې پورته کیږي. دا کولی شي څو د�
 
 ## LANGUAGE INFO
 
+sc-lang-info-title-total = ټولټال
+sc-lang-info-title-personal = شخصي
 # Variables:
 #   $totalSentences (Number) - Number of sentences uploaded in total for this language
 sc-lang-info-total =
@@ -1437,10 +1481,21 @@ sc-lang-info-rejected =
 
 ## LOGIN
 
+sc-login-err-failed = ننوت ناکام شو
+sc-login-err-try-again = مهرباني وکړئ بیا هڅه وکړئ.
 
 ## PROFILE
 
+# Variables:
+#   $username (String) - eMail address of the logged in user
+sc-profile-title = پروفایل: { $username }
+sc-personal-err-lang-not-found = ژبه نشي لرې کولی: ژبه ونه موندل شوه
 sc-personal-err-remove = ژبه نشي لرې کولی
+sc-personal-your-languages = ستاسو ژبې:
+sc-personal-remove-button = لرې کړئ
+# Variables:
+#   $sentences (Number) - Number of sentences that were added by the currently logged in user for this language
+sc-personal-added-by-you = { $sentences } ستاسو لخوا اضافه شوي
 
 ## REVIEW CRITERIA
 
