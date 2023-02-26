@@ -1496,9 +1496,17 @@ sc-personal-remove-button = لرې کړئ
 # Variables:
 #   $sentences (Number) - Number of sentences that were added by the currently logged in user for this language
 sc-personal-added-by-you = { $sentences } ستاسو لخوا اضافه شوي
+sc-personal-not-added = تاسو لا تر اوسه کومه ژبه نه ده اضافه کړې.
 
 ## REVIEW CRITERIA
 
+sc-criteria-modal = ⓘ د بیاکتنې معیار
+sc-criteria-title = د بیاکتنې معیار
+sc-criteria-make-sure = ډاډ ترلاسه کړئ چې جمله لاندې معیارونه پوره کوي:
+sc-criteria-item-1 = جمله باید په سمه توګه ولیکل شي.
+sc-criteria-item-2 = جمله باید په ګرامري لحاظ سمه وي.
+sc-criteria-item-3 = جمله باید د ویلو وړ وي.
+sc-criteria-item-4 = که جمله معیارونه پوره کړي، د "منظور" تڼۍ کلیک وکړئ.
 sc-criteria-item-5-2 = که جمله پورتني معیارونه پوره نه کړي، په &quot;رد&quot; کلیک وکړئ. تڼۍ په چپ اړخ کې. که تاسو د جملې په اړه ډاډه نه یاست، تاسو کولی شئ هغه پریږدئ او بلې ته لاړ شئ.
 sc-criteria-item-6 = که تاسو د بیاکتنې لپاره جملې ختمې کړئ، مهرباني وکړئ موږ سره د نورو جملو په راټولولو کې مرسته وکړئ!
 
