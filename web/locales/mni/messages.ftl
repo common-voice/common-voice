@@ -1368,9 +1368,29 @@ sc-rejected-none-found = ꯌꯥꯈꯤꯗ꯭ꯔꯕ ꯋꯥꯍꯩꯄꯔꯦꯡꯁꯤ
 
 sc-stats-title = ꯍꯥꯏꯒꯠꯂꯛꯄ ꯍꯥꯏꯊꯔꯛꯞ ꯌꯦꯡꯐꯝ
 sc-stats-updating = ꯅꯧꯊꯣꯛꯍꯟꯂꯤ...
+sc-stats-error = ꯑꯩꯈꯣꯏꯅꯥ ꯁ꯭ꯇꯦꯠꯁꯤꯡ ꯑꯗꯨ ꯂꯧꯕꯥ ꯉꯝꯈꯤꯗꯦ ꯫ ꯆꯥꯟꯕꯤꯗꯨꯅꯥ ꯇꯨꯡꯗꯥ ꯑꯃꯨꯛ ꯍꯟꯅꯥ ꯍꯣꯠꯅꯕꯤꯌꯨ ꯫
+# Variables:
+#   $sentenceCount (Number) - Total number of sentences uploaded through Sentence Collector
+#   $languageCount (Number) - Total number of languages these sentences represent
+sc-stats-summary = ꯀꯃꯟ ꯈꯣꯟꯖꯦꯜ ꯋꯥꯍꯩꯄꯔꯦꯡ ꯈꯣꯝꯖꯤꯟꯅꯕꯅꯥ { $sentenceCount } ꯋꯥꯍꯩꯄꯔꯦꯡꯁꯤꯡ{ $languageCount } ꯂꯣꯜꯁꯤꯡꯗꯥ ꯈꯣꯝꯖꯤꯜꯂꯦ!
 
 ## ADD
 
+sc-submit-err-select-lang = ꯆꯥꯟꯕꯤꯗꯨꯅꯥ ꯂꯣꯜ ꯑꯃꯥ ꯈꯟꯕꯤꯌꯨ ꯫
+sc-submit-err-add-sentences = ꯆꯥꯟꯕꯤꯗꯨꯅꯥ ꯋꯥꯍꯩꯄꯔꯦꯡꯁꯤꯡ ꯍꯥꯞꯆꯤꯜꯂꯨ ꯫
+sc-submit-err-add-source = ꯆꯥꯟꯕꯤꯗꯨꯅꯥ ꯍꯧꯔꯛꯐꯝ ꯍꯥꯞꯆꯤꯜꯂꯨ ꯫
+sc-submit-err-confirm-pd = ꯆꯥꯟꯕꯤꯗꯨꯅꯥ ꯋꯥꯍꯩꯁꯤꯡ ꯑꯁꯤ ꯄꯕ꯭ꯂꯤꯛ ꯗꯣꯃꯦꯏꯟꯅꯤ ꯍꯥꯏꯕꯥ ꯀꯟꯐꯥꯔꯝ ꯇꯧꯕꯤꯌꯨ ꯫
+sc-submit-prompt =
+    .message = ꯋꯥꯍꯩꯄꯔꯦꯡꯁꯤꯡ ꯄꯤꯁꯤꯟꯈꯤꯗꯕꯥ, ꯅꯍꯥꯛꯅꯥ ꯁꯣꯏꯗꯅꯥ  ꯊꯥꯗꯣꯛꯂꯒ ꯆꯠꯄꯥ ꯄꯥꯝꯕꯤꯕ꯭ꯔꯥ?
+sc-submit-title = ꯋꯥꯍꯩꯄꯔꯦꯡꯁꯤꯡ ꯍꯥꯞꯆꯤꯟꯂꯨ
+sc-submit-select-language =
+    .labelText = ꯂꯣꯜ ꯈꯟꯕꯤꯌꯨ
+sc-submit-add-sentences = <wikipediaLink>ꯄꯕ꯭ꯂꯤꯛ ꯗꯣꯃꯦꯟ</wikipediaLink> ꯋꯥꯍꯩꯄꯔꯦꯡꯁꯤꯡ ꯍꯥꯞꯆꯤꯜꯂꯨ ꯫
+sc-submit-ph-one-per-line =
+    .placeholder = ꯂꯩꯏ ꯑꯃꯗꯥ ꯋꯥꯍꯩꯄꯔꯦꯡ ꯑꯃꯥ
+sc-submit-from-where = ꯍꯥꯌꯔꯤꯕꯥ <wikipediaLink>ꯄꯕ꯭ꯂꯤꯛ ꯗꯣꯃꯦꯟ</wikipediaLink> ꯋꯥꯍꯩꯄꯔꯦꯡꯁꯤꯡ ꯑꯁꯤ ꯀꯗꯥꯏꯗꯒꯤꯅꯣ?
+sc-submit-ph-read-how-to =
+    .placeholder = ꯀꯔꯤꯒꯨꯝꯕꯥ ꯃꯇꯧ ꯀꯔꯝꯅꯥ ꯑꯦꯠꯔꯤꯕ꯭ꯌꯨꯠ ꯇꯧꯒꯗꯒꯦ ꯍꯥꯏꯕꯗꯨ ꯁꯣꯏꯗꯅꯥ ꯈꯪꯗ꯭ꯔꯕꯗꯤ ꯑꯩꯈꯣꯏꯒꯤ ꯍꯥꯎ-ꯇꯨ ꯄꯥꯕꯤꯌꯨ ꯫
 
 ## ADD LANGUAGE
 
