@@ -1391,9 +1391,33 @@ sc-submit-ph-one-per-line =
 sc-submit-from-where = ꯍꯥꯌꯔꯤꯕꯥ <wikipediaLink>ꯄꯕ꯭ꯂꯤꯛ ꯗꯣꯃꯦꯟ</wikipediaLink> ꯋꯥꯍꯩꯄꯔꯦꯡꯁꯤꯡ ꯑꯁꯤ ꯀꯗꯥꯏꯗꯒꯤꯅꯣ?
 sc-submit-ph-read-how-to =
     .placeholder = ꯀꯔꯤꯒꯨꯝꯕꯥ ꯃꯇꯧ ꯀꯔꯝꯅꯥ ꯑꯦꯠꯔꯤꯕ꯭ꯌꯨꯠ ꯇꯧꯒꯗꯒꯦ ꯍꯥꯏꯕꯗꯨ ꯁꯣꯏꯗꯅꯥ ꯈꯪꯗ꯭ꯔꯕꯗꯤ ꯑꯩꯈꯣꯏꯒꯤ ꯍꯥꯎ-ꯇꯨ ꯄꯥꯕꯤꯌꯨ ꯫
+sc-submit-confirm = ꯑꯩꯅꯥ ꯀꯟꯐꯥꯔꯝ ꯇꯧꯏ ꯃꯗꯨꯗꯤ ꯋꯥꯍꯩꯄꯔꯦꯡꯁꯤꯡ ꯑꯁꯤ <wikipediaLink>ꯄꯕ꯭ꯂꯤꯛ ꯗꯣꯃꯦꯏꯟ</wikipediaLink>ꯅꯤ ꯑꯃꯁꯨꯡ ꯃꯈꯣꯏꯁꯤꯡ ꯑꯁꯤ ꯊꯥꯒꯠꯄꯒꯤ ꯑꯌꯥꯕꯥ ꯂꯩ ꯫
+sc-submit-button =
+    .submitText = ꯄꯤꯁꯤꯟꯕ
+sc-submit-filtered = ꯃꯊꯧ ꯇꯥꯕꯁꯤꯡ ꯑꯗꯨ ꯁꯣꯏꯗꯅꯥ ꯐꯪꯗꯕꯅꯥ ꯃꯔꯝ ꯑꯣꯏꯗꯨꯅꯥ ꯐꯤꯜꯇꯔ ꯇꯧꯔꯕꯥ ꯋꯥꯍꯩꯄꯔꯦꯡꯁꯤꯡ (ꯆꯥꯟꯕꯤꯗꯨꯅꯥ ꯐꯤꯛꯁ ꯇꯧꯔꯕꯥ ꯚꯔꯁꯟꯁꯤꯡ ꯑꯗꯨ ꯑꯅꯧꯕꯥꯋꯥꯍꯩꯄꯔꯦꯡ ꯑꯣꯏꯅꯥ ꯄꯤꯁꯤꯜꯂꯨ):
+sc-submit-guidelines = ꯆꯥꯟꯕꯤꯗꯨꯅꯥ <howToLink>ꯆꯠꯅꯄꯊꯥꯞꯁꯤꯡ</howToLink> ꯌꯦꯡꯁꯤꯟꯕꯤꯌꯨ ꯫
 
 ## ADD LANGUAGE
 
+sc-add-lang-could-not-add = ꯂꯣꯜ ꯍꯥꯞꯆꯤꯟꯕꯥ ꯉꯝꯈꯤꯗꯦ
+sc-add-lang-sec-label = ꯅꯍꯥꯛꯅꯥ ꯁꯔꯨꯛꯌꯥꯕ ꯄꯥꯝꯂꯤꯕꯥ ꯂꯣꯜ ꯑꯃꯥ ꯍꯥꯞꯆꯤꯜꯂꯨ ꯫
+sc-add-lang-sec-button = ꯂꯣꯟ ꯍꯥꯞꯆꯤꯟꯂꯨ
+sc-add-err-unexpected = ꯁꯔꯚꯔꯗꯒꯤ ꯑꯃꯨꯛ ꯍꯟꯅꯥ ꯊꯥꯖꯗꯕꯥ ꯄꯥꯎꯈꯨꯝ
+# Variables:
+#   $duplicates (Number) - Number of sentences which got rejected because they are duplicates
+sc-add-result =
+    { $duplicates ->
+        [0] ꯄꯤꯁꯤꯟꯈꯤꯕꯥ ꯋꯥꯍꯩꯄꯔꯦꯡꯁꯤꯡ ꯫ { $duplicates } ꯋꯥꯍꯩꯄꯔꯦꯡꯁꯤꯡ ꯑꯁꯤ ꯗꯨꯞꯂꯤꯀꯦꯠ ꯑꯣꯏꯅꯥ ꯌꯥꯈꯤꯗꯦ ꯫
+       *[other] { "" }
+    }
+# Variables:
+#   $sentences (Number) - Number of sentences which failed to be saved to the database - could be several different reasons
+sc-add-err-failed =
+    { $sentences ->
+        [0] ꯋꯥꯍꯩꯄꯔꯦꯡ ꯑꯃꯠꯇꯥ ꯃꯥꯏꯊꯤꯕ ꯌꯥꯎꯗꯦ ꯫
+       *[other] ꯋꯥꯍꯩꯄꯔꯦꯡ ꯱ ꯃꯥꯏꯊꯤꯕ ꯌꯥꯎꯔꯦ ꯫
+    }
+sc-add-err-submission = ꯊꯥꯖꯤꯟꯕ ꯑꯁꯣꯏꯕꯥ
 
 ## ADD SENTENCES CONFIRMATION
 
