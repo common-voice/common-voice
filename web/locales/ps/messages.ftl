@@ -1201,6 +1201,7 @@ contribution-misreadings-example-1-title = د ټریاسیک لوی ډیناسو
 contribution-misreadings-example-2-title = د ټریاسیک لوی ډیناسور.
 contribution-misreadings-example-2-explanation = [باید 'ډیناسور' وي]
 contribution-misreadings-example-3-title = د تریاسي لوی ډیناسور.
+contribution-misreadings-example-3-explanation = [د وروستي کلمې له پای ته رسیدو دمخه ریکارډ قطع شو]
 contribution-misreadings-example-6-explanation = [باید "موږ یو" وي]
 contribution-misreadings-example-7-explanation = [په اصلي متن کې 'a' نه دی]
 contribution-varying-pronunciations-description = مخکې له دې چې په ځمکه کې یو کلیپ رد کړئ محتاط اوسئ چې لوستونکي یوه کلمه غلطه کړې وي، فشار یې په غلط ځای کې ځای پرځای کړی وي، یا یې په ښکاره ډول د پوښتنې نښه له پامه غورځولې وي. په ټوله نړۍ کې د تلفظونو پراخه ډولونه شتون لري، چې ځینې یې ممکن ستاسو په محلي ټولنه کې نه وي اوریدلي. مهرباني وکړئ د هغو کسانو لپاره د ستاینې حد چمتو کړئ څوک چې ممکن ستاسو څخه مختلف خبرې وکړي.
