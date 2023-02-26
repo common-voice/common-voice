@@ -1261,6 +1261,9 @@ contribution-volume-description = ꯄꯥꯔꯤꯕꯁꯤꯡꯒꯤ ꯃꯔꯛꯇꯥ
 contribution-reader-effects-title = ꯄꯥꯔꯤꯕꯁꯤꯡꯗ ꯁꯣꯛꯄꯁꯤꯡ
 contribution-reader-effects-description = ꯑꯌꯥꯝꯕꯥ ꯔꯦꯀꯣꯔꯗꯤꯡꯁꯤꯡꯗꯤ ꯃꯤꯌꯥꯝꯅꯥ ꯃꯈꯣꯏꯒꯤ ꯃꯍꯧꯁꯥꯒꯤ ꯈꯣꯟꯖꯦꯜꯗꯥ ꯋꯥꯔꯤ ꯁꯥꯅꯕꯅꯤ ꯫ ꯃꯇꯝ ꯃꯇꯝꯒꯤ ꯑꯣꯏꯅꯥ ꯂꯥꯎꯊꯣꯛꯄꯥ, ꯋꯥ ꯉꯥꯡꯕꯥ ꯅꯠꯇ꯭ꯔꯒꯥ ꯃꯌꯦꯛ ꯁꯦꯡꯅꯥ ‘ꯅꯥꯠꯀꯤ ꯑꯣꯏꯕꯥ’ ꯈꯣꯟꯖꯦꯜ ꯑꯃꯗꯥ ꯄꯤꯕꯥ ꯅꯟ-ꯁ꯭ꯇꯦꯟꯗꯔꯗ ꯔꯦꯀꯣꯔꯗꯤꯡ ꯑꯗꯨ ꯅꯍꯥꯛꯅꯥ ꯌꯥꯕꯥ ꯌꯥꯏ ꯫ ꯆꯥꯟꯕꯤꯗꯨꯅꯥ ꯏꯁꯩ ꯅꯣꯡꯃꯥꯏꯒꯤ ꯔꯦꯀꯣꯔꯗꯁꯤꯡ ꯑꯃꯁꯨꯡ ꯀꯝꯞꯌꯨꯇꯔꯅꯥ ꯁꯦꯝꯕꯥ ꯈꯣꯟꯖꯦꯜ ꯁꯤꯖꯤꯟꯅꯔꯤꯕꯁꯤꯡ ꯑꯗꯨ ꯌꯥꯕꯤꯒꯅꯨ ꯫
 contribution-just-unsure-title = ꯁꯣꯌꯗꯅꯥ ꯂꯩꯕ꯭ꯔꯥ?
+contribution-just-unsure-description = ꯀꯔꯤꯒꯨꯝꯕꯥ ꯅꯍꯥꯛꯅꯥ ꯆꯠꯅꯀꯥꯡꯂꯣꯟꯁꯤꯡ ꯑꯁꯤꯅꯥ ꯀꯣꯟꯁꯤꯟꯗꯕꯥ ꯋꯥꯐꯝ ꯑꯃꯥ ꯂꯥꯛꯄꯥ ꯇꯥꯔꯕꯗꯤ, ꯆꯥꯟꯕꯤꯗꯨꯅꯥ ꯅꯍꯥꯛꯀꯤ ꯈ꯭ꯋꯥꯏꯗꯒꯤ ꯐꯕꯥ ꯋꯥꯔꯦꯞꯀꯤ ꯃꯇꯨꯡ ꯏꯟꯅꯥ ꯚꯣꯠ ꯊꯥꯗꯕꯤꯌꯨ ꯫ ꯀꯔꯤꯒꯨꯝꯕꯥ ꯅꯍꯥꯛꯅꯥ ꯇꯁꯦꯡꯅꯥ ꯋꯥꯔꯦꯞ ꯂꯧꯕꯥ ꯉꯝꯗ꯭ꯔꯕꯗꯤ, ꯁ꯭ꯀꯤꯞ ꯕꯇꯟ ꯑꯗꯨ ꯁꯤꯖꯤꯟꯅꯧ ꯑꯃꯁꯨꯡ ꯃꯊꯪꯒꯤ ꯔꯦꯀꯣꯔꯗꯇꯥ ꯆꯠꯂꯨ ꯫
+see-more = <chevron></chevron>ꯍꯦꯟꯅ ꯌꯦꯡꯉꯣ
+see-less = <chevron></chevron>ꯈꯖꯤꯛꯇꯪ ꯌꯦꯡꯉꯨ
 
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
@@ -1269,6 +1272,15 @@ contribution-just-unsure-title = ꯁꯣꯌꯗꯅꯥ ꯂꯩꯕ꯭ꯔꯥ?
 
 ## HEADER/FOOTER
 
+sc-header-home = ꯌꯨꯝ
+sc-header-how-to = ꯃꯇꯧ ꯀꯔꯝꯅꯥ
+sc-header-add = ꯍꯥꯞꯆꯤꯟꯂꯨ
+sc-header-review = ꯑꯃꯨꯛꯍꯟꯅ ꯌꯦꯡꯕ
+sc-header-rejected = ꯌꯥꯈꯤꯗ꯭ꯔꯕ ꯋꯥꯍꯩꯄꯔꯦꯡ
+sc-header-my = ꯑꯩꯒꯤ ꯋꯥꯍꯩꯄꯔꯦꯡ
+sc-header-statistics = ꯍꯥꯏꯒꯠꯂꯛꯄ ꯍꯥꯏꯊꯔꯛꯞ ꯌꯩꯡꯐꯝ
+sc-header-profile = ꯄ꯭ꯔꯣꯐꯥꯏꯜ
+sc-footer-discourse = ꯎꯠꯊꯣꯛꯄ
 
 ## HOME
 
