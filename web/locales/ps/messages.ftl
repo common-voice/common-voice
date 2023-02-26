@@ -878,6 +878,8 @@ language-search-input =
 language-speakers = ويناوال
 localized = سېمیزي ژبې ته ژباړل شوی
 sentences = جملې
+language-validation-hours = ساعتونه
+language-validation-progress = د تایید پرمختګ
 
 ## Contribution
 
@@ -1115,6 +1117,7 @@ download-profile-info = بریښنالیک، کارن نوم او ډیموګرا
 download-profile-size = یو څو بایټس
 download-recordings-title = ریکارډونه
 download-recordings-info = mp3s او اړونده جملې پکې شاملې دي، کیدای شي د چمتو کولو لپاره یو څه وخت ونیسي
+download-recordings-size = معمولا میګابایټ
 download-recordings-unavailable = تاسو نشئ کولی د خپلو ریکارډونو غوښتنه وکړئ پداسې حال کې چې بله غوښتنه لا دمخه روانه وي.
 download-recently-requested = تاسو کولی شئ په هر { $days } ورځو کې د خپلو ریکارډونو نوي اخیستلو غوښتنه وکړئ.
 download-size = جسامت
@@ -1129,7 +1132,11 @@ download-request-description = { $clipCount } غږیز کلیپونه، د ټو�
 download-request-archive-single = یو زپ فایل لري
 download-request-archive-multiple = په { $archiveCount } کې ویشل شوي زپ فایلونه پکې شامل دي
 download-request-assembling-description = ستاسو فایلونه راټولیږي. مهرباني وکړئ  وروسته بیا وګورئ.
+download-request-refresh-button = تازه کړئ
+download-request-modal-title = ډاونلوډ لینکونه
+download-request-modal-description = دلته ستاسو د زپ فایلونو ډاونلوډ کولو لینکونه دي.
 download-request-link-text = زپ #{ $offset } د { $total } څخه
+download-request-metadata-link = د جملې متن
 download-request-link-single = تاسو کولی شئ مستقیم URLs په خپل غوره ډاونلوډ مدیر کې کاپي او پیسټ کړئ. دوی به په 12 ساعتونو کې پای ته ورسیږي، مګر تاسو کولی شئ دې پاڼې ته بیرته راشئ ترڅو هر وخت نوي جوړ کړئ.
 
 ## Landing
@@ -1178,6 +1185,12 @@ demo-dashboard-card-body = د هر غږیز کلیپ چې ډالۍ شوی، او
 
 ## Validation criteria
 
+contribution-criteria-nav = معیارونه
+contribution-criteria-link = د ونډې په معیارونو پوه شئ
+contribution-criteria-page-title = د ونډې معیارونه
+contribution-criteria-page-description = پوهه شئ چې د غږ کلپونو اوریدلو په وخت کې د څه په لټه کې شئ او ستاسو د غږ ثبت کولو کې هم مرسته وکړئ!
+contribution-for-example = د مثال په ډول
+contribution-misreadings-title = غلط لوستونه
 contribution-misreadings-description-extended-list-1 = د ثبت کولو په پیل کې <strong>'A'</strong> یا <strong>'The'</strong> ورک شوی.
 contribution-misreadings-description-extended-list-2 = د یوې کلمې په پای کې د یوه <strong>'</strong> ورکیدل.
 contribution-misreadings-description-extended-list-3 = د انقباض لوستل چې په حقیقت کې شتون نلري، لکه "موږ یو" پر ځای "موږ یو"، یا برعکس.
