@@ -316,6 +316,7 @@ profile-form-accent =
     .label = Acento
 profile-form-custom-accent-help-text =
     .label = Como describiría o seu acento?
+profile-form-custom-accent-placeholder-2 = Comece a escribir para describir o seu acento
 profile-form-age =
     .label = Idade
 profile-form-gender-2 =
@@ -326,6 +327,7 @@ hidden = Agochada
 visible = Visíbel
 native-language =
     .label = Idioma nativo
+profile-form-add-accent = Engada un novo acento personalizado "{ $inputValue }"
 profile-form-submit-save = Gardar
 profile-form-submit-saved = Gardado
 male = Masculino
@@ -348,6 +350,7 @@ why-demographic = Por que é importante?
 why-demographic-explanation-2 = Os datos anónimos como idade, xénero e acento axudan a mellorar os datos de son utilizados para adestrar a precisión dos motores de recoñecemento de voz. O seu nome de usuario e enderezo de correo nunca serán asociados cos datos enviados e vostede sempre pode escoller se facelos ou non públicos.
 accept-privacy = Estou de acordo con que xestionen esta info nos termos explicados na <privacyLink>Política de privacidade</privacyLink>
 accept-privacy-title = Política de privacidade
+accept-privacy-and-terms = Acepto as <termsLink>Condicións</termsLink> e o <privacyLink>Aviso de privacidade</privacyLink> de Common Voice
 login-identity = Identidade de inicio de sesión
 login-signup = Iniciar sesión/Rexistrarse
 edit = Editar
@@ -359,6 +362,9 @@ skip-submission-description = Durante o envío da súa colaboración, saltaremos
 skip-submission-note = Nota: Necesitará seleccionar entre Falar ou Escoitar para cambiar o tipo de colaboración.
 off = Apagado
 on = Aceso
+help-accent = Necesita axuda co acento?
+help-variants = Necesita axuda coas variedades?
+help-variants-explanation = As variedades son formas específicas dunha lingua. Por exemplo, unha variedade é a que comparten as persoas que viven nunha determinada zona xeográfica ou comunidade. Ás veces estas chámanse dialectos.
 
 ## Profile - Email
 
@@ -367,6 +373,8 @@ browse-file = Arrastrar e soltar ou <browseWrap>Navegar</browseWrap>
 connect-gravatar = Conectar con Gravatar
 gravatar_not_found = Non se atopou un gravatar para o seu correo
 file_too_large = O ficheiro seleccionado é longo de máis
+avatar-uploaded = Avatar subido
+remove-avatar = Eliminar avatar
 
 ## Profile - Email
 
@@ -699,7 +707,7 @@ listen-instruction = { $actionType }<playIcon></playIcon>pronuncian con precisi�
 listen-again-instruction = Bo traballo!<playIcon></playIcon> Volva escoitar cando estea listo
 listen-3rd-time-instruction = 2 menos, sigamos!<playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon>Derradeira!
-listen-empty-state = Esgotamos os fragmentos para aprobar neste idioma...
+listen-empty-state = Posiblemente esgotamos os fragmentos para aprobar: actualice a páxina ou ténteo de novo máis tarde.
 speak-empty-state = Esgotamos as frases para gravar neste idioma
 speak-empty-state-cta = Propor novas frases
 record-button-label = Grave a súa voz
@@ -870,6 +878,9 @@ profile-form-delete = Eliminar o perfil
 
 ## Profile Download
 
+download-q = Precisa descargar os seus datos?
+download-info = Díganos o que querería descargar:
+download-profile-title = Perfil
 
 ## Landing
 
@@ -917,6 +928,11 @@ demo-dashboard-card-body = Por cada fragmento de voz doado e cada fragmento de s
 
 ## Validation criteria
 
+contribution-criteria-nav = Criterios
+contribution-criteria-page-title = Criterios de contribución
+contribution-for-example = por exemplo
+see-more = <chevron></chevron>Ver máis
+see-less = <chevron></chevron>Ver menos
 
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
@@ -925,6 +941,7 @@ demo-dashboard-card-body = Por cada fragmento de voz doado e cada fragmento de s
 
 ## HEADER/FOOTER
 
+sc-header-profile = Perfil
 
 ## HOME
 
@@ -934,6 +951,10 @@ demo-dashboard-card-body = Por cada fragmento de voz doado e cada fragmento de s
 
 ## HOW-TO
 
+sc-howto-review-subtitle = Asegúrese de que a frase cumpra os seguintes criterios:
+sc-howto-review-criteria-1 = A frase debe estar escrita correctamente.
+sc-howto-review-criteria-2 = A frase debe ser gramaticalmente correcta.
+sc-howto-review-criteria-3 = A frase debe ser fácil de pronunciar.
 
 ## MY SENTENCES
 
