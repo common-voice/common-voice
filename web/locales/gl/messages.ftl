@@ -39,6 +39,7 @@ bg = Búlgaro
 bm = Bambara
 bn = Bengalí
 br = Bretón
+bs = Bosníaco
 bxr = Buriata
 ca = Catalán
 cak = Kaqchikel
@@ -170,6 +171,7 @@ speak-now = Fale agora
 datasets = Conxunto de datos
 languages = Idiomas
 about = Sobre
+partner = Fágase socio
 profile = Perfil
 help = Axuda
 contact = Contacto
@@ -281,7 +283,6 @@ shortcut-record-toggle-label = Gravar/Parar
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Regravar fragmento
 request-language-text = Non ve a súa lingua en Common Voice?
-request-language-text-learn = Aprenda como pedilo aquí!
 request-language-button = Solicitar un idioma
 
 ## ProjectStatus
@@ -306,8 +307,15 @@ profile-form-native-language =
     .label = Idioma nativo
 profile-form-additional-language =
     .label = Idioma adicional
+profile-form-language =
+    .label = Idioma
+profile-form-variant =
+    .label = Que variedade de { $language } fala?
+profile-form-variant-default-value = Non se seleccionou ningunha variedade
 profile-form-accent =
     .label = Acento
+profile-form-custom-accent-help-text =
+    .label = Como describiría o seu acento?
 profile-form-age =
     .label = Idade
 profile-form-gender-2 =
@@ -351,26 +359,17 @@ skip-submission-description = Durante o envío da súa colaboración, saltaremos
 skip-submission-note = Nota: Necesitará seleccionar entre Falar ou Escoitar para cambiar o tipo de colaboración.
 off = Apagado
 on = Aceso
-avatar-clip-title = Déalle unha voz ao seu avatar
-change-your-avatar-clip = Quere cambiar o seu fragmento de voz?
-recording-in-progress = Gravación de voz en curso
-avatar-clip-recorded = Agora o seu avatar inclúe un fragmento de voz!
-record-voice-wave = Grave a súa voz
-retry-voice-wave-recording = Ténteo de novo
-re-record = Volva gravar
-delete-voice = Eliminar
-recording-voice-wave = Gravando
-delete-voice-clip = ou · elimine o fragmento de voz
-ready-to-upload = Cargar
-avatar-clip-fact = É ben sabido que un lector se vai distraer co contido lexíbel dunha páxina cando olla o deseño.
-recreate-voice = Recrear a voz
-cancel-avatar-clip-recording = Cancelar
-about-avatar-clip-recording = Crear un fragmento de voz como parte do perfil do seu avatar. Outras persoas poderán escoitar o seu fragmento ao sobrepoñer o punteiro do rato.
+
+## Profile - Email
+
 browse-file-title = Cargar un ficheiro de imaxe
 browse-file = Arrastrar e soltar ou <browseWrap>Navegar</browseWrap>
 connect-gravatar = Conectar con Gravatar
 gravatar_not_found = Non se atopou un gravatar para o seu correo
 file_too_large = O ficheiro seleccionado é longo de máis
+
+## Profile - Email
+
 manage-subscriptions = Xestionar subscricións
 manage-email-subscriptions = Xestionar as subscricións por correo
 email-already-used = Este enderezo de correo xa está en uso por unha conta diferente
@@ -405,7 +404,6 @@ faq-do-want-native-a = Si, precisamente! Parte das expectativas con Common Voice
 faq-why-different-speakers-q = Por que se necesitan tantos falantes diferentes por idioma?
 faq-why-different-speakers-a = A maior parte das bases de datos adéstranse cunha sobrerrepresentación de certos trazos demográficos, o que resulta nun nesgo de primacía para <articleLink>homes de clase media</articleLink>. Os acentos e dialectos que tenden a estar sub-representados nos conxuntos de datos de adestramento están asociados tipicamente con grupos de persoas que están marxinados por outra parte. Moitos motores tamén sofren para comprender voces femininas. Está é a razón pola que queremos variedade na nosa base de datos!
 faq-why-my-lang-q = Por que non está incluída aínda a miña lingua?
-faq-why-my-lang-new-a = Mozilla nin escolle nin favorece ningunha lingua en detrimento doutra. En vez diso, Common Voice é unha iniciativa puramente comunitaria, mais para engadir unha nova lingua <multilangLink>son necesarios varios pasos</multilangLink> antes de comezar a recoller doazóns de voz. En primeiro lugar, cómpre traducir o sitio web de Common Voice,  para que así os membros da comunidade poidan acceder á experiencia de contribuír na súa propia lingua. Despois, precisamos dunha grande colección de frases sen dereitos de autor para que a xente a poida ler en voz alta. Cando ambos os requisitos foron satisfeitos,  «ábrese» a lingua en Common Voice de maneira que a xente comece a gravar a súa voz e a validar outras doazóns. Se quixer axudar a abrir unha nova lingua, diríxase á nosa <sentenceCollectorLink>ferramenta de recollida de frases</sentenceCollectorLink> para comezar.
 faq-what-quality-q = Que nivel de calidade de son se require para que un fragmento de voz se utilice no conxunto de datos?
 faq-what-quality-a = Queremos que o conxunto de datos de Common Voice teña a calidade de son que un motor de fala a texto atopará en condicións reais, así que buscamos variedade. Ademais dunha comunidade diversa de falantes, un conxunto de datos con variación na calidade do son ensinaralle ao motor de fala a texto a xestionar varias situacións do mundo real, desde unha conversa de fondo a un ruído de coche. Mentres o fragmento de voz sexa intelixíbel, será abondo para o conxunto de datos.
 faq-why-10k-hours-q = Por que o obxectivo é de 10.000 horas validadas por idioma de captura de son?
@@ -437,12 +435,10 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Por que Common Voice?
-about-subtitle = Common Voice forma parte da iniciativa de Mozilla de ensinar ás máquinas como falan as persoas reais. Ademais do conxunto de datos de de Common Voice, tamén estamos construíndo un motor de recoñecemento de voz de código aberto chamado Deep Speech.
-about-header-description =
-    Ambos proxectos forman parte dos nosos esforzos para superar a fenda da fala dixital. As tecnoloxías de recoñecemento de voz achegan unha dimensión humana ao nosos dispositivos, mais os desenvolvedores precisan dunha enormidade de datos de voz para as elaborar. Na actualidade, a maioría dos datos non son de acceso libre e ademais son caros.
-    Queremos producir datos de voz libres e dispoñíbeis publicamente, e asegurarnos de que os datos recollen a diversidade da xente común. Xuntos podemos mellorar o recoñecemento de voz para todo o mundo.
-how-does-it-work-title = Como funciona?
 how-does-it-work-text = Estamos a auspiciar un conxunto de datos de voz de fonte aberta. Ofreza a súa voz, valide a precisión dos fragmentos doados por outras persoas, mellore o conxunto de datos para todo o mundo.
+
+## How does it work section
+
 about-speak = Falar
 about-speak-text = Os colaboradores gravan fragmentos de voz lendo dun banco de frases doadas.
 about-listen-queue = Escoitar cola
@@ -459,12 +455,6 @@ about-dataset-new = Conxunto de datos de Common Voice
 about-dataset-new-text = O conxunto de datos Common Voice contén centos de miles de mostras de voz que axudan os desenvolvedores a construír ferramentas de recoñecemento de voz.
 about-clip-graveyard = Cemiterio de fragmentos
 about-clip-graveyard-text = O Cemiterio de fragmentos son fragmentos de voz que non acadaron ser parte do conxunto de datos de Common Voice. Do mesmo xeito que o conxunto de datos, o Cemiterio de fragmentos está dispoñíbel para descarga.
-about-partners = Socios
-about-become-a-partner = Convírtase en socio
-about-partnership =
-    Common Voice é un proxecto colaborativo e dependemos da nosa comunidade de socios e colaboradores para construír o maior conxunto de datos abertos de voz que teña habido.
-    
-    Grazas ás seguintes persoas e organizacións pola súa axuda ao proxecto:
 about-get-involved = Participe
 about-get-involved-text-2 =
     Quere axudar a mellorar Common Voice?
@@ -474,12 +464,34 @@ about-nav-why-common-voice = Por que?
 about-nav-how-it-works = Como?
 about-nav-partners = Socios
 about-nav-get-involved = Participe
-mycroft-title = Mycroft Ia
-mycroft-subtitle = Intelixencia artificial
-mycroft-description =
-    Mycroft é o primeiro asistente de código aberto do mundo.
-    Mycroft funciona en calquera lugar - nunha computadora de escritorio, dentro dun automóbil ou nunha Raspberry Pi.
-mycroft-secondary-description = É un software de código aberto que se pode remisturar, ampliar e mellorar libremente. Mycroft pódese usar en calquera cousa, desde nun proxecto de ciencia ata nun aplicativo de software empresarial.
+
+## Community Playbook Content
+## What is a language
+
+
+## How do I add a language
+
+
+## How does localization work
+
+
+## How to add sentences
+
+
+## How to record quality
+
+
+## How to grow language
+
+
+## How to validate
+
+
+## How to access dataset
+
+
+## How are decisions made
+
 
 ## Glossary
 
@@ -573,8 +585,6 @@ subscribe = Subscribir
 get-started-speech = Primeiros pasos co recoñecemento de voz
 other-datasets = Outros conxuntos de datos de voz
 feedback-q = Quere comentar?
-deepspeech-info = O conxunto de datos Common Voice complementa Deep Speech, o motor aberto de recoñecemento de voz de Mozilla, que pode utilizarse para crear aplicacións de recoñecemento de voz. Lea a nosa <githubLink>presentación en Github</githubLink> ou únase ao grupo <discourseLink>DeepSpeech Discourse</discourseLink> no que aprenderá como comezar.
-common-voice-info-new = Ten preguntas sobre Common Voice? Ideas de mellora ou comentarios sobre un idioma específico? Únase ao  <discourseLink>foro Discourse</discourseLink> e díganos.
 data-other-librispeech-description = LibriSpeech é un corpus de aproximadamente 1000 horas de contido oral en inglés a 16Khz derivado da lectura de audiolibros procedentes do proxecto LibriVox.
 data-other-ted-name = Corpus TED-LIUM
 data-other-ted-description = O corpus TED-LIUM provén das audiocharlas e as súas transcricións dispoñíbeis no sitio web TED.
@@ -619,6 +629,9 @@ request-language-success-content = Poñerémonos en contacto con máis informaci
 select-language = Seleccione un idioma...
 other-language = Outro idioma
 
+## Request Language Pages
+
+
 ## Languages Overview
 
 language-section-in-progress = En curso
@@ -634,7 +647,6 @@ language-search-input =
 language-speakers = Falantes
 localized = Localizado
 sentences = Frases
-total-hours = Horas aprobadas
 
 ## Contribution
 
@@ -699,6 +711,9 @@ target-segment-generic-card = Está a contribuír a un segmento obxectivo
 target-segment-first-banner = Axude a crear o primeiro segmento obxectivo de Common Voice en { $locale }
 target-segment-add-voice = Engada a súa voz
 target-segment-learn-more = Saber máis
+
+## Contribution Nav Items
+
 
 ## Reporting
 
@@ -853,6 +868,9 @@ why-delete-recordings =
     Poderiamos saber porque quere eliminar as súas gravacións?
 profile-form-delete = Eliminar o perfil
 
+## Profile Download
+
+
 ## Landing
 
 welcome-staff = Benvida ao persoal de { $company }
@@ -896,3 +914,62 @@ demo-listen-subtitle = Preparado para colaborar?
 
 demo-dashboard-card-header = Os paneis persoais mantéñeno ao día do progreso do individual e o da comunidade.
 demo-dashboard-card-body = Por cada fragmento de voz doado e cada fragmento de son validado, os paneis da túa conta actualízanse para reflectir o seu último progreso en cada idioma no que colabore. Si, pode colaborar a máis de un. <br/> <br/> Utilice os paneis para rastrexar as súas estatísticas, ver como o está facendo xunto con outras persoas da comunidade e establecer obxectivos de colaboración diaria ou semanal.
+
+## Validation criteria
+
+
+# Don't rename the following section, its contents are auto-inserted based on the name. These strings are
+# automatically exported from Sentence Collector.
+# [SentenceCollector]
+
+
+## HEADER/FOOTER
+
+
+## HOME
+
+
+## GENERAL
+
+
+## HOW-TO
+
+
+## MY SENTENCES
+
+
+## REJECTED
+
+
+## STATS
+
+
+## ADD
+
+
+## ADD LANGUAGE
+
+
+## ADD SENTENCES CONFIRMATION
+
+
+## LANGUAGE INFO
+
+
+## LOGIN
+
+
+## PROFILE
+
+
+## REVIEW CRITERIA
+
+
+## REVIEW
+
+
+## SETTINGS
+
+
+# [/SentenceCollector]
+
