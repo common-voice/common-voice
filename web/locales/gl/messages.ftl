@@ -929,6 +929,7 @@ demo-dashboard-card-body = Por cada fragmento de voz doado e cada fragmento de s
 ## Validation criteria
 
 contribution-criteria-nav = Criterios
+contribution-criteria-link = Comprender os criterios de contribución
 contribution-criteria-page-title = Criterios de contribución
 contribution-for-example = por exemplo
 see-more = <chevron></chevron>Ver máis
@@ -955,6 +956,9 @@ sc-howto-review-subtitle = Asegúrese de que a frase cumpra os seguintes criteri
 sc-howto-review-criteria-1 = A frase debe estar escrita correctamente.
 sc-howto-review-criteria-2 = A frase debe ser gramaticalmente correcta.
 sc-howto-review-criteria-3 = A frase debe ser fácil de pronunciar.
+sc-howto-review-criteria-4 = Se a frase cumpre os criterios, prema no botón "Aprobar".
+sc-howto-review-criteria-5 = Se a frase non cumpre os criterios anteriores, prema no botón "Rexeitar". Se non está seguro, tamén pode omitir a frase e pasar á seguinte.
+sc-howto-review-criteria-6 = Se xa non quedan frases para revisar, axúdenos a recoller máis.
 
 ## MY SENTENCES
 
@@ -985,6 +989,15 @@ sc-howto-review-criteria-3 = A frase debe ser fácil de pronunciar.
 
 ## REVIEW CRITERIA
 
+sc-criteria-modal = ⓘ Criterios de revisión
+sc-criteria-title = Criterios de revisión
+sc-criteria-make-sure = Asegúrese de que a frase cumpra os seguintes criterios:
+sc-criteria-item-1 = A frase debe estar escrita correctamente.
+sc-criteria-item-2 = A frase debe ser gramaticalmente correcta.
+sc-criteria-item-3 = A frase debe ser fácil de pronunciar.
+sc-criteria-item-4 = Se a frase cumpre os criterios, prema no botón &quot;Aprobar&quot; á dereita.
+sc-criteria-item-5-2 = Se a frase non cumpre os criterios anteriores, prema no botón &quot;Rexeitar&quot; á esquerda. Se non está seguro, tamén pode omitir a frase e pasar á seguinte.
+sc-criteria-item-6 = Se xa non quedan frases para revisar, axúdenos a recoller máis.
 
 ## REVIEW
 
