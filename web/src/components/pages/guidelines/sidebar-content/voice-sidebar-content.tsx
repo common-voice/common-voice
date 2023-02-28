@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { guidelinesSections } from '../constants';
+import { voiceGuidelinesSections } from '../constants';
 
 export type SidebarContentProps = {
   id: string;
@@ -7,8 +7,10 @@ export type SidebarContentProps = {
   toggleSectionVisible: (id: string) => void;
 };
 
-const SidebarContent: React.FC = () => {
-  const [visibleSections, setVisibleSections] = useState(guidelinesSections);
+const VoiceSidebarContent: React.FC = () => {
+  const [visibleSections, setVisibleSections] = useState(
+    voiceGuidelinesSections
+  );
 
   const handleToggleVisibleSection = (id: string) => {
     const newSections = visibleSections.map(section => {
@@ -35,4 +37,4 @@ const SidebarContent: React.FC = () => {
   );
 };
 
-export default SidebarContent;
+export default VoiceSidebarContent;

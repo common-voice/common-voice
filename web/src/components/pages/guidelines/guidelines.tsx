@@ -6,8 +6,9 @@ import classNames from 'classnames';
 
 import Page from '../../ui/page';
 import PageHeading from '../../ui/page-heading';
-import { NAV_IDS } from './constants';
-import SidebarContent from './sidebar-content/sidebar-content';
+import { SENTENCE_NAV_IDS, VOICE_NAV_IDS } from './constants';
+import VoiceSidebarContent from './sidebar-content/voice-sidebar-content';
+import SentenceSidebarContent from './sidebar-content/sentence-sidebar-content';
 import RoundButton from '../../ui/round-button';
 import { DiscourseIconCode, MailIcon } from '../../ui/icons';
 import VisuallyHidden from '../../visually-hidden/visually-hidden';
@@ -18,9 +19,15 @@ import { COMMON_VOICE_EMAIL } from '../../../constants';
 import './guidelines.css';
 
 const Guidelines = () => {
-  const defaultOption = NAV_IDS.PRONUNCIATIONS;
+  const defaultVoiceOption = VOICE_NAV_IDS.PRONUNCIATIONS;
+  const defaultSentenceOption = SENTENCE_NAV_IDS.PUBLIC_DOMAIN;
 
-  const [selectedOption, setSelectedOption] = useState(defaultOption);
+  const [selectedVoiceTabOption, setSelectedVoiceTabOption] =
+    useState(defaultVoiceOption);
+
+  const [selectedSentenceTabOption, setSelectedSentenceTabOption] = useState(
+    defaultSentenceOption
+  );
 
   return (
     <Page className="guidelines-main-container" dataTestId="guidelines-page">
@@ -52,27 +59,52 @@ const Guidelines = () => {
           <TabPanel selectedClassName="tabpanel--selected" className="tabpanel">
             <nav>
               <ul>
-                {Object.keys(NAV_IDS).map(key => (
-                  <li key={NAV_IDS[key]}>
+                {Object.keys(VOICE_NAV_IDS).map(key => (
+                  <li key={VOICE_NAV_IDS[key]}>
                     <div className="line" />
                     <a
-                      href={`#${NAV_IDS[key]}`}
-                      onClick={() => setSelectedOption(NAV_IDS[key])}
+                      href={`#${VOICE_NAV_IDS[key]}`}
+                      onClick={() =>
+                        setSelectedVoiceTabOption(VOICE_NAV_IDS[key])
+                      }
                       className={classNames({
-                        'selected-option': NAV_IDS[key] === selectedOption,
+                        'selected-option':
+                          VOICE_NAV_IDS[key] === selectedVoiceTabOption,
                       })}>
-                      <Localized id={NAV_IDS[key]} />
+                      <Localized id={VOICE_NAV_IDS[key]} />
                     </a>
                   </li>
                 ))}
               </ul>
             </nav>
             <div className="sections">
-              <SidebarContent />
+              <VoiceSidebarContent />
             </div>
           </TabPanel>
           <TabPanel selectedClassName="tabpanel--selected" className="tabpanel">
-            <h2>Any content 2</h2>
+            <nav>
+              <ul>
+                {Object.keys(SENTENCE_NAV_IDS).map(key => (
+                  <li key={SENTENCE_NAV_IDS[key]}>
+                    <div className="line" />
+                    <a
+                      href={`#${SENTENCE_NAV_IDS[key]}`}
+                      onClick={() =>
+                        setSelectedSentenceTabOption(SENTENCE_NAV_IDS[key])
+                      }
+                      className={classNames({
+                        'selected-option':
+                          SENTENCE_NAV_IDS[key] === selectedSentenceTabOption,
+                      })}>
+                      <Localized id={SENTENCE_NAV_IDS[key]} />
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </nav>
+            <div className="sections">
+              <SentenceSidebarContent />
+            </div>
           </TabPanel>
         </Tabs>
       </section>

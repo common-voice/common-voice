@@ -26,13 +26,12 @@ import Pill from '../pill';
 import ListenErrorContent from './listen-error-content';
 
 import './listen.css';
-import { User } from '@sentry/types';
 import { RouteComponentProps, withRouter } from 'react-router';
 import { Spinner } from '../../../ui/ui';
 
 const VOTE_NO_PLAY_MS = 3000; // Threshold when to allow voting no
 
-const VoteButton = ({
+export const VoteButton = ({
   kind,
   ...props
 }: { kind: 'yes' | 'no' } & React.ButtonHTMLAttributes<any>) => (
@@ -90,7 +89,7 @@ const initialState: State = {
   isSubmitted: false,
 };
 
-class ListenPage extends React.Component<Props , State> {
+class ListenPage extends React.Component<Props, State> {
   audioRef = React.createRef<HTMLAudioElement>();
   playedSomeInterval: any;
 
