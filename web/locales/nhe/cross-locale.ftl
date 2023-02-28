@@ -3,6 +3,7 @@
 contribute = Xitechpalehui
 get-involved-button = Kenikatza hueli titechpalehui
 get-involved-title = Xitechpalehuiz ipan { $lang }
+get-involved-text = Tlazkamatij tinekij ti techpalehiz ipan { $lang }.Nopa miaj tekitl tichihuaze ipan sesen camajtilistli ipan email.Tlatinejki titechpalejhuiz shitejmaka mo emaill.
 get-involved-form-title = tiyaskej ipan { $lang } yankhuj tlajtoli:
 get-involved-email =
     .label = email
