@@ -201,6 +201,7 @@ speak-now = Kach'o wakami
 datasets = Kiyakb'al tzij
 languages = Taq ch'ab'äl
 about = Tawetamaj qawäch
+partner = Katok qachib'il
 profile = Ruwäch b'i'aj
 help = Tob'äl
 contact = Rub'i' achib'il
@@ -218,6 +219,7 @@ logout = Titz'apïx Molojri'ïl
 ## Home Page
 
 home-title = Ri Common Voice nimasamaj jun rusamaj Mozilla richin nito'on yerutijoj ri taq ch'ich'b'äl pa rub'anikil yech'o ri winaqi'.
+default-tagline = Ri Mozilla Common Voice nimasamaj jun rusamaj richin nito'on yerutijoj ri taq ch'ich'b'äl pa rub'anikil yech'o ri winaqi'.
 home-cta = Kach'o, ¡kato'on wawe'!
 wall-of-text-start = Choj ri ch'ab'äl, ruch'ab'äl winäq, Ruma ri' yalan yojkikot richin niqanük' runa'ob'al kich'ab'äl qach'ich'b'al. Richin ninuk' jun runuk'ulem ch'ab'äl, najowäx nïm kitz'etb'al ch'ab'äl.
 wall-of-text-more-mobile = Ronojel ri taq tzij nikokisaj ri taq nimamolojri'ïl, man wachel ta chi kiwa ri winaqi'. Röj niqana'ojij chi nuq'üt ri tz'ukuj. Ruma ri' xqelesaj ri Nimasamaj Common Voice, jun nimasamaj nito'on chi ri etamanem ch'ab'äl wachel chi qawa qonojel.
@@ -310,6 +312,8 @@ shortcut-record-toggle = r
 shortcut-record-toggle-label = Tiyak/Tipab'äx
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Tiyak chik ri yakoj
+shortcut-discard-ongoing-recording = ESC
+shortcut-submit = Titzolin
 request-language-text = ¿La k'a man nawïl ta ri ach'ab'äl pa Common Voice?
 request-language-button = Tik'utüx jun Ch'ab'äl
 
