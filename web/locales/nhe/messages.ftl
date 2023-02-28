@@ -151,7 +151,12 @@ so = somalí
 sq = Albanés
 sr = Serbio
 uk = Ucranio
+vec = Veneciano
 vi = vietnamita
+vot = Vótico
+wo = Wolof
+xh = Xhosa
+yi = yídish
 yue = Cantonés
 zh-CN = Chino (China)
 
