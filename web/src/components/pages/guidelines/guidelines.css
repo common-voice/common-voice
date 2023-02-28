@@ -201,6 +201,11 @@
                     }
                 }
 
+                & .guidelines-content-explanation.header {
+                    font-weight: 700;
+                    margin-bottom: 8px;
+                }
+
                 & .example {
                     text-transform: uppercase;
                     font-weight: 600;
@@ -319,6 +324,22 @@
                                 }
                             }
                         }
+                    }
+
+                    label {
+                        margin: 0 auto 24px;
+
+                        input {
+                            width: 570px;
+                        }
+                    }
+                }
+
+                & .example-container.sentence-guidelines {
+                    flex-direction: column;
+
+                    & .self-citation-explanation {
+                        color: var(--inactive-grey);
                     }
                 }
 

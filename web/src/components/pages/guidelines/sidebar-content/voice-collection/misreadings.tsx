@@ -3,9 +3,9 @@ import classNames from 'classnames';
 import React from 'react';
 
 import { ChevronDown } from '../../../../ui/icons';
-import { SidebarContentProps } from '../sidebar-content';
+import { SidebarContentProps } from '../voice-sidebar-content';
 
-import { ExampleContent, ExampleTip } from './example-content';
+import { ExampleContent, ExampleTip } from './example-content-voice';
 
 const exampleTips: ExampleTip[] = [
   { text: 'misreadings-example-1', icon: 'check' },
