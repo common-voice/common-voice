@@ -14,6 +14,9 @@ email-opt-in-info-title = Xitechpalehui ipan Common Voice timitz tlalise ipan ma
 
 ## Languages
 
+de = Aleman
+en = Ingles
+es = Español
 
 # [/]
 

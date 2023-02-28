@@ -10,6 +10,7 @@ get-involved-email =
 get-involved-opt-in = kenaj, xinechtlatlanilij nopa emails, ni neki nimatiz ipan Common Voice Project.
 get-involved-submit = enviar
 get-involved-stayintouch = Ipan Mozilla titekitinj ipan se comunidad tlen tlatoli tecnologia.Tinekiskian tikamatize yankhuik tlatoli, yankhuik tekitl huan ti matiz kenikatza ti tekitin huan mo datos.
+get-involved-privacy-info = Tlatitejmaka tipiaze cuidado ipan mo informacion.Shi tlachia ipan <privacyLink>Privacy Notice</privacyLink>.
 get-involved-success-title = Ti itztoc ipa Common Voice name hueli titechpalehuiz ipan { $language }.Tlazcamati
 get-involved-success-text = Timis titlanillize se aviso quema itztoc disponible.
 get-involved-return-to-languages = Timocuapaze ipan Lenguajes.
