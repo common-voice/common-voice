@@ -7,6 +7,7 @@ email-input =
     .label = email
 email-opt-in-info = Ninekiskia xinechtitlanilij emails ipan tlen tinekin tichihuase, then tichiheia ,tlen ticonchiheia huan huan yankhuik tlatoli then Common Voice.
 email-opt-in-info-title = Xitechpalehui ipan Common Voice timitz tlalise ipan mailing list.
+error-something-went-wrong = techtlapojpoluiliya, tipijian se problema
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -14,7 +15,9 @@ email-opt-in-info-title = Xitechpalehui ipan Common Voice timitz tlalise ipan ma
 
 ## Languages
 
+ca = Catalan
 de = Aleman
+el = Griego
 en = Ingles
 es = Español
 
