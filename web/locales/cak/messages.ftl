@@ -184,9 +184,12 @@ vi = aj Byetnam
 vot = Votic
 wo = Wolof
 yi = Ju'iyo
+yo = Yoruwa
+yue = Kantones
 zh-CN = Chino (China)
 zh-HK = Chino (Hong Kong)
 zh-TW = Chino (Taiwan)
+zu = Zulu
 
 # [/]
 
