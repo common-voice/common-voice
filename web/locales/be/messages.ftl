@@ -865,6 +865,9 @@ target-segment-first-banner = Дапамажыце стварыць першы �
 target-segment-add-voice = Дадайце ваш голас
 target-segment-learn-more = Даведацца больш
 
+## Contribution Nav Items
+
+
 ## Reporting
 
 report = Паскардзіцца
@@ -1109,6 +1112,9 @@ contribution-for-example = напрыклад
 contribution-misreadings-title = Няправільнае прачытанне
 contribution-misreadings-description = Падчас праслухоўвання вельмі ўважліва правярайце, што было запісана менавіта тое, што было напісана; адхіляйце калі ёсць нават нязначныя памылкі. <br />Сярод найчасцейшых памылак:
 contribution-misreadings-description-extended-list-2 = У канцы слова адсутнічае сімвал <strong>«s»</strong> (для англійскай мовы).
+contribution-misreadings-example-1-title = Гіганцкія дыназаўры трыясу.
+contribution-misreadings-example-2-title = Гіганцкі дыназаўр трыясу.
+contribution-misreadings-example-2-explanation = [Павінна быць "дыназаўры"]
 contribution-misreadings-example-3-title = Гіганцкія дыназаўры Трыясу-.
 contribution-misreadings-example-4-title = Гіганцкія дыназаўры трыясу. Так.
 contribution-misreadings-example-5-title = Можа сходзім на каву?

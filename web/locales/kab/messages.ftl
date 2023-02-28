@@ -96,6 +96,7 @@ is = Taṣlandit
 it = Taṭelyanit
 izh = Tizhuryant
 ja = Tajapunit
+jbo = Lojban
 ka = Tajyuṛjit
 kaa = Karakalpak
 kab = Taqbaylit
@@ -884,6 +885,7 @@ target-segment-learn-more = Issin ugar
 
 ## Contribution Nav Items
 
+contribute-voice-collection-nav-header = Alqaḍ n tuɣac
 
 ## Reporting
 
@@ -1457,3 +1459,4 @@ localization-select =
 partnerships-become-a-partner = Uɣal d amendid n Common Voice
 partnerships-foundations-header = Tisbeddiyin
 partnerships-our-partners = Iwiziwen-nneɣ
+why-donate = Ayɣer i testeqsaḍ?

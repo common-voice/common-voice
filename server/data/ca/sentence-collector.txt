@@ -757,6 +757,7 @@ A quina hora voldria el taxi?
 A quina temperatura està la nevera?
 A quines malalties propendeix? Cerca informació sobre els temperaments d'aquesta classificació.
 A regatejar-ne, i a no comprar-ne.
+A s'estiu dona ametlles
 A saber si el seu gendre se li havia trastocat
 A sang freda, amb una crueltat d'home pacient.
 A semblança vostra, o segons els figurins d'una moda literària.
@@ -3643,6 +3644,112 @@ Aquest era el nom de l'alcalde en qüestió, del qual ens conten històries.
 Aquest era l'inventari, en tocant al personal
 Aquest error idealista limita les seues produccions a algunes experiències irrisòries.
 Aquest escenari produeix malestar i neurosi.
+Aquest estiu aniré a Abella de la Conca
+Aquest estiu aniré a Abrera
+Aquest estiu aniré a Agramunt
+Aquest estiu aniré a El Vendrell
+Aquest estiu aniré a La Vall d'en Bas
+Aquest estiu aniré a La Vall de Bianya
+Aquest estiu aniré a La Vall de Boí
+Aquest estiu aniré a La Vansa i Fórnols
+Aquest estiu aniré a La Vilella Alta
+Aquest estiu aniré a La Vilella Baixa
+Aquest estiu aniré a Les Valls d'Aguilar
+Aquest estiu aniré a Les Valls de Valira
+Aquest estiu aniré a Torres de Segre
+Aquest estiu aniré a Torroella de Fluvià
+Aquest estiu aniré a Torroella de Montgrí
+Aquest estiu aniré a Torroja del Priorat
+Aquest estiu aniré a Tortellà
+Aquest estiu aniré a Tortosa
+Aquest estiu aniré a Toses
+Aquest estiu aniré a Tossa de Mar
+Aquest estiu aniré a Tremp
+Aquest estiu aniré a Ullastrell
+Aquest estiu aniré a Ullastret
+Aquest estiu aniré a Ulldecona
+Aquest estiu aniré a Ulldemolins
+Aquest estiu aniré a Ullà
+Aquest estiu aniré a Ultramort
+Aquest estiu aniré a Urús
+Aquest estiu aniré a Vacarisses
+Aquest estiu aniré a Vall de Cardós
+Aquest estiu aniré a Vallbona d'Anoia
+Aquest estiu aniré a Vallbona de les Monges
+Aquest estiu aniré a Vallcebre
+Aquest estiu aniré a Vallclara
+Aquest estiu aniré a Vallfogona de Balaguer
+Aquest estiu aniré a Vallfogona de Ripollès
+Aquest estiu aniré a Vallfogona de Riucorb
+Aquest estiu aniré a Vallgorguina
+Aquest estiu aniré a Vallirana
+Aquest estiu aniré a Vallmoll
+Aquest estiu aniré a Vallromanes
+Aquest estiu aniré a Valls
+Aquest estiu aniré a Vandellòs i l'Hospitalet de l'Infant
+Aquest estiu aniré a Veciana
+Aquest estiu aniré a Ventalló
+Aquest estiu aniré a Verdú
+Aquest estiu aniré a Verges
+Aquest estiu aniré a Vespella de Gaià
+Aquest estiu aniré a Vic
+Aquest estiu aniré a Vidreres
+Aquest estiu aniré a Vidrà
+Aquest estiu aniré a Vielha e Mijaran
+Aquest estiu aniré a Vila-rodona
+Aquest estiu aniré a Vila-sacra
+Aquest estiu aniré a Vila-sana
+Aquest estiu aniré a Vila-seca
+Aquest estiu aniré a Vilabella
+Aquest estiu aniré a Vilabertran
+Aquest estiu aniré a Vilablareix
+Aquest estiu aniré a Vilada
+Aquest estiu aniré a Viladamat
+Aquest estiu aniré a Viladasens
+Aquest estiu aniré a Viladecans
+Aquest estiu aniré a Viladecavalls
+Aquest estiu aniré a Vilademuls
+Aquest estiu aniré a Viladrau
+Aquest estiu aniré a Vilafant
+Aquest estiu aniré a Vilafranca del Penedès
+Aquest estiu aniré a Vilagrassa
+Aquest estiu aniré a Vilajuïga
+Aquest estiu aniré a Vilalba Sasserra
+Aquest estiu aniré a Vilalba dels Arcs
+Aquest estiu aniré a Vilaller
+Aquest estiu aniré a Vilallonga de Ter
+Aquest estiu aniré a Vilallonga del Camp
+Aquest estiu aniré a Vilamacolum
+Aquest estiu aniré a Vilamalla
+Aquest estiu aniré a Vilamaniscle
+Aquest estiu aniré a Vilamòs
+Aquest estiu aniré a Vilanant
+Aquest estiu aniré a Vilanova d'Escornalbou
+Aquest estiu aniré a Vilanova de Bellpuig
+Aquest estiu aniré a Vilanova de Meià
+Aquest estiu aniré a Vilanova de Prades
+Aquest estiu aniré a Vilanova de Sau
+Aquest estiu aniré a Vilanova de Segrià
+Aquest estiu aniré a Vilanova de l'Aguda
+Aquest estiu aniré a Vilanova de la Barca
+Aquest estiu aniré a Vilanova del Camí
+Aquest estiu aniré a Vilanova del Vallès
+Aquest estiu aniré a Vilanova i la Geltrú
+Aquest estiu aniré a Vilaplana
+Aquest estiu aniré a Vilassar de Dalt
+Aquest estiu aniré a Vilassar de Mar
+Aquest estiu aniré a Vilaverd
+Aquest estiu aniré a Vilaür
+Aquest estiu aniré a Vilobí d'Onyar
+Aquest estiu aniré a Vilobí del Penedès
+Aquest estiu aniré a Vilopriu
+Aquest estiu aniré a Vimbodí i Poblet
+Aquest estiu aniré a Vinaixa
+Aquest estiu aniré a Vinebre
+Aquest estiu aniré a Vinyols i els Arcs
+Aquest estiu aniré a Viver i Serrateix
+Aquest estiu aniré a Xerta
+Aquest estiu aniré a Àger
 Aquest estiu m'agradaria anar a Belfast.
 Aquest estiu marxaré de vacances abans d'hora.
 Aquest estofat t'ha quedat per llepar-se'n els dits. Podrem repetir?
@@ -4291,6 +4398,7 @@ Bon dia, vull demanar un taxi.
 Bon dia, vull posar una queixa al servei de taxis.
 Bon dia, vull saber la informació dels busos nocturns.
 Bon menjar, bon oblit i jaure amb dona: mai havia trobat millor conhort.
+Bona bereneta
 Bona jornada de treball.
 Bona nit des del Pla de l'Estany.
 Bona nit per anar a dormir
@@ -4587,6 +4695,7 @@ Capellades es troba a l’Anoia
 Capellans, frares, canonges, com que estan ben recaptats, tiren masclets molt granats.
 Capmany es un bon lloc per anar-hi
 Capmany es troba a l’Alt Empordà
+Capolam ses ametlles per a fer una tortada
 Capolat es un bon lloc per anar-hi
 Capolat es troba al Berguedà
 Caps de suro!
@@ -5363,6 +5472,7 @@ Dassa això t'he dit!
 Daus de moniato arrebossat.
 Dava trenzilla blava per groga o que en donava pams de més
 Davall de la portalada de l'ajuntament.
+Davall sa costa nova hi ha un ametller
 Davant d'aquell axioma un xic espès
 Davant d'aquell axioma un xic espès, el futur opositor va esdevenir pensatiu.
 Davant d'una societat coquina i avara
@@ -9414,6 +9524,7 @@ Flaçà es troba al Gironès
 Flix es un bon lloc per anar-hi
 Flix es troba a la Ribera d’Ebre
 Flora de Tailàndia. Presenten fulles ovades i de vora dentada o serrada.
+Floreix quan comença es bon temps
 Fogars de Montclús es un bon lloc per anar-hi
 Fogars de Montclús es troba al Vallès Oriental
 Fogars de la Selva es un bon lloc per anar-hi
@@ -17682,6 +17793,7 @@ Quina taula rodona és?
 Quina temperatura voleu?
 Quina temptació per a un novel·lista!
 Quina temptació per a un novel·lista.
+Quina tortada més bona
 Quina tristor feien els seus colors pansits
 Quina veu més maca que tens!
 Quina visió més calmosa!
@@ -18269,6 +18381,7 @@ S'omplia l'enteniment de totes les fantasies
 S'utilitza habitualment com a planta ornamental per la seua floració profusa.
 Sa mare s’aclamava a tots els sants perquè parlara.
 Sa mare, plorant li deia: «Vicent, mon fill és mort ja!»
+Sa merenga li diu molt
 Sa reina, però, és sa caldereta de llagosta!
 Sabadell es un bon lloc per anar-hi
 Sabadell es troba al Vallès Occidental
