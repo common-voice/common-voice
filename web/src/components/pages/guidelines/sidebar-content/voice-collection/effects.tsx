@@ -3,7 +3,7 @@ import classNames from 'classnames';
 import React from 'react';
 
 import { ChevronDown } from '../../../../ui/icons';
-import { SidebarContentProps } from '../sidebar-content';
+import { SidebarContentProps } from '../voice-sidebar-content';
 
 export const Effects: React.FC<SidebarContentProps> = ({
   id,
