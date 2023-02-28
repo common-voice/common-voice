@@ -19,7 +19,27 @@ ca = Catalan
 de = Aleman
 el = Griego
 en = Ingles
+eo = Esperanto
 es = Español
+fa = Persa
+fr = Frances
+hy-AM = Armenio
+ja = Japonés
+ko = Coreano
+mn = Mongol
+ne-NP = Nepali
+pl = Polaco
+pt = Portugués
+ro = Rumano
+ru = Ruso
+sk = Eslovaco
+sl = Esloveno
+so = somalí
+sq = Albanés
+sr = Serbio
+uk = Ucranio
+vi = vietnamita
+yue = Cantonés
 
 # [/]
 
