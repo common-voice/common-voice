@@ -1,3 +1,7 @@
+import { AddingSentences } from './sidebar-content/sentence-collection/adding-sentences';
+import { CitingSentences } from './sidebar-content/sentence-collection/citing-sentences';
+import { PublicDomain } from './sidebar-content/sentence-collection/public-domain';
+import { ReviewingSentences } from './sidebar-content/sentence-collection/reviewing-sentences';
 import { BackgoundNoise } from './sidebar-content/voice-collection/background-noise';
 import { BackgoundVoices } from './sidebar-content/voice-collection/background-voices';
 import { Effects } from './sidebar-content/voice-collection/effects';
@@ -7,7 +11,7 @@ import { Unsure } from './sidebar-content/voice-collection/unsure';
 import { VaryingPronounciation } from './sidebar-content/voice-collection/varying-pronunciations';
 import { Volume } from './sidebar-content/voice-collection/volume';
 
-export const NAV_IDS: Record<string, string> = {
+export const VOICE_NAV_IDS: Record<string, string> = {
   PRONUNCIATIONS: 'varying-pronunciations',
   OFFENSIVE_CONTENT: 'offensive-content',
   MISREADINGS: 'misreadings',
@@ -18,45 +22,75 @@ export const NAV_IDS: Record<string, string> = {
   UNSURE: 'just-unsure',
 };
 
-export const guidelinesSections = [
+export const SENTENCE_NAV_IDS: Record<string, string> = {
+  PUBLIC_DOMAIN: 'public-domain',
+  CITING_SENTENCES: 'citing-sentences',
+  ADDING_SENTENCES: 'adding-sentences',
+  REVIEWING_SENTENCES: 'reviewing-sentences',
+};
+
+export const voiceGuidelinesSections = [
   {
-    id: NAV_IDS.PRONUNCIATIONS,
+    id: VOICE_NAV_IDS.PRONUNCIATIONS,
     component: VaryingPronounciation,
     visible: true,
   },
   {
-    id: NAV_IDS.OFFENSIVE_CONTENT,
+    id: VOICE_NAV_IDS.OFFENSIVE_CONTENT,
     component: OffensiveContent,
     visible: true,
   },
   {
-    id: NAV_IDS.MISREADINGS,
+    id: VOICE_NAV_IDS.MISREADINGS,
     component: Misreadings,
     visible: true,
   },
   {
-    id: NAV_IDS.BACKGROUND_NOISE,
+    id: VOICE_NAV_IDS.BACKGROUND_NOISE,
     component: BackgoundNoise,
     visible: true,
   },
   {
-    id: NAV_IDS.BACKGROUND_VOICES,
+    id: VOICE_NAV_IDS.BACKGROUND_VOICES,
     component: BackgoundVoices,
     visible: true,
   },
   {
-    id: NAV_IDS.VOLUME,
+    id: VOICE_NAV_IDS.VOLUME,
     component: Volume,
     visible: true,
   },
   {
-    id: NAV_IDS.EFFECTS,
+    id: VOICE_NAV_IDS.EFFECTS,
     component: Effects,
     visible: true,
   },
   {
-    id: NAV_IDS.UNSURE,
+    id: VOICE_NAV_IDS.UNSURE,
     component: Unsure,
+    visible: true,
+  },
+];
+
+export const sentenceGuidelineSections = [
+  {
+    id: SENTENCE_NAV_IDS.PUBLIC_DOMAIN,
+    component: PublicDomain,
+    visible: true,
+  },
+  {
+    id: SENTENCE_NAV_IDS.CITING_SENTENCES,
+    component: CitingSentences,
+    visible: true,
+  },
+  {
+    id: SENTENCE_NAV_IDS.ADDING_SENTENCES,
+    component: AddingSentences,
+    visible: true,
+  },
+  {
+    id: SENTENCE_NAV_IDS.REVIEWING_SENTENCES,
+    component: ReviewingSentences,
     visible: true,
   },
 ];
