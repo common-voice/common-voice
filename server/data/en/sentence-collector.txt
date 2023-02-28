@@ -1791,6 +1791,7 @@ A Hindu will strew ashes from a pyre at the door of the house.
 A London mother gave her coughing baby six drops, and the child died.
 A Lost Copy?
 A Man o’ War is an archaic ship of war.
+A Maori chief would not blow a fire with his mouth.
 A Merry Christmas to all!
 A Neonatal Intensive Care Unit Incubator helps weak babies grow.
 A New Translation?
@@ -1965,6 +1966,7 @@ A couple of times, I almost burst into tears after I mess up.
 A couple of tomahawks will be found useful.
 A cradle is a leather platform, made to receive the seat.
 A crate must be safely secured to avoid damage during transport.
+A creature can have only one Bardic Inspiration die at a time.
 A creature either has a condition or doesn’t.
 A creature of my splendid mind.
 A crimson footmark on the grey concrete!
@@ -2411,6 +2413,7 @@ A page of the book was ripped out.
 A paladin tries to hold to the highest standards of conduct.
 A panel of light shone upon the wall a few paces ahead.
 A paraffin lamp is very useful if you're intending to go camping
+A paralyzed creature is incapacitated and can’t move or speak.
 A parent is a nurturer of positive energy.
 A parent will resent it if you say that the baby is like them.
 A part of the ceremony consists of a dance accompanied by a song.
@@ -2998,6 +3001,7 @@ Addison's composition is carelessly irregular but nevertheless much-laboured and
 Additional Water Guidance
 Additionally you will need to spend one hour per day revising these topics.
 Additionally, there is a homework video due Tuesday.
+Additionally, you can ignore the verbal and somatic components of your druid spells
 Address playtest feedback
 Adele casually suggested the kind of dress which she would prefer.
 Adele closed the door again, but she did not bolt it.
@@ -5268,6 +5272,7 @@ Any average young fellow can teach himself in a week.
 Any branch of knowledge.
 Any casual gain, or godsend, is naturally devoted to the same purpose.
 Any embarrassment in dealing with it is a weakness that hinders social progress.
+Any equipment that the new form can’t wear must fall to the ground.
 Any explanation is better than no explanation
 Any harm he might do to his fellow would recoil on his own head.
 Any means you like.
@@ -6069,6 +6074,7 @@ At which my guardian only laughed the pleasantest laugh I ever heard.
 At work so late, my dear?
 At your leisure.
 Atrophy can set in quickly.
+Attack rolls against the creature have advantage.
 Attendance, forbearance, patience with Darcy, was injury to Wickham.
 Attention deficit hyperactivity disorder.
 Atthe ceremony these two blocks are rubbed with a stone by two men.
@@ -8511,6 +8517,7 @@ Characteristically he thought last of where he was to go.
 Characters are defined more by their skills, species and choice of deity
 Characters of most races are Medium.
 Charcoal is an accelerator of decomposition.
+Charisma is your spellcasting ability for these spells.
 Charities are developing systems to offer cash direct to the needy in emergencies.
 Charities must be vigilant for the protection of the vulnerable.
 Charities work hard to alleviate suffering.
@@ -8582,6 +8589,7 @@ Chocolate with a caramel filling.
 Choir or Cantor: Alleluia! All repeat: Alleluia!
 Choirboys reinforce the ranks to a considerable extent.
 Choose a pair of ear-rings to suit yourself.
+Choose arctic, coast, desert, forest, grassland, mountain, or swamp.
 Choose one type of dragon from the Draconic Ancestry table.
 Choose your own degree of crossness.
 Chops and tomato sauce.
@@ -10443,6 +10451,7 @@ Dyeing my hair cured me of vanity.
 Dynamic Link Libraries are reusable modules of windows software applications.
 Dyslexia is a learning difficulty experienced in reading and writing.
 Dyspraxia is a developmental co-ordination disorder.
+Each Pact Boon option produces a special creature or an object.
 Each Sunday, she exerts her sovereign power.
 Each accelerator carried twelve or thirteen letter-carriers.
 Each artist at Openclipart releases all rights to the images they share at Openclipart.
@@ -10452,6 +10461,7 @@ Each buoy is to be divided horizontally into four.
 Each clan has a particular tree or shrub consecrated to it.
 Each day she became a more vital part of him.
 Each event object should have a date
+Each fiend or undead that can see or hear you flees.
 Each guarantees the other that he will devise no mischief against him.
 Each had been ragged on a subject of which he knew absolutely nothing.
 Each house has its own uniform of cap and jersey.
@@ -11220,6 +11230,7 @@ Fine newspapers they were.
 Fingers crossed!
 Fingers touch my forehead — now they touch my cheek — now they touch my throat!
 Finish your dinner, and walk out with me.
+Finishing a long rest reduces a creature’s exhaustion level by one.
 Finnish wizards used to sell wind to storm-stayed mariners.
 Fintech is short for Financial Technology.
 Fiona and Jamie were engaged to be married.
@@ -11511,6 +11522,7 @@ For the most part it takes place about the middle of May.
 For the most part these fetishes are heirlooms of which the origin is forgotten.
 For the murder of Marthe.
 For the preservation of moisture nothing can beat a good grass mulch.
+For the purpose of hiding, the creature is heavily obscured.
 For the remainder of the class, I was Franny’s legs.
 For the rest of your life you must be a peaceful farmer.
 For the rest the luminous expanse was undisturbed.
@@ -11966,6 +11978,7 @@ Glory be to God on high.
 Glucose is found in commerce under three different forms.
 Glucose is used in the manufacture of beer and alcohol.
 Gnomes are good-­hearted.
+Gnomes average about forty pounds.
 Go ahead and chop down your forests.
 Go ahead, I've got time.
 Go all in when you learn something, as opposed to half-heartedly.
@@ -18369,6 +18382,7 @@ However, we walked home very silently.
 However, we will call the head waiter.
 However, we’ll be friends now.
 However, when I did meet him I was frightened.
+However, you can’t use any of your special senses, such as darkvision.
 However, ‘jurymen’ would have done just as well.
 Hows you?
 Hudson received it with reverence.
@@ -24406,6 +24420,7 @@ If you saw her, mother, you would know how I feel.
 If you say so I’ll stop.
 If you search for Alvyn Abranches on Google, you will get his profile only.
 If you see symptoms of someone having a stroke call one-one-two immediately.
+If you serve the Fiend, your weapon could be an axe.
 If you support Trump, you're a bad person.
 If you take the handbrake off, the car is likely to roll away
 If you think I like it, you jolly well mistake yourself.
@@ -24654,6 +24669,7 @@ In any one else that'd be a bad sign.
 In appearance there is nothing abnormal about him except an air of youth.
 In at least one copy, serpents twine around her lower arms.
 In back of them a dozen people had miraculously gathered.
+In battle, you fight with primal ferocity.
 In black and white, of course — not like this.
 In both styles, they must rise in front more than at the back.
 In both the assertions there was some foundation of truth.
@@ -24789,6 +24805,7 @@ In order to thoroughly disinfect them, pigs and fowls are killed.
 In ordinary circumstances Hindu women never engage in agricultural operations like ploughing and harrowing.
 In ordinary circumstances a brand would have been taken from one of the huts.
 In other cases the pedophilic impulse alternates with normal sexual feelings.
+In other institutions, the schools are more like academic departments
 In other parts of Germany races are still held at marriage.
 In other words, magic is here blent with and reinforced by religion.
 In other words, quite well of course.
@@ -25549,6 +25566,7 @@ It can be proved, sir.
 It can be readily imagined.
 It can do nought to sixty in five seconds.
 It can never be my wish that you should feel any strait.
+It can use only the Dash action or try to escape
 It can't be as bad as you think.
 It can't be eighty.
 It can't be.
@@ -26427,6 +26445,7 @@ It makes me so glad to be alive.
 It makes me thrill to think of it.
 It makes me weep to see these fields covered in concrete.
 It makes most people unhappy.
+It makes noises as appropriate to the creature it represents.
 It makes perfect sense, but it hurts.
 It makes sense because my bedroom faces east
 It makes sense.
@@ -31963,6 +31982,7 @@ Nothing that brunch can't solve.
 Nothing that the general could do or say damped the ardor of his adorers.
 Nothing to it.
 Nothing to keep me here, I mean.
+Nothing was able to divert him from a fate which he considered inevitable.
 Nothing was changed.
 Nothing was stirring on the long white ribbon that threaded them.
 Nothing worthy of special mention occurred during the journey.
@@ -32975,6 +32995,7 @@ Once more, for Harry and St George.
 Once only he broke the silence.
 Once or twice he got very peevish, and apologised for it.
 Once some strangers tried to do so, but blood flowed from the tree.
+Once the Bardic Inspiration die is rolled, it is lost.
 Once the jews harp began emitting its barbaric rhythms, Michael was helpless.
 Once there was mention of Connie’s red hair.
 Once these tapers begin to burn, nothing but milk will put them out.
@@ -38054,6 +38075,7 @@ Sometimes his wife or some of his sons dined with him.
 Sometimes it is necessary to compel the ewes to admit the lambs.
 Sometimes it is the souls of the dead which are believed to animate trees.
 Sometimes lower motives concurred to whet the edge of the priest's hostility.
+Sometimes paladin willfully violates her oath and shows no sign of repentance.
 Sometimes she praised his work; sometimes she was critical and cold.
 Sometimes she read a paper.
 Sometimes the Vestal virgins appear to have been the daughters of the king.
@@ -38066,6 +38088,7 @@ Sometimes the lost soul is brought back in a visible shape.
 Sometimes the navel-string is deposited along with the placenta in the tree.
 Sometimes the old man will drink a little of the blood.
 Sometimes the past is not the best indicator of the future.
+Sometimes the right path proves too demanding
 Sometimes the upper end of the crook is hollowed out and filled with quicksilver.
 Sometimes their progress towards this mystic communion was accelerated by the Inquisition.
 Sometimes there is a sacred grove near a village.
@@ -38919,6 +38942,7 @@ That brute of a lad has warmed me nicely.
 That bump looks swollen. It's probably been swelling all night.
 That burial-ground commands a beautiful view.
 That came before my A B C's.
+That can be done during a short rest.
 That cannot do.
 That cat is constantly shedding hairs.
 That chance must be sought after dark.
@@ -40557,6 +40581,7 @@ The bottom floor is flooded.
 The bottom of the cut will therefore be referenced.
 The bowl spins a lot on these tracks.
 The bowling had now become almost unbelievably bad.
+The box stops playing when it reaches the song’s end
 The boxes our church made were sent to Eritrea.
 The boy answered me back, and was very cheeky
 The boy at the wheel lost his head.
@@ -41234,7 +41259,10 @@ The cream will not turn to butter in the churn.
 The creation of the internet has dropped the cost of communication drastically.
 The creative commons licensing system makes sharing intellectual property easy to follow.
 The creative joy, I murmured.
+The creature automatically fails Strength and Dexterity saving throws.
+The creature can’t willingly move closer to the source of its fear.
 The creature croaks terribly while the ants are gnawing the flesh from its bones.
+The creature’s attack rolls have disadvantage.
 The creature’s location can be detected by any noise it makes.
 The crescent bodies become the sexual bodies.
 The crew gave three cheers: hurrah!
@@ -42008,6 +42036,7 @@ The fog was dense and impenetrable to light.
 The folds bound her lips more surely.
 The folks were of the genus cinch, species pushover.
 The following collation was served to the royal party.
+The following definitions specify what happens to a creature
 The following entries appear among the traits of most fantasy races.
 The following facts may possibly be of interest to you.
 The following is another extract from the same treatise.
@@ -42125,6 +42154,7 @@ The garland consisted of two crossed hoops covered with moss.
 The garlands are generally in the form of hoops intersecting at right angles.
 The garlands consist of two hoops, one passing through the other.
 The garment containing the soul is placed on or beside the child.
+The garments of a high New Zealand chief will kill anyone who wears them.
 The garments waved onward, the faces poured by more abundantly.
 The garrison must help.
 The gas escaped from the edge of the manifold.
@@ -42768,6 +42798,7 @@ The king later disavowed the concession and accused the agents of deceit.
 The king of Benin was the chief object of worship in his dominions.
 The king of Dahomey is subject to the prohibition against beholding the sea.
 The king of Tahiti received a sacred girdle of red and yellow feathers.
+The king of Tonga could not refuse to play his part in the rite.
 The king of Ulster was forbidden to attend the horse fair.
 The king ordered it to be killed on the spot.
 The king perceived him and called him in and gave judgment.
@@ -43436,6 +43467,7 @@ The mosquitoes and moose flies did their best to render us uncomfortable.
 The most accessible of the wastelands would be selected.
 The most adroit plotters make their little mistakes.
 The most careless of observers were struck with the simplicity of the Persian worship.
+The most common arcane traditions in the multiverse revolve around the schools of magic.
 The most common food taken on such an occasion is sushi.
 The most common ground is duress — physical pressure.
 The most dangerous variety is the black rock scorpion.
@@ -44209,6 +44241,7 @@ The preachers had now committed themselves too far to recede.
 The precautions adopted take the form of certain prohibitions or taboos.
 The precautions taken at this season against witches are many and various.
 The precursor to the English language was brought to England in the fifth century.
+The prediction was a sentence which faith effectually executed.
 The preface contains an interesting synopsis.
 The preferred vehicle for the enterprise is the white van.
 The prehistoric historic relations between the two continents are still obscure.
@@ -45341,6 +45374,7 @@ The termites are tropical or subtropical in habitat.
 The terms of cashiering and misconduct may be thought-provoking.
 The terms of defeat or victory were called sacking and bogging.
 The tete-a-tete surprised them.
+The the creature has also ingested some food and drink.
 The theory and practice of the Basutos in South Africa were similar.
 The theory so calmly enunciated took his breath away.
 The thermal and the magnetic equators are connected.
@@ -46054,6 +46088,7 @@ The wound heals.
 The wreaths of flowers which crowned the pails are thrown into the water.
 The wreck and dissolution must reshape itself into a social arrangement.
 The wrench cracked and shattered.
+The wretch took to his hammock instantly in full expectation of dying.
 The writ which commences the action.
 The writer does not describe the mode of appeasing the tree-spirit.
 The writer is inclined to think that cat-fear is analogous to snake-fear.
@@ -48701,6 +48736,7 @@ They make porcelain, tea, cinnamon, shawls, tin, tamarinds, and opium.
 They make shoes of moose skin.
 They make the round of the houses singing May songs.
 They make your mouth water.
+They manipulate ki to heal damage to their bodies.
 They march in Indian file and halt before every house.
 They march into camp, painted with red and yellow ochre and pipeclay.
 They mark the first steps taken in the humanization of war.
@@ -48901,6 +48937,7 @@ They seemed to have disappeared altogether.
 They seemed to master her.
 They send it to their electoral registration office.
 They sent his note reluctantly.
+They serve as advisors to the rulers of those folk.
 They serve as prickly hedges through which the witches cannot force their way.
 They serve to condense the sun's rays strongly upon the object.
 They set off again, pace by pace, so slowly.
@@ -50185,6 +50222,7 @@ This title is applied by many authors to ice masses.
 This totem they conceive assumes the shape of some beast or other.
 This touched the spot.
 This town was designed for a consumerist lifestyle.
+This toy is a clockwork animal, monster, or person.
 This train of indecision must surely be worked out now or never.
 This train of thought is hardly likely to carry conviction.
 This tree has sometimes got the name of mahogany.
@@ -52095,6 +52133,7 @@ We haven’t been — we’ve been good enemies.
 We hear all the salt-water news.
 We hear of diabetics swallowing baskets of drugs to little or no purpose.
 We hear of vineyards and plantations dedicated to Artemis.
+We hear the crash of the thunder among the cloud‑enshrouded peaks.
 We heard a distant thwacking sound.
 We here meet with a fundamental discord.
 We highly encourage those with specialization in this field to participate in this community
@@ -53398,6 +53437,7 @@ What convention does the journal use for citations?
 What could I ever do but thank him!
 What could I say?
 What could be better than a nice cup of tea?
+What could be in a dusty tome in an ancient library?
 What could be more natural than his asking you again?
 What could be the meaning of it?
 What could have caused it?
@@ -53694,6 +53734,7 @@ What if they fail to do so?
 What if they were playing Peter’s game?
 What if we all joined forces?
 What if you could trust the answer I gave you
+What if you die?
 What if you play a young or very old character?
 What important or leading measure is there which can be adopted?
 What improvements in democracy are we looking for?
@@ -54573,9 +54614,11 @@ When would you catch me wishing to have what Catherine wanted?
 When you are your own mistress, you may relapse into faults.
 When you awaken, the street will be transformed.
 When you came in, I was full of it.
+When you create a device, choose one of the following options:
 When you go to Congress, be careful what you say.
 When you got home.
 When you make tea, do you pour the tea or the milk first?
+When you reach third level, you can cast the hellish rebuke.
 When you say 'No, sir,' do you mean 'Yes, sir'?
 When you say correctly croquet;
 When you transform, you assume the beast’s hit points and Hit Dice.
@@ -56286,6 +56329,7 @@ You can bring out your old ribbon-box.
 You can build and disassemble the robot easily.
 You can call model dot summary to see the model structure.
 You can carry it back when you return.
+You can change your list of prepared spells when you finish a long rest.
 You can choose any age for your character.
 You can choose either the fruit salad or the cheese
 You can choose the colour Navy or Azure for the baby's bedroom.
@@ -56350,13 +56394,16 @@ You can see the window from this corner.
 You can see thousands of stars with the naked eye in the night sky?
 You can sit behind and hang on to my waist.
 You can speak the language and use it to leave hidden messages.
+You can speak, read, and write Common and Infernal.
 You can stay with me for tonight.
 You can stop those monkey tricks at once!
 You can take a vacation on pay.
 You can take me to her house to sing duets.
 You can take this case straight to the High Court.
 You can tell me about her perhaps?
+You can then dismiss the weapon.
 You can tickle my ankles.
+You can transform a magic weapon into your pact weapon
 You can treat the server as an endpoint
 You can trust her.
 You can turn out if you feel like it.
@@ -56417,6 +56464,7 @@ You complete and utter imbecile.
 You contradict your own words, and distract me!
 You copied some affidavits in that cause for me lately.
 You could be free instantly.
+You could discover a spell recorded on a scroll in an evil wizard’s chest.
 You could have eaten your dinner off me.
 You could have knocked me down with a feather. "Engaged to him?"
 You could have told him what he was.
@@ -56550,6 +56598,7 @@ You forget that I have made no answer.
 You forget that Mrs. Crawford had twins three times.
 You found him in here, laughing heartily.
 You found that out long ago.
+You gain this benefit in your normal shape and your beast shape.
 You gather that too, do you?
 You gave us some very good music.
 You get fooling about with the boat, and slop me overboard.
@@ -56715,6 +56764,7 @@ You heard the smash?
 You heard those people shouting and singing two nights ago.
 You heard what I said.
 You hold your head with such an air.
+You hurl a bubble of acid.
 You hussy, how dare you talk in that way?
 You intend to give me no other notice?
 You just have to go by rules.
@@ -56723,6 +56773,7 @@ You just need to add more layers as always.
 You keep your nerves steady.
 You keep your own little accounts, I suppose?
 You killed the soft little kitty.
+You know Druidic, the secret language of druids.
 You know I always loved a little flirtation.
 You know I always mean what I say.
 You know I always think she is quite agreeable.
@@ -56755,6 +56806,7 @@ You know she has gone to live on a new farm?
 You know she has not!
 You know that I have barely had my tea.
 You know that’s really quite remarkable — quite.
+You know the location of any celestial, fiend, or undead within sixty feet.
 You know the thing.
 You know the third time's the charm.
 You know the type of any being whose presence you sense.
@@ -57046,6 +57098,8 @@ You ought to see the flier a friend of mine has got.
 You passed.
 You pay attention to the space you are parking in.
 You perceive with joy that the whole scheme of existence corresponds together.
+You perform the ritual over the course of one hour.
+You prepare the list of druid spells that are available for you to cast
 You pride yourselves on it.
 You promised to recommend me a servant who had travelled in the East.
 You prove it.
@@ -57064,6 +57118,7 @@ You really want to know?
 You recollect Arabella?
 You recollect him?
 You recollect that first night, when I was so unpolite?
+You regain the ability to do so when you finish a long rest.
 You remember Angela's shark?
 You remember it is time to get up, for there is a stunt on.
 You remember me losing all that money at baccarat at Cannes?
@@ -57203,6 +57258,7 @@ You speak as though he were a dress to be re-dyed.
 You spend a great deal, Jax.
 You spoke to me sometimes.
 You stand silent and twiddle the fingers.
+You start with the following equipment
 You start with the following equipment.
 You stay where you are — don't interrupt too much.
 You stay, we stay.
@@ -57250,6 +57306,7 @@ You understand everything.
 You understand how those things are managed?
 You understand me capitally, Socrates.
 You understand why I thank you so very much?
+You use your Wisdom whenever a spell refers to your spellcasting ability.
 You used to joyride like the very devil.
 You used to rag me for not reading enough.
 You wanna go all the way to Texas?
@@ -57605,6 +57662,7 @@ Young people shouldn't let their vote go to waste.
 Young people shower long grass stalks at the shamefaced and dripping couple.
 Young people throw a puppet called Death into the water.
 Young people used to dance round an old oak on Easter Saturday.
+Your Bardic Inspiration die changes when you reach certain levels in this class.
 Your Constitution score increases by two.
 Your Health
 Your accent is different, where are you from?
@@ -57619,6 +57677,7 @@ Your aunt was quite right in what she said of him.
 Your aunt," said Tuppy, "is a bit above herself.
 Your bed is placed directly in front of the window.
 Your being wrecked here has been a godsend to me.
+Your blessed touch can heal wounds.
 Your bliss lies, like his, in inflicting misery.
 Your blood pressure has stabilized.
 Your breath weapon and damage resistance are determined by the dragon type.
@@ -57648,6 +57707,7 @@ Your face is covered, my dear fellow, quite covered.
 Your face is red with blood.
 Your face was the personification of duplicity.
 Your face will, if your tongue won't.
+Your familiar is more cunning than a typical familiar.
 Your father of course may spare you, if your mother can.
 Your father was married here — but in the old house.
 Your father's fifth command, he nodded.
@@ -57963,6 +58023,7 @@ it is very effective.
 it later changed for performance
 it makes the type system undecidable
 it may be broken by updates to their front end
+it might be used for thrown weapons, such as darts or javelins.
 it might me missed
 it provides an interface to users
 it remains in force, although military forces are no longer permanently stationed in Iceland.

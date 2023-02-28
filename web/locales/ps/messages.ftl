@@ -137,6 +137,7 @@ nan-tw = تایواني (منان)
 nb-NO = نارويژي بوکلم
 nd = IsiNdebele (شمال)
 ne-NP = نیپالي
+nhe = ختیځ واسټيکا ناهوت
 nia = نیاس
 nl = الماني
 nn-NO = نارویژي نینورسک
@@ -192,6 +193,7 @@ ts = شیتسونګا
 tt = تاتاري
 tw = توي
 ty = تایتیاني
+tyv = تووان
 uby = اوبیخي
 udm = اډمورټي
 ug = اویغوري
@@ -572,6 +574,7 @@ about-get-involved-text-2 =
 about-stay-in-touch = زه څنګه په اړيکه کې پاتې شم؟
 about-stay-in-touch-button = ګډون کول
 about-stay-in-touch-text-1 = زموږ د بریښنالیک لیست <emailFragment>لپاره نوم لیکنه وکړئ</emailFragment> د دې زده کولو لپاره چې تاسو څنګه ګډون کولی شئ  په عام غږ کې په کمپاینونو، پیښو او ګډ ډیزاین ځانګړتیاو کې.
+about-stay-in-touch-text-2 = تاسو کولی شئ د موزیلا ژبو ټولنو کې د موضوعي خبرو اترو لپاره د <discourseLink>Discourse</discourseLink> سره یوځای کیدو سره، یا د چټک مشورې لپاره <matrixLink>Matrix</matrixLink> سره لیدنه وکړئ.
 about-nav-why-common-voice = ولې؟
 about-nav-how-it-works = څنګه؟
 about-nav-partners = شریکان
@@ -584,20 +587,46 @@ about-nav-playbook = زده کړئ چې څنګه برخه واخلئ
 
 about-playbook-what-is-language = په عام غږ کې يو ژبه څه ده؟
 about-playbook-what-is-language-content-1 = د ژبې په اړه فکر کولو لپاره ډیری لارې شتون لري. د وینا د پیژندنې ماډلونو لپاره، عام غږ وړاندیز کوي چې په متقابل پوهاوي تمرکز وکړي، یا "ایا د دې ژبې ویونکي اکثرا یو بل پوهیږي که دوی هڅه وکړي؟"
+about-playbook-what-is-language-content-2 = موږ غواړو چې د وینا ماډلونه د سپیکرو د متنوع سلسلې په پوهیدو کې غوره وي. د دې لپاره چې پیښ شي، د غږ ډیټاسیټ باید د ډیری مختلف خلکو استازیتوب وکړي.
+about-playbook-what-is-language-content-3 = ځینې ​​ژبې په ګرامر، لغتونو او تلفظ کې خورا لوی توپیر لري. د همدې دلیل لپاره، موږ په 2022 کې <ctaLink>متغیرات معرفي کوو</ctaLink>- دا ټولنو ته یوه لاره ورکوي چې خپلې ژبې په لوی ډیټاسیټ کې توپیر کړي.
 
 ## How do I add a language
 
 about-playbook-how-add-language = زه څنګه يو ژبه اضافه کړم؟
+about-playbook-how-add-language-content-1 =
+    لومړی، وګورئ چې آیا ستاسو ژبه <languageLink>مخکې شتون لري</languageLink>.
+    که دا نه وي، تاسو  <languageRequestLink>د خپلې ژبې د اضافه کولو په اړه پوښتنه وکړئ</languageRequestLink>.
+    دوه مرحلې شتون لري. د سایټ ژباړه، او د جملو راټولول
 about-playbook-how-add-language-translating-heading = د سایټ ژباړه
+about-playbook-how-add-language-translating-content-1 = <translateVideoLink>د پونټون کارولو څرنګوالي په اړه زموږ لارښود وګورئ.</translateVideoLink>
+about-playbook-how-add-language-translating-content-2 =
+    موږ د ژباړې لپاره د موزیلا وسیله کاروو چې <pontoonLink>Pontoon</pontoonLink> نومیږي. پونټون ډیرې ژبې لري
+    مګر که دا ستاسو نه وي تاسو  <pontoonRequestLink>د خپلې ژبې د اضافه کولو غوښتنه کولی شئ</pontoonRequestLink>.
+    بیا، دعام غږ په پروژه کې د ژبې چمتو کولو لپاره،
+    <githubRepoLink>په GitHub کې د نوې ژبې غوښتنه وکړئ</githubRepoLink>. <localizationFragment>د سایټ په ژباړه کې نور وګورئ</localizationFragment>.
 about-playbook-how-add-language-collecting-sentences-heading = د جملو راټولول
+about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>د جملې راټولونکی د کارولو په اړه زموږ لارښود وګورئ</sentenceCollectorVideo>.
+about-playbook-how-add-language-collecting-sentences-content-2 =
+    تاسو کولی شئ <sentenceCollectorLinkAdd> لږ شمیر جملې اضافه کړئ</sentenceCollectorLinkAdd>،
+    یا تاسو کولی شئ <bulkImportDocsLink>د Github</bulkImportDocsLink> په کارولو سره ډیری واردات ترسره کړئ.
+    په یاد ولرئ چې جملې باید <licenseLink>CC0 (یا عامه ډومین)</licenseLink> وي، یا تاسو کولی شئ خپل ځان ولیکئ.
+about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>د جملې په ټولګه کې نور وګورئ</sentenceCollectorFragment>.
 
 ## How does localization work
 
+about-playbook-how-localize = د سایټ سیمه ایز کول  څنګه کار کوي؟
+about-playbook-how-localize-content-1 = د عام غږ سایټ ژباړه په <strong>Pontoon</strong> کې کیږي.
+about-playbook-how-localize-content-2 = <pontoonAccountLink>یو حساب جوړ کړئ</pontoonAccountLink> که تاسو نه لرئ. بیا، خپله ژبه غوره کړئ <strong>('ټیم')</strong> او بیا پروژه غوره کړئ، <pontoonCvLink>عام غږ</pontoonCvLink>. د ژباړې لپاره به فایلونه وي. په یوه باندې کلیک وکړئ، بیا دا په انګلیسي کې ټکي او د هغوی د ژباړلو لپاره بکس ښیې.
+about-playbook-how-localize-content-3 = ژباړه له انګلیسي څخه ده، مګر تاسو په نورو ژبو کې <strong>وړاندیزونه</strong> لیدلی شئ. د <strong>پروفایل</strong> آیکون باندې کلیک وکړئ، بیا د <strong>ترتیباتو</strong> لینک او هر هغه ژبه اضافه کړئ چې تاسو یې خبرې کوئ. په ښکته ښي لاس کونج کې به د ژباړو یو لیست وي چې نوم یې <strong>سیمه ایز</strong> دی. ژباړه یوه ورځ وروسته په سایټ کې ښودل کیږي.
+about-playbook-how-localize-content-4 = دا سایټ د پیل کولو لپاره چمتو دی کله چې دا 75٪ بشپړیدو ته ورسیږي.
 about-playbook-how-localize-content-5 = د مرستې لپاره زموږ ویډیوي تشریح وګورئ
 
 ## How to add sentences
 
 about-playbook-how-add-sentences = څنګه جملې اضافه کړم؟
+about-playbook-how-add-sentences-content-1 = <strong>د جملې راټولونکی</strong> د عامه ډومین جملو راټولولو او اعتبار کولو لپاره یوه وسیله ده. تاسو به <scAccountLink> ته اړتیا ولرئ چې یو حساب جوړ کړئ</scAccountLink>. بیا، خپله ژبه په خپل <strong>پروفایل</strong> کې اضافه کړئ. تاسو کولی شئ جملې <strong>اضافه کړئ</strong> یا <strong>بیا کتنه</strong> مخکې اضافه شوي جملې.
+about-playbook-how-add-sentences-content-2 = جملې باید بیاکتنه وشي او د دوه خلکو لخوا ومنل شي ترڅو په عام غږ کې شامل شي. تاسو د خپلې ژبې لپاره لارښودونه <languageGuidelinesLink>دلته</languageGuidelinesLink> جوړ کړئ. جملې باید په <licenseLink> عامه ډومین</licenseLink> کې وي او د 15 کلمو څخه لنډې وي. تاسو کولی شئ د متن له مالک څخه وغواړئ چې دا زموږ د معافیت پروسې په کارولو سره <waiverLink>CC0</waiverLink> جوړ کړي، او موږ ته په commonvoice@mozilla.com ولیږئ.
+about-playbook-how-add-sentences-content-3 = تاسو کولی شئ د ویکیپیډیا څخه د لنډو جملو د ګټې اخیستنې لپاره <scraperLink>Sentence Extractor</scraperLink> وکاروئ.
 about-playbook-how-add-sentences-content-4 = هغه جملې چې تایید شوي د څلورنۍ په ورځ صادریږي، او د راتلونکي خپريدو وروسته شتون لري.
 
 ## How to record quality
@@ -607,10 +636,15 @@ about-playbook-how-record-content-1 = په خپل عادي غږ خبرې وکړ�
 about-playbook-how-record-content-2 = د ډیر شالید شور څخه مخنیوی وکړئ - ستاسو اوریدل بايد اسانه وي.
 about-playbook-how-record-content-3 = جمله په دقت سره ولولئ - مه يې د ځانه تيروئ، بدلوئ یا لغات وراضافه کوئ.
 about-playbook-how-record-content-4 = ډاډ ترلاسه کړئ چې پلیټ فارم ثبت کوي مخکې له دې چې تاسو خبرې پیل کړئ، او یوازې هغه وخت ودریږي کله چې تاسو پای ته ورسیږئ.
+about-playbook-how-record-content-5 = <accuracyLink>د دقت په معیارونو نور وګورئ.</accuracyLink>
 
 ## How to grow language
 
+about-playbook-how-grow-language = موږ څنګه  په عام غږ کې ژبه په مؤثره  توګه وده کولی شو؟
 about-playbook-how-grow-language-content-1 = د خلکو تنوع لپاره د فرصتونو رامینځته کول چې په عام غږ کې برخه واخلي ډاډ ترلاسه کوي چې ډیټاسیټ د امکان تر حده ډیرو خلکو ته خدمت کوي. موږ سرچینې او ټیمپلیټونه جوړ کړي دي چې تاسو یې کارولی شئ!
+about-playbook-how-grow-language-content-2 = پیښې
+about-playbook-how-grow-language-content-3 = تاسو  پیښې ترسره کولی شئ ترڅو خلک د سره مرسته وکړي. دا ستاسو د فکر په پرتله اسانه ده. تاسو دا د ویډیو کنفرانس کولو وسیلې سره آنلاین ترسره کولی شئ ، یا په شخصي توګه که دا خوندي وي. <eventTemplate>د پیښو د چلولو لپاره زموږ ټیمپلیټونه او سرچینې وګورئ</eventTemplate>.
+about-playbook-how-grow-language-content-4 = ټولنیز رسنۍ
 about-playbook-how-grow-language-content-5 = تاسو کولی شئ د پیغام ترلاسه کولو لپاره د ټولنیزو رسنیو پلیټ فارمونه وکاروئ. پوسټونه شریک کړئ چې تشریح کړي چې ولې دا مهم دي، او د نورو خلکو سره اړیکه ونیسئ لکه د ژبې حقونه، غږ AI، یا په ټیکنالوژۍ کې تعصب. د <compaignLink> د ټولنیز کمپاین د چلولو په اړه نور مشورې وګورئ، په شمول هغه مواد چې تاسو یې بیا کارولی شئ</campaignLink>.
 about-playbook-how-grow-language-content-6 = شراکتونه او شبکې
 about-playbook-how-grow-language-content-7 = نور پیدا کړئ څوک چې پاملرنه کوي. دا کیدای شي پوهنتونونه، د ژبې ښوونځي، د مدافعې ډلې یا د معلوماتو ساینس ټولنې وي. ورشئ او په واضح ډول تشریح کړئ چې دوی څنګه مرسته کولی شي او ولې. <outreachTemplates>زموږ د بریښنالیکونه د رسونې ټیمپلیټ وګورئ</outreachTemplates>.
@@ -618,13 +652,28 @@ about-playbook-how-grow-language-content-8 = <strong>تخلیق پیدا کړئ!
 
 ## How to validate
 
+about-playbook-how-validate = زه څنګه پوهیږم چې ایا د غږ کلپ تصویب کول؟
+about-playbook-how-validate-content-1 = که تاسو کولی شئ <strong>دوی واورئ</strong> او <strong>پوهیږئ</strong>، دا معمولا<strong>غوره ده چې تصویب کړئ</strong>.
+about-playbook-how-validate-content-2 = <strong>کلیپونه مه ردوئ چیرې چې خبرې کوونکی یو تلفظ لري چې ستاسو له ځان سره توپیر لري</strong> - دا د غږ پیژندلو لپاره مهم دی ترڅو د هرچا لپاره ښه کار وکړي.
+about-playbook-how-validate-content-3 = که تاسو فکر کوئ چې تلفظ یې د پوهیدو لپاره ناشونی دی</strong>، یا دلته <strong>ډیر شالید شور</strong> شتون لري، یا هلته <strong>نور خلک هم خبرې کوي</strong>، نو تاسو باید کلیپ رد کړي. <accuracyLink>زموږ د دقت په معیارونو کې نور معلومات وګورئ</accuracyLink>.
+about-playbook-how-validate-content-4 = که یو کلیپ د 2 خلکو لخوا رد شي، دا د ډیټاسیټ په مختلف فرعي سیټ کې خپور شوی.
 
 ## How to access dataset
 
+about-playbook-how-access-dataset = زه څنګه ډیټا سیټ ته لاسرسی او کارولی شم؟
 about-playbook-how-access-dataset-content-1 = تاسو کولی شئ <datasetsPag>ډاټاسیټونه پاڼې</datasetsPage> ته لاړ شئ، هغه نسخه او ژبه غوره کړئ چې تاسو یې غواړئ، او ډاونلوډ یې کړئ! فایلونه <metadataLink> تړلي میټاډاټا</metadataLink> لري، لکه د ډیموګرافیک معلومات او د اعتبار ډاټا. تاسو به د ډیټاسیټ ډاونلوډ کولو لپاره د بریښنالیک پته چمتو کولو ته اړتیا ولرئ.
+about-playbook-how-access-dataset-content-2 = که تاسو د ASR موډلونو جوړولو لپاره د وسیلو په لټه کې یاست، تاسو کولی شئ په ټولنه کې د نورو خلکو سره اړیکه ونیسئ <discourseLink> on Discourse</discourseLink>.
 
 ## How are decisions made
 
+about-playbook-how-project-governance = د پروژې پریکړې څنګه کیږي؟
+about-playbook-how-project-governance-content-1 = د موزیلا کامن غږ د نړۍ له ګوټ ګوټ څخه د فعالینو، ژبپوهانو، ډیټا ساینس پوهانو، اکادمیکانو او سافټویر انجینرانو د متنوع ټولنې لخوا ممکنه شوی. دا پروژه د موزیلا فاونډیشن لخوا اداره کیږي.
+about-playbook-how-project-governance-content-2 = زموږ حکومتوالۍ په لاندې ستنو ولاړه ده:
+about-playbook-how-project-governance-content-3 = محرمیت، امنیت او روڼتیا.
+about-playbook-how-project-governance-content-4 = د ټولنې ګډون او پریکړې کول.
+about-playbook-how-project-governance-content-5 = ارزښت او پیژندنه.
+about-playbook-how-project-governance-content-6 = متقابل حساب ورکول.
+about-playbook-how-project-governance-content-7 = <governanceLink>په دې اړه نور ولولئ چې موږ څنګه اداره کوو</governanceLink>
 
 ## Glossary
 
@@ -683,6 +732,7 @@ review-delete-recordings = زما ثبتونه ړنګ کړئ
 
 ## Datasets Page
 
+datasets-heading = ډیټاسیټونه
 datasets-headline = موږ د غږونو یو د آزاد کوډ، ګڼ ژبې ډېټاسیټ جوړ وو چې هرڅوک کولی شي د وینا-وړ کاریالونو روزلو لپاره ترې کار واخلي.
 datasets-positioning =
     موږ باور لرو چې لوی او په عامه توګه موجود غږیز ډېټاسیټونه د ماشین زده کړې پرمټ ویناو ټیکنالوژۍ کې نوښت او سالم تجارتي سیالۍ پیاوړه کوي. 
@@ -691,7 +741,9 @@ datasets-positioning =
     
     دې پاڼې ته د نورو آزاد کوډ غږیز ډېټاسیټونو لپاره د ماخذ مرکز په توګه وګورئ او لکه څنګه چې عام غږ وده کوي، دا زموږ د خپراوي په اړه تازه مالوماتو لپاره کور دي.
 language = ژبه
+download-dataset-header = ډیټاسیټ ډاونلوډ کړئ
 download-delta-explainer = موږ ځینې بدلونونه کړي دي. د ډیلټا برخې یوازې د وروستي خوشې کیدو راهیسې خورا وروستي کلپونه لري. <deltaLink>د دې کار په اړه نور ولولئ</deltaLink>.
+download-dataset-tag = د غوښتل شوي ژبې ډیټاسیټ غوره کړئ او هغه نسخه غوره کړئ چې تاسو یې ډاونلوډ کول غواړئ.
 # File size in gigabytes
 size = اندازه
 validated-hr-total = باوري شوي ساعت ټولټال
@@ -720,8 +772,10 @@ subscribe = ګډون وکړئ
 get-started-speech = وینا پېژندنې باندې پیل وکړئ
 other-datasets = نور غږیز ډېټاسیټونه ...
 feedback-q = غبرګون لرئ؟
+resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ د څیړونکو لپاره یو <docsLink>د خلاصې سرچینې اوزار کټ</docsLink> دی چې د عصري خبرو اترو AI ماډلونه رامینځته کوي.
 resource-deepspeech-info = د موزیلا د خلاصې سرچینې غږ پیژندنې انجن ډیپ سپیچ د وینا پیژندنې غوښتنلیکونو جوړولو لپاره کارول کیدی شي. زموږ <githubLink>Github عمومي کتنه</githubLink> ولولئ یا د <discourseLink>DeepSpeech Discourse</discourseLink> سره یوځای شئ ترڅو د پیل کولو څرنګوالی زده کړئ.
 resource-coqui-info = <coquiLink>Coqui</coquiLink> د خلاصې وینا ټیکنالوژۍ ته وقف شوی. د دوی په پروژو کې د ژورې زده کړې پر بنسټ د STT او TTS انجنونه شامل دي.
+community-playbook = د ټولنې طرېقه کار
 resource-playbook-info = <playbookLink> ګټور لارښود ومومئ</playbookLink> په ټول عام غږ سفر کې، د ځایی کولو څخه د ډیټاسیټ کارولو پورې، او همدارنګه زموږ د ټولنې سره څنګه اړیکه ونیسئ.
 data-other-librispeech-description = LibriSpeech د 16Khz نږدې 1000 ساعتونو انګلیسي ژبې لیک ټولګه ده چې د LibriVox پروژې څخه د لوستل شوي غږیز کتابونو څخه اخیستل شوي.
 data-other-ted-name = د ټیډ - لیم لیک ټولګه
@@ -772,6 +826,7 @@ other-language = بله ژبه
 
 ## Request Language Pages
 
+request-language-heading = د نوې ژبې په اړه پوښتنه وکړئ
 request-language-explanation-1 =
     وګورئ چې ستاسو ژبه په کې لیست شوې ده
     <languagesPageLink>د عام غږ ژبې پاڼه</languagesPageLink>.
@@ -781,8 +836,21 @@ request-language-explanation-2 =
     موږ به هم<strong>زموږ د ټولنې مدیر خبر کړو
     چې تاسو لیوالتیا لرئ</strong>، نو دوی کولی شي تاسو ته هر څه درکړي
     اضافي ملاتړ یا معلومات چې تاسو ورته اړتیا لرئ.
+request-language-form-email =
+    .label = ستاسو بریښنالیک آدرس
+request-language-form-info =
+    .label = د ژبې په اړه معلومات
 request-language-form-info-explanation = د ژبې په اړه څومره چې تاسو کولی شئ معلومات اضافه کړئ. د ‏‎کېدای شي شامل وي:
+request-language-form-info-explanation-list-1 = ستاسو د ژبې نومونه
 request-language-form-info-explanation-list-2 = <isoCodeLink>ISO کوډونه</isoCodeLink> که معلوم وي
+request-language-form-info-explanation-list-3 = د ویب پاڼو لینکونه چې زموږ سره د ژبې په پوهیدو کې مرسته کولی شي
+request-language-google-recaptcha-required = reCAPTCHA ته اړتیا ده که تاسو غواړئ پرمخ لاړشئ
+request-language-google-recaptcha-error = په reCAPTCHA کې یو څه غلط شوي. مهرباني وکړئ بیا هڅه وکړئ.
+# Success page
+request-language-success-heading = مننه! تاسو د نوې ژبې پوښتنې لیږلي دي
+request-language-success-list-1 =
+    تاسو باید په لنډه توګه یو بریښنالیک ترلاسه کړئ چې
+    په عام غږ کې ستاسو د ژبې اضافه کولو ګامونه  تشریح کوي
 request-language-success-list-2 =
     زموږ د ټولنې مدیر به تاسو ته وړاندیز وکړي
     اضافي ملاتړ، او تاسو ته خبر ورکړئ که چیرې شتون ولري
@@ -810,6 +878,8 @@ language-search-input =
 language-speakers = ويناوال
 localized = سېمیزي ژبې ته ژباړل شوی
 sentences = جملې
+language-validation-hours = ساعتونه
+language-validation-progress = د تایید پرمختګ
 
 ## Contribution
 
@@ -863,8 +933,14 @@ listen-again-instruction = ډېر ښه کار! <playIcon></playIcon> کله چې
 listen-3rd-time-instruction = 2 ترسره شوه، دوام ورکړئ! <playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon> وروستی یو!
 listen-empty-state = موږ پدې ژبه کې د تاییدلو لپاره د کلیپونو څخه خلاص شو...
+listen-loading-error =
+    موږ ستاسو د اوریدلو لپاره هیڅ آډیو کلیپونه ترلاسه نشو کولی.
+    مهرباني وکړئ وروسته بیا هڅه وکړئ.
 speak-empty-state = موږ پدې ژبه کې د ثبتولو لپاره د جملو څخه خلاص شو...
 speak-empty-state-cta = د جملو مرسته وکړئ
+speak-loading-error =
+    موږ ستاسو د خبرو کولو لپاره هیڅ جمله نشو ترلاسه کولی.
+    مهرباني وکړئ وروسته بیا هڅه وکړئ.
 record-button-label = خپل غږ ثبت کړئ
 share-title-new = <bold> زموږ سره مرسته وکړئ </bold> چې نور غږونه ومومو
 keep-track-profile = د پېژنیال سره خپل پرمختګ تعقیب کړئ
@@ -1034,13 +1110,33 @@ profile-form-delete = پېژنیال ړنګ کړئ
 
 ## Profile Download
 
+download-q = ایا تاسو اړتیا لرئ  خپل معلومات ډاونلوډ کړئ؟
+download-info = موږ ته ووایاست چې تاسو څه ډاونلوډ کول غواړئ:
+download-profile-title = پروفایل
 download-profile-info = بریښنالیک، کارن نوم او ډیموګرافیک معلومات شامل دي، سمدلاسه شتون لري
+download-profile-size = یو څو بایټس
+download-recordings-title = ریکارډونه
+download-recordings-info = mp3s او اړونده جملې پکې شاملې دي، کیدای شي د چمتو کولو لپاره یو څه وخت ونیسي
+download-recordings-size = معمولا میګابایټ
+download-recordings-unavailable = تاسو نشئ کولی د خپلو ریکارډونو غوښتنه وکړئ پداسې حال کې چې بله غوښتنه لا دمخه روانه وي.
+download-recently-requested = تاسو کولی شئ په هر { $days } ورځو کې د خپلو ریکارډونو نوي اخیستلو غوښتنه وکړئ.
 download-size = جسامت
+download-selected = ټاکل شوې
+download-start = د پروفایل ډیټا ډاونلوډ کړئ
+download-request = د ریکارډونو غوښتنه وکړئ
+download-requests = د تیرو ریکارډونو د ډاونلوډ غوښتنې
+download-requests-info = کله چې تاسو د خپلو ریکارډونو غوښتنه کوئ، موږ یې په یو یا څو زپ فایلونو کې راټولوو. دلته ستاسو پخوانۍ غوښتنې دي:
+download-request-button = ډاونلوډ کړئ
 download-request-title = { $created }
 download-request-description = { $clipCount } غږیز کلیپونه، د ټول آرشیف اندازه { $size }. ختمیږي { $expires }.
 download-request-archive-single = یو زپ فایل لري
 download-request-archive-multiple = په { $archiveCount } کې ویشل شوي زپ فایلونه پکې شامل دي
+download-request-assembling-description = ستاسو فایلونه راټولیږي. مهرباني وکړئ  وروسته بیا وګورئ.
+download-request-refresh-button = تازه کړئ
+download-request-modal-title = ډاونلوډ لینکونه
+download-request-modal-description = دلته ستاسو د زپ فایلونو ډاونلوډ کولو لینکونه دي.
 download-request-link-text = زپ #{ $offset } د { $total } څخه
+download-request-metadata-link = د جملې متن
 download-request-link-single = تاسو کولی شئ مستقیم URLs په خپل غوره ډاونلوډ مدیر کې کاپي او پیسټ کړئ. دوی به په 12 ساعتونو کې پای ته ورسیږي، مګر تاسو کولی شئ دې پاڼې ته بیرته راشئ ترڅو هر وخت نوي جوړ کړئ.
 
 ## Landing
@@ -1089,21 +1185,57 @@ demo-dashboard-card-body = د هر غږیز کلیپ چې ډالۍ شوی، او
 
 ## Validation criteria
 
+contribution-criteria-nav = معیارونه
+contribution-criteria-link = د ونډې په معیارونو پوه شئ
+contribution-criteria-page-title = د ونډې معیارونه
+contribution-criteria-page-description = پوهه شئ چې د غږ کلپونو اوریدلو په وخت کې د څه په لټه کې شئ او ستاسو د غږ ثبت کولو کې هم مرسته وکړئ!
+contribution-for-example = د مثال په ډول
+contribution-misreadings-title = غلط لوستونه
+contribution-misreadings-description = کله چې واورئ، په ډیر دقت سره وګورئ چې هغه څه چې ثبت شوي په ریښتیا هغه څه دي چې لیکل شوي دي؛ رد کړئ که چیرې حتی کوچنۍ غلطي وي. <br />ډیری عام غلطی عبارت دی له:
 contribution-misreadings-description-extended-list-1 = د ثبت کولو په پیل کې <strong>'A'</strong> یا <strong>'The'</strong> ورک شوی.
 contribution-misreadings-description-extended-list-2 = د یوې کلمې په پای کې د یوه <strong>'</strong> ورکیدل.
 contribution-misreadings-description-extended-list-3 = د انقباض لوستل چې په حقیقت کې شتون نلري، لکه "موږ یو" پر ځای "موږ یو"، یا برعکس.
 contribution-misreadings-description-extended-list-4 = په چټکۍ سره د ریکارډ قطع کولو سره د وروستي کلمې پای له لاسه ورکول.
+contribution-misreadings-description-extended-list-5 = د یوې کلمې لوستلو لپاره څو هڅې کول.
+contribution-misreadings-example-1-title = د ټریاسیک لوی ډیناسور.
+contribution-misreadings-example-2-title = د ټریاسیک لوی ډیناسور.
+contribution-misreadings-example-2-explanation = [باید 'ډیناسور' وي]
+contribution-misreadings-example-3-title = د تریاسي لوی ډیناسور.
+contribution-misreadings-example-3-explanation = [د وروستي کلمې له پای ته رسیدو دمخه ریکارډ قطع شو]
+contribution-misreadings-example-4-title = د ټریاسیک لوی ډیناسور. هو.
+contribution-misreadings-example-4-explanation = [د اړین متن څخه ډیر ثبت شوي دي]
+contribution-misreadings-example-5-title = موږ د قهوې اخیستو لپاره بهر ځو.
+contribution-misreadings-example-6-title = موږ د قهوې اخیستو لپاره بهر ځو.
 contribution-misreadings-example-6-explanation = [باید "موږ یو" وي]
+contribution-misreadings-example-7-title = موږ د قهوې اخیستو لپاره بهر ځو.
 contribution-misreadings-example-7-explanation = [په اصلي متن کې 'a' نه دی]
+contribution-misreadings-example-8-title = مچۍ په تېزۍ سره روانه شوه.
+contribution-misreadings-example-8-explanation = [مطابقت نه  لرونکی مواد]
+contribution-varying-pronunciations-title = مختلف تلفظونه
 contribution-varying-pronunciations-description = مخکې له دې چې په ځمکه کې یو کلیپ رد کړئ محتاط اوسئ چې لوستونکي یوه کلمه غلطه کړې وي، فشار یې په غلط ځای کې ځای پرځای کړی وي، یا یې په ښکاره ډول د پوښتنې نښه له پامه غورځولې وي. په ټوله نړۍ کې د تلفظونو پراخه ډولونه شتون لري، چې ځینې یې ممکن ستاسو په محلي ټولنه کې نه وي اوریدلي. مهرباني وکړئ د هغو کسانو لپاره د ستاینې حد چمتو کړئ څوک چې ممکن ستاسو څخه مختلف خبرې وکړي.
 contribution-varying-pronunciations-description-extended = له بلې خوا، که تاسو فکر کوئ چې لوستونکی شاید هیڅکله د کلمې سره مخ نه وي، او په ساده ډول د تلفظ په اړه غلط اټکل کوي، مهرباني وکړئ رد کړئ. که تاسو ډاډه نه یاست، د Skip تڼۍ وکاروئ.
+contribution-varying-pronunciations-example-1-title = په سر یې یو بیرټ اغوستی و.
 contribution-varying-pronunciations-example-1-explanation = ['بیرټ' سم دی که په لومړي حرف (UK) یا دوهم (US) باندې فشار سره]
+contribution-varying-pronunciations-example-2-title = د هغه لاس پورته شو.
+contribution-varying-pronunciations-example-2-explanation = [په انګلیسي کې 'Raised' تل د یو حرف په توګه تلفظ کیږي، دوه نه]
+contribution-background-noise-title = شاته شور
 contribution-background-noise-description = موږ غواړو چې د ماشین زده کړې الګوریتمونه د دې وړتیا ولري چې د مختلف شالید شور اداره کړي، او حتی نسبتا لوړ غږونه ومنل شي په دې شرط چې دوی د متن د بشپړ اوریدلو مخه ونه نیسي. خاموش پس منظر موسیقي سمه ده؛ میوزیک دومره لوړ غږ کوي چې تاسو د هرې کلمې اوریدلو مخه نیسي, دا سمه نه ده.
 contribution-background-noise-description-extended = که ریکارډ مات شي، یا کریکونه ولري، رد کړئ پرته لدې چې ټول متن لاهم واوریدل شي.
 contribution-background-noise-example-1-fixed-title = <strong>[پرنجی]</strong> د لوی ډیناسور د <strong>[ټوخی]</strong>  ټریاسیک.
 contribution-background-noise-example-2-fixed-title = لوی ډینو <strong>[ټوخی]</strong> تریاسیک.
+contribution-background-noise-example-2-explanation = [د متن یوه برخه اوریدل کیدی نشي]
+contribution-background-noise-example-3-fixed-title = <strong>[د درولو غږ]</strong>  لوی ډیناسور د <strong>[د درولو غږ]</strong>ریاسیک.
+contribution-background-voices-title = د شاته غږونه
+contribution-background-voices-description = یو خاموش شالید شور سم دی، مګر موږ اضافي غږونه نه غواړو چې کیدای شي د ماشین الګوریتم لامل شي چې هغه ټکي وپیژني چې په لیکل شوي متن کې ندي. که تاسو د متن څخه د شالید شور کې پوهېدلو وړ کلمې واورئ، کلیپ باید رد شي. معمولا دا واقع کیږي چیرې چې تلویزیون پریښودل شوی وي، یا چیرې چې نږدې خبرې اترې روانې وي.
+contribution-background-voices-description-extended = که ریکارډ مات شي، یا کریکونه ولري، رد کړئ پرته لدې چې ټول متن لاهم واوریدل شي.
 contribution-background-voices-example-1-title = د ټریاسیک لوی ډیناسور. <strong>[په یو غږ لوستل]</strong>
 contribution-background-voices-example-1-explanation = ته راځې؟ <strong>[د بل لخوا ویل کیږي]</strong>
+contribution-volume-title = حجم
+contribution-volume-description = د لوستونکو ترمنځ به په حجم کې طبیعي توپیرونه وي. رد کړئ یوازې هغه وخت چې حجم دومره لوړ وي چې ریکارډ نګ ماتیږي، یا (په عام ډول) که دا دومره ټیټ وي چې تاسو نشئ اوریدلی چې د لیکل شوي متن ته اشاره کولو پرته څه ویل کیږي.
+contribution-reader-effects-title = د لوستونکي اغیزې
+contribution-reader-effects-description = ډیری ریکارډونه د هغه خلکو څخه دي چې په خپل طبیعي غږ کې خبرې کوي. تاسو کولی شئ کله ناکله غیر معیاري ریکارډونه ومنئ چې په "ډراماتیک" غږ کې، ګونګوسې، یا په ښکاره ډول وړاندې کیږي. مهرباني وکړئ د سندرو ریکارډونه رد کړئ او هغه څوک چې د کمپیوټر ترکیب شوي غږ کاروي.
+contribution-just-unsure-title = بس ډاډه نه یاست؟
+contribution-just-unsure-description = که تاسو د هغه څه سره مخ شئ چې دا لارښوونې نه پوښي، مهرباني وکړئ د خپل غوره قضاوت سره سم رایه ورکړئ. که تاسو واقعیا پریکړه نشئ کولی ، د سکیپ تڼۍ وکاروئ او راتلونکي ریکارډ ته لاړشئ.
 see-more = <chevron></chevron>نور وګوری
 see-less = <chevron></chevron>لږ وګورئ
 
@@ -1115,15 +1247,31 @@ see-less = <chevron></chevron>لږ وګورئ
 ## HEADER/FOOTER
 
 sc-header-home = کور پاڼه
+sc-header-how-to = څنګه
+sc-header-add = اضافه کړئ
+sc-header-review = بیاکتنه
+sc-header-rejected = رد شوي جملې
+sc-header-my = زما جملې
+sc-header-statistics = احصایې
+sc-header-profile = پروفایل
+sc-footer-discourse = خبرې اترې
 sc-footer-report-bugs = د بګ راپور ورکړئ
 sc-footer-translate = دا پاڼه وژباړئ
 sc-footer-report-copyright = د کاپي حق مسلو راپور ورکړئ
 sc-footer-privacy = محرمیت
+sc-footer-terms = شرطونه
+sc-footer-cookies = کوکیز
+sc-login-signup-button = ننوتل / لاسلیک کول
 sc-logout-button = وتل
 
 ## HOME
 
+sc-home-title = د عام غږ جملې راټولونکي ته ښه راغلاست
 sc-home-intro = د جملې راټولونکی د <commonVoiceLink>عام غږ</commonVoiceLink> برخه ده. دا مرسته کونکو ته اجازه ورکوي چې د ټولنې لخوا رامینځته شوي جملې راټول کړي او تصدیق کړي. تاسو کولی شئ دا وسیله د وړو څخه تر منځني کچې عامه ډومین کارپورس واردولو او پاکولو لپاره هم وکاروئ چې تاسو موندلي یا راټول کړي دي. ټولې جملې باید د عامه ډومین وي. تصویب شوي جملې هره اونۍ د عام غږ ذخیره ته صادریږي او په هر نوي ځای پرځای کولو کې د عام غږ ویب پاڼه کې خپریږي.
+sc-home-collect-title = جملې راټول کړئ
+sc-home-collect-text = د عامه ډومین جملې په لیکلو یا راټولولو کې زموږ سره مرسته وکړئ.
+sc-home-review-title = جملو ته بیا کتنه وکړئ
+sc-home-review-text = د لارښوونو سره سم د سموالي لپاره د جملو په بیاکتنه کې زموږ سره مرسته وکړئ.
 
 ## GENERAL
 
@@ -1131,6 +1279,10 @@ sc-languages-fetch-error = موږ د شته ژبو په راوړلو کې پات
 
 ## HOW-TO
 
+sc-howto-title = څنګه
+sc-howto-addlang-title = د کار کولو لپاره ژبې اضافه کول
+sc-howto-addlang-text = یوځل چې ننوتل تاسو کولی شئ د پروفایل برخې څخه خپلې ژبې غوره کړئ.
+sc-howto-addsen-title = نوې جملې اضافه کړئ
 sc-howto-addsen-item-1 = ټولې هغه جملې چې تاسو یې وړاندې کوئ باید د <wikipediaLink> عامه ډومین (CC-0) جواز</wikipediaLink> لاندې وي.  د هغو کارونو لپاره چې د عامه جواز لاندې نه وي، موږ د هغو کارونو  شاملولو ملاتړ لپاره <cc0WaiverLink>د ونډې تړون ټیمپلیټ</cc0WaiverLink> جوړ کړی چیرې چې د کاپي حق مالک غواړي چې هغه مواد په عام غږ کې شریک کړي.
 sc-howto-addsen-item-2 = شمېرې. د سرچینې په متن کې باید هیڅ شمیرې نه وي ځکه چې دوی کولی شي ستونزې رامینځته کړي کله چې په لوړ غږ لوستل کیږي. هغه طریقه چې یو شمیر لوستل کیږي په شرایطو پورې اړه لري او ممکن په ډیټاسیټ کې ګډوډي معرفي کړي. د مثال په توګه، "2409" شمیره په سمه توګه د "څلورویشت صفر نهه" او "دوه زره څلور سوه نهه" په توګه لوستل کیدی شي.
 sc-howto-addsen-item-3 = لنډیزونه او مخففات. لنډیزونه او مخففات لکه "USA" یا "ICE" باید د سرچینې متن کې مخنیوی وشي ځکه چې دوی ممکن په داسې طریقه لوستل شي چې د دوی املا سره سمون نه لري. برسیره پردې، کیدای شي د یو واحد لنډیز لپاره ډیری درست لوستل وي. د مثال په توګه، د "ICE" لنډیز "I-C-E" یا د یوې کلمې په توګه تلفظ کیدی شي.
@@ -1144,7 +1296,18 @@ sc-howto-cite-item-1 = تاسو کولی شئ ویب پاڼه شامله کړئ�
 sc-howto-cite-item-2 = تاسو کولی شئ د اکاډمیک حواله کولو سټایل وکاروئ ، د مثال په توګه د هارورډ سټایل "موزیلا (2021) عام غږ. په https://commonvoice.mozilla.org/ کې شتون لري (لاسرسی: 15 سپتمبر 2021)"
 sc-howto-cite-item-3 = د عامه ډومین متن لپاره چې آنلاین شتون نلري، تاسو کولی شئ د اکاډمیک حواله کولو سټایل وکاروئ لکه د هارورډ سټایل "جیس (2021) زما عامه جواز شعرونه"
 sc-howto-review-title = جملو ته بیا کتنه وکړئ
+sc-howto-review-subtitle = ډاډ ترلاسه کړئ چې جمله لاندې معیارونه پوره کوي:
+sc-howto-review-criteria-1 = جمله باید په سمه توګه ولیکل شي.
+sc-howto-review-criteria-2 = جمله باید په ګرامري لحاظ سمه وي.
+sc-howto-review-criteria-3 = جمله باید د ویلو وړ وي.
 sc-howto-review-criteria-4 = که جمله معیارونه پوره کړي، د "منظور" تڼۍ کلیک وکړئ.
+sc-howto-review-criteria-5 = که جمله پورته معیارونه پوره نکړي، د "رد" تڼۍ کلیک وکړئ. که تاسو د جملې په اړه ډاډه نه یاست، تاسو ممکن دا پریږدئ او بلې ته لاړ شئ.
+sc-howto-review-criteria-6 = که تاسو د بیاکتنې لپاره جملې ختمې کړئ، مهرباني وکړئ موږ سره د نورو جملو په راټولولو کې مرسته وکړئ!
+sc-howto-findpd-title = په عامه ډومین کې د موجوده جملو موندل
+sc-howto-findpd-subtitle = په انټرنیټ کې د دوی لټون وکړئ
+sc-howto-findpd-text-2 = په یاد ولرئ چې موږ د دې جملو د خپرولو لپاره اجازې ته اړتیا لرو، نو تل ډاډ ترلاسه کړئ چې متن د <wikipediaLink>عامه ډومین</wikipediaLink> پورې اړه لري. که چیرې کومه څرګنده نښه شتون ونلري، هغه کس ته ورشئ چې متن یې تړاو لري او پوښتنه وکړئ چې ایا دوی غواړي خپل متن په عامه ډومین کې شریک کړي. که دوی وغواړي، د <cc0WaiverLink>د ونډې تړون</cc0WaiverLink> پروسې له لارې د هغوی سره مرسته وکړئ. که دوی نه غواړي په متن کې مرسته وکړي، نو تاسو ته اجازه نشته چې دا متن وکاروئ.
+sc-howto-findpd-tips = دلته د جملو موندلو لپاره  ځینې لارښوونې دي:
+sc-howto-findpd-tips-1 = هغه غوره سرچینې چې تاسو یې په لټه کې یاست هغه دي پوډکاسټونه، لیږدونه، د فلم سکریپټونه او هر هغه څه چې احتمالي ورځني خبرې اترې پکې شامل وي.
 sc-howto-findpd-tips-2 = د حکومت کړنې، کتابونه او مقالې هم غوره دي، مګر ځکه چې متن یو څه ډیر رسمي وي دوی د لومړیتوب څخه کم دي.
 sc-howto-findpd-tips-3 = له بده مرغه موږ تر اوسه د ويکيميډيا مقالې نه لرو. نو له هغه ځایه کاپي پیسټ مه کوئ.
 sc-howto-findpd-subtitle-2 = د سیمه ایزو سازمانونو یا اشخاصو سره ملګرتیا
@@ -1153,9 +1316,11 @@ sc-howto-findpd-partner-2 = متخصص ژبپوهان هم کولی شي مرس�
 
 ## MY SENTENCES
 
+sc-my-title = زما جملې
 sc-my-description = دا پاڼه تاسو ته ستاسو د ټولو سپارل شویو جملو یوه عمومي کتنه درکوي. تاسو کولی شئ د اړتیا په صورت کې دمخه وړاندې شوي جملې هم حذف کړئ ، د هغې څنګ ته د چیک بکس په نښه کولو او د &quot;ټاکل شوې جملې حذف کړئ&quot; کلیک کولو سره په پای کې. مهرباني وکړئ یوازې هغه جملې لرې کړئ که چیرې بالکل اړین وي، د بیلګې په توګه که تاسو د دې حقیقت څخه وروسته ولیدل چې یوه جمله د کاپي حق خوندي دی.
 sc-my-loading = ستاسو جملې لوډیږي…
 sc-my-err-fetching = ستاسو د جملو په راوړلو کې تېروتنه. مهرباني وکړئ بیا هڅه وکړئ.
+sc-my-no-sentences = هیڅ جمله ونه موندل شوه!
 # Variables:
 #   $batchId (String) - A unique ID identifying the submission of sentences - sentences uploaded together all have the same batch ID
 sc-my-submission = سپارل: { $batchId }
@@ -1168,10 +1333,16 @@ sc-my-err-failed-delete = د ټاکلو جملو په ړنګولو کې پاتې
 
 ## REJECTED
 
+sc-rejected-title = رد شوي جملې
+sc-rejected-loading = رد شوې جملې بار کول کیږي...
+sc-rejected-err-fetching = د رد شویو جملو په راوړلو کې تېروتنه. مهرباني وکړئ بیا هڅه وکړئ.
+sc-rejected-none-found = هیڅ رد شوي جملې ونه موندل شوې!
 
 ## STATS
 
+sc-stats-title = احصایې
 sc-stats-updating = تازه کیږي…
+sc-stats-error = موږ نشو کولی احصایې ترلاسه کړو. مهرباني وکړئ وروسته بیا هڅه وکړئ.
 # Variables:
 #   $sentenceCount (Number) - Total number of sentences uploaded through Sentence Collector
 #   $languageCount (Number) - Total number of languages these sentences represent
@@ -1179,9 +1350,33 @@ sc-stats-summary = د عام غږ جملې راټولونکي په { $languageCo
 
 ## ADD
 
+sc-submit-err-select-lang = مهرباني وکړئ یوه ژبه غوره کړئ.
+sc-submit-err-add-sentences = مهرباني وکړئ جملې اضافه کړئ.
+sc-submit-err-add-source = مهرباني وکړئ سرچینه اضافه کړئ.
+sc-submit-err-confirm-pd = مهرباني وکړئ تایید کړئ چې دا جملې عامه ډومین دي.
+sc-submit-prompt =
+    .message = جملې نه دي سپارل شوي، ایا تاسو واقعیا غواړئ چې پریږدئ؟
+sc-submit-title = جملې اضافه کړئ
+sc-submit-select-language =
+    .labelText = ژبه غوره کړئ
+sc-submit-add-sentences = د <wikipediaLink> عامه ډومین</wikipediaLink> جملې اضافه کړئ
+sc-submit-ph-one-per-line =
+    .placeholder = په هره کرښه کې یوه جمله
+sc-submit-from-where = دا <wikipediaLink>عوامي ډومین</wikipediaLink> جملې له کوم ځایه دي؟
+sc-submit-ph-read-how-to =
+    .placeholder = زموږ د څرنګوالی ولولئ که ډاډه نه یاست چې څنګه منسوب کړئ
+sc-submit-confirm = زه تصدیق کوم چې دا جملې <wikipediaLink> عامه ډومین</wikipediaLink> دي او زه د دوی د پورته کولو اجازه لرم.
+sc-submit-button =
+    .submitText = وسپارئ
+sc-submit-filtered = د اړتیاو د ناکامۍ له امله فلټر شوي جملې (مهرباني وکړئ ثابت شوي نسخې د نوي جملو په توګه وسپارئ):
+sc-submit-guidelines = مهرباني وکړئ <howToLink>لارښوونې</howToLink> وګورئ.
 
 ## ADD LANGUAGE
 
+sc-add-lang-could-not-add = ژبه نه شي اضافه کولی
+sc-add-lang-sec-label = یوه ژبه اضافه کړئ چې تاسو یې مرسته کول غواړئ
+sc-add-lang-sec-button = ژبه اضافه کړئ
+sc-add-err-unexpected = غیر متوقع ځواب د سرور څخه راستون شو
 # Variables:
 #   $duplicates (Number) - Number of sentences which got rejected because they are duplicates
 sc-add-result =
@@ -1198,25 +1393,120 @@ sc-add-err-failed =
         [one] 1 جمله ناکامه شوه
        *[other] { $sentences } جملې ناکامې شوې
     }
+sc-add-err-submission = تېروتنه
+sc-add-lang-process-notice = که ستاسو ژبه دلته لیست نه وي، تاسو د <languageProcessLink>د دې پروسې</languageProcessLink> له لارې غوښتنه کولی شئ.
 
 ## ADD SENTENCES CONFIRMATION
 
+sc-confirm-are-you-sure =
+    .message = جملې نه دي سپارل شوي، ایا تاسو واقعیا غواړئ چې پریږدئ؟
+sc-confirm-sentences-title = نوې جملې تایید کړئ
+# Variables:
+#   $countOfSentences (Number) - Number of sentences the user has filled in the submission form
+sc-confirm-sentences-found =
+    { $countOfSentences ->
+        [0] هیڅ جملې ونه موندل شوې.
+        [one] 1 جمله وموندل شوه.
+       *[other] { $countOfSentences } جملې وموندل شوې.
+    }
+# Variables:
+#   $countOfInvalidated (Number) - Number of sentences the user rejected in the review form before submission
+sc-confirm-rejected-by-you = { $countOfInvalidated } ستاسو لخوا رد شوی
+sc-confirm-already-reviewed =
+    { $countOfReviewed ->
+        [0] هیڅ جمله لا دمخه بیاکتنه شوې نه ده.
+        [one] 1 جمله لا دمخه بیاکتنه شوې. ډیر ښه کار!
+       *[other] { $countOfReviewed } جملې لا دمخه کتل شوي دي. ډیر ښه کار!
+    }
+# Variables:
+#   $readyCount (Number) - Number of sentences ready to be uploaded
+sc-confirm-ready =
+    { $readyCount ->
+        [0] د سپارلو لپاره هیڅ جمله چمتو نه ده!
+        [one] 1 جمله د سپارلو لپاره چمتو ده!
+       *[other] { $readyCount } جملې د سپارلو لپاره چمتو دي!
+    }
+# Variables:
+#   $countOfUnreviewed (Number) - Number of sentences unreviewed before the upload
+sc-confirm-unreviewed = { $countOfUnreviewed } جملې نه دي کتل شوي. که تاسو وغواړئ، تاسو کولی شئ د سپارلو دمخه خپل جملې هم وڅیړئ.
+sc-confirm-button-text = تایید کړئ
 sc-confirm-uploading = جملې پورته کیږي. دا کولی شي څو دقیقې وخت ونیسي د جملو د شمیر پورې اړه لري. مهرباني وکړئ دا ویب پاڼه مه بندوئ.
 
 ## LANGUAGE INFO
 
+sc-lang-info-title-total = ټولټال
+sc-lang-info-title-personal = شخصي
+# Variables:
+#   $totalSentences (Number) - Number of sentences uploaded in total for this language
+sc-lang-info-total =
+    { $totalSentences ->
+        [0] { $totalSentences } ټول جملې.
+        [one] 1 ټوله جمله.
+       *[other] { $totalSentences } ټول جملې.
+    }
+# Variables:
+#   $totalInReview (Number) - Number of sentences currently in the review state for this language
+sc-lang-info-in-review =
+    { $totalInReview ->
+        [0] په بیاکتنه کې هیڅ جملې نشته.
+        [one] 1 جمله په بیاکتنه کې.
+       *[other] { $totalInReview } جملې په بیاکتنه کې.
+    }
+# Variables:
+#   $unreviewedSentencesByYou (Number) - Number of sentences the user can still review
+sc-lang-info-left-for-you =
+    { $unreviewedSentencesByYou ->
+        [0] ستاسو د بیاکتنې لپاره هیڅ جمله پاتې نه ده.
+        [one] 1 جمله ستاسو د بیاکتنې لپاره پاتې ده.
+       *[other] { $unreviewedSentencesByYou } جملې ستاسو د بیاکتنې لپاره پاتې دي.
+    }
 sc-lang-info-review-now = <reviewLink>اوس بیا کتنه وکړئ!</reviewLink>
 sc-lang-info-add-more = <addLink>اوس نورې جملې اضافه کړئ!</addLink>
+# Variables:
+#   $validatedSentences (Number) - Number of sentences which have been approved for this language
+sc-lang-info-validated =
+    { $validatedSentences ->
+        [0] هیڅ تایید شوي جملې نشته.
+        [one] 1 تایید شوې جمله.
+       *[other] { $validatedSentences } تایید شوي جملې.
+    }
+# Variables:
+#   $rejectedSentences (Number) - Number of sentences which have been rejected for this language
+sc-lang-info-rejected =
+    { $rejectedSentences ->
+        [0] هیڅ جملې رد شوې نه دي.
+        [one] 1 رد شوی جمله.
+       *[other] { $rejectedSentences } رد شوې جملې.
+    }
 
 ## LOGIN
 
+sc-login-err-failed = ننوت ناکام شو
+sc-login-err-try-again = مهرباني وکړئ بیا هڅه وکړئ.
 
 ## PROFILE
 
+# Variables:
+#   $username (String) - eMail address of the logged in user
+sc-profile-title = پروفایل: { $username }
+sc-personal-err-lang-not-found = ژبه نشي لرې کولی: ژبه ونه موندل شوه
 sc-personal-err-remove = ژبه نشي لرې کولی
+sc-personal-your-languages = ستاسو ژبې:
+sc-personal-remove-button = لرې کړئ
+# Variables:
+#   $sentences (Number) - Number of sentences that were added by the currently logged in user for this language
+sc-personal-added-by-you = { $sentences } ستاسو لخوا اضافه شوي
+sc-personal-not-added = تاسو لا تر اوسه کومه ژبه نه ده اضافه کړې.
 
 ## REVIEW CRITERIA
 
+sc-criteria-modal = ⓘ د بیاکتنې معیار
+sc-criteria-title = د بیاکتنې معیار
+sc-criteria-make-sure = ډاډ ترلاسه کړئ چې جمله لاندې معیارونه پوره کوي:
+sc-criteria-item-1 = جمله باید په سمه توګه ولیکل شي.
+sc-criteria-item-2 = جمله باید په ګرامري لحاظ سمه وي.
+sc-criteria-item-3 = جمله باید د ویلو وړ وي.
+sc-criteria-item-4 = که جمله معیارونه پوره کړي، د "منظور" تڼۍ کلیک وکړئ.
 sc-criteria-item-5-2 = که جمله پورتني معیارونه پوره نه کړي، په &quot;رد&quot; کلیک وکړئ. تڼۍ په چپ اړخ کې. که تاسو د جملې په اړه ډاډه نه یاست، تاسو کولی شئ هغه پریږدئ او بلې ته لاړ شئ.
 sc-criteria-item-6 = که تاسو د بیاکتنې لپاره جملې ختمې کړئ، مهرباني وکړئ موږ سره د نورو جملو په راټولولو کې مرسته وکړئ!
 
@@ -1229,14 +1519,36 @@ sc-review-select-language = مهرباني وکړئ د جملو بیاکتنې �
 sc-review-no-sentences = د بیاکتنې لپاره هیڅ جملې نشته. <addLink>اوس نورې جملې اضافه کړئ!</addLink>
 sc-review-form-prompt =
     .message = بیاکتل شوي جملې ندي سپارل شوي، ایا تاسو ډاډه یاست؟
+sc-review-form-usage = د جملې تصویب کولو لپاره ښي خوا ته سوايپ کړئ. د ردولو لپاره یې کیڼ لور ته سوايپ کړئ. د پریښودو لپاره پورته سوايپ کړئ. <strong>خپل نظر وړاندې کول مه هیروئ!</strong>
+# Variables:
+#   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
+sc-review-form-source = سرچینه: { $source }
 sc-review-form-button-reject = رد کړه
 sc-review-form-button-skip = پرېږدئ
+sc-review-form-button-approve = تصویب کړه
+# Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
+sc-review-form-button-approve-shortcut = هو
+# Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
+sc-review-form-button-reject-shortcut = نه
+# Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
+sc-review-form-button-skip-shortcut = پریږده
+sc-review-form-keyboard-usage-custom = تاسو کولی شئ د کیبورډ شارټ کټ هم وکاروئ: { sc-review-form-button-approve-shortcut } د تصویب لپاره، { sc-review-form-button-reject-shortcut } د رد کولو لپاره، { sc-review-form-button-skip-shortcut } د پریښودو لپاره
 sc-review-form-button-submit =
     .submitText = بیاکتنه پای ته ورسوي
+# Variables:
+#   $sentences (Number) - Number of sentences the user has reviewed in this session
+sc-review-form-reviewed-message =
+    { $sentences ->
+        [0] هیڅ جمله بیاکتنه نه ده شوې.
+        [one] 1 جمله بیاکتنه شوې. له تاسو مننه!
+       *[other] { $sentences } جملې بیاکتنه شوې. له تاسو مننه!
+    }
+sc-review-form-review-failure = بیاکتنه خوندي نه شوه. مهرباني وکړئ وروسته بیا هڅه وکړئ.
 sc-review-link = بیاکتنه
 
 ## SETTINGS
 
+sc-settings-title = امستنې
 sc-settings-ui-language = د انٹرفیس ژبه
 sc-settings-reset-skipped = پریښودل شوي جملې بیا تنظیم کړئ
 sc-settings-skipped-decription = تاسو مخکې د بیاکتنې پر مهال جملې پریښودې. د پریښودو جملو بیا تنظیم کول به ټول پریښودل شوي جملې بیا وښیې. دا عمل د ټولو ژبو لپاره یو شان دی.
@@ -1255,3 +1567,36 @@ localization-select =
 # PARTNERSHIPS PAGE
 partnerships-header = شراکتونه
 partnerships-header-text = د عام غږ رامینځته کولو لپاره ډیر څه اړتیا لري! موږ دا یوازې نه کوو. غواړئ له موږ سره ملګرتیا وکړئ؟ موږ خوښ یو چې له تاسو څخه واورو.
+partnerships-get-in-touch = اړیکه ونیسئ
+partnerships-become-a-partner = د عام غږ همکار اوسئ
+partnerships-community-header = ټولنه، نوښتګر او مدني ټولنه
+partnerships-community-description = ټولنه د عام غږ زړه دی - دوی د ټولې نړۍ څخه راځي، او د ژبې فعالین، ساینس پوهان او هنرمندان دي. تاسو کولی شئ زموږ <about>په هکله</about> پاڼې او زموږ په <community>د ټولنې د کار طریقه</community> کې د ګډون کولو څرنګوالي په اړه نور معلومات زده کړئ. که تاسو ژور سازماني ملګرتیا ته لیوالتیا لرئ، <emailFragment> اړیکه ونیسئ.</emailFragment>
+partnerships-foundations-header = بنسټونه
+partnerships-foundations-description = موږ د بنسټونو، مدني ټولنې او د ټولنې شریکانو سره کار کوو ترڅو انټرنیټ یو صحي ځای جوړ کړو، په ختیځ افریقا کې د ځانګړي تمرکز سره. زموږ د <programmaticWork>پروګراماتي کار</programmaticWork> په اړه نور معلومات ترلاسه کړئ
+partnerships-governments-header = حکومتونه
+partnerships-governments-description = موږ د ټیکنالوژۍ، نوښت او ژبې حقونو کې د عامه سکتور ښکیلتیا ملاتړ کولو ته لیواله یو. که تاسو پلان لرئ چې یوه لویه پروژه یا کمپاین پرمخ وړئ، مهرباني وکړئ <emailFragment> اړیکه ونیسئ.</emailFragment>
+partnerships-academia-header = پوهنتونونه، اکادمیکان او څیړونکي
+partnerships-academia-description = خلاص نوښت د هغه څه په زړه کې دی چې موږ یې کوو. د څیړنې همکارۍ، د معلوماتو راټولولو یا مرکو لپاره، <emailFragment>رسیږئ.</emailFragment>
+partnerships-small-business-header = کوچني کاروبارونه، په شمول د تخنیک او AI پيلونه
+partnerships-small-business-description = موږ تل د ډیټا مصرف کونکو څخه د دوی اړتیاو او شرایطو په اړه اوریدلو په لټه کې یو - د ډیټا راټولولو پلیټ فارم کې همکارۍ څخه د ډیټا روغتیا بصیرت چمتو کولو پورې ، موږ غواړو <emailFragment>له تاسو څخه واورو.</emailFragment>
+partnerships-corporates-header = لوی پیمانه کارپوریشنونه او پلیټ فارم شرکتونه
+partnerships-corporates-description = که تاسو د ډیټاسیټ په اړه د نورو خبرو کولو په لټه کې یاست، غواړئ په پلان شوي پلیټ فارم پراخولو کې شریکه پانګه اچونه وکړئ یا د همکارۍ فرصتونو په لټه کې شئ، <emailFragment>موږ ته یوه کرښه پریږدئ.</emailFragment>
+partnerships-our-partners = زموږ همکاران
+# FIRST POST SUBMISSION CTA
+first-cta-header-text = ستاسو د غږ کلپونو د مرستې لپاره مننه!
+first-cta-subtitle-text = ایا تاسو غواړئ د خبرو کولو څرنګوالي په اړه یو څه معلومات شریک کړئ؟
+why-donate = تاسو ولې پوښتنه کوئ؟
+why-donate-explanation-1 = دا معلومات د چمتو کولو لپاره اختیاري دي - تاسو باید یوازې دا اضافه کړئ که تاسو آرام احساس کوئ. کله چې موږ ډیټاسیټ خپروو، موږ ټول شخصي معلومات تخلص کوو، او ډاډ ترلاسه کوو چې ستاسو نوم او بریښنالیک په څیر معلومات د ډیموګرافیک معلوماتو سره تړاو نلري لکه عمر یا جنسیت.
+why-donate-explanation-2 = د ټیکنالوژۍ لپاره چې د هرچا لپاره ښه کار وکړي، هغه معلومات چې پراختیا کونکو سره د ټیکنالوژۍ په جوړولو کې مرسته کوي اړتیا لري د خلکو متنوع لړۍ منعکس کړي. د مثال په توګه، که موږ کوم سپیکر د ځانګړي تلفظ سره شامل نه کړو، نو ټیکنالوژي به د هغه تلفظ لرونکي خلکو لپاره ښه کار ونکړي. <learnMore>په دې اړه نور معلومات زده کړئ چې ولې میټاډاټا اهمیت لري.</learnMore>
+add-information-button = معلومات اضافه کړئ
+continue-speaking-button = نه مننه، خبرو ته دوام ورکړئ
+create-profile-text = غواړئ خپل معلومات خوندي کړئ؟ <createProfile>یو پروفایل جوړ کړئ</createProfile>
+thanks-for-voice-toast = ستاسو د غږ معلوماتو لپاره مننه
+thanks-for-voice-toast-error = ستاسو د غږ معلوماتو په سپارلو کې یوه تېروتنه رامنځته شوه
+# SECOND POST SUBMISSION CTA
+second-cta-header-text = ستاسو د غږ کلپونو د مرستې لپاره مننه!
+second-cta-subtitle-text = د پروفایل سره، تاسو کولی شئ خپل فعالیت تعقیب کړئ او د غږ ډیټا مرسته کونکو ټولنې سره اړیکه ونیسئ.
+already-have-an-account = ایا دمخه حساب لرئ؟ <login>ننوتل</login>
+create-profile-button = یو پروفایل جوړ کړئ
+# IMAGE TAGS
+img-alt-success-checkmark = د بریالیتوب نښه

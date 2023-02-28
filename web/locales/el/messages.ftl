@@ -412,6 +412,7 @@ accept-privacy = Συμφωνώ με την επεξεργασία αυτών τ
 accept-privacy-title = Πολιτική απορρήτου
 accept-privacy-and-terms = Συμφωνώ με τους <termsLink>Όρους</termsLink> και τη <privacyLink>Σημείωση απορρήτου</privacyLink> του Common Voice
 login-identity = Ταυτότητα σύνδεσης
+login = Σύνδεση
 login-signup = Σύνδεση/Εγγραφή
 edit = Επεξεργασία
 email-subscriptions = Συνδρομές email
@@ -935,6 +936,9 @@ target-segment-generic-card = Συνεισφέρετε σε τμήμα στόχ�
 target-segment-first-banner = Βοηθήστε στη δημιουργία του πρώτου τμήματος του στόχου του Common Voice στα { $locale }
 target-segment-add-voice = Προσθέστε τη φωνή σας
 target-segment-learn-more = Μάθετε περισσότερα
+
+## Contribution Nav Items
+
 
 ## Reporting
 
@@ -1558,3 +1562,5 @@ create-profile-text = Θέλετε να αποθηκεύσετε τις πληρ
 second-cta-header-text = Σας ευχαριστούμε που συνεισφέρετε τη φωνή σας!
 already-have-an-account = Έχετε ήδη λογαριασμό; <login>Σύνδεση</login>
 create-profile-button = Δημιουργία προφίλ
+# IMAGE TAGS
+img-alt-success-checkmark = σημάδι επιτυχίας

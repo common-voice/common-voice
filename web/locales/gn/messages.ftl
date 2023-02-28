@@ -421,6 +421,7 @@ accept-privacy = Oĩ porã, amoneĩ ojeporu kuaapyrã chemba’éva oñemyesakã
 accept-privacy-title = Temiñemi Purureko
 accept-privacy-and-terms = Amoneĩ umi <termsLink>Ñe’ẽkuaa</termsLink> ha pe Common Voice <privacyLink>Ñemurã ñemigua</privacyLink>
 login-identity = Tembiapo ñepyrũ kuaaukaha
+login = Tembiapo Ñepyrũ
 login-signup = Emoñeprũ tembiapo / Eñemboheraguapy
 edit = Mbosako’i
 email-subscriptions = Ñe’ẽveve Ñemboheraguapy
@@ -937,6 +938,10 @@ target-segment-first-banner = Eipytyvõmive emoheñóivo Common Voice ñe’ẽp
 target-segment-add-voice = Eme’ẽ Nde Ahy’o
 target-segment-learn-more = Kuaave
 
+## Contribution Nav Items
+
+contribute-voice-collection-nav-header = Ayvu Ñembyaty
+
 ## Reporting
 
 report = Momarandu
@@ -1149,7 +1154,7 @@ demo-account = Mba’ete
 ## Demo Account
 
 demo-account-card-header = Natekotevẽi ne mba’ete reporopytyvõ hag̃ua, iporãro jepe.
-demo-account-card-body = Ore romoĩ kuaapyrã opavave pópe. Eiporumi joajuha oĩva iguýpe eiporu ñepyrũ hag̃ua Common Voice peteĩ cuenta rupive.
+demo-account-card-body = Ore romoĩ kuaapyrã opavave pópe. Eiporumi joajuha oĩva iguýpe eiporu ñepyrũ hag̃ua Common Voice peteĩ mba’ete rupive.
 demo-account-enter-email =
     .label = Ehai ñanduti veve emondo hag̃ua jehaipyre juajuha
 demo-account-sign-up = Emondo mboheraguapy juajuha
@@ -1554,6 +1559,7 @@ partnerships-governments-description = Oremoakãraku roykekóvo tetã remimoĩmb
 partnerships-academia-header = Mbo’ehaovusu, Mbo’ekuaahára ha Taperekahára
 partnerships-academia-description = Mba’epyahu jejapo oĩ ore ñe’ãitépe. Ore pytyvõséva tembikuaareka, mba’ekuaarã ñembyaty térã ñomongetarã, <emailFragment>eñe’ẽ orendive.</emailFragment>
 partnerships-small-business-header = Mba’apohaguasu michĩvéva, oĩhápe mba’apohaguasu pyahu tembipurupyahugua ha IA
+partnerships-small-business-description = Tapiaite rohenduse mba’ekuaarã puruhárape hemikotevẽ ha ijere rehegua: pyendavusúpe mba’ekuaarã ñembyatyha guive marandu ñeme’ẽ mba’ekuaarã rekotee peve, roikotevẽ <emailFragment>ñehendu ndehegui.</emailFragment>
 partnerships-corporates-header = Mba’apohaguasu tuicháva ha pyendavusugua
 partnerships-corporates-description = Eñe’ẽsevéramo mba’ekuaarã aty rehegua, emyasãisépa pyendavusúpe iporã hag̃uáicha térã ehekáta pa’ũ ñepytyvõrã, <emailFragment>ehai oréve.</emailFragment>
 partnerships-our-partners = Ore irũnguéra
