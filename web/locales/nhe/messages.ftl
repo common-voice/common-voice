@@ -2,11 +2,15 @@
 
 yes-receive-emails = kenaj, xinechtlatlanilij nopa emails, ni neki nimatiz ipan Common Voice Project.
 stayintouch = Ipan Mozilla titekitinj ipan se comunidad tlen tlatoli tecnologia.Tinekiskian tikamatize yankhuik tlatoli, yankhuik tekitl huan ti matiz kenikatza ti tekitin huan mo datos.
+privacy-info = Tlatitejmaka tipiaze cuidado ipan mo informacion.Shi tlachia ipan <privacyLink>Privacy Notice</privacyLink>.
 return-to-cv = Ti mokuapase Common Voice
 email-input =
     .label = email
+submit-form-action = enviar
+loading = Cargando...
 email-opt-in-info = Ninekiskia xinechtitlanilij emails ipan tlen tinekin tichihuase, then tichiheia ,tlen ticonchiheia huan huan yankhuik tlatoli then Common Voice.
 email-opt-in-info-title = Xitechpalehui ipan Common Voice timitz tlalise ipan mailing list.
+email-opt-in-info-sub-with-challenge = Ninekiskia xinechtitlanilij emails ipan tlen tinekin tichihuase, then tichiheia ,tlen ticonchiheia huan huan yankhuik tlatoli then Common Voice.
 error-something-went-wrong = techtlapojpoluiliya, tipijian se problema
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
@@ -95,6 +99,11 @@ kn = Kannada
 knn = Konkani (Devanagari)
 ko = Coreano
 kpv = Komi-Zyrian
+kw = Cornico
+ky = kirguís
+lb = luxemburgués
+lg = Luganda
+lo = Laosiano
 mn = Mongol
 ne-NP = Nepali
 or = Odia
