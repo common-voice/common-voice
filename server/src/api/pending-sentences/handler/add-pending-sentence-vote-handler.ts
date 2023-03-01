@@ -1,10 +1,9 @@
 import { Request, Response } from 'express'
 import { pipe } from 'fp-ts/lib/function'
-import { taskEither as TE } from 'fp-ts'
+import { task as T, taskEither as TE } from 'fp-ts'
 import { StatusCodes } from 'http-status-codes'
 import { addPendingSentenceVoteCommandHandler } from '../../../application/pending-sentences/use-case/command-handler/add-pending-sentence-vote-command-handler'
 import { AddPendingSentenceVoteCommand } from '../../../application/pending-sentences/use-case/command-handler/command/add-pending-sentence-vote-command'
-import { ApplicationError } from '../../../application/types/error'
 import { createPresentableError } from '../../../application/helper/error-helper'
 
 export default async (req: Request, res: Response) => {
@@ -15,12 +14,12 @@ export default async (req: Request, res: Response) => {
   }
 
   return pipe(
-    addPendingSentenceVoteCommandHandler(command),
-    TE.mapLeft((err: ApplicationError) =>
-      res
-        .status(StatusCodes.INTERNAL_SERVER_ERROR)
-        .json(createPresentableError(err))
-    ),
-    TE.map(() => res.sendStatus(StatusCodes.OK))
+    command,
+    addPendingSentenceVoteCommandHandler,
+    TE.mapLeft(createPresentableError),
+    TE.fold(
+      err => T.of(res.status(StatusCodes.INTERNAL_SERVER_ERROR).json(err)),
+      () => T.of(res.sendStatus(StatusCodes.OK))
+    )
   )()
 }
