@@ -199,6 +199,10 @@ yo = Yoruba
 yue = Cantonés
 zgh = Tamazight
 zh-CN = Chino (China)
+zh-HK = Chino (Hong Kong)
+zh-TW = Chino(Taiwan)
+zu = Zulú
+zza = Zazo
 
 # [/]
 
