@@ -82,7 +82,9 @@ hy-AM = Armenio
 hyw = armenio occidental
 ia = interlingua
 id = Indonesio
+ie = Interlingüismo
 ig = Igbo
+is = Islandés
 it = Italiano
 izh = izhoriano
 ja = Japonés
@@ -209,6 +211,8 @@ zza = Zazo
 
 ## Layout
 
+speak = Camatise
+speak-now = Camatise nama
 datasets = Datasets
 about = Acerca de
 partner = Partner
@@ -246,6 +250,7 @@ shortcut-submit = Timo cuapase
 
 ## ProjectStatus
 
+status-contribute = xitechpaleui  wamo camatilistli
 english = Ingles
 
 ## ProfileForm
@@ -264,6 +269,7 @@ profile-close = tsakua
 
 ## FAQ
 
+faq-using-cv = Usando Common Voice
 
 ## ABOUT US
 
@@ -307,6 +313,8 @@ profile-close = tsakua
 
 ## Data
 
+data-download-yes = Quena
+data-download-deny = axcana
 
 ## Datasets Page
 
