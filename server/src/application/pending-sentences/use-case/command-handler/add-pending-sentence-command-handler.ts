@@ -24,8 +24,7 @@ export default (
     validateSentence(command.localeName),
     E.mapLeft(createPendingSentenceValidationError),
     E.map(createSentenceSubmissionFromCommand(command)),
-    E.map(insertSentenceIntoDb),
     TE.fromEither,
-    TE.flatten
+    TE.chain(insertSentenceIntoDb)
   )
 }
