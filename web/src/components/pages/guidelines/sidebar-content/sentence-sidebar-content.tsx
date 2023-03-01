@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { sentenceGuidelineSections } from '../constants';
-import { handleToggleVisibleSection } from './voice-sidebar-content';
+import { handleToggleVisibleSection } from '../utils';
 
 const SentenceSidebarContent = () => {
   const [visibleSections, setVisibleSections] = useState(

@@ -3,7 +3,7 @@ import classNames from 'classnames';
 import React from 'react';
 import { ChevronDown } from '../../../../ui/icons';
 import { TextButton } from '../../../../ui/ui';
-import { SidebarContentProps } from '../voice-sidebar-content';
+import { SidebarContentProps } from '../../types';
 import ExampleContentSentence from './example-content-sentence';
 
 export const ReviewingSentences: React.FC<SidebarContentProps> = ({
