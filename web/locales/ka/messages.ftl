@@ -1630,7 +1630,7 @@ partnerships-academia-description = სიახლეების ღიად 
 partnerships-small-business-header = მცირე წამოწყებები ტექნოლოგიისა და ხელოვნური ინტელექტის დარგში
 partnerships-small-business-description = მუდამ ველით გამოხმაურებას მომხმარებლებისგან სხვადასხვა საჭიროებისა და გარემოების თაობაზე – მონაცემთა შეგროვებისას თანამშრომლობისა და შესაგროვებელი მასალების დახვეწის შესახებ მოსაზრებებს სიამოვნებით <emailFragment>მოვისმენდით თქვენგან.</emailFragment>
 partnerships-corporates-header = მსხვილი დაწესებულებები და საშუამავლო პლატფორმები
-partnerships-corporates-description = თუ გსურთ მეტი ისაუბროთ მონაცემთა კრებულის შესახებ ან წვლილი შეიტანოთ პლატფორმის დაგეგმილ გაფართოებაში ანდა ეძებთ თანამშრომლობის სხვა საშუალებებს, <emailFragment>მოგვწერეთ.</emailFragment>
+partnerships-corporates-description = თუ გსურთ მეტი ისაუბროთ მონაცემთა კრებულის შესახებ ან წვლილი შეიტანოთ პლატფორმის დაგეგმილ გაფართოებაში, ანდა ეძებთ თანამშრომლობის სხვა საშუალებებს, <emailFragment>მოგვწერეთ.</emailFragment>
 partnerships-our-partners = ჩვენი თანამონაწილეები
 # FIRST POST SUBMISSION CTA
 first-cta-header-text = გმადლობთ თქვენი ხმოვანი ჩანაწერების შემოწირვისთვის!
