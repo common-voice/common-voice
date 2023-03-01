@@ -1,11 +1,25 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { sentenceGuidelineSections } from '../constants';
+import { handleToggleVisibleSection } from './voice-sidebar-content';
 
 const SentenceSidebarContent = () => {
+  const [visibleSections, setVisibleSections] = useState(
+    sentenceGuidelineSections
+  );
+
+  const onToggleVisibleSection = (id: string) => {
+    handleToggleVisibleSection({ id, visibleSections, setVisibleSections });
+  };
+
   return (
     <>
-      {sentenceGuidelineSections.map(section => (
-        <section.component key={section.id} />
+      {visibleSections.map(section => (
+        <section.component
+          id={section.id}
+          key={section.id}
+          contentVisible={section.visible}
+          toggleVisibleSection={() => onToggleVisibleSection(section.id)}
+        />
       ))}
     </>
   );
