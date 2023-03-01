@@ -4,7 +4,7 @@ import {
   AddPendingSentenceRequest,
   AddPendingSentenceVoteRequest,
   GetPendingSentencesForReviewRequest,
-} from './validation/add-pending-sentence-request'
+} from './validation/pending-sentences-requests'
 import validate, { validateStrict } from '../../lib/validation'
 import getPendingSentenceHandler from './handler/get-pending-sentence-handler'
 import addPendingSentenceVoteHandler from './handler/add-pending-sentence-vote-handler'
