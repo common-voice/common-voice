@@ -40,7 +40,7 @@ const insertSentence =
         }
 
         return createPendingSentencesRepositoryError(
-          'Error inserting sc-sentence',
+          `Error inserting pending sentence '${sentenceSubmission.sentence}'`,
           err
         )
       }
