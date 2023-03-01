@@ -5,11 +5,11 @@ import { pipe } from 'fp-ts/function'
 import AddPendingSentenceCommandHandler from '../../../application/pending-sentences/use-case/command-handler/add-pending-sentence-command-handler'
 import { AddPendingSentenceCommand } from '../../../application/pending-sentences/use-case/command-handler/command/add-pending-sentence-command'
 import {
-  ApplicationError,
   PendingSentencesRepositoryErrorKind,
   PendingSentenceValidationKind,
 } from '../../../application/types/error'
 import { createPresentableError } from '../../../application/helper/error-helper'
+import { StatusCodes } from 'http-status-codes'
 
 export default async (req: Request, res: Response) => {
   const { sentence, localeId, localeName, source } = req.body
@@ -22,20 +22,20 @@ export default async (req: Request, res: Response) => {
     source: source,
   }
 
-  pipe(
+  return pipe(
     AddPendingSentenceCommandHandler(command),
+    TE.mapLeft(createPresentableError),
     TE.fold(
-      (err: ApplicationError) => {
-        const presentableError = createPresentableError(err)
+      err => {
         switch (err.kind) {
           case PendingSentencesRepositoryErrorKind: {
-            return T.of(res.status(500).json(presentableError))
+            return T.of(res.status(StatusCodes.INTERNAL_SERVER_ERROR).json(err))
           }
           case PendingSentenceValidationKind:
-            return T.of(res.status(400).json(presentableError))
+            return T.of(res.status(StatusCodes.BAD_REQUEST).json(err))
         }
       },
-      () => T.of(res.status(200).json({ status: 'success' }))
+      () => T.of(res.sendStatus(StatusCodes.OK))
     )
   )()
 }
