@@ -447,7 +447,6 @@ how-does-it-work-text = Estamos a auspiciar un conxunto de datos de voz de fonte
 
 ## How does it work section
 
-about-sentence-collection-subtitle = Recóllense frases para que a xente lea en voz alta.
 about-speak = Falar
 about-speak-text = Os colaboradores gravan fragmentos de voz lendo dun banco de frases doadas.
 about-listen-queue = Escoitar cola
