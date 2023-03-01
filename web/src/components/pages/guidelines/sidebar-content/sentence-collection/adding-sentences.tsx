@@ -4,7 +4,7 @@ import React from 'react';
 
 import { ChevronDown } from '../../../../ui/icons';
 import { TextButton } from '../../../../ui/ui';
-import { SidebarContentProps } from '../voice-sidebar-content';
+import { SidebarContentProps } from '../../types';
 
 export const AddingSentences: React.FC<SidebarContentProps> = ({
   id,
