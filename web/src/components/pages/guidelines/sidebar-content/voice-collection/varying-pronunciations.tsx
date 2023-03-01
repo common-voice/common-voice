@@ -2,6 +2,7 @@ import { Localized } from '@fluent/react';
 import classNames from 'classnames';
 import React from 'react';
 import { ChevronDown } from '../../../../ui/icons';
+import { TextButton } from '../../../../ui/ui';
 import { SidebarContentProps } from '../voice-sidebar-content';
 
 import { ExampleContent, ExampleTip } from './example-content-voice';
@@ -22,20 +23,19 @@ const exampleTips: ExampleTip[] = [
 export const VaryingPronounciation: React.FC<SidebarContentProps> = ({
   id,
   contentVisible,
-  toggleSectionVisible,
+  toggleVisibleSection,
 }) => (
   <div className="sidebar-content" id={id}>
     <span className="line" />
-    <div
-      className="sidebar-content-header"
-      onClick={() => toggleSectionVisible(id)}
-      onKeyDown={() => toggleSectionVisible(id)}
-      role="button"
-      tabIndex={0}>
+    <div className="sidebar-content-header">
       <Localized id="varying-pronunciations">
-        <h3 className="guidelines-content-heading" />
+        <TextButton
+          onClick={toggleVisibleSection}
+          className="guidelines-content-heading"
+        />
       </Localized>
       <ChevronDown
+        onClick={toggleVisibleSection}
         className={classNames('chevron', { 'rotate-180': contentVisible })}
       />
     </div>
