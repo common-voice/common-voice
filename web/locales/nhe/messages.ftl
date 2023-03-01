@@ -209,6 +209,15 @@ zza = Zazo
 
 ## Layout
 
+datasets = Datasets
+about = Acerca de
+partner = Partner
+profile = Perfil
+help = Tlapaleuistli
+contact = Contacto
+privacy = Privacidad
+terms = Terminos
+cookies = Cookies
 share-title = Xi techpalehui ti temoze sekinoj tech palehuiz hua tlatoli.
 share-text = Xitechpalehui timachtize tepozme kenikatza ce tlakatl o cihuatl kamati, xitechmalehui ka mo tlatolij { $link }
 
