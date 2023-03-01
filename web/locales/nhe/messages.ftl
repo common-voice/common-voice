@@ -214,6 +214,7 @@ zza = Zazo
 speak = Camatise
 speak-now = Camatise nama
 datasets = Datasets
+languages = Idiomas
 about = Acerca de
 partner = Partner
 profile = Perfil
@@ -222,6 +223,7 @@ contact = Contacto
 privacy = Privacidad
 terms = Terminos
 cookies = Cookies
+faq = Preguntas wan respuestas
 share-title = Xi techpalehui ti temoze sekinoj tech palehuiz hua tlatoli.
 share-text = Xitechpalehui timachtize tepozme kenikatza ce tlakatl o cihuatl kamati, xitechmalehui ka mo tlatolij { $link }
 
