@@ -1,34 +1,6 @@
 import React, { useState } from 'react';
 import { voiceGuidelinesSections } from '../constants';
-
-export type handleToggleVisibleSectionParams = {
-  visibleSections: typeof voiceGuidelinesSections;
-  setVisibleSections: React.Dispatch<
-    React.SetStateAction<typeof voiceGuidelinesSections>
-  >;
-  id: string;
-};
-
-export type SidebarContentProps = {
-  id: string;
-  contentVisible: boolean;
-  toggleVisibleSection: (id: string) => void;
-};
-
-export const handleToggleVisibleSection = ({
-  visibleSections,
-  setVisibleSections,
-  id,
-}: handleToggleVisibleSectionParams) => {
-  const newSections = visibleSections.map(section => {
-    if (section.id === id) {
-      return { ...section, visible: !section.visible };
-    }
-    return section;
-  });
-
-  setVisibleSections(newSections);
-};
+import { handleToggleVisibleSection } from '../utils';
 
 const VoiceSidebarContent: React.FC = () => {
   const [visibleSections, setVisibleSections] = useState(
