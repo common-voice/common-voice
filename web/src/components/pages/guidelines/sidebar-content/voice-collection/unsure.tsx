@@ -3,21 +3,25 @@ import classNames from 'classnames';
 import React from 'react';
 
 import { ChevronDown } from '../../../../ui/icons';
+import { TextButton } from '../../../../ui/ui';
 import { SidebarContentProps } from '../voice-sidebar-content';
 
 export const Unsure: React.FC<SidebarContentProps> = ({
   id,
   contentVisible,
-  toggleSectionVisible,
+  toggleVisibleSection,
 }) => (
   <div className="sidebar-content" id={id}>
     <span className="line" />
     <div className="sidebar-content-header">
       <Localized id="just-unsure">
-        <h3 className="guidelines-content-heading" />
+        <TextButton
+          onClick={toggleVisibleSection}
+          className="guidelines-content-heading"
+        />
       </Localized>
       <ChevronDown
-        onClick={toggleSectionVisible}
+        onClick={toggleVisibleSection}
         className={classNames('chevron', { 'rotate-180': contentVisible })}
       />
     </div>
