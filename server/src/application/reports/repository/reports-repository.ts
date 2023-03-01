@@ -3,7 +3,12 @@ import { pipe, flow } from 'fp-ts/lib/function'
 import Mysql, { getMySQLInstance } from '../../../lib/model/db/mysql'
 import { createDatabaseError } from '../../helper/error-helper'
 import { ApplicationError } from '../../types/error'
-import { ReportKind } from '../use-case/command-handler/command/create-report-command'
+import {
+  REPORTED_CLIP,
+  REPORTED_PENDING_SENTENCE,
+  ReportKind,
+  REPORTED_SENTENCE,
+} from '../use-case/command-handler/command/create-report-command'
 
 const db = getMySQLInstance()
 
@@ -14,17 +19,17 @@ type ReportTableInfo = {
 
 const getTableInfoFrom = (kind: ReportKind): ReportTableInfo => {
   switch (kind) {
-    case 'clip':
+    case REPORTED_CLIP:
       return {
         table: 'reported_clips',
         column: 'clip_id',
       }
-    case 'sentence':
+    case REPORTED_SENTENCE:
       return {
         table: 'reported_sentences',
         column: 'sentence_id',
       }
-    case 'pending_sentence':
+    case REPORTED_PENDING_SENTENCE:
       return {
         table: 'reported_pending_sentences',
         column: 'pending_sentence_id',
