@@ -223,6 +223,10 @@ share-text = Xitechpalehui timachtize tepozme kenikatza ce tlakatl o cihuatl kam
 
 ## Home Page
 
+vote-yes = Quena
+vote-no = axcana
+all-locales = nochi
+today = nama
 
 ## Account Benefits
 
@@ -238,13 +242,19 @@ share-text = Xitechpalehui timachtize tepozme kenikatza ce tlakatl o cihuatl kam
 
 ## Speak Shortcuts
 
+shortcut-submit = Timo cuapase
 
 ## ProjectStatus
 
+english = Ingles
 
 ## ProfileForm
 
 male = cíhuatl
+female = Tlacatl
+# Gender
+other = seyoj
+profile-close = tsakua
 
 ## Profile - Email
 
