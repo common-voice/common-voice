@@ -34,6 +34,8 @@ import validate, {
   datasetSchema,
 } from './validation';
 import Statistics from './statistics';
+import SentenceCollectorRouter from '../api/pending-sentences';
+import { reportsRouter } from '../api/reports/routes';
 
 export default class API {
   model: Model;
@@ -100,6 +102,7 @@ export default class API {
       this.sendLanguageRequest
     );
     router.use('/statistics', this.statistics.getRouter());
+    router.use('/pending_sentences', SentenceCollectorRouter);
 
     router.get(
       '/:locale/sentences',
@@ -135,7 +138,7 @@ export default class API {
 
     router.post('/:locale/downloaders', this.insertDownloader);
 
-    router.post('/reports', this.createReport);
+    router.use('/reports', reportsRouter);
 
     router.use('/challenge', this.challenge.getRouter());
 
@@ -533,11 +536,6 @@ export default class API {
         ? 'notification'
         : 'award'
     );
-    response.json({});
-  };
-
-  createReport = async ({ client_id, body }: Request, response: Response) => {
-    await this.model.db.createReport(client_id, body);
     response.json({});
   };
 
