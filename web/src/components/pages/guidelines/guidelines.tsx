@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import * as React from 'react';
 import { Link } from 'react-router-dom';
 import { Localized } from '@fluent/react';
 import { Tabs, TabList, Tab, TabPanel } from 'react-tabs';
@@ -23,11 +23,10 @@ const Guidelines = () => {
   const defaultSentenceOption = SENTENCE_NAV_IDS.PUBLIC_DOMAIN;
 
   const [selectedVoiceTabOption, setSelectedVoiceTabOption] =
-    useState(defaultVoiceOption);
+    React.useState(defaultVoiceOption);
 
-  const [selectedSentenceTabOption, setSelectedSentenceTabOption] = useState(
-    defaultSentenceOption
-  );
+  const [selectedSentenceTabOption, setSelectedSentenceTabOption] =
+    React.useState(defaultSentenceOption);
 
   return (
     <Page className="guidelines-main-container" dataTestId="guidelines-page">
