@@ -1,6 +1,6 @@
 import { Localized } from '@fluent/react';
 import classNames from 'classnames';
-import React from 'react';
+import * as React from 'react';
 
 import { ChevronDown } from '../../../../ui/icons';
 import { TextButton } from '../../../../ui/ui';
