@@ -1,9 +1,9 @@
-import React, { useState } from 'react';
+import * as React from 'react';
 import { sentenceGuidelineSections } from '../constants';
 import { handleToggleVisibleSection } from '../utils';
 
 const SentenceSidebarContent = () => {
-  const [visibleSections, setVisibleSections] = useState(
+  const [visibleSections, setVisibleSections] = React.useState(
     sentenceGuidelineSections
   );
 

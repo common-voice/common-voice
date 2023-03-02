@@ -206,6 +206,10 @@
 
                     a {
                         color: var(--anchor-text-blue);
+
+                        &.underlined-link {
+                            text-decoration: underline;
+                        }
                     }
                 }
 

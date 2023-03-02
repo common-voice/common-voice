@@ -3,8 +3,8 @@ import {
   withLocalization,
   WithLocalizationProps,
 } from '@fluent/react';
+import * as React from 'react';
 
-import React from 'react';
 import { SkipIcon } from '../../../../ui/icons';
 import { Button, LabeledInput } from '../../../../ui/ui';
 import { VoteButton } from '../../../contribution/listen/listen';
