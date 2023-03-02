@@ -1,9 +1,9 @@
-import React, { useState } from 'react';
+import * as React from 'react';
 import { voiceGuidelinesSections } from '../constants';
 import { handleToggleVisibleSection } from '../utils';
 
 const VoiceSidebarContent: React.FC = () => {
-  const [visibleSections, setVisibleSections] = useState(
+  const [visibleSections, setVisibleSections] = React.useState(
     voiceGuidelinesSections
   );
 

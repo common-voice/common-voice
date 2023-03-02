@@ -27,7 +27,26 @@ export const PublicDomain: React.FC<SidebarContentProps> = ({
       </div>
       {contentVisible && (
         <div className="content-wrapper">
-          <Localized id="public-domain-explanation-1">
+          <Localized
+            id="public-domain-explanation-1"
+            elems={{
+              publicDomain: (
+                <a
+                  href="https://en.wikipedia.org/wiki/Public_domain"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="underlined-link"
+                />
+              ),
+              cc0: (
+                <a
+                  href="https://creativecommons.org/share-your-work/public-domain/cc0/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="underlined-link"
+                />
+              ),
+            }}>
             <p className="guidelines-content-explanation" />
           </Localized>
           <Localized id="public-domain-explanation-2">
