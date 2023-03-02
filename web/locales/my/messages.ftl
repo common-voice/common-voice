@@ -33,6 +33,7 @@ as = အာသံ
 ast = အက်စ်တူးရီယန်
 az = အဇာဘိုင်ဂျာနီ
 ba = ဘာရှ်ကီး
+bas = ဘာဆာ
 be = ဘယ်လာရုစ်
 bg = ဘူဂေးလ်ရီးယား
 bn = ဘင်္ဂလီ
@@ -40,6 +41,7 @@ br = ဘရီတွန်
 bxr = ဘာရီရက်
 ca = ကက်တလန်
 cak = ကချိကို
+ckb = အလယ်ပိုင်း ကရာဒစ်
 cnh = ဟားခါး ချင်း
 cs = ချက်ဇ်
 cv = ကျူဘား
@@ -83,7 +85,6 @@ kbd = ကပဒီရမ်
 kk = ကာဇတ်စတန်
 ko = ကိုးရီးယား
 kpv = ကိုမီ-ဇရမ်
-ku = ကာဒ်
 kw = ကောနီးရှ်
 ky = ခရူဂ
 lg = လူဂန္ဓာ
@@ -231,7 +232,6 @@ whats-public = ဘာတွေကို အများပြည်သူ က �
 email-not-public = ကျွန်ုပ်တို့ သည် သင်၏ အီးမေးကို အများပြည်သူသို့ မပြောပါ။
 recordings-and-locale-public = သင် ပါဝင်ကူညီသော ဘာသာစကားနှင့် အသံသွင်း အရေအတွက် ကို အများပြည်သူ မြင်ရပါမည်။
 username-optin-public = သင် ၏ အသုံးပြုသူအမည် ကို အများမြင်ရန် သို့မဟုတ် အမည်မဲ့ ဖြစ်ရန် ကိုမူ သင်ကိုယ်တိုင် ရွေးချယ်နိုင်သည်။
-demographic-deidentified-clarity = သင် ၏ ပရိုဖိုင် တွင် ရွေးချယ် တင်သွင်းထားသော သန်းခေါင်းစာရင်း အချက်အလက် (ဥပမာ။ ။ အသက်၊ လိင်၊ ဘာသာစကား နှင့် လေယူလေသိမ်း) တို့ ကို မည်သည့်အခါမှ အများပြည်သူ သို့ မဖော်ပြသည့်အပြင် သင့် အကောင့် အချက်အလက်အစု နှင့်လည်း မချိတ်ဆက်ထားပါ။ သီးခြား တည်ရှိနေသည့် အသံဖိုင်များသာလျှင် ပိုမို တိကျသော သရုပ်ခွဲလေ့လာမှု့ပြုလုပ်ရန်အတွက်သာ သန်းခေါင်စာရင်းအချက်အလက် တို့နှင့် သက်ဆိုင်ပါလိမ့်မည်။ ဥပမာ ဆိုရသော် သုတေသီတစ်ဦး သည် သီးခြား ကိုယ်စားပြုသော လူဦးရေဆိုင်ရာ အပိုင်းအခြား ကိုရည်ရွယ်ကာ စံပြုပုံစံအား လေ့ကျင့်ခြင်း ကိုဆိုလိုသည်။
 username-email-not-demographic = သင့် အသုံးပြုသူအမည် နှင့် အီးမေးလ် သည် ဘယ်သောအခါမျှ အချက်အလက်ဖြန့်ချီ ရာတွင် မပါဝင်ပါ။
 
 ## Speak & Listen Shortcuts
@@ -288,8 +288,6 @@ profile-form-accent =
     .label = လေယူလေသိမ်း
 profile-form-age =
     .label = အသက်
-profile-form-gender =
-    .label = လိင်
 leaderboard-visibility =
     .label = ဦးဆောင်သူ ကြေငြာသင်ပုန်း မြင်တွေ့ရမှု
 hidden = ဖျောက်ထား
@@ -327,17 +325,17 @@ contribution-experience = ဝေမျှခြင်း အတွေ့အက�
 skip-submission-feedback = တုံ့ပြန်ချက် တင်သွင်းခြင်း ကို ကျော်ရန်
 off = ပိတ်
 on = ဖွင့်
-avatar-clip-title = သင့် ကိုယ်ပွား လေး ကို အသံ ပေးလိုက်ပါ။
-change-your-avatar-clip = သင့် အသံ ကလစ် ကို ပြောင်း လိုသလား။
-avatar-clip-recorded = ယခုပဲ သင်၏ ကိုယ်စားပြု အသံကလစ်တစ်ခု ရသွားပါပြီ။
-retry-voice-wave-recording = ပြန်လုပ်ရန်
-cancel-avatar-clip-recording = ပယ်ဖျက်
-about-avatar-clip-recording = သင့် ကိုယ်စားပြု ပရိုဖိုင် ၏ တစိတ်တပိုင်း အဖြစ် အသံကလစ်တစ်ခု ဖန်တီးပါ။ အခြားသူများက မောက်စ်ကို တင်၍ သင်၏ ကလစ် ကိုနားထောင်နိုင်သည်။
+
+## Profile - Email
+
 browse-file-title = ဓာတ်ပုံ ဖိုင် တင်ပါ
 browse-file = ဖိဆွဲကာဤနေရာတွင် ထားပါ သို့မဟုတ် <browseWrap>ဖိုင်ရွေးပါ</browseWrap>
 connect-gravatar = Gravatar နှင့် ချိတ်ဆက်ရန်
 gravatar_not_found = သင့် အီးမေးလ် အတွက် Gravatar ရှာမတွေ့ပါ။
 file_too_large = ရွေးချယ် ထားသော ဖိုင်သည် အလွန် ကြီးသည်
+
+## Profile - Email
+
 manage-subscriptions = စာရင်းသွင်းခြင်းကို စီမံပါ
 manage-email-subscriptions = အီးမေး စာရင်းသွင်းခြင်းကို စီမံပါ
 email-already-used = အီးမေး သည် အခြား အကောင့် တွင် သုံးပြီးဖြစ်သည်။
@@ -360,7 +358,9 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Common Voice က ဘာအတွက်ကြောင့်လဲ။
-how-does-it-work-title = အဲ့ဒါက ဘယ်လို လုပ်ဆောင်တာလဲ။
+
+## How does it work section
+
 about-speak = ပြောပါ
 about-listen = နားထောင်
 about-is-it-valid = ဒီကလစ်က မှန်ရဲ့လား။
@@ -368,15 +368,39 @@ about-yes-votes = ≥ 2 ထောက်ခံ မဲများ
 about-yes-votes-text = Common Voice ဒေတာအစု အဖြစ်ပြောင်းလဲရန် အသံ ကလစ် တစ်ခုသည် ထောက်ခံသူ နှစ်ဦး မှ အတည်ပြပေးရမည် ဖြစ်သည်။
 about-no-votes = ≥ 2 ဆန့်ကျင် မဲများ
 about-dataset-new = Common Voice ဒေတာအစု
-about-partners = မိတ်ဖက်များ
-about-become-a-partner = မိတ်ဖက် ဖြစ်လာရန်
 about-get-involved = ပါဝင်ဆောက်ရွက်မည်
 about-nav-why-common-voice = ဘာကြောင့်လဲ ?
 about-nav-how-it-works = ဘယ်လိုလဲ?
 about-nav-partners = မိတ်ဖက်များ
 about-nav-get-involved = ပါဝင်ဆောက်ရွက်ရန်
-mycroft-title = Mycroft Ai
-mycroft-subtitle = ဉာဏ်ရည်တု
+
+## Community Playbook Content
+## What is a language
+
+
+## How do I add a language
+
+
+## How does localization work
+
+
+## How to add sentences
+
+
+## How to record quality
+
+
+## How to grow language
+
+
+## How to validate
+
+
+## How to access dataset
+
+
+## How are decisions made
+
 
 ## Glossary
 
@@ -420,10 +444,16 @@ validated-hr-total = အတည်ပြုပြီး နာရီ စုစု
 ## Request Language Modal
 
 
+## Request Language Pages
+
+
 ## Languages Overview
 
 
 ## Contribution
+
+
+## Contribution Nav Items
 
 
 ## Reporting
@@ -441,5 +471,82 @@ validated-hr-total = အတည်ပြုပြီး နာရီ စုစု
 ## Profile Delete
 
 
+## Profile Download
+
+
 ## Landing
+
+
+## DemoLayout
+
+
+## Demo Datasets
+
+
+## Demo Account
+
+
+## Demo Contribute
+
+
+## Demo Dashboard
+
+
+## Validation criteria
+
+
+# Don't rename the following section, its contents are auto-inserted based on the name. These strings are
+# automatically exported from Sentence Collector.
+# [SentenceCollector]
+
+
+## HEADER/FOOTER
+
+
+## HOME
+
+
+## GENERAL
+
+
+## HOW-TO
+
+
+## MY SENTENCES
+
+
+## REJECTED
+
+
+## STATS
+
+
+## ADD
+
+
+## ADD LANGUAGE
+
+
+## ADD SENTENCES CONFIRMATION
+
+
+## LANGUAGE INFO
+
+
+## LOGIN
+
+
+## PROFILE
+
+
+## REVIEW CRITERIA
+
+
+## REVIEW
+
+
+## SETTINGS
+
+
+# [/SentenceCollector]
 
