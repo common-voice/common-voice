@@ -21,7 +21,6 @@ const ProfileLayoutPage = React.lazy(() => import('../pages/profile/layout'));
 const AboutPage = React.lazy(() => import('../pages/about/about'));
 const LandingPage = React.lazy(() => import('../pages/landing/landing'));
 const ErrorPage = React.lazy(() => import('../pages/error-page/error-page'));
-const CriteriaPage = React.lazy(() => import('../pages/criteria/criteria'));
 const PartnerPage = React.lazy(() => import('../pages/partner/partner'));
 const GuidelinesPage = React.lazy(
   () => import('../pages/guidelines/guidelines')
@@ -105,7 +104,7 @@ export default function Content({ location }: { location: any }) {
         />
         <SentryRoute
           path={toLocaleRoute(URLS.CRITERIA)}
-          component={CriteriaPage}
+          render={() => <Redirect to={toLocaleRoute(URLS.GUIDELINES)} />}
         />
         {[URLS.CHALLENGE, URLS.STATS, URLS.GOALS, URLS.AWARDS].map(path => (
           <SentryRoute

@@ -498,7 +498,7 @@ class ContributionPage extends React.Component<ContributionPageProps, State> {
         {!hasErrors && !isSubmitted && (
           <LocaleLink
             blank
-            to={URLS.CRITERIA}
+            to={URLS.GUIDELINES}
             className="contribution-criteria hidden-md-up">
             <ExternalLinkIcon />
             <Localized id="contribution-criteria-link" />

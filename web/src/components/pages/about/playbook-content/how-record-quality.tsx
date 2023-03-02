@@ -22,7 +22,7 @@ const HowRecordQuality = React.memo(() => {
         <Localized
           id="about-playbook-how-record-content-5"
           elems={{
-            accuracyLink: <LocaleNavLink to={URLS.CRITERIA} />,
+            accuracyLink: <LocaleNavLink to={URLS.GUIDELINES} />,
           }}>
           <p />
         </Localized>
