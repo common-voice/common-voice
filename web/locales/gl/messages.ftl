@@ -932,7 +932,6 @@ contribution-criteria-nav = Criterios
 contribution-criteria-link = Comprender os criterios de contribución
 contribution-criteria-page-title = Criterios de contribución
 contribution-for-example = por exemplo
-contribution-misreadings-description-extended-list-1 = Falta <strong>'Un'</strong> ou <strong>'O'</strong> ao comezo da gravación.
 see-more = <chevron></chevron>Ver máis
 see-less = <chevron></chevron>Ver menos
 
