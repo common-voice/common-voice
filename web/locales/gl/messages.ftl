@@ -824,6 +824,13 @@ request-language-success-list-2 =
     A xerencia da nosa comunidade porase en contacto con vostede para ofrecerlle
     apoio adicional e para informalo de se
     xa hai unha comunidade traballando na súa lingua
+request-language-success-list-3 =
+    Se non ten noticias nosas nun par de días,
+    comuníquenolo por <emailLink>{ $email }</emailLink>
+    e porémonos en contacto con vostede!
+request-language-error =
+    Pode ser que non recibísemos esa solicitude. Envíenos directamente un correo
+    a <emailLink>{ $email }</emailLink> e porémonos en contacto con vostede!
 
 ## Languages Overview
 
@@ -840,6 +847,8 @@ language-search-input =
 language-speakers = Falantes
 localized = Localizado
 sentences = Frases
+language-validation-hours = Horas
+language-validation-progress = Avance de validación
 
 ## Contribution
 
@@ -893,8 +902,14 @@ listen-again-instruction = Bo traballo!<playIcon></playIcon> Volva escoitar cand
 listen-3rd-time-instruction = 2 menos, sigamos!<playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon>Derradeira!
 listen-empty-state = Posiblemente esgotamos os fragmentos para aprobar: actualice a páxina ou ténteo de novo máis tarde.
+listen-loading-error =
+    Non foi posible atopar ningún fragmento de audio para que o escoite.
+    Por favor inténteo de novo máis tarde.
 speak-empty-state = Esgotamos as frases para gravar neste idioma
 speak-empty-state-cta = Propor novas frases
+speak-loading-error =
+    Non foi posible atopar ningunha frase para que lea.
+    Por favor inténteo de novo máis tarde.
 record-button-label = Grave a súa voz
 share-title-new = <bold>Axúdenos</bold> a atopar máis voces
 keep-track-profile = Faga o seguimento do seu avance cun perfil
@@ -907,6 +922,7 @@ target-segment-learn-more = Saber máis
 
 ## Contribution Nav Items
 
+contribute-voice-collection-nav-header = Recollida de voz
 
 ## Reporting
 
@@ -1066,6 +1082,23 @@ profile-form-delete = Eliminar o perfil
 download-q = Precisa descargar os seus datos?
 download-info = Díganos o que querería descargar:
 download-profile-title = Perfil
+download-profile-info = Inclúe correo electrónico, nome de usuario e información demográfica, dispoñibles de inmediato
+download-profile-size = Uns poucos bytes
+download-recordings-title = Gravacións
+download-recordings-info = Inclúe arquivos mp3 e as frases correspondentes. Pode tardar un pouco.
+download-recordings-size = Normalmente megabytes
+download-recordings-unavailable = Non pode solicitar as súas gravacións mentres estea en curso outra solicitude.
+download-recently-requested = Pode solicitar unha nova retirada das súas gravacións cada { $days } días.
+download-size = Tamaño
+download-selected = Seleccionado
+download-start = Descargar os seus datos de perfil
+download-request = Solicitar gravacións
+download-requests = Solicitudes anteriores de descarga de gravacións
+download-requests-info = Cando solicita as súas gravacións, recompilámolas nun ou varios ficheiros ZIP. Aquí ten as súas solicitudes anteriores:
+download-request-button = Descargar
+download-request-title = { $created }
+download-request-description = { $clipCount } fragmentos de voz. O tamaño total do arquivo compactado é { $size }. Caduca { $expires }.
+download-request-archive-multiple = Dividido en { $archiveCount } archivos ZIP que conteñen
 
 ## Landing
 
