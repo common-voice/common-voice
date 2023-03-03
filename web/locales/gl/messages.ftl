@@ -626,12 +626,24 @@ about-playbook-how-validate = Como saber se debo aprobar un fragmento de voz?
 about-playbook-how-validate-content-1 = Se conseguiu <strong>escoitalo</strong> e <strong>entendelo</strong>, adoita ser <strong> mellor aprobalo</strong>.
 about-playbook-how-validate-content-2 = <strong>Non rexeite fragmentos só por que a persoa que grava "ten un acento" diferente ao seu</strong>. Isto é importante para que o recoñecemento de voz funcione mellor para todo o mundo.
 about-playbook-how-validate-content-3 = Se pensa que a pronuncia <strong>imposibilita a comprensión</strong>, hai <strong>moito ruído de fondo</strong> ou <strong>se oen outras voces</strong>, entón debería rexeitar o fragmento. <accuracyLink>Saiba máis sobre os nosos criterios de contribución</accuracyLink>.
+about-playbook-how-validate-content-4 = Se un fragmento é rexeitado por dúas persoas, publícase nun subconxunto diferente dentro do conxunto de datos.
 
 ## How to access dataset
 
+about-playbook-how-access-dataset = Como acceder ao conxunto de datos e empregalo?
+about-playbook-how-access-dataset-content-1 = Pode ir á <datasetsPage>pestana de conxuntos de datos</datasetsPage>, seleccionar a versión e o(s) idioma(s) que quere e descargalo(s)! Teña en conta que os arquivos teñen <metadataLink>metadatos asociados</metadataLink>, como información demográfica e datos de validación. Deberá proporcionar un enderezo de correo electrónico para descargar o conxunto de datos.
+about-playbook-how-access-dataset-content-2 = Se está a buscar ferramentas para desenvolver modelos de recoñecemento automático da fala, pode contactar con outras persoas da comunidade a través de <discourseLink>Discourse</discourseLink>.
 
 ## How are decisions made
 
+about-playbook-how-project-governance = Como se toman as decisións do proxecto?
+about-playbook-how-project-governance-content-1 = Common Voice é posible grazas a unha ampla comunidade de activistas, lingüistas, científicos de datos, académicos e enxeñeiros de software de todo o mundo. O proxecto está xestionado pola Fundación Mozilla.
+about-playbook-how-project-governance-content-2 = A nosa gobernanza baséase nos seguintes piares:
+about-playbook-how-project-governance-content-3 = Privacidade, seguridade e transparencia.
+about-playbook-how-project-governance-content-4 = Participación e toma de decisións compartida.
+about-playbook-how-project-governance-content-5 = Valorización e recoñecemento.
+about-playbook-how-project-governance-content-6 = Responsabilidade mutua.
+about-playbook-how-project-governance-content-7 = <governanceLink>Saber máis sobre a nosa gobernanza</governanceLink>
 
 ## Glossary
 
@@ -690,6 +702,7 @@ review-delete-recordings = Eliminar as miñas gravacións
 
 ## Datasets Page
 
+datasets-heading = Conxunto de datos
 datasets-headline = Estamos a construír un conxunto de datos de voces de fonte aberta, multilingüe que calquera pode utilizar para adestrar aplicacións que funcionan coa voz.
 datasets-positioning =
     Cremos que os grandes conxuntos de datos, dispoñíbeis publicamente, alimentarán a innovación e a saudábel competición comercial da tecnoloxía de voz baseada na aprendizaxe automática.
@@ -698,6 +711,9 @@ datasets-positioning =
     
     Vexa esta páxina como unha referencia a un feixe de doutros conxuntos de datos e, así como Common Voice continúe a medrar, un lugar onde atopar as actualizacións publicadas.
 language = Idioma
+download-dataset-header = Descargar o conxunto de datos
+download-delta-explainer = Fixemos algúns cambios. Os segmentos Delta só conteñen os fragmentos máis recentes desde a última actualización. <deltaLink>Saber máis sobre este traballo</deltaLink>.
+download-dataset-tag = Seleccione o conxunto de datos do idioma desexado e escolla a versión que quere descargar.
 # File size in gigabytes
 size = Tamaño
 validated-hr-total = Total de horas validado
@@ -712,6 +728,7 @@ confirm-size = Xa está preparado para iniciar unha descarga de <b>{ $size }</b>
 size-gigabyte = GB
 size-megabyte = MB
 confirm-no-identify = <b>Acepta</b> non tentar determinar a identidade dos falantes do conxunto de datos Common Voice
+confirm-join-mailing-list = Quero unirme á lista de correo de Common Voice
 download-language = Descargar { $language }
 validated-hours = Horas validadas
 recorded-hours = Horas gravadas
@@ -725,6 +742,11 @@ subscribe = Subscribir
 get-started-speech = Primeiros pasos co recoñecemento de voz
 other-datasets = Outros conxuntos de datos de voz
 feedback-q = Quere comentar?
+resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ é un <docsLink>conxunto de ferramentas de código aberto</docsLink> para investigadores/as que desenvolven modelos conversacionais de última xeración.
+resource-deepspeech-info = Deep Speech é un motor de recoñecemento da fala de código aberto desenvolto por Mozilla que se pode usar para crear aplicacións de recoñecemento da fala. Consulte a nosa <githubLink>descrición xeral en Github</githubLink> e únase ao <discourseLink>DeepSpeech Discourse</discourseLink> para descubrir como comezar.
+resource-coqui-info = <coquiLink>Coqui</coquiLink> dedícase á tecnoloxía da fala de código aberto. Os seus proxectos inclúen modelos de voz-a-texto e de texto-a-voz baseados na aprendizaxe profunda.
+community-playbook = Orientacións á comunidade
+resource-playbook-info = <playbookLink>Atope orientacións útiles</playbookLink> sobre toda a viaxe de Common Voice, desde a súa tradución ata o uso do conxunto de datos, alén de como contactar coa nosa comunidade.
 data-other-librispeech-description = LibriSpeech é un corpus de aproximadamente 1000 horas de contido oral en inglés a 16Khz derivado da lectura de audiolibros procedentes do proxecto LibriVox.
 data-other-ted-name = Corpus TED-LIUM
 data-other-ted-description = O corpus TED-LIUM provén das audiocharlas e as súas transcricións dispoñíbeis no sitio web TED.
