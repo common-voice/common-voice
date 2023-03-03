@@ -512,6 +512,17 @@ how-does-it-work-text = Estamos a auspiciar un conxunto de datos de voz de fonte
 ## How does it work section
 
 about-language-req-subtitle = Alguén solicita que se engada un idioma.
+about-sentence-collection-title = Recollida de frases
+about-sentence-collection-subtitle = Recóllense frases para que as persoas as lean en voz alta.
+about-new-lang-title = Publicación do novo idioma
+about-new-lang-subtitle = Publicamos a páxina de Common Voice neste idioma.
+about-voice-contrib-title = Contribución de voz
+about-voice-contrib-subtitle = A xente vén e contribúe coa súa voz.
+about-voice-validation-title = Validación da voz
+about-voice-validation-subtitle = Outras persoas validan eses fragmentos de voz.
+about-dataset-release-title = Publicación do conxunto de datos
+about-dataset-release-subtitle = Publicamos o conxunto de datos cada 3 meses.
+about-subscribe-text = Quere estar en contacto con Common Voice?
 about-speak = Falar
 about-speak-text = Os colaboradores gravan fragmentos de voz lendo dun banco de frases doadas.
 about-listen-queue = Escoitar cola
@@ -533,14 +544,18 @@ about-get-involved-text-2 =
     Quere axudar a mellorar Common Voice?
     Xenial! Póñase en contacto vía correo electrónico ou vía foros <discourseLink>Discourse</discourseLink>
     remita incidencias do sitio vía <githubLink>GitHub</githubLink>, ou únase ao chat da comunidade <matrixLink>Matrix</matrixLink>.
+about-stay-in-touch = Como estar en contacto?
 about-nav-why-common-voice = Por que?
 about-nav-how-it-works = Como?
 about-nav-partners = Socios
 about-nav-get-involved = Participe
+about-nav-how-it-works-2 = Como funciona Common Voice?
+about-nav-playbook = Descubra como participar
 
 ## Community Playbook Content
 ## What is a language
 
+about-playbook-what-is-language = Que é un idioma en Common Voice?
 
 ## How do I add a language
 
