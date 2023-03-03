@@ -595,9 +595,13 @@ about-playbook-how-localize-content-5 = Consulte o noso vídeo explicativo
 
 about-playbook-how-add-sentences = Como engadir frases?
 about-playbook-how-add-sentences-content-1 = <strong>Sentence Collector</strong> é unha ferramenta para recompilar e validar frases de dominio público. Para empregala, debe <scAccountLink>crear unha conta</scAccountLink> e, logo, engadir o seu idioma ao seu <strong>perfil</strong>. Pode <strong>engadir</strong> frases ou <strong>revisar</strong> frases engadidas anteriormente.
+about-playbook-how-add-sentences-content-2 = As frases deben ser revisadas e aceptadas por dúas persoas para ser incluídas en Common Voice. Cree directrices para o seu idioma <languageGuidelinesLink>aquí</languageGuidelinesLink>. As frases deben ser de <licenseLink>dominio público</licenseLink> e ter menos de 15 palabras. Pode solicitarlle ao propietario dun texto que o faga <waiverLink>de dominio público (licenza CC0) mediante o noso proceso de cesión de dereitos</waiverLink> e enviárnolo a commonvoice@mozilla.com
+about-playbook-how-add-sentences-content-3 = Pode empregar o <scraperLink>extractor de frases</scraperLink> para aproveitar frases curtas da Wikipedia.
+about-playbook-how-add-sentences-content-4 = As frases que foron validadas expórtanse os mércores e están dispoñibles despois da seguinte actualización.
 
 ## How to record quality
 
+about-playbook-how-record-quality = Como gravar un fragmento de voz de alta calidade?
 
 ## How to grow language
 
