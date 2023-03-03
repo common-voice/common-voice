@@ -1,4 +1,3 @@
-import { voiceGuidelinesSections } from './constants';
 import { SidebarContentProps } from './types';
 
 type Section = {
@@ -9,9 +8,7 @@ type Section = {
 
 export type handleToggleVisibleSectionParams = {
   visibleSections: Section[];
-  setVisibleSections: React.Dispatch<
-    React.SetStateAction<typeof voiceGuidelinesSections>
-  >;
+  setVisibleSections: React.Dispatch<React.SetStateAction<Section[]>>;
   id: string;
 };
 

@@ -73,7 +73,7 @@
                 list-style: none;
             }
 
-            & li:nth-child(1) {
+            & li.first-tab {
                 margin-inline-end: 30px;
             }
 
@@ -316,8 +316,7 @@
                             margin-bottom: 25px;
                         }
 
-                        & .tip-text {
-                            flex-direction: column;
+                        & .tip-text-container {
                             justify-content: center;
 
                             @media (--sm-down) {
@@ -330,12 +329,12 @@
                                 }
                             }
 
-                            p:nth-child(1) {
+                            & p.tip-text {
                                 margin-bottom: 6px;
                                 font-style: italic;
                             }
 
-                            p:nth-child(2) {
+                            & p.tip-explanation {
                                 font-size: var(--font-size-xs);
                                 color: var(--dark-grey);
 
