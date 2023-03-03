@@ -556,12 +556,36 @@ about-nav-playbook = Descubra como participar
 ## What is a language
 
 about-playbook-what-is-language = Que é un idioma en Common Voice?
+about-playbook-what-is-language-content-1 = Hai moitas formas de entender o que é un idioma. Para os obxectivos que perseguen os modelos de recoñecemento de voz, Common Voice suxire centrarse na "intelixibilidade mutua", é dicir, "os falantes desta lingua conseguen entenderse entre si se o intentan?"
+about-playbook-what-is-language-content-2 = Queremos que os modelos de voz poidan comprender unha diversa gama de falantes. Para que isto suceda, un conxunto de datos de voz debe representar a moitas persoas diferentes.
+about-playbook-what-is-language-content-3 = Algúns idiomas teñen unha enorme variación na gramática, o vocabulario e a pronuncia. Por este motivo, <ctaLink>introducimos "Variedades"</ctaLink> en 2022. Isto dá ás comunidades un xeito de distinguir as súas formas de fala dentro do conxunto de datos máis amplo.
 
 ## How do I add a language
 
+about-playbook-how-add-language = Como engadir un idioma?
+about-playbook-how-add-language-content-1 =
+    En primeiro lugar, comprobe se <languageLink>o seu idioma xa existe</languageLink>.
+    Se non é así, <languageRequestLink>descubra como engadir o seu idioma</languageRequestLink>.
+    Hai dúas etapas: traducir a páxina web e recoller frases
+about-playbook-how-add-language-translating-heading = Traducir a páxina web
+about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Consulte a nosa guía sobre como usar Pontoon.</translateVideoLink>
+about-playbook-how-add-language-translating-content-2 =
+    Para a tradución, empregamos unha ferramenta de Mozilla chamada <pontoonLink>Pontoon</pontoonLink>. Inclúe moitos idiomas,
+    pero se non atopa o seu, pode <pontoonRequestLink>solicitar que se engada</pontoonRequestLink>.
+    Despois, para que o idioma estea dispoñible no proxecto Common Voice,
+    <githubRepoLink>solicite o novo idioma en GitHub</githubRepoLink>. <localizationFragment>Saber máis sobre a tradución da páxina web</localizationFragment>.
+about-playbook-how-add-language-collecting-sentences-heading = Recoller frases
+about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>Consulte a nosa guía sobre como empregar a ferramenta Sentence Collector</sentenceCollectorVideo>.
+about-playbook-how-add-language-collecting-sentences-content-2 =
+    Pode <sentenceCollectorLinkAdd>engadir pequenas cantidades de frases</sentenceCollectorLinkAdd>
+    ou facer <bulkImportDocsLink>importacións masivas a través de Github</bulkImportDocsLink>.
+    Lembre que as frases deben ter <licenseLink>licenza CC0 (dominio público)</licenseLink> ou ser da súa propia autoría.
+about-playbook-how-add-language-collecting-sentences-content-3 = Saber máis sobre a recollida de frases.
 
 ## How does localization work
 
+about-playbook-how-localize = Como funciona a tradución da páxina web?
+about-playbook-how-localize-content-1 = A tradución da páxina de Common Voice faise a través de <strong>Pontoon</strong>.
 
 ## How to add sentences
 
