@@ -512,6 +512,8 @@ how-does-it-work-text = Estamos a auspiciar un conxunto de datos de voz de fonte
 ## How does it work section
 
 about-language-req-subtitle = Alguén solicita que se engada un idioma.
+about-localization-title = Tradución da páxina web
+about-localization-subtitle = O texto da páxina web tradúcese a ese idioma.
 about-sentence-collection-title = Recollida de frases
 about-sentence-collection-subtitle = Recóllense frases para que as persoas as lean en voz alta.
 about-new-lang-title = Publicación do novo idioma
