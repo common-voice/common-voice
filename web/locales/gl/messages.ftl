@@ -616,9 +616,16 @@ about-playbook-how-grow-language-content-2 = Eventos
 about-playbook-how-grow-language-content-3 = Pode organizar eventos para animar ás persoas a contribuír. É máis dodo do que pensa. Pode facelo en liña, cunha ferramenta de videoconferencia, ou en persoa, se é posible. <eventTemplate>Consulte os nosos modelos e recursos para organizar eventos</eventTemplate>.
 about-playbook-how-grow-language-content-4 = Redes sociais
 about-playbook-how-grow-language-content-5 = Pode empregar as redes sociais para transmitir a mensaxe. Comparta publicacións que expliquen por que é importante e póñase en contacto con outras persoas para falar de cuestións como os dereitos lingüísticos, a voz na Intelixencia Artificial ou os prexuízos tecnolóxicos. Saiba máis sobre como <campaignLink>desenvolver unha campaña social e o contido que pode reutilizar</campaignLink>.
+about-playbook-how-grow-language-content-6 = Asociacións e redes
+about-playbook-how-grow-language-content-7 = Busque outras persoas ou institucións interesadas (universidades, escolas de idiomas, comunidades orientadas cara á xestión de recursos e dos dereitos lingüísticos etc.) Póñase en contacto con eles e explíquelles claramente como poden axudar e por que. <outreachTemplates>Consulte os nosos modelos de correos electrónicos de divulgación</outreachTemplates>.
+about-playbook-how-grow-language-content-8 = <strong>Sexa creativo!</strong> A súa comunidade lingüística será única e estas son só algunhas formas de comezar.
 
 ## How to validate
 
+about-playbook-how-validate = Como saber se debo aprobar un fragmento de voz?
+about-playbook-how-validate-content-1 = Se conseguiu <strong>escoitalo</strong> e <strong>entendelo</strong>, adoita ser <strong> mellor aprobalo</strong>.
+about-playbook-how-validate-content-2 = <strong>Non rexeite fragmentos só por que a persoa que grava "ten un acento" diferente ao seu</strong>. Isto é importante para que o recoñecemento de voz funcione mellor para todo o mundo.
+about-playbook-how-validate-content-3 = Se pensa que a pronuncia <strong>imposibilita a comprensión</strong>, hai <strong>moito ruído de fondo</strong> ou <strong>se oen outras voces</strong>, entón debería rexeitar o fragmento. <accuracyLink>Saiba máis sobre os nosos criterios de contribución</accuracyLink>.
 
 ## How to access dataset
 
