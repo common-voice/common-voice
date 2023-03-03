@@ -1149,7 +1149,9 @@ demo-dashboard-card-body = Por cada fragmento de voz doado e cada fragmento de s
 contribution-criteria-nav = Criterios
 contribution-criteria-link = Comprender os criterios de contribución
 contribution-criteria-page-title = Criterios de contribución
+contribution-criteria-page-description = Saiba o que debe buscar cando escoita fragmentos de voz e axude a que as súas gravacións de voz sexan tamén máis ricas.
 contribution-for-example = por exemplo
+contribution-misreadings-title = Erros de lectura
 see-more = <chevron></chevron>Ver máis
 see-less = <chevron></chevron>Ver menos
 
