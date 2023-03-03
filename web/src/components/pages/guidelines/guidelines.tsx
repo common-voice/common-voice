@@ -47,7 +47,10 @@ const Guidelines = () => {
           <div className="tablist-wrapper">
             <TabList className="tablist">
               <Localized id="voice-collection">
-                <Tab selectedClassName="selected-tab" className="tab" />
+                <Tab
+                  selectedClassName="selected-tab"
+                  className="tab first-tab"
+                />
               </Localized>
               <Localized id="sentence-collection">
                 <Tab selectedClassName="selected-tab" className="tab" />
