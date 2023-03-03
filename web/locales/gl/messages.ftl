@@ -602,9 +602,20 @@ about-playbook-how-add-sentences-content-4 = As frases que foron validadas expó
 ## How to record quality
 
 about-playbook-how-record-quality = Como gravar un fragmento de voz de alta calidade?
+about-playbook-how-record-content-1 = Fale coa súa voz normal! É importante que todos os acentos do galego estean representados. Queremos o seu acento tal e como é, e queremos o seu volume, estilo de fala e entoación habituais.
+about-playbook-how-record-content-2 = Evite demasiado ruído de fondo. A gravación debe entenderse facilmente.
+about-playbook-how-record-content-3 = Lea atentamente a frase. Non descarte, cambie nin engada palabras.
+about-playbook-how-record-content-4 = Asegúrese de que a plataforma estea gravando antes de comezar a falar e que a gravación non se detén ata que acabe.
+about-playbook-how-record-content-5 = <accuracyLink>Saber máis sobre os criterios de contribución.</accuracyLink>
 
 ## How to grow language
 
+about-playbook-how-grow-language = Como impulsar de forma eficaz o crecemento dun idioma en Common Voice?
+about-playbook-how-grow-language-content-1 = Crear oportunidades para que unha ampla variedade de persoas contribúan a Common Voice garante que o conxunto de datos sirva ao maior número de persoas posible. Poñemos á súa disposición recursos e modelos que se poden empregar!
+about-playbook-how-grow-language-content-2 = Eventos
+about-playbook-how-grow-language-content-3 = Pode organizar eventos para animar ás persoas a contribuír. É máis dodo do que pensa. Pode facelo en liña, cunha ferramenta de videoconferencia, ou en persoa, se é posible. <eventTemplate>Consulte os nosos modelos e recursos para organizar eventos</eventTemplate>.
+about-playbook-how-grow-language-content-4 = Redes sociais
+about-playbook-how-grow-language-content-5 = Pode empregar as redes sociais para transmitir a mensaxe. Comparta publicacións que expliquen por que é importante e póñase en contacto con outras persoas para falar de cuestións como os dereitos lingüísticos, a voz na Intelixencia Artificial ou os prexuízos tecnolóxicos. Saiba máis sobre como <campaignLink>desenvolver unha campaña social e o contido que pode reutilizar</campaignLink>.
 
 ## How to validate
 
