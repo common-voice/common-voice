@@ -35,13 +35,13 @@ export const ExampleContent: React.FC<ExampleContentProps> = ({
                 <XICon />
               )}
             </span>
-            <div className="tip-text">
+            <div className="tip-text-container">
               <Localized id={tip.text}>
-                <p />
+                <p className="tip-text" />
               </Localized>
               {tip.explanation && (
                 <Localized id={tip.explanation}>
-                  <p />
+                  <p className="tip-explanation" />
                 </Localized>
               )}
             </div>
