@@ -411,6 +411,7 @@ accept-privacy = Accepto que gestioneu aquesta informació en els termes descrit
 accept-privacy-title = Política de privadesa
 accept-privacy-and-terms = Accepto les <termsLink>condicions d'ús</termsLink> i l'<privacyLink>avís de privadesa</privacyLink> del Common Voice.
 login-identity = Identitat d'inici de sessió
+login = Inicia la sessió
 login-signup = Inici de sessió / Registre
 edit = Edita
 email-subscriptions = Subscripcions per correu electrònic
@@ -932,6 +933,9 @@ target-segment-generic-card = Esteu col·laborant en un segment objectiu
 target-segment-first-banner = Ajudeu a assolir el primer segment objectiu del Common Voice en { $locale }
 target-segment-add-voice = Afegiu la vostra veu
 target-segment-learn-more = Més informació
+
+## Contribution Nav Items
+
 
 ## Reporting
 
