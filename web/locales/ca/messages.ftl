@@ -1569,6 +1569,14 @@ why-donate = Per què ho demaneu?
 why-donate-explanation-1 = Aquesta informació és opcional; només l'heu d'afegir si us hi sentiu còmode. Quan publiquem el conjunt de dades, pseudoanonimitzem tota la informació personal i ens assegurem que la informació com el vostre nom i adreça electrònica no estigui connectada amb la informació demogràfica com l'edat o el sexe.
 why-donate-explanation-2 = Perquè la tecnologia funcioni bé per a tothom, les dades que ajuden els desenvolupadors a crear tecnologia han de reflectir una àmplia diversitat de persones. Per exemple, si no incloem parlants amb un accent concret, aleshores la tecnologia no funcionarà bé per a les persones amb aquest accent. <learnMore>Més informació sobre per què són importants les metadades.</learnMore>
 add-information-button = Afegeix informació
+continue-speaking-button = No gràcies, segueix a Parla
 create-profile-text = Voleu desar la vostra informació? <createProfile>Creeu un perfil</createProfile>
+thanks-for-voice-toast = Gràcies per la informació de la vostra veu
+thanks-for-voice-toast-error = S'ha produït un error en enviar la informació de la vostra veu
+# SECOND POST SUBMISSION CTA
+second-cta-header-text = Gràcies per donar la vostra veu!
+second-cta-subtitle-text = Amb un perfil, podeu fer el seguiment de la vostra activitat i connectar-vos a una comunitat de col·laboradors de dades de veu.
 already-have-an-account = Ja teniu compte? <login>Inicieu la sessió</login>
 create-profile-button = Crea un perfil
+# IMAGE TAGS
+img-alt-success-checkmark = marca de vist i plau
