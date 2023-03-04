@@ -936,7 +936,7 @@ target-segment-learn-more = Més informació
 
 ## Contribution Nav Items
 
-contribute-voice-collection-nav-header = Recull de veus
+contribute-voice-collection-nav-header = Recollida de veus
 
 ## Reporting
 
@@ -1565,6 +1565,9 @@ partnerships-our-partners = Els nostres socis
 # FIRST POST SUBMISSION CTA
 first-cta-header-text = Gràcies per donar els talls de veu!
 first-cta-subtitle-text = Voldríeu compatir informació sobre la vostra forma de parlar?
+why-donate = Per què ho demaneu?
+why-donate-explanation-1 = Aquesta informació és opcional; només l'heu d'afegir si us hi sentiu còmode. Quan publiquem el conjunt de dades, pseudoanonimitzem tota la informació personal i ens assegurem que la informació com el vostre nom i adreça electrònica no estigui connectada amb la informació demogràfica com l'edat o el sexe.
+why-donate-explanation-2 = Perquè la tecnologia funcioni bé per a tothom, les dades que ajuden els desenvolupadors a crear tecnologia han de reflectir una àmplia diversitat de persones. Per exemple, si no incloem parlants amb un accent concret, aleshores la tecnologia no funcionarà bé per a les persones amb aquest accent. <learnMore>Més informació sobre per què són importants les metadades.</learnMore>
 add-information-button = Afegeix informació
 create-profile-text = Voleu desar la vostra informació? <createProfile>Creeu un perfil</createProfile>
 already-have-an-account = Ja teniu compte? <login>Inicieu la sessió</login>
