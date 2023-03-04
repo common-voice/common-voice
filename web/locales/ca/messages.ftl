@@ -936,6 +936,7 @@ target-segment-learn-more = Més informació
 
 ## Contribution Nav Items
 
+contribute-voice-collection-nav-header = Recull de veus
 
 ## Reporting
 
@@ -1018,7 +1019,7 @@ lose-goal-progress-warning = En editar l'objectiu, podeu perdre el progrés actu
 want-to-continue = Voleu continuar?
 finish-editing = Voleu acabar d'editar?
 lose-changes-warning = Si ho deixeu ara, es perdran tots els canvis
-build-custom-goal = Crea un objectiu personalitzat
+build-custom-goal = Creeu un objectiu personalitzat
 help-reach-hours-pluralized =
     { NUMBER($hours) ->
         [one] Ajudeu a arribar a { $hours } hora en { $language } amb un objectiu personal
@@ -1027,7 +1028,7 @@ help-reach-hours-pluralized =
 help-reach-hours-general-pluralized =
     { NUMBER($hours) ->
         [one] Ajudeu al Common Voice a arribar a{ $hours } hora en una llengua amb un objectiu personal
-       *[other] Ajudeu al Common Voice a arribar a{ $hours } hores en una llengua amb un objectiu personal
+       *[other] Ajudeu al Common Voice a arribar a { $hours } hores en una llengua amb un objectiu personal
     }
 set-a-goal = Defineix un objectiu
 cant-decide = No sabeu què fer?
