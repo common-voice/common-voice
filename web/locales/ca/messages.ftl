@@ -137,6 +137,7 @@ nan-tw = taiwanès (min nan)
 nb-NO = Bokmål noruec
 nd = IsiNdebele septentrional
 ne-NP = nepalès
+nhe = Nàhuatl de La Huasteca oriental
 nia = nias
 nl = neerlandès
 nn-NO = noruec nynorsk
