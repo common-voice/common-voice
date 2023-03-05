@@ -533,12 +533,31 @@ data-other-ted-name = TED-LIUM စာကားစုများ
 data-other-ted-description = TED-LIUM စကားစုများ သည် TED ဝက်ဘ်ဆိုက် တွင် ရနိုင်သည့် အသံ ဟောပြောပွဲများ နှင့် ယင်းတို့ကို စာဖြစ်ပြောင်းမှတ်တမ်း တို့ဖြစ်သည်။
 data-other-voxforge-description = Free and Open Source Speech Recognition Engines ဖြင့် အသုံးပြုရန်အတွက် Transcribed Speech  ကို စုဆောင်းရန် VoxForge ကိုတည်ဆောက်ခဲ့သည်။
 your-feedback = Common Voice ဒေတာအစုများ အား မည်သို့ပိုကောင်းအောင်လုပ်ရမည်ကိုသင်၌အကြံဥာဏ်များရှိပါသလား။ Discourse တွင် ကျွန်ုပ်တို့အား ပြောပေးပါ။
+go-discourse = Discourse သို့သွားပါ
+go-languages-page = ဘာသာစကား စာမျက်နှာ သို့ သွားရန်
+ready-to-validate = ဝါကျများကို အတည်ပြုရန် ကူညီဖို့ အဆင်သင့်လား။
+more = ပို၍
+close = ပိတ်
+download = ဒေါင်းလုပ်
+dataset-version = ဗားရှင်း
 
 ## Download Modal
 
+download-title = သင့် ဒေါင်းလုပ် ကို စတင်ပါပြီ။
+download-helpus = အသံ နည်းပညာ နှင့် ပတ်သတ်သော ရပ်ဝန်းတစ်ခု တည်ဆောက်ရန် ကူညီပါ။ အီးမေးလ်ဖြင့် အဆက်အသွယ် မပြတ် ရှိပါစေ။
+download-form-email =
+    .label = သင့် အီးမေလ်း ကိုထည့်ပါ
+    .value = ကျေးဇူးတင်ပါတယ်၊ ငါတို့ အဆက်အသွယ် မပျက် ရှိနေပါ့မယ်။
+download-back = Common Voice ဒေတာအစု သို့ပြန်သွားပါ
+download-no = နေပါစေ၊ ကျေးဇူးတင်ပါတယ်
 
 ## Contact Modal
 
+contact-title = ဆက်သွယ်ရန် ပုံစံ
+contact-form-name =
+    .label = အမည်
+contact-form-message =
+    .label = အကြောင်းအရာ
 
 ## Request Language Modal
 
