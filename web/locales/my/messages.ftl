@@ -628,12 +628,26 @@ report-other-comment =
     .placeholder = မှတ်ချက်
 success = အောင်မြင်သည်
 continue = ဆက်လုပ်
+report-success = အစီရင်ခံခြင်း အောင်မြင်စွာ အတည်ပြုပြီး
 
 ## Goals
 
+days =
+    { $count ->
+       *[other] နေ့
+    }
+recordings =
+    { $count ->
+       *[other] အသံသွင်း
+    }
+validations =
+    { $count ->
+       *[other] အတည်ပြု
+    }
 
 ## Dashboard
 
+your-languages = သင်၏ ဘာသာစကားများ
 
 ## Custom Goals
 
