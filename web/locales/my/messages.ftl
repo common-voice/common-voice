@@ -611,12 +611,23 @@ record-again-instruction = ကောင်းတယ်! <recordIcon></recordIcon
 record-again-instruction2 = ဆက်ထိန်းထားပါ၊ နောက်ထပ်အသံသွင်းပါ <recordIcon> </recordIcon>
 record-last-instruction = <recordIcon></recordIcon> နောက်ဆုံး တစ်ခု!
 clips-uploaded = ကလစ် တင်ဆောင်ပြီး
+record-abort-submit = ကလစ် တင်သွင်းရန်
+record-abort-continue = အသံသွင်းခြင်း ပြီးပြီ
+record-abort-delete = ကလစ်ကို ဖျက်ပြီး ထွက်ရန်
+listen-again-instruction = မိုက်တယ်! <playIcon> </playIcon> သင်အသင့်ဖြစ်လျှင်ထပ်မံနားထောင်ပါ
+listen-last-time-instruction = <playIcon> </playIcon> နောက်ဆုံးတစ်ခု!
+target-segment-learn-more = ပိုမို လေ့လာရန်
 
 ## Contribution Nav Items
 
 
 ## Reporting
 
+report = အစီရင်ခံရန်
+report-other-comment =
+    .placeholder = မှတ်ချက်
+success = အောင်မြင်သည်
+continue = ဆက်လုပ်
 
 ## Goals
 
