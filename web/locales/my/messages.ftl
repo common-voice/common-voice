@@ -558,18 +558,57 @@ contact-form-name =
     .label = အမည်
 contact-form-message =
     .label = အကြောင်းအရာ
+contact-required = *လိုအပ်သည်
 
 ## Request Language Modal
 
+request-language-title = ဘာသာစကား တောင်းဆိုမှု
+request-language-form-language =
+    .label = ဘာသာစကား
+request-language-success-title = ကျေးဇူးပါ၊ ဘာသာစကား တောင်းဆိုမှု အောင်မြင်စွာ တင်သွင်းပြီး ပါပြီ။
+request-language-success-content = ကျွန်တော်တို့ Common Voice တွင် သင်၏ ဘာသာစကား ကို မည်သို့ ထည့်သွင်းရမည် ဆိုသည့် အကြောင် ကိုပိုမိုသော အချက်အလက်များနှင့် မကြာမီ ဆက်သွယ်ပါမည်။
+select-language = ဘာသာစကား တစ်ခု ရွေးပါ...
+other-language = အခြား ဘာသာစကား
 
 ## Request Language Pages
 
 
 ## Languages Overview
 
+language-section-in-progress = လုပ်ဆောင်နေ ဆဲ
+language-section-launched = စတင်လုပ်ဆောင်ခဲ့ပြီး
+languages-show-more = ပိုမို ကြည့်ရှုရန်
+languages-show-less = နည်းနည်း ပဲကြည့်တော့မည်
+language-meter-in-progress = တိုးတက်မှု
+language-total-progress = စုစုပေါင်း
+language-search-input =
+    .placeholder = ရှာရန်
+language-speakers = ပြောသူများ
+localized = ဒေသသုံးပြုရန်
+sentences = ဝါကျများ
 
 ## Contribution
 
+action-click = နိုပ်
+action-tap = တို့ထိ
+contribute = ပါဝင်ကူညီခြင်း
+listen = နားထောင်
+skip = ကျော်ရန်
+shortcuts = အလွယ်နည်းများ
+clips-with-count-pluralized =
+    { $count ->
+       *[other] ကလစ်<bold>{ $count }</bold>ခု
+    }
+record-cta = စတင် သွင်းယူပါ
+record-platform-not-supported-ios-non-safari = iOS တွင် Safari အသံသွင်းခြင်း ဆောင်ရွက်ပါ..
+record-must-allow-microphone = သင် မိုက်ခရိုဖုန်း သုံးခွင့် ပြုမှရမည်။
+record-no-mic-found = မိုက်ခရိုဖုန်း ကို မတွေ့ပါ။
+record-error-too-short = ဤ အသံသွင်းခြင်း တိုလွန်းသည်။
+record-error-too-long = ဤ အသံသွင်းခြင်း ရှည်လွန်းသည်။
+record-error-too-quiet = ဤ အသံသွင်းခြင်း တိတ်ဆိတ်လွန်းသည်။
+record-cancel = ပြန်-သွင်းယူခြင်း ပယ်ဖျက်
+record-again-instruction = ကောင်းတယ်! <recordIcon></recordIcon> သင်၏နောက်ထပ်အပိုင်းကို မှတ်တမ်းတင်ပါ။
+record-again-instruction2 = ဆက်ထိန်းထားပါ၊ နောက်ထပ်အသံသွင်းပါ <recordIcon> </recordIcon>
 
 ## Contribution Nav Items
 
