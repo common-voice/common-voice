@@ -652,12 +652,27 @@ stats = ကြယ်များ
 awards = ဆုများ
 you = သင်
 everyone = လူတိုင်း
+overall-accuracy = ယေဘုယျ တိကျမှန်ကန်မှု
 
 ## Custom Goals
 
+both-speak-and-listen = နှစ်ခုလုံး
+easy-difficulty = လွယ်ကူ
+average-difficulty = သင့်တင့်
+difficult-difficulty = ခက်ခဲ
+pro-difficulty = ပရို အဆင့်
+want-to-continue = သင် ဆက် လုပ်ဆောင် လိုပါ သလား?
+n-clips-pluralized =
+    { NUMBER($count) ->
+       *[other] ကလစ် { $count } ခု
+    }
+goal-interval-weekly = အပတ်စဉ်
 
 ## Profile Delete
 
+keep = ထားပါ
+remove = ဖယ်ရှားပါ
+profile-form-delete = ပရိုဖိုင်လ်ကို ဖျက်ရန်
 
 ## Profile Download
 
