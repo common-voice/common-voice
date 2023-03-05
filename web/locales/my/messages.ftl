@@ -609,6 +609,8 @@ record-error-too-quiet = ဤ အသံသွင်းခြင်း တိတ�
 record-cancel = ပြန်-သွင်းယူခြင်း ပယ်ဖျက်
 record-again-instruction = ကောင်းတယ်! <recordIcon></recordIcon> သင်၏နောက်ထပ်အပိုင်းကို မှတ်တမ်းတင်ပါ။
 record-again-instruction2 = ဆက်ထိန်းထားပါ၊ နောက်ထပ်အသံသွင်းပါ <recordIcon> </recordIcon>
+record-last-instruction = <recordIcon></recordIcon> နောက်ဆုံး တစ်ခု!
+clips-uploaded = ကလစ် တင်ဆောင်ပြီး
 
 ## Contribution Nav Items
 
