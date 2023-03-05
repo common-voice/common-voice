@@ -679,6 +679,7 @@ profile-form-delete = ပရိုဖိုင်လ်ကို ဖျက်ရ
 
 ## Landing
 
+welcome-staff = ကြိုဆိုပါတယ် { $company } မှ ဝန်ထမ်း!
 
 ## DemoLayout
 
