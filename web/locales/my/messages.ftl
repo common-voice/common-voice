@@ -648,6 +648,10 @@ validations =
 ## Dashboard
 
 your-languages = သင်၏ ဘာသာစကားများ
+stats = ကြယ်များ
+awards = ဆုများ
+you = သင်
+everyone = လူတိုင်း
 
 ## Custom Goals
 
