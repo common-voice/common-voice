@@ -23,6 +23,7 @@ const LandingPage = React.lazy(() => import('../pages/landing/landing'));
 const ErrorPage = React.lazy(() => import('../pages/error-page/error-page'));
 const CriteriaPage = React.lazy(() => import('../pages/criteria/criteria'));
 const PartnerPage = React.lazy(() => import('../pages/partner/partner'));
+const WritePage = React.lazy(() => import('../pages/write/write'));
 
 const SentryRoute = Sentry.withSentryRouting(Route);
 
@@ -185,6 +186,11 @@ export default function Content({ location }: { location: any }) {
           exact
           path={toLocaleRoute(URLS.PARTNER)}
           component={PartnerPage}
+        />
+        <SentryRoute
+          exact
+          path={toLocaleRoute(URLS.WRITE)}
+          component={WritePage}
         />
         <Route
           render={() => (
