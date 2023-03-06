@@ -14,7 +14,6 @@ interface ContributeMenuProps extends RouteComponentProps {
   showMobileMenu: boolean;
   toggleMobileMenuVisible: () => void;
   isContributionPageActive: boolean;
-  isUserLoggedIn: boolean;
 }
 
 const ContributeMenu: React.FC<ContributeMenuProps> = ({
@@ -24,7 +23,6 @@ const ContributeMenu: React.FC<ContributeMenuProps> = ({
   toggleMobileMenuVisible,
   isContributionPageActive,
   location,
-  isUserLoggedIn,
 }) => {
   const handleMouseEnter = () => {
     if (!isContributionPageActive) {
@@ -80,7 +78,6 @@ const ContributeMenu: React.FC<ContributeMenuProps> = ({
             <ContributeMenuContent
               pathname={location.pathname}
               className="mobile-menu-list"
-              isUserLoggedIn={isUserLoggedIn}
             />
           </div>
         )}
@@ -88,10 +85,7 @@ const ContributeMenu: React.FC<ContributeMenuProps> = ({
           {isContributionPageActive && <span className="black-border" />}
           <div className="menu">
             <span className="blue-border" />
-            <ContributeMenuContent
-              className="menu-list"
-              isUserLoggedIn={isUserLoggedIn}
-            />
+            <ContributeMenuContent className="menu-list" />
           </div>
         </div>
       </div>
