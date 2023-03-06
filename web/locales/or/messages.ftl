@@ -201,6 +201,7 @@ speak-now = ଏବେ କୁହନ୍ତୁ
 datasets = ଡାଟାସେଟ
 languages = ଭାଷାସମୁହ
 about = ବାବଦରେ
+partner = ସହଭାଗୀ
 profile = ପ୍ରୋଫାଇଲ
 help = ସହାୟତା
 contact = ଜଣାନ୍ତୁ
@@ -218,6 +219,7 @@ logout = ଲଗ ଆଉଟ
 ## Home Page
 
 home-title = Common Voice, Mozilla ଦ୍ୱାରା ଆରମ୍ଭ ହୋଇଥିବା ଏକ ପ୍ରକଳ୍ପ ଓ ଏହା ମେସିନଗୁଡ଼ିକୁ ଲୋକମାନେ କେମିତି କଥାହୁଅନ୍ତି ତା' ଶିଖାଏ ।
+default-tagline = Mozilla Common Voice ମେସିନଗୁଡ଼ିକୁ ଲୋକମାନେ କେମିତି କଥାହୁଅନ୍ତି ତା' ଶିଖାଏ ।
 home-cta = କୁହନ୍ତୁ, ଏଠାରେ ଅଂଶଗ୍ରହଣ କରନ୍ତୁ!
 wall-of-text-start = କଣ୍ଠସ୍ୱର ହେଲା ପ୍ରାକୃତିକ ଓ ମାନବିକ । ଏଣୁ ଆମେ ଆମ ମେସିନଗୁଡ଼ିକ ପାଇଁ ବ୍ୟବହାରଯୋଗ୍ୟ କଣ୍ଠସ୍ୱର ତିଆରି ପାଇଁ ଉତ୍ସାହିତ । ତେବେ କଣ୍ଠସ୍ୱର ତିଆରି ପାଇଁ ଖୁବ ବଡ଼ ଆକାରର ଧ୍ୱନି ଡାଟା ଦରକାର ।
 wall-of-text-more-mobile = ବଡ଼ ବଡ଼ କମ୍ପାନୀର ବେଶୀ ଭାଗ ଡାଟା ସାଧାରଣ ଲୋକଙ୍କ ପାଇଁ ଖୋଲା ନୁହେଁ । ଆମେ ଭାବୁ ଯେ ଏହା ଉଦ୍ଭାବନର ପଥର ଏକ ବଡ଼ ଅନ୍ତରାୟ । ତେଣୁ ଆମେ Common Voice ନାମକ ଏକ ପ୍ରକଳ୍ପ ଆରମ୍ଭ କରିଛୁ ଯାହା ସମସ୍ତଙ୍କ ପାଇଁ  କଣ୍ଠସ୍ୱର ଚିହ୍ନିବା ବାଟ  ଖୋଲିବ ।
@@ -285,6 +287,7 @@ whats-public = ସର୍ବସାଧାରଣ କଣ?
 email-not-public = ଆମେ ଆପଣଙ୍କର ଇମେଲ ସର୍ବସାଧାରଣରେ ଛାଡ଼ିବୁ ନାହିଁ
 recordings-and-locale-public = ରେକର୍ଡ଼ିଂର ସଂଖ୍ୟା ଏବଂ ଆପଣ କେଉଁ ଭାଷାରେ ଯୋଗଦାନ କରୁଛନ୍ତି, କେବଳ ସମସ୍ତଙ୍କର ଦେଖିବାପାଇଁ ଉପଲବ୍ଧ ହେବ
 username-optin-public = ଆପଣ ନିଜର ବ୍ୟବହାରକାରୀ ନାମକୁ ନାମହୀନ କିମ୍ବା ସର୍ବସାଧାରଣ ଚାହିଁଲେ ରଖିପାରିବେ ।
+demographic-deidentified-clarity-2 = ବିକଳ୍ପ ଭାବରେ ଉପସ୍ଥାପିତ ଜନସଂଖ୍ୟା ତଥ୍ୟ (ଯଥା ବୟସ, ଲିଙ୍ଗ, ଭାଷା, ଏବଂ ଉଚ୍ଚାରଣ) ଆପଣଙ୍କ ପ୍ରୋଫାଇଲରେ କେବେବି ସାର୍ବଜନୀନ ହେବ ନାହିଁ, ଏବଂ ଡାଟାସେଟରେ ଆପଣଙ୍କ ଆକାଉଣ୍ଟ ସହିତ ଲିଙ୍କ୍ ହେବ ନାହିଁ | ଅଧିକ ସଠିକ୍ ବିଶ୍ଳେଷଣ ଉଦ୍ଦେଶ୍ୟରେ ବ୍ୟକ୍ତିଗତ ଅଡିଓ କ୍ଲିପଗୁଡିକ ଜନସଂଖ୍ୟା ତଥ୍ୟ ସହିତ ଜଡିତ ହେବ - ଉଦାହରଣ ସ୍ୱରୂପ, ଜଣେ ଅନୁସନ୍ଧାନକାରୀ ଏକ ନିର୍ଦ୍ଦିଷ୍ଟ ଜନସଂଖ୍ୟା ବିଭାଗକୁ ଏକ ପ୍ରଶିକ୍ଷଣ ମଡେଲକୁ ଟାର୍ଗେଟ୍ କରିବାକୁ ଚାହିଁପାରନ୍ତି
 username-email-not-demographic = ପ୍ରକାଶିତ ତଥ୍ୟ ସହ ଆପଣଙ୍କର ବ୍ୟବହାରକାରୀ ନାମ କିମ୍ବା ଇମେଲକୁ ସଂଯୁକ୍ତ କରାଯିବ ନାହିଁ ।
 
 ## Speak & Listen Shortcuts
@@ -344,6 +347,9 @@ profile-form-additional-language =
     .label = ଅତିରିକ୍ତ ଭାଷା
 profile-form-language =
     .label = ଭାଷା
+profile-form-variant =
+    .label = କେଉଁ { $language } କଥାଭଙ୍ଗୀରେ ଆପଣ କଥା ହୁଅନ୍ତି?
+profile-form-variant-default-value = କୌଣସି କଥାଭଙ୍ଗୀ ଚୟନ କରାଯାଇନାହିଁ
 profile-form-accent =
     .label = ଉଚ୍ଚାରଣ
 profile-form-age =
@@ -465,6 +471,7 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = କାହିଁକି Common Voice?
+how-does-it-work-title-v2 = Common Voice କିଭଳି କାମ କରେ?
 how-does-it-work-text = ଆମେ ସର୍ବସାଧାରଣଙ୍କ ସହାୟତାରେ କଣ୍ଠସ୍ୱରଗୁଡ଼ିକର ଏକ ଓପନ ସୋର୍ସ ଡାଟାସେଟ ତିଆରିକରୁଛୁ । ଆପଣ କଣ୍ଠଦାନ କରିପାରିବେ, ଅନ୍ୟମାନଙ୍କ କ୍ଲିପ ପରଖି ପରିବେ ଓ ଡାଟାସେଟକୁ ସଭିଙ୍କ ପାଇଁ ଉନ୍ନତ କରିପାରିବେ ।
 
 ## How does it work section
@@ -472,6 +479,9 @@ how-does-it-work-text = ଆମେ ସର୍ବସାଧାରଣଙ୍କ ସହ
 about-localization-title = ୱେବସାଇଟ ସ୍ଥାନୀୟକରଣ
 about-sentence-collection-title = ବାକ୍ୟ ସଂଗ୍ରହ
 about-new-lang-title = ନୂଆ ଭାଷା ଉନ୍ମୋଚନ
+about-voice-contrib-title = ଧ୍ୱନି ଯୋଗଦାନ
+about-voice-contrib-subtitle = ଲୋକେ ଆସି ନିଜର କଣ୍ଠଦାନ କରନ୍ତି
+about-voice-validation-title = ଧ୍ୱନି ସମୀକ୍ଷଣ
 about-speak = କୁହନ୍ତୁ
 about-speak-text = ଦାନ କରାଯାଇଥିବା ବାକ୍ୟଗୁଡ଼ିକୁ ପଢିକରି ଯୋଗଦାନକର୍ତ୍ତାଗଣ ଧ୍ୱନି ରେକର୍ଡ କରିଥାନ୍ତି ।
 about-listen-queue = ଶୁଣିବା-ଧାଡ଼ି
