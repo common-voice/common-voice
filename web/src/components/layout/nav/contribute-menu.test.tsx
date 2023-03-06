@@ -20,6 +20,8 @@ describe('Contribute Menu Test', () => {
     expect(screen.queryByTestId('contribute-menu')).toBeTruthy();
     expect(await screen.findByText('Speak')).toBeTruthy();
     expect(await screen.findByText('Listen')).toBeTruthy();
+    expect(await screen.findByText('Write')).toBeTruthy();
+    expect(await screen.findByText('Review')).toBeTruthy();
   });
 
   it('shows the menu on hover', () => {
@@ -59,6 +61,18 @@ describe('Contribute Menu Test', () => {
   });
 
   it('hides review option if the user is not logged in', () => {
-    // write test here
+    renderWithProviders(
+      <ContributeMenu
+        showMenu={false}
+        setShowMenu={jest.fn()}
+        showMobileMenu={false}
+        toggleMobileMenuVisible={jest.fn()}
+        isContributionPageActive={false}
+        isUserLoggedIn={false}
+      />
+    );
+
+    expect(screen.queryByTestId('contribute-menu')).toBeTruthy();
+    expect(screen.queryByText('Review')).not.toBeTruthy();
   });
 });
