@@ -479,6 +479,7 @@ how-does-it-work-text = ଆମେ ସର୍ବସାଧାରଣଙ୍କ ସହ
 about-localization-title = ୱେବସାଇଟ ସ୍ଥାନୀୟକରଣ
 about-sentence-collection-title = ବାକ୍ୟ ସଂଗ୍ରହ
 about-new-lang-title = ନୂଆ ଭାଷା ଉନ୍ମୋଚନ
+about-new-lang-subtitle = ଆମେ Common Voice ୱେବସାଇଟ ଏହି ଭାଷାରେ ମୁକ୍ତିଲାଭ କରାଉ ।
 about-voice-contrib-title = ଧ୍ୱନି ଯୋଗଦାନ
 about-voice-contrib-subtitle = ଲୋକେ ଆସି ନିଜର କଣ୍ଠଦାନ କରନ୍ତି
 about-voice-validation-title = ଧ୍ୱନି ସମୀକ୍ଷଣ
@@ -504,24 +505,32 @@ about-get-involved-text-2 =
     ବୋବାଲ! ଆମ ସହିତ ଇମେଲ କିମ୍ବା <discourseLink>ଡିସ୍କୋର୍ସ</discourseLink>ରେ ଯୋଗାଯୋଗରେ ରହନ୍ତୁ ।
     <githubLink>ଗିଟହବ</githubLink>ଦ୍ୱାରା ମତାମତ ପ୍ରଦାନ କରନ୍ତୁ,
     କିମ୍ବା ଆମକୁ <matrixLink>ମାଟ୍ରିକ୍ସ</matrixLink> ସାମାଜିକ ଚାଟରେ ଯୋଗ ଦିଅନ୍ତୁ ।
+about-stay-in-touch = ମୁଁ କିଭଳି ଯୋଗାଯୋଗରେ ରହିବି?
+about-stay-in-touch-button = ସାଇନ ଅପ
 about-nav-why-common-voice = କାହିଁକି?
 about-nav-how-it-works = କେମିତି?
 about-nav-partners = ସହଯୋଗୀଗଣ
 about-nav-get-involved = ଜଡ଼ିତ ହୁଅନ୍ତୁ
+about-nav-how-it-works-2 = Common Voice କିଭଳି କାମ କରେ?
 
 ## Community Playbook Content
 ## What is a language
 
+about-playbook-what-is-language = Common Voice ରେ ଭାଷା କଣ?
 
 ## How do I add a language
 
 about-playbook-how-add-language = ମୁଁ କିପରି ଗୋଟିଏ ଭାଷା ଯୋଡ଼ିବି?
+about-playbook-how-add-language-translating-heading = ଏହି ୱେବସାଇଟକୁ ଅନୁବାଦ କରନ୍ତୁ
+about-playbook-how-add-language-collecting-sentences-heading = ବାକ୍ୟସମୂହ ସଂଗ୍ରହ
 
 ## How does localization work
 
+about-playbook-how-localize = ସ୍ଥାନୀୟକରଣ କିଭଳି କାମ କରେ?
 
 ## How to add sentences
 
+about-playbook-how-add-sentences = ମୁଁ ବାକ୍ୟଗୁଡ଼ିକୁ କିଭଳି ଯୋଡ଼ି ପାରିବି?
 
 ## How to record quality
 
