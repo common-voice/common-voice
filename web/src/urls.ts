@@ -8,6 +8,8 @@ export default Object.freeze({
   RECORD: '/record', // old, here for redirect purposes
   SPEAK: '/speak',
   LISTEN: '/listen',
+  WRITE: '/write',
+  REVIEW: '/review',
 
   PROFILE,
   PROFILE_INFO: PROFILE + '/info',
