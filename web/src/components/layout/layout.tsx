@@ -10,13 +10,7 @@ import { Locale } from '../../stores/locale';
 import URLS from '../../urls';
 import { replacePathLocale } from '../../utility';
 import { LocaleNavLink } from '../locale-helpers';
-import {
-  CogIcon,
-  DashboardIcon,
-  ListenIcon,
-  MenuIcon,
-  MicIcon,
-} from '../ui/icons';
+import { CogIcon, DashboardIcon, MenuIcon } from '../ui/icons';
 import { Avatar, LinkButton } from '../ui/ui';
 import Content from './content';
 import Footer from './footer';
@@ -35,6 +29,7 @@ import {
   challengeTokens,
 } from 'common';
 import API from '../../services/api';
+import { SecondaryNav } from './nav/secondary-nav';
 
 interface PropsFromState {
   locale: Locale.State;
@@ -234,6 +229,7 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
                   this.state.shouldExpandNavItems || !isContributionPageActive
                 }
                 isContributionPageActive={isContributionPageActive}
+                isUserLoggedIn={Boolean(user.account)}
               />
             </div>
             <div>
@@ -267,39 +263,12 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
             </div>
           </header>
           {isContributionPageActive && (
-            <div className="secondary-nav">
-              <MenuIcon onClick={handleSecondaryNavMobileMenuClick} />
-              <div className="options">
-                <div
-                  className={cx({
-                    'selected-option': location.pathname.includes(URLS.SPEAK),
-                  })}>
-                  <MicIcon />
-                  <Localized id="speak">
-                    <LocaleNavLink
-                      to={isDemoMode ? URLS.DEMO_SPEAK : URLS.SPEAK}
-                    />
-                  </Localized>
-                  {location.pathname.includes(URLS.SPEAK) && (
-                    <span className="border" />
-                  )}
-                </div>
-                <div
-                  className={cx({
-                    'selected-option': location.pathname.includes(URLS.LISTEN),
-                  })}>
-                  <ListenIcon />
-                  <Localized id="listen">
-                    <LocaleNavLink
-                      to={isDemoMode ? URLS.DEMO_LISTEN : URLS.LISTEN}
-                    />
-                  </Localized>
-                  {location.pathname.includes(URLS.LISTEN) && (
-                    <span className="border" />
-                  )}
-                </div>
-              </div>
-            </div>
+            <SecondaryNav
+              handleSecondaryNavMobileMenuClick={
+                handleSecondaryNavMobileMenuClick
+              }
+              isDemoMode={isDemoMode}
+            />
           )}
         </div>
         <NonProductionBanner />
@@ -314,7 +283,8 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
             shouldExpandNavItems={
               this.state.shouldExpandNavItems || !isContributionPageActive
             }
-            isContributionPageActive={isContributionPageActive}>
+            isContributionPageActive={isContributionPageActive}
+            isUserLoggedIn={Boolean(user.account)}>
             <div className="user-nav">
               <LocalizationSelect
                 locale={locale}

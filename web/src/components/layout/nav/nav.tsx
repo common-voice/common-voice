@@ -16,6 +16,7 @@ type NavProps = {
   shouldExpandNavItems?: boolean;
   isContributionPageActive?: boolean;
   children?: React.ReactNode;
+  isUserLoggedIn?: boolean;
 };
 
 const LocalizedNavLink = ({ id, to }: { id: string; to: string }) => {
@@ -36,6 +37,7 @@ const Nav: React.FC<NavProps> = ({
   children,
   shouldExpandNavItems,
   isContributionPageActive,
+  isUserLoggedIn,
   ...props
 }) => {
   const [showMenu, setShowMenu] = React.useState(false);
@@ -55,6 +57,7 @@ const Nav: React.FC<NavProps> = ({
             showMobileMenu={showMobileMenu}
             toggleMobileMenuVisible={toggleMobileMenuVisible}
             isContributionPageActive={isContributionPageActive}
+            isUserLoggedIn={isUserLoggedIn}
           />
         </ContributableLocaleLock>
         <span className="divider" />

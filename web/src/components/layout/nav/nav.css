@@ -281,19 +281,31 @@ header {
                 flex-direction: column;
                 position: absolute;
                 top: 0;
-                right: -50px;
+                left: -150px;
 
                 & .menu-list {
+                    display: flex;
                     background: var(--white);
                     box-shadow: 0 2px 5px 0 var(--light-grey);
+
+                    & .vertical-line {
+                        border-left: 1px solid var(--grey);
+                        margin-top: 24px;
+                        margin-bottom: 24px;
+                        height: 100px;
+
+                        @media (--md-down) {
+                            display: none;
+                        }
+                    }
                 }
 
                 & .blue-border {
                     border-bottom: 4px solid var(--blue);
                     display: inline-block;
-                    margin-inline-end: 50px;
                     margin-inline-start: 50px;
                     padding-top: 30px;
+                    width: 100px;
                 }
 
                 & ul {
@@ -305,7 +317,7 @@ header {
                     & li {
                         display: flex;
                         align-items: center;
-                        margin-left: 15px;
+                        margin-left: 12px;
                         margin-bottom: 20px;
 
                         & svg {
@@ -317,6 +329,11 @@ header {
                     & li:last-child {
                         margin-bottom: 0;
                         padding-bottom: 4px;
+                    }
+
+                    & li.write,
+                    li.review {
+                        margin-left: 2px;
                     }
                 }
 
@@ -354,7 +371,6 @@ header {
 
                 @media (--md-down) {
                     margin-left: 30px;
-                    margin-bottom: 10px;
                 }
 
                 @media (--lg-up) {
@@ -369,6 +385,11 @@ header {
             & .menu-wrapper-mobile {
                 width: 100%;
                 padding-bottom: 8px;
+
+                & .mobile-menu-list {
+                    display: flex;
+                    flex-direction: column;
+                }
 
                 &.listen-active {
                     padding-bottom: 0px;
@@ -424,6 +445,18 @@ header {
                     & li:last-child {
                         margin-bottom: 0;
                     }
+                }
+            }
+
+            & li.write {
+                path {
+                    fill: var(--blue);
+                }
+            }
+
+            & li.review {
+                path {
+                    fill: var(--light-purple);
                 }
             }
         }

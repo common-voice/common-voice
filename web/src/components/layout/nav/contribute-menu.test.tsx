@@ -13,6 +13,7 @@ describe('Contribute Menu Test', () => {
         showMobileMenu={false}
         toggleMobileMenuVisible={jest.fn()}
         isContributionPageActive={false}
+        isUserLoggedIn
       />
     );
 
@@ -31,6 +32,7 @@ describe('Contribute Menu Test', () => {
         showMobileMenu={false}
         toggleMobileMenuVisible={jest.fn()}
         isContributionPageActive={false}
+        isUserLoggedIn
       />
     );
 
@@ -48,10 +50,15 @@ describe('Contribute Menu Test', () => {
         showMobileMenu={false}
         toggleMobileMenuVisible={jest.fn()}
         isContributionPageActive
+        isUserLoggedIn
       />
     );
 
     fireEvent.mouseEnter(screen.getByTestId('contribute-menu'));
     expect(setShowMenuSpy).not.toHaveBeenCalled();
+  });
+
+  it('hides review option if the user is not logged in', () => {
+    // write test here
   });
 });
