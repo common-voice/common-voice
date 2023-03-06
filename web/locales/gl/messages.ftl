@@ -222,7 +222,6 @@ speak = Fale
 speak-now = Fale agora
 datasets = Conxunto de datos
 languages = Idiomas
-about = Sobre
 partner = Fágase socio
 profile = Perfil
 help = Axuda
