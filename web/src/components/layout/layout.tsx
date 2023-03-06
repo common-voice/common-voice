@@ -229,7 +229,6 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
                   this.state.shouldExpandNavItems || !isContributionPageActive
                 }
                 isContributionPageActive={isContributionPageActive}
-                isUserLoggedIn={Boolean(user.account)}
               />
             </div>
             <div>
@@ -283,8 +282,7 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
             shouldExpandNavItems={
               this.state.shouldExpandNavItems || !isContributionPageActive
             }
-            isContributionPageActive={isContributionPageActive}
-            isUserLoggedIn={Boolean(user.account)}>
+            isContributionPageActive={isContributionPageActive}>
             <div className="user-nav">
               <LocalizationSelect
                 locale={locale}
