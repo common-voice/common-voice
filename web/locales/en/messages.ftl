@@ -902,6 +902,8 @@ action-click = Click
 action-tap = Tap
 contribute = Contribute
 listen = Listen
+write = Write
+review = Review
 skip = Skip
 shortcuts = Shortcuts
 clips-with-count-pluralized = { $count ->
@@ -965,7 +967,8 @@ target-segment-add-voice = Add Your Voice
 target-segment-learn-more = Learn More
 
 ## Contribution Nav Items
-contribute-voice-collection-nav-header=Voice Collection
+contribute-voice-collection-nav-header = Voice Collection
+contribute-sentence-collection-nav-header = Sentence Collection
 
 ## Reporting
 report = Report
