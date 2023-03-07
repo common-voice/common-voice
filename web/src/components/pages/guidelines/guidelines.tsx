@@ -118,20 +118,6 @@ const Guidelines = () => {
           <div className="text-container">
             <p>
               <RoundButton>
-                <Link to="#" data-testid="email-signup-button">
-                  <VisuallyHidden>
-                    <Localized id="about-stay-in-touch-button" />
-                  </VisuallyHidden>
-                  <MailIcon />
-                </Link>
-              </RoundButton>
-              <Localized id="about-stay-in-touch-text-1">
-                <span />
-              </Localized>
-            </p>
-
-            <p>
-              <RoundButton>
                 <DiscourseLink data-testid="discourse-button">
                   <VisuallyHidden>Discourse</VisuallyHidden>
                   <DiscourseIconCode />
