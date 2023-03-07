@@ -14,6 +14,10 @@ email-opt-in-info-sub-with-challenge = Recibir correos electrónicos como record
 email-opt-in-privacy-v2 = Ao optar por recibir correos, declara que está conforme  con que Mozilla xestione esta información consonte está explicado na <privacyLink>Política de privacidade</privacyLink> de Mozilla.
 indicates-required = * Indica un campo requirido
 not-available-abbreviation = N/D
+banner-error-slow-1 = Sentímolo, Common Voice funciona con lentitude. Grazas polo seu interese.
+error-something-went-wrong = Sentímolo, algo saíu mal.
+error-clip-upload = Seguimos tendo problemas para cargar este fragmento. Quere tentalo de novo?
+error-clip-upload-server = Seguimos tendo problemas para cargar este fragmento no servidor. Volva a cargar a páxina ou ténteo de novo máis tarde.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -41,6 +45,7 @@ bn = Bengalí
 br = Bretón
 bs = Bosníaco
 bxr = Buriata
+byv = Medumba
 ca = Catalán
 cak = Kaqchikel
 ckb = Kurdo central
@@ -50,9 +55,11 @@ cs = Checo
 cv = Chuvaxo
 cy = Galés
 da = Danés
+dag = Dagbani
 de = Alemán
 dsb = Sorabo, baixo
 dv = Maldivano
+dyu = Diula
 el = Grego
 en = Inglés
 eo = Esperanto
@@ -68,9 +75,11 @@ fy-NL = Frisio
 ga-IE = Irlandés
 gl = Galego
 gn = Guaraní
+gom = Konkani de Goa
 ha = Hausa
 he = Hebreo
 hi = Hindi
+hil = Hiligaynon
 hr = Croata
 hsb = Sorabo, alto
 ht = Haitiano
@@ -79,22 +88,31 @@ hy-AM = Armenio
 hyw = Armenio occidental
 ia = Interlingua
 id = Indonesio
+ig = Ibo
 is = Islandés
 it = Italiano
 izh = Ingrio
 ja = Xaponés
+jbo = Lojban
 ka = Xeorxiano
 kaa = Karakalpak
 kab = Cabilo
 kbd = Kabardino
+ki = Kikuyu
 kk = Casaco
+km = Camboxano
 kmr = Kurdo kurmanji
+kn = Kanarés
+knn = Konkani (Devanágari)
 ko = Coreano
 kpv = Komi Siriano
 kw = Córnico
 ky = Kirguiz
+lb = Luxemburgués
 lg = Luganda
 lij = Ligur
+ln = Lingala
+lo = Laosiano
 lt = Lituano
 lv = Letón
 mai = Maithili
@@ -104,6 +122,7 @@ mhr = Mari das Pradeiras
 mk = Macedonio
 ml = Malaialam
 mn = Mongol
+mni = Meetei Lon
 mos = Mossi
 mr = Marathi
 mrj = Mari das Montañas
@@ -111,32 +130,48 @@ ms = Malaio
 mt = Maltés
 my = Birmano
 myv = Erzya
+nan-tw = Taiwanés (Minnan)
 nb-NO = Noruegués Bokmål
+nd = IsiNdebele (Norte)
 ne-NP = Nepalí
+nhe = Náhuatl da Huasteca oriental
+nia = Nias
 nl = Neerlandés
 nn-NO = Noruegués Nynorsk
+nr = IsiNdebele (Sur)
+nso = Sotho do norte
+nyn = Runyankole
 oc = Occitano
+om = Afaan Oromo
 or = Oriá
 pa-IN = Punjabi
 pap-AW = Papiamento (Aruba)
 pl = Polaco
 ps = Pastún
 pt = Portugués
+quc = Quiché
+quy = Quechua Chanka
 rm-sursilv = Romanche Surselvano
 rm-vallader = Romanche Vallader
 ro = Romanés
 ru = Ruso
 rw = Ruanda
 sah = Iacut
+sat = Santali (Ol Chiki)
 sc = Sardo
 scn = Siciliano
+sdh = Kurdo do sur
 shi = Shilha
 si = Cingalés
 sk = Eslovaco
+skr = Saraiki
 sl = Esloveno
+snk = Soninke
 so = Somalí
 sq = Albano
 sr = Serbio
+ss = Suazi
+st = Sotho do Sur
 sv-SE = Sueco
 sw = Suahili
 syr = Siríaco
@@ -144,22 +179,39 @@ ta = Tamil
 te = Telugu
 tg = Taxico
 th = Tailandés
+ti = Tigriña
+tig = Tigré
+tk = Turkmeno
 tl = Tagalo
+tn = Setswana
+tok = Toki Pona
 tr = Turco
+ts = Tsonga
 tt = Tártaro
+tw = Twi
+ty = Tahitiano
+tyv = Tuvalés
 uby = Ubykh
 udm = Udmurto
 ug = Uigur
 uk = Ucraíno
 ur = Urdú
 uz = Uzbeko
+ve = Venda
 vec = Véneto
 vi = Vietnamita
 vot = Vótico
+wo = Wolof
+xh = Xosa
+yi = Yiddish
+yo = Ioruba
 yue = Chinés cantonés
+zgh = Tamazight
 zh-CN = Chinés (China)
 zh-HK = Chinés (Hong Kong)
 zh-TW = Chinese (Taiwán)
+zu = Zulú
+zza = Zaza
 
 # [/]
 
@@ -170,7 +222,6 @@ speak = Fale
 speak-now = Fale agora
 datasets = Conxunto de datos
 languages = Idiomas
-about = Sobre
 partner = Fágase socio
 profile = Perfil
 help = Axuda
@@ -189,6 +240,7 @@ logout = Cerrar sesión
 ## Home Page
 
 home-title = Common Voice é unha iniciativa de Mozilla para axudar a ensinarlles ás máquinas como fala a xente real.
+default-tagline = Mozilla Common Voice é unha iniciativa para axudar a ensinarlle ás máquinas como falan as persoas.
 home-cta = Comece a falar, contribúa aquí!
 wall-of-text-start = A voz é natural, a voz é humana. Por iso é que estamos fascinados ao crear tecnoloxía usábel de voz para as nosas máquinas. Para crear sistemas de voz, requírese unha extremadamente gran cantidade de datos de voz.
 wall-of-text-more-mobile = A maioría dos datos utilizados por grandes compañías non están dispoñíbeis para a maioría das persoas. Pensamos que iso abafa a innovación. Por iso lanzamos o Project Common Voice (Proxecto Voz Publica), un proxecto para axudar a facer o recoñecemento de voz aberto a calquera.
@@ -282,6 +334,10 @@ shortcut-record-toggle = g
 shortcut-record-toggle-label = Gravar/Parar
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Regravar fragmento
+shortcut-discard-ongoing-recording = ESC
+shortcut-discard-ongoing-recording-label = Descartar a gravación en curso
+shortcut-submit = Volver
+shortcut-submit-label = Enviar fragmentos
 request-language-text = Non ve a súa lingua en Common Voice?
 request-language-button = Solicitar un idioma
 
@@ -352,6 +408,7 @@ accept-privacy = Estou de acordo con que xestionen esta info nos termos explicad
 accept-privacy-title = Política de privacidade
 accept-privacy-and-terms = Acepto as <termsLink>Condicións</termsLink> e o <privacyLink>Aviso de privacidade</privacyLink> de Common Voice
 login-identity = Identidade de inicio de sesión
+login = Iniciar sesión
 login-signup = Iniciar sesión/Rexistrarse
 edit = Editar
 email-subscriptions = Subscricións por correo
@@ -363,6 +420,7 @@ skip-submission-note = Nota: Necesitará seleccionar entre Falar ou Escoitar par
 off = Apagado
 on = Aceso
 help-accent = Necesita axuda co acento?
+help-accent-explanation = O acento é a forma en que pronuncia as palabras. Poden influír nel o(s) lugar(es) onde viviu, as outras linguas que fala e moitos outros factores. Pode compartir aquí calquera información que considere relevante.
 help-variants = Necesita axuda coas variedades?
 help-variants-explanation = As variedades son formas específicas dunha lingua. Por exemplo, unha variedade é a que comparten as persoas que viven nunha determinada zona xeográfica ou comunidade. Ás veces estas chámanse dialectos.
 
@@ -374,6 +432,7 @@ connect-gravatar = Conectar con Gravatar
 gravatar_not_found = Non se atopou un gravatar para o seu correo
 file_too_large = O ficheiro seleccionado é longo de máis
 avatar-uploaded = Avatar subido
+max-file-size = { $kb }kb max
 remove-avatar = Eliminar avatar
 
 ## Profile - Email
@@ -412,6 +471,9 @@ faq-do-want-native-a = Si, precisamente! Parte das expectativas con Common Voice
 faq-why-different-speakers-q = Por que se necesitan tantos falantes diferentes por idioma?
 faq-why-different-speakers-a = A maior parte das bases de datos adéstranse cunha sobrerrepresentación de certos trazos demográficos, o que resulta nun nesgo de primacía para <articleLink>homes de clase media</articleLink>. Os acentos e dialectos que tenden a estar sub-representados nos conxuntos de datos de adestramento están asociados tipicamente con grupos de persoas que están marxinados por outra parte. Moitos motores tamén sofren para comprender voces femininas. Está é a razón pola que queremos variedade na nosa base de datos!
 faq-why-my-lang-q = Por que non está incluída aínda a miña lingua?
+faq-why-my-lang-a =
+    Common Voice é unha plataforma de colaboración aberta e todos os idiomas foron engadidos por voluntarios.
+    Encantaríanos que engadise o seu idioma! <languageRequestLink>Consulte aquí como engadir o seu idioma.</languageRequestLink>
 faq-what-quality-q = Que nivel de calidade de son se require para que un fragmento de voz se utilice no conxunto de datos?
 faq-what-quality-a = Queremos que o conxunto de datos de Common Voice teña a calidade de son que un motor de fala a texto atopará en condicións reais, así que buscamos variedade. Ademais dunha comunidade diversa de falantes, un conxunto de datos con variación na calidade do son ensinaralle ao motor de fala a texto a xestionar varias situacións do mundo real, desde unha conversa de fondo a un ruído de coche. Mentres o fragmento de voz sexa intelixíbel, será abondo para o conxunto de datos.
 faq-why-10k-hours-q = Por que o obxectivo é de 10.000 horas validadas por idioma de captura de son?
@@ -443,10 +505,25 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Por que Common Voice?
+how-does-it-work-title-v2 = Como funciona Common Voice?
 how-does-it-work-text = Estamos a auspiciar un conxunto de datos de voz de fonte aberta. Ofreza a súa voz, valide a precisión dos fragmentos doados por outras persoas, mellore o conxunto de datos para todo o mundo.
 
 ## How does it work section
 
+about-language-req-subtitle = Alguén solicita que se engada un idioma.
+about-localization-title = Tradución da páxina web
+about-localization-subtitle = O texto da páxina web tradúcese a ese idioma.
+about-sentence-collection-title = Recollida de frases
+about-sentence-collection-subtitle = Recóllense frases para que as persoas as lean en voz alta.
+about-new-lang-title = Publicación do novo idioma
+about-new-lang-subtitle = Publicamos a páxina de Common Voice neste idioma.
+about-voice-contrib-title = Contribución de voz
+about-voice-contrib-subtitle = A xente vén e contribúe coa súa voz.
+about-voice-validation-title = Validación da voz
+about-voice-validation-subtitle = Outras persoas validan eses fragmentos de voz.
+about-dataset-release-title = Publicación do conxunto de datos
+about-dataset-release-subtitle = Publicamos o conxunto de datos cada 3 meses.
+about-subscribe-text = Quere estar en contacto con Common Voice?
 about-speak = Falar
 about-speak-text = Os colaboradores gravan fragmentos de voz lendo dun banco de frases doadas.
 about-listen-queue = Escoitar cola
@@ -468,38 +545,106 @@ about-get-involved-text-2 =
     Quere axudar a mellorar Common Voice?
     Xenial! Póñase en contacto vía correo electrónico ou vía foros <discourseLink>Discourse</discourseLink>
     remita incidencias do sitio vía <githubLink>GitHub</githubLink>, ou únase ao chat da comunidade <matrixLink>Matrix</matrixLink>.
+about-stay-in-touch = Como estar en contacto?
 about-nav-why-common-voice = Por que?
 about-nav-how-it-works = Como?
 about-nav-partners = Socios
 about-nav-get-involved = Participe
+about-nav-how-it-works-2 = Como funciona Common Voice?
+about-nav-playbook = Descubra como participar
 
 ## Community Playbook Content
 ## What is a language
 
+about-playbook-what-is-language = Que é un idioma en Common Voice?
+about-playbook-what-is-language-content-1 = Hai moitas formas de entender o que é un idioma. Para os obxectivos que perseguen os modelos de recoñecemento de voz, Common Voice suxire centrarse na "intelixibilidade mutua", é dicir, "os falantes desta lingua conseguen entenderse entre si se o intentan?"
+about-playbook-what-is-language-content-2 = Queremos que os modelos de voz poidan comprender unha diversa gama de falantes. Para que isto suceda, un conxunto de datos de voz debe representar a moitas persoas diferentes.
+about-playbook-what-is-language-content-3 = Algúns idiomas teñen unha enorme variación na gramática, o vocabulario e a pronuncia. Por este motivo, <ctaLink>introducimos "Variedades"</ctaLink> en 2022. Isto dá ás comunidades un xeito de distinguir as súas formas de fala dentro do conxunto de datos máis amplo.
 
 ## How do I add a language
 
+about-playbook-how-add-language = Como engadir un idioma?
+about-playbook-how-add-language-content-1 =
+    En primeiro lugar, comprobe se <languageLink>o seu idioma xa existe</languageLink>.
+    Se non é así, <languageRequestLink>descubra como engadir o seu idioma</languageRequestLink>.
+    Hai dúas etapas: traducir a páxina web e recoller frases
+about-playbook-how-add-language-translating-heading = Traducir a páxina web
+about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Consulte a nosa guía sobre como usar Pontoon.</translateVideoLink>
+about-playbook-how-add-language-translating-content-2 =
+    Para a tradución, empregamos unha ferramenta de Mozilla chamada <pontoonLink>Pontoon</pontoonLink>. Inclúe moitos idiomas,
+    pero se non atopa o seu, pode <pontoonRequestLink>solicitar que se engada</pontoonRequestLink>.
+    Despois, para que o idioma estea dispoñible no proxecto Common Voice,
+    <githubRepoLink>solicite o novo idioma en GitHub</githubRepoLink>. <localizationFragment>Saber máis sobre a tradución da páxina web</localizationFragment>.
+about-playbook-how-add-language-collecting-sentences-heading = Recoller frases
+about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>Consulte a nosa guía sobre como empregar a ferramenta Sentence Collector</sentenceCollectorVideo>.
+about-playbook-how-add-language-collecting-sentences-content-2 =
+    Pode <sentenceCollectorLinkAdd>engadir pequenas cantidades de frases</sentenceCollectorLinkAdd>
+    ou facer <bulkImportDocsLink>importacións masivas a través de Github</bulkImportDocsLink>.
+    Lembre que as frases deben ter <licenseLink>licenza CC0 (dominio público)</licenseLink> ou ser da súa propia autoría.
+about-playbook-how-add-language-collecting-sentences-content-3 = Saber máis sobre a recollida de frases.
 
 ## How does localization work
 
+about-playbook-how-localize = Como funciona a tradución da páxina web?
+about-playbook-how-localize-content-1 = A tradución da páxina de Common Voice faise a través de <strong>Pontoon</strong>.
+about-playbook-how-localize-content-2 = <pontoonAccountLink>Cree unha conta</pontoonAccountLink> se aínda non dispón dela. A continuación, escolla o seu idioma <strong>('Equipo')</strong> e despois seleccione o proxecto <pontoonCvLink>Common Voice</pontoonCvLink>. Aparecerá unha serie de textos para traducir. Ao escoller un deles, mostrarase o orixinal en inglés e un recadro para introducir a tradución correspondente.
+about-playbook-how-localize-content-3 = A tradución faise a partir do inglés, pero pode ver <strong>Suggestions</strong> (suxestións) noutros idiomas. Prema na icona <strong>Profile</strong> (perfil), logo na ligazón <strong>Settings</strong> (configuración) e engada os idiomas que fala. Na esquina inferior dereita aparecerá unha lista de traducións chamada <strong>Locales</strong>. As traducións móstranse no sitio web ao día seguinte.
+about-playbook-how-localize-content-4 = A páxina web está lista para ser publicada cando a tradución chega ao 75 %.
+about-playbook-how-localize-content-5 = Consulte o noso vídeo explicativo
 
 ## How to add sentences
 
+about-playbook-how-add-sentences = Como engadir frases?
+about-playbook-how-add-sentences-content-1 = <strong>Sentence Collector</strong> é unha ferramenta para recompilar e validar frases de dominio público. Para empregala, debe <scAccountLink>crear unha conta</scAccountLink> e, logo, engadir o seu idioma ao seu <strong>perfil</strong>. Pode <strong>engadir</strong> frases ou <strong>revisar</strong> frases engadidas anteriormente.
+about-playbook-how-add-sentences-content-2 = As frases deben ser revisadas e aceptadas por dúas persoas para ser incluídas en Common Voice. Cree directrices para o seu idioma <languageGuidelinesLink>aquí</languageGuidelinesLink>. As frases deben ser de <licenseLink>dominio público</licenseLink> e ter menos de 15 palabras. Pode solicitarlle ao propietario dun texto que o faga <waiverLink>de dominio público (licenza CC0) mediante o noso proceso de cesión de dereitos</waiverLink> e enviárnolo a commonvoice@mozilla.com
+about-playbook-how-add-sentences-content-3 = Pode empregar o <scraperLink>extractor de frases</scraperLink> para aproveitar frases curtas da Wikipedia.
+about-playbook-how-add-sentences-content-4 = As frases que foron validadas expórtanse os mércores e están dispoñibles despois da seguinte actualización.
 
 ## How to record quality
 
+about-playbook-how-record-quality = Como gravar un fragmento de voz de alta calidade?
+about-playbook-how-record-content-1 = Fale coa súa voz normal! É importante que todos os acentos do galego estean representados. Queremos o seu acento tal e como é, e queremos o seu volume, estilo de fala e entoación habituais.
+about-playbook-how-record-content-2 = Evite demasiado ruído de fondo. A gravación debe entenderse facilmente.
+about-playbook-how-record-content-3 = Lea atentamente a frase. Non descarte, cambie nin engada palabras.
+about-playbook-how-record-content-4 = Asegúrese de que a plataforma estea gravando antes de comezar a falar e que a gravación non se detén ata que acabe.
+about-playbook-how-record-content-5 = <accuracyLink>Saber máis sobre os criterios de contribución.</accuracyLink>
 
 ## How to grow language
 
+about-playbook-how-grow-language = Como impulsar de forma eficaz o crecemento dun idioma en Common Voice?
+about-playbook-how-grow-language-content-1 = Crear oportunidades para que unha ampla variedade de persoas contribúan a Common Voice garante que o conxunto de datos sirva ao maior número de persoas posible. Poñemos á súa disposición recursos e modelos que se poden empregar!
+about-playbook-how-grow-language-content-2 = Eventos
+about-playbook-how-grow-language-content-3 = Pode organizar eventos para animar ás persoas a contribuír. É máis dodo do que pensa. Pode facelo en liña, cunha ferramenta de videoconferencia, ou en persoa, se é posible. <eventTemplate>Consulte os nosos modelos e recursos para organizar eventos</eventTemplate>.
+about-playbook-how-grow-language-content-4 = Redes sociais
+about-playbook-how-grow-language-content-5 = Pode empregar as redes sociais para transmitir a mensaxe. Comparta publicacións que expliquen por que é importante e póñase en contacto con outras persoas para falar de cuestións como os dereitos lingüísticos, a voz na Intelixencia Artificial ou os prexuízos tecnolóxicos. Saiba máis sobre como <campaignLink>desenvolver unha campaña social e o contido que pode reutilizar</campaignLink>.
+about-playbook-how-grow-language-content-6 = Asociacións e redes
+about-playbook-how-grow-language-content-7 = Busque outras persoas ou institucións interesadas (universidades, escolas de idiomas, comunidades orientadas cara á xestión de recursos e dos dereitos lingüísticos etc.) Póñase en contacto con eles e explíquelles claramente como poden axudar e por que. <outreachTemplates>Consulte os nosos modelos de correos electrónicos de divulgación</outreachTemplates>.
+about-playbook-how-grow-language-content-8 = <strong>Sexa creativo!</strong> A súa comunidade lingüística será única e estas son só algunhas formas de comezar.
 
 ## How to validate
 
+about-playbook-how-validate = Como saber se debo aprobar un fragmento de voz?
+about-playbook-how-validate-content-1 = Se conseguiu <strong>escoitalo</strong> e <strong>entendelo</strong>, adoita ser <strong> mellor aprobalo</strong>.
+about-playbook-how-validate-content-2 = <strong>Non rexeite fragmentos só por que a persoa que grava "ten un acento" diferente ao seu</strong>. Isto é importante para que o recoñecemento de voz funcione mellor para todo o mundo.
+about-playbook-how-validate-content-3 = Se pensa que a pronuncia <strong>imposibilita a comprensión</strong>, hai <strong>moito ruído de fondo</strong> ou <strong>se oen outras voces</strong>, entón debería rexeitar o fragmento. <accuracyLink>Saiba máis sobre os nosos criterios de contribución</accuracyLink>.
+about-playbook-how-validate-content-4 = Se un fragmento é rexeitado por dúas persoas, publícase nun subconxunto diferente dentro do conxunto de datos.
 
 ## How to access dataset
 
+about-playbook-how-access-dataset = Como acceder ao conxunto de datos e empregalo?
+about-playbook-how-access-dataset-content-1 = Pode ir á <datasetsPage>pestana de conxuntos de datos</datasetsPage>, seleccionar a versión e o(s) idioma(s) que quere e descargalo(s)! Teña en conta que os arquivos teñen <metadataLink>metadatos asociados</metadataLink>, como información demográfica e datos de validación. Deberá proporcionar un enderezo de correo electrónico para descargar o conxunto de datos.
+about-playbook-how-access-dataset-content-2 = Se está a buscar ferramentas para desenvolver modelos de recoñecemento automático da fala, pode contactar con outras persoas da comunidade a través de <discourseLink>Discourse</discourseLink>.
 
 ## How are decisions made
 
+about-playbook-how-project-governance = Como se toman as decisións do proxecto?
+about-playbook-how-project-governance-content-1 = Common Voice é posible grazas a unha ampla comunidade de activistas, lingüistas, científicos de datos, académicos e enxeñeiros de software de todo o mundo. O proxecto está xestionado pola Fundación Mozilla.
+about-playbook-how-project-governance-content-2 = A nosa gobernanza baséase nos seguintes piares:
+about-playbook-how-project-governance-content-3 = Privacidade, seguridade e transparencia.
+about-playbook-how-project-governance-content-4 = Participación e toma de decisións compartida.
+about-playbook-how-project-governance-content-5 = Valorización e recoñecemento.
+about-playbook-how-project-governance-content-6 = Responsabilidade mutua.
+about-playbook-how-project-governance-content-7 = <governanceLink>Saber máis sobre a nosa gobernanza</governanceLink>
 
 ## Glossary
 
@@ -558,6 +703,7 @@ review-delete-recordings = Eliminar as miñas gravacións
 
 ## Datasets Page
 
+datasets-heading = Conxunto de datos
 datasets-headline = Estamos a construír un conxunto de datos de voces de fonte aberta, multilingüe que calquera pode utilizar para adestrar aplicacións que funcionan coa voz.
 datasets-positioning =
     Cremos que os grandes conxuntos de datos, dispoñíbeis publicamente, alimentarán a innovación e a saudábel competición comercial da tecnoloxía de voz baseada na aprendizaxe automática.
@@ -566,6 +712,9 @@ datasets-positioning =
     
     Vexa esta páxina como unha referencia a un feixe de doutros conxuntos de datos e, así como Common Voice continúe a medrar, un lugar onde atopar as actualizacións publicadas.
 language = Idioma
+download-dataset-header = Descargar o conxunto de datos
+download-delta-explainer = Fixemos algúns cambios. Os segmentos Delta só conteñen os fragmentos máis recentes desde a última actualización. <deltaLink>Saber máis sobre este traballo</deltaLink>.
+download-dataset-tag = Seleccione o conxunto de datos do idioma desexado e escolla a versión que quere descargar.
 # File size in gigabytes
 size = Tamaño
 validated-hr-total = Total de horas validado
@@ -580,6 +729,7 @@ confirm-size = Xa está preparado para iniciar unha descarga de <b>{ $size }</b>
 size-gigabyte = GB
 size-megabyte = MB
 confirm-no-identify = <b>Acepta</b> non tentar determinar a identidade dos falantes do conxunto de datos Common Voice
+confirm-join-mailing-list = Quero unirme á lista de correo de Common Voice
 download-language = Descargar { $language }
 validated-hours = Horas validadas
 recorded-hours = Horas gravadas
@@ -593,6 +743,11 @@ subscribe = Subscribir
 get-started-speech = Primeiros pasos co recoñecemento de voz
 other-datasets = Outros conxuntos de datos de voz
 feedback-q = Quere comentar?
+resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ é un <docsLink>conxunto de ferramentas de código aberto</docsLink> para investigadores/as que desenvolven modelos conversacionais de última xeración.
+resource-deepspeech-info = Deep Speech é un motor de recoñecemento da fala de código aberto desenvolto por Mozilla que se pode usar para crear aplicacións de recoñecemento da fala. Consulte a nosa <githubLink>descrición xeral en Github</githubLink> e únase ao <discourseLink>DeepSpeech Discourse</discourseLink> para descubrir como comezar.
+resource-coqui-info = <coquiLink>Coqui</coquiLink> dedícase á tecnoloxía da fala de código aberto. Os seus proxectos inclúen modelos de voz-a-texto e de texto-a-voz baseados na aprendizaxe profunda.
+community-playbook = Orientacións á comunidade
+resource-playbook-info = <playbookLink>Atope orientacións útiles</playbookLink> sobre toda a viaxe de Common Voice, desde a súa tradución ata o uso do conxunto de datos, alén de como contactar coa nosa comunidade.
 data-other-librispeech-description = LibriSpeech é un corpus de aproximadamente 1000 horas de contido oral en inglés a 16Khz derivado da lectura de audiolibros procedentes do proxecto LibriVox.
 data-other-ted-name = Corpus TED-LIUM
 data-other-ted-description = O corpus TED-LIUM provén das audiocharlas e as súas transcricións dispoñíbeis no sitio web TED.
@@ -607,6 +762,9 @@ more = Máis
 close = Pechar
 download = Descargar
 dataset-version = Versión
+sha256-checksum-copied = Copiouse a suma de verificación SHA256.
+sha256-checksum-copied-error = Produciuse un erro ao copiar a suma de verificación SHA256
+clipboard-not-supported = O portapapeis non é compatible
 
 ## Download Modal
 
@@ -639,6 +797,41 @@ other-language = Outro idioma
 
 ## Request Language Pages
 
+request-language-heading = Solicitar un novo idioma
+request-language-explanation-1 =
+    Comprobe se o seu idioma está incluído na
+    <languagesPageLink>pestana de idiomas de Common Voice</languagesPageLink>.
+    Se non é así, cubra este formulario e <strong>enviarémoslle un correo electrónico
+    explicándolle como configurar o seu idioma</strong>.
+request-language-explanation-2 = Tamén <strong>informaremos aos nosos xestores da comunidade do seu interese</strong>, para que lle poidan dar apoio adicional e para que lle faciliten a información que poida precisar.
+request-language-form-email =
+    .label = O seu enderezo de correo electrónico
+request-language-form-info =
+    .label = Información sobre o idioma
+request-language-form-info-explanation =
+    Engada tanta información como poida sobre o idioma. Isto
+    pode incluír:
+request-language-form-info-explanation-list-1 = Nome(s) do seu idioma
+request-language-form-info-explanation-list-2 = <isoCodeLink>Códigos ISO</isoCodeLink>, se os coñece
+request-language-form-info-explanation-list-3 = Ligazóns a sitios web que poden axudarnos a saber máis sobre o idioma
+request-language-google-recaptcha-required = reCAPTCHA é necesario se quere continuar
+request-language-google-recaptcha-error = Produciuse un erro con reCAPTCHA. Por favor inténteo de novo.
+# Success page
+request-language-success-heading = Grazas! Enviou unha nova solicitude de idioma
+request-language-success-list-1 =
+    Debería recibir, en breve, un correo no que se explican
+    os pasos para engadir o seu idioma a Common Voice
+request-language-success-list-2 =
+    A xerencia da nosa comunidade porase en contacto con vostede para ofrecerlle
+    apoio adicional e para informalo de se
+    xa hai unha comunidade traballando na súa lingua
+request-language-success-list-3 =
+    Se non ten noticias nosas nun par de días,
+    comuníquenolo por <emailLink>{ $email }</emailLink>
+    e porémonos en contacto con vostede!
+request-language-error =
+    Pode ser que non recibísemos esa solicitude. Envíenos directamente un correo
+    a <emailLink>{ $email }</emailLink> e porémonos en contacto con vostede!
 
 ## Languages Overview
 
@@ -655,6 +848,8 @@ language-search-input =
 language-speakers = Falantes
 localized = Localizado
 sentences = Frases
+language-validation-hours = Horas
+language-validation-progress = Avance de validación
 
 ## Contribution
 
@@ -708,8 +903,14 @@ listen-again-instruction = Bo traballo!<playIcon></playIcon> Volva escoitar cand
 listen-3rd-time-instruction = 2 menos, sigamos!<playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon>Derradeira!
 listen-empty-state = Posiblemente esgotamos os fragmentos para aprobar: actualice a páxina ou ténteo de novo máis tarde.
+listen-loading-error =
+    Non foi posible atopar ningún fragmento de audio para que o escoite.
+    Por favor inténteo de novo máis tarde.
 speak-empty-state = Esgotamos as frases para gravar neste idioma
 speak-empty-state-cta = Propor novas frases
+speak-loading-error =
+    Non foi posible atopar ningunha frase para que lea.
+    Por favor inténteo de novo máis tarde.
 record-button-label = Grave a súa voz
 share-title-new = <bold>Axúdenos</bold> a atopar máis voces
 keep-track-profile = Faga o seguimento do seu avance cun perfil
@@ -722,6 +923,7 @@ target-segment-learn-more = Saber máis
 
 ## Contribution Nav Items
 
+contribute-voice-collection-nav-header = Recollida de voz
 
 ## Reporting
 
@@ -881,6 +1083,23 @@ profile-form-delete = Eliminar o perfil
 download-q = Precisa descargar os seus datos?
 download-info = Díganos o que querería descargar:
 download-profile-title = Perfil
+download-profile-info = Inclúe correo electrónico, nome de usuario e información demográfica, dispoñibles de inmediato
+download-profile-size = Uns poucos bytes
+download-recordings-title = Gravacións
+download-recordings-info = Inclúe arquivos mp3 e as frases correspondentes. Pode tardar un pouco.
+download-recordings-size = Normalmente megabytes
+download-recordings-unavailable = Non pode solicitar as súas gravacións mentres estea en curso outra solicitude.
+download-recently-requested = Pode solicitar unha nova retirada das súas gravacións cada { $days } días.
+download-size = Tamaño
+download-selected = Seleccionado
+download-start = Descargar os seus datos de perfil
+download-request = Solicitar gravacións
+download-requests = Solicitudes anteriores de descarga de gravacións
+download-requests-info = Cando solicita as súas gravacións, recompilámolas nun ou varios ficheiros ZIP. Aquí ten as súas solicitudes anteriores:
+download-request-button = Descargar
+download-request-title = { $created }
+download-request-description = { $clipCount } fragmentos de voz. O tamaño total do arquivo compactado é { $size }. Caduca { $expires }.
+download-request-archive-multiple = Dividido en { $archiveCount } archivos ZIP que conteñen
 
 ## Landing
 
@@ -931,7 +1150,9 @@ demo-dashboard-card-body = Por cada fragmento de voz doado e cada fragmento de s
 contribution-criteria-nav = Criterios
 contribution-criteria-link = Comprender os criterios de contribución
 contribution-criteria-page-title = Criterios de contribución
+contribution-criteria-page-description = Saiba o que debe buscar cando escoita fragmentos de voz e axude a que as súas gravacións de voz sexan tamén máis ricas.
 contribution-for-example = por exemplo
+contribution-misreadings-title = Erros de lectura
 see-more = <chevron></chevron>Ver máis
 see-less = <chevron></chevron>Ver menos
 

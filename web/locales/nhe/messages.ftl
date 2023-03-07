@@ -82,7 +82,9 @@ hy-AM = Armenio
 hyw = armenio occidental
 ia = interlingua
 id = Indonesio
+ie = Interlingüismo
 ig = Igbo
+is = Islandés
 it = Italiano
 izh = izhoriano
 ja = Japonés
@@ -129,6 +131,9 @@ ne-NP = Nepali
 nhe = Náhuatl de la Huasteca Oriental
 nia = Nías
 nl = Holandés
+nn-NO = Nynorsk noruego
+nso = Sesotho del norte
+nyn = Runyankole
 oc = Occitano
 om = Afaan Oromo
 or = Odia
@@ -145,11 +150,42 @@ ro = Rumano
 ru = Ruso
 rw = Kinyarwanda
 sah = Sajá
+sat = Santali (Ol Chiki)
+sc = Sardo
+scn = Siciliano
+sdh = kurdo del sur
+shi = Shilha
+si = Cingalés
 sk = Eslovaco
+skr = Saraiki
 sl = Esloveno
+snk = Soninké
 so = somalí
 sq = Albanés
 sr = Serbio
+ss = Sisvati
+st = Sotho del sur
+sv-SE = Sueco
+sw = Swahili
+syr = Siríaco
+ta = Tamil
+te = Telugu
+tg = Tayika
+th = Tailandés
+ti = Tigrinya
+tig = Tigre
+tk = Turkmeno
+tl = Tagalo
+tn = Setsuana
+tok = Toki Pona
+tr = Turco
+ts = Xitsonga
+tt = Tártaro
+tw = Twi
+ty = Tahitiano
+tyv = Tuvan
+uby = Ubykh
+udm = Udmurt
 ug = Uigur
 uk = Ucranio
 ur = Urdu
@@ -163,18 +199,40 @@ xh = Xhosa
 yi = yídish
 yo = Yoruba
 yue = Cantonés
+zgh = Tamazight
 zh-CN = Chino (China)
+zh-HK = Chino (Hong Kong)
+zh-TW = Chino(Taiwan)
+zu = Zulú
+zza = Zazo
 
 # [/]
 
 
 ## Layout
 
+speak = Camatise
+speak-now = Camatise nama
+datasets = Datasets
+languages = Idiomas
+about = Acerca de
+partner = Partner
+profile = Perfil
+help = Tlapaleuistli
+contact = Contacto
+privacy = Privacidad
+terms = Terminos
+cookies = Cookies
+faq = Preguntas wan respuestas
 share-title = Xi techpalehui ti temoze sekinoj tech palehuiz hua tlatoli.
 share-text = Xitechpalehui timachtize tepozme kenikatza ce tlakatl o cihuatl kamati, xitechmalehui ka mo tlatolij { $link }
 
 ## Home Page
 
+vote-yes = Quena
+vote-no = axcana
+all-locales = nochi
+today = nama
 
 ## Account Benefits
 
@@ -190,13 +248,20 @@ share-text = Xitechpalehui timachtize tepozme kenikatza ce tlakatl o cihuatl kam
 
 ## Speak Shortcuts
 
+shortcut-submit = Timo cuapase
 
 ## ProjectStatus
 
+status-contribute = xitechpaleui  wamo camatilistli
+english = Ingles
 
 ## ProfileForm
 
 male = cíhuatl
+female = Tlacatl
+# Gender
+other = seyoj
+profile-close = tsakua
 
 ## Profile - Email
 
@@ -206,6 +271,7 @@ male = cíhuatl
 
 ## FAQ
 
+faq-using-cv = Usando Common Voice
 
 ## ABOUT US
 
@@ -249,6 +315,8 @@ male = cíhuatl
 
 ## Data
 
+data-download-yes = Quena
+data-download-deny = axcana
 
 ## Datasets Page
 

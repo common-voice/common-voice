@@ -137,6 +137,7 @@ nan-tw = taiwanès (min nan)
 nb-NO = Bokmål noruec
 nd = IsiNdebele septentrional
 ne-NP = nepalès
+nhe = Nàhuatl de La Huasteca oriental
 nia = nias
 nl = neerlandès
 nn-NO = noruec nynorsk
@@ -411,6 +412,7 @@ accept-privacy = Accepto que gestioneu aquesta informació en els termes descrit
 accept-privacy-title = Política de privadesa
 accept-privacy-and-terms = Accepto les <termsLink>condicions d'ús</termsLink> i l'<privacyLink>avís de privadesa</privacyLink> del Common Voice.
 login-identity = Identitat d'inici de sessió
+login = Inicia la sessió
 login-signup = Inici de sessió / Registre
 edit = Edita
 email-subscriptions = Subscripcions per correu electrònic
@@ -933,6 +935,10 @@ target-segment-first-banner = Ajudeu a assolir el primer segment objectiu del Co
 target-segment-add-voice = Afegiu la vostra veu
 target-segment-learn-more = Més informació
 
+## Contribution Nav Items
+
+contribute-voice-collection-nav-header = Recollida de veus
+
 ## Reporting
 
 report = Informa
@@ -1014,7 +1020,7 @@ lose-goal-progress-warning = En editar l'objectiu, podeu perdre el progrés actu
 want-to-continue = Voleu continuar?
 finish-editing = Voleu acabar d'editar?
 lose-changes-warning = Si ho deixeu ara, es perdran tots els canvis
-build-custom-goal = Crea un objectiu personalitzat
+build-custom-goal = Creeu un objectiu personalitzat
 help-reach-hours-pluralized =
     { NUMBER($hours) ->
         [one] Ajudeu a arribar a { $hours } hora en { $language } amb un objectiu personal
@@ -1023,7 +1029,7 @@ help-reach-hours-pluralized =
 help-reach-hours-general-pluralized =
     { NUMBER($hours) ->
         [one] Ajudeu al Common Voice a arribar a{ $hours } hora en una llengua amb un objectiu personal
-       *[other] Ajudeu al Common Voice a arribar a{ $hours } hores en una llengua amb un objectiu personal
+       *[other] Ajudeu al Common Voice a arribar a { $hours } hores en una llengua amb un objectiu personal
     }
 set-a-goal = Defineix un objectiu
 cant-decide = No sabeu què fer?
@@ -1560,7 +1566,18 @@ partnerships-our-partners = Els nostres socis
 # FIRST POST SUBMISSION CTA
 first-cta-header-text = Gràcies per donar els talls de veu!
 first-cta-subtitle-text = Voldríeu compatir informació sobre la vostra forma de parlar?
+why-donate = Per què ho demaneu?
+why-donate-explanation-1 = Aquesta informació és opcional; només l'heu d'afegir si us hi sentiu còmode. Quan publiquem el conjunt de dades, pseudoanonimitzem tota la informació personal i ens assegurem que la informació com el vostre nom i adreça electrònica no estigui connectada amb la informació demogràfica com l'edat o el sexe.
+why-donate-explanation-2 = Perquè la tecnologia funcioni bé per a tothom, les dades que ajuden els desenvolupadors a crear tecnologia han de reflectir una àmplia diversitat de persones. Per exemple, si no incloem parlants amb un accent concret, aleshores la tecnologia no funcionarà bé per a les persones amb aquest accent. <learnMore>Més informació sobre per què són importants les metadades.</learnMore>
 add-information-button = Afegeix informació
+continue-speaking-button = No gràcies, segueix a Parla
 create-profile-text = Voleu desar la vostra informació? <createProfile>Creeu un perfil</createProfile>
+thanks-for-voice-toast = Gràcies per la informació de la vostra veu
+thanks-for-voice-toast-error = S'ha produït un error en enviar la informació de la vostra veu
+# SECOND POST SUBMISSION CTA
+second-cta-header-text = Gràcies per donar la vostra veu!
+second-cta-subtitle-text = Amb un perfil, podeu fer el seguiment de la vostra activitat i connectar-vos a una comunitat de col·laboradors de dades de veu.
 already-have-an-account = Ja teniu compte? <login>Inicieu la sessió</login>
 create-profile-button = Crea un perfil
+# IMAGE TAGS
+img-alt-success-checkmark = marca de vistiplau
