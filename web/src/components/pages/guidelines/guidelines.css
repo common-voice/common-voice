@@ -1,4 +1,8 @@
 .guidelines-main-container {
+    a {
+        color: var(--anchor-text-blue);
+    }
+
     & .header-section {
         height: 400px;
         background: url('./images/guidelines-waves.png');
@@ -92,6 +96,19 @@
             margin: 0 auto;
             max-width: var(--desktop-width);
             padding-left: 16px;
+
+            & .announcements-container {
+                background: var(--light-yellow);
+                border: 1px solid var(--dark-yellow);
+                padding: 24px;
+                margin-bottom: 20px;
+
+                & .announcements-header {
+                    font-family: var(--base-font-family);
+                    font-weight: 600;
+                    margin-bottom: 12px;
+                }
+            }
 
             @media (--md-down) {
                 margin: 0 16px;
@@ -194,6 +211,10 @@
                         flex: 1;
                         text-align: left;
                     }
+
+                    @media (--md-up) {
+                        pointer-events: none;
+                    }
                 }
 
                 & .guidelines-content-explanation {
@@ -205,8 +226,6 @@
                     }
 
                     a {
-                        color: var(--anchor-text-blue);
-
                         &.underlined-link {
                             text-decoration: underline;
                         }
@@ -509,10 +528,6 @@
                     align-items: flex-start;
                     flex-direction: column;
                     font-size: var(--font-size);
-                }
-
-                & a {
-                    color: var(--anchor-text-blue);
                 }
             }
 
