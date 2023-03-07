@@ -411,6 +411,7 @@
                         text-transform: uppercase;
                         font-weight: bold;
                         color: var(--black);
+                        cursor: auto;
 
                         svg {
                             margin-right: 12px;
