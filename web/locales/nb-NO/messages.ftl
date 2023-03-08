@@ -541,13 +541,22 @@ about-nav-how-it-works = Hvordan?
 about-nav-partners = Partnere
 about-nav-get-involved = Bli med
 about-nav-how-it-works-2 = Hvordan fungerer Common Voice?
+about-nav-playbook = Les om hvordan du deltar
 
 ## Community Playbook Content
 ## What is a language
 
+about-playbook-what-is-language = Hva er et språk på Common Voice?
+about-playbook-what-is-language-content-1 = Det er mange måter å tenke språk på. Når det gjelder talegjenkjenningsmodeller, foreslår Common Voice å fokusere på «gjensidig forståelighet», eller «kan de som snakker dette språket stort sett forstå hverandre hvis de prøver?»
+about-playbook-what-is-language-content-2 = Vi ønsker at talemodeller skal bli bedre til å forstå et mangfold av talere. For at dette skal skje, må et stemmedatasett representere mange forskjellige personer.
+about-playbook-what-is-language-content-3 = Noen språk har enorm variasjon i grammatikk, ordforråd og uttale. Av denne grunn <ctaLink>introduserer vi «Varianter»</ctaLink> i 2022. Dette gir fellesskap en måte å skille språkene sine i det større datasettet.
 
 ## How do I add a language
 
+about-playbook-how-add-language = Hvordan legger jeg til et språk?
+about-playbook-how-add-language-content-1 = Kontroller først om språket ditt <languageLink>allerede eksisterer</languageLink>. Hvis det ikke gjør det, må du <strong>oversette nettstedet og samle setninger</strong>.
+about-playbook-how-add-language-translating-heading = Oversettelse av nettsiden
+about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Se vår veiledning om hvordan du bruker Pontoon.</translateVideoLink>
 
 ## How does localization work
 
