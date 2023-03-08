@@ -173,6 +173,8 @@ snk = Soninke
 so = Somali
 sq = Albansk
 sr = Serbisk
+ss = Svati
+st = Sotho
 sv-SE = Svensk
 sw = Swahili
 syr = Gammelsyrisk
@@ -557,6 +559,13 @@ about-playbook-how-add-language = Hvordan legger jeg til et språk?
 about-playbook-how-add-language-content-1 = Kontroller først om språket ditt <languageLink>allerede eksisterer</languageLink>. Hvis det ikke gjør det, må du <strong>oversette nettstedet og samle setninger</strong>.
 about-playbook-how-add-language-translating-heading = Oversettelse av nettsiden
 about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Se vår veiledning om hvordan du bruker Pontoon.</translateVideoLink>
+about-playbook-how-add-language-translating-content-2 =
+    Vi bruker et Mozilla-verktøy kalt <pontoonLink>Pontoon</pontoonLink> for oversettelser. Pontoon har mange språk,
+    men hvis den ikke har ditt kan du <pontoonRequestLink>be om at språket ditt blir lagt til</pontoonRequestLink>.
+    Deretter, for å gjøre språket tilgjengelig på Common Voice-prosjektet,
+    <githubRepoLink>be om det nye språket på GitHub</githubRepoLink>. <localizationFragment>Se mer på nettstedsoversettelse</localizationFragment>.
+about-playbook-how-add-language-collecting-sentences-heading = Innsamling av setninger
+about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>Se vår veiledning i hvordan du bruker setningsinnsamleren</sentenceCollectorVideo>.
 
 ## How does localization work
 
