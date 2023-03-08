@@ -18,6 +18,7 @@ banner-error-slow-1 = Beklager, Common Voice kjører sakte. Takk for din interes
 banner-error-slow-2 = Vi mottar mye trafikk og undersøker nå problemene.
 banner-error-slow-link = Statusside
 error-something-went-wrong = Beklager, noe gikk galt.
+error-clip-upload = Opplasting av dette klippet fungerer fortsatt ikke, ønsker du å prøve videre?
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -766,6 +767,9 @@ target-segment-generic-card = Du bidrar til et målsegment
 target-segment-first-banner = Hjelp med å lage Common Voice sitt første målsegment i { $locale }
 target-segment-add-voice = Legg til stemmen din
 target-segment-learn-more = Les mer
+
+## Contribution Nav Items
+
 
 ## Reporting
 
