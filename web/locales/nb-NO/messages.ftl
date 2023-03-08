@@ -61,6 +61,7 @@ dag = Dagbani
 de = Tysk
 dsb = Lavsorbisk
 dv = Dhivehi
+dyu = Dioula
 el = Gresk
 en = Engelsk
 eo = Esperanto
