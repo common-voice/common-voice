@@ -594,6 +594,7 @@ about-playbook-how-grow-language-content-6 = Partnerskap og nettverk
 ## How to validate
 
 about-playbook-how-validate = Hvordan vet jeg om jeg skal godkjenne et stemmeklipp?
+about-playbook-how-validate-content-1 = Hvis du kunne <strong>høre dem</strong> og <strong>forstå dem</strong>, er det vanligvis <strong>best å godkjenne</strong>.
 
 ## How to access dataset
 
