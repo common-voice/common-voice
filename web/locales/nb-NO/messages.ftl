@@ -209,9 +209,12 @@ xh = Xhosa
 yi = Jiddisch
 yo = Joruba
 yue = Kantonesisk
+zgh = Berbisk
 zh-CN = Kinesisk (Kina)
 zh-HK = Kinesisk (Hong Kong)
 zh-TW = Kinesisk (Taiwan)
+zu = Zulu
+zza = Zazaisk
 
 # [/]
 
@@ -586,9 +589,11 @@ about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollec
 
 ## How to grow language
 
+about-playbook-how-grow-language-content-6 = Partnerskap og nettverk
 
 ## How to validate
 
+about-playbook-how-validate = Hvordan vet jeg om jeg skal godkjenne et stemmeklipp?
 
 ## How to access dataset
 
