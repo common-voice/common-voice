@@ -19,6 +19,7 @@ banner-error-slow-2 = Vi mottar mye trafikk og undersøker nå problemene.
 banner-error-slow-link = Statusside
 error-something-went-wrong = Beklager, noe gikk galt.
 error-clip-upload = Opplasting av dette klippet fungerer fortsatt ikke, ønsker du å prøve videre?
+error-clip-upload-server = Opplasting av dette klippet feiler stadig på serveren. Last inn siden på nytt, eller prøv igjen senere.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -41,10 +42,12 @@ ba = Basjkirsk
 bas = Basaa
 be = Hviterussisk
 bg = Bulgarsk
+bm = Bambara
 bn = Bengalsk
 br = Bretonsk
 bs = Bosnisk
 bxr = Burjatisk
+byv = Medumba
 ca = Katalansk
 cak = Kakchikel
 ckb = Sentralkurdisk
@@ -54,6 +57,7 @@ cs = Tsjekkisk
 cv = Tsjuvasjisk
 cy = Walisisk
 da = Dansk
+dag = Dagbani
 de = Tysk
 dsb = Lavsorbisk
 dv = Dhivehi
