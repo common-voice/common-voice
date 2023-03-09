@@ -1324,6 +1324,7 @@ sc-rejected-none-found = Non se atopou ningunha frase rexeitada!
 ## STATS
 
 sc-stats-title = Estatísticas
+sc-stats-updating = Actualizando...
 
 ## ADD
 
