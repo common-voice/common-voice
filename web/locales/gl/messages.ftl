@@ -1121,6 +1121,7 @@ download-request-modal-title = Ligazóns de descarga
 download-request-modal-description = Aquí ten as ligazóns para descargar os seus ficheiros ZIP.
 download-request-link-text = ZIP #{ $offset } de { $total }
 download-request-metadata-link = Texto da frase
+download-request-link-single = Tamén pode copiar e pegar as URL directamente no seu xestor de descargas preferido. Caducarán en 12 horas, pero pode volver a esta páxina para xerar outras novas en calquera momento.
 
 ## Landing
 
@@ -1174,6 +1175,29 @@ contribution-criteria-page-title = Criterios de contribución
 contribution-criteria-page-description = Saiba o que debe buscar cando escoita fragmentos de voz e axude a que as súas gravacións de voz sexan tamén máis ricas.
 contribution-for-example = por exemplo
 contribution-misreadings-title = Erros de lectura
+contribution-misreadings-description = Cando escoite, verifique con moito coidado se o que se gravou é exactamente o que aparece escrito e rexeite calquera incongruencia. <br />Algúns erros moi comúns son:
+contribution-misreadings-description-extended-list-1 = Falta <strong>'Un'</strong> ou <strong>'O'</strong> no inico da gravación.
+contribution-misreadings-description-extended-list-2 = Falta un <strong>s</strong> no final dunha palabra.
+contribution-misreadings-description-extended-list-3 = Lectura de contraccións que, en realidade, non están no texto, como "d'ouro" no canto de "de ouro", ou viceversa.
+contribution-misreadings-description-extended-list-4 = Falta o final da última palabra por deter a gravación antes de acabar de falar.
+contribution-misreadings-description-extended-list-5 = Titubeos ou varios intentos de ler unha palabra.
+contribution-misreadings-example-1-title = Os dinosauros xigantes do Triásico.
+contribution-misreadings-example-2-title = Os dinosauro xigantes do Triásico.
+contribution-misreadings-example-2-explanation = [Debería ser 'dinosauros']
+contribution-misreadings-example-3-title = Os dinosauros xigantes do Triási-.
+contribution-misreadings-example-3-explanation = Detívose a gravación antes do final da última palabra.
+contribution-misreadings-example-4-title = Os dinosauros xigantes do Triásico. Si.
+contribution-misreadings-example-4-explanation = [Gravouse máis que o texto requirido]
+contribution-misreadings-example-5-title = Vou beber un vaso de auga
+contribution-misreadings-example-6-title = Vou beber un vaso d'auga.
+contribution-misreadings-example-6-explanation = [Debería ser "de auga"]
+contribution-misreadings-example-7-title = Vou beber un vaso de auga cheo.
+contribution-misreadings-example-7-explanation = [Non aparece 'cheo' no texto orixinal]
+contribution-misreadings-example-8-title = A abella pasou rápido.
+contribution-misreadings-example-8-explanation = [Contido non coincidente]
+contribution-varying-pronunciations-title = Pronuncias diferentes
+contribution-varying-pronunciations-description = Teña coidado antes de rexeitar un fragmento de voz debido a como está pronunciado. Queremos que as máquinas sexan quen de recoñecer a ampla variedade de pronuncias do galego. Deixa un lugar para as persoas que falan diferente a ti.
+contribution-varying-pronunciations-description-extended = Por outra banda, se pensa que quen le probablemente descoñece a palabra e simplemente está facendo unha suposición sobre a súa pronuncia, rexeite o fragmento. Se ten dúbidas, use o botón de omitir.
 see-more = <chevron></chevron>Ver máis
 see-less = <chevron></chevron>Ver menos
 
