@@ -1217,6 +1217,9 @@ contribution-background-voices-example-1-explanation = Vés de camiño? <strong>
 contribution-volume-title = Volume
 contribution-volume-description = Existen variacións naturais de volume entre unhas persoas e outras. Rexeite soamente aqueles fragmentos nos que o volume é tan alto que fai fallar a gravación ou, máis comunmente, aqueloutros nos que é tan baixo que non permite percibir o que se di sen a referencia do texto escrito.
 contribution-reader-effects-title = Efectos de lectura
+contribution-reader-effects-description = Na maioría das gravacións, as persoas falan coa súa voz natural. Ocasionalmete, pódese aceptar unha gravación que está fóra da norma (berrada, murmuradada ou cunha voz "dramática"). Non obstante, débense rexeitar as gravacións cantadas e aquelas nas que se fai uso dunha voz sintetizada por ordenador.
+contribution-just-unsure-title = Ten dúbidas?
+contribution-just-unsure-description = Se atopa algo que non se trata nesta pequena guía, vote segundo o seu criterio. Se realmente non pode decidirse, use o botón de saltar e pase á seguinte gravación.
 see-more = <chevron></chevron>Ver máis
 see-less = <chevron></chevron>Ver menos
 
@@ -1227,7 +1230,20 @@ see-less = <chevron></chevron>Ver menos
 
 ## HEADER/FOOTER
 
+sc-header-home = Inicio
+sc-header-how-to = Como usar
+sc-header-add = Engadir
+sc-header-review = Revisar
+sc-header-rejected = Frases rexeitadas
+sc-header-my = As miñas frases
+sc-header-statistics = Estatísticas
 sc-header-profile = Perfil
+sc-footer-discourse = Discourse
+sc-footer-report-bugs = Informar de problemas
+sc-footer-translate = Traducir esta páxina
+sc-footer-report-copyright = Informar de problemas cos dereitos de autor
+sc-footer-privacy = Privacidade
+sc-footer-terms = Termos
 
 ## HOME
 
