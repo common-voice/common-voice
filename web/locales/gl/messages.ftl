@@ -1327,9 +1327,31 @@ sc-rejected-none-found = Non se atopou ningunha frase rexeitada!
 sc-stats-title = Estatísticas
 sc-stats-updating = Actualizando...
 sc-stats-error = Non puidemos obter as estatísticas. Por favor, inténteo de novo máis tarde.
+# Variables:
+#   $sentenceCount (Number) - Total number of sentences uploaded through Sentence Collector
+#   $languageCount (Number) - Total number of languages these sentences represent
+sc-stats-summary = A ferramenta Sentence Collector de Common Voice recompilou { $sentenceCount } frases en { $languageCount } idiomas!
 
 ## ADD
 
+sc-submit-err-select-lang = Seleccione un idioma.
+sc-submit-err-add-sentences = Engada frases.
+sc-submit-err-add-source = Engada unha fonte.
+sc-submit-err-confirm-pd = Confirme que estas frases son de dominio público.
+sc-submit-prompt =
+    .message = As frases non se enviaron, desexa saír igualmente?
+sc-submit-title = Engadir frases
+sc-submit-select-language =
+    .labelText = Seleccione un idioma
+sc-submit-add-sentences = Engada frases de <wikipediaLink>dominio público</wikipediaLink>
+sc-submit-ph-one-per-line =
+    .placeholder = Unha frase por liña
+sc-submit-from-where = De onde son estas frases de <wikipediaLink>dominio público</wikipediaLink>?
+sc-submit-ph-read-how-to =
+    .placeholder = Consulte as instrucións se ten dúbidas sobre como atribuír a autoría das frases
+sc-submit-confirm = Confirmo que estas frases son de <wikipediaLink>dominio público</wikipediaLink> e teño permiso para cargalas.
+sc-submit-button =
+    .submitText = Enviar
 
 ## ADD LANGUAGE
 
