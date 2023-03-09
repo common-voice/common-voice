@@ -1244,15 +1244,38 @@ sc-footer-translate = Traducir esta páxina
 sc-footer-report-copyright = Informar de problemas cos dereitos de autor
 sc-footer-privacy = Privacidade
 sc-footer-terms = Termos
+sc-footer-cookies = Cookies
+sc-login-signup-button = Iniciar sesión / Rexistrarse
+sc-logout-button = Pechar sesión
 
 ## HOME
 
+sc-home-title = Benvido á ferramenta Sentence Collector de Common Voice
+sc-home-intro = A ferramenta Sentence Collector forma parte de <commonVoiceLink>Common Voice</commonVoiceLink>. As persoas colaboradoras pódena empregar para recoller e aprobar frases creadas pola comunidade. Ademais, é posible empregala para importar e limpar corpus de dominio público de tamaño pequeno a mediano. Lembre que todas as frases deben ser de dominio público. As frases aprobadas expórtanse cada semana ao repositorio de Common Voice e publícanse na páxina web de Common Voice en cada nova actualización.
+sc-home-collect-title = Recoller frases
+sc-home-collect-text = Axúdenos escribindo ou recollendo frases de dominio público.
+sc-home-review-title = Revisar frases
+sc-home-review-text = Axúdenos revisando as frases para comprobar que sexan correctas de acordo coas directrices marcadas.
 
 ## GENERAL
 
+sc-languages-fetch-error = Non foi posible obter os idiomas dispoñibles. Actualmente non se poden realizar achegas. Por favor, inténteo de novo máis tarde.
 
 ## HOW-TO
 
+sc-howto-title = Como usar
+sc-howto-addlang-title = Engadir idiomas para traballar
+sc-howto-addlang-text = Unha vez que inicie sesión, pode seleccionar os seus idiomas na sección de perfil.
+sc-howto-addsen-title = Engadir novas frases
+sc-howto-addsen-item-1 = Todas as frases que envíe deben estar baixo <wikipediaLink>licenza de dominio público (CC0)</wikipediaLink>. Porén, co fin de apoiar a inclusión de traballos que non estean baixo licenza pública, creamos un <cc0WaiverLink>modelo de cesión</cc0WaiverLink> para obras nas que o propietario dos dereitos de autor quere aportar o material a Common Voice.
+sc-howto-addsen-item-2 = Números. O texto non debe incluír díxitos, posto que poden causar problemas á hora de ler en voz alta. A forma en que se le un número depende do contexto e isto pode inducir a confusión no conxunto de datos. Por exemplo, o número "2409" pode lerse como "vinte e catro cero nove" ou como "dous mil catrocentos nove".
+sc-howto-addsen-item-3 = Abreviaturas e acrónimos. Deben evitarse as abreviaturas e acrónimos no texto (“EUA”, “OMS” etc.), xa que a súa lectura pode diferir respecto da súa representación ortográfica. Ademais, pode haber varias lecturas correctas para unha soa abreviatura. Por exemplo, o acrónimo "OMS" pode pronunciarse como "O-M-S" ou como unha soa palabra.
+sc-howto-addsen-item-4 = Puntuación. Os símbolos especiais e os signos de puntuación só deben incluírse cando sexa absolutamente necesario. Por exemplo, en galego empregámos a diérese en palabas como “ambigüidade” ou “pingüín” e, polo tanto, debe incluírse no texto, pero é pouco probable que precise un simbolo especial como “@” ou “#”.
+sc-howto-addsen-item-5 = Caracteres estranxeiros. Os caracteres deben ser válidos na lingua que se fala. Por exemplo, "ж" é unha letra do alfabeto ruso pero nunca se usa en galego, polo que non debería aparecer en ningún texto escrito en galego.
+sc-howto-addsen-item-6 = Os idiomas poden ter as súas <validationRulesLink>propias regras de validación</validationRulesLink> con requisitos adicionais. Se non hai un ficheiro de validación específico para un idioma, empregamos as regras xenéricas do inglés.
+sc-howto-addsen-post-1 = Preferimos frases naturais/conversacionais. Aínda que a diversidade fonética e léxica son importantes, estamos intentando que a gravación das frases sexa o máis divertida posible. Sería xenial que as súas frases fosen o máis naturais e atractivas posibles.
+sc-howto-cite-title = Como citar
+sc-howto-cite-pre-1 = É importante que faga referencia a onde atopou a licenza pública para evitar o plaxio e permitir seguimentos sobre <copyrightIssuesLink>problemas cos dereitos de autor</copyrightIssuesLink>. Aquí ten algunhas formas de citar unha obra.
 sc-howto-review-subtitle = Asegúrese de que a frase cumpra os seguintes criterios:
 sc-howto-review-criteria-1 = A frase debe estar escrita correctamente.
 sc-howto-review-criteria-2 = A frase debe ser gramaticalmente correcta.
