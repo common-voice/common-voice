@@ -3,7 +3,7 @@ import classNames from 'classnames';
 import React from 'react';
 
 import { LocaleNavLink } from '../../locale-helpers';
-import { ListenIcon, MenuIcon, MicIcon } from '../../ui/icons';
+import { EditIcon, ListenIcon, MenuIcon, MicIcon } from '../../ui/icons';
 import URLS from '../../../urls';
 
 type SecondaryNavProps = {
@@ -37,6 +37,16 @@ export const SecondaryNav: React.FC<SecondaryNavProps> = ({
           <LocaleNavLink to={isDemoMode ? URLS.DEMO_LISTEN : URLS.LISTEN} />
         </Localized>
         {location.pathname.includes(URLS.LISTEN) && <span className="border" />}
+      </div>
+      <div
+        className={classNames({
+          'selected-option': location.pathname.includes(URLS.WRITE),
+        })}>
+        <EditIcon />
+        <Localized id="write">
+          <LocaleNavLink to={URLS.WRITE} />
+        </Localized>
+        {location.pathname.includes(URLS.WRITE) && <span className="border" />}
       </div>
     </div>
   </div>
