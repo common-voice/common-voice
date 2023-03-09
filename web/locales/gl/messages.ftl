@@ -1198,6 +1198,8 @@ contribution-misreadings-example-8-explanation = [Contido non coincidente]
 contribution-varying-pronunciations-title = Pronuncias diferentes
 contribution-varying-pronunciations-description = Teña coidado antes de rexeitar un fragmento de voz debido a como está pronunciado. Queremos que as máquinas sexan quen de recoñecer a ampla variedade de pronuncias do galego. Deixa un lugar para as persoas que falan diferente a ti.
 contribution-varying-pronunciations-description-extended = Por outra banda, se pensa que quen le probablemente descoñece a palabra e simplemente está facendo unha suposición sobre a súa pronuncia, rexeite o fragmento. Se ten dúbidas, use o botón de omitir.
+contribution-varying-pronunciations-example-1-title = Había un gato enriba da cadeira.
+contribution-varying-pronunciations-example-1-explanation = [É correcto pronunciar 'gato' e tamén 'ghato']
 see-more = <chevron></chevron>Ver máis
 see-less = <chevron></chevron>Ver menos
 
