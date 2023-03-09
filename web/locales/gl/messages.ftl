@@ -1276,6 +1276,10 @@ sc-howto-addsen-item-6 = Os idiomas poden ter as súas <validationRulesLink>prop
 sc-howto-addsen-post-1 = Preferimos frases naturais/conversacionais. Aínda que a diversidade fonética e léxica son importantes, estamos intentando que a gravación das frases sexa o máis divertida posible. Sería xenial que as súas frases fosen o máis naturais e atractivas posibles.
 sc-howto-cite-title = Como citar
 sc-howto-cite-pre-1 = É importante que faga referencia a onde atopou a licenza pública para evitar o plaxio e permitir seguimentos sobre <copyrightIssuesLink>problemas cos dereitos de autor</copyrightIssuesLink>. Aquí ten algunhas formas de citar unha obra.
+sc-howto-cite-item-1 = Pode incluír a páxina web, por exemplo "Common Voice - https://commonvoice.mozilla.org/"
+sc-howto-cite-item-2 = Pode empregar o estilo de referencia académico. Por exemplo, o estilo de Harvard: "Mozilla (2021) Common Voice. Dispoñible en https://commonvoice.mozilla.org/ (Consulta: 15 de setembro de 2021)"
+sc-howto-cite-item-3 = Para os textos de dominio público que non están dispoñibles en liña, pode empregar o estilo de referencia académico. Por exemplo, o estilo de Harvard: "Jess (2021) Os meus poemas de dominio público"
+sc-howto-review-title = Revisar frases
 sc-howto-review-subtitle = Asegúrese de que a frase cumpra os seguintes criterios:
 sc-howto-review-criteria-1 = A frase debe estar escrita correctamente.
 sc-howto-review-criteria-2 = A frase debe ser gramaticalmente correcta.
@@ -1283,15 +1287,43 @@ sc-howto-review-criteria-3 = A frase debe ser fácil de pronunciar.
 sc-howto-review-criteria-4 = Se a frase cumpre os criterios, prema no botón "Aprobar".
 sc-howto-review-criteria-5 = Se a frase non cumpre os criterios anteriores, prema no botón "Rexeitar". Se non está seguro, tamén pode omitir a frase e pasar á seguinte.
 sc-howto-review-criteria-6 = Se xa non quedan frases para revisar, axúdenos a recoller máis.
+sc-howto-findpd-title = Buscar frases de dominio público
+sc-howto-findpd-subtitle = Buscar en Internet
+sc-howto-findpd-text-2 = Lembre que necesitamos permiso para publicar esas frases, polo que debe asegurarse de que o texto pertence ao <wikipediaLink>dominio público</wikipediaLink>. Se non hai unha indicación explícita, póñase en contacto coa persoa á que pertence o texto e pregúntelle se desexa poñelo no dominio público. Se desexa facelo, facilítelle o <cc0WaiverLink>Acordo de cesión</cc0WaiverLink>; se non é así, non pode empregar ese texto.
+sc-howto-findpd-tips = Aquí ten algúns consellos para a procura de frases:
+sc-howto-findpd-tips-1 = As mellores fontes que pode buscar son podcasts, transcricións, guións de películas e calquera texto que poida conter conversas cotiás.
+sc-howto-findpd-tips-2 = As actas do goberno, os libros e os artigos tamén son xeniais. Pero, posto que o texto adoita ser un pouco máis formal, non son tan prioritarios.
+sc-howto-findpd-tips-3 = Desafortunadamente, aínda non podemos incluír artigos de Galipedia. Polo tanto, non copie e pegue desde alí.
+sc-howto-findpd-subtitle-2 = Colaborar con individuos ou organizacións locais
+sc-howto-findpd-partner-2 = As persoas especialistas en lingüística, tamén lle poden axudar. Trate de poñerse en contacto coas facultades de filoloxía da zona (tanto profesores como estudantes) e pídalles axuda para reunir un conxunto diverso de frases con diferentes sons da súa lingua.
 
 ## MY SENTENCES
 
+sc-my-title = As miñas frases
+sc-my-description = Esta páxina ofrécelle unha visión xeral de todas as frases enviadas. Tamén pode eliminar as frases xa enviadas, se for necesario, marcando o recadro de selección do lado e premendo no botón &quot;Eliminar as frases seleccionadas&quot; abaixo de todo. Elimine frases só se é absolutamente necesario, por exemplo, se se deu conta de que unha frase está protexida por dereitos de autor.
+sc-my-loading = Cargando as súas frases...
+sc-my-err-fetching = Produciuse un erro ao recuperar as súas frases. Por favor, inténteo de novo.
+sc-my-no-sentences = Non se atopou ningunha frase!
+# Variables:
+#   $batchId (String) - A unique ID identifying the submission of sentences - sentences uploaded together all have the same batch ID
+sc-my-submission = Envío: { $batchId }
+# Variables:
+#   $source (String) - Associated source the user filled out when uploading the sentence
+sc-my-source = Fonte: { $source }
+sc-my-delete = Eliminar as frases seleccionadas
+sc-my-deleting = Eliminando as frases seleccionadas...
+sc-my-err-failed-delete = Produciuse un erro ao eliminar as frases seleccionadas... Por favor, inténteo de novo!
 
 ## REJECTED
 
+sc-rejected-title = Frases rexeitadas
+sc-rejected-loading = Cargando as frases rexeitadas...
+sc-rejected-err-fetching = Produciuse un erro ao recuperar as frases rexeitadas. Por favor, inténteo de novo.
+sc-rejected-none-found = Non se atopou ningunha frase rexeitada!
 
 ## STATS
 
+sc-stats-title = Estatísticas
 
 ## ADD
 
