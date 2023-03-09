@@ -1352,21 +1352,135 @@ sc-submit-ph-read-how-to =
 sc-submit-confirm = Confirmo que estas frases son de <wikipediaLink>dominio público</wikipediaLink> e teño permiso para cargalas.
 sc-submit-button =
     .submitText = Enviar
+sc-submit-filtered = Frases rexeitadas por non cumprir os requisitos (por favor, envíe as frases corrixidas como frases novas):
+sc-submit-guidelines = Consulte as <howToLink>directrices</howToLink>.
 
 ## ADD LANGUAGE
 
+sc-add-lang-could-not-add = Non foi posible engadir o idioma
+sc-add-lang-sec-label = Engada o idioma ao que desexa contribuír
+sc-add-lang-sec-button = Engadir idioma
+sc-add-err-unexpected = O servidor devolveu unha resposta inesperada
+# Variables:
+#   $duplicates (Number) - Number of sentences which got rejected because they are duplicates
+sc-add-result =
+    { $duplicates ->
+        [0] Frases enviadas. Rexeitáronse { $duplicates } frases como duplicadas.
+        [one] Frases enviadas. Rexeitouse { $duplicates } frase como duplicadas.
+       *[other] Frases enviadas. Rexeitáronse { $duplicates } frases como duplicadas.
+    }
+# Variables:
+#   $sentences (Number) - Number of sentences which failed to be saved to the database - could be several different reasons
+sc-add-err-failed =
+    { $sentences ->
+        [0] Non fallou ningunha frase
+        [one] Fallou 1 frase
+       *[other] Fallaron { $sentences } frases
+    }
+sc-add-err-submission = Erro de envío
+sc-add-lang-process-notice = Se o seu idioma non aparece aquí, pode solicitalo mediante <languageProcessLink>este proceso</languageProcessLink>.
 
 ## ADD SENTENCES CONFIRMATION
 
+sc-confirm-are-you-sure =
+    .message = As frases non se enviaron, desexa saír igualmente?
+sc-confirm-sentences-title = Confirmar as novas frases
+# Variables:
+#   $countOfSentences (Number) - Number of sentences the user has filled in the submission form
+sc-confirm-sentences-found =
+    { $countOfSentences ->
+        [0] Non se atoparon frases.
+        [one] Atopouse 1 frase.
+       *[other] Atopáronse { $countOfSentences } frases.
+    }
+# Variables:
+#   $countOfInvalidated (Number) - Number of sentences the user rejected in the review form before submission
+sc-confirm-rejected-by-you = Rexeitou { $countOfInvalidated }
+sc-confirm-already-reviewed =
+    { $countOfReviewed ->
+        [0] Non se revisou ningunha frase.
+        [one] Xa se revisou 1 frase. Bo traballo!
+       *[other] Xa se revisaron { $countOfReviewed } frases. Bo traballo!
+    }
+# Variables:
+#   $readyCount (Number) - Number of sentences ready to be uploaded
+sc-confirm-ready =
+    { $readyCount ->
+        [0] Non hai frases preparadas para enviar!
+        [one] Hai 1 frase preparada para enviar!
+       *[other] Hai { $readyCount } frases preparadas para enviar!
+    }
+# Variables:
+#   $countOfUnreviewed (Number) - Number of sentences unreviewed before the upload
+sc-confirm-unreviewed = Hai { $countOfUnreviewed } frases sen revisar. Se o desexa, tamén pode revisar as súas frases antes de envialas.
+sc-confirm-button-text = Confirmar
+sc-confirm-uploading = Estanse subindo as frases. Isto pode tardar uns minutos, dependendo do número de frases engadidas. Por favor, non peche esta páxina.
 
 ## LANGUAGE INFO
 
+sc-lang-info-title-total = Total
+sc-lang-info-title-personal = Persoal
+# Variables:
+#   $totalSentences (Number) - Number of sentences uploaded in total for this language
+sc-lang-info-total =
+    { $totalSentences ->
+        [0] Non hai frases.
+        [one] 1 frase en total.
+       *[other] { $totalSentences } frases en total.
+    }
+# Variables:
+#   $totalInReview (Number) - Number of sentences currently in the review state for this language
+sc-lang-info-in-review =
+    { $totalInReview ->
+        [0] Non hai frases en revisión.
+        [one] Hai 1 frase en revisión.
+       *[other] Hai { $totalInReview } frases en revisión.
+    }
+# Variables:
+#   $unreviewedSentencesByYou (Number) - Number of sentences the user can still review
+sc-lang-info-left-for-you =
+    { $unreviewedSentencesByYou ->
+        [0] Non ten frases para revisar.
+        [one] Ten 1 frase para revisar.
+       *[other] Ten { $unreviewedSentencesByYou } frases para revisar.
+    }
+sc-lang-info-review-now = <reviewLink>Revise agora!</reviewLink>
+sc-lang-info-add-more = <addLink>Engada máis frases agora!</addLink>
+# Variables:
+#   $validatedSentences (Number) - Number of sentences which have been approved for this language
+sc-lang-info-validated =
+    { $validatedSentences ->
+        [0] Non hai frases validadas.
+        [one] Hai 1 frase validada.
+       *[other] Hai { $validatedSentences } frases validadas.
+    }
+# Variables:
+#   $rejectedSentences (Number) - Number of sentences which have been rejected for this language
+sc-lang-info-rejected =
+    { $rejectedSentences ->
+        [0] Non hai frases rexeitadas.
+        [one] Hai 1 frase rexeitada.
+       *[other] Hai { $rejectedSentences } frases rexeitadas.
+    }
 
 ## LOGIN
 
+sc-login-err-failed = Erro no inicio de sesión
+sc-login-err-try-again = Por favor, inténteo de novo.
 
 ## PROFILE
 
+# Variables:
+#   $username (String) - eMail address of the logged in user
+sc-profile-title = Perfil: { $username }
+sc-personal-err-lang-not-found = Non se puido eliminar o idioma: o idioma non se atopou.
+sc-personal-err-remove = Non se puido eliminar o idioma
+sc-personal-your-languages = Os seus idiomas:
+sc-personal-remove-button = eliminar
+# Variables:
+#   $sentences (Number) - Number of sentences that were added by the currently logged in user for this language
+sc-personal-added-by-you = Engadiu { $sentences }
+sc-personal-not-added = Aínda non engadiu ningún idioma.
 
 ## REVIEW CRITERIA
 
@@ -1382,6 +1496,10 @@ sc-criteria-item-6 = Se xa non quedan frases para revisar, axúdenos a recoller 
 
 ## REVIEW
 
+sc-review-lang-not-selected = Non seleccionou ningún idioma. Vaia ao seu <profileLink>Perfil</profileLink> para seleccionar un idioma.
+sc-review-title = Revisar frases
+sc-review-loading = Cargando frases...
+sc-review-select-language = Seleccione un idioma para revisar as frases.
 
 ## SETTINGS
 
