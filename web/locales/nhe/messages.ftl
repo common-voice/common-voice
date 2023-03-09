@@ -242,8 +242,14 @@ logout = Cerrar sesión
 home-title = Common Voice es la iniciativa de Mozilla para ayudar a enseñar a las máquinas cómo hablan las personas reales.
 default-tagline = Common Voice es la iniciativa de Mozilla para ayudar a enseñar a las máquinas cómo hablan las personas reales.
 home-cta = Shi kamati ipan ti techmalehis
+show-wall-of-text = Leer más
+help-us-title = ¡Ayúdanos a validar oraciones!
+help-us-explain = Presiona reproducir, escucha y cuéntanos: ¿pronunciaron con precisión la siguiente oración?
 vote-yes = Quena
 vote-no = axcana
+speak-subtitle = Dona tu voz
+speak-goal-text = Clips grabados
+listen-goal-text = Clips validados
 all-locales = nochi
 today = nama
 
