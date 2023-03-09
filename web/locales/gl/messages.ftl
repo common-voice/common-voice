@@ -15,6 +15,7 @@ email-opt-in-privacy-v2 = Ao optar por recibir correos, declara que está confor
 indicates-required = * Indica un campo requirido
 not-available-abbreviation = N/D
 banner-error-slow-1 = Sentímolo, Common Voice funciona con lentitude. Grazas polo seu interese.
+banner-error-slow-2 = Nestes momentos estamos recibindo moitas solicitudes. Estamos tratando de solucionar axiña este problema.
 error-something-went-wrong = Sentímolo, algo saíu mal.
 error-clip-upload = Seguimos tendo problemas para cargar este fragmento. Quere tentalo de novo?
 error-clip-upload-server = Seguimos tendo problemas para cargar este fragmento no servidor. Volva a cargar a páxina ou ténteo de novo máis tarde.
