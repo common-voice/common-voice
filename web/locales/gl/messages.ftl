@@ -1499,10 +1499,56 @@ sc-criteria-item-6 = Se xa non quedan frases para revisar, axúdenos a recoller 
 sc-review-lang-not-selected = Non seleccionou ningún idioma. Vaia ao seu <profileLink>Perfil</profileLink> para seleccionar un idioma.
 sc-review-title = Revisar frases
 sc-review-loading = Cargando frases...
-sc-review-select-language = Seleccione un idioma para revisar as frases.
+sc-review-select-language = Seleccione un idioma para revisar frases.
+sc-review-no-sentences = Non hai frases para revisar. <addLink>Engada máis frases agora!</addLink>
+sc-review-form-prompt =
+    .message = Non se enviaron as frases revisadas, está seguro?
+sc-review-form-usage = Deslice cara á dereita para aprobar a frase. Deslice cara á esquerda para rexeitala. Deslice cara arriba para omitila. <strong>Non esqueza enviar a súa opinión.</strong>
+# Variables:
+#   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
+sc-review-form-source = Fonte: { $sentenceSource }
+sc-review-form-button-reject = Rexeitar
+sc-review-form-button-skip = Omitir
+sc-review-form-button-approve = Aprobar
+# Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
+sc-review-form-button-approve-shortcut = S
+# Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
+sc-review-form-button-reject-shortcut = N
+# Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
+sc-review-form-button-skip-shortcut = O
+sc-review-form-keyboard-usage-custom = Tamén pode empregar os atallos de teclado: { sc-review-form-button-approve-shortcut } para aprobar, { sc-review-form-button-reject-shortcut } para rexeitar, { sc-review-form-button-skip-shortcut } para omitir
+sc-review-form-button-submit =
+    .submitText = Finalizar revisión
+# Variables:
+#   $sentences (Number) - Number of sentences the user has reviewed in this session
+sc-review-form-reviewed-message =
+    { $sentences ->
+        [0] Non revisou ningunha frase.
+        [one] Revisou 1 frase. Grazas!
+       *[other] Revisou { $sentences } frases. Grazas!
+    }
+sc-review-form-review-failure = Non foi posible gardar a revisión. Por favor, inténteo de novo máis tarde.
+sc-review-link = Revisar
 
 ## SETTINGS
 
+sc-settings-title = Configuración
+sc-settings-ui-language = Idioma da interface
+sc-settings-reset-skipped = Restablecer as frases omitidas
+sc-settings-skipped-decription = Omitiu frases durante a revisión. Se restablece as frases omitidas, mostraranse de novo. Isto é independente da lingua.
+sc-settings-show-all-button = Mostrar de novo todas as frases omitidas
+sc-settings-failed = Non foi posible cambiar a configuración. Por favor, inténteo de novo.
+# VALIDATION
+sc-validation-number-of-words = A frase debe conter entre 1 e 14 palabras.
+sc-validation-no-numbers = A frase non debe conter cifras
+sc-validation-no-symbols = A frase non debe conter símbolos
+sc-validation-no-abbreviations = A frase non debe conter abreviaturas
 
 # [/SentenceCollector]
 
+localization-select =
+    .label = Escolla idioma/tradución
+# PARTNERSHIPS PAGE
+partnerships-header = Colaboracións
+partnerships-header-text = Fai falta moito traballo para que Common Voice funcione! Non o facemos sós. Quere colaborar connosco? Encantaríanos coñecelo.
+partnerships-become-a-partner = Fágase socio de Common Voice
