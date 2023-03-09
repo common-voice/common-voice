@@ -959,7 +959,8 @@ export const EditIcon = () => (
     height="24"
     viewBox="0 0 24 24"
     fill="none"
-    xmlns="http://www.w3.org/2000/svg">
+    xmlns="http://www.w3.org/2000/svg"
+    className="edit-icon">
     <path
       fillRule="evenodd"
       clipRule="evenodd"

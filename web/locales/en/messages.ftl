@@ -1591,3 +1591,6 @@ create-profile-button = Create a profile
 
 # IMAGE TAGS
 img-alt-success-checkmark = success checkmark
+
+# WRITE PAGE
+write-page-header-public-domain = a public domain sentence

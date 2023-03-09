@@ -164,6 +164,7 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
     const CONTRIBUTION_PAGES = [
       `/${locale}${URLS.SPEAK}`,
       `/${locale}${URLS.LISTEN}`,
+      `/${locale}${URLS.WRITE}`,
     ];
 
     const isBuildingProfile = location.pathname.includes(URLS.PROFILE_INFO);

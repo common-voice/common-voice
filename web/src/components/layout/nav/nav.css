@@ -34,6 +34,16 @@
             max-width: var(--desktop-width);
             padding: 0 4rem;
 
+            @media (--sm-down) {
+                padding: 0;
+            }
+
+            & .edit-icon {
+                path {
+                    fill: var(--blue);
+                }
+            }
+
             @media (--md-down) {
                 margin: 0;
                 width: 100%;
