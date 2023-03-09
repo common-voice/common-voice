@@ -1560,3 +1560,10 @@ partnerships-governments-description = Estamos encantados de apoiar o compromiso
 partnerships-academia-header = Universidades, profesores e investigadores
 partnerships-academia-description = A innovación aberta está no corazón do que facemos. Para colaborar en investigación, na recollida de datos ou en entrevistas, <emailFragment>póñase en contacto connosco.</emailFragment>
 partnerships-small-business-header = Pequenas empresas, incluídas as empresas emerxentes de tecnoloxía e de intelixencia artificial
+partnerships-small-business-description = Gústanos coñecer as necesidades e o contexto das persoas que empregan os nosos datos: desde como colaboran na plataforma de recollida ata a súa opinión sobre a  saúde dos datos, queremos <emailFragment>escoitalos.</emailFragment>
+partnerships-corporates-header = Grandes empresas e plataformas
+partnerships-corporates-description = Se desexa saber máis sobre o conxunto de datos, quere investir nas ampliacións planificadas da plataforma ou busca oportunidades de colaboración, <emailFragment>envíenos un correo.</emailFragment>
+partnerships-our-partners = Os nosos socios
+# FIRST POST SUBMISSION CTA
+first-cta-header-text = Grazas por doar os seus fragmentos de voz!
+first-cta-subtitle-text = Desexa compartir información sobre a súa forma de falar?
