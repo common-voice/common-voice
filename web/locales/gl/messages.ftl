@@ -16,6 +16,7 @@ indicates-required = * Indica un campo requirido
 not-available-abbreviation = N/D
 banner-error-slow-1 = Sentímolo, Common Voice funciona con lentitude. Grazas polo seu interese.
 banner-error-slow-2 = Nestes momentos estamos recibindo moitas solicitudes. Estamos tratando de solucionar axiña este problema.
+banner-error-slow-link = Páxina de estado
 error-something-went-wrong = Sentímolo, algo saíu mal.
 error-clip-upload = Seguimos tendo problemas para cargar este fragmento. Quere tentalo de novo?
 error-clip-upload-server = Seguimos tendo problemas para cargar este fragmento no servidor. Volva a cargar a páxina ou ténteo de novo máis tarde.
@@ -89,6 +90,7 @@ hy-AM = Armenio
 hyw = Armenio occidental
 ia = Interlingua
 id = Indonesio
+ie = Interlingua
 ig = Ibo
 is = Islandés
 it = Italiano
@@ -223,6 +225,7 @@ speak = Fale
 speak-now = Fale agora
 datasets = Conxunto de datos
 languages = Idiomas
+about = Sobre nós
 partner = Fágase socio
 profile = Perfil
 help = Axuda
@@ -452,6 +455,10 @@ faq-what-cv-a =
     O recoñecemento de voz está a revolucionar o modo en que interactuamos coas máquinas pero os sistemas dispoñíbeis hoxe en día son caros e privados. Common Voice forma parte da iniciativa de Mozilla para facer as tecnoloxías de voz mellores e máis accesíbeis para todos. Common Voice é unha base de datos masiva de voces doadas que lle permite a calquera adestrar aplicacións con capacidades de voz en potencialmente calquera idioma.
     
     Non estamos a recoller mostras de voz só en idiomas amplamente falados senón tamén naqueles cunha menor poboación de falantes. A publicación dun conxunto voces diverso facilitaralles aos desenvolvedores, emprendedores e comunidades afrontar esta fenda por si mesmos. Ademais do conxunto de datos de Common Voice, tamén estamos a crear un motor aberto de recoñecemento de voz chamado Deep Speech.
+faq-what-cv-a-2 =
+    A tecnoloxía de recoñecemento da fala está revolucionando a forma en que interactuamos coas máquinas, pero os sistemas dispoñibles actualmente están en mans privadas e son caros. Mozilla Common Voice é unha iniciativa que busca contribuír a que as tecnoloxías de recoñecemento da fala sexan mellores e máis accesibles para todos. En concreto, Common Voice é unha enorme base de datos global que contén doazóns de voz a partir das cales calquera persoa pode adestrar de xeito rápido e sinxelo modelos de voz en, potencialmente, calquera idioma.
+    
+    Non só recollemos mostras de voz  nas linguas grandes, senón tamén naquoutras con menor número de falantes. A publicación dun conxunto de datos variado de voces permitirá que os desenvolvedores, os emprendedores e as comunidades poidan resolver eles mesmos esta fenda.
 faq-why-important-q = Por que é importante?
 faq-why-important-a =
     A fala adoita ser o xeito máis natural de comunicarnos os uns cos outros e as tecnoloxías de voz están a traernos esa vantaxe aos nosos computadores e dispositivos móbiles. Queremos facilitarlles aos desenvolvedores construír sorprendentes aplicacións de recoñecemento de voz como tradutores en tempo real e asistentes dixitais activados por voz. No entanto, a maioría dos datos de voz requiridos para crear esta clase de aplicacións é cara e privativa. Esperamos cos datos de Common Voice dármoslles aos desenvolvedores o que estes necesitan para innovar e facer que a tecnoloxía de recoñecemento de voz estea dispoñíbel no seu propio idioma.
@@ -506,6 +513,9 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Por que Common Voice?
+about-header-description-v2 =
+    <p>Common Voice é un conxunto de datos de voz público, alimentado polas voces de xente que colabora voluntariamente dende todo o mundo. As persoas interesadas en crear aplicacións de voz poden usar este conxunto de datos para adestrar modelos de aprendizaxe automática.</p>
+    <p>Na actualidade, a maioría dos conxuntos de datos de voz son propiedade de empresas, o que dificulta a innovación. Ademais, estes adoitan representar en exceso a homes brancos e de fala inglesa, o que significa que a tecnoloxía habilitada para a voz non funciona en moitos idiomas e, naqueles nos que si funciona, pode que non o faga igual para todos os falantes. Queremos cambiar isto mobilizando a xente de todas partes para que comparta a súa voz.</p>
 how-does-it-work-title-v2 = Como funciona Common Voice?
 how-does-it-work-text = Estamos a auspiciar un conxunto de datos de voz de fonte aberta. Ofreza a súa voz, valide a precisión dos fragmentos doados por outras persoas, mellore o conxunto de datos para todo o mundo.
 
@@ -547,6 +557,9 @@ about-get-involved-text-2 =
     Xenial! Póñase en contacto vía correo electrónico ou vía foros <discourseLink>Discourse</discourseLink>
     remita incidencias do sitio vía <githubLink>GitHub</githubLink>, ou únase ao chat da comunidade <matrixLink>Matrix</matrixLink>.
 about-stay-in-touch = Como estar en contacto?
+about-stay-in-touch-button = Unirse
+about-stay-in-touch-text-1 = <emailFragment>Unirse</emailFragment> á nosa lista de correo para descubrir como participar en campañas, eventos e iniciativas de mellora de Common Voice.
+about-stay-in-touch-text-2 = Pode coñecer outras persoas nas comunidades lingüísticas de Mozilla uníndose a <discourseLink>Discourse</discourseLink> para conversas temáticas, ou a <matrixLink>Matrix</matrixLink> para obter consellos rápidos.
 about-nav-why-common-voice = Por que?
 about-nav-how-it-works = Como?
 about-nav-partners = Socios
@@ -1100,7 +1113,14 @@ download-requests-info = Cando solicita as súas gravacións, recompilámolas nu
 download-request-button = Descargar
 download-request-title = { $created }
 download-request-description = { $clipCount } fragmentos de voz. O tamaño total do arquivo compactado é { $size }. Caduca { $expires }.
+download-request-archive-single = Un único ficheiro ZIP que contén
 download-request-archive-multiple = Dividido en { $archiveCount } archivos ZIP que conteñen
+download-request-assembling-description = Estamos recompilando os seus ficheiros. Comprobe de novo máis tarde.
+download-request-refresh-button = Actualizar
+download-request-modal-title = Ligazóns de descarga
+download-request-modal-description = Aquí ten as ligazóns para descargar os seus ficheiros ZIP.
+download-request-link-text = ZIP #{ $offset } de { $total }
+download-request-metadata-link = Texto da frase
 
 ## Landing
 
