@@ -11,6 +11,12 @@ loading = Cargando...
 email-opt-in-info = Ninekiskia xinechtitlanilij emails ipan tlen tinekin tichihuase, then tichiheia ,tlen ticonchiheia huan huan yankhuik tlatoli then Common Voice.
 email-opt-in-info-title = Xitechpalehui ipan Common Voice timitz tlalise ipan mailing list.
 email-opt-in-info-sub-with-challenge = Ninekiskia xinechtitlanilij emails ipan tlen tinekin tichihuase, then tichiheia ,tlen ticonchiheia huan huan yankhuik tlatoli then Common Voice.
+email-opt-in-privacy-v2 = Al optar por recibir correos electrónicos, declara que está de acuerdo con que Mozilla maneje esta información como se explica en la <privacyLink>Política de privacidad</privacyLink> de Mozilla.
+indicates-required = Se requieren campos marcados con un asterisco (*).
+not-available-abbreviation = N/A
+banner-error-slow-1 = Lo sentimos, Common Voice se está ejecutando lentamente. Gracias por tu interés.
+banner-error-slow-2 = We're receiving a lot of traffic and are currently investigating the issues.
+banner-error-slow-link = Página de estado
 error-something-went-wrong = techtlapojpoluiliya, tipijian se problema
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
@@ -224,11 +230,16 @@ privacy = Privacidad
 terms = Terminos
 cookies = Cookies
 faq = Preguntas wan respuestas
+content-license-text = Contenido disponible bajo una <licenseLink>licencia Creative Commons</licenseLink>
 share-title = Xi techpalehui ti temoze sekinoj tech palehuiz hua tlatoli.
 share-text = Xitechpalehui timachtize tepozme kenikatza ce tlakatl o cihuatl kamati, xitechmalehui ka mo tlatolij { $link }
+link-copied = Enlace copiado
+back-top = Volver arriba
+logout = Cerrar sesión
 
 ## Home Page
 
+home-cta = Shi kamati ipan ti techmalehis
 vote-yes = Quena
 vote-no = axcana
 all-locales = nochi
