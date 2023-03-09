@@ -225,7 +225,7 @@ speak = Fale
 speak-now = Fale agora
 datasets = Conxunto de datos
 languages = Idiomas
-about = Sobre nós
+about = Sobre
 partner = Fágase socio
 profile = Perfil
 help = Axuda
@@ -1295,6 +1295,7 @@ sc-howto-findpd-tips-1 = As mellores fontes que pode buscar son podcasts, transc
 sc-howto-findpd-tips-2 = As actas do goberno, os libros e os artigos tamén son xeniais. Pero, posto que o texto adoita ser un pouco máis formal, non son tan prioritarios.
 sc-howto-findpd-tips-3 = Desafortunadamente, aínda non podemos incluír artigos de Galipedia. Polo tanto, non copie e pegue desde alí.
 sc-howto-findpd-subtitle-2 = Colaborar con individuos ou organizacións locais
+sc-howto-findpd-partner-1 = Seguramente, moitas organizacións públicas que desexen colaborar xa dispoñen dun gran volume de textos que poden doar ao dominio público. Póñase en contacto con universidades, gobernos e organizacións de código aberto para falar sobre o proxecto e pedirlles axuda.
 sc-howto-findpd-partner-2 = As persoas especialistas en lingüística, tamén lle poden axudar. Trate de poñerse en contacto coas facultades de filoloxía da zona (tanto profesores como estudantes) e pídalles axuda para reunir un conxunto diverso de frases con diferentes sons da súa lingua.
 
 ## MY SENTENCES
@@ -1325,6 +1326,7 @@ sc-rejected-none-found = Non se atopou ningunha frase rexeitada!
 
 sc-stats-title = Estatísticas
 sc-stats-updating = Actualizando...
+sc-stats-error = Non puidemos obter as estatísticas. Por favor, inténteo de novo máis tarde.
 
 ## ADD
 
