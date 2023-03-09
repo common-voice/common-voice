@@ -467,7 +467,7 @@ faq-why-important-a =
 faq-how-get-q = Como podo conseguir os datos de Common Voice?
 faq-how-get-a = O conxunto de datos de Common Voice está dispoñíbel para descargar coa licenza <licenseLink>CC0</licenseLink> na <datasetLink>nosa páxina de conxunto de datos</datasetLink>. Tamén pode descargar outros conxuntos de datos desde a mesma páxina.
 faq-when-release2-q = Cando publicará os datos de Common Voice noutros idiomas?
-faq-when-release2-a = Na actualidade, a versión multilingüe do conxunto de datos de Common Voice  é obxecto dunha agregación e limpeza co apoio da comunidade. Se quixer axudarnos a ampliación de  Common Voice a novas linguas, visite a <sentençaCollectorLink>Ferramenta de recollida de frases</sentenceCollectorLink> para engadir novas frases ao conxunto de datos, e Mozilla <pontoonLink>PontoonLink</pontoonLink> para traducir o propio sitio. Engádense novoso idiomas a Common Voice para contribucións de voz, cando se teñen recollido e aprobado 5000 frases.
+faq-when-release2-a = Na actualidade, a versión multilingüe do conxunto de datos de Common Voice  é obxecto dunha agregación e limpeza co apoio da comunidade. Se quixer axudarnos a ampliación de  Common Voice a novas linguas, visite a <sentenceCollectorLink>Ferramenta de recollida de frases</sentenceCollectorLink> para engadir novas frases ao conxunto de datos, e Mozilla <pontoonLink>PontoonLink</pontoonLink> para traducir o propio sitio. Engádense novoso idiomas a Common Voice para contribucións de voz, cando se teñen recollido e aprobado 5000 frases.
 faq-why-mission-q = Por que forma parte Common Voice da misión de Mozilla?
 faq-why-mission-a = Mozilla dedícase a manter a Web aberta e accesíbel para todos. Para facer iso, necesitamos empoderar os creadores a través de proxectos como Common Voice. Xa que as tecnoloxías de voz proliferan alén das aplicacións de nicho, cremos que deben servir a todos os usuarios equitativamente. Iso significa que se debe investir en máis idiomas e acomodación de diversos acentos e variacións demográficas ao crear e probar tecnoloxías de voz. Common Voice é un recurso público dispoñíbel para todos, e tanto os equipos de Mozilla coma os desenvolvedores de todo o mundo tamén están xa facendo uso del nos seus proxectos.
 faq-what-cv-and-deepspeech-q = Cal é a diferenza entre Common Voice e Deep Speech?
@@ -1551,7 +1551,9 @@ localization-select =
 # PARTNERSHIPS PAGE
 partnerships-header = Colaboracións
 partnerships-header-text = Fai falta moito traballo para que Common Voice funcione! Non o facemos sós. Quere colaborar connosco? Encantaríanos coñecelo.
+partnerships-get-in-touch = Póñase en contacto connosco
 partnerships-become-a-partner = Facerse socio de Common Voice
+partnerships-community-header = Comunidade, creadores e sociedade civil
 partnerships-community-description = A comunidade é o corazón de Common Voice. Está composta por persoas de todo o mundo (activistas lingüísticos, científicos, artistas etc.) Pode obter máis información sobre como participar na pestana <about>Sobre Common Voice</about> ou no noso <community>Manual da comunidade</community>. Se está interesado nunha asociación organizativa máis profunda, <emailFragment>póñase en contacto connosco.</emailFragment>
 partnerships-foundations-header = Fundacións
 partnerships-foundations-description = Traballamos con fundacións, a sociedade civil e socios comunitarios para que Internet sexa un lugar mellor, poñendo especial atención no leste de África. Consulte máis información sobre o noso <programmaticWork>traballo programático.</programmaticWork>
@@ -1567,3 +1569,18 @@ partnerships-our-partners = Os nosos socios
 # FIRST POST SUBMISSION CTA
 first-cta-header-text = Grazas por doar os seus fragmentos de voz!
 first-cta-subtitle-text = Desexa compartir información sobre a súa forma de falar?
+why-donate = Por que preguntamos?
+why-donate-explanation-1 = Esta información é opcional, polo que só debe engadila se así o desexa. Cando publicamos o conxunto de datos, anonimizamos toda a información persoal e asegurámonos de que información como o seu nome e o seu correo electrónico non estean conectadas a información demográfica (idade, sexo etc.)
+why-donate-explanation-2 = Para que a tecnoloxía funcione ben para todo o mundo, os datos empregados polas persoas que a desenvolven deben reflectir unha ampla gama de formas de falar. Por exemplo, se non incluímos ningún falante cun acento concreto, entón a tecnoloxía non funcionará ben para as persoas con ese acento. <learnMore>Saber máis sobre por que son importantes os metadatos.</learnMore>
+add-information-button = Engadir información
+continue-speaking-button = Non, grazas. Prefiro seguir falando
+create-profile-text = Quere gardar a súa información? <createProfile>Crear un perfil</createProfile>
+thanks-for-voice-toast = Grazas pola información sobre a súa voz
+thanks-for-voice-toast-error = Produciuse un erro ao enviar a información sobre a súa voz
+# SECOND POST SUBMISSION CTA
+second-cta-header-text = Grazas por aportar a súa voz!
+second-cta-subtitle-text = Cun perfil, pode facer o seguimento da súa actividade e participar na comunidade de colaboradores de datos de voz.
+already-have-an-account = Xa ten unha conta? <login>Iniciar sesión</login>
+create-profile-button = Crear un perfil
+# IMAGE TAGS
+img-alt-success-checkmark = marca de verificación de éxito
