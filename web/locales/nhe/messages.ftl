@@ -242,16 +242,41 @@ logout = Cerrar sesión
 home-title = Common Voice es la iniciativa de Mozilla para ayudar a enseñar a las máquinas cómo hablan las personas reales.
 default-tagline = Common Voice es la iniciativa de Mozilla para ayudar a enseñar a las máquinas cómo hablan las personas reales.
 home-cta = Shi kamati ipan ti techmalehis
+wall-of-text-start =
+    La voz es natural, la voz es humana. Es por eso que estamos fascinados con la creación de voz usable
+    tecnología para nuestras máquinas. Pero para crear sistemas de voz, una cantidad extremadamente grande de voz
+    se requieren datos.
+wall-of-text-more-mobile =
+    La mayoría de los datos utilizados por las grandes empresas no están disponibles para la mayoría de las personas. Nosotros pensamos
+    que sofoca la innovación. Así que lanzamos Project Common Voice, un proyecto para ayudar a que la voz
+    reconocimiento abierto a todos.
+wall-of-text-more-desktop =
+    Ahora puede donar su voz para ayudarnos a construir una base de datos de voz de código abierto que cualquiera puede usar
+    para hacer aplicaciones innovadoras para dispositivos y la web. Lea una oración para ayudar a las máquinas a aprender cómo hablan las personas reales. Consultar el trabajo de otros
+    contribuyentes para mejorar la calidad. ¡Es así de simple!
+wall-of-text-first =
+    La voz es natural, la voz es humana. Es por eso que estamos entusiasmados con la creación de tecnología de voz utilizable.
+    para nuestras máquinas. Pero para crear sistemas de voz, los desarrolladores necesitan una cantidad extremadamente grande de voz.
+    datos.
+wall-of-text-second =
+    La mayoría de los datos utilizados por las grandes empresas no están disponibles para la mayoría de las personas. Pensamos eso
+    sofoca la innovación. Así que lanzamos Common Voice, un proyecto para ayudar a que el reconocimiento de voz sea abierto.
+    y accesible para todos.
 show-wall-of-text = Leer más
 help-us-title = ¡Ayúdanos a validar oraciones!
 help-us-explain = Presiona reproducir, escucha y cuéntanos: ¿pronunciaron con precisión la siguiente oración?
+no-clips-to-validate = Parece que no hay clips para escuchar en este idioma. Ayúdanos a llenar la cola grabando algunos ahora.
 vote-yes = Quena
 vote-no = axcana
 speak-subtitle = Dona tu voz
 speak-goal-text = Clips grabados
+listen-subtitle = ¡Ayúdanos a validar oraciones!
+listen-paragraph = La validación de los clips donados es igualmente importante para la misión de Common Voice. Escuche y ayúdenos a crear datos de voz de código abierto de calidad.
 listen-goal-text = Clips validados
 all-locales = nochi
 today = nama
+email-subscription-title = Regístrese para recibir actualizaciones por correo electrónico
+email-subscription-title-new = Regístrese para recibir boletines de Common Voice, recordatorios de metas y actualizaciones de progreso
 
 ## Account Benefits
 
