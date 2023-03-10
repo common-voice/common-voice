@@ -513,20 +513,81 @@ about-playbook-how-access-dataset = ¿Cómo accedo y uso el conjunto de datos?
 ## How are decisions made
 
 about-playbook-how-project-governance = ¿Cómo se toman las decisiones del proyecto?
+about-playbook-how-project-governance-content-2 = Nuestra fundación se basa en los pilares de:
+about-playbook-how-project-governance-content-3 = Privacidad, seguridad y transparencia.
+about-playbook-how-project-governance-content-4 = Participación comunitaria y toma de decisiones.
+about-playbook-how-project-governance-content-5 = Valor y reconocimiento.
+about-playbook-how-project-governance-content-6 = Contabilidad mutua.
 
 ## Glossary
 
+glossary = Glosario
+localization = Localización
+sentence-collection = Colección de oraciones
+sentence-collection-explanation = Recolectar oraciones del dominio público o escribir nuevas para el dominio público.
+hours-recorded-explanation = El recuento de horas de grabación de voz que hemos recopilado hasta ahora.
+hours-validated-explanation = El conteo de horas de grabación de voz que han sido validadas por 2 de 3 usuarios con un voto de “Sí”. Estos marcan el progreso hacia la meta general de 10k horas del proyecto.
+sst = Speech-to-text (STT)
+sst-explanation = Las tecnologías de voz a texto (STT) convierten los datos de voz en texto.
+de-identified = Desidentificado
+de-identified-explanation = El proceso mediante el cual la información del perfil de un colaborador se oscurece de sus clips de voz donados cuando se empaqueta para su descarga como parte del conjunto de datos.
 
 ## Error pages
 
+error-title-404 = No pudimos encontrar esa página para usted
+error-title-503 = Estamos experimentando un tiempo de inactividad inesperado
+error-code = Error { $code }
 
 ## Data
 
 data-download-yes = Quena
 data-download-deny = axcana
+data-subtitle = Estamos construyendo un conjunto de datos de voces abierto y disponible públicamente que todos pueden usar para entrenar aplicaciones habilitadas para voz.
+data-explanatory-text = Creemos que los grandes conjuntos de datos de voz disponibles públicamente fomentan la innovación y una sana competencia comercial en la tecnología del habla basada en el aprendizaje automático. Este es un esfuerzo global e invitamos a todos a participar. Nuestro objetivo es ayudar a que la tecnología del habla sea más inclusiva y refleje la diversidad de voces de todo el mundo.
+data-other-download = Descargar datos
+data-bundle-button = Descargar paquete de conjuntos de datos
+data-bundle-description = Datos de voz comunes más todos los demás conjuntos de datos de voz anteriores.
+release-version = Versión
+dataset-date = Fecha
+license-mixed = Mezclado
+data-download-singleword-title = Descargue el segmento objetivo de una sola palabra
+data-download-singleword-callout-v2 = Este es un segmento basado en casos de uso que contiene datos para potenciar el reconocimiento de dígitos hablados y la detección de sí/no.
+terms-agree = Estoy de acuerdo
+terms-disagree = No estoy de acuerdo
+review-aborted = Carga abortada. ¿Quieres borrar tus grabaciones?
+review-submit-title = Revisar y enviar
+review-recording = Revisar
+review-rerecord = volver a grabar
+review-cancel = Cancelar envío
+review-keep-recordings = Guarda las grabaciones
+review-delete-recordings = Eliminar mis grabaciones
 
 ## Datasets Page
 
+datasets-heading = conjuntos de datos
+datasets-headline = Estamos creando un conjunto de datos de voces de código abierto y en varios idiomas que cualquiera puede usar para entrenar aplicaciones habilitadas para voz.
+language = Idioma
+download-dataset-header = Descargar el conjunto de datos
+download-dataset-tag = Seleccione el conjunto de datos del idioma deseado y elija la versión que desea descargar.
+# File size in gigabytes
+size = Tamaño
+validated-hr-total = Hora validada. Total
+overall-hr-total = Hora total Total
+cv-license = Licencia
+audio-format = Formato de audio
+number-of-voices = Número de voces
+splits = Divisiones
+email-to-download = Ingrese el correo electrónico para descargar
+validated-hours = Horas Validadas
+recorded-hours = Horas Registradas
+whats-inside = ¿Qué hay dentro del conjunto de datos de Common Voice?
+want-dataset-update = ¿Quiere actualizaciones cuando lancemos una nueva versión del conjunto de datos de Common Voice? Suscríbete a nuestro boletín.
+subscribe = Suscribir
+get-started-speech = Comience con el reconocimiento de voz
+other-datasets = Otros conjuntos de datos de voz
+feedback-q = ¿Tiene comentarios?
+community-playbook = Community Playbook
+data-other-tatoeba-description = Tatoeba es una gran base de datos de oraciones, traducciones y audio hablado para usar en el aprendizaje de idiomas. Esta descarga contiene inglés hablado grabado por su comunidad.
 
 ## Download Modal
 
