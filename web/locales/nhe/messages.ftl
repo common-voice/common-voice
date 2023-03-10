@@ -393,15 +393,44 @@ accept-privacy-title = política de privacidad
 accept-privacy-and-terms = Acepto los <termsLink>Términos</termsLink> y el <privacyLink>Aviso de privacidad</privacyLink> de Common Voice
 login-identity = Identidad de inicio de sesión
 login = Acceso
+login-signup = Iniciar sesión/ Registrarse
+edit = Editar
+email-subscriptions = subscripcion de correo electronico
+download-profile = Descargar mis datos
+contribution-experience = Experiencia de contribución
+skip-submission-feedback = Omitir comentarios de envío
+skip-submission-description = Durante el envío de contribuciones, los comentarios se omitirán después de hacer clic en 'Enviar'. La contribución continuará directamente con el próximo conjunto de 5 registros o validaciones.
+off = Apagado
+on = Encendido
+help-accent = ¿Necesitas ayuda con el acento?
+help-accent-explanation = Tu acento es la forma en que pronuncias las palabras. Puede ser determinado por el lugar donde ha vivido, qué otros idiomas habla y muchos otros factores. Puede compartir cualquier información que considere relevante aquí.
+help-variants = ¿Necesitas ayuda con las variantes?
+help-variants-explanation = Las variantes son una forma específica de un idioma, por ejemplo, compartida por aquellos que viven en una geografía o comunidad. A veces estos se llaman dialectos.
 
 ## Profile - Email
 
+browse-file-title = Subir un archivo de imagen
+connect-gravatar = Conéctate con Gravatar
+avatar-uploaded = subido
+remove-avatar = Quitar avatar
 
 ## Profile - Email
 
+add-language = Agregar idioma
+change-email-setings = Cambie su correo electrónico a través de Configuración en Identidad de inicio de sesión
 
 ## FAQ
 
+faq-title = Preguntas frecuentes
+faq-what-cv-q = ¿Que is Common Voice?
+faq-what-cv-a = La tecnología de reconocimiento de voz está revolucionando la forma en que interactuamos con las máquinas, pero los sistemas disponibles actualmente son costosos y patentados. Common Voice es parte de la iniciativa de Mozilla para hacer que las tecnologías de reconocimiento de voz sean mejores y más accesibles para todos. Common Voice es una base de datos global masiva de voces donadas que permite a cualquier persona entrenar rápida y fácilmente aplicaciones habilitadas para voz en potencialmente todos los idiomas.
+faq-what-cv-a-2 = La tecnología de reconocimiento de voz está revolucionando la forma en que interactuamos con las máquinas, pero los sistemas disponibles actualmente son costosos y patentados. Mozilla Common Voice es una iniciativa para hacer que las tecnologías de reconocimiento de voz sean mejores y más accesibles para todos. Common Voice es una base de datos global masiva de voces donadas que permite a cualquier persona entrenar rápida y fácilmente aplicaciones habilitadas para voz en potencialmente todos los idiomas.
+faq-why-important-q = ¿Por qué es importante?
+faq-when-release2-q = ¿Cuándo publicará los datos de Common Voice en otros idiomas?
+faq-why-mission-q = ¿Por qué Common Voice es parte de la misión de Mozilla?
+faq-why-mission-a = Mozilla se dedica a mantener la web abierta y accesible para todos. Para hacer eso, necesitamos empoderar a los creadores web a través de proyectos como Common Voice. A medida que las tecnologías de voz proliferan más allá de las aplicaciones de nicho, creemos que deben servir a todos los usuarios por igual. Eso significa invertir en más idiomas y adaptarse a diversos acentos y datos demográficos al crear y probar tecnologías de voz. Common Voice es un recurso público disponible para todos y los equipos y desarrolladores de Mozilla de todo el mundo ya lo están utilizando también en nuestros propios proyectos.
+faq-what-cv-and-deepspeech-q = ¿Cuál es la diferencia entre n Common Voice y Deep Speech?
+faq-what-cv-and-deepspeech-a = El conjunto de datos de Common Voice complementa el motor de reconocimiento de voz de código abierto de Mozilla Deep Speech. La primera versión de Deep Speech se lanzó en noviembre de 2017 y ha seguido evolucionando desde entonces. Junto con el conjunto de datos de Common Voice, creemos que esta tecnología de reconocimiento de voz de código abierto debería estar disponible para todos. Esperamos que estas tecnologías permitan a los desarrolladores crear una ola de productos y servicios innovadores.
 faq-using-cv = Usando Common Voice
 
 ## ABOUT US
