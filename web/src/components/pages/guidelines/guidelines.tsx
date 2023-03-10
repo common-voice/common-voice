@@ -139,7 +139,6 @@ const Guidelines = () => {
             </LinkButton>
           </div>
         </div>
-        <img src={require('./images/guidelines-waves-2.png')} alt="" />
       </section>
     </Page>
   );
