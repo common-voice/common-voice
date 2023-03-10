@@ -392,6 +392,7 @@ accept-privacy = Estoy de acuerdo con que manejes esta información como explica
 accept-privacy-title = política de privacidad
 accept-privacy-and-terms = Acepto los <termsLink>Términos</termsLink> y el <privacyLink>Aviso de privacidad</privacyLink> de Common Voice
 login-identity = Identidad de inicio de sesión
+login = Acceso
 
 ## Profile - Email
 
