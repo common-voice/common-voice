@@ -56,7 +56,6 @@ export const VaryingPronounciation: React.FC<SidebarContentProps> = ({
             exampleText="varying-pronunciations-example"
             exampleTips={exampleTips}
           />
-          <span className="border" />
         </div>
       </div>
     )}

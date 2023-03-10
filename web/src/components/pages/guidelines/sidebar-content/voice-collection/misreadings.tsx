@@ -80,7 +80,6 @@ export const Misreadings: React.FC<SidebarContentProps> = ({
             exampleTips={exampleTips}
           />
         </div>
-        <span className="border" />
       </div>
     )}
   </div>
