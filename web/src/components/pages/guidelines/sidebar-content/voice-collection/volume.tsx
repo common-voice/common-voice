@@ -30,7 +30,6 @@ export const Volume: React.FC<SidebarContentProps> = ({
         <Localized id="volume-explanation">
           <p className="guidelines-content-explanation" />
         </Localized>
-        <span className="border" />
       </div>
     )}
   </div>

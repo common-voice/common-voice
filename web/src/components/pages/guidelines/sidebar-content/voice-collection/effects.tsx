@@ -30,7 +30,6 @@ export const Effects: React.FC<SidebarContentProps> = ({
         <Localized id="reader-effects-explanation">
           <p className="guidelines-content-explanation" />
         </Localized>
-        <span className="border" />
       </div>
     )}
   </div>
