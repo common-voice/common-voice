@@ -296,29 +296,102 @@ keep-track = Realice un seguimiento de su progreso y métricas en varios idiomas
 ## What's public
 
 whats-public = ¿Qué es público?
+email-not-public = No haremos público su correo electrónico.
+recordings-and-locale-public = La cantidad de grabaciones y los idiomas en los que contribuyes serán públicos.
+username-optin-public = Puede elegir que su nombre de usuario sea público o anónimo.
+demographic-deidentified-clarity-2 = Los datos demográficos enviados opcionalmente (por ejemplo, edad, sexo, idioma y acento) nunca se harán públicos en su perfil y no se vincularán a su cuenta en el conjunto de datos. Los clips de audio individuales se asociarán con datos demográficos con el fin de realizar un análisis más preciso; por ejemplo, es posible que un investigador desee orientar un modelo de capacitación a un segmento demográfico específico.
+username-email-not-demographic = Su nombre de usuario y correo electrónico no se asociarán con los datos publicados.
 
 ## Speak & Listen Shortcuts
 
+# Must be one letter that appears in the translated { skip } string.
+shortcut-skip = s
 
 ## Listen Shortcuts
 
+# Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-play-toggle = p
+shortcut-play-toggle-label = Reproducir/Detener
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = y
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = n
 
 ## Speak Shortcuts
 
+# Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-record-toggle = r
+shortcut-record-toggle-label = Grabar/Detener
+shortcut-rerecord-toggle-label = Regrabar clip
+shortcut-discard-ongoing-recording = ESC
+shortcut-discard-ongoing-recording-label = Descartar grabación en curso
 shortcut-submit = Timo cuapase
+shortcut-submit-label = Enviar clips
+request-language-text = ¿Todavía no ve su idioma en Common Voice?
+request-language-button = Solicitar un idioma
 
 ## ProjectStatus
 
+status-title = Estado general del proyecto: ¡vea hasta dónde hemos llegado!
 status-contribute = xitechpaleui  wamo camatilistli
 english = Ingles
 
 ## ProfileForm
 
+profile-form-username =
+    .label = Nombre de usuario
+profile-form-native-language =
+    .label = Lengua materna
+profile-form-additional-language =
+    .label = Idioma adicional
+profile-form-language =
+    .label = Idioma
+profile-form-variant-default-value = Ninguna variante seleccionada
+profile-form-accent =
+    .label = Acento
+profile-form-custom-accent-help-text =
+    .label = ¿Cómo describirías tu acento?
+profile-form-custom-accent-placeholder-2 = Comienza a escribir para describir tu acento.
+profile-form-age =
+    .label = Age
+profile-form-gender-2 =
+    .label = Género
+leaderboard-visibility =
+    .label = Visibilidad de la tabla de posiciones
+hidden = Oculto
+visible = Visible
+native-language =
+    .label = Lengua materna
+profile-form-submit-save = Ahorrar
+profile-form-submit-saved = Salvado
 male = cíhuatl
 female = Tlacatl
 # Gender
 other = seyoj
+why-profile-title = ¿Por qué un perfil?
+why-profile-text =
+    Al proporcionar cierta información sobre usted, los datos de audio que envíe a Common Voice serán más útiles para Speech
+    Motores de reconocimiento que utilizan estos datos para mejorar su precisión.
+dashboard = Panel
+build-profile = Crear perfil
+avatar = Avatar
+goals = Objetivos
+settings = Ajustes
+edit-profile = Editar perfil
+profile-create-success = ¡Éxito, perfil creado!
 profile-close = tsakua
+profile-explanation = Realice un seguimiento de su progreso con un perfil y ayude a que nuestros datos de voz sean más precisos.
+thanks-for-account = Gracias por confirmar su cuenta, ahora vamos a crear su perfil.
+why-demographic = ¿Por qué importa esto?
+why-demographic-explanation-2 = Los datos de usuario anónimos, como la edad, el sexo y el acento, ayudan a mejorar los datos de audio utilizados para entrenar la precisión de los motores de reconocimiento de voz. Su nombre de usuario y correo electrónico nunca se asociarán con sus datos enviados, y puede elegir si desea que su nombre de usuario sea público o anónimo.
+accept-privacy = Estoy de acuerdo con que manejes esta información como explicas en la <privacyLink>Política de privacidad</privacyLink> de Mozilla.
+accept-privacy-title = política de privacidad
+accept-privacy-and-terms = Acepto los <termsLink>Términos</termsLink> y el <privacyLink>Aviso de privacidad</privacyLink> de Common Voice
+login-identity = Identidad de inicio de sesión
 
 ## Profile - Email
 
