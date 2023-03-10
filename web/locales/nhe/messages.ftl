@@ -269,17 +269,27 @@ no-clips-to-validate = Parece que no hay clips para escuchar en este idioma. Ay�
 vote-yes = Quena
 vote-no = axcana
 speak-subtitle = Dona tu voz
+speak-paragraph = La grabación de clips de voz es una parte integral de la construcción de nuestro conjunto de datos abiertos; algunos dirían que también es la parte divertida.
 speak-goal-text = Clips grabados
 listen-subtitle = ¡Ayúdanos a validar oraciones!
 listen-paragraph = La validación de los clips donados es igualmente importante para la misión de Common Voice. Escuche y ayúdenos a crear datos de voz de código abierto de calidad.
 listen-goal-text = Clips validados
+hours-recorded = Horas Registradas
+hours-validated = Horas Validadas
+voices-online = Voces en línea ahora
+read-terms-q = ¿Has leído nuestros Términos?
+ready-to-record = ¿Listo para donar tu voz?
 all-locales = nochi
 today = nama
+help-make-dataset = Ayúdenos a construir un conjunto de datos abierto públicamente y de alta calidad
+sign-up-account = Regístrese para obtener una cuenta
 email-subscription-title = Regístrese para recibir actualizaciones por correo electrónico
 email-subscription-title-new = Regístrese para recibir boletines de Common Voice, recordatorios de metas y actualizaciones de progreso
 
 ## Account Benefits
 
+benefits = Beneficios
+rich-data = Haga que sus datos enviados sean lo más ricos posible al proporcionar algunos datos demográficos anónimos. Desidentificamos todos los datos demográficos antes de hacerlos públicos.
 
 ## What's public
 
