@@ -192,7 +192,11 @@ export default function Content({ location }: { location: any }) {
         <SentryRoute
           exact
           path={toLocaleRoute(URLS.WRITE)}
-          component={WritePage}
+          render={() => {
+            // note: this is redundant with routing in LocalizedPage in app.tsx, and hanldes
+            // locale changing edge cases where toLocaleRoute is still using the old locale
+            return <Redirect to={toLocaleRoute(URLS.WRITE)} />;
+          }}
         />
         <SentryRoute
           exact

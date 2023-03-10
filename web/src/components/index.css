@@ -151,7 +151,8 @@ button {
     background-color: var(--white);
 
     &.speak,
-    &.listen {
+    &.listen,
+    &.write {
         overflow: hidden;
 
         & header {
