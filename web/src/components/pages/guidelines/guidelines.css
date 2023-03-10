@@ -23,7 +23,7 @@
                 font-size: var(--font-size-max);
 
                 @media (--sm-down) {
-                    font-size: var(--font-size-xl);
+                    font-size: 2.25em;
                 }
             }
 
@@ -32,7 +32,7 @@
                 font-size: var(--font-size-lg);
 
                 @media (--sm-down) {
-                    font-size: var(--font-size);
+                    font-size: var(--font-size-md);
                 }
             }
 
@@ -110,7 +110,7 @@
                 }
             }
 
-            @media (--md-down) {
+            @media (--lg-down) {
                 margin: 0 16px;
                 padding-left: 0;
             }
@@ -118,6 +118,18 @@
             & .sections {
                 @media (--sm-down) {
                     width: 100%;
+                }
+
+                & .sidebar-content {
+                    border-bottom: 1px solid var(--grey);
+
+                    @media (--sm-down) {
+                        border-bottom: none;
+                    }
+
+                    @media (--lg-up) {
+                        padding-top: 20px;
+                    }
                 }
 
                 & .line {
@@ -141,6 +153,7 @@
                 max-width: 270px;
                 margin-inline-end: 115px;
                 position: sticky;
+                padding-top: 20px;
                 top: 50px;
                 height: 100%;
 
@@ -176,7 +189,7 @@
                     }
                 }
 
-                @media (--md-down) {
+                @media (--lg-down) {
                     display: none;
                 }
             }
@@ -222,7 +235,7 @@
                     margin-bottom: 24px;
 
                     @media (--sm-down) {
-                        font-size: var(--font-size-sm);
+                        font-size: var(--font-size);
                     }
 
                     a {
@@ -267,7 +280,8 @@
                     display: flex;
                     align-items: center;
                     padding: 50px 30px;
-                    margin-bottom: 24px;
+                    margin-bottom: 36px;
+                    box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.05);
 
                     &.reviewing-sentences {
                         padding: 50px 12px;
@@ -276,7 +290,6 @@
                     @media (--sm-down) {
                         flex-direction: column;
                         padding: 40px 0 0;
-                        width: 350px;
                     }
 
                     & .example-text-container {
@@ -448,35 +461,44 @@
                         }
                     }
                 }
-
-                & .border {
-                    border-bottom: 1px solid var(--grey);
-                    display: inline-block;
-                    width: 100%;
-                    margin-bottom: 24px;
-
-                    @media (--sm-down) {
-                        display: none;
-                    }
-                }
             }
         }
 
         & .tabpanel--selected {
             padding-top: 50px;
 
-            @media (--md-down) {
+            @media (--lg-down) {
                 padding-top: 20px;
             }
         }
     }
 
     & .contact-section {
+        @media (--md-up) {
+            background: url('./images/guidelines-waves-footer.png');
+            background-size: 100% 100%;
+            height: 700px;
+        }
+
+        @media (--lg-down) {
+            background-position: bottom;
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
+
+        @media (--xs-down) {
+            height: 520px;
+            background: url('./images/guidelines-waves-footer-small.png');
+            background-position: bottom;
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
+
         & .contact-container {
             max-width: var(--desktop-width);
             margin: 50px auto 0;
 
-            @media (--md-down) {
+            @media (--lg-down) {
                 margin: 20px;
             }
 
@@ -486,7 +508,7 @@
                 margin: 0 auto;
                 width: fit-content;
 
-                @media (--md-down) {
+                @media (--lg-down) {
                     margin: 0 0 32px;
                 }
 
@@ -512,7 +534,9 @@
 
         & .text-container {
             max-width: 760px;
-            margin: 24px 60px 24px auto;
+            @media (--xl-up) {
+                margin: 24px 60px 24px auto;
+            }
 
             @media (--sm-down) {
                 margin: 0;
@@ -523,6 +547,7 @@
                 align-items: center;
                 gap: 1rem;
                 font-size: 1.25rem;
+                font-family: var(--strong-font-family);
                 margin-bottom: 28px;
 
                 @media (--sm-down) {

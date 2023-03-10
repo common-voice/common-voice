@@ -48,7 +48,6 @@ export const OffensiveContent: React.FC<SidebarContentProps> = ({
             }}>
             <p className="guidelines-content-explanation" />
           </Localized>
-          <span className="border" />
         </div>
       )}
     </div>
