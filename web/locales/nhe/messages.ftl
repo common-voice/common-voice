@@ -479,6 +479,8 @@ about-listen-queue-text = Los clips de voz se ingresan en una cola de envío que
 about-listen = Escuchar
 about-listen-text = Los usuarios validan la precisión de los clips donados, verificando que el orador lea la oración correctamente.
 about-is-it-valid = ¿Es válido el clip?
+about-is-it-valid-text = Un clip de voz se marca como "válido" cuando un usuario vota Sí.
+about-yes-votes-text = Para convertirlo en el conjunto de datos de Common Voice, dos usuarios independientes deben validar un clip de voz.
 
 ## Community Playbook Content
 ## What is a language
