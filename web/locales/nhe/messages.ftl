@@ -500,15 +500,19 @@ about-yes-votes-text = Para convertirlo en el conjunto de datos de Common Voice,
 
 ## How to grow language
 
+about-playbook-how-grow-language-content-6 = Asociaciones y redes
 
 ## How to validate
 
+about-playbook-how-validate = ¿Cómo sé si debo aprobar un clip de voz?
 
 ## How to access dataset
 
+about-playbook-how-access-dataset = ¿Cómo accedo y uso el conjunto de datos?
 
 ## How are decisions made
 
+about-playbook-how-project-governance = ¿Cómo se toman las decisiones del proyecto?
 
 ## Glossary
 
