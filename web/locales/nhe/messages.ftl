@@ -290,9 +290,12 @@ email-subscription-title-new = Regístrese para recibir boletines de Common Voic
 
 benefits = Beneficios
 rich-data = Haga que sus datos enviados sean lo más ricos posible al proporcionar algunos datos demográficos anónimos. Desidentificamos todos los datos demográficos antes de hacerlos públicos.
+improve-audio = La información del perfil mejora los datos de audio utilizados en el entrenamiento de la precisión del reconocimiento de voz.
+keep-track = Realice un seguimiento de su progreso y métricas en varios idiomas.
 
 ## What's public
 
+whats-public = ¿Qué es público?
 
 ## Speak & Listen Shortcuts
 
