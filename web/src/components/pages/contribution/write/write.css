@@ -1,0 +1,78 @@
+.write-page {
+    width: 100%;
+    background-image: linear-gradient(
+        to top,
+        var(--white) 20%,
+        var(--desert-storm)
+    );
+
+    & .write-wrapper {
+        margin-top: 75px;
+
+        & .write-page-header {
+            display: flex;
+            width: fit-content;
+            margin: 0 auto 30px;
+
+            svg {
+                margin: 0 8px;
+            }
+        }
+
+        & .subtitle {
+            width: fit-content;
+            margin: 0 auto 20px;
+            font-size: var(--font-size-sm);
+            font-style: italic;
+            color: var(--near-black);
+        }
+
+        & label.sentence-input {
+            width: 600px;
+            margin: 0 auto 40px;
+
+            textarea {
+                height: 266px;
+                resize: none;
+                font-size: var(--font-size-xl);
+                padding: 16px;
+
+                &::placeholder {
+                    font-size: var(--font-size);
+                }
+            }
+        }
+
+        & .inputs-and-rules-wrapper {
+            display: flex;
+            width: fit-content;
+            margin: 0 84px 0 auto;
+
+            & .rules {
+                margin-left: 50px;
+                padding: 34px;
+                background: var(--desert-storm);
+
+                p {
+                    font-size: var(--font-size-sm);
+                    margin-bottom: 8px;
+                }
+
+                ul {
+                    font-size: var(--font-size-sm);
+                    color: var(--near-black);
+
+                    li {
+                        margin-bottom: 8px;
+                    }
+                }
+            }
+        }
+    }
+
+    & .edit-icon {
+        path {
+            fill: var(--blue);
+        }
+    }
+}
