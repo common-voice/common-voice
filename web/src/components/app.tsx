@@ -39,6 +39,7 @@ const ListenPage = React.lazy(
   () => import('./pages/contribution/listen/listen')
 );
 const SpeakPage = React.lazy(() => import('./pages/contribution/speak/speak'));
+const WritePage = React.lazy(() => import('./pages/contribution/write/write'));
 const DemoPage = React.lazy(() => import('./layout/demo-layout'));
 
 const SentryRoute = Sentry.withSentryRouting(Route);
@@ -208,6 +209,7 @@ let LocalizedPage: any = class extends React.Component<
           {[
             { route: URLS.SPEAK, Component: SpeakPage },
             { route: URLS.LISTEN, Component: ListenPage },
+            { route: URLS.WRITE, Component: WritePage },
           ].map(({ route, Component }: any) => (
             <SentryRoute
               key={route}

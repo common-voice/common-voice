@@ -1594,3 +1594,19 @@ img-alt-success-checkmark = success checkmark
 
 # WRITE PAGE
 write-page-header-public-domain = a public domain sentence
+write-page-subtitle = Sentences contributed here will be added to a publicly available cc-0 licensed dataset.
+sentence = 
+    .label = Sentence
+sentence-input-value = Enter your public domain sentence here
+citation-input-value = Source of your sentence
+citation = 
+    .label = Citation
+what-can-i-add = What sentences can I add?
+new-sentence-rule-1 = No copyright restrictions (cc0)
+new-sentence-rule-2 = Fewer than 15 words
+new-sentence-rule-3 = Use correct grammar
+new-sentence-rule-4 = Use correct spelling and punctuation
+new-sentence-rule-5 = No special characters
+new-sentence-rule-6 = No foreign letters
+new-sentence-rule-7 = Include appropriate citation
+new-sentence-rule-8 = Ideally, natural and conversational (it should be easy to read the sentence)

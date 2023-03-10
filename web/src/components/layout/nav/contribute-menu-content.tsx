@@ -17,6 +17,7 @@ export const ContributeMenuContent: React.FC<ContributeMenuContentProps> = ({
 }) => {
   const speakActive = pathname.includes(URLS.SPEAK);
   const listenActive = pathname.includes(URLS.LISTEN);
+  const writeActive = pathname.includes(URLS.WRITE);
 
   return (
     <div className={className}>
@@ -53,12 +54,15 @@ export const ContributeMenuContent: React.FC<ContributeMenuContentProps> = ({
           <p className="nav-header-item" />
         </Localized>
         <ul>
-          <li className="write">
+          <li
+            className={classNames('write', {
+              'selected-option': writeActive,
+            })}>
             <EditIcon />
             <LocaleLink to={URLS.WRITE} className="contribute-link">
               <Localized id="write" />
             </LocaleLink>
-            {speakActive && <span className="border" />}
+            {writeActive && <span className="border" />}
           </li>
         </ul>
       </div>

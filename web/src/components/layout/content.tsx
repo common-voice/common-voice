@@ -23,7 +23,7 @@ const LandingPage = React.lazy(() => import('../pages/landing/landing'));
 const ErrorPage = React.lazy(() => import('../pages/error-page/error-page'));
 const CriteriaPage = React.lazy(() => import('../pages/criteria/criteria'));
 const PartnerPage = React.lazy(() => import('../pages/partner/partner'));
-const WritePage = React.lazy(() => import('../pages/write/write'));
+const WritePage = React.lazy(() => import('../pages/contribution/write/write'));
 
 const SentryRoute = Sentry.withSentryRouting(Route);
 
@@ -190,7 +190,11 @@ export default function Content({ location }: { location: any }) {
         <SentryRoute
           exact
           path={toLocaleRoute(URLS.WRITE)}
-          component={WritePage}
+          render={() => {
+            // note: this is redundant with routing in LocalizedPage in app.tsx, and hanldes
+            // locale changing edge cases where toLocaleRoute is still using the old locale
+            return <Redirect to={toLocaleRoute(URLS.WRITE)} />;
+          }}
         />
         <Route
           render={() => (
