@@ -431,13 +431,54 @@ faq-why-mission-q = ¿Por qué Common Voice es parte de la misión de Mozilla?
 faq-why-mission-a = Mozilla se dedica a mantener la web abierta y accesible para todos. Para hacer eso, necesitamos empoderar a los creadores web a través de proyectos como Common Voice. A medida que las tecnologías de voz proliferan más allá de las aplicaciones de nicho, creemos que deben servir a todos los usuarios por igual. Eso significa invertir en más idiomas y adaptarse a diversos acentos y datos demográficos al crear y probar tecnologías de voz. Common Voice es un recurso público disponible para todos y los equipos y desarrolladores de Mozilla de todo el mundo ya lo están utilizando también en nuestros propios proyectos.
 faq-what-cv-and-deepspeech-q = ¿Cuál es la diferencia entre n Common Voice y Deep Speech?
 faq-what-cv-and-deepspeech-a = El conjunto de datos de Common Voice complementa el motor de reconocimiento de voz de código abierto de Mozilla Deep Speech. La primera versión de Deep Speech se lanzó en noviembre de 2017 y ha seguido evolucionando desde entonces. Junto con el conjunto de datos de Common Voice, creemos que esta tecnología de reconocimiento de voz de código abierto debería estar disponible para todos. Esperamos que estas tecnologías permitan a los desarrolladores crear una ola de productos y servicios innovadores.
+faq-do-want-native-q = Soy un hablante no nativo y hablo con acento, ¿todavía quieres mi voz?
+faq-do-want-native-a = ¡Sí, especialmente queremos tu voz! Parte del objetivo de Common Voice es reunir tantos acentos diferentes como sea posible para que los servicios de reconocimiento de voz funcionen igual de bien para todos. Esto significa que las donaciones de hablantes no nativos son particularmente importantes.
+faq-why-different-speakers-q = ¿Por qué necesita tantos hablantes diferentes por idioma?
+faq-why-my-lang-q = ¿Por qué mi idioma aún no está incluido?
+faq-what-quality-a = Queremos que el conjunto de datos de Common Voice refleje la calidad de audio que un motor de voz a texto escuchará en la naturaleza, por lo que buscamos variedad. Además de una comunidad diversa de hablantes, un conjunto de datos con calidad de audio variable le enseñará al motor de voz a texto a manejar varias situaciones del mundo real, desde hablar de fondo hasta el ruido del automóvil. Siempre que su clip de voz sea inteligible, debería ser lo suficientemente bueno para el conjunto de datos.
+faq-why-10k-hours-a = Esta es aproximadamente la cantidad de horas requeridas para entrenar un sistema de producción de voz a texto.
+faq-how-calc-hours-q = ¿Cómo calcula Common Voice las horas?
+faq-how-calc-hours-a = Calculamos las horas estimando la duración promedio de cada grabación y luego multiplicando ese número por el número total de grabaciones en todos los idiomas.
+faq-where-src-from-2-q = ¿De dónde proviene el texto fuente?
+faq-why-not-ask-read-q = ¿Por qué no le pides a la gente que lea libros o artículos de Wikipedia en diferentes idiomas?
+faq-why-account-q = ¿Por qué debo registrarme para obtener una cuenta?
+faq-is-account-public-q = ¿La información de mi cuenta es pública?
+faq-how-privacy-q = ¿Cómo garantizan el anonimato y la privacidad de las personas que donaron sus voces?
+faq-how-privacy-a = Todos los clips de voz en el conjunto de datos se eliminan de la información de identificación personal. Cuando un colaborador proporciona datos demográficos a través de su perfil, esa información se desidentifica de sus clips de voz antes de agruparse para su descarga en el conjunto de datos y nunca se hace pública en su página de perfil.
+faq-what-is-cv = ¿Que is Common Voice?
 faq-using-cv = Usando Common Voice
+faq-search-for-answers =
+    .label = Buscar respuestas
 
 ## ABOUT US
 
+about-title = ¿Por que Common Voice?
+how-does-it-work-title-v2 = ¿Como funciona Common Voice?
+how-does-it-work-text = Estamos colaborando con un conjunto de datos de voces de código abierto. Done su voz, valide la precisión de los clips de otras personas, mejore el conjunto de datos para todos.
 
 ## How does it work section
 
+about-language-req-subtitle = Alguien pide que se agregue un idioma.
+about-localization-title = Localización de sitios web
+about-localization-subtitle = El texto del sitio web está traducido a ese idioma.
+about-sentence-collection-title = Colección de oraciones
+about-sentence-collection-subtitle = Se recopilan oraciones para que las personas las lean en voz alta.
+about-new-lang-title = Lanzamiento de un nuevo idioma
+about-new-lang-subtitle = Lanzamos el sitio de Common Voice en este idioma.
+about-voice-contrib-title = Contribución de voz.
+about-voice-contrib-subtitle = La gente viene y contribuye con sus voces.
+about-voice-validation-title = Validación de voz
+about-voice-validation-subtitle = Other people validate those voice clips.
+about-dataset-release-title = Lanzamiento del conjunto de datos
+about-dataset-release-subtitle = Publicamos el conjunto de datos cada 3 meses.
+about-subscribe-text = ¿Quiere mantenerse en contacto con Common Voice?
+about-speak = Hablar
+about-speak-text = Los colaboradores graban clips de voz leyendo de un banco de oraciones donadas.
+about-listen-queue = Cola de escucha
+about-listen-queue-text = Los clips de voz se ingresan en una cola de envío que los prepara para escucharlos.
+about-listen = Escuchar
+about-listen-text = Los usuarios validan la precisión de los clips donados, verificando que el orador lea la oración correctamente.
+about-is-it-valid = ¿Es válido el clip?
 
 ## Community Playbook Content
 ## What is a language
