@@ -66,7 +66,6 @@ export const PublicDomain: React.FC<SidebarContentProps> = ({
               <li />
             </Localized>
           </ul>
-          <span className="border" />
         </div>
       )}
     </div>

@@ -57,7 +57,6 @@ export const CitingSentences: React.FC<SidebarContentProps> = ({
             </Localized>
             <ExampleContentSentence contentType="cite" />
           </div>
-          <span className="border" />
         </div>
       )}
     </div>

@@ -59,7 +59,6 @@ export const BackgoundNoise: React.FC<SidebarContentProps> = ({
             exampleText="background-noise-example-1"
             exampleTips={exampleTips}
           />
-          <span className="border" />
         </div>
       </div>
     )}
