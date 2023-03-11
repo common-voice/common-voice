@@ -813,24 +813,61 @@ keep = Mantener
 remove = Eliminar
 keep-info = Sus grabaciones de voz anónimas permanecerán en el conjunto de datos de Common Voice. Una vez que elimine su perfil, ya no podrá enviar una solicitud para eliminar sus grabaciones del conjunto de datos.
 remove-info = Revisaremos su solicitud para eliminar sus grabaciones de voz del conjunto de datos. Si se aprueba su solicitud, nos pondremos en contacto con quienes descargaron el conjunto de datos y les solicitaremos que también eliminen sus grabaciones de voz.
+profile-form-delete = Borrar perfil
 
 ## Profile Download
 
+download-q = ¿Necesitas descargar tus datos?
+download-info = Dinos qué te gustaría descargar:
+download-profile-title = Perfil
+download-profile-info = Incluye correo electrónico, nombre de usuario e información demográfica, disponible de inmediato
+download-profile-size = unos pocos bytes
+download-recordings-title = Grabaciones
+download-recordings-info = Incluye mp3 y oraciones relacionadas, puede llevar algo de tiempo prepararlo
+download-recordings-size = Típicamente megabytes
+download-recordings-unavailable = No puede solicitar sus grabaciones mientras ya hay otra solicitud en curso.
+download-size = Tamaño
+download-selected = Seleccionado
+download-start = Descargar datos de perfil
+download-request = Solicitar grabaciones
+download-requests = Solicitudes de descarga de grabaciones anteriores
+download-requests-info = Cuando solicita sus grabaciones, las compilamos en uno o varios archivos ZIP. Estas son sus solicitudes anteriores:
+download-request-button = Descargar
+download-request-archive-single = Archivo ZIP único que contiene
+download-request-assembling-description = Sus archivos están siendo ensamblados. Vuelva a comprobarlo más tarde.
+download-request-refresh-button = Actualizar
+download-request-modal-title = Descargar enlaces
+download-request-modal-description = Aquí están los enlaces para descargar sus archivos ZIP.
+download-request-metadata-link = Texto de la oración
 
 ## Landing
 
+help-contribute = Puede ayudar a crear un conjunto de datos diverso y de código abierto creando un perfil de Common Voice y contribuyendo con su voz.
+read-more-about = Lea más en nuestra página Acerca de
 
 ## DemoLayout
 
+demo-get-started = Empecemos
+demo-welcome = Bienvenidos a Common Voice
+demo-welcome-subheader = ¿Interesado en aprender más y contribuir al proyecto?
 
 ## Demo Datasets
 
+card-button-next = Próximo
+card-button-back = Atrás
+demo-language-select-label = Explorar idiomas
 
 ## Demo Account
 
+demo-account-card-body = A la derecha describimos los beneficios y aclaramos qué información hacemos pública. Use los enlaces a continuación para comenzar con una cuenta de Common Voice en su propio dispositivo.
+demo-account-enter-email =
+    .label = Ingrese el correo electrónico para enviar un enlace de registro
+demo-account-sign-up = Enviar enlace de registro
 
 ## Demo Contribute
 
+demo-contribute-card-header = ¿Listo para añadir tu voz o prestar tu oído?
+demo-listen-subtitle = ¿Listo para contribuir?
 
 ## Demo Dashboard
 
