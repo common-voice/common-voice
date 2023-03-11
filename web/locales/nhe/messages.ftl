@@ -680,9 +680,38 @@ language-total-progress = Total
 language-search-input =
     .placeholder = Buscar
 language-speakers = Oradores
+localized = Localizado
+sentences = Oraciones
+language-validation-hours = Horas
+language-validation-progress = Progreso de la validación
 
 ## Contribution
 
+action-click = Hacer clic
+contribute = Xitechpalehui
+listen = Escuchar
+skip = Saltar
+shortcuts = Atajos
+record-cta = Empezar a grabar
+record-must-allow-microphone = Debe permitir el acceso al micrófono.
+record-no-mic-found = No se encontró ningún micrófono.
+record-error-too-short = La grabación fue demasiado corta.
+record-error-too-long = La grabación fue demasiado larga.
+record-error-too-quiet = La grabación fue demasiado silenciosa.
+record-cancel = Cancelar regrabación
+record-three-more-instruction = ¡Tres para ir!
+share-clip = Comparte tu vídeo
+share-common-voice = Compartir voz común
+review-instruction = Revisar y volver a grabar clips si es necesario
+clips-uploaded = Clips subidos
+record-abort-title = ¿Terminar de grabar primero?
+record-abort-text = Si te vas ahora, perderás tu progreso.
+record-abort-submit = Enviar clips
+record-abort-continue = Terminar de grabar
+record-abort-delete = Salir y eliminar clips
+listen-empty-state = Es posible que nos hayamos quedado sin clips: actualice la página o vuelva a intentarlo más tarde.
+speak-empty-state = Nos hemos quedado sin frases para grabar en este idioma...
+speak-empty-state-cta = Contribuir oraciones
 
 ## Contribution Nav Items
 
