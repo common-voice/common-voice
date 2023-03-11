@@ -278,6 +278,8 @@ listen-goal-text = Clips validados
 hours-recorded = Horas Registradas
 hours-validated = Horas Validadas
 voices-online = Voces en línea ahora
+todays-progress = El progreso de hoy
+help-reach-goal = Ayúdanos a llegar a { $objetivo }
 read-terms-q = ¿Has leído nuestros Términos?
 ready-to-record = ¿Listo para donar tu voz?
 all-locales = nochi
@@ -293,6 +295,9 @@ benefits = Beneficios
 rich-data = Haga que sus datos enviados sean lo más ricos posible al proporcionar algunos datos demográficos anónimos. Desidentificamos todos los datos demográficos antes de hacerlos públicos.
 improve-audio = La información del perfil mejora los datos de audio utilizados en el entrenamiento de la precisión del reconocimiento de voz.
 keep-track = Realice un seguimiento de su progreso y métricas en varios idiomas.
+compare-progress = Compara tu progreso con el de otros colaboradores de todo el mundo.
+view-goals = Vea su progreso en comparación con los objetivos personales y del proyecto.
+join-newsletter = Únase opcionalmente a nuestra lista de correo electrónico para recibir actualizaciones y nueva información sobre el proyecto.
 
 ## What's public
 
@@ -351,6 +356,8 @@ profile-form-additional-language =
     .label = Idioma adicional
 profile-form-language =
     .label = Idioma
+profile-form-variant =
+    .label = ¿Qué variante de { $language } hablas?
 profile-form-variant-default-value = Ninguna variante seleccionada
 profile-form-accent =
     .label = Acento
@@ -367,6 +374,7 @@ hidden = Oculto
 visible = Visible
 native-language =
     .label = Lengua materna
+profile-form-add-accent = Agregue un nuevo acento personalizado "{ $inputValue }"
 profile-form-submit-save = Ahorrar
 profile-form-submit-saved = Salvado
 male = cíhuatl
@@ -412,11 +420,16 @@ help-variants-explanation = Las variantes son una forma específica de un idioma
 
 browse-file-title = Subir un archivo de imagen
 connect-gravatar = Conéctate con Gravatar
+gravatar_not_found = No se encontró gravatar para su correo electrónico
+file_too_large = El archivo seleccionado es demasiado grande
 avatar-uploaded = subido
 remove-avatar = Quitar avatar
 
 ## Profile - Email
 
+manage-subscriptions = Administrar Suscripciones
+manage-email-subscriptions = Administrar suscripciones de correo electrónico
+email-already-used = El correo electrónico ya se usa para una cuenta diferente
 add-language = Agregar idioma
 change-email-setings = Cambie su correo electrónico a través de Configuración en Identidad de inicio de sesión
 
@@ -427,11 +440,18 @@ faq-what-cv-q = ¿Que is Common Voice?
 faq-what-cv-a = La tecnología de reconocimiento de voz está revolucionando la forma en que interactuamos con las máquinas, pero los sistemas disponibles actualmente son costosos y patentados. Common Voice es parte de la iniciativa de Mozilla para hacer que las tecnologías de reconocimiento de voz sean mejores y más accesibles para todos. Common Voice es una base de datos global masiva de voces donadas que permite a cualquier persona entrenar rápida y fácilmente aplicaciones habilitadas para voz en potencialmente todos los idiomas.
 faq-what-cv-a-2 = La tecnología de reconocimiento de voz está revolucionando la forma en que interactuamos con las máquinas, pero los sistemas disponibles actualmente son costosos y patentados. Mozilla Common Voice es una iniciativa para hacer que las tecnologías de reconocimiento de voz sean mejores y más accesibles para todos. Common Voice es una base de datos global masiva de voces donadas que permite a cualquier persona entrenar rápida y fácilmente aplicaciones habilitadas para voz en potencialmente todos los idiomas.
 faq-why-important-q = ¿Por qué es importante?
+faq-why-important-a =
+    El habla es a menudo la forma más natural en que nos comunicamos entre nosotros y las tecnologías de voz están brindando esa comodidad a nuestras computadoras y dispositivos móviles. Queremos capacitar a los desarrolladores para que construyan increíbles aplicaciones de reconocimiento de voz, como traductores en tiempo real y asistentes digitales habilitados para voz. Pero en este momento, la mayoría de los datos de voz necesarios para crear este tipo de aplicaciones son costosos y patentados. Esperamos que el conjunto de datos de Common Voice brinde a los desarrolladores lo que necesitan para innovar y hacer que la tecnología del habla esté disponible en su propio idioma.
+    
+    Para hacer que el reconocimiento de voz sea aún más universal, recopilamos muestras de voz en los idiomas más hablados, así como en aquellos con una población de hablantes más pequeña, a menudo desatendidos por los servicios comerciales de reconocimiento de voz. La publicación de un conjunto de datos diverso de voces permitirá a los desarrolladores, empresarios y comunidades de habla completas abordar esta brecha por sí mismos.
+faq-how-get-q = ¿Cómo puedo obtener los datos de Common Voice?
 faq-when-release2-q = ¿Cuándo publicará los datos de Common Voice en otros idiomas?
 faq-why-mission-q = ¿Por qué Common Voice es parte de la misión de Mozilla?
 faq-why-mission-a = Mozilla se dedica a mantener la web abierta y accesible para todos. Para hacer eso, necesitamos empoderar a los creadores web a través de proyectos como Common Voice. A medida que las tecnologías de voz proliferan más allá de las aplicaciones de nicho, creemos que deben servir a todos los usuarios por igual. Eso significa invertir en más idiomas y adaptarse a diversos acentos y datos demográficos al crear y probar tecnologías de voz. Common Voice es un recurso público disponible para todos y los equipos y desarrolladores de Mozilla de todo el mundo ya lo están utilizando también en nuestros propios proyectos.
 faq-what-cv-and-deepspeech-q = ¿Cuál es la diferencia entre n Common Voice y Deep Speech?
 faq-what-cv-and-deepspeech-a = El conjunto de datos de Common Voice complementa el motor de reconocimiento de voz de código abierto de Mozilla Deep Speech. La primera versión de Deep Speech se lanzó en noviembre de 2017 y ha seguido evolucionando desde entonces. Junto con el conjunto de datos de Common Voice, creemos que esta tecnología de reconocimiento de voz de código abierto debería estar disponible para todos. Esperamos que estas tecnologías permitan a los desarrolladores crear una ola de productos y servicios innovadores.
+faq-is-goal-assistant-q = ¿Es el objetivo de Common Voice construir un asistente de voz?
+faq-is-goal-assistant-a = El objetivo del conjunto de datos de Common Voice es permitir que cualquier persona en el mundo cree reconocimiento de voz, reconocimiento de hablantes o cualquier otro tipo de aplicación que requiera datos de voz. Un asistente de voz es solo uno de los muchos tipos de aplicaciones que podría usar para construir el conjunto de datos.
 faq-do-want-native-q = Soy un hablante no nativo y hablo con acento, ¿todavía quieres mi voz?
 faq-do-want-native-a = ¡Sí, especialmente queremos tu voz! Parte del objetivo de Common Voice es reunir tantos acentos diferentes como sea posible para que los servicios de reconocimiento de voz funcionen igual de bien para todos. Esto significa que las donaciones de hablantes no nativos son particularmente importantes.
 faq-why-different-speakers-q = ¿Por qué necesita tantos hablantes diferentes por idioma?
@@ -482,6 +502,9 @@ about-listen-text = Los usuarios validan la precisión de los clips donados, ver
 about-is-it-valid = ¿Es válido el clip?
 about-is-it-valid-text = Un clip de voz se marca como "válido" cuando un usuario vota Sí.
 about-yes-votes-text = Para convertirlo en el conjunto de datos de Common Voice, dos usuarios independientes deben validar un clip de voz.
+about-nav-why-common-voice = Por qué ?
+about-nav-how-it-works = Cómo ?
+about-nav-partners = Socios
 
 ## Community Playbook Content
 ## What is a language
