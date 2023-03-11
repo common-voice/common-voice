@@ -505,25 +505,46 @@ about-yes-votes-text = Para convertirlo en el conjunto de datos de Common Voice,
 about-nav-why-common-voice = Por qué ?
 about-nav-how-it-works = Cómo ?
 about-nav-partners = Socios
+about-nav-get-involved = Involucrarse
+about-nav-how-it-works-2 = ¿Como funciona Common Voice?
+about-nav-playbook = Aprende cómo participar
 
 ## Community Playbook Content
 ## What is a language
 
+about-playbook-what-is-language = ¿Qué es un idioma en Common Voice?
+about-playbook-what-is-language-content-2 = Queremos que los modelos de voz comprendan mejor una amplia gama de hablantes. Para que esto suceda, un conjunto de datos de voz debe representar a muchas personas diferentes.
 
 ## How do I add a language
 
+about-playbook-how-add-language = ¿Cómo agrego un idioma?
+about-playbook-how-add-language-translating-heading = Traduciendo el sitio
+about-playbook-how-add-language-collecting-sentences-heading = Recopilación de frases
 
 ## How does localization work
 
+about-playbook-how-localize = ¿Cómo funciona la localización del sitio?
+about-playbook-how-localize-content-5 = Mire nuestro video explicativo para ayudar
 
 ## How to add sentences
 
+about-playbook-how-add-sentences = ¿Cómo agrego oraciones?
+about-playbook-how-add-sentences-content-4 = Las oraciones que han sido validadas se exportan los miércoles y están disponibles después del próximo lanzamiento.
 
 ## How to record quality
 
+about-playbook-how-record-quality = ¿Cómo grabo un clip de voz de alta calidad?
+about-playbook-how-record-content-1 = ¡Habla con tu voz normal! La forma en que habla es bienvenida aquí: queremos su acento tal como es, y queremos su volumen, estilo y entonación habituales.
+about-playbook-how-record-content-2 = Evite demasiado ruido de fondo; debería ser fácil escucharlo.
+about-playbook-how-record-content-3 = Lea la oración con cuidado: no se pierda, cambie o agregue palabras.
+about-playbook-how-record-content-4 = Asegúrate de que la plataforma esté grabando antes de que comiences a hablar y que solo se detenga una vez que hayas terminado.
 
 ## How to grow language
 
+about-playbook-how-grow-language = ¿Cómo podemos hacer crecer efectivamente un idioma en Common Voice?
+about-playbook-how-grow-language-content-1 = Crear oportunidades para que una diversidad de personas contribuya a Common Voice garantiza que el conjunto de datos sirva a la mayor cantidad de personas posible. ¡Hemos creado recursos y plantillas que puede usar!
+about-playbook-how-grow-language-content-2 = Eventos
+about-playbook-how-grow-language-content-4 = Medios de comunicación social
 about-playbook-how-grow-language-content-6 = Asociaciones y redes
 
 ## How to validate
@@ -564,6 +585,7 @@ error-code = Error { $code }
 
 ## Data
 
+data-download-button = Descargar datos de Common Voice
 data-download-yes = Quena
 data-download-deny = axcana
 data-subtitle = Estamos construyendo un conjunto de datos de voces abierto y disponible públicamente que todos pueden usar para entrenar aplicaciones habilitadas para voz.
@@ -611,16 +633,36 @@ get-started-speech = Comience con el reconocimiento de voz
 other-datasets = Otros conjuntos de datos de voz
 feedback-q = ¿Tiene comentarios?
 community-playbook = Community Playbook
+data-other-ted-name = Corpus TED-LIUM
+data-other-ted-description = El corpus TED-LIUM se elaboró a partir de charlas en audio y sus transcripciones disponibles en el sitio web de TED.
 data-other-tatoeba-description = Tatoeba es una gran base de datos de oraciones, traducciones y audio hablado para usar en el aprendizaje de idiomas. Esta descarga contiene inglés hablado grabado por su comunidad.
+your-feedback = ¿Tiene ideas sobre cómo podemos mejorar el conjunto de datos de Common Voice? Háganos saber en Discourse
+go-discourse = Ir a Discurso
+go-languages-page = Ir a la página de idiomas
+ready-to-validate = ¿Listo para ayudar a validar oraciones?
+more = Más
+close = tsakua
+download = Descargar
+dataset-version = Versión
+clipboard-not-supported = Portapapeles no compatible
 
 ## Download Modal
 
+download-title = Su descarga ha comenzado.
+download-helpus = Ayúdenos a construir una comunidad en torno a la tecnología de voz, manténgase en contacto por correo electrónico.
+download-back = Volver a Conjuntos de datos de Common Voice
 
 ## Contact Modal
 
+contact-title = Formulario de contacto
+contact-form-name =
+    .label = Nombre
 
 ## Request Language Modal
 
+request-language-title = Solicitud de idioma
+request-language-form-language =
+    .label = Idioma
 
 ## Request Language Pages
 
