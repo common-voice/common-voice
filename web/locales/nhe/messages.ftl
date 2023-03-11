@@ -712,18 +712,57 @@ record-abort-delete = Salir y eliminar clips
 listen-empty-state = Es posible que nos hayamos quedado sin clips: actualice la página o vuelva a intentarlo más tarde.
 speak-empty-state = Nos hemos quedado sin frases para grabar en este idioma...
 speak-empty-state-cta = Contribuir oraciones
+record-button-label = Graba tu voz
+login-to-get-started = Inicia sesión o regístrate para empezar
+target-segment-first-card = Está contribuyendo a nuestro primer segmento objetivo
+target-segment-generic-card = Estás contribuyendo a un segmento objetivo
+target-segment-add-voice = Agrega tu voz
+target-segment-learn-more = Aprende más
 
 ## Contribution Nav Items
 
+contribute-voice-collection-nav-header = Colección de voz
 
 ## Reporting
 
+report = Informe
+report-title = Envíe un informe
+report-ask = ¿Qué problemas estás experimentando con esta oración?
+report-offensive-language = Lenguaje ofensivo
+report-offensive-language-detail = La oración tiene lenguaje irrespetuoso u ofensivo.
+report-grammar-or-spelling = Error gramatical/ortográfico
+report-grammar-or-spelling-detail = La oración tiene un error gramatical o de ortografía.
+report-different-language = Lenguaje diferente
+report-different-language-detail = Está escrito en un idioma diferente al que estoy hablando.
+report-difficult-pronounce = Difícil de pronunciar
+report-difficult-pronounce-detail = Contiene palabras o frases que son difíciles de leer o pronunciar.
+report-offensive-speech = discurso ofensivo
+report-offensive-speech-detail = El clip tiene lenguaje irrespetuoso u ofensivo.
+report-other-comment =
+    .placeholder = Comentario
+success = Éxito
+continue = Continuar
+report-success = El informe se pasó con éxito
 
 ## Goals
 
+streaks = Manchas
 
 ## Dashboard
 
+your-languages = Tus idiomas
+toward-next-goal = Hacia el próximo objetivo
+goal-reached = Meta alcanzada
+clips-you-recorded = Clips que has grabado
+clips-you-validated = Clips que has validado
+todays-recorded-progress = Progreso de Common Voice de hoy en clips grabados
+todays-validated-progress = Progreso de Common Voice de hoy en clips validados
+stats = Estadísticas
+awards = Premios
+you = Tu
+everyone = Todos
+contribution-activity = Actividad de contribución
+top-contributors = Mayores contribuyentes
 
 ## Custom Goals
 
