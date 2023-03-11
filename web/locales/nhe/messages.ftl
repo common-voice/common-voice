@@ -666,9 +666,20 @@ request-language-form-language =
 
 ## Request Language Pages
 
+# Success page
+request-language-success-heading = ¡Gracias! Ha enviado una nueva consulta de idioma
 
 ## Languages Overview
 
+language-section-in-progress = En curso
+language-section-launched = Lanzado
+languages-show-more = Ver más
+languages-show-less = Ver menos
+language-meter-in-progress = Progreso
+language-total-progress = Total
+language-search-input =
+    .placeholder = Buscar
+language-speakers = Oradores
 
 ## Contribution
 
