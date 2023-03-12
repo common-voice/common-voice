@@ -828,6 +828,9 @@ target-segment-first-banner = Skoazellit da grouiñ dazrann gentañ Common Voice
 target-segment-add-voice = Ouzhpennit ho mouezh
 target-segment-learn-more = Gouzout hiroc’h
 
+## Contribution Nav Items
+
+
 ## Reporting
 
 report = Danevelliñ
@@ -1111,6 +1114,7 @@ sc-logout-button = Digevreañ
 
 ## MY SENTENCES
 
+sc-my-delete = Dilemel ar frazenn diuzet
 
 ## REJECTED
 
