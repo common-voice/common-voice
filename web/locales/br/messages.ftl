@@ -418,6 +418,7 @@ why-demographic-explanation-2 = Roadennoù implij dizanv evel an oad, ar jener, 
 accept-privacy = Asantiñ a ran ec’h implijfec’h ar pezh titour-mañ evel ma vez lavaret e <privacyLink>politikerezh a-fet buhez prevez</privacyLink> Mozilla
 accept-privacy-title = Reolenn a-fet buhez prevez
 login-identity = Identelezh kevreañ
+login = Kennaskañ
 login-signup = Kevreañ / Lakaat e anv
 edit = Aozañ
 email-subscriptions = Koumanantoù postel
@@ -552,11 +553,13 @@ about-get-involved-text-2 =
     C’hoant ho peus sikour da wellaat Common Voice?
     Dreist! Kit e darempred ganeomp dre bostel pe war ar foromoù <discourseLink>Discourse</discourseLink>,
     disklêriit kudennoù lec’hiennoù dre <githubLink>GitHub</githubLink>, pe kemerit perzh e flap ar gumuniezh war <matrixLink>Matrix</matrixLink>.
+about-stay-in-touch = Penaos chom e darempred?
 about-stay-in-touch-button = Kevreañ
 about-nav-why-common-voice = Perak?
 about-nav-how-it-works = Penaos?
 about-nav-partners = Kevelerien
 about-nav-get-involved = Kemer perzh
+about-nav-how-it-works-2 = Penaos ez a en-dro Common Voice?
 about-nav-playbook = Deskiñ penaos kemer-perzh
 
 ## Community Playbook Content
@@ -663,6 +666,7 @@ datasets-positioning =
     
     Sellit ouzh ar bajenn-mañ evel un dave d’ar spletadoù roadennoù digor all, ha dre ma kresko Common Voice, un degemer evit hon hizivadennoù da zont.
 language = Yezh
+download-dataset-header = Pellgargañ an dastumad roadennoù
 # File size in gigabytes
 size = Ment
 validated-hr-total = Hollad eurvezhioù gwiriekaet
@@ -677,6 +681,7 @@ confirm-size = Emaoc’h o vont da lañsañ ur bellgagadenn <b>{ $size }</b>
 size-gigabyte = Go
 size-megabyte = Mo
 confirm-no-identify = <b>Asantiñ a rit</b> da chom hep klask despizañ pivelezh ar gomzerien e spletad roadennoù Common Voice
+confirm-join-mailing-list = C'hoant em eus emezelañ e roll skignañ Common Voice
 download-language = Pellgargañ { $language }
 validated-hours = Eurvezhioù gwiriet
 recorded-hours = Eurvezhioù enrollet
@@ -764,6 +769,7 @@ language-speakers = Komzerien
 localized = Lec’helaet
 sentences = Frazennoù
 language-validation-hours = Eurvezhioù
+language-validation-progress = Araokadenn wiriañ
 
 ## Contribution
 
@@ -830,6 +836,7 @@ target-segment-learn-more = Gouzout hiroc’h
 
 ## Contribution Nav Items
 
+contribute-voice-collection-nav-header = Dastumad mouezhioù
 
 ## Reporting
 
@@ -1126,12 +1133,20 @@ sc-stats-updating = Oc'h hizivaat…
 
 ## ADD
 
+sc-submit-select-language =
+    .labelText = Diuzañ ur yezh
+sc-submit-ph-one-per-line =
+    .placeholder = Ur frazenn dre linenn
+sc-submit-button =
+    .submitText = Kas
 
 ## ADD LANGUAGE
 
+sc-add-lang-sec-button = Ouzhpennañ ur yezh
 
 ## ADD SENTENCES CONFIRMATION
 
+sc-confirm-button-text = Kadarnaat
 
 ## LANGUAGE INFO
 
@@ -1169,3 +1184,9 @@ sc-settings-title = Arventennoù
 # [/SentenceCollector]
 
 partnerships-our-partners = Hor c'hevelerien
+why-donate = Perak e c'houlennit eta?
+add-information-button = Ouzhpennañ titouroù
+continue-speaking-button = Nann avat, kenderc'hel da gomz
+create-profile-button = Krouiñ ur profil
+# IMAGE TAGS
+img-alt-success-checkmark = merk kochañ berzh
