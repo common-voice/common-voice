@@ -602,7 +602,7 @@ about-playbook-how-add-language-collecting-sentences-content-3 = Saber máis sob
 about-playbook-how-localize = Como funciona a tradución da páxina web?
 about-playbook-how-localize-content-1 = A tradución da páxina de Common Voice faise a través de <strong>Pontoon</strong>.
 about-playbook-how-localize-content-2 = <pontoonAccountLink>Cree unha conta</pontoonAccountLink> se aínda non dispón dela. A continuación, escolla o seu idioma <strong>('Equipo')</strong> e despois seleccione o proxecto <pontoonCvLink>Common Voice</pontoonCvLink>. Aparecerá unha serie de textos para traducir. Ao escoller un deles, mostrarase o orixinal en inglés e un recadro para introducir a tradución correspondente.
-about-playbook-how-localize-content-3 = A tradución faise a partir do inglés, pero pode ver <strong>Suggestions</strong> (suxestións) noutros idiomas. Prema na icona <strong>Profile</strong> (perfil), logo na ligazón <strong>Settings</strong> (configuración) e engada os idiomas que fala. Na esquina inferior dereita aparecerá unha lista de traducións chamada <strong>Locales</strong>. As traducións móstranse no sitio web ao día seguinte.
+about-playbook-how-localize-content-3 = A tradución faise a partir do inglés, pero pode ver <strong>Suggestions</strong> (suxestións) noutros idiomas. Prema na icona <strong>Profile</strong> (perfil), logo na ligazón <strong>Settings</strong> (configuración) e engada os idiomas que fala. Na esquina inferior dereita aparecerá unha lista de traducións chamada <strong>Locales</strong>. As traducións móstranse na páxina web ao día seguinte.
 about-playbook-how-localize-content-4 = A páxina web está lista para ser publicada cando a tradución chega ao 75 %.
 about-playbook-how-localize-content-5 = Consulte o noso vídeo explicativo
 
@@ -677,9 +677,9 @@ de-identified-explanation = O proceso mediante o cal a información do perfil du
 ## Error pages
 
 error-title-404 = Non nos foi posíbel atopar esa páxina
-error-content-404 = Se cadra a nosa<homepageLink>páxina principal</homepageLink> axudaría? Para facer unha pregunta, únase ao  <matrixLink>chat da comunidade Matrix</matrixLink>, siga as incidencias do sitio por  <githubLink>GitHub</githubLink> ou visite <discourseLink>os nosos foros Discourse</discourseLink>.
+error-content-404 = Se cadra a nosa<homepageLink>páxina principal</homepageLink> axudaría? Para facer unha pregunta, únase ao <matrixLink>chat da comunidade Matrix</matrixLink>, siga as incidencias da páxina por <githubLink>GitHub</githubLink> ou visite <discourseLink>os nosos foros Discourse</discourseLink>.
 error-title-503 = Neste intre sufrimos unha caída do servizo inesperada
-error-content-503 = O sitio volverá a estar activo tan pronto como sexa posible. Para ter as últimas novas, únase ao <matrixLink>chat da comunidade Matrix</matrixLink> ou visite <githubLink>GitHub</githubLink> ou <discourseLink>os nosos foros Discourse </discourseLink> para enviar e monitorizar as incidencias na experiencia de utilización do sitio.
+error-content-503 = A páxina volverá a estar activa tan pronto como sexa posible. Para ter as últimas novas, únase ao <matrixLink>chat da comunidade Matrix</matrixLink> ou visite <githubLink>GitHub</githubLink> ou <discourseLink>os nosos foros Discourse </discourseLink> para enviar e monitorizar as incidencias na experiencia de utilización da páxina.
 error-code = Erro { $code }
 
 ## Data
