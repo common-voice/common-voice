@@ -1129,7 +1129,7 @@ welcome-staff = Benvida ao persoal de { $company }
 help-contribute = Pode axudar a construír un conxunto de datos diverso e de código aberto creando un perfil de Common Voice e doando a súa voz.
 login-company = Iniciar sesión / Rexistrarse co correo electrónico de { $company }
 profile-not-required = Non é necesario ter un perfil para colaborar, malia que tamén axuda, e vexa por que a seguir.
-read-more-about = Máis información na páxina "Sobre Common Voice"
+read-more-about = Máis información na pestana "Sobre Common Voice"
 
 ## DemoLayout
 
@@ -1301,7 +1301,7 @@ sc-howto-findpd-partner-2 = As persoas especialistas en lingüística, tamén ll
 ## MY SENTENCES
 
 sc-my-title = As miñas frases
-sc-my-description = Esta páxina ofrécelle unha visión xeral de todas as frases enviadas. Tamén pode eliminar as frases xa enviadas, se for necesario, marcando o recadro de selección do lado e premendo no botón &quot;Eliminar as frases seleccionadas&quot; abaixo de todo. Elimine frases só se é absolutamente necesario, por exemplo, se se deu conta de que unha frase está protexida por dereitos de autor.
+sc-my-description = Esta pestana ofrécelle unha visión xeral de todas as frases enviadas. Tamén pode eliminar as frases xa enviadas, se for necesario, marcando o recadro de selección do lado e premendo no botón &quot;Eliminar as frases seleccionadas&quot; abaixo de todo. Elimine frases só se é absolutamente necesario, por exemplo, se se deu conta de que unha frase está protexida por dereitos de autor.
 sc-my-loading = Cargando as súas frases...
 sc-my-err-fetching = Produciuse un erro ao recuperar as súas frases. Por favor, inténteo de novo.
 sc-my-no-sentences = Non se atopou ningunha frase!
