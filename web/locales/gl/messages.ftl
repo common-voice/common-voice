@@ -747,7 +747,7 @@ confirm-join-mailing-list = Quero unirme á lista de correo de Common Voice
 download-language = Descargar { $language }
 validated-hours = Horas validadas
 recorded-hours = Horas gravadas
-whats-inside = Que hai dentro do conxunto de datos Common Voice?
+whats-inside = Que inclúe o conxunto de datos Common Voice?
 dataset-description-hours =
     Cada entrada no conxunto de datos consiste dun único MP3 e o correspondente ficheiro de texto. Moitas das <b>{ $total }</b> horas gravadas no conxunto de datos tamén inclúen metadatos demográficos como idade, xénero e acento que poden axudar a adestrar a precisión dos motores de recoñecemento de voz.
     
