@@ -701,7 +701,7 @@ release-version = Versión
 dataset-date = Data
 license = Licenza: <licenseLink>{ $license }</licenseLink>
 license-mixed = Mesturados
-data-download-singleword-title = Descarga o Segmento de Destino Único de Palabra
+data-download-singleword-title = Descarge o segmento específico de palabras únicas
 data-download-singleword-callout-v2 = Este é un segmento baseado en casos de uso que contén datos para potenciar o recoñecemento de díxitos falados e a detección de si / non.
 review-terms = Ao utilizar Common Voice, está conforme cos nosos <termsLink>Termos</termsLink> e <privacyLink>Política de privacidade</privacyLink>
 terms-agree = Conforme
@@ -749,9 +749,9 @@ validated-hours = Horas validadas
 recorded-hours = Horas gravadas
 whats-inside = Que inclúe o conxunto de datos Common Voice?
 dataset-description-hours =
-    Cada entrada no conxunto de datos consiste dun único MP3 e o correspondente ficheiro de texto. Moitas das <b>{ $total }</b> horas gravadas no conxunto de datos tamén inclúen metadatos demográficos como idade, xénero e acento que poden axudar a adestrar a precisión dos motores de recoñecemento de voz.
+    Cada entrada do conxunto de datos consta dun único ficheiro MP3 e o correspondente ficheiro de texto. Moitas das <b>{ $total }</b> horas gravadas no conxunto de datos tamén inclúen metadatos demográficos como idade, xénero e acento que poden axudar a mellorar a precisión dos modelos de recoñecemento da fala.
     
-    O conxunto de datos consiste neste inte en <b>{ $valid }</b> horas validadas en <b>{ $languages }</b> idiomas pero estamos a engadir de xeito continuo máis voces e idiomas. Bótelle un ollo á nosa <languagesLink>páxina de idiomas</languagesLink> para solicitar un idioma ou comezar a colaborar.
+    O conxunto de datos inclúe actualmente <b>{ $valid }</b> horas validadas en <b>{ $languages }</b> idiomas, pero estamos a engadir constantemente máis voces e idiomas. Visite á nosa <languagesLink>pestana Idiomas</languagesLink> para solicitar un idioma ou comezar a colaborar.
 want-dataset-update = Quere recibir actualizacións de cando publicamos unha nova versión do conxunto de datos Common Voice? Subscríbase ao noso boletín.
 subscribe = Subscribir
 get-started-speech = Primeiros pasos co recoñecemento de voz
