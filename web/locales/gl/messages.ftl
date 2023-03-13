@@ -309,7 +309,7 @@ whats-public = Que é público?
 email-not-public = Non faremos público o seu enderezo de correo.
 recordings-and-locale-public = O número de gravacións e en que idiomas contribúe serán públicos.
 username-optin-public = Pode escoller facer o seu nome de usuario público ou anónimo.
-demographic-deidentified-clarity-2 = Os datos demográficos opcionais enviados (por exemplo, idade, xénero, idioma e acento) non van ser publicados no seu perfil e non estarán ligados á súa conta no conxunto de datos. Os fragmentos de son individuais van ser asociados aos datos demográficos para fins de análise máis precisa - por exemplo, un investigador pode querer orientar un modelo de adestramento para un segmento demográfico específico.
+demographic-deidentified-clarity-2 = Os datos demográficos opcionais enviados (por exemplo, idade, xénero, idioma e acento) non van ser publicados no seu perfil e non estarán ligados á súa conta no conxunto de datos. Os fragmentos de son individuais van ser asociados aos datos demográficos para fins de análise máis precisas - por exemplo, un investigador pode querer orientar un modelo de adestramento para un segmento demográfico específico.
 username-email-not-demographic = O seu nome de usuario e enderezo de correo non se asociará cos datos publicados.
 
 ## Speak & Listen Shortcuts
@@ -538,7 +538,7 @@ about-subscribe-text = Quere estar en contacto con Common Voice?
 about-speak = Falar
 about-speak-text = Os colaboradores gravan fragmentos de voz lendo dun banco de frases doadas.
 about-listen-queue = Escoitar cola
-about-listen-queue-text = Os clips de voz introdúcense nunha cola de envío que os prepara para escoitar.
+about-listen-queue-text = Os fragmentos de voz introdúcense nunha cola de envío que os prepara para escoitar.
 about-listen = Escoitar
 about-listen-text = Os usuarios validan a precisión dos fragmentos doados e comproban se o falante leu correctamente a frase.
 about-is-it-valid = O fragmento vale?
@@ -663,7 +663,7 @@ about-playbook-how-project-governance-content-7 = <governanceLink>Saber máis so
 ## Glossary
 
 glossary = Glosario
-localization = Localización
+localization = Tradución
 localization-explanation = É o noso proceso para traducir e adaptar o noso contido a moitos idiomas.
 sentence-collection = Recollida de frases
 sentence-collection-explanation = Recollida de frases do dominio público ou escribir frases novas de dominio público.
@@ -908,7 +908,7 @@ record-submit-tooltip = { $actionType } enviar cando estea listo
 clips-uploaded = Fragmentos cargados
 record-abort-title = Rematar a gravación primeiro?
 record-abort-text = Abandonar agora significa que perderá o seu avance
-record-abort-submit = Enviar clips
+record-abort-submit = Enviar fragmentos
 record-abort-continue = Rematar a gravación
 record-abort-delete = Saír e eliminar fragmentos
 listen-instruction = { $actionType }<playIcon></playIcon>pronuncian con precisión a frase?
@@ -983,7 +983,6 @@ validations =
 your-languages = Os seus idiomas
 toward-next-goal = Cara ao seguinte obxectivo
 goal-reached = Obxectivo acadado
-clips-you-recorded = Clips que gravou
 clips-you-validated = Fragmentos que aprobou
 todays-recorded-progress = Avance de hoxe en fragmentos gravados para Common Voice
 todays-validated-progress = Avance de hoxe en fragmentos aprobados para Common Voice
