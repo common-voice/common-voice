@@ -850,7 +850,6 @@ request-language-error =
 ## Languages Overview
 
 language-section-in-progress = En curso
-language-section-in-progress-new-description = Estes idiomas están actualmente baixo desenvolvemento da comunidade. As barras de progreso indican o lonxe que cada idioma está no proceso de <localizationGlossaryLink>localización do sitio</localizationGlossaryLink> e de <sentenceCollectionGlossaryLink>recollida de frases</sentenceCollectionGlossaryLink>.
 language-section-launched = En produción
 language-section-launched-description = Para os idiomas en produción o sitio web foi correctamente <localizationGlossaryLink>localizado</localizationGlossaryLink>, e ten abondas <sentenceCollectionGlossaryLink>frases recollidas</sentenceCollectionGlossaryLink> para permitir avanzar na <speakLink>Fala</speakLink> e <listenLink>Escoita</listenLink> de colaboracións.
 languages-show-more = Ver máis
