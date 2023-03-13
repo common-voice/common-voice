@@ -121,7 +121,7 @@ lv = Letón
 mai = Maithili
 mdf = Moksha
 mg = Malgaxe
-mhr = Mari das Pradeiras
+mhr = Mari das pradeiras
 mk = Macedonio
 ml = Malaialam
 mn = Mongol
@@ -212,7 +212,7 @@ yue = Chinés cantonés
 zgh = Tamazight
 zh-CN = Chinés (China)
 zh-HK = Chinés (Hong Kong)
-zh-TW = Chinese (Taiwán)
+zh-TW = Chinés (Taiwán)
 zu = Zulú
 zza = Zaza
 
