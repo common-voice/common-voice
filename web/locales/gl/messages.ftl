@@ -517,7 +517,7 @@ about-header-description-v2 =
     <p>Common Voice é un conxunto de datos de voz público, alimentado polas voces de xente que colabora voluntariamente dende todo o mundo. As persoas interesadas en crear aplicacións de voz poden usar este conxunto de datos para adestrar modelos de aprendizaxe automática.</p>
     <p>Na actualidade, a maioría dos conxuntos de datos de voz son propiedade de empresas, o que dificulta a innovación. Ademais, estes adoitan representar en exceso a homes brancos e de fala inglesa, o que significa que a tecnoloxía habilitada para a voz non funciona en moitos idiomas e, naqueles nos que si funciona, pode que non o faga igual para todos os falantes. Queremos cambiar isto mobilizando a xente de todas partes para que comparta a súa voz.</p>
 how-does-it-work-title-v2 = Como funciona Common Voice?
-how-does-it-work-text = Estamos a auspiciar un conxunto de datos de voz de fonte aberta. Ofreza a súa voz, valide a precisión dos fragmentos doados por outras persoas, mellore o conxunto de datos para todo o mundo.
+how-does-it-work-text = Estamos creando un conxunto de datos de voz de código aberto. Doe a súa voz, valide a precisión dos fragmentos doutras persoas e mellore o conxunto de datos para todo o mundo.
 
 ## How does it work section
 
