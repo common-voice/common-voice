@@ -498,7 +498,7 @@ faq-why-not-ask-read-a = Para facermos o conxunto de voz Common Voice tan utiliz
 faq-why-account-q = Por que debería rexistrar unha conta?
 faq-is-account-public-q = A miña conta, é información pública?
 faq-how-privacy-q = Como se asegura a anonimización e confidencialidade das persoas que doaron as súas voces?
-faq-how-privacy-a = Todos os fragmentos de voz no conxunto de datos están preservados de información de identificación. Cando un colaborador fornece datos demográficos a través do seu perfil, esa información está separada dos seus fragmentos de voz no conxunto de datos antes de ser empaquetados para a descarga e nunca se fan públicos na súa páxina de perfil.
+faq-how-privacy-a = Límpase a información persoal de todos os fragmentos de voz do conxunto de datos. Cando alguén proporciona información demográfica no seu perfil, esa información desvincúlase dos seus fragmentos de voz antes de incluíla, para descargar, no conxunto de datos e nunca se fai pública no seu perfil.
 faq-what-determine-identity-q = Que significa que non podo «determinar a identidade» de falantes no conxunto de datos Common Voice?
 faq-what-determine-identity-a =
     O conxunto de datos Common Voice é un recurso aberto e dispoñíbel publicamente que pode utilizarse para adestrar unha ampla variedade de aplicacións relacionada coa voz. Para protexer a seguranza dos nosos colaboradores, pedímoslle a todos os que descarguen o conxunto de datos Common Voice que respecten a confidencialidade dos colaboradores.
@@ -724,7 +724,7 @@ datasets-positioning =
     
     O conxunto de datos multilingüe de Common Voice xa é o maior conxunto de datos de voz do seu tipo dispoñíbel publicamente, mais non é o único.
     
-    Emprege esta página como centro de referencia para outros conxuntos de datos de voz de código abierto y, a medida que Common Voice siga medrando, como sede das nosas actualizacións.
+    Emprege esta página como centro de referencia para outros conxuntos de datos de voz de código abierto e, a medida que Common Voice siga medrando, como sede das nosas actualizacións.
 language = Idioma
 download-dataset-header = Descargar o conxunto de datos
 download-delta-explainer = Fixemos algúns cambios. Os segmentos Delta só conteñen os fragmentos máis recentes desde a última actualización. <deltaLink>Saber máis sobre este traballo</deltaLink>.
