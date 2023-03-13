@@ -720,11 +720,11 @@ review-delete-recordings = Eliminar as miñas gravacións
 datasets-heading = Conxunto de datos
 datasets-headline = Estamos a construír un conxunto de datos de voces de fonte aberta, multilingüe que calquera pode utilizar para adestrar aplicacións que funcionan coa voz.
 datasets-positioning =
-    Cremos que os grandes conxuntos de datos, dispoñíbeis publicamente, alimentarán a innovación e a saudábel competición comercial da tecnoloxía de voz baseada na aprendizaxe automática.
+    Cremos que os grandes conxuntos de datos dispoñíbeis publicamente alimentarán a innovación e a competición comercial saudábel na tecnoloxía de voz baseada na aprendizaxe automática.
     
-    O conxunto de datos Common Voice xa é o maior conxunto de datos de voz do seu tipo dispoñíbel publicamente mais non é o único.
+    O conxunto de datos multilingüe de Common Voice xa é o maior conxunto de datos de voz do seu tipo dispoñíbel publicamente, mais non é o único.
     
-    Vexa esta páxina como unha referencia a un feixe de doutros conxuntos de datos e, así como Common Voice continúe a medrar, un lugar onde atopar as actualizacións publicadas.
+    Emprege esta página como centro de referencia para outros conxuntos de datos de voz de código abierto y, a medida que Common Voice siga medrando, como sede das nosas actualizacións.
 language = Idioma
 download-dataset-header = Descargar o conxunto de datos
 download-delta-explainer = Fixemos algúns cambios. Os segmentos Delta só conteñen os fragmentos máis recentes desde a última actualización. <deltaLink>Saber máis sobre este traballo</deltaLink>.
@@ -764,7 +764,7 @@ community-playbook = Orientacións á comunidade
 resource-playbook-info = <playbookLink>Atope orientacións útiles</playbookLink> sobre toda a viaxe de Common Voice, desde a súa tradución ata o uso do conxunto de datos, alén de como contactar coa nosa comunidade.
 data-other-librispeech-description = LibriSpeech é un corpus de aproximadamente 1000 horas de contido oral en inglés a 16Khz derivado da lectura de audiolibros procedentes do proxecto LibriVox.
 data-other-ted-name = Corpus TED-LIUM
-data-other-ted-description = O corpus TED-LIUM provén das audiocharlas e as súas transcricións dispoñíbeis no sitio web TED.
+data-other-ted-description = O corpus TED-LIUM provén das audiocharlas e as súas transcricións dispoñíbeis na páxina web TED.
 data-other-voxforge-description = VoxForge creouse para recoller transcricións de intervencións orais coa finalidade de seren útiles aos motores de recoñecemento de voz de código aberto.
 data-other-tatoeba-description = Tatoeba é unha gran base de datos de frases, traducións e producións orais para uso en aprendizaxe de idiomas. Esta descarga contén inglés falado pola súa comunidade.
 your-feedback = Ten ideas sobre como podemos mellorar o conxunto de datos Common Voice? Permítanos saber delas en Discourse
