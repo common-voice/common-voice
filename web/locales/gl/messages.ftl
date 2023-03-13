@@ -5,7 +5,7 @@ stayintouch = En Mozilla estamos a construír unha comunidade arredor da tecnolo
 privacy-info = Prometemos manexar a súa información con tino. Obteña máis información na nosa <privacyLink>Política de privacidade</privacyLink>.
 return-to-cv = Volver a Common Voice
 email-input =
-    .label = Correo Electrónico
+    .label = Correo electrónico
 submit-form-action = Enviar
 loading = Cargando...
 email-opt-in-info = Gustaríame recibir correos para lembrar os obxectivos, actualizacións sobre o meu progreso e novas sobre Common Voice.
@@ -718,7 +718,7 @@ review-delete-recordings = Eliminar as miñas gravacións
 ## Datasets Page
 
 datasets-heading = Conxunto de datos
-datasets-headline = Estamos a construír un conxunto de datos de voces de fonte aberta, multilingüe que calquera pode utilizar para adestrar aplicacións que funcionan coa voz.
+datasets-headline = Estamos a construír un conxunto de datos de voz aberto e multilingüe que calquera persoa poida empregar para adestrar aplicacións baseadas na voz.
 datasets-positioning =
     Cremos que os grandes conxuntos de datos dispoñíbeis publicamente alimentarán a innovación e a competición comercial saudábel na tecnoloxía de voz baseada na aprendizaxe automática.
     
