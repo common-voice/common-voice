@@ -555,7 +555,7 @@ about-get-involved = Participe
 about-get-involved-text-2 =
     Quere axudar a mellorar Common Voice?
     Xenial! Póñase en contacto vía correo electrónico ou vía foros <discourseLink>Discourse</discourseLink>
-    remita incidencias do sitio vía <githubLink>GitHub</githubLink>, ou únase ao chat da comunidade <matrixLink>Matrix</matrixLink>.
+    remita incidencias da páxina vía <githubLink>GitHub</githubLink>, ou únase ao chat da comunidade <matrixLink>Matrix</matrixLink>.
 about-stay-in-touch = Como estar en contacto?
 about-stay-in-touch-button = Unirse
 about-stay-in-touch-text-1 = <emailFragment>Unirse</emailFragment> á nosa lista de correo para descubrir como participar en campañas, eventos e iniciativas de mellora de Common Voice.
@@ -851,7 +851,7 @@ request-language-error =
 
 language-section-in-progress = En curso
 language-section-launched = En produción
-language-section-launched-description = Para os idiomas en produción o sitio web foi correctamente <localizationGlossaryLink>localizado</localizationGlossaryLink>, e ten abondas <sentenceCollectionGlossaryLink>frases recollidas</sentenceCollectionGlossaryLink> para permitir avanzar na <speakLink>Fala</speakLink> e <listenLink>Escoita</listenLink> de colaboracións.
+language-section-launched-description = Para os idiomas en produción, a páxina web foi correctamente <localizationGlossaryLink>traducida</localizationGlossaryLink> e existen abondas <sentenceCollectionGlossaryLink>frases recollidas</sentenceCollectionGlossaryLink> para permitir avanzar na <speakLink>Fala</speakLink> e <listenLink>Escoita</listenLink> de colaboracións.
 languages-show-more = Ver máis
 languages-show-less = Ver menos
 language-meter-in-progress = Progreso
