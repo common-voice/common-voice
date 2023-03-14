@@ -50,7 +50,7 @@
         & .tablist-wrapper {
             border-bottom: 1px solid var(--grey);
 
-            @media (--md-only) {
+            @media (--md-and-lg-only) {
                 position: sticky;
                 top: 8px;
                 background: var(--white);
@@ -96,6 +96,7 @@
             margin: 0 auto;
             max-width: var(--desktop-width);
             padding-left: 16px;
+            padding-right: 16px;
 
             & .announcements-container {
                 background: var(--light-yellow);
@@ -127,7 +128,7 @@
                         border-bottom: none;
                     }
 
-                    @media (--lg-up) {
+                    @media (--md-up) {
                         padding-top: 20px;
                     }
                 }
