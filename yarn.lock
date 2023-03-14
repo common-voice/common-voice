@@ -1984,10 +1984,10 @@
   resolved "https://registry.yarnpkg.com/@fluent/bundle/-/bundle-0.17.1.tgz#239388f55f115dca593f268d48a5ab8936dc9556"
   integrity sha512-CRFNT9QcSFAeFDneTF59eyv3JXFGhIIN4boUO2y22YmsuuKLyDk+N1I/NQUYz9Ab63e6V7T6vItoZIG/2oOOuw==
 
-"@fluent/langneg@0.6.2":
-  version "0.6.2"
-  resolved "https://registry.yarnpkg.com/@fluent/langneg/-/langneg-0.6.2.tgz#95e5261c27c7f3cb6237deb62aa1b7006a9bd17d"
-  integrity sha512-YF4gZ4sLYRQfctpUR2uhb5UyPUYY5n/bi3OaED/Q4awKjPjlaF8tInO3uja7pnLQcmLTURkZL7L9zxv2Z5NDwg==
+"@fluent/langneg@0.7.0":
+  version "0.7.0"
+  resolved "https://registry.yarnpkg.com/@fluent/langneg/-/langneg-0.7.0.tgz#51c58d0b422595640195d8234c0f15687cfcb261"
+  integrity sha512-StAM0vgsD1QK+nFikaKs9Rxe3JGNipiXrpmemNGwM4gWERBXPe9gjzsBoKjgBgq1Vyiy+xy/C652QIWY+MPyYw==
 
 "@fluent/react@0.14.1":
   version "0.14.1"
