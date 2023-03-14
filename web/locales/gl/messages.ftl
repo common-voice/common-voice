@@ -247,7 +247,7 @@ home-title = Common Voice é unha iniciativa de Mozilla para axudar a ensinarlle
 default-tagline = Mozilla Common Voice é unha iniciativa para axudar a ensinarlle ás máquinas como falan as persoas.
 home-cta = Comece a falar, contribúa aquí!
 wall-of-text-start = A voz é natural, a voz é humana. Por iso nos fascina a idea de crear tecnoloxías de voz para as máquinas. Pero, para crear sistemas de voz, requírese unha cantidade extremadamente grande de datos de voz.
-wall-of-text-more-mobile = A maioría dos datos utilizados por grandes compañías non están dispoñíbeis para a maioría das persoas. Pensamos que iso abafa a innovación. Por iso lanzamos o Project Common Voice (Proxecto Voz Publica), un proxecto para axudar a facer o recoñecemento de voz aberto a calquera.
+wall-of-text-more-mobile = A maioría dos datos que empregan as grandes compañías non están dispoñibles publicamente. Pensamos que iso abafa a innovación. Por iso lanzamos o proxecto Common Voice (Voz Publica), que axudará a que as tecnoloxías de recoñecemento da fala estean abertas a todo o mondo.
 wall-of-text-more-desktop = Agora vostede pode doar a súa voz para axudarnos a construír unha base de datos aberta de voces para que calquera a poida utilizar co fin de facer aplicacións innovadoras para os dispositivos e a Web. Lea unha frase para axudar as máquinas a aprender como fala a xente real. Comprobe o traballo doutros colaboradores para mellorar a calidade. Así de simple!
 wall-of-text-first = A voz é natural, a voz é humana. Por iso queremos crear tecnoloxías de voz de alta calidade para as máquinas. Pero, para crear estes sistemas de voz, os desenvolvedores necesitan unha enorme cantidade de datos de voz.
 wall-of-text-second = A maioría dos datos que usan as grandes compañías non están dispoñibles para todo o mundo. Pensamos que iso abafa a innovación. Por iso creamos o proxecto Common Voice (Voz Pública), co fin de axudar a que o recoñecemento da fala sexa aberto e accesible para todas as persoas.
@@ -720,9 +720,9 @@ review-delete-recordings = Eliminar as miñas gravacións
 datasets-heading = Conxunto de datos
 datasets-headline = Estamos a construír un conxunto de datos de voz aberto e multilingüe que calquera persoa poida empregar para adestrar aplicacións baseadas na voz.
 datasets-positioning =
-    Cremos que os grandes conxuntos de datos dispoñíbeis publicamente alimentarán a innovación e a competición comercial saudábel na tecnoloxía de voz baseada na aprendizaxe automática.
+    Cremos que os grandes conxuntos de datos que están dispoñibles publicamente fomentarán a innovación e a competencia comercial saudable no ámbito das tecnoloxías da fala baseadas na aprendizaxe automática.
     
-    O conxunto de datos multilingüe de Common Voice xa é o maior conxunto de datos de voz do seu tipo dispoñíbel publicamente, mais non é o único.
+    O conxunto de datos multilingüe de Common Voice xa é o maior conxunto de datos de voz do seu tipo que está dispoñible publicamente, mais non é o único.
     
     Emprege esta página como centro de referencia para outros conxuntos de datos de voz de código abierto e, a medida que Common Voice siga medrando, como sede das nosas actualizacións.
 language = Idioma
@@ -886,7 +886,7 @@ contribute-more =
        *[other] Quere facer { $count } máis?
     }
 record-cta = Arrancar a gravación
-record-platform-not-supported = Desculpe pero a súa plataforma non é compatíbel actualmente.
+record-platform-not-supported = Desculpe, pero a súa plataforma non é compatible actualmente.
 record-platform-not-supported-desktop = En computadores de escritorio, pode colaborar descargando...
 record-platform-not-supported-ios-non-safari = En iOS, continúe con Safari para habilitar a gravación ...
 record-must-allow-microphone = Debe permitirlle o acceso ao micrófono.
@@ -1000,7 +1000,7 @@ total-approved = Total de aprobados
 overall-accuracy = Precisión global
 set-visibility = Definir a súa visibilidade
 visibility-explainer = Esta configuración controla a súa visibilidade no panel de líderes. De estar oculta, o seu avance gardarase en privado. Isto significa que a súa imaxe, nome de usuario e avance non van aparecer no panel de líderes. Saiba que o panel demora ~{ $minutes }min en actualizarse.
-visibility-overlay-note = Nota: Cando se define como 'Visíbel', esta configuración pode modificarse na <profileLink>páxina de perfil</profileLink>
+visibility-overlay-note = Nota: Cando se define como 'Visible', esta configuración pode modificarse na <profileLink>pestana de perfil</profileLink>
 show-ranking = Amosar a súa clasificación
 
 ## Custom Goals
@@ -1139,7 +1139,7 @@ demo-welcome-subheader = Interésalle aprender máis e contribuír ao proxecto?
 
 ## Demo Datasets
 
-demo-language-select-card-header = Common Voice é o maior conxunto de datos de voz en varios idiomas publicamente dispoñíbel no mundo.
+demo-language-select-card-header = Common Voice é o maior conxunto de datos de voz multilingüe que está dispoñible publicamente.
 demo-language-select-card-body = Grazas ás colaboracións de máis de 259.000 persoas en máis de 50 idiomas, estes datos empréganse para adestrar aplicacións con recoñecemento de voz para entender mellor á voz humana.
 card-button-next = Seguinte
 card-button-back = Anterior
