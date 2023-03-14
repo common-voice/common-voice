@@ -483,7 +483,7 @@ faq-why-my-lang-a =
     Common Voice é unha plataforma de colaboración aberta e todos os idiomas foron engadidos por voluntarios.
     Encantaríanos que engadise o seu idioma! <languageRequestLink>Consulte aquí como engadir o seu idioma.</languageRequestLink>
 faq-what-quality-q = Que nivel de calidade de son se require para que un fragmento de voz se utilice no conxunto de datos?
-faq-what-quality-a = Queremos que o conxunto de datos de Common Voice reflicta a calidade do son que un motor de fala-a-texto atopará en condicións reais, polo que buscamos variedade. Ademais dunha comunidade diversa de falantes, un conxunto de datos con variación na calidade do son ensinaralle ao motor de fala-a-texto a xestionar varias situacións do mundo real, desde unha conversa de fondo a un ruído de coche. Mentres o fragmento de voz sexa intelixíbel, será abondo para o conxunto de datos.
+faq-what-quality-a = Queremos que o conxunto de datos de Common Voice reflicta a calidade do son que un motor de fala-a-texto atopará en condicións reais, polo que buscamos variedade. Ademais dunha comunidade diversa de falantes, un conxunto de datos con variación na calidade do son ensinaralle ao motor de fala-a-texto a xestionar varias situacións do mundo real, desde unha conversa de fondo a un ruído de coche. Mentres o fragmento de voz sexa intelixible, será abondo para o conxunto de datos.
 faq-why-10k-hours-q = Por que o obxectivo é de 10.000 horas validadas por idioma de captura de son?
 faq-why-10k-hours-a = Este é aproximadamente o número de horas requirido co que adestrar un sistema de fala a texto para produción.
 faq-how-calc-hours-q = Como Common Voice calcula as horas?
