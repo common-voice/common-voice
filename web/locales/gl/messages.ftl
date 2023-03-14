@@ -764,7 +764,7 @@ community-playbook = Orientacións á comunidade
 resource-playbook-info = <playbookLink>Atope orientacións útiles</playbookLink> sobre toda a viaxe de Common Voice, desde a súa tradución ata o uso do conxunto de datos, alén de como contactar coa nosa comunidade.
 data-other-librispeech-description = LibriSpeech é un corpus de aproximadamente 1000 horas de fala inglesa lida a 16 KHz derivado da lectura de audiolibros do proxecto LibriVox.
 data-other-ted-name = Corpus TED-LIUM
-data-other-ted-description = O corpus TED-LIUM elaborouse a partir de gravacións de audio e as súas transcricións dispoñíbeis na páxina web TED.
+data-other-ted-description = O corpus TED-LIUM elaborouse a partir de gravacións de audio e transcricións dispoñibles na páxina web TED.
 data-other-voxforge-description = VoxForge creouse para recoller transcricións de intervencións orais coa finalidade de seren útiles aos motores de recoñecemento de voz de código aberto.
 data-other-tatoeba-description = Tatoeba é unha gran base de datos de frases, traducións e producións orais para empregar na aprendizaxe de idiomas. Esta descarga contén falas de inglés gravadas pola propia comunidade anglófona.
 your-feedback = Ten ideas sobre como podemos mellorar o conxunto de datos Common Voice? Coméntenolas en Discourse
@@ -1087,9 +1087,9 @@ remove = Retirar
 keep-info = As súas gravacións anónimas permanecerán no conxunto de datos Common Voice. Tras eliminar o seu perfil, xa non poderá enviar ningunha solicitude para retirar as gravacións do conxunto de datos.
 remove-info = Revisaremos a solicitude de retirada das súas gravacións de voz do conxunto de datos. Se a solicitude for aprobada, contactaremos con aqueles que descargasen o conxunto de datos e pedirémoslles que eliminen tamén as súas gravacións de voz.
 why-delete-recordings =
-    As gravacións de Common Voice son utilizadas por académicos, pequenas empresas e afeccionados ao recoñecemento de voz para axudalos a adestrar e aumentar os recursos publicamente dispoñíbeis como modelos de voz.
+    As gravacións de Common Voice son utilizadas por académicos, pequenas empresas e afeccionados ao recoñecemento da fala para crear recursos dispoñibles publicamente, como modelos de voz.
     
-    Poderiamos saber porque quere eliminar as súas gravacións?
+    Poderiamos indicar porque quere eliminar as súas gravacións?
 profile-form-delete = Eliminar o perfil
 
 ## Profile Download
