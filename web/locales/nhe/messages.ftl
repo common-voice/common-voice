@@ -1030,24 +1030,93 @@ sc-confirm-are-you-sure =
     .message = Oraciones no enviadas, ¿estás seguro de que quieres salir?
 sc-confirm-sentences-title = Confirmar nuevas oraciones
 sc-confirm-button-text = Confirmar
+sc-confirm-uploading = Se están subiendo frases. Esto puede llevar varios minutos dependiendo del número de frases añadidas. Por favor, no cierre este sitio web.
 
 ## LANGUAGE INFO
 
+sc-lang-info-title-total = Total
+sc-lang-info-title-personal = Personal
 
 ## LOGIN
 
+sc-login-err-failed = error de inicio de sesion
+sc-login-err-try-again = Inténtalo de nuevo.
 
 ## PROFILE
 
+sc-personal-err-lang-not-found = No se pudo eliminar el idioma: idioma no encontrado
+sc-personal-err-remove = No se pudo quitar el idioma
+sc-personal-your-languages = Tus idiomas:
+sc-personal-not-added = Aún no has añadido ningún idioma.
 
 ## REVIEW CRITERIA
 
+sc-criteria-modal = ⓘ Criterios de revisión
+sc-criteria-title = Criterios de revisión
+sc-criteria-make-sure = Asegúrese de que la oración cumpla con los siguientes criterios:
+sc-criteria-item-1 = La oración debe estar escrita correctamente.
+sc-criteria-item-2 = La oración debe ser gramaticalmente correcta.
+sc-criteria-item-3 = La oración debe ser pronunciable.
+sc-criteria-item-4 = Si la oración cumple con los criterios, haga clic en el botón &quot;Aprobar&quot; botón de la derecha.
+sc-criteria-item-5-2 = Si la oración no cumple con los criterios anteriores, haga clic en &quot;Rechazar&quot; botón de la izquierda. Si no está seguro acerca de la oración, también puede omitirla y pasar a la siguiente.
+sc-criteria-item-6 = Si se queda sin oraciones para revisar, ¡ayúdenos a recopilar más oraciones!
 
 ## REVIEW
 
+sc-review-title = repasar oraciones
+sc-review-loading = Cargando tus oraciones…
+sc-review-select-language = Seleccione un idioma para revisar las oraciones.
+sc-review-form-prompt =
+    .message = Frases revisadas no enviadas, ¿estás seguro?
+sc-review-form-usage = Desliza el dedo hacia la derecha para aprobar la oración. Desliza el dedo hacia la izquierda para rechazarlo. Desliza hacia arriba para omitirlo. <strong>¡No olvides enviar tu reseña!</strong>
+sc-review-form-button-reject = Rechazar
+sc-review-form-button-skip = Saltar
+sc-review-form-button-approve = Aprobar
+sc-review-form-button-submit =
+    .submitText = Revision terminada
+sc-review-link = Revisar
 
 ## SETTINGS
 
+sc-settings-title = Ajustes
+sc-settings-ui-language = Lenguaje de interfaz
+sc-settings-reset-skipped = Restablecer oraciones omitidas
+sc-settings-skipped-decription = Anteriormente te saltaste oraciones mientras revisabas. Restablecer oraciones omitidas mostrará todas las oraciones omitidas nuevamente. Esto es independiente del idioma.
+sc-settings-show-all-button = Mostrar todas las frases omitidas de nuevo
+sc-settings-failed = No se pudo cambiar la configuración. Inténtalo de nuevo.
+sc-validation-no-numbers = La oración no debe contener números.
+sc-validation-no-symbols = La oración no debe contener símbolos.
+sc-validation-no-abbreviations = La oración no debe contener abreviaturas.
 
 # [/SentenceCollector]
 
+localization-select =
+    .label = Elegir idioma/localización
+# PARTNERSHIPS PAGE
+partnerships-header = Asociaciones
+partnerships-header-text = ¡Se necesita mucho para que Common Voice suceda! No lo hacemos solos. ¿Quieres asociarte con nosotros? Nos encantaría saber de usted.
+partnerships-get-in-touch = Ponerse en contacto
+partnerships-become-a-partner = Conviértete en un compañero de voz común
+partnerships-community-header = Comunidad, Creativos y Sociedad Civil
+partnerships-foundations-header = Cimientos
+partnerships-governments-header = Gobiernos
+partnerships-academia-header = Universidades, Académicos e Investigadores
+partnerships-small-business-header = Pequeñas empresas, incluidas las nuevas empresas de tecnología e IA
+partnerships-corporates-header = Empresas de gran escala y empresas de plataforma.
+partnerships-our-partners = Nuestros compañeros
+# FIRST POST SUBMISSION CTA
+first-cta-header-text = ¡Gracias por donar sus clips de voz!
+first-cta-subtitle-text = ¿Te gustaría compartir alguna información sobre tu forma de hablar?
+why-donate = ¿Porque lo preguntas?
+why-donate-explanation-1 = Es opcional proporcionar esta información; solo debe agregarla si se siente cómodo. Cuando publicamos el conjunto de datos, seudonimizamos toda la información personal y nos aseguramos de que información como su nombre y correo electrónico no estén conectados con información demográfica como edad o sexo.
+why-donate-explanation-2 = Para que la tecnología funcione bien para todos, los datos que ayudan a los desarrolladores a crear tecnología deben reflejar una amplia gama de personas. Por ejemplo, si no incluimos altavoces con un acento particular, entonces la tecnología no funcionará bien para las personas con ese acento. <learnMore>Obtenga más información sobre por qué son importantes los metadatos.</learnMore>
+add-information-button = Añadir información
+continue-speaking-button = No gracias, sigue hablando
+thanks-for-voice-toast = Gracias por la información de tu voz.
+thanks-for-voice-toast-error = Se produjo un error al enviar la información de su voz
+# SECOND POST SUBMISSION CTA
+second-cta-header-text = ¡Gracias por aportar tu voz!
+second-cta-subtitle-text = Con un perfil, puede realizar un seguimiento de su actividad y conectarse con una comunidad de colaboradores de datos de voz.
+create-profile-button = Crear un perfil
+# IMAGE TAGS
+img-alt-success-checkmark = marca de éxito
