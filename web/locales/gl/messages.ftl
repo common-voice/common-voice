@@ -297,7 +297,7 @@ email-subscription-title-new = Subscríbase aos boletíns de información, aos r
 
 benefits = Beneficios
 rich-data = Faga que os datos enviados sexan o máis completos posible fornecendo algunha información demográfica anónima. Deixaremos anonimizados os datos demográficos antes de facelos públicos.
-improve-audio = O perfil informativo mellora os datos de son utilizados para adestrar a precisión do recoñecemento oral.
+improve-audio = A información do perfil mellora os datos de son utilizados para adestrar a precisión dos modelos de recoñecemento da fala.
 keep-track = Faga un seguimento do seu progreso e das métricas entre varios idiomas.
 compare-progress = Vexa como o seu progreso comparado con outros colaboradores de todo o mundo.
 view-goals = Vexa o seu progreso respecto dos obxectivos persoais e do proxecto.
@@ -407,7 +407,7 @@ profile-close = Pechar
 profile-explanation = Seguir o seu progreso cun perfil e axudar a que os datos de voz sexan máis precisos.
 thanks-for-account = Grazas por confirmar a súa conta, agora imos construír o seu perfil.
 why-demographic = Por que é importante?
-why-demographic-explanation-2 = Os datos anónimos como idade, xénero e acento axudan a mellorar os datos de son utilizados para adestrar a precisión dos motores de recoñecemento de voz. O seu nome de usuario e enderezo de correo nunca serán asociados cos datos enviados e vostede sempre pode escoller se facelos ou non públicos.
+why-demographic-explanation-2 = Os datos anónimos como idade, xénero e acento axudan a mellorar os datos de son utilizados para adestrar a precisión dos modelos de recoñecemento da fala. O seu nome de usuario e enderezo de correo nunca serán asociados cos datos enviados e vostede sempre pode escoller se facelos ou non públicos.
 accept-privacy = Estou de acordo con que xestionen esta información segundo os termos explicados na <privacyLink>Política de privacidade</privacyLink>
 accept-privacy-title = Política de privacidade
 accept-privacy-and-terms = Acepto as <termsLink>Condicións</termsLink> e o <privacyLink>Aviso de privacidade</privacyLink> de Common Voice
@@ -473,7 +473,7 @@ faq-why-mission-a = Mozilla dedícase a manter a web aberta e accesible para tod
 faq-what-cv-and-deepspeech-q = Cal é a diferenza entre Common Voice e Deep Speech?
 faq-what-cv-and-deepspeech-a = O conxunto de datos Common Voice complementa o motor de recoñecemento da fala de código aberto Mozilla Deep Speech. A primeira versión de Deep Speech publicouse en novembro do 2017 e estivo evolucionando desde entón. Xunto co conxunto de datos Common Voice, cremos que esta tecnoloxía de recoñecemento da fala debería estar dispoñible para todo o mundo. A nosa esperanza é que lle permita aos desenvolvedores crear unha ondada de produtos e servizos innovadores.
 faq-is-goal-assistant-q = O obxectivo de Common Voice é crear un asistente de voz?
-faq-is-goal-assistant-a = O obxectivo do conxunto de datos Common Voice é permitirlle a calquera persoa no mundo crear unha aplicación de recoñecemento de voz, recoñecemento de falantes ou calquera outro tipo de aplicación que requira datos de voz. Un asistente de voz só é un dos moitos tipos de aplicacións para os que se podería utilizar.
+faq-is-goal-assistant-a = O obxectivo do conxunto de datos Common Voice é permitirlle a calquera persoa crear unha aplicación de recoñecemento de fala, identificación de locutor ou calquera outro tipo de aplicación que requira datos de voz. Un asistente de voz só é un dos moitos tipos de aplicacións para os que se podería utilizar.
 faq-do-want-native-q = Non son un falante nativo e falo con acento, aínda así queren a miña voz?
 faq-do-want-native-a = Si, queremos especialmente a túa voz! Parte do obxectivo de Common Voice é recoller tantos acentos diferentes como sexa posible para que os servizos de recoñecemento da fala funcionen igualmente ben para todas as persoas. Isto significa que as doazóns de falantes non nativos son particularmente importantes.
 faq-why-different-speakers-q = Por que se necesitan tantos falantes diferentes por idioma?
@@ -548,7 +548,7 @@ about-yes-votes-text = Para incluílo no conxunto de datos de Common Voice, un f
 about-no-votes = ≥ 2 votos Non
 about-no-votes-text = Cando un usuario rexeita un fragmento de voz, volve á cola. De se rexeitar unha segunda vez, o fragmento de voz vai para o cemiterio de fragmentos.
 about-dataset-new = Conxunto de datos de Common Voice
-about-dataset-new-text = O conxunto de datos Common Voice contén centos de miles de mostras de voz que axudan os desenvolvedores a construír ferramentas de recoñecemento de voz.
+about-dataset-new-text = O conxunto de datos Common Voice contén centos de miles de mostras de voz que axudan os desenvolvedores a construír ferramentas de recoñecemento da fala.
 about-clip-graveyard = Cemiterio de fragmentos
 about-clip-graveyard-text = O Cemiterio de fragmentos contén fragmentos de voz que non chegaron a formar parte do conxunto de datos de Common Voice. Do mesmo xeito que o conxunto de datos, o Cemiterio de fragmentos está dispoñible para descarga.
 about-get-involved = Participe
@@ -571,7 +571,7 @@ about-nav-playbook = Descubra como participar
 ## What is a language
 
 about-playbook-what-is-language = Que é un idioma en Common Voice?
-about-playbook-what-is-language-content-1 = Hai moitas formas de entender o que é un idioma. Para os obxectivos que perseguen os modelos de recoñecemento de voz, Common Voice suxire centrarse na "intelixibilidade mutua", é dicir, "os falantes desta lingua conseguen entenderse entre si se o intentan?"
+about-playbook-what-is-language-content-1 = Hai moitas formas de entender o que é un idioma. Para os obxectivos que perseguen os modelos de recoñecemento da fala, Common Voice suxire centrarse na "intelixibilidade mutua", é dicir, "os falantes desta lingua conseguen entenderse entre si se o intentan?"
 about-playbook-what-is-language-content-2 = Queremos que os modelos de voz poidan comprender unha diversa gama de falantes. Para que isto suceda, un conxunto de datos de voz debe representar a moitas persoas diferentes.
 about-playbook-what-is-language-content-3 = Algúns idiomas teñen unha enorme variación na gramática, o vocabulario e a pronuncia. Por este motivo, <ctaLink>introducimos "Variedades"</ctaLink> en 2022. Isto dá ás comunidades un xeito de distinguir as súas formas de fala dentro do conxunto de datos máis amplo.
 
@@ -639,7 +639,7 @@ about-playbook-how-grow-language-content-8 = <strong>Sexa creativo!</strong> A s
 
 about-playbook-how-validate = Como saber se debo aprobar un fragmento de voz?
 about-playbook-how-validate-content-1 = Se conseguiu <strong>escoitalo</strong> e <strong>entendelo</strong>, adoita ser <strong> mellor aprobalo</strong>.
-about-playbook-how-validate-content-2 = <strong>Non rexeite fragmentos só por que a persoa que grava "ten un acento" diferente ao seu</strong>. Isto é importante para que o recoñecemento de voz funcione mellor para todo o mundo.
+about-playbook-how-validate-content-2 = <strong>Non rexeite fragmentos só por que a persoa que grava "ten un acento" diferente ao seu</strong>. Isto é importante para que o recoñecemento da fala funcione mellor para todo o mundo.
 about-playbook-how-validate-content-3 = Se pensa que a pronuncia <strong>imposibilita a comprensión</strong>, hai <strong>moito ruído de fondo</strong> ou <strong>se oen outras voces</strong>, entón debería rexeitar o fragmento. <accuracyLink>Saiba máis sobre os nosos criterios de contribución</accuracyLink>.
 about-playbook-how-validate-content-4 = Se un fragmento é rexeitado por dúas persoas, publícase nun subconxunto diferente dentro do conxunto de datos.
 
@@ -765,7 +765,7 @@ resource-playbook-info = <playbookLink>Atope orientacións útiles</playbookLink
 data-other-librispeech-description = LibriSpeech é un corpus de aproximadamente 1000 horas de fala inglesa lida a 16 KHz derivado da lectura de audiolibros do proxecto LibriVox.
 data-other-ted-name = Corpus TED-LIUM
 data-other-ted-description = O corpus TED-LIUM elaborouse a partir de gravacións de audio e transcricións dispoñibles na páxina web TED.
-data-other-voxforge-description = VoxForge creouse para recoller transcricións de intervencións orais coa finalidade de seren útiles aos motores de recoñecemento de voz de código aberto.
+data-other-voxforge-description = VoxForge creouse para recoller transcricións de intervencións orais coa finalidade de seren útiles aos motores de recoñecemento da fala de código aberto.
 data-other-tatoeba-description = Tatoeba é unha gran base de datos de frases, traducións e producións orais para empregar na aprendizaxe de idiomas. Esta descarga contén falas de inglés gravadas pola propia comunidade anglófona.
 your-feedback = Ten ideas sobre como podemos mellorar o conxunto de datos Common Voice? Coméntenolas en Discourse
 go-discourse = Ir a Discourse
