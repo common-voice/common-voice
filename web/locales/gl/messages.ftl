@@ -494,7 +494,7 @@ faq-where-src-from-2-a =
     
     Pode ver as nosas frases neste <githubLink>cartafol de GitHub</githubLink>.
 faq-why-not-ask-read-q = Por que non se lle pide á xente que lea a partir de libros ou artigos da Wikipedia en diferentes idiomas?
-faq-why-not-ask-read-a = Para facermos o conxunto de datos de Common Voice tan útil como sexa posible, decidimos aceptar soamente textos dispoñibles baixo licenza Creative Commons (CC0). Utilizar o estándar CC0 implica que é máis difícil atopar e recoller textos, pero asegura que calquera persoa poida utilizar os datos de voz resultante sen restricións de uso nin autorización de Mozilla. En última instancia, queremos facer o conxunto de datos multilingüe tan útil como sexa posible para investigadores, universidades, empresas, gobernos, organizacións con fins sociais e afeccionados.
+faq-why-not-ask-read-a = Para facermos o conxunto de datos de Common Voice tan útil como sexa posible, decidimos aceptar soamente textos dispoñibles baixo licenza Creative Commons (CC0). Utilizar o estándar CC0 implica que é máis difícil atopar e recoller textos, pero asegura que calquera persoa poida utilizar os datos de voz resultantes sen restricións de uso nin autorización de Mozilla. En última instancia, queremos facer o conxunto de datos multilingüe tan útil como sexa posible para investigadores, universidades, empresas, gobernos, organizacións con fins sociais e afeccionados.
 faq-why-account-q = Por que debería rexistrar unha conta?
 faq-is-account-public-q = A información da miña conta é pública?
 faq-how-privacy-q = Como se asegura a anonimización e confidencialidade das persoas que doaron as súas voces?
