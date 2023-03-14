@@ -1439,6 +1439,8 @@ sc-add-err-submission = ꯊꯥꯖꯤꯟꯕ ꯑꯁꯣꯏꯕꯥ
 
 ## SETTINGS
 
+sc-settings-title = ꯁꯦꯝꯐꯝ
 
 # [/SentenceCollector]
 
+partnerships-governments-header = ꯂꯩꯉꯥꯛ
