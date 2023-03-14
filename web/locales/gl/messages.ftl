@@ -501,9 +501,9 @@ faq-how-privacy-q = Como se asegura a anonimización e confidencialidade das per
 faq-how-privacy-a = Límpase a información persoal de todos os fragmentos de voz do conxunto de datos. Cando alguén proporciona información demográfica no seu perfil, esa información desvincúlase dos seus fragmentos de voz antes de incluíla, para descargar, no conxunto de datos e nunca se fai pública no seu perfil.
 faq-what-determine-identity-q = Que significa que non podo «determinar a identidade» de falantes no conxunto de datos Common Voice?
 faq-what-determine-identity-a =
-    O conxunto de datos Common Voice é un recurso aberto e dispoñíbel publicamente que pode utilizarse para adestrar unha ampla variedade de aplicacións relacionada coa voz. Para protexer a seguranza dos nosos colaboradores, pedímoslle a todos os que descarguen o conxunto de datos Common Voice que respecten a confidencialidade dos colaboradores.
+    O conxunto de datos Common Voice é un recurso aberto e dispoñible publicamente que pode utilizarse para adestrar unha ampla variedade de aplicacións de voz. Para protexer a seguranza dos nosos colaboradores, pedímoslle a aquelas persoas que descarguen o conxunto de datos Common Voice que respecten a súa privacidade.
     
-    Todos os fragmentos de voz no conxunto de datos están preservados de información sobre a identidade. Ao descargar o conxunto de datos, vostede está de acordo en non tentar determinar a identidade de ningún colaborador. Isto significa que non pode ligar información no conxunto de datos con ningunha información persoal dun colaborador. No entanto, vostede pode utilizar o conxunto de datos para adestrar o recoñecemento de fala, o recoñecemento dun falante ou outras aplicacións ao, valla o exemplo, conectar información que está no conxunto de datos con outra información que xa está tamén no conxunto de datos.
+    Todos os fragmentos de voz do conxunto de datos están libres de información persol. Ao descargar o conxunto de datos, vostede comprométese a non tentar determinar a identidade de ningún colaborador. Isto significa que non pode intentar ligar a información do conxunto de datos cos datos persoais dun colaborador. No entanto, pode utilizar o conxunto de datos para adestrar modelos de recoñecemento de fala, de identificación de locutor ou outras aplicacións, por exemplo, vinculando información do conxunto de datos con outra información que xa está tamén no conxunto de datos.
 faq-what-is-cv = Que é Common Voice?
 faq-using-cv = Utilización de Common Voice
 faq-description = Common Voice é parte dunha iniciativa de Mozilla para axudar a ensinar ás máquinas como fala a xente común.
@@ -550,7 +550,7 @@ about-no-votes-text = Cando un usuario rexeita un fragmento de voz, volve á col
 about-dataset-new = Conxunto de datos de Common Voice
 about-dataset-new-text = O conxunto de datos Common Voice contén centos de miles de mostras de voz que axudan os desenvolvedores a construír ferramentas de recoñecemento de voz.
 about-clip-graveyard = Cemiterio de fragmentos
-about-clip-graveyard-text = O Cemiterio de fragmentos son fragmentos de voz que non acadaron ser parte do conxunto de datos de Common Voice. Do mesmo xeito que o conxunto de datos, o Cemiterio de fragmentos está dispoñíbel para descarga.
+about-clip-graveyard-text = O Cemiterio de fragmentos contén fragmentos de voz que non chegaron a formar parte do conxunto de datos de Common Voice. Do mesmo xeito que o conxunto de datos, o Cemiterio de fragmentos está dispoñible para descarga.
 about-get-involved = Participe
 about-get-involved-text-2 =
     Quere axudar a mellorar Common Voice?
@@ -676,7 +676,7 @@ de-identified-explanation = O proceso mediante o cal a información do perfil du
 
 ## Error pages
 
-error-title-404 = Non nos foi posíbel atopar esa páxina
+error-title-404 = Non foi posible atopar esa páxina
 error-content-404 = Se cadra a nosa<homepageLink>páxina principal</homepageLink> axudaría? Para facer unha pregunta, únase ao <matrixLink>chat da comunidade Matrix</matrixLink>, siga as incidencias da páxina por <githubLink>GitHub</githubLink> ou visite <discourseLink>os nosos foros Discourse</discourseLink>.
 error-title-503 = Neste intre sufrimos unha caída do servizo inesperada
 error-content-503 = A páxina volverá a estar activa tan pronto como sexa posible. Para ter as últimas novas, únase ao <matrixLink>chat da comunidade Matrix</matrixLink> ou visite <githubLink>GitHub</githubLink> ou <discourseLink>os nosos foros Discourse </discourseLink> para enviar e monitorizar as incidencias na experiencia de utilización da páxina.
@@ -689,7 +689,7 @@ data-download-yes = Si
 data-download-deny = Non
 data-download-license = Licenza <licenseLink>CC-0</licenseLink>
 data-download-modal = Vai comezar a descargar <size>{ $size }GB</size>, seguir?
-data-subtitle = Estamos a construír un conxunto de voces aberto e publicamente dispoñíbel que calquera pode utilizar para adestrar aplicacións que empregan a voz.
+data-subtitle = Estamos a construír un conxunto de voces aberto e dispoñible publicamente que calquera persoa poida utilizar para adestrar aplicacións que empregan a voz.
 data-explanatory-text = Cremos que os grandes conxuntos de datos axudan á innovación e á competición comercial saudábel en tecnoloxías de aprendizaxe baseada na fala. Este é un esforzo global e convidamos a calquera a participar. A nosa intención é axudar a tecnoloxía de fala a ser máis inclusiva para que reflicta a diversidade de voces de todo o mundo.
 data-get-started = <speechBlogLink>Primeiros pasos no recoñecemento da fala</speechBlogLink>
 data-other-title = Outros conxuntos de datos de voz...
