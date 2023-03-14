@@ -408,7 +408,7 @@ profile-explanation = Seguir o seu progreso cun perfil e axudar a que os datos d
 thanks-for-account = Grazas por confirmar a súa conta, agora imos construír o seu perfil.
 why-demographic = Por que é importante?
 why-demographic-explanation-2 = Os datos anónimos como idade, xénero e acento axudan a mellorar os datos de son utilizados para adestrar a precisión dos motores de recoñecemento de voz. O seu nome de usuario e enderezo de correo nunca serán asociados cos datos enviados e vostede sempre pode escoller se facelos ou non públicos.
-accept-privacy = Estou de acordo con que xestionen esta info nos termos explicados na <privacyLink>Política de privacidade</privacyLink>
+accept-privacy = Estou de acordo con que xestionen esta información segundo os termos explicados na <privacyLink>Política de privacidade</privacyLink>
 accept-privacy-title = Política de privacidade
 accept-privacy-and-terms = Acepto as <termsLink>Condicións</termsLink> e o <privacyLink>Aviso de privacidade</privacyLink> de Common Voice
 login-identity = Identidade de inicio de sesión
@@ -496,7 +496,7 @@ faq-where-src-from-2-a =
 faq-why-not-ask-read-q = Por que non se lle pide á xente que lea a partir de libros ou artigos da Wikipedia en diferentes idiomas?
 faq-why-not-ask-read-a = Para facermos o conxunto de voz Common Voice tan utilizábel como sexa posíbel, decidimos permitir soamente textos orixe dispoñíbeis mediante licenza Creative Commons (CC0). Utilizar o estándar CC0 significa que é máis difícil atopar e recoller texto orixe pero permítelle a calquera utilizar a voz resultante sen restricións de uso ou autorización de Mozilla. Finalmente, queremos facer o conxunto de datos multilingüístico tan utilizábel como sexa posíbel para calquera, investigadores, universidades, empresas, gobernos, organizacións con fins sociais e afeccionados.
 faq-why-account-q = Por que debería rexistrar unha conta?
-faq-is-account-public-q = A miña conta, é información pública?
+faq-is-account-public-q = A información da miña conta é pública?
 faq-how-privacy-q = Como se asegura a anonimización e confidencialidade das persoas que doaron as súas voces?
 faq-how-privacy-a = Límpase a información persoal de todos os fragmentos de voz do conxunto de datos. Cando alguén proporciona información demográfica no seu perfil, esa información desvincúlase dos seus fragmentos de voz antes de incluíla, para descargar, no conxunto de datos e nunca se fai pública no seu perfil.
 faq-what-determine-identity-q = Que significa que non podo «determinar a identidade» de falantes no conxunto de datos Common Voice?
@@ -1150,7 +1150,7 @@ demo-account = Conta
 
 ## Demo Account
 
-demo-account-card-header = Ter unha conta non é necesario para colaborar mais de axuda.
+demo-account-card-header = Ter unha conta non é necesario para colaborar, mais axuda.
 demo-account-card-body = Á dereita esbozamos os beneficios e aclaramos que información facemos pública. Utilice as ligazóns seguintes para comezar cunha conta de Common Voice no seu propio dispositivo.
 demo-account-enter-email =
     .label = Escriba o enderezo de correo para enviar unha ligazón de rexistro
