@@ -953,24 +953,83 @@ sc-languages-fetch-error = No pudimos obtener los idiomas disponibles. Las contr
 
 ## HOW-TO
 
+sc-howto-title = Cómo
+sc-howto-addlang-title = Adición de idiomas para trabajar
+sc-howto-addlang-text = Una vez que haya iniciado sesión, puede seleccionar sus idiomas en la sección de perfil.
+sc-howto-addsen-title = Agregar nuevas oraciones
+sc-howto-addsen-item-2 = Números. No debe haber dígitos en el texto fuente porque pueden causar problemas cuando se leen en voz alta. La forma en que se lee un número depende del contexto y puede generar confusión en el conjunto de datos. Por ejemplo, el número "2409" podría leerse con precisión como "veinticuatro cero nueve" y "dos mil cuatrocientos nueve".
+sc-howto-review-title = repasar oraciones
+sc-howto-review-subtitle = Asegúrese de que la oración cumpla con los siguientes criterios:
+sc-howto-review-criteria-1 = La oración debe estar escrita correctamente.
+sc-howto-review-criteria-2 = La oración debe ser gramaticalmente correcta.
+sc-howto-review-criteria-3 = La oración debe ser pronunciable.
+sc-howto-review-criteria-4 = Si la oración cumple con los criterios, haga clic en el botón "Aprobar".
+sc-howto-review-criteria-5 = Si la oración no cumple con los criterios anteriores, haga clic en el botón "Rechazar". Si no está seguro acerca de la oración, también puede omitirla y pasar a la siguiente.
+sc-howto-review-criteria-6 = Si se queda sin oraciones para revisar, ¡ayúdenos a recopilar más oraciones!
+sc-howto-findpd-title = Encontrar oraciones existentes en el Dominio Público
+sc-howto-findpd-subtitle = Búscalos en Internet
+sc-howto-findpd-tips = Aquí hay algunos consejos para encontrar oraciones:
+sc-howto-findpd-tips-1 = Las mejores fuentes que puede buscar son podcasts, transcripciones, guiones de películas y cualquier cosa que pueda contener conversaciones cotidianas.
+sc-howto-findpd-tips-2 = Los procedimientos gubernamentales, los libros y los artículos también son excelentes; sin embargo, dado que el texto tiende a ser un poco más formal, son menos prioritarios.
+sc-howto-findpd-tips-3 = Desafortunadamente no podemos tener artículos de Wikipedia todavía. Así que no copie y pegue desde allí.
+sc-howto-findpd-subtitle-2 = Asociarse con organizaciones o individuos locales
 
 ## MY SENTENCES
 
+sc-my-title = mis oraciones
+sc-my-loading = Cargando tus oraciones…
+sc-my-err-fetching = Error al obtener sus oraciones. Inténtalo de nuevo.
+sc-my-no-sentences = ¡No se encontraron oraciones!
+sc-my-delete = Eliminar oraciones seleccionadas
+sc-my-deleting = Borrando oraciones seleccionadas…
+sc-my-err-failed-delete = Error al eliminar las oraciones seleccionadas... ¡Inténtalo de nuevo!
 
 ## REJECTED
 
+sc-rejected-title = Oraciones rechazadas
+sc-rejected-loading = Cargando oraciones rechazadas…
+sc-rejected-err-fetching = Error al obtener oraciones rechazadas. Inténtalo de nuevo.
+sc-rejected-none-found = ¡No se encontraron oraciones rechazadas!
 
 ## STATS
 
+sc-stats-title = Estadísticas
+sc-stats-updating = Actualizando…
+sc-stats-error = No pudimos obtener las estadísticas. Por favor, inténtelo de nuevo más tarde.
 
 ## ADD
 
+sc-submit-err-select-lang = Por favor, seleccione un idioma.
+sc-submit-err-add-sentences = Por favor agregue oraciones.
+sc-submit-err-add-source = Agregue una fuente.
+sc-submit-err-confirm-pd = Confirme que estas oraciones son de dominio público.
+sc-submit-prompt =
+    .message = Oraciones no enviadas, ¿estás seguro de que quieres salir?
+sc-submit-title = Agregar oraciones
+sc-submit-select-language =
+    .labelText = Seleccione el idioma
+sc-submit-ph-one-per-line =
+    .placeholder = Una oración por línea
+sc-submit-ph-read-how-to =
+    .placeholder = Lea nuestro Cómo hacerlo si no está seguro de cómo atribuirlo.(masculino)
+sc-submit-button =
+    .submitText = enviar
+sc-submit-filtered = Oraciones filtradas debido a que fallan los requisitos (envíe versiones corregidas como nuevas oraciones):
 
 ## ADD LANGUAGE
 
+sc-add-lang-could-not-add = No se pudo agregar el idioma
+sc-add-lang-sec-label = Añade un idioma en el que quieras contribuir
+sc-add-lang-sec-button = Agregar idioma
+sc-add-err-unexpected = Respuesta inesperada devuelta del servidor
+sc-add-err-submission = Error de envío
 
 ## ADD SENTENCES CONFIRMATION
 
+sc-confirm-are-you-sure =
+    .message = Oraciones no enviadas, ¿estás seguro de que quieres salir?
+sc-confirm-sentences-title = Confirmar nuevas oraciones
+sc-confirm-button-text = Confirmar
 
 ## LANGUAGE INFO
 
