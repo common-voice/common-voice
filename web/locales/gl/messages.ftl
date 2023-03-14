@@ -1140,7 +1140,7 @@ demo-welcome-subheader = Interésalle aprender máis e contribuír ao proxecto?
 ## Demo Datasets
 
 demo-language-select-card-header = Common Voice é o maior conxunto de datos de voz multilingüe que está dispoñible publicamente.
-demo-language-select-card-body = Grazas ás colaboracións de máis de 259.000 persoas en máis de 50 idiomas, estes datos empréganse para adestrar aplicacións con recoñecemento de voz para entender mellor á voz humana.
+demo-language-select-card-body = Grazas ás colaboracións de máis de 259.000 persoas en máis de 50 idiomas, estes datos empréganse para adestrar aplicacións de recoñecemento da fala para entender mellor a voz humana.
 card-button-next = Seguinte
 card-button-back = Anterior
 demo-language-select-label = Buscar Idiomas
