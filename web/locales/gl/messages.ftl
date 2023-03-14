@@ -296,7 +296,7 @@ email-subscription-title-new = Subscríbase aos boletíns de información, aos r
 ## Account Benefits
 
 benefits = Beneficios
-rich-data = Faga que os datos enviados sexan o máis ricos posíbel fornecendo algunha información demográfica anónima. Deixaremos anonimizados os datos demográficos antes de facelos públicos.
+rich-data = Faga que os datos enviados sexan o máis completos posible fornecendo algunha información demográfica anónima. Deixaremos anonimizados os datos demográficos antes de facelos públicos.
 improve-audio = O perfil informativo mellora os datos de son utilizados para adestrar a precisión do recoñecemento oral.
 keep-track = Faga un seguimento do seu progreso e das métricas entre varios idiomas.
 compare-progress = Vexa como o seu progreso comparado con outros colaboradores de todo o mundo.
@@ -384,7 +384,7 @@ profile-form-gender-2 =
 leaderboard-visibility =
     .label = Visibilidade da táboa de clasificación
 hidden = Agochada
-visible = Visíbel
+visible = Visible
 native-language =
     .label = Idioma nativo
 profile-form-add-accent = Engada un novo acento personalizado "{ $inputValue }"
