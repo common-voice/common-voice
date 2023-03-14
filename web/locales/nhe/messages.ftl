@@ -558,6 +558,7 @@ about-playbook-how-access-dataset = ¿Cómo accedo y uso el conjunto de datos?
 ## How are decisions made
 
 about-playbook-how-project-governance = ¿Cómo se toman las decisiones del proyecto?
+about-playbook-how-project-governance-content-1 = Mozilla Common Voice es posible gracias a una comunidad diversa de activistas, lingüistas, científicos de datos, académicos e ingenieros de software de todo el mundo. El proyecto es administrado por la Fundación Mozilla.
 about-playbook-how-project-governance-content-2 = Nuestra fundación se basa en los pilares de:
 about-playbook-how-project-governance-content-3 = Privacidad, seguridad y transparencia.
 about-playbook-how-project-governance-content-4 = Participación comunitaria y toma de decisiones.
@@ -568,6 +569,7 @@ about-playbook-how-project-governance-content-6 = Contabilidad mutua.
 
 glossary = Glosario
 localization = Localización
+localization-explanation = Este es nuestro proceso para traducir y adaptar nuestro contenido para muchos lugares (idiomas).
 sentence-collection = Colección de oraciones
 sentence-collection-explanation = Recolectar oraciones del dominio público o escribir nuevas para el dominio público.
 hours-recorded-explanation = El recuento de horas de grabación de voz que hemos recopilado hasta ahora.
@@ -713,6 +715,7 @@ listen-empty-state = Es posible que nos hayamos quedado sin clips: actualice la 
 speak-empty-state = Nos hemos quedado sin frases para grabar en este idioma...
 speak-empty-state-cta = Contribuir oraciones
 record-button-label = Graba tu voz
+keep-track-profile = Lleva un registro de tu progreso con un perfil
 login-to-get-started = Inicia sesión o regístrate para empezar
 target-segment-first-card = Está contribuyendo a nuestro primer segmento objetivo
 target-segment-generic-card = Estás contribuyendo a un segmento objetivo
@@ -871,9 +874,19 @@ demo-listen-subtitle = ¿Listo para contribuir?
 
 ## Demo Dashboard
 
+demo-dashboard-card-header = Los paneles personales lo mantienen actualizado con el progreso individual y comunitario.
 
 ## Validation criteria
 
+contribution-criteria-nav = Criterios
+contribution-criteria-link = Comprender los criterios de contribución
+contribution-criteria-page-title = Criterios de contribución
+contribution-criteria-page-description = ¡Comprenda qué buscar al escuchar clips de voz y ayude a enriquecer sus grabaciones de voz también!
+contribution-for-example = Por ejemplo
+contribution-misreadings-title = Errores de lectura
+contribution-misreadings-description-extended-list-3 = Leer contracciones que en realidad no existen, como "We're" en lugar de "We are", o viceversa.
+contribution-misreadings-description-extended-list-4 = Falta el final de la última palabra al cortar la grabación demasiado rápido.
+contribution-misreadings-description-extended-list-5 = Tomando varios intentos para leer una palabra.
 
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
