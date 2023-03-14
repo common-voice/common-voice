@@ -887,6 +887,32 @@ contribution-misreadings-title = Errores de lectura
 contribution-misreadings-description-extended-list-3 = Leer contracciones que en realidad no existen, como "We're" en lugar de "We are", o viceversa.
 contribution-misreadings-description-extended-list-4 = Falta el final de la última palabra al cortar la grabación demasiado rápido.
 contribution-misreadings-description-extended-list-5 = Tomando varios intentos para leer una palabra.
+contribution-misreadings-example-1-title = Los dinosaurios gigantes del Triásico.
+contribution-misreadings-example-2-title = El dinosaurio gigante del Triásico.
+contribution-misreadings-example-3-title = Los dinosaurios gigantes del Triassi-.
+contribution-misreadings-example-3-explanation = [Grabación cortada antes del final de la última palabra]
+contribution-misreadings-example-4-title = Los dinosaurios gigantes del Triásico. Sí.
+contribution-misreadings-example-4-explanation = [Se ha grabado más que el texto requerido]
+contribution-misreadings-example-5-title = Saldremos a tomar café.
+contribution-misreadings-example-6-title = Saldremos a tomar café.
+contribution-misreadings-example-7-title = Nosotros vamos a tomar un cafe
+contribution-misreadings-example-8-title = El abejorro pasó a toda velocidad.
+contribution-varying-pronunciations-title = Pronunciaciones variadas
+contribution-varying-pronunciations-description = Tenga cuidado antes de rechazar un clip porque el lector pronunció mal una palabra, puso el énfasis en el lugar equivocado o aparentemente ignoró un signo de interrogación. Hay una gran variedad de pronunciaciones en uso en todo el mundo, algunas de las cuales quizás no haya escuchado en su comunidad local. Proporcione un margen de apreciación para aquellos que puedan hablar de manera diferente a usted.
+contribution-varying-pronunciations-description-extended = Por otro lado, si cree que el lector probablemente nunca antes se ha topado con la palabra y simplemente está adivinando incorrectamente la pronunciación, rechace. Si no está seguro, utilice el botón Saltar.
+contribution-varying-pronunciations-example-1-title = En la cabeza llevaba una boina.
+contribution-varying-pronunciations-example-2-title = Su mano estaba levantada.
+contribution-background-noise-title = Ruido de fondo
+contribution-background-noise-description = Queremos que los algoritmos de aprendizaje automático puedan manejar una variedad de ruidos de fondo, e incluso se pueden aceptar ruidos relativamente altos, siempre que no impidan escuchar la totalidad del texto. La música de fondo tranquila está bien; la música lo suficientemente alta como para evitar que escuches todas y cada una de las palabras no lo es.
+contribution-background-noise-description-extended = Si la grabación se rompe o tiene crujidos, rechace a menos que aún se pueda escuchar la totalidad del texto.
+contribution-background-voices-title = Voces de fondo
+contribution-background-voices-description = Un alboroto silencioso de fondo está bien, pero no queremos voces adicionales que puedan causar que un algoritmo de máquina identifique palabras que no están en el texto escrito. Si puede escuchar palabras distintas a las del texto, debe rechazar el clip. Por lo general, esto sucede donde se ha dejado el televisor encendido o donde hay una conversación cerca.
+contribution-background-voices-description-extended = Si la grabación se rompe o tiene crujidos, rechace a menos que aún se pueda escuchar la totalidad del texto.
+contribution-volume-description = Habrá variaciones naturales en el volumen entre los lectores. Rechace solo si el volumen es tan alto que la grabación se interrumpe o (más comúnmente) si es tan bajo que no puede escuchar lo que se dice sin referencia al texto escrito.
+contribution-reader-effects-title = Efectos del lector
+contribution-reader-effects-description = La mayoría de las grabaciones son de personas hablando con su voz natural. Puede aceptar la grabación no estándar ocasional que se grita, susurra o, obviamente, se entrega con una voz "dramática". Rechace las grabaciones cantadas y las que utilicen una voz sintetizada por computadora.
+contribution-just-unsure-title = ¿Simplemente inseguro?
+contribution-just-unsure-description = Si encuentra algo que estas pautas no cubren, vote de acuerdo con su mejor criterio. Si realmente no puede decidir, use el botón de salto y continúe con la siguiente grabación.
 
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
@@ -895,12 +921,35 @@ contribution-misreadings-description-extended-list-5 = Tomando varios intentos p
 
 ## HEADER/FOOTER
 
+sc-header-home = Cali
+sc-header-how-to = Como
+sc-header-add = Agregar
+sc-header-review = Revisar
+sc-header-rejected = Oraciones rechazadas
+sc-header-my = mis oraciones
+sc-header-statistics = Estadísticas
+sc-header-profile = Perfil
+sc-footer-discourse = Discurso
+sc-footer-report-bugs = Reportar errores
+sc-footer-translate = Traduzca esta pagina
+sc-footer-report-copyright = Informar problemas de derechos de autor
+sc-footer-privacy = Privacidad
+sc-footer-terms = Terminos
+sc-footer-cookies = Cookies
+sc-login-signup-button = Iniciar sesión Registrarse
+sc-logout-button = Cerrar sesión
 
 ## HOME
 
+sc-home-title = Bienvenido al recopilador de oraciones de Common Voice
+sc-home-collect-title = Recoge frases
+sc-home-collect-text = Ayúdanos escribiendo o recopilando oraciones de Dominio Público.
+sc-home-review-title = repasar oraciones
+sc-home-review-text = Ayúdenos revisando las oraciones para ver si son correctas de acuerdo con las pautas.
 
 ## GENERAL
 
+sc-languages-fetch-error = No pudimos obtener los idiomas disponibles. Las contribuciones no son posibles actualmente. Por favor, inténtelo de nuevo más tarde.
 
 ## HOW-TO
 
