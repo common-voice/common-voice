@@ -126,7 +126,7 @@ header {
     }
 
     & .menu-icon.mobile-menu-icon {
-        @media (--lg-up) {
+        @media (--xl-up) {
             display: none;
         }
     }
@@ -510,7 +510,7 @@ header {
 #main-nav {
     display: none;
 
-    @media (--lg-up) {
+    @media (--xl-up) {
         display: flex;
         align-items: center;
     }
