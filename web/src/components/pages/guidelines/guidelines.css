@@ -52,7 +52,8 @@
 
             @media (--md-and-lg-only) {
                 position: sticky;
-                top: 8px;
+                top: 0px;
+                padding-top: 8px;
                 background: var(--white);
                 z-index: var(--middle-z-index);
             }
@@ -93,10 +94,8 @@
 
         & .tabpanel {
             display: flex;
-            margin: 0 auto;
+            margin: 0 16px;
             max-width: var(--desktop-width);
-            padding-left: 16px;
-            padding-right: 16px;
 
             & .announcements-container {
                 background: var(--light-yellow);
@@ -109,11 +108,6 @@
                     font-weight: 600;
                     margin-bottom: 12px;
                 }
-            }
-
-            @media (--lg-down) {
-                margin: 0 16px;
-                padding-left: 0;
             }
 
             & .sections {
@@ -133,6 +127,10 @@
                     }
                 }
 
+                & .sidebar-content.no-border {
+                    border-bottom: none;
+                }
+
                 & .line {
                     display: inline-block;
                     background: linear-gradient(
@@ -148,6 +146,11 @@
                         display: none;
                     }
                 }
+            }
+
+            @media (--xl-up) {
+                margin: 0 auto;
+                padding: 14px;
             }
 
             nav {
@@ -475,7 +478,7 @@
     }
 
     & .contact-section {
-        @media (--md-up) {
+        @media (--sm-up) {
             background: url('./images/guidelines-waves-footer.png');
             background-size: 100% 100%;
             height: 700px;
@@ -569,11 +572,7 @@
                 border: none;
                 font-size: var(--font-size);
                 height: 60px;
-                width: 370px;
-
-                @media (--sm-down) {
-                    width: auto;
-                }
+                width: 350px;
 
                 svg {
                     flex: 0.6;
