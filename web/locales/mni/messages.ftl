@@ -1418,9 +1418,23 @@ sc-add-err-failed =
        *[other] ꯋꯥꯍꯩꯄꯔꯦꯡ ꯱ ꯃꯥꯏꯊꯤꯕ ꯌꯥꯎꯔꯦ ꯫
     }
 sc-add-err-submission = ꯊꯥꯖꯤꯟꯕ ꯑꯁꯣꯏꯕꯥ
+sc-add-lang-process-notice = ꯀꯔꯤꯒꯨꯝꯕꯥ ꯅꯍꯥꯛꯀꯤ ꯂꯣꯜ ꯑꯗꯨ ꯃꯐꯝꯁꯤꯗꯥ ꯂꯤꯁ꯭ꯠ ꯇꯧꯗ꯭ꯔꯕꯗꯤ, ꯅꯍꯥꯛꯅꯥ ꯃꯁꯤ <languageProcessLink>ꯄ꯭ꯔꯣꯁꯦꯁ ꯑꯁꯤꯒꯤ</languageProcessLink>ꯒꯤ ꯈꯨꯠꯊꯥꯡꯗꯥ ꯍꯪꯒꯠꯄ ꯌꯥꯏ ꯫
 
 ## ADD SENTENCES CONFIRMATION
 
+sc-confirm-are-you-sure =
+    .message = ꯋꯥꯍꯩꯄꯔꯦꯡꯁꯤꯡ ꯄꯤꯁꯤꯟꯈꯤꯗꯕꯥ, ꯅꯍꯥꯛꯅꯥ ꯁꯣꯏꯗꯅꯥ  ꯊꯥꯗꯣꯛꯂꯒ ꯆꯠꯄꯥ ꯄꯥꯝꯕꯤꯕ꯭ꯔꯥ?
+sc-confirm-sentences-title = ꯑꯅꯧꯕ ꯋꯥꯍꯩꯄꯔꯦꯡꯁꯤꯡ ꯃꯁꯛ ꯈꯪꯂꯕ
+# Variables:
+#   $countOfSentences (Number) - Number of sentences the user has filled in the submission form
+sc-confirm-sentences-found =
+    { $countOfSentences ->
+        [0] ꯋꯥꯍꯩꯄꯔꯦꯡ ꯑꯃꯠꯇꯥ ꯐꯪꯈꯤꯗꯦ꯫
+       *[other] ꯋꯥꯍꯩꯄꯔꯦꯡ ꯱ ꯐꯪꯂꯦ ꯫
+    }
+# Variables:
+#   $countOfInvalidated (Number) - Number of sentences the user rejected in the review form before submission
+sc-confirm-rejected-by-you = { $countOfInvalidated } ꯅꯍꯥꯛꯅꯥ ꯈꯠꯇꯣꯛꯂꯦ
 
 ## LANGUAGE INFO
 
