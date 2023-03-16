@@ -3195,6 +3195,7 @@ Bestimmt stammt sie noch aus D-Mark-Zeiten.
 Bestimmt vertickt er die Dinger im Darknet.
 Bestimmt weiß niemand, welches Unternehmen gemeint ist.
 Bestimmt wird es für einen guten Zweck verwendet.
+Bestimmte Produkte kann man halt nur kaufen, wenn sie im Preis herabgesetzt sind.
 Bestimmte Vorgänge in der Politik lassen sich nur durch Geldköfferchen erklären.
 Bestätigen Sie Ihre Eingabe mit der Raute-Taste.
 Bestätigen Sie den Sicherheitshinweis.
@@ -9917,6 +9918,7 @@ Die beiden Liquide unterscheiden sich in noch einem weiteren Punkt.
 Die beiden Männer hielten Händchen.
 Die beiden Männer unterhielten sich auf Englisch über Kohlmeisen.
 Die beiden Putzlumpen haue ich dir gleich um die Ohren!
+Die beiden Thermometer sind sich über die Temperatur uneinig.
 Die beiden denken sich für jedes ihrer Lieder einen neuen Künstlernamen aus.
 Die beiden gebürtigen Neuseeländer liebäugeln mit einem Wintergarten.
 Die beiden haben heimlich auf der Toilette geraucht.
@@ -11167,6 +11169,7 @@ Du kannst dir gar nicht vorstellen, wie er abging.
 Du kannst dir ja überlegen, was du lieber magst.
 Du kannst dir nie hundertprozentig sicher sein.
 Du kannst doch Corona nicht mit einer Grippe vergleichen!
+Du kannst doch Leipzig nicht mit Halle vergleichen!
 Du kannst doch hier nicht einfach auf den Boden spucken.
 Du kannst doch jetzt nicht das Handtuch werfen!
 Du kannst doch nicht alles mit Heißkleber befestigen!
@@ -11997,6 +12000,7 @@ Ein freies Leben ist erstrebenswert.
 Ein funktionierendes Kundenbindungsprogramm muss her.
 Ein fürsorglicher Arbeitgeber unterstützt seine Angestellten bei der Partnersuche.
 Ein ganz bestimmter Bakterienstamm verleiht dem Getränk seinen unverwechselbaren Geschmack.
+Ein ganz normales Gespräch zwischen mir und meiner Pferdepflegerin.
 Ein ganz wichtiger Punkt fehlt noch auf deiner Liste.
 Ein ganze Teil sind kombinierte Rad und Fußwege.
 Ein gelber Rettungshubschrauber ist bereits im Anflug.
@@ -13290,6 +13294,7 @@ Erst dann kommen neue, die man wirklich pflegen muss.
 Erst dann versinken sie.
 Erst dann, wenn es nicht mehr anders geht.
 Erst das Eis brechen, dann das Herz!
+Erst das eine, danach das andere.
 Erst denken, dann handeln.
 Erst die Direktorin wies sie in die Schranken.
 Erst die Kirschblüte, dann die Frucht.
@@ -16366,6 +16371,7 @@ Hast du einen Grundriss von der Wohnung?
 Hast du einen Namenstag?
 Hast du einen Sprung in der Schüssel?
 Hast du einen eigenen Server aufgesetzt?
+Hast du einen neuen Helm?
 Hast du einen schlechten Platz bekommen und nichts sehen können?
 Hast du einmal.....?
 Hast du einmal Feuer?
@@ -16759,6 +16765,7 @@ Herr Wegener tanzt auf zwei Hochzeiten.
 Herr Wessel sitzt am längeren Hebel.
 Herr Westphal zog seinen Zeigestock aus.
 Herr Winter zeigte für seine Arbeit Verständnis.
+Herr im Himmel, erhöre mich!
 Herr, erbarme dich!
 Herr, schmeiß Hirn vom Himmel.
 Herr, wirf Hirn vom Himmel!
@@ -17064,6 +17071,7 @@ Hier mag doch sowieso keiner mehr wohnen!
 Hier mag man die Parteien loben.
 Hier mal eine Faustregel.
 Hier muss doch irgendwo ein Mindesthaltbarkeitsdatum drauf stehen.
+Hier muss ich korrigierend eingreifen.
 Hier muss man schon eher von einem Zehnkampf als von einem Zweikampf sprechen.
 Hier muss man schon von einer steilen These sprechen.
 Hier musste ein Komma gesetzt werden, denn es beginnt ein Nebensatz.
@@ -17910,6 +17918,7 @@ Ich fühle so sehr mit der Protagonistin mit.
 Ich fühlte mich unwohl dabei.
 Ich führe ein Gespräch mit ihm.
 Ich fürchte sie ist weggelaufen. Schon wieder?
+Ich fürchte, das übersteigt meine Fähigkeiten.
 Ich fürchte, du unterschätzt die Ignoranz der anderen Eltern.
 Ich fürchte, sie ist weggelaufen.
 Ich garantiere eine schnelle Lieferung innerhalb von zwei Werktagen.
@@ -19442,6 +19451,7 @@ Ihr habt doch nicht etwa an den Kabeln gespart?
 Ihr habt doch nicht etwa schon wieder die Tatwaffe verschlampt?
 Ihr habt es doch echt auf Durchseuchung angelegt!
 Ihr habt es euch aber schön eingerichtet hier!
+Ihr habt es nicht anders gewollt!
 Ihr habt euch also wieder mal nicht abgesprochen.
 Ihr habt euch genau die richtige Woche ausgesucht.
 Ihr habt euch ja wirklich Gedanken über Erziehung gemacht.
@@ -22286,6 +22296,7 @@ Kaum ist er berühmt, schon wollen ihn alle haben.
 Kaum jemand fährt die Strecke von Anfang bis Ende.
 Kaum jemand kann den drei baltischen Staaten sicher ihren jeweils korrekten Namen zuordnen.
 Kaum jemand lernt schwimmen, wenn man ihn ins kalte Wasser stößt.
+Kaum kann das erste Kind laufen, ist auch schon das nächste unterwegs.
 Kaum sind die Ferien vorbei, wird das Wetter endlich gut.
 Kaum sind die Sommerferien vorbei, beginnen auch schon wieder die Herbstferien.
 Kaum war der Staatsbedienstete zu seinem Domizil zurückgekehrt, musste er wieder aufbrechen.
@@ -23323,6 +23334,7 @@ Leck mich!
 Leck mir die Stiefel, du Wurm!
 Lecker Kaffee!
 Lecker Stockbrot.
+Lecker ist es, aber leider macht es Zahnschmerzen.
 Lecks aufzuspüren, ist eine meiner leichtesten Übungen.
 Ledige Astronautin plant unbemannte Mission.
 Lediglich die Glastrennwände bleiben erhalten.
@@ -24996,6 +25008,7 @@ Mir scheint, du verwechselst aufräumen mit wegwerfen.
 Mir scheint, ihr habt viel zu viele Spielsachen.
 Mir schmecken weder Pilze noch Tomaten.
 Mir schmeckt Schokoladeneis am besten.
+Mir schwant nichts Gutes.
 Mir sind da leider die Hände gebunden.
 Mir sind die Kinder trotzdem lieber.
 Mir sind direkt ein paar weitere Ideen eingefallen.
@@ -25439,6 +25452,7 @@ Mitbewohner mit Putzfimmel werden toleriert, solange sie nicht eben diesen von a
 Mitdenken ist dort nicht erwünscht.
 Mitgefühl und Anteilnahme zu heucheln, gehört zum Grundrepertoire von Spitzenpolitikern.
 Mitglieder des Betriebsrats sind unkündbar.
+Mitgliedern in Sportvereinen schreibt sie höhere soziale Kompetenzen zu.
 Mithilfe ihrer Fantasie können Kinder einfachen Gegenständen wie Steinen oder Stöcken Leben einhauchen.
 Mithilfe von Sonnenlicht produzieren Pflanzen den Sauerstoff, den Tiere zum Atmen brauchen.
 Mithilfe von Spracherkennung ist es zweifelsohne möglich, automatische Untertitel zu generieren.
@@ -25604,6 +25618,7 @@ Muss man denn alles vergesellschaften?
 Muss man denn ausgerechnet ein Lamm opfern?
 Muss man denn wirklich gegen alles klagen?
 Muss man die Hymne mitsingen?
+Muss man drehen oder ziehen?
 Muss man hier auch eine Null vorwählen?
 Muss man hier drücken?
 Muss man immer alles so dramatisieren?
@@ -25779,6 +25794,7 @@ Na ja, das war jetzt nicht so der Brüller.
 Na ja, dass ich den nächsten Tag noch überlebe, ist ohnehin recht wahrscheinlich.
 Na ja, deine Familie wird dich schon nicht verstoßen.
 Na ja, den von gestern fand ich vielversprechender.
+Na ja, der Alkoholiker zum Beispiel schon mal nicht.
 Na ja, der Dirigent war sehr streng und hat viel mit uns geschimpft.
 Na ja, die Briten und Franzosen machen es genau so.
 Na ja, eher ein Urlaubsziel.
@@ -26566,6 +26582,7 @@ Nicht stehen bleiben!
 Nicht stehen bleiben.
 Nicht trotz des Verbots, sondern wegen des Verbots!
 Nicht umsonst sagt man Akademikern eine gewisse Arroganz nach.
+Nicht verarschen lassen!
 Nicht vergessen, einen Zollstock oder ein Maßband mitzunehmen!
 Nicht vergessen: Morgen ist Muttertag!
 Nicht verwendetes Gezähe ist so zu verwahren, daß hiedurch niemand gefährdet wird.
@@ -26664,6 +26681,7 @@ Niemand erwartet Perfektion.
 Niemand erwartet, dass du ein solches Effektfeuerwerk abbrennst.
 Niemand fängt mit Mitte zwanzig noch das Rauchen an.
 Niemand garantiert, dass nicht doch irgendwo was abbricht.
+Niemand geht gerne zum Zahnarzt.
 Niemand gibt freiwillig seinen Posten ab.
 Niemand glaubt uns.
 Niemand hat das Recht, meine Chats mitzulesen.
@@ -28098,6 +28116,7 @@ Rechtzeitig daran denken, dass die Feiertage vor der Tür stehen.
 Rede keinen Unsinn!
 Rede mit uns.
 Reden ist Silber, Schweigen ist Gold.
+Reden kann er.
 Reden sie jetzt.
 Reden wir hier von den ganz dicken Fischen?
 Redet der immer so geschwollen?
@@ -29579,6 +29598,7 @@ Sie ist die Tochter des ehemaligen estnischen Ministerpräsidenten Siim Kallas.
 Sie ist ein reines Fantasiekonstrukt.
 Sie ist eine Hexe und sie hat den Brunnen vergiftet!
 Sie ist eine Open-Data-Aktivistin.
+Sie ist eine verdammt gute Entwicklerin.
 Sie ist folglich von Pfeiler- bzw. anderen Stützenkonstruktionen formal abzugrenzen.
 Sie ist für jeden Spaß zu haben.
 Sie ist immer für ein Pläuschen zu haben.
@@ -35241,6 +35261,7 @@ Wenn es weiter nichts ist!
 Wenn es wenigstens Schnee wäre!
 Wenn etwas rot blinkt, ist das nie ein gutes Zeichen.
 Wenn gelindere Mittel ausreichen, ist vom Freiheitsentzug abzusehen.
+Wenn hier das Lämpchen leuchtet, strengt der Computer sich an.
 Wenn hier etwas übermäßig voll ist, dann sind Sie das!
 Wenn ich Bier trinke geht es mir gut
 Wenn ich Ihnen das sagen würde, müsste ich Sie leider töten.
@@ -35451,6 +35472,7 @@ Wenn wir uns ein bisschen zusammen reißen, sind wir ruckzuck durch.
 Wenn wir zu Hause sind, werden wir auf jeden Fall Bratapfel essen.
 Wenn zu einem Passagierflugzeug der Funkkontakt abbricht, starten routinemäßig zwei Abfangjäger.
 Wenn zu viele Gäste gleichzeitig duschen, nehmen sie sich gegenseitig das Warmwasser weg.
+Wenn zum Beispiel die eigenen Kinder lieber Fertiggerichte als selbst gekochtes mögen.
 Wenn zwei das Gleiche tun, ist es noch lange nicht dasselbe.
 Wenn überhaupt, eilt der Tacho vor.
 Wenn, dann, und, aber, oder... Basic-Programmierung für Anfänger.
@@ -36352,6 +36374,7 @@ Wie lange kann man eine Katze mit einem Laserpointer beschäftigen?
 Wie lange kann man nicht lüften, ohne zu ersticken?
 Wie lange kann man überleben, ohne zu verdursten?
 Wie lange liegt das jetzt schon hier herum?
+Wie lange liegt der Frachter schon im Hafen?
 Wie lange läuft König der Löwen jetzt schon in Hamburg?
 Wie lange läuft der Trockner noch?
 Wie lange muss der Akku eines Handys halten?
@@ -36648,6 +36671,7 @@ Wie viele Millionen Mal habe ich wohl diese Maustaste schon betätigt?
 Wie viele Millionen zahlt der Laden wohl, damit vor jedem Video deren Werbung läuft?
 Wie viele Minuten am Stück kannst du still sitzen?
 Wie viele Minuten hat eine Stunde?
+Wie viele Mitbewohner sind förderlich für die Gesundheit?
 Wie viele Monde hat Uranus?
 Wie viele Musikinstrumente kannst du spielen?
 Wie viele Mücken müssen einen aussaugen, bis es als Blutspende zählt?
@@ -38027,6 +38051,7 @@ Wollt ihr wirklich schon los?
 Wollt ihr wissen, was ich in meiner Tasche habe?
 Wollte sie sich nicht einen Reißverschluss an die Tasche nähen?
 Wolltest du das nicht schon am Wochenende erledigt haben?
+Wolltest du ihr nicht Nachhilfe geben?
 Wolltest du schon immer mal deinen Computer nach der eigenen Pfeife tanzen lassen?
 Womit füllen wir das Sommerloch?
 Womit imprägnierst du deine Schuhe?
@@ -38102,6 +38127,7 @@ Wozu braucht man überhaupt eine Glaubensgemeinschaft?
 Wozu die Kriegsbemalung?
 Wozu die vielen Anführungszeichen?
 Wozu diese Extrawurst?
+Wozu eigentlich?
 Wozu muss eine Drahtbürste Zink enthalten?
 Wozu soll ich mir Formeln merken, die ich jederzeit problemlos nachschlagen kann?
 Wozu soll man Bank- und Versichertenkarten händisch unterschreiben?

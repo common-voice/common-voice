@@ -488,7 +488,7 @@ faq-where-src-from-2-a =
     我们的原始文本由原创贡献者的捐赠和来自公共领域电影剧本的对话组成，例如 <italic>It’s a Wonderful Life</italic>。
     
     您可以在 <githubLink>GitHub 文件夹</githubLink>中查看我们的原始语句。
-faq-why-not-ask-read-q = 你为什么不让人们使用不同语言阅读书籍或维基百科文章？
+faq-why-not-ask-read-q = 为什么不能直接用各种语言来朗读书籍内容和维基百科条目？
 faq-why-not-ask-read-a = 为了保证 Common Voice 数据集的可用性，我们决定仅接受在知识共享“无著作权（CC0）”许可下提供的原始文本。使用 CC0 协议意味着寻找和收集原始文本更加困难，但这样可让任何人在无使用限制且毋须 Mozilla 的授权下使用语音数据。总之，我们希望让每个人都能用上这个多语言数据集，包括研究人员、大学、初创公司、政府、社会组织和业余爱好者。
 faq-why-account-q = 为什么我要注册账号？
 faq-is-account-public-q = 我的账户信息是公开的吗？

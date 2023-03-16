@@ -4,8 +4,8 @@
   "private": true,
   "dependencies": {
     "@aws-sdk/client-ses": "3.55.0",
-    "@sentry/node": "6.18.2",
-    "@sentry/tracing": "6.18.2",
+    "@sentry/node": "6.19.7",
+    "@sentry/tracing": "6.19.7",
     "aws-sdk": "2.1111.0",
     "body-parser": "1.19.2",
     "bull": "3.29.3",

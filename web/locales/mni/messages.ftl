@@ -1418,18 +1418,50 @@ sc-add-err-failed =
        *[other] ꯋꯥꯍꯩꯄꯔꯦꯡ ꯱ ꯃꯥꯏꯊꯤꯕ ꯌꯥꯎꯔꯦ ꯫
     }
 sc-add-err-submission = ꯊꯥꯖꯤꯟꯕ ꯑꯁꯣꯏꯕꯥ
+sc-add-lang-process-notice = ꯀꯔꯤꯒꯨꯝꯕꯥ ꯅꯍꯥꯛꯀꯤ ꯂꯣꯜ ꯑꯗꯨ ꯃꯐꯝꯁꯤꯗꯥ ꯂꯤꯁ꯭ꯠ ꯇꯧꯗ꯭ꯔꯕꯗꯤ, ꯅꯍꯥꯛꯅꯥ ꯃꯁꯤ <languageProcessLink>ꯄ꯭ꯔꯣꯁꯦꯁ ꯑꯁꯤꯒꯤ</languageProcessLink>ꯒꯤ ꯈꯨꯠꯊꯥꯡꯗꯥ ꯍꯪꯒꯠꯄ ꯌꯥꯏ ꯫
 
 ## ADD SENTENCES CONFIRMATION
 
+sc-confirm-are-you-sure =
+    .message = ꯋꯥꯍꯩꯄꯔꯦꯡꯁꯤꯡ ꯄꯤꯁꯤꯟꯈꯤꯗꯕꯥ, ꯅꯍꯥꯛꯅꯥ ꯁꯣꯏꯗꯅꯥ  ꯊꯥꯗꯣꯛꯂꯒ ꯆꯠꯄꯥ ꯄꯥꯝꯕꯤꯕ꯭ꯔꯥ?
+sc-confirm-sentences-title = ꯑꯅꯧꯕ ꯋꯥꯍꯩꯄꯔꯦꯡꯁꯤꯡ ꯃꯁꯛ ꯈꯪꯂꯕ
+# Variables:
+#   $countOfSentences (Number) - Number of sentences the user has filled in the submission form
+sc-confirm-sentences-found =
+    { $countOfSentences ->
+        [0] ꯋꯥꯍꯩꯄꯔꯦꯡ ꯑꯃꯠꯇꯥ ꯐꯪꯈꯤꯗꯦ꯫
+       *[other] ꯋꯥꯍꯩꯄꯔꯦꯡ ꯱ ꯐꯪꯂꯦ ꯫
+    }
+# Variables:
+#   $countOfInvalidated (Number) - Number of sentences the user rejected in the review form before submission
+sc-confirm-rejected-by-you = { $countOfInvalidated } ꯅꯍꯥꯛꯅꯥ ꯈꯠꯇꯣꯛꯂꯦ
+sc-confirm-already-reviewed =
+    { $countOfReviewed ->
+        [0] ꯋꯥꯍꯩꯄꯔꯦꯡ ꯑꯃꯠꯇꯥ ꯍꯥꯟꯅꯅꯥ ꯔꯤꯚꯤꯌꯨ ꯇꯧꯗ꯭ꯔꯤ ꯫
+       *[other] ꯋꯥꯍꯩꯄꯔꯦꯡ ꯱ ꯑꯃꯨꯛ ꯍꯟꯅ ꯌꯦꯡꯁꯤꯟꯈꯔꯦ ꯫ ꯑꯆꯧꯕꯥ ꯊꯕꯛ ꯑꯃꯥ!
+    }
 
 ## LANGUAGE INFO
 
+sc-lang-info-title-total = ꯑꯄꯨꯟꯕ
+sc-lang-info-title-personal = ꯃꯁꯥꯒꯤ ꯑꯣꯏꯕ
 
 ## LOGIN
 
+sc-login-err-try-again = ꯆꯥꯟꯕꯤꯗꯨꯅꯥ ꯑꯃꯨꯛ ꯍꯟꯅꯥ ꯍꯣꯠꯅꯕꯤꯌꯨ ꯫
 
 ## PROFILE
 
+# Variables:
+#   $username (String) - eMail address of the logged in user
+sc-profile-title = ꯃꯤꯑꯣꯏ ꯑꯃꯒꯤ ꯁꯝꯂꯞꯄ ꯋꯥꯔꯣꯜ:{ $username }
+sc-personal-err-lang-not-found = ꯂꯣꯜ ꯂꯧꯊꯣꯛꯄꯥ ꯉꯝꯗꯦ: ꯂꯣꯜ ꯐꯪꯈꯤꯗꯦ ꯫
+sc-personal-err-remove = ꯂꯣꯜ ꯂꯧꯊꯣꯛꯄꯥ ꯉꯝꯈꯤꯗꯦ
+sc-personal-your-languages = ꯅꯍꯥꯛꯀꯤ ꯂꯣꯟꯁꯤꯡ:
+sc-personal-remove-button = ꯂꯧꯊꯣꯛꯎ
+# Variables:
+#   $sentences (Number) - Number of sentences that were added by the currently logged in user for this language
+sc-personal-added-by-you = { $sentences } ꯅꯍꯥꯛꯅꯥ ꯍꯥꯞꯆꯤꯜꯂꯦ
 
 ## REVIEW CRITERIA
 
@@ -1439,6 +1471,8 @@ sc-add-err-submission = ꯊꯥꯖꯤꯟꯕ ꯑꯁꯣꯏꯕꯥ
 
 ## SETTINGS
 
+sc-settings-title = ꯁꯦꯝꯐꯝ
 
 # [/SentenceCollector]
 
+partnerships-governments-header = ꯂꯩꯉꯥꯛ

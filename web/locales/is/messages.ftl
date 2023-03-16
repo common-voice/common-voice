@@ -1580,6 +1580,7 @@ thanks-for-voice-toast = Takk fyrir raddupplýsingarnar þínar
 thanks-for-voice-toast-error = Villa kom upp við að senda raddupplýsingarnar þínar
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = Þakka þér fyrir að leggja þitt af mörkum!
+second-cta-subtitle-text = Með notandasniði geturðu fylgst með virkni þinni og tengst við samfélag þeirra sem gefa raddsýni.
 already-have-an-account = Ertu nú þegar með reikning? <login>Skrá inn</login>
 create-profile-button = Búa til notandasnið
 # IMAGE TAGS

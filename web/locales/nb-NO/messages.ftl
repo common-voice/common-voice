@@ -173,6 +173,8 @@ snk = Soninke
 so = Somali
 sq = Albansk
 sr = Serbisk
+ss = Svati
+st = Sotho
 sv-SE = Svensk
 sw = Swahili
 syr = Gammelsyrisk
@@ -184,24 +186,35 @@ ti = Tigrinja
 tig = Tigre
 tk = Turkmensk
 tl = Tagalog
+tn = Setswana
+tok = Toki pona
 tr = Tyrkisk
+ts = Tsonga
 tt = Tatar
 tw = Twi
 ty = Tahitisk
+tyv = Tuvinsk
 uby = Ubykh
 udm = Udmurtisk
 ug = Uigurisk
 uk = Ukrainsk
 ur = Urdu
 uz = Usbekisk
+ve = Tshivenda
 vec = Venetiansk
 vi = Vietnamesisk
 vot = Votisk
+wo = Wolof
+xh = Xhosa
 yi = Jiddisch
+yo = Joruba
 yue = Kantonesisk
+zgh = Berbisk
 zh-CN = Kinesisk (Kina)
 zh-HK = Kinesisk (Hong Kong)
 zh-TW = Kinesisk (Taiwan)
+zu = Zulu
+zza = Zazaisk
 
 # [/]
 
@@ -541,13 +554,29 @@ about-nav-how-it-works = Hvordan?
 about-nav-partners = Partnere
 about-nav-get-involved = Bli med
 about-nav-how-it-works-2 = Hvordan fungerer Common Voice?
+about-nav-playbook = Les om hvordan du deltar
 
 ## Community Playbook Content
 ## What is a language
 
+about-playbook-what-is-language = Hva er et språk på Common Voice?
+about-playbook-what-is-language-content-1 = Det er mange måter å tenke språk på. Når det gjelder talegjenkjenningsmodeller, foreslår Common Voice å fokusere på «gjensidig forståelighet», eller «kan de som snakker dette språket stort sett forstå hverandre hvis de prøver?»
+about-playbook-what-is-language-content-2 = Vi ønsker at talemodeller skal bli bedre til å forstå et mangfold av talere. For at dette skal skje, må et stemmedatasett representere mange forskjellige personer.
+about-playbook-what-is-language-content-3 = Noen språk har enorm variasjon i grammatikk, ordforråd og uttale. Av denne grunn <ctaLink>introduserer vi «Varianter»</ctaLink> i 2022. Dette gir fellesskap en måte å skille språkene sine i det større datasettet.
 
 ## How do I add a language
 
+about-playbook-how-add-language = Hvordan legger jeg til et språk?
+about-playbook-how-add-language-content-1 = Kontroller først om språket ditt <languageLink>allerede eksisterer</languageLink>. Hvis det ikke gjør det, må du <strong>oversette nettstedet og samle setninger</strong>.
+about-playbook-how-add-language-translating-heading = Oversettelse av nettsiden
+about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Se vår veiledning om hvordan du bruker Pontoon.</translateVideoLink>
+about-playbook-how-add-language-translating-content-2 =
+    Vi bruker et Mozilla-verktøy kalt <pontoonLink>Pontoon</pontoonLink> for oversettelser. Pontoon har mange språk,
+    men hvis den ikke har ditt kan du <pontoonRequestLink>be om at språket ditt blir lagt til</pontoonRequestLink>.
+    Deretter, for å gjøre språket tilgjengelig på Common Voice-prosjektet,
+    <githubRepoLink>be om det nye språket på GitHub</githubRepoLink>. <localizationFragment>Se mer på nettstedsoversettelse</localizationFragment>.
+about-playbook-how-add-language-collecting-sentences-heading = Innsamling av setninger
+about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>Se vår veiledning i hvordan du bruker setningsinnsamleren</sentenceCollectorVideo>.
 
 ## How does localization work
 
@@ -560,9 +589,12 @@ about-nav-how-it-works-2 = Hvordan fungerer Common Voice?
 
 ## How to grow language
 
+about-playbook-how-grow-language-content-6 = Partnerskap og nettverk
 
 ## How to validate
 
+about-playbook-how-validate = Hvordan vet jeg om jeg skal godkjenne et stemmeklipp?
+about-playbook-how-validate-content-1 = Hvis du kunne <strong>høre dem</strong> og <strong>forstå dem</strong>, er det vanligvis <strong>best å godkjenne</strong>.
 
 ## How to access dataset
 
