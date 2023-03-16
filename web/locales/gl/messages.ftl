@@ -1129,7 +1129,7 @@ welcome-staff = Benvida ao persoal de { $company }
 help-contribute = Pode axudar a construír un conxunto de datos diverso e de código aberto creando un perfil de Common Voice e doando a súa voz.
 login-company = Iniciar sesión / Rexistrarse co correo electrónico de { $company }
 profile-not-required = Non é necesario ter un perfil para colaborar, malia que tamén axuda, e vexa por que a seguir.
-read-more-about = Máis información na pestana "Sobre Common Voice"
+read-more-about = Máis información na pestana "Sobre nós"
 
 ## DemoLayout
 
@@ -1196,7 +1196,7 @@ contribution-misreadings-example-7-explanation = [Non aparece 'cheo' no texto or
 contribution-misreadings-example-8-title = A abella pasou rápido.
 contribution-misreadings-example-8-explanation = [Contido non coincidente]
 contribution-varying-pronunciations-title = Pronuncias diferentes
-contribution-varying-pronunciations-description = Teña coidado antes de rexeitar un fragmento de voz debido a como está pronunciado. Queremos que as máquinas sexan quen de recoñecer a ampla variedade de pronuncias do galego. Deixa un lugar para as persoas que falan diferente a ti.
+contribution-varying-pronunciations-description = Teña coidado antes de rexeitar un fragmento de voz debido a como está pronunciado. Queremos que as máquinas sexan quen de recoñecer a ampla variedade de pronuncias do galego. Deixe un lugar para as persoas que falan diferente a ti.
 contribution-varying-pronunciations-description-extended = Por outra banda, se pensa que quen le probablemente descoñece a palabra e simplemente está facendo unha suposición sobre a súa pronuncia, rexeite o fragmento. Se ten dúbidas, use o botón de omitir.
 contribution-varying-pronunciations-example-1-title = Había un gato enriba da cadeira.
 contribution-varying-pronunciations-example-1-explanation = [É correcto pronunciar 'gato' e tamén 'ghato']
@@ -1554,7 +1554,7 @@ partnerships-header-text = Fai falta moito traballo para que Common Voice funcio
 partnerships-get-in-touch = Póñase en contacto connosco
 partnerships-become-a-partner = Facerse socio de Common Voice
 partnerships-community-header = Comunidade, creadores e sociedade civil
-partnerships-community-description = A comunidade é o corazón de Common Voice. Está composta por persoas de todo o mundo (activistas lingüísticos, científicos, artistas etc.) Pode obter máis información sobre como participar na pestana <about>Sobre Common Voice</about> ou no noso <community>Manual da comunidade</community>. Se está interesado nunha asociación organizativa máis profunda, <emailFragment>póñase en contacto connosco.</emailFragment>
+partnerships-community-description = A comunidade é o corazón de Common Voice. Está composta por persoas de todo o mundo (activistas lingüísticos, científicos, artistas etc.) Pode obter máis información sobre como participar na pestana <about>Sobre nós</about> ou no noso <community>Manual da comunidade</community>. Se está interesado nunha asociación organizativa máis profunda, <emailFragment>póñase en contacto connosco.</emailFragment>
 partnerships-foundations-header = Fundacións
 partnerships-foundations-description = Traballamos con fundacións, a sociedade civil e socios comunitarios para que Internet sexa un lugar mellor, poñendo especial atención no leste de África. Consulte máis información sobre o noso <programmaticWork>traballo programático.</programmaticWork>
 partnerships-governments-header = Gobernos
