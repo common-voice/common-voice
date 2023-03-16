@@ -4,13 +4,13 @@
     border-bottom: 1px solid var(--light-grey);
 
     & .secondary-nav {
-        @media (--lg-up) {
+        @media (--xl-up) {
             background: var(--grey);
         }
 
         margin: 0 auto;
 
-        @media (--md-down) {
+        @media (--lg-down) {
             display: flex;
             flex-direction: row;
             height: var(--header-height);
@@ -19,11 +19,11 @@
         }
 
         & .menu-icon {
-            @media (--lg-up) {
+            @media (--xl-up) {
                 display: none;
             }
 
-            @media (--md-down) {
+            @media (--lg-down) {
                 margin-right: var(--page-margin);
             }
         }
@@ -34,7 +34,7 @@
             max-width: var(--desktop-width);
             padding: 0 4rem;
 
-            @media (--md-down) {
+            @media (--lg-down) {
                 margin: 0;
                 width: 100%;
                 background: var(--grey);
@@ -49,7 +49,7 @@
                 flex-wrap: wrap;
                 height: 100%;
 
-                @media (--md-down) {
+                @media (--lg-down) {
                     padding: 20px 12px;
                 }
 
@@ -120,7 +120,7 @@ header {
     }
 
     & .menu-icon.desktop-menu-icon {
-        @media (--md-down) {
+        @media (--lg-down) {
             display: none;
         }
     }
@@ -231,7 +231,7 @@ header {
         }
 
         & .contribute-wrapper {
-            @media (--md-down) {
+            @media (--lg-down) {
                 margin-top: 20px;
             }
         }
@@ -254,13 +254,17 @@ header {
                 display: flex;
                 align-items: center;
 
-                @media (--md-down) {
+                @media (--lg-down) {
                     display: none;
                 }
             }
 
             & .menu-wrapper {
                 position: relative;
+
+                @media (--lg-down) {
+                    display: none;
+                }
 
                 & .black-border {
                     border-bottom: 4px solid var(--black);
@@ -308,6 +312,13 @@ header {
                         margin-left: 15px;
                         margin-bottom: 20px;
 
+                        & .list-items-wrapper {
+                            div {
+                                display: flex;
+                                align-items: center;
+                            }
+                        }
+
                         & svg {
                             width: 16px;
                             height: 16px;
@@ -352,12 +363,12 @@ header {
                 color: var(--warm-grey);
                 margin-top: 20px;
 
-                @media (--md-down) {
+                @media (--lg-down) {
                     margin-left: 30px;
                     margin-bottom: 10px;
                 }
 
-                @media (--lg-up) {
+                @media (--xl-up) {
                     text-align: center;
                 }
             }
@@ -374,7 +385,7 @@ header {
                     padding-bottom: 0px;
                 }
 
-                @media (--lg-up) {
+                @media (--xl-up) {
                     display: none;
                 }
 
@@ -389,6 +400,19 @@ header {
                         padding-left: 30px;
                         margin-bottom: 8px;
 
+                        & .list-items-wrapper {
+                            @media (--lg-down) {
+                                display: flex;
+                                flex-direction: column;
+
+                                div {
+                                    display: flex;
+                                    align-items: end;
+                                    width: 400px;
+                                }
+                            }
+                        }
+
                         & svg {
                             width: 16px;
                             height: 16px;
@@ -400,15 +424,12 @@ header {
                         background: var(--lighter-grey);
 
                         & .border {
-                            border: 1px solid var(--blue);
+                            border-bottom: 1px solid var(--blue);
+                            width: 72px;
                             flex-basis: 20%;
                             display: inline-block;
                             margin-bottom: 8px;
                             margin-top: 2px;
-
-                            @media (--md-only) {
-                                flex-basis: 9%;
-                            }
                         }
 
                         & a {
@@ -434,7 +455,7 @@ header {
             transition: visibility 1s, opacity 1s;
             visibility: visible;
 
-            @media (--md-down) {
+            @media (--lg-down) {
                 flex-direction: column;
             }
         }
@@ -484,7 +505,7 @@ header {
     padding-left: 30px;
     width: fit-content;
 
-    @media (--lg-up) {
+    @media (--xl-up) {
         display: none;
     }
 
@@ -493,7 +514,7 @@ header {
         flex-basis: 93%;
         padding-top: 8px;
 
-        @media (--lg-up) {
+        @media (--xl-up) {
             display: none;
         }
     }
@@ -523,7 +544,7 @@ header {
     left: 0;
     width: 100%;
     height: 100%;
-    z-index: var(--middle-z-index);
+    z-index: var(--top-z-index);
     padding: var(--header-height) 0 0;
     pointer-events: none;
     transform: translateY(-100vh);
@@ -538,7 +559,7 @@ header {
         transition-duration: var(--transition-duration-slow);
         visibility: visible;
 
-        @media (--lg-up) {
+        @media (--xl-up) {
             display: none;
         }
 
@@ -559,7 +580,7 @@ header {
             border-bottom: 1px solid color-mod(var(--black) alpha(10%));
             margin: 0 30px;
 
-            @media (--lg-up) {
+            @media (--xl-up) {
                 display: none;
             }
         }
@@ -576,7 +597,7 @@ header {
         text-transform: uppercase;
         border-bottom: none;
 
-        @media (--md-down) {
+        @media (--lg-down) {
             padding-top: 0;
         }
 
