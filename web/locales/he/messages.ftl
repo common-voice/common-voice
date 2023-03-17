@@ -379,6 +379,7 @@ why-demographic = למה  זה משנה?
 accept-privacy = מקובל עלי האופן בו המידע הזה מטופל כפי שמפורט ב<privacyLink>מדיניות הפרטיות</privacyLink> של Mozilla
 accept-privacy-title = מדיניות פרטיות
 login-identity = זהות כניסה
+login = כניסה
 login-signup = כניסה / הרשמה
 edit = עריכה
 email-subscriptions = מינויי דוא״ל
@@ -736,6 +737,9 @@ login-to-get-started = על מנת להתחיל יש להיכנס או להיר�
 target-segment-add-voice = הוספת הקול שלך
 target-segment-learn-more = מידע נוסף
 
+## Contribution Nav Items
+
+
 ## Reporting
 
 report = דיווח
@@ -908,6 +912,7 @@ sc-footer-translate = תרגום עמוד זה
 sc-footer-report-copyright = דיווח על בעיות בזכויות יוצרים
 sc-footer-privacy = פרטיות
 sc-footer-cookies = עוגיות
+sc-login-signup-button = כניסה / הרשמה
 
 ## HOME
 
@@ -1009,6 +1014,7 @@ sc-lang-info-title-personal = פרטי
 
 ## LOGIN
 
+sc-login-err-failed = הכניסה נכשלה
 sc-login-err-try-again = נא לנסות שוב.
 
 ## PROFILE
