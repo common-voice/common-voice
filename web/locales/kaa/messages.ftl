@@ -141,6 +141,7 @@ add-language = Til qosıw
 
 ## How does it work section
 
+about-nav-get-involved = Qatnasıw
 
 ## Community Playbook Content
 ## What is a language
@@ -199,6 +200,7 @@ add-language = Til qosıw
 
 ## Contribution
 
+contribute = Úles qosıw
 
 ## Contribution Nav Items
 
