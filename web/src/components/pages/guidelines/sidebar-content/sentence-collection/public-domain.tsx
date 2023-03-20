@@ -9,6 +9,7 @@ export const PublicDomain: React.FC<SidebarContentProps> = ({
   id,
   contentVisible,
   toggleVisibleSection,
+  isMobileWidth,
 }) => {
   return (
     <div className="sidebar-content" id={id}>
@@ -25,7 +26,7 @@ export const PublicDomain: React.FC<SidebarContentProps> = ({
           className={classNames('chevron', { 'rotate-180': contentVisible })}
         />
       </div>
-      {contentVisible && (
+      {(contentVisible || !isMobileWidth) && (
         <div className="content-wrapper">
           <Localized
             id="public-domain-explanation-1"
