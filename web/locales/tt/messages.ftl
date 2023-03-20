@@ -755,6 +755,9 @@ other-datasets = Башка аудиоязма җыентыклары
 feedback-q = Тәнкыйть-тәкъдимнәрегез бармы?
 resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ — алдынгы ясалма интеллект модельләрен җитештерүче тикшеренүчеләр өчен <docsLink>ачык чыганак кодлы кораллар җыелмасы</docsLink>.
 resource-deepspeech-info = Mozilla-ның DeepSpeech исемле ачык чыганак кодлы сөйләм тану моторы, сөйләм тану кушымталарын төзү өчен кулланыла ала. DeepSpeech белән эшли башлау өчен, <githubLink>Github-тагы күзәтүне</githubLink> укыгыз яисә <discourseLink>DeepSpeech Discourse форумына</discourseLink> үтегез.
+resource-coqui-info = Coqui ачык сөйләм технологияләренә багышланган. Аларның проектлары арасында тирән өйрәнүгә нигезләнгән STT һәм TTS моторлары бар.
+community-playbook = Берләшмә өчен ярдәмлек
+resource-playbook-info = Common Voice-ның сайтын тәрҗемә итүдән башлап, тупланган аудиомәгълуматны куллануга кадәр Common Voice-ка бәйле барлык эшләр турында да <playbookLink>файдалы мәгълүмат алыгыз/playbookLink>.
 data-other-librispeech-description = LibriSpeech корпусы — LibriVox проекты кысаларында хасил булган аудиокитаплардан төзелгән, 16kHz ешлыкта яздырылган якынча 1000 сәгатьлек инглиз сөйләменнән гыйбарәт бер корпус.
 data-other-ted-name = «TED-LIUM» корпусы
 data-other-ted-description = «TED-LIUM» корпусы — TED веб-сәхифәсендәге чыгышларның аудиосыннан һәм аларның транскрипциясеннән төзелгән бер җыентык.
@@ -769,6 +772,9 @@ more = Күбрәк
 close = Ябу
 download = Йөкләү
 dataset-version = Версия
+sha256-checksum-copied = SHA256 контроль суммасы копияләнде!
+sha256-checksum-copied-error = SHA256 контроль суммасын копияләп булмады
+clipboard-not-supported = Алмашу буферы тәэмин ителми
 
 ## Download Modal
 
@@ -801,6 +807,7 @@ other-language = Башка тел
 
 ## Request Language Pages
 
+request-language-heading = Яңа тел өстәлүен сорау
 
 ## Languages Overview
 
