@@ -813,6 +813,24 @@ request-language-explanation-1 =
     телегез күрсәтелгәнме-юкмы икәнен тикшерегез.
     Юк икән, бу форманы тутырыгыз һәм без Сезгә <strong>телегезне
     ничек өстәп булганын аңлатучы практие бер эл. хат җибәрербез</strong>.
+request-language-explanation-2 =
+    Моннан тыш бу тел белән кызыксынганыгызны <strong>берләшмә җитәкчесенә дә  
+    белдерербез</strong>, һәм ул сезгә кирәкле 
+    өстәмә ярдәмне яки мәгълүматны бирә алачак.
+request-language-form-email =
+    .label = Эл. почта адресыгыз
+request-language-form-info =
+    .label = Тел турында мәгълүмат
+request-language-form-info-explanation =
+    Тел турында мөмкин кадәр күбрәк мәгълүмат өстәгез. Боларны
+    өстәргә була:
+request-language-form-info-explanation-list-1 = Телегезнең исемнәре
+request-language-form-info-explanation-list-2 = Билгеле булса <isoCodeLink>ISO кодлары</isoCodeLink>
+request-language-form-info-explanation-list-3 = Телне аңларга ярдәм итүче вебсайтларга сылтамалар
+request-language-google-recaptcha-required = Дәвам итәсегез килсә, reCAPTCHA таләп ителә
+request-language-google-recaptcha-error = reCAPTCHA белән нәрсәдер булды. Зинһар янәдән тырышып карагыз.
+# Success page
+request-language-success-heading = Рәхмәт! Яңа бер тел таләбен җибәрдегез
 
 ## Languages Overview
 
