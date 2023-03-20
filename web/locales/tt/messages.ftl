@@ -808,6 +808,11 @@ other-language = Башка тел
 ## Request Language Pages
 
 request-language-heading = Яңа тел өстәлүен сорау
+request-language-explanation-1 =
+    <languagesPageLink>Common Voice Телләре битендә</languagesPageLink>
+    телегез күрсәтелгәнме-юкмы икәнен тикшерегез.
+    Юк икән, бу форманы тутырыгыз һәм без Сезгә <strong>телегезне
+    ничек өстәп булганын аңлатучы практие бер эл. хат җибәрербез</strong>.
 
 ## Languages Overview
 
