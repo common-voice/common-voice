@@ -25,6 +25,7 @@ export const VaryingPronounciation: React.FC<SidebarContentProps> = ({
   id,
   contentVisible,
   toggleVisibleSection,
+  isMobileWidth,
 }) => (
   <div className="sidebar-content" id={id}>
     <span className="line" />
@@ -40,7 +41,7 @@ export const VaryingPronounciation: React.FC<SidebarContentProps> = ({
         className={classNames('chevron', { 'rotate-180': contentVisible })}
       />
     </div>
-    {contentVisible && (
+    {(contentVisible || !isMobileWidth) && (
       <div className="content-wrapper">
         <Localized id="varying-pronunciations-explanation-1">
           <p className="guidelines-content-explanation" />
