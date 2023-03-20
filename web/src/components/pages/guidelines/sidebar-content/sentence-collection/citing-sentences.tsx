@@ -12,6 +12,7 @@ export const CitingSentences: React.FC<SidebarContentProps> = ({
   id,
   contentVisible,
   toggleVisibleSection,
+  isMobileWidth,
 }) => {
   return (
     <div className="sidebar-content" id={id}>
@@ -28,7 +29,7 @@ export const CitingSentences: React.FC<SidebarContentProps> = ({
           className={classNames('chevron', { 'rotate-180': contentVisible })}
         />
       </div>
-      {contentVisible && (
+      {(contentVisible || !isMobileWidth) && (
         <div className="content-wrapper">
           <Localized id="citing-sentences-explanation-1">
             <p className="guidelines-content-explanation" />

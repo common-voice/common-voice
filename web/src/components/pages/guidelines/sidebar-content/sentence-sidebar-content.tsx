@@ -1,5 +1,6 @@
 import { Localized } from '@fluent/react';
 import * as React from 'react';
+import useIsMobileWidth from '../../../../hooks/use-is-mobile-width';
 
 import { sentenceGuidelineSections } from '../constants';
 import { handleToggleVisibleSection } from '../utils';
@@ -8,6 +9,8 @@ const SentenceSidebarContent = () => {
   const [visibleSections, setVisibleSections] = React.useState(
     sentenceGuidelineSections
   );
+
+  const isMobileWidth = useIsMobileWidth();
 
   const onToggleVisibleSection = (id: string) => {
     handleToggleVisibleSection({ id, visibleSections, setVisibleSections });
@@ -40,6 +43,7 @@ const SentenceSidebarContent = () => {
           key={section.id}
           contentVisible={section.visible}
           toggleVisibleSection={() => onToggleVisibleSection(section.id)}
+          isMobileWidth={isMobileWidth}
         />
       ))}
     </>
