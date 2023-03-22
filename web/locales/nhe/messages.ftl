@@ -397,7 +397,6 @@ profile-explanation = Realice un seguimiento de su progreso con un perfil y ayud
 thanks-for-account = Gracias por confirmar su cuenta, ahora vamos a crear su perfil.
 why-demographic = ¿Por qué importa esto?
 why-demographic-explanation-2 = Los datos de usuario anónimos, como la edad, el sexo y el acento, ayudan a mejorar los datos de audio utilizados para entrenar la precisión de los motores de reconocimiento de voz. Su nombre de usuario y correo electrónico nunca se asociarán con sus datos enviados, y puede elegir si desea que su nombre de usuario sea público o anónimo.
-accept-privacy = Estoy de acuerdo con que manejes esta información como explicas en la <privacyLink>Política de privacidad</privacyLink> de Mozilla.
 accept-privacy-title = política de privacidad
 accept-privacy-and-terms = Acepto los <termsLink>Términos</termsLink> y el <privacyLink>Aviso de privacidad</privacyLink> de Common Voice
 login-identity = Identidad de inicio de sesión
@@ -677,6 +676,8 @@ request-language-form-language =
 ## Request Language Pages
 
 request-language-heading = Ni neki se yankhik idioma
+request-language-form-info-explanation-list-2 = <isoCodeLink>ISO Codes</isoCodeLink> tla ashtimati
+request-language-form-info-explanation-list-3 = Paginas web then hueli techpalehuis ti cuamachilise mo idioma.
 # Success page
 request-language-success-heading = ¡Gracias! Ha enviado una nueva consulta de idioma
 
@@ -879,7 +880,7 @@ demo-language-select-label = Explorar idiomas
 demo-account-card-body = A la derecha describimos los beneficios y aclaramos qué información hacemos pública. Use los enlaces a continuación para comenzar con una cuenta de Common Voice en su propio dispositivo.
 demo-account-enter-email =
     .label = Ingrese el correo electrónico para enviar un enlace de registro
-demo-account-sign-up = Ti titlanise enlace ipan registro
+demo-account-sign-up = Ti titlanise se enlace ipan registro
 
 ## Demo Contribute
 
@@ -1127,7 +1128,7 @@ why-donate-explanation-2 = Para que la tecnología funcione bien para todos, los
 add-information-button = Añadir información
 continue-speaking-button = No gracias, sigue hablando
 thanks-for-voice-toast = Gracias por la información de tu voz.
-thanks-for-voice-toast-error = Se produjo un error al enviar la información de su voz
+thanks-for-voice-toast-error = Tipian se error kema ti tilanihe mo información de voz
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = ¡Gracias por aportar tu voz!
 second-cta-subtitle-text = Con un perfil, puede realizar un seguimiento de su actividad y conectarse con una comunidad de colaboradores de datos de voz.
