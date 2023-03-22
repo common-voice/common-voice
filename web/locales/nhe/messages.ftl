@@ -222,7 +222,7 @@ speak = Camatise
 speak-now = Camatise nama
 datasets = Datasets
 languages = Idiomas
-about = Acerca de
+about = Ipan Common Voice
 partner = Partner
 profile = Perfil
 help = Tlapaleuistli
@@ -445,6 +445,7 @@ faq-why-important-a =
     
     Para hacer que el reconocimiento de voz sea aún más universal, recopilamos muestras de voz en los idiomas más hablados, así como en aquellos con una población de hablantes más pequeña, a menudo desatendidos por los servicios comerciales de reconocimiento de voz. La publicación de un conjunto de datos diverso de voces permitirá a los desarrolladores, empresarios y comunidades de habla completas abordar esta brecha por sí mismos.
 faq-how-get-q = ¿Cómo puedo obtener los datos de Common Voice?
+faq-how-get-a = El conjunto de datos de Common Voice está disponible para su descarga bajo la licencia <licenseLink>CC0</licenseLink> en <datasetLink>nuestra página de Conjuntos de datos</datasetLink>. También puede descargar otros conjuntos de datos disponibles públicamente desde la misma página.
 faq-when-release2-q = ¿Cuándo publicará los datos de Common Voice en otros idiomas?
 faq-why-mission-q = ¿Por qué Common Voice es parte de la misión de Mozilla?
 faq-why-mission-a = Mozilla se dedica a mantener la web abierta y accesible para todos. Para hacer eso, necesitamos empoderar a los creadores web a través de proyectos como Common Voice. A medida que las tecnologías de voz proliferan más allá de las aplicaciones de nicho, creemos que deben servir a todos los usuarios por igual. Eso significa invertir en más idiomas y adaptarse a diversos acentos y datos demográficos al crear y probar tecnologías de voz. Common Voice es un recurso público disponible para todos y los equipos y desarrolladores de Mozilla de todo el mundo ya lo están utilizando también en nuestros propios proyectos.
@@ -466,6 +467,10 @@ faq-why-account-q = ¿Por qué debo registrarme para obtener una cuenta?
 faq-is-account-public-q = ¿La información de mi cuenta es pública?
 faq-how-privacy-q = ¿Cómo garantizan el anonimato y la privacidad de las personas que donaron sus voces?
 faq-how-privacy-a = Todos los clips de voz en el conjunto de datos se eliminan de la información de identificación personal. Cuando un colaborador proporciona datos demográficos a través de su perfil, esa información se desidentifica de sus clips de voz antes de agruparse para su descarga en el conjunto de datos y nunca se hace pública en su página de perfil.
+faq-what-determine-identity-a =
+    El conjunto de datos de Common Voice es un recurso abierto y disponible públicamente que se puede usar para entrenar una amplia variedad de aplicaciones habilitadas para el habla. Para proteger la seguridad de nuestros colaboradores, pedimos a todos los que descargan el conjunto de datos de Common Voice que respeten la privacidad de los colaboradores.
+    
+    Todos los clips de voz en el conjunto de datos se eliminan de la información de identificación personal. Cuando descarga el conjunto de datos, acepta no intentar determinar la identidad de ningún colaborador. Eso significa que no puede intentar vincular la información del conjunto de datos con la información personal de un colaborador. Sin embargo, puede usar el conjunto de datos para entrenar el reconocimiento de voz, el reconocimiento de hablantes u otras aplicaciones, por ejemplo, vinculando información en el conjunto de datos con otra información que ya se encuentra en el conjunto de datos.
 faq-what-is-cv = ¿Que is Common Voice?
 faq-using-cv = Usando Common Voice
 faq-search-for-answers =
@@ -474,6 +479,9 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = ¿Por que Common Voice?
+about-header-description-v2 =
+    <p>Common Voice es un conjunto de datos de voz disponible públicamente, impulsado por las voces de colaboradores voluntarios de todo el mundo. Las personas que quieran crear aplicaciones de voz pueden usar el conjunto de datos para entrenar modelos de aprendizaje automático.</p>
+    <p>Actualmente, la mayoría de los conjuntos de datos de voz son propiedad de empresas, lo que sofoca la innovación. Los conjuntos de datos de voz también subrepresentan: personas que no hablan inglés, personas de color, personas discapacitadas, mujeres y personas LGBTQIA+. Esto significa que la tecnología habilitada por voz no funciona en absoluto para muchos idiomas, y donde funciona, es posible que no funcione igual de bien para todos. Queremos cambiar eso al movilizar a las personas en todas partes para que compartan su voz.</p>
 how-does-it-work-title-v2 = ¿Como funciona Common Voice?
 how-does-it-work-text = Estamos colaborando con un conjunto de datos de voces de código abierto. Done su voz, valide la precisión de los clips de otras personas, mejore el conjunto de datos para todos.
 
@@ -816,6 +824,10 @@ keep = Mantener
 remove = Eliminar
 keep-info = Sus grabaciones de voz anónimas permanecerán en el conjunto de datos de Common Voice. Una vez que elimine su perfil, ya no podrá enviar una solicitud para eliminar sus grabaciones del conjunto de datos.
 remove-info = Revisaremos su solicitud para eliminar sus grabaciones de voz del conjunto de datos. Si se aprueba su solicitud, nos pondremos en contacto con quienes descargaron el conjunto de datos y les solicitaremos que también eliminen sus grabaciones de voz.
+why-delete-recordings =
+    Las grabaciones de Common Voice son utilizadas por académicos, pequeñas empresas y entusiastas del reconocimiento de voz para ayudar a capacitar y hacer crecer los recursos disponibles públicamente, como los modelos de voz.
+    
+    ¿Puede decirnos por qué desea que se eliminen sus grabaciones?
 profile-form-delete = Borrar perfil
 
 ## Profile Download
@@ -856,6 +868,7 @@ demo-welcome-subheader = ¿Interesado en aprender más y contribuir al proyecto?
 
 ## Demo Datasets
 
+demo-language-select-card-header = Common Voice es el conjunto de datos de voz en varios idiomas disponible públicamente más grande del mundo.
 card-button-next = Próximo
 card-button-back = Atrás
 demo-language-select-label = Explorar idiomas
