@@ -213,6 +213,7 @@ zh-CN = خەنزۇچە(جۇڭگو)
 zh-HK = خەنزۇچە(شياڭگاڭ)
 zh-TW = خەنزۇچە(تەيۋەن)
 zu = زۇلۇچە
+zza = زازاچە
 
 # [/]
 
@@ -224,6 +225,7 @@ speak-now = سۆزلەڭ
 datasets = سانلىق-مەلۇمات توپلىمى
 languages = تىللار
 about = ھەققىدە
+partner = ھەمكارلاشقۇچى
 profile = تەرجىمىھال
 help = ياردەم
 contact = ئالاقىلىشىڭ
@@ -265,7 +267,7 @@ hours-recorded = ئۈنگە ئېلىنغان سائەت
 hours-validated = دەلىللەنگەن سائەت
 voices-online = توردىكى ئاۋازلار
 todays-progress = بۈگۈنكى ئىلگىرىلەش
-help-reach-goal = { $goal }غا يېتىشىمىزغا ياردەم قىلىڭ
+help-reach-goal = { $goal } گە يېتىشىمىزگە ياردەم قىلىڭ
 read-terms-q = بىزنىڭ شەرتلىرىمىزنى ئوقۇدىڭىزمۇ؟
 ready-to-record = ئاۋازىڭىزنى ئىئانە قىلىشقا تەييارمۇ؟
 all-locales = ھەممىسى
