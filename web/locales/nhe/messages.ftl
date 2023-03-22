@@ -12,7 +12,6 @@ email-opt-in-info = Ninekiskia xinechtitlanilij emails ipan tlen tinekin tichihu
 email-opt-in-info-title = Xitechpalehui ipan Common Voice timitz tlalise ipan mailing list.
 email-opt-in-info-sub-with-challenge = Ninekiskia xinechtitlanilij emails ipan tlen tinekin tichihuase, then tichiheia ,tlen ticonchiheia huan huan yankhuik tlatoli then Common Voice.
 email-opt-in-privacy-v2 = Al optar por recibir correos electrónicos, declara que está de acuerdo con que Mozilla maneje esta información como se explica en la <privacyLink>Política de privacidad</privacyLink> de Mozilla.
-indicates-required = Se requieren campos marcados con un asterisco (*).
 not-available-abbreviation = N/A
 banner-error-slow-1 = Lo sentimos, Common Voice se está ejecutando lentamente. Gracias por tu interés.
 banner-error-slow-2 = We're receiving a lot of traffic and are currently investigating the issues.
@@ -676,6 +675,8 @@ request-language-form-language =
 ## Request Language Pages
 
 request-language-heading = Ni neki se yankhik idioma
+request-language-explanation-2 = Ipan <strong> kimatis to community manager then to comunidad ipan ta tineki titepaleuis</strong, ipan huelis mitsmakas apoyo o informacion tlen huelis titekihuis
+request-language-form-info-explanation = Shi tlali nochi infomacion then hueli ipan mo idioma.Ni hueli kipias
 request-language-form-info-explanation-list-2 = <isoCodeLink>ISO Codes</isoCodeLink> tla ashtimati
 request-language-form-info-explanation-list-3 = Paginas web then hueli techpalehuis ti cuamachilise mo idioma.
 # Success page
