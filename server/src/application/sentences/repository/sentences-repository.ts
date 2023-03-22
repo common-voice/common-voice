@@ -124,16 +124,21 @@ const findSentencesForReview =
           WHERE 
             sentences.is_validated = FALSE         
             AND sentences.locale_id = ?
-            AND NOT EXISTS (SELECT *
+            AND NOT EXISTS (
+              SELECT *
               FROM sentence_votes
-              WHERE sentences.id = sentence_votes.sentence_id AND sentence_votes.client_id = ?)
+              LEFT JOIN skipped_sentences ON skipped_sentences.sentence_id=sentences.id
+              WHERE 
+                sentences.id = sentence_votes.sentence_id
+                AND (sentence_votes.client_id = ? OR skipped_sentences.client_id = ?)
+            )
           GROUP BY sentences.id
           HAVING
             number_of_votes < 2 OR # not enough votes yet
             number_of_votes = 2 AND number_of_approving_votes = 1 # a tie at one each
-          ORDER BY number_of_votes DESC
-          LIMIT 50`,
-          [queryParams.localeId, queryParams.clientId]
+          LIMIT 50
+        `,
+          [queryParams.localeId, queryParams.clientId, queryParams.clientId]
         )
       ),
       TO.map(mapRowToSentence)
