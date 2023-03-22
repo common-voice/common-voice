@@ -220,7 +220,7 @@ zza = Zazo
 speak = Camatise
 speak-now = Camatise nama
 datasets = Datasets
-languages = Idiomas
+languages = Tlatojlme
 about = Ipan Common Voice
 partner = Partner
 profile = Perfil
@@ -675,6 +675,7 @@ request-language-form-language =
 ## Request Language Pages
 
 request-language-heading = Ni neki se yankhik idioma
+request-language-explanation-1 = Shikita tla mo idioma huala ipan lista tlen <languagesPageLink> Lista de idiomas Common Voice </languagesPageLink>.Tlan ashkana huala,shitekihio no formulario huan tohuanti ti <strong>timitstitlanise se email ipan tikuamachulis kenikatsa titlalis mo idioma</strong>.
 request-language-explanation-2 = Ipan <strong> kimatis to community manager then to comunidad ipan ta tineki titepaleuis</strong, ipan huelis mitsmakas apoyo o informacion tlen huelis titekihuis
 request-language-form-info-explanation = Shi tlali nochi infomacion then hueli ipan mo idioma.Ni hueli kipias
 request-language-form-info-explanation-list-2 = <isoCodeLink>ISO Codes</isoCodeLink> tla ashtimati
