@@ -1,13 +1,13 @@
-export const PendingSentencesRepositoryErrorKind = 'PendingSentencesRepository'
-export const PendingSentenceValidationKind = 'PendingSentenceValidation'
+export const SentencesRepositoryErrorKind = 'PendingSentencesRepository'
+export const SentenceValidationKind = 'PendingSentenceValidation'
 export const ValidationKind = 'Validation'
 export const DatabaseError = 'DatabaseError'
 export const Other = 'Other'
 
 export const ApplicationErrorKinds = [
   ValidationKind,
-  PendingSentencesRepositoryErrorKind,
-  PendingSentenceValidationKind,
+  SentencesRepositoryErrorKind,
+  SentenceValidationKind,
   DatabaseError,
   Other,
 ] as const

@@ -4,33 +4,57 @@ import { MysqlError } from 'mysql2Types'
 import { PendingSentence } from '../../../core/pending-sentences/types'
 import { PendingSentencesForReviewRow } from '../../../infrastructure/db/types'
 import Mysql, { getMySQLInstance } from '../../../lib/model/db/mysql'
+import { createSentenceId } from '../../../lib/utility'
 import { createPendingSentencesRepositoryError } from '../../helper/error-helper'
 import { ApplicationError } from '../../types/error'
-import { PendingSentenceSubmission } from '../../types/pending-sentence-submission'
+import { SentenceSubmission } from '../../types/sentence-submission'
+
+const mysql2 = require('mysql2/promise')
 
 const db = getMySQLInstance()
 
 const DUPLICATE_KEY_ERR = 1062
 
+const insertSentenceTransaction = async (
+  db: Mysql,
+  sentence: SentenceSubmission
+) => {
+  const sentenceId = createSentenceId(sentence.sentence, sentence.locale_id)
+  console.log(sentenceId)
+  const conn = await mysql2.createConnection(db.getMysqlOptions())
+
+  try {
+    await conn.beginTransaction()
+    await conn.query(
+      `
+        INSERT INTO sentences (id, text, source, locale_id)
+        VALUES (?, ?, ?, ?);
+     `,
+      [sentenceId, sentence.sentence, sentence.source, sentence.locale_id]
+    )
+    await conn.query(
+      `
+        INSERT INTO sentence_metadata(sentence_id, client_id)
+        VALUES (?, ?);
+     `,
+      [sentenceId, sentence.client_id]
+    )
+    await conn.commit()
+  } catch (err) {
+    await conn.rollback()
+    throw err
+  } finally {
+    await conn.end()
+  }
+}
+
 const insertSentence =
   (db: Mysql) =>
   (
-    sentenceSubmission: PendingSentenceSubmission
+    sentenceSubmission: SentenceSubmission
   ): TE.TaskEither<ApplicationError, unknown> => {
     return TE.tryCatch(
-      () =>
-        db.query(
-          `
-            INSERT INTO pending_sentences (sentence, source, locale_id, client_id)
-            VALUES (?, ?, ?, ?);
-        `,
-          [
-            sentenceSubmission.sentence,
-            sentenceSubmission.source,
-            sentenceSubmission.locale_id,
-            sentenceSubmission.client_id,
-          ]
-        ),
+      () => insertSentenceTransaction(db, sentenceSubmission),
       (err: MysqlError) => {
         if (err.errno && err.errno === DUPLICATE_KEY_ERR) {
           return createPendingSentencesRepositoryError(
@@ -116,4 +140,5 @@ const findPendingSentencesForReview =
 
 export const insertSentenceIntoDb = insertSentence(db)
 export const insertPendingSentenceVoteIntoDb = insertPendingSentenceVote(db)
-export const findPendingSentencesForReviewInDb = findPendingSentencesForReview(db)
+export const findPendingSentencesForReviewInDb =
+  findPendingSentencesForReview(db)
