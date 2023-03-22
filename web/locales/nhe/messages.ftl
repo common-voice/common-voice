@@ -478,11 +478,11 @@ faq-search-for-answers =
 
 ## ABOUT US
 
-about-title = ¿Por que Common Voice?
+about-title = ¿Kenke Common Voice?
 about-header-description-v2 =
     <p>Common Voice es un conjunto de datos de voz disponible públicamente, impulsado por las voces de colaboradores voluntarios de todo el mundo. Las personas que quieran crear aplicaciones de voz pueden usar el conjunto de datos para entrenar modelos de aprendizaje automático.</p>
     <p>Actualmente, la mayoría de los conjuntos de datos de voz son propiedad de empresas, lo que sofoca la innovación. Los conjuntos de datos de voz también subrepresentan: personas que no hablan inglés, personas de color, personas discapacitadas, mujeres y personas LGBTQIA+. Esto significa que la tecnología habilitada por voz no funciona en absoluto para muchos idiomas, y donde funciona, es posible que no funcione igual de bien para todos. Queremos cambiar eso al movilizar a las personas en todas partes para que compartan su voz.</p>
-how-does-it-work-title-v2 = ¿Como funciona Common Voice?
+how-does-it-work-title-v2 = ¿Keni katsa tekiti Common Voice?
 how-does-it-work-text = Estamos colaborando con un conjunto de datos de voces de código abierto. Done su voz, valide la precisión de los clips de otras personas, mejore el conjunto de datos para todos.
 
 ## How does it work section
