@@ -16,7 +16,7 @@ export default async (req: Request, res: Response) => {
   return pipe(
     command,
     addSentenceVoteCommandHandler,
-    // TE.mapLeft(createPresentableError),
+    TE.mapLeft(createPresentableError),
     TE.fold(
       err => T.of(res.status(StatusCodes.INTERNAL_SERVER_ERROR).json(err)),
       () => T.of(res.sendStatus(StatusCodes.OK))
