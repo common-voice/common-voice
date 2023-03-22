@@ -5,7 +5,6 @@ import { createDatabaseError } from '../../helper/error-helper'
 import { ApplicationError } from '../../types/error'
 import {
   REPORTED_CLIP,
-  REPORTED_PENDING_SENTENCE,
   ReportKind,
   REPORTED_SENTENCE,
 } from '../use-case/command-handler/command/create-report-command'
@@ -28,11 +27,6 @@ const getTableInfoFrom = (kind: ReportKind): ReportTableInfo => {
       return {
         table: 'reported_sentences',
         column: 'sentence_id',
-      }
-    case REPORTED_PENDING_SENTENCE:
-      return {
-        table: 'reported_pending_sentences',
-        column: 'pending_sentence_id',
       }
   }
 }
