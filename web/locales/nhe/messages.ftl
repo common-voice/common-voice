@@ -6,7 +6,7 @@ privacy-info = Tlatitejmaka tipiaze cuidado ipan mo informacion.Shi tlachia ipan
 return-to-cv = Ti mokuapase Common Voice
 email-input =
     .label = email
-submit-form-action = enviar
+submit-form-action = Titlanise
 loading = Cargando...
 email-opt-in-info = Ninekiskia xinechtitlanilij emails ipan tlen tinekin tichihuase, then tichiheia ,tlen ticonchiheia huan huan yankhuik tlatoli then Common Voice.
 email-opt-in-info-title = Xitechpalehui ipan Common Voice timitz tlalise ipan mailing list.
@@ -336,7 +336,7 @@ shortcut-rerecord-toggle-label = Regrabar clip
 shortcut-discard-ongoing-recording = ESC
 shortcut-discard-ongoing-recording-label = Descartar grabación en curso
 shortcut-submit = Timo cuapase
-shortcut-submit-label = Enviar clips
+shortcut-submit-label = Titlanise clips
 request-language-text = ¿Todavía no ve su idioma en Common Voice?
 request-language-button = Solicitar un idioma
 
@@ -611,7 +611,7 @@ data-download-singleword-callout-v2 = Este es un segmento basado en casos de uso
 terms-agree = Estoy de acuerdo
 terms-disagree = No estoy de acuerdo
 review-aborted = Carga abortada. ¿Quieres borrar tus grabaciones?
-review-submit-title = Revisar y enviar
+review-submit-title = TiTlachilise wa titlanise
 review-recording = Revisar
 review-rerecord = volver a grabar
 review-cancel = Cancelar envío
@@ -676,6 +676,7 @@ request-language-form-language =
 
 ## Request Language Pages
 
+request-language-heading = Ni neki se yankhik idioma
 # Success page
 request-language-success-heading = ¡Gracias! Ha enviado una nueva consulta de idioma
 
@@ -716,7 +717,7 @@ review-instruction = Revisar y volver a grabar clips si es necesario
 clips-uploaded = Clips subidos
 record-abort-title = ¿Terminar de grabar primero?
 record-abort-text = Si te vas ahora, perderás tu progreso.
-record-abort-submit = Enviar clips
+record-abort-submit = Titlanise clips
 record-abort-continue = Terminar de grabar
 record-abort-delete = Salir y eliminar clips
 listen-empty-state = Es posible que nos hayamos quedado sin clips: actualice la página o vuelva a intentarlo más tarde.
@@ -878,7 +879,7 @@ demo-language-select-label = Explorar idiomas
 demo-account-card-body = A la derecha describimos los beneficios y aclaramos qué información hacemos pública. Use los enlaces a continuación para comenzar con una cuenta de Common Voice en su propio dispositivo.
 demo-account-enter-email =
     .label = Ingrese el correo electrónico para enviar un enlace de registro
-demo-account-sign-up = Enviar enlace de registro
+demo-account-sign-up = Ti titlanise enlace ipan registro
 
 ## Demo Contribute
 
@@ -1026,7 +1027,7 @@ sc-submit-ph-one-per-line =
 sc-submit-ph-read-how-to =
     .placeholder = Lea nuestro Cómo hacerlo si no está seguro de cómo atribuirlo.(masculino)
 sc-submit-button =
-    .submitText = enviar
+    .submitText = Titlanise
 sc-submit-filtered = Oraciones filtradas debido a que fallan los requisitos (envíe versiones corregidas como nuevas oraciones):
 
 ## ADD LANGUAGE
