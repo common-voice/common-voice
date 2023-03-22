@@ -34,7 +34,7 @@ import validate, {
   datasetSchema,
 } from './validation';
 import Statistics from './statistics';
-import SentenceCollectorRouter from '../api/pending-sentences';
+import SentencesRouter from '../api/sentences';
 import { reportsRouter } from '../api/reports/routes';
 
 export default class API {
@@ -102,7 +102,7 @@ export default class API {
       this.sendLanguageRequest
     );
     router.use('/statistics', this.statistics.getRouter());
-    router.use('/pending_sentences', SentenceCollectorRouter);
+    router.use('/sentences', SentencesRouter);
 
     router.get(
       '/:locale/sentences',

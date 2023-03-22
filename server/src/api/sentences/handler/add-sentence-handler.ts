@@ -2,11 +2,11 @@ import { Request, Response } from 'express'
 import * as TE from 'fp-ts/TaskEither'
 import * as T from 'fp-ts/Task'
 import { pipe } from 'fp-ts/function'
-import AddPendingSentenceCommandHandler from '../../../application/pending-sentences/use-case/command-handler/add-pending-sentence-command-handler'
-import { AddPendingSentenceCommand } from '../../../application/pending-sentences/use-case/command-handler/command/add-pending-sentence-command'
+import { AddSentenceCommandHandler } from '../../../application/sentences/use-case/command-handler/add-sentence-command-handler'
+import { AddSentenceCommand } from '../../../application/sentences/use-case/command-handler/command/add-sentence-command'
 import {
-  PendingSentencesRepositoryErrorKind,
-  PendingSentenceValidationKind,
+  SentencesRepositoryErrorKind,
+  SentenceValidationKind,
 } from '../../../application/types/error'
 import { createPresentableError } from '../../../application/helper/error-helper'
 import { StatusCodes } from 'http-status-codes'
@@ -14,7 +14,7 @@ import { StatusCodes } from 'http-status-codes'
 export default async (req: Request, res: Response) => {
   const { sentence, localeId, localeName, source } = req.body
 
-  const command: AddPendingSentenceCommand = {
+  const command: AddSentenceCommand = {
     clientId: req.client_id,
     sentence: sentence,
     localeId: localeId,
@@ -23,15 +23,16 @@ export default async (req: Request, res: Response) => {
   }
 
   return pipe(
-    AddPendingSentenceCommandHandler(command),
+    AddSentenceCommandHandler(command),
     TE.mapLeft(createPresentableError),
     TE.fold(
       err => {
+        console.log(err);
         switch (err.kind) {
-          case PendingSentencesRepositoryErrorKind: {
+          case SentencesRepositoryErrorKind: {
             return T.of(res.status(StatusCodes.INTERNAL_SERVER_ERROR).json(err))
           }
-          case PendingSentenceValidationKind:
+          case SentenceValidationKind:
             return T.of(res.status(StatusCodes.BAD_REQUEST).json(err))
         }
       },

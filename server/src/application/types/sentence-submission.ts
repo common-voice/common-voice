@@ -1,4 +1,4 @@
-export type PendingSentenceSubmission = {
+export type SentenceSubmission = {
   sentence: string;
   source: string;
   locale_id: number;

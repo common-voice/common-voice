@@ -1,6 +1,6 @@
 import { AllowedSchema } from 'express-json-validator-middleware'
 
-export const AddPendingSentenceRequest: AllowedSchema = {
+export const AddSentenceRequest: AllowedSchema = {
   type: 'object',
   required: ['sentence', 'source', 'localeId', 'localeName'],
   properties: {
