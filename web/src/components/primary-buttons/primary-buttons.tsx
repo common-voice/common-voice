@@ -11,22 +11,25 @@ export const PrimaryButton = ({
   to,
   trackClass,
   ...props
-}: { to?: string; trackClass?: string } & React.ButtonHTMLAttributes<any>) => (
-  <div
-    className={[
-      'primary-button',
-      className,
-      props.disabled ? 'disabled' : '',
-      trackClass ? getTrackClass('fs', trackClass) : '',
-    ].join(' ')}>
-    {to ? (
-      <LocaleLink to={to} {...props} />
-    ) : (
-      <button type="button" {...props} />
-    )}
-    <div className="background" />
-  </div>
-);
+}: { to?: string; trackClass?: string } & React.ButtonHTMLAttributes<any>) => {
+  console.log({ disabled: props.disabled });
+  return (
+    <div
+      className={[
+        'primary-button',
+        className,
+        props.disabled ? 'disabled' : '',
+        trackClass ? getTrackClass('fs', trackClass) : '',
+      ].join(' ')}>
+      {to ? (
+        <LocaleLink to={to} {...props} />
+      ) : (
+        <button type="button" {...props} />
+      )}
+      <div className="background" />
+    </div>
+  );
+};
 
 export type RecordingStatus = null | 'waiting' | 'recording';
 
@@ -62,9 +65,10 @@ export const PlayButton = ({
   isPlaying,
   trackClass,
   ...props
-}: { isPlaying: boolean; trackClass?: string } & React.ButtonHTMLAttributes<
-  any
->) => (
+}: {
+  isPlaying: boolean;
+  trackClass?: string;
+} & React.ButtonHTMLAttributes<any>) => (
   <PrimaryButton
     className={isPlaying ? 'stop' : 'play'}
     trackClass={trackClass}
