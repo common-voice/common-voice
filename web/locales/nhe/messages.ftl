@@ -336,7 +336,7 @@ shortcut-discard-ongoing-recording = ESC
 shortcut-discard-ongoing-recording-label = Descartar grabación en curso
 shortcut-submit = Timo cuapase
 shortcut-submit-label = Titlanise clips
-request-language-text = ¿Todavía no ve su idioma en Common Voice?
+request-language-text = ¿Ashtikita mo idioma ipan Common Voice?
 request-language-button = Solicitar un idioma
 
 ## ProjectStatus
