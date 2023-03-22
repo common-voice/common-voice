@@ -2,8 +2,8 @@ import { Request, Response } from 'express'
 import { pipe } from 'fp-ts/lib/function'
 import { task as T, taskEither as TE } from 'fp-ts'
 import { StatusCodes } from 'http-status-codes'
-import { addPendingSentenceVoteCommandHandler } from '../../../application/pending-sentences/use-case/command-handler/add-pending-sentence-vote-command-handler'
-import { AddPendingSentenceVoteCommand } from '../../../application/pending-sentences/use-case/command-handler/command/add-pending-sentence-vote-command'
+import { addPendingSentenceVoteCommandHandler } from '../../../application/sentences/use-case/command-handler/add-pending-sentence-vote-command-handler'
+import { AddPendingSentenceVoteCommand } from '../../../application/sentences/use-case/command-handler/command/add-pending-sentence-vote-command'
 import { createPresentableError } from '../../../application/helper/error-helper'
 
 export default async (req: Request, res: Response) => {

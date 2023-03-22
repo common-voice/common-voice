@@ -1,7 +1,7 @@
 import { Request, Response } from 'express'
 import { StatusCodes } from 'http-status-codes'
-import { GetPendingSentenceQueryHandler } from '../../../application/pending-sentences/use-case/query-handler/get-pending-sentence-query-handler'
-import { GetPendingSentencesQuery } from '../../../application/pending-sentences/use-case/query-handler/query/get-pending-sentences-query'
+import { GetPendingSentenceQueryHandler } from '../../../application/sentences/use-case/query-handler/get-pending-sentence-query-handler'
+import { GetPendingSentencesQuery } from '../../../application/sentences/use-case/query-handler/query/get-pending-sentences-query'
 
 export default async (req: Request, res: Response) => {
   const query: GetPendingSentencesQuery = {
