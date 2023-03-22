@@ -28,6 +28,7 @@ export const up = async function (db: any): Promise<any> {
       created_at DATETIME NOT NULL DEFAULT NOW(),
       updated_at DATETIME NOT NULL DEFAULT NOW(),
       PRIMARY KEY (id),
+      UNIQUE KEY unique_vote (sentence_id, client_id),
       FOREIGN KEY (sentence_id) REFERENCES sentences(id) ON DELETE CASCADE,
       FOREIGN KEY (client_id) REFERENCES user_clients(client_id) ON DELETE CASCADE
     )
