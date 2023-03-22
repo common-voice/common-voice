@@ -1,27 +1,27 @@
-import addPendingSentenceHandler from './handler/add-sentence-handler'
+import addSentenceHandler from './handler/add-sentence-handler'
 import PromiseRouter from 'express-promise-router'
 import {
   AddSentenceRequest,
-  AddPendingSentenceVoteRequest,
+  AddSentenceVoteRequest,
   GetSentencesForReviewRequest,
 } from './validation/pending-sentences-requests'
 import validate, { validateStrict } from '../../lib/validation'
-import getPendingSentenceHandler from './handler/get-sentences-for-review-handler'
-import addPendingSentenceVoteHandler from './handler/add-pending-sentence-vote-handler'
+import getSentenceHandler from './handler/get-sentences-for-review-handler'
+import addSentenceVoteHandler from './handler/add-sentence-vote-handler'
 
 export default PromiseRouter({ mergeParams: true })
   .post(
     '/',
     validateStrict({ body: AddSentenceRequest }),
-    addPendingSentenceHandler
+    addSentenceHandler
   )
   .post(
     '/vote',
-    validateStrict({ body: AddPendingSentenceVoteRequest }),
-    addPendingSentenceVoteHandler
+    validateStrict({ body: AddSentenceVoteRequest }),
+    addSentenceVoteHandler
   )
   .get(
     '/review',
     validate({ query: GetSentencesForReviewRequest }),
-    getPendingSentenceHandler
+    getSentenceHandler
   )
