@@ -1,8 +1,8 @@
 import { taskEither as TE, taskOption as TO } from 'fp-ts'
 import { pipe } from 'fp-ts/lib/function'
 import { MysqlError } from 'mysql2Types'
-import { PendingSentence } from '../../../core/pending-sentences/types'
-import { PendingSentencesForReviewRow } from '../../../infrastructure/db/types'
+import { Sentence } from '../../../core/sentences/types'
+import { SentencesForReviewRow } from '../../../infrastructure/db/types'
 import Mysql, { getMySQLInstance } from '../../../lib/model/db/mysql'
 import { createSentenceId } from '../../../lib/utility'
 import { createPendingSentencesRepositoryError } from '../../helper/error-helper'
@@ -94,38 +94,40 @@ const insertPendingSentenceVote =
     )
   }
 
-const mapRowToPendingSentence = ([pendingSentenceRows]: [
-  [PendingSentencesForReviewRow]
-]): PendingSentence[] =>
+const mapRowToSentence = ([pendingSentenceRows]: [
+  [SentencesForReviewRow]
+]): Sentence[] =>
   pendingSentenceRows.map(row => ({
-    sentence: row.sentence,
+    sentence: row.text,
     source: row.source,
     localeId: row.locale_id,
   }))
 
-const findPendingSentencesForReview =
+const findSentencesForReview =
   (db: Mysql) =>
   (queryParams: {
     localeId: number
     clientId: string
-  }): TO.TaskOption<PendingSentence[]> => {
+  }): TO.TaskOption<Sentence[]> => {
     return pipe(
       TO.tryCatch(() =>
         db.query(
           `SELECT
-            pending_sentences.id,
-            pending_sentences.sentence,
-            pending_sentences.source,
-            pending_sentences.locale_id,
-            SUM(pending_sentences_votes.is_valid) as number_of_approving_votes,
-            COUNT(pending_sentences_votes.is_valid) as number_of_votes
-          FROM pending_sentences
-          LEFT JOIN pending_sentences_votes ON (pending_sentences_votes.pending_sentence_id=pending_sentences.id)
-          WHERE pending_sentences.locale_id = ?
+            sentences.id,
+            sentences.text,
+            sentences.source,
+            sentences.locale_id,
+            SUM(sentence_votes.vote) as number_of_approving_votes,
+            COUNT(sentence_votes.vote) as number_of_votes
+          FROM sentences
+          LEFT JOIN sentence_votes ON (sentence_votes.sentence_id=sentences.id)
+          WHERE 
+            sentences.is_validated = FALSE         
+            AND sentences.locale_id = ?
             AND NOT EXISTS (SELECT *
-              FROM pending_sentences_votes
-              WHERE pending_sentences.id = pending_sentences_votes.pending_sentence_id AND pending_sentences_votes.client_id = ?)
-          GROUP BY pending_sentences.id
+              FROM sentence_votes
+              WHERE sentences.id = sentence_votes.sentence_id AND sentence_votes.client_id = ?)
+          GROUP BY sentences.id
           HAVING
             number_of_votes < 2 OR # not enough votes yet
             number_of_votes = 2 AND number_of_approving_votes = 1 # a tie at one each
@@ -134,11 +136,11 @@ const findPendingSentencesForReview =
           [queryParams.localeId, queryParams.clientId]
         )
       ),
-      TO.map(mapRowToPendingSentence)
+      TO.map(mapRowToSentence)
     )
   }
 
 export const insertSentenceIntoDb = insertSentence(db)
 export const insertPendingSentenceVoteIntoDb = insertPendingSentenceVote(db)
-export const findPendingSentencesForReviewInDb =
-  findPendingSentencesForReview(db)
+export const findSentencesForReviewInDb =
+  findSentencesForReview(db)

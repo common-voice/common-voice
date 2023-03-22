@@ -34,7 +34,7 @@ export const AddPendingSentenceVoteRequest: AllowedSchema = {
   },
 }
 
-export const GetPendingSentencesForReviewRequest: AllowedSchema = {
+export const GetSentencesForReviewRequest: AllowedSchema = {
   type: 'object',
   required: ['localeId'],
   properties: {

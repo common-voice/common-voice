@@ -1,4 +1,4 @@
-import { validateSentence } from '../../../../core/pending-sentences';
+import { validateSentence } from '../../../../core/sentences';
 import * as E from 'fp-ts/Either';
 
 describe('Sentence validation', () => {
