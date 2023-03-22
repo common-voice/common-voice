@@ -71,24 +71,24 @@ const insertSentence =
     )
   }
 
-const insertPendingSentenceVote =
+const insertSentenceVote =
   (db: Mysql) =>
   (vote: {
-    pendingSentenceId: number
-    isValid: boolean
+    sentenceId: number
+    vote: boolean
     clientId: string
   }): TE.TaskEither<ApplicationError, unknown> => {
     return TE.tryCatch(
       () =>
         db.query(
-          `INSERT INTO pending_sentences_votes (pending_sentence_id, is_valid, client_id)
+          `INSERT INTO sentence_votes (sentence_id, vote, client_id)
           VALUES (?, ?, ?)
-          ON DUPLICATE KEY UPDATE is_valid = VALUES(is_valid)`,
-          [vote.pendingSentenceId, vote.isValid, vote.clientId]
+          ON DUPLICATE KEY UPDATE vote = VALUES(vote)`,
+          [vote.sentenceId, vote.vote, vote.clientId]
         ),
       (err: Error) =>
         createPendingSentencesRepositoryError(
-          `Error inserting vote for pending_sentence ${vote.pendingSentenceId} with client_id ${vote.clientId}`,
+          `Error inserting vote for pending_sentence ${vote.sentenceId} with client_id ${vote.clientId}`,
           err
         )
     )
@@ -141,6 +141,6 @@ const findSentencesForReview =
   }
 
 export const insertSentenceIntoDb = insertSentence(db)
-export const insertPendingSentenceVoteIntoDb = insertPendingSentenceVote(db)
+export const insertSentenceVoteIntoDb = insertSentenceVote(db)
 export const findSentencesForReviewInDb =
   findSentencesForReview(db)

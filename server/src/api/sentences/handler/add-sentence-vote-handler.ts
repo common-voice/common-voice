@@ -2,21 +2,21 @@ import { Request, Response } from 'express'
 import { pipe } from 'fp-ts/lib/function'
 import { task as T, taskEither as TE } from 'fp-ts'
 import { StatusCodes } from 'http-status-codes'
-import { addPendingSentenceVoteCommandHandler } from '../../../application/sentences/use-case/command-handler/add-pending-sentence-vote-command-handler'
-import { AddPendingSentenceVoteCommand } from '../../../application/sentences/use-case/command-handler/command/add-pending-sentence-vote-command'
+import { addSentenceVoteCommandHandler } from '../../../application/sentences/use-case/command-handler/add-sentence-vote-command-handler'
+import { AddSentenceVoteCommand } from '../../../application/sentences/use-case/command-handler/command/add-sentence-vote-command'
 import { createPresentableError } from '../../../application/helper/error-helper'
 
 export default async (req: Request, res: Response) => {
-  const command: AddPendingSentenceVoteCommand = {
+  const command: AddSentenceVoteCommand = {
     clientId: req.client_id || null,
-    pendingSentenceId: req.body.pending_sentence_id,
-    isValid: req.body.is_valid,
+    sentenceId: req.body.sentence_id,
+    vote: req.body.vote,
   }
 
   return pipe(
     command,
-    addPendingSentenceVoteCommandHandler,
-    TE.mapLeft(createPresentableError),
+    addSentenceVoteCommandHandler,
+    // TE.mapLeft(createPresentableError),
     TE.fold(
       err => T.of(res.status(StatusCodes.INTERNAL_SERVER_ERROR).json(err)),
       () => T.of(res.sendStatus(StatusCodes.OK))

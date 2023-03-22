@@ -20,15 +20,14 @@ export const AddSentenceRequest: AllowedSchema = {
   },
 }
 
-export const AddPendingSentenceVoteRequest: AllowedSchema = {
+export const AddSentenceVoteRequest: AllowedSchema = {
   type: 'object',
-  required: ['pending_sentence_id', 'is_valid'],
+  required: ['sentence_id', 'vote'],
   properties: {
-    pending_sentence_id: {
-      type: 'integer',
-      minimum: 1,
+    sentence_id: {
+      type: 'string',
     },
-    is_valid: {
+    vote: {
       type: 'boolean',
     },
   },
