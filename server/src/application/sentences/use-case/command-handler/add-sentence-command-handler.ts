@@ -1,5 +1,5 @@
 import { pipe } from 'fp-ts/lib/function'
-import { validateSentence } from '../../../../core/pending-sentences'
+import { validateSentence } from '../../../../core/sentences'
 import { insertSentenceIntoDb } from '../../repository/sentences-repository'
 import { AddSentenceCommand } from './command/add-sentence-command'
 import { either as E, taskEither as TE } from 'fp-ts'

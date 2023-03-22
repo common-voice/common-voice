@@ -1,1 +1,1 @@
-export * from './pending-sentences-for-review-row'
+export * from './sentences-for-review-row'

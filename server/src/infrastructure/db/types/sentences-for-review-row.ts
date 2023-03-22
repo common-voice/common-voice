@@ -1,6 +1,6 @@
-export type PendingSentencesForReviewRow = {
+export type SentencesForReviewRow = {
   id: number
-  sentence: string
+  text: string
   source: string
   locale_id: number
   number_of_approving_votes: number
