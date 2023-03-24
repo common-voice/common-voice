@@ -27,7 +27,6 @@ export default async (req: Request, res: Response) => {
     TE.mapLeft(createPresentableError),
     TE.fold(
       err => {
-        console.log(err);
         switch (err.kind) {
           case SentencesRepositoryErrorKind: {
             return T.of(res.status(StatusCodes.INTERNAL_SERVER_ERROR).json(err))
