@@ -37,8 +37,10 @@ ba = Basjkirisk
 bas = Basaa
 be = Kviterussisk
 bg = Bulgarsk
+bm = Bambara
 bn = Bengali
 br = Bretonsk
+bs = Bosnisk
 bxr = Burjatisk
 ca = Katalansk
 cak = Kakchikel
@@ -737,6 +739,9 @@ target-segment-generic-card = Du bidrar til eit målsegment
 target-segment-first-banner = Hjelp til med å lage Common Voice sitt første målsegment i { $locale }
 target-segment-add-voice = Legg til stemma din
 target-segment-learn-more = Les meir
+
+## Contribution Nav Items
+
 
 ## Reporting
 
