@@ -37,7 +37,7 @@
   "devDependencies": {
     "@babel/core": "7.21.3",
     "@babel/preset-env": "7.20.2",
-    "@peculiar/webcrypto": "1.4.1",
+    "@peculiar/webcrypto": "1.4.3",
     "@testing-library/react": "12.1.5",
     "@testing-library/react-hooks": "7.0.2",
     "@testing-library/user-event": "13.5.0",
