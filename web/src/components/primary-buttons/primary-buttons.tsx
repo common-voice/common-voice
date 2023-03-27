@@ -12,7 +12,6 @@ export const PrimaryButton = ({
   trackClass,
   ...props
 }: { to?: string; trackClass?: string } & React.ButtonHTMLAttributes<any>) => {
-  console.log({ disabled: props.disabled });
   return (
     <div
       className={[
