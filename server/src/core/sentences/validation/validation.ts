@@ -23,7 +23,12 @@ import * as E from 'fp-ts/Either'
 import { flow, pipe } from 'fp-ts/function'
 
 import { Validators } from '..'
-import { isValidatorLocale, ValidatorLocale, ValidatorRule } from '../types'
+import {
+  isValidatorLocale,
+  ValidatorLocale,
+  ValidatorRule,
+  ValidatorRuleError,
+} from '../types'
 
 const VALIDATORS: Validators = {
   am,
@@ -58,14 +63,16 @@ const getValidatorFor = (locale: ValidatorLocale | string): ValidatorRule[] =>
 
 const runValidatorOnSentence =
   (rules: ValidatorRule[]) =>
-  (sentence: string): E.Either<string, string> => {
+  (sentence: string): E.Either<ValidatorRuleError, string> => {
     for (const rule of rules) {
       switch (rule.type) {
         case 'fn':
-          if (rule.fn(sentence)) return E.left(rule.error)
+          if (rule.fn(sentence))
+            return E.left({ error: rule.error, errorType: rule.errorType })
           else continue
         case 'regex':
-          if (sentence.match(rule.regex)) return E.left(rule.error)
+          if (sentence.match(rule.regex))
+            return E.left({ error: rule.error, errorType: rule.errorType })
           else continue
       }
     }

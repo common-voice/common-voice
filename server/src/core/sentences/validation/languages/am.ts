@@ -1,4 +1,4 @@
-import { ValidatorRule } from "../../types"
+import { ERR_NO_ABBREVIATIONS, ERR_NO_NUMBERS, ERR_NO_SYMBOLS, ERR_OTHER, ERR_TOO_LONG, ValidatorRule } from "../../types"
 
 const tokenizeWords = require('talisman/tokenizers/words')
 
@@ -16,24 +16,28 @@ const INVALIDATIONS: ValidatorRule[] = [
       return words.length < MIN_WORDS || words.length > MAX_WORDS
     },
     error: `በአረፍተነገሩ ውስጥ ያለው የቃላት ቁጥር በ ${MIN_WORDS} እና ${MAX_WORDS} መሆን አለበት (የሚጠቃለል)`,
+    errorType: ERR_TOO_LONG
   },
   {
     type: 'regex',
     regex: /[0-9]+ | [\u1369-\u137C]+/,
     error:
       'አረፍተነገሩ ውስጥ ቁጥር ሊኖር አይገባም ወይም ቁጥሩን በአማርኛ ተርጉመው ያስተካክሉት ወይም አዲስ አረፍተነገር ይጨምሩ እባክዎ።',
+    errorType: ERR_NO_NUMBERS
   },
   {
     type: 'regex',
     regex: /[A-Za-z]+/,
     error: 'አረፍተነገሩ ውስጥ በእንግሊዘኛ ፊደል የተጻፈ ነገር ካለ እባክዎ ይተርጉሙት ወይም ያስወግዱት',
+    errorType: ERR_OTHER
   },
   {
     type: 'regex',
     regex: /[\u1360-\u1368]+ | [<>+*#@%^[\]()/]/,
     error:
       'አረፍተነገሩ ውስጥ የተለዩ ምልክቶች እንደ ነጠላ ሰረዝ፣ ድርብ ሰረዝ፣ የዶላር ምልክት እና ሌሎችም ሊኖሩ አይገባም እባክዎ ያስተካክሉት ወይም አዲስ አረፍተነገር ይጨምሩ።',
-  },
+    errorType: ERR_NO_SYMBOLS
+    },
   {
     // Any words consisting of uppercase letters or uppercase letters with a period
     // in between are considered abbreviations or acronyms.
@@ -42,6 +46,7 @@ const INVALIDATIONS: ValidatorRule[] = [
     type: 'regex',
     regex: /[\u1200-\u1357]+\.*[\u1200-\u1357]+/,
     error: 'አረፍተነገሩ ውስጥ ምህጻረ ቃላት ካሉ ያስወግዱት እባክዎ',
+    errorType: ERR_NO_ABBREVIATIONS
   },
 ]
 

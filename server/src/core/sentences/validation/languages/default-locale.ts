@@ -1,4 +1,10 @@
-import { ValidatorRule } from '../../types/validators'
+import {
+  ERR_NO_ABBREVIATIONS,
+  ERR_NO_NUMBERS,
+  ERR_NO_SYMBOLS,
+  ERR_TOO_LONG,
+  ValidatorRule,
+} from '../../types/validators'
 
 const tokenizeWords = require('talisman/tokenizers/words')
 
@@ -18,16 +24,19 @@ const INVALIDATIONS: ValidatorRule[] = [
       return words.length < MIN_WORDS || words.length > MAX_WORDS
     },
     error: `${TRANSLATION_KEY_PREFIX}sc-validation-number-of-words`,
+    errorType: ERR_TOO_LONG,
   },
   {
     type: 'regex',
     regex: /[0-9]+/,
     error: `${TRANSLATION_KEY_PREFIX}sc-validation-no-numbers`,
+    errorType: ERR_NO_NUMBERS,
   },
   {
     type: 'regex',
     regex: /[<>+*#@%^[\]()/]/,
     error: `${TRANSLATION_KEY_PREFIX}sc-validation-no-symbols`,
+    errorType: ERR_NO_SYMBOLS,
   },
   {
     // Any words consisting of uppercase letters or uppercase letters with a period
@@ -37,6 +46,7 @@ const INVALIDATIONS: ValidatorRule[] = [
     type: 'regex',
     regex: /[A-Z]{2,}|[A-Z]+\.*[A-Z]+/,
     error: `${TRANSLATION_KEY_PREFIX}sc-validation-no-abbreviations`,
+    errorType: ERR_NO_ABBREVIATIONS,
   },
 ]
 

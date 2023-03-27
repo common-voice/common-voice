@@ -1,4 +1,10 @@
-import { ValidatorRule } from '../../types/validators'
+import {
+  ERR_NO_NUMBERS,
+  ERR_NO_SYMBOLS,
+  ERR_OTHER,
+  ERR_TOO_LONG,
+  ValidatorRule,
+} from '../../types/validators'
 
 const tokenizeWords = require('talisman/tokenizers/words')
 
@@ -17,22 +23,26 @@ const INVALIDATIONS: ValidatorRule[] = [
       return words.length < MIN_WORDS || words.length > MAX_WORDS
     },
     error: 'ژمارەی وشەکان دەبێت لەنێوان ١ بۆ ١٤ بێت',
+    errorType: ERR_TOO_LONG,
   },
   {
     type: 'regex',
     regex: /[0-9\u06f0\u06f1\u06f2\u06f3\u06f4\u06f5\u06f6\u06f7\u06f8\u06f9]+/,
     error: 'نابێت ڕستە ژمارەى تێدا بێت',
+    errorType: ERR_NO_NUMBERS,
   },
   {
     type: 'regex',
     regex: /[<>+*#@%^[\]()/]/,
     error: 'نابێت ڕستە هێمای تێدا بێت',
+    errorType: ERR_NO_SYMBOLS,
   },
   {
     type: 'regex',
     regex:
       /[\u0649\u0643\u0622\u0625\u0623\u0629\u0624\u064a\u200c\u06c0\u062b\u0630\u0638\u0637\u0636\u0635]+/,
     error: 'نابێت ڕستە پیتی بەدەر لە ئەلفوبێی کوردی (سۆرانی) تێدا بێت',
+    errorType: ERR_OTHER,
   },
 ]
 

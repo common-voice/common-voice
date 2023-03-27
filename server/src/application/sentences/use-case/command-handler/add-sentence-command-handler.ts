@@ -4,7 +4,7 @@ import { insertSentenceIntoDb } from '../../repository/sentences-repository'
 import { AddSentenceCommand } from './command/add-sentence-command'
 import { either as E, taskEither as TE } from 'fp-ts'
 import { ApplicationError } from '../../../types/error'
-import { createPendingSentenceValidationError } from '../../../helper/error-helper'
+import { createSentenceValidationError } from '../../../helper/error-helper'
 import { SentenceSubmission } from '../../../types/sentence-submission'
 
 const createSentenceSubmissionFromCommand =
@@ -22,7 +22,7 @@ export const AddSentenceCommandHandler = (
   return pipe(
     command.sentence,
     validateSentence(command.localeName),
-    E.mapLeft(createPendingSentenceValidationError),
+    E.mapLeft(createSentenceValidationError),
     E.map(createSentenceSubmissionFromCommand(command)),
     TE.fromEither,
     TE.chain(insertSentenceIntoDb)

@@ -1,4 +1,9 @@
-import { ValidatorRule } from '../../types'
+import {
+  ERR_NO_FOREIGN_SCRIPT,
+  ERR_OTHER,
+  ERR_TOO_LONG,
+  ValidatorRule,
+} from '../../types'
 
 // Minimum of characters that qualify as a sentence.
 const MIN_CHARACTERS = 1
@@ -17,6 +22,7 @@ const INVALIDATIONS: ValidatorRule[] = [
       )
     },
     error: `문장의 글자 수는 ${MIN_CHARACTERS}글자 이상, ${MAX_CHARACTERS}글자 이하여야 합니다.`,
+    errorType: ERR_TOO_LONG,
   },
   {
     // One Korean letter is composed with two or three letters,
@@ -27,6 +33,7 @@ const INVALIDATIONS: ValidatorRule[] = [
     type: 'regex',
     regex: /[ㄱ-ㅎㅏ-ㅣ]/,
     error: '문장에는 자음이나 모음만 따로 있는 글자가 있어서는 안 됩니다.',
+    errorType: ERR_OTHER,
   },
   {
     // Korean letters (Hangul) have two type of Unicode code points.
@@ -47,9 +54,10 @@ const INVALIDATIONS: ValidatorRule[] = [
     regex: /[\u1100-\u11FF\uA960-\uA97F\u3130-\u318F]/u,
     error:
       '문장에는 첫가끝 형태의 분해된 글자가 있어서는 안 됩니다. 완성형 글자를 입력해주세요.',
+    errorType: ERR_OTHER,
   },
   {
-    // Since there are so may kinds of "should not be allowd" letters,
+    // Since there are so may kinds of "should not be allowed" letters,
     // It would be convenient to allow only certain type of characters.
     // examples: CJK chinese letters, Japanese letters, Korean specific chinese letters (aka hanja),
     //           not-used symbols (semicolon, colon - native korean sentences do not contain them),
@@ -61,6 +69,7 @@ const INVALIDATIONS: ValidatorRule[] = [
     regex: /[^가-힣.,?! ]/u,
     error:
       '문장에는 한글과 마침표, 쉼표, 느낌표, 물음표, 공백만 들어있어야 합니다.',
+    errorType: ERR_NO_FOREIGN_SCRIPT,
   },
 ]
 

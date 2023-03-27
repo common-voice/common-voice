@@ -1,4 +1,10 @@
-import { ValidatorRule } from '../../types'
+import {
+  ERR_NO_ABBREVIATIONS,
+  ERR_NO_NUMBERS,
+  ERR_OTHER,
+  ERR_TOO_LONG,
+  ValidatorRule,
+} from '../../types'
 
 const tokenizeWords = require('talisman/tokenizers/words/gersam')
 
@@ -16,17 +22,20 @@ const INVALIDATIONS: ValidatorRule[] = [
       return words.length < MIN_WORDS || words.length > MAX_WORDS
     },
     error: `El nombre de paraules ha de ser entre ${MIN_WORDS} i ${MAX_WORDS} (inclòs)`,
+    errorType: ERR_TOO_LONG,
   },
   {
     type: 'regex',
     regex: /[0-9]+/,
     error: 'La frase no pot contenir nombres',
+    errorType: ERR_NO_NUMBERS,
   },
   {
     // This could mean multiple sentences per line.
     type: 'regex',
     regex: /[?!.].+/,
     error: 'La frase no pot contenir signes de puntuació al mig',
+    errorType: ERR_OTHER,
   },
   {
     // Symbols not allowed, also add them below as well to the regex:
@@ -34,6 +43,7 @@ const INVALIDATIONS: ValidatorRule[] = [
     type: 'regex',
     regex: /[<>+*\\#@^“”‘’(){}[\]/]|\s{2,}|!{2,}/,
     error: 'La frase no pot contenir simbols o multiples espais o exclamacions',
+    errorType: ERR_OTHER,
   },
   {
     // Any words consisting of uppercase letters or uppercase letters with a period
@@ -43,6 +53,7 @@ const INVALIDATIONS: ValidatorRule[] = [
     type: 'regex',
     regex: /[A-Z]{2,}|[A-Z]+\.*[A-Z]+/,
     error: 'La frase no pot contenir abreviacions o acrònims',
+    errorType: ERR_NO_ABBREVIATIONS,
   },
 ]
 

@@ -1,4 +1,10 @@
-import { ValidatorRule } from '../../types'
+import {
+  ERR_NO_NUMBERS,
+  ERR_NO_SYMBOLS,
+  ERR_OTHER,
+  ERR_TOO_LONG,
+  ValidatorRule,
+} from '../../types'
 
 // Minimum of characters that qualify as a sentence.
 const MIN_LENGTH = 3
@@ -13,30 +19,35 @@ const INVALIDATIONS: ValidatorRule[] = [
       return sentence.length < MIN_LENGTH || sentence.length > MAX_LENGTH
     },
     error: `字數必須要喺 ${MIN_LENGTH} 同  ${MAX_LENGTH} 之間`,
+    errorType: ERR_TOO_LONG,
   },
   {
     // No Arabic numbers.
     type: 'regex',
     regex: /[0-9]+/,
     error: '句子唔可以包含阿拉伯數字',
+    errorType: ERR_NO_NUMBERS,
   },
   {
     // No special symbols or spaces
     type: 'regex',
     regex: /[\s<>+*#@%^[\]()/,.?!「」【】“”‘’'"]/,
     error: '句子唔可以有特殊符號同空格',
+    errorType: ERR_NO_SYMBOLS,
   },
   {
     // No repetitive punctuations
     type: 'regex',
     regex: /[，。？！、]{2,}/,
     error: '唔可以有重複標點',
+    errorType: ERR_OTHER,
   },
   {
     // 7 or more repeating characters in a row is likely a non-formal spelling or difficult to read.
     type: 'regex',
     regex: /(.)\1{6}/,
     error: '唔可以有連續 7 個或以上重複字元',
+    errorType: ERR_OTHER,
   },
   {
     // Emoji range from https://www.regextester.com/106421 and
@@ -45,6 +56,7 @@ const INVALIDATIONS: ValidatorRule[] = [
     regex:
       /(\u00a9|\u00ae|[\u2000-\u3300]|[\u2580-\u27bf]|\ud83c[\ud000-\udfff]|\ud83d[\ud000-\udfff]|\ud83e[\ud000-\udfff]|[\ue000-\uf8ff])/,
     error: '句子唔可以含有 emoji 或者其他特殊 Unicode 符號',
+    errorType: ERR_NO_SYMBOLS,
   },
   {
     // No Mandarin sentence final particles
@@ -52,6 +64,7 @@ const INVALIDATIONS: ValidatorRule[] = [
     type: 'regex',
     regex: /[\u5427\u5504\u5436](\s|\u3002|\u002E|\uFF0C|\u002C|$)/,
     error: '句子唔可以有官話語氣詞（吧唄吶）',
+    errorType: ERR_OTHER,
   },
   {
     // No Mandarin characters
@@ -59,6 +72,7 @@ const INVALIDATIONS: ValidatorRule[] = [
     type: 'regex',
     regex: /[\u9019\u54EA\u60A8\u5011\u54B1\u5565\u752D]/,
     error: '句子唔可以有官話詞（這哪您們咱啥甭）',
+    errorType: ERR_OTHER,
   },
 ]
 

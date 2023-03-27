@@ -1,7 +1,9 @@
+import { ValidatorRuleError } from '../../core/sentences'
 import {
   ApplicationError,
   ApplicationErrorKind,
   PresentableApplicationError,
+  SentenceValidationKind,
 } from '../types/error'
 
 export const createError =
@@ -12,14 +14,25 @@ export const createError =
   })
 
 export const createValidationError = createError('Validation')
-export const createPendingSentenceValidationError = createError(
-  'PendingSentenceValidation'
-)
+
+export const createSentenceValidationError = (
+  err: ValidatorRuleError
+): ApplicationError => {
+  return {
+    ...createError(SentenceValidationKind)(err.error),
+    errorType: err.errorType,
+  }
+}
+
 export const createPendingSentencesRepositoryError = createError(
-  'PendingSentencesRepository'
+  'SentencesRepository'
 )
 export const createDatabaseError = createError('DatabaseError')
 
 export const createPresentableError = (
   err: ApplicationError
-): PresentableApplicationError => ({ kind: err.kind, message: err.message })
+): PresentableApplicationError => {
+  if ('errorType' in err)
+    return { kind: err.kind, message: err.message, errorType: err.errorType }
+  else return { kind: err.kind, message: err.message }
+}

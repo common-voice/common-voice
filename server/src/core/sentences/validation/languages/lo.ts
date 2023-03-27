@@ -1,6 +1,13 @@
 // Lao rules
 
-import { ValidatorRule } from '../../types'
+import {
+  ERR_NO_FOREIGN_SCRIPT,
+  ERR_NO_NUMBERS,
+  ERR_NO_SYMBOLS,
+  ERR_OTHER,
+  ERR_TOO_LONG,
+  ValidatorRule,
+} from '../../types'
 
 // use any rule from Thai rules https://github.com/common-voice/sentence-collector/blob/main/server/lib/validation/languages/th.js
 const MIN_LENGTH = 2
@@ -13,18 +20,21 @@ const INVALIDATIONS: ValidatorRule[] = [
       return sentence.length < MIN_LENGTH || sentence.length > MAX_LENGTH
     },
     error: `ຈຳນວນຕົວອັກສອນຕ້ອງຢູ່ລະຫວ່າງ ${MIN_LENGTH} ຫາ ${MAX_LENGTH} (ລວມ)`,
+    errorType: ERR_TOO_LONG,
   },
   {
     // Lao digits and Thai digits
     type: 'regex',
     regex: /[0-9໑໒໓໔໕໖໗໘໙໐๐-๙]/,
     error: 'ປະໂຫຍກບໍ່ຄວນມີຕົວເລກ',
+    errorType: ERR_NO_NUMBERS,
   },
   {
     // English and Thai characters are not allowed
     type: 'regex',
     regex: /[A-Za-z\u0E00-\u0E7F]/,
     error: 'ປະໂຫຍກບໍ່ຄວນມີຕົວອັກສອນລາຕິນ ຫຼືຕົວອັກສອນໄທ',
+    errorType: ERR_NO_FOREIGN_SCRIPT,
   },
   {
     // < > + * \ # @ ^ [ ] ( ) /
@@ -33,6 +43,7 @@ const INVALIDATIONS: ValidatorRule[] = [
     type: 'regex',
     regex: /[<>+*\\#@^[\]()/\u0EAF\u0EC6]/,
     error: 'ປະໂຫຍກບໍ່ຄວນມີສັນຍາລັກ, ລວມທັງ ຯ ແລະ ໆ',
+    errorType: ERR_OTHER,
   },
   {
     // Emoji range from https://www.regextester.com/106421 and
@@ -41,6 +52,7 @@ const INVALIDATIONS: ValidatorRule[] = [
     regex:
       /(\u00a9|\u00ae|[\u2000-\u3300]|[\u2580-\u27bf]|\ud83c[\ud000-\udfff]|\ud83d[\ud000-\udfff]|\ud83e[\ud000-\udfff]|[\ue000-\uf8ff])/,
     error: 'ປະໂຫຍກບໍ່ຄວນມີ ອີໂມຈິ ຫຼືສັນຍາລັກຂອງ Unicode ພິເສດອື່ນໆ',
+    errorType: ERR_NO_SYMBOLS,
   },
 ]
 

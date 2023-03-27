@@ -1,4 +1,11 @@
-import { ValidatorRule } from '../../types'
+import {
+  ERR_NO_ABBREVIATIONS,
+  ERR_NO_FOREIGN_SCRIPT,
+  ERR_NO_NUMBERS,
+  ERR_NO_SYMBOLS,
+  ERR_OTHER,
+  ValidatorRule,
+} from '../../types'
 
 const tokenizeWords = require('talisman/tokenizers/words')
 
@@ -16,18 +23,21 @@ const INVALIDATIONS: ValidatorRule[] = [
       return words.length < MIN_WORDS || words.length > MAX_WORDS
     },
     error: `Frazo devas havi minimume ${MIN_WORDS} kaj maksimume ${MAX_WORDS} vortojn`,
+    errorType: ERR_OTHER,
   },
   {
     // Sentence should not contain numbers
     type: 'regex',
     regex: /[0-9]+/,
     error: 'Frazo devas ne enhavi numerojn',
+    errorType: ERR_NO_NUMBERS,
   },
   {
     // Sentence should not contain symbols
     type: 'regex',
     regex: /[<>+*#@^[\]()/]/,
     error: 'Frazo devas ne enhavi specialajn signojn',
+    errorType: ERR_NO_SYMBOLS,
   },
   {
     // Sentence should not contain the letters W, Q, X, Y, or other letters that are not in the Esperanto alphabet
@@ -35,6 +45,7 @@ const INVALIDATIONS: ValidatorRule[] = [
     regex: /[qQwWxXyYÀ-ćĊ-ěĞ-ģĞ-ģĦ-ĳĶ-śŞ-ūŮ-ʯḀ-ỿα-ωΑ-ΩЀ-ӿ]/,
     error:
       'Frazo devas ne enhavi la literojn W, Q, X, Y, aŭ aliajn ne-esperantajn literojn',
+    errorType: ERR_NO_FOREIGN_SCRIPT,
   },
   {
     // Any words consisting of uppercase letters or uppercase letters with a period
@@ -44,6 +55,7 @@ const INVALIDATIONS: ValidatorRule[] = [
     type: 'regex',
     regex: /[A-Z]{2,}|[A-Z]+\.*[A-Z]+/,
     error: 'Frazo devas ne enhavi mallongigojn',
+    errorType: ERR_NO_ABBREVIATIONS,
   },
 ]
 
