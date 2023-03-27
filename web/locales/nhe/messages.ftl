@@ -508,6 +508,8 @@ about-listen-text = Los usuarios validan la precisión de los clips donados, ver
 about-is-it-valid = ¿Es válido el clip?
 about-is-it-valid-text = Un clip de voz se marca como "válido" cuando un usuario vota Sí.
 about-yes-votes-text = Para convertirlo en el conjunto de datos de Common Voice, dos usuarios independientes deben validar un clip de voz.
+about-dataset-new = Conjunto de datos Common Voice
+about-get-involved = Kenikatsa hueli titechpalehui
 about-nav-why-common-voice = Por qué ?
 about-nav-how-it-works = Cómo ?
 about-nav-partners = Socios
@@ -659,25 +661,35 @@ clipboard-not-supported = Portapapeles no compatible
 download-title = Su descarga ha comenzado.
 download-helpus = Ayúdenos a construir una comunidad en torno a la tecnología de voz, manténgase en contacto por correo electrónico.
 download-back = Volver a Conjuntos de datos de Common Voice
+download-no = Ashkana Tlaskamati
 
 ## Contact Modal
 
 contact-title = Formulario de contacto
 contact-form-name =
     .label = Nombre
+contact-form-message =
+    .label = Mensaje
+contact-required = Ne moneki.
 
 ## Request Language Modal
 
 request-language-title = Solicitud de idioma
 request-language-form-language =
     .label = Idioma
+other-language = Seyoj lenguaje
 
 ## Request Language Pages
 
 request-language-heading = Ni neki se yankhik idioma
 request-language-explanation-1 = Shikita tla mo idioma huala ipan lista tlen <languagesPageLink> Lista de idiomas Common Voice </languagesPageLink>.Tlan ashkana huala,shitekihio no formulario huan tohuanti ti <strong>timitstitlanise se email ipan tikuamachulis kenikatsa titlalis mo idioma</strong>.
 request-language-explanation-2 = Ipan <strong> kimatis to community manager then to comunidad ipan ta tineki titepaleuis</strong, ipan huelis mitsmakas apoyo o informacion tlen huelis titekihuis
+request-language-form-email =
+    .label = Mo direccion email.
+request-language-form-info =
+    .label = Informacion then mo lenguaje.
 request-language-form-info-explanation = Shi tlali nochi infomacion then hueli ipan mo idioma.Ni hueli kipias
+request-language-form-info-explanation-list-1 = Kenikatsa itoka mo idioma
 request-language-form-info-explanation-list-2 = <isoCodeLink>ISO Codes</isoCodeLink> tla ashtimati
 request-language-form-info-explanation-list-3 = Paginas web then hueli techpalehuis ti cuamachilise mo idioma.
 # Success page
