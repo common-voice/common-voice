@@ -10,6 +10,7 @@ import {
   Sentence,
   Clip,
   UserLanguage,
+  SentenceSubmission,
 } from 'common';
 import { Locale } from '../stores/locale';
 import { User } from '../stores/user';
@@ -524,6 +525,20 @@ export default class API {
         languageInfo,
         languageLocale,
       },
+    });
+  }
+
+  createSentence({
+    sentence,
+    source,
+    localeId,
+    localeName,
+  }: SentenceSubmission) {
+    const data = { sentence, source, localeId, localeName };
+
+    return this.fetch(`${API_PATH}/sentences`, {
+      method: 'POST',
+      body: data,
     });
   }
 }

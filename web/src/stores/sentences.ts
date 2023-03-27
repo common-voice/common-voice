@@ -1,6 +1,6 @@
 import { Action as ReduxAction, Dispatch } from 'redux';
 import StateTree from './tree';
-import { Sentence } from 'common';
+import { Sentence, SentenceSubmission } from 'common';
 
 const CACHE_SET_COUNT = 25;
 const MIN_CACHE_COUNT = 5;
@@ -20,6 +20,7 @@ export namespace Sentences {
     REFILL_LOAD = 'REFILL_LOAD',
     REFILL_ERROR = 'REFILL_SENTENCES_ERROR',
     REMOVE = 'REMOVE_SENTENCES',
+    CREATE = 'CREATE_SENTENCES',
   }
 
   interface RefillAction extends ReduxAction {
@@ -38,11 +39,17 @@ export namespace Sentences {
     sentenceIds: string[];
   }
 
+  interface CreateAction extends ReduxAction {
+    type: ActionType.CREATE;
+    newSentenceSubmission: SentenceSubmission;
+  }
+
   export type Action =
     | RefillAction
     | RefillLoadAction
     | RefillErrorAction
-    | RemoveAction;
+    | RemoveAction
+    | CreateAction;
 
   export const actions = {
     refill:
@@ -93,6 +100,15 @@ export namespace Sentences {
       ) => {
         dispatch({ type: ActionType.REMOVE, sentenceIds });
         actions.refill()(dispatch, getState);
+      },
+
+    create:
+      (newSentenceSubmission: SentenceSubmission) =>
+      async (dispatch: Dispatch<CreateAction>, getState: () => StateTree) => {
+        const state = getState();
+
+        dispatch({ type: ActionType.CREATE, newSentenceSubmission });
+        await state.api.createSentence(newSentenceSubmission);
       },
   };
 
@@ -161,6 +177,11 @@ export namespace Sentences {
             isLoading: false,
             hasLoadingError: false,
           },
+        };
+
+      case ActionType.CREATE:
+        return {
+          ...state,
         };
 
       default:
