@@ -46,6 +46,7 @@
             width: 700px;
             margin: 0 auto 40px;
             height: 30vh;
+            min-height: 260px;
 
             textarea {
                 height: 100%;
@@ -84,6 +85,8 @@
             & .rules {
                 width: 350px;
                 margin-left: 50px;
+                height: calc(30vh + 91.5px);
+                min-height: 350px;
 
                 & .inner {
                     background: var(--desert-storm);
@@ -118,7 +121,6 @@
         }
 
         & .expandable-container {
-            margin-left: 130px;
             width: 600px;
 
             & .bold {
@@ -135,7 +137,6 @@
         }
 
         & .buttons {
-            margin: 0 0 2.5rem;
             display: flex;
             justify-content: space-between;
 

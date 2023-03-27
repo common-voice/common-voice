@@ -5,12 +5,25 @@ import { EditIcon } from '../../../../ui/icons';
 import { LabeledInput } from '../../../../ui/ui';
 import { WriteProps } from '../write';
 import { Rules } from './rules';
+import ExpandableInformation from '../../../../expandable-information/expandable-information';
 
 type Props = {
   getString: WriteProps['getString'];
+  handleSentenceInputChange: (
+    event: React.ChangeEvent<HTMLTextAreaElement>
+  ) => void;
+  handleCitationChange: (event: React.ChangeEvent<HTMLInputElement>) => void;
+  sentence: string;
+  citation: string;
 };
 
-export const SentenceInputAndRules: React.FC<Props> = ({ getString }) => (
+export const SentenceInputAndRules: React.FC<Props> = ({
+  getString,
+  handleCitationChange,
+  handleSentenceInputChange,
+  sentence,
+  citation,
+}) => (
   <div className="inputs-and-instruction">
     <div className="write-page-instruction">
       <Localized id="sc-header-add">
@@ -31,14 +44,28 @@ export const SentenceInputAndRules: React.FC<Props> = ({ getString }) => (
             placeholder={getString('sentence-input-value')}
             className="sentence-input"
             component="textarea"
+            onChange={handleSentenceInputChange}
+            value={sentence}
           />
         </Localized>
         <Localized id="citation" attrs={{ label: true }}>
           <LabeledInput
             placeholder={getString('citation-input-value')}
             className="citation-input"
+            onChange={handleCitationChange}
+            value={citation}
           />
         </Localized>
+        <div className="expandable-container">
+          <ExpandableInformation summaryLocalizedId="how-to-cite">
+            <Localized id="how-to-cite-explanation-bold">
+              <span className="bold" />
+            </Localized>
+            <Localized id="how-to-cite-explanation">
+              <span />
+            </Localized>
+          </ExpandableInformation>
+        </div>
       </div>
       <Rules />
     </div>
