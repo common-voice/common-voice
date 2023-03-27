@@ -648,12 +648,15 @@ data-other-ted-description = El corpus TED-LIUM se elaboró a partir de charlas 
 data-other-tatoeba-description = Tatoeba es una gran base de datos de oraciones, traducciones y audio hablado para usar en el aprendizaje de idiomas. Esta descarga contiene inglés hablado grabado por su comunidad.
 your-feedback = ¿Tiene ideas sobre cómo podemos mejorar el conjunto de datos de Common Voice? Háganos saber en Discourse
 go-discourse = Ir a Discurso
+missing-language = Tla ashtikita mo idioma, shiya ipan to pagina de idiomas.
 go-languages-page = Ir a la página de idiomas
 ready-to-validate = ¿Listo para ayudar a validar oraciones?
 more = Más
 close = tsakua
 download = Descargar
 dataset-version = Versión
+sha256-checksum-copied = SHA256 Suma de verificación copiado!
+sha256-checksum-copied-error = Error al copiar SHA256 Checksum
 clipboard-not-supported = Portapapeles no compatible
 
 ## Download Modal
@@ -677,7 +680,8 @@ contact-required = Ne moneki.
 request-language-title = Solicitud de idioma
 request-language-form-language =
     .label = Idioma
-other-language = Seyoj lenguaje
+request-language-success-title = Mo idioma request kuali mo titlanij, tlaskamati.
+other-language = Seyoj Idioma
 
 ## Request Language Pages
 
@@ -687,7 +691,7 @@ request-language-explanation-2 = Ipan <strong> kimatis to community manager then
 request-language-form-email =
     .label = Mo direccion email.
 request-language-form-info =
-    .label = Informacion then mo lenguaje.
+    .label = Informacion then mo idioma.
 request-language-form-info-explanation = Shi tlali nochi infomacion then hueli ipan mo idioma.Ni hueli kipias
 request-language-form-info-explanation-list-1 = Kenikatsa itoka mo idioma
 request-language-form-info-explanation-list-2 = <isoCodeLink>ISO Codes</isoCodeLink> tla ashtimati
