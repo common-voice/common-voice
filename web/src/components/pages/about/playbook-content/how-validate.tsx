@@ -18,7 +18,7 @@ const HowAddLanguage = React.memo(() => {
         id="about-playbook-how-validate-content-3"
         elems={{
           strong,
-          accuracyLink: <LocaleNavLink to={URLS.CRITERIA} />,
+          accuracyLink: <LocaleNavLink to={URLS.GUIDELINES} />,
         }}>
         <p />
       </Localized>
