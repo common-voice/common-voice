@@ -28,21 +28,29 @@ export const ContributeMenuContent: React.FC<ContributeMenuContentProps> = ({
           className={classNames({
             'selected-option': speakActive,
           })}>
-          <MicIcon />
-          <LocaleLink to={URLS.SPEAK} className="contribute-link">
-            <Localized id="speak" />
-          </LocaleLink>
-          {speakActive && <span className="border" />}
+          <div className="list-items-wrapper">
+            <div>
+              <MicIcon />
+              <LocaleLink to={URLS.SPEAK} className="contribute-link">
+                <Localized id="speak" />
+              </LocaleLink>
+            </div>
+            {speakActive && <span className="border" />}
+          </div>
         </li>
         <li
           className={classNames({
             'selected-option': listenActive,
           })}>
-          <ListenIcon />
-          <LocaleLink to={URLS.LISTEN} className="contribute-link">
-            <Localized id="listen" />
-          </LocaleLink>
-          {listenActive && <span className="border" />}
+          <div className="list-items-wrapper">
+            <div>
+              <ListenIcon />
+              <LocaleLink to={URLS.LISTEN} className="contribute-link">
+                <Localized id="listen" />
+              </LocaleLink>
+            </div>
+            {listenActive && <span className="border" />}
+          </div>
         </li>
       </ul>
     </div>

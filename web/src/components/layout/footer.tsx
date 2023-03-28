@@ -26,9 +26,9 @@ const Footer = React.memo(() => {
   return (
     <footer>
       <div id="help-links">
-        <LocaleLink to={URLS.FAQ} onClick={() => trackNav('faq', locale)}>
+        <LocaleLink to={URLS.ABOUT} onClick={() => trackNav('about', locale)}>
           <SupportIcon />
-          <Localized id="faq">
+          <Localized id="about">
             <div />
           </Localized>
         </LocaleLink>

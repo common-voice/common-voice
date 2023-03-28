@@ -16,16 +16,21 @@ ab = Abxaz
 ace = Achene
 ar = Arab
 ast = Asturiya
+kaa = Qaraqalpaqsha
+ru = Rus tili
+uz = Ózbekshe
 
 # [/]
 
 
 ## Layout
 
+languages = Tiller
 profile = Profil
 help = Járdem
 contact = Baylanıs
 faq = Soraw-juwap
+link-copied = Silteme kóshirip alındı
 back-top = Joqarıǵa qaytıw
 logout = Shıǵıw
 
@@ -83,6 +88,7 @@ shortcut-vote-no = n
 # Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-record-toggle = r
+shortcut-record-toggle-label = Jazıp alıw/Toqtatıw
 shortcut-rerecord-toggle = [1-5]
 shortcut-discard-ongoing-recording = ESC
 shortcut-submit-label = Dawıstı jiberiw
@@ -141,6 +147,7 @@ add-language = Til qosıw
 
 ## How does it work section
 
+about-nav-get-involved = Qatnasıw
 
 ## Community Playbook Content
 ## What is a language
@@ -199,6 +206,7 @@ add-language = Til qosıw
 
 ## Contribution
 
+contribute = Úles qosıw
 
 ## Contribution Nav Items
 
