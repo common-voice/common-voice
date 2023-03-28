@@ -44,6 +44,7 @@ be = ቤላሩሲያን
 bg = ቡልጋሪያኛ
 bm = ባምባራ
 bn = ቤንጋሊ
+bo = ቲቤትኛ
 br = ብሪቶን
 bs = ቦስንያን
 bxr = ቡርያት
@@ -1644,3 +1645,4 @@ already-have-an-account = መለያ አለዎት? <login>ግባ</login>
 create-profile-button = መገለጫ ይፍጠሩ
 # IMAGE TAGS
 img-alt-success-checkmark = የስኬት ምልክት
+sentence-collection = የአረፍተ ነገር ስብሰባ
