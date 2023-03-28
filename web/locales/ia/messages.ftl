@@ -1629,6 +1629,7 @@ adding-sentences = Addente phrases
 reviewing-sentences = Revidente phrases
 citing-sentences-subheader-websites = Sitos web
 citing-sentences-subheader-websites-explanation = Tu pote includer le sito web, e.g. "Common Voice - https://commonvoice.mozilla.org/"
+citing-sentences-subheader-academic-reference = Referentia accademic
 citation =
     .label = Citation
 adding-sentences-subheader-spelling-punctuation-explanation = Le orthographia del phrase debe esser correcte.
