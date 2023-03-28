@@ -15,7 +15,7 @@ import { useLocale } from '../../../locale-helpers';
 import './write.css';
 import { SentenceInputAndRules } from './sentence-input-and-rules/sentence-input-and-rules';
 import { Sentences } from '../../../../stores/sentences';
-import { SentenceSubmission } from 'common';
+import { SentenceSubmission, SentenceSubmissionError } from 'common';
 import { useTypedSelector } from '../../../../stores/tree';
 import { Notifications } from '../../../../stores/notifications';
 import { useAction } from '../../../../hooks/store-hooks';
@@ -26,6 +26,7 @@ const Write: React.FC<WriteProps> = ({ getString }) => {
   const [confirmPublicDomain, setConfirmPublicDomain] = useState(false);
   const [sentence, setSentence] = useState('');
   const [citation, setCitation] = useState('');
+  const [error, setError] = useState<SentenceSubmissionError>();
 
   const [currentLocale] = useLocale();
   const languages = useTypedSelector(({ languages }) => languages);
@@ -74,18 +75,24 @@ const Write: React.FC<WriteProps> = ({ getString }) => {
 
     try {
       await createSentence(newSentence);
+      console.log('here >>');
 
       addNotification({
         message: getString('add-sentence-success'),
         type: 'success',
       });
+      console.log('here after>>');
 
       // reset input fields after submission
       setSentence('');
       setCitation('');
       setConfirmPublicDomain(false);
+      setError(undefined);
     } catch (error) {
       console.log({ error });
+      // const errorMessage = JSON.parse(error.message)
+      // console.log({ errorMessage })
+      // setError(errorMessage.errorType)
       addNotification({
         message: getString('add-sentence-error'),
         type: 'error',
@@ -104,6 +111,7 @@ const Write: React.FC<WriteProps> = ({ getString }) => {
               handleCitationChange={handleCitationChange}
               sentence={sentence}
               citation={citation}
+              error={error}
             />
           </div>
 
