@@ -35,7 +35,12 @@ export default async (req: Request, res: Response) => {
             return T.of(res.status(StatusCodes.BAD_REQUEST).json(err))
         }
       },
-      () => T.of(res.contentType('text/plain').sendStatus(StatusCodes.OK))
+      () =>
+        T.of(
+          res.json({
+            message: 'Sentence added successfully',
+          })
+        )
     )
   )()
 }

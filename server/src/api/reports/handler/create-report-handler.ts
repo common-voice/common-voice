@@ -20,7 +20,12 @@ export const createReportHandler = async (req: Request, res: Response) => {
     TE.mapLeft(createPresentableError),
     TE.fold(
       err => T.of(res.status(StatusCodes.INTERNAL_SERVER_ERROR).json(err)),
-      () => T.of(res.contentType('text/plain').sendStatus(StatusCodes.OK))
+      () =>
+        T.of(
+          res.json({
+            message: 'Report created successfully',
+          })
+        )
     )
   )()
 }
