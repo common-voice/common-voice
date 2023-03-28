@@ -30,6 +30,7 @@
     "react-router": "5.2.1",
     "react-router-dom": "5.3.0",
     "react-router-navigation-prompt": "1.9.6",
+    "react-tabs": "4.2.1",
     "react-tippy": "1.4.0",
     "redux": "4.1.2",
     "redux-thunk": "2.4.2"
