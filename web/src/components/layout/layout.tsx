@@ -272,7 +272,7 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
           )}
         </div>
         <NonProductionBanner />
-        <main id="content">
+        <main id="content" className={className}>
           {children ? children : <Content location={location} />}
         </main>
         {shouldHideFooter ? <></> : <Footer />}
