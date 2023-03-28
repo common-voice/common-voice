@@ -32,7 +32,6 @@ export const createDatabaseError = createError('DatabaseError')
 export const createPresentableError = (
   err: ApplicationError
 ): PresentableApplicationError => {
-  if ('errorType' in err)
-    return { kind: err.kind, message: err.message, errorType: err.errorType }
-  else return { kind: err.kind, message: err.message }
+  const { error, ...presentableErr } = err
+  return presentableErr
 }

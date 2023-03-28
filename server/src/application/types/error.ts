@@ -16,22 +16,29 @@ export const ApplicationErrorKinds = [
 
 export type ApplicationErrorKind = typeof ApplicationErrorKinds[number]
 
-export type ApplicationError = BasicError | SentenceValidationError
+export type ApplicationError = BaseError | SentenceValidationError
 
-export type BasicError = {
+export type BaseError = {
   kind: ApplicationErrorKind
   message: string
   error: Error
 }
 
-export type SentenceValidationError = BasicError & {
+export type SentenceValidationError = BaseError & {
   errorType: ValidatorRuleErrorType
 }
 
 // We don't want to show the stack trace or the specific error to
 // clients for security reasons.
-export type PresentableApplicationError = {
+export type PresentableBaseError = {
   kind: ApplicationErrorKind
-  message: string,
-  errorType?: ValidatorRuleErrorType
+  message: string
 }
+
+export type PresentableSentenceValidationError = PresentableBaseError & {
+  errorType: ValidatorRuleErrorType
+}
+
+export type PresentableApplicationError =
+  | PresentableBaseError
+  | PresentableSentenceValidationError
