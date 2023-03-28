@@ -161,6 +161,12 @@ button {
             }
         }
     }
+
+    &.write {
+        @media (--sm-down) {
+            overflow: auto;
+        }
+    }
 }
 
 /**
@@ -186,6 +192,12 @@ button {
     flex-grow: 1;
     width: 100%;
     min-height: 100%;
+
+    &.write {
+        @media (--sm-down) {
+            min-height: auto;
+        }
+    }
 }
 
 .Logo {

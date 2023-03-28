@@ -8,19 +8,28 @@
             var(--desert-storm)
         );
         overflow: hidden;
-        height: 80%;
+
+        @media (--xl-up) {
+            height: 80%;
+        }
 
         & .write {
             display: flex;
             flex-direction: column;
             overflow-y: hidden;
             margin: 0 auto;
-            padding: 10px 20px;
-            padding-top: 50px;
             width: 100%;
             height: 100%;
             max-width: var(--wide-desktop-width);
             justify-content: space-between;
+
+            @media (--lg-up) {
+                padding: 50px 20px 10px;
+            }
+
+            @media (--sm-down) {
+                padding-bottom: 30px;
+            }
         }
 
         & .write-page-instruction {
@@ -43,10 +52,21 @@
         }
 
         & label.sentence-input {
-            width: 700px;
             margin: 0 auto 40px;
             height: 30vh;
             min-height: 260px;
+
+            @media (--xl-up) {
+                width: 700px;
+            }
+
+            @media (--md-down) {
+                width: 85vw;
+            }
+
+            @media (--md-down) {
+                height: 15vh;
+            }
 
             textarea {
                 height: 100%;
@@ -76,22 +96,37 @@
                 & .inputs-and-rules-wrapper {
                     display: flex;
 
+                    @media (--md-down) {
+                        flex-direction: column;
+                    }
+
                     & .inputs {
                         height: 100%;
+
+                        @media (--lg-only) {
+                            width: 55vw;
+                        }
                     }
                 }
             }
 
             & .rules {
-                width: 350px;
-                margin-left: 50px;
-                height: calc(30vh + 91.5px);
-                min-height: 350px;
+                @media (--lg-up) {
+                    width: 350px;
+                    margin-left: 50px;
+                    height: calc(30vh + 91.5px);
+                    min-height: 350px;
+                }
+
 
                 & .inner {
                     background: var(--desert-storm);
                     padding: 24px 34px 0;
                     height: 100%;
+
+                    @media (--md-down) {
+                        padding-bottom: 20px;
+                    }
                 }
 
                 p {
@@ -121,7 +156,11 @@
         }
 
         & .expandable-container {
-            width: 600px;
+            width: 700px;
+
+            @media (--md-down) {
+                width: 85vw;
+            }
 
             & .bold {
                 font-weight: 600;
@@ -209,6 +248,10 @@
                         display: none;
                     }
                 }
+            }
+
+            @media (--md-down) {
+                display: none;
             }
         }
     }
