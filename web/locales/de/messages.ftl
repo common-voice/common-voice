@@ -1701,6 +1701,47 @@ reviewing-sentences = Sätze überprüfen
 public-domain-explanation-1 = Es ist sehr wichtig, dass alle Textsätze <publicDomain>gemeinfrei</publicDomain> (<cc0>cc0</cc0>) sind, da der Common-Voice-Datensatz unter einer cc0-Lizenz steht. Laden Sie einen Satz nur hoch, wenn Sie sicher sind, und fügen Sie immer das relevante Zitat hinzu.
 public-domain-explanation-2 = Die besten Sätze, um eine nützliche Spracherkennungs-Engine zu entwickeln, sind umgangssprachlicher, moderner Sprachgebrauch. Einige Ideen, die Ihnen helfen, Sätze zu erzeugen, sind;
 public-domain-explanation-3 = Bilden Sie moderne, umgangssprachliche Sätze selbst oder mit Ihren Freunden oder Ihrer Sprachgemeinschaft – zum Beispiel durch einen „Write-a-thon“
+public-domain-explanation-4 = Kontaktieren Sie Schriftsteller, Dramatiker oder Drehbuchautoren und fragen Sie, ob diese einen kleinen Teil ihrer Werke gemeinfrei machen würden
+public-domain-explanation-5 = Suchen Sie nach Texten, für die das Urheberrecht nicht mehr gilt – zum Beispiel die meisten Bücher, die vor 1920 veröffentlicht wurden
+public-domain-explanation-6 = Wenden Sie sich an Regierungen, gemeinnützige Unternehmen oder Medienorganisationen, um zu erfahren, ob deren Webinhalte, Berichte oder andere Inhalte gemeinfrei sein können
+citing-sentences-explanation-1 = Es ist wichtig, Zitate einzufügen, damit wir überprüfen können, ob Sätze gemeinfrei sind und keine urheberrechtliche Einschränkung besteht.
+citing-sentences-subheader-websites = Websites
+citing-sentences-subheader-websites-explanation = Sie könnten die Website angeben, z.&thinsp;B. „Common Voice – https://commonvoice.mozilla.org/“
+citing-sentences-subheader-academic-reference = Akademische Zitierweise
+citing-sentences-subheader-academic-reference-explanation =
+    Sie könnten den akademischen Zitierstil verwenden, z.B. den Harvard-Style
+    „Mozilla (2021) Common Voice. Abrufbar unter https://commonvoice.mozilla.org/ (Zugriff: 15. September 2021)“
+citing-sentences-subheader-offline-sources = Offline-Quellen
+citing-sentences-subheader-offline-sources-explanation =
+    Für gemeinfreie Texte, die nicht online verfügbar sind, können Sie den akademischen Zitierstil verwenden
+    z.&thinsp;B. Hardvard-Style „Jess (2021) Meine gemeinfreien Gedichte“
+citation =
+    .label = Zitat
+self-citation = Selbstzitierung
+self-citation-explanation = So zitieren Sie sich selbst, wenn Sie den Inhalt selbst geschrieben haben.
+adding-sentences-subheader-length = Länge
+adding-sentences-subheader-length-explanation = Der Satz sollte weniger als 15 Wörter haben.
+adding-sentences-subheader-spelling-punctuation = Rechtschreibung und Zeichensetzung
+adding-sentences-subheader-spelling-punctuation-explanation = Der Satz muss richtig geschrieben sein.
+adding-sentences-subheader-speakable = Aussprechbar
+adding-sentences-subheader-speakable-explanation = Die besten Sätze sind natürlich und im Plauderton sein – sie sollten für jemanden leicht zu lesen sein. Während phonetische Vielfalt und unterschiedliche Wörter in Sätzen wichtig sind, versuchen wir auch, das Aufnehmen von Sätzen für unsere Gemeinschaft der Freiwilligen so ansprechend und unterhaltsam wie möglich zu gestalten.
+adding-sentences-subheader-numbers = Zahlen
+adding-sentences-subheader-numbers-explanation =
+    Der Quelltext sollte im Idealfall keine Ziffern enthalten, da diese Probleme verursachen können, wenn sie laut vorgelesen werden. Die Art und Weise, wie eine Zahl gelesen wird, hängt vom Kontext ab und kann zu Verwirrung im Datensatz führen.
+    Zum Beispiel könnte die Zahl „2409“ sowohl als „vierundzwanzig null neun“ als auch als „zweitausendvierhundertneun“ gelesen werden.
+adding-sentences-subheader-abbreviations = Abkürzungen und Akronyme
+adding-sentences-subheader-abbreviations-explanation = Abkürzungen und Akronyme wie „USA“ oder „ICE“ sollten im Quelltext vermieden werden, da sie möglicherweise nicht mit ihrer Schreibweise übereinstimmen. Darüber hinaus kann es für eine einzelne Abkürzung mehrere korrekte Bedeutungen.
+adding-sentences-subheader-punctuation = Interpunktion
+adding-sentences-subheader-punctuation-explanation =
+     Sonderzeichen und Satzzeichen sollten nur enthalten sein, wenn es unbedingt notwendig ist. Zum Beispiel ist ein Apostroph in englischen Wörtern wie 
+    „don’t“ und „we’re“ enthalten und sollte in den Quelltext aufgenommen werden, aber es ist unwahrscheinlich, dass Sie jemals ein Sonderzeichen wie „@“ oder „#“ benötigen.
+adding-sentences-subheader-special-characters = Sonderzeichen und ausländische Buchstaben
+adding-sentences-subheader-special-characters-explanation-1 =
+    Die Buchstaben müssen in der Sprache gültig sein, in der sie gesprochen werden.
+    Zum Beispiel ist „ж“ ein Buchstabe im russischen Alphabet, wird aber nie auf Englisch verwendet und sollte es auch in keinem englischen Quelltext verwendet werden.
+adding-sentences-subheader-special-characters-explanation-2 = Sprachen können beim Übersetzen ihre eigenen Validierungsregeln mit zusätzlichen Anforderungen haben. Wenn für eine Sprache keine spezifische Überprüfungsdatei vorhanden ist, werden die englischen Regeln für Mitwirkende angezeigt.
+adding-sentences-subheader-offensive-content = Anstößige Inhalte
+adding-sentences-subheader-offensive-content-explanation = Wenn der Satz beleidigend oder verstörend ist – zum Beispiel wegen seines expliziten Inhalts oder einer anderen Verletzung unserer <communityGuidelines>Richtlinien für das Mitwirken in der Gemeinschaft</communityGuidelines> – sollten Sie den Satz ablehnen. Sie können uns auch unter <emailFragment>commonvoice@mozilla.com</emailFragment> kontaktieren, um das Problem zu eskalieren.
 reviewing-sentences-explanation-1 = Wenn der Satz die genannten Kriterien erfüllt, klicken Sie auf die Schaltfläche „Ja“.
 reviewing-sentences-explanation-2 = Wenn der Satz die genannten Kriterien nicht erfüllt, klicken Sie auf die Schaltfläche „Nein“.
 reviewing-sentences-explanation-3 = Wenn Sie sich bei dem Satz nicht sicher sind, können Sie ihn auch überspringen und zum nächsten übergehen.
