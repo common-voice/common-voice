@@ -44,6 +44,7 @@ be = Bielorusso
 bg = Bulgaro
 bm = Bambara
 bn = Bengali
+bo = Tibetano
 br = Breton
 bs = Bosniano
 bxr = Buriato
@@ -1591,5 +1592,17 @@ already-have-an-account = Ha tu jam un conto? <login>Accede</login>
 create-profile-button = Crear un profilo
 # IMAGE TAGS
 img-alt-success-checkmark = marca de successo
+# GUIDELINES PAGE
+guidelines-header = Lineas guida de contribution
+voice-collection = Collection de voces
 sentence-collection = Collection de phrases
+varying-pronunciations = Pronunciationes variate
+misreadings = Errores de lectura
+offensive-content = Contento offensive
+background-noise = Ruito de fundo
+background-voices = Voces de fundo
+volume = Volumine
+reader-effects = Effectos del lector
+just-unsure = Justo insecur?
+example = Exemplo
 misreadings-example-1 = Nos exi pro prender le caffe.
