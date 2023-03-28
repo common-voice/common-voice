@@ -1639,3 +1639,6 @@ adding-sentences-subheader-numbers = Számok
 adding-sentences-subheader-numbers-explanation = A forrásszövegben ideális esetben ne legyenek számok, mert problémákat okozhatnak a hangos felolvasásnál. A számok kiolvasása a környezetüktől függ, és zavart okozhatnak az adatkészletben. Például a „250” olvasható „kétszázötvenként” vagy „kettőszázötvenként” is.
 adding-sentences-subheader-abbreviations = Rövidítések és mozaikszavak
 adding-sentences-subheader-punctuation = Központozás
+adding-sentences-subheader-punctuation-explanation = Speciális szimbólumokat és írásjeleket csak akkor szabad használni, ha feltétlenül szükséges. Például egy aposztróf szerepel az olyan angol szavakban, mint a „don't” és a „we're”, ezeknek szerepelnie kell a forrásszövegben, de nem valószínű, hogy valaha is szükség lesz az olyan speciális szimbólumra, mint a „@” vagy a „#”.
+adding-sentences-subheader-special-characters = Speciális karakterek és idegen betűk
+adding-sentences-subheader-special-characters-explanation-1 = A betűknek érvényesnek kell lenniük a beszélt nyelven. Például a „ж” egy betű az orosz ábécében, de soha nem használják az angolban, ezért soha nem szerepelhet semmilyen angol forrásszövegben.
