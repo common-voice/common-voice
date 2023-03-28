@@ -1645,4 +1645,18 @@ already-have-an-account = መለያ አለዎት? <login>ግባ</login>
 create-profile-button = መገለጫ ይፍጠሩ
 # IMAGE TAGS
 img-alt-success-checkmark = የስኬት ምልክት
+# GUIDELINES PAGE
+guidelines-header = የአስተዋጽኦ መመሪያዎች
+guidelines-header-subtitle = ዓረፍተ-ነገሮችን እና የድምጽ ቅንጥቦችን ወደ የጋራ ድምጽ መረጃ ስብስብ እንዴት ማበርከት እና ማረጋገጥ እንደሚቻል ይረዱ
+voice-collection = የድምጽ ስብስብ
 sentence-collection = የአረፍተ ነገር ስብሰባ
+varying-pronunciations = የተለያዩ አጠራር
+misreadings = የተሳሳተ ንባብ
+offensive-content = አፀያፊ ይዘት
+background-noise = የጀርባ ጫጫታ
+background-voices = የበስተጀርባ ድምጾች
+volume = መጠነ- ይዘት
+reader-effects = የአንባቢ ውጤቶች
+just-unsure = እርግጠኛ አይደሉም?
+example = ምሳሌ
+varying-pronunciations-example = መንገዱ ግልጽ አልነበረም።
