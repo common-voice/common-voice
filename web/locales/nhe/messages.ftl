@@ -217,12 +217,12 @@ zza = Zazo
 
 ## Layout
 
-speak = Camatise
-speak-now = Camatise nama
-datasets = Datasets
-languages = Tlatojlme
+speak = Kamatis
+speak-now = Kamatise nama
+datasets = Conjunto de datos
+languages = Idiomas
 about = Ipan Common Voice
-partner = Partner
+partner = Solcios
 profile = Perfil
 help = Tlapaleuistli
 contact = Contacto
@@ -503,7 +503,7 @@ about-speak = Hablar
 about-speak-text = Los colaboradores graban clips de voz leyendo de un banco de oraciones donadas.
 about-listen-queue = Cola de escucha
 about-listen-queue-text = Los clips de voz se ingresan en una cola de envío que los prepara para escucharlos.
-about-listen = Escuchar
+about-listen = Tlakakis
 about-listen-text = Los usuarios validan la precisión de los clips donados, verificando que el orador lea la oración correctamente.
 about-is-it-valid = ¿Es válido el clip?
 about-is-it-valid-text = Un clip de voz se marca como "válido" cuando un usuario vota Sí.
