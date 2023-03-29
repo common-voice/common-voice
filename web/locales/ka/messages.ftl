@@ -44,6 +44,7 @@ be = ბელარუსული
 bg = ბულგარული
 bm = ბამბარა
 bn = ბენგალური
+bo = ტიბეტური
 br = ბრეტონური
 bs = ბოსნიური
 bxr = ბურიატული
@@ -1650,3 +1651,4 @@ already-have-an-account = უკვე გაქვთ ანგარიში?
 create-profile-button = პროფილის შექმნა
 # IMAGE TAGS
 img-alt-success-checkmark = წარმატებით შესრულებულის აღნიშვნა
+sentence-collection = წინადადებების შეგროვება
