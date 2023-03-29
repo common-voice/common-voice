@@ -42,6 +42,7 @@ be = Λευκορωσικά
 bg = Βουλγαρικά
 bm = Μπαμπάρα
 bn = Μπενγκάλι
+bo = Θιβετιανά
 br = Βρετονικά
 bs = Βοσνιακά
 bxr = Μπουργιάτ
@@ -1564,3 +1565,17 @@ already-have-an-account = Έχετε ήδη λογαριασμό; <login>Σύν�
 create-profile-button = Δημιουργία προφίλ
 # IMAGE TAGS
 img-alt-success-checkmark = σημάδι επιτυχίας
+# GUIDELINES PAGE
+guidelines-header = Οδηγίες συνεισφοράς
+sentence-collection = Συλλογή προτάσεων
+varying-pronunciations = Ποικίλες προφορές
+misreadings = Λάθη στην ανάγνωση
+offensive-content = Προσβλητικό περιεχόμενο
+background-noise = Θόρυβος παρασκηνίου
+background-voices = Φωνές παρασκηνίου
+volume = Ένταση
+reader-effects = Εφέ ανάγνωσης
+just-unsure = Δεν γνωρίζετε;
+example = Παράδειγμα
+adding-sentences-subheader-offensive-content = Προσβλητικό περιεχόμενο
+community-announcement-header = Ανακοίνωση κοινότητας!

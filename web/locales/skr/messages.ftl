@@ -44,6 +44,7 @@ be = بیلاروسی
 bg = بلغاری
 bm = بامبرا
 bn = بنگالی
+bo = تبتى
 br = بریٹون
 bs = بوسینی
 bxr = بریات
@@ -138,11 +139,13 @@ nb-NO = نارویجی بوکمال
 nd = اندبیلی (شمالی)
 ne-NP = نیپالی
 nhe = مشرقی ہوسٹیکا نہوانی
+nhi = مغربی سیرا پیوبلا ناہوٹل
 nia = نیاس
 nl = ڈچ
 nn-NO = نارویجی نورسک
 nr = اندبیلی (جنوبی)
 nso = شمالی سوٹھو
+ny = چِیوا
 nyn = رنیانکول
 oc = آكسيٹان
 om = افان اورمو
@@ -1598,3 +1601,30 @@ already-have-an-account = بھلا پہلے ای کھاتہ ہے؟ <login> لا�
 create-profile-button = پروفائل بݨاؤ
 # IMAGE TAGS
 img-alt-success-checkmark = کامیابی دا نشان
+# GUIDELINES PAGE
+guidelines-header = ونگار دے رہنما اصول
+voice-collection = اوازاں دا مجموعہ
+sentence-collection = فقریاں دا مجموعہ
+varying-pronunciations = بدلدا ہویا تلفظ
+misreadings = غلط پڑھݨ
+offensive-content = جارحانہ مواد
+background-noise = پس منظر دا شور
+background-voices = پس منظر دی آوازاں
+volume = حجم
+reader-effects = پڑھݨ آلے دے اثرات
+just-unsure = صرف غیر یقینی؟
+example = مثال
+still-have-questions = اڄݨ وی کوئی سوال ہن؟
+public-domain = عوامی ڈومین
+adding-sentences = جملے شامل کرݨ
+reviewing-sentences = جملیاں دا جائزہ گھنݨ
+citing-sentences-subheader-websites = ویب سائٹاں
+citing-sentences-subheader-websites-explanation = تساں ویب سائٹ شامل کر سڳدے ہو، مثال دے طور تے "کامن وائس"۔ https://commonvoice.mozilla.org/
+citing-sentences-subheader-academic-reference = تعلیمی حوالہ
+citing-sentences-subheader-academic-reference-explanation = تساں اکیڈمک حوالہ ݙیوݨ دا انداز استعمال کر سڳدے او، جیویں جو ہارورڈ اسٹائل "موزیلا (2021) کامن وائس۔ https://commonvoice.mozilla.org/ تے دستیاب ہے: 15 ستمبر 2021)"
+citing-sentences-subheader-offline-sources = آف لائن ماخذ
+citing-sentences-subheader-offline-sources-explanation = پبلک ڈومین ٹیکسٹ جہڑی آن لائن دستیاب کائنی، تساں اکیڈمک ریفرنسنگ سٹائل استعمال کرسڳدے او جیویں ہارورڈ سٹائل "جیس (2021) مائی پبلک لائسنس دیاں نظماں"
+citation =
+    .label = حوالہ ݙیوݨ
+adding-sentences-subheader-length = لمباݨ
+community-announcement-header = برادری اعلانات!

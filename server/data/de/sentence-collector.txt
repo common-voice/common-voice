@@ -8161,6 +8161,7 @@ Der Zusteller gab mir nonverbal zu verstehen, dass ich die Klappe halten sollte.
 Der abgewählt amerikanische Präsident behauptet weiterhin, dass die Wahl ihm gestohlen wurde.
 Der absolut perfekte Augenblick wird wahrscheinlich nie einkehren.
 Der allgemeinen Auffassung nach hat er die Reifeprüfung nicht bestanden.
+Der alte Gandalf geilt sich an einer Elfe auf.
 Der alte Kachelofen steht eigentlich nur noch rum.
 Der alte Rekord wurde bei weitem übertroffen.
 Der alte Seeräuber holte seinen Kompass und teleportierte sich nach Hause.
@@ -15021,6 +15022,7 @@ Für etliche Länder wird dies ohnehin die einzige Art der Trinkwassergewinnung 
 Für euch ist der Kindertisch dort drüben.
 Für eventuelle Nachzügler wird die Raumänderung auf der Tafel notiert.
 Für fünfzig Euro darf man schon etwas mehr erwarten als das.
+Für gewöhnlich kann er sie mit seinem Zauberstab beeindrucken.
 Für gewöhnlich nimmt man normale Hutmuttern.
 Für gewöhnlich sind in den Beinen stärkere Muskeln als in den Armen.
 Für gewöhnlich versuche ich mich der Werbung zu entziehen.
@@ -27748,6 +27750,7 @@ Ohne Vertrag dürfen Sie nicht arbeiten.
 Ohne Waffenlieferungen wäre der Krieg vermutlich längst vorbei.
 Ohne Wind kann man keinen Drachen steigen lassen.
 Ohne Wohnung ist das eine, ohne Heimat das andere.
+Ohne Ziel ist auch der Weg egal!
 Ohne Zweifel gehörte dies zu den schönsten Erlebnissen.
 Ohne angeborene Schutzreflexe wäre wohl niemand von uns noch am Leben.
 Ohne begleitende Höhen machen Bässe keinen Spaß.
