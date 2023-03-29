@@ -139,6 +139,7 @@ nb-NO = نارویجی بوکمال
 nd = اندبیلی (شمالی)
 ne-NP = نیپالی
 nhe = مشرقی ہوسٹیکا نہوانی
+nhi = مغربی سیرا پیوبلا ناہوٹل
 nia = نیاس
 nl = ڈچ
 nn-NO = نارویجی نورسک
@@ -1600,6 +1601,8 @@ already-have-an-account = بھلا پہلے ای کھاتہ ہے؟ <login> لا�
 create-profile-button = پروفائل بݨاؤ
 # IMAGE TAGS
 img-alt-success-checkmark = کامیابی دا نشان
+# GUIDELINES PAGE
+guidelines-header = ونگار دے رہنما اصول
 voice-collection = اوازاں دا مجموعہ
 sentence-collection = فقریاں دا مجموعہ
 varying-pronunciations = بدلدا ہویا تلفظ
