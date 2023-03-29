@@ -163,7 +163,7 @@ button {
     }
 
     &.write {
-        @media (--sm-down) {
+        @media (--md-down) {
             overflow: auto;
         }
     }

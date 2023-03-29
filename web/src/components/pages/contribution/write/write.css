@@ -179,6 +179,12 @@
             display: flex;
             justify-content: space-between;
 
+            & .write-form-container {
+                @media (--md-down) {
+                    margin-bottom: 16px;
+                }
+            }
+
             > * {
                 display: flex;
                 align-items: center;
@@ -208,14 +214,25 @@
                 flex-direction: column;
                 justify-content: center;
                 align-items: center;
+
+                @media (--md-down) {
+                    width: 100%;
+                }
             }
 
             & .labeled-checkbox {
                 margin-bottom: 12px;
 
+                @media (--md-down) {
+                    width: 100%;
+                }
+
                 & span.label {
                     font-size: var(--font-size-xs);
-                    width: 190px;
+                    @media (--lg-up) {
+                        width: 190px;
+                    }
+                    
 
                     a {
                         color: var(--blue);
@@ -250,8 +267,24 @@
                 }
             }
 
+            & .primary-button {
+                @media (--md-down) {
+                    width: 100%;
+                }
+
+                button {
+                    @media (--md-down) {
+                        width: 100%;
+                    }
+                }
+            }
+
             @media (--md-down) {
-                display: none;
+                flex-direction: column-reverse;
+                align-items: center;
+                margin: 0 40px;
+                margin-top: 20px;
+                margin-bottom: 20px;
             }
         }
     }
