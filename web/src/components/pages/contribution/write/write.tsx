@@ -23,10 +23,10 @@ import { useAction } from '../../../../hooks/store-hooks';
 export type WriteProps = WithLocalizationProps;
 
 const Write: React.FC<WriteProps> = ({ getString }) => {
-  const [confirmPublicDomain, setConfirmPublicDomain] = useState(false);
-  const [sentence, setSentence] = useState('');
-  const [citation, setCitation] = useState('');
-  const [error, setError] = useState<SentenceSubmissionError>();
+  const [confirmPublicDomain, setConfirmPublicDomain] = useState(false)
+  const [sentence, setSentence] = useState('')
+  const [citation, setCitation] = useState('')
+  // const [error, setError] = useState<SentenceSubmissionError>();
 
   const [currentLocale] = useLocale();
   const languages = useTypedSelector(({ languages }) => languages);
@@ -87,9 +87,9 @@ const Write: React.FC<WriteProps> = ({ getString }) => {
       setSentence('');
       setCitation('');
       setConfirmPublicDomain(false);
-      setError(undefined);
+      // setError(undefined);
     } catch (error) {
-      console.log({ error });
+      // console.log({ error })
       // const errorMessage = JSON.parse(error.message)
       // console.log({ errorMessage })
       // setError(errorMessage.errorType)
@@ -111,7 +111,7 @@ const Write: React.FC<WriteProps> = ({ getString }) => {
               handleCitationChange={handleCitationChange}
               sentence={sentence}
               citation={citation}
-              error={error}
+              // error={error}
             />
           </div>
 
@@ -120,8 +120,9 @@ const Write: React.FC<WriteProps> = ({ getString }) => {
               <LinkButton
                 rounded
                 outline
-                className="hidden-sm-down guidelines-button"
+                className="guidelines-button"
                 blank
+                // TODO: update this to guidelines url
                 to={URLS.SPEAK}>
                 <QuestionIcon />
                 <Localized id="guidelines">
@@ -131,7 +132,6 @@ const Write: React.FC<WriteProps> = ({ getString }) => {
               <Button
                 rounded
                 outline
-                className="hidden-sm-down"
                 // TODO: remove this
                 onClick={() => console.log('sksksk')}>
                 <SendIcon />

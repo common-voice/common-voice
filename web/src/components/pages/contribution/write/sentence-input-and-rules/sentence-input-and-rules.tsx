@@ -16,7 +16,7 @@ type Props = {
   handleCitationChange: (event: React.ChangeEvent<HTMLInputElement>) => void;
   sentence: string;
   citation: string;
-  error: SentenceSubmissionError;
+  error?: SentenceSubmissionError;
 };
 
 export const SentenceInputAndRules: React.FC<Props> = ({
