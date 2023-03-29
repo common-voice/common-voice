@@ -1,7 +1,14 @@
-import { Localized } from '@fluent/react';
 import React from 'react';
+import { Localized } from '@fluent/react';
+import classNames from 'classnames';
 
-export const Rules = () => (
+import { SentenceSubmissionError } from 'common';
+
+type Props = {
+  error: SentenceSubmissionError;
+};
+
+export const Rules: React.FC<Props> = ({ error }) => (
   <div className="rules">
     <div className="inner">
       <Localized id="what-can-i-add">
@@ -29,7 +36,11 @@ export const Rules = () => (
           <li />
         </Localized>
         <Localized id="new-sentence-rule-2">
-          <li />
+          <li
+            className={classNames({
+              error: error === SentenceSubmissionError.TOO_LONG,
+            })}
+          />
         </Localized>
         <Localized id="new-sentence-rule-3">
           <li />
@@ -38,13 +49,27 @@ export const Rules = () => (
           <li />
         </Localized>
         <Localized id="new-sentence-rule-5">
-          <li />
+          <li
+            className={classNames({
+              error:
+                error === SentenceSubmissionError.NO_NUMBERS ||
+                error === SentenceSubmissionError.NO_SYMBOLS,
+            })}
+          />
         </Localized>
         <Localized id="new-sentence-rule-6">
-          <li />
+          <li
+            className={classNames({
+              error: error === SentenceSubmissionError.NO_FOREIGN_SCRIPT,
+            })}
+          />
         </Localized>
         <Localized id="new-sentence-rule-7">
-          <li />
+          <li
+            className={classNames({
+              error: error === SentenceSubmissionError.NO_CITATION,
+            })}
+          />
         </Localized>
         <Localized id="new-sentence-rule-8">
           <li className="last-rule" />

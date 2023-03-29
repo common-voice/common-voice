@@ -12,7 +12,6 @@ import URLS from '../../../../urls';
 import { PrimaryButton } from '../../../primary-buttons/primary-buttons';
 import { useLocale } from '../../../locale-helpers';
 
-import './write.css';
 import { SentenceInputAndRules } from './sentence-input-and-rules/sentence-input-and-rules';
 import { Sentences } from '../../../../stores/sentences';
 import { SentenceSubmission, SentenceSubmissionError } from 'common';
@@ -20,13 +19,16 @@ import { useTypedSelector } from '../../../../stores/tree';
 import { Notifications } from '../../../../stores/notifications';
 import { useAction } from '../../../../hooks/store-hooks';
 
+import './write.css';
+
 export type WriteProps = WithLocalizationProps;
 
 const Write: React.FC<WriteProps> = ({ getString }) => {
-  const [confirmPublicDomain, setConfirmPublicDomain] = useState(false)
-  const [sentence, setSentence] = useState('')
-  const [citation, setCitation] = useState('')
-  // const [error, setError] = useState<SentenceSubmissionError>();
+  // TODO: refactor this to useReducer
+  const [confirmPublicDomain, setConfirmPublicDomain] = useState(false);
+  const [sentence, setSentence] = useState('');
+  const [citation, setCitation] = useState('');
+  const [error, setError] = useState<SentenceSubmissionError>();
 
   const [currentLocale] = useLocale();
   const languages = useTypedSelector(({ languages }) => languages);
@@ -74,25 +76,26 @@ const Write: React.FC<WriteProps> = ({ getString }) => {
     };
 
     try {
-      await createSentence(newSentence);
-      console.log('here >>');
+      if (!citation) {
+        setError(SentenceSubmissionError.NO_CITATION);
+      } else {
+        await createSentence(newSentence);
 
-      addNotification({
-        message: getString('add-sentence-success'),
-        type: 'success',
-      });
-      console.log('here after>>');
+        addNotification({
+          message: getString('add-sentence-success'),
+          type: 'success',
+        });
 
-      // reset input fields after submission
-      setSentence('');
-      setCitation('');
-      setConfirmPublicDomain(false);
-      // setError(undefined);
+        // reset input fields after submission
+        setSentence('');
+        setCitation('');
+        setConfirmPublicDomain(false);
+        setError(undefined);
+      }
     } catch (error) {
-      // console.log({ error })
-      // const errorMessage = JSON.parse(error.message)
-      // console.log({ errorMessage })
-      // setError(errorMessage.errorType)
+      const errorMessage = JSON.parse(error.message);
+
+      setError(errorMessage.errorType);
       addNotification({
         message: getString('add-sentence-error'),
         type: 'error',
@@ -111,7 +114,7 @@ const Write: React.FC<WriteProps> = ({ getString }) => {
               handleCitationChange={handleCitationChange}
               sentence={sentence}
               citation={citation}
-              // error={error}
+              error={error}
             />
           </div>
 
@@ -161,7 +164,7 @@ const Write: React.FC<WriteProps> = ({ getString }) => {
                       <span />
                     </Localized>
                   }
-                  disabled={sentence.length === 0 || citation.length === 0}
+                  disabled={sentence.length === 0}
                   checked={confirmPublicDomain}
                   required
                   onChange={handlePublicDomainChange}
@@ -181,6 +184,6 @@ const Write: React.FC<WriteProps> = ({ getString }) => {
       </div>
     </div>
   );
-};
+}
 
 export default withLocalization(Write);
