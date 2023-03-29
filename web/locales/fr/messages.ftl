@@ -1576,6 +1576,7 @@ volume = Volume
 reader-effects = Intonations et effets sonores
 just-unsure = Vous hésitez ?
 example = Exemple
+varying-pronunciations-explanation-1 = Tous les accents sont les bienvenus ! Faites bien attention avant de rejeter un échantillon au motif que le lecteur ou la lectrice semble avoir mal prononcé un mot ou certaines paires de voyelles, ou a ignoré un signe de ponctuation. Il existe une grande variété de prononciations utilisées dans le monde, dont certaines que vous n’avez peut-être pas entendues dans votre région. Veuillez prévoir une grande marge d’appréciation pour les personnes qui peuvent parler différemment de vous.
 background-noise-example-1 = Les dinosaures géants du Trias.
 still-have-questions = Vous avez toujours des questions ?
 contact-common-voice = Contactez l’équipe Common Voice
