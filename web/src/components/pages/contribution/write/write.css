@@ -80,6 +80,17 @@
             }
         }
 
+        & label.sentence-input.sentence-error,
+           label.citation-input.citation-error {
+            textarea {
+                border-color: var(--red);
+            }
+
+            input[type="text"] {
+                border-color: var(--red);
+            }
+        }
+
         & .inputs-and-rules-container {
             display: flex;
             flex-direction: column;
@@ -146,6 +157,10 @@
                             color: var(--anchor-text-blue);
                             text-decoration: underline;
                         }
+                    }
+
+                    & li.error {
+                        list-style-image: url("../../../../components/ui/icons/alert.svg");
                     }
 
                     & li.last-rule {
@@ -293,5 +308,17 @@
         path {
             fill: var(--blue);
         }
+    }
+}
+
+
+.tippy-popper {
+    & .tippy-tooltip.tippy-tooltip--regular {
+        border-radius: 4px;
+        max-width: none;
+        font-style: normal;
+        height: 55px;
+        display: flex;
+        align-items: center;
     }
 }

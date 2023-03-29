@@ -1,5 +1,6 @@
 import React from 'react';
 import { Localized } from '@fluent/react';
+import classNames from 'classnames';
 
 import { EditIcon } from '../../../../ui/icons';
 import { LabeledInput } from '../../../../ui/ui';
@@ -7,6 +8,8 @@ import { WriteProps } from '../write';
 import { Rules } from './rules';
 import ExpandableInformation from '../../../../expandable-information/expandable-information';
 import { SentenceSubmissionError } from 'common';
+import { LabeledTextArea } from '../../../../ui/ui';
+import { Tooltip } from 'react-tippy';
 
 type Props = {
   getString: WriteProps['getString'];
@@ -16,7 +19,7 @@ type Props = {
   handleCitationChange: (event: React.ChangeEvent<HTMLInputElement>) => void;
   sentence: string;
   citation: string;
-  error?: SentenceSubmissionError;
+  error: SentenceSubmissionError;
 };
 
 export const SentenceInputAndRules: React.FC<Props> = ({
@@ -27,6 +30,10 @@ export const SentenceInputAndRules: React.FC<Props> = ({
   citation,
   error,
 }) => {
+  const isSentenceError =
+    error && error !== SentenceSubmissionError.NO_CITATION;
+  const isCitationError = error === SentenceSubmissionError.NO_CITATION;
+
   return (
     <div className="inputs-and-instruction">
       <div className="write-page-instruction">
@@ -44,10 +51,11 @@ export const SentenceInputAndRules: React.FC<Props> = ({
       <div className="inputs-and-rules-wrapper">
         <div className="inputs">
           <Localized id="sentence" attrs={{ label: true }}>
-            <LabeledInput
+            <LabeledTextArea
               placeholder={getString('sentence-input-value')}
-              className="sentence-input"
-              component="textarea"
+              className={classNames('sentence-input', {
+                'sentence-error': isSentenceError,
+              })}
               onChange={handleSentenceInputChange}
               value={sentence}
             />
@@ -55,11 +63,22 @@ export const SentenceInputAndRules: React.FC<Props> = ({
           <Localized id="citation" attrs={{ label: true }}>
             <LabeledInput
               placeholder={getString('citation-input-value')}
-              className="citation-input"
+              className={classNames('citation-input', {
+                'citation-error': isCitationError,
+              })}
               onChange={handleCitationChange}
               value={citation}
+              required
             />
           </Localized>
+          <Tooltip
+            theme="dark"
+            title={getString('required-field')}
+            open={isCitationError}
+            position="bottom-start"
+            className="tooltip"
+            distance={-5}
+          />
           <div className="expandable-container">
             <ExpandableInformation summaryLocalizedId="how-to-cite">
               <Localized id="how-to-cite-explanation-bold">
@@ -71,7 +90,7 @@ export const SentenceInputAndRules: React.FC<Props> = ({
             </ExpandableInformation>
           </div>
         </div>
-        <Rules />
+        <Rules error={error} />
       </div>
     </div>
   );
