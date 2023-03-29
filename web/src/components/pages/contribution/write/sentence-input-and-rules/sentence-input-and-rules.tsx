@@ -77,6 +77,8 @@ export const SentenceInputAndRules: React.FC<Props> = ({
             open={isCitationError}
             position="bottom-start"
             className="tooltip"
+            sticky
+            stickyDuration
             distance={-5}
           />
           <div className="expandable-container">
