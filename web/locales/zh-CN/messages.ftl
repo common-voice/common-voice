@@ -1545,4 +1545,7 @@ voice-collection = 收集语音
 sentence-collection = 语句集合
 varying-pronunciations = 不同发音
 misreadings = 误读
+offensive-content = 冒犯性内容
+volume = 音量
 reader-effects = 朗读者因素
+example = 示例
