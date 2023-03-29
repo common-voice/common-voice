@@ -1576,4 +1576,7 @@ adding-sentences-subheader-special-characters = 特殊符號與外文
 adding-sentences-subheader-special-characters-explanation-1 = 必須使用原文語言所使用的相關文字或字母，舉例來說：「ж」是俄語字母，但英文或中文都不會用到，因此不該包含在原文中。
 adding-sentences-subheader-offensive-content = 冒犯性內容
 reviewing-sentences-explanation-1 = 若句子符合上述標準，請點擊「通過」按鈕。
+reviewing-sentences-explanation-2 = 若句子不符合上述標準，請點擊「拒絕」按鈕。
+reviewing-sentences-explanation-3 = 如果您不確定句子是否符合上述標準，也可以略過，跳到下一句。
+reviewing-sentences-explanation-4 = 若您已經沒有句子可以審核了，請幫助我們收集更多句子！
 community-announcement-header = 社群公告！
