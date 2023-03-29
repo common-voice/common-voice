@@ -262,6 +262,7 @@ wall-of-text-first =
     Kan ye dacogo ye, kan ye hadamaden ye. O de y’a to an nisɔndiyalen don ka kumakan fɛɛrɛbɔlanw dilan minnu bɛ se ka baara kɛ¶
     an ka masinw kama. Nka walasa ka kumakanw dabɔ, baarakɛlaw mago bɛ kan hakɛ camanba la kosɛbɛ¶
     kunnafoniw.
+wall-of-text-second = Baarakɛdabaw bɛ baara kɛ ni kunnafonidilan minnu ye, olu fanba tɛ sɔrɔ mɔgɔ fanba bolo. An hakili la o¶ bɛ kokuradonni dabila. O la, an ye Common Voice daminɛ, porozɛ min bɛ dɛmɛ don ka kumakan dɔnni da wuli¶ ani ka se bɛɛ ma.
 
 ## Account Benefits
 
@@ -270,6 +271,7 @@ keep-track = Aw ye aw ka ɲɛtaa ni jateminɛw jateminɛ kan caman kɔnɔ.
 ## What's public
 
 recordings-and-locale-public = Fɔlisenw hakɛ ani i bɛ dɛmɛ don kan minnu na, o bɛna kɛ foroba ye.
+demographic-deidentified-clarity-2 = Jamanadenw ka kunnafoniw minnu bɛ ci i yɛrɛ sago la (misali la, u si hakɛ, cɛya ni musoya, kan, ani u fɔcogo), olu tɛna kɛ foroba ye abada i ka kunnafonisɛbɛn kan, wa u tɛna siri i ka jatebɔsɛbɛn na kunnafonidilan kɔnɔ. Odio-klip kelen-kelen bɛɛ bɛna jɛ jamanadenw ka kunnafoniw na walasa ka sɛgɛsɛgɛli kɛ ka ɲɛ - misali la, ɲininikɛla dɔ bɛ se k’a fɛ ka kalan misali dɔ ɲɛsin jamanaden hakɛ yɔrɔ kɛrɛnkɛrɛnnen dɔ ma.
 
 ## Speak & Listen Shortcuts
 
@@ -285,6 +287,7 @@ recordings-and-locale-public = Fɔlisenw hakɛ ani i bɛ dɛmɛ don kan minnu na
 
 ## ProfileForm
 
+why-demographic-explanation-2 = Baarakɛlaw ka kunnafoniw minnu tɔgɔ ma fɔ i n’a fɔ u si hakɛ, cɛya ni musoya ani u fɔcogo, olu bɛ dɛmɛ ka kunnafoni lamɛntaw ɲɛ, minnu bɛ kɛ ka kuma dɔnni masinw ka tiɲɛni dege. I ka baarakɛla tɔgɔ ni i ka imeyili tɛna jɛ abada i ka kunnafoniw cilenw na, wa i bɛ se k’a sugandi n’i bɛna i ka baarakɛla tɔgɔ kɛ foroba la walima n’i tɔgɔ tɛ fɔ.
 help-accent-explanation = I ka fɔcogo ye i bɛ daɲɛw fɔcogo minna. O bɛ sɔrɔ  I sigiyɔrɔ  fɛ , i bɛ kan wɛrɛ minnu fɔ ani fɛn caman wɛrɛw. Aw bɛ se ka kunnafoni bɛɛ lase yan aw hakili la min bɛ se ka mago ɲɛ.
 
 ## Profile - Email
