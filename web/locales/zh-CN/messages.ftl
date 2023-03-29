@@ -44,6 +44,7 @@ be = 白俄罗斯语
 bg = 保加利亚语
 bm = 班巴拉语
 bn = 孟加拉语
+bo = 藏语
 br = 布列塔尼语
 bs = 波斯尼亚语
 bxr = 布里亚特语
@@ -1538,3 +1539,9 @@ already-have-an-account = 已有账户？<login>登录</login>
 create-profile-button = 创建用户资料
 # IMAGE TAGS
 img-alt-success-checkmark = 标记成功
+# GUIDELINES PAGE
+guidelines-header = 贡献准则
+voice-collection = 收集语音
+sentence-collection = 语句集合
+varying-pronunciations = 不同发音
+misreadings = 误读
