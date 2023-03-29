@@ -1656,7 +1656,7 @@ img-alt-success-checkmark = წარმატებით შესრულე
 # GUIDELINES PAGE
 guidelines-header = მონაწილეთა გზამკვლევი
 guidelines-header-subtitle = გაეცანით, როგორ უნდა დაამატოთ და შეამოწმოთ წინადადებები ან ხმოვანი ჩანაწერები Common Voice-ის მონაცემთა კრებულში.
-voice-collection = ხმოვანი კრებული
+voice-collection = ხმების შეგროვება
 sentence-collection = წინადადებების შეგროვება
 varying-pronunciations = განსხვავებული გამოთქმა
 misreadings = შეცდომით ამოკითხვა
