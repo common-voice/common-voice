@@ -3,7 +3,7 @@ import {
   withLocalization,
   WithLocalizationProps,
 } from '@fluent/react';
-import React, { useState } from 'react';
+import React, { useReducer } from 'react';
 import { useDispatch } from 'react-redux';
 
 import { QuestionIcon, SendIcon } from '../../../ui/icons';
@@ -18,17 +18,21 @@ import { SentenceSubmission, SentenceSubmissionError } from 'common';
 import { useTypedSelector } from '../../../../stores/tree';
 import { Notifications } from '../../../../stores/notifications';
 import { useAction } from '../../../../hooks/store-hooks';
+import { WriteActionType, writeReducer, WriteState } from './write.reducer';
 
 import './write.css';
 
 export type WriteProps = WithLocalizationProps;
 
+const initialState: WriteState = {
+  sentence: '',
+  citation: '',
+  error: undefined,
+  confirmPublicDomain: false,
+};
+
 const Write: React.FC<WriteProps> = ({ getString }) => {
-  // TODO: refactor this to useReducer
-  const [confirmPublicDomain, setConfirmPublicDomain] = useState(false);
-  const [sentence, setSentence] = useState('');
-  const [citation, setCitation] = useState('');
-  const [error, setError] = useState<SentenceSubmissionError>();
+  const [state, writeDispatch] = useReducer(writeReducer, initialState);
 
   const [currentLocale] = useLocale();
   const languages = useTypedSelector(({ languages }) => languages);
@@ -52,32 +56,41 @@ const Write: React.FC<WriteProps> = ({ getString }) => {
   };
 
   const handlePublicDomainChange = () => {
-    setConfirmPublicDomain(!confirmPublicDomain);
+    writeDispatch({ type: WriteActionType.SET_PUBLIC_DOMAIN });
   };
 
   const handleSentenceInputChange = (
     event: React.ChangeEvent<HTMLTextAreaElement>
   ) => {
-    setSentence(event.target.value);
+    writeDispatch({
+      type: WriteActionType.SET_SENTENCE,
+      payload: { sentence: event.target.value },
+    });
   };
 
   const handleCitationChange = (event: React.ChangeEvent<HTMLInputElement>) => {
-    setCitation(event.target.value);
+    writeDispatch({
+      type: WriteActionType.SET_CITATION,
+      payload: { citation: event.target.value },
+    });
   };
 
   const handleSubmit = async (evt: React.SyntheticEvent) => {
     evt.preventDefault();
 
     const newSentence: SentenceSubmission = {
-      sentence,
-      source: citation,
+      sentence: state.sentence,
+      source: state.citation,
       localeId,
       localeName: currentLocale,
     };
 
     try {
-      if (!citation) {
-        setError(SentenceSubmissionError.NO_CITATION);
+      if (!state.citation) {
+        writeDispatch({
+          type: WriteActionType.ADD_SENTENCE_ERROR,
+          payload: { error: SentenceSubmissionError.NO_CITATION },
+        });
       } else {
         await createSentence(newSentence);
 
@@ -86,16 +99,15 @@ const Write: React.FC<WriteProps> = ({ getString }) => {
           type: 'success',
         });
 
-        // reset input fields after submission
-        setSentence('');
-        setCitation('');
-        setConfirmPublicDomain(false);
-        setError(undefined);
+        writeDispatch({ type: WriteActionType.ADD_SENTENCE_SUCCESS });
       }
     } catch (error) {
       const errorMessage = JSON.parse(error.message);
 
-      setError(errorMessage.errorType);
+      writeDispatch({
+        type: WriteActionType.ADD_SENTENCE_ERROR,
+        payload: { error: errorMessage.errorType },
+      });
       addNotification({
         message: getString('add-sentence-error'),
         type: 'error',
@@ -112,9 +124,9 @@ const Write: React.FC<WriteProps> = ({ getString }) => {
               getString={getString}
               handleSentenceInputChange={handleSentenceInputChange}
               handleCitationChange={handleCitationChange}
-              sentence={sentence}
-              citation={citation}
-              error={error}
+              sentence={state.sentence}
+              citation={state.citation}
+              error={state.error}
             />
           </div>
 
@@ -164,8 +176,8 @@ const Write: React.FC<WriteProps> = ({ getString }) => {
                       <span />
                     </Localized>
                   }
-                  disabled={sentence.length === 0}
-                  checked={confirmPublicDomain}
+                  disabled={state.sentence.length === 0}
+                  checked={state.confirmPublicDomain}
                   required
                   onChange={handlePublicDomainChange}
                   data-testid="checkbox"
@@ -174,7 +186,7 @@ const Write: React.FC<WriteProps> = ({ getString }) => {
                   <PrimaryButton
                     className="submit"
                     type="submit"
-                    disabled={!confirmPublicDomain}
+                    disabled={!state.confirmPublicDomain}
                   />
                 </Localized>
               </form>
