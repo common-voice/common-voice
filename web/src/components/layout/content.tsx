@@ -25,7 +25,6 @@ const PartnerPage = React.lazy(() => import('../pages/partner/partner'));
 const GuidelinesPage = React.lazy(
   () => import('../pages/guidelines/guidelines')
 );
-const WritePage = React.lazy(() => import('../pages/write/write'));
 
 const SentryRoute = Sentry.withSentryRouting(Route);
 
