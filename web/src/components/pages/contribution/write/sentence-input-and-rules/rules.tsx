@@ -5,13 +5,17 @@ import classNames from 'classnames';
 import { SentenceSubmissionError } from 'common';
 import { ChevronDown } from '../../../../ui/icons';
 import { TextButton } from '../../../../ui/ui';
+import useIsMaxWindowWidth from '../../../../../hooks/use-is-max-window-width';
 
 type Props = {
   error: SentenceSubmissionError;
 };
 
+const MAX_WINDOW_WIDTH = 576;
+
 export const Rules: React.FC<Props> = ({ error }) => {
   const [rulesVisible, setShowRulesVisible] = useState(true);
+  const isMobileWidth = useIsMaxWindowWidth(MAX_WINDOW_WIDTH);
 
   const handleClick = () => {
     setShowRulesVisible(!rulesVisible);
@@ -29,7 +33,7 @@ export const Rules: React.FC<Props> = ({ error }) => {
             onClick={handleClick}
           />
         </div>
-        {rulesVisible && (
+        {(rulesVisible || !isMobileWidth) && (
           <ul>
             <Localized
               id="new-sentence-rule-1"
