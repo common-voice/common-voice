@@ -3453,6 +3453,7 @@ Ev hejmara herî mezin a rojekê ye ya ji ber vîrusê.
 Ev hemû bandorê li jiyana me dikin.
 Ev hemû li ser çi ne?
 Ev hemû pirtûk in.
+Ev hemû wekî encama axaftinan dibe an nabe?
 Ev hemû xweşî û zengîniya welatê me ne.
 Ev henekek e, ne wisa?
 Ev her du şirket, bi hezaran karmendên xwe ji kar derdixin
@@ -3944,6 +3945,7 @@ Ew gotinên rojên borî rast bûn!
 Ew goşt e.
 Ew goştê sor e.
 Ew gund bêxwedî ye.
+Ew hatiye derecekirin?
 Ew heft salî ye.
 Ew helwestên ne baş in û têkiliyên me xirab dikin.
 Ew heman peyv e di her zimanan de.
@@ -3968,6 +3970,7 @@ Ew ji hêla malbata xwe ve tê piştgirîkirin.
 Ew ji karê xwe hate qewirandin.
 Ew ji malê derket.
 Ew ji malê derketin.
+Ew ji min re pirtûkekê dixwînin.
 Ew ji mûçeyê xwe yê niha ne memnûn e.
 Ew ji sedî sêzdeh li dij bû.
 Ew ji te dipirse.
@@ -4461,6 +4464,7 @@ Ew şexs, neyariya xwe tim tîne ziman
 Ew, Berîvanê digre li gel xwe û ji nêz ve pê re mijûl dibe
 Ew, Zelalê dibin ku derê?
 Ew, bi kincên xwe yên herêmî, bala hemû kesan dikişîne
+Ew, bilêtên xwe li acenteyeke geştê rezerve dikin?
 Ew, di ciwaniya xwe de çepgir bû
 Ew, di serokatiya şaredariyê de jî pêşengekî hevdem e
 Ew, her wiha bi bîr dixe ku ev malbat, nîşana wê yekê ye
@@ -4518,6 +4522,7 @@ Ez aliqîme.
 Ez almanî fêr dibim.
 Ez alî te dikim.
 Ez alî te nakim.
+Ez amade me ku dev jê berdim.
 Ez amade me.
 Ez aniha bimirim ew ê çi bibe, nemirim ew ê çi bibe?
 Ez aniha dixwazim bibim nivîskar.
@@ -5053,6 +5058,7 @@ Ez li olîmpiyatan temaşe dikim.
 Ez li parkê hinekî bisikletê xwe diajom, dû re qehweyê vedixwim.
 Ez li pêş vê balyozxaneyê, çalakvan bûm
 Ez li pêş, restoranê dibînim tu çi dibînî?
+Ez li ser sparteka xwe ya îngilîzî xebitîm.
 Ez li ser text bûm, îja ez hatime xênî.
 Ez li strana dawî ya Mem ararat guhdarî dikim.
 Ez li telefona xwe digerim.
@@ -5180,6 +5186,7 @@ Ez nikarim bifirim.
 Ez nikarim biryarê bidim.
 Ez nikarim dev ji fikirîna li ser wê berdim.
 Ez nikarim dev ji fikirîna li ser wî berdim.
+Ez nikarim vegerê bibînim?
 Ez nikarim vê ezmûnê derbas bikim. Pir zor e.
 Ez nikarim vê makîneyê bi kar bînim.
 Ez nikarim îsota reş bixwim.
@@ -6281,6 +6288,7 @@ Her wiha Zanîngeha Cenevreyê jî piştgirî dide belgefîlmê
 Her wiha bi rêya tevlihevkirina rengan, rengên nû saz bikin.
 Her wiha derbarê Mûsilê jî behsa wê yekê kir
 Her wiha ew dikare di navbera platforman de bê bikaranîn.
+Her wiha garantiya salekê jî heye.
 Her wiha ji ber ku maleke kevn e.
 Her wiha ku meriv rind têra xwe ji van gotinên payedar wergire.
 Her wiha li bajêr, bizava hewayî jî hêj dom dike
@@ -7249,6 +7257,7 @@ Ji bilî xaka berhemdar, avên ku van xakan av didin jî hene.
 Ji bo Cîgira Mazlûm Ebdî peyama sersaxiyê hat belavkirin.
 Ji bo Sûriyan mohleta taybet a cejnê nayê dayîn.
 Ji bo agahîyê we ku daye me, ji we re pir spas dikim
+Ji bo analîza me destpêka herî bingehîn hevkêşeyên Maxwell e.
 Ji bo avakirina civakek nûjen, tiştek din jî lazim e
 Ji bo behremendên muzîk û stranan platformeke nû.
 Ji bo berjewendiya xwe dev ji rûmeta xwe berdide.
@@ -7441,6 +7450,7 @@ Ji jina min a ewil keçeke min a çardeh salî hebû.
 Ji jiyana min bicehime! Ez ji te nefretê digirim.
 Ji jiyana min derket û çû.
 Ji kameraya çavdêriyê derbasbûna serbazên Rûsî ji Kirimê li nav axa Ukraynayê.
+Ji kamerayê wêneyan bişîne.
 Ji kamereya Rûdawê serdana Biden a li Polandê.
 Ji karê ku dikir jî perekî pir kar nedikir
 Ji keleman pir hez dike.
@@ -7453,6 +7463,7 @@ Ji kerema xwe ber bi paşiyê ve bimeşe.
 Ji kerema xwe bila ji min re pakêt bike.
 Ji kerema xwe dersa bi zimanê Kurdî hilbijêrin.
 Ji kerema xwe gavên pevsazkirinê temam bike.
+Ji kerema xwe guhertoya herî dawî ya WhatsApp Messengerê daxîne.
 Ji kerema xwe hemû stranan jê bibe.
 Ji kerema xwe hesabê min sererast bike.
 Ji kerema xwe hûn dikarin odeyekê ji min re veqetînin?
@@ -8023,6 +8034,7 @@ Konferansa Hîndekarî û Perwerdehiya Kurdî dest pê kir
 Kongreya Nivîskarên Kurd, li Swêdê pêk hat
 Konsera Îlkay Akkaya bi hinceta Partiya Karkerên Kurdistanê hat qedexekirin.
 Konserên biharê bi coş bûn.
+Konsola te ya li ser Ebayê hîn jî li ber firotinê ye?
 Konsulxaneyên çar welatan nameyek arasteyî Nêçîrvan Barzanî kirin.
 Konsulê Ukraynayê yê Hewlêrê beşdarî şerê dijî Rûsyayê bû.
 Konsulên welatan ên li Hewlêrê, Newroz li gelê Kurdistanê pîroz kirin.
@@ -8874,6 +8886,7 @@ Li gorî agahiyên hatin bidestxistin îro wesayîteke leşkerî derbasî Başû
 Li gorî bajarên din ên Pakistanê bajarekî pir pêşketî ye.
 Li gorî bernameyê, ez xwe amade dikim.
 Li gorî fikra min.
+Li gorî ku ez difikirim mêlevanî bi rastî kêfê dide û egzersîzeke baş e.
 Li gorî lêkolînan dibe ku Feqî ji malbateke mîran be.
 Li gorî min helbest ew tişt e
 Li gorî mirov û civakan nayên guherîn.
@@ -10976,6 +10989,7 @@ Piştî vê hefteyekî navber bidin
 Piştî vê tomarê rawestîne.
 Piştî vê yekê min dest bi vê kambaxê kir!.
 Piştî wan, Kurdan jî ji Ermeniyan lêborîn xwest
+Piştî xwarina dermên nepixîn kêm bûye.
 Piştî xwarinê zikê min diêşe.
 Piştî xwarinê çayê xweş e.
 Piştî xwedê, afirînerê herî mezin siruşt e.
@@ -11555,6 +11569,7 @@ Saet li neha vegeriya.
 Saet neh û çaryek e.
 Saet pênc e.
 Saet sê kêm çaryek e.
+Saet sê ye.
 Saet sê û nîv e.
 Saet sê û pênc deqîqe ye.
 Saet tê çaran, divê spartekên xwe çêbikim.
@@ -11634,6 +11649,7 @@ Selahedîn Demirtaş banga yekitiyê li opozîsyonê kir.
 Seleheddînê Eyyûbî, yek ji lehengên mezinên Kurdan e
 Selçuk Mizrakli li jûra girtîgehê ya Selhadîn Demîrtaş bi cih bû.
 Sema jî wiha bersiv da wî.
+Sepana Androidê daxîne.
 Sepana Signalê pir kêrhatî ye.
 Sepana firoşgehê sepanan pir hêdî dadixe û nûve dike
 Sepana firoşgehê sepanan pir hêdî dadixe û nûve dike.
@@ -12740,6 +12756,7 @@ Tu dikarî karekî bidî min?
 Tu dikarî kengî werî?
 Tu dikarî kîjan amûrên teknîkî bi kar bînî?
 Tu dikarî mirovan ji muzîka ku lê guhdarî dike, nas bikî.
+Tu dikarî nimûneyekê bidî min?
 Tu dikarî piştrast bî.
 Tu dikarî rasterast bi otobûsê an jî trênê herî wê derê.
 Tu dikarî têkevî.
@@ -12811,6 +12828,7 @@ Tu dê nebarînî.
 Tu dê nebêhnijî.
 Tu dê neyînî.
 Tu esîlî, bi muxtarê gund be.
+Tu gelek bedew î.
 Tu gurçika min î.
 Tu henekê xwe bi min dikî.
 Tu her dem di bîra min de yî.
@@ -14139,6 +14157,7 @@ Xurekên xwe bi hîjyenîk û paqîj amade bikin.
 Xutbeya Xatirxwestinê
 Xutbeya Xatirxwestinê tev ji bîra kirin.
 Xuya dike ew di xewê de ye.
+Xuya ye ev domaîn nederbasdar e.
 Xuya ye ev pêşniyara min nehate hesabê te.
 Xuya ye ez û Tom yextiyar dibin.
 Xuya ye mere neceribîne çêtir e.
