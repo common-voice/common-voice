@@ -345,7 +345,7 @@ shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = ახლიდან ჩაწერა
 shortcut-discard-ongoing-recording = ESC
 shortcut-discard-ongoing-recording-label = მიმდინარე ჩაწერის გაუქმება
-shortcut-submit = დაბრუნება
+shortcut-submit = Return
 shortcut-submit-label = ჩანაწერების გადაგზავნა
 request-language-text = ვერ იპოვეთ თქვენი ენა Common Voice-ში?
 request-language-button = მოითხოვეთ ენის დამატება
@@ -1577,11 +1577,11 @@ sc-review-form-button-reject = უარყოფა
 sc-review-form-button-skip = გამოტოვება
 sc-review-form-button-approve = მიღება
 # Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
-sc-review-form-button-approve-shortcut = დ
+sc-review-form-button-approve-shortcut = d
 # Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
-sc-review-form-button-reject-shortcut = ა
+sc-review-form-button-reject-shortcut = a
 # Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
-sc-review-form-button-skip-shortcut = ტ
+sc-review-form-button-skip-shortcut = t
 sc-review-form-keyboard-usage-custom = შეგიძლიათ ღილაკებიც გამოიყენოთ სამართავად: { sc-review-form-button-approve-shortcut } არის დასამოწმებლად, { sc-review-form-button-reject-shortcut } – უარსაყოფად და { sc-review-form-button-skip-shortcut } – გამოსატოვებლად.
 sc-review-form-button-submit =
     .submitText = შემოწმების დასრულება
