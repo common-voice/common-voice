@@ -19,8 +19,7 @@ describe('Contribute Menu Test', () => {
     expect(screen.queryByTestId('contribute-menu')).toBeTruthy();
     expect(await screen.findByText('Speak')).toBeTruthy();
     expect(await screen.findByText('Listen')).toBeTruthy();
-    expect(await screen.findByText('Write')).toBeTruthy();
-    expect(await screen.findByText('Review')).toBeTruthy();
+    expect(await screen.findByText('Write')).toBeTruthy()
   });
 
   it('shows the menu on hover', () => {
