@@ -1758,3 +1758,25 @@ citing-sentences-subheader-academic-reference-explanation =
     Ви можете використовувати академічний стиль посилань, наприклад, гарвардський стиль
     «Mozilla (2021) Common Voice. Доступно на https://commonvoice.mozilla.org/ (Доступно від: 15 вересня 2021 року)»
 citing-sentences-subheader-offline-sources = Офлайн-джерела
+citation =
+    .label = Цитата
+self-citation = Самоцитування
+self-citation-explanation = Ось як ви цитуєте себе, якщо ви самі написали текст.
+adding-sentences-subheader-length = Довжина
+adding-sentences-subheader-length-explanation = У реченні має бути менше ніж 15 слів.
+adding-sentences-subheader-spelling-punctuation = Орфографія і розділові знаки
+adding-sentences-subheader-spelling-punctuation-explanation = Речення має бути написано правильно.
+adding-sentences-subheader-speakable = Вимовність
+adding-sentences-subheader-numbers = Числа
+adding-sentences-subheader-abbreviations = Скорочення та абревіатури
+adding-sentences-subheader-abbreviations-explanation = У тексті джерела слід уникати таких абревіатур і скорочень, як «США» або «ICE», оскільки вони можуть бути прочитані інакше від написання. Крім того, для однієї абревіатури може бути кілька правильних прочитань.
+adding-sentences-subheader-punctuation = Розділові знаки
+adding-sentences-subheader-special-characters = Спеціальні символи та іноземні букви
+adding-sentences-subheader-special-characters-explanation-1 = Букви мають належати до мови, якою вимовляються. Наприклад, «ж» — це літера кириличної абетки, але ніколи не використовується в англійській мові, і тому ніколи не повинна з'являтися в жодному англійському вихідному тексті.
+adding-sentences-subheader-offensive-content = Образливий вміст
+adding-sentences-subheader-offensive-content-explanation = Якщо речення образливе або неоднозначне - наприклад, через відвертий вміст або інше порушення наших <communityGuidelines>правил участі в спільноті</communityGuidelines> - вам слід відхилити речення. Ви також можете зв’язатися з нами за адресою <emailFragment>commonvoice@mozilla.com</emailFragment>, щоб передати проблему на вищий рівень.
+reviewing-sentences-explanation-1 = Якщо речення відповідає критеріям, натисніть кнопку «Так».
+reviewing-sentences-explanation-2 = Якщо речення не відповідає наведеним критеріям, натисніть кнопку «Ні».
+reviewing-sentences-explanation-3 = Якщо ви не впевнені щодо речення, ви також можете пропустити його та перейти до наступного.
+reviewing-sentences-explanation-4 = Якщо у вас закінчилося речення для розгляду, допоможіть нам зібрати більше речень!
+community-announcement-header = Оголошення спільноти!
