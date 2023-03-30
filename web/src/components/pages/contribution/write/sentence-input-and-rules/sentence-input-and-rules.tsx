@@ -9,6 +9,8 @@ import { Rules } from './rules';
 import ExpandableInformation from '../../../../expandable-information/expandable-information';
 import { SentenceSubmissionError } from 'common';
 import { LabeledTextArea } from '../../../../ui/ui';
+import { LocaleLink } from '../../../../locale-helpers';
+import URLS from '../../../../../urls';
 
 type Props = {
   getString: WriteProps['getString'];
@@ -81,7 +83,11 @@ export const SentenceInputAndRules: React.FC<Props> = ({
               <Localized id="how-to-cite-explanation-bold">
                 <span className="bold" />
               </Localized>
-              <Localized id="how-to-cite-explanation">
+              <Localized
+                id="how-to-cite-explanation"
+                elems={{
+                  guidelinesLink: <LocaleLink to={URLS.GUIDELINES} blank />,
+                }}>
                 <span />
               </Localized>
             </ExpandableInformation>

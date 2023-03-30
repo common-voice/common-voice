@@ -271,6 +271,12 @@
                 }
             }
 
+            & .expandable-information__text {
+                a {
+                    color: var(--blue);
+                }
+            }
+
             @media (--xs-down) {
                 font-size: var(--font-size-xs);
             }
