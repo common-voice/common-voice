@@ -119,47 +119,47 @@ const Write: React.FC<WriteProps> = ({ getString }) => {
     <div className="write-page">
       <div className="write-wrapper">
         <div className="write">
-          <div className="inputs-and-rules-container">
-            <SentenceInputAndRules
-              getString={getString}
-              handleSentenceInputChange={handleSentenceInputChange}
-              handleCitationChange={handleCitationChange}
-              sentence={state.sentence}
-              citation={state.citation}
-              error={state.error}
-            />
-          </div>
-
-          <div className="buttons">
-            <div>
-              <LinkButton
-                rounded
-                outline
-                className="guidelines-button"
-                blank
-                // TODO: update this to guidelines url
-                to={URLS.SPEAK}>
-                <QuestionIcon />
-                <Localized id="guidelines">
-                  <span />
-                </Localized>
-              </LinkButton>
-              <Button
-                rounded
-                outline
-                // TODO: remove this
-                onClick={() => console.log('sksksk')}>
-                <SendIcon />
-                <Localized id="contact-us">
-                  <span />
-                </Localized>
-              </Button>
+          <form
+            className="guidelines-form"
+            data-testid="guidelines-form"
+            onSubmit={handleSubmit}>
+            <div className="inputs-and-rules-container">
+              <SentenceInputAndRules
+                getString={getString}
+                handleSentenceInputChange={handleSentenceInputChange}
+                handleCitationChange={handleCitationChange}
+                sentence={state.sentence}
+                citation={state.citation}
+                error={state.error}
+              />
             </div>
-            <div className="write-form-container">
-              <form
-                className="guidelines-form"
-                data-testid="guidelines-form"
-                onSubmit={handleSubmit}>
+
+            <div className="buttons">
+              <div>
+                <LinkButton
+                  rounded
+                  outline
+                  className="guidelines-button"
+                  blank
+                  // TODO: update this to guidelines url
+                  to={URLS.SPEAK}>
+                  <QuestionIcon />
+                  <Localized id="guidelines">
+                    <span />
+                  </Localized>
+                </LinkButton>
+                <Button
+                  rounded
+                  outline
+                  // TODO: remove this
+                  onClick={() => console.log('sksksk')}>
+                  <SendIcon />
+                  <Localized id="contact-us">
+                    <span />
+                  </Localized>
+                </Button>
+              </div>
+              <div className="write-form-container">
                 <LabeledCheckbox
                   label={
                     <Localized
@@ -189,9 +189,9 @@ const Write: React.FC<WriteProps> = ({ getString }) => {
                     disabled={!state.confirmPublicDomain}
                   />
                 </Localized>
-              </form>
+              </div>
             </div>
-          </div>
+          </form>
         </div>
       </div>
     </div>
