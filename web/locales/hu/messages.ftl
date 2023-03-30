@@ -1615,6 +1615,7 @@ just-unsure = Csak bizonytalan?
 example = Példa
 varying-pronunciations-explanation-1 = Minden akcentust szívesen várunk! Legyen nagyon óvatos, mielőtt azért utasít el egy klipet, mert az olvasó hibásan ejtett ki egy szót, rossz helyre tette a hangsúlyt, vagy figyelmen kívül hagyta a központozást. Sokféle kiejtést használnak, és nem biztos, hogy mindet hallotta a helyi közösségében. Erősen vegye figyelembe, hogy mások másképpen beszélnek.
 varying-pronunciations-explanation-2 = Másrészt, ha úgy gondolja, hogy az olvasó még soha nem találkozott a szóval, és tévesen tippelt a kiejtésére, akkor utasítsa el. Ha bizonytalan, használja a kihagyás gombot.
+offensive-content-explanation = A mondatok egy közösségi moderálási folyamat során kerülnek átvizsgálásra, azonban ez a folyamat nem tökéletes. Ha olyan mondatot lát vagy hall, amely sérti Önt – például mert sérti a <participationGuidelines>közösségi részvételi irányelveinket</participationGuidelines> –, akkor használja a jelentés gombot a felületen. Felkereshet minket a <emailFragment>commonvoice@mozilla.com</emailFragment> címen is.
 misreadings-explanation-5 = Olyan összevonások felolvasása, melyek nem szerepelnek a szövegben.
 misreadings-explanation-6 = Hiányzó utolsó szó a felvétel túl gyors befejezése miatt.
 misreadings-explanation-7 = Többszöri próbálkozás egy szó felolvasására.
