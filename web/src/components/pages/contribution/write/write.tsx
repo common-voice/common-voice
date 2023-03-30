@@ -7,7 +7,7 @@ import React, { useReducer } from 'react';
 import { useDispatch } from 'react-redux';
 
 import { QuestionIcon, SendIcon } from '../../../ui/icons';
-import { Button, LabeledCheckbox, LinkButton } from '../../../ui/ui';
+import { LabeledCheckbox, LinkButton } from '../../../ui/ui';
 import URLS from '../../../../urls';
 import { PrimaryButton } from '../../../primary-buttons/primary-buttons';
 import { useLocale } from '../../../locale-helpers';
@@ -19,6 +19,8 @@ import { useTypedSelector } from '../../../../stores/tree';
 import { Notifications } from '../../../../stores/notifications';
 import { useAction } from '../../../../hooks/store-hooks';
 import { WriteActionType, writeReducer, WriteState } from './write.reducer';
+
+import { COMMON_VOICE_EMAIL } from '../../../../constants';
 
 import './write.css';
 
@@ -141,23 +143,22 @@ const Write: React.FC<WriteProps> = ({ getString }) => {
                   outline
                   className="guidelines-button"
                   blank
-                  // TODO: update this to guidelines url
-                  to={URLS.SPEAK}>
+                  to={URLS.GUIDELINES}>
                   <QuestionIcon />
                   <Localized id="guidelines">
                     <span />
                   </Localized>
                 </LinkButton>
-                <Button
+                <LinkButton
                   rounded
                   outline
-                  // TODO: remove this
-                  onClick={() => console.log('sksksk')}>
+                  blank
+                  href={`mailto:${COMMON_VOICE_EMAIL}`}>
                   <SendIcon />
                   <Localized id="contact-us">
                     <span />
                   </Localized>
-                </Button>
+                </LinkButton>
               </div>
               <div className="write-form-container">
                 <LabeledCheckbox
