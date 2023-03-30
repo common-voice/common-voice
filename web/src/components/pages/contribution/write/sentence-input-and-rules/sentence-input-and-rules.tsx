@@ -9,7 +9,6 @@ import { Rules } from './rules';
 import ExpandableInformation from '../../../../expandable-information/expandable-information';
 import { SentenceSubmissionError } from 'common';
 import { LabeledTextArea } from '../../../../ui/ui';
-import { Tooltip } from 'react-tippy';
 
 type Props = {
   getString: WriteProps['getString'];
@@ -68,19 +67,15 @@ export const SentenceInputAndRules: React.FC<Props> = ({
               })}
               onChange={handleCitationChange}
               value={citation}
-              required
             />
           </Localized>
-          <Tooltip
-            theme="dark"
-            title={getString('required-field')}
-            open={isCitationError}
-            position="bottom-start"
-            className="tooltip"
-            sticky
-            stickyDuration
-            distance={-5}
-          />
+          {isCitationError && (
+            <div className="citation-error-message">
+              <Localized id="required-field">
+                <p />
+              </Localized>
+            </div>
+          )}
           <div className="expandable-container">
             <ExpandableInformation summaryLocalizedId="how-to-cite">
               <Localized id="how-to-cite-explanation-bold">
