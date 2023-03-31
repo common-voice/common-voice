@@ -139,6 +139,7 @@ nb-NO = Norvegiano Bokmål
 nd = IsiNdebele (nord)
 ne-NP = Nepalese
 nhe = Huasteca Nahuatl oriental
+nhi = Westelijk Sierra Puebla Nahuatl
 nia = Nias
 nl = Nederlandese
 nn-NO = Norvegiano Nynorsk
