@@ -1643,5 +1643,7 @@ adding-sentences-subheader-length = لمباݨ
 adding-sentences-subheader-spelling-punctuation = ہجے تے علامتی اکھر
 adding-sentences-subheader-spelling-punctuation-explanation = جملے دے ہجے درست ہووݨ ضروری ہن۔
 adding-sentences-subheader-punctuation = علامتی اکھر
+adding-sentences-subheader-special-characters = حاص حروف تے غیرملکی حروف
+adding-sentences-subheader-special-characters-explanation-1 = جیڑھی زبان وِچ ٻولی ویندی پئی ہے ایندے وِچ حروف درست ہووݨے چاہیدے ہن۔ مثال دے طور تے،  “ж” روسی اکھر تختی وِچ ہک حرف ہے لیکن انگریزی وِچ کݙاہیں استعمال نہیں ہوندا تے ایں سانگے انگریزی دے کہیں ماخذ متن وِچ کݙاہیں ظاہر نہیں ہووݨا چاہیدا۔
 adding-sentences-subheader-offensive-content = جارحانہ مواد
 community-announcement-header = برادری اعلانات!
