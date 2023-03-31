@@ -44,6 +44,7 @@ be = Bjelloruse
 bg = Bullgarisht
 bm = Bambareze
 bn = Bengalisht
+bo = Tibetane
 br = Bretonisht
 bs = Boshnjake
 bxr = Buriat
@@ -398,6 +399,7 @@ accept-privacy = Pajtohem me trajtimin që u bëni këtyre të dhënave ashtu si
 accept-privacy-title = Rregulla Privatësie
 accept-privacy-and-terms = Pajtohem me <termsLink>Kushtet</termsLink> dhe <privacyLink>Shënimin mbi Privatësinë</privacyLink> të Common Voice-it
 login-identity = Identitet Hyrjesh
+login = Hyni
 login-signup = Hyni / Regjistrohuni
 edit = Përpunoni
 email-subscriptions = Pajtime Me Email
@@ -915,6 +917,10 @@ target-segment-first-card = Po kontribuoni te segmenti ynë i parë
 target-segment-first-banner = Ndihmoni të krijohet segmenti i parë në { $locale } për Common Voice
 target-segment-add-voice = Shtoni Zërin Tuaj
 target-segment-learn-more = Mësoni Më Tepër
+
+## Contribution Nav Items
+
+contribute-voice-collection-nav-header = Koleksion Zërash
 
 ## Reporting
 
@@ -1554,3 +1560,26 @@ second-cta-header-text = Faleminderit që jepni zërin tuaj!
 second-cta-subtitle-text = Me një profil, mund të ndiqni veprimtarinë tuaj dhe të lidheni me një bashkësi kontribuesish te të dhëna zanore.
 already-have-an-account = Keni tashmë një llogari? <login>Hyni</login>
 create-profile-button = Krijoni profil
+# IMAGE TAGS
+img-alt-success-checkmark = shenjë suksesi
+# GUIDELINES PAGE
+guidelines-header = Udhëzime Pjesëmarrjeje
+guidelines-header-subtitle = Kuptoni si të kontribuoni dhe të vleftësoni togfjalësha dhe copëza audio te grupi i të dhënave Common Voice
+voice-collection = Koleksion Zërash
+sentence-collection = Grumbullim Frazash
+varying-pronunciations = Ndryshime Në Shqiptim
+misreadings = Gabime leximi
+offensive-content = Lëndë Fyese
+background-noise = Zhurmë Në Sfond
+background-voices = Zëra Në Sfond
+volume = Volum
+reader-effects = Efekte Lexuesi
+just-unsure = Thjesht i Pasigurt?
+example = Shembull
+varying-pronunciations-explanation-1 = Mirëpresim thekse të ndryshëm! Jini shumë i kujdesshëm me hedhjen poshtë të një copëze, me arsyen se mendoni se lexuesi ka shqiptuar shtrembër një fjalë, e ka vënë theksin në vendin e gabuar, apo pse ka shpërfillur shenja pikësimi. Ka një larmi të madhe shqiptimesh në përdorim nëpër botë, disa prej të cilave mund të mos i keni dëgjuar në bashkësinë tuaj vendore. Ju lutemi, ofroni një masë bujare vlerësimi për ata që mund të flasin ndryshe nga ju.
+varying-pronunciations-explanation-2 = Më anë tjetër, nëse mendoni se lexuesi s’e ka hasur kurrë më parë fjalën dhe po bën për shqiptimin një hamendësim të pasaktë, ju lutemi, hidheni poshtë. Nëse s’jeni i sigurt, përdorni butonin e anashkalimit.
+varying-pronunciations-tip-1 = [Anglishtja kanadeze mund ta bëjë “route” të dëgjohet si “rowt”]
+varying-pronunciations-tip-2 = [Anglishtja britanike mund të dëgjohet si “root”]
+misreadings-explanation-2 = Në gabime shumë të rëndomta përfshihen:
+misreadings-explanation-3 = Humbja e një 'A'-je ose 'The'-je në fillim të incizimit.
+misreadings-explanation-4 = Humbja e një 's' në fund të një fjale.
