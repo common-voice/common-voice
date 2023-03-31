@@ -1560,3 +1560,12 @@ already-have-an-account = Zaten hesabınız var mı? <login>Giriş yapın</login
 create-profile-button = Profil oluştur
 # IMAGE TAGS
 img-alt-success-checkmark = başarı onay işareti
+sentence-collection = Cümle derleme
+still-have-questions = Hâlâ sorularınız var mı?
+contact-common-voice = Common Voice ekibiyle iletişime geçebilirsiniz
+public-domain = Kamu malı
+adding-sentences = Cümle ekleme
+reviewing-sentences = Cümleleri inceleme
+citing-sentences-subheader-websites = Web siteleri
+citing-sentences-subheader-websites-explanation = Web sitesi adresini verebilirsiniz. Örn. "Common Voice - https://commonvoice.mozilla.org/"
+citing-sentences-subheader-offline-sources = Çevrimdışı kaynaklar
