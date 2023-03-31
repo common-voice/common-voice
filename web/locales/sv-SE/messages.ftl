@@ -1600,3 +1600,6 @@ guidelines-header = Riktlinjer för bidrag
 guidelines-header-subtitle = Förstå hur du bidrar med och validerar meningar och ljudklipp till Common Voice-datamängd
 voice-collection = Insamling av röster
 sentence-collection = Insamling av meningar
+varying-pronunciations = Varierande uttal
+misreadings = Felläsningar
+offensive-content = Stötande innehåll
