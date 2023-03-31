@@ -1721,17 +1721,33 @@ public-domain = Publike domein
 citing-sentences = Sinnen sitearje
 adding-sentences = Sinnen tafoegje
 reviewing-sentences = Sinnen beoardiele
+public-domain-explanation-1 = It is tige wichtich dat alle tekstsinnen <publicDomain>publyk domein</publicDomain> (<cc0>cc0</cc0>) binne, omdat de Common Voice-dataset frijjûn wurdt ûnder in cc0-lisinsje. Laad allinnich in sin op as jo wis binne en foegje altyd de relevante boarnefermelding ta.
+public-domain-explanation-2 = De bêste sinnen foar it bouwen fan in brûkbere spraakwerkenningsmasine binne in moderne sprektaal. Guon ideeën om jo te helpen sinnen te generearjen binne;
+public-domain-explanation-3 = Meitsje sels moderne, ynformele sinnen of mei jo freonen of taalmienskip – bygelyks troch in ‘write-a-thon’
+public-domain-explanation-4 = Nim kontakt op mei auteurs, toanielskriuwers of senarioskriuwers en freegje oft se ree binne om in lyts part fan har wurken te wijen oan it publike domein
+public-domain-explanation-5 = Sykje nei tekst dêr’t it auteursrjocht net mear jildt – bygelyks de measte boeken dy’t foar 1920 útjûn binne
+public-domain-explanation-6 = Nim kontakt op mei oerheden, non-profitorganisaasjes of mediaorganisaasjes om te sjen oft ien fan har webynhâld, rapporten of oare ynhâld tawizen wurde kin oan it publike domein
+citing-sentences-explanation-1 = It is wichtich om boarnefermeldingen op te nimmen, sadat wy kontrolearje kinne dat sinnen yn it publike domein binne en der gjin auteursrjochtbeheiningen fan tapassing binne.
 citing-sentences-subheader-websites = Websites
 citing-sentences-subheader-websites-explanation = Jo kinne de website opnimme, bygelyks ‘Common Voice - https://commonvoice.mozilla.org/’
 citing-sentences-subheader-academic-reference = Akademyske referinsje
+citing-sentences-subheader-academic-reference-explanation =
+    Jo kinne in akademyske referinsjestyl brûke, bygelyks Harvard-styl
+    ‘Mozilla (2021) Common Voice. Beskikber op https://commonvoice.mozilla.org/ (Benadere: 15 septimber 2021)’
 citing-sentences-subheader-offline-sources = Offline boarnen
+citing-sentences-subheader-offline-sources-explanation =
+    Foar publyk-domeintekst dy’t net online beskikber is, kinne jo de akademyske referinsjestyl brûke,
+    byg. Harvard-styl ‘Jess (2021) Myn iepenbiere lisinsjegedichten’
 citation =
     .label = Sitaat
+self-citation = Selssitaasje
+self-citation-explanation = Op dizze manier sitearje jo josels as jo sels de ynhâld skreaun hawwe.
 adding-sentences-subheader-length = Lingte
 adding-sentences-subheader-length-explanation = De sin moat minder as 15 wurden befetsje.
 adding-sentences-subheader-spelling-punctuation = Stavering en ynterpunksje
 adding-sentences-subheader-spelling-punctuation-explanation = De sin moat goed stavere wêze.
 adding-sentences-subheader-speakable = Sprekber
+adding-sentences-subheader-speakable-explanation = De bêste sinnen binne natuerlik en konversaasjerelatearre – se moatte maklik wêze foar ien om te lêzen. Wylst fonetysk ferskaat en ferskillende wurden yn sinnen wichtich is, probearje wy ek it opnimmen fan sinnen sa boeiend en aardich mooglik te meitsjen foar ús frijwilligersmienskip.
 adding-sentences-subheader-numbers = Nûmers
 adding-sentences-subheader-abbreviations = Ofkoartingen en akronimen
 adding-sentences-subheader-punctuation = Ynterpunksje
