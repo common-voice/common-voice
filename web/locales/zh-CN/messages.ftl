@@ -1543,11 +1543,15 @@ create-profile-button = 创建用户资料
 img-alt-success-checkmark = 标记成功
 # GUIDELINES PAGE
 guidelines-header = 贡献准则
+guidelines-header-subtitle = 了解如何向 Common Voice 数据集贡献及验证语句和录音片段
 voice-collection = 收集语音
 sentence-collection = 语句集合
 varying-pronunciations = 不同发音
 misreadings = 误读
 offensive-content = 冒犯性内容
+background-noise = 背景噪音
+background-voices = 背景人声
 volume = 音量
 reader-effects = 朗读者因素
+just-unsure = 仍有不解之处？
 example = 示例
