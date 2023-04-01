@@ -1560,3 +1560,5 @@ varying-pronunciations-explanation-2 = 另一方面，如果您认为朗读者�
 varying-pronunciations-example = 路线还不清楚。
 varying-pronunciations-tip-1 = [有些人可能会把“清”读作“qīn”]
 varying-pronunciations-tip-2 = [有些人可能会把“楚”读作“cǔ”]
+offensive-content-explanation = 语句会通过社区进行审核，不过此过程无法确保万无一失。如果您看到或听到令您不快的的语句（例如觉得其违反了我们的<participationGuidelines>社区参与准则</participationGuidelines>），请务必使用界面中的“旗标”按钮来举报。您也可以通过 <emailFragment>commonvoice@mozilla.com</emailFragment> 来联系我们。
+misreadings-explanation-2 = 常见的错误有：
