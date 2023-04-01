@@ -408,10 +408,10 @@ female = Nő
 # Gender
 other = Egyéb
 why-profile-title = Miért kell a profil?
-why-profile-text = Az, hogy megad néhány adatot magáról, hozzájárul ahhoz, hogy a hangminták, amiket a Common Voice részére beküld, hasznosabbak legyenek a hangfelismerő rendszerek számára, amelyek a pontosságuk növelésére használhatják ezeket az adatokat.
+why-profile-text = Az, hogy megad néhány adatot magáról, hozzájárul ahhoz, hogy a hangminták, amelyeket a Common Voice részére beküld, hasznosabbak legyenek a hangfelismerő rendszerek számára, amelyek a pontosságuk növelésére használhatják ezeket az adatokat.
 dashboard = Vezérlőpult
 build-profile = Összeállítási profil
-avatar = Avatár
+avatar = Profilkép
 goals = Célok
 settings = Beállítások
 edit-profile = Profil szerkesztése
@@ -445,10 +445,10 @@ help-variants-explanation = A változatok egy nyelv sajátos formáját jelentik
 
 browse-file-title = Képfájl feltöltése
 browse-file = Fogjon és vigyen elemet, vagy <browseWrap>Tallózzon</browseWrap>
-connect-gravatar = Kapcsolódás a Gravatarral
-gravatar_not_found = Nem található gravatar az e-mail címéhez
+connect-gravatar = Összekapcsolódás a Gravatarral
+gravatar_not_found = Nem található gravatar az e-mail-címéhez
 file_too_large = A kiválasztott fájl túl nagy
-avatar-uploaded = Profilkép feltöltése
+avatar-uploaded = Profilkép feltöltve
 max-file-size = legfeljebb { $kb }kb
 remove-avatar = Profilkép eltávolítása
 
