@@ -1558,5 +1558,5 @@ example = 示例
 varying-pronunciations-explanation-1 = 我们乐于倾听不同的口音！在以朗读者发音错误、将重音放在错误的地方或明显忽略了标点符号为由驳回片段前，请谨慎行事。世界各地有各种各样的发音，其中一些您可能在当地没有听到过。请为那些可能与您发音不同的人留下欣赏的空间。
 varying-pronunciations-explanation-2 = 另一方面，如果您认为朗读者此前从未遇到过这个词，只是在朗读时随便猜了一个发音，那么请将其驳回。如果您不确定，请点击“跳过”。
 varying-pronunciations-example = 路线还不清楚。
-varying-pronunciations-tip-1 = [有些人可能会把“清”读成“qīn”]
-varying-pronunciations-tip-2 = [有些人可能会把“楚”读成“cǔ”]
+varying-pronunciations-tip-1 = [有些人可能会把“清”读作“qīn”]
+varying-pronunciations-tip-2 = [有些人可能会把“楚”读作“cǔ”]
