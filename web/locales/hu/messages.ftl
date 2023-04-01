@@ -566,7 +566,7 @@ about-get-involved-text-2 =
     Nagyszerű! Lépjen velünk kapcsolatba e-mailben vagy a <discourseLink>Discourse</discourseLink>
     fórumon, küldjön be hibákat <githubLink>GitHubon</githubLink>,
     vagy csatlakozzon a <matrixLink>Matrix</matrixLink> közösségi csevegéshez.
-about-stay-in-touch = Hogyan maradhatok kapcsolatban?
+about-stay-in-touch = Hogyan tarthatom a kapcsolatot?
 about-stay-in-touch-button = Regisztráció
 about-stay-in-touch-text-1 = <emailFragment>Regisztráljon</emailFragment> a levelezőlistánkra, hogy megtudja, hogyan vehet részt kampányokban, eseményekben és a Common Voice közös tervezési funkcióiban.
 about-stay-in-touch-text-2 = Találkozhat másokkal a Mozilla nyelvi közösségeiben, ha csatlakozik a <discourseLink>Discourse</discourseLink>-hoz, ha egy adott témához kapcsolódó beszélgetéseket szeretne, vagy a <matrixLink>Matrix</matrixLink>hoz, ha gyors tanácsokat szeretne kapni.
@@ -606,7 +606,7 @@ about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollec
 about-playbook-how-localize = Hogyan működik a webhely lokalizációja?
 about-playbook-how-localize-content-1 = A Common Voice webhely fordítása a <strong>Pontoonon</strong> történik.
 about-playbook-how-localize-content-2 = <pontoonAccountLink>Hozzon létre egy fiókot</pontoonAccountLink> ha még nem rendelkezik vele. Majd válassza ki a nyelvet <strong>(„Team”)</strong> és a <pontoonCvLink>Common Voice</pontoonCvLink> projektet. Ott lesznek a lefordítandó fájlok. Kattintson egyre, majd megjeleníti a szavakat angolul, és egy dobozt, amelyben lefordíthatja.
-about-playbook-how-localize-content-3 = A fordítás angolból történik, de láthat <strong>javaslatokat</strong> más nyelveken is. Kattintson a <strong>Profil</strong> ikonra, majd a <strong>Settings</strong> hivatkozásra, és adja hozzá azokat a nyelveken, amelyeket beszéli. A jobb alsó sarokban lesz egy fordításokat tartalmazó lista, a <strong>Locales</strong> lapon. A fordítások egy nap után jelennek meg az oldalon.
+about-playbook-how-localize-content-3 = A fordítás angolból történik, de láthat <strong>javaslatokat</strong> más nyelveken is. Kattintson a <strong>Profil</strong> ikonra, majd a <strong>Beállítások</strong> hivatkozásra, és adja hozzá azokat a nyelveket, amelyeket beszéli. A jobb alsó sarokban lesz egy fordításokat tartalmazó lista, a <strong>Nyelvek</strong>. A fordítások egy nap után jelennek meg az oldalon.
 about-playbook-how-localize-content-4 = A webhely akkor áll készen az indításra, ha eléri a 75%-os készültséget.
 about-playbook-how-localize-content-5 = A segítséghez tekintse meg a magyarázó videónkat
 
@@ -1566,7 +1566,7 @@ localization-select =
 # PARTNERSHIPS PAGE
 partnerships-header = Partnerkapcsolatok
 partnerships-header-text = Sok kell ahhoz, hogy a Common Voice megvalósuljon. Nem egyedül csináljuk. A partnerünk szeretne lenni? Meghallgatnánk.
-partnerships-get-in-touch = Lépjen kapcsolatba
+partnerships-get-in-touch = Kapcsolatfelvétel
 partnerships-become-a-partner = Legyen Ön is Common Voice partner
 partnerships-community-header = Közösség, alkotók és civil társadalom
 partnerships-community-description = A közösség a Common Voice dobogó szíve – a világ minden tájáról érkeznek, nyelvi aktivisták, tudósok és művészek. A részvételről a <about>Névjegy</about> oldalon és a <community>Közösségi játékkönyvünkben</community> tudhat meg többet. Ha mélyebb szervezeti partnerségre vágyik, <emailFragment>vegye fel velünk a kapcsolatot</emailFragment>.
