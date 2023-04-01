@@ -42,6 +42,7 @@ be = białoruski
 bg = bułgarski
 bm = bambara
 bn = bengalski
+bo = tybetański
 br = bretoński
 bs = bośniacki
 bxr = buriacki
@@ -136,11 +137,13 @@ nb-NO = norweski (bokmål)
 nd = ndebele północny
 ne-NP = nepalski
 nhe = wschodni nahuatl huastecański
+nhi = zachodni sierra puebla nahuatl
 nia = nias
 nl = holenderski
 nn-NO = norweski (nynorsk)
 nr = ndebele południowy
 nso = północny sotho
+ny = czewa
 nyn = nyankole
 oc = oksytański
 om = oromo
@@ -780,6 +783,9 @@ target-segment-first-banner = Pomóż utworzyć pierwszy segment docelowy projek
 target-segment-add-voice = Dodaj swój głos
 target-segment-learn-more = Więcej informacji
 
+## Contribution Nav Items
+
+
 ## Reporting
 
 report = Zgłoś
@@ -1163,3 +1169,4 @@ sc-settings-ui-language = Język interfejsu
 
 # [/SentenceCollector]
 
+sentence-collection = Zbieranie zdań
