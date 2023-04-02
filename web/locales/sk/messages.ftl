@@ -654,7 +654,7 @@ about-playbook-how-grow-language-content-8 = <strong>Buďte kreatívni!</strong>
 about-playbook-how-validate = Ako zistím, či mám schváliť hlasový klip?
 about-playbook-how-validate-content-1 = Ak ste ich <strong>počuli</strong> a <strong>rozumeli im</strong>, zvyčajne je <strong>najlepšie ich schváliť</strong>.
 about-playbook-how-validate-content-2 = <strong>Neodmietajte klipy, v ktorých má reproduktor „prízvuk“ odlišný od vášho</strong> – je to dôležité, aby rozpoznávanie hlasu fungovalo pre každého lepšie.
-about-playbook-how-validate-content-3 = Ak si myslíte, že kvôli výslovnosti <strong>nie je možné rozumieť</strong> alebo je v pozadí <strong>veľa hluku</strong> alebo <strong>hovoria aj iní ľudia</strong>, potom by ste mali klip odmietnuť. <accuracyLink>Ďalšie informáciw nájdete v našich kritériách presnosti</accuracyLink>.
+about-playbook-how-validate-content-3 = Ak si myslíte, že kvôli výslovnosti <strong>nie je možné rozumieť</strong> alebo je v pozadí <strong>veľa hluku</strong> alebo <strong>hovoria aj iní ľudia</strong>, potom by ste mali klip odmietnuť. <accuracyLink>Ďalšie informácie nájdete v našich kritériách presnosti</accuracyLink>.
 about-playbook-how-validate-content-4 = Ak klip odmietnu 2 ľudia, je tento sprístupnený v inej podskupine datasetu.
 
 ## How to access dataset
@@ -1599,3 +1599,6 @@ already-have-an-account = Máte už účet? <login>Prihlásiť sa</login>
 create-profile-button = Vytvoriť profil
 # IMAGE TAGS
 img-alt-success-checkmark = symbol začiarknutia
+sentence-collection = Zber viet
+community-announcement-header = Oznámenie komunity!
+community-announcement-explanation = Pokyny nižšie sa týkajú nových funkcií zberača viet, ktoré budú integrované do základnej platformy Common Voice počas marca a apríla 2023. Medzitým môžete použiť predchádzajúci nástroj, <scLink>https://commonvoice.mozilla.org/sentence-collector/</scLink>.
