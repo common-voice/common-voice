@@ -137,6 +137,7 @@ nan-tw = Taiwanés (Minnan)
 nb-NO = Bokmal noruego
 ne-NP = Nepali
 nhe = Náhuatl de la Huasteca Oriental
+nhi = Náhuatl tlen Sierra Puebla Occidental
 nia = Nías
 nl = Holandés
 nn-NO = Nynorsk noruego
@@ -637,6 +638,7 @@ audio-format = Formato de audio
 number-of-voices = Número de voces
 splits = Divisiones
 email-to-download = Ingrese el correo electrónico para descargar
+confirm-join-mailing-list = Nineki nitepalehuis ipan Common Voice ipan mailing list.
 validated-hours = Horas Validadas
 recorded-hours = Horas Registradas
 whats-inside = ¿Qué hay dentro del conjunto de datos de Common Voice?
@@ -666,6 +668,9 @@ clipboard-not-supported = Portapapeles no compatible
 
 download-title = Su descarga ha comenzado.
 download-helpus = Ayúdenos a construir una comunidad en torno a la tecnología de voz, manténgase en contacto por correo electrónico.
+download-form-email =
+    .label = Nika mo email
+    .value = Taskamati, tikamatise
 download-back = Volver a Conjuntos de datos de Common Voice
 download-no = Ashkana Tlaskamati
 
@@ -684,6 +689,7 @@ request-language-title = Solicitud de idioma
 request-language-form-language =
     .label = Idioma
 request-language-success-title = Mo idioma request kuali mo titlanij, tlaskamati.
+select-language = Seleccione el idioma
 other-language = Seyoj Idioma
 
 ## Request Language Pages
