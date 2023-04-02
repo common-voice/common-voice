@@ -305,7 +305,7 @@ x-years-short =
 help-make-dataset = Pomôžte nám vytvoriť vysokokvalitnú a verejne prístupnú databázu
 sign-up-account = Vytvorte si účet
 email-subscription-title = prihláste sa k odberu noviniek
-email-subscription-title-new = Prihláste sa na odber noviniek o projekte Common Voice, upozornení na ciele a aktualizáciám pokroku.
+email-subscription-title-new = Prihláste sa na odber noviniek o projekte Common Voice, upozornení na ciele a informácií o pokroku.
 
 ## Account Benefits
 
@@ -738,7 +738,7 @@ datasets-positioning =
     
     Viacjazyčný dataset Common Voice je už najväčším verejne dostupným hlasovým súborom svojho druhu, ale nie je jediným.
     
-    Na tejto stránke nájdete odkazy iné open-source datasety a, ako bude Common Voice naďalej rásť, aj domov pre naše aktualizácie.
+    Na tejto stránke nájdete odkazy iné open-source datasety a, ako bude Common Voice naďalej rásť, aj domov pre naše novinky.
 language = Jazyk
 download-dataset-header = Stiahnuť dataset
 download-delta-explainer = Urobili sme niekoľko zmien. Delta Segments obsahujú len najnovšie klipy od posledného vydania. <deltaLink>Prečítajte si viac o tejto práci</deltaLink>.
@@ -766,7 +766,7 @@ dataset-description-hours =
     Každá položka v datasete pozostáva z jedinečného súboru MP3 a prislúchajúceho textového súboru. Mnoho z <b>{ $total }</b> zaznamenaných hodín v datasete obsahuje aj demografické metaúdaje, ako je vek, pohlavie a prízvuk, ktoré môžu pomôcť s cvičením presnosti nástrojov rozpoznávania reči.
     
     Dataset v súčasnosti pozostáva z <b>{ $valid }</b> overených hodín v <b>{ $languages }</b> jazykoch, ale neustále pridávame ďalšie hlasy a jazyky. Navštívte našu stránku <languagesLink> Jazyky </languagesLink> a požiadajte o nový jazyk alebo začnite prispievať.
-want-dataset-update = Chcete aktualizácie, keď vydáme novú verziu datasetu Common Voice? Prihláste sa ku odberu noviniek.
+want-dataset-update = Chcete dostávať informácie, keď vydáme novú verziu datasetu Common Voice? Prihláste sa ku odberu noviniek.
 subscribe = Odoberať
 get-started-speech = Začíname s rozpoznávaním reči
 other-datasets = Ďalšie hlasové datasety
