@@ -1681,6 +1681,7 @@ just-unsure-explanation = Nếu bạn gặp điều gì đó mà các nguyên t�
 still-have-questions = Vẫn còn câu hỏi?
 contact-common-voice = Liên hệ với nhóm Common Voice
 public-domain = Phạm vi công cộng
+citing-sentences = Trích dẫn câu
 adding-sentences = Thêm câu
 reviewing-sentences = Xem lại câu
 public-domain-explanation-1 = Điều rất quan trọng là tất cả các câu văn bản đều là <publicDomain>phạm vi công cộng</publicDomain> (<cc0>cc0</cc0>) vì bộ dữ liệu Common Voice được phát hành theo giấy phép cc0. Chỉ tải lên một câu nếu bạn chắc chắn và luôn bao gồm trích dẫn có liên quan.
