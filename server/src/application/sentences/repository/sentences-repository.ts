@@ -149,4 +149,3 @@ export const insertSentenceIntoDb = insertSentence(db)
 export const insertSentenceVoteIntoDb = insertSentenceVote(db)
 export const findSentencesForReviewInDb =
   findSentencesForReview(db)
-  

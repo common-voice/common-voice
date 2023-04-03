@@ -28,4 +28,3 @@ export default PromiseRouter({ mergeParams: true })
     validate({ query: GetSentencesForReviewRequest }),
     getSentenceHandler
   )
-  
