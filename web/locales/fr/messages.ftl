@@ -1584,6 +1584,7 @@ varying-pronunciations-explanation-2 = En revanche, si vous pensez que le lecteu
 varying-pronunciations-example = Le wagon était plein.
 varying-pronunciations-tip-1 = [« wagon » peut être prononcé « ouagon » en français de Belgique]
 varying-pronunciations-tip-2 = [En français de France, il peut être prononcé « vagon »]
+offensive-content-explanation = Les phrases sont vérifiées via un processus de modération par la communauté, cependant ce processus n’est pas parfait. Si vous voyez ou entendez une phrase qui vous choque (par exemple, si elle enfreint nos <participationGuidelines>Directives relatives à la participation communautaire</participationGuidelines>), veuillez utiliser le bouton Signaler dans l’interface. Vous pouvez également nous contacter à l’adresse <emailFragment>commonvoice@mozilla.com</emailFragment>.
 misreadings-explanation-2 = Voici les erreurs les plus courantes :
 misreadings-explanation-5 = Des contractions inexistantes sont lues, telles que « surment » au lieu de « surement ».
 misreadings-explanation-6 = La fin du dernier mot est coupée, car l’enregistrement a été arrêté trop vite.
