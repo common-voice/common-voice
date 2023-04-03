@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import * as React from 'react';
 import { Localized } from '@fluent/react';
 import classNames from 'classnames';
 
@@ -14,7 +14,7 @@ type Props = {
 const MAX_WINDOW_WIDTH = 576;
 
 export const Rules: React.FC<Props> = ({ error }) => {
-  const [rulesVisible, setShowRulesVisible] = useState(true);
+  const [rulesVisible, setShowRulesVisible] = React.useState(true);
   const isMobileWidth = useIsMaxWindowWidth(MAX_WINDOW_WIDTH);
 
   const handleClick = () => {
