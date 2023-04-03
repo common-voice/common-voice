@@ -100,6 +100,7 @@ const LabeledFormControl = React.forwardRef((allProps: any, ref) => {
     required,
     disabled,
     isLabelVisuallyHidden,
+    dataTestId,
     ...props
   } = allProps;
 
@@ -109,6 +110,7 @@ const LabeledFormControl = React.forwardRef((allProps: any, ref) => {
       aria-required={required}
       required={required}
       disabled={disabled}
+      data-testid={dataTestId}
       {...props}
     />
   );

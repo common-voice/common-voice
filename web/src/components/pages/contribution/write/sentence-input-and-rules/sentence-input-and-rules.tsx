@@ -1,4 +1,4 @@
-import React from 'react';
+import * as React from 'react';
 import { Localized } from '@fluent/react';
 import classNames from 'classnames';
 
@@ -59,6 +59,7 @@ export const SentenceInputAndRules: React.FC<Props> = ({
               })}
               onChange={handleSentenceInputChange}
               value={sentence}
+              dataTestId="sentence-textarea"
             />
           </Localized>
           <Localized id="citation" attrs={{ label: true }}>
@@ -69,10 +70,13 @@ export const SentenceInputAndRules: React.FC<Props> = ({
               })}
               onChange={handleCitationChange}
               value={citation}
+              dataTestId="citation-input"
             />
           </Localized>
           {isCitationError && (
-            <div className="citation-error-message">
+            <div
+              className="citation-error-message"
+              data-testid="citation-error-message">
               <Localized id="required-field">
                 <p />
               </Localized>
