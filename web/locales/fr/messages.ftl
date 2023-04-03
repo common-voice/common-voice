@@ -1617,6 +1617,7 @@ citing-sentences = Citation de phrases
 adding-sentences = Ajout de phrases
 reviewing-sentences = Vérification de phrases
 public-domain-explanation-1 = Il est très important que toutes les phrases du texte soient dans le <publicDomain>domaine public</publicDomain> (<cc0>cc0</cc0>), car le jeu de données de Common Voice est publié sous licence cc0. Envoyez une phrase uniquement si vous en êtes sûr·e et ajoutez toujours la citation pertinente.
+public-domain-explanation-2 = Les meilleures phrases pour créer un moteur de reconnaissance vocale utile sont celles issues du langage moderne et appartenant au registre familier. Voici quelques idées pour vous aider à générer des phrases :
 public-domain-explanation-5 = Recherchez des textes où le droit d’auteur ne s’applique plus (par exemple, la plupart des livres publiés avant 1920).
 public-domain-explanation-6 = Contactez les gouvernements, les organisations à but non lucratif ou les médias pour savoir si leurs contenus web, rapports ou autres contenus peuvent être consacrés au domaine public.
 citing-sentences-explanation-1 = Il est important d’inclure les citations afin que nous puissions vérifier que les phrases sont dans le domaine public et qu’aucune restriction de droit d’auteur ne s’applique.
