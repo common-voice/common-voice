@@ -3,7 +3,7 @@ import {
   withLocalization,
   WithLocalizationProps,
 } from '@fluent/react';
-import React, { useReducer } from 'react';
+import * as React from 'react';
 import { useDispatch } from 'react-redux';
 
 import { QuestionIcon, SendIcon } from '../../../ui/icons';
@@ -15,9 +15,8 @@ import { useLocale } from '../../../locale-helpers';
 import { SentenceInputAndRules } from './sentence-input-and-rules/sentence-input-and-rules';
 import { Sentences } from '../../../../stores/sentences';
 import { SentenceSubmission, SentenceSubmissionError } from 'common';
-import { useTypedSelector } from '../../../../stores/tree';
 import { Notifications } from '../../../../stores/notifications';
-import { useAction } from '../../../../hooks/store-hooks';
+import { useAction, useLanguages } from '../../../../hooks/store-hooks';
 import { WriteActionType, writeReducer, WriteState } from './write.reducer';
 
 import { COMMON_VOICE_EMAIL } from '../../../../constants';
@@ -34,10 +33,10 @@ const initialState: WriteState = {
 };
 
 const Write: React.FC<WriteProps> = ({ getString }) => {
-  const [state, writeDispatch] = useReducer(writeReducer, initialState);
+  const [state, writeDispatch] = React.useReducer(writeReducer, initialState);
 
   const [currentLocale] = useLocale();
-  const languages = useTypedSelector(({ languages }) => languages);
+  const languages = useLanguages();
 
   const localeId = languages.localeNameAndIDMapping.find(
     locale => locale.name === currentLocale
@@ -118,7 +117,7 @@ const Write: React.FC<WriteProps> = ({ getString }) => {
   };
 
   return (
-    <div className="write-page">
+    <div className="write-page" data-testid="write-page">
       <div className="write-wrapper">
         <div className="write">
           <form
@@ -181,13 +180,14 @@ const Write: React.FC<WriteProps> = ({ getString }) => {
                   checked={state.confirmPublicDomain}
                   required
                   onChange={handlePublicDomainChange}
-                  data-testid="checkbox"
+                  data-testid="public-domain-checkbox"
                 />
                 <Localized id="submit-form-action">
                   <PrimaryButton
                     className="submit"
                     type="submit"
                     disabled={!state.confirmPublicDomain}
+                    data-testid="submit-button"
                   />
                 </Localized>
               </div>
