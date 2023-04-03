@@ -32,7 +32,7 @@ export type SentenceValidationError = BaseError & {
 // clients for security reasons.
 export type PresentableBaseError = {
   kind: ApplicationErrorKind
-  message: string,
+  message: string
 }
 
 export type PresentableSentenceValidationError = PresentableBaseError & {
