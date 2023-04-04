@@ -1597,3 +1597,4 @@ public-domain-explanation-2 = 用于构建语音识别引擎的最佳语句类�
 public-domain-explanation-3 = 自行撰写现代的口语化语句，或与朋友及语言社区一道，通过“造句马拉松”活动等形式去撰写句子。
 public-domain-explanation-4 = 与作家、剧作家、编剧等人士取得联系，询问他们是否愿意将自己的一小部分作品捐献给公有领域
 public-domain-explanation-5 = 查找版权保护期已过的文本，例如 1920 年之前出版的大部分书籍都已过版权保护期
+public-domain-explanation-6 = 与政府部门、非营利组织、媒体机构等组织取得联系，询问他们是否愿意将自己的网页、新闻报道等内容开放给公有领域
