@@ -44,7 +44,7 @@
                 }
             }
 
-            @media (--md-down) {
+            @media (--lg-down) {
                 margin: 0;
                 width: 100%;
                 background: var(--grey);
