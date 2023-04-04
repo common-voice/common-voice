@@ -1594,3 +1594,6 @@ citing-sentences = 引用语句
 adding-sentences = 添加语句
 reviewing-sentences = 审核语句
 public-domain-explanation-2 = 用于构建语音识别引擎的最佳语句类型是口语化的现代用语。以下是一些生成语句的方法：
+public-domain-explanation-3 = 自行撰写现代的口语化语句，或与朋友及语言社区一道，通过“造句马拉松”活动等形式去撰写句子。
+public-domain-explanation-4 = 与作家、剧作家、编剧等人士取得联系，询问他们是否愿意将自己的一小部分作品捐献给公有领域
+public-domain-explanation-5 = 查找版权保护期已过的文本，例如 1920 年之前出版的大部分书籍都已过版权保护期
