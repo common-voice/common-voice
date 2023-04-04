@@ -1610,3 +1610,5 @@ citation =
 self-citation = 自我引用
 self-citation-explanation = 如果引用自己撰写的内容，请依以下格式。
 adding-sentences-subheader-length = 长度
+adding-sentences-subheader-length-explanation = 语句应少于 15 字。
+adding-sentences-subheader-spelling-punctuation = 拼写与标点符号
