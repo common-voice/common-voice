@@ -635,9 +635,9 @@ about-playbook-how-grow-language-content-8 = <strong>发挥创意！</strong>您
 
 about-playbook-how-validate = 批准语音片段的标准是什么？
 about-playbook-how-validate-content-1 = 如果您能<strong>听到他们的声音</strong>，同时也能<strong>听懂他们所念出的句子</strong>，通常来说<strong>这段语音可以被批准</strong>。
-about-playbook-how-validate-content-2 = <strong>不要因为说话人“有和我不一样的口音”而拒绝这个语音片段</strong> - 若要让语音识别能为各种各样的人服务，接受不同的口音是很重要的。
-about-playbook-how-validate-content-3 = 如果您认为<strong>语音片段中的发音无法听懂</strong>，或者是<strong>有很大的背景噪音</strong>，亦或<strong>有其他人也在说话</strong>，那么您应该拒绝这个语音片段。 <accuracyLink>在我们的准确性判断标准中详细了解</accuracyLink>。
-about-playbook-how-validate-content-4 = 如果有两人拒绝了这个语音片段，它将被发布到数据集的另一个子集中。
+about-playbook-how-validate-content-2 = <strong>不要因为说话人“有和我不一样的口音”而驳回这条语音片段</strong> - 若要让语音识别能为各种各样的人服务，接受不同的口音是很重要的。
+about-playbook-how-validate-content-3 = 如果您认为<strong>语音片段中的发音无法听懂</strong>，或者是<strong>有很大的背景噪音</strong>，亦或<strong>有其他人也在说话</strong>，那么您应该驳回这个语音片段。 <accuracyLink>在我们的准确性判断标准中详细了解</accuracyLink>。
+about-playbook-how-validate-content-4 = 如果有两人驳回了这条语音片段，它就将被发布到数据集的另一个子集中。
 
 ## How to access dataset
 
@@ -1143,7 +1143,7 @@ contribution-criteria-page-title = 贡献准则
 contribution-criteria-page-description = 了解在聆听语音片段时需注意些什么，此举有助于您录制更多片段。
 contribution-for-example = 例如
 contribution-misreadings-title = 误读
-contribution-misreadings-description = 聆听语音片段时，请仔细核对语音片段中的内容是否与屏幕上显示的文字完全一致。哪怕只有微小的不一致，都请否决它。<br />下面列出了一些非常常见的错误：
+contribution-misreadings-description = 聆听语音片段时，请仔细核对语音片段中的内容是否与屏幕上显示的文字完全一致。哪怕只有微小的不一致，都请驳回它。<br />下面列出了一些非常常见的错误：
 contribution-misreadings-description-extended-list-1 = 录音内容缺少句首的<strong>“A”</strong>或<strong>“The”</strong>。
 contribution-misreadings-description-extended-list-2 = 词尾缺少 <strong>'s'</strong>。
 contribution-misreadings-description-extended-list-3 = 阅读实际并不存在的缩写，例如是“We're”而不是“We are”，反之亦然。
@@ -1165,7 +1165,7 @@ contribution-misreadings-example-8-title = The bumblebee sped by.
 contribution-misreadings-example-8-explanation = [内容不符]
 contribution-varying-pronunciations-title = 不同发音
 contribution-varying-pronunciations-description = 在以朗读者发音错误、将重音放在错误的地方或明显忽略了问号为由驳回片段之前要谨慎行事。世界各地有各种各样的发音，其中一些您可能在当地社区没有听到。请为那些可能与您发音不同的人提供欣赏的空间。
-contribution-varying-pronunciations-description-extended = 另一方面，如果你认为朗读者此前从未遇到过这个词，并且单纯的对它的发音进行了错误的猜测，请将它驳回。如果你不确定，请按“跳过”按钮。
+contribution-varying-pronunciations-description-extended = 另一方面，如果你认为朗读者此前从未遇到过这个词，并且单纯的对它的发音进行了错误的猜测，请将其驳回。如果你不确定，请按“跳过”按钮。
 contribution-varying-pronunciations-example-1-title = On his head he wore a beret.
 contribution-varying-pronunciations-example-1-explanation = [“Beret”的重音无论是在第一个音节（英式英语）或是第二个（美式英语）都可以]
 contribution-varying-pronunciations-example-2-title = His hand was rais-ed.
@@ -1578,3 +1578,6 @@ background-noise-explanation = 录音中的每一个字都应清晰可辨。我�
 background-noise-example-1 = 三叠纪的巨型恐龙。
 background-noise-example-2 = [打喷嚏]…三叠纪的巨型…[咳嗽]…恐龙。
 background-noise-example-3 = 三叠纪的巨…[咳嗽]…龙。
+background-noise-example-4 = [杂音]…安叠纪的巨…[杂音]…龙。
+background-noise-tip-1 = [被背景噪音打断]
+background-noise-tip-2 = [听不清部分文字]
