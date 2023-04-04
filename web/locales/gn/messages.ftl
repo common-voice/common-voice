@@ -1623,4 +1623,6 @@ self-citation = Ejehechauka
 adding-sentences-subheader-length = Pukukue
 adding-sentences-subheader-speakable = Ñe’ẽkuaa
 adding-sentences-subheader-numbers = Papapy
+adding-sentences-subheader-abbreviations = Mombyky ha Acrónimo
 adding-sentences-subheader-punctuation = Mbopapapy
+adding-sentences-subheader-offensive-content = Ñe’ẽreity Ivaíva
