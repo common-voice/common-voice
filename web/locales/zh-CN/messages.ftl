@@ -1567,3 +1567,4 @@ misreadings-explanation-4 = 省略了某些词缀，例如“桌子上”读成�
 misreadings-explanation-5 = 省略了某些字，例如将“录音的注意事项”读成“录音注意事项”，反之亦然。
 misreadings-explanation-6 = 由于过快地结束录音而没有录入最后一个词。
 misreadings-explanation-7 = 朗读某个词语时多次尝试。
+misreadings-example-1 = 我们要出去买咖啡。
