@@ -1668,3 +1668,7 @@ adding-sentences-subheader-punctuation = Punctuation
 adding-sentences-subheader-punctuation-explanation = Symbolos special e punctuation deberea solo esser includite si absolutemente necessari. Per exemplo, un apostropho es includite in vocabulos anglese como “don’t” e “we’re” e debe esser includite in le texto fonte, ma il es inverisimile que tu unquam besoniara de un symbolo special como “@” o “#.”
 adding-sentences-subheader-special-characters-explanation-1 = Le litteras debe esser valide in le lingua a parlar. Per exemplo, “ж” es un littera in le alphabeto russe ma jammais es usate in anglese e assi non deberea jammais apparer in ulle texto fonte anglese.
 adding-sentences-subheader-offensive-content = Contento offensive
+reviewing-sentences-explanation-1 = Si le phrase satisface le precedente criterios, clicca le button "Si".
+reviewing-sentences-explanation-2 = Si le phrase no satisface le precedente criterios, clicca le button "No".
+reviewing-sentences-explanation-3 = Si tu non es secur re le phrase, tu pote alsi saltar lo e mover al successive.
+reviewing-sentences-explanation-4 = Si tu exhauri le phrases a revider, per favor adjuta nos a colliger altere phrases!
