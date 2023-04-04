@@ -139,6 +139,7 @@ nb-NO = Noruega ñe’ẽ
 nd = IsiNdebele (Yvatévo)
 ne-NP = Nepali ñe’ẽ
 nhe = Náhuatl Huasteca Oriental pegua
+nhi = Náhuatl Sierra Puebla Occidental pegua
 nia = Nias
 nl = Paises Bajos ñe’ẽ
 nn-NO = Noruega ñe’ẽ Nynorsk
