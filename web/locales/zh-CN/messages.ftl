@@ -591,7 +591,7 @@ about-playbook-how-add-language-collecting-sentences-content-2 =
     您可以<sentenceCollectorLinkAdd>添加少量句子</sentenceCollectorLinkAdd>，
     或者使用 Github <bulkImportDocsLink>批量导入</bulkImportDocsLink>。
     请记住，这些句子必须采用 <licenseLink>CC0 授权协议（或公有领域）</licenseLink>，或者您也可以自行撰写句子。
-about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>查看更多关于搜集语句的信息</sentenceCollectorFragment>。
+about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>查看更多关于收集语句的信息</sentenceCollectorFragment>。
 
 ## How does localization work
 
@@ -661,7 +661,7 @@ about-playbook-how-project-governance-content-7 = <governanceLink>详细了解�
 glossary = 词汇表
 localization = 本地化
 localization-explanation = 这是我们为许多语言（环境）进行翻译和调整内容的过程。
-sentence-collection = 语句集合
+sentence-collection = 收集语句
 sentence-collection-explanation = 收集公共领域的语句，或为公共领域编写新的语句。
 hours-recorded-explanation = 到目前为止我们收集到的录音小时数。
 hours-validated-explanation = 每 3 位用户中有 2 位投票“正确”的已验证录音小时数。这也就是整个项目 10000 小时目标的进度。
@@ -1545,7 +1545,7 @@ img-alt-success-checkmark = 标记成功
 guidelines-header = 贡献准则
 guidelines-header-subtitle = 了解如何向 Common Voice 数据集贡献及验证语句和录音片段
 voice-collection = 收集语音
-sentence-collection = 语句集合
+sentence-collection = 收集语句
 varying-pronunciations = 不同发音
 misreadings = 误读
 offensive-content = 冒犯性内容
@@ -1587,7 +1587,7 @@ background-voices-tip-1 = 你过来了吗？[其他人在说话]
 volume-explanation = 朗读者之间的声音大小会有自然差异。仅当音量太高以至于录音中断，或（更常见的情况）音量太小以至于不参考书面文字您就听不到正在说的内容时，才驳回。
 reader-effects-explanation = 大多数录音都是人们用自然的声音说话。但您可以偶尔接受非标准录音，即大喊大叫、低声说话或明显用“抑扬顿挫”的声音说话。请驳回唱出来的录音和那些使用计算机合成的声音。
 just-unsure-explanation = 如果遇到了这些准则没有涵盖的内容，请根据您认为恰当的判断来选择。如果仍然无法决定，请使用跳过按钮，继续聆听下一段录音。
-still-have-questions = 还有疑问吗？
+still-have-questions = 仍有疑问？
 contact-common-voice = 联系 Common Voice 团队
 public-domain = 公有领域
 citing-sentences = 引用语句
@@ -1598,3 +1598,6 @@ public-domain-explanation-3 = 自行撰写现代的口语化语句，或与朋�
 public-domain-explanation-4 = 与作家、剧作家、编剧等人士取得联系，询问他们是否愿意将自己的一小部分作品捐献给公有领域
 public-domain-explanation-5 = 查找版权保护期已过的文本，例如 1920 年之前出版的大部分书籍都已过版权保护期
 public-domain-explanation-6 = 与政府部门、非营利组织、媒体机构等组织取得联系，询问他们是否愿意将自己的网页、新闻报道等内容开放给公有领域
+citing-sentences-explanation-1 = 在上传语句时请注明出处，以方面我们确认其来自公有领域且不受版权限制
+citing-sentences-subheader-websites = 网站
+citing-sentences-subheader-academic-reference = 学术参考文献
