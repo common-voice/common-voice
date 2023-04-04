@@ -1574,3 +1574,7 @@ misreadings-example-4 = 大黄蜂嗡嗡嗡。
 misreadings-tip-1 = [应为“要出去”]
 misreadings-tip-2 = [原文里没有“杯”]
 misreadings-tip-3 = [内容不符]
+background-noise-explanation = 录音中的每一个字都应清晰可辨。我们希望机器学习算法能够处理各种背景噪音，甚至可以接受相对嘈杂的噪音及安静的背景音乐，但前提是这些声音不妨碍您听清整个文本。如出现妨碍您听清文本的杂音，或朗读声音断断续续，则将其驳回。
+background-noise-example-1 = 三叠纪的巨型恐龙。
+background-noise-example-2 = [打喷嚏]…三叠纪的巨型…[咳嗽]…恐龙。
+background-noise-example-3 = 三叠纪的巨…[咳嗽]…龙。
