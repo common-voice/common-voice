@@ -1663,6 +1663,7 @@ adding-sentences-subheader-spelling-punctuation = Orthographia e punctuation
 adding-sentences-subheader-spelling-punctuation-explanation = Le orthographia del phrase debe esser correcte.
 adding-sentences-subheader-speakable = Pronunciabile
 adding-sentences-subheader-numbers = Numeros
+adding-sentences-subheader-abbreviations = Abbreviationes e acronymos
 adding-sentences-subheader-punctuation = Punctuation
 adding-sentences-subheader-punctuation-explanation = Symbolos special e punctuation deberea solo esser includite si absolutemente necessari. Per exemplo, un apostropho es includite in vocabulos anglese como “don’t” e “we’re” e debe esser includite in le texto fonte, ma il es inverisimile que tu unquam besoniara de un symbolo special como “@” o “#.”
 adding-sentences-subheader-special-characters-explanation-1 = Le litteras debe esser valide in le lingua a parlar. Per exemplo, “ж” es un littera in le alphabeto russe ma jammais es usate in anglese e assi non deberea jammais apparer in ulle texto fonte anglese.
