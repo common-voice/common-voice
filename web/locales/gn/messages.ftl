@@ -1582,6 +1582,8 @@ already-have-an-account = ¿Ne mba’etéma? <login>Eñepyrũ tembiapo</login>
 create-profile-button = Emoheñói mba’ete
 # IMAGE TAGS
 img-alt-success-checkmark = marca ojehayhúva
+# GUIDELINES PAGE
+guidelines-header = Ñepytyvõkuaa rapereko
 voice-collection = Ayvu Ñembyaty
 sentence-collection = Ñe’ẽsyry ñembyaty
 varying-pronunciations = Je’epyre Hekoetáva
