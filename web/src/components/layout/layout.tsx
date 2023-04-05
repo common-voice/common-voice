@@ -165,7 +165,8 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
       `/${locale}${URLS.SPEAK}`,
       `/${locale}${URLS.LISTEN}`,
       `/${locale}${URLS.WRITE}`,
-    ];
+      `/${locale}${URLS.REVIEW}`,
+    ]
 
     const isBuildingProfile = location.pathname.includes(URLS.PROFILE_INFO);
     const isDemoMode = location.pathname.includes(URLS.DEMO);
