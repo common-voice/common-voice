@@ -1612,6 +1612,6 @@ self-citation-explanation = 如果引用自己撰写的内容，请依以下格�
 adding-sentences-subheader-length = 长度
 adding-sentences-subheader-length-explanation = 语句应少于 15 字。
 adding-sentences-subheader-spelling-punctuation = 用字与标点符号
-adding-sentences-subheader-spelling-punctuation-explanation = 句子用字必须正确。
+adding-sentences-subheader-spelling-punctuation-explanation = 语句用字必须正确。
 adding-sentences-subheader-speakable = 易读
 adding-sentences-subheader-numbers = 数字
