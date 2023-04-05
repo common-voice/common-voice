@@ -1199,7 +1199,7 @@ see-less = <chevron></chevron>折叠
 ## HEADER/FOOTER
 
 sc-header-home = 主页
-sc-header-how-to = 如何做
+sc-header-how-to = 操作指南
 sc-header-add = 添加
 sc-header-review = 审核
 sc-header-rejected = 驳回的句子
@@ -1231,7 +1231,7 @@ sc-languages-fetch-error = 可用语言获取失败，目前暂无法贡献，�
 
 ## HOW-TO
 
-sc-howto-title = 如何做
+sc-howto-title = 操作指南
 sc-howto-addlang-title = 添加要贡献的语言
 sc-howto-addlang-text = 登录后，就可以在个人资料页选择您要贡献哪些语言的句子。
 sc-howto-addsen-title = 添加新句子
@@ -1625,4 +1625,8 @@ adding-sentences-subheader-special-characters-explanation-1 = 关于外国文字
 adding-sentences-subheader-special-characters-explanation-2 = 在本地化时可以为语言项目添加附加要求。如果没有，则将为贡献者显示英语项目的规则。
 adding-sentences-subheader-offensive-content = 冒犯性内容
 adding-sentences-subheader-offensive-content-explanation = 如果语句带有冒犯性或使人不悦（例如包含低俗等违反我们<communityGuidelines>社区参与准则</communityGuidelines>的内容），则应将其驳回。您也可以通过 <emailFragment>commonvoice@mozilla.com</emailFragment> 联系我们报告问题。
-reviewing-sentences-explanation-1 = 若句子符合上述，请点击“是”按钮。
+reviewing-sentences-explanation-1 = 若句子符合上述要求，请点击“是”按钮。
+reviewing-sentences-explanation-2 = 若句子不符合要求，请点击“否”按钮。
+reviewing-sentences-explanation-3 = 如果您没有把握判断，可以跳过当前语句，继续审核下一条语句。
+reviewing-sentences-explanation-4 = 若您已经没有句子可以审核了，请帮助我们收集更多句子！
+community-announcement-header = 社区公告
