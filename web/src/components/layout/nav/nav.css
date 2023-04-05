@@ -64,10 +64,9 @@
                 padding: 12px;
                 flex-wrap: wrap;
                 height: 100%;
-                width: 100%;
 
                 @media (--lg-down) {
-                    padding: 20px 12px;
+                    padding: 20px 7px;
                 }
 
                 & path,
@@ -96,7 +95,6 @@
             & div {
                 display: flex;
                 align-items: center;
-                /* padding: 12px; */
                 padding: 7px;
             }
 
@@ -466,7 +464,6 @@ header {
                         & .border {
                             border-bottom: 1px solid var(--blue);
                             width: 72px;
-                            /* flex-basis: 20%; */
                             display: inline-block;
                             margin-bottom: 8px;
                             margin-top: 2px;
