@@ -1624,3 +1624,5 @@ adding-sentences-subheader-special-characters = 特殊字符与外语文字
 adding-sentences-subheader-special-characters-explanation-1 = 关于外国文字的问题：字母或文字须符合各语言用法。例如，“ж”是俄语字母，但中文不会用到，因此不应出现在原始文本中。
 adding-sentences-subheader-special-characters-explanation-2 = 在本地化时可以为语言项目添加附加要求。如果没有，则将为贡献者显示英语项目的规则。
 adding-sentences-subheader-offensive-content = 冒犯性内容
+adding-sentences-subheader-offensive-content-explanation = 如果语句带有冒犯性或使人不悦（例如包含低俗等违反我们<communityGuidelines>社区参与准则</communityGuidelines>的内容），则应将其驳回。您也可以通过 <emailFragment>commonvoice@mozilla.com</emailFragment> 联系我们报告问题。
+reviewing-sentences-explanation-1 = 若句子符合上述，请点击“是”按钮。
