@@ -1622,3 +1622,4 @@ adding-sentences-subheader-punctuation = 标点符号
 adding-sentences-subheader-punctuation-explanation = 原始文本中尽量不要包含“@”和“#”之类的特殊符号和标点符号。
 adding-sentences-subheader-special-characters = 特殊字符与外语文字
 adding-sentences-subheader-special-characters-explanation-1 = 关于外国文字的问题：字母或文字须符合各语言用法。例如，“ж”是俄语字母，但中文不会用到，因此不应出现在原始文本中。
+adding-sentences-subheader-offensive-content = 冒犯性内容
