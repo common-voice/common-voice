@@ -98,5 +98,5 @@ export const Rules: React.FC<Props> = ({ error }) => {
         )}
       </div>
     </div>
-  );
+  )
 };
