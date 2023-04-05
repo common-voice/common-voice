@@ -1615,3 +1615,4 @@ adding-sentences-subheader-spelling-punctuation = 用字与标点符号
 adding-sentences-subheader-spelling-punctuation-explanation = 语句用字必须正确。
 adding-sentences-subheader-speakable = 易读
 adding-sentences-subheader-numbers = 数字
+adding-sentences-subheader-numbers-explanation = 源文本中最好不要包含数字，因为朗读数字时可能会遇到问题，这是由于数字的读法取决于上下文，可能会在数据集中造成混乱。例如，“2409”可以读作“二四零九”，也可以读作“两千四百零九”。
