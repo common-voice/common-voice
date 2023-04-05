@@ -1688,6 +1688,7 @@ reviewing-sentences-explanation-3 = If you are unsure about the sentence, you ma
 reviewing-sentences-explanation-4 = If you run out of sentences to review, please help us collect more sentences!
 community-announcement-header = Community announcement!
 community-announcement-explanation = The guidance below is for the new sentence collector features, which will be integrated into the core Common Voice platform throughout March and April 2023. In the meantime you can use the previous tool, <scLink>https://commonvoice.mozilla.org/sentence-collector/</scLink>.
+
 # WRITE PAGE
 write-page-instruction-public-domain = a public domain sentence
 write-page-subtitle = Sentences contributed here will be added to a publicly available cc-0 licensed dataset.
@@ -1714,3 +1715,7 @@ contact-us = Contact Us
 add-sentence-success = 1 sentence collected
 add-sentence-error = Error adding sentence
 required-field = Please fill out this field.
+
+# REVIEW PAGE
+sc-review-header-check = Check
+sc-review-header-linguistically-correct = is this a linguistically correct sentence?

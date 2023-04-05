@@ -39,9 +39,11 @@ const ListenPage = React.lazy(
   () => import('./pages/contribution/listen/listen')
 );
 const SpeakPage = React.lazy(() => import('./pages/contribution/speak/speak'));
-const WritePage = React.lazy(() => import('./pages/contribution/write/write'));
+const WritePage = React.lazy(
+  () => import('./pages/contribution/sentence-collector/write/write')
+)
 const ReviewPage = React.lazy(
-  () => import('./pages/contribution/review/review')
+  () => import('./pages/contribution/sentence-collector/review/review')
 )
 const DemoPage = React.lazy(() => import('./layout/demo-layout'))
 

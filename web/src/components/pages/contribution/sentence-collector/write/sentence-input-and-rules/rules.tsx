@@ -1,25 +1,25 @@
-import * as React from 'react';
-import { Localized } from '@fluent/react';
-import classNames from 'classnames';
+import * as React from 'react'
+import { Localized } from '@fluent/react'
+import classNames from 'classnames'
 
-import { SentenceSubmissionError } from 'common';
-import { ChevronDown } from '../../../../ui/icons';
-import { TextButton } from '../../../../ui/ui';
-import useIsMaxWindowWidth from '../../../../../hooks/use-is-max-window-width';
+import { SentenceSubmissionError } from 'common'
+import { ChevronDown } from '../../../../../ui/icons'
+import { TextButton } from '../../../../../ui/ui'
+import useIsMaxWindowWidth from '../../../../../../hooks/use-is-max-window-width'
 
 type Props = {
-  error: SentenceSubmissionError;
-};
+  error: SentenceSubmissionError
+}
 
-const MAX_WINDOW_WIDTH = 576;
+const MAX_WINDOW_WIDTH = 576
 
 export const Rules: React.FC<Props> = ({ error }) => {
-  const [rulesVisible, setShowRulesVisible] = React.useState(true);
-  const isMobileWidth = useIsMaxWindowWidth(MAX_WINDOW_WIDTH);
+  const [rulesVisible, setShowRulesVisible] = React.useState(true)
+  const isMobileWidth = useIsMaxWindowWidth(MAX_WINDOW_WIDTH)
 
   const handleClick = () => {
-    setShowRulesVisible(!rulesVisible);
-  };
+    setShowRulesVisible(!rulesVisible)
+  }
 
   return (
     <div className="rules">
@@ -99,4 +99,4 @@ export const Rules: React.FC<Props> = ({ error }) => {
       </div>
     </div>
   )
-};
+}

@@ -1,27 +1,27 @@
-import * as React from 'react';
-import { Localized } from '@fluent/react';
-import classNames from 'classnames';
+import * as React from 'react'
+import { Localized } from '@fluent/react'
+import classNames from 'classnames'
 
-import { EditIcon } from '../../../../ui/icons';
-import { LabeledInput } from '../../../../ui/ui';
-import { WriteProps } from '../write';
-import { Rules } from './rules';
-import ExpandableInformation from '../../../../expandable-information/expandable-information';
-import { SentenceSubmissionError } from 'common';
-import { LabeledTextArea } from '../../../../ui/ui';
-import { LocaleLink } from '../../../../locale-helpers';
-import URLS from '../../../../../urls';
+import { EditIcon } from '../../../../../ui/icons'
+import { LabeledInput } from '../../../../../ui/ui'
+import { WriteProps } from '../write'
+import { Rules } from './rules'
+import ExpandableInformation from '../../../../../expandable-information/expandable-information'
+import { SentenceSubmissionError } from 'common'
+import { LabeledTextArea } from '../../../../../ui/ui'
+import { LocaleLink } from '../../../../../locale-helpers'
+import URLS from '../../../../../../urls'
 
 type Props = {
-  getString: WriteProps['getString'];
+  getString: WriteProps['getString']
   handleSentenceInputChange: (
     event: React.ChangeEvent<HTMLTextAreaElement>
-  ) => void;
-  handleCitationChange: (event: React.ChangeEvent<HTMLInputElement>) => void;
-  sentence: string;
-  citation: string;
-  error: SentenceSubmissionError;
-};
+  ) => void
+  handleCitationChange: (event: React.ChangeEvent<HTMLInputElement>) => void
+  sentence: string
+  citation: string
+  error: SentenceSubmissionError
+}
 
 export const SentenceInputAndRules: React.FC<Props> = ({
   getString,
@@ -31,9 +31,8 @@ export const SentenceInputAndRules: React.FC<Props> = ({
   citation,
   error,
 }) => {
-  const isSentenceError =
-    error && error !== SentenceSubmissionError.NO_CITATION;
-  const isCitationError = error === SentenceSubmissionError.NO_CITATION;
+  const isSentenceError = error && error !== SentenceSubmissionError.NO_CITATION
+  const isCitationError = error === SentenceSubmissionError.NO_CITATION
 
   return (
     <div className="inputs-and-instruction">
@@ -100,5 +99,5 @@ export const SentenceInputAndRules: React.FC<Props> = ({
         <Rules error={error} />
       </div>
     </div>
-  );
-};
+  )
+}
