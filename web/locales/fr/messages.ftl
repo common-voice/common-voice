@@ -1637,6 +1637,7 @@ adding-sentences-subheader-length-explanation = La phrase doit contenir moins de
 adding-sentences-subheader-spelling-punctuation = Orthographe et ponctuation
 adding-sentences-subheader-spelling-punctuation-explanation = La phrase doit être orthographiée correctement.
 adding-sentences-subheader-speakable = Prononçable
+adding-sentences-subheader-speakable-explanation = Les meilleures phrases sont naturelles et conversationnelles, elles doivent être faciles à lire pour quelqu’un. Bien que la diversité phonétique et les mots différents dans les phrases soient importants, nous essayons également de rendre l’enregistrement des phrases aussi engageant et amusant que possible pour notre communauté de bénévoles.
 adding-sentences-subheader-numbers = Nombres
 adding-sentences-subheader-numbers-explanation = Idéalement, il ne devrait pas y avoir de chiffres dans le texte source, car ils peuvent causer des problèmes lors de la lecture à haute voix. La façon dont un nombre est lu dépend du contexte et pourrait introduire de la confusion dans le jeu de données. Par exemple, le nombre « 3624 » pourrait être correctement lu comme « trente-six vingt-quatre » et « trois mille six cent vingt-quatre ».
 adding-sentences-subheader-abbreviations = Abréviations et acronymes
