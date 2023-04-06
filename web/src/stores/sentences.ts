@@ -1,18 +1,20 @@
 import { Action as ReduxAction, Dispatch } from 'redux';
 import StateTree from './tree';
-import { Sentence, SentenceSubmission } from 'common';
+import { PendingSentence, Sentence, SentenceSubmission } from 'common'
 
-const CACHE_SET_COUNT = 25;
-const MIN_CACHE_COUNT = 5;
+const CACHE_SET_COUNT = 25
+const MIN_CACHE_COUNT = 5
 
 // eslint-disable-next-line @typescript-eslint/no-namespace
 export namespace Sentences {
   export interface State {
     [locale: string]: {
-      sentences: Sentence[];
-      isLoading: boolean;
-      hasLoadingError: boolean;
-    };
+      sentences: Sentence[]
+      isLoading: boolean
+      isLoadingPendingSentences: boolean
+      hasLoadingError: boolean
+      pendingSentences: PendingSentence[]
+    }
   }
 
   enum ActionType {
@@ -21,27 +23,38 @@ export namespace Sentences {
     REFILL_ERROR = 'REFILL_SENTENCES_ERROR',
     REMOVE = 'REMOVE_SENTENCES',
     CREATE = 'CREATE_SENTENCES',
+    REFILL_PENDING_SENTENCES = 'REFILL_PENDING_SENTENCES',
+    REFILL_PENDING_SENTENCES_LOADING = 'REFILL_PENDING_SENTENCES_LOADING',
   }
 
   interface RefillAction extends ReduxAction {
-    type: ActionType.REFILL;
-    sentences: Sentence[];
+    type: ActionType.REFILL
+    sentences: Sentence[]
   }
   interface RefillLoadAction extends ReduxAction {
-    type: ActionType.REFILL_LOAD;
+    type: ActionType.REFILL_LOAD
   }
   interface RefillErrorAction extends ReduxAction {
-    type: ActionType.REFILL_ERROR;
+    type: ActionType.REFILL_ERROR
   }
 
   interface RemoveAction extends ReduxAction {
-    type: ActionType.REMOVE;
-    sentenceIds: string[];
+    type: ActionType.REMOVE
+    sentenceIds: string[]
   }
 
   interface CreateAction extends ReduxAction {
-    type: ActionType.CREATE;
-    newSentenceSubmission: SentenceSubmission;
+    type: ActionType.CREATE
+    newSentenceSubmission: SentenceSubmission
+  }
+
+  interface RefillPendingSentencesLoadingAction extends ReduxAction {
+    type: ActionType.REFILL_PENDING_SENTENCES_LOADING
+  }
+
+  interface RefillPendingSentencesAction extends ReduxAction {
+    type: ActionType.REFILL_PENDING_SENTENCES
+    pendingSentences: PendingSentence[]
   }
 
   export type Action =
@@ -49,7 +62,9 @@ export namespace Sentences {
     | RefillLoadAction
     | RefillErrorAction
     | RemoveAction
-    | CreateAction;
+    | CreateAction
+    | RefillPendingSentencesLoadingAction
+    | RefillPendingSentencesAction
 
   export const actions = {
     refill:
@@ -59,34 +74,34 @@ export namespace Sentences {
         getState: () => StateTree
       ) => {
         try {
-          const state = getState();
+          const state = getState()
 
           // don't load if no contributable locale
           if (
             state.languages &&
             !state.languages.contributableLocales.includes(state.locale)
           ) {
-            return;
+            return
           }
 
           if (
             Object.keys(localeSentences(state).sentences).length >=
             MIN_CACHE_COUNT
           ) {
-            return;
+            return
           }
 
-          dispatch({ type: ActionType.REFILL_LOAD });
+          dispatch({ type: ActionType.REFILL_LOAD })
           const newSentences = await state.api.fetchRandomSentences(
             CACHE_SET_COUNT
-          );
+          )
           dispatch({
             type: ActionType.REFILL,
             sentences: newSentences,
-          });
+          })
         } catch (err) {
-          console.error('could not fetch sentences', err);
-          dispatch({ type: ActionType.REFILL_ERROR });
+          console.error('could not fetch sentences', err)
+          dispatch({ type: ActionType.REFILL_ERROR })
         }
       },
 
@@ -98,42 +113,64 @@ export namespace Sentences {
         >,
         getState: () => StateTree
       ) => {
-        dispatch({ type: ActionType.REMOVE, sentenceIds });
-        actions.refill()(dispatch, getState);
+        dispatch({ type: ActionType.REMOVE, sentenceIds })
+        actions.refill()(dispatch, getState)
       },
 
     create:
       (newSentenceSubmission: SentenceSubmission) =>
       async (dispatch: Dispatch<CreateAction>, getState: () => StateTree) => {
-        const state = getState();
+        const state = getState()
 
-        dispatch({ type: ActionType.CREATE, newSentenceSubmission });
-        await state.api.createSentence(newSentenceSubmission);
+        dispatch({ type: ActionType.CREATE, newSentenceSubmission })
+        await state.api.createSentence(newSentenceSubmission)
       },
-  };
+
+    refillPendingSentences:
+      (localeId: number) =>
+      async (
+        dispatch: Dispatch<
+          RefillPendingSentencesAction | RefillPendingSentencesLoadingAction
+        >,
+        getState: () => StateTree
+      ) => {
+        const state = getState()
+
+        dispatch({
+          type: ActionType.REFILL_PENDING_SENTENCES_LOADING,
+        })
+
+        const data = await state.api.fetchPendingSentences(localeId)
+
+        dispatch({
+          type: ActionType.REFILL_PENDING_SENTENCES,
+          pendingSentences: data.pendingSentences,
+        })
+      },
+  }
 
   const DEFAULT_LOCALE_STATE = {
     sentences: [] as Sentence[],
     isLoading: true,
     hasLoadingError: false,
-  };
+  }
 
   export function reducer(
     locale: string,
     state: State = {},
     action: Action
   ): State {
-    const currentLocaleState = state[locale];
+    const currentLocaleState = state[locale]
     const localeState = {
       ...DEFAULT_LOCALE_STATE,
       ...currentLocaleState,
-    };
+    }
 
     switch (action.type) {
       case ActionType.REFILL: {
         const sentenceIds = localeState.sentences
           .map(s => s.id)
-          .concat(localeState.sentences.map(s => s.id));
+          .concat(localeState.sentences.map(s => s.id))
 
         return {
           ...state,
@@ -143,8 +180,11 @@ export namespace Sentences {
             ),
             isLoading: false,
             hasLoadingError: false,
+            isLoadingPendingSentences:
+              currentLocaleState.isLoadingPendingSentences,
+            pendingSentences: currentLocaleState.pendingSentences,
           },
-        };
+        }
       }
 
       case ActionType.REFILL_LOAD:
@@ -155,7 +195,7 @@ export namespace Sentences {
             isLoading: true,
             hasLoadingError: false,
           },
-        };
+        }
 
       case ActionType.REFILL_ERROR:
         return {
@@ -164,8 +204,11 @@ export namespace Sentences {
             sentences: [],
             isLoading: false,
             hasLoadingError: true,
+            isLoadingPendingSentences:
+              currentLocaleState.isLoadingPendingSentences,
+            pendingSentences: currentLocaleState.pendingSentences,
           },
-        };
+        }
 
       case ActionType.REMOVE:
         return {
@@ -176,28 +219,53 @@ export namespace Sentences {
             ),
             isLoading: false,
             hasLoadingError: false,
+            isLoadingPendingSentences:
+              currentLocaleState.isLoadingPendingSentences,
+            pendingSentences: currentLocaleState.pendingSentences,
           },
-        };
+        }
 
       case ActionType.CREATE:
         return {
           ...state,
-        };
+        }
+
+      case ActionType.REFILL_PENDING_SENTENCES_LOADING: {
+        return {
+          ...state,
+          [locale]: {
+            ...currentLocaleState,
+            pendingSentences: [],
+            isLoadingPendingSentences: true,
+          },
+        }
+      }
+
+      case ActionType.REFILL_PENDING_SENTENCES: {
+        return {
+          ...state,
+          [locale]: {
+            ...currentLocaleState,
+            pendingSentences: action.pendingSentences,
+            isLoadingPendingSentences: false,
+          },
+        }
+      }
 
       default:
-        return state;
+        return state
     }
   }
 
   const localeSentences = ({ locale, sentences }: StateTree) => {
     if (!sentences[locale]) {
-      return DEFAULT_LOCALE_STATE;
+      return DEFAULT_LOCALE_STATE
     }
 
-    return sentences[locale];
-  };
+    return sentences[locale]
+  }
 
   export const selectors = {
     localeSentences,
-  };
+  }
 }

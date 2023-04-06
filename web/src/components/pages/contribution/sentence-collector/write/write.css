@@ -1,3 +1,5 @@
+@import url('../../../../media.css');
+
 .write-wrapper {
     & .guidelines-form {
         display: flex;
@@ -175,7 +177,7 @@
                     }
 
                     & li.error {
-                        list-style-image: url("../../../../../components/ui/icons/alert.svg");
+                        list-style-image: url("../../../../ui/icons/alert.svg");
                     }
 
                     & li.last-rule {

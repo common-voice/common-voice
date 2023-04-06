@@ -8,7 +8,7 @@ import { TextButton } from '../../../../../ui/ui'
 import useIsMaxWindowWidth from '../../../../../../hooks/use-is-max-window-width'
 
 type Props = {
-  error: SentenceSubmissionError
+  error?: SentenceSubmissionError
 }
 
 const MAX_WINDOW_WIDTH = 576

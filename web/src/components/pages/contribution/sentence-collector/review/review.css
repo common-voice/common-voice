@@ -1,3 +1,169 @@
+@import url('../../../../media.css');
+
 .review-wrapper {
-    /*  */
+    & .cards-and-instruction {
+        height: 100%;
+
+        & .cards-and-guidelines {
+            display: flex;
+
+            & .placeholder {
+                display: block;
+                flex: 0.7;
+            }
+        }
+
+        & .cards {
+            position: relative;
+            max-width: 700px;
+            height: 200px;
+            width: 100%;
+
+            @media (--md-up) {
+                max-height: 430px;
+                height: 43vh;
+            }
+
+            & .card {
+                position: absolute;
+                left: 0;
+
+                display: flex;
+                align-items: center;
+
+                width: 100%;
+                height: 100%;
+
+                background: var(--white);
+                box-shadow: 0 6px 19px 0 rgba(0, 0, 0, 0.05);
+                overflow: auto;
+                word-wrap: break-word;
+
+                opacity: 1;
+                transition: transform var(--transition-duration-slow) var(--easing),
+                    opacity var(--transition-duration-slow) var(--easing);
+
+                &.inactive {
+                    pointer-events: none;
+                    opacity: 0.5;
+                    filter: blur(6px);
+                }
+
+                & .sentence {
+                    margin: auto;
+                    width: 100%;
+                }
+            }
+        }
+
+        .card-dimensions {
+            padding: 0 20px;
+    
+            text-align: center;
+            font-weight: 600;
+            line-height: 1.38;
+    
+            background: var(--white);
+    
+            @media (--md-up) {
+                padding: 0 25px;
+                font-size: var(--font-size-xl);
+                font-weight: normal;
+                letter-spacing: 1.3px;
+                line-height: 1.63;
+            }
+    
+            @media (--lg-up) {
+                padding: 0 100px;
+            }
+        }
+
+        & .rules {
+            @media (--lg-up) {
+                width: 350px;
+                margin-left: 50px;
+                min-height: 350px;
+            }
+        
+        
+            & .inner {
+                background: var(--desert-storm);
+                padding: 24px 34px 0;
+                height: 100%;
+        
+                @media (--md-down) {
+                    padding-bottom: 20px;
+                }
+        
+                & .rules-title-container {
+                    display: flex;
+                    align-items: baseline;
+                    justify-content: space-between;
+        
+                    svg {
+                        transition: transform var(--easing) var(--transition-duration);
+        
+                        @media (--sm-up) {
+                            display: none;
+                        }
+                    }
+        
+                    & svg.rotate-180 {
+                        transform: rotate(180deg);
+                    }
+                }
+            }
+        
+            & .inner.rules-hidden {
+                @media (--xs-down) {
+                    padding-bottom: 0;
+                    padding-top: 16px;
+                    padding-left: 16px;
+                }
+            }
+        
+            & .text-button {
+                font-size: var(--font-size-sm);
+                margin-bottom: 16px;
+                cursor: auto;
+                width: 100%;
+                text-align: left;
+        
+                @media (--xs-down) {
+                    font-size: var(--font-size-xs);
+                }
+        
+                @media (--sm-up) {
+                    pointer-events: none;
+                }
+            }
+        
+            ul {
+                font-size: var(--font-size-sm);
+                color: var(--near-black);
+        
+                @media (--xs-down) {
+                    font-size: var(--font-size-xs);
+                }
+        
+                li {
+                    margin-bottom: 16px;
+                    width: 250px;
+        
+                    a {
+                        color: var(--anchor-text-blue);
+                        text-decoration: underline;
+                    }
+                }
+        
+                & li.error {
+                    list-style-image: url("../../../../../components/ui/icons/alert.svg");
+                }
+        
+                & li.last-rule {
+                    margin-bottom: 0px;
+                }
+            }
+        }
+    }
 }

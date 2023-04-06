@@ -14,3 +14,9 @@ export enum SentenceSubmissionError {
   NO_CITATION = 'NO_CITATION',
   OTHER = 'NO_FOREIGN_SCRIPT',
 }
+
+export type PendingSentence = {
+  sentence: string
+  source: string
+  localeId: number
+}
