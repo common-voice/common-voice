@@ -6,26 +6,6 @@
         justify-content: space-between;
     }
 
-    & .write-page-instruction {
-        display: flex;
-        width: 55%;
-        margin: 2vh auto 32px;
-
-        svg {
-            margin: 0 8px;
-
-            @media (--xs-down) {
-                width: 16px;
-                height: 16px;
-            }
-        }
-
-        @media (--xs-down) {
-            font-size: var(--font-size-xs);
-            margin-bottom: 16px;
-        }
-    }
-
     & .subtitle {
         width: fit-content;
         margin-bottom: 20px;

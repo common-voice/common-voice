@@ -1690,7 +1690,7 @@ community-announcement-header = Community announcement!
 community-announcement-explanation = The guidance below is for the new sentence collector features, which will be integrated into the core Common Voice platform throughout March and April 2023. In the meantime you can use the previous tool, <scLink>https://commonvoice.mozilla.org/sentence-collector/</scLink>.
 
 # WRITE PAGE
-write-page-instruction-public-domain = a public domain sentence
+write-instruction-second-part = a public domain sentence
 write-page-subtitle = Sentences contributed here will be added to a publicly available cc-0 licensed dataset.
 sentence = 
     .label = Sentence
@@ -1717,5 +1717,5 @@ add-sentence-error = Error adding sentence
 required-field = Please fill out this field.
 
 # REVIEW PAGE
-sc-review-header-check = Check
-sc-review-header-linguistically-correct = is this a linguistically correct sentence?
+sc-review-instruction-first-part = Check
+sc-review-instruction-second-part = is this a linguistically correct sentence?

@@ -6,6 +6,7 @@ import { EditIcon } from '../../../../../ui/icons'
 import { LabeledInput } from '../../../../../ui/ui'
 import { WriteProps } from '../write'
 import { Rules } from './rules'
+import { Instruction } from '../../instruction'
 import ExpandableInformation from '../../../../../expandable-information/expandable-information'
 import { SentenceSubmissionError } from 'common'
 import { LabeledTextArea } from '../../../../../ui/ui'
@@ -36,15 +37,11 @@ export const SentenceInputAndRules: React.FC<Props> = ({
 
   return (
     <div className="inputs-and-instruction">
-      <div className="write-page-instruction">
-        <Localized id="sc-header-add">
-          <span />
-        </Localized>
-        <EditIcon />
-        <Localized id="write-page-instruction-public-domain">
-          <span />
-        </Localized>
-      </div>
+      <Instruction
+        firstPartId="sc-header-add"
+        secondPartId="write-instruction-second-part"
+        icon={<EditIcon />}
+      />
       <Localized id="write-page-subtitle">
         <p className="subtitle" />
       </Localized>
