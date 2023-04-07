@@ -1549,4 +1549,37 @@ partnerships-academia-description = A inovação aberta está no âmago do que f
 partnerships-small-business-header = Pequenas empresas, incluindo startups de tecnologia e inteligência artificial
 partnerships-small-business-description = Estamos sempre procurando ouvir os consumidores de dados sobre suas necessidades e contexto. Desde a colaboração na plataforma de coleta de dados até o fornecimento de percepções de integridade de dados, queremos <emailFragment>ouvir você</emailFragment>.
 partnerships-corporates-header = Corporações de grande porte e empresas de plataforma
+partnerships-corporates-description = Se quiser falar mais sobre o conjunto de dados, investir junto em expansões de plataforma planejadas ou procurar oportunidades de colaboração, <emailFragment>mande uma mensagem</emailFragment>.
+partnerships-our-partners = Nossos parceiros
+# FIRST POST SUBMISSION CTA
+first-cta-header-text = Obrigado por doar seus clipes de voz!
+first-cta-subtitle-text = Quer compartilhar algumas informações sobre como você fala?
+why-donate = Por que pergunta?
+why-donate-explanation-1 = O fornecimento dessas informações é opcional. Você só deve adicionar caso se sinta confortável. Quando divulgamos o conjunto de dados, tornamos anônimas todas as informações pessoais e garantimos que informações como seu nome e email não sejam conectadas a informações demográficas, como idade ou sexo.
+add-information-button = Adicionar informações
+continue-speaking-button = Não, obrigado, continuar falando
+create-profile-text = Quer salvar suas informações? <createProfile>Crie um perfil</createProfile>
+thanks-for-voice-toast = Obrigado por suas informações de voz
+thanks-for-voice-toast-error = Ocorreu um erro ao enviar suas informações de voz
+# SECOND POST SUBMISSION CTA
+second-cta-header-text = Obrigado por contribuir com sua voz!
+second-cta-subtitle-text = Com um perfil, você pode acompanhar sua atividade e conectar-se a uma comunidade de contribuidores de dados de voz.
+already-have-an-account = Já tem uma conta? <login>Entre</login>
+create-profile-button = Criar um perfil
+# IMAGE TAGS
+img-alt-success-checkmark = marca de seleção de sucesso
+# GUIDELINES PAGE
+guidelines-header = Diretrizes de contribuição
+guidelines-header-subtitle = Entenda como contribuir e validar frases e clipes de áudio para o conjunto de dados do Common Voice
+voice-collection = Coleta de voz
 sentence-collection = Coleção de frases
+varying-pronunciations = Pronúncias diferentes
+misreadings = Erros de leitura
+offensive-content = Conteúdo ofensivo
+background-noise = Ruído de fundo
+background-voices = Vozes de fundo
+volume = Volume
+reader-effects = Efeitos do leitor
+just-unsure = Não tem certeza?
+example = Exemplo
+misreadings-explanation-2 = Erros muito comuns incluem:
