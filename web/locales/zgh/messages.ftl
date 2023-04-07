@@ -1,8 +1,12 @@
 ## General
 
+yes-receive-emails = ⵢⴰⵀ, ⵜⵜⴰⵣⵏⴰⵜ ⵉⵢⵉ ⵉⵎⴰⵢⵍⵏ. ⵔⵉⵖ ⴰⴷ ⵏⵏⵖⵎⵙⵖ ⵖⴼ ⵓⵙⵏⴼⴰⵔ ⵏ ⴽⴰⵎⵏⴼⵓⵢⵙ.
+return-to-cv = ⴰⵖⵓⵍ ⵖⵔ ⴽⴰⵎⵏⴼⵓⵢⵙ
 email-input =
     .label = ⵉⵎⴰⵢⵍ
 submit-form-action = ⴰⵣⵏ
+loading = ⴰⵣⴷⴰⵎ…
+not-available-abbreviation = ⵔ/ⵙ
 banner-error-slow-link = ⵜⴰⵙⵏⴰ ⵏ ⵡⴰⴷⴷⴰⴷ
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
@@ -43,6 +47,7 @@ cy = ⵜⴰⵡⵉⵍⵣⵉⵜ
 da = ⵜⴰⴷⴰⵏⵎⴰⵔⴽⵉⵜ
 dag = ⵜⴰⴷⴰⴳⴱⴰⵏⵉⵜ
 de = ⵜⴰⵍⵉⵎⴰⵏⵜ
+dsb = ⵜⴰⵚⵓⵕⴱⵉⵜ, ⵜⴰⵏⴰⴷⴷⴰⵡⵜ
 dv = ⵜⴰⴷⵉⴼⵀⵉⵜ
 dyu = ⵜⴰⴷⵢⵓⵍⴰⵜ
 el = ⵜⴰⴳⵔⵉⴽⵉⵜ
@@ -66,11 +71,14 @@ he = ⵜⴰⵄⵉⴱⵔⵉⵜ
 hi = ⵜⴰⵀⵉⵏⴷⵉⵜ
 hil = ⵜⴰⵀⵉⵍⵉⴳⴰⵢⵏⵓⵏⵜ
 hr = ⵜⴰⴽⵔⵡⴰⵜⵉⵢⵜ
+hsb = ⵜⴰⵚⵓⵕⴱⵉⵜ, ⵜⴰⵏⴰⴼⵍⵍⴰⵜ
 ht = ⵜⴰⵀⴰⵢⵜⵉⵜ
 hu = ⵜⴰⵀⵏⴳⴰⵕⵉⵢⵜ
 hy-AM = ⵜⴰⵕⵎⵉⵏⵉⵢⵜ
+hyw = ⵜⴰⵕⵎⵉⵏⵉⵜ ⵜⵓⵜⵔⵉⵎⵜ
 ia = ⵜⴰⴳⵔⵓⵜⵍⴰⵢⵜ
 id = ⵜⴰⵏⴷⵓⵏⵉⵙⵉⵢⵜ
+ie = ⵉⵏⵜⵔⵍⵉⵏⴳ
 ig = ⵜⴰⵢⴳⴱⵓⵜ
 is = ⵜⴰⵢⵙⵍⴰⵏⴷⵉⵜ
 it = ⵜⴰⵟⴰⵍⵢⴰⵏⵉⵜ
@@ -86,6 +94,7 @@ kk = ⵜⴰⴽⴰⵣⴰⵅⵉⵜ
 km = ⵜⴰⵅⵎⵉⵔⵉⵜ
 kmr = ⵜⴰⴽⵓⵔⴷⵉⵜ ⵜⴰⴽⵓⵔⵎⴰⵏⵊⵉⵜ
 kn = ⵜⴰⴽⴰⵏⵏⴰⴷⴰⵢⵜ
+knn = ⵜⴰⴽⵓⵏⴽⴰⵏⵉⵜ (ⴷⵉⴼⴰⵏⴰⴳⴰⵔⵉ)
 ko = ⵜⴰⴽⵓⵔⵉⵢⵜ
 ky = ⵜⴰⴽⵉⵔⴳⵉⵣⵉⵜ
 lb = ⵜⴰⵍⵓⴽⵙⵎⴱⵓⵔⴳⵉⵜ
@@ -165,6 +174,7 @@ shortcut-vote-no = ⵓ
 ## Speak Shortcuts
 
 shortcut-discard-ongoing-recording = ⵔⵡⵍ
+shortcut-submit = ⴰⵖⵓⵍ
 
 ## ProjectStatus
 
@@ -275,6 +285,9 @@ language-validation-hours = ⵜⵉⵙⵔⴰⴳⵉⵏ
 
 contribute = ⴰⵔⴳ
 share-common-voice = ⴱⴹⵓ ⴽⴰⵎⵏ ⴼⵓⵢⵙ
+
+## Contribution Nav Items
+
 
 ## Reporting
 
