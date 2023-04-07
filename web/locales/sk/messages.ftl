@@ -226,7 +226,7 @@ zza = zaza
 
 speak = Hovorte
 speak-now = Hovorte teraz
-datasets = Datasety
+datasets = Kolekcie údajov
 languages = Jazyky
 about = O nás
 partner = Partnerstvá
@@ -273,7 +273,7 @@ vote-yes = Áno
 vote-no = Nie
 toggle-play-tooltip = Stlačením { shortcut-play-toggle } spustíte režim prehrávania
 speak-subtitle = Prispejte svojim hlasom
-speak-paragraph = Nahrávanie klipov je neoddeliteľnou súčasťou budovania našich otvorených datasetov. Podľa niektorých je to práve tá zábavnejšia časť.
+speak-paragraph = Nahrávanie klipov je neoddeliteľnou súčasťou budovania našich otvorených kolekcií údajov. Podľa niektorých je to práve tá zábavnejšia časť.
 speak-goal-text = Počet nahrávok
 listen-subtitle = Pomôžte nám s overením
 listen-paragraph = Overovanie nahrávok je rovnako dôležitou súčasťou misie Common Voice. Vypočujte si ich a pomôžte nám vytvoriť kvalitnú databázu.
@@ -305,7 +305,7 @@ x-years-short =
         [few] { $count } roky
        *[other] { $count } rokov
     }
-help-make-dataset = Pomôžte nám vytvoriť vysokokvalitnú a verejne prístupnú databázu
+help-make-dataset = Pomôžte nám vytvoriť vysokokvalitnú a verejne prístupnú kolekciu údajov
 sign-up-account = Vytvorte si účet
 email-subscription-title = prihláste sa k odberu noviniek
 email-subscription-title-new = Prihláste sa na odber noviniek o projekte Common Voice, upozornení na ciele a informácií o pokroku.
@@ -326,7 +326,7 @@ whats-public = Čo všetko zverejňujeme?
 email-not-public = Vašu e-mailovú adresu nezverejňujeme.
 recordings-and-locale-public = Počet nahrávok a jazyky, do ktorých prispievate, budú verejné.
 username-optin-public = Môžete si vybrať, či bude vaše používateľské meno verejné alebo anonymné.
-demographic-deidentified-clarity-2 = Dobrovoľne odosielané demografické dáta (napr. vek, pohlavie, jazyk a prízvuk) nebudú na vašom profile nikdy sprístupnené verejne, a v datasete nebudú spárované s vašim účtom. Individuálne zvukové nahrávky budú asociované s demografickými údajmi za účelom presnejšej analýzy - napríklad, výskumník môže chcieť cieliť trénovanie modelu na špecifickú demografickú skupinu.
+demographic-deidentified-clarity-2 = Dobrovoľne odosielané demografické údaje (napr. vek, pohlavie, jazyk a prízvuk) nebudú na vašom profile nikdy sprístupnené verejne, a v kolekcii údajov nebudú spárované s vašim účtom. Individuálne zvukové nahrávky budú asociované s demografickými údajmi za účelom presnejšej analýzy - napríklad, výskumník môže chcieť cieliť trénovanie modelu na špecifickú demografickú skupinu.
 username-email-not-demographic = Vaše používateľské meno a e-mailová adresa nebudú nijakým spôsobom prepojené s uverejnenými údajmi.
 
 ## Speak & Listen Shortcuts
@@ -476,16 +476,16 @@ faq-what-cv-a =
 faq-what-cv-a-2 =
     Technológia rozpoznávania hlasu prináša revolúciu v spôsobe interakcie so strojmi, ale v súčasnosti dostupné systémy sú drahé a proprietárne. Mozilla Common Voice je iniciatíva, ktorej cieľom je zlepšiť a sprístupniť technológie rozpoznávania hlasu pre každého. Common Voice je rozsiahla globálna databáza darovaných hlasov, ktorá umožňuje komukoľvek rýchlo a jednoducho trénovať aplikácie podporujúce hlas v potenciálne každom jazyku.
     
-    Nezhromažďujeme len ukážky hlasu v široko hovorených jazykoch, ale aj v jazykoch s menšou populáciou rečníkov. Publikovanie rozmanitej množiny hlasov umožní vývojárom, podnikateľom a komunitám túto medzeru vyriešiť sami.
+    Nezhromažďujeme len ukážky hlasu v široko hovorených jazykoch, ale aj v jazykoch s menšou populáciou rečníkov. Publikovanie rozmanitej kolekcie údajov umožní vývojárom, podnikateľom a komunitám túto medzeru vyriešiť sami.
 faq-why-important-q = Prečo je to dôležité?
 faq-why-important-a =
-    Reč je často najprirodzenejším spôsobom, akým navzájom komunikujeme, a hlasové technológie prinášajú toto pohodlie do našich počítačov a mobilných zariadení. Chceme umožniť vývojárom vybudovať úžasné aplikácie na rozpoznávanie hlasu, ako sú prekladatelia v reálnom čase a hlasom ovládaní digitálni asistenti. Ale práve teraz je väčšina hlasových dát potrebných na vybudovanie takýchto aplikácií drahá a proprietárna. Dúfame, že dátový súbor Common Voice poskytne vývojárom to, čo potrebujú na inováciu a sprístupnenie technológie reči v ich vlastnom jazyku.
+    Reč je často najprirodzenejším spôsobom, akým navzájom komunikujeme, a hlasové technológie prinášajú toto pohodlie do našich počítačov a mobilných zariadení. Chceme umožniť vývojárom vybudovať úžasné aplikácie na rozpoznávanie hlasu, ako sú prekladatelia v reálnom čase a hlasom ovládaní digitálni asistenti. Ale práve teraz je väčšina hlasových dát potrebných na vybudovanie takýchto aplikácií drahá a proprietárna. Dúfame, že kolekcia údajov Common Voice poskytne vývojárom to, čo potrebujú na inováciu a sprístupnenie technológie reči v ich vlastnom jazyku.
     
-    Aby sa rozpoznávanie hlasu stalo ešte univerzálnejším, zhromažďujeme hlasové vzorky v často hovorených jazykoch, rovnako ako v jazykoch s menším počtom hovoriacich, ktorí sú často prehliadaní komerčnými službami rozpoznávania reči. Publikovanie rôznorodého súboru hlasov umožní vývojárom, podnikateľom a celým rečovým komunitám vyriešiť túto medzeru .
+    Aby sa rozpoznávanie hlasu stalo ešte univerzálnejším, zhromažďujeme hlasové vzorky v často hovorených jazykoch, rovnako ako v jazykoch s menším počtom hovoriacich, ktorí sú často prehliadaní komerčnými službami rozpoznávania reči. Publikovanie kolekcie rôznorodých údajov umožní vývojárom, podnikateľom a celým rečovým komunitám vyriešiť túto medzeru .
 faq-how-get-q = Ako môžem získať údaje služby Common Voice?
-faq-how-get-a = Dataset služby Common Voice je dostupný na stiahnutie v rámci licencie <licenseLink>CC0</licenseLink> na <datasetLink>stránke našich datasetov</datasetLink>. Z tej istej stránky si taktiež môžete stiahnuť niekoľko ďalších verejne dostupných datasetov.
+faq-how-get-a = Kolekcia údajov služby Common Voice je dostupná na stiahnutie v rámci licencie <licenseLink>CC0</licenseLink> na stránke <datasetLink>Kolekcie údajov</datasetLink>. Z tej istej stránky si taktiež môžete stiahnuť niekoľko ďalších verejne dostupných kolekcií údajov.
 faq-when-release2-q = Kedy uverejníte údaje projektu Common Voice aj v ďalších jazykoch?
-faq-when-release2-a = Na viacjazyčnej verzii Common Voice datasetu momentálne prebieha spájanie a čistenie podporované komunitou. Ak nám chcete pomôcť s prinesením Common Voice do nových jazykov, použite nástroj na <sentenceCollectorLink>zber viet</sentenceCollectorLink>, pomocou ktorého pridáte nové vety do datasetu, a Mozilla <pontoonLink>Pontoon</pontoonLink> na preklad samotnej stránky. Nové jazyky sú pridávané do Common Voice v momente, keď sa dosiahne nazbieranie 5 000 schválených viet.
+faq-when-release2-a = Na viacjazyčnej kolekcii údajov Common Voice momentálne prebieha spájanie a čistenie podporované komunitou. Ak nám chcete pomôcť s prinesením Common Voice do nových jazykov, použite nástroj na <sentenceCollectorLink>zber viet</sentenceCollectorLink>, pomocou ktorého pridáte nové vety do kolekcie údajov, a Mozilla <pontoonLink>Pontoon</pontoonLink> na preklad samotnej stránky. Nové jazyky sú pridávané do Common Voice v momente, keď sa dosiahne nazbieranie 5 000 schválených viet.
 faq-why-mission-q = Prečo je projekt Common Voice súčasťou misie Mozilly?
 faq-why-mission-a = Mozilla je odhodlaná udržať web otvorený a prístupný pre všetkých. Aby sme to mohli robiť, potrebujeme podporovať tvorcov webu pomocou projektov, ako napríklad Common Voice. Keďže sa technológie rozpoznávania reči dostávajú do čoraz viac aplikácií, veríme, že by mali slúžiť rovnako dobre všetkým používateľom. Vidíme potrebu zahrnúť pri tvorbe a testovaní technológii na rozpoznávanie reči ďalšie jazyky, prízvuky a skupiny ľudí. Common Voice je verejný zdroj, ktorý tímy Mozilly a vývojári po celom svete už aktívne využívajú.
 faq-what-cv-and-deepspeech-q = Aký je rozdiel medzi projektami Common Voice a Deep Speech?
@@ -1604,6 +1604,7 @@ create-profile-button = Vytvoriť profil
 img-alt-success-checkmark = symbol začiarknutia
 # GUIDELINES PAGE
 guidelines-header = Pokyny pre prispievanie
+guidelines-header-subtitle = Prečítajte si, ako prispievať a overovať vety a zvukové klipy do množiny údajov Common Voice
 voice-collection = Zbierka hlasov
 sentence-collection = Zber viet
 varying-pronunciations = Rôzne výslovnosti
@@ -1615,5 +1616,7 @@ volume = Hlasitosť
 reader-effects = Efekty od čítajúceho
 just-unsure = Len si nie ste istí?
 example = Príklad
+reviewing-sentences-explanation-3 = Ak si nie ste istí vetou, môžete ju tiež preskočiť a prejsť na ďalšiu.
+reviewing-sentences-explanation-4 = Ak vám dochádzajú vety na kontrolu, môžete nám pomôcť zhromaždiť ďalšie vety.
 community-announcement-header = Oznámenie komunity!
 community-announcement-explanation = Pokyny nižšie sa týkajú nových funkcií zberača viet, ktoré budú integrované do základnej platformy Common Voice počas marca a apríla 2023. Medzitým môžete použiť predchádzajúci nástroj, <scLink>https://commonvoice.mozilla.org/sentence-collector/</scLink>.
