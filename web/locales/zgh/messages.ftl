@@ -96,6 +96,7 @@ kmr = ⵜⴰⴽⵓⵔⴷⵉⵜ ⵜⴰⴽⵓⵔⵎⴰⵏⵊⵉⵜ
 kn = ⵜⴰⴽⴰⵏⵏⴰⴷⴰⵢⵜ
 knn = ⵜⴰⴽⵓⵏⴽⴰⵏⵉⵜ (ⴷⵉⴼⴰⵏⴰⴳⴰⵔⵉ)
 ko = ⵜⴰⴽⵓⵔⵉⵢⵜ
+kpv = ⵜⴰⴽⵓⵎⵉⵣⵉⵔⴰⵏⵜ
 ky = ⵜⴰⴽⵉⵔⴳⵉⵣⵉⵜ
 lb = ⵜⴰⵍⵓⴽⵙⵎⴱⵓⵔⴳⵉⵜ
 lg = ⵜⴰⵍⵓⴳⴰⵏⴷⵉⵜ
@@ -109,7 +110,12 @@ mdf = ⵜⴰⵎⵓⴽⵛⴰⵢⵜ
 mg = ⵜⴰⵎⴰⵍⴳⴰⵛⵉⵜ
 mk = ⵜⴰⵎⴰⵇⴷⵓⵏⵉⵜ
 mn = ⵜⴰⵎⵓⵏⴳⵓⵍⵉⵜ
+mni = ⵜⴰⵎⵉⵜⵉⵍⵓⵏⵜ
+mos = ⵜⴰⵎⵓⵙⵉⵜ
+mr = ⵜⴰⵎⴰⵕⴰⵜⵉⵜ
 mt = ⵜⴰⵎⴰⵍⵟⵉⵜ
+ne-NP = ⵜⴰⵏⵉⴱⴰⵍⵉⵜ
+nia = ⵜⴰⵏⵢⴰⵙⵉⵜ
 nl = ⵜⴰⵀⵓⵍⴰⵏⴷⵉⵜ
 pt = ⵜⴰⴱⵔⵜⵇⵉⵣⵜ
 ro = ⵜⴰⵕⵓⵎⴰⵏⵉⵜ
@@ -124,6 +130,7 @@ sv-SE = ⵜⴰⵙⵡⵉⴷⵉⵜ
 ta = ⵜⴰⵜⴰⵎⵉⵍⵜ
 tr = ⵜⴰⵜⵓⵔⴽⵉⵜ
 wo = ⵜⴰⵡⵓⵍⵓⴼⵜ
+yi = ⵜⴰⵢⴷⴷⵉⵛⵜ
 zgh = ⵜⴰⵎⴰⵣⵉⵖⵜ
 zh-CN = ⵜⴰⵛⵉⵏⵡⵉⵜ (ⵛⵉⵏⵡⴰ)
 zh-HK = ⵜⴰⵛⵉⵏⵡⵉⵜ (ⵀⵓⵏⴳ ⴽⵓⵏⴳ)
@@ -142,6 +149,7 @@ help = ⵜⵉⵡⵉⵙⵉ
 privacy = ⵜⵉⵏⵏⵓⵜⵍⴰ
 terms = ⵜⵉⴼⴰⴷⵉⵡⵉⵏ
 cookies = ⵉⴽⵓⴽⵉⵜⵏ
+faq = ⵉⵙⵇⵙⵉⵜⵏ ⴷ ⵜⵎⵔⵓⵔⴰ
 logout = ⴼⴼⵖ
 
 ## Home Page
@@ -149,6 +157,26 @@ logout = ⴼⴼⵖ
 show-wall-of-text = ⵖⵔ ⵓⴳⴳⴰⵔ
 vote-yes = ⵢⴰⵀ
 vote-no = ⵓⵀⵓ
+read-terms-q = ⵉⵙ ⵜⵖⵔⵉⴷ ⵜⵉⴼⴰⴷⵉⵡⵉⵏ ⵏⵏⵖ?
+x-weeks-short =
+    { $count ->
+        [one] ⵉⵎⴰⵍⴰⵙⵙ
+        [many] { "" }
+       *[other] { $count }ⵎⵍⵙ
+    }
+x-months-short =
+    { $count ->
+        [one] ⴰⵢⵢⵓⵔ
+        [many] { "" }
+       *[other] { $count }ⵢⵔ
+    }
+x-years-short =
+    { $count ->
+        [one] ⴰⵙⴳⴳⵯⴰⵙ
+        [many] { "" }
+       *[other] { $count }ⵙⴳⵙ
+    }
+sign-up-account = ⵣⵎⵎⴻⵎ ⴽⵔⴰ ⵏ ⵓⵎⵉⴹⴰⵏ
 
 ## Account Benefits
 
@@ -175,9 +203,14 @@ shortcut-vote-no = ⵓ
 
 shortcut-discard-ongoing-recording = ⵔⵡⵍ
 shortcut-submit = ⴰⵖⵓⵍ
+request-language-button = ⵜⵜⵔ ⴽⵔⴰ ⵏ ⵜⵓⵜⵍⴰⵢⵜ
 
 ## ProjectStatus
 
+# Variables:
+# $goal - number of hours representing the next goal
+status-goal = ⵉⵡⵜⵜⴰⵙⵏ ⵓⴹⴼⵉⵕⵏ: { $goal }
+english = ⵜⴰⵏⴳⵍⵉⵣⵜ
 
 ## ProfileForm
 
