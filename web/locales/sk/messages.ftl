@@ -523,7 +523,7 @@ faq-what-determine-identity-q = Čo to znamená, že nie je možné „určiť i
 faq-what-determine-identity-a =
     Kolekcia údajov Common Voice je otvorený a verejne dostupný zdroj, ktorý možno použiť na trénovanie širokej škály aplikácií s podporou reči. V záujme ochrany bezpečnosti našich prispievateľov žiadame každého, kto si stiahne kolekciu údajov Common Voice, aby rešpektoval súkromie prispievateľov.
     
-    Všetky hlasové nahrávky v kolekcii údajov sú zbavené osobných identifikačných informácií. Keď stiahnete kolekciu údajov, súhlasíte s tým, že sa nepokúsite určiť identitu žiadneho prispievateľa. To znamená, že sa nemôžete pokúsiť prepojiť informácie v kolekcii údajov s osobnými údajmi prispievateľa. Môžete však kolekciu údajov použiť na trénovanie rozpoznávania reči, rozpoznávania reproduktorov alebo iných aplikácií, napríklad prepojením informácií v kolekcii údajov s inými informáciami, ktoré už v kolekcii údajov sú.
+    Všetky hlasové nahrávky v kolekcii údajov sú zbavené osobných identifikačných informácií. Keď stiahnete kolekciu údajov, súhlasíte s tým, že sa nepokúsite určiť identitu žiadneho prispievateľa. To znamená, že sa nemôžete pokúsiť prepojiť informácie v kolekcii údajov s osobnými údajmi prispievateľa. Môžete však kolekciu údajov použiť na trénovanie rozpoznávania reči, rozpoznávania hovoriacich alebo iných aplikácií, napríklad prepojením informácií v kolekcii údajov s inými informáciami, ktoré už v kolekcii údajov sú.
 faq-what-is-cv = Čo je Common Voice?
 faq-using-cv = Používanie projektu Common Voice
 faq-description = Projekt Common Voice je súčasťou iniciatívy Mozilly, ktorá pomáha strojom učiť sa, ako rozprávajú skutoční ľudia.
@@ -1620,6 +1620,9 @@ just-unsure = Len si nie ste istí?
 example = Príklad
 varying-pronunciations-explanation-1 = Vítame rôzne prízvuky. Buďte veľmi opatrní pred odmietnutím nahrávky z dôvodu, že si myslíte, že čitateľ nesprávne vyslovil nejaké slovo, umiestnil dôraz na nesprávne miesto alebo ignoroval interpunkciu. Vo svete sa používa široká škála výslovností, pričom niektoré z nich ste vo svojej miestnej komunite možno ešte nepočuli. Poskytnite, prosím, veľkú mieru uznania tým, ktorí môžu hovoriť inak ako vy.
 varying-pronunciations-explanation-2 = Na druhej strane, ak si myslíte, že čítajúci sa s týmto slovom ešte nikdy nestretol a nesprávne odhaduje výslovnosť, odmietnite ho. Ak si nie ste istí, použite tlačidlo preskočiť.
+varying-pronunciations-example = Trasa bola nejasná.
+varying-pronunciations-tip-1 = [V kanadskej angličtine sa vyslovuje slovo „trasa“ odlišne]
+varying-pronunciations-tip-2 = [Aj v britskej angličtine môže znieť inak]
 offensive-content-explanation = Tresty sa preverujú prostredníctvom procesu komunitného moderovania, tento proces však nie je dokonalý. Ak uvidíte alebo počujete vetu, ktorá vás uráža alebo rozčuľuje – napríklad preto, že porušuje naše <participationGuidelines>pravidlá účasti v komunite</participationGuidelines> – použite tlačidlo vlajky v používateľskom rozhraní. Môžete nás tiež kontaktovať na adrese <emailFragment>commonvoice@mozilla.com</emailFragment>.
 misreadings-explanation-1 = Na správnom prečítaní všetkých slov na stránke záleží. Pri počúvaní veľmi pozorne skontrolujte, či to, čo bolo zaznamenané, je presne to, čo bolo napísané. Nahrávku odmietnite, ak čítajúci pridal či vynechal slová.
 misreadings-explanation-2 = Medzi veľmi časté chyby patria:
@@ -1660,6 +1663,7 @@ public-domain-explanation-3 = Vytvárajte moderné hovorové vety sami alebo so 
 public-domain-explanation-4 = Kontaktujte autorov, dramatikov alebo scenáristov a opýtajte sa, či by boli ochotní venovať malú časť svojich diel verejnej sfére
 public-domain-explanation-5 = Hľadajte text, kde už neplatia autorské práva – napríklad väčšina kníh, ktoré boli vydané pred rokom 1920
 public-domain-explanation-6 = Oslovte vlády, neziskové organizácie alebo mediálne organizácie a zistite, či niektorý z ich webového obsahu, správ alebo iného obsahu môže byť venovaný na verejné účely
+citing-sentences-explanation-1 = Je dôležité zahrnúť citácie, aby sme mohli skontrolovať, či sú vety pod verejnou licenciou a nevzťahujú sa na ne žiadne obmedzenia týkajúce sa autorských práv.
 citing-sentences-subheader-websites = Webové stránky
 citing-sentences-subheader-websites-explanation = Môžete zahrnúť webovú stránku, napr. „Common Voice – https://commonvoice.mozilla.org/“
 citing-sentences-subheader-academic-reference = Akademická referencia
