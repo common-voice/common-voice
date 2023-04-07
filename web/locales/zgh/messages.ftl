@@ -254,6 +254,7 @@ add-language = ⵔⵏⵓ ⵜⵓⵜⵍⴰⵢⵜ
 
 ## FAQ
 
+faq-using-cv = ⴰⵙⵙⵎⵔⵙ ⵏ ⴽⴰⵎⵏⴼⵓⵢⵙ
 
 ## ABOUT US
 
@@ -261,7 +262,9 @@ how-does-it-work-title-v2 = ⵎⴰⵏⵎⴽ ⴷⴰ ⵉⵙⵡⵓⵔⵓⵢ ⴽⴰ�
 
 ## How does it work section
 
+about-new-lang-title = ⴰⵙⵙⵏⵜⵉ ⵏ ⵜⵓⵜⵍⴰⵢⵜ ⵜⴰⵎⴰⵢⵏⵓⵜ
 about-stay-in-touch-button = ⴽⵛⵎ
+about-nav-how-it-works = ⵎⴰⵏⵎⴽ?
 about-nav-how-it-works-2 = ⵎⴰⵏⵎⴽ ⴷⴰ ⵉⵙⵡⵓⵔⵓⵢ ⴽⴰⵎⵏ ⴼⵓⵢⵙ?
 
 ## Community Playbook Content
@@ -283,6 +286,7 @@ about-playbook-how-add-language-translating-heading = ⴰⵙⵓⵖⵍ ⵏ ⵓⵙ
 
 ## How to grow language
 
+about-playbook-how-grow-language-content-4 = ⵉⵥⴹⵡⴰⵏ ⵉⵏⴰⵎⵓⵏⵏ
 
 ## How to validate
 
@@ -295,6 +299,7 @@ about-playbook-how-add-language-translating-heading = ⴰⵙⵓⵖⵍ ⵏ ⵓⵙ
 
 ## Glossary
 
+glossary = ⵜⴰⵎⴰⵡⴰⵍⵜ
 
 ## Error pages
 
