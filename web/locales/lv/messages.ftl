@@ -10,8 +10,13 @@ submit-form-action = Nosūtīt
 loading = Ielāde...
 email-opt-in-info = Es vēlos saņemt e-pasta ziņojumus, piemēram, mērķa atgādinājumus, progresa atjauninājumus un informatīvos biļetenus par šo projektu.
 email-opt-in-info-title = Pievienoties Common Voice ziņojumiem e-pastā
+email-opt-in-info-sub-with-challenge = Saņemiet epastus par sacensībām vai pasākumiem, atgādinājumus par mērķiem, jaunumus un ziņas no Commaon Voice
+email-opt-in-privacy-v2 = Izvēloties saņemt epasta ziņojumus, jūs piekrītat, ka Mozilla apstrādās tos tā kā tas ir norādīts Mozilla <privacyLink>privātuma politikā<privacyLink>.
 indicates-required = * Obligātie lauki
 not-available-abbreviation = N/A
+banner-error-slow-1 = Atvainojiet, Common Voice darbojas lēni. Paldies par interesi.
+banner-error-slow-2 = Mēs saņemam daudzus apmeklētājus un pašlaik izmeklējam problēmas.
+banner-error-slow-link = Statusa lapa
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -400,10 +405,13 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Kāpēc ir kopīgā balss?
+how-does-it-work-title-v2 = Kā darbojas Common Voice?
 how-does-it-work-text = Mēs piedāvājam atklātu un brīvi pieejamsu datu kopu. Ziedojiet savu balsi, apstipriniet citu cilvēku klipu precizitāti, uzlabojiet datu kopu visiem.
 
 ## How does it work section
 
+about-new-lang-subtitle = Mēs palaižam Common Voice vietni šajā valodā.
+about-subscribe-text = Vai vēlaties sazināties ar Common Voice?
 about-speak = Runājiet
 about-speak-text = Dalībnieki ieraksta balss klipus, lasot no apkopoto teikumu datu bāzes.
 about-listen-queue = Klausīšanās rinda
@@ -421,6 +429,10 @@ about-dataset-new-text = Balss datu kopai ir simtiem tūkstošu balss paraugu, k
 about-clip-graveyard = Klipu kapsēta
 about-clip-graveyard-text = Klipu kapsēta sastāv no balss klipiem, kas netika iekļauti balss datu kopā. Tāpat kā datu kopa, klipu kapsēta ir pieejama lejupielādei.
 about-get-involved = Iesaistieties
+about-get-involved-text-2 =
+    Vēlaties palīdzēt padarīt Common Voice vēl labāku better?
+    Lieliski! Sazinieties ar mums pa epastu vai <discourseLink>Discourse</discourseLink>
+    forumu, ziņojiet par submit problēmām <githubLink>GitHub</githubLink>, vai pievienojieties <matrixLink>Matrix</matrixLink> kopienas tērzētavai.
 about-nav-why-common-voice = Kāpēc?
 about-nav-how-it-works = Kā?
 about-nav-partners = Partneri
@@ -652,6 +664,9 @@ record-button-label = Ierakstiet savu balsi
 share-title-new = <bold> Palīdziet mums </bold> atrast vairāk balsu
 keep-track-profile = Sekojiet līdzi progresam, izmantojot profilu
 login-to-get-started = Piesakieties vai reģistrējieties, lai sāktu
+
+## Contribution Nav Items
+
 
 ## Reporting
 
@@ -908,3 +923,4 @@ see-less = <chevron></chevron>Rādīt mazāk
 # PARTNERSHIPS PAGE
 partnerships-header = Partnerības
 partnerships-get-in-touch = Sazināties
+sentence-collection = Teikumu kolekcija
