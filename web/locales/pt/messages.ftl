@@ -18,6 +18,8 @@ banner-error-slow-1 = Desculpe, o Common Voice está lento. Obrigado pelo seu in
 banner-error-slow-2 = Estamos recebendo muito tráfego no momento, estamos investigando problemas.
 banner-error-slow-link = Página de status
 error-something-went-wrong = Desculpe, houve um erro
+error-clip-upload = O envio deste clipe continua falhando. Continuar tentando?
+error-clip-upload-server = O envio deste clipe continua falhando no servidor. Atualize a página ou tente novamente mais tarde.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -40,7 +42,9 @@ ba = Basquir
 bas = Basa
 be = Bielorrusso
 bg = Búlgaro
+bm = Bambara
 bn = Bengalês
+bo = Tibetano
 br = Bretão
 bs = Bósnio
 bxr = Buriato
@@ -217,6 +221,7 @@ speak-now = Fale agora
 datasets = Conjuntos de dados
 languages = Idiomas
 about = Sobre nós
+partner = Parceiro
 profile = Perfil
 help = Ajuda
 contact = Contato
@@ -400,6 +405,7 @@ why-demographic = Por que isto é importante?
 why-demographic-explanation-2 = Dados de usuários tornados anônimos, como idade, gênero e sotaque ajudam a melhorar os dados de áudio usados para treinar a precisão de mecanismos de reconhecimento de voz. Seu nome de usuário e email nunca serão associados aos dados enviados e você pode escolher se quer deixar tornar seu nome de usuário público ou anônimo.
 accept-privacy = Concordo que estas informações sejam utilizadas conforme explicado na <privacyLink>Política de Privacidade</privacyLink> da Mozilla.
 accept-privacy-title = Política de privacidade
+accept-privacy-and-terms = Concordo com os <termsLink>Termos</termsLink> e o <privacyLink>Aviso de privacidade</privacyLink> do Common Voice
 login-identity = Identidade de acesso
 login-signup = Entrar / Inscrever-se
 edit = Editar
@@ -717,7 +723,6 @@ language = Idioma
 download-dataset-header = Baixar o conjunto de dados
 download-delta-explainer = Fizemos algumas alterações. Os Segmentos Delta contêm apenas os clipes mais recentes desde o último lançamento. <deltaLink>Leia mais sobre este trabalho</deltaLink>.
 download-dataset-tag = Selecione um conjunto de dados de idioma e escolha a versão que quer baixar.
-download-dataset-access = Procurando versões anteriores do conjunto de dados? Mande um email para <emailLink> { $email } </emailLink>
 # File size in gigabytes
 size = Tamanho
 validated-hr-total = Total de horas validadas
@@ -732,6 +737,7 @@ confirm-size = Está preparado para iniciar um download de <b>{ $size }</b>
 size-gigabyte = GB
 size-megabyte = MB
 confirm-no-identify = <b>Você concorda</b> com não tentar determinar a identidade de falantes no conjunto de dados do Common Voice
+confirm-join-mailing-list = Quero participar na lista de discussão do Common Voice
 download-language = Baixar { $language }
 validated-hours = Horas validadas
 recorded-hours = Horas gravadas
@@ -764,6 +770,9 @@ more = Mais
 close = Fechar
 download = Baixar
 dataset-version = Versão
+sha256-checksum-copied = Soma de verificação SHA256 copiada!
+sha256-checksum-copied-error = Falha ao copiar a soma de verificação SHA256
+clipboard-not-supported = Área de transferência não suportada
 
 ## Download Modal
 
@@ -915,6 +924,10 @@ target-segment-generic-card = Você está contribuindo para um segmento-alvo
 target-segment-first-banner = Ajude a criar o primeiro segmento alvo do Common Voice em { $locale }
 target-segment-add-voice = Adicione sua voz
 target-segment-learn-more = Saiba mais
+
+## Contribution Nav Items
+
+contribute-voice-collection-nav-header = Coleta de voz
 
 ## Reporting
 
@@ -1521,3 +1534,8 @@ sc-validation-no-abbreviations = A frase não deve conter abreviações
 
 localization-select =
     .label = Escolher idioma/localização
+# PARTNERSHIPS PAGE
+partnerships-header = Parcerias
+partnerships-header-text = É preciso muito para fazer o Common Voice acontecer! Não fazemos isso sozinhos. Quer ser nosso parceiro? Adoraremos saber de você.
+partnerships-get-in-touch = Entrar em contato
+sentence-collection = Coleção de frases
