@@ -222,7 +222,26 @@ profile-form-language =
     .label = ⵜⵓⵜⵍⴰⵢⵜ
 profile-form-variant =
     .label = ⵎⴰⵏ ⵜⴰⵎⵣⴰⵔⴰⵢⵜ ⵏ { $language } ⴰ ⵙ ⵜⵙⴰⵡⴰⵍⵎ?
+profile-form-age =
+    .label = ⴰⵡⵜⴰⵢ
+native-language =
+    .label = ⵜⵓⵜⵍⴰⵢⵜ ⵜⴰⵢⵎⵎⴰⵜ
+profile-form-submit-save = ⵃⴹⵓ
+male = ⴰⵡⵜⵎ
+female = ⵜⴰⵡⵜⵎⵜ
+# Gender
+other = ⵡⴰⵢⵢⴰⴹ
+build-profile = ⵚⴽⵓ ⵉⴼⵔⵙ
+avatar = ⴰⴼⴰⵜⴰⵔ
+goals = ⵉⵡⵜⵜⴰⵙⵏ
+settings = ⵜⵉⵙⵖⴰⵍ
+edit-profile = ⵙⵏⴼⵍ ⵉⴼⵔⵙ
+profile-create-success = ⵉⵏⵏⴼⵍⵓⵍ ⵉⴼⵔⵙ ⵙ ⵓⵎⵓⵔⵙ!
 profile-close = ⵔⴳⵍ
+accept-privacy-title = ⵜⴰⵙⵔⵜⵉⵜ ⵏ ⵜⵉⵏⵏⵓⵜⵍⴰ
+login-identity = ⵜⴰⵎⴰⴳⵉⵜ ⵏ ⵓⴽⵛⴰⵎ
+login = ⴽⵛⵎ
+login-signup = ⴽⵛⵎ/ⵣⵎⵎⴻⵎ
 edit = ⵙⵏⴼⵍ
 
 ## Profile - Email
