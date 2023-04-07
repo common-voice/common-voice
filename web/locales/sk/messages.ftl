@@ -745,7 +745,7 @@ datasets-positioning =
 language = Jazyk
 download-dataset-header = Stiahnutie kolekcie údajov
 download-delta-explainer = Urobili sme niekoľko zmien. Delta Segments obsahujú len najnovšie klipy od posledného vydania. <deltaLink>Prečítajte si viac o tejto práci</deltaLink>.
-download-dataset-tag = Vyberte požadovaný jazykový súbor údajov a vyberte verziu, ktorú chcete stiahnuť.
+download-dataset-tag = Vyberte kolekciu údajov pre požadovaný jazyk a vyberte verziu, ktorú chcete stiahnuť.
 # File size in gigabytes
 size = Veľkosť
 validated-hr-total = Overených Hod. Spolu
@@ -755,39 +755,39 @@ audio-format = Formát zvuku
 number-of-voices = Počet hlasov
 splits = Rozdelenie
 email-to-download = Ak chcete stiahnuť, zadajte svoju e-mailovú adresu
-why-email = <b>Prečo email?</b> Možno Vás budeme musieť v budúcnosti kontaktovať ohľadom zmien v datasete, a e-mail nám poskytuje spôsob kontaktu.
-confirm-size = Ste pripravení stiahnuť <b>{ $size }</b>
+why-email = <b>Prečo e-mailová adresa?</b> Možno vás budeme musieť v budúcnosti kontaktovať v súvislosti so zmenami v kolekcii údajov, e-mail nám poskytuje spôsob kontaktu.
+confirm-size = Bude potrebné stiahnuť <b>{ $size }</b>
 size-gigabyte = GB
 size-megabyte = MB
-confirm-no-identify = <b>Súhlasíte</b>, že sa nebudete pokúšať zistiť identitu prispievateľov v datasete Common Voice.
+confirm-no-identify = <b>Súhlasíte</b>, že sa nepokúsite určiť identitu hovoriacich v kolekcii údajov Common Voice
 confirm-join-mailing-list = Chcem sa pridať do e-mailovej skupiny Common Voice
 download-language = Stiahnuť jazyk { $language }
 validated-hours = Počet overených hodín
 recorded-hours = Počet nahraných hodín
-whats-inside = Čo je vnútri datasetu Common Voice?
+whats-inside = Čo sa nachádza v kolekcii údajov Common Voice?
 dataset-description-hours =
-    Každá položka v datasete pozostáva z jedinečného súboru MP3 a prislúchajúceho textového súboru. Mnoho z <b>{ $total }</b> zaznamenaných hodín v datasete obsahuje aj demografické metaúdaje, ako je vek, pohlavie a prízvuk, ktoré môžu pomôcť s cvičením presnosti nástrojov rozpoznávania reči.
+    Každá položka v kolekcii údajov pozostáva z jedinečného súboru MP3 a príslušného textového súboru. Mnohé z <b>{ $total }</b> zaznamenaných hodín v kolekcii údajov obsahujú aj demografické metadáta, ako je vek, pohlavie a prízvuk, ktoré môžu pomôcť trénovať presnosť nástrojov na rozpoznávanie reči.
     
-    Dataset v súčasnosti pozostáva z <b>{ $valid }</b> overených hodín v <b>{ $languages }</b> jazykoch, ale neustále pridávame ďalšie hlasy a jazyky. Navštívte našu stránku <languagesLink> Jazyky </languagesLink> a požiadajte o nový jazyk alebo začnite prispievať.
-want-dataset-update = Chcete dostávať informácie, keď vydáme novú verziu datasetu Common Voice? Prihláste sa ku odberu noviniek.
-subscribe = Odoberať
+    Kolekcia údajov v súčasnosti pozostáva z <b>{ $valid }</b> overených hodín v <b>{ $languages }</b> jazykoch, ale neustále pridávame ďalšie hlasy a jazyky. Ak chcete požiadať o pridanie jazyka alebo začať prispievať, pozrite si našu stránku <languagesLink>Jazyky</languagesLink>.
+want-dataset-update = Chcete dostávať informácie, keď sprístupníme novú verziu kolekcie údajov Common Voice? Prihláste sa ku odberu noviniek.
+subscribe = Prihlásiť sa k odberu
 get-started-speech = Začíname s rozpoznávaním reči
-other-datasets = Ďalšie hlasové datasety
+other-datasets = Ďalšie kolekcie hlasových údajov
 feedback-q = Máte spätnú väzbu?
 resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ je <docsLink>súprava nástrojov s otvoreným zdrojom</docsLink> pre výskumníkov, ktorí vyvíjajú najmodernejšie modely konverzácie AI.
 resource-deepspeech-info = Open source nástroj na rozpoznávanie hlasu Deep Speech od Mozilly možno použiť na vytváranie aplikácií na rozpoznávanie reči. Prečítajte si náš <githubLink>prehľad na Githube</githubLink> alebo sa pripojte na fórum <discourseLink>DeepSpeech Discourse</discourseLink> a zistite, ako začať.
 resource-coqui-info = <coquiLink>Coqui</coquiLink> sa venuje technológii otvorenej reči. Ich projekty zahŕňajú systémy STT a TTS založené na hlbokom učení.
 community-playbook = Príručka komunity
-resource-playbook-info = <playbookLink>Nájdite užitočné rady</playbookLink> pre celú cestu Common Voice, od lokalizácie po používanie množiny údajov, ako aj o tom, ako sa spojiť s našou komunitou.
+resource-playbook-info = Pozrite si <playbookLink>užitočné rady</playbookLink> pre celú cestu Common Voice, od lokalizácie po používanie kolekcie údajov, ako aj o tom, ako sa spojiť s našou komunitou.
 data-other-librispeech-description = LibriSpeech je korpus približne 1 000 hodín 16 kHz čítanej angličtiny odvodený z audiokníh z projektu LibriVox.
 data-other-ted-name = Korpus TED-LIUM
 data-other-ted-description = Korpus TED-LIUM je tvorený zvukovými nahrávkami prednášok a ich prepismi dostupnými na webovej stránke TED.
 data-other-voxforge-description = VoxForge bol vytvorený za účelom zberu prepísanej reči na použitie vo voľne dostupných, open source systémoch rozpoznávania reči.
 data-other-tatoeba-description = Tatoeba je rozsiahla databáza viet, prekladov a hovoreného slova pre použitie pri štúdiu jazykov. Obsahuje hovorenú angličtinu nahranú jej komunitou.
-your-feedback = Máte nápady, ako vylepšiť dataset Common Voice? Dajte nám o nich vedieť na Discourse.
+your-feedback = Máte nápady, ako môžeme vylepšiť kolekciu údajov Common Voice? Dajte nám vedieť na Discourse.
 go-discourse = Prejsť na Discourse
-missing-language = Nevidíte v datasete svoj jazyk? Ak chcete o jazyk požiadať, prejdite na stránku s jazykmi.
-go-languages-page = Prejsť na stránku s jazykmi
+missing-language = Nezobrazuje sa váš jazyk v kolekcii údajov? Ak chcete požiadať o pridanie jazyka, prejdite na našu stránku Jazyky.
+go-languages-page = Prejsť na stránku Jazyky
 ready-to-validate = Ste pripravení pomôcť s overovaním viet?
 more = Viac
 close = Zavrieť
@@ -804,7 +804,7 @@ download-helpus = Pomôžte nám vybudovať komunitu okolo technológií rozpozn
 download-form-email =
     .label = Zadajte svoju e-mailovú adresu
     .value = Ďakujeme, ozveme sa vám.
-download-back = Naspäť na datasety Common Voice
+download-back = Naspäť na Kolekcie údajov Common Voice
 download-no = Nie, ďakujem
 
 ## Contact Modal
@@ -1088,11 +1088,11 @@ share-goal = Zdieľať môj cieľ
 
 ## Profile Delete
 
-delete-q = Chcete tiež požiadať o vymazanie vašich hlasových nahrávok, alebo ich chcete ponechať v datasete Common Voice?
+delete-q = Chcete tiež požiadať o vymazanie vašich hlasových nahrávok, alebo ich chcete ponechať v kolekcii údajov Common Voice?
 keep = Ponechať
 remove = Odstrániť
-keep-info = Vaše anonymné hlasové nahrávky zostanú v dátovom súbore Common Voice. Po odstránení profilu už nebudete môcť odoslať žiadosť o odstránenie záznamov z datasetu
-remove-info = Vašu žiadosť o odstránenie vašich hlasových záznamov z datasetu posúdime. Ak bude vaša žiadosť schválená, skontaktujeme sa s tými, ktorí si stiahli dataset a požiadame ich o odstránenie vašich hlasových záznamov.
+keep-info = Vaše anonymné hlasové nahrávky zostanú v kolekcii údajov Common Voice. Po odstránení svojho profilu už nebudete môcť odoslať žiadosť o odstránenie vašich nahrávok z kolekcie údajov.
+remove-info = Vašu žiadosť o odstránenie vašich hlasových nahrávok z kolekcie údajov posúdime. Ak bude vaša žiadosť schválená, kontaktujeme tých, ktorí si kolekciu údajov stiahli, a požiadame, aby odstránili aj vaše hlasové nahrávky.
 why-delete-recordings =
     Nahrávky Common Voice používajú akademici, malé podniky a nadšenci, aby pomohli trénovať a rozširovať verejne dostupné zdroje, ako sú hlasové modely.
     
@@ -1133,7 +1133,7 @@ download-request-link-single = Môžete tiež skopírovať a prilepiť odkazy do
 ## Landing
 
 welcome-staff = Vítame zamestnancov spoločnosti { $company }!
-help-contribute = Vytvorením profilu v Common Voice a prispením svojho hlasu, môžete pomôcť vytvoriť rozmanitý open-source dataset.
+help-contribute = Vytvorením profilu Common Voice a prispením svojim hlasom môžete pomôcť vybudovať rôznorodú otvorenú kolekciu hlasových údajov.
 login-company = Prihláste sa / zaregistrujte sa pomocou e-mailu { $company }
 profile-not-required = Profil nie je nutnosťou, no môže byť užitočný
 read-more-about = Prečítajte si viac na stránke O nás
@@ -1146,7 +1146,7 @@ demo-welcome-subheader = Máte záujem dozvedieť sa viac a prispieť k projektu
 
 ## Demo Datasets
 
-demo-language-select-card-header = Common Voice je najväčší verejne dostupný viacjazyčný súbor hlasových údajov na svete.
+demo-language-select-card-header = Common Voice je najväčšia verejne dostupná viacjazyčná kolekcia hlasových údajov na svete.
 demo-language-select-card-body = Vďaka príspevkom od viac ako 259 000 ľudí vo viac ako 50 jazykoch sa tieto údaje používajú na učenie aplikácií s podporou reči, aby lepšie reagovali na ľudský hlas.
 card-button-next = Ďalej
 card-button-back = Naspäť
