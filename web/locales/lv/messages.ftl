@@ -17,6 +17,9 @@ not-available-abbreviation = N/A
 banner-error-slow-1 = Atvainojiet, Common Voice darbojas lēni. Paldies par interesi.
 banner-error-slow-2 = Mēs saņemam daudzus apmeklētājus un pašlaik izmeklējam problēmas.
 banner-error-slow-link = Statusa lapa
+error-something-went-wrong = Piedodiet, kaut kas nogāja greizi
+error-clip-upload = Šī ieraksts augšupielāde joprojām neizdodas. Vai turpināt mēģināt vēlreiz?
+error-clip-upload-server = Šī ieraksts augšupielāde serverī joprojām neizdodas. Pārlādējiet lapu vai vēlāk mēģiniet vēlreiz.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -31,25 +34,35 @@ af = Afrikāņu
 am = Amhāru
 an = Aragonese
 ar = Arābu
+arn = Mapudungun
 as = Asāmiešu
 ast = Astūriešu
 az = Azerbaidžāņu
 ba = Baškīru
+bas = Basaa
 be = Baltkrievu
 bg = Bulgāru
+bm = Bambara
 bn = Bengāļu
+bo = Tibetiešu
 br = Bretoņu
+bs = Bosniešu
 bxr = Burjatu
+byv = Medumba
 ca = Katalāņu
 cak = Kaqchikel
+ckb = Centrālā kurdi
 cnh = Hakha Chin
+co = Korsikāņu
 cs = Čehu
 cv = Čuvašu
 cy = Velsiešu
 da = Dāņu
+dag = Dagbani
 de = Vācu
 dsb = Sorbānu, apaksējā
 dv = Divehu
+dyu = Diula
 el = Grieķu
 en = Angļu
 eo = Esperanto
@@ -64,29 +77,48 @@ fr = Franču
 fy-NL = Frīzu
 ga-IE = Īru
 gl = Galisiešu
+gn = Guaranu
+gom = Goans Konkani
 ha = Hausu
 he = Ebreju
 hi = Hindi
+hil = Hiligaņu
 hr = Horvātu
 hsb = Sorbiju, augšējā
+ht = Haitiešu
 hu = Ungāru
+hy-AM = Armēņu
+hyw = Armēnijas rietumu
 ia = Interlingua
 id = Indonēziešu
+ie = Interlingue
+ig = Igbo
 is = Islandiešu
 it = Itāļu
 izh = Izhoriešu
 ja = Japāņu
 ka = Gruzīnu
 kab = Kabilu
+kbd = Kabardiešu
+ki = Kikujiešu
 kk = Kazaku
+km = Khmeru
+kmr = Kurmanji kurdu
+kn = Kannadu
+knn = Konkani (Devanagari)
 ko = Korejiešu
 kpv = Komi-Zīriju
 kw = Kornvolu
 ky = Kirgīzu
+lb = Luksemburgas
 lij = Ligūru
+ln = Lingalas
+lo = Laosas
 lt = Lietuviešu
 lv = Latviešu
+mai = Maithili
 mdf = Moksha
+mg = Malagasiešu
 mhr = Meadow Mari
 mk = Maķedoniešu
 ml = Malajaliešu
@@ -410,6 +442,12 @@ how-does-it-work-text = Mēs piedāvājam atklātu un brīvi pieejamsu datu kopu
 
 ## How does it work section
 
+about-language-req-subtitle = Kāds lūdz pievienot valodu.
+about-localization-title = Vietnes lokalizācija
+about-localization-subtitle = Vietnes teksts tiek tulkots šajā valodā.
+about-sentence-collection-title = Teikumu kolekcija
+about-sentence-collection-subtitle = Teikumi tiek savākti, lai cilvēki tos varētu ierunāt.
+about-new-lang-title = Jaunas valodas palaišana
 about-new-lang-subtitle = Mēs palaižam Common Voice vietni šajā valodā.
 about-subscribe-text = Vai vēlaties sazināties ar Common Voice?
 about-speak = Runājiet
@@ -433,10 +471,12 @@ about-get-involved-text-2 =
     Vēlaties palīdzēt padarīt Common Voice vēl labāku better?
     Lieliski! Sazinieties ar mums pa epastu vai <discourseLink>Discourse</discourseLink>
     forumu, ziņojiet par submit problēmām <githubLink>GitHub</githubLink>, vai pievienojieties <matrixLink>Matrix</matrixLink> kopienas tērzētavai.
+about-stay-in-touch-text-1 = <emailFragment>Reģistrējieties</emailFragment> mūsu epasta jaunumime, lai uzzinātu, kā varat piedalīties kampaņās, pasākumos un Common Voice kopprojektēšanas aktivitātēs.
 about-nav-why-common-voice = Kāpēc?
 about-nav-how-it-works = Kā?
 about-nav-partners = Partneri
 about-nav-get-involved = Iesaistieties
+about-nav-playbook = Uzziniet, kā piedalīties
 
 ## Community Playbook Content
 ## What is a language
@@ -552,6 +592,7 @@ subscribe = Pierakstīties
 get-started-speech = Darba sākšana ar runas atpazīšanu
 other-datasets = Citas balss datu kopas
 feedback-q = Vai jum ir atsauksmes?
+resource-coqui-info = <coquiLink>Coqui</coquiLink> ir strādā atvērtās runas tehnoloģijas attīstībai. Viņu projekti ietver dziļā mācīšanās balstītus STT un TTS dzinējus.
 data-other-librispeech-description = LibriSpeech ir aptuveni 1000 stundu 16Khz ar angļu valodas runu, kas iegūta no LibriVox projekta lasītajām audio grāmatām.
 data-other-ted-name = TED-LIUM korpuss
 data-other-ted-description = TED-LIUM korpuss tika izgatavots no audio ierakstiem un to transkripcijām, kas pieejamas TED tīmekļa vietnē.
@@ -664,6 +705,7 @@ record-button-label = Ierakstiet savu balsi
 share-title-new = <bold> Palīdziet mums </bold> atrast vairāk balsu
 keep-track-profile = Sekojiet līdzi progresam, izmantojot profilu
 login-to-get-started = Piesakieties vai reģistrējieties, lai sāktu
+target-segment-learn-more = Uzzināt vairāk
 
 ## Contribution Nav Items
 
@@ -804,6 +846,7 @@ read-more-about = Lasiet vairāk mūsu lapā Par mums
 
 ## DemoLayout
 
+demo-welcome-subheader = Vai vēlaties uzzināt vairāk un dot savu ieguldījumu projektā?
 
 ## Demo Datasets
 
