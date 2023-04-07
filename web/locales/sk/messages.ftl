@@ -502,7 +502,7 @@ faq-why-my-lang-q = Prečo môj jazyk zatiaľ nie je zahrnutý?
 faq-why-my-lang-a =
     Common Voice je crowdsourcingová platforma, všetky jazyky pridali dobrovoľníci.
     Boli by sme radi, keby ste pridali svoj jazyk! <languageRequestLink>Zistite, ako pridať nový jazyk</languageRequestLink>.
-faq-what-quality-q = Aká kvalita zvuku je potrebná na použitie hlasového klipu v kolekcii údajov?
+faq-what-quality-q = Aká kvalita zvuku je potrebná na použitie hlasovej nahrávky v kolekcii údajov?
 faq-what-quality-a = Chceme, aby kolekcia údajov Common Voice odrážala kvalitu zvuku, ktorú bude nástroj na prevod reči na text počuť vo voľnej prírode, takže hľadáme rozmanitosť. Okrem rôznorodej komunity hovoriacich, kolekcia údajov s rôznou kvalitou zvuku naučí nástroj na prevod reči na text zvládnuť rôzne situácie v reálnom svete, od rozprávania na pozadí až po hluk auta. Pokiaľ je váš hlasový záznam zrozumiteľný, mal by byť dostatočne dobrý aj pre kolekciu údajov.
 faq-why-10k-hours-q = Prečo je cieľom pri nahrávkach práve 10 000 overených hodín?
 faq-why-10k-hours-a = Je to približný počet hodín potrebných na natrénovanie produkčného systému prevodu reči na text.
@@ -518,12 +518,12 @@ faq-why-not-ask-read-a = Aby bola kolekcia údajov Common Voice čo najužitočn
 faq-why-account-q = Prečo by som si mal(a) vytvoriť účet?
 faq-is-account-public-q = Sú informácie o mojom účte verejne prístupné?
 faq-how-privacy-q = Ako zaisťujete anonymitu a súkromie jednotlivých prispievateľov do projektu Common Voice?
-faq-how-privacy-a = Všetky hlasové klipy v kolekcii údajov sú zbavené osobných identifikačných informácií. Keď prispievateľ poskytuje demografické údaje prostredníctvom svojho profilu, tieto informácie sú de-identifikované z jeho hlasových záznamov predtým, ako sú združené na stiahnutie v kolekcii údajov, a nikdy sa nezverejnia na jeho profilovej stránke.
+faq-how-privacy-a = Všetky hlasové nahrávky v kolekcii údajov sú zbavené osobných identifikačných informácií. Keď prispievateľ poskytuje demografické údaje prostredníctvom svojho profilu, tieto informácie sú de-identifikované z jeho hlasových záznamov predtým, ako sú združené na stiahnutie v kolekcii údajov, a nikdy sa nezverejnia na jeho profilovej stránke.
 faq-what-determine-identity-q = Čo to znamená, že nie je možné „určiť identitu“ rečníkov v kolekcii údajov Common Voice?
 faq-what-determine-identity-a =
     Kolekcia údajov Common Voice je otvorený a verejne dostupný zdroj, ktorý možno použiť na trénovanie širokej škály aplikácií s podporou reči. V záujme ochrany bezpečnosti našich prispievateľov žiadame každého, kto si stiahne kolekciu údajov Common Voice, aby rešpektoval súkromie prispievateľov.
     
-    Všetky hlasové klipy v kolekcii údajov sú zbavené osobných identifikačných informácií. Keď stiahnete kolekciu údajov, súhlasíte s tým, že sa nepokúsite určiť identitu žiadneho prispievateľa. To znamená, že sa nemôžete pokúsiť prepojiť informácie v kolekcii údajov s osobnými údajmi prispievateľa. Môžete však kolekciu údajov použiť na trénovanie rozpoznávania reči, rozpoznávania reproduktorov alebo iných aplikácií, napríklad prepojením informácií v kolekcii údajov s inými informáciami, ktoré už v kolekcii údajov sú.
+    Všetky hlasové nahrávky v kolekcii údajov sú zbavené osobných identifikačných informácií. Keď stiahnete kolekciu údajov, súhlasíte s tým, že sa nepokúsite určiť identitu žiadneho prispievateľa. To znamená, že sa nemôžete pokúsiť prepojiť informácie v kolekcii údajov s osobnými údajmi prispievateľa. Môžete však kolekciu údajov použiť na trénovanie rozpoznávania reči, rozpoznávania reproduktorov alebo iných aplikácií, napríklad prepojením informácií v kolekcii údajov s inými informáciami, ktoré už v kolekcii údajov sú.
 faq-what-is-cv = Čo je Common Voice?
 faq-using-cv = Používanie projektu Common Voice
 faq-description = Projekt Common Voice je súčasťou iniciatívy Mozilly, ktorá pomáha strojom učiť sa, ako rozprávajú skutoční ľudia.
@@ -537,7 +537,7 @@ about-header-description-v2 =
     <p>Common Voice je verejne dostupná množina údajov o hlase, ktorý využíva hlasy dobrovoľných prispievateľov z celého sveta. Ľudia, ktorí chcú vytvárať hlasové aplikácie, môžu použiť kolekciu údajov na trénovanie modelov strojového učenia.</p>
     <p>V súčasnosti väčšinu hlasových dátových súborov vlastnia spoločnosti, čo brzdí inovácie. Nedostatočne zastúpené sú aj hlasové dátové súbory: neanglicky hovoriaci ľudia, ľudia s inou farbou pleti, zdravotne postihnutí ľudia, ženy a LGBTQIA+ ľudia. To znamená, že technológia s podporou hlasu vôbec nefunguje pre mnohé jazyky a tam, kde funguje, nemusí fungovať rovnako dobre pre každého. Chceme to zmeniť mobilizáciou ľudí všade, aby zdieľali svoj hlas.</p>
 how-does-it-work-title-v2 = Ako funguje Common Voice?
-how-does-it-work-text = Zhromažďujeme množstvo hlasov do veľkej otvorenej kolekcie údaov. Darujte svoj hlas, overte presnosť klipov iných ľudí a pomôžte tak vylepšiť kolekciu údajov.
+how-does-it-work-text = Zhromažďujeme množstvo hlasov do veľkej otvorenej kolekcie údajov. Darujte svoj hlas, overte presnosť nahrávok iných ľudí a pomôžte tak vylepšiť kolekciu údajov.
 
 ## How does it work section
 
@@ -551,7 +551,7 @@ about-new-lang-subtitle = V danom jazyku spúšťame stránku Common Voice.
 about-voice-contrib-title = Hlasový príspevok
 about-voice-contrib-subtitle = Ľudia prichádzajú a prispievajú svojimi hlasmi.
 about-voice-validation-title = Overenie hlasu
-about-voice-validation-subtitle = Iní ľudia overujú tieto hlasové klipy.
+about-voice-validation-subtitle = Iní ľudia overujú tieto hlasové nahrávky.
 about-dataset-release-title = Sprístupnenie kolekcie údajov
 about-dataset-release-subtitle = Kolekciu údajov zverejňujeme každé 3 mesiace.
 about-subscribe-text = Chcete zostať v kontakte so službou Common Voice?
@@ -564,9 +564,9 @@ about-listen-text = Používatelia overujú presnosť darovaných nahrávok kont
 about-is-it-valid = Je nahrávka platná?
 about-is-it-valid-text = Nahrávka je označená ako platná po jej schválení iným používateľom
 about-yes-votes = ≥ 2 hlasy pre Áno
-about-yes-votes-text = Na to, aby sa hlasový klip dostal do kolekcie údajov Common Voice, musí byť overený dvoma rôznymi používateľmi.
+about-yes-votes-text = Na to, aby sa hlasová nahrávka dostala do kolekcie údajov Common Voice, musí byť overený dvoma rôznymi používateľmi.
 about-no-votes = ≥ 2 hlasy pre Nie
-about-no-votes-text = Keď používateľ odmietne hlasový klip, vráti sa do fronty. Ak bude odmietnutý druhýkrát, hlasový klip sa presunie na cintorín klipov.
+about-no-votes-text = Keď používateľ odmietne hlasovú nahrávku, táto sa vráti do fronty. Ak bude odmietnutá druhýkrát, hlasová nahrávka sa presunie na cintorín nahrávok.
 about-dataset-new = Kolekcia údajov Common Voice
 about-dataset-new-text = Kolekcia údajov Common Voice obsahuje stovky tisíc hlasových vzoriek, ktoré pomáhajú vývojárom vytvárať nástroje na rozpoznávanie hlasu.
 about-clip-graveyard = Cintorín nahrávok
@@ -579,7 +579,7 @@ about-get-involved-text-2 =
 about-stay-in-touch = Ako zostanem v kontakte?
 about-stay-in-touch-button = Zaregistrujte sa
 about-stay-in-touch-text-1 = <emailFragment>Zaregistrujte sa</emailFragment> do nášho magazínu a zistite, ako sa môžete podieľať na kampaniach, udalostiach a spoločných návrhoch funkcií v Common Voice.
-about-stay-in-touch-text-2 = Môžete sa stretnúť s ostatnými v jazykových komunitách Mozilly, ak sa pripojíte k diskusiám na <discourseLink>Discourse</discourseLink> alebo na <matrixLink>Matrixe</matrixLink>, kde získate rýchlu radu.
+about-stay-in-touch-text-2 = Rýchlu radu môžete získať aj v diskusiách na <discourseLink>Discourse</discourseLink> alebo na <matrixLink>Matrixe</matrixLink>, kde sa môžete stretnúť s ostatnými členmi jazykových komunít Mozilly.
 about-nav-why-common-voice = Prečo?
 about-nav-how-it-works = Ako?
 about-nav-partners = Partneri
@@ -633,7 +633,7 @@ about-playbook-how-add-sentences-content-4 = Vety, ktoré boli overené, sa expo
 
 ## How to record quality
 
-about-playbook-how-record-quality = Ako nahrám hlasový klip vo vysokej kvalite?
+about-playbook-how-record-quality = Ako nahrám hlasovú nahrávku vo vysokej kvalite?
 about-playbook-how-record-content-1 = Hovorte svojim normálnym hlasom! Spôsob, akým hovoríte, je tu vítaný – chceme váš prízvuk taký, aký je, a chceme vašu obvyklú hlasitosť, štýl a intonáciu.
 about-playbook-how-record-content-2 = Vyhnite sa príliš veľkému hluku v pozadí – malo by vás dobre počuť.
 about-playbook-how-record-content-3 = Pozorne si prečítajte vetu – nevynechávajte, nemeňte ani nepridávajte slová.
@@ -654,11 +654,11 @@ about-playbook-how-grow-language-content-8 = <strong>Buďte kreatívni!</strong>
 
 ## How to validate
 
-about-playbook-how-validate = Ako zistím, či mám schváliť hlasový klip?
+about-playbook-how-validate = Ako zistím, či mám hlasovú nahrávku schváliť?
 about-playbook-how-validate-content-1 = Ak ste ich <strong>počuli</strong> a <strong>rozumeli im</strong>, zvyčajne je <strong>najlepšie ich schváliť</strong>.
-about-playbook-how-validate-content-2 = <strong>Neodmietajte klipy, v ktorých má reproduktor „prízvuk“ odlišný od vášho</strong> – je to dôležité, aby rozpoznávanie hlasu fungovalo pre každého lepšie.
-about-playbook-how-validate-content-3 = Ak si myslíte, že kvôli výslovnosti <strong>nie je možné rozumieť</strong> alebo je v pozadí <strong>veľa hluku</strong> alebo <strong>hovoria aj iní ľudia</strong>, potom by ste mali klip odmietnuť. <accuracyLink>Ďalšie informácie nájdete v našich kritériách presnosti</accuracyLink>.
-about-playbook-how-validate-content-4 = Ak klip odmietnu 2 ľudia, je tento sprístupnený v inej podskupine kolekcie údajov.
+about-playbook-how-validate-content-2 = <strong>Neodmietajte nahrávky, v ktorých má hovoriaci odlišný „prízvuk“ od vášho</strong> – je to dôležité, aby rozpoznávanie hlasu fungovalo lepšie pre každého.
+about-playbook-how-validate-content-3 = Ak si myslíte, že kvôli výslovnosti <strong>nie je možné rozumieť</strong> alebo je v pozadí <strong>veľa hluku</strong> alebo <strong>hovoria aj iní ľudia</strong>, potom by ste mali nahrávku odmietnuť. <accuracyLink>Ďalšie informácie nájdete v našich kritériách presnosti</accuracyLink>.
+about-playbook-how-validate-content-4 = Ak nahrávku odmietnu dvaja ľudia, je táto sprístupnená v inej podskupine kolekcie údajov.
 
 ## How to access dataset
 
@@ -744,7 +744,7 @@ datasets-positioning =
     Na tejto stránke nájdete odkazy iné otvorené kolekcie hlasových údajov a, ako bude Common Voice naďalej rásť, aj domov pre naše novinky.
 language = Jazyk
 download-dataset-header = Stiahnutie kolekcie údajov
-download-delta-explainer = Urobili sme niekoľko zmien. Delta Segments obsahujú len najnovšie klipy od posledného vydania. <deltaLink>Prečítajte si viac o tejto práci</deltaLink>.
+download-delta-explainer = Urobili sme niekoľko zmien. Delta Segments obsahujú len najnovšie nahrávky od posledného vydania. <deltaLink>Prečítajte si viac o tejto práci</deltaLink>.
 download-dataset-tag = Vyberte kolekciu údajov pre požadovaný jazyk a vyberte verziu, ktorú chcete stiahnuť.
 # File size in gigabytes
 size = Veľkosť
@@ -903,7 +903,7 @@ record-cancel = Zrušiť opakovaný záznam
 record-instruction = { $actionType } na <recordIcon></recordIcon> a prečítajte vetu nahlas
 record-stop-instruction = { $actionType } na <stopIcon></stopIcon> keď budete hotoví
 record-three-more-instruction = Ešte tri!
-record-again-instruction = Skvelé! <recordIcon></recordIcon>Nahrajte váš ďalší klip
+record-again-instruction = Skvelé! <recordIcon></recordIcon> Poďme na ďalšiu nahrávku
 record-again-instruction2 = Vynikajúce, pokračujte v nahrávaní <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon> Ešte naposledy!
 review-tooltip = Skontrolujte nahrávky a v prípade potreby ich opätovne nahrajte tu
@@ -921,8 +921,10 @@ listen-instruction = { $actionType } na <playIcon></playIcon> Bola veta v poriad
 listen-again-instruction = Skvelá práca! <playIcon></playIcon> Keď budete pripravení, spustite ďalšiu nahrávku
 listen-3rd-time-instruction = 2 už sú za vami, pokračujte v dobrej práci!<playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon> Posledná nahrávka!
-listen-empty-state = Minuli sa nám klipy na overenie v tomto jazyku...
-listen-loading-error = Nepodarilo sa nám získať žiadne zvukové klipy, ktoré by ste si mohli vypočuť. Skúste neskôr prosím.
+listen-empty-state = Zdá sa, že sa nám minuli nahrávky – obnovte stránku alebo to skúste znova neskôr.
+listen-loading-error =
+    Nepodarilo sa nám získať žiadne zvukové nahrávky, ktoré by ste si mohli vypočuť.
+    Skúste neskôr prosím.
 speak-empty-state = Minuli sa nám vety na nahrávanie v tomto jazyku...
 speak-empty-state-cta = Pridajte ďalšie vety
 speak-loading-error = Nedostali sme žiadne vety, ktoré by ste mohli povedať. Skúste neskôr prosím.
@@ -1119,7 +1121,7 @@ download-requests = Žiadosti o stiahnutie predchádzajúcich nahrávok
 download-requests-info = Keď si vyžiadate svoje nahrávky, skompilujeme ich do jedného alebo viacerých súborov ZIP. Tu sú vaše predchádzajúce žiadosti:
 download-request-button = Stiahnuť
 download-request-title = { $created }
-download-request-description = Hlasové klipy (celkom { $clipCount }), celková veľkosť archívu { $size }. Vyprší { $expires }.
+download-request-description = Hlasové nahrávky (celkom { $clipCount }), celková veľkosť archívu { $size }. Vyprší { $expires }.
 download-request-archive-single = Jeden súbor ZIP obsahujúci
 download-request-archive-multiple = Rozdeliť na niekoľko súborov ZIP (celkom { $archiveCount }) obsahujúcich
 download-request-assembling-description = Vaše súbory sa zhromažďujú. Skontrolujte to znova neskôr.
@@ -1172,14 +1174,14 @@ demo-listen-subtitle = Pripravený prispieť?
 ## Demo Dashboard
 
 demo-dashboard-card-header = Osobné informačné panely vás informujú o pokroku jednotlivcov a komunity.
-demo-dashboard-card-body = Pre každý darovaný hlasový klip a každý overený zvukový klip sa informačné panely vášho účtu aktualizujú tak, aby odrážali váš najnovší pokrok v každom jazyku, do ktorého prispievate. Áno, môžete prispieť do viacerých! <br/> <br/> Pomocou informačných panelov môžete sledovať svoje štatistiky, zistiť, ako sa vám darí spolu s ostatnými v komunite, a nastaviť si denné alebo týždenné ciele v oblasti príspevkov.
+demo-dashboard-card-body = Pre každú vytvorenú hlasovú nahrávku a každú overenú zvukovú nahrávku sa panely vášho účtu aktualizujú, aby odrážali váš najnovší pokrok v každom jazyku, do ktorého prispievate. Áno, môžete prispieť aj do viacerých.<br/><br/> Pomocou informačných panelov sledujte svoje štatistiky, zistite, ako sa vám darí spolu s ostatnými v komunite, a stanovte si denné alebo týždenné ciele prispievania.
 
 ## Validation criteria
 
 contribution-criteria-nav = Kritériá
 contribution-criteria-link = Pochopte kritériá príspevku
 contribution-criteria-page-title = Kritériá príspevku
-contribution-criteria-page-description = Pochopte, na čo sa zamerať pri počúvaní hlasových klipov, a pomôžte tiež obohatiť svoje hlasové nahrávky!
+contribution-criteria-page-description = Pochopte, na čo sa zamerať pri počúvaní hlasových nahrávok, a pomôžte tiež obohatiť svoje hlasové nahrávky!
 contribution-for-example = napríklad
 contribution-misreadings-title = Nesprávne prečítané
 contribution-misreadings-description = Pri počúvaní veľmi starostlivo skontrolujte, či to, čo bolo zaznamenané, je presne to, čo bolo napísané. Ak dôjde k čo i len malým chybám, odmietnite to.<br />Medzi veľmi časté chyby patria:
@@ -1203,7 +1205,7 @@ contribution-misreadings-example-7-explanation = [V pôvodnom texte nie je "1"]
 contribution-misreadings-example-8-title = Okolo preletel čmeliak.
 contribution-misreadings-example-8-explanation = [Obsah sa nezhoduje]
 contribution-varying-pronunciations-title = Rôzne výslovnosti
-contribution-varying-pronunciations-description = Buďte opatrní, kým odmietnete klip z dôvodu, že čitateľ nesprávne vyslovil slovo, zdôraznil na zlom mieste alebo zjavne ignoroval otáznik. Po celom svete sa používa široká škála výslovností, z ktorých niektoré ste možno vo svojej miestnej komunite nepočuli. Poskytnite, prosím, priestor na uznanie tým, ktorí môžu hovoriť inak ako vy.
+contribution-varying-pronunciations-description = Buďte opatrní, kým odmietnete nahrávku z dôvodu, že čitateľ nesprávne vyslovil slovo, zdôraznil na zlom mieste alebo zjavne ignoroval otáznik. Po celom svete sa používa široká škála výslovností, z ktorých niektoré ste možno vo svojej miestnej komunite nepočuli. Poskytnite, prosím, priestor na uznanie tým, ktorí môžu hovoriť inak ako vy.
 contribution-varying-pronunciations-description-extended = Na druhej strane, ak si myslíte, že sa čitateľ s týmto slovom pravdepodobne nikdy predtým nestretol a iba nesprávne odhaduje výslovnosť, odmietnite. Ak si nie ste istí, použite tlačidlo preskočiť.
 contribution-varying-pronunciations-example-1-title = Na hlave mal baret.
 contribution-varying-pronunciations-example-1-explanation = [V slove ‘baret’ je v poriadku aj dôraz na prvú slabiku (Spojené kráľovstvo) a takisto druhú slabiku (USA)]
@@ -1217,7 +1219,7 @@ contribution-background-noise-example-2-fixed-title = Obrovský dino <strong>[za
 contribution-background-noise-example-2-explanation = [Časť textu nie je možné počuť]
 contribution-background-noise-example-3-fixed-title = <strong>[Praskot]</strong> obrie dinosaury <strong>[praskot]</strong> -riasu.
 contribution-background-voices-title = Hluk na pozadí
-contribution-background-voices-description = Tichá vrava na pozadí je v poriadku, ale nechceme ďalšie hlasy, ktoré môžu spôsobiť, že algoritmus stroja identifikuje slová, ktoré nie sú v písanom texte. Ak počujete odlišné slová ako tie v texte, klip by mal byť odmietnutý. Obvykle sa to stane tam, kde bol televízor zapnutý, alebo v blízkosti prebieha konverzácia.
+contribution-background-voices-description = Tichá vrava na pozadí je v poriadku, ale nechceme ďalšie hlasy, ktoré môžu spôsobiť, že algoritmus stroja identifikuje slová, ktoré nie sú v písanom texte. Ak počujete odlišné slová ako tie v texte, nahrávka by mala byť odmietnutá. Obvykle sa to stane tam, kde bol zapnutý televízor, alebo v blízkosti prebiehala iná konverzácia.
 contribution-background-voices-description-extended = Ak je záznam prerušovaný alebo praská, a nie je počuť celý text, odmietnite ho.
 contribution-background-voices-example-1-title = Obrie dinosaury z triasu. <strong>[prečítané jedným tónom hlasu]</strong>
 contribution-background-voices-example-1-explanation = Ideš už? <strong>[volá iný hlas]</strong>
@@ -1585,7 +1587,7 @@ partnerships-corporates-header = Veľké korporácie a platformové spoločnosti
 partnerships-corporates-description = Ak chcete o kolekcii údajov hovoriť viac, chcete sa podieľať na investovaní do plánovaného rozšírenia platformy alebo hľadáte možnosti spolupráce, <emailFragment>napíšte nám</emailFragment>.
 partnerships-our-partners = Naši partneri
 # FIRST POST SUBMISSION CTA
-first-cta-header-text = Ďakujeme za darovanie vašich hlasových klipov!
+first-cta-header-text = Ďakujeme za darovanie vašich hlasových nahrávok!
 first-cta-subtitle-text = Chceli by ste sa podeliť o nejaké informácie o tom, ako hovoríte?
 why-donate = Prečo sa pýtate?
 why-donate-explanation-1 = Poskytnutie týchto informácií je nepovinné – mali by ste ich pridať, iba ak sa cítite dobre. Keď zverejníme kolekciu údajov, pseudonymizujeme všetky osobné informácie a uistíme sa, že informácie, ako je vaše meno a e-mail, nie sú spojené s demografickými informáciami, ako je vek alebo pohlavie.
@@ -1604,7 +1606,7 @@ create-profile-button = Vytvoriť profil
 img-alt-success-checkmark = symbol začiarknutia
 # GUIDELINES PAGE
 guidelines-header = Pokyny pre prispievanie
-guidelines-header-subtitle = Prečítajte si, ako prispievať a overovať vety a zvukové klipy do kolekcie údajov Common Voice
+guidelines-header-subtitle = Prečítajte si, ako prispievať a overovať vety a zvukové nahrávky do kolekcie údajov Common Voice
 voice-collection = Zbierka hlasov
 sentence-collection = Zber viet
 varying-pronunciations = Rôzne výslovnosti
@@ -1616,7 +1618,61 @@ volume = Hlasitosť
 reader-effects = Efekty od čítajúceho
 just-unsure = Len si nie ste istí?
 example = Príklad
+misreadings-explanation-1 = Na správnom prečítaní všetkých slov na stránke záleží. Pri počúvaní veľmi pozorne skontrolujte, či to, čo bolo zaznamenané, je presne to, čo bolo napísané. Nahrávku odmietnite, ak čítajúci pridal či vynechal slová.
+misreadings-explanation-2 = Medzi veľmi časté chyby patria:
+misreadings-explanation-3 = Na začiatku nahrávky chýba člen „A“ alebo „The“.
+misreadings-explanation-4 = Chýbajúce 's' na konci slova.
+misreadings-explanation-5 = Čítanie krátených foriem, ktoré v skutočnosti neexistujú, napríklad „We're“ namiesto „We are“ alebo naopak.
+misreadings-explanation-6 = Chýbajúci koniec posledného slova príliš rýchlym prerušením záznamu.
+misreadings-explanation-7 = Niekoľko pokusov o prečítanie slova.
+misreadings-example-1 = My ideme na kávu.
+misreadings-example-2 = Ideme na kávu.
+misreadings-example-3 = My ideme von na kávu.
+misreadings-example-4 = Okolo preletel čmeliak.
+misreadings-tip-1 = [Malo by byť „My ideme“]
+misreadings-tip-2 = [V pôvodnom texte nie je "von"]
+misreadings-tip-3 = [Obsah sa nezhoduje]
+background-noise-explanation = Musíte počuť každé slovo nahrávky. Chceme, aby algoritmy strojového učenia boli schopné zvládnuť rôzne zvuky na pozadí a akceptovať možno aj relatívne hlasné zvuky alebo tichú hudbu na pozadí za predpokladu, že vám nebránia počuť celý text. Praskanie alebo iné rušenie, ktoré vám bráni počuť text, znamená, že by ste mali nahrávku odmietnuť.
+background-noise-example-1 = Obrie dinosaury z triasu.
+background-noise-example-2 = [kýchnutie] Obrie dinosaury [zakašľanie] z triasu.
+background-noise-example-3 = Obrovský dino [zakašľanie] triasu.
+background-noise-example-4 = [prasknutie] Obrie dinosaury z [prasknutie] asu.
+background-noise-tip-1 = [prerušované hlukom v pozadí]
+background-noise-tip-2 = [Časť textu nie je možné počuť]
+background-voices-explanation = Trochu hluku v pozadí je v poriadku, ale ak počujete inú osobu hovoriť zreteľné slová, nahrávku by ste mali odmietnuť. Zvyčajne sa to stane tam, kde bol zapnutý televízor alebo kde v blízkosti prebieha iná konverzácia.
+background-voices-example-1 = Obrie dinosaury z triasu. [prečítané jedným hlasom]
+background-voices-tip-1 = Ideš s nami? [hlas niekoho iného]
+volume-explanation = Medzi príspevkami budú prirodzené odchýlky v hlasitosti. Odmietnite iba vtedy, ak je hlasitosť taká vysoká, že sa záznam rozpadne, alebo (bežnejšie) ak je taká nízka, že nemôžete počuť, čo sa na zázname hovorí bez toho, aby ste si pozreli napísaný text.
+still-have-questions = Máte ďalšie otázky?
+contact-common-voice = Kontaktujte tím Common Voice
+public-domain = Verejná licencia
+public-domain-explanation-1 = Je veľmi dôležité, aby všetky textové vety boli dostupné pod <publicDomain>verejnou licenciou</publicDomain> (<cc0>cc0</cc0>), keďže kolekcia údajov Common Voice je vydávaná pod licenciou cc0. Nahrajte vetu, len ak ste si istí, a vždy uveďte príslušnú citáciu.
+citing-sentences-subheader-websites = Webové stránky
+citing-sentences-subheader-websites-explanation = Môžete zahrnúť webovú stránku, napr. „Common Voice – https://commonvoice.mozilla.org/“
+citing-sentences-subheader-academic-reference = Akademická referencia
+citing-sentences-subheader-academic-reference-explanation = Môžete použiť akademický štýl odkazovania, napr. Harvardský štýl „Mozilla (2021) Common Voice. Dostupné na https://commonvoice.mozilla.org/ (Prístup: 15. septembra 2021)“
+citing-sentences-subheader-offline-sources = Offline zdroje
+citing-sentences-subheader-offline-sources-explanation = Pre verejne dostupný text, ktorý nie je dostupný online, môžete použiť akademický štýl odkazovania, napríklad štýl Harvardu „Jess (2021) Moje básne pod verejnou licenciou“
+citation =
+    .label = Citácia
+self-citation = Vlastná citácia
+self-citation-explanation = Takto sa citujete, ak ste obsah napísali sami.
+adding-sentences-subheader-length = Dĺžka
+adding-sentences-subheader-length-explanation = Veta by mala mať menej ako 15 slov.
+adding-sentences-subheader-spelling-punctuation = Pravopis a interpunkcia
+adding-sentences-subheader-spelling-punctuation-explanation = Veta musí byť napísaná správne.
+adding-sentences-subheader-numbers = Čísla
 adding-sentences-subheader-numbers-explanation = V zdrojovom texte by sa v ideálnom prípade nemali nachádzat žiadne číslice, pretože pri hlasnom čítaní môžu spôsobiť problémy. Spôsob, akým sa číslo číta, závisí od kontextu a môže spôsobiť zmätok v kolekcii údajov. Napríklad číslo „2409“ by sa dalo presne čítať ako „dvadsaťštyri nula deväť“ aj ako „dvetisícštyristodeväť“.
+adding-sentences-subheader-abbreviations = Skratky a akronymy
+adding-sentences-subheader-abbreviations-explanation = V zdrojovom texte by ste sa mali vyhýbať skratkám a akronymom ako „USA“ alebo „ICE“, pretože sa môžu čítať spôsobom, ktorý sa nezhoduje s ich pravopisom. Okrem toho môže existovať viacero významov pre jednu skratku.
+adding-sentences-subheader-punctuation = Interpunkcia
+adding-sentences-subheader-punctuation-explanation = Špeciálne symboly a interpunkčné znamienka by sa mali uvádzať len vtedy, keď je to absolútne nevyhnutné. Napríklad v anglických slovách ako „don't“ a „were“ je zahrnutý apostrof a mal by byť zahrnutý v zdrojovom texte, ale je nepravdepodobné, že budete niekedy potrebovať špeciálny symbol ako „@“ alebo „#“.
+adding-sentences-subheader-special-characters = Špeciálne znaky a cudzie písmená
+adding-sentences-subheader-special-characters-explanation-1 = Písmená musia byť platné v jazyku, ktorým sa hovorí. Napríklad „ж“ je písmeno v ruskej abecede, ale nikdy sa nepoužíva v angličtine, a preto by sa nikdy nemalo objaviť v žiadnom anglickom zdrojovom texte.
+adding-sentences-subheader-offensive-content = Urážlivý obsah
+adding-sentences-subheader-offensive-content-explanation = Ak je veta urážlivá alebo rozrušujúca – napríklad z dôvodu explicitného obsahu alebo iného porušenia našich <communityGuidelines>pokynov pre účasť v komunite</communityGuidelines> – mali by ste ju odmietnuť. Môžete nás tiež kontaktovať na adrese <emailFragment>commonvoice@mozilla.com</emailFragment> a eskalovať problém.
+reviewing-sentences-explanation-1 = Ak veta spĺňa vyššie uvedené kritériá, kliknite na tlačidlo „Áno“.
+reviewing-sentences-explanation-2 = Ak veta nespĺňa vyššie uvedené kritériá, kliknite na tlačidlo „Nie“.
 reviewing-sentences-explanation-3 = Ak si nie ste istí vetou, môžete ju tiež preskočiť a prejsť na ďalšiu.
 reviewing-sentences-explanation-4 = Ak vám dochádzajú vety na kontrolu, môžete nám pomôcť zhromaždiť ďalšie vety.
 community-announcement-header = Oznámenie komunity!
