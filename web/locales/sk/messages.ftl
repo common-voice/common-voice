@@ -360,7 +360,7 @@ shortcut-discard-ongoing-recording-label = Zahodiť prebiehajúcu nahrávku
 shortcut-submit = Enter
 shortcut-submit-label = Odoslať nahrávky
 request-language-text = Nevidíte na Common Voice svoj jazyk?
-request-language-button = Požiadajte o jazyk
+request-language-button = Požiadajte o pridanie jazyka
 
 ## ProjectStatus
 
@@ -818,10 +818,10 @@ contact-required = * vyžadované pole
 
 ## Request Language Modal
 
-request-language-title = Žiadosť o jazyk
+request-language-title = Žiadosť o pridanie jazyka
 request-language-form-language =
     .label = Jazyk
-request-language-success-title = Žiadosť o jazyk bola odoslaná. Ďakujeme.
+request-language-success-title = Žiadosť o pridanie jazyka bola odoslaná. Ďakujeme.
 request-language-success-content = Čoskoro vám dáme vedieť, ako môžete pridať svoj jazyk do Common Voice.
 select-language = Vyberte si jazyk...
 other-language = Ostatné jazyky
@@ -1604,6 +1604,16 @@ create-profile-button = Vytvoriť profil
 img-alt-success-checkmark = symbol začiarknutia
 # GUIDELINES PAGE
 guidelines-header = Pokyny pre prispievanie
+voice-collection = Zbierka hlasov
 sentence-collection = Zber viet
+varying-pronunciations = Rôzne výslovnosti
+misreadings = Nesprávne prečítané
+offensive-content = Urážlivý obsah
+background-noise = Hluk na pozadí
+background-voices = Hlasy na pozadí
+volume = Hlasitosť
+reader-effects = Efekty od čítajúceho
+just-unsure = Len si nie ste istí?
+example = Príklad
 community-announcement-header = Oznámenie komunity!
 community-announcement-explanation = Pokyny nižšie sa týkajú nových funkcií zberača viet, ktoré budú integrované do základnej platformy Common Voice počas marca a apríla 2023. Medzitým môžete použiť predchádzajúci nástroj, <scLink>https://commonvoice.mozilla.org/sentence-collector/</scLink>.
