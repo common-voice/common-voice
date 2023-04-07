@@ -449,6 +449,12 @@ about-sentence-collection-title = Teikumu kolekcija
 about-sentence-collection-subtitle = Teikumi tiek savākti, lai cilvēki tos varētu ierunāt.
 about-new-lang-title = Jaunas valodas palaišana
 about-new-lang-subtitle = Mēs palaižam Common Voice vietni šajā valodā.
+about-voice-contrib-title = Balss ieguldījums
+about-voice-contrib-subtitle = Cilvēki nāk un ierunā teikumus.
+about-voice-validation-title = Ierakstu pārbaudīšana
+about-voice-validation-subtitle = Citi cilvēki pārbauda vai teikumi ir ierunāti precīzi un pareizi.
+about-dataset-release-title = Datu kopas izlaišana
+about-dataset-release-subtitle = Mēs izlaižam datu kopu katrus 3 mēnešus.
 about-subscribe-text = Vai vēlaties sazināties ar Common Voice?
 about-speak = Runājiet
 about-speak-text = Dalībnieki ieraksta balss klipus, lasot no apkopoto teikumu datu bāzes.
@@ -471,11 +477,15 @@ about-get-involved-text-2 =
     Vēlaties palīdzēt padarīt Common Voice vēl labāku better?
     Lieliski! Sazinieties ar mums pa epastu vai <discourseLink>Discourse</discourseLink>
     forumu, ziņojiet par submit problēmām <githubLink>GitHub</githubLink>, vai pievienojieties <matrixLink>Matrix</matrixLink> kopienas tērzētavai.
+about-stay-in-touch = Kā es varu sazināties?
+about-stay-in-touch-button = Pierakstīties
 about-stay-in-touch-text-1 = <emailFragment>Reģistrējieties</emailFragment> mūsu epasta jaunumime, lai uzzinātu, kā varat piedalīties kampaņās, pasākumos un Common Voice kopprojektēšanas aktivitātēs.
+about-stay-in-touch-text-2 = Jūs varat satikt citus Mozilla valodu kopienās dalībniekus, pievienojoties <discourseLink>Discourse</discourseLink> aktuālām sarunām vai <matrixLink>Matrix</matrixLink>, lai saņemtu ātrus padomus.
 about-nav-why-common-voice = Kāpēc?
 about-nav-how-it-works = Kā?
 about-nav-partners = Partneri
 about-nav-get-involved = Iesaistieties
+about-nav-how-it-works-2 = Kā darbojas Common Voice?
 about-nav-playbook = Uzziniet, kā piedalīties
 
 ## Community Playbook Content
