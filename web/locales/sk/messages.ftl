@@ -593,7 +593,7 @@ about-nav-playbook = Zistite, ako sa zúčastniť
 about-playbook-what-is-language = Čo je to jazyk na Common Voice?
 about-playbook-what-is-language-content-1 = Existuje mnoho spôsobov, ako premýšľať o jazyku. Na účely modelov rozpoznávania reči Common Voice navrhuje zamerať sa na „vzájomnú zrozumiteľnosť“ alebo „dokážu si ľudia hovoriaci týmto jazykom väčšinou porozumieť, ak sa o to pokúsia?“
 about-playbook-what-is-language-content-2 = Chceme, aby rečové modely lepšie porozumeli rozmanitej škále rečníkov. Aby sa to stalo, musí kolekcia hlasových údajov reprezentovať veľa rôznych ľudí.
-about-playbook-what-is-language-content-3 = Niektoré jazyky majú obrovské rozdiely v gramatike, slovnej zásobe a výslovnosti. Z tohto dôvodu v roku 2022 <ctaLink>predstavujeme „Varianty“</ctaLink>. Komunitám to dáva spôsob, ako rozlíšiť svoje jazyky v rámci väčšieho súboru údajov.
+about-playbook-what-is-language-content-3 = Niektoré jazyky majú obrovské rozdiely v gramatike, slovnej zásobe a výslovnosti. Z tohto dôvodu v roku 2022 <ctaLink>predstavujeme „Varianty“</ctaLink>. Komunitám to dáva spôsob, ako rozlíšiť svoje jazyky v rámci väčšej kolekcie údajov.
 
 ## How do I add a language
 
@@ -643,7 +643,7 @@ about-playbook-how-record-content-5 = <accuracyLink>Ďalšie informácie o krit�
 ## How to grow language
 
 about-playbook-how-grow-language = Ako môžeme efektívne rozvíjať jazyk na Common Voice?
-about-playbook-how-grow-language-content-1 = Vytváranie príležitostí pre rôznorodých ľudí prispievať do Common Voice zaisťuje, že dataset slúži čo najväčšiemu počtu ľudí. Vytvorili sme zdroje a šablóny, ktoré môžete použiť.
+about-playbook-how-grow-language-content-1 = Vytváranie príležitostí pre rôznorodých ľudí prispievať do Common Voice zaisťuje, že kolekcia údajov slúži čo najväčšiemu počtu ľudí. Vytvorili sme zdroje a šablóny, ktoré môžete použiť.
 about-playbook-how-grow-language-content-2 = Udalosti
 about-playbook-how-grow-language-content-3 = Môžete organizovať podujatia, ktoré pomôžu ľuďom prispieť. Je to jednoduchšie, ako si myslíte. Môžete to urobiť online pomocou nástroja na videokonferencie alebo osobne, ak je to bezpečné. <eventTemplate>Pozrite si naše šablóny a zdroje pre organizovanie udalostí</eventTemplate>.
 about-playbook-how-grow-language-content-4 = Sociálne médiá
@@ -658,12 +658,12 @@ about-playbook-how-validate = Ako zistím, či mám schváliť hlasový klip?
 about-playbook-how-validate-content-1 = Ak ste ich <strong>počuli</strong> a <strong>rozumeli im</strong>, zvyčajne je <strong>najlepšie ich schváliť</strong>.
 about-playbook-how-validate-content-2 = <strong>Neodmietajte klipy, v ktorých má reproduktor „prízvuk“ odlišný od vášho</strong> – je to dôležité, aby rozpoznávanie hlasu fungovalo pre každého lepšie.
 about-playbook-how-validate-content-3 = Ak si myslíte, že kvôli výslovnosti <strong>nie je možné rozumieť</strong> alebo je v pozadí <strong>veľa hluku</strong> alebo <strong>hovoria aj iní ľudia</strong>, potom by ste mali klip odmietnuť. <accuracyLink>Ďalšie informácie nájdete v našich kritériách presnosti</accuracyLink>.
-about-playbook-how-validate-content-4 = Ak klip odmietnu 2 ľudia, je tento sprístupnený v inej podskupine datasetu.
+about-playbook-how-validate-content-4 = Ak klip odmietnu 2 ľudia, je tento sprístupnený v inej podskupine kolekcie údajov.
 
 ## How to access dataset
 
-about-playbook-how-access-dataset = Ako získam prístup k datasetu a ako ho môžem používať?
-about-playbook-how-access-dataset-content-1 = Môžete prejsť na <datasetsPage>stránku s datasetmi</datasetsPage>, vybrať si požadovanú verziu a jazyk(y) a stiahnuť si ju! Súbory majú <metadataLink>priradené metadáta</metadataLink>, ako sú demografické informácie a overovacie údaje. Na stiahnutie datasetu budete musieť zadať e-mailovú adresu.
+about-playbook-how-access-dataset = Ako získam prístup ku kolekcii údajov a ako ju môžem používať?
+about-playbook-how-access-dataset-content-1 = Môžete prejsť na stránku s <datasetsPage>kolekciami údajov</datasetsPage>, vybrať si požadovanú verziu a jazyk(y), a stiahnuť si ju! Súbory majú <metadataLink>priradené metadáta</metadataLink>, ako sú demografické informácie a overovacie údaje. Na stiahnutie kolekcie údajov budete musieť zadať e-mailovú adresu.
 about-playbook-how-access-dataset-content-2 = Ak hľadáte nástroje na vytváranie modelov ASR, môžete sa spojiť s ostatnými ľuďmi v komunite <discourseLink>cez Discourse</discourseLink>.
 
 ## How are decisions made
@@ -689,7 +689,7 @@ hours-validated-explanation = Počet hodín hlasových nahrávok, ktoré boli po
 sst = Prevod reči na text (STT)
 sst-explanation = Technológia prevodu reči na text (STT) prevádza hlasové dáta na text.
 de-identified = Anonymizovanie
-de-identified-explanation = Proces, pri ktorom je v súboroch datasetu skrytá identita autorov hlasových záznamov.
+de-identified-explanation = Proces, pri ktorom sú informácie o profile prispievateľa odstránené z jeho hlasových záznamov, ktoré sú súčasťou kolekcie údajov na stiahnutie.
 
 ## Error pages
 
@@ -706,14 +706,14 @@ data-download-yes = Áno
 data-download-deny = Nie
 data-download-license = Licencia: <licenseLink>CC-0</licenseLink>
 data-download-modal = Chystáte sa zahájiť sťahovanie <size>{ $size } GB</size>, chcete pokračovať?
-data-subtitle = Vytvárame otvorený a verejne dostupný hlasový dataset, ktorý môže ktokoľvek použiť na tréning aplikácií využívajúcich hlas.
-data-explanatory-text = Veríme, že rozsiahle a verejne dostupné hlasové datasety podporujú inovácie a zdravú obchodnú súťaž v technológiách rozpoznávania reči založených na strojovom učení. Ide o celosvetové úsilie a pozývame všetkých, aby sa zapojili. Našim cieľom je pomôcť technológiám využívajúcim reč, aby boli otvorenejšie a aby odrážali rozmanitosť hlasov z celého sveta.
+data-subtitle = Vytvárame otvorenú a verejne dostupnú kolekciu údajov hlasov, ktorú môže každý použiť na trénovanie aplikácií s podporou reči.
+data-explanatory-text = Veríme, že rozsiahle a verejne dostupné hlasové kolekcie údajov podporujú inovácie a zdravú obchodnú súťaž v technológiách rozpoznávania reči založených na strojovom učení. Ide o celosvetové úsilie a pozývame všetkých, aby sa zapojili. Našim cieľom je pomôcť technológiám využívajúcim reč, aby boli otvorenejšie a aby odrážali rozmanitosť hlasov z celého sveta.
 data-get-started = <speechBlogLink>Začíname s rozpoznávaním reči</speechBlogLink>
-data-other-title = Ďalšie hlasové datasety…
+data-other-title = Ďalšie kolekcie hlasových údajov…
 data-other-goto = Prejsť na { $name }
 data-other-download = Stiahnuť údaje
-data-bundle-button = Stiahnuť balík datasetov
-data-bundle-description = Common Voice a údaje všetkých ostatných hlasových datasetov vyššie.
+data-bundle-button = Stiahnuť balík kolekcií údajov
+data-bundle-description = Údaje Common Voice a všetky ostatné kolekcie hlasových údajov uvedené vyššie.
 release-version = Verzia
 dataset-date = Dátum
 license = Licencia: <licenseLink>{ $license }</licenseLink>
@@ -734,16 +734,16 @@ review-delete-recordings = Odstrániť moje nahrávky
 
 ## Datasets Page
 
-datasets-heading = Datasety
-datasets-headline = Vytvárame otvorený viacjazyčný hlasový dataset, ktorý môže ktokoľvek použiť na trénovanie hlasových aplikácií.
+datasets-heading = Kolekcie údajov
+datasets-headline = Vytvárame otvorenú viacjazyčnú kolekciu hlasových údajov, ktorú môže ktokoľvek použiť na trénovanie aplikácií s podporou reči.
 datasets-positioning =
-    Veríme, že veľké, verejne dostupné hlasové datasety podporia inováciu a zdravú obchodnú konkurenciu v technológii reči založenej na strojovom učení.
+    Veríme, že veľké, verejne dostupné kolekcie hlasových údajov podporia inováciu a zdravú obchodnú konkurenciu v technológii reči založenej na strojovom učení.
     
-    Viacjazyčný dataset Common Voice je už najväčším verejne dostupným hlasovým súborom svojho druhu, ale nie je jediným.
+    Viacjazyčná kolekcia údajov Common Voice je najväčším verejne dostupným hlasovým súborom svojho druhu, ale nie je jediným.
     
-    Na tejto stránke nájdete odkazy iné open-source datasety a, ako bude Common Voice naďalej rásť, aj domov pre naše novinky.
+    Na tejto stránke nájdete odkazy iné otvorené kolekcie hlasových údajov a, ako bude Common Voice naďalej rásť, aj domov pre naše novinky.
 language = Jazyk
-download-dataset-header = Stiahnuť dataset
+download-dataset-header = Stiahnutie kolekcie údajov
 download-delta-explainer = Urobili sme niekoľko zmien. Delta Segments obsahujú len najnovšie klipy od posledného vydania. <deltaLink>Prečítajte si viac o tejto práci</deltaLink>.
 download-dataset-tag = Vyberte požadovaný jazykový súbor údajov a vyberte verziu, ktorú chcete stiahnuť.
 # File size in gigabytes
