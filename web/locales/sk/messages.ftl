@@ -1147,12 +1147,12 @@ demo-welcome-subheader = Máte záujem dozvedieť sa viac a prispieť k projektu
 ## Demo Datasets
 
 demo-language-select-card-header = Common Voice je najväčšia verejne dostupná viacjazyčná kolekcia hlasových údajov na svete.
-demo-language-select-card-body = Vďaka príspevkom od viac ako 259 000 ľudí vo viac ako 50 jazykoch sa tieto údaje používajú na učenie aplikácií s podporou reči, aby lepšie reagovali na ľudský hlas.
+demo-language-select-card-body = Vďaka príspevkom od viac ako 259 tisíc ľudí vo viac ako 50 jazykoch sa tieto údaje používajú na trénovanie aplikácií s podporou reči, aby lepšie reagovali na ľudský hlas.
 card-button-next = Ďalej
 card-button-back = Naspäť
 demo-language-select-label = Prechádzať jazyky
 demo-eofy-header = Vydanie na konci roka 2019
-demo-eofy-sub_header = Hlasová dátová sada, pripravená na stiahnutie
+demo-eofy-sub_header = Kolekcia hlasových údajov, pripravená na stiahnutie
 demo-account = Účet
 
 ## Demo Account
@@ -1275,7 +1275,7 @@ sc-howto-addlang-title = Pridanie jazykov, ktorými chcete pracovať
 sc-howto-addlang-text = Po prihlásení si môžete vybrať jazyky v sekcii profilu.
 sc-howto-addsen-title = Pridanie nových viet
 sc-howto-addsen-item-1 = Všetky vety, ktoré odošlete, musia byť <wikipediaLink>dostupné pod verejnou licenciou (CC-0)</wikipediaLink>. Aby sme podporili zahrnutie diela, ktoré nie je pod verejnou licenciou, vytvorili sme <cc0WaiverLink>šablónu zmluvy o príspevkoch</cc0WaiverLink> pre diela, pri ktorých by vlastník autorských práv chcel prispieť materiálom do Common Voice.
-sc-howto-addsen-item-2 = Čísla. V zdrojovom texte by nemali byť žiadne číslice, pretože pri hlasnom čítaní môžu spôsobiť problémy. Spôsob, akým sa číslo číta, závisí od kontextu a môže spôsobiť zmätok v množine údajov. Napríklad číslo „2409“ by sa dalo presne čítať ako „dvadsaťštyri nula deväť“ aj ako „dvetisícštyristodeväť“.
+sc-howto-addsen-item-2 = Čísla. V zdrojovom texte by nemali byť žiadne číslice, pretože pri hlasnom čítaní môžu spôsobiť problémy. Spôsob, akým sa číslo číta, závisí od kontextu a môže spôsobiť zmätok v kolekcii údajov. Napríklad číslo „2409“ by sa dalo presne čítať ako „dvadsaťštyri nula deväť“ aj ako „dvetisícštyristodeväť“.
 sc-howto-addsen-item-3 = Skratky a akronymy. V zdrojovom texte by ste sa mali vyhýbať skratkám a akronymom ako „USA“ alebo „ICE“, pretože sa môžu čítať spôsobom, ktorý sa nezhoduje s ich pravopisom. Okrem toho môže existovať viacero presných údajov pre jednu skratku. Napríklad skratka „ICE“ sa môže vyslovovať ako „I-C-E“ alebo ako jedno slovo.
 sc-howto-addsen-item-4 = Interpunkcia. Špeciálne symboly a interpunkčné znamienka by sa mali uvádzať len vtedy, keď je to absolútne nevyhnutné. Napríklad v anglických slovách ako „don't“ a „were“ je zahrnutý apostrof a mal by byť zahrnutý v zdrojovom texte, ale je nepravdepodobné, že budete niekedy potrebovať špeciálny symbol ako „@“ alebo „#“.
 sc-howto-addsen-item-5 = Cudzie znaky. Písmená musia byť platné v jazyku, ktorým sa hovorí. Napríklad „ж“ je písmeno v ruskej abecede, ale nikdy sa nepoužíva v angličtine, a preto by sa nikdy nemalo objaviť v žiadnom anglickom zdrojovom texte.
@@ -1582,13 +1582,13 @@ partnerships-academia-description = Otvorená inovácia je jadrom toho, čo rob�
 partnerships-small-business-header = Malé podniky vrátane začínajúcich podnikov v oblasti technológií a AI
 partnerships-small-business-description = Vždy sa snažíme načúvať potrebám spotrebiteľov našich údajov – od spolupráce na platforme zberu údajov až po poskytovanie štatistík o stave údajov. <emailFragment>Dajte nám vedieť o tých vašich</emailFragment>.
 partnerships-corporates-header = Veľké korporácie a platformové spoločnosti
-partnerships-corporates-description = Ak chcete o súbore údajov hovoriť viac, chcete spoluinvestovať do plánovaného rozšírenia platformy alebo hľadať možnosti spolupráce, <emailFragment>napíšte nám</emailFragment>.
+partnerships-corporates-description = Ak chcete o kolekcii údajov hovoriť viac, chcete sa podieľať na investovaní do plánovaného rozšírenia platformy alebo hľadáte možnosti spolupráce, <emailFragment>napíšte nám</emailFragment>.
 partnerships-our-partners = Naši partneri
 # FIRST POST SUBMISSION CTA
 first-cta-header-text = Ďakujeme za darovanie vašich hlasových klipov!
 first-cta-subtitle-text = Chceli by ste sa podeliť o nejaké informácie o tom, ako hovoríte?
 why-donate = Prečo sa pýtate?
-why-donate-explanation-1 = Poskytnutie týchto informácií je nepovinné – mali by ste ich pridať, iba ak sa cítite dobre. Keď zverejníme súbor údajov, pseudonymizujeme všetky osobné informácie a uistíme sa, že informácie, ako je vaše meno a e-mail, nie sú spojené s demografickými informáciami, ako je vek alebo pohlavie.
+why-donate-explanation-1 = Poskytnutie týchto informácií je nepovinné – mali by ste ich pridať, iba ak sa cítite dobre. Keď zverejníme kolekciu údajov, pseudonymizujeme všetky osobné informácie a uistíme sa, že informácie, ako je vaše meno a e-mail, nie sú spojené s demografickými informáciami, ako je vek alebo pohlavie.
 why-donate-explanation-2 = Aby technológia fungovala dobre pre každého, údaje, ktoré pomáhajú vývojárom vytvárať technológie, musia odrážať rôznorodú škálu ľudí. Ak napríklad nezahrnieme nahrávky s konkrétnym prízvukom, potom táto technológia nebude fungovať spoľahlivo pre ľudí s týmto prízvukom. <learnMore>Pozrite si ďalšie informácie o tom, prečo sú metadáta dôležité</learnMore>.
 add-information-button = Pridať informácie
 continue-speaking-button = Nie, ďakujem, hovorme ďalej
@@ -1604,7 +1604,7 @@ create-profile-button = Vytvoriť profil
 img-alt-success-checkmark = symbol začiarknutia
 # GUIDELINES PAGE
 guidelines-header = Pokyny pre prispievanie
-guidelines-header-subtitle = Prečítajte si, ako prispievať a overovať vety a zvukové klipy do množiny údajov Common Voice
+guidelines-header-subtitle = Prečítajte si, ako prispievať a overovať vety a zvukové klipy do kolekcie údajov Common Voice
 voice-collection = Zbierka hlasov
 sentence-collection = Zber viet
 varying-pronunciations = Rôzne výslovnosti
@@ -1616,6 +1616,7 @@ volume = Hlasitosť
 reader-effects = Efekty od čítajúceho
 just-unsure = Len si nie ste istí?
 example = Príklad
+adding-sentences-subheader-numbers-explanation = V zdrojovom texte by sa v ideálnom prípade nemali nachádzat žiadne číslice, pretože pri hlasnom čítaní môžu spôsobiť problémy. Spôsob, akým sa číslo číta, závisí od kontextu a môže spôsobiť zmätok v kolekcii údajov. Napríklad číslo „2409“ by sa dalo presne čítať ako „dvadsaťštyri nula deväť“ aj ako „dvetisícštyristodeväť“.
 reviewing-sentences-explanation-3 = Ak si nie ste istí vetou, môžete ju tiež preskočiť a prejsť na ďalšiu.
 reviewing-sentences-explanation-4 = Ak vám dochádzajú vety na kontrolu, môžete nám pomôcť zhromaždiť ďalšie vety.
 community-announcement-header = Oznámenie komunity!
