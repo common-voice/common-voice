@@ -494,9 +494,20 @@ about-nav-playbook = Uzziniet, kā piedalīties
 
 ## How do I add a language
 
+about-playbook-how-add-language-translating-content-2 =
+    Tulkošanai mēs izmantojam Mozilla rīku <pontoonLink>Pontoon</pontoonLink>. Šajā rīkā ir daudz valodu,
+    bet, ja tajā nav jūsu, varat <pontoonRequestLink>pieprasīt savas valodas pievienošanu</pontoonRequestLink>.
+    Pēc tam, lai pievienotu valodu Common Voice,
+    <githubRepoLink>pieprasiet jauno valodu vietnē GitHub</githubRepoLink>. <localizationFragment>Uziniet vairāk par vietņu tulkošanu</localizationFragment>.
 
 ## How does localization work
 
+about-playbook-how-localize = Kā darbojas vietnes lokalizācija?
+about-playbook-how-localize-content-1 = Vietnes Common Voice tulkošana notiek <strong>Pontoon</strong> sistēmā.
+about-playbook-how-localize-content-2 = <pontoonAccountLink>Izveidojiet kontu</pontoonAccountLink>, ja jums tāda nav. Pēc tam izvēlieties valodu sadaļā <strong>Komanda jeb ‘Teams’</strong> un pēc tam izvēlieties projektu <pontoonCvLink>Common Voice</pontoonCvLink>. Tur būs tulkojamās datnes. Noklikšķiniet uz vienas, pēc tam tiks parādīti vārdi angļu valodā un lodziņš to tulkošanai.
+about-playbook-how-localize-content-3 = Tulkošana notiek no angļu valodas, taču varat skatīt <strong>Ieteikumus</strong> citās valodās. Noklikšķiniet uz ikonas <strong>Profils</strong>, pēc tam uz saites <strong>Iestatījumi</strong> un pievienojiet visas valodas, kurās runājat. Apakšējā labajā stūrī būs tulkojumu saraksts ar nosaukumu <strong>Locales</strong>. Common Voice vietnē tulkojumi parādīsies dienu vēlāk.
+about-playbook-how-localize-content-4 = Vietne ir gatava palaišanai, kad tā sasniedz 75% pabeigtību.
+about-playbook-how-localize-content-5 = Lai palīdzētu, skatiet mūsu video skaidrojumu
 
 ## How to add sentences
 
@@ -860,6 +871,7 @@ demo-welcome-subheader = Vai vēlaties uzzināt vairāk un dot savu ieguldījumu
 
 ## Demo Datasets
 
+demo-language-select-card-header = Common Voice ir pasaulē lielākā publiski pieejamā vairāku valodu balss datu kopa.
 
 ## Demo Account
 
@@ -934,6 +946,8 @@ see-less = <chevron></chevron>Rādīt mazāk
 
 ## HOW-TO
 
+sc-howto-addsen-item-3 = Saīsinājumi un akronīmi. Avota tekstā ir jāizvairās no saīsinājumiem un akronīmiem, piemēram, “ASV” vai “ICE”, jo tie var tikt lasīti tā, ka tie nesakrīt ar to pareizrakstību. Turklāt vienam saīsinājumam var būt vairāki precīzi rādījumi. Piemēram, akronīmu “ICE” var izrunāt kā “I-C-E” vai kā vienu vārdu.
+sc-howto-review-criteria-5 = Ja teikums neatbilst iepriekš minētajiem kritērijiem, noklikšķiniet uz pogas "Noraidīt". Ja neesat pārliecināts par teikumu, varat to arī izlaist un pāriet uz nākamo.
 
 ## MY SENTENCES
 
