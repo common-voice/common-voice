@@ -6,3 +6,4 @@ get-involved-form-title = ⵣⵎⵎⴻⵎⴰⵜ ⴳ ⵉⵙⴷⵖⵉⵜⵏ ⵏ { 
 get-involved-email =
     .label = ⵉⵎⴰⵢⵍ
 get-involved-submit = ⴰⵣⵏ
+get-involved-return-to-languages = ⴰⴹⵓ ⵖⵔ ⵜⵓⵜⵍⴰⵢⵉⵏ
