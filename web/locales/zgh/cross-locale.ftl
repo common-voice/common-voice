@@ -11,6 +11,7 @@ get-involved-email =
     .label = ⵉⵎⴰⵢⵍ
 get-involved-opt-in = ⵢⴰⵀ, ⵜⵜⴰⵣⵏⴰⵜ ⵉⵢⵉ ⵉⵎⴰⵢⵍⵏ. ⵔⵉⵖ ⴰⴷ ⵏⵏⵖⵎⵙⵖ ⵅⴼ ⵡⴰⵍⴰⵢ ⵏ ⵜⵓⵜⵍⴰⵢⵜ ⴰ ⴳ ⴽⴰⵎⵏⴼⵓⵢⵙ.
 get-involved-submit = ⴰⵣⵏ
+get-involved-stayintouch = ⵏⴽⴽⵏⵉ ⴳ ⵎⵓⵣⵉⵍⴰ, ⴷⴰ ⵏⵥⴽⴽⵓ ⵢⴰⵜ ⵜⴳⵔⴰⵡⵜ ⵅⴼ ⵜⴻⵜⵉⴽⵏⵓⵍⵓⵊⵉⵜ ⵏ ⵓⴳⵕⴹ. ⵏⵔⴰ ⴰⴷ ⵏⴻⵏⵏⵖⵎⵙ ⵅⴼ ⵉⵙⴷⵖⵉⵜⵏ, ⵉⵙⵓⴳⴰⵎ ⵏ ⵉⵙⴼⴽⴰ ⵉⵎⴰⵢⵏⵓⵜⵏ ⴷ ⴰⴷ ⵏⵙⵙⵏ ⵓⴳⴳⴰⵔ ⵅⴼ ⵎⴰⵏⵎⴽ ⵙ ⵜⵙⵙⵎⵔⴰⵙⵎ ⵉⵙⴼⴽⴰ ⴰ.
 get-involved-success-title = ⵜⵣⵎⵎⴻⵎⴷ ⵙ ⵓⵎⵓⵔⵙ ⴼⴰⴷ ⵜⴰⵔⴳⴷ ⴳ { $language }. ⵜⴰⵏⵎⵎⵉⵔⵜ.
 get-involved-success-text = ⵔⴰⴷ ⴰⵡⵏ ⵏⴼⴽ ⵓⴳⴳⴰⵔ ⵏ ⵉⵏⵖⵎⵉⵙⵏ ⴰⴷ ⴷⴰⵢ ⵉⵍⵉⵏ.
 get-involved-return-to-languages = ⴰⴹⵓ ⵖⵔ ⵜⵓⵜⵍⴰⵢⵉⵏ
