@@ -306,28 +306,51 @@ glossary = ⵜⴰⵎⴰⵡⴰⵍⵜ
 
 ## Data
 
+data-download-yes = ⵢⴰⵀ
+data-download-deny = ⵓⵀⵓ
+data-other-goto = ⴷⴷⵓ ⵖⵔ { $name }
+release-version = ⵜⴰⵍⵇⵇⵎⵜ
+dataset-date = ⴰⵙⴰⴽⵓⴷ
+terms-agree = ⵎⵙⴰⵙⴰⵖ ⴷ
+terms-disagree = ⵓⵔ ⴷ ⵎⵙⴰⵙⴰⵖ
 
 ## Datasets Page
 
 language = ⵜⵓⵜⵍⴰⵢⵜ
+size-gigabyte = ⵊⵜ
+size-megabyte = ⵎⵜ
 download-language = ⴰⴳⵎ { $language }
 go-languages-page = ⴷⴷⵓ ⵙ ⵜⴰⵙⵏⴰ ⵏ ⵜⵓⵜⵍⴰⵢⵉⵏ
+more = ⵓⴳⴳⴰⵔ
+close = ⵔⴳⵍ
+download = ⴰⴳⵎ
+dataset-version = ⵜⴰⵍⵇⵇⵎⵜ
 
 ## Download Modal
 
+download-no = ⵓⵀⵓ ⵜⴰⵏⵎⵎⵉⵔⵜ
 
 ## Contact Modal
 
+contact-form-name =
+    .label = ⵉⵙⵎ
+contact-form-message =
+    .label = ⵜⵓⵣⵉⵏⵜ
+contact-required = *ⵉⵇⵇⴰⵏ ⴷ
 
 ## Request Language Modal
 
+request-language-title = ⵜⵓⵜⵜⵔⴰ ⵏ ⵜⵓⵜⵍⴰⵢⵜ
 request-language-form-language =
     .label = ⵜⵓⵜⵍⴰⵢⵜ
 other-language = ⵜⵓⵜⵍⴰⵢⵜ ⵢⴰⴹⵏ
 
 ## Request Language Pages
 
+request-language-form-email =
+    .label = ⴰⵏⵙⴰ ⵏ ⵉⵎⴰⵢⵍ ⵏⵏⵓⵏ
 request-language-form-info-explanation-list-1 = ⵉⵙⵎⴰⵡⵏ ⵏ ⵜⵓⵜⵍⴰⵢⵜ ⵏⵏⵓⵏ
+request-language-form-info-explanation-list-2 = <isoCodeLink>ⵜⴰⵏⴳⴰⵍⵉⵏ ⵏ ⵉⵣⵓ</isoCodeLink> ⵉⴳ ⵜⵜⵡⴰⵙⵙⵏⵏⵜ
 
 ## Languages Overview
 
@@ -340,6 +363,7 @@ language-validation-hours = ⵜⵉⵙⵔⴰⴳⵉⵏ
 
 ## Contribution
 
+action-click = ⴽⵍⵉⴽⵉ
 contribute = ⴰⵔⴳ
 share-common-voice = ⴱⴹⵓ ⴽⴰⵎⵏ ⴼⵓⵢⵙ
 
@@ -351,24 +375,36 @@ share-common-voice = ⴱⴹⵓ ⴽⴰⵎⵏ ⴼⵓⵢⵙ
 
 ## Goals
 
+days =
+    { $count ->
+        [one] ⴰⵙⵙ
+       *[other] ⵓⵙⵙⴰⵏ
+    }
 
 ## Dashboard
 
 your-languages = ⵜⵓⵜⵍⴰⵢⵉⵏ ⵏⵏⵓⵏ
+you = ⴽⵯⵏⵏⵉ
 
 ## Custom Goals
 
+share-goal = ⴱⴹⵓ ⴰⵡⵜⵜⴰⵙ ⵉⵏⵓ
 
 ## Profile Delete
 
 remove = ⵙⵉⵜⵜⵢ
+profile-form-delete = ⴽⴽⵙ ⵉⴼⵔⵙ
 
 ## Profile Download
 
+download-profile-title = ⵉⴼⵔⵙ
+download-request-button = ⴰⴳⵎ
+download-request-title = { $created }
 download-request-metadata-link = ⴰⴹⵕⵉⵚⵏ ⵜⵡⵉⵏⵙⵜ
 
 ## Landing
 
+login-company = ⴽⵛⵎ/ⵣⵎⵎⴻⵎ ⵙ ⵉⵎⴰⵢⵍ ⵏ { $company }
 
 ## DemoLayout
 
@@ -376,6 +412,9 @@ demo-welcome = ⴱⵔⵔⴽⴰⵜ ⴳ ⴽⴰⵎⵏ ⴼⵓⵢⵙ
 
 ## Demo Datasets
 
+card-button-next = ⵓⴹⴼⵉⵕ
+demo-language-select-label = ⵙⵜⴰⵔⴰ ⵜⵓⵜⵍⴰⵢⵉⵏ
+demo-account = ⴰⵎⵉⴹⴰⵏ
 
 ## Demo Account
 
@@ -389,6 +428,8 @@ demo-welcome = ⴱⵔⵔⴽⴰⵜ ⴳ ⴽⴰⵎⵏ ⴼⵓⵢⵙ
 ## Validation criteria
 
 contribution-for-example = ⵙ ⵓⵎⴷⵢⴰ
+see-more = <chevron></chevron>ⵥⵕ ⵓⴳⴳⴰⵔ
+see-less = <chevron></chevron>ⵥⵕ ⴷⵔⵓⵙ
 
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
@@ -398,9 +439,14 @@ contribution-for-example = ⵙ ⵓⵎⴷⵢⴰ
 ## HEADER/FOOTER
 
 sc-header-home = ⴰⵙⵏⵓⴱⴳ
+sc-header-add = ⵔⵏⵓ
 sc-header-rejected = ⵜⵉⵡⵉⵏⴰⵙ ⵜⵜⵢⴰⴳⴰⵢⵏⵉⵏ
 sc-header-my = ⵜⵉⵡⵉⵏⴰⵙ ⵉⵏⵓ
+sc-header-profile = ⵉⴼⵔⵙ
+sc-footer-translate = ⵙⵙⵓⵖⵍ ⵜⴰⵙⵏⴰ ⴰ
 sc-footer-privacy = ⵜⵉⵏⵏⵓⵜⵍⴰ
+sc-login-signup-button = ⴰⴽⵛⴰⵎ/ⴰⵣⵎⵎⴻⵎ
+sc-logout-button = ⵓⴼⵓⵖ
 
 ## HOME
 
@@ -424,6 +470,7 @@ sc-rejected-loading = ⴰⵣⴷⴰⵎ ⵏ ⵜⵡⵉⵏⴰⵙ ⵜⵜⵢⴰⴳⴰ�
 
 ## STATS
 
+sc-stats-updating = ⴰⵙⴷⵖⵉ…
 
 ## ADD
 
@@ -438,6 +485,7 @@ sc-add-lang-sec-button = ⵔⵏⵓ ⵜⵓⵜⵍⴰⵢⵜ
 # Variables:
 #   $countOfInvalidated (Number) - Number of sentences the user rejected in the review form before submission
 sc-confirm-rejected-by-you = { $countOfInvalidated } ⵜⵜⵢⴰⴳⴰⵢⵏⵉⵏ ⵙⴳ ⵖⵓⵔⵓⵏ
+sc-confirm-button-text = ⵙⵙⵏⵜⵎ
 
 ## LANGUAGE INFO
 
