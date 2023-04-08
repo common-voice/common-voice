@@ -538,3 +538,4 @@ example = ⴰⵎⴷⵢⴰ
 varying-pronunciations-example = ⵥⵕⵉⵖ ⵓⵍⵜⵎⴰ ⴰⵙⵙⵏⵏⴰⴹ.
 varying-pronunciations-tip-1 = [ⵙ ⵜⵎⴰⵣⵉⵖⵜ ⵜⴰⵔⵉⴼⵉⵜ ⵏⵖⵉⵢ ⴰⴷ ⵏⵙⵓⵙⵔⵓ "ⵓⵍⵜⵎⴰ" ⵣⵓⵏ ⴷ "ⵓⵜⵛⵎⴰ"]
 varying-pronunciations-tip-2 = [ⵙ ⵜⵎⴰⵣⵉⵖⵜ ⵏ ⵡⴰⵟⵍⴰⵚ ⴰⵏⴰⵎⵎⴰⵙ ⵏⵖⵉⵢ ⴰⴷ ⵏⵙⵓⵙⵔⵓ "ⵓⵍⵍⵎⴰ"]
+still-have-questions = ⵖⵓⵔⵓⵏ ⵙⵓⵍ ⵉⵙⵇⵙⵉⵜⵏ?
