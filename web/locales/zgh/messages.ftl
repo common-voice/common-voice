@@ -522,10 +522,15 @@ sc-review-form-button-reject = ⴰⴳⵢ
 sc-review-form-button-approve-shortcut = ⵢ
 # Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
 sc-review-form-button-reject-shortcut = ⵓ
+# Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
+sc-review-form-button-skip-shortcut = ⵣ
 
 ## SETTINGS
 
+sc-settings-title = ⵜⵉⵙⵖⴰⵍ
 sc-settings-ui-language = ⵜⵓⵜⵍⴰⵢⵜ ⵏ ⵓⴳⵔⵓⴷⵎ
 
 # [/SentenceCollector]
 
+partnerships-governments-header = ⵜⵉⵏⴱⴰⴹⵉⵏ
+partnerships-academia-header = ⵜⵉⵙⴷⴰⵡⵉⵢⵉⵏ, ⵉⵎⵙⴷⴰⵡⵉⵢⵏ ⴷ ⵉⵎⵔⵣⴰ
