@@ -3,7 +3,10 @@
 contribute = ⴰⵔⴳ
 get-involved-button = ⴰⵣⵔ
 get-involved-title = ⴰⵔⴳ ⴳ { $lang }
-get-involved-form-title = ⵣⵎⵎⴻⵎⴰⵜ ⴳ ⵉⵙⴷⵖⵉⵜⵏ ⵏ { $lang }:
+get-involved-text =
+    ⵜⴰⵏⵎⵎⵉⵔⵜ ⵅⴼ ⵓⵏⵏⵣⴳⵎ ⵏⵏⵓⵏ ⵙ ⵡⴰⵔⵔⴰⴳ ⴳ { $lang }. ⴷⴰ ⵏⴽⴽⴰⵜ ⵜⴰⵎⴰⵔⴰ ⵃⵎⴰ ⴰⴷ ⵏⵙⵎⵓⵜⵜⴳ ⴽⵓ ⵜⵓⵜⵍⴰⵢⵜ ⵉ ⵓⵏⵏⵓⵕⵥⵎ
+    ⴷ ⴰⴷ ⵏⵙⵏⵖⵎⵙ ⵜⵉⵔⵓⴱⴱⴰ ⵙ ⵉⵙⴷⵖⵉⵜⵏ ⴳ ⵉⵎⴰⵢⵍ. ⵎⴽ ⵜⵅⵙⵎ ⴰⴷ ⵜⴰⵔⴳⵎ, ⴼⴽⴰⵜ ⵉⵎⴰⵢⵍ ⵏⵏⵓⵏ ⴳ ⵡⴰⴷⴷⴰⵢ.
+get-involved-form-title = ⵣⵎⵎⴻⵎ ⴳ ⵉⵙⴷⵖⵉⵜⵏ ⵏ { $lang }:
 get-involved-email =
     .label = ⵉⵎⴰⵢⵍ
 get-involved-opt-in = ⵢⴰⵀ, ⵜⵜⴰⵣⵏⴰⵜ ⵉⵢⵉ ⵉⵎⴰⵢⵍⵏ. ⵔⵉⵖ ⴰⴷ ⵏⵏⵖⵎⵙⵖ ⵅⴼ ⵡⴰⵍⴰⵢ ⵏ ⵜⵓⵜⵍⴰⵢⵜ ⴰ ⴳ ⴽⴰⵎⵏⴼⵓⵢⵙ.
