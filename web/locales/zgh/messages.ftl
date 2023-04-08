@@ -534,3 +534,7 @@ sc-settings-ui-language = ⵜⵓⵜⵍⴰⵢⵜ ⵏ ⵓⴳⵔⵓⴷⵎ
 
 partnerships-governments-header = ⵜⵉⵏⴱⴰⴹⵉⵏ
 partnerships-academia-header = ⵜⵉⵙⴷⴰⵡⵉⵢⵉⵏ, ⵉⵎⵙⴷⴰⵡⵉⵢⵏ ⴷ ⵉⵎⵔⵣⴰ
+example = ⴰⵎⴷⵢⴰ
+varying-pronunciations-example = ⵥⵕⵉⵖ ⵓⵍⵜⵎⴰ ⴰⵙⵙⵏⵏⴰⴹ.
+varying-pronunciations-tip-1 = [ⵙ ⵜⵎⴰⵣⵉⵖⵜ ⵜⴰⵔⵉⴼⵉⵜ ⵏⵖⵉⵢ ⴰⴷ ⵏⵙⵓⵙⵔⵓ "ⵓⵍⵜⵎⴰ" ⵣⵓⵏ ⴷ "ⵓⵜⵛⵎⴰ"]
+varying-pronunciations-tip-2 = [ⵙ ⵜⵎⴰⵣⵉⵖⵜ ⵏ ⵡⴰⵟⵍⴰⵚ ⴰⵏⴰⵎⵎⴰⵙ ⵏⵖⵉⵢ ⴰⴷ ⵏⵙⵓⵙⵔⵓ "ⵓⵍⵍⵎⴰ"]
