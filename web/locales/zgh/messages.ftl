@@ -301,6 +301,9 @@ profile-form-variant =
 profile-form-variant-default-value = ⵡⴰⵍⵓ ⵜⴰⵎⵣⴰⵔⴰⵢⵜ ⵉⵜⵜⵓⵙⵜⵢⵏ
 profile-form-accent =
     .label = ⴰⵙⵓⵙⵔⵓ
+profile-form-custom-accent-help-text =
+    .label = ⵎⴰⵏⵎⴽ ⵙ ⵔⴰⴷ ⵜⵙⵏⵓⵎⵎⵍⵎ ⴰⵙⵓⵙⵔⵓ ⵏⵏⵓⵏ?
+profile-form-custom-accent-placeholder-2 = ⵙⵙⵏⵜⵢⴰⵜ ⵜⵉⵔⵔⴰ ⵃⵎⴰ ⴰⴷ ⵜⵙⵏⵓⵎⵎⵍⵎ ⴰⵙⵓⵙⵔⵓ ⵏⵏⵓⵏ
 profile-form-age =
     .label = ⴰⵡⵜⴰⵢ
 native-language =
@@ -310,7 +313,7 @@ male = ⴰⵡⵜⵎ
 female = ⵜⴰⵡⵜⵎⵜ
 # Gender
 other = ⵡⴰⵢⵢⴰⴹ
-build-profile = ⵚⴽⵓ ⵉⴼⵔⵙ
+build-profile = ⵥⴽⵓ ⵉⴼⵔⵙ
 avatar = ⴰⴼⴰⵜⴰⵔ
 goals = ⵉⵡⵜⵜⴰⵙⵏ
 settings = ⵜⵉⵙⵖⴰⵍ
@@ -323,6 +326,10 @@ login-identity = ⵜⴰⵎⴰⴳⵉⵜ ⵏ ⵓⴽⵛⴰⵎ
 login = ⴽⵛⵎ
 login-signup = ⴽⵛⵎ/ⵣⵎⵎⴻⵎ
 edit = ⵙⵏⴼⵍ
+download-profile = ⴰⴳⵎ ⵉⵙⴼⴽⴰ ⵉⵏⵓ
+help-accent = ⵜⵓⵙⵔⴷ ⴽⵔⴰ ⵏ ⵜⵡⵉⵙⵉ ⴰⴽⴷ ⵓⵙⵓⵙⵔⵓ?
+help-variants = ⵜⵓⵙⵔⴷ ⴽⵔⴰ ⵏ ⵜⵡⵉⵙⵉ ⴰⴽⴷ ⵜⵎⵣⴰⵔⴰⵢⵉⵏ?
+help-variants-explanation = ⵜⵉⵎⵣⴰⵔⴰⵢⵉⵏ ⴳⴰⵏⵜ ⵢⴰⵜ ⵜⴰⵍⵖⴰ ⵉⵥⵍⵢⵏ ⵏ ⵢⴰⵜ ⵜⵓⵜⵍⴰⵢⵜ - ⵉⵜⵜⵓⴱⴹⴰⵏ ⵙ ⵓⵎⴷⵢⴰ ⴳⵔ ⵎⴷⴷⵏ ⴷⴷⵔⵏⵉⵏ ⴳ ⵢⴰⵜ ⵜⴰⵔⴰⴽⴰⵍⵜ ⵏⵉⵖ ⵜⴰⴳⵔⴰⵡⵜ. ⴷⴰ ⴰⵙⵏⵜ ⵜⵜⵉⵏⵉⵏ ⴽⵔⴰ ⵏ ⵜⵉⴽⴽⴰⵍ ⵜⵉⵏⵜⴰⵍⵉⵡⵉⵏ.
 
 ## Profile - Email
 
