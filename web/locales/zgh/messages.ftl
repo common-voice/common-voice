@@ -224,6 +224,7 @@ logout = ⴼⴼⵖ
 
 ## Home Page
 
+home-cta = ⵙⴰⵡⴰⵍ, ⴰⵔⴳ ⴷⴰ!
 show-wall-of-text = ⵖⵔ ⵓⴳⴳⴰⵔ
 vote-yes = ⵢⴰⵀ
 vote-no = ⵓⵀⵓ
@@ -291,10 +292,15 @@ profile-form-username =
     .label = ⵉⵙⵎ ⵏ ⵓⵏⵙⵙⵎⵔⵙ
 profile-form-native-language =
     .label = ⵜⵓⵜⵍⴰⵢⵜ ⵜⴰⵢⵎⵎⴰⵜ
+profile-form-additional-language =
+    .label = ⵜⵓⵜⵍⴰⵢⵜ ⵢⴰⴹⵏ
 profile-form-language =
     .label = ⵜⵓⵜⵍⴰⵢⵜ
 profile-form-variant =
     .label = ⵎⴰⵏ ⵜⴰⵎⵣⴰⵔⴰⵢⵜ ⵏ { $language } ⴰ ⵙ ⵜⵙⴰⵡⴰⵍⵎ?
+profile-form-variant-default-value = ⵡⴰⵍⵓ ⵜⴰⵎⵣⴰⵔⴰⵢⵜ ⵉⵜⵜⵓⵙⵜⵢⵏ
+profile-form-accent =
+    .label = ⴰⵙⵓⵙⵔⵓ
 profile-form-age =
     .label = ⴰⵡⵜⴰⵢ
 native-language =
@@ -470,7 +476,7 @@ both-speak-and-listen = ⵙ ⵙⵉⵏ ⵉⵜⵙⵏ
 both-speak-and-listen-long = ⵙ ⵙⵉⵏ ⵉⵜⵙⵏ (ⵙⵉⵡⵍ ⵜⵙⵍⵍⴷ)
 daily-goal = ⴰⵡⵜⵜⴰⵙ ⴰⴽⵓⵢⴰⵙⵙ
 weekly-goal = ⴰⵡⵜⵜⴰⵙ ⴰⵏⵎⵍⴰⵙⵙ
-easy-difficulty = ⵉⵡⵀⵏ
+easy-difficulty = ⴰⵍⴰⵎⴰⴹ
 average-difficulty = ⴰⵏⴰⵎⵎⴰⵙ
 difficult-difficulty = ⴰⵏⵎⵎⴰⵔⵓ
 pro-difficulty = ⴰⵣⵣⵓⵍⴰⵏ
