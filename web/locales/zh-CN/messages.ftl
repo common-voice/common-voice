@@ -2,13 +2,13 @@
 
 yes-receive-emails = 是的，请给我发送电子邮件，我想了解 Common Voice 项目的最新信息。
 stayintouch = 在 Mozilla，我们正围绕语音技术建立一个社区。我们想与新技术、新数据的来源保持联系，也想知道您会如何使用这些数据。
-privacy-info = 我们承诺谨慎处理您的信息。阅读我们的<privacyLink>隐私声明</privacyLink>详细了解。
+privacy-info = 我们承诺谨慎处理您的信息。您可以阅读我们的<privacyLink>隐私声明</privacyLink>以详细了解。
 return-to-cv = 返回 Common Voice
 email-input =
     .label = 邮箱
 submit-form-action = 提交
 loading = 加载中…
-email-opt-in-info = 我希望收到诸如目标提醒、我的进度更新等与 Common Voice 相关的新闻通讯。
+email-opt-in-info = 我希望收到目标提醒、我的进度更新、新闻通讯等与 Common Voice 相关的邮件。
 email-opt-in-info-title = 加入 Common Voice 邮件列表
 email-opt-in-info-sub-with-challenge = 接收诸如挑战、目标提醒、进度更新与 Common Voice 的相关新闻通讯。
 email-opt-in-privacy-v2 = 若同意接收邮件，即代表您同意依照 Mozilla 的<privacyLink>隐私政策</privacyLink>所描述的方式处理这些信息。
