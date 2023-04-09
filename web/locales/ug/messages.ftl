@@ -579,6 +579,7 @@ about-nav-playbook = قانداق قاتنىشىشنى ئۆگىنىۋېلىڭ
 ## What is a language
 
 about-playbook-what-is-language = Common Voice دا قايسى تىل بار؟
+about-playbook-what-is-language-content-1 = تىل ھەققىدە ناھايىتى كۆپلىگەن تەپەككۇر ئۇسۇللىرى بار. ئاۋاز تونۇش مودېلىنىڭ مەقسىتى ئۈچۈن، Common Voice بولسا «ئۆزئارا چۈشىنىشچانلىق» قا، ياكى «بۇ تىلدا سۆزلىگۈچىلەر چۈشىنەي دېسە ئاساسەن بىر-بىرىنى چۈشىنەلەمدۇ؟ » دېگەن مەسىلىگە مەركەزلەشتۈرۈشنى تەۋسىيە قىلىدۇ.
 
 ## How do I add a language
 
