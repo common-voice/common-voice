@@ -426,6 +426,8 @@ dataset-version = ⵜⴰⵍⵇⵇⵎⵜ
 
 ## Download Modal
 
+download-title = ⵉⵏⵜⴰ ⵡⴰⴳⴰⵎ ⵏⵏⵓⵏ.
+download-helpus = ⴰⵡⵙ ⴰⵏⵖ ⴰⴷ ⵏⵥⴽⵓ ⵢⴰⵜ ⵜⴳⵔⴰⵡⵜ ⵅⴼ ⵜⴻⵜⵉⴽⵏⵓⵍⵓⵊⵉⵜ ⵏ ⵓⴳⵕⴹ, ⵇⵇⵉⵎ ⴳ ⵓⵏⵢⴰⵍⴽⴰⵎ ⵙ ⵉⵎⴰⵢⵍ.
 download-form-email =
     .label = ⵙⵙⴽⵛⵎⴰⵜ ⵉⵎⴰⵢⵍ ⵏⵏⵓⵏ
     .value = ⵜⴰⵏⵎⵎⵉⵔⵜ, ⴷⴷⴰⴷ ⵏⵎⵢⴰⵡⴰⴹ ⴷⵉⴷⵓⵏ.
@@ -434,6 +436,7 @@ download-no = ⵓⵀⵓ ⵜⴰⵏⵎⵎⵉⵔⵜ
 
 ## Contact Modal
 
+contact-title = ⵜⵉⴼⵔⵜ ⵏ ⵓⵎⵢⴰⵡⴰⴹ
 contact-form-name =
     .label = ⵉⵙⵎ
 contact-form-message =
@@ -445,6 +448,8 @@ contact-required = *ⵉⵇⵇⴰⵏ ⴷ
 request-language-title = ⵜⵓⵜⵜⵔⴰ ⵏ ⵜⵓⵜⵍⴰⵢⵜ
 request-language-form-language =
     .label = ⵜⵓⵜⵍⴰⵢⵜ
+request-language-success-title = ⵜⴻⵜⵜⵢⴰⵣⴰⵏ ⵜⵓⵜⵜⵔⴰ ⵏ ⵜⵓⵜⵍⴰⵢⵜ ⵙ ⵓⵎⵓⵔⵙ, ⵜⴰⵏⵎⵎⵉⵔⵜ.
+select-language = ⵙⵜⵢ ⴽⵔⴰ ⵏ ⵜⵓⵜⵍⴰⵢⵜ...
 other-language = ⵜⵓⵜⵍⴰⵢⵜ ⵢⴰⴹⵏ
 
 ## Request Language Pages
@@ -522,6 +527,8 @@ profile-form-delete = ⴽⴽⵙ ⵉⴼⵔⵙ
 download-profile-title = ⵉⴼⵔⵙ
 download-request-button = ⴰⴳⵎ
 download-request-title = { $created }
+download-request-modal-title = ⵉⵙⵖⵡⴰⵏ ⵏ ⵡⴰⴳⴰⵎ
+download-request-modal-description = ⵀⴰ ⴷ ⵉⵙⵖⵡⴰⵏ ⵎⴰ ⵙ ⵜⴻⵜⵜⴰⴳⵎⵎ ⵉⴼⵓⵢⵍⴰ ZIP ⵏⵏⵓⵏ.
 download-request-metadata-link = ⴰⴹⵕⵉⵚⵏ ⵜⵡⵉⵏⵙⵜ
 
 ## Landing
@@ -636,6 +643,7 @@ sc-personal-remove-button = ⵙⵉⵜⵜⵢ
 
 ## REVIEW CRITERIA
 
+sc-criteria-modal = ⓘ ⵉⵙⴱⴷⴰⴷⵏ ⵏ ⵓⵣⵣⵔⴰⵢ
 
 ## REVIEW
 
