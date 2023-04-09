@@ -320,14 +320,14 @@ faq-using-cv = ⴰⵙⵙⵎⵔⵙ ⵏ ⴽⴰⵎⵏⴼⵓⵢⵙ
 
 ## ABOUT US
 
-how-does-it-work-title-v2 = ⵎⴰⵏⵎⴽ ⴷⴰ ⵉⵙⵡⵓⵔⵓⵢ ⴽⴰⵎⵏ ⴼⵓⵢⵙ?
+how-does-it-work-title-v2 = ⵎⴰⵏⵎⴽ ⴷⴰ ⵉⵙⵡⵓⵔⵓⵢ ⴽⴰⵎⵏⴼⵓⵢⵙ?
 
 ## How does it work section
 
 about-new-lang-title = ⴰⵙⵙⵏⵜⵉ ⵏ ⵜⵓⵜⵍⴰⵢⵜ ⵜⴰⵎⴰⵢⵏⵓⵜ
 about-stay-in-touch-button = ⴽⵛⵎ
 about-nav-how-it-works = ⵎⴰⵏⵎⴽ?
-about-nav-how-it-works-2 = ⵎⴰⵏⵎⴽ ⴷⴰ ⵉⵙⵡⵓⵔⵓⵢ ⴽⴰⵎⵏ ⴼⵓⵢⵙ?
+about-nav-how-it-works-2 = ⵎⴰⵏⵎⴽ ⴷⴰ ⵉⵙⵡⵓⵔⵓⵢ ⴽⴰⵎⵏⴼⵓⵢⵙ?
 
 ## Community Playbook Content
 ## What is a language
@@ -427,7 +427,7 @@ language-validation-hours = ⵜⵉⵙⵔⴰⴳⵉⵏ
 
 action-click = ⴽⵍⵉⴽⵉ
 contribute = ⴰⵔⴳ
-share-common-voice = ⴱⴹⵓ ⴽⴰⵎⵏ ⴼⵓⵢⵙ
+share-common-voice = ⴱⴹⵓ ⴽⴰⵎⵏⴼⵓⵢⵙ
 
 ## Contribution Nav Items
 
@@ -470,7 +470,7 @@ login-company = ⴽⵛⵎ/ⵣⵎⵎⴻⵎ ⵙ ⵉⵎⴰⵢⵍ ⵏ { $company }
 
 ## DemoLayout
 
-demo-welcome = ⴱⵔⵔⴽⴰⵜ ⴳ ⴽⴰⵎⵏ ⴼⵓⵢⵙ
+demo-welcome = ⴱⵔⵔⴽⴰⵜ ⴳ ⴽⴰⵎⵏⴼⵓⵢⵙ
 
 ## Demo Datasets
 
