@@ -220,6 +220,7 @@ logout = ⴼⴼⵖ
 show-wall-of-text = ⵖⵔ ⵓⴳⴳⴰⵔ
 vote-yes = ⵢⴰⵀ
 vote-no = ⵓⵀⵓ
+help-reach-goal = ⴰⵡⵙ ⴰⵏⵖ ⴰⴷ ⵏⵍⴽⵎ { $goal }
 read-terms-q = ⵉⵙ ⵜⵖⵔⵉⴷ ⵜⵉⴼⴰⴷⵉⵡⵉⵏ ⵏⵏⵖ?
 all-locales = ⴰⴽⴽⵯ
 x-weeks-short =
@@ -265,6 +266,7 @@ shortcut-vote-no = ⵓ
 
 ## Speak Shortcuts
 
+shortcut-rerecord-toggle = [1-5]
 shortcut-discard-ongoing-recording = ⵔⵡⵍ
 shortcut-submit = ⴰⵖⵓⵍ
 request-language-button = ⵜⵜⵔ ⴽⵔⴰ ⵏ ⵜⵓⵜⵍⴰⵢⵜ
