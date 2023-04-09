@@ -281,6 +281,7 @@ request-language-button = ⵜⵜⵔ ⴽⵔⴰ ⵏ ⵜⵓⵜⵍⴰⵢⵜ
 
 ## ProjectStatus
 
+status-contribute = ⴰⵔⴳⴰⵜ ⵙ ⵓⴳⵕⴹ ⵏⵏⵓⵏ
 # Variables:
 # $goal - number of hours representing the next goal
 status-goal = ⵉⵡⵜⵜⴰⵙⵏ ⵓⴹⴼⵉⵕⵏ: { $goal }
@@ -425,6 +426,10 @@ dataset-version = ⵜⴰⵍⵇⵇⵎⵜ
 
 ## Download Modal
 
+download-form-email =
+    .label = ⵙⵙⴽⵛⵎⴰⵜ ⵉⵎⴰⵢⵍ ⵏⵏⵓⵏ
+    .value = ⵜⴰⵏⵎⵎⵉⵔⵜ, ⴷⴷⴰⴷ ⵏⵎⵢⴰⵡⴰⴹ ⴷⵉⴷⵓⵏ.
+download-back = ⴰⵖⵓⵍ ⵖⵔ ⵜⴳⵔⵓⵎⵎⴰⵡⵉⵏ ⵏ ⵉⵙⴼⴽⴰ ⵏ ⴽⴰⵎⵏⴼⵓⵢⵙ
 download-no = ⵓⵀⵓ ⵜⴰⵏⵎⵎⵉⵔⵜ
 
 ## Contact Modal
