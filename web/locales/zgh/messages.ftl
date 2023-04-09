@@ -8,6 +8,7 @@ email-input =
     .label = ⵉⵎⴰⵢⵍ
 submit-form-action = ⴰⵣⵏ
 loading = ⴰⵣⴷⴰⵎ…
+email-opt-in-info = ⵔⵉⵖ ⴰⴷ ⵜⵜⴰⵎⵥⵖ ⵉⵎⴰⵢⵍⵏ ⴰⵎ ⵓⵙⴽⵜⵉ ⵙ ⵉⵡⵜⵜⴰⵙⵏ, ⵉⵙⴷⵖⵉⵜⵏ ⵅⴼ ⵡⴰⵍⴰⵢ ⵉⵏⵓ ⴷ ⵉⵏⵖⵎⵉⵙⵏ ⵅⴼ ⴽⴰⵎⵏⴼⵓⵢⵙ.
 not-available-abbreviation = ⵔ/ⵙ
 banner-error-slow-link = ⵜⴰⵙⵏⴰ ⵏ ⵡⴰⴷⴷⴰⴷ
 
@@ -371,7 +372,14 @@ about-nav-how-it-works-2 = ⵎⴰⵏⵎⴽ ⴷⴰ ⵉⵙⵡⵓⵔⵓⵢ ⴽⴰ�
 ## How do I add a language
 
 about-playbook-how-add-language = ⵎⴰⵏⵎⴽ ⵙ ⵔⴰⴷ ⵔⵏⵓⵖ ⴽⵔⴰ ⵏ ⵜⵓⵜⵍⴰⵢⵜ?
+about-playbook-how-add-language-content-1 =
+    ⴳ ⵓⵎⵣⵡⴰⵔⵓ, ⵛⴰⴱⴱⴰⵢⴰⵜ ⵙ ⵜⵓⵜⵍⴰⵢⵜ ⵏⵏⵓⵏ ⵎⴽ <languageLink>ⵢⴰⴷ ⵜⵍⵍⴰ</languageLink>.
+    ⵎⴽ ⵓⵔ ⵜⵍⵍⵉ, ⵜⵣⵎⵔⵎ ⴰⴷ <languageRequestLink>ⵜⴻⵜⵜⵔⵎ ⴰⵔⵏⵏⵓ ⵏ ⵜⵓⵜⵍⴰⵢⵜ ⵏⵏⵓⵏ</languageRequestLink>.
+    ⵍⵍⴰⵏⵜ ⵙⵏⴰⵜ ⵜⴽⵍⵉⵡⵉⵏ. ⴰⵙⵓⵖⵍ ⵏ ⵓⵙⵉⵜ, ⴷ ⵓⴳⵔⵔⵓ ⵏ ⵜⵡⵉⵏⴰⵙ
 about-playbook-how-add-language-translating-heading = ⴰⵙⵓⵖⵍ ⵏ ⵓⵙⵉⵜ
+about-playbook-how-add-language-translating-content-1 = <translateVideoLink>ⴰⵏⵏⴰⵢ ⴰⵎⴰⵏⴰⵔ ⵏⵏⵖ ⵅⴼ ⵎⴰⵏⵎⴽ ⵔⴰⴷ ⵜⵙⵙⵎⵔⵙⴷ ⴱⵓⵏⵜⵓⵏ.</translateVideoLink>
+about-playbook-how-add-language-collecting-sentences-heading = ⴰⴳⵔⵔⵓ ⵏ ⵜⵡⵉⵏⴰⵙ
+about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>ⵥⵕ ⵓⴳⴳⴰⵔ ⵅⴼ ⵓⴳⵔⵔⵓ ⵏ ⵜⵡⵉⵏⴰⵙ</sentenceCollectorFragment>.
 
 ## How does localization work
 
