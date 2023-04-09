@@ -208,6 +208,7 @@ zza = ⵜⴰⵣⴰⵣⴰⵜ
 languages = ⵜⵓⵜⵍⴰⵢⵉⵏ
 profile = ⵉⴼⵔⵙ
 help = ⵜⵉⵡⵉⵙⵉ
+contact = ⵎⵢⴰⵡⴰⴹ
 privacy = ⵜⵉⵏⵏⵓⵜⵍⴰ
 terms = ⵜⵉⴼⴰⴷⵉⵡⵉⵏ
 cookies = ⵉⴽⵓⴽⵉⵜⵏ
