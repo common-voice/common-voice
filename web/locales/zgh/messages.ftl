@@ -219,7 +219,7 @@ contact = ⵎⵢⴰⵡⴰⴹ
 privacy = ⵜⵉⵏⵏⵓⵜⵍⴰ
 terms = ⵜⵉⴼⴰⴷⵉⵡⵉⵏ
 cookies = ⵉⴽⵓⴽⵉⵜⵏ
-faq = ⵉⵙⵇⵙⵉⵜⵏ ⴷ ⵜⵎⵔⵓⵔⴰ
+faq = ⵉⵙⵇⵙⵉⵜⵏ ⴷ ⵉⵜⵜⴰⵖⵓⵍⵏ
 logout = ⴼⴼⵖ
 
 ## Home Page
@@ -342,6 +342,10 @@ add-language = ⵔⵏⵓ ⵜⵓⵜⵍⴰⵢⵜ
 
 ## FAQ
 
+faq-title = ⵉⵙⵇⵙⵉⵜⵏ ⴷ ⵉⵜⵜⴰⵖⵓⵍⵏ
+faq-what-cv-q = ⵎⵉⵏ ⵉⵄⵏⴰ ⴽⴰⵎⵏⴼⵓⵢⵙ?
+faq-how-get-q = ⵎⴰⵏⵎⴽ ⵙ ⵣⵎⵔⵖ ⴰⴷ ⵟⵟⴼⵖ ⵉⵙⴼⴽⴰ ⵏ ⴽⴰⵎⵏⴼⵓⵢⵙ?
+faq-when-release2-q = ⵎⵍⵎⵉ ⵔⴰⴷ ⵜⵙⵙⵓⴼⵖⵎ ⵉⵙⴼⴽⴰ ⵏ ⴽⴰⵎⵏⴼⵓⵢⵙ ⵙ ⵜⵓⵜⵍⴰⵢⵉⵏ ⵢⴰⴹⵏⵉⵏ?
 faq-using-cv = ⴰⵙⵙⵎⵔⵙ ⵏ ⴽⴰⵎⵏⴼⵓⵢⵙ
 
 ## ABOUT US
