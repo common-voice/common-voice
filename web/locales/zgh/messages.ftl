@@ -464,7 +464,25 @@ you = ⴽⵯⵏⵏⵉ
 
 ## Custom Goals
 
+get-started-goals = ⵙⵙⵏⵜⵉ ⵙ ⵉⵡⵜⵜⴰⵙⵏ
+goal-type = ⵎⴰⵏ ⴰⵏⴰⵡ ⵏ ⵉⵡⵜⵜⴰⵙⵏ ⴰⴷ ⵜⵅⵙⴷ ⴰⴷ ⵜ ⵜⵥⴽⵓⴷ?
 both-speak-and-listen = ⵙ ⵙⵉⵏ ⵉⵜⵙⵏ
+both-speak-and-listen-long = ⵙ ⵙⵉⵏ ⵉⵜⵙⵏ (ⵙⵉⵡⵍ ⵜⵙⵍⵍⴷ)
+daily-goal = ⴰⵡⵜⵜⴰⵙ ⴰⴽⵓⵢⴰⵙⵙ
+weekly-goal = ⴰⵡⵜⵜⴰⵙ ⴰⵏⵎⵍⴰⵙⵙ
+easy-difficulty = ⵉⵡⵀⵏ
+average-difficulty = ⴰⵏⴰⵎⵎⴰⵙ
+difficult-difficulty = ⴰⵏⵎⵎⴰⵔⵓ
+pro-difficulty = ⴰⵣⵣⵓⵍⴰⵏ
+lose-goal-progress-warning = ⵙ ⵓⵙⵏⴼⵍ ⵏ ⵓⵡⵜⵜⴰⵙ ⵏⵏⵓⵏ, ⵜⵖⵉⵢⵎ ⴰⴷ ⵜⵊⵊⵍⵓⵎ ⴰⵍⴰⵢ ⵏⵏⵓⵏ ⵉⵍⵍⴰⵏ.
+want-to-continue = ⵉⵙ ⵜⵅⵙⴷ ⴰⴷ ⵙⵓⵍ ⵜⵙⵎⴷⴷ?
+finish-editing = ⵙⵎⴷ ⵣⵡⴰⵔ ⴰⵙⵏⴼⵍ?
+which-goal-type = ⵉⵙ ⵜⵅⵙⴷ ⴰⴷ ⵜⵙⵉⵡⵍⴷ, ⴰⴷ ⵜⵙⵍⵍⴷ ⵏⵉⵖ ⵙ ⵙⵉⵏ ⵉⵜⵙⵏ?
+confirm-goal = ⵙⵙⵏⵜⵎ ⴰⵡⵜⵜⴰⵙ
+goal-interval-weekly = ⴰⵏⵎⵍⴰⵙⵙ
+weekly-goal-created = ⵉⵏⵏⴼⵍⵓⵍ ⵓⵡⵜⵜⴰⵙ ⴰⵏⵎⵍⴰⵙⵙ ⵏⵏⵓⵏ
+daily-goal-created = ⵉⵏⵏⴼⵍⵓⵍ ⵓⵡⵜⵜⴰⵙ ⴰⴽⵓⵢⴰⵙⵙ ⵏⵏⵓⵏ
+return-to-edit-goal = ⴰⵖⵓⵍⴰⵜ ⴷⴰⵀⴰ ⵃⵎⴰ ⴰⴷ ⵜⵙⵏⴼⵍⵎ ⴰⵡⵜⵜⴰⵙ ⵏⵏⵓⵏ ⵜⵉⵣⵉ ⵏⵏⴰ ⴽⴰ.
 share-goal = ⴱⴹⵓ ⴰⵡⵜⵜⴰⵙ ⵉⵏⵓ
 
 ## Profile Delete
