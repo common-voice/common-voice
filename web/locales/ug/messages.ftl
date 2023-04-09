@@ -566,6 +566,8 @@ about-get-involved-text-2 =
      <matrixLink>Matrix</matrixLink> گە يوللاڭ.
 about-stay-in-touch = ئالاقىنى قانداق ساقلاپ قالىمەن؟
 about-stay-in-touch-button = تىزىملىتىڭ
+about-stay-in-touch-text-1 = ئېلخەت تىزىملىكىگە <emailFragment> تىزىملىتىش <emailFragment> ئارقىلىق ھەر خىل تەشۋىقات، پائالىيەتلەرگە قانداق قاتنىشىدىغانلىقىنى بىلەلەيسىز، ھەمدە Common Voice نىڭ ئىقتىدارلىرىنى ئورتاق لايىھەلەشنى ئۆگىنەلەيسىز.
+about-stay-in-touch-text-2 = مۇھىم سۆھبەتلەر ئۈچۈن <discourseLink> Discourse </discourseLink> غا، ياكى تېزلا مەسلىھەت سوراش ئۈچۈن <matrixLink> Matrix </matrixLink> غا قوشۇلسىڭىز، Mozilla تىل مەھەللىسىدىكى باشقىلار بىلەن كۆرۈشەلەيسىز.
 about-nav-why-common-voice = نېمىشقا؟
 about-nav-how-it-works = قانداق؟
 about-nav-partners = ھەمكارلاشقۇچىلار
