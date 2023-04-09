@@ -207,7 +207,12 @@ zza = ⵜⴰⵣⴰⵣⴰⵜ
 
 ## Layout
 
+speak = ⵙⵉⵡⵍ
+speak-now = ⵙⵉⵡⵍ ⴷⵖⵉ
+datasets = ⵜⵉⴳⵔⵓⵎⵎⴰⵡⵉⵏ ⵏ ⵉⵙⴼⴽⴰ
 languages = ⵜⵓⵜⵍⴰⵢⵉⵏ
+about = ⵅⴼ
+partner = ⴰⵎⴷⵔⴰⵡ
 profile = ⵉⴼⵔⵙ
 help = ⵜⵉⵡⵉⵙⵉ
 contact = ⵎⵢⴰⵡⴰⴹ
@@ -459,6 +464,7 @@ you = ⴽⵯⵏⵏⵉ
 
 ## Custom Goals
 
+both-speak-and-listen = ⵙ ⵙⵉⵏ ⵉⵜⵙⵏ
 share-goal = ⴱⴹⵓ ⴰⵡⵜⵜⴰⵙ ⵉⵏⵓ
 
 ## Profile Delete
