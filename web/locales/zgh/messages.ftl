@@ -405,9 +405,11 @@ glossary = ⵜⴰⵎⴰⵡⴰⵍⵜ
 
 data-download-yes = ⵢⴰⵀ
 data-download-deny = ⵓⵀⵓ
+data-download-license = ⵜⵓⵔⴰⴳⵜ: <licenseLink>CC-0</licenseLink>
 data-other-goto = ⴷⴷⵓ ⵖⵔ { $name }
 release-version = ⵜⴰⵍⵇⵇⵎⵜ
 dataset-date = ⴰⵙⴰⴽⵓⴷ
+license = ⵜⵓⵔⴰⴳⵜ: <licenseLink>{ $license }</licenseLink>
 review-terms = ⵙ ⵓⵙⵙⵎⵔⵙ ⵏ ⴽⴰⵎⵏⴼⵓⵢⵙ, ⴷⴰ ⴷ ⵜⴻⵜⵜⵎⵙⴰⵙⴰⴷ ⴰⴽⴷ <termsLink>ⵜⴼⴰⴷⵉⵡⵉⵏ</termsLink> ⴷ <privacyLink>ⵜⵎⵏⵏⵉⵜ ⵏ ⵜⵉⵏⵏⵓⵜⵍⴰ</privacyLink> ⵏⵏⵖ
 terms-agree = ⵎⵙⴰⵙⴰⵖ ⴷ
 terms-disagree = ⵓⵔ ⴷ ⵎⵙⴰⵙⴰⵖ
@@ -415,6 +417,7 @@ terms-disagree = ⵓⵔ ⴷ ⵎⵙⴰⵙⴰⵖ
 ## Datasets Page
 
 language = ⵜⵓⵜⵍⴰⵢⵜ
+cv-license = ⵜⵓⵔⴰⴳⵜ
 size-gigabyte = ⵊⵜ
 size-megabyte = ⵎⵜ
 download-language = ⴰⴳⵎ { $language }
