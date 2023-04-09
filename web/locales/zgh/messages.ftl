@@ -221,6 +221,7 @@ show-wall-of-text = ⵖⵔ ⵓⴳⴳⴰⵔ
 vote-yes = ⵢⴰⵀ
 vote-no = ⵓⵀⵓ
 read-terms-q = ⵉⵙ ⵜⵖⵔⵉⴷ ⵜⵉⴼⴰⴷⵉⵡⵉⵏ ⵏⵏⵖ?
+all-locales = ⴰⴽⴽⵯ
 x-weeks-short =
     { $count ->
         [one] ⵉⵎⴰⵍⴰⵙⵙ
