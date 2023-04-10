@@ -1584,3 +1584,4 @@ already-have-an-account = Xa ten unha conta? <login>Iniciar sesión</login>
 create-profile-button = Crear un perfil
 # IMAGE TAGS
 img-alt-success-checkmark = marca de verificación de éxito
+sentence-collection = Recollida de frases
