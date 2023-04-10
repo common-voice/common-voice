@@ -690,6 +690,8 @@ de-identified-explanation = Process, kurā ierunātāja profila informācija tie
 error-title-404 = Mēs nevarējām atrast šo lapu
 error-content-404 = Varbūt mūsu <homepageLink>mājaslapa</homepageLink> palīdzēs? Lai uzdotu jautājumu, lūdzu, pievienojieties <matrixLink>Matrix kopienas tērzētavā</matrixLink>, pārraugiet vietnes problēmas, izmantojot <githubLink>GitHub</githubLink>, vai apmeklējiet <discourseLink>mūsu diskusiju forumus</discourseLink>.
 error-title-503 = Mēs piedzīvojam negaidītu dīkstāvi
+error-content-503 = Vietne tiks atjaunota, cik drīz vien iespējams. Lai iegūtu jaunāko informāciju, lūdzu, pievienojieties <matrixLink>Matrix kopienas tērzētavai</matrixLink> vai apmeklējiet <githubLink>GitHub</githubLink> vai <discourseLink>mūsu diskusiju forumus</discourseLink>, lai ziņotu par vietnes problēmām un uzzinātu par aktuālo problēmu risināšanas statusu.
+error-code = Kļūda { $code }
 
 ## Data
 
@@ -706,8 +708,12 @@ data-other-goto = Dodieties uz { $name }
 data-other-download = Lejupielādēt datus
 data-bundle-button = Lejupielādēt datu kopas komplektu
 data-bundle-description = Kopējie balss dati, kā arī visas citas balss datu kopas.
+release-version = Versija
+dataset-date = Datums
 license = Licence: <licenseLink> { $license } </licenseLink>
 license-mixed = Jaukts
+data-download-singleword-title = Lejupielādējiet viena vārda mērķa segmentu
+data-download-singleword-callout-v2 = Šis ir uz lietošanas gadījumu balstīts segments, kurā ir dati, kas nodrošina ierunātu ciparu atpazīšanu un jā/nē noteikšanu.
 review-terms = Izmantojot kopīgo balsi, jūs piekrītat mūsu <termsLink>noteikumiem</termsLink> un <privacyLink>konfidencialitātes atrunai</privacyLink>
 terms-agree = Es piekrītu
 terms-disagree = Es nepiekrītu
@@ -722,6 +728,7 @@ review-delete-recordings = Dzēst manus ierakstus
 
 ## Datasets Page
 
+datasets-heading = Datu kopas
 datasets-headline = Mēs veidojam atvērtā pirmkoda, daudzvalodu datu kopu, kurā ikviens var izmantot, lai apmācītu runas iespējotas lietojumprogrammas.
 datasets-positioning =
     Mēs uzskatām, ka lielas, publiski pieejamas balss datu kopas veicinās inovācijas un veselīgu komerciālu konkurenci mašīnmācībā balstītā runas tehnoloģijā.
@@ -730,6 +737,9 @@ datasets-positioning =
     
     Paskatieties uz šo lapu kā informācijas centru par citām atvērtā pirmkoda balss datu kopām un, tā kā kopējā balss turpina augt, mājās mūsu nākotnes atjauninājumiem.
 language = Valoda
+download-dataset-header = Lejupielādējiet datu kopu
+download-delta-explainer = Mēs esam veikuši dažas izmaiņas. Delta segmenti satur tikai jaunākos klipus kopš pēdējās izlaišanas. <deltaLink>Lasiet vairāk par šo darbu</deltaLink>.
+download-dataset-tag = Atlasiet vajadzīgo valodas datu kopu un izvēlieties versiju, kuru vēlaties lejupielādēt.
 # File size in gigabytes
 size = Izmērs
 validated-hr-total = Pārbaudītas st. kopā
@@ -744,6 +754,7 @@ confirm-size = Jūs esat gatavs sākt lejupielādēt <b>{ $size }</b>
 size-gigabyte = GB
 size-megabyte = MB
 confirm-no-identify = <b>Jūs piekrītat</b>, ka nemēģināsiet noteikt identitāti cilvēkiem, kas veikuši ierakstus Common Voice datu kopnē
+confirm-join-mailing-list = Es vēlos pievienoties Common Voice ziņojumiem e-pastā
 download-language = Lejupielādēt { $language }
 validated-hours = Pārbaudītās stundas
 recorded-hours = Ierakstītās stundas
@@ -757,7 +768,11 @@ subscribe = Pierakstīties
 get-started-speech = Darba sākšana ar runas atpazīšanu
 other-datasets = Citas balss datu kopas
 feedback-q = Vai jum ir atsauksmes?
+resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ ir <docsLink>atvērtā koda rīkkopa</docsLink> pētniekiem, kas izstrādā jaunākos sarunvalodas mākslīgā intelekta modeļus.
+resource-deepspeech-info = Common Voice datu kopa papildina Mozilla atvērtā koda balss atpazīšanas dzinēju Deep Speech, ko var izmantot, lai izveidotu runas atpazīšanas programmas. Izlasiet mūsu <githubLink>Github pārskatu</githubLink> vai pievienojieties <discourseLink>DeepSpeech Discourse</discourseLink>, lai uzzinātu, kā sākt darbu.
 resource-coqui-info = <coquiLink>Coqui</coquiLink> ir strādā atvērtās runas tehnoloģijas attīstībai. Viņu projekti ietver dziļā mācīšanās balstītus STT un TTS dzinējus.
+community-playbook = Kopienas rokasgrāmata
+resource-playbook-info = <playbookLink>Atrodiet noderīgus norādījumus</playbookLink> par visu Common Voice ceļojumu, sākot no lokalizācijas līdz datu kopas lietošanai, kā arī par to, kā sazināties ar mūsu kopienu.
 data-other-librispeech-description = LibriSpeech ir aptuveni 1000 stundu 16Khz ar angļu valodas runu, kas iegūta no LibriVox projekta lasītajām audio grāmatām.
 data-other-ted-name = TED-LIUM korpuss
 data-other-ted-description = TED-LIUM korpuss tika izgatavots no audio ierakstiem un to transkripcijām, kas pieejamas TED tīmekļa vietnē.
@@ -772,6 +787,9 @@ more = Vairāk
 close = Aizvērt
 download = Lejupielādēt
 dataset-version = Versija
+sha256-checksum-copied = SHA256 kontrolsumma nokopēta!
+sha256-checksum-copied-error = Neizdevās nokopēt SHA256 kontrolsummu
+clipboard-not-supported = Starpliktuve netiek atbalstīta
 
 ## Download Modal
 
@@ -804,6 +822,12 @@ other-language = Cita valoda
 
 ## Request Language Pages
 
+request-language-heading = Jautājiet par jaunu valodu
+request-language-explanation-1 =
+    Pārbaudiet, vai jūsu valoda ir norādīta sarakstā
+    <languagesPageLink>Common Voice valodu lapa</languagesPageLink>.
+    Ja nē, aizpildiet šo veidlapu, un mēs <strong>nosūtīsim jums ērtu e-pasta ziņojumu
+    paskaidrojot, kā pievienot jaunu valodu</strong>.
 
 ## Languages Overview
 
