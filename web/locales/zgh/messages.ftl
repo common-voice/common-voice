@@ -221,6 +221,8 @@ privacy = ⵜⵉⵏⵏⵓⵜⵍⴰ
 terms = ⵜⵉⴼⴰⴷⵉⵡⵉⵏ
 cookies = ⵉⴽⵓⴽⵉⵜⵏ
 faq = ⵉⵙⵇⵙⵉⵜⵏ ⴷ ⵉⵜⵜⴰⵖⵓⵍⵏ
+link-copied = ⵉⵏⵖⵍ ⵓⵙⵖⵏ
+back-top = ⴰⵖⵓⵍ ⵙ ⵓⴼⵍⵍⴰ
 logout = ⴼⴼⵖ
 
 ## Home Page
