@@ -582,14 +582,31 @@ about-nav-playbook = Uzziniet, kā piedalīties
 ## What is a language
 
 about-playbook-what-is-language = Kas ir valoda Common Voice sistēmā?
+about-playbook-what-is-language-content-1 = Ir daudz veidu, kā domāt par valodu. Runas atpazīšanas modeļu kontekstā Common Voice iesaka koncentrēties uz "savstarpēju saprotamību" vai "vai šīs valodas runātāji var saprast viens otru, ja viņi to meģina?"
+about-playbook-what-is-language-content-2 = Mēs vēlamies, lai runas modeļi labāk saprastu dažādus runātājus. Lai tas notiktu, balss datu kopai ir jāatspoguļo kā runā daudzi dažādi cilvēki.
+about-playbook-what-is-language-content-3 = Dažām valodām ir milzīgas gramatikas, vārdu krājuma un izrunas atšķirības. Šī iemesla dēļ mēs 2022. gadā <ctaLink>ieviesām “Variantus”</ctaLink>. Tas sniedz kopienām iespēju atšķirt savas valodas lielākā datu kopā.
 
 ## How do I add a language
 
+about-playbook-how-add-language = Kā pievienot valodu?
+about-playbook-how-add-language-content-1 =
+    Vispirms pārbaudiet, vai jūsu valoda <languageLink>jau pastāv</languageLink>.
+    Ja tās vēl nav, varat <languageRequestLink>jautāt par valodas pievienošanu</languageRequestLink>.
+    Ir divi posmi. Vietnes tulkošana un teikumu apkopošana
+about-playbook-how-add-language-translating-heading = Vietnes tulkošana
+about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Skatiet mūsu ceļvedi par Pontoon lietošanu.</translateVideoLink>
 about-playbook-how-add-language-translating-content-2 =
     Tulkošanai mēs izmantojam Mozilla rīku <pontoonLink>Pontoon</pontoonLink>. Šajā rīkā ir daudz valodu,
     bet, ja tajā nav jūsu, varat <pontoonRequestLink>pieprasīt savas valodas pievienošanu</pontoonRequestLink>.
     Pēc tam, lai pievienotu valodu Common Voice,
     <githubRepoLink>pieprasiet jauno valodu vietnē GitHub</githubRepoLink>. <localizationFragment>Uziniet vairāk par vietņu tulkošanu</localizationFragment>.
+about-playbook-how-add-language-collecting-sentences-heading = Teikumu apkopošana
+about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>Skatieties mūsu ceļvedi par teikumu apkopotāja lietošanu</sentenceCollectorVideo>.
+about-playbook-how-add-language-collecting-sentences-content-2 =
+    Varat <sentenceCollectorLinkAdd>pievienot nelielu skaitu teikumu</sentenceCollectorLinkAdd>,
+    vai arī varat veikt <bulkImportDocsLink>lielapjoma importēšanu, izmantojot Github</bulkImportDocsLink>.
+    Atcerieties, ka teikumiem ir jābūt <licenseLink>CC0 (vai publiskajam domēnam)</licenseLink>, vai arī varat rakstīt savus.
+about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>Skatiet vairāk par teikumu apkopošanu</sentenceCollectorFragment>.
 
 ## How does localization work
 
@@ -602,10 +619,18 @@ about-playbook-how-localize-content-5 = Lai palīdzētu, skatiet mūsu video ska
 
 ## How to add sentences
 
+about-playbook-how-add-sentences = Kā pievienot teikumus?
+about-playbook-how-add-sentences-content-1 = <strong>Sentence Collector</strong> ir rīks publiskā domēna teikumu apkopošanai un apstiprināšanai. Jums būs <scAccountLink>jāizveido konts</scAccountLink>. Pēc tam pievienojiet valodu savam <strong>profilam</strong>. Varat <strong>pievienot</strong> teikumus vai <strong>pārskatīt</strong> iepriekš pievienotos teikumus.
+about-playbook-how-add-sentences-content-2 = Teikumi ir jāpārskata un jāpieņem diviem cilvēkiem, lai tie tiktu iekļauti Common Voice. Jūs varat izveidot vadlīnijas savai valodai <languageGuidelinesLink>šeit</languageGuidelinesLink>. Teikumiem jābūt <licenseLink>brīviem no autortiesībām</licenseLink>, un tiem jābūt īsākiem par 15 vārdiem. Varat lūgt teksta īpašniekam nodot teikumus <waiverLink>CC0 jeb brīvai lietošanai, izmantojot mūsu autortiesību nodošanas procesu</waiverLink>, un nosūtīt mums uz commonvoice@mozilla.com
+about-playbook-how-add-sentences-content-3 = Varat izmantot <scraperLink>teikumu izvilkšanas rīku</scraperLink>, lai izmantotu īsus teikumus no Vikipēdijas.
+about-playbook-how-add-sentences-content-4 = Validētie teikumi tiek eksportēti trešdienās un ir pieejami nākamajā laidienā.
 
 ## How to record quality
 
+about-playbook-how-record-quality = Kā ierakstīt augstas kvalitātes balss klipu?
+about-playbook-how-record-content-1 = Runājiet savā parastajā balsī! Jūsu runas veids ir apsveicams - mēs vēlamies, lai jūsu akcents būtu tāds, kāds tas ir, un mēs vēlamies jūsu ierasto skaļumu, stilu un intonāciju.
 about-playbook-how-record-content-2 = Izvairieties no pārāk liela fona trokšņa — Jūs jāvar viegli saklausīt.
+about-playbook-how-record-content-3 = Uzmanīgi izlasiet teikumus - neizlaidiet, nemainiet un nepievienojiet vārdus.
 
 ## How to grow language
 
