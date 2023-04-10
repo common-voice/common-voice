@@ -378,16 +378,25 @@ profile-form-additional-language =
     .label = Papildus valoda
 profile-form-language =
     .label = Valoda
+profile-form-variant =
+    .label = Kurā { $language } valodas paveidā jūs runājat?
+profile-form-variant-default-value = Variants nav izvēlēts
 profile-form-accent =
     .label = Akcents
+profile-form-custom-accent-help-text =
+    .label = Kā jūs raksturotu savu akcentu?
+profile-form-custom-accent-placeholder-2 = Sāciet rakstīt, lai aprakstītu savu akcentu
 profile-form-age =
     .label = Vecums
+profile-form-gender-2 =
+    .label = Dzimums
 leaderboard-visibility =
     .label = Līderu saraksta redzamība
 hidden = Paslēpts
 visible = Redzams
 native-language =
     .label = Dzimtā valoda
+profile-form-add-accent = Pievienot jaunu akcentu “{ $inputValue }”
 profile-form-submit-save = Saglabāt
 profile-form-submit-saved = Saglabāts
 male = Vīrietis
@@ -407,8 +416,12 @@ profile-close = Aizvērt
 profile-explanation = Sekojiet savam progresam ar savu profilu un palīdziet mūsu balss datiem būt precīzākiem.
 thanks-for-account = Paldies, ka apstiprinājāt savu kontu, tagad izveidosim jūsu profilu.
 why-demographic = Kāpēc tas ir svarīgi?
+why-demographic-explanation-2 = Anonimizēti lietotāja dati, piemēram, vecums, dzimums un akcents, palīdz uzlabot ierakstus, ko izmanto, lai trenētu runas atpazīšanas algoritmu precizitāti. Jūsu lietotājvārds un epasts nekad netiks piesaistīti jūsu iesniegtajiem datiem, un jūs varat izvēlēties, vai padarīt savu lietotājvārdu publisku vai anonīmu.
 accept-privacy = Es piekrītu, ka Mozilla apstrādā manu informāciju tā kā tas ir norādīts Mozillas <privacyLink>privātuma politikā</privacyLink>
+accept-privacy-title = Privātuma politika
+accept-privacy-and-terms = Es piekrītu Common Voice <termsLink>noteikumiem</termsLink> un <privacyLink>konfidencialitātes paziņojumam</privacyLink>
 login-identity = Pieteikšanās identitāte
+login = Pieslēgties
 login-signup = Ielogoties / Reģistrēties
 edit = Rediģēt
 email-subscriptions = Jaunumu abonēšana epastā
@@ -419,6 +432,10 @@ skip-submission-description = Iesnieguma iesniegšanas laikā atgriezeniskā sai
 skip-submission-note = Piezīme: mainot ieguldījuma veidu, jums būs jāizvēlas ierakstīt vai klausīties.
 off = Izslēgts
 on = Ieslēgts
+help-accent = Vai nepieciešama palīdzība ar akcentu?
+help-accent-explanation = Jūsu akcents ir veids, kā jūs izrunājat vārdus. To var ietekmēt jūsu dzīvesvieta, citas valodas, kuras runājat, un daudzi citi faktori. Šeit varat dalīties ar jebkuru informāciju, kas, jūsuprāt, ir svarīga.
+help-variants = Vai nepieciešama palīdzība ar variantiem?
+help-variants-explanation = Varianti ir noteikta valodas forma, piemēram, tie, kas dzīvo kādā ģeogrāfijā vai kopienā. Dažreiz tos sauc par dialektiem.
 
 ## Profile - Email
 
@@ -427,6 +444,9 @@ browse-file = Velciet un nometiet vai <browseWrap> Pārlūkojiet </browseWrap>
 connect-gravatar = Savienoties ar Gravatar
 gravatar_not_found = Jūsu epastam nav atrasts gravatārs
 file_too_large = Atlasītais fails ir pārāk liels
+avatar-uploaded = Bilde ielādēta
+max-file-size = maksimums { $kb }kb
+remove-avatar = Noņemt bildi
 
 ## Profile - Email
 
@@ -444,6 +464,10 @@ faq-what-cv-a =
     Balss atpazīšanas tehnoloģija revolucionizē veidu, kā mēs sadarbojamies ar mašīnām, bet pašlaik pieejamās sistēmas ir dārgas un patentētas. Kopējā balss ir daļa no Mozilla iniciatīvas, lai uzlabotu balss atpazīšanas tehnoloģijas ikvienam. Kopējā balss ir milzīga globāla ziedoto balsu datu bāze, kas ļauj ikvienam ātri un viegli apmācīt balss iespējotas lietojumprogrammas potenciāli visās valodās.
     
     Mēs ne tikai vācam balss paraugus plaši runātās valodās, bet arī tajās, kurās ir mazāk runātāju. Daudzveidīgu balsu datu kopu publicēšana ļaus izstrādātājiem, uzņēmējiem un kopienām risināt šo trūkumu. Papildus kopīgajai balss datu kopai mēs veidojam arī atvērtā pirmkoda runas atpazīšanas dzinēju, ko sauc par Deep Speech.
+faq-what-cv-a-2 =
+    Balss atpazīšanas tehnoloģija maina veidu, kā mēs mijiedarbojamies ar iekārtām, taču pašlaik pieejamās sistēmas ir dārgas un patentētas. Mozilla Common Voice ir iniciatīva, lai padarītu balss atpazīšanas tehnoloģijas labākas un pieejamākas ikvienam. Common Voice ir globāla ziedoto balsu datu bāze, kas ļauj ikvienam ātri un vienkārši apmācīt ar balsi darbināmas lietotnes dažādās valodās.
+    
+    Mēs ne tikai apkopojam balss paraugus plaši lietotās valodās, bet arī tajās, kurās runātāju skaits ir mazāks. Daudzveidīgas balsu datu kopas publicēšana ļaus izstrādātājiem, uzņēmējiem un kopienām pašiem novērst nepilnības valodu balss tehnoloģiju atbalstā dažādās valodās.
 faq-why-important-q = Kāpēc tas ir svarīgi?
 faq-why-important-a =
     Runa bieži vien ir visdabiskākais veids, kā mēs sazināmies savā starpā, un balss tehnoloģijas nodrošina šo ērtību mūsu datoriem un mobilajām ierīcēm. Mēs vēlamies dot iespēju izstrādātājiem veidot pārsteidzošas balss atpazīšanas lietojumprogrammas, piemēram, reāllaika tulkotājus un balss iespējotus digitālos palīgus. Bet tagad lielākā daļa balss datu, kas nepieciešami, lai izveidotu šāda veida lietojumprogrammas, ir dārgi un patentēti. Mēs ceram, ka kopējā balss datu kopa sniedz izstrādātājiem to, kas viņiem ir nepieciešams, lai ieviestu jauninājumus un padarītu runas tehnoloģiju pieejamu savā valodā.
@@ -466,6 +490,9 @@ faq-why-different-speakers-a =
     Lielākā daļa runas datu bāzu tiek apmācītas ar dažu demogrāfisko datu pārmērīgu attēlošanu, kas rada novirzi attiecībā uz <articleLink>vidušķiras vīriešiem</articleLink>. Akcenti un dialekti, kas parasti ir nepietiekami pārstāvēti mācību datu kopās, parasti ir saistīti ar cilvēku grupām, kuras jau tā ir atstumtas. Daudzas mašīnas arī cenšas izprast sieviešu balsis.
     Tāpēc mūsu balss datu bāzē mēs vēlamies daudzveidību!
 faq-why-my-lang-q = Kāpēc mana valoda vēl nav iekļauta?
+faq-why-my-lang-a =
+    Common Voice ir pūļa pakalpojumu platforma, un visas valodas pievieno brīvprātīgie.
+    Mēs labprāt pievienotu jūsu valodu! <languageRequestLink>Jautājiet par valodas pievienošanu.</languageRequestLink>
 faq-what-quality-q = Kāda līmeņa audio kvalitāte ir nepieciešama, lai balss ierakstu varētu izmantot datu kopā?
 faq-what-quality-a = Mēs vēlamies, lai kopīgā balss datu kopa atspoguļotu skaņas kvalitāti, ko runātājs dzirdēs savvaļā, tāpēc mēs meklējam dažādību. Papildus daudzveidīgai runātāju kopai datu kopa ar atšķirīgu skaņas kvalitāti iemācīs runas-teksta dzinējam, rīkoties ar dažādām reālām situācijām, piemēram no fona ar automašīnu troksni. Kamēr jūsu balss klips ir saprotams, tas ir pietiekami labs datu kopai.
 faq-why-10k-hours-q = Kādēļ 10000 stundas ir mērķis ierakstu pārbaudē?
@@ -554,6 +581,7 @@ about-nav-playbook = Uzziniet, kā piedalīties
 ## Community Playbook Content
 ## What is a language
 
+about-playbook-what-is-language = Kas ir valoda Common Voice sistēmā?
 
 ## How do I add a language
 
