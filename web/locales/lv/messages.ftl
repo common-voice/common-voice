@@ -940,15 +940,20 @@ speak-empty-state = Mums ir beigušies teikumi, ko ierakstīt šajā valodā...
 speak-empty-state-cta = Pievienojiet teikumus
 speak-loading-error =
     Mēs nevarējām iegūt nevienu teikumu, lai jūs varētu ierunāt.
-    Lūdzu, pamēģiniet vēlreiz nedaudz vēlāk.
+    Lūdzu, mēģiniet vēlreiz nedaudz vēlāk.
 record-button-label = Ierakstiet savu balsi
 share-title-new = <bold> Palīdziet mums </bold> atrast vairāk balsu
 keep-track-profile = Sekojiet līdzi progresam, izmantojot profilu
 login-to-get-started = Piesakieties vai reģistrējieties, lai sāktu
+target-segment-first-card = Jūs sniedzat ieguldījumu mūsu pirmajā mērķa segmentā
+target-segment-generic-card = Jūs sniedzat ieguldījumu mērķa segmentā
+target-segment-first-banner = Palīdziet izveidot Common Voice pirmo mērķa segmentu { $locale } valodā
+target-segment-add-voice = Pievienojiet savu balsi
 target-segment-learn-more = Uzzināt vairāk
 
 ## Contribution Nav Items
 
+contribute-voice-collection-nav-header = Balsu kolekcija
 
 ## Reporting
 
@@ -997,6 +1002,7 @@ validations =
 
 your-languages = Jūsu valodas
 toward-next-goal = Ceļā uz nākamo mērķi
+goal-reached = Mērķis sasniegts
 clips-you-recorded = Ieraksti, kurus jūs esat ierakstījuši
 clips-you-validated = Ieraksti, kurus jūs esat pārbaudījuši
 todays-recorded-progress = Šodienas Common Voice progress ierakstu ierakstīšanā
@@ -1020,6 +1026,7 @@ show-ranking = Rādīt manu rangu
 
 get-started-goals = Sāciet ar mērķiem
 create-custom-goal = Izveidojiet pielāgotu mērķi
+goal-type = Kādu mērķi vēlaties izveidot?
 both-speak-and-listen = Abi
 both-speak-and-listen-long = Abi (runāšanas un klausīšanās)
 daily-goal = Dienas mērķis
@@ -1033,8 +1040,81 @@ want-to-continue = Vai vēlaties turpināt?
 finish-editing = Vai vispirms pabeigt rediģēšanu?
 lose-changes-warning = Ja aiziesiet tagad, jūs zaudēsit izmaiņas
 build-custom-goal = Izveidojiet pielāgotu mērķi
+help-reach-hours-pluralized =
+    { NUMBER($hours) ->
+        [zero] Palīdziet sasniegt { $hours } stundu { $language } valodā ar savu mērķi
+        [one] Palīdziet sasniegt { $hours } stundas { $language } valodā ar savu mērķi
+       *[other] Palīdziet sasniegt { $hours } stundas { $language } valodā ar savu mērķi
+    }
+help-reach-hours-general-pluralized =
+    { NUMBER($hours) ->
+        [zero] Palīdziet sasniegt { $hours } stundas šajā valodā ar savu mērķi
+        [one] Palīdziet sasniegt { $hours } stundas šajā valodā ar savu mērķi
+       *[other] Palīdziet sasniegt { $hours } stundas šajā valodā ar savu mērķi
+    }
 set-a-goal = Izvirziet mērķi
 cant-decide = Nevar izlemt?
+activity-needed-calculation-plural =
+    { NUMBER($totalHours) ->
+        [one]
+            { NUMBER($periodMonths) ->
+                [one]
+                    { NUMBER($people) ->
+                        [one]
+                            { NUMBER($clipsPerDay) ->
+                                [one] { $totalHours } stunda ir sasniedzama { $periodMonths } mēnesī ja { $people } cilvēks ierakstītu { $clipsPerDay } ierakstu dienā.
+                               *[other] { $totalHours } stunda ir sasniedzama { $periodMonths } mēnesī ja { $people } cilvēks ierakstītu { $clipsPerDay } ierakstus dienā.
+                            }
+                       *[other]
+                            { NUMBER($clipsPerDay) ->
+                                [one] { $totalHours } stunda ir sasniedzama { $periodMonths } mēnesī ja { $people } cilvēki ierakstītu { $clipsPerDay } ierakstu dienā.
+                               *[other] { $totalHours } stunda ir sasniedzama { $periodMonths } mēnesī ja { $people } cilvēki ierakstītu { $clipsPerDay } ierakstus dienā.
+                            }
+                    }
+               *[other]
+                    { NUMBER($people) ->
+                        [one]
+                            { NUMBER($clipsPerDay) ->
+                                [one] { $totalHours } stunda ir sasniedzama { $periodMonths } menešos ja { $people } cilvēks ierakstītu { $clipsPerDay } ierakstu dienā.
+                               *[other] { $totalHours } stunda ir sasniedzama { $periodMonths } menešos ja { $people } cilvēks ierakstītu { $clipsPerDay } ierakstus dienā.
+                            }
+                       *[other]
+                            { NUMBER($clipsPerDay) ->
+                                [one] { $totalHours } stunda ir sasniedzama { $periodMonths } menešos ja { $people } cilvēki ierakstītu { $clipsPerDay } ierakstu dienā.
+                               *[other] { $totalHours } stunda ir sasniedzama { $periodMonths } menešos ja { $people } cilvēki ierakstītu { $clipsPerDay } ierakstus dienā.
+                            }
+                    }
+            }
+       *[other]
+            { NUMBER($periodMonths) ->
+                [one]
+                    { NUMBER($people) ->
+                        [one]
+                            { NUMBER($clipsPerDay) ->
+                                [one] { $totalHours } stundas ir sasniedzamas { $periodMonths } mēnesī ja { $people } cilvēks ierakstītu { $clipsPerDay } ierakstu dienā.
+                               *[other] { $totalHours } stundas ir sasniedzamas { $periodMonths } mēnesī ja { $people } cilvēks ierakstītu { $clipsPerDay } ierakstus dienā.
+                            }
+                       *[other]
+                            { NUMBER($clipsPerDay) ->
+                                [one] { $totalHours } stundas ir sasniedzamas { $periodMonths } mēnesī ja { $people } cilvēki ierakstītu { $clipsPerDay } ierakstu dienā.
+                               *[other] { $totalHours } stundas ir sasniedzamas { $periodMonths } mēnesī ja { $people } cilvēki ierakstītu { $clipsPerDay } ierakstus dienā.
+                            }
+                    }
+               *[other]
+                    { NUMBER($people) ->
+                        [one]
+                            { NUMBER($clipsPerDay) ->
+                                [one] { $totalHours } stundas ir sasniedzamas { $periodMonths } menešos ja { $people } cilvēks ierakstītu { $clipsPerDay } ierakstu dienā.
+                               *[other] { $totalHours } stundas ir sasniedzamas { $periodMonths } menešos ja { $people } cilvēks ierakstītu { $clipsPerDay } ierakstus dienā.
+                            }
+                       *[other]
+                            { NUMBER($clipsPerDay) ->
+                                [one] { $totalHours } stundas ir sasniedzamas { $periodMonths } menešos ja { $people } cilvēki ierakstītu { $clipsPerDay } ierakstu dienā.
+                               *[other] { $totalHours } stundas ir sasniedzamas { $periodMonths } menešos ja { $people } cilvēki ierakstītu { $clipsPerDay } ierakstus dienā.
+                            }
+                    }
+            }
+    }
 how-many-per-day = Lieliski! Cik klipu dienā?
 how-many-a-week = Lieliski! Cik klipu nedēļā?
 which-goal-type = Vai vēlaties runāt, klausīties vai abus?
