@@ -631,6 +631,8 @@ about-playbook-how-record-quality = Kā ierakstīt augstas kvalitātes balss kli
 about-playbook-how-record-content-1 = Runājiet savā parastajā balsī! Jūsu runas veids ir apsveicams - mēs vēlamies, lai jūsu akcents būtu tāds, kāds tas ir, un mēs vēlamies jūsu ierasto skaļumu, stilu un intonāciju.
 about-playbook-how-record-content-2 = Izvairieties no pārāk liela fona trokšņa — Jūs jāvar viegli saklausīt.
 about-playbook-how-record-content-3 = Uzmanīgi izlasiet teikumus - neizlaidiet, nemainiet un nepievienojiet vārdus.
+about-playbook-how-record-content-4 = Pārliecinieties, ka ieraksts ir sācies, pirms sākat runāt, un apturiet ierakstu tikai tad, kad esat pabeiguši runāt.
+about-playbook-how-record-content-5 = <accuracyLink>Skatiet vairāk par to kā pareizi ierakstīt.</accuracyLink>
 
 ## How to grow language
 
