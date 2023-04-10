@@ -434,8 +434,10 @@ terms-disagree = ⵓⵔ ⴷ ⵎⵙⴰⵙⴰⵖ
 
 ## Datasets Page
 
+datasets-heading = ⵜⵉⴳⵔⵓⵎⵎⴰⵡⵉⵏ ⵏ ⵉⵙⴼⴽⴰ
 language = ⵜⵓⵜⵍⴰⵢⵜ
 cv-license = ⵜⵓⵔⴰⴳⵜ
+email-to-download = ⵙⵙⴽⵛⵎ ⵉⵎⴰⵢⵍ ⵃⵎⴰ ⴰⴷ ⵜⴰⴳⵎⴷ
 size-gigabyte = ⵊⵜ
 size-megabyte = ⵎⵜ
 download-language = ⴰⴳⵎ { $language }
