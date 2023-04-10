@@ -828,6 +828,38 @@ request-language-explanation-1 =
     <languagesPageLink>Common Voice valodu lapa</languagesPageLink>.
     Ja nē, aizpildiet šo veidlapu, un mēs <strong>nosūtīsim jums ērtu e-pasta ziņojumu
     paskaidrojot, kā pievienot jaunu valodu</strong>.
+request-language-explanation-2 =
+    Mēs arī <strong>informēsim mūsu kopienas vadītāju
+    par jūsu interesi</strong>, lai viņi varētu sniegt jums
+    papildu atbalstu vai informāciju, ja tāda būs nepieciešama.
+request-language-form-email =
+    .label = Tava epasta adrese
+request-language-form-info =
+    .label = Informācija par valodu
+request-language-form-info-explanation =
+    Pievienojiet pēc iespējas vairāk informācijas par valodu. Šis
+    varētu ietvert:
+request-language-form-info-explanation-list-1 = Jūsu valodas nosaukumi
+request-language-form-info-explanation-list-2 = <isoCodeLink>ISO kodi</isoCodeLink>, ja tie ir zināmi
+request-language-form-info-explanation-list-3 = Saites uz vietnēm, kas var palīdzēt mums saprast valodu
+request-language-google-recaptcha-required = Ja vēlaties turpināt, ir nepieciešama reCAPTCHA
+request-language-google-recaptcha-error = Ar reCAPTCHA radās problēma. Lūdzu mēģiniet vēlreiz.
+# Success page
+request-language-success-heading = Paldies! Jūs esat nosūtījis jaunas valodas pieprasījumu
+request-language-success-list-1 =
+    Drīzumā jums vajadzētu saņemt epastu ar skaidrojumu
+    par nākamajiem soļiem, lai jūsu valodu pievienotu Common Voice
+request-language-success-list-2 =
+    Mūsu kopienas menedžeris sazināsies ar jums, lai piedāvātu
+    papildu atbalstu un informāciju, ja kāda valodas kopiena
+    jau strādā pie jūsu valodas
+request-language-success-list-3 =
+    Ja dažu dienu laikā nesaņemat no mums informāciju,
+    sazinieties ar <emailLink>{ $email }</emailLink>
+    un mēs jums palīdzēsim!
+request-language-error =
+    Iespējams, mēs neesam saņēmuši šo pieprasījumu. Lūdzu, rakstiet mums tieši
+    uz epastu <emailLink>{ $email }</emailLink>, un mēs ar jums sazināsimies!
 
 ## Languages Overview
 
@@ -844,6 +876,8 @@ language-search-input =
 language-speakers = Runātāji
 localized = Lokalizēts
 sentences = Teikumi
+language-validation-hours = Stundas
+language-validation-progress = Pārbaudes progress
 
 ## Contribution
 
@@ -853,6 +887,12 @@ contribute = Veic ieguldījumu
 listen = Klausies
 skip = Izlaist
 shortcuts = Īsceļi
+clips-with-count-pluralized =
+    { $count ->
+        [zero] <bold>{ $count }</bold> ieraksts
+        [one] <bold>{ $count }</bold> ieraksti
+       *[other] <bold>{ $count }</bold> ierakstu
+    }
 goal-help-recording = Jūs esat palīdzējuši kopējai balsij sasniegt <goalPercentage> </goalPercentage> no mūsu ikdienas { $goalValue } ierakstu mērķa!
 goal-help-validation = Jūs esat palīdzējuši kopējai balsij sasniegt <goalPercentage> </goalPercentage> no mūsu ikdienas { $goalValue } pārbaudīto ierakstu mērķa!
 contribute-more =
@@ -864,6 +904,7 @@ contribute-more =
 record-cta = Sāciet ierakstīšanu
 record-platform-not-supported = Diemžēl jūsu platforma pašlaik netiek atbalstīta.
 record-platform-not-supported-desktop = Datoros varat lejupielādēt jaunāko:
+record-platform-not-supported-ios-non-safari = Operētājsistēmā iOS, lūdzu, turpiniet ar Safari, lai iespējotu ierakstīšanu…
 record-must-allow-microphone = Jums jāļauj piekļūt mikrofonam.
 record-no-mic-found = Nav atrasts neviens mikrofons.
 record-error-too-short = Ieraksts bija pārāk īss.
@@ -877,6 +918,8 @@ record-again-instruction = Lieliski! <recordIcon> </recordIcon> Ierakstiet savu 
 record-again-instruction2 = Turpinām, ierakstiet vēlreiz <recordIcon></recordIcon>
 record-last-instruction = <recordIcon> </recordIcon> Pēdējais!
 review-tooltip = Pārskatiet un atkārtoti ierakstiet klipus
+share-clip = Dalieties ar savu ierakstu
+share-common-voice = Pastāstiet citiem par Common Voice
 review-instruction = Ja nepieciešams, pārskatiet un atkārtoti ierakstiet klipus
 record-submit-tooltip = { $actionType } iesniedziet, kad viss gatavs
 clips-uploaded = Ieraksti saglabāti
@@ -890,6 +933,14 @@ listen-again-instruction = Lieliski paveikts darbs! <playIcon> </playIcon> Klaus
 listen-3rd-time-instruction = 2 pabeigti, tā tik turi! <playIcon> </playIcon>
 listen-last-time-instruction = <playIcon> </playIcon> Pēdējais!
 listen-empty-state = Iespējams visi ieraksti jau ir apstrādāti - pārlādējiet lapu vai mēģiniet nedaudz vēlāk.
+listen-loading-error =
+    Mēs nevarējām iegūt nevienu ierakstu, ko jums klausīties.
+    Lūdzu, mēģiniet vēlreiz nedaudz vēlāk.
+speak-empty-state = Mums ir beigušies teikumi, ko ierakstīt šajā valodā...
+speak-empty-state-cta = Pievienojiet teikumus
+speak-loading-error =
+    Mēs nevarējām iegūt nevienu teikumu, lai jūs varētu ierunāt.
+    Lūdzu, pamēģiniet vēlreiz nedaudz vēlāk.
 record-button-label = Ierakstiet savu balsi
 share-title-new = <bold> Palīdziet mums </bold> atrast vairāk balsu
 keep-track-profile = Sekojiet līdzi progresam, izmantojot profilu
