@@ -231,6 +231,7 @@ home-cta = ⵙⴰⵡⴰⵍ, ⴰⵔⴳ ⴷⴰ!
 show-wall-of-text = ⵖⵔ ⵓⴳⴳⴰⵔ
 vote-yes = ⵢⴰⵀ
 vote-no = ⵓⵀⵓ
+speak-subtitle = ⴼⴽⴰⵜ ⴰⴳⵕⴹ ⵏⵏⵓⵏ
 help-reach-goal = ⴰⵡⵙ ⴰⵏⵖ ⴰⴷ ⵏⵍⴽⵎ { $goal }
 read-terms-q = ⵉⵙ ⵜⵖⵔⵉⴷ ⵜⵉⴼⴰⴷⵉⵡⵉⵏ ⵏⵏⵖ?
 all-locales = ⴰⴽⴽⵯ
