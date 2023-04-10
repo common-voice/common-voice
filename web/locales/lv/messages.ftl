@@ -1122,6 +1122,12 @@ receiving-emails-info = Es vēlos saņemt e-pasta ziņojumus, piemēram, mērķa
 not-receiving-emails-info =
     Pašlaik jums ir iestatīts <bold> NESAŅEMT </bold> e-pastus, piemēram, atgādinājumus par mērķiem, mans
     progresa atjauninājumi un biļeteni par kopīgo balsi
+n-clips-pluralized =
+    { NUMBER($count) ->
+        [zero] { $count } ieraksts
+        [one] { $count } ieraksti
+       *[other] { $count } ierakstu
+    }
 help-share-goal = Palīdziet mums atrast vairāk balsu, dalieties ar savu mērķi
 confirm-goal = Apstipriniet mērķi
 goal-interval-weekly = Reizi nedēļā
@@ -1155,6 +1161,34 @@ profile-form-delete = Dzēst profilu
 
 ## Profile Download
 
+download-q = Vēlaties lejupielādēt savus datus?
+download-info = Pastāstiet mums, ko vēlaties lejupielādēt:
+download-profile-title = Profilu
+download-profile-info = Ietver epastu, lietotājvārdu un demogrāfisko informāciju, pieejama uzreiz
+download-profile-size = Daži baiti
+download-recordings-title = Ieraksti
+download-recordings-info = Ietver mp3 failus un saistītos teikumus. Sagatavošanās var aizņemt kādu laiku
+download-recordings-size = Parasti megabaiti
+download-recordings-unavailable = Jūs nevarat pieprasīt savus ierakstus, kamēr jau notiek cita pieprasījuma apstrāde.
+download-recently-requested = Varat pieprasīt jaunu savu ierakstu izņemšanu ik pēc { $days } dienām.
+download-size = Izmērs
+download-selected = Izvēlēts
+download-start = Lejupielādēt profila datus
+download-request = Pieprasīt ierakstus
+download-requests = Iepriekšējie ierakstu lejupielādes pieprasījumi
+download-requests-info = Kad pieprasāt savus ierakstus, mēs tos apkopojam vienā vai vairākos ZIP failos. Šeit ir jūsu iepriekšējie pieprasījumi:
+download-request-button = Lejupielādēt
+download-request-title = { $created }
+download-request-description = { $clipCount } balss ieraksti, kopējais arhīva izmērs { $size }. Uzglabāšanas termiņš { $expires }.
+download-request-archive-single = Viens ZIP fails, kas satur
+download-request-archive-multiple = Sadalīt { $archiveCount } ZIP failos, kas satur
+download-request-assembling-description = Jūsu faili tiek apkopoti. Lūdzu, vēlāk pārbaudiet vēlreiz.
+download-request-refresh-button = Atjaunināt
+download-request-modal-title = Lejupielāžu saites
+download-request-modal-description = Šeit ir saites, lai lejupielādētu jūsu ZIP failus.
+download-request-link-text = Zip #{ $offset } no { $total }
+download-request-metadata-link = Teikuma teksts
+download-request-link-single = Varat arī kopēt un ielīmēt šīs adreses savā iecienītākajā lejupielāžu pārvaldniekā. To derīguma termiņš beigsies pēc 12 stundām, taču jebkurā laikā varat atgriezties šajā lapā, lai ģenerētu jaunas saites.
 
 ## Landing
 
@@ -1166,6 +1200,8 @@ read-more-about = Lasiet vairāk mūsu lapā Par mums
 
 ## DemoLayout
 
+demo-get-started = Sāksim
+demo-welcome = Laipni lūdzam Common Voice
 demo-welcome-subheader = Vai vēlaties uzzināt vairāk un dot savu ieguldījumu projektā?
 
 ## Demo Datasets
