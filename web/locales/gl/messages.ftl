@@ -1606,3 +1606,6 @@ varying-pronunciations-explanation-2 = Por outra banda, recorde que, se ten dúb
 varying-pronunciations-example = O gato miañaba porque tiña fame
 varying-pronunciations-tip-1 = [Un falante occidental que teña gheada dirá "ghato"]
 varying-pronunciations-tip-2 = [Un falante oriental que non teña gheada dirá "gato"]
+offensive-content-explanation = As frases son sometidas a un proceso de revisión por parte da comunidade, pero ese proceso non é perfecto. Se ve ou escoita algunha frase que lle resulta ofensiva ou molesta, por exemplo, porque infrinxe os nosos <participationGuidelines>criterios de participación comunitaria</participationGuidelines>, empregue o botón de Informar. Tamén pode poñerse en contacto connosco en <emailFragment>commonvoice@mozilla.com</emailFragment>.
+misreadings-explanation-1 = É importante ler correctamente todas as palabras da frase. Ao validar, comprobe con moita atención que o fragmento de audio se corresponde exactamente co texto escrito. Non dubide en rexeitar aqueles fragmentos nos que se engaden ou omiten palabras.
+misreadings-explanation-2 = Os erros máis comúns son:
