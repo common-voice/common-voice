@@ -636,6 +636,11 @@ about-playbook-how-record-content-5 = <accuracyLink>Skatiet vairāk par to kā p
 
 ## How to grow language
 
+about-playbook-how-grow-language = Kā mēs varam attīstīt valodu pakalpojumā Common Voice?
+about-playbook-how-grow-language-content-1 = Radot iespējas dažādiem cilvēkiem sniegt ieguldījumu Common Voice, tiek nodrošināts, ka datu kopa apkalpo pēc iespējas vairāk cilvēku. Mēs esam izveidojuši resursus un veidnes, ko varat izmantot!
+about-playbook-how-grow-language-content-2 = Pasākumi
+about-playbook-how-grow-language-content-3 = Varat rīkot pasākumus, lai mudinātu cilvēkus sniegt savu ieguldījumu. Tas ir vieglāk, nekā jūs domājat. Varat to izdarīt tiešsaistē, izmantojot videokonferenču rīku, vai personīgi, ja tas ir droši. <eventTemplate>Izpētiet mūsu veidnes un resursus, kas paredzēti pasākumu norisei</eventTemplate>.
+about-playbook-how-grow-language-content-4 = Sociālie mēdiji
 about-playbook-how-grow-language-content-6 = Partnerības un tīkli
 
 ## How to validate
