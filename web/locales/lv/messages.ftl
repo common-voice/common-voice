@@ -1207,9 +1207,17 @@ demo-welcome-subheader = Vai vēlaties uzzināt vairāk un dot savu ieguldījumu
 ## Demo Datasets
 
 demo-language-select-card-header = Common Voice ir pasaulē lielākā publiski pieejamā vairāku valodu balss datu kopa.
+demo-language-select-card-body = Pateicoties vairāk nekā 259 000 cilvēku ieguldījumiem vairāk nekā 50 valodās, šie dati tiek izmantoti, lai apmācītu programmas, kas saprot cilvēku balsis.
+card-button-next = Tālāk
+card-button-back = Atpakaļ
+demo-language-select-label = Pārlūkot valodas
+demo-eofy-header = 2019. gada beigu laidiens
+demo-eofy-sub_header = Balss datu kopa, gatava lejupielādei
+demo-account = Konts
 
 ## Demo Account
 
+demo-account-card-header = Lai veiktu ieguldījumu, nav nepieciešams konts, kaut gan tas ir noderīgs.
 
 ## Demo Contribute
 
