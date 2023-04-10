@@ -641,17 +641,35 @@ about-playbook-how-grow-language-content-1 = Radot iespējas dažādiem cilvēki
 about-playbook-how-grow-language-content-2 = Pasākumi
 about-playbook-how-grow-language-content-3 = Varat rīkot pasākumus, lai mudinātu cilvēkus sniegt savu ieguldījumu. Tas ir vieglāk, nekā jūs domājat. Varat to izdarīt tiešsaistē, izmantojot videokonferenču rīku, vai personīgi, ja tas ir droši. <eventTemplate>Izpētiet mūsu veidnes un resursus, kas paredzēti pasākumu norisei</eventTemplate>.
 about-playbook-how-grow-language-content-4 = Sociālie mēdiji
+about-playbook-how-grow-language-content-5 = Varat izmantot sociālo mediju platformas, lai nosūtītu ziņojumu. Dalieties ar ziņām, kurās paskaidrots, kāpēc tas ir svarīgi, un sazinieties ar cilvēkiem, kas runā par tādām kā valodas tiesības, balss izmantošana mākslīgajos intelektos vai neobjektivitāte tehnoloģiju jomā. Skatiet vairāk padomu par <campaignLink>sociālās kampaņas vadīšanu, tostarp saturu, ko varat izmantot</campaignLink>.
 about-playbook-how-grow-language-content-6 = Partnerības un tīkli
+about-playbook-how-grow-language-content-7 = Atrodiet citus, kuriem tas rūp. Tās varētu būt universitātes, valodu skolas, interešu aizstāvības grupas vai datu zinātnes kopienas. Sazinieties un skaidri paskaidrojiet, kā viņi var palīdzēt un kāpēc. <outreachTemplates>Skatiet mūsu informatīvo e-pasta ziņojumu veidnes</outreachTemplates>.
+about-playbook-how-grow-language-content-8 = <strong>Esiet radoši!</strong> Jūsu valodu kopiena būs unikāla, un šie ir tikai daži veidi, kā sākt.
 
 ## How to validate
 
+about-playbook-how-validate = Kā zināt, vai apstiprināt balss ierakstu?
+about-playbook-how-validate-content-1 = Ja varat <strong>dzirdēt teikto</strong> un <strong>saprast teikto</strong>, parasti <strong>vislabāk apstiprināt</strong> ierakstu.
+about-playbook-how-validate-content-2 = <strong>Nenoraidiet klipus, kuros runātājam “ir akcents”, kas atšķiras no jūsējā</strong> - dažādas izrunas un akcenti ir svarīgi, lai balss atpazīšana darbotos labi ikvienam.
 about-playbook-how-validate-content-3 = Ja uzskatāt, ka izruna <strong>neļauj pilnībā saprast</strong> vai ir <strong>liels fona troksnis</strong> vai <strong>fonā runā arī citi cilvēki</strong>, tad ieraksts ir jānoraida. <accuracyLink>Skatiet plašāku informāciju mūsu precizitātes kritērijos</accuracyLink>.
+about-playbook-how-validate-content-4 = Ja klipu noraida 2 cilvēki, tas tiek izlaists datu kopas noraidīto ierakstu apakškopā.
 
 ## How to access dataset
 
+about-playbook-how-access-dataset = Kā piekļūt un izmantot datu kopu?
+about-playbook-how-access-dataset-content-1 = Varat doties uz <datasetsPage>datu kopu lapu</datasetsPage>, atlasīt vajadzīgo versiju un valodu un lejupielādēt to! Failiem ir <metadataLink>saistīti metadati</metadataLink>, piemēram, demogrāfiskā informācija un validācijas dati. Lai lejupielādētu datu kopu, jums būs jānorāda e-pasta adrese.
+about-playbook-how-access-dataset-content-2 = Ja meklējat gatavus rīkus, kas izmanto šo datu kopu, varat sazināties ar kopienas dalībniekiem <discourseLink>Discourse sistēmā</discourseLink>.
 
 ## How are decisions made
 
+about-playbook-how-project-governance = Kā tiek pieņemti lēmumi par šo projektu?
+about-playbook-how-project-governance-content-1 = Mozilla Common Voice veido aktīvisti, valodnieki, datu zinātnieki, akadēmiķi un programmatūras inženieri no visas pasaules. Projektu pārvalda Mozilla fonds.
+about-playbook-how-project-governance-content-2 = Mūsu pārvaldība ir balstīta uz šādiem pīlāriem:
+about-playbook-how-project-governance-content-3 = Privātums, drošība un pārredzamība.
+about-playbook-how-project-governance-content-4 = Kopienas līdzdalība lēmumu pieņemšanā.
+about-playbook-how-project-governance-content-5 = Vērtība un atzinība.
+about-playbook-how-project-governance-content-6 = Savstarpēja atbildība.
+about-playbook-how-project-governance-content-7 = <governanceLink>Uzziniet vairāk par to, kā mēs tiekam pārvaldīti</governanceLink>
 
 ## Glossary
 
@@ -669,6 +687,9 @@ de-identified-explanation = Process, kurā ierunātāja profila informācija tie
 
 ## Error pages
 
+error-title-404 = Mēs nevarējām atrast šo lapu
+error-content-404 = Varbūt mūsu <homepageLink>mājaslapa</homepageLink> palīdzēs? Lai uzdotu jautājumu, lūdzu, pievienojieties <matrixLink>Matrix kopienas tērzētavā</matrixLink>, pārraugiet vietnes problēmas, izmantojot <githubLink>GitHub</githubLink>, vai apmeklējiet <discourseLink>mūsu diskusiju forumus</discourseLink>.
+error-title-503 = Mēs piedzīvojam negaidītu dīkstāvi
 
 ## Data
 
