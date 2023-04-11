@@ -18,6 +18,8 @@ banner-error-slow-1 = Desculpe, o Common Voice está lento. Obrigado pelo seu in
 banner-error-slow-2 = Estamos recebendo muito tráfego no momento, estamos investigando problemas.
 banner-error-slow-link = Página de status
 error-something-went-wrong = Desculpe, houve um erro
+error-clip-upload = O envio deste clipe continua falhando. Continuar tentando?
+error-clip-upload-server = O envio deste clipe continua falhando no servidor. Atualize a página ou tente novamente mais tarde.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -40,7 +42,9 @@ ba = Basquir
 bas = Basa
 be = Bielorrusso
 bg = Búlgaro
+bm = Bambara
 bn = Bengalês
+bo = Tibetano
 br = Bretão
 bs = Bósnio
 bxr = Buriato
@@ -217,6 +221,7 @@ speak-now = Fale agora
 datasets = Conjuntos de dados
 languages = Idiomas
 about = Sobre nós
+partner = Parceiro
 profile = Perfil
 help = Ajuda
 contact = Contato
@@ -400,6 +405,7 @@ why-demographic = Por que isto é importante?
 why-demographic-explanation-2 = Dados de usuários tornados anônimos, como idade, gênero e sotaque ajudam a melhorar os dados de áudio usados para treinar a precisão de mecanismos de reconhecimento de voz. Seu nome de usuário e email nunca serão associados aos dados enviados e você pode escolher se quer deixar tornar seu nome de usuário público ou anônimo.
 accept-privacy = Concordo que estas informações sejam utilizadas conforme explicado na <privacyLink>Política de Privacidade</privacyLink> da Mozilla.
 accept-privacy-title = Política de privacidade
+accept-privacy-and-terms = Concordo com os <termsLink>Termos</termsLink> e o <privacyLink>Aviso de privacidade</privacyLink> do Common Voice
 login-identity = Identidade de acesso
 login-signup = Entrar / Inscrever-se
 edit = Editar
@@ -717,7 +723,6 @@ language = Idioma
 download-dataset-header = Baixar o conjunto de dados
 download-delta-explainer = Fizemos algumas alterações. Os Segmentos Delta contêm apenas os clipes mais recentes desde o último lançamento. <deltaLink>Leia mais sobre este trabalho</deltaLink>.
 download-dataset-tag = Selecione um conjunto de dados de idioma e escolha a versão que quer baixar.
-download-dataset-access = Procurando versões anteriores do conjunto de dados? Mande um email para <emailLink> { $email } </emailLink>
 # File size in gigabytes
 size = Tamanho
 validated-hr-total = Total de horas validadas
@@ -732,6 +737,7 @@ confirm-size = Está preparado para iniciar um download de <b>{ $size }</b>
 size-gigabyte = GB
 size-megabyte = MB
 confirm-no-identify = <b>Você concorda</b> com não tentar determinar a identidade de falantes no conjunto de dados do Common Voice
+confirm-join-mailing-list = Quero participar na lista de discussão do Common Voice
 download-language = Baixar { $language }
 validated-hours = Horas validadas
 recorded-hours = Horas gravadas
@@ -764,6 +770,9 @@ more = Mais
 close = Fechar
 download = Baixar
 dataset-version = Versão
+sha256-checksum-copied = Soma de verificação SHA256 copiada!
+sha256-checksum-copied-error = Falha ao copiar a soma de verificação SHA256
+clipboard-not-supported = Área de transferência não suportada
 
 ## Download Modal
 
@@ -915,6 +924,10 @@ target-segment-generic-card = Você está contribuindo para um segmento-alvo
 target-segment-first-banner = Ajude a criar o primeiro segmento alvo do Common Voice em { $locale }
 target-segment-add-voice = Adicione sua voz
 target-segment-learn-more = Saiba mais
+
+## Contribution Nav Items
+
+contribute-voice-collection-nav-header = Coleta de voz
 
 ## Reporting
 
@@ -1521,3 +1534,98 @@ sc-validation-no-abbreviations = A frase não deve conter abreviações
 
 localization-select =
     .label = Escolher idioma/localização
+# PARTNERSHIPS PAGE
+partnerships-header = Parcerias
+partnerships-header-text = É preciso muito para fazer o Common Voice acontecer! Não fazemos isso sozinhos. Quer ser nosso parceiro? Adoraremos saber de você.
+partnerships-get-in-touch = Entrar em contato
+partnerships-become-a-partner = Torne-se um parceiro do Common Voice
+partnerships-community-header = Comunidade, criativos e sociedade civil
+partnerships-foundations-header = Fundações
+partnerships-foundations-description = Trabalhamos com fundações, sociedade civil e parceiros da comunidade para tornar a internet um lugar mais saudável, com foco particular na África Oriental. Saiba mais sobre nosso <programmaticWork>trabalho programático</programmaticWork>.
+partnerships-governments-header = Governos
+partnerships-governments-description = Estamos entusiasmados em apoiar o envolvimento do setor público em tecnologia, inovação e direitos linguísticos. Se você planeja executar um grande projeto ou campanha, <emailFragment>entre em contato</emailFragment>.
+partnerships-academia-header = Universidades, acadêmicos e pesquisadores
+partnerships-academia-description = A inovação aberta está no âmago do que fazemos. Para colaborações de pesquisa, coleta de dados ou entrevistas, <emailFragment>entre em contato</emailFragment>.
+partnerships-small-business-header = Pequenas empresas, incluindo startups de tecnologia e inteligência artificial
+partnerships-small-business-description = Estamos sempre procurando ouvir os consumidores de dados sobre suas necessidades e contexto. Desde a colaboração na plataforma de coleta de dados até o fornecimento de percepções de integridade de dados, queremos <emailFragment>ouvir você</emailFragment>.
+partnerships-corporates-header = Corporações de grande porte e empresas de plataforma
+partnerships-corporates-description = Se quiser falar mais sobre o conjunto de dados, investir junto em expansões de plataforma planejadas ou procurar oportunidades de colaboração, <emailFragment>mande uma mensagem</emailFragment>.
+partnerships-our-partners = Nossos parceiros
+# FIRST POST SUBMISSION CTA
+first-cta-header-text = Obrigado por doar seus clipes de voz!
+first-cta-subtitle-text = Quer compartilhar algumas informações sobre como você fala?
+why-donate = Por que pergunta?
+why-donate-explanation-1 = O fornecimento dessas informações é opcional. Você só deve adicionar caso se sinta confortável. Quando divulgamos o conjunto de dados, tornamos anônimas todas as informações pessoais e garantimos que informações como seu nome e email não sejam conectadas a informações demográficas, como idade ou sexo.
+add-information-button = Adicionar informações
+continue-speaking-button = Não, obrigado, continuar falando
+create-profile-text = Quer salvar suas informações? <createProfile>Crie um perfil</createProfile>
+thanks-for-voice-toast = Obrigado por suas informações de voz
+thanks-for-voice-toast-error = Ocorreu um erro ao enviar suas informações de voz
+# SECOND POST SUBMISSION CTA
+second-cta-header-text = Obrigado por contribuir com sua voz!
+second-cta-subtitle-text = Com um perfil, você pode acompanhar sua atividade e conectar-se a uma comunidade de contribuidores de dados de voz.
+already-have-an-account = Já tem uma conta? <login>Entre</login>
+create-profile-button = Criar um perfil
+# IMAGE TAGS
+img-alt-success-checkmark = marca de seleção de sucesso
+# GUIDELINES PAGE
+guidelines-header = Diretrizes de contribuição
+guidelines-header-subtitle = Entenda como contribuir e validar frases e clipes de áudio para o conjunto de dados do Common Voice
+voice-collection = Coleta de voz
+sentence-collection = Coleção de frases
+varying-pronunciations = Pronúncias diferentes
+misreadings = Erros de leitura
+offensive-content = Conteúdo ofensivo
+background-noise = Barulho de fundo
+background-voices = Vozes de fundo
+volume = Volume
+reader-effects = Efeitos do leitor
+just-unsure = Não tem certeza?
+example = Exemplo
+misreadings-explanation-2 = Erros muito comuns incluem:
+misreadings-explanation-3 = Falta de 'Um' ou 'O' no início da gravação.
+misreadings-explanation-4 = Falta de um 's' no final de uma palavra.
+misreadings-explanation-5 = Leitura de contrações que não estão de fato no texto, como "d'água" em vez de "de água" ou vice-versa.
+misreadings-explanation-6 = Falta do final da última palavra devido à gravação ter sido encerrada rápido demais.
+misreadings-explanation-7 = Várias tentativas de ler uma palavra.
+misreadings-example-1 = Vou beber um copo de água.
+misreadings-example-2 = Vou beber um copo d'água.
+misreadings-example-3 = Vou beber um copo de uma água.
+misreadings-example-4 = A abelha passou rápido.
+misreadings-tip-1 = [Deveria ser “de água”]
+misreadings-tip-2 = [Sem ‘uma’ no texto original]
+misreadings-tip-3 = [Conteúdo não corresponde]
+background-noise-example-1 = Os dinossauros gigantes do Triássico.
+background-noise-example-2 = [Espirro] Os dinossauros gigantes do [tosse] Triássico.
+background-noise-example-3 = Os dino [tosse] gigantes do Triássico.
+background-noise-example-4 = [Estalo] dinossauros gigantes do [estalo] -riássico.
+background-noise-tip-1 = [interrompido por barulho de fundo]
+background-noise-tip-2 = [Parte do texto não pode ser ouvido]
+background-voices-example-1 = Os dinossauros gigantes do Triássico. [lido por uma voz]
+background-voices-tip-1 = Você está vindo? [falado por outra]
+still-have-questions = Ainda tem dúvidas?
+contact-common-voice = Entre em contato com a equipe do Common Voice
+public-domain = Domínio público
+citing-sentences-subheader-websites = Sites
+citing-sentences-subheader-websites-explanation = Você pode incluir o site, por exemplo, "Common Voice - https://commonvoice.mozilla.org/"
+citing-sentences-subheader-academic-reference = Referência acadêmica
+citing-sentences-subheader-academic-reference-explanation = Você pode usar estilo de referência acadêmica, por exemplo, estilo Harvard "Mozilla (2021) Common Voice. Disponível em https://commonvoice.mozilla.org/ (acessado em 15 de setembro de 2021)"
+citation =
+    .label = Citação
+adding-sentences-subheader-length = Tamanho
+adding-sentences-subheader-length-explanation = A frase deve ter menos de 15 palavras.
+adding-sentences-subheader-spelling-punctuation = Ortografia e pontuação
+adding-sentences-subheader-spelling-punctuation-explanation = A frase deve ser escrita corretamente.
+adding-sentences-subheader-numbers = Números
+adding-sentences-subheader-abbreviations = Abreviações e acrônimos
+adding-sentences-subheader-punctuation = Pontuação
+adding-sentences-subheader-punctuation-explanation = Símbolos especiais e pontuação só devem ser incluídos quando absolutamente necessário. Por exemplo, um apóstrofo é incluído em palavras em inglês como “don't“ e “we're“, ou em português como “d'água“, e deve ser incluído no texto de origem, mas é improvável que você precise de um símbolo especial como “@“ ou “#“.
+adding-sentences-subheader-special-characters = Caracteres especiais e letras estrangeiras
+adding-sentences-subheader-special-characters-explanation-1 = Letras devem ser válidas no idioma falado. Por exemplo, “ж” é uma letra do alfabeto russo, mas nunca é usada em português, portanto nunca deve aparecer em nenhum texto de origem em português.
+adding-sentences-subheader-special-characters-explanation-2 = Idiomas podem ter suas próprias regras de validação com requisitos adicionais ao ser localizados. Se não houver um arquivo de validação específico de um idioma, as regras de inglês serão exibidas aos colaboradores.
+adding-sentences-subheader-offensive-content = Conteúdo ofensivo
+reviewing-sentences-explanation-1 = Se a frase atender aos critérios acima, clique no botão "Sim".
+reviewing-sentences-explanation-2 = Se a frase não atender aos critérios acima, clique no botão "Não".
+reviewing-sentences-explanation-3 = Se não tiver certeza sobre a frase, você também pode ignorar e passar para a próxima.
+reviewing-sentences-explanation-4 = Se não tiver mais frases para revisar, ajude-nos a coletar mais frases!
+community-announcement-header = Comunicado da comunidade!

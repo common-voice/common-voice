@@ -18,8 +18,8 @@ banner-error-slow-1 = Ospravedlňujeme sa, Common Voice beží pomaly. Ďakujeme
 banner-error-slow-2 = Zaznamenávame veľkú návštevnosť a momentálne problémy skúmame.
 banner-error-slow-link = Stavová stránka
 error-something-went-wrong = Ospravedlňujeme sa, niečo sa pokazilo
-error-clip-upload = Nahrávanie tohto klipu stále zlyháva, skúšať to znova?
-error-clip-upload-server = Nahrávanie tohto klipu na serveri stále zlyháva. Znova načítajte stránku alebo to skúste znova neskôr.
+error-clip-upload = Odoslanie tejto nahrávky neustále zlyháva, skúšať to znova?
+error-clip-upload-server = Odoslanie tejto nahrávky na server neustále zlyháva. Znova načítajte stránku alebo to skúste znova neskôr.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -44,6 +44,7 @@ be = bieloruština
 bg = bulharčina
 bm = bambarčina
 bn = bengálčina
+bo = tibetčina
 br = bretónčina
 bs = bosniančina
 bxr = buriatčina
@@ -138,11 +139,13 @@ nb-NO = nórčina (bokmål)
 nd = IsiNdebele (severná)
 ne-NP = nepálčina
 nhe = východná huasteca nahuatl
+nhi = západná sierra puebla nahuatl
 nia = nias
 nl = holandčina
 nn-NO = nórčina (nynorsk)
 nr = IsiNdebele (južná)
 nso = severná sothčina
+ny = chinyanja
 nyn = runyankole
 oc = okcitánčina
 om = afaan ormoo
@@ -223,7 +226,7 @@ zza = zaza
 
 speak = Hovorte
 speak-now = Hovorte teraz
-datasets = Datasety
+datasets = Kolekcie údajov
 languages = Jazyky
 about = O nás
 partner = Partnerstvá
@@ -270,7 +273,7 @@ vote-yes = Áno
 vote-no = Nie
 toggle-play-tooltip = Stlačením { shortcut-play-toggle } spustíte režim prehrávania
 speak-subtitle = Prispejte svojim hlasom
-speak-paragraph = Nahrávanie klipov je neoddeliteľnou súčasťou budovania našich otvorených datasetov. Podľa niektorých je to práve tá zábavnejšia časť.
+speak-paragraph = Vytváranie nahrávok je neoddeliteľnou súčasťou budovania našich otvorených kolekcií údajov. Podľa niektorých je to práve tá zábavnejšia časť.
 speak-goal-text = Počet nahrávok
 listen-subtitle = Pomôžte nám s overením
 listen-paragraph = Overovanie nahrávok je rovnako dôležitou súčasťou misie Common Voice. Vypočujte si ich a pomôžte nám vytvoriť kvalitnú databázu.
@@ -302,7 +305,7 @@ x-years-short =
         [few] { $count } roky
        *[other] { $count } rokov
     }
-help-make-dataset = Pomôžte nám vytvoriť vysokokvalitnú a verejne prístupnú databázu
+help-make-dataset = Pomôžte nám vytvoriť vysokokvalitnú a verejne prístupnú kolekciu údajov
 sign-up-account = Vytvorte si účet
 email-subscription-title = prihláste sa k odberu noviniek
 email-subscription-title-new = Prihláste sa na odber noviniek o projekte Common Voice, upozornení na ciele a informácií o pokroku.
@@ -323,7 +326,7 @@ whats-public = Čo všetko zverejňujeme?
 email-not-public = Vašu e-mailovú adresu nezverejňujeme.
 recordings-and-locale-public = Počet nahrávok a jazyky, do ktorých prispievate, budú verejné.
 username-optin-public = Môžete si vybrať, či bude vaše používateľské meno verejné alebo anonymné.
-demographic-deidentified-clarity-2 = Dobrovoľne odosielané demografické dáta (napr. vek, pohlavie, jazyk a prízvuk) nebudú na vašom profile nikdy sprístupnené verejne, a v datasete nebudú spárované s vašim účtom. Individuálne zvukové nahrávky budú asociované s demografickými údajmi za účelom presnejšej analýzy - napríklad, výskumník môže chcieť cieliť trénovanie modelu na špecifickú demografickú skupinu.
+demographic-deidentified-clarity-2 = Dobrovoľne odosielané demografické údaje (napr. vek, pohlavie, jazyk a prízvuk) nebudú na vašom profile nikdy sprístupnené verejne, a v kolekcii údajov nebudú spárované s vašim účtom. Individuálne zvukové nahrávky budú asociované s demografickými údajmi za účelom presnejšej analýzy - napríklad, výskumník môže chcieť cieliť trénovanie modelu na špecifickú demografickú skupinu.
 username-email-not-demographic = Vaše používateľské meno a e-mailová adresa nebudú nijakým spôsobom prepojené s uverejnenými údajmi.
 
 ## Speak & Listen Shortcuts
@@ -351,13 +354,13 @@ shortcut-vote-no = n
 shortcut-record-toggle = r
 shortcut-record-toggle-label = Nahrať/zastaviť
 shortcut-rerecord-toggle = [1-5]
-shortcut-rerecord-toggle-label = Nahrať klip nanovo
+shortcut-rerecord-toggle-label = Nahrať nanovo
 shortcut-discard-ongoing-recording = ESC
 shortcut-discard-ongoing-recording-label = Zahodiť prebiehajúcu nahrávku
 shortcut-submit = Enter
 shortcut-submit-label = Odoslať nahrávky
 request-language-text = Nevidíte na Common Voice svoj jazyk?
-request-language-button = Požiadajte o jazyk
+request-language-button = Požiadajte o pridanie jazyka
 
 ## ProjectStatus
 
@@ -473,34 +476,34 @@ faq-what-cv-a =
 faq-what-cv-a-2 =
     Technológia rozpoznávania hlasu prináša revolúciu v spôsobe interakcie so strojmi, ale v súčasnosti dostupné systémy sú drahé a proprietárne. Mozilla Common Voice je iniciatíva, ktorej cieľom je zlepšiť a sprístupniť technológie rozpoznávania hlasu pre každého. Common Voice je rozsiahla globálna databáza darovaných hlasov, ktorá umožňuje komukoľvek rýchlo a jednoducho trénovať aplikácie podporujúce hlas v potenciálne každom jazyku.
     
-    Nezhromažďujeme len ukážky hlasu v široko hovorených jazykoch, ale aj v jazykoch s menšou populáciou rečníkov. Publikovanie rozmanitej množiny hlasov umožní vývojárom, podnikateľom a komunitám túto medzeru vyriešiť sami.
+    Nezhromažďujeme len ukážky hlasu v široko hovorených jazykoch, ale aj v jazykoch s menšou populáciou rečníkov. Publikovanie rozmanitej kolekcie údajov umožní vývojárom, podnikateľom a komunitám túto medzeru vyriešiť sami.
 faq-why-important-q = Prečo je to dôležité?
 faq-why-important-a =
-    Reč je často najprirodzenejším spôsobom, akým navzájom komunikujeme, a hlasové technológie prinášajú toto pohodlie do našich počítačov a mobilných zariadení. Chceme umožniť vývojárom vybudovať úžasné aplikácie na rozpoznávanie hlasu, ako sú prekladatelia v reálnom čase a hlasom ovládaní digitálni asistenti. Ale práve teraz je väčšina hlasových dát potrebných na vybudovanie takýchto aplikácií drahá a proprietárna. Dúfame, že dátový súbor Common Voice poskytne vývojárom to, čo potrebujú na inováciu a sprístupnenie technológie reči v ich vlastnom jazyku.
+    Reč je často najprirodzenejším spôsobom, akým navzájom komunikujeme, a hlasové technológie prinášajú toto pohodlie do našich počítačov a mobilných zariadení. Chceme umožniť vývojárom vybudovať úžasné aplikácie na rozpoznávanie hlasu, ako sú prekladatelia v reálnom čase a hlasom ovládaní digitálni asistenti. Ale práve teraz je väčšina hlasových dát potrebných na vybudovanie takýchto aplikácií drahá a proprietárna. Dúfame, že kolekcia údajov Common Voice poskytne vývojárom to, čo potrebujú na inováciu a sprístupnenie technológie reči v ich vlastnom jazyku.
     
-    Aby sa rozpoznávanie hlasu stalo ešte univerzálnejším, zhromažďujeme hlasové vzorky v často hovorených jazykoch, rovnako ako v jazykoch s menším počtom hovoriacich, ktorí sú často prehliadaní komerčnými službami rozpoznávania reči. Publikovanie rôznorodého súboru hlasov umožní vývojárom, podnikateľom a celým rečovým komunitám vyriešiť túto medzeru .
+    Aby sa rozpoznávanie hlasu stalo ešte univerzálnejším, zhromažďujeme hlasové vzorky v často hovorených jazykoch, rovnako ako v jazykoch s menším počtom hovoriacich, ktorí sú často prehliadaní komerčnými službami rozpoznávania reči. Publikovanie kolekcie rôznorodých údajov umožní vývojárom, podnikateľom a celým rečovým komunitám vyriešiť túto medzeru .
 faq-how-get-q = Ako môžem získať údaje služby Common Voice?
-faq-how-get-a = Dataset služby Common Voice je dostupný na stiahnutie v rámci licencie <licenseLink>CC0</licenseLink> na <datasetLink>stránke našich datasetov</datasetLink>. Z tej istej stránky si taktiež môžete stiahnuť niekoľko ďalších verejne dostupných datasetov.
+faq-how-get-a = Kolekcia údajov služby Common Voice je dostupná na stiahnutie v rámci licencie <licenseLink>CC0</licenseLink> na stránke <datasetLink>Kolekcie údajov</datasetLink>. Z tej istej stránky si taktiež môžete stiahnuť niekoľko ďalších verejne dostupných kolekcií údajov.
 faq-when-release2-q = Kedy uverejníte údaje projektu Common Voice aj v ďalších jazykoch?
-faq-when-release2-a = Na viacjazyčnej verzii Common Voice datasetu momentálne prebieha spájanie a čistenie podporované komunitou. Ak nám chcete pomôcť s prinesením Common Voice do nových jazykov, použite nástroj na <sentenceCollectorLink>zber viet</sentenceCollectorLink>, pomocou ktorého pridáte nové vety do datasetu, a Mozilla <pontoonLink>Pontoon</pontoonLink> na preklad samotnej stránky. Nové jazyky sú pridávané do Common Voice v momente, keď sa dosiahne nazbieranie 5 000 schválených viet.
+faq-when-release2-a = Na viacjazyčnej kolekcii údajov Common Voice momentálne prebieha spájanie a čistenie podporované komunitou. Ak nám chcete pomôcť s prinesením Common Voice do nových jazykov, použite nástroj na <sentenceCollectorLink>zber viet</sentenceCollectorLink>, pomocou ktorého pridáte nové vety do kolekcie údajov, a Mozilla <pontoonLink>Pontoon</pontoonLink> na preklad samotnej stránky. Nové jazyky sú pridávané do Common Voice v momente, keď sa dosiahne nazbieranie 5 000 schválených viet.
 faq-why-mission-q = Prečo je projekt Common Voice súčasťou misie Mozilly?
 faq-why-mission-a = Mozilla je odhodlaná udržať web otvorený a prístupný pre všetkých. Aby sme to mohli robiť, potrebujeme podporovať tvorcov webu pomocou projektov, ako napríklad Common Voice. Keďže sa technológie rozpoznávania reči dostávajú do čoraz viac aplikácií, veríme, že by mali slúžiť rovnako dobre všetkým používateľom. Vidíme potrebu zahrnúť pri tvorbe a testovaní technológii na rozpoznávanie reči ďalšie jazyky, prízvuky a skupiny ľudí. Common Voice je verejný zdroj, ktorý tímy Mozilly a vývojári po celom svete už aktívne využívajú.
 faq-what-cv-and-deepspeech-q = Aký je rozdiel medzi projektami Common Voice a Deep Speech?
-faq-what-cv-and-deepspeech-a = Dataset Common Voice dopĺňa open-source systém rozpoznávania hlasu Deep Speech spoločnosti Mozilla. Prvá verzia systému Deep Speech bola vydaná v novembri 2017 a odvtedy sa neustále vyvíja. Veríme, že táto open-source technológia rozpoznávania hlasu, spoločne s datasetom Common Voice, by mala byť dostupná pre každého. Dúfame, že tieto technológie umožnia vývojárom vybudovať vlnu inovatívnych produktov a služieb.
+faq-what-cv-and-deepspeech-a = Kolekcia údajov Common Voice dopĺňa open source nástroj na rozpoznávanie hlasu Deep Speech od Mozilly. Prvá verzia Deep Speech bola vydaná v novembri 2017 a odvtedy sa neustále vyvíja. Spolu s kolekciou údajov Common Voice veríme, že táto open source technológia rozpoznávania hlasu by mala byť dostupná pre každého. Dúfame, že tieto technológie umožnia vývojárom vybudovať vlnu inovatívnych produktov a služieb.
 faq-is-goal-assistant-q = Je cieľom projektu Common Voice vytvorenie hlasového asistenta?
-faq-is-goal-assistant-a = Cieľom datasetu Common Voice je umožniť komukoľvek na svete vytvárať aplikácie využívajúce rozpoznávanie reči, hovoriaceho alebo akékoľvek spracovanie hlasových údajov. Hlasový asistent je len jedným z mnohých typov aplikácií, na ktoré môžete použiť tento dataset.
+faq-is-goal-assistant-a = Cieľom kolekcie údajov Common Voice je umožniť komukoľvek na svete vytvárať aplikácie využívajúce rozpoznávanie reči, hovoriaceho alebo akékoľvek spracovanie hlasových údajov. Hlasový asistent je len jedným z mnohých typov aplikácií, na ktoré môžete túto kolekciu údajov použiť.
 faq-do-want-native-q = Daný jazyk nie je môj materinský a hovorím s prízvukom, chcete môj hlas aj tak?
 faq-do-want-native-a = Áno, obzvlášť váš hlas chceme! Súčasťou cieľu projektu Common Voice je získať hlasové nahrávky s čo možno najviac prízvukmi, aby aplikácie využívajúce rozpoznávanie reči mohli fungovať rovnako dobre pre všetkých. Z tohto dôvodu sú pre nás podobné nahrávky obzvlášť dôležité.
 faq-why-different-speakers-q = Prečo potrebujete toľko rozdielnych ľudí pre každý jazyk?
 faq-why-different-speakers-a =
-    Väčšina rečových databáz je trénovaná s nadmerným zastúpením určitých demografických skupín, z čoho vyplýva zaujatosť voči <articleLink>mužom a strednej triede</articleLink>. Prízvuky a dialekty, ktoré sú často nedostatočne zastúpené v trénovacích datasetoch, sú typicky asociované s marginalizovanými skupinami obyvateľstva. Mnoho strojov má taktiež problém s rozpoznávaním ženských hlasov.
+    Väčšina rečových databáz je trénovaná s nadmerným zastúpením určitých demografických skupín, z čoho vyplýva zaujatosť voči <articleLink>mužom a strednej triede</articleLink>. Prízvuky a dialekty, ktoré sú často nedostatočne zastúpené v trénovacích kolekciách údajov, sú typicky asociované s marginalizovanými skupinami obyvateľstva. Mnoho strojov má taktiež problém s rozpoznávaním ženských hlasov.
     Kvôli tomuto chceme mať v našej databáze pestrosť!
 faq-why-my-lang-q = Prečo môj jazyk zatiaľ nie je zahrnutý?
 faq-why-my-lang-a =
     Common Voice je crowdsourcingová platforma, všetky jazyky pridali dobrovoľníci.
     Boli by sme radi, keby ste pridali svoj jazyk! <languageRequestLink>Zistite, ako pridať nový jazyk</languageRequestLink>.
-faq-what-quality-q = Aká kvalita zvuku je potrebná na použitie hlasového klipu v datasete?
-faq-what-quality-a = Chceme, aby dataset Common Voice odrážal kvalitu zvuku, ktorú bude systém prevodu reči na text počuť v teréne, takže hľadáme rozmanitosť. Okrem rôznorodej komunity hovoriacich, dataset s rôznou kvalitou zvuku naučí systém prevodu reči na text zvládať rôzne situácie v reálnom svete, od rozhovoru v pozadí až po hluk z auta. Pokiaľ je váš hlasový klip zrozumiteľný, mal by byť pre dataset dostatočne dobrý.
+faq-what-quality-q = Aká kvalita zvuku je potrebná na použitie hlasovej nahrávky v kolekcii údajov?
+faq-what-quality-a = Chceme, aby kolekcia údajov Common Voice odrážala kvalitu zvuku, ktorú bude nástroj na prevod reči na text počuť vo voľnej prírode, takže hľadáme rozmanitosť. Okrem rôznorodej komunity hovoriacich, kolekcia údajov s rôznou kvalitou zvuku naučí nástroj na prevod reči na text zvládnuť rôzne situácie v reálnom svete, od rozprávania na pozadí až po hluk auta. Pokiaľ je váš hlasový záznam zrozumiteľný, mal by byť dostatočne dobrý aj pre kolekciu údajov.
 faq-why-10k-hours-q = Prečo je cieľom pri nahrávkach práve 10 000 overených hodín?
 faq-why-10k-hours-a = Je to približný počet hodín potrebných na natrénovanie produkčného systému prevodu reči na text.
 faq-how-calc-hours-q = Ako projekt Common Voice počíta nahrané hodiny?
@@ -511,16 +514,16 @@ faq-where-src-from-2-a =
     
     Naše zdrojové vety môžete nájsť v tomto <githubLink>GitHub priečinku</githubLink>.
 faq-why-not-ask-read-q = Prečo nepožiadate ľudí, aby čítali z kníh alebo články na Wikipédii?
-faq-why-not-ask-read-a = Aby bol Common Voice dataset čo najužitočnejší, rozhodli sme sa prijímať len zdrojové texty dostupné pod licenciou Creative Commons (CC0). Použitie štandardu CC0 znamená, že je ťažšie nájsť a zozbierať zdrojový text, ale umožní komukoľvek použiť výsledné hlasové údaje bez obmedzení alebo povolení od Mozilly. V konečnom dôsledku chceme vytvoriť čo najužitočnejší mnohojazyčný dataset pre každého, vrátane vedcov, univerzít, startupov, vlád, sociálnych organizácii a hobbistov.
+faq-why-not-ask-read-a = Aby bola kolekcia údajov Common Voice čo najužitočnejšia, rozhodli sme sa prijímať len zdrojové texty dostupné pod licenciou Creative Commons (CC0). Použitie štandardu CC0 znamená, že je ťažšie nájsť a zozbierať zdrojový text, ale umožní komukoľvek použiť výsledné hlasové údaje bez obmedzení alebo povolení od Mozilly. V konečnom dôsledku chceme vytvoriť čo najužitočnejšiu mnohojazyčnú kolekciu údajov pre každého, vrátane vedcov, univerzít, start-upov, vlád, sociálnych organizácii a fanúšikov.
 faq-why-account-q = Prečo by som si mal(a) vytvoriť účet?
 faq-is-account-public-q = Sú informácie o mojom účte verejne prístupné?
 faq-how-privacy-q = Ako zaisťujete anonymitu a súkromie jednotlivých prispievateľov do projektu Common Voice?
-faq-how-privacy-a = Všetky hlasové klipy v datasete sú očistené od osobne identifikujúcich údajov . Keď prispievateľ poskytne demografické údaje prostredníctvom svojho profilu, tieto informácie sa de-identifikujú od jeho hlasových klipov predtým, než sa pridajú do datasetu na stiahnutie a nikdy sa na profilovej stránke nezverejnia.
-faq-what-determine-identity-q = Čo to znamená, že nemôžem „určiť identitu“ rečníkov v datasete Common Voice?
+faq-how-privacy-a = Všetky hlasové nahrávky v kolekcii údajov sú zbavené osobných identifikačných informácií. Keď prispievateľ poskytuje demografické údaje prostredníctvom svojho profilu, tieto informácie sú de-identifikované z jeho hlasových záznamov predtým, ako sú združené na stiahnutie v kolekcii údajov, a nikdy sa nezverejnia na jeho profilovej stránke.
+faq-what-determine-identity-q = Čo to znamená, že nie je možné „určiť identitu“ rečníkov v kolekcii údajov Common Voice?
 faq-what-determine-identity-a =
-    Common Voice dataset je otvoreným a verejne dostupným zdrojom, ktorý môže byť použitý na trénovanie širokej škály aplikácií s podporou reči. Na ochranu našich prispievateľov, žiadame každého, kto si stiahne set dát Common Voice, aby rešpektoval súkromie prispievateľov.
+    Kolekcia údajov Common Voice je otvorený a verejne dostupný zdroj, ktorý možno použiť na trénovanie širokej škály aplikácií s podporou reči. V záujme ochrany bezpečnosti našich prispievateľov žiadame každého, kto si stiahne kolekciu údajov Common Voice, aby rešpektoval súkromie prispievateľov.
     
-    Všetky hlasové nahrávky v datasete sú očistené od osobných identifikačných údajov. Stiahnutím datasetu súhlasíte, že sa nebudete pokúšať identifikovať identitu žiadneho z prispievateľov. To znamená, že nemôžete pokúšať spárovať informáciu v datasete s osobnými údajmi prispievateľa. Avšak, dataset môže byť použitý na trénovanie rozpoznávania reči, rozpoznávanie hovoriaceho, alebo iného použitia, ako napríklad spárovanám informácie v datasete s inými informáciami obsiahnutými v datasete.
+    Všetky hlasové nahrávky v kolekcii údajov sú zbavené osobných identifikačných informácií. Keď stiahnete kolekciu údajov, súhlasíte s tým, že sa nepokúsite určiť identitu žiadneho prispievateľa. To znamená, že sa nemôžete pokúsiť prepojiť informácie v kolekcii údajov s osobnými údajmi prispievateľa. Môžete však kolekciu údajov použiť na trénovanie rozpoznávania reči, rozpoznávania hovoriacich alebo iných aplikácií, napríklad prepojením informácií v kolekcii údajov s inými informáciami, ktoré už v kolekcii údajov sú.
 faq-what-is-cv = Čo je Common Voice?
 faq-using-cv = Používanie projektu Common Voice
 faq-description = Projekt Common Voice je súčasťou iniciatívy Mozilly, ktorá pomáha strojom učiť sa, ako rozprávajú skutoční ľudia.
@@ -531,10 +534,10 @@ faq-search-for-answers =
 
 about-title = Prečo Common Voice?
 about-header-description-v2 =
-    <p>Common Voice je verejne dostupný súbor údajov o hlase, ktorý využíva hlasy dobrovoľných prispievateľov z celého sveta. Ľudia, ktorí chcú vytvárať hlasové aplikácie, môžu použiť množinu údajov na trénovanie modelov strojového učenia.</p>
-    <p>V súčasnosti väčšinu hlasových dátových súborov vlastnia spoločnosti, čo brzdí inovácie. Nedostatočne zastúpené sú aj hlasové dátové súbory: neanglicky hovoriaci ľudia, farební ľudia, zdravotne postihnutí ľudia, ženy a LGBTQIA+ ľudia. To znamená, že technológia s podporou hlasu v mnohých jazykoch vôbec nefunguje a tam, kde funguje, nemusí fungovať rovnako dobre pre každého. Chceme to zmeniť mobilizáciou ľudí všade, aby zdieľali svoj hlas.</p>
+    <p>Common Voice je verejne dostupná množina údajov o hlase, ktorý využíva hlasy dobrovoľných prispievateľov z celého sveta. Ľudia, ktorí chcú vytvárať hlasové aplikácie, môžu použiť kolekciu údajov na trénovanie modelov strojového učenia.</p>
+    <p>V súčasnosti väčšinu hlasových dátových súborov vlastnia spoločnosti, čo brzdí inovácie. Nedostatočne zastúpené sú aj hlasové dátové súbory: neanglicky hovoriaci ľudia, ľudia s inou farbou pleti, zdravotne postihnutí ľudia, ženy a LGBTQIA+ ľudia. To znamená, že technológia s podporou hlasu vôbec nefunguje pre mnohé jazyky a tam, kde funguje, nemusí fungovať rovnako dobre pre každého. Chceme to zmeniť mobilizáciou ľudí všade, aby zdieľali svoj hlas.</p>
 how-does-it-work-title-v2 = Ako funguje Common Voice?
-how-does-it-work-text = Zhromažďujeme množstvo hlasov do veľkého otvoreného datasetu. Darujte svoj hlas, overte presnosť klipov iných ľudí a pomôžte tak vylepšiť súbor údajov.
+how-does-it-work-text = Zhromažďujeme množstvo hlasov do veľkej otvorenej kolekcie údajov. Darujte svoj hlas, overte presnosť nahrávok iných ľudí a pomôžte tak vylepšiť kolekciu údajov.
 
 ## How does it work section
 
@@ -548,9 +551,9 @@ about-new-lang-subtitle = V danom jazyku spúšťame stránku Common Voice.
 about-voice-contrib-title = Hlasový príspevok
 about-voice-contrib-subtitle = Ľudia prichádzajú a prispievajú svojimi hlasmi.
 about-voice-validation-title = Overenie hlasu
-about-voice-validation-subtitle = Iní ľudia overujú tieto hlasové klipy.
-about-dataset-release-title = Sprístupnenie datasetu
-about-dataset-release-subtitle = Dataset zverejňujeme každé 3 mesiace.
+about-voice-validation-subtitle = Iní ľudia overujú tieto hlasové nahrávky.
+about-dataset-release-title = Sprístupnenie kolekcie údajov
+about-dataset-release-subtitle = Kolekciu údajov zverejňujeme každé 3 mesiace.
 about-subscribe-text = Chcete zostať v kontakte so službou Common Voice?
 about-speak = Čítanie
 about-speak-text = Prispievatelia zaznamenávajú rečové nahrávky čítaním zo zásoby darovaných viet.
@@ -561,13 +564,13 @@ about-listen-text = Používatelia overujú presnosť darovaných nahrávok kont
 about-is-it-valid = Je nahrávka platná?
 about-is-it-valid-text = Nahrávka je označená ako platná po jej schválení iným používateľom
 about-yes-votes = ≥ 2 hlasy pre Áno
-about-yes-votes-text = Aby sa nahrávka dostala do databázy Common Voice, musí byť schválená dvoma rôznymi používateľmi.
+about-yes-votes-text = Na to, aby sa hlasová nahrávka dostala do kolekcie údajov Common Voice, musí byť overený dvoma rôznymi používateľmi.
 about-no-votes = ≥ 2 hlasy pre Nie
-about-no-votes-text = Keď používateľ odmietne hlasový klip, vráti sa do fronty. Ak bude odmietnutý druhýkrát, hlasový klip sa presunie na cintorín klipov.
-about-dataset-new = Dataset Common Voice
-about-dataset-new-text = Dataset Common Voice obsahuje stovky tisíc hlasových vzoriek, ktoré vývojárom pomáhajú vytvoriť nástroje na rozpoznávanie hlasu.
+about-no-votes-text = Keď používateľ odmietne hlasovú nahrávku, táto sa vráti do fronty. Ak bude odmietnutá druhýkrát, hlasová nahrávka sa presunie na cintorín nahrávok.
+about-dataset-new = Kolekcia údajov Common Voice
+about-dataset-new-text = Kolekcia údajov Common Voice obsahuje stovky tisíc hlasových vzoriek, ktoré pomáhajú vývojárom vytvárať nástroje na rozpoznávanie hlasu.
 about-clip-graveyard = Cintorín nahrávok
-about-clip-graveyard-text = Cintorín nahrávok obsahuje nahrávky, ktoré sa nedostali do hlavnej databázy Common Voice. Rovnako ako hlavná databáza, je aj cintorín k dispozícii na stiahnutie.
+about-clip-graveyard-text = Cintorín nahrávok obsahuje nahrávky, ktoré sa nedostali do hlavnej kolekcie údajov Common Voice. Rovnako ako hlavná kolekcia, je aj cintorín k dispozícii na stiahnutie.
 about-get-involved = Zapojte sa
 about-get-involved-text-2 =
     Chcete pomôcť spraviť technológiu Common Voice ešte lepšou?
@@ -576,7 +579,7 @@ about-get-involved-text-2 =
 about-stay-in-touch = Ako zostanem v kontakte?
 about-stay-in-touch-button = Zaregistrujte sa
 about-stay-in-touch-text-1 = <emailFragment>Zaregistrujte sa</emailFragment> do nášho magazínu a zistite, ako sa môžete podieľať na kampaniach, udalostiach a spoločných návrhoch funkcií v Common Voice.
-about-stay-in-touch-text-2 = Môžete sa stretnúť s ostatnými v jazykových komunitách Mozilly, ak sa pripojíte k diskusiám na <discourseLink>Discourse</discourseLink> alebo na <matrixLink>Matrixe</matrixLink>, kde získate rýchlu radu.
+about-stay-in-touch-text-2 = Rýchlu radu môžete získať aj v diskusiách na <discourseLink>Discourse</discourseLink> alebo na <matrixLink>Matrixe</matrixLink>, kde sa môžete stretnúť s ostatnými členmi jazykových komunít Mozilly.
 about-nav-why-common-voice = Prečo?
 about-nav-how-it-works = Ako?
 about-nav-partners = Partneri
@@ -589,8 +592,8 @@ about-nav-playbook = Zistite, ako sa zúčastniť
 
 about-playbook-what-is-language = Čo je to jazyk na Common Voice?
 about-playbook-what-is-language-content-1 = Existuje mnoho spôsobov, ako premýšľať o jazyku. Na účely modelov rozpoznávania reči Common Voice navrhuje zamerať sa na „vzájomnú zrozumiteľnosť“ alebo „dokážu si ľudia hovoriaci týmto jazykom väčšinou porozumieť, ak sa o to pokúsia?“
-about-playbook-what-is-language-content-2 = Chceme, aby rečové modely lepšie porozumeli rozmanitej škále rečníkov. Aby sa to stalo, musí súbor hlasových údajov reprezentovať veľa rôznych ľudí.
-about-playbook-what-is-language-content-3 = Niektoré jazyky majú obrovské rozdiely v gramatike, slovnej zásobe a výslovnosti. Z tohto dôvodu v roku 2022 <ctaLink>predstavujeme „Varianty“</ctaLink>. Komunitám to dáva spôsob, ako rozlíšiť svoje jazyky v rámci väčšieho súboru údajov.
+about-playbook-what-is-language-content-2 = Chceme, aby rečové modely lepšie porozumeli rozmanitej škále rečníkov. Aby sa to stalo, musí kolekcia hlasových údajov reprezentovať veľa rôznych ľudí.
+about-playbook-what-is-language-content-3 = Niektoré jazyky majú obrovské rozdiely v gramatike, slovnej zásobe a výslovnosti. Z tohto dôvodu v roku 2022 <ctaLink>predstavujeme „Varianty“</ctaLink>. Komunitám to dáva spôsob, ako rozlíšiť svoje jazyky v rámci väčšej kolekcie údajov.
 
 ## How do I add a language
 
@@ -630,7 +633,7 @@ about-playbook-how-add-sentences-content-4 = Vety, ktoré boli overené, sa expo
 
 ## How to record quality
 
-about-playbook-how-record-quality = Ako nahrám hlasový klip vo vysokej kvalite?
+about-playbook-how-record-quality = Ako nahrám hlasovú nahrávku vo vysokej kvalite?
 about-playbook-how-record-content-1 = Hovorte svojim normálnym hlasom! Spôsob, akým hovoríte, je tu vítaný – chceme váš prízvuk taký, aký je, a chceme vašu obvyklú hlasitosť, štýl a intonáciu.
 about-playbook-how-record-content-2 = Vyhnite sa príliš veľkému hluku v pozadí – malo by vás dobre počuť.
 about-playbook-how-record-content-3 = Pozorne si prečítajte vetu – nevynechávajte, nemeňte ani nepridávajte slová.
@@ -640,7 +643,7 @@ about-playbook-how-record-content-5 = <accuracyLink>Ďalšie informácie o krit�
 ## How to grow language
 
 about-playbook-how-grow-language = Ako môžeme efektívne rozvíjať jazyk na Common Voice?
-about-playbook-how-grow-language-content-1 = Vytváranie príležitostí pre rôznorodých ľudí prispievať do Common Voice zaisťuje, že dataset slúži čo najväčšiemu počtu ľudí. Vytvorili sme zdroje a šablóny, ktoré môžete použiť.
+about-playbook-how-grow-language-content-1 = Vytváranie príležitostí pre rôznorodých ľudí prispievať do Common Voice zaisťuje, že kolekcia údajov slúži čo najväčšiemu počtu ľudí. Vytvorili sme zdroje a šablóny, ktoré môžete použiť.
 about-playbook-how-grow-language-content-2 = Udalosti
 about-playbook-how-grow-language-content-3 = Môžete organizovať podujatia, ktoré pomôžu ľuďom prispieť. Je to jednoduchšie, ako si myslíte. Môžete to urobiť online pomocou nástroja na videokonferencie alebo osobne, ak je to bezpečné. <eventTemplate>Pozrite si naše šablóny a zdroje pre organizovanie udalostí</eventTemplate>.
 about-playbook-how-grow-language-content-4 = Sociálne médiá
@@ -651,16 +654,16 @@ about-playbook-how-grow-language-content-8 = <strong>Buďte kreatívni!</strong>
 
 ## How to validate
 
-about-playbook-how-validate = Ako zistím, či mám schváliť hlasový klip?
+about-playbook-how-validate = Ako zistím, či mám hlasovú nahrávku schváliť?
 about-playbook-how-validate-content-1 = Ak ste ich <strong>počuli</strong> a <strong>rozumeli im</strong>, zvyčajne je <strong>najlepšie ich schváliť</strong>.
-about-playbook-how-validate-content-2 = <strong>Neodmietajte klipy, v ktorých má reproduktor „prízvuk“ odlišný od vášho</strong> – je to dôležité, aby rozpoznávanie hlasu fungovalo pre každého lepšie.
-about-playbook-how-validate-content-3 = Ak si myslíte, že kvôli výslovnosti <strong>nie je možné rozumieť</strong> alebo je v pozadí <strong>veľa hluku</strong> alebo <strong>hovoria aj iní ľudia</strong>, potom by ste mali klip odmietnuť. <accuracyLink>Ďalšie informácie nájdete v našich kritériách presnosti</accuracyLink>.
-about-playbook-how-validate-content-4 = Ak klip odmietnu 2 ľudia, je tento sprístupnený v inej podskupine datasetu.
+about-playbook-how-validate-content-2 = <strong>Neodmietajte nahrávky, v ktorých má hovoriaci odlišný „prízvuk“ od vášho</strong> – je to dôležité, aby rozpoznávanie hlasu fungovalo lepšie pre každého.
+about-playbook-how-validate-content-3 = Ak si myslíte, že kvôli výslovnosti <strong>nie je možné rozumieť</strong> alebo je v pozadí <strong>veľa hluku</strong> alebo <strong>hovoria aj iní ľudia</strong>, potom by ste mali nahrávku odmietnuť. <accuracyLink>Ďalšie informácie nájdete v našich kritériách presnosti</accuracyLink>.
+about-playbook-how-validate-content-4 = Ak nahrávku odmietnu dvaja ľudia, je táto sprístupnená v inej podskupine kolekcie údajov.
 
 ## How to access dataset
 
-about-playbook-how-access-dataset = Ako získam prístup k datasetu a ako ho môžem používať?
-about-playbook-how-access-dataset-content-1 = Môžete prejsť na <datasetsPage>stránku s datasetmi</datasetsPage>, vybrať si požadovanú verziu a jazyk(y) a stiahnuť si ju! Súbory majú <metadataLink>priradené metadáta</metadataLink>, ako sú demografické informácie a overovacie údaje. Na stiahnutie datasetu budete musieť zadať e-mailovú adresu.
+about-playbook-how-access-dataset = Ako získam prístup ku kolekcii údajov a ako ju môžem používať?
+about-playbook-how-access-dataset-content-1 = Môžete prejsť na stránku s <datasetsPage>kolekciami údajov</datasetsPage>, vybrať si požadovanú verziu a jazyk(y), a stiahnuť si ju! Súbory majú <metadataLink>priradené metadáta</metadataLink>, ako sú demografické informácie a overovacie údaje. Na stiahnutie kolekcie údajov budete musieť zadať e-mailovú adresu.
 about-playbook-how-access-dataset-content-2 = Ak hľadáte nástroje na vytváranie modelov ASR, môžete sa spojiť s ostatnými ľuďmi v komunite <discourseLink>cez Discourse</discourseLink>.
 
 ## How are decisions made
@@ -686,7 +689,7 @@ hours-validated-explanation = Počet hodín hlasových nahrávok, ktoré boli po
 sst = Prevod reči na text (STT)
 sst-explanation = Technológia prevodu reči na text (STT) prevádza hlasové dáta na text.
 de-identified = Anonymizovanie
-de-identified-explanation = Proces, pri ktorom je v súboroch datasetu skrytá identita autorov hlasových záznamov.
+de-identified-explanation = Proces, pri ktorom sú informácie o profile prispievateľa odstránené z jeho hlasových záznamov, ktoré sú súčasťou kolekcie údajov na stiahnutie.
 
 ## Error pages
 
@@ -703,14 +706,14 @@ data-download-yes = Áno
 data-download-deny = Nie
 data-download-license = Licencia: <licenseLink>CC-0</licenseLink>
 data-download-modal = Chystáte sa zahájiť sťahovanie <size>{ $size } GB</size>, chcete pokračovať?
-data-subtitle = Vytvárame otvorený a verejne dostupný hlasový dataset, ktorý môže ktokoľvek použiť na tréning aplikácií využívajúcich hlas.
-data-explanatory-text = Veríme, že rozsiahle a verejne dostupné hlasové datasety podporujú inovácie a zdravú obchodnú súťaž v technológiách rozpoznávania reči založených na strojovom učení. Ide o celosvetové úsilie a pozývame všetkých, aby sa zapojili. Našim cieľom je pomôcť technológiám využívajúcim reč, aby boli otvorenejšie a aby odrážali rozmanitosť hlasov z celého sveta.
+data-subtitle = Vytvárame otvorenú a verejne dostupnú kolekciu údajov hlasov, ktorú môže každý použiť na trénovanie aplikácií s podporou reči.
+data-explanatory-text = Veríme, že rozsiahle a verejne dostupné hlasové kolekcie údajov podporujú inovácie a zdravú obchodnú súťaž v technológiách rozpoznávania reči založených na strojovom učení. Ide o celosvetové úsilie a pozývame všetkých, aby sa zapojili. Našim cieľom je pomôcť technológiám využívajúcim reč, aby boli otvorenejšie a aby odrážali rozmanitosť hlasov z celého sveta.
 data-get-started = <speechBlogLink>Začíname s rozpoznávaním reči</speechBlogLink>
-data-other-title = Ďalšie hlasové datasety…
+data-other-title = Ďalšie kolekcie hlasových údajov…
 data-other-goto = Prejsť na { $name }
 data-other-download = Stiahnuť údaje
-data-bundle-button = Stiahnuť balík datasetov
-data-bundle-description = Common Voice a údaje všetkých ostatných hlasových datasetov vyššie.
+data-bundle-button = Stiahnuť balík kolekcií údajov
+data-bundle-description = Údaje Common Voice a všetky ostatné kolekcie hlasových údajov uvedené vyššie.
 release-version = Verzia
 dataset-date = Dátum
 license = Licencia: <licenseLink>{ $license }</licenseLink>
@@ -731,18 +734,18 @@ review-delete-recordings = Odstrániť moje nahrávky
 
 ## Datasets Page
 
-datasets-heading = Datasety
-datasets-headline = Vytvárame otvorený viacjazyčný hlasový dataset, ktorý môže ktokoľvek použiť na trénovanie hlasových aplikácií.
+datasets-heading = Kolekcie údajov
+datasets-headline = Vytvárame otvorenú viacjazyčnú kolekciu hlasových údajov, ktorú môže ktokoľvek použiť na trénovanie aplikácií s podporou reči.
 datasets-positioning =
-    Veríme, že veľké, verejne dostupné hlasové datasety podporia inováciu a zdravú obchodnú konkurenciu v technológii reči založenej na strojovom učení.
+    Veríme, že veľké, verejne dostupné kolekcie hlasových údajov podporia inováciu a zdravú obchodnú konkurenciu v technológii reči založenej na strojovom učení.
     
-    Viacjazyčný dataset Common Voice je už najväčším verejne dostupným hlasovým súborom svojho druhu, ale nie je jediným.
+    Viacjazyčná kolekcia údajov Common Voice je najväčším verejne dostupným hlasovým súborom svojho druhu, ale nie je jediným.
     
-    Na tejto stránke nájdete odkazy iné open-source datasety a, ako bude Common Voice naďalej rásť, aj domov pre naše novinky.
+    Na tejto stránke nájdete odkazy iné otvorené kolekcie hlasových údajov a, ako bude Common Voice naďalej rásť, aj domov pre naše novinky.
 language = Jazyk
-download-dataset-header = Stiahnuť dataset
-download-delta-explainer = Urobili sme niekoľko zmien. Delta Segments obsahujú len najnovšie klipy od posledného vydania. <deltaLink>Prečítajte si viac o tejto práci</deltaLink>.
-download-dataset-tag = Vyberte požadovaný jazykový súbor údajov a vyberte verziu, ktorú chcete stiahnuť.
+download-dataset-header = Stiahnutie kolekcie údajov
+download-delta-explainer = Urobili sme niekoľko zmien. Delta Segments obsahujú len najnovšie nahrávky od posledného vydania. <deltaLink>Prečítajte si viac o tejto práci</deltaLink>.
+download-dataset-tag = Vyberte kolekciu údajov pre požadovaný jazyk a vyberte verziu, ktorú chcete stiahnuť.
 # File size in gigabytes
 size = Veľkosť
 validated-hr-total = Overených Hod. Spolu
@@ -752,39 +755,39 @@ audio-format = Formát zvuku
 number-of-voices = Počet hlasov
 splits = Rozdelenie
 email-to-download = Ak chcete stiahnuť, zadajte svoju e-mailovú adresu
-why-email = <b>Prečo email?</b> Možno Vás budeme musieť v budúcnosti kontaktovať ohľadom zmien v datasete, a e-mail nám poskytuje spôsob kontaktu.
-confirm-size = Ste pripravení stiahnuť <b>{ $size }</b>
+why-email = <b>Prečo e-mailová adresa?</b> Možno vás budeme musieť v budúcnosti kontaktovať v súvislosti so zmenami v kolekcii údajov, e-mail nám poskytuje spôsob kontaktu.
+confirm-size = Bude potrebné stiahnuť <b>{ $size }</b>
 size-gigabyte = GB
 size-megabyte = MB
-confirm-no-identify = <b>Súhlasíte</b>, že sa nebudete pokúšať zistiť identitu prispievateľov v datasete Common Voice.
+confirm-no-identify = <b>Súhlasíte</b>, že sa nepokúsite určiť identitu hovoriacich v kolekcii údajov Common Voice
 confirm-join-mailing-list = Chcem sa pridať do e-mailovej skupiny Common Voice
 download-language = Stiahnuť jazyk { $language }
 validated-hours = Počet overených hodín
 recorded-hours = Počet nahraných hodín
-whats-inside = Čo je vnútri datasetu Common Voice?
+whats-inside = Čo sa nachádza v kolekcii údajov Common Voice?
 dataset-description-hours =
-    Každá položka v datasete pozostáva z jedinečného súboru MP3 a prislúchajúceho textového súboru. Mnoho z <b>{ $total }</b> zaznamenaných hodín v datasete obsahuje aj demografické metaúdaje, ako je vek, pohlavie a prízvuk, ktoré môžu pomôcť s cvičením presnosti nástrojov rozpoznávania reči.
+    Každá položka v kolekcii údajov pozostáva z jedinečného súboru MP3 a príslušného textového súboru. Mnohé z <b>{ $total }</b> zaznamenaných hodín v kolekcii údajov obsahujú aj demografické metadáta, ako je vek, pohlavie a prízvuk, ktoré môžu pomôcť trénovať presnosť nástrojov na rozpoznávanie reči.
     
-    Dataset v súčasnosti pozostáva z <b>{ $valid }</b> overených hodín v <b>{ $languages }</b> jazykoch, ale neustále pridávame ďalšie hlasy a jazyky. Navštívte našu stránku <languagesLink> Jazyky </languagesLink> a požiadajte o nový jazyk alebo začnite prispievať.
-want-dataset-update = Chcete dostávať informácie, keď vydáme novú verziu datasetu Common Voice? Prihláste sa ku odberu noviniek.
-subscribe = Odoberať
+    Kolekcia údajov v súčasnosti pozostáva z <b>{ $valid }</b> overených hodín v <b>{ $languages }</b> jazykoch, ale neustále pridávame ďalšie hlasy a jazyky. Ak chcete požiadať o pridanie jazyka alebo začať prispievať, pozrite si našu stránku <languagesLink>Jazyky</languagesLink>.
+want-dataset-update = Chcete dostávať informácie, keď sprístupníme novú verziu kolekcie údajov Common Voice? Prihláste sa ku odberu noviniek.
+subscribe = Prihlásiť sa k odberu
 get-started-speech = Začíname s rozpoznávaním reči
-other-datasets = Ďalšie hlasové datasety
+other-datasets = Ďalšie kolekcie hlasových údajov
 feedback-q = Máte spätnú väzbu?
 resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ je <docsLink>súprava nástrojov s otvoreným zdrojom</docsLink> pre výskumníkov, ktorí vyvíjajú najmodernejšie modely konverzácie AI.
 resource-deepspeech-info = Open source nástroj na rozpoznávanie hlasu Deep Speech od Mozilly možno použiť na vytváranie aplikácií na rozpoznávanie reči. Prečítajte si náš <githubLink>prehľad na Githube</githubLink> alebo sa pripojte na fórum <discourseLink>DeepSpeech Discourse</discourseLink> a zistite, ako začať.
 resource-coqui-info = <coquiLink>Coqui</coquiLink> sa venuje technológii otvorenej reči. Ich projekty zahŕňajú systémy STT a TTS založené na hlbokom učení.
 community-playbook = Príručka komunity
-resource-playbook-info = <playbookLink>Nájdite užitočné rady</playbookLink> pre celú cestu Common Voice, od lokalizácie po používanie množiny údajov, ako aj o tom, ako sa spojiť s našou komunitou.
+resource-playbook-info = Pozrite si <playbookLink>užitočné rady</playbookLink> pre celú cestu Common Voice, od lokalizácie po používanie kolekcie údajov, ako aj o tom, ako sa spojiť s našou komunitou.
 data-other-librispeech-description = LibriSpeech je korpus približne 1 000 hodín 16 kHz čítanej angličtiny odvodený z audiokníh z projektu LibriVox.
 data-other-ted-name = Korpus TED-LIUM
 data-other-ted-description = Korpus TED-LIUM je tvorený zvukovými nahrávkami prednášok a ich prepismi dostupnými na webovej stránke TED.
 data-other-voxforge-description = VoxForge bol vytvorený za účelom zberu prepísanej reči na použitie vo voľne dostupných, open source systémoch rozpoznávania reči.
 data-other-tatoeba-description = Tatoeba je rozsiahla databáza viet, prekladov a hovoreného slova pre použitie pri štúdiu jazykov. Obsahuje hovorenú angličtinu nahranú jej komunitou.
-your-feedback = Máte nápady, ako vylepšiť dataset Common Voice? Dajte nám o nich vedieť na Discourse.
+your-feedback = Máte nápady, ako môžeme vylepšiť kolekciu údajov Common Voice? Dajte nám vedieť na Discourse.
 go-discourse = Prejsť na Discourse
-missing-language = Nevidíte v datasete svoj jazyk? Ak chcete o jazyk požiadať, prejdite na stránku s jazykmi.
-go-languages-page = Prejsť na stránku s jazykmi
+missing-language = Nezobrazuje sa váš jazyk v kolekcii údajov? Ak chcete požiadať o pridanie jazyka, prejdite na našu stránku Jazyky.
+go-languages-page = Prejsť na stránku Jazyky
 ready-to-validate = Ste pripravení pomôcť s overovaním viet?
 more = Viac
 close = Zavrieť
@@ -801,7 +804,7 @@ download-helpus = Pomôžte nám vybudovať komunitu okolo technológií rozpozn
 download-form-email =
     .label = Zadajte svoju e-mailovú adresu
     .value = Ďakujeme, ozveme sa vám.
-download-back = Naspäť na datasety Common Voice
+download-back = Naspäť na Kolekcie údajov Common Voice
 download-no = Nie, ďakujem
 
 ## Contact Modal
@@ -815,10 +818,10 @@ contact-required = * vyžadované pole
 
 ## Request Language Modal
 
-request-language-title = Žiadosť o jazyk
+request-language-title = Žiadosť o pridanie jazyka
 request-language-form-language =
     .label = Jazyk
-request-language-success-title = Žiadosť o jazyk bola odoslaná. Ďakujeme.
+request-language-success-title = Žiadosť o pridanie jazyka bola odoslaná. Ďakujeme.
 request-language-success-content = Čoskoro vám dáme vedieť, ako môžete pridať svoj jazyk do Common Voice.
 select-language = Vyberte si jazyk...
 other-language = Ostatné jazyky
@@ -900,7 +903,7 @@ record-cancel = Zrušiť opakovaný záznam
 record-instruction = { $actionType } na <recordIcon></recordIcon> a prečítajte vetu nahlas
 record-stop-instruction = { $actionType } na <stopIcon></stopIcon> keď budete hotoví
 record-three-more-instruction = Ešte tri!
-record-again-instruction = Skvelé! <recordIcon></recordIcon>Nahrajte váš ďalší klip
+record-again-instruction = Skvelé! <recordIcon></recordIcon> Poďme na ďalšiu nahrávku
 record-again-instruction2 = Vynikajúce, pokračujte v nahrávaní <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon> Ešte naposledy!
 review-tooltip = Skontrolujte nahrávky a v prípade potreby ich opätovne nahrajte tu
@@ -918,8 +921,10 @@ listen-instruction = { $actionType } na <playIcon></playIcon> Bola veta v poriad
 listen-again-instruction = Skvelá práca! <playIcon></playIcon> Keď budete pripravení, spustite ďalšiu nahrávku
 listen-3rd-time-instruction = 2 už sú za vami, pokračujte v dobrej práci!<playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon> Posledná nahrávka!
-listen-empty-state = Minuli sa nám klipy na overenie v tomto jazyku...
-listen-loading-error = Nepodarilo sa nám získať žiadne zvukové klipy, ktoré by ste si mohli vypočuť. Skúste neskôr prosím.
+listen-empty-state = Zdá sa, že sa nám minuli nahrávky – obnovte stránku alebo to skúste znova neskôr.
+listen-loading-error =
+    Nepodarilo sa nám získať žiadne zvukové nahrávky, ktoré by ste si mohli vypočuť.
+    Skúste neskôr prosím.
 speak-empty-state = Minuli sa nám vety na nahrávanie v tomto jazyku...
 speak-empty-state-cta = Pridajte ďalšie vety
 speak-loading-error = Nedostali sme žiadne vety, ktoré by ste mohli povedať. Skúste neskôr prosím.
@@ -1085,11 +1090,11 @@ share-goal = Zdieľať môj cieľ
 
 ## Profile Delete
 
-delete-q = Chcete tiež požiadať o vymazanie vašich hlasových nahrávok, alebo ich chcete ponechať v datasete Common Voice?
+delete-q = Chcete tiež požiadať o vymazanie vašich hlasových nahrávok, alebo ich chcete ponechať v kolekcii údajov Common Voice?
 keep = Ponechať
 remove = Odstrániť
-keep-info = Vaše anonymné hlasové nahrávky zostanú v dátovom súbore Common Voice. Po odstránení profilu už nebudete môcť odoslať žiadosť o odstránenie záznamov z datasetu
-remove-info = Vašu žiadosť o odstránenie vašich hlasových záznamov z datasetu posúdime. Ak bude vaša žiadosť schválená, skontaktujeme sa s tými, ktorí si stiahli dataset a požiadame ich o odstránenie vašich hlasových záznamov.
+keep-info = Vaše anonymné hlasové nahrávky zostanú v kolekcii údajov Common Voice. Po odstránení svojho profilu už nebudete môcť odoslať žiadosť o odstránenie vašich nahrávok z kolekcie údajov.
+remove-info = Vašu žiadosť o odstránenie vašich hlasových nahrávok z kolekcie údajov posúdime. Ak bude vaša žiadosť schválená, kontaktujeme tých, ktorí si kolekciu údajov stiahli, a požiadame, aby odstránili aj vaše hlasové nahrávky.
 why-delete-recordings =
     Nahrávky Common Voice používajú akademici, malé podniky a nadšenci, aby pomohli trénovať a rozširovať verejne dostupné zdroje, ako sú hlasové modely.
     
@@ -1116,7 +1121,7 @@ download-requests = Žiadosti o stiahnutie predchádzajúcich nahrávok
 download-requests-info = Keď si vyžiadate svoje nahrávky, skompilujeme ich do jedného alebo viacerých súborov ZIP. Tu sú vaše predchádzajúce žiadosti:
 download-request-button = Stiahnuť
 download-request-title = { $created }
-download-request-description = Hlasové klipy (celkom { $clipCount }), celková veľkosť archívu { $size }. Vyprší { $expires }.
+download-request-description = Hlasové nahrávky (celkom { $clipCount }), celková veľkosť archívu { $size }. Vyprší { $expires }.
 download-request-archive-single = Jeden súbor ZIP obsahujúci
 download-request-archive-multiple = Rozdeliť na niekoľko súborov ZIP (celkom { $archiveCount }) obsahujúcich
 download-request-assembling-description = Vaše súbory sa zhromažďujú. Skontrolujte to znova neskôr.
@@ -1130,7 +1135,7 @@ download-request-link-single = Môžete tiež skopírovať a prilepiť odkazy do
 ## Landing
 
 welcome-staff = Vítame zamestnancov spoločnosti { $company }!
-help-contribute = Vytvorením profilu v Common Voice a prispením svojho hlasu, môžete pomôcť vytvoriť rozmanitý open-source dataset.
+help-contribute = Vytvorením profilu Common Voice a prispením svojim hlasom môžete pomôcť vybudovať rôznorodú otvorenú kolekciu hlasových údajov.
 login-company = Prihláste sa / zaregistrujte sa pomocou e-mailu { $company }
 profile-not-required = Profil nie je nutnosťou, no môže byť užitočný
 read-more-about = Prečítajte si viac na stránke O nás
@@ -1143,13 +1148,13 @@ demo-welcome-subheader = Máte záujem dozvedieť sa viac a prispieť k projektu
 
 ## Demo Datasets
 
-demo-language-select-card-header = Common Voice je najväčší verejne dostupný viacjazyčný súbor hlasových údajov na svete.
-demo-language-select-card-body = Vďaka príspevkom od viac ako 259 000 ľudí vo viac ako 50 jazykoch sa tieto údaje používajú na učenie aplikácií s podporou reči, aby lepšie reagovali na ľudský hlas.
+demo-language-select-card-header = Common Voice je najväčšia verejne dostupná viacjazyčná kolekcia hlasových údajov na svete.
+demo-language-select-card-body = Vďaka príspevkom od viac ako 259 tisíc ľudí vo viac ako 50 jazykoch sa tieto údaje používajú na trénovanie aplikácií s podporou reči, aby lepšie reagovali na ľudský hlas.
 card-button-next = Ďalej
 card-button-back = Naspäť
 demo-language-select-label = Prechádzať jazyky
 demo-eofy-header = Vydanie na konci roka 2019
-demo-eofy-sub_header = Hlasová dátová sada, pripravená na stiahnutie
+demo-eofy-sub_header = Kolekcia hlasových údajov, pripravená na stiahnutie
 demo-account = Účet
 
 ## Demo Account
@@ -1169,14 +1174,14 @@ demo-listen-subtitle = Pripravený prispieť?
 ## Demo Dashboard
 
 demo-dashboard-card-header = Osobné informačné panely vás informujú o pokroku jednotlivcov a komunity.
-demo-dashboard-card-body = Pre každý darovaný hlasový klip a každý overený zvukový klip sa informačné panely vášho účtu aktualizujú tak, aby odrážali váš najnovší pokrok v každom jazyku, do ktorého prispievate. Áno, môžete prispieť do viacerých! <br/> <br/> Pomocou informačných panelov môžete sledovať svoje štatistiky, zistiť, ako sa vám darí spolu s ostatnými v komunite, a nastaviť si denné alebo týždenné ciele v oblasti príspevkov.
+demo-dashboard-card-body = Pre každú vytvorenú hlasovú nahrávku a každú overenú zvukovú nahrávku sa panely vášho účtu aktualizujú, aby odrážali váš najnovší pokrok v každom jazyku, do ktorého prispievate. Áno, môžete prispieť aj do viacerých.<br/><br/> Pomocou informačných panelov sledujte svoje štatistiky, zistite, ako sa vám darí spolu s ostatnými v komunite, a stanovte si denné alebo týždenné ciele prispievania.
 
 ## Validation criteria
 
 contribution-criteria-nav = Kritériá
 contribution-criteria-link = Pochopte kritériá príspevku
 contribution-criteria-page-title = Kritériá príspevku
-contribution-criteria-page-description = Pochopte, na čo sa zamerať pri počúvaní hlasových klipov, a pomôžte tiež obohatiť svoje hlasové nahrávky!
+contribution-criteria-page-description = Pochopte, na čo sa zamerať pri počúvaní hlasových nahrávok, a pomôžte tiež obohatiť svoje hlasové nahrávky!
 contribution-for-example = napríklad
 contribution-misreadings-title = Nesprávne prečítané
 contribution-misreadings-description = Pri počúvaní veľmi starostlivo skontrolujte, či to, čo bolo zaznamenané, je presne to, čo bolo napísané. Ak dôjde k čo i len malým chybám, odmietnite to.<br />Medzi veľmi časté chyby patria:
@@ -1200,7 +1205,7 @@ contribution-misreadings-example-7-explanation = [V pôvodnom texte nie je "1"]
 contribution-misreadings-example-8-title = Okolo preletel čmeliak.
 contribution-misreadings-example-8-explanation = [Obsah sa nezhoduje]
 contribution-varying-pronunciations-title = Rôzne výslovnosti
-contribution-varying-pronunciations-description = Buďte opatrní, kým odmietnete klip z dôvodu, že čitateľ nesprávne vyslovil slovo, zdôraznil na zlom mieste alebo zjavne ignoroval otáznik. Po celom svete sa používa široká škála výslovností, z ktorých niektoré ste možno vo svojej miestnej komunite nepočuli. Poskytnite, prosím, priestor na uznanie tým, ktorí môžu hovoriť inak ako vy.
+contribution-varying-pronunciations-description = Buďte opatrní, kým odmietnete nahrávku z dôvodu, že čitateľ nesprávne vyslovil slovo, zdôraznil na zlom mieste alebo zjavne ignoroval otáznik. Po celom svete sa používa široká škála výslovností, z ktorých niektoré ste možno vo svojej miestnej komunite nepočuli. Poskytnite, prosím, priestor na uznanie tým, ktorí môžu hovoriť inak ako vy.
 contribution-varying-pronunciations-description-extended = Na druhej strane, ak si myslíte, že sa čitateľ s týmto slovom pravdepodobne nikdy predtým nestretol a iba nesprávne odhaduje výslovnosť, odmietnite. Ak si nie ste istí, použite tlačidlo preskočiť.
 contribution-varying-pronunciations-example-1-title = Na hlave mal baret.
 contribution-varying-pronunciations-example-1-explanation = [V slove ‘baret’ je v poriadku aj dôraz na prvú slabiku (Spojené kráľovstvo) a takisto druhú slabiku (USA)]
@@ -1214,7 +1219,7 @@ contribution-background-noise-example-2-fixed-title = Obrovský dino <strong>[za
 contribution-background-noise-example-2-explanation = [Časť textu nie je možné počuť]
 contribution-background-noise-example-3-fixed-title = <strong>[Praskot]</strong> obrie dinosaury <strong>[praskot]</strong> -riasu.
 contribution-background-voices-title = Hluk na pozadí
-contribution-background-voices-description = Tichá vrava na pozadí je v poriadku, ale nechceme ďalšie hlasy, ktoré môžu spôsobiť, že algoritmus stroja identifikuje slová, ktoré nie sú v písanom texte. Ak počujete odlišné slová ako tie v texte, klip by mal byť odmietnutý. Obvykle sa to stane tam, kde bol televízor zapnutý, alebo v blízkosti prebieha konverzácia.
+contribution-background-voices-description = Tichá vrava na pozadí je v poriadku, ale nechceme ďalšie hlasy, ktoré môžu spôsobiť, že algoritmus stroja identifikuje slová, ktoré nie sú v písanom texte. Ak počujete odlišné slová ako tie v texte, nahrávka by mala byť odmietnutá. Obvykle sa to stane tam, kde bol zapnutý televízor, alebo v blízkosti prebiehala iná konverzácia.
 contribution-background-voices-description-extended = Ak je záznam prerušovaný alebo praská, a nie je počuť celý text, odmietnite ho.
 contribution-background-voices-example-1-title = Obrie dinosaury z triasu. <strong>[prečítané jedným tónom hlasu]</strong>
 contribution-background-voices-example-1-explanation = Ideš už? <strong>[volá iný hlas]</strong>
@@ -1272,7 +1277,7 @@ sc-howto-addlang-title = Pridanie jazykov, ktorými chcete pracovať
 sc-howto-addlang-text = Po prihlásení si môžete vybrať jazyky v sekcii profilu.
 sc-howto-addsen-title = Pridanie nových viet
 sc-howto-addsen-item-1 = Všetky vety, ktoré odošlete, musia byť <wikipediaLink>dostupné pod verejnou licenciou (CC-0)</wikipediaLink>. Aby sme podporili zahrnutie diela, ktoré nie je pod verejnou licenciou, vytvorili sme <cc0WaiverLink>šablónu zmluvy o príspevkoch</cc0WaiverLink> pre diela, pri ktorých by vlastník autorských práv chcel prispieť materiálom do Common Voice.
-sc-howto-addsen-item-2 = Čísla. V zdrojovom texte by nemali byť žiadne číslice, pretože pri hlasnom čítaní môžu spôsobiť problémy. Spôsob, akým sa číslo číta, závisí od kontextu a môže spôsobiť zmätok v množine údajov. Napríklad číslo „2409“ by sa dalo presne čítať ako „dvadsaťštyri nula deväť“ aj ako „dvetisícštyristodeväť“.
+sc-howto-addsen-item-2 = Čísla. V zdrojovom texte by nemali byť žiadne číslice, pretože pri hlasnom čítaní môžu spôsobiť problémy. Spôsob, akým sa číslo číta, závisí od kontextu a môže spôsobiť zmätok v kolekcii údajov. Napríklad číslo „2409“ by sa dalo presne čítať ako „dvadsaťštyri nula deväť“ aj ako „dvetisícštyristodeväť“.
 sc-howto-addsen-item-3 = Skratky a akronymy. V zdrojovom texte by ste sa mali vyhýbať skratkám a akronymom ako „USA“ alebo „ICE“, pretože sa môžu čítať spôsobom, ktorý sa nezhoduje s ich pravopisom. Okrem toho môže existovať viacero presných údajov pre jednu skratku. Napríklad skratka „ICE“ sa môže vyslovovať ako „I-C-E“ alebo ako jedno slovo.
 sc-howto-addsen-item-4 = Interpunkcia. Špeciálne symboly a interpunkčné znamienka by sa mali uvádzať len vtedy, keď je to absolútne nevyhnutné. Napríklad v anglických slovách ako „don't“ a „were“ je zahrnutý apostrof a mal by byť zahrnutý v zdrojovom texte, ale je nepravdepodobné, že budete niekedy potrebovať špeciálny symbol ako „@“ alebo „#“.
 sc-howto-addsen-item-5 = Cudzie znaky. Písmená musia byť platné v jazyku, ktorým sa hovorí. Napríklad „ж“ je písmeno v ruskej abecede, ale nikdy sa nepoužíva v angličtine, a preto by sa nikdy nemalo objaviť v žiadnom anglickom zdrojovom texte.
@@ -1579,13 +1584,13 @@ partnerships-academia-description = Otvorená inovácia je jadrom toho, čo rob�
 partnerships-small-business-header = Malé podniky vrátane začínajúcich podnikov v oblasti technológií a AI
 partnerships-small-business-description = Vždy sa snažíme načúvať potrebám spotrebiteľov našich údajov – od spolupráce na platforme zberu údajov až po poskytovanie štatistík o stave údajov. <emailFragment>Dajte nám vedieť o tých vašich</emailFragment>.
 partnerships-corporates-header = Veľké korporácie a platformové spoločnosti
-partnerships-corporates-description = Ak chcete o súbore údajov hovoriť viac, chcete spoluinvestovať do plánovaného rozšírenia platformy alebo hľadať možnosti spolupráce, <emailFragment>napíšte nám</emailFragment>.
+partnerships-corporates-description = Ak chcete o kolekcii údajov hovoriť viac, chcete sa podieľať na investovaní do plánovaného rozšírenia platformy alebo hľadáte možnosti spolupráce, <emailFragment>napíšte nám</emailFragment>.
 partnerships-our-partners = Naši partneri
 # FIRST POST SUBMISSION CTA
-first-cta-header-text = Ďakujeme za darovanie vašich hlasových klipov!
+first-cta-header-text = Ďakujeme za darovanie vašich hlasových nahrávok!
 first-cta-subtitle-text = Chceli by ste sa podeliť o nejaké informácie o tom, ako hovoríte?
 why-donate = Prečo sa pýtate?
-why-donate-explanation-1 = Poskytnutie týchto informácií je nepovinné – mali by ste ich pridať, iba ak sa cítite dobre. Keď zverejníme súbor údajov, pseudonymizujeme všetky osobné informácie a uistíme sa, že informácie, ako je vaše meno a e-mail, nie sú spojené s demografickými informáciami, ako je vek alebo pohlavie.
+why-donate-explanation-1 = Poskytnutie týchto informácií je nepovinné – mali by ste ich pridať, iba ak sa cítite dobre. Keď zverejníme kolekciu údajov, pseudonymizujeme všetky osobné informácie a uistíme sa, že informácie, ako je vaše meno a e-mail, nie sú spojené s demografickými informáciami, ako je vek alebo pohlavie.
 why-donate-explanation-2 = Aby technológia fungovala dobre pre každého, údaje, ktoré pomáhajú vývojárom vytvárať technológie, musia odrážať rôznorodú škálu ľudí. Ak napríklad nezahrnieme nahrávky s konkrétnym prízvukom, potom táto technológia nebude fungovať spoľahlivo pre ľudí s týmto prízvukom. <learnMore>Pozrite si ďalšie informácie o tom, prečo sú metadáta dôležité</learnMore>.
 add-information-button = Pridať informácie
 continue-speaking-button = Nie, ďakujem, hovorme ďalej
@@ -1599,6 +1604,96 @@ already-have-an-account = Máte už účet? <login>Prihlásiť sa</login>
 create-profile-button = Vytvoriť profil
 # IMAGE TAGS
 img-alt-success-checkmark = symbol začiarknutia
+# GUIDELINES PAGE
+guidelines-header = Pokyny pre prispievanie
+guidelines-header-subtitle = Prečítajte si, ako prispievať a overovať vety a zvukové nahrávky do kolekcie údajov Common Voice
+voice-collection = Zbierka hlasov
 sentence-collection = Zber viet
+varying-pronunciations = Rôzne výslovnosti
+misreadings = Nesprávne prečítané
+offensive-content = Urážlivý obsah
+background-noise = Hluk na pozadí
+background-voices = Hlasy na pozadí
+volume = Hlasitosť
+reader-effects = Efekty od čítajúceho
+just-unsure = Len si nie ste istí?
+example = Príklad
+varying-pronunciations-explanation-1 = Vítame rôzne prízvuky. Buďte veľmi opatrní pred odmietnutím nahrávky z dôvodu, že si myslíte, že čitateľ nesprávne vyslovil nejaké slovo, umiestnil dôraz na nesprávne miesto alebo ignoroval interpunkciu. Vo svete sa používa široká škála výslovností, pričom niektoré z nich ste vo svojej miestnej komunite možno ešte nepočuli. Poskytnite, prosím, veľkú mieru uznania tým, ktorí môžu hovoriť inak ako vy.
+varying-pronunciations-explanation-2 = Na druhej strane, ak si myslíte, že čítajúci sa s týmto slovom ešte nikdy nestretol a nesprávne odhaduje výslovnosť, odmietnite ho. Ak si nie ste istí, použite tlačidlo preskočiť.
+varying-pronunciations-example = Trasa bola nejasná.
+varying-pronunciations-tip-1 = [V kanadskej angličtine sa vyslovuje slovo „trasa“ odlišne]
+varying-pronunciations-tip-2 = [Aj v britskej angličtine môže znieť inak]
+offensive-content-explanation = Tresty sa preverujú prostredníctvom procesu komunitného moderovania, tento proces však nie je dokonalý. Ak uvidíte alebo počujete vetu, ktorá vás uráža alebo rozčuľuje – napríklad preto, že porušuje naše <participationGuidelines>pravidlá účasti v komunite</participationGuidelines> – použite tlačidlo vlajky v používateľskom rozhraní. Môžete nás tiež kontaktovať na adrese <emailFragment>commonvoice@mozilla.com</emailFragment>.
+misreadings-explanation-1 = Na správnom prečítaní všetkých slov na stránke záleží. Pri počúvaní veľmi pozorne skontrolujte, či to, čo bolo zaznamenané, je presne to, čo bolo napísané. Nahrávku odmietnite, ak čítajúci pridal či vynechal slová.
+misreadings-explanation-2 = Medzi veľmi časté chyby patria:
+misreadings-explanation-3 = Na začiatku nahrávky chýba člen „A“ alebo „The“.
+misreadings-explanation-4 = Chýbajúce 's' na konci slova.
+misreadings-explanation-5 = Čítanie krátených foriem, ktoré v skutočnosti neexistujú, napríklad „We're“ namiesto „We are“ alebo naopak.
+misreadings-explanation-6 = Chýbajúci koniec posledného slova príliš rýchlym prerušením záznamu.
+misreadings-explanation-7 = Niekoľko pokusov o prečítanie slova.
+misreadings-example-1 = My ideme na kávu.
+misreadings-example-2 = Ideme na kávu.
+misreadings-example-3 = My ideme von na kávu.
+misreadings-example-4 = Okolo preletel čmeliak.
+misreadings-tip-1 = [Malo by byť „My ideme“]
+misreadings-tip-2 = [V pôvodnom texte nie je "von"]
+misreadings-tip-3 = [Obsah sa nezhoduje]
+background-noise-explanation = Musíte počuť každé slovo nahrávky. Chceme, aby algoritmy strojového učenia boli schopné zvládnuť rôzne zvuky na pozadí a akceptovať možno aj relatívne hlasné zvuky alebo tichú hudbu na pozadí za predpokladu, že vám nebránia počuť celý text. Praskanie alebo iné rušenie, ktoré vám bráni počuť text, znamená, že by ste mali nahrávku odmietnuť.
+background-noise-example-1 = Obrie dinosaury z triasu.
+background-noise-example-2 = [kýchnutie] Obrie dinosaury [zakašľanie] z triasu.
+background-noise-example-3 = Obrovský dino [zakašľanie] triasu.
+background-noise-example-4 = [prasknutie] Obrie dinosaury z [prasknutie] asu.
+background-noise-tip-1 = [prerušované hlukom v pozadí]
+background-noise-tip-2 = [Časť textu nie je možné počuť]
+background-voices-explanation = Trochu hluku v pozadí je v poriadku, ale ak počujete inú osobu hovoriť zreteľné slová, nahrávku by ste mali odmietnuť. Zvyčajne sa to stane tam, kde bol zapnutý televízor alebo kde v blízkosti prebieha iná konverzácia.
+background-voices-example-1 = Obrie dinosaury z triasu. [prečítané jedným hlasom]
+background-voices-tip-1 = Ideš s nami? [hlas niekoho iného]
+volume-explanation = Medzi príspevkami budú prirodzené odchýlky v hlasitosti. Odmietnite iba vtedy, ak je hlasitosť taká vysoká, že sa záznam rozpadne, alebo (bežnejšie) ak je taká nízka, že nemôžete počuť, čo sa na zázname hovorí bez toho, aby ste si pozreli napísaný text.
+reader-effects-explanation = Väčšina nahrávok je od ľudí, ktorí hovoria svojim prirodzeným hlasom. Môžete prijať príležitostný neštandardný záznam, ktorý je kričaný, šepkaný alebo očividne podaný „dramatickým“ hlasom. Odmietnite spievané nahrávky a nahrávky používajúce počítačovo syntetizovaný hlas.
+just-unsure-explanation = Ak narazíte na niečo, na čo sa tieto pokyny nevzťahujú, hlasujte podľa svojho najlepšieho úsudku. Ak sa naozaj nemôžete rozhodnúť, použite tlačidlo preskočenia a pokračujte k ďalšiemu záznamu.
+still-have-questions = Máte ďalšie otázky?
+contact-common-voice = Kontaktujte tím Common Voice
+public-domain = Verejná licencia
+citing-sentences = Citovanie viet
+adding-sentences = Pridávanie viet
+reviewing-sentences = Kontrola viet
+public-domain-explanation-1 = Je veľmi dôležité, aby všetky textové vety boli dostupné pod <publicDomain>verejnou licenciou</publicDomain> (<cc0>cc0</cc0>), keďže kolekcia údajov Common Voice je vydávaná pod licenciou cc0. Nahrajte vetu, len ak ste si istí, a vždy uveďte príslušnú citáciu.
+public-domain-explanation-2 = Najlepšie vety na vytvorenie užitočného nástroja na rozpoznávanie reči sú hovorové, moderné výrazy. Niekoľko tipov, ktoré vám pomôžu pri vytváraní viet:
+public-domain-explanation-3 = Vytvárajte moderné hovorové vety sami alebo so svojimi priateľmi alebo jazykovou komunitou – napríklad prostredníctvom „write-a-thon“
+public-domain-explanation-4 = Kontaktujte autorov, dramatikov alebo scenáristov a opýtajte sa, či by boli ochotní venovať malú časť svojich diel verejnej sfére
+public-domain-explanation-5 = Hľadajte text, kde už neplatia autorské práva – napríklad väčšina kníh, ktoré boli vydané pred rokom 1920
+public-domain-explanation-6 = Oslovte vlády, neziskové organizácie alebo mediálne organizácie a zistite, či niektorý z ich webového obsahu, správ alebo iného obsahu môže byť venovaný na verejné účely
+citing-sentences-explanation-1 = Je dôležité zahrnúť citácie, aby sme mohli skontrolovať, či sú vety pod verejnou licenciou a nevzťahujú sa na ne žiadne obmedzenia týkajúce sa autorských práv.
+citing-sentences-subheader-websites = Webové stránky
+citing-sentences-subheader-websites-explanation = Môžete zahrnúť webovú stránku, napr. „Common Voice – https://commonvoice.mozilla.org/“
+citing-sentences-subheader-academic-reference = Akademická referencia
+citing-sentences-subheader-academic-reference-explanation = Môžete použiť akademický štýl odkazovania, napr. Harvardský štýl „Mozilla (2021) Common Voice. Dostupné na https://commonvoice.mozilla.org/ (Prístup: 15. septembra 2021)“
+citing-sentences-subheader-offline-sources = Offline zdroje
+citing-sentences-subheader-offline-sources-explanation = Pre verejne dostupný text, ktorý nie je dostupný online, môžete použiť akademický štýl odkazovania, napríklad štýl Harvardu „Jess (2021) Moje básne pod verejnou licenciou“
+citation =
+    .label = Citácia
+self-citation = Vlastná citácia
+self-citation-explanation = Takto sa citujete, ak ste obsah napísali sami.
+adding-sentences-subheader-length = Dĺžka
+adding-sentences-subheader-length-explanation = Veta by mala mať menej ako 15 slov.
+adding-sentences-subheader-spelling-punctuation = Pravopis a interpunkcia
+adding-sentences-subheader-spelling-punctuation-explanation = Veta musí byť napísaná správne.
+adding-sentences-subheader-speakable = Hovoriteľné
+adding-sentences-subheader-speakable-explanation = Najlepšie vety sú prirodzené a konverzačné – mali by byť jednoducho čitateľné. Aj keď je fonetická rôznorodosť a rôzne slová vo vetách dôležité, snažíme sa, aby nahrávanie viet bolo pre našu komunitu dobrovoľníkov čo najpútavejšie a najzábavnejšie.
+adding-sentences-subheader-numbers = Čísla
+adding-sentences-subheader-numbers-explanation = V zdrojovom texte by sa v ideálnom prípade nemali nachádzať žiadne číslice, pretože pri hlasnom čítaní môžu spôsobiť problémy. Spôsob, akým sa číslo číta, závisí od kontextu a môže spôsobiť zmätok v kolekcii údajov. Napríklad číslo „2409“ by sa dalo presne čítať ako „dvadsaťštyri nula deväť“ aj ako „dvetisícštyristodeväť“.
+adding-sentences-subheader-abbreviations = Skratky a akronymy
+adding-sentences-subheader-abbreviations-explanation = V zdrojovom texte by ste sa mali vyhýbať skratkám a akronymom ako „USA“ alebo „ICE“, pretože sa môžu čítať spôsobom, ktorý sa nezhoduje s ich pravopisom. Okrem toho môže existovať viacero významov pre jednu skratku.
+adding-sentences-subheader-punctuation = Interpunkcia
+adding-sentences-subheader-punctuation-explanation = Špeciálne symboly a interpunkčné znamienka by sa mali uvádzať len vtedy, keď je to absolútne nevyhnutné. Napríklad v anglických slovách ako „don't“ a „were“ je zahrnutý apostrof a mal by byť zahrnutý v zdrojovom texte, ale je nepravdepodobné, že budete niekedy potrebovať špeciálny symbol ako „@“ alebo „#“.
+adding-sentences-subheader-special-characters = Špeciálne znaky a cudzie písmená
+adding-sentences-subheader-special-characters-explanation-1 = Písmená musia byť platné v jazyku, ktorým sa hovorí. Napríklad „ж“ je písmeno v ruskej abecede, ale nikdy sa nepoužíva v angličtine, a preto by sa nikdy nemalo objaviť v žiadnom anglickom zdrojovom texte.
+adding-sentences-subheader-special-characters-explanation-2 = Jazyky môžu mať pri lokalizácii svoje vlastné pravidlá overovania s ďalšími požiadavkami. Ak pre jazyk neexistuje žiadny konkrétny overovací súbor, prispievateľom sa zobrazia pravidlá v angličtine.
+adding-sentences-subheader-offensive-content = Urážlivý obsah
+adding-sentences-subheader-offensive-content-explanation = Ak je veta urážlivá alebo rozrušujúca – napríklad z dôvodu explicitného obsahu alebo iného porušenia našich <communityGuidelines>pokynov pre účasť v komunite</communityGuidelines> – mali by ste ju odmietnuť. Môžete nás tiež kontaktovať na adrese <emailFragment>commonvoice@mozilla.com</emailFragment> a eskalovať problém.
+reviewing-sentences-explanation-1 = Ak veta spĺňa vyššie uvedené kritériá, kliknite na tlačidlo „Áno“.
+reviewing-sentences-explanation-2 = Ak veta nespĺňa vyššie uvedené kritériá, kliknite na tlačidlo „Nie“.
+reviewing-sentences-explanation-3 = Ak si nie ste istí vetou, môžete ju tiež preskočiť a prejsť na ďalšiu.
+reviewing-sentences-explanation-4 = Ak vám dochádzajú vety na kontrolu, môžete nám pomôcť zhromaždiť ďalšie vety.
 community-announcement-header = Oznámenie komunity!
 community-announcement-explanation = Pokyny nižšie sa týkajú nových funkcií zberača viet, ktoré budú integrované do základnej platformy Common Voice počas marca a apríla 2023. Medzitým môžete použiť predchádzajúci nástroj, <scLink>https://commonvoice.mozilla.org/sentence-collector/</scLink>.
