@@ -416,7 +416,6 @@ A Castells, els fadrinets, que van ben carregats d’arma.
 A Castelló hi posen botifarres d’arròs, papada de porc i una pilota allargada.
 A Ciutadella beuen gin amb llimonada a altres pobles li diuen pomada
 A Ciutadella per ses festes de sant Joan
-A Cornellà, Tània i Aina tallen roca.
 A Dinamarca, Holanda i Bèlgica.
 A Dènia ve l'Eva i neda.
 A Dénia, port de la mar, allí s’embarca la pansa.
@@ -474,7 +473,6 @@ A cada generació avalue l'aptitud de cada individu a la població.
 A cadascuna de les seues ciutats experimentals, actuarà mitjançant un cert nombre de camps.
 A canvi, els havia regalat un dels nostres fusells
 A cap d'ells no atorgava un grau superior al de comandant
-A casa cal refer la casaca.
 A casa criaven gallines ponedores, pollastres i conills.
 A casa de Càl·lias fill d'Hiponic.
 A casa hi tinc un balcó que un monarca envejaria
@@ -662,7 +660,6 @@ A mi sí que res m'hi fa que faci sol.
 A mi, em quedava prou força en el braç esquerre
 A mida que avança el film, veiem coincidències de personatges i escenes.
 A mig aire de la serra veig un ametller florit.
-A mitges no omplen sitges.
 A mitjan maig a segar vaig.
 A més a més, hi van trobar dos grans de pebre.
 A més del paquet estàndard, s'han distribuït diverses variants quant al programari inclòs.
@@ -3374,6 +3371,7 @@ Anirem a Girona a veure el cul de la lleona.
 Anirem a cal metge encara que sigui a rossegons.
 Anirem a casa dels avis aquesta tarda, ja hi pots pujar de peus.
 Anirem a veure una obra de titelles a Gràcia.
+Anirem plegats a la platja!
 Anirem una estona al parc a jugar i després cap a casa.
 Anirien al lloc més camp que hi havia als volts de la ciutat
 Aniràs a l'espatlla d'una amiga.
@@ -3563,6 +3561,7 @@ Aquell planter de menestrals.
 Aquell que no té diners, cap sant no li posa l’olla.
 Aquell se'n havia anat al cel, am la pissarra i el mestre
 Aquell sermó d'economia els havia tocat el cor
+Aquell sopar va esdevenir un àpat deliciós.
 Aquell soroll fora de temps, era una cosa extraordinària.
 Aquell subjecte sapat, desinvolt i enèrgic.
 Aquell terreno, que no més costava a ral el pam
@@ -3647,13 +3646,140 @@ Aquest escenari produeix malestar i neurosi.
 Aquest estiu aniré a Abella de la Conca
 Aquest estiu aniré a Abrera
 Aquest estiu aniré a Agramunt
+Aquest estiu aniré a Aguilar de Segarra
+Aquest estiu aniré a Agullana
+Aquest estiu aniré a Aiguafreda
+Aquest estiu aniré a Aiguamúrcia
+Aquest estiu aniré a Aiguaviva
+Aquest estiu aniré a Aitona
+Aquest estiu aniré a Albanyà
+Aquest estiu aniré a Albatàrrec
+Aquest estiu aniré a Albesa
+Aquest estiu aniré a Albinyana
+Aquest estiu aniré a Albons
+Aquest estiu aniré a Alcanar
+Aquest estiu aniré a Alcanó
+Aquest estiu aniré a Alcarràs
+Aquest estiu aniré a Alcoletge
+Aquest estiu aniré a Alcover
+Aquest estiu aniré a Aldover
+Aquest estiu aniré a Alella
+Aquest estiu aniré a Alfara de Carles
+Aquest estiu aniré a Alfarràs
+Aquest estiu aniré a Alforja
+Aquest estiu aniré a Alfés
+Aquest estiu aniré a Algerri
+Aquest estiu aniré a Alguaire
+Aquest estiu aniré a Alins
+Aquest estiu aniré a Alió
+Aquest estiu aniré a Almacelles
+Aquest estiu aniré a Almatret
+Aquest estiu aniré a Almenar
+Aquest estiu aniré a Almoster
+Aquest estiu aniré a Alp
+Aquest estiu aniré a Alpens
+Aquest estiu aniré a Alpicat
+Aquest estiu aniré a Alt Àneu
+Aquest estiu aniré a Altafulla
+Aquest estiu aniré a Alàs i Cerc
+Aquest estiu aniré a Alòs de Balaguer
+Aquest estiu aniré a Amer
+Aquest estiu aniré a Amposta
+Aquest estiu aniré a Anglesola
+Aquest estiu aniré a Anglès
+Aquest estiu aniré a Arbeca
+Aquest estiu aniré a Arbolí
+Aquest estiu aniré a Arbúcies
+Aquest estiu aniré a Arenys de Mar
+Aquest estiu aniré a Arenys de Munt
+Aquest estiu aniré a Argelaguer
+Aquest estiu aniré a Argentona
+Aquest estiu aniré a Argençola
+Aquest estiu aniré a Arnes
+Aquest estiu aniré a Arres
+Aquest estiu aniré a Arsèguel
+Aquest estiu aniré a Artesa de Lleida
+Aquest estiu aniré a Artesa de Segre
+Aquest estiu aniré a Artés
+Aquest estiu aniré a Ascó
+Aquest estiu aniré a Aspa
+Aquest estiu aniré a Avinyonet de Puigventós
+Aquest estiu aniré a Avinyonet del Penedès
+Aquest estiu aniré a Avinyó
+Aquest estiu aniré a Avià
+Aquest estiu aniré a Badalona
+Aquest estiu aniré a Badia del Vallès
+Aquest estiu aniré a Bagà
+Aquest estiu aniré a Baix Pallars
+Aquest estiu aniré a Balaguer
+Aquest estiu aniré a Balenyà
+Aquest estiu aniré a Balsareny
+Aquest estiu aniré a Banyeres del Penedès
+Aquest estiu aniré a Banyoles
+Aquest estiu aniré a Barbens
+Aquest estiu aniré a Barberà de la Conca
+Aquest estiu aniré a Barberà del Vallès
+Aquest estiu aniré a Barcelona
+Aquest estiu aniré a Bassella
+Aquest estiu aniré a Batea
+Aquest estiu aniré a Bausen
+Aquest estiu aniré a Begues
+Aquest estiu aniré a Begur
+Aquest estiu aniré a Belianes
+Aquest estiu aniré a Bell-lloc d'Urgell
+Aquest estiu aniré a Bellaguarda
+Aquest estiu aniré a Bellcaire d'Empordà
+Aquest estiu aniré a Bellcaire d'Urgell
+Aquest estiu aniré a Bellmunt d'Urgell
+Aquest estiu aniré a Bellmunt del Priorat
+Aquest estiu aniré a Bellprat
+Aquest estiu aniré a Bellpuig
+Aquest estiu aniré a Bellvei
+Aquest estiu aniré a Bellver de Cerdanya
+Aquest estiu aniré a Bellvís
+Aquest estiu aniré a Benavent de Segrià
+Aquest estiu aniré a Benifallet
+Aquest estiu aniré a Benissanet
+Aquest estiu aniré a Berga
+Aquest estiu aniré a Besalú
+Aquest estiu aniré a Bescanó
+Aquest estiu aniré a Beuda
+Aquest estiu aniré a Bigues i Riells del Fai
+Aquest estiu aniré a Biosca
+Aquest estiu aniré a Biure
+Aquest estiu aniré a Blancafort
+Aquest estiu aniré a Blanes
+Aquest estiu aniré a Boadella i les Escaules
+Aquest estiu aniré a Bolvir
+Aquest estiu aniré a Bonastre
+Aquest estiu aniré a Bordils
+Aquest estiu aniré a Borrassà
+Aquest estiu aniré a Borredà
+Aquest estiu aniré a Bossòst
+Aquest estiu aniré a Bot
+Aquest estiu aniré a Botarell
+Aquest estiu aniré a Bovera
+Aquest estiu aniré a Breda
+Aquest estiu aniré a Brunyola i Sant Martí Sapresa
+Aquest estiu aniré a Bràfim
+Aquest estiu aniré a Bàscara
+Aquest estiu aniré a El Bruc
+Aquest estiu aniré a El Brull
 Aquest estiu aniré a El Vendrell
+Aquest estiu aniré a Es Bòrdes
+Aquest estiu aniré a La Baronia de Rialb
+Aquest estiu aniré a La Bisbal d'Empordà
+Aquest estiu aniré a La Bisbal de Falset
+Aquest estiu aniré a La Bisbal del Penedès
 Aquest estiu aniré a La Vall d'en Bas
 Aquest estiu aniré a La Vall de Bianya
 Aquest estiu aniré a La Vall de Boí
 Aquest estiu aniré a La Vansa i Fórnols
 Aquest estiu aniré a La Vilella Alta
 Aquest estiu aniré a La Vilella Baixa
+Aquest estiu aniré a Les Avellanes i Santa Linya
+Aquest estiu aniré a Les Borges Blanques
+Aquest estiu aniré a Les Borges del Camp
 Aquest estiu aniré a Les Valls d'Aguilar
 Aquest estiu aniré a Les Valls de Valira
 Aquest estiu aniré a Torre-serona
@@ -5283,6 +5409,7 @@ Controle l'ús del guionet, de la ratlla, dels parèntesis i de les cometes.
 Contràriament al que es pensa molt sovint, no hi trobem continguts gratuïts o esnobs.
 Contràriament al que hom pensava, les Covetes dels Moros no són un monestir visigòtic.
 Contràriament als procediments estètics que tendeixen a fixar l'emoció.
+Contàrem rondalles tota la nit fins que es llevà el dia.
 Convenia no dormir-se de seguida i reflexionar-ho una mica.
 Convenia no dormir-se i reflexionar-ho una mica.
 Convenient i tot per a la joia honesta de l'esperit i la felicitat.
@@ -5721,6 +5848,333 @@ Dels que es peguen i es molesten.
 Dels trenca-colls ve la caiguda, i caient es perd la salut
 Deltebre es un bon lloc per anar-hi
 Deltebre es troba al Baix Ebre
+Dema aniré a Abella de la Conca
+Dema aniré a Abrera
+Dema aniré a Agramunt
+Dema aniré a Aguilar de Segarra
+Dema aniré a Agullana
+Dema aniré a Aiguafreda
+Dema aniré a Aiguamúrcia
+Dema aniré a Aiguaviva
+Dema aniré a Aitona
+Dema aniré a Albanyà
+Dema aniré a Albatàrrec
+Dema aniré a Albesa
+Dema aniré a Albinyana
+Dema aniré a Albons
+Dema aniré a Alcanar
+Dema aniré a Alcanó
+Dema aniré a Alcarràs
+Dema aniré a Alcoletge
+Dema aniré a Alcover
+Dema aniré a Aldover
+Dema aniré a Alella
+Dema aniré a Alfara de Carles
+Dema aniré a Alfarràs
+Dema aniré a Alforja
+Dema aniré a Alfés
+Dema aniré a Algerri
+Dema aniré a Alguaire
+Dema aniré a Alins
+Dema aniré a Alió
+Dema aniré a Almacelles
+Dema aniré a Almatret
+Dema aniré a Almenar
+Dema aniré a Almoster
+Dema aniré a Alp
+Dema aniré a Alpens
+Dema aniré a Alpicat
+Dema aniré a Alt Àneu
+Dema aniré a Altafulla
+Dema aniré a Alàs i Cerc
+Dema aniré a Alòs de Balaguer
+Dema aniré a Amer
+Dema aniré a Amposta
+Dema aniré a Anglesola
+Dema aniré a Anglès
+Dema aniré a Arbeca
+Dema aniré a Arbolí
+Dema aniré a Arbúcies
+Dema aniré a Arenys de Mar
+Dema aniré a Arenys de Munt
+Dema aniré a Argelaguer
+Dema aniré a Argentona
+Dema aniré a Argençola
+Dema aniré a Arnes
+Dema aniré a Arres
+Dema aniré a Arsèguel
+Dema aniré a Artesa de Lleida
+Dema aniré a Artesa de Segre
+Dema aniré a Artés
+Dema aniré a Ascó
+Dema aniré a Aspa
+Dema aniré a Avinyonet de Puigventós
+Dema aniré a Avinyonet del Penedès
+Dema aniré a Avinyó
+Dema aniré a Avià
+Dema aniré a Badalona
+Dema aniré a Badia del Vallès
+Dema aniré a Bagà
+Dema aniré a Baix Pallars
+Dema aniré a Balaguer
+Dema aniré a Balenyà
+Dema aniré a Balsareny
+Dema aniré a Banyeres del Penedès
+Dema aniré a Banyoles
+Dema aniré a Barbens
+Dema aniré a Barberà de la Conca
+Dema aniré a Barberà del Vallès
+Dema aniré a Barcelona
+Dema aniré a Bassella
+Dema aniré a Batea
+Dema aniré a Bausen
+Dema aniré a Begues
+Dema aniré a Begur
+Dema aniré a Belianes
+Dema aniré a Bell-lloc d'Urgell
+Dema aniré a Bellaguarda
+Dema aniré a Bellcaire d'Empordà
+Dema aniré a Bellcaire d'Urgell
+Dema aniré a Bellmunt d'Urgell
+Dema aniré a Bellmunt del Priorat
+Dema aniré a Bellprat
+Dema aniré a Bellpuig
+Dema aniré a Bellvei
+Dema aniré a Bellver de Cerdanya
+Dema aniré a Bellvís
+Dema aniré a Benavent de Segrià
+Dema aniré a Benifallet
+Dema aniré a Benissanet
+Dema aniré a Berga
+Dema aniré a Besalú
+Dema aniré a Bescanó
+Dema aniré a Beuda
+Dema aniré a Bigues i Riells del Fai
+Dema aniré a Biosca
+Dema aniré a Biure
+Dema aniré a Blancafort
+Dema aniré a Blanes
+Dema aniré a Boadella i les Escaules
+Dema aniré a Bolvir
+Dema aniré a Bonastre
+Dema aniré a Bordils
+Dema aniré a Borrassà
+Dema aniré a Borredà
+Dema aniré a Bossòst
+Dema aniré a Bot
+Dema aniré a Botarell
+Dema aniré a Bovera
+Dema aniré a Breda
+Dema aniré a Brunyola i Sant Martí Sapresa
+Dema aniré a Bràfim
+Dema aniré a Bàscara
+Dema aniré a El Soleràs
+Dema aniré a El Vendrell
+Dema aniré a Els Alamús
+Dema aniré a Els Torms
+Dema aniré a La Baronia de Rialb
+Dema aniré a La Bisbal d'Empordà
+Dema aniré a La Bisbal de Falset
+Dema aniré a La Bisbal del Penedès
+Dema aniré a La Secuita
+Dema aniré a La Selva de Mar
+Dema aniré a La Selva del Camp
+Dema aniré a La Sentiu de Sió
+Dema aniré a La Seu d'Urgell
+Dema aniré a La Sénia
+Dema aniré a La Tallada d'Empordà
+Dema aniré a La Torre de Cabdella
+Dema aniré a La Torre de Claramunt
+Dema aniré a La Torre de Fontaubella
+Dema aniré a La Torre de l'Espanyol
+Dema aniré a La Vall d'en Bas
+Dema aniré a La Vall de Bianya
+Dema aniré a La Vall de Boí
+Dema aniré a La Vansa i Fórnols
+Dema aniré a La Vilella Alta
+Dema aniré a La Vilella Baixa
+Dema aniré a Les Avellanes i Santa Linya
+Dema aniré a Les Borges Blanques
+Dema aniré a Les Borges del Camp
+Dema aniré a Les Valls d'Aguilar
+Dema aniré a Les Valls de Valira
+Dema aniré a Santa Eulàlia de Ronçana
+Dema aniré a Santa Fe del Penedès
+Dema aniré a Santa Llogaia d'Àlguema
+Dema aniré a Santa Margarida de Montbui
+Dema aniré a Santa Margarida i els Monjos
+Dema aniré a Santa Maria d'Oló
+Dema aniré a Santa Maria de Besora
+Dema aniré a Santa Maria de Martorelles
+Dema aniré a Santa Maria de Merlès
+Dema aniré a Santa Maria de Miralles
+Dema aniré a Santa Maria de Palautordera
+Dema aniré a Santa Oliva
+Dema aniré a Santa Pau
+Dema aniré a Santa Perpètua de Mogoda
+Dema aniré a Santa Susanna
+Dema aniré a Santpedor
+Dema aniré a Sarral
+Dema aniré a Sarrià de Ter
+Dema aniré a Sarroca de Bellera
+Dema aniré a Sarroca de Lleida
+Dema aniré a Saus, Camallera i Llampaies
+Dema aniré a Savallà del Comtat
+Dema aniré a Senan
+Dema aniré a Senterada
+Dema aniré a Sentmenat
+Dema aniré a Serinyà
+Dema aniré a Serra de Daró
+Dema aniré a Seròs
+Dema aniré a Setcases
+Dema aniré a Seva
+Dema aniré a Sidamon
+Dema aniré a Sils
+Dema aniré a Sitges
+Dema aniré a Siurana
+Dema aniré a Sobremunt
+Dema aniré a Solivella
+Dema aniré a Solsona
+Dema aniré a Sora
+Dema aniré a Soriguera
+Dema aniré a Sort
+Dema aniré a Soses
+Dema aniré a Subirats
+Dema aniré a Sudanell
+Dema aniré a Sunyer
+Dema aniré a Susqueda
+Dema aniré a Súria
+Dema aniré a Tagamanent
+Dema aniré a Talamanca
+Dema aniré a Talarn
+Dema aniré a Talavera
+Dema aniré a Taradell
+Dema aniré a Tarragona
+Dema aniré a Tarroja de Segarra
+Dema aniré a Tarrés
+Dema aniré a Tavertet
+Dema aniré a Tavèrnoles
+Dema aniré a Teià
+Dema aniré a Terrades
+Dema aniré a Terrassa
+Dema aniré a Tiana
+Dema aniré a Tiurana
+Dema aniré a Tivenys
+Dema aniré a Tivissa
+Dema aniré a Tona
+Dema aniré a Tordera
+Dema aniré a Torelló
+Dema aniré a Tornabous
+Dema aniré a Torre-serona
+Dema aniré a Torrebesses
+Dema aniré a Torredembarra
+Dema aniré a Torrefarrera
+Dema aniré a Torrefeta i Florejacs
+Dema aniré a Torregrossa
+Dema aniré a Torrelameu
+Dema aniré a Torrelavit
+Dema aniré a Torrelles de Foix
+Dema aniré a Torrelles de Llobregat
+Dema aniré a Torrent
+Dema aniré a Torres de Segre
+Dema aniré a Torroella de Fluvià
+Dema aniré a Torroella de Montgrí
+Dema aniré a Torroja del Priorat
+Dema aniré a Tortellà
+Dema aniré a Tortosa
+Dema aniré a Torà
+Dema aniré a Toses
+Dema aniré a Tossa de Mar
+Dema aniré a Tremp
+Dema aniré a Tàrrega
+Dema aniré a Térmens
+Dema aniré a Tírvia
+Dema aniré a Ullastrell
+Dema aniré a Ullastret
+Dema aniré a Ulldecona
+Dema aniré a Ulldemolins
+Dema aniré a Ullà
+Dema aniré a Ultramort
+Dema aniré a Urús
+Dema aniré a Vacarisses
+Dema aniré a Vajol, la
+Dema aniré a Vall de Cardós
+Dema aniré a Vall-llobrega
+Dema aniré a Vallbona d'Anoia
+Dema aniré a Vallbona de les Monges
+Dema aniré a Vallcebre
+Dema aniré a Vallclara
+Dema aniré a Vallfogona de Balaguer
+Dema aniré a Vallfogona de Ripollès
+Dema aniré a Vallfogona de Riucorb
+Dema aniré a Vallgorguina
+Dema aniré a Vallirana
+Dema aniré a Vallmoll
+Dema aniré a Vallromanes
+Dema aniré a Valls
+Dema aniré a Vandellòs i l'Hospitalet de l'Infant
+Dema aniré a Veciana
+Dema aniré a Ventalló
+Dema aniré a Verdú
+Dema aniré a Verges
+Dema aniré a Vespella de Gaià
+Dema aniré a Vic
+Dema aniré a Vidreres
+Dema aniré a Vidrà
+Dema aniré a Vielha e Mijaran
+Dema aniré a Vila-rodona
+Dema aniré a Vila-sacra
+Dema aniré a Vila-sana
+Dema aniré a Vila-seca
+Dema aniré a Vilabella
+Dema aniré a Vilabertran
+Dema aniré a Vilablareix
+Dema aniré a Vilada
+Dema aniré a Viladamat
+Dema aniré a Viladasens
+Dema aniré a Viladecans
+Dema aniré a Viladecavalls
+Dema aniré a Vilademuls
+Dema aniré a Viladrau
+Dema aniré a Vilafant
+Dema aniré a Vilafranca del Penedès
+Dema aniré a Vilagrassa
+Dema aniré a Vilajuïga
+Dema aniré a Vilalba Sasserra
+Dema aniré a Vilalba dels Arcs
+Dema aniré a Vilaller
+Dema aniré a Vilallonga de Ter
+Dema aniré a Vilallonga del Camp
+Dema aniré a Vilamacolum
+Dema aniré a Vilamalla
+Dema aniré a Vilamaniscle
+Dema aniré a Vilamòs
+Dema aniré a Vilanant
+Dema aniré a Vilanova d'Escornalbou
+Dema aniré a Vilanova de Bellpuig
+Dema aniré a Vilanova de Meià
+Dema aniré a Vilanova de Prades
+Dema aniré a Vilanova de Segrià
+Dema aniré a Vilanova de l'Aguda
+Dema aniré a Vilanova de la Barca
+Dema aniré a Vilanova del Camí
+Dema aniré a Vilanova del Vallès
+Dema aniré a Vilanova i la Geltrú
+Dema aniré a Vilaplana
+Dema aniré a Vilassar de Dalt
+Dema aniré a Vilassar de Mar
+Dema aniré a Vilaverd
+Dema aniré a Vilaür
+Dema aniré a Vilobí d'Onyar
+Dema aniré a Vilobí del Penedès
+Dema aniré a Vilopriu
+Dema aniré a Vimbodí i Poblet
+Dema aniré a Vinaixa
+Dema aniré a Vinebre
+Dema aniré a Vinyols i els Arcs
+Dema aniré a Viver i Serrateix
+Dema aniré a Xerta
+Dema aniré a Àger
 Demana a Just eat que ens portin unes pizzes.
 Demana que ens portin unes pizzes.
 Demana't si ets feliç i deixaràs de ser-ho.
@@ -7318,7 +7772,6 @@ Els carrers es van buidar com per art d'encantament
 Els carrers, de nit, eren molt foscos
 Els carros van començar a caminar
 Els casats, quan tenen fred i volen calfar el llit, els amollen a profit.
-Els catalans, de les pedres en fan pans.
 Els caurà la bava davant els nostres dolços.
 Els cavalls, que també eren molts i també eren tots iguals
 Els ceps podats encara no rebrotaven
@@ -9268,6 +9721,7 @@ Ets el titular de dos comptes.
 Ets ja client del nostre blanc?
 Ets la més bonica de totes les xiques.
 Ets lliure de prendre les teues pròpies decisions.
+Ets més ruc que una sabata!
 Ets un beneït, Simó, i no tens cap elecció.
 Eulàlia prové de Montesquiu
 Eulàlia és baixista
@@ -9870,6 +10324,7 @@ Has de signar i retornar.
 Has de trucar aquí: noranta-tres vuit nou zero u tres quatre cinc.
 Has oït els grans clamors que fa el seu canó de batre?
 Has trobat les claus del cotxe?
+Has vist el concert de Pascal Comelade?
 Has vist l'engany als seus ulls, que ja no tenen res a dir.
 Has vist mai una abella de ben a prop?
 Has vist quines ofertes tenen?
@@ -10872,7 +11327,6 @@ Ja hem canviat l'adreça.
 Ja hem celebrat Carnaval i ara començarà la Quaresma.
 Ja hem nascut, doncs visca la vida!
 Ja hem sol·licitat l'etiqueta.
-Ja hi tornem a ser!
 Ja hi érem! Ja teníem pluja.
 Ja ho contaré- va respondre l'interpel·lat.
 Ja ho crec que li agradava, feia uns bons budoixos!
@@ -14329,8 +14783,6 @@ Maials es un bon lloc per anar-hi
 Maials es troba al Segrià
 Maià de Montcal es un bon lloc per anar-hi
 Maià de Montcal es troba a la Garrotxa
-Mal de cap.
-Mal de coll.
 Mal llamp! Em traïsc a mi mateix en el meu acalorament!
 Mala cara com aquells dies de penúria
 Mala cara com aquells dies de penúria, no l'havia feta mai.
@@ -16154,7 +16606,6 @@ Penjaven troques de cotó, blanques, grogues, blaves...
 Pensa a trucar a la Sònia, que avui és el seu aniversari.
 Pensa bé de tothom i no et fiis de ningú.
 Pensa en la vida que tens entorn: aixeca el front.
-Pensa mal i obra bé.
 Pensa, somia, crea, atreveix-te.
 Pensant que em devien espiar des d'algun amagatall subterrani
 Pensant que eren reforços, però només eren quatre
@@ -16386,6 +16837,7 @@ Per què no agafes una drecera?
 Per què no havia de fer igual, si em sentia amb esperit d'empresa?
 Per què no havia jo de fer com ells?
 Per què no la feien servir per defensar-se.
+Per què no poses una cançó de la Nova Cançó?
 Per què no procures tenir l'ajuda del meu germà?
 Per què no quedem per dinar?
 Per què no quedem un dia?
@@ -17369,6 +17821,7 @@ Quan vaig a comprar cerveses i em trobe la botiga tancada, m'entra claustrofòbi
 Quan vaig graduar-me en ganduleria, vaig enviar algú a recollir el títol.
 Quan vaig tornar endarrere, la posició era plena d'homes
 Quan vaig trobar-ne l'entropia de Hawkings ma mare em donà un mastegot
+Quan vaig veure la mestra, li vaig engegar un regitzell de preguntes.
 Quan vam arribar a l'Hotel, que era al capdavall de la Rambla
 Quan van començar a tirar ratlles allò era una cal·ligrafia
 Quan varen anar a casa li ho va dir a sa mare.
@@ -17578,7 +18031,6 @@ Qui em compra seda? De quin coloret la vol? Blanca o vermella?
 Qui en són els representants principals? Feu una presentació a classe.
 Qui ens dóna la mel, ens dóna la cera que fa llum.
 Qui governa aquesta terra? Com li diuen?
-Qui ha fet el pecat, que faci la penitència.
 Qui ha vist espectacle més meravellós?
 Qui ignora les qualitats que contrauen aquells vents, de passar per llocs pudents?
 Qui l'ha aplegada?
@@ -17598,7 +18050,6 @@ Qui no té un all té una ceba.
 Qui no vulga pols, que no vaja a l’era.
 Qui pagarà la reserva?
 Qui puja la muntanya?
-Qui s'encanta no les tasta.
 Qui sap! Has posat a la vora del got sucre per dar-nos fel?
 Qui se'n riu? La perdiu, que tot ho sap i tot ho diu.
 Qui siga confrare que prenga candela.
@@ -17656,6 +18107,7 @@ Quin horari fan a l'ajuntament de Reus?
 Quin jardí més mal endreçat.
 Quin li agrada més?
 Quin llibre em recomanaries?
+Quin merder de cuina que ha quedat.
 Quin missatge li surt?
 Quin mètode de pagament ha sel·leccionat?
 Quin nas és el darrer que coneix la sentor a carn o a peix?
@@ -17908,6 +18360,7 @@ Què fa el gos?
 Què faig cada dimecres?
 Què faig després de la classe de rus?
 Què fan a l'Horiginal, aquesta setmana?
+Què fan sis gats dalt d'una teulada?
 Què faràs a l'estiu?
 Què faràs aquest cap de setmana?
 Què fas ací, Pepa? Pele faves, Pau. Faves peles, Pepa? Pau, faves pele.
@@ -18310,6 +18763,7 @@ S'ha fet un bon bony provant d'endinyar-la al... rebost.
 S'ha marcit com flor boscana, a l'aire impur de ciutat.
 S'ha rebaixat el nivell d'il·luminació.
 S'ha rebaixat la il·luminació.
+S'ha rovellat el cable de la tirolina.
 S'ha tramitat la teva petició.
 S'ha trobat un agent disponible.
 S'ha vist mai cap pare casar d'aquesta manera la seva filla?
@@ -19036,6 +19490,7 @@ Set d'alegres benaurances, que augmenta d'hora en hora: l'apaga algun torrent?
 Set hores ajaguts en un pantà horrible
 Setcases es un bon lloc per anar-hi
 Setcases es troba al Ripollès
+Setze jutges d'un jutjat mengen fetge d 'un penjat.
 Setze jutges d’un jutjat mengen fetge d’un penjat.
 Setze jutges mengen fetge d'un penjat
 Seva es un bon lloc per anar-hi
@@ -19330,6 +19785,7 @@ Si us plau, engega la calefacció.
 Si us plau, engega la ràdio.
 Si us plau, engega la televisió.
 Si us plau, no embrutis gaire el terra.
+Si us plau, puja les persianes.
 Si us plau, quin és el teu nom i el teu de-ena-i?
 Si us plau, tanca el forn.
 Si us plau, tanca el llum de l'escala.
@@ -20279,7 +20735,6 @@ Tingues clar que, en relació amb la paella, qui la cuina no l’escura.
 Tingues tu la clau de la caixa i deixa-li tenir la del rebost.
 Tingui aquest ou, sembla d’oca.
 Tip, el pastor ara farà rots a ple pit.
-Tira'm anís a la sina, marit.
 Tira, endreça i organitza, allò que pren més l'energia és un espai desendreçat.
 Tiramt lo Blanc és protagonista de la novel·la de Joanot Martorell
 Tirava contra ell. Ha disparat ell primer.
@@ -20667,7 +21122,6 @@ Tracte ara l'ésser humà en la filosofia medieval i el Renaixement.
 Tractem els factors o determinants interns del subjecte que, de dins estant, l'inciten.
 Tradicionalment, l'arquitectura ha estat considerada una de les set Belles Arts.
 Traient forces de la mateixa flaquesa, va baixar a ciutat determinat
-Tramaran anar a Mart.
 Tranquil·la, quan hagen passat totes i arriben al lloc acabaré la contarella.
 Transfigure aquestes apariències de la vida que anomenem realitats
 Transformacions físiques, produïdes durant milions d'anys.
@@ -21063,7 +21517,6 @@ Un terrabastall sense cap mena de sentit
 Un terratrèmol de crits i picament de mans
 Un tertulià de la llotja, havia aconseguit, fer capitular a la diva
 Un terç de la classe no havia fet els deures de matemàtiques.
-Un tigre, dos tigres, tres tigres.
 Un timbal li vull comprar.
 Un tipus de bomba de mà bastant inferior
 Un tobogan! Em falta un tobogan! Que vinga algú i me'l pose!
@@ -21926,6 +22379,7 @@ Veus al teu voltant herba verda, falgueres, avets
 Veus aquí que al palmell res d'anormal s'hi va veure.
 Veus aquí que em veig una colla d'aquelles noies
 Veus? Ja s’ha desinflat! Estàs satisfet? Ja pots tornar-te’n a pasturar.
+Vi bo de Valls!
 Viabilitat de patentar el producte.
 Vic es un bon lloc per anar-hi
 Vic es troba a Osona
@@ -22185,6 +22639,7 @@ Vols que mirem una pel·li aquest vespre?
 Vols que t'enviï un correu amb els detalls de l'operació?
 Vols que tanque la porta? És que si no, em gele.
 Vols servei de càtering?
+Vols un xic de romesco o prefereixes maionesa amb all?
 Vols venir amb mi al cinema aquesta nit?
 Volta per tots els carrers; això és senyal que faran festes a l'octubre.
 Voltat dels homes importants
