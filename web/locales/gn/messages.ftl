@@ -1627,4 +1627,5 @@ adding-sentences-subheader-speakable = Ñe’ẽkuaa
 adding-sentences-subheader-numbers = Papapy
 adding-sentences-subheader-abbreviations = Mombyky ha Acrónimo
 adding-sentences-subheader-punctuation = Mbopapapy
+adding-sentences-subheader-special-characters = Jehairã Jeporavokuaa ha Tai Pytaguáva
 adding-sentences-subheader-offensive-content = Ñe’ẽreity Ivaíva
