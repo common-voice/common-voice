@@ -1,18 +1,27 @@
 import * as React from 'react'
+import { Localized } from '@fluent/react'
 
-import { ReviewIcon } from '../../../../ui/icons'
+import {
+  KeyboardIcon,
+  QuestionIcon,
+  ReviewIcon,
+  SkipIcon,
+} from '../../../../ui/icons'
+import { Button, LinkButton } from '../../../../ui/ui'
 import SentenceCollectionWrapper from '../sentence-collector-wrapper'
 import { Instruction } from '../instruction'
+import ReviewCard from './review-card'
+import { VoteButton } from '../../listen/listen'
+import { Rules } from '../write/sentence-input-and-rules/rules'
+import { ReportButton } from '../../report/report'
 
 import { useAction, useLanguages } from '../../../../../hooks/store-hooks'
 import { Sentences } from '../../../../../stores/sentences'
-
+import { useTypedSelector } from '../../../../../stores/tree'
 import { useLocale } from '../../../../locale-helpers'
-import { Rules } from '../write/sentence-input-and-rules/rules'
+import URLS from '../../../../../urls'
 
 import './review.css'
-import ReviewCard from './review-card'
-import { useTypedSelector } from '../../../../../stores/tree'
 
 const Review = () => {
   const [currentLocale] = useLocale()
@@ -67,6 +76,37 @@ const Review = () => {
             </div>
           )}
           <Rules title="sc-review-rules-title" />
+        </div>
+        <div className="waves">
+          <div className="primary-buttons">
+            <VoteButton kind="yes" disabled className="yes-button" />
+            <Button outline rounded className="skip-button">
+              <SkipIcon />
+              <Localized id="skip">
+                <span />
+              </Localized>{' '}
+            </Button>
+            <VoteButton kind="no" disabled className="no-button" />
+          </div>
+        </div>
+        <div className="buttons">
+          <div>
+            <LinkButton
+              rounded
+              outline
+              className="guidelines-button"
+              blank
+              to={URLS.GUIDELINES}>
+              <QuestionIcon />
+              <Localized id="guidelines">
+                <span />
+              </Localized>
+            </LinkButton>
+            <ReportButton />
+            <Button rounded outline className="hidden-sm-down shortcuts-button">
+              <KeyboardIcon />
+            </Button>
+          </div>
         </div>
       </div>
     </SentenceCollectionWrapper>

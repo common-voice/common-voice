@@ -11,10 +11,6 @@
         );
         overflow: hidden;
 
-        @media (--xl-up) {
-            height: 80%;
-        }
-
         & .write,.review {
             margin: 0 auto;
             width: 100%;
