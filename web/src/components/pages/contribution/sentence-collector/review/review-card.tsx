@@ -1,3 +1,4 @@
+import { Localized } from '@fluent/react'
 import classNames from 'classnames'
 import React from 'react'
 
@@ -18,8 +19,10 @@ const ReviewCard: React.FC<Props> = ({ sentence, source, isActive, index }) => (
       ].join(' '),
       opacity: index < 0 ? 0 : 1,
     }}>
-    <div className="sentence">{sentence}</div>
-    <p>{source}</p>
+    <p className="sentence">{sentence}</p>
+    <Localized id="sc-my-source" vars={{ source }}>
+      <p className="source" />
+    </Localized>
   </div>
 )
 

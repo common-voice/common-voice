@@ -29,6 +29,8 @@
                 left: 0;
 
                 display: flex;
+                flex-direction: column;
+                justify-content: space-around;
                 align-items: center;
 
                 width: 100%;
@@ -50,7 +52,6 @@
                 }
 
                 & .sentence {
-                    margin: auto;
                     width: 100%;
                 }
             }
@@ -64,6 +65,11 @@
             line-height: 1.38;
     
             background: var(--white);
+
+            & .source {
+                font-size: var(--font-size-sm);
+                color: var(--near-black);
+            }
     
             @media (--md-up) {
                 padding: 0 25px;
@@ -74,7 +80,7 @@
             }
     
             @media (--lg-up) {
-                padding: 0 100px;
+                padding: 100px 100px 0;
             }
         }
 

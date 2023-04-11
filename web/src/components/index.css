@@ -152,7 +152,8 @@ button {
 
     &.speak,
     &.listen,
-    &.write {
+    &.write,
+    &.review {
         overflow: hidden;
 
         & header {

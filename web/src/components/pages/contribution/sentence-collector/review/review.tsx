@@ -36,12 +36,8 @@ const Review = () => {
 
   const sentences = useTypedSelector(({ sentences }) => sentences)
 
-  console.log({ sentences })
-
-  const pendingSentencesForLocale =
+  const pendingSentencesSubmissions =
     sentences[currentLocale]?.pendingSentences || []
-
-  const foo = [1, 2, 3]
 
   React.useEffect(() => {
     handleFetch()
@@ -57,12 +53,12 @@ const Review = () => {
         />
         <div className="cards-and-guidelines">
           <div className="placeholder" />
-          {pendingSentencesForLocale.length > 0 && (
+          {pendingSentencesSubmissions.length > 0 && (
             <div className="cards">
-              {foo.map((el, index) => (
+              {pendingSentencesSubmissions.map((submission, index) => (
                 <ReviewCard
-                  sentence={pendingSentencesForLocale[0].sentence}
-                  source={pendingSentencesForLocale[0].source}
+                  sentence={submission.sentence}
+                  source={submission.source}
                   key={index}
                   isActive={index === 0}
                   index={index}
