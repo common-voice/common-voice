@@ -144,6 +144,7 @@ nl = neerlandès
 nn-NO = noruec nynorsk
 nr = IsiNdebele meridional
 nso = sotho del nord
+ny = chinyanja
 nyn = nyankole
 oc = occità
 om = oromo
@@ -1582,6 +1583,8 @@ already-have-an-account = Ja teniu compte? <login>Inicieu la sessió</login>
 create-profile-button = Crea un perfil
 # IMAGE TAGS
 img-alt-success-checkmark = marca de vistiplau
+# GUIDELINES PAGE
+guidelines-header = Directrius de col·laboració
 voice-collection = Recollida de veus
 sentence-collection = Recollida de frases
 varying-pronunciations = Pronunciacions variables
@@ -1593,6 +1596,7 @@ volume = Volum
 reader-effects = Efectes de lectura
 just-unsure = Teniu dubtes?
 example = Exemple
+varying-pronunciations-explanation-2 = D'altra banda, si creieu que el lector no s'ha trobat mai amb la paraula i fa una suposició incorrecta de la pronúncia, rebutgeu el tall. Si no n'esteu segur, utilitzeu el botó Omet.
 misreadings-example-1 = Anem en tren a Tarragona.
 misreadings-example-2 = 'Nem en tren a Tarragona.
 misreadings-example-3 = Anem amb tren a Tarragona.
