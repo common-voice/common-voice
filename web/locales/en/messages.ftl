@@ -1719,3 +1719,4 @@ required-field = Please fill out this field.
 # REVIEW PAGE
 sc-review-instruction-first-part = Check
 sc-review-instruction-second-part = is this a linguistically correct sentence?
+sc-review-rules-title = Does the sentence meet the guidelines?

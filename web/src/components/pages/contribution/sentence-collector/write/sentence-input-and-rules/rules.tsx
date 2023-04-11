@@ -9,11 +9,13 @@ import useIsMaxWindowWidth from '../../../../../../hooks/use-is-max-window-width
 
 type Props = {
   error?: SentenceSubmissionError
+  showFirst?: boolean
+  title: string
 }
 
 const MAX_WINDOW_WIDTH = 576
 
-export const Rules: React.FC<Props> = ({ error }) => {
+export const Rules: React.FC<Props> = ({ error, showFirst, title }) => {
   const [rulesVisible, setShowRulesVisible] = React.useState(true)
   const isMobileWidth = useIsMaxWindowWidth(MAX_WINDOW_WIDTH)
 
@@ -25,7 +27,7 @@ export const Rules: React.FC<Props> = ({ error }) => {
     <div className="rules">
       <div className={classNames('inner', { 'rules-hidden': !rulesVisible })}>
         <div className="rules-title-container">
-          <Localized id="what-can-i-add">
+          <Localized id={title}>
             <TextButton onClick={handleClick} />
           </Localized>
           <ChevronDown
@@ -35,26 +37,28 @@ export const Rules: React.FC<Props> = ({ error }) => {
         </div>
         {(rulesVisible || !isMobileWidth) && (
           <ul>
-            <Localized
-              id="new-sentence-rule-1"
-              elems={{
-                noCopyright: (
-                  <a
-                    href="https://en.wikipedia.org/wiki/Public_domain"
-                    target="_blank"
-                    rel="noreferrer"
-                  />
-                ),
-                cc0: (
-                  <a
-                    href="https://creativecommons.org/share-your-work/public-domain/cc0/"
-                    target="_blank"
-                    rel="noreferrer"
-                  />
-                ),
-              }}>
-              <li />
-            </Localized>
+            {showFirst && (
+              <Localized
+                id="new-sentence-rule-1"
+                elems={{
+                  noCopyright: (
+                    <a
+                      href="https://en.wikipedia.org/wiki/Public_domain"
+                      target="_blank"
+                      rel="noreferrer"
+                    />
+                  ),
+                  cc0: (
+                    <a
+                      href="https://creativecommons.org/share-your-work/public-domain/cc0/"
+                      target="_blank"
+                      rel="noreferrer"
+                    />
+                  ),
+                }}>
+                <li />
+              </Localized>
+            )}
             <Localized id="new-sentence-rule-2">
               <li
                 className={classNames({

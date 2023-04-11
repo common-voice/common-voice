@@ -93,7 +93,7 @@ export const SentenceInputAndRules: React.FC<Props> = ({
             </ExpandableInformation>
           </div>
         </div>
-        <Rules error={error} />
+        <Rules error={error} title="what-can-i-add" showFirst />
       </div>
     </div>
   )

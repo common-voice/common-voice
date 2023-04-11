@@ -66,7 +66,7 @@ const Review = () => {
               ))}
             </div>
           )}
-          <Rules />
+          <Rules title="sc-review-rules-title" />
         </div>
       </div>
     </SentenceCollectionWrapper>
