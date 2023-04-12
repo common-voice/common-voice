@@ -1090,10 +1090,14 @@ profile-form-delete = Профильне бетерү
 ## Profile Download
 
 download-q = Мәгълүматыгызны йөкләргә кирәкме?
+download-info = Нәрсә иңдерергә теләгәнегезне безгә сөйләгез:
 download-profile-title = Профиль
+download-profile-info = Эчендә эл. почта, кулланучы исеме һәм демографик мәгълүмат бар. Хәзер үк иңдереп була
 download-profile-size = Берничә байт
 download-recordings-title = Язмалар
+download-recordings-info = MP3-ләрне һәм аңа бәйле җөмләләрне үз эченә ала. Хәзер булсын өчен бераз вакыт кирәк булырга мөмкин.
 download-recordings-size = Гадәттә мегабайт
+download-recordings-unavailable = Башка сорау эшкәртелгәндә Сез язмаларыгызны таләп итә алмыйсыз.
 download-size = Үлчәм
 download-selected = Сайланган
 download-start = Профиль мәгълүматларын йөкләп алу
