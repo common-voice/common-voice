@@ -1614,6 +1614,7 @@ volume = حجم
 reader-effects = پڑھݨ آلے دے اثرات
 just-unsure = صرف غیر یقینی؟
 example = مثال
+varying-pronunciations-example = رستہ واضح کائناں ہائی۔
 misreadings-explanation-2 = عام غلطیاں وچ شامل ہن:
 misreadings-explanation-4 = لفظ دے چھیکڑ تے 'س' غائب ہے۔
 misreadings-explanation-5 = کنٹریکشنز کوں پڑھݨ جیڑھا حقیقت وِچ موجود کائنی، جیویں "اساں ہیں" دی بجائے "اساں ہیں" یا اوندے اُپٹھ۔
