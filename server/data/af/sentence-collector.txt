@@ -161,6 +161,7 @@ Is jy Engels?
 Ja, ek praat Afrikaans.
 Ja, in daardie dae het glad ’n ander soort stam gelewe as nou.
 Jakkals verander van hare maar nie van snare nie
+Januarie, Februarie, Maart, April, Mei, Junie, Julie, Augustus, September, Oktober, November, Desember
 Jou hoed vir iemand afhaal
 Jou kop op ’n blok sit dat iets waar is
 Jou mond verbypraat
@@ -271,7 +272,13 @@ die gemeenskap van die heiliges;
 die opstanding van die liggaam
 die vergewing van sondes;
 die vrye ensiklopedie wat deur enigiemand verbeter en uitgebrei kan word.
+een, twee, drie, vier, vyf, ses, sewe, agt, nege, tien
+elf, twaalf, dertien, veertien, vyftien, sestien, sewentien, agttien, negentien, twintig
 en 'n ewige lewe.
+gister, vandag, môre
+hierdie week, volgende week
+nou, later
+vanoggend, vanmiddag, vanaand
 waarvandaan Hy sal kom om die lewendes en die dooies te oordeel.
 ’n Bok is mos ’n snaakse dier.
 ’n Gegewe perd moet jy nie in die bek kyk nie
