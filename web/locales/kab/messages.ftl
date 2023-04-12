@@ -44,6 +44,7 @@ be = Tabilarusit
 bg = Tabulgarit
 bm = Tabumbrit
 bn = Tabengalit
+bo = Tatibitant
 br = Tabrutunt
 bs = Tabusnit
 bxr = Taburyat
@@ -748,6 +749,7 @@ more = Ugar
 close = Mdel
 download = Sader
 dataset-version = Lqem
+clipboard-not-supported = Tacfawt ur tettusefrak ara
 
 ## Download Modal
 
@@ -1456,6 +1458,9 @@ sc-validation-no-abbreviations = Ur ilaq ara tafyirt ad tegber asiwzel
 
 localization-select =
     .label = Fren tutlayt/tasuqqilt
+# PARTNERSHIPS PAGE
+partnerships-header = Imɛawanen
+partnerships-get-in-touch = Nermres-aɣ-d
 partnerships-become-a-partner = Uɣal d amendid n Common Voice
 partnerships-foundations-header = Tisbeddiyin
 partnerships-our-partners = Iwiziwen-nneɣ
