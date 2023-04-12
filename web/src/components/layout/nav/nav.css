@@ -279,7 +279,7 @@ header {
                 & .black-border {
                     border-bottom: 4px solid var(--black);
                     margin-inline-end: 6px;
-                    padding-top: 35px;
+                    padding-top: 34px;
                     position: absolute;
                     right: 0;
                     width: 78px;

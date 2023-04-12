@@ -91,6 +91,7 @@ export const SentenceInputAndRules: React.FC<Props> = ({
                 id="how-to-cite-explanation"
                 elems={{
                   guidelinesLink: <LocaleLink to={URLS.GUIDELINES} blank />,
+                  italicizedText: <span className="italic" />,
                 }}>
                 <span />
               </Localized>
@@ -100,5 +101,5 @@ export const SentenceInputAndRules: React.FC<Props> = ({
         <Rules error={error} />
       </div>
     </div>
-  );
+  )
 };
