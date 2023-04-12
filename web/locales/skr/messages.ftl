@@ -1648,6 +1648,7 @@ self-citation = خود حوالہ ݙیوݨ
 adding-sentences-subheader-length = لمباݨ
 adding-sentences-subheader-spelling-punctuation = ہجے تے علامتی اکھر
 adding-sentences-subheader-spelling-punctuation-explanation = جملے دے ہجے درست ہووݨ ضروری ہن۔
+adding-sentences-subheader-speakable = ٻولݨ دے قابل
 adding-sentences-subheader-numbers = اعداد
 adding-sentences-subheader-numbers-explanation = ماخذ متن وِچ مثالی طور تے کوئی ہندسہ نہیں ہووݨا چاہیدا کیوں جو او بلند آواز نال پڑھݨ تے مسائل پیدا کر سڳدے او۔ جیویں کہیں نمبر کوں پڑھیا ویندا ہے تے ڈیٹا سیٹ وِچ الجھن پیدا کر سڳدا ہے۔ مثال دے طور تے، نمبر “2409” کوں "چوویہ صفر نوں" تے "ݙو ہزار چار سو نوں" ݙوہیں دے طور تے درست طریقے نال پڑھیا ونڄ سڳدا ہے۔
 adding-sentences-subheader-abbreviations = مخففات تے سرنامیے
