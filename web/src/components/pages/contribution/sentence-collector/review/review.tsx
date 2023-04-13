@@ -15,7 +15,11 @@ import { VoteButton } from '../../listen/listen'
 import { Rules } from '../write/sentence-input-and-rules/rules'
 import { ReportButton } from '../../report/report'
 
-import { useAction, useLanguages } from '../../../../../hooks/store-hooks'
+import {
+  useAccount,
+  useAction,
+  useLanguages,
+} from '../../../../../hooks/store-hooks'
 import { Sentences } from '../../../../../stores/sentences'
 import { useTypedSelector } from '../../../../../stores/tree'
 import { useLocale } from '../../../../locale-helpers'
@@ -26,6 +30,7 @@ import './review.css'
 const Review = () => {
   const [currentLocale] = useLocale()
   const languages = useLanguages()
+  const account = useAccount()
 
   const localeId = languages.localeNameAndIDMapping.find(
     locale => locale.name === currentLocale
@@ -47,6 +52,19 @@ const Review = () => {
 
   const pendingSentencesSubmissions =
     sentences[currentLocale]?.pendingSentences || []
+
+  // TODO: prevent flash when user is not logged in
+  React.useEffect(() => {
+    if (!account) {
+      try {
+        sessionStorage.setItem('redirectURL', location.pathname)
+      } catch (e) {
+        console.warn(`A sessionStorage error occurred ${e.message}`)
+      }
+
+      window.location.href = '/login'
+    }
+  }, [])
 
   React.useEffect(() => {
     handleFetch()
