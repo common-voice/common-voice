@@ -99,6 +99,7 @@ const mapRowToSentence = ([pendingSentenceRows]: [
 ]): Sentence[] =>
   pendingSentenceRows.map(row => ({
     sentence: row.text,
+    sentenceId: row.id,
     source: row.source,
     localeId: row.locale_id,
   }))
