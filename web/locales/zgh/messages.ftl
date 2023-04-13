@@ -289,6 +289,8 @@ view-goals = ⵙⴽⵏⴰⵜ ⴰⵍⴰⵢ ⵏⵏⵓⵏ ⵎⴳⴰⵍ ⵉⵡⵜⵜ
 whats-public = ⵎ'ⴰⴷ ⵉⴳⴰⵏ ⴰⴳⴷⵓⴷⴰⵏ?
 email-not-public = ⵓⵔ ⵔⴰⴷ ⵏⴳ ⵉⵎⴰⵢⵍ ⵏⵏⵓⵏ ⴷ ⴰⴳⴷⵓⴷⴰⵏ.
 recordings-and-locale-public = ⵔⴰⴷ ⵉⴳ ⵡⵓⵟⵟⵓⵏ ⵏ ⵉⵙⵓⵙⴰⵔ ⴷ ⵜⵓⵜⵍⴰⵢⵉⵏ ⵏⵏⴰ ⴳ ⵜⵓⵔⴳⴷ ⵉⴳⴷⵓⴷⴰⵏⵏ.
+username-optin-public = ⵜⵣⵎⵔⵎ ⴰⴷ ⵜⴷⵖⵔⵎ ⴰⴷ ⵉⴳ ⵢⵉⵙⵎ ⵏ ⵓⵏⵙⵙⵎⵔⵙ ⵏⵏⵓⵏ ⴰⴳⴷⵓⴷⴰⵏ ⵏⵉⵖ ⵡⴰⵔⵉⵙⵎ.
+username-email-not-demographic = ⵓⵔ ⵔⴰⴷ ⵉⵎⵓⵏ ⵢⵉⵙⵎ ⵏ ⵓⵏⵙⵙⵎⵔⵙ ⵏⵏⵓⵏ ⴷ ⵉⵎⴰⵢⵍ ⵏⵏⵓⵏ ⴰⴽⴷ ⵉⵙⴼⴽⴰ ⵜⵜⵓⴼⵙⵔⵏⵉⵏ.
 
 ## Speak & Listen Shortcuts
 
@@ -307,9 +309,13 @@ shortcut-vote-no = ⵓ
 
 ## Speak Shortcuts
 
+shortcut-record-toggle-label = ⵙⵓⵙⵔ/ⵙⴱⴷⴷ
 shortcut-rerecord-toggle = [1-5]
+shortcut-rerecord-toggle-label = ⴰⵍⵙ ⴰⵙⵓⵙⵔ ⵏ ⵜⵓⵙⵙⵉⴼⵜ
 shortcut-discard-ongoing-recording = ⵔⵡⵍ
 shortcut-submit = ⴰⵖⵓⵍ
+shortcut-submit-label = ⴰⵣⵏ ⵜⵓⵙⵙⵉⴼⵉⵏ
+request-language-text = ⵓⵔ ⵜⴰ ⵜⵥⵕⵉⵎ ⵜⵓⵜⵍⴰⵢⵜ ⵏⵏⵓⵏ ⴳ ⴽⵓⵎⵏⴼⵓⵢⵙ?
 request-language-button = ⵜⵜⵔ ⴽⵔⴰ ⵏ ⵜⵓⵜⵍⴰⵢⵜ
 
 ## ProjectStatus
@@ -391,6 +397,7 @@ remove-avatar = ⵙⵉⵜⵜⵢ ⴰⴼⴰⵟⴰⵔ
 
 email-already-used = ⵉⵜⵜⵓⵙⵎⵔⵙ ⵢⴰⴷ ⵉⴰⵢⵍ ⴰⴷ ⵉ ⵢⴰⵏ ⵓⵎⵉⴹⴰⵏ ⵢⴰⴹⵏ
 add-language = ⵔⵏⵓ ⵜⵓⵜⵍⴰⵢⵜ
+change-email-setings = ⵙⵏⴼⵍⴰⵜ ⵉⵎⴰⵢⵍ ⵏⵏⵓⵏ ⴳ ⵜⵙⵖⴰⵍ ⴷⴷⴰⵡ ⵜⵎⴰⴳⵉⵜ ⵏ ⵓⴽⵛⴰⵎ
 
 ## FAQ
 
