@@ -471,6 +471,7 @@ about-playbook-how-grow-language-content-4 = ⵉⵥⴹⵡⴰⵏ ⵉⵏⴰⵎⵓ�
 
 ## How to access dataset
 
+about-playbook-how-access-dataset = ⵎⴰⵏⵎⴽ ⵙ ⵔⴰⴷ ⴰⴷⴼⵖ ⵙⵙⵎⵔⵙⵖ ⵜⴰⴳⵔⵓⵎⵎⴰ ⵏ ⵉⵙⴼⴽⴰ?
 
 ## How are decisions made
 
