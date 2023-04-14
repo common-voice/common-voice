@@ -1267,6 +1267,7 @@ contribution-varying-pronunciations-description = Esiet piesardzīgi, pirms nora
 contribution-varying-pronunciations-description-extended = No otras puses, ja izruna ir nepareiza vai kļūdaina, noraidiet ierakstu. Ja neesat pārliecināti, izmantojiet izlaišanas pogu.
 contribution-varying-pronunciations-example-1-title = Man garšo desa.
 contribution-varying-pronunciations-example-1-explanation = [‘desa’ ir pareizi ierunāta neatkarīgi no tā vai dažādos akcentos tiek lietots platais vai šaurais e]
+contribution-varying-pronunciations-example-2-title = Viņa roka bija pacelta.
 contribution-background-noise-title = Fona troksnis
 contribution-background-noise-description = Mēs vēlamies, lai mašīnmācīšanās algoritmi spētu apstrādāt dažādus fona trokšņus, un var tikt pieņemti pat salīdzinoši skaļi trokšņi, ja tie netraucē dzirdēt visu tekstu. Klusa fona mūzika ir ok; mūzika kas traucē skaidri sadzirdēt katru vārdu nav ok.
 contribution-background-noise-description-extended = Ja ieraksts raustās vai tajā ir sprakšķi, noraidiet, ja vien joprojām nav pilnībā dzirdams viss teksts.
