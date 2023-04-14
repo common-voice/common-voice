@@ -14,7 +14,6 @@ import ReviewCard from './review-card'
 import { VoteButton } from '../../listen/listen'
 import { Rules } from '../write/sentence-input-and-rules/rules'
 import { ReportButton } from '../../report/report'
-import { NoSentencesAvailable } from '../../speak/speak-error-content'
 
 import {
   useAccount,
@@ -27,6 +26,7 @@ import { useLocale } from '../../../../locale-helpers'
 import URLS from '../../../../../urls'
 
 import './review.css'
+import ReviewEmptyState from './review-empty-state'
 
 const Review = () => {
   const [currentLocale] = useLocale()
@@ -79,7 +79,7 @@ const Review = () => {
   if (noPendingSentences) {
     return (
       <SentenceCollectionWrapper dataTestId="review-page" type="review">
-        <NoSentencesAvailable />
+        <ReviewEmptyState />
       </SentenceCollectionWrapper>
     )
   }
