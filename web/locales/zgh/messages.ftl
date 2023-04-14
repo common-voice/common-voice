@@ -595,6 +595,7 @@ record-abort-submit = ⴰⵣⵏ ⵜⵓⵙⵙⵉⴼⵉⵏ
 record-abort-continue = ⵙⵎⴷ ⴰⵙⵓⵙⵔ
 record-abort-delete = ⴼⴼⵖ, ⵜⴽⴽⵙⴷ ⵜⵓⵙⵙⵉⴼⵉⵏ
 listen-last-time-instruction = <playIcon></playIcon>ⵜⴰⵎⴳⴳⴰⵔⵓⵜ!
+listen-empty-state = ⵉⵔⵡⴰⵙ ⵉⵙ ⴰⵏⵖ ⵙⵎⴰⵔⵏⵜ ⵜⵓⵙⵙⵉⴼⵉⵏ - ⵙⴷⵖⵉ ⵜⴰⵙⵏⴰ, ⵏⵉⵖ ⵜⵓⵔⵎⴷ ⵜⵉⴽⴽⵍⵜ ⵢⴰⴹⵏ ⴽⵓⴷⵏⵏⴰ.
 
 ## Contribution Nav Items
 
