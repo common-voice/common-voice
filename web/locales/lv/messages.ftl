@@ -1268,9 +1268,14 @@ contribution-varying-pronunciations-description-extended = No otras puses, ja iz
 contribution-varying-pronunciations-example-1-title = Man garšo desa.
 contribution-varying-pronunciations-example-1-explanation = [‘desa’ ir pareizi ierunāta neatkarīgi no tā vai dažādos akcentos tiek lietots platais vai šaurais e]
 contribution-varying-pronunciations-example-2-title = Viņa roka bija pacelta.
+contribution-varying-pronunciations-example-2-explanation = [‘bija’ ir jāizrunā ar dzirdamu a butru beigās, ja dzirdat tikai ‘bij’, ierunāts nepareizi]
 contribution-background-noise-title = Fona troksnis
 contribution-background-noise-description = Mēs vēlamies, lai mašīnmācīšanās algoritmi spētu apstrādāt dažādus fona trokšņus, un var tikt pieņemti pat salīdzinoši skaļi trokšņi, ja tie netraucē dzirdēt visu tekstu. Klusa fona mūzika ir ok; mūzika kas traucē skaidri sadzirdēt katru vārdu nav ok.
 contribution-background-noise-description-extended = Ja ieraksts raustās vai tajā ir sprakšķi, noraidiet, ja vien joprojām nav pilnībā dzirdams viss teksts.
+contribution-background-noise-example-1-fixed-title = <strong>[Šaudīšana]</strong>Triasa laikmeta <strong>[klepus]</strong> milzu dinozauri.
+contribution-background-noise-example-2-fixed-title = Tirasa laikmeta <strong>[klepus]</strong> milzu dinozauri.
+contribution-background-noise-example-2-explanation = [Daļu no teksta nevar dzirdēt]
+contribution-background-noise-example-3-fixed-title = <strong>[Čarkstoņa]</strong>-iasa laikmeta milzu dinozauri <strong>[crackle]</strong>.
 contribution-background-voices-title = Balsis fonā
 contribution-background-voices-description = Klusa murmināšana fonā ir pieņemama, taču mēs nevēlamies papildu balsis, kas varētu traucēt algoritmam pareizi noteikt vārdus, kas nav rakstītajā tekstā. Ja dzirdat vārdus, kas nav rakstīti tekstā, klips ir jānoraida. Parasti tas notiek tur, kur televizors ir atstāts ieslēgts vai kad tuvumā notiek saruna.
 contribution-background-voices-description-extended = Ja ieraksts raustās vai tajā ir sprakšķi, noraidiet, ja vien joprojām nav pilnībā dzirdams viss teksts.
@@ -1292,6 +1297,23 @@ see-less = <chevron></chevron>Rādīt mazāk
 
 ## HEADER/FOOTER
 
+sc-header-home = Sākums
+sc-header-how-to = Padomi
+sc-header-add = Pievienot
+sc-header-review = Pārbaudiet
+sc-header-rejected = Noraidītie teikumi
+sc-header-my = Mani teikumi
+sc-header-statistics = Statistika
+sc-header-profile = Profils
+sc-footer-discourse = Diskurss
+sc-footer-report-bugs = Ziņot par kļūdām
+sc-footer-translate = Tulkot šo lapu
+sc-footer-report-copyright = Ziņot par autortiesību problēmām
+sc-footer-privacy = Privātums
+sc-footer-terms = Noteikumi
+sc-footer-cookies = Sīkdatnes
+sc-login-signup-button = Ielogoties / Reģistrēties
+sc-logout-button = Beigt darbu
 
 ## HOME
 
