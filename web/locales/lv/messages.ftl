@@ -1318,13 +1318,27 @@ sc-logout-button = Beigt darbu
 ## HOME
 
 sc-home-title = Laipni lūdzam Common Voice Teikumu apkopotājā
+sc-home-intro = Teikumu apkopotājs ir daļa no <commonVoiceLink>Common Voice</commonVoiceLink>. Tas ļauj projekta dalībniekiem apkopot un apstiprināt kopienas atlasītos teikumus. Varat izmantot šo rīku arī, lai importētu un pārbaudītu maza un vidēja lieluma publiskā domēna teikumu kolekcijas, ko esat atradis vai savācis. Visiem teikumiem ir jābūt publiski pieejamiem. Apstiprinātie teikumi katru nedēļu tiek eksportēti uz Common Voice repozitoriju un tiek izlaisti Common Voice tīmekļa vietnē līdz ar nākamo laidienu.
+sc-home-collect-title = Teikumu apkopošana
+sc-home-collect-text = Palīdziet mums, rakstot vai apkopojot publiskā domēna teikumus.
+sc-home-review-title = Pārskatiet teikumus
+sc-home-review-text = Palīdziet mums, pārskatot teikumu pareizību saskaņā ar vadlīnijām.
 
 ## GENERAL
 
+sc-languages-fetch-error = Mums neizdevās atrast pieejamās valodas. Darbošanās ar lapu pašlaik nav iespējamas. Lūdzu, pamēģiniet vēlreiz nedaudz vēlāk.
 
 ## HOW-TO
 
+sc-howto-title = Padomi
+sc-howto-addlang-title = Valodu pievienošana darbam
+sc-howto-addlang-text = Kad esat pieslēdzies, profila sadaļā varat izvēlēties savas valodas.
+sc-howto-addsen-title = Pievienojiet jaunus teikumus
+sc-howto-addsen-item-1 = Visiem jūsu iesniegtajiem teikumiem ir jāatbilst <wikipediaLink>Publiskā domēna (CC-0) licencei</wikipediaLink>. Lai atbalstītu tādu darbu iekļaušanu, kuriem nav publiskas licences, esam izveidojuši <cc0WaiverLink>Ieguldījuma līguma veidni</cc0WaiverLink> darbiem, kuru autortiesību īpašnieks vēlas iesniegt materiālu Common Voice.
+sc-howto-addsen-item-2 = Skaitļi. Teikuma tekstā nedrīkst būt cipari, jo tie var radīt problēmas, ierunājot tos. Skaitļa izruna ir atkarīga no konteksta un var radīt kļūdas datu kopā. Piemēram, skaitli “2409” var izrunāt gan kā “divdesmit četri nulle deviņi”, gan “divi tūkstoši četri simti deviņi”.
 sc-howto-addsen-item-3 = Saīsinājumi un akronīmi. Avota tekstā ir jāizvairās no saīsinājumiem un akronīmiem, piemēram, “ASV” vai “ICE”, jo tie var tikt lasīti tā, ka tie nesakrīt ar to pareizrakstību. Turklāt vienam saīsinājumam var būt vairāki precīzi rādījumi. Piemēram, akronīmu “ICE” var izrunāt kā “I-C-E” vai kā vienu vārdu.
+sc-howto-addsen-item-4 = Pieturzīmes. Speciālie simboli un pieturzīmes jāiekļauj tikai tad, ja tas ir absolūti nepieciešams. Piemēram, apostrofs ir iekļauts tādos angļu valodas vārdos kā “don't” un “we're”, un tas ir jāiekļauj avota tekstā, taču maz ticams, ka jums kādreiz būs nepieciešams īpašs simbols, piemēram, “@” vai “#”. Latviešu valodā jāmēģina atbrīvoties no visām pieturzīmēm un speciālajiem simboliem, kas nav nepieciešami.
+sc-howto-addsen-item-5 = Citu valodu burti. Burtiem ir jābūt derīgiem valodā, kurā runā. Piemēram, “ж” ir burts krievu alfabētā, taču tas nekad netiek lietots latviešu valodā, tāpēc tas nekad nedrīkst būt latviešu valodas teikumu tekstā.
 sc-howto-review-criteria-5 = Ja teikums neatbilst iepriekš minētajiem kritērijiem, noklikšķiniet uz pogas "Noraidīt". Ja neesat pārliecināts par teikumu, varat to arī izlaist un pāriet uz nākamo.
 
 ## MY SENTENCES
