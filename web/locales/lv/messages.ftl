@@ -1405,12 +1405,55 @@ sc-submit-err-select-lang = Lūdzu izvēlieties valodu.
 sc-submit-err-add-sentences = Lūdzu, pievienojiet teikumus.
 sc-submit-err-add-source = Lūdzu, pievienojiet avotu.
 sc-submit-err-confirm-pd = Lūdzu, apstipriniet, ka šie teikumi ir publiski pieejami un brīvi lietojami.
+sc-submit-prompt =
+    .message = Teikumi nav iesniegti. Vai tiešām vēlaties aiziet?
+sc-submit-title = Pievienot teikumus
+sc-submit-select-language =
+    .labelText = Izvēlieties valodu
+sc-submit-add-sentences = Pievienojiet <wikipediaLink>publiskā domēna</wikipediaLink> teikumus
+sc-submit-ph-one-per-line =
+    .placeholder = Viens teikums katrā rindā
+sc-submit-from-where = No kurienes ir šie <wikipediaLink>publiskā domēna</wikipediaLink> teikumi?
+sc-submit-ph-read-how-to =
+    .placeholder = Izlasiet mūsu pamācību, ja nezināt, kā norādīt avotu
+sc-submit-confirm = Es apstiprinu, ka šie ir <wikipediaLink>publiskā domēna</wikipediaLink> teikumi, un man ir atļauja tos augšupielādēt.
+sc-submit-button =
+    .submitText = Iesniegt
+sc-submit-filtered = Filtrēti teikumi prasību neizpildes dēļ (lūdzu, iesniedziet labotas teikumu versijas kā jaunus teikumus):
+sc-submit-guidelines = Lūdzu, pārbaudiet <howToLink>vadlīnijas</howToLink>.
 
 ## ADD LANGUAGE
 
+sc-add-lang-could-not-add = Nevarēja pievienot valodu
+sc-add-lang-sec-label = Pievienojiet valodu, kurā vēlaties darboties
+sc-add-lang-sec-button = Pievienot valodu
+sc-add-err-unexpected = Negaidīta atbilde no servera
+# Variables:
+#   $duplicates (Number) - Number of sentences which got rejected because they are duplicates
+sc-add-result =
+    { $duplicates ->
+        [0] Teikumi iesniegti. { $duplicates } teikumi tika noraidīti kā dublikāti.
+        [zero] Teikumi iesniegti. { $duplicates } teikums tika noraidīts kā dublikāts.
+        [one] Teikumi iesniegti. { $duplicates } teikumi tika noraidīti kā dublikāti.
+       *[other] Teikumi iesniegti. { $duplicates } teikumi tika noraidīti kā dublikāti.
+    }
+# Variables:
+#   $sentences (Number) - Number of sentences which failed to be saved to the database - could be several different reasons
+sc-add-err-failed =
+    { $sentences ->
+        [0] Neviens teikums netika noraidīts
+        [zero] { $sentences } teikums tika noraidīts
+        [one] { $sentences } teikumi tika noraidīti
+       *[other] { $sentences } teikumi tika noraidīti
+    }
+sc-add-err-submission = Iesniegšanas kļūda
+sc-add-lang-process-notice = Ja jūsu valoda šeit nav norādīta, varat to pieprasīt, izmantojot <languageProcessLink>šo procesu</languageProcessLink>.
 
 ## ADD SENTENCES CONFIRMATION
 
+sc-confirm-are-you-sure =
+    .message = Teikumi nav iesniegti. Vai tiešām vēlaties aiziet?
+sc-confirm-sentences-title = Apstipriniet jaunos teikumus
 
 ## LANGUAGE INFO
 
