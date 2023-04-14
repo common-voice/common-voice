@@ -1554,15 +1554,72 @@ sc-personal-err-lang-not-found = Nevarēja noņemt valodu: valoda nav atrasta
 sc-personal-err-remove = Nevarēja noņemt valodu
 sc-personal-your-languages = Jūsu valodas:
 sc-personal-remove-button = noņemt
+# Variables:
+#   $sentences (Number) - Number of sentences that were added by the currently logged in user for this language
+sc-personal-added-by-you = Jūs pievienojāt { $sentences }
+sc-personal-not-added = Jūs vēl neesat pievienojis nevienu valodu.
 
 ## REVIEW CRITERIA
 
+sc-criteria-modal = ⓘ Pārbaudīšanas kritēriji
+sc-criteria-title = Pārbaudīšanas kritēriji
+sc-criteria-make-sure = Pārliecinieties, vai teikums atbilst šādiem kritērijiem:
+sc-criteria-item-1 = Teikumam jābūt pareizi uzrakstītam, vārdos nav drukas kļūdu.
+sc-criteria-item-2 = Teikumam jābūt gramatiski pareizam.
+sc-criteria-item-3 = Teikumam jābūt izrunājamam.
+sc-criteria-item-4 = Ja teikums atbilst visiem kritērijiem, noklikšķiniet uz pogas &quot;Apstiprināt&quot;.
+sc-criteria-item-5-2 = Ja teikums neatbilst iepriekš minētajiem kritērijiem, noklikšķiniet uz &quot;Noraidīt&quot; pogas kreisajā pusē. Ja neesat pārliecināts par teikumu, varat to arī izlaist un pāriet uz nākamo.
+sc-criteria-item-6 = Ja visi teikumi jau ir pārbaudīti, lūdzu, palīdziet mums savākt jaunus teikumus!
 
 ## REVIEW
 
+sc-review-lang-not-selected = Jūs neesat atlasījis nevienu valodu. Lūdzu, dodieties uz savu <profileLink>profilu</profileLink>, lai izvēlētos valodas.
+sc-review-title = Teikumu pārbaude
+sc-review-loading = Notiek teikumu ielāde…
+sc-review-select-language = Lūdzu, izvēlieties valodu, lai pārbaudītu teikumus.
+sc-review-no-sentences = Nav teikumu, ko pārbaudīt. <addLink>Pievienojiet teikumus!</addLink>
+sc-review-form-prompt =
+    .message = Pārskatītie teikumi nav iesniegti, vai esat pārliecināts?
+sc-review-form-usage = Velciet pa labi, lai apstiprinātu teikumu. Velciet pa kreisi, lai to noraidītu. Velciet uz augšu, lai to izlaistu. <strong>Neaizmirstiet iesniegt sava darba rezultātu!</strong>
+# Variables:
+#   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
+sc-review-form-source = Avots: { $sentenceSource }
+sc-review-form-button-reject = Noraidīt
+sc-review-form-button-skip = Izlaist
+sc-review-form-button-approve = Apstiprināt
+# Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
+sc-review-form-button-approve-shortcut = Y
+# Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
+sc-review-form-button-reject-shortcut = N
+# Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
+sc-review-form-button-skip-shortcut = S
+sc-review-form-keyboard-usage-custom = Varat arī izmantot īsinājumtaustiņus: { sc-review-form-button-approve-shortcut }, lai apstiprinātu, { sc-review-form-button-reject-shortcut }, lai noraidītu, { sc-review-form-button-skip-shortcut }, lai izlaistu
+sc-review-form-button-submit =
+    .submitText = Pabeigt pārskatīšanu
+# Variables:
+#   $sentences (Number) - Number of sentences the user has reviewed in this session
+sc-review-form-reviewed-message =
+    { $sentences ->
+        [0] Neviens teikums nav pārbaudīts
+        [zero] Pārbaudīts { $sentences } teikums
+        [one] Pārbaudīti { $sentences } teikumi
+       *[other] Pārbaudīti { $sentences } teikumi
+    }
+sc-review-form-review-failure = Pārbaudes rezultātu nevarēja saglabāt. Lūdzu, pamēģiniet vēlreiz vēlāk.
+sc-review-link = Pārbaudiet
 
 ## SETTINGS
 
+sc-settings-title = Iestatījumi
+sc-settings-ui-language = Saskarnes valoda
+sc-settings-reset-skipped = Atiestatīt izlaistos teikumus
+sc-settings-skipped-decription = Pārskatīšanas laikā jūs iepriekš izlaidāt teikumus. Atiestatot izlaistos teikumus, atkal tiks parādīti visi izlaistie teikumi. Tas nav atkarīgs no valodas.
+sc-settings-show-all-button = Rādīt vēlreiz visus izlaistos teikumus
+sc-settings-failed = Nevarēja mainīt iestatījumus. Lūdzu mēģiniet vēlreiz.
+# VALIDATION
+sc-validation-number-of-words = Teikumā jābūt no 1 līdz 14 (ieskaitot) vārdiem
+sc-validation-no-numbers = Teikā nedrīkst būt cipari un skaitļi
+sc-validation-no-symbols = Teikā nedrīkst būt nekādi speciālie simboli
 
 # [/SentenceCollector]
 
