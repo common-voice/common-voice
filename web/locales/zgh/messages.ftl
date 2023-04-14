@@ -586,7 +586,15 @@ record-error-too-long = ⵉⵖⵣⵣⵉⴼ ⵓⵙⵓⵙⵔ ⵙ ⴽⵉⴳⴰⵏ.
 record-instruction = { $actionType }<recordIcon></recordIcon> ⵉⵍⵎⵎⴰ ⵖⵔ ⵜⴰⵡⵉⵏⵙⵜ ⵙ ⵓⴳⵕⴹ ⵢⴰⵜⵜⵓⵢⵏ
 record-three-more-instruction = ⵖⴰⵙ ⴽⵕⴰⴹⵜ ⵙⵓⵍ!
 record-again-instruction = ⴰⵢⵢⵓⵣ!<recordIcon></recordIcon> ⵙⵓⵙⵔⴰⵜ ⵜⵓⵙⵙⵉⴼⵜ ⵜⵓⴹⴼⵉⵕⵜ ⵏⵏⵓⵏ
+record-again-instruction2 = ⵙⵎⴷ ⵙⵓⵍ ⵎⴽⴰ, ⵙⵓⵙⵔ ⵜⵉⴽⴽⵍⵜ ⵢⴰⴹⵏ <recordIcon></recordIcon>
+record-last-instruction = <recordIcon></recordIcon> ⵜⴰⵎⴳⴳⴰⵔⵓⵜ!
+share-clip = ⴱⴹⵡⴰⵜ ⵜⵓⵙⵙⵉⴼⵜ ⵏⵏⵓⵏ
 share-common-voice = ⴱⴹⵓ ⴽⴰⵎⵏⴼⵓⵢⵙ
+record-abort-title = ⴰⴷ ⵣⵡⴰⵔ ⵜⵙⵎⴷⴷ ⴰⵙⵓⵙⵔ?
+record-abort-submit = ⴰⵣⵏ ⵜⵓⵙⵙⵉⴼⵉⵏ
+record-abort-continue = ⵙⵎⴷ ⴰⵙⵓⵙⵔ
+record-abort-delete = ⴼⴼⵖ, ⵜⴽⴽⵙⴷ ⵜⵓⵙⵙⵉⴼⵉⵏ
+listen-last-time-instruction = <playIcon></playIcon>ⵜⴰⵎⴳⴳⴰⵔⵓⵜ!
 
 ## Contribution Nav Items
 
