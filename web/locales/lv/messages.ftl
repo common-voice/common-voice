@@ -1707,3 +1707,7 @@ background-voices-explanation = Neliels fona troksnis ir pieņemams, taču, ja d
 background-voices-example-1 = Senā laikmeta dinozauri. [lasa viena balss]
 background-voices-tip-1 = Vai tu nāc? [saka kāds cits]
 volume-explanation = Starp lasītājiem būs dabiskas ieraksta skaļuma atšķirības. Noraidīt tikai tad, ja skaļums ir tik liels, ka ierakstā ir krakšķi vai tas pārtrūkst, vai arī, ja tas ir tik kluss, ka nevar saklausīt un pilnībā saprast teikto bez skatīšanās uz rakstīto tekstu.
+reader-effects-explanation = Lielākajā daļā ierakstu cilvēki, runā savā dabiskajā balsī. Apstipriniet arī nelielas atkāpes, piemēram, ja kāda frāze tiek pateikta skaļāk, klusāk, priecīgi, bēdīgi vai nedaudz ‘dramatiskā’ balsī. Lūdzu, noraidiet ierakstus, kuros cilvēki dzied vai tos, kas ierunāti robotiskā datora balsī.
+just-unsure-explanation = Ja saskaraties ar kaut ko, kas šajās vadlīnijās nav ietverts, lūdzu, vērtējiet kā jums šķiet pareizi. Kvalitāte un precizitāte ir svarīgāka par ierakstu skaitu. Ja tiešām nevarat izlemt, izmantojiet izlaišanas pogu un pārejiet uz nākamo ierakstu.
+still-have-questions = Joprojām ir jautājumi?
+contact-common-voice = Sazinieties ar Common Voice komandu
