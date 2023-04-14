@@ -1349,19 +1349,62 @@ sc-howto-cite-item-3 = Publiskā domēna tekstam, kas nav pieejams tiešsaistē,
 sc-howto-review-title = Pārskatiet teikumus
 sc-howto-review-subtitle = Pārliecinieties, vai teikums atbilst šādiem kritērijiem:
 sc-howto-review-criteria-1 = Teikumam jābūt pareizi uzrakstītam, vārdos nav drukas kļūdu.
+sc-howto-review-criteria-2 = Teikumam jābūt gramatiski pareizam.
+sc-howto-review-criteria-3 = Teikumam jābūt izrunājamam.
+sc-howto-review-criteria-4 = Ja teikums atbilst visiem kritērijiem, noklikšķiniet uz pogas "Apstiprināt".
 sc-howto-review-criteria-5 = Ja teikums neatbilst iepriekš minētajiem kritērijiem, noklikšķiniet uz pogas "Noraidīt". Ja neesat pārliecināts par teikumu, varat to arī izlaist un pāriet uz nākamo.
+sc-howto-review-criteria-6 = Ja visi teikumi jau ir pārbaudīti, lūdzu, palīdziet mums savākt jaunus teikumus!
+sc-howto-findpd-title = Kā atrast brīvi pieejamus publiskā domēna teikumus
+sc-howto-findpd-subtitle = Meklējiet tos internetā
+sc-howto-findpd-text-2 = Atcerieties, ka mums ir nepieciešama atļauja publicēt šos teikumus, tāpēc vienmēr pārliecinieties, vai teksts pieder <wikipediaLink>publiskajam domēnam</wikipediaLink>. Ja nav skaidras norādes, sazinieties ar personu, kurai teksts pieder, un jautājiet, vai tā vēlas nodot savu tekstu publiskajā domēnā. Ja viņi vēlas, palīdziet viņiem izpildīt <cc0WaiverLink>Ieguldījumu līguma</cc0WaiverLink> procesu. Ja viņi nevēlas pievienot tekstu, jums nav atļauts izmantot šo tekstu.
+sc-howto-findpd-tips = Šeit ir daži padomi, kā atrast teikumus:
+sc-howto-findpd-tips-1 = Labākie avoti, kur varat meklēt, ir podkāsti, stenogrammas, filmu scenāriji un viss, kas var ietvert ikdienas sarunas.
+sc-howto-findpd-tips-2 = Valdības sēžu stenogrammas, grāmatas un raksti arī ir lieliski, taču, tā kā teksts mēdz būt nedaudz formālāks, tiem ir mazāka prioritāte.
+sc-howto-findpd-tips-3 = Diemžēl mēs šobrīd nevaram iekļaut Wikimedia rakstus. Tāpēc, lūdzu, nekopējiet teikumus no turienes.
+sc-howto-findpd-subtitle-2 = Sadarbojieties ar vietējām organizācijām vai privātpersonām
+sc-howto-findpd-partner-1 = Ir daudzas sabiedriskās organizācijas, kuras varētu vēlēties sadarboties, un tām jau ir daudz tekstu, ko tās var ziedot sabiedrības labumam kā publisku īpašumu. Sazinieties ar vietējām universitātēm, valdībām un atvērtā pirmkoda organizācijām, lai runātu par projektu un lūgtu viņu palīdzību.
+sc-howto-findpd-partner-2 = Eksperti valodnieki var arī palīdzēt, mēģināt sazināties ar vietējām lingvistiskajām universitātēm (gan skolotājiem, gan studentiem) un noskaidrot, vai tās var palīdzēt apkopot daudzveidīgu skaņu un dažādu teikumu kopumu jūsu valodā.
 
 ## MY SENTENCES
 
+sc-my-title = Mani teikumi
+sc-my-description = Šajā lapā ir pārskats par visiem jūsu iesniegtajiem teikumiem. Ja nepieciešams, varat arī dzēst jau iesniegtos teikumus, atzīmējot tai blakus esošo izvēles rūtiņu un noklikšķinot uz &quot;Dzēst atlasītos teikumus&quot; apakšā. Lūdzu, izņemiet teikumus tikai tad, ja tas ir absolūti nepieciešams, piemēram, ja pēc tam pamanījāt, ka teikums ir aizsargāts ar autortiesībām vai tajā ir kļūdas.
+sc-my-loading = Notiek jūsu teikumu ielāde…
+sc-my-err-fetching = Ielādējot jūsu teikumus, radās kļūda. Lūdzu mēģiniet vēlreiz.
+sc-my-no-sentences = Nav atrasts neviens teikums!
+# Variables:
+#   $batchId (String) - A unique ID identifying the submission of sentences - sentences uploaded together all have the same batch ID
+sc-my-submission = Iesnieguma identifikators: { $batchId }
+# Variables:
+#   $source (String) - Associated source the user filled out when uploading the sentence
+sc-my-source = Avots: { $source }
+sc-my-delete = Dzēst atlasītos teikumus
+sc-my-deleting = Notiek atlasīto teikumu dzēšana…
+sc-my-err-failed-delete = Neizdevās izdzēst atlasītos teikumus... Lūdzu, mēģiniet vēlreiz!
 
 ## REJECTED
 
+sc-rejected-title = Noraidītie teikumi
+sc-rejected-loading = Notiek noraidīto teikumu ielāde…
+sc-rejected-err-fetching = Ielādējot noraidītos teikumus, radās kļūda. Lūdzu mēģiniet vēlreiz.
+sc-rejected-none-found = Netika atrasts neviens noraidīts teikums!
 
 ## STATS
 
+sc-stats-title = Statistika
+sc-stats-updating = Notiek atjaunināšana…
+sc-stats-error = Nevarējām ielādēt statistiku. Lūdzu, pamēģiniet vēlreiz vēlāk.
+# Variables:
+#   $sentenceCount (Number) - Total number of sentences uploaded through Sentence Collector
+#   $languageCount (Number) - Total number of languages these sentences represent
+sc-stats-summary = Common Voice teikumu apkopotājs ir apkopojis { $sentenceCount } teikumus { $languageCount } valodās!
 
 ## ADD
 
+sc-submit-err-select-lang = Lūdzu izvēlieties valodu.
+sc-submit-err-add-sentences = Lūdzu, pievienojiet teikumus.
+sc-submit-err-add-source = Lūdzu, pievienojiet avotu.
+sc-submit-err-confirm-pd = Lūdzu, apstipriniet, ka šie teikumi ir publiski pieejami un brīvi lietojami.
 
 ## ADD LANGUAGE
 
