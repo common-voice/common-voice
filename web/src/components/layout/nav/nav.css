@@ -288,6 +288,10 @@ header {
                         display: none;
                     }
                 }
+
+                & .black-border.logged-out {
+                    padding-top: 32.5px;
+                }
             }
 
             & .menu {
