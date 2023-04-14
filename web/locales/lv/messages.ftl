@@ -242,7 +242,7 @@ share-title = Palīdziet mums atrast citus, kas ziedos savu balss ierakstu!
 share-text = Palīdziet iekārtām saprast latviešu valodu, ierakstiet savu balsi vai pārbaudiet savāktos ierakstus { $link }
 link-copied = Saite kopēta
 back-top = Atpakaļ uz augšu
-logout = Izrakstīties
+logout = Beigt darbu
 
 ## Home Page
 
@@ -1317,6 +1317,7 @@ sc-logout-button = Beigt darbu
 
 ## HOME
 
+sc-home-title = Laipni lūdzam Common Voice Teikumu apkopotājā
 
 ## GENERAL
 
