@@ -1640,4 +1640,39 @@ partnerships-governments-description = Mēs esam priecīgi atbalstīt publiskā 
 partnerships-academia-header = Universitātes, akadēmiķi un pētnieki
 partnerships-academia-description = Atvērta inovācija ir mūsu darbības pamatā. Lai sadarbotos pētniecībā, vāktu datus vai veiktu intervijas, <emailFragment>sazinieties ar mums.</emailFragment>
 partnerships-small-business-header = Mazie uzņēmumi, tostarp tehnoloģiju un mākslīgā intelekta jaunuzņēmumi
+partnerships-small-business-description = Mēs vienmēr vēlamies dzirdēt no datu patērētājiem par viņu vajadzībām un kontekstu - no sadarbības datu vākšanas platformā līdz datu veselības ieskatu sniegšanai, mēs vēlamies <emailFragment>uzklausīt jūs.</emailFragment>
+partnerships-corporates-header = Liela mēroga korporācijas un platformu uzņēmumi
+partnerships-corporates-description = Ja vēlaties runāt vairāk par datu kopu, līdzinvestēt plānotos platformas paplašināšanā vai meklēt sadarbības iespējas, <emailFragment>rakstiet mums.</emailFragment>
+partnerships-our-partners = Mūsu partneri
+# FIRST POST SUBMISSION CTA
+first-cta-header-text = Paldies, ka ziedojāt savas balss ierakstus!
+first-cta-subtitle-text = Vai vēlaties pastāstīt par to, kā runājat?
+why-donate = Kāpēc jūs jautājat?
+why-donate-explanation-1 = Šī informācija nav jāsniedz obligāti - pievienojiet to tikai tad, ja jūtaties ērti. Kad mēs izlaižam datu kopu, mēs pseidonimizējam visu personas informāciju un pārliecināmies, ka informācija, piemēram, jūsu vārds un epasts, nav saistīta ar demogrāfisko informāciju, piemēram, vecumu vai dzimumu.
+why-donate-explanation-2 = Lai balss tehnoloģija labi darbotos ikvienam, datiem, kas palīdz izstrādātājiem izveidot šo tehnoloģiju, ir jāatspoguļo daudzveidīgs cilvēku loks. Piemēram, ja mēs neiekļaujam nevienu runātāju ar noteiktu akcentu, tehnoloģija nedarbosies labi cilvēkiem ar šo akcentu. <learnMore>Uzziniet vairāk par to, kāpēc metadati ir svarīgi.</learnMore>
+add-information-button = Pievienot informāciju
+continue-speaking-button = Nē, paldies, turpināšu ierakstīt
+create-profile-text = Vai vēlaties saglabāt savu informāciju? <createProfile>Izveidojiet profilu</createProfile>
+thanks-for-voice-toast = Paldies par balss informāciju
+thanks-for-voice-toast-error = Iesniedzot jūsu balss informāciju, radās kļūda
+# SECOND POST SUBMISSION CTA
+second-cta-header-text = Paldies, ka ziedojāt savas balss ierakstus!
+second-cta-subtitle-text = Izmantojot profilu, varēsiet sekot līdzi savai aktivitātei un sazināties ar balss datu vācēju kopienu.
+already-have-an-account = Jums jau ir konts? <login>Pieslēdzieties</login>
+create-profile-button = Izveidot profilu
+# IMAGE TAGS
+img-alt-success-checkmark = veiksmes atzīme
+# GUIDELINES PAGE
+guidelines-header = Vadlīnijas
+guidelines-header-subtitle = Izprotiet, kā pievienot un apstiprināt teikumus un ierakstus Common Voice datu kopā
+voice-collection = Ierakstu vākšana
 sentence-collection = Teikumu kolekcija
+varying-pronunciations = Dažādas izrunas
+misreadings = Kļūdaini lasījumi
+offensive-content = Aizskarošs saturs
+background-noise = Fona troksnis
+background-voices = Balsis fonā
+volume = Skaļums
+reader-effects = Ierunātāja izrunas īpatnības
+just-unsure = Vienkārši neesat pārliecināti?
+example = Piemērs
