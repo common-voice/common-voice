@@ -1135,9 +1135,9 @@ help-share-goal = Palīdziet mums atrast vairāk balsu, dalieties ar savu mērķ
 confirm-goal = Apstipriniet mērķi
 goal-interval-weekly = Reizi nedēļā
 # $type is one of share-goal-type-*
-share-n-daily-contribution-goal = Kopīgojiet savu { $count } klipu ikdienas mērķi { $type }
+share-n-daily-contribution-goal = Dalieties ar savu { $count } ierakstu ikdienas mērķi { $type }
 # $type is one of share-goal-type-*
-share-n-weekly-contribution-goal = Kopīgojiet savu { $count } klipu iknedēļas mērķi { $type }
+share-n-weekly-contribution-goal = Dalieties ar savu { $count } ierakstu iknedēļas mērķi { $type }
 share-goal-type-speak = Runāšana
 share-goal-type-listen = Klausīšanās
 share-goal-type-both = Runāšana un klausīšanās
@@ -1679,7 +1679,7 @@ volume = Skaļums
 reader-effects = Ierunātāja izrunas īpatnības
 just-unsure = Vienkārši neesat pārliecināti?
 example = Piemērs
-varying-pronunciations-explanation-1 = Mēs priecājamies par dažādiem akcentiem! Rūpīgi izvērtējiet, pirms noraidīt klipu, pamatojoties uz to, ka, jūsuprāt, lasītājs ir nepareizi izrunājis vārdu, ievietojis uzsvaru nepareizā vietā vai ignorējis pieturzīmes. Dažādi cilvēki pasaulē runā dažādi, un dažas no šīm izrunām, iespējams, ikdienā nedzirdat savā kopienā. Lūdzu, novērtējiet tos, kuri runā atšķirīgi no jums.
+varying-pronunciations-explanation-1 = Mēs priecājamies par dažādiem akcentiem! Rūpīgi izvērtējiet, pirms noraidīt ierakstu, pamatojoties uz to, ka, jūsuprāt, lasītājs ir nepareizi izrunājis vārdu, ievietojis uzsvaru nepareizā vietā vai ignorējis pieturzīmes. Dažādi cilvēki pasaulē runā dažādi, un dažas no šīm izrunām, iespējams, ikdienā nedzirdat savā kopienā. Lūdzu, novērtējiet tos, kuri runā atšķirīgi no jums.
 varying-pronunciations-explanation-2 = No otras puses, ja izruna ir nepareiza vai kļūdaina, noraidiet ierakstu. Ja neesat pārliecināti, izmantojiet izlaišanas pogu.
 varying-pronunciations-example = Man garšo mērce un desa.
 varying-pronunciations-tip-1 = [Dažādās Latvijas malās "mērce" izrunā dažādi, visas izrunas ir pareizas]
