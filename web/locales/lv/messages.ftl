@@ -1218,12 +1218,21 @@ demo-account = Konts
 ## Demo Account
 
 demo-account-card-header = Lai veiktu ieguldījumu, nav nepieciešams konts, kaut gan tas ir noderīgs.
+demo-account-card-body = Labajā pusē mēs izklāstām priekšrocības un precizējam, kādu informāciju mēs publiskojam. Izmantojiet tālāk esošās saites, lai sāktu darbu ar Common Voice kontu savā ierīcē.
+demo-account-enter-email =
+    .label = Ievadiet epastu, lai nosūtītu reģistrācijas saiti
+demo-account-sign-up = Nosūtiet reģistrācijas saiti
 
 ## Demo Contribute
 
+demo-contribute-card-header = Vai esat gatavs pievienot savu balsi vai aizdot savu ausi?
+demo-contribute-card-body-v2 = Tagad, kad jūs zināt mazliet vairāk par Common Voice, kāpēc gan neizmēģināt to? Noklikšķiniet uz mikrofona ikonas, lai sāktu ierakstīt teikumus. <br/><br/>Ja vēlaties pārbaudīt citu cilvēku ierakstus, noklikšķiniet uz atskaņošanas ikonas. Jūs palīdzēsiet pārliecināties, vai ieraksti atbilst ekrānā rakstītajiem teikumiem.
+demo-listen-subtitle = Šis taču ir labs brīdis palīdzēt, vai ne?
 
 ## Demo Dashboard
 
+demo-dashboard-card-header = Informācijas paneļi sniedz jums jaunāko informāciju par jūsu un kopienas progresu.
+demo-dashboard-card-body = Pēc katra ierakstītā teikuma un pēc katra pārbaudītā ieraksta jūsu konta informācijas paneļi tiek atjaunināti, lai atspoguļotu jūsu jaunākos sasniegumus katrā valodā, kurā veicat ieguldījumu. Jā, jūs varat dot ieguldījumu vairāk nekā vienā valodā!<br/><br/> Izmantojiet informācijas paneļus, lai sekotu līdzi savai statistikai, redzētu, kā jums veicas kopā ar citiem kopienas locekļiem, un iestatītu ikdienas vai iknedēļas ieguldījumu mērķus.
 
 ## Validation criteria
 
