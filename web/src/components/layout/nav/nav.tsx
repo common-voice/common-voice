@@ -8,18 +8,19 @@ import {
   useLocale,
 } from '../../locale-helpers';
 import ContributeMenu from './contribute-menu';
+import { useAccount } from '../../../hooks/store-hooks'
 
-import './nav.css';
+import './nav.css'
 
 type NavProps = {
-  id?: string;
-  shouldExpandNavItems?: boolean;
-  isContributionPageActive?: boolean;
-  children?: React.ReactNode;
-};
+  id?: string
+  shouldExpandNavItems?: boolean
+  isContributionPageActive?: boolean
+  children?: React.ReactNode
+}
 
 const LocalizedNavLink = ({ id, to }: { id: string; to: string }) => {
-  const [locale] = useLocale();
+  const [locale] = useLocale()
   return (
     <Localized id={id}>
       <LocaleNavLink
@@ -29,8 +30,8 @@ const LocalizedNavLink = ({ id, to }: { id: string; to: string }) => {
         onClick={() => trackNav(id, locale)}
       />
     </Localized>
-  );
-};
+  )
+}
 
 const Nav: React.FC<NavProps> = ({
   children,
@@ -38,12 +39,14 @@ const Nav: React.FC<NavProps> = ({
   isContributionPageActive,
   ...props
 }) => {
-  const [showMenu, setShowMenu] = React.useState(false);
-  const [showMobileMenu, setShowMobileMenu] = React.useState(false);
+  const [showMenu, setShowMenu] = React.useState(false)
+  const [showMobileMenu, setShowMobileMenu] = React.useState(false)
 
   const toggleMobileMenuVisible = () => {
-    setShowMobileMenu(!showMobileMenu);
-  };
+    setShowMobileMenu(!showMobileMenu)
+  }
+
+  const account = useAccount()
 
   return (
     <nav {...props} className="nav-list">
@@ -55,6 +58,7 @@ const Nav: React.FC<NavProps> = ({
             showMobileMenu={showMobileMenu}
             toggleMobileMenuVisible={toggleMobileMenuVisible}
             isContributionPageActive={isContributionPageActive}
+            isLoggedIn={Boolean(account)}
           />
         </ContributableLocaleLock>
         <span className="divider" />
@@ -69,7 +73,7 @@ const Nav: React.FC<NavProps> = ({
       </div>
       {children}
     </nav>
-  );
-};
+  )
+}
 
 export default Nav;

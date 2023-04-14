@@ -9,11 +9,12 @@ import { ContributeMenuContent } from './contribute-menu-content';
 import URLS from '../../../urls';
 
 interface ContributeMenuProps extends RouteComponentProps {
-  showMenu: boolean;
-  setShowMenu: React.Dispatch<React.SetStateAction<boolean>>;
-  showMobileMenu: boolean;
-  toggleMobileMenuVisible: () => void;
-  isContributionPageActive: boolean;
+  showMenu: boolean
+  setShowMenu: React.Dispatch<React.SetStateAction<boolean>>
+  showMobileMenu: boolean
+  toggleMobileMenuVisible: () => void
+  isContributionPageActive: boolean
+  isLoggedIn: boolean
 }
 
 const ContributeMenu: React.FC<ContributeMenuProps> = ({
@@ -22,19 +23,20 @@ const ContributeMenu: React.FC<ContributeMenuProps> = ({
   showMobileMenu,
   toggleMobileMenuVisible,
   isContributionPageActive,
+  isLoggedIn,
   location,
 }) => {
   const handleMouseEnter = () => {
     if (!isContributionPageActive) {
-      setShowMenu(true);
+      setShowMenu(true)
     }
-  };
+  }
 
   const handleMouseLeave = () => {
     if (!isContributionPageActive) {
-      setShowMenu(false);
+      setShowMenu(false)
     }
-  };
+  }
 
   return (
     <div className="contribute-wrapper">
@@ -82,7 +84,13 @@ const ContributeMenu: React.FC<ContributeMenuProps> = ({
           </div>
         )}
         <div className="menu-wrapper" data-testid="menu-wrapper">
-          {isContributionPageActive && <span className="black-border" />}
+          {isContributionPageActive && (
+            <span
+              className={classNames('black-border', {
+                'logged-out': !isLoggedIn,
+              })}
+            />
+          )}
           <div className="menu">
             <span className="blue-border" />
             <ContributeMenuContent className="menu-list" />
@@ -90,7 +98,7 @@ const ContributeMenu: React.FC<ContributeMenuProps> = ({
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
 export default withRouter(ContributeMenu);
