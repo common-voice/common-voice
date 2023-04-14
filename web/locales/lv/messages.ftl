@@ -1454,15 +1454,106 @@ sc-add-lang-process-notice = Ja jūsu valoda šeit nav norādīta, varat to piep
 sc-confirm-are-you-sure =
     .message = Teikumi nav iesniegti. Vai tiešām vēlaties aiziet?
 sc-confirm-sentences-title = Apstipriniet jaunos teikumus
+# Variables:
+#   $countOfSentences (Number) - Number of sentences the user has filled in the submission form
+sc-confirm-sentences-found =
+    { $countOfSentences ->
+        [0] Neviens teikums netika atrasts.
+        [zero] Tika atrasts { $countOfSentences } teikums.
+        [one] Tika atrasti { $countOfSentences } teikumi.
+       *[other] Tika atrasti { $countOfSentences } teikumi.
+    }
+# Variables:
+#   $countOfInvalidated (Number) - Number of sentences the user rejected in the review form before submission
+sc-confirm-rejected-by-you = Jūs noraidījāt { $countOfInvalidated }
+sc-confirm-already-reviewed =
+    { $countOfReviewed ->
+        [0] Nav neviena pārbaudīta teikuma
+        [zero] { $countOfReviewed } pārbaudīts teikums. Tā turpināt!
+        [one] { $countOfReviewed } pārbaudīts teikums. Tā turpināt!
+       *[other] { $countOfReviewed } pārbaudīti teikumi. Tā turpināt!
+    }
+# Variables:
+#   $readyCount (Number) - Number of sentences ready to be uploaded
+sc-confirm-ready =
+    { $readyCount ->
+        [0] Neviens teikums nav gatavs iesniegšanai!
+        [zero] { $readyCount } teikums ir gatavs iesniegšanai!
+        [one] { $readyCount } teikumi ir gatavi iesniegšanai!
+       *[other] { $readyCount } teikumi ir gatavi iesniegšanai!
+    }
+# Variables:
+#   $countOfUnreviewed (Number) - Number of sentences unreviewed before the upload
+sc-confirm-unreviewed = { $countOfUnreviewed } teikumi nav pārskatīti. Ja vēlaties, varat arī pārskatīt savus teikumus pirms to iesniegšanas.
+sc-confirm-button-text = Apstiprināt
+sc-confirm-uploading = Notiek teikumu augšupielāde. Tas var ilgt vairākas minūtes atkarībā no pievienoto teikumu skaita. Lūdzu, neaizveriet šo vietni.
 
 ## LANGUAGE INFO
 
+sc-lang-info-title-total = Kopā
+sc-lang-info-title-personal = Jūsu pienesums
+# Variables:
+#   $totalSentences (Number) - Number of sentences uploaded in total for this language
+sc-lang-info-total =
+    { $totalSentences ->
+        [0] Nav neviena teikuma
+        [zero] { $totalSentences } teikums
+        [one] { $totalSentences } teikumi
+       *[other] { $totalSentences } teikumi
+    }
+# Variables:
+#   $totalInReview (Number) - Number of sentences currently in the review state for this language
+sc-lang-info-in-review =
+    { $totalInReview ->
+        [0] Nav neviena teikuma ko pārbaudīt.
+        [zero] { $totalInReview } teikums ko pārbaudīt.
+        [one] { $totalInReview } teikumi ko pārbaudīt.
+       *[other] { $totalInReview } teikumi ko pārbaudīt.
+    }
+# Variables:
+#   $unreviewedSentencesByYou (Number) - Number of sentences the user can still review
+sc-lang-info-left-for-you =
+    { $unreviewedSentencesByYou ->
+        [0] Jums nav neviena teikuma ko pārbaudīt.
+        [zero] { $unreviewedSentencesByYou } teikums ko pārbaudīt.
+        [one] { $unreviewedSentencesByYou } teikumi ko pārbaudīt.
+       *[other] { $unreviewedSentencesByYou } teikumi ko pārbaudīt.
+    }
+sc-lang-info-review-now = <reviewLink>Pārbaudīt tagad!</reviewLink>
+sc-lang-info-add-more = <addLink>Pievienojiet teikumus!</addLink>
+# Variables:
+#   $validatedSentences (Number) - Number of sentences which have been approved for this language
+sc-lang-info-validated =
+    { $validatedSentences ->
+        [0] Nav neviena pārbaudīta teikuma.
+        [zero] { $validatedSentences } pārbaudīts teikums.
+        [one] { $validatedSentences } pārbaudīti teikumi.
+       *[other] { $validatedSentences } pārbaudītu teikumu.
+    }
+# Variables:
+#   $rejectedSentences (Number) - Number of sentences which have been rejected for this language
+sc-lang-info-rejected =
+    { $rejectedSentences ->
+        [0] Nav neviena noraidīta teikuma.
+        [zero] { $rejectedSentences } noraidīts teikums.
+        [one] { $rejectedSentences } noraidīti teikumi.
+       *[other] { $rejectedSentences } noraidītu teikumu.
+    }
 
 ## LOGIN
 
+sc-login-err-failed = Pieslēgšanās neizdevās
+sc-login-err-try-again = Lūdzu, mēģiniet vēlreiz.
 
 ## PROFILE
 
+# Variables:
+#   $username (String) - eMail address of the logged in user
+sc-profile-title = Profils: { $username }
+sc-personal-err-lang-not-found = Nevarēja noņemt valodu: valoda nav atrasta
+sc-personal-err-remove = Nevarēja noņemt valodu
+sc-personal-your-languages = Jūsu valodas:
+sc-personal-remove-button = noņemt
 
 ## REVIEW CRITERIA
 
