@@ -578,6 +578,13 @@ contribute-more =
        *[other] ⵜⵙⴰⴳⴰⴷ ⴰⴷ ⵜⵙⴽⵔⴷ { $count } ⵢⴰⴹⵏⵉⵏ?
     }
 record-cta = ⵙⵙⵏⵜⵉ ⴰⵙⵓⵙⵔ
+record-platform-not-supported = ⵙⵙⵓⵔⴼⴰⵜ ⴰⵏⵖ, ⵓⵔ ⵜⴻⵜⵜⵡⴰⵏⵏⴰⵍ ⵜⵙⵉⵍⴰ ⵏⵏⵓⵏ ⵔⵅⵅⵓ.
+record-platform-not-supported-desktop = ⵜⵣⵎⵔⵎ ⴰⴷ ⵜⴰⵔⴳⵎ ⴳ ⵉⵎⵙⵙⵓⴷⵙⵏ ⵏ ⵓⵙⵉⵔⴰ ⵙ ⵡⴰⴳⴰⵎ…
+record-must-allow-microphone = ⵉⵇⵇⴰⵏ ⴷ ⴰⴷ ⵜⵙⵙⵓⵔⴳⴷ ⴰⴷⴰⴼ ⵖⵔ ⵓⵎⵉⴽⵔⵓⴼⵓⵏ.
+record-error-too-short = ⵉⴳⵣⵣⵓⵍ ⵓⵙⵓⵙⵔ ⵙ ⴽⵉⴳⴰⵏ.
+record-error-too-long = ⵉⵖⵣⵣⵉⴼ ⵓⵙⵓⵙⵔ ⵙ ⴽⵉⴳⴰⵏ.
+record-instruction = { $actionType }<recordIcon></recordIcon> ⵉⵍⵎⵎⴰ ⵖⵔ ⵜⴰⵡⵉⵏⵙⵜ ⵙ ⵓⴳⵕⴹ ⵢⴰⵜⵜⵓⵢⵏ
+record-three-more-instruction = ⵖⴰⵙ ⴽⵕⴰⴹⵜ ⵙⵓⵍ!
 record-again-instruction = ⴰⵢⵢⵓⵣ!<recordIcon></recordIcon> ⵙⵓⵙⵔⴰⵜ ⵜⵓⵙⵙⵉⴼⵜ ⵜⵓⴹⴼⵉⵕⵜ ⵏⵏⵓⵏ
 share-common-voice = ⴱⴹⵓ ⴽⴰⵎⵏⴼⵓⵢⵙ
 
