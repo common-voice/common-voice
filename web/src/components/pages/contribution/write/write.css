@@ -12,7 +12,7 @@
 
         @media (--xl-up) {
             height: 80%;
-            overflow: scroll;
+            overflow: auto;
         }
 
         & .write {
