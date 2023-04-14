@@ -528,7 +528,7 @@ about-header-description-v2 =
     <p>Common Voice ir publiski pieejama balss datu kopa, ko veido brīvprātīgo balsis visā pasaulē. Cilvēki, kuri vēlas veidot programmas, kas strādā ar balsi, var izmantot datu kopu, lai apmācītu runas atpazīšana modeļus.</p>
     <p>Šobrīd lielākā daļa balss datu kopu pieder atsevišķiem uzņēmumiem, kas kavē inovācijas. Valodas ar mazu runātāju skaitu pasaulē balss datu kopās ir nepietiekami pārstāvētas. Tas nozīmē, ka tehnoloģijas, kas darbojas ar balsi šajās valodās nedarbojas vai strādā slikti. Mēs vēlamies to mainīt, mobilizējot cilvēkus visā pasaulē, lai viņi dalītos ar savu balsi un pārbaudītu ierakstītos teikumus.</p>
 how-does-it-work-title-v2 = Kā darbojas Common Voice?
-how-does-it-work-text = Mēs piedāvājam atklātu un brīvi pieejamsu datu kopu. Ziedojiet savu balsi, apstipriniet citu cilvēku klipu precizitāti, uzlabojiet datu kopu visiem.
+how-does-it-work-text = Mēs piedāvājam atklātu un brīvi pieejamu datu kopu. Ziedojiet savu balsi, apstipriniet citu cilvēku ierakstus, uzlabojiet datu kopu visiem.
 
 ## How does it work section
 
@@ -547,21 +547,24 @@ about-dataset-release-title = Datu kopas izlaišana
 about-dataset-release-subtitle = Mēs izlaižam datu kopu katrus 3 mēnešus.
 about-subscribe-text = Vai vēlaties sazināties ar Common Voice?
 about-speak = Runājiet
-about-speak-text = Dalībnieki ieraksta balss klipus, lasot no apkopoto teikumu datu bāzes.
+about-speak-text = Dalībnieki ieraksta īsus teikumus, lasot no apkopoto teikumu datu bāzes.
 about-listen-queue = Klausīšanās rinda
 about-listen-queue-text = Balss klipi tiek ievietoti apstrādes rindā, kas tos gatavo uz klausīšanos.
 about-listen = Klausieties
-about-listen-text = Lietotāji apstiprina iesniegto klipu precizitāti, pārbaudot, vai runātājs ir pareizi nolasījis teikumu.
+about-listen-text = Lietotāji pārbauda iesniegto ierakstu precizitāti, pārbaudot, vai runātājs ir pareizi nolasījis teikumu.
 about-is-it-valid = Vai klips ir derīgs?
 about-is-it-valid-text = Balss klips ir atzīmēts kā "derīgs", ja lietotājs dod tam "jā" vērtējumu.
 about-yes-votes = ≥ 2 jā balsis
 about-yes-votes-text = Lai padarītu par daļu no balss datu kopas, klips ir jāapstiprina diviem atsevišķiem lietotājiem.
 about-no-votes = ≥ 2 nē balsis
-about-no-votes-text = Ja lietotājs noraida balss klipu, tas atgriežas rindā. Ja to noraida otro reizi, tas tiek pārvietots uz klipu kapu.
+about-no-votes-text = Ja lietotājs noraida balss ierakstu, tas atgriežas rindā. Ja to noraida otro reizi, tas tiek pārvietots uz ierakstu kapu.
 about-dataset-new = Balss datu kopa
 about-dataset-new-text = Balss datu kopai ir simtiem tūkstošu balss paraugu, kas palīdz izstrādātājiem izveidot balss atpazīšanas rīkus.
-about-clip-graveyard = Klipu kapsēta
-about-clip-graveyard-text = Klipu kapsēta sastāv no balss klipiem, kas netika iekļauti balss datu kopā. Tāpat kā datu kopa, klipu kapsēta ir pieejama lejupielādei.
+about-clip-graveyard = Ierakstu kapsēta
+about-clip-graveyard-text =
+    Ierakstu kapsēta sastāv no balss ierakstiem, kas netika iekļauti balss datu kopā. Tāpat kā datu kopa, ierakstu kapsēta ir pieejama lejupielādei.
+    
+    Mēs vēlamies pateikties sekojošiem cilvēkiem un organizācijām par palīdzību projekta īstenošanā:
 about-get-involved = Iesaistieties
 about-get-involved-text-2 =
     Vēlaties palīdzēt padarīt Common Voice vēl labāku better?
@@ -627,7 +630,7 @@ about-playbook-how-add-sentences-content-4 = Validētie teikumi tiek eksportēti
 
 ## How to record quality
 
-about-playbook-how-record-quality = Kā ierakstīt augstas kvalitātes balss klipu?
+about-playbook-how-record-quality = Kā ierakstīt augstas kvalitātes ierakstu?
 about-playbook-how-record-content-1 = Runājiet savā parastajā balsī! Jūsu runas veids ir apsveicams - mēs vēlamies, lai jūsu akcents būtu tāds, kāds tas ir, un mēs vēlamies jūsu ierasto skaļumu, stilu un intonāciju.
 about-playbook-how-record-content-2 = Izvairieties no pārāk liela fona trokšņa — Jūs jāvar viegli saklausīt.
 about-playbook-how-record-content-3 = Uzmanīgi izlasiet teikumus - neizlaidiet, nemainiet un nepievienojiet vārdus.
@@ -650,9 +653,9 @@ about-playbook-how-grow-language-content-8 = <strong>Esiet radoši!</strong> Jū
 
 about-playbook-how-validate = Kā zināt, vai apstiprināt balss ierakstu?
 about-playbook-how-validate-content-1 = Ja varat <strong>dzirdēt teikto</strong> un <strong>saprast teikto</strong>, parasti <strong>vislabāk apstiprināt</strong> ierakstu.
-about-playbook-how-validate-content-2 = <strong>Nenoraidiet klipus, kuros runātājam “ir akcents”, kas atšķiras no jūsējā</strong> - dažādas izrunas un akcenti ir svarīgi, lai balss atpazīšana darbotos labi ikvienam.
+about-playbook-how-validate-content-2 = <strong>Nenoraidiet ierakstus, kuros runātājam “ir akcents”, kas atšķiras no jūsējā</strong> - dažādas izrunas un akcenti ir svarīgi, lai balss atpazīšana darbotos labi ikvienam.
 about-playbook-how-validate-content-3 = Ja uzskatāt, ka izruna <strong>neļauj pilnībā saprast</strong> vai ir <strong>liels fona troksnis</strong> vai <strong>fonā runā arī citi cilvēki</strong>, tad ieraksts ir jānoraida. <accuracyLink>Skatiet plašāku informāciju mūsu precizitātes kritērijos</accuracyLink>.
-about-playbook-how-validate-content-4 = Ja klipu noraida 2 cilvēki, tas tiek izlaists datu kopas noraidīto ierakstu apakškopā.
+about-playbook-how-validate-content-4 = Ja ierakstu noraida 2 cilvēki, tas tiek izlaists datu kopas noraidīto ierakstu apakškopā.
 
 ## How to access dataset
 
@@ -738,7 +741,7 @@ datasets-positioning =
     Paskatieties uz šo lapu kā informācijas centru par citām atvērtā pirmkoda balss datu kopām un, tā kā kopējā balss turpina augt, mājās mūsu nākotnes atjauninājumiem.
 language = Valoda
 download-dataset-header = Lejupielādējiet datu kopu
-download-delta-explainer = Mēs esam veikuši dažas izmaiņas. Delta segmenti satur tikai jaunākos klipus kopš pēdējās izlaišanas. <deltaLink>Lasiet vairāk par šo darbu</deltaLink>.
+download-delta-explainer = Mēs esam veikuši dažas izmaiņas. Delta segmenti satur tikai jaunākos ierakstus kopš pēdējās izlaišanas. <deltaLink>Lasiet vairāk par šo darbu</deltaLink>.
 download-dataset-tag = Atlasiet vajadzīgo valodas datu kopu un izvēlieties versiju, kuru vēlaties lejupielādēt.
 # File size in gigabytes
 size = Izmērs
@@ -917,10 +920,10 @@ record-three-more-instruction = Vel palikuši trīs!
 record-again-instruction = Lieliski! <recordIcon> </recordIcon> Ierakstiet savu nākamo ierakstu
 record-again-instruction2 = Turpinām, ierakstiet vēlreiz <recordIcon></recordIcon>
 record-last-instruction = <recordIcon> </recordIcon> Pēdējais!
-review-tooltip = Pārskatiet un atkārtoti ierakstiet klipus
+review-tooltip = Pārskatiet un atkārtoti ierakstiet ierakstus
 share-clip = Dalieties ar savu ierakstu
 share-common-voice = Pastāstiet citiem par Common Voice
-review-instruction = Ja nepieciešams, pārskatiet un atkārtoti ierakstiet klipus
+review-instruction = Ja nepieciešams, pārskatiet un atkārtoti ierakstiet ierakstus
 record-submit-tooltip = { $actionType } iesniedziet, kad viss gatavs
 clips-uploaded = Ieraksti saglabāti
 record-abort-title = Varbūt vispirms pabeidz ierakstu?
@@ -1115,8 +1118,8 @@ activity-needed-calculation-plural =
                     }
             }
     }
-how-many-per-day = Lieliski! Cik klipu dienā?
-how-many-a-week = Lieliski! Cik klipu nedēļā?
+how-many-per-day = Lieliski! Cik ierakstu dienā?
+how-many-a-week = Lieliski! Cik ierakstu nedēļā?
 which-goal-type = Vai vēlaties runāt, klausīties vai abus?
 receiving-emails-info = Es vēlos saņemt e-pasta ziņojumus, piemēram, mērķa atgādinājumus, progresa atjauninājumus un informatīvos biļetenus par šo projektu.
 not-receiving-emails-info =
