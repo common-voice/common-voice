@@ -163,7 +163,8 @@ button {
         }
     }
 
-    &.write {
+    &.write,
+    &.review {
         @media (--md-down) {
             overflow: auto;
         }
@@ -194,7 +195,8 @@ button {
     width: 100%;
     min-height: 100%;
 
-    &.write {
+    &.write,
+    &.review {
         @media (--sm-down) {
             min-height: auto;
         }

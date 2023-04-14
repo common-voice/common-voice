@@ -7,6 +7,8 @@ import { ChevronDown } from '../../../../../ui/icons'
 import { TextButton } from '../../../../../ui/ui'
 import useIsMaxWindowWidth from '../../../../../../hooks/use-is-max-window-width'
 
+import './rules.css'
+
 type Props = {
   error?: SentenceSubmissionError
   showFirst?: boolean

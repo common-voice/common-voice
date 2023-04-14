@@ -95,36 +95,36 @@ const Review = () => {
           )}
           <Rules title="sc-review-rules-title" />
         </div>
-        <div className="waves">
-          <div className="primary-buttons">
-            <VoteButton kind="yes" disabled className="yes-button" />
-            <Button outline rounded className="skip-button">
-              <SkipIcon />
-              <Localized id="skip">
-                <span />
-              </Localized>{' '}
-            </Button>
-            <VoteButton kind="no" disabled className="no-button" />
-          </div>
+      </div>
+      <div className="waves">
+        <div className="primary-buttons">
+          <VoteButton kind="yes" disabled className="yes-button" />
+          <Button outline rounded className="skip-button">
+            <SkipIcon />
+            <Localized id="skip">
+              <span />
+            </Localized>{' '}
+          </Button>
+          <VoteButton kind="no" disabled className="no-button" />
         </div>
-        <div className="buttons">
-          <div>
-            <LinkButton
-              rounded
-              outline
-              className="guidelines-button"
-              blank
-              to={URLS.GUIDELINES}>
-              <QuestionIcon />
-              <Localized id="guidelines">
-                <span />
-              </Localized>
-            </LinkButton>
-            <ReportButton />
-            <Button rounded outline className="hidden-sm-down shortcuts-button">
-              <KeyboardIcon />
-            </Button>
-          </div>
+      </div>
+      <div className="buttons">
+        <div>
+          <LinkButton
+            rounded
+            outline
+            className="guidelines-button"
+            blank
+            to={URLS.GUIDELINES}>
+            <QuestionIcon />
+            <Localized id="guidelines">
+              <span />
+            </Localized>
+          </LinkButton>
+          <ReportButton />
+          <Button rounded outline className="hidden-sm-down shortcuts-button">
+            <KeyboardIcon />
+          </Button>
         </div>
       </div>
     </SentenceCollectionWrapper>

@@ -1,15 +1,28 @@
 @import url('../../../../media.css');
 
 .review-wrapper {
+    @media (--sm-down) {
+        padding: 20px;
+    }
+
     & .cards-and-instruction {
         height: 100%;
 
         & .cards-and-guidelines {
             display: flex;
 
+            @media (--md-down) {
+                flex-direction: column;
+                align-items: center;
+            }
+
             & .placeholder {
                 display: block;
                 flex: 0.7;
+
+                @media (--md-down) {
+                    display: none;
+                }
             }
         }
 
@@ -18,6 +31,10 @@
             max-width: 700px;
             height: 200px;
             width: 100%;
+
+            @media (--md-down) {
+                margin-bottom: 36px;
+            }
 
             @media (--md-up) {
                 max-height: 430px;
@@ -57,6 +74,17 @@
             }
         }
 
+        & .rules {
+            @media (--md-down) {
+                width: 100%;
+                max-width: 700px;
+
+                li {
+                    width: auto;
+                }
+            }
+        }
+
         .card-dimensions {
             padding: 0 20px;
     
@@ -83,177 +111,116 @@
                 padding: 100px 100px 0;
             }
         }
+    }
 
-        & .rules {
-            @media (--lg-up) {
-                width: 350px;
-                margin-left: 50px;
-                min-height: 350px;
-            }
-        
-        
-            & .inner {
-                background: var(--desert-storm);
-                padding: 24px 34px 0;
-                height: 100%;
-        
-                @media (--md-down) {
-                    padding-bottom: 20px;
-                }
-        
-                & .rules-title-container {
-                    display: flex;
-                    align-items: baseline;
-                    justify-content: space-between;
-        
-                    svg {
-                        transition: transform var(--easing) var(--transition-duration);
-        
-                        @media (--sm-up) {
-                            display: none;
-                        }
-                    }
-        
-                    & svg.rotate-180 {
-                        transform: rotate(180deg);
-                    }
-                }
-            }
-        
-            & .inner.rules-hidden {
-                @media (--xs-down) {
-                    padding-bottom: 0;
-                    padding-top: 16px;
-                    padding-left: 16px;
-                }
-            }
-        
-            & .text-button {
-                font-size: var(--font-size-sm);
-                margin-bottom: 16px;
-                cursor: auto;
-                width: 100%;
-                text-align: left;
-        
-                @media (--xs-down) {
-                    font-size: var(--font-size-xs);
-                }
-        
-                @media (--sm-up) {
-                    pointer-events: none;
-                }
-            }
-        
-            ul {
-                font-size: var(--font-size-sm);
-                color: var(--near-black);
-        
-                @media (--xs-down) {
-                    font-size: var(--font-size-xs);
-                }
-        
-                li {
-                    margin-bottom: 16px;
-                    width: 250px;
-        
-                    a {
-                        color: var(--anchor-text-blue);
-                        text-decoration: underline;
-                    }
-                }
-        
-                & li.error {
-                    list-style-image: url("../../../../../components/ui/icons/alert.svg");
-                }
-        
-                & li.last-rule {
-                    margin-bottom: 0px;
-                }
-            }
-        }
+    & .waves {
+        margin-top: 12vh;
+        background: url('./images/review-waves.png');
+        background-size: 100% 100%;
+        height: 15px;
+        display: flex;
+        align-items: center;
+        width: 80%;
 
-        & .waves {
-            margin-top: 12vh;
-            background: url('./images/review-waves.png');
-            background-size: 100% 100%;
-            height: 15px;
+        & .primary-buttons {
             display: flex;
-            align-items: center;
-            width: 80%;
+            margin: 0 auto;
+            width: fit-content;
 
-            & .primary-buttons {
-                display: flex;
-                margin: 0 auto;
-                width: fit-content;
-    
-                button {
-                    width: 150px;
-                    height: 57px;
-                    border-radius: 50px;
-                    background-color: var(--white);
-                    border: none;
-                    display: flex;
-                    align-items: center;
-                    justify-content: center;
-                    margin-right: 20px;
-                    text-transform: uppercase;
-                    font-weight: bold;
-                    color: var(--black);
-                    cursor: pointer;
-    
-                    svg {
-                        margin-right: 12px;
-                    }
-                }
-    
-                & .yes-button {
-                    box-shadow: 0px 4px 10px rgba(89, 203, 183, 0.3);
-                }
-    
-                & .no-button {
-                    box-shadow: 0px 4px 10px rgba(255, 79, 94, 0.3);
-                    margin-right: 0;
-                }
-    
-                & .skip-button {
-                    box-shadow: 0px 4px 10px rgba(74, 74, 74, 0.3);
-                    min-width: 150px;
-                }
-            }
-        }
-
-        & .buttons {
-            display: flex;
-            margin-top: 8.5vh;
-
-            > * {
+            button {
+                width: 150px;
+                height: 57px;
+                border-radius: 50px;
+                background-color: var(--white);
+                border: none;
                 display: flex;
                 align-items: center;
-            }
+                justify-content: center;
+                margin-right: 20px;
+                text-transform: uppercase;
+                font-weight: bold;
+                color: var(--black);
+                cursor: pointer;
 
-            & .guidelines-button {
+                @media (--sm-down) {
+                    width: 100px;
+                }
+
                 svg {
-                    margin-inline-end: 10px;
-    
-                    path {
-                        fill: var(--black);
-                    }
+                    margin-right: 12px;
                 }
             }
 
-            & .button {
-                height: 57px;
-                min-width: auto;
-                padding: 0 38px;
-                width: auto;
-                margin-inline-end: 20px;
+            & .yes-button {
+                box-shadow: 0px 4px 10px rgba(89, 203, 183, 0.3);
             }
 
-            & .button.shortcuts-button {
-                margin-inline-end: 0;
-                width: 60px;
-                padding: 0;
+            & .no-button {
+                box-shadow: 0px 4px 10px rgba(255, 79, 94, 0.3);
+                margin-right: 0;
+            }
+
+            & .skip-button {
+                box-shadow: 0px 4px 10px rgba(74, 74, 74, 0.3);
+                min-width: 150px;
+
+                @media (--sm-down) {
+                    min-width: 100px;
+                }
             }
         }
+
+        @media (--md-down) {
+            margin: 12vh auto 0;
+            width: 100%;
+        }
+    }
+
+    & .buttons {
+        display: flex;
+        margin-top: 8.5vh;
+
+        > * {
+            display: flex;
+            align-items: center;
+        }
+
+        & .guidelines-button {
+            svg {
+                margin-inline-end: 10px;
+
+                path {
+                    fill: var(--black);
+                }
+            }
+
+            @media (--md-down) {
+                border: none;
+            }
+        }
+
+        & .open-report-button {
+            @media (--md-down) {
+                border: none;
+            }
+        }
+
+        & .button {
+            height: 57px;
+            min-width: auto;
+            padding: 0 38px;
+            width: auto;
+            margin-inline-end: 20px;
+        }
+
+        & .button.shortcuts-button {
+            margin-inline-end: 0;
+            width: 60px;
+            padding: 0;
+        }
+
+        /* @media (--md-down) {
+            padding-bottom: 20px;
+        } */
     }
 }
