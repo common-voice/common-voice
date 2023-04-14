@@ -14,6 +14,7 @@ import ReviewCard from './review-card'
 import { VoteButton } from '../../listen/listen'
 import { Rules } from '../write/sentence-input-and-rules/rules'
 import { ReportButton } from '../../report/report'
+import { NoSentencesAvailable } from '../../speak/speak-error-content'
 
 import {
   useAccount,
@@ -44,7 +45,7 @@ const Review = () => {
     try {
       fetchPendingSentences(localeId)
     } catch (error) {
-      console.log({ error })
+      console.error({ error })
     }
   }
 
@@ -52,6 +53,11 @@ const Review = () => {
 
   const pendingSentencesSubmissions =
     sentences[currentLocale]?.pendingSentences || []
+
+  const isLoading = sentences[currentLocale]?.isLoadingPendingSentences
+
+  const noPendingSentences =
+    !isLoading && pendingSentencesSubmissions.length === 0
 
   // TODO: prevent flash when user is not logged in
   React.useEffect(() => {
@@ -69,6 +75,14 @@ const Review = () => {
   React.useEffect(() => {
     handleFetch()
   }, [])
+
+  if (noPendingSentences) {
+    return (
+      <SentenceCollectionWrapper dataTestId="review-page" type="review">
+        <NoSentencesAvailable />
+      </SentenceCollectionWrapper>
+    )
+  }
 
   return (
     <SentenceCollectionWrapper dataTestId="review-page" type="review">

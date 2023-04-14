@@ -4,7 +4,6 @@
     @media (--lg-up) {
         width: 350px;
         margin-left: 50px;
-        height: calc(30vh + 91.5px);
         min-height: 350px;
     }
 
@@ -26,7 +25,7 @@
             svg {
                 transition: transform var(--easing) var(--transition-duration);
 
-                @media (--sm-up) {
+                @media (--lg-up) {
                     display: none;
                 }
             }
@@ -56,7 +55,7 @@
             font-size: var(--font-size-xs);
         }
 
-        @media (--sm-up) {
+        @media (--lg-up) {
             pointer-events: none;
         }
     }
@@ -87,4 +86,8 @@
             margin-bottom: 0px;
         }
     }
+}
+
+.rules.write-rules {
+    height: calc(30vh + 91.5px);
 }

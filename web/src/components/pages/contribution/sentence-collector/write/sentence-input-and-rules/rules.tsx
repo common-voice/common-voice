@@ -15,7 +15,7 @@ type Props = {
   title: string
 }
 
-const MAX_WINDOW_WIDTH = 576
+const MAX_WINDOW_WIDTH = 992
 
 export const Rules: React.FC<Props> = ({ error, showFirst, title }) => {
   const [rulesVisible, setShowRulesVisible] = React.useState(true)
@@ -26,7 +26,7 @@ export const Rules: React.FC<Props> = ({ error, showFirst, title }) => {
   }
 
   return (
-    <div className="rules">
+    <div className={classNames('rules', { 'write-rules': showFirst })}>
       <div className={classNames('inner', { 'rules-hidden': !rulesVisible })}>
         <div className="rules-title-container">
           <Localized id={title}>

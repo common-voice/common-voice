@@ -51,7 +51,7 @@ const UnsupportedInfo = () => (
   </div>
 );
 
-const NoSentencesAvailable = () => (
+export const NoSentencesAvailable = () => (
   <div className="empty-container">
     <div className="error-card no-sentences-available">
       <h1>
@@ -68,7 +68,7 @@ const NoSentencesAvailable = () => (
       </LinkButton>
     </div>
   </div>
-);
+)
 
 const LoadingError = () => (
   <div className="empty-container">

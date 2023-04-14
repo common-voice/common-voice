@@ -17,7 +17,6 @@ export const ContributeMenuContent: React.FC<ContributeMenuContentProps> = ({
   pathname = '',
   isUserLoggedIn,
 }) => {
-  // TODO: refactor this component so that active page is passed as props
   const speakActive = pathname.includes(URLS.SPEAK)
   const listenActive = pathname.includes(URLS.LISTEN)
   const writeActive = pathname.includes(URLS.WRITE)
