@@ -1618,12 +1618,17 @@ sc-settings-show-all-button = Rādīt vēlreiz visus izlaistos teikumus
 sc-settings-failed = Nevarēja mainīt iestatījumus. Lūdzu mēģiniet vēlreiz.
 # VALIDATION
 sc-validation-number-of-words = Teikumā jābūt no 1 līdz 14 (ieskaitot) vārdiem
-sc-validation-no-numbers = Teikā nedrīkst būt cipari un skaitļi
-sc-validation-no-symbols = Teikā nedrīkst būt nekādi speciālie simboli
+sc-validation-no-numbers = Teikumā nedrīkst būt cipari un skaitļi
+sc-validation-no-symbols = Teikumā nedrīkst būt nekādi speciālie simboli
+sc-validation-no-abbreviations = Teikumā nedrīkst būt saīsinājumi
 
 # [/SentenceCollector]
 
+localization-select =
+    .label = Izvēlieties valodu/lokalizāciju
 # PARTNERSHIPS PAGE
 partnerships-header = Partnerības
+partnerships-header-text = Lai veidotu Common Voice, ir nepieciešams daudz! Mēs to nedarām vieni. Vai vēlaties ar mums sadarboties? Mēs labprāt iepazītos.
 partnerships-get-in-touch = Sazināties
+partnerships-become-a-partner = Kļūstiet par Common Voice partneri
 sentence-collection = Teikumu kolekcija
