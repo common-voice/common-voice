@@ -1339,6 +1339,16 @@ sc-howto-addsen-item-2 = Skaitļi. Teikuma tekstā nedrīkst būt cipari, jo tie
 sc-howto-addsen-item-3 = Saīsinājumi un akronīmi. Avota tekstā ir jāizvairās no saīsinājumiem un akronīmiem, piemēram, “ASV” vai “ICE”, jo tie var tikt lasīti tā, ka tie nesakrīt ar to pareizrakstību. Turklāt vienam saīsinājumam var būt vairāki precīzi rādījumi. Piemēram, akronīmu “ICE” var izrunāt kā “I-C-E” vai kā vienu vārdu.
 sc-howto-addsen-item-4 = Pieturzīmes. Speciālie simboli un pieturzīmes jāiekļauj tikai tad, ja tas ir absolūti nepieciešams. Piemēram, apostrofs ir iekļauts tādos angļu valodas vārdos kā “don't” un “we're”, un tas ir jāiekļauj avota tekstā, taču maz ticams, ka jums kādreiz būs nepieciešams īpašs simbols, piemēram, “@” vai “#”. Latviešu valodā jāmēģina atbrīvoties no visām pieturzīmēm un speciālajiem simboliem, kas nav nepieciešami.
 sc-howto-addsen-item-5 = Citu valodu burti. Burtiem ir jābūt derīgiem valodā, kurā runā. Piemēram, “ж” ir burts krievu alfabētā, taču tas nekad netiek lietots latviešu valodā, tāpēc tas nekad nedrīkst būt latviešu valodas teikumu tekstā.
+sc-howto-addsen-item-6 = Valodām var būt <validationRulesLink>savi validācijas noteikumi</validationRulesLink> ar papildu prasībām. Ja valodai nav konkrēta validācijas faila, mēs izmantojam vispārīgos angļu valodas noteikumus.
+sc-howto-addsen-post-1 = Mēs dodam priekšroku dabiskiem/sarunu teikumiem. Lai gan svarīga ir fonētiskā daudzveidība un dažādi vārdi teikumos, mēs cenšamies teikumu ierakstīšanu padarīt pēc iespējas jautrāku. Tāpēc būtu lieliski, ja jūs mēģinātu saglabāt savus teikumus pēc iespējas dabiskākus/saistošākus.
+sc-howto-cite-title = Kā norādīt avotu
+sc-howto-cite-pre-1 = Ir svarīgi norādīt, kur atradāt publiski pieejamos tekstus, lai izvairītos no plaģiāta un ļautu sekot līdzi <copyrightIssuesLink>autortiesību problēmām</copyrightIssuesLink>. Šeit ir daži veidi, kā varat citēt darbu.
+sc-howto-cite-item-1 = Varat iekļaut vietni, piemēram, "Common Voice - https://commonvoice.mozilla.org/"
+sc-howto-cite-item-2 = Varat izmantot akadēmisko atsauces stilu, piemēram, Hārvardas stilu "Mozilla (2021) Common Voice. Pieejams vietnē https://commonvoice.mozilla.org/ (Piekļuve: 2021. gada 15. septembrī)"
+sc-howto-cite-item-3 = Publiskā domēna tekstam, kas nav pieejams tiešsaistē, varat izmantot akadēmisko atsauces stilu, piemēram, Hārvardas stilu "Džess (2021) Mani dzejoļi par publisko licenci"
+sc-howto-review-title = Pārskatiet teikumus
+sc-howto-review-subtitle = Pārliecinieties, vai teikums atbilst šādiem kritērijiem:
+sc-howto-review-criteria-1 = Teikumam jābūt pareizi uzrakstītam, vārdos nav drukas kļūdu.
 sc-howto-review-criteria-5 = Ja teikums neatbilst iepriekš minētajiem kritērijiem, noklikšķiniet uz pogas "Noraidīt". Ja neesat pārliecināts par teikumu, varat to arī izlaist un pāriet uz nākamo.
 
 ## MY SENTENCES
