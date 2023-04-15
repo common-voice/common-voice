@@ -727,6 +727,7 @@ contribution-misreadings-example-7-title = ⵉⵏⵉ ⴰⵙ ⴰⴷ ⴷ ⵢⴰⵡ
 contribution-misreadings-example-7-explanation = [ⵓⵔ ⵜⵍⵍⵉ ‘ⴽⵔⴰ ⵏ’ ⴳ ⵓⴹⵕⵉⵚ ⴰⵏⵚⵍⵉ]
 contribution-misreadings-example-8-title = ⵓⴼⵉⵖ ⵜⴰⵡⴽⴽⴰ ⴳ ⵜⵉⵙⵏⵜ.
 contribution-misreadings-example-8-explanation = [ⵜⵓⵎⴰⵢⵜ ⵓⵔ ⵉⵏⴳⴰⴷⴷⴰⵏ]
+contribution-varying-pronunciations-title = ⵉⵙⵓⵙⵔⵓⵜⵏ ⵎⵣⴰⵔⴰⵢⵏⵉⵏ
 see-more = <chevron></chevron>ⵥⵕ ⵓⴳⴳⴰⵔ
 see-less = <chevron></chevron>ⵥⵕ ⴷⵔⵓⵙ
 
