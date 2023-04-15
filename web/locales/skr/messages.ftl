@@ -1659,6 +1659,7 @@ adding-sentences-subheader-numbers = اعداد
 adding-sentences-subheader-numbers-explanation = ماخذ متن وِچ مثالی طور تے کوئی ہندسہ نہیں ہووݨا چاہیدا کیوں جو او بلند آواز نال پڑھݨ تے مسائل پیدا کر سڳدے او۔ جیویں کہیں نمبر کوں پڑھیا ویندا ہے تے ڈیٹا سیٹ وِچ الجھن پیدا کر سڳدا ہے۔ مثال دے طور تے، نمبر “2409” کوں "چوویہ صفر نوں" تے "ݙو ہزار چار سو نوں" ݙوہیں دے طور تے درست طریقے نال پڑھیا ونڄ سڳدا ہے۔
 adding-sentences-subheader-abbreviations = مخففات تے سرنامیے
 adding-sentences-subheader-punctuation = علامتی اکھر
+adding-sentences-subheader-punctuation-explanation = خصوصی علامات تے اوقاف صرف ایں وقت شامل کیتے ونڄن جݙاں بالکل ضروری ہوون۔ مثال دے طور تے، انگریزی الفاظ جیویں "dont" تے "we're" وِچ ہک apostrophe شامل ہے تے اینکوں ماخذ متن وِچ شامل کیتا ونڄݨا چاہیدا ہے، لیکن ایں ڳالھ دا امکان کائنی جو تہاکوں کݙاہیں وی "@" یا "# جیویں خصوصی علامت دی ضرورت پووے۔ "
 adding-sentences-subheader-special-characters = حاص حروف تے غیرملکی حروف
 adding-sentences-subheader-special-characters-explanation-1 = جیڑھی زبان وِچ ٻولی ویندی پئی ہے ایندے وِچ حروف درست ہووݨے چاہیدے ہن۔ مثال دے طور تے،  “ж” روسی اکھر تختی وِچ ہک حرف ہے لیکن انگریزی وِچ کݙاہیں استعمال نہیں ہوندا تے ایں سانگے انگریزی دے کہیں ماخذ متن وِچ کݙاہیں ظاہر نہیں ہووݨا چاہیدا۔
 adding-sentences-subheader-offensive-content = جارحانہ مواد
