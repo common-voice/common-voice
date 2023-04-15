@@ -605,6 +605,11 @@ speak-empty-state-cta = ⴰⵔⴳ ⵜⵉⵡⵉⵏⴰⵙ
 speak-loading-error =
     ⵓⵔ ⵏⵖⵉⵢ ⴰⴷ ⴰⵡⵏ ⵏⵟⵟⴼ ⵓⵍⴰ ⴽⵔⴰ ⵏ ⵜⵡⵉⵏⵙⵜ ⵃⵎⴰ ⴰⴷ ⵜⵜ ⵜⵙⵓⵙⵔⵓⵎ.
     ⵎⴽ ⵜⵓⴼⴰⵎ, ⴰⵔⵎⴰⵜ ⵜⵉⴽⴽⵍⵜ ⵢⴰⴹⵏ ⴽⵓⴷⵏⵏⴰ.
+record-button-label = ⵙⵓⵙⵔⴰⵜ ⴰⴳⵕⴹ ⵏⵏⵓⵏ
+share-title-new = <bold>ⴰⵡⵙ ⴰⵏⵖ</bold> ⴰⴷ ⵏⴰⴼ ⵓⴳⴳⴰⵔ ⵏ ⵉⴳⵕⴹⴰⵏ
+login-to-get-started = ⴽⵛⵎ ⵏⵉⵖ ⵜⵣⵎⵎⴻⵎⴷ ⵃⵎⴰ ⴰⴷ ⵜⵙⵙⵏⵜⵉⴷ
+target-segment-first-card = ⴷⴰ ⵜⴻⵜⵜⴰⵔⴳⴷ ⴳ ⵜⵓⵟⵟⵓⵜ ⵏⵏⵖ ⵜⴰⵎⵣⵡⴰⵔⵓⵜ ⵉⵜⵜⵡⴰⵜⵜⵙⵏ
+target-segment-generic-card = ⴷⴰ ⵜⴻⵜⵜⴰⵔⴳⴷ ⴳ ⵢⴰⵜ ⵜⵓⵟⵟⵓⵜ ⵉⵜⵜⵡⴰⵜⵜⵙⵏ
 
 ## Contribution Nav Items
 
