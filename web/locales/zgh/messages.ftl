@@ -597,6 +597,14 @@ record-abort-continue = ⵙⵎⴷ ⴰⵙⵓⵙⵔ
 record-abort-delete = ⴼⴼⵖ, ⵜⴽⴽⵙⴷ ⵜⵓⵙⵙⵉⴼⵉⵏ
 listen-last-time-instruction = <playIcon></playIcon>ⵜⴰⵎⴳⴳⴰⵔⵓⵜ!
 listen-empty-state = ⵉⵔⵡⴰⵙ ⵉⵙ ⴰⵏⵖ ⵙⵎⴰⵔⵏⵜ ⵜⵓⵙⵙⵉⴼⵉⵏ - ⵙⴷⵖⵉ ⵜⴰⵙⵏⴰ, ⵏⵉⵖ ⵜⵓⵔⵎⴷ ⵜⵉⴽⴽⵍⵜ ⵢⴰⴹⵏ ⴽⵓⴷⵏⵏⴰ.
+listen-loading-error =
+    ⵓⵔ ⵏⵖⵉⵢ ⴰⴷ ⴰⵡⵏ ⵏⵟⵟⴼ ⵓⵍⴰ ⴽⵔⴰ ⵏ ⵜⵓⵙⵙⵉⴼⵜ ⵜⴰⵎⵙⵍⴰⵢⵜ ⵃⵎⴰ ⴰⴷ ⴰⵙ ⵜⵙⵍⵍⵎ.
+    ⵎⴽ ⵜⵓⴼⴰⵎ, ⴰⵔⵎⴰⵜ ⵜⵉⴽⴽⵍⵜ ⵢⴰⴹⵏ ⴽⵓⴷⵏⵏⴰ.
+speak-empty-state = ⵙⵎⴰⵔⵏⵜ ⴰⵏⵖ ⵜⵡⵉⵏⴰⵙ ⵃⵎⴰ ⴰⴷ ⵜⵏⵜ ⵜⵙⵓⵙⵔⴷ ⵙ ⵜⵓⵜⵍⴰⵢⵜ ⴰ...
+speak-empty-state-cta = ⴰⵔⴳ ⵜⵉⵡⵉⵏⴰⵙ
+speak-loading-error =
+    ⵓⵔ ⵏⵖⵉⵢ ⴰⴷ ⴰⵡⵏ ⵏⵟⵟⴼ ⵓⵍⴰ ⴽⵔⴰ ⵏ ⵜⵡⵉⵏⵙⵜ ⵃⵎⴰ ⴰⴷ ⵜⵜ ⵜⵙⵓⵙⵔⵓⵎ.
+    ⵎⴽ ⵜⵓⴼⴰⵎ, ⴰⵔⵎⴰⵜ ⵜⵉⴽⴽⵍⵜ ⵢⴰⴹⵏ ⴽⵓⴷⵏⵏⴰ.
 
 ## Contribution Nav Items
 
