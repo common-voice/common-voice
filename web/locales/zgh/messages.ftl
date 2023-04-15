@@ -687,6 +687,7 @@ demo-welcome = ⴱⵔⵔⴽⴰⵜ ⴳ ⴽⴰⵎⵏⴼⵓⵢⵙ
 
 ## Demo Datasets
 
+demo-language-select-card-body = ⵜⴰⵏⵎⵎⵉⵔⵜ ⵅⴼ ⵡⴰⵔⵔⴰⴳⵏ ⵙⴳ ⵖⵓⵔ ⵓⴳⴳⴰⵔ ⵏ 259ⴼⴹ ⵏ ⵎⴷⴷⵏ ⵙ ⵡⵓⴳⴳⴰⵔ ⵏ 50 ⵏ ⵜⵓⵜⵍⴰⵢⵉⵏ, ⴷⴰ ⵜⵜⵓⵙⵎⵔⴰⵙⵏ ⵉⵙⴼⴽⴰ ⴰ ⵉ ⵓⵙⴰⵏⵓⵏ ⵏ ⵜⵙⵏⵙⵉⵜⵉⵏ ⵜⵉⵣⵎⵔⴰⵡⴰⵍⵉⵏ ⵃⵎⴰ ⴰⴷ ⵔⴰⵔⵏⵜ ⵎⵍⵉⵃ ⵉ ⵓⴳⵕⴹ ⴰⵏⴼⴳⴰⵏ.
 card-button-next = ⵓⴹⴼⵉⵕ
 demo-language-select-label = ⵙⵜⴰⵔⴰ ⵜⵓⵜⵍⴰⵢⵉⵏ
 demo-account = ⴰⵎⵉⴹⴰⵏ
