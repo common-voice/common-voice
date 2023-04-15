@@ -610,9 +610,13 @@ share-title-new = <bold>ⴰⵡⵙ ⴰⵏⵖ</bold> ⴰⴷ ⵏⴰⴼ ⵓⴳⴳⴰ
 login-to-get-started = ⴽⵛⵎ ⵏⵉⵖ ⵜⵣⵎⵎⴻⵎⴷ ⵃⵎⴰ ⴰⴷ ⵜⵙⵙⵏⵜⵉⴷ
 target-segment-first-card = ⴷⴰ ⵜⴻⵜⵜⴰⵔⴳⴷ ⴳ ⵜⵓⵟⵟⵓⵜ ⵏⵏⵖ ⵜⴰⵎⵣⵡⴰⵔⵓⵜ ⵉⵜⵜⵡⴰⵜⵜⵙⵏ
 target-segment-generic-card = ⴷⴰ ⵜⴻⵜⵜⴰⵔⴳⴷ ⴳ ⵢⴰⵜ ⵜⵓⵟⵟⵓⵜ ⵉⵜⵜⵡⴰⵜⵜⵙⵏ
+target-segment-first-banner = ⴰⵡⵙ ⴳ ⵓⵙⵏⴼⵍⵓⵍ ⵏ ⵜⵓⵟⵟⵓⵜ ⵜⴰⵎⵣⵡⴰⵔⵓⵜ ⵉⵜⵜⵡⴰⵜⵜⵙⵏ ⵏ ⴽⴰⵎⵏⴼⵓⵢⵙ ⵙ { $locale }
+target-segment-add-voice = ⵔⵏⵡⴰⵜ ⴰⴳⵕⴹ ⵏⵏⵓⵏ
+target-segment-learn-more = ⵙⵙⵏ ⵓⴳⴳⴰⵔ
 
 ## Contribution Nav Items
 
+contribute-voice-collection-nav-header = ⴰⴳⵔⵔⵓ ⵏ ⵉⴳⵕⴹⴰⵏ
 
 ## Reporting
 
@@ -629,6 +633,7 @@ days =
 
 your-languages = ⵜⵓⵜⵍⴰⵢⵉⵏ ⵏⵏⵓⵏ
 you = ⴽⵯⵏⵏⵉ
+contribution-activity = ⴰⵎⵓⵙⵙⵓ ⵏ ⵡⴰⵔⵔⴰⴳ
 
 ## Custom Goals
 
@@ -648,6 +653,10 @@ finish-editing = ⵙⵎⴷ ⵣⵡⴰⵔ ⴰⵙⵏⴼⵍ?
 which-goal-type = ⵉⵙ ⵜⵅⵙⴷ ⴰⴷ ⵜⵙⵉⵡⵍⴷ, ⴰⴷ ⵜⵙⵍⵍⴷ ⵏⵉⵖ ⵙ ⵙⵉⵏ ⵉⵜⵙⵏ?
 confirm-goal = ⵙⵙⵏⵜⵎ ⴰⵡⵜⵜⴰⵙ
 goal-interval-weekly = ⴰⵏⵎⵍⴰⵙⵙ
+# $type is one of share-goal-type-*
+share-n-daily-contribution-goal = ⴱⴹⵡⴰⵜ ⴰⵡⵜⵜⴰⵙ ⵏⵏⵓⵏ ⴰⴽⵓⵢⴰⵙⵙ ⵏ { $count } ⵜⵓⵙⵙⵉⴼⵉⵏ ⵉ { $type }
+# $type is one of share-goal-type-*
+share-n-weekly-contribution-goal = ⴱⴹⵡⴰⵜ ⴰⵡⵜⵜⴰⵙ ⵏⵏⵓⵏ ⴰⵏⵎⵍⴰⵙⵙ ⵏ { $count } ⵜⵓⵙⵙⵉⴼⵉⵏ ⵉ { $type }
 weekly-goal-created = ⵉⵏⵏⴼⵍⵓⵍ ⵓⵡⵜⵜⴰⵙ ⴰⵏⵎⵍⴰⵙⵙ ⵏⵏⵓⵏ
 daily-goal-created = ⵉⵏⵏⴼⵍⵓⵍ ⵓⵡⵜⵜⴰⵙ ⴰⴽⵓⵢⴰⵙⵙ ⵏⵏⵓⵏ
 return-to-edit-goal = ⴰⵖⵓⵍⴰⵜ ⴷⴰⵀⴰ ⵃⵎⴰ ⴰⴷ ⵜⵙⵏⴼⵍⵎ ⴰⵡⵜⵜⴰⵙ ⵏⵏⵓⵏ ⵜⵉⵣⵉ ⵏⵏⴰ ⴽⴰ.
