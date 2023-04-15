@@ -712,6 +712,7 @@ contribution-misreadings-title = ⵉⵣⴳⴰⵍⵏ ⵏ ⵜⵖⵔⵉ
 contribution-misreadings-description-extended-list-1 = ⴰⵅⵚⵚⴰ ⵏ <strong>'ⴰ'</strong> ⵏⵉⵖ <strong>'ⵜⴰ'</strong> ⴳ ⵓⵎⵣⵡⴰⵔⵓ ⵏ ⵓⵙⵓⵙⵔ.
 contribution-misreadings-description-extended-list-2 = ⴰⵅⵚⵚⴰ ⵏ <strong>'ⵏ'</strong> ⴳ ⵜⴳⵉⵔⴰ ⵏ ⴽⵔⴰ ⵏ ⵜⴳⵓⵔⵉ.
 contribution-misreadings-description-extended-list-4 = ⴰⵅⵚⵚⴰ ⵏ ⵜⴳⵉⵔⴰ ⵏ ⵜⴳⵓⵔⵉ ⵜⴰⵎⴳⴳⴰⵔⵓⵜ ⵙ ⵡⵓⴱⵓⵢ ⵏ ⵓⵙⵓⵙⵔ ⵙ ⵜⵖⴰⵡⵍⴰ.
+contribution-misreadings-description-extended-list-5 = ⵉⴳⵉ ⵏ ⵎⵏⵏⴰⵡⵜ ⵜⵉⵔⵎⵉⵜⵉⵏ ⴳ ⵜⵖⵔⵉ ⵏ ⵢⴰⵜ ⵜⴳⵓⵔⵉ.
 see-more = <chevron></chevron>ⵥⵕ ⵓⴳⴳⴰⵔ
 see-less = <chevron></chevron>ⵥⵕ ⴷⵔⵓⵙ
 
