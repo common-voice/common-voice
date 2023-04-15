@@ -391,6 +391,7 @@ browse-file-title = ⵙⴽⵜⵔ ⴰⴼⴰⵢⵍⵓ ⵏ ⵜⵡⵍⴰⴼⵜ
 browse-file = ⵙⵓⵛⵛⴹ, ⵜⵙⵔⵙⴷ ⵏⵉⵖ <browseWrap>ⵜⵙⵙⴰⵔⴰⴷ</browseWrap>
 connect-gravatar = ⵣⴷⵢ ⵙ ⴳⵕⴰⴼⴰⵟⴰⵕ
 gravatar_not_found = ⵡⴰⵍⵓ ⴳⵕⴰⴼⴰⵟⴰⵕ ⵉⵜⵜⵢⴰⴼⴰⵏ ⵉ ⵢⵉⵎⴰⵢⵍ ⵏⵏⵓⵏ
+max-file-size = { $kb }kb ⴰⵎⵓⵣⵣⵓⵔ
 remove-avatar = ⵙⵉⵜⵜⵢ ⴰⴼⴰⵟⴰⵔ
 
 ## Profile - Email
@@ -506,7 +507,7 @@ language = ⵜⵓⵜⵍⴰⵢⵜ
 cv-license = ⵜⵓⵔⴰⴳⵜ
 email-to-download = ⵙⵙⴽⵛⵎ ⵉⵎⴰⵢⵍ ⵃⵎⴰ ⴰⴷ ⵜⴰⴳⵎⴷ
 size-gigabyte = ⵊⵜ
-size-megabyte = ⵎⵜ
+size-megabyte = MB
 confirm-join-mailing-list = ⵅⵙⵖ ⴰⴷ ⵍⴽⵎⵖ ⵜⴰⵍⴳⴰⵎⵜ ⵏ ⵡⴰⵣⴰⵏ ⵏ ⵉⵎⴰⵢⵍⵏ ⵏ ⴽⴰⵎⵏⴼⵓⵢⵙ
 download-language = ⴰⴳⵎ { $language }
 go-languages-page = ⴷⴷⵓ ⵙ ⵜⴰⵙⵏⴰ ⵏ ⵜⵓⵜⵍⴰⵢⵉⵏ
