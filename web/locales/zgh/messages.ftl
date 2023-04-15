@@ -704,7 +704,13 @@ demo-contribute-card-body-v2 = ⴷⵖⵉ ⴳ ⵜⵙⵙⵏⵎ ⵉⵎⵉⴽⴽ ⵓ
 
 ## Validation criteria
 
+contribution-criteria-nav = ⵉⵙⴱⴷⴰⴷⵏ
+contribution-criteria-link = ⵔⵎⵙ ⵉⵙⴱⴷⴰⴷⵏ ⵏ ⵡⴰⵔⵔⴰⴳ
+contribution-criteria-page-title = ⵉⵙⴱⴷⴰⴷⵏ ⵏ ⵡⴰⵔⵔⴰⴳ
 contribution-for-example = ⵙ ⵓⵎⴷⵢⴰ
+contribution-misreadings-title = ⵉⵣⴳⴰⵍⵏ ⵏ ⵜⵖⵔⵉ
+contribution-misreadings-description-extended-list-1 = ⵉⵅⵚⵚⴰ <strong>'ⴰ'</strong> ⵏⵉⵖ <strong>'ⵜⴰ'</strong> ⴳ ⵓⵎⵣⵡⴰⵔⵓ ⵏ ⵓⵙⵓⵙⵔ.
+contribution-misreadings-description-extended-list-2 = ⵉⵅⵚⵚⴰ ⵢⴰⵏ <strong>'ⵏ'</strong> ⴳ ⵜⴳⵉⵔⴰ ⵏ ⵢⴰⵜ ⵜⴳⵓⵔⵉ.
 see-more = <chevron></chevron>ⵥⵕ ⵓⴳⴳⴰⵔ
 see-less = <chevron></chevron>ⵥⵕ ⴷⵔⵓⵙ
 
