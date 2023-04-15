@@ -733,6 +733,8 @@ contribution-varying-pronunciations-description = ⵔⴰⵔⴰⵜ ⵜⴰⵖⴹ�
 contribution-varying-pronunciations-example-1-title = ⵓⵔ ⵉⵕⵥⵉⵎ ⵜⴰⵡⵡⵓⵔⵜ ⵏ ⵜⴰⴷⴷⴰⵔⵜ.
 contribution-varying-pronunciations-example-1-explanation = [ⵉⵣⵎⵔ ⴰⴷ ⵏⵉⵏⵉ ‘ⵓⵔ ⵉⵕⵥⵎ ⵜⴰⴳⴳⵓⵔⵜ ⵏ ⵜⴰⴷⴷⴰⵔⵜ’ (ⵛⵍⵃ) ⵏⵉⵖ ⵏⴻⵏⵏⴰ ‘ⵡⴰ' ⵢⴰ'ⵥⵉⵎ ⵝⴰⵡⵡⴰ'ⵝ ⵏ ⵝⴰⴷⴷⴰ'ⵝ’ (ⵔⵉⴼ)]
 contribution-varying-pronunciations-example-2-title = ⵉⵙⵖⴰ ⵜⴰⵖⴰⴹ-ⵜ ⴷ ⵜⵢⴰⵥⵉⴹ-ⵜ.
+contribution-varying-pronunciations-example-2-explanation = [ⴷⴰ ⴰⴱⴷⴰ ⵏⵜⵜⵙⵓⵙⵔⵓ ‘ⵜⴰⵖⴰⴹⵜ’ ⴷ ‘ⵜⴰⵢⴰⵥⵉⴹⵜ’ ⵙ ⵜⵎⴰⵣⵉⵖⵜ ⴰⵎ ‘ⵜⴰⵖⴰⵟⵟ’ ⴷ ‘ⵜⴰⵢⴰⵥⵉⵟⵟ’]
+contribution-background-noise-title = ⴰⴷⵉⴷⴰ ⵏ ⵜⵖⵔⴷⵉⵏ
 see-more = <chevron></chevron>ⵥⵕ ⵓⴳⴳⴰⵔ
 see-less = <chevron></chevron>ⵥⵕ ⴷⵔⵓⵙ
 
