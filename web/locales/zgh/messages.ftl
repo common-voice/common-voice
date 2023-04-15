@@ -713,6 +713,11 @@ contribution-misreadings-description-extended-list-1 = ⴰⵅⵚⵚⴰ ⵏ <stro
 contribution-misreadings-description-extended-list-2 = ⴰⵅⵚⵚⴰ ⵏ <strong>'ⵏ'</strong> ⴳ ⵜⴳⵉⵔⴰ ⵏ ⴽⵔⴰ ⵏ ⵜⴳⵓⵔⵉ.
 contribution-misreadings-description-extended-list-4 = ⴰⵅⵚⵚⴰ ⵏ ⵜⴳⵉⵔⴰ ⵏ ⵜⴳⵓⵔⵉ ⵜⴰⵎⴳⴳⴰⵔⵓⵜ ⵙ ⵡⵓⴱⵓⵢ ⵏ ⵓⵙⵓⵙⵔ ⵙ ⵜⵖⴰⵡⵍⴰ.
 contribution-misreadings-description-extended-list-5 = ⵉⴳⵉ ⵏ ⵎⵏⵏⴰⵡⵜ ⵜⵉⵔⵎⵉⵜⵉⵏ ⴳ ⵜⵖⵔⵉ ⵏ ⵢⴰⵜ ⵜⴳⵓⵔⵉ.
+contribution-misreadings-example-1-title = ⵉⵣⵎⴰⵡⵏ ⵏ ⵡⴰⵟⵍⴰⵚ.
+contribution-misreadings-example-2-title = ⵉⵣⵎⴰⵡ ⵏ ⵡⴰⵟⵍⴰⵚ.
+contribution-misreadings-example-2-explanation = [ⵉⵅⵚⵚⴰ ⴰⴷ ⵜⴳ ‘ⵉⵣⵎⴰⵡⵏ’]
+contribution-misreadings-example-3-title = ⵉⵣⵎⴰⵡⵏ ⵏ ⵡⴰⵟⵍⴰ-.
+contribution-misreadings-example-3-explanation = [ⵉⴱⴱⵢ ⵓⵙⵓⵙⵔ ⵙ ⴷⴰⵜ ⵜⴳⵉⵔⴰ ⵏ ⵜⴳⵓⵔⵉ ⵜⴰⵎⴳⴳⴰⵔⵓⵜ]
 see-more = <chevron></chevron>ⵥⵕ ⵓⴳⴳⴰⵔ
 see-less = <chevron></chevron>ⵥⵕ ⴷⵔⵓⵙ
 
