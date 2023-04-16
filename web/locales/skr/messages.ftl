@@ -1668,5 +1668,6 @@ adding-sentences-subheader-special-characters-explanation-1 = جیڑھی زبا�
 adding-sentences-subheader-offensive-content = جارحانہ مواد
 reviewing-sentences-explanation-1 = جے جملے اُتلے معیار تے پورے ہن تاں "جیا" بٹݨ کلک کرو۔
 reviewing-sentences-explanation-2 = جے جملے اُتلے معیار تے پورے کائنی آندے تاں "کو" بٹݨ کلک کرو۔
+reviewing-sentences-explanation-3 = جے تہاکوں جملے بارے پک کائنی تاں تساں ایں کوں چھوڑ تے اڳلے جملے تے ون٘ڄ سڳدے ہو۔
 reviewing-sentences-explanation-4 = جے تہاݙے کول نظرثانی کیتے جملے کائنی تاں سوہݨا، ٻئے جملے کٹھے کرݨ وچ ساݙی مدد کرو!
 community-announcement-header = برادری اعلانات!
