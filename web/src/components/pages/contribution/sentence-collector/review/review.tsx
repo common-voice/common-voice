@@ -14,6 +14,8 @@ import ReviewCard from './review-card'
 import { VoteButton } from '../../listen/listen'
 import { Rules } from '../write/sentence-input-and-rules/rules'
 import { ReportButton } from '../../report/report'
+import ReviewEmptyState from './review-empty-state'
+import { Spinner } from '../../../../ui/ui'
 
 import {
   useAccount,
@@ -26,7 +28,6 @@ import { useLocale } from '../../../../locale-helpers'
 import URLS from '../../../../../urls'
 
 import './review.css'
-import ReviewEmptyState from './review-empty-state'
 
 const Review = () => {
   const [currentLocale] = useLocale()
@@ -59,22 +60,24 @@ const Review = () => {
   const noPendingSentences =
     !isLoading && pendingSentencesSubmissions.length === 0
 
-  // TODO: prevent flash when user is not logged in
-  React.useEffect(() => {
-    if (!account) {
-      try {
-        sessionStorage.setItem('redirectURL', location.pathname)
-      } catch (e) {
-        console.warn(`A sessionStorage error occurred ${e.message}`)
-      }
-
-      window.location.href = '/login'
-    }
-  }, [])
-
   React.useEffect(() => {
     handleFetch()
   }, [])
+
+  if (!account) {
+    try {
+      sessionStorage.setItem('redirectURL', location.pathname)
+    } catch (error) {
+      console.warn(`A sessionStorage error occurred ${error.message}`)
+    }
+
+    window.location.href = '/login'
+    return <Spinner />
+  }
+
+  if (isLoading) {
+    return <Spinner />
+  }
 
   if (noPendingSentences) {
     return (

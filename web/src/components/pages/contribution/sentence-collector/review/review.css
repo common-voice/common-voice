@@ -179,6 +179,7 @@
     & .buttons {
         display: flex;
         margin-top: 8.5vh;
+        margin-bottom: 20px;
 
         > * {
             display: flex;
