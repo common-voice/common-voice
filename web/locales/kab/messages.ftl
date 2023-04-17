@@ -44,6 +44,7 @@ be = Tabilarusit
 bg = Tabulgarit
 bm = Tabumbrit
 bn = Tabengalit
+bo = Tatibitant
 br = Tabrutunt
 bs = Tabusnit
 bxr = Taburyat
@@ -748,6 +749,7 @@ more = Ugar
 close = Mdel
 download = Sader
 dataset-version = Lqem
+clipboard-not-supported = Tacfawt ur tettusefrak ara
 
 ## Download Modal
 
@@ -1456,15 +1458,23 @@ sc-validation-no-abbreviations = Ur ilaq ara tafyirt ad tegber asiwzel
 
 localization-select =
     .label = Fren tutlayt/tasuqqilt
+# PARTNERSHIPS PAGE
+partnerships-header = Imɛawanen
+partnerships-get-in-touch = Nermres-aɣ-d
 partnerships-become-a-partner = Uɣal d amendid n Common Voice
 partnerships-foundations-header = Tisbeddiyin
 partnerships-our-partners = Iwiziwen-nneɣ
 why-donate = Ayɣer i testeqsaḍ?
 add-information-button = Rnu talɣut
+create-profile-button = Rnu amaɣnu
+# GUIDELINES PAGE
+guidelines-header = Iwellihen n uttekki
 voice-collection = Alqaḍ n tuɣac
 sentence-collection = Alqaḍ n tefyar
 varying-pronunciations = Asenqed n tɣuri
 misreadings = Tuccḍa deg tɣuri
+background-noise = Lḥess n deffir
+background-voices = Lḥess n deffir
 volume = Ableɣ
 just-unsure = Tkukraḍ?
 example = Amedya
@@ -1485,5 +1495,6 @@ citing-sentences-subheader-websites = Ismal web
 citing-sentences-subheader-websites-explanation = Tzemreḍ ad tsedduḍ asmel web, am. "Common Voice - https://commonvoice.mozilla.org/"
 citation =
     .label = Abder
+adding-sentences-subheader-length = Teɣzi
 adding-sentences-subheader-numbers = Imḍanen
 reviewing-sentences-explanation-4 = Ma yella ur tesɛiḍ ara tifyar ara tesneqdeḍ, efk-aɣ-d afus ad d-nelqeḍ ugar n tefyar!

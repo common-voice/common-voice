@@ -1,9 +1,12 @@
 ## General
 
+yes-receive-emails = Quemah, xinechimualtitlani correos. Onicniquisquiaya nicmatis ica in tlanimilil Common Voice.
 stayintouch = Ich Mozilla secchiutoc se nichicomasehual campa tipostl notzani. Otechpactisquia timitzmatiltisqueh ica in  tepanoltilistl, yancuic nemilis ica tlahcuilol uan secmatis cachi queni teh tiquintiquitiltia necateh datos.
+return-to-cv = Ximocuipa campa Common Voice
 email-input =
     .label = Correo
 submit-form-action = Xictitlani
+loading = Yehyecohtoc...
 error-something-went-wrong = Xitechtlapohpolui, amo oquis cuali.
 error-clip-upload = y yehyeculis nicancah clip ayamo cualtia, ocxic yehyeco
 error-clip-upload-server = y yehyeculis nicancah clip ayamo cualtia ichin servidor, ocsipa xic yehyecolti pagina o xic yehyeco ocsipa cachi tlahcah
@@ -717,6 +720,9 @@ target-segment-first-banner = xitech palehui tic chihuasqueh primer tiquitl de C
 target-segment-add-voice = xictlali mu tlahtol
 target-segment-learn-more = cachi tlanahuatil
 
+## Contribution Nav Items
+
+
 ## Reporting
 
 report = tlanahuatil
@@ -1225,3 +1231,4 @@ second-cta-header-text = tlasohcamatictzin titech palehuia ica mu tlahtol
 second-cta-subtitle-text = ican se ixnexica huilis tic chihuas se nimilis de mu tiquiuh huan ti mu nilos ihuan nichicomasehual aquihquen tech plehuiah ican tlanahuatil tlahtol
 already-have-an-account = yitic pia se cuenta? <login> pehualti sesion</login>
 create-profile-button = xicchihua se ixnexicah
+sentence-collection = tlahcuilol pihpintoc
