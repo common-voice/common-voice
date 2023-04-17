@@ -31,6 +31,8 @@ import { ReportModal } from '../../report/report'
 import { ReportModalProps } from '../../report/report'
 
 import './review.css'
+import ReviewShortcutsModal from './review-shortcuts-modal'
+import reviewShortCuts from './review-shortcuts'
 
 const reportModalProps = {
   reasons: [
@@ -45,6 +47,8 @@ const reportModalProps = {
 
 const Review = () => {
   const [showReportModal, setShowReportModal] = React.useState(false)
+  const [showShortcutsModal, setShowShortcutsModal] = React.useState(false)
+
   const [currentLocale] = useLocale()
   const languages = useLanguages()
   const account = useAccount()
@@ -65,6 +69,22 @@ const Review = () => {
     }
   }
 
+  const handleKeyPress = (evt: KeyboardEvent) => {
+    if (
+      evt.ctrlKey ||
+      evt.altKey ||
+      evt.shiftKey ||
+      evt.metaKey ||
+      showReportModal
+    ) {
+      return
+    }
+  }
+
+  const handleToggleShortcutsModal = () => {
+    setShowShortcutsModal(!showShortcutsModal)
+  }
+
   const sentences = useTypedSelector(({ sentences }) => sentences)
 
   const pendingSentencesSubmissions =
@@ -77,6 +97,14 @@ const Review = () => {
 
   React.useEffect(() => {
     handleFetch()
+  }, [])
+
+  React.useEffect(() => {
+    document.addEventListener('keydown', handleKeyPress)
+
+    return () => {
+      document.removeEventListener('keydown', handleKeyPress)
+    }
   }, [])
 
   if (!account) {
@@ -102,18 +130,23 @@ const Review = () => {
     )
   }
 
-  if (showReportModal) {
-    return (
-      <ReportModal
-        onRequestClose={() => setShowReportModal(false)}
-        onSubmitted={() => console.log('skip')}
-        {...reportModalProps}
-      />
-    )
-  }
-
   return (
     <SentenceCollectionWrapper dataTestId="review-page" type="review">
+      {showShortcutsModal && (
+        <ReviewShortcutsModal
+          shortcuts={reviewShortCuts}
+          toggleModalVisibility={handleToggleShortcutsModal}
+        />
+      )}
+
+      {showReportModal && (
+        <ReportModal
+          onRequestClose={() => setShowReportModal(false)}
+          onSubmitted={() => console.log('skip')}
+          {...reportModalProps}
+        />
+      )}
+
       <div className="cards-and-instruction">
         <Instruction
           firstPartId="sc-review-instruction-first-part"
@@ -164,7 +197,11 @@ const Review = () => {
             </Localized>
           </LinkButton>
           <ReportButton onClick={() => setShowReportModal(true)} />
-          <Button rounded outline className="hidden-sm-down shortcuts-button">
+          <Button
+            rounded
+            outline
+            className="hidden-sm-down shortcuts-button"
+            onClick={handleToggleShortcutsModal}>
             <KeyboardIcon />
           </Button>
         </div>
