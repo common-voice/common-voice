@@ -242,7 +242,7 @@ share-title = Palīdziet mums atrast citus, kas ziedos savu balss ierakstu!
 share-text = Palīdziet iekārtām saprast latviešu valodu, ierakstiet savu balsi vai pārbaudiet savāktos ierakstus { $link }
 link-copied = Saite kopēta
 back-top = Atpakaļ uz augšu
-logout = Izrakstīties
+logout = Beigt darbu
 
 ## Home Page
 
@@ -271,7 +271,7 @@ listen-paragraph = Ierakstīto ierakstu pārbaudīšana ir ļoti svarīga. Klaus
 listen-goal-text = Apstiprinātie ieraksti
 hours-recorded = Ierakstītās stundas
 hours-validated = Stundas pārbaudītas
-voices-online = Ierakstu veicēji tiešsaistē
+voices-online = Dalībnieki tiešsaistē
 todays-progress = Šodienas progress
 help-reach-goal = Palīdziet mums nokļūt līdz { $goal }
 read-terms-q = Vai esat izlasījis mūsu noteikumus?
@@ -528,7 +528,7 @@ about-header-description-v2 =
     <p>Common Voice ir publiski pieejama balss datu kopa, ko veido brīvprātīgo balsis visā pasaulē. Cilvēki, kuri vēlas veidot programmas, kas strādā ar balsi, var izmantot datu kopu, lai apmācītu runas atpazīšana modeļus.</p>
     <p>Šobrīd lielākā daļa balss datu kopu pieder atsevišķiem uzņēmumiem, kas kavē inovācijas. Valodas ar mazu runātāju skaitu pasaulē balss datu kopās ir nepietiekami pārstāvētas. Tas nozīmē, ka tehnoloģijas, kas darbojas ar balsi šajās valodās nedarbojas vai strādā slikti. Mēs vēlamies to mainīt, mobilizējot cilvēkus visā pasaulē, lai viņi dalītos ar savu balsi un pārbaudītu ierakstītos teikumus.</p>
 how-does-it-work-title-v2 = Kā darbojas Common Voice?
-how-does-it-work-text = Mēs piedāvājam atklātu un brīvi pieejamsu datu kopu. Ziedojiet savu balsi, apstipriniet citu cilvēku klipu precizitāti, uzlabojiet datu kopu visiem.
+how-does-it-work-text = Mēs piedāvājam atklātu un brīvi pieejamu datu kopu. Ziedojiet savu balsi, apstipriniet citu cilvēku ierakstus, uzlabojiet datu kopu visiem.
 
 ## How does it work section
 
@@ -547,21 +547,24 @@ about-dataset-release-title = Datu kopas izlaišana
 about-dataset-release-subtitle = Mēs izlaižam datu kopu katrus 3 mēnešus.
 about-subscribe-text = Vai vēlaties sazināties ar Common Voice?
 about-speak = Runājiet
-about-speak-text = Dalībnieki ieraksta balss klipus, lasot no apkopoto teikumu datu bāzes.
+about-speak-text = Dalībnieki ieraksta īsus teikumus, lasot no apkopoto teikumu datu bāzes.
 about-listen-queue = Klausīšanās rinda
 about-listen-queue-text = Balss klipi tiek ievietoti apstrādes rindā, kas tos gatavo uz klausīšanos.
 about-listen = Klausieties
-about-listen-text = Lietotāji apstiprina iesniegto klipu precizitāti, pārbaudot, vai runātājs ir pareizi nolasījis teikumu.
+about-listen-text = Lietotāji pārbauda iesniegto ierakstu precizitāti, pārbaudot, vai runātājs ir pareizi nolasījis teikumu.
 about-is-it-valid = Vai klips ir derīgs?
 about-is-it-valid-text = Balss klips ir atzīmēts kā "derīgs", ja lietotājs dod tam "jā" vērtējumu.
 about-yes-votes = ≥ 2 jā balsis
 about-yes-votes-text = Lai padarītu par daļu no balss datu kopas, klips ir jāapstiprina diviem atsevišķiem lietotājiem.
 about-no-votes = ≥ 2 nē balsis
-about-no-votes-text = Ja lietotājs noraida balss klipu, tas atgriežas rindā. Ja to noraida otro reizi, tas tiek pārvietots uz klipu kapu.
+about-no-votes-text = Ja lietotājs noraida balss ierakstu, tas atgriežas rindā. Ja to noraida otro reizi, tas tiek pārvietots uz ierakstu kapu.
 about-dataset-new = Balss datu kopa
 about-dataset-new-text = Balss datu kopai ir simtiem tūkstošu balss paraugu, kas palīdz izstrādātājiem izveidot balss atpazīšanas rīkus.
-about-clip-graveyard = Klipu kapsēta
-about-clip-graveyard-text = Klipu kapsēta sastāv no balss klipiem, kas netika iekļauti balss datu kopā. Tāpat kā datu kopa, klipu kapsēta ir pieejama lejupielādei.
+about-clip-graveyard = Ierakstu kapsēta
+about-clip-graveyard-text =
+    Ierakstu kapsēta sastāv no balss ierakstiem, kas netika iekļauti balss datu kopā. Tāpat kā datu kopa, ierakstu kapsēta ir pieejama lejupielādei.
+    
+    Mēs vēlamies pateikties sekojošiem cilvēkiem un organizācijām par palīdzību projekta īstenošanā:
 about-get-involved = Iesaistieties
 about-get-involved-text-2 =
     Vēlaties palīdzēt padarīt Common Voice vēl labāku better?
@@ -627,7 +630,7 @@ about-playbook-how-add-sentences-content-4 = Validētie teikumi tiek eksportēti
 
 ## How to record quality
 
-about-playbook-how-record-quality = Kā ierakstīt augstas kvalitātes balss klipu?
+about-playbook-how-record-quality = Kā ierakstīt augstas kvalitātes ierakstu?
 about-playbook-how-record-content-1 = Runājiet savā parastajā balsī! Jūsu runas veids ir apsveicams - mēs vēlamies, lai jūsu akcents būtu tāds, kāds tas ir, un mēs vēlamies jūsu ierasto skaļumu, stilu un intonāciju.
 about-playbook-how-record-content-2 = Izvairieties no pārāk liela fona trokšņa — Jūs jāvar viegli saklausīt.
 about-playbook-how-record-content-3 = Uzmanīgi izlasiet teikumus - neizlaidiet, nemainiet un nepievienojiet vārdus.
@@ -650,9 +653,9 @@ about-playbook-how-grow-language-content-8 = <strong>Esiet radoši!</strong> Jū
 
 about-playbook-how-validate = Kā zināt, vai apstiprināt balss ierakstu?
 about-playbook-how-validate-content-1 = Ja varat <strong>dzirdēt teikto</strong> un <strong>saprast teikto</strong>, parasti <strong>vislabāk apstiprināt</strong> ierakstu.
-about-playbook-how-validate-content-2 = <strong>Nenoraidiet klipus, kuros runātājam “ir akcents”, kas atšķiras no jūsējā</strong> - dažādas izrunas un akcenti ir svarīgi, lai balss atpazīšana darbotos labi ikvienam.
+about-playbook-how-validate-content-2 = <strong>Nenoraidiet ierakstus, kuros runātājam “ir akcents”, kas atšķiras no jūsējā</strong> - dažādas izrunas un akcenti ir svarīgi, lai balss atpazīšana darbotos labi ikvienam.
 about-playbook-how-validate-content-3 = Ja uzskatāt, ka izruna <strong>neļauj pilnībā saprast</strong> vai ir <strong>liels fona troksnis</strong> vai <strong>fonā runā arī citi cilvēki</strong>, tad ieraksts ir jānoraida. <accuracyLink>Skatiet plašāku informāciju mūsu precizitātes kritērijos</accuracyLink>.
-about-playbook-how-validate-content-4 = Ja klipu noraida 2 cilvēki, tas tiek izlaists datu kopas noraidīto ierakstu apakškopā.
+about-playbook-how-validate-content-4 = Ja ierakstu noraida 2 cilvēki, tas tiek izlaists datu kopas noraidīto ierakstu apakškopā.
 
 ## How to access dataset
 
@@ -738,7 +741,7 @@ datasets-positioning =
     Paskatieties uz šo lapu kā informācijas centru par citām atvērtā pirmkoda balss datu kopām un, tā kā kopējā balss turpina augt, mājās mūsu nākotnes atjauninājumiem.
 language = Valoda
 download-dataset-header = Lejupielādējiet datu kopu
-download-delta-explainer = Mēs esam veikuši dažas izmaiņas. Delta segmenti satur tikai jaunākos klipus kopš pēdējās izlaišanas. <deltaLink>Lasiet vairāk par šo darbu</deltaLink>.
+download-delta-explainer = Mēs esam veikuši dažas izmaiņas. Delta segmenti satur tikai jaunākos ierakstus kopš pēdējās izlaišanas. <deltaLink>Lasiet vairāk par šo darbu</deltaLink>.
 download-dataset-tag = Atlasiet vajadzīgo valodas datu kopu un izvēlieties versiju, kuru vēlaties lejupielādēt.
 # File size in gigabytes
 size = Izmērs
@@ -917,10 +920,10 @@ record-three-more-instruction = Vel palikuši trīs!
 record-again-instruction = Lieliski! <recordIcon> </recordIcon> Ierakstiet savu nākamo ierakstu
 record-again-instruction2 = Turpinām, ierakstiet vēlreiz <recordIcon></recordIcon>
 record-last-instruction = <recordIcon> </recordIcon> Pēdējais!
-review-tooltip = Pārskatiet un atkārtoti ierakstiet klipus
+review-tooltip = Pārskatiet un atkārtoti ierakstiet ierakstus
 share-clip = Dalieties ar savu ierakstu
 share-common-voice = Pastāstiet citiem par Common Voice
-review-instruction = Ja nepieciešams, pārskatiet un atkārtoti ierakstiet klipus
+review-instruction = Ja nepieciešams, pārskatiet un atkārtoti ierakstiet ierakstus
 record-submit-tooltip = { $actionType } iesniedziet, kad viss gatavs
 clips-uploaded = Ieraksti saglabāti
 record-abort-title = Varbūt vispirms pabeidz ierakstu?
@@ -1012,7 +1015,7 @@ awards = Apbalvojumi
 you = Jūs
 everyone = Citi
 contribution-activity = Ieguldījumu aktivitāte
-top-contributors = Populārākie ieguldītāji
+top-contributors = Aktīvākie dalībnieki
 recorded-clips = Ierakstītie ieraksti
 validated-clips = Pārbaudītie ieraksti
 total-approved = Kopā apstiprinātie
@@ -1115,8 +1118,8 @@ activity-needed-calculation-plural =
                     }
             }
     }
-how-many-per-day = Lieliski! Cik klipu dienā?
-how-many-a-week = Lieliski! Cik klipu nedēļā?
+how-many-per-day = Lieliski! Cik ierakstu dienā?
+how-many-a-week = Lieliski! Cik ierakstu nedēļā?
 which-goal-type = Vai vēlaties runāt, klausīties vai abus?
 receiving-emails-info = Es vēlos saņemt e-pasta ziņojumus, piemēram, mērķa atgādinājumus, progresa atjauninājumus un informatīvos biļetenus par šo projektu.
 not-receiving-emails-info =
@@ -1132,9 +1135,9 @@ help-share-goal = Palīdziet mums atrast vairāk balsu, dalieties ar savu mērķ
 confirm-goal = Apstipriniet mērķi
 goal-interval-weekly = Reizi nedēļā
 # $type is one of share-goal-type-*
-share-n-daily-contribution-goal = Kopīgojiet savu { $count } klipu ikdienas mērķi { $type }
+share-n-daily-contribution-goal = Dalieties ar savu { $count } ierakstu ikdienas mērķi { $type }
 # $type is one of share-goal-type-*
-share-n-weekly-contribution-goal = Kopīgojiet savu { $count } klipu iknedēļas mērķi { $type }
+share-n-weekly-contribution-goal = Dalieties ar savu { $count } ierakstu iknedēļas mērķi { $type }
 share-goal-type-speak = Runāšana
 share-goal-type-listen = Klausīšanās
 share-goal-type-both = Runāšana un klausīšanās
@@ -1218,12 +1221,21 @@ demo-account = Konts
 ## Demo Account
 
 demo-account-card-header = Lai veiktu ieguldījumu, nav nepieciešams konts, kaut gan tas ir noderīgs.
+demo-account-card-body = Labajā pusē mēs izklāstām priekšrocības un precizējam, kādu informāciju mēs publiskojam. Izmantojiet tālāk esošās saites, lai sāktu darbu ar Common Voice kontu savā ierīcē.
+demo-account-enter-email =
+    .label = Ievadiet epastu, lai nosūtītu reģistrācijas saiti
+demo-account-sign-up = Nosūtiet reģistrācijas saiti
 
 ## Demo Contribute
 
+demo-contribute-card-header = Vai esat gatavs pievienot savu balsi vai aizdot savu ausi?
+demo-contribute-card-body-v2 = Tagad, kad jūs zināt mazliet vairāk par Common Voice, kāpēc gan neizmēģināt to? Noklikšķiniet uz mikrofona ikonas, lai sāktu ierakstīt teikumus. <br/><br/>Ja vēlaties pārbaudīt citu cilvēku ierakstus, noklikšķiniet uz atskaņošanas ikonas. Jūs palīdzēsiet pārliecināties, vai ieraksti atbilst ekrānā rakstītajiem teikumiem.
+demo-listen-subtitle = Šis taču ir labs brīdis palīdzēt, vai ne?
 
 ## Demo Dashboard
 
+demo-dashboard-card-header = Informācijas paneļi sniedz jums jaunāko informāciju par jūsu un kopienas progresu.
+demo-dashboard-card-body = Pēc katra ierakstītā teikuma un pēc katra pārbaudītā ieraksta jūsu konta informācijas paneļi tiek atjaunināti, lai atspoguļotu jūsu jaunākos sasniegumus katrā valodā, kurā veicat ieguldījumu. Jā, jūs varat dot ieguldījumu vairāk nekā vienā valodā!<br/><br/> Izmantojiet informācijas paneļus, lai sekotu līdzi savai statistikai, redzētu, kā jums veicas kopā ar citiem kopienas locekļiem, un iestatītu ikdienas vai iknedēļas ieguldījumu mērķus.
 
 ## Validation criteria
 
@@ -1256,9 +1268,17 @@ contribution-misreadings-example-8-explanation = [Neatbilstošs saturs]
 contribution-varying-pronunciations-title = Dažādas izrunas
 contribution-varying-pronunciations-description = Esiet piesardzīgi, pirms noraidāt ierakstu, pamatojoties uz to, ka lasītājs ir nepareizi izrunājis vārdu, ievietojis uzsvaru nepareizā vietā vai acīmredzami ignorējis jautājuma zīmi. Izrunas pasaulē ir dažādas un dažus no tām jūs, iespējams, ikdienā nedzirdat sev apkārt. Novērtējiet to, ka dažādi cilvēki runā citādāk nekā jūs.
 contribution-varying-pronunciations-description-extended = No otras puses, ja izruna ir nepareiza vai kļūdaina, noraidiet ierakstu. Ja neesat pārliecināti, izmantojiet izlaišanas pogu.
+contribution-varying-pronunciations-example-1-title = Man garšo desa.
+contribution-varying-pronunciations-example-1-explanation = [‘desa’ ir pareizi ierunāta neatkarīgi no tā vai dažādos akcentos tiek lietots platais vai šaurais e]
+contribution-varying-pronunciations-example-2-title = Viņa roka bija pacelta.
+contribution-varying-pronunciations-example-2-explanation = [‘bija’ ir jāizrunā ar dzirdamu a butru beigās, ja dzirdat tikai ‘bij’, ierunāts nepareizi]
 contribution-background-noise-title = Fona troksnis
 contribution-background-noise-description = Mēs vēlamies, lai mašīnmācīšanās algoritmi spētu apstrādāt dažādus fona trokšņus, un var tikt pieņemti pat salīdzinoši skaļi trokšņi, ja tie netraucē dzirdēt visu tekstu. Klusa fona mūzika ir ok; mūzika kas traucē skaidri sadzirdēt katru vārdu nav ok.
 contribution-background-noise-description-extended = Ja ieraksts raustās vai tajā ir sprakšķi, noraidiet, ja vien joprojām nav pilnībā dzirdams viss teksts.
+contribution-background-noise-example-1-fixed-title = <strong>[Šaudīšana]</strong>Triasa laikmeta <strong>[klepus]</strong> milzu dinozauri.
+contribution-background-noise-example-2-fixed-title = Tirasa laikmeta <strong>[klepus]</strong> milzu dinozauri.
+contribution-background-noise-example-2-explanation = [Daļu no teksta nevar dzirdēt]
+contribution-background-noise-example-3-fixed-title = <strong>[Čarkstoņa]</strong>-iasa laikmeta milzu dinozauri <strong>[crackle]</strong>.
 contribution-background-voices-title = Balsis fonā
 contribution-background-voices-description = Klusa murmināšana fonā ir pieņemama, taču mēs nevēlamies papildu balsis, kas varētu traucēt algoritmam pareizi noteikt vārdus, kas nav rakstītajā tekstā. Ja dzirdat vārdus, kas nav rakstīti tekstā, klips ir jānoraida. Parasti tas notiek tur, kur televizors ir atstāts ieslēgts vai kad tuvumā notiek saruna.
 contribution-background-voices-description-extended = Ja ieraksts raustās vai tajā ir sprakšķi, noraidiet, ja vien joprojām nav pilnībā dzirdams viss teksts.
@@ -1280,57 +1300,461 @@ see-less = <chevron></chevron>Rādīt mazāk
 
 ## HEADER/FOOTER
 
+sc-header-home = Sākums
+sc-header-how-to = Padomi
+sc-header-add = Pievienot
+sc-header-review = Pārbaudiet
+sc-header-rejected = Noraidītie teikumi
+sc-header-my = Mani teikumi
+sc-header-statistics = Statistika
+sc-header-profile = Profils
+sc-footer-discourse = Diskurss
+sc-footer-report-bugs = Ziņot par kļūdām
+sc-footer-translate = Tulkot šo lapu
+sc-footer-report-copyright = Ziņot par autortiesību problēmām
+sc-footer-privacy = Privātums
+sc-footer-terms = Noteikumi
+sc-footer-cookies = Sīkdatnes
+sc-login-signup-button = Ielogoties / Reģistrēties
+sc-logout-button = Beigt darbu
 
 ## HOME
 
+sc-home-title = Laipni lūdzam Common Voice Teikumu apkopotājā
+sc-home-intro = Teikumu apkopotājs ir daļa no <commonVoiceLink>Common Voice</commonVoiceLink>. Tas ļauj projekta dalībniekiem apkopot un apstiprināt kopienas atlasītos teikumus. Varat izmantot šo rīku arī, lai importētu un pārbaudītu maza un vidēja lieluma publiskā domēna teikumu kolekcijas, ko esat atradis vai savācis. Visiem teikumiem ir jābūt publiski pieejamiem. Apstiprinātie teikumi katru nedēļu tiek eksportēti uz Common Voice repozitoriju un tiek izlaisti Common Voice tīmekļa vietnē līdz ar nākamo laidienu.
+sc-home-collect-title = Teikumu apkopošana
+sc-home-collect-text = Palīdziet mums, rakstot vai apkopojot publiskā domēna teikumus.
+sc-home-review-title = Pārskatiet teikumus
+sc-home-review-text = Palīdziet mums, pārskatot teikumu pareizību saskaņā ar vadlīnijām.
 
 ## GENERAL
 
+sc-languages-fetch-error = Mums neizdevās atrast pieejamās valodas. Darbošanās ar lapu pašlaik nav iespējamas. Lūdzu, pamēģiniet vēlreiz nedaudz vēlāk.
 
 ## HOW-TO
 
+sc-howto-title = Padomi
+sc-howto-addlang-title = Valodu pievienošana darbam
+sc-howto-addlang-text = Kad esat pieslēdzies, profila sadaļā varat izvēlēties savas valodas.
+sc-howto-addsen-title = Pievienojiet jaunus teikumus
+sc-howto-addsen-item-1 = Visiem jūsu iesniegtajiem teikumiem ir jāatbilst <wikipediaLink>Publiskā domēna (CC-0) licencei</wikipediaLink>. Lai atbalstītu tādu darbu iekļaušanu, kuriem nav publiskas licences, esam izveidojuši <cc0WaiverLink>Ieguldījuma līguma veidni</cc0WaiverLink> darbiem, kuru autortiesību īpašnieks vēlas iesniegt materiālu Common Voice.
+sc-howto-addsen-item-2 = Skaitļi. Teikuma tekstā nedrīkst būt cipari, jo tie var radīt problēmas, ierunājot tos. Skaitļa izruna ir atkarīga no konteksta un var radīt kļūdas datu kopā. Piemēram, skaitli “2409” var izrunāt gan kā “divdesmit četri nulle deviņi”, gan “divi tūkstoši četri simti deviņi”.
 sc-howto-addsen-item-3 = Saīsinājumi un akronīmi. Avota tekstā ir jāizvairās no saīsinājumiem un akronīmiem, piemēram, “ASV” vai “ICE”, jo tie var tikt lasīti tā, ka tie nesakrīt ar to pareizrakstību. Turklāt vienam saīsinājumam var būt vairāki precīzi rādījumi. Piemēram, akronīmu “ICE” var izrunāt kā “I-C-E” vai kā vienu vārdu.
+sc-howto-addsen-item-4 = Pieturzīmes. Speciālie simboli un pieturzīmes jāiekļauj tikai tad, ja tas ir absolūti nepieciešams. Piemēram, apostrofs ir iekļauts tādos angļu valodas vārdos kā “don't” un “we're”, un tas ir jāiekļauj avota tekstā, taču maz ticams, ka jums kādreiz būs nepieciešams īpašs simbols, piemēram, “@” vai “#”. Latviešu valodā jāmēģina atbrīvoties no visām pieturzīmēm un speciālajiem simboliem, kas nav nepieciešami.
+sc-howto-addsen-item-5 = Citu valodu burti. Burtiem ir jābūt derīgiem valodā, kurā runā. Piemēram, “ж” ir burts krievu alfabētā, taču tas nekad netiek lietots latviešu valodā, tāpēc tas nekad nedrīkst būt latviešu valodas teikumu tekstā.
+sc-howto-addsen-item-6 = Valodām var būt <validationRulesLink>savi validācijas noteikumi</validationRulesLink> ar papildu prasībām. Ja valodai nav konkrēta validācijas faila, mēs izmantojam vispārīgos angļu valodas noteikumus.
+sc-howto-addsen-post-1 = Mēs dodam priekšroku dabiskiem/sarunu teikumiem. Lai gan svarīga ir fonētiskā daudzveidība un dažādi vārdi teikumos, mēs cenšamies teikumu ierakstīšanu padarīt pēc iespējas jautrāku. Tāpēc būtu lieliski, ja jūs mēģinātu saglabāt savus teikumus pēc iespējas dabiskākus/saistošākus.
+sc-howto-cite-title = Kā norādīt avotu
+sc-howto-cite-pre-1 = Ir svarīgi norādīt, kur atradāt publiski pieejamos tekstus, lai izvairītos no plaģiāta un ļautu sekot līdzi <copyrightIssuesLink>autortiesību problēmām</copyrightIssuesLink>. Šeit ir daži veidi, kā varat citēt darbu.
+sc-howto-cite-item-1 = Varat iekļaut vietni, piemēram, "Common Voice - https://commonvoice.mozilla.org/"
+sc-howto-cite-item-2 = Varat izmantot akadēmisko atsauces stilu, piemēram, Hārvardas stilu "Mozilla (2021) Common Voice. Pieejams vietnē https://commonvoice.mozilla.org/ (Piekļuve: 2021. gada 15. septembrī)"
+sc-howto-cite-item-3 = Publiskā domēna tekstam, kas nav pieejams tiešsaistē, varat izmantot akadēmisko atsauces stilu, piemēram, Hārvardas stilu "Džess (2021) Mani dzejoļi par publisko licenci"
+sc-howto-review-title = Pārskatiet teikumus
+sc-howto-review-subtitle = Pārliecinieties, vai teikums atbilst šādiem kritērijiem:
+sc-howto-review-criteria-1 = Teikumam jābūt pareizi uzrakstītam, vārdos nav drukas kļūdu.
+sc-howto-review-criteria-2 = Teikumam jābūt gramatiski pareizam.
+sc-howto-review-criteria-3 = Teikumam jābūt izrunājamam.
+sc-howto-review-criteria-4 = Ja teikums atbilst visiem kritērijiem, noklikšķiniet uz pogas "Apstiprināt".
 sc-howto-review-criteria-5 = Ja teikums neatbilst iepriekš minētajiem kritērijiem, noklikšķiniet uz pogas "Noraidīt". Ja neesat pārliecināts par teikumu, varat to arī izlaist un pāriet uz nākamo.
+sc-howto-review-criteria-6 = Ja visi teikumi jau ir pārbaudīti, lūdzu, palīdziet mums savākt jaunus teikumus!
+sc-howto-findpd-title = Kā atrast brīvi pieejamus publiskā domēna teikumus
+sc-howto-findpd-subtitle = Meklējiet tos internetā
+sc-howto-findpd-text-2 = Atcerieties, ka mums ir nepieciešama atļauja publicēt šos teikumus, tāpēc vienmēr pārliecinieties, vai teksts pieder <wikipediaLink>publiskajam domēnam</wikipediaLink>. Ja nav skaidras norādes, sazinieties ar personu, kurai teksts pieder, un jautājiet, vai tā vēlas nodot savu tekstu publiskajā domēnā. Ja viņi vēlas, palīdziet viņiem izpildīt <cc0WaiverLink>Ieguldījumu līguma</cc0WaiverLink> procesu. Ja viņi nevēlas pievienot tekstu, jums nav atļauts izmantot šo tekstu.
+sc-howto-findpd-tips = Šeit ir daži padomi, kā atrast teikumus:
+sc-howto-findpd-tips-1 = Labākie avoti, kur varat meklēt, ir podkāsti, stenogrammas, filmu scenāriji un viss, kas var ietvert ikdienas sarunas.
+sc-howto-findpd-tips-2 = Valdības sēžu stenogrammas, grāmatas un raksti arī ir lieliski, taču, tā kā teksts mēdz būt nedaudz formālāks, tiem ir mazāka prioritāte.
+sc-howto-findpd-tips-3 = Diemžēl mēs šobrīd nevaram iekļaut Wikimedia rakstus. Tāpēc, lūdzu, nekopējiet teikumus no turienes.
+sc-howto-findpd-subtitle-2 = Sadarbojieties ar vietējām organizācijām vai privātpersonām
+sc-howto-findpd-partner-1 = Ir daudzas sabiedriskās organizācijas, kuras varētu vēlēties sadarboties, un tām jau ir daudz tekstu, ko tās var ziedot sabiedrības labumam kā publisku īpašumu. Sazinieties ar vietējām universitātēm, valdībām un atvērtā pirmkoda organizācijām, lai runātu par projektu un lūgtu viņu palīdzību.
+sc-howto-findpd-partner-2 = Eksperti valodnieki var arī palīdzēt, mēģināt sazināties ar vietējām lingvistiskajām universitātēm (gan skolotājiem, gan studentiem) un noskaidrot, vai tās var palīdzēt apkopot daudzveidīgu skaņu un dažādu teikumu kopumu jūsu valodā.
 
 ## MY SENTENCES
 
+sc-my-title = Mani teikumi
+sc-my-description = Šajā lapā ir pārskats par visiem jūsu iesniegtajiem teikumiem. Ja nepieciešams, varat arī dzēst jau iesniegtos teikumus, atzīmējot tai blakus esošo izvēles rūtiņu un noklikšķinot uz &quot;Dzēst atlasītos teikumus&quot; apakšā. Lūdzu, izņemiet teikumus tikai tad, ja tas ir absolūti nepieciešams, piemēram, ja pēc tam pamanījāt, ka teikums ir aizsargāts ar autortiesībām vai tajā ir kļūdas.
+sc-my-loading = Notiek jūsu teikumu ielāde…
+sc-my-err-fetching = Ielādējot jūsu teikumus, radās kļūda. Lūdzu mēģiniet vēlreiz.
+sc-my-no-sentences = Nav atrasts neviens teikums!
+# Variables:
+#   $batchId (String) - A unique ID identifying the submission of sentences - sentences uploaded together all have the same batch ID
+sc-my-submission = Iesnieguma identifikators: { $batchId }
+# Variables:
+#   $source (String) - Associated source the user filled out when uploading the sentence
+sc-my-source = Avots: { $source }
+sc-my-delete = Dzēst atlasītos teikumus
+sc-my-deleting = Notiek atlasīto teikumu dzēšana…
+sc-my-err-failed-delete = Neizdevās izdzēst atlasītos teikumus... Lūdzu, mēģiniet vēlreiz!
 
 ## REJECTED
 
+sc-rejected-title = Noraidītie teikumi
+sc-rejected-loading = Notiek noraidīto teikumu ielāde…
+sc-rejected-err-fetching = Ielādējot noraidītos teikumus, radās kļūda. Lūdzu mēģiniet vēlreiz.
+sc-rejected-none-found = Netika atrasts neviens noraidīts teikums!
 
 ## STATS
 
+sc-stats-title = Statistika
+sc-stats-updating = Notiek atjaunināšana…
+sc-stats-error = Nevarējām ielādēt statistiku. Lūdzu, pamēģiniet vēlreiz vēlāk.
+# Variables:
+#   $sentenceCount (Number) - Total number of sentences uploaded through Sentence Collector
+#   $languageCount (Number) - Total number of languages these sentences represent
+sc-stats-summary = Common Voice teikumu apkopotājs ir apkopojis { $sentenceCount } teikumus { $languageCount } valodās!
 
 ## ADD
 
+sc-submit-err-select-lang = Lūdzu izvēlieties valodu.
+sc-submit-err-add-sentences = Lūdzu, pievienojiet teikumus.
+sc-submit-err-add-source = Lūdzu, pievienojiet avotu.
+sc-submit-err-confirm-pd = Lūdzu, apstipriniet, ka šie teikumi ir publiski pieejami un brīvi lietojami.
+sc-submit-prompt =
+    .message = Teikumi nav iesniegti. Vai tiešām vēlaties aiziet?
+sc-submit-title = Pievienot teikumus
+sc-submit-select-language =
+    .labelText = Izvēlieties valodu
+sc-submit-add-sentences = Pievienojiet <wikipediaLink>publiskā domēna</wikipediaLink> teikumus
+sc-submit-ph-one-per-line =
+    .placeholder = Viens teikums katrā rindā
+sc-submit-from-where = No kurienes ir šie <wikipediaLink>publiskā domēna</wikipediaLink> teikumi?
+sc-submit-ph-read-how-to =
+    .placeholder = Izlasiet mūsu pamācību, ja nezināt, kā norādīt avotu
+sc-submit-confirm = Es apstiprinu, ka šie ir <wikipediaLink>publiskā domēna</wikipediaLink> teikumi, un man ir atļauja tos augšupielādēt.
+sc-submit-button =
+    .submitText = Iesniegt
+sc-submit-filtered = Filtrēti teikumi prasību neizpildes dēļ (lūdzu, iesniedziet labotas teikumu versijas kā jaunus teikumus):
+sc-submit-guidelines = Lūdzu, pārbaudiet <howToLink>vadlīnijas</howToLink>.
 
 ## ADD LANGUAGE
 
+sc-add-lang-could-not-add = Nevarēja pievienot valodu
+sc-add-lang-sec-label = Pievienojiet valodu, kurā vēlaties darboties
+sc-add-lang-sec-button = Pievienot valodu
+sc-add-err-unexpected = Negaidīta atbilde no servera
+# Variables:
+#   $duplicates (Number) - Number of sentences which got rejected because they are duplicates
+sc-add-result =
+    { $duplicates ->
+        [0] Teikumi iesniegti. { $duplicates } teikumi tika noraidīti kā dublikāti.
+        [zero] Teikumi iesniegti. { $duplicates } teikums tika noraidīts kā dublikāts.
+        [one] Teikumi iesniegti. { $duplicates } teikumi tika noraidīti kā dublikāti.
+       *[other] Teikumi iesniegti. { $duplicates } teikumi tika noraidīti kā dublikāti.
+    }
+# Variables:
+#   $sentences (Number) - Number of sentences which failed to be saved to the database - could be several different reasons
+sc-add-err-failed =
+    { $sentences ->
+        [0] Neviens teikums netika noraidīts
+        [zero] { $sentences } teikums tika noraidīts
+        [one] { $sentences } teikumi tika noraidīti
+       *[other] { $sentences } teikumi tika noraidīti
+    }
+sc-add-err-submission = Iesniegšanas kļūda
+sc-add-lang-process-notice = Ja jūsu valoda šeit nav norādīta, varat to pieprasīt, izmantojot <languageProcessLink>šo procesu</languageProcessLink>.
 
 ## ADD SENTENCES CONFIRMATION
 
+sc-confirm-are-you-sure =
+    .message = Teikumi nav iesniegti. Vai tiešām vēlaties aiziet?
+sc-confirm-sentences-title = Apstipriniet jaunos teikumus
+# Variables:
+#   $countOfSentences (Number) - Number of sentences the user has filled in the submission form
+sc-confirm-sentences-found =
+    { $countOfSentences ->
+        [0] Neviens teikums netika atrasts.
+        [zero] Tika atrasts { $countOfSentences } teikums.
+        [one] Tika atrasti { $countOfSentences } teikumi.
+       *[other] Tika atrasti { $countOfSentences } teikumi.
+    }
+# Variables:
+#   $countOfInvalidated (Number) - Number of sentences the user rejected in the review form before submission
+sc-confirm-rejected-by-you = Jūs noraidījāt { $countOfInvalidated }
+sc-confirm-already-reviewed =
+    { $countOfReviewed ->
+        [0] Nav neviena pārbaudīta teikuma
+        [zero] { $countOfReviewed } pārbaudīts teikums. Tā turpināt!
+        [one] { $countOfReviewed } pārbaudīts teikums. Tā turpināt!
+       *[other] { $countOfReviewed } pārbaudīti teikumi. Tā turpināt!
+    }
+# Variables:
+#   $readyCount (Number) - Number of sentences ready to be uploaded
+sc-confirm-ready =
+    { $readyCount ->
+        [0] Neviens teikums nav gatavs iesniegšanai!
+        [zero] { $readyCount } teikums ir gatavs iesniegšanai!
+        [one] { $readyCount } teikumi ir gatavi iesniegšanai!
+       *[other] { $readyCount } teikumi ir gatavi iesniegšanai!
+    }
+# Variables:
+#   $countOfUnreviewed (Number) - Number of sentences unreviewed before the upload
+sc-confirm-unreviewed = { $countOfUnreviewed } teikumi nav pārskatīti. Ja vēlaties, varat arī pārskatīt savus teikumus pirms to iesniegšanas.
+sc-confirm-button-text = Apstiprināt
+sc-confirm-uploading = Notiek teikumu augšupielāde. Tas var ilgt vairākas minūtes atkarībā no pievienoto teikumu skaita. Lūdzu, neaizveriet šo vietni.
 
 ## LANGUAGE INFO
 
+sc-lang-info-title-total = Kopā
+sc-lang-info-title-personal = Jūsu pienesums
+# Variables:
+#   $totalSentences (Number) - Number of sentences uploaded in total for this language
+sc-lang-info-total =
+    { $totalSentences ->
+        [0] Nav neviena teikuma
+        [zero] { $totalSentences } teikums
+        [one] { $totalSentences } teikumi
+       *[other] { $totalSentences } teikumi
+    }
+# Variables:
+#   $totalInReview (Number) - Number of sentences currently in the review state for this language
+sc-lang-info-in-review =
+    { $totalInReview ->
+        [0] Nav neviena teikuma ko pārbaudīt.
+        [zero] { $totalInReview } teikums ko pārbaudīt.
+        [one] { $totalInReview } teikumi ko pārbaudīt.
+       *[other] { $totalInReview } teikumi ko pārbaudīt.
+    }
+# Variables:
+#   $unreviewedSentencesByYou (Number) - Number of sentences the user can still review
+sc-lang-info-left-for-you =
+    { $unreviewedSentencesByYou ->
+        [0] Jums nav neviena teikuma ko pārbaudīt.
+        [zero] { $unreviewedSentencesByYou } teikums ko pārbaudīt.
+        [one] { $unreviewedSentencesByYou } teikumi ko pārbaudīt.
+       *[other] { $unreviewedSentencesByYou } teikumi ko pārbaudīt.
+    }
+sc-lang-info-review-now = <reviewLink>Pārbaudīt tagad!</reviewLink>
+sc-lang-info-add-more = <addLink>Pievienojiet teikumus!</addLink>
+# Variables:
+#   $validatedSentences (Number) - Number of sentences which have been approved for this language
+sc-lang-info-validated =
+    { $validatedSentences ->
+        [0] Nav neviena pārbaudīta teikuma.
+        [zero] { $validatedSentences } pārbaudīts teikums.
+        [one] { $validatedSentences } pārbaudīti teikumi.
+       *[other] { $validatedSentences } pārbaudītu teikumu.
+    }
+# Variables:
+#   $rejectedSentences (Number) - Number of sentences which have been rejected for this language
+sc-lang-info-rejected =
+    { $rejectedSentences ->
+        [0] Nav neviena noraidīta teikuma.
+        [zero] { $rejectedSentences } noraidīts teikums.
+        [one] { $rejectedSentences } noraidīti teikumi.
+       *[other] { $rejectedSentences } noraidītu teikumu.
+    }
 
 ## LOGIN
 
+sc-login-err-failed = Pieslēgšanās neizdevās
+sc-login-err-try-again = Lūdzu, mēģiniet vēlreiz.
 
 ## PROFILE
 
+# Variables:
+#   $username (String) - eMail address of the logged in user
+sc-profile-title = Profils: { $username }
+sc-personal-err-lang-not-found = Nevarēja noņemt valodu: valoda nav atrasta
+sc-personal-err-remove = Nevarēja noņemt valodu
+sc-personal-your-languages = Jūsu valodas:
+sc-personal-remove-button = noņemt
+# Variables:
+#   $sentences (Number) - Number of sentences that were added by the currently logged in user for this language
+sc-personal-added-by-you = Jūs pievienojāt { $sentences }
+sc-personal-not-added = Jūs vēl neesat pievienojis nevienu valodu.
 
 ## REVIEW CRITERIA
 
+sc-criteria-modal = ⓘ Pārbaudīšanas kritēriji
+sc-criteria-title = Pārbaudīšanas kritēriji
+sc-criteria-make-sure = Pārliecinieties, vai teikums atbilst šādiem kritērijiem:
+sc-criteria-item-1 = Teikumam jābūt pareizi uzrakstītam, vārdos nav drukas kļūdu.
+sc-criteria-item-2 = Teikumam jābūt gramatiski pareizam.
+sc-criteria-item-3 = Teikumam jābūt izrunājamam.
+sc-criteria-item-4 = Ja teikums atbilst visiem kritērijiem, noklikšķiniet uz pogas &quot;Apstiprināt&quot;.
+sc-criteria-item-5-2 = Ja teikums neatbilst iepriekš minētajiem kritērijiem, noklikšķiniet uz &quot;Noraidīt&quot; pogas kreisajā pusē. Ja neesat pārliecināts par teikumu, varat to arī izlaist un pāriet uz nākamo.
+sc-criteria-item-6 = Ja visi teikumi jau ir pārbaudīti, lūdzu, palīdziet mums savākt jaunus teikumus!
 
 ## REVIEW
 
+sc-review-lang-not-selected = Jūs neesat atlasījis nevienu valodu. Lūdzu, dodieties uz savu <profileLink>profilu</profileLink>, lai izvēlētos valodas.
+sc-review-title = Teikumu pārbaude
+sc-review-loading = Notiek teikumu ielāde…
+sc-review-select-language = Lūdzu, izvēlieties valodu, lai pārbaudītu teikumus.
+sc-review-no-sentences = Nav teikumu, ko pārbaudīt. <addLink>Pievienojiet teikumus!</addLink>
+sc-review-form-prompt =
+    .message = Pārskatītie teikumi nav iesniegti, vai esat pārliecināts?
+sc-review-form-usage = Velciet pa labi, lai apstiprinātu teikumu. Velciet pa kreisi, lai to noraidītu. Velciet uz augšu, lai to izlaistu. <strong>Neaizmirstiet iesniegt sava darba rezultātu!</strong>
+# Variables:
+#   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
+sc-review-form-source = Avots: { $sentenceSource }
+sc-review-form-button-reject = Noraidīt
+sc-review-form-button-skip = Izlaist
+sc-review-form-button-approve = Apstiprināt
+# Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
+sc-review-form-button-approve-shortcut = Y
+# Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
+sc-review-form-button-reject-shortcut = N
+# Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
+sc-review-form-button-skip-shortcut = S
+sc-review-form-keyboard-usage-custom = Varat arī izmantot īsinājumtaustiņus: { sc-review-form-button-approve-shortcut }, lai apstiprinātu, { sc-review-form-button-reject-shortcut }, lai noraidītu, { sc-review-form-button-skip-shortcut }, lai izlaistu
+sc-review-form-button-submit =
+    .submitText = Pabeigt pārskatīšanu
+# Variables:
+#   $sentences (Number) - Number of sentences the user has reviewed in this session
+sc-review-form-reviewed-message =
+    { $sentences ->
+        [0] Neviens teikums nav pārbaudīts
+        [zero] Pārbaudīts { $sentences } teikums
+        [one] Pārbaudīti { $sentences } teikumi
+       *[other] Pārbaudīti { $sentences } teikumi
+    }
+sc-review-form-review-failure = Pārbaudes rezultātu nevarēja saglabāt. Lūdzu, pamēģiniet vēlreiz vēlāk.
+sc-review-link = Pārbaudiet
 
 ## SETTINGS
 
+sc-settings-title = Iestatījumi
+sc-settings-ui-language = Saskarnes valoda
+sc-settings-reset-skipped = Atiestatīt izlaistos teikumus
+sc-settings-skipped-decription = Pārskatīšanas laikā jūs iepriekš izlaidāt teikumus. Atiestatot izlaistos teikumus, atkal tiks parādīti visi izlaistie teikumi. Tas nav atkarīgs no valodas.
+sc-settings-show-all-button = Rādīt vēlreiz visus izlaistos teikumus
+sc-settings-failed = Nevarēja mainīt iestatījumus. Lūdzu mēģiniet vēlreiz.
+# VALIDATION
+sc-validation-number-of-words = Teikumā jābūt no 1 līdz 14 (ieskaitot) vārdiem
+sc-validation-no-numbers = Teikumā nedrīkst būt cipari un skaitļi
+sc-validation-no-symbols = Teikumā nedrīkst būt nekādi speciālie simboli
+sc-validation-no-abbreviations = Teikumā nedrīkst būt saīsinājumi
 
 # [/SentenceCollector]
 
+localization-select =
+    .label = Izvēlieties valodu/lokalizāciju
 # PARTNERSHIPS PAGE
 partnerships-header = Partnerības
+partnerships-header-text = Lai veidotu Common Voice, ir nepieciešams daudz! Mēs to nedarām vieni. Vai vēlaties ar mums sadarboties? Mēs labprāt iepazītos.
 partnerships-get-in-touch = Sazināties
+partnerships-become-a-partner = Kļūstiet par Common Voice partneri
+partnerships-community-header = Kopiena, radošā sabiedrība un pilsoniskā sabiedrība
+partnerships-community-description = Kopiena ir Common Voice pukstošā sirds - viņi nāk no visas pasaules un ir valodu aktīvisti, zinātnieki un mākslinieki. Vairāk par to, kā iesaistīties, varat uzzināt mūsu lapā <about>Par</about> un mūsu <community>kopienas rokasgrāmatā</community>. Ja jūs interesē padziļināta organizatoriskā partnerība, <emailFragment>sazinieties ar mums.</emailFragment>
+partnerships-foundations-header = Fondi
+partnerships-foundations-description = Mēs sadarbojamies ar fondiem, pilsonisko sabiedrību un kopienas partneriem, lai padarītu internetu par veselīgāku vietu, īpašu uzmanību pievēršot Austrumāfrikai. Uzziniet vairāk par mūsu <programmaticWork>programmatisko darbu.</programmaticWork>
+partnerships-governments-header = Valdības
+partnerships-governments-description = Mēs esam priecīgi atbalstīt publiskā sektora iesaistīšanos tehnoloģiju, inovāciju un valodas tiesību jomā. Ja plānojat īstenot lielu projektu vai kampaņu, lūdzu, <emailFragment>sazinieties ar mums.</emailFragment>
+partnerships-academia-header = Universitātes, akadēmiķi un pētnieki
+partnerships-academia-description = Atvērta inovācija ir mūsu darbības pamatā. Lai sadarbotos pētniecībā, vāktu datus vai veiktu intervijas, <emailFragment>sazinieties ar mums.</emailFragment>
+partnerships-small-business-header = Mazie uzņēmumi, tostarp tehnoloģiju un mākslīgā intelekta jaunuzņēmumi
+partnerships-small-business-description = Mēs vienmēr vēlamies dzirdēt no datu patērētājiem par viņu vajadzībām un kontekstu - no sadarbības datu vākšanas platformā līdz datu veselības ieskatu sniegšanai, mēs vēlamies <emailFragment>uzklausīt jūs.</emailFragment>
+partnerships-corporates-header = Liela mēroga korporācijas un platformu uzņēmumi
+partnerships-corporates-description = Ja vēlaties runāt vairāk par datu kopu, līdzinvestēt plānotos platformas paplašināšanā vai meklēt sadarbības iespējas, <emailFragment>rakstiet mums.</emailFragment>
+partnerships-our-partners = Mūsu partneri
+# FIRST POST SUBMISSION CTA
+first-cta-header-text = Paldies, ka ziedojāt savas balss ierakstus!
+first-cta-subtitle-text = Vai vēlaties pastāstīt par to, kā runājat?
+why-donate = Kāpēc jūs jautājat?
+why-donate-explanation-1 = Šī informācija nav jāsniedz obligāti - pievienojiet to tikai tad, ja jūtaties ērti. Kad mēs izlaižam datu kopu, mēs pseidonimizējam visu personas informāciju un pārliecināmies, ka informācija, piemēram, jūsu vārds un epasts, nav saistīta ar demogrāfisko informāciju, piemēram, vecumu vai dzimumu.
+why-donate-explanation-2 = Lai balss tehnoloģija labi darbotos ikvienam, datiem, kas palīdz izstrādātājiem izveidot šo tehnoloģiju, ir jāatspoguļo daudzveidīgs cilvēku loks. Piemēram, ja mēs neiekļaujam nevienu runātāju ar noteiktu akcentu, tehnoloģija nedarbosies labi cilvēkiem ar šo akcentu. <learnMore>Uzziniet vairāk par to, kāpēc metadati ir svarīgi.</learnMore>
+add-information-button = Pievienot informāciju
+continue-speaking-button = Nē, paldies, turpināšu ierakstīt
+create-profile-text = Vai vēlaties saglabāt savu informāciju? <createProfile>Izveidojiet profilu</createProfile>
+thanks-for-voice-toast = Paldies par balss informāciju
+thanks-for-voice-toast-error = Iesniedzot jūsu balss informāciju, radās kļūda
+# SECOND POST SUBMISSION CTA
+second-cta-header-text = Paldies, ka ziedojāt savas balss ierakstus!
+second-cta-subtitle-text = Izmantojot profilu, varēsiet sekot līdzi savai aktivitātei un sazināties ar balss datu vācēju kopienu.
+already-have-an-account = Jums jau ir konts? <login>Pieslēdzieties</login>
+create-profile-button = Izveidot profilu
+# IMAGE TAGS
+img-alt-success-checkmark = veiksmes atzīme
+# GUIDELINES PAGE
+guidelines-header = Vadlīnijas
+guidelines-header-subtitle = Izprotiet, kā pievienot un apstiprināt teikumus un ierakstus Common Voice datu kopā
+voice-collection = Ierakstu vākšana
 sentence-collection = Teikumu kolekcija
+varying-pronunciations = Dažādas izrunas
+misreadings = Kļūdaini lasījumi
+offensive-content = Aizskarošs saturs
+background-noise = Fona troksnis
+background-voices = Balsis fonā
+volume = Skaļums
+reader-effects = Ierunātāja izrunas īpatnības
+just-unsure = Vienkārši neesat pārliecināti?
+example = Piemērs
+varying-pronunciations-explanation-1 = Mēs priecājamies par dažādiem akcentiem! Rūpīgi izvērtējiet, pirms noraidīt ierakstu, pamatojoties uz to, ka, jūsuprāt, lasītājs ir nepareizi izrunājis vārdu, ievietojis uzsvaru nepareizā vietā vai ignorējis pieturzīmes. Dažādi cilvēki pasaulē runā dažādi, un dažas no šīm izrunām, iespējams, ikdienā nedzirdat savā kopienā. Lūdzu, novērtējiet tos, kuri runā atšķirīgi no jums.
+varying-pronunciations-explanation-2 = No otras puses, ja izruna ir nepareiza vai kļūdaina, noraidiet ierakstu. Ja neesat pārliecināti, izmantojiet izlaišanas pogu.
+varying-pronunciations-example = Man garšo mērce un desa.
+varying-pronunciations-tip-1 = [Dažādās Latvijas malās "mērce" izrunā dažādi, visas izrunas ir pareizas]
+varying-pronunciations-tip-2 = [Arī vārdu "desa" dažādi cilvēki izrunā dažādi]
+offensive-content-explanation = Teikumi tiek pārbaudīti, izmantojot brīvprātīgo labākos nodomus, taču šis process nav ideāls. Ja redzat vai dzirdat teikumu, kas jūs aizvaino vai satrauc, piemēram, tāpēc, ka tas pārkāpj mūsu <participationGuidelines>kopienas līdzdalības vadlīnijas</participationGuidelines>, lūdzu, izmantojiet karodziņa pogu lietotāja saskarnē. Varat arī sazināties ar mums, izmantojot epasta adresi <emailFragment>commonvoice@mozilla.com</emailFragment>.
+misreadings-explanation-1 = Ir svarīgi pareizi izlasīt visus vārdus lapā. Klausoties ļoti rūpīgi pārbaudiet, vai ierakstītais ir tieši tas, kas rakstīts; noraidīt, ja runātāji ir pievienojuši vai palaiduši garām kādu vārdu vai, ja divi vārdi ir samainīti vietām.
+misreadings-explanation-2 = Biežāk sastopamās kļūdas:
+misreadings-explanation-3 = Norauts vārda sākums, piemēram "an garšo desa"
+misreadings-explanation-4 = Norautas vārda beigas, piemēram, "bija" vietā ierunāts "bij" vai izlaists vārds "ir"
+misreadings-explanation-5 = Vārdi samainīti vietām, piemēram, "vai es ko varu darīt?" vietā ir ierunāts "vai es varu ko darīt?"
+misreadings-explanation-6 = Trūkst vārda beigu, jo ieraksts ir izslēgts pārāk ātri
+misreadings-explanation-7 = Ierakstā dzirdami vairāki mēģinājumi ierakstīt vajadzīgo frāzi vai pārteikšanās
+misreadings-example-1 = Kundze, vai es varu ko darīt?
+misreadings-example-2 = Kundze, vai varu ko darīt?
+misreadings-example-3 = Kundze, vai es varu kaut ko darīt?
+misreadings-example-4 = Bites ir čakli kukaiņi
+misreadings-tip-1 = [pazudis vārds “es”]
+misreadings-tip-2 = [Sākotnējā teikumā nebija vārds "kaut"]
+misreadings-tip-3 = [Neatbilstošs saturs]
+background-noise-explanation = Jums ir jāspēj dzirdēt katrs ieraksta vārds. Mēs vēlamies, lai mašīnmācīšanās algoritmi spētu apstrādāt dažādus fona trokšņus, un var tikt pieņemti pat salīdzinoši skaļi trokšņi vai klusa fona mūzika, ja tie netraucē precīzi un skaidri dzirdēt visu tekstu. Krakšķi vai “iztrūkumi”, kas neļauj dzirdēt un saprast katru vārdu, nozīmē, ka klips ir jānoraida.
+background-noise-example-1 = Senā laikmeta dinozauri.
+background-noise-example-2 = [Šķauda] Senā laikmeta [klepus] dinozauri.
+background-noise-example-3 = Senā laikmeta dino [dzirdams krakšķis].
+background-noise-example-4 = [klusums] enā laikmeta [dzirdams krakšķis] -zauri.
+background-noise-tip-1 = [pārtrauc fona troksnis]
+background-noise-tip-2 = [Daļu no teksta nevar dzirdēt]
+background-voices-explanation = Neliels fona troksnis ir pieņemams, taču, ja dzirdat citu personu runājam konkrētus vārdus, klips ir jānoraida. Parasti tas notiek gadījumos, kad tuvumā ir atstāts ieslēgts televizors vai runā citi cilvēki.
+background-voices-example-1 = Senā laikmeta dinozauri. [lasa viena balss]
+background-voices-tip-1 = Vai tu nāc? [saka kāds cits]
+volume-explanation = Starp lasītājiem būs dabiskas ieraksta skaļuma atšķirības. Noraidīt tikai tad, ja skaļums ir tik liels, ka ierakstā ir krakšķi vai tas pārtrūkst, vai arī, ja tas ir tik kluss, ka nevar saklausīt un pilnībā saprast teikto bez skatīšanās uz rakstīto tekstu.
+reader-effects-explanation = Lielākajā daļā ierakstu cilvēki, runā savā dabiskajā balsī. Apstipriniet arī nelielas atkāpes, piemēram, ja kāda frāze tiek pateikta skaļāk, klusāk, priecīgi, bēdīgi vai nedaudz ‘dramatiskā’ balsī. Lūdzu, noraidiet ierakstus, kuros cilvēki dzied vai tos, kas ierunāti robotiskā datora balsī.
+just-unsure-explanation = Ja saskaraties ar kaut ko, kas šajās vadlīnijās nav ietverts, lūdzu, vērtējiet kā jums šķiet pareizi. Kvalitāte un precizitāte ir svarīgāka par ierakstu skaitu. Ja tiešām nevarat izlemt, izmantojiet izlaišanas pogu un pārejiet uz nākamo ierakstu.
+still-have-questions = Joprojām ir jautājumi?
+contact-common-voice = Sazinieties ar Common Voice komandu
+public-domain = Publiskie dati
+citing-sentences = Atsauce uz teikumu avotu
+adding-sentences = Teikumu pievienošana
+reviewing-sentences = Teikumu pārbaude
+public-domain-explanation-1 = Ir ļoti svarīgi, lai visi teikumi būtu <publicDomain>publiskais domēns</publicDomain> (<cc0>cc0</cc0>), jo Common Voice datu kopa tiek izlaista ar cc0 licenci. Augšupielādējiet teikumu tikai tad, ja esat pārliecināts par tā publiskumu, un vienmēr iekļaujiet atsauci uz avotu.
+public-domain-explanation-2 = Labākie teikumi noderīga runas atpazīšanas rīka izveidei ir sarunvaloda, mūsdienīga valoda. Dažas idejas, kas palīdzēs ģenerēt teikumus, ir;
+public-domain-explanation-3 = Izveidojiet mūsdienīgus sarunvalodas teikumus pats vai kopā ar draugiem vai valodu kopienu, piemēram, rīkojot “rakstīšanas maratonu”
+public-domain-explanation-4 = Sazinieties ar autoriem, dramaturgiem vai scenāristiem un jautājiet, vai viņi būtu gatavi veltīt nelielu daļu no saviem darbiem publiskajā īpašumā. Teikumus var publicēt alfabētiskā secībā, lai tas netraucētu kādiem darba autora mērķiem.
+public-domain-explanation-5 = Meklējiet tekstu, uz kuru autortiesības vairs neattiecas, piemēram, vairums grāmatu, kas izdotas pirms 1920. gada šobrīd ir brīvi pieejamas ikvienam.
+public-domain-explanation-6 = Sazinieties ar valdībām, pašvaldībām, bezpeļņas organizācijām vai plašsaziņas līdzekļu organizācijām, lai noskaidrotu, vai kāda daļa no to tīmekļa zinām, ziņojumiem, atskaitēm vai citam saturam varētu būt nodots sabiedrības lietošanā.
+citing-sentences-explanation-1 = Ir svarīgi iekļaut atsauces, lai mēs varētu pārbaudīt, vai teikumi ir publiski pieejami un netiek piemēroti kādi autortiesību ierobežojumi.
+citing-sentences-subheader-websites = Mājas lapas
+citing-sentences-subheader-websites-explanation = Varat iekļaut mājas lapas adresi, piemēram, "Common Voice - https://commonvoice.mozilla.org/"
+citing-sentences-subheader-academic-reference = Akadēmiskā atsauce
+citing-sentences-subheader-academic-reference-explanation = Varat izmantot akadēmisko atsauces stilu, piemēram, Hārvardas stilu "Mozilla (2021) Common Voice. Pieejams vietnē https://commonvoice.mozilla.org/ (Piekļuve: 2021. gada 15. septembrī)"
+citing-sentences-subheader-offline-sources = Bezsaistes avoti
+citing-sentences-subheader-offline-sources-explanation = Publiskā domēna tekstam, kas nav pieejams tiešsaistē, varat izmantot akadēmisko atsauces stilu, piemēram, Hārvardas stilu "Džess (2021) Mani dzejoļi par publisko licenci"
+citation =
+    .label = Atsauce
+self-citation = Pašatsauce
+self-citation-explanation = Šādi varat pievienot atsauci uz saturu, ko esat sacerējuši jūs.
+adding-sentences-subheader-length = Garums
+adding-sentences-subheader-length-explanation = Teikumiem jābūt īsākiem par 15 vārdiem.
+adding-sentences-subheader-spelling-punctuation = Pareizrakstība un pieturzīmes
+adding-sentences-subheader-spelling-punctuation-explanation = Teikumam jābūt pareizi uzrakstītam, vārdos nevar būt drukas kļūdas.
+adding-sentences-subheader-speakable = Ierunājamiem
+adding-sentences-subheader-speakable-explanation = Labākie teikumi ir dabiski un sarunvalodas — tiem ir jābūt viegli lasāmiem. Lai gan svarīga ir fonētiskā daudzveidība un dažādi vārdi teikumos, mēs tāpat cenšamies panākt arī, lai teikumu ierunāšana būtu pēc iespējas saistošāka un jautrāka mūsu brīvprātīgajiem.
+adding-sentences-subheader-numbers = Skaitļi
+adding-sentences-subheader-numbers-explanation = Teikuma tekstā nedrīkst būt cipari un skaitļi, jo tie var radīt problēmas, ierunājot tos. Skaitļa izruna ir atkarīga no konteksta un var radīt kļūdas datu kopā. Piemēram, skaitli “2409” var izrunāt gan kā “divdesmit četri nulle deviņi”, gan “divi tūkstoši četri simti deviņi”.
+adding-sentences-subheader-abbreviations = Saīsinājumi un akronīmi
+adding-sentences-subheader-abbreviations-explanation = Teikumos ir jāizvairās no saīsinājumiem un akronīmiem, piemēram, “ASV” vai “NLO”, jo tie var tikt lasīti tā, ka tie nesakrīt ar to pareizrakstību. Turklāt vienam saīsinājumam var būt vairāki pareizi ierunāšanas veidi.
+adding-sentences-subheader-punctuation = Pieturzīmes
+adding-sentences-subheader-punctuation-explanation = Speciālie simboli un pieturzīmes jāiekļauj tikai tad, ja tas ir absolūti nepieciešams. Piemēram, apostrofs ir iekļauts tādos angļu valodas vārdos kā “don't” un “we're”, un tas ir jāiekļauj avota tekstā, taču maz ticams, ka jums kādreiz būs nepieciešami simboli, piemēram, “@” vai “#”. Latviešu valodā jāmēģina atbrīvoties no visām pieturzīmēm un speciālajiem simboliem, kas nav nepieciešami, piemēram, no domuzīmēm.
+adding-sentences-subheader-special-characters = Citu valodu burti
+adding-sentences-subheader-special-characters-explanation-1 = Burtiem ir jābūt derīgiem valodā, kurā runā. Piemēram, “ж” ir burts krievu alfabētā, taču tas nekad netiek lietots latviešu valodā, tāpēc tas nekad nedrīkst būt latviešu valodas teikumu tekstā.
+adding-sentences-subheader-special-characters-explanation-2 = Valodām var būt savi validācijas noteikumi ar papildu prasībām, kad tās tiek lokalizētas. Ja valodai nav konkrēta validācijas faila, tiks izmantoti vispārīgi angļu valodas noteikumi.
+adding-sentences-subheader-offensive-content = Aizskarošs saturs
+adding-sentences-subheader-offensive-content-explanation = Ja teikums ir aizskarošs vai satraucošs - piemēram, necenzēts saturs vai citi mūsu <communityGuidelines>kopienas līdzdalības vadlīniju</communityGuidelines> pārkāpumi, jums teikums ir jānoraida. Varat arī sazināties ar mums, rakstot uz epasta adresi <emailFragment>commonvoice@mozilla.com</emailFragment>, lai eskalētu šādas problēmas.
+reviewing-sentences-explanation-1 = Ja teikums atbilst iepriekš minētajiem kritērijiem, noklikšķiniet uz pogas "Jā".
+reviewing-sentences-explanation-2 = Ja teikums neatbilst iepriekš minētajiem kritērijiem, noklikšķiniet uz pogas "Nē".
+reviewing-sentences-explanation-3 = Ja neesat pārliecināts par teikumu, varat to izlaist un pāriet uz nākamo.
+reviewing-sentences-explanation-4 = Ja visi teikumi jau ir pārbaudīti, lūdzu, palīdziet mums savākt jaunus teikumus!
+community-announcement-header = Kopienas paziņojums!
+community-announcement-explanation = Zemāk sniegtie norādījumi attiecas uz jaunajām teikumu apkopošanas iespējām, kas 2023. gada martā un aprīlī tiks integrētas Common Voice pamatplatformā. Tikmēr varat izmantot iepriekšējo rīku <scLink>https://commonvoice.mozilla.org/sentence-collector/</scLink>.

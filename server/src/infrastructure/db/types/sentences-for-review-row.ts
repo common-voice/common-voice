@@ -1,5 +1,5 @@
 export type SentencesForReviewRow = {
-  id: number
+  id: string
   text: string
   source: string
   locale_id: number
