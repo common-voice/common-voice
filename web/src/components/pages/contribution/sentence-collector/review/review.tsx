@@ -52,6 +52,14 @@ const Review = () => {
   const [currentLocale] = useLocale()
   const languages = useLanguages()
   const account = useAccount()
+  const sentences = useTypedSelector(({ sentences }) => sentences)
+
+  const pendingSentencesSubmissions =
+    sentences[currentLocale]?.pendingSentences || []
+
+  const activeSentenceIndex = pendingSentencesSubmissions.findIndex(
+    el => el.isValid === null
+  )
 
   const localeId = languages.localeNameAndIDMapping.find(
     locale => locale.name === currentLocale
@@ -60,6 +68,7 @@ const Review = () => {
   const fetchPendingSentences = useAction(
     Sentences.actions.refillPendingSentences
   )
+  const voteSentence = useAction(Sentences.actions.voteSentence)
 
   const handleFetch = () => {
     try {
@@ -69,7 +78,7 @@ const Review = () => {
     }
   }
 
-  const handleKeyPress = (evt: KeyboardEvent) => {
+  const handleKeyPress = React.useCallback((evt: KeyboardEvent) => {
     if (
       evt.ctrlKey ||
       evt.altKey ||
@@ -79,16 +88,31 @@ const Review = () => {
     ) {
       return
     }
+  }, [])
+
+  const handleVoteYes = () => {
+    voteSentence({
+      vote: true,
+      sentence_id: pendingSentencesSubmissions[activeSentenceIndex].sentenceId,
+      sentenceIndex: activeSentenceIndex,
+    })
+  }
+
+  const handleVoteNo = () => {
+    voteSentence({
+      vote: false,
+      sentence_id: pendingSentencesSubmissions[activeSentenceIndex].sentenceId,
+      sentenceIndex: activeSentenceIndex,
+    })
+  }
+
+  const handleSkip = () => {
+    console.log('kdkdk')
   }
 
   const handleToggleShortcutsModal = () => {
     setShowShortcutsModal(!showShortcutsModal)
   }
-
-  const sentences = useTypedSelector(({ sentences }) => sentences)
-
-  const pendingSentencesSubmissions =
-    sentences[currentLocale]?.pendingSentences || []
 
   const isLoading = sentences[currentLocale]?.isLoadingPendingSentences
 
@@ -161,9 +185,10 @@ const Review = () => {
                 <ReviewCard
                   sentence={submission.sentence}
                   source={submission.source}
-                  key={index}
-                  isActive={index === 0}
+                  key={submission.sentenceId}
+                  isActive={index === activeSentenceIndex}
                   index={index}
+                  activeSentenceIndex={activeSentenceIndex}
                 />
               ))}
             </div>
@@ -173,14 +198,18 @@ const Review = () => {
       </div>
       <div className="waves">
         <div className="primary-buttons">
-          <VoteButton kind="yes" disabled className="yes-button" />
-          <Button outline rounded className="skip-button">
+          <VoteButton
+            kind="yes"
+            className="yes-button"
+            onClick={handleVoteYes}
+          />
+          <Button outline rounded className="skip-button" onClick={handleSkip}>
             <SkipIcon />
             <Localized id="skip">
               <span />
             </Localized>{' '}
           </Button>
-          <VoteButton kind="no" disabled className="no-button" />
+          <VoteButton kind="no" className="no-button" onClick={handleVoteNo} />
         </div>
       </div>
       <div className="buttons">

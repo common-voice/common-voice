@@ -11,34 +11,35 @@ import {
   Clip,
   UserLanguage,
   SentenceSubmission,
-} from 'common';
-import { Locale } from '../stores/locale';
-import { User } from '../stores/user';
-import { USER_KEY } from '../stores/root';
+  SentenceVote,
+} from 'common'
+import { Locale } from '../stores/locale'
+import { User } from '../stores/user'
+import { USER_KEY } from '../stores/root'
 
 interface FetchOptions {
-  method?: 'GET' | 'POST' | 'PUT' | 'DELETE' | 'PATCH';
-  isJSON?: boolean;
+  method?: 'GET' | 'POST' | 'PUT' | 'DELETE' | 'PATCH'
+  isJSON?: boolean
   headers?: {
-    [headerName: string]: string;
-  };
-  body?: any; // eslint-disable-line @typescript-eslint/no-explicit-any
+    [headerName: string]: string
+  }
+  body?: any // eslint-disable-line @typescript-eslint/no-explicit-any
 }
 
 interface Vote extends Event {
-  hasEarnedSessionToast?: boolean;
-  showFirstContributionToast?: boolean;
-  showFirstStreakToast?: boolean;
-  challengeEnded?: boolean;
+  hasEarnedSessionToast?: boolean
+  showFirstContributionToast?: boolean
+  showFirstStreakToast?: boolean
+  challengeEnded?: boolean
 }
 
-const API_PATH = location.origin + '/api/v1';
+const API_PATH = location.origin + '/api/v1'
 
 const getChallenge = (user: User.State): string => {
   return user?.account?.enrollment?.challenge
     ? user.account.enrollment.challenge
-    : null;
-};
+    : null
+}
 
 export default class API {
   private readonly locale: Locale.State
@@ -542,5 +543,14 @@ export default class API {
 
   fetchPendingSentences(localeId: number) {
     return this.fetch(`${API_PATH}/sentences/review?localeId=${localeId}`)
+  }
+
+  voteSentence({ vote, sentence_id }: SentenceVote) {
+    const data = { vote, sentence_id }
+
+    return this.fetch(`${API_PATH}/sentences/vote`, {
+      method: 'POST',
+      body: data,
+    })
   }
 }

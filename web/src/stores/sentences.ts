@@ -1,6 +1,11 @@
 import { Action as ReduxAction, Dispatch } from 'redux';
 import StateTree from './tree';
-import { PendingSentence, Sentence, SentenceSubmission } from 'common'
+import {
+  PendingSentence,
+  Sentence,
+  SentenceSubmission,
+  SentenceVote,
+} from 'common'
 
 const CACHE_SET_COUNT = 25
 const MIN_CACHE_COUNT = 5
@@ -25,6 +30,7 @@ export namespace Sentences {
     CREATE = 'CREATE_SENTENCES',
     REFILL_PENDING_SENTENCES = 'REFILL_PENDING_SENTENCES',
     REFILL_PENDING_SENTENCES_LOADING = 'REFILL_PENDING_SENTENCES_LOADING',
+    VOTE_SENTENCE = 'VOTE_SENTENCE',
   }
 
   interface RefillAction extends ReduxAction {
@@ -57,6 +63,13 @@ export namespace Sentences {
     pendingSentences: PendingSentence[]
   }
 
+  interface VoteSentence extends ReduxAction {
+    type: ActionType.VOTE_SENTENCE
+    sentenceId: string
+    isValid: boolean
+    sentenceIndex: number
+  }
+
   export type Action =
     | RefillAction
     | RefillLoadAction
@@ -65,6 +78,7 @@ export namespace Sentences {
     | CreateAction
     | RefillPendingSentencesLoadingAction
     | RefillPendingSentencesAction
+    | VoteSentence
 
   export const actions = {
     refill:
@@ -145,6 +159,21 @@ export namespace Sentences {
         dispatch({
           type: ActionType.REFILL_PENDING_SENTENCES,
           pendingSentences: data.pendingSentences,
+        })
+      },
+
+    voteSentence:
+      (sentenceVote: SentenceVote) =>
+      async (dispatch: Dispatch<VoteSentence>, getState: () => StateTree) => {
+        const state = getState()
+
+        await state.api.voteSentence({ ...sentenceVote })
+
+        dispatch({
+          type: ActionType.VOTE_SENTENCE,
+          sentenceId: sentenceVote.sentence_id,
+          isValid: sentenceVote.vote,
+          sentenceIndex: sentenceVote.sentenceIndex,
         })
       },
   }
@@ -242,12 +271,36 @@ export namespace Sentences {
       }
 
       case ActionType.REFILL_PENDING_SENTENCES: {
+        const pendingSentences = action.pendingSentences.map(
+          pendingSentence => ({
+            ...pendingSentence,
+            isValid: null,
+          })
+        )
+
         return {
           ...state,
           [locale]: {
             ...currentLocaleState,
-            pendingSentences: action.pendingSentences,
+            pendingSentences,
             isLoadingPendingSentences: false,
+          },
+        }
+      }
+
+      case ActionType.VOTE_SENTENCE: {
+        const pendingSentences = currentLocaleState.pendingSentences.map(
+          (pendingSentence, index) =>
+            index === action.sentenceIndex
+              ? { ...pendingSentence, isValid: action.isValid }
+              : pendingSentence
+        )
+
+        return {
+          ...state,
+          [locale]: {
+            ...currentLocaleState,
+            pendingSentences,
           },
         }
       }

@@ -16,7 +16,15 @@ export enum SentenceSubmissionError {
 }
 
 export type PendingSentence = {
+  sentenceId: string
   sentence: string
   source: string
   localeId: number
+  isValid: boolean
+}
+
+export type SentenceVote = {
+  vote: boolean
+  sentence_id: string
+  sentenceIndex: number
 }
