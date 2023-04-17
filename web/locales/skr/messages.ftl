@@ -1631,6 +1631,7 @@ misreadings-tip-1 = [ہووݨاں چاہیدا ہے "اساں ہیں"]
 misreadings-tip-2 = [اصل عبارت وچ کوئی  ‘a’  کائنی]
 misreadings-tip-3 = [غیر مماثل مواد]
 background-noise-example-1 = ٹریاسک دے دیوہیکل ڈایناسور۔
+background-noise-example-2 = [نچھ] [کھنگھ] ٹریاسک دے دیوہیکل ڈایناسور.
 background-noise-example-3 = ٹریاسک دا دیوہیکل ڈاینا [کف]۔
 background-noise-tip-2 = [عبارت دا حصہ کائنی سُݨ سڳیندا]
 background-voices-example-1 = ٹریاسک دے دیوہیکل ڈایناسور، [ہک اواز نال پڑھو]
