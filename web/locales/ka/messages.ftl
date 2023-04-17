@@ -885,8 +885,8 @@ clips-with-count-pluralized =
         [one] <bold>{ $count }</bold> ჩანაწერი
        *[other] <bold>{ $count }</bold> ჩანაწერი
     }
-goal-help-recording = თქვენ დაეხმარეთ Common Voice-ს დღიური მიზნის, { $goalValue } ჩანაწერის <goalPercentage></goalPercentage>-ის შექმნაში!
-goal-help-validation = თქვენ დაეხმარეთ Common Voice-ს დღიური მიზნის, { $goalValue } შემოწმების <goalPercentage></goalPercentage>-ის შესრულებაში!
+goal-help-recording = თქვენი დახმარებით Common Voice-ის დღიური მიზნის, { $goalValue } ჩანაწერის <goalPercentage></goalPercentage> შესრულდა!
+goal-help-validation = თქვენი დახმარებით Common Voice-ის დღიური მიზნის, { $goalValue } შემოწმების <goalPercentage></goalPercentage> შესრულდა!
 contribute-more = მზად ხართ შეასრულოთ კიდევ { $count }?
 record-cta = ჩაწერის დაწყება
 record-platform-not-supported = სამწუხაროდ, თქვენი სისტემა ამჟამად არაა მხარდაჭერილი.
@@ -1017,7 +1017,7 @@ daily-goal = ყოველდღიური მიზანი
 weekly-goal = ყოველკვირეული მიზანი
 easy-difficulty = ადვილი
 average-difficulty = საშუალო
-difficult-difficulty = რთული
+difficult-difficulty = ძნელი
 pro-difficulty = გამოცდილი
 lose-goal-progress-warning = მიზნის შეცვლით შესაძლოა დაკარგოთ მიმდინარე წინსვლა.
 want-to-continue = გსურთ, განაგრძოთ?
@@ -1166,7 +1166,7 @@ demo-listen-subtitle = მზად ხართ წვლილის შეტ
 ## Demo Dashboard
 
 demo-dashboard-card-header = პირადი მაჩვენებლების გვერდი, გამცნობთ საკუთარ ან საერთო წინსვლას.
-demo-dashboard-card-body = ყველა შემოწირული და შემოწმებული ხმოვანი ჩანაწერი, აღირიცხება მაჩვენებლების გვერდზე, წინსვლის სახით თითოეული ენისთვის, რომლისთვისაც წვლილი შეგაქვთ. დიახ, წვლილის შეტანა შეგიძლიათ ერთზე მეტი ენისთვის!<br/><br/> მაჩვენებლების გვერდზე, თვალი ადევნეთ თქვენს სტატისტიკას, შეადარეთ თქვენი საქმიანობა ერთობის დანარჩენი წევრებისას და მიუთითეთ შემოწირულობის სამიზნე რაოდენობა, თითოეული დღისთვის ან კვირისთვის.
+demo-dashboard-card-body = ყველა შემოწირული და შემოწმებული ხმოვანი ჩანაწერი აღირიცხება მაჩვენებლების გვერდზე წინსვლის სახით თითოეული ენისთვის, რომლისთვისაც წვლილი შეგაქვთ. დიახ, წვლილის შეტანა შეგიძლიათ ერთზე მეტი ენისთვის!<br/><br/> მაჩვენებლების გვერდზე თვალი ადევნეთ თქვენს სტატისტიკას, შეადარეთ თქვენი საქმიანობა ერთობის დანარჩენი წევრებისას და მიუთითეთ შემოწირულობის სამიზნე რაოდენობა ყოველი დღისთვის ან კვირისთვის.
 
 ## Validation criteria
 
