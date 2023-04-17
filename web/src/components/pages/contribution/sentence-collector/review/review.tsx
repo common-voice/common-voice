@@ -27,9 +27,24 @@ import { useTypedSelector } from '../../../../../stores/tree'
 import { useLocale } from '../../../../locale-helpers'
 import URLS from '../../../../../urls'
 
+import { ReportModal } from '../../report/report'
+import { ReportModalProps } from '../../report/report'
+
 import './review.css'
 
+const reportModalProps = {
+  reasons: [
+    'offensive-language',
+    'grammar-or-spelling',
+    'different-language',
+    'difficult-pronounce',
+  ],
+  kind: 'sentence' as ReportModalProps['kind'],
+  id: 'some-sentence-id',
+}
+
 const Review = () => {
+  const [showReportModal, setShowReportModal] = React.useState(false)
   const [currentLocale] = useLocale()
   const languages = useLanguages()
   const account = useAccount()
@@ -87,6 +102,16 @@ const Review = () => {
     )
   }
 
+  if (showReportModal) {
+    return (
+      <ReportModal
+        onRequestClose={() => setShowReportModal(false)}
+        onSubmitted={() => console.log('skip')}
+        {...reportModalProps}
+      />
+    )
+  }
+
   return (
     <SentenceCollectionWrapper dataTestId="review-page" type="review">
       <div className="cards-and-instruction">
@@ -138,7 +163,7 @@ const Review = () => {
               <span />
             </Localized>
           </LinkButton>
-          <ReportButton />
+          <ReportButton onClick={() => setShowReportModal(true)} />
           <Button rounded outline className="hidden-sm-down shortcuts-button">
             <KeyboardIcon />
           </Button>
