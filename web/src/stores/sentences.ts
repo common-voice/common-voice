@@ -31,6 +31,7 @@ export namespace Sentences {
     REFILL_PENDING_SENTENCES = 'REFILL_PENDING_SENTENCES',
     REFILL_PENDING_SENTENCES_LOADING = 'REFILL_PENDING_SENTENCES_LOADING',
     VOTE_SENTENCE = 'VOTE_SENTENCE',
+    SKIP_SENTENCE = 'SKIP_SENTENCE',
   }
 
   interface RefillAction extends ReduxAction {
@@ -70,6 +71,11 @@ export namespace Sentences {
     sentenceIndex: number
   }
 
+  interface SkipSentence extends ReduxAction {
+    type: ActionType.SKIP_SENTENCE
+    sentenceId: string
+  }
+
   export type Action =
     | RefillAction
     | RefillLoadAction
@@ -79,6 +85,7 @@ export namespace Sentences {
     | RefillPendingSentencesLoadingAction
     | RefillPendingSentencesAction
     | VoteSentence
+    | SkipSentence
 
   export const actions = {
     refill:
@@ -174,6 +181,19 @@ export namespace Sentences {
           sentenceId: sentenceVote.sentence_id,
           isValid: sentenceVote.vote,
           sentenceIndex: sentenceVote.sentenceIndex,
+        })
+      },
+
+    skipSentence:
+      (sentenceId: string) =>
+      async (dispatch: Dispatch<SkipSentence>, getState: () => StateTree) => {
+        const state = getState()
+
+        await state.api.skipSentence(sentenceId)
+
+        dispatch({
+          type: ActionType.SKIP_SENTENCE,
+          sentenceId,
         })
       },
   }
@@ -294,6 +314,20 @@ export namespace Sentences {
             index === action.sentenceIndex
               ? { ...pendingSentence, isValid: action.isValid }
               : pendingSentence
+        )
+
+        return {
+          ...state,
+          [locale]: {
+            ...currentLocaleState,
+            pendingSentences,
+          },
+        }
+      }
+
+      case ActionType.SKIP_SENTENCE: {
+        const pendingSentences = currentLocaleState.pendingSentences.filter(
+          sentence => sentence.sentenceId !== action.sentenceId
         )
 
         return {

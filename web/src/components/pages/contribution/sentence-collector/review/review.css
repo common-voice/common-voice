@@ -122,7 +122,7 @@
         align-items: center;
         width: 80%;
 
-        & .primary-buttons {
+        & .vote-buttons {
             display: flex;
             margin: 0 auto;
             width: fit-content;
@@ -149,15 +149,33 @@
                 svg {
                     margin-right: 12px;
                 }
+
+                & {
+                    transition: all var(--transition-duration) linear;
+                }
             }
 
             & .yes-button {
                 box-shadow: 0px 4px 10px rgba(89, 203, 183, 0.3);
+
+                &:hover,
+                &:active {
+                    background: var(--valid-green);
+                    box-shadow: var(--vote-button-box-shadow)
+                        color-mod(var(--valid-green) alpha(70%));
+                }
             }
 
             & .no-button {
                 box-shadow: 0px 4px 10px rgba(255, 79, 94, 0.3);
                 margin-right: 0;
+
+                &:hover,
+                &:active {
+                    background: var(--red);
+                    box-shadow: var(--vote-button-box-shadow)
+                        color-mod(var(--red) alpha(60%));
+                }
             }
 
             & .skip-button {

@@ -1721,3 +1721,5 @@ sc-review-instruction-first-part = Check
 sc-review-instruction-second-part = is this a linguistically correct sentence?
 sc-review-rules-title = Does the sentence meet the guidelines?
 sc-review-empty-state = There are currently no sentences to review in this language.
+report-sc-different-language = Different language
+report-sc-different-language-detail = It is written in a language different than what I’m reviewing.

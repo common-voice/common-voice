@@ -1,5 +1,10 @@
 import * as React from 'react'
-import { Localized } from '@fluent/react'
+import {
+  Localized,
+  WithLocalizationProps,
+  withLocalization,
+} from '@fluent/react'
+import { useDispatch } from 'react-redux'
 
 import {
   KeyboardIcon,
@@ -16,6 +21,8 @@ import { Rules } from '../write/sentence-input-and-rules/rules'
 import { ReportButton } from '../../report/report'
 import ReviewEmptyState from './review-empty-state'
 import { Spinner } from '../../../../ui/ui'
+import { ReportModal } from '../../report/report'
+import ReviewShortcutsModal from './review-shortcuts-modal'
 
 import {
   useAccount,
@@ -26,28 +33,19 @@ import { Sentences } from '../../../../../stores/sentences'
 import { useTypedSelector } from '../../../../../stores/tree'
 import { useLocale } from '../../../../locale-helpers'
 import URLS from '../../../../../urls'
+import { Notifications } from '../../../../../stores/notifications'
 
-import { ReportModal } from '../../report/report'
 import { ReportModalProps } from '../../report/report'
 
 import './review.css'
-import ReviewShortcutsModal from './review-shortcuts-modal'
-import reviewShortCuts from './review-shortcuts'
 
-const reportModalProps = {
-  reasons: [
-    'offensive-language',
-    'grammar-or-spelling',
-    'different-language',
-    'difficult-pronounce',
-  ],
-  kind: 'sentence' as ReportModalProps['kind'],
-  id: 'some-sentence-id',
-}
+type Props = WithLocalizationProps
 
-const Review = () => {
+const Review: React.FC<Props> = ({ getString }) => {
   const [showReportModal, setShowReportModal] = React.useState(false)
   const [showShortcutsModal, setShowShortcutsModal] = React.useState(false)
+
+  const dispatch = useDispatch()
 
   const [currentLocale] = useLocale()
   const languages = useLanguages()
@@ -69,6 +67,7 @@ const Review = () => {
     Sentences.actions.refillPendingSentences
   )
   const voteSentence = useAction(Sentences.actions.voteSentence)
+  const skipSentence = useAction(Sentences.actions.skipSentence)
 
   const handleFetch = () => {
     try {
@@ -77,18 +76,6 @@ const Review = () => {
       console.error({ error })
     }
   }
-
-  const handleKeyPress = React.useCallback((evt: KeyboardEvent) => {
-    if (
-      evt.ctrlKey ||
-      evt.altKey ||
-      evt.shiftKey ||
-      evt.metaKey ||
-      showReportModal
-    ) {
-      return
-    }
-  }, [])
 
   const handleVoteYes = () => {
     voteSentence({
@@ -107,11 +94,69 @@ const Review = () => {
   }
 
   const handleSkip = () => {
-    console.log('kdkdk')
+    const sentenceId =
+      pendingSentencesSubmissions[activeSentenceIndex].sentenceId
+
+    skipSentence(sentenceId)
   }
+
+  const reviewShortCuts = [
+    {
+      key: 'sc-review-form-button-approve-shortcut',
+      label: 'vote-yes',
+      action: () => {
+        handleVoteYes()
+        dispatch(
+          Notifications.actions.addPill(getString('vote-yes'), 'success')
+        )
+      },
+    },
+    {
+      key: 'sc-review-form-button-reject-shortcut',
+      label: 'vote-no',
+      action: () => {
+        handleVoteNo()
+        dispatch(Notifications.actions.addPill(getString('vote-no'), 'success'))
+      },
+    },
+    {
+      key: 'sc-review-form-button-skip-shortcut',
+      label: 'sc-review-form-button-skip',
+      action: () => {
+        handleSkip()
+        dispatch(
+          Notifications.actions.addPill(
+            getString('sc-review-form-button-skip'),
+            'success'
+          )
+        )
+      },
+    },
+  ]
 
   const handleToggleShortcutsModal = () => {
     setShowShortcutsModal(!showShortcutsModal)
+  }
+
+  const handleKeyDown = (evt: KeyboardEvent) => {
+    if (
+      evt.ctrlKey ||
+      evt.altKey ||
+      evt.shiftKey ||
+      evt.metaKey ||
+      showReportModal
+    ) {
+      return
+    }
+
+    const shortcut = reviewShortCuts.find(
+      ({ key }) => getString(key).toLowerCase() === evt.key
+    )
+
+    if (!shortcut) return
+
+    shortcut.action()
+    evt.preventDefault()
   }
 
   const isLoading = sentences[currentLocale]?.isLoadingPendingSentences
@@ -119,18 +164,30 @@ const Review = () => {
   const noPendingSentences =
     !isLoading && pendingSentencesSubmissions.length === 0
 
+  const reportModalProps = {
+    reasons: [
+      'offensive-language',
+      'grammar-or-spelling',
+      'sc-different-language',
+      'difficult-pronounce',
+    ],
+    kind: 'sentence' as ReportModalProps['kind'],
+    id: pendingSentencesSubmissions[activeSentenceIndex]?.sentenceId,
+  }
+
   React.useEffect(() => {
     handleFetch()
   }, [])
 
   React.useEffect(() => {
-    document.addEventListener('keydown', handleKeyPress)
+    document.addEventListener('keydown', handleKeyDown)
 
     return () => {
-      document.removeEventListener('keydown', handleKeyPress)
+      document.removeEventListener('keydown', handleKeyDown)
     }
-  }, [])
+  }, [handleKeyDown])
 
+  // TODO: check if we set the account in local storage and check
   if (!account) {
     try {
       sessionStorage.setItem('redirectURL', location.pathname)
@@ -166,7 +223,7 @@ const Review = () => {
       {showReportModal && (
         <ReportModal
           onRequestClose={() => setShowReportModal(false)}
-          onSubmitted={() => console.log('skip')}
+          onSubmitted={handleSkip}
           {...reportModalProps}
         />
       )}
@@ -197,7 +254,7 @@ const Review = () => {
         </div>
       </div>
       <div className="waves">
-        <div className="primary-buttons">
+        <div className="vote-buttons">
           <VoteButton
             kind="yes"
             className="yes-button"
@@ -239,4 +296,4 @@ const Review = () => {
   )
 }
 
-export default Review
+export default withLocalization(Review)
