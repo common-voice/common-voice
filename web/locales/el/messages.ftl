@@ -1564,6 +1564,7 @@ first-cta-subtitle-text = Θα θέλατε να μοιραστείτε πληρ
 why-donate = Γιατί ρωτάτε;
 add-information-button = Προσθήκη πληροφοριών
 create-profile-text = Θέλετε να αποθηκεύσετε τις πληροφορίες σας; <createProfile>Δημιουργήστε ένα προφίλ</createProfile>
+thanks-for-voice-toast = Σας ευχαριστούμε για τις πληροφορίες της ομιλίας σας
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = Σας ευχαριστούμε που συνεισφέρετε τη φωνή σας!
 already-have-an-account = Έχετε ήδη λογαριασμό; <login>Σύνδεση</login>
