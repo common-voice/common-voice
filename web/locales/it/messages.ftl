@@ -1574,3 +1574,5 @@ background-voices = Voci di sottofondo
 volume = Volume
 just-unsure = Hai ancora dei dubbi?
 example = Esempio
+varying-pronunciations-explanation-1 = Accogliamo di buon grado accenti differenti! Procedi con cautela prima di rifiutare una registrazione in cui, a tuo avviso, il lettore ha sbagliato la pronuncia di una parola, ha posto male l’accento o ha apparentemente ignorato la punteggiatura. Nel mondo, infatti, è in uso un’ampia varietà di pronunce e potresti non aver mai avuto l’occasione di ascoltarne alcune nella tua zona. Prevedi un certo margine di elasticità come segno di apprezzamento per le persone che parlano in modo diverso dal tuo.
+varying-pronunciations-explanation-2 = Se però credi che il lettore non conoscesse quella parola e semplicemente la sua ipotesi sulla pronuncia non sia corretta, rifiuta la registrazione. Se non sei sicuro, utilizza il pulsante Salta.
