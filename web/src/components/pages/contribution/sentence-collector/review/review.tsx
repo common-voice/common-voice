@@ -187,7 +187,6 @@ const Review: React.FC<Props> = ({ getString }) => {
     }
   }, [handleKeyDown])
 
-  // TODO: check if we set the account in local storage and check
   if (!account) {
     try {
       sessionStorage.setItem('redirectURL', location.pathname)
