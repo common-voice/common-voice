@@ -74,6 +74,7 @@ Dit gaan goed, dankie.
 Dit het die hele dag gereën
 Dit is die winterwind wat waai.
 Dit is ’n pragtige stad
+Dit reën nou al ’n uur
 Dit staan soos ’n paal bo water
 Dit was baie lekker
 Dit was bewolk en koud
@@ -103,6 +104,7 @@ Ek gaan volgende week op vakansie
 Ek geniet dit om Italië te besoek
 Ek glo aan 'n heilige, algemene, Christelike kerk
 Ek glo in die Heilige Gees.
+Ek haat my werk.
 Ek het Italiaanse familie
 Ek het Italiaanse vriende
 Ek het baie gereis.
@@ -112,7 +114,10 @@ Ek het drie jaar gelede na Italië gegaan
 Ek het elke dag met my hond gaan stap
 Ek het gaan inkopies doen
 Ek het gistermiddag televisie gekyk
+Ek het heeldag televisie gekyk
+Ek het hier vir ’n lang tyd gebly
 Ek het in Londen gebly vir ’n jaar
+Ek het in Parys gebly toe ek elf jaar oud was
 Ek het in die kantoor gewerk
 Ek het inkopies gaan doen om kos te koop
 Ek het laas jaar na die strand gegaan
@@ -123,10 +128,12 @@ Ek het myself wit geskrik.
 Ek het na die bioskoop gegaan
 Ek het na die kroeg toe gegaan
 Ek het na musiek geluister
+Ek het nie baie vriende nie
 Ek het nie verlede jaar met vakansie gegaan nie
 Ek het pas ’n nuwe rekenaar gekoop
 Ek het regoor die wêreld lande besoek.
 Ek het saam met vriende uitgegaan
+Ek het sedert Januarie in Rome gebly
 Ek het ses maande terug Afrikaans begin leer
 Ek het tien jaar terug in Londen gebly
 Ek het tuis by my familie gebly
@@ -161,6 +168,7 @@ Ek hou van ’n man wat sy man kan staan.
 Ek is Engels
 Ek is afgetree
 Ek is baie besig
+Ek is baie sosiaal
 Ek is besig om middagete te maak
 Ek is besig. Ek moet werk
 Ek is by die werk
@@ -188,10 +196,12 @@ Ek ken ’n paar woorde Russies
 Ek kou immers my potlood.
 Ek kyk soms saans televisie
 Ek kyk soms televisie
+Ek kyk te veel televisie
 Ek kyk televisie
 Ek leer nou Afrikaans vir ’n jaar
 Ek lees
 Ek lees dikwels koerant
+Ek lees elke dag die koerant
 Ek luister na die nuus
 Ek luister na die radio
 Ek luister na musiek
@@ -201,6 +211,7 @@ Ek praat nie Frans nie
 Ek praat van die donker dae.
 Ek stap werk toe
 Ek stel belang in tale
+Ek verkies om tuis te bly
 Ek verlang reeds na die huis.
 Ek verstaan
 Ek verstaan nie
@@ -217,6 +228,7 @@ Ek werk in ’n restaurant
 Ek werk vanaf my huis
 Ek wil Italiaans leer
 Ek wil Pole besoek
+Ek wil ’n nuwe werk kry
 Ek woon al my lewe lank in Stellenbosch.
 Ek word Mary genoem
 Elke haan is koning op sy eie mishoop
@@ -230,6 +242,7 @@ En ’n wil wat so vas soos ’n klipsteen staan!
 Erfgeld is swerfgeld
 Familie van Adam se kant af
 Flikkers gooi by ’n meisie
+Gaan jy baie uit?
 Gee ’n man die pinkie, dan vat hy die hele hand
 Geen kat se kans hê nie
 Geen rook sonder vuur nie
@@ -277,11 +290,13 @@ Hy draai vanwaar die wind kom en hy kom klaar.
 Hy druk die skerpioen met 'n vuur stomp, sonder erg, dood.
 Hy het Engels vir ’n jaar studeer
 Hy het van Koerland se vleis geëet
+Hy het vir tien jaar in ’n bank gewerk
 Hy is agtien
 Hy is nie so groen dat ’n koei hom sal vreet nie
 Hy klap hul met die hand dood.
 Hy sleep die sug van eeue mee, uit dieptes van die diepe see.
 Hy verander homself meteens in ’n Springbok.
+Hy werk in ’n bank
 Iemand die ore van die kop praat
 Iemand heuning om die mond smeer
 Iemand iets hand en mond belowe
@@ -348,8 +363,10 @@ My ouers bly in Parys
 My ouers is afgetree
 My suster het my Dinsdag besoek
 My vriende het Maandag gearriveer
+My vriende het ses jaar gelede na Australië getrek
 Môre is Maandag
 Môre is Saterdag
+Môre is Woensdag
 Na die ete word die Boeke gevat, en daarna gaan ons bed-toe
 Nee, dis hulle geaardheid, en hulle is tevrede daarmee.
 Nes ’n Skerpioen uit ’n dik stomp kruip, dan gryp hy 'n vuur stomp.
@@ -396,10 +413,12 @@ So min van iets weet as ’n kat van saffraan
 Sommige vrouens is net sulke uitstekende storievertellers as hulle mans.
 Soos water op ’n eend se rug
 Sy het baie te vertel wat haar ma, ouma, en tantes haar vertel het.
+Sy hou van haar werk
 Sy is op skool
 Sy is vyftien
 Sy oë traan nie van rook nie.
 Sy was baie in haar skik met dié nuwe wapenrusting
+Sy werk in ’n hotel.
 Sê julle vir hom die tabak groei nie op my rug nie.
 Ter viering van die heuglike geleentheid reël hulle toe `n glansryke fees
 Tienuur pas my
@@ -412,6 +431,7 @@ Van ’n padda vere probeer pluk
 Vandag het ek bioskoop toe gegaan
 Vandag is Dinsdag
 Vandag is Donderdag
+Vandag is Maandag.
 Vandag is die weer sleg
 Vanmiddag gaan ek inkopies doen
 Vas soos ’n berg van grou graniet op vaderlands-grond.
@@ -450,6 +470,7 @@ Wat het jy vandag gedoen?
 Wat is jou beroep?
 Wat is jou naam?
 Wat se kleur is dit?
+Watter dag is vandag?
 Watter tyd pas jou?
 Weet jy hoe om te tik?
 Wel, ek sê: Gevaarlik of nie gevaarlik nie, traak my of traak my nie.
