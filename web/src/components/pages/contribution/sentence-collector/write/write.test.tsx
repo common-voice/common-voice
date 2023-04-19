@@ -7,7 +7,7 @@ import Write from './write'
 
 const useActionMock = jest.fn()
 
-jest.mock('../../../../hooks/store-hooks', () => ({
+jest.mock('../../../../../hooks/store-hooks', () => ({
   useLanguages: () => {
     return {
       localeNameAndIDMapping: [
