@@ -18,6 +18,8 @@ banner-error-slow-1 = Δυστυχώς, το Common Voice καθυστερεί. 
 banner-error-slow-2 = Παρατηρούμε πολλή επισκεψιμότητα και διερευνούμε τα ζητήματα αυτήν τη στιγμή.
 banner-error-slow-link = Σελίδα κατάστασης
 error-something-went-wrong = Δυστυχώς, κάτι πήγε στραβά
+error-clip-upload = Η μεταφόρτωση του κλιπ συνεχίζει να αποτυγχάνει, θέλετε να συνεχιστεί η προσπάθεια;
+error-clip-upload-server = Η μεταφόρτωση αυτού του κλιπ συνεχίζει να αποτυγχάνει στον διακομιστή. Κάντε ανανέωση της σελίδας ή δοκιμάστε ξανά αργότερα.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -142,6 +144,7 @@ nl = Ολλανδικά
 nn-NO = Νορβηγικά (Nynorsk)
 nr = IsiNdebele (Νότια)
 nso = Βόρεια Σότο
+ny = Νιάντζα
 nyn = Νιανκόλε
 oc = Οξιτανικά
 om = Αφάν Ορόμο
@@ -1555,10 +1558,13 @@ partnerships-governments-header = Kυβερνήσεις
 partnerships-academia-header = Πανεπιστήμια, ακαδημαϊκοί και ερευνητές
 partnerships-small-business-header = Μικρές επιχειρήσεις, όπως νεοφυείς επιχειρήσεις τεχνολογίας και τεχνητής νοημοσύνης
 partnerships-our-partners = Οι συνεργάτες μας
+# FIRST POST SUBMISSION CTA
+first-cta-header-text = Σας ευχαριστούμε για τη δωρεά των φωνητικών σας αρχείων!
 first-cta-subtitle-text = Θα θέλατε να μοιραστείτε πληροφορίες σχετικά με τον τρόπο ομιλίας σας;
 why-donate = Γιατί ρωτάτε;
 add-information-button = Προσθήκη πληροφοριών
 create-profile-text = Θέλετε να αποθηκεύσετε τις πληροφορίες σας; <createProfile>Δημιουργήστε ένα προφίλ</createProfile>
+thanks-for-voice-toast = Σας ευχαριστούμε για τις πληροφορίες της ομιλίας σας
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = Σας ευχαριστούμε που συνεισφέρετε τη φωνή σας!
 already-have-an-account = Έχετε ήδη λογαριασμό; <login>Σύνδεση</login>

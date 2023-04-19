@@ -1126,5 +1126,6 @@ sc-settings-title = Innstillingar
 
 partnerships-get-in-touch = Kontakt oss
 add-information-button = Legg til informasjon
+already-have-an-account = Har du allereie ein konto? <login>Logg inn</login>
 create-profile-button = Opprett ein profil
 sentence-collection = Setningsinnsamling

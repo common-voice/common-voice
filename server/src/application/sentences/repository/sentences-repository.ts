@@ -126,12 +126,10 @@ const findSentencesForReview =
             sentences.is_validated = FALSE         
             AND sentences.locale_id = ?
             AND NOT EXISTS (
-              SELECT *
-              FROM sentence_votes
-              LEFT JOIN skipped_sentences ON skipped_sentences.sentence_id=sentences.id
-              WHERE 
-                sentences.id = sentence_votes.sentence_id
-                AND (sentence_votes.client_id = ? OR skipped_sentences.client_id = ?)
+              SELECT 1 FROM skipped_sentences ss WHERE sentences.id = ss.sentence_id AND ss.client_id = ?
+            )
+            AND NOT EXISTS (
+              SELECT 1 FROM sentence_votes sv WHERE sentences.id = sv.sentence_id AND sv.client_id = ?
             )
           GROUP BY sentences.id
           HAVING
