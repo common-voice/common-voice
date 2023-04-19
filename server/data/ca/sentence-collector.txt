@@ -5968,10 +5968,12 @@ Dema aniré a Breda
 Dema aniré a Brunyola i Sant Martí Sapresa
 Dema aniré a Bràfim
 Dema aniré a Bàscara
+Dema aniré a El Bruc
 Dema aniré a El Soleràs
 Dema aniré a El Vendrell
 Dema aniré a Els Alamús
 Dema aniré a Els Torms
+Dema aniré a Es Bòrdes
 Dema aniré a La Baronia de Rialb
 Dema aniré a La Bisbal d'Empordà
 Dema aniré a La Bisbal de Falset
@@ -5998,6 +6000,34 @@ Dema aniré a Les Borges Blanques
 Dema aniré a Les Borges del Camp
 Dema aniré a Les Valls d'Aguilar
 Dema aniré a Les Valls de Valira
+Dema aniré a Sant Miquel de Campmajor
+Dema aniré a Sant Mori
+Dema aniré a Sant Pau de Segúries
+Dema aniré a Sant Pere Pescador
+Dema aniré a Sant Pere Sallavinera
+Dema aniré a Sant Pere de Ribes
+Dema aniré a Sant Pere de Riudebitlles
+Dema aniré a Sant Pere de Torelló
+Dema aniré a Sant Pere de Vilamajor
+Dema aniré a Sant Pol de Mar
+Dema aniré a Sant Quintí de Mediona
+Dema aniré a Sant Quirze de Besora
+Dema aniré a Sant Sadurní d'Anoia
+Dema aniré a Sant Sadurní d'Osormort
+Dema aniré a Sant Salvador de Guardiola
+Dema aniré a Sant Vicenç de Castellet
+Dema aniré a Sant Vicenç de Montalt
+Dema aniré a Sant Vicenç de Torelló
+Dema aniré a Sant Vicenç dels Horts
+Dema aniré a Santa Bàrbara
+Dema aniré a Santa Cecília de Voltregà
+Dema aniré a Santa Coloma de Cervelló
+Dema aniré a Santa Coloma de Farners
+Dema aniré a Santa Coloma de Gramenet
+Dema aniré a Santa Coloma de Queralt
+Dema aniré a Santa Cristina d'Aro
+Dema aniré a Santa Eugènia de Berga
+Dema aniré a Santa Eulàlia de Riuprimer
 Dema aniré a Santa Eulàlia de Ronçana
 Dema aniré a Santa Fe del Penedès
 Dema aniré a Santa Llogaia d'Àlguema
@@ -6154,6 +6184,7 @@ Dema aniré a Vilanova d'Escornalbou
 Dema aniré a Vilanova de Bellpuig
 Dema aniré a Vilanova de Meià
 Dema aniré a Vilanova de Prades
+Dema aniré a Vilanova de Sau
 Dema aniré a Vilanova de Segrià
 Dema aniré a Vilanova de l'Aguda
 Dema aniré a Vilanova de la Barca
