@@ -1,7 +1,7 @@
 @import url('../../../../media.css');
 
 .review-wrapper {
-    @media (--sm-down) {
+    @media (--md-down) {
         padding: 20px;
     }
 

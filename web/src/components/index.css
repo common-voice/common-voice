@@ -62,7 +62,7 @@ body,
     max-height: 100%;
 }
 
-#main.write {
+#main.write, #main.review {
     @media (--md-down) {
         height: auto;
     }
@@ -206,6 +206,11 @@ button {
         @media (--sm-down) {
             min-height: auto;
         }
+    }
+
+    &.write {
+        overflow: scroll;
+        height: 100%;
     }
 }
 

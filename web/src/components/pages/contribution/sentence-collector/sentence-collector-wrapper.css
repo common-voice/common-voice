@@ -9,7 +9,10 @@
             var(--white) 20%,
             var(--desert-storm)
         );
-        overflow: hidden;
+        
+        @media (--xl-up) {
+            overflow: auto;
+        }
 
         & .write,.review {
             margin: 0 auto;
@@ -26,10 +29,15 @@
             }
         }
 
+        & .review {
+            .instruction {
+                width: 45%;
+            }
+        }
+
         & .instruction {
             display: flex;
-            width: 55%;
-            margin: 2vh auto 32px;
+            margin: 2vh auto;
     
             svg {
                 margin: 0 8px;
@@ -45,6 +53,10 @@
                 margin-bottom: 16px;
             }
         }
+    }
+
+    & .write-wrapper {
+        height: 80%;
     }
 
     & .edit-icon {

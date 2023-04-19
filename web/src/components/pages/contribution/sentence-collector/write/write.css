@@ -9,9 +9,7 @@
     }
 
     & .subtitle {
-        width: fit-content;
         margin-bottom: 20px;
-        width: 75%;
         font-size: var(--font-size-sm);
         font-style: italic;
         color: var(--near-black);

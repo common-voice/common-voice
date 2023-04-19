@@ -42,7 +42,7 @@ export const SentenceInputAndRules: React.FC<Props> = ({
           <span />
         </Localized>
         <EditIcon />
-        <Localized id="write-page-instruction-public-domain">
+        <Localized id="write-instruction-second-part">
           <span />
         </Localized>
       </div>
