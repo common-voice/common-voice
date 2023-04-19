@@ -20,7 +20,7 @@ jest.mock('../../../../../hooks/store-hooks', () => ({
   useAction: () => useActionMock,
 }))
 
-jest.mock('../../../locale-helpers', () => ({
+jest.mock('../../../../locale-helpers', () => ({
   useLocale: () => {
     const mockLocale = 'mock-locale-1'
     return [mockLocale]
