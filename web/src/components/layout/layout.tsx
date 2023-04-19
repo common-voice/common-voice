@@ -165,7 +165,8 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
       `/${locale}${URLS.SPEAK}`,
       `/${locale}${URLS.LISTEN}`,
       `/${locale}${URLS.WRITE}`,
-    ];
+      `/${locale}${URLS.REVIEW}`,
+    ]
 
     const isBuildingProfile = location.pathname.includes(URLS.PROFILE_INFO);
     const isDemoMode = location.pathname.includes(URLS.DEMO);
@@ -196,7 +197,7 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
         {showWelcomeModal && !alreadyEnrolled && (
           <WelcomeModal
             onRequestClose={() => {
-              this.setState({ showWelcomeModal: false });
+              this.setState({ showWelcomeModal: false })
             }}
             challengeToken={challengeToken}
             teamToken={challengeTeamToken}
@@ -268,6 +269,7 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
                 handleSecondaryNavMobileMenuClick
               }
               isDemoMode={isDemoMode}
+              isLoggedIn={Boolean(user.account)}
             />
           )}
         </div>
@@ -321,7 +323,7 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
           </Nav>
         </div>
       </div>
-    );
+    )
   }
 }
 

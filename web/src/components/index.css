@@ -158,13 +158,21 @@ button {
 
     &.speak,
     &.listen,
-    &.write {
+    &.write,
+    &.review {
         overflow: hidden;
 
         & header {
             @media (--lg-down) {
                 display: none;
             }
+        }
+    }
+
+    &.write,
+    &.review {
+        @media (--md-down) {
+            overflow: auto;
         }
     }
 }
@@ -193,9 +201,11 @@ button {
     width: 100%;
     min-height: 100%;
 
-    &.write {
-        overflow: scroll;
-        height: 100%;
+    &.write,
+    &.review {
+        @media (--sm-down) {
+            min-height: auto;
+        }
     }
 }
 

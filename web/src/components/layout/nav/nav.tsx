@@ -42,11 +42,11 @@ const Nav: React.FC<NavProps> = ({
   const [showMenu, setShowMenu] = React.useState(false)
   const [showMobileMenu, setShowMobileMenu] = React.useState(false)
 
+  const account = useAccount()
+
   const toggleMobileMenuVisible = () => {
     setShowMobileMenu(!showMobileMenu)
   }
-
-  const account = useAccount()
 
   return (
     <nav {...props} className="nav-list">
@@ -58,7 +58,7 @@ const Nav: React.FC<NavProps> = ({
             showMobileMenu={showMobileMenu}
             toggleMobileMenuVisible={toggleMobileMenuVisible}
             isContributionPageActive={isContributionPageActive}
-            isLoggedIn={Boolean(account)}
+            isUserLoggedIn={Boolean(account)}
           />
         </ContributableLocaleLock>
         <span className="divider" />

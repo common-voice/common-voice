@@ -3,21 +3,24 @@ import { Localized } from '@fluent/react';
 import classNames from 'classnames';
 
 import { LocaleLink } from '../../locale-helpers';
-import { EditIcon, ListenIcon, MicIcon } from '../../ui/icons';
-import URLS from '../../../urls';
+import { EditIcon, ListenIcon, MicIcon, ReviewIcon } from '../../ui/icons'
+import URLS from '../../../urls'
 
 type ContributeMenuContentProps = {
-  className?: string;
-  pathname?: string;
-};
+  className?: string
+  pathname?: string
+  isUserLoggedIn: boolean
+}
 
 export const ContributeMenuContent: React.FC<ContributeMenuContentProps> = ({
   className,
   pathname = '',
+  isUserLoggedIn,
 }) => {
-  const speakActive = pathname.includes(URLS.SPEAK);
-  const listenActive = pathname.includes(URLS.LISTEN);
-  const writeActive = pathname.includes(URLS.WRITE);
+  const speakActive = pathname.includes(URLS.SPEAK)
+  const listenActive = pathname.includes(URLS.LISTEN)
+  const writeActive = pathname.includes(URLS.WRITE)
+  const reviewActive = pathname.includes(URLS.REVIEW)
 
   return (
     <div className={className}>
@@ -64,8 +67,20 @@ export const ContributeMenuContent: React.FC<ContributeMenuContentProps> = ({
             </LocaleLink>
             {writeActive && <span className="border" />}
           </li>
+          {isUserLoggedIn && (
+            <li
+              className={classNames('review', {
+                'selected-option': reviewActive,
+              })}>
+              <ReviewIcon />
+              <LocaleLink to={URLS.REVIEW} className="contribute-link">
+                <Localized id="review" />
+              </LocaleLink>
+              {reviewActive && <span className="border" />}
+            </li>
+          )}
         </ul>
       </div>
     </div>
-  );
-};
+  )
+}

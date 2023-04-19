@@ -13,7 +13,7 @@ describe('Contribute Menu Test', () => {
         showMobileMenu={false}
         toggleMobileMenuVisible={jest.fn()}
         isContributionPageActive={false}
-        isLoggedIn
+        isUserLoggedIn
       />
     )
 
@@ -33,7 +33,7 @@ describe('Contribute Menu Test', () => {
         showMobileMenu={false}
         toggleMobileMenuVisible={jest.fn()}
         isContributionPageActive={false}
-        isLoggedIn
+        isUserLoggedIn
       />
     )
 
@@ -51,7 +51,7 @@ describe('Contribute Menu Test', () => {
         showMobileMenu={false}
         toggleMobileMenuVisible={jest.fn()}
         isContributionPageActive
-        isLoggedIn
+        isUserLoggedIn
       />
     )
 
