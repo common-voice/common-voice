@@ -73,8 +73,13 @@ const Review: React.FC<Props> = ({ getString }) => {
     try {
       fetchPendingSentences(localeId)
     } catch (error) {
-      // TODO: show notification
-      console.error({ error })
+      dispatch(
+        Notifications.actions.addPill(
+          getString('sentences-fetch-error'),
+          'error'
+        )
+      )
+      console.error(error)
     }
   }
 
