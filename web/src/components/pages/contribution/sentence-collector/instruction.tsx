@@ -1,5 +1,5 @@
 import { Localized } from '@fluent/react'
-import React from 'react'
+import * as React from 'react'
 
 type Props = {
   firstPartId: string

@@ -1,6 +1,7 @@
 import * as React from 'react'
-import { renderWithProviders } from '../../../../../../test/render-with-providers'
 import { fireEvent, screen, waitFor } from '@testing-library/react'
+
+import { renderWithProviders } from '../../../../../../test/render-with-providers'
 
 import Write from './write'
 

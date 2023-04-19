@@ -96,3 +96,7 @@ export function useLocalStorageState<T>(
 export function useLanguages() {
   return useTypedSelector(({ languages}) => languages);
 }
+
+export function useSentences() {
+  return useTypedSelector(({ sentences }) => sentences)
+}

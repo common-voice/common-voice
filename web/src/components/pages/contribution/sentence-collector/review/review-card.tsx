@@ -1,6 +1,6 @@
 import { Localized } from '@fluent/react'
 import classNames from 'classnames'
-import React from 'react'
+import * as React from 'react'
 
 type Props = {
   sentence: string
@@ -29,7 +29,8 @@ const ReviewCard: React.FC<Props> = ({
         }%)`,
       ].join(' '),
       opacity: index < activeSentenceIndex ? 0 : 1,
-    }}>
+    }}
+    data-testid="review-card">
     <p className="sentence">{sentence}</p>
     <Localized id="sc-my-source" vars={{ source }}>
       <p className="source" />

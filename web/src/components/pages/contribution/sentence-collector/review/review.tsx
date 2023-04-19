@@ -28,9 +28,9 @@ import {
   useAccount,
   useAction,
   useLanguages,
+  useSentences,
 } from '../../../../../hooks/store-hooks'
 import { Sentences } from '../../../../../stores/sentences'
-import { useTypedSelector } from '../../../../../stores/tree'
 import { useLocale } from '../../../../locale-helpers'
 import URLS from '../../../../../urls'
 import { Notifications } from '../../../../../stores/notifications'
@@ -50,7 +50,7 @@ const Review: React.FC<Props> = ({ getString }) => {
   const [currentLocale] = useLocale()
   const languages = useLanguages()
   const account = useAccount()
-  const sentences = useTypedSelector(({ sentences }) => sentences)
+  const sentences = useSentences()
 
   const pendingSentencesSubmissions =
     sentences[currentLocale]?.pendingSentences || []
@@ -73,6 +73,7 @@ const Review: React.FC<Props> = ({ getString }) => {
     try {
       fetchPendingSentences(localeId)
     } catch (error) {
+      // TODO: show notification
       console.error({ error })
     }
   }
@@ -258,14 +259,25 @@ const Review: React.FC<Props> = ({ getString }) => {
             kind="yes"
             className="yes-button"
             onClick={handleVoteYes}
+            data-testid="yes-button"
           />
-          <Button outline rounded className="skip-button" onClick={handleSkip}>
+          <Button
+            outline
+            rounded
+            className="skip-button"
+            onClick={handleSkip}
+            data-testid="skip-button">
             <SkipIcon />
             <Localized id="skip">
               <span />
             </Localized>{' '}
           </Button>
-          <VoteButton kind="no" className="no-button" onClick={handleVoteNo} />
+          <VoteButton
+            kind="no"
+            className="no-button"
+            onClick={handleVoteNo}
+            data-testid="no-button"
+          />
         </div>
       </div>
       <div className="buttons">
