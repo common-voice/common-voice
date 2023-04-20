@@ -4,7 +4,7 @@
     @media (--lg-up) {
         width: 350px;
         margin-left: 50px;
-        min-height: 350px;
+        min-height: 320px;
     }
 
 
@@ -89,5 +89,7 @@
 }
 
 .rules.write-rules {
-    height: calc(30vh + 91.5px);
+    @media (--lg-up) {
+        height: calc(30vh + 91.5px);
+    }
 }
