@@ -1585,6 +1585,7 @@ create-profile-button = Emoheñói mba’ete
 img-alt-success-checkmark = marca ojehayhúva
 # GUIDELINES PAGE
 guidelines-header = Ñepytyvõkuaa rapereko
+guidelines-header-subtitle = Eikuaa mba’éichapa eipytyvõ ha emoneĩta ñe’ẽjuaju ha mba’epu mombyky Common Voice mba’ekuaarã atýpe
 voice-collection = Ayvu Ñembyaty
 sentence-collection = Ñe’ẽsyry ñembyaty
 varying-pronunciations = Je’epyre Hekoetáva
