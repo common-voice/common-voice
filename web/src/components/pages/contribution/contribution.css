@@ -221,8 +221,7 @@
     .instruction {
         margin-top: 23px;
         min-height: 23px;
-        font-style: italic;
-        color: var(--near-black);
+        color: var(--dark-grey);
 
         @media (--sm-down) {
             text-align: center;
