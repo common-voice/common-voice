@@ -1364,4 +1364,8 @@ sc-validation-no-abbreviations = Җөмләдә кыскартылмалар б�
 # [/SentenceCollector]
 
 partnerships-our-partners = Партнёрларыбыз
+thanks-for-voice-toast = Тавыш мәгълүматыгыз өчен рәхмәт
+thanks-for-voice-toast-error = Тавыш мәгълүматыгызны җибәрүдә хата килеп чыкты
+# SECOND POST SUBMISSION CTA
+second-cta-header-text = Тавышыгызны иганә иткәнегез өчен рәхмәт!
 sentence-collection = Җөмләләр тупланмасы
