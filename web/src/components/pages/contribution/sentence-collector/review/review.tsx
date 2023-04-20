@@ -4,6 +4,7 @@ import {
   WithLocalizationProps,
   withLocalization,
 } from '@fluent/react'
+import { Tooltip } from 'react-tippy'
 import { useDispatch } from 'react-redux'
 
 import {
@@ -299,13 +300,15 @@ const Review: React.FC<Props> = ({ getString }) => {
             </Localized>
           </LinkButton>
           <ReportButton onClick={() => setShowReportModal(true)} />
-          <Button
-            rounded
-            outline
-            className="hidden-sm-down shortcuts-button"
-            onClick={handleToggleShortcutsModal}>
-            <KeyboardIcon />
-          </Button>
+          <Tooltip title={getString('shortcuts')} arrow>
+            <Button
+              rounded
+              outline
+              className="hidden-sm-down shortcuts-button"
+              onClick={handleToggleShortcutsModal}>
+              <KeyboardIcon />
+            </Button>
+          </Tooltip>
         </div>
       </div>
     </SentenceCollectionWrapper>
