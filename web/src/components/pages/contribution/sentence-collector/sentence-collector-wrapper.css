@@ -59,6 +59,10 @@
         height: 80%;
     }
 
+    & .review-wrapper {
+        overflow-x: hidden;
+    }
+
     & .edit-icon {
         path {
             fill: var(--blue);
