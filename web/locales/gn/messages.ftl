@@ -1598,6 +1598,7 @@ reader-effects = Moñe’ẽhára Oñandúva
 just-unsure = ¿Nahekorasãi?
 example = Techapyrã
 varying-pronunciations-example = Pe tape nahesakãporãi.
+varying-pronunciations-tip-1 = [Pe inglés Canadá pegua ikatu "route" ombopu "rowt"]-icha
 misreadings-explanation-2 = Jejavy oikovéva apytépe oike:
 misreadings-explanation-4 = Ndaipóri 's' ñe’ẽ pahápe.
 misreadings-explanation-5 = Emoñe’ẽ momichĩmbyre añetehápe oĩ’ỹva ha’éva "We're" pe "We are" rendaguépe, térã juavyháicha.
