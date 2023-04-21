@@ -504,24 +504,32 @@ data-download-yes = ⵢⴰⵀ
 data-download-deny = ⵓⵀⵓ
 data-download-license = ⵜⵓⵔⴰⴳⵜ: <licenseLink>CC-0</licenseLink>
 data-other-goto = ⴷⴷⵓ ⵖⵔ { $name }
+data-other-download = ⴰⴳⵎ ⵉⵙⴼⴽⴰ
 release-version = ⵜⴰⵍⵇⵇⵎⵜ
 dataset-date = ⴰⵙⴰⴽⵓⴷ
 license = ⵜⵓⵔⴰⴳⵜ: <licenseLink>{ $license }</licenseLink>
 review-terms = ⵙ ⵓⵙⵙⵎⵔⵙ ⵏ ⴽⴰⵎⵏⴼⵓⵢⵙ, ⴷⴰ ⴷ ⵜⴻⵜⵜⵎⵙⴰⵙⴰⴷ ⴰⴽⴷ <termsLink>ⵜⴼⴰⴷⵉⵡⵉⵏ</termsLink> ⴷ <privacyLink>ⵜⵎⵏⵏⵉⵜ ⵏ ⵜⵉⵏⵏⵓⵜⵍⴰ</privacyLink> ⵏⵏⵖ
 terms-agree = ⵎⵙⴰⵙⴰⵖ ⴷ
 terms-disagree = ⵓⵔ ⴷ ⵎⵙⴰⵙⴰⵖ
+review-rerecord = ⴰⵍⵙ ⵙⵓⵙⵔ
+review-cancel = ⵙⵔ ⴰⵣⴰⵏ
+review-keep-recordings = ⴰⵊⵊ ⵉⵙⵓⵙⴰⵔ
+review-delete-recordings = ⴽⴽⵙ ⵉⵙⵓⵙⴰⵔ ⵉⵏⵓ
 
 ## Datasets Page
 
 datasets-heading = ⵜⵉⴳⵔⵓⵎⵎⴰⵡⵉⵏ ⵏ ⵉⵙⴼⴽⴰ
 language = ⵜⵓⵜⵍⴰⵢⵜ
+download-dataset-header = ⴰⴳⵎ ⵜⴰⴳⵔⵓⵎⵎⴰ ⵏ ⵉⵙⴼⴽⴰ
 cv-license = ⵜⵓⵔⴰⴳⵜ
+number-of-voices = ⵓⵟⵟⵓⵏ ⵏ ⵉⴳⵕⴹⴰⵏ
 email-to-download = ⵙⵙⴽⵛⵎ ⵉⵎⴰⵢⵍ ⵃⵎⴰ ⴰⴷ ⵜⴰⴳⵎⴷ
 size-gigabyte = GB
 size-megabyte = MB
 confirm-join-mailing-list = ⵅⵙⵖ ⴰⴷ ⵍⴽⵎⵖ ⵜⴰⵍⴳⴰⵎⵜ ⵏ ⵡⴰⵣⴰⵏ ⵏ ⵉⵎⴰⵢⵍⵏ ⵏ ⴽⴰⵎⵏⴼⵓⵢⵙ
 download-language = ⴰⴳⵎ { $language }
 validated-hours = ⵜⵉⵙⵔⴰⴳⵉⵏ ⵣⵔⵢⵏⵉⵏ
+recorded-hours = ⵜⵉⵙⵔⴰⴳⵉⵏ ⵜⵜⵓⵙⵓⵙⵔⵏⵉⵏ
 go-languages-page = ⴷⴷⵓ ⵙ ⵜⴰⵙⵏⴰ ⵏ ⵜⵓⵜⵍⴰⵢⵉⵏ
 more = ⵓⴳⴳⴰⵔ
 close = ⵔⴳⵍ
