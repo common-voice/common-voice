@@ -1690,3 +1690,6 @@ community-announcement-explanation = The guidance below is for the new sentence 
 sc-redirect-page-title = We're making some big changes
 sc-redirect-page-subtitle-1 = The Sentence Collector is moving to the core Common Voice platform. You can now <writeURL>write</writeURL> a sentence or <reviewURL>review</reviewURL> single sentence submissions on Common Voice.
 sc-redirect-page-subtitle-2 = Ask us questions on <matrixLink>Matrix</matrixLink>, <discourseLink>Discourse</discourseLink> or <emailLink>email</emailLink>.
+
+# REMOVE THIS
+guidelines = Guidelines

@@ -466,6 +466,14 @@
                 opacity: 0;
             }
         }
+
+        .extra-buttons {
+            display: flex;
+
+            & .open-report-button {
+                margin-inline-end: 12px;
+            }
+        }
     }
 
     &.submittable,
