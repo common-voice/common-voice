@@ -670,6 +670,9 @@ contribute-voice-collection-nav-header = ⴰⴳⵔⵔⵓ ⵏ ⵉⴳⵕⴹⴰⵏ
 
 ## Reporting
 
+report = ⵎⵍ
+report-title = ⴰⵣⵏ ⵜⴰⵎⵓⵍⵉ
+report-different-language = ⵜⵓⵜⵍⴰⵢⵜ ⵢⴰⴹⵏ
 
 ## Goals
 
