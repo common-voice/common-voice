@@ -10,6 +10,7 @@ submit-form-action = ⴰⵣⵏ
 loading = ⴰⵣⴷⴰⵎ…
 email-opt-in-info = ⵔⵉⵖ ⴰⴷ ⵜⵜⴰⵎⵥⵖ ⵉⵎⴰⵢⵍⵏ ⴰⵎ ⵓⵙⴽⵜⵉ ⵙ ⵉⵡⵜⵜⴰⵙⵏ, ⵉⵙⴷⵖⵉⵜⵏ ⵅⴼ ⵡⴰⵍⴰⵢ ⵉⵏⵓ ⴷ ⵉⵏⵖⵎⵉⵙⵏ ⵅⴼ ⴽⴰⵎⵏⴼⵓⵢⵙ.
 email-opt-in-info-title = ⵍⴽⵎ ⵜⴰⵍⴳⴰⵎⵜ ⵏ ⵡⴰⵣⴰⵏ ⵏ ⵉⵎⴰⵢⵍⵏ ⵏ ⴽⴰⵎⵏⴼⵓⵢⵙ
+email-opt-in-info-sub-with-challenge = ⴰⴷ ⵜⵜⴰⵎⵥⵖ ⵉⵎⴰⵢⵍⵏ ⴰⵎ ⵓⵙⴽⵜⵉ ⵙ ⵉⵏⴰⵥⴰⵕⵏ ⴷ ⵉⵡⵜⵜⴰⵙⵏ, ⵉⵙⴷⵖⵉⵜⵏ ⵏ ⵡⴰⵍⴰⵢ ⴷ ⵉⵏⵖⵎⵉⵙⵏ ⵅⴼ ⴽⴰⵎⵏⴼⵓⵢⵙ.
 email-opt-in-privacy-v2 = ⵙ ⵓⴷⵇⵇⵔ ⵏ ⵡⴰⵎⴰⵥ ⵏ ⵉⵎⴰⵢⵍⵏ, ⴰⵔ ⵜⵙⵙⵉⴽⵉⵣⵎ ⵎⴰⵙ ⵜⵎⵙⴰⵙⴰⵎ ⴰⴽⴷ ⵓⵙⵡⵓⴷⴷⵓ ⵏ ⵎⵓⵣⵉⵍⴰ ⵉ ⵉⵏⵖⵎⵉⵙⵏ ⴰⴷ ⵙ ⵎⴽⴷⴰ ⵉⵜⵜⵓⵙⵙⴼⵔⴰⵏ ⴳ <privacyLink>ⵜⵙⵔⵜⵉⵜ ⵏ ⵜⵉⵏⵏⵓⵜⵍⴰ</privacyLink> ⵏ ⵎⵓⵣⵉⵍⴰ.
 indicates-required = ⵉⴳⵔⴰⵏ ⵜⵜⵓⵕⵛⵎⵏⵉⵏ ⵙ ⵜⵉⵜⵔⵉⵜ (*) ⵇⵇⴰⵏⵏ ⴷ.
 not-available-abbreviation = ⵔ/ⵙ
