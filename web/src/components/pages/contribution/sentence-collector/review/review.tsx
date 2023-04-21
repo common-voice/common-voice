@@ -90,6 +90,8 @@ const Review: React.FC<Props> = ({ getString }) => {
       sentence_id: pendingSentencesSubmissions[activeSentenceIndex].sentenceId,
       sentenceIndex: activeSentenceIndex,
     })
+
+    dispatch(Notifications.actions.addPill(getString('vote-yes'), 'success'))
   }
 
   const handleVoteNo = () => {
@@ -98,6 +100,8 @@ const Review: React.FC<Props> = ({ getString }) => {
       sentence_id: pendingSentencesSubmissions[activeSentenceIndex].sentenceId,
       sentenceIndex: activeSentenceIndex,
     })
+
+    dispatch(Notifications.actions.addPill(getString('vote-no'), 'success'))
   }
 
   const handleSkip = () => {
@@ -105,6 +109,12 @@ const Review: React.FC<Props> = ({ getString }) => {
       pendingSentencesSubmissions[activeSentenceIndex].sentenceId
 
     skipSentence(sentenceId)
+    dispatch(
+      Notifications.actions.addPill(
+        getString('sc-review-form-button-skip'),
+        'success'
+      )
+    )
   }
 
   const reviewShortCuts = [
@@ -113,9 +123,6 @@ const Review: React.FC<Props> = ({ getString }) => {
       label: 'vote-yes',
       action: () => {
         handleVoteYes()
-        dispatch(
-          Notifications.actions.addPill(getString('vote-yes'), 'success')
-        )
       },
     },
     {
@@ -123,7 +130,6 @@ const Review: React.FC<Props> = ({ getString }) => {
       label: 'vote-no',
       action: () => {
         handleVoteNo()
-        dispatch(Notifications.actions.addPill(getString('vote-no'), 'success'))
       },
     },
     {
@@ -131,12 +137,6 @@ const Review: React.FC<Props> = ({ getString }) => {
       label: 'sc-review-form-button-skip',
       action: () => {
         handleSkip()
-        dispatch(
-          Notifications.actions.addPill(
-            getString('sc-review-form-button-skip'),
-            'success'
-          )
-        )
       },
     },
   ]
@@ -304,7 +304,7 @@ const Review: React.FC<Props> = ({ getString }) => {
             <Button
               rounded
               outline
-              className="hidden-sm-down shortcuts-button"
+              className="hidden-md-down shortcuts-button"
               onClick={handleToggleShortcutsModal}>
               <KeyboardIcon />
             </Button>

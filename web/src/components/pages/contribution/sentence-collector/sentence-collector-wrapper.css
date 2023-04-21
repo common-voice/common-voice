@@ -31,7 +31,7 @@
 
         & .review {
             .instruction {
-                width: 45%;
+                width: fit-content;
             }
         }
 

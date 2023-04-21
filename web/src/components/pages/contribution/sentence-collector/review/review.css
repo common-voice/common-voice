@@ -120,7 +120,6 @@
         height: 15px;
         display: flex;
         align-items: center;
-        width: 80%;
 
         & .vote-buttons {
             display: flex;
@@ -138,7 +137,7 @@
                 justify-content: center;
                 margin-right: 20px;
                 text-transform: uppercase;
-                font-weight: bold;
+                font-weight: 600;
                 color: var(--black);
                 cursor: pointer;
 
@@ -198,6 +197,10 @@
         display: flex;
         margin-top: 8.5vh;
         margin-bottom: 20px;
+
+        @media (--md-down) {
+            justify-content: center;
+        }
 
         > * {
             display: flex;

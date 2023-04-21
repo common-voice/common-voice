@@ -3,7 +3,7 @@ import { Localized } from '@fluent/react'
 import classNames from 'classnames'
 
 import { SentenceSubmissionError } from 'common'
-import { ChevronDown } from '../../../../../ui/icons'
+import { AlertIcon, ChevronDown } from '../../../../../ui/icons'
 import { TextButton } from '../../../../../ui/ui'
 import useIsMaxWindowWidth from '../../../../../../hooks/use-is-max-window-width'
 
@@ -29,38 +29,39 @@ export const Rules: React.FC<Props> = ({ error, showFirst, title }) => {
     <div className={classNames('rules', { 'write-rules': showFirst })}>
       <div className={classNames('inner', { 'rules-hidden': !rulesVisible })}>
         <div className="rules-title-container">
-          <Localized id={title}>
-            <TextButton onClick={handleClick} />
-          </Localized>
+          <div className="icon-and-title">
+            {error && <AlertIcon className="alert-icon" />}
+            <Localized id={title}>
+              <TextButton onClick={handleClick} />
+            </Localized>
+          </div>
           <ChevronDown
-            className={classNames({ 'rotate-180': rulesVisible })}
+            className={classNames('chevron', { 'rotate-180': rulesVisible })}
             onClick={handleClick}
           />
         </div>
         {(rulesVisible || !isMobileWidth) && (
           <ul>
-            {showFirst && (
-              <Localized
-                id="new-sentence-rule-1"
-                elems={{
-                  noCopyright: (
-                    <a
-                      href="https://en.wikipedia.org/wiki/Public_domain"
-                      target="_blank"
-                      rel="noreferrer"
-                    />
-                  ),
-                  cc0: (
-                    <a
-                      href="https://creativecommons.org/share-your-work/public-domain/cc0/"
-                      target="_blank"
-                      rel="noreferrer"
-                    />
-                  ),
-                }}>
-                <li />
-              </Localized>
-            )}
+            <Localized
+              id="new-sentence-rule-1"
+              elems={{
+                noCopyright: (
+                  <a
+                    href="https://en.wikipedia.org/wiki/Public_domain"
+                    target="_blank"
+                    rel="noreferrer"
+                  />
+                ),
+                cc0: (
+                  <a
+                    href="https://creativecommons.org/share-your-work/public-domain/cc0/"
+                    target="_blank"
+                    rel="noreferrer"
+                  />
+                ),
+              }}>
+              <li />
+            </Localized>
             <Localized id="new-sentence-rule-2">
               <li
                 className={classNames({

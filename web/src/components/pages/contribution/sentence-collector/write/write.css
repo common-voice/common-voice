@@ -17,6 +17,8 @@
         @media (--xs-down) {
             font-size: var(--font-size-xs);
             text-align: center;
+            margin-right: 12px;
+            margin-left: 12px;
         }
     }
 
@@ -180,10 +182,13 @@
 
             @media (--md-down) {
                 border: none;
+                padding: 0 10px;
             }
 
             svg {
                 margin-inline-end: 10px;
+                width: 22px;
+                height: 22px;
 
                 path {
                     fill: var(--black);
