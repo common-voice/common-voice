@@ -309,13 +309,13 @@ improve-audio = Profila informācija uzlabo audio ierakstu datus, ko izmanto run
 keep-track = Sekojiet līdzi savam progresam un datiem vairākās valodās.
 compare-progress = Skatiet, kā jūsu progress ir salīdzināms ar citiem ieguldītājiem visā pasaulē.
 view-goals = Skatiet savu progresu pret personiskajiem un projekta mērķiem.
-join-newsletter = Ja vēlaties pievienojieties mūsu e-pasta sarakstam projekta jaunumu un informācijas saņemšanai.
+join-newsletter = Ja vēlaties, pievienojieties mūsu e-pasta sarakstam, lai saņemtu projekta jaunumus un informāciju par projektu.
 
 ## What's public
 
-whats-public = Kas ir publiski pieejms?
-email-not-public = Mēs nepublicēsim jūsu e-pastu publiski.
-recordings-and-locale-public = Ieguldīto Ierakstu skaits un valodas, būs pieejmas publiski.
+whats-public = Kas ir publiski pieejams?
+email-not-public = Mēs nepubliskosim jūsu epastu.
+recordings-and-locale-public = Ieguldīto ierakstu skaits un valodas, būs pieejamas publiski.
 username-optin-public = Jūs varat izvēlēties, vai lietotājvārds ir publisks vai anonīms.
 demographic-deidentified-clarity-2 = Pēc izvēles iesniegtie demogrāfiskie dati (piemēram, vecums, dzimums, valoda un akcents) nekad netiks publiskoti jūsu profilā un netiks saistīti ar jūsu kontu datu kopā. Atsevišķi audio klipi tiks saistīti ar demogrāfiskajiem datiem, lai veiktu precīzāku analīzi, piemēram, pētnieks var vēlēties mērķēt apmācību modeli uz noteiktu demogrāfisko segmentu.
 username-email-not-demographic = Jūsu lietotājvārds un e-pasts netiks piesaistīti publicētajiem datiem.
