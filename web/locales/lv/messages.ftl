@@ -273,8 +273,8 @@ hours-recorded = Ierakstītās stundas
 hours-validated = Pārbaudītās stundas
 voices-online = Dalībnieki tiešsaistē
 todays-progress = Šodienas progress
-help-reach-goal = Palīdziet mums nokļūt līdz { $goal }
-read-terms-q = Vai esat izlasījis mūsu noteikumus?
+help-reach-goal = Palīdziet sasniegt { $goal }
+read-terms-q = Vai esat izlasījis noteikumus?
 ready-to-record = Vai esat gatavs ziedot savu balsi?
 all-locales = Visas
 today = Šodien
@@ -296,7 +296,7 @@ x-years-short =
         [one] { $count }g
        *[other] { $count }g
     }
-help-make-dataset = Palīdziet mums izveidot augstas kvalitātes publiski atvērtu datu kopu
+help-make-dataset = Palīdziet izveidot kvalitatīvu, publiski atvērtu datu kopu
 sign-up-account = Reģistrē savu kontu
 email-subscription-title = Piesakieties jaunumiem e-pastā
 email-subscription-title-new = Reģistrējieties Common Voice ziņām, atgādinājumiem par mērķiem un progresa atjauninājumiem
