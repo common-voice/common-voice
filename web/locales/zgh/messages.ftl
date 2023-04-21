@@ -502,6 +502,7 @@ glossary = ⵜⴰⵎⴰⵡⴰⵍⵜ
 
 ## Error pages
 
+error-title-404 = ⵓⵔ ⵏⵖⵉⵢ ⴰⴷ ⴰⵡⵏ ⵏⴰⴼ ⵜⴰⵙⵏⴰ ⴰⵏⵏ
 
 ## Data
 
