@@ -674,6 +674,8 @@ contribute-voice-collection-nav-header = ⴰⴳⵔⵔⵓ ⵏ ⵉⴳⵕⴹⴰⵏ
 report = ⵎⵍ
 report-title = ⴰⵣⵏ ⵜⴰⵎⵓⵍⵉ
 report-ask = ⵎⴰⵏ ⵉⵎⵓⴽⵔⵉⵙⵏ ⴰⴷ ⵜⵓⴼⵉⴷ ⴰⴽⴷ ⵜⵡⵉⵏⵙⵜ ⴰ?
+report-offensive-language = ⵜⵉⵔⴳⴳⴰⵎ
+report-offensive-language-detail = ⵜⴰⵡⵉⵏⵙⵜ ⴳⵉⵙ ⴰⵡⴰⵍ ⵎⴽⴽⵙ-ⴰⵡⵇⵇⵔ ⵏⵉⵖ ⵜⵉⵔⴳⴳⴰⵎ.
 report-different-language = ⵜⵓⵜⵍⴰⵢⵜ ⵢⴰⴹⵏ
 
 ## Goals
