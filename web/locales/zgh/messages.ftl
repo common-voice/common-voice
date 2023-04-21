@@ -436,14 +436,17 @@ about-voice-validation-title = ⴰⵣⵣⵔⴰⵢ ⵏ ⵓⴳⵕⴹ
 about-voice-validation-subtitle = ⵣⵣⵔⵢⵏ ⵎⴷⴷⵏ ⵢⴰⴹⵏⵉⵏ ⵜⵓⵙⵙⵉⴼⵉⵏ ⵜⵉⴳⵕⴹⴰⵏⵉⵏ ⴰⴷ.
 about-dataset-release-title = ⵜⵓⴼⴼⵖⴰ ⵏ ⵜⴳⵔⵓⵎⵎⴰ ⵏ ⵉⵙⴼⴽⴰ
 about-dataset-release-subtitle = ⴷⴰ ⵏⵙⵙⵓⴼⵓⵖ ⵜⴰⴳⵔⵓⵎⵎⴰ ⵏ ⵉⵙⴼⴽⴰ ⴽⵓ 3 ⵡⴰⵢⵢⵓⵔⵏ.
+about-listen = ⵙⵍⵍ
 about-is-it-valid = ⵉⵙ ⵜⵣⵔⵢ ⵜⵓⵙⵙⵉⴼⵜ?
 about-stay-in-touch-button = ⴽⵛⵎ
 about-nav-how-it-works = ⵎⴰⵏⵎⴽ?
+about-nav-get-involved = ⴰⵣⵔ
 about-nav-how-it-works-2 = ⵎⴰⵏⵎⴽ ⴷⴰ ⵉⵙⵡⵓⵔⵓⵢ ⴽⴰⵎⵏⴼⵓⵢⵙ?
 
 ## Community Playbook Content
 ## What is a language
 
+about-playbook-what-is-language = ⵎ'ⴰⴷ ⵉⴳⴰⵏ ⵜⵓⵜⵍⴰⵢⵜ ⴳ ⴽⴰⵎⵏⴼⵓⵢⵙ?
 
 ## How do I add a language
 
@@ -459,9 +462,13 @@ about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollec
 
 ## How does localization work
 
+about-playbook-how-localize-content-1 = ⴷⴰ ⵉⵜⵜⵓⵙⴽⵉⵔ ⵓⵙⵓⵖⵍ ⵏ ⵓⵙⵉⵜ ⵏ ⴽⴰⵎⵏⴼⵓⵢⵙ ⴳ <strong>ⴱⵓⵏⵜⵓⵏ</strong>.
+about-playbook-how-localize-content-4 = ⴷⴰ ⵉⵜⵜⵎⵓⵜⵜⵓⴳ ⵓⵙⵉⵜ ⵉ ⵓⵏⵏⵓⵕⵥⵎ ⴰⴷⴷⴰⵢ ⵉⵍⴽⵎ 75% ⵏ ⵓⵙⵎⴰⴷ.
+about-playbook-how-localize-content-5 = ⴰⵏⵏⴰⵢⴰⵜ ⴰⴼⵉⴷⵢⵓ ⴰⵎⵙⵙⴼⵔⵓ ⵏⵏⵖ ⴰⴷ ⴰⵡⵏ ⵢⴰⵡⵙ
 
 ## How to add sentences
 
+about-playbook-how-add-sentences = ⵎⴰⵏⵎⴽ ⵙ ⵔⴰⴷ ⵔⵏⵓⵖ ⵜⵉⵡⵉⵏⴰⵙ?
 
 ## How to record quality
 
@@ -481,6 +488,8 @@ about-playbook-how-access-dataset-content-2 = ⵎⴽ ⴷⴰ ⵜⵙⵉⴳⴳⵉ�
 
 ## How are decisions made
 
+about-playbook-how-project-governance-content-3 = ⵜⵉⵏⵏⵓⵜⵍⴰ, ⵜⴰⵏⴼⵔⵓⵜ ⴷ ⵜⵎⴰⴼⴰⵡⵜ.
+about-playbook-how-project-governance-content-5 = ⴰⵜⵉⴳ ⴷ ⵡⴰⴽⴰⵣ.
 
 ## Glossary
 
@@ -741,6 +750,12 @@ contribution-varying-pronunciations-example-1-explanation = [ⵉⵣⵎⵔ ⴰⴷ
 contribution-varying-pronunciations-example-2-title = ⵉⵙⵖⴰ ⵜⴰⵖⴰⴹ-ⵜ ⴷ ⵜⵢⴰⵥⵉⴹ-ⵜ.
 contribution-varying-pronunciations-example-2-explanation = [ⴷⴰ ⴰⴱⴷⴰ ⵏⵜⵜⵙⵓⵙⵔⵓ ‘ⵜⴰⵖⴰⴹⵜ’ ⴷ ‘ⵜⴰⵢⴰⵥⵉⴹⵜ’ ⵙ ⵜⵎⴰⵣⵉⵖⵜ ⴰⵎ ‘ⵜⴰⵖⴰⵟⵟ’ ⴷ ‘ⵜⴰⵢⴰⵥⵉⵟⵟ’]
 contribution-background-noise-title = ⴰⴷⵉⴷⴰ ⵏ ⵜⵖⵔⴷⵉⵏ
+contribution-background-noise-example-1-fixed-title = <strong>[ⵜⵉⵏⵣⵉ]</strong> ⵉⵣⵎⴰⵡⵏ <strong>[ⵜⵓⵙⵓⵜ]</strong> ⵏ ⵡⴰⵟⵍⴰⵚ.
+contribution-background-noise-example-2-fixed-title = ⵉⵣⵎⴰ <strong>[ⵜⵓⵙⵓⵜ]</strong> ⵏ ⵡⴰⵟⵍⴰⵚ.
+contribution-background-noise-example-3-fixed-title = <strong>[ⴰⵟⵇⵟⵇ]</strong> ⵣⵎⴰⵡⵏ <strong>[ⴰⵟⵇⵟⵇ]</strong> -ⵟⵍⴰⵚ.
+contribution-background-voices-title = ⵉⴳⵕⴹⴰⵏ ⵏ ⵜⵖⵔⴷⵉⵏ
+contribution-background-voices-example-1-title = ⵉⵣⵎⴰⵡⵏ ⵏ ⵡⴰⵟⵍⴰⵚ. <strong>[ⵜⵉⵖⵔⵉ ⵙ ⵢⴰⵏ ⵓⴳⵕⴹ]</strong>
+contribution-background-voices-example-1-explanation = ⵔⴰⴷ ⴷ ⵜⴷⴷⵓⴷ? <strong>[ⴰⵡⴰⵍ ⵏ ⴽⵔⴰ ⵏ ⵢⴰⵏ ⵢⴰⴹⵏ]</strong>
 see-more = <chevron></chevron>ⵥⵕ ⵓⴳⴳⴰⵔ
 see-less = <chevron></chevron>ⵥⵕ ⴷⵔⵓⵙ
 
@@ -850,6 +865,8 @@ sc-settings-ui-language = ⵜⵓⵜⵍⴰⵢⵜ ⵏ ⵓⴳⵔⵓⴷⵎ
 
 partnerships-governments-header = ⵜⵉⵏⴱⴰⴹⵉⵏ
 partnerships-academia-header = ⵜⵉⵙⴷⴰⵡⵉⵢⵉⵏ, ⵉⵎⵙⴷⴰⵡⵉⵢⵏ ⴷ ⵉⵎⵔⵣⴰ
+# GUIDELINES PAGE
+guidelines-header = ⵜⴰⵔⴰⵜⵉⵏ ⵏ ⵡⴰⵔⵔⴰⴳ
 example = ⴰⵎⴷⵢⴰ
 varying-pronunciations-example = ⵥⵕⵉⵖ ⵓⵍⵜⵎⴰ ⴰⵙⵙⵏⵏⴰⴹ.
 varying-pronunciations-tip-1 = [ⵙ ⵜⵎⴰⵣⵉⵖⵜ ⵜⴰⵔⵉⴼⵉⵜ ⵏⵖⵉⵢ ⴰⴷ ⵏⵙⵓⵙⵔⵓ "ⵓⵍⵜⵎⴰ" ⵣⵓⵏ ⴷ "ⵓⵜⵛⵎⴰ"]
