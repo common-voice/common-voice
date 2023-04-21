@@ -676,6 +676,8 @@ report-title = ⴰⵣⵏ ⵜⴰⵎⵓⵍⵉ
 report-ask = ⵎⴰⵏ ⵉⵎⵓⴽⵔⵉⵙⵏ ⴰⴷ ⵜⵓⴼⵉⴷ ⴰⴽⴷ ⵜⵡⵉⵏⵙⵜ ⴰ?
 report-offensive-language = ⵜⵉⵔⴳⴳⴰⵎ
 report-offensive-language-detail = ⵜⴰⵡⵉⵏⵙⵜ ⴳⵉⵙ ⴰⵡⴰⵍ ⵎⴽⴽⵙ-ⴰⵡⵇⵇⵔ ⵏⵉⵖ ⵜⵉⵔⴳⴳⴰⵎ.
+report-grammar-or-spelling = ⵜⴰⵣⴳⵍⵜ ⵜⴰⵏⵊⵕⵓⵎⵜ/ⵏ ⵓⵙⵏⵎⴰⵔⵔⴰ
+report-grammar-or-spelling-detail = ⵜⴰⵡⵉⵏⵙⵜ ⴳⵉⵙ ⵢⴰⵜ ⵜⵣⴳⵍⵜ ⵜⴰⵏⵊⵕⵓⵎⵜ/ⵏ ⵓⵙⵏⵎⴰⵔⵔⴰ.
 report-different-language = ⵜⵓⵜⵍⴰⵢⵜ ⵢⴰⴹⵏ
 
 ## Goals
