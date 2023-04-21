@@ -1059,61 +1059,201 @@ set-a-goal = Izvirziet mērķi
 cant-decide = Nevar izlemt?
 activity-needed-calculation-plural =
     { NUMBER($totalHours) ->
-        [one]
+        [zero]
             { NUMBER($periodMonths) ->
-                [one]
+                [zero]
                     { NUMBER($people) ->
+                        [zero]
+                            { NUMBER($clipsPerDay) ->
+                                [zero] { $totalHours } stundas ir sasniedzamas { $periodMonths } mēnešos, ja { $people } cilvēku ierakstītu { $clipsPerDay } ierakstus dienā.
+                                [one] { $totalHours } stundas ir sasniedzamas { $periodMonths } mēnešos, ja { $people } cilvēku ierakstītu { $clipsPerDay } ierakstu dienā.
+                               *[other] { $totalHours } stundas ir sasniedzamas { $periodMonths } mēnešos, ja { $people } cilvēku ierakstītu { $clipsPerDay } ierakstus dienā.
+                            }
                         [one]
                             { NUMBER($clipsPerDay) ->
-                                [one] { $totalHours } stunda ir sasniedzama { $periodMonths } mēnesī ja { $people } cilvēks ierakstītu { $clipsPerDay } ierakstu dienā.
-                               *[other] { $totalHours } stunda ir sasniedzama { $periodMonths } mēnesī ja { $people } cilvēks ierakstītu { $clipsPerDay } ierakstus dienā.
+                                [zero] { $totalHours } stundas ir sasniedzamas { $periodMonths } mēnešos, ja { $people } cilvēks ierakstītu { $clipsPerDay } ierakstus dienā.
+                                [one] { $totalHours } stundas ir sasniedzamas { $periodMonths } mēnešos, ja { $people } cilvēks ierakstītu { $clipsPerDay } ierakstu dienā.
+                               *[other] { $totalHours } stundas ir sasniedzamas { $periodMonths } mēnešos, ja { $people } cilvēks ierakstītu { $clipsPerDay } ierakstus dienā.
                             }
                        *[other]
                             { NUMBER($clipsPerDay) ->
-                                [one] { $totalHours } stunda ir sasniedzama { $periodMonths } mēnesī ja { $people } cilvēki ierakstītu { $clipsPerDay } ierakstu dienā.
-                               *[other] { $totalHours } stunda ir sasniedzama { $periodMonths } mēnesī ja { $people } cilvēki ierakstītu { $clipsPerDay } ierakstus dienā.
+                                [zero] { $totalHours } stundas ir sasniedzamas { $periodMonths } mēnešos, ja { $people } cilvēki ierakstītu { $clipsPerDay } ierakstus dienā.
+                                [one] { $totalHours } stundas ir sasniedzamas { $periodMonths } mēnešos, ja { $people } cilvēki ierakstītu { $clipsPerDay } ierakstu dienā.
+                               *[other] { $totalHours } stundas ir sasniedzamas { $periodMonths } mēnešos, ja { $people } cilvēki ierakstītu { $clipsPerDay } ierakstus dienā.
+                            }
+                    }
+                [one]
+                    { NUMBER($people) ->
+                        [zero]
+                            { NUMBER($clipsPerDay) ->
+                                [zero] { $totalHours } stundas ir sasniedzamas { $periodMonths } mēnesī, ja { $people } cilvēku ierakstītu { $clipsPerDay } ierakstus dienā.
+                                [one] { $totalHours } stundas ir sasniedzamas { $periodMonths } mēnesī, ja { $people } cilvēku ierakstītu { $clipsPerDay } ierakstu dienā.
+                               *[other] { $totalHours } stundas ir sasniedzamas { $periodMonths } mēnesī, ja { $people } cilvēku ierakstītu { $clipsPerDay } ierakstus dienā.
+                            }
+                        [one]
+                            { NUMBER($clipsPerDay) ->
+                                [zero] { $totalHours } stundas ir sasniedzamas { $periodMonths } mēnesī, ja { $people } cilvēks ierakstītu { $clipsPerDay } ierakstus dienā.
+                                [one] { $totalHours } stundas ir sasniedzamas { $periodMonths } mēnesī, ja { $people } cilvēks ierakstītu { $clipsPerDay } ierakstu dienā.
+                               *[other] { $totalHours } stundas ir sasniedzamas { $periodMonths } mēnesī, ja { $people } cilvēks ierakstītu { $clipsPerDay } ierakstus dienā.
+                            }
+                       *[other]
+                            { NUMBER($clipsPerDay) ->
+                                [zero] { $totalHours } stundas ir sasniedzamas { $periodMonths } mēnesī, ja { $people } cilvēki ierakstītu { $clipsPerDay } ierakstus dienā.
+                                [one] { $totalHours } stundas ir sasniedzamas { $periodMonths } mēnesī, ja { $people } cilvēki ierakstītu { $clipsPerDay } ierakstu dienā.
+                               *[other] { $totalHours } stundas ir sasniedzamas { $periodMonths } mēnesī, ja { $people } cilvēki ierakstītu { $clipsPerDay } ierakstus dienā.
                             }
                     }
                *[other]
                     { NUMBER($people) ->
+                        [zero]
+                            { NUMBER($clipsPerDay) ->
+                                [zero] { $totalHours } stundas ir sasniedzamas { $periodMonths } mēnešos, ja { $people } cilvēku ierakstītu { $clipsPerDay } ierakstus dienā.
+                                [one] { $totalHours } stundas ir sasniedzamas { $periodMonths } mēnešos, ja { $people } cilvēku ierakstītu { $clipsPerDay } ierakstu dienā.
+                               *[other] { $totalHours } stundas ir sasniedzamas { $periodMonths } mēnešos, ja { $people } cilvēku ierakstītu { $clipsPerDay } ierakstus dienā.
+                            }
                         [one]
                             { NUMBER($clipsPerDay) ->
-                                [one] { $totalHours } stunda ir sasniedzama { $periodMonths } menešos ja { $people } cilvēks ierakstītu { $clipsPerDay } ierakstu dienā.
-                               *[other] { $totalHours } stunda ir sasniedzama { $periodMonths } menešos ja { $people } cilvēks ierakstītu { $clipsPerDay } ierakstus dienā.
+                                [zero] { $totalHours } stundas ir sasniedzamas { $periodMonths } mēnešos, ja { $people } cilvēks ierakstītu { $clipsPerDay } ierakstus dienā.
+                                [one] { $totalHours } stundas ir sasniedzamas { $periodMonths } mēnešos, ja { $people } cilvēks ierakstītu { $clipsPerDay } ierakstu dienā.
+                               *[other] { $totalHours } stundas ir sasniedzamas { $periodMonths } mēnešos, ja { $people } cilvēks ierakstītu { $clipsPerDay } ierakstus dienā.
                             }
                        *[other]
                             { NUMBER($clipsPerDay) ->
-                                [one] { $totalHours } stunda ir sasniedzama { $periodMonths } menešos ja { $people } cilvēki ierakstītu { $clipsPerDay } ierakstu dienā.
-                               *[other] { $totalHours } stunda ir sasniedzama { $periodMonths } menešos ja { $people } cilvēki ierakstītu { $clipsPerDay } ierakstus dienā.
+                                [zero] { $totalHours } stundas ir sasniedzamas { $periodMonths } mēnešos, ja { $people } cilvēki ierakstītu { $clipsPerDay } ierakstus dienā.
+                                [one] { $totalHours } stundas ir sasniedzamas { $periodMonths } mēnešos, ja { $people } cilvēki ierakstītu { $clipsPerDay } ierakstu dienā.
+                               *[other] { $totalHours } stundas ir sasniedzamas { $periodMonths } mēnešos, ja { $people } cilvēki ierakstītu { $clipsPerDay } ierakstus dienā.
+                            }
+                    }
+            }
+        [one]
+            { NUMBER($periodMonths) ->
+                [zero]
+                    { NUMBER($people) ->
+                        [zero]
+                            { NUMBER($clipsPerDay) ->
+                                [zero] { $totalHours } stunda ir sasniedzama { $periodMonths } mēnešos, ja { $people } cilvēku ierakstītu { $clipsPerDay } ierakstus dienā.
+                                [one] { $totalHours } stunda ir sasniedzama { $periodMonths } mēnešos, ja { $people } cilvēku ierakstītu { $clipsPerDay } ierakstu dienā.
+                               *[other] { $totalHours } stunda ir sasniedzama { $periodMonths } mēnešos, ja { $people } cilvēku ierakstītu { $clipsPerDay } ierakstus dienā.
+                            }
+                        [one]
+                            { NUMBER($clipsPerDay) ->
+                                [zero] { $totalHours } stunda ir sasniedzama { $periodMonths } mēnešos, ja { $people } cilvēks ierakstītu { $clipsPerDay } ierakstus dienā.
+                                [one] { $totalHours } stunda ir sasniedzama { $periodMonths } mēnešos, ja { $people } cilvēks ierakstītu { $clipsPerDay } ierakstu dienā.
+                               *[other] { $totalHours } stunda ir sasniedzama { $periodMonths } mēnešos, ja { $people } cilvēks ierakstītu { $clipsPerDay } ierakstus dienā.
+                            }
+                       *[other]
+                            { NUMBER($clipsPerDay) ->
+                                [zero] { $totalHours } stunda ir sasniedzama { $periodMonths } mēnešos, ja { $people } cilvēki ierakstītu { $clipsPerDay } ierakstus dienā.
+                                [one] { $totalHours } stunda ir sasniedzama { $periodMonths } mēnešos, ja { $people } cilvēki ierakstītu { $clipsPerDay } ierakstu dienā.
+                               *[other] { $totalHours } stunda ir sasniedzama { $periodMonths } mēnešos, ja { $people } cilvēki ierakstītu { $clipsPerDay } ierakstus dienā.
+                            }
+                    }
+                [one]
+                    { NUMBER($people) ->
+                        [zero]
+                            { NUMBER($clipsPerDay) ->
+                                [zero] { $totalHours } stunda ir sasniedzama { $periodMonths } mēnesī, ja { $people } cilvēku ierakstītu { $clipsPerDay } ierakstus dienā.
+                                [one] { $totalHours } stunda ir sasniedzama { $periodMonths } mēnesī, ja { $people } cilvēku ierakstītu { $clipsPerDay } ierakstu dienā.
+                               *[other] { $totalHours } stunda ir sasniedzama { $periodMonths } mēnesī, ja { $people } cilvēku ierakstītu { $clipsPerDay } ierakstus dienā.
+                            }
+                        [one]
+                            { NUMBER($clipsPerDay) ->
+                                [zero] { $totalHours } stunda ir sasniedzama { $periodMonths } mēnesī, ja { $people } cilvēks ierakstītu { $clipsPerDay } ierakstus dienā.
+                                [one] { $totalHours } stunda ir sasniedzama { $periodMonths } mēnesī, ja { $people } cilvēks ierakstītu { $clipsPerDay } ierakstu dienā.
+                               *[other] { $totalHours } stunda ir sasniedzama { $periodMonths } mēnesī, ja { $people } cilvēks ierakstītu { $clipsPerDay } ierakstus dienā.
+                            }
+                       *[other]
+                            { NUMBER($clipsPerDay) ->
+                                [zero] { $totalHours } stunda ir sasniedzama { $periodMonths } mēnesī, ja { $people } cilvēki ierakstītu { $clipsPerDay } ierakstus dienā.
+                                [one] { $totalHours } stunda ir sasniedzama { $periodMonths } mēnesī, ja { $people } cilvēki ierakstītu { $clipsPerDay } ierakstu dienā.
+                               *[other] { $totalHours } stunda ir sasniedzama { $periodMonths } mēnesī, ja { $people } cilvēki ierakstītu { $clipsPerDay } ierakstus dienā.
+                            }
+                    }
+               *[other]
+                    { NUMBER($people) ->
+                        [zero]
+                            { NUMBER($clipsPerDay) ->
+                                [zero] { $totalHours } stundas ir sasniedzamas { $periodMonths } mēnešos, ja { $people } cilvēku ierakstītu { $clipsPerDay } ierakstus dienā.
+                                [one] { $totalHours } stundas ir sasniedzamas { $periodMonths } mēnešos, ja { $people } cilvēku ierakstītu { $clipsPerDay } ierakstu dienā.
+                               *[other] { $totalHours } stundas ir sasniedzamas { $periodMonths } mēnešos, ja { $people } cilvēku ierakstītu { $clipsPerDay } ierakstus dienā.
+                            }
+                        [one]
+                            { NUMBER($clipsPerDay) ->
+                                [zero] { $totalHours } stundas ir sasniedzamas { $periodMonths } mēnešos, ja { $people } cilvēks ierakstītu { $clipsPerDay } ierakstus dienā.
+                                [one] { $totalHours } stundas ir sasniedzamas { $periodMonths } mēnešos, ja { $people } cilvēks ierakstītu { $clipsPerDay } ierakstu dienā.
+                               *[other] { $totalHours } stundas ir sasniedzamas { $periodMonths } mēnešos, ja { $people } cilvēks ierakstītu { $clipsPerDay } ierakstus dienā.
+                            }
+                       *[other]
+                            { NUMBER($clipsPerDay) ->
+                                [zero] { $totalHours } stundas ir sasniedzamas { $periodMonths } mēnešos, ja { $people } cilvēki ierakstītu { $clipsPerDay } ierakstus dienā.
+                                [one] { $totalHours } stundas ir sasniedzamas { $periodMonths } mēnešos, ja { $people } cilvēki ierakstītu { $clipsPerDay } ierakstu dienā.
+                               *[other] { $totalHours } stundas ir sasniedzamas { $periodMonths } mēnešos, ja { $people } cilvēki ierakstītu { $clipsPerDay } ierakstus dienā.
                             }
                     }
             }
        *[other]
             { NUMBER($periodMonths) ->
-                [one]
+                [zero]
                     { NUMBER($people) ->
+                        [zero]
+                            { NUMBER($clipsPerDay) ->
+                                [zero] { $totalHours } stundas ir sasniedzamas { $periodMonths } mēnešos, ja { $people } cilvēku ierakstītu { $clipsPerDay } ierakstus dienā.
+                                [one] { $totalHours } stundas ir sasniedzamas { $periodMonths } mēnešos, ja { $people } cilvēku ierakstītu { $clipsPerDay } ierakstu dienā.
+                               *[other] { $totalHours } stundas ir sasniedzamas { $periodMonths } mēnešos, ja { $people } cilvēku ierakstītu { $clipsPerDay } ierakstus dienā.
+                            }
                         [one]
                             { NUMBER($clipsPerDay) ->
-                                [one] { $totalHours } stundas ir sasniedzamas { $periodMonths } mēnesī ja { $people } cilvēks ierakstītu { $clipsPerDay } ierakstu dienā.
-                               *[other] { $totalHours } stundas ir sasniedzamas { $periodMonths } mēnesī ja { $people } cilvēks ierakstītu { $clipsPerDay } ierakstus dienā.
+                                [zero] { $totalHours } stundas ir sasniedzamas { $periodMonths } mēnešos, ja { $people } cilvēks ierakstītu { $clipsPerDay } ierakstus dienā.
+                                [one] { $totalHours } stundas ir sasniedzamas { $periodMonths } mēnešos, ja { $people } cilvēks ierakstītu { $clipsPerDay } ierakstu dienā.
+                               *[other] { $totalHours } stundas ir sasniedzamas { $periodMonths } mēnešos, ja { $people } cilvēks ierakstītu { $clipsPerDay } ierakstus dienā.
                             }
                        *[other]
                             { NUMBER($clipsPerDay) ->
-                                [one] { $totalHours } stundas ir sasniedzamas { $periodMonths } mēnesī ja { $people } cilvēki ierakstītu { $clipsPerDay } ierakstu dienā.
-                               *[other] { $totalHours } stundas ir sasniedzamas { $periodMonths } mēnesī ja { $people } cilvēki ierakstītu { $clipsPerDay } ierakstus dienā.
+                                [zero] { $totalHours } stundas ir sasniedzamas { $periodMonths } mēnešos, ja { $people } cilvēki ierakstītu { $clipsPerDay } ierakstus dienā.
+                                [one] { $totalHours } stundas ir sasniedzamas { $periodMonths } mēnešos, ja { $people } cilvēki ierakstītu { $clipsPerDay } ierakstu dienā.
+                               *[other] { $totalHours } stundas ir sasniedzamas { $periodMonths } mēnešos, ja { $people } cilvēki ierakstītu { $clipsPerDay } ierakstus dienā.
+                            }
+                    }
+                [one]
+                    { NUMBER($people) ->
+                        [zero]
+                            { NUMBER($clipsPerDay) ->
+                                [zero] { $totalHours } stundas ir sasniedzamas { $periodMonths } mēnesī, ja { $people } cilvēku ierakstītu { $clipsPerDay } ierakstus dienā.
+                                [one] { $totalHours } stundas ir sasniedzamas { $periodMonths } mēnesī, ja { $people } cilvēku ierakstītu { $clipsPerDay } ierakstu dienā.
+                               *[other] { $totalHours } stundas ir sasniedzamas { $periodMonths } mēnesī, ja { $people } cilvēku ierakstītu { $clipsPerDay } ierakstus dienā.
+                            }
+                        [one]
+                            { NUMBER($clipsPerDay) ->
+                                [zero] { $totalHours } stundas ir sasniedzamas { $periodMonths } mēnesī, ja { $people } cilvēks ierakstītu { $clipsPerDay } ierakstus dienā.
+                                [one] { $totalHours } stundas ir sasniedzamas { $periodMonths } mēnesī, ja { $people } cilvēks ierakstītu { $clipsPerDay } ierakstu dienā.
+                               *[other] { $totalHours } stundas ir sasniedzamas { $periodMonths } mēnesī, ja { $people } cilvēks ierakstītu { $clipsPerDay } ierakstus dienā.
+                            }
+                       *[other]
+                            { NUMBER($clipsPerDay) ->
+                                [zero] { $totalHours } stundas ir sasniedzamas { $periodMonths } mēnesī, ja { $people } cilvēki ierakstītu { $clipsPerDay } ierakstus dienā.
+                                [one] { $totalHours } stundas ir sasniedzamas { $periodMonths } mēnesī, ja { $people } cilvēki ierakstītu { $clipsPerDay } ierakstu dienā.
+                               *[other] { $totalHours } stundas ir sasniedzamas { $periodMonths } mēnesī, ja { $people } cilvēki ierakstītu { $clipsPerDay } ierakstus dienā.
                             }
                     }
                *[other]
                     { NUMBER($people) ->
+                        [zero]
+                            { NUMBER($clipsPerDay) ->
+                                [zero] { $totalHours } stundas ir sasniedzamas { $periodMonths } mēnešos, ja { $people } cilvēku ierakstītu { $clipsPerDay } ierakstus dienā.
+                                [one] { $totalHours } stundas ir sasniedzamas { $periodMonths } mēnešos, ja { $people } cilvēku ierakstītu { $clipsPerDay } ierakstu dienā.
+                               *[other] { $totalHours } stundas ir sasniedzamas { $periodMonths } mēnešos, ja { $people } cilvēku ierakstītu { $clipsPerDay } ierakstus dienā.
+                            }
                         [one]
                             { NUMBER($clipsPerDay) ->
-                                [one] { $totalHours } stundas ir sasniedzamas { $periodMonths } menešos ja { $people } cilvēks ierakstītu { $clipsPerDay } ierakstu dienā.
-                               *[other] { $totalHours } stundas ir sasniedzamas { $periodMonths } menešos ja { $people } cilvēks ierakstītu { $clipsPerDay } ierakstus dienā.
+                                [zero] { $totalHours } stundas ir sasniedzamas { $periodMonths } mēnešos, ja { $people } cilvēks ierakstītu { $clipsPerDay } ierakstus dienā.
+                                [one] { $totalHours } stundas ir sasniedzamas { $periodMonths } mēnešos, ja { $people } cilvēks ierakstītu { $clipsPerDay } ierakstu dienā.
+                               *[other] { $totalHours } stundas ir sasniedzamas { $periodMonths } mēnešos, ja { $people } cilvēks ierakstītu { $clipsPerDay } ierakstus dienā.
                             }
                        *[other]
                             { NUMBER($clipsPerDay) ->
-                                [one] { $totalHours } stundas ir sasniedzamas { $periodMonths } menešos ja { $people } cilvēki ierakstītu { $clipsPerDay } ierakstu dienā.
-                               *[other] { $totalHours } stundas ir sasniedzamas { $periodMonths } menešos ja { $people } cilvēki ierakstītu { $clipsPerDay } ierakstus dienā.
+                                [zero] { $totalHours } stundas ir sasniedzamas { $periodMonths } mēnešos, ja { $people } cilvēki ierakstītu { $clipsPerDay } ierakstus dienā.
+                                [one] { $totalHours } stundas ir sasniedzamas { $periodMonths } mēnešos, ja { $people } cilvēki ierakstītu { $clipsPerDay } ierakstu dienā.
+                               *[other] { $totalHours } stundas ir sasniedzamas { $periodMonths } mēnešos, ja { $people } cilvēki ierakstītu { $clipsPerDay } ierakstus dienā.
                             }
                     }
             }
