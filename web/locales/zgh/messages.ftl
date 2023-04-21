@@ -665,8 +665,18 @@ contribute-voice-collection-nav-header = ⴰⴳⵔⵔⵓ ⵏ ⵉⴳⵕⴹⴰⵏ
 
 days =
     { $count ->
-        [one] ⴰⵙⵙ
-       *[other] ⵓⵙⵙⴰⵏ
+        [one] ⵡⴰⵙⵙ
+       *[other] ⵡⵓⵙⵙⴰⵏ
+    }
+recordings =
+    { $count ->
+        [one] ⵓⵙⵓⵙⵔ
+       *[other] ⵉⵙⵓⵙⴰⵔ
+    }
+validations =
+    { $count ->
+        [one] ⵓⵣⵣⵔⴰⵢ
+       *[other] ⵉⵣⵣⵔⴰⵢⵏ
     }
 
 ## Dashboard
@@ -692,7 +702,14 @@ pro-difficulty = ⴰⵣⵣⵓⵍⴰⵏ
 lose-goal-progress-warning = ⵙ ⵓⵙⵏⴼⵍ ⵏ ⵓⵡⵜⵜⴰⵙ ⵏⵏⵓⵏ, ⵜⵖⵉⵢⵎ ⴰⴷ ⵜⵊⵊⵍⵓⵎ ⴰⵍⴰⵢ ⵏⵏⵓⵏ ⵉⵍⵍⴰⵏ.
 want-to-continue = ⵉⵙ ⵜⵅⵙⴷ ⴰⴷ ⵙⵓⵍ ⵜⵙⵎⴷⴷ?
 finish-editing = ⵙⵎⴷ ⵣⵡⴰⵔ ⴰⵙⵏⴼⵍ?
+how-many-per-day = ⴰⵢⵢⵓⵣ! ⵎⵏⵏⴰⵡⵜ ⵜⵓⵙⵙⵉⴼⵉⵏ ⵉ ⵡⴰⵙⵙ?
+how-many-a-week = ⴰⵢⵢⵓⵣ! ⵎⵏⵏⴰⵡⵜ ⵜⵓⵙⵙⵉⴼⵉⵏ ⵉ ⵢⵉⵎⴰⵍⴰⵙⵙ?
 which-goal-type = ⵉⵙ ⵜⵅⵙⴷ ⴰⴷ ⵜⵙⵉⵡⵍⴷ, ⴰⴷ ⵜⵙⵍⵍⴷ ⵏⵉⵖ ⵙ ⵙⵉⵏ ⵉⵜⵙⵏ?
+n-clips-pluralized =
+    { NUMBER($count) ->
+        [one] { $count } ⵜⵓⵙⵙⵉⴼⵜ
+       *[other] { $count } ⵜⵓⵙⵙⵉⴼⵉⵏ
+    }
 confirm-goal = ⵙⵙⴷⴻⴷ ⴰⵡⵜⵜⴰⵙ
 goal-interval-weekly = ⴰⵏⵎⵍⴰⵙⵙ
 # $type is one of share-goal-type-*
