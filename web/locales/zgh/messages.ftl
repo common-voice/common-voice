@@ -680,6 +680,15 @@ report-grammar-or-spelling = ⵜⴰⵣⴳⵍⵜ ⵜⴰⵏⵊⵕⵓⵎⵜ/ⵏ ⵓ
 report-grammar-or-spelling-detail = ⵜⴰⵡⵉⵏⵙⵜ ⴳⵉⵙ ⵢⴰⵜ ⵜⵣⴳⵍⵜ ⵜⴰⵏⵊⵕⵓⵎⵜ/ⵏ ⵓⵙⵏⵎⴰⵔⵔⴰ.
 report-different-language = ⵜⵓⵜⵍⴰⵢⵜ ⵢⴰⴹⵏ
 report-different-language-detail = ⵜⴻⵜⵜⵢⴰⵔⴰ ⵙ ⵢⴰⵜ ⵜⵓⵜⵍⴰⵢⵜ ⵢⴰⴹⵏ ⵓⵔ ⴷ ⵜⴰⴷⴰ ⵙⴰⵡⴰⵍⵖ.
+report-difficult-pronounce = ⵜⵎⵎⴰⵔ ⴳ ⵓⵙⵓⵙⵔⵓ
+report-difficult-pronounce-detail = ⵜⵓⵎⵉ ⵜⵉⴳⵓⵔⵉⵡⵉⵏ ⵏⵉⵖ ⵜⵉⵡⵉⵏⴰⵙ ⵏⵏⴰ ⵉⵎⵎⴰⵔⵏ ⴳ ⵜⵖⵔⵉ ⵏⵉⵖ ⴳ ⵓⵙⵓⵙⵔⵓ.
+report-offensive-speech = ⴳⴰⵔ ⴰⵡⴰⵍ
+report-offensive-speech-detail = ⵜⵓⵙⵙⵉⴼⵜ ⴳⵉⵙ ⴰⵡⴰⵍ ⵎⴽⴽⵙ-ⴰⵣⵔⴰⴽ ⵏⵉⵖ ⴳⴰⵔ ⴰⵡⴰⵍ.
+report-other-comment =
+    .placeholder = ⴰⵅⴼⴰⵡⴰⵍ
+success = ⴰⵎⵓⵔⵙ
+continue = ⵙⵎⴷ ⵙⵓⵍ
+report-success = ⵜⴻⵜⵜⵢⴰⵣⴰⵏ ⵜⵎⵓⵍⵉ ⵙ ⵓⵎⵓⵔⵙ
 
 ## Goals
 
@@ -751,7 +760,13 @@ profile-form-delete = ⴽⴽⵙ ⵉⴼⵔⵙ
 ## Profile Download
 
 download-q = ⵜⵓⵙⵔⵎ ⴰⴷ ⵜⴰⴳⵎⵎ ⵉⵙⴼⴽⴰ ⵏⵏⵓⵏ?
+download-info = ⵉⵏⵉ ⴰⵏⵖ ⵎⴰ ⵔⴰⴷ ⵜⴰⴳⵎⴷ:
 download-profile-title = ⵉⴼⵔⵙ
+download-profile-info = ⴷⵉⴳⵙ ⵉⵎⴰⵢⵍ, ⵉⵙⵎ ⵏ ⵓⵏⵙⵙⵎⵔⵙ ⴷ ⵉⵏⵖⵎⵉⵙⵏ ⵉⴷⵉⵎⵓⴳⵔⴰⴼⵉⵢⵏ, ⵉⵍⵍⴰ ⴷⵖⵉⴽⴽ
+download-profile-size = ⴽⵔⴰ ⵏ ⵉⵜⴰⵎⴹⴰⵏⵏ (B)
+download-recordings-title = ⵉⵙⵓⵙⴰⵔ
+download-recordings-info = ⴳⵉⵙ ⵉⴷ MP3 ⴷ ⵜⵡⵉⵏⴰⵙ ⵇⵇⵏⵏⵉⵏ, ⵉⵖⵉⵢ ⴰⴷ ⵢⴰⵎⵥ ⴽⵔⴰ ⵏ ⵜⵉⵣⵉ ⵃⵎⴰ ⴰⴷ ⵉⵎⵓⵜⵜⴳ
+download-recordings-size = ⵙ ⵓⵎⴰⵜⴰ ⵉⵎⵉⴳⴰⵜⴰⵎⴹⴰⵏⵏ (MB)
 download-start = ⴰⴳⵎ ⵉⵙⴼⴽⴰ ⵏ ⵉⴼⵔⵙ
 download-request-button = ⴰⴳⵎ
 download-request-title = { $created }
