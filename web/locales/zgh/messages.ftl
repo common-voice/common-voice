@@ -511,6 +511,7 @@ sst-explanation = ⵜⵉⵜⵉⴽⵏⵓⵍⵓⵊⵉⵢⵉⵏ ⵏ ⵡⴰⵡⴰⵍ
 ## Error pages
 
 error-title-404 = ⵓⵔ ⵏⵖⵉⵢ ⴰⴷ ⴰⵡⵏ ⵏⴰⴼ ⵜⴰⵙⵏⴰ ⴰⵏⵏ
+error-code = ⵜⴰⵣⴳⵍⵜ { $code }
 
 ## Data
 
@@ -672,6 +673,7 @@ contribute-voice-collection-nav-header = ⴰⴳⵔⵔⵓ ⵏ ⵉⴳⵕⴹⴰⵏ
 
 report = ⵎⵍ
 report-title = ⴰⵣⵏ ⵜⴰⵎⵓⵍⵉ
+report-ask = ⵎⴰⵏ ⵉⵎⵓⴽⵔⵉⵙⵏ ⴰⴷ ⵜⵓⴼⵉⴷ ⴰⴽⴷ ⵜⵡⵉⵏⵙⵜ ⴰ?
 report-different-language = ⵜⵓⵜⵍⴰⵢⵜ ⵢⴰⴹⵏ
 
 ## Goals
