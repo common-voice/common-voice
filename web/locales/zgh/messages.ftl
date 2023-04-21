@@ -530,7 +530,9 @@ confirm-join-mailing-list = ⵅⵙⵖ ⴰⴷ ⵍⴽⵎⵖ ⵜⴰⵍⴳⴰⵎⵜ 
 download-language = ⴰⴳⵎ { $language }
 validated-hours = ⵜⵉⵙⵔⴰⴳⵉⵏ ⵣⵔⵢⵏⵉⵏ
 recorded-hours = ⵜⵉⵙⵔⴰⴳⵉⵏ ⵜⵜⵓⵙⵓⵙⵔⵏⵉⵏ
+go-discourse = ⴷⴷⵓ ⵖⵔ ⴷⵉⵙⴽⵓⵔⵙ
 go-languages-page = ⴷⴷⵓ ⵙ ⵜⴰⵙⵏⴰ ⵏ ⵜⵓⵜⵍⴰⵢⵉⵏ
+ready-to-validate = ⵜⵎⵓⵜⵜⴳⴷ ⴰⴷ ⵜⴰⵡⵙⴷ ⴳ ⵓⵣⵣⵔⴰⵢ ⵏ ⵜⵡⵉⵏⴰⵙ?
 more = ⵓⴳⴳⴰⵔ
 close = ⵔⴳⵍ
 download = ⴰⴳⵎ
@@ -566,17 +568,22 @@ other-language = ⵜⵓⵜⵍⴰⵢⵜ ⵢⴰⴹⵏ
 
 ## Request Language Pages
 
+request-language-heading = ⵜⵜⵔ ⴽⵔⴰ ⵏ ⵜⵓⵜⵍⴰⵢⵜ ⵜⴰⵎⴰⵢⵏⵓⵜ
 request-language-form-email =
     .label = ⴰⵏⵙⴰ ⵏ ⵉⵎⴰⵢⵍ ⵏⵏⵓⵏ
+request-language-form-info =
+    .label = ⵉⵏⵖⵎⵉⵙⵏ ⵅⴼ ⵜⵓⵜⵍⴰⵢⵜ
 request-language-form-info-explanation-list-1 = ⵉⵙⵎⴰⵡⵏ ⵏ ⵜⵓⵜⵍⴰⵢⵜ ⵏⵏⵓⵏ
 request-language-form-info-explanation-list-2 = <isoCodeLink>ⵜⴰⵏⴳⴰⵍⵉⵏ ⵏ ⵉⵣⵓ</isoCodeLink> ⵉⴳ ⵜⵜⵡⴰⵙⵙⵏⵏⵜ
 
 ## Languages Overview
 
+language-section-in-progress = ⴳ ⵡⴰⵍⴰⵢ
 languages-show-more = ⵥⵕ ⵓⴳⴳⴰⵔ
 languages-show-less = ⵥⵕ ⴷⵔⵓⵙ
 language-search-input =
     .placeholder = ⵔⵣⵓ
+language-speakers = ⵉⵎⵙⵙⵉⵡⵍⵏ
 sentences = ⵜⵉⵡⵉⵏⴰⵙ
 language-validation-hours = ⵜⵉⵙⵔⴰⴳⵉⵏ
 language-validation-progress = ⴰⵍⴰⵢ ⵏ ⵓⵣⵣⵔⴰⵢ
@@ -861,8 +868,6 @@ sc-review-form-button-approve = ⵙⵙⴳⵍⵢ
 sc-review-form-button-approve-shortcut = ⵢ
 # Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
 sc-review-form-button-reject-shortcut = ⵓ
-# Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
-sc-review-form-button-skip-shortcut = ⵣ
 
 ## SETTINGS
 
