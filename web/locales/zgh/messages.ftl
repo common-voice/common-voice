@@ -774,11 +774,15 @@ download-selected = ⵉⵜⵜⵓⵙⵜⵢ
 download-start = ⴰⴳⵎ ⵉⵙⴼⴽⴰ ⵏ ⵉⴼⵔⵙ
 download-request = ⵜⵜⵔ ⵉⵙⵓⵙⴰⵔ
 download-requests = ⵜⵓⵜⵜⵔⵉⵡⵉⵏ ⵣⵔⵉⵏⵉⵏ ⵏ ⵡⴰⴳⴰⵎ ⵏ ⵉⵙⵓⵙⴰⵔ
+download-requests-info = ⴰⴷⴷⴰⵢ ⵜⴻⵜⵜⵔⵎ ⵉⵙⵓⵙⴰⵔ ⵏⵏⵓⵏ, ⵍⴰ ⵜⵏ ⵏⵙⵎⵓⵜⵜⵓⵔ ⴷⴳ ⵢⴰⵏ ⵏⵉⵖ ⵎⵏⵏⴰⵡ ⵉⴼⵓⵢⵍⴰ ZIP. ⵀⴰ ⴷ ⵜⵓⵜⵜⵔⵉⵡⵉⵏ ⵏⵏⵓⵏ ⵣⵔⵉⵏⵉⵏ:
 download-request-button = ⴰⴳⵎ
 download-request-title = { $created }
+download-request-archive-single = ⴰⴼⴰⵢⵍⵓ ZIP ⴰⵎⵢⴰⵏ ⵢⵓⵎⵉⵏ
+download-request-refresh-button = ⵙⴷⵖⵉ
 download-request-modal-title = ⵉⵙⵖⵡⴰⵏ ⵏ ⵡⴰⴳⴰⵎ
 download-request-modal-description = ⵀⴰ ⴷ ⵉⵙⵖⵡⴰⵏ ⵎⴰ ⵙ ⵜⴻⵜⵜⴰⴳⵎⵎ ⵉⴼⵓⵢⵍⴰ ZIP ⵏⵏⵓⵏ.
-download-request-metadata-link = ⴰⴹⵕⵉⵚⵏ ⵜⵡⵉⵏⵙⵜ
+download-request-link-text = Zip #{ $offset } ⵙⴳ { $total }
+download-request-metadata-link = ⴰⴹⵕⵉⵚ ⵏ ⵜⵡⵉⵏⵙⵜ
 
 ## Landing
 
@@ -959,3 +963,4 @@ varying-pronunciations-example = ⵥⵕⵉⵖ ⵓⵍⵜⵎⴰ ⴰⵙⵙⵏⵏⴰ
 varying-pronunciations-tip-1 = [ⵙ ⵜⵎⴰⵣⵉⵖⵜ ⵜⴰⵔⵉⴼⵉⵜ ⵏⵖⵉⵢ ⴰⴷ ⵏⵙⵓⵙⵔⵓ "ⵓⵍⵜⵎⴰ" ⵣⵓⵏ ⴷ "ⵓⵜⵛⵎⴰ"]
 varying-pronunciations-tip-2 = [ⵙ ⵜⵎⴰⵣⵉⵖⵜ ⵏ ⵡⴰⵟⵍⴰⵚ ⴰⵏⴰⵎⵎⴰⵙ ⵏⵖⵉⵢ ⴰⴷ ⵏⵙⵓⵙⵔⵓ "ⵓⵍⵍⵎⴰ"]
 still-have-questions = ⵖⵓⵔⵓⵏ ⵙⵓⵍ ⵉⵙⵇⵙⵉⵜⵏ?
+adding-sentences-subheader-length-explanation = ⵉⵅⵚⵚⴰ ⴰⴷ ⵜⵉⵍⵉ ⵜⵡⵉⵏⵙⵜ ⴷⵔⵓⵙ ⵙⴳ 15 ⵜⴳⵓⵔⵉⵡⵉⵏ.
