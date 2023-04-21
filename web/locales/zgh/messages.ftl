@@ -767,6 +767,7 @@ download-profile-size = ⴽⵔⴰ ⵏ ⵉⵜⴰⵎⴹⴰⵏⵏ (B)
 download-recordings-title = ⵉⵙⵓⵙⴰⵔ
 download-recordings-info = ⴳⵉⵙ ⵉⴷ MP3 ⴷ ⵜⵡⵉⵏⴰⵙ ⵇⵇⵏⵏⵉⵏ, ⵉⵖⵉⵢ ⴰⴷ ⵢⴰⵎⵥ ⴽⵔⴰ ⵏ ⵜⵉⵣⵉ ⵃⵎⴰ ⴰⴷ ⵉⵎⵓⵜⵜⴳ
 download-recordings-size = ⵙ ⵓⵎⴰⵜⴰ ⵉⵎⵉⴳⴰⵜⴰⵎⴹⴰⵏⵏ (MB)
+download-recordings-unavailable = ⵓⵔ ⵜⵣⵎⵉⵔⵎ ⴰⴷ ⵜⴻⵜⵜⵔⵎ ⵉⵙⵓⵙⴰⵔ ⵏⵏⵓⵏ ⴽⵓⴷⵏⵏⴰ ⵢⴰⴷ ⵜⵍⵍⴰ ⴽⵔⴰ ⵏ ⵜⵓⵜⵜⵔⴰ ⵢⴰⴹⵏ ⴳ ⵡⴰⵍⴰⵢ.
 download-start = ⴰⴳⵎ ⵉⵙⴼⴽⴰ ⵏ ⵉⴼⵔⵙ
 download-request-button = ⴰⴳⵎ
 download-request-title = { $created }
