@@ -522,6 +522,7 @@ data-get-started = <speechBlogLink>ⵙⵙⵏⵜⵉ ⵙ ⵡⴰⴽⴰⵣ ⴰⴳⵕ
 data-other-title = ⵜⵉⴳⵔⵓⵎⵎⴰⵡⵉⵏ ⵏ ⵉⵙⴼⴽⴰ ⵉⴳⵕⴹⴰⵏⵏ ⵢⴰⴹⵏⵉⵏ…
 data-other-goto = ⴷⴷⵓ ⵖⵔ { $name }
 data-other-download = ⴰⴳⵎ ⵉⵙⴼⴽⴰ
+data-bundle-button = ⴰⴳⵎ ⴰⵙⵎⵓⴹ ⵏ ⵜⴳⵔⵓⵎⵎⴰ ⵏ ⵉⵙⴼⴽⴰ
 release-version = ⵜⴰⵍⵇⵇⵎⵜ
 dataset-date = ⴰⵙⴰⴽⵓⴷ
 license = ⵜⵓⵔⴰⴳⵜ: <licenseLink>{ $license }</licenseLink>
@@ -547,6 +548,7 @@ confirm-join-mailing-list = ⵅⵙⵖ ⴰⴷ ⵍⴽⵎⵖ ⵜⴰⵍⴳⴰⵎⵜ 
 download-language = ⴰⴳⵎ { $language }
 validated-hours = ⵜⵉⵙⵔⴰⴳⵉⵏ ⵣⵔⵢⵏⵉⵏ
 recorded-hours = ⵜⵉⵙⵔⴰⴳⵉⵏ ⵜⵜⵓⵙⵓⵙⵔⵏⵉⵏ
+other-datasets = ⵜⵉⴳⵔⵓⵎⵎⴰⵡⵉⵏ ⵏ ⵉⵙⴼⴽⴰ ⵉⴳⵕⴹⴰⵏⵏ ⵢⴰⴹⵏⵉⵏ
 go-discourse = ⴷⴷⵓ ⵖⵔ ⴷⵉⵙⴽⵓⵔⵙ
 go-languages-page = ⴷⴷⵓ ⵙ ⵜⴰⵙⵏⴰ ⵏ ⵜⵓⵜⵍⴰⵢⵉⵏ
 ready-to-validate = ⵜⵎⵓⵜⵜⴳⴷ ⴰⴷ ⵜⴰⵡⵙⴷ ⴳ ⵓⵣⵣⵔⴰⵢ ⵏ ⵜⵡⵉⵏⴰⵙ?
@@ -735,7 +737,9 @@ profile-form-delete = ⴽⴽⵙ ⵉⴼⵔⵙ
 
 ## Profile Download
 
+download-q = ⵜⵓⵙⵔⵎ ⴰⴷ ⵜⴰⴳⵎⵎ ⵉⵙⴼⴽⴰ ⵏⵏⵓⵏ?
 download-profile-title = ⵉⴼⵔⵙ
+download-start = ⴰⴳⵎ ⵉⵙⴼⴽⴰ ⵏ ⵉⴼⵔⵙ
 download-request-button = ⴰⴳⵎ
 download-request-title = { $created }
 download-request-modal-title = ⵉⵙⵖⵡⴰⵏ ⵏ ⵡⴰⴳⴰⵎ
@@ -755,6 +759,7 @@ demo-welcome = ⴱⵔⵔⴽⴰⵜ ⴳ ⴽⴰⵎⵏⴼⵓⵢⵙ
 demo-language-select-card-body = ⵜⴰⵏⵎⵎⵉⵔⵜ ⵅⴼ ⵡⴰⵔⵔⴰⴳⵏ ⵙⴳ ⵖⵓⵔ ⵓⴳⴳⴰⵔ ⵏ 259ⴼⴹ ⵏ ⵎⴷⴷⵏ ⵙ ⵡⵓⴳⴳⴰⵔ ⵏ 50 ⵏ ⵜⵓⵜⵍⴰⵢⵉⵏ, ⴷⴰ ⵜⵜⵓⵙⵎⵔⴰⵙⵏ ⵉⵙⴼⴽⴰ ⴰ ⵉ ⵓⵙⴰⵏⵓⵏ ⵏ ⵜⵙⵏⵙⵉⵜⵉⵏ ⵜⵉⵣⵎⵔⴰⵡⴰⵍⵉⵏ ⵃⵎⴰ ⴰⴷ ⵔⴰⵔⵏⵜ ⵎⵍⵉⵃ ⵉ ⵓⴳⵕⴹ ⴰⵏⴼⴳⴰⵏ.
 card-button-next = ⵓⴹⴼⵉⵕ
 demo-language-select-label = ⵙⵜⴰⵔⴰ ⵜⵓⵜⵍⴰⵢⵉⵏ
+demo-eofy-header = ⵜⵓⴼⴼⵖⴰ ⵏ ⵜⴳⵉⵔⴰ ⵏ ⵓⵙⴳⴳⵯⴰⵙ ⵏ 2019
 demo-account = ⴰⵎⵉⴹⴰⵏ
 
 ## Demo Account
