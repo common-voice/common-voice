@@ -883,6 +883,7 @@ sc-logout-button = ⵓⴼⵓⵖ
 
 ## HOME
 
+sc-home-collect-text = ⴰⵡⵙ ⴰⵏⵖ ⵙ ⵜⵉⵔⵔⴰ ⵏⵉⵖ ⴰⴳⵔⵔⵓ ⵏ ⵜⵡⵉⵏⴰⵙ ⵏ ⵡⴰⴳⵍⴰ ⴰⴳⴷⵓⴷⴰⵏ.
 
 ## GENERAL
 
@@ -1047,4 +1048,5 @@ adding-sentences-subheader-length = ⵜⵉⵖⵣⵉ
 adding-sentences-subheader-length-explanation = ⵉⵅⵚⵚⴰ ⴰⴷ ⵜⵉⵍⵉ ⵜⵡⵉⵏⵙⵜ ⴷⵔⵓⵙ ⵙⴳ 15 ⵜⴳⵓⵔⵉⵡⵉⵏ.
 adding-sentences-subheader-spelling-punctuation = ⴰⵙⵏⵎⴰⵔⵔⴰ ⴷ ⵓⵙⵏⵇⴹ
 adding-sentences-subheader-spelling-punctuation-explanation = ⵉⵇⵇⴰⵏ ⴷ ⴰⴷ ⵢⴰⵖⴷ ⵓⵙⵏⵎⴰⵔⵔⴰ ⵏ ⵜⵡⵉⵏⵙⵜ.
+adding-sentences-subheader-numbers = ⵓⵟⵟⵓⵏⵏ
 community-announcement-header = ⵜⵓⵙⵎⵉⵔⵜ ⵏ ⵜⴳⵔⴰⵡⵜ!
