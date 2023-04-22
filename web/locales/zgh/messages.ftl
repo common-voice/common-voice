@@ -607,10 +607,16 @@ request-language-form-email =
     .label = ⴰⵏⵙⴰ ⵏ ⵉⵎⴰⵢⵍ ⵏⵏⵓⵏ
 request-language-form-info =
     .label = ⵉⵏⵖⵎⵉⵙⵏ ⵅⴼ ⵜⵓⵜⵍⴰⵢⵜ
+request-language-form-info-explanation =
+    ⵔⵏⵓ ⴰⵏⵛⵜ ⵏⵏⴰ ⵎⵉⵜ ⵜⵓⴼⵉⴷ ⵏ ⵉⵏⵖⵎⵉⵙⵏ ⵅⴼ ⵜⵓⵜⵍⴰⵢⵜ ⴰ. ⵉⵖⵉⵢ
+    ⴰⴷ ⴰⵎⵓⵏ:
 request-language-form-info-explanation-list-1 = ⵉⵙⵎⴰⵡⵏ ⵏ ⵜⵓⵜⵍⴰⵢⵜ ⵏⵏⵓⵏ
 request-language-form-info-explanation-list-2 = <isoCodeLink>ⵜⴰⵏⴳⴰⵍⵉⵏ ⵏ ⵉⵣⵓ</isoCodeLink> ⵉⴳ ⵜⵜⵡⴰⵙⵙⵏⵏⵜ
 request-language-form-info-explanation-list-3 = ⵉⵙⵖⴰⵏ ⵖⵔ ⵉⵙⵉⵜⵡⵉⴱⵏ ⵏⵏⴰ ⵉⵣⵎⵔⵏ ⴰⴷ ⴰⵏⵖ ⴰⵡⵙⵏ ⴰⴷ ⵏⵔⵎⵙ ⵜⵓⵜⵍⴰⵢⵜ
 request-language-google-recaptcha-required = ⵜⵇⵇⴰⵏ ⴷ reCAPTCHA ⵎⴽ ⵜⵅⵙⴷ ⴰⴷ ⵙⵓⵍ ⵜⵙⵎⴷⴷ
+request-language-google-recaptcha-error = ⵜⵣⴳⵍ ⴽⵔⴰ ⵏ ⵜⵖⴰⵡⵙⴰ ⴰⴽⴷ reCAPTCHA. ⵎⴽ ⵜⵓⴼⵉⴷ, ⴰⵔⵎ ⴷⴰⵖ.
+# Success page
+request-language-success-heading = ⵜⴰⵏⵎⵎⵉⵔⵜ! ⵜⵓⵣⵏⴷ ⵢⴰⵜ ⵜⵓⵜⵜⵔⴰ ⵏ ⵜⵓⵜⵍⴰⵢⵜ ⵜⴰⵎⴰⵢⵏⵓⵜ
 
 ## Languages Overview
 
