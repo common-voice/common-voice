@@ -474,6 +474,7 @@ about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollec
 ## How does localization work
 
 about-playbook-how-localize-content-1 = ⴷⴰ ⵉⵜⵜⵓⵙⴽⵉⵔ ⵓⵙⵓⵖⵍ ⵏ ⵓⵙⵉⵜ ⵏ ⴽⴰⵎⵏⴼⵓⵢⵙ ⴳ <strong>ⴱⵓⵏⵜⵓⵏ</strong>.
+about-playbook-how-localize-content-3 = ⴰⵔ ⴷ ⵉⵜⵜⴽⴽⴰ ⵓⵙⵓⵖⵍ ⵜⴰⵏⴳⵍⵉⵣⵉⵜ, ⵎⴰⵛⴰ ⵜⵣⵎⵔⵎ ⴰⴷ ⵜⵥⵕⵎ <strong>ⵉⵙⵓⵎⵓⵔⵏ</strong> ⵙ ⵜⵓⵜⵍⴰⵢⵉⵏ ⵢⴰⴹⵏⵉⵏ. ⴽⵍⵉⴽⵢⴰⵜ ⵅⴼ ⵜⵢⴽⵓⵏⵜ ⵏ <strong>ⵉⴼⵔⵙ</strong>, ⵉⵍⵎⵎⴰ ⵙ ⵓⵙⵖⵏ ⵏ <strong>ⵜⵙⵖⴰⵍ</strong>, ⵜⵔⵏⵓⵎ ⵜⵓⵜⵍⴰⵢⵉⵏ ⵏⵏⴰ ⴽⴰ ⵜⵙⴰⵡⴰⵍⵎ. ⴳ ⵜⵖⵎⵔⵜ ⵜⴰⴼⴰⵙⵉⵜ ⵜⴰⵏⴷⴷⴰⵡⵜ ⵔⴰⴷ ⵜⵉⵍⵉ ⵢⴰⵜ ⵜⴰⵍⴳⴰⵎⵜ ⵏ ⵜⵙⵓⵖⴰⵍ ⵉⵜⵜⵓⵙⵎⵎⴰⵏ <strong>ⵜⵓⵜⵍⴰⵢⵉⵏ</strong>. ⵍⴰ ⵜⵜⵓⵎⴰⵏⵏⵜ ⵜⵙⵓⵖⴰⵍ ⴳ ⵓⵙⵉⵜ ⴹⴰⵕⵜ ⵢⴰⵏ ⵡⴰⵙⵙ.
 about-playbook-how-localize-content-4 = ⴷⴰ ⵉⵜⵜⵎⵓⵜⵜⵓⴳ ⵓⵙⵉⵜ ⵉ ⵓⵏⵏⵓⵕⵥⵎ ⴰⴷⴷⴰⵢ ⵉⵍⴽⵎ 75% ⵏ ⵓⵙⵎⴰⴷ.
 about-playbook-how-localize-content-5 = ⴰⵏⵏⴰⵢⴰⵜ ⴰⴼⵉⴷⵢⵓ ⴰⵎⵙⵙⴼⵔⵓ ⵏⵏⵖ ⴰⴷ ⴰⵡⵏ ⵢⴰⵡⵙ
 
