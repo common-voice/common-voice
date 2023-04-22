@@ -965,6 +965,8 @@ sc-settings-failed = ⵓⵔ ⵏⵣⵎⵉⵔ ⴰⴷ ⵏⵙⵏⴼⵍ ⵜⵉⵙⵖ�
 
 partnerships-get-in-touch = ⵏⵢⴰⵍⴽⴰⵎ ⴷⵉⴷⵏⵖ
 partnerships-become-a-partner = ⴷⵡⵍ ⴷ ⴰⵎⴷⵔⴰⵡ ⵏ ⴽⴰⵎⵏⴼⵓⵢⵙ
+partnerships-community-header = ⵜⴰⴳⵔⴰⵡⵜ, ⵉⵎⵙⵏⴼⵍⵓⵍⵏ ⴷ ⵡⴰⵎⵓⵏ ⵓⵖⵔⵉⵎ
+partnerships-foundations-header = ⵜⵉⵎⵔⵙⴰⵍ
 partnerships-governments-header = ⵜⵉⵏⴱⴰⴹⵉⵏ
 partnerships-academia-header = ⵜⵉⵙⴷⴰⵡⵉⵢⵉⵏ, ⵉⵎⵙⴷⴰⵡⵉⵢⵏ ⴷ ⵉⵎⵔⵣⴰ
 # GUIDELINES PAGE
