@@ -1052,5 +1052,7 @@ adding-sentences-subheader-numbers = ⵓⵟⵟⵓⵏⵏ
 adding-sentences-subheader-punctuation = ⴰⵙⵏⵇⴹ
 adding-sentences-subheader-special-characters = ⵉⵡⵏⵖⵓⵜⵏ ⵉⵎⵥⵍⴰⵢ ⴷ ⵉⵙⴽⴽⵉⵍⵏ ⵉⴱⵕⵕⴰⵏⵉⵢⵏ
 adding-sentences-subheader-special-characters-explanation-1 = ⵉⵇⵇⴰⵏ ⴷ ⵉⵙⴽⴽⵉⵍⵏ ⴰⴷ ⵣⵔⵢⵏ ⴳ ⵜⵓⵜⵍⴰⵢⵜ ⵏ ⵡⴰⵡⴰⵍ. ⵙ ⵓⵎⴷⵢⴰ, “ⵘ” ⵉⴳⴰ ⴰⵙⴽⴽⵉⵍ ⵏ ⵜⴼⵉⵏⴰⵖ ⵎⴰⵛⴰ ⵓⵔ ⵍⴰ ⵜ ⵙⴰⵔ ⵏⵙⵙⵎⵔⴰⵙ ⴳ ⵜⵎⴰⵣⵉⵖⵜ ⵜⴰⵏⴰⵡⴰⵢⵜ ⵓⴽⴰⵏ ⵓⵔ ⵉⵅⵚⵚⴰ ⴰⴷ ⵙⴰⵔ ⵢⵓⵎⴰⵏ ⴳ ⵓⵍⴰ ⴽⵔⴰ ⵏ ⵓⴹⵕⵉⵚ ⴰⵙⴰⴳⵎ ⵏ ⵜⵎⴰⵣⵉⵖⵜ.
+reviewing-sentences-explanation-1 = ⵎⴽ ⴷ ⵜⵎⵙⴰⵙⴰ ⵜⵡⵉⵏⵙⵜ ⴷ ⵉⵙⴱⴷⴰⴷⵏ ⵏⵏⵉⴳ ⴷⴰ, ⴽⵍⵉⴽⵉ ⵅⴼ ⵓⴱⵔⴰ "ⵢⴰⵀ".
+reviewing-sentences-explanation-2 = ⵎⴽ ⴷ ⵓⵔ ⵜⵎⵙⴰⵙⴰ ⵜⵡⵉⵏⵙⵜ ⴷ ⵉⵙⴱⴷⴰⴷⵏ ⵏⵏⵉⴳ ⴷⴰ, ⴽⵍⵉⴽⵉ ⵅⴼ ⵓⴱⵔⴰ "ⵓⵀⵓ".
 reviewing-sentences-explanation-4 = ⵎⴽ ⴰⵡⵏ ⵙⵎⴰⵔⵏⵜ ⵜⵡⵉⵏⴰⵙ ⵎⴰ ⵎⵉ ⵜⵣⵣⵔⴰⵢⵎ, ⵎⴽ ⵜⵓⴼⴰⵎ, ⴰⵡⵙⴰⵜ ⴰⵏⵖ ⴰⴷ ⵏⴳⵔⵓ ⵓⴳⴳⴰⵔ ⵏ ⵜⵡⵉⵏⴰⵙ!
 community-announcement-header = ⵜⵓⵙⵎⵉⵔⵜ ⵏ ⵜⴳⵔⴰⵡⵜ!
