@@ -1020,6 +1020,7 @@ background-noise-example-1 = ⵉⵣⵎⴰⵡⵏ ⵏ ⵡⴰⵟⵍⴰⵚ.
 background-noise-example-2 = [ⵜⵉⵏⵣⵉ] ⵉⵣⵎⴰⵡⵏ [ⵜⵓⵙⵓⵜ] ⵏ ⵡⴰⵟⵍⴰⵚ.
 background-noise-example-3 = ⵉⵣⵎⴰ [ⵜⵓⵙⵓⵜ] ⵏ ⵡⴰⵟⵍⴰⵚ.
 background-noise-example-4 = [ⴰⵟⵇⵟⵇ] ⵣⵎⴰⵡⵏ [ⴰⵟⵇⵟⵇ] -ⵟⵍⴰⵚ.
+background-noise-tip-1 = [ⵉⵏⵏⴳⵣⴰ ⵙ ⵓⴷⵉⴷⴰ ⵏ ⵜⵖⵔⴷⵉⵏ]
 background-voices-example-1 = ⵉⵣⵎⴰⵡⵏ ⵏ ⵡⴰⵟⵍⴰⵚ. [ⵜⵉⵖⵔⵉ ⵙ ⵢⴰⵏ ⵓⴳⵕⴹ]
 background-voices-tip-1 = ⵔⴰⴷ ⴷ ⵜⴷⴷⵓⴷ? [ⴰⵡⴰⵍ ⵏ ⴽⵔⴰ ⵏ ⵢⴰⵏ ⵢⴰⴹⵏ]
 still-have-questions = ⵖⵓⵔⵓⵏ ⵙⵓⵍ ⵉⵙⵇⵙⵉⵜⵏ?
