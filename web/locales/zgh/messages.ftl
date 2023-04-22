@@ -975,6 +975,11 @@ partnerships-our-partners = ⵉⵎⴷⵔⴰⵡⵏ ⵏⵏⵖ
 # FIRST POST SUBMISSION CTA
 first-cta-header-text = ⵜⴰⵏⵎⵎⵉⵔⵜ ⵅⴼ ⵜⵉⴽⴽⵉ ⵏ ⵜⵓⵙⵙⵉⴼⵉⵏ ⵜⵉⴳⵕⴹⴰⵏⵉⵏ ⵏⵏⵓⵏ!
 first-cta-subtitle-text = ⵉⵙ ⵜⵔⵉⴷ ⴰⴷ ⵜⴱⴹⵓⴷ ⴽⵔⴰ ⵏ ⵉⵏⵖⵎⵉⵙⵏ ⵅⴼ ⵎⴰⵏⵎⴽ ⵍⴰ ⵜⵙⴰⵡⴰⵍⴷ?
+why-donate = ⵎⴰⵖⵔ ⵜⵙⵇⵙⴰⴷ?
+add-information-button = ⵔⵏⵓ ⵉⵏⵖⵎⵉⵙⵏ
+continue-speaking-button = ⵓⵀⵓ ⵜⴰⵏⵎⵎⵉⵔⵜ, ⵙⵎⴷ ⵙⵓⵍ ⴰⵙⵉⵡⵍ
+create-profile-text = ⵜⵅⵙⵎ ⴰⴷ ⵜⵃⴹⵓⵎ ⵉⵏⵖⵎⵉⵙⵏ ⵏⵏⵓⵏ? <createProfile>ⵙⵏⴼⵍⵓⵍⴰⵜ ⵉⴼⵔⵙ</createProfile>
+thanks-for-voice-toast = ⵜⴰⵏⵎⵎⵉⵔⵜ ⵅⴼ ⵉⵏⵖⵎⵉⵙⵏ ⵉⴳⵕⴹⴰⵏⵏ ⵏⵏⵓⵏ
 # GUIDELINES PAGE
 guidelines-header = ⵜⴰⵔⴰⵜⵉⵏ ⵏ ⵡⴰⵔⵔⴰⴳ
 example = ⴰⵎⴷⵢⴰ
