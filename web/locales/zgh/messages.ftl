@@ -889,6 +889,7 @@ sc-logout-button = ⵓⴼⵓⵖ
 ## HOW-TO
 
 sc-howto-addsen-title = ⵔⵏⵓ ⵜⵉⵡⵉⵏⴰⵙ ⵜⵉⵎⴰⵢⵏⵓⵜⵉⵏ
+sc-howto-findpd-title = ⵜⵉⴼⵉ ⵏ ⵜⵡⵉⵏⴰⵙ ⵍⵍⴰⵏⵉⵏ ⴳ ⵡⴰⴳⵍⴰ ⴰⴳⴷⵓⴷⴰⵏ
 
 ## MY SENTENCES
 
@@ -1030,6 +1031,8 @@ contact-common-voice = ⵎⵢⴰⵡⴰⴹⴰⵜ ⴰⴽⴷ ⵜⵔⴰⴱⴱⵓⵜ 
 citing-sentences = ⴰⴱⴷⴰⵔ ⵏ ⵜⵡⵉⵏⴰⵙ
 adding-sentences = ⴰⵔⵏⵏⵓ ⵏ ⵜⵡⵉⵏⴰⵙ
 reviewing-sentences = ⴰⵣⵣⵔⴰⵢ ⵏ ⵜⵡⵉⵏⴰⵙ
+public-domain-explanation-5 = ⵙⵙⵉⴳⵍ ⴰⴹⵕⵉⵚ ⵏⵏⴰ ⵙⵓⵍ ⵓⵔ ⵉⵍⵉⵏ ⵉⵣⵔⴼⴰⵏ ⵏ ⵓⵎⵙⴽⴰⵔ - ⵙ ⵓⵎⴷⵢⴰ, ⴰⵎⴰⵜⴰ ⵏ ⵉⴷⵍⵉⵙⵏ ⵏⵏⴰ ⵜⵜⵓⵥⵕⴰⴳⵏⵉⵏ ⴷⴰⵜ 1920
+citing-sentences-subheader-academic-reference = ⵜⴰⵙⴰⵖⵓⵍⵜ ⵜⴰⵙⴷⴰⵡⴰⵏⵜ
 citation =
     .label = ⵜⴰⴱⴷⴰⵔⵜ
 self-citation = ⵜⴰⴱⴷⴰⵔⵉⵎⴰⵏⵜ
