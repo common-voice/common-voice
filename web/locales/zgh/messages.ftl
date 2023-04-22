@@ -967,6 +967,7 @@ partnerships-get-in-touch = ⵏⵢⴰⵍⴽⴰⵎ ⴷⵉⴷⵏⵖ
 partnerships-become-a-partner = ⴷⵡⵍ ⴷ ⴰⵎⴷⵔⴰⵡ ⵏ ⴽⴰⵎⵏⴼⵓⵢⵙ
 partnerships-community-header = ⵜⴰⴳⵔⴰⵡⵜ, ⵉⵎⵙⵏⴼⵍⵓⵍⵏ ⴷ ⵡⴰⵎⵓⵏ ⵓⵖⵔⵉⵎ
 partnerships-foundations-header = ⵜⵉⵎⵔⵙⴰⵍ
+partnerships-foundations-description = ⵍⴰ ⵏⵙⵡⵓⵔⵓⵢ ⴰⴽⴷ ⵜⵎⵔⵙⴰⵍ, ⴰⵎⵓⵏ ⵓⵖⵔⵉⵎ ⴷ ⵉⵎⴷⵔⴰⵡⵏ ⵉⴳⵔⴰⵡⴰⵏⵏ ⵃⵎⴰ ⴰⴷ ⵏⵙⴽⵔ ⴳ ⵡⴰⵏⵜⵉⵔⵏⵉⵜ ⵢⴰⵏ ⵓⴷⵖⴰⵔ ⴰⴷⵓⵙⴰⵏ ⵓⴳⴳⴰⵔ, ⵙ ⵜⴰⵡⵏⴰ ⵉⵥⵍⵢⵏ ⵅⴼ ⵉⴼⵔⵉⵇⵢⴰ ⵏ ⵉⵎⵉⵏⵉⴽ. ⵙⵙⵏ ⵓⴳⴳⴰⵔ ⵅⴼ <programmaticWork>ⵜⵡⵓⵔⵉ ⵜⴰⵖⴰⵡⴰⵙⴰⵏⵜ</programmaticWork> ⵏⵏⵖ.
 partnerships-governments-header = ⵜⵉⵏⴱⴰⴹⵉⵏ
 partnerships-academia-header = ⵜⵉⵙⴷⴰⵡⵉⵢⵉⵏ, ⵉⵎⵙⴷⴰⵡⵉⵢⵏ ⴷ ⵉⵎⵔⵣⴰ
 # GUIDELINES PAGE
