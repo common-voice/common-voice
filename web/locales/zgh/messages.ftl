@@ -1050,4 +1050,5 @@ adding-sentences-subheader-spelling-punctuation = ⴰⵙⵏⵎⴰⵔⵔⴰ ⴷ �
 adding-sentences-subheader-spelling-punctuation-explanation = ⵉⵇⵇⴰⵏ ⴷ ⴰⴷ ⵢⴰⵖⴷ ⵓⵙⵏⵎⴰⵔⵔⴰ ⵏ ⵜⵡⵉⵏⵙⵜ.
 adding-sentences-subheader-numbers = ⵓⵟⵟⵓⵏⵏ
 adding-sentences-subheader-punctuation = ⴰⵙⵏⵇⴹ
+adding-sentences-subheader-special-characters = ⵉⵡⵏⵖⵓⵜⵏ ⵉⵎⵥⵍⴰⵢ ⴷ ⵉⵙⴽⴽⵉⵍⵏ ⵉⴱⵕⵕⴰⵏⵉⵢⵏ
 community-announcement-header = ⵜⵓⵙⵎⵉⵔⵜ ⵏ ⵜⴳⵔⴰⵡⵜ!
