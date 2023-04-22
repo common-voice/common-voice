@@ -954,9 +954,11 @@ sc-review-form-button-reject-shortcut = ⵓ
 
 sc-settings-title = ⵜⵉⵙⵖⴰⵍ
 sc-settings-ui-language = ⵜⵓⵜⵍⴰⵢⵜ ⵏ ⵓⴳⵔⵓⴷⵎ
+sc-settings-failed = ⵓⵔ ⵏⵣⵎⵉⵔ ⴰⴷ ⵏⵙⵏⴼⵍ ⵜⵉⵙⵖⴰⵍ. ⵎⴽ ⵜⵓⴼⴰⵎ, ⴰⵔⵎⴰⵜ ⵜⵉⴽⴽⵍⵜ ⵢⴰⴹⵏ.
 
 # [/SentenceCollector]
 
+partnerships-become-a-partner = ⴷⵡⵍ ⴷ ⴰⵎⴷⵔⴰⵡ ⵏ ⴽⴰⵎⵏⴼⵓⵢⵙ
 partnerships-governments-header = ⵜⵉⵏⴱⴰⴹⵉⵏ
 partnerships-academia-header = ⵜⵉⵙⴷⴰⵡⵉⵢⵉⵏ, ⵉⵎⵙⴷⴰⵡⵉⵢⵏ ⴷ ⵉⵎⵔⵣⴰ
 # GUIDELINES PAGE
