@@ -405,6 +405,7 @@ why-demographic = Kvifor er dette viktig?
 why-demographic-explanation-2 = Anonymiserte brukardata, som alder, kjønn og dialekt berikar stemmedataa som vert brukte for å trene talegjenkjenningsmotorane. Brukarnamnet ditt og e-postadressa di vil aldri bli assosierte med bidraga dine, og du kan velje om du vil at brukarnamnet ditt skal vere offentleg eller anonymt.
 accept-privacy = Eg godtar at de handterer denne informasjonen som forklart i Mozillas <privacyLink>personvernpraksis</privacyLink>.
 accept-privacy-title = Personvernpraksis
+accept-privacy-and-terms = Eg godtek <termsLink>vilkåra</termsLink> og <privacyLink>personvernerklæringa</privacyLink> til Common Voice
 login-identity = Innloggingsidentitet
 login = Logg inn
 login-signup = Logg inn / Meld deg på
@@ -558,6 +559,7 @@ about-playbook-how-add-language-collecting-sentences-heading = Innsamling av set
 
 ## How does localization work
 
+about-playbook-how-localize-content-1 = Common Voice vert omsett på <strong>Pontoon</strong>.
 about-playbook-how-localize-content-5 = Sjå videoforklaringa vår for hjelp
 
 ## How to add sentences
