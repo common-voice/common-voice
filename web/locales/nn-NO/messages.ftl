@@ -98,6 +98,7 @@ kk = Kasakhisk
 km = Khmer
 kmr = Nordkurdisk
 kn = Kannada
+knn = Konkani (Devanagari)
 ko = Koreansk
 kpv = Komi (syriansk)
 kw = Kornisk
@@ -200,6 +201,7 @@ xh = Xhosa
 yi = Jiddisk
 yo = Joruba
 yue = Kantonesisk
+zgh = Tamazight
 zh-CN = Kinesisk (Kina)
 zh-HK = Kinesisk (Hong Kong)
 zh-TW = Kinesisk (Taiwan)
@@ -216,6 +218,7 @@ speak-now = Snakk no
 datasets = Datasett
 languages = Språk
 about = Om oss
+partner = Partnar
 profile = Profil
 help = Hjelp
 contact = Kontakt
@@ -358,6 +361,8 @@ profile-form-additional-language =
     .label = Ytterlegare språk
 profile-form-language =
     .label = Språk
+profile-form-variant =
+    .label = Kva for variant av { $language } snakkar du?
 profile-form-variant-default-value = Ingen variant valt
 profile-form-accent =
     .label = Dialekt
@@ -492,7 +497,10 @@ how-does-it-work-text = Vi masseinnsamlar (crowdsourcing) eit ope datasett av st
 
 ## How does it work section
 
+about-language-req-subtitle = Nokon ber om å leggje til eit språk.
+about-localization-title = Omsetjing av nettstad
 about-sentence-collection-title = Setningsinnsamling
+about-voice-contrib-title = Stemmebidrag
 about-voice-validation-title = Stemmevalidering
 about-voice-validation-subtitle = Andre personar validerer desse stemmeklippa.
 about-dataset-release-title = Utgiving av datasett
@@ -711,6 +719,17 @@ other-language = Anna språk
 ## Request Language Pages
 
 request-language-heading = Spør om eit nytt språk
+request-language-form-email =
+    .label = E-postadressa di
+request-language-form-info =
+    .label = Informasjon om språket
+request-language-form-info-explanation-list-1 = Namn på språket ditt
+request-language-form-info-explanation-list-2 = <isoCodeLink>ISO-kodar</isoCodeLink> om kjende
+request-language-form-info-explanation-list-3 = Lenkjer til nettstadar som kan hjelpe oss med å forstå språket
+request-language-google-recaptcha-required = reCAPTCHA er påkravd om du vil halde fram
+request-language-google-recaptcha-error = Noko gjekk gale med reCAPTCHA. Prøv på nytt.
+# Success page
+request-language-success-heading = Takk skal du ha! Du har sendt ein førespurnad om eit nytt språk
 
 ## Languages Overview
 
