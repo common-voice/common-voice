@@ -88,6 +88,7 @@ is = Islandsk
 it = Italiensk
 izh = Ingrisk
 ja = Japansk
+jbo = Lojban
 ka = Georgisk
 kaa = Karakalpak
 kab = Kabylsk
@@ -96,6 +97,7 @@ ki = Kikuyu
 kk = Kasakhisk
 km = Khmer
 kmr = Nordkurdisk
+kn = Kannada
 ko = Koreansk
 kpv = Komi (syriansk)
 kw = Kornisk
@@ -201,6 +203,8 @@ yue = Kantonesisk
 zh-CN = Kinesisk (Kina)
 zh-HK = Kinesisk (Hong Kong)
 zh-TW = Kinesisk (Taiwan)
+zu = Zulu
+zza = Zazaisk
 
 # [/]
 
@@ -724,6 +728,7 @@ language-speakers = Talt av
 localized = Omsett
 sentences = Setningar
 language-validation-hours = Timar
+language-validation-progress = Valideringsframdrift
 
 ## Contribution
 
