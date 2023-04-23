@@ -40,6 +40,7 @@ ba = baixkir
 bas = basaa
 be = bielorús
 bg = bulgar
+bm = Bambara
 bn = bengalí
 br = breton
 bs = bosnian
@@ -850,6 +851,9 @@ target-segment-first-banner = Ajudatz a arténher eth prumèr segment objectiu d
 target-segment-add-voice = Ahigetz era vòsta votz
 target-segment-learn-more = Mès informacion
 
+## Contribution Nav Items
+
+
 ## Reporting
 
 report = Informa
@@ -1445,3 +1449,4 @@ sc-validation-no-abbreviations = Era frasa non pòt contier abreviatures
 
 localization-select =
     .label = Causitz ua lengua/localizacion
+sentence-collection = Recuelhuda de frases
