@@ -334,12 +334,15 @@ username-email-not-demographic = ⵓⵔ ⵔⴰⴷ ⵉⵎⵓⵏ ⵢⵉⵙⵎ ⵏ 
 
 ## Speak & Listen Shortcuts
 
+# Must be one letter that appears in the translated { skip } string.
+shortcut-skip = ⵏ
 
 ## Listen Shortcuts
 
 # Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-play-toggle = ⵖ
+shortcut-play-toggle-label = ⵖⵔ/ⵙⴱⴷⴷ
 # Must be one letter that appears in the { vote-yes } string.
 # Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
 shortcut-vote-yes = ⵢ
@@ -686,6 +689,7 @@ action-click = ⴽⵍⵉⴽⵉ
 action-tap = ⴰⴷⵔ
 contribute = ⴰⵔⴳ
 listen = ⵙⵍⵍ
+skip = ⵙⵙⵉⵏⴼ
 clips-with-count-pluralized =
     { $count ->
         [one] <bold>{ $count }</bold> ⵜⵓⵙⵙⵉⴼⵜ
@@ -1016,11 +1020,14 @@ sc-criteria-modal = ⓘ ⵉⵙⴱⴷⴰⴷⵏ ⵏ ⵓⵣⵣⵔⴰⵢ
 
 sc-review-loading = ⴰⵣⴷⴰⵎ ⵏ ⵜⵡⵉⵏⴰⵙ…
 sc-review-form-button-reject = ⴰⴳⵢ
+sc-review-form-button-skip = ⵙⵙⵉⵏⴼ
 sc-review-form-button-approve = ⵙⵙⴳⵍⵢ
 # Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
 sc-review-form-button-approve-shortcut = ⵢ
 # Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
 sc-review-form-button-reject-shortcut = ⵓ
+# Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
+sc-review-form-button-skip-shortcut = ⵏ
 
 ## SETTINGS
 
