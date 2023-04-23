@@ -417,7 +417,7 @@ remove-avatar = ⵙⵉⵜⵜⵢ ⴰⴼⴰⵟⴰⵔ
 
 ## Profile - Email
 
-email-already-used = ⵉⵜⵜⵓⵙⵎⵔⵙ ⵢⴰⴷ ⵉⴰⵢⵍ ⴰ ⵉ ⵢⴰⵏ ⵓⵎⵉⴹⴰⵏ ⵉⵎⵣⴰⵔⴰⵢⵏ
+email-already-used = ⵉⵜⵜⵓⵙⵎⵔⵙ ⵢⴰⴷ ⵉⵎⴰⵢⵍ ⴰ ⵉ ⵢⴰⵏ ⵓⵎⵉⴹⴰⵏ ⵉⵎⵣⴰⵔⴰⵢⵏ
 add-language = ⵔⵏⵓ ⵜⵓⵜⵍⴰⵢⵜ
 change-email-setings = ⵙⵏⴼⵍⴰⵜ ⵉⵎⴰⵢⵍ ⵏⵏⵓⵏ ⴳ ⵜⵙⵖⴰⵍ ⴷⴷⴰⵡ ⵜⵎⴰⴳⵉⵜ ⵏ ⵓⴽⵛⴰⵎ
 
