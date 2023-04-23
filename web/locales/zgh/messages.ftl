@@ -400,6 +400,8 @@ profile-form-age =
     .label = ⴰⵡⵜⴰⵢ
 profile-form-gender-2 =
     .label = ⴰⴳⵏⵓⵙ
+leaderboard-visibility =
+    .label = ⵜⵓⵎⴰⵏⵜ ⵏ ⵜⴼⵍⵡⵉⵜ ⵏ ⵉⵎⵣⵡⴰⵔⵏ
 hidden = ⵉⴼⴼⵔ
 visible = ⵢⵓⵎⴰⵏ
 native-language =
@@ -424,6 +426,7 @@ profile-create-success = ⵉⵏⵏⴼⵍⵓⵍ ⵉⴼⵔⵙ ⵙ ⵓⵎⵓⵔⵙ!
 profile-close = ⵔⴳⵍ
 profile-explanation = ⵣⵓⵔⵜⴰⵜ ⴰⵍⴰⵢ ⵏⵏⵓⵏ ⵙ ⴽⵔⴰ ⵏ ⵢⵉⴼⵔⵙ, ⵜⴰⵡⵙⵎ ⵉ ⵉⵙⴼⴽⴰ ⵉⴳⵕⴹⴰⵏⵏ ⵏⵏⵖ ⴰⴷ ⴳⵏ ⵉⵎⵏⵖⴰⴷ ⵓⴳⴳⴰⵔ.
 thanks-for-account = ⵜⴰⵏⵎⵎⵉⵔⵜ ⵅⴼ ⵓⵙⵙⴷⴻⴷ ⵏ ⵓⵎⵉⴹⴰⵏ ⵏⵏⵓⵏ, ⴰⴷ ⵏⵥⴽⵓ ⵉⴼⵔⵙ ⵏⵏⵓⵏ ⴷⵖⵉ.
+why-demographic = ⵎⴰⵅⴼ ⵉⵅⴰⵜⵔ ⵓⵢⴰ?
 accept-privacy-title = ⵜⴰⵙⵔⵜⵉⵜ ⵏ ⵜⵉⵏⵏⵓⵜⵍⴰ
 accept-privacy-and-terms = ⵎⵙⴰⵙⴰⵖ ⴷ ⴰⴽⴷ <termsLink>ⵜⴼⴰⴷⵉⵡⵉⵏ</termsLink> ⵏ ⴽⴰⵎⵏⴼⵓⵢⵙ ⴷ <privacyLink>ⵜⵎⵏⵏⵉⵜ ⵏ ⵜⵉⵏⵏⵓⵜⵍⴰ</privacyLink>
 login-identity = ⵜⴰⵎⴰⴳⵉⵜ ⵏ ⵓⴽⵛⴰⵎ
@@ -791,6 +794,7 @@ validations =
 ## Dashboard
 
 your-languages = ⵜⵓⵜⵍⴰⵢⵉⵏ ⵏⵏⵓⵏ
+clips-you-recorded = ⵜⵓⵙⵙⵉⴼⵉⵏ ⵏⵏⴰ ⵜⵙⵓⵙⵔⴷ
 clips-you-validated = ⵜⵓⵙⵙⵉⴼⵉⵏ ⵏⵏⴰ ⵜⵣⵣⵔⵢⴷ
 you = ⴽⵯⵏⵏⵉ
 contribution-activity = ⴰⵎⵓⵙⵙⵓ ⵏ ⵡⴰⵔⵔⴰⴳ
