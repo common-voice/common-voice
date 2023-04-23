@@ -15,6 +15,9 @@ email-opt-in-privacy-v2 = Ved å registrere deg for å motta e-post godtar du at
 indicates-required = * Viser påkravd felt
 not-available-abbreviation = Ikkje tilgjengeleg
 banner-error-slow-link = Statusside
+error-something-went-wrong = Noko gjekk gale
+error-clip-upload = Opplasting av dette klippet fungerer framleis ikkje, ønskjer du å prøve på nytt?
+error-clip-upload-server = Opplasting av dette klippet feilar stadig på serveren. Last inn sida på nytt, eller prøv på nytt seinare.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -39,9 +42,11 @@ be = Kviterussisk
 bg = Bulgarsk
 bm = Bambara
 bn = Bengali
+bo = Tibetansk
 br = Bretonsk
 bs = Bosnisk
 bxr = Burjatisk
+byv = Medumba
 ca = Katalansk
 cak = Kakchikel
 ckb = Sentralkurdisk
@@ -51,6 +56,7 @@ cs = Tsjekkisk
 cv = Tsjuvasjisk
 cy = Walisisk
 da = Dansk
+dag = Dagbani
 de = Tysk
 dsb = Nedersorbisk
 dv = Dhivehi
@@ -74,6 +80,7 @@ gom = Goan Konkani
 ha = Hausa
 he = Hebraisk
 hi = Hindi
+hil = Hiligaynon
 hr = Kroatisk
 hsb = Oversorbisk
 ht = Haitisk
