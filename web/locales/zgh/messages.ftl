@@ -451,6 +451,8 @@ browse-file-title = ⵙⴽⵜⵔ ⴰⴼⴰⵢⵍⵓ ⵏ ⵜⵡⵍⴰⴼⵜ
 browse-file = ⵙⵓⵛⵛⴹ, ⵜⵙⵔⵙⴷ ⵏⵉⵖ <browseWrap>ⵜⵙⵙⴰⵔⴰⴷ</browseWrap>
 connect-gravatar = ⵣⴷⵢ ⵙ ⴳⵕⴰⴼⴰⵟⴰⵕ
 gravatar_not_found = ⵡⴰⵍⵓ ⴳⵕⴰⴼⴰⵟⴰⵕ ⵉⵜⵜⵢⴰⴼⴰⵏ ⵉ ⵢⵉⵎⴰⵢⵍ ⵏⵏⵓⵏ
+file_too_large = ⵉⵎⵇⵇⵓⵔ ⵓⴼⴰⵢⵍⵓ ⵉⵜⵜⵓⵙⵜⴰⵢⵏ ⵙ ⴽⵉⴳⴰⵏ
+avatar-uploaded = ⵉⴽⵜⵔ ⵡⴰⴼⴰⵟⴰⵕ
 max-file-size = { $kb }kb ⴰⵎⵓⵣⵣⵓⵔ
 remove-avatar = ⵙⵉⵜⵜⵢ ⴰⴼⴰⵟⴰⵔ
 
@@ -618,6 +620,7 @@ confirm-join-mailing-list = ⵅⵙⵖ ⴰⴷ ⵍⴽⵎⵖ ⵜⴰⵍⴳⴰⵎⵜ 
 download-language = ⴰⴳⵎ { $language }
 validated-hours = ⵜⵉⵙⵔⴰⴳⵉⵏ ⵣⵔⵢⵏⵉⵏ
 recorded-hours = ⵜⵉⵙⵔⴰⴳⵉⵏ ⵜⵜⵓⵙⵓⵙⵔⵏⵉⵏ
+want-dataset-update = ⵜⵅⵙⴷ ⵉⵙⴷⵖⵉⵜⵏ ⴰⴷⴷⴰⵢ ⴷ ⵏⵙⵙⵓⴼⵖ ⴽⵔⴰ ⵏ ⵜⵍⵇⵇⵎⵜ ⵜⴰⵎⴰⵢⵏⵓⵜ ⵏ ⵜⴳⵔⵓⵎⵎⴰ ⵏ ⵉⵙⴼⴽⴰ ⵏ ⴽⴰⵎⵏⴼⵓⵢⵙ? ⵍⵜⵖ ⴳ ⵜⴱⵔⴰⵜ ⵏ ⵉⵏⵖⵎⵉⵙⵏ ⵏⵏⵖ.
 subscribe = ⵍⵜⵖ
 other-datasets = ⵜⵉⴳⵔⵓⵎⵎⴰⵡⵉⵏ ⵏ ⵉⵙⴼⴽⴰ ⵉⴳⵕⴹⴰⵏⵏ ⵢⴰⴹⵏⵉⵏ
 go-discourse = ⴷⴷⵓ ⵖⵔ ⴷⵉⵙⴽⵓⵔⵙ
