@@ -361,6 +361,7 @@ why-demographic-explanation-2 = Anonymiserte brukardata, som alder, kjønn og di
 accept-privacy = Eg godtar at de handterer denne informasjonen som forklart i Mozillas <privacyLink>personvernpraksis</privacyLink>.
 accept-privacy-title = Personvernpraksis
 login-identity = Innloggingsidentitet
+login = Logg inn
 login-signup = Logg inn / Meld deg på
 edit = Rediger
 email-subscriptions = E-postabonnement
@@ -371,6 +372,8 @@ skip-submission-description = I løpet av bidragsinnsening vil tilbakemelding bl
 skip-submission-note = Merk: Du må framleis velje mellom Tal eller Lytt for å endre bidragstype.
 off = Av
 on = På
+help-accent = Treng du hjelp med dialekt?
+help-variants = Treng du hjelp med variantar?
 
 ## Profile - Email
 
@@ -381,6 +384,7 @@ gravatar_not_found = Fann ingen gravatar for e-postadressa di
 file_too_large = Den valde fila er for stor
 avatar-uploaded = Avatar lasta opp
 max-file-size = maks { $kb } kb
+remove-avatar = Fjern Avatar
 
 ## Profile - Email
 
@@ -450,10 +454,15 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Kvifor Common Voice?
+how-does-it-work-title-v2 = Korleis fungerer Common Voice?
 how-does-it-work-text = Vi masseinnsamlar (crowdsourcing) eit ope datasett av stemmer. Bidra med stemma di, valider nøyaktigheita av andre sine lydklipp og gjer datasettet betre for alle.
 
 ## How does it work section
 
+about-sentence-collection-title = Setningsinnsamling
+about-voice-validation-title = Stemmevalidering
+about-voice-validation-subtitle = Andre personar validerer desse stemmeklippa.
+about-dataset-release-title = Utgiving av datasett
 about-speak = Tal
 about-speak-text = Bidragsytarar spelar inn stemmeklipp ved å lese inn frå ei samling bidregne setningar.
 about-listen-queue = Lyttekø
