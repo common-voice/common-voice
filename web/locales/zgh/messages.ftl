@@ -268,6 +268,7 @@ vote-no = ⵓⵀⵓ
 speak-subtitle = ⴼⴽⴰⵜ ⴰⴳⵕⴹ ⵏⵏⵓⵏ
 speak-goal-text = ⵜⵓⵙⵙⵉⴼⵉⵏ ⵜⵜⵓⵙⵓⵙⵔⵏⵉⵏ
 listen-subtitle = ⴰⵡⵙ ⴰⵏⵖ ⴰⴷ ⵏⵣⵣⵔⵢ ⵉⴳⵕⴹⴰⵏ
+listen-paragraph = ⴰⵡⴷ ⴰⵣⵣⵔⴰⵢ ⵏ ⵜⵓⵙⵙⵉⴼⵉⵏ ⵜⵜⵓⴼⴽⴰⵏⵉⵏ ⵉⵅⴰⵜⵔ ⵉ ⵜⵙⵎⵉⴳⵍⵜ ⵏ ⴽⴰⵎⵏⴼⵓⵢⵙ. ⵙⵍⵍ ⵜⴰⵡⵙⴷ ⴰⵏⵖ ⴰⴷ ⵏⵙⵏⴼⵍⵓⵍ ⵉⵙⴼⴽⴰ ⵉⴳⵕⴹⴰⵏⵏ ⵏ ⵓⵙⴰⴳⵎ ⵓⵕⵥⵉⵎ ⵙ ⵓⵖⵓⴷⵓ.
 listen-goal-text = ⵜⵓⵙⵙⵉⴼⵉⵏ ⵣⵔⵢⵏⵉⵏ
 hours-recorded = ⵜⵉⵙⵔⴰⴳⵉⵏ ⵜⵜⵓⵙⵓⵙⵔⵏⵉⵏ
 hours-validated = ⵜⵉⵙⵔⴰⴳⵉⵏ ⵣⵔⵢⵏⵉⵏ
