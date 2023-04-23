@@ -400,14 +400,21 @@ profile-form-age =
     .label = ⴰⵡⵜⴰⵢ
 profile-form-gender-2 =
     .label = ⴰⴳⵏⵓⵙ
+hidden = ⵉⴼⴼⵔ
+visible = ⵢⵓⵎⴰⵏ
 native-language =
     .label = ⵜⵓⵜⵍⴰⵢⵜ ⵜⴰⵢⵎⵎⴰⵜ
 profile-form-submit-save = ⵃⴹⵓ
+profile-form-submit-saved = ⵜⴻⵜⵜⵓⵃⴹⴰ
 male = ⴰⵡⵜⵎ
 female = ⵜⴰⵡⵜⵎⵜ
 # Gender
 other = ⵡⴰⵢⵢⴰⴹ
 why-profile-title = ⵎⴰⵅ ⵉⴼⵔⵙ?
+why-profile-text =
+    ⵙ ⵜⵉⴽⴽⵉ ⵏ ⴽⵔⴰ ⵏ ⵉⵏⵖⵎⵉⵙⵏ ⵅⴼ ⵉⵎⴰⵏ ⵏⵏⵓⵏ, ⵔⴰⴷ ⴳⵉⵏ ⵉⵙⴼⴽⴰ ⵉⵎⵙⵍⴰⵢⵏ ⵏⵏⴰ ⵜⴻⵜⵜⴰⵣⵏⵎ ⵉ ⴽⴰⵎⵏⴼⵓⵢⵙ ⵓⵏⴼⵓⵜⵏ ⵉ ⵉⵙⵏⵎⵓⵙⵙⴰ
+    ⵏ ⵜⵓⴽⵣⴰ ⵏ ⵡⴰⵡⴰⵍ ⵏⵏⴰ ⵙⵙⵎⵔⴰⵙⵏⵉⵏ ⵉⵙⴼⴽⴰ ⴰ ⵃⵎⴰ ⴰⴷ ⵙⵖⵓⴷⵓⵏ ⴰⵏⵖⴰⴷ ⵏⵏⵙⵏ.
+dashboard = ⵜⵉⴼⵉⵍⵜ ⵏ ⵓⵏⴷⴰⵀ
 build-profile = ⵥⴽⵓ ⵉⴼⵔⵙ
 avatar = ⴰⴼⴰⵟⴰⵔ
 goals = ⵉⵡⵜⵜⴰⵙⵏ
