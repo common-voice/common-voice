@@ -329,6 +329,7 @@ whats-public = ⵎ'ⴰⴷ ⵉⴳⴰⵏ ⴰⴳⴷⵓⴷⴰⵏ?
 email-not-public = ⵓⵔ ⵔⴰⴷ ⵏⴳ ⵉⵎⴰⵢⵍ ⵏⵏⵓⵏ ⴷ ⴰⴳⴷⵓⴷⴰⵏ.
 recordings-and-locale-public = ⵔⴰⴷ ⵉⴳ ⵡⵓⵟⵟⵓⵏ ⵏ ⵉⵙⵓⵙⴰⵔ ⴷ ⵜⵓⵜⵍⴰⵢⵉⵏ ⵏⵏⴰ ⴳ ⵜⵓⵔⴳⴷ ⵉⴳⴷⵓⴷⴰⵏⵏ.
 username-optin-public = ⵜⵣⵎⵔⵎ ⴰⴷ ⵜⴷⵖⵔⵎ ⴰⴷ ⵉⴳ ⵢⵉⵙⵎ ⵏ ⵓⵏⵙⵙⵎⵔⵙ ⵏⵏⵓⵏ ⴰⴳⴷⵓⴷⴰⵏ ⵏⵉⵖ ⵡⴰⵔⵉⵙⵎ.
+demographic-deidentified-clarity-2 = ⵉⵙⴼⴽⴰ ⵉⴷⵉⵎⵓⴳⵕⴰⴼⵉⵢⵏ ⵜⵜⵢⴰⵣⴰⵏⵏⵉⵏ ⵙ ⵡⵓⴷⵖⵉⵔ (ⵎⴷ. ⴰⵡⵜⴰⵢ, ⴰⴳⵏⵓⵙ, ⵜⵓⵜⵍⴰⵢⵜ, ⴷ ⵓⵙⵓⵙⵔⵓ) ⵓⵔ ⵙⴰⵔ ⴳⵉⵏ ⵉⴳⴷⵓⴷⴰⵏⵏ ⴳ ⵢⵉⴼⵔⵙ ⵏⵏⵓⵏ, ⴷ ⵓⵔ ⵔⴰⴷ ⵇⵇⵏⵏ ⵖⵔ ⵓⵎⵉⴹⴰⵏ ⵏⵏⵓⵏ ⴳ ⵜⴳⵔⵓⵎⵎⴰ ⵏ ⵉⵙⴼⴽⴰ. ⵔⴰⴷ ⵎⵓⵏⵏⵜ ⵜⵓⵙⵙⵉⴼⵉⵏ ⵜⵉⵎⵙⵍⴰⵢⵉⵏ ⵜⵓⴼⵔⵉⴷⵉⵏ ⴷ ⵉⵙⴼⴽⴰ ⵉⴷⵉⵎⵓⴳⵕⴰⴼⵉⵢⵏ ⵉ ⵓⵡⵜⵜⴰⵙ ⵏ ⵓⵙⴼⵙⵉ ⵉⵏⵖⴷⵏ ⵓⴳⴳⴰⵔ – ⵙ ⵓⵎⴷⵢⴰ, ⵎⴽ ⵉⵔⴰ ⴽⵔⴰ ⵏ ⵓⵎⵔⵣⵓ ⴰⴷ ⵉⵡⴰⵜⵜⵙ ⴽⵔⴰ ⵏ ⵜⵎⵓⴷⵎⵜ ⵏ ⵓⵙⴰⵏⵓⵏ ⵉⵥⵍⵉⵏ ⵙ ⴽⵔⴰ ⵏ ⵜⵓⵟⵟⵓⵜ ⵜⴰⴷⵉⵎⵓⴳⵕⴰⴼⵉⵜ.
 username-email-not-demographic = ⵓⵔ ⵔⴰⴷ ⵉⵎⵓⵏ ⵢⵉⵙⵎ ⵏ ⵓⵏⵙⵙⵎⵔⵙ ⵏⵏⵓⵏ ⴷ ⵉⵎⴰⵢⵍ ⵏⵏⵓⵏ ⴰⴽⴷ ⵉⵙⴼⴽⴰ ⵜⵜⵓⴼⵙⵔⵏⵉⵏ.
 
 ## Speak & Listen Shortcuts
@@ -348,6 +349,9 @@ shortcut-vote-no = ⵓ
 
 ## Speak Shortcuts
 
+# Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-record-toggle = ⵙ
 shortcut-record-toggle-label = ⵙⵓⵙⵔ/ⵙⴱⴷⴷ
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = ⴰⵍⵙ ⴰⵙⵓⵙⵔ ⵏ ⵜⵓⵙⵙⵉⴼⵜ
