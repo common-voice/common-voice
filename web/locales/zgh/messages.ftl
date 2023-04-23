@@ -321,6 +321,7 @@ improve-audio = ⵍⴰ ⵙⵖⵓⴷⵓⵏ ⵉⵏⵖⵎⵉⵙⵏ ⵏ ⵢⵉⴼⵔ
 keep-track = ⵣⵓⵔⵜⴰⵜ ⴰⵍⴰⵢ ⴷ ⵉⵙⵇⵇⵓⵍⵏ ⵏⵏⵓⵏ ⴷⴳ ⵎⵏⵏⴰⵡⵜ ⵜⵓⵜⵍⴰⵢⵉⵏ.
 compare-progress = ⵙⵎⵣⴰⵣⴰⵍⴰⵜ ⴰⵍⴰⵢ ⵏⵏⵓⵏ ⴰⴽⴷ ⵡⵉⵏ ⵉⵎⴰⵔⴰⴳⵏ ⵢⴰⴹⵏⵉⵏ ⴳ ⵓⵎⴰⴹⴰⵍ ⴰⴽⴽⵯ.
 view-goals = ⵙⴽⵏⴰⵜ ⴰⵍⴰⵢ ⵏⵏⵓⵏ ⵎⴳⴰⵍ ⵉⵡⵜⵜⴰⵙⵏ ⵉⵏⵉⵎⴰⵏⵏ ⴷ ⵡⵉⵏ ⵓⵙⵏⴼⴰⵔ.
+join-newsletter = ⵙ ⵡⵓⴷⵖⵉⵔ, ⵍⴽⵎⴰⵜ ⵜⴰⵍⴳⴰⵎⵜ ⵏ ⵉⵎⴰⵢⵍ ⵏⵏⵖ ⵏ ⵉⵙⴷⵖⵉⵜⵏ ⴷ ⵉⵏⵖⵎⵉⵙⵏ ⵉⵎⴰⵢⵏⵓⵜⵏ ⵅⴼ ⵓⵙⵏⴼⴰⵔ.
 
 ## What's public
 
@@ -1052,7 +1053,7 @@ create-profile-button = ⵙⵏⴼⵍⵓⵍ ⵉⴼⵔⵙ
 img-alt-success-checkmark = ⵜⴰⵎⴰⵜⴰⵔⵜ ⵏ ⵓⵙⵜⴰⵢ ⵏ ⵓⵎⵓⵔⵙ
 # GUIDELINES PAGE
 guidelines-header = ⵜⴰⵔⴰⵜⵉⵏ ⵏ ⵡⴰⵔⵔⴰⴳ
-guidelines-header-subtitle = ⵔⵎⵙ ⵎⴰⵏⵎⴽ ⵙ ⵔⴰⴷ ⵜⴰⵔⴳⴷ, ⵜⵣⵣⵔⵢⴷ ⵜⵉⵡⵉⵏⴰⵙ ⴷ ⵜⵓⵙⵙⵉⴼⵉⵏ ⵜⵉⴳⵕⴹⴰⵏⵉⵏ ⴳ ⵜⴳⵔⵓⵎⵎⴰ ⵏ ⵉⵙⴼⴽⴰ ⵏ ⴽⴰⵎⵏⴼⵓⵢⵙ
+guidelines-header-subtitle = ⵔⵎⵙ ⵎⴰⵏⵎⴽ ⵙ ⵔⴰⴷ ⵜⴰⵔⴳⴷ, ⵜⵣⵣⵔⵢⴷ ⵜⵉⵡⵉⵏⴰⵙ ⴷ ⵜⵓⵙⵙⵉⴼⵉⵏ ⵜⵉⵎⵙⵍⴰⵢⵉⵏ ⴳ ⵜⴳⵔⵓⵎⵎⴰ ⵏ ⵉⵙⴼⴽⴰ ⵏ ⴽⴰⵎⵏⴼⵓⵢⵙ
 voice-collection = ⴰⴳⵔⵔⵓ ⵏ ⵉⴳⵕⴹⴰⵏ
 sentence-collection = ⴰⴳⵔⵔⵓ ⵏ ⵜⵡⵉⵏⴰⵙ
 varying-pronunciations = ⵉⵙⵓⵙⵔⵓⵜⵏ ⵎⵣⴰⵔⴰⵢⵏⵉⵏ
