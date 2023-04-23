@@ -487,25 +487,34 @@ about-get-involved-text-2 =
     Flott! Ta kontakt via e-post eller på <discourseLink>Discourse</discourseLink>,
     forum, send inn nettstadtilbakemelding via <githubLink>GitHub</githubLink>,
     eller bli med på <matrixLink>Matrix</matrixLink>-samfunnsprat.
+about-stay-in-touch = Korleis held eg kontakten?
 about-stay-in-touch-button = Registrer deg
 about-nav-why-common-voice = Kvifor ?
 about-nav-how-it-works = Korleis ?
 about-nav-partners = Partnarar
 about-nav-get-involved = Ver med
 about-nav-how-it-works-2 = Korleis fungerer Common Voice?
+about-nav-playbook = Les om korleis du deltek
 
 ## Community Playbook Content
 ## What is a language
 
+about-playbook-what-is-language = Kva er eit språk på Common Voice?
 
 ## How do I add a language
 
+about-playbook-how-add-language = Korleis legg eg til eit språk?
+about-playbook-how-add-language-translating-heading = Omsetjing av nettsida
+about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Sjå rettleiinga vår om korleis du brukar Pontoon.</translateVideoLink>
+about-playbook-how-add-language-collecting-sentences-heading = Innsamling av setningar
 
 ## How does localization work
 
+about-playbook-how-localize-content-5 = Sjå videoforklaringa vår for hjelp
 
 ## How to add sentences
 
+about-playbook-how-add-sentences = Korleis legg eg til ei setning?
 
 ## How to record quality
 
