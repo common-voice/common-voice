@@ -1,7 +1,7 @@
 ## General
 
-yes-receive-emails = Jā, sūtiet man e-pastus. Es vēlos būt informēts par Common Voice projektu.
-stayintouch = Mēs Mozilla veidojam kopienu balss tehnoloģiju jomā. Mēs vēlētos saglabāt kontaktus ar jums, lai informētu jūs par jaunumiem un iegūtu informāciju, kā jūs lietojat šeit pieejamās datu kopas.
+yes-receive-emails = Jā, sūtiet man e-pastus. Es vēlos saņemt informāciju par Common Voice projektu.
+stayintouch = Mēs Mozilla veidojam kopienu balss tehnoloģiju jomā. Mēs vēlētos uzturēt kontaktus ar jums, lai informētu jūs par jaunumiem un iegūtu informāciju, kā jūs lietojat šeit pieejamās datu kopas.
 privacy-info = Mēs apsolām rīkoties ar jūsu informāciju uzmanīgi. Lasiet vairāk mūsu <privacyLink>privātuma paziņojumā</privacyLink>.
 return-to-cv = Atgriezties pie Common Voice
 email-input =
