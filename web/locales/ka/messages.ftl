@@ -1490,9 +1490,9 @@ sc-lang-info-total =
 #   $totalInReview (Number) - Number of sentences currently in the review state for this language
 sc-lang-info-in-review =
     { $totalInReview ->
-        [0] წინადადებები არ მოწმდება.
-        [one] 1 წინადადება მოწმდება.
-       *[other] { $totalInReview } წინადადება მოწმდება.
+        [0] არაა შესამოწმებელი წინადადებები.
+        [one] 1 წინადადებაა შესამოწმებელი.
+       *[other] { $totalInReview } წინადადებაა შესამოწმებელი.
     }
 # Variables:
 #   $unreviewedSentencesByYou (Number) - Number of sentences the user can still review
@@ -1537,7 +1537,7 @@ sc-personal-your-languages = თქვენი ენები:
 sc-personal-remove-button = მოცილება
 # Variables:
 #   $sentences (Number) - Number of sentences that were added by the currently logged in user for this language
-sc-personal-added-by-you = { $sentences } დამატებული თქვენ მიერ
+sc-personal-added-by-you = { $sentences } დამატებულია თქვენ მიერ
 sc-personal-not-added = ჯერ არცერთი ენა არ დაგიმატებიათ.
 
 ## REVIEW CRITERIA
