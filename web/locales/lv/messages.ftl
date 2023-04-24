@@ -1,7 +1,7 @@
 ## General
 
 yes-receive-emails = Jā, sūtiet man e-pastus. Es vēlos būt informēts par Common Voice projektu.
-stayintouch = Mēs Mozilla veidojam kopienu ap balss tehnoloģiju. Mēs vēlētos ar jums saglabāt kontaktus, lai informētu jūs par jaunumiem un iegūtu informāciju kā jūs lietojat šeit pieejamās datu kopas.
+stayintouch = Mēs Mozilla veidojam kopienu balss tehnoloģiju jomā. Mēs vēlētos saglabāt kontaktus ar jums, lai informētu jūs par jaunumiem un iegūtu informāciju, kā jūs lietojat šeit pieejamās datu kopas.
 privacy-info = Mēs apsolām rīkoties ar jūsu informāciju uzmanīgi. Lasiet vairāk mūsu <privacyLink>privātuma paziņojumā</privacyLink>.
 return-to-cv = Atgriezties pie Common Voice
 email-input =
@@ -10,15 +10,15 @@ submit-form-action = Nosūtīt
 loading = Ielāde...
 email-opt-in-info = Es vēlos saņemt e-pasta ziņojumus, piemēram, mērķa atgādinājumus, progresa atjauninājumus un informatīvos biļetenus par šo projektu.
 email-opt-in-info-title = Pievienoties Common Voice ziņojumiem e-pastā
-email-opt-in-info-sub-with-challenge = Saņemiet e-pastus par sacensībām vai pasākumiem, atgādinājumus par mērķiem, jaunumus un ziņas no Commaon Voice
-email-opt-in-privacy-v2 = Izvēloties saņemt e-pasta ziņojumus, jūs piekrītat, ka Mozilla apstrādās tos tā kā tas ir norādīts Mozilla <privacyLink>privātuma politikā<privacyLink>.
+email-opt-in-info-sub-with-challenge = Saņemiet e-pastus par sacensībām vai pasākumiem, atgādinājumus par mērķiem, jaunumus un ziņas no Common Voice
+email-opt-in-privacy-v2 = Izvēloties saņemt e-pasta ziņojumus, jūs piekrītat, ka Mozilla apstrādās tos tā, kā tas ir norādīts Mozilla <privacyLink>privātuma politikā<privacyLink>.
 indicates-required = * Obligātie lauki
 not-available-abbreviation = N/A
 banner-error-slow-1 = Atvainojiet, Common Voice darbojas lēni. Paldies par interesi.
 banner-error-slow-2 = Mēs saņemam daudz pieprasījumu un pašlaik risinām problēmas.
 banner-error-slow-link = Statusa lapa
 error-something-went-wrong = Piedodiet, kaut kas nogāja greizi
-error-clip-upload = Šī ieraksts augšupielāde joprojām neizdodas. Vai turpināt mēģināt vēlreiz?
+error-clip-upload = Šī ieraksts augšupielāde joprojām neizdodas. Vai mēģināt vēlreiz?
 error-clip-upload-server = Šī ieraksta augšupielāde serverī joprojām neizdodas. Pārlādējiet lapu vai vēlāk mēģiniet vēlreiz.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
@@ -249,8 +249,8 @@ logout = Beigt darbu
 home-title = Common Voice ir Mozilla iniciatīva, lai palīdzētu mācīt mašīnas, kā reāli cilvēki runā.
 default-tagline = Common Voice ir Mozilla iniciatīva, lai palīdzētu mācīt mašīnas, kā reāli cilvēki runā.
 home-cta = Runā skaļi, veic ieguldījumu šeit!
-wall-of-text-start = Balss ir dabiska, balss ir cilvēciska. Tieši tāpēc mēs vēlamies izveidot balss atpazīšanas tehnoloģiju, kuru varētu lietot dažādās ierīcēs. Bet, lai radītu šādu balss tehnoloģiju ir nepieciešams liels balss ierakstu skaits.
-wall-of-text-more-mobile = Lielākā daļa datu, ko izmanto lielie uzņēmumi, nav pieejami visiem cilvēkiem. Mēs domājam, ka tas kavē inovāciju. Tāpēc mēs esam uzsākuši projektu Common Voice, projektu, kas padarīs balss atpazīšanu pieejamu ikvienam.
+wall-of-text-start = Balss ir dabiska, balss ir cilvēciska. Tieši tāpēc mēs vēlamies izveidot balss atpazīšanas tehnoloģiju, kuru varētu lietot dažādās ierīcēs. Bet, lai radītu šādu balss tehnoloģiju, ir nepieciešams daudz balss ierakstu.
+wall-of-text-more-mobile = Lielākā daļa datu, ko izmanto lielie uzņēmumi, nav pieejami visiem cilvēkiem. Tas kavē inovāciju. Tāpēc esam uzsākuši projektu Common Voice, kas padarīs balss atpazīšanu pieejamu ikvienam.
 wall-of-text-more-desktop =
     Tagad jūs varat ziedot savu balsi, lai palīdzētu mums izveidot atvērtā pirmkoda balss datubāzi, ko var izmantot ikviens
     veidojot inovatīvas lietotnes ierīcēm un tīmeklim. Lasiet teikumu, lai palīdzētu mašīnām iemācīt, kā runā cilvēki . Pārbaudiet citu cilvēku ierakstus, lai uzlabotu to kvalitāti. Tas ir tik vienkārši!

@@ -14,5 +14,5 @@ get-involved-submit = Iesniegt
 get-involved-stayintouch = Mēs Mozilla veidojam kopienu balss tehnoloģiju jomā. Mēs vēlētos saglabāt kontaktus ar jums, lai informētu jūs par jaunumiem un iegūtu informāciju par to, kā jūs lietojat šeit pieejamās datu kopas.
 get-involved-privacy-info = Mēs apsolām rīkoties ar jūsu informāciju uzmanīgi. Lasiet vairāk mūsu <privacyLink>privātuma politikā</privacyLink>.
 get-involved-success-title = Esat veiksmīgi reģistrējies, lai veiktu ieguldījumu { $language } valodā. Paldies.
-get-involved-success-text = Mēs sazināsimies ar jums, kad būs pieejama papildus informācija.
+get-involved-success-text = Mēs sazināsimies ar jums, kad būs pieejama papildu informācija.
 get-involved-return-to-languages = Atgriezties pie valodām
