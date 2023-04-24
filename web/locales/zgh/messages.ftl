@@ -532,7 +532,7 @@ about-stay-in-touch-button = ⴽⵛⵎ
 about-nav-how-it-works = ⵎⴰⵏⵎⴽ?
 about-nav-partners = ⵉⵎⴷⵔⴰⵡⵏ
 about-nav-get-involved = ⴰⵣⵔ
-about-nav-how-it-works-2 = ⵎⴰⵏⵎⴽ ⴷⴰ ⵉⵙⵡⵓⵔⵓⵢ ⴽⴰⵎⵏⴼⵓⵢⵙ?
+about-nav-how-it-works-2 = ⵎⴰⵏⵎⴽ ⵍⴰ ⵉⵙⵡⵓⵔⵓⵢ ⴽⴰⵎⵏⴼⵓⵢⵙ?
 
 ## Community Playbook Content
 ## What is a language
