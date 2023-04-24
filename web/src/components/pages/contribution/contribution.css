@@ -414,6 +414,26 @@
             }
         }
 
+        .guidelines-button {
+            svg {
+                margin-inline-end: 10px;
+                
+                path {
+                    fill: var(--black);
+                }
+            }
+        }
+
+        .shortcuts-btn {
+            padding: 0;
+            width: 60px;
+            margin-inline-end: 0;
+
+            img {
+                margin-inline-end: 0;
+            }
+        }
+
         .skip {
             display: inline-flex;
 
