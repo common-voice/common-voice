@@ -5,25 +5,26 @@ import {
 } from '@fluent/react';
 import * as React from 'react';
 import { connect } from 'react-redux';
-import { Flags } from '../../../stores/flags';
-import { Locale } from '../../../stores/locale';
-import StateTree from '../../../stores/tree';
-import { User } from '../../../stores/user';
-import { Sentence } from 'common';
+import { Tooltip } from 'react-tippy'
+import { Flags } from '../../../stores/flags'
+import { Locale } from '../../../stores/locale'
+import StateTree from '../../../stores/tree'
+import { User } from '../../../stores/user'
+import { Sentence } from 'common'
 import {
   trackListening,
   trackRecording,
   getTrackClass,
-} from '../../../services/tracker';
-import URLS from '../../../urls';
-import { LocaleLink, LocaleNavLink } from '../../locale-helpers';
-import Modal from '../../modal/modal';
+} from '../../../services/tracker'
+import URLS from '../../../urls'
+import { LocaleLink, LocaleNavLink } from '../../locale-helpers'
+import Modal from '../../modal/modal'
 import {
   KeyboardIcon,
   SkipIcon,
   ExternalLinkIcon,
   ArrowLeft,
-  QuestionMarkIcon,
+  QuestionIcon,
 } from '../../ui/icons'
 import { Button, StyledLink, LabeledCheckbox, LinkButton } from '../../ui/ui'
 import { PrimaryButton } from '../../primary-buttons/primary-buttons'
@@ -180,7 +181,7 @@ class ContributionPage extends React.Component<ContributionPageProps, State> {
     const showShortcutsModal = !this.state.showShortcutsModal
     if (showShortcutsModal) {
       const { locale, type } = this.props
-      ;;(type == 'listen' ? trackListening : (trackRecording as any))(
+      ;(type == 'listen' ? trackListening : (trackRecording as any))(
         'view-shortcuts',
         locale
       )
@@ -514,7 +515,7 @@ class ContributionPage extends React.Component<ContributionPageProps, State> {
               className="guidelines-button"
               blank
               to={URLS.GUIDELINES}>
-              <QuestionMarkIcon />
+              <QuestionIcon />
               <Localized id="guidelines">
                 <span />
               </Localized>
@@ -523,13 +524,15 @@ class ContributionPage extends React.Component<ContributionPageProps, State> {
               <ReportButton
                 onClick={() => this.setState({ showReportModal: true })}
               />
-              <Button
-                rounded
-                outline
-                className="hidden-sm-down"
-                onClick={this.toggleShortcutsModal}>
-                <KeyboardIcon />
-              </Button>
+              <Tooltip title="Shortcuts" arrow>
+                <Button
+                  rounded
+                  outline
+                  className="hidden-sm-down shortcuts-btn"
+                  onClick={this.toggleShortcutsModal}>
+                  <KeyboardIcon />
+                </Button>
+              </Tooltip>
             </div>
           </div>
           <div>
