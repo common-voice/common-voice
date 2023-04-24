@@ -521,6 +521,8 @@ about-is-it-valid = ⵉⵙ ⵜⵣⵔⵢ ⵜⵓⵙⵙⵉⴼⵜ?
 about-no-votes-text = ⵎⴽ ⵢⵓⴳⵉ ⵢⴰⵏ ⵓⵏⵙⵙⵎⵔⵙ ⴽⵔⴰ ⵏ ⵜⵓⵙⵙⵉⴼⵜ ⵜⴰⴳⵕⴹⴰⵏⵜ ⵍⴰ ⵜⴻⵜⵜⴰⵖⵓⵍ ⵖⵔ ⵓⴷⵔⴰⵙ. ⵎⴽ ⵜⴻⵜⵜⵢⴰⴳⴰⵢ ⵜⵉⵙ ⵙⵏⴰⵜ ⵜⵡⴰⵍ, ⵍⴰ ⵜⴻⵜⵜⵎⵓⵜⵜⵓⵢ ⵖⵔ ⵓⵙⵎⴹⵍ ⵏ ⵜⵓⵙⵙⵉⴼⵉⵏ.
 about-dataset-new = ⵜⴰⴳⵔⵓⵎⵎⴰ ⵏ ⵉⵙⴼⴽⴰ ⵏ ⴽⴰⵎⵏⴼⵓⵢⵙ
 about-dataset-new-text = ⵜⵓⵎⴰ ⵜⴳⵔⵓⵎⵎⴰ ⵏ ⵉⵙⴼⴽⴰ ⵏ ⴽⴰⵎⵏⴼⵓⵢⵙ ⵜⵉⵎⴰⴹ ⵏ ⵉⴼⴹⵏ ⵏ ⵜⵓⵙⵙⵉⴼⵉⵏ ⵜⵉⴳⵕⴹⴰⵏⵉⵏ ⵏⵏⴰ ⵉⵜⵜⴰⵡⵙⵏ ⵉ ⵉⵎⵙⵖⵉⵡⵙⵏ ⴳ ⵓⵥⴽⴽⵓ ⵏ ⵉⵎⴰⵙⵙⵏ ⵏ ⵜⵓⴽⵣⴰ ⵜⴰⴳⵕⴹⴰⵏⵜ.
+about-clip-graveyard = ⴰⵙⵎⴹⵍ ⵏ ⵜⵓⵙⵙⵉⴼⵉⵏ
+about-get-involved = ⴰⵣⵔ
 about-get-involved-text-2 =
     ⵜⵅⵙⴷ ⴰⴷ ⵜⴰⵡⵙⴷ ⴳ ⵓⵙⵖⵓⴷⵓ ⵏ ⴽⴰⵎⵏⴼⵓⵢⵙ?
     ⴰⵢⵢⵓⵣ! ⵏⵢⴰⵍⴽⴰⵎ ⴷⵉⴷⵏⵖ ⵙ ⵉⵎⴰⵢⵍ ⵏⵉⵖ ⵉⵙⴳⵔⴰⵡⵏ ⵏ <discourseLink>ⴷⵉⵙⴽⵓⵔⵙ</discourseLink>,
@@ -528,6 +530,7 @@ about-get-involved-text-2 =
     ⴰⵎⵙⴰⵡⴰⵍ ⵏ ⵜⴳⵔⴰⵡⵜ ⵏ <matrixLink>ⵎⵉⵜⵔⵉⴽⵙ</matrixLink>.
 about-stay-in-touch-button = ⴽⵛⵎ
 about-nav-how-it-works = ⵎⴰⵏⵎⴽ?
+about-nav-partners = ⵉⵎⴷⵔⴰⵡⵏ
 about-nav-get-involved = ⴰⵣⵔ
 about-nav-how-it-works-2 = ⵎⴰⵏⵎⴽ ⴷⴰ ⵉⵙⵡⵓⵔⵓⵢ ⴽⴰⵎⵏⴼⵓⵢⵙ?
 
