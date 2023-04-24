@@ -576,6 +576,7 @@ about-playbook-how-localize-content-5 = ⴰⵏⵏⴰⵢⴰⵜ ⴰⴼⵉⴷⵢⵓ
 ## How to add sentences
 
 about-playbook-how-add-sentences = ⵎⴰⵏⵎⴽ ⵙ ⵔⴰⴷ ⵔⵏⵓⵖ ⵜⵉⵡⵉⵏⴰⵙ?
+about-playbook-how-add-sentences-content-1 = ⵉⴳⴰ <strong>ⵙⴰⵏⵜⵏⵙ ⴽⵓⵍⵉⴽⵜⵓⵔ</strong> ⵢⴰⵏ ⵢⵉⵎⵉⵙⵙ ⵏ ⵓⴳⵔⵔⵓ ⴷ ⵓⵣⵣⵔⴰⵢ ⵏ ⵜⵡⵉⵏⴰⵙ ⵏ ⵡⴰⴳⵍⴰ ⴰⴳⴷⵓⴷⴰⵏ. ⵔⴰⴷ <scAccountLink>ⵜⴰⵙⵔⵎ ⴰⴷ ⵜⵙⵏⴼⵍⵓⵍⵎ ⵢⴰⵏ ⵓⵎⵉⴹⴰⵏ</scAccountLink>. ⵜⵔⵏⵓⵎ ⵉⵍⵎⵎⴰ ⵜⵓⵜⵍⴰⵢⵜ ⵏⵏⵓⵏ ⴳ <strong>ⵢⵉⴼⵔⵙ</strong> ⵏⵏⵓⵏ. ⵜⵣⵎⵔⵎ ⴰⴷ <strong>ⵜⵔⵏⵓⵎ</strong> ⵜⵉⵡⵉⵏⴰⵙ ⵏⵉⵖ <strong>ⵜⵙⵙⵉⵔⵎⵎ</strong> ⵜⵉⵡⵉⵏⴰⵙ ⵢⴰⴷ ⵜⵜⵓⵔⵏⴰⵏⵉⵏ.
 
 ## How to record quality
 
