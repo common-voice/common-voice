@@ -582,13 +582,18 @@ about-playbook-how-add-sentences-content-4 = ⵍⴰ ⵜⵜⴼⴼⵖⵏⵜ ⵜⵡ
 ## How to record quality
 
 about-playbook-how-record-quality = ⵎⴰⵏⵎⴽ ⵙ ⵔⴰⴷ ⵙⵓⵙⵔⵖ ⴽⵔⴰ ⵏ ⵜⵓⵙⵙⵉⴼⵜ ⵜⴰⴳⵕⴹⴰⵏⵜ ⵙ ⵓⵖⵓⴷⵓ ⴰⵎⴰⵜⵜⴰⵢ?
+about-playbook-how-record-content-2 = ⴰⵏⴼⴰⵜ ⵉ ⴽⵉⴳⴰⵏ ⵏ ⵓⴷⵉⴷⴰ ⵏ ⵜⵖⵔⴷⵉⵏ - ⵉⵅⵚⵚⴰ ⴰⴷ ⵜⴻⵜⵜⵓⵙⵍⵍⵎ ⵙ ⵓⵍⵎⴰⴹ.
+about-playbook-how-record-content-5 = <accuracyLink>ⵥⵕ ⵓⴳⴳⴰⵔ ⵅⴼ ⵉⵙⴱⴷⴰⴷⵏ ⵏ ⵓⵏⵖⴰⴷ.</accuracyLink>
 
 ## How to grow language
 
+about-playbook-how-grow-language-content-2 = ⵜⵉⵎⵙⴰⵔⵉⵏ
 about-playbook-how-grow-language-content-4 = ⵉⵥⴹⵡⴰⵏ ⵉⵏⴰⵎⵓⵏⵏ
 
 ## How to validate
 
+about-playbook-how-validate = ⵎⴰⵏⵎⴽ ⵙ ⵔⴰⴷ ⵙⵙⵏⵖ ⵉⵙ ⴷ ⴰⴷ ⵙⵙⴳⵍⵢⵖ ⴽⵔⴰ ⵜⵓⵙⵙⵉⴼⵜ ⵜⴰⴳⵕⴹⵏⵜ?
+about-playbook-how-validate-content-1 = ⵎⴽ ⵜⵣⵎⵔⴷ ⴰⴷ <strong>ⴰⵙⵏⵜ ⵜⵙⵙⴼⵍⴷⴷ</strong> ⴷ ⴰⴷ <strong>ⵜⵏⵜ ⵜⵔⵎⵙⴷ</strong>, ⴳ ⵜⵎⵢⵓⵔⵜ <strong>ⵢⵓⴼ ⴰⴷ ⵜⵏⵜ ⵜⵙⵙⴳⵍⵢⴷ</strong>.
 
 ## How to access dataset
 
