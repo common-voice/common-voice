@@ -184,6 +184,12 @@
                 @media (--sm-down) {
                     min-width: 100px;
                 }
+
+                & svg {
+                    [dir='rtl'] & {
+                        transform: rotateY(180deg);
+                    }
+                }
             }
         }
 
