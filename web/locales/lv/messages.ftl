@@ -317,7 +317,7 @@ whats-public = Kas ir publiski pieejams?
 email-not-public = Mēs nepubliskosim jūsu epastu.
 recordings-and-locale-public = Ieguldīto ierakstu skaits un valodas būs publiski pieejamas.
 username-optin-public = Jūs varat izvēlēties, vai lietotājvārds ir publisks vai anonīms.
-demographic-deidentified-clarity-2 = Pēc izvēles iesniegtie demogrāfiskie dati (piemēram, vecums, dzimums, valoda un akcents) nekad netiks publiskoti jūsu profilā un netiks saistīti ar jūsu kontu datu kopā. Atsevišķi audio klipi tiks saistīti ar demogrāfiskajiem datiem, lai veiktu precīzāku analīzi, piemēram, pētnieks var vēlēties mērķēt apmācību modeli uz noteiktu demogrāfisko segmentu.
+demographic-deidentified-clarity-2 = Pēc izvēles iesniegtie demogrāfiskie dati (piemēram, vecums, dzimums, valoda un akcents) nekad netiks publiskoti jūsu profilā un netiks saistīti ar jūsu kontu datu kopā. Atsevišķi audio ieraksti tiks saistīti ar demogrāfiskajiem datiem, lai veiktu precīzāku analīzi, piemēram, pētnieks var vēlēties apmācību modeli atlasīt noteiktam demogrāfiskajam segmentam.
 username-email-not-demographic = Jūsu lietotājvārds un e-pasts netiks piesaistīti publicētajiem datiem.
 
 ## Speak & Listen Shortcuts
@@ -375,7 +375,7 @@ profile-form-username =
 profile-form-native-language =
     .label = Dzimtā valoda
 profile-form-additional-language =
-    .label = Papildus valoda
+    .label = Papildu valoda
 profile-form-language =
     .label = Valoda
 profile-form-variant =
@@ -417,7 +417,7 @@ profile-explanation = Sekojiet savam progresam ar savu profilu un palīdziet mū
 thanks-for-account = Paldies, ka apstiprinājāt savu kontu, tagad izveidosim jūsu profilu.
 why-demographic = Kāpēc tas ir svarīgi?
 why-demographic-explanation-2 = Anonimizēti lietotāja dati, piemēram, vecums, dzimums un akcents, palīdz uzlabot ierakstus, ko izmanto, lai trenētu runas atpazīšanas algoritmu precizitāti. Jūsu lietotājvārds un e-pasts nekad netiks piesaistīti jūsu iesniegtajiem datiem, un jūs varat izvēlēties, vai padarīt savu lietotājvārdu publisku vai anonīmu.
-accept-privacy = Es piekrītu, ka Mozilla apstrādā manu informāciju tā kā tas ir norādīts Mozillas <privacyLink>privātuma politikā</privacyLink>
+accept-privacy = Es piekrītu, ka Mozilla apstrādā manu informāciju tā, kā tas ir norādīts Mozillas <privacyLink>privātuma politikā</privacyLink>
 accept-privacy-title = Privātuma politika
 accept-privacy-and-terms = Es piekrītu Common Voice <termsLink>noteikumiem</termsLink> un <privacyLink>konfidencialitātes paziņojumam</privacyLink>
 login-identity = Pieteikšanās identitāte
