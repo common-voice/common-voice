@@ -264,9 +264,9 @@ vote-yes = Jā
 vote-no = Nē
 toggle-play-tooltip = Nospiediet { shortcut-play-toggle }, lai pārslēgtu atskaņošanas režīmu
 speak-subtitle = Ziedot savu balsi
-speak-paragraph = Lai mūsu valoda neizzustu iekārtu laikmetā, mums jāieraksta savas balsis; daži varētu teikt, ka tas ir arī jautri.
+speak-paragraph = Lai mūsu valoda iekārtu laikmetā neizzustu, mums jāieraksta savas balsis; daži teiktu, ka tas ir arī jautri.
 speak-goal-text = Ieraksti ierakstīti
-listen-subtitle = Palīdziet mums pārbaudīt balsis
+listen-subtitle = Palīdziet pārbaudīt balsis
 listen-paragraph = Ierakstīto ierakstu pārbaudīšana ir ļoti svarīga. Klausieties ierakstus un palīdziet iemācīt iekārtām saprast mūsu valodu.
 listen-goal-text = Apstiprinātie ieraksti
 hours-recorded = Ierakstītās stundas
@@ -309,13 +309,13 @@ improve-audio = Profila informācija uzlabo audio ierakstu datus, ko izmanto run
 keep-track = Sekojiet līdzi savam progresam un datiem vairākās valodās.
 compare-progress = Skatiet, kā jūsu progress ir salīdzināms ar citiem ieguldītājiem visā pasaulē.
 view-goals = Skatiet savu progresu pret personiskajiem un projekta mērķiem.
-join-newsletter = Ja vēlaties, pievienojieties mūsu e-pasta sarakstam, lai saņemtu projekta jaunumus un informāciju par projektu.
+join-newsletter = Ja vēlaties, pievienojieties mūsu e-pasta adresātu sarakstam, lai saņemtu projekta jaunumus un informāciju par projektu.
 
 ## What's public
 
 whats-public = Kas ir publiski pieejams?
 email-not-public = Mēs nepubliskosim jūsu epastu.
-recordings-and-locale-public = Ieguldīto ierakstu skaits un valodas, būs pieejamas publiski.
+recordings-and-locale-public = Ieguldīto ierakstu skaits un valodas būs publiski pieejamas.
 username-optin-public = Jūs varat izvēlēties, vai lietotājvārds ir publisks vai anonīms.
 demographic-deidentified-clarity-2 = Pēc izvēles iesniegtie demogrāfiskie dati (piemēram, vecums, dzimums, valoda un akcents) nekad netiks publiskoti jūsu profilā un netiks saistīti ar jūsu kontu datu kopā. Atsevišķi audio klipi tiks saistīti ar demogrāfiskajiem datiem, lai veiktu precīzāku analīzi, piemēram, pētnieks var vēlēties mērķēt apmācību modeli uz noteiktu demogrāfisko segmentu.
 username-email-not-demographic = Jūsu lietotājvārds un e-pasts netiks piesaistīti publicētajiem datiem.
