@@ -559,6 +559,11 @@ about-playbook-how-add-language-content-1 =
 about-playbook-how-add-language-translating-heading = ⴰⵙⵓⵖⵍ ⵏ ⵓⵙⵉⵜ
 about-playbook-how-add-language-translating-content-1 = <translateVideoLink>ⴰⵏⵏⴰⵢ ⴰⵎⴰⵏⴰⵔ ⵏⵏⵖ ⵅⴼ ⵎⴰⵏⵎⴽ ⵔⴰⴷ ⵜⵙⵙⵎⵔⵙⴷ ⴱⵓⵏⵜⵓⵏ.</translateVideoLink>
 about-playbook-how-add-language-collecting-sentences-heading = ⴰⴳⵔⵔⵓ ⵏ ⵜⵡⵉⵏⴰⵙ
+about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>ⴰⵏⵏⴰⵢ ⴰⵎⴰⵏⴰⵔ ⵏⵏⵖ ⵅⴼ ⵓⵙⵙⵎⵔⵙ ⵏ ⵙⴰⵏⵜⵏⵙ ⴽⵓⵍⵉⴽⵜⵓⵔ</sentenceCollectorVideo>.
+about-playbook-how-add-language-collecting-sentences-content-2 =
+    ⵜⵣⵎⵔⵎ <sentenceCollectorLinkAdd>ⴰⴷ ⵜⵔⵏⵓⵎ ⵢⴰⵏ ⵡⵓⵟⵟⵓⵏ ⵎⵥⵥⵉⵢⵏ ⵏ ⵜⵡⵉⵏⴰⵙ</sentenceCollectorLinkAdd>,
+    ⵏⵉⵖ ⵜⵣⵎⵔⵎ ⴰⴷ ⵜⵙⴽⵔⵎ <bulkImportDocsLink>ⵉⵙⴽⵛⴰⵎ ⴳⴳⵓⵜⵏⵉⵏ ⵙ ⵓⵙⵙⵎⵔⵙ ⵏ ⴳⵉⵜⵀⴰⴱ</bulkImportDocsLink>.
+    ⴽⵜⵢⴰⵜ ⵎⴰⵙ ⴷ ⵉⵇⵇⴰⵏ ⴷ ⴰⴷ ⴳⵉⵏⵜ ⵜⵡⵉⵏⴰⵙ <licenseLink>CC0 (ⵏⵉⵖ ⴰⴳⵍⴰ ⴰⴳⴷⵓⴷⴰⵏ)</licenseLink>, ⵏⵉⵖ ⵜⵣⵎⵔⵎ ⴰⴷ ⵜⴰⵔⴰⵎ ⵜⵉⵏⵏⵓⵏ.
 about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>ⵥⵕ ⵓⴳⴳⴰⵔ ⵅⴼ ⵓⴳⵔⵔⵓ ⵏ ⵜⵡⵉⵏⴰⵙ</sentenceCollectorFragment>.
 
 ## How does localization work
