@@ -3,7 +3,7 @@
 .rules {
     @media (--lg-up) {
         width: 350px;
-        margin-left: 50px;
+        margin-inline-start: 50px;
         min-height: 320px;
     }
 
@@ -41,7 +41,7 @@
             }
 
             & svg.alert-icon {
-                margin-right: 8px;
+                margin-inline-end: 8px;
             }
 
             & svg.rotate-180 {
