@@ -31,8 +31,8 @@
 
     @media (--lg-up) {
         position: initial;
-        justify-content: initial;
         overflow: visible;
+        height: 84vh;
     }
 
     .button {
@@ -352,7 +352,7 @@
     }
 
     .primary-buttons {
-        margin-top: 4vh;
+        margin-top: 5vh;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -375,7 +375,7 @@
     }
 
     .buttons {
-        margin-top: 4vh;
+        margin-top: 1rem;
 
         display: flex;
         justify-content: space-between;
