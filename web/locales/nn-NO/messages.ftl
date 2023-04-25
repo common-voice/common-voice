@@ -15,6 +15,9 @@ email-opt-in-privacy-v2 = Ved å registrere deg for å motta e-post godtar du at
 indicates-required = * Viser påkravd felt
 not-available-abbreviation = Ikkje tilgjengeleg
 banner-error-slow-link = Statusside
+error-something-went-wrong = Noko gjekk gale
+error-clip-upload = Opplasting av dette klippet fungerer framleis ikkje, ønskjer du å prøve på nytt?
+error-clip-upload-server = Opplasting av dette klippet feilar stadig på serveren. Last inn sida på nytt, eller prøv på nytt seinare.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -39,9 +42,11 @@ be = Kviterussisk
 bg = Bulgarsk
 bm = Bambara
 bn = Bengali
+bo = Tibetansk
 br = Bretonsk
 bs = Bosnisk
 bxr = Burjatisk
+byv = Medumba
 ca = Katalansk
 cak = Kakchikel
 ckb = Sentralkurdisk
@@ -51,9 +56,11 @@ cs = Tsjekkisk
 cv = Tsjuvasjisk
 cy = Walisisk
 da = Dansk
+dag = Dagbani
 de = Tysk
 dsb = Nedersorbisk
 dv = Dhivehi
+dyu = Dioula
 el = Gresk
 en = Engelsk
 eo = Esperanto
@@ -69,9 +76,11 @@ fy-NL = Frisisk
 ga-IE = Irsk
 gl = Galisisk
 gn = Guarani
+gom = Goan Konkani
 ha = Hausa
 he = Hebraisk
 hi = Hindi
+hil = Hiligaynon
 hr = Kroatisk
 hsb = Oversorbisk
 ht = Haitisk
@@ -86,19 +95,26 @@ is = Islandsk
 it = Italiensk
 izh = Ingrisk
 ja = Japansk
+jbo = Lojban
 ka = Georgisk
 kaa = Karakalpak
 kab = Kabylsk
 kbd = Kabardisk
 ki = Kikuyu
 kk = Kasakhisk
+km = Khmer
 kmr = Nordkurdisk
+kn = Kannada
+knn = Konkani (Devanagari)
 ko = Koreansk
 kpv = Komi (syriansk)
 kw = Kornisk
 ky = Kirgisk
+lb = Luxembourgsk
 lg = Luganda
 lij = Ligurisk
+ln = Lingala
+lo = Laotisk
 lt = Litauisk
 lv = Latvisk
 mai = Maithili
@@ -108,6 +124,7 @@ mhr = Austmarisk
 mk = Makedonsk
 ml = Malayalam
 mn = Mongolsk
+mni = Meitei-lon
 mos = Mossi
 mr = Marathi
 mrj = Vestmarisk
@@ -117,18 +134,25 @@ my = Burmesisk
 myv = Erziamordvinsk
 nan-tw = Taiwansk (Minnan)
 nb-NO = Norsk (bokmål)
+nd = Nordndebele
 ne-NP = Nepalsk
+nhe = Austleg la Huasteca-nahuatl
 nia = Nias
 nl = Nederlandsk
 nn-NO = Norsk (nynorsk)
+nr = Sørndebele
+nso = Nordsotho
 nyn = Nyankole
 oc = Oksitansk
+om = Oromo
 or = Oriya
 pa-IN = Panjabi
 pap-AW = Papiamento (Aruba)
 pl = Polsk
 ps = Pashto
 pt = Portugisisk
+quc = K'iche'
+quy = Quechua Chanka
 rm-sursilv = Retoromansk surselva
 rm-vallader = Retoromansk (Vallader)
 ro = Rumensk
@@ -138,13 +162,18 @@ sah = Sakha
 sat = Santali (ol-chiki)
 sc = Sardinsk
 scn = Siciliansk
+sdh = Sørkurdisk
 shi = Shilha
 si = Singalesisk
 sk = Slovakisk
+skr = Saraiki
 sl = Slovensk
+snk = Soninke
 so = Somali
 sq = Albansk
 sr = Serbisk
+ss = Svati
+st = Sotho
 sv-SE = Svensk
 sw = Swahili
 syr = Gammalsyrisk
@@ -152,26 +181,39 @@ ta = Tamilsk
 te = Telugu
 tg = Tadsjikisk
 th = Thai
+ti = Tigrinja
+tig = Tigre
+tk = Turkmensk
 tl = Tagalog
+tn = Setswana
+tok = Toki pona
 tr = Tyrkisk
+ts = Tsonga
 tt = Tatarisk
 tw = Twi
 ty = Tahitisk
+tyv = Tuvinsk
 uby = Ubykhisk
 udm = Udmurtisk
 ug = Uigurisk
 uk = Ukrainsk
 ur = Urdu
 uz = Usbekisk
+ve = Tshivenda
 vec = Venetiansk
 vi = Vietnamesisk
 vot = Votisk
+wo = Wolof
+xh = Xhosa
 yi = Jiddisk
 yo = Joruba
 yue = Kantonesisk
+zgh = Tamazight
 zh-CN = Kinesisk (Kina)
 zh-HK = Kinesisk (Hong Kong)
 zh-TW = Kinesisk (Taiwan)
+zu = Zulu
+zza = Zazaisk
 
 # [/]
 
@@ -183,6 +225,7 @@ speak-now = Snakk no
 datasets = Datasett
 languages = Språk
 about = Om oss
+partner = Partnar
 profile = Profil
 help = Hjelp
 contact = Kontakt
@@ -325,6 +368,8 @@ profile-form-additional-language =
     .label = Ytterlegare språk
 profile-form-language =
     .label = Språk
+profile-form-variant =
+    .label = Kva for variant av { $language } snakkar du?
 profile-form-variant-default-value = Ingen variant valt
 profile-form-accent =
     .label = Dialekt
@@ -360,7 +405,9 @@ why-demographic = Kvifor er dette viktig?
 why-demographic-explanation-2 = Anonymiserte brukardata, som alder, kjønn og dialekt berikar stemmedataa som vert brukte for å trene talegjenkjenningsmotorane. Brukarnamnet ditt og e-postadressa di vil aldri bli assosierte med bidraga dine, og du kan velje om du vil at brukarnamnet ditt skal vere offentleg eller anonymt.
 accept-privacy = Eg godtar at de handterer denne informasjonen som forklart i Mozillas <privacyLink>personvernpraksis</privacyLink>.
 accept-privacy-title = Personvernpraksis
+accept-privacy-and-terms = Eg godtek <termsLink>vilkåra</termsLink> og <privacyLink>personvernerklæringa</privacyLink> til Common Voice
 login-identity = Innloggingsidentitet
+login = Logg inn
 login-signup = Logg inn / Meld deg på
 edit = Rediger
 email-subscriptions = E-postabonnement
@@ -371,6 +418,8 @@ skip-submission-description = I løpet av bidragsinnsening vil tilbakemelding bl
 skip-submission-note = Merk: Du må framleis velje mellom Tal eller Lytt for å endre bidragstype.
 off = Av
 on = På
+help-accent = Treng du hjelp med dialekt?
+help-variants = Treng du hjelp med variantar?
 
 ## Profile - Email
 
@@ -381,6 +430,7 @@ gravatar_not_found = Fann ingen gravatar for e-postadressa di
 file_too_large = Den valde fila er for stor
 avatar-uploaded = Avatar lasta opp
 max-file-size = maks { $kb } kb
+remove-avatar = Fjern Avatar
 
 ## Profile - Email
 
@@ -450,10 +500,20 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Kvifor Common Voice?
+how-does-it-work-title-v2 = Korleis fungerer Common Voice?
 how-does-it-work-text = Vi masseinnsamlar (crowdsourcing) eit ope datasett av stemmer. Bidra med stemma di, valider nøyaktigheita av andre sine lydklipp og gjer datasettet betre for alle.
 
 ## How does it work section
 
+about-language-req-subtitle = Nokon ber om å leggje til eit språk.
+about-localization-title = Omsetjing av nettstad
+about-sentence-collection-title = Setningsinnsamling
+about-voice-contrib-title = Stemmebidrag
+about-voice-validation-title = Stemmevalidering
+about-voice-validation-subtitle = Andre personar validerer desse stemmeklippa.
+about-dataset-release-title = Utgiving av datasett
+about-dataset-release-subtitle = Det kjem ei utgiving av datasettet kvar 3. månad.
+about-subscribe-text = Vil du halde kontakten med Common Voice?
 about-speak = Tal
 about-speak-text = Bidragsytarar spelar inn stemmeklipp ved å lese inn frå ei samling bidregne setningar.
 about-listen-queue = Lyttekø
@@ -476,25 +536,35 @@ about-get-involved-text-2 =
     Flott! Ta kontakt via e-post eller på <discourseLink>Discourse</discourseLink>,
     forum, send inn nettstadtilbakemelding via <githubLink>GitHub</githubLink>,
     eller bli med på <matrixLink>Matrix</matrixLink>-samfunnsprat.
+about-stay-in-touch = Korleis held eg kontakten?
 about-stay-in-touch-button = Registrer deg
 about-nav-why-common-voice = Kvifor ?
 about-nav-how-it-works = Korleis ?
 about-nav-partners = Partnarar
 about-nav-get-involved = Ver med
 about-nav-how-it-works-2 = Korleis fungerer Common Voice?
+about-nav-playbook = Les om korleis du deltek
 
 ## Community Playbook Content
 ## What is a language
 
+about-playbook-what-is-language = Kva er eit språk på Common Voice?
 
 ## How do I add a language
 
+about-playbook-how-add-language = Korleis legg eg til eit språk?
+about-playbook-how-add-language-translating-heading = Omsetjing av nettsida
+about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Sjå rettleiinga vår om korleis du brukar Pontoon.</translateVideoLink>
+about-playbook-how-add-language-collecting-sentences-heading = Innsamling av setningar
 
 ## How does localization work
 
+about-playbook-how-localize-content-1 = Common Voice vert omsett på <strong>Pontoon</strong>.
+about-playbook-how-localize-content-5 = Sjå videoforklaringa vår for hjelp
 
 ## How to add sentences
 
+about-playbook-how-add-sentences = Korleis legg eg til ei setning?
 
 ## How to record quality
 
@@ -658,6 +728,17 @@ other-language = Anna språk
 ## Request Language Pages
 
 request-language-heading = Spør om eit nytt språk
+request-language-form-email =
+    .label = E-postadressa di
+request-language-form-info =
+    .label = Informasjon om språket
+request-language-form-info-explanation-list-1 = Namn på språket ditt
+request-language-form-info-explanation-list-2 = <isoCodeLink>ISO-kodar</isoCodeLink> om kjende
+request-language-form-info-explanation-list-3 = Lenkjer til nettstadar som kan hjelpe oss med å forstå språket
+request-language-google-recaptcha-required = reCAPTCHA er påkravd om du vil halde fram
+request-language-google-recaptcha-error = Noko gjekk gale med reCAPTCHA. Prøv på nytt.
+# Success page
+request-language-success-heading = Takk skal du ha! Du har sendt ein førespurnad om eit nytt språk
 
 ## Languages Overview
 
@@ -675,6 +756,7 @@ language-speakers = Talt av
 localized = Omsett
 sentences = Setningar
 language-validation-hours = Timar
+language-validation-progress = Valideringsframdrift
 
 ## Contribution
 

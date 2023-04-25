@@ -1585,6 +1585,7 @@ create-profile-button = Emoheñói mba’ete
 img-alt-success-checkmark = marca ojehayhúva
 # GUIDELINES PAGE
 guidelines-header = Ñepytyvõkuaa rapereko
+guidelines-header-subtitle = Eikuaa mba’éichapa eipytyvõ ha emoneĩta ñe’ẽjuaju ha mba’epu mombyky Common Voice mba’ekuaarã atýpe
 voice-collection = Ayvu Ñembyaty
 sentence-collection = Ñe’ẽsyry ñembyaty
 varying-pronunciations = Je’epyre Hekoetáva
@@ -1597,6 +1598,7 @@ reader-effects = Moñe’ẽhára Oñandúva
 just-unsure = ¿Nahekorasãi?
 example = Techapyrã
 varying-pronunciations-example = Pe tape nahesakãporãi.
+varying-pronunciations-tip-1 = [Pe inglés Canadá pegua ikatu "route" ombopu "rowt"]-icha
 misreadings-explanation-2 = Jejavy oikovéva apytépe oike:
 misreadings-explanation-4 = Ndaipóri 's' ñe’ẽ pahápe.
 misreadings-explanation-5 = Emoñe’ẽ momichĩmbyre añetehápe oĩ’ỹva ha’éva "We're" pe "We are" rendaguépe, térã juavyháicha.
