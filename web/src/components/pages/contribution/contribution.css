@@ -1,9 +1,5 @@
 @import url('../../media.css');
 
-.contribution-wrapper {
-    overflow: hidden;
-}
-
 .contribution-wrapper,
 .contribution {
     background-image: linear-gradient(
@@ -32,6 +28,7 @@
     @media (--lg-up) {
         position: initial;
         overflow: visible;
+        justify-content: normal;
         height: 84vh;
     }
 
@@ -352,10 +349,18 @@
     }
 
     .primary-buttons {
-        margin-top: 5vh;
+        margin-top: 6vh;
         display: flex;
         justify-content: center;
         align-items: center;
+
+        @media (-webkit-device-pixel-ratio: 1) {
+            margin-top: 10vh;
+        }
+
+        @media (-webkit-device-pixel-ratio: 2) {
+            margin-top: 10vh;
+        }
 
         & canvas {
             position: absolute;
@@ -375,7 +380,7 @@
     }
 
     .buttons {
-        margin-top: 1rem;
+        margin-top: 4vh;
 
         display: flex;
         justify-content: space-between;
