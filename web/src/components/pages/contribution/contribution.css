@@ -1,7 +1,7 @@
 @import url('../../media.css');
 
 .contribution-wrapper {
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 .contribution-wrapper,
@@ -31,8 +31,9 @@
 
     @media (--lg-up) {
         position: initial;
-        justify-content: initial;
         overflow: visible;
+        justify-content: normal;
+        height: 84vh;
     }
 
     .button {
@@ -352,7 +353,7 @@
     }
 
     .primary-buttons {
-        margin-top: 4vh;
+        margin-top: 10vh;
         display: flex;
         justify-content: center;
         align-items: center;
