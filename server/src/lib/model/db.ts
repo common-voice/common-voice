@@ -3,6 +3,7 @@ import Mysql, { getMySQLInstance } from './db/mysql';
 import Schema from './db/schema';
 import ClipTable, { DBClip } from './db/tables/clip-table';
 import VoteTable from './db/tables/vote-table';
+import * as Sentry from '@sentry/node';
 import {
   ChallengeToken,
   Sentence,
@@ -398,6 +399,7 @@ export default class DB {
     locale: string,
     count: number
   ): Promise<DBClip[]> {
+    Sentry.captureMessage(`Find clips needing validation for ${locale} locale`, Sentry.Severity.Info)
     let taxonomySentences: DBClip[] = [];
     const locale_id = await getLocaleId(locale);
     const exemptFromSSRL = !SINGLE_SENTENCE_LIMIT.includes(locale);
@@ -411,6 +413,9 @@ export default class DB {
         count,
         prioritySegments
       );
+      Sentry.captureMessage(`There are ${prioritySegments.length} priority segments for ${locale} locale`, Sentry.Severity.Info)
+    } else {
+      Sentry.captureMessage(`There are 0 priority segments for ${locale} locale`, Sentry.Severity.Info)
     }
 
     const regularSentences =
@@ -422,7 +427,8 @@ export default class DB {
             count - taxonomySentences.length,
             exemptFromSSRL
           );
-
+    
+    Sentry.captureMessage(`There are ${regularSentences.length} regular sentences for ${locale} locale`, Sentry.Severity.Info)     
     return taxonomySentences.concat(regularSentences);
   }
 
