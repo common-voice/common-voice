@@ -39,6 +39,10 @@
         overflow: visible;
     }
 
+    @media (--sm-down) {
+        padding-bottom: 20px;
+    }
+
     .button {
         min-width: auto;
 
@@ -274,7 +278,6 @@
         align-items: center;
         height: 100%;
         width: 100%;
-        margin-top: 30px;
 
         @media (--xl-up) {
             margin-top: 0;
@@ -289,7 +292,11 @@
 
             @media (--md-up) {
                 max-height: 430px;
-                height: 43vh;
+                height: 31vh;
+            }
+
+            @media (--md-only) {
+                margin-right: 20px
             }
         }
 
@@ -326,6 +333,8 @@
 
         @media (--md-up) {
             flex: 1;
+            display: flex;
+            align-items: end;
         }
 
         .inner {
@@ -422,6 +431,10 @@
                     fill: var(--black);
                 }
             }
+
+            @media (--md-down) {
+                margin-inline-end: 20px;
+            }
         }
 
         .shortcuts-btn {
@@ -438,7 +451,7 @@
             display: inline-flex;
 
             & svg {
-                margin-inline-start: 13px;
+                margin-inline-end: 13px;
 
                 [dir='rtl'] & {
                     transform: rotateY(180deg);
@@ -491,7 +504,11 @@
             display: flex;
 
             & .open-report-button {
-                margin-inline-end: 12px;
+                margin-inline-end: 20px;
+
+                @media (--md-down) {
+                    padding: 0 20px;
+                }
             }
         }
     }

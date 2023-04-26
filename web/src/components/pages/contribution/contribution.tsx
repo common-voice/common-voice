@@ -528,7 +528,7 @@ class ContributionPage extends React.Component<ContributionPageProps, State> {
                 <Button
                   rounded
                   outline
-                  className="hidden-sm-down shortcuts-btn"
+                  className="hidden-md-down shortcuts-btn"
                   onClick={this.toggleShortcutsModal}>
                   <KeyboardIcon />
                 </Button>
@@ -546,10 +546,10 @@ class ContributionPage extends React.Component<ContributionPageProps, State> {
               ].join(' ')}
               disabled={!this.isLoaded}
               onClick={onSkip}>
+              <SkipIcon />
               <Localized id="skip">
                 <span />
               </Localized>{' '}
-              <SkipIcon />
             </Button>
             {onSubmit && shouldHideCTA && (
               <form
