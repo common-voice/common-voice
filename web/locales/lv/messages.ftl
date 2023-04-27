@@ -495,7 +495,7 @@ faq-why-my-lang-a =
     Mēs labprāt pievienotu jūsu valodu! <languageRequestLink>Jautājiet par valodas pievienošanu.</languageRequestLink>
 faq-what-quality-q = Kāda līmeņa audio kvalitāte ir nepieciešama, lai balss ierakstu varētu izmantot datu kopā?
 faq-what-quality-a = Mēs vēlamies, lai kopīgā balss datu kopa atspoguļotu skaņas kvalitāti, ko runātājs dzirdēs savvaļā, tāpēc mēs meklējam dažādību. Papildus daudzveidīgai runātāju kopai datu kopa ar atšķirīgu skaņas kvalitāti iemācīs runas-teksta dzinējam, rīkoties ar dažādām reālām situācijām, piemēram no fona ar automašīnu troksni. Kamēr jūsu balss klips ir saprotams, tas ir pietiekami labs datu kopai.
-faq-why-10k-hours-q = Kādēļ 10000 stundas ir mērķis ierakstu pārbaudē?
+faq-why-10k-hours-q = Kādēļ ierakstu pārbaudes mērķis ir 10000 stundu?
 faq-why-10k-hours-a = Tas ir aptuvenais stundu skaits, kas nepieciešams, lai kvalitatīvi apmācītu runas-teksta atpazīšanas sistēmu.
 faq-how-calc-hours-q = Kā Common Voice aprēķina stundas?
 faq-how-calc-hours-a = Mēs aprēķinām stundas, aprēķinot katra ieraksta vidējo garumu un tad reizinot šo skaitu ar kopējo ierakstu skaitu visās valodās.
@@ -1294,7 +1294,7 @@ share-goal = Dalies ar savu mērķi
 delete-q = Vai vēlaties pieprasīt, lai arī jūsu balss ieraksti tiktu dzēsti, vai arī vēlaties tos saglabāt Common Voice datu kopā?
 keep = Saglabāt
 remove = Noņemt
-keep-info = Jūsu anonīmie balss ieraksti paliks Common Voice datu kopā. Kad būsiet izdzēsis savu profilu, jūs vairs nevarēsiet iesniegt pieprasījumu savu ierakstu dēšanai no datu kopas
+keep-info = Jūsu anonīmie balss ieraksti paliks Common Voice datu kopā. Kad būsiet izdzēsis savu profilu, jūs vairs nevarēsiet iesniegt pieprasījumu savu ierakstu dzēšanai no datu kopas
 remove-info = Mēs pārskatīsim jūsu pieprasījumu, lai no datu kopas noņemtu jūsu ierakstus. Ja jūsu pieprasījums tiks apstiprināts, mēs sazināsimies arī ar tiem, kas ir lejupielādējuši datu kopu un viņiem pieprasīsim, lai dzēš jūsu ierakstus.
 why-delete-recordings =
     Common Voice ierakstus izmanto akadēmiķi, mazie uzņēmumi un balss atpazīšanas entuziasti, lai palīdzētu apmācīt un attīstīt publiski pieejamos resursus, piemēram, balss atpazīšanas modeļus.
