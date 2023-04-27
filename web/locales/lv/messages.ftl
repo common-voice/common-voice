@@ -494,7 +494,7 @@ faq-why-my-lang-a =
     Common Voice ir pūļa pakalpojumu platforma, un visas valodas pievieno brīvprātīgie.
     Mēs labprāt pievienotu jūsu valodu! <languageRequestLink>Jautājiet par valodas pievienošanu.</languageRequestLink>
 faq-what-quality-q = Kāda līmeņa audio kvalitāte ir nepieciešama, lai balss ierakstu varētu izmantot datu kopā?
-faq-what-quality-a = Mēs vēlamies, lai kopīgā balss datu kopa atspoguļotu skaņas kvalitāti, ko runātājs dzirdēs savvaļā, tāpēc mēs meklējam dažādību. Papildus daudzveidīgai runātāju kopai datu kopa ar atšķirīgu skaņas kvalitāti iemācīs runas-teksta dzinējam, rīkoties ar dažādām reālām situācijām, piemēram no fona ar automašīnu troksni. Kamēr jūsu balss klips ir saprotams, tas ir pietiekami labs datu kopai.
+faq-what-quality-a = Mēs vēlamies, lai Common Voice datos atspoguļotos tāda skaņas kvalitāte, ko runas-teksta programma uztvers dabiskā vidē, tāpēc ir nepieciešama dažādība. Atšķirīgā skaņas kvalitātē ierakstīti daudzveidīgu runātāju dati iemācīs runas-teksta programmai darboties dažādās reālās situācijās, piemēram, ar fona sarunām vai ar automašīnas troksni. Kamēr jūsu balss ieraksts ir saprotams, tas ir pietiekami labs datu kopai.
 faq-why-10k-hours-q = Kādēļ ierakstu pārbaudes mērķis ir 10000 stundu?
 faq-why-10k-hours-a = Tas ir aptuvenais stundu skaits, kas nepieciešams, lai kvalitatīvi apmācītu runas-teksta atpazīšanas sistēmu.
 faq-how-calc-hours-q = Kā Common Voice aprēķina stundas?
