@@ -270,6 +270,14 @@ show-wall-of-text = Ka kunnafoni wɛrɛw kalan
 help-us-title = An dɛmɛ ka kumasenw tiɲɛ!
 help-us-explain = A digi , ka bilaaala , ka lamɛn & k'a fɔ an ye  : yala u ye kumasen in fɔ ka ɲɛ wa?
 no-clips-to-validate = A bɛ iko klip si tɛ yen ka Lamɛ nin kan in na. An dɛmɛ ka  kumakan  dɔw  ta sisan.
+vote-yes = Awɔ
+vote-no = Ayi
+toggle-play-tooltip = { shortcut-play-toggle } digi walasa ka tulonkɛcogo caman wuli
+speak-subtitle = Aw ye aw ka kan di
+speak-paragraph = Kumakan-klipw sɛbɛnni ye an ka kunnafonidilan dafalen jɔli yɔrɔ koloma ye; dɔw bɛna a fɔ ko ɲɛnajɛyɔrɔ fana don.
+speak-goal-text = Kan taala
+listen-subtitle = An dɛmɛ ka kumakanw tiɲɛtigiya
+listen-paragraph = Klip minnu dira, olu tiɲɛni nafa ka bon o cogo kelen na Common Voice cidenyabaara la. Aw ye lamɛnni kɛ ani k’an dɛmɛ ka kumakan kunnafoni dafalenw dilan minnu ka ɲi.
 
 ## Account Benefits
 
