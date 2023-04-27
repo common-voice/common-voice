@@ -1131,7 +1131,7 @@ download-request-link-single = Tamén pode copiar e pegar as URL directamente no
 welcome-staff = Benvida ao persoal de { $company }
 help-contribute = Pode axudar a construír un conxunto de datos diverso e de código aberto creando un perfil de Common Voice e doando a súa voz.
 login-company = Iniciar sesión / Rexistrarse co correo electrónico de { $company }
-profile-not-required = Non é necesario ter un perfil para colaborar, malia que tamén axuda, e vexa por que a seguir.
+profile-not-required = Non é absolutamente necesario ter unha conta para colaborar, malia que axuda. Vexa por que a seguir.
 read-more-about = Máis información na pestana "Sobre nós"
 
 ## DemoLayout
