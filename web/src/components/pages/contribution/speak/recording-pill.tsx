@@ -42,7 +42,7 @@ function RecordingPill({
   const audioContext = useRef(null);
   const source = useRef(null);
 
-  const toggleIsPlaying = () => {
+  const toggleIsPlaying = async () => {
     const nextIsPlaying = !isPlaying;
 
     if (nextIsPlaying) {
@@ -51,18 +51,19 @@ function RecordingPill({
       audioContext.current = new (window.AudioContext || window.webkitAudioContext)();
       source.current = audioContext.current.createBufferSource();
 
-      clip.recording.blob.arrayBuffer().then(arrayBuffer => {
-        audioContext.current.decodeAudioData(arrayBuffer).then((audioBuffer: any) =>{
-          source.current.buffer = audioBuffer
-          source.current.onended = () => {
-            source.current = audioContext.current.createBufferSource();
-            setShowSentenceTooltip(false);
-            setIsPlaying(false);
-          }
-          source.current.connect(audioContext.current.destination);
-          source.current.start(0);
-        });
-      });
+      const arrayBuffer = await clip.recording.blob.arrayBuffer();
+      const audioBuffer = await audioContext.current.decodeAudioData(arrayBuffer);
+
+      source.current.buffer = audioBuffer
+
+      source.current.onended = () => {
+        source.current = audioContext.current.createBufferSource();
+        setShowSentenceTooltip(false);
+        setIsPlaying(false);
+      }
+      
+      source.current.connect(audioContext.current.destination);
+      source.current.start(0);
     } else {
       source.current.stop(0);
       setShowSentenceTooltip(false);
