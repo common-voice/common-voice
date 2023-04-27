@@ -523,7 +523,7 @@ faq-search-for-answers =
 
 ## ABOUT US
 
-about-title = Kāpēc ir kopīgā balss?
+about-title = Kāpēc ir Common Voice?
 about-header-description-v2 =
     <p>Common Voice ir publiski pieejama balss datu kopa, ko veido brīvprātīgo balsis visā pasaulē. Cilvēki, kuri vēlas veidot programmas, kas strādā ar balsi, var izmantot datu kopu, lai apmācītu runas atpazīšana modeļus.</p>
     <p>Šobrīd lielākā daļa balss datu kopu pieder atsevišķiem uzņēmumiem, kas kavē inovācijas. Valodas ar mazu runātāju skaitu pasaulē balss datu kopās ir nepietiekami pārstāvētas. Tas nozīmē, ka tehnoloģijas, kas darbojas ar balsi šajās valodās nedarbojas vai strādā slikti. Mēs vēlamies to mainīt, mobilizējot cilvēkus visā pasaulē, lai viņi dalītos ar savu balsi un pārbaudītu ierakstītos teikumus.</p>
@@ -1310,7 +1310,7 @@ download-profile-title = Profilu
 download-profile-info = Ietver e-pastu, lietotājvārdu un demogrāfisko informāciju, pieejama uzreiz
 download-profile-size = Daži baiti
 download-recordings-title = Ieraksti
-download-recordings-info = Ietver mp3 failus un saistītos teikumus. Sagatavošanās var aizņemt kādu laiku
+download-recordings-info = Ietver mp3 failus un teikumus. Sagatavošanās var aizņemt kādu laiku
 download-recordings-size = Parasti megabaiti
 download-recordings-unavailable = Jūs nevarat pieprasīt savus ierakstus, kamēr jau notiek cita pieprasījuma apstrāde.
 download-recently-requested = Varat pieprasīt jaunu savu ierakstu izņemšanu ik pēc { $days } dienām.
@@ -1336,7 +1336,7 @@ download-request-link-single = Varat arī kopēt un ielīmēt šīs adreses sav�
 ## Landing
 
 welcome-staff = Sveicināti { $company } darbinieki!
-help-contribute = Jūs varat palīdzēt veidot daudzveidīgu, atvērtā pirmkoda datu kopu, izveidojot kopīgās balss profilu un ierakstot savu balsi.
+help-contribute = Jūs varat palīdzēt veidot daudzveidīgu atvērtā pirmkoda datu kopu, izveidojot Common Voice profilu un ierakstot savu balsi.
 login-company = Piesakieties / pierakstieties ar { $company } e-pastu
 profile-not-required = Lai veiktu ieguldījumu, profilu veidot nevajag, bet tas var būt noderīgi ja jūs to izveidosiet
 read-more-about = Lasiet vairāk mūsu lapā Par mums
