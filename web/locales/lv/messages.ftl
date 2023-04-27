@@ -732,7 +732,7 @@ review-delete-recordings = Dzēst manus ierakstus
 ## Datasets Page
 
 datasets-heading = Datu kopas
-datasets-headline = Mēs veidojam atvērtā pirmkoda, daudzvalodu datu kopu, kurā ikviens var izmantot, lai apmācītu runas iespējotas lietojumprogrammas.
+datasets-headline = Mēs veidojam atvērtā pirmkoda daudzvalodu datu kopu, ko ikviens var izmantot, lai apmācītu runas iespējotas lietojumprogrammas.
 datasets-positioning =
     Mēs uzskatām, ka lielas, publiski pieejamas balss datu kopas veicinās inovācijas un veselīgu komerciālu konkurenci mašīnmācībā balstītā runas tehnoloģijā.
     
