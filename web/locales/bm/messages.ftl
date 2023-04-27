@@ -44,6 +44,7 @@ be = Belaruskaw ka kan
 bg = Bulgarikan na
 bm = Bamanankan na
 bn = Bengalikan
+bo = Tibɛtikan na
 br = Bretonkan na
 bs = Bosnikan
 bxr = Buryatikan na
@@ -138,11 +139,13 @@ nb-NO = Norowɛzikan
 nd = Isindebelekan
 ne-NP = Nepalikan
 nhe = Kɔrɔnfɛla Huwasitekakan
+nhi = Siyera Tlebi fɛ Puebla Nahuatl
 nia = Niyasikan
 nl = Alimankan
 nn-NO = Norowɛzininorosikikan
 nr = Isindebelekan
 nso = Worodugu Sotokan
+ny = Chinyanja kan na
 nyn = Runiyankolekan
 oc = Okitankan
 om = Afan Oromokan
@@ -263,6 +266,8 @@ wall-of-text-first =
     an ka masinw kama. Nka walasa ka kumakanw dabɔ, baarakɛlaw mago bɛ kan hakɛ camanba la kosɛbɛ¶
     kunnafoniw.
 wall-of-text-second = Baarakɛdabaw bɛ baara kɛ ni kunnafonidilan minnu ye, olu fanba tɛ sɔrɔ mɔgɔ fanba bolo. An hakili la o¶ bɛ kokuradonni dabila. O la, an ye Common Voice daminɛ, porozɛ min bɛ dɛmɛ don ka kumakan dɔnni da wuli¶ ani ka se bɛɛ ma.
+show-wall-of-text = Ka kunnafoni wɛrɛw kalan
+help-us-title = An dɛmɛ ka kumasenw tiɲɛ!
 
 ## Account Benefits
 
