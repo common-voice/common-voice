@@ -268,6 +268,8 @@ wall-of-text-first =
 wall-of-text-second = Baarakɛdabaw bɛ baara kɛ ni kunnafonidilan minnu ye, olu fanba tɛ sɔrɔ mɔgɔ fanba bolo. An hakili la o¶ bɛ kokuradonni dabila. O la, an ye Common Voice daminɛ, porozɛ min bɛ dɛmɛ don ka kumakan dɔnni da wuli¶ ani ka se bɛɛ ma.
 show-wall-of-text = Ka kunnafoni wɛrɛw kalan
 help-us-title = An dɛmɛ ka kumasenw tiɲɛ!
+help-us-explain = A digi , ka bilaaala , ka lamɛn & k'a fɔ an ye  : yala u ye kumasen in fɔ ka ɲɛ wa?
+no-clips-to-validate = A bɛ iko klip si tɛ yen ka Lamɛ nin kan in na. An dɛmɛ ka  kumakan  dɔw  ta sisan.
 
 ## Account Benefits
 
