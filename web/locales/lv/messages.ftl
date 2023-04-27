@@ -1648,19 +1648,19 @@ sc-lang-info-total =
 #   $totalInReview (Number) - Number of sentences currently in the review state for this language
 sc-lang-info-in-review =
     { $totalInReview ->
-        [0] Nav neviena teikuma ko pārbaudīt.
-        [zero] { $totalInReview } teikums ko pārbaudīt.
-        [one] { $totalInReview } teikumi ko pārbaudīt.
-       *[other] { $totalInReview } teikumi ko pārbaudīt.
+        [0] Nav neviena teikuma, ko pārbaudīt.
+        [zero] { $totalInReview } teikums, ko pārbaudīt.
+        [one] { $totalInReview } teikumi, ko pārbaudīt.
+       *[other] { $totalInReview } teikumi, ko pārbaudīt.
     }
 # Variables:
 #   $unreviewedSentencesByYou (Number) - Number of sentences the user can still review
 sc-lang-info-left-for-you =
     { $unreviewedSentencesByYou ->
-        [0] Jums nav neviena teikuma ko pārbaudīt.
-        [zero] { $unreviewedSentencesByYou } teikums ko pārbaudīt.
-        [one] { $unreviewedSentencesByYou } teikumi ko pārbaudīt.
-       *[other] { $unreviewedSentencesByYou } teikumi ko pārbaudīt.
+        [0] Jums nav neviena teikuma, ko pārbaudīt.
+        [zero] { $unreviewedSentencesByYou } teikums, ko pārbaudīt.
+        [one] { $unreviewedSentencesByYou } teikumi, ko pārbaudīt.
+       *[other] { $unreviewedSentencesByYou } teikumi, ko pārbaudīt.
     }
 sc-lang-info-review-now = <reviewLink>Pārbaudīt tagad!</reviewLink>
 sc-lang-info-add-more = <addLink>Pievienojiet teikumus!</addLink>
