@@ -9,6 +9,8 @@
             var(--white) 20%,
             var(--desert-storm)
         );
+
+        height: calc(100% - 135px);
         
         @media (--xl-up) {
             overflow: auto;
@@ -33,6 +35,8 @@
             .instruction {
                 width: fit-content;
             }
+
+            height: auto;
         }
 
         & .instruction {
@@ -53,10 +57,6 @@
                 margin-bottom: 16px;
             }
         }
-    }
-
-    & .write-wrapper {
-        height: 80%;
     }
 
     & .review-wrapper {

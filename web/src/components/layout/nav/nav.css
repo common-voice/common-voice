@@ -95,7 +95,11 @@
             & div {
                 display: flex;
                 align-items: center;
-                padding: 7px;
+                padding: 8px;
+
+                @media (--sm-down) {
+                    padding: 4px;
+                }
             }
 
             & div:last-child {
