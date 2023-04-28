@@ -1,5 +1,9 @@
 @import url('../../media.css');
 
+.contribution-wrapper {
+    overflow: hidden;
+}
+
 .contribution-wrapper,
 .contribution {
     background-image: linear-gradient(
