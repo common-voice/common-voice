@@ -288,6 +288,14 @@ read-terms-q = Yala i ye an ka Sariyaw kalan wa?
 ready-to-record = Yala i labɛnnen don k’i kan di wa?
 all-locales = Bɛɛ
 today = Bi
+x-weeks-short =
+    kelen Dɔgɔkun
+    dɔ wɛrɛ
+    dk { $count }
+x-months-short = mo{ $count }
+x-years-short = san{ $count }
+help-make-dataset = An dɛmɛ ka datasɛti  ɲumanba dɔ dankɛnɛmaya, min dabɔra foroba mago kama
+sign-up-account = I tɔgɔ sɛbɛn ka kɔnti dɔ sɔrɔ
 
 ## Account Benefits
 
