@@ -1,7 +1,7 @@
 @import url('../../media.css');
 
 .contribution-wrapper {
-    /* overflow: hidden; */
+    overflow-x: hidden;
 }
 
 .contribution-wrapper,
@@ -353,10 +353,18 @@
     }
 
     .primary-buttons {
-        margin-top: 10vh;
+        margin-top: 6vh;
         display: flex;
         justify-content: center;
         align-items: center;
+
+        @media (-webkit-device-pixel-ratio: 1) {
+            margin-top: 10vh;
+        }
+
+        @media (-webkit-device-pixel-ratio: 2) {
+            margin-top: 10vh;
+        }
 
         & canvas {
             position: absolute;
