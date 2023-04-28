@@ -278,6 +278,16 @@ speak-paragraph = Kumakan-klipw sɛbɛnni ye an ka kunnafonidilan dafalen jɔli 
 speak-goal-text = Kan taala
 listen-subtitle = An dɛmɛ ka kumakanw tiɲɛtigiya
 listen-paragraph = Klip minnu dira, olu tiɲɛni nafa ka bon o cogo kelen na Common Voice cidenyabaara la. Aw ye lamɛnni kɛ ani k’an dɛmɛ ka kumakan kunnafoni dafalenw dilan minnu ka ɲi.
+listen-goal-text = Kanw minnu   sɛmɛntiyala
+hours-recorded = Lɛriw minnu sɛbɛnna
+hours-validated = Lɛriw minnu sɛmɛntiyala
+voices-online = Kumakanw bɛ Ɛntɛrinɛti kan Sisan
+todays-progress = Bi ɲɛtaa
+help-reach-goal = An dɛmɛ ka se { $goal } ma.
+read-terms-q = Yala i ye an ka Sariyaw kalan wa?
+ready-to-record = Yala i labɛnnen don k’i kan di wa?
+all-locales = Bɛɛ
+today = Bi
 
 ## Account Benefits
 
