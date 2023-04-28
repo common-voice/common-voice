@@ -1586,7 +1586,7 @@ sc-add-err-failed =
     { $sentences ->
         [0] Neviens teikums netika noraidīts
         [zero] { $sentences } teikums tika noraidīts
-        [one] { $sentences } teikumi tika noraidīti
+        [one] { $sentences } teikums tika noraidīts
        *[other] { $sentences } teikumi tika noraidīti
     }
 sc-add-err-submission = Iesniegšanas kļūda
@@ -1670,17 +1670,17 @@ sc-lang-info-validated =
     { $validatedSentences ->
         [0] Nav neviena pārbaudīta teikuma.
         [zero] { $validatedSentences } pārbaudīts teikums.
-        [one] { $validatedSentences } pārbaudīti teikumi.
-       *[other] { $validatedSentences } pārbaudītu teikumu.
+        [one] { $validatedSentences } pārbaudīts teikums.
+       *[other] { $validatedSentences } pārbaudīti teikumi.
     }
 # Variables:
 #   $rejectedSentences (Number) - Number of sentences which have been rejected for this language
 sc-lang-info-rejected =
     { $rejectedSentences ->
         [0] Nav neviena noraidīta teikuma.
-        [zero] { $rejectedSentences } noraidīts teikums.
-        [one] { $rejectedSentences } noraidīti teikumi.
-       *[other] { $rejectedSentences } noraidītu teikumu.
+        [zero] { $rejectedSentences } noraidīti teikumi.
+        [one] { $rejectedSentences } noraidīts teikums.
+       *[other] { $rejectedSentences } noraidīti teikumi.
     }
 
 ## LOGIN
