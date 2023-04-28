@@ -113,7 +113,6 @@
 .rules.write-rules {
     @media (--lg-up) {
         height: calc(30vh + 91.5px);
+        min-height: 353px;
     }
-
-    min-height: 353px;
 }
