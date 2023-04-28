@@ -302,6 +302,7 @@ email-subscription-title-new = I tɔgɔ sɛbɛn Common Voice kunnafonidisɛbɛnw
 ## Account Benefits
 
 benefits = Nafaw
+rich-data = Aw ye aw ka kunnafoniw cilenw kɛ fɛn nafamaw ye cogo bɛɛ la, aw kɛtɔ ka jamanadenw ka kunnafoniw dɔw di minnu tɔgɔ ma fɔ. An bɛ jamanaden hakɛ kunnafoniw bɛɛ dogo ka sɔrɔ k’u bɔ kɛnɛ kan.
 keep-track = Aw ye aw ka ɲɛtaa ni jateminɛw jateminɛ kan caman kɔnɔ.
 
 ## What's public
