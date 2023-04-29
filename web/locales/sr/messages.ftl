@@ -655,6 +655,9 @@ about-playbook-how-access-dataset = Како да приступим и кори
 
 ## How are decisions made
 
+about-playbook-how-project-governance-content-1 = Mozilla Common Voice покреће разнолика заједница активиста, лингвиста, аналитичара података, научника и софтверских инжењера из целог света. Пројектом управља Mozilla фондација.
+about-playbook-how-project-governance-content-2 = Наше управљање је изграђено на следећим основама:
+about-playbook-how-project-governance-content-3 = Приватност, сигурност и транспарентност.
 
 ## Glossary
 
