@@ -538,6 +538,7 @@ about-get-involved-text-2 =
     ⴰⵎⵙⴰⵡⴰⵍ ⵏ ⵜⴳⵔⴰⵡⵜ ⵏ <matrixLink>ⵎⵉⵜⵔⵉⴽⵙ</matrixLink>.
 about-stay-in-touch = ⵎⴰⵏⵎⴽ ⵙ ⵔⴰⴷ ⵇⵇⵉⵎⵖ ⴳ ⵓⵏⵢⴰⵍⴽⴰⵎ?
 about-stay-in-touch-button = ⴽⵛⵎ
+about-nav-why-common-voice = ⵎⴰⵅⴼ ?
 about-nav-how-it-works = ⵎⴰⵏⵎⴽ?
 about-nav-partners = ⵉⵎⴷⵔⴰⵡⵏ
 about-nav-get-involved = ⴰⵣⵔ
@@ -595,6 +596,7 @@ about-playbook-how-grow-language-content-4 = ⵉⵥⴹⵡⴰⵏ ⵉⵏⴰⵎⵓ�
 
 about-playbook-how-validate = ⵎⴰⵏⵎⴽ ⵙ ⵔⴰⴷ ⵙⵙⵏⵖ ⵉⵙ ⴷ ⴰⴷ ⵙⵙⴳⵍⵢⵖ ⴽⵔⴰ ⵜⵓⵙⵙⵉⴼⵜ ⵜⴰⴳⵕⴹⵏⵜ?
 about-playbook-how-validate-content-1 = ⵎⴽ ⵜⵣⵎⵔⴷ ⴰⴷ <strong>ⴰⵙⵏⵜ ⵜⵙⵙⴼⵍⴷⴷ</strong> ⴷ ⴰⴷ <strong>ⵜⵏⵜ ⵜⵔⵎⵙⴷ</strong>, ⴳ ⵜⵎⵢⵓⵔⵜ <strong>ⵢⵓⴼ ⴰⴷ ⵜⵏⵜ ⵜⵙⵙⴳⵍⵢⴷ</strong>.
+about-playbook-how-validate-content-4 = ⵎⴽ ⵜⴻⵜⵜⵢⴰⴳⴰⵢ ⴽⵔⴰ ⵏ ⵜⵓⵙⵙⵉⴼⵜ ⵙⴳ ⵖⵓⵔ 2 ⵎⴷⴷⵏ, ⵍⴰ ⵏⵏ ⵜⴻⵜⵜⴼⴼⵖ ⴳ ⵢⴰⵜ ⵜⴷⵓⴳⵔⵓⵎⵎⴰ ⵉⵎⵣⴰⵔⴰⵢⵏ ⵏ ⵜⴳⵔⵓⵎⵎⴰ ⵏ ⵉⵙⴼⴽⴰ.
 
 ## How to access dataset
 
@@ -604,7 +606,9 @@ about-playbook-how-access-dataset-content-2 = ⵎⴽ ⵍⴰ ⵜⵙⵉⴳⴳⵉ�
 
 ## How are decisions made
 
+about-playbook-how-project-governance = ⵎⴰⵏⵎⴽ ⵙ ⵜⵜⵓⵙⴽⵉⵔⵏⵜ ⵜⵖⵜⴰⵙⵉⵏ ⵏ ⵓⵙⵏⴼⴰⵔ?
 about-playbook-how-project-governance-content-3 = ⵜⵉⵏⵏⵓⵜⵍⴰ, ⵜⴰⵏⴼⵔⵓⵜ ⴷ ⵜⵎⴰⴼⴰⵡⵜ.
+about-playbook-how-project-governance-content-4 = ⵜⴰⴷⵔⴰⵡⵜ ⵜⴰⴳⵔⴰⵡⴰⵏⵜ ⴷ ⵓⵙⴽⴽⵉⵔ ⵏ ⵜⴰⵏⴰⴹⵜ.
 about-playbook-how-project-governance-content-5 = ⴰⵜⵉⴳ ⴷ ⵜⵓⴽⵣⴰ.
 
 ## Glossary
