@@ -1635,6 +1635,7 @@ background-noise-example-1 = ٹریاسک دے دیوہیکل ڈایناسور۔
 background-noise-example-2 = [نچھ] [کھنگھ] ٹریاسک دے دیوہیکل ڈایناسور.
 background-noise-example-3 = ٹریاسک دا دیوہیکل ڈاینا [کف]۔
 background-noise-example-4 = [کریکل] ـ ریاسک دے [کریکل] دیوہیکل ڈایناسور۔
+background-noise-tip-1 = [پس منظر دے شور کنوں روکیا ہویا]
 background-noise-tip-2 = [عبارت دا حصہ کائنی سُݨ سڳیندا]
 background-voices-example-1 = ٹریاسک دے دیوہیکل ڈایناسور، [ہک اواز نال پڑھو]
 background-voices-tip-1 = بھلا تساں آن٘دے پئے ہو؟ [ٻئے ولوں سݙا]
