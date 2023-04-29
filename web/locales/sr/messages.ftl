@@ -415,6 +415,7 @@ accept-privacy = Слажем се са тиме да рукујете овим 
 accept-privacy-title = Политика приватности
 accept-privacy-and-terms = Слажем се са Common Voice <termsLink>условима</termsLink> и <privacyLink>политиком приватности</privacyLink>
 login-identity = Идентитет пријаве
+login = Пријава
 login-signup = Пријава / Регистрација
 edit = Уреди
 email-subscriptions = Претплате путем е-поште
@@ -907,6 +908,9 @@ target-segment-first-banner = Помозите Common Voice-у у прављењ
 target-segment-add-voice = Додајте ваш глас
 target-segment-learn-more = Сазнајте више
 
+## Contribution Nav Items
+
+
 ## Reporting
 
 report = Пријави
@@ -1290,3 +1294,4 @@ partnerships-small-business-description = Увек смо жељни да чуј
 partnerships-corporates-header = Велике корпорације и платформске компаније
 partnerships-corporates-description = Ако желите да разговарате више о скупу података, инвестирате у планирана проширења платформе или тражите могућности за сарадњу, <emailFragment>контактирајте нас.</emailFragment>
 partnerships-our-partners = Наши партнери
+sentence-collection = Скупљање реченица
