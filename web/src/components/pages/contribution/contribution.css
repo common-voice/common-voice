@@ -33,7 +33,7 @@
         position: initial;
         overflow: visible;
         justify-content: normal;
-        height: 84vh;
+        min-height: 84vh;
     }
 
     .button {
@@ -362,7 +362,7 @@
             margin-top: 10vh;
         }
 
-        @media (-webkit-device-pixel-ratio: 2) {
+        @media (-webkit-device-pixel-ratio: 2) and (min-height: 910px) {
             margin-top: 10vh;
         }
 
