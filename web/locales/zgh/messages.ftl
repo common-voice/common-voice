@@ -684,6 +684,7 @@ get-started-speech = ⵙⵙⵏⵜⵉ ⵙ ⵜⵓⴽⵣⴰ ⵏ ⵡⴰⵡⴰⵍ
 other-datasets = ⵜⵉⴳⵔⵓⵎⵎⴰⵡⵉⵏ ⵏ ⵉⵙⴼⴽⴰ ⵉⴳⵕⴹⴰⵏⵏ ⵢⴰⴹⵏⵉⵏ
 feedback-q = ⵖⵓⵔⵓⵏ ⵜⴰⵙⴷⵎⵉⵔⵜ?
 resource-deepspeech-info = ⵉⵣⵎⵔ ⵓⵙⵏⵎⴰⵙⵙⵓ ⵏ ⵓⵙⴰⴳⵎ ⵓⵕⵥⵉⵎ ⵏ ⵜⵓⴽⵣⴰ ⵜⴰⴳⵕⴹⴰⵏⵜ ⵏ ⵎⵓⵣⵉⵍⴰ, ⴷⵉⴱⵙⴱⵉⵜⵛ, ⴰⴷ ⵉⵜⵜⵓⵙⵎⵔⵙ ⴳ ⵜⵙⵏⵙⵉⵜⵉⵏ ⵏ ⵜⵓⴽⵣⴰ ⵏ ⵡⴰⵡⴰⵍ. ⵖⵔⴰⵜ <githubLink>ⵜⴰⴳⴹⵡⵉⵜ ⵏ ⴳⵉⵜⵀⴰⴱ</githubLink> ⵏⵏⵖ ⵏⵉⵖ ⵜⵍⴽⵎⵎ <discourseLink>ⴷⵉⵙⴽⵓⵔⵙ ⵏ ⴷⵉⴱⵙⴱⵉⵜⵛ</discourseLink> ⵃⵎⴰ ⴰⴷ ⵜⵍⵎⴷⵎ ⵎⴰⵏⵎⴽ ⵙ ⵔⴰⴷ ⵜⵙⵙⵏⵜⵢⵎ.
+data-other-tatoeba-description = ⵜⴳⴰ ⵜⴰⵜⵓⴱⴰ ⵢⴰⵜ ⵜⴳⵔⵓⵎⵎⴰ ⵏ ⵉⵙⴼⴽⴰ ⵜⴰⵎⵇⵇⵔⴰⵏⵜ ⵏ ⵜⵡⵉⵏⴰⵙ, ⵜⵉⵙⵓⵖⵍⵉⵏ, ⴷ ⵉⵎⵙⵍⵉⵜⵏ ⵉⵜⵜⵓⵏⵏⴰⵏ ⵉ ⵓⵙⵙⵎⵔⵙ ⴳ ⵓⵍⵎⵎⵓⴷ ⵏ ⵜⵓⵜⵍⴰⵢⵜ. ⵢⵓⵎⴰ ⵡⴰⴳⴰⵎ ⴰ ⵉⵙⵓⵙⴰⵔ ⵏ ⵜⵏⴳⵍⵉⵣⵜ ⵜⵜⵓⵙⵓⵙⵔⵏ ⵙⴳ ⵖⵓⵔ ⵜⴳⵔⴰⵡⵜ ⵏⵏⵙⵏ.
 your-feedback = ⵉⵙ ⵖⵓⵔⵓⵏ ⵜⵉⵡⵏⴳⵉⵎⵉⵏ ⵅⴼ ⵎⴰⵏⵎⴽ ⵙ ⵔⴰⴷ ⵏⵙⵖⵓⴷⵓ ⵜⴰⴳⵔⵓⵎⵎⴰ ⵏ ⵉⵙⴼⴽⴰ ⵏ ⴽⴰⵎⵏⴼⵓⵢⵙ? ⴰⵊⵊⴰⵜ ⴰⵏⵖ ⴰⴷ ⵏⵙⵙⵏ ⴳ ⴷⵉⵙⴽⵓⵔⵙ
 go-discourse = ⴷⴷⵓ ⵖⵔ ⴷⵉⵙⴽⵓⵔⵙ
 go-languages-page = ⴷⴷⵓ ⵙ ⵜⴰⵙⵏⴰ ⵏ ⵜⵓⵜⵍⴰⵢⵉⵏ
@@ -725,6 +726,11 @@ other-language = ⵜⵓⵜⵍⴰⵢⵜ ⵢⴰⴹⵏ
 ## Request Language Pages
 
 request-language-heading = ⵜⵜⵔ ⴽⵔⴰ ⵏ ⵜⵓⵜⵍⴰⵢⵜ ⵜⴰⵎⴰⵢⵏⵓⵜ
+request-language-explanation-1 =
+    ⵛⴰⴱⴱⴰⵢⴰⵜ ⵎⴽ ⵜⴻⵜⵜⵓⴷⵔⵙ ⵜⵓⵜⵍⴰⵢⵜ ⵏⵏⵓⵏ ⴳ
+    <languagesPageLink>ⵜⴰⵙⵏⴰ ⵏ ⵜⵓⵜⵍⴰⵢⵉⵏ ⵏ ⴽⴰⵎⵏⴼⵓⵢⵙ</languagesPageLink>.
+    ⵎⴽ ⵓⵀⵓ, ⴽⵜⵓⵔⴰⵜ ⵜⵉⴼⵔⵜ ⴰ, ⵔⴰⴷ <strong>ⴰⵡⵏ ⵏⴰⵣⵏ ⵢⴰⵏ ⵉⵎⴰⵢⵍ ⴰⴼⵔⴰⵔ
+    ⵉⵙⵙⴼⵔⵓⵏ ⵎⴰⵏⵎⴽ ⵙ ⵔⴰⴷ ⵜⵙⵙⵓⴳⵣⵎ ⵜⵓⵜⵍⴰⵢⵜ ⵏⵏⵓⵏ</strong>.
 request-language-form-email =
     .label = ⴰⵏⵙⴰ ⵏ ⵉⵎⴰⵢⵍ ⵏⵏⵓⵏ
 request-language-form-info =
