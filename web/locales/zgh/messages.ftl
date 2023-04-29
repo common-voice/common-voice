@@ -731,6 +731,10 @@ request-language-explanation-1 =
     <languagesPageLink>ⵜⴰⵙⵏⴰ ⵏ ⵜⵓⵜⵍⴰⵢⵉⵏ ⵏ ⴽⴰⵎⵏⴼⵓⵢⵙ</languagesPageLink>.
     ⵎⴽ ⵓⵀⵓ, ⴽⵜⵓⵔⴰⵜ ⵜⵉⴼⵔⵜ ⴰ, ⵔⴰⴷ <strong>ⴰⵡⵏ ⵏⴰⵣⵏ ⵢⴰⵏ ⵉⵎⴰⵢⵍ ⴰⴼⵔⴰⵔ
     ⵉⵙⵙⴼⵔⵓⵏ ⵎⴰⵏⵎⴽ ⵙ ⵔⴰⴷ ⵜⵙⵙⵓⴳⵣⵎ ⵜⵓⵜⵍⴰⵢⵜ ⵏⵏⵓⵏ</strong>.
+request-language-explanation-2 =
+    ⵔⴰⴷ <strong>ⵏⵙⵙⵓⵙⵏ ⵓⵍⴰ ⴰⵎⵙⵡⵓⴷⴷⵓ ⵏ ⵜⴳⵔⴰⵡⵜ ⵏⵏⵖ
+    ⵎⴰⵙ ⴷ ⴽⵯⵏⵏⵉ ⵜⵏⵏⵣⴳⵎⵎ</strong>, ⵃⵎⴰ ⴰⴷ ⴰⵡⵏ ⵉⴼⴽ
+    ⴰⵏⵏⴰⵍ ⵓⵔⵏⵉⵡ ⵏⵖ ⵉⵏⵖⵎⵉⵙⵏ ⵏⵏⴰ ⵙ ⵜⵖⵉⵢⵎ ⴰⴷ ⵜⵏ ⵜⴰⵙⵔⵎ.
 request-language-form-email =
     .label = ⴰⵏⵙⴰ ⵏ ⵉⵎⴰⵢⵍ ⵏⵏⵓⵏ
 request-language-form-info =
@@ -763,6 +767,7 @@ request-language-error =
 ## Languages Overview
 
 language-section-in-progress = ⴳ ⵡⴰⵍⴰⵢ
+language-section-launched = ⵏⵏⵓⵕⵥⵎⵏⵜ
 languages-show-more = ⵥⵕ ⵓⴳⴳⴰⵔ
 languages-show-less = ⵥⵕ ⴷⵔⵓⵙ
 language-meter-in-progress = ⴰⵍⴰⵢ
@@ -796,6 +801,7 @@ record-cta = ⵙⵙⵏⵜⵉ ⴰⵙⵓⵙⵔ
 record-platform-not-supported = ⵙⵙⵓⵔⴼⴰⵜ ⴰⵏⵖ, ⵓⵔ ⵜⴻⵜⵜⵡⴰⵏⵏⴰⵍ ⵜⵙⵉⵍⴰ ⵏⵏⵓⵏ ⵔⵅⵅⵓ.
 record-platform-not-supported-desktop = ⵜⵣⵎⵔⵎ ⴰⴷ ⵜⴰⵔⴳⵎ ⴳ ⵉⵎⵙⵙⵓⴷⵙⵏ ⵏ ⵓⵙⵉⵔⴰ ⵙ ⵡⴰⴳⴰⵎ…
 record-must-allow-microphone = ⵉⵇⵇⴰⵏ ⴷ ⴰⴷ ⵜⵙⵙⵓⵔⴳⴷ ⴰⴷⴰⴼ ⵖⵔ ⵓⵎⵉⴽⵔⵓⴼⵓⵏ.
+record-no-mic-found = ⵡⴰⵍⵓ ⴽⵔⴰ ⵏ ⵓⵎⵉⴽⵔⵓⴼⵓⵏ ⵉⵜⵜⵢⴰⴼⴰⵏ.
 record-error-too-short = ⵉⴳⵣⵣⵓⵍ ⵓⵙⵓⵙⵔ ⵙ ⴽⵉⴳⴰⵏ.
 record-error-too-long = ⵉⵖⵣⵣⵉⴼ ⵓⵙⵓⵙⵔ ⵙ ⴽⵉⴳⴰⵏ.
 record-instruction = { $actionType }<recordIcon></recordIcon> ⵉⵍⵎⵎⴰ ⵖⵔ ⵜⴰⵡⵉⵏⵙⵜ ⵙ ⵓⴳⵕⴹ ⵢⴰⵜⵜⵓⵢⵏ
