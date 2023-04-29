@@ -684,6 +684,7 @@ get-started-speech = ⵙⵙⵏⵜⵉ ⵙ ⵜⵓⴽⵣⴰ ⵏ ⵡⴰⵡⴰⵍ
 other-datasets = ⵜⵉⴳⵔⵓⵎⵎⴰⵡⵉⵏ ⵏ ⵉⵙⴼⴽⴰ ⵉⴳⵕⴹⴰⵏⵏ ⵢⴰⴹⵏⵉⵏ
 feedback-q = ⵖⵓⵔⵓⵏ ⵜⴰⵙⴷⵎⵉⵔⵜ?
 resource-deepspeech-info = ⵉⵣⵎⵔ ⵓⵙⵏⵎⴰⵙⵙⵓ ⵏ ⵓⵙⴰⴳⵎ ⵓⵕⵥⵉⵎ ⵏ ⵜⵓⴽⵣⴰ ⵜⴰⴳⵕⴹⴰⵏⵜ ⵏ ⵎⵓⵣⵉⵍⴰ, ⴷⵉⴱⵙⴱⵉⵜⵛ, ⴰⴷ ⵉⵜⵜⵓⵙⵎⵔⵙ ⴳ ⵜⵙⵏⵙⵉⵜⵉⵏ ⵏ ⵜⵓⴽⵣⴰ ⵏ ⵡⴰⵡⴰⵍ. ⵖⵔⴰⵜ <githubLink>ⵜⴰⴳⴹⵡⵉⵜ ⵏ ⴳⵉⵜⵀⴰⴱ</githubLink> ⵏⵏⵖ ⵏⵉⵖ ⵜⵍⴽⵎⵎ <discourseLink>ⴷⵉⵙⴽⵓⵔⵙ ⵏ ⴷⵉⴱⵙⴱⵉⵜⵛ</discourseLink> ⵃⵎⴰ ⴰⴷ ⵜⵍⵎⴷⵎ ⵎⴰⵏⵎⴽ ⵙ ⵔⴰⴷ ⵜⵙⵙⵏⵜⵢⵎ.
+your-feedback = ⵉⵙ ⵖⵓⵔⵓⵏ ⵜⵉⵡⵏⴳⵉⵎⵉⵏ ⵅⴼ ⵎⴰⵏⵎⴽ ⵙ ⵔⴰⴷ ⵏⵙⵖⵓⴷⵓ ⵜⴰⴳⵔⵓⵎⵎⴰ ⵏ ⵉⵙⴼⴽⴰ ⵏ ⴽⴰⵎⵏⴼⵓⵢⵙ? ⴰⵊⵊⴰⵜ ⴰⵏⵖ ⴰⴷ ⵏⵙⵙⵏ ⴳ ⴷⵉⵙⴽⵓⵔⵙ
 go-discourse = ⴷⴷⵓ ⵖⵔ ⴷⵉⵙⴽⵓⵔⵙ
 go-languages-page = ⴷⴷⵓ ⵙ ⵜⴰⵙⵏⴰ ⵏ ⵜⵓⵜⵍⴰⵢⵉⵏ
 ready-to-validate = ⵜⵎⵓⵜⵜⴳⴷ ⴰⴷ ⵜⴰⵡⵙⴷ ⴳ ⵓⵣⵣⵔⴰⵢ ⵏ ⵜⵡⵉⵏⴰⵙ?
@@ -717,6 +718,7 @@ request-language-title = ⵜⵓⵜⵜⵔⴰ ⵏ ⵜⵓⵜⵍⴰⵢⵜ
 request-language-form-language =
     .label = ⵜⵓⵜⵍⴰⵢⵜ
 request-language-success-title = ⵜⴻⵜⵜⵢⴰⵣⴰⵏ ⵜⵓⵜⵜⵔⴰ ⵏ ⵜⵓⵜⵍⴰⵢⵜ ⵙ ⵓⵎⵓⵔⵙ, ⵜⴰⵏⵎⵎⵉⵔⵜ.
+request-language-success-content = ⵔⴰⴷ ⴷⵉⴷⵓⵏ ⵏⴻⵏⵢⴰⵍⴽⴰⵎ ⵙ ⵡⵓⴳⴳⴰⵔ ⵏ ⵉⵏⵖⵎⵉⵙⵏ ⴳ ⵎ'ⴰⴷ ⴷ ⵢⴰⵥⵏ ⵅⴼ ⵎⴰⵏⵎⴽ ⵙ ⵔⴰⴷ ⵜⵔⵏⵓⵎ ⵜⵓⵜⵍⴰⵢⵜ ⵏⵏⵓⵏ ⴳ ⴽⴰⵎⵏⴼⵓⵢⵙ.
 select-language = ⵙⵜⵢ ⴽⵔⴰ ⵏ ⵜⵓⵜⵍⴰⵢⵜ...
 other-language = ⵜⵓⵜⵍⴰⵢⵜ ⵢⴰⴹⵏ
 
