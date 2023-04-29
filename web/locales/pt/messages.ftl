@@ -1583,7 +1583,6 @@ volume = Volume
 reader-effects = Efeitos do leitor
 just-unsure = Não tem certeza?
 example = Exemplo
-varying-pronunciations-example = A rota não era clara.
 misreadings-explanation-2 = Erros muito comuns incluem:
 misreadings-explanation-3 = Falta de 'Um' ou 'O' no início da gravação.
 misreadings-explanation-4 = Falta de um 's' no final de uma palavra.
