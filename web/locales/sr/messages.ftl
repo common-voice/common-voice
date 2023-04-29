@@ -18,7 +18,8 @@ banner-error-slow-1 = Жао нам је, Common Voice тренутно ради
 banner-error-slow-2 = Страница прима густ саобраћај и тренутно истражујемо проблеме.
 banner-error-slow-link = Статусна страница
 error-something-went-wrong = Жао нам је, дошло је до грешке
-error-clip-upload = Овај снимак не успева да се отпреми. Покушати поново?
+error-clip-upload = Овај исечак не успева да се отпреми. Покушати поново?
+error-clip-upload-server = Отпремање овог исечка и даље не успева на серверу. Поново учитајте страницу или покушајте поново касније.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -656,6 +657,7 @@ about-playbook-how-access-dataset = Како да приступим и кори
 
 ## How are decisions made
 
+about-playbook-how-project-governance = Како се доносе одлуке о пројекту?
 about-playbook-how-project-governance-content-1 = Mozilla Common Voice покреће разнолика заједница активиста, лингвиста, аналитичара података, научника и софтверских инжењера из целог света. Пројектом управља Mozilla фондација.
 about-playbook-how-project-governance-content-2 = Наше управљање је изграђено на следећим основама:
 about-playbook-how-project-governance-content-3 = Приватност, сигурност и транспарентност.
