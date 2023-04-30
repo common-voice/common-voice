@@ -892,6 +892,8 @@ toward-next-goal = ⵙⵉⵡⴰⵍⴰ ⴰⵡⵜⵜⴰⵙ ⵓⴹⴼⵉⵕ
 goal-reached = ⵉⵜⵜⵢⴰⵡⴰⴹ ⵓⵡⵜⵜⴰⵙ
 clips-you-recorded = ⵜⵓⵙⵙⵉⴼⵉⵏ ⵏⵏⴰ ⵜⵙⵓⵙⵔⴷ
 clips-you-validated = ⵜⵓⵙⵙⵉⴼⵉⵏ ⵏⵏⴰ ⵜⵣⵣⵔⵢⴷ
+todays-recorded-progress = ⴰⵍⴰⵢ ⵏ ⴽⴰⵎⵏⴼⵓⵢⵙ ⴰⵙⵙⴰ ⴳ ⵜⵓⵙⵙⵉⴼⵉⵏ ⵜⵜⵓⵙⵓⵙⵔⵏⵉⵏ
+todays-validated-progress = ⴰⵍⴰⵢ ⵏ ⴽⴰⵎⵏⴼⵓⵢⵙ ⴰⵙⵙⴰ ⴳ ⵜⵓⵙⵙⵉⴼⵉⵏ ⵣⵔⵢⵏⵉⵏ
 stats = ⵉⵙⵏⵎⴽⵜⴰⵜⵏ
 awards = ⵜⵉⵙⵎⵖⵓⵔⵉⵏ
 you = ⴽⵯⵏⵏⵉ
@@ -927,6 +929,7 @@ help-reach-hours-general-pluralized =
         [one] ⴰⵡⵙ ⵉ ⴽⴰⵎⵏⴼⵓⵢⵙ ⴰⴷ ⵢⴰⵡⴹ { $hours } ⵜⵙⵔⴰⴳⵜ ⵙ ⴽⵔⴰ ⵏ ⵜⵓⵜⵍⴰⵢⵜ ⵙ ⴽⵔⴰ ⵏ ⵓⵡⵜⵜⴰⵙ ⴰⵏⵉⵎⴰⵏ
        *[other] ⴰⵡⵙ ⵉ ⴽⴰⵎⵏⴼⵓⵢⵙ ⴰⴷ ⵢⴰⵡⴹ { $hours } ⵜⵙⵔⴰⴳⵉⵏ ⵙ ⴽⵔⴰ ⵏ ⵜⵓⵜⵍⴰⵢⵜ ⵙ ⴽⵔⴰ ⵏ ⵓⵡⵜⵜⴰⵙ ⴰⵏⵉⵎⴰⵏ
     }
+cant-decide = ⵓⵔ ⵜⵣⵎⵉⵔⴷ ⴰⴷ ⵜⵖⵜⵙⴷ?
 how-many-per-day = ⴰⵢⵢⵓⵣ! ⵎⵏⵏⴰⵡⵜ ⵜⵓⵙⵙⵉⴼⵉⵏ ⵉ ⵡⴰⵙⵙ?
 how-many-a-week = ⴰⵢⵢⵓⵣ! ⵎⵏⵏⴰⵡⵜ ⵜⵓⵙⵙⵉⴼⵉⵏ ⵉ ⵢⵉⵎⴰⵍⴰⵙⵙ?
 which-goal-type = ⵉⵙ ⵜⵅⵙⴷ ⴰⴷ ⵜⵙⵉⵡⵍⴷ, ⴰⴷ ⵜⵙⵍⵍⴷ ⵏⵉⵖ ⵙ ⵙⵉⵏ ⵉⵜⵙⵏ?
