@@ -1591,6 +1591,7 @@ varying-pronunciations-example = Comi um pedaço de bolo.
 varying-pronunciations-tip-1 = [em português do Brasil, "pedaço" pode soar como "pedaçu"]
 varying-pronunciations-tip-2 = [em português de Portugal, pode soar como "p'daço"]
 offensive-content-explanation = As sentenças são revisadas por meio de um processo de moderação da comunidade, mas esse processo não é perfeito. Se você vir ou ouvir uma frase que te ofenda ou aborreça - por exemplo, por violar nossas <participationGuidelines>diretrizes de participação na comunidade</participationGuidelines> - use o botão de sinalização na interface gráfica. Você também pode entrar em contato conosco em <emailFragment>commonvoice@mozilla.com</emailFragment>.
+misreadings-explanation-1 = É importante ler corretamente todas as palavras da página. Ao ouvir, verifique com muito cuidado se o que foi gravado é exatamente o que foi escrito. Rejeite se tiver palavras adicionadas, contraídas ou em falta.
 misreadings-explanation-2 = Erros muito comuns incluem:
 misreadings-explanation-3 = Falta de 'Um' ou 'O' no início da gravação.
 misreadings-explanation-4 = Falta de um 's' no final de uma palavra.
