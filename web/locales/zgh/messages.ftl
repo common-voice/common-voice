@@ -1106,13 +1106,17 @@ sc-home-review-title = ⵙⵙⵉⵔⵎ ⵜⵉⵡⵉⵏⴰⵙ
 sc-howto-addlang-text = ⴰⴷ ⴽⴰ ⵜⴽⵛⵎⵎ, ⵜⵣⵎⵔⵎ ⴰⴷ ⵜⵙⵜⵢⵎ ⵜⵓⵜⵍⴰⵢⵉⵏ ⵏⵏⵓⵏ ⵙⴳ ⵡⴰⵢⵢⴰⵡ ⵏ ⵉⴼⵔⵙ.
 sc-howto-addsen-title = ⵔⵏⵓ ⵜⵉⵡⵉⵏⴰⵙ ⵜⵉⵎⴰⵢⵏⵓⵜⵉⵏ
 sc-howto-cite-title = ⵎⴰⵏⵎⴽ ⵙ ⵔⴰⴷ ⵜⴱⴷⵔⴷ
+sc-howto-cite-item-1 = ⵜⵖⵉⵢⴷ ⴰⴷ ⵜⵙⵙⴰⵎⵓⴷ ⴰⵙⵉⵜⵡⵉⴱ, ⵎⴷ. "ⴽⴰⵎⵏⴼⵓⵢⵙ - https://commonvoice.mozilla.org/"
 sc-howto-review-title = ⵙⵙⵉⵔⵎ ⵜⵉⵡⵉⵏⴰⵙ
 sc-howto-review-subtitle = ⵃⵇⵇⴰ ⵎⴰⵙ ⴷ ⵜⵎⵙⴰⵙⴰ ⵜⵡⵉⵏⵙⵜ ⴷ ⵉⵙⴱⴷⴰⴷⵏ ⵓⴹⴼⵉⵕⵏ:
 sc-howto-review-criteria-1 = ⵉⵇⵇⴰⵏ ⴷ ⴰⴷ ⵢⴰⵖⴷ ⵓⵙⵏⵎⴰⵔⵔⴰ ⵏ ⵜⵡⵉⵏⵙⵜ.
 sc-howto-review-criteria-2 = ⵉⵇⵇⴰⵏ ⴷ ⴰⴷ ⵜⴰⵖⴷ ⵜⵊⵕⵕⵓⵎⵜ ⵏ ⵜⵡⵉⵏⵙⵜ.
+sc-howto-review-criteria-4 = ⵎⴽ ⴷ ⵜⵎⵙⴰⵙⴰ ⵜⵡⵉⵏⵙⵜ ⴷ ⵉⵙⴱⴷⴰⴷⵏ, ⴽⵍⵉⴽⵉ ⵅⴼ ⵓⴱⵔⴰ "ⵙⵙⴳⵍⵢ".
 sc-howto-review-criteria-5 = ⵎⴽ ⴷ ⵓⵔ ⵜⵎⵙⴰⵙⴰ ⵜⵡⵉⵏⵙⵜ ⴷ ⵉⵙⴱⴷⴰⴷⵏ ⵏⵏⵉⴳ ⴷⴰ, ⴽⵍⵉⴽⵉ ⵅⴼ ⵓⴱⵔⴰ "ⴰⴳⵢ". ⵎⴽ ⵓⵔ ⵜⵃⵇⵇⴰⴷ ⴳ ⵜⵡⵉⵏⵙⵜ, ⵜⵖⵉⵢⴷ ⴰⵡⴷ ⴰⴷ ⵜⵜ ⵜⵙⵙⵉⵏⴼⴷ, ⵜⵎⵎⵓⵜⵜⵉⴷ ⵖⵔ ⵜⵓⴹⴼⵉⵕⵜ.
 sc-howto-review-criteria-6 = ⵎⴽ ⴰⵡⵏ ⵙⵎⴰⵔⵏⵜ ⵜⵡⵉⵏⴰⵙ ⵎ'ⴰⴷ ⵜⵙⵙⵉⵔⵉⵎⵎ, ⵎⴽ ⵜⵓⴼⴰⵎ, ⴰⵡⵙⴰⵜ ⴰⵏⵖ ⴰⴷ ⵏⴳⵔⵓ ⵓⴳⴳⴰⵔ ⵏ ⵜⵡⵉⵏⴰⵙ!
 sc-howto-findpd-title = ⵜⵉⴼⵉ ⵏ ⵜⵡⵉⵏⴰⵙ ⵍⵍⴰⵏⵉⵏ ⴳ ⵡⴰⴳⵍⴰ ⴰⴳⴷⵓⴷⴰⵏ
+sc-howto-findpd-subtitle = ⵔⵣⵓ ⴼⵍⵍⴰⵙⵏ ⴳ ⵡⴰⵏⵜⵉⵔⵏⵉⵜ
+sc-howto-findpd-tips = ⵀⴰ ⴷ ⴽⵔⴰ ⵏ ⵉⵙⵙⴼⴰⵡⵏ ⵃⵎⴰ ⴰⴷ ⵜⴰⴼⴷ ⵜⵉⵡⵉⵏⴰⵙ:
 
 ## MY SENTENCES
 
