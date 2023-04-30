@@ -172,6 +172,7 @@ speak-now = Puhu nyt
 datasets = Aineistot
 languages = Kielet
 about = Tietoja
+partner = Ryhdy yhteistyöhön
 profile = Profiili
 help = Ohje
 contact = Yhteystiedot
@@ -346,6 +347,7 @@ why-demographic = Mitä merkitystä tällä on?
 accept-privacy = Hyväksyn teidän käsittelevän tätä tietoa kuten Mozillan <privacyLink>tietosuojakäytännössä</privacyLink> on selitetty.
 accept-privacy-title = Yksityisyyskäytäntö
 login-identity = Käyttäjätunnus
+login = Kirjaudu sisään
 login-signup = Kirjaudu / Rekisteröidy
 edit = Muokkaa
 email-subscriptions = Sähköpostitilaukset
@@ -441,6 +443,10 @@ how-does-it-work-text = Joukkoutamme avointa ääniaineistoa. Lahjoita äänesi,
 
 about-language-req-subtitle = Joku pyytää kieltä lisättäväksi.
 about-localization-title = Verkkosivuston lokalisointi
+about-sentence-collection-title = Virkekokoelma
+about-new-lang-title = Uuden kielen julkaisu
+about-voice-contrib-title = Äänipanos
+about-voice-validation-title = Äänen vahvistaminen
 about-dataset-release-title = Aineistojulkaisu
 about-dataset-release-subtitle = Julkaisemme aineiston kolmen kuukauden välein.
 about-subscribe-text = Haluatko olla ajan tasalla Common Voicen suhteen?
@@ -467,11 +473,13 @@ about-get-involved-text-2 =
     lähetä palautetta sivustosta <githubLink>GitHubin</githubLink> kautta, 
     tai liity joukkoomme <matrixLink>Matrixin</matrixLink> yhteisöchatissa.
 about-stay-in-touch = Miten pysyn yhteydessä?
+about-stay-in-touch-button = Rekisteröidy
 about-nav-why-common-voice = Miksi?
 about-nav-how-it-works = Miten?
 about-nav-partners = Partnerit
 about-nav-get-involved = Tule mukaan
 about-nav-how-it-works-2 = Miten Common Voice toimii?
+about-nav-playbook = Ota selvää kuinka voit osallistua
 
 ## Community Playbook Content
 ## What is a language
@@ -575,6 +583,7 @@ datasets-positioning =
     
     Common Voicen monikielinen aineisto on jo nyt suurin avoimesti saatavilla oleva tällainen ääniaineisto, mutta se ei ole ainoa.
 language = Kieli
+download-dataset-header = Lataa tietoaineisto
 # File size in gigabytes
 size = Koko
 validated-hr-total = Tarkistettuja tunteja yhteensä
@@ -589,6 +598,7 @@ confirm-size = Olet aloittamassa <b>{ $size }</b>:n latausta.
 size-gigabyte = Gt
 size-megabyte = Mt
 confirm-no-identify = <b>Sitoudut</b> olemaan yrittämättä tunnistaa Common Voice -aineiston puhujia.
+confirm-join-mailing-list = Haluan liittyä Common Voice -postituslistalle
 download-language = Lataa { $language }
 validated-hours = Tarkistetut tunnit
 recorded-hours = Äänitetyt tunnit
@@ -674,6 +684,8 @@ language-search-input =
 language-speakers = Puhujat
 localized = Lokalisoitu
 sentences = Lauseet
+language-validation-hours = Tunnit
+language-validation-progress = Vahvistamisen edistyminen
 
 ## Contribution
 
@@ -737,6 +749,10 @@ target-segment-first-card = Osallistut ensimmäiseen kohdesegmenttiimme
 target-segment-first-banner = Auta luomaan Common Voicen ensimmäinen kohdesegmentti kielellä { $locale }
 target-segment-add-voice = Lisää äänesi
 target-segment-learn-more = Lue lisää
+
+## Contribution Nav Items
+
+contribute-voice-collection-nav-header = Äänikokoelma
 
 ## Reporting
 
@@ -1119,3 +1135,5 @@ sc-validation-no-abbreviations = Lause ei saa sisältää lyhenteitä
 
 localization-select =
     .label = Valitse kieli/lokalisointi
+partnerships-our-partners = Yhteistyökumppanimme
+sentence-collection = Virkekokoelma
