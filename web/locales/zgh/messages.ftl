@@ -1230,12 +1230,14 @@ sc-review-form-button-approve-shortcut = ⵢ
 sc-review-form-button-reject-shortcut = ⵓ
 # Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
 sc-review-form-button-skip-shortcut = ⵏ
+sc-review-form-keyboard-usage-custom = ⵜⵣⵎⵔⴷ ⴰⵡⴷ ⴰⴷ ⵜⵙⵙⵎⵔⵙⴷ ⵉⵙⵓⵏⴰⴼ ⵏ ⵓⵏⴰⵙⵉⵡ: { sc-review-form-button-approve-shortcut } ⵉ ⵙⵙⴳⵍⵢ, { sc-review-form-button-reject-shortcut } ⵉ ⴰⴳⵢ, { sc-review-form-button-skip-shortcut } ⵉ ⵙⵙⵉⵏⴼ
 
 ## SETTINGS
 
 sc-settings-title = ⵜⵉⵙⵖⴰⵍ
 sc-settings-ui-language = ⵜⵓⵜⵍⴰⵢⵜ ⵏ ⵓⴳⵔⵓⴷⵎ
 sc-settings-failed = ⵓⵔ ⵏⵣⵎⵉⵔ ⴰⴷ ⵏⵙⵏⴼⵍ ⵜⵉⵙⵖⴰⵍ. ⵎⴽ ⵜⵓⴼⴰⵎ, ⴰⵔⵎⴰⵜ ⵜⵉⴽⴽⵍⵜ ⵢⴰⴹⵏ.
+sc-validation-no-numbers = ⵓⵔ ⵉⵅⵚⵚⴰ ⵜⴰⵡⵉⵏⵙⵜ ⴰⴷ ⵜⴰⵎⵓ ⵓⵟⵟⵓⵏⵏ
 
 # [/SentenceCollector]
 
