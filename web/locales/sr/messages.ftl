@@ -1230,7 +1230,7 @@ sc-confirm-sentences-title = Потврдите нове реченице
 sc-confirm-sentences-found =
     { $countOfSentences ->
         [0] Није пронађена ниједна реченица.
-        [one] Пронађена је { $countOfSentences } реченица.
+        [one] Пронађена је 1 реченица.
         [few] Пронађене су { $countOfSentences } реченице.
        *[other] Пронађено је { $countOfSentences } реченица.
     }
@@ -1240,13 +1240,29 @@ sc-confirm-rejected-by-you = { $countOfInvalidated } сте одбили
 sc-confirm-already-reviewed =
     { $countOfReviewed ->
         [0] Ниједна реченица није већ прегледана.
-        [one] Прегледали сте већ { $countOfReviewed } реченицу. Сјајно!
+        [one] Прегледали сте већ 1 реченицу. Сјајно!
         [few] Прегледали сте већ { $countOfReviewed } реченице. Браво!
        *[other] Прегледали сте већ { $countOfReviewed } реченица. Свака част!
     }
+# Variables:
+#   $readyCount (Number) - Number of sentences ready to be uploaded
+sc-confirm-ready =
+    { $readyCount ->
+        [0] Нема реченица спремних за слање!
+        [one] 1 реченица је спремна за слање!
+        [few] { $readyCount } реченице су спремне за слање!
+       *[other] { $readyCount } реченица је спремно за слање!
+    }
+# Variables:
+#   $countOfUnreviewed (Number) - Number of sentences unreviewed before the upload
+sc-confirm-unreviewed = { $countOfUnreviewed } реченица није прегледано. Такође можете да прегледате ваше реченице пре него што их пошаљете.
+sc-confirm-button-text = Потврди
+sc-confirm-uploading = Реченице се отпремају. Ово може да потраје неколико минута у зависности од броја додатих реченица, стога немојте да затворите овај сајт.
 
 ## LANGUAGE INFO
 
+sc-lang-info-title-total = Укупно
+sc-lang-info-title-personal = Лично
 
 ## LOGIN
 
