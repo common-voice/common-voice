@@ -963,6 +963,7 @@ share-goal = ⴱⴹⵓ ⴰⵡⵜⵜⴰⵙ ⵉⵏⵓ
 delete-q = ⵉⵙ ⵜⵔⴰⵎ ⴰⴷ ⵜⴻⵜⵜⵔⵎ ⴰⴷ ⵜⵜⵡⴰⴽⴽⵙⵏ ⴰⵡⴷ ⵉⵙⵓⵙⴰⵔ ⵉⴳⵕⴹⴰⵏⵏ ⵏⵏⵓⵏ, ⵏⵖ ⴷ ⵢⵓⴼ ⵖⵓⵔⵓⵏ ⴰⴷ ⵜⵏ ⵜⴰⵊⵊⵎ ⴳ ⵜⴳⵔⵓⵎⵎⴰ ⵏ ⵉⵙⴼⴽⴰ ⵏ ⴽⴰⵎⵏⴼⵓⵢⵙ?
 keep = ⴰⵊⵊ
 remove = ⵙⵉⵜⵜⵢ
+keep-info = ⵔⴰⴷ ⵖⴰⵎⴰⵏ ⵉⵙⵓⵙⴰⵔ ⵉⴳⵕⴹⴰⵏⵏ ⵉⴷ ⵡⴰⵔⵉⵙⵎ ⵏⵏⵓⵏ ⴳ ⵜⴳⵔⵓⵎⵎⴰ ⵏ ⵉⵙⴼⴽⴰ ⵏ ⴽⴰⵎⵏⴼⵓⵢⵙ. ⴰⴷ ⴽⴰ ⵜⴽⴽⵙⵎ ⵉⴼⵔⵙ ⵏⵏⵓⵏ, ⵓⵔ ⵔⴰⴷ ⵙⵓⵍ ⵜⵖⵉⵢⵎ ⴰⴷ ⵜⴰⵣⵏⵎ ⴽⵔⴰ ⵏ ⵜⵓⵜⵜⵔⴰ ⵏ ⵓⵙⵉⵜⵜⵢ ⵏ ⵉⵙⵓⵙⴰⵔ ⵏⵏⵓⵏ ⵙⴳ ⵜⴳⵔⵓⵎⵎⴰ ⵏ ⵉⵙⴼⴽⴰ
 profile-form-delete = ⴽⴽⵙ ⵉⴼⵔⵙ
 
 ## Profile Download
@@ -1069,10 +1070,13 @@ see-less = <chevron></chevron>ⵥⵕ ⴷⵔⵓⵙ
 
 sc-header-home = ⴰⵙⵏⵓⴱⴳ
 sc-header-add = ⵔⵏⵓ
+sc-header-review = ⵙⵙⵉⵔⵎ
 sc-header-rejected = ⵜⵉⵡⵉⵏⴰⵙ ⵜⵜⵢⴰⴳⴰⵢⵏⵉⵏ
 sc-header-my = ⵜⵉⵡⵉⵏⴰⵙ ⵉⵏⵓ
 sc-header-profile = ⵉⴼⵔⵙ
+sc-footer-discourse = ⴷⵉⵙⴽⵓⵔⵙ
 sc-footer-translate = ⵙⵙⵓⵖⵍ ⵜⴰⵙⵏⴰ ⴰ
+sc-footer-report-copyright = ⵎⵍ ⵉⵎⵓⴽⵔⵉⵙⵏ ⵏ ⵉⵣⵔⴼⴰⵏ ⵏ ⵓⵎⵙⴽⴰⵔ
 sc-footer-privacy = ⵜⵉⵏⵏⵓⵜⵍⴰ
 sc-footer-terms = ⵜⵉⴼⴰⴷⵉⵡⵉⵏ
 sc-login-signup-button = ⴰⴽⵛⴰⵎ/ⴰⵣⵎⵎⴻⵎ
@@ -1080,14 +1084,20 @@ sc-logout-button = ⵓⴼⵓⵖ
 
 ## HOME
 
+sc-home-title = ⴱⵔⵔⴽⴰⵜ ⴳ ⵙⴰⵏⵜⵏⵙ ⴽⵓⵍⵉⴽⵜⵓⵔ ⵏ ⴽⴰⵎⵏⴼⵓⵢⵙ
 sc-home-collect-text = ⴰⵡⵙ ⴰⵏⵖ ⵙ ⵜⵉⵔⵔⴰ ⵏⵉⵖ ⴰⴳⵔⵔⵓ ⵏ ⵜⵡⵉⵏⴰⵙ ⵏ ⵡⴰⴳⵍⴰ ⴰⴳⴷⵓⴷⴰⵏ.
+sc-home-review-title = ⵙⵙⵉⵔⵎ ⵜⵉⵡⵉⵏⴰⵙ
 
 ## GENERAL
 
 
 ## HOW-TO
 
+sc-howto-addlang-text = ⴰⴷ ⴽⴰ ⵜⴽⵛⵎⵎ, ⵜⵣⵎⵔⵎ ⴰⴷ ⵜⵙⵜⵢⵎ ⵜⵓⵜⵍⴰⵢⵉⵏ ⵏⵏⵓⵏ ⵙⴳ ⵡⴰⵢⵢⴰⵡ ⵏ ⵉⴼⵔⵙ.
 sc-howto-addsen-title = ⵔⵏⵓ ⵜⵉⵡⵉⵏⴰⵙ ⵜⵉⵎⴰⵢⵏⵓⵜⵉⵏ
+sc-howto-review-title = ⵙⵙⵉⵔⵎ ⵜⵉⵡⵉⵏⴰⵙ
+sc-howto-review-subtitle = ⵃⵇⵇⴰ ⵎⴰⵙ ⴷ ⵜⵎⵙⴰⵙⴰ ⵜⵡⵉⵏⵙⵜ ⴷ ⵉⵙⴱⴷⴰⴷⵏ ⵓⴹⴼⵉⵕⵏ:
+sc-howto-review-criteria-1 = ⵉⵇⵇⴰⵏ ⴷ ⴰⴷ ⵢⴰⵖⴷ ⵓⵙⵏⵎⴰⵔⵔⴰ ⵏ ⵜⵡⵉⵏⵙⵜ.
 sc-howto-findpd-title = ⵜⵉⴼⵉ ⵏ ⵜⵡⵉⵏⴰⵙ ⵍⵍⴰⵏⵉⵏ ⴳ ⵡⴰⴳⵍⴰ ⴰⴳⴷⵓⴷⴰⵏ
 
 ## MY SENTENCES
