@@ -1120,6 +1120,10 @@ sc-rejected-none-found = ⵡⴰⵍⵓ ⵜⵉⵡⵉⵏⴰⵙ ⵉⵜⵜⵢⴰⴳ�
 ## STATS
 
 sc-stats-updating = ⴰⵙⴷⵖⵉ…
+# Variables:
+#   $sentenceCount (Number) - Total number of sentences uploaded through Sentence Collector
+#   $languageCount (Number) - Total number of languages these sentences represent
+sc-stats-summary = ⵉⴳⵔⴰ ⵙⴰⵏⵜⵏⵙ ⴽⵓⵍⵉⴽⵜⵓⵔ ⵏ ⴽⴰⵎⵏⴼⵓⵢⵙ { $sentenceCount } ⵜⵡⵉⵏⴰⵙ ⵙ { $languageCount } ⵜⵓⵜⵍⴰⵢⵉⵏ!
 
 ## ADD
 
