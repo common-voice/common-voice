@@ -745,6 +745,7 @@ confirm-size = Спремни сте да покренете преузимањ�
 size-gigabyte = GB
 size-megabyte = MB
 confirm-no-identify = <b>Слажете се</b> да не покушавате да утврдите идентитет говорника у Common Voice скупу података
+confirm-join-mailing-list = Желим да се придружим Common Voice групи за пошту
 download-language = Преузми за { $language }
 validated-hours = Потврђених сати
 recorded-hours = Снимљених сати
@@ -776,6 +777,7 @@ more = Више
 close = Затвори
 download = Преузми
 dataset-version = Издање
+clipboard-not-supported = Привремена меморија није подржана
 
 ## Download Modal
 
@@ -808,6 +810,7 @@ other-language = Други језик
 
 ## Request Language Pages
 
+request-language-heading = Затражите нови језик
 request-language-form-email =
     .label = Ваша адреса е-поште
 request-language-form-info =
@@ -1221,6 +1224,26 @@ sc-logout-button = Одјава
 
 ## ADD SENTENCES CONFIRMATION
 
+sc-confirm-sentences-title = Потврдите нове реченице
+# Variables:
+#   $countOfSentences (Number) - Number of sentences the user has filled in the submission form
+sc-confirm-sentences-found =
+    { $countOfSentences ->
+        [0] Није пронађена ниједна реченица.
+        [one] Пронађена је { $countOfSentences } реченица.
+        [few] Пронађене су { $countOfSentences } реченице.
+       *[other] Пронађено је { $countOfSentences } реченица.
+    }
+# Variables:
+#   $countOfInvalidated (Number) - Number of sentences the user rejected in the review form before submission
+sc-confirm-rejected-by-you = { $countOfInvalidated } сте одбили
+sc-confirm-already-reviewed =
+    { $countOfReviewed ->
+        [0] Ниједна реченица није већ прегледана.
+        [one] Прегледали сте већ { $countOfReviewed } реченицу. Сјајно!
+        [few] Прегледали сте већ { $countOfReviewed } реченице. Браво!
+       *[other] Прегледали сте већ { $countOfReviewed } реченица. Свака част!
+    }
 
 ## LANGUAGE INFO
 
