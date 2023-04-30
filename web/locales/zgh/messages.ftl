@@ -1124,8 +1124,13 @@ sc-my-title = ⵜⵉⵡⵉⵏⴰⵙ ⵉⵏⵓ
 sc-my-loading = ⴰⵣⴷⴰⵎ ⵏ ⵜⵡⵉⵏⴰⵙ ⵏⵏⵓⵏ…
 sc-my-no-sentences = ⵡⴰⵍⵓ ⵜⵉⵡⵉⵏⴰⵙ ⵜⵜⵢⴰⴼⴰⵏⵉⵏ!
 # Variables:
+#   $batchId (String) - A unique ID identifying the submission of sentences - sentences uploaded together all have the same batch ID
+sc-my-submission = ⴰⵣⴰⵏ: { $batchId }
+# Variables:
 #   $source (String) - Associated source the user filled out when uploading the sentence
 sc-my-source = ⴰⵙⴰⴳⵎ:  { $source }
+sc-my-delete = ⴽⴽⵙ ⵜⵉⵡⵉⵏⴰⵙ ⵜⵜⵓⵙⵜⴰⵢⵏⵉⵏ
+sc-my-deleting = ⵜⵓⴽⴽⵙⴰ ⵏ ⵜⵡⵉⵏⴰⵙ ⵜⵜⵓⵙⵜⴰⵢⵏⵉⵏ…
 
 ## REJECTED
 
@@ -1135,7 +1140,9 @@ sc-rejected-none-found = ⵡⴰⵍⵓ ⵜⵉⵡⵉⵏⴰⵙ ⵉⵜⵜⵢⴰⴳ�
 
 ## STATS
 
+sc-stats-title = ⵉⵙⵏⵎⴽⵜⴰⵜⵏ
 sc-stats-updating = ⴰⵙⴷⵖⵉ…
+sc-stats-error = ⵓⵔ ⵏⵣⵎⵉⵔ ⴰⴷ ⴷ ⵏⴰⵡⵢ ⵉⵙⵏⵎⴽⵜⴰⵜⵏ. ⵎⴽ ⵜⵓⴼⴰⵎ, ⴰⵔⵎⴰⵜ ⵜⵉⴽⴽⵍⵜ ⵢⴰⴹⵏ ⴽⵓⴷⵏⵏⴰ.
 # Variables:
 #   $sentenceCount (Number) - Total number of sentences uploaded through Sentence Collector
 #   $languageCount (Number) - Total number of languages these sentences represent
@@ -1143,11 +1150,16 @@ sc-stats-summary = ⵉⴳⵔⴰ ⵙⴰⵏⵜⵏⵙ ⴽⵓⵍⵉⴽⵜⵓⵔ ⵏ 
 
 ## ADD
 
+sc-submit-err-select-lang = ⵎⴽ ⵜⵓⴼⵉⴷ, ⵙⵜⵢ ⴽⵔⴰ ⵏ ⵜⵓⵜⵍⴰⵢⵜ.
+sc-submit-err-add-sentences = ⵎⴽ ⵜⵓⴼⵉⴷ, ⵔⵏⵓ ⵜⵉⵡⵉⵏⴰⵙ.
+sc-submit-err-add-source = ⵎⴽ ⵜⵓⴼⵉⴷ, ⵔⵏⵓ ⴽⵔⴰ ⵏ ⵓⵙⴰⴳⵎ.
 sc-submit-err-confirm-pd = ⵎⴽ ⵜⵓⴼⵉⴷ, ⵙⵙⴷⴻⴷ ⵎⴰⵙ ⴷ ⵜⵡⵉⵏⴰⵙ ⴰ ⴳⴰⵏⵜ ⴰⴳⵍⴰ ⴰⴳⴷⵓⴷⴰⵏ.
 sc-submit-title = ⵔⵏⵓ ⵜⵉⵡⵉⵏⴰⵙ
 sc-submit-select-language =
     .labelText = ⵙⵜⵢ ⵜⵓⵜⵍⴰⵢⵜ
 sc-submit-add-sentences = ⵔⵏⵓ ⵜⵉⵡⵉⵏⴰⵙ ⵏ <wikipediaLink>ⵡⴰⴳⵍⴰ ⴰⴳⴷⵓⴷⴰⵏ</wikipediaLink>
+sc-submit-ph-one-per-line =
+    .placeholder = ⵢⴰⵜ ⵜⵡⵉⵏⵙⵜ ⵉ ⵓⵣⵔⵉⴳ
 sc-submit-from-where = ⵎⴰⵏⵉ ⵙⴳ ⴷ ⴷⴷⴰⵏⵜ ⵜⵡⵉⵏⴰⵙ ⴰⴷ ⵏ <wikipediaLink>ⵡⴰⴳⵍⴰ ⴰⴳⴷⵓⴷⴰⵏ</wikipediaLink>?
 sc-submit-confirm = ⵍⴰ ⵙⵙⴷⵉⴷⵖ ⵎⴰⵙ ⴷ ⵜⵉⵡⵉⵏⴰⵙ ⴰⴷ ⴳⴰⵏⵜ <wikipediaLink>ⴰⴳⵍⴰ ⴰⴳⴷⵓⴷⴰⵏ</wikipediaLink> ⴷ ⵖⵓⵔⵉ ⵜⵓⵔⴰⴳⵜ ⴰⴷ ⵜⵏⵜ ⵙⴽⵜⵔⵖ.
 
@@ -1254,6 +1266,7 @@ sc-review-form-button-reject-shortcut = ⵓ
 # Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
 sc-review-form-button-skip-shortcut = ⵏ
 sc-review-form-keyboard-usage-custom = ⵜⵣⵎⵔⴷ ⴰⵡⴷ ⴰⴷ ⵜⵙⵙⵎⵔⵙⴷ ⵉⵙⵓⵏⴰⴼ ⵏ ⵓⵏⴰⵙⵉⵡ: { sc-review-form-button-approve-shortcut } ⵉ ⵙⵙⴳⵍⵢ, { sc-review-form-button-reject-shortcut } ⵉ ⴰⴳⵢ, { sc-review-form-button-skip-shortcut } ⵉ ⵙⵙⵉⵏⴼ
+sc-review-link = ⵙⵙⵉⵔⵎ
 
 ## SETTINGS
 
