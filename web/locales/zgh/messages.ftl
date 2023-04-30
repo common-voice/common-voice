@@ -1098,17 +1098,24 @@ sc-howto-addsen-title = ⵔⵏⵓ ⵜⵉⵡⵉⵏⴰⵙ ⵜⵉⵎⴰⵢⵏⵓⵜ
 sc-howto-review-title = ⵙⵙⵉⵔⵎ ⵜⵉⵡⵉⵏⴰⵙ
 sc-howto-review-subtitle = ⵃⵇⵇⴰ ⵎⴰⵙ ⴷ ⵜⵎⵙⴰⵙⴰ ⵜⵡⵉⵏⵙⵜ ⴷ ⵉⵙⴱⴷⴰⴷⵏ ⵓⴹⴼⵉⵕⵏ:
 sc-howto-review-criteria-1 = ⵉⵇⵇⴰⵏ ⴷ ⴰⴷ ⵢⴰⵖⴷ ⵓⵙⵏⵎⴰⵔⵔⴰ ⵏ ⵜⵡⵉⵏⵙⵜ.
+sc-howto-review-criteria-5 = ⵎⴽ ⴷ ⵓⵔ ⵜⵎⵙⴰⵙⴰ ⵜⵡⵉⵏⵙⵜ ⴷ ⵉⵙⴱⴷⴰⴷⵏ ⵏⵏⵉⴳ ⴷⴰ, ⴽⵍⵉⴽⵉ ⵅⴼ ⵓⴱⵔⴰ "ⴰⴳⵢ". ⵎⴽ ⵓⵔ ⵜⵃⵇⵇⴰⴷ ⴳ ⵜⵡⵉⵏⵙⵜ, ⵜⵖⵉⵢⴷ ⴰⵡⴷ ⴰⴷ ⵜⵜ ⵜⵙⵙⵉⵏⴼⴷ, ⵜⵎⵎⵓⵜⵜⵉⴷ ⵖⵔ ⵜⵓⴹⴼⵉⵕⵜ.
+sc-howto-review-criteria-6 = ⵎⴽ ⴰⵡⵏ ⵙⵎⴰⵔⵏⵜ ⵜⵡⵉⵏⴰⵙ ⵎ'ⴰⴷ ⵜⵙⵙⵉⵔⵉⵎⵎ, ⵎⴽ ⵜⵓⴼⴰⵎ, ⴰⵡⵙⴰⵜ ⴰⵏⵖ ⴰⴷ ⵏⴳⵔⵓ ⵓⴳⴳⴰⵔ ⵏ ⵜⵡⵉⵏⴰⵙ!
 sc-howto-findpd-title = ⵜⵉⴼⵉ ⵏ ⵜⵡⵉⵏⴰⵙ ⵍⵍⴰⵏⵉⵏ ⴳ ⵡⴰⴳⵍⴰ ⴰⴳⴷⵓⴷⴰⵏ
 
 ## MY SENTENCES
 
 sc-my-title = ⵜⵉⵡⵉⵏⴰⵙ ⵉⵏⵓ
 sc-my-loading = ⴰⵣⴷⴰⵎ ⵏ ⵜⵡⵉⵏⴰⵙ ⵏⵏⵓⵏ…
+sc-my-no-sentences = ⵡⴰⵍⵓ ⵜⵉⵡⵉⵏⴰⵙ ⵜⵜⵢⴰⴼⴰⵏⵉⵏ!
+# Variables:
+#   $source (String) - Associated source the user filled out when uploading the sentence
+sc-my-source = ⴰⵙⴰⴳⵎ:  { $source }
 
 ## REJECTED
 
 sc-rejected-title = ⵜⵉⵡⵉⵏⴰⵙ ⵜⵜⵢⴰⴳⴰⵢⵏⵉⵏ
 sc-rejected-loading = ⴰⵣⴷⴰⵎ ⵏ ⵜⵡⵉⵏⴰⵙ ⵜⵜⵢⴰⴳⴰⵢⵏⵉⵏ…
+sc-rejected-none-found = ⵡⴰⵍⵓ ⵜⵉⵡⵉⵏⴰⵙ ⵉⵜⵜⵢⴰⴳⴰⵢⵏ ⵜⵜⵢⴰⴼⴰⵏⵉⵏ!
 
 ## STATS
 
@@ -1128,9 +1135,26 @@ sc-add-lang-sec-button = ⵔⵏⵓ ⵜⵓⵜⵍⴰⵢⵜ
 
 ## ADD SENTENCES CONFIRMATION
 
+sc-confirm-sentences-title = ⵙⵙⴷⴻⴷ ⵜⵉⵡⵉⵏⴰⵙ ⵜⵉⵎⴰⵢⵏⵓⵜⵉⵏ
+# Variables:
+#   $countOfSentences (Number) - Number of sentences the user has filled in the submission form
+sc-confirm-sentences-found =
+    { $countOfSentences ->
+        [0] ⵡⴰⵍⵓ ⵜⵉⵡⵉⵏⴰⵙ ⵜⵜⵢⴰⴼⴰⵏⵉⵏ.
+        [one] 1 ⵜⵡⵉⵏⵙⵜ ⵉⵜⵜⵢⴰⴼⴰⵏ.
+       *[other] { $countOfSentences } ⵜⵡⵉⵏⴰⵙ ⵜⵜⵢⴰⴼⴰⵏⵉⵏ.
+    }
 # Variables:
 #   $countOfInvalidated (Number) - Number of sentences the user rejected in the review form before submission
 sc-confirm-rejected-by-you = { $countOfInvalidated } ⵜⵜⵢⴰⴳⴰⵢⵏⵉⵏ ⵙⴳ ⵖⵓⵔⵓⵏ
+# Variables:
+#   $readyCount (Number) - Number of sentences ready to be uploaded
+sc-confirm-ready =
+    { $readyCount ->
+        [0] ⵡⴰⵍⵓ ⴽⵔⴰ ⵏ ⵜⵡⵉⵏⵙⵜ ⵉⵎⵎⵓⵜⵜⴳⵏ ⵉ ⵡⴰⵣⴰⵏ!
+        [one] 1 ⵜⵡⵉⵏⵙⵜ ⵉⵎⵎⵓⵜⵜⴳⵏ ⵉ ⵡⴰⵣⴰⵏ!
+       *[other] { $readyCount } ⵜⵡⵉⵏⴰⵙ ⵎⵎⵓⵜⵜⴳⵏⵉⵏ ⵉ ⵡⴰⵣⴰⵏ!
+    }
 sc-confirm-button-text = ⵙⵙⴷⴻⴷ
 
 ## LANGUAGE INFO
@@ -1152,6 +1176,16 @@ sc-lang-info-in-review =
         [one] 1 ⵜⵡⵉⵏⵙⵜ ⴳ ⵓⵙⵙⵉⵔⵎ.
        *[other] { $totalInReview } ⵜⵡⵉⵏⴰⵙ ⴳ ⵓⵙⵙⵉⵔⵎ.
     }
+sc-lang-info-review-now = <reviewLink>ⵙⵙⵉⵔⵎ ⴷⵖⵉ!</reviewLink>
+sc-lang-info-add-more = <addLink>ⵔⵏⵓ ⵓⴳⴳⴰⵔ ⵏ ⵜⵡⵉⵏⴰⵙ ⴷⵖⵉ!</addLink>
+# Variables:
+#   $validatedSentences (Number) - Number of sentences which have been approved for this language
+sc-lang-info-validated =
+    { $validatedSentences ->
+        [0] ⵡⴰⵍⵓ ⵜⵉⵡⵉⵏⴰⵙ ⵣⵔⵢⵏⵉⵏ.
+        [one] 1 ⵜⵡⵉⵏⵙⵜ ⵉⵣⵔⵢⵏ.
+       *[other] { $validatedSentences } ⵜⵡⵉⵏⴰⵙ ⵣⵔⵢⵏⵉⵏ.
+    }
 # Variables:
 #   $rejectedSentences (Number) - Number of sentences which have been rejected for this language
 sc-lang-info-rejected =
@@ -1163,6 +1197,7 @@ sc-lang-info-rejected =
 
 ## LOGIN
 
+sc-login-err-try-again = ⵎⴽ ⵜⵓⴼⵉⴷ, ⴰⵍⵙ ⴷⴰⵖ.
 
 ## PROFILE
 
@@ -1173,14 +1208,19 @@ sc-personal-err-lang-not-found = ⵓⵔ ⵏⵣⵎⵉⵔ ⴰⴷ ⵏⵙⵉⵜⵜ�
 sc-personal-err-remove = ⵓⵔ ⵏⵣⵎⵉⵔ ⴰⴷ ⵏⵙⵉⵜⵜⵢ ⵜⵓⵜⵍⴰⵢⵜ
 sc-personal-your-languages = ⵜⵓⵜⵍⴰⵢⵉⵏ ⵏⵏⵓⵏ:
 sc-personal-remove-button = ⵙⵉⵜⵜⵢ
+# Variables:
+#   $sentences (Number) - Number of sentences that were added by the currently logged in user for this language
+sc-personal-added-by-you = { $sentences } ⵜⵜⵓⵔⵏⴰⵏⵜ ⵙⴳ ⵖⵓⵔⵓⵏ
 
 ## REVIEW CRITERIA
 
 sc-criteria-modal = ⓘ ⵉⵙⴱⴷⴰⴷⵏ ⵏ ⵓⵙⵙⵉⵔⵎ
+sc-criteria-item-5-2 = ⵎⴽ ⴷ ⵓⵔ ⵜⵎⵙⴰⵙⴰ ⵜⵡⵉⵏⵙⵜ ⴷ ⵉⵙⴱⴷⴰⴷⵏ ⵏⵏⵉⴳ ⴷⴰ, ⴽⵍⵉⴽⵉ ⵅⴼ ⵓⴱⵔⴰ &quot;ⴰⴳⵢ&quot; ⴳ ⵓⵥⵍⵎⴰⴹ. ⵎⴽ ⵓⵔ ⵜⵃⵇⵇⴰⴷ ⴳ ⵜⵡⵉⵏⵙⵜ, ⵜⵖⵉⵢⴷ ⴰⵡⴷ ⴰⴷ ⵜⵜ ⵜⵙⵙⵉⵏⴼⴷ, ⵜⵎⵎⵓⵜⵜⵉⴷ ⵖⵔ ⵜⵓⴹⴼⵉⵕⵜ.
 
 ## REVIEW
 
 sc-review-loading = ⴰⵣⴷⴰⵎ ⵏ ⵜⵡⵉⵏⴰⵙ…
+sc-review-no-sentences = ⵡⴰⵍⵓ ⵜⵉⵡⵉⵏⴰⵙ ⵉ ⵓⵙⵙⵉⵔⵎ. <addLink>ⵔⵏⵓ ⵓⴳⴳⴰⵔ ⵏ ⵜⵡⵉⵏⴰⵙ ⴷⵖⵉ!</addLink>
 sc-review-form-button-reject = ⴰⴳⵢ
 sc-review-form-button-skip = ⵙⵙⵉⵏⴼ
 sc-review-form-button-approve = ⵙⵙⴳⵍⵢ
