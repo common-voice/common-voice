@@ -805,6 +805,7 @@ record-no-mic-found = ⵡⴰⵍⵓ ⴽⵔⴰ ⵏ ⵓⵎⵉⴽⵔⵓⴼⵓⵏ ⵉ
 record-error-too-short = ⵉⴳⵣⵣⵓⵍ ⵓⵙⵓⵙⵔ ⵙ ⴽⵉⴳⴰⵏ.
 record-error-too-long = ⵉⵖⵣⵣⵉⴼ ⵓⵙⵓⵙⵔ ⵙ ⴽⵉⴳⴰⵏ.
 record-error-too-quiet = ⵉⵣⴳⴰ ⵓⵙⵓⵙⵔ ⵙ ⴽⵉⴳⴰⵏ.
+record-cancel = ⵙⵔ ⴰⵍⴰⵙ ⵏ ⵓⵙⵓⵙⵔ
 record-instruction = { $actionType }<recordIcon></recordIcon> ⵉⵍⵎⵎⴰ ⵖⵔ ⵜⴰⵡⵉⵏⵙⵜ ⵙ ⵓⴳⵕⴹ ⵢⴰⵜⵜⵓⵢⵏ
 record-stop-instruction = { $actionType }<stopIcon></stopIcon> ⴰⴷⴷⴰⵢ ⵜⵙⵎⴷⴷ
 record-three-more-instruction = ⵖⴰⵙ ⴽⵕⴰⴹⵜ ⵙⵓⵍ!
@@ -815,9 +816,12 @@ share-clip = ⴱⴹⵡⴰⵜ ⵜⵓⵙⵙⵉⴼⵜ ⵏⵏⵓⵏ
 share-common-voice = ⴱⴹⵓ ⴽⴰⵎⵏⴼⵓⵢⵙ
 review-instruction = ⵙⵙⵉⵔⵎ, ⵜⴰⵍⵙⴷ ⴰⵙⵓⵙⵔ ⵏ ⵜⵓⵙⵙⵉⴼⵉⵏ ⵎⴽ ⴷ ⵉⵇⵇⴰⵏ
 record-abort-title = ⴰⴷ ⵣⵡⴰⵔ ⵜⵙⵎⴷⴷ ⴰⵙⵓⵙⵔ?
+record-abort-text = ⵎⴽ ⵜⴼⴼⵖⵎ ⴷⵖⵉ ⵔⴰⴷ ⵜⵊⵊⵍⵓⵎ ⴰⵍⴰⵢ ⵏⵏⵓⵏ
 record-abort-submit = ⴰⵣⵏ ⵜⵓⵙⵙⵉⴼⵉⵏ
 record-abort-continue = ⵙⵎⴷ ⴰⵙⵓⵙⵔ
 record-abort-delete = ⴼⴼⵖ, ⵜⴽⴽⵙⴷ ⵜⵓⵙⵙⵉⴼⵉⵏ
+listen-instruction = { $actionType }<playIcon></playIcon> ⵉⵙ ⵙⵓⵙⵔⵏ ⵜⴰⵡⵉⵏⵙⵜ ⵙ ⵓⵏⵖⴰⴷ?
+listen-again-instruction = ⴰⵢⵢⵓⵣ!<playIcon></playIcon> ⵙⵍⵍ ⴷⴰⵖ ⴰⴷⴷⴰⵢ ⵜⵎⵓⵜⵜⴳⴷ
 listen-last-time-instruction = <playIcon></playIcon>ⵜⴰⵎⴳⴳⴰⵔⵓⵜ!
 listen-empty-state = ⵉⵔⵡⴰⵙ ⵉⵙ ⴰⵏⵖ ⵙⵎⴰⵔⵏⵜ ⵜⵓⵙⵙⵉⴼⵉⵏ - ⵙⴷⵖⵉ ⵜⴰⵙⵏⴰ, ⵏⵉⵖ ⵜⵓⵔⵎⴷ ⵜⵉⴽⴽⵍⵜ ⵢⴰⴹⵏ ⴽⵓⴷⵏⵏⴰ.
 listen-loading-error =
@@ -830,6 +834,7 @@ speak-loading-error =
     ⵎⴽ ⵜⵓⴼⴰⵎ, ⴰⵔⵎⴰⵜ ⵜⵉⴽⴽⵍⵜ ⵢⴰⴹⵏ ⴽⵓⴷⵏⵏⴰ.
 record-button-label = ⵙⵓⵙⵔⴰⵜ ⴰⴳⵕⴹ ⵏⵏⵓⵏ
 share-title-new = <bold>ⴰⵡⵙ ⴰⵏⵖ</bold> ⴰⴷ ⵏⴰⴼ ⵓⴳⴳⴰⵔ ⵏ ⵉⴳⵕⴹⴰⵏ
+keep-track-profile = ⵣⵓⵔⵜⴰⵜ ⴰⵍⴰⵢ ⵏⵏⵓⵏ ⵙ ⴽⵔⴰ ⵏ ⵢⵉⴼⵔⵙ
 login-to-get-started = ⴽⵛⵎ ⵏⵉⵖ ⵜⵣⵎⵎⴻⵎⴷ ⵃⵎⴰ ⴰⴷ ⵜⵙⵙⵏⵜⵉⴷ
 target-segment-first-card = ⵍⴰ ⵜⴻⵜⵜⴰⵔⴳⴷ ⴳ ⵜⵓⵟⵟⵓⵜ ⵏⵏⵖ ⵜⴰⵎⵣⵡⴰⵔⵓⵜ ⵉⵜⵜⵡⴰⵜⵜⵙⵏ
 target-segment-generic-card = ⵍⴰ ⵜⴻⵜⵜⴰⵔⴳⴷ ⴳ ⵢⴰⵜ ⵜⵓⵟⵟⵓⵜ ⵉⵜⵜⵡⴰⵜⵜⵙⵏ
@@ -883,10 +888,17 @@ validations =
 ## Dashboard
 
 your-languages = ⵜⵓⵜⵍⴰⵢⵉⵏ ⵏⵏⵓⵏ
+toward-next-goal = ⵙⵉⵡⴰⵍⴰ ⴰⵡⵜⵜⴰⵙ ⵓⴹⴼⵉⵕ
+goal-reached = ⵉⵜⵜⵢⴰⵡⴰⴹ ⵓⵡⵜⵜⴰⵙ
 clips-you-recorded = ⵜⵓⵙⵙⵉⴼⵉⵏ ⵏⵏⴰ ⵜⵙⵓⵙⵔⴷ
 clips-you-validated = ⵜⵓⵙⵙⵉⴼⵉⵏ ⵏⵏⴰ ⵜⵣⵣⵔⵢⴷ
+stats = ⵉⵙⵏⵎⴽⵜⴰⵜⵏ
+awards = ⵜⵉⵙⵎⵖⵓⵔⵉⵏ
 you = ⴽⵯⵏⵏⵉ
+everyone = ⴽⵓⵢⴰⵏ
 contribution-activity = ⴰⵎⵓⵙⵙⵓ ⵏ ⵡⴰⵔⵔⴰⴳ
+top-contributors = ⵉⵎⴰⵔⴰⴳⵏ ⵉⵎⵓⴼⴰⵢⵏ
+recorded-clips = ⵜⵓⵙⵙⵉⴼⵉⵏ ⵜⵜⵓⵙⵓⵙⵔⵏⵉⵏ
 validated-clips = ⵜⵓⵙⵙⵉⴼⵉⵏ ⵣⵔⵢⵏⵉⵏ
 
 ## Custom Goals
@@ -904,6 +916,17 @@ pro-difficulty = ⴰⵣⵣⵓⵍⴰⵏ
 lose-goal-progress-warning = ⵙ ⵓⵙⵏⴼⵍ ⵏ ⵓⵡⵜⵜⴰⵙ ⵏⵏⵓⵏ, ⵜⵖⵉⵢⵎ ⴰⴷ ⵜⵊⵊⵍⵓⵎ ⴰⵍⴰⵢ ⵏⵏⵓⵏ ⵉⵍⵍⴰⵏ.
 want-to-continue = ⵉⵙ ⵜⵅⵙⴷ ⴰⴷ ⵙⵓⵍ ⵜⵙⵎⴷⴷ?
 finish-editing = ⵙⵎⴷ ⵣⵡⴰⵔ ⴰⵙⵏⴼⵍ?
+lose-changes-warning = ⵎⴽ ⵜⴼⴼⵖⵎ ⴷⵖⵉ ⵔⴰⴷ ⵜⵊⵊⵍⵓⵎ ⵉⵙⵏⴼⴰⵍ ⵏⵏⵓⵏ
+help-reach-hours-pluralized =
+    { NUMBER($hours) ->
+        [one] ⴰⵡⵙ ⴰⵏⵖ ⴰⴷ ⵏⴰⵡⴹ { $hours } ⵜⵙⵔⴰⴳⵜ ⵙ { $language } ⵙ ⴽⵔⴰ ⵏ ⵓⵡⵜⵜⴰⵙ ⴰⵏⵉⵎⴰⵏ
+       *[other] ⴰⵡⵙ ⴰⵏⵖ ⴰⴷ ⵏⴰⵡⴹ { $hours } ⵜⵙⵔⴰⴳⵉⵏ ⵙ { $language } ⵙ ⴽⵔⴰ ⵏ ⵓⵡⵜⵜⴰⵙ ⴰⵏⵉⵎⴰⵏ
+    }
+help-reach-hours-general-pluralized =
+    { NUMBER($hours) ->
+        [one] ⴰⵡⵙ ⵉ ⴽⴰⵎⵏⴼⵓⵢⵙ ⴰⴷ ⵢⴰⵡⴹ { $hours } ⵜⵙⵔⴰⴳⵜ ⵙ ⴽⵔⴰ ⵏ ⵜⵓⵜⵍⴰⵢⵜ ⵙ ⴽⵔⴰ ⵏ ⵓⵡⵜⵜⴰⵙ ⴰⵏⵉⵎⴰⵏ
+       *[other] ⴰⵡⵙ ⵉ ⴽⴰⵎⵏⴼⵓⵢⵙ ⴰⴷ ⵢⴰⵡⴹ { $hours } ⵜⵙⵔⴰⴳⵉⵏ ⵙ ⴽⵔⴰ ⵏ ⵜⵓⵜⵍⴰⵢⵜ ⵙ ⴽⵔⴰ ⵏ ⵓⵡⵜⵜⴰⵙ ⴰⵏⵉⵎⴰⵏ
+    }
 how-many-per-day = ⴰⵢⵢⵓⵣ! ⵎⵏⵏⴰⵡⵜ ⵜⵓⵙⵙⵉⴼⵉⵏ ⵉ ⵡⴰⵙⵙ?
 how-many-a-week = ⴰⵢⵢⵓⵣ! ⵎⵏⵏⴰⵡⵜ ⵜⵓⵙⵙⵉⴼⵉⵏ ⵉ ⵢⵉⵎⴰⵍⴰⵙⵙ?
 which-goal-type = ⵉⵙ ⵜⵅⵙⴷ ⴰⴷ ⵜⵙⵉⵡⵍⴷ, ⴰⴷ ⵜⵙⵍⵍⴷ ⵏⵉⵖ ⵙ ⵙⵉⵏ ⵉⵜⵙⵏ?
