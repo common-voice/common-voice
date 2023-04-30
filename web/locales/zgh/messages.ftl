@@ -945,13 +945,18 @@ goal-interval-weekly = ⴰⵏⵎⵍⴰⵙⵙ
 share-n-daily-contribution-goal = ⴱⴹⵡⴰⵜ ⴰⵡⵜⵜⴰⵙ ⵏⵏⵓⵏ ⴰⴽⵓⵢⴰⵙⵙ ⵏ { $count } ⵜⵓⵙⵙⵉⴼⵉⵏ ⵉ { $type }
 # $type is one of share-goal-type-*
 share-n-weekly-contribution-goal = ⴱⴹⵡⴰⵜ ⴰⵡⵜⵜⴰⵙ ⵏⵏⵓⵏ ⴰⵏⵎⵍⴰⵙⵙ ⵏ { $count } ⵜⵓⵙⵙⵉⴼⵉⵏ ⵉ { $type }
+share-goal-type-speak = ⴰⵙⵉⵡⵍ
+share-goal-type-listen = ⵜⵉⵎⵙⵍⵉⵡⵜ
+share-goal-type-both = ⴰⵙⵉⵡⵍ ⴷ ⵜⵎⵙⵍⵉⵡⵜ
 weekly-goal-created = ⵉⵏⵏⴼⵍⵓⵍ ⵓⵡⵜⵜⴰⵙ ⴰⵏⵎⵍⴰⵙⵙ ⵏⵏⵓⵏ
 daily-goal-created = ⵉⵏⵏⴼⵍⵓⵍ ⵓⵡⵜⵜⴰⵙ ⴰⴽⵓⵢⴰⵙⵙ ⵏⵏⵓⵏ
+track-progress = ⵣⵓⵔⵜⴰⵜ ⴰⵍⴰⵢ ⵏⵏⵓⵏ ⴷⴰ, ⴷ ⴳ ⵜⴰⵙⵏⴰ ⵏ ⵉⵙⵏⵎⴽⵜⴰⵜⵏ ⵏⵏⵓⵏ.
 return-to-edit-goal = ⴰⵖⵓⵍⴰⵜ ⵖⵔ ⴷⴰ ⵃⵎⴰ ⴰⴷ ⵜⵙⵏⴼⵍⵎ ⴰⵡⵜⵜⴰⵙ ⵏⵏⵓⵏ ⵜⵉⵣⵉ ⵏⵏⴰ ⴽⴰ.
 share-goal = ⴱⴹⵓ ⴰⵡⵜⵜⴰⵙ ⵉⵏⵓ
 
 ## Profile Delete
 
+delete-q = ⵉⵙ ⵜⵔⴰⵎ ⴰⴷ ⵜⴻⵜⵜⵔⵎ ⴰⴷ ⵜⵜⵡⴰⴽⴽⵙⵏ ⴰⵡⴷ ⵉⵙⵓⵙⴰⵔ ⵉⴳⵕⴹⴰⵏⵏ ⵏⵏⵓⵏ, ⵏⵖ ⴷ ⵢⵓⴼ ⵖⵓⵔⵓⵏ ⴰⴷ ⵜⵏ ⵜⴰⵊⵊⵎ ⴳ ⵜⴳⵔⵓⵎⵎⴰ ⵏ ⵉⵙⴼⴽⴰ ⵏ ⴽⴰⵎⵏⴼⵓⵢⵙ?
 keep = ⴰⵊⵊ
 remove = ⵙⵉⵜⵜⵢ
 profile-form-delete = ⴽⴽⵙ ⵉⴼⵔⵙ
