@@ -1010,25 +1010,33 @@ download-request-metadata-link = ⴰⴹⵕⵉⵚ ⵏ ⵜⵡⵉⵏⵙⵜ
 ## Landing
 
 login-company = ⴽⵛⵎ/ⵣⵎⵎⴻⵎ ⵙ ⵉⵎⴰⵢⵍ ⵏ { $company }
+read-more-about = ⵖⵔ ⵓⴳⴳⴰⵔ ⴳ ⵜⴰⵙⵏⴰ ⵏ ⵅⴼ ⵏⵏⵖ
 
 ## DemoLayout
 
+demo-get-started = ⴰⵢⵡⴰ ⴰⴷ ⵏⵙⵙⵏⵜⵉ
 demo-welcome = ⴱⵔⵔⴽⴰⵜ ⴳ ⴽⴰⵎⵏⴼⵓⵢⵙ
 
 ## Demo Datasets
 
 demo-language-select-card-body = ⵜⴰⵏⵎⵎⵉⵔⵜ ⵅⴼ ⵡⴰⵔⵔⴰⴳⵏ ⵙⴳ ⵖⵓⵔ ⵓⴳⴳⴰⵔ ⵏ 259ⴼⴹ ⵏ ⵎⴷⴷⵏ ⵙ ⵡⵓⴳⴳⴰⵔ ⵏ 50 ⵏ ⵜⵓⵜⵍⴰⵢⵉⵏ, ⵍⴰ ⵜⵜⵓⵙⵎⵔⴰⵙⵏ ⵉⵙⴼⴽⴰ ⴰ ⵉ ⵓⵙⴰⵏⵓⵏ ⵏ ⵜⵙⵏⵙⵉⵜⵉⵏ ⵜⵉⵣⵎⵔⴰⵡⴰⵍⵉⵏ ⵃⵎⴰ ⴰⴷ ⵔⴰⵔⵏⵜ ⵎⵍⵉⵃ ⵉ ⵓⴳⵕⴹ ⴰⵏⴼⴳⴰⵏ.
 card-button-next = ⵓⴹⴼⵉⵕ
+card-button-back = ⴰⵖⵓⵍ
 demo-language-select-label = ⵙⵜⴰⵔⴰ ⵜⵓⵜⵍⴰⵢⵉⵏ
 demo-eofy-header = ⵜⵓⴼⴼⵖⴰ ⵏ ⵜⴳⵉⵔⴰ ⵏ ⵓⵙⴳⴳⵯⴰⵙ ⵏ 2019
+demo-eofy-sub_header = ⵜⴰⴳⵔⵓⵎⵎⴰ ⵏ ⵉⵙⴼⴽⴰ ⵉⴳⵕⴹⴰⵏⵏ, ⵜⵎⵓⵜⵜⴳ ⵉ ⵡⴰⴳⴰⵎ
 demo-account = ⴰⵎⵉⴹⴰⵏ
 
 ## Demo Account
 
+demo-account-enter-email =
+    .label = ⵙⵙⴽⵛⵎ ⵉⵎⴰⵢⵍ ⵉ ⵡⴰⵣⴰⵏ ⵏ ⵢⴰⵏ ⵓⵙⵖⵏ ⵏ ⵓⵣⵎⵎⴻⵎ
+demo-account-sign-up = ⴰⵣⵏ ⴰⵙⵖⵏ ⵏ ⵓⵣⵎⵎⴻⵎ
 
 ## Demo Contribute
 
 demo-contribute-card-body-v2 = ⴷⵖⵉ ⴳ ⵜⵙⵙⵏⵎ ⵉⵎⵉⴽⴽ ⵓⴳⴳⴰⵔ ⵅⴼ ⴽⴰⵎⵏⴼⵓⵢⵙ, ⵎⴰⵅ ⴰⴷ ⵜ ⵓⵔ ⵜⴰⵔⵎⵎ? ⴽⵍⵉⴽⵢⴰⵜ ⵅⴼ ⵜⵢⴽⵓⵏⵜ ⵏ ⵓⵎⵉⴽⵔⵓⴼⵓⵏ ⵃⵎⴰ ⴰⴷ ⵜⵙⵙⵏⵜⵉⵎ ⵜⵉⵖⵔⵉ ⵏ ⵜⵡⵉⵏⴰⵙ ⵙ ⵓⴳⵕⴹ ⵢⴰⵜⵜⵓⵢⵏ. <br/><br/>ⵎⴽ ⵖⵓⵔⵓⵏ ⵢⵓⴼ ⴰⴷ ⵜⵙⵙⵉⵔⵎⵎ ⴰⵔⵔⴰⴳⵏ ⵉⴳⵕⴹⴰⵏⵏ ⵏ ⵎⴷⴷⵏ ⵢⴰⴹⵏⵉⵏ, ⴽⵍⵉⴽⵢⴰⵜ ⵅⴼ ⵜⵢⴽⵓⵏⵜ ⵏ ⵖⵔ. ⵔⴰⴷ ⵜⴰⵡⵙⵎ ⴳ ⵓⵙⵙⴷⴻⴷ ⵏ ⵓⵏⴳⴰⴷⴷⴰ ⵏ ⵉⵙⵓⵙⴰⵔ ⴰⴽⴷ ⵜⵡⵉⵏⴰⵙ ⵜⵜⵢⴰⵔⴰⵏⵉⵏ ⴳ ⵓⵎⵉⵥⴰⵕ.
+demo-listen-subtitle = ⵜⵎⵓⵜⵜⴳⴷ ⴰⴷ ⵜⴰⵔⴳⴷ?
 
 ## Demo Dashboard
 
@@ -1068,6 +1076,7 @@ contribution-varying-pronunciations-example-2-explanation = [ⵍⴰ ⴰⴱⴷⴰ
 contribution-background-noise-title = ⴰⴷⵉⴷⴰ ⵏ ⵜⵖⵔⴷⵉⵏ
 contribution-background-noise-example-1-fixed-title = <strong>[ⵜⵉⵏⵣⵉ]</strong> ⵉⵣⵎⴰⵡⵏ <strong>[ⵜⵓⵙⵓⵜ]</strong> ⵏ ⵡⴰⵟⵍⴰⵚ.
 contribution-background-noise-example-2-fixed-title = ⵉⵣⵎⴰ <strong>[ⵜⵓⵙⵓⵜ]</strong> ⵏ ⵡⴰⵟⵍⴰⵚ.
+contribution-background-noise-example-2-explanation = [ⵓⵔ ⵜⴻⵜⵜⵓⵙⵍⵍⴰ ⵢⴰⵜ ⵜⴳⴹⴰⵎⵜ ⵙⴳ ⵓⴹⵕⵉⵚ]
 contribution-background-noise-example-3-fixed-title = <strong>[ⴰⵟⵇⵟⵇ]</strong> ⵣⵎⴰⵡⵏ <strong>[ⴰⵟⵇⵟⵇ]</strong> -ⵟⵍⴰⵚ.
 contribution-background-voices-title = ⵉⴳⵕⴹⴰⵏ ⵏ ⵜⵖⵔⴷⵉⵏ
 contribution-background-voices-example-1-title = ⵉⵣⵎⴰⵡⵏ ⵏ ⵡⴰⵟⵍⴰⵚ. <strong>[ⵜⵉⵖⵔⵉ ⵙ ⵢⴰⵏ ⵓⴳⵕⴹ]</strong>
@@ -1087,18 +1096,22 @@ sc-header-add = ⵔⵏⵓ
 sc-header-review = ⵙⵙⵉⵔⵎ
 sc-header-rejected = ⵜⵉⵡⵉⵏⴰⵙ ⵜⵜⵢⴰⴳⴰⵢⵏⵉⵏ
 sc-header-my = ⵜⵉⵡⵉⵏⴰⵙ ⵉⵏⵓ
+sc-header-statistics = ⵉⵙⵏⵎⴽⵜⴰⵜⵏ
 sc-header-profile = ⵉⴼⵔⵙ
 sc-footer-discourse = ⴷⵉⵙⴽⵓⵔⵙ
+sc-footer-report-bugs = ⵎⵍ ⵉⴱⵓⴳⵏ
 sc-footer-translate = ⵙⵙⵓⵖⵍ ⵜⴰⵙⵏⴰ ⴰ
 sc-footer-report-copyright = ⵎⵍ ⵉⵎⵓⴽⵔⵉⵙⵏ ⵏ ⵉⵣⵔⴼⴰⵏ ⵏ ⵓⵎⵙⴽⴰⵔ
 sc-footer-privacy = ⵜⵉⵏⵏⵓⵜⵍⴰ
 sc-footer-terms = ⵜⵉⴼⴰⴷⵉⵡⵉⵏ
+sc-footer-cookies = ⵉⴽⵓⴽⵉⵜⵏ
 sc-login-signup-button = ⴰⴽⵛⴰⵎ/ⴰⵣⵎⵎⴻⵎ
 sc-logout-button = ⵓⴼⵓⵖ
 
 ## HOME
 
 sc-home-title = ⴱⵔⵔⴽⴰⵜ ⴳ ⵙⴰⵏⵜⵏⵙ ⴽⵓⵍⵉⴽⵜⵓⵔ ⵏ ⴽⴰⵎⵏⴼⵓⵢⵙ
+sc-home-collect-title = ⴳⵔⵓ ⵜⵉⵡⵉⵏⴰⵙ
 sc-home-collect-text = ⴰⵡⵙ ⴰⵏⵖ ⵙ ⵜⵉⵔⵔⴰ ⵏⵉⵖ ⴰⴳⵔⵔⵓ ⵏ ⵜⵡⵉⵏⴰⵙ ⵏ ⵡⴰⴳⵍⴰ ⴰⴳⴷⵓⴷⴰⵏ.
 sc-home-review-title = ⵙⵙⵉⵔⵎ ⵜⵉⵡⵉⵏⴰⵙ
 
