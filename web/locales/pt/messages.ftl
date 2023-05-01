@@ -196,6 +196,7 @@ ts = Xitsonga
 tt = Tártaro
 tw = Twi
 ty = Taitiano
+tyv = Tuvan
 uby = Ubykh
 udm = Udmurte
 ug = Uigur
@@ -206,6 +207,7 @@ ve = Tshivenda
 vec = Veneziano
 vi = Vietnamita
 vot = Vótico
+wo = Wolof
 xh = Xhosa
 yi = Iídiche
 yo = Iorubá
@@ -215,6 +217,7 @@ zh-CN = Chinês (China)
 zh-HK = Chinês (Hong Kong)
 zh-TW = Chinês (Taiwan)
 zu = Zulu
+zza = Zaza
 
 # [/]
 
