@@ -1615,6 +1615,7 @@ background-noise-tip-2 = [Parte do texto não pode ser ouvido]
 background-voices-explanation = Um pouco de ruído de fundo é aceitável, mas se você puder ouvir outra pessoa falando palavras distintas, o clipe deve ser rejeitado. Normalmente, isso acontece se uma TV foi deixada ligada ou há uma conversa por perto.
 background-voices-example-1 = Os dinossauros gigantes do Triássico. [lido por uma voz]
 background-voices-tip-1 = Você está vindo? [falado por outra]
+volume-explanation = Há natural variação de volume entre os leitores. Rejeite somente se o volume estiver tão alto que a gravação falhe, ou (mais comum) se estiver tão baixo que você não possa ouvir o que está sendo dito sem referência ao texto escrito.
 still-have-questions = Ainda tem dúvidas?
 contact-common-voice = Entre em contato com a equipe do Common Voice
 public-domain = Domínio público
