@@ -795,6 +795,7 @@ action-tap = ⴰⴷⵔ
 contribute = ⴰⵔⴳ
 listen = ⵙⵍⵍ
 skip = ⵙⵙⵉⵏⴼ
+shortcuts = ⵉⵙⵓⵏⴰⴼ
 clips-with-count-pluralized =
     { $count ->
         [one] <bold>{ $count }</bold> ⵜⵓⵙⵙⵉⴼⵜ
@@ -822,9 +823,12 @@ record-three-more-instruction = ⵖⴰⵙ ⴽⵕⴰⴹⵜ ⵙⵓⵍ!
 record-again-instruction = ⴰⵢⵢⵓⵣ!<recordIcon></recordIcon> ⵙⵓⵙⵔⴰⵜ ⵜⵓⵙⵙⵉⴼⵜ ⵜⵓⴹⴼⵉⵕⵜ ⵏⵏⵓⵏ
 record-again-instruction2 = ⵙⵎⴷ ⵙⵓⵍ ⵎⴽⴰ, ⵙⵓⵙⵔ ⵜⵉⴽⴽⵍⵜ ⵢⴰⴹⵏ <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon> ⵜⴰⵎⴳⴳⴰⵔⵓⵜ!
+review-tooltip = ⵙⵙⵉⵔⵎ, ⵜⴰⵍⵙⴷ ⴰⵙⵓⵙⵔ ⵏ ⵜⵓⵙⵙⵉⴼⵉⵏ ⴷⴰ ⴽⵔⴰ ⵙ ⵍⴰ ⵜⴻⵜⵜⴷⴷⵓⴷ
 share-clip = ⴱⴹⵡⴰⵜ ⵜⵓⵙⵙⵉⴼⵜ ⵏⵏⵓⵏ
 share-common-voice = ⴱⴹⵓ ⴽⴰⵎⵏⴼⵓⵢⵙ
 review-instruction = ⵙⵙⵉⵔⵎ, ⵜⴰⵍⵙⴷ ⴰⵙⵓⵙⵔ ⵏ ⵜⵓⵙⵙⵉⴼⵉⵏ ⵎⴽ ⴷ ⵉⵇⵇⴰⵏ
+record-submit-tooltip = { $actionType } ⴰⵣⵏ ⴰⴷⴷⴰⵢ ⵜⵎⵓⵜⵜⴳⴷ
+clips-uploaded = ⵜⵓⵙⵙⵉⴼⵉⵏ ⴽⵜⵔⵏⵉⵏ
 record-abort-title = ⴰⴷ ⵣⵡⴰⵔ ⵜⵙⵎⴷⴷ ⴰⵙⵓⵙⵔ?
 record-abort-text = ⵎⴽ ⵜⴼⴼⵖⵎ ⴷⵖⵉ ⵔⴰⴷ ⵜⵊⵊⵍⵓⵎ ⴰⵍⴰⵢ ⵏⵏⵓⵏ
 record-abort-submit = ⴰⵣⵏ ⵜⵓⵙⵙⵉⴼⵉⵏ
