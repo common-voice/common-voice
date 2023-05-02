@@ -1138,11 +1138,13 @@ sc-howto-findpd-tips = ⵀⴰ ⴷ ⴽⵔⴰ ⵏ ⵉⵙⵙⴼⴰⵡⵏ ⵃⵎⴰ 
 sc-howto-findpd-tips-3 = ⵙ ⵜⵎⴳⵕⵥⴰ, ⵓⵔ ⵜⴰ ⵏⵣⵎⵉⵔ ⴰⴷ ⵏⵉⵍⵉ ⵉⵎⴳⵔⴰⴷⵏ ⵏ ⵡⵉⴽⵉⵎⵉⴷⵢⴰ. ⵉⵡⴰ ⴰⴷ ⵓⵔ ⵜⵙⵙⵏⵖⵍⴷ ⵜⵙⵍⵖⴷ ⵙⴳ ⴷⵉⵏⵏ.
 sc-howto-findpd-subtitle-2 = ⴷⵔⵓ ⴰⴽⴷ ⵜⵎⴰⴷⴷⴰⵙⵉⵏ ⵏⵉⵖ ⵎⴷⴷⵏ ⵉⴷⵖⵔⴰⵏⵏ
 sc-howto-findpd-partner-1 = ⵍⵍⴰⵏⵜ ⴽⵉⴳⴰⵏ ⵏ ⵜⵎⴰⴷⴷⴰⵙⵉⵏ ⵜⵉⴳⴷⵓⴷⴰⵏⵉⵏ ⵏⵏⴰ ⵖⵉⵢⵏⵉⵏ ⴰⴷ ⵅⵙⵏⵜ ⴰⴷ ⵎⵢⴰⵡⴰⵙⵏⵜ ⴷ ⴰⴷ ⵢⴰⴷ ⵖⵓⵔⵙⵏⵜ ⵉⵍⵉⵏ ⴽⵉⴳⴰⵏ ⵏ ⵉⴹⵕⵉⵚⵏ ⵏⵏⴰ ⵙ ⵣⵎⵔⵏⵜ ⴰⴷ ⵜⵏ ⴼⴽⵏⵜ ⴰⵎ ⵡⴰⴳⵍⴰ ⴰⴳⴷⵓⴷⴰⵏ. ⵏⵢⴰⵍⴽⴰⵎ ⴰⴽⴷ ⵜⵙⴷⴰⵡⵉⵢⵉⵏ ⵜⵉⴷⵖⵔⴰⵏⵉⵏ, ⵜⵉⵏⴱⴰⴹⵉⵏ ⴷ ⵜⵎⴰⴷⴷⴰⵙⵉⵏ ⵏ ⵓⵙⴰⴳⵎ ⵓⵕⵥⵉⵎ ⵃⵎⴰ ⴰⴷ ⵜⵙⵉⵡⵍⴷ ⵅⴼ ⵓⵙⵏⴼⴰⵔ, ⵜⴻⵜⵜⵔⴷ ⵜⵉⵡⵉⵙⵉ ⵏⵏⵙⵏ.
+sc-howto-findpd-partner-2 = ⴰⵡⴷ ⵉⵎⵙⵏⵉⵍⵙⵏ ⵉⵎⵓⵣⴰⵢⵏ ⵣⵎⵔⵏ ⴰⴷ ⴰⵡⵙⵏ, ⴰⵔⵎⴰⵜ ⴰⴷ ⵜⵏⵢⴰⵍⴽⴰⵎⵎ ⴰⴽⴷ ⵜⵙⴷⴰⵡⵉⵢⵉⵏ ⵜⵉⵎⵙⵏⵉⵍⵙⵉⵏ ⵜⵉⴷⵖⵔⴰⵏⵉⵏ ( ⵍⴰ ⵉⵙⵍⵎⴰⴷⵏ ⵓⵍⴰ ⵉⵎⵣⵔⴰⵡⵏ), ⵜⵥⵕⵎ ⵎⴽ ⵣⵎⵔⵏ ⴰⴷ ⴰⵡⵙⵏ ⴳ ⵓⵙⵎⵓⵜⵜⵔ ⵏ ⵢⴰⵜ ⵜⴳⵔⵓⵎⵎⴰ ⵉⵎⵢⴰⵏⴰⵡⵏ ⵏ ⵜⵡⵉⵏⴰⵙ ⵉⴷ ⵎⵎ-ⵉⵎⵙⵍⵉⵜⵏ ⵉⵎⵢⴰⵏⴰⵡⵏ ⵙ ⵜⵓⵜⵍⴰⵢⵜ ⵏⵏⵓⵏ.
 
 ## MY SENTENCES
 
 sc-my-title = ⵜⵉⵡⵉⵏⴰⵙ ⵉⵏⵓ
 sc-my-loading = ⴰⵣⴷⴰⵎ ⵏ ⵜⵡⵉⵏⴰⵙ ⵏⵏⵓⵏ…
+sc-my-err-fetching = ⵜⴰⵣⴳⵍⵜ ⴽⵓⴷⵏⵏⴰ ⴷ ⵏⵜⵜⴰⵡⵢ ⵜⵉⵡⵉⵏⴰⵙ ⵏⵏⵓⵏ. ⵎⴽ ⵜⵓⴼⴰⵎ, ⴰⵔⵎⴰⵜ ⵜⵉⴽⴽⵍⵜ ⵢⴰⴹⵏ.
 sc-my-no-sentences = ⵡⴰⵍⵓ ⵜⵉⵡⵉⵏⴰⵙ ⵜⵜⵢⴰⴼⴰⵏⵉⵏ!
 # Variables:
 #   $batchId (String) - A unique ID identifying the submission of sentences - sentences uploaded together all have the same batch ID
@@ -1157,6 +1159,7 @@ sc-my-deleting = ⵜⵓⴽⴽⵙⴰ ⵏ ⵜⵡⵉⵏⴰⵙ ⵜⵜⵓⵙⵜⴰⵢ
 
 sc-rejected-title = ⵜⵉⵡⵉⵏⴰⵙ ⵜⵜⵢⴰⴳⴰⵢⵏⵉⵏ
 sc-rejected-loading = ⴰⵣⴷⴰⵎ ⵏ ⵜⵡⵉⵏⴰⵙ ⵜⵜⵢⴰⴳⴰⵢⵏⵉⵏ…
+sc-rejected-err-fetching = ⵜⴰⵣⴳⵍⵜ ⴽⵓⴷⵏⵏⴰ ⴷ ⵏⵜⵜⴰⵡⵢ ⵜⵉⵡⵉⵏⴰⵙ ⵜⵜⵢⴰⴳⴰⵢⵏⵉⵏ. ⵎⴽ ⵜⵓⴼⴰⵎ, ⴰⵔⵎⴰⵜ ⵜⵉⴽⴽⵍⵜ ⵢⴰⴹⵏ.
 sc-rejected-none-found = ⵡⴰⵍⵓ ⵜⵉⵡⵉⵏⴰⵙ ⵉⵜⵜⵢⴰⴳⴰⵢⵏ ⵜⵜⵢⴰⴼⴰⵏⵉⵏ!
 
 ## STATS
@@ -1183,6 +1186,8 @@ sc-submit-ph-one-per-line =
     .placeholder = ⵢⴰⵜ ⵜⵡⵉⵏⵙⵜ ⵉ ⵓⵣⵔⵉⴳ
 sc-submit-from-where = ⵎⴰⵏⵉ ⵙⴳ ⴷ ⴷⴷⴰⵏⵜ ⵜⵡⵉⵏⴰⵙ ⴰⴷ ⵏ <wikipediaLink>ⵡⴰⴳⵍⴰ ⴰⴳⴷⵓⴷⴰⵏ</wikipediaLink>?
 sc-submit-confirm = ⵍⴰ ⵙⵙⴷⵉⴷⵖ ⵎⴰⵙ ⴷ ⵜⵉⵡⵉⵏⴰⵙ ⴰⴷ ⴳⴰⵏⵜ <wikipediaLink>ⴰⴳⵍⴰ ⴰⴳⴷⵓⴷⴰⵏ</wikipediaLink> ⴷ ⵖⵓⵔⵉ ⵜⵓⵔⴰⴳⵜ ⴰⴷ ⵜⵏⵜ ⵙⴽⵜⵔⵖ.
+sc-submit-button =
+    .submitText = ⴰⵣⵏ
 
 ## ADD LANGUAGE
 
