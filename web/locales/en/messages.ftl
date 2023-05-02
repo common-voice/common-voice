@@ -1685,3 +1685,8 @@ reviewing-sentences-explanation-3 = If you are unsure about the sentence, you ma
 reviewing-sentences-explanation-4 = If you run out of sentences to review, please help us collect more sentences!
 community-announcement-header = Community announcement!
 community-announcement-explanation = The guidance below is for the new sentence collector features, which will be integrated into the core Common Voice platform throughout March and April 2023. In the meantime you can use the previous tool, <scLink>https://commonvoice.mozilla.org/sentence-collector/</scLink>.
+
+# SENTENCE-COLLECTOR-REDIRECT PAGE
+sc-redirect-page-title = We're making some big changes
+sc-redirect-page-subtitle-1 = Sentence Collector is migrating to the core Common Voice platform. This is the new <scURL>URL</scURL> for the sentence collector.
+sc-redirect-page-subtitle-2 = Ask us questions on <matrixLink>Matrix</matrixLink>, <discourseLink>Discourse</discourseLink> or <emailLink>email</emailLink>.
