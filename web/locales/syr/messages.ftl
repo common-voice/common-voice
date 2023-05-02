@@ -389,6 +389,9 @@ clips-uploaded = ܡܐܡܪ̈ܐ ܡܘܣܩ ܠܗ
 record-abort-submit = ܫܕܪ ܡܐܡܪ̈ܐ
 record-abort-delete = ܦܠܘܛ ܘܫܘܦ ܡܐܡܪ̈ܐ
 
+## Contribution Nav Items
+
+
 ## Reporting
 
 success = ܟܫܝܪܘܬܐ
@@ -520,3 +523,5 @@ sc-lang-info-validated =
 
 localization-select =
     .label = ܓܒܝ ܠܫܢܐ / ܕܘܟܬܢܐܝܬ
+sentence-collection = ܟܘܢܫܐ ܕܡܡܠ݇ܠܐ
+public-domain = ܝܪܬܘܬܐ ܓܠܝܐ
