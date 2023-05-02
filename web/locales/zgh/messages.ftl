@@ -1134,6 +1134,7 @@ sc-howto-review-criteria-6 = ⵎⴽ ⴰⵡⵏ ⵙⵎⴰⵔⵏⵜ ⵜⵡⵉⵏⴰ
 sc-howto-findpd-title = ⵜⵉⴼⵉ ⵏ ⵜⵡⵉⵏⴰⵙ ⵍⵍⴰⵏⵉⵏ ⴳ ⵡⴰⴳⵍⴰ ⴰⴳⴷⵓⴷⴰⵏ
 sc-howto-findpd-subtitle = ⵔⵣⵓ ⴼⵍⵍⴰⵙⵏ ⴳ ⵡⴰⵏⵜⵉⵔⵏⵉⵜ
 sc-howto-findpd-tips = ⵀⴰ ⴷ ⴽⵔⴰ ⵏ ⵉⵙⵙⴼⴰⵡⵏ ⵃⵎⴰ ⴰⴷ ⵜⴰⴼⴷ ⵜⵉⵡⵉⵏⴰⵙ:
+sc-howto-findpd-tips-3 = ⵙ ⵜⵎⴳⵕⵥⴰ, ⵓⵔ ⵜⴰ ⵏⵣⵎⵉⵔ ⴰⴷ ⵏⵉⵍⵉ ⵉⵎⴳⵔⴰⴷⵏ ⵏ ⵡⵉⴽⵉⵎⵉⴷⵢⴰ. ⵉⵡⴰ ⴰⴷ ⵓⵔ ⵜⵙⵙⵏⵖⵍⴷ ⵜⵙⵍⵖⴷ ⵙⴳ ⴷⵉⵏⵏ.
 
 ## MY SENTENCES
 
