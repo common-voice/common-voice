@@ -1,0 +1,58 @@
+.sc-redirect-page {
+    padding-bottom: 4em;
+    background-image: url('../error-page/images/background-wave-error.svg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: bottom;
+
+    @media (--md-up) {
+        padding-bottom: 8em;
+    }
+}
+
+.sc-redirect-page-wrapper {
+    padding: 0 var(--page-margin);
+    margin: 0 auto;
+    max-width: var(--desktop-width);
+
+    @media (--lg-up) {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+    }
+}
+
+.sc-redirect-page__content {
+    max-width: 35em;
+
+    & .page-heading {
+        font-size: 36px;
+
+        @media (--md-up) {
+            font-size: var(--font-size-max);
+            width: max-content;
+        }
+    }
+}
+
+.sc-redirect-page__image {
+    @media (--md-up) {
+        padding-left: 2em;
+        padding-top: 3vh;
+    }
+
+    img {
+        display: block;
+        max-width: 100%;
+    }
+}
+
+.sc-redirect-page__buttons {
+    display: flex;
+    margin-top: 2em;
+    margin-bottom: 1em;
+
+    .round-button {
+        margin-right: 1.5em;
+    }
+}
