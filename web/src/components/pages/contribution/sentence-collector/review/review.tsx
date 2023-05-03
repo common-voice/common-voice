@@ -169,7 +169,8 @@ const Review: React.FC<Props> = ({ getString }) => {
   const isLoading = sentences[currentLocale]?.isLoadingPendingSentences
 
   const noPendingSentences =
-    !isLoading && pendingSentencesSubmissions.length === 0
+    (!isLoading && pendingSentencesSubmissions.length === 0) ||
+    activeSentenceIndex < 0
 
   const reportModalProps = {
     reasons: [
