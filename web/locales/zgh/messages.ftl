@@ -504,7 +504,7 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = ⵎⴰⵅ ⴽⴰⵎⵏⴼⵓⵢⵙ?
-how-does-it-work-title-v2 = ⵎⴰⵏⵎⴽ ⴷⴰ ⵉⵙⵡⵓⵔⵓⵢ ⴽⴰⵎⵏⴼⵓⵢⵙ?
+how-does-it-work-title-v2 = ⵎⴰⵏⵎⴽ ⵍⴰ ⵉⵙⵡⵓⵔⵓⵢ ⴽⴰⵎⵏⴼⵓⵢⵙ?
 
 ## How does it work section
 
@@ -519,10 +519,10 @@ about-voice-contrib-subtitle = ⴷⴰ ⴷ ⵜⵜⴷⴷⵓⵏ ⵎⴷⴷⵏ ⴰⵔ
 about-voice-validation-title = ⴰⵣⵣⵔⴰⵢ ⵏ ⵓⴳⵕⴹ
 about-voice-validation-subtitle = ⵣⵣⵔⵢⵏ ⵎⴷⴷⵏ ⵢⴰⴹⵏⵉⵏ ⵜⵓⵙⵙⵉⴼⵉⵏ ⵜⵉⴳⵕⴹⴰⵏⵉⵏ ⴰⴷ.
 about-dataset-release-title = ⵜⵓⴼⴼⵖⴰ ⵏ ⵜⴳⵔⵓⵎⵎⴰ ⵏ ⵉⵙⴼⴽⴰ
-about-dataset-release-subtitle = ⴷⴰ ⵏⵙⵙⵓⴼⵓⵖ ⵜⴰⴳⵔⵓⵎⵎⴰ ⵏ ⵉⵙⴼⴽⴰ ⴽⵓ 3 ⵡⴰⵢⵢⵓⵔⵏ.
+about-dataset-release-subtitle = ⵍⴰ ⵏⵙⵙⵓⴼⵓⵖ ⵜⴰⴳⵔⵓⵎⵎⴰ ⵏ ⵉⵙⴼⴽⴰ ⴽⵓ 3 ⵡⴰⵢⵢⵓⵔⵏ.
 about-subscribe-text = ⵜⵅⵙⴷ ⴰⴷ ⵜⵇⵇⵉⵎⴷ ⴳ ⵓⵏⵢⴰⵍⴽⴰⵎ ⴰⴽⴷ ⴽⴰⵎⵏⴼⵓⵢⵙ?
 about-speak = ⵙⵉⵡⵍ
-about-speak-text = ⴷⴰ ⵜⵜⵙⵓⵙⵓⵔⵏ ⵉⵎⴰⵔⴰⴳⵏ ⵜⵓⵙⵙⵉⴼⵉⵏ ⵜⵉⴳⵕⴹⴰⵏⵉⵏ ⵙ ⵜⵖⵔⵉ ⵙⴳ ⵢⴰⵜ ⵜⴱⴰⵏⴽⴰ ⵏ ⵜⵡⵉⵏⴰⵙ ⵜⵜⵓⴼⴽⴰⵏⵉⵏ.
+about-speak-text = ⵍⴰ ⵜⵜⵙⵓⵙⵓⵔⵏ ⵉⵎⴰⵔⴰⴳⵏ ⵜⵓⵙⵙⵉⴼⵉⵏ ⵜⵉⴳⵕⴹⴰⵏⵉⵏ ⵙ ⵜⵖⵔⵉ ⵙⴳ ⵢⴰⵜ ⵜⴱⴰⵏⴽⴰ ⵏ ⵜⵡⵉⵏⴰⵙ ⵜⵜⵓⴼⴽⴰⵏⵉⵏ.
 about-listen-queue = ⴰⴷⵔⴰⵙ ⵏ ⵜⵎⵙⵍⵉⵡⵜ
 about-listen-queue-text = ⵍⴰ ⴽⵛⵛⵎⵏⵜ ⵜⵓⵙⵙⵉⴼⵉⵏ ⵜⵉⴳⵕⴹⴰⵏⵉⵏ ⵢⴰⵏ ⵓⴷⵔⴰⵙ ⵏ ⵡⴰⵣⴰⵏ ⵏⵏⴰ ⵜⵏⵜ ⵉⵙⵎⵓⵜⵜⵓⴳⵏ ⵉ ⵜⵎⵙⵍⵉⵡⵜ.
 about-listen = ⵙⵍⵍ
@@ -575,10 +575,10 @@ about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollec
 
 ## How does localization work
 
-about-playbook-how-localize-content-1 = ⴷⴰ ⵉⵜⵜⵓⵙⴽⵉⵔ ⵓⵙⵓⵖⵍ ⵏ ⵓⵙⵉⵜ ⵏ ⴽⴰⵎⵏⴼⵓⵢⵙ ⴳ <strong>ⴱⵓⵏⵜⵓⵏ</strong>.
+about-playbook-how-localize-content-1 = ⵍⴰ ⵉⵜⵜⵓⵙⴽⴰⵔ ⵓⵙⵓⵖⵍ ⵏ ⵓⵙⵉⵜ ⵏ ⴽⴰⵎⵏⴼⵓⵢⵙ ⴳ <strong>ⴱⵓⵏⵜⵓⵏ</strong>.
 about-playbook-how-localize-content-2 = <pontoonAccountLink>ⵙⵏⴼⵍⵓⵍⴰⵜ ⴰⵎⵉⴹⴰⵏ</pontoonAccountLink> ⵎⴽ ⵓⵔ ⵢⴰⴷ ⵖⵓⵔⵓⵏ ⵉⵍⵍⵉ ⴽⵔⴰ ⵏ ⵢⴰⵏ. ⵉⵍⵎⵎⴰ, ⵜⴷⵖⵔⵎ <strong>(‘ⵜⴰⵔⴰⴱⴱⵓⵜ’)</strong> ⵏ ⵜⵓⵜⵍⴰⵢⵜ ⵏⵏⵓⵏ, ⵉⵍⵎⵎⴰ ⵜⴷⵖⵔⵎ ⴰⵙⵏⴼⴰⵔ, <pontoonCvLink>ⴽⴰⵎⵏⴼⵓⵢⵙ</pontoonCvLink>. ⵔⴰⴷ ⵉⵍⵉⵏ ⵉⴼⵓⵢⵍⴰ ⵉ ⵓⵙⵓⵖⵍ. ⴽⵍⵉⴽⵢⴰⵜ ⵅⴼ ⴽⵔⴰ ⵏ ⵢⴰⵏ, ⵔⴰⴷ ⵉⵍⵎⵎⴰ ⵉⵙⵙⵓⵎⴰⵏ ⵜⵉⴳⵓⵔⵉⵡⵉⵏ ⵙ ⵜⵏⴳⵍⵉⵣⵜ ⴷ ⵢⴰt ⵜⴼⵏⵉⵇⵜ ⵉ ⵓⵙⵓⵖⵍ ⵏⵏⵙⵏⵜ.
 about-playbook-how-localize-content-3 = ⴰⵔ ⴷ ⵉⵜⵜⴽⴽⴰ ⵓⵙⵓⵖⵍ ⵜⴰⵏⴳⵍⵉⵣⵉⵜ, ⵎⴰⵛⴰ ⵜⵣⵎⵔⵎ ⴰⴷ ⵜⵥⵕⵎ <strong>ⵉⵙⵓⵎⵓⵔⵏ</strong> ⵙ ⵜⵓⵜⵍⴰⵢⵉⵏ ⵢⴰⴹⵏⵉⵏ. ⴽⵍⵉⴽⵢⴰⵜ ⵅⴼ ⵜⵢⴽⵓⵏⵜ ⵏ <strong>ⵉⴼⵔⵙ</strong>, ⵉⵍⵎⵎⴰ ⵙ ⵓⵙⵖⵏ ⵏ <strong>ⵜⵙⵖⴰⵍ</strong>, ⵜⵔⵏⵓⵎ ⵜⵓⵜⵍⴰⵢⵉⵏ ⵏⵏⴰ ⴽⴰ ⵜⵙⴰⵡⴰⵍⵎ. ⴳ ⵜⵖⵎⵔⵜ ⵜⴰⴼⴰⵙⵉⵜ ⵜⴰⵏⴷⴷⴰⵡⵜ ⵔⴰⴷ ⵜⵉⵍⵉ ⵢⴰⵜ ⵜⴰⵍⴳⴰⵎⵜ ⵏ ⵜⵙⵓⵖⴰⵍ ⵉⵜⵜⵓⵙⵎⵎⴰⵏ <strong>ⵜⵓⵜⵍⴰⵢⵉⵏ</strong>. ⵍⴰ ⵜⵜⵓⵎⴰⵏⵏⵜ ⵜⵙⵓⵖⴰⵍ ⴳ ⵓⵙⵉⵜ ⴹⴰⵕⵜ ⵢⴰⵏ ⵡⴰⵙⵙ.
-about-playbook-how-localize-content-4 = ⴷⴰ ⵉⵜⵜⵎⵓⵜⵜⵓⴳ ⵓⵙⵉⵜ ⵉ ⵓⵏⵏⵓⵕⵥⵎ ⴰⴷⴷⴰⵢ ⵉⵍⴽⵎ 75% ⵏ ⵓⵙⵎⴰⴷ.
+about-playbook-how-localize-content-4 = ⵍⴰ ⵉⵜⵜⵎⵓⵜⵜⵓⴳ ⵓⵙⵉⵜ ⵉ ⵓⵏⵏⵓⵕⵥⵎ ⴰⴷⴷⴰⵢ ⵉⵍⴽⵎ 75% ⵏ ⵓⵙⵎⴰⴷ.
 about-playbook-how-localize-content-5 = ⴰⵏⵏⴰⵢⴰⵜ ⴰⴼⵉⴷⵢⵓ ⴰⵎⵙⵙⴼⵔⵓ ⵏⵏⵖ ⴰⴷ ⴰⵡⵏ ⵢⴰⵡⵙ
 
 ## How to add sentences
