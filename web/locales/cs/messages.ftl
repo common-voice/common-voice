@@ -299,7 +299,6 @@ shortcut-discard-ongoing-recording-label = Zahodit probíhající nahrávku
 shortcut-submit = Enter
 shortcut-submit-label = Odeslat nahrávky
 request-language-text = Nevidíte svůj jazyk na Common Voice?
-request-language-text-learn = Zde se dozvíte, jak o něj požádat!
 request-language-button = Požádat o jazyk
 
 ## ProjectStatus
@@ -431,7 +430,6 @@ faq-why-different-speakers-a =
     Většina databází mluveného slova je trénována s nadměrným zastoupením určitých demografických skupin, zpravidla <articleLink>mužů  střední třídy</articleLink>. Méně zastoupeny jsou poté přízvuky a dialekty tradičně asociované s minoritními etnickými skupinami. Mnoho strojů má taktéž problémy s ženskými hlasy.
     Proto v naší databázi chceme slyšet všechny!
 faq-why-my-lang-q = Proč můj jazyk ještě není zahrnut?
-faq-why-my-lang-new-a = Mozilla nevybírá žádné jazyky ani je navzájem nijak neupřednostňuje. Místo toho je projekt Common Voice řízen čistě požadavky a aktivitou komunity. Přidání nového jazyka a zahájení sběru je však <multilangLink>procesem na více kroků</multilangLink>. Prvně je třeba přeložit stránky projektu Common Voice do daného jazyka, aby byla práce se stránkou umožněna mluvčím daného jazyka bez znalosti jakéhokoliv jiného jazyka. Dále potřebujeme sesbírat značnou databázi veřejně dostupných vět, které poté mohou mluvčí číst. Jakmile jsou oba tyto požadavky splněny, jazyk je na stránce projektu Common Voice spuštěn a mluvčí mohou začít nahrávat svůj hlas a ověřovat nahrávky ostatních. Chcete-li pomoci spustit nový jazyk, zamiřte na stránky našeho <sentenceCollectorLink>nástroje pro sběr vět</sentenceCollectorLink>.
 faq-what-quality-q = Jaká kvalita nahrávek je potřebná pro jejich zařazení databáze?
 faq-what-quality-a = Chceme, aby databáze projektu Common Voice odrážela kvalitu nahrávek, s kterými se poté budoucí systémy rozpoznání hlasu mohou setkat v běžném provozu, takže se snažíme o co největší spektrum rozdílných kvalit. Systémy rozpoznávání hlasu si tedy budou moci snadněji poradit s různými běžnými situacemi, od rozhovorů na pozadí po zvuky projíždějících aut. Je-li tedy vaše nahrávka slyšitelná, měla by pro naši databázi vyhovovat.
 faq-why-10k-hours-q = Proč je cílem pro pořizování nahrávek zrovna 10 000 ověřených hodin pro daný jazyk?
@@ -463,15 +461,10 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Proč Common Voice?
-about-subtitle = Projekt Common Voice je součástí iniciativy Mozilly, která pomáhá strojům učit se, jak mluví skuteční lidé. Kromě datasetu Common Voice vytváříme také systém rozpoznávání hlasu s otevřeným zdrojovým kódem zvaný Deep Speech.
-about-header-description =
-    Oba tyto projekty jsou součástí našich snah o překlenutí propasti digitální komunikace. Technologie rozpoznávání hlasu vnášejí lidskost do našich zařízení, ale aby je mohli vývojáři vytvářet, potřebují enormní množství hlasových dat. Tato data jsou ale v současné době zpravidla drahá a proprietární.
-    Naším cílem je tato data zdarma a veřejně zpřístupnit a zajistit, aby reprezentovala i jedinečnosti skutečných lidí. Spolu zvládneme technologie rozpoznání hlasu vylepšit pro všechny.
-about-header-description-2 =
-    Tento projekt je součástí našich snah o překlenutí propasti digitální komunikace. Technologie rozpoznávání hlasu vnášejí lidskost do našich zařízení, ale aby je mohli vývojáři vytvářet, potřebují enormní množství hlasových dat. Tato data jsou ale v současné době zpravidla drahá a proprietární.
-    Naším cílem je tato data zdarma a veřejně zpřístupnit a zajistit, aby reprezentovala i jedinečnosti skutečných lidí. Spolu zvládneme technologie rozpoznání hlasu vylepšit pro všechny.
-how-does-it-work-title = Jak to funguje?
 how-does-it-work-text = Sbíráme otevřenou databázi hlasových záznamů. Darujte svůj hlas, ověřte přesnost hlasových záznamů ostatních a pomozte nám tuto databázi dále vylepšovat.
+
+## How does it work section
+
 about-speak = Čtení
 about-speak-text = Přispěvatelé pořizují nahrávky čtením z databáze vět.
 about-listen-queue = Fronta nahrávek
@@ -488,12 +481,6 @@ about-dataset-new = Databáze Common Voice
 about-dataset-new-text = Databáze Common Voice obsahuje stovky tisíc nahrávek pomáhajících vývojářům vytvářet systémy rozpoznávání hlasu.
 about-clip-graveyard = Hřbitov nahrávek
 about-clip-graveyard-text = Hřbitov nahrávek obsahuje všechny nahrávky, které se nedostaly do hlavní databáze Common Voice. Stejně jako hlavní databáze je i hřbitov k dispozici ke stažení.
-about-partners = Partneři
-about-become-a-partner = Staňte se partnerem
-about-partnership =
-    Projekt Common Voice je založený práci dobrovolníků a je závislý na naší komunitě partnerů a přispěvatelů, aby z něj učinili tu největší otevřenou databázi hlasových nahrávek, co kdy byla.
-    
-    Rádi bychom poděkovali následujícím lidem a organizacím za jejich pomoc:
 about-get-involved = Zapojte se
 about-get-involved-text-2 =
     Chcete pomoci projekt Common Voice dále zlepšovat?
@@ -504,12 +491,34 @@ about-nav-why-common-voice = Proč?
 about-nav-how-it-works = Jak?
 about-nav-partners = Partneři
 about-nav-get-involved = Zapojte se
-mycroft-title = Mycroft Ai
-mycroft-subtitle = Umělá inteligence
-mycroft-description =
-    Mycroft je celosvětově první otevřený hlasový asistent.
-    Mycroft funguje všude - na stolním počítači, v automobilu, nebo i z Raspberry Pi.
-mycroft-secondary-description = Jedná se o software s otevřeným zdrojovým kódem, který lze volně remixovat, rozšiřovat a vylepšovat. Mycroft lze použít v čemkoli od vědeckého projektu po podnikovou softwarovou aplikaci.
+
+## Community Playbook Content
+## What is a language
+
+
+## How do I add a language
+
+
+## How does localization work
+
+
+## How to add sentences
+
+
+## How to record quality
+
+
+## How to grow language
+
+
+## How to validate
+
+
+## How to access dataset
+
+
+## How are decisions made
+
 
 ## Glossary
 
@@ -652,6 +661,9 @@ request-language-success-content = Velmi brzy vám dáme vědět, jak můžete p
 select-language = Vyberte jazyk...
 other-language = Ostatní jazyky
 
+## Request Language Pages
+
+
 ## Languages Overview
 
 language-section-in-progress = Spouští se
@@ -667,7 +679,6 @@ language-search-input =
 language-speakers = Mluvčí
 localized = Přeloženo
 sentences = Věty
-total-hours = Ověřené hodiny
 
 ## Contribution
 
@@ -734,6 +745,9 @@ target-segment-generic-card = Přispíváte do cílového segmentu
 target-segment-first-banner = Pomozte dosáhnout prvního cílového segmentu Common Voice v jazyce { $locale }
 target-segment-add-voice = Přidejte svůj hlas
 target-segment-learn-more = Zjistit více
+
+## Contribution Nav Items
+
 
 ## Reporting
 
@@ -1020,8 +1034,12 @@ see-less = <chevron></chevron> Zobrazit méně
 
 ## HEADER/FOOTER
 
+sc-footer-cookies = Cookies
 
 ## HOME
+
+
+## GENERAL
 
 
 ## HOW-TO
@@ -1065,3 +1083,4 @@ see-less = <chevron></chevron> Zobrazit méně
 
 # [/SentenceCollector]
 
+sentence-collection = Sbírka vět
