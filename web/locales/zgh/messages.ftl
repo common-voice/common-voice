@@ -1195,6 +1195,7 @@ sc-submit-guidelines = ⵎⴽ ⵜⵓⴼⵉⴷ, ⵛⴰⴱⴱⴰ <howToLink>ⵜⴰ
 sc-add-lang-could-not-add = ⵓⵔ ⵏⵣⵎⵉⵔ ⴰⴷ ⵏⵔⵏⵓ ⵜⵓⵜⵍⴰⵢⵜ
 sc-add-lang-sec-label = ⵔⵏⵓ ⵜⵓⵜⵍⴰⵢⵜ ⵏⵏⴰ ⵙ ⵜⵅⵙⴷ ⴰⴷ ⵜⴰⵔⴳⴷ
 sc-add-lang-sec-button = ⵔⵏⵓ ⵜⵓⵜⵍⴰⵢⵜ
+sc-add-err-submission = ⵜⴰⵣⴳⵍⵜ ⵏ ⵡⴰⵣⴰⵏ
 
 ## ADD SENTENCES CONFIRMATION
 
@@ -1219,10 +1220,12 @@ sc-confirm-ready =
        *[other] { $readyCount } ⵜⵡⵉⵏⴰⵙ ⵎⵎⵓⵜⵜⴳⵏⵉⵏ ⵉ ⵡⴰⵣⴰⵏ!
     }
 sc-confirm-button-text = ⵙⵙⴷⴻⴷ
+sc-confirm-uploading = ⵍⴰ ⵜⵜⵓⵙⴽⵜⵔⵏⵜ ⵜⵡⵉⵏⴰⵙ. ⴰⵢⴰ ⵔⴰⴷ ⵢⴰⵡⵢ ⵎⵏⵏⴰⵡⵜ ⵜⵓⵙⴷⵉⴷⵉⵏ ⵙ ⵓⵙⵉⴹⵏ ⵏ ⵡⵓⵟⵟⵓⵏ ⵏ ⵜⵡⵉⵏⴰⵙ ⵜⵜⵓⵔⵏⴰⵏⵉⵏ. ⵎⴽ ⵜⵓⴼⴰⵎ, ⴰⴷ ⵓⵔ ⵜⵔⴳⵍⵎ ⴰⵙⵉⵜⵡⵉⴱ ⴰ.
 
 ## LANGUAGE INFO
 
 sc-lang-info-title-total = ⵜⴰⵎⵓⵜⵜⵔⵜ
+sc-lang-info-title-personal = ⴰⵏⵉⵎⴰⵏ
 # Variables:
 #   $totalSentences (Number) - Number of sentences uploaded in total for this language
 sc-lang-info-total =
@@ -1274,14 +1277,22 @@ sc-personal-remove-button = ⵙⵉⵜⵜⵢ
 # Variables:
 #   $sentences (Number) - Number of sentences that were added by the currently logged in user for this language
 sc-personal-added-by-you = { $sentences } ⵜⵜⵓⵔⵏⴰⵏⵜ ⵙⴳ ⵖⵓⵔⵓⵏ
+sc-personal-not-added = ⵓⵔ ⵜⴰ ⵜⵔⵏⵉⴷ ⴽⵔⴰ ⵏ ⵜⵓⵜⵍⴰⵢⵜ.
 
 ## REVIEW CRITERIA
 
 sc-criteria-modal = ⓘ ⵉⵙⴱⴷⴰⴷⵏ ⵏ ⵓⵙⵙⵉⵔⵎ
+sc-criteria-title = ⵉⵙⴱⴷⴰⴷⵏ ⵏ ⵓⵙⵙⵉⵔⵎ
+sc-criteria-make-sure = ⵃⵇⵇⴰ ⵎⴰⵙ ⴷ ⵜⵎⵙⴰⵙⴰ ⵜⵡⵉⵏⵙⵜ ⴷ ⵉⵙⴱⴷⴰⴷⵏ ⵓⴹⴼⵉⵕⵏ:
+sc-criteria-item-1 = ⵉⵇⵇⴰⵏ ⴷ ⴰⴷ ⵢⴰⵖⴷ ⵓⵙⵏⵎⴰⵔⵔⴰ ⵏ ⵜⵡⵉⵏⵙⵜ.
+sc-criteria-item-2 = ⵉⵇⵇⴰⵏ ⴷ ⴰⴷ ⵜⴰⵖⴷ ⵜⵊⵕⵕⵓⵎⵜ ⵏ ⵜⵡⵉⵏⵙⵜ.
+sc-criteria-item-4 = ⵎⴽ ⴷ ⵜⵎⵙⴰⵙⴰ ⵜⵡⵉⵏⵙⵜ ⴷ ⵉⵙⴱⴷⴰⴷⵏ, ⴽⵍⵉⴽⵉ ⵅⴼ ⵓⴱⵔⴰ &quot;ⵙⵙⴳⵍⵢ&quot; ⴳ ⵓⴼⴰⵙⵉ.
 sc-criteria-item-5-2 = ⵎⴽ ⴷ ⵓⵔ ⵜⵎⵙⴰⵙⴰ ⵜⵡⵉⵏⵙⵜ ⴷ ⵉⵙⴱⴷⴰⴷⵏ ⵏⵏⵉⴳ ⴷⴰ, ⴽⵍⵉⴽⵉ ⵅⴼ ⵓⴱⵔⴰ &quot;ⴰⴳⵢ&quot; ⴳ ⵓⵥⵍⵎⴰⴹ. ⵎⴽ ⵓⵔ ⵜⵃⵇⵇⴰⴷ ⴳ ⵜⵡⵉⵏⵙⵜ, ⵜⵖⵉⵢⴷ ⴰⵡⴷ ⴰⴷ ⵜⵜ ⵜⵙⵙⵉⵏⴼⴷ, ⵜⵎⵎⵓⵜⵜⵉⴷ ⵖⵔ ⵜⵓⴹⴼⵉⵕⵜ.
+sc-criteria-item-6 = ⵎⴽ ⴰⵡⵏ ⵙⵎⴰⵔⵏⵜ ⵜⵡⵉⵏⴰⵙ ⵎ'ⴰⴷ ⵜⵙⵙⵉⵔⵉⵎⵎ, ⵎⴽ ⵜⵓⴼⴰⵎ, ⴰⵡⵙⴰⵜ ⴰⵏⵖ ⴰⴷ ⵏⴳⵔⵓ ⵓⴳⴳⴰⵔ ⵏ ⵜⵡⵉⵏⴰⵙ!
 
 ## REVIEW
 
+sc-review-lang-not-selected = ⵓⵔ ⵜⵙⵜⵉⵢⵎ ⴽⵔⴰ ⵏ ⵜⵓⵜⵍⴰⵢⵜ. ⵎⴽ ⵜⵓⴼⴰⵎ, ⴷⴷⵡⴰⵜ ⵖⵔ <profileLink>ⵉⴼⵔⵙ</profileLink> ⵏⵏⵓⵏ ⵃⵎⴰ ⴰⴷ ⵜⵙⵜⵢⵎ ⵜⵓⵜⵍⴰⵢⵉⵏ.
 sc-review-title = ⵙⵙⵉⵔⵎ ⵜⵉⵡⵉⵏⴰⵙ
 sc-review-loading = ⴰⵣⴷⴰⵎ ⵏ ⵜⵡⵉⵏⴰⵙ…
 sc-review-no-sentences = ⵡⴰⵍⵓ ⵜⵉⵡⵉⵏⴰⵙ ⵉ ⵓⵙⵙⵉⵔⵎ. <addLink>ⵔⵏⵓ ⵓⴳⴳⴰⵔ ⵏ ⵜⵡⵉⵏⴰⵙ ⴷⵖⵉ!</addLink>
