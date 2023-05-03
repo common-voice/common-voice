@@ -449,6 +449,7 @@ demo-get-started = ܬܝܡܘܢ ܫܪܚ
 
 ## HOME
 
+sc-home-collect-text = ܥܕܪ ܩܬܢ ܒܟܬܒܬܐ ܐܘ ܓܒܝܬܐ ܡܐܡܪ̈ܐ ܝܪܬܘܬܐ ܓܠܝܐ.
 
 ## GENERAL
 
