@@ -36,6 +36,7 @@ export default Object.freeze({
   CRITERIA: '/criteria',
   PARTNER: '/partner',
   GUIDELINES: '/guidelines',
+  SENTENCE_COLLECTOR_REDIRECT: '/sentence-collector-redirect',
 
   LANGUAGES: '/languages',
   LANGUAGE_REQUEST: '/language/request',
@@ -59,4 +60,4 @@ export default Object.freeze({
   S3_BUCKET:
     'https://voice-prod-bundler-ee1969a6ce8178826482b88e843c335139bd3fb4.s3.amazonaws.com',
   S3_CDN: 'https://cdn.commonvoice.mozilla.org',
-});
+})

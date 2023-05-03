@@ -1,25 +1,25 @@
 ## General
 
-yes-receive-emails = Jā, sūtiet man epastus. Es vēlos būt informēts par Common Voice projektu.
-stayintouch = Mēs Mozilla veidojam kopienu ap balss tehnoloģiju. Mēs vēlētos ar jums saglabāt kontaktus, lai informētu jūs par jaunumiem un iegūtu informāciju kā jūs lietojat šeit pieejamās datu kopas.
+yes-receive-emails = Jā, sūtiet man e-pastus. Es vēlos saņemt informāciju par Common Voice projektu.
+stayintouch = Mēs Mozilla veidojam kopienu balss tehnoloģiju jomā. Mēs vēlētos uzturēt kontaktus ar jums, lai informētu jūs par jaunumiem un iegūtu informāciju, kā jūs lietojat šeit pieejamās datu kopas.
 privacy-info = Mēs apsolām rīkoties ar jūsu informāciju uzmanīgi. Lasiet vairāk mūsu <privacyLink>privātuma paziņojumā</privacyLink>.
 return-to-cv = Atgriezties pie Common Voice
 email-input =
-    .label = Epasts
+    .label = E-pasts
 submit-form-action = Nosūtīt
 loading = Ielāde...
 email-opt-in-info = Es vēlos saņemt e-pasta ziņojumus, piemēram, mērķa atgādinājumus, progresa atjauninājumus un informatīvos biļetenus par šo projektu.
 email-opt-in-info-title = Pievienoties Common Voice ziņojumiem e-pastā
-email-opt-in-info-sub-with-challenge = Saņemiet epastus par sacensībām vai pasākumiem, atgādinājumus par mērķiem, jaunumus un ziņas no Commaon Voice
-email-opt-in-privacy-v2 = Izvēloties saņemt epasta ziņojumus, jūs piekrītat, ka Mozilla apstrādās tos tā kā tas ir norādīts Mozilla <privacyLink>privātuma politikā<privacyLink>.
+email-opt-in-info-sub-with-challenge = Saņemiet e-pastus par sacensībām vai pasākumiem, atgādinājumus par mērķiem, jaunumus un ziņas no Common Voice
+email-opt-in-privacy-v2 = Izvēloties saņemt e-pasta ziņojumus, jūs piekrītat, ka Mozilla apstrādās tos tā, kā tas ir norādīts Mozilla <privacyLink>privātuma politikā<privacyLink>.
 indicates-required = * Obligātie lauki
 not-available-abbreviation = N/A
 banner-error-slow-1 = Atvainojiet, Common Voice darbojas lēni. Paldies par interesi.
-banner-error-slow-2 = Mēs saņemam daudzus apmeklētājus un pašlaik izmeklējam problēmas.
+banner-error-slow-2 = Mēs saņemam daudz pieprasījumu un pašlaik risinām problēmas.
 banner-error-slow-link = Statusa lapa
 error-something-went-wrong = Piedodiet, kaut kas nogāja greizi
-error-clip-upload = Šī ieraksts augšupielāde joprojām neizdodas. Vai turpināt mēģināt vēlreiz?
-error-clip-upload-server = Šī ieraksts augšupielāde serverī joprojām neizdodas. Pārlādējiet lapu vai vēlāk mēģiniet vēlreiz.
+error-clip-upload = Šī ieraksts augšupielāde joprojām neizdodas. Vai mēģināt vēlreiz?
+error-clip-upload-server = Šī ieraksta augšupielāde serverī joprojām neizdodas. Pārlādējiet lapu vai vēlāk mēģiniet vēlreiz.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -246,35 +246,35 @@ logout = Beigt darbu
 
 ## Home Page
 
-home-title = Common Voice ir Mozilla iniciatīva, lai palīdzētu mācīt mašīnas, kā reāli cilvēki runā.
-default-tagline = Common Voice ir Mozilla iniciatīva, lai palīdzētu mācīt mašīnas, kā reāli cilvēki runā.
+home-title = Common Voice ir Mozilla iniciatīva, lai mācītu datoriem saprast cilvēku valodu.
+default-tagline = Common Voice ir Mozilla iniciatīva, lai mācītu datoriem saprast cilvēku valodu.
 home-cta = Runā skaļi, veic ieguldījumu šeit!
-wall-of-text-start = Balss ir dabiska, balss ir cilvēciska. Tieši tāpēc mēs vēlamies izveidot balss atpazīšanas tehnoloģiju, kuru varētu lietot dažādās ierīcēs. Bet, lai radītu šādu balss tehnoloģiju ir nepieciešams liels balss ierakstu skaits.
-wall-of-text-more-mobile = Lielākā daļa datu, ko izmanto lielie uzņēmumi, nav pieejami visiem cilvēkiem. Mēs domājam, ka tas kavē inovāciju. Tāpēc mēs esam uzsākuši projektu Common Voice, projektu, kas padarīs balss atpazīšanu pieejamu ikvienam.
+wall-of-text-start = Balss ir dabiska, balss ir cilvēciska. Tieši tāpēc mēs vēlamies izveidot balss atpazīšanas tehnoloģiju, kuru varētu lietot dažādās ierīcēs. Bet, lai radītu šādu balss tehnoloģiju, ir nepieciešams daudz balss ierakstu.
+wall-of-text-more-mobile = Lielākā daļa datu, ko izmanto lielie uzņēmumi, nav pieejami visiem cilvēkiem. Tas kavē inovāciju. Tāpēc esam uzsākuši Common Voice - projektu, kas padarīs balss atpazīšanu pieejamu ikvienam.
 wall-of-text-more-desktop =
-    Tagad jūs varat ziedot savu balsi, lai palīdzētu mums izveidot atvērtā pirmkoda balss datubāzi, ko var izmantot ikviens
-    veidojot inovatīvas lietotnes ierīcēm un tīmeklim. Lasiet teikumu, lai palīdzētu mašīnām iemācīt, kā runā cilvēki . Pārbaudiet citu cilvēku ierakstus, lai uzlabotu to kvalitāti. Tas ir tik vienkārši!
-wall-of-text-first = Balss ir dabiska, balss ir cilvēciska. Tieši tāpēc mēs vēlamies izveidot balss atpazīšanas tehnoloģiju, kuru varētu lietot dažādās ierīcēs. Bet, lai radītu šādu balss tehnoloģiju ir nepieciešams liels balss ierakstu skaits.
-wall-of-text-second = Lielākā daļa datu, ko izmanto lielie uzņēmumi, nav pieejami visiem cilvēkiem. Mēs domājam, ka tas kavē inovāciju. Tāpēc mēs esam uzsākuši projektu Common Voice, projektu, kas padarīs balss atpazīšanu pieejamu ikvienam.
+    Tagad jūs varat ziedot savu balsi, lai palīdzētu mums izveidot atvērtā pirmkoda balss datubāzi, ko var izmantot ikviens,
+    veidojot inovatīvas lietotnes ierīcēm un tīmeklim. Lasiet teikumu, lai palīdzētu mašīnām iemācīt, kā runā cilvēki. Pārbaudiet citu cilvēku ierakstus, lai uzlabotu datu kvalitāti. Tas ir tik vienkārši!
+wall-of-text-first = Balss ir dabiska, balss ir cilvēciska. Tieši tāpēc mēs vēlamies izveidot balss atpazīšanas tehnoloģiju, kuru varētu lietot dažādās ierīcēs. Bet, lai radītu šādu balss tehnoloģiju, ir nepieciešams daudz balss ierakstu.
+wall-of-text-second = Lielākā daļa datu, ko izmanto lielie uzņēmumi, nav pieejami visiem cilvēkiem. Tas kavē inovāciju. Tāpēc mēs esam uzsākuši Common Voice - projektu, kas padarīs balss atpazīšanu pieejamu ikvienam.
 show-wall-of-text = Lasīt vairāk
-help-us-title = Palīdziet mums pārbaudīt teikumus!
-help-us-explain = Nospiediet atskaņošanas pogu, klausieties un pārbaudiet vai viņi precīzi izrunāja zemāk norādīto teikumu?
+help-us-title = Palīdziet pārbaudīt teikumus!
+help-us-explain = Nospiediet atskaņošanas pogu, klausieties un pārbaudiet, vai zemāk norādītais teikums ir izrunāts precīzi.
 no-clips-to-validate = Izskatās, ka šajā valodā nav audio failu. Palīdziet mums, ierakstot dažus tagad.
 vote-yes = Jā
 vote-no = Nē
 toggle-play-tooltip = Nospiediet { shortcut-play-toggle }, lai pārslēgtu atskaņošanas režīmu
 speak-subtitle = Ziedot savu balsi
-speak-paragraph = Lai mūsu valoda neizzustu iekārtu laikmetā, mums jāieraksta savas balsis; daži varētu teikt, ka tas ir arī jautri.
+speak-paragraph = Lai mūsu valoda iekārtu laikmetā neizzustu, mums jāieraksta savas balsis; daži teiktu, ka tas ir arī jautri.
 speak-goal-text = Ieraksti ierakstīti
-listen-subtitle = Palīdziet mums pārbaudīt balsis
+listen-subtitle = Palīdziet pārbaudīt balsis
 listen-paragraph = Ierakstīto ierakstu pārbaudīšana ir ļoti svarīga. Klausieties ierakstus un palīdziet iemācīt iekārtām saprast mūsu valodu.
 listen-goal-text = Apstiprinātie ieraksti
 hours-recorded = Ierakstītās stundas
-hours-validated = Stundas pārbaudītas
+hours-validated = Pārbaudītās stundas
 voices-online = Dalībnieki tiešsaistē
 todays-progress = Šodienas progress
-help-reach-goal = Palīdziet mums nokļūt līdz { $goal }
-read-terms-q = Vai esat izlasījis mūsu noteikumus?
+help-reach-goal = Palīdziet sasniegt { $goal }
+read-terms-q = Vai esat izlasījis noteikumus?
 ready-to-record = Vai esat gatavs ziedot savu balsi?
 all-locales = Visas
 today = Šodien
@@ -296,9 +296,9 @@ x-years-short =
         [one] { $count }g
        *[other] { $count }g
     }
-help-make-dataset = Palīdziet mums izveidot augstas kvalitātes publiski atvērtu datu kopu
+help-make-dataset = Palīdziet izveidot kvalitatīvu, publiski atvērtu datu kopu
 sign-up-account = Reģistrē savu kontu
-email-subscription-title = Piesakieties jaunumiem epastā
+email-subscription-title = Piesakieties jaunumiem e-pastā
 email-subscription-title-new = Reģistrējieties Common Voice ziņām, atgādinājumiem par mērķiem un progresa atjauninājumiem
 
 ## Account Benefits
@@ -309,16 +309,16 @@ improve-audio = Profila informācija uzlabo audio ierakstu datus, ko izmanto run
 keep-track = Sekojiet līdzi savam progresam un datiem vairākās valodās.
 compare-progress = Skatiet, kā jūsu progress ir salīdzināms ar citiem ieguldītājiem visā pasaulē.
 view-goals = Skatiet savu progresu pret personiskajiem un projekta mērķiem.
-join-newsletter = Ja vēlaties pievienojieties mūsu epasta sarakstam projekta jaunumu un informācijas saņemšanai.
+join-newsletter = Ja vēlaties, pievienojieties mūsu e-pasta adresātu sarakstam, lai saņemtu projekta jaunumus un informāciju par projektu.
 
 ## What's public
 
-whats-public = Kas ir publiski pieejms?
-email-not-public = Mēs nepublicēsim jūsu epastu publiski.
-recordings-and-locale-public = Ieguldīto Ierakstu skaits un valodas, būs pieejmas publiski.
+whats-public = Kas ir publiski pieejams?
+email-not-public = Mēs nepubliskosim jūsu epastu.
+recordings-and-locale-public = Ieguldīto ierakstu skaits un valodas būs publiski pieejamas.
 username-optin-public = Jūs varat izvēlēties, vai lietotājvārds ir publisks vai anonīms.
-demographic-deidentified-clarity-2 = Pēc izvēles iesniegtie demogrāfiskie dati (piemēram, vecums, dzimums, valoda un akcents) nekad netiks publiskoti jūsu profilā un netiks saistīti ar jūsu kontu datu kopā. Atsevišķi audio klipi tiks saistīti ar demogrāfiskajiem datiem, lai veiktu precīzāku analīzi, piemēram, pētnieks var vēlēties mērķēt apmācību modeli uz noteiktu demogrāfisko segmentu.
-username-email-not-demographic = Jūsu lietotājvārds un epasts netiks piesaistīti publicētajiem datiem.
+demographic-deidentified-clarity-2 = Pēc izvēles iesniegtie demogrāfiskie dati (piemēram, vecums, dzimums, valoda un akcents) nekad netiks publiskoti jūsu profilā un netiks saistīti ar jūsu kontu datu kopā. Atsevišķi audio ieraksti tiks saistīti ar demogrāfiskajiem datiem, lai veiktu precīzāku analīzi, piemēram, pētnieks var vēlēties apmācību modeli atlasīt noteiktam demogrāfiskajam segmentam.
+username-email-not-demographic = Jūsu lietotājvārds un e-pasts netiks piesaistīti publicētajiem datiem.
 
 ## Speak & Listen Shortcuts
 
@@ -375,7 +375,7 @@ profile-form-username =
 profile-form-native-language =
     .label = Dzimtā valoda
 profile-form-additional-language =
-    .label = Papildus valoda
+    .label = Papildu valoda
 profile-form-language =
     .label = Valoda
 profile-form-variant =
@@ -416,19 +416,19 @@ profile-close = Aizvērt
 profile-explanation = Sekojiet savam progresam ar savu profilu un palīdziet mūsu balss datiem būt precīzākiem.
 thanks-for-account = Paldies, ka apstiprinājāt savu kontu, tagad izveidosim jūsu profilu.
 why-demographic = Kāpēc tas ir svarīgi?
-why-demographic-explanation-2 = Anonimizēti lietotāja dati, piemēram, vecums, dzimums un akcents, palīdz uzlabot ierakstus, ko izmanto, lai trenētu runas atpazīšanas algoritmu precizitāti. Jūsu lietotājvārds un epasts nekad netiks piesaistīti jūsu iesniegtajiem datiem, un jūs varat izvēlēties, vai padarīt savu lietotājvārdu publisku vai anonīmu.
-accept-privacy = Es piekrītu, ka Mozilla apstrādā manu informāciju tā kā tas ir norādīts Mozillas <privacyLink>privātuma politikā</privacyLink>
+why-demographic-explanation-2 = Anonimizēti lietotāja dati, piemēram, vecums, dzimums un akcents, palīdz uzlabot ierakstus, ko izmanto, lai trenētu runas atpazīšanas algoritmu precizitāti. Jūsu lietotājvārds un e-pasts nekad netiks piesaistīti jūsu iesniegtajiem datiem, un jūs varat izvēlēties, vai padarīt savu lietotājvārdu publisku vai anonīmu.
+accept-privacy = Es piekrītu, ka Mozilla apstrādā manu informāciju tā, kā tas ir norādīts Mozillas <privacyLink>privātuma politikā</privacyLink>
 accept-privacy-title = Privātuma politika
 accept-privacy-and-terms = Es piekrītu Common Voice <termsLink>noteikumiem</termsLink> un <privacyLink>konfidencialitātes paziņojumam</privacyLink>
 login-identity = Pieteikšanās identitāte
 login = Pieslēgties
 login-signup = Ielogoties / Reģistrēties
 edit = Rediģēt
-email-subscriptions = Jaunumu abonēšana epastā
+email-subscriptions = Jaunumu abonēšana e-pastā
 download-profile = Lejupielādēt manus datus
 contribution-experience = Piedalīšanās pieredze
 skip-submission-feedback = Izlaist atsauksmes
-skip-submission-description = Iesnieguma iesniegšanas laikā atgriezeniskā saite tiks izlaista pēc noklikšķināšanas uz 'Iesniegt'. Ieguldījums tiks turpināts tieši ar nākamo 5 ierakstiem vai apstiprinājumiem.
+skip-submission-description = Iesnieguma iesniegšanas laikā atgriezeniskā saite tiks izlaista pēc noklikšķināšanas uz 'Iesniegt'. Ieguldījums tiks turpināts tieši ar nākamajiem 5 ierakstiem vai apstiprinājumiem.
 skip-submission-note = Piezīme: mainot ieguldījuma veidu, jums būs jāizvēlas ierakstīt vai klausīties.
 off = Izslēgts
 on = Ieslēgts
@@ -442,7 +442,7 @@ help-variants-explanation = Varianti ir noteikta valodas forma, piemēram, tie, 
 browse-file-title = Augšupielādējiet attēlu
 browse-file = Velciet un nometiet vai <browseWrap> Pārlūkojiet </browseWrap>
 connect-gravatar = Savienoties ar Gravatar
-gravatar_not_found = Jūsu epastam nav atrasts gravatārs
+gravatar_not_found = Jūsu e-pastam nav atrasts gravatārs
 file_too_large = Atlasītais fails ir pārāk liels
 avatar-uploaded = Bilde ielādēta
 max-file-size = maksimums { $kb }kb
@@ -452,16 +452,16 @@ remove-avatar = Noņemt bildi
 
 manage-subscriptions = Pārvaldīt abonementus
 manage-email-subscriptions = Pārvaldiet e-pasta abonementus
-email-already-used = Epasts jau tiek izmantots citam kontam
+email-already-used = E-pasts jau tiek izmantots citam kontam
 add-language = Pievienot valodu
-change-email-setings = Mainiet savu epastu, iestatījumus sadaļā "Pieteikšanās identitāte"
+change-email-setings = Mainiet savu e-pastu, izmantojot iestatījumus sadaļā "Pieteikšanās identitāte"
 
 ## FAQ
 
 faq-title = Biežāk uzdotie jautājumi
 faq-what-cv-q = Kas ir Common Voice?
 faq-what-cv-a =
-    Balss atpazīšanas tehnoloģija revolucionizē veidu, kā mēs sadarbojamies ar mašīnām, bet pašlaik pieejamās sistēmas ir dārgas un patentētas. Kopējā balss ir daļa no Mozilla iniciatīvas, lai uzlabotu balss atpazīšanas tehnoloģijas ikvienam. Kopējā balss ir milzīga globāla ziedoto balsu datu bāze, kas ļauj ikvienam ātri un viegli apmācīt balss iespējotas lietojumprogrammas potenciāli visās valodās.
+    Balss atpazīšanas tehnoloģija revolucionizē veidu, kā mēs sadarbojamies ar mašīnām, bet pašlaik pieejamās sistēmas ir dārgas un patentētas. Common Voice ir daļa no Mozilla iniciatīvas, lai uzlabotu balss atpazīšanas tehnoloģijas ikvienam. Common Voice ir milzīga globāla ziedoto balsu datu bāze, kas ļauj ikvienam ātri un viegli apmācīt balss iespējotas lietojumprogrammas potenciāli visās valodās.
     
     Mēs ne tikai vācam balss paraugus plaši runātās valodās, bet arī tajās, kurās ir mazāk runātāju. Daudzveidīgu balsu datu kopu publicēšana ļaus izstrādātājiem, uzņēmējiem un kopienām risināt šo trūkumu. Papildus kopīgajai balss datu kopai mēs veidojam arī atvērtā pirmkoda runas atpazīšanas dzinēju, ko sauc par Deep Speech.
 faq-what-cv-a-2 =
@@ -478,7 +478,7 @@ faq-how-get-a = Common Voice datu kopa ir pieejama lejupielādei, izmantojot <li
 faq-when-release2-q = Kad jūs publiskosit kopējās balss datus citās valodās?
 faq-when-release2-a = Kopējās balss datu kopas daudzvalodu versijā pašlaik notiek kopienas atbalstīta komplektēšana un tīrīšana. Ja vēlaties palīdzēt mums kopīgo balsi piesaistīt jaunām valodām, dodieties uz <sentenceCollectorLink> teikumu savākšanas rīku </sentenceCollectorLink>, lai datu kopai pievienotu jaunus teikumus, un Mozilla <pontoonLink> pontons </pontoonLink> vietnes tulkošanai. pati. Kad ir savākti 5000 apstiprināti teikumi, kopējai balss skaņai tiek pievienotas jaunas valodas.
 faq-why-mission-q = Kādēļ Common Voice ir daļa no Mozilla misijas?
-faq-why-mission-a = Mozilla fokusējas uz tīmekļa atvēršanau un pieejamību ikvienam. Lai to izdarītu, mums ir jāsniedz tīmekļa veidotājiem tādi projekti kā Kopīgā balss. Tā kā balss tehnoloģijas izplatās ārpus nišas programmām, mēs uzskatām, ka tām ir jākalpo visiem lietotājiem vienādi. Tas nozīmē ieguldīt vairākās valodās un pielāgot dažādus akcentus un demogrāfijas, veidojot un testējot balss tehnoloģijas. Kopējā balss ir publisks resurss, kas pieejams visiem, un Mozilla komandas un izstrādātāji visā pasaulē jau to izmanto mūsu pašu projektos.
+faq-why-mission-a = Mozilla fokusējas uz to, lai tīmeklis būtu atvērts un pieejams ikvienam. Lai to izdarītu, mums ir jāsniedz tīmekļa veidotājiem vairāk iespēju, radot tādus projektus kā Common Voice. Tā kā balss tehnoloģijas izplatās ārpus nišas programmām, mēs uzskatām, ka tām ir jākalpo visiem lietotājiem vienādi. Tas nozīmē ieguldīt vairākās valodās un pielāgot dažādus akcentus un demogrāfiskos datus, veidojot un testējot balss tehnoloģijas. Common Voice ir publisks resurss, kas pieejams visiem, un Mozilla komandas un izstrādātāji visā pasaulē jau to izmanto mūsu pašu projektos.
 faq-what-cv-and-deepspeech-q = Kāda atšķirība starp Common Voice un Deep Speech?
 faq-what-cv-and-deepspeech-a = Kopējā balss datu kopa papildina Mozilla atvērtā koda balss atpazīšanas dzinēju Deep Speech. Pirmā Deep Speech versija tika izlaista 2017. gada novembrī un turpina attīstīties kopš tā laika. Kopā ar kopējo balss datu kopu mēs uzskatām, ka atvērtā pirmkoda balss atpazīšanas tehnoloģijai jābūt pieejamai ikvienam. Mēs ceram, ka šīs tehnoloģijas ļaus izstrādātājiem izstrādāt inovatīvu produktu un pakalpojumu vilni.
 faq-is-goal-assistant-q = Vai Common Voice mērķis ir veidot balss asistentu?
@@ -494,8 +494,8 @@ faq-why-my-lang-a =
     Common Voice ir pūļa pakalpojumu platforma, un visas valodas pievieno brīvprātīgie.
     Mēs labprāt pievienotu jūsu valodu! <languageRequestLink>Jautājiet par valodas pievienošanu.</languageRequestLink>
 faq-what-quality-q = Kāda līmeņa audio kvalitāte ir nepieciešama, lai balss ierakstu varētu izmantot datu kopā?
-faq-what-quality-a = Mēs vēlamies, lai kopīgā balss datu kopa atspoguļotu skaņas kvalitāti, ko runātājs dzirdēs savvaļā, tāpēc mēs meklējam dažādību. Papildus daudzveidīgai runātāju kopai datu kopa ar atšķirīgu skaņas kvalitāti iemācīs runas-teksta dzinējam, rīkoties ar dažādām reālām situācijām, piemēram no fona ar automašīnu troksni. Kamēr jūsu balss klips ir saprotams, tas ir pietiekami labs datu kopai.
-faq-why-10k-hours-q = Kādēļ 10000 stundas ir mērķis ierakstu pārbaudē?
+faq-what-quality-a = Mēs vēlamies, lai Common Voice datos atspoguļotos tāda skaņas kvalitāte, ko runas-teksta programma uztvers dabiskā vidē, tāpēc ir nepieciešama dažādība. Atšķirīgā skaņas kvalitātē ierakstīti daudzveidīgu runātāju dati iemācīs runas-teksta programmai darboties dažādās reālās situācijās, piemēram, ar fona sarunām vai ar automašīnas troksni. Kamēr jūsu balss ieraksts ir saprotams, tas ir pietiekami labs datu kopai.
+faq-why-10k-hours-q = Kādēļ ierakstu pārbaudes mērķis ir 10000 stundu?
 faq-why-10k-hours-a = Tas ir aptuvenais stundu skaits, kas nepieciešams, lai kvalitatīvi apmācītu runas-teksta atpazīšanas sistēmu.
 faq-how-calc-hours-q = Kā Common Voice aprēķina stundas?
 faq-how-calc-hours-a = Mēs aprēķinām stundas, aprēķinot katra ieraksta vidējo garumu un tad reizinot šo skaitu ar kopējo ierakstu skaitu visās valodās.
@@ -523,7 +523,7 @@ faq-search-for-answers =
 
 ## ABOUT US
 
-about-title = Kāpēc ir kopīgā balss?
+about-title = Kāpēc ir Common Voice?
 about-header-description-v2 =
     <p>Common Voice ir publiski pieejama balss datu kopa, ko veido brīvprātīgo balsis visā pasaulē. Cilvēki, kuri vēlas veidot programmas, kas strādā ar balsi, var izmantot datu kopu, lai apmācītu runas atpazīšana modeļus.</p>
     <p>Šobrīd lielākā daļa balss datu kopu pieder atsevišķiem uzņēmumiem, kas kavē inovācijas. Valodas ar mazu runātāju skaitu pasaulē balss datu kopās ir nepietiekami pārstāvētas. Tas nozīmē, ka tehnoloģijas, kas darbojas ar balsi šajās valodās nedarbojas vai strādā slikti. Mēs vēlamies to mainīt, mobilizējot cilvēkus visā pasaulē, lai viņi dalītos ar savu balsi un pārbaudītu ierakstītos teikumus.</p>
@@ -567,12 +567,12 @@ about-clip-graveyard-text =
     Mēs vēlamies pateikties sekojošiem cilvēkiem un organizācijām par palīdzību projekta īstenošanā:
 about-get-involved = Iesaistieties
 about-get-involved-text-2 =
-    Vēlaties palīdzēt padarīt Common Voice vēl labāku better?
-    Lieliski! Sazinieties ar mums pa epastu vai <discourseLink>Discourse</discourseLink>
+    Vēlaties palīdzēt padarīt Common Voice vēl labāku?
+    Lieliski! Sazinieties ar mums pa e-pastu vai <discourseLink>Discourse</discourseLink>
     forumu, ziņojiet par submit problēmām <githubLink>GitHub</githubLink>, vai pievienojieties <matrixLink>Matrix</matrixLink> kopienas tērzētavai.
 about-stay-in-touch = Kā es varu sazināties?
 about-stay-in-touch-button = Pierakstīties
-about-stay-in-touch-text-1 = <emailFragment>Reģistrējieties</emailFragment> mūsu epasta jaunumime, lai uzzinātu, kā varat piedalīties kampaņās, pasākumos un Common Voice kopprojektēšanas aktivitātēs.
+about-stay-in-touch-text-1 = <emailFragment>Reģistrējieties</emailFragment> mūsu e-pasta jaunumiem, lai uzzinātu, kā varat piedalīties kampaņās, pasākumos un Common Voice kopprojektēšanas aktivitātēs.
 about-stay-in-touch-text-2 = Jūs varat satikt citus Mozilla valodu kopienās dalībniekus, pievienojoties <discourseLink>Discourse</discourseLink> aktuālām sarunām vai <matrixLink>Matrix</matrixLink>, lai saņemtu ātrus padomus.
 about-nav-why-common-voice = Kāpēc?
 about-nav-how-it-works = Kā?
@@ -732,7 +732,7 @@ review-delete-recordings = Dzēst manus ierakstus
 ## Datasets Page
 
 datasets-heading = Datu kopas
-datasets-headline = Mēs veidojam atvērtā pirmkoda, daudzvalodu datu kopu, kurā ikviens var izmantot, lai apmācītu runas iespējotas lietojumprogrammas.
+datasets-headline = Mēs veidojam atvērtā pirmkoda daudzvalodu datu kopu, ko ikviens var izmantot, lai apmācītu runas iespējotas lietojumprogrammas.
 datasets-positioning =
     Mēs uzskatām, ka lielas, publiski pieejamas balss datu kopas veicinās inovācijas un veselīgu komerciālu konkurenci mašīnmācībā balstītā runas tehnoloģijā.
     
@@ -751,8 +751,8 @@ cv-license = Licence
 audio-format = Audio formāts
 number-of-voices = Balsu skaits
 splits = Statisktika
-email-to-download = Ievadiet epastu, lai lejupielādētu
-why-email = <b>Kāpēc epasts?</b> Mums, iespējams, nākotnē būs jāsazinās ar jums par izmaiņām datu kopā, to darīsim ar epasta palīdzību.
+email-to-download = Ievadiet e-pastu, lai lejupielādētu
+why-email = <b>Kāpēc e-pasts?</b> Mums, iespējams, nākotnē būs jāsazinās ar jums par izmaiņām datu kopā, to darīsim ar e-pasta palīdzību.
 confirm-size = Jūs esat gatavs sākt lejupielādēt <b>{ $size }</b>
 size-gigabyte = GB
 size-megabyte = MB
@@ -770,7 +770,7 @@ want-dataset-update = Vēlaties zināt, kad mēs izlaižam jaunu kopējās balss
 subscribe = Pierakstīties
 get-started-speech = Darba sākšana ar runas atpazīšanu
 other-datasets = Citas balss datu kopas
-feedback-q = Vai jum ir atsauksmes?
+feedback-q = Vai jums ir atsauksmes?
 resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ ir <docsLink>atvērtā koda rīkkopa</docsLink> pētniekiem, kas izstrādā jaunākos sarunvalodas mākslīgā intelekta modeļus.
 resource-deepspeech-info = Common Voice datu kopa papildina Mozilla atvērtā koda balss atpazīšanas dzinēju Deep Speech, ko var izmantot, lai izveidotu runas atpazīšanas programmas. Izlasiet mūsu <githubLink>Github pārskatu</githubLink> vai pievienojieties <discourseLink>DeepSpeech Discourse</discourseLink>, lai uzzinātu, kā sākt darbu.
 resource-coqui-info = <coquiLink>Coqui</coquiLink> ir strādā atvērtās runas tehnoloģijas attīstībai. Viņu projekti ietver dziļā mācīšanās balstītus STT un TTS dzinējus.
@@ -799,7 +799,7 @@ clipboard-not-supported = Starpliktuve netiek atbalstīta
 download-title = Jūsu lejupielāde ir sākusies.
 download-helpus = Palīdziet mums veidot balss tehnoloģiju kopienu, sazināties ar e-pastu.
 download-form-email =
-    .label = Ievadi savu epastu
+    .label = Ievadi savu e-pastu
     .value = Paldies, mēs ar jums sazināsimies.
 download-back = Atgriezties pie Common Voice datu kopas
 download-no = Nē, paldies
@@ -836,7 +836,7 @@ request-language-explanation-2 =
     par jūsu interesi</strong>, lai viņi varētu sniegt jums
     papildu atbalstu vai informāciju, ja tāda būs nepieciešama.
 request-language-form-email =
-    .label = Tava epasta adrese
+    .label = Tava e-pasta adrese
 request-language-form-info =
     .label = Informācija par valodu
 request-language-form-info-explanation =
@@ -850,7 +850,7 @@ request-language-google-recaptcha-error = Ar reCAPTCHA radās problēma. Lūdzu 
 # Success page
 request-language-success-heading = Paldies! Jūs esat nosūtījis jaunas valodas pieprasījumu
 request-language-success-list-1 =
-    Drīzumā jums vajadzētu saņemt epastu ar skaidrojumu
+    Drīzumā jums vajadzētu saņemt e-pastu ar skaidrojumu
     par nākamajiem soļiem, lai jūsu valodu pievienotu Common Voice
 request-language-success-list-2 =
     Mūsu kopienas menedžeris sazināsies ar jums, lai piedāvātu
@@ -862,14 +862,14 @@ request-language-success-list-3 =
     un mēs jums palīdzēsim!
 request-language-error =
     Iespējams, mēs neesam saņēmuši šo pieprasījumu. Lūdzu, rakstiet mums tieši
-    uz epastu <emailLink>{ $email }</emailLink>, un mēs ar jums sazināsimies!
+    uz e-pastu <emailLink>{ $email }</emailLink>, un mēs ar jums sazināsimies!
 
 ## Languages Overview
 
 language-section-in-progress = Procesā
 language-section-in-progress-new-description = Šīs valodas pašlaik ir kopienas attīstībā. Progresa joslas norāda, cik lielā mērā katrai valodai ir veikta <localizationGlossaryLink>vietnes lokalizācija</localizationGlossaryLink> un <sentenceCollectionGlossaryLink>teikumu kolekcijas izveide</sentenceCollectionGlossaryLink>.
 language-section-launched = Uzsākts
-language-section-launched-description = Šīm palaistām valodām vietne ir veiksmīgi <localizationGlossaryLink>lokalizēta</localizationGlossaryLink>, un tajā ir pietiekami daudz <sentenceCollectionGlossaryLink>teikumu</sentenceCollectionGlossaryLink>, lai varētu turpināt <speakLink>runāt</speakLink> un <listenLink>klausīties</ listenLink>.
+language-section-launched-description = Šīm valodām vietne ir veiksmīgi <localizationGlossaryLink>lokalizēta</localizationGlossaryLink>, un tajā ir pietiekami daudz <sentenceCollectionGlossaryLink>teikumu</sentenceCollectionGlossaryLink>, lai varētu turpināt <speakLink>runāt</speakLink> un <listenLink>klausīties</ listenLink>.
 languages-show-more = Rādīt vairāk
 languages-show-less = Rādīt mazāk
 language-meter-in-progress = Progress
@@ -896,8 +896,8 @@ clips-with-count-pluralized =
         [one] <bold>{ $count }</bold> ieraksti
        *[other] <bold>{ $count }</bold> ierakstu
     }
-goal-help-recording = Jūs esat palīdzējuši kopējai balsij sasniegt <goalPercentage> </goalPercentage> no mūsu ikdienas { $goalValue } ierakstu mērķa!
-goal-help-validation = Jūs esat palīdzējuši kopējai balsij sasniegt <goalPercentage> </goalPercentage> no mūsu ikdienas { $goalValue } pārbaudīto ierakstu mērķa!
+goal-help-recording = Jūs esat palīdzējuši sasniegt <goalPercentage> </goalPercentage> no mūsu mērķa - { $goalValue } ierakstu dienā!
+goal-help-validation = Jūs esat palīdzējuši sasniegt <goalPercentage> </goalPercentage> no mūsu mērķa - { $goalValue } pārbaudīto ierakstu dienā!
 contribute-more =
     { $count ->
         [zero] Vai esat gatavi vēl { $count }?
@@ -920,10 +920,10 @@ record-three-more-instruction = Vel palikuši trīs!
 record-again-instruction = Lieliski! <recordIcon> </recordIcon> Ierakstiet savu nākamo ierakstu
 record-again-instruction2 = Turpinām, ierakstiet vēlreiz <recordIcon></recordIcon>
 record-last-instruction = <recordIcon> </recordIcon> Pēdējais!
-review-tooltip = Pārskatiet un atkārtoti ierakstiet ierakstus
+review-tooltip = Pārskatiet ierakstus un ierakstiet tos atkārtoti
 share-clip = Dalieties ar savu ierakstu
 share-common-voice = Pastāstiet citiem par Common Voice
-review-instruction = Ja nepieciešams, pārskatiet un atkārtoti ierakstiet ierakstus
+review-instruction = Ja nepieciešams, pārskatiet ierakstus un ierakstiet atkārtoti
 record-submit-tooltip = { $actionType } iesniedziet, kad viss gatavs
 clips-uploaded = Ieraksti saglabāti
 record-abort-title = Varbūt vispirms pabeidz ierakstu?
@@ -935,7 +935,7 @@ listen-instruction = { $actionType } <playIcon> </playIcon> vai viņi precīzi i
 listen-again-instruction = Lieliski paveikts darbs! <playIcon> </playIcon> Klausieties vēlreiz, kad esat gatavs
 listen-3rd-time-instruction = 2 pabeigti, tā tik turi! <playIcon> </playIcon>
 listen-last-time-instruction = <playIcon> </playIcon> Pēdējais!
-listen-empty-state = Iespējams visi ieraksti jau ir apstrādāti - pārlādējiet lapu vai mēģiniet nedaudz vēlāk.
+listen-empty-state = Iespējams, visi ieraksti jau ir apstrādāti - pārlādējiet lapu vai mēģiniet nedaudz vēlāk.
 listen-loading-error =
     Mēs nevarējām iegūt nevienu ierakstu, ko jums klausīties.
     Lūdzu, mēģiniet vēlreiz nedaudz vēlāk.
@@ -1059,61 +1059,201 @@ set-a-goal = Izvirziet mērķi
 cant-decide = Nevar izlemt?
 activity-needed-calculation-plural =
     { NUMBER($totalHours) ->
-        [one]
+        [zero]
             { NUMBER($periodMonths) ->
-                [one]
+                [zero]
                     { NUMBER($people) ->
+                        [zero]
+                            { NUMBER($clipsPerDay) ->
+                                [zero] { $totalHours } stundas ir sasniedzamas { $periodMonths } mēnešos, ja { $people } cilvēku ierakstītu { $clipsPerDay } ierakstus dienā.
+                                [one] { $totalHours } stundas ir sasniedzamas { $periodMonths } mēnešos, ja { $people } cilvēku ierakstītu { $clipsPerDay } ierakstu dienā.
+                               *[other] { $totalHours } stundas ir sasniedzamas { $periodMonths } mēnešos, ja { $people } cilvēku ierakstītu { $clipsPerDay } ierakstus dienā.
+                            }
                         [one]
                             { NUMBER($clipsPerDay) ->
-                                [one] { $totalHours } stunda ir sasniedzama { $periodMonths } mēnesī ja { $people } cilvēks ierakstītu { $clipsPerDay } ierakstu dienā.
-                               *[other] { $totalHours } stunda ir sasniedzama { $periodMonths } mēnesī ja { $people } cilvēks ierakstītu { $clipsPerDay } ierakstus dienā.
+                                [zero] { $totalHours } stundas ir sasniedzamas { $periodMonths } mēnešos, ja { $people } cilvēks ierakstītu { $clipsPerDay } ierakstus dienā.
+                                [one] { $totalHours } stundas ir sasniedzamas { $periodMonths } mēnešos, ja { $people } cilvēks ierakstītu { $clipsPerDay } ierakstu dienā.
+                               *[other] { $totalHours } stundas ir sasniedzamas { $periodMonths } mēnešos, ja { $people } cilvēks ierakstītu { $clipsPerDay } ierakstus dienā.
                             }
                        *[other]
                             { NUMBER($clipsPerDay) ->
-                                [one] { $totalHours } stunda ir sasniedzama { $periodMonths } mēnesī ja { $people } cilvēki ierakstītu { $clipsPerDay } ierakstu dienā.
-                               *[other] { $totalHours } stunda ir sasniedzama { $periodMonths } mēnesī ja { $people } cilvēki ierakstītu { $clipsPerDay } ierakstus dienā.
+                                [zero] { $totalHours } stundas ir sasniedzamas { $periodMonths } mēnešos, ja { $people } cilvēki ierakstītu { $clipsPerDay } ierakstus dienā.
+                                [one] { $totalHours } stundas ir sasniedzamas { $periodMonths } mēnešos, ja { $people } cilvēki ierakstītu { $clipsPerDay } ierakstu dienā.
+                               *[other] { $totalHours } stundas ir sasniedzamas { $periodMonths } mēnešos, ja { $people } cilvēki ierakstītu { $clipsPerDay } ierakstus dienā.
+                            }
+                    }
+                [one]
+                    { NUMBER($people) ->
+                        [zero]
+                            { NUMBER($clipsPerDay) ->
+                                [zero] { $totalHours } stundas ir sasniedzamas { $periodMonths } mēnesī, ja { $people } cilvēku ierakstītu { $clipsPerDay } ierakstus dienā.
+                                [one] { $totalHours } stundas ir sasniedzamas { $periodMonths } mēnesī, ja { $people } cilvēku ierakstītu { $clipsPerDay } ierakstu dienā.
+                               *[other] { $totalHours } stundas ir sasniedzamas { $periodMonths } mēnesī, ja { $people } cilvēku ierakstītu { $clipsPerDay } ierakstus dienā.
+                            }
+                        [one]
+                            { NUMBER($clipsPerDay) ->
+                                [zero] { $totalHours } stundas ir sasniedzamas { $periodMonths } mēnesī, ja { $people } cilvēks ierakstītu { $clipsPerDay } ierakstus dienā.
+                                [one] { $totalHours } stundas ir sasniedzamas { $periodMonths } mēnesī, ja { $people } cilvēks ierakstītu { $clipsPerDay } ierakstu dienā.
+                               *[other] { $totalHours } stundas ir sasniedzamas { $periodMonths } mēnesī, ja { $people } cilvēks ierakstītu { $clipsPerDay } ierakstus dienā.
+                            }
+                       *[other]
+                            { NUMBER($clipsPerDay) ->
+                                [zero] { $totalHours } stundas ir sasniedzamas { $periodMonths } mēnesī, ja { $people } cilvēki ierakstītu { $clipsPerDay } ierakstus dienā.
+                                [one] { $totalHours } stundas ir sasniedzamas { $periodMonths } mēnesī, ja { $people } cilvēki ierakstītu { $clipsPerDay } ierakstu dienā.
+                               *[other] { $totalHours } stundas ir sasniedzamas { $periodMonths } mēnesī, ja { $people } cilvēki ierakstītu { $clipsPerDay } ierakstus dienā.
                             }
                     }
                *[other]
                     { NUMBER($people) ->
+                        [zero]
+                            { NUMBER($clipsPerDay) ->
+                                [zero] { $totalHours } stundas ir sasniedzamas { $periodMonths } mēnešos, ja { $people } cilvēku ierakstītu { $clipsPerDay } ierakstus dienā.
+                                [one] { $totalHours } stundas ir sasniedzamas { $periodMonths } mēnešos, ja { $people } cilvēku ierakstītu { $clipsPerDay } ierakstu dienā.
+                               *[other] { $totalHours } stundas ir sasniedzamas { $periodMonths } mēnešos, ja { $people } cilvēku ierakstītu { $clipsPerDay } ierakstus dienā.
+                            }
                         [one]
                             { NUMBER($clipsPerDay) ->
-                                [one] { $totalHours } stunda ir sasniedzama { $periodMonths } menešos ja { $people } cilvēks ierakstītu { $clipsPerDay } ierakstu dienā.
-                               *[other] { $totalHours } stunda ir sasniedzama { $periodMonths } menešos ja { $people } cilvēks ierakstītu { $clipsPerDay } ierakstus dienā.
+                                [zero] { $totalHours } stundas ir sasniedzamas { $periodMonths } mēnešos, ja { $people } cilvēks ierakstītu { $clipsPerDay } ierakstus dienā.
+                                [one] { $totalHours } stundas ir sasniedzamas { $periodMonths } mēnešos, ja { $people } cilvēks ierakstītu { $clipsPerDay } ierakstu dienā.
+                               *[other] { $totalHours } stundas ir sasniedzamas { $periodMonths } mēnešos, ja { $people } cilvēks ierakstītu { $clipsPerDay } ierakstus dienā.
                             }
                        *[other]
                             { NUMBER($clipsPerDay) ->
-                                [one] { $totalHours } stunda ir sasniedzama { $periodMonths } menešos ja { $people } cilvēki ierakstītu { $clipsPerDay } ierakstu dienā.
-                               *[other] { $totalHours } stunda ir sasniedzama { $periodMonths } menešos ja { $people } cilvēki ierakstītu { $clipsPerDay } ierakstus dienā.
+                                [zero] { $totalHours } stundas ir sasniedzamas { $periodMonths } mēnešos, ja { $people } cilvēki ierakstītu { $clipsPerDay } ierakstus dienā.
+                                [one] { $totalHours } stundas ir sasniedzamas { $periodMonths } mēnešos, ja { $people } cilvēki ierakstītu { $clipsPerDay } ierakstu dienā.
+                               *[other] { $totalHours } stundas ir sasniedzamas { $periodMonths } mēnešos, ja { $people } cilvēki ierakstītu { $clipsPerDay } ierakstus dienā.
+                            }
+                    }
+            }
+        [one]
+            { NUMBER($periodMonths) ->
+                [zero]
+                    { NUMBER($people) ->
+                        [zero]
+                            { NUMBER($clipsPerDay) ->
+                                [zero] { $totalHours } stunda ir sasniedzama { $periodMonths } mēnešos, ja { $people } cilvēku ierakstītu { $clipsPerDay } ierakstus dienā.
+                                [one] { $totalHours } stunda ir sasniedzama { $periodMonths } mēnešos, ja { $people } cilvēku ierakstītu { $clipsPerDay } ierakstu dienā.
+                               *[other] { $totalHours } stunda ir sasniedzama { $periodMonths } mēnešos, ja { $people } cilvēku ierakstītu { $clipsPerDay } ierakstus dienā.
+                            }
+                        [one]
+                            { NUMBER($clipsPerDay) ->
+                                [zero] { $totalHours } stunda ir sasniedzama { $periodMonths } mēnešos, ja { $people } cilvēks ierakstītu { $clipsPerDay } ierakstus dienā.
+                                [one] { $totalHours } stunda ir sasniedzama { $periodMonths } mēnešos, ja { $people } cilvēks ierakstītu { $clipsPerDay } ierakstu dienā.
+                               *[other] { $totalHours } stunda ir sasniedzama { $periodMonths } mēnešos, ja { $people } cilvēks ierakstītu { $clipsPerDay } ierakstus dienā.
+                            }
+                       *[other]
+                            { NUMBER($clipsPerDay) ->
+                                [zero] { $totalHours } stunda ir sasniedzama { $periodMonths } mēnešos, ja { $people } cilvēki ierakstītu { $clipsPerDay } ierakstus dienā.
+                                [one] { $totalHours } stunda ir sasniedzama { $periodMonths } mēnešos, ja { $people } cilvēki ierakstītu { $clipsPerDay } ierakstu dienā.
+                               *[other] { $totalHours } stunda ir sasniedzama { $periodMonths } mēnešos, ja { $people } cilvēki ierakstītu { $clipsPerDay } ierakstus dienā.
+                            }
+                    }
+                [one]
+                    { NUMBER($people) ->
+                        [zero]
+                            { NUMBER($clipsPerDay) ->
+                                [zero] { $totalHours } stunda ir sasniedzama { $periodMonths } mēnesī, ja { $people } cilvēku ierakstītu { $clipsPerDay } ierakstus dienā.
+                                [one] { $totalHours } stunda ir sasniedzama { $periodMonths } mēnesī, ja { $people } cilvēku ierakstītu { $clipsPerDay } ierakstu dienā.
+                               *[other] { $totalHours } stunda ir sasniedzama { $periodMonths } mēnesī, ja { $people } cilvēku ierakstītu { $clipsPerDay } ierakstus dienā.
+                            }
+                        [one]
+                            { NUMBER($clipsPerDay) ->
+                                [zero] { $totalHours } stunda ir sasniedzama { $periodMonths } mēnesī, ja { $people } cilvēks ierakstītu { $clipsPerDay } ierakstus dienā.
+                                [one] { $totalHours } stunda ir sasniedzama { $periodMonths } mēnesī, ja { $people } cilvēks ierakstītu { $clipsPerDay } ierakstu dienā.
+                               *[other] { $totalHours } stunda ir sasniedzama { $periodMonths } mēnesī, ja { $people } cilvēks ierakstītu { $clipsPerDay } ierakstus dienā.
+                            }
+                       *[other]
+                            { NUMBER($clipsPerDay) ->
+                                [zero] { $totalHours } stunda ir sasniedzama { $periodMonths } mēnesī, ja { $people } cilvēki ierakstītu { $clipsPerDay } ierakstus dienā.
+                                [one] { $totalHours } stunda ir sasniedzama { $periodMonths } mēnesī, ja { $people } cilvēki ierakstītu { $clipsPerDay } ierakstu dienā.
+                               *[other] { $totalHours } stunda ir sasniedzama { $periodMonths } mēnesī, ja { $people } cilvēki ierakstītu { $clipsPerDay } ierakstus dienā.
+                            }
+                    }
+               *[other]
+                    { NUMBER($people) ->
+                        [zero]
+                            { NUMBER($clipsPerDay) ->
+                                [zero] { $totalHours } stundas ir sasniedzamas { $periodMonths } mēnešos, ja { $people } cilvēku ierakstītu { $clipsPerDay } ierakstus dienā.
+                                [one] { $totalHours } stundas ir sasniedzamas { $periodMonths } mēnešos, ja { $people } cilvēku ierakstītu { $clipsPerDay } ierakstu dienā.
+                               *[other] { $totalHours } stundas ir sasniedzamas { $periodMonths } mēnešos, ja { $people } cilvēku ierakstītu { $clipsPerDay } ierakstus dienā.
+                            }
+                        [one]
+                            { NUMBER($clipsPerDay) ->
+                                [zero] { $totalHours } stundas ir sasniedzamas { $periodMonths } mēnešos, ja { $people } cilvēks ierakstītu { $clipsPerDay } ierakstus dienā.
+                                [one] { $totalHours } stundas ir sasniedzamas { $periodMonths } mēnešos, ja { $people } cilvēks ierakstītu { $clipsPerDay } ierakstu dienā.
+                               *[other] { $totalHours } stundas ir sasniedzamas { $periodMonths } mēnešos, ja { $people } cilvēks ierakstītu { $clipsPerDay } ierakstus dienā.
+                            }
+                       *[other]
+                            { NUMBER($clipsPerDay) ->
+                                [zero] { $totalHours } stundas ir sasniedzamas { $periodMonths } mēnešos, ja { $people } cilvēki ierakstītu { $clipsPerDay } ierakstus dienā.
+                                [one] { $totalHours } stundas ir sasniedzamas { $periodMonths } mēnešos, ja { $people } cilvēki ierakstītu { $clipsPerDay } ierakstu dienā.
+                               *[other] { $totalHours } stundas ir sasniedzamas { $periodMonths } mēnešos, ja { $people } cilvēki ierakstītu { $clipsPerDay } ierakstus dienā.
                             }
                     }
             }
        *[other]
             { NUMBER($periodMonths) ->
-                [one]
+                [zero]
                     { NUMBER($people) ->
+                        [zero]
+                            { NUMBER($clipsPerDay) ->
+                                [zero] { $totalHours } stundas ir sasniedzamas { $periodMonths } mēnešos, ja { $people } cilvēku ierakstītu { $clipsPerDay } ierakstus dienā.
+                                [one] { $totalHours } stundas ir sasniedzamas { $periodMonths } mēnešos, ja { $people } cilvēku ierakstītu { $clipsPerDay } ierakstu dienā.
+                               *[other] { $totalHours } stundas ir sasniedzamas { $periodMonths } mēnešos, ja { $people } cilvēku ierakstītu { $clipsPerDay } ierakstus dienā.
+                            }
                         [one]
                             { NUMBER($clipsPerDay) ->
-                                [one] { $totalHours } stundas ir sasniedzamas { $periodMonths } mēnesī ja { $people } cilvēks ierakstītu { $clipsPerDay } ierakstu dienā.
-                               *[other] { $totalHours } stundas ir sasniedzamas { $periodMonths } mēnesī ja { $people } cilvēks ierakstītu { $clipsPerDay } ierakstus dienā.
+                                [zero] { $totalHours } stundas ir sasniedzamas { $periodMonths } mēnešos, ja { $people } cilvēks ierakstītu { $clipsPerDay } ierakstus dienā.
+                                [one] { $totalHours } stundas ir sasniedzamas { $periodMonths } mēnešos, ja { $people } cilvēks ierakstītu { $clipsPerDay } ierakstu dienā.
+                               *[other] { $totalHours } stundas ir sasniedzamas { $periodMonths } mēnešos, ja { $people } cilvēks ierakstītu { $clipsPerDay } ierakstus dienā.
                             }
                        *[other]
                             { NUMBER($clipsPerDay) ->
-                                [one] { $totalHours } stundas ir sasniedzamas { $periodMonths } mēnesī ja { $people } cilvēki ierakstītu { $clipsPerDay } ierakstu dienā.
-                               *[other] { $totalHours } stundas ir sasniedzamas { $periodMonths } mēnesī ja { $people } cilvēki ierakstītu { $clipsPerDay } ierakstus dienā.
+                                [zero] { $totalHours } stundas ir sasniedzamas { $periodMonths } mēnešos, ja { $people } cilvēki ierakstītu { $clipsPerDay } ierakstus dienā.
+                                [one] { $totalHours } stundas ir sasniedzamas { $periodMonths } mēnešos, ja { $people } cilvēki ierakstītu { $clipsPerDay } ierakstu dienā.
+                               *[other] { $totalHours } stundas ir sasniedzamas { $periodMonths } mēnešos, ja { $people } cilvēki ierakstītu { $clipsPerDay } ierakstus dienā.
+                            }
+                    }
+                [one]
+                    { NUMBER($people) ->
+                        [zero]
+                            { NUMBER($clipsPerDay) ->
+                                [zero] { $totalHours } stundas ir sasniedzamas { $periodMonths } mēnesī, ja { $people } cilvēku ierakstītu { $clipsPerDay } ierakstus dienā.
+                                [one] { $totalHours } stundas ir sasniedzamas { $periodMonths } mēnesī, ja { $people } cilvēku ierakstītu { $clipsPerDay } ierakstu dienā.
+                               *[other] { $totalHours } stundas ir sasniedzamas { $periodMonths } mēnesī, ja { $people } cilvēku ierakstītu { $clipsPerDay } ierakstus dienā.
+                            }
+                        [one]
+                            { NUMBER($clipsPerDay) ->
+                                [zero] { $totalHours } stundas ir sasniedzamas { $periodMonths } mēnesī, ja { $people } cilvēks ierakstītu { $clipsPerDay } ierakstus dienā.
+                                [one] { $totalHours } stundas ir sasniedzamas { $periodMonths } mēnesī, ja { $people } cilvēks ierakstītu { $clipsPerDay } ierakstu dienā.
+                               *[other] { $totalHours } stundas ir sasniedzamas { $periodMonths } mēnesī, ja { $people } cilvēks ierakstītu { $clipsPerDay } ierakstus dienā.
+                            }
+                       *[other]
+                            { NUMBER($clipsPerDay) ->
+                                [zero] { $totalHours } stundas ir sasniedzamas { $periodMonths } mēnesī, ja { $people } cilvēki ierakstītu { $clipsPerDay } ierakstus dienā.
+                                [one] { $totalHours } stundas ir sasniedzamas { $periodMonths } mēnesī, ja { $people } cilvēki ierakstītu { $clipsPerDay } ierakstu dienā.
+                               *[other] { $totalHours } stundas ir sasniedzamas { $periodMonths } mēnesī, ja { $people } cilvēki ierakstītu { $clipsPerDay } ierakstus dienā.
                             }
                     }
                *[other]
                     { NUMBER($people) ->
+                        [zero]
+                            { NUMBER($clipsPerDay) ->
+                                [zero] { $totalHours } stundas ir sasniedzamas { $periodMonths } mēnešos, ja { $people } cilvēku ierakstītu { $clipsPerDay } ierakstus dienā.
+                                [one] { $totalHours } stundas ir sasniedzamas { $periodMonths } mēnešos, ja { $people } cilvēku ierakstītu { $clipsPerDay } ierakstu dienā.
+                               *[other] { $totalHours } stundas ir sasniedzamas { $periodMonths } mēnešos, ja { $people } cilvēku ierakstītu { $clipsPerDay } ierakstus dienā.
+                            }
                         [one]
                             { NUMBER($clipsPerDay) ->
-                                [one] { $totalHours } stundas ir sasniedzamas { $periodMonths } menešos ja { $people } cilvēks ierakstītu { $clipsPerDay } ierakstu dienā.
-                               *[other] { $totalHours } stundas ir sasniedzamas { $periodMonths } menešos ja { $people } cilvēks ierakstītu { $clipsPerDay } ierakstus dienā.
+                                [zero] { $totalHours } stundas ir sasniedzamas { $periodMonths } mēnešos, ja { $people } cilvēks ierakstītu { $clipsPerDay } ierakstus dienā.
+                                [one] { $totalHours } stundas ir sasniedzamas { $periodMonths } mēnešos, ja { $people } cilvēks ierakstītu { $clipsPerDay } ierakstu dienā.
+                               *[other] { $totalHours } stundas ir sasniedzamas { $periodMonths } mēnešos, ja { $people } cilvēks ierakstītu { $clipsPerDay } ierakstus dienā.
                             }
                        *[other]
                             { NUMBER($clipsPerDay) ->
-                                [one] { $totalHours } stundas ir sasniedzamas { $periodMonths } menešos ja { $people } cilvēki ierakstītu { $clipsPerDay } ierakstu dienā.
-                               *[other] { $totalHours } stundas ir sasniedzamas { $periodMonths } menešos ja { $people } cilvēki ierakstītu { $clipsPerDay } ierakstus dienā.
+                                [zero] { $totalHours } stundas ir sasniedzamas { $periodMonths } mēnešos, ja { $people } cilvēki ierakstītu { $clipsPerDay } ierakstus dienā.
+                                [one] { $totalHours } stundas ir sasniedzamas { $periodMonths } mēnešos, ja { $people } cilvēki ierakstītu { $clipsPerDay } ierakstu dienā.
+                               *[other] { $totalHours } stundas ir sasniedzamas { $periodMonths } mēnešos, ja { $people } cilvēki ierakstītu { $clipsPerDay } ierakstus dienā.
                             }
                     }
             }
@@ -1154,7 +1294,7 @@ share-goal = Dalies ar savu mērķi
 delete-q = Vai vēlaties pieprasīt, lai arī jūsu balss ieraksti tiktu dzēsti, vai arī vēlaties tos saglabāt Common Voice datu kopā?
 keep = Saglabāt
 remove = Noņemt
-keep-info = Jūsu anonīmie balss ieraksti paliks Common Voice datu kopā. Kad būsiet izdzēsis savu profilu, jūs vairs nevarēsiet iesniegt pieprasījumu savu ierakstu dēšanai no datu kopas
+keep-info = Jūsu anonīmie balss ieraksti paliks Common Voice datu kopā. Kad būsiet izdzēsis savu profilu, jūs vairs nevarēsiet iesniegt pieprasījumu savu ierakstu dzēšanai no datu kopas
 remove-info = Mēs pārskatīsim jūsu pieprasījumu, lai no datu kopas noņemtu jūsu ierakstus. Ja jūsu pieprasījums tiks apstiprināts, mēs sazināsimies arī ar tiem, kas ir lejupielādējuši datu kopu un viņiem pieprasīsim, lai dzēš jūsu ierakstus.
 why-delete-recordings =
     Common Voice ierakstus izmanto akadēmiķi, mazie uzņēmumi un balss atpazīšanas entuziasti, lai palīdzētu apmācīt un attīstīt publiski pieejamos resursus, piemēram, balss atpazīšanas modeļus.
@@ -1167,10 +1307,10 @@ profile-form-delete = Dzēst profilu
 download-q = Vēlaties lejupielādēt savus datus?
 download-info = Pastāstiet mums, ko vēlaties lejupielādēt:
 download-profile-title = Profilu
-download-profile-info = Ietver epastu, lietotājvārdu un demogrāfisko informāciju, pieejama uzreiz
+download-profile-info = Ietver e-pastu, lietotājvārdu un demogrāfisko informāciju, pieejama uzreiz
 download-profile-size = Daži baiti
 download-recordings-title = Ieraksti
-download-recordings-info = Ietver mp3 failus un saistītos teikumus. Sagatavošanās var aizņemt kādu laiku
+download-recordings-info = Ietver mp3 failus un teikumus. Sagatavošanās var aizņemt kādu laiku
 download-recordings-size = Parasti megabaiti
 download-recordings-unavailable = Jūs nevarat pieprasīt savus ierakstus, kamēr jau notiek cita pieprasījuma apstrāde.
 download-recently-requested = Varat pieprasīt jaunu savu ierakstu izņemšanu ik pēc { $days } dienām.
@@ -1196,7 +1336,7 @@ download-request-link-single = Varat arī kopēt un ielīmēt šīs adreses sav�
 ## Landing
 
 welcome-staff = Sveicināti { $company } darbinieki!
-help-contribute = Jūs varat palīdzēt veidot daudzveidīgu, atvērtā pirmkoda datu kopu, izveidojot kopīgās balss profilu un ierakstot savu balsi.
+help-contribute = Jūs varat palīdzēt veidot daudzveidīgu atvērtā pirmkoda datu kopu, izveidojot Common Voice profilu un ierakstot savu balsi.
 login-company = Piesakieties / pierakstieties ar { $company } e-pastu
 profile-not-required = Lai veiktu ieguldījumu, profilu veidot nevajag, bet tas var būt noderīgi ja jūs to izveidosiet
 read-more-about = Lasiet vairāk mūsu lapā Par mums
@@ -1223,7 +1363,7 @@ demo-account = Konts
 demo-account-card-header = Lai veiktu ieguldījumu, nav nepieciešams konts, kaut gan tas ir noderīgs.
 demo-account-card-body = Labajā pusē mēs izklāstām priekšrocības un precizējam, kādu informāciju mēs publiskojam. Izmantojiet tālāk esošās saites, lai sāktu darbu ar Common Voice kontu savā ierīcē.
 demo-account-enter-email =
-    .label = Ievadiet epastu, lai nosūtītu reģistrācijas saiti
+    .label = Ievadiet e-pastu, lai nosūtītu reģistrācijas saiti
 demo-account-sign-up = Nosūtiet reģistrācijas saiti
 
 ## Demo Contribute
@@ -1266,7 +1406,7 @@ contribution-misreadings-example-7-explanation = [‘Ja‘ nav tas pats kas ‘j
 contribution-misreadings-example-8-title = Bites ir čakli kukaiņi
 contribution-misreadings-example-8-explanation = [Ierunāts nepareizs teikums]
 contribution-varying-pronunciations-title = Dažādas izrunas
-contribution-varying-pronunciations-description = Esiet piesardzīgi, pirms noraidāt ierakstu, pamatojoties uz to, ka lasītājs ir nepareizi izrunājis vārdu, ievietojis uzsvaru nepareizā vietā vai acīmredzami ignorējis jautājuma zīmi. Izrunas pasaulē ir dažādas un dažus no tām jūs, iespējams, ikdienā nedzirdat sev apkārt. Novērtējiet to, ka dažādi cilvēki runā citādāk nekā jūs.
+contribution-varying-pronunciations-description = Esiet piesardzīgi, pirms noraidāt ierakstu, pamatojoties uz to, ka lasītājs ir nepareizi izrunājis vārdu, ievietojis uzsvaru nepareizā vietā vai acīmredzami ignorējis jautājuma zīmi. Izrunas ir dažādas un dažas no tām jūs, iespējams, ikdienā nedzirdat sev apkārt. Novērtējiet to, ka cilvēki var runāt citādi nekā jūs.
 contribution-varying-pronunciations-description-extended = No otras puses, ja izruna ir nepareiza vai kļūdaina, noraidiet ierakstu. Ja neesat pārliecināti, izmantojiet izlaišanas pogu.
 contribution-varying-pronunciations-example-1-title = Man garšo desa.
 contribution-varying-pronunciations-example-1-explanation = [‘desa’ ir pareizi ierunāta neatkarīgi no tā vai dažādos akcentos tiek lietots platais vai šaurais e]
@@ -1446,7 +1586,7 @@ sc-add-err-failed =
     { $sentences ->
         [0] Neviens teikums netika noraidīts
         [zero] { $sentences } teikums tika noraidīts
-        [one] { $sentences } teikumi tika noraidīti
+        [one] { $sentences } teikums tika noraidīts
        *[other] { $sentences } teikumi tika noraidīti
     }
 sc-add-err-submission = Iesniegšanas kļūda
@@ -1508,19 +1648,19 @@ sc-lang-info-total =
 #   $totalInReview (Number) - Number of sentences currently in the review state for this language
 sc-lang-info-in-review =
     { $totalInReview ->
-        [0] Nav neviena teikuma ko pārbaudīt.
-        [zero] { $totalInReview } teikums ko pārbaudīt.
-        [one] { $totalInReview } teikumi ko pārbaudīt.
-       *[other] { $totalInReview } teikumi ko pārbaudīt.
+        [0] Nav neviena teikuma, ko pārbaudīt.
+        [zero] { $totalInReview } teikums, ko pārbaudīt.
+        [one] { $totalInReview } teikumi, ko pārbaudīt.
+       *[other] { $totalInReview } teikumi, ko pārbaudīt.
     }
 # Variables:
 #   $unreviewedSentencesByYou (Number) - Number of sentences the user can still review
 sc-lang-info-left-for-you =
     { $unreviewedSentencesByYou ->
-        [0] Jums nav neviena teikuma ko pārbaudīt.
-        [zero] { $unreviewedSentencesByYou } teikums ko pārbaudīt.
-        [one] { $unreviewedSentencesByYou } teikumi ko pārbaudīt.
-       *[other] { $unreviewedSentencesByYou } teikumi ko pārbaudīt.
+        [0] Jums nav neviena teikuma, ko pārbaudīt.
+        [zero] { $unreviewedSentencesByYou } teikums, ko pārbaudīt.
+        [one] { $unreviewedSentencesByYou } teikumi, ko pārbaudīt.
+       *[other] { $unreviewedSentencesByYou } teikumi, ko pārbaudīt.
     }
 sc-lang-info-review-now = <reviewLink>Pārbaudīt tagad!</reviewLink>
 sc-lang-info-add-more = <addLink>Pievienojiet teikumus!</addLink>
@@ -1530,17 +1670,17 @@ sc-lang-info-validated =
     { $validatedSentences ->
         [0] Nav neviena pārbaudīta teikuma.
         [zero] { $validatedSentences } pārbaudīts teikums.
-        [one] { $validatedSentences } pārbaudīti teikumi.
-       *[other] { $validatedSentences } pārbaudītu teikumu.
+        [one] { $validatedSentences } pārbaudīts teikums.
+       *[other] { $validatedSentences } pārbaudīti teikumi.
     }
 # Variables:
 #   $rejectedSentences (Number) - Number of sentences which have been rejected for this language
 sc-lang-info-rejected =
     { $rejectedSentences ->
         [0] Nav neviena noraidīta teikuma.
-        [zero] { $rejectedSentences } noraidīts teikums.
-        [one] { $rejectedSentences } noraidīti teikumi.
-       *[other] { $rejectedSentences } noraidītu teikumu.
+        [zero] { $rejectedSentences } noraidīti teikumi.
+        [one] { $rejectedSentences } noraidīts teikums.
+       *[other] { $rejectedSentences } noraidīti teikumi.
     }
 
 ## LOGIN
@@ -1651,7 +1791,7 @@ partnerships-our-partners = Mūsu partneri
 first-cta-header-text = Paldies, ka ziedojāt savas balss ierakstus!
 first-cta-subtitle-text = Vai vēlaties pastāstīt par to, kā runājat?
 why-donate = Kāpēc jūs jautājat?
-why-donate-explanation-1 = Šī informācija nav jāsniedz obligāti - pievienojiet to tikai tad, ja jūtaties ērti. Kad mēs izlaižam datu kopu, mēs pseidonimizējam visu personas informāciju un pārliecināmies, ka informācija, piemēram, jūsu vārds un epasts, nav saistīta ar demogrāfisko informāciju, piemēram, vecumu vai dzimumu.
+why-donate-explanation-1 = Šī informācija nav jāsniedz obligāti - pievienojiet to tikai tad, ja jūtaties ērti. Kad mēs izlaižam datu kopu, mēs pseidonimizējam visu personas informāciju un pārliecināmies, ka informācija, piemēram, jūsu vārds un e-pasts, nav saistīta ar demogrāfisko informāciju, piemēram, vecumu vai dzimumu.
 why-donate-explanation-2 = Lai balss tehnoloģija labi darbotos ikvienam, datiem, kas palīdz izstrādātājiem izveidot šo tehnoloģiju, ir jāatspoguļo daudzveidīgs cilvēku loks. Piemēram, ja mēs neiekļaujam nevienu runātāju ar noteiktu akcentu, tehnoloģija nedarbosies labi cilvēkiem ar šo akcentu. <learnMore>Uzziniet vairāk par to, kāpēc metadati ir svarīgi.</learnMore>
 add-information-button = Pievienot informāciju
 continue-speaking-button = Nē, paldies, turpināšu ierakstīt
@@ -1684,7 +1824,7 @@ varying-pronunciations-explanation-2 = No otras puses, ja izruna ir nepareiza va
 varying-pronunciations-example = Man garšo mērce un desa.
 varying-pronunciations-tip-1 = [Dažādās Latvijas malās "mērce" izrunā dažādi, visas izrunas ir pareizas]
 varying-pronunciations-tip-2 = [Arī vārdu "desa" dažādi cilvēki izrunā dažādi]
-offensive-content-explanation = Teikumi tiek pārbaudīti, izmantojot brīvprātīgo labākos nodomus, taču šis process nav ideāls. Ja redzat vai dzirdat teikumu, kas jūs aizvaino vai satrauc, piemēram, tāpēc, ka tas pārkāpj mūsu <participationGuidelines>kopienas līdzdalības vadlīnijas</participationGuidelines>, lūdzu, izmantojiet karodziņa pogu lietotāja saskarnē. Varat arī sazināties ar mums, izmantojot epasta adresi <emailFragment>commonvoice@mozilla.com</emailFragment>.
+offensive-content-explanation = Teikumi tiek pārbaudīti, izmantojot brīvprātīgo labākos nodomus, taču šis process nav ideāls. Ja redzat vai dzirdat teikumu, kas jūs aizvaino vai satrauc, piemēram, tāpēc, ka tas pārkāpj mūsu <participationGuidelines>kopienas līdzdalības vadlīnijas</participationGuidelines>, lūdzu, izmantojiet karodziņa pogu lietotāja saskarnē. Varat arī sazināties ar mums, izmantojot e-pasta adresi <emailFragment>commonvoice@mozilla.com</emailFragment>.
 misreadings-explanation-1 = Ir svarīgi pareizi izlasīt katru vārdu. Klausoties ļoti rūpīgi pārbaudiet, vai ierakstītais ir tieši tas, kas prasīts; noraidīt, ja runātāji ir pievienojuši vai palaiduši garām kādu vārdu vai, ja divi vārdi ir samainīti vietām.
 misreadings-explanation-2 = Biežāk sastopamās kļūdas:
 misreadings-explanation-3 = Norauts vārda sākums, piemēram "an garšo desa"
@@ -1751,7 +1891,7 @@ adding-sentences-subheader-special-characters = Citu valodu burti
 adding-sentences-subheader-special-characters-explanation-1 = Burtiem ir jābūt derīgiem valodā, kurā runā. Piemēram, “ж” ir burts krievu alfabētā, taču tas nekad netiek lietots latviešu valodā, tāpēc tas nekad nedrīkst būt latviešu valodas teikumu tekstā.
 adding-sentences-subheader-special-characters-explanation-2 = Valodām var būt savi validācijas noteikumi ar papildu prasībām, kad tās tiek lokalizētas. Ja valodai nav konkrēta validācijas faila, tiks izmantoti vispārīgi angļu valodas noteikumi.
 adding-sentences-subheader-offensive-content = Aizskarošs saturs
-adding-sentences-subheader-offensive-content-explanation = Ja teikums ir aizskarošs vai satraucošs - piemēram, necenzēts saturs vai citi mūsu <communityGuidelines>kopienas līdzdalības vadlīniju</communityGuidelines> pārkāpumi, jums teikums ir jānoraida. Varat arī sazināties ar mums, rakstot uz epasta adresi <emailFragment>commonvoice@mozilla.com</emailFragment>, lai eskalētu šādas problēmas.
+adding-sentences-subheader-offensive-content-explanation = Ja teikums ir aizskarošs vai satraucošs - piemēram, necenzēts saturs vai citi mūsu <communityGuidelines>kopienas līdzdalības vadlīniju</communityGuidelines> pārkāpumi, jums teikums ir jānoraida. Varat arī sazināties ar mums, rakstot uz e-pasta adresi <emailFragment>commonvoice@mozilla.com</emailFragment>, lai eskalētu šādas problēmas.
 reviewing-sentences-explanation-1 = Ja teikums atbilst iepriekš minētajiem kritērijiem, noklikšķiniet uz pogas "Jā".
 reviewing-sentences-explanation-2 = Ja teikums neatbilst iepriekš minētajiem kritērijiem, noklikšķiniet uz pogas "Nē".
 reviewing-sentences-explanation-3 = Ja neesat pārliecināts par teikumu, varat to izlaist un pāriet uz nākamo.

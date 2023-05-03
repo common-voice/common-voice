@@ -44,6 +44,7 @@ be = Belaruskaw ka kan
 bg = Bulgarikan na
 bm = Bamanankan na
 bn = Bengalikan
+bo = Tibɛtikan na
 br = Bretonkan na
 bs = Bosnikan
 bxr = Buryatikan na
@@ -138,11 +139,13 @@ nb-NO = Norowɛzikan
 nd = Isindebelekan
 ne-NP = Nepalikan
 nhe = Kɔrɔnfɛla Huwasitekakan
+nhi = Siyera Tlebi fɛ Puebla Nahuatl
 nia = Niyasikan
 nl = Alimankan
 nn-NO = Norowɛzininorosikikan
 nr = Isindebelekan
 nso = Worodugu Sotokan
+ny = Chinyanja kan na
 nyn = Runiyankolekan
 oc = Okitankan
 om = Afan Oromokan
@@ -263,9 +266,43 @@ wall-of-text-first =
     an ka masinw kama. Nka walasa ka kumakanw dabɔ, baarakɛlaw mago bɛ kan hakɛ camanba la kosɛbɛ¶
     kunnafoniw.
 wall-of-text-second = Baarakɛdabaw bɛ baara kɛ ni kunnafonidilan minnu ye, olu fanba tɛ sɔrɔ mɔgɔ fanba bolo. An hakili la o¶ bɛ kokuradonni dabila. O la, an ye Common Voice daminɛ, porozɛ min bɛ dɛmɛ don ka kumakan dɔnni da wuli¶ ani ka se bɛɛ ma.
+show-wall-of-text = Ka kunnafoni wɛrɛw kalan
+help-us-title = An dɛmɛ ka kumasenw tiɲɛ!
+help-us-explain = A digi , ka bilaaala , ka lamɛn & k'a fɔ an ye  : yala u ye kumasen in fɔ ka ɲɛ wa?
+no-clips-to-validate = A bɛ iko klip si tɛ yen ka Lamɛ nin kan in na. An dɛmɛ ka  kumakan  dɔw  ta sisan.
+vote-yes = Awɔ
+vote-no = Ayi
+toggle-play-tooltip = { shortcut-play-toggle } digi walasa ka tulonkɛcogo caman wuli
+speak-subtitle = Aw ye aw ka kan di
+speak-paragraph = Kumakan-klipw sɛbɛnni ye an ka kunnafonidilan dafalen jɔli yɔrɔ koloma ye; dɔw bɛna a fɔ ko ɲɛnajɛyɔrɔ fana don.
+speak-goal-text = Kan taala
+listen-subtitle = An dɛmɛ ka kumakanw tiɲɛtigiya
+listen-paragraph = Klip minnu dira, olu tiɲɛni nafa ka bon o cogo kelen na Common Voice cidenyabaara la. Aw ye lamɛnni kɛ ani k’an dɛmɛ ka kumakan kunnafoni dafalenw dilan minnu ka ɲi.
+listen-goal-text = Kanw minnu   sɛmɛntiyala
+hours-recorded = Lɛriw minnu sɛbɛnna
+hours-validated = Lɛriw minnu sɛmɛntiyala
+voices-online = Kumakanw bɛ Ɛntɛrinɛti kan Sisan
+todays-progress = Bi ɲɛtaa
+help-reach-goal = An dɛmɛ ka se { $goal } ma.
+read-terms-q = Yala i ye an ka Sariyaw kalan wa?
+ready-to-record = Yala i labɛnnen don k’i kan di wa?
+all-locales = Bɛɛ
+today = Bi
+x-weeks-short =
+    kelen Dɔgɔkun
+    dɔ wɛrɛ
+    dk { $count }
+x-months-short = mo{ $count }
+x-years-short = san{ $count }
+help-make-dataset = An dɛmɛ ka datasɛti  ɲumanba dɔ dankɛnɛmaya, min dabɔra foroba mago kama
+sign-up-account = I tɔgɔ sɛbɛn ka kɔnti dɔ sɔrɔ
+email-subscription-title = i tɔgɔ sɛbɛn walasa ka kunnafoni kuraw sɔrɔ imɛyi la
+email-subscription-title-new = I tɔgɔ sɛbɛn Common Voice kunnafonidisɛbɛnw na, kuntilenna hakilijiginw ani ɲɛtaa kunnafoniw
 
 ## Account Benefits
 
+benefits = Nafaw
+rich-data = Aw ye aw ka kunnafoniw cilenw kɛ fɛn nafamaw ye cogo bɛɛ la, aw kɛtɔ ka jamanadenw ka kunnafoniw dɔw di minnu tɔgɔ ma fɔ. An bɛ jamanaden hakɛ kunnafoniw bɛɛ dogo ka sɔrɔ k’u bɔ kɛnɛ kan.
 keep-track = Aw ye aw ka ɲɛtaa ni jateminɛw jateminɛ kan caman kɔnɔ.
 
 ## What's public

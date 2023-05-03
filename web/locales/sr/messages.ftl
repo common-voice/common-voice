@@ -18,6 +18,8 @@ banner-error-slow-1 = Жао нам је, Common Voice тренутно ради
 banner-error-slow-2 = Страница прима густ саобраћај и тренутно истражујемо проблеме.
 banner-error-slow-link = Статусна страница
 error-something-went-wrong = Жао нам је, дошло је до грешке
+error-clip-upload = Овај исечак не успева да се отпреми. Покушати поново?
+error-clip-upload-server = Отпремање овог исечка и даље не успева на серверу. Поново учитајте страницу или покушајте поново касније.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -42,6 +44,7 @@ be = Белоруски
 bg = Бугарски
 bm = Бамбара
 bn = Бенгалски
+bo = Тибетански
 br = Бретонски
 bxr = Бурјатски
 byv = Медумба
@@ -139,6 +142,7 @@ nl = Холандски
 nn-NO = Норвешки Нинорск
 nr = Јужни Ндебеле
 nso = Северни Сото
+ny = Чинијанџа
 nyn = Њанколе
 oc = Окситански
 om = Оромо
@@ -415,6 +419,7 @@ accept-privacy = Слажем се са тиме да рукујете овим 
 accept-privacy-title = Политика приватности
 accept-privacy-and-terms = Слажем се са Common Voice <termsLink>условима</termsLink> и <privacyLink>политиком приватности</privacyLink>
 login-identity = Идентитет пријаве
+login = Пријава
 login-signup = Пријава / Регистрација
 edit = Уреди
 email-subscriptions = Претплате путем е-поште
@@ -652,6 +657,14 @@ about-playbook-how-access-dataset = Како да приступим и кори
 
 ## How are decisions made
 
+about-playbook-how-project-governance = Како се доносе одлуке о пројекту?
+about-playbook-how-project-governance-content-1 = Mozilla Common Voice покреће разнолика заједница активиста, лингвиста, аналитичара података, научника и софтверских инжењера из целог света. Пројектом управља Mozilla фондација.
+about-playbook-how-project-governance-content-2 = Наше управљање је изграђено на следећим основама:
+about-playbook-how-project-governance-content-3 = Приватност, сигурност и транспарентност.
+about-playbook-how-project-governance-content-4 = Учешће заједнице у доношењу одлука.
+about-playbook-how-project-governance-content-5 = Вредновање и признање.
+about-playbook-how-project-governance-content-6 = Узајамна одговорност.
+about-playbook-how-project-governance-content-7 = <governanceLink>Сазнајте више о томе чиме се водимо</governanceLink>
 
 ## Glossary
 
@@ -732,6 +745,7 @@ confirm-size = Спремни сте да покренете преузимањ�
 size-gigabyte = GB
 size-megabyte = MB
 confirm-no-identify = <b>Слажете се</b> да не покушавате да утврдите идентитет говорника у Common Voice скупу података
+confirm-join-mailing-list = Желим да се придружим Common Voice групи за пошту
 download-language = Преузми за { $language }
 validated-hours = Потврђених сати
 recorded-hours = Снимљених сати
@@ -763,6 +777,7 @@ more = Више
 close = Затвори
 download = Преузми
 dataset-version = Издање
+clipboard-not-supported = Привремена меморија није подржана
 
 ## Download Modal
 
@@ -795,6 +810,7 @@ other-language = Други језик
 
 ## Request Language Pages
 
+request-language-heading = Затражите нови језик
 request-language-form-email =
     .label = Ваша адреса е-поште
 request-language-form-info =
@@ -906,6 +922,9 @@ target-segment-generic-card = Доприносите циљном сегмент
 target-segment-first-banner = Помозите Common Voice-у у прављењу првог циљног { $locale } сегмента
 target-segment-add-voice = Додајте ваш глас
 target-segment-learn-more = Сазнајте више
+
+## Contribution Nav Items
+
 
 ## Reporting
 
@@ -1205,9 +1224,45 @@ sc-logout-button = Одјава
 
 ## ADD SENTENCES CONFIRMATION
 
+sc-confirm-sentences-title = Потврдите нове реченице
+# Variables:
+#   $countOfSentences (Number) - Number of sentences the user has filled in the submission form
+sc-confirm-sentences-found =
+    { $countOfSentences ->
+        [0] Није пронађена ниједна реченица.
+        [one] Пронађена је 1 реченица.
+        [few] Пронађене су { $countOfSentences } реченице.
+       *[other] Пронађено је { $countOfSentences } реченица.
+    }
+# Variables:
+#   $countOfInvalidated (Number) - Number of sentences the user rejected in the review form before submission
+sc-confirm-rejected-by-you = { $countOfInvalidated } сте одбили
+sc-confirm-already-reviewed =
+    { $countOfReviewed ->
+        [0] Ниједна реченица није већ прегледана.
+        [one] Прегледали сте већ 1 реченицу. Сјајно!
+        [few] Прегледали сте већ { $countOfReviewed } реченице. Браво!
+       *[other] Прегледали сте већ { $countOfReviewed } реченица. Свака част!
+    }
+# Variables:
+#   $readyCount (Number) - Number of sentences ready to be uploaded
+sc-confirm-ready =
+    { $readyCount ->
+        [0] Нема реченица спремних за слање!
+        [one] 1 реченица је спремна за слање!
+        [few] { $readyCount } реченице су спремне за слање!
+       *[other] { $readyCount } реченица је спремно за слање!
+    }
+# Variables:
+#   $countOfUnreviewed (Number) - Number of sentences unreviewed before the upload
+sc-confirm-unreviewed = { $countOfUnreviewed } реченица није прегледано. Такође можете да прегледате ваше реченице пре него што их пошаљете.
+sc-confirm-button-text = Потврди
+sc-confirm-uploading = Реченице се отпремају. Ово може да потраје неколико минута у зависности од броја додатих реченица, стога немојте да затворите овај сајт.
 
 ## LANGUAGE INFO
 
+sc-lang-info-title-total = Укупно
+sc-lang-info-title-personal = Лично
 
 ## LOGIN
 
@@ -1290,3 +1345,4 @@ partnerships-small-business-description = Увек смо жељни да чуј
 partnerships-corporates-header = Велике корпорације и платформске компаније
 partnerships-corporates-description = Ако желите да разговарате више о скупу података, инвестирате у планирана проширења платформе или тражите могућности за сарадњу, <emailFragment>контактирајте нас.</emailFragment>
 partnerships-our-partners = Наши партнери
+sentence-collection = Скупљање реченица

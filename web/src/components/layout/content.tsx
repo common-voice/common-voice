@@ -25,11 +25,15 @@ const PartnerPage = React.lazy(() => import('../pages/partner/partner'));
 const GuidelinesPage = React.lazy(
   () => import('../pages/guidelines/guidelines')
 );
+const SentenceCollectorRedirectPage = React.lazy(
+  () =>
+    import('../pages/sentence-collector-redirect/sentence-collector-redirect')
+)
 
-const SentryRoute = Sentry.withSentryRouting(Route);
+const SentryRoute = Sentry.withSentryRouting(Route)
 
 export default function Content({ location }: { location: any }) {
-  const [locale, toLocaleRoute] = useLocale();
+  const [locale, toLocaleRoute] = useLocale()
   return (
     <React.Suspense fallback={<Spinner />}>
       <Switch>
@@ -171,7 +175,7 @@ export default function Content({ location }: { location: any }) {
           render={() => {
             // note: this is redundant with routing in LocalizedPage in app.tsx, and handles
             // locale changing edge cases where toLocaleRoute is still using the old locale
-            return <Redirect to={toLocaleRoute(URLS.SPEAK)} />;
+            return <Redirect to={toLocaleRoute(URLS.SPEAK)} />
           }}
         />
         <SentryRoute
@@ -180,7 +184,7 @@ export default function Content({ location }: { location: any }) {
           render={() => {
             // note: this is redundant with routing in LocalizedPage in app.tsx, and handles
             // locale changing edge cases where toLocaleRoute is still using the old locale
-            return <Redirect to={toLocaleRoute(URLS.LISTEN)} />;
+            return <Redirect to={toLocaleRoute(URLS.LISTEN)} />
           }}
         />
         <SentryRoute
@@ -202,6 +206,11 @@ export default function Content({ location }: { location: any }) {
           path={toLocaleRoute(URLS.GUIDELINES)}
           component={GuidelinesPage}
         />
+        <SentryRoute
+          exact
+          path={toLocaleRoute(URLS.SENTENCE_COLLECTOR_REDIRECT)}
+          component={SentenceCollectorRedirectPage}
+        />
         <Route
           render={() => (
             <ErrorPage errorCode="404" prevPath={location.state?.prevPath} />
@@ -209,5 +218,5 @@ export default function Content({ location }: { location: any }) {
         />
       </Switch>
     </React.Suspense>
-  );
+  )
 }

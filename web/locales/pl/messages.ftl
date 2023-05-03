@@ -409,6 +409,7 @@ why-demographic-explanation-2 = Anonimowe dane o użytkowniku, takie jak wiek, 
 accept-privacy = Pozwalam wykorzystywać te dane w sposób opisany w <privacyLink>zasadach ochrony prywatności</privacyLink> Mozilli
 accept-privacy-title = Zasady ochrony prywatności
 login-identity = Tożsamość logowania
+login = Zaloguj się
 login-signup = Zaloguj/zarejestruj się
 edit = Edytuj
 email-subscriptions = Subskrypcje e-mail

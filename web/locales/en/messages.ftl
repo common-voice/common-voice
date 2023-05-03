@@ -1724,3 +1724,8 @@ sc-review-empty-state = There are currently no sentences to review in this langu
 report-sc-different-language = Different language
 report-sc-different-language-detail = It is written in a language different than what I’m reviewing.
 sentences-fetch-error = An error occurred fetching sentences
+
+# SENTENCE-COLLECTOR-REDIRECT PAGE
+sc-redirect-page-title = We're making some big changes
+sc-redirect-page-subtitle-1 = The Sentence Collector is moving to the core Common Voice platform. You can now <writeURL>write</writeURL> a sentence or <reviewURL>review</reviewURL> single sentence submissions on Common Voice.
+sc-redirect-page-subtitle-2 = Ask us questions on <matrixLink>Matrix</matrixLink>, <discourseLink>Discourse</discourseLink> or <emailLink>email</emailLink>.
