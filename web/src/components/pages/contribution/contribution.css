@@ -1,7 +1,7 @@
 @import url('../../media.css');
 
 .contribution-wrapper {
-    overflow-x: hidden;
+    overflow: hidden;
 }
 
 .contribution-wrapper,
@@ -33,7 +33,7 @@
         position: initial;
         overflow: visible;
         justify-content: normal;
-        height: 84vh;
+        min-height: 84vh;
     }
 
     .button {
@@ -358,11 +358,7 @@
         justify-content: center;
         align-items: center;
 
-        @media (-webkit-device-pixel-ratio: 1) {
-            margin-top: 10vh;
-        }
-
-        @media (-webkit-device-pixel-ratio: 2) {
+        @media (min-height: 910px) {
             margin-top: 10vh;
         }
 
