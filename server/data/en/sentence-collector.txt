@@ -10559,6 +10559,7 @@ Each shall give some account of himself.
 Each species may present a certain number of modifications.
 Each species of tree, shrub, plant, and herb has its own spirit.
 Each time his mother’s heart was firm with pride and joy.
+Each tomb is encircled by a tall palisade of pointed stakes.
 Each totem clan has a number of totem centers scattered over the country.
 Each tree when first planted was placed in a bricked-off partition.
 Each tribe is distinguished by certain animals or things.
@@ -10909,6 +10910,7 @@ Every evening they go round the village armed with clubs.
 Every exercise the pupil does is first submitted to the tutor.
 Every facet is crystalline.
 Every family or clan traces its descent from a woman.
+Every family privately worships the spirits of its own ancestors.
 Every fan has its own speed limit.
 Every fibre in her was in revolt.
 Every fourth celebration was distinguished by a higher degree of solemnity.
@@ -12762,6 +12764,7 @@ He ached all over.
 He ached for that stroke.
 He achieved the bravest act of his life.
 He acted as the secretary to the board.
+He acts as an intermediary between the god and the people.
 He added that his father was sixty-two that day.
 He addresses this to the astounded Tony, who admits the soft impeachment.
 He adjusted a timer on one of the cars.
@@ -14529,6 +14532,7 @@ He may be an agreeable flirt.
 He may be at Marseille today.
 He may be brought to put up with the skin of an Arctic hare.
 He may be in the house now!
+He may be reelected after the second funeral ceremonies have been completed.
 He may be said to be lifted to the rank of a demigod.
 He may be watching me now.
 He may desire to escape pain, or to enjoy pleasure.
@@ -16059,6 +16063,7 @@ He was reading only the French, ignoring her soul that was there.
 He was referred to the hospital.
 He was remanded in custody for drink driving.
 He was removed by night.
+He was represented in his temple by his personal relics.
 He was restless to follow.
 He was riding, in imagination, some desperate steeplechase at that moment.
 He was rigidly truthful, where the issue concerned only himself.
@@ -16098,6 +16103,7 @@ He was smooth-shaven, and his hair and eyes were black.
 He was so awkward at this service that she retired him from it.
 He was so conscious of what other people felt, particularly his mother.
 He was so courteous, so gallant!
+He was so feeble that he could no longer walk.
 He was so helpful when I called from the hospital.
 He was so humble before her.
 He was so quick that he saw it in an instant.
@@ -26177,6 +26183,7 @@ It is from these higher powers that he expects every blessing.
 It is full of unruly members.
 It is generally better to use flowing water than still, stagnant water.
 It is generally the man's own fault.
+It is generally unsafe to argue from the silence of our authorities.
 It is geographically located five hundred miles south-east.
 It is getting late, and they have not come.
 It is good practice to commiserate the losing team.
@@ -27525,6 +27532,7 @@ It was the first aeroplane anyone had seen.
 It was the first awkward movement she had ever made.
 It was the greatest compliment that he could imagine.
 It was the groundsman's paint.
+It was the king who really governed the country.
 It was the knockout.
 It was the last thing she could do for him.
 It was the last which she would have chosen.
@@ -33576,6 +33584,7 @@ Orion was for them chief in significance among the constellations.
 Ornithologists are not agreed as to the reason for this association.
 Ornithology is a fascinating hobby.
 Orthodox Roman tradition always admitted that she was a Vestal.
+Osiris may have been originally nothing but one of these deified monarchs.
 Osiris must be the sun because an eye was one of his symbols.
 Osiris uniformly appears in tradition as a great and beneficent king.
 Osiris was interpreted by many modern writers as the sun.
@@ -42362,6 +42371,7 @@ The following definitions specify what happens to a creature
 The following entries appear among the traits of most fantasy races.
 The following facts may possibly be of interest to you.
 The following is another extract from the same treatise.
+The following result was the consequence of the directions of the oracle.
 The following table contains the formulas of the compounds.
 The following tables give the mean intensity of the air movement.
 The following terms are indispensable.
@@ -43481,6 +43491,7 @@ The magazine predicted that there would be nightmare shortages.
 The magic formula demanded nothing less than this.
 The magic formula differs slightly in the two passages.
 The magic tablet will prove an exceptionally good seller among schoolchildren.
+The magic touch of time distorts and magnifies the past.
 The magical implement is set up in the ground near the fire.
 The magician deals him a terrible blow, sometimes felling him to the ground.
 The magician is the man who has the most power in his hands.
@@ -45132,6 +45143,7 @@ The sand-martins, and mudlarks, too, were busy in their department.
 The sandy beach is full of crooked peaches.
 The sanitary condition of Naples was far worse than it is now.
 The sateen is for church and Sunday school.
+The saturnine temperament of the farmer is naturally averse to change.
 The sausage squirmed, spluttered, and sang as the lively flames leapt around it.
 The savage will use all sorts of roundabout phrases to avoid saying it.
 The savages supply it chiefly with the poncho.
@@ -45448,6 +45460,7 @@ The soul takes the same shape as the body it belongs to.
 The soul was enclosed in the body as in a soul or prison.
 The soul would be expelled before it could have time to settle down.
 The souls of Christian Thompsons travel by a new road.
+The souls of dead chiefs have power over the rain.
 The souls of such unfortunates pass into trees or animals or fish.
 The sound of a lot of bells tends to make a dog shy.
 The sound of approaching footsteps roused him.
@@ -45502,6 +45515,7 @@ The spirit that animated these beautiful trees generally lurked unseen.
 The spirits act upon the nutritious particles by their rotary motion.
 The spirits are believed to have formerly been kings of the world.
 The spirits are supposed to come and enjoy the smell.
+The spirits of dead kings are consulted on matters of public concern.
 The spirits of the ancestors are the main objects of religious worship.
 The spirits of the rocks or the river would snatch away their souls.
 The spirits of their ancestors interfere constantly in their affairs.
@@ -45660,6 +45674,7 @@ The subject has been treated with indecent and disgusting levity.
 The subject of today's class will be nature study.
 The subject will be touched on in a later part of this work
 The subordinate Messiah shall die in service of the people.
+The substantial similarity of their mythical character justifies us in treating of them together.
 The subtlety of the bowlers becomes magnified.
 The succession of events is perfectly regular and certain.
 The succession to the kingdom did not pass with the hand of the princess.
@@ -49654,6 +49669,7 @@ They were expected to be a source of fecundity to the cattle.
 They were expected to be a source of fertility to the land.
 They were following the shore of a lake.
 They were for passenger traffic alone.
+They were forbidden to contract the pollution for strangers.
 They were forced up above the ground in the shape of arches.
 They were found under the floor of the bedroom.
 They were free to eat as much food as they pleased.
@@ -50519,6 +50535,7 @@ This mode of proceeding was called regulation, and its authors and friends regul
 This model incorporates a touch feature.
 This molecular structure is unlike anything I've ever seen.
 This money also was taken from the pack.
+This monotonous routine is common to all purely agricultural communities.
 This morning I discovered six repeaters among my men.
 This morning at the Singhu Border.
 This morning, ma'am; I found him at the corner of the town.
@@ -52645,6 +52662,7 @@ We have to thank you for that.
 We have to then move on to next.
 We have travelled a long ways, and have seen a heap of things.
 We have two Pekingese, a King Charles, and a pug.
+We have two independent lines of proof that Saturn was supposed to be married.
 We have uploaded the new version to the Dev server.
 We have weak armor and we're severely outnumbered.
 We have weighed the arguments on both sides.
