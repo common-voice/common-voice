@@ -1011,6 +1011,7 @@ download-request-metadata-link = ⴰⴹⵕⵉⵚ ⵏ ⵜⵡⵉⵏⵙⵜ
 
 help-contribute = ⵜⵣⵎⵔⵎ ⴰⴷ ⵜⴰⵡⵙⵎ ⴳ ⵓⵥⴽⴽⵓ ⵏ ⵢⴰⵜ ⵜⴳⵔⵓⵎⵎⴰ ⵏ ⵉⵙⴼⴽⴰ ⵉⵎⵏⴰⵡⴰⵢⵏ, ⵏ ⵓⵙⴰⴳⵎ ⵓⵕⵥⵉⵎ, ⵙ ⵓⵙⵏⴼⵍⵓⵍ ⵏ ⵢⴰⵏ ⵉⴼⵔⵙ ⵏ ⴽⴰⵎⵏⴼⵓⵢⵙ ⴷ ⵡⴰⵔⵔⴰⴳ ⵙ ⵓⴳⵕⴹ ⵏⵏⵓⵏ.
 login-company = ⴽⵛⵎ/ⵣⵎⵎⴻⵎ ⵙ ⵉⵎⴰⵢⵍ ⵏ { $company }
+profile-not-required = ⵓⵔ ⴷ ⵉⵇⵇⴰⵏ ⴰⴷ ⵖⵓⵔⵓⵏ ⵢⵉⵍⵉ ⵉⴼⵔⵙ ⵃⵎⴰ ⴰⴷ ⵜⴰⵔⴳⵎ, ⵎⴰⵛⴰ ⵍⴰ ⵉⵜⵜⴰⵡⵙ, ⵥⵕⴰⵜ ⵎⴰⵅⴼ ⴷⴷⴰⵡ ⴷⴰ.
 read-more-about = ⵖⵔ ⵓⴳⴳⴰⵔ ⴳ ⵜⴰⵙⵏⴰ ⵏ ⵅⴼ ⵏⵏⵖ
 
 ## DemoLayout
@@ -1409,6 +1410,7 @@ adding-sentences-subheader-length-explanation = ⵉⵅⵚⵚⴰ ⴰⴷ ⵜⵉⵍ
 adding-sentences-subheader-spelling-punctuation = ⴰⵙⵏⵎⴰⵔⵔⴰ ⴷ ⵓⵙⵏⵇⴹ
 adding-sentences-subheader-spelling-punctuation-explanation = ⵉⵇⵇⴰⵏ ⴷ ⴰⴷ ⵢⴰⵖⴷ ⵓⵙⵏⵎⴰⵔⵔⴰ ⵏ ⵜⵡⵉⵏⵙⵜ.
 adding-sentences-subheader-speakable = ⵜⵖⴰⵢ ⴰⴷ ⵜⴻⵜⵜⵓⵏⵏⴰ
+adding-sentences-subheader-speakable-explanation = ⵜⵉⵡⵉⵏⴰⵙ ⵜⵉⵎⵓⴼⴰⵢⵉⵏ ⴳⴰⵏⵜ ⵜⵉⴳⴰⵎⴰⵏⵉⵏ, ⵢⵉⵍⵉ ⴳⵉⵙⵏⵜ ⵓⵎⵔⴰⵔⴰ ⵏ ⵡⴰⵡⴰⵍ — ⵉⵅⵚⵚⴰ ⵜⵏⵜ ⴰⴷ ⵍⵎⴹⵏⵜ ⵅⴼ ⵢⴰⵏ ⴰⴷ ⵜⵏⵜ ⵉⵖⵔ. ⵡⴰⵅⵅⴰ ⵉⵅⴰⵜⵔ ⵓⵎⵢⴰⵏⴰⵡ ⵉⵎⵙⵉⵙⵍⵉ ⴷ ⵜⴳⵓⵔⵉⵡⵉⵏ ⵎⵣⴰⵔⴰⵢⵏⵉⵏ ⴳ ⵜⵡⵉⵏⵙⵜ, ⵎⴰⵛⴰ ⵍⴰ ⵏⵜⵜⴰⵔⵎ ⴽⵔⴰ ⵙ ⵏⵓⴼⴰ ⴰⴷ ⵏⵙⴽⵔ ⵙⴳ ⵓⵙⵓⵙⵔ ⵏ ⵜⵡⵉⵏⴰⵙ ⵢⴰⵜ ⵜⵖⴰⵡⵙⴰ ⵉⵙⵙⵓⵖⵓⵏⵏ ⴷ ⵉⴼⵊⵊⵉⵊⵏ ⵉ ⵜⴳⵔⴰⵡⵜ ⵏ ⵉⵎⵅⴰⵙⵏ ⵏⵏⵖ.
 adding-sentences-subheader-numbers = ⵓⵟⵟⵓⵏⵏ
 adding-sentences-subheader-punctuation = ⴰⵙⵏⵇⴹ
 adding-sentences-subheader-special-characters = ⵉⵡⵏⵖⵓⵜⵏ ⵉⵎⵥⵍⴰⵢ ⴷ ⵉⵙⴽⴽⵉⵍⵏ ⵉⴱⵕⵕⴰⵏⵉⵢⵏ
