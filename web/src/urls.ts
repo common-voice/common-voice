@@ -36,6 +36,7 @@ export default Object.freeze({
   GUIDELINES: '/guidelines',
   SENTENCE_COLLECTOR_REDIRECT: '/sentence-collector-redirect',
   WRITE: '/write',
+  REVIEW: '/review',
 
   LANGUAGES: '/languages',
   LANGUAGE_REQUEST: '/language/request',

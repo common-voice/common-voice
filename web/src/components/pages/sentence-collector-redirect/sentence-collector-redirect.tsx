@@ -31,7 +31,10 @@ const SentenceCollectorRedirect = () => (
           <React.Fragment>
             <Localized
               id="sc-redirect-page-subtitle-1"
-              elems={{ scURL: <LocaleLink to={URLS.WRITE} /> }}>
+              elems={{
+                writeURL: <LocaleLink to={URLS.WRITE} />,
+                reviewURL: <LocaleLink to={URLS.REVIEW} />,
+              }}>
               <p className="subtitle-1" />
             </Localized>
             <Localized
@@ -71,7 +74,7 @@ const SentenceCollectorRedirect = () => (
       </div>
       <div className="sc-redirect-page__image">
         <img
-          src={require('../error-page/images/mars-sad.svg')}
+          src={require('./images/common-voice-mars-neutral.png')}
           alt=""
           loading="lazy"
           role="presentation"
