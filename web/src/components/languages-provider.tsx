@@ -53,24 +53,24 @@ const LanguageRoutes = ({
       <SentryRoute
         path="/:locale"
         render={something => {
-          const localeParam = something?.match?.params?.locale;
+          const localeParam = something?.match?.params?.locale
 
           const hasTranslatedLocale =
-            languages.translatedLocales.includes(localeParam);
+            languages.translatedLocales.includes(localeParam)
 
           if (hasTranslatedLocale) {
             if (primaryUserLocale !== localeParam) {
-              setUserLocales([localeParam, ...userLocales]);
+              setUserLocales([localeParam, ...userLocales])
             }
 
-            return children;
+            return children
           }
 
           // redirect pt-BR to pt
           if (localeParam === 'pt-BR') {
             return (
               <Redirect push to={location.pathname.replace('pt-BR', 'pt')} />
-            );
+            )
           }
 
           // redirect en-UK, en-US etc to en
@@ -80,16 +80,17 @@ const LanguageRoutes = ({
                 push
                 to={location.pathname.replace(localeParam, 'en')}
               />
-            );
+            )
           }
 
+          // TODO: Find the right place to do this redirect
           if (localeParam === 'sentence-collector') {
             return (
               <Redirect
                 push
                 to={toLocaleRoute(URLS.SENTENCE_COLLECTOR_REDIRECT)}
               />
-            );
+            )
           }
 
           // 404 for non-translated locales
@@ -101,7 +102,7 @@ const LanguageRoutes = ({
                 state: { prevPath: location.pathname },
               }}
             />
-          );
+          )
         }}
       />
     </Switch>
