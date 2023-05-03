@@ -935,7 +935,7 @@ listen-instruction = { $actionType } <playIcon> </playIcon> vai viņi precīzi i
 listen-again-instruction = Lieliski paveikts darbs! <playIcon> </playIcon> Klausieties vēlreiz, kad esat gatavs
 listen-3rd-time-instruction = 2 pabeigti, tā tik turi! <playIcon> </playIcon>
 listen-last-time-instruction = <playIcon> </playIcon> Pēdējais!
-listen-empty-state = Iespējams visi ieraksti jau ir apstrādāti - pārlādējiet lapu vai mēģiniet nedaudz vēlāk.
+listen-empty-state = Iespējams, visi ieraksti jau ir apstrādāti - pārlādējiet lapu vai mēģiniet nedaudz vēlāk.
 listen-loading-error =
     Mēs nevarējām iegūt nevienu ierakstu, ko jums klausīties.
     Lūdzu, mēģiniet vēlreiz nedaudz vēlāk.
@@ -1406,7 +1406,7 @@ contribution-misreadings-example-7-explanation = [‘Ja‘ nav tas pats kas ‘j
 contribution-misreadings-example-8-title = Bites ir čakli kukaiņi
 contribution-misreadings-example-8-explanation = [Ierunāts nepareizs teikums]
 contribution-varying-pronunciations-title = Dažādas izrunas
-contribution-varying-pronunciations-description = Esiet piesardzīgi, pirms noraidāt ierakstu, pamatojoties uz to, ka lasītājs ir nepareizi izrunājis vārdu, ievietojis uzsvaru nepareizā vietā vai acīmredzami ignorējis jautājuma zīmi. Izrunas pasaulē ir dažādas un dažus no tām jūs, iespējams, ikdienā nedzirdat sev apkārt. Novērtējiet to, ka dažādi cilvēki runā citādāk nekā jūs.
+contribution-varying-pronunciations-description = Esiet piesardzīgi, pirms noraidāt ierakstu, pamatojoties uz to, ka lasītājs ir nepareizi izrunājis vārdu, ievietojis uzsvaru nepareizā vietā vai acīmredzami ignorējis jautājuma zīmi. Izrunas ir dažādas un dažas no tām jūs, iespējams, ikdienā nedzirdat sev apkārt. Novērtējiet to, ka cilvēki var runāt citādi nekā jūs.
 contribution-varying-pronunciations-description-extended = No otras puses, ja izruna ir nepareiza vai kļūdaina, noraidiet ierakstu. Ja neesat pārliecināti, izmantojiet izlaišanas pogu.
 contribution-varying-pronunciations-example-1-title = Man garšo desa.
 contribution-varying-pronunciations-example-1-explanation = [‘desa’ ir pareizi ierunāta neatkarīgi no tā vai dažādos akcentos tiek lietots platais vai šaurais e]
