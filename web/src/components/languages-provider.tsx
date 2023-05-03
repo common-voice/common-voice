@@ -17,6 +17,7 @@ import { useAPI } from '../hooks/store-hooks';
 import { Spinner } from './ui/ui';
 import { Locale } from '../stores/locale';
 import * as Languages from '../stores/languages';
+import { useLocale } from './locale-helpers';
 
 const SentryRoute = Sentry.withSentryRouting(Route);
 
@@ -34,6 +35,7 @@ const LanguageRoutes = ({
   const languages = useTypedSelector(({ languages }) => languages);
 
   const [primaryUserLocale] = userLocales;
+  const [, toLocaleRoute] = useLocale();
 
   return (
     <Switch>
@@ -77,6 +79,15 @@ const LanguageRoutes = ({
               <Redirect
                 push
                 to={location.pathname.replace(localeParam, 'en')}
+              />
+            );
+          }
+
+          if (localeParam === 'sentence-collector') {
+            return (
+              <Redirect
+                push
+                to={toLocaleRoute(URLS.SENTENCE_COLLECTOR_REDIRECT)}
               />
             );
           }
