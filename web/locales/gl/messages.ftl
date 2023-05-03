@@ -1680,3 +1680,5 @@ reviewing-sentences-explanation-3 = Se ten dúbidas sobre a frase, pode omitila 
 reviewing-sentences-explanation-4 = Se xa non quedan frases para revisar, axúdenos a recoller máis!
 community-announcement-header = Anuncio á comunidade!
 community-announcement-explanation = As orientacións que se inclúen a continuación refírense ás novas funcións do recompilador de frases, que se integrarán na plataforma principal de Common Voice entre marzo e abril de 2023. Mentres tanto, pode empregar a ferramenta anterior, <scLink>https://commonvoice.mozilla.org/sentence-collector/</scLink>.
+# SENTENCE-COLLECTOR-REDIRECT PAGE
+sc-redirect-page-title = Estamos facendo grandes cambios
