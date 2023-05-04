@@ -586,6 +586,7 @@ about-playbook-how-localize-content-5 = ⴰⵏⵏⴰⵢⴰⵜ ⴰⴼⵉⴷⵢⵓ
 
 about-playbook-how-add-sentences = ⵎⴰⵏⵎⴽ ⵙ ⵔⴰⴷ ⵔⵏⵓⵖ ⵜⵉⵡⵉⵏⴰⵙ?
 about-playbook-how-add-sentences-content-1 = ⵉⴳⴰ <strong>ⵙⴰⵏⵜⵏⵙ ⴽⵓⵍⵉⴽⵜⵓⵔ</strong> ⵢⴰⵏ ⵢⵉⵎⵉⵙⵙ ⵏ ⵓⴳⵔⵔⵓ ⴷ ⵓⵣⵣⵔⴰⵢ ⵏ ⵜⵡⵉⵏⴰⵙ ⵏ ⵡⴰⴳⵍⴰ ⴰⴳⴷⵓⴷⴰⵏ. ⵔⴰⴷ <scAccountLink>ⵜⴰⵙⵔⵎ ⴰⴷ ⵜⵙⵏⴼⵍⵓⵍⵎ ⵢⴰⵏ ⵓⵎⵉⴹⴰⵏ</scAccountLink>. ⵜⵔⵏⵓⵎ ⵉⵍⵎⵎⴰ ⵜⵓⵜⵍⴰⵢⵜ ⵏⵏⵓⵏ ⴳ <strong>ⵢⵉⴼⵔⵙ</strong> ⵏⵏⵓⵏ. ⵜⵣⵎⵔⵎ ⴰⴷ <strong>ⵜⵔⵏⵓⵎ</strong> ⵜⵉⵡⵉⵏⴰⵙ ⵏⵉⵖ <strong>ⵜⵙⵙⵉⵔⵎⵎ</strong> ⵜⵉⵡⵉⵏⴰⵙ ⵢⴰⴷ ⵜⵜⵓⵔⵏⴰⵏⵉⵏ.
+about-playbook-how-add-sentences-content-2 = ⵉⵇⵇⴰⵏ ⴷ ⴰⴷ ⵜⵜⵢⴰⵔⴰⵎⵏⵜ ⵜⵡⵉⵏⴰⵙ ⴷ ⴰⴷ ⵜⵜⵓⴷⴳⴳⴰⵏⵜ ⵙⴳ ⵖⵓⵔ ⵙⵉⵏ ⵎⴷⴷⵏ ⵃⵎⴰ ⴰⴷ ⵜⵜⵢⴰⵎⵓⵏⵜ ⴳ ⴽⴰⵎⵏⴼⵓⵢⵙ. ⴰⴷ ⵜⵙⵏⴼⵍⵓⵍⵎ ⵜⴰⵔⴰⵜⵉⵏ ⵉ ⵜⵓⵜⵍⴰⵢⵜ ⵏⵏⵓⵏ <languageGuidelinesLink>ⴷⴰ</languageGuidelinesLink>. ⵉⵇⵇⴰⵏ ⴷ ⴰⴷ ⵉⵍⵉⵏⵜ ⵜⵡⵉⵏⴰⵙ ⴳ <licenseLink>ⵡⴰⴳⵍⴰ ⴰⴳⴷⵓⴷⴰⵏ</licenseLink> ⴷ ⴰⴷ ⵉⴳⵣⵓⵍⵏⵜ ⵅⴼ 15 ⵜⴳⵓⵔⵉⵡⵉⵏ. ⵜⵣⵎⵔⵎ ⴰⴷ ⵜⴻⵜⵜⵔⵎ ⵉ ⴱⴰⴱ ⵏ ⴽⵔⴰ ⵏ ⵓⴹⵕⵉⵚ ⴰⴷ ⴳⵉⵙ ⵉⵙⴽⵔ <waiverLink>CC0 ⵙ ⵓⵙⵙⵎⵔⵙ ⵏ ⵜⵣⵉⴳⵣⵜ ⵏ ⵓⵅⵔⵔⵎ</waiverLink>, ⵜⴰⵣⵏⵎ ⴰⵏⵖ ⵜ ⴳ commonvoice@mozilla.com
 about-playbook-how-add-sentences-content-3 = ⵜⵣⵎⵔⵎ ⴰⴷ ⵜⵙⵙⵎⵔⵙⵎ <scraperLink>ⴰⵎⴰⵙⵙⴰⴼ ⵏ ⵜⵡⵉⵏⴰⵙ</scraperLink> ⵃⵎⴰ ⴰⴷ ⴷ ⵜⴰⵎⴷⵎ ⵜⵉⵡⵉⵏⴰⵙ ⴳⵣⵣⵓⵍⵏⵉⵏ ⵙⴳ ⵡⵉⴽⵉⴱⵉⴷⵢⴰ.
 about-playbook-how-add-sentences-content-4 = ⵍⴰ ⵜⵜⴼⴼⵖⵏⵜ ⵜⵡⵉⵏⴰⵙ ⵏⵏⴰ ⵣⵔⵢⵏⵉⵏ ⴽⵓ ⴰⴽⵕⴰⵙ, ⵙⴰⴳⴰⵏⵜ ⴷⴼⴼⵉⵔ ⵜⵓⴼⴼⵖⴰ ⵜⵓⴹⴼⵉⵕⵜ.
 
