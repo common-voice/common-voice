@@ -18,6 +18,7 @@
 @custom-media --demo-only (width < 1040px);
 
 @custom-media --tall (height > 800px);
+@custom-media --xl-tall (height > 910px);
 
 @keyframes fade-in {
     from {

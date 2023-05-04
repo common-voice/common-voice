@@ -358,7 +358,7 @@
         justify-content: center;
         align-items: center;
 
-        @media (min-height: 910px) {
+        @media (--xl-tall) {
             margin-top: 10vh;
         }
 
