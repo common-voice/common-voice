@@ -1781,3 +1781,7 @@ reviewing-sentences-explanation-3 = Os ydych chi'n ansicr am y frawddeg, gallwch
 reviewing-sentences-explanation-4 = Os ydych chi'n rhedeg allan o frawddegau i'w hadolygu, helpwch ni i gasglu mwy o frawddegau!
 community-announcement-header = Cyhoeddiad cymunedol!
 community-announcement-explanation = Mae'r canllawiau isod ar gyfer nodweddion newydd y casglwr brawddegau a fydd yn cael eu hintegreiddio i lwyfan craidd Common Voice yn ystod misoedd Mawrth ac Ebrill 2023. Yn y cyfamser gallwch ddefnyddio'r teclyn blaenorol, <scLink>https://commonvoice.mozilla.org/ casglwr brawddegau/ </scLink>.
+# SENTENCE-COLLECTOR-REDIRECT PAGE
+sc-redirect-page-title = Rydym yn gwneud rhai newidiadau mawr
+sc-redirect-page-subtitle-1 = Mae'r Casglwr Brawddegau yn symud i lwyfan craidd Common Voice. Nawr gallwch <writeURL>ysgrifennu</writeURL> brawddeg neu <reviewURL>adolygu</reviewURL> brawddeg unigol wedi eu cyflwyno ar Common Voice.
+sc-redirect-page-subtitle-2 = Gofynnwch gwestiynau i ni ar <matrixLink>Matrics</matrixLink>, <discourseLink>Discourse</discourseLink> neu <emailLink>email</emailLink>.
