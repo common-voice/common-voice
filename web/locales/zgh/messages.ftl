@@ -1222,6 +1222,12 @@ sc-confirm-sentences-found =
 # Variables:
 #   $countOfInvalidated (Number) - Number of sentences the user rejected in the review form before submission
 sc-confirm-rejected-by-you = { $countOfInvalidated } ⵜⵜⵢⴰⴳⴰⵢⵏⵉⵏ ⵙⴳ ⵖⵓⵔⵓⵏ
+sc-confirm-already-reviewed =
+    { $countOfReviewed ->
+        [0] ⵡⴰⵍⵓ ⴽⵔⴰ ⵏ ⵜⵡⵉⵏⵙⵜ ⵢⴰⴷ ⵉⵜⵜⵢⴰⵔⴰⵎⵏ.
+        [one] 1 ⵜⵡⵉⵏⵙⵜ ⴰⴷ ⵢⴰⴷ ⵉⵜⵜⵢⴰⵔⴰⵎⵏ. ⴰⵢⵢⵓⵣ!
+       *[other] { $countOfReviewed } ⵜⵡⵉⵏⴰⵙ ⴰⴷ ⵢⴰⴷ ⵉⵜⵜⵢⴰⵔⴰⵎⵏ. ⴰⵢⵢⵓⵣ!
+    }
 # Variables:
 #   $readyCount (Number) - Number of sentences ready to be uploaded
 sc-confirm-ready =
@@ -1230,6 +1236,9 @@ sc-confirm-ready =
         [one] 1 ⵜⵡⵉⵏⵙⵜ ⵉⵎⵎⵓⵜⵜⴳⵏ ⵉ ⵡⴰⵣⴰⵏ!
        *[other] { $readyCount } ⵜⵡⵉⵏⴰⵙ ⵎⵎⵓⵜⵜⴳⵏⵉⵏ ⵉ ⵡⴰⵣⴰⵏ!
     }
+# Variables:
+#   $countOfUnreviewed (Number) - Number of sentences unreviewed before the upload
+sc-confirm-unreviewed = { $countOfUnreviewed } ⵜⵡⵉⵏⴰⵙ ⵓⵔ ⵜⵜⵢⴰⵔⴰⵎⵏⵉⵏ. ⵎⴽ ⵜⵅⵙⵎ, ⵜⵣⵎⵔⵎ ⴰⵡⴷ ⴰⴷ ⵜⵙⵙⵉⵔⵎⵎ ⵜⵉⵡⵉⵏⴰⵙ ⵏⵏⵓⵏ ⴷⵖⵉ ⴷⴰⵜ ⴰⴷ ⵜⵏⵜ ⵜⴰⵣⵏⵎ.
 sc-confirm-button-text = ⵙⵙⴷⴻⴷ
 sc-confirm-uploading = ⵍⴰ ⵜⵜⵓⵙⴽⵜⵔⵏⵜ ⵜⵡⵉⵏⴰⵙ. ⴰⵢⴰ ⵔⴰⴷ ⵢⴰⵡⵢ ⵎⵏⵏⴰⵡⵜ ⵜⵓⵙⴷⵉⴷⵉⵏ ⵙ ⵓⵙⵉⴹⵏ ⵏ ⵡⵓⵟⵟⵓⵏ ⵏ ⵜⵡⵉⵏⴰⵙ ⵜⵜⵓⵔⵏⴰⵏⵉⵏ. ⵎⴽ ⵜⵓⴼⴰⵎ, ⴰⴷ ⵓⵔ ⵜⵔⴳⵍⵎ ⴰⵙⵉⵜⵡⵉⴱ ⴰ.
 
@@ -1252,6 +1261,14 @@ sc-lang-info-in-review =
         [0] ⵡⴰⵍⵓ ⵜⵉⵡⵉⵏⴰⵙ ⴳ ⵓⵙⵙⵉⵔⵎ.
         [one] 1 ⵜⵡⵉⵏⵙⵜ ⴳ ⵓⵙⵙⵉⵔⵎ.
        *[other] { $totalInReview } ⵜⵡⵉⵏⴰⵙ ⴳ ⵓⵙⵙⵉⵔⵎ.
+    }
+# Variables:
+#   $unreviewedSentencesByYou (Number) - Number of sentences the user can still review
+sc-lang-info-left-for-you =
+    { $unreviewedSentencesByYou ->
+        [0] ⵡⴰⵍⵓ ⵜⵉⵡⵉⵏⴰⵙ ⵖⴰⵎⴰⵏⵉⵏ ⵃⵎⴰ ⴰⴷ ⵜⵏⵜ ⵜⵙⵙⵉⵔⵎⵎ.
+        [one] 1 ⵜⵡⵉⵏⵙⵜ ⴰⴷ ⴰⵡⵏ ⵉⵖⴰⵎⴰⵏ ⴰⴷ ⵜⵜ ⵜⵙⵙⵉⵔⵎⵎ.
+       *[other] { $unreviewedSentencesByYou } ⵜⵡⵉⵏⴰⵙ ⴰⴷ ⴰⵡⵏ ⵉⵖⴰⵎⴰⵏ ⴰⴷ ⵜⵏⵜ ⵜⵙⵙⵉⵔⵎⵎ.
     }
 sc-lang-info-review-now = <reviewLink>ⵙⵙⵉⵔⵎ ⴷⵖⵉ!</reviewLink>
 sc-lang-info-add-more = <addLink>ⵔⵏⵓ ⵓⴳⴳⴰⵔ ⵏ ⵜⵡⵉⵏⴰⵙ ⴷⵖⵉ!</addLink>
