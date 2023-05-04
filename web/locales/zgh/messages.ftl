@@ -591,6 +591,7 @@ about-playbook-how-add-sentences-content-4 = ⵍⴰ ⵜⵜⴼⴼⵖⵏⵜ ⵜⵡ
 ## How to record quality
 
 about-playbook-how-record-quality = ⵎⴰⵏⵎⴽ ⵙ ⵔⴰⴷ ⵙⵓⵙⵔⵖ ⴽⵔⴰ ⵏ ⵜⵓⵙⵙⵉⴼⵜ ⵜⴰⴳⵕⴹⴰⵏⵜ ⵙ ⵓⵖⵓⴷⵓ ⴰⵎⴰⵜⵜⴰⵢ?
+about-playbook-how-record-content-1 = ⵙⵉⵡⵍⴰⵜ ⵙ ⵓⴳⵕⴹ ⵏⵏⵓⵏ ⴰⴳⴰⵎⴰⵏ! ⵍⴰ ⵏⵙⴱⵔⵔⴰⴽ ⴷⴰ ⵙ ⵜⵖⴰⵔⴰⵙⵜ ⵏⵏⴰ ⵙ ⵜⵙⴰⵡⴰⵍⵎ - ⵏⵅⵙ ⴰⵙⵓⵙⵔⵓ ⵏⵏⵓⵏ ⵙ ⵎⴽⴷⴰ ⵉⴳⴰ, ⵏⵅⵙ ⴰⵙⵡⵉⵔ ⵏ ⵢⵉⵎⵙⵍⵉ, ⵜⴰⵎⴰⵎⴽⵜ ⴷ ⵡⴰⵍⵍⵖⴰ ⵏⵏⵓⵏ ⵉⵏⵎⵢⴰⵔⵏ.
 about-playbook-how-record-content-2 = ⴰⵏⴼⴰⵜ ⵉ ⴽⵉⴳⴰⵏ ⵏ ⵓⴷⵉⴷⴰ ⵏ ⵜⵖⵔⴷⵉⵏ - ⵉⵅⵚⵚⴰ ⴰⴷ ⵜⴻⵜⵜⵓⵙⵍⵍⵎ ⵙ ⵓⵍⵎⴰⴹ.
 about-playbook-how-record-content-5 = <accuracyLink>ⵥⵕ ⵓⴳⴳⴰⵔ ⵅⴼ ⵉⵙⴱⴷⴰⴷⵏ ⵏ ⵓⵏⵖⴰⴷ.</accuracyLink>
 
@@ -1084,6 +1085,7 @@ contribution-background-voices-title = ⵉⴳⵕⴹⴰⵏ ⵏ ⵜⵖⵔⴷⵉⵏ
 contribution-background-voices-example-1-title = ⵉⵣⵎⴰⵡⵏ ⵏ ⵡⴰⵟⵍⴰⵚ. <strong>[ⵜⵉⵖⵔⵉ ⵙ ⵢⴰⵏ ⵓⴳⵕⴹ]</strong>
 contribution-background-voices-example-1-explanation = ⵔⴰⴷ ⴷ ⵜⴷⴷⵓⴷ? <strong>[ⴰⵡⴰⵍ ⵏ ⴽⵔⴰ ⵏ ⵢⴰⵏ ⵢⴰⴹⵏ]</strong>
 contribution-volume-title = ⴰⵙⵡⵉⵔ ⵏ ⵢⵉⵎⵙⵍⵉ
+contribution-volume-description = ⵔⴰⴷ ⵉⵍⵉⵏ ⵉⵎⵣⴰⵔⴰⵢⵏ ⵉⴳⴰⵎⴰⵏⵏ ⴳ ⵓⵙⵡⵉⵔ ⵏ ⵢⵉⵎⵙⵍⵉ ⴳⵔ ⵉⵎⵖⵔⵉⵜⵏ. ⴰⴳⵢ ⵖⴰⵙ ⵎⴽ ⴱⴰⵀⵔⴰ ⵢⴰⵜⵜⵓⵢ ⵓⵙⵡⵉⵔ ⵏ ⵢⵉⵎⵙⵍⵉ ⴰⵢⵍⵍⵉⴳ ⵍⴰ ⵉⵜⵜⴱⴱⵢ ⵓⵙⵓⵙⵔ, ⵏⵉⵖ (ⴳ ⵓⵎⴰⵜⴰ ⵏ ⵡⴰⴷⴷⴰⴷⵏ) ⵎⴽ ⴱⴰⵀⵔⴰ ⵉⵣⴷⵔ ⴰⵢⵍⵍⵉⴳ ⵓⵔ ⵜⵣⵎⵉⵔⴷ ⴰⴷ ⵜⵙⵍⵍⴷ ⵉ ⵓⵢⵏⵏⴰ ⵉⵜⵜⵓⵏⵏⴰⵏ ⵎⵉⵏ ⵜⴰⵙⴰⵖⵓⵍⵜ ⵖⵔ ⵓⴹⵕⵉⵚ ⵉⵜⵜⵢⴰⵔⴰⵏ.
 contribution-just-unsure-title = ⵖⴰⵙ ⵓⵔ ⵜⵃⵇⵇⴰⴷ?
 see-more = <chevron></chevron>ⵥⵕ ⵓⴳⴳⴰⵔ
 see-less = <chevron></chevron>ⵥⵕ ⴷⵔⵓⵙ
@@ -1393,6 +1395,7 @@ background-noise-tip-2 = [ⵓⵔ ⵜⴻⵜⵜⵓⵙⵍⵍⴰ ⵢⴰⵜ ⵜⴳⴹ
 background-voices-explanation = ⵉⵎⵉⴽⴽ ⵏ ⵓⴷⵉⴷⴰ ⵏ ⵜⵖⵔⴷⵉⵏ ⵡⴰⵅⵅⴰ, ⵎⴰⵛⴰ ⵎⴽ ⵜⵣⵎⵔⴷ ⴰⴷ ⵜⵙⵍⵍⴷ ⵉ ⴽⵔⴰ ⵏ ⵓⵡⵔⵉⴽ ⵢⴰⴹⵏ ⵉⵙⴰⵡⴰⵍⵏ ⵜⵉⴳⵓⵔⵉⵡⵉⵏ ⵏⴰⵃⵢⴰ ⵜⵏ, ⵉⵅⵚⵚⴰ ⴰⴷ ⵜⴻⵜⵜⵢⴰⴳⴰⵢ ⵜⵓⵙⵙⵉⴼⵜ. ⵍⴰ ⵉⵜⵜⵎⵙⴰⵔ ⵓⵢⴰ ⵙ ⵓⵎⴰⵜⴰ ⴷⵉⵏⵏⴰ ⴳ ⵉⵇⵇⵉⵎ ⵓⵜⵉⵍⵉⴼⵉⵣⵢⵓⵏ ⵉⵔⵖⴰ, ⵏⵉⵖ ⴷⵉⵏⵏⴰ ⴳ ⵉⵍⵍⴰ ⴽⵔⴰ ⵏ ⵓⵎⵔⴰⵔⴰ ⵏ ⵡⴰⵡⴰⵍ ⵜⴰⵎⴰ ⵏⵏⵙ.
 background-voices-example-1 = ⵉⵣⵎⴰⵡⵏ ⵏ ⵡⴰⵟⵍⴰⵚ. [ⵜⵉⵖⵔⵉ ⵙ ⵢⴰⵏ ⵓⴳⵕⴹ]
 background-voices-tip-1 = ⵔⴰⴷ ⴷ ⵜⴷⴷⵓⴷ? [ⴰⵡⴰⵍ ⵏ ⴽⵔⴰ ⵏ ⵢⴰⵏ ⵢⴰⴹⵏ]
+volume-explanation = ⵔⴰⴷ ⵉⵍⵉⵏ ⵉⵎⵣⴰⵔⴰⵢⵏ ⵉⴳⴰⵎⴰⵏⵏ ⴳ ⵓⵙⵡⵉⵔ ⵏ ⵢⵉⵎⵙⵍⵉ ⴳⵔ ⵉⵎⵖⵔⵉⵜⵏ. ⴰⴳⵢ ⵖⴰⵙ ⵎⴽ ⴱⴰⵀⵔⴰ ⵢⴰⵜⵜⵓⵢ ⵓⵙⵡⵉⵔ ⵏ ⵢⵉⵎⵙⵍⵉ ⴰⵢⵍⵍⵉⴳ ⵍⴰ ⵉⵜⵜⴱⴱⵢ ⵓⵙⵓⵙⵔ, ⵏⵉⵖ (ⴳ ⵓⵎⴰⵜⴰ ⵏ ⵡⴰⴷⴷⴰⴷⵏ) ⵎⴽ ⴱⴰⵀⵔⴰ ⵉⵣⴷⵔ ⴰⵢⵍⵍⵉⴳ ⵓⵔ ⵜⵣⵎⵉⵔⴷ ⴰⴷ ⵜⵙⵍⵍⴷ ⵉ ⵓⵢⵏⵏⴰ ⵉⵜⵜⵓⵏⵏⴰⵏ ⵎⵉⵏ ⵜⴰⵙⴰⵖⵓⵍⵜ ⵖⵔ ⵓⴹⵕⵉⵚ ⵉⵜⵜⵢⴰⵔⴰⵏ.
 still-have-questions = ⵖⵓⵔⵓⵏ ⵙⵓⵍ ⵉⵙⵇⵙⵉⵜⵏ?
 contact-common-voice = ⵎⵢⴰⵡⴰⴹⴰⵜ ⴰⴽⴷ ⵜⵔⴰⴱⴱⵓⵜ ⵏ ⴽⴰⵎⵏⴼⵓⵢⵙ
 public-domain = ⴰⴳⵍⴰ ⴰⴳⴷⵓⴷⴰⵏ
