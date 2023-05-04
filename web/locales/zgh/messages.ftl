@@ -1066,6 +1066,7 @@ contribution-criteria-link = ⵔⵎⵙ ⵉⵙⴱⴷⴰⴷⵏ ⵏ ⵡⴰⵔⵔⴰ
 contribution-criteria-page-title = ⵉⵙⴱⴷⴰⴷⵏ ⵏ ⵡⴰⵔⵔⴰⴳ
 contribution-for-example = ⵙ ⵓⵎⴷⵢⴰ
 contribution-misreadings-title = ⵉⵣⴳⴰⵍⵏ ⵏ ⵜⵖⵔⵉ
+contribution-misreadings-description = ⴰⴷⴷⴰⵢ ⵜⴻⵜⵜⵙⵍⵍⴰⴷ, ⵛⴰⴱⴱⴰ ⵙ ⵜⵖⴹⴼⵜ ⵉⵙ ⴷ ⴰⵢⵏⵏⴰ ⵉⵜⵜⵓⵙⵓⵙⵔⵏ ⵉⴳⴰ ⵏⵉⵛⴰⵏ ⴰⵢⵏⵏⴰ ⵉⵜⵜⵢⴰⵔⴰⵏ; ⵜⴰⴳⵢⴷ ⵎⵇⵇⴰⵔ ⵍⵍⴰⵏⵜ ⵜⵣⴳⵍⵉⵏ ⵜⵓⵎⵥⵉⵢⵉⵏ. <br />ⵜⵉⵣⴳⵍⵉⵏ ⵜⵜⵉⵍⵉⵏⵉⵏ ⵙ ⵜⵓⴳⵜⵜ ⵓⵎⴰⵏⵜ:
 contribution-misreadings-description-extended-list-1 = ⴰⵅⵚⵚⴰ ⵏ <strong>'ⵢⴰⵏ/ⵢⴰⵜ'</strong> ⵏⵉⵖ <strong>'ⴽⵔⴰ ⵏ'</strong> ⴳ ⵓⵎⵣⵡⴰⵔⵓ ⵏ ⵓⵙⵓⵙⵔ.
 contribution-misreadings-description-extended-list-2 = ⴰⵅⵚⵚⴰ ⵏ <strong>'ⵏ'</strong> ⴳ ⵜⴳⵉⵔⴰ ⵏ ⴽⵔⴰ ⵏ ⵜⴳⵓⵔⵉ.
 contribution-misreadings-description-extended-list-3 = ⵜⵉⵖⵔⵉ ⵏ ⵉⴼⵙⴰⵢⵏ ⵏⵏⴰ ⵓⵔ ⵜⵜⵢⴰⵔⴰⵏⵉⵏ, ⵣⵓⵏ ⴷ "ⵉⵏ'ⴰⵙ" ⴳ ⵓⴷⵖⴰⵔ ⵏ "ⵉⵏⵉ ⴰⵙ", ⵏⵉⵖ ⴰⵏⵎⴳⴰⵍ.
