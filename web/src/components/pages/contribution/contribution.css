@@ -23,20 +23,17 @@
     padding: 10px 20px;
     max-width: var(--wide-desktop-width);
     width: 100%;
-    height: 100%;
-
-    @media (--md-up) {
-        padding: 0 20px 60px;
-    }
+    height: calc(100% - var(--header-height));
 
     @media (--tall) {
-        padding-top: 50px;
+        padding-top: 2rem;
     }
 
     @media (--lg-up) {
         position: initial;
-        justify-content: initial;
         overflow: visible;
+        justify-content: normal;
+        min-height: 84vh;
     }
 
     @media (--sm-down) {
@@ -63,7 +60,7 @@
         text-transform: uppercase;
         font-size: var(--font-size-sm);
         text-align: center;
-        margin-top: 1.5rem;
+        margin-top: 1rem;
         font-weight: 600;
 
         @media (--md-up) {
@@ -365,13 +362,13 @@
     }
 
     .primary-buttons {
-        margin-top: 2vh;
+        margin-top: 6vh;
         display: flex;
         justify-content: center;
         align-items: center;
 
-        @media (--xl-up) {
-            margin-top: 12vh;
+        @media (min-height: 910px) {
+            margin-top: 10vh;
         }
 
         & canvas {
@@ -392,22 +389,10 @@
     }
 
     .buttons {
-        margin-top: 1rem;
+        margin-top: 4vh;
 
         display: flex;
         justify-content: space-between;
-
-        @media (--xl-up) {
-            margin-top: 3.5vh;
-        }
-
-        @media (--sm-down) {
-            margin-bottom: 3.5rem;
-        }
-
-        @media (--md-only) {
-            margin-bottom: 2.5rem;
-        }
 
         button img {
             margin-inline-end: 10px;
@@ -542,6 +527,8 @@
             }
 
             & .pills {
+                margin-top: 0;
+
                 & .counter {
                     display: flex;
                 }
@@ -572,7 +559,7 @@
 
         @media (--sm-down) {
             margin-bottom: 20px;
-            max-width: 120px;
+            max-width: 220px;
             text-align: center;
             font-size: var(--font-size-xs);
         }
@@ -739,12 +726,17 @@
 
         @media (--md-down) {
             align-items: center;
+            margin-bottom: 2rem;
         }
 
         .labeled-checkbox {
             margin: 0 0 2em;
             width: 60%;
-            text-align: center;
+            text-align: center;`
+
+            @media (--md-down) {
+                width: 80%;
+            }
 
             a {
                 color: var(--anchor-text-blue);

@@ -152,12 +152,16 @@ button {
 
     &.speak,
     &.listen {
-        overflow: hidden;
+        max-height: calc(100dvh - 2px);
 
         & header {
             @media (--lg-down) {
                 display: none;
             }
+        }
+
+        #content {
+            min-height: 70%;
         }
     }
 }

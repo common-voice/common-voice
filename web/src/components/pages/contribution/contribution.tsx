@@ -492,10 +492,12 @@ class ContributionPage extends React.Component<ContributionPageProps, State> {
           children: <div className="instruction hidden-md-up" />,
         }) || <div className="instruction hidden-md-up" />}
 
-        <div className="primary-buttons">
-          <canvas ref={this.canvasRef} />
-          {primaryButtons}
-        </div>
+        {!this.isDone && (
+          <div className="primary-buttons">
+            <canvas ref={this.canvasRef} />
+            {primaryButtons}
+          </div>
+        )}
 
         {!hasErrors && !isSubmitted && (
           <LocaleLink
