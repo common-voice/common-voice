@@ -1342,6 +1342,14 @@ sc-review-form-button-skip-shortcut = ⵏ
 sc-review-form-keyboard-usage-custom = ⵜⵣⵎⵔⴷ ⴰⵡⴷ ⴰⴷ ⵜⵙⵙⵎⵔⵙⴷ ⵉⵙⵓⵏⴰⴼ ⵏ ⵓⵏⴰⵙⵉⵡ: { sc-review-form-button-approve-shortcut } ⵉ ⵙⵙⴳⵍⵢ, { sc-review-form-button-reject-shortcut } ⵉ ⴰⴳⵢ, { sc-review-form-button-skip-shortcut } ⵉ ⵙⵙⵉⵏⴼ
 sc-review-form-button-submit =
     .submitText = ⵙⵎⴷ ⴰⵙⵙⵉⵔⵎ
+# Variables:
+#   $sentences (Number) - Number of sentences the user has reviewed in this session
+sc-review-form-reviewed-message =
+    { $sentences ->
+        [0] ⵡⴰⵍⵓ ⵜⵉⵡⵉⵏⴰⵙ ⵜⵜⵢⴰⵔⴰⵎⵏⵉⵏ.
+        [one] 1 ⵜⵡⵉⵏⵙⵜ ⵉⵜⵜⵢⴰⵔⴰⵎⵏ. ⵜⴰⵏⵎⵎⵉⵔⵜ!
+       *[other] { $sentences } ⵜⵡⵉⵏⴰⵙ ⵜⵜⵢⴰⵔⴰⵎⵏⵉⵏ. ⵜⴰⵏⵎⵎⵉⵔⵜ!
+    }
 sc-review-link = ⵙⵙⵉⵔⵎ
 
 ## SETTINGS
