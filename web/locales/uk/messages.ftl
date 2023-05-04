@@ -1792,3 +1792,7 @@ reviewing-sentences-explanation-3 = Якщо ви не впевнені щодо
 reviewing-sentences-explanation-4 = Якщо у вас закінчилося речення для розгляду, допоможіть нам зібрати більше речень!
 community-announcement-header = Оголошення спільноти!
 community-announcement-explanation = Наведені далі вказівки стосуються нових функцій збирача речень, які будуть вбудовані до нової платформи Common Voice протягом березня та квітня 2023 року. Тим часом ви можете використовувати попередній інструмент, <scLink>https://commonvoice.mozilla.org/sentence-collector/</scLink>.
+# SENTENCE-COLLECTOR-REDIRECT PAGE
+sc-redirect-page-title = Ми робимо великі зміни
+sc-redirect-page-subtitle-1 = Sentence Collector переходить на основну платформу Common Voice. Тепер ви можете <writeURL>написати</writeURL> речення або <reviewURL>розглянути</reviewURL> окремі пропозиції на Common Voice.
+sc-redirect-page-subtitle-2 = Ставте нам запитання на <matrixLink>Matrix</matrixLink>, на <discourseLink>Discourse</discourseLink> або <emailLink>електронною поштою</emailLink>.
