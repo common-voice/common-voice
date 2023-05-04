@@ -1682,3 +1682,5 @@ community-announcement-header = Anuncio á comunidade!
 community-announcement-explanation = As orientacións que se inclúen a continuación refírense ás novas funcións do recompilador de frases, que se integrarán na plataforma principal de Common Voice entre marzo e abril de 2023. Mentres tanto, pode empregar a ferramenta anterior, <scLink>https://commonvoice.mozilla.org/sentence-collector/</scLink>.
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = Estamos facendo grandes cambios
+sc-redirect-page-subtitle-1 = O colector de frases está migrando para a plataforma principal do Common Voice. Agora vostede pode <writeURL>escribir</writeURL> unha frase ou <reviewURL>revisar</reviewURL> envíos dunha única frase no Common Voice.
+sc-redirect-page-subtitle-2 = Fáganos preguntas en <matrixLink>Matrix</matrixLink>, <discourseLink>Discourse</discourseLink> ou por <emailLink>correo electrónico</emailLink>.
