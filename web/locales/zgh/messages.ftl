@@ -544,6 +544,7 @@ about-get-involved-text-2 =
     ⴰⵎⵙⴰⵡⴰⵍ ⵏ ⵜⴳⵔⴰⵡⵜ ⵏ <matrixLink>ⵎⵉⵜⵔⵉⴽⵙ</matrixLink>.
 about-stay-in-touch = ⵎⴰⵏⵎⴽ ⵙ ⵔⴰⴷ ⵇⵇⵉⵎⵖ ⴳ ⵓⵏⵢⴰⵍⴽⴰⵎ?
 about-stay-in-touch-button = ⵣⵎⵎⴻⵎ
+about-stay-in-touch-text-1 = <emailFragment>ⵣⵎⵎⴻⵎ</emailFragment> ⴳ ⵜⵍⴳⴰⵎⵜ ⵏ ⵡⴰⵣⴰⵏ ⵏ ⵉⵎⴰⵢⵍⵏ ⵃⵎⴰ ⴰⴷ ⵜⵍⵎⴷⴷ ⵎⴰⵏⵎⴽ ⵙ ⵔⴰⴷ ⵜⵣⵎⵔⴷ ⴰⴷ ⵜⴷⵔⵓⴷ ⴳ ⵉⵎⵣⵉⵣⵣⵍⵏ, ⵜⵉⵎⵙⴰⵔ ⴷ ⵜⵎⵥⵍⴰⵢ ⵏ ⵓⵙⵖⵉⵡⵙ ⴰⵎⵛⵛⴰⵔ ⴳ ⴽⴰⵎⵏⴼⵓⵢⵙ.
 about-stay-in-touch-text-2 = ⵜⵣⵎⵔⵎ ⴰⴷ ⵜⵎⵎⵉⴳⴳⵉⵔⵎ ⴷ ⵡⵉⵢⵢⴰⴹ ⴳ ⵜⴳⵔⴰⵡⵉⵏ ⵏ ⵜⵓⵜⵍⴰⵢⵉⵏ ⵏ ⵎⵓⵣⵉⵍⴰ ⵙ ⵓⵍⴽⴰⵎ ⵏ <discourseLink>ⴷⵉⵙⴽⵓⵔⵙ</discourseLink> ⵉ ⵉⵎⵔⴰⵔⴰⵜⵏ ⵏ ⵡⴰⵡⴰⵍ ⵉⵙⴳⵓⵎⴰⵏⵏ, ⵏⵉⵖ <matrixLink>ⵎⵉⵜⵔⵉⴽⵙ</matrixLink> ⵉ ⴽⵔⴰ ⵏ ⵓⵙⵎⵎⵜⵔ ⵙ ⵜⵖⴰⵡⵍⴰ.
 about-nav-why-common-voice = ⵎⴰⵅⴼ ?
 about-nav-how-it-works = ⵎⴰⵏⵎⴽ?
