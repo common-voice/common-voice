@@ -544,6 +544,7 @@ about-get-involved-text-2 =
     ⴰⵎⵙⴰⵡⴰⵍ ⵏ ⵜⴳⵔⴰⵡⵜ ⵏ <matrixLink>ⵎⵉⵜⵔⵉⴽⵙ</matrixLink>.
 about-stay-in-touch = ⵎⴰⵏⵎⴽ ⵙ ⵔⴰⴷ ⵇⵇⵉⵎⵖ ⴳ ⵓⵏⵢⴰⵍⴽⴰⵎ?
 about-stay-in-touch-button = ⴽⵛⵎ
+about-stay-in-touch-text-2 = ⵜⵣⵎⵔⵎ ⴰⴷ ⵜⵎⵎⵉⴳⴳⵉⵔⵎ ⴷ ⵡⵉⵢⵢⴰⴹ ⴳ ⵜⴳⵔⴰⵡⵉⵏ ⵏ ⵜⵓⵜⵍⴰⵢⵉⵏ ⵏ ⵎⵓⵣⵉⵍⴰ ⵙ ⵓⵍⴽⴰⵎ ⵏ <discourseLink>ⴷⵉⵙⴽⵓⵔⵙ</discourseLink> ⵉ ⵉⵎⵔⴰⵔⴰⵜⵏ ⵏ ⵡⴰⵡⴰⵍ ⵉⵙⴳⵓⵎⴰⵏⵏ, ⵏⵉⵖ <matrixLink>ⵎⵉⵜⵔⵉⴽⵙ</matrixLink> ⵉ ⴽⵔⴰ ⵏ ⵓⵙⵎⵎⵜⵔ ⵙ ⵜⵖⴰⵡⵍⴰ.
 about-nav-why-common-voice = ⵎⴰⵅⴼ ?
 about-nav-how-it-works = ⵎⴰⵏⵎⴽ?
 about-nav-partners = ⵉⵎⴷⵔⴰⵡⵏ
@@ -593,6 +594,7 @@ about-playbook-how-add-sentences-content-4 = ⵍⴰ ⵜⵜⴼⴼⵖⵏⵜ ⵜⵡ
 about-playbook-how-record-quality = ⵎⴰⵏⵎⴽ ⵙ ⵔⴰⴷ ⵙⵓⵙⵔⵖ ⴽⵔⴰ ⵏ ⵜⵓⵙⵙⵉⴼⵜ ⵜⴰⴳⵕⴹⴰⵏⵜ ⵙ ⵓⵖⵓⴷⵓ ⴰⵎⴰⵜⵜⴰⵢ?
 about-playbook-how-record-content-1 = ⵙⵉⵡⵍⴰⵜ ⵙ ⵓⴳⵕⴹ ⵏⵏⵓⵏ ⴰⴳⴰⵎⴰⵏ! ⵍⴰ ⵏⵙⴱⵔⵔⴰⴽ ⴷⴰ ⵙ ⵜⵖⴰⵔⴰⵙⵜ ⵏⵏⴰ ⵙ ⵜⵙⴰⵡⴰⵍⵎ - ⵏⵅⵙ ⴰⵙⵓⵙⵔⵓ ⵏⵏⵓⵏ ⵙ ⵎⴽⴷⴰ ⵉⴳⴰ, ⵏⵅⵙ ⴰⵙⵡⵉⵔ ⵏ ⵢⵉⵎⵙⵍⵉ, ⵜⴰⵎⴰⵎⴽⵜ ⴷ ⵡⴰⵍⵍⵖⴰ ⵏⵏⵓⵏ ⵉⵏⵎⵢⴰⵔⵏ.
 about-playbook-how-record-content-2 = ⴰⵏⴼⴰⵜ ⵉ ⴽⵉⴳⴰⵏ ⵏ ⵓⴷⵉⴷⴰ ⵏ ⵜⵖⵔⴷⵉⵏ - ⵉⵅⵚⵚⴰ ⴰⴷ ⵜⴻⵜⵜⵓⵙⵍⵍⵎ ⵙ ⵓⵍⵎⴰⴹ.
+about-playbook-how-record-content-4 = ⵃⵇⵇⴰ ⵉⵙ ⵍⴰ ⵜⵙⵓⵙⵓⵔ ⵜⵙⵉⵍⴰ ⴷⴰⵜ ⴰⴷ ⵜⵙⵙⵏⵜⵉⴷ ⴰⵙⵉⵡⵍ, ⴷ ⵎⴰⵙ ⴷ ⵓⵔ ⵜⴱⵉⴷⴷ ⵖⴰⵙ ⴰⵍⵍⵉⴳ ⵜⵙⵎⴷⴷ.
 about-playbook-how-record-content-5 = <accuracyLink>ⵥⵕ ⵓⴳⴳⴰⵔ ⵅⴼ ⵉⵙⴱⴷⴰⴷⵏ ⵏ ⵓⵏⵖⴰⴷ.</accuracyLink>
 
 ## How to grow language
@@ -946,6 +948,7 @@ help-reach-hours-general-pluralized =
         [one] ⴰⵡⵙ ⵉ ⴽⴰⵎⵏⴼⵓⵢⵙ ⴰⴷ ⵢⴰⵡⴹ { $hours } ⵜⵙⵔⴰⴳⵜ ⵙ ⴽⵔⴰ ⵏ ⵜⵓⵜⵍⴰⵢⵜ ⵙ ⴽⵔⴰ ⵏ ⵓⵡⵜⵜⴰⵙ ⴰⵏⵉⵎⴰⵏ
        *[other] ⴰⵡⵙ ⵉ ⴽⴰⵎⵏⴼⵓⵢⵙ ⴰⴷ ⵢⴰⵡⴹ { $hours } ⵜⵙⵔⴰⴳⵉⵏ ⵙ ⴽⵔⴰ ⵏ ⵜⵓⵜⵍⴰⵢⵜ ⵙ ⴽⵔⴰ ⵏ ⵓⵡⵜⵜⴰⵙ ⴰⵏⵉⵎⴰⵏ
     }
+set-a-goal = ⵙⵔⵙ ⴽⵔⴰ ⵏ ⵓⵡⵜⵜⴰⵙ
 cant-decide = ⵓⵔ ⵜⵣⵎⵉⵔⴷ ⴰⴷ ⵜⵖⵜⵙⴷ?
 how-many-per-day = ⴰⵢⵢⵓⵣ! ⵎⵏⵏⴰⵡⵜ ⵜⵓⵙⵙⵉⴼⵉⵏ ⵉ ⵡⴰⵙⵙ?
 how-many-a-week = ⴰⵢⵢⵓⵣ! ⵎⵏⵏⴰⵡⵜ ⵜⵓⵙⵙⵉⴼⵉⵏ ⵉ ⵢⵉⵎⴰⵍⴰⵙⵙ?
