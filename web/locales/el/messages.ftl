@@ -1584,6 +1584,10 @@ volume = Ένταση
 reader-effects = Εφέ ανάγνωσης
 just-unsure = Δεν γνωρίζετε;
 example = Παράδειγμα
+still-have-questions = Έχετε ακόμα ερωτήσεις;
+citing-sentences-subheader-websites = Ιστότοποι
+citing-sentences-subheader-websites-explanation = Μπορείτε να συμπεριλάβετε τον ιστότοπο, π.χ. «Common Voice - https://commonvoice.mozilla.org/»
+citing-sentences-subheader-academic-reference = Ακαδημαϊκή αναφορά
 citation =
     .label = Παράθεση
 adding-sentences-subheader-length-explanation = Η πρόταση πρέπει να έχει λιγότερες από 15 λέξεις.
@@ -1597,3 +1601,5 @@ reviewing-sentences-explanation-1 = Εάν η πρόταση πληροί τα �
 reviewing-sentences-explanation-2 = Εάν η πρόταση δεν πληροί τα παραπάνω κριτήρια, κάντε κλικ στο κουμπί «Όχι».
 reviewing-sentences-explanation-4 = Εάν ξεμείνετε από προτάσεις για έλεγχο, παρακαλούμε βοηθήστε μας να συγκεντρώσουμε περισσότερες προτάσεις!
 community-announcement-header = Ανακοίνωση κοινότητας!
+# SENTENCE-COLLECTOR-REDIRECT PAGE
+sc-redirect-page-title = Κάνουμε κάποιες μεγάλες αλλαγές
