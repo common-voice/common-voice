@@ -331,7 +331,7 @@
         @media (--md-up) {
             flex: 1;
             display: flex;
-            align-items: end;
+            align-items: center;
         }
 
         .inner {
@@ -345,6 +345,7 @@
             @media (--md-up) {
                 margin-top: 0;
                 margin-inline-start: auto;
+                margin-top: 40px;
                 width: max-content;
                 flex-direction: column;
                 justify-content: flex-start;
