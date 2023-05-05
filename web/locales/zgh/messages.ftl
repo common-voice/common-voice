@@ -636,6 +636,7 @@ about-playbook-how-project-governance = ⵎⴰⵏⵎⴽ ⵙ ⵜⵜⵓⵙⴽⵉ�
 about-playbook-how-project-governance-content-3 = ⵜⵉⵏⵏⵓⵜⵍⴰ, ⵜⴰⵏⴼⵔⵓⵜ ⴷ ⵜⵎⴰⴼⴰⵡⵜ.
 about-playbook-how-project-governance-content-4 = ⵜⴰⴷⵔⴰⵡⵜ ⵜⴰⴳⵔⴰⵡⴰⵏⵜ ⴷ ⵓⵙⴽⴽⵉⵔ ⵏ ⵜⴰⵏⴰⴹⵜ.
 about-playbook-how-project-governance-content-5 = ⴰⵜⵉⴳ ⴷ ⵜⵓⴽⵣⴰ.
+about-playbook-how-project-governance-content-6 = ⵜⴰⵎⵙⵜⴳⴳⴰⵔⵜ ⵉⵛⵛⴰⵔⵏ.
 about-playbook-how-project-governance-content-7 = <governanceLink>ⵖⵔⴰⵜ ⵓⴳⴳⴰⵔ ⵅⴼ ⵎⴰⵏⵎⴽ ⵏⵜⵜⵓⵏⴱⴹ</governanceLink>
 
 ## Glossary
