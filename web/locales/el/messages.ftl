@@ -943,6 +943,7 @@ target-segment-learn-more = Μάθετε περισσότερα
 
 ## Contribution Nav Items
 
+contribute-voice-collection-nav-header = Φωνητική συλλογή
 
 ## Reporting
 
