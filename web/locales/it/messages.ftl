@@ -1655,3 +1655,7 @@ reviewing-sentences-explanation-3 = Se non sei sicuro, puoi anche saltare la fra
 reviewing-sentences-explanation-4 = Se non ci sono più frasi da convalidare, aiutaci a raccoglierne altre!
 community-announcement-header = Annuncio per la community
 community-announcement-explanation = Le linee guida riportate di seguito riguardano le nuove funzioni di raccolta delle frasi, che saranno integrate nella piattaforma principale di Common Voice a marzo e aprile 2023. Nel frattempo è possibile utilizzare lo strumento precedente, <scLink>https://commonvoice.mozilla.org/sentence-collector/</scLink>.
+# SENTENCE-COLLECTOR-REDIRECT PAGE
+sc-redirect-page-title = Stiamo apportando alcuni cambiamenti significativi
+sc-redirect-page-subtitle-1 = Il Sentence Collector si sta spostando sulla piattaforma principale di Common Voice. Ora puoi <writeURL>scrivere</writeURL> una frase o <reviewURL>esaminare</reviewURL> gli invii di frasi singole su Common Voice.
+sc-redirect-page-subtitle-2 = Ponici domande su <matrixLink>Matrix</matrixLink>, <discourseLink>Discourse</discourseLink> o tramite <emailLink>email</emailLink>.
