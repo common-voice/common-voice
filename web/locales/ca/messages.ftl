@@ -1672,3 +1672,7 @@ reviewing-sentences-explanation-3 = Si no esteu segur de la frase, també podeu 
 reviewing-sentences-explanation-4 = Si us quedeu sense frases per revisar, ajudeu-nos a recollir-ne més!
 community-announcement-header = Anunci de la comunitat!
 community-announcement-explanation = La guia següent és per a les noves funcions del col·lector de frases, que s'integraran a la plataforma bàsica de Common Voice durant març i abril de 2023. Mentrestant, podeu utilitzar l'eina anterior, <scLink>https://commonvoice.mozilla.org/sentence-collector/</scLink>.
+# SENTENCE-COLLECTOR-REDIRECT PAGE
+sc-redirect-page-title = Estem fent alguns canvis importants
+sc-redirect-page-subtitle-1 = El Sentence Collector es trasllada a la plataforma bàsica de Common Voice. Ara podeu <writeURL>escriure</writeURL> una frase o <reviewURL>revisar</reviewURL> enviaments d'una sola frase a Common Voice.
+sc-redirect-page-subtitle-2 = Feu-nos preguntes a <matrixLink>Matrix</matrixLink>, <discourseLink>Discurs</discourseLink> o per <emailLink>correu electrònic</emailLink>.

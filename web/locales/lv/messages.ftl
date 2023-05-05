@@ -885,7 +885,7 @@ language-validation-progress = Pārbaudes progress
 ## Contribution
 
 action-click = Klikšķis
-action-tap = Piesit
+action-tap = Pieskaries
 contribute = Veic ieguldījumu
 listen = Klausies
 skip = Izlaist
@@ -914,7 +914,7 @@ record-error-too-short = Ieraksts bija pārāk īss.
 record-error-too-long = Ieraksts bija pārāk garš.
 record-error-too-quiet = Ieraksts bija pārāk kluss.
 record-cancel = Atcelt atkārtotu ierakstīšanu
-record-instruction = { $actionType }<recordIcon></recordIcon> pēc tam skaļi nolasiet teikumu
+record-instruction = { $actionType }<recordIcon></recordIcon> pēc tam skaļi nolasi teikumu
 record-stop-instruction = { $actionType } <stopIcon></stopIcon> kad viss gatavs
 record-three-more-instruction = Vel palikuši trīs!
 record-again-instruction = Lieliski! <recordIcon> </recordIcon> Ierakstiet savu nākamo ierakstu
@@ -1898,3 +1898,7 @@ reviewing-sentences-explanation-3 = Ja neesat pārliecināts par teikumu, varat 
 reviewing-sentences-explanation-4 = Ja visi teikumi jau ir pārbaudīti, lūdzu, palīdziet mums savākt jaunus teikumus!
 community-announcement-header = Kopienas paziņojums!
 community-announcement-explanation = Zemāk sniegtie norādījumi attiecas uz jaunajām teikumu apkopošanas iespējām, kas 2023. gada martā un aprīlī tiks integrētas Common Voice pamatplatformā. Tikmēr varat izmantot iepriekšējo rīku <scLink>https://commonvoice.mozilla.org/sentence-collector/</scLink>.
+# SENTENCE-COLLECTOR-REDIRECT PAGE
+sc-redirect-page-title = Mēs veicam dažas lielas izmaiņas
+sc-redirect-page-subtitle-1 = Teikumu apkopošanas rīks pāriet uz Common Voice platformu. Tagad varat <writeURL>pievienot</writeURL> un <reviewURL>pārbaudīt</reviewURL> teikumus Common Voice sistēmā.
+sc-redirect-page-subtitle-2 = Uzdodiet mums jautājumus <matrixLink>Matrix</matrixLink>, <discourseLink>Discourse</discourseLink> vai rakstot <emailLink>e-pastu</emailLink>.

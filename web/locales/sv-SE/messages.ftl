@@ -1688,3 +1688,7 @@ reviewing-sentences-explanation-3 = Om du är osäker på meningen kan du också
 reviewing-sentences-explanation-4 = Om du får slut på meningar att granska, vänligen hjälp oss att samla in fler meningar!
 community-announcement-header = Meddelande från gemenskapen!
 community-announcement-explanation = Vägledningen nedan är för de nya funktionen för meningsinsamling, som kommer att integreras i den grundläggande Common Voice-plattformen under mars och april 2023. Under tiden kan du använda det tidigare verktyget, <scLink>https://commonvoice.mozilla.org/sentence-collector/</scLink>.
+# SENTENCE-COLLECTOR-REDIRECT PAGE
+sc-redirect-page-title = Vi gör några viktiga förändringar
+sc-redirect-page-subtitle-1 = Meningssamlaren flyttar till kärnplattformen Common Voice. Du kan nu <writeURL>skriva</writeURL> en mening eller <reviewURL>granska</reviewURL> enstaka meningsinlämningar på Common Voice.
+sc-redirect-page-subtitle-2 = Ställ frågor till oss på <matrixLink>Matrix</matrixLink>, <discourseLink>Discourse</discourseLink> eller <emailLink>e-post</emailLink>.

@@ -1748,3 +1748,7 @@ reviewing-sentences-explanation-3 = Wenn Sie sich bei dem Satz nicht sicher sind
 reviewing-sentences-explanation-4 = Wenn Ihnen die Sätze zur Überprüfung ausgehen, helfen Sie uns bitte, weitere Sätze zu sammeln!
 community-announcement-header = Ankündigung der Gemeinschaft!
 community-announcement-explanation = Die folgende Anleitung gilt für die neuen Satzsammlerfunktionen, die im März und April 2023 in die Kern-Common-Voice-Plattform integriert werden. Bis dahin können Sie das vorherige Werkzeug verwenden, <scLink>https://commonvoice.mozilla.org/ set-collector/</scLink>.
+# SENTENCE-COLLECTOR-REDIRECT PAGE
+sc-redirect-page-title = Wir nehmen einige wichtige Änderungen vor
+sc-redirect-page-subtitle-1 = Der Satzsammler zieht auf die Kern-Common-Voice-Plattform um. Sie können jetzt auf einen Satz Common Voice <writeURL>schreiben</writeURL> oder einzelne Sätze <reviewURL>überprüfen</reviewURL>.
+sc-redirect-page-subtitle-2 = Stellen Sie uns Fragen auf <matrixLink>Matrix</matrixLink>, <discourseLink>Discourse</discourseLink> oder per <emailLink>E-Mail</emailLink>.
