@@ -329,15 +329,31 @@ shortcut-skip = s
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-play-toggle = p
 shortcut-play-toggle-label = Ka Fɔ/ Ka Jɔ
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = y
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = n
 
 ## Speak Shortcuts
 
+# Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-record-toggle = r
+request-language-text = Aw ma aw ka kan ye Common Voice kan fɔlɔ wa?
+request-language-button = Kan dɔ ɲini
 
 ## ProjectStatus
 
+status-title = Porozɛ cogoya bɛɛ lajɛlen : a lajɛ an sera yɔrɔ min na!
+status-contribute = Aw ka dɛmɛ don aw ka kumakan na
 
 ## ProfileForm
 
+profile-form-custom-accent-help-text =
+    .label = I bɛna i ka kuma fɔcogo ɲɛfɔ cogo di?
+profile-form-custom-accent-placeholder-2 = A daminɛ ka sɛbɛnni kɛ walasa k’i ka kumakan ɲɛfɔ
 why-demographic-explanation-2 = Baarakɛlaw ka kunnafoniw minnu tɔgɔ ma fɔ i n’a fɔ u si hakɛ, cɛya ni musoya ani u fɔcogo, olu bɛ dɛmɛ ka kunnafoni lamɛntaw ɲɛ, minnu bɛ kɛ ka kuma dɔnni masinw ka tiɲɛni dege. I ka baarakɛla tɔgɔ ni i ka imeyili tɛna jɛ abada i ka kunnafoniw cilenw na, wa i bɛ se k’a sugandi n’i bɛna i ka baarakɛla tɔgɔ kɛ foroba la walima n’i tɔgɔ tɛ fɔ.
 help-accent-explanation = I ka fɔcogo ye i bɛ daɲɛw fɔcogo minna. O bɛ sɔrɔ  I sigiyɔrɔ  fɛ , i bɛ kan wɛrɛ minnu fɔ ani fɛn caman wɛrɛw. Aw bɛ se ka kunnafoni bɛɛ lase yan aw hakili la min bɛ se ka mago ɲɛ.
 
