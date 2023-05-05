@@ -633,6 +633,7 @@ about-playbook-how-access-dataset-content-2 = ⵎⴽ ⵍⴰ ⵜⵙⵉⴳⴳⵉ�
 ## How are decisions made
 
 about-playbook-how-project-governance = ⵎⴰⵏⵎⴽ ⵙ ⵜⵜⵓⵙⴽⵉⵔⵏⵜ ⵜⵖⵜⴰⵙⵉⵏ ⵏ ⵓⵙⵏⴼⴰⵔ?
+about-playbook-how-project-governance-content-2 = ⵉⵜⵜⵓⵥⴽⴰ ⵓⵏⴱⴰⴹ ⵏⵏⵖ ⵅⴼ ⵜⵔⵙⴰⵍ ⴰ:
 about-playbook-how-project-governance-content-3 = ⵜⵉⵏⵏⵓⵜⵍⴰ, ⵜⴰⵏⴼⵔⵓⵜ ⴷ ⵜⵎⴰⴼⴰⵡⵜ.
 about-playbook-how-project-governance-content-4 = ⵜⴰⴷⵔⴰⵡⵜ ⵜⴰⴳⵔⴰⵡⴰⵏⵜ ⴷ ⵓⵙⴽⴽⵉⵔ ⵏ ⵜⴰⵏⴰⴹⵜ.
 about-playbook-how-project-governance-content-5 = ⴰⵜⵉⴳ ⴷ ⵜⵓⴽⵣⴰ.
