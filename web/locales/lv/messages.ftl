@@ -478,7 +478,7 @@ faq-how-get-a = Common Voice datu kopa ir pieejama lejupielādei, izmantojot <li
 faq-when-release2-q = Kad jūs publiskosit kopējās balss datus citās valodās?
 faq-when-release2-a = Kopējās balss datu kopas daudzvalodu versijā pašlaik notiek kopienas atbalstīta komplektēšana un tīrīšana. Ja vēlaties palīdzēt mums kopīgo balsi piesaistīt jaunām valodām, dodieties uz <sentenceCollectorLink> teikumu savākšanas rīku </sentenceCollectorLink>, lai datu kopai pievienotu jaunus teikumus, un Mozilla <pontoonLink> pontons </pontoonLink> vietnes tulkošanai. pati. Kad ir savākti 5000 apstiprināti teikumi, kopējai balss skaņai tiek pievienotas jaunas valodas.
 faq-why-mission-q = Kādēļ Common Voice ir daļa no Mozilla misijas?
-faq-why-mission-a = Mozilla fokusējas uz tīmekļa atvēršanau un pieejamību ikvienam. Lai to izdarītu, mums ir jāsniedz tīmekļa veidotājiem tādi projekti kā Kopīgā balss. Tā kā balss tehnoloģijas izplatās ārpus nišas programmām, mēs uzskatām, ka tām ir jākalpo visiem lietotājiem vienādi. Tas nozīmē ieguldīt vairākās valodās un pielāgot dažādus akcentus un demogrāfijas, veidojot un testējot balss tehnoloģijas. Kopējā balss ir publisks resurss, kas pieejams visiem, un Mozilla komandas un izstrādātāji visā pasaulē jau to izmanto mūsu pašu projektos.
+faq-why-mission-a = Mozilla fokusējas uz to, lai tīmeklis būtu atvērts un pieejams ikvienam. Lai to izdarītu, mums ir jāsniedz tīmekļa veidotājiem vairāk iespēju, radot tādus projektus kā Common Voice. Tā kā balss tehnoloģijas izplatās ārpus nišas programmām, mēs uzskatām, ka tām ir jākalpo visiem lietotājiem vienādi. Tas nozīmē ieguldīt vairākās valodās un pielāgot dažādus akcentus un demogrāfiskos datus, veidojot un testējot balss tehnoloģijas. Common Voice ir publisks resurss, kas pieejams visiem, un Mozilla komandas un izstrādātāji visā pasaulē jau to izmanto mūsu pašu projektos.
 faq-what-cv-and-deepspeech-q = Kāda atšķirība starp Common Voice un Deep Speech?
 faq-what-cv-and-deepspeech-a = Kopējā balss datu kopa papildina Mozilla atvērtā koda balss atpazīšanas dzinēju Deep Speech. Pirmā Deep Speech versija tika izlaista 2017. gada novembrī un turpina attīstīties kopš tā laika. Kopā ar kopējo balss datu kopu mēs uzskatām, ka atvērtā pirmkoda balss atpazīšanas tehnoloģijai jābūt pieejamai ikvienam. Mēs ceram, ka šīs tehnoloģijas ļaus izstrādātājiem izstrādāt inovatīvu produktu un pakalpojumu vilni.
 faq-is-goal-assistant-q = Vai Common Voice mērķis ir veidot balss asistentu?
@@ -494,8 +494,8 @@ faq-why-my-lang-a =
     Common Voice ir pūļa pakalpojumu platforma, un visas valodas pievieno brīvprātīgie.
     Mēs labprāt pievienotu jūsu valodu! <languageRequestLink>Jautājiet par valodas pievienošanu.</languageRequestLink>
 faq-what-quality-q = Kāda līmeņa audio kvalitāte ir nepieciešama, lai balss ierakstu varētu izmantot datu kopā?
-faq-what-quality-a = Mēs vēlamies, lai kopīgā balss datu kopa atspoguļotu skaņas kvalitāti, ko runātājs dzirdēs savvaļā, tāpēc mēs meklējam dažādību. Papildus daudzveidīgai runātāju kopai datu kopa ar atšķirīgu skaņas kvalitāti iemācīs runas-teksta dzinējam, rīkoties ar dažādām reālām situācijām, piemēram no fona ar automašīnu troksni. Kamēr jūsu balss klips ir saprotams, tas ir pietiekami labs datu kopai.
-faq-why-10k-hours-q = Kādēļ 10000 stundas ir mērķis ierakstu pārbaudē?
+faq-what-quality-a = Mēs vēlamies, lai Common Voice datos atspoguļotos tāda skaņas kvalitāte, ko runas-teksta programma uztvers dabiskā vidē, tāpēc ir nepieciešama dažādība. Atšķirīgā skaņas kvalitātē ierakstīti daudzveidīgu runātāju dati iemācīs runas-teksta programmai darboties dažādās reālās situācijās, piemēram, ar fona sarunām vai ar automašīnas troksni. Kamēr jūsu balss ieraksts ir saprotams, tas ir pietiekami labs datu kopai.
+faq-why-10k-hours-q = Kādēļ ierakstu pārbaudes mērķis ir 10000 stundu?
 faq-why-10k-hours-a = Tas ir aptuvenais stundu skaits, kas nepieciešams, lai kvalitatīvi apmācītu runas-teksta atpazīšanas sistēmu.
 faq-how-calc-hours-q = Kā Common Voice aprēķina stundas?
 faq-how-calc-hours-a = Mēs aprēķinām stundas, aprēķinot katra ieraksta vidējo garumu un tad reizinot šo skaitu ar kopējo ierakstu skaitu visās valodās.
@@ -523,7 +523,7 @@ faq-search-for-answers =
 
 ## ABOUT US
 
-about-title = Kāpēc ir kopīgā balss?
+about-title = Kāpēc ir Common Voice?
 about-header-description-v2 =
     <p>Common Voice ir publiski pieejama balss datu kopa, ko veido brīvprātīgo balsis visā pasaulē. Cilvēki, kuri vēlas veidot programmas, kas strādā ar balsi, var izmantot datu kopu, lai apmācītu runas atpazīšana modeļus.</p>
     <p>Šobrīd lielākā daļa balss datu kopu pieder atsevišķiem uzņēmumiem, kas kavē inovācijas. Valodas ar mazu runātāju skaitu pasaulē balss datu kopās ir nepietiekami pārstāvētas. Tas nozīmē, ka tehnoloģijas, kas darbojas ar balsi šajās valodās nedarbojas vai strādā slikti. Mēs vēlamies to mainīt, mobilizējot cilvēkus visā pasaulē, lai viņi dalītos ar savu balsi un pārbaudītu ierakstītos teikumus.</p>
@@ -732,7 +732,7 @@ review-delete-recordings = Dzēst manus ierakstus
 ## Datasets Page
 
 datasets-heading = Datu kopas
-datasets-headline = Mēs veidojam atvērtā pirmkoda, daudzvalodu datu kopu, kurā ikviens var izmantot, lai apmācītu runas iespējotas lietojumprogrammas.
+datasets-headline = Mēs veidojam atvērtā pirmkoda daudzvalodu datu kopu, ko ikviens var izmantot, lai apmācītu runas iespējotas lietojumprogrammas.
 datasets-positioning =
     Mēs uzskatām, ka lielas, publiski pieejamas balss datu kopas veicinās inovācijas un veselīgu komerciālu konkurenci mašīnmācībā balstītā runas tehnoloģijā.
     
@@ -770,7 +770,7 @@ want-dataset-update = Vēlaties zināt, kad mēs izlaižam jaunu kopējās balss
 subscribe = Pierakstīties
 get-started-speech = Darba sākšana ar runas atpazīšanu
 other-datasets = Citas balss datu kopas
-feedback-q = Vai jum ir atsauksmes?
+feedback-q = Vai jums ir atsauksmes?
 resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ ir <docsLink>atvērtā koda rīkkopa</docsLink> pētniekiem, kas izstrādā jaunākos sarunvalodas mākslīgā intelekta modeļus.
 resource-deepspeech-info = Common Voice datu kopa papildina Mozilla atvērtā koda balss atpazīšanas dzinēju Deep Speech, ko var izmantot, lai izveidotu runas atpazīšanas programmas. Izlasiet mūsu <githubLink>Github pārskatu</githubLink> vai pievienojieties <discourseLink>DeepSpeech Discourse</discourseLink>, lai uzzinātu, kā sākt darbu.
 resource-coqui-info = <coquiLink>Coqui</coquiLink> ir strādā atvērtās runas tehnoloģijas attīstībai. Viņu projekti ietver dziļā mācīšanās balstītus STT un TTS dzinējus.
@@ -869,7 +869,7 @@ request-language-error =
 language-section-in-progress = Procesā
 language-section-in-progress-new-description = Šīs valodas pašlaik ir kopienas attīstībā. Progresa joslas norāda, cik lielā mērā katrai valodai ir veikta <localizationGlossaryLink>vietnes lokalizācija</localizationGlossaryLink> un <sentenceCollectionGlossaryLink>teikumu kolekcijas izveide</sentenceCollectionGlossaryLink>.
 language-section-launched = Uzsākts
-language-section-launched-description = Šīm palaistām valodām vietne ir veiksmīgi <localizationGlossaryLink>lokalizēta</localizationGlossaryLink>, un tajā ir pietiekami daudz <sentenceCollectionGlossaryLink>teikumu</sentenceCollectionGlossaryLink>, lai varētu turpināt <speakLink>runāt</speakLink> un <listenLink>klausīties</ listenLink>.
+language-section-launched-description = Šīm valodām vietne ir veiksmīgi <localizationGlossaryLink>lokalizēta</localizationGlossaryLink>, un tajā ir pietiekami daudz <sentenceCollectionGlossaryLink>teikumu</sentenceCollectionGlossaryLink>, lai varētu turpināt <speakLink>runāt</speakLink> un <listenLink>klausīties</ listenLink>.
 languages-show-more = Rādīt vairāk
 languages-show-less = Rādīt mazāk
 language-meter-in-progress = Progress
@@ -885,7 +885,7 @@ language-validation-progress = Pārbaudes progress
 ## Contribution
 
 action-click = Klikšķis
-action-tap = Piesit
+action-tap = Pieskaries
 contribute = Veic ieguldījumu
 listen = Klausies
 skip = Izlaist
@@ -896,8 +896,8 @@ clips-with-count-pluralized =
         [one] <bold>{ $count }</bold> ieraksti
        *[other] <bold>{ $count }</bold> ierakstu
     }
-goal-help-recording = Jūs esat palīdzējuši kopējai balsij sasniegt <goalPercentage> </goalPercentage> no mūsu ikdienas { $goalValue } ierakstu mērķa!
-goal-help-validation = Jūs esat palīdzējuši kopējai balsij sasniegt <goalPercentage> </goalPercentage> no mūsu ikdienas { $goalValue } pārbaudīto ierakstu mērķa!
+goal-help-recording = Jūs esat palīdzējuši sasniegt <goalPercentage> </goalPercentage> no mūsu mērķa - { $goalValue } ierakstu dienā!
+goal-help-validation = Jūs esat palīdzējuši sasniegt <goalPercentage> </goalPercentage> no mūsu mērķa - { $goalValue } pārbaudīto ierakstu dienā!
 contribute-more =
     { $count ->
         [zero] Vai esat gatavi vēl { $count }?
@@ -914,16 +914,16 @@ record-error-too-short = Ieraksts bija pārāk īss.
 record-error-too-long = Ieraksts bija pārāk garš.
 record-error-too-quiet = Ieraksts bija pārāk kluss.
 record-cancel = Atcelt atkārtotu ierakstīšanu
-record-instruction = { $actionType }<recordIcon></recordIcon> pēc tam skaļi nolasiet teikumu
+record-instruction = { $actionType }<recordIcon></recordIcon> pēc tam skaļi nolasi teikumu
 record-stop-instruction = { $actionType } <stopIcon></stopIcon> kad viss gatavs
 record-three-more-instruction = Vel palikuši trīs!
 record-again-instruction = Lieliski! <recordIcon> </recordIcon> Ierakstiet savu nākamo ierakstu
 record-again-instruction2 = Turpinām, ierakstiet vēlreiz <recordIcon></recordIcon>
 record-last-instruction = <recordIcon> </recordIcon> Pēdējais!
-review-tooltip = Pārskatiet un atkārtoti ierakstiet ierakstus
+review-tooltip = Pārskatiet ierakstus un ierakstiet tos atkārtoti
 share-clip = Dalieties ar savu ierakstu
 share-common-voice = Pastāstiet citiem par Common Voice
-review-instruction = Ja nepieciešams, pārskatiet un atkārtoti ierakstiet ierakstus
+review-instruction = Ja nepieciešams, pārskatiet ierakstus un ierakstiet atkārtoti
 record-submit-tooltip = { $actionType } iesniedziet, kad viss gatavs
 clips-uploaded = Ieraksti saglabāti
 record-abort-title = Varbūt vispirms pabeidz ierakstu?
@@ -935,7 +935,7 @@ listen-instruction = { $actionType } <playIcon> </playIcon> vai viņi precīzi i
 listen-again-instruction = Lieliski paveikts darbs! <playIcon> </playIcon> Klausieties vēlreiz, kad esat gatavs
 listen-3rd-time-instruction = 2 pabeigti, tā tik turi! <playIcon> </playIcon>
 listen-last-time-instruction = <playIcon> </playIcon> Pēdējais!
-listen-empty-state = Iespējams visi ieraksti jau ir apstrādāti - pārlādējiet lapu vai mēģiniet nedaudz vēlāk.
+listen-empty-state = Iespējams, visi ieraksti jau ir apstrādāti - pārlādējiet lapu vai mēģiniet nedaudz vēlāk.
 listen-loading-error =
     Mēs nevarējām iegūt nevienu ierakstu, ko jums klausīties.
     Lūdzu, mēģiniet vēlreiz nedaudz vēlāk.
@@ -1294,7 +1294,7 @@ share-goal = Dalies ar savu mērķi
 delete-q = Vai vēlaties pieprasīt, lai arī jūsu balss ieraksti tiktu dzēsti, vai arī vēlaties tos saglabāt Common Voice datu kopā?
 keep = Saglabāt
 remove = Noņemt
-keep-info = Jūsu anonīmie balss ieraksti paliks Common Voice datu kopā. Kad būsiet izdzēsis savu profilu, jūs vairs nevarēsiet iesniegt pieprasījumu savu ierakstu dēšanai no datu kopas
+keep-info = Jūsu anonīmie balss ieraksti paliks Common Voice datu kopā. Kad būsiet izdzēsis savu profilu, jūs vairs nevarēsiet iesniegt pieprasījumu savu ierakstu dzēšanai no datu kopas
 remove-info = Mēs pārskatīsim jūsu pieprasījumu, lai no datu kopas noņemtu jūsu ierakstus. Ja jūsu pieprasījums tiks apstiprināts, mēs sazināsimies arī ar tiem, kas ir lejupielādējuši datu kopu un viņiem pieprasīsim, lai dzēš jūsu ierakstus.
 why-delete-recordings =
     Common Voice ierakstus izmanto akadēmiķi, mazie uzņēmumi un balss atpazīšanas entuziasti, lai palīdzētu apmācīt un attīstīt publiski pieejamos resursus, piemēram, balss atpazīšanas modeļus.
@@ -1310,7 +1310,7 @@ download-profile-title = Profilu
 download-profile-info = Ietver e-pastu, lietotājvārdu un demogrāfisko informāciju, pieejama uzreiz
 download-profile-size = Daži baiti
 download-recordings-title = Ieraksti
-download-recordings-info = Ietver mp3 failus un saistītos teikumus. Sagatavošanās var aizņemt kādu laiku
+download-recordings-info = Ietver mp3 failus un teikumus. Sagatavošanās var aizņemt kādu laiku
 download-recordings-size = Parasti megabaiti
 download-recordings-unavailable = Jūs nevarat pieprasīt savus ierakstus, kamēr jau notiek cita pieprasījuma apstrāde.
 download-recently-requested = Varat pieprasīt jaunu savu ierakstu izņemšanu ik pēc { $days } dienām.
@@ -1336,7 +1336,7 @@ download-request-link-single = Varat arī kopēt un ielīmēt šīs adreses sav�
 ## Landing
 
 welcome-staff = Sveicināti { $company } darbinieki!
-help-contribute = Jūs varat palīdzēt veidot daudzveidīgu, atvērtā pirmkoda datu kopu, izveidojot kopīgās balss profilu un ierakstot savu balsi.
+help-contribute = Jūs varat palīdzēt veidot daudzveidīgu atvērtā pirmkoda datu kopu, izveidojot Common Voice profilu un ierakstot savu balsi.
 login-company = Piesakieties / pierakstieties ar { $company } e-pastu
 profile-not-required = Lai veiktu ieguldījumu, profilu veidot nevajag, bet tas var būt noderīgi ja jūs to izveidosiet
 read-more-about = Lasiet vairāk mūsu lapā Par mums
@@ -1406,7 +1406,7 @@ contribution-misreadings-example-7-explanation = [‘Ja‘ nav tas pats kas ‘j
 contribution-misreadings-example-8-title = Bites ir čakli kukaiņi
 contribution-misreadings-example-8-explanation = [Ierunāts nepareizs teikums]
 contribution-varying-pronunciations-title = Dažādas izrunas
-contribution-varying-pronunciations-description = Esiet piesardzīgi, pirms noraidāt ierakstu, pamatojoties uz to, ka lasītājs ir nepareizi izrunājis vārdu, ievietojis uzsvaru nepareizā vietā vai acīmredzami ignorējis jautājuma zīmi. Izrunas pasaulē ir dažādas un dažus no tām jūs, iespējams, ikdienā nedzirdat sev apkārt. Novērtējiet to, ka dažādi cilvēki runā citādāk nekā jūs.
+contribution-varying-pronunciations-description = Esiet piesardzīgi, pirms noraidāt ierakstu, pamatojoties uz to, ka lasītājs ir nepareizi izrunājis vārdu, ievietojis uzsvaru nepareizā vietā vai acīmredzami ignorējis jautājuma zīmi. Izrunas ir dažādas un dažas no tām jūs, iespējams, ikdienā nedzirdat sev apkārt. Novērtējiet to, ka cilvēki var runāt citādi nekā jūs.
 contribution-varying-pronunciations-description-extended = No otras puses, ja izruna ir nepareiza vai kļūdaina, noraidiet ierakstu. Ja neesat pārliecināti, izmantojiet izlaišanas pogu.
 contribution-varying-pronunciations-example-1-title = Man garšo desa.
 contribution-varying-pronunciations-example-1-explanation = [‘desa’ ir pareizi ierunāta neatkarīgi no tā vai dažādos akcentos tiek lietots platais vai šaurais e]
@@ -1586,7 +1586,7 @@ sc-add-err-failed =
     { $sentences ->
         [0] Neviens teikums netika noraidīts
         [zero] { $sentences } teikums tika noraidīts
-        [one] { $sentences } teikumi tika noraidīti
+        [one] { $sentences } teikums tika noraidīts
        *[other] { $sentences } teikumi tika noraidīti
     }
 sc-add-err-submission = Iesniegšanas kļūda
@@ -1648,19 +1648,19 @@ sc-lang-info-total =
 #   $totalInReview (Number) - Number of sentences currently in the review state for this language
 sc-lang-info-in-review =
     { $totalInReview ->
-        [0] Nav neviena teikuma ko pārbaudīt.
-        [zero] { $totalInReview } teikums ko pārbaudīt.
-        [one] { $totalInReview } teikumi ko pārbaudīt.
-       *[other] { $totalInReview } teikumi ko pārbaudīt.
+        [0] Nav neviena teikuma, ko pārbaudīt.
+        [zero] { $totalInReview } teikums, ko pārbaudīt.
+        [one] { $totalInReview } teikumi, ko pārbaudīt.
+       *[other] { $totalInReview } teikumi, ko pārbaudīt.
     }
 # Variables:
 #   $unreviewedSentencesByYou (Number) - Number of sentences the user can still review
 sc-lang-info-left-for-you =
     { $unreviewedSentencesByYou ->
-        [0] Jums nav neviena teikuma ko pārbaudīt.
-        [zero] { $unreviewedSentencesByYou } teikums ko pārbaudīt.
-        [one] { $unreviewedSentencesByYou } teikumi ko pārbaudīt.
-       *[other] { $unreviewedSentencesByYou } teikumi ko pārbaudīt.
+        [0] Jums nav neviena teikuma, ko pārbaudīt.
+        [zero] { $unreviewedSentencesByYou } teikums, ko pārbaudīt.
+        [one] { $unreviewedSentencesByYou } teikumi, ko pārbaudīt.
+       *[other] { $unreviewedSentencesByYou } teikumi, ko pārbaudīt.
     }
 sc-lang-info-review-now = <reviewLink>Pārbaudīt tagad!</reviewLink>
 sc-lang-info-add-more = <addLink>Pievienojiet teikumus!</addLink>
@@ -1670,17 +1670,17 @@ sc-lang-info-validated =
     { $validatedSentences ->
         [0] Nav neviena pārbaudīta teikuma.
         [zero] { $validatedSentences } pārbaudīts teikums.
-        [one] { $validatedSentences } pārbaudīti teikumi.
-       *[other] { $validatedSentences } pārbaudītu teikumu.
+        [one] { $validatedSentences } pārbaudīts teikums.
+       *[other] { $validatedSentences } pārbaudīti teikumi.
     }
 # Variables:
 #   $rejectedSentences (Number) - Number of sentences which have been rejected for this language
 sc-lang-info-rejected =
     { $rejectedSentences ->
         [0] Nav neviena noraidīta teikuma.
-        [zero] { $rejectedSentences } noraidīts teikums.
-        [one] { $rejectedSentences } noraidīti teikumi.
-       *[other] { $rejectedSentences } noraidītu teikumu.
+        [zero] { $rejectedSentences } noraidīti teikumi.
+        [one] { $rejectedSentences } noraidīts teikums.
+       *[other] { $rejectedSentences } noraidīti teikumi.
     }
 
 ## LOGIN
@@ -1898,3 +1898,7 @@ reviewing-sentences-explanation-3 = Ja neesat pārliecināts par teikumu, varat 
 reviewing-sentences-explanation-4 = Ja visi teikumi jau ir pārbaudīti, lūdzu, palīdziet mums savākt jaunus teikumus!
 community-announcement-header = Kopienas paziņojums!
 community-announcement-explanation = Zemāk sniegtie norādījumi attiecas uz jaunajām teikumu apkopošanas iespējām, kas 2023. gada martā un aprīlī tiks integrētas Common Voice pamatplatformā. Tikmēr varat izmantot iepriekšējo rīku <scLink>https://commonvoice.mozilla.org/sentence-collector/</scLink>.
+# SENTENCE-COLLECTOR-REDIRECT PAGE
+sc-redirect-page-title = Mēs veicam dažas lielas izmaiņas
+sc-redirect-page-subtitle-1 = Teikumu apkopošanas rīks pāriet uz Common Voice platformu. Tagad varat <writeURL>pievienot</writeURL> un <reviewURL>pārbaudīt</reviewURL> teikumus Common Voice sistēmā.
+sc-redirect-page-subtitle-2 = Uzdodiet mums jautājumus <matrixLink>Matrix</matrixLink>, <discourseLink>Discourse</discourseLink> vai rakstot <emailLink>e-pastu</emailLink>.

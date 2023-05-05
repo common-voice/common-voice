@@ -1765,3 +1765,7 @@ reviewing-sentences-explanation-3 = As jo net wis binne oer de sin, kinne jo it 
 reviewing-sentences-explanation-4 = As jo gjin sinnen mear hawwe om te beoardielen, help ús dan om mear sinnen te sammeljen!
 community-announcement-header = Mienskipsoankundiging!
 community-announcement-explanation = De ûndersteande rjochtlinen binne foar de sammelfunksjes foar nije sinnen, dy’t yn maart en april 2023 yn it Common Voice-kearnplatfoarm yntegrearre wurde sille. Yn de tuskentiid kinne jo it foarige helpmiddel brûke, <scLink>https://commonvoice.mozilla.org/sentence-collector/</scLink>.
+# SENTENCE-COLLECTOR-REDIRECT PAGE
+sc-redirect-page-title = Wy fiere inkelde grutte feroaringen troch
+sc-redirect-page-subtitle-1 = De Sentence Collector ferhuzet nei de kearn fan it Common Voice-platfoarm. Jo kinne no in sin <writeURL>skriuwe</writeURL> of ynstjoeringen fan losse sinnen <reviewURL>beoardiele</reviewURL> op Common Voice.
+sc-redirect-page-subtitle-2 = Stel ús fragen op <matrixLink>Matrix</matrixLink>, <discourseLink>Discourse</discourseLink> of fia in <emailLink>e-mailberjocht</emailLink>.

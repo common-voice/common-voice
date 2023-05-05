@@ -1629,3 +1629,5 @@ reviewing-sentences-explanation-2 = Cümle yukarıdaki ölçütleri karşılamı
 reviewing-sentences-explanation-3 = Cümleden emin değilseniz atlayabilir ve bir sonrakine geçebilirsiniz.
 reviewing-sentences-explanation-4 = İncelenecek cümleler biterse lütfen daha fazla cümle toplamamıza yardım edin!
 community-announcement-header = Topluluk duyurusu!
+# SENTENCE-COLLECTOR-REDIRECT PAGE
+sc-redirect-page-title = Bazı büyük değişiklikler yapıyoruz

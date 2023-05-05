@@ -1689,3 +1689,7 @@ reviewing-sentences-explanation-3 = Ha nem biztos a mondattal kapcsolatban, ki i
 reviewing-sentences-explanation-4 = Ha elfogynak az ellenőrizhető mondatok, akkor segítsen további mondatok összegyűjtésében.
 community-announcement-header = Közösségi bejelentés!
 community-announcement-explanation = Az alábbi útmutatás az új mondatgyűjtő funkciókra vonatkozik, amelyek 2023 márciusában és áprilisában a központi Common Voice platformba integrálódnak. Addig is, használhatja a korábbi eszközt: <scLink>https://commonvoice.mozilla.org/sentence-collector/</scLink>.
+# SENTENCE-COLLECTOR-REDIRECT PAGE
+sc-redirect-page-title = Néhány nagy változtatást vezetünk be
+sc-redirect-page-subtitle-1 = A mondatgyűjtő átköltözik a központi Common Voice platformra. Mostantól a Common Voice-on <writeURL>írhat</writeURL> mondatokat vagy <reviewURL>ellenőrizheti</reviewURL> az egymondatos beküldéseket.
+sc-redirect-page-subtitle-2 = Kérdezzen a <matrixLink>Matrixon</matrixLink>, a <discourseLink>Discourse-on</discourseLink> vagy <emailLink>e-mailben</emailLink>.
