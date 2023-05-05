@@ -303,18 +303,32 @@ email-subscription-title-new = I tɔgɔ sɛbɛn Common Voice kunnafonidisɛbɛnw
 
 benefits = Nafaw
 rich-data = Aw ye aw ka kunnafoniw cilenw kɛ fɛn nafamaw ye cogo bɛɛ la, aw kɛtɔ ka jamanadenw ka kunnafoniw dɔw di minnu tɔgɔ ma fɔ. An bɛ jamanaden hakɛ kunnafoniw bɛɛ dogo ka sɔrɔ k’u bɔ kɛnɛ kan.
+improve-audio = Profil kunnafoniw bɛ kunnafoniw lamɛntaw ɲɛ ka taa a fɛ minnu bɛ kɛ ka kuma dɔnni tiɲɛni dege.
 keep-track = Aw ye aw ka ɲɛtaa ni jateminɛw jateminɛ kan caman kɔnɔ.
+compare-progress = A lajɛ i ka ɲɛtaa bɛ se ka suma cogo min na ni dɛmɛbaga tɔw ye diɲɛ fan bɛɛ la.
+view-goals = Aw ye aw ka ɲɛtaa lajɛ ka kɛɲɛ ni aw yɛrɛ ka laɲiniw ni poroze kuntilenna ye.
+join-newsletter = Ni aw b’a fɛ ka fara an ka bataki cilenw kan walasa ka kunnafoni kuraw ni kunnafoni kuraw sɔrɔ porozɛ in kan.
 
 ## What's public
 
+whats-public = Mun ye Foroba ye?
+email-not-public = An tɛna i ka bataki ci foroba la.
 recordings-and-locale-public = Fɔlisenw hakɛ ani i bɛ dɛmɛ don kan minnu na, o bɛna kɛ foroba ye.
+username-optin-public = I bɛ se k’a sugandi k’i ka baarakɛla tɔgɔ kɛ foroba la walima k’a tɔgɔ fɔ.
 demographic-deidentified-clarity-2 = Jamanadenw ka kunnafoniw minnu bɛ ci i yɛrɛ sago la (misali la, u si hakɛ, cɛya ni musoya, kan, ani u fɔcogo), olu tɛna kɛ foroba ye abada i ka kunnafonisɛbɛn kan, wa u tɛna siri i ka jatebɔsɛbɛn na kunnafonidilan kɔnɔ. Odio-klip kelen-kelen bɛɛ bɛna jɛ jamanadenw ka kunnafoniw na walasa ka sɛgɛsɛgɛli kɛ ka ɲɛ - misali la, ɲininikɛla dɔ bɛ se k’a fɛ ka kalan misali dɔ ɲɛsin jamanaden hakɛ yɔrɔ kɛrɛnkɛrɛnnen dɔ ma.
+username-email-not-demographic = I ka baarakɛla tɔgɔ ni i ka imeyili tɛna jɛ ni kunnafoniw bɔlenw ye.
 
 ## Speak & Listen Shortcuts
 
+# Must be one letter that appears in the translated { skip } string.
+shortcut-skip = s
 
 ## Listen Shortcuts
 
+# Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-play-toggle = p
+shortcut-play-toggle-label = Ka Fɔ/ Ka Jɔ
 
 ## Speak Shortcuts
 
