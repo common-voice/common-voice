@@ -665,6 +665,7 @@ sst-explanation = ⵜⵉⵜⵉⴽⵏⵓⵍⵓⵊⵉⵢⵉⵏ ⵏ ⵡⴰⵡⴰⵍ
 ## Error pages
 
 error-title-404 = ⵓⵔ ⵏⵖⵉⵢ ⴰⴷ ⴰⵡⵏ ⵏⴰⴼ ⵜⴰⵙⵏⴰ ⴰⵏⵏ
+error-content-404 = ⴰⵜⴰⴼ ⵔⴰⴷ ⵜⴰⵡⵙⴰ <homepageLink>ⵜⴰⵙⵏⴰ ⵏ ⵓⵙⵏⵓⴱⴳ</homepageLink> ⵏⵏⵖ? ⵃⵎⴰ ⴰⴷ ⵜⵙⵇⵙⴰⴷ ⴽⵔⴰ ⵏ ⵓⵙⵇⵙⵉ, ⵎⴽ ⵜⵓⴼⵉⴷ, ⵍⴽⵎ <matrixLink>ⴰⵎⵙⴰⵡⴰⵍ ⵏ ⵓⴳⵔⴰⵡ ⵏ ⵎⵉⵜⵔⵉⴽⵙ</matrixLink>, ⴹⵓⴼ ⵉⵎⵓⴽⵔⵉⵙⵏ ⵏ ⵓⵙⵉⵜ ⵙ <githubLink>ⴳⵉⵜⵀⴰⴱ</githubLink> ⵏⵉⵖ ⵜⴽⴽⵉⴷ <discourseLink>ⵉⵙⴳⵔⴰⵡⵏ ⵏ ⴷⵉⵙⴽⵓⵔⵙ ⵏⵏⵖ</discourseLink>.
 error-code = ⵜⴰⵣⴳⵍⵜ { $code }
 
 ## Data
