@@ -1724,3 +1724,7 @@ reviewing-sentences-explanation-3 = Nếu bạn không chắc chắn về câu �
 reviewing-sentences-explanation-4 = Nếu hết câu cần xem lại, hãy giúp chúng tôi sưu tầm thêm các câu khác nhé!
 community-announcement-header = Thông báo cộng đồng!
 community-announcement-explanation = Hướng dẫn bên dưới dành cho các tính năng thu thập câu mới, sẽ được tích hợp vào nền tảng Common Voice cốt lõi trong suốt tháng 3 và tháng 4 năm 2023. Trong thời gian chờ đợi, bạn có thể sử dụng công cụ trước đó, <scLink>https://commonvoice.mozilla.org/sentence-collector/</scLink>.
+# SENTENCE-COLLECTOR-REDIRECT PAGE
+sc-redirect-page-title = Chúng tôi đang thực hiện một số thay đổi lớn
+sc-redirect-page-subtitle-1 = Trình thu thập câu đang chuyển sang nền tảng cốt lõi của Common Voice. Giờ đây, bạn có thể <writeURL>viết</writeURL> một câu hoặc <reviewURL>xem xét</reviewURL> các bài gửi một câu trên Common Voice.
+sc-redirect-page-subtitle-2 = Đặt câu hỏi cho chúng tôi trên <matrixLink>Matrix</matrixLink>, <discourseLink>Discourse</discourseLink> hoặc <emailLink>email</emailLink>.
