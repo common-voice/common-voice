@@ -1687,3 +1687,5 @@ reviewing-sentences-explanation-3 = Si tu non es secur re le phrase, tu pote als
 reviewing-sentences-explanation-4 = Si tu exhauri le phrases a revider, per favor adjuta nos a colliger altere phrases!
 community-announcement-header = Annuncios de communitate
 community-announcement-explanation = Le guida infra es pro le nove functiones del collector de phrases, que sera integrate in le platteforma Common Voice durante martio e april 2023. Intertanto tu pote usar le previe instrumento, <scLink>https://commonvoice.mozilla.org/sentence-collector/</scLink>.
+# SENTENCE-COLLECTOR-REDIRECT PAGE
+sc-redirect-page-title = Nos va facer alcun grande cambios
