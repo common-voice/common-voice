@@ -115,6 +115,8 @@ ky = Kirgisies
 lb = Luxemburgs
 lg = Luganda
 lij = Liguriaans
+ln = Lingala
+lo = Lao
 lt = Litaus
 lv = Letties
 mai = Maithili
@@ -136,11 +138,14 @@ nan-tw = Taiwannees
 nb-NO = Noorse Bokmål
 nd = IsiNdebele (Noord)
 ne-NP = Nepalees
+nhe = Oostelike Huasteca Nahuatl
+nhi = Westelike Sierra Puebla Nahuatl
 nia = Nias
 nl = Nederlands
 nn-NO = Noors Nynorsk
 nr = IsiNdebele (Suid)
 nso = Noord-Sotho
+ny = Chinyanja
 nyn = Runyankole
 oc = Oksitaans
 om = Afaan Ormoo
@@ -161,11 +166,13 @@ sah = Sakha
 sat = Santalien (Ol Chiki)
 sc = Sardinies
 scn = Siciliaans
+sdh = Suid-Koerdies
 shi = Shilha
 si = Sinhalees
 sk = Slowaaks
 skr = Saraiki
 sl = Sloweens
+snk = Soninke
 so = Somalies
 sq = Albanees
 sr = Serwies
@@ -189,6 +196,7 @@ ts = Xitsonga
 tt = Tataars
 tw = Twi
 ty = Tahities
+tyv = Tuvan
 uby = Ubykh
 udm = Udmurt
 ug = Uyghur
@@ -199,14 +207,17 @@ ve = Tshivenda
 vec = Venesiaans
 vi = Viëtnamees
 vot = Voties
+wo = Wolof
 xh = isiXhosa
 yi = Jiddisj
 yo = Joroeba
 yue = Kantonees
+zgh = Tamazight
 zh-CN = Chinees (China)
 zh-HK = Chinees (Hong Kong)
 zh-TW = Chinees (Taiwan)
 zu = isiZulu
+zza = Zaza
 
 # [/]
 
@@ -218,6 +229,7 @@ speak-now = Praat nou
 datasets = Datastelle
 languages = Tale
 about = Oor
+partner = Vennoot
 profile = Profiel
 help = Hulp
 contact = Kontak
@@ -401,7 +413,9 @@ why-demographic = Hoekom maak dit saak?
 why-demographic-explanation-2 = Anonieme gebruikersdata soos ouderdom, geslag en aksent help om die stemdata wat gebruik word om die akkuraatheid van spraakherkenningenjins op te lei, te verbeter. Jou gebruikersnaam en e-posadres sal nooit met jou ingediende data geassosieer word nie, en jy kan kies of jy jou gebruikersnaam publiek of anoniem wil maak.
 accept-privacy = Ek aanvaar dat hierdie inligting hanteer word soos verduidelik in Mozilla se <privacyLink> Privaatheidsbeleid</privacyLink>
 accept-privacy-title = Privaatheidsbeleid
+accept-privacy-and-terms = Ek stem in tot Common Voice se <termsLink>Bepalings</termsLink> en <privacyLink>Privaatheidskennisgewing</privacyLink>
 login-identity = Aanteken identiteit
+login = Teken aan
 login-signup = Teken In / Teken Aan
 edit = Redigeer
 email-subscriptions = E-pos Inskrywings
@@ -709,6 +723,9 @@ datasets-positioning =
     
     Kyk na hierdie bladsy as 'n verwysingspunt vir ander oopbron-stemdatastelle en, soos Common Voice steeds groei, 'n tuiste vir inligting oor die nuutste vrystellings.
 language = Taal
+download-dataset-header = Laai die datastel af
+download-delta-explainer = Ons het 'n paar veranderinge aangebring. Delta-segmente bevat net die mees onlangse snitte sedert die laaste vrystelling. <deltaLink>Lees meer oor hierdie werk</deltaLink>.
+download-dataset-tag = Kies die verlangde datastel en die weergawe wat jy wil aflaai.
 # File size in gigabytes
 size = Grootte
 validated-hr-total = Bevestigde Ure Totaal
@@ -723,6 +740,7 @@ confirm-size = Jy is bereid om 'n aflaai van <b> { $size } </b> te begin
 size-gigabyte = GG
 size-megabyte = MG
 confirm-no-identify = <b> Jy stem in </b> om nie te probeer om die identiteit van sprekers in die Common Voice-datastel te bepaal nie
+confirm-join-mailing-list = Ek wil by die Common Voice-poslys aansluit
 download-language = Laai { $taal } Af
 validated-hours = Bevestigde Ure
 recorded-hours = Opgeneemde Ure
@@ -755,6 +773,9 @@ more = Meer
 close = Sluit
 download = Laai Af
 dataset-version = Weergawe
+sha256-checksum-copied = SHA256 Kontrolesom gekopieer!
+sha256-checksum-copied-error = Kon nie SHA256 Kontrolesom kopieer nie
+clipboard-not-supported = Knipbord word nie ondersteun nie
 
 ## Download Modal
 
@@ -910,6 +931,7 @@ target-segment-learn-more = Vind meer uit
 
 ## Contribution Nav Items
 
+contribute-voice-collection-nav-header = Stemversameling
 
 ## Reporting
 
@@ -1516,4 +1538,14 @@ sc-validation-no-abbreviations = Sinne moet nie afkortings bevat nie
 
 localization-select =
     .label = Kies taal/lokalisering
+# PARTNERSHIPS PAGE
+partnerships-header = Vennootskappe
+partnerships-header-text = Dit verg baie om Common Voice te laat gebeur! Ons doen dit nie alleen nie. Wil jy graag saamwerk? Ons hoor graag van jou.
+partnerships-get-in-touch = Kontak ons
+partnerships-become-a-partner = Word 'n Common Voice-vennoot
+partnerships-community-header = Gemeenskap, Kreatiewes en Burgerlike gemeenskap
+partnerships-community-description = Die gemeenskap is die kloppende hart van Common Voice – hulle kom van regoor die wêreld, en is taalaktiviste, wetenskaplikes en kunstenaars. Jy kan meer leer oor hoe om betrokke te raak op ons <about>Meer oor</about>-bladsy en in ons <community>Community Playbook</community>. As jy belangstel in 'n dieper organisatoriese vennootskap, <emailFragment>kontak.</emailFragment>
+partnerships-foundations-header = Fondse
+partnerships-foundations-description = Ons werk saam met stigtings, die burgerlike samelewing en gemeenskapsvennote om die internet 'n gesonder plek te maak, met 'n spesifieke fokus op Oos-Afrika. Kom meer te wete oor ons <programmaticWork>programmatiese werk.</programmaticWork>
+partnerships-governments-header = Regerings
 sentence-collection = Stemversameling
