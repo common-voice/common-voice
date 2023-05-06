@@ -619,6 +619,8 @@ about-playbook-how-grow-language-content-1 = ⴰⵙⵏⴼⵍⵓⵍ ⵏ ⵉⵣⵎ
 about-playbook-how-grow-language-content-2 = ⵜⵉⵎⵙⴰⵔⵉⵏ
 about-playbook-how-grow-language-content-3 = ⵜⵣⵎⵔⵎ ⴰⴷ ⵜⵙⵏⵎⴰⵍⴰⵎ ⵜⵉⵎⵙⴰⵔⵉⵏ ⵃⵎⴰ ⴰⴷ ⵜⴰⵡⵙⵎ ⵉ ⵎⴷⴷⵏ ⴰⴷ ⴰⵔⴳⵏ. ⵉⵍⵎⴹ ⵓⵢⴰⵏⵏ ⵓⴳⴳⴰⵔ ⵏ ⵓⵢⵏⵏⴰ ⵜⵖⴰⵍⵎ. ⵜⵖⵉⵢⵎ ⴰⴷ ⵜ ⵜⴳⵎ ⴳ ⵉⴼⵉⵍⵉ ⵙ ⴽⵔⴰ ⵏ ⵢⵉⵎⵉⵙ ⵏ ⵜⵉⵏⴰⵡⵜ ⵙ ⵓⴼⵉⴷⵢⵓ, ⵏⵉⵖ ⵙ ⵢⵉⵎⴰⵏ ⵏⵏⵓⵏ ⵎⴽ ⴳⵉⵙ ⵜⴰⵏⴼⵔⵓⵜ. <eventTemplate>ⵙⴼⵓⴽⴽⵔⴰⵜ ⴰⵍⴱⵓⴹⵏ ⴷ ⵉⵙⵓⴳⴰⵎ ⵏⵏⵖ ⵉ ⵓⵙⵏⵎⴰⵍⴰ ⵏ ⵜⵎⵙⴰⵔⵉⵏ</eventTemplate>.
 about-playbook-how-grow-language-content-4 = ⵉⵥⴹⵡⴰⵏ ⵉⵏⴰⵎⵓⵏⵏ
+about-playbook-how-grow-language-content-5 = ⵜⵖⵉⵢⴷ ⴰⴷ ⵜⵙⵙⵎⵔⵙⴷ ⵜⵉⵙⵉⵍⴰⵡⵉⵏ ⵏ ⵉⵥⴹⵡⴰⵏ ⵉⵏⴰⵎⵓⵏⵏ ⵃⵎⴰ ⴰⴷ ⵜⵙⵙⴽⴽⴷ ⵜⵓⵣⵉⵏⵜ. ⴱⴹⵓ ⵜⵉⵥⵕⵉⴳⵉⵏ ⵏⵏⴰ ⵙⵙⴼⵔⵓⵏⵉⵏ ⵎⴰⵅⴼ ⵉⵅⴰⵜⵔ ⵓⵢⴰ, ⵜⵏⵢⴰⵍⴽⴰⵎⴷ ⴰⴽⴷ ⵎⴷⴷⵏ ⵢⴰⴹⵏⵉⵏ ⵙⴰⵡⴰⵍⵏⵉⵏ ⵅⴼ ⵉⵎⵓⴽⵔⵉⵙⵏ ⵣⵓⵏ ⴷ ⵉⵣⵔⴼⴰⵏ ⵏ ⵜⵓⵜⵍⴰⵢⵜ, ⵜⵉⵖⵉⵙⵜ ⵏ ⵜⵎⴰⵛⵉⵏⵜ ⵜⴰⴳⵕⴹⴰⵏⵜ, ⵏⵉⵖ ⴰⵥⵥⴰⵥ ⴳ ⵜⴻⵜⵉⴽⵏⵓⵍⵓⵊⵉⵜ. ⵥⵕ ⵓⴳⴳⴰⵔ ⵏ ⵉⵙⵎⵎⵜⵔⵏ ⵅⴼ <campaignLink>ⵓⵙⵏⵎⴰⵍⴰ ⵏ ⴽⵔⴰ ⵏ ⵓⵎⵣⵉⵣⵣⵍ ⴰⵏⴰⵎⵓⵏ, ⴳⵉⵙ ⵎⴰⵏⵎⴽ ⵙ ⵜⵣⵎⵔⴷ ⴰⴷ ⵜⴰⵍⵙⴷ ⵉ ⵓⵙⵙⵎⵔⵙ</campaignLink>.
+about-playbook-how-grow-language-content-6 = ⵜⵉⵎⴷⵔⴰⵡⵉⵏ ⴷ ⵉⵥⴹⵡⴰⵏ
 
 ## How to validate
 
