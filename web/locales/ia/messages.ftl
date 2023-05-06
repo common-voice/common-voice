@@ -1689,3 +1689,5 @@ community-announcement-header = Annuncios de communitate
 community-announcement-explanation = Le guida infra es pro le nove functiones del collector de phrases, que sera integrate in le platteforma Common Voice durante martio e april 2023. Intertanto tu pote usar le previe instrumento, <scLink>https://commonvoice.mozilla.org/sentence-collector/</scLink>.
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = Nos va facer alcun grande cambios
+sc-redirect-page-subtitle-1 = Le Collector de phrases se move al nucleo del platteforma Common Voice. Ora tu pote <writeURL>scriber</writeURL> un phrase o <reviewURL>revider</reviewURL> singule invios de phrases sur Common Voice.
+sc-redirect-page-subtitle-2 = Demanda nos questiones sur <matrixLink>Matrix</matrixLink>, <discourseLink>Discourse</discourseLink> o <emailLink>email</emailLink>.
