@@ -1548,4 +1548,43 @@ partnerships-community-description = Die gemeenskap is die kloppende hart van Co
 partnerships-foundations-header = Fondse
 partnerships-foundations-description = Ons werk saam met stigtings, die burgerlike samelewing en gemeenskapsvennote om die internet 'n gesonder plek te maak, met 'n spesifieke fokus op Oos-Afrika. Kom meer te wete oor ons <programmaticWork>programmatiese werk.</programmaticWork>
 partnerships-governments-header = Regerings
+partnerships-governments-description = Ons is opgewonde om openbare sektore se betrokkenheid by tegnologie, innovasie en taalregte te ondersteun. As jy van plan is om 'n groot projek of veldtog te bestuur, <emailFragment>kontak ons asseblief.</emailFragment>
+partnerships-academia-header = Universiteite, Akademici en Navorsers
+partnerships-academia-description = Oop innovasie is die kern van wat ons doen. Vir navorsingsamewerking, data-insameling of onderhoude, <emailFragment>reik uit.</emailFragment>
+partnerships-small-business-header = Klein besighede, insluitend tegnologie- en KI-beginners
+partnerships-small-business-description = Ons hoor graag van dataverbruikers oor hul behoeftes en konteks - van samewerking op data-insamelingsplatform tot die verskaffing van datagesondheidsinsigte, ons wil <emailFragment>van jou hoor.</emailFragment>
+partnerships-corporates-header = Grootskaalse maatskappye en platformmaatskappye
+partnerships-corporates-description = As jy meer wil praat oor die datastel, wil saambelê in beplande platformuitbreidings of op soek is na samewerkingsgeleenthede, <emailFragment>stuur vir ons 'n e-pos</emailFragment>
+partnerships-our-partners = Ons Vennote
+# FIRST POST SUBMISSION CTA
+first-cta-header-text = Dankie vir die skenking van jou stemsnitte!
+first-cta-subtitle-text = Wil jy inligting deel oor hoe jy praat?
+why-donate = Hoekom vra jy?
+why-donate-explanation-1 = Hierdie inligting is opsioneel - jy hoef dit net by te voeg as jy gemaklik voel. Wanneer ons die datastel vrystel, versteek ons alle persoonlike inligting, en maak seker dat inligting soos jou naam en e-posadres nie aan demografiese inligting soos jou ouderdom of geslag gekoppel word nie.
+why-donate-explanation-2 = Vir tegnologie om goed vir almal te werk, moet die data wat ontwikkelaars help om tegnologie te bou 'n uiteenlopende reeks mense weerspieël. As ons byvoorbeeld geen sprekers met 'n spesifieke aksent insluit nie, sal die tegnologie nie goed werk vir mense met daardie aksent nie. <learnMore>Kom meer te wete oor hoekom metadata belangrik is.</learnMore>
+add-information-button = Voeg inligting by
+continue-speaking-button = Nee dankie, hou aan praat
+create-profile-text = Wil jy jou inligting stoor? <createProfile>Skep 'n profiel</createProfile>
+thanks-for-voice-toast = Dankie vir jou stem inligting
+thanks-for-voice-toast-error = 'n Fout het voorgekom en jou steminligting is nie ingedien nie
+# SECOND POST SUBMISSION CTA
+second-cta-header-text = Dankie dat jy jou stem bydra!
+second-cta-subtitle-text = Met 'n profiel kan jy tred hou van jou aktiwiteit en kontak maak met 'n gemeenskap van stemdatabydraers.
+already-have-an-account = Reeds 'n rekening? <login>Teken aan</login>
+create-profile-button = Skep 'n profiel
+# IMAGE TAGS
+img-alt-success-checkmark = sukses baken
+# GUIDELINES PAGE
+guidelines-header = Riglyne vir bydraes
+guidelines-header-subtitle = Verstaan hoe om sinne en klanksnitte by te dra en te bekragtig vir die Common Voice-datastel
+voice-collection = Stemversameling
 sentence-collection = Stemversameling
+varying-pronunciations = Verskillende uitsprake
+misreadings = Lees foute
+offensive-content = Aanstootlike inhoud
+background-noise = Agtergrondgeraas
+background-voices = Stemme in die agtergrond
+volume = Volume
+reader-effects = Leser-effekte
+just-unsure = Net onseker?
+example = Voorbeeld
