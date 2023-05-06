@@ -18,6 +18,8 @@ banner-error-slow-1 = Jammer. Common Voice ervaar tans vertragings. Dankie vir j
 banner-error-slow-2 = Ons ontvang tans baie verkeer en is besig om die saak te ondersoek.
 banner-error-slow-link = Statusblad
 error-something-went-wrong = Jammer, iets het skeef geloop.
+error-clip-upload = Die oplaai van hierdie snit misluk steeds. Hou aan om weer te probeer?
+error-clip-upload-server = Die oplaai van hierdie snit misluk steeds by die bediener. Herlaai die bladsy of probeer later weer.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -40,10 +42,13 @@ ba = Basjkir
 bas = Basaa
 be = Belarussies
 bg = Bulgaars
+bm = Bambarees
 bn = Bengali
+bo = Tibettaans
 br = Bretons
 bs = Bosnies
 bxr = Buryat
+byv = Medumba
 ca = Katalonies
 cak = Kaqchikel
 ckb = Sentraalkurdisies
@@ -53,6 +58,7 @@ cs = Tsjeggies
 cv = Tjuvashies
 cy = Wallies
 da = Deens
+dag = Dagbani
 de = Duits
 dsb = Sorbies, Laer
 dv = Dhivehi
@@ -76,6 +82,7 @@ gom = Goan Konkanies
 ha = Hausa
 he = Hebreeus
 hi = Hindi
+hil = Hiligaynon
 hr = Kroaties
 hsb = Sorbian, Hoër
 ht = Haitiaans
@@ -90,6 +97,7 @@ is = Yslands
 it = Italiaans
 izh = Izhoriaans
 ja = Japannees
+jbo = Lojban
 ka = Georgies
 kaa = Karakalpaks
 kab = Kabiels
@@ -98,6 +106,7 @@ ki = Kikuyu
 kk = Kasaks
 km = Khmer
 kmr = Kurmanji Kurdish
+kn = Kannada
 knn = Konkani (Devanagari)
 ko = Koreaans
 kpv = Komi-Zyriaans
@@ -899,6 +908,9 @@ target-segment-first-banner = Help om Common Voice se eerste teikensegment in { 
 target-segment-add-voice = Voeg jou stem by
 target-segment-learn-more = Vind meer uit
 
+## Contribution Nav Items
+
+
 ## Reporting
 
 report = Rapporteer
@@ -1504,3 +1516,4 @@ sc-validation-no-abbreviations = Sinne moet nie afkortings bevat nie
 
 localization-select =
     .label = Kies taal/lokalisering
+sentence-collection = Stemversameling
