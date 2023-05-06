@@ -10,7 +10,7 @@ submit-form-action = ⴰⵣⵏ
 loading = ⴰⵣⴷⴰⵎ…
 email-opt-in-info = ⵔⵉⵖ ⴰⴷ ⵜⵜⴰⵎⵥⵖ ⵉⵎⴰⵢⵍⵏ ⴰⵎ ⵓⵙⴽⵜⵉ ⵙ ⵉⵡⵜⵜⴰⵙⵏ, ⵉⵙⴷⵖⵉⵜⵏ ⵅⴼ ⵡⴰⵍⴰⵢ ⵉⵏⵓ ⴷ ⵉⵏⵖⵎⵉⵙⵏ ⵅⴼ ⴽⴰⵎⵏⴼⵓⵢⵙ.
 email-opt-in-info-title = ⵍⴽⵎ ⵜⴰⵍⴳⴰⵎⵜ ⵏ ⵡⴰⵣⴰⵏ ⵏ ⵉⵎⴰⵢⵍⵏ ⵏ ⴽⴰⵎⵏⴼⵓⵢⵙ
-email-opt-in-info-sub-with-challenge = ⴰⴷ ⵜⵜⴰⵎⵥⵖ ⵉⵎⴰⵢⵍⵏ ⴰⵎ ⵓⵙⴽⵜⵉ ⵙ ⵉⵏⴰⵥⴰⵕⵏ ⴷ ⵉⵡⵜⵜⴰⵙⵏ, ⵉⵙⴷⵖⵉⵜⵏ ⵏ ⵡⴰⵍⴰⵢ ⴷ ⵉⵏⵖⵎⵉⵙⵏ ⵅⴼ ⴽⴰⵎⵏⴼⵓⵢⵙ.
+email-opt-in-info-sub-with-challenge = ⴰⴷ ⵜⵜⴰⵎⵥⵖ ⵉⵎⴰⵢⵍⵏ ⴰⵎ ⵓⵙⴽⵜⵉ ⵙ ⵉⵏⴰⵥⴰⵕⵏ ⴷ ⵉⵡⵜⵜⴰⵙⵏ, ⵉⵙⴷⵖⵉⵜⵏ ⵏ ⵡⴰⵍⴰⵢ ⴷ ⵜⴱⵔⴰⵜⵉⵏ ⵏ ⵉⵏⵖⵎⵉⵙⵏ ⵅⴼ ⴽⴰⵎⵏⴼⵓⵢⵙ.
 email-opt-in-privacy-v2 = ⵙ ⵓⴷⵇⵇⵔ ⵏ ⵡⴰⵎⴰⵥ ⵏ ⵉⵎⴰⵢⵍⵏ, ⵍⴰ ⵜⵙⵙⵉⴽⵉⵣⵎ ⵎⴰⵙ ⵜⵎⵙⴰⵙⴰⵎ ⴰⴽⴷ ⵓⵙⵡⵓⴷⴷⵓ ⵏ ⵎⵓⵣⵉⵍⴰ ⵉ ⵉⵏⵖⵎⵉⵙⵏ ⴰⴷ ⵙ ⵎⴽⴷⴰ ⵉⵜⵜⵓⵙⵙⴼⵔⴰⵏ ⴳ <privacyLink>ⵜⵙⵔⵜⵉⵜ ⵏ ⵜⵉⵏⵏⵓⵜⵍⴰ</privacyLink> ⵏ ⵎⵓⵣⵉⵍⴰ.
 indicates-required = ⵉⴳⵔⴰⵏ ⵜⵜⵓⵕⵛⵎⵏⵉⵏ ⵙ ⵜⵉⵜⵔⵉⵜ (*) ⵇⵇⴰⵏⵏ ⴷ.
 not-available-abbreviation = ⵔ/ⵙ
@@ -311,7 +311,7 @@ x-years-short =
 help-make-dataset = ⴰⵡⵙ ⴰⵏⵖ ⴰⴷ ⵏⵥⴽⵓ ⵜⵉⴳⵔⵓⵎⵎⴰⵡⵉⵏ ⵏ ⵉⵙⴼⴽⴰ ⵙ ⵓⵖⵓⴷⵓ ⴰⵎⴰⵜⵜⴰⵢ, ⵏⵏⵓⵕⵥⵎⵏⵉⵏ ⵙ ⵓⴳⴷⵓⴷⴰⵏ.
 sign-up-account = ⵣⵎⵎⴻⵎ ⴽⵔⴰ ⵏ ⵓⵎⵉⴹⴰⵏ
 email-subscription-title = ⵣⵎⵎⴻⵎ ⴳ ⵉⵙⴷⵖⵉⵜⵏ ⵏ ⵉⵎⴰⵢⵍ
-email-subscription-title-new = ⵣⵎⵎⴻⵎ ⴳ ⵜⴱⵔⴰⵜ ⵏ ⵉⵏⵖⵎⵉⵙⵏ ⵏ ⴽⴰⵎⵏⴼⵓⵢⵙ, ⴰⵙⴽⵜⵉ ⵙ ⵉⵡⵜⵜⴰⵙⵏ ⴷ ⵉⵙⴷⵖⵉⵜⵏ ⵏ ⵡⴰⵍⴰⵢ
+email-subscription-title-new = ⵣⵎⵎⴻⵎ ⴳ ⵜⴱⵔⴰⵜⵉⵏ ⵏ ⵉⵏⵖⵎⵉⵙⵏ ⵏ ⴽⴰⵎⵏⴼⵓⵢⵙ, ⴰⵙⴽⵜⵉ ⵙ ⵉⵡⵜⵜⴰⵙⵏ ⴷ ⵉⵙⴷⵖⵉⵜⵏ ⵏ ⵡⴰⵍⴰⵢ
 
 ## Account Benefits
 
