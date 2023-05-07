@@ -1636,5 +1636,5 @@ community-announcement-header = 社区公告
 community-announcement-explanation = 以下指南适用于新的语句收集工具功能，该功能将于 2023 年 3 月至 4 月开始集成到 Common Voice 主平台。在此之前，您可以使用原来的工具，即 <scLink>https://commonvoice.mozilla.org/sentence-collector/</scLink>。
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = 我们正在进行一些大的改变
-sc-redirect-page-subtitle-1 = 语句收集工具已迁移到 Common Voice 主平台，您现在可以直接在 Common Voice 上<writeURL>撰写</writeURL> 和<reviewURL>审核</reviewURL>语句。
+sc-redirect-page-subtitle-1 = 语句收集工具已迁移到 Common Voice 主平台，您现在可以直接在 Common Voice 上<writeURL>撰写</writeURL>和<reviewURL>审核</reviewURL>语句。
 sc-redirect-page-subtitle-2 = 在 <matrixLink>Matrix</matrixLink>、<discourseLink>Discourse</discourseLink> 上或通过 <emailLink>email</emailLink> 向我们提问。
