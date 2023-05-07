@@ -1056,6 +1056,7 @@ download-requests-info = ⴰⴷⴷⴰⵢ ⵜⴻⵜⵜⵔⵎ ⵉⵙⵓⵙⴰⵔ �
 download-request-button = ⴰⴳⵎ
 download-request-title = { $created }
 download-request-archive-single = ⴰⴼⴰⵢⵍⵓ ZIP ⴰⵎⵢⴰⵏ ⵢⵓⵎⵉⵏ
+download-request-archive-multiple = ⵉⵥⵓⵏ ⵅⴼ { $archiveCount } ⵉⴼⵓⵢⵍⴰ ZIP ⵢⵓⵎⵉⵏ
 download-request-assembling-description = ⵍⴰ ⵜⵜⵎⵓⵏⵏ ⵉⴼⵓⵢⵍⴰ ⵏⵏⵓⵏ. ⵎⴽ ⵜⵓⴼⴰⵎ, ⵛⴰⴱⴱⴰⵢⴰⵜ ⴷⴰⵖ ⴽⵓⴷⵏⵏⴰ.
 download-request-refresh-button = ⵙⴷⵖⵉ
 download-request-modal-title = ⵉⵙⵖⵡⴰⵏ ⵏ ⵡⴰⴳⴰⵎ
