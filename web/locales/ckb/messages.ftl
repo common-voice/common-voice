@@ -476,6 +476,7 @@ about-new-lang-title = سەرهەڵدانی زمانی نوێ
 about-new-lang-subtitle = ئێمە ماڵپەڕی دەنگی گشتی لەم زمانەدا دەکەینەوە.
 about-voice-contrib-title = بەشداریی دەنگ
 about-voice-validation-subtitle = کەسانی تر ئەو کلیپە دەنگانە پشتڕاست دەکەنەوە.
+about-dataset-release-title = بڵاوکردنەوەی داتاسێت
 about-dataset-release-subtitle = ئێمە هەر ٣ مانگ جارێک داتا سێتەکە بڵاو دەکەینەوە.
 about-subscribe-text = دەتەوێت لە پەیوەندیدا بمێنیتەوە لەگەڵ دەنگی باو؟
 about-speak = قسە بکە
@@ -525,6 +526,7 @@ about-playbook-how-add-language-collecting-sentences-heading = کۆکردنەو�
 
 ## How does localization work
 
+about-playbook-how-localize = سایتی ناوچەییکردن چۆن کاردەکات؟
 about-playbook-how-localize-content-1 = وەرگێڕانی دەنگی گشتی ڕوودەدات لە <strong> پۆنتوون </strong>.
 about-playbook-how-localize-content-4 = ماڵپەڕەکە ئامادە دەبێت بۆ کردنەوە کاتێک تەواوبوونی گەیشتە ٧٥٪ .
 about-playbook-how-localize-content-5 = سەیری ڕوونکەرەوە ڤیدیۆییەکەمان بکە بۆ یارمەتی
@@ -795,6 +797,9 @@ target-segment-generic-card = تۆ بەشداری دەکەیت لە بەشی ب�
 target-segment-first-banner = یارمەتی بدە کە یەکەمین بەشی ئامانجی دەنگی گشتی بۆ { $locale } درووست بکەین
 target-segment-add-voice = دەنگی خۆت زیاد کە
 target-segment-learn-more = زیاتر بزانە
+
+## Contribution Nav Items
+
 
 ## Reporting
 
@@ -1270,3 +1275,4 @@ sc-validation-no-abbreviations = ڕستە نابێت کورتکراوەی تێد
 
 localization-select =
     .label = زمان/ناوچەکردن هەڵبژێرە
+sentence-collection = کۆکردنەوەی ڕستە
