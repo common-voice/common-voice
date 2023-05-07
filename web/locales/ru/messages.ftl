@@ -1715,3 +1715,4 @@ community-announcement-header = Объявление сообщества!
 community-announcement-explanation = Приведенное ниже руководство предназначено для новых функций сборщика предложений, которые будут интегрированы в основную платформу Common Voice в течение марта и апреля 2023 года. А пока вы можете использовать предыдущий инструмент, <scLink>https://commonvoice.mozilla.org/sentence-collector/</scLink>.
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = У нас большие перемены
+sc-redirect-page-subtitle-2 = Задавайте нам вопросы в <matrixLink>Matrix</matrixLink>, <discourseLink>Discourse</discourseLink> или по <emailLink>электронной почте</emailLink>.
