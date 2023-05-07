@@ -1391,7 +1391,7 @@ sc-review-form-reviewed-message =
         [one] 1 ⵜⵡⵉⵏⵙⵜ ⵉⵜⵜⵢⴰⵔⴰⵎⵏ. ⵜⴰⵏⵎⵎⵉⵔⵜ!
        *[other] { $sentences } ⵜⵡⵉⵏⴰⵙ ⵜⵜⵢⴰⵔⴰⵎⵏⵉⵏ. ⵜⴰⵏⵎⵎⵉⵔⵜ!
     }
-sc-review-form-review-failure = ⵓⵔ ⵏⵣⵎⵉⵔ ⴰⴷ ⵏⵃⴹⵓ ⴰⵙⵙⵉⵔⵎ. ⵎⴽ ⵜⵓⴼⴰⵎ, ⴰⵔⵎⴰⵜ ⴷⴰⵖ ⴽⵓⴷⴷⴰ.
+sc-review-form-review-failure = ⵓⵔ ⵏⵣⵎⵉⵔ ⴰⴷ ⵏⵃⴹⵓ ⴰⵙⵙⵉⵔⵎ. ⵎⴽ ⵜⵓⴼⴰⵎ, ⴰⵔⵎⴰⵜ ⴷⴰⵖ ⴽⵓⴷⵏⵏⴰ.
 sc-review-link = ⵙⵙⵉⵔⵎ
 
 ## SETTINGS
