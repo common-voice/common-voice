@@ -958,6 +958,7 @@ top-contributors = ⵉⵎⴰⵔⴰⴳⵏ ⵉⵎⵓⴼⴰⵢⵏ
 recorded-clips = ⵜⵓⵙⵙⵉⴼⵉⵏ ⵜⵜⵓⵙⵓⵙⵔⵏⵉⵏ
 validated-clips = ⵜⵓⵙⵙⵉⴼⵉⵏ ⵣⵔⵢⵏⵉⵏ
 overall-accuracy = ⴰⵏⵖⴰⴷ ⴰⵎⴰⵜⴰⵢ
+set-visibility = ⵙⵔⵙ ⵜⵓⵎⴰⵏⵜ ⵉⵏⵓ
 
 ## Custom Goals
 
