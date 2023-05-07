@@ -857,7 +857,7 @@ record-error-too-short = ⵉⴳⵣⵣⵓⵍ ⵓⵙⵓⵙⵔ ⵙ ⴽⵉⴳⴰⵏ.
 record-error-too-long = ⵉⵖⵣⵣⵉⴼ ⵓⵙⵓⵙⵔ ⵙ ⴽⵉⴳⴰⵏ.
 record-error-too-quiet = ⵉⵣⴳⴰ ⵓⵙⵓⵙⵔ ⵙ ⴽⵉⴳⴰⵏ.
 record-cancel = ⵙⵔ ⴰⵍⴰⵙ ⵏ ⵓⵙⵓⵙⵔ
-record-instruction = { $actionType }<recordIcon></recordIcon> ⵉⵍⵎⵎⴰ ⵖⵔ ⵜⴰⵡⵉⵏⵙⵜ ⵙ ⵓⴳⵕⴹ ⵢⴰⵜⵜⵓⵢⵏ
+record-instruction = { $actionType }<recordIcon></recordIcon> ⵉⵍⵎⵎⴰ ⵖⵔ ⵜⴰⵡⵉⵏⵙⵜ ⵙ ⵓⵥⴰⴳⵓ
 record-stop-instruction = { $actionType }<stopIcon></stopIcon> ⴰⴷⴷⴰⵢ ⵜⵙⵎⴷⴷ
 record-three-more-instruction = ⵖⴰⵙ ⴽⵕⴰⴹⵜ ⵙⵓⵍ!
 record-again-instruction = ⴰⵢⵢⵓⵣ!<recordIcon></recordIcon> ⵙⵓⵙⵔⴰⵜ ⵜⵓⵙⵙⵉⴼⵜ ⵜⵓⴹⴼⵉⵕⵜ ⵏⵏⵓⵏ
@@ -1099,7 +1099,7 @@ demo-account-sign-up = ⴰⵣⵏ ⴰⵙⵖⵏ ⵏ ⵓⵣⵎⵎⴻⵎ
 ## Demo Contribute
 
 demo-contribute-card-header = ⵜⵎⵓⵜⵜⴳⵎ ⴰⴷ ⵜⵔⵏⵓⵎ ⴰⴳⵕⴹ ⵏⵏⵓⵏ ⵏⵉⵖ ⴰⴷ ⴷ ⵜⴳⵔⵎ ⴰⵎⵣⵣⵓⵖ ⵏⵏⵓⵏ?
-demo-contribute-card-body-v2 = ⴷⵖⵉ ⴳ ⵜⵙⵙⵏⵎ ⵉⵎⵉⴽⴽ ⵓⴳⴳⴰⵔ ⵅⴼ ⴽⴰⵎⵏⴼⵓⵢⵙ, ⵎⴰⵅ ⴰⴷ ⵜ ⵓⵔ ⵜⴰⵔⵎⵎ? ⴽⵍⵉⴽⵢⴰⵜ ⵅⴼ ⵜⵢⴽⵓⵏⵜ ⵏ ⵓⵎⵉⴽⵔⵓⴼⵓⵏ ⵃⵎⴰ ⴰⴷ ⵜⵙⵙⵏⵜⵉⵎ ⵜⵉⵖⵔⵉ ⵏ ⵜⵡⵉⵏⴰⵙ ⵙ ⵓⴳⵕⴹ ⵢⴰⵜⵜⵓⵢⵏ. <br/><br/>ⵎⴽ ⵖⵓⵔⵓⵏ ⵢⵓⴼ ⴰⴷ ⵜⵙⵙⵉⵔⵎⵎ ⴰⵔⵔⴰⴳⵏ ⵉⴳⵕⴹⴰⵏⵏ ⵏ ⵎⴷⴷⵏ ⵢⴰⴹⵏⵉⵏ, ⴽⵍⵉⴽⵢⴰⵜ ⵅⴼ ⵜⵢⴽⵓⵏⵜ ⵏ ⵖⵔ. ⵔⴰⴷ ⵜⴰⵡⵙⵎ ⴳ ⵓⵙⵙⴷⴻⴷ ⵏ ⵓⵏⴳⴰⴷⴷⴰ ⵏ ⵉⵙⵓⵙⴰⵔ ⴰⴽⴷ ⵜⵡⵉⵏⴰⵙ ⵜⵜⵢⴰⵔⴰⵏⵉⵏ ⴳ ⵓⵎⵉⵥⴰⵕ.
+demo-contribute-card-body-v2 = ⴷⵖⵉ ⴳ ⵜⵙⵙⵏⵎ ⵉⵎⵉⴽⴽ ⵓⴳⴳⴰⵔ ⵅⴼ ⴽⴰⵎⵏⴼⵓⵢⵙ, ⵎⴰⵅ ⴰⴷ ⵜ ⵓⵔ ⵜⴰⵔⵎⵎ? ⴽⵍⵉⴽⵢⴰⵜ ⵅⴼ ⵜⵢⴽⵓⵏⵜ ⵏ ⵓⵎⵉⴽⵔⵓⴼⵓⵏ ⵃⵎⴰ ⴰⴷ ⵜⵙⵙⵏⵜⵉⵎ ⵜⵉⵖⵔⵉ ⵏ ⵜⵡⵉⵏⴰⵙ ⵙ ⵓⵥⴰⴳⵓ. <br/><br/>ⵎⴽ ⵖⵓⵔⵓⵏ ⵢⵓⴼ ⴰⴷ ⵜⵙⵙⵉⵔⵎⵎ ⴰⵔⵔⴰⴳⵏ ⵉⴳⵕⴹⴰⵏⵏ ⵏ ⵎⴷⴷⵏ ⵢⴰⴹⵏⵉⵏ, ⴽⵍⵉⴽⵢⴰⵜ ⵅⴼ ⵜⵢⴽⵓⵏⵜ ⵏ ⵖⵔ. ⵔⴰⴷ ⵜⴰⵡⵙⵎ ⴳ ⵓⵙⵙⴷⴻⴷ ⵏ ⵓⵏⴳⴰⴷⴷⴰ ⵏ ⵉⵙⵓⵙⴰⵔ ⴰⴽⴷ ⵜⵡⵉⵏⴰⵙ ⵜⵜⵢⴰⵔⴰⵏⵉⵏ ⴳ ⵓⵎⵉⵥⴰⵕ.
 demo-listen-subtitle = ⵜⵎⵓⵜⵜⴳⴷ ⴰⴷ ⵜⴰⵔⴳⴷ?
 
 ## Demo Dashboard
@@ -1143,6 +1143,7 @@ contribution-varying-pronunciations-example-1-explanation = [ⵉⵣⵎⵔ ⴰⴷ
 contribution-varying-pronunciations-example-2-title = ⵉⵙⵖⴰ ⵜⴰⵖⴰⴹ-ⵜ ⴷ ⵜⵢⴰⵥⵉⴹ-ⵜ.
 contribution-varying-pronunciations-example-2-explanation = [ⵍⴰ ⴰⴱⴷⴰ ⵏⵜⵜⵙⵓⵙⵔⵓ ‘ⵜⴰⵖⴰⴹⵜ’ ⴷ ‘ⵜⴰⵢⴰⵥⵉⴹⵜ’ ⵙ ⵜⵎⴰⵣⵉⵖⵜ ⴰⵎ ‘ⵜⴰⵖⴰⵟⵟ’ ⴷ ‘ⵜⴰⵢⴰⵥⵉⵟⵟ’]
 contribution-background-noise-title = ⴰⴷⵉⴷⴰ ⵏ ⵜⵖⵔⴷⵉⵏ
+contribution-background-noise-description = ⵏⵅⵙ ⴰⴷ ⵖⴰⵢⵏ ⵡⴰⵍⴳⵓⵔⵉⵜⵎⵏ ⵏ ⵓⵍⵎⵎⵓⴷ ⵏ ⵜⵎⴰⵛⵉⵏⵜ ⴰⴷ ⵙⵡⵓⴷⴷⵓⵏ ⵜⵓⴳⵜⵜ ⵏ ⵡⴰⵏⴰⵡⵏ ⵏ ⵓⴷⵉⴷⴰ ⵏ ⵜⵖⵔⴷⵉⵏ, ⵎⵇⵇⴰⵔ ⴷ ⵉⴷⴰⴷⴰⵏ ⴰⵜⵜⵓⵢⵏⵉⵏ ⵙ ⵓⵎⴰⵙⵙⴰⵖ ⵣⵎⵔⵏ ⴰⴷ ⵜⵜⵓⴷⴳⴳⴰⵏ ⵙ ⵜⴼⴰⴷⴰ ⵏ ⴰⴷ ⴽⵯⵏ ⵓⵔ ⴳⴷⵍⵏ ⵅⴼ ⵓⵙⵙⴼⵍⴷ ⵉ ⵓⵎⴰⵜⴰ ⵏ ⵓⴹⵕⵉⵚ. ⴰⵥⴰⵡⴰⵏ ⵏ ⵜⵖⵔⴷⵉⵏ ⵉⵣⴳⴰⵏ, ⵡⴰⵅⵅⴰ; ⴰⵥⴰⵡⴰⵏ ⵢⴰⵜⵜⵓⵢⵏ ⵢⵓⴷⴰⵏ ⴰⴷ ⴽⵯⵏ ⵉⴳⴷⵍ ⵅⴼ ⵓⵙⵙⴼⵍⴷ ⵉ ⵎⴰⵜⵜⴰ ⴷ ⴽⵓ ⵜⴰⴳⵓⵔⵉ, ⵓⵀⵓⵢ.
 contribution-background-noise-example-1-fixed-title = <strong>[ⵜⵉⵏⵣⵉ]</strong> ⵉⵣⵎⴰⵡⵏ <strong>[ⵜⵓⵙⵓⵜ]</strong> ⵏ ⵡⴰⵟⵍⴰⵚ.
 contribution-background-noise-example-2-fixed-title = ⵉⵣⵎⴰ <strong>[ⵜⵓⵙⵓⵜ]</strong> ⵏ ⵡⴰⵟⵍⴰⵚ.
 contribution-background-noise-example-2-explanation = [ⵓⵔ ⵜⴻⵜⵜⵓⵙⵍⵍⴰ ⵢⴰⵜ ⵜⴳⴹⴰⵎⵜ ⵙⴳ ⵓⴹⵕⵉⵚ]
