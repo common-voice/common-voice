@@ -1634,3 +1634,7 @@ reviewing-sentences-explanation-3 = 若您没有把握判断，可以跳过当�
 reviewing-sentences-explanation-4 = 若您已经没有句子可以审核了，请帮助我们收集更多句子！
 community-announcement-header = 社区公告
 community-announcement-explanation = 以下指南适用于新的语句收集工具功能，该功能将于 2023 年 3 月至 4 月开始集成到 Common Voice 主平台。在此之前，您可以使用原来的工具，即 <scLink>https://commonvoice.mozilla.org/sentence-collector/</scLink>。
+# SENTENCE-COLLECTOR-REDIRECT PAGE
+sc-redirect-page-title = 我们正在进行一些大的改变
+sc-redirect-page-subtitle-1 = Sentence Collector 正在迁移到核心 Common Voice 平台。您现在可以在 Common Voice 上<writeURL>写</writeURL> 一个句子或<reviewURL>审阅</reviewURL> 单句提交。
+sc-redirect-page-subtitle-2 = 在 <matrixLink>Matrix</matrixLink>、<discourseLink>Discourse</discourseLink> 上或通过 <emailLink>email</emailLink> 向我们提问。
