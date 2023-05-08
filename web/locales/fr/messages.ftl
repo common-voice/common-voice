@@ -1656,6 +1656,26 @@ reviewing-sentences-explanation-3 = Si vous avez un doute, vous pouvez égalemen
 reviewing-sentences-explanation-4 = Si vous n’avez plus de phrases à vérifier, aidez-nous à collecter davantage de phrases !
 community-announcement-header = Annonce pour la communauté !
 community-announcement-explanation = Les conseils ci-dessous concernent les nouvelles fonctionnalités du collecteur de phrases, qui seront intégrées à la plateforme Common Voice entre mars et avril 2023. En attendant, vous pouvez utiliser l’ancien outil, <scLink>https://commonvoice.mozilla.org/sentence-collector/</scLink>.
+sentence =
+    .label = Phrase
+sentence-input-value = Saisissez votre phrase du domaine public ici
+citation-input-value = Source de votre phrase
+citation =
+    .label = Citation
+what-can-i-add = Quels types de phrases puis-je ajouter ?
+new-sentence-rule-1 = <noCopyright>Aucune restriction de droit d’auteur</noCopyright> (<cc0>cc-0</cc0>)
+new-sentence-rule-2 = Moins de 15 mots
+new-sentence-rule-3 = Veillez à ce que la grammaire soit correcte
+new-sentence-rule-4 = Veillez à ce que l’orthographe et la ponctuation soient correctes
+new-sentence-rule-5 = Pas de chiffres ni de caractères spéciaux
+new-sentence-rule-6 = Pas de lettre étrangère
+guidelines = Instructions
+contact-us = Nous contacter
+add-sentence-error = Erreur lors de l’ajout de la phrase
+required-field = Veuillez compléter ce champ.
+# REVIEW PAGE
+sc-review-instruction-first-part = Vérification
+report-sc-different-language = Autre langue
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = Nous effectuons d’importants changements
 sc-redirect-page-subtitle-1 = Le collecteur de phrases est déplacé vers la plateforme Common Voice. Vous pouvez désormais <writeURL>écrire</writeURL> une phrase ou <reviewURL>vérifier</reviewURL> des phrases depuis Common Voice.
