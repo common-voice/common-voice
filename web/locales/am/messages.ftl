@@ -1752,6 +1752,26 @@ citation-input-value = የእርስዎ ዓረፍተ-ነገር ምንጭ
 citation =
     .label = ዋቢ
 what-can-i-add = ምን ዓይነት ዓረፍተ-ነገሮች መጨመር እችላለሁ?
+new-sentence-rule-1 = <noCopyright>ምንም የቅጂ መብት የለም</noCopyright> ገደቦች (<cc0>cc-0</cc0>)
+new-sentence-rule-2 = ከ15 ቃላት ያነሱ
+new-sentence-rule-3 = ትክክለኛውን ሰዋሰው ይጠቀሙ
+new-sentence-rule-4 = ትክክለኛ የፊደል አጻጻፍ እና ሥርዓተ ነጥብ ይጠቀሙ
+new-sentence-rule-5 = ምንም ቁጥሮች እና ልዩ ቁምፊዎች የሉም
+new-sentence-rule-6 = ምንም የባዕድ ፊደላት የሉም
+new-sentence-rule-7 = ተገቢውን ዋቢ ያካትቱ
+how-to-cite = ዋቢ እንዴት ልጠቅስ?
+guidelines = መመሪያዎች
+contact-us = ያግኙን
+add-sentence-success = 1 ዓረፍተ-ነገር ተሰብስቧል
+required-field = እባክዎ ይህንን መስክ ይሙሉ።
+# REVIEW PAGE
+sc-review-instruction-first-part = ይፈትሹ
+sc-review-instruction-second-part = ይህ በቋንቋ ትክክል የሆነ ዓረፍተ-ነገር ነው?
+sc-review-rules-title = ዓረፍተ-ነገሩ መመሪያዎቹን ያሟላል?
+sc-review-empty-state = በአሁኑ ጊዜ በዚህ ቋንቋ የሚገመገሙ ዓረፍተ-ነገሮች የሉም።
+report-sc-different-language = የተለያየ ቋንቋ
+report-sc-different-language-detail = እኔ እየገመገምኩት ካለው በተለየ ቋንቋ ነው የተፃፈው።
+sentences-fetch-error = ዓረፍተ-ነገሮችን ማምጣት ላይ ስህተት ተፈጥሯል
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = አንዳንድ ትልልቅ ለውጦችን እያደረግን ነው።
 sc-redirect-page-subtitle-1 = ዓረፍተ ነገር ሰብሳቢው ወደ ዋናው የጋራ ድምጽ መድረክ እየሄደ ነው። አሁን በጋራ ድምጽ ላይ የገባውን አንድ ዓረፍተ ነገር <writeURL>መጻፍ</writeURL> ወይም ነጠላ ዓረፍተ ነገር <reviewURL>መገምገም</reviewURL> ይችላሉ።
