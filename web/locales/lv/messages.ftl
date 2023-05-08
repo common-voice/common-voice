@@ -1913,6 +1913,24 @@ citation =
 what-can-i-add = Kādus teikumus es varu pievienot?
 new-sentence-rule-1 = <noCopyright>Nav autortiesību</noCopyright> ierobežojumu (<cc0>cc-0</cc0>)
 new-sentence-rule-2 = Mazāk par 15 vārdiem
+new-sentence-rule-3 = Ir gramatiski pareizi
+new-sentence-rule-4 = Bez drukas vai pieturzīmju kļūdām
+new-sentence-rule-5 = Bez cipariem vai speciālajām rakstu zīmēm
+new-sentence-rule-6 = Bez svešu valodu burtiem
+new-sentence-rule-7 = Norādiet teikuma avotu
+new-sentence-rule-8 = Dabiski sarunvalodas teikumi (tiem jābūt viegli ierunājamiem)
+how-to-cite = Kā norādīt avotu?
+how-to-cite-explanation-bold = Norādiet mājas lapas adresi vai darba pilnu nosaukumu.
+how-to-cite-explanation = Ja šis ir jūsu izdomāts teikumsi, vienkārši norādiet <italicizedText>“Pašatsauce”</italicizedText>. Mums ir jāzina, teikumu avoti, lai mēs varētu pārbaudīt, vai tas ir publiski pieejams un uz to neattiecas nekādi autortiesību ierobežojumi. Papildu informāciju par atsaucēm skatiet mūsu <guidelinesLink>vadlīniju lapā</guidelinesLink>.
+guidelines = Vadlīnijas
+contact-us = Sazināties ar mums
+add-sentence-success = Savākts 1 teikums
+add-sentence-error = Kļūda pievienojot teikumu
+required-field = Lūdzu aizpildiet šo lauku.
+# REVIEW PAGE
+sc-review-instruction-first-part = Pārbaudi
+sc-review-instruction-second-part = vai šis ir lingvistiski pareizs teikums?
+sc-review-rules-title = Vai teikums atbilst vadlīnijām?
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = Mēs veicam dažas lielas izmaiņas
 sc-redirect-page-subtitle-1 = Teikumu apkopošanas rīks pāriet uz Common Voice platformu. Tagad varat <writeURL>pievienot</writeURL> un <reviewURL>pārbaudīt</reviewURL> teikumus Common Voice sistēmā.
