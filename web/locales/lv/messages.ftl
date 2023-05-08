@@ -1931,6 +1931,10 @@ required-field = Lūdzu aizpildiet šo lauku.
 sc-review-instruction-first-part = Pārbaudi
 sc-review-instruction-second-part = vai šis ir lingvistiski pareizs teikums?
 sc-review-rules-title = Vai teikums atbilst vadlīnijām?
+sc-review-empty-state = Pašlaik šajā valodā nav teikumu, ko pārbaudīt.
+report-sc-different-language = Nepareiza valoda
+report-sc-different-language-detail = Tas ir uzrakstīts valodā, kas atšķiras no tās, ko šobrīd pārbaudu.
+sentences-fetch-error = Ielādējot teikumus notikusi kļūda
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = Mēs veicam dažas lielas izmaiņas
 sc-redirect-page-subtitle-1 = Teikumu apkopošanas rīks pāriet uz Common Voice platformu. Tagad varat <writeURL>pievienot</writeURL> un <reviewURL>pārbaudīt</reviewURL> teikumus Common Voice sistēmā.
