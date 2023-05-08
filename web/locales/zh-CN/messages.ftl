@@ -1637,6 +1637,7 @@ community-announcement-header = 社区公告
 community-announcement-explanation = 以下指南适用于新的语句收集工具功能，该功能将于 2023 年 3 月至 4 月开始集成到 Common Voice 主平台。在此之前，您可以使用原来的工具，即 <scLink>https://commonvoice.mozilla.org/sentence-collector/</scLink>。
 citation =
     .label = 引用
+sc-review-rules-title = 该语句是否符合准则？
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = 重磅更新
 sc-redirect-page-subtitle-1 = 语句收集工具已迁移到 Common Voice 主平台，您现在可以直接在 Common Voice 上<writeURL>撰写</writeURL>和<reviewURL>审核</reviewURL>语句。
