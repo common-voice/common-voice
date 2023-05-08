@@ -888,6 +888,8 @@ action-click = Klikšķis
 action-tap = Pieskaries
 contribute = Veic ieguldījumu
 listen = Klausies
+write = Raksti
+review = Pārbaudi
 skip = Izlaist
 shortcuts = Īsceļi
 clips-with-count-pluralized =
@@ -957,6 +959,7 @@ target-segment-learn-more = Uzzināt vairāk
 ## Contribution Nav Items
 
 contribute-voice-collection-nav-header = Balsu kolekcija
+contribute-sentence-collection-nav-header = Teikumu apkopotājs
 
 ## Reporting
 
@@ -1898,6 +1901,8 @@ reviewing-sentences-explanation-3 = Ja neesat pārliecināts par teikumu, varat 
 reviewing-sentences-explanation-4 = Ja visi teikumi jau ir pārbaudīti, lūdzu, palīdziet mums savākt jaunus teikumus!
 community-announcement-header = Kopienas paziņojums!
 community-announcement-explanation = Zemāk sniegtie norādījumi attiecas uz jaunajām teikumu apkopošanas iespējām, kas 2023. gada martā un aprīlī tiks integrētas Common Voice pamatplatformā. Tikmēr varat izmantot iepriekšējo rīku <scLink>https://commonvoice.mozilla.org/sentence-collector/</scLink>.
+citation =
+    .label = Atsauce
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = Mēs veicam dažas lielas izmaiņas
 sc-redirect-page-subtitle-1 = Teikumu apkopošanas rīks pāriet uz Common Voice platformu. Tagad varat <writeURL>pievienot</writeURL> un <reviewURL>pārbaudīt</reviewURL> teikumus Common Voice sistēmā.
