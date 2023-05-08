@@ -876,6 +876,8 @@ action-click = klicken
 action-tap = antippen
 contribute = Mitarbeiten
 listen = Anhören
+write = Schreiben
+review = Überprüfen
 skip = Überspringen
 shortcuts = Tastenkürzel
 clips-with-count-pluralized =
@@ -939,6 +941,7 @@ target-segment-learn-more = Weitere Informationen
 ## Contribution Nav Items
 
 contribute-voice-collection-nav-header = Stimmensammlung
+contribute-sentence-collection-nav-header = Sätze sammeln
 
 ## Reporting
 
@@ -1748,6 +1751,40 @@ reviewing-sentences-explanation-3 = Wenn Sie sich bei dem Satz nicht sicher sind
 reviewing-sentences-explanation-4 = Wenn Ihnen die Sätze zur Überprüfung ausgehen, helfen Sie uns bitte, weitere Sätze zu sammeln!
 community-announcement-header = Ankündigung der Gemeinschaft!
 community-announcement-explanation = Die folgende Anleitung gilt für die neuen Satzsammlerfunktionen, die im März und April 2023 in die Kern-Common-Voice-Plattform integriert werden. Bis dahin können Sie das vorherige Werkzeug verwenden, <scLink>https://commonvoice.mozilla.org/ set-collector/</scLink>.
+# WRITE PAGE
+write-instruction-second-part = ein gemeinfreier Satz
+write-page-subtitle = Hier beigetragene Sätze werden zu einem öffentlich zugänglichen cc-0-lizenzierten Datensatz hinzugefügt.
+sentence =
+    .label = Satz
+sentence-input-value = Geben Sie hier Ihren gemeinfreien Satz ein
+citation-input-value = Quelle Ihres Satzes
+citation =
+    .label = Zitat
+what-can-i-add = Welche Sätze kann ich hinzufügen?
+new-sentence-rule-1 = <noCopyright>Keine Urheberrechts</noCopyright>-Einschränkungen (<cc0>cc-0</cc0>)
+new-sentence-rule-2 = Weniger als 15 Wörter
+new-sentence-rule-3 = Verwendung korrekter Grammatik
+new-sentence-rule-4 = Verwendung korrekter Schreibweise und Zeichensetzung
+new-sentence-rule-5 = Keine Zahlen und Sonderzeichen
+new-sentence-rule-6 = Keine ausländischen Buchstaben
+new-sentence-rule-7 = Quellenangabe anfügen
+new-sentence-rule-8 = Idealerweise natürlich und aus der Alltagssprache (der Satz sollte leicht zu lesen sein)
+how-to-cite = Wie zitiere ich?
+how-to-cite-explanation-bold = Zitieren Sie mit einem URL-Link oder dem vollständigen Namen des Werks.
+how-to-cite-explanation = Wenn es Ihre eigenen Wörter sind, sagen Sie einfach <italicizedText>„Selbstzitat“</italicizedText>. Wir müssen wissen, wo Sie diesen Inhalt gefunden haben, damit wir überprüfen können, ob er gemeinfrei ist und keine Urheberrechtsbeschränkungen gelten. Weitere Informationen zum Zitieren finden Sie in unserem <guidelinesLink>Leitfaden</guidelinesLink>.
+guidelines = Leitfaden
+contact-us = Kontakt
+add-sentence-success = 1 Satz gesammelt
+add-sentence-error = Fehler beim Hinzufügen des Satzes
+required-field = Bitte füllen Sie dieses Feld aus.
+# REVIEW PAGE
+sc-review-instruction-first-part = Überprüfen
+sc-review-instruction-second-part = Ist dies ein sprachlich korrekter Satz?
+sc-review-rules-title = Entspricht der Satz dem Leitfaden?
+sc-review-empty-state = Es gibt derzeit keine Sätze in dieser Sprache, die überprüft werden müssen.
+report-sc-different-language = Andere Sprache
+report-sc-different-language-detail = Er ist in einer anderen Sprache geschrieben als der, die ich überprüfe.
+sentences-fetch-error = Beim Abrufen der Sätze ist ein Fehler aufgetreten
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = Wir nehmen einige wichtige Änderungen vor
 sc-redirect-page-subtitle-1 = Der Satzsammler zieht auf die Kern-Common-Voice-Plattform um. Sie können jetzt auf einen Satz Common Voice <writeURL>schreiben</writeURL> oder einzelne Sätze <reviewURL>überprüfen</reviewURL>.
