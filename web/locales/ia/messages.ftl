@@ -874,6 +874,8 @@ action-click = Clicca sur
 action-tap = Tocca
 contribute = Contribuer
 listen = Ascoltar
+write = Scriber
+review = Revider
 skip = Saltar
 shortcuts = Accessos directe
 clips-with-count-pluralized =
@@ -937,6 +939,7 @@ target-segment-learn-more = Saper plus
 ## Contribution Nav Items
 
 contribute-voice-collection-nav-header = Collection de voces
+contribute-sentence-collection-nav-header = Collection de phrases
 
 ## Reporting
 
@@ -1687,6 +1690,20 @@ reviewing-sentences-explanation-3 = Si tu non es secur re le phrase, tu pote als
 reviewing-sentences-explanation-4 = Si tu exhauri le phrases a revider, per favor adjuta nos a colliger altere phrases!
 community-announcement-header = Annuncios de communitate
 community-announcement-explanation = Le guida infra es pro le nove functiones del collector de phrases, que sera integrate in le platteforma Common Voice durante martio e april 2023. Intertanto tu pote usar le previe instrumento, <scLink>https://commonvoice.mozilla.org/sentence-collector/</scLink>.
+# WRITE PAGE
+write-instruction-second-part = un phrase de dominio public
+sentence =
+    .label = Phrase
+citation =
+    .label = Citation
+new-sentence-rule-2 = Minus que 15 parolas
+new-sentence-rule-3 = Usar grammatica correcte
+new-sentence-rule-4 = Usar orthographia e punctuation correcte
+new-sentence-rule-5 = Nulle numeros e characteres special
+new-sentence-rule-6 = Nulle litteras estranier
+how-to-cite = Como pote io citar
+guidelines = Lineas guida
+contact-us = Continge nos
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = Nos va facer alcun grande cambios
 sc-redirect-page-subtitle-1 = Le Collector de phrases se move al nucleo del platteforma Common Voice. Ora tu pote <writeURL>scriber</writeURL> un phrase o <reviewURL>revider</reviewURL> singule invios de phrases sur Common Voice.
