@@ -212,11 +212,6 @@ button {
         }
     }
 
-    &.write {
-        overflow: auto;
-        height: 100%;
-    }
-
     &.review {
         & .spinner--floating {
             position: fixed;
