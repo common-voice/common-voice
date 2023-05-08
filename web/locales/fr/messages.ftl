@@ -1661,6 +1661,7 @@ community-announcement-header = Annonce pour la communauté !
 community-announcement-explanation = Les conseils ci-dessous concernent les nouvelles fonctionnalités du collecteur de phrases, qui seront intégrées à la plateforme Common Voice entre mars et avril 2023. En attendant, vous pouvez utiliser l’ancien outil, <scLink>https://commonvoice.mozilla.org/sentence-collector/</scLink>.
 # WRITE PAGE
 write-instruction-second-part = une phrase du domaine public
+write-page-subtitle = Les phrases fournies ici seront ajoutées à un jeu de données public sous licence cc-0.
 sentence =
     .label = Phrase
 sentence-input-value = Saisissez votre phrase du domaine public ici
@@ -1674,12 +1675,15 @@ new-sentence-rule-3 = Veillez à ce que la grammaire soit correcte
 new-sentence-rule-4 = Veillez à ce que l’orthographe et la ponctuation soient correctes
 new-sentence-rule-5 = Pas de chiffres ni de caractères spéciaux
 new-sentence-rule-6 = Pas de lettre étrangère
+how-to-cite = Comment faire une citation ?
+how-to-cite-explanation-bold = Citez en incluant un lien ou le nom complet de l’œuvre.
 guidelines = Instructions
 contact-us = Nous contacter
 add-sentence-error = Erreur lors de l’ajout de la phrase
 required-field = Veuillez compléter ce champ.
 # REVIEW PAGE
-sc-review-instruction-first-part = Vérification
+sc-review-instruction-first-part = Vérifier
+sc-review-instruction-second-part = si la phrase est linguistiquement correcte ?
 report-sc-different-language = Autre langue
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = Nous effectuons d’importants changements
