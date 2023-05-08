@@ -877,6 +877,8 @@ action-click = Kattintson
 action-tap = Koppintson
 contribute = Közreműködés
 listen = Figyeljen
+write = Írás
+review = Ellenőrzés
 skip = Kihagyás
 shortcuts = Gyorsbillentyűk
 clips-with-count-pluralized =
@@ -940,6 +942,7 @@ target-segment-learn-more = További tudnivalók
 ## Contribution Nav Items
 
 contribute-voice-collection-nav-header = Hanggyűjtemény
+contribute-sentence-collection-nav-header = Mondatok gyűjtése
 
 ## Reporting
 
@@ -1689,6 +1692,19 @@ reviewing-sentences-explanation-3 = Ha nem biztos a mondattal kapcsolatban, ki i
 reviewing-sentences-explanation-4 = Ha elfogynak az ellenőrizhető mondatok, akkor segítsen további mondatok összegyűjtésében.
 community-announcement-header = Közösségi bejelentés!
 community-announcement-explanation = Az alábbi útmutatás az új mondatgyűjtő funkciókra vonatkozik, amelyek 2023 márciusában és áprilisában a központi Common Voice platformba integrálódnak. Addig is, használhatja a korábbi eszközt: <scLink>https://commonvoice.mozilla.org/sentence-collector/</scLink>.
+write-page-subtitle = Az itt beküldött mondatok egy nyilvánosan elérhető, cc-0 licenc alatt közzétett adatkészlethez adódnak.
+sentence =
+    .label = Mondat
+sentence-input-value = Írja ide a közkincsű mondatot
+citation-input-value = A mondat forrása
+citation =
+    .label = Idézet
+what-can-i-add = Milyen típusú mondatokat adhatok hozzá?
+new-sentence-rule-1 = <noCopyright>Nincs szerzői jogi</noCopyright> korlátozás (<cc0>cc-0</cc0>)
+new-sentence-rule-2 = Kevesebb mint 15 szó
+new-sentence-rule-3 = Használjon helyes nyelvtant
+new-sentence-rule-4 = Írjon helyesen, és használjon központozást
+new-sentence-rule-5 = Ne legyenek benne számok és speciális karakterek
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = Néhány nagy változtatást vezetünk be
 sc-redirect-page-subtitle-1 = A mondatgyűjtő átköltözik a központi Common Voice platformra. Mostantól a Common Voice-on <writeURL>írhat</writeURL> mondatokat vagy <reviewURL>ellenőrizheti</reviewURL> az egymondatos beküldéseket.
