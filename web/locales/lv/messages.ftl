@@ -1901,8 +1901,18 @@ reviewing-sentences-explanation-3 = Ja neesat pārliecināts par teikumu, varat 
 reviewing-sentences-explanation-4 = Ja visi teikumi jau ir pārbaudīti, lūdzu, palīdziet mums savākt jaunus teikumus!
 community-announcement-header = Kopienas paziņojums!
 community-announcement-explanation = Zemāk sniegtie norādījumi attiecas uz jaunajām teikumu apkopošanas iespējām, kas 2023. gada martā un aprīlī tiks integrētas Common Voice pamatplatformā. Tikmēr varat izmantot iepriekšējo rīku <scLink>https://commonvoice.mozilla.org/sentence-collector/</scLink>.
+# WRITE PAGE
+write-instruction-second-part = publiski pieejams teikums
+write-page-subtitle = Šeit ievietotie teikumi tiks pievienoti publiski pieejamai cc-0 licencētai datu kopai.
+sentence =
+    .label = Teikums
+sentence-input-value = Ievadiet šeit savu publiski pieejamo teikumu, kas nav aizsargāts ar autortiesībām
+citation-input-value = Jūsu teikuma avots
 citation =
     .label = Atsauce
+what-can-i-add = Kādus teikumus es varu pievienot?
+new-sentence-rule-1 = <noCopyright>Nav autortiesību</noCopyright> ierobežojumu (<cc0>cc-0</cc0>)
+new-sentence-rule-2 = Mazāk par 15 vārdiem
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = Mēs veicam dažas lielas izmaiņas
 sc-redirect-page-subtitle-1 = Teikumu apkopošanas rīks pāriet uz Common Voice platformu. Tagad varat <writeURL>pievienot</writeURL> un <reviewURL>pārbaudīt</reviewURL> teikumus Common Voice sistēmā.
