@@ -1695,6 +1695,7 @@ new-sentence-rule-7 = Incluir citação apropriada
 new-sentence-rule-8 = Idealmente natural e coloquial (deve ser fácil ler a frase)
 how-to-cite = Como citar?
 how-to-cite-explanation-bold = Cite com um link de URL ou o nome completo da obra.
+how-to-cite-explanation = Se for com suas próprias palavras, basta dizer <italicizedText>“Autocitação”</italicizedText>. Precisamos saber onde você encontrou esse conteúdo para poder verificar se é de domínio público e que não se aplicam restrições de direitos autorais. Consulte mais informações sobre citação em nossa <guidelinesLink>página de diretrizes</guidelinesLink>.
 guidelines = Diretrizes
 contact-us = Contate-nos
 add-sentence-success = 1 frase coletada
