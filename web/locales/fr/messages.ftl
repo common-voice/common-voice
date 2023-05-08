@@ -855,6 +855,8 @@ action-click = Cliquez sur
 action-tap = Appuyez sur
 contribute = Contribuer
 listen = Écouter
+write = Écrire
+review = Vérifier
 skip = Passer
 shortcuts = Raccourcis
 clips-with-count-pluralized =
@@ -918,6 +920,7 @@ target-segment-learn-more = En savoir plus
 ## Contribution Nav Items
 
 contribute-voice-collection-nav-header = Collecte de voix
+contribute-sentence-collection-nav-header = Collecte de phrases
 
 ## Reporting
 
@@ -1656,6 +1659,8 @@ reviewing-sentences-explanation-3 = Si vous avez un doute, vous pouvez égalemen
 reviewing-sentences-explanation-4 = Si vous n’avez plus de phrases à vérifier, aidez-nous à collecter davantage de phrases !
 community-announcement-header = Annonce pour la communauté !
 community-announcement-explanation = Les conseils ci-dessous concernent les nouvelles fonctionnalités du collecteur de phrases, qui seront intégrées à la plateforme Common Voice entre mars et avril 2023. En attendant, vous pouvez utiliser l’ancien outil, <scLink>https://commonvoice.mozilla.org/sentence-collector/</scLink>.
+# WRITE PAGE
+write-instruction-second-part = une phrase du domaine public
 sentence =
     .label = Phrase
 sentence-input-value = Saisissez votre phrase du domaine public ici
