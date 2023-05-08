@@ -556,7 +556,7 @@ about-clip-graveyard-text = Le Cemeterio de retalios consiste del retalios vocal
 about-get-involved = Collabora
 about-get-involved-text-2 =
     Vole adjutar a meliorar Common Voice?
-    Optimo! Contacta nos via e-mail o le foros de <discourseLink>Discourse</discourseLink>,
+    Optimo! Continge nos via e-mail o le foros de <discourseLink>Discourse</discourseLink>,
     signala problemas con le sito via <githubLink>GitHub</githubLink>,
     o junge te al conversation communitari sur <matrixLink>Matrix</matrixLink>.
 about-stay-in-touch = Como me mantene io in contacto?
@@ -738,7 +738,7 @@ audio-format = Formato audio
 number-of-voices = Numero de voces
 splits = Cesuras
 email-to-download = Insere email pro discargar
-why-email = <b>Proque un adresse de e-mail?</b> Es possibile que nos debera contactar te in le futuro sur cambiamentos concernente le collection de datos. Un adresse de e-mail nos forni un puncto de contacto.
+why-email = <b>Proque un adresse de e-mail?</b> Es possibile que nos debera continger te in le futuro sur cambiamentos concernente le collection de datos. Un adresse de e-mail nos forni un puncto de contacto.
 confirm-size = Tu es preste a initiar un discargamento de <b>{ $size }</b>
 size-gigabyte = GB
 size-megabyte = MB
@@ -1083,7 +1083,7 @@ delete-q = Vole tu requirer que tu registrationes vocal sia delite o prefere tu 
 keep = Retener
 remove = Remover
 keep-info = Tu registrationes de voce anonyme remanera in le collection de datos de Common Voice. Un vice que tu dele tu profilo tu non sera plus capace a inviar un requesta de eliminar tu registrationes ab le collection de datos
-remove-info = Nos revidera tu requesta de eliminar tu registrationes de voce ab le collection de datos. Si tu requesta es approbate, nos contactara le personas qui ha discargate le collection de datos e requestara que illes etiam remove tu registrationes de voce.
+remove-info = Nos revidera tu requesta de eliminar tu registrationes de voce ab le collection de datos. Si tu requesta es approbate, nos contingera le personas qui ha discargate le collection de datos e requestara que illes etiam remove tu registrationes de voce.
 why-delete-recordings = Le registrationes de Common Voice es utilisate per le academicos, le micre negotios e per le enthusiastas del recognition vocal pro adjutar a provar e facer crescer ressources publicamente disponibile como le modellos vocal.
 profile-form-delete = Deler le profilo
 
@@ -1573,7 +1573,7 @@ partnerships-foundations-description = Nos labora con fundationes, societate civ
 partnerships-governments-header = Governamentos
 partnerships-governments-description = Nos es exaltante a supportar collaboration con le sector public in technologia, innovation e derectos linguistic. Si tu plana exequer un projecto o campania major,  <emailFragment>tene te in contacto.</emailFragment>
 partnerships-academia-header = Universitates, academicos e recercatores
-partnerships-academia-description = Le innovation aperte es al corde de lo que nos face. Pro collaborationes de recerca, collection de datos o intervistas, <emailFragment>contacta nos.</emailFragment>
+partnerships-academia-description = Le innovation aperte es al corde de lo que nos face. Pro collaborationes de recerca, collection de datos o intervistas, <emailFragment>continge nos.</emailFragment>
 partnerships-small-business-header = Parve negotios, includite start ups technologic e de intelligentia
 partnerships-small-business-description = Nos cerca sempre de audir le consummatores de datos re lor besonios e contexto - de collaborar sur le platteforma de collection de datos pro fornir intuitiones re le salubritate del datos, nos vole <emailFragment>audir te.</emailFragment>
 partnerships-corporates-header = Corporationes e platteformas de grande scala
