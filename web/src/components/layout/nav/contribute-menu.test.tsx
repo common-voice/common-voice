@@ -13,16 +13,18 @@ describe('Contribute Menu Test', () => {
         showMobileMenu={false}
         toggleMobileMenuVisible={jest.fn()}
         isContributionPageActive={false}
+        isUserLoggedIn
       />
-    );
+    )
 
-    expect(screen.queryByTestId('contribute-menu')).toBeTruthy();
-    expect(await screen.findByText('Speak')).toBeTruthy();
-    expect(await screen.findByText('Listen')).toBeTruthy();
-  });
+    expect(screen.queryByTestId('contribute-menu')).toBeTruthy()
+    expect(await screen.findByText('Speak')).toBeTruthy()
+    expect(await screen.findByText('Listen')).toBeTruthy()
+    expect(await screen.findByText('Write')).toBeTruthy()
+  })
 
   it('shows the menu on hover', () => {
-    const setShowMenuSpy = jest.fn();
+    const setShowMenuSpy = jest.fn()
 
     renderWithProviders(
       <ContributeMenu
@@ -31,15 +33,16 @@ describe('Contribute Menu Test', () => {
         showMobileMenu={false}
         toggleMobileMenuVisible={jest.fn()}
         isContributionPageActive={false}
+        isUserLoggedIn
       />
-    );
+    )
 
-    fireEvent.mouseEnter(screen.getByTestId('contribute-menu'));
-    expect(setShowMenuSpy).toHaveBeenCalledWith(true);
-  });
+    fireEvent.mouseEnter(screen.getByTestId('contribute-menu'))
+    expect(setShowMenuSpy).toHaveBeenCalledWith(true)
+  })
 
   it('does not show the menu on hover if a contribution page is active', () => {
-    const setShowMenuSpy = jest.fn();
+    const setShowMenuSpy = jest.fn()
 
     renderWithProviders(
       <ContributeMenu
@@ -48,10 +51,11 @@ describe('Contribute Menu Test', () => {
         showMobileMenu={false}
         toggleMobileMenuVisible={jest.fn()}
         isContributionPageActive
+        isUserLoggedIn
       />
-    );
+    )
 
-    fireEvent.mouseEnter(screen.getByTestId('contribute-menu'));
-    expect(setShowMenuSpy).not.toHaveBeenCalled();
-  });
+    fireEvent.mouseEnter(screen.getByTestId('contribute-menu'))
+    expect(setShowMenuSpy).not.toHaveBeenCalled()
+  })
 });

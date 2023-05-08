@@ -62,6 +62,12 @@ body,
     max-height: 100%;
 }
 
+#main.write, #main.review {
+    @media (--md-down) {
+        height: auto;
+    }
+}
+
 #main {
     &.nav-modal-active {
         @media (--lg-down) {
@@ -151,13 +157,22 @@ button {
     background-color: var(--white);
 
     &.speak,
-    &.listen {
+    &.listen,
+    &.write,
+    &.review {
         overflow: hidden;
 
         & header {
             @media (--lg-down) {
                 display: none;
             }
+        }
+    }
+
+    &.write,
+    &.review {
+        @media (--md-down) {
+            overflow: auto;
         }
     }
 }
@@ -185,6 +200,24 @@ button {
     flex-grow: 1;
     width: 100%;
     min-height: 100%;
+
+    &.write,
+    &.review {
+        @media (--sm-down) {
+            min-height: auto;
+        }
+    }
+
+    &.write {
+        overflow: auto;
+        height: 100%;
+    }
+
+    &.review {
+        & .spinner--floating {
+            position: fixed;
+        }
+    }
 }
 
 .Logo {

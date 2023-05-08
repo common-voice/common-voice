@@ -173,7 +173,7 @@ export default function Content({ location }: { location: any }) {
           exact
           path={toLocaleRoute(URLS.SPEAK)}
           render={() => {
-            // note: this is redundant with routing in LocalizedPage in app.tsx, and hanldes
+            // note: this is redundant with routing in LocalizedPage in app.tsx, and handles
             // locale changing edge cases where toLocaleRoute is still using the old locale
             return <Redirect to={toLocaleRoute(URLS.SPEAK)} />
           }}
@@ -182,7 +182,7 @@ export default function Content({ location }: { location: any }) {
           exact
           path={toLocaleRoute(URLS.LISTEN)}
           render={() => {
-            // note: this is redundant with routing in LocalizedPage in app.tsx, and hanldes
+            // note: this is redundant with routing in LocalizedPage in app.tsx, and handles
             // locale changing edge cases where toLocaleRoute is still using the old locale
             return <Redirect to={toLocaleRoute(URLS.LISTEN)} />
           }}
@@ -191,6 +191,15 @@ export default function Content({ location }: { location: any }) {
           exact
           path={toLocaleRoute(URLS.PARTNER)}
           component={PartnerPage}
+        />
+        <SentryRoute
+          exact
+          path={toLocaleRoute(URLS.WRITE)}
+          render={() => {
+            // note: this is redundant with routing in LocalizedPage in app.tsx, and handles
+            // locale changing edge cases where toLocaleRoute is still using the old locale
+            return <Redirect to={toLocaleRoute(URLS.WRITE)} />;
+          }}
         />
         <SentryRoute
           exact
