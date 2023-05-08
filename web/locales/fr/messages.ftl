@@ -1198,7 +1198,7 @@ contribution-volume-description = Il y a des variations naturelles de volume ent
 contribution-reader-effects-title = Intonations et effets sonores
 contribution-reader-effects-description = Dans la plupart des enregistrements les personnes parlent avec leur voix naturelle. Vous pouvez accepter occasionnellement un enregistrement non standard crié, chuchoté ou clairement prononcé avec une voix « théâtrale ». Veuillez rejeter les enregistrements chantés et ceux utilisant une voix synthétisée par ordinateur.
 contribution-just-unsure-title = Vous hésitez ?
-contribution-just-unsure-description = Si vous rencontrez une situation que ces directives ne couvrent pas, veuillez voter en faisant appel à votre bon sens. Si vous n’arrivez vraiment pas à vous décider, utilisez le bouton « Passer » et passez à l’enregistrement suivant.
+contribution-just-unsure-description = Si vous rencontrez une situation que ces consignes ne couvrent pas, veuillez voter en faisant appel à votre bon sens. Si vous n’arrivez vraiment pas à vous décider, utilisez le bouton « Passer » et passez à l’enregistrement suivant.
 see-more = <chevron></chevron>Afficher plus d’exemples
 see-less = <chevron></chevron>Afficher moins d’exemples
 
@@ -1337,7 +1337,7 @@ sc-submit-confirm = Je confirme que ces phrases sont du <wikipediaLink>domaine p
 sc-submit-button =
     .submitText = Envoyer
 sc-submit-filtered = Phrases filtrées en raison de l’échec des exigences (veuillez soumettre des versions corrigées en tant que nouvelles phrases) :
-sc-submit-guidelines = Veuillez consulter les <howToLink>directives</howToLink>.
+sc-submit-guidelines = Veuillez consulter les <howToLink>consignes</howToLink>.
 
 ## ADD LANGUAGE
 
@@ -1612,7 +1612,7 @@ background-voices-example-1 = Les dinosaures géants du Trias. [lu par une premi
 background-voices-tip-1 = Tu viens ? [prononcé par une autre voix]
 volume-explanation = Il y a des variations naturelles de volume entre les lecteurs et lectrices. Ne rejetez que si le volume est si élevé que l’enregistrement est haché, ou (plus communément) s’il est si bas que vous ne pouvez pas entendre ce qui est dit sans référence au texte écrit.
 reader-effects-explanation = Dans la plupart des enregistrements les personnes parlent avec leur voix naturelle. Vous pouvez accepter occasionnellement un enregistrement non standard crié, chuchoté ou clairement prononcé avec une voix « théâtrale ». Veuillez rejeter les enregistrements chantés et ceux utilisant une voix synthétisée par ordinateur.
-just-unsure-explanation = Si vous rencontrez une situation que ces directives ne couvrent pas, veuillez voter en faisant appel à votre bon sens. Si vous n’arrivez vraiment pas à vous décider, utilisez le bouton « Passer » et passez à l’enregistrement suivant.
+just-unsure-explanation = Si vous rencontrez une situation que ces consignes ne couvrent pas, veuillez voter en faisant appel à votre bon sens. Si vous n’arrivez vraiment pas à vous décider, utilisez le bouton « Passer » et passez à l’enregistrement suivant.
 still-have-questions = Vous avez toujours des questions ?
 contact-common-voice = Contactez l’équipe Common Voice
 public-domain = Domaine public
@@ -1671,20 +1671,26 @@ citation =
 what-can-i-add = Quels types de phrases puis-je ajouter ?
 new-sentence-rule-1 = <noCopyright>Aucune restriction de droit d’auteur</noCopyright> (<cc0>cc-0</cc0>)
 new-sentence-rule-2 = Moins de 15 mots
-new-sentence-rule-3 = Veillez à ce que la grammaire soit correcte
-new-sentence-rule-4 = Veillez à ce que l’orthographe et la ponctuation soient correctes
+new-sentence-rule-3 = La grammaire doit être correcte
+new-sentence-rule-4 = L’orthographe et la ponctuation doivent être correctes
 new-sentence-rule-5 = Pas de chiffres ni de caractères spéciaux
 new-sentence-rule-6 = Pas de lettre étrangère
 how-to-cite = Comment faire une citation ?
 how-to-cite-explanation-bold = Citez en incluant un lien ou le nom complet de l’œuvre.
-guidelines = Instructions
+how-to-cite-explanation = Si ce sont vos propres mots, mentionnez simplement <italicizedText>« auto-citation »</italicizedText>. Nous avons besoin de connaître la provenance de ce contenu afin de pouvoir vérifier qu’il est dans le domaine public et qu’aucune restriction de droit d’auteur ne s’applique. Pour plus d’informations sur les citations, consultez <guidelinesLink>nos consignes</guidelinesLink>.
+guidelines = Consignes
 contact-us = Nous contacter
+add-sentence-success = 1 phrase collectée
 add-sentence-error = Erreur lors de l’ajout de la phrase
 required-field = Veuillez compléter ce champ.
 # REVIEW PAGE
 sc-review-instruction-first-part = Vérifier
 sc-review-instruction-second-part = si la phrase est linguistiquement correcte ?
+sc-review-rules-title = La phrase est-elle conforme aux consignes ?
+sc-review-empty-state = Il n’y a actuellement aucune phrase à vérifier dans cette langue.
 report-sc-different-language = Autre langue
+report-sc-different-language-detail = La phrase est écrite dans une langue différente de celle que je relis.
+sentences-fetch-error = Une erreur est survenue lors de la récupération des phrases
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = Nous effectuons d’importants changements
 sc-redirect-page-subtitle-1 = Le collecteur de phrases est déplacé vers la plateforme Common Voice. Vous pouvez désormais <writeURL>écrire</writeURL> une phrase ou <reviewURL>vérifier</reviewURL> des phrases depuis Common Voice.
