@@ -6,35 +6,44 @@ import {
 import * as React from 'react'
 import { useDispatch } from 'react-redux'
 
-import SentenceCollectionWrapper from '../sentence-collector-wrapper'
-import { QuestionIcon, SendIcon } from '../../../../ui/icons'
-import { LabeledCheckbox, LinkButton } from '../../../../ui/ui'
-import URLS from '../../../../../urls'
-import { PrimaryButton } from '../../../../primary-buttons/primary-buttons'
-import { useLocale } from '../../../../locale-helpers'
+import SentenceCollectionWrapper from '../../sentence-collector-wrapper'
+import { QuestionIcon, SendIcon } from '../../../../../ui/icons'
+import { LabeledCheckbox, LinkButton } from '../../../../../ui/ui'
+import URLS from '../../../../../../urls'
+import { PrimaryButton } from '../../../../../primary-buttons/primary-buttons'
+import { useLocale } from '../../../../../locale-helpers'
 
-import { SentenceInputAndRules } from './sentence-input-and-rules/sentence-input-and-rules'
-import { Sentences } from '../../../../../stores/sentences'
+import { SentenceInputAndRules } from '../sentence-input-and-rules/sentence-input-and-rules'
+import { Sentences } from '../../../../../../stores/sentences'
 import { SentenceSubmission, SentenceSubmissionError } from 'common'
-import { Notifications } from '../../../../../stores/notifications'
-import { useAction, useLanguages } from '../../../../../hooks/store-hooks'
-import { WriteActionType, writeReducer, WriteState } from './write.reducer'
+import { Notifications } from '../../../../../../stores/notifications'
+import { useAction, useLanguages } from '../../../../../../hooks/store-hooks'
+import {
+  SingleSubmissionWriteActionType,
+  singleSubmissionWriteReducer,
+  SingleSubmissionWriteState,
+} from './single-submission-write.reducer'
 
-import { COMMON_VOICE_EMAIL } from '../../../../../constants'
+import { COMMON_VOICE_EMAIL } from '../../../../../../constants'
 
-import './write.css'
+import './single-submission-write.css'
 
-export type WriteProps = WithLocalizationProps
+export type SingleSubmissionWriteProps = WithLocalizationProps
 
-const initialState: WriteState = {
+const initialState: SingleSubmissionWriteState = {
   sentence: '',
   citation: '',
   error: undefined,
   confirmPublicDomain: false,
 }
 
-const Write: React.FC<WriteProps> = ({ getString }) => {
-  const [state, writeDispatch] = React.useReducer(writeReducer, initialState)
+const SingleSubmissionWrite: React.FC<SingleSubmissionWriteProps> = ({
+  getString,
+}) => {
+  const [state, singleSubmissionWriteDispatch] = React.useReducer(
+    singleSubmissionWriteReducer,
+    initialState
+  )
 
   const [currentLocale] = useLocale()
   const languages = useLanguages()
@@ -58,21 +67,23 @@ const Write: React.FC<WriteProps> = ({ getString }) => {
   }
 
   const handlePublicDomainChange = () => {
-    writeDispatch({ type: WriteActionType.SET_PUBLIC_DOMAIN })
+    singleSubmissionWriteDispatch({
+      type: SingleSubmissionWriteActionType.SET_PUBLIC_DOMAIN,
+    })
   }
 
   const handleSentenceInputChange = (
     event: React.ChangeEvent<HTMLTextAreaElement>
   ) => {
-    writeDispatch({
-      type: WriteActionType.SET_SENTENCE,
+    singleSubmissionWriteDispatch({
+      type: SingleSubmissionWriteActionType.SET_SENTENCE,
       payload: { sentence: event.target.value },
     })
   }
 
   const handleCitationChange = (event: React.ChangeEvent<HTMLInputElement>) => {
-    writeDispatch({
-      type: WriteActionType.SET_CITATION,
+    singleSubmissionWriteDispatch({
+      type: SingleSubmissionWriteActionType.SET_CITATION,
       payload: { citation: event.target.value },
     })
   }
@@ -89,8 +100,8 @@ const Write: React.FC<WriteProps> = ({ getString }) => {
 
     try {
       if (!state.citation) {
-        writeDispatch({
-          type: WriteActionType.ADD_SENTENCE_ERROR,
+        singleSubmissionWriteDispatch({
+          type: SingleSubmissionWriteActionType.ADD_SENTENCE_ERROR,
           payload: { error: SentenceSubmissionError.NO_CITATION },
         })
       } else {
@@ -101,13 +112,15 @@ const Write: React.FC<WriteProps> = ({ getString }) => {
           type: 'success',
         })
 
-        writeDispatch({ type: WriteActionType.ADD_SENTENCE_SUCCESS })
+        singleSubmissionWriteDispatch({
+          type: SingleSubmissionWriteActionType.ADD_SENTENCE_SUCCESS,
+        })
       }
     } catch (error) {
       const errorMessage = JSON.parse(error.message)
 
-      writeDispatch({
-        type: WriteActionType.ADD_SENTENCE_ERROR,
+      singleSubmissionWriteDispatch({
+        type: SingleSubmissionWriteActionType.ADD_SENTENCE_ERROR,
         payload: { error: errorMessage.errorType },
       })
       addNotification({
@@ -196,4 +209,4 @@ const Write: React.FC<WriteProps> = ({ getString }) => {
   )
 }
 
-export default withLocalization(Write)
+export default withLocalization(SingleSubmissionWrite)
