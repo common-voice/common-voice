@@ -13,6 +13,8 @@ import {
   Datasets,
 } from 'common';
 import lazyCache from '../lazy-cache';
+import { taskOption as TO, taskEither as TE } from 'fp-ts';
+import { pipe } from 'fp-ts/lib/function';
 const MINUTE = 1000 * 60;
 const DAY = MINUTE * 60 * 24;
 
@@ -92,6 +94,22 @@ export async function getLocaleId(locale: string): Promise<number> {
   }
 
   return languageIds[locale];
+}
+
+export function getLocaleIdF(locale: string): TE.TaskEither<Error, number> {
+  const languageIds = TE.tryCatch(
+    () => getLanguageMap(),
+    (err: Error) => err
+  )
+
+  return pipe(
+    languageIds,
+    TE.chain(languageIds =>
+      typeof languageIds[locale] === 'number'
+        ? TE.right(languageIds[locale])
+        : TE.left(Error(`Locale ${locale} does not exist`))
+    )
+  )
 }
 
 export async function getTermIds(term_names: string[]): Promise<number[]> {
@@ -204,10 +222,10 @@ export default class DB {
         s.text as sentence,
         c.original_sentence_id as original_sentence_id
         FROM clips c
-        LEFT JOIN sentences s ON s.id = c.original_sentence_id and c.locale_id = ?
+        LEFT JOIN sentences s ON s.id = c.original_sentence_id and c.locale_id = 13
         WHERE c.is_valid IS NULL AND s.clips_count <= 15
         ORDER BY rand()
-        limit ?
+        limit 10000
       `,
       [languageId, limit]
     );
@@ -476,11 +494,11 @@ export default class DB {
       submittedUserClipIds.map((row: { clip_id: number }) => row.clip_id)
     );
 
-    //get clips that a user hasnt already seen
+    //get clips that a user hasn't already seen
     const validClips = new Set(
       validUserClips.filter((clip: DBClip) => {
         if (exemptFromSSRL) return !skipClipIds.has(clip.id);
-        //only return clips that have not been valiadated before
+        //only return clips that have not been validated before
         return !skipClipIds.has(clip.id) && clip.has_valid_clip === 0;
       })
     );
@@ -494,24 +512,24 @@ export default class DB {
         SELECT clips.*
         FROM clips
         LEFT JOIN sentences on clips.original_sentence_id = sentences.id
-        WHERE is_valid IS NULL AND clips.locale_id = ? AND client_id <> ?
+        WHERE is_valid IS NULL AND clips.locale_id = 13 AND client_id <> 'abc'
         AND NOT EXISTS(
           SELECT clip_id
           FROM votes
-          WHERE votes.clip_id = clips.id AND client_id = ?
+          WHERE votes.clip_id = clips.id AND client_id = 'abc'
           UNION ALL
           SELECT clip_id
           FROM reported_clips reported
-          WHERE reported.clip_id = clips.id AND client_id = ?
+          WHERE reported.clip_id = clips.id AND client_id = 'abc'
           UNION ALL
           SELECT clip_id
           FROM skipped_clips skipped
-          WHERE skipped.clip_id = clips.id AND client_id = ?
+          WHERE skipped.clip_id = clips.id AND client_id = 'abc'
         )
         AND sentences.clips_count <= 15
         ${exemptFromSSRL ? '' : 'AND sentences.has_valid_clip = 0'}
         ORDER BY sentences.clips_count ASC, clips.created_at ASC
-        LIMIT ?
+        LIMIT 50
       ) t
       ORDER BY RAND()
       LIMIT ?`,
