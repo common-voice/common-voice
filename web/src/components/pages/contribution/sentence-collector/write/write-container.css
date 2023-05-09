@@ -1,0 +1,49 @@
+.write-container {
+    display: flex;
+    width: 100%;
+    background-image: linear-gradient(to top,var(--white) 20%,var(--desert-storm));
+
+    & .sc-toggle {
+        width: 25%;
+
+        & .sc-toggle-wrapper {
+            width: fit-content;
+            margin: 0 auto;
+            padding-top: 64px;
+            display: flex;
+            flex-direction: column;
+
+            & .toggle-option {
+                svg {
+                    margin-right: 8px;
+                }
+
+                &.active {
+                    & .text-button {
+                        color: var(--anchor-text-blue);
+                    }
+                }
+            }
+
+            & .divider {
+                width: 100%;
+                display: inline-block;
+                height: 1px;
+                background-color: var(--grey);
+            }
+
+            & .text-button {
+                font-size: var(--font-size);
+                text-align: left;
+            }
+
+            & .single-option {
+                margin-bottom: 12px;
+            }
+
+            & .bulk-option {
+                margin-top: 12px;
+            }
+        }
+    }
+}

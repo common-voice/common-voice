@@ -29,6 +29,14 @@
             }
         }
 
+        & .write {
+            margin-left: 0;
+
+            @media (--lg-up) {
+                padding-left: 0;
+            }
+        }
+
         & .review {
             .instruction {
                 width: fit-content;

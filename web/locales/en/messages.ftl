@@ -1714,6 +1714,8 @@ contact-us = Contact Us
 add-sentence-success = 1 sentence collected
 add-sentence-error = Error adding sentence
 required-field = Please fill out this field.
+single-sentence-submission = Single Sentence Submission
+bulk-sentence-submission = Bulk Sentence Submission
 
 # REVIEW PAGE
 sc-review-instruction-first-part = Check
@@ -1729,3 +1731,7 @@ review-error = An error occurred reviewing this sentence
 sc-redirect-page-title = We're making some big changes
 sc-redirect-page-subtitle-1 = The Sentence Collector is moving to the core Common Voice platform. You can now <writeURL>write</writeURL> a sentence or <reviewURL>review</reviewURL> single sentence submissions on Common Voice.
 sc-redirect-page-subtitle-2 = Ask us questions on <matrixLink>Matrix</matrixLink>, <discourseLink>Discourse</discourseLink> or <emailLink>email</emailLink>.
+
+# BULK SUBMISSION 
+sc-bulk-upload-instruction-first-part = Upload
+sc-bulk-upload-instruction-second-part = public domain sentences
