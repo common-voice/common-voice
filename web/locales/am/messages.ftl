@@ -1763,6 +1763,7 @@ new-sentence-rule-7 = ተገቢውን ዋቢ ያካትቱ
 new-sentence-rule-8 = በሐሳብ ደረጃ ተፈጥሯዊ እና በንግግር መልክ (ዓረፍተ-ነገሩን ለማንበብ ቀላል መሆን አለበት)
 how-to-cite = ዋቢ እንዴት ልጠቅስ?
 how-to-cite-explanation-bold = በዩአርኤል አገናኝ ወይም የስራውን ሙሉ ስም ዋቢ ይጥቀሱ።
+how-to-cite-explanation = የራስዎ ቃላት ከሆነ፣ ልክ <italicizedText>“ራስን መጥቀስ”</italicizedText> ይበሉ። ይህን ይዘት የት እንዳገኙት ማወቅ ያለብን በሕዝብ ጎራ ውስጥ መሆኑን ማረጋገጥ እና ምንም የቅጂ መብት ገደቦች እንዳይተገበሩ ለማድረግ እንድንችል ነው። ስለ ዋቢ አጠቃቀስ ተጨማሪ መረጃ ለማግኘት የእኛን <guidelinesLink>የመመሪያዎች ገጽ</guidelinesLink>ን ይመልከቱ።
 guidelines = መመሪያዎች
 contact-us = ያግኙን
 add-sentence-success = 1 ዓረፍተ-ነገር ተሰብስቧል
