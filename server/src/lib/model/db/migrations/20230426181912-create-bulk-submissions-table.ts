@@ -19,6 +19,7 @@ export const up = async function (db: any): Promise<any> {
       updated_at DATETIME NOT NULL DEFAULT NOW(),
       created_at DATETIME NOT NULL DEFAULT NOW(),
       PRIMARY KEY (id),
+      UNIQUE (path),
       FOREIGN KEY (status) REFERENCES bulk_submission_status(id),
       FOREIGN KEY (locale_id) REFERENCES locales(id) ON DELETE CASCADE,
       FOREIGN KEY (submitter) REFERENCES user_clients(client_id) ON DELETE SET NULL,
