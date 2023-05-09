@@ -1539,6 +1539,7 @@ new-sentence-rule-3 = ⵙⵙⵎⵔⵙ ⵜⴰⵊⵕⵕⵓⵎⵜ ⵢⵓⵖⴷⵏ
 new-sentence-rule-4 = ⵙⵙⵎⵔⵙ ⴰⵙⵏⵎⴰⵔⵔⴰ ⴷ ⵓⵙⵏⵇⴹ ⵓⵖⴷⵏⵉⵏ
 new-sentence-rule-5 = ⵡⴰⵍⵓ ⵓⵟⵟⵓⵏⵏ ⴷ ⵉⵡⵏⵖⵓⵜⵏ ⵉⵎⵥⵍⴰⵢ
 new-sentence-rule-6 = ⵡⴰⵍⵓ ⵉⵙⴽⴽⵉⵍⵏ ⵉⴱⵕⵕⴰⵏⵉⵢⵏ
+new-sentence-rule-7 = ⵙⵙⴰⵎⵓ ⵜⴰⴱⴷⴰⵔⵜ ⴷ ⵢⵓⵙⴰⵏ
 guidelines = ⵜⴰⵔⴰⵜⵉⵏ
 contact-us = ⵎⵢⴰⵡⴰⴹ ⴷⵉⴷⵏⵖ
 add-sentence-success = 1 ⵜⵡⵉⵏⵙⵜ ⵉⵜⵜⵓⴳⵔⴰⵏ
