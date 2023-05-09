@@ -1534,6 +1534,7 @@ citation-input-value = ⴰⵙⴰⴳⵎ ⵏ ⵜⵡⵉⵏⵙⵜ ⵏⵏⵓⵏ
 citation =
     .label = ⵜⴰⴱⴷⴰⵔⵜ
 what-can-i-add = ⵎⴰⵏ ⴰⵏⴰⵡⵏ ⵏ ⵜⵡⵉⵏⴰⵙ ⴰⴷ ⵣⵎⵔⵖ ⴰⴷ ⵜⵏⵜ ⵔⵏⵓⵖ?
+new-sentence-rule-1 = <noCopyright>ⵡⴰⵍⵓ ⵉⵙⴽⵔⴰⴼ ⵏ ⵉⵣⵔⴼⴰⵏ ⵏ ⵓⵎⴳⴰⵢ</noCopyright> (<cc0>cc-0</cc0>)
 new-sentence-rule-2 = ⴷⵔⵓⵙ ⵏ 15 ⵜⴳⵓⵔⵉⵡⵉⵏ
 new-sentence-rule-3 = ⵙⵙⵎⵔⵙ ⵜⴰⵊⵕⵕⵓⵎⵜ ⵢⵓⵖⴷⵏ
 new-sentence-rule-4 = ⵙⵙⵎⵔⵙ ⴰⵙⵏⵎⴰⵔⵔⴰ ⴷ ⵓⵙⵏⵇⴹ ⵓⵖⴷⵏⵉⵏ
