@@ -36,6 +36,7 @@ import validate, {
 import Statistics from './statistics';
 import SentencesRouter from '../api/sentences';
 import { reportsRouter } from '../api/reports/routes';
+import { bulkSubmissionsRouter } from '../api/bulk-submissions/routes';
 
 export default class API {
   model: Model;
@@ -144,6 +145,8 @@ export default class API {
 
     router.get('/bucket/:bucket_type/:path', this.getPublicUrl);
     router.get('/server_date', this.getServerDate);
+
+    router.use('/:locale/bulk_submissions', bulkSubmissionsRouter)
 
     router.use('*', (request: Request, response: Response) => {
       response.sendStatus(404);
