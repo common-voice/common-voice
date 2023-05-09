@@ -6,7 +6,6 @@ import {
 import * as React from 'react'
 import { useDispatch } from 'react-redux'
 
-import SentenceCollectionWrapper from '../../sentence-collector-wrapper'
 import { QuestionIcon, SendIcon } from '../../../../../ui/icons'
 import { LabeledCheckbox, LinkButton } from '../../../../../ui/ui'
 import URLS from '../../../../../../urls'
@@ -131,81 +130,79 @@ const SingleSubmissionWrite: React.FC<SingleSubmissionWriteProps> = ({
   }
 
   return (
-    <SentenceCollectionWrapper dataTestId="write-page" type="write">
-      <form
-        className="guidelines-form"
-        data-testid="guidelines-form"
-        onSubmit={handleSubmit}>
-        <div className="inputs-and-rules-container">
-          <SentenceInputAndRules
-            getString={getString}
-            handleSentenceInputChange={handleSentenceInputChange}
-            handleCitationChange={handleCitationChange}
-            sentence={state.sentence}
-            citation={state.citation}
-            error={state.error}
-          />
-        </div>
+    <form
+      className="guidelines-form"
+      data-testid="guidelines-form"
+      onSubmit={handleSubmit}>
+      <div className="inputs-and-rules-container">
+        <SentenceInputAndRules
+          getString={getString}
+          handleSentenceInputChange={handleSentenceInputChange}
+          handleCitationChange={handleCitationChange}
+          sentence={state.sentence}
+          citation={state.citation}
+          error={state.error}
+        />
+      </div>
 
-        <div className="buttons">
-          <div>
-            <LinkButton
-              rounded
-              outline
-              className="guidelines-button"
-              blank
-              to={URLS.GUIDELINES}>
-              <QuestionIcon />
-              <Localized id="guidelines">
-                <span />
-              </Localized>
-            </LinkButton>
-            <LinkButton
-              rounded
-              outline
-              blank
-              href={`mailto:${COMMON_VOICE_EMAIL}`}>
-              <SendIcon />
-              <Localized id="contact-us">
-                <span />
-              </Localized>
-            </LinkButton>
-          </div>
-          <div className="write-form-container">
-            <LabeledCheckbox
-              label={
-                <Localized
-                  id="sc-submit-confirm"
-                  elems={{
-                    wikipediaLink: (
-                      <a
-                        href="https://en.wikipedia.org/wiki/Public_domain"
-                        target="_blank"
-                        rel="noreferrer"
-                      />
-                    ),
-                  }}>
-                  <span />
-                </Localized>
-              }
-              disabled={state.sentence.length === 0}
-              checked={state.confirmPublicDomain}
-              required
-              onChange={handlePublicDomainChange}
-              data-testid="public-domain-checkbox"
-            />
-            <Localized id="submit-form-action">
-              <PrimaryButton
-                className="submit"
-                type="submit"
-                disabled={!state.confirmPublicDomain}
-                data-testid="submit-button"
-              />
+      <div className="buttons">
+        <div>
+          <LinkButton
+            rounded
+            outline
+            className="guidelines-button"
+            blank
+            to={URLS.GUIDELINES}>
+            <QuestionIcon />
+            <Localized id="guidelines">
+              <span />
             </Localized>
-          </div>
+          </LinkButton>
+          <LinkButton
+            rounded
+            outline
+            blank
+            href={`mailto:${COMMON_VOICE_EMAIL}`}>
+            <SendIcon />
+            <Localized id="contact-us">
+              <span />
+            </Localized>
+          </LinkButton>
         </div>
-      </form>
-    </SentenceCollectionWrapper>
+        <div className="write-form-container">
+          <LabeledCheckbox
+            label={
+              <Localized
+                id="sc-submit-confirm"
+                elems={{
+                  wikipediaLink: (
+                    <a
+                      href="https://en.wikipedia.org/wiki/Public_domain"
+                      target="_blank"
+                      rel="noreferrer"
+                    />
+                  ),
+                }}>
+                <span />
+              </Localized>
+            }
+            disabled={state.sentence.length === 0}
+            checked={state.confirmPublicDomain}
+            required
+            onChange={handlePublicDomainChange}
+            data-testid="public-domain-checkbox"
+          />
+          <Localized id="submit-form-action">
+            <PrimaryButton
+              className="submit"
+              type="submit"
+              disabled={!state.confirmPublicDomain}
+              data-testid="submit-button"
+            />
+          </Localized>
+        </div>
+      </div>
+    </form>
   )
 }
 
