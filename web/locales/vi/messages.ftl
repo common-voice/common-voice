@@ -872,6 +872,8 @@ action-click = Nhấp
 action-tap = Chạm
 contribute = Đóng góp
 listen = Nghe
+write = Viết
+review = Xem xét
 skip = Bỏ qua
 shortcuts = Phím tắt
 clips-with-count-pluralized =
@@ -937,6 +939,7 @@ target-segment-learn-more = Tìm hiểu thêm
 ## Contribution Nav Items
 
 contribute-voice-collection-nav-header = Bộ sưu tập giọng nói
+contribute-sentence-collection-nav-header = Bộ sưu tập câu
 
 ## Reporting
 
@@ -1724,6 +1727,26 @@ reviewing-sentences-explanation-3 = Nếu bạn không chắc chắn về câu �
 reviewing-sentences-explanation-4 = Nếu hết câu cần xem lại, hãy giúp chúng tôi sưu tầm thêm các câu khác nhé!
 community-announcement-header = Thông báo cộng đồng!
 community-announcement-explanation = Hướng dẫn bên dưới dành cho các tính năng thu thập câu mới, sẽ được tích hợp vào nền tảng Common Voice cốt lõi trong suốt tháng 3 và tháng 4 năm 2023. Trong thời gian chờ đợi, bạn có thể sử dụng công cụ trước đó, <scLink>https://commonvoice.mozilla.org/sentence-collector/</scLink>.
+# WRITE PAGE
+write-instruction-second-part = một câu trong phạm vi công cộng
+write-page-subtitle = Các câu được đóng góp ở đây sẽ được thêm vào bộ dữ liệu được cấp phép cc-0 có sẵn công khai.
+sentence =
+    .label = Câu
+sentence-input-value = Nhập câu thuộc phạm vi công cộng của bạn vào đây
+citation-input-value = Nguồn câu của bạn
+citation =
+    .label = Nguồn trích dẫn
+what-can-i-add = Tôi có thể thêm những loại câu nào?
+new-sentence-rule-1 = <noCopyright>Không hạn chế bản quyền</noCopyright> (<cc0>cc-0</cc0>)
+new-sentence-rule-2 = Ít hơn 15 từ
+new-sentence-rule-3 = Sử dụng đúng ngữ pháp
+new-sentence-rule-4 = Sử dụng đúng chính tả và dấu câu
+new-sentence-rule-5 = Không có số và ký tự đặc biệt
+new-sentence-rule-6 = Không có ký tự nước ngoài
+new-sentence-rule-7 = Bao gồm trích dẫn thích hợp
+new-sentence-rule-8 = Lý tưởng nhất là tự nhiên và có tính đàm thoại (câu phải dễ đọc)
+how-to-cite = Cách để tôi trích dẫn?
+how-to-cite-explanation-bold = Trích dẫn với một liên kết URL hoặc tên đầy đủ của tác phẩm.
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = Chúng tôi đang thực hiện một số thay đổi lớn
 sc-redirect-page-subtitle-1 = Trình thu thập câu đang chuyển sang nền tảng cốt lõi của Common Voice. Giờ đây, bạn có thể <writeURL>viết</writeURL> một câu hoặc <reviewURL>xem xét</reviewURL> các bài gửi một câu trên Common Voice.
