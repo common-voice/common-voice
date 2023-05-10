@@ -1,18 +1,23 @@
 import React, { useCallback } from 'react'
 import { useDropzone } from 'react-dropzone'
+import { Localized } from '@fluent/react'
 
 import { Instruction } from '../../instruction'
 import {
   LightBulbIcon,
+  QuestionIcon,
+  SendIcon,
   UploadIcon,
   UploadIconLarge,
 } from '../../../../../ui/icons'
+import { Rules } from '../sentence-input-and-rules/rules'
+import { Button, LinkButton } from '../../../../../ui/ui'
+import ExpandableInformation from '../../../../../expandable-information/expandable-information'
+
+import URLS from '../../../../../../urls'
 
 import './bulk-submission-write.css'
-import { Localized } from '@fluent/react'
-import { Rules } from '../sentence-input-and-rules/rules'
-import { Button } from '../../../../../ui/ui'
-import ExpandableInformation from '../../../../../expandable-information/expandable-information'
+import { COMMON_VOICE_EMAIL } from '../../../../../../constants'
 
 const BulkSubmissionWrite = () => {
   // TODO: move this to useFileUpload hook
@@ -78,7 +83,29 @@ const BulkSubmissionWrite = () => {
         </div>
       </div>
       <div className="buttons">
-        <p>Some buttons</p>
+        <div>
+          <LinkButton
+            rounded
+            outline
+            className="guidelines-button"
+            blank
+            to={URLS.GUIDELINES}>
+            <QuestionIcon />
+            <Localized id="guidelines">
+              <span />
+            </Localized>
+          </LinkButton>
+          <LinkButton
+            rounded
+            outline
+            blank
+            href={`mailto:${COMMON_VOICE_EMAIL}`}>
+            <SendIcon />
+            <Localized id="contact-us">
+              <span />
+            </Localized>
+          </LinkButton>
+        </div>
       </div>
     </div>
   )
