@@ -891,6 +891,8 @@ action-click = Клацніть
 action-tap = Торкнутися
 contribute = Долучитися
 listen = Слухати
+write = Записати
+review = Перевірити
 skip = Пропустити
 shortcuts = Швидкі клавіші
 clips-with-count-pluralized =
@@ -955,6 +957,7 @@ target-segment-learn-more = Докладніше
 ## Contribution Nav Items
 
 contribute-voice-collection-nav-header = Збірка голосів
+contribute-sentence-collection-nav-header = Збірка речень
 
 ## Reporting
 
@@ -1792,6 +1795,40 @@ reviewing-sentences-explanation-3 = Якщо ви не впевнені щодо
 reviewing-sentences-explanation-4 = Якщо у вас закінчилося речення для розгляду, допоможіть нам зібрати більше речень!
 community-announcement-header = Оголошення спільноти!
 community-announcement-explanation = Наведені далі вказівки стосуються нових функцій збирача речень, які будуть вбудовані до нової платформи Common Voice протягом березня та квітня 2023 року. Тим часом ви можете використовувати попередній інструмент, <scLink>https://commonvoice.mozilla.org/sentence-collector/</scLink>.
+# WRITE PAGE
+write-instruction-second-part = речення суспільного надбання
+write-page-subtitle = Надані тут речення буде додано до загальнодоступного набору даних з ліцензією cc-0.
+sentence =
+    .label = Речення
+sentence-input-value = Введіть сюди речення, яке є суспільним надбанням
+citation-input-value = Джерело вашого речення
+citation =
+    .label = Цитата
+what-can-i-add = Які типи речень я можу додати?
+new-sentence-rule-1 = <noCopyright>Без обмежень авторським правом</noCopyright> (<cc0>cc-0</cc0>)
+new-sentence-rule-2 = Менше ніж 15 слів
+new-sentence-rule-3 = Дотримуйтеся правил граматики
+new-sentence-rule-4 = Дотримуйтеся правил правопису та пунктуації
+new-sentence-rule-5 = Без цифр і спеціальних символів
+new-sentence-rule-6 = Жодних іноземних букв
+new-sentence-rule-7 = Додайте відповідну цитату
+new-sentence-rule-8 = Ідеально природне і розмовне (речення має легко читатися)
+how-to-cite = Як цитувати?
+how-to-cite-explanation-bold = Цитата з URL-посиланням або повною назвою твору.
+how-to-cite-explanation = Якщо це ваші власні слова, просто вкажіть <italicizedText>“Самоцитування”</italicizedText>. Нам потрібно знати, де ви знайшли цей вміст, щоб ми могли перевірити, чи він є суспільним надбанням і на нього не поширюються жодні обмеження авторського права. Щоб дізнатися більше про цитування, перегляньте нашу <guidelinesLink>Сторінку настанов</guidelinesLink>.
+guidelines = Настанови
+contact-us = Зв'язатися з нами
+add-sentence-success = Зібрано 1 речення
+add-sentence-error = Помилка додавання речення
+required-field = Заповніть це поле.
+# REVIEW PAGE
+sc-review-instruction-first-part = Перевірте
+sc-review-instruction-second-part = чи це речення лінгвістично правильне?
+sc-review-rules-title = Чи відповідає речення настановам?
+sc-review-empty-state = Зараз немає речень цією мовою для розгляду.
+report-sc-different-language = Інша мова
+report-sc-different-language-detail = Написано мовою, відмінною від тої, яку я розглядаю.
+sentences-fetch-error = Під час отримання речень сталася помилка
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = Ми робимо великі зміни
 sc-redirect-page-subtitle-1 = Sentence Collector переходить на основну платформу Common Voice. Тепер ви можете <writeURL>написати</writeURL> речення або <reviewURL>розглянути</reviewURL> окремі пропозиції на Common Voice.

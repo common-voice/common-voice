@@ -891,6 +891,8 @@ action-click = کلک
 action-tap = انگل لاؤ
 contribute = حصہ پاؤ
 listen = سݨو
+write = لکھو
+review = نظرثانی
 skip = چھوڑو
 shortcuts = شارٹ کٹ
 clips-with-count-pluralized =
@@ -958,6 +960,7 @@ target-segment-learn-more = ٻیا سِکھو
 ## Contribution Nav Items
 
 contribute-voice-collection-nav-header = اوازاں دا مجموعہ
+contribute-sentence-collection-nav-header = فقریاں دا مجموعہ
 
 ## Reporting
 
@@ -1675,3 +1678,10 @@ reviewing-sentences-explanation-2 = جے جملے اُتلے معیار تے پ�
 reviewing-sentences-explanation-3 = جے تہاکوں جملے بارے پک کائنی تاں تساں ایں کوں چھوڑ تے اڳلے جملے تے ون٘ڄ سڳدے ہو۔
 reviewing-sentences-explanation-4 = جے تہاݙے کول نظرثانی کیتے جملے کائنی تاں سوہݨا، ٻئے جملے کٹھے کرݨ وچ ساݙی مدد کرو!
 community-announcement-header = برادری اعلانات!
+sentence =
+    .label = جملہ
+citation =
+    .label = حوالہ ݙیوݨ
+contact-us = ساݙے نال رابطہ کرو
+# REVIEW PAGE
+sc-review-instruction-first-part = پڑٹال کرو

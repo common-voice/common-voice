@@ -1756,6 +1756,19 @@ reviewing-sentences-explanation-3 = Als u niet zeker bent van de zin, kunt u dez
 reviewing-sentences-explanation-4 = Als u geen zinnen meer hebt om te beoordelen, help ons dan om meer zinnen te verzamelen!
 community-announcement-header = Mededeling van de gemeenschap!
 community-announcement-explanation = De onderstaande richtlijnen zijn voor de verzamelfuncties voor nieuwe zinnen, die in maart en april 2023 in het Common Voice-kernplatform zullen worden geïntegreerd. In de tussentijd kunt u het vorige hulpmiddel gebruiken, <scLink>https://commonvoice.mozilla.org/sentence-collector/</scLink>.
+# WRITE PAGE
+write-instruction-second-part = een zin uit het publieke domein
+sentence =
+    .label = Zin
+citation-input-value = Bron van uw zin
+citation =
+    .label = Citaat
+what-can-i-add = Wat voor soort zinnen kan ik toevoegen?
+new-sentence-rule-2 = Minder dan 15 woorden
+new-sentence-rule-3 = Gebruik de juiste grammatica
+new-sentence-rule-4 = Gebruik correcte spelling en interpunctie
+new-sentence-rule-6 = Geen vreemde tekens
+new-sentence-rule-7 = Voeg de juiste bronvermelding toe
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = We voeren enkele grote veranderingen door
 sc-redirect-page-subtitle-1 = De Sentence Collector verhuist naar de kern van het Common Voice-platform. U kunt nu een zin <writeURL>schrijven</writeURL> of inzendingen van losse zinnen <reviewURL>beoordelen</reviewURL> op Common Voice.

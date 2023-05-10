@@ -902,6 +902,8 @@ action-click = Click
 action-tap = Tap
 contribute = Contribute
 listen = Listen
+write = Write
+review = Review
 skip = Skip
 shortcuts = Shortcuts
 clips-with-count-pluralized = { $count ->
@@ -965,7 +967,8 @@ target-segment-add-voice = Add Your Voice
 target-segment-learn-more = Learn More
 
 ## Contribution Nav Items
-contribute-voice-collection-nav-header=Voice Collection
+contribute-voice-collection-nav-header = Voice Collection
+contribute-sentence-collection-nav-header = Sentence Collection
 
 ## Reporting
 report = Report
@@ -1685,6 +1688,42 @@ reviewing-sentences-explanation-3 = If you are unsure about the sentence, you ma
 reviewing-sentences-explanation-4 = If you run out of sentences to review, please help us collect more sentences!
 community-announcement-header = Community announcement!
 community-announcement-explanation = The guidance below is for the new sentence collector features, which will be integrated into the core Common Voice platform throughout March and April 2023. In the meantime you can use the previous tool, <scLink>https://commonvoice.mozilla.org/sentence-collector/</scLink>.
+
+# WRITE PAGE
+write-instruction-second-part = a public domain sentence
+write-page-subtitle = Sentences contributed here will be added to a publicly available cc-0 licensed dataset.
+sentence = 
+    .label = Sentence
+sentence-input-value = Enter your public domain sentence here
+citation-input-value = Source of your sentence
+citation = 
+    .label = Citation
+what-can-i-add = What kinds of sentences can I add?
+new-sentence-rule-1 = <noCopyright>No copyright</noCopyright> restrictions (<cc0>cc-0</cc0>)
+new-sentence-rule-2 = Fewer than 15 words
+new-sentence-rule-3 = Use correct grammar
+new-sentence-rule-4 = Use correct spelling and punctuation
+new-sentence-rule-5 = No numbers and special characters
+new-sentence-rule-6 = No foreign letters
+new-sentence-rule-7 = Include appropriate citation
+new-sentence-rule-8 = Ideally natural and conversational (it should be easy to read the sentence)
+how-to-cite = How do I cite?
+how-to-cite-explanation-bold = Cite with a URL link or the full name of the work.
+how-to-cite-explanation = If it’s your own words, just say <italicizedText>“Self Citation”</italicizedText>. We need to know where you found this content so that we can check it is in the public domain and no copyright restrictions apply. For more information about citation see our <guidelinesLink>Guidelines page</guidelinesLink>.
+guidelines = Guidelines
+contact-us = Contact Us
+add-sentence-success = 1 sentence collected
+add-sentence-error = Error adding sentence
+required-field = Please fill out this field.
+
+# REVIEW PAGE
+sc-review-instruction-first-part = Check
+sc-review-instruction-second-part = is this a linguistically correct sentence?
+sc-review-rules-title = Does the sentence meet the guidelines?
+sc-review-empty-state = There are currently no sentences to review in this language.
+report-sc-different-language = Different language
+report-sc-different-language-detail = It is written in a language different than what I’m reviewing.
+sentences-fetch-error = An error occurred fetching sentences
 
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = We're making some big changes

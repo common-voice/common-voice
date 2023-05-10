@@ -756,7 +756,7 @@ why-email = <b>Kāpēc e-pasts?</b> Mums, iespējams, nākotnē būs jāsazinās
 confirm-size = Jūs esat gatavs sākt lejupielādēt <b>{ $size }</b>
 size-gigabyte = GB
 size-megabyte = MB
-confirm-no-identify = <b>Jūs piekrītat</b>, ka nemēģināsiet noteikt identitāti cilvēkiem, kas veikuši ierakstus Common Voice datu kopnē
+confirm-no-identify = <b>Jūs piekrītat</b>, ka nemēģināsiet noteikt identitāti cilvēkiem, kas veikuši ierakstus Common Voice datu kopā
 confirm-join-mailing-list = Es vēlos pievienoties Common Voice ziņojumiem e-pastā
 download-language = Lejupielādēt { $language }
 validated-hours = Pārbaudītās stundas
@@ -888,6 +888,8 @@ action-click = Klikšķis
 action-tap = Pieskaries
 contribute = Veic ieguldījumu
 listen = Klausies
+write = Raksti
+review = Pārbaudi
 skip = Izlaist
 shortcuts = Īsceļi
 clips-with-count-pluralized =
@@ -957,6 +959,7 @@ target-segment-learn-more = Uzzināt vairāk
 ## Contribution Nav Items
 
 contribute-voice-collection-nav-header = Balsu kolekcija
+contribute-sentence-collection-nav-header = Teikumu apkopotājs
 
 ## Reporting
 
@@ -1898,6 +1901,40 @@ reviewing-sentences-explanation-3 = Ja neesat pārliecināts par teikumu, varat 
 reviewing-sentences-explanation-4 = Ja visi teikumi jau ir pārbaudīti, lūdzu, palīdziet mums savākt jaunus teikumus!
 community-announcement-header = Kopienas paziņojums!
 community-announcement-explanation = Zemāk sniegtie norādījumi attiecas uz jaunajām teikumu apkopošanas iespējām, kas 2023. gada martā un aprīlī tiks integrētas Common Voice pamatplatformā. Tikmēr varat izmantot iepriekšējo rīku <scLink>https://commonvoice.mozilla.org/sentence-collector/</scLink>.
+# WRITE PAGE
+write-instruction-second-part = publiski pieejams teikums
+write-page-subtitle = Šeit ievietotie teikumi tiks pievienoti publiski pieejamai cc-0 licencētai datu kopai.
+sentence =
+    .label = Teikums
+sentence-input-value = Ievadiet šeit savu publiski pieejamo teikumu, kas nav aizsargāts ar autortiesībām
+citation-input-value = Jūsu teikuma avots
+citation =
+    .label = Atsauce
+what-can-i-add = Kādus teikumus es varu pievienot?
+new-sentence-rule-1 = <noCopyright>Nav autortiesību</noCopyright> ierobežojumu (<cc0>cc-0</cc0>)
+new-sentence-rule-2 = Mazāk par 15 vārdiem
+new-sentence-rule-3 = Ir gramatiski pareizi
+new-sentence-rule-4 = Bez drukas vai pieturzīmju kļūdām
+new-sentence-rule-5 = Bez cipariem vai speciālajām rakstu zīmēm
+new-sentence-rule-6 = Bez svešu valodu burtiem
+new-sentence-rule-7 = Norādiet teikuma avotu
+new-sentence-rule-8 = Dabiski sarunvalodas teikumi (tiem jābūt viegli ierunājamiem)
+how-to-cite = Kā norādīt avotu?
+how-to-cite-explanation-bold = Norādiet mājas lapas adresi vai darba pilnu nosaukumu.
+how-to-cite-explanation = Ja šis ir jūsu izdomāts teikumsi, vienkārši norādiet <italicizedText>“Pašatsauce”</italicizedText>. Mums ir jāzina, teikumu avoti, lai mēs varētu pārbaudīt, vai tas ir publiski pieejams un uz to neattiecas nekādi autortiesību ierobežojumi. Papildu informāciju par atsaucēm skatiet mūsu <guidelinesLink>vadlīniju lapā</guidelinesLink>.
+guidelines = Vadlīnijas
+contact-us = Sazināties ar mums
+add-sentence-success = Savākts 1 teikums
+add-sentence-error = Kļūda pievienojot teikumu
+required-field = Lūdzu aizpildiet šo lauku.
+# REVIEW PAGE
+sc-review-instruction-first-part = Pārbaudi
+sc-review-instruction-second-part = vai šis ir lingvistiski pareizs teikums?
+sc-review-rules-title = Vai teikums atbilst vadlīnijām?
+sc-review-empty-state = Pašlaik šajā valodā nav teikumu, ko pārbaudīt.
+report-sc-different-language = Nepareiza valoda
+report-sc-different-language-detail = Tas ir uzrakstīts valodā, kas atšķiras no tās, ko šobrīd pārbaudu.
+sentences-fetch-error = Ielādējot teikumus notikusi kļūda
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = Mēs veicam dažas lielas izmaiņas
 sc-redirect-page-subtitle-1 = Teikumu apkopošanas rīks pāriet uz Common Voice platformu. Tagad varat <writeURL>pievienot</writeURL> un <reviewURL>pārbaudīt</reviewURL> teikumus Common Voice sistēmā.

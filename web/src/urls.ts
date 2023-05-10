@@ -8,6 +8,8 @@ export default Object.freeze({
   RECORD: '/record', // old, here for redirect purposes
   SPEAK: '/speak',
   LISTEN: '/listen',
+  WRITE: '/write',
+  REVIEW: '/review',
 
   PROFILE,
   PROFILE_INFO: PROFILE + '/info',
@@ -35,8 +37,6 @@ export default Object.freeze({
   PARTNER: '/partner',
   GUIDELINES: '/guidelines',
   SENTENCE_COLLECTOR_REDIRECT: '/sentence-collector-redirect',
-  WRITE: '/write',
-  REVIEW: '/review',
 
   LANGUAGES: '/languages',
   LANGUAGE_REQUEST: '/language/request',

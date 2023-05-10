@@ -877,6 +877,8 @@ action-click = Kattintson
 action-tap = Koppintson
 contribute = Közreműködés
 listen = Figyeljen
+write = Írás
+review = Ellenőrzés
 skip = Kihagyás
 shortcuts = Gyorsbillentyűk
 clips-with-count-pluralized =
@@ -940,6 +942,7 @@ target-segment-learn-more = További tudnivalók
 ## Contribution Nav Items
 
 contribute-voice-collection-nav-header = Hanggyűjtemény
+contribute-sentence-collection-nav-header = Mondatok gyűjtése
 
 ## Reporting
 
@@ -1629,6 +1632,7 @@ misreadings-example-4 = A dongó elszállt.
 misreadings-tip-1 = [Ennek kellene lennie: „Kimegyünk”]
 misreadings-tip-2 = [Hiányzik az igekötő]
 misreadings-tip-3 = [Nem egyező tartalom]
+background-noise-explanation = Hallania kell a felvétel minden szavát. Azt szeretnénk, ha a gépi tanulási algoritmusok képesek legyenek kezelni a különféle háttérzajokat, és még a viszonylag hangos zajok vagy a halk háttérzenék is elfogadhatók, feltéve, hogy nem akadályozzák abban, hogy hallja a szöveg egészét. A szöveg érthetőségét megakadályozó recsegések vagy „szakadások” azt jelentik, hogy el kell utasítania a klipet.
 background-noise-example-1 = A triász óriás dinoszauruszai.
 background-noise-example-2 = [Tüsszentés] A triász [köhögés] óriás dinoszauruszai.
 background-noise-example-3 = A triász óriás dinója [köhögés].
@@ -1689,6 +1693,40 @@ reviewing-sentences-explanation-3 = Ha nem biztos a mondattal kapcsolatban, ki i
 reviewing-sentences-explanation-4 = Ha elfogynak az ellenőrizhető mondatok, akkor segítsen további mondatok összegyűjtésében.
 community-announcement-header = Közösségi bejelentés!
 community-announcement-explanation = Az alábbi útmutatás az új mondatgyűjtő funkciókra vonatkozik, amelyek 2023 márciusában és áprilisában a központi Common Voice platformba integrálódnak. Addig is, használhatja a korábbi eszközt: <scLink>https://commonvoice.mozilla.org/sentence-collector/</scLink>.
+# WRITE PAGE
+write-instruction-second-part = egy közkincsű mondat
+write-page-subtitle = Az itt beküldött mondatok egy nyilvánosan elérhető, cc-0 licenc alatt közzétett adatkészlethez adódnak.
+sentence =
+    .label = Mondat
+sentence-input-value = Írja ide a közkincsű mondatot
+citation-input-value = A mondat forrása
+citation =
+    .label = Idézet
+what-can-i-add = Milyen típusú mondatokat adhatok hozzá?
+new-sentence-rule-1 = <noCopyright>Nincs szerzői jogi</noCopyright> korlátozás (<cc0>cc-0</cc0>)
+new-sentence-rule-2 = Kevesebb mint 15 szó
+new-sentence-rule-3 = Használjon helyes nyelvtant
+new-sentence-rule-4 = Írjon helyesen, és használjon központozást
+new-sentence-rule-5 = Ne legyenek benne számok és speciális karakterek
+new-sentence-rule-6 = Ne legyenek benne idegen betűk
+new-sentence-rule-7 = Idézze megfelelően
+new-sentence-rule-8 = Ideálisan természetes és társalgási jellegű (a mondatnak könnyen olvashatónak kell lennie)
+how-to-cite = Hogyan kell idézni?
+how-to-cite-explanation-bold = Idézzen a teljes webcím-hivatkozással vagy a mű teljes nevével.
+how-to-cite-explanation = Ha ezek a saját szavai, akkor csak mondja, hogy <italicizedText>„saját idézet”</italicizedText>. Tudnunk kell, hogy hol találta a tartalmat, hogy ellenőrizhessük, hogy valóban közkincs-e, és nem vonatkoznak-e rá szerzői jogi korlátozások. Az idézéssel kapcsolatos további információkért lásd az <guidelinesLink>Irányelvek oldalt</guidelinesLink>.
+guidelines = Irányelvek
+contact-us = Kapcsolat
+add-sentence-success = 1 mondat összegyűjtve
+add-sentence-error = Hiba a mondat hozzáadásakor
+required-field = Töltse ki ezt a mezőt.
+# REVIEW PAGE
+sc-review-instruction-first-part = Ellenőrzés
+sc-review-instruction-second-part = ez egy nyelvileg helyes mondat?
+sc-review-rules-title = A mondat megfelel az irányelveknek?
+sc-review-empty-state = Jelenleg nincsenek ellenőrizendő mondatok ezen a nyelven.
+report-sc-different-language = Más nyelv
+report-sc-different-language-detail = Ez más nyelven íródott, mint amit ellenőrzök.
+sentences-fetch-error = Hiba történt a mondatok lekérése során
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = Néhány nagy változtatást vezetünk be
 sc-redirect-page-subtitle-1 = A mondatgyűjtő átköltözik a központi Common Voice platformra. Mostantól a Common Voice-on <writeURL>írhat</writeURL> mondatokat vagy <reviewURL>ellenőrizheti</reviewURL> az egymondatos beküldéseket.

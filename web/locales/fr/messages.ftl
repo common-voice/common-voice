@@ -139,6 +139,7 @@ nb-NO = Norvégien bokmål
 nd = Ndébélé du Nord
 ne-NP = Népalais
 nhe = Nahuatl de la Huasteca oriental
+nhi = Nahuatl de la Sierra occidentale de Puebla
 nia = Nias
 nl = Néerlandais
 nn-NO = Norvégien nynorsk
@@ -855,6 +856,8 @@ action-click = Cliquez sur
 action-tap = Appuyez sur
 contribute = Contribuer
 listen = Écouter
+write = Écrire
+review = Vérifier
 skip = Passer
 shortcuts = Raccourcis
 clips-with-count-pluralized =
@@ -918,6 +921,7 @@ target-segment-learn-more = En savoir plus
 ## Contribution Nav Items
 
 contribute-voice-collection-nav-header = Collecte de voix
+contribute-sentence-collection-nav-header = Collecte de phrases
 
 ## Reporting
 
@@ -1195,7 +1199,7 @@ contribution-volume-description = Il y a des variations naturelles de volume ent
 contribution-reader-effects-title = Intonations et effets sonores
 contribution-reader-effects-description = Dans la plupart des enregistrements les personnes parlent avec leur voix naturelle. Vous pouvez accepter occasionnellement un enregistrement non standard crié, chuchoté ou clairement prononcé avec une voix « théâtrale ». Veuillez rejeter les enregistrements chantés et ceux utilisant une voix synthétisée par ordinateur.
 contribution-just-unsure-title = Vous hésitez ?
-contribution-just-unsure-description = Si vous rencontrez une situation que ces directives ne couvrent pas, veuillez voter en faisant appel à votre bon sens. Si vous n’arrivez vraiment pas à vous décider, utilisez le bouton « Passer » et passez à l’enregistrement suivant.
+contribution-just-unsure-description = Si vous rencontrez une situation que ces consignes ne couvrent pas, veuillez voter en faisant appel à votre bon sens. Si vous n’arrivez vraiment pas à vous décider, utilisez le bouton « Passer » et passez à l’enregistrement suivant.
 see-more = <chevron></chevron>Afficher plus d’exemples
 see-less = <chevron></chevron>Afficher moins d’exemples
 
@@ -1334,7 +1338,7 @@ sc-submit-confirm = Je confirme que ces phrases sont du <wikipediaLink>domaine p
 sc-submit-button =
     .submitText = Envoyer
 sc-submit-filtered = Phrases filtrées en raison de l’échec des exigences (veuillez soumettre des versions corrigées en tant que nouvelles phrases) :
-sc-submit-guidelines = Veuillez consulter les <howToLink>directives</howToLink>.
+sc-submit-guidelines = Veuillez consulter les <howToLink>consignes</howToLink>.
 
 ## ADD LANGUAGE
 
@@ -1587,6 +1591,8 @@ varying-pronunciations-tip-2 = [En français de France, il peut être prononcé 
 offensive-content-explanation = Les phrases sont vérifiées via un processus de modération par la communauté, cependant ce processus n’est pas parfait. Si vous voyez ou entendez une phrase qui vous choque (par exemple, si elle enfreint nos <participationGuidelines>Directives relatives à la participation communautaire</participationGuidelines>), veuillez utiliser le bouton Signaler dans l’interface. Vous pouvez également nous contacter à l’adresse <emailFragment>commonvoice@mozilla.com</emailFragment>.
 misreadings-explanation-1 = Lire correctement tous les mots de la page est important. Pendant l’écoute, vérifiez très soigneusement que ce qui a été enregistré est exactement ce qui a été écrit ; rejetez l’échantillon si des mots ont été ajoutés, raccourcis ou retirés.
 misreadings-explanation-2 = Voici les erreurs les plus courantes :
+misreadings-explanation-3 = Un article défini ou indéfini est manquant au début de l’enregistrement.
+misreadings-explanation-4 = Il manque un « s » à la fin d’un mot.
 misreadings-explanation-5 = Des contractions inexistantes sont lues, telles que « surment » au lieu de « surement ».
 misreadings-explanation-6 = La fin du dernier mot est coupée, car l’enregistrement a été arrêté trop vite.
 misreadings-explanation-7 = Faire plusieurs tentatives pour lire un mot.
@@ -1609,7 +1615,7 @@ background-voices-example-1 = Les dinosaures géants du Trias. [lu par une premi
 background-voices-tip-1 = Tu viens ? [prononcé par une autre voix]
 volume-explanation = Il y a des variations naturelles de volume entre les lecteurs et lectrices. Ne rejetez que si le volume est si élevé que l’enregistrement est haché, ou (plus communément) s’il est si bas que vous ne pouvez pas entendre ce qui est dit sans référence au texte écrit.
 reader-effects-explanation = Dans la plupart des enregistrements les personnes parlent avec leur voix naturelle. Vous pouvez accepter occasionnellement un enregistrement non standard crié, chuchoté ou clairement prononcé avec une voix « théâtrale ». Veuillez rejeter les enregistrements chantés et ceux utilisant une voix synthétisée par ordinateur.
-just-unsure-explanation = Si vous rencontrez une situation que ces directives ne couvrent pas, veuillez voter en faisant appel à votre bon sens. Si vous n’arrivez vraiment pas à vous décider, utilisez le bouton « Passer » et passez à l’enregistrement suivant.
+just-unsure-explanation = Si vous rencontrez une situation que ces consignes ne couvrent pas, veuillez voter en faisant appel à votre bon sens. Si vous n’arrivez vraiment pas à vous décider, utilisez le bouton « Passer » et passez à l’enregistrement suivant.
 still-have-questions = Vous avez toujours des questions ?
 contact-common-voice = Contactez l’équipe Common Voice
 public-domain = Domaine public
@@ -1656,6 +1662,40 @@ reviewing-sentences-explanation-3 = Si vous avez un doute, vous pouvez égalemen
 reviewing-sentences-explanation-4 = Si vous n’avez plus de phrases à vérifier, aidez-nous à collecter davantage de phrases !
 community-announcement-header = Annonce pour la communauté !
 community-announcement-explanation = Les conseils ci-dessous concernent les nouvelles fonctionnalités du collecteur de phrases, qui seront intégrées à la plateforme Common Voice entre mars et avril 2023. En attendant, vous pouvez utiliser l’ancien outil, <scLink>https://commonvoice.mozilla.org/sentence-collector/</scLink>.
+# WRITE PAGE
+write-instruction-second-part = une phrase du domaine public
+write-page-subtitle = Les phrases fournies ici seront ajoutées à un jeu de données public sous licence cc-0.
+sentence =
+    .label = Phrase
+sentence-input-value = Saisissez votre phrase du domaine public ici
+citation-input-value = Source de votre phrase
+citation =
+    .label = Citation
+what-can-i-add = Quels types de phrases puis-je ajouter ?
+new-sentence-rule-1 = <noCopyright>Aucune restriction de droit d’auteur</noCopyright> (<cc0>cc-0</cc0>)
+new-sentence-rule-2 = Moins de 15 mots
+new-sentence-rule-3 = La grammaire doit être correcte
+new-sentence-rule-4 = L’orthographe et la ponctuation doivent être correctes
+new-sentence-rule-5 = Pas de chiffres ni de caractères spéciaux
+new-sentence-rule-6 = Pas de lettre étrangère
+new-sentence-rule-7 = La citation appropriée doit être incluse
+new-sentence-rule-8 = La phrase doit idéalement être naturelle et conversationnelle (elle doit être facile à lire)
+how-to-cite = Comment faire une citation ?
+how-to-cite-explanation-bold = Citez en incluant un lien ou le nom complet de l’œuvre.
+how-to-cite-explanation = Si ce sont vos propres mots, mentionnez simplement <italicizedText>« auto-citation »</italicizedText>. Nous avons besoin de connaître la provenance de ce contenu afin de pouvoir vérifier qu’il est dans le domaine public et qu’aucune restriction de droit d’auteur ne s’applique. Pour plus d’informations sur les citations, consultez <guidelinesLink>nos consignes</guidelinesLink>.
+guidelines = Consignes
+contact-us = Nous contacter
+add-sentence-success = 1 phrase collectée
+add-sentence-error = Erreur lors de l’ajout de la phrase
+required-field = Veuillez compléter ce champ.
+# REVIEW PAGE
+sc-review-instruction-first-part = Vérifier
+sc-review-instruction-second-part = si la phrase est linguistiquement correcte ?
+sc-review-rules-title = La phrase est-elle conforme aux consignes ?
+sc-review-empty-state = Il n’y a actuellement aucune phrase à vérifier dans cette langue.
+report-sc-different-language = Autre langue
+report-sc-different-language-detail = La phrase est écrite dans une langue différente de celle que je relis.
+sentences-fetch-error = Une erreur est survenue lors de la récupération des phrases
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = Nous effectuons d’importants changements
 sc-redirect-page-subtitle-1 = Le collecteur de phrases est déplacé vers la plateforme Common Voice. Vous pouvez désormais <writeURL>écrire</writeURL> une phrase ou <reviewURL>vérifier</reviewURL> des phrases depuis Common Voice.

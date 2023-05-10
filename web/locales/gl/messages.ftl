@@ -239,7 +239,7 @@ cookies = Cookies
 faq = PMF
 content-license-text = Contido dispoñíble baixo <licenseLink>licenza Creative Commons</licenseLink>
 share-title = Axúdenos a atopar outras persoas para doaren a súa voz!
-share-text = Axude a ensinarlles ás máquinas como fala a xente real, doe a súa voz en { $link }
+share-text = Axude a ensinarlles ás máquinas como falamos, doe a súa voz en { $link }
 link-copied = Ligazón copiada
 back-top = Volver arriba
 logout = Cerrar sesión
@@ -487,7 +487,7 @@ faq-why-my-lang-a =
     Encantaríanos que engadise o seu idioma! <languageRequestLink>Consulte aquí como engadir o seu idioma.</languageRequestLink>
 faq-what-quality-q = Que nivel de calidade de son se require para que un fragmento de voz se utilice no conxunto de datos?
 faq-what-quality-a = Queremos que o conxunto de datos de Common Voice reflicta a calidade do son que un motor de fala-a-texto atopará en condicións reais, polo que buscamos variedade. Ademais dunha comunidade diversa de falantes, un conxunto de datos con variación na calidade do son ensinaralle ao motor de fala-a-texto a xestionar varias situacións do mundo real, desde unha conversa de fondo a un ruído de coche. Mentres o fragmento de voz sexa intelixible, será abondo para o conxunto de datos.
-faq-why-10k-hours-q = Por que o obxectivo é de 10.000 horas validadas por idioma de captura de son?
+faq-why-10k-hours-q = Por que o obxectivo é de 10.000 horas de audio validadas por idioma?
 faq-why-10k-hours-a = Este é aproximadamente o número de horas requirido co que adestrar un sistema de fala a texto para produción.
 faq-how-calc-hours-q = Como Common Voice calcula as horas?
 faq-how-calc-hours-a = Calculamos as horas estimando a media de tamaño de cada gravación e logo multiplicándo ese número polo número total de gravacións entre todos os idiomas.
@@ -941,6 +941,7 @@ target-segment-learn-more = Saber máis
 ## Contribution Nav Items
 
 contribute-voice-collection-nav-header = Recollida de voz
+contribute-sentence-collection-nav-header = Recollida de frases
 
 ## Reporting
 
@@ -1680,6 +1681,8 @@ reviewing-sentences-explanation-3 = Se ten dúbidas sobre a frase, pode omitila 
 reviewing-sentences-explanation-4 = Se xa non quedan frases para revisar, axúdenos a recoller máis!
 community-announcement-header = Anuncio á comunidade!
 community-announcement-explanation = As orientacións que se inclúen a continuación refírense ás novas funcións do recompilador de frases, que se integrarán na plataforma principal de Common Voice entre marzo e abril de 2023. Mentres tanto, pode empregar a ferramenta anterior, <scLink>https://commonvoice.mozilla.org/sentence-collector/</scLink>.
+citation =
+    .label = Cita
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = Estamos facendo grandes cambios
 sc-redirect-page-subtitle-1 = O colector de frases está migrando para a plataforma principal do Common Voice. Agora vostede pode <writeURL>escribir</writeURL> unha frase ou <reviewURL>revisar</reviewURL> envíos dunha única frase no Common Voice.

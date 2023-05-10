@@ -10,13 +10,7 @@ import { Locale } from '../../stores/locale';
 import URLS from '../../urls';
 import { replacePathLocale } from '../../utility';
 import { LocaleNavLink } from '../locale-helpers';
-import {
-  CogIcon,
-  DashboardIcon,
-  ListenIcon,
-  MenuIcon,
-  MicIcon,
-} from '../ui/icons';
+import { CogIcon, DashboardIcon, MenuIcon } from '../ui/icons';
 import { Avatar, LinkButton } from '../ui/ui';
 import Content from './content';
 import Footer from './footer';
@@ -35,6 +29,7 @@ import {
   challengeTokens,
 } from 'common';
 import API from '../../services/api';
+import { SecondaryNav } from './nav/secondary-nav';
 
 interface PropsFromState {
   locale: Locale.State;
@@ -169,7 +164,9 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
     const CONTRIBUTION_PAGES = [
       `/${locale}${URLS.SPEAK}`,
       `/${locale}${URLS.LISTEN}`,
-    ];
+      `/${locale}${URLS.WRITE}`,
+      `/${locale}${URLS.REVIEW}`,
+    ]
 
     const isBuildingProfile = location.pathname.includes(URLS.PROFILE_INFO);
     const isDemoMode = location.pathname.includes(URLS.DEMO);
@@ -200,7 +197,7 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
         {showWelcomeModal && !alreadyEnrolled && (
           <WelcomeModal
             onRequestClose={() => {
-              this.setState({ showWelcomeModal: false });
+              this.setState({ showWelcomeModal: false })
             }}
             challengeToken={challengeToken}
             teamToken={challengeTeamToken}
@@ -267,43 +264,17 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
             </div>
           </header>
           {isContributionPageActive && (
-            <div className="secondary-nav">
-              <MenuIcon onClick={handleSecondaryNavMobileMenuClick} />
-              <div className="options">
-                <div
-                  className={cx({
-                    'selected-option': location.pathname.includes(URLS.SPEAK),
-                  })}>
-                  <MicIcon />
-                  <Localized id="speak">
-                    <LocaleNavLink
-                      to={isDemoMode ? URLS.DEMO_SPEAK : URLS.SPEAK}
-                    />
-                  </Localized>
-                  {location.pathname.includes(URLS.SPEAK) && (
-                    <span className="border" />
-                  )}
-                </div>
-                <div
-                  className={cx({
-                    'selected-option': location.pathname.includes(URLS.LISTEN),
-                  })}>
-                  <ListenIcon />
-                  <Localized id="listen">
-                    <LocaleNavLink
-                      to={isDemoMode ? URLS.DEMO_LISTEN : URLS.LISTEN}
-                    />
-                  </Localized>
-                  {location.pathname.includes(URLS.LISTEN) && (
-                    <span className="border" />
-                  )}
-                </div>
-              </div>
-            </div>
+            <SecondaryNav
+              handleSecondaryNavMobileMenuClick={
+                handleSecondaryNavMobileMenuClick
+              }
+              isDemoMode={isDemoMode}
+              isLoggedIn={Boolean(user.account)}
+            />
           )}
         </div>
         <NonProductionBanner />
-        <main id="content">
+        <main id="content" className={className}>
           {children ? children : <Content location={location} />}
         </main>
         {shouldHideFooter ? <></> : <Footer />}
@@ -352,7 +323,7 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
           </Nav>
         </div>
       </div>
-    );
+    )
   }
 }
 
