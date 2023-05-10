@@ -1163,6 +1163,39 @@ export const UploadIcon = () => (
   </svg>
 )
 
+export const UploadIconLarge = () => (
+  <svg xmlns="http://www.w3.org/2000/svg" width="96" height="97" fill="none">
+    <g fill="#fff" fillRule="evenodd" clipPath="url(#a)" clipRule="evenodd">
+      <path d="M45.171 46.163a4 4 0 0 1 5.657 0l16 16a4 4 0 0 1-5.657 5.657L48 54.65 34.828 67.82a4 4 0 0 1-5.657-5.656l16-16Z" />
+      <path d="M48 44.992a4 4 0 0 1 4 4v36a4 4 0 1 1-8 0v-36a4 4 0 0 1 4-4Z" />
+      <path d="M34.653 9.026a36.001 36.001 0 0 1 35.263 23.966H72a24 24 0 0 1 11.475 45.072 4 4 0 1 1-3.83-7.024 16 16 0 0 0-7.648-30.048H66.96a4 4 0 0 1-3.873-2.999 28 28 0 1 0-48.09 25.55 4 4 0 1 1-5.994 5.298 36 36 0 0 1 25.65-59.815Z" />
+      <path d="M45.171 46.163a4 4 0 0 1 5.657 0l16 16a4 4 0 0 1-5.657 5.657L48 54.65 34.828 67.82a4 4 0 0 1-5.657-5.656l16-16Z" />
+    </g>
+    <defs>
+      <clipPath id="a">
+        <path fill="#fff" d="M0 .992h96v96H0z" />
+      </clipPath>
+    </defs>
+  </svg>
+)
+
+export const LightBulbIcon = () => (
+  <svg xmlns="http://www.w3.org/2000/svg" width="12" height="15" fill="none">
+    <path
+      fill="#629FF4"
+      fillRule="evenodd"
+      d="M6 .992a5.25 5.25 0 0 0-2.333 9.95v1.717c0 .966.783 1.75 1.75 1.75h1.166a1.75 1.75 0 0 0 1.75-1.75v-1.717A5.25 5.25 0 0 0 6 .993Zm1.167 9.917v-.343c0-.237.144-.451.364-.54A4.081 4.081 0 0 0 6 2.158a4.084 4.084 0 0 0-1.531 7.866c.22.09.364.304.364.541v.343h2.334Zm-2.334 1.166v.584c0 .322.261.583.584.583h1.166a.583.583 0 0 0 .584-.583v-.584H4.833Z"
+      clipRule="evenodd"
+    />
+    <path
+      fill="#629FF4"
+      fillRule="evenodd"
+      d="M6 4.492a1.75 1.75 0 0 0-1.75 1.75.583.583 0 1 1-1.166 0 2.917 2.917 0 0 1 2.917-2.917.583.583 0 1 1 0 1.167Z"
+      clipRule="evenodd"
+    />
+  </svg>
+)
+
 
 export const FirefoxColor = Icon(
   require('./icons/ff-color.svg'),
