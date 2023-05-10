@@ -956,7 +956,7 @@ report-grammar-or-spelling = გრამატიკული / ორთოგ
 report-grammar-or-spelling-detail = წინადადება გრამატიკული ან მართლწერის შეცდომითაა.
 report-different-language = განსხვავებული ენა
 report-different-language-detail = დაწერილია ჩემი სასაუბრო ენისგან განსხვავებულ ენაზე.
-report-difficult-pronounce = რთულად წარმოსათქმელია
+report-difficult-pronounce = ძნელი წარმოსათქმელია
 report-difficult-pronounce-detail = შეიცავს სიტყვებს ან ფრაზებს, რომლებიც ძნელად იკითხება ან წარმოითქმის.
 report-offensive-speech = უხამსი მეტყველება
 report-offensive-speech-detail = ჩანაწერი შეუსაბამო ან უხამსი შინაარსისაა.
@@ -1750,7 +1750,7 @@ reviewing-sentences-explanation-4 = თუ ამოიწურება შე
 community-announcement-header = ერთობის საყურადღებოდ!
 community-announcement-explanation = ქვემოთ მოცემული მითითებები ეხება წინადადებების შემგროვებლის ახალ შესაძლებლობებს, რომლებიც დაინერგება Common Voice-ის ძირითად პლატფორმაზე 2023 წლის მარტსა და აპრილში. იქამდე შეგიძლიათ გამოიყენოთ ადრინდელი ხელსაწყო <scLink>https://commonvoice.mozilla.org/sentence-collector/</scLink>.
 # WRITE PAGE
-write-instruction-second-part = წინადადება საყოველთაო საკუთრებიდან
+write-instruction-second-part = საყოველთაო საკუთრების წინადადების
 write-page-subtitle = აქ შემოწირული წინადადებები დაემატება საჯაროდ ხელმისაწვდომ კრებულს cc-0 ლიცენზიით.
 sentence =
     .label = წინადადება
@@ -1777,7 +1777,7 @@ add-sentence-error = შეცდომა წინადადების დ
 required-field = გთხოვთ, შეავსოთ ეს ველი.
 # REVIEW PAGE
 sc-review-instruction-first-part = შემოწმება
-sc-review-instruction-second-part = ენობრივად გამართული წინადადებაა?
+sc-review-instruction-second-part = ენობრივად გამართულია თუ არა წინადადება
 sc-review-rules-title = აკმაყოფილებს მითითებულ მოთხოვნებს?
 sc-review-empty-state = ამჟამად ამ ენისთვის შესამოწმებელი წინადადებები არაა.
 report-sc-different-language = განსხვავებული ენა
