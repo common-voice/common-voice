@@ -1685,6 +1685,7 @@ community-announcement-header = Anuncio á comunidade!
 community-announcement-explanation = As orientacións que se inclúen a continuación refírense ás novas funcións do recompilador de frases, que se integrarán na plataforma principal de Common Voice entre marzo e abril de 2023. Mentres tanto, pode empregar a ferramenta anterior, <scLink>https://commonvoice.mozilla.org/sentence-collector/</scLink>.
 # WRITE PAGE
 write-instruction-second-part = unha frase de dominio público
+write-page-subtitle = As frases aportadas aquí engadiranse a un conxunto de datos con licenza cc-0 dispoñible publicamente.
 sentence =
     .label = Frase
 sentence-input-value = Introduza aquí a súa frase de dominio público
@@ -1702,6 +1703,7 @@ new-sentence-rule-7 = Incluír a cita axeitada
 new-sentence-rule-8 = Idealmente natural e conversacional (debería ser fácil de ler a frase)
 how-to-cite = Como citar?
 how-to-cite-explanation-bold = Citar coa URL da ligazón ou co nome completo da obra.
+how-to-cite-explanation = Se son as súas propias palabras, simplemente diga <italicizedText>«Cita propia»</italicizedText>. Necesitamos saber onde atopou este contido para poder comprobar que é de dominio público e non se aplican restricións de copyright. Para obter máis información sobre as citas, consulte a nosa <guidelinesLink>páxina de directrices</guidelinesLink>.
 guidelines = Directrices
 contact-us = Contacta connosco
 add-sentence-success = 1 frase recollida
@@ -1711,6 +1713,11 @@ required-field = Por favor, cubra este campo.
 sc-review-instruction-first-part = Marcar
 sc-review-instruction-second-part = é esta unha frase lingüisticamente correcta?
 sc-review-rules-title = A sentenza cumpre as directrices?
+sc-review-empty-state = Actualmente non hai frases para revisar neste idioma.
+report-sc-different-language = Idioma diferente
+report-sc-different-language-detail = Está escrito nun idioma diferente ao que estou revisando.
+sentences-fetch-error = Produciuse un erro ao recuperar as frases
+review-error = Produciuse un erro ao revisar esta frase
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = Estamos facendo grandes cambios
 sc-redirect-page-subtitle-1 = O colector de frases está migrando para a plataforma principal do Common Voice. Agora vostede pode <writeURL>escribir</writeURL> unha frase ou <reviewURL>revisar</reviewURL> envíos dunha única frase no Common Voice.
