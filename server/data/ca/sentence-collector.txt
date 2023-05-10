@@ -585,6 +585,7 @@ A la oficina de Sant Cugat carrer de la oficina, dotze.
 A la pescateria venen granotes, a euro la lliura les més grossotes.
 A la planta de la classe de matemàtiques li van sortir les arrels quadrades.
 A la porta del porxo de la cort del porc, trota el cavall tort.
+A la presó de Lleida hi ha un presoner.
 A la primera descàrrega, jo m'havia llançat a terra
 A la qual ella cuida amb una sol·licitud no imaginada.
 A la que avança el film, veiem coincidències de personatges i escenes.
@@ -4796,6 +4797,7 @@ Cada client insatisfet ho diu a deu persones.
 Cada columna de les milícies portava un gos, almenys, de mascota
 Cada cop està més a prop d'Isis.
 Cada deflagració sembla que apunti directament cap a tu
+Cada dia al dematí, canta el gall quiquiriquí.
 Cada dia anava amunt i avall sense esclatar mai.
 Cada dia arriba tard a la feina.
 Cada dia ens donaven un paquet de cigarrets
@@ -4978,6 +4980,7 @@ Canyelles es un bon lloc per anar-hi
 Canyelles es troba al Garraf
 Cançó de les llauradores quan s’alcen i plora el xiquet mentre el vesteixen.
 Cançó popular que porta per títol Cançó de Nadal
+Cap a Betlem van dos minyons, amb dues taules de torrons.
 Cap a l'est es dirigeixen els afluents del Zambeze.
 Cap a llevant, el mar blau pàl·lid que llambrejava
 Cap al dimecres, la cosa començà a canviar
@@ -9594,6 +9597,7 @@ Engega el llum del pàrquing.
 Engega el llum del rebedor.
 Engega el llum del terrat.
 Engega el llum.
+Engega el rentaplats siusplau!
 Engega els llums.
 Engega l'ordinador.
 Engega la calefacció.
@@ -10906,6 +10910,7 @@ Gràcies a la censura de premsa
 Gràcies al 'Partido', ix la moció del 'Boc': Joan Fuster, sense carrer a Massamagrell.
 Gràcies al cel de l'home honrat que us ha concedit per pare!
 Gràcies i bona nit!
+Gràcies pel sopar i la companyia.
 Gràcies per col·laborar amb el projecte Aina!
 Gràcies per comunicar-nos-ho.
 Gràcies per contactar-nos!
@@ -14101,6 +14106,7 @@ La fusta es caracteritza pel seu duramen de color rosa.
 La fúria dels italians havia recaigut en la població civil
 La galeria era plena de coloms.
 La gallina al ponedor, i els ous al senyor rector!
+La gallina ponicana posa un ou cada setmana.
 La gata i els gatets cercaven un aixopluc per passar la nit
 La geganta d'Alcanar fa riure
 La geganta de Colera espanta les criatures
@@ -15553,6 +15559,7 @@ Martorell es troba al Baix Llobregat
 Martorelles es un bon lloc per anar-hi
 Martorelles es troba al Vallès Oriental
 Marxarem a bocafoscant.
+Març marçot, mata a la vella i a la jove si pot.
 Marçà es un bon lloc per anar-hi
 Marçà es troba al Priorat
 Mas de Barberans es un bon lloc per anar-hi
@@ -16926,6 +16933,7 @@ Nota primera: l'acció de petar-se no està pas prohibida per llei.
 Nota: Un "byte" i un octet no són el mateix.
 Notes de la nostra albada canten les glòries de la Confederació.
 Notes sobre el sentit del folklore en l'actualitat
+Nou i tres fan dotze.
 Novalis transforma la casa de Schiller, per fer-ne una seva.
 Novalis transforma la intenció de Schiller, per fer-ne una seva.
 Novalis transforma la música de Schiller, per fer-ne una seva.
@@ -21847,6 +21855,7 @@ Trencat, espadat, abrupte, quasi inaccessible.
 Trencàvem files i, assedegats, acudíem en ramat a una botigueta de queviures
 Tres dits de xoriço i un cigar
 Tres fabricants de xocolata, retirades del comerç
+Tres i tres i tres fan nou, nou i tres fan dotze.
 Tres o quatre dies més?
 Tres palometes en un palomar salten i ballen al peu del corral.
 Tres punt dos Centre de Restauració de Béns Mobles de Catalunya.
