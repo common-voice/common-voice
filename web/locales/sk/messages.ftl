@@ -1728,7 +1728,7 @@ add-sentence-error = Chyba pri pridávaní vety
 required-field = Vyplňte toto pole.
 # REVIEW PAGE
 sc-review-instruction-first-part = Skontrolujte
-sc-review-instruction-second-part = je to jazykovo správna veta?
+sc-review-instruction-second-part = či je toto jazykovo správna veta?
 sc-review-rules-title = Spĺňa veta pravidlá?
 sc-review-empty-state = Momentálne nie sú v tomto jazyku žiadne vety dostupné na kontrolu.
 report-sc-different-language = Iný jazyk
