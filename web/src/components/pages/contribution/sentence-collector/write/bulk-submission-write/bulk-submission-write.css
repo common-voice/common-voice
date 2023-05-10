@@ -1,0 +1,61 @@
+.bulk-upload-container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    & .upload-and-instruction {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        & .upload-dropzone-and-rules {
+            display: flex;
+            margin-top: 32px;
+
+            & .upload-dropzone {
+                border: 1px dashed var(--dark-grey);
+                width: 570px;
+                height: 38vh;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: space-around;
+                background: var(--grey);
+
+                & .upload-dropzone-instruction {
+                    font-size: var(--font-size-lg);
+                    font-family: var(--base-font-family);
+                    color: var(--black);
+                    font-weight: 600;
+                }
+
+                & .or-conjunction {
+                    color: var(--warm-grey)
+                }
+
+                & .file-restrictions {
+                    font-size: var(--font-size-sm);
+                    font-style: italic;
+                }
+
+                button {
+                    background-color: var(--white);
+                    color: var(--black);
+                    min-width: 6rem;
+                }
+            }
+
+            & .expandable-container {
+                width: 570px;
+
+                summary {
+                    svg {
+                        margin-inline-end: 8px;
+                    }
+                }
+            }
+        }
+    }
+}
