@@ -1769,13 +1769,16 @@ new-sentence-rule-7 = სათანადო წყაროს დამო�
 new-sentence-rule-8 = სასურველია ბუნებრივი და სასაუბრო ენიდან (ადვილად ამოსაკითხი რომ იყოს)
 how-to-cite = წყარო როგორ უნდა მიეთითოს?
 how-to-cite-explanation-bold = წყაროდ გამოდგება ბმული ან ნამუშევრის სრული სახელწოდება.
+how-to-cite-explanation = თუ თავად შეადგინეთ, საკმარისია მიეთითოს <italicizedText>„საკუთარი ნამუშევარი“</italicizedText>. აუცილებელია, რომ შეგვეძლოს მასალის მოძიება, რათა გადავამოწმოთ, ნამდვილად საყოველთაო საკუთრებაშია თუ არა და საავტორო უფლებებით ხომ არაა დაცული. უფრო ვრცლად წყაროს მითითების შესახებ იხილეთ ჩვენი <guidelinesLink>გზამკვლევის გვერდზე</guidelinesLink>.
 guidelines = გზამკვლევი
 contact-us = დაგვიკავშირდით
+add-sentence-success = 1 წინადადებაა შეგროვებული
 add-sentence-error = შეცდომა წინადადების დამატებისას
 required-field = გთხოვთ, შეავსოთ ეს ველი.
 # REVIEW PAGE
 sc-review-instruction-first-part = შემოწმება
 sc-review-instruction-second-part = ენობრივად გამართული წინადადებაა?
+sc-review-rules-title = აკმაყოფილებს მითითებულ მოთხოვნებს?
 sc-review-empty-state = ამჟამად ამ ენისთვის შესამოწმებელი წინადადებები არაა.
 report-sc-different-language = განსხვავებული ენა
 report-sc-different-language-detail = დაწერილია ჩემი სასაუბრო ენისგან განსხვავებულ ენაზე.
