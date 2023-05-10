@@ -449,7 +449,7 @@ help-variants-explanation = Varianty sú špecifickou formou jazyka – napríkl
 ## Profile - Email
 
 browse-file-title = Nahrať obrázok
-browse-file = Presuňte alebo <browseWrap>Prehliadajte</browseWrap>
+browse-file = Presuňte ho sem alebo si ho <browseWrap>vyhľadajte</browseWrap>
 connect-gravatar = Prepojiť so službou Gravatar
 gravatar_not_found = Pre vašu e-mailovú adresu nebol nájdený žiadny gravatar
 file_too_large = Vybraný súbor je príliš veľký
@@ -1727,10 +1727,14 @@ add-sentence-success = Pridaná 1 veta
 add-sentence-error = Chyba pri pridávaní vety
 required-field = Vyplňte toto pole.
 # REVIEW PAGE
-sc-review-instruction-first-part = Kontrola
+sc-review-instruction-first-part = Skontrolujte
 sc-review-instruction-second-part = je to jazykovo správna veta?
+sc-review-rules-title = Spĺňa veta pravidlá?
 sc-review-empty-state = Momentálne nie sú v tomto jazyku žiadne vety dostupné na kontrolu.
 report-sc-different-language = Iný jazyk
+report-sc-different-language-detail = Je napísaná v inom jazyku, než aký kontrolujem.
+sentences-fetch-error = Pri načítavaní viet sa vyskytla chyba
+review-error = Pri kontrole tejto vety sa vyskytla chyba
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = Robíme veľké zmeny
 sc-redirect-page-subtitle-1 = Nástroj na zber viet sa presúva na základnú platformu Common Voice. Teraz môžete v Common Voice <writeURL>napísať</writeURL> vetu alebo <reviewURL>kontrolovať</reviewURL> vety iných prispievateľov.
