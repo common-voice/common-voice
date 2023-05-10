@@ -556,7 +556,7 @@ about-clip-graveyard-text = Le Cemeterio de retalios consiste del retalios vocal
 about-get-involved = Collabora
 about-get-involved-text-2 =
     Vole adjutar a meliorar Common Voice?
-    Optimo! Contacta nos via e-mail o le foros de <discourseLink>Discourse</discourseLink>,
+    Optimo! Continge nos via e-mail o le foros de <discourseLink>Discourse</discourseLink>,
     signala problemas con le sito via <githubLink>GitHub</githubLink>,
     o junge te al conversation communitari sur <matrixLink>Matrix</matrixLink>.
 about-stay-in-touch = Como me mantene io in contacto?
@@ -738,7 +738,7 @@ audio-format = Formato audio
 number-of-voices = Numero de voces
 splits = Cesuras
 email-to-download = Insere email pro discargar
-why-email = <b>Proque un adresse de e-mail?</b> Es possibile que nos debera contactar te in le futuro sur cambiamentos concernente le collection de datos. Un adresse de e-mail nos forni un puncto de contacto.
+why-email = <b>Proque un adresse de e-mail?</b> Es possibile que nos debera continger te in le futuro sur cambiamentos concernente le collection de datos. Un adresse de e-mail nos forni un puncto de contacto.
 confirm-size = Tu es preste a initiar un discargamento de <b>{ $size }</b>
 size-gigabyte = GB
 size-megabyte = MB
@@ -874,6 +874,8 @@ action-click = Clicca sur
 action-tap = Tocca
 contribute = Contribuer
 listen = Ascoltar
+write = Scriber
+review = Revider
 skip = Saltar
 shortcuts = Accessos directe
 clips-with-count-pluralized =
@@ -937,6 +939,7 @@ target-segment-learn-more = Saper plus
 ## Contribution Nav Items
 
 contribute-voice-collection-nav-header = Collection de voces
+contribute-sentence-collection-nav-header = Collection de phrases
 
 ## Reporting
 
@@ -1080,7 +1083,7 @@ delete-q = Vole tu requirer que tu registrationes vocal sia delite o prefere tu 
 keep = Retener
 remove = Remover
 keep-info = Tu registrationes de voce anonyme remanera in le collection de datos de Common Voice. Un vice que tu dele tu profilo tu non sera plus capace a inviar un requesta de eliminar tu registrationes ab le collection de datos
-remove-info = Nos revidera tu requesta de eliminar tu registrationes de voce ab le collection de datos. Si tu requesta es approbate, nos contactara le personas qui ha discargate le collection de datos e requestara que illes etiam remove tu registrationes de voce.
+remove-info = Nos revidera tu requesta de eliminar tu registrationes de voce ab le collection de datos. Si tu requesta es approbate, nos contingera le personas qui ha discargate le collection de datos e requestara que illes etiam remove tu registrationes de voce.
 why-delete-recordings = Le registrationes de Common Voice es utilisate per le academicos, le micre negotios e per le enthusiastas del recognition vocal pro adjutar a provar e facer crescer ressources publicamente disponibile como le modellos vocal.
 profile-form-delete = Deler le profilo
 
@@ -1570,7 +1573,7 @@ partnerships-foundations-description = Nos labora con fundationes, societate civ
 partnerships-governments-header = Governamentos
 partnerships-governments-description = Nos es exaltante a supportar collaboration con le sector public in technologia, innovation e derectos linguistic. Si tu plana exequer un projecto o campania major,  <emailFragment>tene te in contacto.</emailFragment>
 partnerships-academia-header = Universitates, academicos e recercatores
-partnerships-academia-description = Le innovation aperte es al corde de lo que nos face. Pro collaborationes de recerca, collection de datos o intervistas, <emailFragment>contacta nos.</emailFragment>
+partnerships-academia-description = Le innovation aperte es al corde de lo que nos face. Pro collaborationes de recerca, collection de datos o intervistas, <emailFragment>continge nos.</emailFragment>
 partnerships-small-business-header = Parve negotios, includite start ups technologic e de intelligentia
 partnerships-small-business-description = Nos cerca sempre de audir le consummatores de datos re lor besonios e contexto - de collaborar sur le platteforma de collection de datos pro fornir intuitiones re le salubritate del datos, nos vole <emailFragment>audir te.</emailFragment>
 partnerships-corporates-header = Corporationes e platteformas de grande scala
@@ -1687,3 +1690,21 @@ reviewing-sentences-explanation-3 = Si tu non es secur re le phrase, tu pote als
 reviewing-sentences-explanation-4 = Si tu exhauri le phrases a revider, per favor adjuta nos a colliger altere phrases!
 community-announcement-header = Annuncios de communitate
 community-announcement-explanation = Le guida infra es pro le nove functiones del collector de phrases, que sera integrate in le platteforma Common Voice durante martio e april 2023. Intertanto tu pote usar le previe instrumento, <scLink>https://commonvoice.mozilla.org/sentence-collector/</scLink>.
+# WRITE PAGE
+write-instruction-second-part = un phrase de dominio public
+sentence =
+    .label = Phrase
+citation =
+    .label = Citation
+new-sentence-rule-2 = Minus que 15 parolas
+new-sentence-rule-3 = Usar grammatica correcte
+new-sentence-rule-4 = Usar orthographia e punctuation correcte
+new-sentence-rule-5 = Nulle numeros e characteres special
+new-sentence-rule-6 = Nulle litteras estranier
+how-to-cite = Como pote io citar
+guidelines = Lineas guida
+contact-us = Continge nos
+# SENTENCE-COLLECTOR-REDIRECT PAGE
+sc-redirect-page-title = Nos va facer alcun grande cambios
+sc-redirect-page-subtitle-1 = Le Collector de phrases se move al nucleo del platteforma Common Voice. Ora tu pote <writeURL>scriber</writeURL> un phrase o <reviewURL>revider</reviewURL> singule invios de phrases sur Common Voice.
+sc-redirect-page-subtitle-2 = Demanda nos questiones sur <matrixLink>Matrix</matrixLink>, <discourseLink>Discourse</discourseLink> o <emailLink>email</emailLink>.

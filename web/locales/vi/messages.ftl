@@ -872,6 +872,8 @@ action-click = Nhấp
 action-tap = Chạm
 contribute = Đóng góp
 listen = Nghe
+write = Viết
+review = Xem xét
 skip = Bỏ qua
 shortcuts = Phím tắt
 clips-with-count-pluralized =
@@ -937,6 +939,7 @@ target-segment-learn-more = Tìm hiểu thêm
 ## Contribution Nav Items
 
 contribute-voice-collection-nav-header = Bộ sưu tập giọng nói
+contribute-sentence-collection-nav-header = Bộ sưu tập câu
 
 ## Reporting
 
@@ -1724,3 +1727,41 @@ reviewing-sentences-explanation-3 = Nếu bạn không chắc chắn về câu �
 reviewing-sentences-explanation-4 = Nếu hết câu cần xem lại, hãy giúp chúng tôi sưu tầm thêm các câu khác nhé!
 community-announcement-header = Thông báo cộng đồng!
 community-announcement-explanation = Hướng dẫn bên dưới dành cho các tính năng thu thập câu mới, sẽ được tích hợp vào nền tảng Common Voice cốt lõi trong suốt tháng 3 và tháng 4 năm 2023. Trong thời gian chờ đợi, bạn có thể sử dụng công cụ trước đó, <scLink>https://commonvoice.mozilla.org/sentence-collector/</scLink>.
+# WRITE PAGE
+write-instruction-second-part = một câu trong phạm vi công cộng
+write-page-subtitle = Các câu được đóng góp ở đây sẽ được thêm vào bộ dữ liệu được cấp phép cc-0 có sẵn công khai.
+sentence =
+    .label = Câu
+sentence-input-value = Nhập câu thuộc phạm vi công cộng của bạn vào đây
+citation-input-value = Nguồn câu của bạn
+citation =
+    .label = Nguồn trích dẫn
+what-can-i-add = Tôi có thể thêm những loại câu nào?
+new-sentence-rule-1 = <noCopyright>Không hạn chế bản quyền</noCopyright> (<cc0>cc-0</cc0>)
+new-sentence-rule-2 = Ít hơn 15 từ
+new-sentence-rule-3 = Sử dụng đúng ngữ pháp
+new-sentence-rule-4 = Sử dụng đúng chính tả và dấu câu
+new-sentence-rule-5 = Không có số và ký tự đặc biệt
+new-sentence-rule-6 = Không có ký tự nước ngoài
+new-sentence-rule-7 = Bao gồm trích dẫn thích hợp
+new-sentence-rule-8 = Lý tưởng nhất là tự nhiên và có tính đàm thoại (câu phải dễ đọc)
+how-to-cite = Cách để tôi trích dẫn?
+how-to-cite-explanation-bold = Trích dẫn với một liên kết URL hoặc tên đầy đủ của tác phẩm.
+how-to-cite-explanation = Nếu đó là câu của chính bạn, chỉ cần nói <italicizedText>“Tự trích dẫn”</italicizedText>. Chúng tôi cần biết bạn đã tìm thấy nội dung này ở đâu để chúng tôi có thể kiểm tra xem nội dung đó có thuộc phạm vi công cộng và không áp dụng hạn chế bản quyền nào không. Để biết thêm thông tin về trích dẫn, hãy xem <guidelinesLink>trang Nguyên tắc</guidelinesLink> của chúng tôi.
+guidelines = Nguyên tắc
+contact-us = Liên hệ với chúng tôi
+add-sentence-success = 1 câu đã sưu tập
+add-sentence-error = Lỗi khi thêm câu
+required-field = Vui lòng điền vào trường này.
+# REVIEW PAGE
+sc-review-instruction-first-part = Séc
+sc-review-instruction-second-part = Đây có phải là một câu đúng về mặt ngôn ngữ không?
+sc-review-rules-title = Liệu câu đáp ứng các nguyên tắc?
+sc-review-empty-state = Hiện tại không có câu nào để xem lại bằng ngôn ngữ này.
+report-sc-different-language = Ngôn ngữ khác
+report-sc-different-language-detail = Nó được viết bằng một ngôn ngữ khác với những gì tôi đang xem xét.
+sentences-fetch-error = Đã xảy ra lỗi khi tải câu
+# SENTENCE-COLLECTOR-REDIRECT PAGE
+sc-redirect-page-title = Chúng tôi đang thực hiện một số thay đổi lớn
+sc-redirect-page-subtitle-1 = Trình thu thập câu đang chuyển sang nền tảng cốt lõi của Common Voice. Giờ đây, bạn có thể <writeURL>viết</writeURL> một câu hoặc <reviewURL>xem xét</reviewURL> các bài gửi một câu trên Common Voice.
+sc-redirect-page-subtitle-2 = Đặt câu hỏi cho chúng tôi trên <matrixLink>Matrix</matrixLink>, <discourseLink>Discourse</discourseLink> hoặc <emailLink>email</emailLink>.

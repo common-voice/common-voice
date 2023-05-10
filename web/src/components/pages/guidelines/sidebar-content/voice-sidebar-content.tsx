@@ -1,18 +1,19 @@
 import * as React from 'react';
-import useIsMobileWidth from '../../../../hooks/use-is-mobile-width';
-import { voiceGuidelinesSections } from '../constants';
-import { handleToggleVisibleSection } from '../utils';
+
+import useIsMaxWindowWidth from '../../../../hooks/use-is-max-window-width'
+import { voiceGuidelinesSections } from '../constants'
+import { handleToggleVisibleSection } from '../utils'
 
 const VoiceSidebarContent: React.FC = () => {
   const [visibleSections, setVisibleSections] = React.useState(
     voiceGuidelinesSections
-  );
+  )
 
-  const isMobileWidth = useIsMobileWidth();
+  const isMobileWidth = useIsMaxWindowWidth()
 
   const onToggleVisibleSection = (id: string) => {
-    handleToggleVisibleSection({ id, visibleSections, setVisibleSections });
-  };
+    handleToggleVisibleSection({ id, visibleSections, setVisibleSections })
+  }
 
   return (
     <>
@@ -26,7 +27,7 @@ const VoiceSidebarContent: React.FC = () => {
         />
       ))}
     </>
-  );
-};
+  )
+}
 
 export default VoiceSidebarContent;

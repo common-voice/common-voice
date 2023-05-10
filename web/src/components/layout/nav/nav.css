@@ -34,6 +34,22 @@
             max-width: var(--desktop-width);
             padding: 0 4rem;
 
+            @media (--sm-down) {
+                padding: 0;
+            }
+
+            & .edit-icon {
+                path {
+                    fill: var(--blue);
+                }
+            }
+
+            & .review-icon {
+                path {
+                    fill: var(--light-purple);
+                }
+            }
+
             @media (--lg-down) {
                 margin: 0;
                 width: 100%;
@@ -50,7 +66,7 @@
                 height: 100%;
 
                 @media (--lg-down) {
-                    padding: 20px 12px;
+                    padding: 20px 7px;
                 }
 
                 & path,
@@ -79,7 +95,11 @@
             & div {
                 display: flex;
                 align-items: center;
-                padding: 12px;
+                padding: 8px;
+
+                @media (--sm-down) {
+                    padding: 4px;
+                }
             }
 
             & div:last-child {
@@ -269,7 +289,7 @@ header {
                 & .black-border {
                     border-bottom: 4px solid var(--black);
                     margin-inline-end: 6px;
-                    padding-top: 35px;
+                    padding-top: 34px;
                     position: absolute;
                     right: 0;
                     width: 78px;
@@ -278,6 +298,10 @@ header {
                         display: none;
                     }
                 }
+
+                & .black-border.logged-out {
+                    padding-top: 32.5px;
+                }
             }
 
             & .menu {
@@ -285,19 +309,31 @@ header {
                 flex-direction: column;
                 position: absolute;
                 top: 0;
-                right: -50px;
+                left: -150px;
 
                 & .menu-list {
+                    display: flex;
                     background: var(--white);
                     box-shadow: 0 2px 5px 0 var(--light-grey);
+
+                    & .vertical-line {
+                        border-left: 1px solid var(--grey);
+                        margin-top: 24px;
+                        margin-bottom: 24px;
+                        height: 100px;
+
+                        @media (--md-down) {
+                            display: none;
+                        }
+                    }
                 }
 
                 & .blue-border {
                     border-bottom: 4px solid var(--blue);
                     display: inline-block;
-                    margin-inline-end: 50px;
                     margin-inline-start: 50px;
                     padding-top: 30px;
+                    width: 100px;
                 }
 
                 & ul {
@@ -309,7 +345,7 @@ header {
                     & li {
                         display: flex;
                         align-items: center;
-                        margin-left: 15px;
+                        margin-left: 12px;
                         margin-bottom: 20px;
 
                         & .list-items-wrapper {
@@ -328,6 +364,11 @@ header {
                     & li:last-child {
                         margin-bottom: 0;
                         padding-bottom: 4px;
+                    }
+
+                    & li.write,
+                    li.review {
+                        margin-left: 2px;
                     }
                 }
 
@@ -365,7 +406,6 @@ header {
 
                 @media (--lg-down) {
                     margin-left: 30px;
-                    margin-bottom: 10px;
                 }
 
                 @media (--xl-up) {
@@ -380,6 +420,11 @@ header {
             & .menu-wrapper-mobile {
                 width: 100%;
                 padding-bottom: 8px;
+
+                & .mobile-menu-list {
+                    display: flex;
+                    flex-direction: column;
+                }
 
                 &.listen-active {
                     padding-bottom: 0px;
@@ -426,7 +471,6 @@ header {
                         & .border {
                             border-bottom: 1px solid var(--blue);
                             width: 72px;
-                            flex-basis: 20%;
                             display: inline-block;
                             margin-bottom: 8px;
                             margin-top: 2px;
@@ -445,6 +489,18 @@ header {
                     & li:last-child {
                         margin-bottom: 0;
                     }
+                }
+            }
+
+            & li.write {
+                path {
+                    fill: var(--blue);
+                }
+            }
+
+            & li.review {
+                path {
+                    fill: var(--light-purple);
                 }
             }
         }

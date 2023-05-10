@@ -874,6 +874,8 @@ action-click = Clique em
 action-tap = Toque
 contribute = Contribua
 listen = Ouvir
+write = Escrita
+review = Revisão
 skip = Pular
 shortcuts = Atalhos
 clips-with-count-pluralized =
@@ -937,6 +939,7 @@ target-segment-learn-more = Saiba mais
 ## Contribution Nav Items
 
 contribute-voice-collection-nav-header = Coleta de voz
+contribute-sentence-collection-nav-header = Coleta de frases
 
 ## Reporting
 
@@ -1672,6 +1675,40 @@ reviewing-sentences-explanation-3 = Se não tiver certeza sobre a frase, você t
 reviewing-sentences-explanation-4 = Se não tiver mais frases para revisar, ajude-nos a coletar mais frases!
 community-announcement-header = Comunicado da comunidade!
 community-announcement-explanation = A orientação abaixo é para os recursos do novo coletor de frases, que será integrado à plataforma principal do Common Voice durante março e abril de 2023. Enquanto isso, você pode usar a ferramenta anterior, <scLink>https://commonvoice.mozilla.org/sentence-collector/</scLink>.
+# WRITE PAGE
+write-instruction-second-part = uma frase de domínio público
+write-page-subtitle = As frases contribuídas aqui são adicionadas a um conjunto de dados disponível publicamente de licença cc-0.
+sentence =
+    .label = Frase
+sentence-input-value = Digite aqui sua frase de domínio público
+citation-input-value = Origem da sua frase
+citation =
+    .label = Citação
+what-can-i-add = Que tipos de frases posso adicionar?
+new-sentence-rule-1 = <noCopyright>Sem restrições de direitos autorais</noCopyright> (<cc0>cc-0</cc0>)
+new-sentence-rule-2 = Menos de 15 palavras
+new-sentence-rule-3 = Usar gramática correta
+new-sentence-rule-4 = Usar ortografia e pontuação corretas
+new-sentence-rule-5 = Sem números nem caracteres especiais
+new-sentence-rule-6 = Sem letras estrangeiras
+new-sentence-rule-7 = Incluir citação apropriada
+new-sentence-rule-8 = Idealmente natural e coloquial (deve ser fácil ler a frase)
+how-to-cite = Como citar?
+how-to-cite-explanation-bold = Cite com um link de URL ou o nome completo da obra.
+how-to-cite-explanation = Se for com suas próprias palavras, basta dizer <italicizedText>“Autocitação”</italicizedText>. Precisamos saber onde você encontrou esse conteúdo para poder verificar se é de domínio público e que não se aplicam restrições de direitos autorais. Consulte mais informações sobre citação em nossa <guidelinesLink>página de diretrizes</guidelinesLink>.
+guidelines = Diretrizes
+contact-us = Contate-nos
+add-sentence-success = 1 frase coletada
+add-sentence-error = Erro ao adicionar frase
+required-field = Preencha este campo.
+# REVIEW PAGE
+sc-review-instruction-first-part = Verificação
+sc-review-instruction-second-part = Esta é uma frase linguisticamente correta?
+sc-review-rules-title = A frase atende às diretrizes?
+sc-review-empty-state = No momento, não há frases a revisar neste idioma.
+report-sc-different-language = Outro idioma
+report-sc-different-language-detail = Está escrito em um idioma diferente do que estou revisando.
+sentences-fetch-error = Ocorreu um erro ao buscar frases
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = Estamos a fazer grandes mudanças
 sc-redirect-page-subtitle-1 = O coletor de frases está migrando para a plataforma principal do Common Voice. Agora você pode <writeURL>escrever</writeURL> uma frase ou <reviewURL>revisar</reviewURL> envios de uma única frase no Common Voice.

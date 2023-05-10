@@ -882,6 +882,8 @@ action-click = Klicka
 action-tap = Tryck
 contribute = Bidra
 listen = Lyssna
+write = Skriv
+review = Granska
 skip = Hoppa över
 shortcuts = Genvägar
 clips-with-count-pluralized =
@@ -949,6 +951,7 @@ target-segment-learn-more = Läs mer
 ## Contribution Nav Items
 
 contribute-voice-collection-nav-header = Insamling av röster
+contribute-sentence-collection-nav-header = Insamling av meningar
 
 ## Reporting
 
@@ -1688,6 +1691,40 @@ reviewing-sentences-explanation-3 = Om du är osäker på meningen kan du också
 reviewing-sentences-explanation-4 = Om du får slut på meningar att granska, vänligen hjälp oss att samla in fler meningar!
 community-announcement-header = Meddelande från gemenskapen!
 community-announcement-explanation = Vägledningen nedan är för de nya funktionen för meningsinsamling, som kommer att integreras i den grundläggande Common Voice-plattformen under mars och april 2023. Under tiden kan du använda det tidigare verktyget, <scLink>https://commonvoice.mozilla.org/sentence-collector/</scLink>.
+# WRITE PAGE
+write-instruction-second-part = en mening som är allmän egendom
+write-page-subtitle = Meningar som bidrags här kommer att läggas till i en allmänt tillgänglig cc-0-licensierad datamängd.
+sentence =
+    .label = Mening
+sentence-input-value = Ange din mening som är allmän egendom här
+citation-input-value = Källa till din mening
+citation =
+    .label = Källhänvisning
+what-can-i-add = Vilka typer av meningar kan jag lägga till?
+new-sentence-rule-1 = <noCopyright>Inga upphovsrättsbegränsningar</noCopyright> (<cc0>cc-0</cc0>)
+new-sentence-rule-2 = Färre än 15 ord
+new-sentence-rule-3 = Använd korrekt grammatik
+new-sentence-rule-4 = Använd korrekt stavning och skiljetecken
+new-sentence-rule-5 = Inga siffror och specialtecken
+new-sentence-rule-6 = Inga utländska bokstäver
+new-sentence-rule-7 = Inkludera lämpligt citat
+new-sentence-rule-8 = Helst naturligt och konversationsrikt (det ska vara lätt att läsa meningen)
+how-to-cite = Hur citerar jag?
+how-to-cite-explanation-bold = Citera med en URL-länk eller verkets fullständiga namn.
+how-to-cite-explanation = Om det är dina egna ord, säg bara <italicizedText>"Självcitering"</italicizedText>. Vi behöver veta var du hittade detta innehåll så att vi kan kontrollera att det är allmän egendom och inga upphovsrättsliga begränsningar gäller. För mer information om citering, se vår <guidelinesLink>sida med riktlinjer</guidelinesLink>.
+guidelines = Riktlinjer
+contact-us = Kontakta oss
+add-sentence-success = 1 mening insamlad
+add-sentence-error = Det gick inte att lägga till mening
+required-field = Var vänlig fyll i det här fältet.
+# REVIEW PAGE
+sc-review-instruction-first-part = Kontrollera
+sc-review-instruction-second-part = är detta en språkligt korrekt mening?
+sc-review-rules-title = Uppfyller meningen riktlinjerna?
+sc-review-empty-state = Det finns för närvarande inga meningar att granska på detta språk.
+report-sc-different-language = Annat språk
+report-sc-different-language-detail = Den är skriven på ett annat språk än det jag granskar.
+sentences-fetch-error = Ett fel uppstod när meningar skulle hämtas
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = Vi gör några viktiga förändringar
 sc-redirect-page-subtitle-1 = Meningssamlaren flyttar till kärnplattformen Common Voice. Du kan nu <writeURL>skriva</writeURL> en mening eller <reviewURL>granska</reviewURL> enstaka meningsinlämningar på Common Voice.
