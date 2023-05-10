@@ -879,6 +879,7 @@ action-tap = დააჭირეთ
 contribute = წვლილის შეტანა
 listen = მოსმენა
 write = შედგენა
+review = შემოწმება
 skip = გამოტოვება
 shortcuts = მალსახმობები
 clips-with-count-pluralized =
@@ -1770,3 +1771,17 @@ how-to-cite = წყარო როგორ უნდა მიეთითო
 how-to-cite-explanation-bold = წყაროდ გამოდგება ბმული ან ნამუშევრის სრული სახელწოდება.
 guidelines = გზამკვლევი
 contact-us = დაგვიკავშირდით
+add-sentence-error = შეცდომა წინადადების დამატებისას
+required-field = გთხოვთ, შეავსოთ ეს ველი.
+# REVIEW PAGE
+sc-review-instruction-first-part = შემოწმება
+sc-review-instruction-second-part = ენობრივად გამართული წინადადებაა?
+sc-review-empty-state = ამჟამად ამ ენისთვის შესამოწმებელი წინადადებები არაა.
+report-sc-different-language = განსხვავებული ენა
+report-sc-different-language-detail = დაწერილია ჩემი სასაუბრო ენისგან განსხვავებულ ენაზე.
+sentences-fetch-error = შეცდომა წინადადებების მიღებისას
+review-error = შეცდომა წინადადებების შემოწმებისას
+# SENTENCE-COLLECTOR-REDIRECT PAGE
+sc-redirect-page-title = მნიშვნელოვანი ცვლილებებია
+sc-redirect-page-subtitle-1 = წინადადებების შემგროვებელი გადადის Common Voice-ის ძირითად საიტზე. ახლა შეგიძლიათ <writeURL>შეადგინოთ</writeURL> წინადადება ან <reviewURL>შეამოწმოთ</reviewURL> ცალკეულად დამატებული წინადადებები პირდაპირ Common Voice-ზე.
+sc-redirect-page-subtitle-2 = კითხვების დასასმელად გამოიყენეთ <matrixLink>Matrix</matrixLink>, <discourseLink>Discourse</discourseLink> ან <emailLink>ელფოსტა</emailLink>.
