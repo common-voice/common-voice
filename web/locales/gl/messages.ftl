@@ -941,6 +941,7 @@ target-segment-learn-more = Saber máis
 ## Contribution Nav Items
 
 contribute-voice-collection-nav-header = Recollida de voz
+contribute-sentence-collection-nav-header = Recollida de frases
 
 ## Reporting
 
