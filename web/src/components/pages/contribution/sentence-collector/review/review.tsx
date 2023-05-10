@@ -97,7 +97,7 @@ const Review: React.FC<Props> = ({ getString }) => {
 
       dispatch(Notifications.actions.addPill(getString('vote-yes'), 'success'))
     } catch {
-      skipSentence({ sentenceId, userSkipped: false })
+      dispatch(Sentences.actions.showNextSentence(sentenceId))
       dispatch(
         Notifications.actions.addPill(getString('review-error'), 'error')
       )
@@ -117,7 +117,7 @@ const Review: React.FC<Props> = ({ getString }) => {
 
       dispatch(Notifications.actions.addPill(getString('vote-no'), 'success'))
     } catch {
-      skipSentence({ sentenceId, userSkipped: false })
+      dispatch(Sentences.actions.showNextSentence(sentenceId))
       dispatch(
         Notifications.actions.addPill(getString('review-error'), 'error')
       )
@@ -129,7 +129,7 @@ const Review: React.FC<Props> = ({ getString }) => {
       pendingSentencesSubmissions[activeSentenceIndex].sentenceId
 
     try {
-      skipSentence({ sentenceId, userSkipped: true })
+      skipSentence(sentenceId)
       dispatch(
         Notifications.actions.addPill(
           getString('sc-review-form-button-skip'),
@@ -137,7 +137,7 @@ const Review: React.FC<Props> = ({ getString }) => {
         )
       )
     } catch {
-      skipSentence({ sentenceId, userSkipped: false })
+      dispatch(Sentences.actions.showNextSentence(sentenceId))
       dispatch(
         Notifications.actions.addPill(getString('review-error'), 'error')
       )

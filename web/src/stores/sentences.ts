@@ -31,7 +31,7 @@ export namespace Sentences {
     REFILL_PENDING_SENTENCES = 'REFILL_PENDING_SENTENCES',
     REFILL_PENDING_SENTENCES_LOADING = 'REFILL_PENDING_SENTENCES_LOADING',
     VOTE_SENTENCE = 'VOTE_SENTENCE',
-    SKIP_SENTENCE = 'SKIP_SENTENCE',
+    SHOW_NEXT_SENTENCE = 'SHOW_NEXT_SENTENCE',
   }
 
   interface RefillAction extends ReduxAction {
@@ -71,14 +71,14 @@ export namespace Sentences {
     sentenceIndex: number
   }
 
-  interface SkipSentence extends ReduxAction {
-    type: ActionType.SKIP_SENTENCE
+  interface ShowNextSentence extends ReduxAction {
+    type: ActionType.SHOW_NEXT_SENTENCE
     sentenceId: string
   }
 
   interface CreateAction extends ReduxAction {
-    type: ActionType.CREATE;
-    newSentenceSubmission: SentenceSubmission;
+    type: ActionType.CREATE
+    newSentenceSubmission: SentenceSubmission
   }
 
   export type Action =
@@ -90,7 +90,7 @@ export namespace Sentences {
     | RefillPendingSentencesLoadingAction
     | RefillPendingSentencesAction
     | VoteSentence
-    | SkipSentence
+    | ShowNextSentence
 
   export const actions = {
     refill:
@@ -190,25 +190,25 @@ export namespace Sentences {
       },
 
     skipSentence:
-      ({
-        sentenceId,
-        userSkipped,
-      }: {
-        sentenceId: string
-        userSkipped?: boolean
-      }) =>
-      async (dispatch: Dispatch<SkipSentence>, getState: () => StateTree) => {
+      (sentenceId: string) =>
+      async (
+        dispatch: Dispatch<ShowNextSentence>,
+        getState: () => StateTree
+      ) => {
         const state = getState()
 
-        if (userSkipped) {
-          await state.api.skipSentence(sentenceId)
-        }
+        await state.api.skipSentence(sentenceId)
 
         dispatch({
-          type: ActionType.SKIP_SENTENCE,
+          type: ActionType.SHOW_NEXT_SENTENCE,
           sentenceId,
         })
       },
+
+    showNextSentence: (sentenceId: string) => ({
+      type: ActionType.SHOW_NEXT_SENTENCE,
+      sentenceId,
+    }),
   }
 
   const DEFAULT_LOCALE_STATE = {
@@ -338,7 +338,7 @@ export namespace Sentences {
         }
       }
 
-      case ActionType.SKIP_SENTENCE: {
+      case ActionType.SHOW_NEXT_SENTENCE: {
         const pendingSentences = currentLocaleState.pendingSentences.filter(
           sentence => sentence.sentenceId !== action.sentenceId
         )
