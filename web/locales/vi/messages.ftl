@@ -1747,6 +1747,20 @@ new-sentence-rule-7 = Bao gồm trích dẫn thích hợp
 new-sentence-rule-8 = Lý tưởng nhất là tự nhiên và có tính đàm thoại (câu phải dễ đọc)
 how-to-cite = Cách để tôi trích dẫn?
 how-to-cite-explanation-bold = Trích dẫn với một liên kết URL hoặc tên đầy đủ của tác phẩm.
+how-to-cite-explanation = Nếu đó là câu của chính bạn, chỉ cần nói <italicizedText>“Tự trích dẫn”</italicizedText>. Chúng tôi cần biết bạn đã tìm thấy nội dung này ở đâu để chúng tôi có thể kiểm tra xem nội dung đó có thuộc phạm vi công cộng và không áp dụng hạn chế bản quyền nào không. Để biết thêm thông tin về trích dẫn, hãy xem <guidelinesLink>trang Nguyên tắc</guidelinesLink> của chúng tôi.
+guidelines = Nguyên tắc
+contact-us = Liên hệ với chúng tôi
+add-sentence-success = 1 câu đã sưu tập
+add-sentence-error = Lỗi khi thêm câu
+required-field = Vui lòng điền vào trường này.
+# REVIEW PAGE
+sc-review-instruction-first-part = Séc
+sc-review-instruction-second-part = Đây có phải là một câu đúng về mặt ngôn ngữ không?
+sc-review-rules-title = Liệu câu đáp ứng các nguyên tắc?
+sc-review-empty-state = Hiện tại không có câu nào để xem lại bằng ngôn ngữ này.
+report-sc-different-language = Ngôn ngữ khác
+report-sc-different-language-detail = Nó được viết bằng một ngôn ngữ khác với những gì tôi đang xem xét.
+sentences-fetch-error = Đã xảy ra lỗi khi tải câu
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = Chúng tôi đang thực hiện một số thay đổi lớn
 sc-redirect-page-subtitle-1 = Trình thu thập câu đang chuyển sang nền tảng cốt lõi của Common Voice. Giờ đây, bạn có thể <writeURL>viết</writeURL> một câu hoặc <reviewURL>xem xét</reviewURL> các bài gửi một câu trên Common Voice.
