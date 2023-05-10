@@ -874,6 +874,7 @@ action-click = Kliknite
 action-tap = Ťuknite
 contribute = Zapojte sa
 listen = Počúvajte
+write = Píšte
 skip = Preskočiť
 shortcuts = Skratky
 clips-with-count-pluralized =
@@ -941,6 +942,7 @@ target-segment-learn-more = Ďalšie informácie
 ## Contribution Nav Items
 
 contribute-voice-collection-nav-header = Zbierka hlasov
+contribute-sentence-collection-nav-header = Zber viet
 
 ## Reporting
 
@@ -1697,6 +1699,20 @@ reviewing-sentences-explanation-3 = Ak si nie ste istí vetou, môžete ju tiež
 reviewing-sentences-explanation-4 = Ak vám dochádzajú vety na kontrolu, môžete nám pomôcť zhromaždiť ďalšie vety.
 community-announcement-header = Oznámenie komunity!
 community-announcement-explanation = Pokyny nižšie sa týkajú nových funkcií zberača viet, ktoré budú integrované do základnej platformy Common Voice počas marca a apríla 2023. Medzitým môžete použiť predchádzajúci nástroj, <scLink>https://commonvoice.mozilla.org/sentence-collector/</scLink>.
+sentence =
+    .label = Veta
+sentence-input-value = Tu zadajte svoju vetu dostupnú pod verejnou licenciou
+citation-input-value = Zdroj zadanej vety
+citation =
+    .label = Citácia
+what-can-i-add = Aké druhy viet môžem pridať?
+how-to-cite = Ako mám citovať?
+how-to-cite-explanation-bold = Citujte s odkazom adresou URL alebo celým názvom diela.
+how-to-cite-explanation = Ak ide o vaše vlastné slová, stačí povedať <italicizedText>„Citácia samého seba“</italicizedText>. Potrebujeme vedieť, kde ste tento obsah našli, aby sme mohli skontrolovať, či je dostupný pod verejnou licenciou a nevzťahujú sa naň žiadne obmedzenia autorských práv. Ďalšie informácie o citáciách nájdete na našej <guidelinesLink>stránke s pokynmi</guidelinesLink>.
+guidelines = Pokyny na prispievanie
+contact-us = Kontaktujte nás
+add-sentence-error = Chyba pri pridávaní vety
+required-field = Vyplňte toto pole.
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = Robíme veľké zmeny
 sc-redirect-page-subtitle-1 = Nástroj na zber viet sa presúva na základnú platformu Common Voice. Teraz môžete v Common Voice <writeURL>napísať</writeURL> vetu alebo <reviewURL>kontrolovať</reviewURL> vety iných prispievateľov.
