@@ -190,11 +190,19 @@ export namespace Sentences {
       },
 
     skipSentence:
-      (sentenceId: string) =>
+      ({
+        sentenceId,
+        userSkipped,
+      }: {
+        sentenceId: string
+        userSkipped?: boolean
+      }) =>
       async (dispatch: Dispatch<SkipSentence>, getState: () => StateTree) => {
         const state = getState()
 
-        await state.api.skipSentence(sentenceId)
+        if (userSkipped) {
+          await state.api.skipSentence(sentenceId)
+        }
 
         dispatch({
           type: ActionType.SKIP_SENTENCE,

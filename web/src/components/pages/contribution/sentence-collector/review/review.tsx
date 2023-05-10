@@ -85,36 +85,63 @@ const Review: React.FC<Props> = ({ getString }) => {
   }
 
   const handleVoteYes = () => {
-    voteSentence({
-      vote: true,
-      sentence_id: pendingSentencesSubmissions[activeSentenceIndex].sentenceId,
-      sentenceIndex: activeSentenceIndex,
-    })
+    const sentenceId =
+      pendingSentencesSubmissions[activeSentenceIndex].sentenceId
 
-    dispatch(Notifications.actions.addPill(getString('vote-yes'), 'success'))
+    try {
+      voteSentence({
+        vote: true,
+        sentence_id: sentenceId,
+        sentenceIndex: activeSentenceIndex,
+      })
+
+      dispatch(Notifications.actions.addPill(getString('vote-yes'), 'success'))
+    } catch {
+      skipSentence({ sentenceId, userSkipped: false })
+      dispatch(
+        Notifications.actions.addPill(getString('review-error'), 'error')
+      )
+    }
   }
 
   const handleVoteNo = () => {
-    voteSentence({
-      vote: false,
-      sentence_id: pendingSentencesSubmissions[activeSentenceIndex].sentenceId,
-      sentenceIndex: activeSentenceIndex,
-    })
+    const sentenceId =
+      pendingSentencesSubmissions[activeSentenceIndex].sentenceId
 
-    dispatch(Notifications.actions.addPill(getString('vote-no'), 'success'))
+    try {
+      voteSentence({
+        vote: false,
+        sentence_id: sentenceId,
+        sentenceIndex: activeSentenceIndex,
+      })
+
+      dispatch(Notifications.actions.addPill(getString('vote-no'), 'success'))
+    } catch {
+      skipSentence({ sentenceId, userSkipped: false })
+      dispatch(
+        Notifications.actions.addPill(getString('review-error'), 'error')
+      )
+    }
   }
 
   const handleSkip = () => {
     const sentenceId =
       pendingSentencesSubmissions[activeSentenceIndex].sentenceId
 
-    skipSentence(sentenceId)
-    dispatch(
-      Notifications.actions.addPill(
-        getString('sc-review-form-button-skip'),
-        'success'
+    try {
+      skipSentence({ sentenceId, userSkipped: true })
+      dispatch(
+        Notifications.actions.addPill(
+          getString('sc-review-form-button-skip'),
+          'success'
+        )
       )
-    )
+    } catch {
+      skipSentence({ sentenceId, userSkipped: false })
+      dispatch(
+        Notifications.actions.addPill(getString('review-error'), 'error')
+      )
+    }
   }
 
   const reviewShortCuts = [

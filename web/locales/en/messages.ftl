@@ -1724,6 +1724,7 @@ sc-review-empty-state = There are currently no sentences to review in this langu
 report-sc-different-language = Different language
 report-sc-different-language-detail = It is written in a language different than what I’m reviewing.
 sentences-fetch-error = An error occurred fetching sentences
+review-error = An error occurred reviewing this sentence
 
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = We're making some big changes
