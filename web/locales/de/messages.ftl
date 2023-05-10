@@ -1785,6 +1785,7 @@ sc-review-empty-state = Es gibt derzeit keine Sätze in dieser Sprache, die übe
 report-sc-different-language = Andere Sprache
 report-sc-different-language-detail = Er ist in einer anderen Sprache geschrieben als der, die ich überprüfe.
 sentences-fetch-error = Beim Abrufen der Sätze ist ein Fehler aufgetreten
+review-error = Beim Überprüfen dieses Satzes ist ein Fehler aufgetreten
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = Wir nehmen einige wichtige Änderungen vor
 sc-redirect-page-subtitle-1 = Der Satzsammler zieht auf die Kern-Common-Voice-Plattform um. Sie können jetzt auf einen Satz Common Voice <writeURL>schreiben</writeURL> oder einzelne Sätze <reviewURL>überprüfen</reviewURL>.
