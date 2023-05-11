@@ -1,5 +1,4 @@
 import * as React from 'react';
-import { Link } from 'react-router-dom';
 import { Localized } from '@fluent/react';
 import { Tabs, TabList, Tab, TabPanel } from 'react-tabs';
 import classNames from 'classnames';
