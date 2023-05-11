@@ -15,19 +15,15 @@
     overflow: hidden;
 
     @media (--md-up) {
-        margin-top: 20px;
+        margin-top: 1rem;
         margin-inline-start: auto;
         padding: 0 12px;
         width: 100%;
-        height: 57px;
+        height: 55px;
 
         display: flex !important;
         flex-direction: row;
         justify-content: space-between;
-
-        &:first-child {
-            margin-top: 0;
-        }
     }
 
     & .num {

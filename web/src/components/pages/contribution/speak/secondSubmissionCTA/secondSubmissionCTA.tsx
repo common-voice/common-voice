@@ -23,11 +23,13 @@ export const SecondPostSubmissionCTA: React.FC<
     y: height / 4,
   };
 
+  const heightWithoutHeader = height - 75;
+
   return (
     <div data-testid="second-submission-cta">
       <Confetti
         width={width}
-        height={height}
+        height={heightWithoutHeader}
         numberOfPieces={200}
         gravity={0.1}
         recycle={false}

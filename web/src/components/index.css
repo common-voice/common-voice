@@ -159,13 +159,17 @@ button {
     &.speak,
     &.listen,
     &.write,
-    &.review {
-        overflow: hidden;
+    &.review  {
+        max-height: calc(100dvh - 2px);
 
         & header {
             @media (--lg-down) {
                 display: none;
             }
+        }
+
+        #content {
+            min-height: 70%;
         }
     }
 
@@ -206,11 +210,6 @@ button {
         @media (--sm-down) {
             min-height: auto;
         }
-    }
-
-    &.write {
-        overflow: auto;
-        height: 100%;
     }
 
     &.review {
