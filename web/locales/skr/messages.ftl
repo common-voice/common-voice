@@ -1688,10 +1688,12 @@ new-sentence-rule-4 = درست ہجے تے رموز اوقاف ورتو
 guidelines = رہنمائی
 contact-us = ساݙے نال رابطہ کرو
 add-sentence-success = 1 جملہ کٹھا تھیا
+add-sentence-error = جملے شامل کرݨ وچ خرابی
 required-field = براہ مہربانی ایں خانے کوں پُر کرو۔
 # REVIEW PAGE
 sc-review-instruction-first-part = پڑٹال کرو
 sc-review-instruction-second-part = بھلا ایہ لسانی طور تے درست جملہ ہے؟
+sc-review-empty-state = ایں زبان وچ نظرثانی کیتے ایں ویلے کوئی جملے کائنی۔
 report-sc-different-language = مختلف زبان
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = اساں کجھ وݙیاں تبدیلیاں کریندے پئے ہیں
