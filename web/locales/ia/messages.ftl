@@ -1704,6 +1704,10 @@ new-sentence-rule-6 = Nulle litteras estranier
 how-to-cite = Como pote io citar
 guidelines = Lineas guida
 contact-us = Continge nos
+required-field = Per favor completa iste campo.
+# REVIEW PAGE
+sc-review-instruction-first-part = Marcar
+report-sc-different-language = Altere lingua
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = Nos va facer alcun grande cambios
 sc-redirect-page-subtitle-1 = Le Collector de phrases se move al nucleo del platteforma Common Voice. Ora tu pote <writeURL>scriber</writeURL> un phrase o <reviewURL>revider</reviewURL> singule invios de phrases sur Common Voice.
