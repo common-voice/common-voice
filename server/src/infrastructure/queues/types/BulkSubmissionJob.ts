@@ -2,7 +2,6 @@
 // which have to be imported into our sentences corpus
 export type BulkSubmissionImportJob = {
     filepath: string
-    localeId: number
 }
 
 // This job represents a bulk submission file that contains sentences,
