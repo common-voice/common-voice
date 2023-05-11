@@ -1748,7 +1748,7 @@ sc-review-instruction-second-part = это лингвистически прав
 sc-review-rules-title = Соответствует ли предложение принципам из руководства?
 sc-review-empty-state = В настоящее время нет предложений для оценки на этом языке.
 report-sc-different-language = Другой язык
-report-sc-different-language-detail = Это написанр на языке, отличном от того, что я рецензирую.
+report-sc-different-language-detail = Это написано на языке, отличном от того, что я рецензирую.
 sentences-fetch-error = Произошла ошибка при получении предложений
 review-error = При оценке этого предложения произошла ошибка
 # SENTENCE-COLLECTOR-REDIRECT PAGE
