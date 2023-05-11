@@ -943,7 +943,7 @@ target-segment-learn-more = ვრცლად
 ## Contribution Nav Items
 
 contribute-voice-collection-nav-header = ხმოვანი კრებული
-contribute-sentence-collection-nav-header = წინადადებების შეგროვება
+contribute-sentence-collection-nav-header = წინადადების შეგროვება
 
 ## Reporting
 
@@ -1779,7 +1779,7 @@ required-field = გთხოვთ, შეავსოთ ეს ველი.
 sc-review-instruction-first-part = შემოწმება
 sc-review-instruction-second-part = ენობრივად გამართულია თუ არა წინადადება
 sc-review-rules-title = აკმაყოფილებს მითითებულ მოთხოვნებს?
-sc-review-empty-state = ამჟამად ამ ენისთვის შესამოწმებელი წინადადებები არაა.
+sc-review-empty-state = ამ ენისთვის შესამოწმებელი წინადადებები აღარაა.
 report-sc-different-language = განსხვავებული ენა
 report-sc-different-language-detail = დაწერილია ჩემი სასაუბრო ენისგან განსხვავებულ ენაზე.
 sentences-fetch-error = შეცდომა წინადადებების მიღებისას
