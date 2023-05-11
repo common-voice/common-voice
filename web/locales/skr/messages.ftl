@@ -1682,6 +1682,16 @@ sentence =
     .label = جملہ
 citation =
     .label = حوالہ ݙیوݨ
+new-sentence-rule-2 = 15 کنوں تھوڑے لفظ
+new-sentence-rule-3 = درست گرائمر ورتو
+new-sentence-rule-4 = درست ہجے تے رموز اوقاف ورتو
+guidelines = رہنمائی
 contact-us = ساݙے نال رابطہ کرو
+add-sentence-success = 1 جملہ کٹھا تھیا
+required-field = براہ مہربانی ایں خانے کوں پُر کرو۔
 # REVIEW PAGE
 sc-review-instruction-first-part = پڑٹال کرو
+sc-review-instruction-second-part = بھلا ایہ لسانی طور تے درست جملہ ہے؟
+report-sc-different-language = مختلف زبان
+# SENTENCE-COLLECTOR-REDIRECT PAGE
+sc-redirect-page-title = اساں کجھ وݙیاں تبدیلیاں کریندے پئے ہیں
