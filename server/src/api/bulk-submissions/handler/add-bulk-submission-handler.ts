@@ -2,7 +2,7 @@ import { Request, Response } from 'express'
 import { StatusCodes } from 'http-status-codes'
 import { AddBulkSubmissionCommand } from '../../../application/bulk-submissions/use-case/command-handler/command/add-bulk-submission-command'
 import { Readable } from 'stream'
-import { AddBulkSubmissionCommandHandler } from '../../../application/bulk-submissions/use-case/command-handler/add-bulk-submission-command-handler'
+import { addBulkSubmissionCommandHandler } from '../../../application/bulk-submissions/use-case/command-handler/add-bulk-submission-command-handler'
 import { pipe } from 'fp-ts/lib/function'
 import { task as T, taskEither as TE } from 'fp-ts'
 import { createPresentableError } from '../../../application/helper/error-helper'
@@ -36,14 +36,11 @@ export const addBulkSubmissionHandler = async (req: Request, res: Response) => {
 
   return pipe(
     cmd,
-    AddBulkSubmissionCommandHandler,
+    addBulkSubmissionCommandHandler,
     TE.mapLeft(createPresentableError),
     TE.fold(
       err => T.of(res.status(StatusCodes.INTERNAL_SERVER_ERROR).json(err)),
-      () =>
-        T.of(
-          res.status(StatusCodes.OK).json({ message: 'Bulk submission added' })
-        )
+      () => T.of(res.json({ message: 'Bulk submission added' }))
     )
   )()
 }

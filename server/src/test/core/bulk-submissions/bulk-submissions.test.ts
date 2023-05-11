@@ -1,12 +1,13 @@
-import { ReadStream } from 'fs'
-// import * as fs from 'fs'
-// import * as path from 'path'
-// import { createMd5HashFromStream } from '../../../core/bulk-submissions/bulk-submissions'
+import { createBulkSubmissionFilepath } from "../../../core/bulk-submissions/bulk-submissions"
 
-// describe('Bulk Submission Functionality', () => {
-//   it('should create md5 hash', async () => {
-//     const stream = fs.createReadStream(path.join(__dirname, 'fixtures/bulk-submission-upload.tsv'))
-//     const result = await createMd5HashFromStream(stream)
-//     expect(result).toBe('c43ede27c3679822e10b01a1ecf7dde3')
-//   })
-// })
+describe('Bulk submission module', () => {
+    it('should return correct filepath', () => {
+        const locale = 'en'
+        const data = 'Sentence\tSource\nHi, how are you?\tself\n'
+        
+        const result = createBulkSubmissionFilepath(locale, data)
+        const expected = 'en/bulk_submission_1664b29821df5b0925f9645c028bbf44.tsv'
+
+        expect(result).toBe(expected)
+    })
+})

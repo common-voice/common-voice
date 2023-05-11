@@ -49,9 +49,8 @@ const insertBulkSubmission =
         const statusId = rows
           .map(status => status.id)
           .reduce((_, statusId) => statusId)
-            console.log('LocaleID:', bulkSubmission.localeId)
-        console.log('StatusId: ', statusId)
-        ;(await db.query(createInsertQuery(), [
+
+        await db.query(createInsertQuery(), [
           statusId,
           bulkSubmission.localeId,
           bulkSubmission.size,
@@ -59,7 +58,7 @@ const insertBulkSubmission =
           bulkSubmission.name,
           bulkSubmission.submitter,
           bulkSubmission.importStatus,
-        ])) as unknown
+        ])
 
         return true
       },
