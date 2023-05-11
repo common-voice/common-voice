@@ -5,6 +5,8 @@ import SingleSubmissionWrite from './single-submission-write/single-submission-w
 import BulkSubmissionWrite from './bulk-submission-write/bulk-submission-write'
 import SentenceCollectorToggle from '../sentence-colector-toggle'
 
+import { useAccount } from '../../../../../hooks/store-hooks'
+
 import './write-container.css'
 
 export type WriteSubmissionToggleOptions = 'single' | 'bulk'
@@ -17,17 +19,24 @@ const WriteContainer = () => {
     setActiveWriteOption(option)
   }
 
+  const account = useAccount()
+
   return (
     <div className="write-container">
-      <div className="sc-toggle">
-        <SentenceCollectorToggle
-          singleOptionId="single-sentence-submission"
-          bulkOptionId="bulk-sentence-submission"
-          onToggle={handleToggle}
-          activeOption={activeWriteOption}
-        />
-      </div>
-      <SentenceCollectionWrapper dataTestId="write-page" type="write">
+      {account && (
+        <div className="sc-toggle">
+          <SentenceCollectorToggle
+            singleOptionId="single-sentence-submission"
+            bulkOptionId="bulk-sentence-submission"
+            onToggle={handleToggle}
+            activeOption={activeWriteOption}
+          />
+        </div>
+      )}
+      <SentenceCollectionWrapper
+        dataTestId="write-page"
+        type="write"
+        extraClassName={account ? 'logged-in' : ''}>
         {activeWriteOption === 'single' ? (
           <SingleSubmissionWrite />
         ) : (
