@@ -1607,6 +1607,11 @@ reviewing-sentences-explanation-1 = Εάν η πρόταση πληροί τα �
 reviewing-sentences-explanation-2 = Εάν η πρόταση δεν πληροί τα παραπάνω κριτήρια, κάντε κλικ στο κουμπί «Όχι».
 reviewing-sentences-explanation-4 = Εάν ξεμείνετε από προτάσεις για έλεγχο, παρακαλούμε βοηθήστε μας να συγκεντρώσουμε περισσότερες προτάσεις!
 community-announcement-header = Ανακοίνωση κοινότητας!
+citation =
+    .label = Παράθεση
+contact-us = Επικοινωνία
+report-sc-different-language = Διαφορετική γλώσσα
+review-error = Προέκυψε σφάλμα κατά τον έλεγχο αυτής της πρότασης
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = Κάνουμε κάποιες μεγάλες αλλαγές
 sc-redirect-page-subtitle-2 = Κάντε μας ερωτήσεις στο <matrixLink>Matrix</matrixLink>, το <discourseLink>Discourse</discourseLink> ή μέσω <emailLink>email</emailLink>.
