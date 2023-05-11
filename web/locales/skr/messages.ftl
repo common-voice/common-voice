@@ -1693,6 +1693,7 @@ required-field = براہ مہربانی ایں خانے کوں پُر کرو۔
 # REVIEW PAGE
 sc-review-instruction-first-part = پڑٹال کرو
 sc-review-instruction-second-part = بھلا ایہ لسانی طور تے درست جملہ ہے؟
+sc-review-rules-title = بھلا جملہ ہدایات دے مطابق ہے؟
 sc-review-empty-state = ایں زبان وچ نظرثانی کیتے ایں ویلے کوئی جملے کائنی۔
 report-sc-different-language = مختلف زبان
 # SENTENCE-COLLECTOR-REDIRECT PAGE
