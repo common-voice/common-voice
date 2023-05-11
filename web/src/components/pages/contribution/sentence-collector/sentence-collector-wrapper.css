@@ -29,7 +29,7 @@
             }
         }
 
-        & .write {
+        & .write.logged-in {
             margin-left: 0;
 
             @media (--lg-up) {

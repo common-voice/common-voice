@@ -1,4 +1,4 @@
-import React, { useCallback } from 'react'
+import React, { useCallback, useState } from 'react'
 import { useDropzone } from 'react-dropzone'
 import { Localized } from '@fluent/react'
 
@@ -19,15 +19,33 @@ import URLS from '../../../../../../urls'
 import './bulk-submission-write.css'
 import { COMMON_VOICE_EMAIL } from '../../../../../../constants'
 
+type UploaderStatus = 'off' | 'waiting' | 'uploading' | 'done'
+
 const BulkSubmissionWrite = () => {
+  const [status, setUploadStatus] = useState<UploaderStatus>('off')
+
+  console.log(status)
+
+  const fakeAPI = () => {
+    setUploadStatus('uploading')
+    return new Promise(resolve => {
+      setTimeout(() => {
+        resolve('Hello world')
+        setUploadStatus('done')
+      }, 6000)
+    })
+  }
   // TODO: move this to useFileUpload hook
   const onDrop = useCallback((acceptedFiles: File[]) => {
+    setUploadStatus('waiting')
     console.log({ acceptedFiles })
+    fakeAPI()
   }, [])
 
-  const { getRootProps, getInputProps, isDragActive } = useDropzone({ onDrop })
-
-  console.log({ inputProps: getInputProps() })
+  const { getRootProps, getInputProps, isDragActive } = useDropzone({
+    onDrop,
+    accept: { 'text/tab-separated-values': ['.tsv'] },
+  })
 
   return (
     <div className="bulk-upload-container">

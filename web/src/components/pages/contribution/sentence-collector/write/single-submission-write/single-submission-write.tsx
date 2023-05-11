@@ -173,7 +173,7 @@ const SingleSubmissionWrite: React.FC<SingleSubmissionWriteProps> = ({
           <LabeledCheckbox
             label={
               <Localized
-                id="sc-submit-confirm"
+                id="sc-write-submit-confirm"
                 elems={{
                   wikipediaLink: (
                     <a
