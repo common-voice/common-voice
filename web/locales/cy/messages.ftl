@@ -895,6 +895,8 @@ action-click = Cliciwch
 action-tap = Tapiwch
 contribute = Cyfrannu
 listen = Gwrando
+write = Ysgrifennu
+review = Adolygu
 skip = Hepgor
 shortcuts = Llwybrau Byr
 clips-with-count-pluralized =
@@ -962,6 +964,7 @@ target-segment-learn-more = Dysgu Rhagor
 ## Contribution Nav Items
 
 contribute-voice-collection-nav-header = Casglu Lleisiau
+contribute-sentence-collection-nav-header = Casglu Brawddegau
 
 ## Reporting
 
@@ -1781,6 +1784,16 @@ reviewing-sentences-explanation-3 = Os ydych chi'n ansicr am y frawddeg, gallwch
 reviewing-sentences-explanation-4 = Os ydych chi'n rhedeg allan o frawddegau i'w hadolygu, helpwch ni i gasglu mwy o frawddegau!
 community-announcement-header = Cyhoeddiad cymunedol!
 community-announcement-explanation = Mae'r canllawiau isod ar gyfer nodweddion newydd y casglwr brawddegau a fydd yn cael eu hintegreiddio i lwyfan craidd Common Voice yn ystod misoedd Mawrth ac Ebrill 2023. Yn y cyfamser gallwch ddefnyddio'r teclyn blaenorol, <scLink>https://commonvoice.mozilla.org/ casglwr brawddegau/ </scLink>.
+# WRITE PAGE
+write-instruction-second-part = brawddeg parth cyhoeddus
+write-page-subtitle = Bydd brawddegau sy'n cael eu cyfrannu yma yn cael eu hychwanegu at set ddata drwyddedig cc-0 sydd ar gael yn gyhoeddus.
+sentence =
+    .label = Brawddeg
+sentence-input-value = Rhowch eich brawddeg parth cyhoeddus yma
+citation-input-value = Ffynhonnell eich brawddeg
+citation =
+    .label = Dyfyneb
+what-can-i-add = Pa fathau o frawddegau y gallaf eu hychwanegu?
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = Rydym yn gwneud rhai newidiadau mawr
 sc-redirect-page-subtitle-1 = Mae'r Casglwr Brawddegau yn symud i lwyfan craidd Common Voice. Nawr gallwch <writeURL>ysgrifennu</writeURL> brawddeg neu <reviewURL>adolygu</reviewURL> brawddeg unigol wedi eu cyflwyno ar Common Voice.
