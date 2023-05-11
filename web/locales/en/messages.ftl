@@ -1697,6 +1697,7 @@ sentence-input-value = Enter your public domain sentence here
 citation-input-value = Source of your sentence
 citation = 
     .label = Citation
+sc-write-submit-confirm = I confirm that this sentence is <wikipediaLink>public domain</wikipediaLink> and I have permission to upload it.
 sc-review-write-title = What sentences can I add?
 new-sentence-rule-1 = <noCopyright>No copyright</noCopyright> restrictions (<cc0>cc-0</cc0>)
 new-sentence-rule-2 = Fewer than 15 words per sentence
