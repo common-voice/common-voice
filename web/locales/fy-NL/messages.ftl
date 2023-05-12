@@ -1796,6 +1796,13 @@ add-sentence-error = Flater by it tafoegjen fan sin
 required-field = Folje dit fjild yn.
 # REVIEW PAGE
 sc-review-instruction-first-part = Kontrolearje
+sc-review-instruction-second-part = is dit in taalkundich korrekte sin?
+sc-review-rules-title = Foldocht de sin oan de rjochtlinen?
+sc-review-empty-state = Der binne op it stuit gjin sinnen om te beoardielen yn dizze taal.
+report-sc-different-language = Oare taal
+report-sc-different-language-detail = It is skreaun yn in oare taal dan hokker ik oan it beoardielen bin.
+sentences-fetch-error = Der is in flater bard by it opheljen fan sinnen
+review-error = Der is in flater bard by it beoardielen fan dizze sin
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = Wy fiere inkelde grutte feroaringen troch
 sc-redirect-page-subtitle-1 = De Sentence Collector ferhuzet nei de kearn fan it Common Voice-platfoarm. Jo kinne no in sin <writeURL>skriuwe</writeURL> of ynstjoeringen fan losse sinnen <reviewURL>beoardiele</reviewURL> op Common Voice.
