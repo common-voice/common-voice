@@ -354,6 +354,7 @@ review-delete-recordings = ܫܘܦ ܡܟܬܒܢܘܬܝ
 
 ## Datasets Page
 
+datasets-heading = ܣܕܪ̈ܐ ܫܘܘܕܥ̈ܝܐ
 validated-hours = ܫܥ̈ܐ ܫܪܝܪ̈ܐ
 
 ## Download Modal
