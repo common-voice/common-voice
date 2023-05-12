@@ -1709,6 +1709,7 @@ sc-review-empty-state = No momento, não há frases a revisar neste idioma.
 report-sc-different-language = Outro idioma
 report-sc-different-language-detail = Está escrito em um idioma diferente do que estou revisando.
 sentences-fetch-error = Ocorreu um erro ao buscar frases
+review-error = Ocorreu um erro ao revisar esta frase
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = Estamos a fazer grandes mudanças
 sc-redirect-page-subtitle-1 = O coletor de frases está migrando para a plataforma principal do Common Voice. Agora você pode <writeURL>escrever</writeURL> uma frase ou <reviewURL>revisar</reviewURL> envios de uma única frase no Common Voice.

@@ -10,8 +10,6 @@
             var(--desert-storm)
         );
 
-        height: calc(100% - 135px);
-        
         @media (--xl-up) {
             overflow: auto;
         }
@@ -23,7 +21,7 @@
             max-width: var(--wide-desktop-width);
 
             @media (--lg-up) {
-                padding: 50px 20px 10px;
+                padding: 2rem 1rem 0.5rem;
             }
 
             @media (--sm-down) {
@@ -42,16 +40,16 @@
         & .instruction {
             display: flex;
             margin: 2vh auto;
-    
+
             svg {
                 margin: 0 8px;
-    
+
                 @media (--xs-down) {
                     width: 16px;
                     height: 16px;
                 }
             }
-    
+
             @media (--xs-down) {
                 font-size: var(--font-size-xs);
                 margin-bottom: 16px;

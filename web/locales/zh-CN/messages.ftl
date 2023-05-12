@@ -860,6 +860,7 @@ action-click = 点击
 action-tap = 点按
 contribute = 参与贡献
 listen = 聆听
+write = 撰写
 review = 审核
 skip = 跳过
 shortcuts = 快捷键
@@ -920,6 +921,7 @@ target-segment-learn-more = 详细了解
 ## Contribution Nav Items
 
 contribute-voice-collection-nav-header = 收集语音
+contribute-sentence-collection-nav-header = 语句集合
 
 ## Reporting
 
@@ -1635,9 +1637,41 @@ reviewing-sentences-explanation-3 = 若您没有把握判断，可以跳过当�
 reviewing-sentences-explanation-4 = 若您已经没有句子可以审核了，请帮助我们收集更多句子！
 community-announcement-header = 社区公告
 community-announcement-explanation = 以下指南适用于新的语句收集工具功能，该功能将于 2023 年 3 月至 4 月开始集成到 Common Voice 主平台。在此之前，您可以使用原来的工具，即 <scLink>https://commonvoice.mozilla.org/sentence-collector/</scLink>。
+# WRITE PAGE
+write-instruction-second-part = 公有领域的语句
+write-page-subtitle = 此处贡献的语句将被添加到采用 cc-0 许可证的公开数据集中。
+sentence =
+    .label = 语句
+sentence-input-value = 请在此输入您的公有领域语句
+citation-input-value = 语句的来源
 citation =
     .label = 引用
+what-can-i-add = 我可以添加什么样的语句？
+new-sentence-rule-1 = <noCopyright>无版权</noCopyright>限制（<cc0>cc-0</cc0>）
+new-sentence-rule-2 = 少于 15 个字
+new-sentence-rule-3 = 使用正确的语法
+new-sentence-rule-4 = 使用正确的拼写和标点符号
+new-sentence-rule-5 = 没有数字和特殊字符
+new-sentence-rule-6 = 没有外国字母
+new-sentence-rule-7 = 引用恰当
+new-sentence-rule-8 = 语句通俗自然（便于阅读）
+how-to-cite = 如何引用？
+how-to-cite-explanation-bold = 引用 URL 链接或作品全名。
+how-to-cite-explanation = 如果是您自己的话，您只需注明<italicizedText>“Self Citation”</italicizedText>。我们需要知道您在哪里得到这些内容，以便检查它是否在公有领域并且无版权限制。有关引用的更多信息，请参阅我们的<guidelinesLink>准则页面</guidelinesLink>。
+guidelines = 准则
+contact-us = 联系我们
+add-sentence-success = 已收集 1 条语句
+add-sentence-error = 添加语句时报错
+required-field = 请填写此字段。
+# REVIEW PAGE
+sc-review-instruction-first-part = 检查
+sc-review-instruction-second-part = 这是一个符合语言习惯的句子吗？
 sc-review-rules-title = 该语句是否符合准则？
+sc-review-empty-state = 该语言目前没有需要审核的语句。
+report-sc-different-language = 其他语言
+report-sc-different-language-detail = 它与我正在审查的语言不同。
+sentences-fetch-error = 获取语句时出错
+review-error = 审阅语句时发生错误
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = 重磅更新
 sc-redirect-page-subtitle-1 = 语句收集工具已迁移到 Common Voice 主平台，您现在可以直接在 Common Voice 上<writeURL>撰写</writeURL>和<reviewURL>审核</reviewURL>语句。

@@ -877,6 +877,8 @@ action-click = Κάντε κλικ
 action-tap = Πατήστε
 contribute = Συνεισφορά
 listen = Ακρόαση
+write = Σύνταξη
+review = Έλεγχος
 skip = Παράλειψη
 shortcuts = Συντομεύσεις
 clips-with-count-pluralized =
@@ -944,6 +946,7 @@ target-segment-learn-more = Μάθετε περισσότερα
 ## Contribution Nav Items
 
 contribute-voice-collection-nav-header = Φωνητική συλλογή
+contribute-sentence-collection-nav-header = Συλλογή προτάσεων
 
 ## Reporting
 
@@ -1584,6 +1587,8 @@ volume = Ένταση
 reader-effects = Εφέ ανάγνωσης
 just-unsure = Δεν γνωρίζετε;
 example = Παράδειγμα
+misreadings-explanation-5 = Ανάγνωση εκθλίψεων που δεν υπάρχουν στο κείμενο, όπως «Μ' αρέσει» αντί για «Μου αρέσει» ή το αντίστροφο.
+misreadings-explanation-6 = Λείπει το τέλος της τελευταίας λέξης λόγω της πρόωρης διακοπής της ηχογράφησης.
 misreadings-explanation-7 = Γίνονται πολλές προσπάθειες για την ανάγνωση μιας λέξης.
 misreadings-example-4 = Η μέλισσα πέταξε γρήγορα.
 misreadings-tip-3 = [Εσφαλμένο περιεχόμενο]
@@ -1607,6 +1612,11 @@ reviewing-sentences-explanation-1 = Εάν η πρόταση πληροί τα �
 reviewing-sentences-explanation-2 = Εάν η πρόταση δεν πληροί τα παραπάνω κριτήρια, κάντε κλικ στο κουμπί «Όχι».
 reviewing-sentences-explanation-4 = Εάν ξεμείνετε από προτάσεις για έλεγχο, παρακαλούμε βοηθήστε μας να συγκεντρώσουμε περισσότερες προτάσεις!
 community-announcement-header = Ανακοίνωση κοινότητας!
+citation =
+    .label = Παράθεση
+contact-us = Επικοινωνία
+report-sc-different-language = Διαφορετική γλώσσα
+review-error = Προέκυψε σφάλμα κατά τον έλεγχο αυτής της πρότασης
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = Κάνουμε κάποιες μεγάλες αλλαγές
 sc-redirect-page-subtitle-2 = Κάντε μας ερωτήσεις στο <matrixLink>Matrix</matrixLink>, το <discourseLink>Discourse</discourseLink> ή μέσω <emailLink>email</emailLink>.

@@ -1678,10 +1678,36 @@ reviewing-sentences-explanation-2 = جے جملے اُتلے معیار تے پ�
 reviewing-sentences-explanation-3 = جے تہاکوں جملے بارے پک کائنی تاں تساں ایں کوں چھوڑ تے اڳلے جملے تے ون٘ڄ سڳدے ہو۔
 reviewing-sentences-explanation-4 = جے تہاݙے کول نظرثانی کیتے جملے کائنی تاں سوہݨا، ٻئے جملے کٹھے کرݨ وچ ساݙی مدد کرو!
 community-announcement-header = برادری اعلانات!
+# WRITE PAGE
+write-instruction-second-part = عوامی ڈومین جملہ
 sentence =
     .label = جملہ
+sentence-input-value = آپݨاں عوامی ڈومین جملہ اتھ درج کرو
+citation-input-value = تہاݙے جملے دا ماخذ
 citation =
     .label = حوالہ ݙیوݨ
+what-can-i-add = میں کہڑی قسم دے جملے شامل کر سڳداں؟
+new-sentence-rule-1 = <noCopyright>کوئی حق نقل</noCopyright>پابندیاں کائنی (<cc0>cc-0</cc0>)
+new-sentence-rule-2 = 15 کنوں تھوڑے لفظ
+new-sentence-rule-3 = درست گرائمر ورتو
+new-sentence-rule-4 = درست ہجے تے رموز اوقاف ورتو
+new-sentence-rule-5 = کوئی عدد یا خاص حروف کائنی
+new-sentence-rule-6 = کوئی پردیسی لفظ کائنی
+new-sentence-rule-7 = مناسب حوالہ شامل کرو
+how-to-cite = میں حوالہ کین٘ویں ݙیواں؟
+guidelines = ہدایات
 contact-us = ساݙے نال رابطہ کرو
+add-sentence-success = 1 جملہ کٹھا تھیا
+add-sentence-error = جملے شامل کرݨ وچ خرابی
+required-field = براہ مہربانی ایں خانے کوں پُر کرو۔
 # REVIEW PAGE
 sc-review-instruction-first-part = پڑٹال کرو
+sc-review-instruction-second-part = بھلا ایہ لسانی طور تے درست جملہ ہے؟
+sc-review-rules-title = بھلا جملہ ہدایات دے مطابق ہے؟
+sc-review-empty-state = ایں زبان وچ نظرثانی کیتے ایں ویلے کوئی جملے کائنی۔
+report-sc-different-language = مختلف زبان
+report-sc-different-language-detail = ایہ میݙی نظرثانی آلی زبان کنوں مختلف زبان لکھا ڳیا ہے۔
+sentences-fetch-error = ایں جملے دے واپس ولݨ وچ خرابی تھی ڳئی
+review-error = ایں جملے دی نظرثانی وچ خرابی تھی ڳئی
+# SENTENCE-COLLECTOR-REDIRECT PAGE
+sc-redirect-page-title = اساں کجھ وݙیاں تبدیلیاں کریندے پئے ہیں

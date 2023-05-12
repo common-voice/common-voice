@@ -1725,6 +1725,7 @@ sc-review-empty-state = Det finns för närvarande inga meningar att granska på
 report-sc-different-language = Annat språk
 report-sc-different-language-detail = Den är skriven på ett annat språk än det jag granskar.
 sentences-fetch-error = Ett fel uppstod när meningar skulle hämtas
+review-error = Ett fel uppstod när den här meningen granskades
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = Vi gör några viktiga förändringar
 sc-redirect-page-subtitle-1 = Meningssamlaren flyttar till kärnplattformen Common Voice. Du kan nu <writeURL>skriva</writeURL> en mening eller <reviewURL>granska</reviewURL> enstaka meningsinlämningar på Common Voice.
