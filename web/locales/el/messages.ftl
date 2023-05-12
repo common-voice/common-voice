@@ -139,6 +139,7 @@ nb-NO = Νορβηγικά (Bokmål)
 nd = IsiNdebele (Βόρεια)
 ne-NP = Νεπαλικά
 nhe = Ανατολικά Νάουατλ (Χουαστέκα)
+nhi = Ναχουάτλ Δυτικής Σιέρρα Πουέμπλα
 nia = Νας
 nl = Ολλανδικά
 nn-NO = Νορβηγικά (Nynorsk)
@@ -1562,6 +1563,7 @@ partnerships-foundations-header = Ιδρύματα
 partnerships-governments-header = Kυβερνήσεις
 partnerships-academia-header = Πανεπιστήμια, ακαδημαϊκοί και ερευνητές
 partnerships-small-business-header = Μικρές επιχειρήσεις, όπως νεοφυείς επιχειρήσεις τεχνολογίας και τεχνητής νοημοσύνης
+partnerships-corporates-header = Εταιρείες μεγάλης κλίμακας και εταιρείες πλατφόρμας
 partnerships-our-partners = Οι συνεργάτες μας
 # FIRST POST SUBMISSION CTA
 first-cta-header-text = Σας ευχαριστούμε για τη δωρεά των φωνητικών σας αρχείων!
@@ -1570,8 +1572,10 @@ why-donate = Γιατί ρωτάτε;
 add-information-button = Προσθήκη πληροφοριών
 create-profile-text = Θέλετε να αποθηκεύσετε τις πληροφορίες σας; <createProfile>Δημιουργήστε ένα προφίλ</createProfile>
 thanks-for-voice-toast = Σας ευχαριστούμε για τις πληροφορίες της ομιλίας σας
+thanks-for-voice-toast-error = Προέκυψε σφάλμα κατά την υποβολή των φωνητικών πληροφοριών σας
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = Σας ευχαριστούμε που συνεισφέρετε τη φωνή σας!
+second-cta-subtitle-text = Με ένα προφίλ, μπορείτε να παρακολουθείτε τη δραστηριότητά σας και να συνδεθείτε με μια κοινότητα εθελοντών φωνητικών δεδομένων.
 already-have-an-account = Έχετε ήδη λογαριασμό; <login>Σύνδεση</login>
 create-profile-button = Δημιουργία προφίλ
 # IMAGE TAGS
