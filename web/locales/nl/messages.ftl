@@ -1792,6 +1792,7 @@ sc-review-empty-state = Er zijn momenteel geen zinnen om te beoordelen in deze t
 report-sc-different-language = Andere taal
 report-sc-different-language-detail = Het is geschreven in een andere taal dan die ik aan het beoordelen ben.
 sentences-fetch-error = Er is een fout opgetreden bij het ophalen van zinnen
+review-error = Er is een fout opgetreden bij het beoordelen van deze zin
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = We voeren enkele grote veranderingen door
 sc-redirect-page-subtitle-1 = De Sentence Collector verhuist naar de kern van het Common Voice-platform. U kunt nu een zin <writeURL>schrijven</writeURL> of inzendingen van losse zinnen <reviewURL>beoordelen</reviewURL> op Common Voice.
