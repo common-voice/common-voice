@@ -367,9 +367,33 @@ english = Angilɛkan
 
 profile-form-username =
     .label = Baarakɛla tɔgɔ
+profile-form-native-language =
+    .label = Fasokan
+profile-form-additional-language =
+    .label = Kan wɛrɛw
+profile-form-language =
+    .label = Kanw
+profile-form-variant =
+    .label = I bɛ {{ $language }} suguya jumɛn fɔ?
+profile-form-variant-default-value = A suguya si ma sugandi
+profile-form-accent =
+    .label = Fɔcogo
 profile-form-custom-accent-help-text =
     .label = I bɛna i ka kuma fɔcogo ɲɛfɔ cogo di?
 profile-form-custom-accent-placeholder-2 = A daminɛ ka sɛbɛnni kɛ walasa k’i ka kumakan ɲɛfɔ
+profile-form-age =
+    .label = Si
+profile-form-gender-2 =
+    .label = Cɛya walima musoya
+leaderboard-visibility =
+    .label = Kunnafoni ɲɛmɔgɔyaso yecogo
+hidden = Dogolen
+visible = A bɛ ye
+native-language =
+    .label = Fasokan
+why-profile-text =
+    Ni i ye kunnafoni dɔw di i yɛrɛ kan, i bɛ kunnafoni lamɛntaw minnu ci Common Voice ma, olu nafa bɛna bonya kosɛbɛ Kuma ma
+    Dɔnniya-minɛn minnu bɛ baara Kɛ ni o kunnafoniw ye walasa k’u ka tiɲɛni ɲɛ.
 why-demographic-explanation-2 = Baarakɛlaw ka kunnafoniw minnu tɔgɔ ma fɔ i n’a fɔ u si hakɛ, cɛya ni musoya ani u fɔcogo, olu bɛ dɛmɛ ka kunnafoni lamɛntaw ɲɛ, minnu bɛ kɛ ka kuma dɔnni masinw ka tiɲɛni dege. I ka baarakɛla tɔgɔ ni i ka imeyili tɛna jɛ abada i ka kunnafoniw cilenw na, wa i bɛ se k’a sugandi n’i bɛna i ka baarakɛla tɔgɔ kɛ foroba la walima n’i tɔgɔ tɛ fɔ.
 help-accent-explanation = I ka fɔcogo ye i bɛ daɲɛw fɔcogo minna. O bɛ sɔrɔ  I sigiyɔrɔ  fɛ , i bɛ kan wɛrɛ minnu fɔ ani fɛn caman wɛrɛw. Aw bɛ se ka kunnafoni bɛɛ lase yan aw hakili la min bɛ se ka mago ɲɛ.
 
