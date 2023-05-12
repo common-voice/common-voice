@@ -1742,4 +1742,4 @@ select-file = Select File
 accepted-files = Accepted file types: .csv only
 maximum-file-size = Maximum file size: 8 mb
 what-needs-to-be-in-file = What needs to be in my file?
-what-needs-to-be-in-file-explanation = Please check our template file
+what-needs-to-be-in-file-explanation = Please check our template file. Your sentences should be copyright free (CC0 or permissioned original work by the submitter) and be clear, grammatically correct and easy to read. Submitted sentences should take roughly 10-15 seconds to read and should avoid including numbers, proper nouns and special characters.
