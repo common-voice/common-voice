@@ -1,6 +1,6 @@
 All the sentences read by our contributors are sourced from copyright free sources, either through automated sourcing from known sources like Wikipedia or contributed by our language communities.
 
-If you want to add a single sentence, or a series of single sentences, you can do so via the [Sentence Collector](link to new blog post). But when you have a large volume of sentences to contribute, you can make a bulk sentence submission using GitHub.
+If you want to add a single sentence, or a series of single sentences, you can do so via the [Sentence Collector](https://foundation.mozilla.org/en/blog/the-new-common-voice-sentence-collector/). But when you have a large volume of sentences to contribute, you can make a bulk sentence submission using GitHub.
 
 Remember that for both single sentence and bulk sentence submissions, sentences must:
 - Be in the public domain, with a CC0 license
