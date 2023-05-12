@@ -394,7 +394,14 @@ native-language =
 why-profile-text =
     Ni i ye kunnafoni dɔw di i yɛrɛ kan, i bɛ kunnafoni lamɛntaw minnu ci Common Voice ma, olu nafa bɛna bonya kosɛbɛ Kuma ma
     Dɔnniya-minɛn minnu bɛ baara Kɛ ni o kunnafoniw ye walasa k’u ka tiɲɛni ɲɛ.
+dashboard = Bulonba
+profile-explanation = Aw ye aw ka ɲɛtaa jateminɛ ni kunnafonisɛbɛn ye ani ka an ka kumakan kunnafoniw dɛmɛ u ka kɛ tiɲɛ ye.
+thanks-for-account = Aw ni ce aw ka jatebɔ la, sisan an k'aw ka profil jɔ.
+why-demographic = Mun na o nafa ka bon?
 why-demographic-explanation-2 = Baarakɛlaw ka kunnafoniw minnu tɔgɔ ma fɔ i n’a fɔ u si hakɛ, cɛya ni musoya ani u fɔcogo, olu bɛ dɛmɛ ka kunnafoni lamɛntaw ɲɛ, minnu bɛ kɛ ka kuma dɔnni masinw ka tiɲɛni dege. I ka baarakɛla tɔgɔ ni i ka imeyili tɛna jɛ abada i ka kunnafoniw cilenw na, wa i bɛ se k’a sugandi n’i bɛna i ka baarakɛla tɔgɔ kɛ foroba la walima n’i tɔgɔ tɛ fɔ.
+skip-submission-description = Bolomafaraw ci waati la, jaabiw bɛna tɛmɛ ‘Submit’ digilen kɔfɛ. Bolomafara bɛna t’a fɛ k’a ɲɛsin a ma ni fɔlisen 5 walima tiɲɛniw kulu nata ye.
+skip-submission-note = Kɔlɔsili: I bɛna a ɲini hali bi ka kuma fɔ walima ka Lamɛ walasa ka bolomafara suguya falen.
+off = K'a bɔ a la
 help-accent-explanation = I ka fɔcogo ye i bɛ daɲɛw fɔcogo minna. O bɛ sɔrɔ  I sigiyɔrɔ  fɛ , i bɛ kan wɛrɛ minnu fɔ ani fɛn caman wɛrɛw. Aw bɛ se ka kunnafoni bɛɛ lase yan aw hakili la min bɛ se ka mago ɲɛ.
 
 ## Profile - Email
