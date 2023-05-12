@@ -349,12 +349,14 @@ sentence-collection = ܟܘܢܫܐ ܕܡܡܠ݇ܠܐ
 
 ## Data
 
+dataset-date = ܬܫܥܝܬܐ
 review-cancel = ܒܛܘܠ ܫܕܪܬܐ
 review-delete-recordings = ܫܘܦ ܡܟܬܒܢܘܬܝ
 
 ## Datasets Page
 
 datasets-heading = ܣܕܪ̈ܐ ܫܘܘܕܥ̈ܝܐ
+cv-license = ܦܣܣܐ
 validated-hours = ܫܥ̈ܐ ܫܪܝܪ̈ܐ
 
 ## Download Modal
