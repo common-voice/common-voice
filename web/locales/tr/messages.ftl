@@ -1629,5 +1629,19 @@ reviewing-sentences-explanation-2 = Cümle yukarıdaki ölçütleri karşılamı
 reviewing-sentences-explanation-3 = Cümleden emin değilseniz atlayabilir ve bir sonrakine geçebilirsiniz.
 reviewing-sentences-explanation-4 = İncelenecek cümleler biterse lütfen daha fazla cümle toplamamıza yardım edin!
 community-announcement-header = Topluluk duyurusu!
+sentence =
+    .label = Cümle
+citation-input-value = Cümlenizin kaynağı
+citation =
+    .label = Atıf
+what-can-i-add = Ne tür cümleler ekleyebilirim?
+guidelines = Yönergeler
+add-sentence-success = 1 cümle toplandı
+add-sentence-error = Cümle eklenirken hata oluştu
+required-field = Lütfen bu alanı doldurun.
+# REVIEW PAGE
+sc-review-instruction-first-part = Kontrol et
+sc-review-rules-title = Cümle yönergelere uygun mu?
+sentences-fetch-error = Cümleler getirilirken bir hata oluştu
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = Bazı büyük değişiklikler yapıyoruz
