@@ -36,6 +36,10 @@
         min-height: 84vh;
     }
 
+    @media (--sm-down) {
+        padding-bottom: 20px;
+    }
+
     .button {
         min-width: auto;
 
@@ -221,8 +225,7 @@
     .instruction {
         margin-top: 23px;
         min-height: 23px;
-        font-style: italic;
-        color: var(--near-black);
+        color: var(--dark-grey);
 
         @media (--sm-down) {
             text-align: center;
@@ -286,7 +289,11 @@
 
             @media (--md-up) {
                 max-height: 430px;
-                height: 43vh;
+                height: 31vh;
+            }
+
+            @media (--md-only) {
+                margin-right: 20px
             }
         }
 
@@ -323,6 +330,7 @@
 
         @media (--md-up) {
             flex: 1;
+            display: flex;
         }
 
         .inner {
@@ -336,6 +344,7 @@
             @media (--md-up) {
                 margin-top: 0;
                 margin-inline-start: auto;
+                margin-top: 70px;
                 width: max-content;
                 flex-direction: column;
                 justify-content: flex-start;
@@ -399,11 +408,35 @@
             }
         }
 
+        .guidelines-button {
+            svg {
+                margin-inline-end: 10px;
+                
+                path {
+                    fill: var(--black);
+                }
+            }
+
+            @media (--md-down) {
+                margin-inline-end: 20px;
+            }
+        }
+
+        .shortcuts-btn {
+            padding: 0;
+            width: 60px;
+            margin-inline-end: 0;
+
+            img {
+                margin-inline-end: 0;
+            }
+        }
+
         .skip {
             display: inline-flex;
 
             & svg {
-                margin-inline-start: 13px;
+                margin-inline-end: 13px;
 
                 [dir='rtl'] & {
                     transform: rotateY(180deg);
@@ -449,6 +482,18 @@
                 height: 63px;
                 background-image: linear-gradient(to left, #88d1f1, #b1b5e5);
                 opacity: 0;
+            }
+        }
+
+        .extra-buttons {
+            display: flex;
+
+            & .open-report-button {
+                margin-inline-end: 20px;
+
+                @media (--md-down) {
+                    padding: 0 20px;
+                }
             }
         }
     }
