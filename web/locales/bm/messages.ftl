@@ -341,6 +341,13 @@ shortcut-vote-no = n
 # Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-record-toggle = r
+shortcut-record-toggle-label = Ka kumakan ta/ Ka lajɔ
+shortcut-rerecord-toggle = [1-5]
+shortcut-rerecord-toggle-label = Ka kumakan ta kura ye
+shortcut-discard-ongoing-recording = ESC
+shortcut-discard-ongoing-recording-label = Fɔlisen min bɛ sen na, O tali
+shortcut-submit = Segin
+shortcut-submit-label = Ka kan di
 request-language-text = Aw ma aw ka kan ye Common Voice kan fɔlɔ wa?
 request-language-button = Kan dɔ ɲini
 
@@ -348,9 +355,18 @@ request-language-button = Kan dɔ ɲini
 
 status-title = Porozɛ cogoya bɛɛ lajɛlen : a lajɛ an sera yɔrɔ min na!
 status-contribute = Aw ka dɛmɛ don aw ka kumakan na
+status-hours =
+    kelen   Lɛrɛ kelen validelen don fɔlɔ!
+    dɔ wɛrɛ      { $hours } lɛrɛ dafalenw fo ka na se bi ma!
+# Variables:
+# $goal - number of hours representing the next goal
+status-goal = Laɲini nataw: { $goal } .
+english = Angilɛkan
 
 ## ProfileForm
 
+profile-form-username =
+    .label = Baarakɛla tɔgɔ
 profile-form-custom-accent-help-text =
     .label = I bɛna i ka kuma fɔcogo ɲɛfɔ cogo di?
 profile-form-custom-accent-placeholder-2 = A daminɛ ka sɛbɛnni kɛ walasa k’i ka kumakan ɲɛfɔ
