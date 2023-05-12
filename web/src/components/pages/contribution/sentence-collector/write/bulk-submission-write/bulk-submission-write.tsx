@@ -8,43 +8,25 @@ import {
   QuestionIcon,
   SendIcon,
   UploadIcon,
-  UploadIconLarge,
 } from '../../../../../ui/icons'
 import { Rules } from '../sentence-input-and-rules/rules'
-import { Button, LinkButton } from '../../../../../ui/ui'
+import { LinkButton } from '../../../../../ui/ui'
 import ExpandableInformation from '../../../../../expandable-information/expandable-information'
+import UploadZoneContent from './upload-zone-content'
 
 import URLS from '../../../../../../urls'
+import { COMMON_VOICE_EMAIL } from '../../../../../../constants'
+import useBulkSubmissionUpload from '../../../../../../hooks/use-bulk-submission-upload'
 
 import './bulk-submission-write.css'
-import { COMMON_VOICE_EMAIL } from '../../../../../../constants'
-
-type UploaderStatus = 'off' | 'waiting' | 'uploading' | 'done'
 
 const BulkSubmissionWrite = () => {
-  const [status, setUploadStatus] = useState<UploaderStatus>('off')
-
-  console.log(status)
-
-  const fakeAPI = () => {
-    setUploadStatus('uploading')
-    return new Promise(resolve => {
-      setTimeout(() => {
-        resolve('Hello world')
-        setUploadStatus('done')
-      }, 6000)
-    })
-  }
-  // TODO: move this to useFileUpload hook
-  const onDrop = useCallback((acceptedFiles: File[]) => {
-    setUploadStatus('waiting')
-    console.log({ acceptedFiles })
-    fakeAPI()
-  }, [])
+  const { handleDrop, uploadStatus } = useBulkSubmissionUpload()
 
   const { getRootProps, getInputProps, isDragActive } = useDropzone({
-    onDrop,
+    onDrop: useCallback(handleDrop, []),
     accept: { 'text/tab-separated-values': ['.tsv'] },
+    multiple: false,
   })
 
   return (
@@ -62,30 +44,10 @@ const BulkSubmissionWrite = () => {
               className="upload-dropzone"
               {...getRootProps()}>
               <input data-testid="file-input" {...getInputProps()} />
-              <UploadIconLarge />
-              {isDragActive ? (
-                <Localized id="drop-file-here">
-                  <h2 className="upload-dropzone-instruction" />
-                </Localized>
-              ) : (
-                <Localized id="drag-your-file-here">
-                  <h2 className="upload-dropzone-instruction" />
-                </Localized>
-              )}
-              <Localized id="or-conjuction">
-                <p className="or-conjunction" />
-              </Localized>
-              <Button>
-                <Localized id="select-file" />
-              </Button>
-              <div className="file-restrictions">
-                <Localized id="accepted-files">
-                  <p />
-                </Localized>
-                <Localized id="maximum-file-size">
-                  <p />
-                </Localized>
-              </div>
+              <UploadZoneContent
+                isDragActive={isDragActive}
+                uploadStatus={uploadStatus}
+              />
             </div>
             <div className="expandable-container">
               <ExpandableInformation
