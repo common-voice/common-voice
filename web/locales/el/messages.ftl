@@ -877,6 +877,8 @@ action-click = Κάντε κλικ
 action-tap = Πατήστε
 contribute = Συνεισφορά
 listen = Ακρόαση
+write = Σύνταξη
+review = Έλεγχος
 skip = Παράλειψη
 shortcuts = Συντομεύσεις
 clips-with-count-pluralized =
@@ -944,6 +946,7 @@ target-segment-learn-more = Μάθετε περισσότερα
 ## Contribution Nav Items
 
 contribute-voice-collection-nav-header = Φωνητική συλλογή
+contribute-sentence-collection-nav-header = Συλλογή προτάσεων
 
 ## Reporting
 
@@ -1584,6 +1587,8 @@ volume = Ένταση
 reader-effects = Εφέ ανάγνωσης
 just-unsure = Δεν γνωρίζετε;
 example = Παράδειγμα
+misreadings-explanation-5 = Ανάγνωση εκθλίψεων που δεν υπάρχουν στο κείμενο, όπως «Μ' αρέσει» αντί για «Μου αρέσει» ή το αντίστροφο.
+misreadings-explanation-6 = Λείπει το τέλος της τελευταίας λέξης λόγω της πρόωρης διακοπής της ηχογράφησης.
 misreadings-explanation-7 = Γίνονται πολλές προσπάθειες για την ανάγνωση μιας λέξης.
 misreadings-example-4 = Η μέλισσα πέταξε γρήγορα.
 misreadings-tip-3 = [Εσφαλμένο περιεχόμενο]
