@@ -1253,7 +1253,7 @@ sc-logout-button = Tanca la sessió
 
 ## HOME
 
-sc-home-title = Us donem la benvinguda al Common Voice Sentece Collector
+sc-home-title = Us donem la benvinguda al Common Voice Sentence Collector
 sc-home-intro = El Sentence Collector és part del <commonVoiceLink>Common Voice</commonVoiceLink>. Permet als col·laboradors de recollir i validar frases creades per la comunitat. També podeu usar aquesta eina per a importar i netejar corpus de domini públic de mida petita i mitjana que hàgiu trobat o recollit. Totes les frases han de ser de domini públic. Les frases aprovades s'exporten cada setmana al repositori del Common Voice i són disponibles al lloc web del Common Voice en cada nou desplegament.
 sc-home-collect-title = Recull frases
 sc-home-collect-text = Ajudeu-nos escrivint o recopilant frases de domini públic.
