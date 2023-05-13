@@ -874,6 +874,8 @@ action-click = Feu clic a
 action-tap = Toqueu
 contribute = Col·laboreu‑hi
 listen = Escolta
+write = Redacta
+review = Revisa
 skip = Omet
 shortcuts = Dreceres
 clips-with-count-pluralized =
@@ -941,6 +943,7 @@ target-segment-learn-more = Més informació
 ## Contribution Nav Items
 
 contribute-voice-collection-nav-header = Recollida de veus
+contribute-sentence-collection-nav-header = Recollida de frases
 
 ## Reporting
 
@@ -1672,6 +1675,20 @@ reviewing-sentences-explanation-3 = Si no esteu segur de la frase, també podeu 
 reviewing-sentences-explanation-4 = Si us quedeu sense frases per revisar, ajudeu-nos a recollir-ne més!
 community-announcement-header = Anunci de la comunitat!
 community-announcement-explanation = La guia següent és per a les noves funcions del col·lector de frases, que s'integraran a la plataforma bàsica de Common Voice durant març i abril de 2023. Mentrestant, podeu utilitzar l'eina anterior, <scLink>https://commonvoice.mozilla.org/sentence-collector/</scLink>.
+# WRITE PAGE
+write-instruction-second-part = una frase de domini públic
+write-page-subtitle = Les frases aportades aquí s'afegiran a un conjunt de dades amb llicència cc-0 de domini públic.
+sentence =
+    .label = Frase
+sentence-input-value = Escriviu aquí la vostra frase de domini públic
+citation-input-value = Font de la frase
+citation =
+    .label = Citació
+what-can-i-add = Quins tipus de frases puc afegir?
+new-sentence-rule-1 = <noCopyright>Sense restriccions de drets d'autor</noCopyright> (<cc0>cc-0</cc0>)
+new-sentence-rule-2 = Menys de 15 paraules
+new-sentence-rule-3 = Utilitza una gramàtica correcta
+new-sentence-rule-4 = Utilitza correctament l'ortografia i la puntuació
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = Estem fent alguns canvis importants
 sc-redirect-page-subtitle-1 = El Sentence Collector es trasllada a la plataforma bàsica de Common Voice. Ara podeu <writeURL>escriure</writeURL> una frase o <reviewURL>revisar</reviewURL> enviaments d'una sola frase a Common Voice.
