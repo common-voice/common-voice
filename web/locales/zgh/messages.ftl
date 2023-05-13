@@ -1436,15 +1436,16 @@ localization-select =
     .label = ⴷⵖⵔ ⵜⵓⵜⵍⴰⵢⵜ/ⵜⴰⵙⵙⴷⵖⵔⵜ
 # PARTNERSHIPS PAGE
 partnerships-header = ⵜⵉⵛⵛⵓⵔⴽⵉⵡⵉⵏ
+partnerships-header-text = ⵍⴰ ⵉⵜⵜⴰⵡⵉ ⴽⵉⴳⴰⵏ ⵃⵎⴰ ⴰⴷ ⵢⵉⵍⵉ ⴽⴰⵎⵏⴼⵓⵢⵙ! ⵓⵔ ⵍⴰ ⵜ ⵏⵙⴽⴰⵔ ⵖⴰⵙ ⵏⴽⴽⵏⵉ. ⵜⵅⵙⵎ ⴰⴷ ⴷⵉⴷⵏⵖ ⵜⵎⵛⴰⵔⴰⴽⵎ? ⵏⵔⴰ ⴰⴷ ⴰⵡⵏ ⵏⵙⵙⴼⵍⴷ.
 partnerships-get-in-touch = ⵏⵢⴰⵍⴽⴰⵎ ⴷⵉⴷⵏⵖ
-partnerships-become-a-partner = ⴷⵡⵍ ⴷ ⴰⵎⴷⵔⴰⵡ ⵏ ⴽⴰⵎⵏⴼⵓⵢⵙ
+partnerships-become-a-partner = ⴷⵡⵍ ⴷ ⴰⵎⵛⵛⵔⴽ ⵏ ⴽⴰⵎⵏⴼⵓⵢⵙ
 partnerships-community-header = ⵜⴰⴳⵔⴰⵡⵜ, ⵉⵎⵙⵏⴼⵍⵓⵍⵏ ⴷ ⵡⴰⵎⵓⵏ ⵓⵖⵔⵉⵎ
 partnerships-foundations-header = ⵜⵉⵎⵔⵙⴰⵍ
-partnerships-foundations-description = ⵍⴰ ⵏⵙⵡⵓⵔⵓⵢ ⴰⴽⴷ ⵜⵎⵔⵙⴰⵍ, ⴰⵎⵓⵏ ⵓⵖⵔⵉⵎ ⴷ ⵉⵎⴷⵔⴰⵡⵏ ⵉⴳⵔⴰⵡⴰⵏⵏ ⵃⵎⴰ ⴰⴷ ⵏⵙⴽⵔ ⴳ ⵡⴰⵏⵜⵉⵔⵏⵉⵜ ⵢⴰⵏ ⵓⴷⵖⴰⵔ ⴰⴷⵓⵙⴰⵏ ⵓⴳⴳⴰⵔ, ⵙ ⵜⴰⵡⵏⴰ ⵉⵥⵍⵢⵏ ⵅⴼ ⵉⴼⵔⵉⵇⵢⴰ ⵏ ⵉⵎⵉⵏⵉⴽ. ⵙⵙⵏ ⵓⴳⴳⴰⵔ ⵅⴼ <programmaticWork>ⵜⵡⵓⵔⵉ ⵜⴰⵖⴰⵡⴰⵙⴰⵏⵜ</programmaticWork> ⵏⵏⵖ.
+partnerships-foundations-description = ⵍⴰ ⵏⵙⵡⵓⵔⵓⵢ ⴰⴽⴷ ⵜⵎⵔⵙⴰⵍ, ⴰⵎⵓⵏ ⵓⵖⵔⵉⵎ ⴷ ⵉⵎⵛⵛⵔⴽⵏ ⵉⴳⵔⴰⵡⴰⵏⵏ ⵃⵎⴰ ⴰⴷ ⵏⵙⴽⵔ ⴳ ⵡⴰⵏⵜⵉⵔⵏⵉⵜ ⵢⴰⵏ ⵓⴷⵖⴰⵔ ⴰⴷⵓⵙⴰⵏ ⵓⴳⴳⴰⵔ, ⵙ ⵜⴰⵡⵏⴰ ⵉⵥⵍⵢⵏ ⵅⴼ ⵉⴼⵔⵉⵇⵢⴰ ⵏ ⵉⵎⵉⵏⵉⴽ. ⵙⵙⵏ ⵓⴳⴳⴰⵔ ⵅⴼ <programmaticWork>ⵜⵡⵓⵔⵉ ⵜⴰⵖⴰⵡⴰⵙⴰⵏⵜ</programmaticWork> ⵏⵏⵖ.
 partnerships-governments-header = ⵜⵉⵏⴱⴰⴹⵉⵏ
 partnerships-governments-description = ⵏⴱⵓⵔⵣ ⴰⴷ ⵏⴻⵏⵏⴰⵍ ⴰⵙⵓⵖⵏ ⵏ ⵢⵉⴳⵔ ⴰⴳⴷⵓⴷⴰⵏ ⴳ ⵜⴻⵜⵉⴽⵏⵓⵍⵓⵊⵉⵜ, ⴰⵙⵏⴼⵍⵓⵍ ⴷ ⵉⵣⵔⴼⴰⵏ ⵏ ⵜⵓⵜⵍⴰⵢⵜ. ⵎⴽ ⵍⴰ ⵜⵙⵖⵉⵡⵉⵙⴷ ⴰⴷ ⵜⵕⵥⵎⴷ ⵉ ⴽⵔⴰ ⵏ ⵓⵙⵏⴼⴰⵔ ⵏⵉⵖ ⴰⵎⵣⵉⵣⵣⵍ ⵉⵎⵇⵇⵔⴰⵏⵏ, ⵎⴽ ⵜⵓⴼⵉⴷ, <emailFragment>ⵏⵢⴰⵍⴽⴰⵎ ⴷⵉⴷⵏⵖ.</emailFragment>
 partnerships-academia-header = ⵜⵉⵙⴷⴰⵡⵉⵢⵉⵏ, ⵉⵎⵙⴷⴰⵡⵉⵢⵏ ⴷ ⵉⵎⵔⵣⴰ
-partnerships-our-partners = ⵉⵎⴷⵔⴰⵡⵏ ⵏⵏⵖ
+partnerships-our-partners = ⵉⵎⵛⵛⵔⴽⵏ ⵏⵏⵖ
 # FIRST POST SUBMISSION CTA
 first-cta-header-text = ⵜⴰⵏⵎⵎⵉⵔⵜ ⵅⴼ ⵜⵉⴽⴽⵉ ⵏ ⵜⵓⵙⵙⵉⴼⵉⵏ ⵜⵉⴳⵕⴹⴰⵏⵉⵏ ⵏⵏⵓⵏ!
 first-cta-subtitle-text = ⵉⵙ ⵜⵔⵉⴷ ⴰⴷ ⵜⴱⴹⵓⴷ ⴽⵔⴰ ⵏ ⵉⵏⵖⵎⵉⵙⵏ ⵅⴼ ⵎⴰⵏⵎⴽ ⵍⴰ ⵜⵙⴰⵡⴰⵍⴷ?
