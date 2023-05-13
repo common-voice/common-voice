@@ -1727,6 +1727,7 @@ sc-review-empty-state = Jelenleg nincsenek ellenőrizendő mondatok ezen a nyelv
 report-sc-different-language = Más nyelv
 report-sc-different-language-detail = Ez más nyelven íródott, mint amit ellenőrzök.
 sentences-fetch-error = Hiba történt a mondatok lekérése során
+review-error = Hiba történt a mondat ellenőrzése során
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = Néhány nagy változtatást vezetünk be
 sc-redirect-page-subtitle-1 = A mondatgyűjtő átköltözik a központi Common Voice platformra. Mostantól a Common Voice-on <writeURL>írhat</writeURL> mondatokat vagy <reviewURL>ellenőrizheti</reviewURL> az egymondatos beküldéseket.
