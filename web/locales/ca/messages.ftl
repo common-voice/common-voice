@@ -1677,7 +1677,7 @@ community-announcement-header = Anunci de la comunitat!
 community-announcement-explanation = La guia següent és per a les noves funcions del col·lector de frases, que s'integraran a la plataforma bàsica de Common Voice durant març i abril de 2023. Mentrestant, podeu utilitzar l'eina anterior, <scLink>https://commonvoice.mozilla.org/sentence-collector/</scLink>.
 # WRITE PAGE
 write-instruction-second-part = una frase de domini públic
-write-page-subtitle = Les frases aportades aquí s'afegiran a un conjunt de dades amb llicència cc-0 de domini públic.
+write-page-subtitle = Les frases aportades aquí s'afegiran a un conjunt de dades disponible públicament amb llicència cc-0.
 sentence =
     .label = Frase
 sentence-input-value = Escriviu aquí la vostra frase de domini públic
