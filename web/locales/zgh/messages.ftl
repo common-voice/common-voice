@@ -820,6 +820,7 @@ request-language-error =
 ## Languages Overview
 
 language-section-in-progress = ⴳ ⵡⴰⵍⴰⵢ
+language-section-in-progress-new-description = ⵍⵍⴰⵏⵜ ⵜⵓⵜⵍⴰⵢⵉⵏ ⴰ ⵙ ⵓⵎⵉⵔⴰⵏ ⴷⴷⴰⵡ ⵓⵙⴱⵓⵖⵍⵓ ⵏ ⵜⴳⵔⴰⵡⵜ. ⵉⵜⵜⵢⴰⵙⴰⵔ <localizationGlossaryLink>ⵓⵙⵙⴷⵖⵔ ⵏ ⵓⵙⵉⵜⵡⵉⴱ</localizationGlossaryLink> ⴷ <sentenceCollectionGlossaryLink>ⵓⴳⵔⵔⵓ ⵏ ⵜⵡⵉⵏⴰⵙ</sentenceCollectionGlossaryLink> ⵃⵎⴰ ⴰⴷ ⵏⵏⵓⵕⵥⵎⵏⵜ.
 language-section-launched = ⵏⵏⵓⵕⵥⵎⵏⵜ
 languages-show-more = ⵥⵕ ⵓⴳⴳⴰⵔ
 languages-show-less = ⵥⵕ ⴷⵔⵓⵙ
