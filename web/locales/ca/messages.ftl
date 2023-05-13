@@ -1689,6 +1689,9 @@ new-sentence-rule-1 = <noCopyright>Sense restriccions de drets d'autor</noCopyri
 new-sentence-rule-2 = Menys de 15 paraules
 new-sentence-rule-3 = Utilitza una gramàtica correcta
 new-sentence-rule-4 = Utilitza correctament l'ortografia i la puntuació
+sc-review-empty-state = Actualment no hi cap frase per revisar en aquesta llengua.
+report-sc-different-language-detail = Està escrita en una llengua diferent de la que reviso.
+review-error = S'ha produït un error en revisar aquesta frase
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = Estem fent alguns canvis importants
 sc-redirect-page-subtitle-1 = El Sentence Collector es trasllada a la plataforma bàsica de Common Voice. Ara podeu <writeURL>escriure</writeURL> una frase o <reviewURL>revisar</reviewURL> enviaments d'una sola frase a Common Voice.
