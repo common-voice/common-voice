@@ -1695,6 +1695,7 @@ new-sentence-rule-5 = کوئی عدد یا خاص حروف کائنی
 new-sentence-rule-6 = کوئی پردیسی لفظ کائنی
 new-sentence-rule-7 = مناسب حوالہ شامل کرو
 how-to-cite = میں حوالہ کین٘ویں ݙیواں؟
+how-to-cite-explanation-bold = یوآرایل لنک یا کم دے پورے ناں نال حوالہ ݙیوو۔
 guidelines = ہدایات
 contact-us = ساݙے نال رابطہ کرو
 add-sentence-success = 1 جملہ کٹھا تھیا
