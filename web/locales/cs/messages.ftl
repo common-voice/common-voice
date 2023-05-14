@@ -792,6 +792,7 @@ other-language = Ostatní jazyky
 ## Request Language Pages
 
 request-language-heading = Požádejte o nový jazyk
+request-language-form-info-explanation-list-1 = Název jazyka
 
 ## Languages Overview
 
