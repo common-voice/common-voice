@@ -1283,6 +1283,8 @@ sc-criteria-modal = ⓘ Ověřovací kritéria
 sc-criteria-title = Ověřovací kritéria
 sc-criteria-make-sure = Ověřte, zda věta splňuje následující kritéria:
 sc-criteria-item-1 = Věta musí být napsána správně.
+sc-criteria-item-2 = Věta musí být gramaticky správná.
+sc-criteria-item-3 = Věta musí být vyslovitelná.
 
 ## REVIEW
 
