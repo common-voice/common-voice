@@ -127,11 +127,13 @@ nb-NO = נורווגית ספרותית
 nd = נדבלה צפונית
 ne-NP = נפאלית
 nhe = נאוואטל אואסטקה מזרחית
+nhi = נָאווַאטְל של הסיירה המערבית של פואבלה
 nia = ניאס
 nl = הולנדית
 nn-NO = נורווגית חדשה
 nr = נדבלה דרומית
 nso = סותו צפונית
+ny = צ'יניאנג'ה
 nyn = ‏‏ניאנקולה
 oc = אוקסיטנית
 om = אורומיפה
@@ -506,6 +508,7 @@ about-playbook-how-localize-content-5 = ניתן לצפות בסרטון ההס�
 ## How to add sentences
 
 about-playbook-how-add-sentences = איך אני מוסיף משפטים?
+about-playbook-how-add-sentences-content-1 = <strong>אספן המשפטים</strong> הוא כלי לאיסוף ובדיקה של משפטים שהינם נחלת הכלל. תהיו צריכים <scAccountLink>ליצור חשבון</scAccountLink>. לאחר מכן, הוסיפו את השפה שלכם ב<strong>פרופיל</strong> שלכם. באפשרותכם <strong>להוסיף</strong> משפטים או <strong>לסקור</strong> משפטים שנוספו בעבר.
 about-playbook-how-add-sentences-content-3 = אפשר להשתמש ב<scraperLink>מחלץ המשפטים</scraperLink> כדי למנף משפטים קצרים מוויקיפדיה.
 about-playbook-how-add-sentences-content-4 = משפטים שעברו אימות מיוצאים בימי רביעי והם זמינים לאחר המהדורה הבאה.
 
@@ -691,6 +694,8 @@ action-click = לחיצה
 action-tap = נגיעה
 contribute = תרומה
 listen = האזנה
+write = כתיבה
+review = סקירה
 skip = דילוג
 shortcuts = קיצורים
 clips-with-count-pluralized =
