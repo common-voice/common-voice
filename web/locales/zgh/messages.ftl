@@ -721,9 +721,11 @@ cv-license = ⵜⵓⵔⴰⴳⵜ
 audio-format = ⵜⴰⵍⵖⴰ ⵏ ⵉⵎⵙⵍⵉ
 number-of-voices = ⵓⵟⵟⵓⵏ ⵏ ⵉⴳⵕⴹⴰⵏ
 email-to-download = ⵙⵙⴽⵛⵎ ⵉⵎⴰⵢⵍ ⵃⵎⴰ ⴰⴷ ⵜⴰⴳⵎⴷ
+why-email = <b>ⵎⴰⵅⴼ ⵉⵎⴰⵢⵍ?</b> ⵉⵖⵉⵢ ⴰⴷ ⵏⴰⵙⵔ ⴰⴷ ⴷⵉⴷⵓⵏ ⵏⵎⵢⴰⵡⴰⴹ ⴳ ⵢⵉⵎⴰⵍ ⵅⴼ ⵉⵙⵏⴼⵍⵏ ⴳ ⵜⴳⵔⵓⵎⵎⴰ ⵏ ⵉⵙⴼⴽⴰ, ⵉⵎⴰⵢⵍ ⴰ ⵔⴰⴷ ⵉⴳ ⴰⵎⵎⴰⴽ ⵏ ⵓⵎⵢⴰⵡⴰⴹ.
 confirm-size = ⵜⵎⵓⵜⵜⴳⴷ ⴰⴷ ⵜⵙⵙⵏⵜⵉⴷ ⵢⴰⵏ ⵡⴰⴳⴰⵎ ⵏ <b>{ $size }</b>
 size-gigabyte = GB
 size-megabyte = MB
+confirm-no-identify = <b>ⵜⵎⵙⴰⵙⴰⵎ ⴷ</b> ⵅⴼ ⴰⴷ ⵓⵔ ⵜⴰⵔⵎⵎ ⴰⴷ ⵜⵙⵡⵓⵜⵜⵓⵎ ⵜⴰⵎⴰⴳⵉⵜ ⵏ ⵉⵎⵙⵉⵡⵍⵏ ⴳ ⵜⴳⵔⵓⵎⵎⴰ ⵏ ⵉⵙⴼⴽⴰ ⵏ ⴽⴰⵎⵏⴼⵓⵢⵙ
 confirm-join-mailing-list = ⵅⵙⵖ ⴰⴷ ⵍⴽⵎⵖ ⵜⴰⵍⴳⴰⵎⵜ ⵏ ⵡⴰⵣⴰⵏ ⵏ ⵉⵎⴰⵢⵍⵏ ⵏ ⴽⴰⵎⵏⴼⵓⵢⵙ
 download-language = ⴰⴳⵎ { $language }
 validated-hours = ⵜⵉⵙⵔⴰⴳⵉⵏ ⵣⵔⵢⵏⵉⵏ
@@ -735,6 +737,8 @@ get-started-speech = ⵙⵙⵏⵜⵉ ⵙ ⵜⵓⴽⵣⴰ ⵏ ⵡⴰⵡⴰⵍ
 other-datasets = ⵜⵉⴳⵔⵓⵎⵎⴰⵡⵉⵏ ⵏ ⵉⵙⴼⴽⴰ ⵉⴳⵕⴹⴰⵏⵏ ⵢⴰⴹⵏⵉⵏ
 feedback-q = ⵖⵓⵔⵓⵏ ⵜⴰⵙⴷⵎⵉⵔⵜ?
 resource-deepspeech-info = ⵉⵣⵎⵔ ⵓⵙⵏⵎⴰⵙⵙⵓ ⵏ ⵓⵙⴰⴳⵎ ⵓⵕⵥⵉⵎ ⵏ ⵜⵓⴽⵣⴰ ⵜⴰⴳⵕⴹⴰⵏⵜ ⵏ ⵎⵓⵣⵉⵍⴰ, ⴷⵉⴱⵙⴱⵉⵜⵛ, ⴰⴷ ⵉⵜⵜⵓⵙⵎⵔⵙ ⴳ ⵜⵙⵏⵙⵉⵜⵉⵏ ⵏ ⵜⵓⴽⵣⴰ ⵏ ⵡⴰⵡⴰⵍ. ⵖⵔⴰⵜ <githubLink>ⵜⴰⴳⴹⵡⵉⵜ ⵏ ⴳⵉⵜⵀⴰⴱ</githubLink> ⵏⵏⵖ ⵏⵉⵖ ⵜⵍⴽⵎⵎ <discourseLink>ⴷⵉⵙⴽⵓⵔⵙ ⵏ ⴷⵉⴱⵙⴱⵉⵜⵛ</discourseLink> ⵃⵎⴰ ⴰⴷ ⵜⵍⵎⴷⵎ ⵎⴰⵏⵎⴽ ⵙ ⵔⴰⴷ ⵜⵙⵙⵏⵜⵢⵎ.
+resource-coqui-info = ⵉⵜⵜⵓⴼⴽⴰ <coquiLink>ⴽⵓⴽⵉ</coquiLink> ⵉ ⵜⴻⵜⵉⴽⵏⵓⵍⵓⵊⵉⵜ ⵏ ⵡⴰⵡⴰⵍ ⵜⵓⵕⵥⵉⵎⵜ. ⵙⴳ ⵉⵙⵏⴼⴰⵔⵏ ⵏⵏⵙⵏ ⵍⵍⴰⵏ ⵉⵙⵏⵎⵓⵙⵙⴰ ⵏ STT ⴷ TTS ⵥⴽⴰⵏⵉⵏ ⵅⴼ ⵓⵍⵎⵎⵓⴷ ⵉⴷⵔⴰⵏ.
+community-playbook = ⴰⵎⴰⵏⴰⵔ ⵏ ⵜⴳⵔⴰⵡⵜ
 resource-playbook-info = <playbookLink>ⴰⴼⴰⵜ ⴰⵎⴰⵏⴰⵔ ⵓⵏⴼⵓⵜ</playbookLink> ⴷⴳ ⵓⵎⵓⴷⴷⵓ ⵏ ⴽⴰⵎⵏⴼⵓⵢⵙ, ⵙⴳ ⵓⵙⵙⴷⵖⵔ ⴰⵔ ⴰⵙⵙⵎⵔⵙ ⵏ ⵜⴳⵔⵓⵎⵎⴰ ⵏ ⵉⵙⴼⴽⴰ, ⵎⴽⴰⵏⵏ ⴷ ⵎⴰⵏⵎⴽ ⵙ ⵔⴰⴷ ⵜⵎⵎⵣⴷⵢⵎ ⴰⴽⴷ ⵜⴳⵔⴰⵡⵜ ⵏⵏⵖ.
 data-other-ted-name = ⵓⴳⵔⵉⵡ ⵏ TED-LIUM
 data-other-ted-description = ⵉⵜⵜⵓⵙⴽⵔ ⵡⵓⴳⵔⵉⵡ ⵏ TED-LIUM ⵙⴳ ⵉⵎⵙⵉⵡⴰⵍⵏ ⵉⴳⵕⴹⴰⵏⵏ ⴷ ⵜⴰⵍⵙⴰⵔⵉⵜⵉⵏ ⵏⵏⵙⵏ ⵉⵙⴰⴳⴰⵏ ⴳ ⵓⵙⵉⵜⵡⵉⴱ ⵏ TED.
@@ -939,6 +943,7 @@ report-success = ⵜⴻⵜⵜⵢⴰⵣⴰⵏ ⵜⵎⵓⵍⵉ ⵙ ⵓⵎⵓⵔⵙ
 
 ## Goals
 
+streaks = ⵉⵙⴷⴷⵉⵜⵏ
 days =
     { $count ->
         [one] ⵡⴰⵙⵙ
@@ -1182,6 +1187,7 @@ see-less = <chevron></chevron>ⵥⵕ ⴷⵔⵓⵙ
 ## HEADER/FOOTER
 
 sc-header-home = ⴰⵙⵏⵓⴱⴳ
+sc-header-how-to = ⵙ ⵎⴰⵏⵎⴽ
 sc-header-add = ⵔⵏⵓ
 sc-header-review = ⵙⵙⵉⵔⵎ
 sc-header-rejected = ⵜⵉⵡⵉⵏⴰⵙ ⵜⵜⵢⴰⴳⴰⵢⵏⵉⵏ
