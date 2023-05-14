@@ -16,6 +16,8 @@ indicates-required = * מסמן שדה נחוץ
 not-available-abbreviation = לא זמין
 banner-error-slow-1 = Common Voice פועל באטיות, עמך הסליחה ותודה על הבעת העניין.
 error-something-went-wrong = משהו השתבש, עמך הסליחה
+error-clip-upload = ההעלאה של המקטע נכשלת שוב ושוב, האם להמשיך לנסות?
+error-clip-upload-server = ההעלאה של המקטע נכשלת שוב ושוב בשרת שלנו. אנא טענו את העמוד מחדש, או נסו שוב מאוחר יותר.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -465,6 +467,7 @@ how-does-it-work-title-v2 = איך Common Voice פועל?
 ## How does it work section
 
 about-sentence-collection-title = איסוף משפטים
+about-sentence-collection-subtitle = משפטים נאספים כדי שאנשים יוכלו להקריא אותם בקול רם.
 about-voice-validation-subtitle = אנשים אחרים מאמתים את המקטעים הקוליים האלה.
 about-subscribe-text = רוצה להישאר בקשר עם Common Voice?
 about-speak = דבר
@@ -683,7 +686,9 @@ request-language-success-heading = תודה רבה! שלחת שאילתה על �
 ## Languages Overview
 
 language-section-in-progress = בתהליך
+language-section-in-progress-new-description = שפות אלה נמצאות כעת בתהליך פיתוח של הקהילה. בכדי להפוך את השפה לזמינה, יש להשלים קודם כל <localizationGlossaryLink> לוקליזציה של האתר</localizationGlossaryLink> ו <sentenceCollectionGlossaryLink> איסוף משפטים </ sentenceCollectionGlossaryLink>.
 language-section-launched = הושקו
+language-section-launched-description = עבור שפות אלה שהושקו, האתר עבר <localizationGlossaryLink> לוקליזציה </ localizationGlossaryLink> בהצלחה, ויש מספיק <sentenceCollectionGlossaryLink> משפטים שנאספו </ sentenceCollectionGlossaryLink> כדי לאפשר תרומות מתמשכות של <speakLink>דיבור</speakLink> ו<listenenLink>האזנה</ listenLink >.
 languages-show-more = להציג עוד
 languages-show-less = להציג פחות
 language-meter-in-progress = התקדמות
@@ -755,6 +760,7 @@ target-segment-learn-more = מידע נוסף
 
 ## Contribution Nav Items
 
+contribute-sentence-collection-nav-header = איסוף משפטים
 
 ## Reporting
 
@@ -935,6 +941,7 @@ sc-login-signup-button = כניסה / הרשמה
 sc-home-title = ברוכים הבאים לאספן המשפטים של Common Voice
 sc-home-intro = אספן המשפטים הוא חלק מ-<commonVoiceLink>Common Voice</commonVoiceLink>. כלי זה מאפשר לתורמים לאסוף ולאמת משפטים שנוצרו על ידי הקהילה. תוכלו להשתמש בכלי זה גם כדי לייבא ולנקות מאגר כתוב הנמצא בנחלל הכלל שמצאת או אספת, בגודל קטן עד בינוני. כל המשפטים צריכים להיות בנחלת הכלל. משפטים שאושרו עוברים ייצוא מידי שבוע למאגר Common Voice ומתפרסמים באתר Common Voice בכל פריסה חדשה.
 sc-home-collect-title = איסוף משפטים
+sc-home-collect-text = עזרו לנו על ידי כתיבה או איסוף משפטים הנמצאים בנחלת הכלל.
 sc-home-review-title = סקירת משפטים
 
 ## GENERAL
@@ -949,6 +956,7 @@ sc-howto-review-criteria-1 = המשפט חייב להיות מאוית כראו�
 sc-howto-review-criteria-2 = המשפט חייב להיות נכון דקדוקית.
 sc-howto-review-criteria-3 = המשפט חייב להיות אפשרי להגיה.
 sc-howto-review-criteria-4 = אם המשפט עומד בתנאים, יש ללחוץ על הכפתור „אישור”.
+sc-howto-review-criteria-6 = אם אין לכם יותר משפטים לסקירה, נשמח שתעזרו לנו לאסוף עוד!
 sc-howto-findpd-title = איתור משפטים קיימים שזמינים לנחלת הכלל
 sc-howto-findpd-tips = להלן מגוון עצות לאיתור משפטים:
 
@@ -1053,6 +1061,7 @@ sc-personal-not-added = עדיין לא הוספת שפות.
 sc-criteria-make-sure = נא לוודא שהמשפט עומד בתנאים הבאים:
 sc-criteria-item-1 = על המשפט להיות מאוית כראוי.
 sc-criteria-item-2 = המשפט חייב להיות נכון מבחינה דקדוקית.
+sc-criteria-item-6 = אם אין לכם יותר משפטים לסריקה, נשמח שתעזרו לנו לאסוף עוד!
 
 ## REVIEW
 
@@ -1105,7 +1114,9 @@ partnerships-our-partners = השותפים שלנו
 thanks-for-voice-toast-error = אירעה שגיאה בעת שליחת נתוני הקול שלך
 create-profile-button = יצירת פרופיל
 sentence-collection = אוסף משפטים
+reviewing-sentences-explanation-4 = אם אין לכם יותר משפטים לסקירה, נשמח שתעזרו לנו לאסוף עוד!
 community-announcement-explanation = ההנחיות שלהלן רלוונטיות לתכונות אספן המשפטים החדשות, אשר ישולבו בליבה של פלטפורמת Common Voice במהלך מרץ-אפריל 2023. בינתיים תוכלו להשתמש בכלי הקודם, <scLink>https://commonvoice.mozilla.org/ אספן משפטים/</scLink>.
+add-sentence-success = נאסף משפט אחד.
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = אנו מבצעים כאן שינויים גדולים
 sc-redirect-page-subtitle-1 = אספן המשפטים עובר תחת הליבה של Common Voice. תוכלו כעת <writeURL>לכתוב</writeURL> או <reviewURL>לסקור</reviewURL> הגשות של משפטים בודדים ב-Common Voice.
