@@ -19,7 +19,7 @@ banner-error-slow-2 = በጣም ብዙ ትራፊክ እየተቀበልን ስለ
 banner-error-slow-link = የሁኔታ ገፅ
 error-something-went-wrong = ይቅርታ፣ የሆነ ችግር ተፈጥሯል
 error-clip-upload = ይህን ክሊፕ ሲሰቅሉ አሁንም ካልተሳካ፣ እንደገና ይሞክሩ?
-error-clip-upload-server = የዚህ ክሊፕ መስቀል በአገልጋዩ ላይ አለመሳካቱን ቀጥሏል። ገጹን እንደገና ይጫኑ ወይም ቆይተው እንደገና ይሞክሩ።
+error-clip-upload-server = የዚህ ቅንጥብ መስቀል በአገልጋዩ ላይ አለመሳካቱን ቀጥሏል። ገጹን እንደገና ይጫኑ ወይም ቆይተው እንደገና ይሞክሩ።
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
