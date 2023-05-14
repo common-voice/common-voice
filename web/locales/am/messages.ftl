@@ -426,10 +426,10 @@ why-demographic-explanation-2 = እንደ ዕድሜ፣ ጾታ እና ዘዬ ያ�
 accept-privacy = በሞዚላ <privacyLink>የግላዊነት መመሪያ</privacyLink> ላይ እንደተብራራው ይህን መረጃ ቢይዙት ችግር የለውም።
 accept-privacy-title = የግላዊነት መምሪያ
 accept-privacy-and-terms = በ ጋራ ድምፅ <termsLink>ደንቦች</termsLink> እና <privacyLink>የግላዊነት ማስታወቂያ</privacyLink> እስማማለሁ
-login-identity = የመግቢያ መለያ
+login-identity = የመግቢያ ማንነት
 login = ግባ
 login-signup = ይግቡ / ይመዝገቡ
-edit = አርትዕ ያድርጉ
+edit = አርትእ
 email-subscriptions = የኢሜል ምዝገባዎች
 download-profile = የእኔን ውሂብ አውርድ
 contribution-experience = የማበርከት ተሞክሮ
@@ -680,7 +680,7 @@ about-playbook-how-project-governance-content-7 = <governanceLink>እንዴት �
 
 ## Glossary
 
-glossary = መዝገበ ቃላት
+glossary = መፍትሄ ቃላት
 localization = አካባቢያዊነት
 localization-explanation = ይህ ይዘታችንን ለብዙ አከባቢዎች (ቋንቋዎች) ለመተርጎም እና ለማስተካከል የእኛ ሂደት ነው።
 sentence-collection = የአረፍተ ነገር ስብሰባ
