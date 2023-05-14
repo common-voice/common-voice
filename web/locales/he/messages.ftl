@@ -486,6 +486,7 @@ about-sentence-collection-title = איסוף משפטים
 about-sentence-collection-subtitle = משפטים נאספים כדי שאנשים יוכלו להקריא אותם בקול רם.
 about-voice-validation-subtitle = אנשים אחרים מאמתים את המקטעים הקוליים האלה.
 about-dataset-release-title = פרסום מערך הנתונים
+about-dataset-release-subtitle = אנו מפרסמים את מערך הנתונים כל 3 חודשים.
 about-subscribe-text = רוצה להישאר בקשר עם Common Voice?
 about-speak = דבר
 about-speak-text = מתנדבים מקליטים קטעי קול על ידי הקראה מתוך מאגר של משפטים שנתרמו.
@@ -495,6 +496,10 @@ about-listen = האזנה
 about-listen-text = משתמשים מאמתים את דיוק המקטעים שנתרמו, כדי לבדוק שהדוברים מקריאים את המשפט נכון.
 about-is-it-valid = האם הקטע תקף?
 about-is-it-valid-text = קטע קולי נחשב „תקף” כאשר מתקבלת עבורו הצבעת „כן”.
+about-yes-votes-text = על מנת להכנס למערך הנתונים של Common Voice, מקטע הקול מוכרח להיות מאומת על ידי שני משתמשים נפרדים.
+about-dataset-new = מערך הנתונים Common Voice
+about-dataset-new-text = מערך הנתונים Common Voice מכיל מאות אלפי דוגמאות קול המסייעות למפתחים לבנות כלים לזיהוי קולי.
+about-clip-graveyard-text = בית הקברות למקטעים מכיל מקטעי קול שלא הצליחו להכנס למערך Common Voice. בדיוק כמו מערך הנתונים, בית הקברות למקטעים זמין להורדה.
 about-get-involved = הצטרפות
 about-stay-in-touch = איך אפשר לשמור על קשר?
 about-stay-in-touch-button = הרשמה
@@ -511,6 +516,8 @@ about-nav-playbook = מידע כיצד לקחת חלק
 
 about-playbook-what-is-language = מה זו שפה ב־Common Voice?
 about-playbook-what-is-language-content-1 = ישנן דרכים רבות לחשוב על שפה. למטרות מודלים לזיהוי דיבור, מציע Common Voice להתמקד ב‚הבנה הדדית’ או ‚האם דוברי השפה הזאת יבינו זה את זה באופן כללי אם הם ינסו?’
+about-playbook-what-is-language-content-2 = אנחנו רוצים שמודלים של דיבור יהיו טובים יותר בהבנת מגוון רחב של דוברים. כדי שזה יקרה, מערך נתונים קולי חייב לייצג הרבה אנשים שונים.
+about-playbook-what-is-language-content-3 = לשפות מסוימות יש שונות עצומה בדקדוק, אוצר המילים וההגייה. מסיבה זו, אנו <ctaLink>מציגים את 'ניבים'</ctaLink> בשנת 2022. זה נותן לקהילות דרך להבחין בין השפות שלהן בתוך מערך הנתונים הגדול יותר.
 
 ## How do I add a language
 
@@ -550,16 +557,20 @@ about-playbook-how-record-content-5 = <accuracyLink>מידע נוסף על תנ�
 
 ## How to grow language
 
+about-playbook-how-grow-language-content-1 = יצירת הזדמנויות למגוון אנשים לתרום ל-Common Voice מבטיחה שמערך הנתונים משרת כמה שיותר אנשים. יצרנו משאבים ותבניות שתוכלו להשתמש בהן!
 about-playbook-how-grow-language-content-2 = אירועים
 about-playbook-how-grow-language-content-4 = מדיה חברתית
 
 ## How to validate
 
 about-playbook-how-validate = איך אוכל לדעת אם לאשר מקטע קולי?
-about-playbook-how-validate-content-4 = אם קטע נדחה על־ידי 2 אנשים הוא משוחרר לסדרת נתונים אחרת.
+about-playbook-how-validate-content-4 = אם מקטע נדחה על־ידי 2 אנשים הוא מתפרסם תחת חלק אחר של מערך נתונים.
 
 ## How to access dataset
 
+about-playbook-how-access-dataset = כיצד אוכל לגשת למערך הנתונים ולהשתמש בו?
+about-playbook-how-access-dataset-content-1 = אתם יכולים לעבור אל <datasetsPage>דף מערכי הנתונים</datasetsPage>, לבחור את הגרסה והשפות הרצויות ולהוריד אותו! לקבצים יש <metadataLink>מטא-נתונים הקשורים אליהם</metadataLink>, כגון מידע דמוגרפי ונתוני אימות. תצטרכו לספק כתובת דוא"ל כדי להוריד את מערך הנתונים.
+about-playbook-how-access-dataset-content-2 = אם אתם מחפשים כלים לבניית מודלים לזיהוי דיבור (Automatic Speech Recognition), באפשרותכם להתחבר לאנשים אחרים מהקהילה <discourseLink>ב-Discourse</discourseLink>.
 
 ## How are decisions made
 
@@ -580,7 +591,7 @@ hours-validated-explanation = ספירת שעות ההקלטה הקולית שא
 sst = דיבור לטקסט
 sst-explanation = טכנולוגיות דיבור לטקסט ממירות נתוני קול לטקסט כתוב.
 de-identified = ניתוק זיהוי
-de-identified-explanation = התהליך שבו מידע הפרופיל של תורם מוסתר מקטעי הקול שנתרמו על ידם כאשר הם נארזים להורדה כחלק במאגר הנתונים.
+de-identified-explanation = התהליך שבו מידע מהפרופיל של תורם מטושטש במקטעי הקול שהם תרמו במהלך אריזתם להורדה כחלק ממערך הנתונים.
 
 ## Error pages
 
