@@ -683,20 +683,23 @@ resource-deepspeech-info = ניתן להשתמש במנוע הקוד הפתוח 
 resource-coqui-info = <coquiLink>Coqui</coquiLink> מוקדש לטכנולוגיות דיבור פתוחות. הפרויקטים שלהם כוללים מנועי STT ו-TTS מבוססי למידה עמוקה.
 community-playbook = ספרון הקהילה
 resource-playbook-info = <playbookLink>מצאו הדרכה מועילה</playbookLink> אודות המסע השלם של Common Voice, החל מלוקליזציה וכלה בשימוש במערך הנתונים, כמו גם כיצד להתחבר עם הקהילה שלנו.
-data-other-librispeech-description = LibriSpeech הוא מאגר של כ־1000 שעות של דיבור באנגלית באיכות של 16Khz שנגזר מספרי שמע שהוקראו עבור מיזם LibriVox.
+data-other-librispeech-description = LibriSpeech הוא מאגר של כ-1,000 שעות דיבור באנגלית באיכות דגימה של 16Khz הלקוח מספרי שמע שהוקראו עבור מיזם LibriVox.
 data-other-ted-name = מאגר TED-LIUM
 data-other-ted-description = המאגר TED-LIUM, נוצר משיחות קוליות והתמלול שלהן, זמין באתר של TED.
 data-other-voxforge-description = VoxForge הוקם לטובת איסוף של קול מתומלל לטובת שימוש במנועי זיהוי קולי בקוד פתוח.
 data-other-tatoeba-description = Tatoeba הוא מסד נתונים נרחב של משפטים, תרגומים ודיבור לשימוש לטובת לימודי שפה. הורדה זו מכילה את כל האנגלית המדוברת שהוקלטה על ידי הקהילה שלהם.
-your-feedback = יש לך רעיונות איך לשפר את מאגר Common Voice? נשמח לשמוע על כך ב־Discourse
+your-feedback = יש לך רעיונות איך לשפר את מערך הנתונים Common Voice? נשמח לשמוע על כך ב-Discourse
 go-discourse = מעבר אל Discourse
-missing-language = אינך רואה את השפה שלך במאגר המידע? ניתן לבקש שפה בעמוד השפות שלנו.
+missing-language = אינך רואה את השפה שלך במערך הנתונים? ניתן לבקש שפה בעמוד השפות שלנו.
 go-languages-page = מעבר לעמוד השפות
 ready-to-validate = מוכנים לעזור לאמת משפטים?
 more = עוד
 close = סגירה
 download = הורדה
 dataset-version = גרסה
+sha256-checksum-copied = קוד התקינות SHA256 הועתק!
+sha256-checksum-copied-error = לא היה ניתן להעתיק את קוד התקינות SHA256
+clipboard-not-supported = אין תמיכה בהעתקה והדבקה
 
 ## Download Modal
 
@@ -919,10 +922,11 @@ share-goal = שיתוף היעד שלי
 
 ## Profile Delete
 
-delete-q = האם ברצונך לבקש להסיר גם את ההקלטות הקוליות שלך, או שנשמור אותן במאגר הנתונים של Common Voice?
+delete-q = האם ברצונך לבקש להסיר גם את ההקלטות הקוליות שלך, או שנשמור אותן במערך הנתונים של Common Voice?
 keep = להשאיר
 remove = להסיר
-remove-info = אנו נבדוק את בקשתך להסרת ההקלטות הקוליות שלך ממאגר הנתונים. אם בקשתך תאושר, אנו ניצור קשר עם כל מי שהוריד את מאגר הנתונים ונבקש מהם להסיר את ההקלטות הקוליות שלך גם כן.
+keep-info = הקלטות הקול האנונימיות שלך תישארנה במערך הנתונים Common Voice. לאחר מחיקת הפרופיל שלך, לא יהיה עוד באפשרותך להגיש בקשה להסרת ההקלטות שלך ממערך הנתונים
+remove-info = אנו נבדוק את בקשתך להסרת ההקלטות הקוליות שלך ממערך הנתונים. אם בקשתך תאושר, אנו ניצור קשר עם כל מי שהוריד את מערך הנתונים ונבקש מהם להסיר את ההקלטות הקוליות שלך גם כן.
 profile-form-delete = מחיקת פרופיל
 
 ## Profile Download
@@ -937,6 +941,7 @@ download-request-title = { $created }
 ## Landing
 
 welcome-staff = ברוך בואך סגל { $company }!
+help-contribute = באפשרותך לסייע לבנות מערך נתונים בקוד פתוח על ידי יצירת פרופיל ב־Common Voice ותרומת קולך.
 login-company = כניסה / הרשמה עם כתובת דוא״ל של { $company }
 profile-not-required = אין חובה להקים פרופיל על אף שיש לו ערך רב, ניתן לראות מדוע להלן.
 read-more-about = מידע נוסף בעמוד על אודותינו
@@ -948,10 +953,12 @@ demo-welcome-subheader = מעניין אותך ללמוד עוד ולתרום ל
 
 ## Demo Datasets
 
-demo-language-select-card-body = הודות לתרומות של למעלה מ־259 אלף אנשים בלמעלה מ־50 שפות, נתונים אלה משמשים לאימון יישומים עם תמיכה בדיבור כדי להגיב טוב יותר לקול אנושי.
+demo-language-select-card-header = Common Voice הוא מערך נתוני הקול הפומבי הרב-לשוני הגדול ביותר בעולם.
+demo-language-select-card-body = הודות לתרומות של למעלה מ-259 אלף אנשים בלמעלה מ-50 שפות, נתונים אלה משמשים לאימון יישומים מופעלי-דיבור כדי שיגיבו באופן טוב יותר לקול אנושי.
 card-button-next = הבא
 card-button-back = הקודם
 demo-language-select-label = עיון בשפות
+demo-eofy-header = מהדורת סוף שנת 2019
 demo-account = חשבון
 
 ## Demo Account
