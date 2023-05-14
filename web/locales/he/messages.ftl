@@ -141,6 +141,7 @@ pap-AW = פפיאמנטו (ארובה)
 pl = פולנית
 ps = פשטו
 pt = פורטוגלית
+rm-sursilv = רומאנש סורסילבן
 ro = רומנית
 ru = רוסית
 rw = קיניַרואנדה
@@ -167,6 +168,7 @@ ta = טמילית
 te = טלוגו
 tg = טג׳יקית
 th = תאילנדית
+ti = תיגרינית
 tl = טאגאלוג
 tn = סצוואנה
 tok = טוקי פונה
@@ -292,7 +294,7 @@ username-email-not-demographic = שם המשתמש והדוא״ל שלך לא י
 ## Speak & Listen Shortcuts
 
 # Must be one letter that appears in the translated { skip } string.
-shortcut-skip = נ
+shortcut-skip = ד
 
 ## Listen Shortcuts
 
@@ -311,7 +313,7 @@ shortcut-vote-no = ל
 
 # Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
-shortcut-record-toggle = ק
+shortcut-record-toggle = ה
 shortcut-record-toggle-label = הקלטה/עצירה
 shortcut-rerecord-toggle-label = הקלטת קטע מחדש
 shortcut-discard-ongoing-recording = ESC
