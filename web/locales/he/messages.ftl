@@ -654,15 +654,26 @@ audio-format = פורמט אודיו
 number-of-voices = מספר קולות
 splits = פיצולים
 email-to-download = נא להזין כתובת דוא״ל כדי להוריד
+why-email = <b>מדוע דוא"ל?</b> ייתכן שנצטרך ליצור איתך קשר בעתיד בנוגע לשינויים במערך הנתונים, דוא"ל מספק לנו נקודת קשר.
+confirm-size = עומדת להתחיל הורדה של <b>{ $size }</b>
 size-gigabyte = ג״ב
 size-megabyte = מ״ב
+confirm-no-identify = <b>הנכם מסכימים</b> לא לנסות לקבוע את הזהות של דוברים המערך הנתונים של Common Voice
+confirm-join-mailing-list = אני רוצה להצטרף לרשימת הדיוור של Common Voice
 download-language = הורדת { $language }
 validated-hours = שעות שאומתו
 recorded-hours = שעות שהוקלטו
+whats-inside = מה נמצא במערך הנתונים של Common Voice?
+dataset-description-hours =
+    כל רשומה במערך הנתונים מורכבת מקובץ MP3 ייחודי וקובץ טקסט תואם. חלק גדול מ־<b>{ $total }</b> השעות המוקלטות במאגר המידע כוללים גם מטא-נתונים דמוגרפיים כגון גיל, מין ומבטא שיכולים לסייע בדיוקם של מנועי זיהוי הדיבור.
+    
+    מערך הנתונים מכיל כרגע <b>{ $valid }</b> שעות מאומתות ב־<b>{ $languages }</b> שפות, אך אנו תמיד מוסיפים עוד קולות ושפות. הביטו <languagesLink>בדף השפות</languagesLink> שלנו כדי לבקש שפה או להתחיל לתרום.
+want-dataset-update = מעוניינים בעדכונים כאשר אנו מפרסמים גרסה חדשה של מערך הנתונים Common Voice? הירשמו לניוזלטר שלנו.
 subscribe = הרשמה
 get-started-speech = התחילו לעבוד עם זיהוי דיבור
-other-datasets = מאגרי קול אחרים
+other-datasets = מערכי נתוני קול נוספים
 feedback-q = יש לכם משוב?
+resource-nemo-info = ™<githubLink>NVIDIA NeMo</githubLink> היא <docsLink>ערכת כלים בקוד פתוח</docsLink> עבור חוקרים המפתחים מודלים מתקדמים של AI לשיחות.
 data-other-librispeech-description = LibriSpeech הוא מאגר של כ־1000 שעות של דיבור באנגלית באיכות של 16Khz שנגזר מספרי שמע שהוקראו עבור מיזם LibriVox.
 data-other-ted-name = מאגר TED-LIUM
 data-other-ted-description = המאגר TED-LIUM, נוצר משיחות קוליות והתמלול שלהן, זמין באתר של TED.
@@ -1149,6 +1160,7 @@ sc-validation-no-abbreviations = משפט לא יכול להכיל ראשי תי
 localization-select =
     .label = בחירה בשפה/תרגום
 partnerships-our-partners = השותפים שלנו
+why-donate-explanation-1 = זו בחירה שלכם האם לספק מידע זה - עשו זאת רק אם אתם מרגישים בנוח. כאשר אנו משחררים גרסה של מערך הנתונים, אנו יוצרים גרסה בדויה של המידע האישי, ומוודאים שנתונים כגון השם או כתובת הדוא"ל לא יהיו קשורים למידע דמוגרפי כמו גיל או מין.
 thanks-for-voice-toast-error = אירעה שגיאה בעת שליחת נתוני הקול שלך
 create-profile-button = יצירת פרופיל
 sentence-collection = אוסף משפטים
