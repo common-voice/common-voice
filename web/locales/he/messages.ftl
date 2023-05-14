@@ -1,6 +1,6 @@
 ## General
 
-yes-receive-emails = כן, נא לשלוח לי עדכונים בדוא״ל על המיזם Common Voice.
+yes-receive-emails = כן, שלחו לי דואל. אני רוצה עדכונים אודות מיזם Common Voice.
 stayintouch = אנו ב־Mozilla בונים קהילה סביב טכנולוגיות קול. נשמח להישאר איתך בקשר ולעניין אותך בעדכונים, מקורות נתונים חדשים ולשמוע עוד על אופן השימוש שלך בנתונים האלה.
 privacy-info = אנו מבטיחים לטפל במידע שלך בזהירות רבה. ניתן לקרוא עוד ב<privacyLink>מדיניות הפרטיות</privacyLink> שלנו.
 return-to-cv = חזרה אל Common Voice
@@ -39,6 +39,7 @@ be = בלארוסית
 bg = בולגרית
 bm = במברה
 bn = בנגלית
+bo = טיבטית
 br = ברטון
 bxr = בוריאטית
 byv = מדומבה
@@ -1087,3 +1088,4 @@ localization-select =
 partnerships-our-partners = השותפים שלנו
 thanks-for-voice-toast-error = אירעה שגיאה בעת שליחת נתוני הקול שלך
 create-profile-button = יצירת פרופיל
+sentence-collection = אוסף משפטים
