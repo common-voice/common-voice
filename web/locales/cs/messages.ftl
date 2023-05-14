@@ -612,15 +612,33 @@ about-playbook-how-grow-language = Jak efektivně rozvíjet jazyk na Common Voic
 about-playbook-how-grow-language-content-2 = Akce
 about-playbook-how-grow-language-content-4 = Sociální sítě
 about-playbook-how-grow-language-content-6 = Partnerství a propojování
+about-playbook-how-grow-language-content-7 = Najděte další lidi, kterým na tom záleží. Mohou to být univerzity, jazykové školy, aktivistické skupiny nebo komunity zabývající se datovou vědou. Oslovte je a jasně vysvětlete, jak mohou pomoci a proč. <outreachTemplates>Podívejte se na naše vzorové e-maily pro oslovení</outreachTemplates>.
+about-playbook-how-grow-language-content-8 = <strong>Buďte kreativní!</strong> Vaše jazyková komunita bude jedinečná a toto je jen několik způsobů, jak začít.
 
 ## How to validate
 
+about-playbook-how-validate = Jak poznám, zda nahrávku schválit?
+about-playbook-how-validate-content-1 = Pokud ji <strong>slyšíte</strong> a <strong>rozumíte</strong>, bývá <strong>vhodné nahrávku schválit</strong>.
+about-playbook-how-validate-content-2 = <strong>Neodmítejte nahrávky, ve kterých má mluvčí „přízvuk“, který se liší od vašeho</strong> – to je zásadní, aby rozpoznávání hlasu fungovalo pro všechny lépe.
+about-playbook-how-validate-content-3 = Pokud si myslíte, že výslovnost <strong>znemožňuje porozumění</strong>, je v pozadí <strong>hodně ruchů</strong> nebo <strong>mluví i další lidé</strong>, pak byste měl(a) nahrávku zamítnout. <accuracyLink>Další informace naleznete v kvalitativních kritériích</accuracyLink>.
+about-playbook-how-validate-content-4 = Zamítnou-li nahrávku 2 lidé, bude uvedena v odlišné podmnožině datové sady.
 
 ## How to access dataset
 
+about-playbook-how-access-dataset = Jak získat přístup k datasetu a jak jej používat?
+about-playbook-how-access-dataset-content-1 = Můžete přejít na <datasetsPage>stránku datových sad</datasetsPage>, vybrat požadovanou verzi a jazyk(y) a dataset stáhnout. Soubory mají <metadataLink>přidružená metadata</metadataLink>, jako jsou demografické informace a údaje o ověření. Pro stažení datasetu budete muset uvést e-mailovou adresu.
+about-playbook-how-access-dataset-content-2 = Pokud hledáte nástroje pro vytváření modelů ASR, můžete se spojit s ostatními lidmi v komunitě <discourseLink>na Discoursu</discourseLink>.
 
 ## How are decisions made
 
+about-playbook-how-project-governance = Jak se přijímají rozhodnutí o projektu?
+about-playbook-how-project-governance-content-1 = Projekt Mozilla Common Voice je realizován různorodou komunitou aktivistů, lingvistů, datových vědců, akademiků a softwarových inženýrů z celého světa. Projekt řídí nadace Mozilla Foundation.
+about-playbook-how-project-governance-content-2 = Naše rozhodování stojí na těchto pilířích:
+about-playbook-how-project-governance-content-3 = Soukromí, bezpečnost a transparentnost.
+about-playbook-how-project-governance-content-4 = Komunitní participace a rozhodování.
+about-playbook-how-project-governance-content-5 = Hodnota a uznání.
+about-playbook-how-project-governance-content-6 = Vzájemná odpovědnost.
+about-playbook-how-project-governance-content-7 = <governanceLink>Přečtěte si více o našem fungování</governanceLink>
 
 ## Glossary
 
@@ -679,6 +697,7 @@ review-delete-recordings = Smazat nahrávky
 
 ## Datasets Page
 
+datasets-heading = Datasety
 datasets-headline = Vytváříme otevřenou mnohojazyčnou databázi hlasových záznamů, kterou může kdokoli použít k trénování svých hlasových aplikací.
 datasets-positioning =
     Věříme, že velké, veřejně dostupné hlasové datové soubory podpoří inovace a zdravou konkurenci firem a technologií pro rozpoznávání řeči pomocí strojového učení.
@@ -687,6 +706,9 @@ datasets-positioning =
     
     Podívejte se na tuto stránku, tento centrální rozcestník, který obsahuje další otevřené soubory, ale i aktualizace a nové verze datasetu Common Voice, který stále roste.
 language = Jazyk
+download-dataset-header = Stáhnout dataset
+download-delta-explainer = Provedli jsme několik změny. Delta Segments nyní obsahují pouze nejnovější nahrávky od posledního vydání. <deltaLink>Přečtěte si více o této novince</deltaLink>.
+download-dataset-tag = Zvolte požadovaný jazyk datasetu a verzi, kterou chcete stáhnout.
 # File size in gigabytes
 size = Velikost
 validated-hr-total = Celkem validovaných hodin
@@ -701,6 +723,7 @@ confirm-size = Jste připraveni stáhnout <b>{ $size }</b>
 size-gigabyte = GB
 size-megabyte = MB
 confirm-no-identify = <b>Souhlasíte</b>, že se nebudete pokoušet rozpoznat identitu přispěvatelů v datasetu Common Voice
+confirm-join-mailing-list = Chci se připojit k mailing listu Common Voice
 download-language = Stáhnout jazyk { $language }
 validated-hours = Ověřené hodiny
 recorded-hours = Nahrané hodiny
@@ -733,6 +756,9 @@ more = Více
 close = Zavřít
 download = Stáhnout
 dataset-version = Verze
+sha256-checksum-copied = Kontrolní součet SHA256 zkopírován!
+sha256-checksum-copied-error = Nepodařilo se zkopírovat kontrolní součet SHA256
+clipboard-not-supported = Schránka není podporována
 
 ## Download Modal
 
@@ -765,6 +791,7 @@ other-language = Ostatní jazyky
 
 ## Request Language Pages
 
+request-language-heading = Požádejte o nový jazyk
 
 ## Languages Overview
 
