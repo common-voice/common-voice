@@ -600,6 +600,11 @@ about-playbook-how-add-sentences = Jak přidávat věty?
 
 ## How to record quality
 
+about-playbook-how-record-quality = Jak nahrát kvalitní hlasový záznam?
+about-playbook-how-record-content-1 = Mluvte normálním hlasem! Způsob, jakým mluvíte, je zde vítán – chceme váš přízvuk takový, jaký je, a chceme vaši obvyklou hlasitost, styl a intonaci.
+about-playbook-how-record-content-2 = Vyhněte se přílišnému hluku v pozadí – mělo by vás být dobře slyšet.
+about-playbook-how-record-content-3 = Větu přečtěte pozorně – nevynechávejte, neměňte ani nepřidávejte slova.
+about-playbook-how-record-content-4 = Dbejte na to, aby nahrávání začalo <strong>před</strong> a skončilo <strong>po</strong> předčítání.
 
 ## How to grow language
 
