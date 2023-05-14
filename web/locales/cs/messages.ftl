@@ -793,6 +793,12 @@ other-language = Ostatní jazyky
 
 request-language-heading = Požádejte o nový jazyk
 request-language-form-info-explanation-list-1 = Název jazyka
+request-language-form-info-explanation-list-2 = <isoCodeLink>Kódy ISO</isoCodeLink>, pokud je znáte
+request-language-form-info-explanation-list-3 = Odkazy na webové stránky, které nám mohou pomoci porozumět jazyku
+request-language-google-recaptcha-required = Chcete-li pokračovat, je vyžadována reCAPTCHA
+request-language-google-recaptcha-error = reCAPTCHu se nepodařilo zpracovat. Zkuste to znovu.
+# Success page
+request-language-success-heading = Děkujeme! Požadavek na nový jazyk byl odeslán
 
 ## Languages Overview
 
@@ -809,6 +815,7 @@ language-search-input =
 language-speakers = Mluvčí
 localized = Přeloženo
 sentences = Věty
+language-validation-hours = Hodiny
 
 ## Contribution
 
@@ -816,6 +823,8 @@ action-click = Klikněte
 action-tap = Klepněte
 contribute = Přispět
 listen = Poslouchejte
+write = Pište
+review = Ověřujte
 skip = Přeskočit
 shortcuts = Zkratky
 clips-with-count-pluralized =
@@ -878,6 +887,8 @@ target-segment-learn-more = Zjistit více
 
 ## Contribution Nav Items
 
+contribute-voice-collection-nav-header = Sbírka hlasů
+contribute-sentence-collection-nav-header = Sbírka vět
 
 ## Reporting
 
@@ -1139,6 +1150,7 @@ contribution-misreadings-description = Během poslechu dávejte bedlivě pozor, 
 contribution-misreadings-description-extended-list-1 = Chybějící krátká slova jako <strong>'V'</strong> nebo <strong>'Pro'</strong> na začátku nahrávky.
 contribution-misreadings-description-extended-list-4 = Chybějící část posledního slova kvůli předčasně ukončenému nahrávání.
 contribution-misreadings-description-extended-list-5 = Opakované přečtení téhož slova.
+contribution-misreadings-example-8-title = Kolem proletěl čmelák.
 contribution-varying-pronunciations-description = Speciální péči věnujte případnému zamítání nahrávek kvůli odlišně vyslovenému slovu, přízvuku nebo tónu věty. Ne každý vyslovuje stejně, jako vy, a v našem datasetu chceme zachytit výslovnost každého, pokud je správná.
 contribution-varying-pronunciations-description-extended = Na druhou stranu pokud máte pocit, že autor nahrávky nějaké slovy nezná a pouze si vymyslel jeho výslovnost, neváhejte takovou nahrávku odmítnout. Pokud si nejste jistí, nahrávku přeskočte.
 contribution-background-noise-title = Hluk v pozadí
@@ -1164,10 +1176,27 @@ see-less = <chevron></chevron> Zobrazit méně
 
 ## HEADER/FOOTER
 
+sc-header-home = Domů
+sc-header-how-to = Návody
+sc-header-add = Přidat
+sc-header-review = Ověření
+sc-header-rejected = Zamítnuté věty
+sc-header-my = Moje věty
+sc-header-statistics = Statistiky
+sc-header-profile = Profil
+sc-footer-discourse = Discourse
+sc-footer-report-bugs = Nahlášení chyb
+sc-footer-translate = Přeložit stránku
+sc-footer-report-copyright = Oznámit porušení práv
+sc-footer-privacy = Soukromí
+sc-footer-terms = Podmínky
 sc-footer-cookies = Cookies
+sc-login-signup-button = Přihlášení / Registrace
+sc-logout-button = Odhlásit se
 
 ## HOME
 
+sc-home-collect-title = Sbírejte věty
 
 ## GENERAL
 
@@ -1183,27 +1212,77 @@ sc-footer-cookies = Cookies
 
 ## STATS
 
+sc-stats-title = Statistiky
+sc-stats-updating = Probíhá aktualizace...
 
 ## ADD
 
+sc-submit-err-select-lang = Vyberte jazyk.
+sc-submit-err-add-source = Přidejte zdroj.
+sc-submit-title = Přidání vět
+sc-submit-button =
+    .submitText = Odeslat
 
 ## ADD LANGUAGE
 
+sc-add-lang-could-not-add = Jazyk se nepodařilo přidat
+sc-add-lang-sec-label = Přidejte jazyk, do kterého chcete přispívat
+sc-add-lang-sec-button = Přidat jazyk
+sc-add-err-unexpected = Neočekávaná odezva serveru
+sc-add-err-submission = Chyba při odeslání
 
 ## ADD SENTENCES CONFIRMATION
 
+sc-confirm-sentences-title = Potvrďte nové věty
+sc-confirm-button-text = Potvrdit
 
 ## LANGUAGE INFO
 
+sc-lang-info-title-total = Celkem
+sc-lang-info-title-personal = Osobní
+# Variables:
+#   $totalSentences (Number) - Number of sentences uploaded in total for this language
+sc-lang-info-total =
+    { $totalSentences ->
+        [0] vět celkem.
+        [one] věta celkem.
+        [few] věty celkem.
+        [many] vět celkem.
+       *[other] vět celkem.
+    }
+# Variables:
+#   $totalInReview (Number) - Number of sentences currently in the review state for this language
+sc-lang-info-in-review =
+    { $totalInReview ->
+        [0] vět k ověření.
+        [one] věta k ověření.
+        [few] věty k ověření.
+        [many] vět k ověření.
+       *[other] vět k ověření.
+    }
 
 ## LOGIN
 
+sc-login-err-failed = Přihlášení selhalo
+sc-login-err-try-again = Prosím, zkuste to znovu.
 
 ## PROFILE
 
+# Variables:
+#   $username (String) - eMail address of the logged in user
+sc-profile-title = Profil: { $name }
+sc-personal-err-lang-not-found = Jazyk se nepodařilo odebrat: jazyk nebyl nalezen
+sc-personal-err-remove = Jazyk se nepodařilo odebrat
+sc-personal-your-languages = Vaše jazyky:
+sc-personal-remove-button = odebrat
+sc-personal-not-added = Dosud jste nepřidali žádné jazyky.
 
 ## REVIEW CRITERIA
 
+sc-criteria-modal = ⓘ Ověřovací kritéria
+sc-criteria-title = Ověřovací kritéria
+sc-criteria-make-sure = Ověřte, zda věta splňuje následující kritéria:
+sc-criteria-item-1 = Věta musí být napsána správně.
 
 ## REVIEW
 
