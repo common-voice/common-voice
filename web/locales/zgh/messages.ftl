@@ -1539,6 +1539,7 @@ citing-sentences-explanation-1 = ⵉⵅⴰⵜⵔ ⴰⴷ ⵜⵙⵙⴰⵎⵓⵎ �
 citing-sentences-subheader-websites = ⵉⵙⵉⵜⵡⵉⴱⵏ
 citing-sentences-subheader-websites-explanation = ⵜⵖⵉⵢⴷ ⴰⴷ ⵜⵙⵙⴰⵎⵓⴷ ⴰⵙⵉⵜⵡⵉⴱ, ⵎⴷ. "ⴽⴰⵎⵏⴼⵓⵢⵙ - https://commonvoice.mozilla.org/"
 citing-sentences-subheader-academic-reference = ⵜⴰⵙⴰⵖⵓⵍⵜ ⵜⴰⵙⴷⴰⵡⴰⵏⵜ
+citing-sentences-subheader-offline-sources = ⵉⵙⵓⴳⴰⵎ ⴱⵕⵕⴰ ⵏ ⵉⴼⵉⵍⵉ
 citation =
     .label = ⵜⴰⴱⴷⴰⵔⵜ
 self-citation = ⵜⴰⴱⴷⴰⵔⵎⴰⵏⵜ
