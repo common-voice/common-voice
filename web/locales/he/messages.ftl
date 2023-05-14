@@ -443,7 +443,7 @@ faq-do-want-native-q = אינני דובר השפה מלידה ויש לי מב�
 faq-do-want-native-a = כן, אנחנו רוצים במיוחד את הקול שלך! חלק ממטרתו של Common Voice היא לאסוף מבטאים שונים ככל הניתן, כדי ששירותי זיהוי קולי ישרתו את כולם בצורה מיטבית ובאופן שווה. משמעות הדבר היא שתרומות דוברים שאינם דוברים מלידה חשובות במיוחד.
 faq-why-different-speakers-q = מדוע יש צורך בדוברים שונים רבים כל כך לכל שפה?
 faq-why-my-lang-q = מדוע השפה שלי עדיין לא נמצאת?
-faq-what-quality-q = מהי איכות הקול הנדרשת לקטע דיבור כדי שיהיה ניתן להכלילו במערך הנתונים?
+faq-what-quality-q = מהי איכות השמע הנדרשת למקטע קול כדי שיהיה ניתן להכלילו במערך הנתונים?
 faq-what-quality-a = אנו רוצים שמערך הנתונים של Common Voice ישקף את איכות השמע שמנוע דיבור לטקסט ישמע בחיים האמיתיים, לכן אנו מחפשים גיוון. בנוסף לקהילה מגוונת של דוברים, מערך נתונים עם איכות שמע משתנה ילמד את מנוע הדיבור לטקסט להתמודד עם מצבים שונים בעולם האמיתי, החל מקולות רקע וכלה ברעש מכוניות. כל עוד קטע הקול שלך הוא נהיר, זה צריך להיות מספיק טוב עבור מערך הנתונים.
 faq-why-10k-hours-q = מדוע 10,000 שעות מאומתות הוא היעד לכל שפה מבחינת הקלטת שמע?
 faq-why-10k-hours-a = זהו בקירוב מספר השעות הנדרש לאמן מערכת זיהוי דיבור לטקסט ברמה גבוהה.
@@ -821,6 +821,7 @@ target-segment-learn-more = מידע נוסף
 
 ## Contribution Nav Items
 
+contribute-voice-collection-nav-header = איסוף קולות
 contribute-sentence-collection-nav-header = איסוף משפטים
 
 ## Reporting
@@ -959,6 +960,7 @@ card-button-next = הבא
 card-button-back = הקודם
 demo-language-select-label = עיון בשפות
 demo-eofy-header = מהדורת סוף שנת 2019
+demo-eofy-sub_header = מערך נתונים קולי, מוכן להורדה
 demo-account = חשבון
 
 ## Demo Account
@@ -1015,6 +1017,7 @@ sc-home-review-title = סקירת משפטים
 ## HOW-TO
 
 sc-howto-addsen-title = הוספת משפטים חדשים
+sc-howto-addsen-item-2 = מספרים. לא אמורות להיות ספרות בטקסט המקור מכיוון שהן עלולות לגרום לבעיות בקריאה בקול רם. אופן הקריאה של מספר תלוי בהקשר ועלול ליצור בלבול במערך הנתונים. לדוגמה, ניתן לקרוא את המספר "2409" במדויק כ"עשרים וארבע אפס תשע" וגם "אלפיים ארבע מאות תשע".
 sc-howto-review-title = סקירת משפטים
 sc-howto-review-subtitle = נא לוודא שהמשפט עומד בתנאים הבאים:
 sc-howto-review-criteria-1 = המשפט חייב להיות מאוית כראוי.
@@ -1175,13 +1178,27 @@ sc-validation-no-abbreviations = משפט לא יכול להכיל ראשי תי
 
 localization-select =
     .label = בחירה בשפה/תרגום
+partnerships-corporates-description = אם אתם רוצים לדבר עוד על מערך הנתונים, להשקיע בהרחבות עתידיות בפלטפורמה או מחפשים הזדמנויות לשיתוף פעולה, <emailFragment>כתבו לנו</emailFragment>.
 partnerships-our-partners = השותפים שלנו
 why-donate-explanation-1 = זו בחירה שלכם האם לספק מידע זה - עשו זאת רק אם אתם מרגישים בנוח. כאשר אנו משחררים גרסה של מערך הנתונים, אנו יוצרים גרסה בדויה של המידע האישי, ומוודאים שנתונים כגון השם או כתובת הדוא"ל לא יהיו קשורים למידע דמוגרפי כמו גיל או מין.
 thanks-for-voice-toast-error = אירעה שגיאה בעת שליחת נתוני הקול שלך
 create-profile-button = יצירת פרופיל
+# GUIDELINES PAGE
+guidelines-header = החניות לתרומה
+guidelines-header-subtitle = הבינו כיצד לתרום ולאמת משפטים ומקטעי שמע למערך הנתונים של Common Voice
+voice-collection = איסוף קולות
 sentence-collection = אוסף משפטים
+varying-pronunciations = הגיות שונות
+misreadings = קריאות שגויות
+offensive-content = תוכן פוגעני
+background-noise = רעש רקע
+background-voices = קולות רקע
+volume = עוצמת קול
+public-domain-explanation-1 = חשוב מאוד שכל המשפטים יהיו <publicDomain>בנחלת הכלל</publicDomain> (<cc0>CC0</cc0>) שכן מערך הנתונים Common Voice משוחרר תחת רישיון CC0. העלו משפט כלשהו רק אם אתם בטוחים, והכלילו תמיד ציטוט רלוונטי.
+adding-sentences-subheader-numbers-explanation = באופן אידיאלי לא אמורות להיות ספרות בטקסט המקור מכיוון שהן עלולות לגרום לבעיות בקריאה בקול רם. אופן הקריאה של מספר תלוי בהקשר ועלול ליצור בלבול במערך הנתונים. לדוגמה, ניתן לקרוא את המספר "2409" במדויק כ"עשרים וארבע אפס תשע" וגם "אלפיים ארבע מאות תשע".
 reviewing-sentences-explanation-4 = אם אין לכם יותר משפטים לסקירה, נשמח שתעזרו לנו לאסוף עוד!
 community-announcement-explanation = ההנחיות שלהלן רלוונטיות לתכונות אספן המשפטים החדשות, אשר ישולבו בליבה של פלטפורמת Common Voice במהלך מרץ-אפריל 2023. בינתיים תוכלו להשתמש בכלי הקודם, <scLink>https://commonvoice.mozilla.org/ אספן משפטים/</scLink>.
+write-page-subtitle = משפטים שנתרמו כאן יתווספו למערך נתונים פומבי ברישיון CC0.
 add-sentence-success = נאסף משפט אחד.
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = אנו מבצעים כאן שינויים גדולים
