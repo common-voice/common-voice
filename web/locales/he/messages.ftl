@@ -426,6 +426,7 @@ faq-why-important-a =
 faq-how-get-q = איך ניתן לקבל את הנתונים מ־Common Voice?
 faq-how-get-a = מאגר הנתונים של Common Voice זמין להורדה תחת הרישיון <licenseLink>CC0</licenseLink> <datasetLink>בדף מאגרי הנתונים שלנו</datasetLink>. ניתן גם להוריד מספר מאגרי נתונים אחרים הזמינים לציבור מאותו הדף.
 faq-when-release2-q = מתי נתוני Common Voice בשפות אחרות ישוחררו לקהל הרחב?
+faq-when-release2-a = הגרסה הרב-שפתית של מסד הנתונים של Common Voice עוברת כרגע ניקוי ואריזה בעזרתה של הקהילה. אם תרצו לעזור לנו להעביר את Common Voice לשפות חדשות, נסו את <sentenceCollectorLink>אספן המשפטים</ sentenceCollectorLink> להוספת משפטים חדשים למערך, ואת Mozilla <pontoonLink>Pontoon</pontoonLink> לתרגום האתר עצמו. שפות חדשות מתווספות ל- Common Voice לצורך תרומה קולית כאשר אושרו 5,000 משפטים מן האוסף.
 faq-what-cv-and-deepspeech-q = מה ההבדל בין Common Voice לבין Deep Speech?
 faq-what-cv-and-deepspeech-a = מאגר הנתונים של Common Voice משלים את Deep Speech, מנוע זיהוי הקול בקוד פתוח של Mozilla. הגרסה הראשונה של Deep Speech שוחררה בנובמבר 2017 והמשיכה להתפתח מאז. יחד עם מאגר הנתונים של Common Voice, אנו מאמינים שטכנולוגיית זיהוי קול בקוד פתוח זו צריכה להיות זמינה לכולם. אנו מקווים שטכנולוגיות אלה יאפשרו למפתחים לבנות גל של מוצרים ושירותים חדשניים.
 faq-is-goal-assistant-q = האם המטרה של Common Voice היא לבנות עוזר קולי?
@@ -463,6 +464,7 @@ how-does-it-work-title-v2 = איך Common Voice פועל?
 
 ## How does it work section
 
+about-sentence-collection-title = איסוף משפטים
 about-voice-validation-subtitle = אנשים אחרים מאמתים את המקטעים הקוליים האלה.
 about-subscribe-text = רוצה להישאר בקשר עם Common Voice?
 about-speak = דבר
@@ -497,6 +499,11 @@ about-playbook-how-add-language-content-1 = ראשית יש לבדוק אם הש
 about-playbook-how-add-language-translating-heading = תרגום האתר
 about-playbook-how-add-language-collecting-sentences-heading = איסוף משפטים
 about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>להסבר על השימוש במנגנון איסוף המשפטים</sentenceCollectorVideo>.
+about-playbook-how-add-language-collecting-sentences-content-2 =
+    באפשרותכם <sentenceCollectorLinkAdd>להוסיף משפטים אחד-אחד</sentenceCollectorLinkAdd>,
+    או לחילופין <bulkImportDocsLink>לבצע ייבוא של מספר גדול של משפטים דרך Github</bulkImportDocsLink>.
+    זכרו כי המשפטים צריכים להמצא תחת רשיון <licenseLink>CC0 (או בנחלת הכלל)</licenseLink>, או שבאפשרותכם לכתוב משפטים משלכם.
+about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>קראו עוד אודות אספן המשפטים</sentenceCollectorFragment>.
 
 ## How does localization work
 
@@ -925,7 +932,8 @@ sc-login-signup-button = כניסה / הרשמה
 
 ## HOME
 
-sc-home-title = ברוך בואך לאוסף המשפטים של Common Voice
+sc-home-title = ברוכים הבאים לאספן המשפטים של Common Voice
+sc-home-intro = אספן המשפטים הוא חלק מ-<commonVoiceLink>Common Voice</commonVoiceLink>. כלי זה מאפשר לתורמים לאסוף ולאמת משפטים שנוצרו על ידי הקהילה. תוכלו להשתמש בכלי זה גם כדי לייבא ולנקות מאגר כתוב הנמצא בנחלל הכלל שמצאת או אספת, בגודל קטן עד בינוני. כל המשפטים צריכים להיות בנחלת הכלל. משפטים שאושרו עוברים ייצוא מידי שבוע למאגר Common Voice ומתפרסמים באתר Common Voice בכל פריסה חדשה.
 sc-home-collect-title = איסוף משפטים
 sc-home-review-title = סקירת משפטים
 
@@ -1097,3 +1105,7 @@ partnerships-our-partners = השותפים שלנו
 thanks-for-voice-toast-error = אירעה שגיאה בעת שליחת נתוני הקול שלך
 create-profile-button = יצירת פרופיל
 sentence-collection = אוסף משפטים
+community-announcement-explanation = ההנחיות שלהלן רלוונטיות לתכונות אספן המשפטים החדשות, אשר ישולבו בליבה של פלטפורמת Common Voice במהלך מרץ-אפריל 2023. בינתיים תוכלו להשתמש בכלי הקודם, <scLink>https://commonvoice.mozilla.org/ אספן משפטים/</scLink>.
+# SENTENCE-COLLECTOR-REDIRECT PAGE
+sc-redirect-page-title = אנו מבצעים כאן שינויים גדולים
+sc-redirect-page-subtitle-1 = אספן המשפטים עובר תחת הליבה של Common Voice. תוכלו כעת <writeURL>לכתוב</writeURL> או <reviewURL>לסקור</reviewURL> הגשות של משפטים בודדים ב-Common Voice.
