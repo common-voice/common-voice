@@ -1302,6 +1302,8 @@ sc-add-lang-process-notice = ⵎⴽ ⵓⵔ ⵜⴻⵜⵜⵓⴷⵔⵙ ⵜⵓⵜⵍ
 
 ## ADD SENTENCES CONFIRMATION
 
+sc-confirm-are-you-sure =
+    .message = ⵓⵔ ⵜⵜⵢⴰⵣⴰⵏⵏⵜ ⵜⵡⵉⵏⴰⵙ, ⵉⵙ ⵏⵉⵜ ⵜⵅⵙⴷ ⴰⴷ ⵜⴼⵍⴷ?
 sc-confirm-sentences-title = ⵙⵙⴷⴻⴷ ⵜⵉⵡⵉⵏⴰⵙ ⵜⵉⵎⴰⵢⵏⵓⵜⵉⵏ
 # Variables:
 #   $countOfSentences (Number) - Number of sentences the user has filled in the submission form
