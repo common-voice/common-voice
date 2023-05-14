@@ -1,7 +1,7 @@
 ## General
 
 yes-receive-emails = כן, שלחו לי דואל. אני רוצה עדכונים אודות מיזם Common Voice.
-stayintouch = אנו ב־Mozilla בונים קהילה סביב טכנולוגיות קול. נשמח להישאר איתך בקשר ולעניין אותך בעדכונים, מקורות נתונים חדשים ולשמוע עוד על אופן השימוש שלך בנתונים האלה.
+stayintouch = אנו ב-־Mozilla בונים קהילה סביב טכנולוגיות קול. נשמח להישאר איתך בקשר ולעניין אותך בעדכונים, מקורות נתונים חדשים ולשמוע עוד על אופן השימוש שלך בנתונים האלה.
 privacy-info = אנו מבטיחים לטפל במידע שלך בזהירות רבה. ניתן לקרוא עוד ב<privacyLink>מדיניות הפרטיות</privacyLink> שלנו.
 return-to-cv = חזרה אל Common Voice
 email-input =
@@ -524,6 +524,10 @@ about-playbook-what-is-language-content-3 = לשפות מסוימות יש שו�
 about-playbook-how-add-language = איך אפשר להוסיף שפה?
 about-playbook-how-add-language-content-1 = ראשית יש לבדוק אם השפה שלך <languageLink>כבר קיימת</languageLink>. אם לא, עליך <strong>לתרגם את האתר ולאסוף משפטים</strong>.
 about-playbook-how-add-language-translating-heading = תרגום האתר
+about-playbook-how-add-language-translating-content-2 =
+    אנו משתמשים בכלי של Mozilla הקרוי <pontoonLink>פוֹנטוּן (Pontoon)</pontoonLink> על מנת לתרגם הכל. בפונטון קיימות שפות רבות, אך אם שלכם אינה קיימת באפשרותכם <pontoonRequestLink>לבקש שיוסיפו אותה</pontoonRequestLink>.
+    לאחר מכן, כדי להפוך את השפה לזמינה ב-Common Voice 
+    <githubRepoLink>פתחו בקשה ב-GitHub</githubRepoLink>. <localizationFragment>קראו עוד אודות תרגום האתר</localizationFragment>.
 about-playbook-how-add-language-collecting-sentences-heading = איסוף משפטים
 about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>להסבר על השימוש במנגנון איסוף המשפטים</sentenceCollectorVideo>.
 about-playbook-how-add-language-collecting-sentences-content-2 =
@@ -575,6 +579,7 @@ about-playbook-how-access-dataset-content-2 = אם אתם מחפשים כלים 
 ## How are decisions made
 
 about-playbook-how-project-governance = איך מתקבלות החלטות במיזם?
+about-playbook-how-project-governance-content-1 = Common Voice של Mozilla מתאפשר על ידי קהילה מגוונת של פעילים, בלשנים, מדעני נתונים, אקדמאים ומהנדסי תוכנה מכל רחבי העולם. הפרויקט מנוהל על ידי קרן Mozilla.
 about-playbook-how-project-governance-content-3 = פרטיות, אבטחה ושקיפות.
 about-playbook-how-project-governance-content-4 = מעורבות בקהילה וקבלת החלטות.
 about-playbook-how-project-governance-content-6 = אחריות הדדית.
@@ -674,6 +679,10 @@ get-started-speech = התחילו לעבוד עם זיהוי דיבור
 other-datasets = מערכי נתוני קול נוספים
 feedback-q = יש לכם משוב?
 resource-nemo-info = ™<githubLink>NVIDIA NeMo</githubLink> היא <docsLink>ערכת כלים בקוד פתוח</docsLink> עבור חוקרים המפתחים מודלים מתקדמים של AI לשיחות.
+resource-deepspeech-info = ניתן להשתמש במנוע הקוד הפתוח לזיהוי קול Deep Speech של Mozilla לבניית יישומי זיהוי דיבור. קראו את <githubLink>הסקירה הכללית שלנו ב- Github</githubLink> או הצטרפו ל<discourseLink>DeepSpeech Discourse</discourseLink> כדי ללמוד כיצד להתחיל.
+resource-coqui-info = <coquiLink>Coqui</coquiLink> מוקדש לטכנולוגיות דיבור פתוחות. הפרויקטים שלהם כוללים מנועי STT ו-TTS מבוססי למידה עמוקה.
+community-playbook = ספרון הקהילה
+resource-playbook-info = <playbookLink>מצאו הדרכה מועילה</playbookLink> אודות המסע השלם של Common Voice, החל מלוקליזציה וכלה בשימוש במערך הנתונים, כמו גם כיצד להתחבר עם הקהילה שלנו.
 data-other-librispeech-description = LibriSpeech הוא מאגר של כ־1000 שעות של דיבור באנגלית באיכות של 16Khz שנגזר מספרי שמע שהוקראו עבור מיזם LibriVox.
 data-other-ted-name = מאגר TED-LIUM
 data-other-ted-description = המאגר TED-LIUM, נוצר משיחות קוליות והתמלול שלהן, זמין באתר של TED.
