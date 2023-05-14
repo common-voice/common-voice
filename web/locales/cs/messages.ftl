@@ -444,6 +444,7 @@ gravatar_not_found = Pro váš e-mail nebyl nalezen žádný gravatar
 file_too_large = Zvolený soubor je příliš velký
 avatar-uploaded = Avatar nahrán
 max-file-size = max. { $kb } kb
+remove-avatar = Odebrat Avatara
 
 ## Profile - Email
 
@@ -487,6 +488,9 @@ faq-why-different-speakers-a =
     Většina databází mluveného slova je trénována s nadměrným zastoupením určitých demografických skupin, zpravidla <articleLink>mužů  střední třídy</articleLink>. Méně zastoupeny jsou poté přízvuky a dialekty tradičně asociované s minoritními etnickými skupinami. Mnoho strojů má taktéž problémy s ženskými hlasy.
     Proto v naší databázi chceme slyšet všechny!
 faq-why-my-lang-q = Proč můj jazyk ještě není zahrnut?
+faq-why-my-lang-a =
+    Common Voice je crowdsourcingová platforma a všechny jazyky přidali dobrovolníci.
+    Budeme rádi, když přidáte také ten váš! <languageRequestLink>Požádejte o přidání svého jazyka.</languageRequestLink>
 faq-what-quality-q = Jaká kvalita nahrávek je potřebná pro jejich zařazení databáze?
 faq-what-quality-a = Chceme, aby databáze projektu Common Voice odrážela kvalitu nahrávek, s kterými se poté budoucí systémy rozpoznání hlasu mohou setkat v běžném provozu, takže se snažíme o co největší spektrum rozdílných kvalit. Systémy rozpoznávání hlasu si tedy budou moci snadněji poradit s různými běžnými situacemi, od rozhovorů na pozadí po zvuky projíždějících aut. Je-li tedy vaše nahrávka slyšitelná, měla by pro naši databázi vyhovovat.
 faq-why-10k-hours-q = Proč je cílem pro pořizování nahrávek zrovna 10 000 ověřených hodin pro daný jazyk?
@@ -518,10 +522,28 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Proč Common Voice?
+about-header-description-v2 =
+    <p>Common Voice je veřejně dostupný soubor hlasových dat, který je založen na hlasech dobrovolných přispěvatelů z celého světa. Lidé, kteří chtějí vytvářet hlasové aplikace, mohou použít datovou sadu k trénování modelů strojového učení.</p>
+    <p>V současnosti je většina hlasových datových sad ve vlastnictví společností, což brzdí inovace. Hlasové datasety také nedostatečně reprezentují: neanglicky mluvící osoby, lidi jiné barvy pleti, zdravotně postižené, ženy a osoby LGBT+. To znamená, že technologie využívající hlas vůbec nefungují pro mnoho jazyků, a tam, kde fungují, nemusí fungovat stejně dobře pro všechny. To chceme změnit tím, že zmobilizujeme lidi na celém světě, aby se podělili o svůj hlas.</p>
+how-does-it-work-title-v2 = Jak Common Voice funguje?
 how-does-it-work-text = Sbíráme otevřenou databázi hlasových záznamů. Darujte svůj hlas, ověřte přesnost hlasových záznamů ostatních a pomozte nám tuto databázi dále vylepšovat.
 
 ## How does it work section
 
+about-language-req-subtitle = Někdo požádá o přidání jazyka.
+about-localization-title = Lokalizace webových stránek
+about-localization-subtitle = Text webových stránek je přeložen do příslušného jazyka.
+about-sentence-collection-title = Sběr vět
+about-sentence-collection-subtitle = Sestavuje se kolekce vět pro předčítání.
+about-new-lang-title = Zpřístupnění nového jazyka
+about-new-lang-subtitle = Spouštíme stránky Common Voice v příslušném jazyce.
+about-voice-contrib-title = Zaznamenávání hlasů
+about-voice-contrib-subtitle = Lidé se zapojují a přispívají svými hlasy.
+about-voice-validation-title = Ověření hlasů
+about-voice-validation-subtitle = Ostatní lidé tyto nahrávky ověřují.
+about-dataset-release-title = Zveřejnění datové sady
+about-dataset-release-subtitle = Dataset vydáváme každé 3 měsíce.
+about-subscribe-text = Chcete zůstat v kontaktu s Common Voice?
 about-speak = Čtení
 about-speak-text = Přispěvatelé pořizují nahrávky čtením z databáze vět.
 about-listen-queue = Fronta nahrávek
@@ -544,23 +566,37 @@ about-get-involved-text-2 =
     Skvěle! Spojte se s námi prostřednictvím e-mailu nebo na <discourseLink>Discourse</discourseLink>,
     pošlete nám zpětnou vazbu skrze <githubLink>GitHub</githubLink>,
     nebo se připojte na náš komunitní chat <matrixLink>Matrix</matrixLink>.
+about-stay-in-touch = Jak zůstat v kontaktu?
+about-stay-in-touch-button = Registrace
 about-nav-why-common-voice = Proč?
 about-nav-how-it-works = Jak?
 about-nav-partners = Partneři
 about-nav-get-involved = Zapojte se
+about-nav-how-it-works-2 = Jak Common Voice funguje?
+about-nav-playbook = Jak se zapojit
 
 ## Community Playbook Content
 ## What is a language
 
+about-playbook-what-is-language = Co je to jazyk z pohledu Common Voice?
 
 ## How do I add a language
 
+about-playbook-how-add-language = Jak přidám jazyk?
+about-playbook-how-add-language-translating-heading = Překlad webu
+about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Podívejte se na průvodce používáním Pontoon.</translateVideoLink>
+about-playbook-how-add-language-collecting-sentences-heading = Sběr vět
 
 ## How does localization work
 
+about-playbook-how-localize = Jak funguje lokalizace webu?
+about-playbook-how-localize-content-1 = Překlad stránek Common Voice probíhá v nástroji <strong>Pontoon</strong>.
+about-playbook-how-localize-content-4 = Stránka je připravena ke spuštění, je-li přeloženo alespoň 75 %.
+about-playbook-how-localize-content-5 = Spustit instruktážní video
 
 ## How to add sentences
 
+about-playbook-how-add-sentences = Jak přidávat věty?
 
 ## How to record quality
 
