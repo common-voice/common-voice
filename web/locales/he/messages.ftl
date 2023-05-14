@@ -508,7 +508,8 @@ about-playbook-how-localize-content-5 = ניתן לצפות בסרטון ההס�
 ## How to add sentences
 
 about-playbook-how-add-sentences = איך אני מוסיף משפטים?
-about-playbook-how-add-sentences-content-1 = <strong>אספן המשפטים</strong> הוא כלי לאיסוף ובדיקה של משפטים שהינם נחלת הכלל. תהיו צריכים <scAccountLink>ליצור חשבון</scAccountLink>. לאחר מכן, הוסיפו את השפה שלכם ב<strong>פרופיל</strong> שלכם. באפשרותכם <strong>להוסיף</strong> משפטים או <strong>לסקור</strong> משפטים שנוספו בעבר.
+about-playbook-how-add-sentences-content-1 = <strong>אספן המשפטים</strong> הוא כלי לאיסוף ואימות של משפטים שהינם בנחלת הכלל. תהיו צריכים <scAccountLink>ליצור חשבון</scAccountLink>. לאחר מכן, הוסיפו את השפה שלכם ב<strong>פרופיל</strong> שלכם. באפשרותכם <strong>להוסיף</strong> משפטים או <strong>לסקור</strong> משפטים שנוספו בעבר.
+about-playbook-how-add-sentences-content-2 = משפטים חייבים לעבור סקירה ולהתקבל על ידי שני אנשים כדי להיכלל ב-Common Voice. אתם יוצרים הנחיות לשפה שלכם <languageGuidelinesLink>כאן</languageGuidelinesLink>. משפטים חייבים להיות ב<licenseLink>נחלת הכלל</licenseLink> וקצרים מ-15 מילים. אתם יכולים לבקש מהבעלים של טקסט כלשהו להפוך אותו לזמין ברשיון <waiverLink>CC0 באמצעות כתב הוויתור שלנו</waiverLink>, ולשלוח אלינו לכתובת commonvoice@mozilla.com
 about-playbook-how-add-sentences-content-3 = אפשר להשתמש ב<scraperLink>מחלץ המשפטים</scraperLink> כדי למנף משפטים קצרים מוויקיפדיה.
 about-playbook-how-add-sentences-content-4 = משפטים שעברו אימות מיוצאים בימי רביעי והם זמינים לאחר המהדורה הבאה.
 
