@@ -608,6 +608,10 @@ about-playbook-how-record-content-4 = Dbejte na to, aby nahrávání začalo <st
 
 ## How to grow language
 
+about-playbook-how-grow-language = Jak efektivně rozvíjet jazyk na Common Voice?
+about-playbook-how-grow-language-content-2 = Akce
+about-playbook-how-grow-language-content-4 = Sociální sítě
+about-playbook-how-grow-language-content-6 = Partnerství a propojování
 
 ## How to validate
 
