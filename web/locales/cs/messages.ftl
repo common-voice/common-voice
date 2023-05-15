@@ -1229,14 +1229,20 @@ sc-my-no-sentences = Žádné věty nebyly nalezeny!
 #   $batchId (String) - A unique ID identifying the submission of sentences - sentences uploaded together all have the same batch ID
 sc-my-submission = Odeslání: { $batchId }
 sc-my-deleting = Odstraňování vybraných vět...
+sc-my-err-failed-delete = Vybrané věty se nepodařilo odstranit… Zkuste to, prosím, znovu!
 
 ## REJECTED
 
+sc-rejected-title = Zamítnuté věty
+sc-rejected-loading = Načítání zamítnutých vět…
+sc-rejected-err-fetching = Chyba při načítání zamítnutých vět. Zkuste to prosím znovu.
+sc-rejected-none-found = Nebyly nalezeny žádné zamítnuté věty!
 
 ## STATS
 
 sc-stats-title = Statistiky
 sc-stats-updating = Probíhá aktualizace...
+sc-stats-error = Nepodařilo se načíst statistiky. Zkuste to prosím později.
 
 ## ADD
 
