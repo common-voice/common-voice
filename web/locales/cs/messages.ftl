@@ -1353,6 +1353,9 @@ sc-personal-err-lang-not-found = Jazyk se nepodařilo odebrat: jazyk nebyl nalez
 sc-personal-err-remove = Jazyk se nepodařilo odebrat
 sc-personal-your-languages = Vaše jazyky:
 sc-personal-remove-button = odebrat
+# Variables:
+#   $sentences (Number) - Number of sentences that were added by the currently logged in user for this language
+sc-personal-added-by-you = { $sentences } vámi přidaných
 sc-personal-not-added = Dosud jste nepřidali žádné jazyky.
 
 ## REVIEW CRITERIA
@@ -1363,9 +1366,15 @@ sc-criteria-make-sure = Ověřte, zda věta splňuje následující kritéria:
 sc-criteria-item-1 = Věta musí být napsána správně.
 sc-criteria-item-2 = Věta musí být gramaticky správná.
 sc-criteria-item-3 = Věta musí být vyslovitelná.
+sc-criteria-item-4 = Pokud věta splňuje kritéria, klepněte vpravo na tlačítko &quot;Schválit&quot;.
+sc-criteria-item-5-2 = Pokud věta nesplňuje výše uvedená kritéria, klepněte vlevo na tlačítko „Zamítnout“;. Pokud si větou nejste jisti, můžete ji také přeskočit a přejít na další.
+sc-criteria-item-6 = Pokud vám dojdou věty k ověření, pomozte nám shromáždit další věty!
 
 ## REVIEW
 
+sc-review-lang-not-selected = Nemáte vybrán žádný jazyk. Přejděte na svůj <profileLink>profil</profileLink> a jazyky nastavte.
+sc-review-title = Ověřování vět
+sc-review-loading = Načítání vět…
 
 ## SETTINGS
 
