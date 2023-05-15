@@ -1387,6 +1387,9 @@ sc-review-select-language = Vyberte jazyk pro kontrolu vět.
 sc-review-no-sentences = Nic dalšího k ověření. <addLink>Přidat další věty!</addLink>
 sc-review-form-prompt =
     .message = Ověřené věty nebyly odeslány. Vážně pokračovat?
+# Variables:
+#   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
+sc-review-form-source = Zdroj: { $sentenceSource }
 sc-review-form-button-reject = Zamítnout
 sc-review-form-button-skip = Přeskočit
 sc-review-form-button-approve = Schválit
@@ -1396,8 +1399,20 @@ sc-review-form-button-approve-shortcut = Y
 sc-review-form-button-reject-shortcut = N
 # Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
 sc-review-form-button-skip-shortcut = S
+sc-review-form-keyboard-usage-custom = Můžete také použít klávesové zkratky: { sc-review-form-button-approve-shortcut } pro schválení, { sc-review-form-button-reject-shortcut } pro zamítnutí, { sc-review-form-button-skip-shortcut } pro přeskočení
 sc-review-form-button-submit =
     .submitText = Dokončit ověření
+# Variables:
+#   $sentences (Number) - Number of sentences the user has reviewed in this session
+sc-review-form-reviewed-message =
+    { $sentences ->
+        [0] Žádná ověřená věta.
+        [one] 1 ověřená věta. Děkujeme!
+        [few] Ověřeny { $sentences } věty. Děkujeme!
+        [many] Ověřeno { $sentences } vět. Děkujeme!
+       *[other] Ověřeno { $sentences } vět. Děkujeme!
+    }
+sc-review-form-review-failure = Ověření se nepodařilo uložit. Zkuste to prosím později.
 sc-review-link = Ověření
 
 ## SETTINGS
@@ -1430,10 +1445,18 @@ partnerships-foundations-description = Spolupracujeme s nadacemi, občanskou spo
 partnerships-governments-header = Vlády
 partnerships-governments-description = S nadšením podporujeme zapojení veřejného sektoru v oblasti technologií, inovací a jazykových práv. Pokud plánujete realizovat významný projekt nebo kampaň, <emailFragment>kontaktujte nás.</emailFragment>
 partnerships-academia-header = Univerzity, akademičtí a výzkumní pracovníci
+partnerships-academia-description = Otevřené inovace jsou jádrem naší práce. V případě zájmu o výzkumnou spolupráci, sběr dat nebo rozhovory se na nás <emailFragment>obraťte.</emailFragment>
 partnerships-small-business-header = Malé podniky, včetně technologických a AI start-upů
+partnerships-small-business-description = Vždy se chceme dozvědět od spotřebitelů dat o jejich potřebách a souvislostech - od spolupráce na platformě pro sběr dat až po poskytování informací o stavu dat. Rádi <emailFragment>uslyšíme váš názor.</emailFragment>
+partnerships-corporates-header = Velké korporace a platformy
+partnerships-corporates-description = Pokud si chcete promluvit více o datasetu, chcete spoluinvestovat do plánovaného rozšíření platformy nebo hledat možnosti spolupráce, <emailFragment>napište nám.</emailFragment>
 partnerships-our-partners = Naši partneři
+# FIRST POST SUBMISSION CTA
+first-cta-header-text = Děkujeme za věnovanou hlasovou nahrávku!
+first-cta-subtitle-text = Můžete se podělit o nějaké informace o tom, jak hovoříte?
 why-donate = Nač se ptáte?
 add-information-button = Přidat informace
+create-profile-text = Chcete informace uložit? <createProfile>Vytvořte si profil</createProfile>
 thanks-for-voice-toast = Děkuje za údaje o hlase.
 thanks-for-voice-toast-error = Při odesílání údajů o hlase došlo k chybě
 # SECOND POST SUBMISSION CTA
@@ -1443,6 +1466,7 @@ already-have-an-account = Už máte účet? <login>Přihlásit</login>
 create-profile-button = Vytvořit profil
 # GUIDELINES PAGE
 guidelines-header = Pokyny pro přispěvatele
+guidelines-header-subtitle = Zjistit jak přispívat do datasetu Common Voice ověřováním vět a hlasových nahrávek
 voice-collection = Sbírka hlasů
 sentence-collection = Sbírka vět
 varying-pronunciations = Rozmanitá výslovnost
@@ -1454,6 +1478,8 @@ volume = Hlasitost
 reader-effects = Způsob řeči
 just-unsure = Jen si nejste jisti?
 example = Příklad
+varying-pronunciations-explanation-2 = Na druhou stranu, pokud se domníváte, že se čtenář s daným slovem nikdy nesetkal a nesprávně odhaduje jeho výslovnost, odmítněte jej. Pokud si nejste jisti, použijte tlačítko "Přeskočit".
+misreadings-explanation-2 = Mezi běžné chyby patří:
 misreadings-example-4 = Kolem proletěl čmelák.
 citing-sentences-subheader-websites = Webové stránky
 citing-sentences-subheader-websites-explanation = Můžete uvést webové stránky, např. „Úřad vlády ČR – https://www.vlada.cz“
