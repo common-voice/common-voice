@@ -636,6 +636,7 @@ about-playbook-how-grow-language-content-8 = <strong>היו יצירתיים!</s
 about-playbook-how-validate = איך אוכל לדעת אם לאשר מקטע קולי?
 about-playbook-how-validate-content-1 = אם אתם יכולים <strong>לשמוע</strong> ו<strong>להבין</strong> אותם, בדרך כלל <strong>עדיף לאשר</strong>.
 about-playbook-how-validate-content-2 = <strong>אל תדחו קליפים שבהם לדובר 'יש מבטא' שונה משלכם</strong> - זה חשוב על-מנת שזיהוי קול יעבוד טוב יותר עבור כולם.
+about-playbook-how-validate-content-3 = אם אתם חושבים שההגייה הופכת את זה ל<strong>בלתי אפשרי להבנה</strong>, או שיש <strong>הרבה רעשי רקע</strong>, או שיש <strong>אנשים אחרים שמדברים גם</strong>, אז אתם צריכים לדחות את המקטע. <accuracyLink>ראה מידע נוסף בקריטריוני הדיוק שלנו</accuracyLink>.
 about-playbook-how-validate-content-4 = אם מקטע נדחה על־ידי 2 אנשים הוא מתפרסם תחת חלק אחר של מערך נתונים.
 
 ## How to access dataset
@@ -648,9 +649,12 @@ about-playbook-how-access-dataset-content-2 = אם אתם מחפשים כלים 
 
 about-playbook-how-project-governance = איך מתקבלות החלטות במיזם?
 about-playbook-how-project-governance-content-1 = Common Voice של Mozilla מתאפשר על ידי קהילה מגוונת של פעילים, בלשנים, מדעני נתונים, אקדמאים ומהנדסי תוכנה מכל רחבי העולם. הפרויקט מנוהל על ידי קרן Mozilla.
+about-playbook-how-project-governance-content-2 = אופן ניהול הקהילה שלנו מושתת על עמודי התווך של:
 about-playbook-how-project-governance-content-3 = פרטיות, אבטחה ושקיפות.
 about-playbook-how-project-governance-content-4 = מעורבות בקהילה וקבלת החלטות.
+about-playbook-how-project-governance-content-5 = ערך והכרה.
 about-playbook-how-project-governance-content-6 = אחריות הדדית.
+about-playbook-how-project-governance-content-7 = <governanceLink>קראו עוד על האופן שבו אנחנו מנוהלים</governanceLink>
 
 ## Glossary
 
@@ -671,6 +675,7 @@ de-identified-explanation = התהליך שבו מידע מהפרופיל של �
 error-title-404 = לא הצלחנו למצוא את הדף הזה עבורך
 error-content-404 = אולי <homepageLink>דף הבית</homepageLink> שלנו יכול לעזור? כדי לשאול שאלה, נא להצטרף ל<matrixLink>צ’אט הקהילה ב־Matrix</matrixLink>, לעקוב אחר בעיות באתר באמצעות <githubLink>GitHub</githubLink> או לבקר <discourseLink>בפורומים שלנו ב־Discourse</discourseLink>.
 error-title-503 = אנו חווים כרגע השבתה בלתי צפויה
+error-content-503 = האתר יעלה לאוויר שוב בהקדם האפשרי. לקבלת המידע העדכני ביותר, אנא הצטרפו ל-<matrixLink>צ'אט הקהילתי ב-Matrix</ matrixLink> או בקרו ב-<githubLink> GitHub</githubLink> או <discourseLink>בפורומי Discourse שלנו</ discourseLink> כדי לדווח ולנטר על בעיות באתר.
 error-code = שגיאה { $code }
 
 ## Data
@@ -1171,6 +1176,7 @@ sc-confirm-rejected-by-you = { $countOfInvalidated } נדחו על ידיך
 
 ## LANGUAGE INFO
 
+sc-lang-info-title-total = סך הכל
 sc-lang-info-title-personal = פרטי
 
 ## LOGIN
@@ -1246,10 +1252,26 @@ sc-validation-no-abbreviations = משפט לא יכול להכיל ראשי תי
 
 localization-select =
     .label = בחירה בשפה/תרגום
+partnerships-get-in-touch = צרו קשר
+partnerships-become-a-partner = הפכו לשותפים של Common Voice
+partnerships-community-header = קהילה, יוצרים וחברה אזרחית
 partnerships-corporates-description = אם אתם רוצים לדבר עוד על מערך הנתונים, להשקיע בהרחבות עתידיות בפלטפורמה או מחפשים הזדמנויות לשיתוף פעולה, <emailFragment>כתבו לנו</emailFragment>.
 partnerships-our-partners = השותפים שלנו
+# FIRST POST SUBMISSION CTA
+first-cta-header-text = תודה שתרמתם את מקטעי הקול שלכם!
+first-cta-subtitle-text = האם תרצו לשתף קצת מידע על אופן הדיבור שלכם?
+why-donate = מדוע אנחנו שואלים?
 why-donate-explanation-1 = זו בחירה שלכם האם לספק מידע זה - עשו זאת רק אם אתם מרגישים בנוח. כאשר אנו משחררים גרסה של מערך הנתונים, אנו יוצרים גרסה בדויה של המידע האישי, ומוודאים שנתונים כגון השם או כתובת הדוא"ל לא יהיו קשורים למידע דמוגרפי כמו גיל או מין.
+why-donate-explanation-2 = כדי שטכנולוגיה תעבור טוב עבור כולם, הנתונים שעוזרים למפתחים לבנות טכנולוגיה צריכים לשקף מגוון רחב של אנשים. למשל, אם לא נכלול דוברים עם מבטא מסויים, אז הטכנולוגיה לא תעבוד טוב עבור אנשים עם מבטא כזה. <learnMore>קראו עוד על החשיבות של מטא-נתונים.</learnMore>
+add-information-button = הוספת מידע
+continue-speaking-button = לא תודה, להמשיך לדבר
+create-profile-text = רוצים לשמור את המידע שלכם? <createProfile>צרו פרופיל</createProfile>
+thanks-for-voice-toast = תודה לכם על המידע הקולי שלכם
 thanks-for-voice-toast-error = אירעה שגיאה בעת שליחת נתוני הקול שלך
+# SECOND POST SUBMISSION CTA
+second-cta-header-text = תודה שתרמתם את קולכם!
+second-cta-subtitle-text = כאשר יש לכם פרופיל, באפשרותכם לעקוב אחר הפעילות שלכם ולהתחבר עם קהילת תורמי הקול.
+already-have-an-account = כבר יש לכם חשבון? <login>היכנסו</login>
 create-profile-button = יצירת פרופיל
 # GUIDELINES PAGE
 guidelines-header = החניות לתרומה
