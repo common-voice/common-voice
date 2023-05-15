@@ -1207,7 +1207,7 @@ sc-howto-title = Návody
 sc-howto-addlang-title = Přidání jazyků, se kterými lze pracovat
 sc-howto-addsen-title = Přidávání nových vět
 sc-howto-cite-title = Jak citovat
-sc-howto-cite-item-1 = Můžete uvést webové stránky, např. „Common Voice - https://commonvoice.mozilla.org/“
+sc-howto-cite-item-1 = Můžete uvést webové stránky, např. „Úřad vlády ČR – https://www.vlada.cz“
 sc-howto-review-title = Kontrola vět
 sc-howto-review-subtitle = Zkontrolujte, zda věta splňuje následující kritéria:
 sc-howto-review-criteria-1 = Věta musí být napsána správně.
@@ -1229,14 +1229,20 @@ sc-my-no-sentences = Žádné věty nebyly nalezeny!
 #   $batchId (String) - A unique ID identifying the submission of sentences - sentences uploaded together all have the same batch ID
 sc-my-submission = Odeslání: { $batchId }
 sc-my-deleting = Odstraňování vybraných vět...
+sc-my-err-failed-delete = Vybrané věty se nepodařilo odstranit… Zkuste to, prosím, znovu!
 
 ## REJECTED
 
+sc-rejected-title = Zamítnuté věty
+sc-rejected-loading = Načítání zamítnutých vět…
+sc-rejected-err-fetching = Chyba při načítání zamítnutých vět. Zkuste to prosím znovu.
+sc-rejected-none-found = Nebyly nalezeny žádné zamítnuté věty!
 
 ## STATS
 
 sc-stats-title = Statistiky
 sc-stats-updating = Probíhá aktualizace...
+sc-stats-error = Nepodařilo se načíst statistiky. Zkuste to prosím později.
 
 ## ADD
 
@@ -1317,4 +1323,28 @@ sc-criteria-item-3 = Věta musí být vyslovitelná.
 
 # [/SentenceCollector]
 
+partnerships-our-partners = Naši partneři
+add-information-button = Přidat informace
+# SECOND POST SUBMISSION CTA
+second-cta-header-text = Děkujeme, že jste přispěli svým hlasem!
+create-profile-button = Vytvořit profil
+voice-collection = Sbírka hlasů
 sentence-collection = Sbírka vět
+varying-pronunciations = Rozmanitá výslovnost
+misreadings = Přeřeknutí
+offensive-content = Urážlivý obsah
+background-noise = Hluk v pozadí
+background-voices = Hlasy v pozadí
+volume = Hlasitost
+reader-effects = Způsob řeči
+just-unsure = Jen si nejste jisti?
+required-field = Vyplňte prosím toto pole.
+sc-review-instruction-second-part = je tato věta jazykově správná?
+sc-review-rules-title = Odpovídá věta doporučením?
+sc-review-empty-state = Tento jazyk nyní nemá k ověření žádné věty.
+report-sc-different-language = Další jazyk
+report-sc-different-language-detail = Je napsána v jiném jazyce, než jaký ověřuji.
+sentences-fetch-error = Při načítání vět došlo k chybě
+review-error = Při ověřování věty došlo k chybě
+# SENTENCE-COLLECTOR-REDIRECT PAGE
+sc-redirect-page-title = Probíhají rozsáhlé úpravy
