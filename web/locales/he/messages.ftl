@@ -469,6 +469,7 @@ faq-how-get-a = מערך הנתונים של Common Voice זמין להורדה 
 faq-when-release2-q = מתי נתוני Common Voice בשפות אחרות ישוחררו לקהל הרחב?
 faq-when-release2-a = הגרסה הרב-שפתית של מערך הנתונים של Common Voice עוברת כרגע ניקוי ואריזה בעזרתה של הקהילה. אם תרצו לעזור לנו להעביר את Common Voice לשפות חדשות, נסו את <sentenceCollectorLink>אספן המשפטים</ sentenceCollectorLink> להוספת משפטים חדשים למערך, ואת Mozilla <pontoonLink>Pontoon</pontoonLink> לתרגום האתר עצמו. שפות חדשות מתווספות ל- Common Voice לצורך תרומה קולית כאשר אושרו 5,000 משפטים מן האוסף.
 faq-why-mission-q = מדוע מיזם Common Voice הוא חלק מ-Mozilla?
+faq-why-mission-a = קרן Mozilla שמה לה למטרה לשמור על רשת האינטרנט פתוחה ונגישה לכולם. כדי להשיג מטרה זו עלינו להעצים יוצרים בעולם עם מיזמים כמו Common Voice. כיום, כאשר טכנולוגיות קוליות מתחילות לשמש מגוון רחב של יישומים, אנו מאמינים שעליהן לשרת את כל המשתמשים באופן שווה. אנו צריכים לכלול יותר שפות, סוגי מבטא והבדלים דמוגרפיים בעת בנייה ובדיקה של טכנולוגיות קוליות. Common Voice הוא משאב ציבורי הזמין לכל, וצוותי Mozilla כמו גם מגוון מפתחים ברחבי העולם כבר עושים בו שימוש בפרוייקטים שלהם .
 faq-what-cv-and-deepspeech-q = מה ההבדל בין Common Voice לבין Deep Speech?
 faq-what-cv-and-deepspeech-a = מערך הנתונים של Common Voice משלים את Deep Speech, מנוע זיהוי הקול בקוד פתוח של Mozilla. הגרסה הראשונה של Deep Speech שוחררה בנובמבר 2017 והמשיכה להתפתח מאז. יחד עם מערך הנתונים של Common Voice, אנו מאמינים שטכנולוגיית זיהוי קול בקוד פתוח זו צריכה להיות זמינה לכולם. אנו מקווים שטכנולוגיות אלה יאפשרו למפתחים לבנות גל של מוצרים ושירותים חדשניים.
 faq-is-goal-assistant-q = האם המטרה של Common Voice היא לבנות עוזר קולי?
@@ -476,7 +477,11 @@ faq-is-goal-assistant-a = המטרה של מערך הנתונים של Common Vo
 faq-do-want-native-q = אינני דובר השפה מלידה ויש לי מבטא בדיבור, האם אתם עדיין מעוניינים בקול שלי?
 faq-do-want-native-a = כן, אנחנו רוצים במיוחד את הקול שלך! חלק ממטרתו של Common Voice היא לאסוף מבטאים שונים ככל הניתן, כדי ששירותי זיהוי קולי ישרתו את כולם בצורה מיטבית ובאופן שווה. משמעות הדבר היא שתרומות דוברים שאינם דוברים מלידה חשובות במיוחד.
 faq-why-different-speakers-q = מדוע יש צורך בדוברים שונים רבים כל כך לכל שפה?
+faq-why-different-speakers-a = רוב מאגרי הנתונים של דיבור מאומנים עם ייצוג־יתר של דמוגרפיות מסוימות אשר גורמות להטיה לקראת <articleLink>זכרים ואנשים ממעמד ביניים</articleLink>. מבטאים וניבים שנוטים להיות מיוצגים פחות בנתוני אימון משויכים בדרך כלל לקבוצות של אנשים שגם כך מקופחות. מנועי הבנת דיבור רבים מתקשים אפילו להבין קולות נשיים. לכן במאגר הקול שלנו אנחנו רוצים גיוון!
 faq-why-my-lang-q = מדוע השפה שלי עדיין לא נמצאת?
+faq-why-my-lang-a =
+    Common Voice היא פלטפורמת מיקור המונים, והשפות נוספו כולן על ידי מתנדבים.
+    נשמח שתוסיפו את השפה שלכם! <languageRequestLink>שאלו אותנו לגבי הוספת השפה שלכם.</languageRequestLink>
 faq-what-quality-q = מהי איכות השמע הנדרשת למקטע קול כדי שיהיה ניתן להכלילו במערך הנתונים?
 faq-what-quality-a = אנו רוצים שמערך הנתונים של Common Voice ישקף את איכות השמע שמנוע דיבור לטקסט ישמע בחיים האמיתיים, לכן אנו מחפשים גיוון. בנוסף לקהילה מגוונת של דוברים, מערך נתונים עם איכות שמע משתנה ילמד את מנוע הדיבור לטקסט להתמודד עם מצבים שונים בעולם האמיתי, החל מקולות רקע וכלה ברעש מכוניות. כל עוד קטע הקול שלך הוא נהיר, זה צריך להיות מספיק טוב עבור מערך הנתונים.
 faq-why-10k-hours-q = מדוע 10,000 שעות מאומתות הוא היעד לכל שפה מבחינת הקלטת שמע?
@@ -516,8 +521,16 @@ how-does-it-work-text = אנו משתמשים במיקור המונים כדי �
 
 ## How does it work section
 
+about-language-req-subtitle = משתמשים מבקשים להוסיף שפה כלשהי.
+about-localization-title = תרגום האתר
+about-localization-subtitle = הטקסט שבאתר מתורגם לשפה הזאת.
 about-sentence-collection-title = איסוף משפטים
 about-sentence-collection-subtitle = משפטים נאספים כדי שאנשים יוכלו להקריא אותם בקול רם.
+about-new-lang-title = השקת שפה חדשה
+about-new-lang-subtitle = אנו משיקים את האתר של Common Voice בשפה זו.
+about-voice-contrib-title = תרומת קול
+about-voice-contrib-subtitle = אנשים באים ותורמים את הקול שלהם.
+about-voice-validation-title = אימות קול
 about-voice-validation-subtitle = אנשים אחרים מאמתים את המקטעים הקוליים האלה.
 about-dataset-release-title = פרסום מערך הנתונים
 about-dataset-release-subtitle = אנו מפרסמים את מערך הנתונים כל 3 חודשים.
@@ -530,19 +543,28 @@ about-listen = האזנה
 about-listen-text = משתמשים מאמתים את דיוק המקטעים שנתרמו, כדי לבדוק שהדוברים מקריאים את המשפט נכון.
 about-is-it-valid = האם הקטע תקף?
 about-is-it-valid-text = קטע קולי נחשב „תקף” כאשר מתקבלת עבורו הצבעת „כן”.
+about-yes-votes = ≥ 2 הצבעות "כן"
 about-yes-votes-text = על מנת להכנס למערך הנתונים של Common Voice, מקטע הקול מוכרח להיות מאומת על ידי שני משתמשים נפרדים.
+about-no-votes = ≥ 2 הצבעות "לא"
+about-no-votes-text = כאשר מקטע קול נדחה על ידי משתמש, הוא חוזר לתור. אם הוא נדחה בפעם השנייה, מקטע הקול מועבר לבית הקברות למקטעים.
 about-dataset-new = מערך הנתונים Common Voice
 about-dataset-new-text = מערך הנתונים Common Voice מכיל מאות אלפי דוגמאות קול המסייעות למפתחים לבנות כלים לזיהוי קולי.
+about-clip-graveyard = בית קברות למקטעים
 about-clip-graveyard-text = בית הקברות למקטעים מכיל מקטעי קול שלא הצליחו להכנס למערך Common Voice. בדיוק כמו מערך הנתונים, בית הקברות למקטעים זמין להורדה.
 about-get-involved = הצטרפות
+about-get-involved-text-2 =
+    רוצים לסייע לשפר את Common Voice עוד יותר?
+    מעולה! צרו קשר באמצעות דוא"ל או <discourseLink> פורומים של Discourse </ discourseLink>, דווחו על בעיות באתר באמצעות <githubLink> GitHub </githubLink>, או הצטרפו לצ'אט קהילתי ב-
+    <matrixLink> Matrix </ matrixLink>.
 about-stay-in-touch = איך אפשר לשמור על קשר?
 about-stay-in-touch-button = הרשמה
+about-stay-in-touch-text-1 = <emailFragment>הירשמו</emailFragment> לרשימת התפוצה שלנו על-מנת ללמוד כיצד לקחת חלק בתוכניות ואירועים, ולהשתתף בעיצוב המוצר של Common Voice.
 about-stay-in-touch-text-2 = אפשר לפגוש אחרים בקהילות השפה של Mozilla על ידי הצטרפות ל־<discourseLink>Discourse</discourseLink> לדיונים לפי נושאים או ל־<matrixLink>Matrix</matrixLink> להתייעצות זריזה.
 about-nav-why-common-voice = למה?
 about-nav-how-it-works = איך?
 about-nav-partners = שותפים
 about-nav-get-involved = הצטרפות
-about-nav-how-it-works-2 = איך Common Voice פועל?
+about-nav-how-it-works-2 = כיצד Common Voice פועל?
 about-nav-playbook = מידע כיצד לקחת חלק
 
 ## Community Playbook Content
@@ -558,6 +580,7 @@ about-playbook-what-is-language-content-3 = לשפות מסוימות יש שו�
 about-playbook-how-add-language = איך אפשר להוסיף שפה?
 about-playbook-how-add-language-content-1 = ראשית יש לבדוק אם השפה שלך <languageLink>כבר קיימת</languageLink>. אם לא, עליך <strong>לתרגם את האתר ולאסוף משפטים</strong>.
 about-playbook-how-add-language-translating-heading = תרגום האתר
+about-playbook-how-add-language-translating-content-1 = <translateVideoLink>צפו במדריך שלנו על אופן השימוש ב-Pontoon.</translateVideoLink>
 about-playbook-how-add-language-translating-content-2 =
     אנו משתמשים בכלי של Mozilla הקרוי <pontoonLink>פוֹנטוּן (Pontoon)</pontoonLink> על מנת לתרגם הכל. בפונטון קיימות שפות רבות, אך אם שלכם אינה קיימת באפשרותכם <pontoonRequestLink>לבקש שיוסיפו אותה</pontoonRequestLink>.
     לאחר מכן, כדי להפוך את השפה לזמינה ב-Common Voice 
@@ -574,6 +597,8 @@ about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollec
 
 about-playbook-how-localize = איך עובד תרגום אתר?
 about-playbook-how-localize-content-1 = תרגום אתר Common Voice מתרחש ב־<strong>Pontoon</strong>.
+about-playbook-how-localize-content-2 = <pontoonAccountLink>צרו חשבון</pontoonAccountLink> אם עדיין אין לכם אחד. לאחר מכן, בחרו את השפה שלכם <strong>(‘צוות’)</strong> ואת פרוייקט <pontoonCvLink>Common Voice</pontoonCvLink>.  תוצג לפניכם בחירה של קובצים לתרגום. לחצו על אחד - יוצגו ההודעות בשפה האנגלית ולצידם תיבה להכנסת התרגום.
+about-playbook-how-localize-content-3 = התרגום מתבצע מהשפה האנגלית, אך באפשרותכם לראות <strong>הצעות (Suggestions)</strong> משפות אחרות. לחצו על סמלון <strong>הפרופיל</strong>, ואז  על קישור <strong>הגדרות (Settings)</strong>, והוסיפו כל שפה אותה אתם דוברים. בפינה הימנית-תחתונה תוכלו לראות את רשימת התרגומים תחת הרשימה <strong>שפות (Locales)</strong>. תרגומים מופיעים באתר רק בחלוף יממה.
 about-playbook-how-localize-content-4 = האתר מוכן להשקה כשאחוז השלמת התרגום מגיע ל־75%.
 about-playbook-how-localize-content-5 = ניתן לצפות בסרטון ההסברה שלנו לקבלת עזרה
 
@@ -591,6 +616,7 @@ about-playbook-how-record-quality = איך אפשר להקליט קטע קולי
 about-playbook-how-record-content-1 = חשוב לדבר בקול הרגיל שלך! דרך הדיבור הרגילה שלך חשובה לנו - אנחנו רוצים את המבטא שלך כמו שהוא ובעוצמת השמע, הסגנון והאינטונציה הרגילים שלך.
 about-playbook-how-record-content-2 = רצוי להימנע מרעשי רקע מיותרים - אמורים לשמוע אותך בבירור.
 about-playbook-how-record-content-3 = יש לקרוא את המשפט בקפידה - לא להשמיט, לשנות או להוסיף מילים.
+about-playbook-how-record-content-4 = יש לוודא שההקלטה מופעלת לפני תחילת הדיבור ושהיא נעצרת רק לאחר הסיום.
 about-playbook-how-record-content-5 = <accuracyLink>מידע נוסף על תנאי דיוק.</accuracyLink>
 
 ## How to grow language
