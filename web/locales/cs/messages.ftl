@@ -14,6 +14,12 @@ email-opt-in-info-sub-with-challenge = Dostávejte e-maily jako jsou připomínk
 email-opt-in-privacy-v2 = Rozhodnutím se přijímat e-maily potvrzujete svůj souhlas se zpracováním Vašich údajů dle <privacyLink>Zásad ochrany osobních údajů</privacyLink> společnosti Mozilla.
 indicates-required = * označuje povinná pole
 not-available-abbreviation = není k dispozici
+banner-error-slow-1 = Omlouváme se za pomalý běh Common Voice a děkujeme za váš zájem.
+banner-error-slow-2 = Zaznamenali jsme velký provoz a problém zkoumáme.
+banner-error-slow-link = Stavová stránka
+error-something-went-wrong = Nastala chyba. Omlouváme se.
+error-clip-upload = Stále se nedaří nahrát záznam. Pokoušet se i nadále?
+error-clip-upload-server = Nahrávání záznamu na serveru se stále nedaří. Znovu načtěte stránku nebo to zkuste později.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -38,8 +44,11 @@ be = Běloruština
 bg = Bulharština
 bm = Bambarština
 bn = Bengálština
+bo = Tibetština
 br = Bretonština
+bs = Bosenština
 bxr = Burjatština
+byv = Medumba
 ca = Katalánština
 cak = Kaqchikel
 ckb = Sorání kurdština
@@ -49,9 +58,11 @@ cs = Čeština
 cv = Čuvaština
 cy = Velština
 da = Dánština
+dag = Dagbani
 de = Němčina
 dsb = Dolnolužická srbština
 dv = Dhivehi
+dyu = Dioula
 el = Řečtina
 en = Angličtina
 eo = Esperanto
@@ -67,9 +78,11 @@ fy-NL = Fríština
 ga-IE = Irština
 gl = Galicijština
 gn = Guaraní
+gom = Konkánština
 ha = Hauština
 he = Hebrejština
 hi = Hindština
+hil = Hiligaynon
 hr = Chorvatština
 hsb = Hornosrbština
 ht = Haitština
@@ -84,19 +97,26 @@ is = Islandština
 it = Italština
 izh = Ižorština
 ja = Japonština
+jbo = Lojban
 ka = Gruzínština
 kaa = Karakalpačtina
 kab = Kabylština
 kbd = Kabardština
 ki = Kikujština
 kk = Kazaština
+km = Khmerština
 kmr = Kurmándží kurdština
+kn = Kannadština
+knn = Kónkanština (dévanágarí)
 ko = Korejština
 kpv = Komi-zyrjanština
 kw = Kornština
 ky = Kyrgyzština
+lb = Lucemburština
 lg = Lugandština
 lij = Ligurština
+ln = Lingalština
+lo = Laoština
 lt = Litevština
 lv = Lotyština
 mai = Maithilština
@@ -106,6 +126,7 @@ mhr = Lužní Marijština
 mk = Makedonština
 ml = Malajálamština
 mn = Mongolština
+mni = Meetei Lon
 mos = Mossijština
 mr = Maráthština
 mrj = Horská Marijština
@@ -115,32 +136,48 @@ my = Barmština
 myv = Erzja
 nan-tw = Tchajwanština (Minnan)
 nb-NO = Norština (Bokmål)
+nd = Severní ndebelština
 ne-NP = Nepálština
+nhe = Východní Huasteca Nahuatl
+nhi = Západní Sierra Puebla Nahuatl
 nia = Niaština
 nl = Nizozemština
 nn-NO = Nynorsk
+nr = Jižní ndebelština
+nso = Severní Sotho
+ny = Chinjanja
+nyn = Runyankole
 oc = Okcitánština
+om = Oromština
 or = Udijština
 pa-IN = Pandžábština
 pap-AW = Papiamento (Aruba)
 pl = Polština
 ps = Paštština
 pt = Portugalština
+quc = K'iche'
+quy = Kečuánština
 rm-sursilv = Rétorománština (sursilvan)
 rm-vallader = Rétorománština (vallader)
 ro = Rumunština
 ru = Ruština
 rw = Rwandština
 sah = Jakutština
+sat = Santali (Ol Chiki)
 sc = Sardinština
 scn = Sicilština
+sdh = Jižní kurdština
 shi = Shilha
 si = Sinhalština
 sk = Slovenština
+skr = Saraiki
 sl = Slovinština
+snk = Soninke
 so = Somálština
 sq = Albánština
 sr = Srbština
+ss = Swati
+st = Jižní Sotho
 sv-SE = Švédština
 sw = Swahilština
 syr = Syrština
@@ -148,27 +185,39 @@ ta = Tamilština
 te = Telugština
 tg = Tádžičtina
 th = Thajština
+ti = Tigriňa
+tig = Tigre
 tk = Turkmenština
 tl = Tagalština
+tn = Tswanština
+tok = Toki Pona
 tr = Turečtina
+ts = Tsonga
 tt = Tatarština
 tw = Ťwiština
 ty = Tahitština
+tyv = Tuvinština
 uby = Ubychština
 udm = Udmurtština
 ug = Ujgurština
 uk = Ukrajinština
 ur = Urdština
 uz = Uzbečtina
+ve = Tshivenda
 vec = Benátština
 vi = Vietnamština
 vot = Votština
+wo = Volofština
+xh = Xhoština
 yi = Jidiš
 yo = Jorubština
 yue = Kantonština
+zgh = Berberština
 zh-CN = Čínština (Čína)
 zh-HK = Čínština (Hong Kong)
 zh-TW = Čínština (Taiwan)
+zu = Zuluština
+zza = Zazaki
 
 # [/]
 
@@ -180,6 +229,7 @@ speak-now = Nyní mluvte
 datasets = Datasety
 languages = Jazyky
 about = O projektu
+partner = Partnerství
 profile = Profil
 help = Nápověda
 contact = Kontakt
@@ -326,6 +376,9 @@ profile-form-additional-language =
     .label = Další jazyk
 profile-form-language =
     .label = Jazyk
+profile-form-variant =
+    .label = Jakou variantou { $language } mluvíte?
+profile-form-variant-default-value = Nebyla vybrána žádná varianta
 profile-form-accent =
     .label = Přízvuk
 profile-form-custom-accent-help-text =
@@ -364,7 +417,9 @@ why-demographic = Proč na tomhle záleží?
 why-demographic-explanation-2 = Anonymizovaná uživatelská data jako jsou věk, pohlaví (gender) a přízvuk pomáhají zlepšovat kvalitu audio dat pro trénování systémů rozpoznávání hlasu. Vaše uživatelské jméno a e-mail nebudou nikdy propojovány s vámi poskytnutými daty. Můžete také zvolit, jestli chcete zveřejnit vaše uživatelské jméno.
 accept-privacy = Souhlasím se zpracováním těchto informací jak je popsáno v zásadách Mozilly pro <privacyLink>ochranu osobních údajů</privacyLink>
 accept-privacy-title = Zásady ochrany osobních údajů
+accept-privacy-and-terms = Souhlasím s <termsLink>podmínkami</termsLink> a <privacyLink>zásadami ochrany osobních údajů</privacyLink> Common Voice
 login-identity = Identita pro přihlášení
+login = Přihlásit
 login-signup = Přihlášení / Registrace
 edit = Upravit
 email-subscriptions = Odběr e-mailových zpráv
@@ -377,6 +432,8 @@ off = Vypnuto
 on = Zapnuto
 help-accent = Potřebujete pomoc s přízvukem?
 help-accent-explanation = Váš přízvuk je způsob, jakým vyslovujete slova. Je utvářen tím, kde jste žili, jakými dalšími jazyky mluvíte a mnoha dalšími faktory. Zde můžete sdílet jakékoli informace, které považujete za relevantní.
+help-variants = Potřebujete pomoc s variantami?
+help-variants-explanation = Varianty jsou specifickou formou jazyka – například společnou pro obyvatele určité geografické oblasti nebo komunity. Někdy se jim říká nářečí.
 
 ## Profile - Email
 
@@ -387,6 +444,7 @@ gravatar_not_found = Pro váš e-mail nebyl nalezen žádný gravatar
 file_too_large = Zvolený soubor je příliš velký
 avatar-uploaded = Avatar nahrán
 max-file-size = max. { $kb } kb
+remove-avatar = Odebrat Avatara
 
 ## Profile - Email
 
@@ -430,6 +488,9 @@ faq-why-different-speakers-a =
     Většina databází mluveného slova je trénována s nadměrným zastoupením určitých demografických skupin, zpravidla <articleLink>mužů  střední třídy</articleLink>. Méně zastoupeny jsou poté přízvuky a dialekty tradičně asociované s minoritními etnickými skupinami. Mnoho strojů má taktéž problémy s ženskými hlasy.
     Proto v naší databázi chceme slyšet všechny!
 faq-why-my-lang-q = Proč můj jazyk ještě není zahrnut?
+faq-why-my-lang-a =
+    Common Voice je crowdsourcingová platforma a všechny jazyky přidali dobrovolníci.
+    Budeme rádi, když přidáte také ten váš! <languageRequestLink>Požádejte o přidání svého jazyka.</languageRequestLink>
 faq-what-quality-q = Jaká kvalita nahrávek je potřebná pro jejich zařazení databáze?
 faq-what-quality-a = Chceme, aby databáze projektu Common Voice odrážela kvalitu nahrávek, s kterými se poté budoucí systémy rozpoznání hlasu mohou setkat v běžném provozu, takže se snažíme o co největší spektrum rozdílných kvalit. Systémy rozpoznávání hlasu si tedy budou moci snadněji poradit s různými běžnými situacemi, od rozhovorů na pozadí po zvuky projíždějících aut. Je-li tedy vaše nahrávka slyšitelná, měla by pro naši databázi vyhovovat.
 faq-why-10k-hours-q = Proč je cílem pro pořizování nahrávek zrovna 10 000 ověřených hodin pro daný jazyk?
@@ -461,10 +522,28 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Proč Common Voice?
+about-header-description-v2 =
+    <p>Common Voice je veřejně dostupný soubor hlasových dat, který je založen na hlasech dobrovolných přispěvatelů z celého světa. Lidé, kteří chtějí vytvářet hlasové aplikace, mohou použít datovou sadu k trénování modelů strojového učení.</p>
+    <p>V současnosti je většina hlasových datových sad ve vlastnictví společností, což brzdí inovace. Hlasové datasety také nedostatečně reprezentují: neanglicky mluvící osoby, lidi jiné barvy pleti, zdravotně postižené, ženy a osoby LGBT+. To znamená, že technologie využívající hlas vůbec nefungují pro mnoho jazyků, a tam, kde fungují, nemusí fungovat stejně dobře pro všechny. To chceme změnit tím, že zmobilizujeme lidi na celém světě, aby se podělili o svůj hlas.</p>
+how-does-it-work-title-v2 = Jak Common Voice funguje?
 how-does-it-work-text = Sbíráme otevřenou databázi hlasových záznamů. Darujte svůj hlas, ověřte přesnost hlasových záznamů ostatních a pomozte nám tuto databázi dále vylepšovat.
 
 ## How does it work section
 
+about-language-req-subtitle = Někdo požádá o přidání jazyka.
+about-localization-title = Lokalizace webových stránek
+about-localization-subtitle = Text webových stránek je přeložen do příslušného jazyka.
+about-sentence-collection-title = Sběr vět
+about-sentence-collection-subtitle = Sestavuje se kolekce vět pro předčítání.
+about-new-lang-title = Zpřístupnění nového jazyka
+about-new-lang-subtitle = Spouštíme stránky Common Voice v příslušném jazyce.
+about-voice-contrib-title = Zaznamenávání hlasů
+about-voice-contrib-subtitle = Lidé se zapojují a přispívají svými hlasy.
+about-voice-validation-title = Ověření hlasů
+about-voice-validation-subtitle = Ostatní lidé tyto nahrávky ověřují.
+about-dataset-release-title = Zveřejnění datové sady
+about-dataset-release-subtitle = Dataset vydáváme každé 3 měsíce.
+about-subscribe-text = Chcete zůstat v kontaktu s Common Voice?
 about-speak = Čtení
 about-speak-text = Přispěvatelé pořizují nahrávky čtením z databáze vět.
 about-listen-queue = Fronta nahrávek
@@ -487,38 +566,79 @@ about-get-involved-text-2 =
     Skvěle! Spojte se s námi prostřednictvím e-mailu nebo na <discourseLink>Discourse</discourseLink>,
     pošlete nám zpětnou vazbu skrze <githubLink>GitHub</githubLink>,
     nebo se připojte na náš komunitní chat <matrixLink>Matrix</matrixLink>.
+about-stay-in-touch = Jak zůstat v kontaktu?
+about-stay-in-touch-button = Registrace
 about-nav-why-common-voice = Proč?
 about-nav-how-it-works = Jak?
 about-nav-partners = Partneři
 about-nav-get-involved = Zapojte se
+about-nav-how-it-works-2 = Jak Common Voice funguje?
+about-nav-playbook = Jak se zapojit
 
 ## Community Playbook Content
 ## What is a language
 
+about-playbook-what-is-language = Co je to jazyk z pohledu Common Voice?
 
 ## How do I add a language
 
+about-playbook-how-add-language = Jak přidám jazyk?
+about-playbook-how-add-language-translating-heading = Překlad webu
+about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Podívejte se na průvodce používáním Pontoon.</translateVideoLink>
+about-playbook-how-add-language-collecting-sentences-heading = Sběr vět
 
 ## How does localization work
 
+about-playbook-how-localize = Jak funguje lokalizace webu?
+about-playbook-how-localize-content-1 = Překlad stránek Common Voice probíhá v nástroji <strong>Pontoon</strong>.
+about-playbook-how-localize-content-4 = Stránka je připravena ke spuštění, je-li přeloženo alespoň 75 %.
+about-playbook-how-localize-content-5 = Spustit instruktážní video
 
 ## How to add sentences
 
+about-playbook-how-add-sentences = Jak přidávat věty?
 
 ## How to record quality
 
+about-playbook-how-record-quality = Jak nahrát kvalitní hlasový záznam?
+about-playbook-how-record-content-1 = Mluvte normálním hlasem! Způsob, jakým mluvíte, je zde vítán – chceme váš přízvuk takový, jaký je, a chceme vaši obvyklou hlasitost, styl a intonaci.
+about-playbook-how-record-content-2 = Vyhněte se přílišnému hluku v pozadí – mělo by vás být dobře slyšet.
+about-playbook-how-record-content-3 = Větu přečtěte pozorně – nevynechávejte, neměňte ani nepřidávejte slova.
+about-playbook-how-record-content-4 = Dbejte na to, aby nahrávání začalo <strong>před</strong> a skončilo <strong>po</strong> předčítání.
 
 ## How to grow language
 
+about-playbook-how-grow-language = Jak efektivně rozvíjet jazyk na Common Voice?
+about-playbook-how-grow-language-content-2 = Akce
+about-playbook-how-grow-language-content-4 = Sociální sítě
+about-playbook-how-grow-language-content-6 = Partnerství a propojování
+about-playbook-how-grow-language-content-7 = Najděte další lidi, kterým na tom záleží. Mohou to být univerzity, jazykové školy, aktivistické skupiny nebo komunity zabývající se datovou vědou. Oslovte je a jasně vysvětlete, jak mohou pomoci a proč. <outreachTemplates>Podívejte se na naše vzorové e-maily pro oslovení</outreachTemplates>.
+about-playbook-how-grow-language-content-8 = <strong>Buďte kreativní!</strong> Vaše jazyková komunita bude jedinečná a toto je jen několik způsobů, jak začít.
 
 ## How to validate
 
+about-playbook-how-validate = Jak poznám, zda nahrávku schválit?
+about-playbook-how-validate-content-1 = Pokud ji <strong>slyšíte</strong> a <strong>rozumíte</strong>, bývá <strong>vhodné nahrávku schválit</strong>.
+about-playbook-how-validate-content-2 = <strong>Neodmítejte nahrávky, ve kterých má mluvčí „přízvuk“, který se liší od vašeho</strong> – to je zásadní, aby rozpoznávání hlasu fungovalo pro všechny lépe.
+about-playbook-how-validate-content-3 = Pokud si myslíte, že výslovnost <strong>znemožňuje porozumění</strong>, je v pozadí <strong>hodně ruchů</strong> nebo <strong>mluví i další lidé</strong>, pak byste měl(a) nahrávku zamítnout. <accuracyLink>Další informace naleznete v kvalitativních kritériích</accuracyLink>.
+about-playbook-how-validate-content-4 = Zamítnou-li nahrávku 2 lidé, bude uvedena v odlišné podmnožině datové sady.
 
 ## How to access dataset
 
+about-playbook-how-access-dataset = Jak získat přístup k datasetu a jak jej používat?
+about-playbook-how-access-dataset-content-1 = Můžete přejít na <datasetsPage>stránku datových sad</datasetsPage>, vybrat požadovanou verzi a jazyk(y) a dataset stáhnout. Soubory mají <metadataLink>přidružená metadata</metadataLink>, jako jsou demografické informace a údaje o ověření. Pro stažení datasetu budete muset uvést e-mailovou adresu.
+about-playbook-how-access-dataset-content-2 = Pokud hledáte nástroje pro vytváření modelů ASR, můžete se spojit s ostatními lidmi v komunitě <discourseLink>na Discoursu</discourseLink>.
 
 ## How are decisions made
 
+about-playbook-how-project-governance = Jak se přijímají rozhodnutí o projektu?
+about-playbook-how-project-governance-content-1 = Projekt Mozilla Common Voice je realizován různorodou komunitou aktivistů, lingvistů, datových vědců, akademiků a softwarových inženýrů z celého světa. Projekt řídí nadace Mozilla Foundation.
+about-playbook-how-project-governance-content-2 = Naše rozhodování stojí na těchto pilířích:
+about-playbook-how-project-governance-content-3 = Soukromí, bezpečnost a transparentnost.
+about-playbook-how-project-governance-content-4 = Komunitní participace a rozhodování.
+about-playbook-how-project-governance-content-5 = Hodnota a uznání.
+about-playbook-how-project-governance-content-6 = Vzájemná odpovědnost.
+about-playbook-how-project-governance-content-7 = <governanceLink>Přečtěte si více o našem fungování</governanceLink>
 
 ## Glossary
 
@@ -577,6 +697,7 @@ review-delete-recordings = Smazat nahrávky
 
 ## Datasets Page
 
+datasets-heading = Datasety
 datasets-headline = Vytváříme otevřenou mnohojazyčnou databázi hlasových záznamů, kterou může kdokoli použít k trénování svých hlasových aplikací.
 datasets-positioning =
     Věříme, že velké, veřejně dostupné hlasové datové soubory podpoří inovace a zdravou konkurenci firem a technologií pro rozpoznávání řeči pomocí strojového učení.
@@ -585,6 +706,9 @@ datasets-positioning =
     
     Podívejte se na tuto stránku, tento centrální rozcestník, který obsahuje další otevřené soubory, ale i aktualizace a nové verze datasetu Common Voice, který stále roste.
 language = Jazyk
+download-dataset-header = Stáhnout dataset
+download-delta-explainer = Provedli jsme několik změny. Delta Segments nyní obsahují pouze nejnovější nahrávky od posledního vydání. <deltaLink>Přečtěte si více o této novince</deltaLink>.
+download-dataset-tag = Zvolte požadovaný jazyk datasetu a verzi, kterou chcete stáhnout.
 # File size in gigabytes
 size = Velikost
 validated-hr-total = Celkem validovaných hodin
@@ -599,6 +723,7 @@ confirm-size = Jste připraveni stáhnout <b>{ $size }</b>
 size-gigabyte = GB
 size-megabyte = MB
 confirm-no-identify = <b>Souhlasíte</b>, že se nebudete pokoušet rozpoznat identitu přispěvatelů v datasetu Common Voice
+confirm-join-mailing-list = Chci se připojit k mailing listu Common Voice
 download-language = Stáhnout jazyk { $language }
 validated-hours = Ověřené hodiny
 recorded-hours = Nahrané hodiny
@@ -631,6 +756,9 @@ more = Více
 close = Zavřít
 download = Stáhnout
 dataset-version = Verze
+sha256-checksum-copied = Kontrolní součet SHA256 zkopírován!
+sha256-checksum-copied-error = Nepodařilo se zkopírovat kontrolní součet SHA256
+clipboard-not-supported = Schránka není podporována
 
 ## Download Modal
 
@@ -663,6 +791,14 @@ other-language = Ostatní jazyky
 
 ## Request Language Pages
 
+request-language-heading = Požádejte o nový jazyk
+request-language-form-info-explanation-list-1 = Název jazyka
+request-language-form-info-explanation-list-2 = <isoCodeLink>Kódy ISO</isoCodeLink>, pokud je znáte
+request-language-form-info-explanation-list-3 = Odkazy na webové stránky, které nám mohou pomoci porozumět jazyku
+request-language-google-recaptcha-required = Chcete-li pokračovat, je vyžadována reCAPTCHA
+request-language-google-recaptcha-error = reCAPTCHu se nepodařilo zpracovat. Zkuste to znovu.
+# Success page
+request-language-success-heading = Děkujeme! Požadavek na nový jazyk byl odeslán
 
 ## Languages Overview
 
@@ -679,6 +815,7 @@ language-search-input =
 language-speakers = Mluvčí
 localized = Přeloženo
 sentences = Věty
+language-validation-hours = Hodiny
 
 ## Contribution
 
@@ -686,6 +823,8 @@ action-click = Klikněte
 action-tap = Klepněte
 contribute = Přispět
 listen = Poslouchejte
+write = Pište
+review = Ověřujte
 skip = Přeskočit
 shortcuts = Zkratky
 clips-with-count-pluralized =
@@ -748,6 +887,8 @@ target-segment-learn-more = Zjistit více
 
 ## Contribution Nav Items
 
+contribute-voice-collection-nav-header = Sbírka hlasů
+contribute-sentence-collection-nav-header = Sbírka vět
 
 ## Reporting
 
@@ -1009,6 +1150,7 @@ contribution-misreadings-description = Během poslechu dávejte bedlivě pozor, 
 contribution-misreadings-description-extended-list-1 = Chybějící krátká slova jako <strong>'V'</strong> nebo <strong>'Pro'</strong> na začátku nahrávky.
 contribution-misreadings-description-extended-list-4 = Chybějící část posledního slova kvůli předčasně ukončenému nahrávání.
 contribution-misreadings-description-extended-list-5 = Opakované přečtení téhož slova.
+contribution-misreadings-example-8-title = Kolem proletěl čmelák.
 contribution-varying-pronunciations-description = Speciální péči věnujte případnému zamítání nahrávek kvůli odlišně vyslovenému slovu, přízvuku nebo tónu věty. Ne každý vyslovuje stejně, jako vy, a v našem datasetu chceme zachytit výslovnost každého, pokud je správná.
 contribution-varying-pronunciations-description-extended = Na druhou stranu pokud máte pocit, že autor nahrávky nějaké slovy nezná a pouze si vymyslel jeho výslovnost, neváhejte takovou nahrávku odmítnout. Pokud si nejste jistí, nahrávku přeskočte.
 contribution-background-noise-title = Hluk v pozadí
@@ -1034,46 +1176,138 @@ see-less = <chevron></chevron> Zobrazit méně
 
 ## HEADER/FOOTER
 
+sc-header-home = Domů
+sc-header-how-to = Návody
+sc-header-add = Přidat
+sc-header-review = Ověření
+sc-header-rejected = Zamítnuté věty
+sc-header-my = Moje věty
+sc-header-statistics = Statistiky
+sc-header-profile = Profil
+sc-footer-discourse = Discourse
+sc-footer-report-bugs = Nahlášení chyb
+sc-footer-translate = Přeložit stránku
+sc-footer-report-copyright = Oznámit porušení práv
+sc-footer-privacy = Soukromí
+sc-footer-terms = Podmínky
 sc-footer-cookies = Cookies
+sc-login-signup-button = Přihlášení / Registrace
+sc-logout-button = Odhlásit se
 
 ## HOME
 
+sc-home-collect-title = Sbírejte věty
 
 ## GENERAL
 
 
 ## HOW-TO
 
+sc-howto-title = Návody
+sc-howto-addlang-title = Přidání jazyků, se kterými lze pracovat
+sc-howto-addsen-title = Přidávání nových vět
+sc-howto-cite-title = Jak citovat
+sc-howto-cite-item-1 = Můžete uvést webové stránky, např. „Common Voice - https://commonvoice.mozilla.org/“
+sc-howto-review-title = Kontrola vět
+sc-howto-review-subtitle = Zkontrolujte, zda věta splňuje následující kritéria:
+sc-howto-review-criteria-1 = Věta musí být napsána správně.
+sc-howto-review-criteria-2 = Věta musí být gramaticky správná.
+sc-howto-review-criteria-3 = Věta musí být vyslovitelná.
+sc-howto-review-criteria-4 = Pokud věta splňuje kritéria, klepněte na tlačítko "Schválit".
+sc-howto-review-criteria-5 = Pokud věta nesplňuje výše uvedená kritéria, klepněte na tlačítko „Zamítnout“. Pokud si větou nejste jisti, můžete ji také přeskočit a přejít na další.
+sc-howto-review-criteria-6 = Pokud vám dojdou věty k ověření, pomozte nám shromáždit další věty!
+sc-howto-findpd-tips-2 = Vládní materiály, knihy a články jsou také skvělé, ale vzhledem k tomu, že text bývá poněkud formálnější, jsou méně žádané.
+sc-howto-findpd-subtitle-2 = Spolupráce s místními organizacemi nebo jednotlivci
 
 ## MY SENTENCES
 
+sc-my-title = Moje věty
+sc-my-loading = Načítání vašich vět…
+sc-my-err-fetching = Chyba při načítání vět. Prosím, zkuste to znovu.
+sc-my-no-sentences = Žádné věty nebyly nalezeny!
+# Variables:
+#   $batchId (String) - A unique ID identifying the submission of sentences - sentences uploaded together all have the same batch ID
+sc-my-submission = Odeslání: { $batchId }
+sc-my-deleting = Odstraňování vybraných vět...
 
 ## REJECTED
 
 
 ## STATS
 
+sc-stats-title = Statistiky
+sc-stats-updating = Probíhá aktualizace...
 
 ## ADD
 
+sc-submit-err-select-lang = Vyberte jazyk.
+sc-submit-err-add-source = Přidejte zdroj.
+sc-submit-title = Přidání vět
+sc-submit-button =
+    .submitText = Odeslat
 
 ## ADD LANGUAGE
 
+sc-add-lang-could-not-add = Jazyk se nepodařilo přidat
+sc-add-lang-sec-label = Přidejte jazyk, do kterého chcete přispívat
+sc-add-lang-sec-button = Přidat jazyk
+sc-add-err-unexpected = Neočekávaná odezva serveru
+sc-add-err-submission = Chyba při odeslání
 
 ## ADD SENTENCES CONFIRMATION
 
+sc-confirm-sentences-title = Potvrďte nové věty
+sc-confirm-button-text = Potvrdit
 
 ## LANGUAGE INFO
 
+sc-lang-info-title-total = Celkem
+sc-lang-info-title-personal = Osobní
+# Variables:
+#   $totalSentences (Number) - Number of sentences uploaded in total for this language
+sc-lang-info-total =
+    { $totalSentences ->
+        [0] vět celkem.
+        [one] věta celkem.
+        [few] věty celkem.
+        [many] vět celkem.
+       *[other] vět celkem.
+    }
+# Variables:
+#   $totalInReview (Number) - Number of sentences currently in the review state for this language
+sc-lang-info-in-review =
+    { $totalInReview ->
+        [0] vět k ověření.
+        [one] věta k ověření.
+        [few] věty k ověření.
+        [many] vět k ověření.
+       *[other] vět k ověření.
+    }
 
 ## LOGIN
 
+sc-login-err-failed = Přihlášení selhalo
+sc-login-err-try-again = Prosím, zkuste to znovu.
 
 ## PROFILE
 
+# Variables:
+#   $username (String) - eMail address of the logged in user
+sc-profile-title = Profil: { $name }
+sc-personal-err-lang-not-found = Jazyk se nepodařilo odebrat: jazyk nebyl nalezen
+sc-personal-err-remove = Jazyk se nepodařilo odebrat
+sc-personal-your-languages = Vaše jazyky:
+sc-personal-remove-button = odebrat
+sc-personal-not-added = Dosud jste nepřidali žádné jazyky.
 
 ## REVIEW CRITERIA
 
+sc-criteria-modal = ⓘ Ověřovací kritéria
+sc-criteria-title = Ověřovací kritéria
+sc-criteria-make-sure = Ověřte, zda věta splňuje následující kritéria:
+sc-criteria-item-1 = Věta musí být napsána správně.
+sc-criteria-item-2 = Věta musí být gramaticky správná.
+sc-criteria-item-3 = Věta musí být vyslovitelná.
 
 ## REVIEW
 

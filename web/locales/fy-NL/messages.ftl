@@ -886,6 +886,8 @@ action-click = Klik op
 action-tap = Tik op
 contribute = Meiwurkje
 listen = Harkje
+write = Skriuwe
+review = Beoardiele
 skip = Oerslaan
 shortcuts = Fluchkeppelingen
 clips-with-count-pluralized =
@@ -949,6 +951,7 @@ target-segment-learn-more = Mear ynfo
 ## Contribution Nav Items
 
 contribute-voice-collection-nav-header = Spraakkolleksje
+contribute-sentence-collection-nav-header = Sinnensamling
 
 ## Reporting
 
@@ -1765,6 +1768,41 @@ reviewing-sentences-explanation-3 = As jo net wis binne oer de sin, kinne jo it 
 reviewing-sentences-explanation-4 = As jo gjin sinnen mear hawwe om te beoardielen, help ús dan om mear sinnen te sammeljen!
 community-announcement-header = Mienskipsoankundiging!
 community-announcement-explanation = De ûndersteande rjochtlinen binne foar de sammelfunksjes foar nije sinnen, dy’t yn maart en april 2023 yn it Common Voice-kearnplatfoarm yntegrearre wurde sille. Yn de tuskentiid kinne jo it foarige helpmiddel brûke, <scLink>https://commonvoice.mozilla.org/sentence-collector/</scLink>.
+# WRITE PAGE
+write-instruction-second-part = in sin út it publike domein
+write-page-subtitle = Sinnen dy’t hjir bydroegen wurde sille tafoege wurde oan in publyklik beskikbere cc-0 lisinsearre dataset.
+sentence =
+    .label = Sin
+sentence-input-value = Fier hjir jo publike domeinsin yn
+citation-input-value = Boarne fan jo sin
+citation =
+    .label = Sitaat
+what-can-i-add = Hokker soarten sinnen kin ik tafoegje?
+new-sentence-rule-1 = <noCopyright>Gjin auteursrjocht</noCopyright>-beheiningen (<cc0>cc-0</cc0>)
+new-sentence-rule-2 = Minder as 15 wurden
+new-sentence-rule-3 = Brûk de krekte grammatika
+new-sentence-rule-4 = Brûk krekte stavering en ynterpunksje
+new-sentence-rule-5 = Gjin sifers en spesjale tekens
+new-sentence-rule-6 = Gjin frjemde tekens
+new-sentence-rule-7 = Foegje de krekte boarnefermelding ta
+new-sentence-rule-8 = Yn it beste gefal natuerlik en gemoedlik (it soe maklik wêze moatte om de sin te lêzen)
+how-to-cite = Hoe sitearje ik?
+how-to-cite-explanation-bold = Sitearje mei in URL-keppeling of de folsleine namme fan it wurk.
+how-to-cite-explanation = As it jo eigen wurden binne, sis dan gewoan <italicizedText>‘Selssitaait’</italicizedText>. Wy moatte witte wêr’t jo dizze ynhâld fûn hawwe, sadat wy kontrolearje kinne dat it yn it publike domein is en gjin auteursrjochtbeheiningen jilde. Sjoch foar mear ynformaasje oer sitearjen ús <guidelinesLink>Rjochtlineside</guidelinesLink>.
+guidelines = Rjochtlinen
+contact-us = Kontakt opnimme
+add-sentence-success = 1 sin sammele
+add-sentence-error = Flater by it tafoegjen fan sin
+required-field = Folje dit fjild yn.
+# REVIEW PAGE
+sc-review-instruction-first-part = Kontrolearje
+sc-review-instruction-second-part = is dit in taalkundich korrekte sin?
+sc-review-rules-title = Foldocht de sin oan de rjochtlinen?
+sc-review-empty-state = Der binne op it stuit gjin sinnen om te beoardielen yn dizze taal.
+report-sc-different-language = Oare taal
+report-sc-different-language-detail = It is skreaun yn in oare taal dan hokker ik oan it beoardielen bin.
+sentences-fetch-error = Der is in flater bard by it opheljen fan sinnen
+review-error = Der is in flater bard by it beoardielen fan dizze sin
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = Wy fiere inkelde grutte feroaringen troch
 sc-redirect-page-subtitle-1 = De Sentence Collector ferhuzet nei de kearn fan it Common Voice-platfoarm. Jo kinne no in sin <writeURL>skriuwe</writeURL> of ynstjoeringen fan losse sinnen <reviewURL>beoardiele</reviewURL> op Common Voice.

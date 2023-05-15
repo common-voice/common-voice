@@ -1779,6 +1779,7 @@ new-sentence-rule-7 = Voeg de juiste bronvermelding toe
 new-sentence-rule-8 = In het beste geval natuurlijk en gemoedelijk (het zou gemakkelijk moeten zijn om de zin te lezen)
 how-to-cite = Hoe citeer ik?
 how-to-cite-explanation-bold = Citeer met een URL-koppeling of de volledige naam van het werk.
+how-to-cite-explanation = Als het uw eigen woorden zijn, zeg dan gewoon <italicizedText>‘Zelfcitaat’</italicizedText>. We moeten weten waar u deze inhoud hebt gevonden, zodat we kunnen controleren of deze zich in het publieke domein bevindt en of er geen auteursrechtelijke beperkingen van toepassing zijn. Zie voor meer informatie over citeren onze <guidelinesLink>Richtlijnenpagina</guidelinesLink>.
 guidelines = Richtlijnen
 contact-us = Contact opnemen
 add-sentence-success = 1 zin verzameld
