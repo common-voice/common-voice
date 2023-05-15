@@ -1375,6 +1375,10 @@ sc-criteria-item-6 = Pokud vám dojdou věty k ověření, pomozte nám shromá�
 sc-review-lang-not-selected = Nemáte vybrán žádný jazyk. Přejděte na svůj <profileLink>profil</profileLink> a jazyky nastavte.
 sc-review-title = Ověřování vět
 sc-review-loading = Načítání vět…
+sc-review-select-language = Vyberte jazyk pro kontrolu vět.
+sc-review-no-sentences = Nic dalšího k ověření. <addLink>Přidat další věty!</addLink>
+sc-review-form-prompt =
+    .message = Ověřené věty nebyly odeslány. Vážně pokračovat?
 
 ## SETTINGS
 
