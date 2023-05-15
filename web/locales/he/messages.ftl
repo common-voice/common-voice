@@ -1011,6 +1011,14 @@ download-recordings-unavailable = אין באפשרותך לבקש את ההקל
 download-size = גודל
 download-request = בקשת הקלטות
 download-request-title = { $created }
+download-request-archive-multiple = פיצול לכדי { $archiveCount } קובצי ZIP המכילים
+download-request-assembling-description = הקבצים שלך נאספים. נא לבדוק שוב בהמשך.
+download-request-refresh-button = רענון
+download-request-modal-title = קישורים להורדה
+download-request-modal-description = הנה הקישורים להורדת קובצי ה־ZIP שלך.
+download-request-link-text = Zip מס׳ { $offset } מתוך { $total }
+download-request-metadata-link = טקסט משפט
+download-request-link-single = תוכלו גם להעתיק ולהדביק את כתובות האינטרנט ישירות לתוך מנהל ההורדות המועדף עליכם. תוקפם יפוג בעוד 12 שעות, אך תוכלו לחזור לדף זה כדי ליצור אחרים במקומם בכל עת.
 
 ## Landing
 
@@ -1022,6 +1030,7 @@ read-more-about = מידע נוסף בעמוד על אודותינו
 
 ## DemoLayout
 
+demo-get-started = בואו נתחיל
 demo-welcome = ברוך בואך אל Common Voice
 demo-welcome-subheader = מעניין אותך ללמוד עוד ולתרום למיזם?
 
@@ -1038,6 +1047,7 @@ demo-account = חשבון
 
 ## Demo Account
 
+demo-account-card-header = אין חובה ליצור חשבון כדי לתרום, אם כי זה עשוי לסייע לכם.
 demo-account-enter-email =
     .label = נא למלא כתובת דוא״ל לשליחת קישור להרשמה
 demo-account-sign-up = שליחת קישור להרשמה
@@ -1051,6 +1061,12 @@ demo-listen-subtitle = מעניין אותך לתרום?
 
 ## Validation criteria
 
+contribution-criteria-nav = קריטריונים
+contribution-criteria-link = הבנת הקריטריונים לתרומה
+contribution-criteria-page-title = קריטריונים לתרומה
+contribution-criteria-page-description = הבינו למה לשים לב בעת האזנה למקטעי קול וכך תוכלו להפוך את הקלטות הקול שלכם לעשירות יותר גם כן!
+contribution-for-example = לדוגמה
+contribution-misreadings-title = קריאות שגויות
 contribution-misreadings-example-7-title = אנחנו יוצאים לשתות קפה.
 contribution-background-noise-example-2-explanation = [לא ניתן לשמוע חלק מהטקסט]
 
