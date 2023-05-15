@@ -1622,6 +1622,7 @@ offensive-content-explanation = A mondatok egy közösségi moderálási folyama
 misreadings-explanation-1 = Számít, hogy az oldalon lévő összes szót helyesen olvassa-e fel. Hallgatáskor nagyon gondosan ellenőrizze, hogy pontosan az lett rögzítve, ami le lett írva; elutasítsa el, ha hozzáadott, összevont vagy kihagyott szavakat.
 misreadings-explanation-2 = A gyakori hibák közé tartoznak a következők:
 misreadings-explanation-3 = Hiányzó „A” vagy „Az” a felvétel elején.
+misreadings-explanation-4 = Hiányzó ragok a szavak végén.
 misreadings-explanation-5 = Olyan összevonások felolvasása, melyek nem szerepelnek a szövegben.
 misreadings-explanation-6 = Hiányzó utolsó szó a felvétel túl gyors befejezése miatt.
 misreadings-explanation-7 = Többszöri próbálkozás egy szó felolvasására.
@@ -1727,6 +1728,7 @@ sc-review-empty-state = Jelenleg nincsenek ellenőrizendő mondatok ezen a nyelv
 report-sc-different-language = Más nyelv
 report-sc-different-language-detail = Ez más nyelven íródott, mint amit ellenőrzök.
 sentences-fetch-error = Hiba történt a mondatok lekérése során
+review-error = Hiba történt a mondat ellenőrzése során
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = Néhány nagy változtatást vezetünk be
 sc-redirect-page-subtitle-1 = A mondatgyűjtő átköltözik a központi Common Voice platformra. Mostantól a Common Voice-on <writeURL>írhat</writeURL> mondatokat vagy <reviewURL>ellenőrizheti</reviewURL> az egymondatos beküldéseket.

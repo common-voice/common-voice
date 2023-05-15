@@ -87,18 +87,18 @@
 
         .card-dimensions {
             padding: 0 20px;
-    
+
             text-align: center;
             font-weight: 600;
             line-height: 1.38;
-    
+
             background: var(--white);
 
             & .source {
                 font-size: var(--font-size-sm);
                 color: var(--near-black);
             }
-    
+
             @media (--md-up) {
                 padding: 0 25px;
                 font-size: var(--font-size-xl);
@@ -106,7 +106,7 @@
                 letter-spacing: 1.3px;
                 line-height: 1.63;
             }
-    
+
             @media (--lg-up) {
                 padding: 100px 100px 0;
             }
@@ -114,12 +114,16 @@
     }
 
     & .waves {
-        margin-top: 12vh;
+        margin-top: 9vh;
         background: url('./images/review-waves.png');
         background-size: 100% 100%;
         height: 15px;
         display: flex;
         align-items: center;
+
+        @media (--tall) {
+            margin-top: 14vh;
+        }
 
         & .vote-buttons {
             display: flex;
@@ -259,41 +263,41 @@
             padding: 30px 25px;
             max-width: 700px;
             width: 100%;
-    
+
             display: flex;
             flex-direction: column;
             justify-content: center;
-    
+
             background: var(--white);
             box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.05);
-    
+
             h1 {
                 font-weight: 400;
                 font-size: 2em;
                 margin-bottom: 0.5em;
             }
-    
+
             p {
                 font-size: 1.25em;
             }
-    
+
             @media (--md-up) {
                 padding: 120px 105px;
             }
-    
+
             .button {
                 margin-top: 30px;
                 border: none;
                 background: var(--red);
                 box-shadow: 0 5px 10px color-mod(var(--red) alpha(50%));
                 text-transform: uppercase;
-    
+
                 &:hover {
                     color: var(--white);
                     opacity: 1;
                     background: var(--red);
                     box-shadow: 0 5px 10px var(--red);
-    
+
                     & path {
                         fill: var(--white);
                     }
@@ -305,7 +309,7 @@
             .button {
                 background: var(--blue);
                 box-shadow: 0 5px 10px color-mod(var(--blue) alpha(50%));
-    
+
                 &:hover {
                     background: var(--blue);
                     box-shadow: 0 5px 10px var(--blue);

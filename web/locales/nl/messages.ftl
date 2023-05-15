@@ -1779,6 +1779,7 @@ new-sentence-rule-7 = Voeg de juiste bronvermelding toe
 new-sentence-rule-8 = In het beste geval natuurlijk en gemoedelijk (het zou gemakkelijk moeten zijn om de zin te lezen)
 how-to-cite = Hoe citeer ik?
 how-to-cite-explanation-bold = Citeer met een URL-koppeling of de volledige naam van het werk.
+how-to-cite-explanation = Als het uw eigen woorden zijn, zeg dan gewoon <italicizedText>‘Zelfcitaat’</italicizedText>. We moeten weten waar u deze inhoud hebt gevonden, zodat we kunnen controleren of deze zich in het publieke domein bevindt en of er geen auteursrechtelijke beperkingen van toepassing zijn. Zie voor meer informatie over citeren onze <guidelinesLink>Richtlijnenpagina</guidelinesLink>.
 guidelines = Richtlijnen
 contact-us = Contact opnemen
 add-sentence-success = 1 zin verzameld
@@ -1792,6 +1793,7 @@ sc-review-empty-state = Er zijn momenteel geen zinnen om te beoordelen in deze t
 report-sc-different-language = Andere taal
 report-sc-different-language-detail = Het is geschreven in een andere taal dan die ik aan het beoordelen ben.
 sentences-fetch-error = Er is een fout opgetreden bij het ophalen van zinnen
+review-error = Er is een fout opgetreden bij het beoordelen van deze zin
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = We voeren enkele grote veranderingen door
 sc-redirect-page-subtitle-1 = De Sentence Collector verhuist naar de kern van het Common Voice-platform. U kunt nu een zin <writeURL>schrijven</writeURL> of inzendingen van losse zinnen <reviewURL>beoordelen</reviewURL> op Common Voice.
