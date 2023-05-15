@@ -1203,6 +1203,14 @@ sc-home-collect-title = Sbírejte věty
 
 ## HOW-TO
 
+sc-howto-title = Návody
+sc-howto-addlang-title = Přidání jazyků, se kterými lze pracovat
+sc-howto-addsen-title = Přidávání nových vět
+sc-howto-cite-title = Jak citovat
+sc-howto-cite-item-1 = Můžete uvést webové stránky, např. „Common Voice - https://commonvoice.mozilla.org/“
+sc-howto-review-title = Kontrola vět
+sc-howto-review-subtitle = Zkontrolujte, zda věta splňuje následující kritéria:
+sc-howto-review-criteria-1 = Věta musí být napsána správně.
 
 ## MY SENTENCES
 
