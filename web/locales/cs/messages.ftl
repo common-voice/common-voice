@@ -1211,9 +1211,24 @@ sc-howto-cite-item-1 = Můžete uvést webové stránky, např. „Common Voice 
 sc-howto-review-title = Kontrola vět
 sc-howto-review-subtitle = Zkontrolujte, zda věta splňuje následující kritéria:
 sc-howto-review-criteria-1 = Věta musí být napsána správně.
+sc-howto-review-criteria-2 = Věta musí být gramaticky správná.
+sc-howto-review-criteria-3 = Věta musí být vyslovitelná.
+sc-howto-review-criteria-4 = Pokud věta splňuje kritéria, klepněte na tlačítko "Schválit".
+sc-howto-review-criteria-5 = Pokud věta nesplňuje výše uvedená kritéria, klepněte na tlačítko „Zamítnout“. Pokud si větou nejste jisti, můžete ji také přeskočit a přejít na další.
+sc-howto-review-criteria-6 = Pokud vám dojdou věty k ověření, pomozte nám shromáždit další věty!
+sc-howto-findpd-tips-2 = Vládní materiály, knihy a články jsou také skvělé, ale vzhledem k tomu, že text bývá poněkud formálnější, jsou méně žádané.
+sc-howto-findpd-subtitle-2 = Spolupráce s místními organizacemi nebo jednotlivci
 
 ## MY SENTENCES
 
+sc-my-title = Moje věty
+sc-my-loading = Načítání vašich vět…
+sc-my-err-fetching = Chyba při načítání vět. Prosím, zkuste to znovu.
+sc-my-no-sentences = Žádné věty nebyly nalezeny!
+# Variables:
+#   $batchId (String) - A unique ID identifying the submission of sentences - sentences uploaded together all have the same batch ID
+sc-my-submission = Odeslání: { $batchId }
+sc-my-deleting = Odstraňování vybraných vět...
 
 ## REJECTED
 
