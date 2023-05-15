@@ -1252,8 +1252,18 @@ sc-stats-error = Nepodařilo se načíst statistiky. Zkuste to prosím později.
 sc-submit-err-select-lang = Vyberte jazyk.
 sc-submit-err-add-source = Přidejte zdroj.
 sc-submit-title = Přidání vět
+sc-submit-select-language =
+    .labelText = Zvolte jazyk
+sc-submit-add-sentences = Přidání vět pod <wikipediaLink>public domain</wikipediaLink>
+sc-submit-ph-one-per-line =
+    .placeholder = Co věta to řádek
+sc-submit-ph-read-how-to =
+    .placeholder = Nevíte-li jak uvádět zdroje, podívejte se do návodu
+sc-submit-confirm = Potvrzuji, že tyto věty jsou <wikipediaLink>public domain</wikipediaLink> a mám oprávnění je nahrát.
 sc-submit-button =
     .submitText = Odeslat
+sc-submit-filtered = Věty nesplňující požadavky (opravené verze zasílejte jako nové věty):
+sc-submit-guidelines = Prosím, podívejte se na <howToLink>pokyny</howToLink>.
 
 ## ADD LANGUAGE
 
@@ -1261,11 +1271,47 @@ sc-add-lang-could-not-add = Jazyk se nepodařilo přidat
 sc-add-lang-sec-label = Přidejte jazyk, do kterého chcete přispívat
 sc-add-lang-sec-button = Přidat jazyk
 sc-add-err-unexpected = Neočekávaná odezva serveru
+# Variables:
+#   $duplicates (Number) - Number of sentences which got rejected because they are duplicates
+sc-add-result =
+    { $duplicates ->
+        [0] Odeslané věty. { $duplicates } vět bylo zamítnuto pro duplicitu.
+        [one] Odeslané věty. { $duplicates } věta byla zamítnuta pro duplicitu.
+        [few] Odeslané věty. { $duplicates } věty byly zamítnuty pro duplicitu.
+        [many] Odeslané věty. { $duplicates } vět bylo zamítnuto pro duplicitu.
+       *[other] Odeslané věty. { $duplicates } vět bylo zamítnuto pro duplicitu.
+    }
+# Variables:
+#   $sentences (Number) - Number of sentences which failed to be saved to the database - could be several different reasons
+sc-add-err-failed =
+    { $sentences ->
+        [0] Všechny věty prošly
+        [one] 1 věta neprošla
+        [few] { $sentences } věty neprošly
+        [many] { $sentences } vět neprošlo
+       *[other] { $sentences } vět neprošlo
+    }
 sc-add-err-submission = Chyba při odeslání
+sc-add-lang-process-notice = Není-li váš jazyk na seznamu, můžete o něj zažádat <languageProcessLink>tímto postupem</languageProcessLink>.
 
 ## ADD SENTENCES CONFIRMATION
 
+sc-confirm-are-you-sure =
+    .message = Věty nebyly odeslány, opravdu chcete odejít?
 sc-confirm-sentences-title = Potvrďte nové věty
+# Variables:
+#   $countOfSentences (Number) - Number of sentences the user has filled in the submission form
+sc-confirm-sentences-found =
+    { $countOfSentences ->
+        [0] Nenalezena žádná věta.
+        [one] Nalezena 1 věta.
+        [few] Nalezeny { $countOfSentences } věty.
+        [many] Nalezeno { $countOfSentences } vět.
+       *[other] Nalezeno { $countOfSentences } vět.
+    }
+# Variables:
+#   $countOfInvalidated (Number) - Number of sentences the user rejected in the review form before submission
+sc-confirm-rejected-by-you = { $countOfInvalidated } vámi zamítnutých
 sc-confirm-button-text = Potvrdit
 
 ## LANGUAGE INFO
