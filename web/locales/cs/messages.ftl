@@ -1151,6 +1151,7 @@ contribution-misreadings-description-extended-list-1 = Chybějící krátká slo
 contribution-misreadings-description-extended-list-4 = Chybějící část posledního slova kvůli předčasně ukončenému nahrávání.
 contribution-misreadings-description-extended-list-5 = Opakované přečtení téhož slova.
 contribution-misreadings-example-8-title = Kolem proletěl čmelák.
+contribution-varying-pronunciations-title = Rozmanitá výslovnost
 contribution-varying-pronunciations-description = Speciální péči věnujte případnému zamítání nahrávek kvůli odlišně vyslovenému slovu, přízvuku nebo tónu věty. Ne každý vyslovuje stejně, jako vy, a v našem datasetu chceme zachytit výslovnost každého, pokud je správná.
 contribution-varying-pronunciations-description-extended = Na druhou stranu pokud máte pocit, že autor nahrávky nějaké slovy nezná a pouze si vymyslel jeho výslovnost, neváhejte takovou nahrávku odmítnout. Pokud si nejste jistí, nahrávku přeskočte.
 contribution-background-noise-title = Hluk v pozadí
@@ -1197,6 +1198,7 @@ sc-logout-button = Odhlásit se
 ## HOME
 
 sc-home-collect-title = Sbírejte věty
+sc-home-review-title = Ověřujte věty
 
 ## GENERAL
 
@@ -1217,6 +1219,7 @@ sc-howto-review-criteria-4 = Pokud věta splňuje kritéria, klepněte na tlač�
 sc-howto-review-criteria-5 = Pokud věta nesplňuje výše uvedená kritéria, klepněte na tlačítko „Zamítnout“. Pokud si větou nejste jisti, můžete ji také přeskočit a přejít na další.
 sc-howto-review-criteria-6 = Pokud vám dojdou věty k ověření, pomozte nám shromáždit další věty!
 sc-howto-findpd-tips-2 = Vládní materiály, knihy a články jsou také skvělé, ale vzhledem k tomu, že text bývá poněkud formálnější, jsou méně žádané.
+sc-howto-findpd-tips-3 = Žel, zatím nemůžeme používat obsah od Wikimedia. Proto odtamtud nekopírujte a nevkládejte.
 sc-howto-findpd-subtitle-2 = Spolupráce s místními organizacemi nebo jednotlivci
 
 ## MY SENTENCES
@@ -1229,7 +1232,7 @@ sc-my-no-sentences = Žádné věty nebyly nalezeny!
 #   $batchId (String) - A unique ID identifying the submission of sentences - sentences uploaded together all have the same batch ID
 sc-my-submission = Odeslání: { $batchId }
 sc-my-deleting = Odstraňování vybraných vět...
-sc-my-err-failed-delete = Vybrané věty se nepodařilo odstranit… Zkuste to, prosím, znovu!
+sc-my-err-failed-delete = Vybrané věty se nepodařilo odstranit… Zkuste to prosím znovu!
 
 ## REJECTED
 
