@@ -621,13 +621,21 @@ about-playbook-how-record-content-5 = <accuracyLink>מידע נוסף על תנ�
 
 ## How to grow language
 
+about-playbook-how-grow-language = איך אפשר להגדיל את הנתונים של שפה מסויימת ביעילות ב־Common Voice?
 about-playbook-how-grow-language-content-1 = יצירת הזדמנויות למגוון אנשים לתרום ל-Common Voice מבטיחה שמערך הנתונים משרת כמה שיותר אנשים. יצרנו משאבים ותבניות שתוכלו להשתמש בהן!
 about-playbook-how-grow-language-content-2 = אירועים
+about-playbook-how-grow-language-content-3 = אתם יכול להפיק אירועים כדי לעודד לאנשים לתרום. זה קל יותר ממה שאתה חושבים. ניתן לקיים כינוס מקוון או פנים אל פנים. <eventTemplate>בדקו את התבניות והמשאבים שלנו עבור אירועים</eventTemplate>.
 about-playbook-how-grow-language-content-4 = מדיה חברתית
+about-playbook-how-grow-language-content-5 = אתם יכולים להשתמש בפלטפורמות מדיה חברתית כדי לפזר את הבשורה. שתפו פוסטים שמסבירים למה זה חשוב, וצרו קשר עם אנשים אחרים על נושאים כמו זכויות שפה, AI קולי או הטיה ואפליה בטכנולוגיה. ראו עצות נוספות על <campaignLink>הפעלת קמפיין פרסום חברתי, כולל תוכן שניתן לעשות בו שימוש חוזר</campaignLink>.
+about-playbook-how-grow-language-content-6 = שותפויות ורשתות
+about-playbook-how-grow-language-content-7 = מצא אחרים שאכפת להם. אלה יכולים להיות אוניברסיטאות, בתי ספר לשפה, קבוצות הסברה או קהילות מדעיות. הושיטו יד והסבירו בבירור כיצד הם יכולים לעזור ומדוע כדאי להם. <outreachTemplates>הציצו בתבניות הדוא"ל שלנו לדוגמאות ליצירת קשר</outreachTemplates>.
+about-playbook-how-grow-language-content-8 = <strong>היו יצירתיים!</strong> כל קהילה היא ייחודית, וזאת רק ההתחלה.
 
 ## How to validate
 
 about-playbook-how-validate = איך אוכל לדעת אם לאשר מקטע קולי?
+about-playbook-how-validate-content-1 = אם אתם יכולים <strong>לשמוע</strong> ו<strong>להבין</strong> אותם, בדרך כלל <strong>עדיף לאשר</strong>.
+about-playbook-how-validate-content-2 = <strong>אל תדחו קליפים שבהם לדובר 'יש מבטא' שונה משלכם</strong> - זה חשוב על-מנת שזיהוי קול יעבוד טוב יותר עבור כולם.
 about-playbook-how-validate-content-4 = אם מקטע נדחה על־ידי 2 אנשים הוא מתפרסם תחת חלק אחר של מערך נתונים.
 
 ## How to access dataset
