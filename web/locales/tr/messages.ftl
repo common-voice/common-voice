@@ -931,6 +931,7 @@ target-segment-learn-more = Daha fazla bilgi alın
 ## Contribution Nav Items
 
 contribute-voice-collection-nav-header = Ses Toplama
+contribute-sentence-collection-nav-header = Cümle Toplama
 
 ## Reporting
 
@@ -1628,20 +1629,32 @@ reviewing-sentences-explanation-1 = Cümle yukarıdaki ölçütleri karşılıyo
 reviewing-sentences-explanation-2 = Cümle yukarıdaki ölçütleri karşılamıyorsa "Hayır" düğmesine tıklayın.
 reviewing-sentences-explanation-3 = Cümleden emin değilseniz atlayabilir ve bir sonrakine geçebilirsiniz.
 reviewing-sentences-explanation-4 = İncelenecek cümleler biterse lütfen daha fazla cümle toplamamıza yardım edin!
-community-announcement-header = Topluluk duyurusu!
+# WRITE PAGE
+write-instruction-second-part = kamuya açık bir cümle
 sentence =
     .label = Cümle
+sentence-input-value = Kamu malı cümlenizi buraya yazın
 citation-input-value = Cümlenizin kaynağı
 citation =
     .label = Atıf
 what-can-i-add = Ne tür cümleler ekleyebilirim?
+new-sentence-rule-2 = 15 kelimeden kısa
+new-sentence-rule-3 = Dilbilgisi açısından doğru
+new-sentence-rule-4 = Yazım kurallarına uygun ve noktalama işaretleri doğru
+new-sentence-rule-5 = Sayı ve özel karakter içermiyor
+new-sentence-rule-6 = Alfabede olmayan karakterler içermiyor
 guidelines = Yönergeler
+contact-us = Bize ulaşın
 add-sentence-success = 1 cümle toplandı
 add-sentence-error = Cümle eklenirken hata oluştu
 required-field = Lütfen bu alanı doldurun.
 # REVIEW PAGE
 sc-review-instruction-first-part = Kontrol et
+sc-review-instruction-second-part = Bu dilbilimsel olarak doğru bir cümle mi?
 sc-review-rules-title = Cümle yönergelere uygun mu?
+sc-review-empty-state = Şu anda bu dilde incelenecek cümle yok.
+report-sc-different-language = Farklı dil
+report-sc-different-language-detail = İncelediğimden farklı bir dilde yazılmış.
 sentences-fetch-error = Cümleler getirilirken bir hata oluştu
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = Bazı büyük değişiklikler yapıyoruz
