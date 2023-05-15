@@ -1207,7 +1207,7 @@ sc-howto-title = Návody
 sc-howto-addlang-title = Přidání jazyků, se kterými lze pracovat
 sc-howto-addsen-title = Přidávání nových vět
 sc-howto-cite-title = Jak citovat
-sc-howto-cite-item-1 = Můžete uvést webové stránky, např. „Common Voice - https://commonvoice.mozilla.org/“
+sc-howto-cite-item-1 = Můžete uvést webové stránky, např. „Úřad vlády ČR – https://www.vlada.cz“
 sc-howto-review-title = Kontrola vět
 sc-howto-review-subtitle = Zkontrolujte, zda věta splňuje následující kritéria:
 sc-howto-review-criteria-1 = Věta musí být napsána správně.
@@ -1324,3 +1324,4 @@ sc-criteria-item-3 = Věta musí být vyslovitelná.
 # [/SentenceCollector]
 
 sentence-collection = Sbírka vět
+required-field = Vyplňte prosím toto pole.
