@@ -1150,6 +1150,8 @@ contribution-misreadings-description = Během poslechu dávejte bedlivě pozor, 
 contribution-misreadings-description-extended-list-1 = Chybějící krátká slova jako <strong>'V'</strong> nebo <strong>'Pro'</strong> na začátku nahrávky.
 contribution-misreadings-description-extended-list-4 = Chybějící část posledního slova kvůli předčasně ukončenému nahrávání.
 contribution-misreadings-description-extended-list-5 = Opakované přečtení téhož slova.
+contribution-misreadings-example-2-explanation = [Mělo by to být ‚dinosauři‘]
+contribution-misreadings-example-3-title = Obří dinosauři z trias-.
 contribution-misreadings-example-8-title = Kolem proletěl čmelák.
 contribution-varying-pronunciations-title = Rozmanitá výslovnost
 contribution-varying-pronunciations-description = Speciální péči věnujte případnému zamítání nahrávek kvůli odlišně vyslovenému slovu, přízvuku nebo tónu věty. Ne každý vyslovuje stejně, jako vy, a v našem datasetu chceme zachytit výslovnost každého, pokud je správná.
@@ -1379,12 +1381,48 @@ sc-review-select-language = Vyberte jazyk pro kontrolu vět.
 sc-review-no-sentences = Nic dalšího k ověření. <addLink>Přidat další věty!</addLink>
 sc-review-form-prompt =
     .message = Ověřené věty nebyly odeslány. Vážně pokračovat?
+sc-review-form-button-reject = Zamítnout
+sc-review-form-button-skip = Přeskočit
+sc-review-form-button-approve = Schválit
+# Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
+sc-review-form-button-approve-shortcut = Y
+# Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
+sc-review-form-button-reject-shortcut = N
+# Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
+sc-review-form-button-skip-shortcut = S
+sc-review-form-button-submit =
+    .submitText = Dokončit ověření
+sc-review-link = Ověření
 
 ## SETTINGS
 
+sc-settings-title = Nastavení
+sc-settings-ui-language = Jazyk rozhraní
+sc-settings-reset-skipped = Obnovit přeskočené věty
+sc-settings-skipped-decription = Při ověřování jste přeskakovali věty. Obnovou přeskočených se všechny tyto věty znovu zobrazí. Jazykově nezávislé.
+sc-settings-show-all-button = Opět zobrazit všechny přeskočené věty
+sc-settings-failed = Nastavení se nepodařilo změnit. Zkuste to prosím znovu.
+# VALIDATION
+sc-validation-number-of-words = Věta musí obsahovat 1 až 14 (včetně) slov
+sc-validation-no-numbers = Věta by neměla obsahovat číslice
+sc-validation-no-symbols = Věta by neměla obsahovat symboly
+sc-validation-no-abbreviations = Věta by neměla obsahovat zkratky
 
 # [/SentenceCollector]
 
+localization-select =
+    .label = Zvolte jazyk/lokalizaci
+# PARTNERSHIPS PAGE
+partnerships-header = Partnerství
+partnerships-header-text = K uskutečnění projektu Common Voice je zapotřebí hodně! Neděláme to sami. Chcete s námi spolupracovat? Budeme rádi, když se nám ozvete.
+partnerships-get-in-touch = Napište nám
+partnerships-become-a-partner = Staňte se partnerem Common Voice
+partnerships-community-header = Komunita, kreativci a občanská společnost
+partnerships-community-description = Komunita je tepajícím srdcem Common Voice – pochází z celého světa a jsou to jazykoví aktivisté, vědci a umělci. Více o tom, jak se zapojit, se dozvíte na stránce <about>O projektu</about> a v příručce <community>Community Playbook</community>. Pokud máte zájem o užší spolupráci, <emailFragment>kontaktujte nás.</emailFragment>
+partnerships-foundations-header = Nadace
+partnerships-foundations-description = Spolupracujeme s nadacemi, občanskou společností a komunitními partnery, abychom z internetu udělali zdravější místo, se zvláštním zaměřením na východní Afriku. Přečtěte si více o naší <programmaticWork>programové činnosti.</programmaticWork>
+partnerships-governments-header = Vlády
+partnerships-governments-description = S nadšením podporujeme zapojení veřejného sektoru v oblasti technologií, inovací a jazykových práv. Pokud plánujete realizovat významný projekt nebo kampaň, <emailFragment>kontaktujte nás.</emailFragment>
 partnerships-our-partners = Naši partneři
 add-information-button = Přidat informace
 # SECOND POST SUBMISSION CTA
