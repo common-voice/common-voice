@@ -1,7 +1,6 @@
-import { Localized } from '@fluent/react';
 import * as React from 'react';
-import useIsMaxWindowWidth from '../../../../hooks/use-is-max-window-width';
 
+import useIsMaxWindowWidth from '../../../../hooks/use-is-max-window-width';
 import { sentenceGuidelineSections } from '../constants';
 import { handleToggleVisibleSection } from '../utils';
 
@@ -18,25 +17,6 @@ const SentenceSidebarContent = () => {
 
   return (
     <>
-      <div className="announcements-container">
-        <Localized id="community-announcement-header">
-          <h2 className="announcements-header" />
-        </Localized>
-        <Localized
-          id="community-announcement-explanation"
-          elems={{
-            scLink: (
-              <a
-                href="https://commonvoice.mozilla.org/sentence-collector/"
-                target="_blank"
-                rel="noreferrer"
-                className="underlined-link"
-              />
-            ),
-          }}>
-          <p />
-        </Localized>
-      </div>
       {visibleSections.map(section => (
         <section.component
           id={section.id}
