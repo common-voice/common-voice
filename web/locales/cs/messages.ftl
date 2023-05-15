@@ -1323,5 +1323,28 @@ sc-criteria-item-3 = Věta musí být vyslovitelná.
 
 # [/SentenceCollector]
 
+partnerships-our-partners = Naši partneři
+add-information-button = Přidat informace
+# SECOND POST SUBMISSION CTA
+second-cta-header-text = Děkujeme, že jste přispěli svým hlasem!
+create-profile-button = Vytvořit profil
+voice-collection = Sbírka hlasů
 sentence-collection = Sbírka vět
+varying-pronunciations = Rozmanitá výslovnost
+misreadings = Přeřeknutí
+offensive-content = Urážlivý obsah
+background-noise = Hluk v pozadí
+background-voices = Hlasy v pozadí
+volume = Hlasitost
+reader-effects = Způsob řeči
+just-unsure = Jen si nejste jisti?
 required-field = Vyplňte prosím toto pole.
+sc-review-instruction-second-part = je tato věta jazykově správná?
+sc-review-rules-title = Odpovídá věta doporučením?
+sc-review-empty-state = Tento jazyk nyní nemá k ověření žádné věty.
+report-sc-different-language = Další jazyk
+report-sc-different-language-detail = Je napsána v jiném jazyce, než jaký ověřuji.
+sentences-fetch-error = Při načítání vět došlo k chybě
+review-error = Při ověřování věty došlo k chybě
+# SENTENCE-COLLECTOR-REDIRECT PAGE
+sc-redirect-page-title = Probíhají rozsáhlé úpravy
