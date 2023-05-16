@@ -123,4 +123,12 @@ describe('Sentence validation', () => {
       E.getOrElse((err: ValidatorRuleError) => err.error)(result) === '콜'
     ).toBeFalsy()
   })
+
+  it('Should validate Amharic sentence with no errors', () => {
+    const sentence = 'ሴኮባ ኮናቴ ጊኒ ውስጥ የሚገኝ ጁንታ ጊዜያዊ መሪ በመታመሙ ወደ ሴኔጋል ተወሰደ'
+    const result = validateSentence('am')(sentence)
+    expect(
+      E.getOrElse((err: ValidatorRuleError) => err.error)(result)
+    ).toBe(sentence)
+  })
 })
