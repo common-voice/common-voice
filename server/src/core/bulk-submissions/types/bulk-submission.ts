@@ -1,4 +1,4 @@
 export type BulkSubmission = {
-    sentence: string,
-    source: string
+  sentence: string
+  source: string
 }
