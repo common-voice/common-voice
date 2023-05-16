@@ -5,15 +5,7 @@ import {
 } from '../types/BulkSubmissionJob'
 import { task as T, taskEither as TE } from 'fp-ts'
 import { pipe } from 'fp-ts/lib/function'
-import { Storage } from '@google-cloud/storage'
-import { getConfig } from '../../../config-helper'
-import { fileExists, upload } from '../../../infrastructure/storage/storage'
-
-const BUCKET_NAME = getConfig().BULK_SUBMISSION_BUCKET_NAME
-const storage = new Storage({ credentials: getConfig().GCP_CREDENTIALS })
-
-const uploadBulkSubmission = upload(storage)(BUCKET_NAME)
-export const doesBulkSubmissionExist = fileExists(storage)(BUCKET_NAME)
+import { doesBulkSubmissionExist, uploadBulkSubmission } from '../../storage/storage'
 
 export const bulkSubmissionImportProcessor = async (
   job: Job<BulkSubmissionImportJob>
