@@ -32,14 +32,17 @@ const UploadZoneContent: React.FC<Props> = ({ isDragActive, uploadStatus }) => {
         </Localized>
       ) : (
         <Localized id="drag-your-file-here">
-          <h2 className="upload-dropzone-instruction" />
+          <h2 className="upload-dropzone-instruction hidden-md-down" />
         </Localized>
       )}
-      <Localized id="or-conjuction">
-        <p className="or-conjunction" />
+      <Localized id="or-conjuction hidden-md-down">
+        <p className="or-conjunction hidden-md-down" />
       </Localized>
-      <Button>
+      <Button className="hidden-md-down">
         <Localized id="select-file" />
+      </Button>
+      <Button className="hidden-lg-up">
+        <Localized id="select-file-mobile" />
       </Button>
       <div className="file-restrictions">
         <Localized id="accepted-files">

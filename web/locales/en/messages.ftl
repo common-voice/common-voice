@@ -1740,6 +1740,7 @@ drag-your-file-here = Drag your file here to upload
 drop-file-here = Drop file here to upload
 or-conjuction = or
 select-file = Select File
+select-file-mobile = Select File to Upload
 accepted-files = Accepted file types: .csv only
 maximum-file-size = Maximum file size: 8 mb
 what-needs-to-be-in-file = What needs to be in my file?
