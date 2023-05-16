@@ -520,24 +520,24 @@ export default class DB {
         SELECT clips.*
         FROM clips
         LEFT JOIN sentences on clips.original_sentence_id = sentences.id
-        WHERE is_valid IS NULL AND clips.locale_id = 13 AND client_id <> 'abc'
+        WHERE is_valid IS NULL AND clips.locale_id = ? AND client_id <> ?
         AND NOT EXISTS(
           SELECT clip_id
           FROM votes
-          WHERE votes.clip_id = clips.id AND client_id = 'abc'
+          WHERE votes.clip_id = clips.id AND client_id = ?
           UNION ALL
           SELECT clip_id
           FROM reported_clips reported
-          WHERE reported.clip_id = clips.id AND client_id = 'abc'
+          WHERE reported.clip_id = clips.id AND client_id = ?
           UNION ALL
           SELECT clip_id
           FROM skipped_clips skipped
-          WHERE skipped.clip_id = clips.id AND client_id = 'abc'
+          WHERE skipped.clip_id = clips.id AND client_id = ?
         )
         AND sentences.clips_count <= 15
         ${exemptFromSSRL ? '' : 'AND sentences.has_valid_clip = 0'}
         ORDER BY sentences.clips_count ASC, clips.created_at ASC
-        LIMIT 50
+        LIMIT ?
       ) t
       ORDER BY RAND()
       LIMIT ?`,
