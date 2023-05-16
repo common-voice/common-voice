@@ -24,7 +24,7 @@ const SentenceCollectorToggle: React.FC<Props> = ({
 }) => (
   <div className="sc-toggle-wrapper">
     <div
-      className={classNames('toggle-option', {
+      className={classNames('toggle-option single', {
         active: activeOption === 'single',
       })}>
       <SingleContributionIcon isActive={activeOption === 'single'} />
@@ -37,7 +37,7 @@ const SentenceCollectorToggle: React.FC<Props> = ({
     </div>
     <span className="divider" />
     <div
-      className={classNames('toggle-option', {
+      className={classNames('toggle-option bulk', {
         active: activeOption === 'bulk',
       })}>
       <BulkContributionIcon isActive={activeOption === 'bulk'} />

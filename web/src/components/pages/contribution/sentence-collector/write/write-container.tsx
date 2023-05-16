@@ -33,10 +33,7 @@ const WriteContainer = () => {
           />
         </div>
       )}
-      <SentenceCollectionWrapper
-        dataTestId="write-page"
-        type="write"
-        extraClassName={account ? 'logged-in' : ''}>
+      <SentenceCollectionWrapper dataTestId="write-page" type="write">
         {activeWriteOption === 'single' ? (
           <SingleSubmissionWrite />
         ) : (
