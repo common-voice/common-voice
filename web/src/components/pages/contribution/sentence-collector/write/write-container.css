@@ -1,10 +1,17 @@
 .write-container {
     display: flex;
     width: 100%;
+    height: calc(100% - 125px);
     background-image: linear-gradient(to top,var(--white) 20%,var(--desert-storm));
 
+    @media (--xxl-down) {
+        flex-direction: column;
+    }
+
     & .sc-toggle {
-        width: 25%;
+        @media (--xxl-up) {
+            width: 25%;
+        }
 
         & .sc-toggle-wrapper {
             width: fit-content;
@@ -12,6 +19,13 @@
             padding-top: 64px;
             display: flex;
             flex-direction: column;
+
+            @media (--xxl-down) {
+                flex-direction: row;
+                width: max-content;
+                padding-top: 0;
+                margin-top: 10px;
+            }
 
             & .toggle-option {
                 svg {
@@ -23,13 +37,31 @@
                         color: var(--anchor-text-blue);
                     }
                 }
+
+                &.single {
+                    @media (--xxl-down) {
+                        margin-inline-end: 10px;   
+                    }
+                }
+
+                &.bulk {
+                    @media (--xxl-down) {
+                        margin-inline-start: 10px;
+                    }
+                }
             }
 
             & .divider {
-                width: 100%;
-                display: inline-block;
-                height: 1px;
-                background-color: var(--grey);
+                @media (--xxl-up) {
+                    width: 100%;
+                    display: inline-block;
+                    height: 1px;
+                    background-color: var(--grey);
+                }
+
+                @media (--xxl-down) {
+                    border: 1px solid var(--grey);
+                }
             }
 
             & .text-button {
@@ -38,11 +70,15 @@
             }
 
             & .single-option {
-                margin-bottom: 12px;
+                @media (--xxl-up) {
+                    margin-bottom: 12px;
+                }
             }
 
             & .bulk-option {
-                margin-top: 12px;
+                @media (--xxl-up) {
+                    margin-top: 12px;
+                }
             }
         }
     }

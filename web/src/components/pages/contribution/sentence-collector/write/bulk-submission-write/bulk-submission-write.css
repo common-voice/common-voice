@@ -9,10 +9,17 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        height: 100%;
+        width: 100%;
 
         & .upload-dropzone-and-rules {
             display: flex;
             margin-top: 32px;
+
+            @media (--md-down) {
+                flex-direction: column;
+                align-items: center;
+            }
 
             & .upload-dropzone {
                 border: 1px dashed var(--dark-grey);
@@ -23,6 +30,15 @@
                 align-items: center;
                 justify-content: space-around;
                 background: var(--grey);
+
+                @media (--lg-only) {
+                    width: 55vw;
+                }
+
+                @media (--md-down) {
+                    width: 85vw;
+                    height: 30vh;
+                }
 
                 & .upload-dropzone-instruction {
                     font-size: var(--font-size-lg);
@@ -44,11 +60,19 @@
                     background-color: var(--white);
                     color: var(--black);
                     min-width: 6rem;
+
+                    @media (--md-down) {
+                        width: auto;
+                    }
                 }
             }
 
             & .expandable-container {
                 width: 570px;
+
+                @media (--md-down) {
+                    width: 85vw;
+                }
 
                 summary {
                     svg {

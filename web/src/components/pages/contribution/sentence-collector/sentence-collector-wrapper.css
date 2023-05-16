@@ -9,7 +9,7 @@
             var(--white) 20%,
             var(--desert-storm)
         );
-
+        
         @media (--xl-up) {
             overflow: auto;
         }
@@ -29,14 +29,6 @@
             }
         }
 
-        & .write.logged-in {
-            margin-left: 0;
-
-            @media (--lg-up) {
-                padding-left: 0;
-            }
-        }
-
         & .review {
             .instruction {
                 width: fit-content;
@@ -51,7 +43,9 @@
 
             svg {
                 margin: 0 8px;
+            }
 
+            svg.edit-icon {
                 @media (--xs-down) {
                     width: 16px;
                     height: 16px;
@@ -67,6 +61,10 @@
 
     & .review-wrapper {
         overflow-x: hidden;
+    }
+
+    & .write-wrapper {
+        background-image: none;
     }
 
     & .edit-icon {
