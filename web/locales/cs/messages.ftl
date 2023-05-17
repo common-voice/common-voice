@@ -616,6 +616,7 @@ about-playbook-how-localize-content-5 = Spustit instruktážní video
 ## How to add sentences
 
 about-playbook-how-add-sentences = Jak přidávat věty?
+about-playbook-how-add-sentences-content-4 = Ověřené věty jsou exportovány ve středu a jsou dostupné v příštím vydání.
 
 ## How to record quality
 
@@ -624,12 +625,16 @@ about-playbook-how-record-content-1 = Mluvte normálním hlasem! Způsob, jakým
 about-playbook-how-record-content-2 = Vyhněte se přílišnému hluku v pozadí – mělo by vás být dobře slyšet.
 about-playbook-how-record-content-3 = Větu přečtěte pozorně – nevynechávejte, neměňte ani nepřidávejte slova.
 about-playbook-how-record-content-4 = Dbejte na to, aby nahrávání začalo <strong>před</strong> a skončilo <strong>po</strong> předčítání.
+about-playbook-how-record-content-5 = <accuracyLink>Podrobná kvalitativní kritéria.</accuracyLink>
 
 ## How to grow language
 
 about-playbook-how-grow-language = Jak efektivně rozvíjet jazyk na Common Voice?
+about-playbook-how-grow-language-content-1 = Vytváření příležitostí pro různé lidi, aby mohli přispívat do Common Voice, zajišťuje, že datová sada slouží co největšímu počtu lidí. Vytvořili jsme zdroje a šablony, které můžete použít!
 about-playbook-how-grow-language-content-2 = Akce
+about-playbook-how-grow-language-content-3 = Můžete pořádat akce, které pomohou lidem přispívat. Je to jednodušší, než si myslíte. Můžete to udělat online pomocí videokonferenčního nástroje nebo osobně, pokud je to bezpečné. <eventTemplate>Prohlédněte si naše šablony a materiály pro pořádání akcí</eventTemplate>.
 about-playbook-how-grow-language-content-4 = Sociální sítě
+about-playbook-how-grow-language-content-5 = K předání zprávy můžete použít sociální platformy. Sdílejte příspěvky, které vysvětlují, proč je to důležité, a navažte kontakt s dalšími lidmi, kteří mluví o problémech, jako jsou jazyková práva, hlasová umělá inteligence nebo předsudky v technologii. Podívejte se na další rady pro <campaignLink>vedení kampaně na sociálních sítích, včetně obsahu, který můžete opětovně použít</campaignLink>.
 about-playbook-how-grow-language-content-6 = Partnerství a propojování
 about-playbook-how-grow-language-content-7 = Najděte další lidi, kterým na tom záleží. Mohou to být univerzity, jazykové školy, aktivistické skupiny nebo komunity zabývající se datovou vědou. Oslovte je a jasně vysvětlete, jak mohou pomoci a proč. <outreachTemplates>Podívejte se na naše vzorové e-maily pro oslovení</outreachTemplates>.
 about-playbook-how-grow-language-content-8 = <strong>Buďte kreativní!</strong> Vaše jazyková komunita bude jedinečná a toto je jen několik způsobů, jak začít.
