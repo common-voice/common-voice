@@ -1221,6 +1221,8 @@ sc-home-review-title = Җөмләләрне тикшерү
 sc-howto-title = Кулланма
 sc-howto-addsen-title = Яңа җөмләләр өстәү
 sc-howto-review-title = Җөмләләрне тикшерү
+sc-howto-review-criteria-1 = Җөмлә орфографик кагыйдәләр нигезендә язылырга тиеш.
+sc-howto-review-criteria-3 = Җөмлә әйтемле булырга тиеш.
 sc-howto-findpd-title = Иҗтимагый милектәге җөмләләрне табу
 sc-howto-findpd-subtitle = Аларны интернетта эзләү
 
