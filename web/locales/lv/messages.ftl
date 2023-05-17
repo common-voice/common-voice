@@ -1899,8 +1899,6 @@ reviewing-sentences-explanation-1 = Ja teikums atbilst iepriekš minētajiem kri
 reviewing-sentences-explanation-2 = Ja teikums neatbilst iepriekš minētajiem kritērijiem, noklikšķiniet uz pogas "Nē".
 reviewing-sentences-explanation-3 = Ja neesat pārliecināts par teikumu, varat to izlaist un pāriet uz nākamo.
 reviewing-sentences-explanation-4 = Ja visi teikumi jau ir pārbaudīti, lūdzu, palīdziet mums savākt jaunus teikumus!
-community-announcement-header = Kopienas paziņojums!
-community-announcement-explanation = Zemāk sniegtie norādījumi attiecas uz jaunajām teikumu apkopošanas iespējām, kas 2023. gada martā un aprīlī tiks integrētas Common Voice pamatplatformā. Tikmēr varat izmantot iepriekšējo rīku <scLink>https://commonvoice.mozilla.org/sentence-collector/</scLink>.
 # WRITE PAGE
 write-instruction-second-part = publiski pieejams teikums
 write-page-subtitle = Šeit ievietotie teikumi tiks pievienoti publiski pieejamai cc-0 licencētai datu kopai.
@@ -1935,6 +1933,7 @@ sc-review-empty-state = Pašlaik šajā valodā nav teikumu, ko pārbaudīt.
 report-sc-different-language = Nepareiza valoda
 report-sc-different-language-detail = Tas ir uzrakstīts valodā, kas atšķiras no tās, ko šobrīd pārbaudu.
 sentences-fetch-error = Ielādējot teikumus notikusi kļūda
+review-error = Pārskatot teikumu, notikusi kļūda
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = Mēs veicam dažas lielas izmaiņas
 sc-redirect-page-subtitle-1 = Teikumu apkopošanas rīks pāriet uz Common Voice platformu. Tagad varat <writeURL>pievienot</writeURL> un <reviewURL>pārbaudīt</reviewURL> teikumus Common Voice sistēmā.
