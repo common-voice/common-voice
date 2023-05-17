@@ -873,6 +873,8 @@ action-click = Чиртегез
 action-tap = Төймәгә басып алыгыз,
 contribute = Үз өлешеңне кертү
 listen = Тыңлау
+write = Язу
+review = Тикшерү
 skip = Калдырып тору
 shortcuts = Төймә комбинацияләре
 clips-with-count-pluralized =
@@ -940,6 +942,7 @@ target-segment-learn-more = Тулырак
 ## Contribution Nav Items
 
 contribute-voice-collection-nav-header = Тавыш туплау
+contribute-sentence-collection-nav-header = Җөмләләр туплау
 
 ## Reporting
 
