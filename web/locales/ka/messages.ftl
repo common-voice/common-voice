@@ -878,7 +878,7 @@ action-click = დააწექით
 action-tap = დააჭირეთ
 contribute = წვლილის შეტანა
 listen = მოსმენა
-write = შეტანა
+write = შედგენა
 review = შემოწმება
 skip = გამოტოვება
 shortcuts = მალსახმობები
@@ -1747,8 +1747,6 @@ reviewing-sentences-explanation-1 = თუ წინადადება აკ
 reviewing-sentences-explanation-2 = თუ წინადადება ვერ აკმაყოფილებს ზემოაღნიშნულ პირობებს, დაწკაპეთ ღილაკზე „არა“.
 reviewing-sentences-explanation-3 = თუ გეეჭვებათ წინადადება, შეგიძლიათ გამოტოვოთ და გადახვიდეთ მომდევნოზე.
 reviewing-sentences-explanation-4 = თუ ამოიწურება შესამოწმებელი წინადადებები, გთხოვთ დაგვეხმაროთ ახლის მოძიებასა და შეგროვებაში!
-community-announcement-header = ერთობის საყურადღებოდ!
-community-announcement-explanation = ქვემოთ მოცემული მითითებები ეხება წინადადებების შემგროვებლის ახალ შესაძლებლობებს, რომლებიც დაინერგება Common Voice-ის ძირითად პლატფორმაზე 2023 წლის მარტსა და აპრილში. იქამდე შეგიძლიათ გამოიყენოთ ადრინდელი ხელსაწყო <scLink>https://commonvoice.mozilla.org/sentence-collector/</scLink>.
 # WRITE PAGE
 write-instruction-second-part = საყოველთაო საკუთრების წინადადების
 write-page-subtitle = აქ შემოწირული წინადადებები დაემატება საჯაროდ ხელმისაწვდომ კრებულს cc-0 ლიცენზიით.
