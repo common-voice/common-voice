@@ -816,6 +816,11 @@ other-language = Ostatní jazyky
 ## Request Language Pages
 
 request-language-heading = Požádejte o nový jazyk
+request-language-form-email =
+    .label = Vaše e-mailová adresa
+request-language-form-info =
+    .label = Informace o jazyce
+request-language-form-info-explanation = Přidejte co nejvíce informací o jazyce. Jako například:
 request-language-form-info-explanation-list-1 = Název jazyka
 request-language-form-info-explanation-list-2 = <isoCodeLink>Kódy ISO</isoCodeLink>, pokud je znáte
 request-language-form-info-explanation-list-3 = Odkazy na webové stránky, které nám mohou pomoci porozumět jazyku
@@ -830,6 +835,13 @@ request-language-success-list-2 =
     Osloví vás komunitní manažer s nabídkou
     další podporu a informacemi,
     zda již existuje komunita pracující na vašem jazyce
+request-language-success-list-3 =
+    Neodpovíme-li vám do několika dnů,
+    obraťte se na <emailLink>{ $email }</emailLink>
+    a my se vám ozveme!
+request-language-error =
+    Je možné, že jsme tuto žádost neobdrželi. Napište nám prosím přímo
+    na <emailLink>{ $email }</emailLink> a my se vám ozveme zpět!
 
 ## Languages Overview
 
@@ -847,6 +859,7 @@ language-speakers = Mluvčí
 localized = Přeloženo
 sentences = Věty
 language-validation-hours = Hodiny
+language-validation-progress = Stav ověřování
 
 ## Contribution
 
