@@ -1,7 +1,7 @@
 ## Languages
 
 contribute = ᱮᱱᱮᱢ
-get-involved-button = ᱪᱷᱩᱴᱟᱹᱣᱜ ᱢᱮ
+get-involved-button = ᱥᱮᱞᱮᱫᱚᱜ ᱢᱮ
 get-involved-title = { $lang } ᱨᱮ ᱮᱱᱮᱢ ᱮᱢᱚᱜ ᱢᱮ
 get-involved-text =
     { $lang } ᱨᱮ ᱟᱢᱟᱜ ᱜᱚᱲᱚ ᱟᱨ ᱮᱱᱮᱢ ᱮᱢ ᱞᱟᱹᱜᱤᱫ ᱥᱟᱨᱦᱟᱣ ᱾ ᱟᱞᱮ ᱡᱷᱚᱛᱚ ᱯᱟᱹᱨᱥᱤ ᱟᱹᱜᱩ ᱪᱷᱚ ᱞᱟᱹᱜᱤᱫ ᱟᱹᱰᱤ ᱡᱩᱨ ᱞᱮ ᱪᱷᱩᱴᱟᱹᱣ ᱠᱟᱱᱟ

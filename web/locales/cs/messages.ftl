@@ -438,7 +438,7 @@ help-variants-explanation = Varianty jsou specifickou formou jazyka – napřík
 ## Profile - Email
 
 browse-file-title = Nahrát obrázek
-browse-file = Přetáhněte nebo <browseWrap>Procházejte</browseWrap>
+browse-file = Přetáhnout nebo <browseWrap>procházet</browseWrap>
 connect-gravatar = Propojit s Gravatarem
 gravatar_not_found = Pro váš e-mail nebyl nalezen žádný gravatar
 file_too_large = Zvolený soubor je příliš velký
@@ -568,6 +568,8 @@ about-get-involved-text-2 =
     nebo se připojte na náš komunitní chat <matrixLink>Matrix</matrixLink>.
 about-stay-in-touch = Jak zůstat v kontaktu?
 about-stay-in-touch-button = Registrace
+about-stay-in-touch-text-1 = <emailFragment>Přihlaste se</emailFragment> do našeho mailing listu a dozvíte se, jak se můžete podílet na kampaních, událostech a spoluvytváření funkcí v Common Voice.
+about-stay-in-touch-text-2 = S ostatními členy jazykových komunit Mozilly se můžete seznámit, když se připojíte k <discourseLink>Discourse</discourseLink> kde se vedou tematické diskuze, nebo k <matrixLink>Matrixu</matrixLink> pro rychlé konzultace.
 about-nav-why-common-voice = Proč?
 about-nav-how-it-works = Jak?
 about-nav-partners = Partneři
@@ -579,13 +581,30 @@ about-nav-playbook = Jak se zapojit
 ## What is a language
 
 about-playbook-what-is-language = Co je to jazyk z pohledu Common Voice?
+about-playbook-what-is-language-content-1 = O jazyce lze uvažovat mnoha způsoby. Pro účely modelů rozpoznávání řeči Common Voice navrhuje zaměřit se na „vzájemnou srozumitelnost“ neboli „mohou si mluvčí tohoto jazyka většinou rozumět, pokud se o to pokusí?“
+about-playbook-what-is-language-content-2 = Chceme, aby jazykové modely lépe rozuměly rozmanité škále mluvčích. Aby se tak stalo, musí hlasový dataset reprezentovat mnoho různých lidí.
+about-playbook-what-is-language-content-3 = Některé jazyky mají obrovské rozdíly v gramatice, slovní zásobě a výslovnosti. Z tohoto důvodu od roku 2022 <ctaLink>zavádíme „varianty“</ctaLink>. Komunity tak budou mít možnost odlišit své jazyky v rámci většího datasetu.
 
 ## How do I add a language
 
 about-playbook-how-add-language = Jak přidám jazyk?
+about-playbook-how-add-language-content-1 =
+    Nejprve zkontrolujte, zda váš jazyk <languageLink>již existuje</languageLink>.
+    Pokud ne, můžete <languageRequestLink>požádat o přidání jazyka</languageRequestLink>.
+    Existují dvě fáze. Překlad webu a shromažďování vět
 about-playbook-how-add-language-translating-heading = Překlad webu
 about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Podívejte se na průvodce používáním Pontoon.</translateVideoLink>
+about-playbook-how-add-language-translating-content-2 =
+    K překladům používáme nástroj Mozilly s názvem <pontoonLink>Pontoon</pontoonLink>. Pontoon obsahuje spoustu jazyků,
+    ale pokud nenabízí ten váš, můžete <pontoonRequestLink>požádat o jeho přidání </pontoonRequestLink>.
+    Chcete-li, by byl nový jazyk dostupný také v projektu Common Voice,
+    <githubRepoLink>požádejte o jeho zavedení na GitHubu</githubRepoLink>. Další informace naleznete v <localizationFragment>lokalizaci webu</localizationFragment>.
 about-playbook-how-add-language-collecting-sentences-heading = Sběr vět
+about-playbook-how-add-language-collecting-sentences-content-2 =
+    Můžete <sentenceCollectorLinkAdd>přidávat malý počet vět</sentenceCollectorLinkAdd>,
+    nebo můžete provédět <bulkImportDocsLink>hromadné importy pomocí Github</bulkImportDocsLink>.
+    Nezapomeňte, že věty musí být pod licencí <licenseLink>CC0 (nebo public domain)</licenseLink>, nebo si můžete napsat vlastní věty.
+about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>Podívejte se na další informace o shromažďování vět</sentenceCollectorFragment>.
 
 ## How does localization work
 
@@ -597,6 +616,7 @@ about-playbook-how-localize-content-5 = Spustit instruktážní video
 ## How to add sentences
 
 about-playbook-how-add-sentences = Jak přidávat věty?
+about-playbook-how-add-sentences-content-4 = Ověřené věty jsou exportovány ve středu a jsou dostupné v příštím vydání.
 
 ## How to record quality
 
@@ -605,12 +625,16 @@ about-playbook-how-record-content-1 = Mluvte normálním hlasem! Způsob, jakým
 about-playbook-how-record-content-2 = Vyhněte se přílišnému hluku v pozadí – mělo by vás být dobře slyšet.
 about-playbook-how-record-content-3 = Větu přečtěte pozorně – nevynechávejte, neměňte ani nepřidávejte slova.
 about-playbook-how-record-content-4 = Dbejte na to, aby nahrávání začalo <strong>před</strong> a skončilo <strong>po</strong> předčítání.
+about-playbook-how-record-content-5 = <accuracyLink>Podrobná kvalitativní kritéria.</accuracyLink>
 
 ## How to grow language
 
 about-playbook-how-grow-language = Jak efektivně rozvíjet jazyk na Common Voice?
+about-playbook-how-grow-language-content-1 = Vytváření příležitostí pro různé lidi, aby mohli přispívat do Common Voice, zajišťuje, že datová sada slouží co největšímu počtu lidí. Vytvořili jsme zdroje a šablony, které můžete použít!
 about-playbook-how-grow-language-content-2 = Akce
+about-playbook-how-grow-language-content-3 = Můžete pořádat akce, které pomohou lidem přispívat. Je to jednodušší, než si myslíte. Můžete to udělat online pomocí videokonferenčního nástroje nebo osobně, pokud je to bezpečné. <eventTemplate>Prohlédněte si naše šablony a materiály pro pořádání akcí</eventTemplate>.
 about-playbook-how-grow-language-content-4 = Sociální sítě
+about-playbook-how-grow-language-content-5 = K předání zprávy můžete použít sociální platformy. Sdílejte příspěvky, které vysvětlují, proč je to důležité, a navažte kontakt s dalšími lidmi, kteří mluví o problémech, jako jsou jazyková práva, hlasová umělá inteligence nebo předsudky v technologii. Podívejte se na další rady pro <campaignLink>vedení kampaně na sociálních sítích, včetně obsahu, který můžete opětovně použít</campaignLink>.
 about-playbook-how-grow-language-content-6 = Partnerství a propojování
 about-playbook-how-grow-language-content-7 = Najděte další lidi, kterým na tom záleží. Mohou to být univerzity, jazykové školy, aktivistické skupiny nebo komunity zabývající se datovou vědou. Oslovte je a jasně vysvětlete, jak mohou pomoci a proč. <outreachTemplates>Podívejte se na naše vzorové e-maily pro oslovení</outreachTemplates>.
 about-playbook-how-grow-language-content-8 = <strong>Buďte kreativní!</strong> Vaše jazyková komunita bude jedinečná a toto je jen několik způsobů, jak začít.
@@ -799,6 +823,13 @@ request-language-google-recaptcha-required = Chcete-li pokračovat, je vyžadov�
 request-language-google-recaptcha-error = reCAPTCHu se nepodařilo zpracovat. Zkuste to znovu.
 # Success page
 request-language-success-heading = Děkujeme! Požadavek na nový jazyk byl odeslán
+request-language-success-list-1 =
+    Brzy byste měli obdržet e-mail vysvětlující
+    jednotlivé kroky přidání vašeho jazyka do Common Voice
+request-language-success-list-2 =
+    Osloví vás komunitní manažer s nabídkou
+    další podporu a informacemi,
+    zda již existuje komunita pracující na vašem jazyce
 
 ## Languages Overview
 
@@ -1150,9 +1181,16 @@ contribution-misreadings-description = Během poslechu dávejte bedlivě pozor, 
 contribution-misreadings-description-extended-list-1 = Chybějící krátká slova jako <strong>'V'</strong> nebo <strong>'Pro'</strong> na začátku nahrávky.
 contribution-misreadings-description-extended-list-4 = Chybějící část posledního slova kvůli předčasně ukončenému nahrávání.
 contribution-misreadings-description-extended-list-5 = Opakované přečtení téhož slova.
+contribution-misreadings-example-2-explanation = [Mělo by to být ‚dinosauři‘]
+contribution-misreadings-example-3-title = Obří dinosauři z trias-.
 contribution-misreadings-example-8-title = Kolem proletěl čmelák.
+contribution-varying-pronunciations-title = Rozmanitá výslovnost
 contribution-varying-pronunciations-description = Speciální péči věnujte případnému zamítání nahrávek kvůli odlišně vyslovenému slovu, přízvuku nebo tónu věty. Ne každý vyslovuje stejně, jako vy, a v našem datasetu chceme zachytit výslovnost každého, pokud je správná.
 contribution-varying-pronunciations-description-extended = Na druhou stranu pokud máte pocit, že autor nahrávky nějaké slovy nezná a pouze si vymyslel jeho výslovnost, neváhejte takovou nahrávku odmítnout. Pokud si nejste jistí, nahrávku přeskočte.
+contribution-varying-pronunciations-example-1-title = Na hlavě měl baret.
+contribution-varying-pronunciations-example-1-explanation = [‚Beret‘ je v pořádku, ať už s důrazem na první slabiku (UK) nebo druhou (USA)]
+contribution-varying-pronunciations-example-2-title = Jeho ruka byla zdvi-žená.
+contribution-varying-pronunciations-example-2-explanation = [‚Raised‘ se v angličtině vždy vyslovuje jako jedna slabika, ne dvě]
 contribution-background-noise-title = Hluk v pozadí
 contribution-background-noise-description = Chceme, aby algoritmy dokázali pracovat i v běžném prostředí, kde se může vyskytovat i poměrně silný hluk. I v nahrávce tak silný hluk nebrání jejímu přijetí, ovšem za předpokladu, že je slyšet celý text. Tichá hudba na pozadí ničemu nevadí. Pokud přes ni ale neuslyšíte něktére slovo, to už v pořádku není.
 contribution-background-noise-description-extended = Pokud nahrávka šumí nebo v ní praská, a není slyšet celý text, odmítněte ji.
@@ -1197,6 +1235,7 @@ sc-logout-button = Odhlásit se
 ## HOME
 
 sc-home-collect-title = Sbírejte věty
+sc-home-review-title = Ověřujte věty
 
 ## GENERAL
 
@@ -1217,6 +1256,7 @@ sc-howto-review-criteria-4 = Pokud věta splňuje kritéria, klepněte na tlač�
 sc-howto-review-criteria-5 = Pokud věta nesplňuje výše uvedená kritéria, klepněte na tlačítko „Zamítnout“. Pokud si větou nejste jisti, můžete ji také přeskočit a přejít na další.
 sc-howto-review-criteria-6 = Pokud vám dojdou věty k ověření, pomozte nám shromáždit další věty!
 sc-howto-findpd-tips-2 = Vládní materiály, knihy a články jsou také skvělé, ale vzhledem k tomu, že text bývá poněkud formálnější, jsou méně žádané.
+sc-howto-findpd-tips-3 = Žel, zatím nemůžeme používat obsah od Wikimedia. Proto odtamtud nekopírujte a nevkládejte.
 sc-howto-findpd-subtitle-2 = Spolupráce s místními organizacemi nebo jednotlivci
 
 ## MY SENTENCES
@@ -1229,7 +1269,7 @@ sc-my-no-sentences = Žádné věty nebyly nalezeny!
 #   $batchId (String) - A unique ID identifying the submission of sentences - sentences uploaded together all have the same batch ID
 sc-my-submission = Odeslání: { $batchId }
 sc-my-deleting = Odstraňování vybraných vět...
-sc-my-err-failed-delete = Vybrané věty se nepodařilo odstranit… Zkuste to, prosím, znovu!
+sc-my-err-failed-delete = Vybrané věty se nepodařilo odstranit… Zkuste to prosím znovu!
 
 ## REJECTED
 
@@ -1249,8 +1289,18 @@ sc-stats-error = Nepodařilo se načíst statistiky. Zkuste to prosím později.
 sc-submit-err-select-lang = Vyberte jazyk.
 sc-submit-err-add-source = Přidejte zdroj.
 sc-submit-title = Přidání vět
+sc-submit-select-language =
+    .labelText = Zvolte jazyk
+sc-submit-add-sentences = Přidání vět pod <wikipediaLink>public domain</wikipediaLink>
+sc-submit-ph-one-per-line =
+    .placeholder = Co věta to řádek
+sc-submit-ph-read-how-to =
+    .placeholder = Nevíte-li jak uvádět zdroje, podívejte se do návodu
+sc-submit-confirm = Potvrzuji, že tyto věty jsou <wikipediaLink>public domain</wikipediaLink> a mám oprávnění je nahrát.
 sc-submit-button =
     .submitText = Odeslat
+sc-submit-filtered = Věty nesplňující požadavky (opravené verze zasílejte jako nové věty):
+sc-submit-guidelines = Prosím, podívejte se na <howToLink>pokyny</howToLink>.
 
 ## ADD LANGUAGE
 
@@ -1258,11 +1308,47 @@ sc-add-lang-could-not-add = Jazyk se nepodařilo přidat
 sc-add-lang-sec-label = Přidejte jazyk, do kterého chcete přispívat
 sc-add-lang-sec-button = Přidat jazyk
 sc-add-err-unexpected = Neočekávaná odezva serveru
+# Variables:
+#   $duplicates (Number) - Number of sentences which got rejected because they are duplicates
+sc-add-result =
+    { $duplicates ->
+        [0] Odeslané věty. { $duplicates } vět bylo zamítnuto pro duplicitu.
+        [one] Odeslané věty. { $duplicates } věta byla zamítnuta pro duplicitu.
+        [few] Odeslané věty. { $duplicates } věty byly zamítnuty pro duplicitu.
+        [many] Odeslané věty. { $duplicates } vět bylo zamítnuto pro duplicitu.
+       *[other] Odeslané věty. { $duplicates } vět bylo zamítnuto pro duplicitu.
+    }
+# Variables:
+#   $sentences (Number) - Number of sentences which failed to be saved to the database - could be several different reasons
+sc-add-err-failed =
+    { $sentences ->
+        [0] Všechny věty prošly
+        [one] 1 věta neprošla
+        [few] { $sentences } věty neprošly
+        [many] { $sentences } vět neprošlo
+       *[other] { $sentences } vět neprošlo
+    }
 sc-add-err-submission = Chyba při odeslání
+sc-add-lang-process-notice = Není-li váš jazyk na seznamu, můžete o něj zažádat <languageProcessLink>tímto postupem</languageProcessLink>.
 
 ## ADD SENTENCES CONFIRMATION
 
+sc-confirm-are-you-sure =
+    .message = Věty nebyly odeslány, opravdu chcete odejít?
 sc-confirm-sentences-title = Potvrďte nové věty
+# Variables:
+#   $countOfSentences (Number) - Number of sentences the user has filled in the submission form
+sc-confirm-sentences-found =
+    { $countOfSentences ->
+        [0] Nenalezena žádná věta.
+        [one] Nalezena 1 věta.
+        [few] Nalezeny { $countOfSentences } věty.
+        [many] Nalezeno { $countOfSentences } vět.
+       *[other] Nalezeno { $countOfSentences } vět.
+    }
+# Variables:
+#   $countOfInvalidated (Number) - Number of sentences the user rejected in the review form before submission
+sc-confirm-rejected-by-you = { $countOfInvalidated } vámi zamítnutých
 sc-confirm-button-text = Potvrdit
 
 ## LANGUAGE INFO
@@ -1304,6 +1390,9 @@ sc-personal-err-lang-not-found = Jazyk se nepodařilo odebrat: jazyk nebyl nalez
 sc-personal-err-remove = Jazyk se nepodařilo odebrat
 sc-personal-your-languages = Vaše jazyky:
 sc-personal-remove-button = odebrat
+# Variables:
+#   $sentences (Number) - Number of sentences that were added by the currently logged in user for this language
+sc-personal-added-by-you = { $sentences } vámi přidaných
 sc-personal-not-added = Dosud jste nepřidali žádné jazyky.
 
 ## REVIEW CRITERIA
@@ -1314,20 +1403,99 @@ sc-criteria-make-sure = Ověřte, zda věta splňuje následující kritéria:
 sc-criteria-item-1 = Věta musí být napsána správně.
 sc-criteria-item-2 = Věta musí být gramaticky správná.
 sc-criteria-item-3 = Věta musí být vyslovitelná.
+sc-criteria-item-4 = Pokud věta splňuje kritéria, klepněte vpravo na tlačítko &quot;Schválit&quot;.
+sc-criteria-item-5-2 = Pokud věta nesplňuje výše uvedená kritéria, klepněte vlevo na tlačítko „Zamítnout“;. Pokud si větou nejste jisti, můžete ji také přeskočit a přejít na další.
+sc-criteria-item-6 = Pokud vám dojdou věty k ověření, pomozte nám shromáždit další věty!
 
 ## REVIEW
 
+sc-review-lang-not-selected = Nemáte vybrán žádný jazyk. Přejděte na svůj <profileLink>profil</profileLink> a jazyky nastavte.
+sc-review-title = Ověřování vět
+sc-review-loading = Načítání vět…
+sc-review-select-language = Vyberte jazyk pro kontrolu vět.
+sc-review-no-sentences = Nic dalšího k ověření. <addLink>Přidat další věty!</addLink>
+sc-review-form-prompt =
+    .message = Ověřené věty nebyly odeslány. Vážně pokračovat?
+# Variables:
+#   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
+sc-review-form-source = Zdroj: { $sentenceSource }
+sc-review-form-button-reject = Zamítnout
+sc-review-form-button-skip = Přeskočit
+sc-review-form-button-approve = Schválit
+# Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
+sc-review-form-button-approve-shortcut = Y
+# Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
+sc-review-form-button-reject-shortcut = N
+# Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
+sc-review-form-button-skip-shortcut = S
+sc-review-form-keyboard-usage-custom = Můžete také použít klávesové zkratky: { sc-review-form-button-approve-shortcut } pro schválení, { sc-review-form-button-reject-shortcut } pro zamítnutí, { sc-review-form-button-skip-shortcut } pro přeskočení
+sc-review-form-button-submit =
+    .submitText = Dokončit ověření
+# Variables:
+#   $sentences (Number) - Number of sentences the user has reviewed in this session
+sc-review-form-reviewed-message =
+    { $sentences ->
+        [0] Žádná ověřená věta.
+        [one] 1 ověřená věta. Děkujeme!
+        [few] Ověřeny { $sentences } věty. Děkujeme!
+        [many] Ověřeno { $sentences } vět. Děkujeme!
+       *[other] Ověřeno { $sentences } vět. Děkujeme!
+    }
+sc-review-form-review-failure = Ověření se nepodařilo uložit. Zkuste to prosím později.
+sc-review-link = Ověření
 
 ## SETTINGS
 
+sc-settings-title = Nastavení
+sc-settings-ui-language = Jazyk rozhraní
+sc-settings-reset-skipped = Obnovit přeskočené věty
+sc-settings-skipped-decription = Při ověřování jste přeskakovali věty. Obnovou přeskočených se všechny tyto věty znovu zobrazí. Jazykově nezávislé.
+sc-settings-show-all-button = Opět zobrazit všechny přeskočené věty
+sc-settings-failed = Nastavení se nepodařilo změnit. Zkuste to prosím znovu.
+# VALIDATION
+sc-validation-number-of-words = Věta musí obsahovat 1 až 14 (včetně) slov
+sc-validation-no-numbers = Věta by neměla obsahovat číslice
+sc-validation-no-symbols = Věta by neměla obsahovat symboly
+sc-validation-no-abbreviations = Věta by neměla obsahovat zkratky
 
 # [/SentenceCollector]
 
+localization-select =
+    .label = Zvolte jazyk/lokalizaci
+# PARTNERSHIPS PAGE
+partnerships-header = Partnerství
+partnerships-header-text = K uskutečnění projektu Common Voice je zapotřebí hodně! Neděláme to sami. Chcete s námi spolupracovat? Budeme rádi, když se nám ozvete.
+partnerships-get-in-touch = Napište nám
+partnerships-become-a-partner = Staňte se partnerem Common Voice
+partnerships-community-header = Komunita, kreativci a občanská společnost
+partnerships-community-description = Komunita je tepajícím srdcem Common Voice – pochází z celého světa a jsou to jazykoví aktivisté, vědci a umělci. Více o tom, jak se zapojit, se dozvíte na stránce <about>O projektu</about> a v příručce <community>Community Playbook</community>. Pokud máte zájem o užší spolupráci, <emailFragment>kontaktujte nás.</emailFragment>
+partnerships-foundations-header = Nadace
+partnerships-foundations-description = Spolupracujeme s nadacemi, občanskou společností a komunitními partnery, abychom z internetu udělali zdravější místo, se zvláštním zaměřením na východní Afriku. Přečtěte si více o naší <programmaticWork>programové činnosti.</programmaticWork>
+partnerships-governments-header = Vlády
+partnerships-governments-description = S nadšením podporujeme zapojení veřejného sektoru v oblasti technologií, inovací a jazykových práv. Pokud plánujete realizovat významný projekt nebo kampaň, <emailFragment>kontaktujte nás.</emailFragment>
+partnerships-academia-header = Univerzity, akademičtí a výzkumní pracovníci
+partnerships-academia-description = Otevřené inovace jsou jádrem naší práce. V případě zájmu o výzkumnou spolupráci, sběr dat nebo rozhovory se na nás <emailFragment>obraťte.</emailFragment>
+partnerships-small-business-header = Malé podniky, včetně technologických a AI start-upů
+partnerships-small-business-description = Vždy se chceme dozvědět od spotřebitelů dat o jejich potřebách a souvislostech - od spolupráce na platformě pro sběr dat až po poskytování informací o stavu dat. Rádi <emailFragment>uslyšíme váš názor.</emailFragment>
+partnerships-corporates-header = Velké korporace a platformy
+partnerships-corporates-description = Pokud si chcete promluvit více o datasetu, chcete spoluinvestovat do plánovaného rozšíření platformy nebo hledat možnosti spolupráce, <emailFragment>napište nám.</emailFragment>
 partnerships-our-partners = Naši partneři
+# FIRST POST SUBMISSION CTA
+first-cta-header-text = Děkujeme za věnovanou hlasovou nahrávku!
+first-cta-subtitle-text = Můžete se podělit o nějaké informace o tom, jak hovoříte?
+why-donate = Nač se ptáte?
 add-information-button = Přidat informace
+create-profile-text = Chcete informace uložit? <createProfile>Vytvořte si profil</createProfile>
+thanks-for-voice-toast = Děkuje za údaje o hlase.
+thanks-for-voice-toast-error = Při odesílání údajů o hlase došlo k chybě
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = Děkujeme, že jste přispěli svým hlasem!
+second-cta-subtitle-text = Pomocí profilu můžete sledovat svou aktivitu a spojit se s komunitou přispěvatelů hlasových dat.
+already-have-an-account = Už máte účet? <login>Přihlásit</login>
 create-profile-button = Vytvořit profil
+# GUIDELINES PAGE
+guidelines-header = Pokyny pro přispěvatele
+guidelines-header-subtitle = Zjistit jak přispívat do datasetu Common Voice ověřováním vět a hlasových nahrávek
 voice-collection = Sbírka hlasů
 sentence-collection = Sbírka vět
 varying-pronunciations = Rozmanitá výslovnost
@@ -1338,7 +1506,42 @@ background-voices = Hlasy v pozadí
 volume = Hlasitost
 reader-effects = Způsob řeči
 just-unsure = Jen si nejste jisti?
+example = Příklad
+varying-pronunciations-explanation-2 = Na druhou stranu, pokud se domníváte, že se čtenář s daným slovem nikdy nesetkal a nesprávně odhaduje jeho výslovnost, odmítněte jej. Pokud si nejste jisti, použijte tlačítko "Přeskočit".
+misreadings-explanation-2 = Mezi běžné chyby patří:
+misreadings-example-4 = Kolem proletěl čmelák.
+citing-sentences-subheader-websites = Webové stránky
+citing-sentences-subheader-websites-explanation = Můžete uvést webové stránky, např. „Úřad vlády ČR – https://www.vlada.cz“
+citing-sentences-subheader-offline-sources = Offline zdroje
+citation =
+    .label = Zdroj
+adding-sentences-subheader-length = Délka
+adding-sentences-subheader-length-explanation = Věta by měla mít méně než 15 slov.
+adding-sentences-subheader-spelling-punctuation = Pravopis a interpunkce
+adding-sentences-subheader-speakable = Vyslovitelnost
+adding-sentences-subheader-numbers = Číslice
+adding-sentences-subheader-punctuation = Interpunkce
+adding-sentences-subheader-special-characters = Speciální znaky a cizí písmena
+adding-sentences-subheader-offensive-content = Urážlivý obsah
+sentence =
+    .label = Věta
+citation =
+    .label = Zdroj
+new-sentence-rule-2 = Kratší než 15 slov
+new-sentence-rule-3 = Dbejte na gramatickou správnost
+new-sentence-rule-4 = Používejte správný pravopis a interpunkci
+new-sentence-rule-5 = Žádné číslovky a speciální znaky
+new-sentence-rule-6 = Žádná cizí písmena
+new-sentence-rule-7 = Uvádějte zdroj
+how-to-cite = Jak uvádět zdroj?
+how-to-cite-explanation-bold = Odkazujte pomocí URL nebo celým názvem díla.
+guidelines = Pokyny
+contact-us = Kontakt
+add-sentence-success = Přidána 1 věta
+add-sentence-error = Neúspěšné přidání věty
 required-field = Vyplňte prosím toto pole.
+# REVIEW PAGE
+sc-review-instruction-first-part = Ověřit
 sc-review-instruction-second-part = je tato věta jazykově správná?
 sc-review-rules-title = Odpovídá věta doporučením?
 sc-review-empty-state = Tento jazyk nyní nemá k ověření žádné věty.
@@ -1348,3 +1551,4 @@ sentences-fetch-error = Při načítání vět došlo k chybě
 review-error = Při ověřování věty došlo k chybě
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = Probíhají rozsáhlé úpravy
+sc-redirect-page-subtitle-2 = Ptejte se na <matrixLink>Matrixu</matrixLink>, <discourseLink>Discourse</discourseLink> nebo <emailLink>e-mailem</emailLink>.

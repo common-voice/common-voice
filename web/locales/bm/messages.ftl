@@ -431,20 +431,55 @@ faq-what-cv-and-deepspeech-a = Common Voice kunnafonidilan bɛ Mozilla ka da wul
 faq-is-goal-assistant-a = Common Voice dataset laɲini ye ka diɲɛ kɔnɔ mɔgɔ o mɔgɔ dɛmɛ a ka se ka kuma dɔnni, kumalasela dɔnni, walima baarakɛminɛn suguya wɛrɛ jɔ min bɛ kan kunnafoniw wajibiya. Kumakan dɛmɛnan ye baarakɛminɛn suguya caman dɔ dɔrɔn de ye i bɛ se ka baara kɛ ni kunnafonidilan ye walasa k’u jɔ.
 faq-do-want-native-q = Ne ye mɔgɔ ye min tɛ kan fɔbaga ye ani ne bɛ kuma ni accent ye, yala i b’a fɛ hali bi ne kan na wa?
 faq-do-want-native-a = Ɔwɔ, an b’a fɛ kɛrɛnkɛrɛnnenya la i ka kan ka kɛ! Common Voice laɲini dɔ ye ka fɔcogo suguya caman lajɛ walasa kan dɔnni baarakɛlaw ka baara kɛ cogo kelen na bɛɛ ye. O kɔrɔ ye ko bolomafara minnu bɛ bɔ mɔgɔ minnu fɛ, olu nafa ka bon kɛrɛnkɛrɛnnenya la.
+faq-why-different-speakers-a = Kuma kunnafonidilan fanba bɛ dege ni jamanaden hakɛ dɔw jirali ye kojugu min bɛ na ni ɲɛmajɔbaliya ye <articleLink>cɛ ni cɛmancɛla< la
+faq-why-my-lang-q = Mun na ne ka kan ma don a la fɔlɔ?
 faq-why-my-lang-a =
     Common Voice ye jama sɔrɔyɔrɔ ye, wa kanw bɛɛ farala ɲɔgɔn kan ni bolomafaraw ye.
     An b’a fɛ kosɛbɛ k’aw ka kan fara a kan! <languageRequestLink>Aw ye ɲininkali kɛ aw ka kan farali kan.
+faq-what-quality-q = Odio jogo hakɛ jumɛn de ka kan ka kɛ walasa kumakan-klip dɔ ka se ka kɛ kunnafonidilan kɔnɔ?
+faq-what-quality-a = An b’a fɛ Common Voice kunnafonidilan ka mankan cogoya jira, kuma ni sɛbɛnni masin bɛna min mɛn kungo kɔnɔ, o de kama an bɛ suguya caman ɲini. Ka fara kumalasela suguya caman kan, kunnafonidilan min ka mankan cogoya tɛ kelen ye, o bɛna kuma ni sɛbɛnni motɛri kalan walasa ka diɲɛ ko lakikaw suguya caman ɲɛnabɔ, k’a ta kɔkan kuma na ka se mobili mankan ma. Ni i ka kumakan-klip bɛ faamuya, a ka kan ka kɛ koɲuman ye dataset (daɲɛgafe) la.
+faq-why-10k-hours-q = Mun na lɛrɛ 10 000 min sɛgɛsɛgɛra, o ye kan kelen-kelen bɛɛ kuntilenna ye walasa ka odio minɛ?
+faq-why-10k-hours-a = O bɛ bɛn lɛrɛ hakɛ ma min ka kan ka kɛ walasa ka baarakɛcogo dɔ dege min bɛ kɛ ni kuma ni sɛbɛnni ye.*
+faq-how-calc-hours-q = Common Voice bɛ lɛrɛw jate cogo di?
 faq-how-calc-hours-a = An bɛ lɛrɛw jatebɔ ni fɔlisen kelen-kelen bɛɛ janya cɛmancɛ jateminɛ ye, ka sɔrɔ k’o hakɛ caya ni fɔlisenw bɛɛ lajɛlen hakɛ ye kan bɛɛ kɔnɔ.
+faq-where-src-from-2-q = Sɛbɛn bɔyɔrɔ bɛ bɔ min?
+faq-where-src-from-2-a =
+    An ka sɔrɔyɔrɔ sɛbɛn bɛ kɛ ni dɛmɛbagaw ka bolomafara fɔlɔw ye ka fara baro kan ka bɔ foroba filimu sɛbɛnniw na i n’a fɔ <italic>It’s a Wonderful Life</italic>.
+    
+    Aw bɛ se k’an ka kumasenw bɔyɔrɔ lajɛ nin <githubLink>GitHub foli</githubLink> kɔnɔ.
 faq-why-not-ask-read-q = Mun na i t’a ɲini mɔgɔw fɛ u ka kalan kɛ gafew kɔnɔ walima Wikipeja barokunw na kan wɛrɛw la?
+faq-why-not-ask-read-a = Walasa ka Common Voice kunnafonidilan nafa sɔrɔ cogo min na an y’a latigɛ ka sɔn sɛbɛnw bɔyɔrɔ dɔrɔn ma minnu bɛ sɔrɔ Creative Commons (CC0) ka lase kɔnɔ. Baara kɛli ni CC0 sariya ye, o kɔrɔ ye ko a ka gɛlɛn ka sɔrɔ ka sɔrɔyɔrɔ sɛbɛnniw sɔrɔ ani k’u lajɛ, nka a bɛ sira Di mɔgɔ o mɔgɔ ma ka baara Kɛ ni kan kunnafoniw sɔrɔlenw ye k’a sɔrɔ baarakɛcogo dantigɛli ma Kɛ walima ni yamaruya ma Bɔ Mozilla fɛ. A laban na, an b’a fɛ ka kan caman kunnafonidilan in kɛ nafama ye bɛɛ bolo, i n’a fɔ ɲininikɛlaw, iniwɛrisitew, daminɛbagaw, gɔfɛrɛnamanw, sigidako tɔnw, ani ɲɛnajɛlamɔgɔw.
+faq-why-account-q = Mun na ne ka kan ka n tɔgɔ sɛbɛn jatebɔsɛbɛn dɔ la?
+faq-is-account-public-q = Yala ne ka jatebɔsɛbɛn kunnafoniw bɛ foroba la wa?
+faq-how-privacy-q = Mɔgɔ minnu y’u kan di, i bɛ olu tɔgɔ fɔ cogo di ani k’u ka gundo dɔn?
+faq-how-privacy-a = Kumakan-klip minnu bɛ kunnafonidilan kɔnɔ, olu bɛɛ bɛ sɔgɔ ni kunnafoniw ye minnu bɛ mɔgɔ yɛrɛ dɔn. Ni dɛmɛbaga dɔ ye jamanaden hakɛ kunnafoniw di a ka kunnafonisɛbɛn fɛ, o kunnafoniw bɛ bɔ u ka kumakanw na sanni u ka fara ɲɔgɔn kan walasa ka telesarse kunnafonidilan kɔnɔ, wa u tɛ fɔ foroba la abada u ka kunnafonisɛbɛn ɲɛ kan.
+faq-what-determine-identity-q = O kɔrɔ ye mun ye ko n tɛ se ka kumalasela minnu bɛ Common Voice kunnafonidilan kɔnɔ, olu “dantigɛli”?
+faq-what-determine-identity-a = Common Voice dataset ye nafolomafɛn ye min dabɔra ani min bɛ sɔrɔ foroba la, min bɛ se ka kɛ ka kuma-se-minɛn suguya caman dege. Walasa k’an ka bolomafaraw lakana, an b’a ɲini mɔgɔ o mɔgɔ fɛ minnu bɛ Common Voice kunnafonidilan telesarse, u ka dɛmɛbagaw ka danbe bonya.
+faq-what-is-cv = Common Voice ye mun ye?
+faq-using-cv = Baara kɛ ni Common Voice ye
+faq-description = Common Voice ye Mozilla ka baara dɔ ye walasa ka dɛmɛ don ka masinw kalan mɔgɔ lakikaw bɛ kuma cogo min na.
+faq-search-for-answers =
+    .label = Jaabiw ɲini
 
 ## ABOUT US
 
+about-title = Mun na Kumakan jɛlen?
 about-header-description-v2 =
     Common Voice ye kan kunnafonidilan ye min bɛ sɔrɔ foroba la, min bɛ baara kɛ ni bolomafara dibagaw kanw ye diɲɛ fan bɛɛ. Mɔgɔ minnu b’a fɛ ka kumakan baarakɛminɛnw dilan, olu bɛ se ka baara kɛ ni kunnafonidilan ye walasa ka masin kalanni misaliw dege.</p>
     <p>Sisan , kumakan kunnafonidilan fanba ye tɔnw ta ye , o bɛ kokuradonni bali . Kan kunnafonidilanw fana tɛ : tubabukan fɔbagaw tɛ, mɔgɔ kulɛrilenw, sebaliw, musow ani LGBTQIA+ mɔgɔw. O kɔrɔ ye ko fɛɛrɛ min bɛ Kɛ ni kan ye, o tɛ baara Kɛ hali dɔɔnin kan caman na, wa a bɛ baara Kɛ yɔrɔ min na, a bɛ Se ka Kɛ ko a tɛ baara Kɛ cogo kelen na bɛɛ fɛ. An b' a fɛ k' o fɛn caman Changer ni ka mɔgɔw lajɛ yɔrɔ bɛɛ walasa k' u kan tila ɲɔgɔn na .</p>
+how-does-it-work-title-v2 = Common Voice bɛ baara kɛ cogo di?
+how-does-it-work-text = An b’a ka jamanadenw ka kunnafonidilan dafalen dɔ kɛ kanw kan. Aw k’aw kan di, ka mɔgɔ wɛrɛw ka klipuw tiɲɛni sinsin, ka kunnafonidilan kɛ fɛn ɲuman ye bɛɛ ye.
 
 ## How does it work section
 
+about-language-req-subtitle = Mɔgɔ dɔ b’a ɲini ka kan dɔ fara a kan.
+about-localization-title = Site web Sigida Labɛnni
+about-localization-subtitle = Site web sɛbɛnniw bamanankanna o kan na.
+about-sentence-collection-title = Kumasenw Lajɛ
+about-sentence-collection-subtitle = Kumasenw bɛ lajɛ walasa mɔgɔw ka se k’u kalan ni kanba ye.
+about-new-lang-title = Kan kura daminɛ
+about-new-lang-subtitle = An bɛ Common Voice siti daminɛ o kan in na.
+about-no-votes-text = Ni baarakɛla dɔ banna kumakan-klip dɔ la a bɛ segin Layidu la. Ni a banna siɲɛ filanan na, kumakan-klip bɛ taa Clip kaburudo la.
 
 ## Community Playbook Content
 ## What is a language
