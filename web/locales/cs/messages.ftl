@@ -581,13 +581,30 @@ about-nav-playbook = Jak se zapojit
 ## What is a language
 
 about-playbook-what-is-language = Co je to jazyk z pohledu Common Voice?
+about-playbook-what-is-language-content-1 = O jazyce lze uvažovat mnoha způsoby. Pro účely modelů rozpoznávání řeči Common Voice navrhuje zaměřit se na „vzájemnou srozumitelnost“ neboli „mohou si mluvčí tohoto jazyka většinou rozumět, pokud se o to pokusí?“
+about-playbook-what-is-language-content-2 = Chceme, aby jazykové modely lépe rozuměly rozmanité škále mluvčích. Aby se tak stalo, musí hlasový dataset reprezentovat mnoho různých lidí.
+about-playbook-what-is-language-content-3 = Některé jazyky mají obrovské rozdíly v gramatice, slovní zásobě a výslovnosti. Z tohoto důvodu od roku 2022 <ctaLink>zavádíme „varianty“</ctaLink>. Komunity tak budou mít možnost odlišit své jazyky v rámci většího datasetu.
 
 ## How do I add a language
 
 about-playbook-how-add-language = Jak přidám jazyk?
+about-playbook-how-add-language-content-1 =
+    Nejprve zkontrolujte, zda váš jazyk <languageLink>již existuje</languageLink>.
+    Pokud ne, můžete <languageRequestLink>požádat o přidání jazyka</languageRequestLink>.
+    Existují dvě fáze. Překlad webu a shromažďování vět
 about-playbook-how-add-language-translating-heading = Překlad webu
 about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Podívejte se na průvodce používáním Pontoon.</translateVideoLink>
+about-playbook-how-add-language-translating-content-2 =
+    K překladům používáme nástroj Mozilly s názvem <pontoonLink>Pontoon</pontoonLink>. Pontoon obsahuje spoustu jazyků,
+    ale pokud nenabízí ten váš, můžete <pontoonRequestLink>požádat o jeho přidání </pontoonRequestLink>.
+    Chcete-li, by byl nový jazyk dostupný také v projektu Common Voice,
+    <githubRepoLink>požádejte o jeho zavedení na GitHubu</githubRepoLink>. Další informace naleznete v <localizationFragment>lokalizaci webu</localizationFragment>.
 about-playbook-how-add-language-collecting-sentences-heading = Sběr vět
+about-playbook-how-add-language-collecting-sentences-content-2 =
+    Můžete <sentenceCollectorLinkAdd>přidávat malý počet vět</sentenceCollectorLinkAdd>,
+    nebo můžete provédět <bulkImportDocsLink>hromadné importy pomocí Github</bulkImportDocsLink>.
+    Nezapomeňte, že věty musí být pod licencí <licenseLink>CC0 (nebo public domain)</licenseLink>, nebo si můžete napsat vlastní věty.
+about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>Podívejte se na další informace o shromažďování vět</sentenceCollectorFragment>.
 
 ## How does localization work
 
