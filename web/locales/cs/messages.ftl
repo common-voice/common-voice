@@ -823,6 +823,13 @@ request-language-google-recaptcha-required = Chcete-li pokračovat, je vyžadov�
 request-language-google-recaptcha-error = reCAPTCHu se nepodařilo zpracovat. Zkuste to znovu.
 # Success page
 request-language-success-heading = Děkujeme! Požadavek na nový jazyk byl odeslán
+request-language-success-list-1 =
+    Brzy byste měli obdržet e-mail vysvětlující
+    jednotlivé kroky přidání vašeho jazyka do Common Voice
+request-language-success-list-2 =
+    Osloví vás komunitní manažer s nabídkou
+    další podporu a informacemi,
+    zda již existuje komunita pracující na vašem jazyce
 
 ## Languages Overview
 
