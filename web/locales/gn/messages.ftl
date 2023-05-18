@@ -881,6 +881,8 @@ action-click = Eikutu
 action-tap = Jeporavo
 contribute = Ñepytyvõ
 listen = Ehendu
+write = Hai
+review = Hechajey
 skip = Jepo
 shortcuts = Mbopya’eha
 clips-with-count-pluralized =
@@ -944,6 +946,7 @@ target-segment-learn-more = Kuaave
 ## Contribution Nav Items
 
 contribute-voice-collection-nav-header = Ayvu Ñembyaty
+contribute-sentence-collection-nav-header = Ñe’ẽjuaju ñembyatyha
 
 ## Reporting
 
@@ -1640,4 +1643,5 @@ adding-sentences-subheader-abbreviations = Mombyky ha Acrónimo
 adding-sentences-subheader-punctuation = Mbopapapy
 adding-sentences-subheader-special-characters = Jehairã Jeporavokuaa ha Tai Pytaguáva
 adding-sentences-subheader-offensive-content = Ñe’ẽreity Ivaíva
-community-announcement-header = ¡Tekoha ñemomarandu!
+citation =
+    .label = Jehechauka
