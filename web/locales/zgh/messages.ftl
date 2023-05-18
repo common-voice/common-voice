@@ -1421,6 +1421,8 @@ sc-review-title = ⵙⵙⵉⵔⵎ ⵜⵉⵡⵉⵏⴰⵙ
 sc-review-loading = ⴰⵣⴷⴰⵎ ⵏ ⵜⵡⵉⵏⴰⵙ…
 sc-review-select-language = ⵎⴽ ⵜⵓⴼⵉⴷ, ⵙⵜⵢ ⴽⵔⴰ ⵏ ⵜⵓⵜⵍⴰⵢⵜ ⵃⵎⴰ ⴰⴷ ⵜⵙⵙⵉⵔⵎⴷ ⵜⵉⵡⵉⵏⴰⵙ.
 sc-review-no-sentences = ⵡⴰⵍⵓ ⵜⵉⵡⵉⵏⴰⵙ ⵉ ⵓⵙⵙⵉⵔⵎ. <addLink>ⵔⵏⵓ ⵓⴳⴳⴰⵔ ⵏ ⵜⵡⵉⵏⴰⵙ ⴷⵖⵉ!</addLink>
+sc-review-form-prompt =
+    .message = ⵓⵔ ⵜⵜⵢⴰⵣⴰⵏⵏⵜ ⵜⵡⵉⵏⴰⵙ ⵜⵜⵢⴰⵔⴰⵎⵏⵉⵏ, ⵜⵅⵙⴷ ⴰⴷ ⵜⵙⵎⴷⴷ?
 sc-review-form-usage = ⵙⵓⵛⵛⴹⴰⵜ ⵖⵔ ⵓⴼⴰⵙⵉ ⵃⵎⴰ ⴰⴷ ⵜⵙⵙⴳⵍⵢⵎ ⵜⴰⵡⵉⵏⵙⵜ. ⵙⵓⵛⵛⴹⴰⵜ ⵖⵔ ⵓⵥⵍⵎⴰⴹ ⵃⵎⴰ ⴰⴷ ⵜⵜ ⵜⴰⴳⵢⵎ. ⵙⵓⵛⵛⴹⴰⵜ ⵖⵔ ⵓⴼⵍⵍⴰ ⵃⵎⴰ ⴰⴷ ⵜⵜ ⵜⵙⵙⵉⵏⴼⵎ. <strong>ⴰⴷ ⵓⵔ ⵜⴻⵜⵜⵓⵎ ⴰⴷ ⵜⴰⵣⵏⵎ ⴰⵙⵙⵉⵔⵎ ⵏⵏⵓⵏ!</strong>
 # Variables:
 #   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
@@ -1452,6 +1454,7 @@ sc-review-link = ⵙⵙⵉⵔⵎ
 
 sc-settings-title = ⵜⵉⵙⵖⴰⵍ
 sc-settings-ui-language = ⵜⵓⵜⵍⴰⵢⵜ ⵏ ⵓⴳⵔⵓⴷⵎ
+sc-settings-show-all-button = ⵙⵙⵓⵎⴰⵏ ⴷⴰⵖ ⵜⵉⵡⵉⵏⴰⵙ ⴰⴽⴽⵯ ⵓⵏⴼⵏⵉⵏ
 sc-settings-failed = ⵓⵔ ⵏⵣⵎⵉⵔ ⴰⴷ ⵏⵙⵏⴼⵍ ⵜⵉⵙⵖⴰⵍ. ⵎⴽ ⵜⵓⴼⴰⵎ, ⴰⵔⵎⴰⵜ ⴷⴰⵖ.
 sc-validation-no-numbers = ⵓⵔ ⵉⵅⵚⵚⴰ ⵜⴰⵡⵉⵏⵙⵜ ⴰⴷ ⵜⴰⵎⵓ ⵓⵟⵟⵓⵏⵏ
 sc-validation-no-abbreviations = ⵓⵔ ⵉⵅⵚⵚⴰ ⵜⴰⵡⵉⵏⵙⵜ ⴰⴷ ⵜⴰⵎⵓ ⵉⵣⴳⵣⴰⵍ
