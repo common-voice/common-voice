@@ -1713,3 +1713,4 @@ sentences-fetch-error = ایں جملے دے واپس ولݨ وچ خرابی ت�
 review-error = ایں جملے دی نظرثانی وچ خرابی تھی ڳئی
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = اساں کجھ وݙیاں تبدیلیاں کریندے پئے ہیں
+sc-redirect-page-subtitle-2 = ساݙے کنوں <matrixLink>میٹرکس</matrixLink>، <discourseLink>ڈسکورس</discourseLink> یا <emailLink>ای میل</emailLink> بارے سوالات پُچھو۔
