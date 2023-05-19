@@ -1302,6 +1302,7 @@ sc-howto-addsen-item-3 = Zkratky a zkratková slova. Zkratky a zkratková slova 
 sc-howto-addsen-item-4 = Interpunkce. Speciální symboly a interpunkční znaménka by se měly používat pouze v nezbytně nutných případech. Například apostrof je součástí anglických slov jako "don't" a "we're" a měl by být zahrnut do zdrojového textu, ale je nepravděpodobné, že byste někdy potřebovali speciální symbol jako "@" nebo "#".
 sc-howto-addsen-item-5 = Cizí znaky. Písmena musí být platná pro jazyk mluveného slova. Například "ж" je znak ruské abecedy, ale v češtině se nikdy nepoužívá, a proto by se neměl objevit ani v žádném českém zdrojovém textu.
 sc-howto-addsen-item-6 = Jednotlivé Jazyky mohou mít svá <validationRulesLink>vlastní kontrolní pravidla</validationRulesLink> s dalšími požadavky. Pokud pro jazyk neexistuje žádný specifický validační soubor, přispěvatelům se zobrazí pravidla anglická.
+sc-howto-addsen-post-1 = Upřednostňujeme přirozené/konverzační věty. Ač jsou pro nás fonetická rozmanitost a bohatý slovník důležité, chceme, aby nahrávání vět bylo zábavou. Proto je žádoucí, abyste zachovali co nejpřirozenější/osobitý projev.
 sc-howto-cite-title = Jak citovat
 sc-howto-cite-pre-1 = Abyste se vyhnuli plagiátorství a umožnili následnou kontrolu v případě <copyrightIssuesLink>problémů s autorskými právy</copyrightIssuesLink>, je důležité uvádět odkaz na veřejnou licenci zdroje. Zde je několik způsobů, jak to můžete provést.
 sc-howto-cite-item-1 = Můžete uvést webové stránky, např. „Úřad vlády ČR – https://www.vlada.cz“
@@ -1317,15 +1318,19 @@ sc-howto-review-criteria-5 = Pokud věta nesplňuje výše uvedená kritéria, k
 sc-howto-review-criteria-6 = Pokud vám dojdou věty k ověření, pomozte nám shromáždit další věty!
 sc-howto-findpd-title = Vyhledávání existujícího public domain obsahu
 sc-howto-findpd-subtitle = Vyhledání na internetu
+sc-howto-findpd-text-2 = Nezapomínejte, že ke zveřejnění takového obsahu potřebujeme povolení, proto se vždy ujistěte, že text byl uvolněn jako <wikipediaLink>public domain</wikipediaLink>. Není-li tak výslovně uvedeno, oslovte osobu, které text patří, a zeptejte se, zda chce svým dílem přispět pod public domain. Pokud ano, pomozte jí projít procesem <cc0WaiverLink>Dohody o příspěvcích</cc0WaiverLink>. Pokud ne, pak tento obsah nemůže být použit.
 sc-howto-findpd-tips = Kde hledat:
 sc-howto-findpd-tips-1 = Nejlepší zdroje, které můžete hledat, jsou podcasty, přepisy, filmové scénáře a cokoli, co může obsahovat každodenní konverzace.
 sc-howto-findpd-tips-2 = Vládní materiály, knihy a články jsou také skvělé, ale vzhledem k tomu, že text bývá poněkud formálnější, jsou méně žádané.
 sc-howto-findpd-tips-3 = Žel, zatím nemůžeme používat obsah od Wikimedia. Proto odtamtud nekopírujte a nevkládejte.
 sc-howto-findpd-subtitle-2 = Spolupráce s místními organizacemi nebo jednotlivci
+sc-howto-findpd-partner-1 = Existuje řada veřejných organizací, které by mohly chtít spolupracovat a které již mají spoustu textů, které mohou poskytnout jako public domain. Oslovte místní univerzity, instituce a organizace zabývající se open-source, představte jim projekt a požádejte je o pomoc.
+sc-howto-findpd-partner-2 = Pomoci mohou též lingvisté. Pokuste se oslovit místní jazykové školy (učitele i studenty) a zjistit, zda mohou pomoci shromáždit soubor různorodých, zvukově rozmanitých vět ve vašem jazyce.
 
 ## MY SENTENCES
 
 sc-my-title = Moje věty
+sc-my-description = Na této stránce najdete přehled všech odeslaných vět. V případě potřeby můžete také odstranit již odeslané věty zaškrtnutím políčka vedle něj a kliknutím na &quot;Odstranit vybrané věty&quot; dole. Věty odstraňujte pouze v případě, že je to nezbytně nutné, například pokud jste si dodatečně všimli, že věta je chráněna autorskými právy.
 sc-my-loading = Načítání vašich vět…
 sc-my-err-fetching = Chyba při načítání vět. Prosím, zkuste to znovu.
 sc-my-no-sentences = Žádné věty nebyly nalezeny!
@@ -1351,6 +1356,10 @@ sc-rejected-none-found = Nebyly nalezeny žádné zamítnuté věty!
 sc-stats-title = Statistiky
 sc-stats-updating = Probíhá aktualizace...
 sc-stats-error = Nepodařilo se načíst statistiky. Zkuste to prosím později.
+# Variables:
+#   $sentenceCount (Number) - Total number of sentences uploaded through Sentence Collector
+#   $languageCount (Number) - Total number of languages these sentences represent
+sc-stats-summary = Common Voice Sentence Collector shromáždil { $sentenceCount } vět v { $languageCount } jazycích!
 
 ## ADD
 
@@ -1440,6 +1449,9 @@ sc-confirm-ready =
         [many] { $readyCount } vět k odeslání!
        *[other] { $readyCount } vět k odeslání!
     }
+# Variables:
+#   $countOfUnreviewed (Number) - Number of sentences unreviewed before the upload
+sc-confirm-unreviewed = { $countOfUnreviewed } neověřených vět. Chcete-li, můžete věty zkontrolovat ještě před odesláním.
 sc-confirm-button-text = Potvrdit
 sc-confirm-uploading = Věty se nahrávají. To může trvat několik minut v závislosti na jejich počtu. Prosím, neopouštějte zatím tuto stránku.
 
@@ -1467,8 +1479,38 @@ sc-lang-info-in-review =
         [many] vět k ověření.
        *[other] vět k ověření.
     }
+# Variables:
+#   $unreviewedSentencesByYou (Number) - Number of sentences the user can still review
+sc-lang-info-left-for-you =
+    { $unreviewedSentencesByYou ->
+        [0] Žádná věta k ověření.
+        [one] 1 věta k ověření.
+        [few] { $unreviewedSentencesByYou } věty k ověření.
+        [many] { $unreviewedSentencesByYou } vět k ověření.
+       *[other] { $unreviewedSentencesByYou } vět k ověření.
+    }
 sc-lang-info-review-now = <reviewLink>Zkontrolovat nyní!</reviewLink>
 sc-lang-info-add-more = <addLink>Přidejte další věty!</addLink>
+# Variables:
+#   $validatedSentences (Number) - Number of sentences which have been approved for this language
+sc-lang-info-validated =
+    { $validatedSentences ->
+        [0] Žádné ověřené věty.
+        [one] 1 ověřená věta.
+        [few] { $validatedSentences } ověřené věty.
+        [many] { $validatedSentences } ověřených vět.
+       *[other] { $validatedSentences } ověřených vět.
+    }
+# Variables:
+#   $rejectedSentences (Number) - Number of sentences which have been rejected for this language
+sc-lang-info-rejected =
+    { $rejectedSentences ->
+        [0] Žádná zamítnutá věta.
+        [one] 1 zamítnutá věta.
+        [few] { $rejectedSentences } zamítnuté věty.
+        [many] { $rejectedSentences } zamítnutých vět.
+       *[other] { $rejectedSentences } zamítnutých vět.
+    }
 
 ## LOGIN
 
@@ -1579,6 +1621,8 @@ partnerships-our-partners = Naši partneři
 first-cta-header-text = Děkujeme za věnovanou hlasovou nahrávku!
 first-cta-subtitle-text = Můžete se podělit o nějaké informace o tom, jak hovoříte?
 why-donate = Nač se ptáte?
+why-donate-explanation-1 = Tyto informace jsou nepovinné - měli byste je uvést pouze tehdy, je-li to pro vás komfortní. Při zveřejňování datastu pseudonymizujeme všechny osobní údaje a dbáme na to, aby informace jako vaše jméno a e-mail nebyly spojeny s demografickými údaji, jako je věk nebo pohlaví.
+why-donate-explanation-2 = Aby technologie fungovala dobře všem, musí data pomáhající vývojářům technologie vytvářet odrážet různorodé skupiny lidí. Pokud například nezahrneme žádné mluvčí s určitým přízvukem, nebude technologie pro lidi s tímto přízvukem fungovat dobře. Přečtěte si více o tom, <learnMore>proč jsou metadata důležitá</learnMore>.
 add-information-button = Přidat informace
 continue-speaking-button = Ne, děkuji. Dál předčítat
 create-profile-text = Chcete informace uložit? <createProfile>Vytvořte si profil</createProfile>
@@ -1605,6 +1649,7 @@ volume = Hlasitost
 reader-effects = Způsob řeči
 just-unsure = Jen si nejste jisti?
 example = Příklad
+varying-pronunciations-explanation-1 = Různé přízvuky jsou vítány! Buďte velmi opatrní, než odmítnete nahrávku z důvodu, že si myslíte, že mluvčí špatně vyslovil nějaké slovo, umístil důraz na špatné místo nebo ignoroval interpunkci. Výslovnost se může krajově lišit a možná jste se s ní ve svém okolí jen nesetkali. Prosíme, buďte velkorysí a respektujte tyto odlišnosti.
 varying-pronunciations-explanation-2 = Na druhou stranu, pokud se domníváte, že se čtenář s daným slovem nikdy nesetkal a nesprávně odhaduje jeho výslovnost, odmítněte jej. Pokud si nejste jisti, použijte tlačítko "Přeskočit".
 misreadings-explanation-2 = Mezi běžné chyby patří:
 misreadings-explanation-3 = Chybějící krátká slova jako <strong>'V'</strong> nebo <strong>'To'</strong> na začátku nahrávky.
