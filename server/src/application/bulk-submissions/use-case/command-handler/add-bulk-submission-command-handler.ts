@@ -19,15 +19,11 @@ export const addBulkSubmission =
   (jobQueue: JobQueue<BulkSubmissionUploadJob>) =>
   (insertIntoDb: (a: BulkSubmission) => TE.TaskEither<Error, boolean>) =>
   (cmd: AddBulkSubmissionCommand) => {
-    const filepath = createBulkSubmissionFilepath(
-      cmd.locale,
-      cmd.file
-    )
-
     return pipe(
       TE.Do,
+      TE.let('filepath', () => createBulkSubmissionFilepath(cmd.locale, cmd.file)),
       TE.bind('localeId', () => getLocaleId(cmd.locale)),
-      TE.bind('addToQueue', () =>
+      TE.bind('addToQueue', ({ filepath }) =>
         TE.fromTask(
           jobQueue.addJob({
             filepath,
@@ -35,7 +31,7 @@ export const addBulkSubmission =
           })
         )
       ),
-      TE.bind('insertIntoDb', ({ localeId }) =>
+      TE.bind('insertIntoDb', ({ filepath, localeId }) =>
         insertIntoDb({
           localeId: localeId,
           name: cmd.filename,
