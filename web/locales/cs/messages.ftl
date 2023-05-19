@@ -600,6 +600,7 @@ about-playbook-how-add-language-translating-content-2 =
     Chcete-li, by byl nový jazyk dostupný také v projektu Common Voice,
     <githubRepoLink>požádejte o jeho zavedení na GitHubu</githubRepoLink>. Další informace naleznete v <localizationFragment>lokalizaci webu</localizationFragment>.
 about-playbook-how-add-language-collecting-sentences-heading = Sběr vět
+about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>Podívejte se na průvodce používáním nástroje Sentence Collector</sentenceCollectorVideo>.
 about-playbook-how-add-language-collecting-sentences-content-2 =
     Můžete <sentenceCollectorLinkAdd>přidávat malý počet vět</sentenceCollectorLinkAdd>,
     nebo můžete provédět <bulkImportDocsLink>hromadné importy pomocí Github</bulkImportDocsLink>.
@@ -610,12 +611,17 @@ about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollec
 
 about-playbook-how-localize = Jak funguje lokalizace webu?
 about-playbook-how-localize-content-1 = Překlad stránek Common Voice probíhá v nástroji <strong>Pontoon</strong>.
+about-playbook-how-localize-content-2 = <pontoonAccountLink>Vytvořte si účet</pontoonAccountLink>, pokud jej nemáte. Poté vyberte svůj jazyk <strong>(„Team“)</strong> a následně projekt <pontoonCvLink>Common Voice</pontoonCvLink>. Objeví se soubory k překladu. Klepněte na jeden z nich, což zobrazí slova v angličtině a pole pro jejich překlad.
+about-playbook-how-localize-content-3 = Překládá se z angličtiny, ale <strong>Návrhy</strong> si můžete zobrazit v jiných jazycích. Klepněte na ikonu <strong>Profile</strong>, poté na odkaz <strong>Settings</strong> a přidejte všechny jazyky, které ovládáte. Po pravé straně se zobrazí seznam překladů nazvaný <strong>Locales</strong>. Překlady se na webu zobrazí po uplynutí dne.
 about-playbook-how-localize-content-4 = Stránka je připravena ke spuštění, je-li přeloženo alespoň 75 %.
 about-playbook-how-localize-content-5 = Spustit instruktážní video
 
 ## How to add sentences
 
 about-playbook-how-add-sentences = Jak přidávat věty?
+about-playbook-how-add-sentences-content-1 = <strong>Sentence Collector</strong> je nástroj pro shromažďování a ověřování public domain vět. Musíte si <scAccountLink>vytvořit účet</scAccountLink>. Poté přidejte svůj jazyk do svého <strong>profilu</strong>. Můžete také <strong>přidávat</strong> věty nebo <strong>ověřovat</strong> dříve přidané věty.
+about-playbook-how-add-sentences-content-2 = Věty musí být ověřeny a schváleny dvěma osobami, aby mohly být zařazeny do Common Voice. <languageGuidelinesLink>Zde</languageGuidelinesLink> si vytvoříte pokyny pro svůj jazyk. Musí se jednat o <licenseLink>public domain</licenseLink> věty kratší než 15 slov. Můžete požádat vlastníka textu, aby jej uvolnil pod <waiverLink>CC0 pomocí našeho postupu zřeknutí se práv</waiverLink> a dohodu nám poslali na commonvoice@mozilla.com
+about-playbook-how-add-sentences-content-3 = K získání krátkých vět z Wikipedie můžete použít nástroj <scraperLink>Sentence extractor</scraperLink>.
 about-playbook-how-add-sentences-content-4 = Ověřené věty jsou exportovány ve středu a jsou dostupné v příštím vydání.
 
 ## How to record quality
@@ -816,6 +822,12 @@ other-language = Ostatní jazyky
 ## Request Language Pages
 
 request-language-heading = Požádejte o nový jazyk
+request-language-explanation-1 =
+    Podívejte se, je-li váš jazyk uveden na
+    <languagesPageLink>Common Voice Languages</languagesPageLink>.
+    Pokud ne, vyplňte tento formulář a my vám <strong>zašleme instruktážní e-mail
+    s popisem, jak jazyk nastavit</strong>.
+request-language-explanation-2 = O vašem zájmu budeme <strong>informovat komunitního manažera</strong>, aby vám mohl poskytnout další podporu nebo informace, které byste mohli potřebovat.
 request-language-form-email =
     .label = Vaše e-mailová adresa
 request-language-form-info =
@@ -1198,6 +1210,8 @@ contribution-for-example = například
 contribution-misreadings-title = Přeřeknutí
 contribution-misreadings-description = Během poslechu dávejte bedlivě pozor, jestli nahrávka obsahuje přesně to, co je napsáno. Odmítněte nahrávku i pokud obsahuje jen drobnou chybu. <br />Mezi běžné chyby patří:
 contribution-misreadings-description-extended-list-1 = Chybějící krátká slova jako <strong>'V'</strong> nebo <strong>'Pro'</strong> na začátku nahrávky.
+contribution-misreadings-description-extended-list-2 = Chybí <strong>a</strong> na konci slova
+contribution-misreadings-description-extended-list-3 = Čtení stažených tvarů, které tam ve skutečnosti nejsou, například "tys" místo "ty jsi" nebo naopak.
 contribution-misreadings-description-extended-list-4 = Chybějící část posledního slova kvůli předčasně ukončenému nahrávání.
 contribution-misreadings-description-extended-list-5 = Opakované přečtení téhož slova.
 contribution-misreadings-example-1-title = Obří dinosauři z triasu.
@@ -1207,6 +1221,7 @@ contribution-misreadings-example-3-title = Obří dinosauři z trias-.
 contribution-misreadings-example-3-explanation = [Nahrávka přerušena před koncem posledního slova]
 contribution-misreadings-example-4-title = Obří dinosauři z triasu. Ano.
 contribution-misreadings-example-4-explanation = [Zaznamenáno více, než odpovídá textu]
+contribution-misreadings-example-6-explanation = [Mělo by být „Ty jsi“]
 contribution-misreadings-example-8-title = Kolem proletěl čmelák.
 contribution-misreadings-example-8-explanation = [Jiný obsah]
 contribution-varying-pronunciations-title = Rozmanitá výslovnost
@@ -1222,6 +1237,7 @@ contribution-background-noise-description-extended = Pokud nahrávka šumí nebo
 contribution-background-noise-example-1-fixed-title = <strong>[Kýchání]</strong> Obří dinosauři z <strong>[kašel]</strong> triasu.
 contribution-background-noise-example-2-fixed-title = Obří dino <strong>[kašel]</strong> trias.
 contribution-background-noise-example-2-explanation = [Část textu není slyšet]
+contribution-background-noise-example-3-fixed-title = <strong>[Praskání]</strong> obří dinosauři z <strong>[praskání]</strong> -riassic.
 contribution-background-voices-title = Hlasy v pozadí
 contribution-background-voices-description = Nejasné vzdálené hlasy je v pořádku, ale zároveň v našem datasetu nechcete další hlasy, ze kterých by algoritmy mohly rozeznávat slova, které nejsou v původním textu. Pokud rozumíte hlasům na pozadí, co říkají, nahrávku byste měli odmítnout. Typickým příkladem je zapnutá televize, nebo rozhovor dalších lidí.
 contribution-background-voices-description-extended = Pokud nahrávka šumí nebo v ní praská, a není slyšet celý text, odmítněte ji.
@@ -1263,6 +1279,8 @@ sc-logout-button = Odhlásit se
 
 ## HOME
 
+sc-home-title = Vítejte v Common Voice Sentence Collectoru
+sc-home-intro = Sentence Collector je součástí <commonVoiceLink>Common Voice</commonVoiceLink>. Umožňuje přispěvatelům shromažďovat a ověřovat věty vytvořené komunitou. Tento nástroj můžete také použít k importu a vyčištění malého až středně velkého public domain korpusu , který jste našli nebo shromáždili. Všechny věty musí být uvolněny public domain. Schválené věty jsou každý týden exportovány do úložiště Common Voice a při každém novém vydání jsou zveřejněny na webových stránkách Common Voice.
 sc-home-collect-title = Sbírejte věty
 sc-home-collect-text = Pomozte nám psaním nebo shromažďováním public domain vět.
 sc-home-review-title = Ověřujte věty
@@ -1278,7 +1296,10 @@ sc-howto-title = Návody
 sc-howto-addlang-title = Přidání jazyků, se kterými lze pracovat
 sc-howto-addlang-text = Po přihlášení nastavte své jazyky v sekci Profil
 sc-howto-addsen-title = Přidávání nových vět
+sc-howto-addsen-item-1 = Všechny odeslané věty musí podléhat <wikipediaLink>licenci Public Domain (CC-0)</wikipediaLink>. Abychom podpořili zařazení děl, která nejsou pod veřejnou licencí, vytvořili jsme <cc0WaiverLink>šablonu smlouvy o příspěvcích</cc0WaiverLink> pro díla, kterými by vlastník autorských práv chtěl přispět do Common Voice.
 sc-howto-addsen-item-2 = Čísla. Ve zdrojovém textu by neměly být žádné číslice, protože jejich slovní vyjádření závisí na kontextu a může způsobit zmatek v datové sadě. Například číslo „2409“ lze přečíst jako „dvacet čtyři nula devět“ případně „dva tisíce čtyři sta devět“.
+sc-howto-addsen-item-3 = Zkratky a zkratková slova. Zkratky a zkratková slova (akronymy) typu „DVD“ nebo „ČVUT“ by se ve zdrojovém textu neměly používat, protože je lze číst odlišně při stejném zápisu jako [dé-vé-dé] ale také [dí-ví-dí]. Rovněž může existovat více správných způsobů vyslovení. Obvykle odhláskované [čé-vé-ú-té] lze přečíst též jako jediné slovo [čvut].
+sc-howto-addsen-item-4 = Interpunkce. Speciální symboly a interpunkční znaménka by se měly používat pouze v nezbytně nutných případech. Například apostrof je součástí anglických slov jako "don't" a "we're" a měl by být zahrnut do zdrojového textu, ale je nepravděpodobné, že byste někdy potřebovali speciální symbol jako "@" nebo "#".
 sc-howto-addsen-item-5 = Cizí znaky. Písmena musí být platná pro jazyk mluveného slova. Například "ж" je znak ruské abecedy, ale v češtině se nikdy nepoužívá, a proto by se neměl objevit ani v žádném českém zdrojovém textu.
 sc-howto-addsen-item-6 = Jednotlivé Jazyky mohou mít svá <validationRulesLink>vlastní kontrolní pravidla</validationRulesLink> s dalšími požadavky. Pokud pro jazyk neexistuje žádný specifický validační soubor, přispěvatelům se zobrazí pravidla anglická.
 sc-howto-cite-title = Jak citovat
