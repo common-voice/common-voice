@@ -22,16 +22,14 @@ export const processBulkSubmissionUpload =
   (getDownloadUrl: (path: string) => string) =>
   (sendBulkSubmissionEmail: (data: BulkSubmissionEmailData) => TE.TaskEither<Error, boolean>) =>
   (job: Job<BulkSubmissionUploadJob>) => {
-    const uploadBulkSubmission = pipe(
-      Buffer.from(job.data.data, 'hex'),
-      upload(job.data.filepath)
-    )
-
     return pipe(
       TE.Do,
       TE.bind('doesExist', () => doesExist(job.data.filepath)),
-      TE.bind('uploadBulkSubmission', ({ doesExist }) =>
-        doesExist ? TE.right((()=>{return})()) : uploadBulkSubmission
+      TE.bind('uploadBulkSubmission', ({ doesExist }) => {
+        return doesExist ? TE.right((()=>{return})()) : pipe(
+          Buffer.from(job.data.data, 'hex'),
+          upload(job.data.filepath)
+        )}
       ),
       TE.let('downloadUrl', () => getDownloadUrl(job.data.filepath)),
       TE.bind('result', ({ downloadUrl }) => sendBulkSubmissionEmail({
