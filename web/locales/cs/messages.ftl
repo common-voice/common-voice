@@ -816,6 +816,11 @@ other-language = Ostatní jazyky
 ## Request Language Pages
 
 request-language-heading = Požádejte o nový jazyk
+request-language-form-email =
+    .label = Vaše e-mailová adresa
+request-language-form-info =
+    .label = Informace o jazyce
+request-language-form-info-explanation = Přidejte co nejvíce informací o jazyce. Jako například:
 request-language-form-info-explanation-list-1 = Název jazyka
 request-language-form-info-explanation-list-2 = <isoCodeLink>Kódy ISO</isoCodeLink>, pokud je znáte
 request-language-form-info-explanation-list-3 = Odkazy na webové stránky, které nám mohou pomoci porozumět jazyku
@@ -830,6 +835,13 @@ request-language-success-list-2 =
     Osloví vás komunitní manažer s nabídkou
     další podporu a informacemi,
     zda již existuje komunita pracující na vašem jazyce
+request-language-success-list-3 =
+    Neodpovíme-li vám do několika dnů,
+    obraťte se na <emailLink>{ $email }</emailLink>
+    a my se vám ozveme!
+request-language-error =
+    Je možné, že jsme tuto žádost neobdrželi. Napište nám prosím přímo
+    na <emailLink>{ $email }</emailLink> a my se vám ozveme zpět!
 
 ## Languages Overview
 
@@ -847,6 +859,7 @@ language-speakers = Mluvčí
 localized = Přeloženo
 sentences = Věty
 language-validation-hours = Hodiny
+language-validation-progress = Stav ověřování
 
 ## Contribution
 
@@ -904,8 +917,14 @@ listen-again-instruction = Skvělá práce!<playIcon></playIcon> Až budete při
 listen-3rd-time-instruction = 2 máte za sebou, jen tak dál! <playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon>Poslední!
 listen-empty-state = Nahrávky ve vašem jazyce, které byste ještě mohli ověřovat, nám už bohužel došly...
+listen-loading-error =
+    Další zvukové záznamy k poslechu již nemáme.
+    Prosím, zkuste to znovu později.
 speak-empty-state = Věty, které byste mohli ve vašem jazyce nahrát, nám už bohužel došly...
 speak-empty-state-cta = Přidejte další věty
+speak-loading-error =
+    Další věty k přečtení již nemáme.
+    Prosím, zkuste to znovu později.
 record-button-label = Nahrajte svůj hlas
 share-title-new = <bold>Pomozte nám</bold> najít další hlasy
 keep-track-profile = Sledujte svůj pokrok pomocí profilu
@@ -1181,9 +1200,15 @@ contribution-misreadings-description = Během poslechu dávejte bedlivě pozor, 
 contribution-misreadings-description-extended-list-1 = Chybějící krátká slova jako <strong>'V'</strong> nebo <strong>'Pro'</strong> na začátku nahrávky.
 contribution-misreadings-description-extended-list-4 = Chybějící část posledního slova kvůli předčasně ukončenému nahrávání.
 contribution-misreadings-description-extended-list-5 = Opakované přečtení téhož slova.
+contribution-misreadings-example-1-title = Obří dinosauři z triasu.
+contribution-misreadings-example-2-title = Obří dinosaurus z triasu.
 contribution-misreadings-example-2-explanation = [Mělo by to být ‚dinosauři‘]
 contribution-misreadings-example-3-title = Obří dinosauři z trias-.
+contribution-misreadings-example-3-explanation = [Nahrávka přerušena před koncem posledního slova]
+contribution-misreadings-example-4-title = Obří dinosauři z triasu. Ano.
+contribution-misreadings-example-4-explanation = [Zaznamenáno více, než odpovídá textu]
 contribution-misreadings-example-8-title = Kolem proletěl čmelák.
+contribution-misreadings-example-8-explanation = [Jiný obsah]
 contribution-varying-pronunciations-title = Rozmanitá výslovnost
 contribution-varying-pronunciations-description = Speciální péči věnujte případnému zamítání nahrávek kvůli odlišně vyslovenému slovu, přízvuku nebo tónu věty. Ne každý vyslovuje stejně, jako vy, a v našem datasetu chceme zachytit výslovnost každého, pokud je správná.
 contribution-varying-pronunciations-description-extended = Na druhou stranu pokud máte pocit, že autor nahrávky nějaké slovy nezná a pouze si vymyslel jeho výslovnost, neváhejte takovou nahrávku odmítnout. Pokud si nejste jistí, nahrávku přeskočte.
@@ -1194,9 +1219,13 @@ contribution-varying-pronunciations-example-2-explanation = [‚Raised‘ se v a
 contribution-background-noise-title = Hluk v pozadí
 contribution-background-noise-description = Chceme, aby algoritmy dokázali pracovat i v běžném prostředí, kde se může vyskytovat i poměrně silný hluk. I v nahrávce tak silný hluk nebrání jejímu přijetí, ovšem za předpokladu, že je slyšet celý text. Tichá hudba na pozadí ničemu nevadí. Pokud přes ni ale neuslyšíte něktére slovo, to už v pořádku není.
 contribution-background-noise-description-extended = Pokud nahrávka šumí nebo v ní praská, a není slyšet celý text, odmítněte ji.
+contribution-background-noise-example-1-fixed-title = <strong>[Kýchání]</strong> Obří dinosauři z <strong>[kašel]</strong> triasu.
+contribution-background-noise-example-2-fixed-title = Obří dino <strong>[kašel]</strong> trias.
+contribution-background-noise-example-2-explanation = [Část textu není slyšet]
 contribution-background-voices-title = Hlasy v pozadí
 contribution-background-voices-description = Nejasné vzdálené hlasy je v pořádku, ale zároveň v našem datasetu nechcete další hlasy, ze kterých by algoritmy mohly rozeznávat slova, které nejsou v původním textu. Pokud rozumíte hlasům na pozadí, co říkají, nahrávku byste měli odmítnout. Typickým příkladem je zapnutá televize, nebo rozhovor dalších lidí.
 contribution-background-voices-description-extended = Pokud nahrávka šumí nebo v ní praská, a není slyšet celý text, odmítněte ji.
+contribution-background-voices-example-1-title = Obří dinosauři z triasu. <strong>[přečteno jedním mluvčím]</strong>
 contribution-background-voices-example-1-explanation = Jdeš? <strong>[další řečník]</strong>
 contribution-volume-title = Hlasitost
 contribution-volume-description = Hlasitost nahrávek od jednotlivých autorů se bude pochopitelně lišit. Nahrávky odmítejte jen pokud je hlasitost tak vysoká, že se nahrávka rozpadá, nebo (a to je častější) je nahrávka tak potichu, že bez přečtení napsaného textu nerozeznáte všechna slova.
@@ -1235,18 +1264,28 @@ sc-logout-button = Odhlásit se
 ## HOME
 
 sc-home-collect-title = Sbírejte věty
+sc-home-collect-text = Pomozte nám psaním nebo shromažďováním public domain vět.
 sc-home-review-title = Ověřujte věty
+sc-home-review-text = Pomozte nám ověřovat správnosti vět podle pokynů.
 
 ## GENERAL
 
+sc-languages-fetch-error = Nepodařilo se nám načíst dostupné jazyky. Příspěvky nejsou v současné době možné. Zkuste to prosím později.
 
 ## HOW-TO
 
 sc-howto-title = Návody
 sc-howto-addlang-title = Přidání jazyků, se kterými lze pracovat
+sc-howto-addlang-text = Po přihlášení nastavte své jazyky v sekci Profil
 sc-howto-addsen-title = Přidávání nových vět
+sc-howto-addsen-item-2 = Čísla. Ve zdrojovém textu by neměly být žádné číslice, protože jejich slovní vyjádření závisí na kontextu a může způsobit zmatek v datové sadě. Například číslo „2409“ lze přečíst jako „dvacet čtyři nula devět“ případně „dva tisíce čtyři sta devět“.
+sc-howto-addsen-item-5 = Cizí znaky. Písmena musí být platná pro jazyk mluveného slova. Například "ж" je znak ruské abecedy, ale v češtině se nikdy nepoužívá, a proto by se neměl objevit ani v žádném českém zdrojovém textu.
+sc-howto-addsen-item-6 = Jednotlivé Jazyky mohou mít svá <validationRulesLink>vlastní kontrolní pravidla</validationRulesLink> s dalšími požadavky. Pokud pro jazyk neexistuje žádný specifický validační soubor, přispěvatelům se zobrazí pravidla anglická.
 sc-howto-cite-title = Jak citovat
+sc-howto-cite-pre-1 = Abyste se vyhnuli plagiátorství a umožnili následnou kontrolu v případě <copyrightIssuesLink>problémů s autorskými právy</copyrightIssuesLink>, je důležité uvádět odkaz na veřejnou licenci zdroje. Zde je několik způsobů, jak to můžete provést.
 sc-howto-cite-item-1 = Můžete uvést webové stránky, např. „Úřad vlády ČR – https://www.vlada.cz“
+sc-howto-cite-item-2 = Můžete použít akademický styl odkazování, např. harvardský styl "Úřad vlády ČR (2012) Lichtenštejnský palác. Dostupné na https://www.vlada.cz/cz/urad-vlady/dalsi-objekty/lichtenstejnsky-palac-3690/ (cit: 2023-05-09)"
+sc-howto-cite-item-3 = V případě public domain textu, který není dostupný online, použijte akademický styl odkazování, např. harvardský styl „Jess (2021) My Public License poems“
 sc-howto-review-title = Kontrola vět
 sc-howto-review-subtitle = Zkontrolujte, zda věta splňuje následující kritéria:
 sc-howto-review-criteria-1 = Věta musí být napsána správně.
@@ -1255,6 +1294,10 @@ sc-howto-review-criteria-3 = Věta musí být vyslovitelná.
 sc-howto-review-criteria-4 = Pokud věta splňuje kritéria, klepněte na tlačítko "Schválit".
 sc-howto-review-criteria-5 = Pokud věta nesplňuje výše uvedená kritéria, klepněte na tlačítko „Zamítnout“. Pokud si větou nejste jisti, můžete ji také přeskočit a přejít na další.
 sc-howto-review-criteria-6 = Pokud vám dojdou věty k ověření, pomozte nám shromáždit další věty!
+sc-howto-findpd-title = Vyhledávání existujícího public domain obsahu
+sc-howto-findpd-subtitle = Vyhledání na internetu
+sc-howto-findpd-tips = Kde hledat:
+sc-howto-findpd-tips-1 = Nejlepší zdroje, které můžete hledat, jsou podcasty, přepisy, filmové scénáře a cokoli, co může obsahovat každodenní konverzace.
 sc-howto-findpd-tips-2 = Vládní materiály, knihy a články jsou také skvělé, ale vzhledem k tomu, že text bývá poněkud formálnější, jsou méně žádané.
 sc-howto-findpd-tips-3 = Žel, zatím nemůžeme používat obsah od Wikimedia. Proto odtamtud nekopírujte a nevkládejte.
 sc-howto-findpd-subtitle-2 = Spolupráce s místními organizacemi nebo jednotlivci
@@ -1268,6 +1311,10 @@ sc-my-no-sentences = Žádné věty nebyly nalezeny!
 # Variables:
 #   $batchId (String) - A unique ID identifying the submission of sentences - sentences uploaded together all have the same batch ID
 sc-my-submission = Odeslání: { $batchId }
+# Variables:
+#   $source (String) - Associated source the user filled out when uploading the sentence
+sc-my-source = Zdroj: { $source }
+sc-my-delete = Smazat vybrané věty
 sc-my-deleting = Odstraňování vybraných vět...
 sc-my-err-failed-delete = Vybrané věty se nepodařilo odstranit… Zkuste to prosím znovu!
 
@@ -1287,13 +1334,18 @@ sc-stats-error = Nepodařilo se načíst statistiky. Zkuste to prosím později.
 ## ADD
 
 sc-submit-err-select-lang = Vyberte jazyk.
+sc-submit-err-add-sentences = Přidejte věty.
 sc-submit-err-add-source = Přidejte zdroj.
+sc-submit-err-confirm-pd = Potvrďte prosím, že se jedná o public domain věty.
+sc-submit-prompt =
+    .message = Věty nebyly odeslány, opravdu chcete odejít?
 sc-submit-title = Přidání vět
 sc-submit-select-language =
     .labelText = Zvolte jazyk
 sc-submit-add-sentences = Přidání vět pod <wikipediaLink>public domain</wikipediaLink>
 sc-submit-ph-one-per-line =
     .placeholder = Co věta to řádek
+sc-submit-from-where = Zdroj těchto <wikipediaLink>public domain</wikipediaLink> vět
 sc-submit-ph-read-how-to =
     .placeholder = Nevíte-li jak uvádět zdroje, podívejte se do návodu
 sc-submit-confirm = Potvrzuji, že tyto věty jsou <wikipediaLink>public domain</wikipediaLink> a mám oprávnění je nahrát.
@@ -1349,7 +1401,26 @@ sc-confirm-sentences-found =
 # Variables:
 #   $countOfInvalidated (Number) - Number of sentences the user rejected in the review form before submission
 sc-confirm-rejected-by-you = { $countOfInvalidated } vámi zamítnutých
+sc-confirm-already-reviewed =
+    { $countOfReviewed ->
+        [0] Žádná věta nebyla ověřena.
+        [one] Ověřena { $countOfReviewed } věta. Skvělá práce!
+        [few] Ověřeny { $countOfReviewed } věty. Skvělá práce!
+        [many] Ověřeno { $countOfReviewed } vět. Skvělá práce!
+       *[other] Ověřeno { $countOfReviewed } vět. Skvělá práce!
+    }
+# Variables:
+#   $readyCount (Number) - Number of sentences ready to be uploaded
+sc-confirm-ready =
+    { $readyCount ->
+        [0] Žádná věta k odeslání!
+        [one] { $readyCount } věta k odeslání!
+        [few] { $readyCount } věty k odeslání!
+        [many] { $readyCount } vět k odeslání!
+       *[other] { $readyCount } vět k odeslání!
+    }
 sc-confirm-button-text = Potvrdit
+sc-confirm-uploading = Věty se nahrávají. To může trvat několik minut v závislosti na jejich počtu. Prosím, neopouštějte zatím tuto stránku.
 
 ## LANGUAGE INFO
 
@@ -1375,6 +1446,8 @@ sc-lang-info-in-review =
         [many] vět k ověření.
        *[other] vět k ověření.
     }
+sc-lang-info-review-now = <reviewLink>Zkontrolovat nyní!</reviewLink>
+sc-lang-info-add-more = <addLink>Přidejte další věty!</addLink>
 
 ## LOGIN
 
@@ -1416,6 +1489,7 @@ sc-review-select-language = Vyberte jazyk pro kontrolu vět.
 sc-review-no-sentences = Nic dalšího k ověření. <addLink>Přidat další věty!</addLink>
 sc-review-form-prompt =
     .message = Ověřené věty nebyly odeslány. Vážně pokračovat?
+sc-review-form-usage = Potažením doprava větu schválíte. Potažením doleva ji odmítnete. Potažením nahoru ji přeskočíte. <strong>Nezapomeňte hodnocení odeslat!</strong>
 # Variables:
 #   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
 sc-review-form-source = Zdroj: { $sentenceSource }
@@ -1485,6 +1559,7 @@ first-cta-header-text = Děkujeme za věnovanou hlasovou nahrávku!
 first-cta-subtitle-text = Můžete se podělit o nějaké informace o tom, jak hovoříte?
 why-donate = Nač se ptáte?
 add-information-button = Přidat informace
+continue-speaking-button = Ne, děkuji. Dál předčítat
 create-profile-text = Chcete informace uložit? <createProfile>Vytvořte si profil</createProfile>
 thanks-for-voice-toast = Děkuje za údaje o hlase.
 thanks-for-voice-toast-error = Při odesílání údajů o hlase došlo k chybě
@@ -1493,6 +1568,8 @@ second-cta-header-text = Děkujeme, že jste přispěli svým hlasem!
 second-cta-subtitle-text = Pomocí profilu můžete sledovat svou aktivitu a spojit se s komunitou přispěvatelů hlasových dat.
 already-have-an-account = Už máte účet? <login>Přihlásit</login>
 create-profile-button = Vytvořit profil
+# IMAGE TAGS
+img-alt-success-checkmark = souhlasné zatržítko
 # GUIDELINES PAGE
 guidelines-header = Pokyny pro přispěvatele
 guidelines-header-subtitle = Zjistit jak přispívat do datasetu Common Voice ověřováním vět a hlasových nahrávek
@@ -1509,32 +1586,76 @@ just-unsure = Jen si nejste jisti?
 example = Příklad
 varying-pronunciations-explanation-2 = Na druhou stranu, pokud se domníváte, že se čtenář s daným slovem nikdy nesetkal a nesprávně odhaduje jeho výslovnost, odmítněte jej. Pokud si nejste jisti, použijte tlačítko "Přeskočit".
 misreadings-explanation-2 = Mezi běžné chyby patří:
+misreadings-explanation-3 = Chybějící krátká slova jako <strong>'V'</strong> nebo <strong>'To'</strong> na začátku nahrávky.
+misreadings-explanation-6 = Chybějící část posledního slova kvůli předčasně ukončenému nahrávání.
+misreadings-explanation-7 = Opakované pokusy o přečtení slova.
 misreadings-example-4 = Kolem proletěl čmelák.
+background-noise-example-3 = Obří dino [kašel] Trias.
+background-noise-example-4 = [Praskání] obří dinosauři z [praskání] -riassic.
+background-noise-tip-1 = [přerušeno hlukem na pozadí]
+background-noise-tip-2 = [Část textu není slyšet]
+background-voices-explanation = Trocha šumu v pozadí je v pořádku, ale pokud rozumíte slovům jiné osoby, nahrávku zamítněte. Obvykle se to stává, když je zapnutá televize nebo když v blízkosti probíhá konverzace.
+background-voices-example-1 = Obří dinosauři z triasu. [přečteno jedním mluvčím]
+background-voices-tip-1 = Jdeš? [další řečník]
+volume-explanation = Hlasitost nahrávek od jednotlivých autorů se bude pochopitelně lišit. Nahrávky odmítejte jen pokud je hlasitost tak vysoká, že se nahrávka rozpadá, nebo (a to je častější) je nahrávka tak potichu, že bez přečtení napsaného textu nerozeznáte všechna slova.
+reader-effects-explanation = Ve většině nahrávek lidé mluví normálním hlasem. Ale nevadí ani občasný zvýšený hlas, šeptání nebo "dramatický" přednes. Odmítněte však prosím zpěv a nahrávky počítačem syntetizovaným hlasem.
+just-unsure-explanation = Pokud narazíte v nahrávce na problém, který tu nezmiňujeme, hlasujte o nahrávce podle svého nejlepšího úsudku. Pokud se nemůžete rozhodnout, nahrávku přeskočte.
+still-have-questions = Stále máte otázky?
+contact-common-voice = Kontaktujte tým Common Voice
+public-domain = Public Domain
+citing-sentences = Uvádění zdrojů
+adding-sentences = Přidávání vět
+reviewing-sentences = Ověřování vět
+public-domain-explanation-2 = Nejlepší věty pro sestavení užitečného nástroje pro rozpoznávání řeči jsou hovorové, moderní výrazy. Některé nápady, které vám pomohou při vytváření vět, jsou:
+public-domain-explanation-4 = Kontaktujte autory, dramatiky nebo scénáristy a zeptejte se, zda by byli ochotni věnovat malou část svých děl jako public domain
+public-domain-explanation-6 = Oslovte instituce, neziskové organizace nebo mediální organizace a zjistěte, zda mohou věnovat nějaký jejich webový obsah, zprávy nebo jiné texty jako public domain.
+citing-sentences-explanation-1 = Je důležité uvádět zdroje, abychom mohli zkontrolovat, zda se opravdu jedná o public domain věty a zda se na ně nevztahují žádná omezení autorských práv.
 citing-sentences-subheader-websites = Webové stránky
 citing-sentences-subheader-websites-explanation = Můžete uvést webové stránky, např. „Úřad vlády ČR – https://www.vlada.cz“
+citing-sentences-subheader-academic-reference = Akademická reference
+citing-sentences-subheader-academic-reference-explanation = Můžete použít akademický styl odkazování, např. harvardský styl "Úřad vlády ČR (2012) Lichtenštejnský palác. Dostupné na https://www.vlada.cz/cz/urad-vlady/dalsi-objekty/lichtenstejnsky-palac-3690/ (cit: 2023-05-09)"
 citing-sentences-subheader-offline-sources = Offline zdroje
+citing-sentences-subheader-offline-sources-explanation = V případě public domain textu, který není dostupný online, použijte akademický styl odkazování, např. harvardský styl „Karel Čapek (1937) Bílá nemoc“
 citation =
     .label = Zdroj
+self-citation-explanation = Takto uvádějte sami sebe, pokud jste text napsali sami.
 adding-sentences-subheader-length = Délka
 adding-sentences-subheader-length-explanation = Věta by měla mít méně než 15 slov.
 adding-sentences-subheader-spelling-punctuation = Pravopis a interpunkce
+adding-sentences-subheader-spelling-punctuation-explanation = Věta musí být napsána správně.
 adding-sentences-subheader-speakable = Vyslovitelnost
 adding-sentences-subheader-numbers = Číslice
+adding-sentences-subheader-abbreviations = Zkratky a zkratková slova
 adding-sentences-subheader-punctuation = Interpunkce
 adding-sentences-subheader-special-characters = Speciální znaky a cizí písmena
+adding-sentences-subheader-special-characters-explanation-1 = Písmena musí být platná pro jazyk mluveného slova. Například "ж" je znak ruské abecedy, ale v češtině se nikdy nepoužívá, a proto by se neměl objevit ani v žádném českém zdrojovém textu.
+adding-sentences-subheader-special-characters-explanation-2 = Jednotlivé jazyky mohou mít vlastní kontrolní pravidla s dalšími požadavky na lokalizaci. Pokud pro jazyk neexistuje žádný specifický validační soubor, přispěvatelům se zobrazí pravidla anglická.
 adding-sentences-subheader-offensive-content = Urážlivý obsah
+reviewing-sentences-explanation-1 = Splňuje-li věta výše uvedená kritéria, klepněte na tlačítko "Ano".
+reviewing-sentences-explanation-2 = Pokud věta nesplňuje výše uvedená kritéria, klepněte na tlačítko "Ne".
+reviewing-sentences-explanation-3 = Pokud si větou nejste jisti, je možné ji přeskočit a přejít na další.
+reviewing-sentences-explanation-4 = Pokud vám dojdou věty k ověření, pomozte nám shromáždit další věty!
+# WRITE PAGE
+write-instruction-second-part = public domain věta
+write-page-subtitle = Věty, kterými zde přispějete, budou přidány do veřejně dostupného datasetu pod licencí cc-0.
 sentence =
     .label = Věta
+sentence-input-value = Zde zadejte svou public doman větu
+citation-input-value = Zdroj zadané věty
 citation =
     .label = Zdroj
+what-can-i-add = Jaké druhy vět mohu přidat?
+new-sentence-rule-1 = <noCopyright>Bez omezení autorských práv</noCopyright> (<cc0>cc-0</cc0>)
 new-sentence-rule-2 = Kratší než 15 slov
 new-sentence-rule-3 = Dbejte na gramatickou správnost
 new-sentence-rule-4 = Používejte správný pravopis a interpunkci
 new-sentence-rule-5 = Žádné číslovky a speciální znaky
 new-sentence-rule-6 = Žádná cizí písmena
 new-sentence-rule-7 = Uvádějte zdroj
+new-sentence-rule-8 = Nejlépe přirozené a konverzační (věta by měla být snadno čitelná).
 how-to-cite = Jak uvádět zdroj?
 how-to-cite-explanation-bold = Odkazujte pomocí URL nebo celým názvem díla.
+how-to-cite-explanation = Pokud se jedná o vaše vlastní slova, stačí uvést <italicizedText>„vlastní dílo“</italicizedText>. Potřebujeme vědět, kde jste tento obsah našli, abychom mohli zkontrolovat, zda je public domain a nevztahují se na něj žádná omezení autorských práv. Další informace o uvádění zdrojů naleznete na <guidelinesLink>stránce s pokyny</guidelinesLink>.
 guidelines = Pokyny
 contact-us = Kontakt
 add-sentence-success = Přidána 1 věta
