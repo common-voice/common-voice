@@ -23,10 +23,20 @@ export const upload =
   (path: string) =>
   (data: Buffer): TE.TaskEither<Error, void> => {
     return TE.tryCatch(
-      () => storage.bucket(bucket).file(path).save(data),
+      async () => {
+        const file = storage.bucket(bucket).file(path)
+        await file.save(data)
+        await file.makePublic()
+      },
       (err: Error) => err
     )
   }
+
+export const getPublicUrl =
+  (storage: Storage) =>
+  (bucket: string) =>
+  (path: string): string => 
+    storage.bucket(bucket).file(path).publicUrl()
 
 export const fileExists =
   (storage: Storage) =>
@@ -43,3 +53,4 @@ export const fileExists =
 
 export const uploadBulkSubmission = upload(storage)(BUCKET_NAME)
 export const doesBulkSubmissionExist = fileExists(storage)(BUCKET_NAME)
+export const getBulkSubmissionFileUrl = getPublicUrl(storage)(BUCKET_NAME)
