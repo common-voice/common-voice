@@ -9,4 +9,6 @@ export type BulkSubmissionImportJob = {
 export type BulkSubmissionUploadJob = {
   data: string
   filepath: string
+  filename: string
+  localeName: string
 }

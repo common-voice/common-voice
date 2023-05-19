@@ -69,6 +69,29 @@ class Email {
     });
   }
 
+  private async sendTo({ emailTo, subject, html }: { emailTo: string, subject: string; html: string }) {
+    const { EMAIL_USERNAME_FROM, PROD } = getConfig();
+
+    if (PROD) {
+      await this.waitTilIdle();
+    }
+
+    const info = await this.transporter.sendMail({
+      from: EMAIL_USERNAME_FROM,
+      to: emailTo,
+      subject,
+      html,
+    });
+
+    if (!PROD) {
+      const emailPreviewUrl = nodemailer.getTestMessageUrl(info);
+      console.info('📧 Email preview URL: ', emailPreviewUrl);
+      info.emailPreviewURL = emailPreviewUrl;
+    }
+
+    return info;
+  }
+
   private async send({ subject, html }: { subject: string; html: string }) {
     const { EMAIL_USERNAME_FROM, EMAIL_USERNAME_TO, PROD } = getConfig();
 
@@ -96,6 +119,10 @@ class Email {
     return `Language Request ${email} ${languageLocale || ''}`.trim();
   }
 
+  private createSubjectBulkSubmission(filename: string, languageLocale: string) {
+    return `New Bulk Submission ${filename} for ${languageLocale}`.trim();
+  }
+
   private createHTML(
     email: string,
     languageInfo: string,
@@ -116,6 +143,35 @@ class Email {
     }
 
     return html.trim();
+  }
+
+  private createHTMLBulkSubmission(
+    filename: string,
+    filepath: string,
+    languageLocale: string
+  ) {
+    let html = `
+      <h2>New Bulk Submission</h2>
+      <p>Download link: <a href="${filepath}">${filename}</a></p>
+      <p>Language Locale: ${languageLocale}</p>
+      `
+    return html.trim();
+  }
+
+  async sendBulkSubmissionNotificationEmail({
+    emailTo,
+    filepath,
+    filename,
+    languageLocale,
+  }: {
+    emailTo: string;
+    filepath: string;
+    filename: string;
+    languageLocale: string;
+  }) {
+    const subject = this.createSubjectBulkSubmission(filename, languageLocale);
+    const html = this.createHTMLBulkSubmission(filename, filepath, languageLocale);
+    return this.sendTo({ emailTo, subject, html });
   }
 
   async sendLanguageRequestEmail({
