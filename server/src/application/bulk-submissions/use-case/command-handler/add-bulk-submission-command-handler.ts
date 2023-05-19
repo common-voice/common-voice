@@ -27,6 +27,8 @@ export const addBulkSubmission =
         TE.fromTask(
           jobQueue.addJob({
             filepath,
+            filename: cmd.filename,
+            localeName: cmd.locale,
             data: cmd.file,
           })
         )
