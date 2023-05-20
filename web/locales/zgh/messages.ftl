@@ -1546,6 +1546,7 @@ public-domain = ⴰⴳⵍⴰ ⴰⴳⴷⵓⴷⴰⵏ
 citing-sentences = ⴰⴱⴷⴰⵔ ⵏ ⵜⵡⵉⵏⴰⵙ
 adding-sentences = ⴰⵔⵏⵏⵓ ⵏ ⵜⵡⵉⵏⴰⵙ
 reviewing-sentences = ⴰⵙⵙⵉⵔⵎ ⵏ ⵜⵡⵉⵏⴰⵙ
+public-domain-explanation-3 = ⵙⵏⴼⵍⵓⵍⴰⵜ ⵜⵉⵡⵉⵏⴰⵙ ⵜⵉⵜⵔⴰⵔⵉⵏ ⴷ ⵜⵓⵏⵏⵉⵎⵉⵏ ⵙ ⵢⵉⵎⴰⵏ ⵏⵏⵓⵏ ⵏⵉⵖ ⴰⴽⴷ ⵉⵎⴷⴷⵓⴽⴽⴰⵍ ⵏⵉⵖ ⵜⴰⴳⵔⴰⵡⵜ ⵏ ⵜⵓⵜⵍⴰⵢⵜ ⵏⵏⵓⵏ - ⵙ ⵓⵎⴷⵢⴰ, ⴳ ⴽⵔⴰ ⵏ ‘ⵜⵉⵔⵔⴰ-ⵟⵓⵏ’
 public-domain-explanation-5 = ⵙⵙⵉⴳⵍ ⴰⴹⵕⵉⵚ ⵏⵏⴰ ⵙⵓⵍ ⵓⵔ ⵉⵍⵉⵏ ⵉⵣⵔⴼⴰⵏ ⵏ ⵓⵎⴳⴰⵢ - ⵙ ⵓⵎⴷⵢⴰ, ⴰⵎⴰⵜⴰ ⵏ ⵉⴷⵍⵉⵙⵏ ⵏⵏⴰ ⵜⵜⵓⵥⵕⴰⴳⵏⵉⵏ ⴷⴰⵜ 1920
 citing-sentences-explanation-1 = ⵉⵅⴰⵜⵔ ⴰⴷ ⵜⵙⵙⴰⵎⵓⵎ ⵜⵉⴱⴷⴰⵔⵉⵏ ⵃⵎⴰ ⴰⴷ ⵏⵣⵎⵔ ⴰⴷ ⵏⵛⴰⴱⴱⴰ ⵎⴰⵙ ⴷ ⵜⵉⵡⵉⵏⴰⵙ ⵍⵍⴰⵏⵜ ⴳ ⵡⴰⴳⵍⴰ ⴰⴳⴷⵓⴷⴰⵏ ⴷ ⵡⴰⵍⵓ ⴰⵙⵏⴰⵙ ⵏ ⵉⵣⵔⴼⴰⵏ ⵏ ⵓⵎⴳⴰⵢ.
 citing-sentences-subheader-websites = ⵉⵙⵉⵜⵡⵉⴱⵏ
