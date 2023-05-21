@@ -1755,12 +1755,12 @@ add-sentence-success = 1 frase recollida
 add-sentence-error = Produciuse un erro ao engadir a frase
 required-field = Por favor, cubra este campo.
 # REVIEW PAGE
-sc-review-instruction-first-part = Marcar
+sc-review-instruction-first-part = Comprobar:
 sc-review-instruction-second-part = é esta unha frase lingüisticamente correcta?
 sc-review-rules-title = A frase cumpre as directrices?
 sc-review-empty-state = Actualmente non hai frases para revisar neste idioma.
 report-sc-different-language = Idioma diferente
-report-sc-different-language-detail = Está escrito nun idioma diferente ao que estou revisando.
+report-sc-different-language-detail = Está escrita nun idioma diferente ao que estou revisando.
 sentences-fetch-error = Produciuse un erro ao recuperar as frases
 review-error = Produciuse un erro ao revisar esta frase
 # SENTENCE-COLLECTOR-REDIRECT PAGE
