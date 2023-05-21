@@ -1129,7 +1129,7 @@ goal-share-text = Acabo de crear un obxectivo persoal de doazón de voz a #Commo
 weekly-goal-created = Creouse o seu obxectivo semanal
 daily-goal-created = Creouse o seu obxectivo diario
 track-progress = Siga o seu avance aquí e na súa páxina de estatísticas.
-return-to-edit-goal = Volva aquí para editar o teu obxectivo en calquera momento.
+return-to-edit-goal = Volva aquí para editar o seu obxectivo en calquera momento.
 share-goal = Compartir o seu obxectivo
 
 ## Profile Delete
@@ -1140,9 +1140,9 @@ remove = Retirar
 keep-info = As súas gravacións anónimas permanecerán no conxunto de datos Common Voice. Tras eliminar o seu perfil, xa non poderá enviar ningunha solicitude para retirar as gravacións do conxunto de datos.
 remove-info = Revisaremos a solicitude de retirada das súas gravacións de voz do conxunto de datos. Se a solicitude for aprobada, contactaremos con aqueles que descargasen o conxunto de datos e pedirémoslles que eliminen tamén as súas gravacións de voz.
 why-delete-recordings =
-    As gravacións de Common Voice son utilizadas por académicos, pequenas empresas e afeccionados ao recoñecemento da fala para crear recursos dispoñibles publicamente, como modelos de voz.
+    As gravacións de Common Voice son utilizadas por investigadores, pequenas empresas e afeccionados ao recoñecemento da fala para crear recursos dispoñibles publicamente, como modelos de voz.
     
-    Poderiamos indicar porque quere eliminar as súas gravacións?
+    Podería indicarnos por que quere eliminar as súas gravacións?
 profile-form-delete = Eliminar o perfil
 
 ## Profile Download
@@ -1165,7 +1165,7 @@ download-requests = Solicitudes anteriores de descarga de gravacións
 download-requests-info = Cando solicita as súas gravacións, recompilámolas nun ou varios ficheiros ZIP. Aquí ten as súas solicitudes anteriores:
 download-request-button = Descargar
 download-request-title = { $created }
-download-request-description = { $clipCount } fragmentos de voz. O tamaño total do arquivo compactado é { $size }. Caduca { $expires }.
+download-request-description = { $clipCount } fragmentos de voz. O tamaño total do arquivo compactado é { $size }. Caduca o { $expires }.
 download-request-archive-single = Un único ficheiro ZIP que contén
 download-request-archive-multiple = Dividido en { $archiveCount } archivos ZIP que conteñen
 download-request-assembling-description = Estamos recompilando os seus ficheiros. Comprobe de novo máis tarde.
@@ -1198,7 +1198,7 @@ card-button-next = Seguinte
 card-button-back = Anterior
 demo-language-select-label = Buscar Idiomas
 demo-eofy-header = Edición de fin de ano 2019
-demo-eofy-sub_header = Conxunto de datos de voz, lista para Descargar
+demo-eofy-sub_header = Conxunto de datos de voz, listo para descargar
 demo-account = Conta
 
 ## Demo Account
@@ -1217,8 +1217,8 @@ demo-listen-subtitle = Preparado para colaborar?
 
 ## Demo Dashboard
 
-demo-dashboard-card-header = Os paneis persoais mantéñeno ao día do progreso do individual e o da comunidade.
-demo-dashboard-card-body = Por cada fragmento de voz doado e cada fragmento de son validado, os paneis da túa conta actualízanse para reflectir o seu último progreso en cada idioma no que colabore. Si, pode colaborar a máis de un. <br/> <br/> Utilice os paneis para rastrexar as súas estatísticas, ver como o está facendo xunto con outras persoas da comunidade e establecer obxectivos de colaboración diaria ou semanal.
+demo-dashboard-card-header = Os paneis persoais mantéñeno ao día do progreso da súa actividade e o da comunidade.
+demo-dashboard-card-body = Por cada fragmento de voz doado e cada fragmento de son validado, os paneis da súa conta actualízanse para reflectir o seu último progreso en cada idioma no que colabore. Si, pode colaborar en máis de un. <br/> <br/> Utilice os paneis para rastrexar as súas estatísticas, ver a súa actividade xunto con a doutras persoas da comunidade e establecer obxectivos de colaboración diaria ou semanal.
 
 ## Validation criteria
 
