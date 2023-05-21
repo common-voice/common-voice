@@ -1047,26 +1047,26 @@ activity-needed-calculation-plural =
                     { NUMBER($people) ->
                         [one]
                             { NUMBER($clipsPerDay) ->
-                                [one] { $totalHours } hora é unha meta alcanzable en { $periodMonths } mes se{ $people } persoa grava(n) { $clipsPerDay } fragmento ao día.
-                               *[other] { $totalHours } hora é unha meta alcanzable en { $periodMonths } mes se{ $people } persoa grava(n) { $clipsPerDay } fragmentos ao día.
+                                [one] { $totalHours } horas é unha meta alcanzable en algo máis de { $periodMonths } meses se { $people } persoas gravan { $clipsPerDay } fragmentos ao día.
+                               *[other] { $totalHours } horas é unha meta alcanzable en en algo máis de { $periodMonths } meses se { $people } persoas gravan { $clipsPerDay } fragmentos ao día.
                             }
                        *[other]
                             { NUMBER($clipsPerDay) ->
-                                [one] { $totalHours } hora é unha meta alcanzable en { $periodMonths } mes se{ $people } persoas grava(n) { $clipsPerDay } fragmento ao día.
-                               *[other] { $totalHours } hora é unha meta alcanzable en { $periodMonths } mes se{ $people } persoas grava(n) { $clipsPerDay } fragmentos ao día.
+                                [one] { $totalHours } horas é unha meta alcanzable en algo máis de { $periodMonths } mes se { $people } persoas gravan { $clipsPerDay } fragmentos ao día.
+                               *[other] { $totalHours } horas é unha meta alcanzable en algo máis de { $periodMonths } meses se { $people } persoas gravan { $clipsPerDay } fragmentos ao día.
                             }
                     }
                *[other]
                     { NUMBER($people) ->
                         [one]
                             { NUMBER($clipsPerDay) ->
-                                [one] { $totalHours } hora é unha meta alcanzable en { $periodMonths } meses se{ $people } persoa grava(n) { $clipsPerDay } fragmento ao día.
-                               *[other] { $totalHours } hora é unha meta alcanzable en { $periodMonths } meses se{ $people } persoa grava(n) { $clipsPerDay } fragmentos ao día.
+                                [one] { $totalHours } horas é unha meta alcanzable en algo máis de { $periodMonths } meses se { $people } persoas gravan { $clipsPerDay } fragmentos ao día.
+                               *[other] { $totalHours } horas é unha meta alcanzable en algo máis de { $periodMonths } meses se { $people } persoas gravan { $clipsPerDay } fragmentos ao día.
                             }
                        *[other]
                             { NUMBER($clipsPerDay) ->
-                                [one] { $totalHours } hora é unha meta alcanzable en { $periodMonths } meses se{ $people } persoas grava(n) { $clipsPerDay } fragmento ao día.
-                               *[other] { $totalHours } hora é unha meta alcanzable en { $periodMonths } meses se{ $people } persoas grava(n) { $clipsPerDay } fragmentos ao día.
+                                [one] { $totalHours } horas é unha meta alcanzable en algo máis de { $periodMonths } meses se { $people } persoas gravan { $clipsPerDay } fragmentos ao día.
+                               *[other] { $totalHours } horas é unha meta alcanzable en algo máis de { $periodMonths } meses se { $people } persoas gravan { $clipsPerDay } fragmentos ao día.
                             }
                     }
             }
@@ -1076,26 +1076,26 @@ activity-needed-calculation-plural =
                     { NUMBER($people) ->
                         [one]
                             { NUMBER($clipsPerDay) ->
-                                [one] { $totalHours } horas é unha meta alcanzable en { $periodMonths } mes se{ $people } persoa grava(n) { $clipsPerDay } fragmento ao día.
-                               *[other] { $totalHours } horas é unha meta alcanzable en { $periodMonths } mes se{ $people } persoa grava(n) { $clipsPerDay } fragmentos ao día.
+                                [one] { $totalHours } horas é unha meta alcanzable en algo máis de { $periodMonths } mes se { $people } persoas gravan { $clipsPerDay } fragmentos ao día.
+                               *[other] { $totalHours } horas é unha meta alcanzable en algo máis de { $periodMonths } mes se { $people } persoas gravan { $clipsPerDay } fragmentos ao día.
                             }
                        *[other]
                             { NUMBER($clipsPerDay) ->
-                                [one] { $totalHours } horas é unha meta alcanzable en { $periodMonths } mes se{ $people } persoas grava(n) { $clipsPerDay } fragmento ao día.
-                               *[other] { $totalHours } horas é unha meta alcanzable en { $periodMonths } mes se{ $people } persoas grava(n) { $clipsPerDay } fragmentos ao día.
+                                [one] { $totalHours } horas é unha meta alcanzable en algo máis de { $periodMonths } meses se { $people } persoas gravan { $clipsPerDay } fragmentos ao día.
+                               *[other] { $totalHours } horas é unha meta alcanzable en { $periodMonths } meses se { $people } persoas gravan { $clipsPerDay } fragmentos ao día.
                             }
                     }
                *[other]
                     { NUMBER($people) ->
                         [one]
                             { NUMBER($clipsPerDay) ->
-                                [one] { $totalHours } horas é unha meta alcanzable en { $periodMonths } meses se{ $people } persoa grava(n) { $clipsPerDay } fragmento ao día.
-                               *[other] { $totalHours } horas é unha meta alcanzable en { $periodMonths } meses se{ $people } persoa grava(n) { $clipsPerDay } fragmentos ao día.
+                                [one] { $totalHours } horas é unha meta alcanzable en algo máis de { $periodMonths } meses se { $people } persoas gravan { $clipsPerDay } fragmentos ao día.
+                               *[other] { $totalHours } horas é unha meta alcanzable en algo máis de { $periodMonths } meses se { $people } persoas gravan { $clipsPerDay } fragmentos ao día.
                             }
                        *[other]
                             { NUMBER($clipsPerDay) ->
-                                [one] { $totalHours } horas é unha meta alcanzable en { $periodMonths } meses se{ $people } persoas grava(n) { $clipsPerDay } fragmento ao día.
-                               *[other] { $totalHours } horas é unha meta alcanzable en { $periodMonths } meses se{ $people } persoas grava(n) { $clipsPerDay } fragmentos ao día.
+                                [one] { $totalHours } horas é unha meta alcanzable en algo máis de { $periodMonths } meses se { $people } persoas gravan { $clipsPerDay } fragmentos ao día.
+                               *[other] { $totalHours } horas é unha meta alcanzable en algo máis de { $periodMonths } meses se { $people } persoas gravan { $clipsPerDay } fragmentos ao día.
                             }
                     }
             }
