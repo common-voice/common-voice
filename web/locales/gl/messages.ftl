@@ -461,7 +461,7 @@ faq-what-cv-a =
 faq-what-cv-a-2 =
     A tecnoloxía de recoñecemento da fala está revolucionando a forma en que interactuamos coas máquinas, pero os sistemas dispoñibles actualmente están en mans privadas e son caros. Mozilla Common Voice é unha iniciativa que busca contribuír a que as tecnoloxías de recoñecemento da fala sexan mellores e máis accesibles para todos. En concreto, Common Voice é unha enorme base de datos global que contén doazóns de voz a partir das cales calquera persoa pode adestrar de xeito rápido e sinxelo modelos de voz en, potencialmente, calquera idioma.
     
-    Non só recollemos mostras de voz  nas linguas grandes, senón tamén naquoutras con menor número de falantes. A publicación dun conxunto de datos variado de voces permitirá que os desenvolvedores, os emprendedores e as comunidades poidan resolver eles mesmos esta fenda.
+    Non só recollemos mostras de voz  nas linguas grandes, senón tamén naqueloutras con menor número de falantes. A publicación dun conxunto de datos variado de voces permitirá que os desenvolvedores, os emprendedores e as comunidades poidan resolver eles mesmos esta fenda.
 faq-why-important-q = Por que é importante?
 faq-why-important-a =
     A fala adoita ser o xeito máis natural de comunicarnos os uns cos outros e as tecnoloxías da voz están a levar esa comodidade aos nosos computadores e dispositivos móbiles. Queremos que os desenvolvedores poidan crear incríbles aplicacións de recoñecemento da fala, como tradutores en tempo real e asistentes dixitais por voz. No entanto, a maioría dos datos de voz requiridos para crear esta clase de aplicacións son privados e caros. Esperamos que o conxunto de datos de Common Voice lle proporcione aos desenvolvedores o que necesitan para innovar e facer que as tecnoloxía da fala estean dispoñibles no seu propio idioma.
@@ -501,15 +501,15 @@ faq-why-not-ask-read-a = Para facermos o conxunto de datos de Common Voice tan �
 faq-why-account-q = Por que debería rexistrar unha conta?
 faq-is-account-public-q = A información da miña conta é pública?
 faq-how-privacy-q = Como se asegura a anonimización e confidencialidade das persoas que doaron as súas voces?
-faq-how-privacy-a = Límpase a información persoal de todos os fragmentos de voz do conxunto de datos. Cando alguén proporciona información demográfica no seu perfil, esa información desvincúlase dos seus fragmentos de voz antes de incluíla, para descargar, no conxunto de datos e nunca se fai pública no seu perfil.
-faq-what-determine-identity-q = Que significa que non podo «determinar a identidade» de falantes no conxunto de datos Common Voice?
+faq-how-privacy-a = Elimínase a información persoal de todos os fragmentos de voz do conxunto de datos. Cando alguén proporciona información demográfica no seu perfil, esa información desvincúlase dos seus fragmentos de voz antes de incluíla, para descargar, no conxunto de datos e nunca se fai pública no seu perfil.
+faq-what-determine-identity-q = Que significa que non podo «determinar a identidade» de falantes no conxunto de datos de Common Voice?
 faq-what-determine-identity-a =
-    O conxunto de datos Common Voice é un recurso aberto e dispoñible publicamente que pode utilizarse para adestrar unha ampla variedade de aplicacións de voz. Para protexer a seguranza dos nosos colaboradores, pedímoslle a aquelas persoas que descarguen o conxunto de datos Common Voice que respecten a súa privacidade.
+    O conxunto de datos de Common Voice é un recurso aberto e dispoñible publicamente que pode utilizarse para adestrar unha ampla variedade de aplicacións de voz. Para protexer a seguranza dos nosos colaboradores, pedímoslle a aquelas persoas que descarguen o conxunto de datos Common Voice que respecten a súa privacidade.
     
     Todos os fragmentos de voz do conxunto de datos están libres de información persol. Ao descargar o conxunto de datos, vostede comprométese a non tentar determinar a identidade de ningún colaborador. Isto significa que non pode intentar ligar a información do conxunto de datos cos datos persoais dun colaborador. No entanto, pode utilizar o conxunto de datos para adestrar modelos de recoñecemento de fala, de identificación de locutor ou outras aplicacións, por exemplo, vinculando información do conxunto de datos con outra información que xa está tamén no conxunto de datos.
 faq-what-is-cv = Que é Common Voice?
 faq-using-cv = Utilización de Common Voice
-faq-description = Common Voice é parte dunha iniciativa de Mozilla para axudar a ensinar ás máquinas como fala a xente común.
+faq-description = Common Voice é parte dunha iniciativa de Mozilla para axudar a ensinar ás máquinas como falamos as persoas.
 faq-search-for-answers =
     .label = Buscar respostas
 
@@ -551,7 +551,7 @@ about-yes-votes-text = Para incluílo no conxunto de datos de Common Voice, un f
 about-no-votes = ≥ 2 votos Non
 about-no-votes-text = Cando un usuario rexeita un fragmento de voz, volve á cola. De se rexeitar unha segunda vez, o fragmento de voz vai para o cemiterio de fragmentos.
 about-dataset-new = Conxunto de datos de Common Voice
-about-dataset-new-text = O conxunto de datos Common Voice contén centos de miles de mostras de voz que axudan os desenvolvedores a construír ferramentas de recoñecemento da fala.
+about-dataset-new-text = O conxunto de datos de Common Voice contén centos de miles de mostras de voz que axudan os desenvolvedores a construír ferramentas de recoñecemento da fala.
 about-clip-graveyard = Cemiterio de fragmentos
 about-clip-graveyard-text = O Cemiterio de fragmentos contén fragmentos de voz que non chegaron a formar parte do conxunto de datos de Common Voice. Do mesmo xeito que o conxunto de datos, o Cemiterio de fragmentos está dispoñible para descarga.
 about-get-involved = Participe
@@ -699,7 +699,7 @@ data-other-title = Outros conxuntos de datos de voz...
 data-other-goto = Ir a { $name }
 data-other-download = Descargar os datos
 data-bundle-button = Descargar o paquete do conxunto de datos
-data-bundle-description = O conxunto de datos Common Voice xunta todos os demais conxuntos de datos anteriores.
+data-bundle-description = O conxunto de datos de Common Voice xunta todos os demais conxuntos de datos anteriores.
 release-version = Versión
 dataset-date = Data
 license = Licenza: <licenseLink>{ $license }</licenseLink>
@@ -739,7 +739,7 @@ overall-hr-total = Total xeral de horas
 cv-license = Licenza
 audio-format = Formato de son
 number-of-voices = Número de voces
-splits = Intervalos
+splits = Subconxuntos
 email-to-download = Escriba o enderezo de correo para descargar
 why-email = <b>Por que un enderezo de correo?</b> É posible que precisemos poñernos en contacto con vostede no futuro para trasladarlle posibles cambios no conxuto de datos.
 confirm-size = Estou preparado para iniciar unha descarga de <b>{ $size }</b>
@@ -750,7 +750,7 @@ confirm-join-mailing-list = Quero unirme á lista de correo de Common Voice
 download-language = Descargar { $language }
 validated-hours = Horas validadas
 recorded-hours = Horas gravadas
-whats-inside = Que inclúe o conxunto de datos Common Voice?
+whats-inside = Que inclúe o conxunto de datos de Common Voice?
 dataset-description-hours =
     Cada entrada do conxunto de datos consta dun único ficheiro MP3 e o correspondente ficheiro de texto. Moitas das <b>{ $total }</b> horas gravadas no conxunto de datos tamén inclúen metadatos demográficos como idade, xénero e acento que poden axudar a mellorar a precisión dos modelos de recoñecemento da fala.
     
@@ -770,7 +770,7 @@ data-other-ted-name = Corpus TED-LIUM
 data-other-ted-description = O corpus TED-LIUM elaborouse a partir de gravacións de audio e transcricións dispoñibles na páxina web TED.
 data-other-voxforge-description = VoxForge creouse para recoller transcricións de intervencións orais coa finalidade de seren útiles aos motores de recoñecemento da fala de código aberto.
 data-other-tatoeba-description = Tatoeba é unha gran base de datos de frases, traducións e producións orais para empregar na aprendizaxe de idiomas. Esta descarga contén falas de inglés gravadas pola propia comunidade anglófona.
-your-feedback = Ten ideas sobre como podemos mellorar o conxunto de datos Common Voice? Coméntenolas en Discourse
+your-feedback = Ten ideas sobre como podemos mellorar o conxunto de datos de Common Voice? Coméntenolas en Discourse
 go-discourse = Ir a Discourse
 missing-language = Non ve o seu idioma reflectido no conxunto de datos? Para solicitalo vaia á nosa pestana de idiomas.
 go-languages-page = Ir á pestana de idiomas
