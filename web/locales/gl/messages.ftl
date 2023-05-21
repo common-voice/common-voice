@@ -934,7 +934,7 @@ record-button-label = Grave a súa voz
 share-title-new = <bold>Axúdenos</bold> a atopar máis voces
 keep-track-profile = Faga o seguimento do seu avance cun perfil
 login-to-get-started = Inicie sesión ou rexístrese para comezar
-target-segment-first-card = Esta a colaborar no noso primeiro segmento obxectivo
+target-segment-first-card = Está a colaborar no noso primeiro segmento obxectivo
 target-segment-generic-card = Está a contribuír a un segmento obxectivo
 target-segment-first-banner = Axude a crear o primeiro segmento obxectivo de Common Voice en { $locale }
 target-segment-add-voice = Engada a súa voz
@@ -951,7 +951,7 @@ report = Informar
 report-title = Enviar un informe
 report-ask = Que problemas está experimentando con esta frase?
 report-offensive-language = Linguaxe ofensiva
-report-offensive-language-detail = A frase ten unha linguaxe irrespectuosa ou ofensiva
+report-offensive-language-detail = A frase contén linguaxe irrespectuosa ou ofensiva
 report-grammar-or-spelling = Erro gramatical/ortográfico
 report-grammar-or-spelling-detail = A frase ten un erro gramatical ou ortográfico.
 report-different-language = Idioma diferente
@@ -959,7 +959,7 @@ report-different-language-detail = Está escrito nun idioma diferente do que est
 report-difficult-pronounce = Difícil de pronunciar
 report-difficult-pronounce-detail = Contén palabras ou frases que son difíciles de ler ou pronunciar.
 report-offensive-speech = Discurso ofensivo
-report-offensive-speech-detail = O fragmento ten unha linguaxe irrespectuosa ou ofensiva.
+report-offensive-speech-detail = O fragmento contén linguaxe irrespectuosa ou ofensiva.
 report-other-comment =
     .placeholder = Comentar
 success = Correcto
@@ -1033,10 +1033,10 @@ help-reach-hours-pluralized =
        *[other] { $hours } horas
     }en { $language } cun obxectivo persoal
 help-reach-hours-general-pluralized =
-    Axuda a Common Voice para acadar{ NUMBER($hours) ->
-        [one] { $hours } hora
-       *[other] { $hours } horas
-    }nun idioma cun obxectivo persoal
+    { NUMBER($hours) ->
+        [one] Axuda a Common Voice para acadar{ $hours } hora nun idioma cun obxectivo persoal
+       *[other] Axuda a Common Voice para acadar{ $hours } horas nun idioma cun obxectivo persoal
+    }
 set-a-goal = Estabelecer un obxectivo
 cant-decide = Non se decide?
 activity-needed-calculation-plural =
