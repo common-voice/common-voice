@@ -901,6 +901,7 @@ contribute-more =
 record-cta = ⵙⵙⵏⵜⵉ ⴰⵙⵓⵙⵔ
 record-platform-not-supported = ⵙⵙⵓⵔⴼⴰⵜ ⴰⵏⵖ, ⵓⵔ ⵜⴻⵜⵜⵡⴰⵏⵏⴰⵍ ⵜⵙⵉⵍⴰ ⵏⵏⵓⵏ ⵔⵅⵅⵓ.
 record-platform-not-supported-desktop = ⵜⵣⵎⵔⵎ ⴰⴷ ⵜⴰⵔⴳⵎ ⴳ ⵉⵎⵙⵙⵓⴷⵙⵏ ⵏ ⵓⵙⵉⵔⴰ ⵙ ⵡⴰⴳⴰⵎ…
+record-platform-not-supported-ios-non-safari = ⵎⴽ ⵜⵓⴼⵉⴷ, ⵙⵎⴷ ⵙⵓⵍ ⵙ ⵙⴰⴼⴰⵔⵉ ⴳ iOS ⵃⵎⴰ ⴰⴷ ⵜⵣⵣⵎⵔⴷ ⴰⵙⵓⵙⵔ…
 record-must-allow-microphone = ⵉⵇⵇⴰⵏ ⴷ ⴰⴷ ⵜⵙⵙⵓⵔⴳⴷ ⴰⴷⴰⴼ ⵖⵔ ⵓⵎⵉⴽⵔⵓⴼⵓⵏ.
 record-no-mic-found = ⵡⴰⵍⵓ ⴽⵔⴰ ⵏ ⵓⵎⵉⴽⵔⵓⴼⵓⵏ ⵉⵜⵜⵢⴰⴼⴰⵏ.
 record-error-too-short = ⵉⴳⵣⵣⵓⵍ ⵓⵙⵓⵙⵔ ⵙ ⴽⵉⴳⴰⵏ.
