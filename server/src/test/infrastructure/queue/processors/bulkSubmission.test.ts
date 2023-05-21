@@ -66,4 +66,35 @@ describe('Bulk Submission Processor', () => {
     expect(getDownloadUrlMock).toHaveBeenCalled()
     expect(sendBulkSubmissionEmailMock).toHaveBeenCalled()
   })
+
+  it('Should not send email if uploading bulk submission failed', async () => {
+    const uploadMock = jest.fn(
+      (a: string) => (data: Buffer) => TE.left(Error('oops'))
+    )
+    const doesExistMock = jest.fn(() => TE.right(false))
+    const getDownloadUrlMock = jest.fn(
+      () => 'http://some.domain.com/fileurl.tsv'
+    )
+    const sendBulkSubmissionEmailMock = jest.fn(() => TE.right(true))
+
+    const job = {
+      data: {
+        data: 'abcdef',
+        filepath: 'filename.tsv',
+        filename: 'displayName.tsv',
+        localeName: 'en',
+      },
+    } as Job<BulkSubmissionUploadJob>
+
+    const sut = processBulkSubmissionUpload(uploadMock)(doesExistMock)(
+      getDownloadUrlMock
+    )(sendBulkSubmissionEmailMock)
+
+    await sut(job)
+
+    expect(doesExistMock).toHaveBeenCalled()
+    expect(uploadMock).toHaveBeenCalled()
+    expect(getDownloadUrlMock).not.toHaveBeenCalled()
+    expect(sendBulkSubmissionEmailMock).not.toHaveBeenCalled()
+  })
 })
