@@ -874,7 +874,7 @@ action-click = Prema
 action-tap = Toque
 contribute = Colabore
 listen = Escoite
-write = Escribir
+write = Escriba
 review = Revisar
 skip = Salte
 shortcuts = Atallos
@@ -1681,8 +1681,6 @@ reviewing-sentences-explanation-1 = Se a frase cumpre os criterios anteriores, p
 reviewing-sentences-explanation-2 = Se a frase non cumpre os criterios anteriores, prema no botón "Non".
 reviewing-sentences-explanation-3 = Se ten dúbidas sobre a frase, pode omitila e pasar á seguinte.
 reviewing-sentences-explanation-4 = Se xa non quedan frases para revisar, axúdenos a recoller máis!
-community-announcement-header = Anuncio á comunidade!
-community-announcement-explanation = As orientacións que se inclúen a continuación refírense ás novas funcións do recompilador de frases, que se integrarán na plataforma principal de Common Voice entre marzo e abril de 2023. Mentres tanto, pode empregar a ferramenta anterior, <scLink>https://commonvoice.mozilla.org/sentence-collector/</scLink>.
 # WRITE PAGE
 write-instruction-second-part = unha frase de dominio público
 write-page-subtitle = As frases aportadas aquí engadiranse a un conxunto de datos con licenza cc-0 dispoñible publicamente.
