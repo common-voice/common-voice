@@ -649,7 +649,6 @@ about-playbook-how-grow-language-content-8 = <strong>Buďte kreativní!</strong>
 
 about-playbook-how-validate = Jak poznám, zda nahrávku schválit?
 about-playbook-how-validate-content-1 = Pokud ji <strong>slyšíte</strong> a <strong>rozumíte</strong>, bývá <strong>vhodné nahrávku schválit</strong>.
-about-playbook-how-validate-content-2 = <strong>Neodmítejte nahrávky, ve kterých má mluvčí „přízvuk“, který se liší od vašeho</strong> – to je zásadní, aby rozpoznávání hlasu fungovalo pro všechny lépe.
 about-playbook-how-validate-content-3 = Pokud si myslíte, že výslovnost <strong>znemožňuje porozumění</strong>, je v pozadí <strong>hodně ruchů</strong> nebo <strong>mluví i další lidé</strong>, pak byste měl(a) nahrávku zamítnout. <accuracyLink>Další informace naleznete v kvalitativních kritériích</accuracyLink>.
 about-playbook-how-validate-content-4 = Zamítnou-li nahrávku 2 lidé, bude uvedena v odlišné podmnožině datové sady.
 
