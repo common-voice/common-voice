@@ -4,7 +4,7 @@ import {
   BulkSubmissionUploadJob,
 } from '../types/BulkSubmissionJob'
 import { task as T, taskEither as TE } from 'fp-ts'
-import { pipe } from 'fp-ts/lib/function'
+import { pipe, constVoid } from 'fp-ts/lib/function'
 import { doesBulkSubmissionExist, getBulkSubmissionFileUrl, uploadBulkSubmission } from '../../storage/storage'
 import { sendBulkSubmissionNotificationEmail } from '../../email/email'
 import { BulkSubmissionEmailData } from '../../../core/bulk-submissions/types/bulk-submission'
@@ -26,7 +26,7 @@ export const processBulkSubmissionUpload =
       TE.Do,
       TE.bind('doesExist', () => doesExist(job.data.filepath)),
       TE.bind('uploadBulkSubmission', ({ doesExist }) => {
-        return doesExist ? TE.right((()=>{return})()) : pipe(
+        return doesExist ? TE.right(constVoid()) : pipe(
           Buffer.from(job.data.data, 'hex'),
           upload(job.data.filepath)
         )}
@@ -40,7 +40,7 @@ export const processBulkSubmissionUpload =
       })),
       TE.fold(
         (err) => T.of(console.log(err)),
-        () => T.of((() => { return })())
+        () => T.of(constVoid())
       )
     )()
   }
