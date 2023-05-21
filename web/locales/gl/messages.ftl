@@ -246,7 +246,7 @@ logout = Cerrar sesión
 
 ## Home Page
 
-home-title = Common Voice é unha iniciativa de Mozilla para axudar a ensinarlles ás máquinas como fala a xente real.
+home-title = Common Voice é unha iniciativa de Mozilla para axudar a ensinarlles ás máquinas como falan as persoas.
 default-tagline = Mozilla Common Voice é unha iniciativa para axudar a ensinarlle ás máquinas como falan as persoas.
 home-cta = Comece a falar, contribúa aquí!
 wall-of-text-start = A voz é natural, a voz é humana. Por iso nos fascina a idea de crear tecnoloxías de voz para as máquinas. Pero, para crear sistemas de voz, requírese unha cantidade extremadamente grande de datos de voz.
@@ -457,7 +457,7 @@ faq-what-cv-q = Que é Common Voice?
 faq-what-cv-a =
     A tecnoloxía de recoñecemento da fala está a revolucionar o modo en que interactuamos coas máquinas, pero os sistemas dispoñibles hoxe en día están en mans privadas e son caros. Mozilla Common Voice é unha iniciativa que busca contribuír a que as tecnoloxías de recoñecemento da fala sexan mellores e máis accesibles para todos. En concreto, Common Voice é unha enorme base de datos global que contén doazóns de voz a partir das cales calquera persoa pode adestrar de xeito rápido e sinxelo modelos de voz en, potencialmente, calquera idioma.
     
-    Non só estamos a recoller mostras de voz  nas linguas grandes, senón tamén naquoutras con menor número de falantes. A publicación dun conxunto de datos de voz variado permitirá que os desenvolvedores, os emprendedores e as comunidades poidan resolver por si mesmos esta fenda. Ademais do conxunto de datos de Common Voice, tamén estamos a crear un motor de recoñecemento da fala de código aberto chamado Deep Speech.
+    Non só estamos a recoller mostras de voz  nas linguas grandes, senón tamén naqueloutras con menor número de falantes. A publicación dun conxunto de datos de voz variado permitirá que os desenvolvedores, os emprendedores e as comunidades poidan resolver por si mesmos esta fenda. Ademais do conxunto de datos de Common Voice, tamén estamos a crear un motor de recoñecemento da fala de código aberto chamado Deep Speech.
 faq-what-cv-a-2 =
     A tecnoloxía de recoñecemento da fala está revolucionando a forma en que interactuamos coas máquinas, pero os sistemas dispoñibles actualmente están en mans privadas e son caros. Mozilla Common Voice é unha iniciativa que busca contribuír a que as tecnoloxías de recoñecemento da fala sexan mellores e máis accesibles para todos. En concreto, Common Voice é unha enorme base de datos global que contén doazóns de voz a partir das cales calquera persoa pode adestrar de xeito rápido e sinxelo modelos de voz en, potencialmente, calquera idioma.
     
