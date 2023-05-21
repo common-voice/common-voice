@@ -1757,13 +1757,13 @@ required-field = Por favor, cubra este campo.
 # REVIEW PAGE
 sc-review-instruction-first-part = Marcar
 sc-review-instruction-second-part = é esta unha frase lingüisticamente correcta?
-sc-review-rules-title = A sentenza cumpre as directrices?
+sc-review-rules-title = A frase cumpre as directrices?
 sc-review-empty-state = Actualmente non hai frases para revisar neste idioma.
 report-sc-different-language = Idioma diferente
 report-sc-different-language-detail = Está escrito nun idioma diferente ao que estou revisando.
 sentences-fetch-error = Produciuse un erro ao recuperar as frases
 review-error = Produciuse un erro ao revisar esta frase
 # SENTENCE-COLLECTOR-REDIRECT PAGE
-sc-redirect-page-title = Estamos facendo grandes cambios
-sc-redirect-page-subtitle-1 = O colector de frases está migrando para a plataforma principal do Common Voice. Agora vostede pode <writeURL>escribir</writeURL> unha frase ou <reviewURL>revisar</reviewURL> envíos dunha única frase no Common Voice.
+sc-redirect-page-title = Estamos a facer grandes cambios
+sc-redirect-page-subtitle-1 = O colector de frases está migrando para a plataforma principal do Common Voice. Agora vostede pode <writeURL>escribir</writeURL> unha frase ou <reviewURL>revisar</reviewURL> envíos de frases soltas no Common Voice.
 sc-redirect-page-subtitle-2 = Fáganos preguntas en <matrixLink>Matrix</matrixLink>, <discourseLink>Discourse</discourseLink> ou por <emailLink>correo electrónico</emailLink>.
