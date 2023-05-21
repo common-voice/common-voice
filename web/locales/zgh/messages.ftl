@@ -696,6 +696,7 @@ de-identified-explanation = ⵜⴰⵣⵉⴳⵣⵜ ⵏⵏⴰ ⵙ ⵍⴰ ⵜⵜⴼ
 
 error-title-404 = ⵓⵔ ⵏⵖⵉⵢ ⴰⴷ ⴰⵡⵏ ⵏⴰⴼ ⵜⴰⵙⵏⴰ ⴰⵏⵏ
 error-content-404 = ⴰⵜⴰⴼ ⵔⴰⴷ ⵜⴰⵡⵙⴰ <homepageLink>ⵜⴰⵙⵏⴰ ⵏ ⵓⵙⵏⵓⴱⴳ</homepageLink> ⵏⵏⵖ? ⵃⵎⴰ ⴰⴷ ⵜⵙⵇⵙⴰⴷ ⴽⵔⴰ ⵏ ⵓⵙⵇⵙⵉ, ⵎⴽ ⵜⵓⴼⵉⴷ, ⵍⴽⵎ <matrixLink>ⴰⵎⵙⴰⵡⴰⵍ ⵏ ⵓⴳⵔⴰⵡ ⵏ ⵎⵉⵜⵔⵉⴽⵙ</matrixLink>, ⴹⵓⴼ ⵉⵎⵓⴽⵔⵉⵙⵏ ⵏ ⵓⵙⵉⵜ ⵙ <githubLink>ⴳⵉⵜⵀⴰⴱ</githubLink> ⵏⵉⵖ ⵜⴽⴽⵉⴷ <discourseLink>ⵉⵙⴳⵔⴰⵡⵏ ⵏ ⴷⵉⵙⴽⵓⵔⵙ ⵏⵏⵖ</discourseLink>.
+error-title-503 = ⵍⴰ ⵏⵜⵜⵎⵏⴰⵍⴰ ⵢⴰⵜ ⵜⵉⵣⵉ ⵏ ⵓⴱⴷⴷⵉ ⵜⴰⵔⴰⵜⴰⵎⵜ
 error-code = ⵜⴰⵣⴳⵍⵜ { $code }
 
 ## Data
