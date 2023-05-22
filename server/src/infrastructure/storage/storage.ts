@@ -4,18 +4,14 @@ import { getConfig } from '../../config-helper'
 
 const BUCKET_NAME = getConfig().BULK_SUBMISSION_BUCKET_NAME
 
-const storageConfig =
+const storage =
   getConfig().ENVIRONMENT === 'local'
-    ? {
+    ? new Storage({
         apiEndpoint: getConfig().STORAGE_LOCAL_DEVELOPMENT_ENDPOINT,
         projectId: 'local',
         useAuthWithCustomEndpoint: false,
-      }
-    : {
-        credentials: getConfig().GCP_CREDENTIALS,
-      }
-
-const storage = new Storage(storageConfig)
+      })
+    : new Storage()
 
 export const upload =
   (storage: Storage) =>
@@ -35,7 +31,7 @@ export const upload =
 export const getPublicUrl =
   (storage: Storage) =>
   (bucket: string) =>
-  (path: string): string => 
+  (path: string): string =>
     storage.bucket(bucket).file(path).publicUrl()
 
 export const fileExists =
