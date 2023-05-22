@@ -36,7 +36,7 @@
     "nodemailer": "6.7.3",
     "passport": "0.6.0",
     "passport-auth0": "0.6.1",
-    "rate-limiter-flexible": "2.3.6",
+    "rate-limiter-flexible": "2.4.1",
     "redlock": "4.2.0",
     "request": "2.88.2",
     "request-promise-native": "1.0.9",
