@@ -391,10 +391,17 @@ hidden = Dogolen
 visible = A bɛ ye
 native-language =
     .label = Fasokan
+profile-form-add-accent = A' ye ladamukan kura fara "{ $inputValue }" kan.
+profile-form-submit-save = Ka mara
+profile-form-submit-saved = Maralen don
+male = Cɛ
+female = Muso
+why-profile-title = Mun na profil dɔ?
 why-profile-text =
     Ni i ye kunnafoni dɔw di i yɛrɛ kan, i bɛ kunnafoni lamɛntaw minnu ci Common Voice ma, olu nafa bɛna bonya kosɛbɛ Kuma ma
     Dɔnniya-minɛn minnu bɛ baara Kɛ ni o kunnafoniw ye walasa k’u ka tiɲɛni ɲɛ.
 dashboard = Bulonba
+build-profile = Profil dilan
 profile-explanation = Aw ye aw ka ɲɛtaa jateminɛ ni kunnafonisɛbɛn ye ani ka an ka kumakan kunnafoniw dɛmɛ u ka kɛ tiɲɛ ye.
 thanks-for-account = Aw ni ce aw ka jatebɔ la, sisan an k'aw ka profil jɔ.
 why-demographic = Mun na o nafa ka bon?
