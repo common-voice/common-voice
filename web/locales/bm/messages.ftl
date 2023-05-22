@@ -402,6 +402,9 @@ why-profile-text =
     Dɔnniya-minɛn minnu bɛ baara Kɛ ni o kunnafoniw ye walasa k’u ka tiɲɛni ɲɛ.
 dashboard = Bulonba
 build-profile = Profil dilan
+avatar = Avatari
+goals = Kuntilennaw
+settings = Labɛnniw.
 profile-explanation = Aw ye aw ka ɲɛtaa jateminɛ ni kunnafonisɛbɛn ye ani ka an ka kumakan kunnafoniw dɛmɛ u ka kɛ tiɲɛ ye.
 thanks-for-account = Aw ni ce aw ka jatebɔ la, sisan an k'aw ka profil jɔ.
 why-demographic = Mun na o nafa ka bon?
