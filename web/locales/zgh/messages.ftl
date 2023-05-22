@@ -1522,6 +1522,8 @@ sc-settings-ui-language = ⵜⵓⵜⵍⴰⵢⵜ ⵏ ⵓⴳⵔⵓⴷⵎ
 sc-settings-reset-skipped = ⴰⵍⵙ ⵙⵔⵙ ⵜⵉⵡⵉⵏⴰⵙ ⵓⵏⴼⵏⵉⵏ
 sc-settings-show-all-button = ⵙⵙⵓⵎⴰⵏ ⴷⴰⵖ ⵜⵉⵡⵉⵏⴰⵙ ⴰⴽⴽⵯ ⵓⵏⴼⵏⵉⵏ
 sc-settings-failed = ⵓⵔ ⵏⵣⵎⵉⵔ ⴰⴷ ⵏⵙⵏⴼⵍ ⵜⵉⵙⵖⴰⵍ. ⵎⴽ ⵜⵓⴼⴰⵎ, ⴰⵔⵎⴰⵜ ⴷⴰⵖ.
+# VALIDATION
+sc-validation-number-of-words = ⵉⵇⵇⴰⵏ ⴷ ⴰⴷ ⵜⴰⵎⵓ ⵜⵡⵉⵏⵙⵜ ⴳⵔ 1 ⴷ 14 ⵜⴳⵓⵔⵉⵡⵉⵏ (ⵙ ⵜⵉⵎⵎⴰⴷ)
 sc-validation-no-numbers = ⵓⵔ ⵉⵅⵚⵚⴰ ⵜⴰⵡⵉⵏⵙⵜ ⴰⴷ ⵜⴰⵎⵓ ⵓⵟⵟⵓⵏⵏ
 sc-validation-no-symbols = ⵓⵔ ⵉⵅⵚⵚⴰ ⵜⴰⵡⵉⵏⵙⵜ ⴰⴷ ⵜⴰⵎⵓ ⵉⵣⵎⵓⵍⵏ
 sc-validation-no-abbreviations = ⵓⵔ ⵉⵅⵚⵚⴰ ⵜⴰⵡⵉⵏⵙⵜ ⴰⴷ ⵜⴰⵎⵓ ⵉⵣⴳⵣⴰⵍ
