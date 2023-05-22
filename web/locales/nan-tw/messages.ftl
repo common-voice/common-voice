@@ -312,7 +312,6 @@ shortcut-discard-ongoing-recording-label = 捨棄目前錄音
 shortcut-submit = 轉去
 shortcut-submit-label = 送出片節
 request-language-text = Common Voice 敢揣無你的語言？
-request-language-text-learn = 了解如何在此要求！
 request-language-button = 要求新的語言
 
 ## ProjectStatus
@@ -448,7 +447,6 @@ faq-why-different-speakers-a =
     大多數的語音資料庫的語音來源偏重於某群特定人口，造成結果偏向於<articleLink>男性與中產階級</articleLink>。而在訓練資料集中，各種不同的口音與方言會與被邊緣化的人群相關連起來。許多機器也很難理解女性的聲音。
     這就是為什麼我們的語音資料庫應該海納百川，收集各種語音！
 faq-why-my-lang-q = 為啥物猶閣無我的語言？
-faq-why-my-lang-new-a = Mozilla 不特別偏好哪種語言，然而 Common Voice 是一個純社群發起的專案，需要<multilangLink>幾個步驟才能新增語言</multilangLink>並開始收集語音片段。首先需要完成翻譯 Common Voice 網站，這樣社群成員才能用自己的語言進行貢獻。次之，我們需要大量的無版權語句，讓人們可以大聲說出來。當兩個條件都滿足後 Common Voice 即可「上線」，讓人們開始錄音，並驗證其他人所錄下的片段。若您想要協助準備讓新語言上限，歡迎到<sentenceCollectorLink>語句收集工具</sentenceCollectorLink>開始幫忙。
 faq-what-quality-q = 錄音品質要到什麼等級，才能用於資料集中？
 faq-what-quality-a = 我們希望 Common Voice 資料集能夠反映出語音轉文字引擎就算在野外也會聽到的聲音，所以我們希望能夠收集各種環境與錄音品質下的片段。除了各種說話者以外，若資料集中包含各種語音品質的片段，可讓語音轉文字引擎處理各種現實環境下的狀況，例如背景中有人在講話，或是有車輛的噪音。只要您的片段能讓人足夠聽得懂，即可收錄至資料集中。
 faq-why-10k-hours-q = 為什麼每個語言有一萬小時的音檔驗證目標？
@@ -518,12 +516,6 @@ about-dataset-new = Common Voice 資料集
 about-dataset-new-text = Common Voice 資料集包含數十萬筆語音樣本，可幫助開發者打造語音識別工具。
 about-clip-graveyard = 片段回收桶
 about-clip-graveyard-text = 回收桶中包含無法進入 Common Voice 資料集的語音片段。與資料集一樣，回收桶內容也有提供下載。
-about-partners = 夥伴
-about-become-a-partner = 成為夥伴
-about-partnership =
-    Common Voice 是一套由眾人鼎力相助的專案。我們依賴由夥伴與貢獻者所組成的社群，來打有史以來最大的開放原始碼語音資料集。
-    
-    特別感謝下列人員與組織單位，協助本專案:
 about-get-involved = 參與我們
 about-get-involved-text-2 =
     想要幫忙讓 Common Voice 變得更棒嗎？
@@ -553,9 +545,6 @@ about-playbook-what-is-language-content-3 = 某些語言有許多不同的文法
 
 about-playbook-how-add-language = 要如何加入語言？
 about-playbook-how-add-language-content-1 = 首先請先確認您的語言是否<languageLink>已經存在</languageLink>。若還不存在的話，請<strong>將網站翻譯成您的語言，並且收集語句</strong>。
-about-playbook-how-add-language-content-2 = <translateVideo>使用</translateVideo> Pontoon</pontoonLink> <strong>來翻譯網站</strong>。Pontoon 上有許多語言，若沒有您想參與貢獻的語言，可以<pontoonRequestLink>要求加入新語言</pontoonRequestLink>。然後再到 <repoLink>GitHub</repoLink> 上面請 Common Voice 加入此專案。若需更多資訊請點擊了解<localizationFragment>網站翻譯流程</localizationFragment>。
-about-playbook-how-add-language-content-3 = <scVideo>使用</scVideo><scLink>Sentence Collector</scLink><strong>來收集句子</strong>。
-about-playbook-how-add-language-content-4 = 您可以在此<scLinkAdd>加入少量</scLinkAdd>的句子，或是透過 Github 發需求來<bulkImportDocsLink>批次大量匯入</bulkImportDocsLink>。請務必記得所有句子都必須使用 <licenseLink>CC0（或公眾領域）</licenseLink>授權條款，或是由您自行撰寫。若需更多資訊，請閱讀<scFragment>收集句子</scFragment>段落。
 
 ## How does localization work
 
@@ -619,10 +608,6 @@ about-playbook-how-project-governance-content-4 = 社群參與決策。
 about-playbook-how-project-governance-content-5 = 價值與重視。
 about-playbook-how-project-governance-content-6 = 相互問責。
 about-playbook-how-project-governance-content-7 = <governanceLink>更加了解我們如何治理本專案</governanceLink>
-mycroft-title = Mycroft Ai
-mycroft-subtitle = 人工智慧
-mycroft-description = Mycroft 是全球第一套的開放原始碼語音助理，不論是在電腦、車子、Raspberry Pi 或是任何地方都能運作。
-mycroft-secondary-description = 這是一套可以自由混搭、延伸、改進的開放原始碼軟體。Mycroft 可以用於科學專案，或企業軟體應用等各種情境中。
 
 ## Glossary
 
@@ -803,7 +788,6 @@ language-search-input =
 language-speakers = 使用者數
 localized = 已翻譯
 sentences = 句子
-total-hours = 已驗證時數
 
 ## Contribution
 
@@ -866,6 +850,9 @@ target-segment-generic-card = 您正在朝目標段落數貢獻錄音
 target-segment-first-banner = 幫助 Common Voice 設定 { $locale } 的第一組目標段落數
 target-segment-add-voice = 加入您的聲音
 target-segment-learn-more = 了解更多
+
+## Contribution Nav Items
+
 
 ## Reporting
 
@@ -1452,3 +1439,12 @@ sc-validation-no-abbreviations = 句子不應包含縮寫
 
 localization-select =
     .label = 選擇語言 / 語系
+sentence-collection = 語句集合
+new-sentence-rule-1 = <noCopyright>無版權限制</noCopyright> (<cc0>cc-0 公眾授權</cc0>)
+new-sentence-rule-2 = 少於 15 字
+new-sentence-rule-3 = 以漢字為主，句尾不需句號
+new-sentence-rule-4 = 使用大括號標示台羅參考發音
+new-sentence-rule-5 = 例句：多謝你（To-siā--lí）
+new-sentence-rule-6 = 不包含英數字（數字可改為國字大寫）
+new-sentence-rule-7 = 明確標示出處（歌詞、台詞、市售書籍皆不可）
+new-sentence-rule-8 = 結構簡單易讀（複雜的句子請截斷成兩句）
