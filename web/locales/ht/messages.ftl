@@ -627,6 +627,7 @@ data-get-started = <speechBlogLink>Kòmanse ak Rekonesans Lapawòl</speechBlogLi
 data-other-title = Lòt done vwa...
 data-other-goto = Ale nan { $name }
 data-other-download = Telechaje Done
+data-bundle-button = Telechaje gwoup done yo an gwo
 release-version = vèsyon
 dataset-date = Dat
 license = Lisans: <licenseLink>{ $license }</licenseLink>
@@ -643,7 +644,9 @@ review-delete-recordings = Efase anrejistreman mwen yo
 
 ## Datasets Page
 
+datasets-heading = Ansanm done
 language = Lang
+download-dataset-header = Telechaje ansanm done a
 # File size in gigabytes
 size = Gwosè
 cv-license = Lisans
@@ -653,6 +656,7 @@ splits = Fann
 email-to-download = Antre imel pou telechaje
 confirm-size = Ou pare pou kòmanse yon telechajman de <b>{ $size }</b>
 confirm-join-mailing-list = Mwen vle rantre nan lis adrès Common Voice la
+validated-hours = Lè Ki Te Valide
 subscribe = Abòne
 get-started-speech = Kòmanse ak Rekonesans Lapawòl
 feedback-q = Gen Reyaksyon?
@@ -772,6 +776,9 @@ keep-track-profile = Kenbe tras pwogrè'w ak yon pwofil
 login-to-get-started = Konekte oswa enskri pou kòmanse
 target-segment-add-voice = Ajoute Vwa'w
 target-segment-learn-more = Aprann plis
+
+## Contribution Nav Items
+
 
 ## Reporting
 
@@ -1189,3 +1196,4 @@ already-have-an-account = Ou deja genyen yon kont? Ebyen <login>Konekte</login>
 create-profile-button = Kreye yon pwofil
 # IMAGE TAGS
 img-alt-success-checkmark = mak siksè
+sentence-collection = Koleksyon fraz
