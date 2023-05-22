@@ -657,9 +657,11 @@ email-to-download = Antre imel pou telechaje
 confirm-size = Ou pare pou kòmanse yon telechajman de <b>{ $size }</b>
 confirm-join-mailing-list = Mwen vle rantre nan lis adrès Common Voice la
 validated-hours = Lè Ki Te Valide
+recorded-hours = Lè Ki Te Anrejistre
 subscribe = Abòne
 get-started-speech = Kòmanse ak Rekonesans Lapawòl
 feedback-q = Gen Reyaksyon?
+go-discourse = Ale nan Discourse
 go-languages-page = Ale nan Paj Lang yo
 more = Plis
 close = Fèmen
@@ -700,6 +702,8 @@ request-language-form-email =
 request-language-form-info =
     .label = Enfòmasyon sou lang lan
 request-language-form-info-explanation-list-1 = Non lang ou
+# Success page
+request-language-success-heading = Mèsi! Ou te mande yon nouvo lang
 
 ## Languages Overview
 
@@ -723,6 +727,8 @@ action-click = Klike
 action-tap = Tape
 contribute = Kontribye
 listen = Koute
+write = Ekri
+review = Revize
 skip = Sote
 shortcuts = Rakousi
 clips-with-count-pluralized =
@@ -779,6 +785,8 @@ target-segment-learn-more = Aprann plis
 
 ## Contribution Nav Items
 
+contribute-voice-collection-nav-header = Koleksyon Vwa
+contribute-sentence-collection-nav-header = Koleksyon fraz
 
 ## Reporting
 
@@ -858,6 +866,7 @@ lose-changes-warning = Si'w kite kounye a vle di ou pral pèdi chanjman'w yo
 set-a-goal = Mete yon objektif
 cant-decide = Ou pa ka deside?
 how-many-per-day = Trè byen! Konbyen odyo pa jou?
+how-many-a-week = Trè byen! Konbyen odyo pa jou?
 which-goal-type = Èske ou vle Pale, Koute oswa toude?
 n-clips-pluralized =
     { NUMBER($count) ->
@@ -927,6 +936,8 @@ demo-account = Kont
 ## Demo Account
 
 demo-account-card-header = Ou pa oblije gen yon kont pou kontribye, poutan li tap itil.
+demo-account-enter-email =
+    .label = Antre imel pou voye yon lyen pou enskri
 demo-account-sign-up = Voye lyen pou enskri
 
 ## Demo Contribute
@@ -950,10 +961,13 @@ contribution-misreadings-example-2-explanation = [Ta dwe 'dinozò yo']
 contribution-misreadings-example-5-title = N'soti al pran kafe.
 contribution-misreadings-example-6-title = Nou soti al pran kafe.
 contribution-misreadings-example-7-title = Nou soti al pran kafe.
+contribution-varying-pronunciations-title = Pwononsyasyon varye
+contribution-varying-pronunciations-example-1-title = Sou tèt li li te mete yon bere.
 contribution-background-noise-title = Bri Dèyè
 contribution-background-voices-title = Bri Dèyè Yo
 contribution-volume-title = Volim
 contribution-reader-effects-title = Efè lektè
+contribution-just-unsure-title = Jis pa sèten?
 see-more = <chevron></chevron>Gade plis
 see-less = <chevron></chevron>Wè mwens
 
@@ -997,6 +1011,7 @@ sc-howto-title = Kijan pou
 sc-howto-addlang-title = Ajoute lang pou travay avèk yo
 sc-howto-addlang-text = Yon fwa ou konekte ou ka chwazi lang ou yo nan seksyon pwofil la.
 sc-howto-addsen-title = Ajoute nouvo fraz yo
+sc-howto-cite-title = Ki jan yo bay referans
 sc-howto-review-title = Revizyon fraz yo
 sc-howto-review-subtitle = Asire'w ke fraz la satisfè kritè sa yo:
 sc-howto-review-criteria-1 = Fraz la dwe eple kòrèkteman.
@@ -1005,6 +1020,7 @@ sc-howto-review-criteria-3 = Fraz la dwe palab.
 sc-howto-review-criteria-4 = Si fraz la satisfè kritè yo, klike sou bouton "Apwouve".
 sc-howto-findpd-subtitle = Chèche yo sou entènèt la
 sc-howto-findpd-tips = Men kèk konsèy pou jwenn fraz yo:
+sc-howto-findpd-subtitle-2 = Patenarya ak òganizasyon lokal oswa moun
 
 ## MY SENTENCES
 
@@ -1058,6 +1074,14 @@ sc-add-lang-could-not-add = Pa t 'kapab ajoute lang
 sc-add-lang-sec-label = Ajoute yon lang ou vle kontribye ladan'l
 sc-add-lang-sec-button = Ajoute Lang
 sc-add-err-unexpected = Repons inatandi tounen soti nan sèvè
+# Variables:
+#   $sentences (Number) - Number of sentences which failed to be saved to the database - could be several different reasons
+sc-add-err-failed =
+    { $sentences ->
+        [0] { $sentences } fraz yo echwe
+        [one] { "" }
+       *[other] { "" }
+    }
 sc-add-err-submission = Erè soumisyon
 
 ## ADD SENTENCES CONFIRMATION
@@ -1152,6 +1176,7 @@ sc-review-link = Revize
 ## SETTINGS
 
 sc-settings-title = Konfigirasyon
+sc-settings-ui-language = Lang koòdone
 sc-settings-reset-skipped = Reyajiste fraz sote yo
 sc-settings-show-all-button = Montre tout fraz sote yo ankò
 sc-settings-failed = Pa t 'kapab chanje paramèt yo. Tanpri eseye ankò.
@@ -1197,3 +1222,7 @@ create-profile-button = Kreye yon pwofil
 # IMAGE TAGS
 img-alt-success-checkmark = mak siksè
 sentence-collection = Koleksyon fraz
+background-noise = Bri Dèyè
+background-voices = Bri Dèyè Yo
+volume = Volim
+reader-effects = Efè lektè
