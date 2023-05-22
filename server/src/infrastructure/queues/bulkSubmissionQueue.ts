@@ -10,6 +10,8 @@ import {
 } from './types/BulkSubmissionJob'
 import { JobQueue } from './types/JobQueue'
 import { task as T } from 'fp-ts'
+import { Job } from 'bull'
+import { BulkSubmissionJobResult } from './types/BulkSubmissionResult'
 
 const bulkSubmissionImportQueue = new Queue(
   'bulk-submission-import-queue',
@@ -48,6 +50,14 @@ export const BulkSubmissionUploadJobQueue: JobQueue<BulkSubmissionUploadJob> = {
   addJob: addBulkSubmissionUploadJob,
 }
 
-bulkSubmissionUploadQueue.on('completed', (job, result) => {
-  console.log(`Completed upload of ${job.data.filepath}`)
+bulkSubmissionUploadQueue.on('completed', (job: Job<BulkSubmissionUploadJob>, result: BulkSubmissionJobResult) => {
+  switch (result.kind) {
+    case 'success':
+      console.log(`Bulk submission uploaded successfully as ${job.data.filepath}`)
+      break;
+    case 'failure':
+      console.log(`Bulk submission upload for ${job.data.filename} failed: ${result.reason}`)
+      break;
+  }
 })
+

@@ -13,7 +13,7 @@ import { COMMON_VOICE_EMAIL } from 'common'
 export const bulkSubmissionImportProcessor = async (
   job: Job<BulkSubmissionImportJob>
 ) => {
-  // upload data with storage
+  // import data from storage
 }
 
 export const processBulkSubmissionUpload =
@@ -39,8 +39,8 @@ export const processBulkSubmissionUpload =
         languageLocale: job.data.localeName
       })),
       TE.fold(
-        (err) => T.of(console.log(err)),
-        () => T.of(constVoid())
+        (err) => T.of({ kind: 'failure', reason: err.message }),
+        () => T.of({ kind: 'success' })
       )
     )()
   }
