@@ -1519,6 +1519,7 @@ sc-review-link = ⵙⵙⵉⵔⵎ
 
 sc-settings-title = ⵜⵉⵙⵖⴰⵍ
 sc-settings-ui-language = ⵜⵓⵜⵍⴰⵢⵜ ⵏ ⵓⴳⵔⵓⴷⵎ
+sc-settings-reset-skipped = ⴰⵍⵙ ⵙⵔⵙ ⵜⵉⵡⵉⵏⴰⵙ ⵓⵏⴼⵏⵉⵏ
 sc-settings-show-all-button = ⵙⵙⵓⵎⴰⵏ ⴷⴰⵖ ⵜⵉⵡⵉⵏⴰⵙ ⴰⴽⴽⵯ ⵓⵏⴼⵏⵉⵏ
 sc-settings-failed = ⵓⵔ ⵏⵣⵎⵉⵔ ⴰⴷ ⵏⵙⵏⴼⵍ ⵜⵉⵙⵖⴰⵍ. ⵎⴽ ⵜⵓⴼⴰⵎ, ⴰⵔⵎⴰⵜ ⴷⴰⵖ.
 sc-validation-no-numbers = ⵓⵔ ⵉⵅⵚⵚⴰ ⵜⴰⵡⵉⵏⵙⵜ ⴰⴷ ⵜⴰⵎⵓ ⵓⵟⵟⵓⵏⵏ
