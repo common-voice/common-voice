@@ -1554,6 +1554,7 @@ partnerships-governments-header = ⵜⵉⵏⴱⴰⴹⵉⵏ
 partnerships-governments-description = ⵏⴱⵓⵔⵣ ⴰⴷ ⵏⴻⵏⵏⴰⵍ ⴰⵙⵓⵖⵏ ⵏ ⵢⵉⴳⵔ ⴰⴳⴷⵓⴷⴰⵏ ⴳ ⵜⴻⵜⵉⴽⵏⵓⵍⵓⵊⵉⵜ, ⴰⵙⵏⴼⵍⵓⵍ ⴷ ⵉⵣⵔⴼⴰⵏ ⵏ ⵜⵓⵜⵍⴰⵢⵜ. ⵎⴽ ⵍⴰ ⵜⵙⵖⵉⵡⵉⵙⴷ ⴰⴷ ⵜⵕⵥⵎⴷ ⵉ ⴽⵔⴰ ⵏ ⵓⵙⵏⴼⴰⵔ ⵏⵉⵖ ⴰⵎⵣⵉⵣⵣⵍ ⵉⵎⵇⵇⵔⴰⵏⵏ, ⵎⴽ ⵜⵓⴼⵉⴷ, <emailFragment>ⵏⵢⴰⵍⴽⴰⵎ ⴷⵉⴷⵏⵖ.</emailFragment>
 partnerships-academia-header = ⵜⵉⵙⴷⴰⵡⵉⵢⵉⵏ, ⵉⵎⵙⴷⴰⵡⵉⵢⵏ ⴷ ⵉⵎⵔⵣⴰ
 partnerships-academia-description = ⵉⵍⵍⴰ ⵓⵙⵏⴼⵍⵓⵍ ⴳ ⵡⵓⵍ ⵓⵕⵥⵉⵎ ⵏ ⵓⵢⵏⵏⴰ ⵏⵙⴽⴰⵔ. ⵉ ⵉⵎⵢⴰⵡⴰⵙⵏ ⵏ ⵓⵔⵣⵣⵓ, ⴰⴳⵔⵔⵓ ⵏ ⵉⵙⴼⴽⴰ ⵏⵉⵖ ⵉⵙⵇⵙⴰⵢⵏ, <emailFragment>ⵏⵢⴰⵍⴽⴰⵎ ⴷⵉⴷⵏⵖ.</emailFragment>
+partnerships-small-business-header = ⵜⵉⵎⵙⵙⵏⵜⴰⵢ ⵜⵉⵎⵥⵥⵢⴰⵏⵉⵏ, ⴳⵉⵙⵏⵜ ⵜⵉⵎⵙⵙⵏⵜⴰⵢ ⵜⵉⵏⵓⴱⴰ ⵏ ⵜⴻⵜⵉⴽⵏⵓⵍⵓⵊⵉⵜ ⴷ ⵜⵉⵏ ⵜⵖⵉⵙⵜ ⵏ ⵜⵎⴰⵛⵉⵏⵜ
 partnerships-our-partners = ⵉⵎⵛⵛⵔⴽⵏ ⵏⵏⵖ
 # FIRST POST SUBMISSION CTA
 first-cta-header-text = ⵜⴰⵏⵎⵎⵉⵔⵜ ⵅⴼ ⵜⵉⴽⴽⵉ ⵏ ⵜⵓⵙⵙⵉⴼⵉⵏ ⵜⵉⴳⵕⴹⴰⵏⵉⵏ ⵏⵏⵓⵏ!
