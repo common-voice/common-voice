@@ -1356,6 +1356,14 @@ sc-add-lang-sec-label = ⵔⵏⵓ ⵜⵓⵜⵍⴰⵢⵜ ⵏⵏⴰ ⵙ ⵜⵅⵙ�
 sc-add-lang-sec-button = ⵔⵏⵓ ⵜⵓⵜⵍⴰⵢⵜ
 sc-add-err-unexpected = ⵜⴰⵖⵓⵍ ⴷ ⵢⴰⵜ ⵜⵎⵔⴰⵔⵓⵜ ⵜⴰⵔⴰⵜⴰⵎⵜ ⵙⴳ ⵓⵎⴰⴽⴽⴰⵢ
 # Variables:
+#   $duplicates (Number) - Number of sentences which got rejected because they are duplicates
+sc-add-result =
+    { $duplicates ->
+        [0] ⵜⵉⵡⵉⵏⴰⵙ ⵜⵜⵢⴰⵣⴰⵏⵏⵉⵏ. ⵡⴰⵍⵓ ⵜⵉⵡⵉⵏⴰⵙ ⵜⵜⵢⴰⴳⴰⵢⵏⵉⵏ ⴰⵎ ⵜⵢⵓⴳⴰ.
+        [one] ⵜⵉⵡⵉⵏⴰⵙ ⵜⵜⵢⴰⵣⴰⵏⵏⵉⵏ. ⵜⴻⵜⵜⵢⴰⴳⴰⵢ ⵢⴰⵜ ⵜⵡⵉⵏⵙⵜ ⴰⵎ ⵜⵢⵓⴳⴰ.
+       *[other] ⵜⵉⵡⵉⵏⴰⵙ ⵜⵜⵢⴰⵣⴰⵏⵏⵉⵏ. ⵜⵜⵢⴰⴳⴰⵢⵏⵜ { $duplicates } ⵜⵡⵉⵏⴰⵙ ⴰⵎ ⵜⵢⵓⴳⴰ.
+    }
+# Variables:
 #   $sentences (Number) - Number of sentences which failed to be saved to the database - could be several different reasons
 sc-add-err-failed =
     { $sentences ->
