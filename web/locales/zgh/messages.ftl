@@ -1346,6 +1346,7 @@ sc-submit-ph-read-how-to =
 sc-submit-confirm = ⵍⴰ ⵙⵙⴷⵉⴷⵖ ⵎⴰⵙ ⴷ ⵜⵉⵡⵉⵏⴰⵙ ⴰⴷ ⴳⴰⵏⵜ <wikipediaLink>ⴰⴳⵍⴰ ⴰⴳⴷⵓⴷⴰⵏ</wikipediaLink> ⴷ ⵖⵓⵔⵉ ⵜⵓⵔⴰⴳⵜ ⴰⴷ ⵜⵏⵜ ⵙⴽⵜⵔⵖ.
 sc-submit-button =
     .submitText = ⴰⵣⵏ
+sc-submit-filtered = ⵜⵉⵡⵉⵏⴰⵙ ⵜⵜⵓⴼⵔⵏⵏⵉⵏ ⵙ ⵓⵙⵔⴰⴳ ⵏ ⵓⵙⴼⵓⴳⴳⵔ ⵏ ⵉⵙⴱⴷⴰⴷⵏ (ⵎⴽ ⵜⵓⴼⵉⴷ, ⴰⵣⵏ ⵜⵉⵍⵇⵇⴰⵎ ⵓⵖⴷⵏⵉⵏ ⴰⵎ ⵜⵡⵉⵏⴰⵙ ⵜⵉⵎⴰⵢⵏⵓⵜⵉⵏ):
 sc-submit-guidelines = ⵎⴽ ⵜⵓⴼⵉⴷ, ⵛⴰⴱⴱⴰ <howToLink>ⵜⴰⵔⴰⵜⵉⵏ</howToLink>.
 
 ## ADD LANGUAGE
