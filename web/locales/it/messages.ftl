@@ -1657,6 +1657,7 @@ reviewing-sentences-explanation-3 = Se non sei sicuro, puoi anche saltare la fra
 reviewing-sentences-explanation-4 = Se non ci sono più frasi da convalidare, aiutaci a raccoglierne altre!
 # WRITE PAGE
 write-instruction-second-part = una frase di pubblico dominio
+write-page-subtitle = Le frasi inserite verranno aggiunte a un dataset con licenza cc-0 disponibile pubblicamente.
 sentence =
     .label = Frase
 sentence-input-value = Inserisci qui la frase di pubblico dominio
@@ -1676,6 +1677,8 @@ guidelines = Linee guida
 add-sentence-success = 1 frase raccolta
 add-sentence-error = Errore durante il caricamento della frase
 required-field = Compilare questo campo.
+# REVIEW PAGE
+sc-review-instruction-first-part = Verifica
 sc-review-instruction-second-part = è una frase linguisticamente corretta?
 sc-review-rules-title = La frase rispetta le linee guida?
 sc-review-empty-state = Al momento non ci sono frasi da convalidare in questa lingua.
