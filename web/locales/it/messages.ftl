@@ -857,6 +857,7 @@ action-click = Fai clic su
 action-tap = Tocca
 contribute = Contribuisci
 listen = Ascolta
+review = Convalida
 skip = Salta
 shortcuts = Scorciatoie
 clips-with-count-pluralized =
@@ -920,6 +921,7 @@ target-segment-learn-more = Scopri di più
 ## Contribution Nav Items
 
 contribute-voice-collection-nav-header = Raccolta di voci
+contribute-sentence-collection-nav-header = Raccolta di frasi
 
 ## Reporting
 
@@ -1653,8 +1655,22 @@ reviewing-sentences-explanation-1 = Se la frase soddisfa tutti i criteri descrit
 reviewing-sentences-explanation-2 = Se la frase non soddisfa tutti i criteri descritti sopra, fai clic sul pulsante “No“.
 reviewing-sentences-explanation-3 = Se non sei sicuro, puoi anche saltare la frase e passare a quella successiva.
 reviewing-sentences-explanation-4 = Se non ci sono più frasi da convalidare, aiutaci a raccoglierne altre!
-community-announcement-header = Annuncio per la community
-community-announcement-explanation = Le linee guida riportate di seguito riguardano le nuove funzioni di raccolta delle frasi, che saranno integrate nella piattaforma principale di Common Voice a marzo e aprile 2023. Nel frattempo è possibile utilizzare lo strumento precedente, <scLink>https://commonvoice.mozilla.org/sentence-collector/</scLink>.
+# WRITE PAGE
+write-instruction-second-part = una frase di pubblico dominio
+sentence =
+    .label = Frase
+sentence-input-value = Inserisci qui la frase di pubblico dominio
+citation-input-value = Fonte della frase
+citation =
+    .label = Citazione
+what-can-i-add = Che tipo di frasi posso aggiungere?
+new-sentence-rule-1 = <noCopyright>Nessuna restrizione di copyright</noCopyright> (<cc0>cc-0</cc0>)
+new-sentence-rule-2 = Meno di 15 parole
+new-sentence-rule-3 = Utilizza una grammatica corretta
+new-sentence-rule-4 = Utilizza ortografia e punteggiatura corrette
+new-sentence-rule-5 = Niente numeri e caratteri speciali
+new-sentence-rule-6 = Niente lettere straniere
+new-sentence-rule-8 = Preferibilmente naturale e discorsiva (la frase dev’essere facile da leggere)
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = Stiamo apportando alcuni cambiamenti significativi
 sc-redirect-page-subtitle-1 = Il Sentence Collector si sta spostando sulla piattaforma principale di Common Voice. Ora puoi <writeURL>scrivere</writeURL> una frase o <reviewURL>esaminare</reviewURL> gli invii di frasi singole su Common Voice.
