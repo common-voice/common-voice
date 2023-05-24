@@ -1671,6 +1671,7 @@ new-sentence-rule-3 = Utilizza una grammatica corretta
 new-sentence-rule-4 = Utilizza ortografia e punteggiatura corrette
 new-sentence-rule-5 = Niente numeri e caratteri speciali
 new-sentence-rule-6 = Niente lettere straniere
+new-sentence-rule-7 = Includi la citazione opportuna
 new-sentence-rule-8 = Preferibilmente naturale e discorsiva (la frase dev’essere facile da leggere)
 how-to-cite = Come posso fare una citazione?
 how-to-cite-explanation = Se sono parole tue, scrivi semplicemente <italicizedText>“Autocitazione”</italicizedText>. Abbiamo bisogno di sapere dove hai trovato questo contenuto in modo da poter verificare che sia di pubblico dominio e che non vi siano restrizioni di copyright. Per ulteriori informazioni sulle citazioni, consulta le nostre <guidelinesLink>Linee guida</guidelinesLink>.
