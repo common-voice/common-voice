@@ -1678,6 +1678,7 @@ how-to-cite = Come posso fare una citazione?
 how-to-cite-explanation-bold = Cita fornendo un link o il nome completo dell’opera.
 how-to-cite-explanation = Se sono parole tue, scrivi semplicemente <italicizedText>“Autocitazione”</italicizedText>. Abbiamo bisogno di sapere dove hai trovato questo contenuto in modo da poter verificare che sia di pubblico dominio e che non vi siano restrizioni di copyright. Per ulteriori informazioni sulle citazioni, consulta le nostre <guidelinesLink>Linee guida</guidelinesLink>.
 guidelines = Linee guida
+contact-us = Contattaci
 add-sentence-success = 1 frase raccolta
 add-sentence-error = Errore durante il caricamento della frase
 required-field = Compilare questo campo.
