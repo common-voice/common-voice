@@ -23,8 +23,12 @@ export const upload =
         const file = storage.bucket(bucket).file(path)
         await file.save(data)
         await file.makePublic()
+        console.log(`Successfully uploaded ${path}`)
       },
-      (err: Error) => err
+      (err: Error) => {
+        console.log(err)
+        return err
+      }
     )
   }
 
@@ -43,7 +47,10 @@ export const fileExists =
         const [exists] = await storage.bucket(bucket).file(path).exists()
         return exists
       },
-      (err: Error) => err
+      (err: Error) => {
+        console.log(err)
+        return err
+      }
     )
   }
 
