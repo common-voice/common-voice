@@ -38,6 +38,7 @@ export const addBulkSubmissionUploadJob = (
 ): T.Task<boolean> => {
   return async () => {
     await bulkSubmissionUploadQueue.add(job)
+    console.log(`Bulk submission job ${job.filename} added to queue`)
     return true
   }
 }
@@ -50,14 +51,20 @@ export const BulkSubmissionUploadJobQueue: JobQueue<BulkSubmissionUploadJob> = {
   addJob: addBulkSubmissionUploadJob,
 }
 
-bulkSubmissionUploadQueue.on('completed', (job: Job<BulkSubmissionUploadJob>, result: BulkSubmissionJobResult) => {
-  switch (result.kind) {
-    case 'success':
-      console.log(`Bulk submission uploaded successfully as ${job.data.filepath}`)
-      break;
-    case 'failure':
-      console.log(`Bulk submission upload for ${job.data.filename} failed: ${result.reason}`)
-      break;
+bulkSubmissionUploadQueue.on(
+  'completed',
+  (job: Job<BulkSubmissionUploadJob>, result: BulkSubmissionJobResult) => {
+    switch (result.kind) {
+      case 'success':
+        console.log(
+          `Bulk submission uploaded successfully as ${job.data.filepath}`
+        )
+        break
+      case 'failure':
+        console.log(
+          `Bulk submission upload for ${job.data.filename} failed: ${result.reason}`
+        )
+        break
+    }
   }
-})
-
+)

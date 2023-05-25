@@ -15,9 +15,13 @@ export const addBulkSubmissionHandler = async (req: Request, res: Response) => {
   } = req
   const size = Number(headers['content-length'])
 
-  if (!client_id) return res.sendStatus(StatusCodes.BAD_REQUEST)
+  if (!client_id)
+    return res.status(StatusCodes.BAD_REQUEST).json({ message: 'no client id' })
 
-  if (size >= 1024 * 8) return res.sendStatus(StatusCodes.BAD_REQUEST)
+  if (size >= 1024 * 8)
+    return res
+      .status(StatusCodes.BAD_REQUEST)
+      .json({ message: 'file is larger than 8MB' })
 
   const fileStream = Readable.from(req)
   const data = []
