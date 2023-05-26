@@ -504,6 +504,7 @@ faq-why-my-lang-a =
     ⵉⴳⴰ ⴽⴰⵎⵏⴼⵓⵢⵙ ⵢⴰⵜ ⵜⵙⵉⵍⴰ ⵏ ⵜⵡⵉⵣⴰ ⵏ ⵓⴳⴷⵓⴷ, ⴷ ⵜⵜⵓⵔⵏⴰⵏⵜ ⵜⵓⵜⵍⴰⵢⵉⵏ ⴰⴽⴽⵯ ⵙⴳ ⵖⵓⵔ ⵉⵎⵅⴰⵙⵏ.
     ⵔⴰⴷ ⴰⵖ ⵉⵙⵙⵓⵙⵎ ⵓⵔⵏⵏⵓ ⵏ ⵜⵓⵜⵍⴰⵢⵜ ⵏⵏⵓⵏ! <languageRequestLink>ⵜⵜⵔⴰⵜ ⴰⵔⵏⵏⵓ ⵏ ⵜⵓⵜⵍⴰⵢⵜ ⵏⵏⵓⵏ.</languageRequestLink>
 faq-what-quality-q = ⵎⴰⵏ ⴰⵙⵡⵉⵔ ⵏ ⵓⵖⵓⴷⵓ ⵏ ⵉⵎⵙⵍⵉ ⴰⴷ ⴷ ⵉⵇⵇⴰⵏⵏ ⵉ ⵓⵙⵙⵎⵔⵙ ⵏ ⵜⵓⵙⵙⵉⴼⵜ ⵜⴰⴳⵕⴹⴰⵏⵜ ⴳ ⵜⴳⵔⵓⵎⵎⴰ ⵏ ⵉⵙⴼⴽⴰ?
+faq-what-quality-a = ⵏⵅⵙ ⵜⴰⴳⵔⵓⵎⵎⴰ ⵏ ⵉⵙⴼⴽⴰ ⵏ ⴽⴰⵎⵏⴼⵓⵢⵙ ⴰⴷ ⴷ ⵜⵙⵙⴰⴹⵓ ⴰⵖⵓⴷⵓ ⵏ ⵉⵎⵙⵍⵉ ⵏⵏⴰ ⵎⵉ ⵔⴰⴷ ⵉⵙⵍⵍⴰ ⵓⵏⵙⵎⴰⵙⵙⵓ ⵏ ⵡⴰⵡⴰⵍ-ⵖⵔ-ⵓⴹⵕⵉⵚ ⴳ ⵓⴳⴰⵎⴰ, ⵉⵡⴰ ⴰⵢⴰ ⴰ ⵅⴼ ⵏⵙⵉⴳⴳⵉⵍ ⴰⵎⵢⴰⵏⴰⵡ. ⵓⴳⴳⴰⵔ ⵏ ⵢⴰⵜ ⵜⴳⵔⴰⵡⵜ ⵉⵎⵢⴰⵏⴰⵡⵏ ⵏ ⵉⵎⵙⵙⵉⵡⵍⵏ, ⵔⴰⴷ ⵜⵙⵙⵍⵎⴷ ⵢⴰⵜ ⵜⴳⵔⵓⵎⵎⴰ ⵏ ⵉⵙⴼⴽⴰ ⵙ ⵓⵖⵓⴷⵓ ⵏ ⵉⵎⵙⵍⵉ ⵉⵎⵢⴰⵏⴰⵡⵏ, ⵉ ⵓⵏⵙⵎⴰⵙⵙⵓ ⵏ ⵡⴰⵡⴰⵍ-ⵖⵔ-ⵓⴹⵕⵉⵚ ⴰⴷ ⵉⵙⵡⵓⴷⴷⵓ ⵉⵙⵓⵔⴰⵙ ⵎⵢⴰⵏⴰⵡⵏⵉⵏ ⵏ ⵓⵎⴰⴹⴰⵍ ⵏ ⵜⵉⴷⵜ, ⵙⴳ ⵓⵙⵉⵡⵍ ⵏ ⵜⵖⵔⴷⵉⵏ ⴰⵔ ⴰⴷⵉⴷⴰ ⵏ ⵜⵀⵉⵔⵉⵜ. ⴽⵔⴰ ⵙ ⵜⴻⵜⵜⵓⵔⵎⵙ ⵜⵓⵙⵙⵉⴼⵜ ⵜⴰⴳⵕⴹⴰⵏⵜ ⵏⵏⵓⵏ, ⴰ ⵙ ⵔⴰⴷ ⵓⴽⴰⵏ ⵜⴼⴰⵍⴽⵉ ⵉ ⵜⴳⵔⵓⵎⵎⴰ ⵏ ⵉⵙⴼⴽⴰ.
 faq-why-10k-hours-q = ⵎⴰⵅⴼ ⴳⴰⵏⵜ 10.000 ⵏ ⵜⵙⵔⴰⴳⵉⵏ ⵣⵔⵢⵏⵉⵏ ⴰⵡⵜⵜⴰⵙ ⵉ ⴽⵓ ⵜⵓⵜⵍⴰⵢⵜ ⵉ ⵢⵉⵎⵥ ⵏ ⵢⵉⵎⵙⵍⵉ?
 faq-why-10k-hours-a = ⵡⴰ ⴰⴷ ⵉⴳⴰⵏ ⵙ ⵡⴰⵜⵜⴰⵢⵏ ⵓⵟⵟⵓⵏ ⵏ ⵜⵙⵔⴰⴳⵉⵏ ⴷ ⵉⵇⵇⴰⵏⵏ ⵉ ⵓⵙⴰⵏⵓⵏ ⵏ ⵢⴰⵏ  ⵓⵏⴳⵔⴰⵡ ⵏ ⵓⴼⴰⵔⵙ ⵏ ⵡⴰⵡⴰⵍ-ⵖⵔ-ⵓⴹⵕⵉⵚ.
 faq-how-calc-hours-q = ⵎⴰⵏⵎⴽ ⵙ ⵉⵙⵙⵓⴹⵓⵏ ⴽⴰⵎⵏⴼⵓⵢⵙ ⵜⵉⵙⵔⴰⴳⵉⵏ?
@@ -514,6 +515,7 @@ faq-where-src-from-2-a =
     
     ⵜⵣⵎⵔⴷ ⴰⴷ ⵜⵙⴽⵏⴷ ⵜⵉⵡⵉⵏⴰⵙ ⵜⵉⵙⵓⴳⴰⵎ ⵏⵏⵖ ⴳ <githubLink>ⵓⵙⴷⴰⵡ ⴰⴷ ⵏ ⴳⵉⵜⵀⴰⴱ</githubLink>.
 faq-why-not-ask-read-q = ⵎⴰⵅ ⴰⴷ ⵓⵔ ⵜⴻⵜⵜⵔⵎ ⵉ ⵎⴷⴷⵏ ⴰⴷ ⵖⵔⵏ ⵙⴳ ⵉⴷⵍⵉⵙⵏ ⵏⵉⵖ ⵉⵎⴰⴳⵔⴰⴷⵏ ⵏ ⵡⵉⴽⵉⴱⵉⴷⵢⴰ ⵙ ⵜⵓⵜⵍⴰⵢⵉⵏ ⵎⵣⴰⵔⴰⵢⵏⵉⵏ?
+faq-why-not-ask-read-a = ⵃⵎⴰ ⴰⴷ ⵜⴳ ⵜⴳⵔⵓⵎⵎⴰ ⵏ ⵉⵙⴼⴽⴰ ⵏ ⴽⴰⵎⵏⴼⵓⵢⵙ ⵜⵓⵏⴼⵓⵜⵜ ⴰⵏⵛⵜ ⵏⵏⴰ ⵎⵉ ⵜⵓⴼⵉⴷ, ⵏⵖⵜⵙ ⴰⴷ ⵏⵙⵙⵓⵔⴳ ⵖⴰⵙ have decided to only allow source text that is available under a Creative Commons (CC0) license. Using the CC0 standard means its more difficult to find and collect source text, but allows anyone to use the resulting voice data without usage restrictions or authorization from Mozilla. Ultimately, we want to make the multi-language dataset as useful as possible to everyone, including researchers, universities, startups, governments, social purpose organizations, and hobbyists.
 faq-why-account-q = ⵎⴰⵅⴼ ⵉ ⴷ ⵉⵇⵇⴰⵏ ⴰⴷ ⵣⵎⵎⴻⵎⵖ ⴰⵎⵉⴹⴰⵏ?
 faq-is-account-public-q = ⵉⵙ ⴳⴰⵏ ⵉⵏⵖⵎⵉⵙⵏ ⵏ ⵓⵎⵉⴹⴰⵏ ⵉⵏⵓ ⵉⴳⴷⵓⴷⴰⵏⵏ?
 faq-how-privacy-q = ⵎⴰⵏⵎⴽ ⵙ ⵜⴻⵜⵜⴹⴽⴰⵍⵎ ⵜⴰⵔⵉⵙⵎⵜ ⴷ ⵜⵉⵏⵏⵓⵜⵍⴰ ⵏ ⵎⴷⴷⵏ ⵏⵏⴰ ⴼⴽⴰⵏⵉⵏ ⵉⴳⵕⴹⴰⵏ ⵏⵏⵙⵏ?
