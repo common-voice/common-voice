@@ -1614,6 +1614,7 @@ citing-sentences-subheader-offline-sources-explanation = Çevrimiçi olarak bulu
 citation =
     .label = Kaynak
 self-citation = Kendine atıf
+self-citation-explanation = İçeriği kendiniz yazdıysanız bu şekilde kaynak gösterebilirsiniz.
 adding-sentences-subheader-length = Uzunluk
 adding-sentences-subheader-length-explanation = Cümle 15 kelimeden kısa olmalıdır.
 adding-sentences-subheader-spelling-punctuation = Yazım ve noktalama
@@ -1633,6 +1634,7 @@ reviewing-sentences-explanation-3 = Cümleden emin değilseniz atlayabilir ve bi
 reviewing-sentences-explanation-4 = İncelenecek cümleler biterse lütfen daha fazla cümle toplamamıza yardım edin!
 # WRITE PAGE
 write-instruction-second-part = kamuya açık bir cümle
+write-page-subtitle = Buradan gönderilen cümleler, halka açık ve cc-0 lisanslı bir veri kümesine eklenecektir.
 sentence =
     .label = Cümle
 sentence-input-value = Kamu malı cümlenizi buraya yazın
@@ -1666,4 +1668,5 @@ sentences-fetch-error = Cümleler getirilirken bir hata oluştu
 review-error = Bu cümle incelenirken bir hata oluştu
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = Bazı büyük değişiklikler yapıyoruz
+sc-redirect-page-subtitle-1 = Cümle Toplayıcı, ana Common Voice platformuna taşınıyor. Artık Common Voice'ta cümle <writeURL>yazabilir</writeURL> veya gönderilen cümleleri <reviewURL>denetleyebilirsiniz</reviewURL>.
 sc-redirect-page-subtitle-2 = Bize <matrixLink>Matrix</matrixLink>, <discourseLink>Discourse</discourseLink> veya <emailLink>e-posta</emailLink> üzerinden soru sorabilirsiniz.
