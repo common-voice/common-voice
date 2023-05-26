@@ -13,6 +13,9 @@ export const addBulkSubmissionHandler = async (req: Request, res: Response) => {
     headers,
     params: { locale },
   } = req
+
+  console.log('Inside bulk submission handler')
+
   const size = Number(headers['content-length'])
 
   if (!client_id)
