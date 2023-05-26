@@ -515,7 +515,7 @@ faq-where-src-from-2-a =
     
     ⵜⵣⵎⵔⴷ ⴰⴷ ⵜⵙⴽⵏⴷ ⵜⵉⵡⵉⵏⴰⵙ ⵜⵉⵙⵓⴳⴰⵎ ⵏⵏⵖ ⴳ <githubLink>ⵓⵙⴷⴰⵡ ⴰⴷ ⵏ ⴳⵉⵜⵀⴰⴱ</githubLink>.
 faq-why-not-ask-read-q = ⵎⴰⵅ ⴰⴷ ⵓⵔ ⵜⴻⵜⵜⵔⵎ ⵉ ⵎⴷⴷⵏ ⴰⴷ ⵖⵔⵏ ⵙⴳ ⵉⴷⵍⵉⵙⵏ ⵏⵉⵖ ⵉⵎⴰⴳⵔⴰⴷⵏ ⵏ ⵡⵉⴽⵉⴱⵉⴷⵢⴰ ⵙ ⵜⵓⵜⵍⴰⵢⵉⵏ ⵎⵣⴰⵔⴰⵢⵏⵉⵏ?
-faq-why-not-ask-read-a = ⵃⵎⴰ ⴰⴷ ⵜⴳ ⵜⴳⵔⵓⵎⵎⴰ ⵏ ⵉⵙⴼⴽⴰ ⵏ ⴽⴰⵎⵏⴼⵓⵢⵙ ⵜⵓⵏⴼⵓⵜⵜ ⴰⵏⵛⵜ ⵏⵏⴰ ⵎⵉ ⵜⵓⴼⵉⴷ, ⵏⵖⵜⵙ ⴰⴷ ⵏⵙⵙⵓⵔⴳ ⵖⴰⵙ have decided to only allow source text that is available under a Creative Commons (CC0) license. Using the CC0 standard means its more difficult to find and collect source text, but allows anyone to use the resulting voice data without usage restrictions or authorization from Mozilla. Ultimately, we want to make the multi-language dataset as useful as possible to everyone, including researchers, universities, startups, governments, social purpose organizations, and hobbyists.
+faq-why-not-ask-read-a = ⵃⵎⴰ ⴰⴷ ⵜⴳ ⵜⴳⵔⵓⵎⵎⴰ ⵏ ⵉⵙⴼⴽⴰ ⵏ ⴽⴰⵎⵏⴼⵓⵢⵙ ⵜⵓⵏⴼⵓⵜⵜ ⴰⵏⵛⵜ ⵏⵏⴰ ⵎⵉ ⵏⵓⴼⴰ, ⵏⵖⵜⵙ ⴰⴷ ⵏⵙⵙⵓⵔⴳ ⵖⴰⵙ ⴰⴹⵕⵉⵚ ⴰⵙⴰⴳⵎ ⵏⵏⴰ ⵉⵙⴰⴳⴰⵏ ⴷⴷⴰⵡ ⵜⵓⵔⴰⴳⵜ ⵏ ⴽⵔⵉⵢⴰⵜⵉⴼ ⴽⴰⵎⵏⵣ (CC0). ⵉⵏⴰⵎⴽ ⵓⵙⵙⵎⵔⵙ ⵏ ⵓⵏⴰⵡⴰⵢ CC0 ⵎⴰⵙ ⵔⴰⴷ ⵉⵎⵎⴰⵔ ⵓⴳⴳⴰⵔ ⴰⴷ ⵜⴰⴼⴷ, ⵜⴳⵔⵓⴷ ⴰⴹⵕⵉⵚ ⴰⵙⴰⴳⵎ, ⵎⴰⵛⴰ ⵍⴰ ⵉⵙⵙⵓⵔⵓⴳ ⵉ ⴽⵓⵢⴰⵏ ⴰⴷ ⵉⵙⵙⵎⵔⵙ ⵜⴰⵢⴰⴼⵓⵜ ⵏ ⵉⵙⴼⴽⴰ ⵉⴳⵕⴹⴰⵏⵏ ⵎⵉⵏ ⴰⵙⵙⵎⵔⵙ ⵏ ⵉⵙⴽⵔⴰⴼ ⵏⵉⵖ ⵜⵓⵔⴰⴳⵜ ⵙⴳ ⵖⵓⵔ ⵎⵓⵣⵉⵍⴰ. ⴳ ⵓⵎⴳⴳⴰⵔⵓ, ⵏⵅⵙ ⴰⴷ ⵜⴳ ⵜⴳⵔⵓⵎⵎⴰ ⵏ ⵉⵙⴼⴽⴰ ⵏ ⵜⴰⴳⵜⵓⵜⵍⴰⵢⵜ ⵜⵓⵏⴼⵓⵜⵜ ⴰⵏⵛⵜ ⵏⵏⴰ ⵎⵉ ⵏⵓⴼⴰ ⵉ ⴽⵓⵢⴰⵏ, ⴳⵉⵙ ⵉⵎⵔⵣⴰ, ⵜⵉⵙⴷⴰⵡⵉⵢⵉⵏ, ⵜⵉⵎⵙⵙⵏⵜⴰⵢ ⵜⵉⵏⵓⴱⴰ, ⵜⵉⵏⴱⴰⴹⵉⵏ, ⵜⵉⵎⴰⴷⴷⴰⵙⵉⵏ ⵏ ⵉⵡⵜⵜⴰⵙⵏ ⵉⵏⴰⵎⵓⵏⵏ, ⴷ ⵉⵎⵖⵣⴰⵍⵏ.
 faq-why-account-q = ⵎⴰⵅⴼ ⵉ ⴷ ⵉⵇⵇⴰⵏ ⴰⴷ ⵣⵎⵎⴻⵎⵖ ⴰⵎⵉⴹⴰⵏ?
 faq-is-account-public-q = ⵉⵙ ⴳⴰⵏ ⵉⵏⵖⵎⵉⵙⵏ ⵏ ⵓⵎⵉⴹⴰⵏ ⵉⵏⵓ ⵉⴳⴷⵓⴷⴰⵏⵏ?
 faq-how-privacy-q = ⵎⴰⵏⵎⴽ ⵙ ⵜⴻⵜⵜⴹⴽⴰⵍⵎ ⵜⴰⵔⵉⵙⵎⵜ ⴷ ⵜⵉⵏⵏⵓⵜⵍⴰ ⵏ ⵎⴷⴷⵏ ⵏⵏⴰ ⴼⴽⴰⵏⵉⵏ ⵉⴳⵕⴹⴰⵏ ⵏⵏⵙⵏ?
