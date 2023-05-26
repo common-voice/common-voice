@@ -68,3 +68,6 @@ bulkSubmissionUploadQueue.on(
     }
   }
 )
+
+bulkSubmissionUploadQueue.on('error', console.error)
+bulkSubmissionUploadQueue.on('failed', console.error)
