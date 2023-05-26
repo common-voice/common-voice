@@ -798,6 +798,8 @@ language-search-input =
 language-speakers = ବକ୍ତାଗଣ
 localized = ସ୍ଥାନୀୟକରଣ ହୋଇଛି
 sentences = ବାକ୍ୟଗୁଡ଼ିକ
+language-validation-hours = ଘଣ୍ଟାଗୁଡ଼ିକ
+language-validation-progress = ପରଖ ପ୍ରଗତି
 
 ## Contribution
 
@@ -805,6 +807,8 @@ action-click = କ୍ଲିକ
 action-tap = ଟ୍ୟାପ
 contribute = ଯୋଗଦିଅନ୍ତୁ
 listen = ଶୁଣନ୍ତୁ
+write = ଲେଖନ୍ତୁ
+review = ସମୀକ୍ଷଣ
 skip = ଛାଡ଼ନ୍ତୁ
 shortcuts = ସର୍ଟକଟ
 clips-with-count-pluralized =
@@ -1010,6 +1014,7 @@ download-requests-info = ଯେତେବେଳେ ଆପଣ ଆପଣଙ୍କ �
 download-request-button = ଡାଉନଲୋଡ଼
 download-request-title = { $created }
 download-request-refresh-button = ସତେଜ କରନ୍ତୁ
+download-request-metadata-link = ବାକ୍ୟ ଲେଖା
 
 ## Landing
 
@@ -1022,9 +1027,12 @@ read-more-about = ଆମ ସମ୍ପର୍କିତ ପୃଷ୍ଠାରେ �
 ## DemoLayout
 
 demo-get-started = ଚାଲନ୍ତୁ ଆରମ୍ଭ କରିବା
+demo-welcome = Common Voice କୁ ସ୍ୱାଗତ
 
 ## Demo Datasets
 
+card-button-next = ପର
+card-button-back = ପୂର୍ବ
 demo-account = ଆକାଉଣ୍ଟ୍
 
 ## Demo Account
@@ -1055,10 +1063,14 @@ see-less = <chevron></chevron>କମ୍ ଦେଖନ୍ତୁ
 
 sc-header-home = ମୂଳ ସ୍ଥାନ
 sc-header-add = ଯୋଡ଼ନ୍ତୁ
+sc-header-my = ମୋ ବାକ୍ୟଗୁଡ଼ିକ
 sc-header-statistics = ପରିସଂଖ୍ୟାନ
 sc-header-profile = ପ୍ରୋଫାଇଲ୍
 sc-footer-privacy = ଗୋପନୀୟତା
 sc-footer-terms = ସର୍ତ୍ତାବଳୀ
+sc-footer-cookies = କୁକିଗୁଡ଼ିକ
+sc-login-signup-button = ଲଗ ଇନ / ସାଇନ ଅପ
+sc-logout-button = ଲଗ ଆଉଟ
 
 ## HOME
 
@@ -1072,6 +1084,7 @@ sc-howto-addsen-title = ନୂଆ ବାକ୍ୟଗୁଡ଼ିକ ଯୋଡ଼ନ୍
 
 ## MY SENTENCES
 
+sc-my-title = ମୋ ବାକ୍ୟଗୁଡ଼ିକ
 
 ## REJECTED
 
@@ -1120,3 +1133,6 @@ sc-settings-title = ସେଟିଂସ୍
 # [/SentenceCollector]
 
 sentence-collection = ବାକ୍ୟ ସଂଗ୍ରହ
+adding-sentences-subheader-punctuation = ବିରାମ ଚିହ୍ନ
+sentence =
+    .label = ବାକ୍ୟ
