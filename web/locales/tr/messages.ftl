@@ -865,6 +865,7 @@ action-tap = dokunun
 contribute = Katkıda bulun
 listen = Dinle
 write = Yaz
+review = İncele
 skip = Atla
 shortcuts = Kısayollar
 clips-with-count-pluralized =
