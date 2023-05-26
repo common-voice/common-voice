@@ -7,6 +7,21 @@ import { pipe } from 'fp-ts/lib/function'
 import { task as T, taskEither as TE } from 'fp-ts'
 import { createPresentableError } from '../../../application/helper/error-helper'
 
+const readBodyFromRequest = (req: Request): Promise<Buffer> => {
+  return new Promise(res => {
+    const fileStream = Readable.from(req)
+    const data: Buffer[] = []
+
+    fileStream
+      .on('data', (chunk: Buffer) => {
+        data.push(chunk)
+      })
+      .on('end', () => {
+        res(Buffer.concat(data))
+      })
+  })
+}
+
 export const addBulkSubmissionHandler = async (req: Request, res: Response) => {
   const {
     client_id,
@@ -26,12 +41,7 @@ export const addBulkSubmissionHandler = async (req: Request, res: Response) => {
       .status(StatusCodes.BAD_REQUEST)
       .json({ message: 'file is larger than 8MB' })
 
-  const fileStream = Readable.from(req)
-  const data = []
-  for await (const chunk of fileStream) {
-    data.push(chunk)
-  }
-  const file = Buffer.concat(data)
+  const file = await readBodyFromRequest(req)
 
   const cmd: AddBulkSubmissionCommand = {
     filename: String(headers.filename),
