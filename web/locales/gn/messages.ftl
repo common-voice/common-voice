@@ -1643,5 +1643,10 @@ adding-sentences-subheader-abbreviations = Mombyky ha Acrónimo
 adding-sentences-subheader-punctuation = Mbopapapy
 adding-sentences-subheader-special-characters = Jehairã Jeporavokuaa ha Tai Pytaguáva
 adding-sentences-subheader-offensive-content = Ñe’ẽreity Ivaíva
+# WRITE PAGE
+write-instruction-second-part = ñe’ẽjoaju opavave oipurukuaáva
+sentence =
+    .label = Ñe’ẽjoaju
 citation =
     .label = Jehechauka
+new-sentence-rule-2 = Sa’ieteve 15 ñe’ẽgui
