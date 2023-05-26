@@ -1656,3 +1656,9 @@ new-sentence-rule-5 = Papapy ha tai’aty ojepuru’iveva’ỹre
 new-sentence-rule-6 = Tai pytagua’ỹre
 how-to-cite = Mba’éichapa ahechaukáta
 guidelines = Tekoguatarã
+contact-us = Eñe’ẽ orendive
+add-sentence-success = 1 ñe’ẽjuaju mbyatypyre
+add-sentence-error = Ojavy ehupívo ñe’ẽjuaju
+required-field = Emyanyhẽmína ko tenda.
+# REVIEW PAGE
+sc-review-instruction-first-part = Hechajey
