@@ -1137,6 +1137,7 @@ download-request-modal-title = ⵉⵙⵖⵡⴰⵏ ⵏ ⵡⴰⴳⴰⵎ
 download-request-modal-description = ⵀⴰ ⴷ ⵉⵙⵖⵡⴰⵏ ⵎⴰ ⵙ ⵜⴻⵜⵜⴰⴳⵎⵎ ⵉⴼⵓⵢⵍⴰ ZIP ⵏⵏⵓⵏ.
 download-request-link-text = Zip #{ $offset } ⵙⴳ { $total }
 download-request-metadata-link = ⴰⴹⵕⵉⵚ ⵏ ⵜⵡⵉⵏⵙⵜ
+download-request-link-single = ⵜⵣⵎⵔⵎ ⴰⴷ ⵜⵙⵙⵏⵖⵍⵎ ⵜⵙⵍⵖⵎ ⴰⵡⴷ ⴰⵏⵙⴰⵜⵏ ⵏ ⵓⵡⵉⴱ ⵓⵙⵔⵉⴷⵏ ⵖⵔ ⵓⵎⵙⵡⵓⴷⴷⵓ ⵏ ⵡⴰⴳⴰⵎⵏ ⴰⵎⵓⴼⴰⵢ ⵏⵏⵓⵏ. ⵔⴰⴷ ⵎⵎⵜⵏ ⴳ 12 ⵏ ⵜⵙⵔⴰⴳⵉⵏ, ⵎⴰⵛⴰ ⵜⵣⵎⵔⵎ ⴰⴷ ⴷ ⵜⵓⵔⵔⵉⵎ ⵖⵔ ⵜⴰⵙⵏⴰ ⴰ ⵃⵎⴰ ⴰⴷ ⵜⴰⵔⵡⵎ ⴰⵏⵙⴰⵜⵏ ⵉⵎⴰⵢⵏⵓⵜⵏ ⵜⵉⵣⵉ ⵏⵏⴰ ⴽⴰ.
 
 ## Landing
 
