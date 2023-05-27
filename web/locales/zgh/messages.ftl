@@ -727,6 +727,7 @@ dataset-date = ⴰⵙⴰⴽⵓⴷ
 license = ⵜⵓⵔⴰⴳⵜ: <licenseLink>{ $license }</licenseLink>
 license-mixed = ⵜⵓⵎⵙⵉⵜ
 data-download-singleword-title = ⴰⴳⵎ ⵜⵓⵟⵟⵓⵜ ⵉⵜⵜⵡⴰⵜⵜⵙⵏ ⵏ ⵜⴳⵓⵔⵉ ⵜⴰⵎⵢⴰⵏⵜ
+data-download-singleword-callout-v2 = ⵉⴳⴰ ⵓⵢⴰ ⵢⴰⵜ ⵜⵓⵟⵟⵓⵜ ⴷ ⵉⴽⴽⴰⵏ ⵉⵎⴷⵢⴰⵜⵏ ⵏ ⵓⵙⵙⵎⵔⵙ ⵢⵓⵎⵉⵏ ⵉⵙⴼⴽⴰ ⵉ ⵓⵣⵣⵎⵔ ⵏ ⵜⵓⴽⵣⴰ ⵏ ⵡⵓⵟⵟⵓⵏⵏ ⵉⵜⵜⵓⵏⵏⴰⵏ ⴷ ⵜⵡⴰⴼⵉⵜ ⵏ ⵢⴰⵀ/ⵓⵀⵓ.
 review-terms = ⵙ ⵓⵙⵙⵎⵔⵙ ⵏ ⴽⴰⵎⵏⴼⵓⵢⵙ, ⵍⴰ ⴷ ⵜⴻⵜⵜⵎⵙⴰⵙⴰⴷ ⴰⴽⴷ <termsLink>ⵜⴼⴰⴷⵉⵡⵉⵏ</termsLink> ⴷ <privacyLink>ⵜⵎⵏⵏⵉⵜ ⵏ ⵜⵉⵏⵏⵓⵜⵍⴰ</privacyLink> ⵏⵏⵖ
 terms-agree = ⵎⵙⴰⵙⴰⵖ ⴷ
 terms-disagree = ⵓⵔ ⴷ ⵎⵙⴰⵙⴰⵖ
