@@ -364,8 +364,14 @@ profile-form-additional-language =
     .label = 追加言語
 profile-form-language =
     .label = 言語
+profile-form-variant =
+    .label = あなたは { $language } のどの方言を話しますか？
+profile-form-variant-default-value = 方言が選択されていません
 profile-form-accent =
     .label = 方言
+profile-form-custom-accent-help-text =
+    .label = 自分のアクセントをどのように説明しますか?
+profile-form-custom-accent-placeholder-2 = アクセントの説明の入力を開始します
 profile-form-age =
     .label = 年齢
 profile-form-gender-2 =
@@ -376,6 +382,7 @@ hidden = 非公開
 visible = 公開
 native-language =
     .label = 母国語
+profile-form-add-accent = 新しいカスタムアクセント "{ $inputValue }" を追加
 profile-form-submit-save = 保存
 profile-form-submit-saved = 保存済み
 male = 男性
@@ -398,7 +405,9 @@ why-demographic = どうしてこれが問題なのですか？
 why-demographic-explanation-2 = 年齢や性別、アクセントといった音声に関わるより詳細なユーザーデータは、匿名化した上で音声認識エンジンの精度向上に利用されます。あなたのユーザー名およびメールアドレスが送信したデータと関連付けられることは決してありません。また、ユーザー名を公開するか匿名にしておくかも選択できます。
 accept-privacy = Mozillaの<privacyLink>プライバシーポリシー</privacyLink>の下でこの情報が用いられることに同意します。
 accept-privacy-title = プライバシーポリシー
+accept-privacy-and-terms = Common Voice の <termsLink>利用規約</termsLink> および <privacyLink>プライバシー通知</privacyLink> に同意します。
 login-identity = ログイン用アカウント
+login = ログイン
 login-signup = ログイン / アカウント登録
 edit = 編集
 email-subscriptions = メールニュースの購読を変更
@@ -409,6 +418,10 @@ skip-submission-description = 投稿中は、[送信] をクリックした後�
 skip-submission-note = 注意: 「読み上げ」か「聞き取り」から貢献の種類を選んでください
 off = オフ
 on = オン
+help-accent = アクセントについて助けが必要ですか？
+help-accent-explanation = アクセントは単語の発音の仕方です。それは、あなたが住んでいた場所、他にどの言語を話すか、その他多くの要因によって形作られます。関連すると思われる情報はここで共有できます。
+help-variants = 方言について助けが必要ですか？
+help-variants-explanation = 方言は、言語の特定の形式です。たとえば、ある地域やコミュニティに住んでいる人々によって共有されます。これらは変種と呼ばれることもあります。
 
 ## Profile - Email
 
@@ -419,6 +432,7 @@ gravatar_not_found = あなたのメールアドレスは Gravatar に見つか�
 file_too_large = 選択したファイルのサイズが大きすぎます
 avatar-uploaded = アバターをアップロードしました
 max-file-size = 最大 { $kb } kb
+remove-avatar = アバターを削除
 
 ## Profile - Email
 
@@ -515,6 +529,7 @@ about-clip-graveyard = Clip Graveyard
 about-clip-graveyard-text = Clip Graveyard は、Common Voice データセットに含まれなかった音声クリップで構成されています。データセットと同様に、Clip Graveyard もダウンロードできます。
 about-get-involved = 参加しよう
 about-get-involved-text-2 = Common Voice をさらに改善しませんか？ ご協力いただける方は、メールまたは <discourseLink>Discourse</discourseLink> フォーラムでご連絡ください。サイトの問題は <githubLink>GitHub</githubLink> 経由か、<matrixLink>Matrix</matrixLink> コミュニティのチャットでフィードバックしてください。
+about-stay-in-touch-button = アカウント登録
 about-nav-why-common-voice = なぜ？
 about-nav-how-it-works = どうやって？
 about-nav-partners = パートナー
