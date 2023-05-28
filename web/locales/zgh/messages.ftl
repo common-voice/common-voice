@@ -803,6 +803,7 @@ download = ⴰⴳⵎ
 dataset-version = ⵜⴰⵍⵇⵇⵎⵜ
 sha256-checksum-copied = ⵜⵏⵖⵍ ⵜⵎⵓⵜⵜⵔⵜ ⵏ ⵓⵙⵙⵉⵔⵎ SHA256!
 sha256-checksum-copied-error = ⵏⵙⴼⵓⴳⴳⵔ ⴳ ⵓⵙⵏⵖⵍ ⵏ ⵜⵎⵓⵜⵜⵔⵜ ⵏ ⵓⵙⵙⵉⵔⵎ SHA256
+clipboard-not-supported = ⵓⵔ ⵉⵜⵜⵡⴰⵏⵏⴰⵍ ⵎⴰⴷⴷⵉⴼⵔ
 
 ## Download Modal
 
