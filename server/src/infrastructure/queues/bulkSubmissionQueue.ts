@@ -15,6 +15,9 @@ import { BulkSubmissionJobResult } from './types/BulkSubmissionResult'
 
 const getRedisConfig = (config: CommonVoiceConfig) => {
   const redisUrlParts = config.REDIS_URL?.split('//')
+
+  if (!redisUrlParts) return { redis: config.REDIS_URL }
+
   const redisDomain =
     redisUrlParts.length > 1 ? redisUrlParts[1] : redisUrlParts[0]
 
