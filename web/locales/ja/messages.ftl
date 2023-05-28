@@ -38,10 +38,13 @@ ba = バシキール語
 bas = バサ語
 be = ベラルーシ語
 bg = ブルガリア語
+bm = バンバラ語
 bn = ベンガル語
+bo = チベット語
 br = ブルトン語
 bs = ボスニア語
 bxr = ブリヤート語
+byv = メドゥンバ語
 ca = カタルーニャ語
 cak = カクチケル語
 ckb = 中央クルド語
@@ -51,9 +54,11 @@ cs = チェコ語
 cv = チュヴァシ語
 cy = ウェールズ語
 da = デンマーク語
+dag = ダグバニ語
 de = ドイツ語
 dsb = 低地ソルブ語
 dv = ディベヒ語
+dyu = ディウラ語
 el = ギリシャ語
 en = 英語
 eo = エスペラント
@@ -73,6 +78,7 @@ gom = ゴア・コンカニ語
 ha = ハウサ語
 he = ヘブライ語
 hi = ヒンディー語
+hil = ヒリガイノン語
 hr = クロアチア語
 hsb = 高地ソルブ語
 ht = ハイチ語
@@ -87,6 +93,7 @@ is = アイスランド語
 it = イタリア語
 izh = イングリア語
 ja = 日本語
+jbo = ロジバン
 ka = ジョージア語
 kaa = カラカルパク語
 kab = カビル語
@@ -95,6 +102,7 @@ ki = キクユ語
 kk = カザフ語
 km = クメール語
 kmr = クルマンジークルド語
+kn = カンナダ語
 knn = コンカニ語 （デーヴァナーガリー）
 ko = 韓国語
 kpv = コミ・ジリエーン語
@@ -103,6 +111,8 @@ ky = キルギス語
 lb = ルクセンブルク語
 lg = ガンダ語
 lij = リグリア語
+ln = リンガラ語
+lo = ラオス語
 lt = リトアニア語
 lv = ラトビア語
 mai = マイティリー語
@@ -122,10 +132,13 @@ my = ビルマ語
 myv = エルジャ語
 nan-tw = 台湾閩南語
 nb-NO = ノルウェー語 (ブークモール)
+nd = 北ンデベレ語
 ne-NP = ネパール語
+nhe = ナワトル語 (東ワステカ)
 nia = ニアス語
 nl = オランダ語
 nn-NO = ノルウェー語 (ニーノシュク)
+nr = 南ンデベレ語
 nyn = ニャンコレ語
 oc = オック語
 or = オリヤー語
@@ -308,7 +321,6 @@ shortcut-discard-ongoing-recording-label = 録音中のデータを破棄
 shortcut-submit = Return
 shortcut-submit-label = 録音を提出
 request-language-text = あなたの使っている言語は Common Voice にありますか？
-request-language-text-learn = リクエストする方法をここで学びましょう！
 request-language-button = 言語の追加をリクエスト
 
 ## ProjectStatus
@@ -432,7 +444,6 @@ faq-why-different-speakers-a =
     ほとんどの音声データベースは、特定の人口統計を過剰に表現してトレーニングされているため、<articleLink>男性と中流階級</articleLink>に偏っています。トレーニングデータセットで過小評価される傾向のあるアクセントと方言は、通常、すでに疎外されている人々のグループに関連付けられています。多くの機械も女性の声を理解するのに苦労しています。
     これが、音声データベースに多様性が必要な理由です！
 faq-why-my-lang-q = 私の言語がまだ含まれていないのはなぜですか？
-faq-why-my-lang-new-a = Mozilla は、ある言語を別の言語よりも優先したり選び取ったりしません。Common Voice は純粋にコミュニティ主導のイニシアチブですから、<multilangLink>新しい言語を追加するいくつかの手順</multilangLink>により、音声寄付の収集を開始します。まず、コミュニティメンバーが自分の言語で音声の寄付がアクセスできるように、Common Voice のウェブサイトを翻訳する必要があります。次に、人々が声に出して読むための、著作権フリーの文章の大規模なコレクションが必要です。これらの要件の両方が満たされると、共通の音声で言語が「起動」され、人々が音声を録音し、他の寄付を検証できるようになります。新しい言語の立ち上げを支援したい場合は、<sentenceCollectorLink>センテンスコレクションツール</sentenceCollectorLink>にアクセスして開始してください。
 faq-what-quality-q = 音声クリップをデータセットで使用するには、どの程度の音質が必要ですか？
 faq-what-quality-a = Common Voice データセットに音声認識エンジンで実際に聞こえる音声品質を反映させる必要があるため、私たちは様々な音声を探しています。話者の多様なコミュニティに加えて、様々な音声品質を持つデータセットは、音声認識エンジンに、周囲の会話から車の騒音まで、さまざまな現実の状況を処理するように教えます。あなたの音声クリップが理解できる限り、それはデータセットにとって十分であるべきです。
 faq-why-10k-hours-q = 音声をキャプチャーするために、言語ごとの目標として 1 万時間の検証が必要なのはなぜですか？
@@ -484,12 +495,6 @@ about-dataset-new = Common Voice データセット
 about-dataset-new-text = Common Voice データセットには、開発者が音声認識ツールを構築するのに役立つ数十万の音声サンプルが含まれています。
 about-clip-graveyard = Clip Graveyard
 about-clip-graveyard-text = Clip Graveyard は、Common Voice データセットに含まれなかった音声クリップで構成されています。データセットと同様に、Clip Graveyard もダウンロードできます。
-about-partners = パートナー
-about-become-a-partner = パートナーになる
-about-partnership =
-    Common Voice は共同プロジェクトであり、私たちはこれまでで最大のオープンソースの音声データセットを構築するためにパートナーと貢献者のコミュニティに依存しています。
-    
-    このプロジェクトを手伝ってくれた以下の人々と組織に感謝します:
 about-get-involved = 参加しよう
 about-get-involved-text-2 = Common Voice をさらに改善しませんか？ ご協力いただける方は、メールまたは <discourseLink>Discourse</discourseLink> フォーラムでご連絡ください。サイトの問題は <githubLink>GitHub</githubLink> 経由か、<matrixLink>Matrix</matrixLink> コミュニティのチャットでフィードバックしてください。
 about-nav-why-common-voice = なぜ？
@@ -525,12 +530,6 @@ about-playbook-how-grow-language-content-2 = イベント
 
 ## How are decisions made
 
-mycroft-title = Mycroft Ai
-mycroft-subtitle = 人工知能
-mycroft-description =
-    Mycroft は世界初のオープンソースアシスタントです。
-    Mycroft は、デスクトップコンピュータ上、自動車内、Raspberry Pi 上など、どこでも動作します。
-mycroft-secondary-description = これはオープンソースソフトウェアで、自由にリミックス、拡張、そして改良することができます。 Mycroft は科学プロジェクトから企業のソフトウェアアプリケーションまで何にでも使用できます。
 
 ## Glossary
 
@@ -572,6 +571,8 @@ release-version = バージョン
 dataset-date = 日付
 license = ライセンス：<licenseLink>{ $license }</licenseLink>
 license-mixed = 複合ライセンス
+data-download-singleword-title = 一語対象セグメントのダウンロード
+data-download-singleword-callout-v2 = これは、数字の音声認識と「はい・いいえ」の識別を開発するためのデータを含む、ユースケースに特化したセグメントです。
 review-terms = Common Voice を利用すると、「<termsLink>利用規約</termsLink>」と「<privacyLink>プライバシーについて</privacyLink>」に同意したものとみなします。
 terms-agree = 同意する
 terms-disagree = 同意しない
@@ -684,7 +685,6 @@ language-search-input =
 language-speakers = 話者数
 localized = ローカライズ済み
 sentences = 文章
-total-hours = 合計時間
 
 ## Contribution
 
@@ -746,6 +746,9 @@ target-segment-first-card = あなたは私たちの最初の目標セグメン�
 target-segment-first-banner = { $locale } における Common Voice の最初の目標セグメント作成にご協力ください
 target-segment-add-voice = あなたの声を追加
 target-segment-learn-more = 詳細情報
+
+## Contribution Nav Items
+
 
 ## Reporting
 
@@ -956,3 +959,4 @@ demo-account = アカウント
 
 # [/SentenceCollector]
 
+sentence-collection = 文章コレクション
