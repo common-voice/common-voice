@@ -1,5 +1,5 @@
 import * as Queue from 'bull'
-import { getConfig } from '../../config-helper'
+import { CommonVoiceConfig, getConfig } from '../../config-helper'
 import {
   bulkSubmissionImportProcessor,
   bulkSubmissionUploadProcessor,
@@ -13,14 +13,28 @@ import { task as T } from 'fp-ts'
 import { Job } from 'bull'
 import { BulkSubmissionJobResult } from './types/BulkSubmissionResult'
 
+const getRedisConfig = (config: CommonVoiceConfig) => {
+  const redisUrlParts = config.REDIS_URL?.split('//')
+  const redisDomain =
+    redisUrlParts.length > 1 ? redisUrlParts[1] : redisUrlParts[0]
+
+  let redisOpts: any = { host: redisDomain }
+
+  if (config.REDIS_URL.includes('rediss://')) {
+    redisOpts = { ...redisOpts, tls: redisOpts }
+  }
+
+  return { redis: redisOpts }
+}
+
 const bulkSubmissionImportQueue = new Queue(
   'bulk-submission-import-queue',
-  getConfig().REDIS_URL
+  getRedisConfig(getConfig())
 )
 
 const bulkSubmissionUploadQueue = new Queue(
   'bulk-submission-upload-queue',
-  getConfig().REDIS_URL
+  getRedisConfig(getConfig())
 )
 
 bulkSubmissionImportQueue.process(bulkSubmissionImportProcessor)
