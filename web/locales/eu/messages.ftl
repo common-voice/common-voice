@@ -821,6 +821,7 @@ target-segment-learn-more = Ikasi gehiago
 
 ## Contribution Nav Items
 
+contribute-voice-collection-nav-header = Ahotsak biltzea
 
 ## Reporting
 
@@ -1344,12 +1345,25 @@ thanks-for-voice-toast = Eskerrik asko zure ahots-informazioagatik
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = Eskerrik asko zure ahotsarekin parte hartzeagatik!
 create-profile-button = Sortu profil bat
+voice-collection = Ahotsak biltzea
 sentence-collection = Esaldiak biltzea
+varying-pronunciations = Ahoskera desberdinak
+misreadings = Gaizki irakurriak
+offensive-content = Eduki iraingarria
 background-noise = Atzealdeko zarata
 background-voices = Atzealdeko ahotsak
 volume = Bolumena
+reader-effects = Irakurlearen efektuak
+just-unsure = Oraindik zalantzatan?
+example = Adibidea
+misreadings-example-1 = Eduki mesedez giltza hau.
+misreadings-example-3 = Eduki mesedez giltz hau.
 background-noise-example-1 = Nahi duzuenean etorri etxera.
 background-noise-example-2 = [Doministiku] Nahi duzuenean etorri [eztula] etxera.
 background-noise-example-3 = Nahi duzuenean [eztula] etxera.
 background-voices-example-1 = Pilota partida hastera doa. [beste norbaitek esana]
 volume-explanation = Bolumen aldaketa naturalak egongo dira irakurleen artean. Baztertu grabaketa bakarrik bolumena hain handia bada grabazioa eten egiten dela edo (ohikoagoa dena) hain baxua bada, ezin dela entzun esaten dena testu idatziari erreferentzia egin gabe.
+reader-effects-explanation = Grabazio gehienak beren ahots naturalarekin hitz egiten duten pertsonenak dira. Noizbehinkako ezohiko grabazioa onar dezakezu; oihukatzen, xuxurlatzen edo era ‘dramatizatuan‘ egina. Baztertu grabazio abestuak eta ordenagailuz sortutako ahotsa erabiltzen dutenak.
+just-unsure-explanation = Irizpide hauek betetzen ez dituen zerbaitekin topo egiten baduzu, bozkatu zure sen onaren arabera. Benetan ezin baduzu erabaki, erabili Saltatu botoia eta jarraitu hurrengo grabazioarekin.
+still-have-questions = Oraindik zalantzak dituzu?
+adding-sentences-subheader-offensive-content = Eduki iraingarria
