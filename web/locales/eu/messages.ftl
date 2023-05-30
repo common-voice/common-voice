@@ -193,6 +193,7 @@ speak-now = Hitz egin orain
 datasets = Datu-sortak
 languages = Hizkuntzak
 about = Guri buruz
+partner = Babeslea
 profile = Profila
 help = Laguntza
 contact = Kontaktua
@@ -761,6 +762,7 @@ action-click = Egin klik
 action-tap = Sakatu
 contribute = Lagundu
 listen = Entzun
+write = Idatzi
 skip = Saltatu
 shortcuts = Lasterbideak
 clips-with-count-pluralized =
@@ -822,6 +824,7 @@ target-segment-learn-more = Ikasi gehiago
 ## Contribution Nav Items
 
 contribute-voice-collection-nav-header = Ahotsak biltzea
+contribute-sentence-collection-nav-header = Esaldiak biltzea
 
 ## Reporting
 
@@ -1337,8 +1340,10 @@ localization-select =
     .label = Aukeratu hizkuntza/lokalizazioa
 # PARTNERSHIPS PAGE
 partnerships-header = Lankidetzak
+partnerships-get-in-touch = Harremanetan jarri
 partnerships-foundations-header = Fundazioak
 partnerships-governments-header = Gobernuak
+partnerships-our-partners = Gure babesleak
 add-information-button = Gehitu informazioa
 continue-speaking-button = Ez eskerrik asko, hitz egiten jarraitu
 thanks-for-voice-toast = Eskerrik asko zure ahots-informazioagatik
@@ -1378,4 +1383,8 @@ volume-explanation = Bolumen aldaketa naturalak egongo dira irakurleen artean. B
 reader-effects-explanation = Grabazio gehienak beren ahots naturalarekin hitz egiten duten pertsonenak dira. Noizbehinkako ezohiko grabazioa onar dezakezu; oihukatzen, xuxurlatzen edo era ‘dramatizatuan‘ egina. Baztertu grabazio abestuak eta ordenagailuz sortutako ahotsa erabiltzen dutenak.
 just-unsure-explanation = Irizpide hauek betetzen ez dituen zerbaitekin topo egiten baduzu, bozkatu zure sen onaren arabera. Benetan ezin baduzu erabaki, erabili Saltatu botoia eta jarraitu hurrengo grabazioarekin.
 still-have-questions = Oraindik zalantzak dituzu?
+contact-common-voice = Jarri harremanetan Common Voice taldearekin
 adding-sentences-subheader-offensive-content = Eduki iraingarria
+sentence =
+    .label = Esaldia
+guidelines = Gidalerroak
