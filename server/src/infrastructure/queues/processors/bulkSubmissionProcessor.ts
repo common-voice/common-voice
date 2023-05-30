@@ -6,13 +6,16 @@ import {
 import { task as T, taskEither as TE } from 'fp-ts'
 import { pipe, constVoid } from 'fp-ts/lib/function'
 import {
-  doesBulkSubmissionExist,
-  getBulkSubmissionFileUrl,
-  uploadBulkSubmission,
+  doesFileExistInBucket,
+  getPublicUrlFromBucket,
+  uploadToBucket,
 } from '../../storage/storage'
 import { sendBulkSubmissionNotificationEmail } from '../../email/email'
 import { BulkSubmissionEmailData } from '../../../core/bulk-submissions/types/bulk-submission'
 import { COMMON_VOICE_EMAIL } from 'common'
+import { getConfig } from '../../../config-helper'
+
+const BULK_SUBMISSION_BUCKET = getConfig().BULK_SUBMISSION_BUCKET_NAME
 
 export const bulkSubmissionImportProcessor = async (
   job: Job<BulkSubmissionImportJob>
@@ -49,14 +52,14 @@ export const processBulkSubmissionUpload =
         })
       ),
       TE.fold(
-        err => T.of({ kind: 'failure', reason: err.message }),
-        () => T.of({ kind: 'success' })
+        err => T.of(console.log(err)),
+        () => T.of(constVoid())
       )
     )()
   }
 
-export const bulkSubmissionUploadProcessor = processBulkSubmissionUpload(
-  uploadBulkSubmission
-)(doesBulkSubmissionExist)(getBulkSubmissionFileUrl)(
-  sendBulkSubmissionNotificationEmail
-)
+export const bulkSubmissionUploadProcessor = processBulkSubmissionUpload
+  (uploadToBucket(BULK_SUBMISSION_BUCKET))
+  (doesFileExistInBucket(BULK_SUBMISSION_BUCKET))
+  (getPublicUrlFromBucket(BULK_SUBMISSION_BUCKET))
+  (sendBulkSubmissionNotificationEmail)
