@@ -13,7 +13,7 @@ import { DiscourseIconCode, MailIcon } from '../../ui/icons';
 import VisuallyHidden from '../../visually-hidden/visually-hidden';
 import { DiscourseLink, MatrixLink } from '../../shared/links';
 import { LinkButton } from '../../ui/ui';
-import { COMMON_VOICE_EMAIL } from '../../../constants';
+import { COMMON_VOICE_EMAIL } from 'common'
 
 import './guidelines.css';
 
