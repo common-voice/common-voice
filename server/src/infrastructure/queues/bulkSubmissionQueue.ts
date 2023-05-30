@@ -13,10 +13,10 @@ import { task as T } from 'fp-ts'
 import { Job } from 'bull'
 import { BulkSubmissionJobResult } from './types/BulkSubmissionResult'
 
-const getRedisConfig = (config: CommonVoiceConfig) => {
+const getRedisConfig = (config: CommonVoiceConfig): Queue.QueueOptions => {
   const redisUrlParts = config.REDIS_URL?.split('//')
 
-  if (!redisUrlParts) return { redis: config.REDIS_URL }
+  if (!redisUrlParts) return { redis: { host: config.REDIS_URL } }
 
   const redisDomain =
     redisUrlParts.length > 1 ? redisUrlParts[1] : redisUrlParts[0]
