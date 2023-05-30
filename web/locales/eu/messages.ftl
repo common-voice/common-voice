@@ -819,6 +819,9 @@ target-segment-first-banner = Lagundu esparru zehatzerako lehen { $locale } atal
 target-segment-add-voice = Gehitu zure ahotsa
 target-segment-learn-more = Ikasi gehiago
 
+## Contribution Nav Items
+
+
 ## Reporting
 
 report = Salatu
@@ -1341,3 +1344,12 @@ thanks-for-voice-toast = Eskerrik asko zure ahots-informazioagatik
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = Eskerrik asko zure ahotsarekin parte hartzeagatik!
 create-profile-button = Sortu profil bat
+sentence-collection = Esaldiak biltzea
+background-noise = Atzealdeko zarata
+background-voices = Atzealdeko ahotsak
+volume = Bolumena
+background-noise-example-1 = Nahi duzuenean etorri etxera.
+background-noise-example-2 = [Doministiku] Nahi duzuenean etorri [eztula] etxera.
+background-noise-example-3 = Nahi duzuenean [eztula] etxera.
+background-voices-example-1 = Pilota partida hastera doa. [beste norbaitek esana]
+volume-explanation = Bolumen aldaketa naturalak egongo dira irakurleen artean. Baztertu grabaketa bakarrik bolumena hain handia bada grabazioa eten egiten dela edo (ohikoagoa dena) hain baxua bada, ezin dela entzun esaten dena testu idatziari erreferentzia egin gabe.
