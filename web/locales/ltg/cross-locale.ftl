@@ -12,4 +12,5 @@ get-involved-submit = Īsnēgt
 get-involved-stayintouch = Mes Mozilla taisom kūpīnu bolss tehnologeju jūmā. Mes grybātu saglobuot kontaktus ar jums, lai informātu jius par jaunumim i dabuotu informaceju par tū, kai jius lītojat ite daīmamuos datu kūpys.
 get-involved-privacy-info = Mes sūlejam reikuotīs ar jiusu informaceju uzmaneigi. Skaitit vaira myusu <privacyLink>privatuma politikā</privacyLink>.
 get-involved-success-title = Esit veiksmeigi registriejīs, lai dūtu īguļdejumu { $language } volūdā. Paļdis.
+get-involved-success-text = Mes sasazynuosim ar jums, kod byus daīmama papyldu informaceja.
 get-involved-return-to-languages = Atsagrīzt pi volūdu
