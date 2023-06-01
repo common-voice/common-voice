@@ -39,6 +39,7 @@ request-language-button = Pīpraseit volūdys
 
 ## ProjectStatus
 
+english = Angļu volūda
 
 ## ProfileForm
 
@@ -53,6 +54,19 @@ profile-form-language =
 profile-form-variant =
     .label = Kurā { $language } volūdys paveidā jius runojit?
 profile-form-variant-default-value = Variants nav izavālāts
+profile-form-accent =
+    .label = Akcents
+profile-form-age =
+    .label = Vacums
+profile-form-gender-2 =
+    .label = Dzymums
+profile-form-submit-save = Saglobuot
+profile-form-submit-saved = Saglobuots
+male = Veirīts
+female = Sīvīte
+# Gender
+other = Cyts
+why-profile-title = Deļkuo taiseit profilu?
 
 ## Profile - Email
 
