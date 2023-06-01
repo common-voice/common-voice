@@ -251,6 +251,25 @@ sc-submit-err-add-source = Lyudzu, davīnojit olūtu.
 ## LANGUAGE INFO
 
 sc-lang-info-title-total = Kūpā
+sc-lang-info-add-more = <addLink>Davīnojit teikumus!</addLink>
+# Variables:
+#   $validatedSentences (Number) - Number of sentences which have been approved for this language
+sc-lang-info-validated =
+    { $validatedSentences ->
+        [0] { $validatedSentences } puorbaudeiti teikumi.
+        [zero] { "" }
+        [one] { "" }
+       *[other] { "" }
+    }
+# Variables:
+#   $rejectedSentences (Number) - Number of sentences which have been rejected for this language
+sc-lang-info-rejected =
+    { $rejectedSentences ->
+        [0] { $rejectedSentences } nūraideiti teikumi.
+        [zero] { "" }
+        [one] { "" }
+       *[other] { "" }
+    }
 
 ## LOGIN
 
@@ -259,6 +278,16 @@ sc-login-err-try-again = Lyudzu, raugi vēļreiz.
 
 ## PROFILE
 
+# Variables:
+#   $username (String) - eMail address of the logged in user
+sc-profile-title = Profils: { $username }
+sc-personal-err-lang-not-found = Navarēja nūjimt volūdu: volūda nav atrosta
+sc-personal-err-remove = Navarēja nūjimt volūdu
+sc-personal-your-languages = Jiusu volūdys:
+sc-personal-remove-button = nūjimt
+# Variables:
+#   $sentences (Number) - Number of sentences that were added by the currently logged in user for this language
+sc-personal-added-by-you = Jius dalykot { $sentences }
 
 ## REVIEW CRITERIA
 
