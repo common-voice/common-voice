@@ -10,4 +10,5 @@ get-involved-email =
 get-involved-opt-in = Nui, syutit maņ e-postus. Es grybātu byut informāts par ituos volūdys progresu projektā Common Voice.
 get-involved-submit = Īsnēgt
 get-involved-stayintouch = Mes Mozilla taisom kūpīnu bolss tehnologeju jūmā. Mes grybātu saglobuot kontaktus ar jums, lai informātu jius par jaunumim i dabuotu informaceju par tū, kai jius lītojat ite daīmamuos datu kūpys.
+get-involved-privacy-info = Mes sūlejam reikuotīs ar jiusu informaceju uzmaneigi. Skaitit vaira myusu <privacyLink>privatuma politikā</privacyLink>.
 get-involved-return-to-languages = Atsagrīzt pi volūdu
