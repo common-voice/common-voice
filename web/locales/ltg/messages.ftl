@@ -76,19 +76,28 @@ why-profile-title = Deļkuo taiseit profilu?
 
 ## FAQ
 
+faq-is-account-public-q = Voi muna konta informaceja ir publiski daīmama?
 
 ## ABOUT US
 
 
 ## How does it work section
 
+about-nav-why-common-voice = Deļkuo?
+about-nav-how-it-works = Kai?
+about-nav-partners = Partneri
+about-nav-get-involved = Īsasaisti
+about-nav-how-it-works-2 = Kai dorbojās Common Voice?
+about-nav-playbook = Izzynoj, kai pīsadaleit
 
 ## Community Playbook Content
 ## What is a language
 
+about-playbook-what-is-language = Kas ir volūda Common Voice sistemā?
 
 ## How do I add a language
 
+about-playbook-how-add-language-collecting-sentences-heading = Teikumu apkūpuošona
 
 ## How does localization work
 
@@ -101,6 +110,7 @@ why-profile-title = Deļkuo taiseit profilu?
 
 ## How to grow language
 
+about-playbook-how-grow-language-content-2 = Nūtikšonys
 
 ## How to validate
 
@@ -182,6 +192,7 @@ why-profile-title = Deļkuo taiseit profilu?
 
 ## Validation criteria
 
+contribution-volume-title = Skaļums
 
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
@@ -190,6 +201,21 @@ why-profile-title = Deļkuo taiseit profilu?
 
 ## HEADER/FOOTER
 
+sc-header-home = Suokums
+sc-header-how-to = Padūmi
+sc-header-add = Pīvīnuot
+sc-header-review = Puorbaudit
+sc-header-rejected = Nūraideitī teikumi
+sc-header-my = Muni teikumi
+sc-header-statistics = Statistika
+sc-header-profile = Profils
+sc-footer-discourse = Diskurss
+sc-footer-report-bugs = Ziņuot par klaidom
+sc-footer-translate = Tulkuot itū lopu
+sc-footer-report-copyright = Ziņuot par autortīseibu problemom
+sc-footer-privacy = Privatums
+sc-footer-terms = Lītuošonys nūsacejumi
+sc-footer-cookies = Seikdatnis
 
 ## HOME
 
