@@ -1,6 +1,6 @@
 ## Languages
 
-contribute = Pabaļsteit
+contribute = Dūt īguļdejumu
 get-involved-button = Paleidzēt
 get-involved-title = Dūt īguļdejumu { $lang } volūdā
 get-involved-text = Paļdis par jiusu interesi pīsadaleit { $lang } volūdā. Mes cīši struodojam, lai kotra volūda byutu gotova startam i regulari informejam komandys ar e-posta paleidzeibu. Ka gribit pīsadaleit, lyudzu, nūruodit sovu e-posta adresi zamuok.
