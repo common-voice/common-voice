@@ -35,6 +35,7 @@ today = Šudiņ
 
 ## Speak Shortcuts
 
+request-language-button = Pīpraseit volūdys
 
 ## ProjectStatus
 
