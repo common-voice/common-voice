@@ -234,9 +234,13 @@ sc-footer-cookies = Seikdatnis
 
 ## STATS
 
+sc-stats-title = Statistika
 
 ## ADD
 
+sc-submit-err-select-lang = Lyudzu, izalosit volūdu.
+sc-submit-err-add-sentences = Lyudzu, davīnojit teikumus.
+sc-submit-err-add-source = Lyudzu, davīnojit olūtu.
 
 ## ADD LANGUAGE
 
@@ -246,9 +250,12 @@ sc-footer-cookies = Seikdatnis
 
 ## LANGUAGE INFO
 
+sc-lang-info-title-total = Kūpā
 
 ## LOGIN
 
+sc-login-err-failed = Dasasliegšona naizadeve
+sc-login-err-try-again = Lyudzu, raugi vēļreiz.
 
 ## PROFILE
 
