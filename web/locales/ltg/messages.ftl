@@ -42,6 +42,17 @@ request-language-button = Pīpraseit volūdys
 
 ## ProfileForm
 
+profile-form-username =
+    .label = Lītuotuoja vuords
+profile-form-native-language =
+    .label = Dzymtuo volūda
+profile-form-additional-language =
+    .label = Papyldu volūda
+profile-form-language =
+    .label = Volūda
+profile-form-variant =
+    .label = Kurā { $language } volūdys paveidā jius runojit?
+profile-form-variant-default-value = Variants nav izavālāts
 
 ## Profile - Email
 
