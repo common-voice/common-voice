@@ -1620,6 +1620,7 @@ varying-pronunciations-explanation-2 = ⵙⴳ ⵜⵙⴳⴰ ⵢⴰⴹⵏ, ⵎⴽ 
 varying-pronunciations-example = ⵥⵕⵉⵖ ⵓⵍⵜⵎⴰ ⴰⵙⵙⵏⵏⴰⴹ.
 varying-pronunciations-tip-1 = [ⵙ ⵜⵎⴰⵣⵉⵖⵜ ⵜⴰⵔⵉⴼⵉⵜ ⵏⵖⵉⵢ ⴰⴷ ⵏⵙⵓⵙⵔⵓ "ⵓⵍⵜⵎⴰ" ⵣⵓⵏ ⴷ "ⵓⵜⵛⵎⴰ"]
 varying-pronunciations-tip-2 = [ⵙ ⵜⵎⴰⵣⵉⵖⵜ ⵏ ⵡⴰⵟⵍⴰⵚ ⴰⵏⴰⵎⵎⴰⵙ ⵏⵖⵉⵢ ⴰⴷ ⵏⵙⵓⵙⵔⵓ "ⵓⵍⵍⵎⴰ"]
+offensive-content-explanation = ⵍⴰ ⵜⵜⵓⵙⵜⴰⵍⵏⵜ ⵜⵡⵉⵏⴰⵙ ⵙ ⵜⵣⵉⴳⵣⵜ ⵏ ⵓⵙⵡⵓⴷⴷⵓ ⴰⴳⵔⴰⵡⴰⵏ, ⵎⴰⵛⴰ ⵜⴰⵣⵉⴳⵣⵜ ⴰ ⵓⵔ ⵜⴳⵉ ⵜⴰⴼⵉⵍⴰⵡⵜ. ⵎⴽ ⵜⵥⵕⴰⵎ ⵏⵉⵖ ⵜⵙⵙⴼⵍⴷⵎ ⵉ ⴽⵔⴰ ⵏ ⵜⵡⵉⵏⵙⵜ ⵏⵏⴰ ⴽⵯⵏ ⵉⵜⵜⵇⵊⴰⵔⵏ ⵏⵉⵖ ⵍⴰ ⴽⵯⵏ ⵜⵙⵙⵃⵔⴰⵇ - ⵙ ⵓⵎⴷⵢⴰ, ⴰⵛⴽⵓ ⵍⴰ ⵜⵕⵥⵥⴰ <participationGuidelines>ⵜⴰⵔⴰⵜⵉⵏ ⵏ ⵜⴷⵔⴰⵡⵜ ⵜⴰⴳⴰⵔⴰⵡⴰⵏⵜ</participationGuidelines> ⵏⵏⵖ - ⵎⴽ ⵜⵓⴼⴰⵎ, ⵙⵙⵎⵔⵙⴰⵜ ⴰⴱⵔⴰ ⵏ ⵓⵛⵏⵢⴰⵍ ⴳ ⵓⴳⵔⵓⴷⵎ ⵏ ⵓⵏⵙⵙⵎⵔⵙ. ⵜⵣⵎⵔⵎ ⴰⵡⴷ ⴰⴷ ⴷⵉⴷⵏⵖ ⵜⵏⵢⴰⵍⴽⴰⵎⵎ ⴳ <emailFragment>commonvoice@mozilla.com</emailFragment>.
 misreadings-explanation-1 = ⵜⵅⴰⵜⵔ ⵜⵖⵔⵉ ⵢⵓⵖⴷⵏ ⵏ ⵜⴳⵓⵔⵉⵡⵉⵏ ⴰⴽⴽⵯ ⵍⵍⴰⵏⵉⵏ ⴳ ⵜⴰⵙⵏⴰ. ⴰⴷⴷⴰⵢ ⵜⴻⵜⵜⵙⵍⵍⴰⴷ, ⵛⴰⴱⴱⴰ ⵙ ⵜⵖⴹⴼⵜ ⵉⵙ ⴷ ⴰⵢⵏⵏⴰ ⵉⵜⵜⵓⵙⵓⵙⵔⵏ ⵉⴳⴰ ⵏⵉⵛⴰⵏ ⴰⵢⵏⵏⴰ ⵉⵜⵜⵢⴰⵔⴰⵏ; ⵜⴰⴳⵢⴷ ⵎⴽ ⵜⵜⵓⵔⵏⴰⵏⵜ, ⴼⵙⵢⵏⵜ ⵏⵉⵖ ⵜⵜⵡⴰⵜⵜⵓⵏⵜ ⵜⴳⵓⵔⵉⵡⵉⵏ.
 misreadings-explanation-2 = ⵜⵉⵣⴳⵍⵉⵏ ⵜⵜⵉⵍⵉⵏⵉⵏ ⵙ ⵜⵓⴳⵜⵜ ⵓⵎⴰⵏⵜ:
 misreadings-explanation-3 = ⴰⵅⵚⵚⴰ ⵏ 'ⵢⴰⵏ/ⵢⴰⵜ' ⵏⵉⵖ 'ⴽⵔⴰ ⵏ' ⴳ ⵓⵎⵣⵡⴰⵔⵓ ⵏ ⵓⵙⵓⵙⵔ.
