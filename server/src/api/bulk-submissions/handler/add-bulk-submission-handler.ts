@@ -7,6 +7,8 @@ import { pipe } from 'fp-ts/lib/function'
 import { task as T, taskEither as TE } from 'fp-ts'
 import { createPresentableError } from '../../../application/helper/error-helper'
 
+const SIZE_LIMIT_IN_BYTES = 1024 * 1024 * 8
+
 const readBodyFromRequest = (req: Request): Promise<Buffer> => {
   return new Promise(res => {
     const fileStream = Readable.from(req)
@@ -36,7 +38,7 @@ export const addBulkSubmissionHandler = async (req: Request, res: Response) => {
   if (!client_id)
     return res.status(StatusCodes.BAD_REQUEST).json({ message: 'no client id' })
 
-  if (size >= 1024 * 8)
+  if (size >= SIZE_LIMIT_IN_BYTES)
     return res
       .status(StatusCodes.BAD_REQUEST)
       .json({ message: 'file is larger than 8MB' })
