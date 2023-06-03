@@ -552,6 +552,7 @@ about-playbook-how-add-sentences = Nola gehi ditzaket esaldiak?
 ## How to record quality
 
 about-playbook-how-record-quality = Nola graba dezaket kalitate handiko ahots grabazio bat?
+about-playbook-how-record-content-1 = Hitz egin zure ahots normalarekin! Hitz egiteko duzun modua ongi etorria da hemen - zure azentua den bezalakoa nahi dugu eta normalean erabiltzen duzun bolumena, estilo eta intonazioa.
 about-playbook-how-record-content-2 = Saihestu atzeko zarata gehiegi izatea - zu entzutea erraza izan beharko litzateke.
 about-playbook-how-record-content-3 = Irakurri esaldia kontu handiarekin - ez saltatu, aldatu edo gehitu hitzik.
 about-playbook-how-record-content-5 = <accuracyLink>Ikusi gehiago zehaztasun irizpideei buruz.</accuracyLink>
@@ -565,6 +566,7 @@ about-playbook-how-grow-language-content-6 = Lankidetzak eta sareak
 ## How to validate
 
 about-playbook-how-validate = Nola jakin ahots grabazio bat onartu behar ote dudan?
+about-playbook-how-validate-content-3 = Ahoskera <strong>ulergaitza</strong> dela, <strong>atzealdeko zarata</strong> dagoela, edo <strong>beste pertsona batzuk hizketan</strong> entzuten badira, grabazio hau errefusatu behar zenuke.<accuracyLink>Ikusi informazio gehiago gure zehaztasun irizpideetan</accuracyLink>.
 
 ## How to access dataset
 
@@ -1129,6 +1131,7 @@ sc-howto-review-criteria-1 = Esaldiek ez dute akats ortografikorik izan behar.
 sc-howto-review-criteria-2 = Esaldiek ez dute akats gramatikalik izan behar.
 sc-howto-review-criteria-3 = Esaldiak ahoskagarriak izan behar dira.
 sc-howto-review-criteria-4 = Esaldiak irizpideak betetzen baditu, sakatu "Onartu" botoia.
+sc-howto-review-criteria-5 = Esaldiak goiko irizpideak betetzen ez baditu, sakatu "Baztertu" botoia. Esaldi honekin zalantzak badituzu, saltatu dezakezu eta hurrengora pasa.
 sc-howto-review-criteria-6 = Berrikusteko esaldirik gabe geratzen bazara, lagun gaitzazu esaldi gehiago biltzen!
 sc-howto-findpd-title = Aurkitu Domeinu Publikoan dauden esaldiak
 sc-howto-findpd-subtitle = Bila itzazu Interneten
@@ -1304,6 +1307,10 @@ sc-criteria-make-sure = Ziurtatu esaldiek ondoko irizpideak betetzen dituztela:
 sc-criteria-item-1 = Esaldiek ez dute akats ortografikorik izan behar.
 sc-criteria-item-2 = Esaldiek ez dute akats gramatikalik izan behar.
 sc-criteria-item-3 = Esaldiak ahoskagarriak izan behar dira.
+sc-criteria-item-4 =
+    Esaldiak irizpideak betetzen baditu, sakatu
+    eskuineko &quot;Onartu&quot; botoia.
+sc-criteria-item-5-2 = Esaldiak goiko irizpideak betetzen ez baditu, sakatu ezkerreko &quot;Baztertu&quot; botoia. Esaldi honekin zalantzak badituzu, saltatu dezakegu eta hurrengora pasa.
 sc-criteria-item-6 = Berrikusteko esaldirik gabe geratzen bazara, lagun gaitzazu esaldi gehiago biltzen!
 
 ## REVIEW
