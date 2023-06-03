@@ -1005,6 +1005,7 @@ demo-welcome-subheader = Gehiago ikasi eta proiektuan laguntzeko interesik duzu?
 
 ## Demo Datasets
 
+demo-language-select-card-header = Common Voice munduko datu-sorta handiena, publikoa eta hizkuntza gehien dituena da.
 card-button-next = Hurrengoa
 card-button-back = Atzera
 demo-language-select-label = Arakatu hizkuntzak
