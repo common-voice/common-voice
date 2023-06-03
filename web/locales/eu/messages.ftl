@@ -548,6 +548,7 @@ about-playbook-how-localize-content-5 = Ikusi gure azalpen bideoa
 ## How to add sentences
 
 about-playbook-how-add-sentences = Nola gehi ditzaket esaldiak?
+about-playbook-how-add-sentences-content-2 = Esaldiak bi pertsonek berrikusi eta onartu behar dituzte Common Voicen sartu aurretik. Zure hizkuntzarentzako gidalerroa sor dezakezu <languageGuidelinesLink>hemen</languageGuidelinesLink>. Esaldiek <licenseLink>jabetza publikoan</licenseLink> egon behar dute eta 15 hitz baino gutxiago izan behar dituzte. Testu baten egileari eska diezaiokezu berau <waiverLink>CC0 bihurtzeko gure salbuespen prozesua erabiliz</waiverLink> eta gero guri bidali: commonvoice@mozilla.com
 
 ## How to record quality
 
@@ -1372,6 +1373,7 @@ example = Adibidea
 varying-pronunciations-explanation-1 = Azentu desberdinak ongi etorriak dira! Kontuz ibili pertsona batek hitz bat gaizki ahoskatu duela pentsatzeagatik bere grabazioa baztertzearekin. Gauza bera azentua okerreko lekuan jartzeagatik edo puntuazioa ez errespetatzeagatik. Euskara ahoskatzeko hamaika modu daude eta horietako batzuk agian ez dituzu zure komunitate lokalean inoiz entzun. Mesedez izan zaitez eskuzabala zuk ez bezala hitz egiten duten pertsonen grabazioak balioztatzeko unean.
 varying-pronunciations-explanation-2 = Bestalde, irakurleak hitz horrekin inoiz topo egin ez eta gaizki ahoskatzen ari dela uste baduzu, baztertu ezazu. Ziur ez bazaude, erabili Saltatu botoia.
 offensive-content-explanation = Esaldiak moderazio prozesu baten bitartez onartzen dira, baina prozesu hau ez da perfektua. Ofenditzen edo haserretzen zaituen esaldi bat entzuten baduzu - adibidez gure <participationGuidelines>komunitatearen parte-hartze gidalerroak</participationGuidelines> urratzen dituelako - mesedez sakatu Salatu botoia. Gurekin harremanetan ere jar zaitezke hemen: <emailFragment>commonvoice@mozilla.com</emailFragment>
+misreadings-explanation-1 = Orrialdeko hitz guztiak ondo irakurtzea garrantzitsua da. Entzuten duzunean kontuz-kontuz egiaztatu behar duzu grabatu dena benetan idatzita dagoen berdina dela; hitzik gehitu, kendu edo ordezkatu bada, baztertu ezazu.
 misreadings-explanation-2 = Akats ohikoenak honako hauek dira:
 misreadings-explanation-3 = Esaldiaren hasiera ez dago ondo grabatuta.
 misreadings-explanation-4 = Hitz baten bukaeran pluralaren 'k' galtzea.
