@@ -1352,6 +1352,7 @@ partnerships-header = Lankidetzak
 partnerships-get-in-touch = Harremanetan jarri
 partnerships-foundations-header = Fundazioak
 partnerships-governments-header = Gobernuak
+partnerships-governments-description = Pozik gaude sektore publikok teknologian, berrikuntzan eta hizkuntza eskubideetan duen konpromisoa laguntzeaz. Proiektu edo kanpaina handi bat aurrera eramateko asmorik baduzue, mesedez gurekin <emailFragment>harremanetan jarri</emailFragment>.
 partnerships-our-partners = Gure babesleak
 add-information-button = Gehitu informazioa
 continue-speaking-button = Ez eskerrik asko, hitz egiten jarraitu
@@ -1361,6 +1362,7 @@ second-cta-header-text = Eskerrik asko zure ahotsarekin parte hartzeagatik!
 create-profile-button = Sortu profil bat
 # GUIDELINES PAGE
 guidelines-header = Parte-hartze gidalerroak
+guidelines-header-subtitle = Ulertu nola gehitu eta balioztatu esaldiak eta grabazioak Common Voice datu-sortan
 voice-collection = Ahotsak biltzea
 sentence-collection = Esaldiak biltzea
 varying-pronunciations = Ahoskera desberdinak
