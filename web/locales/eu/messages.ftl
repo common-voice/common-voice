@@ -469,6 +469,9 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Zergatik Common Voice?
+about-header-description-v2 =
+    <p>Common Voice publikoki eskuragarri dagoen ahots datu-sorta bat da, munduko txoko desberdinetako boluntarioek beraien ahotsekin egina. Ahotsa darabilten aplikazioak sortu nahi dituztenek datu-sorta hau erabil dezakete beraien ikasketa automatikoko ereduak trebatzeko.</p>
+    <p>Gaur egun, ahots datu-sorta gehienak enpresenak dira eta horrek berrikuntza itotzen du. Gainera ahots datu-sortetan beharko luketena baino gutxiago agertzen dira ondokoak: ingelesez mintzo ez direnak, zuriak ez direnak, dibertsitate funtzionala dutenak, emakumeak eta LGBTQIA+ pertsonak. Honek esan nahi du hainbat hizkuntzatan ez dagoela ahots teknologiarik eta, dagoenean ere, hainbat pertsonarekin ez dabiltzala ondo. Hori aldatu nahi dugu leku guztietako jendea bere ahotsa partekatzen jarriz.</p>
 how-does-it-work-title-v2 = Nola dabil Common Voice?
 how-does-it-work-text = Ahotsen datu-sorta ireki bat sortzen ari gara denon artean. Eman zure ahotsa, balioztatu besteen grabazioen egokitasuna, egin datu-sorta hobea guztiontzat.
 
@@ -1005,7 +1008,7 @@ demo-welcome-subheader = Gehiago ikasi eta proiektuan laguntzeko interesik duzu?
 
 ## Demo Datasets
 
-demo-language-select-card-header = Common Voice munduko datu-sorta handiena, publikoa eta hizkuntza gehien dituena da.
+demo-language-select-card-header = Common Voice munduko datu-sorta handiena, publikoki eskuragarria eta hizkuntza gehien dituena da.
 card-button-next = Hurrengoa
 card-button-back = Atzera
 demo-language-select-label = Arakatu hizkuntzak
