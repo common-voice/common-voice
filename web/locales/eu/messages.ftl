@@ -1349,10 +1349,16 @@ localization-select =
     .label = Aukeratu hizkuntza/lokalizazioa
 # PARTNERSHIPS PAGE
 partnerships-header = Lankidetzak
+partnerships-header-text = Common Voice aurrera ateratzea zaila da! Ezingo genuke bakarrik egin. Babestu nahi gaituzu? Zutaz jakitea desiratzen gaude.
 partnerships-get-in-touch = Harremanetan jarri
+partnerships-become-a-partner = Bihur zaitez Common Voice babeslea
+partnerships-community-header = Komunitatea, sortzaileak eta gizarte zibila
 partnerships-foundations-header = Fundazioak
 partnerships-governments-header = Gobernuak
 partnerships-governments-description = Pozik gaude sektore publikok teknologian, berrikuntzan eta hizkuntza eskubideetan duen konpromisoa laguntzeaz. Proiektu edo kanpaina handi bat aurrera eramateko asmorik baduzue, mesedez gurekin <emailFragment>harremanetan jarri</emailFragment>.
+partnerships-academia-header = Unibertsitateak, akademikoak eta ikerlariak
+partnerships-small-business-header = Enpresa txikiak, teknologia eta AA arloko start up-ak barne
+partnerships-corporates-header = Korporazio handiak eta plataforma enpresak
 partnerships-our-partners = Gure babesleak
 add-information-button = Gehitu informazioa
 continue-speaking-button = Ez eskerrik asko, hitz egiten jarraitu
