@@ -300,3 +300,7 @@ sc-personal-added-by-you = Jius dalykot { $sentences }
 
 # [/SentenceCollector]
 
+volume = Skaļums
+reader-effects = Īrunuotuoja izrunys eipatneibys
+just-unsure = Vīnkuorši naesit puorlīcynuots?
+example = Pīmārs
