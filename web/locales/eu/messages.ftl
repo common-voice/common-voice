@@ -1442,6 +1442,7 @@ new-sentence-rule-6 = Atzerriko hizkirik ez
 new-sentence-rule-7 = Gehitu aipu egoki bat
 new-sentence-rule-8 = Naturala eta lagunartekoa (irakurterraza)
 how-to-cite-explanation-bold = URL esteka batekin aipatu edo lanaren izen osoarekin.
+how-to-cite-explanation = Zure hitzak badira, <italicizedText>“Norberaren aipua”</italicizedText> jarri. Eduki hau non aurkitu duzun jakin beharra dugu berau jabetza publikoan dagoela eta copyright murriztapenik ez dagokiola egiaztatzeko. Aipuak egiteko azalpen gehiago ditugu gure <guidelinesLink>Parte-hartze gidalerroetan</guidelinesLink>.
 guidelines = Gidalerroak
 add-sentence-success = Esaldi 1 bilduta
 add-sentence-error = Errorea esaldia gehitzean
