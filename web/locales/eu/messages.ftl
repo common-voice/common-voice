@@ -276,6 +276,7 @@ whats-public = Zer da Publikoa?
 email-not-public = Ez dugu zure e-posta helbidea publiko egingo.
 recordings-and-locale-public = Grabazio kopurua eta zein hizkuntzatan laguntzen duzun publikoa izango da.
 username-optin-public = Zure erabiltzaile-izena publikoa edo anonimoa izatea aukera dezakezu.
+demographic-deidentified-clarity-2 = Hautazkoak diren datu demografikoak (adibidez, adina, generoa eta azentua) ez dira inoiz zure profilean publiko egingo, eta ez dira datu-sortan zure kontuarekin lotuko. Banakako grabazioak datu demografikoekin eskaintzen dira azterketa egokiagoa ahalbidetzeko - adibidez, ikerlari batek segmentu demografiko zehatz baterako ahots-eredua trebatu lezake.
 username-email-not-demographic = Zure erabiltzaile-izena eta e-posta ez dira argitaratutako datuekin lotuko.
 
 ## Speak & Listen Shortcuts
@@ -683,6 +684,7 @@ other-datasets = Beste ahots datu-sortak
 feedback-q = Zerbait komentatu nahi diguzu?
 resource-coqui-info = <coquiLink>Coqui</coquiLink> hizkuntza-teknologia irekiak lantzen ditu. Bere proiektuen artean ikasketa automatikoan oinarritutako STT eta TTS motorrak daude.
 community-playbook = Komunitatearen eskuliburua
+resource-playbook-info = <playbookLink>Aurkitu laguntza erabilgarria</playbookLink> Common Voicen ibilbide osoan zehar, lokalizaziotik hasi eta datu-sortaren erabilerara, baita gure komunitatearekin konektatzeko ere.
 data-other-librispeech-description = LibriSpeech 16 Khz-tan grabatutako 1.000 ordu inguruko corpusa da, LibriVox proiektuko audio-liburuak ingelesez irakurrita.
 data-other-ted-name = TED-LIUM corpusa
 data-other-ted-description = TED-LIUM corpusa, TED webguneko hitzaldietako audioetatik eta transkripzioetatik sortua da.
@@ -690,8 +692,8 @@ data-other-voxforge-description = VoxForge transkribatutako hizketak biltzeko so
 data-other-tatoeba-description = Tatoeba hizkuntzen ikasketan erabiltzeko hainbat esaldi, itzulpen eta ahoskatutako audio dituen datu-basea da. Deskarga honek, bere baitan, Tatoebako komunitateak ingelesez ahoskatutako grabazioen audioak dauzka.
 your-feedback = Common Voice datu-sorta nola hobe dezakegun ideiarik duzu? Parteka itzazu gurekin Discoursen
 go-discourse = Joan Discoursera
-missing-language = Ez duzu zure hizkuntza ikusten datu-sortan? Hizkuntza bat eskatzeko zoaz gure Hizkuntzak orrira.
-go-languages-page = Joan Hizkuntzak orrira
+missing-language = Ez duzu zure hizkuntza datu-sortan ikusten? Hizkuntza bat eskatzeko zoaz gure Hizkuntzak orrialdera.
+go-languages-page = Joan Hizkuntzak orrialdera
 ready-to-validate = Esaldiak baliozkotzen laguntzeko prest?
 more = Gehiago
 close = Itxi
