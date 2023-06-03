@@ -566,7 +566,7 @@ about-playbook-how-grow-language-content-6 = Lankidetzak eta sareak
 ## How to validate
 
 about-playbook-how-validate = Nola jakin ahots grabazio bat onartu behar ote dudan?
-about-playbook-how-validate-content-3 = Ahoskera <strong>ulergaitza</strong> dela, <strong>atzealdeko zarata</strong> dagoela, edo <strong>beste pertsona batzuk hizketan</strong> entzuten badira, grabazio hau errefusatu behar zenuke.<accuracyLink>Ikusi informazio gehiago gure zehaztasun irizpideetan</accuracyLink>.
+about-playbook-how-validate-content-3 = Ahoskera <strong>ulergaitza</strong> dela, <strong>atzealdeko zarata</strong> dagoela, edo <strong>beste pertsona batzuk hizketan</strong> entzuten badira, grabazio hau baztertu behar zenuke.<accuracyLink>Ikusi informazio gehiago gure zehaztasun irizpideetan</accuracyLink>.
 
 ## How to access dataset
 
