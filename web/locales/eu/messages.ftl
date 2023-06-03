@@ -1304,6 +1304,7 @@ sc-criteria-make-sure = Ziurtatu esaldiek ondoko irizpideak betetzen dituztela:
 sc-criteria-item-1 = Esaldiek ez dute akats ortografikorik izan behar.
 sc-criteria-item-2 = Esaldiek ez dute akats gramatikalik izan behar.
 sc-criteria-item-3 = Esaldiak ahoskagarriak izan behar dira.
+sc-criteria-item-6 = Berrikusteko esaldirik gabe geratzen bazara, lagun gaitzazu esaldi gehiago biltzen!
 
 ## REVIEW
 
@@ -1385,6 +1386,8 @@ just-unsure-explanation = Irizpide hauek betetzen ez dituen zerbaitekin topo egi
 still-have-questions = Oraindik zalantzak dituzu?
 contact-common-voice = Jarri harremanetan Common Voice taldearekin
 adding-sentences-subheader-offensive-content = Eduki iraingarria
+reviewing-sentences-explanation-1 = Esaldiak goiko irizpideak betetzen baditu, sakatu "Bai" botoia.
+reviewing-sentences-explanation-2 = Esaldiak goiko irizpideak betetzen ez baditu, sakatu "Ez" botoia.
 sentence =
     .label = Esaldia
 guidelines = Gidalerroak
