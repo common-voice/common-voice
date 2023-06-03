@@ -1387,6 +1387,7 @@ misreadings-example-4 = Margolan koloretsua da.
 misreadings-tip-1 = [“Eduki” izan beharko luke]
 misreadings-tip-2 = [’giltza’ izan beharko luke]
 misreadings-tip-3 = [Okerreko edukia]
+background-noise-explanation = Grabazioko hitz guztiak entzuteko gai izan behar duzu. Ikasketa automatikoko algoritmoek atzealdeko zarata desberdinak kudeatzea nahi dugu, baita zarata handia dagoenean edo atzean musika pixka bat entzuten denean, baina beti ere testu osoa entzutea oztopatzen ez dutenean. Testua entzutea eragozten duen karraskarik edo etenik badago, grabazioa baztertu behar zenuke.
 background-noise-example-1 = Nahi duzuenean etorri etxera.
 background-noise-example-2 = [Doministiku] Nahi duzuenean etorri [eztula] etxera.
 background-noise-example-3 = Nahi duzuenean [eztula] etxera.
