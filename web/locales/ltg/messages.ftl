@@ -137,12 +137,14 @@ close = Aiztaiseit
 download = Lejupluodēt
 dataset-version = Verseja
 sha256-checksum-copied = SHA256 kontrolsumma nūkopēta!
+sha256-checksum-copied-error = Naizadeve nūkopēt SHA256 kontrolsummu
 
 ## Download Modal
 
 download-form-email =
     .label = Īvodi sovu e-postu
-    .value = { "" }
+    .value = Paļdis, mes sasazynuosim.
+download-back = Atsagrīzt pi Common Voice datu kūpys
 download-no = Nā, paļdis
 
 ## Contact Modal
