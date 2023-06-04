@@ -340,4 +340,10 @@ sc-review-instruction-second-part = voi itys ir lingvistiski pareizs teikums?
 sc-review-rules-title = Vai teikums atbylst vadlinejom?
 sc-review-empty-state = Itūšaļt itamā volūdā nav teikumu, kū puorbaudeit.
 report-sc-different-language = Napareiza volūda
+report-sc-different-language-detail = Tys ir uzraksteits volūdā, kas atsaškir nu tuos, kū itūšaļt puorbaudu.
+sentences-fetch-error = Īluodejūt teikumus, nūtykuse klaida
+review-error = Puorsaverūt teikumu, nūtykuse klaida
+# SENTENCE-COLLECTOR-REDIRECT PAGE
+sc-redirect-page-title = Mes veicam puors lelys izmainis
+sc-redirect-page-subtitle-1 = Teikumu apkūpuošonys reiks puorīt iz Common Voice platformu. Tagad varit <writeURL>davīnuot</writeURL> i<reviewURL>puorbaudeit</reviewURL> teikumus Common Voice sistemā.
 sc-redirect-page-subtitle-2 = Aizdūdit mums vaicuojumus <matrixLink>Matrix</matrixLink>, <discourseLink>Discourse</discourseLink> voi rokstūt <emailLink>e-postu</emailLink>.
