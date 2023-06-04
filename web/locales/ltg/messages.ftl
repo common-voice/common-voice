@@ -306,6 +306,7 @@ just-unsure = Vīnkuorši naesit puorlīcynuots?
 example = Pīmārs
 misreadings-explanation-2 = Bīžuokuos klaidys:
 misreadings-explanation-3 = Nūrauts vuorda suokums, par pīmāru, "aņ garšoj dasa".
+misreadings-explanation-4 = Nūrautys vuorda beigys, par pīmāru, "beja" vītā īrunuots "bej" voi teikumā izlaists vuords "ir".
 background-noise-example-1 = Senejuo laikmeta dinozauri.
 background-noise-example-2 = [Škauda] Senejuo laikmeta [kuoss] dinozauri.
 background-noise-example-3 = Senejuo laikmeta dino [dzierdams krakškis].
