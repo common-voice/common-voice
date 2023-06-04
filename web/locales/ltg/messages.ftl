@@ -241,6 +241,8 @@ sc-stats-title = Statistika
 sc-submit-err-select-lang = Lyudzu, izalosit volūdu.
 sc-submit-err-add-sentences = Lyudzu, davīnojit teikumus.
 sc-submit-err-add-source = Lyudzu, davīnojit olūtu.
+sc-submit-ph-one-per-line =
+    .placeholder = Vīns teikums kotrā ryndā
 
 ## ADD LANGUAGE
 
@@ -294,9 +296,36 @@ sc-personal-added-by-you = Jius dalykot { $sentences }
 
 ## REVIEW
 
+sc-review-title = Teikumu puorbaude
+sc-review-loading = Nūteik teikumu īluode...
+sc-review-form-button-reject = Nūraideit
+sc-review-form-button-skip = Izlaist
+sc-review-form-button-approve = Apstyprynuot
+# Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
+sc-review-form-button-approve-shortcut = Y
+# Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
+sc-review-form-button-reject-shortcut = N
+# Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
+sc-review-form-button-skip-shortcut = S
+sc-review-form-keyboard-usage-custom = Varit ari lītuot eisynuojumtausteņus: { sc-review-form-button-approve-shortcut }, lai apstyprynuotu, { sc-review-form-button-reject-shortcut }, lai nūraideitu, { sc-review-form-button-skip-shortcut }, lai izlaistu
+sc-review-form-button-submit =
+    .submitText = Pabeigt puorsavieršonu
+# Variables:
+#   $sentences (Number) - Number of sentences the user has reviewed in this session
+sc-review-form-reviewed-message =
+    { $sentences ->
+        [0] Puorbaudeiti { $sentences } teikumi
+        [zero] { "" }
+        [one] { "" }
+       *[other] { "" }
+    }
+sc-review-form-review-failure = Puorbaudis rezultatu navarēja saglobuot. Lyudzu, paraugit vēļreiz vāluok.
+sc-review-link = Puorbaudit
 
 ## SETTINGS
 
+sc-settings-title = Īstatejumi
+sc-settings-ui-language = Saskarnis volūda
 
 # [/SentenceCollector]
 
