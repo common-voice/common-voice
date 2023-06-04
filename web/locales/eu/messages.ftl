@@ -825,8 +825,10 @@ listen-again-instruction = Lan bikaina!<playIcon></playIcon> Entzun berriro pres
 listen-3rd-time-instruction = 2 gutxiago, segi horrela!<playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon> Azkena!
 listen-empty-state = Balioztatzeko grabaziorik gabe geratu gara hizkuntza honetan...
+listen-loading-error = Ezin izan dugu zuk entzuteko esaldirik lortu. Mesedez saia zaitez berriz beranduago.
 speak-empty-state = Grabatzeko esaldirik gabe geratu gara hizkuntza honetan...
 speak-empty-state-cta = Lagundu esaldiekin
+speak-loading-error = Ezin izan dugu zuk irakurtzeko esaldirik lortu. Mesedez saia zaitez berriz beranduago.
 record-button-label = Grabatu zure ahotsa
 share-title-new = <bold>Lagun gaitzazu</bold> ahots gehiago aurkitzen
 keep-track-profile = Jarraitu zure aurrerapenak profil batekin
@@ -1028,6 +1030,7 @@ demo-account = Kontua
 
 ## Demo Account
 
+demo-account-card-header = Kontu bat izatea ez da beharrezkoa parte hartzeko, baina lagungarria da.
 demo-account-enter-email =
     .label = Sartu eposta izen-emate esteka bidaltzeko
 demo-account-sign-up = Bidali izen-emate esteka
@@ -1129,6 +1132,7 @@ sc-home-title = Ongi etorri Common Voiceko esaldi biltzailera
 sc-home-collect-title = Bildu esaldiak
 sc-home-collect-text = Lagun gaitzazu jabetza publikoan dauden esaldiak idatziz edo bilduz.
 sc-home-review-title = Berrikusi esaldiak
+sc-home-review-text = Laguntza gaitzazu esaldien zuzentasuna gidalerroen arabera berrikusten.
 
 ## GENERAL
 
@@ -1137,6 +1141,7 @@ sc-home-review-title = Berrikusi esaldiak
 
 sc-howto-title = Nola
 sc-howto-addlang-title = Gehitu landuko dituzun hizkuntzak
+sc-howto-addlang-text = Behin saioa hasita zure hizkuntza hautatu dezakezu zure profilean.
 sc-howto-addsen-title = Gehitu esaldi berriak
 sc-howto-cite-title = Nola egin aipuak
 sc-howto-cite-item-1 = Webgunea gehi zenezake. Adibidez: "Common Voice - https://commonvoice.mozilla.org/eu"
@@ -1374,6 +1379,7 @@ partnerships-academia-header = Unibertsitateak, akademikoak eta ikerlariak
 partnerships-small-business-header = Enpresa txikiak, teknologia eta AA arloko start up-ak barne
 partnerships-corporates-header = Korporazio handiak eta plataforma enpresak
 partnerships-our-partners = Gure babesleak
+why-donate = Zergatik galdetzen duzu?
 add-information-button = Gehitu informazioa
 continue-speaking-button = Ez eskerrik asko, hitz egiten jarraitu
 thanks-for-voice-toast = Eskerrik asko zure ahots-informazioagatik
@@ -1436,8 +1442,10 @@ citation =
 self-citation = Norberaren aipua
 self-citation-explanation = Honela aipatu behar duzu zure burua edukia zuk idatzitakoa bada.
 adding-sentences-subheader-length = Luzera
+adding-sentences-subheader-length-explanation = Esaldiak 15 hitz baino gutxiago izan behar ditu.
 adding-sentences-subheader-spelling-punctuation = Ortografia eta puntuazioa
 adding-sentences-subheader-spelling-punctuation-explanation = Esaldiak ez du akats ortografikorik izan behar.
+adding-sentences-subheader-numbers = Zenbakiak
 adding-sentences-subheader-abbreviations = Laburdurak eta akronimoak
 adding-sentences-subheader-punctuation = Puntuazioa
 adding-sentences-subheader-special-characters = Karaktere bereziak eta atzerriko hizkiak
