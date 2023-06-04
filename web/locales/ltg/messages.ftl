@@ -132,24 +132,72 @@ about-playbook-how-grow-language-content-2 = Nūtikšonys
 
 ## Datasets Page
 
+more = Vairuok
+close = Aiztaiseit
+download = Lejupluodēt
+dataset-version = Verseja
+sha256-checksum-copied = SHA256 kontrolsumma nūkopēta!
 
 ## Download Modal
 
+download-form-email =
+    .label = Īvodi sovu e-postu
+    .value = { "" }
+download-no = Nā, paļdis
 
 ## Contact Modal
 
+contact-title = Kontaktu forma
+contact-form-name =
+    .label = Nūsaukums
+contact-form-message =
+    .label = Ziņa
+contact-required = *obligats
 
 ## Request Language Modal
 
+request-language-title = Volūdys pīprasejums
+request-language-form-language =
+    .label = Volūda
+request-language-success-title = Volūdys pīprasejums veiksmeigi īsnīgts, paļdis.
 
 ## Request Language Pages
 
+request-language-form-email =
+    .label = Tova e-posta adrese
+request-language-form-info =
+    .label = Informaceja par volūdu
 
 ## Languages Overview
 
+languages-show-more = Ruodeit vaira
+languages-show-less = Ruodeit mozuok
+language-meter-in-progress = Progress
+language-total-progress = Kūpā
+language-search-input =
+    .placeholder = Meklēt
+language-speakers = Runuotuoji
+localized = Lokalizāts
+sentences = Teikumi
+language-validation-hours = Stuņdis
+language-validation-progress = Puorbaudis progress
 
 ## Contribution
 
+action-click = Klikškis
+action-tap = Pīsaskar
+contribute = Dūt īguļdejumu
+listen = Klausīs
+write = Roksti
+review = Puorbaudi
+skip = Izlaist
+shortcuts = Eisceli
+clips-with-count-pluralized =
+    { $count ->
+        [zero] <bold>{ $count }</bold> īrokstu
+        [one] { "" }
+       *[other] { "" }
+    }
 
 ## Contribution Nav Items
 
