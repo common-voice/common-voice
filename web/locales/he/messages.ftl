@@ -1158,10 +1158,13 @@ demo-account-sign-up = שליחת קישור להרשמה
 ## Demo Contribute
 
 demo-contribute-card-header = נוכל להתחיל בהוספת קולך או בהטיית אוזנך?
+demo-contribute-card-body-v2 = כעת משיש לכם יותר ידע אודות Common Voice, למה לא לנסות את זה? לחצו על סמל המיקרופון כדי להתחיל לקרוא משפטים בקול. <br/> <br/> אם תעדיפו לסקור את התרומות הקוליות של אנשים אחרים, לחצו על סמל הניגון. כך תעזרו לאשר כי ההקלטות תואמות למשפטים הכתובים על המסך.
 demo-listen-subtitle = מעניין אותך לתרום?
 
 ## Demo Dashboard
 
+demo-dashboard-card-header = לוחות מחוונים אישיים משאירים אתכם מעודכנים לגבי ההתקדמות האישית ושל הקהילה.
+demo-dashboard-card-body = עבור כל מקטע קול שנתרם, וכל מקטע שמע שאומת, לוחות המחוונים בחשבונכם מתעדכנים כך שישקפו את ההתקדמות העדכנית שלכם בכל שפה אליה אתם תורמים. כן, אפשר לתרום ליותר משפה אחת! <br/> <br/> השתמשו בלוחות המחוונים כדי לעקוב אחר הסטטיסטיקה שלכם, להשוות את ביצועכם לאלה של אחרים בקהילה ולהגדיר יעדים לתרומה יומית או שבועית.
 
 ## Validation criteria
 
@@ -1177,7 +1180,16 @@ contribution-misreadings-description-extended-list-2 = בלבול במין בש�
 contribution-misreadings-description-extended-list-3 = קריאת קיצורים או ראשי-תיבות שלא ככתוב, למשל "וכו'" במקום "וכולי", או להיפך. הלחמה בדיבור או עיוות של מילים, למשל "יומולדת" במקום "יום הולדת".
 contribution-misreadings-description-extended-list-4 = השמטה של המילה האחרונה או סיום מוקדם של ההקלטה.
 contribution-misreadings-description-extended-list-5 = לוקח מספר ניסיונות לקרוא מילה.
-contribution-misreadings-example-7-title = אנחנו יוצאים לשתות קפה.
+contribution-misreadings-example-1-title = דינוזאורי-הענק של הטריאס.
+contribution-misreadings-example-2-title = הדינוזאורים הענקיים של הטריאס.
+contribution-misreadings-example-2-explanation = [אמור להיות 'דינוזאורי-הענק']
+contribution-misreadings-example-3-title = דינוזאורי-הענק של הטרי-
+contribution-misreadings-example-4-title = דינוזאורי-הענק של הטריאס. כן.
+contribution-misreadings-example-4-explanation = [הוקלט עוד מעבר לטקסט הנדרש]
+contribution-misreadings-example-5-title = כשנצא לשתות קפה וכולי.
+contribution-misreadings-example-6-title = שנצא לשתות קפה וכו'.
+contribution-misreadings-example-6-explanation = [צריך להיות "כש-'" בהתחלה, "וכולי" בסוף]
+contribution-misreadings-example-7-title = כשנצא לשתות את הקפה וכולי.
 contribution-background-noise-example-2-explanation = [לא ניתן לשמוע חלק מהטקסט]
 
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
