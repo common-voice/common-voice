@@ -374,18 +374,55 @@ listen-last-time-instruction = <playIcon> </playIcon> Pādejais!
 record-button-label = Īrokstit sovu bolsu
 share-title-new = <bold> Paleidzit mums </bold> atrast vairuok bolsu
 target-segment-add-voice = Davīnojit sovu bolsu
+target-segment-learn-more = Dazynuot vaira
 
 ## Contribution Nav Items
 
+contribute-voice-collection-nav-header = Bolsu kolekceja
+contribute-sentence-collection-nav-header = Teikumu apkūpuotuojs
 
 ## Reporting
 
+report = Ziņuot
+report-title = Īsnēdzit viesti
+report-grammar-or-spelling-detail = Teikumā ir gramatiska voi pareizraksteibys klaida.
+report-different-language = Napareiza volūda
+report-different-language-detail = Tys ir pīraksteits volūdā, kas atsaškir nu tuos, kū runoju.
+report-difficult-pronounce = Gryuts izrunuot
+report-difficult-pronounce-detail = Tymā ir vuordi voi frazis, kurus ir gryuts skaiteit voi izrunuot.
+report-offensive-speech = Aizvainojūša runa
+report-other-comment =
+    .placeholder = Komentēt
+success = Veiksmeigi
+continue = Turpynuot
+report-success = Viests sekmeigi nūsyuteita!
 
 ## Goals
 
+streaks = Serejis
+days =
+    { $count ->
+        [zero] Dīnys
+        [one] { "" }
+       *[other] { "" }
+    }
+recordings =
+    { $count ->
+        [zero] Īroksti
+        [one] { "" }
+       *[other] { "" }
+    }
+validations =
+    { $count ->
+        [zero] Puorbaudis
+        [one] { "" }
+       *[other] { "" }
+    }
 
 ## Dashboard
 
+your-languages = Jiusu volūdys
+stats = Statistika
 
 ## Custom Goals
 
