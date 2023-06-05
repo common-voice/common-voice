@@ -423,15 +423,45 @@ validations =
 
 your-languages = Jiusu volūdys
 stats = Statistika
+awards = Apbolvuojumi
+you = Jius
+everyone = Cyti
 
 ## Custom Goals
 
+both-speak-and-listen = Obeji
+both-speak-and-listen-long = Obeji (runuošonys i klauseišonuos)
+daily-goal = Dīnys mierkis
+weekly-goal = Nedelis mierkis
+easy-difficulty = Vīnkuoršais
+average-difficulty = Videjais
+difficult-difficulty = Gryutais
+pro-difficulty = Profesionalais
+n-clips-pluralized =
+    { NUMBER($count) ->
+        [zero] { $count } īrokstu
+        [one] { "" }
+       *[other] { "" }
+    }
+confirm-goal = Apstyprynuot mierki
+goal-interval-weekly = Reizi nedeļā
 
 ## Profile Delete
 
+keep = Saglobuot
+remove = Aizvuokt
+profile-form-delete = Dzēst profilu
 
 ## Profile Download
 
+download-profile-title = Profils
+download-recordings-title = Īroksti
+download-size = Izmārs
+download-selected = Izalaseits
+download-request-button = Lejupīluodēt
+download-request-title = { $created }
+download-request-refresh-button = Atjaunynuot
+download-request-link-text = Zip #{ $offset } no { $total }
 
 ## Landing
 
