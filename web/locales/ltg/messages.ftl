@@ -32,18 +32,44 @@ cy = Velsīšu
 de = Vuocu
 en = Angļu
 eo = Esperanto
+es = Spanīšu
+et = Igauņu
+eu = Basku
+fa = Persīšu
+lv = Latvīšu
 pl = Pūļu
 ps = Puštu
 pt = Portugaļu
+sv-SE = Zvīdru
 
 # [/]
 
 
 ## Layout
 
+languages = Volūdys
+about = Par
+partner = Partnereiba
+profile = Profils
+help = Paleidzeiba
+contact = Kontakti
+privacy = Privatums
+terms = Lītuošonys nūsacejumi
+cookies = Seikdatnis
+faq = BUJ
+logout = Beigt dorbu
 
 ## Home Page
 
+vote-yes = Nui
+vote-no = Nā
+toggle-play-tooltip = Damīdzit { shortcut-play-toggle }, lai puorslāgtu atskaņuošonys režimu
+speak-subtitle = Pazīduot sovu bolsu
+speak-goal-text = Īroksti īraksteiti
+listen-subtitle = Paleidzit puorbaudeit bolsus
+listen-goal-text = Apstyprynuoti īroksti
+hours-recorded = Īraksteituos stuņdis
+hours-validated = Puorbaudeituos stuņdis
 today = Šudiņ
 
 ## Account Benefits
