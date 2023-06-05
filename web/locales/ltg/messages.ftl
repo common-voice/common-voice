@@ -349,7 +349,22 @@ clips-with-count-pluralized =
        *[other] { "" }
     }
 record-cta = Suocit īraksteišonu
+record-no-mic-found = Nav atrosts nivīns mikrofons.
+record-error-too-short = Īroksts beja par eisu.
+record-error-too-long = Īroksts beja par garu.
 record-error-too-quiet = Īroksts beja par cīš kluss.
+record-cancel = Atceļt atkuortuotu īraksteišonu
+record-instruction = { $actionType }<recordIcon></recordIcon> piec tam bolsā puorskaiti teikumu
+record-stop-instruction = { $actionType } <stopIcon></stopIcon> kod vyss gotovs
+record-three-more-instruction = Vēļ palykuši treis!
+record-again-instruction = Breineigi! <recordIcon> </recordIcon> Īrokstit sovu nuokušū īrokstu
+record-again-instruction2 = Turpynojam, īrokstit vēļreiz <recordIcon></recordIcon>
+record-last-instruction = <recordIcon> </recordIcon> Pādejais!
+review-tooltip = Puorsaverit īrokstus i īrokstit jūs atkuortuotai
+share-clip = Pasadolit ar sovu īrokstu
+share-common-voice = Pastuostit cytim par Common Voice
+review-instruction = Ka vajadzeigs, puorsaverit īrokstus i īrokstit atkuortuotai
+record-submit-tooltip = { $actionType } īsnēdzit, kod vyss gotovs
 
 ## Contribution Nav Items
 
