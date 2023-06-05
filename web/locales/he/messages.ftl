@@ -904,7 +904,7 @@ record-submit-tooltip = { $actionType } ניתן להגיש כשהמקטע מו�
 clips-uploaded = מקטעים הועלו
 record-abort-title = לסיים את ההקלטה קודם לכן?
 record-abort-text = יציאה כעת תגרום לאובדן ההתקדמות שצברת
-record-abort-submit = הגשת מקטעים
+record-abort-submit = שליחת מקטעים
 record-abort-continue = סיום הקלטה
 record-abort-delete = יציאה ומחיקת המקטעים
 listen-instruction = { $actionType } <playIcon></playIcon> האם המשפט בוטא כראוי?
@@ -938,7 +938,7 @@ contribute-sentence-collection-nav-header = איסוף משפטים
 ## Reporting
 
 report = דיווח
-report-title = הגשת דיווח
+report-title = שליחת דיווח
 report-ask = אילו קשיים חווית עם המשפט הזה?
 report-offensive-language = שפה פוגענית
 report-offensive-language-detail = במשפט יש שפה מזלזלת או פוגענית.
@@ -1264,7 +1264,10 @@ sc-howto-title = הנחיות לביצוע
 sc-howto-addlang-title = הוספת שפות לעבוד אתן
 sc-howto-addlang-text = לאחר הכניסה, תוכלו לבחור את השפות שלכם בעמוד הפרופיל.
 sc-howto-addsen-title = הוספת משפטים חדשים
+sc-howto-addsen-item-1 = כל המשפטים שאתם שולחים חייבים להיות תחת <wikipediaLink>רישיון תחום ציבורי (CC-0)</wikipediaLink>. כדי לסייע בקליטה של כתבים שאינם תחת רישיון ציבורי, יצרנו <cc0WaiverLink>תבנית הסכם תרומות</cc0WaiverLink> עבור יצירות שבהן בעל זכויות היוצרים מעוניין לתרום את החומר ל-Common Voice.
 sc-howto-addsen-item-2 = מספרים. לא אמורות להיות ספרות בטקסט המקור מכיוון שהן עלולות לגרום לבעיות בקריאה בקול רם. אופן הקריאה של מספר תלוי בהקשר ועלול ליצור בלבול במערך הנתונים. לדוגמה, ניתן לקרוא את המספר "2409" במדויק כ"עשרים וארבע אפס תשע" וגם "אלפיים ארבע מאות תשע".
+sc-howto-addsen-item-3 = קיצורים וראשי תיבות. יש להימנע מקיצורים וראשי תיבות כמו 'ארה"ב' או 'צה"ל' בטקסט המקור מכיוון שהם עשויים להיקרא בצורה שאינה תואמת את האיות שלהם. בנוסף, ייתכן שיהיו מספר קריאות מדויקות עבור קיצור בודד. למשל, ראשי התיבות 'סמג"ד' יכולים להיות מבוטאים כמילה אחת, או 'סמך מג"ד'.
+sc-howto-addsen-item-4 = סימני פיסוק. יש לכלול סמלים מיוחדים וסימני פיסוק רק כאשר יש בכך צורך חד-משמעי. לדוגמה, מקף מופיע בסמיכות, למשל בצירוף "בית־ספר" ויש לכלול אותו בטקסט המקור, אך לא סביר שיהיה צורך בסמל מיוחד כמו "@" או "#. ”
 sc-howto-review-title = סקירת משפטים
 sc-howto-review-subtitle = נא לוודא שהמשפט עומד בתנאים הבאים:
 sc-howto-review-criteria-1 = המשפט חייב להיות מאוית כראוי.
@@ -1312,7 +1315,7 @@ sc-submit-err-add-sentences = נא להוסיף משפטים.
 sc-submit-err-add-source = נא להוסיף מקור.
 sc-submit-err-confirm-pd = נא לאשר שהמשפטים האלה הם נחלת הכלל.
 sc-submit-prompt =
-    .message = המשפטים לא הוגשו, לעזוב באמצע התהליך?
+    .message = המשפטים לא נשלחו, לעזוב באמצע התהליך?
 sc-submit-title = הוספת משפטים
 sc-submit-select-language =
     .labelText = בחירת שפה
@@ -1322,6 +1325,8 @@ sc-submit-ph-one-per-line =
 sc-submit-from-where = מאיפה המשפטים האלו שזמינים <wikipediaLink>לנחלת הכלל</wikipediaLink>?
 sc-submit-button =
     .submitText = שליחה
+sc-submit-filtered = משפטים שסוננו בשל אי-עמידה בתנאים (אנא שלחו גרסאות מתוקנות בתור משפטים חדשים):
+sc-submit-guidelines = נא לעיין ב<howToLink>הנחיות</howToLink>.
 
 ## ADD LANGUAGE
 
@@ -1329,13 +1334,21 @@ sc-add-lang-could-not-add = לא ניתן להוסיף שפה
 sc-add-lang-sec-label = נא להוסיף את השפה שברצונך לתרום לה
 sc-add-lang-sec-button = הוספת שפה
 sc-add-err-unexpected = הוחזרה תגובה בלתי צפויה מהשרת
+# Variables:
+#   $duplicates (Number) - Number of sentences which got rejected because they are duplicates
+sc-add-result =
+    { $duplicates ->
+        [0] המשפטים נשלחו. { $duplicates } משפטים נדחו ככפולים.
+        [one] המשפטים נשלחו. משפט אחד נדחה ככפול.
+       *[other] המשפטים נשלחו. { $duplicates } משפטים נדחו ככפולים.
+    }
 sc-add-err-submission = שגיאת הגשה
 sc-add-lang-process-notice = אם השפה שלך לא מופיעה כאן, אפשר לבקש אותה באמצעות <languageProcessLink>התהליך הזה</languageProcessLink>.
 
 ## ADD SENTENCES CONFIRMATION
 
 sc-confirm-are-you-sure =
-    .message = המשפטים לא הוגשו, לעזוב באמצע התהליך?
+    .message = המשפטים לא נשלחו, לעזוב באמצע התהליך?
 # Variables:
 #   $countOfSentences (Number) - Number of sentences the user has filled in the submission form
 sc-confirm-sentences-found =
@@ -1528,7 +1541,7 @@ adding-sentences-subheader-numbers-explanation = באופן אידיאלי לא 
 adding-sentences-subheader-abbreviations = קיצורים וראשי תיבות
 adding-sentences-subheader-abbreviations-explanation = יש להימנע מקיצורים וראשי תיבות כמו 'ארה"ב' או 'צה"ל' בטקסט המקור מכיוון שהם עשויים להיקרא בצורה שאינה תואמת את האיות שלהם. בנוסף, ייתכן שיהיו מספר קריאות מדויקות עבור קיצור בודד.
 adding-sentences-subheader-punctuation = סימני פיסוק
-adding-sentences-subheader-punctuation-explanation = יש לכלול סמלים מיוחדים וסימני פיסוק רק כאשר יש בך צורך חד-משמעי. לדוגמה, מקף מופיע בסמיכות, למשל בצירוף "בית־ספר" ויש לכלול אותו בטקסט המקור, אך לא סביר שיהיה צורך בסמל מיוחד כמו "@" או "#. ”
+adding-sentences-subheader-punctuation-explanation = יש לכלול סמלים מיוחדים וסימני פיסוק רק כאשר יש בכך צורך חד-משמעי. לדוגמה, מקף מופיע בסמיכות, למשל בצירוף "בית־ספר" ויש לכלול אותו בטקסט המקור, אך לא סביר שיהיה צורך בסמל מיוחד כמו "@" או "#. ”
 adding-sentences-subheader-special-characters = תווים מיוחדים ואותיות משפות זרות
 adding-sentences-subheader-special-characters-explanation-1 = המכתבים חייבים להיות תקפים בשפה המדוברת. לדוגמה, "a" היא אות באלפבית האנגלי, אך לעולם אינה בשימוש בעברית ולכן לא אמורה להופיע בשום טקסט שמקורו בעברית.
 adding-sentences-subheader-special-characters-explanation-2 = לשפות יכולות להיות כללי אימות משלהן עם דרישות נוספות כאשר הן עוברות לוקליזציה. אם אין קובץ אימות ספציפי לשפה מסויימת, הכללים באנגלית הם אלה שיופיעו לתורמים.
