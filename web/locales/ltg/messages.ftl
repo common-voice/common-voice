@@ -70,7 +70,31 @@ listen-subtitle = Paleidzit puorbaudeit bolsus
 listen-goal-text = Apstyprynuoti īroksti
 hours-recorded = Īraksteituos stuņdis
 hours-validated = Puorbaudeituos stuņdis
+voices-online = Dalinīki tīšsaistē
+todays-progress = Šudiņdīnys progress
+help-reach-goal = Paleidzit sasnēgt { $goal }
+read-terms-q = Voi esit puorskaitejs nūsacejumus?
+ready-to-record = Voi esit gotovs pazīduot sovu bolsu?
+all-locales = Vysys
 today = Šudiņ
+x-weeks-short =
+    { $count ->
+        [zero] { $count }n
+        [one] { "" }
+       *[other] { "" }
+    }
+x-months-short =
+    { $count ->
+        [zero] { $count }m
+        [one] { "" }
+       *[other] { "" }
+    }
+x-years-short =
+    { $count ->
+        [zero] { $count }g
+        [one] { "" }
+       *[other] { "" }
+    }
 
 ## Account Benefits
 
