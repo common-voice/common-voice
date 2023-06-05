@@ -1,18 +1,46 @@
 import React from 'react'
 import { Localized } from '@fluent/react'
+import { filesize } from 'filesize'
 
 import { UploadIconLarge } from '../../../../../ui/icons'
-import { Button } from '../../../../../ui/ui'
-import { UploadStatus } from '../../../../../../hooks/use-bulk-submission-upload'
+import { Button, Spinner } from '../../../../../ui/ui'
+import {
+  FileInfo,
+  UploadStatus,
+} from '../../../../../../hooks/use-bulk-submission-upload'
 
 type Props = {
   isDragActive: boolean
   uploadStatus: UploadStatus
+  uploadProgress: number
+  fileInfo: FileInfo
 }
 
-const UploadZoneContent: React.FC<Props> = ({ isDragActive, uploadStatus }) => {
-  if (uploadStatus === 'uploading') {
-    return <h1>Uploading...</h1>
+const UploadZoneContent: React.FC<Props> = ({
+  isDragActive,
+  uploadStatus,
+  uploadProgress,
+  fileInfo,
+}) => {
+  if (uploadStatus === 'uploading' && fileInfo) {
+    return (
+      <div className="uploading-container">
+        <div className="progress-container">
+          <span style={{ width: `${uploadProgress}%` }} />
+          <progress max={100} value={uploadProgress} />
+        </div>
+        <Spinner isFloating={false} />
+        <Localized
+          id="upload-progress-text"
+          vars={{ progress: uploadProgress }}>
+          <p className="upload-progress-text" />
+        </Localized>
+        <p className="file-name">{fileInfo?.name}</p>
+        <p className="file-size">
+          {filesize(fileInfo?.size)} • {fileInfo?.lastModified}
+        </p>
+      </div>
+    )
   }
 
   if (uploadStatus === 'done') {

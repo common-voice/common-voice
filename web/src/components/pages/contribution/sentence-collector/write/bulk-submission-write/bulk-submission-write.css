@@ -32,6 +32,10 @@
                 justify-content: space-around;
                 background: var(--grey);
 
+                &.file-uploading {
+                    border: none;
+                }
+
                 @media (--lg-only) {
                     width: 55vw;
                 }
@@ -49,7 +53,7 @@
                 }
 
                 & .or-conjunction {
-                    color: var(--warm-grey)
+                    color: var(--warm-grey);
                 }
 
                 & .file-restrictions {
@@ -64,6 +68,67 @@
 
                     @media (--md-down) {
                         width: auto;
+                    }
+                }
+
+                & .uploading-container {
+                    width: 100%;
+                    height: 100%;
+                    background: var(--white);
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+
+                    progress {
+                        opacity: 0;
+                    }
+
+                    & .progress-container {
+                        position: relative;
+                        display: inline-block;
+                        width: 100%;
+                        height: 8px;
+                        border-radius: 0px 4px 4px 0px;
+                        overflow: hidden;
+
+                        span {
+                            position: absolute;
+                            display: inline-block;
+                            top: 0;
+                            left: 0;
+                            height: 100%;
+                            /* width: 75%; */
+                            background: linear-gradient(
+                                90deg,
+                                #88d1f1 0%,
+                                #b1b5e5 100%
+                            );
+                        }
+                    }
+
+                    /* .progress-container::before {
+                        content: '';
+                    } */
+
+                    & .spinner__shape {
+                        width: 5.5rem;
+                        height: 5.5rem;
+                    }
+
+                    & .upload-progress-text {
+                        font-size: var(--font-size-lg);
+                        font-weight: 600;
+                        margin-bottom: 16px;
+                    }
+
+                    & .file-name {
+                        margin-bottom: 8px;
+                    }
+
+                    & .file-size {
+                        font-weight: 400;
+                        color: var(--warm-grey);
+                        font-size: var(--font-size-xs);
                     }
                 }
             }
