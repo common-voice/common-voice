@@ -6,6 +6,7 @@ import {
   SentenceSubmission,
   SentenceVote,
 } from 'common'
+import { UploadStatus } from '../hooks/use-bulk-submission-upload'
 
 const CACHE_SET_COUNT = 25
 const MIN_CACHE_COUNT = 5
@@ -19,7 +20,7 @@ export namespace Sentences {
       isLoadingPendingSentences: boolean
       hasLoadingError: boolean
       pendingSentences: PendingSentence[]
-      bulkUploadProgress: number
+      bulkUploadProgress?: number
     }
   }
 
@@ -223,10 +224,12 @@ export namespace Sentences {
         file,
         locale,
         fileName,
+        setUploadStatus,
       }: {
         file: File
         locale: string
         fileName: string
+        setUploadStatus: React.Dispatch<React.SetStateAction<UploadStatus>>
       }) =>
       (dispatch: Dispatch<BulkUploadProgress>, getState: () => StateTree) => {
         const state = getState()
@@ -236,16 +239,14 @@ export namespace Sentences {
         ) => {
           const progress = evt.loaded / evt.total
 
-          console.log({ progress: Math.round(progress * 100) })
-
           dispatch({
             type: ActionType.BULK_UPLOAD_PROGRESS,
-            bulkUploadProgress: Math.round(progress * 100),
+            bulkUploadProgress: Math.floor(progress * 100),
           })
         }
 
-        const onResponse = (response: unknown) => {
-          console.log({ response })
+        const onResponse = () => {
+          setUploadStatus('done')
         }
 
         state.api.uploadBulkSubmission({
@@ -292,7 +293,6 @@ export namespace Sentences {
             isLoadingPendingSentences:
               currentLocaleState.isLoadingPendingSentences,
             pendingSentences: currentLocaleState.pendingSentences,
-            bulkUploadProgress: currentLocaleState.bulkUploadProgress,
           },
         }
       }
@@ -317,7 +317,6 @@ export namespace Sentences {
             isLoadingPendingSentences:
               currentLocaleState.isLoadingPendingSentences,
             pendingSentences: currentLocaleState.pendingSentences,
-            bulkUploadProgress: currentLocaleState.bulkUploadProgress,
           },
         }
 
@@ -333,7 +332,6 @@ export namespace Sentences {
             isLoadingPendingSentences:
               currentLocaleState.isLoadingPendingSentences,
             pendingSentences: currentLocaleState.pendingSentences,
-            bulkUploadProgress: currentLocaleState.bulkUploadProgress,
           },
         }
 
@@ -403,7 +401,13 @@ export namespace Sentences {
       }
 
       case ActionType.BULK_UPLOAD_PROGRESS: {
-        return state
+        return {
+          ...state,
+          [locale]: {
+            ...currentLocaleState,
+            bulkUploadProgress: action.bulkUploadProgress,
+          },
+        }
       }
 
       default:
