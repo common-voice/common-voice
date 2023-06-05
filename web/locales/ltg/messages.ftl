@@ -127,6 +127,9 @@ shortcut-vote-no = n
 # Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-record-toggle = r
+shortcut-record-toggle-label = Īraksteit/Apturēt
+shortcut-rerecord-toggle = [1-5]
+shortcut-discard-ongoing-recording = ESC
 request-language-button = Pīpraseit volūdys
 
 ## ProjectStatus
@@ -303,6 +306,8 @@ request-language-title = Volūdys pīprasejums
 request-language-form-language =
     .label = Volūda
 request-language-success-title = Volūdys pīprasejums veiksmeigi īsnīgts, paļdis.
+select-language = Izalosit volūdu...
+other-language = Cyta volūda
 
 ## Request Language Pages
 
@@ -313,6 +318,8 @@ request-language-form-info =
 
 ## Languages Overview
 
+language-section-in-progress = Procesā
+language-section-launched = Aizsuokts
 languages-show-more = Ruodeit vaira
 languages-show-less = Ruodeit mozuok
 language-meter-in-progress = Progress
@@ -341,6 +348,8 @@ clips-with-count-pluralized =
         [one] { "" }
        *[other] { "" }
     }
+record-cta = Suocit īraksteišonu
+record-error-too-quiet = Īroksts beja par cīš kluss.
 
 ## Contribution Nav Items
 
