@@ -10,6 +10,11 @@ submit-form-action = Nūsyuteit
 loading = Īluodej…
 email-opt-in-info = Es grybu sajimt e-postus, par pīmāru, mierka atguodynuojumus, progresa atjaunynuojumus i informativūs biletenus par itū projektu.
 email-opt-in-info-title = Pīsavīnuot Common Voice viestim e-postā
+not-available-abbreviation = N/P
+banner-error-slow-link = Statusa lopa
+error-something-went-wrong = Atlaidit, koč kas nūguoja greizi
+error-clip-upload = Ituo īroksta augšupīluode aizviņ naizadūd. Voi raudzeit otkon?
+error-clip-upload-server = Ituo īroksta augšupīluode serverī vys vēļ naizadūd. Puorluodejit lopu voi vāluok raugit vēļreiz.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -17,6 +22,16 @@ email-opt-in-info-title = Pīsavīnuot Common Voice viestim e-postā
 
 ## Languages
 
+ab = Abhazīšu
+be = Boltkrīvu
+bg = Bulgaru
+bm = Bambaru
+cs = Čehu
+cv = Čuvašu
+cy = Velsīšu
+de = Vuocu
+en = Angļu
+eo = Esperanto
 pl = Pūļu
 ps = Puštu
 pt = Portugaļu
