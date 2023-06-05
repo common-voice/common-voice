@@ -314,7 +314,7 @@ join-newsletter = Ja vēlaties, pievienojieties mūsu e-pasta adresātu saraksta
 ## What's public
 
 whats-public = Kas ir publiski pieejams?
-email-not-public = Mēs nepubliskosim jūsu epastu.
+email-not-public = Mēs nepubliskosim jūsu e-pastu.
 recordings-and-locale-public = Ieguldīto ierakstu skaits un valodas būs publiski pieejamas.
 username-optin-public = Jūs varat izvēlēties, vai lietotājvārds ir publisks vai anonīms.
 demographic-deidentified-clarity-2 = Pēc izvēles iesniegtie demogrāfiskie dati (piemēram, vecums, dzimums, valoda un akcents) nekad netiks publiskoti jūsu profilā un netiks saistīti ar jūsu kontu datu kopā. Atsevišķi audio ieraksti tiks saistīti ar demogrāfiskajiem datiem, lai veiktu precīzāku analīzi, piemēram, pētnieks var vēlēties apmācību modeli atlasīt noteiktam demogrāfiskajam segmentam.
