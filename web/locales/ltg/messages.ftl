@@ -97,6 +97,7 @@ about-nav-playbook = Izzynoj, kai pīsadaleit
 ## What is a language
 
 about-playbook-what-is-language = Kas ir volūda Common Voice sistemā?
+about-playbook-what-is-language-content-2 = Mes gribim, lai runys modeli lobuok saprastu dažaidus runuotuojus. Lai tys nūtyktu, bolsa datu kūpai ir juoparuoda, kai runoj daudz vysaidu cylvāku.
 
 ## How do I add a language
 
