@@ -196,7 +196,7 @@ about-playbook-what-is-language-content-2 = Mes gribim, lai runys modeli lobuok 
 
 ## How do I add a language
 
-about-playbook-how-add-language = Kai davīnuot volūdu?
+about-playbook-how-add-language = Kai dalikt volūdu?
 about-playbook-how-add-language-translating-heading = Škārsteikla lopys tulkuošona
 about-playbook-how-add-language-collecting-sentences-heading = Teikumu apkūpuošona
 
@@ -462,6 +462,7 @@ download-request-button = Lejupīluodēt
 download-request-title = { $created }
 download-request-refresh-button = Atjaunynuot
 download-request-link-text = Zip #{ $offset } no { $total }
+download-request-metadata-link = Teikuma teksts
 
 ## Landing
 
@@ -494,7 +495,7 @@ contribution-volume-title = Skaļums
 
 sc-header-home = Suokums
 sc-header-how-to = Padūmi
-sc-header-add = Pīvīnuot
+sc-header-add = Dalikt
 sc-header-review = Puorbaudit
 sc-header-rejected = Nūraideitī teikumi
 sc-header-my = Muni teikumi
@@ -664,7 +665,7 @@ sentence =
 citation-input-value = Jiusu teikuma olūts
 citation =
     .label = Atsauce
-what-can-i-add = Kaidus teikumus es varu davīnuot?
+what-can-i-add = Kaidus teikumus es varu dalikt?
 new-sentence-rule-1 = <noCopyright>Nav autortīseibu</noCopyright> īrūbežuojumu (<cc0>cc-0</cc0>)
 new-sentence-rule-2 = Muozuok par 15 vuordim
 new-sentence-rule-3 = Ir gramatiski pareizi
@@ -692,5 +693,5 @@ sentences-fetch-error = Īluodejūt teikumus, nūtykuse klaida
 review-error = Puorsaverūt teikumu, nūtykuse klaida
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = Mes veicam puors lelys izmainis
-sc-redirect-page-subtitle-1 = Teikumu apkūpuošonys reiks puorīt iz Common Voice platformu. Tagad varit <writeURL>davīnuot</writeURL> i<reviewURL>puorbaudeit</reviewURL> teikumus Common Voice sistemā.
+sc-redirect-page-subtitle-1 = Teikumu apkūpuošonys reiks puorīt iz Common Voice platformu. Tagad varit <writeURL>dalikt</writeURL> i<reviewURL>puorbaudeit</reviewURL> teikumus Common Voice sistemā.
 sc-redirect-page-subtitle-2 = Aizdūdit mums vaicuojumus <matrixLink>Matrix</matrixLink>, <discourseLink>Discourse</discourseLink> voi rokstūt <emailLink>e-postu</emailLink>.
