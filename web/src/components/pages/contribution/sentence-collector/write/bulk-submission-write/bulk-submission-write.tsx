@@ -1,6 +1,7 @@
 import React, { useCallback } from 'react'
 import { useDropzone } from 'react-dropzone'
 import { Localized } from '@fluent/react'
+import classNames from 'classnames'
 
 import { Instruction } from '../../instruction'
 import {
@@ -21,12 +22,14 @@ import useBulkSubmissionUpload from '../../../../../../hooks/use-bulk-submission
 import './bulk-submission-write.css'
 
 const BulkSubmissionWrite = () => {
-  const { handleDrop, uploadStatus } = useBulkSubmissionUpload()
+  const { handleDrop, uploadStatus, uploadProgress, fileInfo } =
+    useBulkSubmissionUpload()
 
   const { getRootProps, getInputProps, isDragActive } = useDropzone({
     onDrop: useCallback(handleDrop, []),
     accept: { 'text/tab-separated-values': ['.tsv'] },
     multiple: false,
+    disabled: uploadStatus === 'uploading' || uploadStatus === 'done',
   })
 
   return (
@@ -41,12 +44,16 @@ const BulkSubmissionWrite = () => {
           <div>
             <div
               data-testid="bulk-upload-dropzone"
-              className="upload-dropzone"
+              className={classNames('upload-dropzone', {
+                'file-uploading': uploadStatus === 'uploading',
+              })}
               {...getRootProps()}>
               <input data-testid="file-input" {...getInputProps()} />
               <UploadZoneContent
                 isDragActive={isDragActive}
                 uploadStatus={uploadStatus}
+                uploadProgress={uploadProgress}
+                fileInfo={fileInfo}
               />
             </div>
             <div className="expandable-container">
