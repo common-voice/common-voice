@@ -1215,6 +1215,11 @@ contribution-background-voices-example-1-explanation = יאללה נו! <strong>
 contribution-volume-title = עוצמת שמע
 contribution-volume-description = יהיו שינויים טבעיים בעומצת הדיבור וההקלטה בין הקוראים. יש לדחות רק אם עוצמת הקול כה גבוהה עד שההקלטה נקטעת, או (באופן נפוץ יותר) אם היא כה נמוכה עד שלא ניתן לשמוע את הנאמר ללא התייחסות לטקסט הכתוב.
 contribution-reader-effects-title = אופן הדיבור
+contribution-reader-effects-description = רוב ההקלטות הן של אנשים המדברים בקול הטבעי שלהם. ניתן לאשר הקלטות לא-סטנדרטיות עם צעקה, לחישה, או שהוקראו בקול 'דרמטי'. נא לדחות הקלטות בהם הטקסט הושר וכן את אלה המשתמשות בקול שהופק במחשב.
+contribution-just-unsure-title = לא בטוחים?
+contribution-just-unsure-description = אם נתקלתם במשהו שההנחיות הללו לא כוללות, אנא החליטו לפי מיטב שיקול דעתכם. אם באמת אינכם מצליחים להכריע, השתמש בלחצן הדילוג והמשיכו הלאה.
+see-more = <chevron></chevron>להציג עוד
+see-less = <chevron></chevron>להציג פחות
 
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
@@ -1235,8 +1240,10 @@ sc-footer-report-bugs = דיווח על תקלות
 sc-footer-translate = תרגום עמוד זה
 sc-footer-report-copyright = דיווח על בעיות בזכויות יוצרים
 sc-footer-privacy = פרטיות
+sc-footer-terms = תנאים
 sc-footer-cookies = עוגיות
 sc-login-signup-button = כניסה / הרשמה
+sc-logout-button = התנתקות
 
 ## HOME
 
@@ -1245,12 +1252,17 @@ sc-home-intro = אספן המשפטים הוא חלק מ-<commonVoiceLink>Common
 sc-home-collect-title = איסוף משפטים
 sc-home-collect-text = עזרו לנו על ידי כתיבה או איסוף משפטים הנמצאים בנחלת הכלל.
 sc-home-review-title = סקירת משפטים
+sc-home-review-text = עזרו לנו על ידי בדיקה האם משפטים עומדים בהנחיות.
 
 ## GENERAL
 
+sc-languages-fetch-error = לא הצלחנו לשלוף את השפות הזמינות. לא ניתן כרגע לתרום. אנא נסו שוב מאוחר יותר.
 
 ## HOW-TO
 
+sc-howto-title = הנחיות לביצוע
+sc-howto-addlang-title = הוספת שפות לעבוד אתן
+sc-howto-addlang-text = לאחר הכניסה, תוכלו לבחור את השפות שלכם בעמוד הפרופיל.
 sc-howto-addsen-title = הוספת משפטים חדשים
 sc-howto-addsen-item-2 = מספרים. לא אמורות להיות ספרות בטקסט המקור מכיוון שהן עלולות לגרום לבעיות בקריאה בקול רם. אופן הקריאה של מספר תלוי בהקשר ועלול ליצור בלבול במערך הנתונים. לדוגמה, ניתן לקרוא את המספר "2409" במדויק כ"עשרים וארבע אפס תשע" וגם "אלפיים ארבע מאות תשע".
 sc-howto-review-title = סקירת משפטים
