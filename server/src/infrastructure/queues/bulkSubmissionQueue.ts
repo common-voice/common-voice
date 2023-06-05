@@ -1,90 +1,28 @@
-import * as Queue from 'bull'
-import { CommonVoiceConfig, getConfig } from '../../config-helper'
+import { pipe } from 'fp-ts/lib/function'
+import { io as IO } from 'fp-ts'
 import {
-  bulkSubmissionImportProcessor,
-  bulkSubmissionUploadProcessor,
-} from './processors/bulkSubmissionProcessor'
-import {
-  BulkSubmissionImportJob,
-  BulkSubmissionUploadJob,
-} from './types/BulkSubmissionJob'
+  addJobToQueue,
+  addProcessorToQueue,
+  attachEventHandlerToQueue,
+  getQueue,
+} from './queues'
+import { BulkSubmissionUploadJob } from './types/BulkSubmissionJob'
+import { bulkSubmissionUploadProcessor } from './processors/bulkSubmissionProcessor'
 import { JobQueue } from './types/JobQueue'
-import { task as T } from 'fp-ts'
-import { Job } from 'bull'
-import { BulkSubmissionJobResult } from './types/BulkSubmissionResult'
 
-const getRedisConfig = (config: CommonVoiceConfig): Queue.QueueOptions => {
-  const redisUrlParts = config.REDIS_URL?.split('//')
+const BULK_SUBMISSION_UPLOAD_QUEUE_NAME = 'bulk-submission-upload-queue'
 
-  if (!redisUrlParts) return { redis: { host: config.REDIS_URL } }
-
-  const redisDomain =
-    redisUrlParts.length > 1 ? redisUrlParts[1] : redisUrlParts[0]
-
-  let redisOpts: any = { host: redisDomain }
-
-  if (config.REDIS_URL.includes('rediss://')) {
-    redisOpts = { ...redisOpts, tls: redisOpts }
-  }
-
-  return { redis: redisOpts }
-}
-
-const bulkSubmissionImportQueue = new Queue(
-  'bulk-submission-import-queue',
-  getRedisConfig(getConfig())
-)
-
-const bulkSubmissionUploadQueue = new Queue(
-  'bulk-submission-upload-queue',
-  getRedisConfig(getConfig())
-)
-
-bulkSubmissionImportQueue.process(bulkSubmissionImportProcessor)
-bulkSubmissionUploadQueue.process(bulkSubmissionUploadProcessor)
-
-export const addBulkSubmissionImportJob = (
-  job: BulkSubmissionImportJob
-): T.Task<boolean> => {
-  bulkSubmissionImportQueue.add(job)
-  return T.of(true)
-}
-
-export const addBulkSubmissionUploadJob = (
-  job: BulkSubmissionUploadJob
-): T.Task<boolean> => {
-  return async () => {
-    await bulkSubmissionUploadQueue.add(job)
-    console.log(`Bulk submission job ${job.filename} added to queue`)
-    return true
-  }
-}
-
-export const BulkSubmissionImportJobQueue: JobQueue<BulkSubmissionImportJob> = {
-  addJob: addBulkSubmissionImportJob,
+export const setupBulkSubmissionQueue = () => {
+  return pipe(
+    getQueue<BulkSubmissionUploadJob>(BULK_SUBMISSION_UPLOAD_QUEUE_NAME),
+    IO.chainFirst(addProcessorToQueue(bulkSubmissionUploadProcessor)),
+    IO.chainFirst(attachEventHandlerToQueue('error')(console.error)),
+    IO.chainFirst(attachEventHandlerToQueue('failure')(console.error))
+  )
 }
 
 export const BulkSubmissionUploadJobQueue: JobQueue<BulkSubmissionUploadJob> = {
-  addJob: addBulkSubmissionUploadJob,
+  addJob: addJobToQueue(
+    getQueue<BulkSubmissionUploadJob>(BULK_SUBMISSION_UPLOAD_QUEUE_NAME)()
+  ),
 }
-
-bulkSubmissionUploadQueue.on(
-  'completed',
-  (job: Job<BulkSubmissionUploadJob>, result: BulkSubmissionJobResult) => {
-    switch (result.kind) {
-      case 'success':
-        console.log(
-          `Bulk submission uploaded successfully as ${job.data.filepath}`
-        )
-        break
-      case 'failure':
-        console.log(
-          `Bulk submission upload for ${job.data.filename} failed: ${result.reason}`
-        )
-        break
-    }
-  }
-)
-
-bulkSubmissionUploadQueue.on('error', console.error)
-bulkSubmissionUploadQueue.on('failed', console.error)
