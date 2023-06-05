@@ -1656,11 +1656,13 @@ adding-sentences-subheader-special-characters-explanation-1 = Umi kuatiahai oiko
 adding-sentences-subheader-offensive-content = Ñe’ẽreity Ivaíva
 reviewing-sentences-explanation-1 = Pe ñe’ẽjuaju oiko hekopetéramo, eikutu pe votõ "Moneĩ".
 reviewing-sentences-explanation-2 = Pe ñe’ẽjuaju ndoikóiramo hekopete, eikutu pe votõ "Nahániri".
+reviewing-sentences-explanation-4 = Repytáramo ñe’ẽjuaju’ỹre ehechajey hag̃ua, ¡orepytyvõ rombyatyvévo ñe’ẽjuaju!
 # WRITE PAGE
 write-instruction-second-part = ñe’ẽjoaju opavave oipurukuaáva
 sentence =
     .label = Ñe’ẽjoaju
 sentence-input-value = Ehai ko’ápe ne ñe’ẽjuaju opavave oipurukuaáva
+citation-input-value = Ne ñe’ẽjoaju heñoihague
 citation =
     .label = Jehechauka
 new-sentence-rule-2 = Sa’ieteve 15 ñe’ẽgui
