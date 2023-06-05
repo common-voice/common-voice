@@ -129,10 +129,29 @@ about-playbook-how-grow-language-content-2 = Nūtikšonys
 
 ## Data
 
+data-other-title = Citys bolsa datu kūpys…
+data-other-goto = Ej iz { $name }
+data-other-download = Lejupīluodēt datus
+review-recording = Puorbaudit
+review-rerecord = Īrokstit atkuortuotai
+review-cancel = Atceļt īsnēgšonu
+review-keep-recordings = Saglobuot īrokstus
+review-delete-recordings = Dzēst munus īrokstus
 
 ## Datasets Page
 
+datasets-heading = Datu kūpys
+# File size in gigabytes
+size = Izmārs
+validated-hr-total = Puorbaudeitys st. kūpā
+overall-hr-total = Pavysam kūpā st.
+cv-license = Liceņze
+audio-format = Audio formats
+number-of-voices = Bolsu skaits
+splits = Statistika
 email-to-download = Īvodit sovu e-postu, lai lejupīluodātu
+why-email = <b>Parkū e-posts?</b> Mums varbyut nuokūtnē byus juosazynoj ar jums par izmaiņom datu kūpā, tū dareisim ar e-posta paleidzeibu.
+confirm-size = Jius esit gotovs suokt lejupīluodēt <b>{ $size }</b>
 size-gigabyte = GB
 size-megabyte = MB
 confirm-no-identify = <b>Jius pīkreitat</b>, ka naraudzeisit nūsaceit ideņtitati cylvākim, kuri taisejuši īrokstus Common Voice datu kūpā
