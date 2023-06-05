@@ -1277,22 +1277,36 @@ sc-howto-cite-item-1 = אפשר לציין את האתר, למשל "פונטון
 sc-howto-cite-item-2 =
     אפשר להביא ציטוט אקדמי, למשל בסגנון הרווארד, 
     "מוזילה (2021) פונטון. זמין בכתובת https://pontoon.mozilla.org/ (נשלף ב-15 בספטמבר 2021)"
+sc-howto-cite-item-3 = עבור טקסט המצוי בנחלת הכלל שאינו זמין באופן מקוון, תוכלו להשתמש בסגנון הפניה אקדמי, למשל בסגנון הרווארד, "ישראל ישראלי (2021) מיטב שיריו הציבוריים"
 sc-howto-review-title = סקירת משפטים
 sc-howto-review-subtitle = נא לוודא שהמשפט עומד בתנאים הבאים:
 sc-howto-review-criteria-1 = המשפט חייב להיות מאוית כראוי.
 sc-howto-review-criteria-2 = המשפט חייב להיות נכון דקדוקית.
 sc-howto-review-criteria-3 = המשפט חייב להיות אפשרי להגיה.
 sc-howto-review-criteria-4 = אם המשפט עומד בתנאים, יש ללחוץ על הכפתור „אישור”.
+sc-howto-review-criteria-5 = אם המשפט לא עומד בתנאים לעיל, לחצו על כפתור "דחייה". אם אתם לא בטוחים לגבי המשפט, אתם גם יכולים לדלג עליו ולהמשיך הלאה.
 sc-howto-review-criteria-6 = אם אין לכם יותר משפטים לסקירה, נשמח שתעזרו לנו לאסוף עוד!
 sc-howto-findpd-title = איתור משפטים קיימים שזמינים לנחלת הכלל
+sc-howto-findpd-subtitle = מצאו אותם באינטרנט
+sc-howto-findpd-text-2 = זכרו שאנו צריכים רשות לפרסם את המשפטים הללו, אז תמיד צריך לוודא שהטקסט מצוי <wikipediaLink>בנחלת הכלל</wikipediaLink>. אם הדבר לא מצוין במפורש, צרו קשר עם היוצרים כדי לשאול האם ברצונם לתרום את הטקסט שלהם לנחלת הכלל. אם הם אכן רוצים, עזרו להם לעבור על <cc0WaiverLink>הסכם התרומות</cc0WaiverLink>. אם הם לא רוצים, אסור להשתמש בטקסט הזה.
 sc-howto-findpd-tips = להלן מגוון עצות לאיתור משפטים:
+sc-howto-findpd-tips-1 = המקורות הטובים ביותר לחפש בהם הם הסכתים (פוד-קאסטים), תמלולים, תסריטים וכל דבר שעשוי להכיל שיחה יום־יומית.
+sc-howto-findpd-tips-2 = מסמכים ממשלתיים, ספרים ומאמרים הם גם אחלה, אם כי מכיוון שהטקסט נוטה להיות בסגנון יותר רשמי הם בעדיפות נמוכה יותר.
+sc-howto-findpd-tips-3 = לרוע המזל, נכון לעכשיו אסור שיהיו לנו ערכים מוויקיפדיה. אז לא להעתיק ולהדביק משם.
+sc-howto-findpd-subtitle-2 = שיתוף פעולה מקומי עם ארגונים או פרטים
+sc-howto-findpd-partner-1 = ישנם מוסדות ועמותות רבים שעשויים לרצות לשתף פעולה, וברשותם קיימת כבר כמות גדולה של טקסט שהם יכולים לתרום לנחלת הכלל. צרו קשר עם אוניברסיטאות, ממשלות וגופים שעוסקים בקוד פתוח כדי לספר להם על הפרוייקט ולבקש את עזרתם.
+sc-howto-findpd-partner-2 = מומחים לשפה ובלשנים יכולים גם לעזור. צרו קשר עם המחלקות לשפה ולבלשנות באוניברסיטאות (מורים ותלמידים כאחד) ובדקו אם הם יכולים לעזור לאסוף קבוצה מגוונת של משפטים בשפה שלכם.
 
 ## MY SENTENCES
 
 sc-my-title = המשפטים שלי
+sc-my-description = בעמוד זה תוכלו לסקור את כל המשפטים שהדשתם. אפשר גם למחוק משפטים שהוגשו אם צריך, על-ידי סימון התיבה ליד המשפט ולחיצה על &quot;מחיקת משפטים נבחרים&quot;. אנא הסירו משפטים רק אם הדבר הכרחי בהחלט, למשל אם שמתם לב לאחר מעשה שהמשפט מוגן בזכויות יוצרים.
 sc-my-loading = המשפטים שלך נטענים…
 sc-my-err-fetching = שגיאה במשיכת המשפטים שלך. נא לנסות שוב.
 sc-my-no-sentences = לא נמצאו משפטים!
+# Variables:
+#   $batchId (String) - A unique ID identifying the submission of sentences - sentences uploaded together all have the same batch ID
+sc-my-submission = הגשה: { $batchId }
 # Variables:
 #   $source (String) - Associated source the user filled out when uploading the sentence
 sc-my-source = מקור: { $source }
@@ -1332,6 +1346,8 @@ sc-submit-add-sentences = הוספת משפטים <wikipediaLink>בנחלת הכ
 sc-submit-ph-one-per-line =
     .placeholder = משפט אחד בכל שורה
 sc-submit-from-where = מאיפה המשפטים האלו שזמינים <wikipediaLink>לנחלת הכלל</wikipediaLink>?
+sc-submit-ph-read-how-to =
+    .placeholder = אם אינכם בטוחים כיצד לצטט את המקור, קראו את ההדרכה שלנו
 sc-submit-button =
     .submitText = שליחה
 sc-submit-filtered = משפטים שסוננו בשל אי-עמידה בתנאים (אנא שלחו גרסאות מתוקנות בתור משפטים חדשים):
@@ -1399,6 +1415,7 @@ sc-personal-not-added = עדיין לא הוספת שפות.
 sc-criteria-make-sure = נא לוודא שהמשפט עומד בתנאים הבאים:
 sc-criteria-item-1 = על המשפט להיות מאוית כראוי.
 sc-criteria-item-2 = המשפט חייב להיות נכון מבחינה דקדוקית.
+sc-criteria-item-5-2 = אם המשפט לא עומד בתנאים לעיל, לחצו על כפתור &quot;דחייה&quot;. אם אתם לא בטוחים לגבי המשפט, אתם גם יכולים לדלג עליו ולהמשיך הלאה.
 sc-criteria-item-6 = אם אין לכם יותר משפטים לסריקה, נשמח שתעזרו לנו לאסוף עוד!
 
 ## REVIEW
@@ -1534,7 +1551,7 @@ citing-sentences-subheader-websites-explanation = ניתן לכלול את הכ�
 citing-sentences-subheader-academic-reference = ציטוט למקור אקדמי
 citing-sentences-subheader-academic-reference-explanation = ניתן להשתמש בסגנון הפניה אקדמי, למשל בסגנון הרווארד "Mozilla (2021) Common Voice. זמין בכתובת https://commonvoice.mozilla.org/ (גישה: 15 בספטמבר 2021)"
 citing-sentences-subheader-offline-sources = מקורות לא-מקוונים
-citing-sentences-subheader-offline-sources-explanation = עבור טקסט בנחלת הכלל שאינו זמין באינטרנט, תוכלו להשתמש בסגנון הפניה אקדמי, למשל בסגנון הרווארד "Jess (2021) My Public license poems"
+citing-sentences-subheader-offline-sources-explanation = עבור טקסט המצוי בנחלת הכלל שאינו זמין באופן מקוון, תוכלו להשתמש בסגנון הפניה אקדמי, למשל בסגנון הרווארד, "ישראל ישראלי (2021) מיטב שיריו הציבוריים"
 citation =
     .label = ציטוט מקור
 self-citation = ציטוט עצמי
