@@ -132,6 +132,15 @@ about-playbook-how-grow-language-content-2 = Nūtikšonys
 
 ## Datasets Page
 
+email-to-download = Īvodit sovu e-postu, lai lejupīluodātu
+size-gigabyte = GB
+size-megabyte = MB
+confirm-no-identify = <b>Jius pīkreitat</b>, ka naraudzeisit nūsaceit ideņtitati cylvākim, kuri taisejuši īrokstus Common Voice datu kūpā
+confirm-join-mailing-list = Es grybu pīsavīnuot Common Voice viestim e-postā
+download-language = Lejupīluodēt { $language }
+validated-hours = Puorbaudeituos stuņdis
+recorded-hours = Īraksteituos stuņdis
+whats-inside = Kas atsarūn Common Voice datu kūpā?
 more = Vairuok
 close = Aiztaiseit
 download = Lejupluodēt
