@@ -994,10 +994,14 @@ recorded-clips = מקטעים שהוקלטו
 validated-clips = מקטעים שאומתו
 total-approved = סה״כ אושרו
 overall-accuracy = דיוק כללי
+set-visibility = הגדרת הנראות שלי
+visibility-explainer = הגדרה זו שולטת בהופעה שלך בטבלת המובילים. בעת הסתרה, ההתקדמות שלך תהיה פרטית. פירוש הדבר שהתמונה שלך, שם המשתמש וההתקדמות שלך לא יופיעו בטבלת המובילים. לידיעתך, רענון טבלת המובילים ועדכון השינויים לוקחים כ-{ $minutes } דקות.
+visibility-overlay-note = שימו לב: כאשר מכוון ל-'גלוי', ניתן לשנות הגדרה זו מ<profileLink>דף הפרופיל</profileLink>
 show-ranking = הצגת הדירוג שלי
 
 ## Custom Goals
 
+get-started-goals = התחילו עם יעדים
 create-custom-goal = יצירת יעד בהתאמה אישית
 goal-type = איזה סוג של יעד ברצונך לבנות?
 both-speak-and-listen = שניהם
