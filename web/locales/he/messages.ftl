@@ -1065,10 +1065,16 @@ confirm-goal = אישור היעד
 goal-interval-weekly = שבועי
 # $type is one of share-goal-type-*
 share-n-daily-contribution-goal = שתפו את היעד היומי של { $count } מקטעים עבור { $type }
+# $type is one of share-goal-type-*
+share-n-weekly-contribution-goal = שתפו את היעד השבועי של { $count } מקטעים עבור { $type }
 share-goal-type-speak = דיבור
 share-goal-type-listen = האזנה
 share-goal-type-both = דיבור והאזנה
+# LINK will be replaced with the current URL
+goal-share-text = יצרתי עכשיו יעד אישי לתרומת קול עבור #CommonVoice -- הצטרפו אליי כדי לעזור ללמד מכונות איך אנשים אמיתיים מדברים { $link }
 weekly-goal-created = היעד השבועי שלך נוצר
+daily-goal-created = היעד היומי שלך נוצר
+track-progress = עקבו אחר ההתקדמות כאן ובדף הסטטיסטיקות שלכם.
 return-to-edit-goal = ניתן לחזור לכאן כדי לערוך את היעד שלך בכל עת.
 share-goal = שיתוף היעד שלי
 
@@ -1079,13 +1085,24 @@ keep = להשאיר
 remove = להסיר
 keep-info = הקלטות הקול האנונימיות שלך תישארנה במערך הנתונים Common Voice. לאחר מחיקת הפרופיל שלך, לא יהיה עוד באפשרותך להגיש בקשה להסרת ההקלטות שלך ממערך הנתונים
 remove-info = אנו נבדוק את בקשתך להסרת ההקלטות הקוליות שלך ממערך הנתונים. אם בקשתך תאושר, אנו ניצור קשר עם כל מי שהוריד את מערך הנתונים ונבקש מהם להסיר את ההקלטות הקוליות שלך גם כן.
+why-delete-recordings =
+    הקלטות Common Voice משמשות אנשי אקדמיה, עסקים קטנים וחובבי זיהוי קולי כדי לעזור לאמן ולפתח מוצרים פתוחים לציבור כמו מודלים קוליים.
+    
+    האם ניתן לשאול למה ברצונך למחוק את ההקלטות שלך?
 profile-form-delete = מחיקת פרופיל
 
 ## Profile Download
 
+download-q = ברצונך להוריד עותק של הנתונים שלך?
+download-info = ספרו לנו מה תרצו להוריד:
 download-profile-title = פרופיל
+download-profile-info = כולל כתובות דוא״ל, שמות משתמשים ונתונים דמוגרפיים, זמין באופן מיידי
+download-profile-size = מספר בתים בודדים
 download-recordings-title = הקלטות
+download-recordings-info = כולל קבצי  mp3 והמשפטים הקשורים אליהם, עשוי לקחת קצת זמן
+download-recordings-size = בדרך כלל כמה מגה-בתים
 download-recordings-unavailable = אין באפשרותך לבקש את ההקלטות שלך בזמן שבקשה אחרת כבר בעיצומה.
+download-recently-requested = באפשרותים להזמין עותק להורדה של כל ההקלטות שלכם בכל { $days } ימים.
 download-size = גודל
 download-request = בקשת הקלטות
 download-request-title = { $created }
