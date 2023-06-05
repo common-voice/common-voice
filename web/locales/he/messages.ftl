@@ -953,6 +953,7 @@ report-offensive-speech-detail = בהקלטה יש שפה מזלזלת או פו
 report-other-comment =
     .placeholder = תגובה
 success = הצלחה
+continue = המשך
 report-success = הדיווח הועבר בהצלחה
 
 ## Goals
