@@ -158,6 +158,7 @@ pt = פורטוגלית
 quc = קיצ'ה
 quy = צ'אנקה-קצ'ואה
 rm-sursilv = רומאנש סורסילבן
+rm-vallader = רומאנס וואלאדר
 ro = רומנית
 ru = רוסית
 rw = קיניַרואנדה
@@ -1386,8 +1387,6 @@ reviewing-sentences-explanation-1 = אם המשפט עומד בתנאים שלע
 reviewing-sentences-explanation-2 = אם המשפט לא עומד בתנאים שלעיל, יש ללחוץ על הכפתור "לא".
 reviewing-sentences-explanation-3 = אם אינכם בטוחים לגבי המשפט, באפשרותכם לדלג עליו ולעבור למשפט הבא.
 reviewing-sentences-explanation-4 = אם אין לכם יותר משפטים לסקירה, נשמח שתעזרו לנו לאסוף עוד!
-community-announcement-header = הודעת קהילה!
-community-announcement-explanation = ההנחיות שלהלן רלוונטיות לתכונות אספן המשפטים החדשות, אשר ישולבו בליבה של פלטפורמת Common Voice במהלך מרץ-אפריל 2023. בינתיים תוכלו להשתמש בכלי הקודם, <scLink>https://commonvoice.mozilla.org/ אספן משפטים/</scLink>.
 # WRITE PAGE
 write-instruction-second-part = משפט בנחלת הכלל
 write-page-subtitle = משפטים שנתרמו כאן יתווספו למערך נתונים פומבי ברישיון CC0.
