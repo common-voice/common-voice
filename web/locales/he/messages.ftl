@@ -1199,7 +1199,22 @@ contribution-varying-pronunciations-description-extended = מצד שני, אם �
 contribution-varying-pronunciations-example-1-title = על ראשו חבש מגבעת.
 contribution-varying-pronunciations-example-1-explanation = [את ה-ח' במילה 'חבש' וה-ע' במילה 'מגבעת' ניתן לקרוא כגרוניות - או לא, כתלות במבטא - שניהם בסדר]
 contribution-varying-pronunciations-example-2-title = החיים בקיבוץ שיתופיים.
+contribution-varying-pronunciations-example-2-explanation = [המילה 'שיתופיים' מסתיימת בתנועה ארוכה 'יים' (כמו המילה 'איים'), ולא בתנועה קצרה 'ים' (כמו המילה 'פנים')]
+contribution-background-noise-title = רעש רקע
+contribution-background-noise-description = אנו רוצים שהאלגוריתמים של למידת המכונה יוכלו להתמודד עם מגוון רחב של רעשי רקע, ואפילו רעשים חזקים יחסית יכולים להתקבל בתנאי שהם לא מונעים מכם לשמוע את כל הטקסט. מוזיקת רקע שקטה זה בסדר; מוזיקה שהיא מספיק רועשת כך שאינם מצליחים לשמוע אפילו את אחת מהמילים - זה לא.
+contribution-background-noise-description-extended = אם ההקלטה קטועה, או שיש בה רעשי פצפוץ - יש לדחות אלא אם עדיין ניתן לשמוע את כל הטקסט בשלמותו.
+contribution-background-noise-example-1-fixed-title = <strong>[התעטשות]</strong> דינוזאורי-הענק של ה<strong>[שיעול]</strong> טריאס.
+contribution-background-noise-example-2-fixed-title = דינו-<strong>[שיעול]</strong> של הטריאס.
 contribution-background-noise-example-2-explanation = [לא ניתן לשמוע חלק מהטקסט]
+contribution-background-noise-example-3-fixed-title = <strong>[רעש פצפוץ]</strong> -הענק של <strong>[רעש פצפוץ]</strong> -ריאס.
+contribution-background-voices-title = רעשי רקע
+contribution-background-voices-description = רעש רקע שקט הוא בסדר, אבל אנחנו לא רוצים קולות נוספים שעלולים לגרום לאלגוריתם מכונה לזהות מילים שאינן בטקסט הכתוב. אם אתם שומעים מילים מובחנות שאינן כתובות בטקסט, יש לדחות את המקטע. זה יכול לקרות כאשר הטלוויזיה הושארה דולקת, או כאשר יש שיחה בקרבת מקום.
+contribution-background-voices-description-extended = אם ההקלטה קטועה, או שיש בה רעשי פצפוץ - יש לדחות אלא אם כן עדיין אפשר לשמוע את כל הטקסט בשלמותו.
+contribution-background-voices-example-1-title = דינוזאורי-הענק של הטריאס. <strong>[נקרא על ידי קול אחד]</strong>
+contribution-background-voices-example-1-explanation = יאללה נו! <strong>[קול אחר קורא]</strong>
+contribution-volume-title = עוצמת שמע
+contribution-volume-description = יהיו שינויים טבעיים בעומצת הדיבור וההקלטה בין הקוראים. יש לדחות רק אם עוצמת הקול כה גבוהה עד שההקלטה נקטעת, או (באופן נפוץ יותר) אם היא כה נמוכה עד שלא ניתן לשמוע את הנאמר ללא התייחסות לטקסט הכתוב.
+contribution-reader-effects-title = אופן הדיבור
 
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
