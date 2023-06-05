@@ -1670,6 +1670,7 @@ new-sentence-rule-3 = Eipuru ñe’ẽtekuaa ha’etéva
 new-sentence-rule-4 = Eipuru haikuaa ha kytakuéra ha’etéva
 new-sentence-rule-5 = Papapy ha tai’aty ojepuru’iveva’ỹre
 new-sentence-rule-6 = Tai pytagua’ỹre
+new-sentence-rule-7 = Emoinge jehaikue hekopeguáva
 how-to-cite = Mba’éichapa ahechaukáta
 guidelines = Tekoguatarã
 contact-us = Eñe’ẽ orendive
@@ -1678,3 +1679,4 @@ add-sentence-error = Ojavy ehupívo ñe’ẽjuaju
 required-field = Emyanyhẽmína ko tenda.
 # REVIEW PAGE
 sc-review-instruction-first-part = Hechajey
+report-sc-different-language = Ambuéva ñe’ẽ
