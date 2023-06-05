@@ -13,7 +13,7 @@ email-opt-in-info-title = הצטרפות לרשימת הדיוור של Common V
 email-opt-in-info-sub-with-challenge = קבלת הודעות בדוא״ל כגון תזכורות על אתגרים ויעדים, עדכונים על התקדמות ומבזקי חדשות על Common Voice.
 email-opt-in-privacy-v2 = בחירה בקבלת הודעות דוא״ל מביעה את הסכמתך ש־Mozilla תטפל במידע זה כפי שמוסבר ב<privacyLink>מדיניות הפרטיות</privacyLink> של Mozilla.
 indicates-required = * מסמן שדה נחוץ
-not-available-abbreviation = לא זמין
+not-available-abbreviation = לא רלוונטי
 banner-error-slow-1 = Common Voice פועל באטיות, עמך הסליחה ותודה על הבעת העניין.
 banner-error-slow-2 = אנחנו מקבלים תעבורה רבה וחוקרים כרגע את התקלות.
 banner-error-slow-link = דף סטטוס
@@ -109,7 +109,7 @@ kmr = כורדית קורמנג׳ית
 kn = קאנדה
 knn = קונקאני (דֶּוַונַאגַּרִי)
 ko = קוריאנית
-kpv = קומי־זיר
+kpv = קומית
 kw = קורנית
 ky = קירגיזית
 lb = לוקסמבורגית
@@ -1283,9 +1283,9 @@ sc-howto-cite-item-3 = עבור טקסט המצוי בנחלת הכלל שאינ
 sc-howto-review-title = סקירת משפטים
 sc-howto-review-subtitle = נא לוודא שהמשפט עומד בתנאים הבאים:
 sc-howto-review-criteria-1 = על המשפט להיות מאוית כראוי.
-sc-howto-review-criteria-2 = המשפט חייב להיות נכון דקדוקית.
+sc-howto-review-criteria-2 = המשפט חייב להיות נכון מבחינה דקדוקית.
 sc-howto-review-criteria-3 = המשפט חייב להיות אפשרי להגיה.
-sc-howto-review-criteria-4 = אם המשפט עומד בתנאים, יש ללחוץ על הכפתור „אישור”.
+sc-howto-review-criteria-4 = אם המשפט עומד בתנאים, יש ללחוץ על הכפתור "אישור".
 sc-howto-review-criteria-5 = אם המשפט לא עומד בתנאים לעיל, לחצו על כפתור "דחייה". אם אתם לא בטוחים לגבי המשפט, אתם גם יכולים לדלג עליו ולהמשיך הלאה.
 sc-howto-review-criteria-6 = אם אין לכם יותר משפטים לסקירה, נשמח שתעזרו לנו לאסוף עוד!
 sc-howto-findpd-title = איתור משפטים קיימים שזמינים לנחלת הכלל
@@ -1347,7 +1347,7 @@ sc-submit-select-language =
 sc-submit-add-sentences = הוספת משפטים <wikipediaLink>בנחלת הכלל</wikipediaLink>
 sc-submit-ph-one-per-line =
     .placeholder = משפט אחד בכל שורה
-sc-submit-from-where = מאיפה המשפטים האלו שזמינים <wikipediaLink>לנחלת הכלל</wikipediaLink>?
+sc-submit-from-where = מאיפה הגיעו המשפטים האלה שמצויים <wikipediaLink>בנחלת הכלל</wikipediaLink>?
 sc-submit-ph-read-how-to =
     .placeholder = אם אינכם בטוחים כיצד לצטט את המקור, קראו את ההדרכה שלנו
 sc-submit-confirm = אני מאשר\ת כי משפטים אלה <wikipediaLink>מצויים בנחלת הכלל</wikipediaLink> וכי יש לי רשות להוסיף אותם.
@@ -1499,7 +1499,7 @@ sc-criteria-item-6 = אם אין לכם יותר משפטים לסריקה, נש
 
 sc-review-lang-not-selected = לא בחרתם אף שפה. אנא הכנסו ל<profileLink>פרופיל</profileLink> כדי לבחור שפות.
 sc-review-title = סקירת משפטים
-sc-review-loading = המשפטים נטענים…
+sc-review-loading = המשפטים בטעינה…
 sc-review-select-language = נא לבחור שפה כדי לסקור משפטים.
 sc-review-no-sentences = אין משפטים לסקירה. <addLink>כדאי להוסיף עוד משפטים עכשיו!</addLink>
 sc-review-form-prompt =
@@ -1524,9 +1524,9 @@ sc-review-form-button-submit =
 #   $sentences (Number) - Number of sentences the user has reviewed in this session
 sc-review-form-reviewed-message =
     { $sentences ->
-        [0] לא סקרת משפטים.
-        [one] סקרת משפט אחד. תודה רבה!
-       *[other] סקרת { $sentences } משפטים. תודה רבה!
+        [0] לא סקרתם משפטים.
+        [one] סקרתם משפט אחד. תודה רבה!
+       *[other] סקרתם { $sentences } משפטים. תודה רבה!
     }
 sc-review-form-review-failure = לא ניתן היה לשמור את הסקירה. נא לנסות שוב מאוחר יותר.
 sc-review-link = סקירה
