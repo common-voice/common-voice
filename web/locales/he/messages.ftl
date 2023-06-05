@@ -1093,7 +1093,7 @@ profile-form-delete = מחיקת פרופיל
 
 ## Profile Download
 
-download-q = ברצונך להוריד עותק של הנתונים שלך?
+download-q = ברצונכם להוריד עותק של הנתונים שלכם?
 download-info = ספרו לנו מה תרצו להוריד:
 download-profile-title = פרופיל
 download-profile-info = כולל כתובות דוא״ל, שמות משתמשים ונתונים דמוגרפיים, זמין באופן מיידי
@@ -1104,8 +1104,15 @@ download-recordings-size = בדרך כלל כמה מגה-בתים
 download-recordings-unavailable = אין באפשרותך לבקש את ההקלטות שלך בזמן שבקשה אחרת כבר בעיצומה.
 download-recently-requested = ניתן להזמין עותק להורדה של ההקלטות שלכם בכל { $days } ימים.
 download-size = גודל
+download-selected = נבחר
+download-start = הורדת נתוני פרופיל
 download-request = בקשת הקלטות
+download-requests = בקשות קודמות להורדת הקלטות
+download-requests-info = כאשר אתם מבקשים את ההקלטות שלכם, אנו אוספים אותן לקובץ ZIP אחד או יותר. להלן בקשות העבר:
+download-request-button = הורדה
 download-request-title = { $created }
+download-request-description = { $clipCount } מקטעים קוליים, גודל הארכיב { $size }. פג תוקף ב-{ $expires }.
+download-request-archive-single = קובץ ZIP בודד המכיל
 download-request-archive-multiple = פיצול לכדי { $archiveCount } קובצי ZIP המכילים
 download-request-assembling-description = הקבצים שלך נאספים. נא לבדוק שוב בהמשך.
 download-request-refresh-button = רענון
@@ -1143,12 +1150,14 @@ demo-account = חשבון
 ## Demo Account
 
 demo-account-card-header = אין חובה ליצור חשבון כדי לתרום, אם כי זה עשוי לסייע לכם.
+demo-account-card-body = בצד רשמנו את קווי המתאר של היתרונות והבהרנו איזה מידע אנו מפרסמים בפומבי. השתמשו בקישורים שלמטה כדי להתחיל להשתמש בחשבון Common Voice במכשיר שלכם.
 demo-account-enter-email =
     .label = נא למלא כתובת דוא״ל לשליחת קישור להרשמה
 demo-account-sign-up = שליחת קישור להרשמה
 
 ## Demo Contribute
 
+demo-contribute-card-header = נוכל להתחיל בהוספת קולך או בהטיית אוזנך?
 demo-listen-subtitle = מעניין אותך לתרום?
 
 ## Demo Dashboard
