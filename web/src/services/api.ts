@@ -553,4 +553,40 @@ export default class API {
       body: data,
     })
   }
+
+  // We have to use XHR to make this request because the fetch API does not provide a way to monitor
+  // the progress of an API request
+  uploadBulkSubmission({
+    file,
+    locale,
+    fileName,
+    onProgress,
+    onResponse,
+  }: {
+    file: File
+    locale: string
+    fileName: string
+    onProgress: (evt: ProgressEvent<XMLHttpRequestEventTarget>) => void
+    onResponse: (response: unknown) => void
+  }) {
+    const xhr = new XMLHttpRequest()
+
+    xhr.onreadystatechange = () => {
+      if (xhr.readyState === 4) {
+        onResponse(xhr.response)
+      }
+    }
+
+    xhr.upload.addEventListener('progress', onProgress)
+
+    const fileData = new FormData()
+
+    fileData.append('file', file)
+
+    xhr.open('POST', `${API_PATH}/${locale}/bulk_submissions`)
+
+    xhr.setRequestHeader('filename', fileName)
+
+    xhr.send(fileData)
+  }
 }

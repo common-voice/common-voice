@@ -1,5 +1,5 @@
-import { Action as ReduxAction, Dispatch } from 'redux';
-import StateTree from './tree';
+import { Action as ReduxAction, Dispatch } from 'redux'
+import StateTree from './tree'
 import {
   PendingSentence,
   Sentence,
@@ -19,6 +19,7 @@ export namespace Sentences {
       isLoadingPendingSentences: boolean
       hasLoadingError: boolean
       pendingSentences: PendingSentence[]
+      bulkUploadProgress: number
     }
   }
 
@@ -32,6 +33,7 @@ export namespace Sentences {
     REFILL_PENDING_SENTENCES_LOADING = 'REFILL_PENDING_SENTENCES_LOADING',
     VOTE_SENTENCE = 'VOTE_SENTENCE',
     SHOW_NEXT_SENTENCE = 'SHOW_NEXT_SENTENCE',
+    BULK_UPLOAD_PROGRESS = 'BULK_UPLOAD_PROGRESS',
   }
 
   interface RefillAction extends ReduxAction {
@@ -81,6 +83,11 @@ export namespace Sentences {
     newSentenceSubmission: SentenceSubmission
   }
 
+  interface BulkUploadProgress extends ReduxAction {
+    type: ActionType.BULK_UPLOAD_PROGRESS
+    bulkUploadProgress: number
+  }
+
   export type Action =
     | RefillAction
     | RefillLoadAction
@@ -91,6 +98,7 @@ export namespace Sentences {
     | RefillPendingSentencesAction
     | VoteSentence
     | ShowNextSentence
+    | BulkUploadProgress
 
   export const actions = {
     refill:
@@ -209,6 +217,45 @@ export namespace Sentences {
       type: ActionType.SHOW_NEXT_SENTENCE,
       sentenceId,
     }),
+
+    bulkUploadSentence:
+      ({
+        file,
+        locale,
+        fileName,
+      }: {
+        file: File
+        locale: string
+        fileName: string
+      }) =>
+      (dispatch: Dispatch<BulkUploadProgress>, getState: () => StateTree) => {
+        const state = getState()
+
+        const onProgressHandler = (
+          evt: ProgressEvent<XMLHttpRequestEventTarget>
+        ) => {
+          const progress = evt.loaded / evt.total
+
+          console.log({ progress: Math.round(progress * 100) })
+
+          dispatch({
+            type: ActionType.BULK_UPLOAD_PROGRESS,
+            bulkUploadProgress: Math.round(progress * 100),
+          })
+        }
+
+        const onResponse = (response: unknown) => {
+          console.log({ response })
+        }
+
+        state.api.uploadBulkSubmission({
+          file,
+          locale,
+          fileName,
+          onProgress: onProgressHandler,
+          onResponse,
+        })
+      },
   }
 
   const DEFAULT_LOCALE_STATE = {
@@ -245,6 +292,7 @@ export namespace Sentences {
             isLoadingPendingSentences:
               currentLocaleState.isLoadingPendingSentences,
             pendingSentences: currentLocaleState.pendingSentences,
+            bulkUploadProgress: currentLocaleState.bulkUploadProgress,
           },
         }
       }
@@ -269,6 +317,7 @@ export namespace Sentences {
             isLoadingPendingSentences:
               currentLocaleState.isLoadingPendingSentences,
             pendingSentences: currentLocaleState.pendingSentences,
+            bulkUploadProgress: currentLocaleState.bulkUploadProgress,
           },
         }
 
@@ -284,6 +333,7 @@ export namespace Sentences {
             isLoadingPendingSentences:
               currentLocaleState.isLoadingPendingSentences,
             pendingSentences: currentLocaleState.pendingSentences,
+            bulkUploadProgress: currentLocaleState.bulkUploadProgress,
           },
         }
 
@@ -350,6 +400,10 @@ export namespace Sentences {
             pendingSentences,
           },
         }
+      }
+
+      case ActionType.BULK_UPLOAD_PROGRESS: {
+        return state
       }
 
       default:
