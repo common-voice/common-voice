@@ -1184,6 +1184,7 @@ contribution-misreadings-example-1-title = דינוזאורי-הענק של הט
 contribution-misreadings-example-2-title = הדינוזאורים הענקיים של הטריאס.
 contribution-misreadings-example-2-explanation = [אמור להיות 'דינוזאורי-הענק']
 contribution-misreadings-example-3-title = דינוזאורי-הענק של הטרי-
+contribution-misreadings-example-3-explanation = [ההקלטה נקטעה לפני סוף המילה האחרונה]
 contribution-misreadings-example-4-title = דינוזאורי-הענק של הטריאס. כן.
 contribution-misreadings-example-4-explanation = [הוקלט עוד מעבר לטקסט הנדרש]
 contribution-misreadings-example-5-title = כשנצא לשתות קפה וכולי.
@@ -1229,6 +1230,7 @@ see-less = <chevron></chevron>להציג פחות
 ## HEADER/FOOTER
 
 sc-header-home = בית
+sc-header-how-to = הנחיות לביצוע
 sc-header-add = הוספה
 sc-header-review = סקירה
 sc-header-rejected = משפטים שנדחו
@@ -1348,9 +1350,10 @@ sc-submit-ph-one-per-line =
 sc-submit-from-where = מאיפה המשפטים האלו שזמינים <wikipediaLink>לנחלת הכלל</wikipediaLink>?
 sc-submit-ph-read-how-to =
     .placeholder = אם אינכם בטוחים כיצד לצטט את המקור, קראו את ההדרכה שלנו
+sc-submit-confirm = אני מאשר\ת כי משפטים אלה <wikipediaLink>מצויים בנחלת הכלל</wikipediaLink> וכי יש לי רשות להוסיף אותם.
 sc-submit-button =
     .submitText = שליחה
-sc-submit-filtered = משפטים שסוננו בשל אי-עמידה בתנאים (אנא שלחו גרסאות מתוקנות בתור משפטים חדשים):
+sc-submit-filtered = משפטים שסוננו בשל אי-עמידה בתנאים (אנא הגישו גרסאות מתוקנות בתור משפטים חדשים):
 sc-submit-guidelines = נא לעיין ב<howToLink>הנחיות</howToLink>.
 
 ## ADD LANGUAGE
@@ -1367,6 +1370,14 @@ sc-add-result =
         [one] המשפטים נשלחו. משפט אחד נדחה ככפול.
        *[other] המשפטים נשלחו. { $duplicates } משפטים נדחו ככפולים.
     }
+# Variables:
+#   $sentences (Number) - Number of sentences which failed to be saved to the database - could be several different reasons
+sc-add-err-failed =
+    { $sentences ->
+        [0] אין משפטים שנכשלו
+        [one] משפט אחד נכשל
+       *[other] { $sentences } משפטים נכשלו
+    }
 sc-add-err-submission = שגיאת הגשה
 sc-add-lang-process-notice = אם השפה שלך לא מופיעה כאן, אפשר לבקש אותה באמצעות <languageProcessLink>התהליך הזה</languageProcessLink>.
 
@@ -1374,6 +1385,7 @@ sc-add-lang-process-notice = אם השפה שלך לא מופיעה כאן, אפ
 
 sc-confirm-are-you-sure =
     .message = המשפטים לא נשלחו, לעזוב באמצע התהליך?
+sc-confirm-sentences-title = אישור משפטים חדשים
 # Variables:
 #   $countOfSentences (Number) - Number of sentences the user has filled in the submission form
 sc-confirm-sentences-found =
@@ -1385,11 +1397,72 @@ sc-confirm-sentences-found =
 # Variables:
 #   $countOfInvalidated (Number) - Number of sentences the user rejected in the review form before submission
 sc-confirm-rejected-by-you = { $countOfInvalidated } נדחו על ידיך
+sc-confirm-already-reviewed =
+    { $countOfReviewed ->
+        [0] אין משפטים שעברו תהליך סקירה.
+        [one] משפט אחד עבר תהליך סקירה. כל הכבוד!
+       *[other] { $countOfReviewed } משפטים עברו תהליך סקירה. מעולה!
+    }
+# Variables:
+#   $readyCount (Number) - Number of sentences ready to be uploaded
+sc-confirm-ready =
+    { $readyCount ->
+        [0] אין משפטים שמוכנים להגשה!
+        [one] משפט אחד מוכן להגשה!
+       *[other] { $readyCount } משפטים מוכנים להגשה!
+    }
+# Variables:
+#   $countOfUnreviewed (Number) - Number of sentences unreviewed before the upload
+sc-confirm-unreviewed = { $countOfUnreviewed } לא עברו בדיקה. אם אתם רוצים, אתם יכולים לסקור את המשפטים שלכם עכשיו לפני שאתם מגישים אותם.
+sc-confirm-button-text = אישור
+sc-confirm-uploading = המשפטים נשלחים כעת. התהליך יכול לקחת כמה דקות כתלות במספר המשפטים שנוספו. בבקשה, אל תסגרו את חלון דפדפן זה.
 
 ## LANGUAGE INFO
 
 sc-lang-info-title-total = סך הכל
 sc-lang-info-title-personal = פרטי
+# Variables:
+#   $totalSentences (Number) - Number of sentences uploaded in total for this language
+sc-lang-info-total =
+    { $totalSentences ->
+        [0] אין משפטים בכלל.
+        [one] יש משפט אחד בסך הכל.
+       *[other] ישנם { $totalSentences } משפטים בסך הכל.
+    }
+# Variables:
+#   $totalInReview (Number) - Number of sentences currently in the review state for this language
+sc-lang-info-in-review =
+    { $totalInReview ->
+        [0] אין משפטים בבדיקה.
+        [one] יש משפט אחד בבדיקה.
+       *[other] { $totalInReview } משפטים נמצאים בבדיקה.
+    }
+# Variables:
+#   $unreviewedSentencesByYou (Number) - Number of sentences the user can still review
+sc-lang-info-left-for-you =
+    { $unreviewedSentencesByYou ->
+        [0] אין משפטים שמממתינים לסקירה.
+        [one] יש משפט אחד שממתין לסקירה.
+       *[other] יש { $unreviewedSentencesByYou } משפטים שמממתינים לסקירה.
+    }
+sc-lang-info-review-now = <reviewLink>סקרו עכשיו!</reviewLink>
+sc-lang-info-add-more = <addLink>הוסיפו עוד משפטים עכשיו!</addLink>
+# Variables:
+#   $validatedSentences (Number) - Number of sentences which have been approved for this language
+sc-lang-info-validated =
+    { $validatedSentences ->
+        [0] אין משפטים שאושרו.
+        [one] יש משפט אחד שעבר אישור.
+       *[other] ישנם { $validatedSentences } משפטים שעברו אישור.
+    }
+# Variables:
+#   $rejectedSentences (Number) - Number of sentences which have been rejected for this language
+sc-lang-info-rejected =
+    { $rejectedSentences ->
+        [0] אין משפטים שעברו דחייה.
+        [one] יש משפט אחד שעבר דחייה.
+       *[other] ישנם { $rejectedSentences } משפטים שעברו דחייה.
+    }
 
 ## LOGIN
 
@@ -1412,18 +1485,25 @@ sc-personal-not-added = עדיין לא הוספת שפות.
 
 ## REVIEW CRITERIA
 
+sc-criteria-modal = ⓘ תנאים לבדיקה
+sc-criteria-title = תנאים לבדיקה
 sc-criteria-make-sure = נא לוודא שהמשפט עומד בתנאים הבאים:
 sc-criteria-item-1 = על המשפט להיות מאוית כראוי.
 sc-criteria-item-2 = המשפט חייב להיות נכון מבחינה דקדוקית.
+sc-criteria-item-3 = המשפט חייב להיות אפשרי להגיה.
+sc-criteria-item-4 = אם המשפט עומד בתנאים, יש ללחוץ על הכפתור &quot;אישור&quot; שבצד.
 sc-criteria-item-5-2 = אם המשפט לא עומד בתנאים לעיל, לחצו על כפתור &quot;דחייה&quot;. אם אתם לא בטוחים לגבי המשפט, אתם גם יכולים לדלג עליו ולהמשיך הלאה.
 sc-criteria-item-6 = אם אין לכם יותר משפטים לסריקה, נשמח שתעזרו לנו לאסוף עוד!
 
 ## REVIEW
 
+sc-review-lang-not-selected = לא בחרתם אף שפה. אנא הכנסו ל<profileLink>פרופיל</profileLink> כדי לבחור שפות.
 sc-review-title = סקירת משפטים
 sc-review-loading = המשפטים נטענים…
 sc-review-select-language = נא לבחור שפה כדי לסקור משפטים.
 sc-review-no-sentences = אין משפטים לסקירה. <addLink>כדאי להוסיף עוד משפטים עכשיו!</addLink>
+sc-review-form-prompt =
+    .message = משפטים שנסקרו לא נשלחו, להמשיך?
 # Variables:
 #   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
 sc-review-form-source = מקור: { $sentenceSource }
