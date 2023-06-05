@@ -1,24 +1,26 @@
 import { useState } from 'react'
 
+import { useAction } from './store-hooks'
+import { Sentences } from '../stores/sentences'
+import { useLocale } from '../components/locale-helpers'
+
 export type UploadStatus = 'off' | 'waiting' | 'uploading' | 'done' | 'error'
 
 const useBulkSubmissionUpload = () => {
   const [uploadStatus, setUploadStatus] = useState<UploadStatus>('off')
-
-  const fakeAPI = () => {
-    setUploadStatus('uploading')
-    return new Promise(resolve => {
-      setTimeout(() => {
-        resolve('Hello world')
-        setUploadStatus('done')
-      }, 6000)
-    })
-  }
+  const [locale] = useLocale()
+  const bulkUploadSentence = useAction(Sentences.actions.bulkUploadSentence)
 
   const handleDrop = (acceptedFiles: File[]) => {
     setUploadStatus('waiting')
-    console.log({ acceptedFiles })
-    fakeAPI()
+
+    const [file] = acceptedFiles
+
+    bulkUploadSentence({
+      file,
+      fileName: file.name,
+      locale,
+    })
   }
 
   return {

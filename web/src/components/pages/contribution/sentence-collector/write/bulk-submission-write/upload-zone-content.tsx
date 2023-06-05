@@ -35,7 +35,7 @@ const UploadZoneContent: React.FC<Props> = ({ isDragActive, uploadStatus }) => {
           <h2 className="upload-dropzone-instruction hidden-md-down" />
         </Localized>
       )}
-      <Localized id="or-conjuction hidden-md-down">
+      <Localized id="or-conjuction">
         <p className="or-conjunction hidden-md-down" />
       </Localized>
       <Button className="hidden-md-down">
