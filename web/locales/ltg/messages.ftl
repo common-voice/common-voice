@@ -1,5 +1,15 @@
 ## General
 
+yes-receive-emails = Nui, syutit maņ e-postus. Es grybu sajimt informaceju par Common Voice projektu.
+stayintouch = Mes Mozilla taisom kūpīnu bolss tehnologeju jūmā. Mes grybātu saglobuot kontaktus ar jums, lai informātu jius par jaunumim i dabuotu informaceju par tū, kai jius lītojat ite daīmamuos datu kūpys.
+privacy-info = Mes sūlejam reikuotīs ar jiusu informaceju uzmaneigi. Skaitit vaira myusu <privacyLink>privatuma politikā</privacyLink>.
+return-to-cv = Atsagrīzt pi Common Voice
+email-input =
+    .label = E-posts
+submit-form-action = Nūsyuteit
+loading = Īluodej…
+email-opt-in-info = Es grybu sajimt e-postus, par pīmāru, mierka atguodynuojumus, progresa atjaunynuojumus i informativūs biletenus par itū projektu.
+email-opt-in-info-title = Pīsavīnuot Common Voice viestim e-postā
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
