@@ -83,6 +83,9 @@ faq-is-account-public-q = Voi muna konta informaceja ir publiski daīmama?
 
 ## How does it work section
 
+about-get-involved = Īsasaistit
+about-stay-in-touch = Kai es varu sasazynuot?
+about-stay-in-touch-button = Pīsaraksteit
 about-nav-why-common-voice = Deļkuo?
 about-nav-how-it-works = Kai?
 about-nav-partners = Partneri
@@ -97,6 +100,8 @@ about-playbook-what-is-language = Kas ir volūda Common Voice sistemā?
 
 ## How do I add a language
 
+about-playbook-how-add-language = Kai davīnuot volūdu?
+about-playbook-how-add-language-translating-heading = Škārsteikla lopys tulkuošona
 about-playbook-how-add-language-collecting-sentences-heading = Teikumu apkūpuošona
 
 ## How does localization work
@@ -111,6 +116,8 @@ about-playbook-how-add-language-collecting-sentences-heading = Teikumu apkūpuo�
 ## How to grow language
 
 about-playbook-how-grow-language-content-2 = Nūtikšonys
+about-playbook-how-grow-language-content-4 = Socialī medeji
+about-playbook-how-grow-language-content-6 = Partnereibys i teikli
 
 ## How to validate
 
@@ -123,12 +130,19 @@ about-playbook-how-grow-language-content-2 = Nūtikšonys
 
 ## Glossary
 
+glossary = Aproksts
+localization = Lokalizaceja
+sst = Runa iz tekstu (STT)
 
 ## Error pages
 
+error-code = Klaida { $code }
 
 ## Data
 
+data-download-yes = Nui
+data-download-deny = Nā
+data-download-license = Liceņze: <licenseLink> CC-0 </licenseLink>
 data-other-title = Citys bolsa datu kūpys…
 data-other-goto = Ej iz { $name }
 data-other-download = Lejupīluodēt datus
@@ -137,6 +151,7 @@ data-bundle-description = Kūpeigī bolsa dati, kai ari vysys cytys bolsa datu k
 release-version = Verseja
 dataset-date = Datums
 license = Liceņze: <licenseLink> { $license } </licenseLink>
+license-mixed = Jaukts
 review-recording = Puorbaudit
 review-rerecord = Īrokstit atkuortuotai
 review-cancel = Atceļt īsnēgšonu
