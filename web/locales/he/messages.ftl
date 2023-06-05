@@ -698,6 +698,8 @@ release-version = גרסה
 dataset-date = תאריך
 license = רישיון: <licenseLink>{ $license }</licenseLink>
 license-mixed = מעורב
+data-download-singleword-title = הורידו את פלח היעד - מילים בודדות
+data-download-singleword-callout-v2 = זהו פלח מכוון לתרחיש שימוש, המכיל נתונים לטובת זיהוי ספרות בדיבור וזיהוי כן / לא.
 review-terms = עצם השימוש ב־Common Voice מהווה הסכמה מצדך ל<termsLink>תנאים</termsLink> ול<privacyLink>הצהרת הפרטיות</privacyLink> שלנו
 terms-agree = מוסכם עלי
 terms-disagree = לא מוסכם עלי
@@ -806,6 +808,11 @@ other-language = שפה אחרת
 
 ## Request Language Pages
 
+request-language-heading = שאלו לגבי שפה חדשה
+request-language-explanation-1 =
+    בדקו אם השפה שלכם רשומה 
+    <languagesPageLink>בדף השפות של Common Voice</languagesPageLink>.
+    אם לא, מלאו טופס זה ו<strong>נשלח אליכם דוא"ל עם הסבר כיצד להגדיר את השפה שלכם</strong>.
 request-language-form-email =
     .label = כתובת הדוא״ל שלך
 request-language-form-info =
@@ -890,6 +897,9 @@ speak-empty-state-cta = תרומת משפטים
 record-button-label = הקלטת הקול שלך
 share-title-new = נשמח <bold>לסיוע</bold> למצוא קולות נוספים
 login-to-get-started = על מנת להתחיל יש להיכנס או להירשם
+target-segment-first-card = אתם תורמים לפלח היעד הראשון שלנו
+target-segment-generic-card = אתם תורמים לפלח יעד מסויים
+target-segment-first-banner = עזרו ביצירת פלח היעד הראשון של Common Voice ב-{ $locale }
 target-segment-add-voice = הוספת הקול שלך
 target-segment-learn-more = מידע נוסף
 
