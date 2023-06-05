@@ -365,6 +365,15 @@ share-clip = Pasadolit ar sovu īrokstu
 share-common-voice = Pastuostit cytim par Common Voice
 review-instruction = Ka vajadzeigs, puorsaverit īrokstus i īrokstit atkuortuotai
 record-submit-tooltip = { $actionType } īsnēdzit, kod vyss gotovs
+record-abort-continue = Pabeigt īrokstu
+record-abort-delete = Izīt i dzēst īrokstus
+listen-instruction = { $actionType } <playIcon> </playIcon> voi jī precizai īrunuoja teikumu?
+listen-again-instruction = Labi padareits dorbs! <playIcon> </playIcon> Klausotēs vēļreiz, kod esit gotovs
+listen-3rd-time-instruction = 2 pabeigti, tai tik turēt! <playIcon> </playIcon>
+listen-last-time-instruction = <playIcon> </playIcon> Pādejais!
+record-button-label = Īrokstit sovu bolsu
+share-title-new = <bold> Paleidzit mums </bold> atrast vairuok bolsu
+target-segment-add-voice = Davīnojit sovu bolsu
 
 ## Contribution Nav Items
 
