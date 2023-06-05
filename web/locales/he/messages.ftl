@@ -1017,11 +1017,44 @@ want-to-continue = להמשיך?
 finish-editing = לסיים את העריכה קודם לכן?
 lose-changes-warning = יציאה כעת תגרום לביטול השינויים שביצעת
 build-custom-goal = הרכבת יעד מותאם אישית
+help-reach-hours-pluralized =
+    { NUMBER($hours) ->
+        [one] עזרו להגיע לשעה אחת של ב{ $language } עם יעד אישי
+       *[other] עזרו להגיע ל-{ $hours } שעות ב{ $language } עם יעד אישי
+    }
+help-reach-hours-general-pluralized =
+    { NUMBER($hours) ->
+        [one] עזרו ל-Common Voice להגיע לשעה בשפה כלשהי באמצעות קביעת יעד אישי
+        [two] עזרו ל-Common Voice להגיע לשעתיים בשפה כלשהי באמצעות קביעת יעד אישי
+       *[other] עזרו ל-Common Voice להגיע ל-{ $hours } שעות בשפה כלשהי באמצעות קביעת יעד אישי
+    }
 set-a-goal = הגדרת יעד
 cant-decide = לא הצלחת להחליט?
+activity-needed-calculation-plural =
+    { NUMBER($totalHours) ->
+        [one] ניתן להגיע לשעה
+        [two] ניתן להגיע לשעתיים
+       *[other] ניתן להגיע ל־{ $totalHours } שעות
+    } תוך { NUMBER($periodMonths) ->
+        [one] חודש
+        [two] חודשיים
+       *[other] { $periodMonths } חודשים
+    } אם { NUMBER($people) ->
+        [one] אדם אחד יקליט
+       *[other] { $people } אנשים יקליטו
+    } { NUMBER($clipsPerDay) ->
+        [one] מקטע אחד
+       *[other] { $clipsPerDay } מקטעים
+    } ביום.
 how-many-per-day = מצוין! כמה מקטעים ביום?
 how-many-a-week = נהדר! כמה מקטעים בשבוע?
 which-goal-type = מעניין אותך לדבר, להאזין או גם וגם?
+receiving-emails-info =
+    כרגע מוגדר כי תקבלו הודעות דוא"ל כגון תזכורות ליעדים,
+    עדכוני ההתקדמות שלי ועלוני מידע אודות Common Voice
+not-receiving-emails-info =
+    כרגע מוגדר כי <bold>לא</ bold> תקבלו הודעות דוא"ל כגון תזכורות ליעדים,
+    עדכוני ההתקדמות שלי ועלוני מידע אודות Common Voice
 n-clips-pluralized =
     { NUMBER($count) ->
         [one] מקטע אחד
@@ -1030,6 +1063,8 @@ n-clips-pluralized =
 help-share-goal = שיתוף היעד שלך יסייע לנו לאתר קולות נוספות
 confirm-goal = אישור היעד
 goal-interval-weekly = שבועי
+# $type is one of share-goal-type-*
+share-n-daily-contribution-goal = שתפו את היעד היומי של { $count } מקטעים עבור { $type }
 share-goal-type-speak = דיבור
 share-goal-type-listen = האזנה
 share-goal-type-both = דיבור והאזנה
