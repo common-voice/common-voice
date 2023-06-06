@@ -144,6 +144,7 @@ shortcut-rerecord-toggle-label = Īraksteit otkon
 shortcut-discard-ongoing-recording = ESC
 shortcut-discard-ongoing-recording-label = Atsasaceit nu niulenejuo īroksta
 shortcut-submit = Enter
+shortcut-submit-label = Īsnēgt īrokstus
 request-language-button = Pīpraseit volūdys
 
 ## ProjectStatus
@@ -262,6 +263,8 @@ release-version = Verseja
 dataset-date = Datums
 license = Liceņze: <licenseLink> { $license } </licenseLink>
 license-mixed = Jaukts
+review-submit-title = Puorbaudeit i īsnēgt
+review-submit-msg = Paļdis par īraksteišonu! <lineBreak> </lineBreak> Tagad puorbaudit i īsnīdzit sovus audio failus.
 review-recording = Puorbaudit
 review-rerecord = Īrokstit atkuortuotai
 review-cancel = Atceļt īsnēgšonu
@@ -379,6 +382,7 @@ share-clip = Pasadolit ar sovu īrokstu
 share-common-voice = Pastuostit cytim par Common Voice
 review-instruction = Ka vajadzeigs, puorsaverit īrokstus i īrokstit atkuortuotai
 record-submit-tooltip = { $actionType } īsnēdzit, kod vyss gotovs
+record-abort-submit = Īsnēgt īrokstus
 record-abort-continue = Pabeigt īrokstu
 record-abort-delete = Izīt i dzēst īrokstus
 listen-instruction = { $actionType } <playIcon> </playIcon> voi jī precizai īrunuoja teikumu?
@@ -547,8 +551,16 @@ sc-stats-title = Statistika
 sc-submit-err-select-lang = Lyudzu, izalosit volūdu.
 sc-submit-err-add-sentences = Lyudzu, davīnojit teikumus.
 sc-submit-err-add-source = Lyudzu, davīnojit olūtu.
+sc-submit-err-confirm-pd = Lyudzu, apstyprynojat, ka itī teikumi ir publiski daīmami i breivi lītojami.
+sc-submit-title = Dalikt teikumus
+sc-submit-select-language =
+    .labelText = Izalosit volūdu
+sc-submit-add-sentences = Dalīcit <wikipediaLink>publiskuo domena</wikipediaLink> teikumus
 sc-submit-ph-one-per-line =
     .placeholder = Vīns teikums kotrā ryndā
+sc-submit-button =
+    .submitText = Nūsyuteit
+sc-submit-guidelines = Lyudzu, puorbaudit <howToLink>vadlinejis</howToLink>.
 
 ## ADD LANGUAGE
 
@@ -604,6 +616,8 @@ sc-personal-added-by-you = Jius dalykot { $sentences }
 
 sc-review-title = Teikumu puorbaude
 sc-review-loading = Nūteik teikumu īluode...
+sc-review-form-prompt =
+    .message = Puorsavārtī teikumi nav īsnāgti, voi esit drūss?
 sc-review-form-button-reject = Nūraideit
 sc-review-form-button-skip = Izlaist
 sc-review-form-button-approve = Apstyprynuot
@@ -635,6 +649,7 @@ sc-settings-ui-language = Saskarnis volūda
 
 # [/SentenceCollector]
 
+thanks-for-voice-toast-error = Īsnādzūt jiusu bolsa informaceju, nūtyka klaida
 volume = Skaļums
 reader-effects = Īrunuotuoja izrunys eipatneibys
 just-unsure = Vīnkuorši naesit puorlīcynuots?
