@@ -224,7 +224,7 @@ zza = זאזא
 
 ## Layout
 
-speak = דברו
+speak = דיבור
 speak-now = נא לדבר כעת
 datasets = מערכי נתונים
 languages = שפות
@@ -566,7 +566,7 @@ about-nav-how-it-works = איך?
 about-nav-partners = שותפים
 about-nav-get-involved = הצטרפות
 about-nav-how-it-works-2 = איך Common Voice עובד?
-about-nav-playbook = מידע כיצד לקחת חלק
+about-nav-playbook = גלו כיצד לקחת חלק
 
 ## Community Playbook Content
 ## What is a language
