@@ -1666,6 +1666,8 @@ sentence-input-value = Ehai ko’ápe ne ñe’ẽjuaju opavave oipurukuaáva
 citation-input-value = Ne ñe’ẽjoaju heñoihague
 citation =
     .label = Jehechauka
+what-can-i-add = Mba’eichagua ñe’ẽjoajúpa amoĩkuaa
+new-sentence-rule-1 = <no Copyright>Apohare ndaideréchoi</no Copyright> jejoko (<cc0>cc0</cc0>)
 new-sentence-rule-2 = Sa’ieteve 15 ñe’ẽgui
 new-sentence-rule-3 = Eipuru ñe’ẽtekuaa ha’etéva
 new-sentence-rule-4 = Eipuru haikuaa ha kytakuéra ha’etéva
@@ -1680,4 +1682,8 @@ add-sentence-error = Ojavy ehupívo ñe’ẽjuaju
 required-field = Emyanyhẽmína ko tenda.
 # REVIEW PAGE
 sc-review-instruction-first-part = Hechajey
+sc-review-instruction-second-part = Ko ñe’ẽjuajúpa oĩporã añetehápe
+sc-review-rules-title = Ko ñe’ẽjuajúpa ojapopa tekotevẽháicha
 report-sc-different-language = Ambuéva ñe’ẽ
+sentences-fetch-error = Ojavy eguerukuévo ñe’ẽjuaju
+review-error = Oiko jejavy ehechajeývo ko ñe’ẽjuaju
