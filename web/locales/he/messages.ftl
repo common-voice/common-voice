@@ -1586,7 +1586,7 @@ create-profile-button = יצירת פרופיל
 # IMAGE TAGS
 img-alt-success-checkmark = סימן הצלחה
 # GUIDELINES PAGE
-guidelines-header = החניות לתרומה
+guidelines-header = הנחיות לתרומה
 guidelines-header-subtitle = הבינו כיצד לתרום ולאמת משפטים ומקטעי שמע למערך הנתונים של Common Voice
 voice-collection = איסוף קולות
 sentence-collection = אוסף משפטים
