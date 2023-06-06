@@ -399,10 +399,10 @@ female = נקבה
 # Gender
 other = אחר
 why-profile-title = בשביל מה פרופיל?
-why-profile-text = אספקת מידע כלשהו עליך תהפוך את נתוני השמע שיוגשו אל Common Voice לשימושיים יותר למנגנוני זיהוי דיבור שמשתמשים במידע הזה לשיפור הדיוק שלהם.
+why-profile-text = בכך שאתם משתפים מעט מידע אודותיכם, נתוני השמע שתשלחו אל Common Voice יהיו שימושיים יותר עבור מנועי זיהוי דיבור, שעושים שימוש במידע זה לשם שיפור הדיוק.
 dashboard = לוח בקרה
 build-profile = בניית פרופיל
-avatar = דמות מייצגת
+avatar = יצגן
 goals = מטרות
 settings = הגדרות
 edit-profile = עריכת פרופיל
@@ -439,9 +439,9 @@ browse-file = ניתן לגרור ולהשליך לכאן או <browseWrap>לע�
 connect-gravatar = התחברות עם Gravatar
 gravatar_not_found = לא נמצא gravatar עבור כתובת הדוא״ל שלך
 file_too_large = הקובץ שנבחר גדול מדי
-avatar-uploaded = נשלחה תמונה ייצוגית
+avatar-uploaded = הועלתה תמונת יצגן
 max-file-size = { $kb } ק״ב לכל היותר
-remove-avatar = הסרת דמות מייצגת
+remove-avatar = הסרת יצגן
 
 ## Profile - Email
 
@@ -518,7 +518,7 @@ about-header-description-v2 =
     <p>Common Voice הוא מערך נתונים קולי זמין לציבור, המופעל על ידי קולותיהם של תורמים מתנדבים ברחבי העולם. אנשים שרוצים לבנות אפליקציות קוליות יכולים להשתמש במערך הנתונים כדי לאמן מודלים של למידת מכונה.</p>
     <p>נכון לעכשיו, רוב מערכי הנתונים הקוליים נמצאים בבעלותן של חברות, מה שמגביל חדשנות. מערכי נתונים קוליים גם סובלים מתת-ייצוג של אנשים שאינם דוברי אנגלית, אנשים ממגוון של מוצאים אתניים, אנשים עם מוגבלויות, נשים ואנשי קהילת הלהטבא"ק. משמעות הדבר היא שטכנולוגיה המותאמת לקול אינה פועלת כלל עבור שפות רבות, ובמקרים בהם היא כן פועלת, היא עשויה לעבוד במידה שאינה זהה בין כולם. אנחנו רוצים לשנות את זה על ידי ההנעה של אנשים בכל מקום בעולם לחלוק את קולם.</p>
 how-does-it-work-title-v2 = איך Common Voice עובד?
-how-does-it-work-text = אנו משתמשים במיקור המונים כדי לבנות מערך נתונים פתוח של קולות. תרומת הקול שלך ואימות דיוק ההקלטות של אחרים משפרים את מערך הנתונים עבור כולם.
+how-does-it-work-text = אנו משתמשים במיקור המונים כדי לבנות מערך נתונים פתוח של קולות. תרמו את קולכם, אמתו את דיוק המקטעים שתרמו אחרים, ושפרו את מערך הנתונים עבור כולם.
 
 ## How does it work section
 
@@ -565,14 +565,14 @@ about-nav-why-common-voice = למה?
 about-nav-how-it-works = איך?
 about-nav-partners = שותפים
 about-nav-get-involved = הצטרפות
-about-nav-how-it-works-2 = כיצד Common Voice פועל?
+about-nav-how-it-works-2 = איך Common Voice עובד?
 about-nav-playbook = מידע כיצד לקחת חלק
 
 ## Community Playbook Content
 ## What is a language
 
 about-playbook-what-is-language = מה זו שפה ב־Common Voice?
-about-playbook-what-is-language-content-1 = ישנן דרכים רבות לחשוב על שפה. למטרות מודלים לזיהוי דיבור, מציע Common Voice להתמקד ב‚הבנה הדדית’ או ‚האם דוברי השפה הזאת יבינו זה את זה באופן כללי אם הם ינסו?’
+about-playbook-what-is-language-content-1 = ישנן דרכים רבות לחשוב על שפה. למטרות מודלים לזיהוי דיבור, מציע Common Voice להתמקד ב’הבנה הדדית’ או ’האם על־פי־רוב דוברי השפה הזאת יבינו זה את זה אם הם ינסו?’
 about-playbook-what-is-language-content-2 = אנחנו רוצים שמודלים של דיבור יהיו טובים יותר בהבנת מגוון רחב של דוברים. כדי שזה יקרה, מערך נתונים קולי חייב לייצג הרבה אנשים שונים.
 about-playbook-what-is-language-content-3 = לשפות מסוימות יש שונות עצומה בדקדוק, אוצר המילים וההגייה. מסיבה זו, אנו <ctaLink>מציגים את 'ניבים'</ctaLink> בשנת 2022. זה נותן לקהילות דרך להבחין בין השפות שלהן בתוך מערך הנתונים הגדול יותר.
 
@@ -705,7 +705,7 @@ terms-agree = מוסכם עלי
 terms-disagree = לא מוסכם עלי
 review-aborted = ההעלאה נעצרה. האם ברצונך למחוק את ההקלטות שלך?
 review-submit-title = סקירה ושליחה
-review-submit-msg = תודה לך על ההקלטה!<lineBreak></lineBreak>כעת עליך לסקור ולהגיש את קטעי הקול להלן.
+review-submit-msg = תודה לך על ההקלטה!<lineBreak></lineBreak>כעת עליך לסקור ולשלוח את מקטעי הקול להלן.
 review-recording = סקירה
 review-rerecord = הקלטה מחדש
 review-cancel = ביטול שליחה
@@ -1413,7 +1413,7 @@ sc-confirm-ready =
     }
 # Variables:
 #   $countOfUnreviewed (Number) - Number of sentences unreviewed before the upload
-sc-confirm-unreviewed = { $countOfUnreviewed } לא עברו בדיקה. אם אתם רוצים, אתם יכולים לסקור את המשפטים שלכם עכשיו לפני שאתם מגישים אותם.
+sc-confirm-unreviewed = { $countOfUnreviewed } לא עברו סקירה. אם אתם רוצים, אתם יכולים לסקור את המשפטים שלכם עכשיו לפני שאתם שולחים אותם.
 sc-confirm-button-text = אישור
 sc-confirm-uploading = המשפטים נשלחים כעת. התהליך יכול לקחת כמה דקות כתלות במספר המשפטים שנוספו. בבקשה, אל תסגרו את חלון דפדפן זה.
 
@@ -1485,8 +1485,8 @@ sc-personal-not-added = עדיין לא הוספת שפות.
 
 ## REVIEW CRITERIA
 
-sc-criteria-modal = ⓘ תנאים לבדיקה
-sc-criteria-title = תנאים לבדיקה
+sc-criteria-modal = ⓘ תנאים לסקירה
+sc-criteria-title = תנאים לסקירה
 sc-criteria-make-sure = נא לוודא שהמשפט עומד בתנאים הבאים:
 sc-criteria-item-1 = על המשפט להיות מאוית כראוי.
 sc-criteria-item-2 = המשפט חייב להיות נכון מבחינה דקדוקית.
