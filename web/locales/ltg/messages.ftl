@@ -42,6 +42,7 @@ lv = Latvīšu
 pl = Pūļu
 ps = Puštu
 pt = Portugaļu
+ru = Krīvu
 sv-SE = Zvīdru
 
 # [/]
@@ -145,10 +146,14 @@ shortcut-discard-ongoing-recording = ESC
 shortcut-discard-ongoing-recording-label = Atsasaceit nu niulenejuo īroksta
 shortcut-submit = Enter
 shortcut-submit-label = Īsnēgt īrokstus
+request-language-text = Voi vēļ naredzit sovu volūdu Common Voice projektā?
 request-language-button = Pīpraseit volūdys
 
 ## ProjectStatus
 
+# Variables:
+# $goal - number of hours representing the next goal
+status-goal = Nuokušī mierki: { $goal }
 english = Angļu volūda
 
 ## ProfileForm
