@@ -151,6 +151,14 @@ request-language-button = Pīpraseit volūdys
 
 ## ProjectStatus
 
+status-title = Kūpejais projekta statuss: redzit, cik tuoli mes asam!
+status-contribute = Pazīdoj sovu bolsu
+status-hours =
+    { $hours ->
+        [zero] Da šam puorbaudeitys { $hours } stuņdis!
+        [one] { "" }
+       *[other] { "" }
+    }
 # Variables:
 # $goal - number of hours representing the next goal
 status-goal = Nuokušī mierki: { $goal }
@@ -171,10 +179,20 @@ profile-form-variant =
 profile-form-variant-default-value = Variants nav izavālāts
 profile-form-accent =
     .label = Akcents
+profile-form-custom-accent-help-text =
+    .label = Kai jius apraksteitu sovu akcentu?
+profile-form-custom-accent-placeholder-2 = Suocit raksteit, lai apraksteitu sovu akcentu.
 profile-form-age =
     .label = Vacums
 profile-form-gender-2 =
     .label = Dzymums
+leaderboard-visibility =
+    .label = Lideru saroksta radzameiba
+hidden = Paslāpts
+visible = Radzams
+native-language =
+    .label = Dzymtuo volūda
+profile-form-add-accent = Dalikt jaunu akcentu “{ $inputValue }”
 profile-form-submit-save = Saglobuot
 profile-form-submit-saved = Saglobuots
 male = Veirīts
@@ -182,6 +200,23 @@ female = Sīvīte
 # Gender
 other = Cyts
 why-profile-title = Deļkuo taiseit profilu?
+dashboard = Dorba golds
+build-profile = Taiseit profilu
+avatar = Avatars
+goals = Mierki
+settings = Īstatejumi
+edit-profile = Lobuot profilu
+profile-create-success = Profils sataiseits veiksmeigi!
+profile-close = Aiztaiseit
+why-demographic = Deļkuo tys ir svareigi?
+accept-privacy-title = Privatuma politika
+login = Dasaslēgt
+login-signup = Dasaslēgt / Registrētīs
+edit = Redigēt
+email-subscriptions = Jaunumu aboniešona e-postā
+download-profile = Lejupīluodēt munus datus
+contribution-experience = Pīsadaleišonys pīredze
+skip-submission-feedback = Izlaist atsauksmis
 
 ## Profile - Email
 
