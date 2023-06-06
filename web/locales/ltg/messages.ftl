@@ -102,6 +102,9 @@ x-years-short =
         [one] { "" }
        *[other] { "" }
     }
+help-make-dataset = Paleidzit sataiseit kvalitativu, publiski valeimu datu kūpu
+sign-up-account = Registrej sovu kontu
+email-subscription-title = Dasasoki jaunumim e-postā
 
 ## Account Benefits
 
@@ -122,6 +125,7 @@ shortcut-skip = s
 # Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-play-toggle = p
+shortcut-play-toggle-label = Atskaņuot/Apturēt
 # Must be one letter that appears in the { vote-yes } string.
 # Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
 shortcut-vote-yes = y
@@ -136,7 +140,10 @@ shortcut-vote-no = n
 shortcut-record-toggle = r
 shortcut-record-toggle-label = Īraksteit/Apturēt
 shortcut-rerecord-toggle = [1-5]
+shortcut-rerecord-toggle-label = Īraksteit otkon
 shortcut-discard-ongoing-recording = ESC
+shortcut-discard-ongoing-recording-label = Atsasaceit nu niulenejuo īroksta
+shortcut-submit = Enter
 request-language-button = Pīpraseit volūdys
 
 ## ProjectStatus
