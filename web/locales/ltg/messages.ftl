@@ -49,6 +49,9 @@ sv-SE = Zvīdru
 
 ## Layout
 
+speak = Runoj
+speak-now = Runoj tagad
+datasets = Datu kūpys
 languages = Volūdys
 about = Par
 partner = Partnereiba
@@ -63,6 +66,8 @@ logout = Beigt dorbu
 
 ## Home Page
 
+show-wall-of-text = Skaiteit vaira
+help-us-title = Paleidzit puorbaudeit teikumus!
 vote-yes = Nui
 vote-no = Nā
 toggle-play-tooltip = Damīdzit { shortcut-play-toggle }, lai puorslāgtu atskaņuošonys režimu
