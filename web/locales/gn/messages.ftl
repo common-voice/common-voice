@@ -1687,3 +1687,5 @@ sc-review-rules-title = Ko ñe’ẽjuajúpa ojapopa tekotevẽháicha
 report-sc-different-language = Ambuéva ñe’ẽ
 sentences-fetch-error = Ojavy eguerukuévo ñe’ẽjuaju
 review-error = Oiko jejavy ehechajeývo ko ñe’ẽjuaju
+# SENTENCE-COLLECTOR-REDIRECT PAGE
+sc-redirect-page-title = Ore rojaporoína ñemoambue guasu
