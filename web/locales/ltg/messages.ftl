@@ -10,6 +10,7 @@ submit-form-action = Nūsyuteit
 loading = Īluodej…
 email-opt-in-info = Es grybu sajimt e-postus, par pīmāru, mierka atguodynuojumus, progresa atjaunynuojumus i informativūs biletenus par itū projektu.
 email-opt-in-info-title = Pīsavīnuot Common Voice viestim e-postā
+indicates-required = * Obligatī lauki
 not-available-abbreviation = N/P
 banner-error-slow-link = Statusa lopa
 error-something-went-wrong = Atlaidit, koč kas nūguoja greizi
