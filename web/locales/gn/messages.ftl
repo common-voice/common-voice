@@ -1643,6 +1643,7 @@ citation =
     .label = Jehechauka
 self-citation = Ejehechauka
 adding-sentences-subheader-length = Pukukue
+adding-sentences-subheader-length-explanation = Pe ñe’ẽjuaju ndohupytyiva’erã 15 ñe’ẽ.
 adding-sentences-subheader-spelling-punctuation = Haiporã ha Ñemokyta
 adding-sentences-subheader-spelling-punctuation-explanation = Pe ñe’ẽjuaju ojehaiva’erã hekopete.
 adding-sentences-subheader-speakable = Ñe’ẽkuaa
