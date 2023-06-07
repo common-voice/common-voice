@@ -44,10 +44,12 @@ const getChallenge = (user: User.State): string => {
 export default class API {
   private readonly locale: Locale.State
   private readonly user: User.State
+  private readonly xhr: XMLHttpRequest
 
   constructor(locale: Locale.State, user: User.State) {
     this.locale = locale
     this.user = user
+    this.xhr = new XMLHttpRequest()
   }
 
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
@@ -556,37 +558,50 @@ export default class API {
 
   // We have to use XHR to make this request because the fetch API does not provide a way to monitor
   // the progress of an API request
-  uploadBulkSubmission({
+  bulkSubmissionRequest({
     file,
     locale,
     fileName,
     onProgress,
     onResponse,
+    onError,
   }: {
     file: File
     locale: string
     fileName: string
     onProgress: (evt: ProgressEvent<XMLHttpRequestEventTarget>) => void
     onResponse: (response: unknown) => void
+    onError: () => void
   }) {
-    const xhr = new XMLHttpRequest()
-
-    xhr.onreadystatechange = () => {
-      if (xhr.readyState === 4) {
-        onResponse(xhr.response)
+    this.xhr.onreadystatechange = () => {
+      if (this.xhr.readyState === 4) {
+        onResponse(this.xhr.response)
       }
     }
 
-    xhr.upload.addEventListener('progress', onProgress)
+    this.xhr.upload.addEventListener('progress', onProgress)
+
+    this.xhr.addEventListener('abort', () => {
+      console.log('aborted')
+    })
+
+    this.xhr.addEventListener('error', onError)
 
     const fileData = new FormData()
 
     fileData.append('file', file)
 
-    xhr.open('POST', `${API_PATH}/${locale}/bulk_submissions`)
+    this.xhr.open('POST', `${API_PATH}/${locale}/bulk_submissions`)
 
-    xhr.setRequestHeader('filename', fileName)
+    this.xhr.setRequestHeader('filename', fileName)
 
-    xhr.send(fileData)
+    this.xhr.send(fileData)
+
+    console.log(this.xhr, 'abort in request')
+  }
+
+  abortBulkSubmissionRequest() {
+    // TODO: does not work
+    this.xhr.abort()
   }
 }

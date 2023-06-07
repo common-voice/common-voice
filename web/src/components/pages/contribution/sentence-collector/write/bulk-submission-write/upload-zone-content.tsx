@@ -14,6 +14,7 @@ type Props = {
   uploadStatus: UploadStatus
   uploadProgress: number
   fileInfo: FileInfo
+  cancelBulkSubmission: () => void
 }
 
 const UploadZoneContent: React.FC<Props> = ({
@@ -21,14 +22,15 @@ const UploadZoneContent: React.FC<Props> = ({
   uploadStatus,
   uploadProgress,
   fileInfo,
+  cancelBulkSubmission,
 }) => {
   if (uploadStatus === 'uploading' && fileInfo) {
     return (
       <div className="uploading-container">
         <div className="progress-container">
-          <span style={{ width: `${uploadProgress}%` }} />
-          <progress max={100} value={uploadProgress} />
+          <span style={{ width: `${uploadProgress}%` }} className="progress" />
         </div>
+        <button onClick={cancelBulkSubmission}>Cancel Upload</button>
         <Spinner isFloating={false} />
         <Localized
           id="upload-progress-text"

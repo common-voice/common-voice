@@ -16,8 +16,13 @@ export type FileInfo = {
 const useBulkSubmissionUpload = () => {
   const [uploadStatus, setUploadStatus] = useState<UploadStatus>('waiting')
   const [fileInfo, setFileInfo] = useState<FileInfo>()
+
   const [locale] = useLocale()
-  const bulkUploadSentence = useAction(Sentences.actions.bulkUploadSentence)
+  const bulkSubmissionRequest = useAction(
+    Sentences.actions.bulkSubmissionRequest
+  )
+  const abortRequest = useAction(Sentences.actions.abortBulkSubmissionRequest)
+
   const sentences = useSentences()
 
   const handleDrop = (acceptedFiles: File[]) => {
@@ -31,16 +36,12 @@ const useBulkSubmissionUpload = () => {
       lastModified: format(file.lastModified, 'LLL d yyyy'),
     })
 
-    try {
-      bulkUploadSentence({
-        file,
-        fileName: file.name,
-        locale,
-        setUploadStatus,
-      })
-    } catch {
-      setUploadStatus('error')
-    }
+    bulkSubmissionRequest({
+      file,
+      fileName: file.name,
+      locale,
+      setUploadStatus,
+    })
   }
 
   return {
@@ -48,6 +49,7 @@ const useBulkSubmissionUpload = () => {
     uploadStatus,
     uploadProgress: sentences[locale]?.bulkUploadProgress,
     fileInfo,
+    cancelBulkSubmission: () => abortRequest(),
   }
 }
 
