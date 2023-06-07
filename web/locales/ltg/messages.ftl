@@ -442,6 +442,9 @@ listen-again-instruction = Labi padareits dorbs! <playIcon> </playIcon> Klausot�
 listen-3rd-time-instruction = 2 pabeigti, tai tik turēt! <playIcon> </playIcon>
 listen-last-time-instruction = <playIcon> </playIcon> Pādejais!
 listen-empty-state = Var byut, ka vysi īroksti jau ir apstruoduoti - puorluodejit lopu voi raugit nadaudz vāluok.
+listen-loading-error =
+    Mes navariejom dabuot nivīna īroksta, kū jums klauseitīs.
+    Lyudzu, raugit vēļreiz nadaudz vāluok.
 record-button-label = Īrokstit sovu bolsu
 share-title-new = <bold> Paleidzit mums </bold> atrast vairuok bolsu
 target-segment-add-voice = Davīnojit sovu bolsu
