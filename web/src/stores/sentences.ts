@@ -35,6 +35,7 @@ export namespace Sentences {
     VOTE_SENTENCE = 'VOTE_SENTENCE',
     SHOW_NEXT_SENTENCE = 'SHOW_NEXT_SENTENCE',
     BULK_UPLOAD_PROGRESS = 'BULK_UPLOAD_PROGRESS',
+    ABORT_BULK_UPLOAD = 'ABORT_BULK_UPLOAD',
   }
 
   interface RefillAction extends ReduxAction {
@@ -89,6 +90,10 @@ export namespace Sentences {
     bulkUploadProgress: number
   }
 
+  interface AbortBulkUpload extends ReduxAction {
+    type: ActionType.ABORT_BULK_UPLOAD
+  }
+
   export type Action =
     | RefillAction
     | RefillLoadAction
@@ -100,6 +105,7 @@ export namespace Sentences {
     | VoteSentence
     | ShowNextSentence
     | BulkUploadProgress
+    | AbortBulkUpload
 
   export const actions = {
     refill:
@@ -219,7 +225,7 @@ export namespace Sentences {
       sentenceId,
     }),
 
-    bulkUploadSentence:
+    bulkSubmissionRequest:
       ({
         file,
         locale,
@@ -245,17 +251,32 @@ export namespace Sentences {
           })
         }
 
+        // TODO: Move this to use-bulk-submission hook
         const onResponse = () => {
           setUploadStatus('done')
         }
 
-        state.api.uploadBulkSubmission({
+        // TODO: Move this to use-bulk-submission hook
+        const onError = () => {
+          setUploadStatus('error')
+        }
+
+        state.api.bulkSubmissionRequest({
           file,
           locale,
           fileName,
           onProgress: onProgressHandler,
           onResponse,
+          onError,
         })
+      },
+
+    abortBulkSubmissionRequest:
+      () =>
+      (dispatch: Dispatch<AbortBulkUpload>, getState: () => StateTree) => {
+        const state = getState()
+
+        state.api.abortBulkSubmissionRequest()
       },
   }
 
