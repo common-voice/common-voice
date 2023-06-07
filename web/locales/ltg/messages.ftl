@@ -13,6 +13,7 @@ email-opt-in-info-title = Pīsavīnuot Common Voice viestim e-postā
 email-opt-in-info-sub-with-challenge = Sajemit e-postus par saceņseibom voi pasuokumim, atguodynuojumus par mierkim, jaunumus i viests nu Common Voice.
 indicates-required = * Obligatī lauki
 not-available-abbreviation = N/P
+banner-error-slow-1 = Atlaidit, Common Voice dorbojās lānai. Paļdis par iņteresi.
 banner-error-slow-link = Statusa lopa
 error-something-went-wrong = Atlaidit, koč kas nūguoja greizi
 error-clip-upload = Ituo īroksta augšupīluode aizviņ naizadūd. Voi raudzeit otkon?
@@ -212,7 +213,7 @@ why-demographic = Deļkuo tys ir svareigi?
 accept-privacy-title = Privatuma politika
 login = Dasaslēgt
 login-signup = Dasaslēgt / Registrētīs
-edit = Redigēt
+edit = Lobuot
 email-subscriptions = Jaunumu aboniešona e-postā
 download-profile = Lejupīluodēt munus datus
 contribution-experience = Pīsadaleišonys pīredze
@@ -495,6 +496,8 @@ easy-difficulty = Vīnkuoršais
 average-difficulty = Videjais
 difficult-difficulty = Gryutais
 pro-difficulty = Profesionalais
+lose-goal-progress-warning = Lobojūt mierki, jius varit pagaisynuot asūšū progresu.
+finish-editing = Voi pyrma dabeigt lobuošonu?
 n-clips-pluralized =
     { NUMBER($count) ->
         [zero] { $count } īrokstu
@@ -503,6 +506,7 @@ n-clips-pluralized =
     }
 confirm-goal = Apstyprynuot mierki
 goal-interval-weekly = Reizi nedeļā
+return-to-edit-goal = Atsagrīzt ite, lai sevkurā laikā lobuotu mierki.
 
 ## Profile Delete
 
