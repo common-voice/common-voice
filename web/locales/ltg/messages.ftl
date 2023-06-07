@@ -65,6 +65,8 @@ privacy = Privatums
 terms = Lītuošonys nūsacejumi
 cookies = Seikdatnis
 faq = BUJ
+share-title = Paleidzit mums atrast cytus, kas pazīduotu sovu bolsa īrokstu!
+share-text = Paleidzit īkuortom saprast latgalīšu volūdu, īrokstit sovu bolsu voi puorbaudit salaseitūs īrokstus { $link }
 logout = Beigt dorbu
 
 ## Home Page
@@ -235,6 +237,7 @@ faq-is-account-public-q = Voi muna konta informaceja ir publiski daīmama?
 
 ## How does it work section
 
+about-speak-text = Dalinīki īroksta eisus teikumus, skaitūt nu apkūpuotū teikumu datu bazis.
 about-get-involved = Īsasaistit
 about-stay-in-touch = Kai es varu sasazynuot?
 about-stay-in-touch-button = Pīsaraksteit
@@ -696,6 +699,7 @@ sc-settings-ui-language = Saskarnis volūda
 
 # [/SentenceCollector]
 
+why-donate = Deļkuo jius vaicojit?
 thanks-for-voice-toast-error = Īsnādzūt jiusu bolsa informaceju, nūtyka klaida
 volume = Skaļums
 reader-effects = Īrunuotuoja izrunys eipatneibys
