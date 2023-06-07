@@ -14,6 +14,7 @@ email-opt-in-info-sub-with-challenge = Sajemit e-postus par saceņseibom voi pas
 indicates-required = * Obligatī lauki
 not-available-abbreviation = N/P
 banner-error-slow-1 = Atlaidit, Common Voice dorbojās lānai. Paļdis par iņteresi.
+banner-error-slow-2 = Mes sajamam daudz pīprasejumu i itūšaļt rysynojam problemys.
 banner-error-slow-link = Statusa lopa
 error-something-went-wrong = Atlaidit, koč kas nūguoja greizi
 error-clip-upload = Ituo īroksta augšupīluode aizviņ naizadūd. Voi raudzeit otkon?
