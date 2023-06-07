@@ -91,13 +91,12 @@
                         border-radius: 0px 4px 4px 0px;
                         overflow: hidden;
 
-                        span {
+                        span.progress {
                             position: absolute;
                             display: inline-block;
                             top: 0;
                             left: 0;
                             height: 100%;
-                            /* width: 75%; */
                             background: linear-gradient(
                                 90deg,
                                 #88d1f1 0%,
@@ -105,10 +104,6 @@
                             );
                         }
                     }
-
-                    /* .progress-container::before {
-                        content: '';
-                    } */
 
                     & .spinner__shape {
                         width: 5.5rem;
