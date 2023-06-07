@@ -73,10 +73,12 @@ logout = Beigt dorbu
 
 show-wall-of-text = Skaiteit vaira
 help-us-title = Paleidzit puorbaudeit teikumus!
+no-clips-to-validate = Izaver, ka itamā volūdā nav audio īrokstu. Paleidzit mums, īrokstūt kaidus tagad.
 vote-yes = Nui
 vote-no = Nā
 toggle-play-tooltip = Damīdzit { shortcut-play-toggle }, lai puorslāgtu atskaņuošonys režimu
 speak-subtitle = Pazīduot sovu bolsu
+speak-paragraph = Lai myusu volūda īkuortu laikmatā napagaistu, mums juoīroksta sovi bolsi; kaids saceitu, ka tys ir ari jautri.
 speak-goal-text = Īroksti īraksteiti
 listen-subtitle = Paleidzit puorbaudeit bolsus
 listen-goal-text = Apstyprynuoti īroksti
@@ -238,6 +240,7 @@ faq-how-privacy-q = Kai jius nūdrūsynuosit tū cylvāku anonimitati i privatum
 
 ## How does it work section
 
+about-voice-validation-subtitle = Cyti cylvāki puorbauda, voi teikumi ir īrunuoti precizi i pareizi.
 about-speak-text = Dalinīki īroksta eisus teikumus, skaitūt nu apkūpuotū teikumu datu bazis.
 about-listen-text = Lītuotuoji apstyprynoj īsnāgtū īrokstu precizitati, puorbaudūt, voi runuotuojs ir pareizi nūskaitejs teikumu.
 about-get-involved = Īsasaistit
@@ -438,6 +441,7 @@ listen-instruction = { $actionType } <playIcon> </playIcon> voi jī precizai īr
 listen-again-instruction = Labi padareits dorbs! <playIcon> </playIcon> Klausotēs vēļreiz, kod esit gotovs
 listen-3rd-time-instruction = 2 pabeigti, tai tik turēt! <playIcon> </playIcon>
 listen-last-time-instruction = <playIcon> </playIcon> Pādejais!
+listen-empty-state = Var byut, ka vysi īroksti jau ir apstruoduoti - puorluodejit lopu voi raugit nadaudz vāluok.
 record-button-label = Īrokstit sovu bolsu
 share-title-new = <bold> Paleidzit mums </bold> atrast vairuok bolsu
 target-segment-add-voice = Davīnojit sovu bolsu
@@ -539,6 +543,7 @@ download-size = Izmārs
 download-selected = Izalaseits
 download-request-button = Lejupīluodēt
 download-request-title = { $created }
+download-request-description = { $clipCount } bolsa īroksti, vysā arhiva izmārs { $size }. Izglobuošonys termiņš { $expires }.
 download-request-refresh-button = Atjaunynuot
 download-request-link-text = Zip #{ $offset } no { $total }
 download-request-metadata-link = Teikuma teksts
@@ -712,6 +717,8 @@ sc-settings-ui-language = Saskarnis volūda
 
 # [/SentenceCollector]
 
+# FIRST POST SUBMISSION CTA
+first-cta-header-text = Paļdis, ka pazīduojot sova bolsa īrokstus!
 why-donate = Deļkuo jius vaicojit?
 thanks-for-voice-toast-error = Īsnādzūt jiusu bolsa informaceju, nūtyka klaida
 volume = Skaļums
