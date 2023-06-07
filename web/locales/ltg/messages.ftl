@@ -231,6 +231,7 @@ skip-submission-feedback = Izlaist atsauksmis
 ## FAQ
 
 faq-is-account-public-q = Voi muna konta informaceja ir publiski daīmama?
+faq-how-privacy-q = Kai jius nūdrūsynuosit tū cylvāku anonimitati i privatumu, kuri pazīduoja sovus bolsus?
 
 ## ABOUT US
 
@@ -238,6 +239,7 @@ faq-is-account-public-q = Voi muna konta informaceja ir publiski daīmama?
 ## How does it work section
 
 about-speak-text = Dalinīki īroksta eisus teikumus, skaitūt nu apkūpuotū teikumu datu bazis.
+about-listen-text = Lītuotuoji apstyprynoj īsnāgtū īrokstu precizitati, puorbaudūt, voi runuotuojs ir pareizi nūskaitejs teikumu.
 about-get-involved = Īsasaistit
 about-stay-in-touch = Kai es varu sasazynuot?
 about-stay-in-touch-button = Pīsaraksteit
@@ -289,6 +291,7 @@ about-playbook-how-grow-language-content-6 = Partnereibys i teikli
 glossary = Aproksts
 localization = Lokalizaceja
 sst = Runa iz tekstu (STT)
+de-identified-explanation = Process, kurā īrunuotuoja profila informaceja teik maskāta juo pazīduotajūs bolsa īrokstūs, ka tī ir daīmami lejupīluodei kai datu kūpys dalis.
 
 ## Error pages
 
@@ -427,6 +430,7 @@ share-clip = Pasadolit ar sovu īrokstu
 share-common-voice = Pastuostit cytim par Common Voice
 review-instruction = Ka vajadzeigs, puorsaverit īrokstus i īrokstit atkuortuotai
 record-submit-tooltip = { $actionType } īsnēdzit, kod vyss gotovs
+clips-uploaded = Īroksti saglobuoti
 record-abort-submit = Īsnēgt īrokstus
 record-abort-continue = Pabeigt īrokstu
 record-abort-delete = Izīt i dzēst īrokstus
@@ -485,10 +489,16 @@ validations =
 ## Dashboard
 
 your-languages = Jiusu volūdys
+clips-you-recorded = Īroksti, kurus jius esit īrakstejuši
+clips-you-validated = Īroksti, kurus jius esit puorbaudejuši
+todays-recorded-progress = Šudiņdīnys Common Voice progress īrokstu īraksteišonā
+todays-validated-progress = Šudiņdīnys Common Voice progress īrokstu puorbaudeišonā
 stats = Statistika
 awards = Apbolvuojumi
 you = Jius
 everyone = Cyti
+recorded-clips = Īraksteitī īroksti
+validated-clips = Puorbaudeitī īroksti
 
 ## Custom Goals
 
@@ -502,6 +512,9 @@ difficult-difficulty = Gryutais
 pro-difficulty = Profesionalais
 lose-goal-progress-warning = Lobojūt mierki, jius varit pagaisynuot asūšū progresu.
 finish-editing = Voi pyrma dabeigt lobuošonu?
+activity-needed-calculation-plural = { $totalHours } stuņdis ir sasnādzamys { $periodMonths } mienešūs, ka { $people } cylvāki īraksteitu { $clipsPerDay } īrokstus dīnā.
+how-many-per-day = Breineigi! Cik īrokstu dīnā?
+how-many-a-week = Breineigi! Cik īrokstu nedeļā?
 n-clips-pluralized =
     { NUMBER($count) ->
         [zero] { $count } īrokstu
