@@ -906,7 +906,7 @@ contribute-more =
         [one] Vai esat gatavi vēl { $count }?
        *[other] Vai esat gatavi vēl { $count }?
     }
-record-cta = Sāciet ierakstīšanu
+record-cta = Sākt ierakstu
 record-platform-not-supported = Diemžēl jūsu platforma pašlaik netiek atbalstīta.
 record-platform-not-supported-desktop = Datoros varat lejupielādēt jaunāko:
 record-platform-not-supported-ios-non-safari = Operētājsistēmā iOS, lūdzu, turpiniet ar Safari, lai iespējotu ierakstīšanu…
