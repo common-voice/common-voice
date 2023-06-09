@@ -1031,7 +1031,7 @@ export const ReviewIcon = () => (
       fill="black"
     />
   </svg>
-)
+);
 
 export const QuestionIcon = () => (
   <svg
@@ -1103,7 +1103,7 @@ export const SingleContributionIcon = ({ isActive }: { isActive: boolean }) => (
       strokeLinejoin="round"
     />
   </svg>
-)
+);
 
 export const BulkContributionIcon = ({ isActive }: { isActive: boolean }) => (
   <svg
@@ -1145,7 +1145,7 @@ export const BulkContributionIcon = ({ isActive }: { isActive: boolean }) => (
       strokeLinejoin="round"
     />
   </svg>
-)
+);
 
 export const UploadIcon = () => (
   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" fill="none">
@@ -1161,7 +1161,7 @@ export const UploadIcon = () => (
       </clipPath>
     </defs>
   </svg>
-)
+);
 
 export const UploadIconLarge = () => (
   <svg xmlns="http://www.w3.org/2000/svg" width="96" height="97" fill="none">
@@ -1177,7 +1177,7 @@ export const UploadIconLarge = () => (
       </clipPath>
     </defs>
   </svg>
-)
+);
 
 export const LightBulbIcon = () => (
   <svg xmlns="http://www.w3.org/2000/svg" width="12" height="15" fill="none">
@@ -1194,8 +1194,25 @@ export const LightBulbIcon = () => (
       clipRule="evenodd"
     />
   </svg>
-)
+);
 
+export const FileIcon = () => (
+  <svg xmlns="http://www.w3.org/2000/svg" width="76" height="76" fill="none">
+    <circle cx="38.016" cy="37.642" r="37.5" fill="#D5E4F9" />
+    <path
+      fill="#575757"
+      fillRule="evenodd"
+      d="M21.096 16.556a6.25 6.25 0 0 1 4.42-1.83h16.666c.553 0 1.083.219 1.473.61l12.5 12.5c.391.39.61.92.61 1.472v25a6.25 6.25 0 0 1-6.25 6.25h-25a6.25 6.25 0 0 1-6.25-6.25V20.975a6.25 6.25 0 0 1 1.831-4.42Zm4.42 2.336a2.083 2.083 0 0 0-2.084 2.083v33.333a2.083 2.083 0 0 0 2.084 2.084h25a2.083 2.083 0 0 0 2.083-2.084V30.171l-11.28-11.28H25.516Z"
+      clipRule="evenodd"
+    />
+    <path
+      fill="#575757"
+      fillRule="evenodd"
+      d="M42.182 14.725c1.15 0 2.084.933 2.084 2.083v10.417h10.416a2.083 2.083 0 1 1 0 4.167h-12.5a2.083 2.083 0 0 1-2.083-2.084v-12.5c0-1.15.933-2.083 2.083-2.083ZM27.599 39.725c0-1.15.933-2.083 2.083-2.083H46.35a2.083 2.083 0 1 1 0 4.166H29.682a2.083 2.083 0 0 1-2.083-2.083ZM27.599 48.058c0-1.15.933-2.083 2.083-2.083H46.35a2.083 2.083 0 1 1 0 4.167H29.682a2.083 2.083 0 0 1-2.083-2.084ZM27.599 31.392c0-1.15.933-2.084 2.083-2.084h4.167a2.083 2.083 0 0 1 0 4.167h-4.167a2.083 2.083 0 0 1-2.083-2.083Z"
+      clipRule="evenodd"
+    />
+  </svg>
+);
 
 export const FirefoxColor = Icon(
   require('./icons/ff-color.svg'),

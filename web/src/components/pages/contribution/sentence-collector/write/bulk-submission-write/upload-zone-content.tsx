@@ -1,19 +1,21 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Localized } from '@fluent/react'
 import { filesize } from 'filesize'
 
-import { CloseIcon, UploadIconLarge } from '../../../../../ui/icons'
-import { Button, Spinner } from '../../../../../ui/ui'
+import { CloseIcon, FileIcon, UploadIconLarge } from '../../../../../ui/icons'
+import { Button, LabeledCheckbox, Spinner } from '../../../../../ui/ui'
 import {
   FileInfo,
   UploadStatus,
 } from '../../../../../../hooks/use-bulk-submission-upload'
+import { PrimaryButton } from '../../../../../primary-buttons/primary-buttons'
 
 type Props = {
   isDragActive: boolean
   uploadStatus: UploadStatus
   fileInfo: FileInfo
   cancelBulkSubmission: () => void
+  startUpload: () => void
 }
 
 const UploadZoneContent: React.FC<Props> = ({
@@ -21,7 +23,55 @@ const UploadZoneContent: React.FC<Props> = ({
   uploadStatus,
   fileInfo,
   cancelBulkSubmission,
+  startUpload,
 }) => {
+  const [confirmPublicDomain, setConfirmPublicDomain] = useState(false)
+
+  const handleConfirmPublicDomainChange = () => {
+    setConfirmPublicDomain(!confirmPublicDomain)
+  }
+
+  if (uploadStatus === 'waiting' && fileInfo) {
+    return (
+      <div className="waiting-container">
+        <div className="file-icon-container">
+          <FileIcon />
+        </div>
+        <p className="file-name">{fileInfo?.name}</p>
+        <p className="file-size">
+          {filesize(fileInfo?.size)} • {fileInfo?.lastModified}
+        </p>
+        <LabeledCheckbox
+          label={
+            <Localized
+              id="sc-bulk-submit-confirm"
+              elems={{
+                wikipediaLink: (
+                  <a
+                    href="https://en.wikipedia.org/wiki/Public_domain"
+                    target="_blank"
+                    rel="noreferrer"
+                  />
+                ),
+              }}>
+              <span />
+            </Localized>
+          }
+          checked={confirmPublicDomain}
+          onChange={handleConfirmPublicDomainChange}
+        />
+        <Localized id="submit-form-action">
+          <PrimaryButton
+            className="submit"
+            onClick={startUpload}
+            disabled={!confirmPublicDomain}
+            data-testid="submit-button"
+          />
+        </Localized>
+      </div>
+    )
+  }
+
   if (uploadStatus === 'uploading' && fileInfo) {
     return (
       <div className="uploading-container">

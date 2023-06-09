@@ -22,14 +22,22 @@ import useBulkSubmissionUpload from '../../../../../../hooks/use-bulk-submission
 import './bulk-submission-write.css'
 
 const BulkSubmissionWrite = () => {
-  const { handleDrop, uploadStatus, fileInfo, cancelBulkSubmission } =
-    useBulkSubmissionUpload()
+  const {
+    handleDrop,
+    uploadStatus,
+    fileInfo,
+    cancelBulkSubmission,
+    startUpload,
+  } = useBulkSubmissionUpload()
 
   const { getRootProps, getInputProps, isDragActive } = useDropzone({
     onDrop: useCallback(handleDrop, []),
     accept: { 'text/tab-separated-values': ['.tsv'] },
     multiple: false,
-    disabled: uploadStatus === 'uploading' || uploadStatus === 'done',
+    disabled:
+      uploadStatus === 'waiting' ||
+      uploadStatus === 'uploading' ||
+      uploadStatus === 'done',
   })
 
   return (
@@ -45,7 +53,8 @@ const BulkSubmissionWrite = () => {
             <div
               data-testid="bulk-upload-dropzone"
               className={classNames('upload-dropzone', {
-                'file-uploading': uploadStatus === 'uploading',
+                'no-border':
+                  uploadStatus === 'uploading' || uploadStatus === 'waiting',
               })}
               {...getRootProps()}>
               <input data-testid="file-input" {...getInputProps()} />
@@ -54,6 +63,7 @@ const BulkSubmissionWrite = () => {
                 uploadStatus={uploadStatus}
                 fileInfo={fileInfo}
                 cancelBulkSubmission={cancelBulkSubmission}
+                startUpload={startUpload}
               />
             </div>
             <div className="expandable-container">

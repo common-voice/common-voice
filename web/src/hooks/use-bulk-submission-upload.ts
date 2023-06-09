@@ -5,7 +5,7 @@ import { useAction } from './store-hooks'
 import { Sentences } from '../stores/sentences'
 import { useLocale } from '../components/locale-helpers'
 
-export type UploadStatus = 'waiting' | 'uploading' | 'done' | 'error'
+export type UploadStatus = 'off' | 'waiting' | 'uploading' | 'done' | 'error'
 
 export type FileInfo = {
   name: string
@@ -14,32 +14,40 @@ export type FileInfo = {
 }
 
 const useBulkSubmissionUpload = () => {
-  const [uploadStatus, setUploadStatus] = useState<UploadStatus>('waiting')
+  const [uploadStatus, setUploadStatus] = useState<UploadStatus>('off')
+  const [uploadedFile, setUploadedFile] = useState<File>()
   const [fileInfo, setFileInfo] = useState<FileInfo>()
 
   const [locale] = useLocale()
+
   const bulkSubmissionRequest = useAction(
     Sentences.actions.bulkSubmissionRequest
   )
   const abortRequest = useAction(Sentences.actions.abortBulkSubmissionRequest)
 
   const handleDrop = (acceptedFiles: File[]) => {
-    setUploadStatus('uploading')
+    setUploadStatus('waiting')
 
     const [file] = acceptedFiles
+
+    setUploadedFile(file)
 
     setFileInfo({
       name: file.name,
       size: file.size,
       lastModified: format(file.lastModified, 'LLL d yyyy'),
     })
+  }
 
+  const startUpload = () => {
     bulkSubmissionRequest({
-      file,
-      fileName: file.name,
+      file: uploadedFile,
+      fileName: uploadedFile.name,
       locale,
       setUploadStatus,
     })
+
+    setUploadStatus('uploading')
   }
 
   return {
@@ -47,6 +55,7 @@ const useBulkSubmissionUpload = () => {
     uploadStatus,
     fileInfo,
     cancelBulkSubmission: () => abortRequest(),
+    startUpload,
   }
 }
 
