@@ -2,7 +2,7 @@ import React from 'react'
 import { Localized } from '@fluent/react'
 import { filesize } from 'filesize'
 
-import { UploadIconLarge } from '../../../../../ui/icons'
+import { CloseIcon, UploadIconLarge } from '../../../../../ui/icons'
 import { Button, Spinner } from '../../../../../ui/ui'
 import {
   FileInfo,
@@ -25,7 +25,7 @@ const UploadZoneContent: React.FC<Props> = ({
   if (uploadStatus === 'uploading' && fileInfo) {
     return (
       <div className="uploading-container">
-        <button onClick={cancelBulkSubmission}>Cancel Upload</button>
+        <CloseIcon onClick={cancelBulkSubmission} black className="icon" />
         <Spinner isFloating={false} />
         <Localized id="upload-progress-text">
           <p className="upload-progress-text" />
