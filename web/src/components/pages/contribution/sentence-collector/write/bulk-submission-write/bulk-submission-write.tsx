@@ -22,13 +22,8 @@ import useBulkSubmissionUpload from '../../../../../../hooks/use-bulk-submission
 import './bulk-submission-write.css'
 
 const BulkSubmissionWrite = () => {
-  const {
-    handleDrop,
-    uploadStatus,
-    uploadProgress,
-    fileInfo,
-    cancelBulkSubmission,
-  } = useBulkSubmissionUpload()
+  const { handleDrop, uploadStatus, fileInfo, cancelBulkSubmission } =
+    useBulkSubmissionUpload()
 
   const { getRootProps, getInputProps, isDragActive } = useDropzone({
     onDrop: useCallback(handleDrop, []),
@@ -57,7 +52,6 @@ const BulkSubmissionWrite = () => {
               <UploadZoneContent
                 isDragActive={isDragActive}
                 uploadStatus={uploadStatus}
-                uploadProgress={uploadProgress}
                 fileInfo={fileInfo}
                 cancelBulkSubmission={cancelBulkSubmission}
               />

@@ -20,7 +20,6 @@ export namespace Sentences {
       isLoadingPendingSentences: boolean
       hasLoadingError: boolean
       pendingSentences: PendingSentence[]
-      bulkUploadProgress?: number
     }
   }
 
@@ -34,7 +33,6 @@ export namespace Sentences {
     REFILL_PENDING_SENTENCES_LOADING = 'REFILL_PENDING_SENTENCES_LOADING',
     VOTE_SENTENCE = 'VOTE_SENTENCE',
     SHOW_NEXT_SENTENCE = 'SHOW_NEXT_SENTENCE',
-    BULK_UPLOAD_PROGRESS = 'BULK_UPLOAD_PROGRESS',
     ABORT_BULK_UPLOAD = 'ABORT_BULK_UPLOAD',
   }
 
@@ -85,11 +83,6 @@ export namespace Sentences {
     newSentenceSubmission: SentenceSubmission
   }
 
-  interface BulkUploadProgress extends ReduxAction {
-    type: ActionType.BULK_UPLOAD_PROGRESS
-    bulkUploadProgress: number
-  }
-
   interface AbortBulkUpload extends ReduxAction {
     type: ActionType.ABORT_BULK_UPLOAD
   }
@@ -104,7 +97,6 @@ export namespace Sentences {
     | RefillPendingSentencesAction
     | VoteSentence
     | ShowNextSentence
-    | BulkUploadProgress
     | AbortBulkUpload
 
   export const actions = {
@@ -237,38 +229,20 @@ export namespace Sentences {
         fileName: string
         setUploadStatus: React.Dispatch<React.SetStateAction<UploadStatus>>
       }) =>
-      (dispatch: Dispatch<BulkUploadProgress>, getState: () => StateTree) => {
+      async (dispatch: Dispatch, getState: () => StateTree) => {
         const state = getState()
 
-        const onProgressHandler = (
-          evt: ProgressEvent<XMLHttpRequestEventTarget>
-        ) => {
-          const progress = evt.loaded / evt.total
-
-          dispatch({
-            type: ActionType.BULK_UPLOAD_PROGRESS,
-            bulkUploadProgress: Math.floor(progress * 100),
+        try {
+          await state.api.bulkSubmissionRequest({
+            file,
+            locale,
+            fileName,
           })
-        }
 
-        // TODO: Move this to use-bulk-submission hook
-        const onResponse = () => {
           setUploadStatus('done')
-        }
-
-        // TODO: Move this to use-bulk-submission hook
-        const onError = () => {
+        } catch {
           setUploadStatus('error')
         }
-
-        state.api.bulkSubmissionRequest({
-          file,
-          locale,
-          fileName,
-          onProgress: onProgressHandler,
-          onResponse,
-          onError,
-        })
       },
 
     abortBulkSubmissionRequest:
@@ -417,16 +391,6 @@ export namespace Sentences {
           [locale]: {
             ...currentLocaleState,
             pendingSentences,
-          },
-        }
-      }
-
-      case ActionType.BULK_UPLOAD_PROGRESS: {
-        return {
-          ...state,
-          [locale]: {
-            ...currentLocaleState,
-            bulkUploadProgress: action.bulkUploadProgress,
           },
         }
       }

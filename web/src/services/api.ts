@@ -24,6 +24,7 @@ interface FetchOptions {
     [headerName: string]: string
   }
   body?: any // eslint-disable-line @typescript-eslint/no-explicit-any
+  signal?: AbortSignal
 }
 
 interface Vote extends Event {
@@ -44,12 +45,12 @@ const getChallenge = (user: User.State): string => {
 export default class API {
   private readonly locale: Locale.State
   private readonly user: User.State
-  private readonly xhr: XMLHttpRequest
+  private readonly abortController: AbortController
 
   constructor(locale: Locale.State, user: User.State) {
     this.locale = locale
     this.user = user
-    this.xhr = new XMLHttpRequest()
+    this.abortController = new AbortController()
   }
 
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
@@ -556,52 +557,31 @@ export default class API {
     })
   }
 
-  // We have to use XHR to make this request because the fetch API does not provide a way to monitor
-  // the progress of an API request
   bulkSubmissionRequest({
     file,
     locale,
     fileName,
-    onProgress,
-    onResponse,
-    onError,
   }: {
     file: File
     locale: string
     fileName: string
-    onProgress: (evt: ProgressEvent<XMLHttpRequestEventTarget>) => void
-    onResponse: (response: unknown) => void
-    onError: () => void
   }) {
-    this.xhr.onreadystatechange = () => {
-      if (this.xhr.readyState === 4) {
-        onResponse(this.xhr.response)
-      }
-    }
-
-    this.xhr.upload.addEventListener('progress', onProgress)
-
-    this.xhr.addEventListener('abort', () => {
-      console.log('aborted')
-    })
-
-    this.xhr.addEventListener('error', onError)
-
+    const { signal } = this.abortController
     const fileData = new FormData()
 
     fileData.append('file', file)
 
-    this.xhr.open('POST', `${API_PATH}/${locale}/bulk_submissions`)
-
-    this.xhr.setRequestHeader('filename', fileName)
-
-    this.xhr.send(fileData)
-
-    console.log(this.xhr, 'abort in request')
+    return fetch(`${API_PATH}/${locale}/bulk_submissions`, {
+      method: 'POST',
+      body: fileData,
+      headers: {
+        filename: fileName,
+      },
+      signal,
+    })
   }
 
   abortBulkSubmissionRequest() {
-    // TODO: does not work
-    this.xhr.abort()
+    this.abortController.abort()
   }
 }
