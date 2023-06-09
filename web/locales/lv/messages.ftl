@@ -884,7 +884,7 @@ language-validation-progress = Pārbaudes progress
 
 ## Contribution
 
-action-click = Klikšķis
+action-click = Klikšķini
 action-tap = Pieskaries
 contribute = Veic ieguldījumu
 listen = Klausies
