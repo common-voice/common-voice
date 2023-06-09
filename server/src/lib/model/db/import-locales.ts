@@ -119,11 +119,6 @@ const VARIANTS: Variant[] = [
   },
   {
     locale_name: 'ca',
-    variant_name: 'Valencià',
-    variant_token: 'ca-valencia',
-  },
-  {
-    locale_name: 'ca',
     variant_name: 'Balear',
     variant_token: 'ca-balear',
   },
@@ -162,6 +157,11 @@ const VARIANTS: Variant[] = [
     variant_name: 'Alacantí',
     variant_token: 'ca-valencia-alacant',
   },
+  {
+    locale_name: 'ca',
+    variant_name: 'Alguerès',
+    variant_token: 'ca-algueres',
+  }
 ];
 
 type Locale = {
