@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { format } from 'date-fns'
 
-import { useAction, useSentences } from './store-hooks'
+import { useAction } from './store-hooks'
 import { Sentences } from '../stores/sentences'
 import { useLocale } from '../components/locale-helpers'
 
@@ -22,8 +22,6 @@ const useBulkSubmissionUpload = () => {
     Sentences.actions.bulkSubmissionRequest
   )
   const abortRequest = useAction(Sentences.actions.abortBulkSubmissionRequest)
-
-  const sentences = useSentences()
 
   const handleDrop = (acceptedFiles: File[]) => {
     setUploadStatus('uploading')
@@ -47,7 +45,6 @@ const useBulkSubmissionUpload = () => {
   return {
     handleDrop,
     uploadStatus,
-    uploadProgress: sentences[locale]?.bulkUploadProgress,
     fileInfo,
     cancelBulkSubmission: () => abortRequest(),
   }
