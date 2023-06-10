@@ -1557,9 +1557,11 @@ localization-select =
     .label = Επιλογή γλώσσας/μετάφρασης
 # PARTNERSHIPS PAGE
 partnerships-header = Συνεργασίες
+partnerships-header-text = Χρειάζονται πολλά για να γίνει πραγματικότητα το Common Voice! Δεν μπορούμε να το κάνουμε μόνοι μας. Θέλετε να συνεργαστούμε; Επικοινωνήστε μαζί μας.
 partnerships-get-in-touch = Επικοινωνία
 partnerships-become-a-partner = Γίνετε συνεργάτης του Common Voice
 partnerships-community-header = Κοινότητα, δημιουργοί και κοινωνία των πολιτών
+partnerships-community-description = Η κοινότητα είναι η καρδιά του Common Voice· τα μέλη της προέρχονται από όλο τον κόσμο και είναι ακτιβιστές της γλώσσας, επιστήμονες και καλλιτέχνες. Μπορείτε να μάθετε περισσότερα σχετικά με τους τρόπους συνεισφοράς στη σελίδα <about>Σχετικά</about> και στο <community>Βιβλίο οδηγιών κοινότητας</community>. Εάν ενδιαφέρεστε για στενότερη συνεργασία με τον οργανισμό μας, <emailFragment>επικοινωνήστε μαζί μας</emailFragment>.
 partnerships-foundations-header = Ιδρύματα
 partnerships-governments-header = Kυβερνήσεις
 partnerships-academia-header = Πανεπιστήμια, ακαδημαϊκοί και ερευνητές
