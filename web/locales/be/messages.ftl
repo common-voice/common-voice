@@ -811,6 +811,8 @@ action-click = Націснуць
 action-tap = Дакрануцца
 contribute = Прыняць удзел
 listen = Праслухаць
+write = Пішыце
+review = Правярайце
 skip = Прапусціць
 shortcuts = Цэтлікі
 clips-with-count-pluralized =
@@ -1178,7 +1180,9 @@ sc-logout-button = Выйсці
 
 sc-home-title = Вітаем на старонцы збору сказаў Common Voice
 sc-home-collect-title = Дадаць сказы
+sc-home-collect-text = Дапамажыце нам, напісаўшы альбо сабраўшы сказы, якія знаходзяцца ў грамадскім набытку.
 sc-home-review-title = Праверыць сказы
+sc-home-review-text = Дапамажыце нам з праверкай правільнасці сказаў у адпаведнасці з рэкамендацыямі
 
 ## GENERAL
 
@@ -1189,6 +1193,9 @@ sc-howto-title = Інструкцыя
 sc-howto-addsen-title = Дадаць новыя сказы
 sc-howto-cite-title = Як цытаваць
 sc-howto-review-title = Праверыць сказы
+sc-howto-review-subtitle = Упэўніцеся, што сказ адпавядае наступным крытэрыям:
+sc-howto-review-criteria-1 = Сказ павінен быць напісаны без памылак.
+sc-howto-review-criteria-2 = Сказ павінен быць граматычна правільным.
 
 ## MY SENTENCES
 
@@ -1222,6 +1229,8 @@ sc-submit-select-language =
     .labelText = Абраць мову
 sc-submit-ph-one-per-line =
     .placeholder = Адзін сказ на радок
+sc-submit-button =
+    .submitText = Даслаць
 
 ## ADD LANGUAGE
 
@@ -1277,3 +1286,27 @@ sc-settings-title = Налады
 
 partnerships-our-partners = Нашы партнёры
 sentence-collection = Збор сказаў
+citation =
+    .label = Цытата
+sentence =
+    .label = Сказ
+sentence-input-value = Напішыце тут ваш сказ, які знаходзіцца ў грамадскім набытку
+citation-input-value = Крыніца вашага сказа
+citation =
+    .label = Цытата
+what-can-i-add = Якія тыпы сказаў я магу дадаваць?
+new-sentence-rule-1 = <noCopyright>Няма абмежаванняў паводле аўтарскага права</noCopyright> (<cc0>cc-0</cc0>)
+new-sentence-rule-2 = Менш за 15 слоў
+new-sentence-rule-3 = Без граматычных памылак
+new-sentence-rule-4 = Без памылак правапісу і пунктуацыі
+new-sentence-rule-5 = Без лічбаў і спецыяльных сімвалаў
+new-sentence-rule-6 = Без іншамоўных літар
+new-sentence-rule-7 = Належным чынам цытуйце крыніцу
+how-to-cite = Як цытаваць?
+how-to-cite-explanation-bold = Цытуйце з URL-спасылкай альбо поўнай назвай твора.
+how-to-cite-explanation = Калі гэта вашы ўласныя словы, проста пазначце <italicizedText>“Самацытаванне”</italicizedText>. Нам трэба ведаць, дзе вы знайшлі гэты матэрыял, каб мы маглі ўпэўніцца, што ён знаходзіцца ў грамадскім набытку і на яго не распаўсюджваюцца абмежаванні аўтарскага права. Больш інфармацыі пра цытаванне глядзіце на нашай <guidelinesLink>старонцы рэкамендацый</guidelinesLink>.
+guidelines = Рэкамендацыі
+contact-us = Звязацца з намі
+add-sentence-success = 1 сказ сабраны
+add-sentence-error = Памылка пры даданні сказа
+required-field = Калі ласка, запоўніце гэтае поле
