@@ -42,6 +42,7 @@ be = Беларуская
 bg = Балгарская
 bm = Бамбара
 bn = Бенгальская
+bo = Тыбецкая
 br = Брэтонская
 bs = Баснійская
 bxr = Бурацкая
@@ -413,6 +414,7 @@ why-demographic-explanation-2 = Ананімізаваныя звесткі пр
 accept-privacy = Я згаджаюся з апрацоўкай гэтай інфармацыі, як патлумачана ў <privacyLink>палітыцы прыватнасці</privacyLink> Mozilla
 accept-privacy-title = Палітыка прыватнасці
 login-identity = Ідэнтыфікатар для ўваходу
+login = Увайсці
 login-signup = Увайсці / Зарэгістравацца
 edit = Рэдагаваць
 email-subscriptions = Падпіскі на эл. пошту
@@ -701,6 +703,7 @@ confirm-size = Вы гатовы ініцыяваць спампоўку <b>{ $s
 size-gigabyte = ГБ
 size-megabyte = МБ
 confirm-no-identify = <b>Вы пагаджаецесь</b> не спрабаваць вызначыць асобы спікераў у наборы дадзеных Common Voice
+confirm-join-mailing-list = Хачу далучыцца да спіса рассылкі Common Voice
 download-language = Спампаваць { $language }
 validated-hours = Праверана гадзін
 recorded-hours = Запісана гадзін
@@ -733,6 +736,9 @@ more = Яшчэ
 close = Закрыць
 download = Спампаваць
 dataset-version = Версія
+sha256-checksum-copied = Кантрольная сума SHA256 скапіравана!
+sha256-checksum-copied-error = Не атрымалася скапіраваць кантрольную суму SHA256
+clipboard-not-supported = Буфер абмену не падтрымліваецца
 
 ## Download Modal
 
@@ -867,6 +873,8 @@ target-segment-learn-more = Даведацца больш
 
 ## Contribution Nav Items
 
+contribute-voice-collection-nav-header = Збор галасоў
+contribute-sentence-collection-nav-header = Збор сказаў
 
 ## Reporting
 
@@ -1168,6 +1176,7 @@ sc-logout-button = Выйсці
 
 ## HOME
 
+sc-home-title = Вітаем на старонцы збору сказаў Common Voice
 sc-home-collect-title = Дадаць сказы
 sc-home-review-title = Праверыць сказы
 
@@ -1267,3 +1276,4 @@ sc-settings-title = Налады
 # [/SentenceCollector]
 
 partnerships-our-partners = Нашы партнёры
+sentence-collection = Збор сказаў
