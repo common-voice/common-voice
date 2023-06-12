@@ -987,6 +987,9 @@ export default class DB {
         is_contributable: boolean
         target_sentence_count: number
         total_sentence_count: number
+        is_translated: boolean
+        native_name: string
+        text_direction: string
       }) => ({
         id: row.id,
         name: row.name,
@@ -995,6 +998,9 @@ export default class DB {
           targetSentenceCount: row.target_sentence_count,
           currentCount: row.total_sentence_count,
         },
+        is_translated: row.is_translated,
+        native_name: row.native_name,
+        text_direction: row.text_direction,
       })
     )
   }
