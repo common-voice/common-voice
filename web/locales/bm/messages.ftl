@@ -417,13 +417,26 @@ why-demographic-explanation-2 = Baarakɛlaw ka kunnafoniw minnu tɔgɔ ma fɔ i 
 accept-privacy = N b’a fɛ i ka nin kunnafoni in ɲɛnabɔ i n’a fɔ i b’a ɲɛfɔ cogo min na Mozilla ka <privacyLink>Gundolakow sariya</privacyLink> kɔnɔ
 accept-privacy-title = Kunnafoni dogolenw maracogo
 accept-privacy-and-terms = N bɛ sɔn Common Voice ka <termsLink>Sariyasenw</termsLink> ani <privacyLink>Gundola kunnafoni</privacyLink> ma
+login-identity = Donni Identité
+login = Aw ye don a kɔnɔ
+login-signup = Don / I tɔgɔ sɛbɛn
+edit = Labɛnni kɛ
+email-subscriptions = Minnu bɛ sɔrɔ Imɛri la
+download-profile = Ka kan lasago
+contribution-experience = Bolomafaraw ka ko kɛlenw
+skip-submission-feedback = Tɛmɛ Submission Feedback kan
 skip-submission-description = Bolomafaraw ci waati la, jaabiw bɛna tɛmɛ ‘Submit’ digilen kɔfɛ. Bolomafara bɛna t’a fɛ k’a ɲɛsin a ma ni fɔlisen 5 walima tiɲɛniw kulu nata ye.
 skip-submission-note = Kɔlɔsili: I bɛna a ɲini hali bi ka kuma fɔ walima ka Lamɛ walasa ka bolomafara suguya falen.
 off = K'a bɔ a la
+on = Kan
+help-accent = Aw mago bɛ dɛmɛ dɔ la ni accent ye wa?
 help-accent-explanation = I ka fɔcogo ye i bɛ daɲɛw fɔcogo minna. O bɛ sɔrɔ  I sigiyɔrɔ  fɛ , i bɛ kan wɛrɛ minnu fɔ ani fɛn caman wɛrɛw. Aw bɛ se ka kunnafoni bɛɛ lase yan aw hakili la min bɛ se ka mago ɲɛ.
+help-variants = Aw mago bɛ dɛmɛ dɔ la ni variants ye wa?
+help-variants-explanation = Variants ye kan sugu kɛrɛnkɛrɛnnen dɔ ye - misali la, mɔgɔ minnu sigilen bɛ dugukoloko walima sigida dɔ la, olu bɛ tila ɲɔgɔn na. Tuma dɔw la, olu bɛ Weele ko kanhakɛw.
 
 ## Profile - Email
 
+browse-file-title = Ja filen dɔ bila a kan
 
 ## Profile - Email
 
