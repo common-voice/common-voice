@@ -1,4 +1,4 @@
-import React, { useCallback, useEffect } from 'react'
+import * as React from 'react'
 import { useDropzone } from 'react-dropzone'
 import { Localized } from '@fluent/react'
 import classNames from 'classnames'
@@ -26,7 +26,7 @@ import './bulk-submission-write.css'
 const BulkSubmissionWrite = () => {
   const dispatch = useDispatch()
 
-  useEffect(() => {
+  React.useEffect(() => {
     dispatch(Sentences.actions.setBulkUploadStatus('off'))
   }, [])
 
@@ -45,7 +45,7 @@ const BulkSubmissionWrite = () => {
     uploadStatus === 'done'
 
   const { getRootProps, getInputProps, isDragActive } = useDropzone({
-    onDrop: useCallback(handleDrop, []),
+    onDrop: React.useCallback(handleDrop, []),
     accept: { 'text/tab-separated-values': ['.tsv'] },
     multiple: false,
     disabled: isDropZoneDisabled,
