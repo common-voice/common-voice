@@ -5,8 +5,8 @@ import {
   Sentence,
   SentenceSubmission,
   SentenceVote,
+  BulkUploadStatus,
 } from 'common'
-import { UploadStatus } from '../hooks/use-bulk-submission-upload'
 
 const CACHE_SET_COUNT = 25
 const MIN_CACHE_COUNT = 5
@@ -20,6 +20,7 @@ export namespace Sentences {
       isLoadingPendingSentences: boolean
       hasLoadingError: boolean
       pendingSentences: PendingSentence[]
+      bulkUploadStatus?: BulkUploadStatus
     }
   }
 
@@ -34,6 +35,7 @@ export namespace Sentences {
     VOTE_SENTENCE = 'VOTE_SENTENCE',
     SHOW_NEXT_SENTENCE = 'SHOW_NEXT_SENTENCE',
     ABORT_BULK_UPLOAD = 'ABORT_BULK_UPLOAD',
+    SET_BULK_UPLOAD_STATUS = 'SET_BULK_UPLOAD_STATUS',
   }
 
   interface RefillAction extends ReduxAction {
@@ -87,6 +89,11 @@ export namespace Sentences {
     type: ActionType.ABORT_BULK_UPLOAD
   }
 
+  interface SetBulkUploadStatus extends ReduxAction {
+    type: ActionType.SET_BULK_UPLOAD_STATUS
+    bulkUploadStatus: BulkUploadStatus
+  }
+
   export type Action =
     | RefillAction
     | RefillLoadAction
@@ -98,6 +105,7 @@ export namespace Sentences {
     | VoteSentence
     | ShowNextSentence
     | AbortBulkUpload
+    | SetBulkUploadStatus
 
   export const actions = {
     refill:
@@ -222,42 +230,50 @@ export namespace Sentences {
         file,
         locale,
         fileName,
-        setUploadStatus,
       }: {
         file: File
         locale: string
         fileName: string
-        setUploadStatus: React.Dispatch<React.SetStateAction<UploadStatus>>
       }) =>
       async (dispatch: Dispatch, getState: () => StateTree) => {
         const state = getState()
 
-        try {
-          await state.api.bulkSubmissionRequest({
-            file,
-            locale,
-            fileName,
-          })
-
-          setUploadStatus('done')
-        } catch {
-          setUploadStatus('error')
-        }
+        await state.api.bulkSubmissionRequest({
+          file,
+          locale,
+          fileName,
+        })
       },
 
     abortBulkSubmissionRequest:
       () =>
-      (dispatch: Dispatch<AbortBulkUpload>, getState: () => StateTree) => {
+      (dispatch: Dispatch<SetBulkUploadStatus>, getState: () => StateTree) => {
         const state = getState()
 
         state.api.abortBulkSubmissionRequest()
+
+        dispatch({
+          type: ActionType.SET_BULK_UPLOAD_STATUS,
+          bulkUploadStatus: 'error',
+        })
       },
+
+    setBulkUploadStatus: (bulkUploadStatus: BulkUploadStatus) => ({
+      type: ActionType.SET_BULK_UPLOAD_STATUS,
+      bulkUploadStatus,
+    }),
+
+    removeBulkSubmission: () => ({
+      type: ActionType.SET_BULK_UPLOAD_STATUS,
+      bulkUploadStatus: 'off',
+    }),
   }
 
   const DEFAULT_LOCALE_STATE = {
     sentences: [] as Sentence[],
     isLoading: true,
     hasLoadingError: false,
+    bulkUploadStatus: 'off',
   }
 
   export function reducer(
@@ -299,6 +315,7 @@ export namespace Sentences {
             ...localeState,
             isLoading: true,
             hasLoadingError: false,
+            bulkUploadStatus: currentLocaleState.bulkUploadStatus,
           },
         }
 
@@ -391,6 +408,16 @@ export namespace Sentences {
           [locale]: {
             ...currentLocaleState,
             pendingSentences,
+          },
+        }
+      }
+
+      case ActionType.SET_BULK_UPLOAD_STATUS: {
+        return {
+          ...state,
+          [locale]: {
+            ...currentLocaleState,
+            bulkUploadStatus: action.bulkUploadStatus,
           },
         }
       }

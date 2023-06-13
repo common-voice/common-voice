@@ -1717,6 +1717,8 @@ add-sentence-error = Error adding sentence
 required-field = Please fill out this field.
 single-sentence-submission = Single Sentence Submission
 bulk-sentence-submission = Bulk Sentence Submission
+single-sentence = Single Sentence
+bulk-sentences = Bulk Sentences
 
 # REVIEW PAGE
 sc-review-instruction-first-part = Check
@@ -1738,6 +1740,8 @@ sc-bulk-upload-instruction-first-part = Upload
 sc-bulk-upload-instruction-second-part = public domain sentences
 drag-your-file-here = Drag your file here to upload
 drop-file-here = Drop file here to upload
+try-upload-again = Try again by dragging your file here
+try-upload-again-md = Try uploading again
 or-conjuction = or
 select-file = Select File
 select-file-mobile = Select File to Upload
@@ -1747,3 +1751,5 @@ what-needs-to-be-in-file = What needs to be in my file?
 what-needs-to-be-in-file-explanation = Please check our template file. Your sentences should be copyright free (CC0 or permissioned original work by the submitter) and be clear, grammatically correct and easy to read. Submitted sentences should take roughly 10-15 seconds to read and should avoid including numbers, proper nouns and special characters.
 upload-progress-text = Upload in progress...
 sc-bulk-submit-confirm = I confirm that these sentence are <wikipediaLink>public domain</wikipediaLink> and I have permission to upload them.
+bulk-upload-success-toast = Bulk Sentences Uploaded
+bulk-upload-failed-toast = Upload failed, please retry.
