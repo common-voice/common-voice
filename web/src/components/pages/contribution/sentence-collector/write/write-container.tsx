@@ -5,9 +5,11 @@ import SingleSubmissionWrite from './single-submission-write/single-submission-w
 import BulkSubmissionWrite from './bulk-submission-write/bulk-submission-write'
 import SentenceCollectorToggle from '../sentence-colector-toggle'
 
-import { useAccount } from '../../../../../hooks/store-hooks'
+import { useAccount, useSentences } from '../../../../../hooks/store-hooks'
 
 import './write-container.css'
+import { useLocale } from '../../../../locale-helpers'
+import BulkSubmissionSuccess from './bulk-submission-write/bulk-submission-success'
 
 export type WriteSubmissionToggleOptions = 'single' | 'bulk'
 
@@ -20,6 +22,18 @@ const WriteContainer = () => {
   }
 
   const account = useAccount()
+  const sentences = useSentences()
+  const [locale] = useLocale()
+
+  const isUploadDone = sentences[locale]?.bulkUploadStatus === 'done'
+
+  if (isUploadDone) {
+    return (
+      <div className="write-container">
+        <BulkSubmissionSuccess />
+      </div>
+    )
+  }
 
   return (
     <div className="write-container">
