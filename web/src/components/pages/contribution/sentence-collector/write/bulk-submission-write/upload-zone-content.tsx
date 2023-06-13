@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import * as React from 'react'
 import { Localized } from '@fluent/react'
 import { filesize } from 'filesize'
 
@@ -26,7 +26,7 @@ const UploadZoneContent: React.FC<Props> = ({
   removeBulkSubmission,
   startUpload,
 }) => {
-  const [confirmPublicDomain, setConfirmPublicDomain] = useState(false)
+  const [confirmPublicDomain, setConfirmPublicDomain] = React.useState(false)
 
   const handleConfirmPublicDomainChange = () => {
     setConfirmPublicDomain(!confirmPublicDomain)
