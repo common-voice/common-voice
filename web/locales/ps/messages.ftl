@@ -44,6 +44,7 @@ be = بلاروسي
 bg = بلغاریه ایی
 bm = بامبارایي
 bn = بنګالي
+bo = تبتي
 br = بریټانوي
 bs = بوسنیایي
 bxr = بوریاټي
@@ -138,6 +139,7 @@ nb-NO = نارويژي بوکلم
 nd = IsiNdebele (شمال)
 ne-NP = نیپالي
 nhe = ختیځ واسټيکا ناهوت
+nhi = لویدیځ سیرا پیوبلا ناهاتل
 nia = نیاس
 nl = الماني
 nn-NO = نارویژي نینورسک
@@ -887,6 +889,8 @@ action-click = کلیک
 action-tap = ټپ کړئ
 contribute = مرسته وکړئ
 listen = واورئ
+write = ولیکئ
+review = بیاکتنه
 skip = پرېږدئ
 shortcuts = لنډلارې
 clips-with-count-pluralized =
@@ -954,6 +958,7 @@ target-segment-learn-more = نور زده کړئ
 ## Contribution Nav Items
 
 contribute-voice-collection-nav-header = د غږ راټولول
+contribute-sentence-collection-nav-header = د جملو ټولګه
 
 ## Reporting
 
@@ -1600,3 +1605,15 @@ already-have-an-account = ایا دمخه حساب لرئ؟ <login>ننوتل</l
 create-profile-button = یو پروفایل جوړ کړئ
 # IMAGE TAGS
 img-alt-success-checkmark = د بریالیتوب نښه
+# GUIDELINES PAGE
+guidelines-header = د ونډې لارښوونې
+voice-collection = د غږ راټولول
+sentence-collection = د جملې ټولګه
+varying-pronunciations = مختلف تلفظونه
+misreadings = غلط لوستونه
+offensive-content = توهين کوونکي مواد
+background-noise = شاته شور
+background-voices = د شاته غږونه
+volume = حجم
+reader-effects = د لوستونکي اغیزې
+example = بېلګه
