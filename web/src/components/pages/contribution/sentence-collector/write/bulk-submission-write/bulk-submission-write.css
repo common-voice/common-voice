@@ -80,6 +80,13 @@
                     flex-direction: column;
                     align-items: center;
 
+                    img.icon {
+                        align-self: flex-end;
+                        margin-right: 12px;
+                        margin-top: 12px;
+                        cursor: pointer;
+                    }
+
                     & .file-name {
                         margin-bottom: 8px;
                     }
@@ -92,13 +99,6 @@
                 }
 
                 & .uploading-container {
-                    img.icon {
-                        align-self: flex-end;
-                        margin-right: 12px;
-                        margin-top: 12px;
-                        cursor: pointer;
-                    }
-
                     & .spinner__shape {
                         width: 5.5rem;
                         height: 5.5rem;
@@ -113,14 +113,46 @@
 
                 & .waiting-container {
                     & .file-icon-container {
-                        padding: 3rem;
+                        @media (--lg-up) {
+                            padding: 2rem;
+                        }
+
+                        @media (--md-only) {
+                            padding: 1rem;
+                        }
+
+                        @media (--xs-only) {
+                            padding: 0.5rem;
+                        }
                     }
 
                     & .labeled-checkbox {
-                        margin-top: 36px;
-                        margin-bottom: 24px;
                         font-size: var(--font-size-xs);
                         align-items: end;
+
+                        @media (--sm-up) {
+                            margin-bottom: 24px;
+                        }
+
+                        @media (--sm-down) {
+                            padding: 12px;
+                            align-items: center;
+                        }
+
+                        & .checkbox-container {
+                            @media (--sm-down) {
+                                align-self: baseline;
+                            }
+                        }
+
+                        @media (--lg-up) {
+                            margin-top: 36px;
+                        }
+
+                        a {
+                            color: var(--blue);
+                            text-decoration: underline;
+                        }
                     }
 
                     & .submit {

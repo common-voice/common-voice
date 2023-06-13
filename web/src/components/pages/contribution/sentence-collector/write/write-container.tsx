@@ -26,8 +26,6 @@ const WriteContainer = () => {
       {account && (
         <div className="sc-toggle">
           <SentenceCollectorToggle
-            singleOptionId="single-sentence-submission"
-            bulkOptionId="bulk-sentence-submission"
             onToggle={handleToggle}
             activeOption={activeWriteOption}
           />

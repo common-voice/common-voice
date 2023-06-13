@@ -4,17 +4,17 @@ import { filesize } from 'filesize'
 
 import { CloseIcon, FileIcon, UploadIconLarge } from '../../../../../ui/icons'
 import { Button, LabeledCheckbox, Spinner } from '../../../../../ui/ui'
-import {
-  FileInfo,
-  UploadStatus,
-} from '../../../../../../hooks/use-bulk-submission-upload'
+import { FileInfo } from '../../../../../../hooks/use-bulk-submission-upload'
 import { PrimaryButton } from '../../../../../primary-buttons/primary-buttons'
+import BulkUploadInstruction from './bulk-upload-instruction'
+import { BulkUploadStatus } from 'common'
 
 type Props = {
   isDragActive: boolean
-  uploadStatus: UploadStatus
+  uploadStatus: BulkUploadStatus
   fileInfo: FileInfo
-  cancelBulkSubmission: () => void
+  abortBulkSubmissionRequest: () => void
+  removeBulkSubmission: () => void
   startUpload: () => void
 }
 
@@ -22,7 +22,8 @@ const UploadZoneContent: React.FC<Props> = ({
   isDragActive,
   uploadStatus,
   fileInfo,
-  cancelBulkSubmission,
+  abortBulkSubmissionRequest,
+  removeBulkSubmission,
   startUpload,
 }) => {
   const [confirmPublicDomain, setConfirmPublicDomain] = useState(false)
@@ -34,6 +35,7 @@ const UploadZoneContent: React.FC<Props> = ({
   if (uploadStatus === 'waiting' && fileInfo) {
     return (
       <div className="waiting-container">
+        <CloseIcon onClick={removeBulkSubmission} black className="icon" />
         <div className="file-icon-container">
           <FileIcon />
         </div>
@@ -75,7 +77,11 @@ const UploadZoneContent: React.FC<Props> = ({
   if (uploadStatus === 'uploading' && fileInfo) {
     return (
       <div className="uploading-container">
-        <CloseIcon onClick={cancelBulkSubmission} black className="icon" />
+        <CloseIcon
+          onClick={abortBulkSubmissionRequest}
+          black
+          className="icon"
+        />
         <Spinner isFloating={false} />
         <Localized id="upload-progress-text">
           <p className="upload-progress-text" />
@@ -92,22 +98,13 @@ const UploadZoneContent: React.FC<Props> = ({
     return <h1>Done...</h1>
   }
 
-  if (uploadStatus === 'error') {
-    return <h1>An error occurred</h1>
-  }
-
   return (
     <>
       <UploadIconLarge />
-      {isDragActive ? (
-        <Localized id="drop-file-here">
-          <h2 className="upload-dropzone-instruction" />
-        </Localized>
-      ) : (
-        <Localized id="drag-your-file-here">
-          <h2 className="upload-dropzone-instruction hidden-md-down" />
-        </Localized>
-      )}
+      <BulkUploadInstruction
+        isDragActive={isDragActive}
+        isUploadError={uploadStatus === 'error'}
+      />
       <Localized id="or-conjuction">
         <p className="or-conjunction hidden-md-down" />
       </Localized>

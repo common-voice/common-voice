@@ -1,11 +1,12 @@
 import { useState } from 'react'
 import { format } from 'date-fns'
+import { useDispatch } from 'react-redux'
 
-import { useAction } from './store-hooks'
+import { useAction, useSentences } from './store-hooks'
 import { Sentences } from '../stores/sentences'
 import { useLocale } from '../components/locale-helpers'
-
-export type UploadStatus = 'off' | 'waiting' | 'uploading' | 'done' | 'error'
+import { Notifications } from '../stores/notifications'
+import { useLocalization } from '@fluent/react'
 
 export type FileInfo = {
   name: string
@@ -14,19 +15,24 @@ export type FileInfo = {
 }
 
 const useBulkSubmissionUpload = () => {
-  const [uploadStatus, setUploadStatus] = useState<UploadStatus>('off')
   const [uploadedFile, setUploadedFile] = useState<File>()
   const [fileInfo, setFileInfo] = useState<FileInfo>()
+  const dispatch = useDispatch()
+  const { l10n } = useLocalization()
 
   const [locale] = useLocale()
+  const sentences = useSentences()
 
   const bulkSubmissionRequest = useAction(
     Sentences.actions.bulkSubmissionRequest
   )
-  const abortRequest = useAction(Sentences.actions.abortBulkSubmissionRequest)
+  const abortBulkSubmissionRequest = useAction(
+    Sentences.actions.abortBulkSubmissionRequest
+  )
+  const removeBulkSubmission = useAction(Sentences.actions.removeBulkSubmission)
 
   const handleDrop = (acceptedFiles: File[]) => {
-    setUploadStatus('waiting')
+    dispatch(Sentences.actions.setBulkUploadStatus('waiting'))
 
     const [file] = acceptedFiles
 
@@ -39,23 +45,41 @@ const useBulkSubmissionUpload = () => {
     })
   }
 
-  const startUpload = () => {
-    bulkSubmissionRequest({
-      file: uploadedFile,
-      fileName: uploadedFile.name,
-      locale,
-      setUploadStatus,
-    })
+  const startUpload = async () => {
+    dispatch(Sentences.actions.setBulkUploadStatus('uploading'))
 
-    setUploadStatus('uploading')
+    try {
+      await bulkSubmissionRequest({
+        file: uploadedFile,
+        fileName: uploadedFile.name,
+        locale,
+      })
+
+      dispatch(Sentences.actions.setBulkUploadStatus('done'))
+      dispatch(
+        Notifications.actions.addPill(
+          l10n.getString('bulk-upload-success-toast'),
+          'success'
+        )
+      )
+    } catch {
+      dispatch(Sentences.actions.setBulkUploadStatus('error'))
+      dispatch(
+        Notifications.actions.addPill(
+          l10n.getString('bulk-upload-failed-toast'),
+          'error'
+        )
+      )
+    }
   }
 
   return {
     handleDrop,
-    uploadStatus,
+    uploadStatus: sentences[locale]?.bulkUploadStatus,
     fileInfo,
-    cancelBulkSubmission: () => abortRequest(),
+    abortBulkSubmissionRequest,
     startUpload,
+    removeBulkSubmission,
   }
 }
 

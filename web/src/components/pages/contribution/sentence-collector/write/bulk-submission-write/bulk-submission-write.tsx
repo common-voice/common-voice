@@ -1,7 +1,8 @@
-import React, { useCallback } from 'react'
+import React, { useCallback, useEffect } from 'react'
 import { useDropzone } from 'react-dropzone'
 import { Localized } from '@fluent/react'
 import classNames from 'classnames'
+import { useDispatch } from 'react-redux'
 
 import { Instruction } from '../../instruction'
 import {
@@ -18,15 +19,23 @@ import UploadZoneContent from './upload-zone-content'
 import URLS from '../../../../../../urls'
 import { COMMON_VOICE_EMAIL } from '../../../../../../constants'
 import useBulkSubmissionUpload from '../../../../../../hooks/use-bulk-submission-upload'
+import { Sentences } from '../../../../../../stores/sentences'
 
 import './bulk-submission-write.css'
 
 const BulkSubmissionWrite = () => {
+  const dispatch = useDispatch()
+
+  useEffect(() => {
+    dispatch(Sentences.actions.setBulkUploadStatus('off'))
+  }, [])
+
   const {
     handleDrop,
     uploadStatus,
     fileInfo,
-    cancelBulkSubmission,
+    abortBulkSubmissionRequest,
+    removeBulkSubmission,
     startUpload,
   } = useBulkSubmissionUpload()
 
@@ -62,7 +71,8 @@ const BulkSubmissionWrite = () => {
                 isDragActive={isDragActive}
                 uploadStatus={uploadStatus}
                 fileInfo={fileInfo}
-                cancelBulkSubmission={cancelBulkSubmission}
+                abortBulkSubmissionRequest={abortBulkSubmissionRequest}
+                removeBulkSubmission={removeBulkSubmission}
                 startUpload={startUpload}
               />
             </div>
