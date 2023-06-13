@@ -528,6 +528,8 @@ about-sentence-collection-title = Kumasenw Lajɛ
 about-sentence-collection-subtitle = Kumasenw bɛ lajɛ walasa mɔgɔw ka se k’u kalan ni kanba ye.
 about-new-lang-title = Kan kura daminɛ
 about-new-lang-subtitle = An bɛ Common Voice siti daminɛ o kan in na.
+about-voice-contrib-title = Kumakan Dɛmɛ
+about-voice-contrib-subtitle = Mɔgɔw bɛ na u kanw di.
 about-no-votes-text = Ni baarakɛla dɔ banna kumakan-klip dɔ la a bɛ segin Layidu la. Ni a banna siɲɛ filanan na, kumakan-klip bɛ taa Clip kaburudo la.
 
 ## Community Playbook Content
