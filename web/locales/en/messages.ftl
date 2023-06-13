@@ -1753,3 +1753,6 @@ upload-progress-text = Upload in progress...
 sc-bulk-submit-confirm = I confirm that these sentence are <wikipediaLink>public domain</wikipediaLink> and I have permission to upload them.
 bulk-upload-success-toast = Bulk Sentences Uploaded
 bulk-upload-failed-toast = Upload failed, please retry.
+bulk-submission-success-header = Thank you for contributing your bulk submission!
+bulk-submission-success-subheader = You're helping Common Voice reach our daily sentence goals!
+upload-more-btn-text = Upload more sentences?

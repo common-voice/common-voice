@@ -315,7 +315,7 @@ export namespace Sentences {
             ...localeState,
             isLoading: true,
             hasLoadingError: false,
-            bulkUploadStatus: currentLocaleState.bulkUploadStatus,
+            bulkUploadStatus: 'off',
           },
         }
 

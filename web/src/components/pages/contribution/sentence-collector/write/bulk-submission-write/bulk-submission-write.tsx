@@ -39,14 +39,16 @@ const BulkSubmissionWrite = () => {
     startUpload,
   } = useBulkSubmissionUpload()
 
+  const isDropZoneDisabled =
+    uploadStatus === 'waiting' ||
+    uploadStatus === 'uploading' ||
+    uploadStatus === 'done'
+
   const { getRootProps, getInputProps, isDragActive } = useDropzone({
     onDrop: useCallback(handleDrop, []),
     accept: { 'text/tab-separated-values': ['.tsv'] },
     multiple: false,
-    disabled:
-      uploadStatus === 'waiting' ||
-      uploadStatus === 'uploading' ||
-      uploadStatus === 'done',
+    disabled: isDropZoneDisabled,
   })
 
   return (
