@@ -396,6 +396,8 @@ profile-form-submit-save = Ka mara
 profile-form-submit-saved = Maralen don
 male = Cɛ
 female = Muso
+# Gender
+other = Dɔ wɛrɛ
 why-profile-title = Mun na profil dɔ?
 why-profile-text =
     Ni i ye kunnafoni dɔw di i yɛrɛ kan, i bɛ kunnafoni lamɛntaw minnu ci Common Voice ma, olu nafa bɛna bonya kosɛbɛ Kuma ma
@@ -405,6 +407,7 @@ build-profile = Profil dilan
 avatar = Avatari
 goals = Kuntilennaw
 settings = Labɛnniw.
+edit-profile = Porofili ladilan
 profile-explanation = Aw ye aw ka ɲɛtaa jateminɛ ni kunnafonisɛbɛn ye ani ka an ka kumakan kunnafoniw dɛmɛ u ka kɛ tiɲɛ ye.
 thanks-for-account = Aw ni ce aw ka jatebɔ la, sisan an k'aw ka profil jɔ.
 why-demographic = Mun na o nafa ka bon?
