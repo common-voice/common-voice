@@ -268,7 +268,11 @@ about-speak-text = Dalinīki īroksta eisus teikumus, skaitūt nu apkūpuotū te
 about-listen = Klausotēs
 about-listen-text = Lītuotuoji apstyprynoj īsnāgtū īrokstu precizitati, puorbaudūt, voi runuotuojs ir pareizi nūskaitejs teikumu.
 about-is-it-valid = Voi īroksts ir dereigs?
+about-is-it-valid-text = Bolsa īroksts ir atzeimāts kai "dereigs", ka lītuotuojs tū apstyprynuojs ar "nui".
 about-yes-votes = ≥ 2 bolsi "nui"
+about-no-votes = ≥ 2 bolsi „nā“
+about-dataset-new = Bolsa datu kūpa
+about-clip-graveyard = Īrokstu kopsāta
 about-get-involved = Īsasaistit
 about-stay-in-touch = Kai es varu sasazynuot?
 about-stay-in-touch-button = Pīsaraksteit
@@ -289,6 +293,7 @@ about-playbook-what-is-language-content-2 = Mes gribim, lai runys modeli lobuok 
 
 about-playbook-how-add-language = Kai dalikt volūdu?
 about-playbook-how-add-language-translating-heading = Škārsteikla lopys tulkuošona
+about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Veritēs myusu ceļvedi par Pontoon lītuošonu.</translateVideoLink>
 about-playbook-how-add-language-collecting-sentences-heading = Teikumu apkūpuošona
 
 ## How does localization work
@@ -314,6 +319,9 @@ about-playbook-how-grow-language-content-6 = Partnereibys i teikli
 
 ## How are decisions made
 
+about-playbook-how-project-governance-content-5 = Vierteiba i atzineiba.
+about-playbook-how-project-governance-content-6 = Sovstarpeiguo atbiļdeiba.
+about-playbook-how-project-governance-content-7 = <governanceLink>Izzynojat vaira par tū, kai mes teikam puorvaļdeiti</governanceLink>
 
 ## Glossary
 
