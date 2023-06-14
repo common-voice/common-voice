@@ -857,6 +857,8 @@ action-click = Fai clic su
 action-tap = Tocca
 contribute = Contribuisci
 listen = Ascolta
+write = Scrivi
+review = Convalida
 skip = Salta
 shortcuts = Scorciatoie
 clips-with-count-pluralized =
@@ -920,6 +922,7 @@ target-segment-learn-more = Scopri di più
 ## Contribution Nav Items
 
 contribute-voice-collection-nav-header = Raccolta di voci
+contribute-sentence-collection-nav-header = Raccolta di frasi
 
 ## Reporting
 
@@ -1653,8 +1656,41 @@ reviewing-sentences-explanation-1 = Se la frase soddisfa tutti i criteri descrit
 reviewing-sentences-explanation-2 = Se la frase non soddisfa tutti i criteri descritti sopra, fai clic sul pulsante “No“.
 reviewing-sentences-explanation-3 = Se non sei sicuro, puoi anche saltare la frase e passare a quella successiva.
 reviewing-sentences-explanation-4 = Se non ci sono più frasi da convalidare, aiutaci a raccoglierne altre!
-community-announcement-header = Annuncio per la community
-community-announcement-explanation = Le linee guida riportate di seguito riguardano le nuove funzioni di raccolta delle frasi, che saranno integrate nella piattaforma principale di Common Voice a marzo e aprile 2023. Nel frattempo è possibile utilizzare lo strumento precedente, <scLink>https://commonvoice.mozilla.org/sentence-collector/</scLink>.
+# WRITE PAGE
+write-instruction-second-part = una frase di pubblico dominio
+write-page-subtitle = Le frasi inserite verranno aggiunte a un dataset con licenza cc-0 disponibile pubblicamente.
+sentence =
+    .label = Frase
+sentence-input-value = Inserisci qui la frase di pubblico dominio
+citation-input-value = Fonte della frase
+citation =
+    .label = Citazione
+what-can-i-add = Che tipo di frasi posso aggiungere?
+new-sentence-rule-1 = <noCopyright>Nessuna restrizione di copyright</noCopyright> (<cc0>cc-0</cc0>)
+new-sentence-rule-2 = Meno di 15 parole
+new-sentence-rule-3 = Utilizza una grammatica corretta
+new-sentence-rule-4 = Utilizza ortografia e punteggiatura corrette
+new-sentence-rule-5 = Niente numeri e caratteri speciali
+new-sentence-rule-6 = Niente lettere straniere
+new-sentence-rule-7 = Includi la citazione opportuna
+new-sentence-rule-8 = Preferibilmente naturale e discorsiva (la frase dev’essere facile da leggere)
+how-to-cite = Come posso fare una citazione?
+how-to-cite-explanation-bold = Cita fornendo un link o il nome completo dell’opera.
+how-to-cite-explanation = Se sono parole tue, scrivi semplicemente <italicizedText>“Autocitazione”</italicizedText>. Abbiamo bisogno di sapere dove hai trovato questo contenuto in modo da poter verificare che sia di pubblico dominio e che non vi siano restrizioni di copyright. Per ulteriori informazioni sulle citazioni, consulta le nostre <guidelinesLink>Linee guida</guidelinesLink>.
+guidelines = Linee guida
+contact-us = Contattaci
+add-sentence-success = 1 frase raccolta
+add-sentence-error = Errore durante il caricamento della frase
+required-field = Compilare questo campo.
+# REVIEW PAGE
+sc-review-instruction-first-part = Verifica
+sc-review-instruction-second-part = è una frase linguisticamente corretta?
+sc-review-rules-title = La frase rispetta le linee guida?
+sc-review-empty-state = Al momento non ci sono frasi da convalidare in questa lingua.
+report-sc-different-language = Lingua diversa
+report-sc-different-language-detail = È scritta in una lingua diversa da quella che sto convalidando.
+sentences-fetch-error = Si è verificato un errore durante il recupero delle frasi
+review-error = Si è verificato un errore durante la convalida della frase
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = Stiamo apportando alcuni cambiamenti significativi
 sc-redirect-page-subtitle-1 = Il Sentence Collector si sta spostando sulla piattaforma principale di Common Voice. Ora puoi <writeURL>scrivere</writeURL> una frase o <reviewURL>esaminare</reviewURL> gli invii di frasi singole su Common Voice.
