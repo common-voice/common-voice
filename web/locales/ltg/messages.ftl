@@ -223,15 +223,26 @@ email-subscriptions = Jaunumu aboniešona e-postā
 download-profile = Lejupīluodēt munus datus
 contribution-experience = Pīsadaleišonys pīredze
 skip-submission-feedback = Izlaist atsauksmis
+off = Izslāgts
+on = Īslāgts
 
 ## Profile - Email
 
+browse-file-title = Augšonīluodejit biļdi
+connect-gravatar = Sasavīnuot ar Gravatar
+avatar-uploaded = Biļde īluodāta
+max-file-size = maksimums { $kb }kb
+remove-avatar = Nūjimt biļdi
 
 ## Profile - Email
 
+manage-subscriptions = Puorvaļdeit abonementus
+add-language = Dalikt volūdu
 
 ## FAQ
 
+faq-what-cv-q = Kas ir Common Voice?
+faq-why-important-q = Deļkuo tys ir svareigi?
 faq-is-account-public-q = Voi muna konta informaceja ir publiski daīmama?
 faq-how-privacy-q = Kai jius nūdrūsynuosit tū cylvāku anonimitati i privatumu, kuri pazīduoja sovus bolsus?
 
