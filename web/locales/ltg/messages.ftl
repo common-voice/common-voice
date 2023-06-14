@@ -245,15 +245,30 @@ faq-what-cv-q = Kas ir Common Voice?
 faq-why-important-q = Deļkuo tys ir svareigi?
 faq-is-account-public-q = Voi muna konta informaceja ir publiski daīmama?
 faq-how-privacy-q = Kai jius nūdrūsynuosit tū cylvāku anonimitati i privatumu, kuri pazīduoja sovus bolsus?
+faq-what-is-cv = Kas ir Common Voice?
+faq-using-cv = Common Voice lītuošona
+faq-search-for-answers =
+    .label = Vaicuot atbiļdis
 
 ## ABOUT US
 
+about-title = Deļkuo ir Common Voice?
 
 ## How does it work section
 
+about-new-lang-title = Jaunys volūdys palaisšona
+about-new-lang-subtitle = Mes palaižam Common Voice vītni itamā volūdā.
+about-voice-contrib-title = Bolsa īguļdejums
+about-voice-contrib-subtitle = Cylvāki atīt i īrunoj teikumus.
+about-voice-validation-title = Īrokstu puorbaudeišona
 about-voice-validation-subtitle = Cyti cylvāki puorbauda, voi teikumi ir īrunuoti precizi i pareizi.
+about-dataset-release-title = Datu kūpys izlaisšona
+about-speak = Runojit
 about-speak-text = Dalinīki īroksta eisus teikumus, skaitūt nu apkūpuotū teikumu datu bazis.
+about-listen = Klausotēs
 about-listen-text = Lītuotuoji apstyprynoj īsnāgtū īrokstu precizitati, puorbaudūt, voi runuotuojs ir pareizi nūskaitejs teikumu.
+about-is-it-valid = Voi īroksts ir dereigs?
+about-yes-votes = ≥ 2 bolsi "nui"
 about-get-involved = Īsasaistit
 about-stay-in-touch = Kai es varu sasazynuot?
 about-stay-in-touch-button = Pīsaraksteit
