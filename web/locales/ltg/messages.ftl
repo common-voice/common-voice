@@ -419,7 +419,7 @@ contact-required = *obligats
 request-language-title = Volūdys pīprasejums
 request-language-form-language =
     .label = Volūda
-request-language-success-title = Volūdys pīprasejums veiksmeigi īsnīgts, paļdis.
+request-language-success-title = Volūdys pīprasejums veiksmeigi īsnāgts, paļdis.
 select-language = Izalosit volūdu...
 other-language = Cyta volūda
 
@@ -487,7 +487,7 @@ listen-instruction = { $actionType } <playIcon> </playIcon> voi jī precizai īr
 listen-again-instruction = Labi padareits dorbs! <playIcon> </playIcon> Klausotēs vēļreiz, kod esit gotovs
 listen-3rd-time-instruction = 2 pabeigti, tai tik turēt! <playIcon> </playIcon>
 listen-last-time-instruction = <playIcon> </playIcon> Pādejais!
-listen-empty-state = Var byut, ka vysi īroksti jau ir apstruoduoti - puorluodejit lopu voi raugit nadaudz vāluok.
+listen-empty-state = Var byut, ka vysi īroksti jau ir apstruoduoti - atsvaidzynojat lopu voi raugit nadaudz vāluok.
 listen-loading-error =
     Mes navariejom dabuot nivīna īroksta, kū jums klauseitīs.
     Lyudzu, raugit vēļreiz nadaudz vāluok.
