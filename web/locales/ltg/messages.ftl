@@ -317,9 +317,13 @@ about-playbook-how-grow-language-content-6 = Partnereibys i teikli
 ## How to access dataset
 
 about-playbook-how-access-dataset = Kai datikt i lītuot datu kūpu?
+about-playbook-how-access-dataset-content-1 = Varit īt iz <datasetsPage>datu kūpu lopu</datasetsPage>, atlaseit vajadzeigū verseju i volūdu i tū lejupīluodēt! Failim ir <metadataLink>saisteiti metadati</metadataLink>, par pīmāru, demografiskuo informaceja i validacejis dati. Lai lejupīluodātu datu kūpu, jums byus juonūruoda e-posta adrese.
+about-playbook-how-access-dataset-content-2 = Ka vaicojit gotovus reikus, kas lītoj itū datu kūpu, varit sasazynuot ar kūpīnys dalinīkim <discourseLink>Discourse sistemā</discourseLink>.
 
 ## How are decisions made
 
+about-playbook-how-project-governance = Kai teik pījimti lāmumi par itū projektu?
+about-playbook-how-project-governance-content-1 = Mozilla Common Voice taisa aktivisti, volūdnīki, datu zynuotnīki, akademiki i programaturys iņžineri nu vysa pasauļa. Projektu puorvolda Mozilla fonds.
 about-playbook-how-project-governance-content-5 = Vierteiba i atzineiba.
 about-playbook-how-project-governance-content-6 = Sovstarpeiguo atbiļdeiba.
 about-playbook-how-project-governance-content-7 = <governanceLink>Izzynojat vaira par tū, kai mes teikam puorvaļdeiti</governanceLink>
