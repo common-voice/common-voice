@@ -296,7 +296,7 @@ x-years-short =
         [one] { $count }g
        *[other] { $count }g
     }
-help-make-dataset = Palīdziet izveidot kvalitatīvu, publiski atvērtu datu kopu
+help-make-dataset = Palīdziet izveidot kvalitatīvu, publiski pieejamu datu kopu
 sign-up-account = Reģistrē savu kontu
 email-subscription-title = Piesakieties jaunumiem e-pastā
 email-subscription-title-new = Reģistrējieties Common Voice ziņām, atgādinājumiem par mērķiem un progresa atjauninājumiem
