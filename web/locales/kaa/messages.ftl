@@ -244,27 +244,48 @@ action-click = Basıw
 action-tap = Basıń
 contribute = Úles qosıw
 listen = Tıńlaw
+write = Jazıw
+review = Tekseriw
+skip = Ótkerip jiberiw
+record-no-mic-found = Mikrofon tabılmadı.
 
 ## Contribution Nav Items
 
 
 ## Reporting
 
+report-different-language = Basqa til
+continue = Dawam etiw
 
 ## Goals
 
+days =
+    { $count ->
+        [one] Kún
+       *[other] Kún
+    }
 
 ## Dashboard
 
+your-languages = Siziń tillerińiz
 
 ## Custom Goals
 
 
 ## Profile Delete
 
+keep = Saqlaw
+remove = Alıp taslaw
+profile-form-delete = Profildi óshiriw
 
 ## Profile Download
 
+download-profile-title = Profil
+download-selected = Tańlandı
+download-start = Profil maǵlıwmatların júklep alıw
+download-request-button = Júklep alıw
+download-request-title = { $created }
+download-request-refresh-button = Jańalaw
 
 ## Landing
 
@@ -274,6 +295,9 @@ listen = Tıńlaw
 
 ## Demo Datasets
 
+card-button-back = Artqa
+demo-language-select-label = Tillerdi kóriw
+demo-account = Akkaunt
 
 ## Demo Account
 
@@ -294,6 +318,13 @@ listen = Tıńlaw
 
 ## HEADER/FOOTER
 
+sc-header-home = Bas bet
+sc-header-add = Qosıw
+sc-header-review = Tekseriw
+sc-header-statistics = Statistika
+sc-header-profile = Profil
+sc-login-signup-button = Kiriw / Dizimnen ótiw
+sc-logout-button = Shıǵıw
 
 ## HOME
 
@@ -315,9 +346,15 @@ listen = Tıńlaw
 
 ## ADD
 
+sc-submit-err-select-lang = Ótinish, tildi tańlań.
+sc-submit-select-language =
+    .labelText = Tildi tańlań
+sc-submit-button =
+    .submitText = Jiberiw
 
 ## ADD LANGUAGE
 
+sc-add-lang-could-not-add = Tildi qosıw ámelge aspadı
 
 ## ADD SENTENCES CONFIRMATION
 
