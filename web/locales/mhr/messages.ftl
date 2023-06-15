@@ -187,6 +187,7 @@ ts = Тсонга
 tt = Суас
 tw = Тви
 ty = Таити
+tyv = Тыва
 uby = Убых
 udm = Одо
 ug = Уйгур
@@ -932,6 +933,9 @@ target-segment-first-banner = { $locale } йылмылан Common Voice-ышто
 target-segment-add-voice = Шке йӱкетым ешаре
 target-segment-learn-more = Шукырак тунемаш
 
+## Contribution Nav Items
+
+
 ## Reporting
 
 report = Отчёт
@@ -1541,3 +1545,4 @@ sc-validation-no-abbreviations = Ойлончышто кӱчыкемдымаш �
 
 localization-select =
     .label = Йылмым/локализацийым ойыро
+sentence-collection = Ойлончо-влак пого

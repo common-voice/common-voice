@@ -118,6 +118,7 @@ lij = Λιγουριανά
 ln = Λινγκάλα
 lo = Λαοτινά
 lt = Λιθουανικά
+ltg = Λατγαλικά
 lv = Λετονικά
 mai = Μαϊθίλι
 mdf = Μόκσα
@@ -562,7 +563,7 @@ about-get-involved = Συμμετοχή
 about-get-involved-text-2 =
     Θέλετε να βοηθήσετε το Common Voice να γίνει ακόμη καλύτερο;
     Τέλεια! Επικοινωνήστε μέσω email ή στο <discourseLink>Discourse</discourseLink> φόρουμ,
-    αναφέρετε ζητήματα της ιστοσελίδας μέσω του <githubLink>GitHub</githubLink>,
+    αναφέρετε ζητήματα του ιστοτόπου μέσω του <githubLink>GitHub</githubLink>,
     ή βρείτε μας στην κοινότητα μας στο <matrixLink>Matrix</matrixLink>.
 about-stay-in-touch = Πώς μπορώ να ενημερώνομαι;
 about-stay-in-touch-button = Εγγραφή
@@ -732,6 +733,7 @@ datasets-positioning =
     Σε αυτήν τη σελίδα θα βρείτε αναφορές σε άλλα σύνολα φωνητικών δεδομένων ανοιχτού κώδικα και, καθώς το Common Voice συνεχίζει να αυξάνεται, θα βρείτε επίσης ανανεωμένες εκδόσεις του Common Voice.
 language = Γλώσσα
 download-dataset-header = Λήψη συνόλου δεδομένων
+download-delta-explainer = Κάναμε κάποιες αλλαγές. Το Delta Segments περιέχει απλώς τα πιο πρόσφατα αποσπάσματα από την τελευταία κυκλοφορία. <deltaLink>Διαβάστε περισσότερα για αυτή την εργασία</deltaLink>.
 download-dataset-tag = Επιλέξτε την επιθυμητή γλώσσα και την έκδοση του συνόλου δεδομένων.
 # File size in gigabytes
 size = Μέγεθος
@@ -768,7 +770,7 @@ community-playbook = Βιβλίο κανόνων κοινότητας
 resource-playbook-info = <playbookLink>Βρείτε χρήσιμες οδηγίες</playbookLink> για όλη την πορεία του Common Voice, από τη μετάφραση μέχρι τη χρήση συνόλων δεδομένων, καθώς και τη σύνδεση με την κοινότητά μας.
 data-other-librispeech-description = Το LibriSpeech είναι ένα σύνολο στοιχείων με περίπου 1000 ώρες από 16Khz αναγνωσμένων ομιλιών στα Αγγλικά, που προέρχονται από τα ηχητικά βιβλία του έργου LibriVox.
 data-other-ted-name = TED-LIUM Corpus
-data-other-ted-description = Το σύνολο στοιχείων TED-LIUM δημιουργήθηκε από ηχητικές ομιλίες και απομαγνητοφωνήσεις αυτών, που είναι διαθέσιμες στην ιστοσελίδα του TED.
+data-other-ted-description = Το σύνολο στοιχείων TED-LIUM δημιουργήθηκε από ηχητικές ομιλίες και απομαγνητοφωνήσεις αυτών, που είναι διαθέσιμες στον ιστότοπο του TED.
 data-other-voxforge-description = Το VoxForge δημιουργήθηκε για τη συλλογή απομαγνητοφωνημένης ομιλίας για χρήση με μηχανές αναγνώρισης ομιλίας ελεύθερου και ανοικτού κώδικα.
 data-other-tatoeba-description = Το Tatoeba είναι μια μεγάλη βάση δεδομένων προτάσεων, μεταφράσεων και ήχου ομιλίας για χρήση στην εκμάθηση γλωσσών. Αυτή η λήψη περιέχει ομιλία στα αγγλικά, που ηχογραφήθηκε από την κοινότητά του.
 your-feedback = Έχετε ιδέες για το πώς να κάνουμε το σύνολο δεδομένων του Common Voice καλύτερο; Ενημερώστε μας στο Discourse
@@ -857,9 +859,9 @@ request-language-error =
 ## Languages Overview
 
 language-section-in-progress = Σε εξέλιξη
-language-section-in-progress-new-description = Αυτές οι γλώσσες αναπτύσσονται προς το παρόν από την κοινότητα. Οι γραμμές προόδου δείχνουν σε ποιο στάδιο έχει φτάσει κάθε γλώσσα, όσον αφορά τη <localizationGlossaryLink>μετάφραση της ιστοσελίδας</localizationGlossaryLink> και τη <sentenceCollectionGlossaryLink>συλλογή προτάσεων</sentenceCollectionGlossaryLink>.
+language-section-in-progress-new-description = Αυτές οι γλώσσες αναπτύσσονται προς το παρόν από την κοινότητα. Οι γραμμές προόδου δείχνουν σε ποιο στάδιο έχει φτάσει κάθε γλώσσα, όσον αφορά τη <localizationGlossaryLink>μετάφραση του ιστοτόπου</localizationGlossaryLink> και τη <sentenceCollectionGlossaryLink>συλλογή προτάσεων</sentenceCollectionGlossaryLink>.
 language-section-launched = Σε λειτουργία
-language-section-launched-description = Για αυτές τις εν λειτουργία γλώσσες, η ιστοσελίδα έχει <localizationGlossaryLink>μεταφραστεί</localizationGlossaryLink> επιτυχώς και έχει αρκετές <sentenceCollectionGlossaryLink>συλλεγμένες προτάσεις</sentenceCollectionGlossaryLink> για να είναι η δυνατή η συνεχής συνεισφορά <speakLink>ομιλίας</speakLink> και <listenLink>ακρόασης</listenLink>.
+language-section-launched-description = Για αυτές τις εν λειτουργία γλώσσες, ο ιστότοπος έχει <localizationGlossaryLink>μεταφραστεί</localizationGlossaryLink> επιτυχώς και έχει αρκετές <sentenceCollectionGlossaryLink>συλλεγμένες προτάσεις</sentenceCollectionGlossaryLink> για να είναι η δυνατή η συνεχής συνεισφορά <speakLink>ομιλίας</speakLink> και <listenLink>ακρόασης</listenLink>.
 languages-show-more = Προβολή περισσότερων
 languages-show-less = Προβολή λιγότερων
 language-meter-in-progress = Πρόοδος
@@ -1556,9 +1558,11 @@ localization-select =
     .label = Επιλογή γλώσσας/μετάφρασης
 # PARTNERSHIPS PAGE
 partnerships-header = Συνεργασίες
+partnerships-header-text = Χρειάζονται πολλά για να γίνει πραγματικότητα το Common Voice! Δεν μπορούμε να το κάνουμε μόνοι μας. Θέλετε να συνεργαστούμε; Επικοινωνήστε μαζί μας.
 partnerships-get-in-touch = Επικοινωνία
 partnerships-become-a-partner = Γίνετε συνεργάτης του Common Voice
 partnerships-community-header = Κοινότητα, δημιουργοί και κοινωνία των πολιτών
+partnerships-community-description = Η κοινότητα είναι η καρδιά του Common Voice· τα μέλη της προέρχονται από όλο τον κόσμο και είναι ακτιβιστές της γλώσσας, επιστήμονες και καλλιτέχνες. Μπορείτε να μάθετε περισσότερα σχετικά με τους τρόπους συνεισφοράς στη σελίδα <about>Σχετικά</about> και στο <community>Βιβλίο οδηγιών κοινότητας</community>. Εάν ενδιαφέρεστε για στενότερη συνεργασία με τον οργανισμό μας, <emailFragment>επικοινωνήστε μαζί μας</emailFragment>.
 partnerships-foundations-header = Ιδρύματα
 partnerships-governments-header = Kυβερνήσεις
 partnerships-academia-header = Πανεπιστήμια, ακαδημαϊκοί και ερευνητές
@@ -1603,6 +1607,7 @@ background-noise-tip-2 = [Μέρος του κειμένου δεν ακούγε
 still-have-questions = Έχετε ακόμα ερωτήσεις;
 adding-sentences = Προσθήκη προτάσεων
 reviewing-sentences = Έλεγχος προτάσεων
+public-domain-explanation-5 = Αναζητήστε κείμενο όπου δεν ισχύουν πλέον τα πνευματικά δικαιώματα - για παράδειγμα, τα περισσότερα βιβλία που εκδόθηκαν πριν από το 1920
 citing-sentences-subheader-websites = Ιστότοποι
 citing-sentences-subheader-websites-explanation = Μπορείτε να συμπεριλάβετε τον ιστότοπο, π.χ. «Common Voice - https://commonvoice.mozilla.org/»
 citing-sentences-subheader-academic-reference = Ακαδημαϊκή αναφορά
@@ -1612,6 +1617,7 @@ adding-sentences-subheader-length-explanation = Η πρόταση πρέπει �
 adding-sentences-subheader-spelling-punctuation = Ορθογραφία και στίξη
 adding-sentences-subheader-spelling-punctuation-explanation = Η πρόταση πρέπει να έχει σωστή ορθογραφία.
 adding-sentences-subheader-numbers = Αριθμοί
+adding-sentences-subheader-abbreviations = Συντομογραφίες και ακρωνύμια
 adding-sentences-subheader-punctuation = Σημεία στίξης
 adding-sentences-subheader-punctuation-explanation = Τα ειδικά σύμβολα και τα σημεία στίξης θα πρέπει να περιλαμβάνονται μόνο όταν είναι απολύτως απαραίτητα. Για παράδειγμα, μια απόστροφος συναντάται σε ελληνικές φράσεις όπως το «ασ' το» και το «σ' ένα» και θα πρέπει να συμπεριλαμβάνονται στο αρχικό κείμενο. Όμως, είναι απίθανο να χρειαστείτε ειδικά σύμβολα, όπως το «@» ή το «#».
 adding-sentences-subheader-special-characters = Ειδικοί χαρακτήρες και ξένα γράμματα

@@ -391,36 +391,83 @@ hidden = Dogolen
 visible = A bɛ ye
 native-language =
     .label = Fasokan
+profile-form-add-accent = A' ye ladamukan kura fara "{ $inputValue }" kan.
+profile-form-submit-save = Ka mara
+profile-form-submit-saved = Maralen don
+male = Cɛ
+female = Muso
+# Gender
+other = Dɔ wɛrɛ
+why-profile-title = Mun na profil dɔ?
 why-profile-text =
     Ni i ye kunnafoni dɔw di i yɛrɛ kan, i bɛ kunnafoni lamɛntaw minnu ci Common Voice ma, olu nafa bɛna bonya kosɛbɛ Kuma ma
     Dɔnniya-minɛn minnu bɛ baara Kɛ ni o kunnafoniw ye walasa k’u ka tiɲɛni ɲɛ.
 dashboard = Bulonba
+build-profile = Profil dilan
+avatar = Avatari
+goals = Kuntilennaw
+settings = Labɛnniw.
+edit-profile = Porofili ladilan
+profile-create-success = Ɲɛtaa, profil dilanna!
+profile-close = Ka datugu
 profile-explanation = Aw ye aw ka ɲɛtaa jateminɛ ni kunnafonisɛbɛn ye ani ka an ka kumakan kunnafoniw dɛmɛ u ka kɛ tiɲɛ ye.
 thanks-for-account = Aw ni ce aw ka jatebɔ la, sisan an k'aw ka profil jɔ.
 why-demographic = Mun na o nafa ka bon?
 why-demographic-explanation-2 = Baarakɛlaw ka kunnafoniw minnu tɔgɔ ma fɔ i n’a fɔ u si hakɛ, cɛya ni musoya ani u fɔcogo, olu bɛ dɛmɛ ka kunnafoni lamɛntaw ɲɛ, minnu bɛ kɛ ka kuma dɔnni masinw ka tiɲɛni dege. I ka baarakɛla tɔgɔ ni i ka imeyili tɛna jɛ abada i ka kunnafoniw cilenw na, wa i bɛ se k’a sugandi n’i bɛna i ka baarakɛla tɔgɔ kɛ foroba la walima n’i tɔgɔ tɛ fɔ.
+accept-privacy = N b’a fɛ i ka nin kunnafoni in ɲɛnabɔ i n’a fɔ i b’a ɲɛfɔ cogo min na Mozilla ka <privacyLink>Gundolakow sariya</privacyLink> kɔnɔ
+accept-privacy-title = Kunnafoni dogolenw maracogo
+accept-privacy-and-terms = N bɛ sɔn Common Voice ka <termsLink>Sariyasenw</termsLink> ani <privacyLink>Gundola kunnafoni</privacyLink> ma
+login-identity = Donni Identité
+login = Aw ye don a kɔnɔ
+login-signup = Don / I tɔgɔ sɛbɛn
+edit = Labɛnni kɛ
+email-subscriptions = Minnu bɛ sɔrɔ Imɛri la
+download-profile = Ka kan lasago
+contribution-experience = Bolomafaraw ka ko kɛlenw
+skip-submission-feedback = Tɛmɛ Submission Feedback kan
 skip-submission-description = Bolomafaraw ci waati la, jaabiw bɛna tɛmɛ ‘Submit’ digilen kɔfɛ. Bolomafara bɛna t’a fɛ k’a ɲɛsin a ma ni fɔlisen 5 walima tiɲɛniw kulu nata ye.
 skip-submission-note = Kɔlɔsili: I bɛna a ɲini hali bi ka kuma fɔ walima ka Lamɛ walasa ka bolomafara suguya falen.
 off = K'a bɔ a la
+on = Kan
+help-accent = Aw mago bɛ dɛmɛ dɔ la ni accent ye wa?
 help-accent-explanation = I ka fɔcogo ye i bɛ daɲɛw fɔcogo minna. O bɛ sɔrɔ  I sigiyɔrɔ  fɛ , i bɛ kan wɛrɛ minnu fɔ ani fɛn caman wɛrɛw. Aw bɛ se ka kunnafoni bɛɛ lase yan aw hakili la min bɛ se ka mago ɲɛ.
+help-variants = Aw mago bɛ dɛmɛ dɔ la ni variants ye wa?
+help-variants-explanation = Variants ye kan sugu kɛrɛnkɛrɛnnen dɔ ye - misali la, mɔgɔ minnu sigilen bɛ dugukoloko walima sigida dɔ la, olu bɛ tila ɲɔgɔn na. Tuma dɔw la, olu bɛ Weele ko kanhakɛw.
 
 ## Profile - Email
 
+browse-file-title = Ja filen dɔ bila a kan
+browse-file = A sama ka bila walima <browseWrap>Ka Bɔ</browseWrap>
+connect-gravatar = Jɛɲɔgɔnya kɛ ni Gravatar ye
+gravatar_not_found = Gravatar si ma Sɔrɔ i ka email la
+file_too_large = Filen sugandilen ka bon kojugu
+avatar-uploaded = Avatar sɔrɔla
+max-file-size = { $kb }kb maksimali
+remove-avatar = Avatari bɔ yen
 
 ## Profile - Email
 
+manage-subscriptions = Tɔgɔsɛbɛlenw ɲɛnabɔli
+manage-email-subscriptions = Ka tɔgɔsɛbɛlenw ka Imɛyiw ɲɛnabɔ
+email-already-used = Email bɛ kɛ kaban ka ɲɛsin jatebɔsɛbɛn wɛrɛ ma
+add-language = Kan fara a kan
+change-email-setings = I ka email yɛlɛma  ka tɛmɛ Settings (Labɛnw) fɛ Dɔnniya Identité jukɔrɔ
 
 ## FAQ
 
+faq-title = Ɲininkali minnu bɛ kɛ tuma caman na
+faq-what-cv-q = Common Voice ye mun ye?
 faq-what-cv-a = Kan dɔnni fɛɛrɛ bɛ ka fɛn caman sɛmɛntiya an ni masinw ka jɛɲɔgɔnya kɛcogo la, nka sisan, sigida minnu bɛ yen, olu sɔngɔ ka gɛlɛn, wa u ye an yɛrɛ ta ye. Common Voice ye Mozilla ka baara dɔ ye walasa ka kumakan dɔnni fɛɛrɛw kɛ ka ɲɛ ani ka se ka sɔrɔ bɛɛ fɛ. Common Voice ye diɲɛ kɔnɔ kunnafonisɛbɛnba ye min bɛ kumakanw dilabɔ, min b’a to mɔgɔ bɛɛ bɛ se ka kumakan-porogaramuw dege teliya la ani nɔgɔya la kan bɛɛ la min bɛ se ka kɛ.
 faq-what-cv-a-2 =
     Kan dɔnni fɛɛrɛw bɛ ka taɲɛ sɛmɛntiya masinw ka jɛɲɔgɔnya kɛcogo la, nka sisan, sisitɛmu gódongódonlen minnu bɛ yen, olu sɔngɔ ka gɛlɛn, wa  ma kɛrɛnkɛrɛnlenw de ta don  . Mozilla Common Voice ye hakilinan ye min bɛ kan dɔnni fɛɛrɛw nɔgɔya ani ka lasɔrɔli dayɛlɛ ma kelenkelen  bɛɛ fe. Common Voice ye diɲɛ kɔnɔ kunnafonisɛbɛnba ye min bɛ kumakanw lamara, min b’a to mɔgɔ bɛɛ bɛ se ka kumakan-porogaramuw labɛn kɛ teliya la ani nɔgɔya la kan bɛɛ la.
     
     An tɛ kan misaliw dɔrɔn lajɛ kanw na minnu bɛ fɔ kosɛbɛ, nka an bɛ kanw fana lajɛ minnu ka fɔbagaw hakɛ ka dɔgɔ. Kumakanw kunnafonidilan suguya caman bɔli bɛna fanga di yiriwalikɛlaw, baarakɛlaw ani sigidamɔgɔw ma walasa u yɛrɛ ka se ka o danfara in ɲɛnabɔ.
+faq-why-important-q = Mun na a nafa ka bon?
 faq-why-important-a =
     A ka c’a la, kuma de ye an ni ɲɔgɔn cɛ kumaɲɔgɔnya kɛcogo ye min bɛ kɛ cogo la min bɛ kɛ cogo la min bɛ sɔrɔ an yɛrɛ la ani kanko fɛɛrɛw bɛ ka o nɔgɔya lase an ka ɔridinatɛriw ni telefɔni selilɛriw ma. An b’a fɛ ka fanga di baarakɛlaw ma walasa u ka se ka kumakan dɔnni baarakɛminɛn kabakomaw jɔ i n’a fɔ bamanankan bamanankan baarakɛlaw minnu bɛ baara kɛ waati yɛrɛ la ani dɛmɛbagaw nizɛrikan na minnu bɛ se ka kumakan di. Nka sisan yɛrɛ, kumakan kunnafonidilan minnu ka kan ka kɛ walasa ka nin porogaramu suguw dilan, olu fanba sɔngɔ ka gɛlɛn, wa u ye u yɛrɛ ta ye. An jigi b’a kan ko Common Voice kunnafonidilan bɛna fɛn di baarakɛlaw ma u mago bɛ min na walasa ka fɛn kuraw don ani ka kumakan fɛɛrɛbɔ kɛ u yɛrɛ ka kan na.
     
     Walasa ka kan dɔnni kɛ diɲɛ bɛɛ ta ye ka tɛmɛn fɔlɔ kan, an bɛ kan misaliw lajɛ kanw na minnu bɛ fɔ kosɛbɛ ani minnu ka kumalasela hakɛ ka dɔgɔ, tuma caman na, jagokɛlaw ka kuma dɔnni baarakɛlaw tɛ baara kɛ kosɛbɛ. Kumakanw kunnafonidilan suguya caman bɔli bɛna fanga di yiriwalikɛlaw, baarakɛlaw, ani kumakan jɛkulu bɛɛ ma walasa u yɛrɛ ka se ka o danfara in ɲɛnabɔ.
+faq-how-get-q = Ne bɛ se ka Common Voice ka kunnafoniw sɔrɔ cogo di?
 faq-how-get-a = Common Voice kunnafonidilan bɛ se ka telesarse <licenseLink>CC0</licenseLink> lase kɔnɔ <datasetLink>an ka Datasets ɲɛ</datasetLink> kan. Aw bɛ se fana ka kunnafonidilan damadɔ wɛrɛw telesarse minnu bɛ sɔrɔ foroba la ka bɔ ɲɛ kelen na.
 faq-when-release2-q = Tuma jumɛn na i bɛna Common Voice kunnafoniw bɔ kan wɛrɛw la?
 faq-when-release2-a = Common Voice kunnafonidilan min bɛ kan caman na, o bɛ ka sigida dɛmɛni ni a saniyalen kɛ sisan. N’i ​​b’a fɛ k’an dɛmɛ ka Common Voice lase kan kuraw la, taa <sentenceCollectorLink>Kunnafoni dalajɛminɛn</sentenceCollectorLink> lajɛ walasa ka kumasen kura fara kunnafonidilan kan, ani Mozilla <pontoonLink>Pontoon</pontoonLink> walasa ka siti in baara a yɛrɛ ye. Kan kura bɛ Fàra Common Voice kan kanko dɛmɛni kama ni kumasen 5000 dabɔra minnu Dabɔra.
@@ -428,9 +475,11 @@ faq-why-mission-q = Mun na Common Voice ye Mozilla cidenyabaara dɔ ye?
 faq-why-mission-a = Mozilla y’a yɛrɛ di walasa ka ɛntɛrinɛti da wuli ani ka se ka sɔrɔ bɛɛ bolo. Walasa k’o kɛ an ka kan ka fanga di ɛntɛrinɛti dabɔbagaw ma porozɛw fɛ i n’a fɔ Common Voice. Ni kanko fɛɛrɛw bɛ ka caya ka tɛmɛn nisɛ baarakɛminɛnw kan, an dalen b’a la k’u ka kan ka baara kɛ baarakɛlaw bɛɛ ye cogo kelen na. O kɔrɔ ye ka wari bila kan caman na ani ka fɔcogo ni jamanadenw hakɛ suguya caman ladon ni kanko fɛɛrɛw jɔli n’u kɔrɔbɔ. Common Voice ye foroba nafolo ye min bɛ sɔrɔ bɛɛ bolo wa Mozilla jɛkuluw ni baarakɛlaw bɛ baara kɛ n’a ye kaban an yɛrɛ ka porozɛw kan fana.
 faq-what-cv-and-deepspeech-q = Danfara jumɛn bɛ Common Voice ni Deep Speech cɛ?
 faq-what-cv-and-deepspeech-a = Common Voice kunnafonidilan bɛ Mozilla ka da wulilen kan dɔnni masin Deep Speech dafa. Deep Speech bɔko fɔlɔ bɔra san 2017 nowanburukalo la, wa a bɛ ka wuli ka taa a fɛ kabini o waati. An ni Common Voice kunnafonidilan jɛlen, an dalen b’a la ko nin kan dɔnni fɛɛrɛ dafalen in ka kan ka sɔrɔ bɛɛ bolo. An jigi b’a kan ko nin fɛɛrɛ ninnu bɛna kɛ sababu ye ka baarakɛlaw dɛmɛ u ka se ka fɛn kuraw ni baarakɛminɛn kuraw jɔ.
+faq-is-goal-assistant-q = Yala Common Voice ka laɲini ye ka kumakan dɛmɛbaga dɔ jɔ wa?
 faq-is-goal-assistant-a = Common Voice dataset laɲini ye ka diɲɛ kɔnɔ mɔgɔ o mɔgɔ dɛmɛ a ka se ka kuma dɔnni, kumalasela dɔnni, walima baarakɛminɛn suguya wɛrɛ jɔ min bɛ kan kunnafoniw wajibiya. Kumakan dɛmɛnan ye baarakɛminɛn suguya caman dɔ dɔrɔn de ye i bɛ se ka baara kɛ ni kunnafonidilan ye walasa k’u jɔ.
 faq-do-want-native-q = Ne ye mɔgɔ ye min tɛ kan fɔbaga ye ani ne bɛ kuma ni accent ye, yala i b’a fɛ hali bi ne kan na wa?
 faq-do-want-native-a = Ɔwɔ, an b’a fɛ kɛrɛnkɛrɛnnenya la i ka kan ka kɛ! Common Voice laɲini dɔ ye ka fɔcogo suguya caman lajɛ walasa kan dɔnni baarakɛlaw ka baara kɛ cogo kelen na bɛɛ ye. O kɔrɔ ye ko bolomafara minnu bɛ bɔ mɔgɔ minnu fɛ, olu nafa ka bon kɛrɛnkɛrɛnnenya la.
+faq-why-different-speakers-q = Mun na i mago bɛ kumalasela suguya caman na kan kelen-kelen bɛɛ la?
 faq-why-different-speakers-a = Kuma kunnafonidilan fanba bɛ dege ni jamanaden hakɛ dɔw jirali ye kojugu min bɛ na ni ɲɛmajɔbaliya ye <articleLink>cɛ ni cɛmancɛla< la
 faq-why-my-lang-q = Mun na ne ka kan ma don a la fɔlɔ?
 faq-why-my-lang-a =
@@ -479,6 +528,8 @@ about-sentence-collection-title = Kumasenw Lajɛ
 about-sentence-collection-subtitle = Kumasenw bɛ lajɛ walasa mɔgɔw ka se k’u kalan ni kanba ye.
 about-new-lang-title = Kan kura daminɛ
 about-new-lang-subtitle = An bɛ Common Voice siti daminɛ o kan in na.
+about-voice-contrib-title = Kumakan Dɛmɛ
+about-voice-contrib-subtitle = Mɔgɔw bɛ na u kanw di.
 about-no-votes-text = Ni baarakɛla dɔ banna kumakan-klip dɔ la a bɛ segin Layidu la. Ni a banna siɲɛ filanan na, kumakan-klip bɛ taa Clip kaburudo la.
 
 ## Community Playbook Content

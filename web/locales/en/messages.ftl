@@ -114,6 +114,7 @@ lij = Ligurian
 ln = Lingala
 lo = Lao
 lt = Lithuanian
+ltg = Latgalian
 lv = Latvian
 mai = Maithili
 mdf = Moksha

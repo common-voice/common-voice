@@ -118,6 +118,7 @@ lij = Лигурский
 ln = Лингала
 lo = Лаосский
 lt = Литовский
+ltg = Латгальский
 lv = Латышский
 mai = Майтхили
 mdf = Мокшанский
@@ -1714,8 +1715,6 @@ reviewing-sentences-explanation-1 = Если предложение соотве
 reviewing-sentences-explanation-2 = Если предложение не соответствует вышеуказанным критериям, нажмите кнопку «Нет».
 reviewing-sentences-explanation-3 = Если вы не уверены в предложении, вы также можете пропустить его и перейти к следующему.
 reviewing-sentences-explanation-4 = Если у вас закончились предложения для проверки, помогите нам собрать больше предложений!
-community-announcement-header = Объявление сообщества!
-community-announcement-explanation = Приведенное ниже руководство предназначено для новых функций сборщика предложений, которые будут интегрированы в основную платформу Common Voice в течение марта и апреля 2023 года. А пока вы можете использовать предыдущий инструмент, <scLink>https://commonvoice.mozilla.org/sentence-collector/</scLink>.
 # WRITE PAGE
 write-instruction-second-part = фраза из общественного достояния
 write-page-subtitle = Представленные здесь фразы будут добавлены в общедоступный набор данных под лицензией cc-0.
