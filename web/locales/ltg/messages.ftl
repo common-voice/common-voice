@@ -324,6 +324,9 @@ about-playbook-how-access-dataset-content-2 = Ka vaicojit gotovus reikus, kas l�
 
 about-playbook-how-project-governance = Kai teik pījimti lāmumi par itū projektu?
 about-playbook-how-project-governance-content-1 = Mozilla Common Voice taisa aktivisti, volūdnīki, datu zynuotnīki, akademiki i programaturys iņžineri nu vysa pasauļa. Projektu puorvolda Mozilla fonds.
+about-playbook-how-project-governance-content-2 = Myusu puorvaļdeiba ir baļsteita iz itaidu pryncypu:
+about-playbook-how-project-governance-content-3 = Privatums, drūšeiba i puorradzameiba.
+about-playbook-how-project-governance-content-4 = Kūpīnys leidzdaleiba lāmumu pījimšonā.
 about-playbook-how-project-governance-content-5 = Vierteiba i atzineiba.
 about-playbook-how-project-governance-content-6 = Sovstarpeiguo atbiļdeiba.
 about-playbook-how-project-governance-content-7 = <governanceLink>Izzynojat vaira par tū, kai mes teikam puorvaļdeiti</governanceLink>
@@ -341,9 +344,11 @@ error-code = Klaida { $code }
 
 ## Data
 
+data-download-button = Lejupīluodejit Common Voice datus
 data-download-yes = Nui
 data-download-deny = Nā
 data-download-license = Liceņze: <licenseLink> CC-0 </licenseLink>
+data-get-started = <speechBlogLink>Dorba suokšona ar runys atpazeišonu</speechBlogLink>
 data-other-title = Citys bolsa datu kūpys…
 data-other-goto = Ej iz { $name }
 data-other-download = Lejupīluodēt datus
@@ -353,6 +358,7 @@ release-version = Verseja
 dataset-date = Datums
 license = Liceņze: <licenseLink> { $license } </licenseLink>
 license-mixed = Jaukts
+terms-disagree = Es napīkreitu
 review-submit-title = Puorbaudeit i īsnēgt
 review-submit-msg = Paļdis par īraksteišonu! <lineBreak> </lineBreak> Tagad puorbaudit i īsnīdzit sovus audio failus.
 review-recording = Puorbaudit
