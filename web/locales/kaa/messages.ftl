@@ -355,27 +355,53 @@ sc-submit-button =
 ## ADD LANGUAGE
 
 sc-add-lang-could-not-add = Tildi qosıw ámelge aspadı
+sc-add-lang-sec-button = Til qosıw
 
 ## ADD SENTENCES CONFIRMATION
 
+sc-confirm-button-text = Tastıyıqlaw
 
 ## LANGUAGE INFO
 
 
 ## LOGIN
 
+sc-login-err-failed = Kiriw ámelge aspadı
+sc-login-err-try-again = Ótinish, qayta urınıp kóriń.
 
 ## PROFILE
 
+# Variables:
+#   $username (String) - eMail address of the logged in user
+sc-profile-title = Profil: { $username }
+sc-personal-err-lang-not-found = Tildi óshiriw ámelge aspadı: til tabılmadı
+sc-personal-err-remove = Tildi óshiriw ámelge aspadı
+sc-personal-your-languages = Siziń tillerińiz:
+sc-personal-remove-button = óshiriw
 
 ## REVIEW CRITERIA
 
 
 ## REVIEW
 
+sc-review-form-button-skip = Ótkerip jiberiw
+# Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
+sc-review-form-button-approve-shortcut = Y
+# Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
+sc-review-form-button-reject-shortcut = N
+# Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
+sc-review-form-button-skip-shortcut = S
+sc-review-form-button-submit =
+    .submitText = Tekseriwdi juwmaqlaw
+sc-review-link = Tekseriw
 
 ## SETTINGS
 
+sc-settings-title = Sazlawlar
+sc-settings-ui-language = Interfeys tili
 
 # [/SentenceCollector]
 
+add-information-button = Maǵlıwmat qosıw
+create-profile-button = Profil jaratıw
+citing-sentences-subheader-websites = Veb-saytlar
