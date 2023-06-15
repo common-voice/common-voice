@@ -109,7 +109,7 @@ x-years-short =
         [one] { "" }
        *[other] { "" }
     }
-help-make-dataset = Paleidzit sataiseit kvalitativu, publiski valeimu datu kūpu
+help-make-dataset = Paleidzit sataiseit kvalitativu, publiski daīmamu datu kūpu
 sign-up-account = Registrej sovu kontu
 email-subscription-title = Dasasoki jaunumim e-postā
 
