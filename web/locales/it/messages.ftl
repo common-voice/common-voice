@@ -118,6 +118,7 @@ lij = Ligure
 ln = Lingala
 lo = Lao
 lt = Lituano
+ltg = Letgallo
 lv = Lettone
 mai = Maithili
 mdf = Mokša

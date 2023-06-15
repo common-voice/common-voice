@@ -118,6 +118,7 @@ lij = Ligurisch
 ln = Lingala
 lo = Laotisch
 lt = Litauisch
+ltg = Lettgallisch
 lv = Lettisch
 mai = Maithili
 mdf = Mokschanisch

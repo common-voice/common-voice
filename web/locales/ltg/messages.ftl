@@ -17,8 +17,8 @@ banner-error-slow-1 = Atlaidit, Common Voice dorbojās lānai. Paļdis par iņte
 banner-error-slow-2 = Mes sajamam daudz pīprasejumu i itūšaļt rysynojam problemys.
 banner-error-slow-link = Statusa lopa
 error-something-went-wrong = Atlaidit, koč kas nūguoja greizi
-error-clip-upload = Ituo īroksta augšupīluode aizviņ naizadūd. Voi raudzeit otkon?
-error-clip-upload-server = Ituo īroksta augšupīluode serverī vys vēļ naizadūd. Puorluodejit lopu voi vāluok raugit vēļreiz.
+error-clip-upload = Ituo īroksta augšonīluode aizviņ naizadūd. Voi raudzeit otkon?
+error-clip-upload-server = Ituo īroksta augšonīluode serverī vys vēļ naizadūd. Puorluodejit lopu voi vāluok raugit vēļreiz.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -109,7 +109,7 @@ x-years-short =
         [one] { "" }
        *[other] { "" }
     }
-help-make-dataset = Paleidzit sataiseit kvalitativu, publiski valeimu datu kūpu
+help-make-dataset = Paleidzit sataiseit kvalitativu, publiski daīmamu datu kūpu
 sign-up-account = Registrej sovu kontu
 email-subscription-title = Dasasoki jaunumim e-postā
 
@@ -316,9 +316,17 @@ about-playbook-how-grow-language-content-6 = Partnereibys i teikli
 
 ## How to access dataset
 
+about-playbook-how-access-dataset = Kai datikt i lītuot datu kūpu?
+about-playbook-how-access-dataset-content-1 = Varit īt iz <datasetsPage>datu kūpu lopu</datasetsPage>, atlaseit vajadzeigū verseju i volūdu i tū lejupīluodēt! Failim ir <metadataLink>saisteiti metadati</metadataLink>, par pīmāru, demografiskuo informaceja i validacejis dati. Lai lejupīluodātu datu kūpu, jums byus juonūruoda e-posta adrese.
+about-playbook-how-access-dataset-content-2 = Ka vaicojit gotovus reikus, kas lītoj itū datu kūpu, varit sasazynuot ar kūpīnys dalinīkim <discourseLink>Discourse sistemā</discourseLink>.
 
 ## How are decisions made
 
+about-playbook-how-project-governance = Kai teik pījimti lāmumi par itū projektu?
+about-playbook-how-project-governance-content-1 = Mozilla Common Voice taisa aktivisti, volūdnīki, datu zynuotnīki, akademiki i programaturys iņžineri nu vysa pasauļa. Projektu puorvolda Mozilla fonds.
+about-playbook-how-project-governance-content-2 = Myusu puorvaļdeiba ir baļsteita iz itaidu pryncypu:
+about-playbook-how-project-governance-content-3 = Privatums, drūšeiba i puorradzameiba.
+about-playbook-how-project-governance-content-4 = Kūpīnys leidzdaleiba lāmumu pījimšonā.
 about-playbook-how-project-governance-content-5 = Vierteiba i atzineiba.
 about-playbook-how-project-governance-content-6 = Sovstarpeiguo atbiļdeiba.
 about-playbook-how-project-governance-content-7 = <governanceLink>Izzynojat vaira par tū, kai mes teikam puorvaļdeiti</governanceLink>
@@ -336,9 +344,11 @@ error-code = Klaida { $code }
 
 ## Data
 
+data-download-button = Lejupīluodejit Common Voice datus
 data-download-yes = Nui
 data-download-deny = Nā
 data-download-license = Liceņze: <licenseLink> CC-0 </licenseLink>
+data-get-started = <speechBlogLink>Dorba suokšona ar runys atpazeišonu</speechBlogLink>
 data-other-title = Citys bolsa datu kūpys…
 data-other-goto = Ej iz { $name }
 data-other-download = Lejupīluodēt datus
@@ -348,6 +358,8 @@ release-version = Verseja
 dataset-date = Datums
 license = Liceņze: <licenseLink> { $license } </licenseLink>
 license-mixed = Jaukts
+terms-disagree = Es napīkreitu
+review-aborted = Augšonīluode teik puortraukta. Voi gribit dzēst sovus īrokstus?
 review-submit-title = Puorbaudeit i īsnēgt
 review-submit-msg = Paļdis par īraksteišonu! <lineBreak> </lineBreak> Tagad puorbaudit i īsnīdzit sovus audio failus.
 review-recording = Puorbaudit
@@ -407,7 +419,7 @@ contact-required = *obligats
 request-language-title = Volūdys pīprasejums
 request-language-form-language =
     .label = Volūda
-request-language-success-title = Volūdys pīprasejums veiksmeigi īsnīgts, paļdis.
+request-language-success-title = Volūdys pīprasejums veiksmeigi īsnāgts, paļdis.
 select-language = Izalosit volūdu...
 other-language = Cyta volūda
 
@@ -475,7 +487,7 @@ listen-instruction = { $actionType } <playIcon> </playIcon> voi jī precizai īr
 listen-again-instruction = Labi padareits dorbs! <playIcon> </playIcon> Klausotēs vēļreiz, kod esit gotovs
 listen-3rd-time-instruction = 2 pabeigti, tai tik turēt! <playIcon> </playIcon>
 listen-last-time-instruction = <playIcon> </playIcon> Pādejais!
-listen-empty-state = Var byut, ka vysi īroksti jau ir apstruoduoti - puorluodejit lopu voi raugit nadaudz vāluok.
+listen-empty-state = Var byut, ka vysi īroksti jau ir apstruoduoti - atsvaidzynojat lopu voi raugit nadaudz vāluok.
 listen-loading-error =
     Mes navariejom dabuot nivīna īroksta, kū jums klauseitīs.
     Lyudzu, raugit vēļreiz nadaudz vāluok.
@@ -641,6 +653,12 @@ sc-footer-cookies = Seikdatnis
 
 ## MY SENTENCES
 
+# Variables:
+#   $batchId (String) - A unique ID identifying the submission of sentences - sentences uploaded together all have the same batch ID
+sc-my-submission = Īsnīguma identifikators: { $batchId }
+# Variables:
+#   $source (String) - Associated source the user filled out when uploading the sentence
+sc-my-source = Olūts: { $source }
 
 ## REJECTED
 
@@ -672,10 +690,22 @@ sc-submit-guidelines = Lyudzu, puorbaudit <howToLink>vadlinejis</howToLink>.
 
 ## ADD SENTENCES CONFIRMATION
 
+# Variables:
+#   $countOfUnreviewed (Number) - Number of sentences unreviewed before the upload
+sc-confirm-unreviewed = { $countOfUnreviewed } teikumi nav puorsavārti. Ka gribit, varit ari puorsavērt sovus teikumus pyrma tūs īsniegšonys.
 
 ## LANGUAGE INFO
 
 sc-lang-info-title-total = Kūpā
+# Variables:
+#   $totalSentences (Number) - Number of sentences uploaded in total for this language
+sc-lang-info-total =
+    { $totalSentences ->
+        [0] { $totalSentences } teikumi
+        [zero] { "" }
+        [one] { "" }
+       *[other] { "" }
+    }
 sc-lang-info-add-more = <addLink>Davīnojit teikumus!</addLink>
 # Variables:
 #   $validatedSentences (Number) - Number of sentences which have been approved for this language
@@ -723,6 +753,9 @@ sc-review-title = Teikumu puorbaude
 sc-review-loading = Nūteik teikumu īluode...
 sc-review-form-prompt =
     .message = Puorsavārtī teikumi nav īsnāgti, voi esit drūss?
+# Variables:
+#   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
+sc-review-form-source = Olūts: { $sentenceSource }
 sc-review-form-button-reject = Nūraideit
 sc-review-form-button-skip = Izlaist
 sc-review-form-button-approve = Apstyprynuot
@@ -779,7 +812,7 @@ background-noise-example-3 = Senejuo laikmeta dino [dzierdams krakškis].
 background-noise-example-4 = [klusums] senejuo laikmeta [dzierdams krakškis] -zauri.
 background-noise-tip-1 = [Skaitejumu puortrauc fona trūksnis]
 background-noise-tip-2 = [Daļu nu teksta navar dzierdēt]
-background-voices-explanation = Nalels fona trūksnis ir pījamams, tok, ka dzierdit cytu personu runojam konkretus vuordus, klips ir juonūraida. Parasti tys nūteik gadīņūs, kod tyvumā ir atstuots īslāgts televizors voi runoj cyti cylvāki.
+background-voices-explanation = Nalels fona trūksnis ir pījamams, tok, ka dzierdit cytu personu runojam konkretus vuordus, īroksts ir juonūraida. Parasti tys nūteik gadīņūs, kod tyvumā ir atstuots īslāgts televizors voi runoj cyti cylvāki.
 background-voices-example-1 = Senejuo laikmeta dinozauri. [skaita vīns bolss]
 background-voices-tip-1 = Voi tu ej? [soka kaids cyts]
 still-have-questions = Vys vēļ ir vaicuojumi?
