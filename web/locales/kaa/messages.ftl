@@ -130,18 +130,22 @@ male = Erkek
 female = Hayal
 # Gender
 other = Basqa
+why-profile-title = Profil nege kerek?
 avatar = Avatar
 goals = Maqsetler
 settings = Sazlamalar
+edit-profile = Profilge ózgeris kirgiziw
 profile-close = Jabıw
 login = Kiriw
 login-signup = Kiriw/Dizimnen ótiw
-edit = Ózgeris kiritiw
+edit = Ózgeris kirgiziw
 off = Óshirilgen
 on = Qosıwlı
 
 ## Profile - Email
 
+browse-file-title = Súwret faylın júklew
+avatar-uploaded = Avatar júklendı
 remove-avatar = Avatardı óshiriw
 
 ## Profile - Email
@@ -150,12 +154,19 @@ add-language = Til qosıw
 
 ## FAQ
 
+faq-title = Kóp beriletuǵın sorawlar
+faq-what-cv-q = Common Voice ne?
 
 ## ABOUT US
 
 
 ## How does it work section
 
+about-speak = Sóyleń
+about-listen = Tıńlań
+about-stay-in-touch-button = Dizimnen ótiw
+about-nav-why-common-voice = Nege?
+about-nav-how-it-works = Qalay?
 about-nav-get-involved = Qatnasıw
 
 ## Community Playbook Content
@@ -191,12 +202,26 @@ about-nav-get-involved = Qatnasıw
 
 ## Error pages
 
+error-code = Qátelik kodı: { $code }
 
 ## Data
 
+data-download-button = Common Voice maǵlıwmatların júklep alıw
+data-download-yes = Awa
+data-download-deny = Yaq
+release-version = Versiya
+dataset-date = Sáne
+review-recording = Tekseriw
 
 ## Datasets Page
 
+language = Til
+audio-format = Audioformat
+number-of-voices = Dawıslar sanı
+size-gigabyte = GB
+size-megabyte = MB
+download-language = Júklew { $language }
+subscribe = Jazılıw
 
 ## Download Modal
 
@@ -215,7 +240,10 @@ about-nav-get-involved = Qatnasıw
 
 ## Contribution
 
+action-click = Basıw
+action-tap = Basıń
 contribute = Úles qosıw
+listen = Tıńlaw
 
 ## Contribution Nav Items
 
