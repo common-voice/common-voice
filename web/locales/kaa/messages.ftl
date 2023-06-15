@@ -26,9 +26,12 @@ uz = Ózbekshe
 ## Layout
 
 languages = Tiller
+about = Biz tuwralı
 profile = Profil
 help = Járdem
 contact = Baylanıs
+privacy = Qupıyalıq
+terms = Shártler
 faq = Soraw-juwap
 link-copied = Silteme kóshirip alındı
 back-top = Joqarıǵa qaytıw
@@ -37,8 +40,11 @@ logout = Shıǵıw
 ## Home Page
 
 home-cta = Oqıń hám úles qosıń!
+show-wall-of-text = Kóbirek oqıw
 vote-yes = Awa
 vote-no = Yaq
+hours-recorded = Saat jazıldı
+hours-validated = Saat tekserildi
 todays-progress = Búgingi nátiyje
 help-reach-goal = { $goal } ge jetıwge járdem berıń
 all-locales = Hámmesi
@@ -96,6 +102,9 @@ request-language-button = Til qosıwǵa soraw jiberiw
 
 ## ProjectStatus
 
+# Variables:
+# $goal - number of hours representing the next goal
+status-goal = Keyingi maqset: { $goal }
 english = Inglis tili
 
 ## ProfileForm
