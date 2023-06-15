@@ -222,21 +222,38 @@ size-gigabyte = GB
 size-megabyte = MB
 download-language = Júklew { $language }
 subscribe = Jazılıw
+go-languages-page = Tiller betine ótiw
+close = Jabıw
+download = Júklep alıw
+dataset-version = Versiya
 
 ## Download Modal
 
+download-no = Yaq, raxmet
 
 ## Contact Modal
 
+contact-form-name =
+    .label = Atı
+contact-form-message =
+    .label = Xat
 
 ## Request Language Modal
 
+request-language-form-language =
+    .label = Til
+select-language = Tildi tańlań...
+other-language = Basqa tiller
 
 ## Request Language Pages
 
+request-language-form-email =
+    .label = Siziń elektron pochtańız
 
 ## Languages Overview
 
+language-search-input =
+    .placeholder = Izlew
 
 ## Contribution
 
@@ -268,9 +285,15 @@ days =
 ## Dashboard
 
 your-languages = Siziń tillerińiz
+stats = Statistika
+you = Siz
 
 ## Custom Goals
 
+easy-difficulty = Ańsat
+average-difficulty = Ortasha
+difficult-difficulty = Qıyın
+pro-difficulty = Pro
 
 ## Profile Delete
 
@@ -337,12 +360,16 @@ sc-logout-button = Shıǵıw
 
 ## MY SENTENCES
 
+# Variables:
+#   $source (String) - Associated source the user filled out when uploading the sentence
+sc-my-source = Derek: { $source }
 
 ## REJECTED
 
 
 ## STATS
 
+sc-stats-title = Statistika
 
 ## ADD
 
@@ -405,3 +432,7 @@ sc-settings-ui-language = Interfeys tili
 add-information-button = Maǵlıwmat qosıw
 create-profile-button = Profil jaratıw
 citing-sentences-subheader-websites = Veb-saytlar
+contact-us = Biz benen baylanısıw
+required-field = Ótinish, bul maydandı toltırıń.
+# REVIEW PAGE
+sc-review-instruction-first-part = Tekseriw
