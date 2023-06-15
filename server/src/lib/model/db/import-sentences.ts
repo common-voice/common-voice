@@ -44,7 +44,7 @@ function streamSentences(localePath: string) {
           });
           sentences = [];
         }
-        await new Promise(resolve => {
+        await new Promise<void>(resolve => {
           const fileStream = fs
             .createReadStream(filePath)
             .pipe(eventStream.split())
