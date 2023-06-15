@@ -223,26 +223,56 @@ email-subscriptions = Jaunumu aboniešona e-postā
 download-profile = Lejupīluodēt munus datus
 contribution-experience = Pīsadaleišonys pīredze
 skip-submission-feedback = Izlaist atsauksmis
+off = Izslāgts
+on = Īslāgts
 
 ## Profile - Email
 
+browse-file-title = Augšonīluodejit biļdi
+connect-gravatar = Sasavīnuot ar Gravatar
+avatar-uploaded = Biļde īluodāta
+max-file-size = maksimums { $kb }kb
+remove-avatar = Nūjimt biļdi
 
 ## Profile - Email
 
+manage-subscriptions = Puorvaļdeit abonementus
+add-language = Dalikt volūdu
 
 ## FAQ
 
+faq-what-cv-q = Kas ir Common Voice?
+faq-why-important-q = Deļkuo tys ir svareigi?
 faq-is-account-public-q = Voi muna konta informaceja ir publiski daīmama?
 faq-how-privacy-q = Kai jius nūdrūsynuosit tū cylvāku anonimitati i privatumu, kuri pazīduoja sovus bolsus?
+faq-what-is-cv = Kas ir Common Voice?
+faq-using-cv = Common Voice lītuošona
+faq-search-for-answers =
+    .label = Vaicuot atbiļdis
 
 ## ABOUT US
 
+about-title = Deļkuo ir Common Voice?
 
 ## How does it work section
 
+about-new-lang-title = Jaunys volūdys palaisšona
+about-new-lang-subtitle = Mes palaižam Common Voice vītni itamā volūdā.
+about-voice-contrib-title = Bolsa īguļdejums
+about-voice-contrib-subtitle = Cylvāki atīt i īrunoj teikumus.
+about-voice-validation-title = Īrokstu puorbaudeišona
 about-voice-validation-subtitle = Cyti cylvāki puorbauda, voi teikumi ir īrunuoti precizi i pareizi.
+about-dataset-release-title = Datu kūpys izlaisšona
+about-speak = Runojit
 about-speak-text = Dalinīki īroksta eisus teikumus, skaitūt nu apkūpuotū teikumu datu bazis.
+about-listen = Klausotēs
 about-listen-text = Lītuotuoji apstyprynoj īsnāgtū īrokstu precizitati, puorbaudūt, voi runuotuojs ir pareizi nūskaitejs teikumu.
+about-is-it-valid = Voi īroksts ir dereigs?
+about-is-it-valid-text = Bolsa īroksts ir atzeimāts kai "dereigs", ka lītuotuojs tū apstyprynuojs ar "nui".
+about-yes-votes = ≥ 2 bolsi "nui"
+about-no-votes = ≥ 2 bolsi „nā“
+about-dataset-new = Bolsa datu kūpa
+about-clip-graveyard = Īrokstu kopsāta
 about-get-involved = Īsasaistit
 about-stay-in-touch = Kai es varu sasazynuot?
 about-stay-in-touch-button = Pīsaraksteit
@@ -263,6 +293,7 @@ about-playbook-what-is-language-content-2 = Mes gribim, lai runys modeli lobuok 
 
 about-playbook-how-add-language = Kai dalikt volūdu?
 about-playbook-how-add-language-translating-heading = Škārsteikla lopys tulkuošona
+about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Veritēs myusu ceļvedi par Pontoon lītuošonu.</translateVideoLink>
 about-playbook-how-add-language-collecting-sentences-heading = Teikumu apkūpuošona
 
 ## How does localization work
@@ -288,6 +319,9 @@ about-playbook-how-grow-language-content-6 = Partnereibys i teikli
 
 ## How are decisions made
 
+about-playbook-how-project-governance-content-5 = Vierteiba i atzineiba.
+about-playbook-how-project-governance-content-6 = Sovstarpeiguo atbiļdeiba.
+about-playbook-how-project-governance-content-7 = <governanceLink>Izzynojat vaira par tū, kai mes teikam puorvaļdeiti</governanceLink>
 
 ## Glossary
 
