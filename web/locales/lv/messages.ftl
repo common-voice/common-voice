@@ -667,7 +667,7 @@ about-playbook-how-access-dataset-content-2 = Ja meklējat gatavus rīkus, kas i
 
 about-playbook-how-project-governance = Kā tiek pieņemti lēmumi par šo projektu?
 about-playbook-how-project-governance-content-1 = Mozilla Common Voice veido aktīvisti, valodnieki, datu zinātnieki, akadēmiķi un programmatūras inženieri no visas pasaules. Projektu pārvalda Mozilla fonds.
-about-playbook-how-project-governance-content-2 = Mūsu pārvaldība ir balstīta uz šādiem pīlāriem:
+about-playbook-how-project-governance-content-2 = Mūsu pārvaldība ir balstīta uz šādiem principiem:
 about-playbook-how-project-governance-content-3 = Privātums, drošība un pārredzamība.
 about-playbook-how-project-governance-content-4 = Kopienas līdzdalība lēmumu pieņemšanā.
 about-playbook-how-project-governance-content-5 = Vērtība un atzinība.
