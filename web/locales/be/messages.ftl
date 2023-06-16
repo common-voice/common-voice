@@ -795,6 +795,9 @@ request-language-google-recaptcha-required = Патрабуецца reCAPTCHA, �
 request-language-google-recaptcha-error = Нешта пайшло не так з reCAPTCHA. Калі ласка, паспрабуйце зноў пазней.
 # Success page
 request-language-success-heading = Дзякуй! Вы адправілі запыт на новую мову
+request-language-error =
+    Магчыма, мы не атрымалі гэты запыт. Калі ласка, напішыце нам наўпрост
+    на <emailLink>{ $email }</emailLink>, і мы звяжамся з вамі!
 
 ## Languages Overview
 
@@ -1291,6 +1294,13 @@ sc-review-link = Праверыць
 ## SETTINGS
 
 sc-settings-title = Налады
+sc-settings-show-all-button = Зноў паказаць усе прапушчаныя сказы
+sc-settings-failed = Не атрымалася змяніць налады. Калі ласка, паспрабуйце яшчэ раз.
+# VALIDATION
+sc-validation-number-of-words = У сказе павінна быць ад 1 да 14 слоў (уключна)
+sc-validation-no-numbers = У сказе не павінна быць лічбаў
+sc-validation-no-symbols = У сказе не павінна быць спецсімвалаў
+sc-validation-no-abbreviations = У сказе не павінна быць абрэвіятур
 
 # [/SentenceCollector]
 
