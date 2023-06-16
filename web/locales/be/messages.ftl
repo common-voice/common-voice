@@ -1204,6 +1204,7 @@ sc-home-review-text = Дапамажыце нам з праверкай прав
 sc-howto-title = Інструкцыя
 sc-howto-addsen-title = Дадаць новыя сказы
 sc-howto-addsen-item-2 = Лічбы. У зыходным тэксце не павінна быць лічбаў, бо яны могуць выклікаць праблемы пры чытанні ўслых. Тое, якім чынам лічба вымаўляецца, залежыць ад кантэксту і можа стварыць блытаніну ў дадзеных. Напрыклад, для лічбы «2409» правільным будзе і вымаўленне «дваццаць чатыры ноль дзевяць», і «дзве тысячы чатырыста дзевяць».
+sc-howto-addsen-item-4 = Пунктуацыя. Спецыяльныя сімвалы і знакі прыпынку варта ўключаць, толькі калі гэта абсалютна неабходна. Напрыклад, у англійскіх словах, такіх як «don’t» ці «we’re», ёсць апостраф, і ён павінен быць у зыходным тэксце. Але наўрад ці вам калі-небудзь спатрэбіцца спецыяльны сімвал, такі як «@» ці «#».
 sc-howto-cite-title = Як цытаваць
 sc-howto-review-title = Праверыць сказы
 sc-howto-review-subtitle = Упэўніцеся, што сказ адпавядае наступным крытэрыям:
@@ -1253,7 +1254,12 @@ sc-add-lang-sec-button = Дадаць мову
 
 ## ADD SENTENCES CONFIRMATION
 
+sc-confirm-are-you-sure =
+    .message = Сказы не дасланыя. Ці сапраўды хочаце выйсці?
 sc-confirm-sentences-title = Пацвердзіце новыя сказы
+# Variables:
+#   $countOfInvalidated (Number) - Number of sentences the user rejected in the review form before submission
+sc-confirm-rejected-by-you = { $countOfInvalidated } адхілена вамі
 sc-confirm-button-text = Пацвердзіць
 
 ## LANGUAGE INFO
@@ -1280,6 +1286,8 @@ sc-criteria-item-3 = Сказ павінен быць такім, каб яго 
 
 ## REVIEW
 
+sc-review-select-language = Калі ласка, выберыце мову для праверкі сказаў.
+sc-review-no-sentences = Няма сказаў для праверкі. <addLink>Дадаць новыя сказы!</addLink>
 sc-review-form-button-reject = Адхіліць
 sc-review-form-button-skip = Прапусціць
 sc-review-form-button-approve = Зацвердзіць
@@ -1308,10 +1316,17 @@ partnerships-our-partners = Нашы партнёры
 why-donate-explanation-1 = Гэтую інфармацыю прадастаўляць не абавязкова – можаце дадаць яе, толькі калі вам гэта зручна. Пры публікацыі набору дадзеных мы псеўданімізуем усе асабістыя звесткі і сочым за тым, каб такая інфармацыя, як ваша імя і адрас электроннай пошты, не была ніяк звязана з дэмаграфічнымі звесткамі, такімі як узрост ці пол.
 guidelines-header-subtitle = Даведайцеся, як дадаваць і правяраць сказы і аўдыёзапісы ў наборы дадзеных Common Voice
 sentence-collection = Збор сказаў
+still-have-questions = Засталіся пытанні?
+contact-common-voice = Звяжыцеся з камандай Common Voice
 public-domain-explanation-1 = Вельмі важна, каб усе тэкставыя сказы былі ў <publicDomain>грамадскім набытку</publicDomain> (<cc0>cc0</cc0>), бо набор дадзеных Common Voice публікуецца пад ліцэнзіяй cc0. Толькі ў тым выпадку дадавайце сказ, калі вы ўпэўнены, што ліцэнзійных абмежаванняў няма, і заўсёды пазначайце адпаведную цытату.
+citing-sentences-subheader-websites = Вэб-сайты
 citation =
     .label = Цытата
+adding-sentences-subheader-length = Даўжыня
+adding-sentences-subheader-numbers = Лічбы
 adding-sentences-subheader-numbers-explanation = У ідэале патрабуецца, каб у зыходным тэксце не было лічбаў, бо яны могуць выклікаць праблемы пры чытанні ўслых. Тое, якім чынам лічба вымаўляецца, залежыць ад кантэксту і можа стварыць блытаніну ў дадзеных. Напрыклад, для лічбы «2409» правільным будзе і вымаўленне «дваццаць чатыры ноль дзевяць», і «дзве тысячы чатырыста дзевяць».
+adding-sentences-subheader-abbreviations = Абрэвіятуры і скароты
+adding-sentences-subheader-punctuation-explanation = Спецыяльныя сімвалы і знакі прыпынку варта ўключаць, толькі калі гэта абсалютна неабходна. Напрыклад, у англійскіх словах, такіх як «don’t» ці «we’re», ёсць апостраф, і ён павінен быць у зыходным тэксце. Але наўрад ці вам калі-небудзь спатрэбіцца спецыяльны сімвал, такі як «@» ці «#».
 write-page-subtitle = Сказы, дададзеныя тут, будуць уключаны ў агульнадаступны набор дадзеных пад ліцэнзіяй cc-0.
 sentence =
     .label = Сказ
