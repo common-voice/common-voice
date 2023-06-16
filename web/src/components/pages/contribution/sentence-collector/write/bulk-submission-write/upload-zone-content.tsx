@@ -61,6 +61,7 @@ const UploadZoneContent: React.FC<Props> = ({
           }
           checked={confirmPublicDomain}
           onChange={handleConfirmPublicDomainChange}
+          data-testid="public-domain-checkbox"
         />
         <Localized id="submit-form-action">
           <PrimaryButton
@@ -94,10 +95,6 @@ const UploadZoneContent: React.FC<Props> = ({
     )
   }
 
-  if (uploadStatus === 'done') {
-    return <h1>Done...</h1>
-  }
-
   return (
     <>
       <UploadIconLarge />
@@ -108,7 +105,7 @@ const UploadZoneContent: React.FC<Props> = ({
       <Localized id="or-conjuction">
         <p className="or-conjunction hidden-md-down" />
       </Localized>
-      <Button className="hidden-md-down">
+      <Button className="hidden-md-down" data-testid="select-file">
         <Localized id="select-file" />
       </Button>
       <Button className="hidden-lg-up">
