@@ -569,6 +569,7 @@ about-nav-playbook = Даведайцеся, як прыняць удзел
 ## What is a language
 
 about-playbook-what-is-language = Што такое мова на Common Voice?
+about-playbook-what-is-language-content-2 = Мы хочам, каб моўныя мадэлі падтрымлівалі шырокую разнастайнасць галасоў. Для гэтага набор галасавых дадзеных павінен прадстаўляць мноства розных людзей.
 
 ## How do I add a language
 
