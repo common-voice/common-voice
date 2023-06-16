@@ -203,21 +203,46 @@ privacy = गोपनीयता
 terms = शर्त
 cookies = कुकीज
 faq = बेर बेर पूछए जाइबला प्रश्न
+content-license-text = क्रिएटिव कामंस लायसेंस <licenseLink>केर भीतर कंटेंट मोजुद अछि</licenseLink>
+link-copied = लिंक कॉपी बनैलक
+logout = लाग आउट
 
 ## Home Page
 
+show-wall-of-text = बेसी पढ़ू
+help-us-title = पंक्ति केँ जाचएँ में हमर मदति करू!
+vote-yes = हँ
+vote-no = नहि
+speak-subtitle = अपन बोली बाँटू
+speak-goal-text = क्लिप रेकॉर्ड भ' गेल
+listen-subtitle = आबाज केँ जाचएँ में हमर मदति करू!
+all-locales = सभटा
+today = आइ
+x-weeks-short = { $count } सप्ताह
+x-months-short = { $count } महिना
+x-years-short =
+    { $count ->
+       *[other] { $count }साल
+    }
+sign-up-account = खाता बनाबै कलेल साइनअप करू
 
 ## Account Benefits
 
+benefits = लाभ
 
 ## What's public
 
 
 ## Speak & Listen Shortcuts
 
+# Must be one letter that appears in the translated { skip } string.
+shortcut-skip = स
 
 ## Listen Shortcuts
 
+# Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-play-toggle = प
 
 ## Speak Shortcuts
 
