@@ -235,8 +235,16 @@ export namespace Sentences {
         locale: string
         fileName: string
       }) =>
-      async (dispatch: Dispatch, getState: () => StateTree) => {
+      async (
+        dispatch: Dispatch<SetBulkUploadStatus>,
+        getState: () => StateTree
+      ) => {
         const state = getState()
+
+        dispatch({
+          type: ActionType.SET_BULK_UPLOAD_STATUS,
+          bulkUploadStatus: 'uploading',
+        })
 
         await state.api.bulkSubmissionRequest({
           file,
