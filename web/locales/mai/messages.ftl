@@ -11,10 +11,12 @@ loading = लोड कए रहल अछि…
 email-opt-in-info = हम Common Voice क संबंध मे अपन प्रोगरेस अपडेट आओर न्यूज़लेटर्स, जहिना कि गोल रिमांइंडर संबंधित ईमेल प्राप्त कएनाय पसंद करब.
 email-opt-in-info-title = Common Voice मेलिंग लिस्ट मे सामिल होउ
 email-opt-in-info-sub-with-challenge = Common Voice Project क संबंध मे, जहिना कि मुकाबला, लक्ष्य रिमाइंडर, प्रोग्रेस अपडेट , आओर न्यूज़लेटर ईमेल सँ पाबै कलेल चाहब.
-email-opt-in-privacy-v2 =
-    By opting in to receive emails you state that you are okay with Mozilla handling this info as explained in Mozilla’s <privacyLink>Privacy Policy</privacyLink>.
-    GROUP COMMENT General
+email-opt-in-privacy-v2 = ईमेल प्राप्त करय के विकल्प चुनि क’ अहाँ अनुमति देत छी जे अहाँ Mozilla के एहि जानकारी के संभारबाक ख़ातिर तैयार छी जहिना जे Mozilla केर <privacyLink>गोपनीयता नीति</privacyLink> मे बताएल गेल अछि.
+indicates-required = जतए (*) चिह्नित अछि तकरा पूरा कएनाय ज़रूरी अछि.
+not-available-abbreviation = लागू नहि
 banner-error-slow-1 = माफ़ करू, Common Voice धीमा गति मे अछि. अहाँक रूचि राखए कलेल धन्यवाद.
+banner-error-slow-link = स्थिति पृष्ठ
+error-something-went-wrong = माफ़ करूँ, किछु गलती भेल
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
