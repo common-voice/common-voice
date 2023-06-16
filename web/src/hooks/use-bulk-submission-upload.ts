@@ -46,8 +46,6 @@ const useBulkSubmissionUpload = () => {
   }
 
   const startUpload = async () => {
-    dispatch(Sentences.actions.setBulkUploadStatus('uploading'))
-
     try {
       await bulkSubmissionRequest({
         file: uploadedFile,
