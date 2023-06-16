@@ -607,10 +607,13 @@ about-playbook-how-grow-language = Як эфектыўна развіваць м
 about-playbook-how-grow-language-content-2 = Падзеі
 about-playbook-how-grow-language-content-4 = Сацыяльныя медыя
 about-playbook-how-grow-language-content-6 = Партнёрства і сеткі
+about-playbook-how-grow-language-content-8 = <strong>Будзьце творчымі!</strong> Ваша моўная суполка будзе ўнікальнай, і вось некалькі варыянтаў, з чаго пачаць.
 
 ## How to validate
 
 about-playbook-how-validate = Як вызначыць, ці варта ўхваліць галасавы кліп?
+about-playbook-how-validate-content-2 = <strong>Не адхіляйце запісы, дзе дыктар прамаўляе з «акцэнтам», адрозным ад вашага ўласнага.</strong> Гэта важна, каб распазнаванне маўлення лепш працавала для ўсіх.
+about-playbook-how-validate-content-4 = Калі 2 чалавекі адхілілі запіс, ён будзе апублікаваны ў асобным падмностве набору дадзеных.
 
 ## How to access dataset
 
