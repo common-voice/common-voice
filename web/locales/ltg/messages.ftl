@@ -76,6 +76,7 @@ logout = Beigt dorbu
 
 show-wall-of-text = Skaiteit vaira
 help-us-title = Paleidzit puorbaudeit teikumus!
+help-us-explain = Nūmīdzīt atskaņuošonys pūgu, klausotēs i puorbaudit, voi zamuok nūruodeitais teikums ir izrunuots precizai.
 no-clips-to-validate = Izaver, ka itamā volūdā nav audio īrokstu. Paleidzit mums, īrokstūt kaidus tagad.
 vote-yes = Nui
 vote-no = Nā
@@ -84,6 +85,7 @@ speak-subtitle = Pazīduot sovu bolsu
 speak-paragraph = Lai myusu volūda īkuortu laikmatā napagaistu, mums juoīroksta sovi bolsi; kaids saceitu, ka tys ir ari jautri.
 speak-goal-text = Īroksti īraksteiti
 listen-subtitle = Paleidzit puorbaudeit bolsus
+listen-paragraph = Īrokstu puorbaudeišona ir cīši svareiga. Klausotēs īrokstus i paleidzit īvuiceit īkuortom saprast myusu volūdu.
 listen-goal-text = Apstyprynuoti īroksti
 hours-recorded = Īraksteituos stuņdis
 hours-validated = Puorbaudeituos stuņdis
@@ -115,6 +117,7 @@ x-years-short =
 help-make-dataset = Paleidzit sataiseit kvalitativu, publiski daīmamu datu kūpu
 sign-up-account = Registrej sovu kontu
 email-subscription-title = Dasasoki jaunumim e-postā
+email-subscription-title-new = Registrejitēs Common Voice viestim, atguodynuojumim par mierkim i progresa atjauninuojumim.
 
 ## Account Benefits
 
@@ -124,6 +127,7 @@ benefits = Īgivumi
 
 whats-public = Kas ir publiski daīmams?
 email-not-public = Mes napubliskuosim jiusu e-postu.
+username-email-not-demographic = Jiusu lītuotuoja vuords i e-posts natiks pīsaisteits publicētajim datim.
 
 ## Speak & Listen Shortcuts
 
@@ -217,7 +221,10 @@ settings = Īstatejumi
 edit-profile = Lobuot profilu
 profile-create-success = Profils sataiseits veiksmeigi!
 profile-close = Aiztaiseit
+profile-explanation = Sekojit sovam progresam, lītojūt sovu profilu, i paleidzit myusu bolsa datim byut precizuokim.
+thanks-for-account = Paļdis, ka apstyprynuojot sovu kontu, tagad sataiseisim jiusu profilu.
 why-demographic = Deļkuo tys ir svareigi?
+accept-privacy = Es pīkreitu, ka Mozilla apstruodoj munu informaceju tai, kai tys ir nūruodeits Mozillys <privacyLink>privatuma politikā</privacyLink>
 accept-privacy-title = Privatuma politika
 login = Dasaslēgt
 login-signup = Dasaslēgt / Registrētīs
