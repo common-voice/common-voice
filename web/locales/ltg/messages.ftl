@@ -226,6 +226,7 @@ thanks-for-account = Paļdis, ka apstyprynuojot sovu kontu, tagad sataiseisim ji
 why-demographic = Deļkuo tys ir svareigi?
 accept-privacy = Es pīkreitu, ka Mozilla apstruodoj munu informaceju tai, kai tys ir nūruodeits Mozillys <privacyLink>privatuma politikā</privacyLink>
 accept-privacy-title = Privatuma politika
+accept-privacy-and-terms = Es pīkreitu Common Voice <termsLink>nūsacejumim</termsLink> i <privacyLink>koņfideņcialuma paziņuojumam</privacyLink>
 login = Dasaslēgt
 login-signup = Dasaslēgt / Registrētīs
 edit = Lobuot
@@ -239,7 +240,10 @@ on = Īslāgts
 ## Profile - Email
 
 browse-file-title = Augšonīluodejit biļdi
+browse-file = Veļcit i nūsvīdit voi <browseWrap> Puorsaverit </browseWrap>
 connect-gravatar = Sasavīnuot ar Gravatar
+gravatar_not_found = Jiusu e-postam nav atrosts gravatars
+file_too_large = Atlaseitais fails ir puoruok lels
 avatar-uploaded = Biļde īluodāta
 max-file-size = maksimums { $kb }kb
 remove-avatar = Nūjimt biļdi
@@ -247,7 +251,10 @@ remove-avatar = Nūjimt biļdi
 ## Profile - Email
 
 manage-subscriptions = Puorvaļdeit abonementus
+manage-email-subscriptions = Puorvaļdit e-posta abonementus
+email-already-used = E-posts jau teik lītuots cytam kontam
 add-language = Dalikt volūdu
+change-email-setings = Mainit sovu e-postu, lītojūt īstatejumu sadaļu "Pīsasaceišonys ideņtitate"
 
 ## FAQ
 
