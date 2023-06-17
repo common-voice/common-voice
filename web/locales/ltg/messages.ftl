@@ -65,8 +65,11 @@ privacy = Privatums
 terms = Lītuošonys nūsacejumi
 cookies = Seikdatnis
 faq = BUJ
+content-license-text = Saturs liceņzāts ar <licenseLink>Creative Commons liceņzi</licenseLink>
 share-title = Paleidzit mums atrast cytus, kas pazīduotu sovu bolsa īrokstu!
 share-text = Paleidzit īkuortom saprast latgalīšu volūdu, īrokstit sovu bolsu voi puorbaudit salaseitūs īrokstus { $link }
+link-copied = Saite nūkopāta
+back-top = Atpakaļ iz augšu
 logout = Beigt dorbu
 
 ## Home Page
