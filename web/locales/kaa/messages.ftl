@@ -14,6 +14,7 @@ banner-error-slow-link = Status beti
 
 ab = Abxaz
 ace = Achene
+an = Aragon
 ar = Arab
 ast = Asturiya
 kaa = Qaraqalpaqsha
