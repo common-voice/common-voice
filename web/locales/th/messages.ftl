@@ -44,6 +44,7 @@ be = เบลารุส
 bg = บัลแกเรีย
 bm = บัมบารา
 bn = เบงกาลี
+bo = ทิเบต
 br = เบรตัน
 bs = บอสเนีย
 bxr = บูเรียตียา
@@ -423,6 +424,7 @@ accept-privacy = ฉันยินยอมให้คุณจัดการ
 accept-privacy-title = นโยบายความเป็นส่วนตัว
 accept-privacy-and-terms = ฉันยอมรับ<termsLink>เงื่อนไข</termsLink>และ<privacyLink>ประกาศความเป็นส่วนตัว</privacyLink>ของ Common Voice
 login-identity = ข้อมูลประจำตัวการเข้าสู่ระบบ
+login = เข้าสู่ระบบ
 login-signup = เข้าสู่ระบบ / ลงทะเบียน
 edit = แก้ไข
 email-subscriptions = การบอกรับข่าวสารทางอีเมล
@@ -771,6 +773,7 @@ close = ปิด
 download = ดาวน์โหลด
 dataset-version = รุ่น
 sha256-checksum-copied-error = ไม่สามารถคัดลอก SHA256 Checksum
+clipboard-not-supported = ไม่รองรับคลิปบอร์ด
 
 ## Download Modal
 
@@ -838,6 +841,7 @@ action-click = คลิก
 action-tap = แตะ
 contribute = สนับสนุน
 listen = ฟัง
+review = ตรวจทาน
 skip = ข้าม
 shortcuts = ทางลัด
 clips-with-count-pluralized =
@@ -902,6 +906,7 @@ target-segment-learn-more = เรียนรู้เพิ่มเติม
 
 ## Contribution Nav Items
 
+contribute-sentence-collection-nav-header = การรวบรวมประโยค
 
 ## Reporting
 
@@ -1442,7 +1447,41 @@ partnerships-our-partners = พันธมิตรของเรา
 # FIRST POST SUBMISSION CTA
 first-cta-header-text = ขอบคุณสำหรับการบริจาคคลิปเสียงของคุณ!
 add-information-button = เพิ่มข้อมูล
+continue-speaking-button = ไม่ ขอบคุณ พูดต่อไป
 thanks-for-voice-toast = ขอบคุณสำหรับข้อมูลเสียงของคุณ
 already-have-an-account = มีบัญชีอยู่แล้ว? <login>เข้าสู่ระบบ</login>
 create-profile-button = สร้างโปรไฟล์
+voice-collection = การรวบรวมเสียง
 sentence-collection = การรวบรวมประโยค
+varying-pronunciations = การออกเสียงที่แตกต่างกัน
+misreadings = การอ่านผิด
+offensive-content = เนื้อหาที่ไม่เหมาะสม
+background-noise = สัญญาณรบกวนพื้นหลัง
+background-voices = เสียงรบกวนพื้นหลัง
+volume = ระดับเสียง
+reader-effects = ผลกระทบจากผู้อ่าน
+just-unsure = แค่ไม่แน่ใจ?
+example = ตัวอย่าง
+public-domain = สาธารณสมบัติ
+citing-sentences-subheader-websites = เว็บไซต์
+citing-sentences-subheader-academic-reference = เอกสารอ้างอิงทางวิชาการ
+citing-sentences-subheader-offline-sources = แหล่งที่มาออฟไลน์
+citation =
+    .label = การกล่าวถึง
+self-citation = การอ้างอิงตนเอง
+adding-sentences-subheader-length = ความยาว
+adding-sentences-subheader-spelling-punctuation = การสะกดและเครื่องหมายวรรคตอน
+adding-sentences-subheader-punctuation = การเว้นวรรค
+adding-sentences-subheader-offensive-content = เนื้อหาที่ไม่เหมาะสม
+# WRITE PAGE
+write-instruction-second-part = ประโยคสาธารณสมบัติ
+sentence =
+    .label = ประโยค
+citation =
+    .label = การกล่าวถึง
+guidelines = แนวทางปฏิบัติ
+contact-us = ติดต่อเรา
+required-field = โปรดกรอกช่องนี้
+# REVIEW PAGE
+sc-review-instruction-first-part = กาเครื่องหมาย
+report-sc-different-language = คนละภาษา

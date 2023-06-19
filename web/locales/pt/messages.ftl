@@ -118,6 +118,7 @@ lij = Liguriano
 ln = Lingala
 lo = Lao
 lt = Lituano
+ltg = Latgaliano
 lv = Letão
 mai = Maitili
 mdf = Moksha
@@ -1673,8 +1674,6 @@ reviewing-sentences-explanation-1 = Se a frase atender aos critérios acima, cli
 reviewing-sentences-explanation-2 = Se a frase não atender aos critérios acima, clique no botão "Não".
 reviewing-sentences-explanation-3 = Se não tiver certeza sobre a frase, você também pode ignorar e passar para a próxima.
 reviewing-sentences-explanation-4 = Se não tiver mais frases para revisar, ajude-nos a coletar mais frases!
-community-announcement-header = Comunicado da comunidade!
-community-announcement-explanation = A orientação abaixo é para os recursos do novo coletor de frases, que será integrado à plataforma principal do Common Voice durante março e abril de 2023. Enquanto isso, você pode usar a ferramenta anterior, <scLink>https://commonvoice.mozilla.org/sentence-collector/</scLink>.
 # WRITE PAGE
 write-instruction-second-part = uma frase de domínio público
 write-page-subtitle = As frases contribuídas aqui são adicionadas a um conjunto de dados disponível publicamente de licença cc-0.

@@ -2,7 +2,7 @@
 
 yes-receive-emails = כן, שלחו לי דואל. אני רוצה עדכונים אודות מיזם Common Voice.
 stayintouch = אנו ב-־Mozilla בונים קהילה סביב טכנולוגיות קול. נשמח להישאר איתך בקשר ולעניין אותך בעדכונים, מקורות נתונים חדשים ולשמוע עוד על אופן השימוש שלך בנתונים האלה.
-privacy-info = אנו מבטיחים לטפל במידע שלך בזהירות רבה. ניתן לקרוא עוד ב<privacyLink>מדיניות הפרטיות</privacyLink> שלנו.
+privacy-info = אנו מבטיחים לטפל במידע שלכם במלוא הזהירות. ניתן לקרוא עוד ב<privacyLink>מדיניות הפרטיות</privacyLink> שלנו.
 return-to-cv = חזרה אל Common Voice
 email-input =
     .label = דוא״ל
@@ -13,7 +13,7 @@ email-opt-in-info-title = הצטרפות לרשימת הדיוור של Common V
 email-opt-in-info-sub-with-challenge = קבלת הודעות בדוא״ל כגון תזכורות על אתגרים ויעדים, עדכונים על התקדמות ומבזקי חדשות על Common Voice.
 email-opt-in-privacy-v2 = בחירה בקבלת הודעות דוא״ל מביעה את הסכמתך ש־Mozilla תטפל במידע זה כפי שמוסבר ב<privacyLink>מדיניות הפרטיות</privacyLink> של Mozilla.
 indicates-required = * מסמן שדה נחוץ
-not-available-abbreviation = לא זמין
+not-available-abbreviation = לא רלוונטי
 banner-error-slow-1 = Common Voice פועל באטיות, עמך הסליחה ותודה על הבעת העניין.
 banner-error-slow-2 = אנחנו מקבלים תעבורה רבה וחוקרים כרגע את התקלות.
 banner-error-slow-link = דף סטטוס
@@ -109,7 +109,7 @@ kmr = כורדית קורמנג׳ית
 kn = קאנדה
 knn = קונקאני (דֶּוַונַאגַּרִי)
 ko = קוריאנית
-kpv = קומי־זיר
+kpv = קומית
 kw = קורנית
 ky = קירגיזית
 lb = לוקסמבורגית
@@ -118,6 +118,7 @@ lij = ליגורית
 ln = לינגאלה
 lo = לאווית
 lt = ליטאית
+ltg = לטגלית
 lv = לטבית
 mai = מאיטילי
 mdf = מוקשה
@@ -158,6 +159,7 @@ pt = פורטוגלית
 quc = קיצ'ה
 quy = צ'אנקה-קצ'ואה
 rm-sursilv = רומאנש סורסילבן
+rm-vallader = רומאנס וואלאדר
 ro = רומנית
 ru = רוסית
 rw = קיניַרואנדה
@@ -223,7 +225,7 @@ zza = זאזא
 
 ## Layout
 
-speak = דברו
+speak = דיבור
 speak-now = נא לדבר כעת
 datasets = מערכי נתונים
 languages = שפות
@@ -246,13 +248,15 @@ logout = התנתקות
 ## Home Page
 
 home-title = מיזם Common Voice הוא יזמה של Mozilla לטובת סיוע ללימוד מכונות איך מדברים אנשים אמיתיים.
-default-tagline = Common Voice מבית Mozilla הוא יזמה לטובת סיוע ללימוד מכונות איך מדברים אנשים אמתיים.
+default-tagline = Common Voice של Mozilla היא יוזמה העוזרת ללמד מכונות איך אנשים אמתיים מדברים.
 home-cta = דברו בקול רם, כאן ניתן לתרום!
-wall-of-text-start = קול זה טבעי, קול זה אנושי. לכן מרתק אותנו הרעיון של יצירת טכנולוגיית קול שמישה עבור המכונות שלנו. אך כדי ליצור מערכות קול, נדרשת כמות גדולה של נתוני קול.
+wall-of-text-start = קול הוא דבר טבעי, קול הוא דבר אנושי. משום כך מרתק אותנו ליצור טכנולוגיית קול עבור המכונות שלנו שתהיה שמישה. אך כדי ליצור מערכות קול, נדרשת כמות עצומה של נתוני קול.
 wall-of-text-more-mobile = רוב הנתונים בהם ארגונים גדולים משתמשים אינם זמינים לקהל הרחב. אנו חושבים שנדרשת כאן חשיבה מחדש. לכן, השקנו את מיזם Common Voice, מיזם שיסייע לפתוח את עולם הזיהוי הקולי לכולם.
-wall-of-text-more-desktop = כעת מוענקת לך האפשרות לסייע לנו לבנות מסד נתונים קוליים בקוד פתוח בו כולם יכולים להשתמש כדי ליצור יישומים מהפכניים להתקנים ולאינטרנט.<lineBreak></lineBreak>עליך רק להקריא את המשפט כדי לסייע למכונות ללמוד איך מדברים אנשים אמתיים. ניתן גם לבדוק עבודות של תורמים אחרים כדי לשפר את האיכות. פשוט וקל!
-wall-of-text-first = קול הוא דבר טבעי, קול הוא דבר אנושי. לכן אנו מתרגשים לקראת יצירת טכנולוגיית קול עבור המכונות שלנו. אך כדי ליצור מערכות קול, המפתחים צריכים כמות עצומה של נתונים קוליים.
-wall-of-text-second = רוב המידע בו חברות גדולות עושות שימוש אינו זמין לרוב האנשים. אנו חושבים שמצב זה מעיב על חדשנות. לכן השקנו את Common Voice, מיזם שיסייע להפוך זיהוי קולי לפתוח ונגיש לכולם.
+wall-of-text-more-desktop =
+    כעת באפשרותכם לתרום את קולכם ולסייע לנו לבנות מסד נתונים קוליים בקוד פתוח בו כולם יכולים להשתמש כדי ליצור יישומים מהפכניים למכשירים ולאינטרנט.
+    קראו משפטים כדי לסייע למכונות ללמוד איך מדברים אנשים אמתיים. בדקו את התרומות של אחרים כדי לשפר את האיכות. פשוט וקל!
+wall-of-text-first = קול הוא דבר טבעי, קול הוא דבר אנושי. משום כך מרגש אותנו ליצור טכנולוגיית קול עבור המכונות שלנו שתהיה שמישה. אך על־מנת ליצור מערכות קול, מפתחים זקוקים לכמות עצומה של נתונים קוליים.
+wall-of-text-second = רוב המידע בו עושות שימוש חברות גדולות אינו זמין לכלל האנשים. מבחינתינו זה מערים קשיים על חדשנות. משום כך השקנו את Common Voice, מיזם שיסייע להפוך זיהוי קולי לפתוח ונגיש לכולם.
 show-wall-of-text = מידע נוסף
 help-us-title = עזרו לנו לאמת משפטים!
 help-us-explain = עליך ללחוץ על נגינה ולהאזין: האם המשפט שמופיע להלן הוקרא כראוי?
@@ -260,7 +264,7 @@ no-clips-to-validate = נראה שאין מקטעים להאזין להם בשפ
 vote-yes = כן
 vote-no = לא
 toggle-play-tooltip = יש ללחוץ על { shortcut-play-toggle } כדי להיכנס או לצאת ממצב השמעה
-speak-subtitle = תרומת הקול שלך
+speak-subtitle = תרמו את קולכם
 speak-paragraph = הקלטת מקטעי קול היא חלק עיקרי בהרכבת מערך הנתונים הפתוח שלנו; חלק מהאנשים יאמרו שזהו גם החלק הכיפי ביותר.
 speak-goal-text = מקטעים שהוקלטו
 listen-subtitle = ניתן לסייע לנו לאמת הקלטות
@@ -398,10 +402,10 @@ female = נקבה
 # Gender
 other = אחר
 why-profile-title = בשביל מה פרופיל?
-why-profile-text = אספקת מידע כלשהו עליך תהפוך את נתוני השמע שיוגשו אל Common Voice לשימושיים יותר למנגנוני זיהוי דיבור שמשתמשים במידע הזה לשיפור הדיוק שלהם.
+why-profile-text = בכך שאתם משתפים מעט מידע אודותיכם, נתוני השמע שתשלחו אל Common Voice יהיו שימושיים יותר עבור מנועי זיהוי דיבור, שעושים שימוש במידע זה לשם שיפור הדיוק.
 dashboard = לוח בקרה
 build-profile = בניית פרופיל
-avatar = דמות מייצגת
+avatar = יצגן
 goals = מטרות
 settings = הגדרות
 edit-profile = עריכת פרופיל
@@ -438,9 +442,9 @@ browse-file = ניתן לגרור ולהשליך לכאן או <browseWrap>לע�
 connect-gravatar = התחברות עם Gravatar
 gravatar_not_found = לא נמצא gravatar עבור כתובת הדוא״ל שלך
 file_too_large = הקובץ שנבחר גדול מדי
-avatar-uploaded = נשלחה תמונה ייצוגית
+avatar-uploaded = הועלתה תמונת יצגן
 max-file-size = { $kb } ק״ב לכל היותר
-remove-avatar = הסרת דמות מייצגת
+remove-avatar = הסרת יצגן
 
 ## Profile - Email
 
@@ -516,8 +520,8 @@ about-title = למה Common Voice?
 about-header-description-v2 =
     <p>Common Voice הוא מערך נתונים קולי זמין לציבור, המופעל על ידי קולותיהם של תורמים מתנדבים ברחבי העולם. אנשים שרוצים לבנות אפליקציות קוליות יכולים להשתמש במערך הנתונים כדי לאמן מודלים של למידת מכונה.</p>
     <p>נכון לעכשיו, רוב מערכי הנתונים הקוליים נמצאים בבעלותן של חברות, מה שמגביל חדשנות. מערכי נתונים קוליים גם סובלים מתת-ייצוג של אנשים שאינם דוברי אנגלית, אנשים ממגוון של מוצאים אתניים, אנשים עם מוגבלויות, נשים ואנשי קהילת הלהטבא"ק. משמעות הדבר היא שטכנולוגיה המותאמת לקול אינה פועלת כלל עבור שפות רבות, ובמקרים בהם היא כן פועלת, היא עשויה לעבוד במידה שאינה זהה בין כולם. אנחנו רוצים לשנות את זה על ידי ההנעה של אנשים בכל מקום בעולם לחלוק את קולם.</p>
-how-does-it-work-title-v2 = איך Common Voice פועל?
-how-does-it-work-text = אנו משתמשים במיקור המונים כדי לבנות מערך נתונים פתוח של קולות. תרומת הקול שלך ואימות דיוק ההקלטות של אחרים משפרים את מערך הנתונים עבור כולם.
+how-does-it-work-title-v2 = איך Common Voice עובד?
+how-does-it-work-text = אנו משתמשים במיקור המונים כדי לבנות מערך נתונים פתוח של קולות. תרמו את קולכם, אמתו את דיוק המקטעים שתרמו אחרים, ושפרו את מערך הנתונים עבור כולם.
 
 ## How does it work section
 
@@ -564,14 +568,14 @@ about-nav-why-common-voice = למה?
 about-nav-how-it-works = איך?
 about-nav-partners = שותפים
 about-nav-get-involved = הצטרפות
-about-nav-how-it-works-2 = כיצד Common Voice פועל?
-about-nav-playbook = מידע כיצד לקחת חלק
+about-nav-how-it-works-2 = איך Common Voice עובד?
+about-nav-playbook = גלו כיצד לקחת חלק
 
 ## Community Playbook Content
 ## What is a language
 
 about-playbook-what-is-language = מה זו שפה ב־Common Voice?
-about-playbook-what-is-language-content-1 = ישנן דרכים רבות לחשוב על שפה. למטרות מודלים לזיהוי דיבור, מציע Common Voice להתמקד ב‚הבנה הדדית’ או ‚האם דוברי השפה הזאת יבינו זה את זה באופן כללי אם הם ינסו?’
+about-playbook-what-is-language-content-1 = ישנן דרכים רבות לחשוב על שפה. למטרות מודלים לזיהוי דיבור, מציע Common Voice להתמקד ב’הבנה הדדית’ או ’האם על־פי־רוב דוברי השפה הזאת יבינו זה את זה אם הם ינסו?’
 about-playbook-what-is-language-content-2 = אנחנו רוצים שמודלים של דיבור יהיו טובים יותר בהבנת מגוון רחב של דוברים. כדי שזה יקרה, מערך נתונים קולי חייב לייצג הרבה אנשים שונים.
 about-playbook-what-is-language-content-3 = לשפות מסוימות יש שונות עצומה בדקדוק, אוצר המילים וההגייה. מסיבה זו, אנו <ctaLink>מציגים את 'ניבים'</ctaLink> בשנת 2022. זה נותן לקהילות דרך להבחין בין השפות שלהן בתוך מערך הנתונים הגדול יותר.
 
@@ -697,12 +701,14 @@ release-version = גרסה
 dataset-date = תאריך
 license = רישיון: <licenseLink>{ $license }</licenseLink>
 license-mixed = מעורב
+data-download-singleword-title = הורידו את פלח היעד - מילים בודדות
+data-download-singleword-callout-v2 = זהו פלח מכוון לתרחיש שימוש, המכיל נתונים לטובת זיהוי ספרות בדיבור וזיהוי כן / לא.
 review-terms = עצם השימוש ב־Common Voice מהווה הסכמה מצדך ל<termsLink>תנאים</termsLink> ול<privacyLink>הצהרת הפרטיות</privacyLink> שלנו
 terms-agree = מוסכם עלי
 terms-disagree = לא מוסכם עלי
 review-aborted = ההעלאה נעצרה. האם ברצונך למחוק את ההקלטות שלך?
 review-submit-title = סקירה ושליחה
-review-submit-msg = תודה לך על ההקלטה!<lineBreak></lineBreak>כעת עליך לסקור ולהגיש את קטעי הקול להלן.
+review-submit-msg = תודה לך על ההקלטה!<lineBreak></lineBreak>כעת עליך לסקור ולשלוח את מקטעי הקול להלן.
 review-recording = סקירה
 review-rerecord = הקלטה מחדש
 review-cancel = ביטול שליחה
@@ -781,7 +787,7 @@ download-helpus = עזרו לנו לבנות קהילה סביב טכנולוג�
 download-form-email =
     .label = נא להזין את כתובת הדוא״ל שלך
     .value = תודה, נהיה בקשר.
-download-back = חזרה לסדרות הנתונים של Common Voice
+download-back = חזרה למערכי הנתונים של Common Voice
 download-no = לא תודה
 
 ## Contact Modal
@@ -805,22 +811,46 @@ other-language = שפה אחרת
 
 ## Request Language Pages
 
+request-language-heading = שאלו לגבי שפה חדשה
+request-language-explanation-1 =
+    בדקו אם השפה שלכם רשומה 
+    <languagesPageLink>בדף השפות של Common Voice</languagesPageLink>.
+    אם לא, מלאו טופס זה ו<strong>נשלח אליכם דוא"ל עם הסבר כיצד להגדיר את השפה שלכם</strong>.
+request-language-explanation-2 =
+    כמו כן, נודיע ל<strong>מנהלי הקהילה שלנו
+    שאתם מעוניינים</strong>, כדי שיוכלו לתת לכם
+    סיוע או מידע כלשהו נוספים שאולי תצטרכו.
 request-language-form-email =
     .label = כתובת הדוא״ל שלך
 request-language-form-info =
     .label = מידע על השפה
 request-language-form-info-explanation = נא להוסיף כמה שיותר מידע על השפה. לרבות:
 request-language-form-info-explanation-list-1 = שמות השפה שלך
+request-language-form-info-explanation-list-2 = <isoCodeLink>קודי ISO</isoCodeLink> אם ידועים לכם
 request-language-form-info-explanation-list-3 = קישורים לאתרים שיכולים לסייע לנו להבין את השפה
 request-language-google-recaptcha-required = יש לפתור reCAPTCHA כדי להמשיך
 request-language-google-recaptcha-error = משהו השתבש ב־reCAPTCHA. נא לנסות שוב.
 # Success page
 request-language-success-heading = תודה רבה! שלחת שאילתה על שפה חדשה
+request-language-success-list-1 =
+    אתם אמורים לקבל דוא"ל עם הסבר קצר
+    על השלבים להוספת השפה שלכם ל-Common Voice
+request-language-success-list-2 =
+    מנהלי הקהילה שלנו יפנו אליכם כדי להציע
+    סיוע נוסף, וכדי ליידע אתכם במידה
+    וישנה כבר קהילה שעובדת על השפה שלכם
+request-language-success-list-3 =
+    אם לא תשמעו מאיתנו תוך יומיים,
+    צרו קשר בכתובת <emailLink>{ $email }</emailLink>
+    ונחזור אליכם!
+request-language-error =
+    ייתכן שלא קיבלנו את הבקשה הזו. אנא שלחו אלינו דוא"ל ישירות
+    בכתובת <emailLink>{ $email }</emailLink> ונחזור אליכם!
 
 ## Languages Overview
 
 language-section-in-progress = בתהליך
-language-section-in-progress-new-description = שפות אלה נמצאות כעת בתהליך פיתוח של הקהילה. בכדי להפוך את השפה לזמינה, יש להשלים קודם כל <localizationGlossaryLink> לוקליזציה של האתר</localizationGlossaryLink> ו <sentenceCollectionGlossaryLink> איסוף משפטים </ sentenceCollectionGlossaryLink>.
+language-section-in-progress-new-description = שפות אלה נמצאות כעת בתהליך פיתוח של הקהילה. בכדי להפוך את השפה לזמינה, יש להשלים קודם כל <localizationGlossaryLink> לוקליזציה של האתר</localizationGlossaryLink> ו<sentenceCollectionGlossaryLink>איסוף משפטים</ sentenceCollectionGlossaryLink>.
 language-section-launched = הושקו
 language-section-launched-description = עבור שפות אלה שהושקו, האתר עבר <localizationGlossaryLink> לוקליזציה </ localizationGlossaryLink> בהצלחה, ויש מספיק <sentenceCollectionGlossaryLink> משפטים שנאספו </ sentenceCollectionGlossaryLink> כדי לאפשר תרומות מתמשכות של <speakLink>דיבור</speakLink> ו<listenenLink>האזנה</ listenLink >.
 languages-show-more = להציג עוד
@@ -833,7 +863,7 @@ language-speakers = דוברים
 localized = תורגמו
 sentences = משפטים
 language-validation-hours = שעות
-language-validation-progress = תהליכי אימות
+language-validation-progress = אומתו
 
 ## Contribution
 
@@ -877,7 +907,7 @@ record-submit-tooltip = { $actionType } ניתן להגיש כשהמקטע מו�
 clips-uploaded = מקטעים הועלו
 record-abort-title = לסיים את ההקלטה קודם לכן?
 record-abort-text = יציאה כעת תגרום לאובדן ההתקדמות שצברת
-record-abort-submit = הגשת מקטעים
+record-abort-submit = שליחת מקטעים
 record-abort-continue = סיום הקלטה
 record-abort-delete = יציאה ומחיקת המקטעים
 listen-instruction = { $actionType } <playIcon></playIcon> האם המשפט בוטא כראוי?
@@ -885,10 +915,21 @@ listen-again-instruction = עבודה טובה! <playIcon></playIcon> נא לה�
 listen-3rd-time-instruction = עברנו 2 <playIcon></playIcon>, קצב טוב!
 listen-last-time-instruction = <playIcon></playIcon> אחרון חביב!
 listen-empty-state = נגמרו לנו ההקלטות לאימות בשפה הזו…
+listen-loading-error =
+    לא הצלחנו להשיג מקטעי שמע להאזנה.
+    אנא נסו שוב מאוחר יותר.
+speak-empty-state = נגמרו לנו כל המשפטים להקלטה בשפה הזו...
 speak-empty-state-cta = תרומת משפטים
+speak-loading-error =
+    לא הצלחנו להביא אף משפט כדי שתדברו אותו.
+    אנא נסו שוב מאוחר יותר.
 record-button-label = הקלטת הקול שלך
 share-title-new = נשמח <bold>לסיוע</bold> למצוא קולות נוספים
+keep-track-profile = עקבו אחר ההתקדמות שלכם עם פרופיל
 login-to-get-started = על מנת להתחיל יש להיכנס או להירשם
+target-segment-first-card = אתם תורמים לפלח היעד הראשון שלנו
+target-segment-generic-card = אתם תורמים לפלח יעד מסויים
+target-segment-first-banner = עזרו ביצירת פלח היעד הראשון של Common Voice ב-{ $locale }
 target-segment-add-voice = הוספת הקול שלך
 target-segment-learn-more = מידע נוסף
 
@@ -900,7 +941,7 @@ contribute-sentence-collection-nav-header = איסוף משפטים
 ## Reporting
 
 report = דיווח
-report-title = הגשת דיווח
+report-title = שליחת דיווח
 report-ask = אילו קשיים חווית עם המשפט הזה?
 report-offensive-language = שפה פוגענית
 report-offensive-language-detail = במשפט יש שפה מזלזלת או פוגענית.
@@ -915,6 +956,7 @@ report-offensive-speech-detail = בהקלטה יש שפה מזלזלת או פו
 report-other-comment =
     .placeholder = תגובה
 success = הצלחה
+continue = המשך
 report-success = הדיווח הועבר בהצלחה
 
 ## Goals
@@ -955,10 +997,14 @@ recorded-clips = מקטעים שהוקלטו
 validated-clips = מקטעים שאומתו
 total-approved = סה״כ אושרו
 overall-accuracy = דיוק כללי
+set-visibility = הגדרת הנראות שלי
+visibility-explainer = הגדרה זו שולטת בהופעה שלך בטבלת המובילים. בעת הסתרה, ההתקדמות שלך תהיה פרטית. פירוש הדבר שהתמונה שלך, שם המשתמש וההתקדמות שלך לא יופיעו בטבלת המובילים. לידיעתך, רענון טבלת המובילים ועדכון השינויים לוקחים כ-{ $minutes } דקות.
+visibility-overlay-note = שימו לב: כאשר מכוון ל-'גלוי', ניתן לשנות הגדרה זו מ<profileLink>דף הפרופיל</profileLink>
 show-ranking = הצגת הדירוג שלי
 
 ## Custom Goals
 
+get-started-goals = התחילו עם יעדים
 create-custom-goal = יצירת יעד בהתאמה אישית
 goal-type = איזה סוג של יעד ברצונך לבנות?
 both-speak-and-listen = שניהם
@@ -974,11 +1020,44 @@ want-to-continue = להמשיך?
 finish-editing = לסיים את העריכה קודם לכן?
 lose-changes-warning = יציאה כעת תגרום לביטול השינויים שביצעת
 build-custom-goal = הרכבת יעד מותאם אישית
+help-reach-hours-pluralized =
+    { NUMBER($hours) ->
+        [one] עזרו להגיע לשעה אחת של ב{ $language } עם יעד אישי
+       *[other] עזרו להגיע ל-{ $hours } שעות ב{ $language } עם יעד אישי
+    }
+help-reach-hours-general-pluralized =
+    { NUMBER($hours) ->
+        [one] עזרו ל-Common Voice להגיע לשעה בשפה כלשהי באמצעות קביעת יעד אישי
+        [two] עזרו ל-Common Voice להגיע לשעתיים בשפה כלשהי באמצעות קביעת יעד אישי
+       *[other] עזרו ל-Common Voice להגיע ל-{ $hours } שעות בשפה כלשהי באמצעות קביעת יעד אישי
+    }
 set-a-goal = הגדרת יעד
 cant-decide = לא הצלחת להחליט?
+activity-needed-calculation-plural =
+    { NUMBER($totalHours) ->
+        [one] ניתן להגיע לשעה
+        [two] ניתן להגיע לשעתיים
+       *[other] ניתן להגיע ל־{ $totalHours } שעות
+    } תוך { NUMBER($periodMonths) ->
+        [one] חודש
+        [two] חודשיים
+       *[other] { $periodMonths } חודשים
+    } אם { NUMBER($people) ->
+        [one] אדם אחד יקליט
+       *[other] { $people } אנשים יקליטו
+    } { NUMBER($clipsPerDay) ->
+        [one] מקטע אחד
+       *[other] { $clipsPerDay } מקטעים
+    } ביום.
 how-many-per-day = מצוין! כמה מקטעים ביום?
 how-many-a-week = נהדר! כמה מקטעים בשבוע?
 which-goal-type = מעניין אותך לדבר, להאזין או גם וגם?
+receiving-emails-info =
+    כרגע מוגדר כי תקבלו הודעות דוא"ל כגון תזכורות ליעדים,
+    עדכוני ההתקדמות שלי ועלוני מידע אודות Common Voice
+not-receiving-emails-info =
+    כרגע מוגדר כי <bold>לא</ bold> תקבלו הודעות דוא"ל כגון תזכורות ליעדים,
+    עדכוני ההתקדמות שלי ועלוני מידע אודות Common Voice
 n-clips-pluralized =
     { NUMBER($count) ->
         [one] מקטע אחד
@@ -987,10 +1066,18 @@ n-clips-pluralized =
 help-share-goal = שיתוף היעד שלך יסייע לנו לאתר קולות נוספות
 confirm-goal = אישור היעד
 goal-interval-weekly = שבועי
+# $type is one of share-goal-type-*
+share-n-daily-contribution-goal = שתפו את היעד היומי של { $count } מקטעים עבור { $type }
+# $type is one of share-goal-type-*
+share-n-weekly-contribution-goal = שתפו את היעד השבועי של { $count } מקטעים עבור { $type }
 share-goal-type-speak = דיבור
 share-goal-type-listen = האזנה
 share-goal-type-both = דיבור והאזנה
+# LINK will be replaced with the current URL
+goal-share-text = יצרתי עכשיו יעד אישי לתרומת קול עבור #CommonVoice -- הצטרפו אליי כדי לעזור ללמד מכונות איך אנשים אמיתיים מדברים { $link }
 weekly-goal-created = היעד השבועי שלך נוצר
+daily-goal-created = היעד היומי שלך נוצר
+track-progress = עקבו אחר ההתקדמות כאן ובדף הסטטיסטיקות שלכם.
 return-to-edit-goal = ניתן לחזור לכאן כדי לערוך את היעד שלך בכל עת.
 share-goal = שיתוף היעד שלי
 
@@ -1001,16 +1088,34 @@ keep = להשאיר
 remove = להסיר
 keep-info = הקלטות הקול האנונימיות שלך תישארנה במערך הנתונים Common Voice. לאחר מחיקת הפרופיל שלך, לא יהיה עוד באפשרותך להגיש בקשה להסרת ההקלטות שלך ממערך הנתונים
 remove-info = אנו נבדוק את בקשתך להסרת ההקלטות הקוליות שלך ממערך הנתונים. אם בקשתך תאושר, אנו ניצור קשר עם כל מי שהוריד את מערך הנתונים ונבקש מהם להסיר את ההקלטות הקוליות שלך גם כן.
+why-delete-recordings =
+    הקלטות Common Voice משמשות אנשי אקדמיה, עסקים קטנים וחובבי זיהוי קולי כדי לעזור לאמן ולפתח מוצרים פתוחים לציבור כמו מודלים קוליים.
+    
+    האם ניתן לשאול למה ברצונך למחוק את ההקלטות שלך?
 profile-form-delete = מחיקת פרופיל
 
 ## Profile Download
 
+download-q = ברצונכם להוריד עותק של הנתונים שלכם?
+download-info = ספרו לנו מה תרצו להוריד:
 download-profile-title = פרופיל
+download-profile-info = כולל כתובות דוא״ל, שמות משתמשים ונתונים דמוגרפיים, זמין באופן מיידי
+download-profile-size = מספר בתים בודדים
 download-recordings-title = הקלטות
+download-recordings-info = כולל קבצי  mp3 והמשפטים הקשורים אליהם, עשוי לקחת קצת זמן
+download-recordings-size = בדרך כלל כמה מגה-בתים
 download-recordings-unavailable = אין באפשרותך לבקש את ההקלטות שלך בזמן שבקשה אחרת כבר בעיצומה.
+download-recently-requested = ניתן להזמין עותק להורדה של ההקלטות שלכם בכל { $days } ימים.
 download-size = גודל
+download-selected = נבחר
+download-start = הורדת נתוני פרופיל
 download-request = בקשת הקלטות
+download-requests = בקשות קודמות להורדת הקלטות
+download-requests-info = כאשר אתם מבקשים את ההקלטות שלכם, אנו אוספים אותן לקובץ ZIP אחד או יותר. להלן בקשות העבר:
+download-request-button = הורדה
 download-request-title = { $created }
+download-request-description = { $clipCount } מקטעים קוליים, גודל הארכיב { $size }. פג תוקף ב-{ $expires }.
+download-request-archive-single = קובץ ZIP בודד המכיל
 download-request-archive-multiple = פיצול לכדי { $archiveCount } קובצי ZIP המכילים
 download-request-assembling-description = הקבצים שלך נאספים. נא לבדוק שוב בהמשך.
 download-request-refresh-button = רענון
@@ -1048,16 +1153,21 @@ demo-account = חשבון
 ## Demo Account
 
 demo-account-card-header = אין חובה ליצור חשבון כדי לתרום, אם כי זה עשוי לסייע לכם.
+demo-account-card-body = בצד רשמנו את קווי המתאר של היתרונות והבהרנו איזה מידע אנו מפרסמים בפומבי. השתמשו בקישורים שלמטה כדי להתחיל להשתמש בחשבון Common Voice במכשיר שלכם.
 demo-account-enter-email =
     .label = נא למלא כתובת דוא״ל לשליחת קישור להרשמה
 demo-account-sign-up = שליחת קישור להרשמה
 
 ## Demo Contribute
 
+demo-contribute-card-header = נוכל להתחיל בהוספת קולך או בהטיית אוזנך?
+demo-contribute-card-body-v2 = כעת משיש לכם יותר ידע אודות Common Voice, למה לא לנסות את זה? לחצו על סמל המיקרופון כדי להתחיל לקרוא משפטים בקול. <br/> <br/> אם תעדיפו לסקור את התרומות הקוליות של אנשים אחרים, לחצו על סמל הניגון. כך תעזרו לאשר כי ההקלטות תואמות למשפטים הכתובים על המסך.
 demo-listen-subtitle = מעניין אותך לתרום?
 
 ## Demo Dashboard
 
+demo-dashboard-card-header = לוחות מחוונים אישיים משאירים אתכם מעודכנים לגבי ההתקדמות האישית ושל הקהילה.
+demo-dashboard-card-body = עבור כל מקטע קול שנתרם, וכל מקטע שמע שאומת, לוחות המחוונים בחשבונכם מתעדכנים כך שישקפו את ההתקדמות העדכנית שלכם בכל שפה אליה אתם תורמים. כן, אפשר לתרום ליותר משפה אחת! <br/> <br/> השתמשו בלוחות המחוונים כדי לעקוב אחר הסטטיסטיקה שלכם, להשוות את ביצועכם לאלה של אחרים בקהילה ולהגדיר יעדים לתרומה יומית או שבועית.
 
 ## Validation criteria
 
@@ -1073,8 +1183,47 @@ contribution-misreadings-description-extended-list-2 = בלבול במין בש�
 contribution-misreadings-description-extended-list-3 = קריאת קיצורים או ראשי-תיבות שלא ככתוב, למשל "וכו'" במקום "וכולי", או להיפך. הלחמה בדיבור או עיוות של מילים, למשל "יומולדת" במקום "יום הולדת".
 contribution-misreadings-description-extended-list-4 = השמטה של המילה האחרונה או סיום מוקדם של ההקלטה.
 contribution-misreadings-description-extended-list-5 = לוקח מספר ניסיונות לקרוא מילה.
-contribution-misreadings-example-7-title = אנחנו יוצאים לשתות קפה.
+contribution-misreadings-example-1-title = דינוזאורי-הענק של הטריאס.
+contribution-misreadings-example-2-title = הדינוזאורים הענקיים של הטריאס.
+contribution-misreadings-example-2-explanation = [אמור להיות 'דינוזאורי-הענק']
+contribution-misreadings-example-3-title = דינוזאורי-הענק של הטרי-
+contribution-misreadings-example-3-explanation = [ההקלטה נקטעה לפני סוף המילה האחרונה]
+contribution-misreadings-example-4-title = דינוזאורי-הענק של הטריאס. כן.
+contribution-misreadings-example-4-explanation = [הוקלט עוד מעבר לטקסט הנדרש]
+contribution-misreadings-example-5-title = כשנצא לשתות קפה וכולי.
+contribution-misreadings-example-6-title = שנצא לשתות קפה וכו'.
+contribution-misreadings-example-6-explanation = [צריך להיות "כש-'" בהתחלה, "וכולי" בסוף]
+contribution-misreadings-example-7-title = כשנצא לשתות את הקפה וכולי.
+contribution-misreadings-example-7-explanation = [אין 'את ה-' בטקסט המקורי]
+contribution-misreadings-example-8-title = וואי איך בא לי מוקה.
+contribution-misreadings-example-8-explanation = [תוכן לא תואם את הטקסט]
+contribution-varying-pronunciations-title = הגיות משתנות
+contribution-varying-pronunciations-description = אנא, שימו לב לפני שאתם דוחים מקטע על סמך זה שלדעתכם ביטוי המילה שגוי, עם הדגש במקום הלא נכון, או עם התעלמות לכאורה מסימן שאלה. יש מגוון רחב של הגיות בשימוש ברחבי העולם, שאת חלקן אולי לא שמעתם בקהילה המקומית שלכם. אנא השאירו מקום גם לאלה שאולי דוברים אחרת מכם.
+contribution-varying-pronunciations-description-extended = מצד שני, אם ניכר שהמילה אינה מוכרת למי שקראו אותה, וההגיה של המילה היא בגדר ניחוש שגוי, אנא דחו את המקטע. אם אינכם בטוח, השתמשו בכפתור דלג.
+contribution-varying-pronunciations-example-1-title = על ראשו חבש מגבעת.
+contribution-varying-pronunciations-example-1-explanation = [את ה-ח' במילה 'חבש' וה-ע' במילה 'מגבעת' ניתן לקרוא כגרוניות - או לא, כתלות במבטא - שניהם בסדר]
+contribution-varying-pronunciations-example-2-title = החיים בקיבוץ שיתופיים.
+contribution-varying-pronunciations-example-2-explanation = [המילה 'שיתופיים' מסתיימת בתנועה ארוכה 'יים' (כמו המילה 'איים'), ולא בתנועה קצרה 'ים' (כמו המילה 'פנים')]
+contribution-background-noise-title = רעש רקע
+contribution-background-noise-description = אנו רוצים שהאלגוריתמים של למידת המכונה יוכלו להתמודד עם מגוון רחב של רעשי רקע, ואפילו רעשים חזקים יחסית יכולים להתקבל בתנאי שהם לא מונעים מכם לשמוע את כל הטקסט. מוזיקת רקע שקטה זה בסדר; מוזיקה שהיא מספיק רועשת כך שאינם מצליחים לשמוע אפילו את אחת מהמילים - זה לא.
+contribution-background-noise-description-extended = אם ההקלטה קטועה, או שיש בה רעשי פצפוץ - יש לדחות אלא אם עדיין ניתן לשמוע את כל הטקסט בשלמותו.
+contribution-background-noise-example-1-fixed-title = <strong>[התעטשות]</strong> דינוזאורי-הענק של ה<strong>[שיעול]</strong> טריאס.
+contribution-background-noise-example-2-fixed-title = דינו-<strong>[שיעול]</strong> של הטריאס.
 contribution-background-noise-example-2-explanation = [לא ניתן לשמוע חלק מהטקסט]
+contribution-background-noise-example-3-fixed-title = <strong>[רעש פצפוץ]</strong> -הענק של <strong>[רעש פצפוץ]</strong> -ריאס.
+contribution-background-voices-title = רעשי רקע
+contribution-background-voices-description = רעש רקע שקט הוא בסדר, אבל אנחנו לא רוצים קולות נוספים שעלולים לגרום לאלגוריתם מכונה לזהות מילים שאינן בטקסט הכתוב. אם אתם שומעים מילים מובחנות שאינן כתובות בטקסט, יש לדחות את המקטע. זה יכול לקרות כאשר הטלוויזיה הושארה דולקת, או כאשר יש שיחה בקרבת מקום.
+contribution-background-voices-description-extended = אם ההקלטה קטועה, או שיש בה רעשי פצפוץ - יש לדחות אלא אם כן עדיין אפשר לשמוע את כל הטקסט בשלמותו.
+contribution-background-voices-example-1-title = דינוזאורי-הענק של הטריאס. <strong>[נקרא על ידי קול אחד]</strong>
+contribution-background-voices-example-1-explanation = יאללה נו! <strong>[קול אחר קורא]</strong>
+contribution-volume-title = עוצמת שמע
+contribution-volume-description = יהיו שינויים טבעיים בעומצת הדיבור וההקלטה בין הקוראים. יש לדחות רק אם עוצמת הקול כה גבוהה עד שההקלטה נקטעת, או (באופן נפוץ יותר) אם היא כה נמוכה עד שלא ניתן לשמוע את הנאמר ללא התייחסות לטקסט הכתוב.
+contribution-reader-effects-title = אופן הדיבור
+contribution-reader-effects-description = רוב ההקלטות הן של אנשים המדברים בקול הטבעי שלהם. ניתן לאשר הקלטות לא-סטנדרטיות עם צעקה, לחישה, או שהוקראו בקול 'דרמטי'. נא לדחות הקלטות בהם הטקסט הושר וכן את אלה המשתמשות בקול שהופק במחשב.
+contribution-just-unsure-title = לא בטוחים?
+contribution-just-unsure-description = אם נתקלתם במשהו שההנחיות הללו לא כוללות, אנא החליטו לפי מיטב שיקול דעתכם. אם באמת אינכם מצליחים להכריע, השתמש בלחצן הדילוג והמשיכו הלאה.
+see-more = <chevron></chevron>להציג עוד
+see-less = <chevron></chevron>להציג פחות
 
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
@@ -1084,6 +1233,7 @@ contribution-background-noise-example-2-explanation = [לא ניתן לשמוע 
 ## HEADER/FOOTER
 
 sc-header-home = בית
+sc-header-how-to = הנחיות לביצוע
 sc-header-add = הוספה
 sc-header-review = סקירה
 sc-header-rejected = משפטים שנדחו
@@ -1095,8 +1245,10 @@ sc-footer-report-bugs = דיווח על תקלות
 sc-footer-translate = תרגום עמוד זה
 sc-footer-report-copyright = דיווח על בעיות בזכויות יוצרים
 sc-footer-privacy = פרטיות
+sc-footer-terms = תנאים
 sc-footer-cookies = עוגיות
 sc-login-signup-button = כניסה / הרשמה
+sc-logout-button = התנתקות
 
 ## HOME
 
@@ -1105,30 +1257,61 @@ sc-home-intro = אספן המשפטים הוא חלק מ-<commonVoiceLink>Common
 sc-home-collect-title = איסוף משפטים
 sc-home-collect-text = עזרו לנו על ידי כתיבה או איסוף משפטים הנמצאים בנחלת הכלל.
 sc-home-review-title = סקירת משפטים
+sc-home-review-text = עזרו לנו על ידי בדיקה האם משפטים עומדים בהנחיות.
 
 ## GENERAL
 
+sc-languages-fetch-error = לא הצלחנו לשלוף את השפות הזמינות. לא ניתן כרגע לתרום. אנא נסו שוב מאוחר יותר.
 
 ## HOW-TO
 
+sc-howto-title = הנחיות לביצוע
+sc-howto-addlang-title = הוספת שפות לעבוד אתן
+sc-howto-addlang-text = לאחר הכניסה, תוכלו לבחור את השפות שלכם בעמוד הפרופיל.
 sc-howto-addsen-title = הוספת משפטים חדשים
+sc-howto-addsen-item-1 = כל המשפטים שאתם שולחים חייבים להיות תחת <wikipediaLink>רישיון תחום ציבורי (CC-0)</wikipediaLink>. כדי לסייע בקליטה של כתבים שאינם תחת רישיון ציבורי, יצרנו <cc0WaiverLink>תבנית הסכם תרומות</cc0WaiverLink> עבור יצירות שבהן בעל זכויות היוצרים מעוניין לתרום את החומר ל-Common Voice.
 sc-howto-addsen-item-2 = מספרים. לא אמורות להיות ספרות בטקסט המקור מכיוון שהן עלולות לגרום לבעיות בקריאה בקול רם. אופן הקריאה של מספר תלוי בהקשר ועלול ליצור בלבול במערך הנתונים. לדוגמה, ניתן לקרוא את המספר "2409" במדויק כ"עשרים וארבע אפס תשע" וגם "אלפיים ארבע מאות תשע".
+sc-howto-addsen-item-3 = קיצורים וראשי תיבות. יש להימנע מקיצורים וראשי תיבות כמו 'ארה"ב' או 'צה"ל' בטקסט המקור מכיוון שהם עשויים להיקרא בצורה שאינה תואמת את האיות שלהם. בנוסף, ייתכן שיהיו מספר קריאות מדויקות עבור קיצור בודד. למשל, ראשי התיבות 'סמג"ד' יכולים להיות מבוטאים כמילה אחת, או 'סמך מג"ד'.
+sc-howto-addsen-item-4 = סימני פיסוק. יש לכלול סמלים מיוחדים וסימני פיסוק רק כאשר יש בכך צורך חד-משמעי. לדוגמה, מקף מופיע בסמיכות, למשל בצירוף "בית־ספר" ויש לכלול אותו בטקסט המקור, אך לא סביר שיהיה צורך בסמל מיוחד כמו "@" או "#. ”
+sc-howto-addsen-item-5 = אותיות חייבות להשתייך לשפה המדוברת. לדוגמה, "a" היא אות באלפבית האנגלי, אך לעולם אינה בשימוש בעברית ולכן לא אמורה להופיע בשום טקסט שמקורו בעברית.
+sc-howto-addsen-item-6 = לכל שפה ניתן להגדיר <validationRulesLink>כללי אימות ובדיקה משלה</validationRulesLink> עם דרישות נוספות. אם חסר קובץ אימות ובדיקה לשפה מסויימת, אנו משתמשים בהגדרות הכלליות שנוסחו עבור השפה האנגלית.
+sc-howto-addsen-post-1 = אנו מעדיפים משפטים שיחתיים\טבעיים. בעוד שגיוון מבחינה פונטית ומבחינת אוצר־המילים הם חשובים, אנחנו מנסים להפוך את ההקלטה לתהליך הכי כיפי שיכול להיות. לכן זה יהיה נהדר אם תוכלו לדאוג שהמשפטים יהיו כמה שיותר טבעיים ומעניינים.
+sc-howto-cite-title = כיצד לצטט
+sc-howto-cite-pre-1 = חשוב שתציינו איפה מצאתם את הרשיון הציבורי, על-מנת להמנע ממצב של גניבה ספרותית וכדי שנוכל לבצע מעקב אחר <copyrightIssuesLink>סוגיות של זכויות יוצרים</copyrightIssuesLink>. הנה כמה דרכים לצטט את המקורות.
+sc-howto-cite-item-1 = אפשר לציין את האתר, למשל "פונטון - https://pontoon.mozilla.org"
+sc-howto-cite-item-2 =
+    אפשר להביא ציטוט אקדמי, למשל בסגנון הרווארד, 
+    "מוזילה (2021) פונטון. זמין בכתובת https://pontoon.mozilla.org/ (נשלף ב-15 בספטמבר 2021)"
+sc-howto-cite-item-3 = עבור טקסט המצוי בנחלת הכלל שאינו זמין באופן מקוון, תוכלו להשתמש בסגנון הפניה אקדמי, למשל בסגנון הרווארד, "ישראל ישראלי (2021) מיטב שיריו הציבוריים"
 sc-howto-review-title = סקירת משפטים
 sc-howto-review-subtitle = נא לוודא שהמשפט עומד בתנאים הבאים:
-sc-howto-review-criteria-1 = המשפט חייב להיות מאוית כראוי.
-sc-howto-review-criteria-2 = המשפט חייב להיות נכון דקדוקית.
+sc-howto-review-criteria-1 = על המשפט להיות מאוית כראוי.
+sc-howto-review-criteria-2 = המשפט חייב להיות נכון מבחינה דקדוקית.
 sc-howto-review-criteria-3 = המשפט חייב להיות אפשרי להגיה.
-sc-howto-review-criteria-4 = אם המשפט עומד בתנאים, יש ללחוץ על הכפתור „אישור”.
+sc-howto-review-criteria-4 = אם המשפט עומד בתנאים, יש ללחוץ על הכפתור "אישור".
+sc-howto-review-criteria-5 = אם המשפט לא עומד בתנאים לעיל, לחצו על כפתור "דחייה". אם אתם לא בטוחים לגבי המשפט, אתם גם יכולים לדלג עליו ולהמשיך הלאה.
 sc-howto-review-criteria-6 = אם אין לכם יותר משפטים לסקירה, נשמח שתעזרו לנו לאסוף עוד!
 sc-howto-findpd-title = איתור משפטים קיימים שזמינים לנחלת הכלל
+sc-howto-findpd-subtitle = מצאו אותם באינטרנט
+sc-howto-findpd-text-2 = זכרו שאנו צריכים רשות לפרסם את המשפטים הללו, אז תמיד צריך לוודא שהטקסט מצוי <wikipediaLink>בנחלת הכלל</wikipediaLink>. אם הדבר לא מצוין במפורש, צרו קשר עם היוצרים כדי לשאול האם ברצונם לתרום את הטקסט שלהם לנחלת הכלל. אם הם אכן רוצים, עזרו להם לעבור על <cc0WaiverLink>הסכם התרומות</cc0WaiverLink>. אם הם לא רוצים, אסור להשתמש בטקסט הזה.
 sc-howto-findpd-tips = להלן מגוון עצות לאיתור משפטים:
+sc-howto-findpd-tips-1 = המקורות הטובים ביותר לחפש בהם הם הסכתים (פוד-קאסטים), תמלולים, תסריטים וכל דבר שעשוי להכיל שיחה יום־יומית.
+sc-howto-findpd-tips-2 = מסמכים ממשלתיים, ספרים ומאמרים הם גם אחלה, אם כי מכיוון שהטקסט נוטה להיות בסגנון יותר רשמי הם בעדיפות נמוכה יותר.
+sc-howto-findpd-tips-3 = לרוע המזל, נכון לעכשיו אסור שיהיו לנו ערכים מוויקיפדיה. אז לא להעתיק ולהדביק משם.
+sc-howto-findpd-subtitle-2 = שיתוף פעולה מקומי עם ארגונים או פרטים
+sc-howto-findpd-partner-1 = ישנם מוסדות ועמותות רבים שעשויים לרצות לשתף פעולה, וברשותם קיימת כבר כמות גדולה של טקסט שהם יכולים לתרום לנחלת הכלל. צרו קשר עם אוניברסיטאות, ממשלות וגופים שעוסקים בקוד פתוח כדי לספר להם על הפרוייקט ולבקש את עזרתם.
+sc-howto-findpd-partner-2 = מומחים לשפה ובלשנים יכולים גם לעזור. צרו קשר עם המחלקות לשפה ולבלשנות באוניברסיטאות (מורים ותלמידים כאחד) ובדקו אם הם יכולים לעזור לאסוף קבוצה מגוונת של משפטים בשפה שלכם.
 
 ## MY SENTENCES
 
 sc-my-title = המשפטים שלי
+sc-my-description = בעמוד זה תוכלו לסקור את כל המשפטים שהדשתם. אפשר גם למחוק משפטים שהוגשו אם צריך, על-ידי סימון התיבה ליד המשפט ולחיצה על &quot;מחיקת משפטים נבחרים&quot;. אנא הסירו משפטים רק אם הדבר הכרחי בהחלט, למשל אם שמתם לב לאחר מעשה שהמשפט מוגן בזכויות יוצרים.
 sc-my-loading = המשפטים שלך נטענים…
 sc-my-err-fetching = שגיאה במשיכת המשפטים שלך. נא לנסות שוב.
 sc-my-no-sentences = לא נמצאו משפטים!
+# Variables:
+#   $batchId (String) - A unique ID identifying the submission of sentences - sentences uploaded together all have the same batch ID
+sc-my-submission = הגשה: { $batchId }
 # Variables:
 #   $source (String) - Associated source the user filled out when uploading the sentence
 sc-my-source = מקור: { $source }
@@ -1160,16 +1343,21 @@ sc-submit-err-add-sentences = נא להוסיף משפטים.
 sc-submit-err-add-source = נא להוסיף מקור.
 sc-submit-err-confirm-pd = נא לאשר שהמשפטים האלה הם נחלת הכלל.
 sc-submit-prompt =
-    .message = המשפטים לא הוגשו, לעזוב באמצע התהליך?
+    .message = המשפטים לא נשלחו, לעזוב באמצע התהליך?
 sc-submit-title = הוספת משפטים
 sc-submit-select-language =
     .labelText = בחירת שפה
 sc-submit-add-sentences = הוספת משפטים <wikipediaLink>בנחלת הכלל</wikipediaLink>
 sc-submit-ph-one-per-line =
     .placeholder = משפט אחד בכל שורה
-sc-submit-from-where = מאיפה המשפטים האלו שזמינים <wikipediaLink>לנחלת הכלל</wikipediaLink>?
+sc-submit-from-where = מאיפה הגיעו המשפטים האלה שמצויים <wikipediaLink>בנחלת הכלל</wikipediaLink>?
+sc-submit-ph-read-how-to =
+    .placeholder = אם אינכם בטוחים כיצד לצטט את המקור, קראו את ההדרכה שלנו
+sc-submit-confirm = אני מאשר\ת כי משפטים אלה <wikipediaLink>מצויים בנחלת הכלל</wikipediaLink> וכי יש לי רשות להוסיף אותם.
 sc-submit-button =
     .submitText = שליחה
+sc-submit-filtered = משפטים שסוננו בשל אי-עמידה בתנאים (אנא הגישו גרסאות מתוקנות בתור משפטים חדשים):
+sc-submit-guidelines = נא לעיין ב<howToLink>הנחיות</howToLink>.
 
 ## ADD LANGUAGE
 
@@ -1177,13 +1365,30 @@ sc-add-lang-could-not-add = לא ניתן להוסיף שפה
 sc-add-lang-sec-label = נא להוסיף את השפה שברצונך לתרום לה
 sc-add-lang-sec-button = הוספת שפה
 sc-add-err-unexpected = הוחזרה תגובה בלתי צפויה מהשרת
+# Variables:
+#   $duplicates (Number) - Number of sentences which got rejected because they are duplicates
+sc-add-result =
+    { $duplicates ->
+        [0] המשפטים נשלחו. { $duplicates } משפטים נדחו ככפולים.
+        [one] המשפטים נשלחו. משפט אחד נדחה ככפול.
+       *[other] המשפטים נשלחו. { $duplicates } משפטים נדחו ככפולים.
+    }
+# Variables:
+#   $sentences (Number) - Number of sentences which failed to be saved to the database - could be several different reasons
+sc-add-err-failed =
+    { $sentences ->
+        [0] אין משפטים שנכשלו
+        [one] משפט אחד נכשל
+       *[other] { $sentences } משפטים נכשלו
+    }
 sc-add-err-submission = שגיאת הגשה
 sc-add-lang-process-notice = אם השפה שלך לא מופיעה כאן, אפשר לבקש אותה באמצעות <languageProcessLink>התהליך הזה</languageProcessLink>.
 
 ## ADD SENTENCES CONFIRMATION
 
 sc-confirm-are-you-sure =
-    .message = המשפטים לא הוגשו, לעזוב באמצע התהליך?
+    .message = המשפטים לא נשלחו, לעזוב באמצע התהליך?
+sc-confirm-sentences-title = אישור משפטים חדשים
 # Variables:
 #   $countOfSentences (Number) - Number of sentences the user has filled in the submission form
 sc-confirm-sentences-found =
@@ -1195,11 +1400,72 @@ sc-confirm-sentences-found =
 # Variables:
 #   $countOfInvalidated (Number) - Number of sentences the user rejected in the review form before submission
 sc-confirm-rejected-by-you = { $countOfInvalidated } נדחו על ידיך
+sc-confirm-already-reviewed =
+    { $countOfReviewed ->
+        [0] אין משפטים שעברו תהליך סקירה.
+        [one] משפט אחד עבר תהליך סקירה. כל הכבוד!
+       *[other] { $countOfReviewed } משפטים עברו תהליך סקירה. מעולה!
+    }
+# Variables:
+#   $readyCount (Number) - Number of sentences ready to be uploaded
+sc-confirm-ready =
+    { $readyCount ->
+        [0] אין משפטים שמוכנים להגשה!
+        [one] משפט אחד מוכן להגשה!
+       *[other] { $readyCount } משפטים מוכנים להגשה!
+    }
+# Variables:
+#   $countOfUnreviewed (Number) - Number of sentences unreviewed before the upload
+sc-confirm-unreviewed = { $countOfUnreviewed } לא עברו סקירה. אם אתם רוצים, אתם יכולים לסקור את המשפטים שלכם עכשיו לפני שאתם שולחים אותם.
+sc-confirm-button-text = אישור
+sc-confirm-uploading = המשפטים נשלחים כעת. התהליך יכול לקחת כמה דקות כתלות במספר המשפטים שנוספו. בבקשה, אל תסגרו את חלון דפדפן זה.
 
 ## LANGUAGE INFO
 
 sc-lang-info-title-total = סך הכל
 sc-lang-info-title-personal = פרטי
+# Variables:
+#   $totalSentences (Number) - Number of sentences uploaded in total for this language
+sc-lang-info-total =
+    { $totalSentences ->
+        [0] אין משפטים בכלל.
+        [one] יש משפט אחד בסך הכל.
+       *[other] ישנם { $totalSentences } משפטים בסך הכל.
+    }
+# Variables:
+#   $totalInReview (Number) - Number of sentences currently in the review state for this language
+sc-lang-info-in-review =
+    { $totalInReview ->
+        [0] אין משפטים בבדיקה.
+        [one] יש משפט אחד בבדיקה.
+       *[other] { $totalInReview } משפטים נמצאים בבדיקה.
+    }
+# Variables:
+#   $unreviewedSentencesByYou (Number) - Number of sentences the user can still review
+sc-lang-info-left-for-you =
+    { $unreviewedSentencesByYou ->
+        [0] אין משפטים שמממתינים לסקירה.
+        [one] יש משפט אחד שממתין לסקירה.
+       *[other] יש { $unreviewedSentencesByYou } משפטים שמממתינים לסקירה.
+    }
+sc-lang-info-review-now = <reviewLink>סקרו עכשיו!</reviewLink>
+sc-lang-info-add-more = <addLink>הוסיפו עוד משפטים עכשיו!</addLink>
+# Variables:
+#   $validatedSentences (Number) - Number of sentences which have been approved for this language
+sc-lang-info-validated =
+    { $validatedSentences ->
+        [0] אין משפטים שאושרו.
+        [one] יש משפט אחד שעבר אישור.
+       *[other] ישנם { $validatedSentences } משפטים שעברו אישור.
+    }
+# Variables:
+#   $rejectedSentences (Number) - Number of sentences which have been rejected for this language
+sc-lang-info-rejected =
+    { $rejectedSentences ->
+        [0] אין משפטים שעברו דחייה.
+        [one] יש משפט אחד שעבר דחייה.
+       *[other] ישנם { $rejectedSentences } משפטים שעברו דחייה.
+    }
 
 ## LOGIN
 
@@ -1222,17 +1488,26 @@ sc-personal-not-added = עדיין לא הוספת שפות.
 
 ## REVIEW CRITERIA
 
+sc-criteria-modal = ⓘ תנאים לסקירה
+sc-criteria-title = תנאים לסקירה
 sc-criteria-make-sure = נא לוודא שהמשפט עומד בתנאים הבאים:
 sc-criteria-item-1 = על המשפט להיות מאוית כראוי.
 sc-criteria-item-2 = המשפט חייב להיות נכון מבחינה דקדוקית.
+sc-criteria-item-3 = המשפט חייב להיות אפשרי להגיה.
+sc-criteria-item-4 = אם המשפט עומד בתנאים, יש ללחוץ על הכפתור &quot;אישור&quot; שבצד.
+sc-criteria-item-5-2 = אם המשפט לא עומד בתנאים לעיל, לחצו על כפתור &quot;דחייה&quot;. אם אתם לא בטוחים לגבי המשפט, אתם גם יכולים לדלג עליו ולהמשיך הלאה.
 sc-criteria-item-6 = אם אין לכם יותר משפטים לסריקה, נשמח שתעזרו לנו לאסוף עוד!
 
 ## REVIEW
 
+sc-review-lang-not-selected = לא בחרתם אף שפה. אנא הכנסו ל<profileLink>פרופיל</profileLink> כדי לבחור שפות.
 sc-review-title = סקירת משפטים
-sc-review-loading = המשפטים נטענים…
+sc-review-loading = המשפטים בטעינה…
 sc-review-select-language = נא לבחור שפה כדי לסקור משפטים.
 sc-review-no-sentences = אין משפטים לסקירה. <addLink>כדאי להוסיף עוד משפטים עכשיו!</addLink>
+sc-review-form-prompt =
+    .message = משפטים שנסקרו לא נשלחו, להמשיך?
+sc-review-form-usage = החליקו ימינה כדי לאשר את המשפט. החליקו שמאלה כדי לדחות אותו. החליקו למעלה כדי לדלג עליו. <strong>אל תשכחו לשלוח את הבדיקה שלכם!</strong>
 # Variables:
 #   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
 sc-review-form-source = מקור: { $sentenceSource }
@@ -1252,9 +1527,9 @@ sc-review-form-button-submit =
 #   $sentences (Number) - Number of sentences the user has reviewed in this session
 sc-review-form-reviewed-message =
     { $sentences ->
-        [0] לא סקרת משפטים.
-        [one] סקרת משפט אחד. תודה רבה!
-       *[other] סקרת { $sentences } משפטים. תודה רבה!
+        [0] לא סקרתם משפטים.
+        [one] סקרתם משפט אחד. תודה רבה!
+       *[other] סקרתם { $sentences } משפטים. תודה רבה!
     }
 sc-review-form-review-failure = לא ניתן היה לשמור את הסקירה. נא לנסות שוב מאוחר יותר.
 sc-review-link = סקירה
@@ -1263,6 +1538,9 @@ sc-review-link = סקירה
 
 sc-settings-title = הגדרות
 sc-settings-ui-language = שפת ממשק
+sc-settings-reset-skipped = איפוס רשימת המשפטים שדילגתם עליהם
+sc-settings-skipped-decription = דילגתם בעבר על משפטים במהלך הסקירה. איפוס רשימת המשפטים שדילגתם עליהם יגלה מחדש את המשפטים הללו. שינוי זה יחול על כל השפות.
+sc-settings-show-all-button = להציג את כל המשפטים עליהם דילגתם שוב
 sc-settings-failed = לא ניתן היה לשנות את ההגדרות. נא לנסות שוב.
 # VALIDATION
 sc-validation-number-of-words = המשפט חייב להכיל בין 1 ל־14 (כולל) מילים
@@ -1274,9 +1552,22 @@ sc-validation-no-abbreviations = משפט לא יכול להכיל ראשי תי
 
 localization-select =
     .label = בחירה בשפה/תרגום
+# PARTNERSHIPS PAGE
+partnerships-header = שותפויות
+partnerships-header-text = נדרשת עבודה רבה כדי לגרום ל-Common Voice לרקום עור וגידים! אנחנו לא עושים את זה לבד. רוצים לחבור אלינו? היינו שמחים לשמוע מכם.
 partnerships-get-in-touch = צרו קשר
 partnerships-become-a-partner = הפכו לשותפים של Common Voice
 partnerships-community-header = קהילה, יוצרים וחברה אזרחית
+partnerships-community-description = הקהילה מהווה את הלב הפועם של Common Voice - היא מורכבת מאנשים מכל העולם, מאקטיביסטים של שפה, מדענים ואמנים. אפשר ללמוד עוד על איך להשתתף בעמוד <about>אודותינו</about> וב<community>מדריך הקהילה</community>. אם אתם מעוניינים בשותפות ארגונית עמוקה יותר, <emailFragment>צרו קשר</emailFragment>.
+partnerships-foundations-header = מוסדות
+partnerships-foundations-description = אנו עובדים מול מוסדות ושותפים אזרחיים וקהילתיים כדי להפוך את האינטרנט למקום בריא יותר, עם דגש מיוחד על מזרח אפריקה. קראו עוד על <programmaticWork>תוכנית העבודה</programmaticWork> שלנו.
+partnerships-governments-header = ממשלות
+partnerships-governments-description = אנחנו שמחים לסייע למגזר הציבורי בטכנולוגיה, חדשנות וזכויות שפה. אם אתם מתכננים לבצע קמפיין או פרוייקט גדול, אנא <emailFragment>צרו קשר</emailFragment>.
+partnerships-academia-header = אוניברסיטאות, אקדמאים וחוקרים
+partnerships-academia-description = חדשנות פתוחה היא בליבת העשייה שלנו. לשיתוף פעולה במחקר, איסוף מידע או ראיונות - <emailFragment>כתבו לנו.</emailFragment>
+partnerships-small-business-header = עסקים קטנים, כולל חברות הזנק טכנולוגיות ושל בינה מלאכותית
+partnerships-small-business-description = אנחנו תמיד נשמח לשמוע מצרכני הנתונים שלנו על הצרכים והשימושים שלהם - החל משיתוף פעולה בפלטפורמת האיסוף וכלה בתובנות לגבי נקיון הנתונים, אנחנו רוצים לדעת <emailFragment>מה יש לכם לומר</emailFragment>.
+partnerships-corporates-header = תאגידים גדולים וחברות בסיס
 partnerships-corporates-description = אם אתם רוצים לדבר עוד על מערך הנתונים, להשקיע בהרחבות עתידיות בפלטפורמה או מחפשים הזדמנויות לשיתוף פעולה, <emailFragment>כתבו לנו</emailFragment>.
 partnerships-our-partners = השותפים שלנו
 # FIRST POST SUBMISSION CTA
@@ -1295,8 +1586,10 @@ second-cta-header-text = תודה שתרמתם את קולכם!
 second-cta-subtitle-text = כאשר יש לכם פרופיל, באפשרותכם לעקוב אחר הפעילות שלכם ולהתחבר עם קהילת תורמי הקול.
 already-have-an-account = כבר יש לכם חשבון? <login>היכנסו</login>
 create-profile-button = יצירת פרופיל
+# IMAGE TAGS
+img-alt-success-checkmark = סימן הצלחה
 # GUIDELINES PAGE
-guidelines-header = החניות לתרומה
+guidelines-header = הנחיות לתרומה
 guidelines-header-subtitle = הבינו כיצד לתרום ולאמת משפטים ומקטעי שמע למערך הנתונים של Common Voice
 voice-collection = איסוף קולות
 sentence-collection = אוסף משפטים
@@ -1307,9 +1600,9 @@ background-noise = רעש רקע
 background-voices = קולות רקע
 volume = עוצמת קול
 reader-effects = השפעות הקוראים
-just-unsure = פשוט אינכם בטוחים?
+just-unsure = לא בטוחים?
 example = דוגמא
-varying-pronunciations-explanation-1 = אנו מקדמים בברכה מבטאים שונים! היזהרו לפני שאתם דוחים מקטע בטענה שנדמה לכם כי הקורא ביטא מילה באופן שגוי, שם את הדגש או ההטעמה במקום הלא נכון או התעלם מסימני פיסוק. יש מגוון רחב של הגיות ברחבי העולם, שאת חלקן אולי לא שמעתם בקהילה המקומית שלכם. השתדלו לנהוג בהערכה יתרה כלפי מי שמדבר אחרת מכם.
+varying-pronunciations-explanation-1 = אנו מקדמים בברכה מבטאים שונים! שימו לב לפני שאתם דוחים מקטע על־סמך זה שלדעתכם ביטוי המילה שגוי, עם הדגש במקום הלא נכון או שהתעלמו לכאורה מסימני פיסוק. יש מגוון רחב של הגיות ברחבי העולם, שאת חלקן אולי לא שמעתם בקהילה המקומית שלכם. השתדלו לייצר הרבה מרחב גם לאלה שעשויים לדבר אחרת מכם.
 varying-pronunciations-explanation-2 = מצד שני, אם אתם חושבים שהקורא מעולם לא נתקל במילה הזו בעבר, והוא מנחש באופן לא נכון את הגייתה, אנא דחו את המקטע. אם אינכם בטוח, השתמשו בלחצן הדילוג.
 varying-pronunciations-example = וַחֲצַבְתִּיו מִלְּבָבִי.
 varying-pronunciations-tip-1 = [בהברה אשכנזית, עשוי להיקרא עם הטעם בראש כל מילה]
@@ -1322,12 +1615,12 @@ misreadings-explanation-4 = בלבול במין בשם המספר, למשל קר
 misreadings-explanation-5 = קריאת קיצורים או ראשי-תיבות שלא ככתוב, למשל "וכו'" במקום "וכולי", או להיפך. הלחמה בדיבור או עיוות של מילים, למשל "יומולדת" במקום "יום הולדת".
 misreadings-explanation-6 = השמטה של המילה האחרונה או סיום מוקדם של ההקלטה.
 misreadings-explanation-7 = לוקח מספר ניסיונות לקרוא מילה.
-misreadings-example-1 = והיא הרכיבה שני שולחנות בית-ספר.
-misreadings-example-2 = היא הרכיבה שני שולחנות בית-ספר.
+misreadings-example-1 = והיא הרכיבה שני שולחנות בית־ספר.
+misreadings-example-2 = היא הרכיבה שני שולחנות בית־ספר.
 misreadings-example-3 = והיא הרכיבה שתי שולחנות בצפר.
 misreadings-example-4 = זימבאבווה היא אחלה מדינה.
 misreadings-tip-1 = [הושמטה בטעות ו' החיבור בתחילת המשפט]
-misreadings-tip-2 = [שם המספר צריך להיות "שני" ולא "שתי", ההגיה של המילה "בית-ספר" שגויה]
+misreadings-tip-2 = [שם המספר צריך להיות "שני" ולא "שתי", ההגייה של הסמיכות "בית־ספר" שגויה]
 misreadings-tip-3 = [הדיבור אינו מתאים לתוכן]
 background-noise-explanation = עליכם להיות מסוגלים לשמוע כל מילה בהקלטה. אנחנו רוצים שאלגוריתמים של למידת מכונה יוכלו להתמודד עם מגוון רחב של רעשי רקע, ואפילו רעשים חזקים יחסית או מוזיקת רקע שקטה עשויים להיות מקובלים בתנאי שהם לא מונעים מכם לשמוע את כל הטקסט. פצפוצים או הקלטה גרועה שמונעים מכם לשמוע את הטקסט משמעם שיש לדחות את המקטע.
 background-noise-example-1 = הדינוזאורים העצומים של הטריאס.
@@ -1360,7 +1653,7 @@ citing-sentences-subheader-websites-explanation = ניתן לכלול את הכ�
 citing-sentences-subheader-academic-reference = ציטוט למקור אקדמי
 citing-sentences-subheader-academic-reference-explanation = ניתן להשתמש בסגנון הפניה אקדמי, למשל בסגנון הרווארד "Mozilla (2021) Common Voice. זמין בכתובת https://commonvoice.mozilla.org/ (גישה: 15 בספטמבר 2021)"
 citing-sentences-subheader-offline-sources = מקורות לא-מקוונים
-citing-sentences-subheader-offline-sources-explanation = עבור טקסט בנחלת הכלל שאינו זמין באינטרנט, תוכלו להשתמש בסגנון הפניה אקדמי, למשל בסגנון הרווארד "Jess (2021) My Public license poems"
+citing-sentences-subheader-offline-sources-explanation = עבור טקסט המצוי בנחלת הכלל שאינו זמין באופן מקוון, תוכלו להשתמש בסגנון הפניה אקדמי, למשל בסגנון הרווארד, "ישראל ישראלי (2021) מיטב שיריו הציבוריים"
 citation =
     .label = ציטוט מקור
 self-citation = ציטוט עצמי
@@ -1370,24 +1663,22 @@ adding-sentences-subheader-length-explanation = על המשפט להכיל פח�
 adding-sentences-subheader-spelling-punctuation = איות וסימני פיסוק
 adding-sentences-subheader-spelling-punctuation-explanation = על המשפט להיות מאוית כראוי.
 adding-sentences-subheader-speakable = ניתן לדיבור
-adding-sentences-subheader-speakable-explanation = המשפטים הטובים ביותר הם טבעיים וששייכים לחלק משיחה - הם צריכים להיות קלים לקריאה. בעוד שגיוון פונטי ובאוצר מילים הם חשובים לנו, אנחנו גם מנסים להפוך את הקלטת משפטים למרתקת ומהנה ככל האפשר עבור קהילת המתנדבים שלנו.
+adding-sentences-subheader-speakable-explanation = המשפטים הטובים ביותר הם טבעיים וששייכים לחלק משיחה - הם צריכים להיות קלים לקריאה. בעוד שגיוון מבחינה פונטית ומבחינת אוצר־המילים הם חשובים, אנחנו מנסים בו־זמנית להפוך את הקלטת משפטים למרתקת ומהנה ככל האפשר עבור קהילת המתנדבים שלנו.
 adding-sentences-subheader-numbers = מספרים
 adding-sentences-subheader-numbers-explanation = באופן אידיאלי לא אמורות להיות ספרות בטקסט המקור מכיוון שהן עלולות לגרום לבעיות בקריאה בקול רם. אופן הקריאה של מספר תלוי בהקשר ועלול ליצור בלבול במערך הנתונים. לדוגמה, ניתן לקרוא את המספר "2409" במדויק כ"עשרים וארבע אפס תשע" וגם "אלפיים ארבע מאות תשע".
 adding-sentences-subheader-abbreviations = קיצורים וראשי תיבות
 adding-sentences-subheader-abbreviations-explanation = יש להימנע מקיצורים וראשי תיבות כמו 'ארה"ב' או 'צה"ל' בטקסט המקור מכיוון שהם עשויים להיקרא בצורה שאינה תואמת את האיות שלהם. בנוסף, ייתכן שיהיו מספר קריאות מדויקות עבור קיצור בודד.
 adding-sentences-subheader-punctuation = סימני פיסוק
-adding-sentences-subheader-punctuation-explanation = יש לכלול סמלים מיוחדים וסימני פיסוק רק כאשר יש בך צורך חד-משמעי. לדוגמה, מקף מופיע בסמיכות, למשל בצירוף "בית־ספר" ויש לכלול אותו בטקסט המקור, אך לא סביר שיהיה צורך בסמל מיוחד כמו "@" או "#. ”
+adding-sentences-subheader-punctuation-explanation = יש לכלול סמלים מיוחדים וסימני פיסוק רק כאשר יש בכך צורך חד-משמעי. לדוגמה, מקף מופיע בסמיכות, למשל בצירוף "בית־ספר" ויש לכלול אותו בטקסט המקור, אך לא סביר שיהיה צורך בסמל מיוחד כמו "@" או "#. ”
 adding-sentences-subheader-special-characters = תווים מיוחדים ואותיות משפות זרות
-adding-sentences-subheader-special-characters-explanation-1 = המכתבים חייבים להיות תקפים בשפה המדוברת. לדוגמה, "a" היא אות באלפבית האנגלי, אך לעולם אינה בשימוש בעברית ולכן לא אמורה להופיע בשום טקסט שמקורו בעברית.
-adding-sentences-subheader-special-characters-explanation-2 = לשפות יכולות להיות כללי אימות משלהן עם דרישות נוספות כאשר הן עוברות לוקליזציה. אם אין קובץ אימות ספציפי לשפה מסויימת, הכללים באנגלית הם אלה שיופיעו לתורמים.
+adding-sentences-subheader-special-characters-explanation-1 = אותיות חייבות להשתייך לשפה המדוברת. לדוגמה, "a" היא אות באלפבית האנגלי, אך לעולם אינה בשימוש בעברית ולכן לא אמורה להופיע בשום טקסט שמקורו בעברית.
+adding-sentences-subheader-special-characters-explanation-2 = לכל שפה ניתן להגדיר כללי אימות ובדיקה משלה עם דרישות נוספות כאשר הן עוברות לוקליזציה. אם חסר קובץ אימות ובדיקה לשפה מסויימת, הכללים באנגלית הם אלה שיופיעו עבור התורמים.
 adding-sentences-subheader-offensive-content = תוכן פוגעני
 adding-sentences-subheader-offensive-content-explanation = אם משפט פוגע או מטריד - למשל בגלל תוכן גס, או הפרה כלשהי אחרת של <communityGuidelines>הנחיות ההשתתפות בקהילה</communityGuidelines> שלנו - יש לדחות את המשפט. תוכלו גם לפנות אלינו בכתובת <emailFragment>commonvoice@mozilla.com</emailFragment> כדי להעביר לנו את הטיפול בבעיה.
 reviewing-sentences-explanation-1 = אם המשפט עומד בתנאים שלעיל, יש ללחוץ על הכפתור "כן".
 reviewing-sentences-explanation-2 = אם המשפט לא עומד בתנאים שלעיל, יש ללחוץ על הכפתור "לא".
 reviewing-sentences-explanation-3 = אם אינכם בטוחים לגבי המשפט, באפשרותכם לדלג עליו ולעבור למשפט הבא.
 reviewing-sentences-explanation-4 = אם אין לכם יותר משפטים לסקירה, נשמח שתעזרו לנו לאסוף עוד!
-community-announcement-header = הודעת קהילה!
-community-announcement-explanation = ההנחיות שלהלן רלוונטיות לתכונות אספן המשפטים החדשות, אשר ישולבו בליבה של פלטפורמת Common Voice במהלך מרץ-אפריל 2023. בינתיים תוכלו להשתמש בכלי הקודם, <scLink>https://commonvoice.mozilla.org/ אספן משפטים/</scLink>.
 # WRITE PAGE
 write-instruction-second-part = משפט בנחלת הכלל
 write-page-subtitle = משפטים שנתרמו כאן יתווספו למערך נתונים פומבי ברישיון CC0.

@@ -118,6 +118,7 @@ lij = Ligure
 ln = Lingala
 lo = Lao
 lt = Lituano
+ltg = Latgaliano
 lv = Latviano
 mai = Maithili
 mdf = Moksha
@@ -1688,8 +1689,6 @@ reviewing-sentences-explanation-1 = Si le phrase satisface le precedente criteri
 reviewing-sentences-explanation-2 = Si le phrase no satisface le precedente criterios, clicca le button "No".
 reviewing-sentences-explanation-3 = Si tu non es secur re le phrase, tu pote alsi saltar lo e mover al successive.
 reviewing-sentences-explanation-4 = Si tu exhauri le phrases a revider, per favor adjuta nos a colliger altere phrases!
-community-announcement-header = Annuncios de communitate
-community-announcement-explanation = Le guida infra es pro le nove functiones del collector de phrases, que sera integrate in le platteforma Common Voice durante martio e april 2023. Intertanto tu pote usar le previe instrumento, <scLink>https://commonvoice.mozilla.org/sentence-collector/</scLink>.
 # WRITE PAGE
 write-instruction-second-part = un phrase de dominio public
 write-page-subtitle = Le phrases fornite ci sera addite a un insimul de datos publicamente disponibile con licentia cc-0.
