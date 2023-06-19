@@ -7,7 +7,7 @@ import SingleSubmissionWrite from './single-submission-write'
 
 const useActionMock = jest.fn()
 
-jest.mock('../../../../../hooks/store-hooks', () => ({
+jest.mock('../../../../../../hooks/store-hooks', () => ({
   useLanguages: () => {
     return {
       localeNameAndIDMapping: [
@@ -20,7 +20,7 @@ jest.mock('../../../../../hooks/store-hooks', () => ({
   useAction: () => useActionMock,
 }))
 
-jest.mock('../../../../locale-helpers', () => ({
+jest.mock('../../../../../locale-helpers', () => ({
   useLocale: () => {
     const mockLocale = 'mock-locale-1'
     return [mockLocale]
@@ -39,7 +39,7 @@ describe('Single Submission Write page', () => {
   it('renders Single Submission Write page', () => {
     renderWithProviders(<SingleSubmissionWrite />)
 
-    expect(screen.getByTestId('write-page')).toBeTruthy()
+    expect(screen.getByTestId('guidelines-form')).toBeTruthy()
     // assert that submit button is disabled
     expect(screen.getByTestId('submit-button').hasAttribute('disabled'))
   })
