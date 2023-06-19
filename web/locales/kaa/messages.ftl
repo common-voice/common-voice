@@ -26,6 +26,7 @@ uz = Ózbekshe
 
 ## Layout
 
+datasets = Maǵlıwmatlar toplamı
 languages = Tiller
 about = Biz tuwralı
 profile = Profil
