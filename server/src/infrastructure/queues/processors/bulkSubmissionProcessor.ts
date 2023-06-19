@@ -49,8 +49,8 @@ export const processBulkSubmissionUpload =
         })
       ),
       TE.fold(
-        err => T.of({ kind: 'failure', reason: err.message }),
-        () => T.of({ kind: 'success' })
+        err => T.of(console.log(err)),
+        () => T.of(constVoid())
       )
     )()
   }
