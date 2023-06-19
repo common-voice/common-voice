@@ -37,7 +37,7 @@ function streamSentences(localePath: string) {
       for (const filePath of filePaths) {
         const source = path.basename(filePath).split('.')[0];
         let sentences: string[] = [];
-        function write() {
+        const write = () => {
           stream.write({
             sentences,
             source,
