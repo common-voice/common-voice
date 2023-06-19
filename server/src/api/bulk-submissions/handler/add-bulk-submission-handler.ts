@@ -6,6 +6,7 @@ import { addBulkSubmissionCommandHandler } from '../../../application/bulk-submi
 import { pipe } from 'fp-ts/lib/function'
 import { task as T, taskEither as TE } from 'fp-ts'
 import { createPresentableError } from '../../../application/helper/error-helper'
+import { ApplicationError } from '../../../application/types/error'
 
 const SIZE_LIMIT_IN_BYTES = 1024 * 1024 * 8
 
@@ -24,42 +25,55 @@ const readBodyFromRequest = (req: Request): Promise<Buffer> => {
   })
 }
 
-export const addBulkSubmissionHandler = async (req: Request, res: Response) => {
-  const {
-    client_id,
-    headers,
-    params: { locale },
-  } = req
+export const handler =
+  (
+    cmdHandler: (
+      cmd: AddBulkSubmissionCommand
+    ) => TE.TaskEither<ApplicationError, boolean>
+  ) =>
+    async (req: Request, res: Response) => {
+      const {
+        client_id,
+        headers,
+        params: { locale },
+      } = req
 
-  console.log('Inside bulk submission handler')
+      const size = Number(headers['content-length'])
 
-  const size = Number(headers['content-length'])
+      if (!client_id)
+        return res
+          .status(StatusCodes.BAD_REQUEST)
+          .json({ message: 'no client id' })
 
-  if (!client_id)
-    return res.status(StatusCodes.BAD_REQUEST).json({ message: 'no client id' })
+      if (size >= SIZE_LIMIT_IN_BYTES)
+        return res
+          .status(StatusCodes.BAD_REQUEST)
+          .json({ message: 'file is larger than 8MB' })
 
-  if (size >= SIZE_LIMIT_IN_BYTES)
-    return res
-      .status(StatusCodes.BAD_REQUEST)
-      .json({ message: 'file is larger than 8MB' })
+      const file = await readBodyFromRequest(req)
 
-  const file = await readBodyFromRequest(req)
+      if (size !== file.length)
+        return res
+          .status(StatusCodes.BAD_REQUEST)
+          .json({ message: 'file size is not matching content-length' })
 
-  const cmd: AddBulkSubmissionCommand = {
-    filename: String(headers.filename),
-    submitter: client_id,
-    locale: locale,
-    file: file.toString('hex'),
-    size: size,
-  }
+      const cmd: AddBulkSubmissionCommand = {
+        filename: String(headers.filename),
+        submitter: client_id,
+        locale: locale,
+        file: file.toString('hex'),
+        size: size,
+      }
 
-  return pipe(
-    cmd,
-    addBulkSubmissionCommandHandler,
-    TE.mapLeft(createPresentableError),
-    TE.fold(
-      err => T.of(res.status(StatusCodes.INTERNAL_SERVER_ERROR).json(err)),
-      () => T.of(res.json({ message: 'Bulk submission added' }))
-    )
-  )()
-}
+      return pipe(
+        cmd,
+        cmdHandler,
+        TE.mapLeft(createPresentableError),
+        TE.fold(
+          err => T.of(res.status(StatusCodes.INTERNAL_SERVER_ERROR).json(err)),
+          () => T.of(res.json({ message: 'Bulk submission added' }))
+        )
+      )()
+    }
+
+export const addBulkSubmissionHandler = handler(addBulkSubmissionCommandHandler)
