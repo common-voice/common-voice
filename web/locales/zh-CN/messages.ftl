@@ -118,6 +118,7 @@ lij = 利古里亚语
 ln = 林加拉语
 lo = 老挝语
 lt = 立陶宛语
+ltg = 拉特加莱语
 lv = 拉脱维亚语
 mai = 迈蒂利语
 mdf = 莫克沙语
@@ -1635,8 +1636,6 @@ reviewing-sentences-explanation-1 = 若句子符合上述要求，请点击“�
 reviewing-sentences-explanation-2 = 若句子不符合要求，请点击“否”按钮。
 reviewing-sentences-explanation-3 = 若您没有把握判断，可以跳过当前语句，继续审核下一条语句。
 reviewing-sentences-explanation-4 = 若您已经没有句子可以审核了，请帮助我们收集更多句子！
-community-announcement-header = 社区公告
-community-announcement-explanation = 以下指南适用于新的语句收集工具功能，该功能将于 2023 年 3 月至 4 月开始集成到 Common Voice 主平台。在此之前，您可以使用原来的工具，即 <scLink>https://commonvoice.mozilla.org/sentence-collector/</scLink>。
 # WRITE PAGE
 write-instruction-second-part = 公有领域的语句
 write-page-subtitle = 此处贡献的语句将被添加到采用 cc-0 许可证的公开数据集中。

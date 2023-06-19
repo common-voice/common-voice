@@ -17,8 +17,8 @@ banner-error-slow-1 = Atlaidit, Common Voice dorbojās lānai. Paļdis par iņte
 banner-error-slow-2 = Mes sajamam daudz pīprasejumu i itūšaļt rysynojam problemys.
 banner-error-slow-link = Statusa lopa
 error-something-went-wrong = Atlaidit, koč kas nūguoja greizi
-error-clip-upload = Ituo īroksta augšupīluode aizviņ naizadūd. Voi raudzeit otkon?
-error-clip-upload-server = Ituo īroksta augšupīluode serverī vys vēļ naizadūd. Puorluodejit lopu voi vāluok raugit vēļreiz.
+error-clip-upload = Ituo īroksta augšonīluode aizviņ naizadūd. Voi raudzeit otkon?
+error-clip-upload-server = Ituo īroksta augšonīluode serverī vys vēļ naizadūd. Puorluodejit lopu voi vāluok raugit vēļreiz.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -65,14 +65,18 @@ privacy = Privatums
 terms = Lītuošonys nūsacejumi
 cookies = Seikdatnis
 faq = BUJ
+content-license-text = Saturs liceņzāts ar <licenseLink>Creative Commons liceņzi</licenseLink>
 share-title = Paleidzit mums atrast cytus, kas pazīduotu sovu bolsa īrokstu!
 share-text = Paleidzit īkuortom saprast latgalīšu volūdu, īrokstit sovu bolsu voi puorbaudit salaseitūs īrokstus { $link }
+link-copied = Saite nūkopāta
+back-top = Atpakaļ iz augšu
 logout = Beigt dorbu
 
 ## Home Page
 
 show-wall-of-text = Skaiteit vaira
 help-us-title = Paleidzit puorbaudeit teikumus!
+help-us-explain = Nūmīdzīt atskaņuošonys pūgu, klausotēs i puorbaudit, voi zamuok nūruodeitais teikums ir izrunuots precizai.
 no-clips-to-validate = Izaver, ka itamā volūdā nav audio īrokstu. Paleidzit mums, īrokstūt kaidus tagad.
 vote-yes = Nui
 vote-no = Nā
@@ -81,6 +85,7 @@ speak-subtitle = Pazīduot sovu bolsu
 speak-paragraph = Lai myusu volūda īkuortu laikmatā napagaistu, mums juoīroksta sovi bolsi; kaids saceitu, ka tys ir ari jautri.
 speak-goal-text = Īroksti īraksteiti
 listen-subtitle = Paleidzit puorbaudeit bolsus
+listen-paragraph = Īrokstu puorbaudeišona ir cīši svareiga. Klausotēs īrokstus i paleidzit īvuiceit īkuortom saprast myusu volūdu.
 listen-goal-text = Apstyprynuoti īroksti
 hours-recorded = Īraksteituos stuņdis
 hours-validated = Puorbaudeituos stuņdis
@@ -109,9 +114,10 @@ x-years-short =
         [one] { "" }
        *[other] { "" }
     }
-help-make-dataset = Paleidzit sataiseit kvalitativu, publiski valeimu datu kūpu
+help-make-dataset = Paleidzit sataiseit kvalitativu, publiski daīmamu datu kūpu
 sign-up-account = Registrej sovu kontu
 email-subscription-title = Dasasoki jaunumim e-postā
+email-subscription-title-new = Registrejitēs Common Voice viestim, atguodynuojumim par mierkim i progresa atjauninuojumim.
 
 ## Account Benefits
 
@@ -121,6 +127,7 @@ benefits = Īgivumi
 
 whats-public = Kas ir publiski daīmams?
 email-not-public = Mes napubliskuosim jiusu e-postu.
+username-email-not-demographic = Jiusu lītuotuoja vuords i e-posts natiks pīsaisteits publicētajim datim.
 
 ## Speak & Listen Shortcuts
 
@@ -214,8 +221,12 @@ settings = Īstatejumi
 edit-profile = Lobuot profilu
 profile-create-success = Profils sataiseits veiksmeigi!
 profile-close = Aiztaiseit
+profile-explanation = Sekojit sovam progresam, lītojūt sovu profilu, i paleidzit myusu bolsa datim byut precizuokim.
+thanks-for-account = Paļdis, ka apstyprynuojot sovu kontu, tagad sataiseisim jiusu profilu.
 why-demographic = Deļkuo tys ir svareigi?
+accept-privacy = Es pīkreitu, ka Mozilla apstruodoj munu informaceju tai, kai tys ir nūruodeits Mozillys <privacyLink>privatuma politikā</privacyLink>
 accept-privacy-title = Privatuma politika
+accept-privacy-and-terms = Es pīkreitu Common Voice <termsLink>nūsacejumim</termsLink> i <privacyLink>koņfideņcialuma paziņuojumam</privacyLink>
 login = Dasaslēgt
 login-signup = Dasaslēgt / Registrētīs
 edit = Lobuot
@@ -223,26 +234,62 @@ email-subscriptions = Jaunumu aboniešona e-postā
 download-profile = Lejupīluodēt munus datus
 contribution-experience = Pīsadaleišonys pīredze
 skip-submission-feedback = Izlaist atsauksmis
+off = Izslāgts
+on = Īslāgts
 
 ## Profile - Email
 
+browse-file-title = Augšonīluodejit biļdi
+browse-file = Veļcit i nūsvīdit voi <browseWrap> Puorsaverit </browseWrap>
+connect-gravatar = Sasavīnuot ar Gravatar
+gravatar_not_found = Jiusu e-postam nav atrosts gravatars
+file_too_large = Atlaseitais fails ir puoruok lels
+avatar-uploaded = Biļde īluodāta
+max-file-size = maksimums { $kb }kb
+remove-avatar = Nūjimt biļdi
 
 ## Profile - Email
 
+manage-subscriptions = Puorvaļdeit abonementus
+manage-email-subscriptions = Puorvaļdit e-posta abonementus
+email-already-used = E-posts jau teik lītuots cytam kontam
+add-language = Dalikt volūdu
+change-email-setings = Mainit sovu e-postu, lītojūt īstatejumu sadaļu "Pīsasaceišonys ideņtitate"
 
 ## FAQ
 
+faq-what-cv-q = Kas ir Common Voice?
+faq-why-important-q = Deļkuo tys ir svareigi?
 faq-is-account-public-q = Voi muna konta informaceja ir publiski daīmama?
 faq-how-privacy-q = Kai jius nūdrūsynuosit tū cylvāku anonimitati i privatumu, kuri pazīduoja sovus bolsus?
+faq-what-is-cv = Kas ir Common Voice?
+faq-using-cv = Common Voice lītuošona
+faq-search-for-answers =
+    .label = Vaicuot atbiļdis
 
 ## ABOUT US
 
+about-title = Deļkuo ir Common Voice?
 
 ## How does it work section
 
+about-new-lang-title = Jaunys volūdys palaisšona
+about-new-lang-subtitle = Mes palaižam Common Voice vītni itamā volūdā.
+about-voice-contrib-title = Bolsa īguļdejums
+about-voice-contrib-subtitle = Cylvāki atīt i īrunoj teikumus.
+about-voice-validation-title = Īrokstu puorbaudeišona
 about-voice-validation-subtitle = Cyti cylvāki puorbauda, voi teikumi ir īrunuoti precizi i pareizi.
+about-dataset-release-title = Datu kūpys izlaisšona
+about-speak = Runojit
 about-speak-text = Dalinīki īroksta eisus teikumus, skaitūt nu apkūpuotū teikumu datu bazis.
+about-listen = Klausotēs
 about-listen-text = Lītuotuoji apstyprynoj īsnāgtū īrokstu precizitati, puorbaudūt, voi runuotuojs ir pareizi nūskaitejs teikumu.
+about-is-it-valid = Voi īroksts ir dereigs?
+about-is-it-valid-text = Bolsa īroksts ir atzeimāts kai "dereigs", ka lītuotuojs tū apstyprynuojs ar "nui".
+about-yes-votes = ≥ 2 bolsi "nui"
+about-no-votes = ≥ 2 bolsi „nā“
+about-dataset-new = Bolsa datu kūpa
+about-clip-graveyard = Īrokstu kopsāta
 about-get-involved = Īsasaistit
 about-stay-in-touch = Kai es varu sasazynuot?
 about-stay-in-touch-button = Pīsaraksteit
@@ -263,6 +310,7 @@ about-playbook-what-is-language-content-2 = Mes gribim, lai runys modeli lobuok 
 
 about-playbook-how-add-language = Kai dalikt volūdu?
 about-playbook-how-add-language-translating-heading = Škārsteikla lopys tulkuošona
+about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Veritēs myusu ceļvedi par Pontoon lītuošonu.</translateVideoLink>
 about-playbook-how-add-language-collecting-sentences-heading = Teikumu apkūpuošona
 
 ## How does localization work
@@ -285,9 +333,20 @@ about-playbook-how-grow-language-content-6 = Partnereibys i teikli
 
 ## How to access dataset
 
+about-playbook-how-access-dataset = Kai datikt i lītuot datu kūpu?
+about-playbook-how-access-dataset-content-1 = Varit īt iz <datasetsPage>datu kūpu lopu</datasetsPage>, atlaseit vajadzeigū verseju i volūdu i tū lejupīluodēt! Failim ir <metadataLink>saisteiti metadati</metadataLink>, par pīmāru, demografiskuo informaceja i validacejis dati. Lai lejupīluodātu datu kūpu, jums byus juonūruoda e-posta adrese.
+about-playbook-how-access-dataset-content-2 = Ka vaicojit gotovus reikus, kas lītoj itū datu kūpu, varit sasazynuot ar kūpīnys dalinīkim <discourseLink>Discourse sistemā</discourseLink>.
 
 ## How are decisions made
 
+about-playbook-how-project-governance = Kai teik pījimti lāmumi par itū projektu?
+about-playbook-how-project-governance-content-1 = Mozilla Common Voice taisa aktivisti, volūdnīki, datu zynuotnīki, akademiki i programaturys iņžineri nu vysa pasauļa. Projektu puorvolda Mozilla fonds.
+about-playbook-how-project-governance-content-2 = Myusu puorvaļdeiba ir baļsteita iz itaidu pryncypu:
+about-playbook-how-project-governance-content-3 = Privatums, drūšeiba i puorradzameiba.
+about-playbook-how-project-governance-content-4 = Kūpīnys leidzdaleiba lāmumu pījimšonā.
+about-playbook-how-project-governance-content-5 = Vierteiba i atzineiba.
+about-playbook-how-project-governance-content-6 = Sovstarpeiguo atbiļdeiba.
+about-playbook-how-project-governance-content-7 = <governanceLink>Izzynojat vaira par tū, kai mes teikam puorvaļdeiti</governanceLink>
 
 ## Glossary
 
@@ -302,9 +361,11 @@ error-code = Klaida { $code }
 
 ## Data
 
+data-download-button = Lejupīluodejit Common Voice datus
 data-download-yes = Nui
 data-download-deny = Nā
 data-download-license = Liceņze: <licenseLink> CC-0 </licenseLink>
+data-get-started = <speechBlogLink>Dorba suokšona ar runys atpazeišonu</speechBlogLink>
 data-other-title = Citys bolsa datu kūpys…
 data-other-goto = Ej iz { $name }
 data-other-download = Lejupīluodēt datus
@@ -314,6 +375,8 @@ release-version = Verseja
 dataset-date = Datums
 license = Liceņze: <licenseLink> { $license } </licenseLink>
 license-mixed = Jaukts
+terms-disagree = Es napīkreitu
+review-aborted = Augšonīluode teik puortraukta. Voi gribit dzēst sovus īrokstus?
 review-submit-title = Puorbaudeit i īsnēgt
 review-submit-msg = Paļdis par īraksteišonu! <lineBreak> </lineBreak> Tagad puorbaudit i īsnīdzit sovus audio failus.
 review-recording = Puorbaudit
@@ -373,7 +436,7 @@ contact-required = *obligats
 request-language-title = Volūdys pīprasejums
 request-language-form-language =
     .label = Volūda
-request-language-success-title = Volūdys pīprasejums veiksmeigi īsnīgts, paļdis.
+request-language-success-title = Volūdys pīprasejums veiksmeigi īsnāgts, paļdis.
 select-language = Izalosit volūdu...
 other-language = Cyta volūda
 
@@ -441,7 +504,7 @@ listen-instruction = { $actionType } <playIcon> </playIcon> voi jī precizai īr
 listen-again-instruction = Labi padareits dorbs! <playIcon> </playIcon> Klausotēs vēļreiz, kod esit gotovs
 listen-3rd-time-instruction = 2 pabeigti, tai tik turēt! <playIcon> </playIcon>
 listen-last-time-instruction = <playIcon> </playIcon> Pādejais!
-listen-empty-state = Var byut, ka vysi īroksti jau ir apstruoduoti - puorluodejit lopu voi raugit nadaudz vāluok.
+listen-empty-state = Var byut, ka vysi īroksti jau ir apstruoduoti - atsvaidzynojat lopu voi raugit nadaudz vāluok.
 listen-loading-error =
     Mes navariejom dabuot nivīna īroksta, kū jums klauseitīs.
     Lyudzu, raugit vēļreiz nadaudz vāluok.
@@ -607,6 +670,12 @@ sc-footer-cookies = Seikdatnis
 
 ## MY SENTENCES
 
+# Variables:
+#   $batchId (String) - A unique ID identifying the submission of sentences - sentences uploaded together all have the same batch ID
+sc-my-submission = Īsnīguma identifikators: { $batchId }
+# Variables:
+#   $source (String) - Associated source the user filled out when uploading the sentence
+sc-my-source = Olūts: { $source }
 
 ## REJECTED
 
@@ -638,10 +707,22 @@ sc-submit-guidelines = Lyudzu, puorbaudit <howToLink>vadlinejis</howToLink>.
 
 ## ADD SENTENCES CONFIRMATION
 
+# Variables:
+#   $countOfUnreviewed (Number) - Number of sentences unreviewed before the upload
+sc-confirm-unreviewed = { $countOfUnreviewed } teikumi nav puorsavārti. Ka gribit, varit ari puorsavērt sovus teikumus pyrma tūs īsniegšonys.
 
 ## LANGUAGE INFO
 
 sc-lang-info-title-total = Kūpā
+# Variables:
+#   $totalSentences (Number) - Number of sentences uploaded in total for this language
+sc-lang-info-total =
+    { $totalSentences ->
+        [0] { $totalSentences } teikumi
+        [zero] { "" }
+        [one] { "" }
+       *[other] { "" }
+    }
 sc-lang-info-add-more = <addLink>Davīnojit teikumus!</addLink>
 # Variables:
 #   $validatedSentences (Number) - Number of sentences which have been approved for this language
@@ -689,6 +770,9 @@ sc-review-title = Teikumu puorbaude
 sc-review-loading = Nūteik teikumu īluode...
 sc-review-form-prompt =
     .message = Puorsavārtī teikumi nav īsnāgti, voi esit drūss?
+# Variables:
+#   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
+sc-review-form-source = Olūts: { $sentenceSource }
 sc-review-form-button-reject = Nūraideit
 sc-review-form-button-skip = Izlaist
 sc-review-form-button-approve = Apstyprynuot
@@ -745,7 +829,7 @@ background-noise-example-3 = Senejuo laikmeta dino [dzierdams krakškis].
 background-noise-example-4 = [klusums] senejuo laikmeta [dzierdams krakškis] -zauri.
 background-noise-tip-1 = [Skaitejumu puortrauc fona trūksnis]
 background-noise-tip-2 = [Daļu nu teksta navar dzierdēt]
-background-voices-explanation = Nalels fona trūksnis ir pījamams, tok, ka dzierdit cytu personu runojam konkretus vuordus, klips ir juonūraida. Parasti tys nūteik gadīņūs, kod tyvumā ir atstuots īslāgts televizors voi runoj cyti cylvāki.
+background-voices-explanation = Nalels fona trūksnis ir pījamams, tok, ka dzierdit cytu personu runojam konkretus vuordus, īroksts ir juonūraida. Parasti tys nūteik gadīņūs, kod tyvumā ir atstuots īslāgts televizors voi runoj cyti cylvāki.
 background-voices-example-1 = Senejuo laikmeta dinozauri. [skaita vīns bolss]
 background-voices-tip-1 = Voi tu ej? [soka kaids cyts]
 still-have-questions = Vys vēļ ir vaicuojumi?
