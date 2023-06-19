@@ -52,7 +52,7 @@ const BulkSubmissionWrite = () => {
   })
 
   return (
-    <div className="bulk-upload-container">
+    <div className="bulk-upload-container" data-testid="bulk-upload-container">
       <div className="upload-and-instruction">
         <Instruction
           firstPartId="sc-bulk-upload-instruction-first-part"

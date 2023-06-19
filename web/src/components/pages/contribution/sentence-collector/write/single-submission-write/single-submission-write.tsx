@@ -132,7 +132,7 @@ const SingleSubmissionWrite: React.FC<SingleSubmissionWriteProps> = ({
   return (
     <form
       className="guidelines-form"
-      data-testid="guidelines-form"
+      data-testid="single-submission-form"
       onSubmit={handleSubmit}>
       <div className="inputs-and-rules-container">
         <SentenceInputAndRules

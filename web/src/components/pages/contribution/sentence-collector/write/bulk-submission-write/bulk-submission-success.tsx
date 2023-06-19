@@ -1,5 +1,5 @@
+import * as React from 'react'
 import { Localized } from '@fluent/react'
-import React from 'react'
 import { useDispatch } from 'react-redux'
 
 import { PrimaryButton } from '../../../../../primary-buttons/primary-buttons'
@@ -16,7 +16,9 @@ const BulkSubmissionSuccess = () => {
   }
 
   return (
-    <div className="bulk-submission-success">
+    <div
+      className="bulk-submission-success"
+      data-testid="bulk-submission-success">
       <img
         src={require('../../../../../../../img/happy-mars@2x.png')}
         alt="Happy Mars"

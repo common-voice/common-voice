@@ -1,21 +1,21 @@
-import React, { useState } from 'react'
+import * as React from 'react'
 
 import SentenceCollectionWrapper from '../sentence-collector-wrapper'
 import SingleSubmissionWrite from './single-submission-write/single-submission-write'
 import BulkSubmissionWrite from './bulk-submission-write/bulk-submission-write'
 import SentenceCollectorToggle from '../sentence-colector-toggle'
+import BulkSubmissionSuccess from './bulk-submission-write/bulk-submission-success'
 
 import { useAccount, useSentences } from '../../../../../hooks/store-hooks'
+import { useLocale } from '../../../../locale-helpers'
 
 import './write-container.css'
-import { useLocale } from '../../../../locale-helpers'
-import BulkSubmissionSuccess from './bulk-submission-write/bulk-submission-success'
 
 export type WriteSubmissionToggleOptions = 'single' | 'bulk'
 
 const WriteContainer = () => {
   const [activeWriteOption, setActiveWriteOption] =
-    useState<WriteSubmissionToggleOptions>('single')
+    React.useState<WriteSubmissionToggleOptions>('single')
 
   const handleToggle = (option: WriteSubmissionToggleOptions) => {
     setActiveWriteOption(option)
@@ -36,7 +36,7 @@ const WriteContainer = () => {
   }
 
   return (
-    <div className="write-container">
+    <div className="write-container" data-testid="write-container">
       {account && (
         <div className="sc-toggle">
           <SentenceCollectorToggle

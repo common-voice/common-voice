@@ -1,5 +1,5 @@
+import * as React from 'react'
 import { Localized } from '@fluent/react'
-import React from 'react'
 import classNames from 'classnames'
 
 import { TextButton } from '../../../ui/ui'
@@ -18,7 +18,7 @@ const SentenceCollectorToggle: React.FC<Props> = ({
   onToggle,
   activeOption,
 }) => (
-  <div className="sc-toggle-wrapper">
+  <div className="sc-toggle-wrapper" data-testid="sc-toggle">
     <div
       className={classNames('toggle-option single', {
         active: activeOption === 'single',
@@ -28,6 +28,7 @@ const SentenceCollectorToggle: React.FC<Props> = ({
         <Localized id="single-sentence-submission">
           <TextButton
             className="single-option hidden-md-down"
+            data-testid="single-option"
             onClick={() => onToggle('single')}
           />
         </Localized>
@@ -49,6 +50,7 @@ const SentenceCollectorToggle: React.FC<Props> = ({
         <Localized id="bulk-sentence-submission">
           <TextButton
             className="bulk-option hidden-md-down"
+            data-testid="bulk-option"
             onClick={() => onToggle('bulk')}
           />
         </Localized>

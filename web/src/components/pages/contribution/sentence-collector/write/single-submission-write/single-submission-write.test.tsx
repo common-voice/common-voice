@@ -39,7 +39,7 @@ describe('Single Submission Write page', () => {
   it('renders Single Submission Write page', () => {
     renderWithProviders(<SingleSubmissionWrite />)
 
-    expect(screen.getByTestId('guidelines-form')).toBeTruthy()
+    expect(screen.getByTestId('single-submission-form')).toBeTruthy()
     // assert that submit button is disabled
     expect(screen.getByTestId('submit-button').hasAttribute('disabled'))
   })
