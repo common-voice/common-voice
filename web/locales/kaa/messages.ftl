@@ -4,6 +4,8 @@ email-input =
     .label = Elektron pochta
 submit-form-action = Jiberiw
 loading = Júklenbekte…
+indicates-required = * Toltırıw májburıy bolǵan maydanlar
+not-available-abbreviation = Joq
 banner-error-slow-link = Status beti
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
