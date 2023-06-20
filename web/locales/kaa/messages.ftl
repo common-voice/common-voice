@@ -167,6 +167,7 @@ avatar = Avatar
 goals = Maqsetler
 settings = Sazlamalar
 edit-profile = Profilge ózgeris kirgiziw
+profile-create-success = Júdá jaqsı, profil jaratıldı!
 profile-close = Jabıw
 accept-privacy-title = Qupiyalıq siyasatı
 login = Kiriw
@@ -192,12 +193,15 @@ faq-title = Kóp beriletuǵın sorawlar
 faq-what-cv-q = Common Voice ne?
 faq-how-get-q = Men Common Voicetıń maǵlıwmatların toplamın qalay alıwım múmkin?
 faq-when-release2-q = Common Voicetıń Basqa tiller ushın maǵlıwmatlar toplamın qashan shıǵarasız?
+faq-is-goal-assistant-q = Common Voicetıń maqseti dawıslı járdemshini jaratıw ma?
 
 ## ABOUT US
 
 
 ## How does it work section
 
+about-sentence-collection-title = Gápler toplamı
+about-new-lang-title = Jańa tildi iske túsiriw
 about-speak = Sóyleń
 about-listen = Tıńlań
 about-stay-in-touch-button = Dizimnen ótiw
@@ -247,7 +251,10 @@ data-download-yes = Awa
 data-download-deny = Yaq
 release-version = Versiya
 dataset-date = Sáne
+license-mixed = Aralas
+review-submit-title = Tekseriw hám jiberiw
 review-recording = Tekseriw
+review-rerecord = Qayta jazıw
 
 ## Datasets Page
 
@@ -465,6 +472,7 @@ sc-settings-ui-language = Interfeys tili
 
 # [/SentenceCollector]
 
+partnerships-governments-header = Húkimetler
 add-information-button = Maǵlıwmat qosıw
 create-profile-button = Profil jaratıw
 citing-sentences-subheader-websites = Veb-saytlar
