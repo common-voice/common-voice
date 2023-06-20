@@ -1,5 +1,6 @@
 ## General
 
+yes-receive-emails = Awa, maǵan elektron pochta arqalı xabarlardı jiberiń. Common Voice jobası haqqında xabardar bolıwdı qáleymen.
 email-input =
     .label = Elektron pochta
 submit-form-action = Jiberiw
