@@ -118,6 +118,7 @@ lij = Ligur
 ln = Lingala
 lo = Laosiano
 lt = Lituano
+ltg = Latgaliá
 lv = Letón
 mai = Maithili
 mdf = Moksha
