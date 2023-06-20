@@ -89,6 +89,7 @@ x-years-short =
         [one] jıl
        *[other] { $count }jıl
     }
+sign-up-account = Akkaunttı dizimnen ótkeriw
 
 ## Account Benefits
 
@@ -177,6 +178,7 @@ on = Qosıwlı
 ## Profile - Email
 
 browse-file-title = Súwret faylın júklew
+connect-gravatar = Gravatardı qosıw
 avatar-uploaded = Avatar júklendı
 remove-avatar = Avatardı óshiriw
 
@@ -188,6 +190,8 @@ add-language = Til qosıw
 
 faq-title = Kóp beriletuǵın sorawlar
 faq-what-cv-q = Common Voice ne?
+faq-how-get-q = Men Common Voicetıń maǵlıwmatların toplamın qalay alıwım múmkin?
+faq-when-release2-q = Common Voicetıń Basqa tiller ushın maǵlıwmatlar toplamın qashan shıǵarasız?
 
 ## ABOUT US
 
