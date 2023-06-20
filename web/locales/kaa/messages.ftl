@@ -504,6 +504,7 @@ add-information-button = Maǵlıwmat qosıw
 create-profile-button = Profil jaratıw
 voice-collection = Dawıslar toplamı
 background-noise = Sırtqı shawqım
+background-voices = Sırtqı dawıslar
 example = Mısal
 citing-sentences-subheader-websites = Veb-saytlar
 sentence =
