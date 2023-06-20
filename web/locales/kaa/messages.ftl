@@ -36,6 +36,7 @@ ckb = Oraylıq Kurd
 cs = Chex tili
 cv = Chuwash tili
 da = Dat
+el = Grekshe
 ja = Yapon
 kaa = Qaraqalpaqsha
 kk = Qazaqsha
