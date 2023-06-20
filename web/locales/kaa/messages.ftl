@@ -497,10 +497,18 @@ sc-settings-ui-language = Interfeys tili
 # [/SentenceCollector]
 
 partnerships-governments-header = Húkimetler
+partnerships-our-partners = Biziń sherikler
 add-information-button = Maǵlıwmat qosıw
 create-profile-button = Profil jaratıw
+voice-collection = Dawıslar toplamı
+background-noise = Sırtqı shawqım
+example = Mısal
 citing-sentences-subheader-websites = Veb-saytlar
+sentence =
+    .label = Gáp
+new-sentence-rule-3 = Durıs grammatikanı qollanıń
 contact-us = Biz benen baylanısıw
 required-field = Ótinish, bul maydandı toltırıń.
 # REVIEW PAGE
 sc-review-instruction-first-part = Tekseriw
+report-sc-different-language = Basqa til
