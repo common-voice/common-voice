@@ -124,8 +124,7 @@ async function importLocaleSentences(
                 .join(', ')}
               ON DUPLICATE KEY UPDATE
                 source = VALUES(source),
-                version = VALUES(version),
-                is_used = VALUES(is_used);
+                version = VALUES(version);
             `
             );
           } catch (e) {
