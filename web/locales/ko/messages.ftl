@@ -76,6 +76,7 @@ gom = 고안 콘칸어
 ha = 하우사어
 he = 히브리어
 hi = 힌디어
+hil = 힐리가이논어
 hr = 크로아티아어
 hsb = 고지 소르브어
 ht = 아이티어
@@ -90,6 +91,7 @@ is = 아이슬란드어
 it = 이탈리아어
 izh = 이조르어
 ja = 일본어
+jbo = 로지반어
 ka = 그루지아어
 kaa = 카라칼파크어
 kab = 커바일어
@@ -98,6 +100,7 @@ ki = 키쿠유어
 kk = 카자흐스탄어
 km = 크메르어
 kmr = 쿠르만지 쿠르드어
+kn = 칸나다어
 knn = 콘칸어(데바나가리)
 ko = 한국어
 kpv = 코미지리안어
@@ -106,6 +109,8 @@ ky = 키르기스스탄어
 lb = 룩셈부르크어
 lg = 루간다어
 lij = 리구리아어
+ln = 링갈라어
+lo = 라오어
 lt = 리투아니아어
 lv = 라트비아어
 mai = 마이틸어
@@ -125,10 +130,12 @@ my = 버마어
 myv = 에르자어
 nan-tw = 대만어(민난)
 nb-NO = 노르웨이어 보크몰
+nd = IsiNdebele (North)
 ne-NP = 네팔어
 nia = 니아스어
 nl = 네덜란드어
 nn-NO = 노르웨이어 뉘노르스크
+nr = IsiNdebele (South)
 nso = 북소토어
 nyn = 엔코어어
 oc = 오크어
@@ -150,14 +157,17 @@ sah = 사하어
 sat = 산탈어 (올치키)
 sc = 사르데냐어
 scn = 시칠리아어
+sdh = 남부 쿠르드어
 shi = 실하어
 si = 싱할라어
 sk = 슬로바키아어
 skr = 사라이키어
 sl = 슬로베니아어
+snk = 소닌케어
 so = 소말리아어
 sq = 알바니아어
 sr = 세르비아어
+ss = 시스와티어
 st = 소토어
 sv-SE = 스웨덴어
 sw = 스와힐리어
@@ -170,6 +180,7 @@ ti = 티그리냐어
 tig = 티그레어
 tk = 투르쿠멘어
 tl = 타갈로그어
+tn = 츠와나어
 tok = 도기 보나
 tr = 터키어
 ts = 총가어
@@ -186,12 +197,15 @@ ve = 벤다어
 vec = 베네치아어
 vi = 베트남어
 vot = 바트어
+xh = 코사어
 yi = 이디시어
 yo = 요루바어
 yue = 광동어
+zgh = 타마지트어
 zh-CN = 중국어(중국)
 zh-HK = 중국어(홍콩)
 zh-TW = 중국어(중화민국)
+zu = 줄루어
 
 # [/]
 
@@ -203,6 +217,7 @@ speak-now = 지금 말하기
 datasets = 데이터 세트
 languages = 언어
 about = 소개
+partner = 파트너
 profile = 프로필
 help = 도움말
 contact = 연락처
@@ -312,13 +327,12 @@ shortcut-vote-no = n
 shortcut-record-toggle = r
 shortcut-record-toggle-label = 녹음/멈추기
 shortcut-rerecord-toggle = [1-5]
-shortcut-rerecord-toggle-label = 레코드클립 재녹음
+shortcut-rerecord-toggle-label = 클립 다시 녹음
 shortcut-discard-ongoing-recording = ESC
 shortcut-discard-ongoing-recording-label = 진행 중인 녹음 취소
 shortcut-submit = 돌아가기
 shortcut-submit-label = 클립 제출
 request-language-text = 아직도 사용하는 언어가 Common Voice에서 보이지 않나요?
-request-language-text-learn = 여기에서 요청하는 방법을 알아보세요!
 request-language-button = 언어 요청하기
 
 ## ProjectStatus
@@ -454,7 +468,9 @@ faq-why-different-speakers-a =
     대부분의 음성 데이터베이스는 특정 인구의 데이터가 과도하게 훈련되어 <articleLink>남성과 중산층</articleLink>에 편중되어 있습니다. 훈련 데이터에서 억양과 방언이 충분히 반영되지 못하는 것은 해당 그룹이 이미 소외되어 있기 때문입니다. 많은 기계들이 여성의 목소리를 이해하는데 어려움을 겪고 있습니다.
     이것이 우리의 음성 데이터베이스가 다양성을 원하는 이유입니다!
 faq-why-my-lang-q = 왜 나의 언어가 아직 포함되지 않았나요?
-faq-why-my-lang-new-a = Mozilla는 특정 언어를 우선적으로 다루지 않습니다. Common Voice는 커뮤니티 중심으로 주도되지만 새로운 언어의 음성을 추가하기 위해서는 <multilangLink>새로운 언어를 등록하기 위한 몇 가지 단계</multilangLink>를 거쳐야합니다. 첫번째로, 커뮤니티의 사람들이 사용하는 언어로 기여할 수 있도록 Common Voice 웹 사이트가 번역되어야 합니다. 다음으로는 사람들이 소리내어 읽을 수 있는 저작권이 위배되지 않은 많은 문장이 수집되어야 합니다. 이 2가지 조건이 만족된 언어는 Common Voice에 “출시됨”으로 표시되고 사람들이 자신의 음성을 기부하거나 다른 사람의 음성을 검증할 수 있게 됩니다. 새로운 언어의 출시를 도우려면 <sentenceCollectorLink>문장 수집 도구</sentenceCollectorLink>를 이용하십시오.
+faq-why-my-lang-a =
+    Common Voice는 크라우드소싱 플랫폼이기에 모든 언어는 자원 봉사자의 기여덕분입니다.
+    귀하의 언어를 추가해 주시면 감사하겠습니다! <languageRequestLink>언어 추가에 대해 문의하세요.</languageRequestLink>
 faq-what-quality-q = 데이터세트에 사용되기 위한 보이스 클립의 음질은 어느정도여야 하나요?
 faq-what-quality-a = 우리는 Common Voice 데이터 세트에 음성-텍스트 엔진이 실생활에서 듣는 음성 품질이 반영되기를 원하기 때문에 다양성을 원합니다. 다양한 말하는 사람들의 커뮤니티와 함께 넓은 오디오 품질의 데이터 세트는 음성-텍스트 엔진에 배경 대화에서 자동차 소음에 이르기까지 다양한 실제 상황을 다룰 수 있도록 가르칩니다. 음성 클립을 이해할 수 있는 한, 데이터 세트로 충분합니다.
 faq-why-10k-hours-q = 왜 언어별로 수집되어야 할 오디오의 길이가 10,000 유효 시간인가요?
@@ -524,12 +540,6 @@ about-dataset-new = Common Voice 데이터 세트
 about-dataset-new-text = Common Voice 데이터 세트에는 개발자가 음성 인식 도구를 작성하는 데 도움이되는 수십 만 개의 음성 샘플이 들어 있습니다.
 about-clip-graveyard = 클립 무덤
 about-clip-graveyard-text = 클립 무덤은 Common Voice 데이터 세트에 포함되지 못 한 음성 클립으로 구성됩니다. 데이터 세트와 마찬가지로 클립 무덤도 다운로드할 수 있습니다.
-about-partners = 파트너
-about-become-a-partner = 파트너 되기
-about-partnership =
-    Common Voice는 공동 작업 프로젝트이며 가장 큰 오픈 소스 음성 데이터 세트를 구축하기 위해 파트너와 기여자 커뮤니티의 도움을 받고 있습니다.
-    
-    프로젝트에 도움을 주신 다음 분들과 단체에 감사드립니다:
 about-get-involved = 참여하기
 about-get-involved-text-2 =
     Common Voice를 더 좋게 만들고 싶으신가요?
@@ -558,9 +568,20 @@ about-playbook-what-is-language-content-3 = 일부 언어는 문법, 어휘 및 
 
 about-playbook-how-add-language = 언어는 어떻게 추가합니까?
 about-playbook-how-add-language-content-1 = 먼저, 사용하는 언어가 <languageLink>이미 존재하는지</languageLink> 확인하십시오. 그렇지 않은 경우 <strong>사이트를 번역하고 문장을 수집</strong>해야 합니다.
-about-playbook-how-add-language-content-2 = <strong>사이트를 번역하려면</strong> - <pontoonLink>Pontoon</pontoonLink>에서 <translateVideo>설정</translateVideo>을 받으세요. Pontoon에는 많은 언어가 있지만 언어가 없는 경우 <pontoonRequestLink>요청</pontoonRequestLink>할 수 있습니다. 그런 다음 <repoLink>GitHub</repoLink>을 통해 Common Voice 프로젝트를 해당 언어로 사용할 수 있도록 요청하세요. <localizationFragment>사이트 번역</localizationFragment>에 대해 자세히 알아보세요.
-about-playbook-how-add-language-content-3 = <strong>문장 수집하기</strong> - <scLink>문장 수집기</scLink>에서 <scVideo>설정</scVideo>을 선택하세요.
-about-playbook-how-add-language-content-4 = 여기에서 <scLinkAdd>작은 수의 문장을 추가</scLinkAdd>하거나 Github 요청을 통해 <bulkImportDocsLink>대량 가져오기</bulkImportDocsLink>를 수행할 수 있습니다. 문장은 <licenseLink>CC0(또는 공개 도메인)</licenseLink>이거나 직접 작성할 수 있음을 기억하세요. <scFragment>문장 모음</scFragment>에 대해 자세히 알아보십시오.
+about-playbook-how-add-language-translating-heading = 이 사이트 번역하기
+about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Pontoon 사용 방법에 대한 가이드 시청</translateVideoLink>.
+about-playbook-how-add-language-translating-content-2 =
+    번역을 위해 <pontoonLink>Pontoon</pontoonLink>라는 Mozilla 도구를 사용합니다. Pontoon에 언어가 많습니다.
+    그러나 귀하의 언어가 없으면 <pontoonRequestLink>언어 추가를 요청</pontoonRequestLink>할 수 있습니다.
+    그런 다음 Common Voice 프로젝트에서 해당 언어를 사용할 수 있기 위해
+    <githubRepoLink>Github</githubRepoLink>에서 그 언어를 요청하세요. <localizationFragment>사이트 번역에 대해 자세히 알아보기</localizationFragment>.
+about-playbook-how-add-language-collecting-sentences-heading = 문장 수집
+about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>Sentence Collector 사용에 대한 가이드 시청</sentenceCollectorVideo>.
+about-playbook-how-add-language-collecting-sentences-content-2 =
+    <sentenceCollectorLinkAdd>작은 수의 문장을 추가</sentenceCollectorLinkAdd>할 수 있으며,
+    또는 <bulkImportDocsLink>Github를 사용하여 대량 가져오기</bulkImportDocsLink>를 수행할 수 있습니다.
+    문장은 반드시 <licenseLink>CC0(또는 공개 도메인)</licenseLink> 콘텐츠 또는  자신이 직접 작성하신 글이어야 합니다.
+about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>문장 수집에 대해 자세히 알아보기</sentenceCollectorFragment>.
 
 ## How does localization work
 
@@ -624,12 +645,6 @@ about-playbook-how-project-governance-content-4 = 커뮤니티 참여 및 의사
 about-playbook-how-project-governance-content-5 = 가치와 인정.
 about-playbook-how-project-governance-content-6 = 상호 책임.
 about-playbook-how-project-governance-content-7 = <governanceLink>관리 방식에 대해 자세히 살펴 보세요.</governanceLink>
-mycroft-title = Mycroft Ai
-mycroft-subtitle = 인공 지능
-mycroft-description =
-    Mycroft는 세계 최초의 오픈 소스 도우미입니다.
-    Mycroft는 데스크탑 컴퓨터, 자동차 내부 또는 라스베리 파이 - 어디서나 작동합니다.
-mycroft-secondary-description = 이것은 오픈소스 소프트웨어이기 때문에 자유롭게 개작하거나 확장, 개선해도 됩니다. Mycroft는 엔터프라이즈 소프트웨이어에서 과학 프로젝트까지 모든 용도로 사용될 수 있습니다.
 
 ## Glossary
 
@@ -697,6 +712,10 @@ datasets-positioning =
     
     이 페이지는 다른 오픈 소스 음성 데이터 세트의 참조처이자, Common Voice가 성장해 감에 따라 공개될 업데이트를 위한 장소가 될 것입니다.
 language = 언어
+download-dataset-header = 데이터세트 다운로드
+download-delta-explainer = 변경 사항이 있습니다. 델타 세그먼트에는 마지막 릴리스 이후 가장 최근 클립만 포함됩니다. <deltaLink>이 일에 대해 자세히 알아보세요</deltaLink>.
+download-dataset-tag = 원하는 언어 데이터 세트를 선택하고 다운로드하려는 버전을 선택하십시오.
+download-dataset-access = 이전 데이터 세트 릴리스를 찾고 계십니까? <emailLink>{ $email }</emailLink>로 이메일을 보내주세요.
 # File size in gigabytes
 size = 크기
 validated-hr-total = 검증된 시간 합계
@@ -823,7 +842,8 @@ language-search-input =
 language-speakers = 말한 사람
 localized = 지역화된
 sentences = 문장
-total-hours = 전체 시간
+language-validation-hours = 시간
+language-validation-progress = 검증 진행
 
 ## Contribution
 

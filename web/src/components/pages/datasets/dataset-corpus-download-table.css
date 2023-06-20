@@ -1,0 +1,81 @@
+
+.dataset-table {
+    width: 100%;
+    border-collapse: collapse;
+    @media (--md-down) {
+        &.table {
+            border-collapse:separate; 
+            border-spacing: 0 1em;
+          }
+    }
+    thead,
+    tbody {
+        width: 100%;
+    }
+    thead {
+        tr {
+            width: 100%;
+        }
+    }
+
+    tbody {
+        tr {
+            background-color: var(--lighter-grey);
+            border-bottom: 2px solid var(--light-grey);
+            
+            &:hover {
+                cursor: pointer;
+                background-color: var(--light-grey);
+            }
+            &.selected {
+                background-color: var(--light-blue);
+            }
+            @media (--lg-up) {
+                & td:first-child {
+                    padding-left: 25px;
+                }
+                &.selected {
+                    & td:first-child::before {
+                        content: '';
+                        background: url('./images/checkmark.svg') no-repeat;
+                        width: 25px;
+                        height: 25px;
+                        position: absolute;
+                        left: 47px;
+                        transform: translateY(5px);
+                    }
+                }
+            }
+        }
+    }
+
+    td,
+    th {
+        padding: 15px 5px;
+        text-align: left;
+    }
+
+    @media (--md-down) {
+        thead {
+            display: none;
+        }
+        tr.selected {
+            td {
+                display: flex;
+            }
+        }
+        td {
+            display: none;
+            &.highlight {
+                display: flex;
+            }
+
+            &::before {
+                content: attr(data-mobile-label);
+                font-weight: bold;
+                width: 120px;
+                min-width: 120px;
+            }
+        }
+    }
+}

@@ -9,7 +9,11 @@ import { Redirect, RouteComponentProps, withRouter } from 'react-router';
 import { Tooltip } from 'react-tippy';
 import pick from 'lodash.pick';
 
-import { useAction, useAPI } from '../../../../hooks/store-hooks';
+import {
+  useAction,
+  useAPI,
+  useLocalStorageState,
+} from '../../../../hooks/store-hooks';
 import { trackProfile } from '../../../../services/tracker';
 import { AGES, GENDERS } from '../../../../stores/demographics';
 import { Notifications } from '../../../../stores/notifications';
@@ -83,6 +87,10 @@ function ProfileInfo({
     userFields;
   const [areLanguagesLoading, setAreLanguagesLoading] = useState(true);
   const [userLanguages, setUserLanguages] = useState<UserLanguage[]>([]);
+  const [userLanguagesInLocalStorage] = useLocalStorageState<UserLanguage[]>(
+    [],
+    'userLanguages'
+  );
   const [isSaving, setIsSaving] = useState(false);
   const [isSubmitted, setIsSubmitted] = useState(false);
   const [termsStatus, setTermsStatus] = useState<null | 'show' | 'agreed'>(
@@ -122,7 +130,7 @@ function ProfileInfo({
     let userLanguages: UserLanguage[] = [];
     userLanguages = userClients.reduce(
       (languages, userClient) => languages.concat(userClient.languages || []),
-      []
+      userLanguagesInLocalStorage
     );
     userLanguages = userLanguages.filter(
       (l1, i) => i == userLanguages.findIndex(l2 => l2.locale == l1.locale)
@@ -222,13 +230,15 @@ function ProfileInfo({
           <LabeledInput
             value={username}
             onChange={handleChangeFor('username')}
+            name="username"
           />
         </Localized>
 
         <Localized id="leaderboard-visibility" attrs={{ label: true }}>
           <LabeledSelect
             value={visible.toString()}
-            onChange={handleChangeFor('visible')}>
+            onChange={handleChangeFor('visible')}
+            name="leaderboard visibility">
             <Localized id="hidden">
               <option value={0} />
             </Localized>
@@ -242,13 +252,19 @@ function ProfileInfo({
         </Localized>
 
         <Localized id="profile-form-age" attrs={{ label: true }}>
-          <LabeledSelect value={age} onChange={handleChangeFor('age')}>
+          <LabeledSelect
+            value={age}
+            onChange={handleChangeFor('age')}
+            name="age">
             <Options>{AGES}</Options>
           </LabeledSelect>
         </Localized>
 
         <Localized id="profile-form-gender-2" attrs={{ label: true }}>
-          <LabeledSelect value={gender} onChange={handleChangeFor('gender')}>
+          <LabeledSelect
+            value={gender}
+            onChange={handleChangeFor('gender')}
+            name="gender">
             <Options>{GENDERS}</Options>
           </LabeledSelect>
         </Localized>
@@ -289,6 +305,7 @@ function ProfileInfo({
                 }
                 onChange={handleChangeFor('sendEmails')}
                 checked={sendEmails}
+                name="email-opt-in"
               />
 
               <LabeledCheckbox
@@ -309,6 +326,7 @@ function ProfileInfo({
                 }
                 checked={privacyAgreed}
                 onChange={handleChangeFor('privacyAgreed')}
+                name="privacy"
               />
 
               <Localized id="read-terms-q">

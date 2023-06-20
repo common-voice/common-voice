@@ -54,11 +54,19 @@
         }
     }
 
+    &.light.partnerships {
+        background-image: url('images/email-bg-partnerships.png');
+    }
+
     @media (--xs-down) {
         padding: 60px 20px;
         flex-direction: column;
         background: url('images/email-bg-md.svg');
         background-size: cover;
+
+        &.light.partnerships {
+            background-image: url('images/email-bg-partnerships-mobile.jpg');
+        }
 
         &.light {
             background-image: url('images/email-bg-md-light.svg');

@@ -2,41 +2,8 @@
     .top {
         display: flex;
         position: relative;
-
-        @media (--md-down) {
-            flex-direction: column;
-        }
-
-        @media (--lg-up) {
-            flex-direction: row;
-
-            > * {
-                width: 50%;
-            }
-        }
-    }
-
-    .cloud-circle {
-        position: absolute;
-        top: 55px;
-        left: 50%;
-        transform: translateX(-50%);
-        border-radius: 50%;
-        padding: 60px;
-        width: auto;
-        background: #f9f9f8;
-
-        @media (--md-down) {
-            display: none;
-        }
-
-        svg {
-            transform: scale(1.75);
-        }
-
-        path {
-            fill: var(--valid-green);
-        }
+        flex-direction: column;
+        width: 100%;
     }
 
     .dataset-corpus-download-placeholder {

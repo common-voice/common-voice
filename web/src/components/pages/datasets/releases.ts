@@ -7,6 +7,8 @@
 */
 
 export const RELEASES = [
+  { id: 'cv-corpus-11.0-2022-09-21', name: 'Common Voice Corpus 11.0' },
+  { id: 'cv-corpus-10.0-2022-07-04', name: 'Common Voice Corpus 10.0' },
   { id: 'cv-corpus-9.0-2022-04-27', name: 'Common Voice Corpus 9.0' },
   { id: 'cv-corpus-8.0-2022-01-19', name: 'Common Voice Corpus 8.0' },
   { id: 'cv-corpus-7.0-2021-07-21', name: 'Common Voice Corpus 7.0' },

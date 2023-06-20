@@ -207,6 +207,7 @@ const LanguagesRequestFormPage = () => {
             src={require('./images/mars-request.svg')}
             alt=""
             loading="lazy"
+            role="presentation"
           />
         </div>
       </div>

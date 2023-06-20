@@ -1,6 +1,6 @@
 ## General
 
-yes-receive-emails = Ja, stuur vir my e-posse. Ek wil graag op hoogte bly van die Common Voice Project.
+yes-receive-emails = Ja, stuur vir my e-posse. Ek wil graag op hoogte bly van die Common Voice-projek.
 stayintouch = Ons by Mozilla bou 'n gemeenskap rondom spraaktegnologie. Ons wil graag kontak hou, met veranderinge en verbeteringe, nuwe databronne, en om meer te hoor oor hoe jy die data gebruik.
 privacy-info = Ons belowe om jou inligting met sorg te hanteer. Lees meer in ons <privacylink> Privaatheidsbeleid </privacylink>.
 return-to-cv = Keer terug na Common Voice
@@ -18,6 +18,8 @@ banner-error-slow-1 = Jammer. Common Voice ervaar tans vertragings. Dankie vir j
 banner-error-slow-2 = Ons ontvang tans baie verkeer en is besig om die saak te ondersoek.
 banner-error-slow-link = Statusblad
 error-something-went-wrong = Jammer, iets het skeef geloop.
+error-clip-upload = Die oplaai van hierdie snit misluk steeds. Hou aan om weer te probeer?
+error-clip-upload-server = Die oplaai van hierdie snit misluk steeds by die bediener. Herlaai die bladsy of probeer later weer.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -40,10 +42,13 @@ ba = Basjkir
 bas = Basaa
 be = Belarussies
 bg = Bulgaars
+bm = Bambarees
 bn = Bengali
+bo = Tibettaans
 br = Bretons
 bs = Bosnies
 bxr = Buryat
+byv = Medumba
 ca = Katalonies
 cak = Kaqchikel
 ckb = Sentraalkurdisies
@@ -53,6 +58,7 @@ cs = Tsjeggies
 cv = Tjuvashies
 cy = Wallies
 da = Deens
+dag = Dagbani
 de = Duits
 dsb = Sorbies, Laer
 dv = Dhivehi
@@ -76,6 +82,7 @@ gom = Goan Konkanies
 ha = Hausa
 he = Hebreeus
 hi = Hindi
+hil = Hiligaynon
 hr = Kroaties
 hsb = Sorbian, Hoër
 ht = Haitiaans
@@ -90,6 +97,7 @@ is = Yslands
 it = Italiaans
 izh = Izhoriaans
 ja = Japannees
+jbo = Lojban
 ka = Georgies
 kaa = Karakalpaks
 kab = Kabiels
@@ -98,6 +106,7 @@ ki = Kikuyu
 kk = Kasaks
 km = Khmer
 kmr = Kurmanji Kurdish
+kn = Kannada
 knn = Konkani (Devanagari)
 ko = Koreaans
 kpv = Komi-Zyriaans
@@ -106,6 +115,8 @@ ky = Kirgisies
 lb = Luxemburgs
 lg = Luganda
 lij = Liguriaans
+ln = Lingala
+lo = Lao
 lt = Litaus
 lv = Letties
 mai = Maithili
@@ -125,11 +136,16 @@ my = Bermees
 myv = Erzya
 nan-tw = Taiwannees
 nb-NO = Noorse Bokmål
+nd = IsiNdebele (Noord)
 ne-NP = Nepalees
+nhe = Oostelike Huasteca Nahuatl
+nhi = Westelike Sierra Puebla Nahuatl
 nia = Nias
 nl = Nederlands
 nn-NO = Noors Nynorsk
+nr = IsiNdebele (Suid)
 nso = Noord-Sotho
+ny = Chinyanja
 nyn = Runyankole
 oc = Oksitaans
 om = Afaan Ormoo
@@ -150,14 +166,17 @@ sah = Sakha
 sat = Santalien (Ol Chiki)
 sc = Sardinies
 scn = Siciliaans
+sdh = Suid-Koerdies
 shi = Shilha
 si = Sinhalees
 sk = Slowaaks
 skr = Saraiki
 sl = Sloweens
+snk = Soninke
 so = Somalies
 sq = Albanees
 sr = Serwies
+ss = Siswati
 st = Sesotho
 sv-SE = Sweeds
 sw = Swahili
@@ -170,12 +189,14 @@ ti = Tigrinja
 tig = Tigre
 tk = Turkmeens
 tl = Tagalog
+tn = Setswana
 tok = Toki Pona
 tr = Turks
 ts = Xitsonga
 tt = Tataars
 tw = Twi
 ty = Tahities
+tyv = Tuvan
 uby = Ubykh
 udm = Udmurt
 ug = Uyghur
@@ -186,12 +207,17 @@ ve = Tshivenda
 vec = Venesiaans
 vi = Viëtnamees
 vot = Voties
+wo = Wolof
+xh = isiXhosa
 yi = Jiddisj
 yo = Joroeba
 yue = Kantonees
+zgh = Tamazight
 zh-CN = Chinees (China)
 zh-HK = Chinees (Hong Kong)
 zh-TW = Chinees (Taiwan)
+zu = isiZulu
+zza = Zaza
 
 # [/]
 
@@ -203,6 +229,7 @@ speak-now = Praat nou
 datasets = Datastelle
 languages = Tale
 about = Oor
+partner = Vennoot
 profile = Profiel
 help = Hulp
 contact = Kontak
@@ -211,7 +238,7 @@ terms = Bepalings
 cookies = Koekies
 faq = Vrae en Antwoorde
 content-license-text = Inhoud beskikbaar onder 'n <licenseLink> Creative Commons lisensie</licenseLink> gebruikerslisensie
-share-title = Help ons om meer mense te vind wa hul stemme kan skenk!
+share-title = Help ons om meer mense te vind wat hul stemme kan skenk!
 share-text = Help om masjiene te leer hoe werklike mense praat, skenk jou stem hier { $link }
 link-copied = Skakel Gekopieer
 back-top = Terug Boontoe
@@ -273,9 +300,9 @@ email-subscription-title-new = Meld aan vir Common Voice nuusbriewe, herinnering
 
 benefits = Voordele
 rich-data = Maak jou ingediende data so ryk as moontlik deur anonieme demografiese data te verskaf. Ons maak al die demografiese data anoniem voordat die datastel openbaar gemaak word.
-improve-audio = Profiel inligting verbeter die klankdata wat gebruik word die opleiding van akkurate spraakherkenning.
+improve-audio = Profielinligting verbeter die klankdata wat gebruik word om die akkuraatheid van spraakherkenning te verbeter.
 keep-track = Hou tred met jou vordering en statistiek oor verskeie tale.
-compare-progress = Kyk hoe jou vordering vergelyk met ander bydraers regoor die wêreld.
+compare-progress = Kyk hoe jou vordering vergelyk met dié van ander deelnemers regoor die wêreld.
 view-goals = Vergelyk jou vordering met persoonlike en projekdoelwitte.
 join-newsletter = Sluit aan by ons e-poslys vir kennisgewings en nuwe inligting oor die projek.
 
@@ -319,7 +346,6 @@ shortcut-discard-ongoing-recording-label = Skrap hiérdie opname
 shortcut-submit = Keer Terug
 shortcut-submit-label = Dien snitte in
 request-language-text = Is jou taal nog nie op Common Voice nie?
-request-language-text-learn = Leer hier hoe om dit aan te vra!
 request-language-button = Versoek 'n Taal
 
 ## ProjectStatus
@@ -387,7 +413,9 @@ why-demographic = Hoekom maak dit saak?
 why-demographic-explanation-2 = Anonieme gebruikersdata soos ouderdom, geslag en aksent help om die stemdata wat gebruik word om die akkuraatheid van spraakherkenningenjins op te lei, te verbeter. Jou gebruikersnaam en e-posadres sal nooit met jou ingediende data geassosieer word nie, en jy kan kies of jy jou gebruikersnaam publiek of anoniem wil maak.
 accept-privacy = Ek aanvaar dat hierdie inligting hanteer word soos verduidelik in Mozilla se <privacyLink> Privaatheidsbeleid</privacyLink>
 accept-privacy-title = Privaatheidsbeleid
+accept-privacy-and-terms = Ek stem in tot Common Voice se <termsLink>Bepalings</termsLink> en <privacyLink>Privaatheidskennisgewing</privacyLink>
 login-identity = Aanteken identiteit
+login = Teken aan
 login-signup = Teken In / Teken Aan
 edit = Redigeer
 email-subscriptions = E-pos Inskrywings
@@ -433,17 +461,17 @@ faq-what-cv-a-2 =
     Ons samel nie net stemopnames in  in wydgesproke tale nie, maar ook in tale met 'n kleiner spraakgemeenskap. Die publikasie van 'n diverse datastel stemopnames sal ontwikkelaars, entrepreneurs en gemeenskappe bemagtig om hierdie gaping self aan te spreek.
 faq-why-important-q = Hoekom is dit belangrik?
 faq-why-important-a =
-    Spraak is dikwels die mees natuurlike manier waarop ons met mekaar kommunikeer en stemtegnologieë bring daardie gerief na ons rekenaars en mobiele toestelle. Ons wil ontwikkelaars bemagtig om wonderlike stemherkenningstoepassings soos intydse vertalers en stemgeaktiveerde digitale assistente te bou. Maar op die oomblik is die meeste van die stemdata wat nodig is om hierdie soort toepassings te bou, duur en nie algemeen beskikbaar nie. Ons hoop dat die Common Voice-datastel ontwikkelaars dit wat hulle nodig het om innoverende  produkte en spraaktegnologieë te ontwikkel in hul eie taal2, sal bied, sodat hierdie tegnologieë beskikbaar gestel kan word.
+    Spraak is dikwels die mees natuurlike manier waarop ons met mekaar kommunikeer en stemtegnologieë bring daardie gerief na ons rekenaars en mobiele toestelle. Ons wil ontwikkelaars bemagtig om wonderlike stemherkenningstoepassings soos intydse vertalers en stemgeaktiveerde digitale assistente te bou. Maar op die oomblik is die meeste van die stemdata wat nodig is om hierdie soort toepassings te bou, duur en nie algemeen beskikbaar nie. Ons hoop dat die Common Voice-datastel ontwikkelaars dit wat hulle nodig het om innoverende  produkte en spraaktegnologieë te ontwikkel in hul eie taal, sal bied, sodat hierdie tegnologieë beskikbaar gestel kan word.
     
     Om stemherkenning nog meer universeel te maak, samel ons stemmonsters in in wyd gesproke tale sowel as in dié met kleiner spraakgemeenskappe wat dikwels nie deur kommersiële spraakherkenningsdienste onderskep word nie. Die publikasie van 'n diverse datastel van klankopnames sal ontwikkelaars, entrepreneurs en hele spraakgemeenskappe bemagtig om hierdie leemte self aan te spreek.
 faq-how-get-q = Hoe kan ek die Common Voice data kry?
-faq-how-get-a = Die Common Voice datastel is beskikbaar om afgelaai te word onder die lisensie <licenseLink> CC0 </licenseLink> op <datasetLink> ons Datastelle bladsy </datasetLink>. Jy kan ook verskeie ander publieke datastelle daar aflaai.
+faq-how-get-a = Die Common Voice-datastel is beskikbaar om afgelaai te word onder die lisensie <licenseLink> CC0 </licenseLink> op <datasetLink> ons Datastellebladsy.</datasetLink> Jy kan ook verskeie ander publieke datastelle daar aflaai.
 faq-when-release2-q = Wanneer sal Common Voice-data in ander tale vrygestel word?
-faq-when-release2-a = Die veeltalige weergawe van die Common Voice-datastel word tans met die toestemming van die gemeenskappe saamgegroepeer en skoongemaak. As jy ons wil help om Common Voice aan nuwe tale voor te stel, gaan kyk na die <sentenceCollectorLink>Sinversamelingsprogrammatuur</sentenceCollectorLink> om nuwe sinne by die datastel te voeg, en Mozilla <pontoonLink>Pontoon</pontoonLink> vir die vertaling van die webwerf self. Nuwe tale word vir stembydraes by Common Voice bygevoeg wanneer 5000 goedgekeurde sinne vir die taal ingesamel is.
+faq-when-release2-a = Die veeltalige weergawe van die Common Voice-datastel word tans met die toestemming van die gemeenskappe saamgegroepeer en skoongemaak. As jy ons wil help om Common Voice aan nuwe tale voor te stel, gaan kyk na die <sentenceCollectorLink>Sinversamelingsprogrammatuur</sentenceCollectorLink> om nuwe sinne by die datastel te voeg, en Mozilla <pontoonLink>Pontoon</pontoonLink> vir die vertaling van die webwerf. Nuwe tale word vir stembydraes by Common Voice bygevoeg wanneer 5000 goedgekeurde sinne vir die taal ingesamel is.
 faq-why-mission-q = Waarom is Common Voice deel van Mozilla se missie?
-faq-why-mission-a = Mozilla is toegewyd daaraan om die web oop en toeganklik te hou vir almal. Om dit te doen, moet ons webskeppers bemagtig deur projekte soos Common Voice. Aangesien stemtegnologieë verder versprei as nistoepassings, glo ons dat dit alle gebruikers moet bedien. Dit beteken dat daar in meer tale, belê moet word om diverse aksente en demografie te akkommodeer wanneer stemtegnologie gebou en getoets word. Common Voice is 'n ooptoeganghulpbron wat vir almal beskikbaar is en Mozilla-spanne en -ontwikkelaars regoor die wêreld gebruik dit reeds op ons eie projekte.
+faq-why-mission-a = Mozilla is toegewyd daaraan om die web oop en toeganklik te hou vir almal. Om dit te doen, moet ons webskeppers bemagtig deur projekte soos Common Voice. Aangesien stemtegnologieë verder versprei as nistoepassings, glo ons dat dit alle gebruikers moet bedien. Dit beteken dat daar in meer tale, belê moet word om diverse aksente en demografieë te akkommodeer wanneer stemtegnologie gebou en getoets word. Common Voice is 'n ooptoeganghulpbron wat vir almal beskikbaar is en Mozilla-spanne en -ontwikkelaars regoor die wêreld gebruik dit reeds op ons eie projekte.
 faq-what-cv-and-deepspeech-q = Wat is die verskil tussen Common Voice en Deep Speech?
-faq-what-cv-and-deepspeech-a = Die Common Voice datastel komplementeer Mozilla se oopbronstemherkenningenjin Deep Speech. Die eerste weergawe van Deep Speech is in November 2017 vrygestel en het sedertdien bly ontwikkel. Saam met die Common Voice datastel, glo ons dat hierdie oopbronstemherkenningstegnologie vir almal beskikbaar moet wees. Dit is ons hoop dat dit tegnologie-ontwikkelaars in staat sal stel om 'n reeks innoverende produkte en dienste te bou.
+faq-what-cv-and-deepspeech-a = Die Common Voice-datastel komplementeer Mozilla se oopbronstemherkenningenjin Deep Speech. Die eerste weergawe van Deep Speech is in November 2017 vrygestel en het sedertdien bly ontwikkel. Saam met die Common Voice-datastel, glo ons dat hierdie oopbronstemherkenningstegnologie vir almal beskikbaar moet wees. Dit is ons hoop dat dit tegnologie-ontwikkelaars in staat sal stel om 'n reeks innoverende produkte en dienste te bou.
 faq-is-goal-assistant-q = Is Common Voice se doelwit om 'n stemassistent te bou?
 faq-is-goal-assistant-a = Die doel van die Common Voice-datastel is om enige iemand in die wêreld in staat te stel om spraakherkenning, sprekerherkenning of enige ander tipe program wat stemdata benodig, te bou. 'n Stemassistent is net een van die vele soorte toepassings wat met dié datastel gebou kan word.
 faq-do-want-native-q = Ek is nie 'n moedertaalspreker nie en ek praat met 'n aksent, is my stem nog steeds aanvaarbaar?
@@ -453,9 +481,11 @@ faq-why-different-speakers-a =
     Meeste spraakdatabasisse word opgelei met 'n oorverteenwoordiging van sekere demografieë wat lei tot 'n vooroordeel teenoor aksente wat<articleLink> manlik en middelklas</articleLink> is. Aksente en dialekte wat geneig is om onderverteenwoordig te word in die opleiding van datastelle, word tipies geassosieer met groepe mense wat reeds gemarginaliseer word. Baie spraaktegnologieë sukkel ook om vroulike stemme te verstaan.
     Dit is hoekom ons in ons stemdatabasis verskeidenheid wil hê!
 faq-why-my-lang-q = Hoekom is my taal nog nie ingesluit nie?
-faq-why-my-lang-new-a = Mozilla kies (of verkies) nie een taal bo 'n ander nie. In plaas daarvan is Common Voice 'n suiwer gemeenskapsgedrewe inisiatief, maar dit neem <multilangLink> verskeie stappe om 'n nuwe taal by te voeg </multilangLink> en met stemskenkings te begin. Eerstens moet die Common Voice-webwerf vertaal word sodat gemeenskapslede toegang kan hê tot die bydraerervaring in hul eie taal. Daarna benodig ons 'n groot versameling kopieregvrye sinne vir mense om hardop te lees. Sodra aan albei hierdie vereistes voldoen is, word 'n taal op Common Voice bekendgestel sodat mense hul stemme kan opneem en ander stemskenkings kan verifieer. As jy wil help met die bekendstelling van 'n nuwe taal, gaan na ons <sentenceCollectorLink>sinversamelingsprogram</sentenceCollectorLink> om die proses te begin.
+faq-why-my-lang-a =
+    Common Voice is 'n platform wat gebruik maak van skarebefondsing, en die tale is almal bygevoeg deur vrywilligers.
+    Ons sal graag wil hê dat jy jou taal byvoeg! <languageRequestLink>Vra oor die proses om jou taal by te voeg.</languageRequestLink>
 faq-what-quality-q = Watter vlak van klankkwaliteit is nodig om 'n stemsnit te gebruik in die datastel?
-faq-what-quality-a = Ons wil hê dat die Common Voice datastel die klankgehalte weerspieël wat 'n spraak-na-teks-enjine in die natuur sal hoor, so ons soek verskeidenheid. Benewens 'n uiteenlopende gemeenskap van sprekers, sal 'n datastel met wisselende klankgehalte die spraak-na-teks-enjin leer om verskillende werklike situasies te hanteer, van agtergrond-babbel tot die geraas van motors. Solank as wat jou stemsnit verstaanbaar is, sal dit goed genoeg wees vir die datastel.
+faq-what-quality-a = Ons wil hê dat die Common Voice-datastel die klankgehalte weerspieël wat 'n spraak-na-teks-enjine in alledaagse kontekste sal hoor, so ons soek verskeidenheid. Benewens 'n uiteenlopende gemeenskap van sprekers, sal 'n datastel wat wisselende klankgehalte bevat die spraak-na-teks-enjin leer om verskillende werklikheidsituasies te hanteer, van stemme in die agtergrond tot die geraas van motors. Solank as wat jou stemsnit verstaanbaar is, sal dit goed genoeg wees vir die datastel.
 faq-why-10k-hours-q = Waarom is die doelwit vir die aantal klankopnames per taal 10 000 bevestigde ure?
 faq-why-10k-hours-a = Dit is ongeveer die aantal ure wat nodig is om 'n kommersiële teks-na-spraak-stelsel op te lei.
 faq-how-calc-hours-q = Hoe werk Common Voice die ure uit?
@@ -464,16 +494,16 @@ faq-where-src-from-2-q = Waar kom die bronteks vandaan?
 faq-where-src-from-2-a =
     Ons bronteks bestaan uit donasies van oorspronklike bydraers, sowel as dialoog uit publiekedomein-draaiboeke soos dié van <italic>It’s a Wonderful Life</italic>.
     
-    Jy kan ons bron sinne sien in hierdie <githubLink> GitHub gids </githubLink>.
+    Jy kan ons bronsinne sien in hierdie <githubLink> GitHub-gids </githubLink>.
 faq-why-not-ask-read-q = Hoekom kan mense nie net uit boeke of Wikipedia-artikels in verskillende tale lees nie?
-faq-why-not-ask-read-a = Om die Common Voice-datastel so nuttig moontlik te maak, het ons besluit om slegs bronteks toe te laat wat beskikbaar is onder 'n Creative Commons (CC0) lisensie. Deur die CC0-standaard te gebruik, is dit moeiliker om bronteks te vind en in te samel, maar kan iemand die gevolglike stemdata gebruik sonder gebruiksbeperkinge of die toestemming van Mozilla. Uiteindelik wil ons die multi-taal datastel so nuttig moontlik maak vir almal, insluitend navorsers, universiteite, nuwe maatskappye, regerings, maatskaplike en gemeenskapsorganisasies, en ander belangstellendes.
+faq-why-not-ask-read-a = Om die Common Voice-datastel so nuttig moontlik te maak, het ons besluit om slegs bronteks toe te laat wat beskikbaar is onder 'n Creative Commons (CC0) lisensie. Deur die CC0-standaard te gebruik, is dit moeiliker om bronteks te vind en in te samel, maar kan iemand die gevolglike stemdata gebruik sonder gebruiksbeperkinge of die toestemming van Mozilla. Uiteindelik wil ons die multi-taaldatastel so nuttig moontlik maak vir almal, insluitend navorsers, universiteite, nuwe maatskappye, regerings, maatskaplike en gemeenskapsorganisasies, en ander belangstellendes.
 faq-why-account-q = Hoekom moet ek aanteken vir 'n rekening?
 faq-is-account-public-q = Is my rekeninginligting sigbaar vir die publiek?
 faq-how-privacy-q = Hoe kan die anonimiteit en privaatheid van die mense wat hul stemme skenk, verseker word?
-faq-how-privacy-a = Alle stemsnitte in die datastel word geskrop van persoonlike inligting. As 'n bydraer demografiese data verskaf via hul profiel, word hierdie inligting uit hul stemsnitte geskrap voordat dit gegroepeer word om afgelaai te word as deel van die datastel. Hierdie inligting word ook nooit op hul profielblad bekend gemaak nie.
-faq-what-determine-identity-q = Wat beteken dit dat ek nie die identiteit van sprekers in die Common Voice datastel kan bepaal nie?
+faq-how-privacy-a = Alle stemsnitte in die datastel word geskrap van persoonlike inligting. As 'n bydraer demografiese data verskaf via hul profiel, word hierdie inligting uit hul stemsnitte geskrap voordat dit gegroepeer word om afgelaai te word as deel van die datastel. Hierdie inligting word ook nooit op hul profielblad bekend gemaak niea
+faq-what-determine-identity-q = Wat beteken dit dat ek nie die identiteit van sprekers in die Common Voice-datastel kan bepaal nie?
 faq-what-determine-identity-a =
-    Die Common Voice datastel is 'n oop en openbare bron wat gebruik kan word om 'n wye verskeidenheid spraakaangedrewe programme op te lei. Om die sekuriteit van ons bydraers te beskerm, vra ons almal wat die gemeenskaplike stemdatastelsel aflaai om bydraers se privaatheid te respekteer.
+    Die Common Voice-datastel is 'n oop en openbare bron wat gebruik kan word om 'n wye verskeidenheid spraakaangedrewe programme op te lei. Om die sekuriteit van ons bydraers te beskerm, vra ons almal wat die gemeenskaplike stemdatastelsel aflaai om bydraers se privaatheid te respekteer.
     
     Alle stemsnitte in die datastel word geskrap van persoonlike inligting. Wanneer jy die datastel aflaai, stem jy in om nie te probeer om die identiteit van enige bydraer te bepaal nie. Dit beteken dat jy nie inligting in die datastel kan koppel aan 'n bydraer se persoonlike inligting nie. Jy mag egter die datastel gebruik om spraakherkenning, sprekerherkenning of ander toepassings op te lei deur byvoorbeeld inligting in die datastel te koppel aan ander inligting wat reeds in die datastel voorkom.
 faq-what-is-cv = Wat is Common Voice?
@@ -523,12 +553,6 @@ about-dataset-new = Common Voice-datastel
 about-dataset-new-text = Die Common Voice-datastel bevat honderde duisende stemopnames wat ontwikkelaars help om stemherkenningsstelsels te bou.
 about-clip-graveyard = Clip Graveyard
 about-clip-graveyard-text = Die Clip Graveyard bestaan uit stemsnitte wat nie in die Common Voice-datastel opgeneem is nie. Net soos die datastel, is die Clip Graveyard beskikbaar om afgelaai te word.
-about-partners = Vennote
-about-become-a-partner = Word 'n vennoot
-about-partnership =
-    Common Voice is 'n samewerkingsprojek, en ons is afhanklik van ons gemeenskap van vennote en bydraers om die grootste oopbron-datastel van stemme ooit te bou.
-    
-    Ons wil graag die volgende persone en organisasies bedank vir hul hulp met die projek:
 about-get-involved = Raak betrokke
 about-get-involved-text-2 =
     Wil jy help om Common Voice nog beter te maak?
@@ -558,9 +582,17 @@ about-playbook-what-is-language-content-3 = Sommige tale het enorme variasie in 
 
 about-playbook-how-add-language = Hoe voeg ek 'n taal by?
 about-playbook-how-add-language-content-1 = Kyk eers of jou taal <languageLink>reeds bestaan</languageLink> op die platform. As dit nie daar is nie, moet jy <strong>die webwerf vertaal en sinne versamel</strong>.
-about-playbook-how-add-language-content-2 = <strong>Om die webwerf te vertaal</strong> -  <translateVideo>stel</translateVideo> 'n <pontoonLink>Pontoon</pontoonLink> rekening op. Pontoon het baie tale, maar as dit nie joune het nie, kan jy jou taal <pontoonRequestLink>aanvra</pontoonRequestLink>. Vra dan <repoLink>via GitHub</repoLink> om die Common Voice-projek vir die taal beskikbaar te stel. Sien meer oor <localizationFragment>webwerfvertaling</localizationFragment>.
-about-playbook-how-add-language-content-3 = <strong>Om sinne te versamel</strong> - <scVideo>stel</scVideo> die <scLink>Sinversamelaar</scLink> op.
-about-playbook-how-add-language-content-4 = Jy kan <scLinkAdd>klein hoeveelhede sinne hier byvoeg</scLinkAdd>, of jy kan <bulkImportDocsLink>grootmaat invoere</bulkImportDocsLink> doen via 'n Github-versoek. Onthou dat sinne <licenseLink>CC0 (of in die publieke domein)</licenseLink> moet wees, of jy kan jou eie skryf. Sien meer oor <scFragment>sinversameling</scFragment>.
+about-playbook-how-add-language-translating-heading = Vertaal die webwerf
+about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Kyk na ons gids oor hoe om Pontoon te gebruik.</translateVideoLink>
+about-playbook-how-add-language-translating-content-2 =
+    Ons gebruik 'n Mozilla-produk genaamd <pontoonLink>Pontoon</pontoonLink> vir vertalings. Pontoon het baie tale,
+    maar as dit nie joune het nie, kan jy <pontoonRequestLink>versoek dat jou taal bygevoeg word</pontoonRequestLink>.
+    Dan, om die taal op die Common Voice-projek beskikbaar te stel,
+    <githubRepoLink>versoek die nuwe taal op GitHub</githubRepoLink>. <localizationFragment>Sien meer op werfvertaling</localizationFragment>.
+about-playbook-how-add-language-collecting-sentences-heading = Versamel sinne
+about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>Kyk na ons gids oor die gebruik van die Sinversamelaar</sentenceCollectorVideo>.
+about-playbook-how-add-language-collecting-sentences-content-2 = Jy kan <scLinkAdd>klein hoeveelhede sinne hier byvoeg</scLinkAdd>, of jy kan <bulkImportDocsLink>grootmaat invoere</bulkImportDocsLink> doen via 'n Github-versoek. Onthou dat sinne <licenseLink>CC0 (of in die publieke domein)</licenseLink> moet wees, of jy kan jou eie skryf. Sien meer oor <scFragment>sinversameling</scFragment>.
+about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>Sien meer oor sinversameling</sentenceCollectorFragment>.
 
 ## How does localization work
 
@@ -593,11 +625,11 @@ about-playbook-how-record-content-5 = <accuracyLink>Sien meer oor akkuraatheidsk
 about-playbook-how-grow-language = Hoe kan ons 'n taal effektief op Common Voice laat groei?
 about-playbook-how-grow-language-content-1 = Die skep van geleenthede vir diverse mense om by te dra tot Common Voice verseker dat die datastel soveel mense as moontlik bedien. Ons het hulpbronne en template geskep wat jy kan gebruik!
 about-playbook-how-grow-language-content-2 = Geleenthede
-about-playbook-how-grow-language-content-3 = Jy kan geleenthede hou om mense te help om by te dra. Dit is makliker as wat jy dink. Jy kan dit aanlyn doen met 'n videokonferensie, of in persoonlik as dit veilig is. <eventTemplate>Kyk na ons template en hulpbronne vir bestaande geleenthede</eventTemplate>.
+about-playbook-how-grow-language-content-3 = Jy kan geleenthede hou om mense te help om by te dra. Jy kan dit aanlyn doen of in persoonlik. <eventTemplate>Kyk na ons template en hulpbronne vir bestaande geleenthede</eventTemplate>.
 about-playbook-how-grow-language-content-4 = Sosiale media
-about-playbook-how-grow-language-content-5 = Jy kan sosiale media-platforms gebruik om die boodskap uit te kry. Deel plasings wat verduidelik hoekom hierdie projekte belangrik is, en kom in kontak met ander mense wat praat oor kwessies soos taalregte, stemtegnologie of vooroordeel in tegnologie. Kry hier meer raad oor <campaignLink>die bestuur van 'n sosiale veldtog, insluitend inhoud wat jy kan hergebruik</campaignLink>.
+about-playbook-how-grow-language-content-5 = Jy kan sosiale media-platforms gebruik om die boodskap te versprei. Deel plasings wat verduidelik hoekom hierdie projekte belangrik is, en kom in kontak met ander mense wat praat oor kwessies soos taalregte en stemtegnologie. Kry meer raad oor <campaignLink>die bestuur van 'n sosiale veldtog</campaignLink>.
 about-playbook-how-grow-language-content-6 = Vennootskappe en netwerke
-about-playbook-how-grow-language-content-7 = Soek ander wat omgee. Dit kan universiteite, taalskole, aktivistiese groepe of datawetenskapgemeenskappe wees. Reik uit en verduidelik hoe hulle kan help en hoekom. <outreachTemplates>Sien ons templaat vir uitreik-e-posse</outreachTemplates>.
+about-playbook-how-grow-language-content-7 = Soek ander wat omgee. Dit kan universiteite, taalskole of aktivistiese groepe wees. Reik uit en verduidelik hoe hulle kan help. <outreachTemplates>Sien ons e-postemplaat</outreachTemplates>.
 about-playbook-how-grow-language-content-8 = <strong>Wees kreatief!</strong> Jou taalgemeenskap sal uniek wees, en hierdie is net 'n paar maniere om te begin.
 
 ## How to validate
@@ -624,12 +656,6 @@ about-playbook-how-project-governance-content-4 = Gemeenskapsdeelname en -beslui
 about-playbook-how-project-governance-content-5 = Waarde en erkenning.
 about-playbook-how-project-governance-content-6 = Wedersydse aanspreeklikheid.
 about-playbook-how-project-governance-content-7 = <governanceLink>Lees meer oor hoe ons bestuur word</governanceLink>
-mycroft-title = Mycroft Ai
-mycroft-subtitle = Kunsmatige intelligensie
-mycroft-description =
-    Mycroft is die wêreld se eerste oopbron-assistent.
-    Mycroft werk oral - op 'n rekenaar, in 'n motor of op 'n Raspberry Pi.
-mycroft-secondary-description = Dit is oopbronsagteware wat vrylik hergebruik, uitgebrei en verbeter kan word. Mycroft kan in enige iets van 'n wetenskapprojek tot  vir sagteware in besigheidskontekste.
 
 ## Glossary
 
@@ -638,10 +664,10 @@ localization = Lokalisering
 localization-explanation = Dit is ons proses om ons inhoud vir baie tale te vertaal en aan te pas.
 sentence-collection = Stemversameling
 sentence-collection-explanation = Die versamel van sinne van die openbare domein, of die skryf van nuwe sinne vir die openbare domein.
-hours-recorded-explanation = Die aantal ure van die stemopnames wat ons tot dusver ingesamel het.
+hours-recorded-explanation = Die aantal ure se stemopnames wat ons tot dusver ingesamel het.
 hours-validated-explanation = Die aantal ure waarvan die stemopnames deur 2 van die 3 gebruikers bevesitg is met 'n "Ja". Dit merk die vordering met die oog op die doelwit van 10k ure vir die projek as geheel.
 sst = Spraak-na-teks (STT)
-sst-explanation = Spraak-na-teks (STT) tegnologie omskep stemdata in teks.
+sst-explanation = Spraak-na-teks-tegnologie  (STT) omskep stemdata in teks.
 de-identified = De-geïdentifiseer
 de-identified-explanation = Die proses waardeur 'n bydraer se profielinligting verberg word uit hul geskenkde stemsnitte wanneer dit as 'n deel van die datastel afgelaai word.
 
@@ -689,14 +715,17 @@ review-delete-recordings = Vee my opnames uit
 ## Datasets Page
 
 datasets-heading = Datastelle
-datasets-headline = Ons bou 'n oopbron, multi-taal datastel van stemme wat enige iemand kan gebruik om spraakaangedrewe toepassings op te lei.
+datasets-headline = Ons bou 'n oopbron, multi-taaldatastel van stemme wat enige iemand kan gebruik om spraakaangedrewe toepassings op te lei.
 datasets-positioning =
     Ons glo dat groot, openbare stemdatastelle innovasie en gesonde kommersiële kompetisie in masjienleergebaseerde spraaktegnologie sal bevorder.
     
-    Common Voice se multi-taal datastel is alreeds die grootste openbaar-beskikbare stemdatastel van sy soort, maar dit is nie die enigste nie.
+    Common Voice se multi-taaldatastel is alreeds die grootste openbaar-beskikbare stemdatastel van sy soort, maar dit is nie die enigste nie.
     
     Kyk na hierdie bladsy as 'n verwysingspunt vir ander oopbron-stemdatastelle en, soos Common Voice steeds groei, 'n tuiste vir inligting oor die nuutste vrystellings.
 language = Taal
+download-dataset-header = Laai die datastel af
+download-delta-explainer = Ons het 'n paar veranderinge aangebring. Delta-segmente bevat net die mees onlangse snitte sedert die laaste vrystelling. <deltaLink>Lees meer oor hierdie werk</deltaLink>.
+download-dataset-tag = Kies die verlangde datastel en die weergawe wat jy wil aflaai.
 # File size in gigabytes
 size = Grootte
 validated-hr-total = Bevestigde Ure Totaal
@@ -706,11 +735,12 @@ audio-format = Klankformaat
 number-of-voices = Aantal Stemme
 splits = Splete
 email-to-download = Tik E-posadres In Om Af Te Laai
-why-email = <b> Waarom 'n e-posadres? </b> Ons mag jou dalk in die toekoms moet kontak met veranderinge in die datastel. 'n E-posadres gee ons 'n kontakpunt.
+why-email = <b> Waarom 'n e-posadres? </b> Ons mag jou dalk in die toekoms kontak oor veranderinge in die datastel. 'n E-posadres gee ons 'n kontakpunt.
 confirm-size = Jy is bereid om 'n aflaai van <b> { $size } </b> te begin
 size-gigabyte = GG
 size-megabyte = MG
 confirm-no-identify = <b> Jy stem in </b> om nie te probeer om die identiteit van sprekers in die Common Voice-datastel te bepaal nie
+confirm-join-mailing-list = Ek wil by die Common Voice-poslys aansluit
 download-language = Laai { $taal } Af
 validated-hours = Bevestigde Ure
 recorded-hours = Opgeneemde Ure
@@ -718,7 +748,7 @@ whats-inside = Wat is in die Common Voice-datastel?
 dataset-description-hours =
     Elke inskrywing in die datastel bestaan uit 'n unieke MP3 en ooreenstemmende tekslêer. Baie van die <b> { $total }</b> opname-ure in die datastel bevat ook demografiese metadata soos ouderdom, geslag en aksent wat die akkuraatheid van spraakherkenningenjins kan verbeter.
     
-    Die datastel bestaan tans uit <b> { $valid } </b> bevestigde ure in <b> { $languages } </b> tale, maar ons voeg altyd meer stemme en tale by. Kyk gerus na ons <languagesLink> Tale Bladsy </languagesLink> om 'n taal te versoek of om te begin bydra.
+    Die datastel bestaan tans uit <b> { $valid } </b> bevestigde ure in <b> { $languages } </b> tale, maar ons voeg altyd meer stemme en tale by. Kyk gerus na ons <languagesLink> Tale-bladsy </languagesLink> om 'n taal te versoek of om te begin bydra.
 want-dataset-update = Wil jy in kennisgesteel word wanneer ons 'n nuwe weergawe van die Common Voice-datastel vrystel? Teken in op ons nuusbrief.
 subscribe = Teken In
 get-started-speech = Begin met Spraakherkenning
@@ -743,6 +773,9 @@ more = Meer
 close = Sluit
 download = Laai Af
 dataset-version = Weergawe
+sha256-checksum-copied = SHA256 Kontrolesom gekopieer!
+sha256-checksum-copied-error = Kon nie SHA256 Kontrolesom kopieer nie
+clipboard-not-supported = Knipbord word nie ondersteun nie
 
 ## Download Modal
 
@@ -751,7 +784,7 @@ download-helpus = Help ons om 'n gemeenskap rondom stemtegnologie te bou, bly in
 download-form-email =
     .label = Gee jou e-pos
     .value = Dankie, ons sal jou kontak.
-download-back = Keer Terug na Common Voice Datastelle
+download-back = Keer Terug na Common Voice-datastelle
 download-no = Nee, Dankie
 
 ## Contact Modal
@@ -816,7 +849,7 @@ request-language-error =
 language-section-in-progress = Aan Die Gang
 language-section-in-progress-new-description = Hierdie tale is tans onder gemeenskapsontwikkeling. Die vorderingsbalk dui aan hoe ver elke taal in die <localizationGlossaryLink> webwerflokaliseringsproses </localizationGlossaryLink> en <sentenceCollectionGlossaryLink> sinversamelingsproses </sentenceCollectionGlossaryLink> is.
 language-section-launched = Bekendgestel
-language-section-launched-description = Vir hierdie bekendgestelde tale is die webwerf suksesvol <localizationGlossaryLink> gelokaliseer </localizationGlossaryLink> en is genoeg <sentenceCollectionGlossaryLink> sinne versamel </sentenceCollectionGlossaryLink> om voort te gaan met <speakLink> Praat </speakLink> en <listenLink> Luister </listenLink > bydraes.
+language-section-launched-description = Vir hierdie bekendgestelde tale is die webwerf suksesvol <localizationGlossaryLink> gelokaliseer </localizationGlossaryLink> en is genoeg <sentenceCollectionGlossaryLink> sinne versamel </sentenceCollectionGlossaryLink> om voort te gaan met <speakLink> Praat-</speakLink> en <listenLink> Luisterbydraes</listenLink >.
 languages-show-more = Sien Meer
 languages-show-less = Sien Minder
 language-meter-in-progress = Vordering
@@ -826,7 +859,8 @@ language-search-input =
 language-speakers = Sprekers
 localized = Gelokaliseerd
 sentences = Sinne
-total-hours = Bevestigde Ure
+language-validation-hours = Ure
+language-validation-progress = Bekragtiging Vordering
 
 ## Contribution
 
@@ -894,6 +928,10 @@ target-segment-generic-card = Jy dra by tot 'n teikensegment
 target-segment-first-banner = Help om Common Voice se eerste teikensegment in { $locale } te skep
 target-segment-add-voice = Voeg jou stem by
 target-segment-learn-more = Vind meer uit
+
+## Contribution Nav Items
+
+contribute-voice-collection-nav-header = Stemversameling
 
 ## Reporting
 
@@ -1078,7 +1116,7 @@ download-request-link-single = Jy kan ook die direkte URL's in jou gunsteling af
 ## Landing
 
 welcome-staff = Welkom { $company } personeel!
-help-contribute = Jy kan help om 'n diverse, oopbron-datastel te bou deur 'n Common Voice-profiel te skep en jou stem by te dra.
+help-contribute = Jy kan help om 'n diverse, oopbrondatastel te bou deur 'n Common Voice-profiel te skep en jou stem by te dra.
 login-company = Meld aan / teken in met { $company } e-posadres
 profile-not-required = Dit is nie nodig om 'n profiel te hê om by te dra nie, hoewel dit nuttig is, sien hier onder waarom.
 read-more-about = Lees meer op ons Meer oor-bladsy
@@ -1500,3 +1538,70 @@ sc-validation-no-abbreviations = Sinne moet nie afkortings bevat nie
 
 localization-select =
     .label = Kies taal/lokalisering
+# PARTNERSHIPS PAGE
+partnerships-header = Vennootskappe
+partnerships-header-text = Dit verg baie om Common Voice te laat gebeur! Ons doen dit nie alleen nie. Wil jy graag saamwerk? Ons hoor graag van jou.
+partnerships-get-in-touch = Kontak ons
+partnerships-become-a-partner = Word 'n Common Voice-vennoot
+partnerships-community-header = Gemeenskap, Kreatiewes en Burgerlike gemeenskap
+partnerships-community-description = Die gemeenskap is die kloppende hart van Common Voice – hulle kom van regoor die wêreld, en is taalaktiviste, wetenskaplikes en kunstenaars. Jy kan meer leer oor hoe om betrokke te raak op ons <about>Meer oor</about>-bladsy en in ons <community>Community Playbook</community>. As jy belangstel in 'n dieper organisatoriese vennootskap, <emailFragment>kontak.</emailFragment>
+partnerships-foundations-header = Fondse
+partnerships-foundations-description = Ons werk saam met stigtings, die burgerlike samelewing en gemeenskapsvennote om die internet 'n gesonder plek te maak, met 'n spesifieke fokus op Oos-Afrika. Kom meer te wete oor ons <programmaticWork>programmatiese werk.</programmaticWork>
+partnerships-governments-header = Regerings
+partnerships-governments-description = Ons is opgewonde om openbare sektore se betrokkenheid by tegnologie, innovasie en taalregte te ondersteun. As jy van plan is om 'n groot projek of veldtog te bestuur, <emailFragment>kontak ons asseblief.</emailFragment>
+partnerships-academia-header = Universiteite, Akademici en Navorsers
+partnerships-academia-description = Oop innovasie is die kern van wat ons doen. Vir navorsingsamewerking, data-insameling of onderhoude, <emailFragment>reik uit.</emailFragment>
+partnerships-small-business-header = Klein besighede, insluitend tegnologie- en KI-beginners
+partnerships-small-business-description = Ons hoor graag van dataverbruikers oor hul behoeftes en konteks - van samewerking op data-insamelingsplatform tot die verskaffing van datagesondheidsinsigte, ons wil <emailFragment>van jou hoor.</emailFragment>
+partnerships-corporates-header = Grootskaalse maatskappye en platformmaatskappye
+partnerships-corporates-description = As jy meer wil praat oor die datastel, wil saambelê in beplande platformuitbreidings of op soek is na samewerkingsgeleenthede, <emailFragment>stuur vir ons 'n e-pos</emailFragment>
+partnerships-our-partners = Ons Vennote
+# FIRST POST SUBMISSION CTA
+first-cta-header-text = Dankie vir die skenking van jou stemsnitte!
+first-cta-subtitle-text = Wil jy inligting deel oor hoe jy praat?
+why-donate = Hoekom vra jy?
+why-donate-explanation-1 = Hierdie inligting is opsioneel - jy hoef dit net by te voeg as jy gemaklik voel. Wanneer ons die datastel vrystel, versteek ons alle persoonlike inligting, en maak seker dat inligting soos jou naam en e-posadres nie aan demografiese inligting soos jou ouderdom of geslag gekoppel word nie.
+why-donate-explanation-2 = Vir tegnologie om goed vir almal te werk, moet die data wat ontwikkelaars help om tegnologie te bou 'n uiteenlopende reeks mense weerspieël. As ons byvoorbeeld geen sprekers met 'n spesifieke aksent insluit nie, sal die tegnologie nie goed werk vir mense met daardie aksent nie. <learnMore>Kom meer te wete oor hoekom metadata belangrik is.</learnMore>
+add-information-button = Voeg inligting by
+continue-speaking-button = Nee dankie, hou aan praat
+create-profile-text = Wil jy jou inligting stoor? <createProfile>Skep 'n profiel</createProfile>
+thanks-for-voice-toast = Dankie vir jou stem inligting
+thanks-for-voice-toast-error = 'n Fout het voorgekom en jou steminligting is nie ingedien nie
+# SECOND POST SUBMISSION CTA
+second-cta-header-text = Dankie dat jy jou stem bydra!
+second-cta-subtitle-text = Met 'n profiel kan jy tred hou van jou aktiwiteit en kontak maak met 'n gemeenskap van stemdatabydraers.
+already-have-an-account = Reeds 'n rekening? <login>Teken aan</login>
+create-profile-button = Skep 'n profiel
+# IMAGE TAGS
+img-alt-success-checkmark = sukses baken
+# GUIDELINES PAGE
+guidelines-header = Riglyne vir bydraes
+guidelines-header-subtitle = Verstaan hoe om sinne en klanksnitte by te dra en te bekragtig vir die Common Voice-datastel
+voice-collection = Stemversameling
+sentence-collection = Stemversameling
+varying-pronunciations = Verskillende uitsprake
+misreadings = Lees foute
+offensive-content = Aanstootlike inhoud
+background-noise = Agtergrondgeraas
+background-voices = Stemme in die agtergrond
+volume = Volume
+reader-effects = Leser-effekte
+just-unsure = Net onseker?
+example = Voorbeeld
+varying-pronunciations-explanation-1 = Ons verwelkom verskillende aksente! Wees baie versigtig voordat jy 'n snit verwerp omdat jy dink die leser het 'n woord verkeerd uitgespreek, die klem op die verkeerde plek geplaas of leestekens geïgnoreer. Daar is 'n wye verskeidenheid uitsprake wat regoor die wêreld gebruik word, waarvan jy dalk nie in jou plaaslike gemeenskap hoor nie. Verskaf asseblief 'n ruim marge van waardering vir diegene wat dalk anders as jy praat.
+varying-pronunciations-explanation-2 = Aan die ander kant, as jy dink dat die leser nog nooit die woord teëgekom het nie, en 'n verkeerde raaiskoot maak oor die uitspraak, verwerp asseblief die sin. As jy onseker is, gebruik die "skip"-knoppie.
+varying-pronunciations-example = Die roete was onduidelik.
+varying-pronunciations-tip-1 = [Kanadese Engels kan "route" soos "rowt" laat klink]
+varying-pronunciations-tip-2 = [Britse Engels kan dit dalk "root" maak]
+offensive-content-explanation = Sinne word deur 'n gemeenskapsmodereringsproses nagegaan, maar hierdie proses is nie perfek nie. As jy 'n sin sien of hoor wat jou aanstoot gee of ontstel - byvoorbeeld omdat dit ons <participationGuidelines>gemeenskapsdeelnameriglyne</participationGuidelines> oortree - rapporteer dit asseblief. Jy kan ons ook kontak by <emailFragment>commonvoice@mozilla.com</emailFragment>.
+misreadings-explanation-1 = Om al die woorde op die bladsy korrek te lees, maak saak. Wanneer jy luister, maak baie seker dat wat opgeneem is presies is wat geskryf is; verwerp as hulle woorde bygevoeg, verkort of gemis het.
+misreadings-explanation-2 = Baie algemene foute sluit in:
+misreadings-explanation-3 = ''n' of 'Die' ontbreek aan die begin van die opname.
+misreadings-explanation-4 = Daar ontbreek 'n 's' aan die einde van 'n woord.
+misreadings-explanation-5 = Lees sametrekkings wat nie eintlik daar is nie, soos "Dis" in plaas van "Dit is", of omgekeerd.
+misreadings-explanation-6 = Mis die einde van die laaste woord deur die opname te vinnig af te sny.
+misreadings-explanation-7 = Maak verskeie pogings om 'n woord te lees.
+misreadings-example-1 = Ons gaan uit om koffie te kry.
+misreadings-example-2 = Ons gaan koffie kry.
+misreadings-example-3 = Ons gaan uit om 'n koffie te kry.
+misreadings-example-4 = Die hommelby het verbygeswiep.

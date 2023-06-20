@@ -277,7 +277,6 @@ why-demographic = මෙය වැදගත් වන්නේ ඇයි?
 accept-privacy-title = පෞද්ගලිකත්ව ප්‍රතිපත්තිය
 login-signup = පුරනය වන්න / ලියාපදිංචි වන්න
 edit = සංස්කරණය
-email-subscriptions = ඊමේල් දායකත්වයන්
 download-profile = මගේ දත්ත බාගතකරන්න
 contribution-experience = දායක පළපුරුද්ද
 skip-submission-feedback = ඉදිරිපත් කිරීමේ ප්‍රතිපෝෂණය මඟ හරින්න
@@ -329,23 +328,46 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Common Voice ඇයි?
-how-does-it-work-title = එය ක්‍රියාත්මක වෙන්නේ කෙසේද?
+
+## How does it work section
+
 about-speak = කතා කරන්න
 about-listen-queue = සවන්දීමේ පෙළ
 about-listen = සවන්දෙන්න
 about-is-it-valid = මෙම ක්ලිපය වලංගුද?
-about-partners = හවුල්කරුවන්
-about-become-a-partner = හවුල්කරුවෙකු වන්න
 about-get-involved = සහභාගී වෙන්න
 about-nav-why-common-voice = ඇයි ?
 about-nav-how-it-works = කෙසේද ?
 about-nav-partners = හවුල්කරුවන්
 about-nav-get-involved = සම්බන්ධ වන්න
-mycroft-title = Mycroft Ai
-mycroft-subtitle = කෘතිම බුද්ධිය
-mycroft-description =
-    Mycroft යනු ලොව ප්‍රථම විවෘත කේත සහායකයා වේ.
-    Mycroft ඕනෑම තැනක ධාවනය වේ - ඩෙස්ක්ටොප් පරිගණකයක, මෝටර් රථයක් තුළ හෝ රාස්ප්බෙරි පයි මත.
+
+## Community Playbook Content
+## What is a language
+
+
+## How do I add a language
+
+
+## How does localization work
+
+
+## How to add sentences
+
+
+## How to record quality
+
+
+## How to grow language
+
+
+## How to validate
+
+
+## How to access dataset
+
+
+## How are decisions made
+
 
 ## Glossary
 
@@ -409,6 +431,9 @@ contact-form-message =
 
 select-language = භාෂාවක් තෝරන්න ...
 other-language = වෙනත් භාෂාව
+
+## Request Language Pages
+
 
 ## Languages Overview
 
@@ -536,4 +561,60 @@ weekly-goal-created = ඔබගේ සතිපතා ඉලක්කය නි�
 
 
 ## Validation criteria
+
+
+# Don't rename the following section, its contents are auto-inserted based on the name. These strings are
+# automatically exported from Sentence Collector.
+# [SentenceCollector]
+
+
+## HEADER/FOOTER
+
+
+## HOME
+
+
+## GENERAL
+
+
+## HOW-TO
+
+
+## MY SENTENCES
+
+
+## REJECTED
+
+
+## STATS
+
+
+## ADD
+
+
+## ADD LANGUAGE
+
+
+## ADD SENTENCES CONFIRMATION
+
+
+## LANGUAGE INFO
+
+
+## LOGIN
+
+
+## PROFILE
+
+
+## REVIEW CRITERIA
+
+
+## REVIEW
+
+
+## SETTINGS
+
+
+# [/SentenceCollector]
 

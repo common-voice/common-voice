@@ -14,6 +14,10 @@ email-opt-in-info-sub-with-challenge = Få e-post om utfordrings- og målpåminn
 email-opt-in-privacy-v2 = Ved å registrere deg for å motta e-post godtar du at Mozilla handterar denne informasjonen som forklart i Mozillas <privacyLink>personvernerklæring</privacyLink>.
 indicates-required = * Viser påkravd felt
 not-available-abbreviation = Ikkje tilgjengeleg
+banner-error-slow-link = Statusside
+error-something-went-wrong = Noko gjekk gale
+error-clip-upload = Opplasting av dette klippet fungerer framleis ikkje, ønskjer du å prøve på nytt?
+error-clip-upload-server = Opplasting av dette klippet feilar stadig på serveren. Last inn sida på nytt, eller prøv på nytt seinare.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -36,9 +40,13 @@ ba = Basjkirisk
 bas = Basaa
 be = Kviterussisk
 bg = Bulgarsk
+bm = Bambara
 bn = Bengali
+bo = Tibetansk
 br = Bretonsk
+bs = Bosnisk
 bxr = Burjatisk
+byv = Medumba
 ca = Katalansk
 cak = Kakchikel
 ckb = Sentralkurdisk
@@ -48,9 +56,11 @@ cs = Tsjekkisk
 cv = Tsjuvasjisk
 cy = Walisisk
 da = Dansk
+dag = Dagbani
 de = Tysk
 dsb = Nedersorbisk
 dv = Dhivehi
+dyu = Dioula
 el = Gresk
 en = Engelsk
 eo = Esperanto
@@ -66,9 +76,11 @@ fy-NL = Frisisk
 ga-IE = Irsk
 gl = Galisisk
 gn = Guarani
+gom = Goan Konkani
 ha = Hausa
 he = Hebraisk
 hi = Hindi
+hil = Hiligaynon
 hr = Kroatisk
 hsb = Oversorbisk
 ht = Haitisk
@@ -83,19 +95,26 @@ is = Islandsk
 it = Italiensk
 izh = Ingrisk
 ja = Japansk
+jbo = Lojban
 ka = Georgisk
 kaa = Karakalpak
 kab = Kabylsk
 kbd = Kabardisk
 ki = Kikuyu
 kk = Kasakhisk
+km = Khmer
 kmr = Nordkurdisk
+kn = Kannada
+knn = Konkani (Devanagari)
 ko = Koreansk
 kpv = Komi (syriansk)
 kw = Kornisk
 ky = Kirgisk
+lb = Luxembourgsk
 lg = Luganda
 lij = Ligurisk
+ln = Lingala
+lo = Laotisk
 lt = Litauisk
 lv = Latvisk
 mai = Maithili
@@ -105,6 +124,7 @@ mhr = Austmarisk
 mk = Makedonsk
 ml = Malayalam
 mn = Mongolsk
+mni = Meitei-lon
 mos = Mossi
 mr = Marathi
 mrj = Vestmarisk
@@ -114,18 +134,25 @@ my = Burmesisk
 myv = Erziamordvinsk
 nan-tw = Taiwansk (Minnan)
 nb-NO = Norsk (bokmål)
+nd = Nordndebele
 ne-NP = Nepalsk
+nhe = Austleg la Huasteca-nahuatl
 nia = Nias
 nl = Nederlandsk
 nn-NO = Norsk (nynorsk)
+nr = Sørndebele
+nso = Nordsotho
 nyn = Nyankole
 oc = Oksitansk
+om = Oromo
 or = Oriya
 pa-IN = Panjabi
 pap-AW = Papiamento (Aruba)
 pl = Polsk
 ps = Pashto
 pt = Portugisisk
+quc = K'iche'
+quy = Quechua Chanka
 rm-sursilv = Retoromansk surselva
 rm-vallader = Retoromansk (Vallader)
 ro = Rumensk
@@ -135,13 +162,18 @@ sah = Sakha
 sat = Santali (ol-chiki)
 sc = Sardinsk
 scn = Siciliansk
+sdh = Sørkurdisk
 shi = Shilha
 si = Singalesisk
 sk = Slovakisk
+skr = Saraiki
 sl = Slovensk
+snk = Soninke
 so = Somali
 sq = Albansk
 sr = Serbisk
+ss = Svati
+st = Sotho
 sv-SE = Svensk
 sw = Swahili
 syr = Gammalsyrisk
@@ -149,26 +181,39 @@ ta = Tamilsk
 te = Telugu
 tg = Tadsjikisk
 th = Thai
+ti = Tigrinja
+tig = Tigre
+tk = Turkmensk
 tl = Tagalog
+tn = Setswana
+tok = Toki pona
 tr = Tyrkisk
+ts = Tsonga
 tt = Tatarisk
 tw = Twi
 ty = Tahitisk
+tyv = Tuvinsk
 uby = Ubykhisk
 udm = Udmurtisk
 ug = Uigurisk
 uk = Ukrainsk
 ur = Urdu
 uz = Usbekisk
+ve = Tshivenda
 vec = Venetiansk
 vi = Vietnamesisk
 vot = Votisk
+wo = Wolof
+xh = Xhosa
 yi = Jiddisk
 yo = Joruba
 yue = Kantonesisk
+zgh = Tamazight
 zh-CN = Kinesisk (Kina)
 zh-HK = Kinesisk (Hong Kong)
 zh-TW = Kinesisk (Taiwan)
+zu = Zulu
+zza = Zazaisk
 
 # [/]
 
@@ -180,6 +225,7 @@ speak-now = Snakk no
 datasets = Datasett
 languages = Språk
 about = Om oss
+partner = Partnar
 profile = Profil
 help = Hjelp
 contact = Kontakt
@@ -296,7 +342,6 @@ shortcut-discard-ongoing-recording-label = Forkast denne innspelinga
 shortcut-submit = Enter
 shortcut-submit-label = Send inn klipp
 request-language-text = Ser du ikkje språket ditt på Common Voice enno?
-request-language-text-learn = Les korleis du kan be om det her!
 request-language-button = Send ein førespurnad om eit nytt språk
 
 ## ProjectStatus
@@ -321,6 +366,11 @@ profile-form-native-language =
     .label = Morsmål
 profile-form-additional-language =
     .label = Ytterlegare språk
+profile-form-language =
+    .label = Språk
+profile-form-variant =
+    .label = Kva for variant av { $language } snakkar du?
+profile-form-variant-default-value = Ingen variant valt
 profile-form-accent =
     .label = Dialekt
 profile-form-age =
@@ -355,7 +405,9 @@ why-demographic = Kvifor er dette viktig?
 why-demographic-explanation-2 = Anonymiserte brukardata, som alder, kjønn og dialekt berikar stemmedataa som vert brukte for å trene talegjenkjenningsmotorane. Brukarnamnet ditt og e-postadressa di vil aldri bli assosierte med bidraga dine, og du kan velje om du vil at brukarnamnet ditt skal vere offentleg eller anonymt.
 accept-privacy = Eg godtar at de handterer denne informasjonen som forklart i Mozillas <privacyLink>personvernpraksis</privacyLink>.
 accept-privacy-title = Personvernpraksis
+accept-privacy-and-terms = Eg godtek <termsLink>vilkåra</termsLink> og <privacyLink>personvernerklæringa</privacyLink> til Common Voice
 login-identity = Innloggingsidentitet
+login = Logg inn
 login-signup = Logg inn / Meld deg på
 edit = Rediger
 email-subscriptions = E-postabonnement
@@ -366,6 +418,8 @@ skip-submission-description = I løpet av bidragsinnsening vil tilbakemelding bl
 skip-submission-note = Merk: Du må framleis velje mellom Tal eller Lytt for å endre bidragstype.
 off = Av
 on = På
+help-accent = Treng du hjelp med dialekt?
+help-variants = Treng du hjelp med variantar?
 
 ## Profile - Email
 
@@ -376,6 +430,7 @@ gravatar_not_found = Fann ingen gravatar for e-postadressa di
 file_too_large = Den valde fila er for stor
 avatar-uploaded = Avatar lasta opp
 max-file-size = maks { $kb } kb
+remove-avatar = Fjern Avatar
 
 ## Profile - Email
 
@@ -417,7 +472,6 @@ faq-do-want-native-a = Ja! Vi vil særskilt ha stemma di! Eit delmål med Common
 faq-why-different-speakers-q = Kvifor treng de så mange ulike talarar pr. språk?
 faq-why-different-speakers-a = Dei fleste stemmedatabasar vert trena med ei overvekt av visse demografiar, noko som inneber vekting mot <articleLink> menn og middelklasse</articleLink>.  Aksentar og dialektar som tenderer til å vere underrepresentert i datasettet som vert brukt til trening er typisk assosiert med grupper av menneske som allereie er underrepresenterte ellers i samfunnet. Mange talegjenkjenningsmotorar slit også med å forstå kvinnelege stemmer. Derfor treng vi stor variasjon i datasettet!
 faq-why-my-lang-q = Kvifor er ikkje språket mitt inkludert enno?
-faq-why-my-lang-new-a = Mozilla vel eller føretrekkjer ingen språk over andre. I staden er Common Voice eit reint felleskapsdrive initiativ. Men det krev <multilangLink>mange steg for å leggje til eit nytt språk</multilangLink> og å begynne med å samle inn lydklipp. Først må Common Voice nettstaden omsettast, slik at medlemmar kan bidra på sitt eige språk. Deretter treng vi ei stor samling med rettigheitsfrie setningar som folk kan lese høgt. Når begge desse krava er oppfylte vert språket «lansert» på Common Voice, slik at folk kan begynne å spele inn lydklipp med stemma si og validere andre sine bidrag. Om du vil hjelpe til med å lansere eit nytt språk, gå til <sentenceCollectorLink>verktøy for setningsinnsamling</sentenceCollectorLink> for å kome i gang.
 faq-what-quality-q = Kva slags lydkvalitet er påkravd for at eit lydklipp kan brukast i datasettet?
 faq-what-quality-a = Vi vil at Common Voice-datasettet skal reflektere lydkvaliteten som ein tale-til-tekst motor opplever i verkelegheita. Derfor treng vi variasjon. I tillegg til eit variert utval av talarar, vil eit variert utval lydkvalitetar lære tale-til-tekst-motoren å handtere varierande situasjonar i den verkelege verda, som til dømes stemmer i bakgrunnen eller støy frå bilar. Så lenge lydklippet ditt er forståeleg. så burde det vere godt nok for datasettet.
 faq-why-10k-hours-q = Kvifor er 10 000 validerte timar pr. språk målet for innspelt lyd?
@@ -446,10 +500,20 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Kvifor Common Voice?
+how-does-it-work-title-v2 = Korleis fungerer Common Voice?
 how-does-it-work-text = Vi masseinnsamlar (crowdsourcing) eit ope datasett av stemmer. Bidra med stemma di, valider nøyaktigheita av andre sine lydklipp og gjer datasettet betre for alle.
 
 ## How does it work section
 
+about-language-req-subtitle = Nokon ber om å leggje til eit språk.
+about-localization-title = Omsetjing av nettstad
+about-sentence-collection-title = Setningsinnsamling
+about-voice-contrib-title = Stemmebidrag
+about-voice-validation-title = Stemmevalidering
+about-voice-validation-subtitle = Andre personar validerer desse stemmeklippa.
+about-dataset-release-title = Utgiving av datasett
+about-dataset-release-subtitle = Det kjem ei utgiving av datasettet kvar 3. månad.
+about-subscribe-text = Vil du halde kontakten med Common Voice?
 about-speak = Tal
 about-speak-text = Bidragsytarar spelar inn stemmeklipp ved å lese inn frå ei samling bidregne setningar.
 about-listen-queue = Lyttekø
@@ -466,41 +530,48 @@ about-dataset-new = Common Voice-datasett
 about-dataset-new-text = Common Voice-datasettet inneheld hundretusenvis av lydklipp som hjelper utviklarar med å lage talegjenkjenningsverktøy.
 about-clip-graveyard = Klippkyrkjegard
 about-clip-graveyard-text = Lydklippfyllinga inneheld lydklipp som ikkje vart tatt med i Common Voice-datasettet. Akkurat som datasettet, er også lydklippfyllinga tilgjengeleg for nedlasting.
-about-partners = Partnarar
-about-become-a-partner = Bli ein partnar
-about-partnership =
-    Common Voice er eit samarbeidsprosjekt, og vi er avhengige av vårt samfunn, av partnarar og bidragsytarar for å byggje det største datasettet med open kjeldekode av stemmer nokon gong.  
-    
-    Vi vil gjerne få takke følgjande personar og organisasjonar for hjelpa deira med prosjektet:
 about-get-involved = Ver med
 about-get-involved-text-2 =
     Vil du hjelpe til med å gjere Common Voice endå  betre?
     Flott! Ta kontakt via e-post eller på <discourseLink>Discourse</discourseLink>,
     forum, send inn nettstadtilbakemelding via <githubLink>GitHub</githubLink>,
     eller bli med på <matrixLink>Matrix</matrixLink>-samfunnsprat.
+about-stay-in-touch = Korleis held eg kontakten?
+about-stay-in-touch-button = Registrer deg
 about-nav-why-common-voice = Kvifor ?
 about-nav-how-it-works = Korleis ?
 about-nav-partners = Partnarar
 about-nav-get-involved = Ver med
+about-nav-how-it-works-2 = Korleis fungerer Common Voice?
+about-nav-playbook = Les om korleis du deltek
 
 ## Community Playbook Content
 ## What is a language
 
+about-playbook-what-is-language = Kva er eit språk på Common Voice?
 
 ## How do I add a language
 
+about-playbook-how-add-language = Korleis legg eg til eit språk?
+about-playbook-how-add-language-translating-heading = Omsetjing av nettsida
+about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Sjå rettleiinga vår om korleis du brukar Pontoon.</translateVideoLink>
+about-playbook-how-add-language-collecting-sentences-heading = Innsamling av setningar
 
 ## How does localization work
 
+about-playbook-how-localize-content-1 = Common Voice vert omsett på <strong>Pontoon</strong>.
+about-playbook-how-localize-content-5 = Sjå videoforklaringa vår for hjelp
 
 ## How to add sentences
 
+about-playbook-how-add-sentences = Korleis legg eg til ei setning?
 
 ## How to record quality
 
 
 ## How to grow language
 
+about-playbook-how-grow-language-content-4 = Sosiale medium
 about-playbook-how-grow-language-content-8 = <strong>Ver kreativ!</strong> Ditt språkfellesskapet vil vere unikt, og dette er berre nokre få måtar å kome i gang på.
 
 ## How to validate
@@ -511,12 +582,6 @@ about-playbook-how-grow-language-content-8 = <strong>Ver kreativ!</strong> Ditt 
 
 ## How are decisions made
 
-mycroft-title = Mycroft Ai
-mycroft-subtitle = Kunstig intelligens
-mycroft-description =
-    Mycroft er verdas første assistent med open kjeldekode.
-    Mycroft køyrer på kva som helst - ein stasjonær PC, i ein bil, eller på ein Raspberry Pi.
-mycroft-secondary-description = Dette er open kjeldekode som fritt kan endrast, utvidast og forbetrast. Mycroft kan brukast i kva som helst frå vitskaplege prosjekt til bedriftsapplikasjonar.
 
 ## Glossary
 
@@ -575,6 +640,7 @@ review-delete-recordings = Slett opptaka mine
 
 ## Datasets Page
 
+datasets-heading = Datasett
 datasets-headline = Vi lagar fleirspråkleg taleinnspeling med open kjeldekode som alle kan bruke for å trene applikasjonar med talegjenkjenning.
 datasets-positioning =
     Vi trur at store, offentleg tilgjengelege stemmedamengda vil fremje innovasjon og sunn kommersiell konkurranse innan maskinlæringsbasert taleteknologi.
@@ -583,6 +649,7 @@ datasets-positioning =
     
     Sjå på denne sida som eit referansemidtpunkt for andre datasett med open kjeldekode, og etterkvart som Common Voice fortset å vekse, ein heim for oppdateringane våre.
 language = Språk
+download-dataset-header = Last ned datasettet
 # File size in gigabytes
 size = Storleik
 validated-hr-total = Totalt validerte timar
@@ -660,6 +727,18 @@ other-language = Anna språk
 
 ## Request Language Pages
 
+request-language-heading = Spør om eit nytt språk
+request-language-form-email =
+    .label = E-postadressa di
+request-language-form-info =
+    .label = Informasjon om språket
+request-language-form-info-explanation-list-1 = Namn på språket ditt
+request-language-form-info-explanation-list-2 = <isoCodeLink>ISO-kodar</isoCodeLink> om kjende
+request-language-form-info-explanation-list-3 = Lenkjer til nettstadar som kan hjelpe oss med å forstå språket
+request-language-google-recaptcha-required = reCAPTCHA er påkravd om du vil halde fram
+request-language-google-recaptcha-error = Noko gjekk gale med reCAPTCHA. Prøv på nytt.
+# Success page
+request-language-success-heading = Takk skal du ha! Du har sendt ein førespurnad om eit nytt språk
 
 ## Languages Overview
 
@@ -676,7 +755,8 @@ language-search-input =
 language-speakers = Talt av
 localized = Omsett
 sentences = Setningar
-total-hours = Validerte timar
+language-validation-hours = Timar
+language-validation-progress = Valideringsframdrift
 
 ## Contribution
 
@@ -741,6 +821,9 @@ target-segment-generic-card = Du bidrar til eit målsegment
 target-segment-first-banner = Hjelp til med å lage Common Voice sitt første målsegment i { $locale }
 target-segment-add-voice = Legg til stemma din
 target-segment-learn-more = Les meir
+
+## Contribution Nav Items
+
 
 ## Reporting
 
@@ -990,6 +1073,10 @@ contribution-misreadings-example-2-explanation = [Burde vore «dinosaurane»]
 contribution-misreadings-example-3-title = Dei store dinosaurane i Tria-.
 contribution-misreadings-example-3-explanation = [Innspelinga kutta av før slutten av siste ordet]
 contribution-misreadings-example-4-title = Dei store dinosaurane i Trias. Ja.
+contribution-misreadings-example-4-explanation = [Det er spelt inn meir enn den nødvendige teksten]
+contribution-misreadings-example-5-title = Vi skal ut og skaffe kaffi.
+contribution-misreadings-example-6-title = Vi går ut for å skaffe meir kaffi.
+contribution-misreadings-example-7-title = Vi skal ut og hente ein kaffi.
 contribution-misreadings-example-8-title = Humla flaug forbi.
 contribution-misreadings-example-8-explanation = [Heilt feil innhald]
 contribution-varying-pronunciations-title = Ulike uttalar
@@ -1006,8 +1093,10 @@ see-less = <chevron></chevron>Vis mindre
 ## HEADER/FOOTER
 
 sc-header-home = Heim
+sc-header-how-to = Slik gjer du det
 sc-header-add = Legg til
 sc-header-review = Vurdering
+sc-header-rejected = Avviste setningar
 sc-header-my = MIne setningar
 sc-header-statistics = Statistikk
 sc-header-profile = Profil
@@ -1020,6 +1109,8 @@ sc-logout-button = Logg ut
 
 ## HOME
 
+sc-home-collect-title = Saml inn setningar
+sc-home-review-title = Vurder setningane
 
 ## GENERAL
 
@@ -1027,6 +1118,7 @@ sc-logout-button = Logg ut
 ## HOW-TO
 
 sc-howto-addsen-title = Legg til nye setningar
+sc-howto-review-title = Vurder setningar
 
 ## MY SENTENCES
 
@@ -1114,3 +1206,8 @@ sc-settings-title = Innstillingar
 
 # [/SentenceCollector]
 
+partnerships-get-in-touch = Kontakt oss
+add-information-button = Legg til informasjon
+already-have-an-account = Har du allereie ein konto? <login>Logg inn</login>
+create-profile-button = Opprett ein profil
+sentence-collection = Setningsinnsamling

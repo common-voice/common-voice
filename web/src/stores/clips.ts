@@ -128,7 +128,7 @@ export namespace Clips {
           return;
         }
 
-        if (localeClips(state).clips.length > MIN_CACHE_SIZE) {
+        if (localeClips(state).clips.length >= MIN_CACHE_SIZE) {
           return;
         }
 

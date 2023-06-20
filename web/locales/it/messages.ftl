@@ -18,6 +18,8 @@ banner-error-slow-1 = Ci dispiace, il funzionamento di Common Voice è rallentat
 banner-error-slow-2 = Stiamo ricevendo molto traffico e stiamo attualmente analizzando il problema.
 banner-error-slow-link = Pagina di stato
 error-something-went-wrong = Siamo spiacenti, si è verificato un errore
+error-clip-upload = Si continua a verificare un errore con il caricamento di questa registrazione. Riprovare ancora?
+error-clip-upload-server = Si continua a verificare un errore con il caricamento sul server di questa registrazione. Ricarica la pagina o riprova più tardi.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -40,10 +42,13 @@ ba = Baschiro
 bas = Basaa
 be = Bielorusso
 bg = Bulgaro
+bm = Bambara
 bn = Bengalese
+bo = Tibetano
 br = Bretone
 bs = Bosniaco
 bxr = Buriato
+byv = Medumba
 ca = Catalano
 cak = Kaqchikel
 ckb = Curdo centrale
@@ -53,6 +58,7 @@ cs = Ceco
 cv = Ciuvascio
 cy = Gallese
 da = Danese
+dag = Dagbani
 de = Tedesco
 dsb = Basso sorabo
 dv = Maldiviano
@@ -76,6 +82,7 @@ gom = Konkani goana
 ha = Hausa
 he = Ebraico
 hi = Hindi
+hil = Ilongo
 hr = Croato
 hsb = Alto sorabo
 ht = Creolo haitiano
@@ -90,6 +97,7 @@ is = Islandese
 it = Italiano
 izh = Izoriano
 ja = Giapponese
+jbo = Lojban
 ka = Georgiano
 kaa = Karakalpak
 kab = Cabilo
@@ -98,6 +106,7 @@ ki = Gikuyu
 kk = Kazako
 km = Khmer
 kmr = Curdo Kurmanji
+kn = Kannada
 knn = Konkani (Devanagari)
 ko = Coreano
 kpv = Komi-Zyrian
@@ -106,7 +115,10 @@ ky = Kirghiso
 lb = Lussemburghese
 lg = Luganda
 lij = Ligure
+ln = Lingala
+lo = Lao
 lt = Lituano
+ltg = Letgallo
 lv = Lettone
 mai = Maithili
 mdf = Mokša
@@ -125,11 +137,16 @@ my = Birmano
 myv = Erza
 nan-tw = Taiwanese (Minnan)
 nb-NO = Bokmål (Norvegia)
+nd = IsiNdebele del nord
 ne-NP = Nepalese
+nhe = Huasteca Nahuatl orientale
+nhi = Nahuatl della Sierra di Puebla occidentale
 nia = Nias
 nl = Olandese
 nn-NO = Norvegese Nynorsk
+nr = IsiNdebele del sud
 nso = Sotho del nord
+ny = Cinyanja
 nyn = Nyankole
 oc = Occitano
 om = Afaan Ormoo
@@ -150,14 +167,17 @@ sah = Sacha
 sat = Santali (Ol Chiki)
 sc = Sardo
 scn = Siciliano
+sdh = Curdo meridionale
 shi = Shilha
 si = Singalese
 sk = Slovacco
 skr = Saraiki
 sl = Sloveno
+snk = Soninke
 so = Somalo
 sq = Albanese
 sr = Serbo
+ss = Swati
 st = Sesotho
 sv-SE = Svedese
 sw = Swahili
@@ -170,12 +190,14 @@ ti = Tigrino
 tig = Tigre
 tk = Turkmeno
 tl = Tagalog
+tn = Tswana
 tok = Toki Pona
 tr = Turco
 ts = Xitsonga
 tt = Tataro
 tw = Twi
 ty = Tahitiano
+tyv = Tuvano
 uby = Ubykh
 udm = Udmurto
 ug = Uiguro
@@ -186,12 +208,17 @@ ve = Tshivenda
 vec = Veneto
 vi = Vietnamita
 vot = Votico
+wo = Wolof
+xh = Xhosa
 yi = Yiddish
 yo = Yoruba
 yue = Cantonese
+zgh = Berbero
 zh-CN = Cinese (Cina)
 zh-HK = Cinese (Hong Kong)
 zh-TW = Cinese (Taiwan)
+zu = Zulu
+zza = Zaza
 
 # [/]
 
@@ -203,6 +230,7 @@ speak-now = Parla ora
 datasets = Dataset
 languages = Lingue
 about = Informazioni
+partner = Partner
 profile = Profilo
 help = Supporto
 contact = Contatti
@@ -317,7 +345,6 @@ shortcut-discard-ongoing-recording-label = Scarta la registrazione corrente
 shortcut-submit = Invio
 shortcut-submit-label = Invia registrazioni
 request-language-text = Non trovi la tua lingua su Common Voice?
-request-language-text-learn = Scopri qui come richiederla!
 request-language-button = Richiedi una lingua
 
 ## ProjectStatus
@@ -385,7 +412,9 @@ why-demographic = Perché è importante?
 why-demographic-explanation-2 = Dati utente anonimi come età, genere e accento aiutano a migliorare i dati audio utilizzati per addestrare l’accuratezza dei motori di riconoscimento vocale. Il tuo nome utente ed email non saranno mai associati ai dati inviati e potrai scegliere se rendere il tuo nome utente pubblico o privato.
 accept-privacy = Acconsento al trattamento dei dati come indicato nell’<privacyLink>informativa sulla privacy</privacyLink> di Mozilla
 accept-privacy-title = Informativa sulla privacy
+accept-privacy-and-terms = Accetto le <termsLink>condizioni</termsLink> e l’<privacyLink>informativa sulla privacy</privacyLink> di Common Voice
 login-identity = Identità di accesso
+login = Accedi
 login-signup = Accedi / Registrati
 edit = Modifica
 email-subscriptions = Sottoscrizioni a email
@@ -452,7 +481,9 @@ faq-do-want-native-a = Sì, cerchiamo soprattutto voci come la tua! Uno degli ob
 faq-why-different-speakers-q = Perché avete bisogno di così tante voci diverse per ogni lingua?
 faq-why-different-speakers-a = Nella stragrande maggioranza dei database per l’apprendimento vocale troviamo una netta sproporzione demografica a favore delle voci <articleLink>maschili e di classe media</articleLink>. Invece gli accenti e i dialetti associati ai gruppi già di per sé marginalizzati ricevono una rappresentazione minore nei dataset per l’apprendimento del software. Inoltre diversi dispositivi faticano a comprendere le voci femminili. Ecco perché vogliamo che il nostro database sia così vario.
 faq-why-my-lang-q = Perché la mia lingua non è stata ancora inclusa?
-faq-why-my-lang-new-a = Mozilla non auspica o favorisce in alcun modo il progresso di alcune lingue rispetto ad altre. Common Voice è infatti un’iniziativa gestita interamente dalla comunità, ma richiede <multilangLink>diversi passaggi per aggiungere una nuova lingua</multilangLink> e iniziare a raccogliere donazioni vocali. Per prima cosa è necessario tradurre il sito web di Common Voice, in modo da offrire ai membri della comunità uno strumento di collaborazione nella propria lingua. In seguito è necessario caricare una vasta raccolta di frasi prive di copyright che i collaboratori possano leggere ad alta voce. Una volta soddisfatti tutti questi requisiti, una lingua viene “lanciata” su Common Voice e i collaboratori possono iniziare a registrare la propria voce e convalidare le registrazioni di altri. Puoi iniziare a collaborare al lancio di una nuova lingua dal nostro <sentenceCollectorLink>strumento per la raccolta frasi</sentenceCollectorLink>.
+faq-why-my-lang-a =
+    Common Voice è una piattaforma di crowdsourcing e tutte le lingue sono state aggiunte da volontari.
+    Ci farebbe piacere se tu aggiungessi la tua lingua! <languageRequestLink>Chiedi come aggiungere la tua lingua</languageRequestLink>.
 faq-what-quality-q = Quale livello di qualità audio è richiesto da una registrazione vocale per essere utilizzata nel dataset?
 faq-what-quality-a = Vogliamo che il dataset di Common Voice rifletta la qualità audio che un motore di riconoscimento vocale “ascolterà” nella vita di tutti i giorni, per questo cerchiamo la varietà. Oltre a una comunità diversificata di parlanti, un dataset con qualità audio variabile insegnerà al motore di riconoscimento vocale a gestire varie situazioni del mondo reale, dal parlato di sottofondo al rumore dell’automobile. In poche parole, finché si distinguono le parole la tua registrazione va benissimo per il dataset!
 faq-why-10k-hours-q = Perché l’obiettivo di registrazione è proprio 10.000 ore convalidate per ogni lingua?
@@ -522,9 +553,6 @@ about-dataset-new = Dataset di Common Voice
 about-dataset-new-text = Il dataset di Common Voice contiene centinaia di migliaia di tipi di voce che aiutano gli sviluppatori a realizzare strumenti di riconoscimento vocale.
 about-clip-graveyard = Cimitero delle registrazioni
 about-clip-graveyard-text = Il Cimitero delle registrazioni è costituito dalle registrazioni vocali scartate dal dataset di Common Voice; anch’esso può essere scaricato liberamente.
-about-partners = Partner
-about-become-a-partner = Diventa partner
-about-partnership = Common Voice è un progetto in collaborazione e, per creare la più grande raccolta dati vocali di dominio pubblico di sempre, dipendiamo dalla comunità di soci e collaboratori. Per il loro contributo al progetto, abbiamo il piacere di ringraziare le persone e le organizzazioni seguenti:
 about-get-involved = Collabora
 about-get-involved-text-2 =
     Vuoi aiutarci a migliorare Common Voice?
@@ -552,9 +580,16 @@ about-playbook-what-is-language-content-3 = Alcune lingue hanno una variabilità
 
 about-playbook-how-add-language = Come posso aggiungere una lingua?
 about-playbook-how-add-language-content-1 = Innanzitutto, controlla se la tua lingua <languageLink>esiste già</languageLink>. In caso contrario sarà necessario <strong>tradurre il sito e raccogliere frasi</strong>.
-about-playbook-how-add-language-content-2 = <strong>Per tradurre il sito</strong>: <translateVideo>configura</translateVideo> un account in <pontoonLink>Pontoon</pontoonLink>. Pontoon include già molte lingue, ma se la tua non è disponibile puoi <pontoonRequestLink>richiedere di aggiungerla</pontoonRequestLink>. Quindi chiedi <repoLink>tramite GitHub</repoLink> di rendere disponibile il progetto Common Voice per la tua lingua. Scopri di più sulla <localizationFragment>traduzione del sito</localizationFragment>.
-about-playbook-how-add-language-content-3 = <strong>Per raccogliere frasi</strong>: <scVideo>configura</scVideo> un profilo nel <scLink>Sentence Collector</scLink>.
-about-playbook-how-add-language-content-4 = Puoi <scLinkAdd>aggiungere un numero limitato</scLinkAdd> di frasi qui, oppure puoi eseguire <bulkImportDocsLink>importazioni in blocco</bulkImportDocsLink> tramite una richiesta Github. Ricorda che le frasi devono essere disponibili con licenza <licenseLink>CC0 (o di pubblico dominio)</licenseLink>, oppure puoi scriverle tu. Scopri di più sulla <scFragment>raccolta di frasi</scFragment>.
+about-playbook-how-add-language-translating-heading = Traduzione del sito
+about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Guarda la nostra guida su come utilizzare Pontoon</translateVideoLink>.
+about-playbook-how-add-language-translating-content-2 = Per le traduzioni utilizziamo uno strumento sviluppato da Mozilla e chiamato <pontoonLink>Pontoon</pontoonLink>. Pontoon dispone di molte lingue, ma se la tua non è presente puoi <pontoonRequestLink>chiedere di aggiungerla</pontoonRequestLink>. Quindi, per rendere disponibile la lingua nel progetto Common Voice, <githubRepoLink>richiedi la nuova lingua su GitHub</githubRepoLink>. <localizationFragment>Ulteriori informazioni sulla traduzione del sito</localizationFragment>.
+about-playbook-how-add-language-collecting-sentences-heading = Raccolta delle frasi
+about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>Guarda la nostra guida sull’utilizzo del Sentence Collector</sentenceCollectorVideo>.
+about-playbook-how-add-language-collecting-sentences-content-2 =
+    Puoi <sentenceCollectorLinkAdd>aggiungere un numero limitato di frasi</sentenceCollectorLinkAdd>,
+    oppure puoi eseguire <bulkImportDocsLink>importazioni in blocco utilizzando GitHub</bulkImportDocsLink>.
+    Ricorda che le frasi devono essere disponibili con licenza <licenseLink>CC0 (o di pubblico dominio)</licenseLink>, oppure puoi scriverle direttamente tu.
+about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>Ulteriori informazioni sulla raccolta di frasi</sentenceCollectorFragment>.
 
 ## How does localization work
 
@@ -618,10 +653,6 @@ about-playbook-how-project-governance-content-4 = Partecipazione della comunità
 about-playbook-how-project-governance-content-5 = Valore e riconoscimento.
 about-playbook-how-project-governance-content-6 = Responsabilità reciproca.
 about-playbook-how-project-governance-content-7 = <governanceLink>Ulteriori informazioni sui criteri di gestione del progetto.</governanceLink>
-mycroft-title = Mycroft Ai
-mycroft-subtitle = Intelligenza artificiale
-mycroft-description = Mycroft è il primo assistente digitale open source al mondo. Puoi installare Mycroft ovunque: computer fissi, automobili e perfino Raspberry Pi.
-mycroft-secondary-description = Si tratta di un software open source che tutti possono modificare, ampliare e migliorare. Mycroft si può utilizzare in qualsiasi ambito, da un progetto scientifico a un’applicazione software d’impresa.
 
 ## Glossary
 
@@ -689,6 +720,9 @@ datasets-positioning =
     
     Considera questa pagina come un punto di riferimento per dataset open source e, man mano che Common Voice continua a crescere, una pagina per i nostri aggiornamenti.
 language = Lingua
+download-dataset-header = Scarica il dataset
+download-delta-explainer = Abbiamo apportato alcune modifiche. I segmenti delta contengono solo le registrazioni più recenti dall’ultima versione. <deltaLink>Ulteriori informazioni su queste modifiche</deltaLink>.
+download-dataset-tag = Seleziona il dataset della lingua desiderata e scegli la versione che vuoi scaricare.
 # File size in gigabytes
 size = Dimensione
 validated-hr-total = Totale ore convalidate
@@ -703,6 +737,7 @@ confirm-size = Sei pronto per iniziare un download di <b>{ $size }</b>
 size-gigabyte = GB
 size-megabyte = MB
 confirm-no-identify = <b>Accetti</b> di rinunciare a determinare l’identità dei parlanti presenti nel dataset di Common Voice
+confirm-join-mailing-list = Voglio iscrivermi alla mailing list di Common Voice
 download-language = Scarica { $language }
 validated-hours = Ore convalidate
 recorded-hours = Ore registrate
@@ -734,6 +769,9 @@ more = Altro
 close = Chiudi
 download = Scarica
 dataset-version = Versione
+sha256-checksum-copied = Checksum SHA256 copiato.
+sha256-checksum-copied-error = Impossibile copiare il checksum SHA256
+clipboard-not-supported = Appunti non supportati
 
 ## Download Modal
 
@@ -811,7 +849,8 @@ language-search-input =
 language-speakers = Parlato da
 localized = Localizzate
 sentences = Frasi
-total-hours = Ore convalidate
+language-validation-hours = Ore
+language-validation-progress = Avanzamento della convalida
 
 ## Contribution
 
@@ -819,6 +858,8 @@ action-click = Fai clic su
 action-tap = Tocca
 contribute = Contribuisci
 listen = Ascolta
+write = Scrivi
+review = Convalida
 skip = Salta
 shortcuts = Scorciatoie
 clips-with-count-pluralized =
@@ -878,6 +919,11 @@ target-segment-generic-card = Stai contribuendo a un segmento obiettivo
 target-segment-first-banner = Aiuta a creare il primo segmento obiettivo di Common Voice in { $locale }
 target-segment-add-voice = Aggiungi la tua voce
 target-segment-learn-more = Scopri di più
+
+## Contribution Nav Items
+
+contribute-voice-collection-nav-header = Raccolta di voci
+contribute-sentence-collection-nav-header = Raccolta di frasi
 
 ## Reporting
 
@@ -962,10 +1008,10 @@ finish-editing = Vuoi finire prima le modifiche?
 lose-changes-warning = Se esci ora, perderai le tue modifiche
 build-custom-goal = Crea un obiettivo personale
 help-reach-hours-pluralized =
-    Aiuta a raggiungere{ NUMBER($hours) ->
-        [one] { $hours } ora
-       *[other] { $hours } ore
-    } in { $language } con un obiettivo personale
+    { NUMBER($hours) ->
+        [one] Aiuta a raggiungere { $hours } ora in { $language } con un obiettivo personale
+       *[other] Aiuta a raggiungere { $hours } ore in { $language } con un obiettivo personale
+    }
 help-reach-hours-general-pluralized =
     Aiuta Common Voice a raggiungere { NUMBER($hours) ->
         [one] { $hours } ora
@@ -1484,3 +1530,169 @@ sc-validation-no-abbreviations = La frase non deve contenere abbreviazioni
 
 localization-select =
     .label = Scegli lingua/localizzazione
+# PARTNERSHIPS PAGE
+partnerships-header = Diventa nostro partner
+partnerships-header-text = Ci vuole molto per trasformare Common Voice in realtà, e non lo facciamo da soli. Vuoi diventare un nostro partner? Mettiti in contatto con noi, non vediamo l’ora.
+partnerships-get-in-touch = Contattaci
+partnerships-become-a-partner = Diventa partner di Common Voice
+partnerships-community-header = Comunità, creativi e società civile
+partnerships-community-description = La comunità è il cuore pulsante di Common Voice ed è formata da attivisti nel campo delle lingue, studiosi e artisti che provengono da ogni parte del mondo. Puoi trovare ulteriori informazioni su come collaborare nella pagina <about>Informazioni</about> e nelle nostre <community>Linee guida della community</community>. Se sei interessato in una collaborazione più profonda con la nostra organizzazione, <emailFragment>contattaci</emailFragment>.
+partnerships-foundations-header = Fondazioni
+partnerships-foundations-description = Collaboriamo con fondazioni, società civile e partner della comunità per rendere Internet un luogo più sano, con particolare attenzione all’Africa orientale. Scopri ulteriori informazioni sul nostro <programmaticWork>metodo di lavoro</programmaticWork>.
+partnerships-governments-header = Enti governativi
+partnerships-governments-description = Siamo entusiasti di supportare l’impegno del settore pubblico in materia di tecnologia, innovazione e diritti linguistici. Se hai intenzione di gestire un progetto di grandi dimensioni o una campagna, <emailFragment>contattaci</emailFragment>.
+partnerships-academia-header = Università e ricercatori
+partnerships-academia-description = L’innovazione aperta è al centro di ciò che facciamo. Per collaborazioni di ricerca, raccolta dati o interviste, <emailFragment>contattaci</emailFragment>.
+partnerships-small-business-header = Piccole imprese, comprese startup nel campo della tecnologia e intelligenza artificiale
+partnerships-small-business-description = Per noi è importante scoprire le esigenze e l’opinione di chi utilizza i dati in diversi contesti, dalla collaborazione sulla piattaforma di raccolta dati allo sviluppo di approfondimenti sulla loro qualità. Vogliamo <emailFragment>sentire il tuo parere</emailFragment>.
+partnerships-corporates-header = Società di grandi dimensioni e fornitori di piattaforme
+partnerships-corporates-description = Se vuoi discutere del set di dati, contribuire all’investimento nelle espansioni previste della piattaforma, oppure cerchi opportunità di collaborazione, <emailFragment>inviaci un messaggio</emailFragment>.
+partnerships-our-partners = I nostri partner
+# FIRST POST SUBMISSION CTA
+first-cta-header-text = Grazie per aver donato le tue registrazioni vocali.
+first-cta-subtitle-text = Vuoi condividere delle informazioni sul tuo modo di parlare?
+why-donate = Per quale motivo te lo chiediamo?
+why-donate-explanation-1 = Fornire queste informazioni è facoltativo: aggiungile solo se lo desideri. Quando rilasciamo il dataset, pseudonimizziamo tutte le informazioni personali e ci assicuriamo che informazioni come il tuo nome e indirizzo email non siano collegate a informazioni demografiche come età o sesso.
+why-donate-explanation-2 = Affinché la tecnologia funzioni al meglio per tutti, i dati utilizzati dagli sviluppatori per crearla devono riflettere una vasta gamma di persone. Per esempio, se non includiamo soggetti che parlano con un determinato accento, la tecnologia non funzionerà bene per queste persone. <learnMore>Ulteriori informazioni sull’importanza dei metadati.</learnMore>
+add-information-button = Aggiungi informazioni
+continue-speaking-button = No grazie, continua a parlare
+create-profile-text = Vuoi salvare le tue informazioni? <createProfile>Crea un profilo</createProfile>
+thanks-for-voice-toast = Grazie per aver aggiunto informazioni sulla tua voce
+thanks-for-voice-toast-error = Si è verificato un errore durante l’invio delle informazioni sulla tua voce
+# SECOND POST SUBMISSION CTA
+second-cta-header-text = Grazie per aver donato la tua voce.
+second-cta-subtitle-text = Con un profilo puoi tenere traccia della tua attività ed entrare in contatto con una comunità di donatori di voce.
+already-have-an-account = Hai già un account? <login>Accedi</login>
+create-profile-button = Crea un profilo
+# IMAGE TAGS
+img-alt-success-checkmark = spunta di successo
+# GUIDELINES PAGE
+guidelines-header = Linee guida di collaborazione
+guidelines-header-subtitle = Scopri come collaborare e convalidare frasi e registrazioni audio del dataset di Common Voice
+voice-collection = Raccolta di voci
+sentence-collection = Raccolta di frasi
+varying-pronunciations = Variazioni della pronuncia
+misreadings = Errori di lettura
+offensive-content = Contenuti offensivi
+background-noise = Rumore di sottofondo
+background-voices = Voci di sottofondo
+volume = Volume
+reader-effects = Alterazioni del tono di voce
+just-unsure = Hai ancora dei dubbi?
+example = Esempio
+varying-pronunciations-explanation-1 = Accogliamo di buon grado accenti differenti! Procedi con cautela prima di rifiutare una registrazione in cui, a tuo avviso, il lettore ha sbagliato la pronuncia di una parola, ha posto male l’accento o ha apparentemente ignorato la punteggiatura. Nel mondo, infatti, è in uso un’ampia varietà di pronunce e potresti non aver mai avuto l’occasione di ascoltarne alcune nella tua zona. Prevedi un certo margine di elasticità come segno di apprezzamento per le persone che parlano in modo diverso dal tuo.
+varying-pronunciations-explanation-2 = Se però credi che il lettore non conoscesse quella parola e semplicemente la sua ipotesi sulla pronuncia non sia corretta, rifiuta la registrazione. Se non sei sicuro, utilizza il pulsante Salta.
+varying-pronunciations-example = Sono subito da te.
+varying-pronunciations-tip-1 = [Per la maggior parte dei parlanti italiani, la parola “subito” viene pronunciata come in italiano standard]
+varying-pronunciations-tip-2 = [Nelle regioni del Sud dell'Italia la parola “subito” potrebbe essere pronunciata con una consonante raddoppiata ”subbito”]
+offensive-content-explanation = Le frasi vengono controllate attraverso un processo di moderazione effettuato dalla comunità, tuttavia questo processo non è perfetto. Se vedi o senti una frase che ti offende o ti fa sentire a disagio, ad esempio perché viola le nostre <participationGuidelines>Linee guida per la partecipazione alla comunità</participationGuidelines>, utilizza il pulsante Segnala nell’interfaccia utente. Puoi anche contattarci all’indirizzo <emailFragment>commonvoice@mozilla.com</emailFragment>.
+misreadings-explanation-1 = È importante leggere correttamente tutte le parole del testo di esempio. Durante l’ascolto, controlla con molta attenzione che quanto registrato corrisponda esattamente a quanto scritto. La registrazione deve essere rifiutata se alcune parole sono state aggiunte, rimosse o contratte.
+misreadings-explanation-2 = Errori molto comuni includono:
+misreadings-explanation-3 = Mancanza di articoli indeterminativi (“Uno”, “Una”, ecc.) o determinativi (“Gli”, “Le”, ecc.) all’inizio della registrazione.
+misreadings-explanation-4 = Mancanza della vocale finale in una parola.
+misreadings-explanation-5 = Lettura di elisioni che non sono presenti nel testo originale, come “Non t’ho detto” al posto di “Non ti ho detto” o viceversa.
+misreadings-explanation-6 = Mancanza della fine dell’ultima parola a causa dell’interruzione anticipata della registrazione.
+misreadings-explanation-7 = Numerosi tentativi di lettura di una parola.
+misreadings-example-1 = Questa estate fa caldo.
+misreadings-example-2 = Quest’estate fa caldo.
+misreadings-example-3 = Questa estate fa un caldo.
+misreadings-example-4 = Questa è una bella giornata.
+misreadings-tip-1 = [Dovrebbe essere “Questa estate”]
+misreadings-tip-2 = [“un” non è presente nella frase originale]
+misreadings-tip-3 = [Il contenuto non corrisponde]
+background-noise-explanation = Devi essere in grado di sentire ogni parola della registrazione. Vogliamo che l’algoritmo di machine learning sia in grado di gestire una vasta gamma di rumori di sottofondo. I rumori relativamente forti o una musica di sottofondo tranquilla possono essere accettati a patto che non impediscano di ascoltare l’interezza del testo. Le registrazioni con fruscii o interruzioni che non ti consentono di ascoltare agevolmente il testo devono essere rifiutate.
+background-noise-example-1 = I dinosauri giganti del Triassico.
+background-noise-example-2 = [Starnuto] I dinosauri giganti del [tosse] Triassico.
+background-noise-example-3 = I dino [tosse] del Triassico.
+background-noise-example-4 = [Fruscìo] dinosauri giganti del [fruscìo] -riassico.
+background-noise-tip-1 = [Interrotto da un rumore di fondo]
+background-noise-tip-2 = [Una parte del testo non si sente nella registrazione]
+background-voices-explanation = Un po’ di rumore di fondo è accettabile, ma se riesci a distinguere un’altra persona che pronuncia parole che non sono scritte nel testo, dovresti rifiutare la registrazione. Solitamente questo capita quando una televisione è rimasta accesa o quando è in corso una conversazione nelle vicinanze.
+background-voices-example-1 = I dinosauri giganti del Triassico. [letto da una prima voce]
+background-voices-tip-1 = Vieni? [chiamata fatta da una seconda voce]
+volume-explanation = Le voci dei differenti lettori presentano delle variazioni naturali di volume. Rifiuta la registrazione solo se il volume è talmente alto da creare distorsione o, caso più frequente, quando è talmente basso da non poter sentire quello che viene detto senza prendere il testo scritto come riferimento.
+reader-effects-explanation = La maggior parte delle registrazioni contiene voci di persone che parlano con un tono naturale. Puoi accettare registrazioni, sporadiche e non consuete, che siano gridate, dette sottovoce o dal tono chiaramente “drammatico”. Rifiuta le registrazioni cantate e quelle in cui è stato utilizzato un sintetizzatore vocale.
+just-unsure-explanation = Se ti imbatti in una situazione che non è prevista in queste linee guida, convalida seguendo il tuo giudizio. Se davvero non riesci a decidere, utilizza il pulsante Salta e passa alla registrazione seguente.
+still-have-questions = Hai altre domande?
+contact-common-voice = Contatta il team di Common Voice
+public-domain = Pubblico dominio
+citing-sentences = Citare frasi
+adding-sentences = Aggiungere frasi
+reviewing-sentences = Convalidare frasi
+public-domain-explanation-1 = È molto importante che tutte le frasi siano di <publicDomain>pubblico dominio</publicDomain> (<cc0>cc0</cc0>) poiché il dataset di Common Voice è distribuito con licenza cc0. Inserisci una frase solo se ne sei sicuro e includi sempre la citazione.
+public-domain-explanation-2 = Le frasi migliori per costruire un motore di riconoscimento vocale efficace sono quelle in cui viene utilizzato un linguaggio colloquiale e attuale. Ecco alcune idee per aiutarti a generare frasi:
+public-domain-explanation-3 = Crea frasi colloquiali e attuali individualmente, con i tuoi amici o con la tua comunità linguistica, per esempio organizzando una "maratona di scrittura"
+public-domain-explanation-4 = Contatta autori, drammaturghi o sceneggiatori e chiedi loro se sono disposti a devolvere al pubblico dominio una piccola parte delle loro opere
+public-domain-explanation-5 = Cerca testi per cui il copyright non è più applicabile, come ad esempio la maggior parte dei libri pubblicati prima del 1920
+public-domain-explanation-6 = Contatta governi, organizzazioni senza fini di lucro oppure organizzazioni dei media per verificare se i loro contenuti web, i loro rapporti o altri contenuti possono essere devoluti al pubblico dominio
+citing-sentences-explanation-1 = È importante includere le citazioni per poter verificare che le frasi siano di pubblico dominio e che non vi siano restrizioni di copyright.
+citing-sentences-subheader-websites = Siti web
+citing-sentences-subheader-websites-explanation = Potresti includere il sito, ad esempio “Common Voice - https://commonvoice.mozilla.org/“
+citing-sentences-subheader-academic-reference = Citazione accademica
+citing-sentences-subheader-academic-reference-explanation = Puoi usare lo stile di citazione accademico, ad esempio lo stile di Harvard “Mozilla (2021) Common Voice. Disponibile su https://commonvoice.mozilla.org/ (consultato: 15 settembre 2021)“
+citing-sentences-subheader-offline-sources = Fonti non in rete
+citing-sentences-subheader-offline-sources-explanation = Per testi di pubblico dominio non disponibili online, potresti utilizzare lo stile di citazione accademico, ad esempio lo stile di Harvard “Jess (2021) I miei poemi sotto pubblica licenza“
+citation =
+    .label = Citazione
+self-citation = Autocitazione
+self-citation-explanation = Questo è il modo in cui puoi citarti se hai scritto tu stesso il contenuto.
+adding-sentences-subheader-length = Lunghezza
+adding-sentences-subheader-length-explanation = La frase dovrebbe contenere meno di 15 parole.
+adding-sentences-subheader-spelling-punctuation = Ortografia e punteggiatura
+adding-sentences-subheader-spelling-punctuation-explanation = La frase deve essere scritta senza errori di ortografia.
+adding-sentences-subheader-speakable = Leggibile
+adding-sentences-subheader-speakable-explanation = Le frasi migliori sono naturali e discorsive: devono essere facili da leggere. Sebbene la diversità fonetica e lessicale delle frasi sia importante, dobbiamo cercare di rendere la registrazione delle frasi il più coinvolgente e divertente possibile per la nostra comunità di volontari.
+adding-sentences-subheader-numbers = Numeri
+adding-sentences-subheader-numbers-explanation = Non dovrebbero esserci numeri scritti in cifre nel testo perché possono creare problemi quando letti ad alta voce. Il modo in cui un numero viene letto dipende dal contesto e potrebbe generare confusione nel dataset. Per esempio, il numero “2409” potrebbe essere letto correttamente sia come “ventiquattro zero nove” che come “duemilaquattrocentonove”.
+adding-sentences-subheader-abbreviations = Abbreviazioni e acronimi
+adding-sentences-subheader-abbreviations-explanation = Abbreviazioni e acronimi come “USA” o “ICE” dovrebbero essere evitati nel testo perché potrebbero essere letti in un modo che non coincide con la loro ortografia. Inoltre, potrebbero esserci più possibili letture per una singola abbreviazione.
+adding-sentences-subheader-punctuation = Punteggiatura
+adding-sentences-subheader-punctuation-explanation = I caratteri speciali e la punteggiatura dovrebbero essere inclusi solo se strettamente necessario. Per esempio, un apostrofo è incluso in parole come “l’elefante” e “un’altra” e dovrebbe essere presente nel testo, mentre è improbabile l’utilizzo di caratteri speciali come “@” o “#”.
+adding-sentences-subheader-special-characters = Caratteri speciali e lettere straniere
+adding-sentences-subheader-special-characters-explanation-1 = Le lettere devono essere valide nella lingua in questione. Per esempio, “ж” è una lettera dell’alfabeto russo, ma non viene utilizzata in inglese o in italiano e quindi non dovrebbe essere presente in un testo in inglese o in italiano.
+adding-sentences-subheader-special-characters-explanation-2 = Alcune lingue possono avere proprie regole di convalida con requisiti aggiuntivi. Se non esiste uno specifico file di convalida per una lingua, si utilizzano le regole generiche valide per l’inglese.
+adding-sentences-subheader-offensive-content = Contenuti offensivi
+adding-sentences-subheader-offensive-content-explanation = Se la frase è offensiva o ti fa sentire a disagio, ad esempio a causa di contenuti espliciti o per un’altra violazione delle nostre <communityGuidelines>linee guida per la partecipazione alla community</communityGuidelines>, dev’essere rifiutata. Puoi anche contattarci all’indirizzo <emailFragment>commonvoice@mozilla.com</emailFragment> per risolvere il problema.
+reviewing-sentences-explanation-1 = Se la frase soddisfa tutti i criteri descritti sopra, fai clic sul pulsante “Sì“.
+reviewing-sentences-explanation-2 = Se la frase non soddisfa tutti i criteri descritti sopra, fai clic sul pulsante “No“.
+reviewing-sentences-explanation-3 = Se non sei sicuro, puoi anche saltare la frase e passare a quella successiva.
+reviewing-sentences-explanation-4 = Se non ci sono più frasi da convalidare, aiutaci a raccoglierne altre!
+# WRITE PAGE
+write-instruction-second-part = una frase di pubblico dominio
+write-page-subtitle = Le frasi inserite verranno aggiunte a un dataset con licenza cc-0 disponibile pubblicamente.
+sentence =
+    .label = Frase
+sentence-input-value = Inserisci qui la frase di pubblico dominio
+citation-input-value = Fonte della frase
+citation =
+    .label = Citazione
+what-can-i-add = Che tipo di frasi posso aggiungere?
+new-sentence-rule-1 = <noCopyright>Nessuna restrizione di copyright</noCopyright> (<cc0>cc-0</cc0>)
+new-sentence-rule-2 = Meno di 15 parole
+new-sentence-rule-3 = Utilizza una grammatica corretta
+new-sentence-rule-4 = Utilizza ortografia e punteggiatura corrette
+new-sentence-rule-5 = Niente numeri e caratteri speciali
+new-sentence-rule-6 = Niente lettere straniere
+new-sentence-rule-7 = Includi la citazione opportuna
+new-sentence-rule-8 = Preferibilmente naturale e discorsiva (la frase dev’essere facile da leggere)
+how-to-cite = Come posso fare una citazione?
+how-to-cite-explanation-bold = Cita fornendo un link o il nome completo dell’opera.
+how-to-cite-explanation = Se sono parole tue, scrivi semplicemente <italicizedText>“Autocitazione”</italicizedText>. Abbiamo bisogno di sapere dove hai trovato questo contenuto in modo da poter verificare che sia di pubblico dominio e che non vi siano restrizioni di copyright. Per ulteriori informazioni sulle citazioni, consulta le nostre <guidelinesLink>Linee guida</guidelinesLink>.
+guidelines = Linee guida
+contact-us = Contattaci
+add-sentence-success = 1 frase raccolta
+add-sentence-error = Errore durante il caricamento della frase
+required-field = Compilare questo campo.
+# REVIEW PAGE
+sc-review-instruction-first-part = Verifica
+sc-review-instruction-second-part = è una frase linguisticamente corretta?
+sc-review-rules-title = La frase rispetta le linee guida?
+sc-review-empty-state = Al momento non ci sono frasi da convalidare in questa lingua.
+report-sc-different-language = Lingua diversa
+report-sc-different-language-detail = È scritta in una lingua diversa da quella che sto convalidando.
+sentences-fetch-error = Si è verificato un errore durante il recupero delle frasi
+review-error = Si è verificato un errore durante la convalida della frase
+# SENTENCE-COLLECTOR-REDIRECT PAGE
+sc-redirect-page-title = Stiamo apportando alcuni cambiamenti significativi
+sc-redirect-page-subtitle-1 = Il Sentence Collector si sta spostando sulla piattaforma principale di Common Voice. Ora puoi <writeURL>scrivere</writeURL> una frase o <reviewURL>esaminare</reviewURL> gli invii di frasi singole su Common Voice.
+sc-redirect-page-subtitle-2 = Ponici domande su <matrixLink>Matrix</matrixLink>, <discourseLink>Discourse</discourseLink> o tramite <emailLink>email</emailLink>.

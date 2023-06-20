@@ -4,7 +4,6 @@ import { UserLanguage } from 'common';
 import { AccentsAll } from '../languages';
 
 import InputLanguageAccentsInput from './input-language-accents-input';
-import InputLanguageAccentsList from './input-language-accents-list';
 
 interface Props {
   locale: string;
@@ -22,21 +21,13 @@ function InputLanguageAccents({
   setUserLanguages,
 }: Props) {
   return (
-    <>
-      <InputLanguageAccentsInput
-        locale={locale}
-        accentsAll={accentsAll}
-        userLanguages={userLanguages}
-        setUserLanguages={setUserLanguages}
-      />
-
-      <InputLanguageAccentsList
-        locale={locale}
-        accents={accents}
-        userLanguages={userLanguages}
-        setUserLanguages={setUserLanguages}
-      />
-    </>
+    <InputLanguageAccentsInput
+      locale={locale}
+      accentsAll={accentsAll}
+      userLanguages={userLanguages}
+      setUserLanguages={setUserLanguages}
+      accents={accents}
+    />
   );
 }
 

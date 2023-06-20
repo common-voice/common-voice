@@ -18,6 +18,8 @@ banner-error-slow-1 = Suref-aɣ, Common Voice iteddu s ttawil. Tanemmirt ɣef lw
 banner-error-slow-2 = Nremmes-d ddeqs n yisefka, dɣa aql-aɣ nettwali ansa i d-kkan wuguren-a.
 banner-error-slow-link = Asebter n waddaden
 error-something-went-wrong = Nesḥassef, yella wayen ur nteddu ara
+error-clip-upload = Tuzna n uklip-a tezga tettecceḍ, ad as-tɛawdeḍ?
+error-clip-upload-server = Tuzna n uklip-a tezga tettecceḍ deg uqeddac. Ales asali n usebter neɣ ɛreḍ tikkelt-nniḍen ticki
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -40,10 +42,13 @@ ba = Tabackirit
 bas = Basaa
 be = Tabilarusit
 bg = Tabulgarit
+bm = Tabumbrit
 bn = Tabengalit
+bo = Tatibitant
 br = Tabrutunt
 bs = Tabusnit
 bxr = Taburyat
+byv = Medumba
 ca = Takatalant
 cak = Kaqčikel
 ckb = Takurdit Talemmast
@@ -53,9 +58,11 @@ cs = Tačikit
 cv = Tačuvacit
 cy = Tagalit
 da = Tadanit
+dag = Dagbani
 de = Talmanit
 dsb = Sorbyan, Tamectuḥt
 dv = Tadhivhit
+dyu = Dioula
 el = Tagrigit
 en = Taglizit
 eo = Taspiruntit
@@ -75,6 +82,7 @@ gom = Goan Konkani
 ha = Tahawsit
 he = Taɛebrit
 hi = Tahendit
+hil = Tahiligaynunt
 hr = Takarwasit
 hsb = Sorbyan, Tameqqrant
 ht = Tahaysit
@@ -89,6 +97,7 @@ is = Taṣlandit
 it = Taṭelyanit
 izh = Tizhuryant
 ja = Tajapunit
+jbo = Lojban
 ka = Tajyuṛjit
 kaa = Karakalpak
 kab = Taqbaylit
@@ -97,6 +106,7 @@ ki = Kikuyu
 kk = Takazaxt
 km = Taxemṛit
 kmr = Takurdit Takurmanjit
+kn = Takannadit
 knn = Konkani (Devanagari)
 ko = Takurit
 kpv = Takumt Zyrian
@@ -105,6 +115,8 @@ ky = Takirgizt
 lb = Luxembourgish
 lg = Luganda
 lij = Taliguriant
+ln = Talingalat
+lo = Talawsit
 lt = Talitwaynit
 lv = Talitunit
 mai = Maïthili
@@ -124,12 +136,16 @@ my = Taburmisit
 myv = Erzya
 nan-tw = Taiwanese (Minnan)
 nb-NO = Tanuṛvijt Bokmål
+nd = IsiNdebele (Agafa)
 ne-NP = Tanipalit
 nia = Nias
 nl = Tahulandit
 nn-NO = Tanuṛvijt Nynorsk
+nr = IsiNdebele (Anẓul)
+nso = Ṣutu n Ugafa
 nyn = Nyankole
 oc = Tuksitant
+om = Afaan Ormoo
 or = Odia
 pa-IN = Tapenǧabit
 pap-AW = Tapapiyamant (Aruba)
@@ -147,6 +163,7 @@ sah = Tasaxit
 sat = Santali (Ol Chiki)
 sc = Tasardinit
 scn = Tasisiliyant
+sdh = Takurdit n unẓul
 shi = Tacelḥit
 si = Tasinhalit
 sk = Tasluvakt
@@ -155,6 +172,8 @@ sl = Tasluvinit
 so = Taṣumalit
 sq = Talbanit
 sr = Taṣirbit
+ss = Tasiswatit
+st = Ṣutu n Unẓul
 sv-SE = Taswidit
 sw = Taswayilit
 syr = Tasiryakt
@@ -166,11 +185,13 @@ ti = Tigrinya
 tig = Tatigrit
 tk = Taturkmant
 tl = Tagalugt
+tn = Twansa
 tok = Toki Pona
 tr = Taṭurkit
 tt = Taṭaṭarit
 tw = Tatwit
 ty = Tahesiant
+tyv = Tuvan
 uby = Tubyixt
 udm = Tudmurt
 ug = Tawigurt
@@ -180,12 +201,17 @@ uz = Tuzbikt
 vec = Taviṭnamit
 vi = Tavyiṭnamit
 vot = Tavutikt
+wo = Tawuluft
+xh = Taksuzit
 yi = Tayidict
 yo = Tayurubit
 yue = Takuntunit
+zgh = Tamaziɣit
 zh-CN = Tacinwat (Cinwa)
 zh-HK = Tacinwat (Hung Kung)
 zh-TW = Tacinwat (Taywan)
+zu = Tazulut
+zza = Zaza
 
 # [/]
 
@@ -197,6 +223,7 @@ speak-now = Mmeslay tura
 datasets = Tagrumma n yisefka
 languages = Tutlayin
 about = Anwa-aɣ
+partner = Amendid
 profile = Amaɣnu
 help = Tallelt
 contact = Nermes-aɣ-d
@@ -313,7 +340,6 @@ shortcut-discard-ongoing-recording-label = Sefsex asekles amiran
 shortcut-submit = Uɣal
 shortcut-submit-label = Azen tukkisin
 request-language-text = Ur tettwaliḍ ara tutlayt-ik di Common Voice yakan?
-request-language-text-learn = Lmed asuter-ines da!
 request-language-button = Suter tutlayt
 
 ## ProjectStatus
@@ -381,7 +407,9 @@ why-demographic = Ayɣer aya isεa azal?
 why-demographic-explanation-2 = Talɣut tusligt am laεmer, tuzuft, akked tmeslayt ad aɣ-d-mudden afus akken senqed isefka n umesli deg imesdayen n uεqal aɣectan. Isem-ik n useqdac akked imayl-inek werǧin ad ddun akked isefka ad ittwaznen, tzemreḍ daɣen ad terreḍ isem-inek n useqdec d aziraz neɣ d uslig.
 accept-privacy = Qebleɣ akken ad tesqedcem talɣut inu am akken yella deg <privacyLink>tsertit n tbaḍnit</privacyLink> n Mozilla.
 accept-privacy-title = Tasertit n tbaḍnit
+accept-privacy-and-terms = Qebleɣ <termsLink>Tiwtilin</termsLink> d <privacyLink> Tasertit n tbaḍnit </privacyLink> n Common Voice
 login-identity = Tinekkit n tuqna
+login = Qqen
 login-signup = Kcem / Jerred
 edit = Ẓreg
 email-subscriptions = Ajerred ɣer Imayl
@@ -447,7 +475,7 @@ faq-why-different-speakers-a =
     Tuget n taffiwin n yisefka n taɣect bnant ɣef kra n tdimugrafin, ayen i d-yeglan s kra n usmenyef i  <articleLink> irgazen d tneɣrit talemmast</articleLink>. Isusruyen akked tutlayin ur d-nettban ara  s waṭas d tid n yimdanen yuɣalen yakan deg rrif. Ihi, deg ṭaqa, timacinin ur zmirent ara ad ɛeqlent tuɣac n tlawin.
     Ɣef aya i nebɣa ddeqs n yisusruyen d yimdanen deg taffa-nneɣ n yisefka.
 faq-why-my-lang-q = Acuɣer tutlayt-iw ulac-itt yakan?
-faq-why-my-lang-new-a = Mozilla ur tferren ur tetteg maḥyaf gar tutlayin. Common Voice tqeddec deg-s terbaɛt n yimdanen seg umaḍal meṛṛa, maca laqen <multilangLink>ddeqs n yimecwaṛen i tmerna n tutlayt</multilangLink> daɣen ad yizmir umdan ad d-yelqeḍ tifyar. Deg tazwara, yessefk ad yettwasideg meṛṛa usmel web n Common Voice. Sakin, nesra ddeqs n yiḍrisen ilelliyen akken imdanen ad izmiren ad ten-id-ɣren. Ticki ihegga waya, tutlayt ad tekker deg Common Voice, daɣen imttekkiyen ad izmiren ad skelsen neɣ ad sneqden ikalasen. Ma tebɣiḍ ad tɛiwneḍ deg tmerniwt n tutlayt tamaynut, ddu ɣer <sentenceCollectorLink> afecku n uḥawec n ntefyar </sentenceCollectorLink> i wakken ad tebduḍ.
+faq-why-my-lang-a = Common Voice d tiɣerɣert yebnan ɣef yiɣbula n lɣaci, tutlayin ttwarnant sɣur yiwiziwen. Nebɣa ad d-ternuḍ tutlzyt-ik•im!           <languageRequestLink> Seqsi ɣef tmernz n tutlayt-ik•im.   </languageRequestLink>
 faq-what-quality-q = D acu-t uswir n tɣara n umeslaw i yelaqen i tukkisin yellan deg taffa n yisefka?
 faq-what-quality-a = Nessaram d akken tagrumma n yisefka Common Voice ad terr udem n tɣara tameslawt ara d-yemmager unagraw n taɣect deg tilawt, ihi nesra ddeqs n ususru yemgaraden. Ɣer tama n terbaɛt yemmalen amgarad wessiɛen n wid yettmeslayen, tagrumma n yisefka s tɣara timeslit yemgaraden ad iselmed amsedday n uɛqal n taɣect amek ara yegzu taɣect deg tudert n yal ass, ama s udiwenni deg ugilal neɣ ṣṣut n tkeṛṛust. Ma yella tukkisin ttwafhament, ihi yelha i tegrumma n yisefka.
 faq-why-10k-hours-q = Acuɣer iswi n 10 000 n yisragen imeslawen?
@@ -517,12 +545,6 @@ about-dataset-new = Tagrumma n yisefka Common Voice
 about-dataset-new-text = Tagrumma n yisefka Common Voice tegber timeyyatin n luluf n tukkisin n taɣect ara imudden i yineflayen afus deg usnefli n yifecka n uɛqal n taɣect.
 about-clip-graveyard = Tajebbant n tukkisin
 about-clip-graveyard-text = Tajebbant n tukkisin tegber tukkisin ur nettwaqbel ara deg tegrumma n yisefka Common Voice. Am uneggaru-a, tajebbant n tukkisin tella i usader.
-about-partners = Imendiden
-about-become-a-partner = Uɣal d amendid
-about-partnership =
-    Common Voice a asenfaṛ s uttekki daɣen nettkel ɣer terbaɛt-nneɣ n yimendiden akked imttekkiyen d timttekkiyin akken ad rnun tagrumma n yisefka n uɣbalu yeldin n taɣect tameqqrant deg umaḍal.
-    
-    Ad nesnemmer meṛṛa imdanen akked tuddsiwin-a ɣef tallelt deg usenfaṛ:
 about-get-involved = Ttekki
 about-get-involved-text-2 =
     Tebɣiḍ ad d-tefkkeḍ afus n tallelt deg uqaεed n Common Voice?
@@ -545,24 +567,35 @@ about-nav-playbook = Issin amek ara tekkiḍ
 
 about-playbook-what-is-language = D acu i d tutlayt deg Common Voice?
 about-playbook-what-is-language-content-1 = Ddeqs n yiberdan i yellan akken ad nxemmem ɣef tutlayin. I lmendad n tneɣrufin n uɛqal n taɣect, Common Voice yessumur aserked  n tmuɣli ɣef 'umɛiwen', neɣ 'ma zemren yimeɣriyen n tutlayt-a ad msefhamen gar-asen ma yella ɛerḍen'?
+about-playbook-what-is-language-content-2 = Nebɣa ad gerrzent tmudmin n umeslay deg tegzi gar yigrawen yemgaraden n yimutlayen. Akken ad d-yeḍru waya, isefra imeslawen yessefk ad d-snekden aṭas n yimdanen yemgaraden.
 about-playbook-what-is-language-content-3 = Kra n tutlayin ur-sent ddeqs n ubeddel deg tjerrumt, amawal akked usuru. ɣef waya <ctaLink>nsekcem-d ‘titanliyin’</ctaLink> deg 2022. Aya ad imudd i trebbaɛ abrid akken ad nsemgired tutlayin-nsen deg tegrumma meqqren.
 
 ## How do I add a language
 
 about-playbook-how-add-language = Amek ara rnuɣ tutlayt?
 about-playbook-how-add-language-content-1 = Deg tazwara, wali tutlayt-ik ma <languageLink>tella yakan</languageLink>. Ma ulac-itt, ilaq <strong>ad tseqleḍ asmel daɣen ad tleqḍeḍ tifyar</strong>.
-about-playbook-how-add-language-content-3 = <strong>Akken ad tleqḍeḍ tifyar</strong>: <scVideo> -  </scVideo> Jerred ɣer <scLink>Sentence Collector</scLink>.
+about-playbook-how-add-language-translating-heading = Asuqqel n usmel
+about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Wali Amnir-nneɣ ɣef wamek ara tesqedceḍ Ponroon. </translateVideoLink>
+about-playbook-how-add-language-translating-content-2 = Nesseqdac afecku n Mozilla iwumi neqqar <pontoonLink>Pontoon</pontoonLink> i tsuqqilin. Pontoon deg-s aṭas n tutlayin, ¶ maca ma ulac ayla-k•m tzemreḍ<pontoonRequestLink>ad tessutreḍ timerniwt n tutlayt-ik•im<pontoonRequestLink>.¶Syin, akken ad tili tutlayt deg usenfar n Common Voice, ¶<githubRepoLink> ssuter tutlayt tamaynut deg GitHub</githubRepoLink>. <localizationFragment> Ẓer ugar deg tasuqqilt n usmel </localizationFragment>.
+about-playbook-how-add-language-collecting-sentences-heading = Alqaḍ n tefyar
+about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>Wali Amnir-nneɣ ɣef wamek ara tesqedceḍ Sentencd Collector </sentenceCollectorVideo>
+about-playbook-how-add-language-collecting-sentences-content-2 = Tzemreḍ <sentenceCollectorLinkAdd> ad ternuḍ imḍanen meẓẓiyen n tefyar </sentenceCollectorLinkAdd>, neɣ tzemreḍ ad tafeḍ <bulkImportDocsLink>ikayaden seg Github </bulkImportDocsLink>. Cfu dakken tifyar ilaq ad ilint <licenseLink>CC0 (neɣ taɣunt tazayezt)</licenseLink>, neɣ tzemreḍ ad d-taruḍ ayla-k•m.
+about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>Issin ugar ɣef ulqaḍ n tefyar</sentenceCollectorFragment>
 
 ## How does localization work
 
 about-playbook-how-localize = Amek i tetteddu tsuqqilt n usmel?
 about-playbook-how-localize-content-1 = Tasuqqilt n usmel Common Voice tḍerru deg <strong>Pontoon</strong>.
+about-playbook-how-localize-content-2 = <pontoonAccountLink> Rnu amiḍan </pontoonAccountLink> ma ur tesɛiḍ ara. Syin, gren tutlayt-ik•im <strong>(' Tarbaɛt')</strong> syin gren asenfar, <pontoonCvLink> Common Voice</pontoonCvLink>. Ad ilin yifuyla i usuɣel. Sit ɣef yiwen, syin ad d-banen wawalen s teglizit d texxamt i usuɣl-nsen.
+about-playbook-how-localize-content-3 = Tasuqqilt seg tegnizit i tella, maca tzemreḍ ad teẓreḍ <strong>Isumar</strong> s tutlayin-nniḍen. Sit ɣef <strong> tignit Amaɣnu</strong>, syin <strong> useɣwen n Iɣewwaṛen </strong> ternuḍ tutlayin i tettmeslayeḍ. Deg teɣmert n ukessar, tama tayeffust ad tafeḍ tabdart n tsuqqilin isem-is <strong>Tutlayin</strong>. Tisuqqilin ad d-banent deg usmel seld yiwen n wass.
 about-playbook-how-localize-content-4 = Asmel ihegga akken ad yekker ticki yewweḍ ɣer 75%.
 about-playbook-how-localize-content-5 = Wali tavidyut-nneɣ n usegzi ara k-iɛiwnen
 
 ## How to add sentences
 
 about-playbook-how-add-sentences = Amek ara rnuɣ tifyar?
+about-playbook-how-add-sentences-content-1 = <strong>Sentencd Collector</strong> d afecku n ugar d usebter n tefyar n taɣult tazayezt. Ilaq <scAccountLink> ad ternuḍ amiḍan</scAccountLink>. Syin, rnu tutlayt-ik•im ɣer <strong> Amaɣnu-inek•inem</strong>. Tzemreḍ<strong>ad ternuḍ</strong> tifyar neɣ <strong> ad tesneqdeḍ</strong> tifyar yettwasnen yakan.
+about-playbook-how-add-sentences-content-2 = Tifyar ilaq ad ttwasneqdent syin ad ttwaqeblent sɣur sin n yimdanen akken ad ttwarnunt ɣer Common Voice. D kečč/kemm ara yernun iberdan n useqdec n tutlayt-ik•im <languageGuidelinesLink>da</languageGuidelinesLink>. Tifyar ilaq ad ilint deg <licenseLink> taɣult tazayezt</licenseLink> ur ttɛeddint ara 15 n wawalen. Tzemreḍ ad testeqsiḍ bab n uḍris akken ad t-tesqedceḍ ddaw turagt<waiverLink> CC0 s useqdec n ukala-nneɣ n wannuf</waiverLink>, syin azen-aɣ-t-id ɣer commonvoice@mozilla.com
 about-playbook-how-add-sentences-content-3 = Tzemreḍ ad tesqedceḍ <scraperLink>amakkas n tefyar</scraperLink> akken ad tleqḍeḍ tifyar meẓẓiyen seg Wikipédia.
 about-playbook-how-add-sentences-content-4 = Tifyaryettwaqeblen ad d-ffɣent yal larbɛa daɣen ad ilint wejdent i llqem i d-iteddun.
 
@@ -586,6 +619,7 @@ about-playbook-how-grow-language-content-6 = Amɛiwen n yiẓedwa
 
 about-playbook-how-validate = Amek ara teẓreḍ ma yella tukkist s taɣect ilaq ad tettwaqel?
 about-playbook-how-validate-content-1 = Ma tessiwḍeḍ ad <strong>asent-tesleḍ</strong> daɣen ad <strong>tent-tegzuḍ</strong>, sumata <strong> yelha ad tent-tqebleḍ</strong>.
+about-playbook-how-validate-content-2 = <strong> Ur ttagi ara iklipen ideg amutlay 'ɣur-s aɣdebbu' yemgaraden ɣef wayla-k•m</strong> - aya yesɛa azal iwakken ad yeddu akken ilaq uɛqal n taɣect i yal yiwen.
 about-playbook-how-validate-content-4 = Ma yella akalas yettwagi sɣur sin medden, ad d-yeffeɣ deg tegrumma tasnawant yemgaraden ɣef tegrumma n yisefka.
 
 ## How to access dataset
@@ -601,12 +635,6 @@ about-playbook-how-project-governance-content-4 = Atteki agrawan akked tgezmi de
 about-playbook-how-project-governance-content-5 = Azalen d usnemmer
 about-playbook-how-project-governance-content-6 = Tamasit icerken.
 about-playbook-how-project-governance-content-7 = <governanceLink>Issin ugar ɣef tenbaḍt-nneɣ</governanceLink>
-mycroft-title = Mycroft Ai
-mycroft-subtitle = Tigzi n tmacint
-mycroft-description =
-    Mycroft d amarag amenzu n uɣbalu yeldin deg umaḍal.
-    Mycroft yettwaselkam deg yal amḍiq - deg uselkim, deg tkeṛṛust, neɣ deg Raspberry Pi.
-mycroft-secondary-description = D aseɣzan neɣ d ahil n uɣbalu yeldin i tzemreḍ ad tbeddleḍ akken tebɣiḍ, ad tesnefliḍ neɣ ad tesnerniḍ. Mycroft yezmer ad yettwaseqdec deg tɣula meṛṛa, seg usenfaṛ ussnan neɣ aseɣẓan n tkebbanit.
 
 ## Glossary
 
@@ -688,6 +716,7 @@ confirm-size = Theggaḍ akken ad tebduḍ asader n <b>{ $size }</b>
 size-gigabyte = GAṬ
 size-megabyte = MAṬ
 confirm-no-identify = <b>Ad tqebleḍ</b> d akken ur tetttaɛreḍeḍ ara ad tafeḍ timagit n wid yettmeslayen deg tagrumma n yisefka Common Voice.
+confirm-join-mailing-list = Bɣiɣ ad rnuh ɣer tebdart n unermes n Common Voice
 download-language = Sader { $language }
 validated-hours = Isragen yettwasnetmen
 recorded-hours = Isragen yettwaskelsen
@@ -720,6 +749,7 @@ more = Ugar
 close = Mdel
 download = Sader
 dataset-version = Lqem
+clipboard-not-supported = Tacfawt ur tettusefrak ara
 
 ## Download Modal
 
@@ -786,7 +816,8 @@ language-search-input =
 language-speakers = Wid yettmeslayen
 localized = Yettwasideg
 sentences = Tifyar
-total-hours = Amḍan n yisragen
+language-validation-hours = Isragen
+language-validation-progress = Asesfer n usentem
 
 ## Contribution
 
@@ -840,8 +871,10 @@ listen-again-instruction = Igarrez uxeddim! <playIcon></playIcon> Sell-as tikelt
 listen-3rd-time-instruction = 2 d akesser <playIcon></playIcon> , kemmel ar zdat!
 listen-last-time-instruction = <playIcon></playIcon> d aneggaru!
 listen-empty-state = Ur nesɛi ara tukkisin ara nsenqed deg tutlayt-a...
+listen-loading-error = Ur nezmir ara ad d-awi aklip ameslay akken ad as-tesleḍ. ¶ Ttxil ɛreḍ tikkelt-nniḍen ticki.
 speak-empty-state = Ur nesɛi ara tifyar ara nsekles deg tutlayt-a...
 speak-empty-state-cta = Sumer-d tifyar
+speak-loading-error = Ur nezmir ara ad d-awi tifyar kken ara d-tessusruḍ. ¶ Ttxil ɛreḍ tikkelt-nniḍen ticki.
 record-button-label = Sekles taɣect-ik
 share-title-new = <bold>Mudd-aɣ-d afus</bold> ad d-naf tuɣac timaynutin
 keep-track-profile = rnu amaɣnu akken ad twaliḍ ayen txedmed
@@ -851,6 +884,10 @@ target-segment-generic-card = Tettekkaḍ deg teggayt tasaḍast
 target-segment-first-banner = Mudd tallalt i tmerna n taggayt tasaḍast tamezwarut n Common Voice deg { $locale }
 target-segment-add-voice = Rnu taɣect-ik.m
 target-segment-learn-more = Issin ugar
+
+## Contribution Nav Items
+
+contribute-voice-collection-nav-header = Alqaḍ n tuɣac
 
 ## Reporting
 
@@ -1152,6 +1189,7 @@ sc-logout-button = Ffeɣ
 ## HOME
 
 sc-home-title = Anṣuf ɣer Common Voice Sentence Collector
+sc-home-intro = Sentence Collector d aḥric seg <commonVoiceLink> Common Voice</commonVoiceLink>. Yettɛawan imettekkiyen ad d-gemren rnu ad snetmen tifyar yettwarnan sɣur temɣiwent. Tzemreḍ ad tesqedceḍ afecku-a daɣen i ukter d usizdeg n tegrummiwin n taɣult tazayezt timeẓẓyanin almi d tilemmasin i tufiḍ neɣ i d-tgemreḍ. Akk tifyar ilaq ad ilint deg taɣult tazayezt. Tifyar yettwaqeblen ad ttusifḍent yal imalas ɣer usarsay n Common Voice syin ad ttwasufɣent deg usmel Web n Common Voice deg yal afsar amaynut.
 sc-home-collect-title = Lqeḍ-d tifyar
 sc-home-collect-text = Mudd-aɣ-d afus s tira neɣ s ulqaḍ n tefyar tizuyaz.
 sc-home-review-title = Senqed tifyar
@@ -1169,14 +1207,22 @@ sc-howto-addsen-title = Rnu tifyar tmaynutin
 sc-howto-cite-title = Amek ara d-temmleḍ
 sc-howto-cite-item-1 = Tzemreḍ ad tsedduḍ asmel web, am. "Common Voice - https://commonvoice.mozilla.org/"
 sc-howto-review-title = Senqed tifyar
+sc-howto-review-subtitle = Ttḥeqs dakken tafyirt teḍfer isefranen-a:
 sc-howto-review-criteria-1 = Tafyirt ilaq ad tettwaru akken iwata.
 sc-howto-review-criteria-2 = Tafyirt ilaq ad tili d tameɣtut seg tama n tjerrumt.
+sc-howto-review-criteria-3 = Tafyirt ilaq ad tili tettwanṭaq.
 sc-howto-review-criteria-4 = Ma yella tafyirt deg-s akk isefranen, sit ɣef tqeffalt "Sentem".
+sc-howto-review-criteria-5 = Ma tafyirt ur teddu ara d yisefranen n ufella, sit ɣef tqeffalt "Agi". Mayella ur tettḥeqqeḍ ara ɣef tefyirt, tzemreḍ daɣen ad as-tɛeddiḍ akken ad tedduḍ ɣer tin i d-itteddun.
 sc-howto-review-criteria-6 = Ma yella ur tesɛiḍ ara tifyar ara tesneqdeḍ, efk-aɣ-d afus ad d-nelqeḍ ugar n tefyar!
 sc-howto-findpd-title = Tifin n tefyar yellan deg taqult tazayazt
 sc-howto-findpd-subtitle = Nadi-ten deg Internet
+sc-howto-findpd-text-2 = Cfu dakken nesra tasiregt akken ad d-nessufeɣ tifyar-nni, ihi ilaq ad tiliḍ dima tettḥeqqeḍ dakken aḍris yedda d <wikipediaLink>taɣult tazayezt</wikipediaLink>. Ma ulac timitar, nermes bab n uḍris testeqsiḍ-t ma yebɣa ad imudd aḍris-is i taɣult tazayezt. Ma yeqbel, ɛawen-it ad yeḍfer akal n umwata n Yittekkiyen. Ma ur yebɣu ara ad d-imudd aḍris-is, ihi ur tettusirgeḍ ara ad tesqedceḍ aḍris-nni.
 sc-howto-findpd-tips = Ha-ten-a kra n yiwellihen i tifin n tefyar:
+sc-howto-findpd-tips-1 = Iɣbula igerrzen i tzemreḍ ad tnadiḍ d ipudkasten, tirawin, isekripten n yisura d wayen akk izemren ad yegber tameslayt n yal ass.
+sc-howto-findpd-tips-2 = Tisekkirin, idlisen d yimagraden inabaḍanen lhan daɣen, maca imi aḍris d alɣawan ugar, mačči d ayen yezwawen.
+sc-howto-findpd-tips-3 = Nesḥassef imi ur nezmir ara ad nesɛu imagraden n Wikipedia taswiɛt-a. Ihi ur xeddem ara-nɣel senṭeḍ syin.
 sc-howto-findpd-subtitle-2 = Ttekki akked tkebbaniyin neɣ akked yimdanen i ak·akem-iqerben
+sc-howto-findpd-partner-1 = Llant aṭas n tuddsiwin tizayazin i izemren ad ttekkint, tid i yesɛan aṭas n yiḍrisen i zemrent ad d-muddent deg taɣult tazayezt. Rzu ɣer tesdawiyin tidiganin, tuddsiwin tinabaḍin d tid n uɣbalu yeldin akken ad asent-temmeslayeḍ ɣef usenfar, tessutreḍ-asent tallelt.
 
 ## MY SENTENCES
 
@@ -1245,6 +1291,7 @@ sc-add-err-failed =
        *[other] { $sentences } n tefyar ccḍent
     }
 sc-add-err-submission = Tuccḍa deg tuzna
+sc-add-lang-process-notice = Ma ulac tutlayt-ik deg tebdart-a, tzemreḍ ad tt-tessutreḍ deg <languageProcessLink> ukala-a </languageProcessLink>.
 
 ## ADD SENTENCES CONFIRMATION
 
@@ -1351,9 +1398,12 @@ sc-personal-not-added = Ur terniḍ ara yakan tutlayin.
 
 sc-criteria-modal = Tiwtilin n usenqed
 sc-criteria-title = Tiwtilin n usenqed
+sc-criteria-make-sure = Ttḥeqs dakken tafyirt teḍfer isefranen-a:
 sc-criteria-item-1 = Tafyirt ilaq ad tettwaru akken iwata.
 sc-criteria-item-2 = Tafyirt ilaq ad tili d tameɣtut seg tama n tjerrumt.
+sc-criteria-item-3 = Tafyirt ilaq ad tili tettwanṭaq.
 sc-criteria-item-4 = Ma yella tafyirt deg-s akk isefranen, sit ɣef tqeffalt &quot;Sentem&quot; yellan ɣef yeffus.
+sc-criteria-item-5-2 = Ma tafyirt ur teddi ara d yisefranen n ufella, sit ɣef tqeffalt &quot;Agi&quot; i yellan deg tama tazelmaḍt. Mayella ur tettḥeqqeḍ ara ɣef tefyirt, tzemreḍ daɣen ad as-tɛeddiḍ akken ad tedduḍ ɣer tin i d-itteddun.
 sc-criteria-item-6 = Ma yella ur tesɛiḍ ara tifyar ara tesneqdeḍ, efk-aɣ-d afus ad d-nelqeḍ ugar n tefyar!
 
 ## REVIEW
@@ -1408,3 +1458,45 @@ sc-validation-no-abbreviations = Ur ilaq ara tafyirt ad tegber asiwzel
 
 localization-select =
     .label = Fren tutlayt/tasuqqilt
+# PARTNERSHIPS PAGE
+partnerships-header = Imɛawanen
+partnerships-get-in-touch = Nermres-aɣ-d
+partnerships-become-a-partner = Uɣal d amendid n Common Voice
+partnerships-foundations-header = Tisbeddiyin
+partnerships-our-partners = Iwiziwen-nneɣ
+why-donate = Ayɣer i testeqsaḍ?
+add-information-button = Rnu talɣut
+create-profile-button = Rnu amaɣnu
+# GUIDELINES PAGE
+guidelines-header = Iwellihen n uttekki
+voice-collection = Alqaḍ n tuɣac
+sentence-collection = Alqaḍ n tefyar
+varying-pronunciations = Asenqed n tɣuri
+misreadings = Tuccḍa deg tɣuri
+background-noise = Lḥess n deffir
+background-voices = Lḥess n deffir
+volume = Ableɣ
+just-unsure = Tkukraḍ?
+example = Amedya
+misreadings-explanation-5 = Kra n temsertit tettwaɣra akken ur ilaq ara, am tčiḍdeg umḍiq n teččiḍ neɣ akken-nniḍen.
+misreadings-explanation-6 = Txuṣṣ taggara n wawal aneggaru seg unegzum n usekles s lemɣawla.
+misreadings-explanation-7 = Ɛreḍ acḥal n tikkal deg tɣuri n wawal.
+misreadings-example-1 = Ad nteddu ad nsew lqehwa.
+misreadings-example-3 = Ad nteddu ad nsew lqehwa deg beṛa.
+misreadings-example-4 = Inṭeq-d uẓru
+misreadings-tip-1 = [Ilaq ad yili ad nsew]
+misreadings-tip-2 = [Llan sin n 'ṛ' deg uḍris aneẓli]
+misreadings-tip-3 = [Tafyirt-a ur tesɛi ara lmeɛna]
+background-noise-example-1 = Adinuẓur ameqqran n Trias.
+still-have-questions = Ɣur-k yakan isteqsiyen?
+public-domain = Taɣult tazayazt
+adding-sentences = Timerna n tefyar
+citing-sentences-subheader-websites = Ismal web
+citing-sentences-subheader-websites-explanation = Tzemreḍ ad tsedduḍ asmel web, am. "Common Voice - https://commonvoice.mozilla.org/"
+citation =
+    .label = Abder
+adding-sentences-subheader-length = Teɣzi
+adding-sentences-subheader-numbers = Imḍanen
+adding-sentences-subheader-punctuation = Asigez
+reviewing-sentences-explanation-4 = Ma yella ur tesɛiḍ ara tifyar ara tesneqdeḍ, efk-aɣ-d afus ad d-nelqeḍ ugar n tefyar!
+community-announcement-header = Tamɣiwent

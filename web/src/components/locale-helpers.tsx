@@ -46,6 +46,12 @@ export function useContributableLocales() {
   return useTypedSelector(({ languages }) => languages.contributableLocales);
 }
 
+export function useContributableNativeNames() {
+  return useTypedSelector(
+    ({ languages }) => languages.contributableNativeNames
+  );
+}
+
 export function useLocalizedDiscourseURL() {
   const DISCOURSE_LOCALES = [
     'de',

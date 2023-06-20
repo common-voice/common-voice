@@ -36,9 +36,9 @@ ba = Bahasa Bashkir
 bas = Bahasa Basaa
 be = Bahasa Belarusia
 bg = Bahasa Bulgaria
-bm = Bahasa Bambara
 bn = Bahasa Bengali
 br = Bahasa Breton
+bs = Bahasa Bosnia
 bxr = Bahasa Buryat
 ca = Bahasa Katalan
 cak = Bahasa Kaqchikel
@@ -52,6 +52,7 @@ da = Bahasa Denmark
 de = Bahasa Jerman
 dsb = Bahasa Sorbia Hilir
 dv = Dhivehi
+dyu = Bahasa Dioula
 el = Bahasa Yunani
 en = Bahasa Inggris
 eo = Bahasa Esperanto
@@ -283,7 +284,6 @@ shortcut-rerecord-toggle-label = Rekam ulang klip
 shortcut-submit = Kembali
 shortcut-submit-label = Kirimkan klip
 request-language-text = Belum melihat bahasa Anda di Common Voice?
-request-language-text-learn = Pelajari cara mengajukannya di sini!
 request-language-button = Ajukan Bahasa
 
 ## ProjectStatus
@@ -352,6 +352,7 @@ skip-submission-description = Selama pengajuan kontribusi, saran akan dilewati s
 skip-submission-note = Catatan: Anda tetap harus memilih antara Bicara atau Dengarkan untuk mengubah jenis kontribusi.
 off = Nonaktif
 on = Aktif
+help-accent-explanation = Aksen Anda adalah cara Anda mengucapkan kata-kata. Hal ini dapat dibentuk oleh tempat tinggal Anda, bahasa lain yang Anda gunakan dan banyak faktor lainnya. Anda dapat berbagi informasi apa pun yang Anda rasa relevan di sini.
 
 ## Profile - Email
 
@@ -401,7 +402,6 @@ faq-why-different-speakers-a =
     Kebanyakan data wicara dilatih dengan representasi demografis tertentu yang terlalu berlebihan akan mengakibatkan bias terhadap <articleLink> pria dan kelas menengah </articleLink>. Aksen dan dialek yang cenderung kurang terwakili dalam set data pelatihan biasanya dikaitkan dengan kelompok orang yang sudah terpinggirkan. Banyak mesin juga kesulitan memahami suara wanita.
     Inilah sebabnya mengapa di data suara kami, kami menginginkan banyak variasi!
 faq-why-my-lang-q = Mengapa bahasa saya belum termasuk?
-faq-why-my-lang-new-a = Mozilla tidak memilih atau mengunggulkan bahasa mana pun di atas bahasa lainnya. Common Voice justru merupakan inisiatif yang murni digerakkan oleh komunitas, tetapi memang perlu <multilangLink>beberapa langkah untuk menambahkan bahasa</multilangLink> dan mulai mengumpulkan sumbangan suara. Pertama, situs web Common Voice perlu diterjemahkan sehingga anggota komunitas dapat mengakses pengalaman kontributor dalam bahasa mereka sendiri. Selanjutnya, kami butuh sejumlah besar kalimat bebas-hak-cipta untuk dibaca. Ketika kedua syarat ini terpenuhi, suatu bahasa akan "diluncurkan" di Common Voice agar banyak orang dapat segera merekam suara mereka dan memvalidasi sumbangan lainnya. Jika Anda ingin membantu meluncurkan bahasa baru, kunjungi <sentenceCollectorLink>perangkat pengumpulan kalimat</sentenceCollectorLink> kami untuk mengawali.
 faq-what-quality-q = Berapa tingkat kualitas audio yang diperlukan untuk klip suara yang akan digunakan dalam himpunan data?
 faq-what-quality-a = Kami ingin set data Common Voice mencerminkan kualitas audio yang akan didengar oleh mesin suara-ke-teks, jadi kami mencari banyak variasi. Selain komunitas pembicara yang beragam, data dengan kualitas audio yang bervariasi akan mengajarkan mesin suara-ke-teks untuk menangani berbagai situasi dunia nyata, dari pembicaraan di latar belakang hingga kebisingan mobil. Selama klip suara Anda dapat dipahami, itu sudah cukup untuk menjadi set data.
 faq-why-10k-hours-q = Mengapa 10.000 jam tervalidasi merupakan sasaran per bahasa untuk mengumpulkan data suara?
@@ -433,12 +433,11 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Mengapa Common Voice?
-about-subtitle = Common Voice adalah bagian dari inisiatif Mozilla untuk membantu mengajari mesin bagaimana manusia sebenarnya berbicara. Selain himpunan data Common Voice, kami juga membangun mesin pengenalan ucapan sumber terbuka yang disebut Deep Speech.
-about-header-description =
-    Kedua proyek ini adalah bagian dari upaya kami untuk menjembatani kesenjangan ucapan digital. Teknologi pengenalan suara membawa dimensi manusia ke perangkat kami, tetapi pengembang membutuhkan sejumlah besar data suara untuk membangunnya. Saat ini, sebagian besar datanya mahal dan eksklusif.
-    Kami ingin agar data suara bisa tersedia secara bebas dan untuk umum, serta memastikan bahwa data tersebut mewakili keragaman manusia sebenarnya. Kita bisa bersama-sama menjadikan pengenalan suara lebih baik bagi semua orang.
-how-does-it-work-title = Bagaimana cara kerjanya
+how-does-it-work-title-v2 = Bagaimana cara kerja Common Voice?
 how-does-it-work-text = Kami mengurundayakan penghimpunan data suara sumber terbuka. Sumbangkan suara Anda, validasi akurasi klip yang ada, jadikan himpunan data lebih baik bagi siapa saja.
+
+## How does it work section
+
 about-speak = Bicara
 about-speak-text = Kontributor merekam klip suara dengan membaca dari bank donasi kalimat.
 about-listen-queue = Antrean-Dengar
@@ -455,12 +454,6 @@ about-dataset-new = Himpunan Data Common Voice
 about-dataset-new-text = Himpunan Data Common Voice berisi ratusan ribu sampel suara yang membantu para pengembang membangun peralatan pengenalan suara.
 about-clip-graveyard = Kober Klip
 about-clip-graveyard-text = Kober Klip terdiri dari klip suara yang ditolak masuk ke himpunan data Common Voice. Sebagaimana himpunan data, Kober Klip juga tersedia untuk diunduh.
-about-partners = Mitra
-about-become-a-partner = Jadilah mitra
-about-partnership =
-    Common Voice adalah proyek kolaboratif, dan kami bergantung kepada komunitas mitra dan kontributor kami dalam membangun himpunan data suara sumber terbuka yang pernah ada.
-    
-    Kami ingin berterima kasih kepada orang-orang dan organisasi berikut atas bantuan mereka dalam proyek ini:
 about-get-involved = Mari berperan
 about-get-involved-text-2 =
     Ingin membantu menjadikan Common Voice lebih baik?
@@ -471,12 +464,34 @@ about-nav-why-common-voice = Mengapa?
 about-nav-how-it-works = Bagaimana?
 about-nav-partners = Mitra
 about-nav-get-involved = Mari berperan
-mycroft-title = Mycroft Ai
-mycroft-subtitle = Kecerdasan buatan
-mycroft-description =
-    Mycroft adalah asisten sumber terbuka pertama di dunia.
-    Mycroft berfungsi di mana saja - di komputer desktop, di dalam mobil, atau di Raspberry Pi.
-mycroft-secondary-description = Ini adalah perangkat lunak sumber terbuka yang dapat secara bebas dicampur aduk, diperluas, dan diperbagus. Mycroft dapat digunakan dalam segala hal mulai dari proyek sains hingga aplikasi perangkat lunak perusahaan.
+
+## Community Playbook Content
+## What is a language
+
+
+## How do I add a language
+
+
+## How does localization work
+
+
+## How to add sentences
+
+
+## How to record quality
+
+
+## How to grow language
+
+
+## How to validate
+
+
+## How to access dataset
+
+
+## How are decisions made
+
 
 ## Glossary
 
@@ -570,8 +585,6 @@ subscribe = Berlangganan
 get-started-speech = Memulai dengan Pengenalan Wicara
 other-datasets = Set Data Suara Lain
 feedback-q = Punya Saran?
-deepspeech-info = Kumpulan data Common Voice melengkapi mesin pengenalan suara open source Mozilla, Deep Speech, yang dapat Anda gunakan untuk membuat aplikasi pengenalan suara. Baca <githubLink> gambaran umum</githubLink>  Github kami atau bergabung dengan <discourseLink> Discourse DeepSpeech </discourseLink> untuk mempelajari cara memulai.
-common-voice-info-new = Punya pertanyaan seputar Common Voice? Gagasan penyempurnaan atau umpan balik tentang suatu bahasa tertentu? Bergabunglah bersama kami di <discourseLink>forum Discourse</discourseLink> dan beri tahu kami tentangnya.
 data-other-librispeech-description = LibriSpeech adalah sebuah korpus berdurasi sekitar 1000 jam dengan pembacaan teks berbahasa Inggris dalam frekuensi 16Khz yang berasal dari pembacaan buku audio dari proyek LibriVox.
 data-other-ted-name = TED-LIUM Corpus
 data-other-ted-description = Korpus TED-LIUM dibangun dari perbincangan audio dan naskah salinannya yang tersedia di situs web TED.
@@ -616,6 +629,9 @@ request-language-success-content = Kami akan tetap terhubung dengan lebih banyak
 select-language = Pilih Bahasa...
 other-language = Bahasa Lainnya
 
+## Request Language Pages
+
+
 ## Languages Overview
 
 language-section-in-progress = Sedang Diproses
@@ -631,7 +647,6 @@ language-search-input =
 language-speakers = Penutur
 localized = Telah dilokalkan
 sentences = Kalimat
-total-hours = Total Jam
 
 ## Contribution
 
@@ -831,6 +846,9 @@ why-delete-recordings =
     Bisakah Anda memberi tahu kami mengapa rekaman Anda ingin dihapus?
 profile-form-delete = Hapus Profil
 
+## Profile Download
+
+
 ## Landing
 
 welcome-staff = Selamat datang staf { $company }!
@@ -874,3 +892,62 @@ demo-listen-subtitle = Siap berkontribusi?
 
 demo-dashboard-card-header = Dasbor pribadi membuat Anda tetap terinformasikan dengan perkembangan individu dan komunitas.
 demo-dashboard-card-body = Untuk setiap klip suara yang disumbangkan, dan setiap klip audio divalidasi, dasbor akun Anda diperbarui untuk mencerminkan kemajuan terbaru dalam setiap bahasa yang Anda kontribusi. Ya, Anda dapat berkontribusi pada lebih dari satu bahasa!<br/><br/> Gunakan dasbor untuk melacak status Anda, lihat bagaimana Anda melakukannya bersama orang lain di komunitas, dan menetapkan sasaran kontribusi harian atau mingguan.
+
+## Validation criteria
+
+
+# Don't rename the following section, its contents are auto-inserted based on the name. These strings are
+# automatically exported from Sentence Collector.
+# [SentenceCollector]
+
+
+## HEADER/FOOTER
+
+
+## HOME
+
+
+## GENERAL
+
+
+## HOW-TO
+
+
+## MY SENTENCES
+
+
+## REJECTED
+
+
+## STATS
+
+
+## ADD
+
+
+## ADD LANGUAGE
+
+
+## ADD SENTENCES CONFIRMATION
+
+
+## LANGUAGE INFO
+
+
+## LOGIN
+
+
+## PROFILE
+
+
+## REVIEW CRITERIA
+
+
+## REVIEW
+
+
+## SETTINGS
+
+
+# [/SentenceCollector]
+

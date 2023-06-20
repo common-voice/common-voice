@@ -3,12 +3,14 @@ import Mysql, { getMySQLInstance } from './db/mysql';
 import Schema from './db/schema';
 import ClipTable, { DBClip } from './db/tables/clip-table';
 import VoteTable from './db/tables/vote-table';
+import * as Sentry from '@sentry/node';
 import {
   ChallengeToken,
   Sentence,
   TaxonomyToken,
   taxonomies,
   Language,
+  Datasets,
 } from 'common';
 import lazyCache from '../lazy-cache';
 const MINUTE = 1000 * 60;
@@ -23,7 +25,7 @@ const THREE_WEEKS = 3 * 7 * 24 * 60 * 60 * 1000;
 // Ref JIRA ticket OI-1300 - we want to exclude languages with fewer than 500k active global speakers
 // from the single sentence record limit, because they are unlikely to amass enough unique speakers
 // to benefit from single sentence constraints
-const SINGLE_SENTENCE_LIMIT = ['en', 'de', 'fr', 'kab', 'rw', 'ca', 'es'];
+const SINGLE_SENTENCE_LIMIT = ['en', 'de', 'fr', 'kab', 'rw', 'es'];
 
 const teammate_subquery =
   '(SELECT team_id FROM enroll e LEFT JOIN challenges c ON e.challenge_id = c.id WHERE e.client_id = ? AND c.url_token = ?)';
@@ -161,19 +163,28 @@ export default class DB {
     }
   }
 
-  async getSentenceCountByLocale(locales: string[]): Promise<any> {
+  async getSentenceCountByLocale(): Promise<
+    {
+      locale_id: number;
+      count: number;
+    }[]
+  > {
     const [rows] = await this.mysql.query(
       `
-        SELECT COUNT(*) AS count, locales.name AS locale, locales.target_sentence_count as target_sentence_count
-        FROM sentences
-        LEFT JOIN locales ON sentences.locale_id = locales.id
-        WHERE locales.name IN (?) AND sentences.is_used
-        GROUP BY locale
-      `,
-      [locales]
+      SELECT
+        COUNT(*) AS count,
+        locale_id
+      FROM
+        sentences
+      WHERE
+        sentences.is_used = 1
+      GROUP BY
+        locale_id;
+      `
     );
     return rows;
   }
+
   /**
    * Get valid and random clips per language
    * @param languageId
@@ -209,35 +220,34 @@ export default class DB {
   }
 
   async getSpeakerCount(
-    locales: string[]
-  ): Promise<{ locale: string; count: number }[]> {
+    localeIds: number[]
+  ): Promise<{ locale_id: number; count: number }[]> {
     return (
       await this.mysql.query(
         `
-        SELECT locales.name AS locale, COUNT(DISTINCT clips.client_id) AS count
+        SELECT clips.locale_id, COUNT(DISTINCT clips.client_id) AS count
         FROM clips
-        LEFT JOIN locales ON clips.locale_id = locales.id
-        WHERE locales.name IN (?)
-        GROUP BY locale
+        WHERE clips.locale_id IN (?)
+        GROUP BY clips.locale_id
       `,
-        [locales]
+        [localeIds]
       )
     )[0];
   }
 
-  async getDailySpeakerCount(
-    locales: string[]
-  ): Promise<{ locale: string; count: number }[]> {
+  async getTotalUniqueSpeakerCount(
+    localeIds: number[]
+  ): Promise<{ locale_id: number; count: number }[]> {
     return (
       await this.mysql.query(
         `
-        SELECT locales.name AS locale, COUNT(DISTINCT clips.client_id) AS count
-        FROM clips
-        LEFT JOIN locales ON clips.locale_id = locales.id
-        WHERE locales.name IN (?) AND created_at >= CURDATE() AND created_at < CURDATE() + INTERVAL 1 DAY
-        GROUP BY locale
+        SELECT temp.locale_id, COUNT(1) AS count
+        FROM (select c.locale_id, count(1) from clips c
+        WHERE c.locale_id IN (?)
+        GROUP BY c.client_id, c.locale_id) temp
+        GROUP BY temp.locale_id
       `,
-        [locales]
+        [localeIds]
       )
     )[0];
   }
@@ -389,6 +399,7 @@ export default class DB {
     locale: string,
     count: number
   ): Promise<DBClip[]> {
+    Sentry.captureMessage(`Find clips needing validation for ${locale} locale`, Sentry.Severity.Info)
     let taxonomySentences: DBClip[] = [];
     const locale_id = await getLocaleId(locale);
     const exemptFromSSRL = !SINGLE_SENTENCE_LIMIT.includes(locale);
@@ -402,6 +413,9 @@ export default class DB {
         count,
         prioritySegments
       );
+      Sentry.captureMessage(`There are ${prioritySegments.length} priority segments for ${locale} locale`, Sentry.Severity.Info)
+    } else {
+      Sentry.captureMessage(`There are 0 priority segments for ${locale} locale`, Sentry.Severity.Info)
     }
 
     const regularSentences =
@@ -413,7 +427,8 @@ export default class DB {
             count - taxonomySentences.length,
             exemptFromSSRL
           );
-
+    
+    Sentry.captureMessage(`There are ${regularSentences.length} regular sentences for ${locale} locale`, Sentry.Severity.Info)     
     return taxonomySentences.concat(regularSentences);
   }
 
@@ -703,21 +718,23 @@ export default class DB {
     original_sentence_id,
     path,
     sentence,
+    duration,
   }: {
     client_id: string;
     localeId: number;
     original_sentence_id: string;
     path: string;
     sentence: string;
+    duration: number;
   }): Promise<void> {
     try {
       const [{ insertId }] = await this.mysql.query(
         `
-          INSERT INTO clips (client_id, original_sentence_id, path, sentence, locale_id)
-          VALUES (?, ?, ?, ?, ?)
+          INSERT INTO clips (client_id, original_sentence_id, path, sentence, locale_id, duration)
+          VALUES (?, ?, ?, ?, ?, ?)
           ON DUPLICATE KEY UPDATE created_at = NOW()
         `,
-        [client_id, original_sentence_id, path, sentence, localeId]
+        [client_id, original_sentence_id, path, sentence, localeId, duration]
       );
       await this.mysql.query(
         `
@@ -745,23 +762,32 @@ export default class DB {
       console.error('error saving clip', e);
     }
   }
-
-  async getValidClipCount(
-    locales: string[]
-  ): Promise<{ locale: string; count: number }[]> {
+  async getAllClipCount(
+    localeIds: number[]
+  ): Promise<{ locale_id: number; count: number }[]> {
     const [rows] = await this.mysql.query(
       `
-        SELECT locale, COUNT(*) AS count
-        FROM (
-         SELECT locales.name AS locale
-         FROM clips
-         LEFT JOIN locales ON clips.locale_id = locales.id
-         WHERE locales.name IN (?) AND is_valid
-         GROUP BY clips.id
-        ) AS valid_clips
-        GROUP BY locale
+        SELECT locale_id, COUNT(*) AS count
+        FROM clips
+        WHERE locale_id IN (?)
+        GROUP BY locale_id
       `,
-      [locales]
+      [localeIds]
+    );
+    return rows;
+  }
+
+  async getValidClipCount(
+    localeIds: number[]
+  ): Promise<{ locale_id: number; count: number }[]> {
+    const [rows] = await this.mysql.query(
+      `
+        SELECT locale_id, COUNT(*) AS count
+        FROM clips
+        WHERE locale_id IN (?) AND is_valid
+        GROUP BY locale_id
+      `,
+      [localeIds]
     );
     return rows;
   }
@@ -929,21 +955,28 @@ export default class DB {
 
   async getLanguages(): Promise<Language[]> {
     const [rows] = await this.mysql.query(
-      `SELECT l.id, l.name, l.target_sentence_count as target_sentence_count, count(1) as total_sentence_count
+      `SELECT 
+      l.id, 
+      l.name, 
+      l.target_sentence_count as target_sentence_count, 
+      count(1) as total_sentence_count,
+      l.is_contributable
         FROM locales l
-        JOIN sentences s ON s.locale_id = l.id
+        LEFT JOIN sentences s ON s.locale_id = l.id
         GROUP BY l.id`
     );
     return rows.map(
       (row: {
         id: number;
         name: string;
+        is_contributable: boolean;
         target_sentence_count: number;
         total_sentence_count: number;
       }) => ({
         id: row.id,
         name: row.name,
-        sentenceCount: {
+        is_contributable: row.is_contributable,
+        sentencesCount: {
           targetSentenceCount: row.target_sentence_count,
           currentCount: row.total_sentence_count,
         },
@@ -955,6 +988,88 @@ export default class DB {
     const [rows] = await this.mysql.query(
       `SELECT *
         FROM locales l
+    `
+    );
+    return rows;
+  }
+
+  /**
+   * Get all datasets. Filterable by type (singleword, delta, complete)
+   *
+   * @param {string} releaseType
+   * @return {*}  {Promise<Language[]>}
+   * @memberof DB
+   */
+  async getAllDatasets(releaseType: string): Promise<Datasets[]> {
+    const [rows] = await this.mysql.query(
+      `SELECT 
+      l.id,
+      l.name,
+      l.release_dir,
+      l.multilingual,
+      l.bundle_date,
+      l.release_date,
+      l.total_clips_duration,
+      l.valid_clips_duration,
+      l.release_type,
+      ld.checksum,
+      ld.size,
+      l.download_path,
+      temp.languages_count
+        FROM datasets l
+        JOIN locale_datasets ld on l.id = ld.dataset_id
+        JOIN (
+          SELECT count(1) as languages_count, dataset_id
+          FROM locale_datasets xld
+          GROUP BY xld.dataset_id
+        ) temp ON temp.dataset_id = l.id
+        WHERE is_deprecated = false
+        ${releaseType ? ` AND release_type = ?` : ''}
+        GROUP BY l.id
+        ORDER BY l.release_date DESC
+    `,
+      [releaseType]
+    );
+    return rows;
+  }
+
+  async getLanguageDatasetStats(languageCode: string): Promise<Language[]> {
+    const [rows] = await this.mysql.query(
+      `SELECT
+      ld.id,
+      ld.dataset_id,
+      ld.locale_id,
+      ld.total_clips_duration,
+      ld.valid_clips_duration,
+      ld.average_clips_duration,
+      ld.total_users,
+      ld.size,
+      ld.checksum,
+      d.release_date,
+      d.name,
+      d.release_dir,
+      d.download_path
+    FROM
+      locale_datasets ld
+    JOIN datasets d ON
+      d.id = ld.dataset_id
+    WHERE
+      ld.locale_id = ?
+      AND d.release_type in ("complete", "delta")
+      AND d.is_deprecated = false
+    ORDER BY
+      d.release_date DESC
+    `,
+      [await getLocaleId(languageCode)]
+    );
+    return rows;
+  }
+
+  async getAllLanguagesWithDatasets(): Promise<Language[]> {
+    const [rows] = await this.mysql.query(
+      `SELECT DISTINCT l.name, l.id
+        FROM locale_datasets ld
+        JOIN locales l ON l.id = ld.locale_id 
     `
     );
     return rows;
@@ -1154,26 +1269,6 @@ export default class DB {
     } catch (error) {
       console.error(
         `Unable to insert downloader (error message: ${error.message})`
-      );
-    }
-  }
-
-  async createReport(
-    client_id: string,
-    {
-      kind,
-      id,
-      reasons,
-    }: { kind: 'clip' | 'sentence'; id: string; reasons: string[] }
-  ) {
-    const [table, column] =
-      kind == 'clip'
-        ? ['reported_clips', 'clip_id']
-        : ['reported_sentences', 'sentence_id'];
-    for (const reason of reasons) {
-      await this.mysql.query(
-        `INSERT INTO ${table} (client_id, ${column}, reason) VALUES (?, ?, ?)`,
-        [client_id, id, reason]
       );
     }
   }

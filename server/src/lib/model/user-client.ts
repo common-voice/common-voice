@@ -497,7 +497,20 @@ const UserClient = {
     );
     return reduceLanguages(user);
   },
-
+  async saveAnonymousAccountLanguages(
+    client_id: string,
+    languages: UserLanguage[]
+  ) {
+    if (languages) {
+      await Promise.all([
+        updateLanguages(client_id, languages),
+        updateVariants(client_id, languages),
+      ]);
+    }
+    return {
+      client_id,
+    };
+  },
   async saveAccount(
     email: string,
     { client_id, languages, ...data }: UserClientType

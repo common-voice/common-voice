@@ -1,3 +1,7 @@
+#speak-page {
+    width: 100%;
+}
+
 .contribution.speak {
     & .error .instruction {
         color: var(--red);
@@ -17,7 +21,7 @@
 
     .instrunction {
         svg {
-            margin:  0 2px 0 7px;
+            margin: 0 2px 0 7px;
         }
     }
     .unsupported {

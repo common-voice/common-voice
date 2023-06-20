@@ -30,7 +30,7 @@ const GetStartedResource = React.memo((props: any) => {
 
   return (
     <div key={id} className="box">
-      <img src={require(`${image}`)} alt="" />
+      <img src={require(`${image}`)} alt="" role="presentation" />
       <div className="dots-and-content">
         <Dots backgroundColor={'var(--lighter-grey)'} space={20} />
         <div className="content">
@@ -59,7 +59,7 @@ const Dataset = React.memo(
     const [collapsed, setCollapsed] = useState(true);
     return (
       <div className="other-dataset box">
-        <img src={require(`./images/${id}.jpg`)} alt="" />
+        <img src={require(`./images/${id}.jpg`)} alt="" role="presentation" />
         <div className="dataset-banner" style={{ backgroundColor: color }} />
         <div className="dots-and-content">
           <Dots backgroundColor={'var(--lighter-grey)'} space={20} />
@@ -190,7 +190,11 @@ const Resources = () => {
           name={NAV_IDS.feedback}
           onChangeIntersection={handleIntersectionChange}>
           <div className="box feedback">
-            <img src={require('./images/feedback.png')} alt="" />
+            <img
+              src={require('./images/feedback.png')}
+              alt=""
+              role="presentation"
+            />
             <div className="dots-and-content">
               <Dots backgroundColor={'var(--lighter-grey)'} space={20} />
               <div className="content">

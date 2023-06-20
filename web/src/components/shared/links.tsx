@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-has-content */
 import * as React from 'react';
 import { useState } from 'react';
 import { TextButton } from '../ui/ui';
@@ -11,6 +12,7 @@ interface SharedLinkProps {
   children?: React.ReactNode;
   className?: string;
   dispatch?: any;
+  style?: any;
 }
 
 export const GitHubLink = ({ dispatch, ...props }: SharedLinkProps) => {
@@ -21,6 +23,26 @@ export const GitHubLink = ({ dispatch, ...props }: SharedLinkProps) => {
       href={`${URLS.GITHUB_ROOT}`}
       rel="noopener noreferrer"
       onClick={() => trackGlobal('github', locale)}
+      {...props}
+    />
+  );
+};
+
+export const DeltaReadMoreLink = ({
+  dispatch,
+  style,
+  className,
+  ...props
+}: SharedLinkProps) => {
+  const [locale] = useLocale();
+  return (
+    <a
+      className={className}
+      style={style}
+      target="_blank"
+      href={`${URLS.MOZILLA_BLOG_ROOT}/iterating-dataset-access-on-common-voice`}
+      rel="noopener noreferrer"
+      onClick={() => trackGlobal('blog', locale)}
       {...props}
     />
   );
@@ -71,3 +93,14 @@ export const ContactLink = ({ dispatch, ...props }: SharedLinkProps) => {
     </>
   );
 };
+
+export const EmailLink = ({ ...props }: SharedLinkProps) => {
+  return (
+    <a
+      href="mailto:commonvoice@mozilla.com"
+      target="_blank"
+      rel="noreferrer"
+      {...props}
+    />
+  )
+}

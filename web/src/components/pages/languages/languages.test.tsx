@@ -8,30 +8,34 @@ expect.extend(toHaveNoViolations);
 
 import LanguagesPage from './languages';
 
-const MOCK_LANGUAGE_STATS = {
-  launched: [
-    {
-      locale: 'ab',
-      recordedHours: 800,
-      sentencesCount: {
-        currentCount: 3000,
-        targetSentenceCount: 5000,
-      },
-      speakersCount: 500,
-      validatedHours: 1000,
+const MOCK_LANGUAGE_STATS = [
+  {
+    id: 1,
+    is_contributable: 1,
+    sentencesCount: {
+      targetSentenceCount: 5000,
+      currentCount: 1576279,
     },
-  ],
-  inProgress: [
-    {
-      locale: 'ace',
-      localizedPercentage: 15,
-      sentencesCount: {
-        currentCount: 87,
-        targetSentenceCount: 750,
-      },
+    localizedPercentage: 0,
+    recordedHours: 1,
+    validatedHours: 1,
+    speakersCount: 23,
+    locale: 'en',
+  },
+  {
+    id: 11,
+    is_contributable: 1,
+    sentencesCount: {
+      targetSentenceCount: 750,
+      currentCount: 1576,
     },
-  ],
-};
+    localizedPercentage: 63,
+    recordedHours: 0,
+    validatedHours: 0,
+    speakersCount: 0,
+    locale: 'ast',
+  },
+];
 
 // mock api
 const mockFetchCrossLocaleMessages = jest.fn(() => Promise.resolve([]));

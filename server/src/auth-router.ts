@@ -129,7 +129,9 @@ router.get(
     };
 
     if (state && typeof state === 'string') {
-      currentState = JSON.parse(AES.decrypt(state, SECRET).toString(enc.Utf8));
+      const bytes = AES.decrypt(state, SECRET);
+      const decryptedData = bytes.toString(enc.Utf8);
+      currentState = JSON.parse(decryptedData);
     }
 
     const { locale, old_user, old_email, redirect, enrollment } = currentState;

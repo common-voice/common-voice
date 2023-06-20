@@ -14,6 +14,10 @@ email-opt-in-info-sub-with-challenge = 接收挑戰及目標提醒、進度更�
 email-opt-in-privacy-v2 = 選擇接收電郵意味住閣下同意 Mozilla 根據<privacyLink>私隱政策</privacyLink>嚟處理呢啲個人數據。
 indicates-required = ＊表示必填
 not-available-abbreviation = 唔適用
+banner-error-slow-1 = 對唔住，Common Voice 運行得好慢。多謝你嘅耐心等待。
+banner-error-slow-2 = 我哋有太多流量湧入嚟喇，而家仲調查緊發生咗啲咩事。
+banner-error-slow-link = 狀態頁面
+error-something-went-wrong = 對唔住，出咗啲問題
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -176,14 +180,15 @@ yue = 粵語
 zh-CN = 中文（中國大陸）
 zh-HK = 中文（香港）
 zh-TW = 中文（台灣）
+zu = 祖魯語
 
 # [/]
 
 
 ## Layout
 
-speak = 講話
-speak-now = 而家講話
+speak = 錄音
+speak-now = 請開聲講
 datasets = 數據集
 languages = 所有語言
 about = 介紹
@@ -327,6 +332,9 @@ profile-form-additional-language =
     .label = 其他語言
 profile-form-language =
     .label = 語言
+profile-form-variant =
+    .label = 你講緊嘅係 { $language } 嘅邊種方音？
+profile-form-variant-default-value = 未揀方音
 profile-form-accent =
     .label = 口音
 profile-form-custom-accent-help-text =
@@ -378,6 +386,8 @@ off = 閂
 on = 開
 help-accent = 需要口音方面嘅更多定義？
 help-accent-explanation = 口音係指你對一個詞彙發音嘅方式。口音通常受成長地、講開嘅其它語言以及其它因素影響而成。你可以喺呢度寫低有關詳情。
+help-variants = 喺方音方面使唔使幫手？
+help-variants-explanation = 方音/變體係一種語言嘅具體形式，佢由生活喺某一個地域或者社區嘅人共享，有時被稱之為方言。
 
 ## Profile - Email
 
@@ -386,8 +396,9 @@ browse-file = 拖落呢度，或<browseWrap>瀏覽</browseWrap>
 connect-gravatar = 連結 Gravatar
 gravatar_not_found = 揾唔到你電郵所屬嘅 Gravatar
 file_too_large = 檔案過大
-avatar-uploaded = Avatar 已上載
+avatar-uploaded = 肖像已上載
 max-file-size = { $kb } kb 上限
+remove-avatar = 刪除肖像
 
 ## Profile - Email
 
@@ -468,12 +479,21 @@ how-does-it-work-text = 我哋整緊一個開源嘅聲音資料集。一齊幫�
 
 ## How does it work section
 
+about-localization-title = 網站本地化
+about-sentence-collection-title = 句子收集
+about-new-lang-title = 新語言發佈
+about-new-lang-subtitle = 我哋發佈呢種語言嘅 Common Voice 頁面。
+about-voice-contrib-title = 錄音捐聲
+about-voice-contrib-subtitle = 個個人都嚟貢獻佢哋自己把聲。
+about-voice-validation-title = 驗證錄音
+about-voice-validation-subtitle = 其他人驗證呢啲錄音片段。
+about-dataset-release-title = 數據集發佈
 about-subscribe-text = 想及時跟進 Common Voice ？
 about-speak = 講
 about-speak-text = 貢獻者會錄低由句庫抽出嚟嘅句子。
 about-listen-queue = 聆聽隊列
 about-listen-queue-text = 錄音片段會拎去排隊準備畀人去聽。
-about-listen = 聽
+about-listen = 聽聲
 about-listen-text = 用户會核實錄音嘅準確度，睇下朗讀者有冇正確讀出句子。
 about-is-it-valid = 段錄音有冇效？
 about-is-it-valid-text = 當用户畀咗一票「啱」，段錄音會標做「有效」
@@ -490,6 +510,8 @@ about-get-involved-text-2 =
     想幫手令 Common Voice 計劃變得更好？
     太好喇！請用電郵或者 <discourseLink>Discourse</discourseLink> 論壇聯絡我哋，或者喺 <githubLink>GitHub</githubLink> 上面提交網站問題，或者加入 
     <matrixLink>Matrix</matrixLink> 群組傾偈。
+about-stay-in-touch = 點樣保持聯繫？
+about-stay-in-touch-button = 註冊
 about-nav-why-common-voice = 點解？
 about-nav-how-it-works = 點樣？
 about-nav-partners = 合作夥伴
@@ -504,6 +526,9 @@ about-playbook-what-is-language = Common Voice 度嘅一門語言係指乜？
 
 ## How do I add a language
 
+about-playbook-how-add-language = 我點樣新加一隻語言？
+about-playbook-how-add-language-translating-heading = 繙譯本站
+about-playbook-how-add-language-collecting-sentences-heading = 收集句子
 
 ## How does localization work
 
@@ -516,6 +541,7 @@ about-playbook-what-is-language = Common Voice 度嘅一門語言係指乜？
 
 ## How to grow language
 
+about-playbook-how-grow-language-content-4 = 社交媒體
 
 ## How to validate
 
@@ -525,7 +551,9 @@ about-playbook-what-is-language = Common Voice 度嘅一門語言係指乜？
 
 ## How are decisions made
 
+about-playbook-how-project-governance-content-2 = 我哋嘅管治係建基於：
 about-playbook-how-project-governance-content-3 = 私隱、安全同透明度。
+about-playbook-how-project-governance-content-4 = 社群參與同決策。
 
 ## Glossary
 
@@ -584,6 +612,7 @@ review-delete-recordings = 刪除我嘅錄音
 
 ## Datasets Page
 
+datasets-heading = 數據集
 datasets-headline = 我哋想建立一套開放原始碼、多重語言嘅語音數據集，令到任何人都可以用來開發同語音相關嘅應用。
 datasets-positioning =
     我哋相信如果有一組大規模、公開嘅語音數據集，會奠定以機器學習為基礎嘅語音技術上嘅創新，同埋健康嘅商業競爭。
@@ -592,6 +621,8 @@ datasets-positioning =
     
     閣下可於該頁面揾到其他開放原始碼嘅語音數據集。隨住 Common Voice 持續成長，我哋也會喺呢處張貼更新資訊。
 language = 語言
+download-dataset-header = 下載數據集
+download-delta-explainer = 我哋有少少調整，新增部分（Delta Segments）剩係包含上次發佈之後新加嘅錄音。<deltaLink>了解更多呢部分嘅調整</deltaLink>。
 # File size in gigabytes
 size = 數據庫大細
 validated-hr-total = 已驗證錄音（小時）
@@ -670,6 +701,11 @@ other-language = 其他語言
 
 ## Request Language Pages
 
+request-language-heading = 申請加入新語言
+request-language-form-email =
+    .label = 閣下電郵地址
+request-language-form-info =
+    .label = 呢種語言嘅資料
 
 ## Languages Overview
 
@@ -683,16 +719,18 @@ language-meter-in-progress = 進展
 language-total-progress = 總共
 language-search-input =
     .placeholder = 揾
-language-speakers = 講者
+language-speakers = 獻聲人數
 localized = 已被本地化
 sentences = 句子
+language-validation-hours = 個鐘
+language-validation-progress = 驗證進度
 
 ## Contribution
 
 action-click = 撳
 action-tap = 敲
 contribute = 貢獻
-listen = 聽
+listen = 聽聲
 skip = 跳過
 shortcuts = 捷徑
 clips-with-count-pluralized =
@@ -736,7 +774,8 @@ listen-instruction = { $actionType }<playIcon></playIcon>佢哋講得準唔準�
 listen-again-instruction = 好嘢！<playIcon></playIcon> 準備好就可以再聽多次
 listen-3rd-time-instruction = 完成兩筆喇 <playIcon></playIcon>，繼續加油！
 listen-last-time-instruction = <playIcon></playIcon> 最後一個！
-listen-empty-state = 呢個語言嘅錄音都已經驗晒啦⋯⋯
+listen-empty-state = 呢個語言嘅錄音都已經驗證晒喇……
+listen-loading-error = 我哋冇晒錄音畀你聽嘞，遲啲再試啦。
 speak-empty-state = 呢個語言可以錄嘅句子已經錄晒啦⋯⋯
 speak-empty-state-cta = 貢獻句子
 record-button-label = 錄低你把聲
@@ -748,6 +787,9 @@ target-segment-generic-card = 你現正貢獻緊錄音畀一個目標細分群�
 target-segment-first-banner = 幫 Common Voice 創立 { $locale } 嘅第一個目標細分群體
 target-segment-add-voice = 加入你嘅聲音
 target-segment-learn-more = 了解更多
+
+## Contribution Nav Items
+
 
 ## Reporting
 
@@ -917,6 +959,7 @@ download-request-modal-title = 下載連結
 download-request-modal-description = 下列係你嘅 ZIP 檔下載鏈結。
 download-request-link-text = { $total } 個 zip 檔中嘅第 { $offset } 個
 download-request-metadata-link = 句子文本
+download-request-link-single = 閣下亦可以喺自己想用嘅下載工具中貼上 direct URLs 以下載檔案。呢啲 URLs 嘅有效期為12個鐘。閣下可隨時再次訪問本頁面以獲取新嘅 URLs。
 
 ## Landing
 
@@ -988,6 +1031,7 @@ contribution-misreadings-example-6-title = 我哋咪出去飲咖啡。
 contribution-misreadings-example-6-explanation = [應該要係「唔係」]
 contribution-misreadings-example-7-title = 我哋唔係出去飲咖啡啊。
 contribution-misreadings-example-7-explanation = [原本冇「啊」]
+contribution-misreadings-example-8-title = 噷……
 contribution-misreadings-example-8-explanation = [唔關事嘅內容]
 contribution-varying-pronunciations-title = 發音差異
 contribution-varying-pronunciations-description = 拒批錄音嗰陣要審慎一啲，尤其係因為讀錯，文白異讀，變調，漏咗個問號拉高等等問題。世界上有好多唔同嘅發音，有啲人嘅習慣同你可能有啲啲唔同。請理解同包容一啲講嘢方式同你有少少唔同嘅朋友。
@@ -1061,8 +1105,11 @@ sc-howto-addlang-title = 增加使用語言
 sc-howto-addlang-text = 登入後，你可以喺個人資料中揀自己嘅語言。
 sc-howto-addsen-title = 添加新句子
 sc-howto-addsen-item-1 = 所有語句必須符合<wikipediaLink>公共領域 (CC-0) 許可證</wikipediaLink>嘅規範。對於包含非公共領域牌照規範嘅內容，我哋會以<cc0WaiverLink>貢獻者協議模板</cc0WaiverLink>嚟接受由版權持有者貢獻嘅內容。
+sc-howto-addsen-item-2 = 數字嘅問題：源文本中唔應該出現數字，因為數字可能會導致朗讀方面出問題。 數字嘅讀法會因上下文而有所不同，可能會導致數據集出現混淆。例如，數字「2409」可以被讀作「二四零九」或者「二千四百零九」。
 sc-howto-cite-title = 點樣引用
 sc-howto-review-title = 審核句子
+sc-howto-review-criteria-2 = 句子要符合語法。
+sc-howto-review-criteria-3 = 句子要係讀得出嘅。
 
 ## MY SENTENCES
 

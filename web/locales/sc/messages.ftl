@@ -205,7 +205,7 @@ help = Agiudu
 contact = Cuntatu
 privacy = Riservadesa
 terms = Cunditziones
-cookies = Cookies
+cookies = Testimòngios
 faq = PF
 content-license-text = Cuntenutu a disponimentu a suta de sa <licenseLink>lissèntzia Creative Commons</licenseLink>
 share-title = Agiuda·si a agatare àtera gente chi podet donare sa boghe sua!
@@ -441,9 +441,9 @@ faq-why-important-a =
     Chistionare est a s'ispissu su prus manera naturale de comunicare e is tecnologias de boghe sunt introduinde custa facultade fintzas in is elaboradores e dispositivos mòbiles nostros. Bolimus cunsentire a is isvilupadores de creare aplicatziones ispantosas noas basadas in su reconnoschimentu de boghe, comente a tradutores a in tempus reale e assistentes digitales. Atualmente sa majoria de is datos de boghe chi serbint pro custa genia de aplicatziones sunt caros e propietàrios. Cun su pachete de datos de Common Voice bolimus frunire a is isvilupadores is resursas netzessàrias pro innovare e torrare sa tecnologia de boghe disponìbile in sa pròpia limba.
     
     Pro torrare su reconnoschimentu de boghe ancora prus universale, semus collinde mustras de boghe in is limbas prus comunas, ma fintzas in cussas chistionadas dae unu nùmeru de persones minore e chi a s'ispissu benint innioradas dae is servìtzios de reconnoschimentu de boghe cummertziales. Sa publicatzione de unu pachete de boghes diversu at a cunsentire a is isvilupadores, is imprendidores e a intreas comunidades linguìsticas de afrontare custa mancàntzia issos etotu.
-faq-how-get-q = Comente potzo otènnere is datos de Common Voices?
+faq-how-get-q = Comente potzo otènnere is datos de Common Voice?
 faq-how-get-a = Su pachete de datos de Common Voice podet èssere iscarrigadu a suta de sa lissèntzia <licenseLink>CC0</licenseLink> dae sa <datasetLink>pàgina Pachetes de datos</datasetLink> nostra. Dae cussa, podes fintzas iscarrigare meda àteros pachetes de datos chi sunt a disponimentu in manera pùblica.
-faq-when-release2-q = Cando as a publicare is datos de Common Voice in àteras limbas?
+faq-when-release2-q = Cando ais a publicare is datos de Common Voice in àteras limbas?
 faq-when-release2-a = Sa versione multilìngue de su pachete de datos de Common Voice est a oe in fase de regollida e limpiesa cun s'apògiu de sa comunidade. Si nos bolides agiudare a agiùnghere limbas noas a su Common Voice, bidide s'<sentenceCollectorLink>aina de regollida de frases</sentenceCollectorLink> pro agiùnghere frases noas a su pachete de datos, e <pontoonLink>Pontoon</pontoonLink>, de Mozilla, pro bortare su situ web de su progetu. Is limbas noas ant a èssere agiuntas a Common Voice e ant a pòdere comintzare a retzire cuntributos de boghe cando 5.000 frases ant a èssere regòllidas e aprovadas.
 faq-why-mission-q = Pro ite Common Voice est parte de sa missione de Mozilla?
 faq-why-mission-a = Sa missione de Mozilla est sa de mantènnere su web abertu e atzessìbile a totus. Custu includet fintzas de frunire is oportunidades a is autores de cuntenutos web tràmite progetos comente a Common Voice. Immoe chi is tecnologias de boghe non sunt prus aplicatziones  ispetzialitzadas, pensamus chi diant dèpere èssere disponìbiles pro totus sena peruna discriminatzione. Custu signìficat de investire in prus limbas, prus diversidade de atzentos e de datos demogràficos in su protzessu de costrutzione e de verìfica de is tecnologias dee boghe. Common Voice est una resursa pùblica disponìbile pro totus: is iscuadras de Mozilla e is isvilupadores in totu su mundu ddu sunt giai impreende pro is progetos issoro.
@@ -637,6 +637,7 @@ review-delete-recordings = Cantzella is registratziones mias
 
 ## Datasets Page
 
+datasets-heading = Pachetes de datos
 datasets-headline = Semus istantargende unu pachete multilìngue de datos vocales abertos chi totus podent impitare pro allenare aplicatziones cun suportu vocale.
 datasets-positioning =
     Creimus chi pachetes de datos mannos e a disponimentu de totus promovant s'innovatzione e una cumpetitzione cummertziale sana in sa tecnologia vocale basada in s'imparu de is màchinas.
@@ -723,6 +724,16 @@ other-language = Àtera limba
 
 ## Request Language Pages
 
+request-language-heading = Pedi una lìngua noa
+request-language-form-email =
+    .label = S'indiritzu tuo
+request-language-form-info =
+    .label = Informatzione in pitzus de sa lìngua
+request-language-form-info-explanation = Su màssimu de informatzione chi podes frunire pro custa lìngua, comente:
+request-language-form-info-explanation-list-1 = Nòmines de sa lìngua
+request-language-form-info-explanation-list-2 = <isoCodeLink>Còdighes ISO</isoCodeLink>, si nde tenet
+request-language-form-info-explanation-list-3 = Ligòngios a sitos web chi nos podent agiudare a cumprèndere sa lìngua
+request-language-google-recaptcha-required = reCAPTCHA rechesta si boles sighire
 
 ## Languages Overview
 
@@ -787,7 +798,7 @@ record-abort-text = Si essis immoe as a pèrdere su progressu chi as fatu
 record-abort-submit = Imbia registratziones
 record-abort-continue = Acabba sa registratzione
 record-abort-delete = Essi e cantzella is registratziones
-listen-instruction = { $actionType }<playIcon></playIcon> ant lèghidu in manera curreta sa frase?
+listen-instruction = { $actionType }<playIcon></playIcon> si ant lèghidu in manera curreta sa frase.
 listen-again-instruction = Bonu traballu!<playIcon></playIcon> Torra a ascurtare cando ses prontu
 listen-3rd-time-instruction = 2 giai fatas, sighi aici!<playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon>Ùrtima!
@@ -864,7 +875,7 @@ validated-clips = Registratziones validadas
 total-approved = Totale de aprovados
 overall-accuracy = Pretzisione globale
 set-visibility = Cunfigura sa visibilidade mea
-visibility-explainer = Custa cunfiguratzione controllat sa visibilidade tua in sa classìfica. Si est cuada su progressu tuo at a èssere privadu. Custu bolet nàrrere chi s'immàgine tua, su nòmine usuàriu tuo e su progressu tuo no ant a apàrrere in sa classìfica. Tene in contu chi in s'annoamentu de sa classìfica ci bolent { $minutes } pro acabbare cun totu is modìficas.
+visibility-explainer = Custa cunfiguratzione controllat sa visibilidade tua in sa classìfica. Si est cuada su progressu tuo at a èssere privadu. Custu bolet nàrrere chi s'immàgine tua, su nòmine usuàriu tuo e su progressu tuo no ant a apàrrere in sa classìfica. Tene in contu chi in s'annoamentu de sa classìfica nci bolent { $minutes } minutos pro acabbare cun totu is modìficas.
 visibility-overlay-note = Dae cara: cando est impostada comente 'Visìbile', custa cunfiguratzione si podet cambiare dae sa <profileLink>pàgina de profilu</profileLink>
 show-ranking = Ammustra sa positzione mea
 

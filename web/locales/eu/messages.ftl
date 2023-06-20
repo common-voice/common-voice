@@ -11,11 +11,15 @@ loading = Kargatzen…
 email-opt-in-info = Common Voice-ri buruzko helburuen abisuak, nire aurrerapenaren eguneraketak eta buletinak jaso nahi ditut posta elektroniko bidez.
 email-opt-in-info-title = Batu Common Voice posta-zerrendara
 email-opt-in-info-sub-with-challenge = Jaso posta elektroniko bidez Common Voice-ri buruzko helburuen abisuak, aurrerapenaren eguneraketak eta buletinak.
+email-opt-in-privacy-v2 = E-postak jaso nahi dituzula adieraziz, Mozillak zure informazioa kudeatzea onartzen duzula esan nahi du, Mozillaren <privacyLink>pribatutasun politikan<privacyLink> adierazten den erara.
 indicates-required = * ikurrak ezinbesteko eremua dela esan nahi du
 not-available-abbreviation = N/A
 banner-error-slow-1 = Barkatu, Common Voice orain geldo dabil. Zure interesa eskertzen dugu.
 banner-error-slow-2 = Trafiko asko jasotzen ari gara eta arazoaren jatorria ikertzen ari gara.
+banner-error-slow-link = Egoera orrialdea
 error-something-went-wrong = Barkatu, zerbait gaizki joan da
+error-clip-upload = Grabazio hauek igoerak huts egiten jarraitzen du, berriz saiatzen jarraitu?
+error-clip-upload-server = Grabazio hauek igoerak huts egiten jarraitzen du zerbitzarian. Birkargatu orrialdea edo saiatu berriz beranduago.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -35,9 +39,12 @@ as = Assamera
 ast = Asturiera
 az = Azerbaijanera
 ba = Baxkirera
+bas = Basaa
 be = Bielorrusiera
 bg = Bulgariera
+bm = Bambara
 bn = Bengaliera
+bo = Tibetera
 br = Bretoiera
 bs = Bosniera
 bxr = Buriatera
@@ -156,7 +163,9 @@ ti = Tigrinyera
 tig = Tigre
 tk = Turkmenera
 tl = Tagaloa
+tn = Setswanera
 tr = Turkiera
+ts = Tsongera
 tt = Tatarera
 tw = Twi
 ty = Tahitiera
@@ -169,12 +178,16 @@ uz = Uzbekera
 vec = Veneziera
 vi = Vietnamera
 vot = Votikera
+wo = Wolofera
+xh = Xhosera
 yi = Yiddish
 yo = Jorubera
 yue = Kantonera
+zgh = Amazigera
 zh-CN = Txinera (Txina)
 zh-HK = Txinera (Hong Kong)
 zh-TW = Txinera (Taiwan)
+zu = Zuluera
 
 # [/]
 
@@ -186,6 +199,7 @@ speak-now = Hitz egin orain
 datasets = Datu-sortak
 languages = Hizkuntzak
 about = Guri buruz
+partner = Babeslea
 profile = Profila
 help = Laguntza
 contact = Kontaktua
@@ -268,6 +282,7 @@ whats-public = Zer da Publikoa?
 email-not-public = Ez dugu zure e-posta helbidea publiko egingo.
 recordings-and-locale-public = Grabazio kopurua eta zein hizkuntzatan laguntzen duzun publikoa izango da.
 username-optin-public = Zure erabiltzaile-izena publikoa edo anonimoa izatea aukera dezakezu.
+demographic-deidentified-clarity-2 = Hautazkoak diren datu demografikoak (adibidez, adina, generoa eta azentua) ez dira inoiz zure profilean publiko egingo, eta ez dira datu-sortan zure kontuarekin lotuko. Banakako grabazioak datu demografikoekin eskaintzen dira azterketa egokiagoa ahalbidetzeko - adibidez, ikerlari batek segmentu demografiko zehatz baterako ahots-eredua trebatu lezake.
 username-email-not-demographic = Zure erabiltzaile-izena eta e-posta ez dira argitaratutako datuekin lotuko.
 
 ## Speak & Listen Shortcuts
@@ -301,7 +316,6 @@ shortcut-discard-ongoing-recording-label = Baztertu grabazioa hau
 shortcut-submit = Sartu
 shortcut-submit-label = Gorde grabazioak
 request-language-text = Ez duzu zure hizkuntza Common Voicen ikusten oraindik?
-request-language-text-learn = Ikasi hemen nola eskatzen den!
 request-language-button = Eskatu hizkuntza bat
 
 ## ProjectStatus
@@ -328,6 +342,9 @@ profile-form-additional-language =
     .label = Hizkuntza gehigarria
 profile-form-language =
     .label = Hizkuntza
+profile-form-variant =
+    .label = { $language }(r)en zein aldera hitz egiten duzu?
+profile-form-variant-default-value = Ez dago aldaerarik hautatuta
 profile-form-accent =
     .label = Azentua
 profile-form-custom-accent-help-text =
@@ -343,6 +360,7 @@ hidden = Ezkutuan
 visible = Ikusgai
 native-language =
     .label = Ama-hizkuntza
+profile-form-add-accent = Gehitu "{ $inputValue }" azentu berria
 profile-form-submit-save = Gorde
 profile-form-submit-saved = Gordeta
 male = Gizonezkoa
@@ -364,7 +382,9 @@ thanks-for-account = Eskerrik asko zure kontua baieztatzeagatik, orain osatu zur
 why-demographic = Zergatik da garrantzitsua hau?
 accept-privacy = Ondo iruditzen zait informazio hau <privacyLink>pribatutasun politikan</privacyLink> azaltzen den bezala kudeatzea.
 accept-privacy-title = Pribatutasun-politika
+accept-privacy-and-terms = Common Voice-n <termsLink>Baldintzak</termsLink> eta <privacyLink>Pribatutasun politika</privacyLink> onartzen ditut
 login-identity = Saioa hasteko identitatea
+login = Hasi saioa
 login-signup = Hasi saioa / Eman izena
 edit = Editatu
 email-subscriptions = E-posta harpidetzak
@@ -376,6 +396,9 @@ skip-submission-note = Oharra: oraindik hautatu beharra duzu Mintzatu eta Entzun
 off = Itzalita
 on = Piztuta
 help-accent = Azentuarekin laguntza behar duzu?
+help-accent-explanation = Zure azentua hitzak ahoskatzen dituzun modua da. Beste faktore askoren artean, eragina dute non bizi izan zaren eta zein beste hizkuntza mintzatzen dituzun. Hemen, adierazgarria dela uste duzun edozein informazioa partekatu dezakezu.
+help-variants = Aldaerekin laguntza behar duzu?
+help-variants-explanation = Aldaerak hizkuntza baten forma espezifikoak dira - adibidez leku edo komunitate batean bizi direnek hitz egiten dutena. Batzuetan dialektoak deitzen zaie.
 
 ## Profile - Email
 
@@ -454,6 +477,9 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Zergatik Common Voice?
+about-header-description-v2 =
+    <p>Common Voice publikoki eskuragarri dagoen ahots datu-sorta bat da, munduko txoko desberdinetako boluntarioek beraien ahotsekin egina. Ahotsa darabilten aplikazioak sortu nahi dituztenek datu-sorta hau erabil dezakete beraien ikasketa automatikoko ereduak trebatzeko.</p>
+    <p>Gaur egun, ahots datu-sorta gehienak enpresenak dira eta horrek berrikuntza itotzen du. Gainera ahots datu-sortetan beharko luketena baino gutxiago agertzen dira ondokoak: ingelesez mintzo ez direnak, zuriak ez direnak, dibertsitate funtzionala dutenak, emakumeak eta LGBTQIA+ pertsonak. Honek esan nahi du hainbat hizkuntzatan ez dagoela ahots teknologiarik eta, dagoenean ere, hainbat pertsonarekin ez dabiltzala ondo. Hori aldatu nahi dugu leku guztietako jendea bere ahotsa partekatzen jarriz.</p>
 how-does-it-work-title-v2 = Nola dabil Common Voice?
 how-does-it-work-text = Ahotsen datu-sorta ireki bat sortzen ari gara denon artean. Eman zure ahotsa, balioztatu besteen grabazioen egokitasuna, egin datu-sorta hobea guztiontzat.
 
@@ -484,17 +510,11 @@ about-is-it-valid-text = Ahots grabazio bat "baliozkoa" bezala markatzen da erab
 about-yes-votes = Baiezko 2 bozka edo gehiago
 about-yes-votes-text = Common Voice datu-sortan sartua izan dadin, ahots grabazioak bi balioztatzaile desberdinen oniritzia jaso behar du.
 about-no-votes = Ezezko 2 bozka edo gehiago
-about-no-votes-text = Erabiltzaile batek ahots grabazio bat errefusatzen duenean ilarara itzultzen da. Bigarrenez errefusatua izaten bada, Grabazioen hilerrian gordetzen da.
+about-no-votes-text = Erabiltzaile batek ahots grabazio bat baztertzen duenean ilarara itzultzen da. Bigarrenez baztertua izaten bada, Grabazioen hilerrian gordetzen da.
 about-dataset-new = Common Voice datu-sorta
 about-dataset-new-text = Common Voice datu-sortak ehunka mila ahots laginez osatuta dago, garatzaileei ahotsaren ezagutzarako tresnak sortzen laguntzen diena.
 about-clip-graveyard = Grabazioen hilerria
 about-clip-graveyard-text = Grabazioen hilerria Common Voice datu-sortan sartu ez diren ahots grabazioez osatuta dago. Datu-sorta bezala, Grabazioen hilerria ere deskargagarri dago.
-about-partners = Babesleak
-about-become-a-partner = Babesle bihurtu
-about-partnership =
-    Common Voice lankidetza-proiektu bat da. Horregatik, gure bazkide- eta laguntzaile-komunitatea ezinbestekoa dugu historiako kode irekiko ahotsen datu-sortarik handiena biltzeko.
-    
-    Eskerrak eman nahi dizkiegu honako pertsona eta erakunde hauei proiektuan laguntzeagatik:
 about-get-involved = Parte hartu
 about-get-involved-text-2 =
     Common Voice hobeto lagundu nahi duzu?
@@ -505,6 +525,7 @@ about-get-involved-text-2 =
 about-stay-in-touch = Nola egon naiteke harremanetan?
 about-stay-in-touch-button = Eman izena
 about-stay-in-touch-text-1 = <emailFragment>Harpidetu</emailFragment> gure eposta-zerrendara kanpainetan eta ekitaldietan nola parte hartu ikasteko eta Common Voicen ezaugarriak diseinatzen laguntzeko.
+about-stay-in-touch-text-2 = Beste Mozilla hizkuntza-komunitateekin kontaktuan egoteko batu zaitez <discourseLink>Discourse</discourseLink>-ra gaien araberako elkarrizketak izateko eta <matrixLink>Matrix</matrixLink>-era aholku azkarretarako.
 about-nav-why-common-voice = Zergatik?
 about-nav-how-it-works = Nola?
 about-nav-partners = Babesleak
@@ -516,32 +537,48 @@ about-nav-playbook = Ikasi nola parte hartu
 ## What is a language
 
 about-playbook-what-is-language = Zer da hizkuntza bat Common Voicen?
+about-playbook-what-is-language-content-1 = Hizkuntza bat zer den pentsatzeko era asko dago. Hizketaren ezagutzako ereduak kontuan hartuz, Common Voicek ‘elkarrekiko ulergarritasunari‘ erreparatzen dio, hau da, ‘hizkuntza honetako hiztunek beste batekoek dioten gehiena uler dezakete saiatzen badira?’
+about-playbook-what-is-language-content-3 = Hizkuntza batzuek sekulako aldaketak dituzte gramatika, hiztegi eta ahoskera aldetik. Arrazoi honengatik, <ctaLink>‘Aldaerak’ aurkezten</ctaLink> ari gara 2022an. Honek komunitateei beraien hizkuntzak datu-sorta handiagoetan bereizteko aukera ematen die.
 
 ## How do I add a language
 
 about-playbook-how-add-language = Nola gehi dezaket hizkuntza bat?
+about-playbook-how-add-language-translating-heading = Gunea itzultzen
+about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Ikusi Pontoon erabiltzeko gida.</translateVideoLink>
+about-playbook-how-add-language-collecting-sentences-heading = Esaldiak biltzen
+about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>Ikusi Sentence Collector erabiltzeko gida.</sentenceCollectorVideo>
+about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>Ikusi gehiago esaldiak biltzeari buruz</sentenceCollectorFragment>.
 
 ## How does localization work
 
 about-playbook-how-localize = Nola dabil gunearen lokalizazioa?
+about-playbook-how-localize-content-1 = Common Voice itzultzeko <strong>Pontoon</strong> darabilgu.
 about-playbook-how-localize-content-4 = Gunea martxan jartzeko prest dago % 75 egina dagoenean.
+about-playbook-how-localize-content-5 = Ikusi gure azalpen bideoa
 
 ## How to add sentences
 
 about-playbook-how-add-sentences = Nola gehi ditzaket esaldiak?
+about-playbook-how-add-sentences-content-2 = Esaldiak bi pertsonek berrikusi eta onartu behar dituzte Common Voicen sartu aurretik. Zure hizkuntzarentzako gidalerroa sor dezakezu <languageGuidelinesLink>hemen</languageGuidelinesLink>. Esaldiek <licenseLink>jabetza publikoan</licenseLink> egon behar dute eta 15 hitz baino gutxiago izan behar dituzte. Testu baten egileari eska diezaiokezu berau <waiverLink>CC0 bihurtzeko gure salbuespen prozesua erabiliz</waiverLink> eta gero guri bidali: commonvoice@mozilla.com
 
 ## How to record quality
 
 about-playbook-how-record-quality = Nola graba dezaket kalitate handiko ahots grabazio bat?
+about-playbook-how-record-content-1 = Hitz egin zure ahots normalarekin! Hitz egiteko duzun modua ongi etorria da hemen - zure azentua den bezalakoa nahi dugu eta normalean erabiltzen duzun bolumena, estilo eta intonazioa.
+about-playbook-how-record-content-2 = Saihestu atzeko zarata gehiegi izatea - zu entzutea erraza izan beharko litzateke.
+about-playbook-how-record-content-3 = Irakurri esaldia kontu handiarekin - ez saltatu, aldatu edo gehitu hitzik.
+about-playbook-how-record-content-5 = <accuracyLink>Ikusi gehiago zehaztasun irizpideei buruz.</accuracyLink>
 
 ## How to grow language
 
 about-playbook-how-grow-language-content-2 = Ekitaldiak
 about-playbook-how-grow-language-content-4 = Sare sozialak
+about-playbook-how-grow-language-content-6 = Lankidetzak eta sareak
 
 ## How to validate
 
 about-playbook-how-validate = Nola jakin ahots grabazio bat onartu behar ote dudan?
+about-playbook-how-validate-content-3 = Ahoskera <strong>ulergaitza</strong> dela, <strong>atzealdeko zarata</strong> dagoela, edo <strong>beste pertsona batzuk hizketan</strong> entzuten badira, grabazio hau baztertu behar zenuke.<accuracyLink>Ikusi informazio gehiago gure zehaztasun irizpideetan</accuracyLink>.
 
 ## How to access dataset
 
@@ -556,12 +593,6 @@ about-playbook-how-project-governance-content-4 = Komunitatearen parte-hartzea, 
 about-playbook-how-project-governance-content-5 = Balioa eta aitortza.
 about-playbook-how-project-governance-content-6 = Elkarri kontu ematea.
 about-playbook-how-project-governance-content-7 = <governanceLink>Irakurri gehiago gure gobernatzeko moduaz</governanceLink>
-mycroft-title = Mycroft Ai
-mycroft-subtitle = Adimen artifiziala
-mycroft-description =
-    Mycroft munduko lehen kode irekiko laguntzailea da.
-    Mycroft edozein lekutan dabil; idazmahaiko ordenagailu baten, auto baten barruan edo Raspberry Pi batean.
-mycroft-secondary-description = Hau kode irekiko softwarea da eta nahieran nahastu, hedatu eta hobetu daiteke. Mycroft edozertarako erabil daiteke, proiektu zientifiko batetik hasi eta software enpresarialeko aplikazio batera arte.
 
 ## Glossary
 
@@ -627,6 +658,9 @@ datasets-positioning =
     
     Begira orri honetan agertzen diren beste ahots datu-sorta irekien erreferentziak.
 language = Hizkuntza
+download-dataset-header = Deskargatu datu-sorta
+download-delta-explainer = Aldaketa batzuk egin ditugu. Delta Segment delakoak aurreko bertsioaren ondoren gehitu diren grabazioak ditu. <deltaLink>Irakurri gehiago lan honi buruz</deltaLink>.
+download-dataset-tag = Hautatu nahi duzun hizkuntza eta aukeratu deskargatu nahi duzun bertsioa.
 # File size in gigabytes
 size = Tamaina
 validated-hr-total = Baliozkotutako orduak guztira
@@ -641,6 +675,7 @@ confirm-size = <b>{ $size }</b>-eko deskarga bat hastera zoaz
 size-gigabyte = GB
 size-megabyte = MB
 confirm-no-identify = <b>Onartzen duzu</b> ez zarela saiatuko Common Voice datu-sortako hizlarien identitatea ondorioztatzen.
+confirm-join-mailing-list = Common Voice posta-zerrendara batu nahi dut
 download-language = Deskargatu { $language }
 validated-hours = Balioztatutako orduak
 recorded-hours = Grabatutako orduak
@@ -654,7 +689,9 @@ subscribe = Harpidetu
 get-started-speech = Ikasi hizketaren ezagutzari buruz
 other-datasets = Beste ahots datu-sortak
 feedback-q = Zerbait komentatu nahi diguzu?
+resource-coqui-info = <coquiLink>Coqui</coquiLink> hizkuntza-teknologia irekiak lantzen ditu. Bere proiektuen artean ikasketa automatikoan oinarritutako STT eta TTS motorrak daude.
 community-playbook = Komunitatearen eskuliburua
+resource-playbook-info = <playbookLink>Aurkitu laguntza erabilgarria</playbookLink> Common Voicen ibilbide osoan zehar, lokalizaziotik hasi eta datu-sortaren erabilerara, baita gure komunitatearekin konektatzeko ere.
 data-other-librispeech-description = LibriSpeech 16 Khz-tan grabatutako 1.000 ordu inguruko corpusa da, LibriVox proiektuko audio-liburuak ingelesez irakurrita.
 data-other-ted-name = TED-LIUM corpusa
 data-other-ted-description = TED-LIUM corpusa, TED webguneko hitzaldietako audioetatik eta transkripzioetatik sortua da.
@@ -662,8 +699,8 @@ data-other-voxforge-description = VoxForge transkribatutako hizketak biltzeko so
 data-other-tatoeba-description = Tatoeba hizkuntzen ikasketan erabiltzeko hainbat esaldi, itzulpen eta ahoskatutako audio dituen datu-basea da. Deskarga honek, bere baitan, Tatoebako komunitateak ingelesez ahoskatutako grabazioen audioak dauzka.
 your-feedback = Common Voice datu-sorta nola hobe dezakegun ideiarik duzu? Parteka itzazu gurekin Discoursen
 go-discourse = Joan Discoursera
-missing-language = Ez duzu zure hizkuntza ikusten datu-sortan? Hizkuntza bat eskatzeko zoaz gure Hizkuntzak orrira.
-go-languages-page = Joan Hizkuntzak orrira
+missing-language = Ez duzu zure hizkuntza datu-sortan ikusten? Hizkuntza bat eskatzeko zoaz gure Hizkuntzak orrialdera.
+go-languages-page = Joan Hizkuntzak orrialdera
 ready-to-validate = Esaldiak baliozkotzen laguntzeko prest?
 more = Gehiago
 close = Itxi
@@ -731,7 +768,8 @@ language-search-input =
 language-speakers = Hiztunak
 localized = Lokalizatuta
 sentences = Esaldiak
-total-hours = Balioztatutako orduak
+language-validation-hours = Orduak
+language-validation-progress = Balioztatzeen aurrerapena
 
 ## Contribution
 
@@ -739,6 +777,8 @@ action-click = Egin klik
 action-tap = Sakatu
 contribute = Lagundu
 listen = Entzun
+write = Idatzi
+review = Berrikusi
 skip = Saltatu
 shortcuts = Lasterbideak
 clips-with-count-pluralized =
@@ -785,8 +825,10 @@ listen-again-instruction = Lan bikaina!<playIcon></playIcon> Entzun berriro pres
 listen-3rd-time-instruction = 2 gutxiago, segi horrela!<playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon> Azkena!
 listen-empty-state = Balioztatzeko grabaziorik gabe geratu gara hizkuntza honetan...
+listen-loading-error = Ezin izan dugu zuk entzuteko esaldirik lortu. Mesedez saia zaitez berriz beranduago.
 speak-empty-state = Grabatzeko esaldirik gabe geratu gara hizkuntza honetan...
 speak-empty-state-cta = Lagundu esaldiekin
+speak-loading-error = Ezin izan dugu zuk irakurtzeko esaldirik lortu. Mesedez saia zaitez berriz beranduago.
 record-button-label = Grabatu zure ahotsa
 share-title-new = <bold>Lagun gaitzazu</bold> ahots gehiago aurkitzen
 keep-track-profile = Jarraitu zure aurrerapenak profil batekin
@@ -797,6 +839,11 @@ target-segment-first-banner = Lagundu esparru zehatzerako lehen { $locale } atal
 target-segment-add-voice = Gehitu zure ahotsa
 target-segment-learn-more = Ikasi gehiago
 
+## Contribution Nav Items
+
+contribute-voice-collection-nav-header = Ahotsak biltzea
+contribute-sentence-collection-nav-header = Esaldiak biltzea
+
 ## Reporting
 
 report = Salatu
@@ -805,7 +852,7 @@ report-ask = Zein arazo izaten ari zara esaldi honekin?
 report-offensive-language = Hizkuntza iraingarria
 report-offensive-language-detail = Esaldiak errespeturik gabeko hizkuntza du edo hizkera iraingarria du.
 report-grammar-or-spelling = Akats gramatikala / ortografikoa
-report-grammar-or-spelling-detail = Esaldiak gramatika edo ortografia akats bat du.
+report-grammar-or-spelling-detail = Esaldiak gramatika- edo ortografia-akats bat du.
 report-different-language = Beste hizkuntza bat
 report-different-language-detail = Hitz egiten ari naizen hizkuntza ez den beste batean idatzita dago.
 report-difficult-pronounce = Ahoskatzeko zaila
@@ -848,7 +895,7 @@ todays-recorded-progress = Common Voicen gaurko aurrerapena egindako grabazioeta
 todays-validated-progress = Common Voicen gaurko aurrerapena balioztatutako grabazioetan
 stats = Estatistikak
 awards = Sariak
-you = Zuk
+you = zu
 everyone = Denek
 contribution-activity = Gaurko jarduera
 top-contributors = Laguntzaile gogotsuenak
@@ -884,10 +931,10 @@ help-reach-hours-pluralized =
        *[other] { $hours } ordu
     } lortzen { $language } hizkuntzan helburu pertsonal batekin
 help-reach-hours-general-pluralized =
-    Lagundu Common Voice-ri { NUMBER($hours) ->
-        [one] { $hours } ordu
-       *[other] { $hours } ordu
-    }lortzen hizkuntza batean helburu pertsonal batekin
+    { NUMBER($hours) ->
+        [one] Lagundu Common Voice-ri { $hours } ordu lortzen hizkuntza batean helburu pertsonal batekin
+       *[other] Lagundu Common Voice-ri { $hours } ordu lortzen hizkuntza batean helburu pertsonal batekin
+    }
 set-a-goal = Ezarri helburu bat
 cant-decide = Ezin duzu erabaki?
 how-many-per-day = Primeran! Zenbat grabazio egunean?
@@ -940,7 +987,11 @@ profile-form-delete = Ezabatu profila
 download-q = Zure datuak deskargatu behar dituzu?
 download-info = Esaguzu zer deskargatu nahiko zenukeen:
 download-profile-title = Profila
+download-profile-info = Orain eskuragarri dauden eposta, erabiltzaile-izena eta informazio demografikoa ditu.
+download-profile-size = Byte gutxi batzuk
 download-recordings-title = Grabazioak
+download-recordings-info = MP3ak eta dagozkien esaldiak ditu, denbora bat behar du prestatzeko
+download-recordings-size = Normalean megabyteak
 download-recordings-unavailable = Ezin dituzu zure grabazioak eskatu beste eskari bat martxan den bitartean.
 download-size = Tamaina
 download-selected = Hautatuta
@@ -969,6 +1020,7 @@ demo-welcome-subheader = Gehiago ikasi eta proiektuan laguntzeko interesik duzu?
 
 ## Demo Datasets
 
+demo-language-select-card-header = Common Voice munduko datu-sorta handiena, publikoki eskuragarria eta hizkuntza gehien dituena da.
 card-button-next = Hurrengoa
 card-button-back = Atzera
 demo-language-select-label = Arakatu hizkuntzak
@@ -978,6 +1030,7 @@ demo-account = Kontua
 
 ## Demo Account
 
+demo-account-card-header = Kontu bat izatea ez da beharrezkoa parte hartzeko, baina lagungarria da.
 demo-account-enter-email =
     .label = Sartu eposta izen-emate esteka bidaltzeko
 demo-account-sign-up = Bidali izen-emate esteka
@@ -1064,7 +1117,9 @@ sc-header-my = Nire esaldiak
 sc-header-statistics = Estatistikak
 sc-header-profile = Profila
 sc-footer-discourse = Discourse
+sc-footer-report-bugs = Erroreen berri eman
 sc-footer-translate = Itzuli orrialde hau
+sc-footer-report-copyright = Copyright arazoen berri eman
 sc-footer-privacy = Pribatutasuna
 sc-footer-terms = Baldintzak
 sc-footer-cookies = Cookieak
@@ -1077,22 +1132,41 @@ sc-home-title = Ongi etorri Common Voiceko esaldi biltzailera
 sc-home-collect-title = Bildu esaldiak
 sc-home-collect-text = Lagun gaitzazu jabetza publikoan dauden esaldiak idatziz edo bilduz.
 sc-home-review-title = Berrikusi esaldiak
+sc-home-review-text = Laguntza gaitzazu esaldien zuzentasuna gidalerroen arabera berrikusten.
 
 ## GENERAL
 
 
 ## HOW-TO
 
+sc-howto-title = Nola
+sc-howto-addlang-title = Gehitu landuko dituzun hizkuntzak
+sc-howto-addlang-text = Behin saioa hasita zure hizkuntza hautatu dezakezu zure profilean.
 sc-howto-addsen-title = Gehitu esaldi berriak
+sc-howto-cite-title = Nola egin aipuak
+sc-howto-cite-item-1 = Webgunea gehi zenezake. Adibidez: "Common Voice - https://commonvoice.mozilla.org/eu"
 sc-howto-review-title = Berrikusi esaldiak
+sc-howto-review-subtitle = Ziurtatu esaldiek ondoko irizpideak betetzen dituztela:
+sc-howto-review-criteria-1 = Esaldiek ez dute akats ortografikorik izan behar.
+sc-howto-review-criteria-2 = Esaldiak ez du akats gramatikorik izan behar.
+sc-howto-review-criteria-3 = Esaldiak ahoskagarriak izan behar dira.
+sc-howto-review-criteria-4 = Esaldiak irizpideak betetzen baditu, sakatu "Onartu" botoia.
+sc-howto-review-criteria-5 = Esaldiak goiko irizpideak betetzen ez baditu, sakatu "Baztertu" botoia. Esaldi honekin zalantzak badituzu, saltatu dezakezu eta hurrengora pasa.
+sc-howto-review-criteria-6 = Berrikusteko esaldirik gabe geratzen bazara, lagun gaitzazu esaldi gehiago biltzen!
+sc-howto-findpd-title = Aurkitu jabetza publikoan dauden esaldiak
+sc-howto-findpd-subtitle = Bila itzazu Interneten
+sc-howto-findpd-tips = Hemen dituzu zenbait aholku esaldiak aurkitzeko:
 
 ## MY SENTENCES
 
 sc-my-title = Nire esaldiak
+sc-my-loading = Zure esaldiak kargatzen…
 sc-my-no-sentences = Ez da esaldirik aurkitu!
 # Variables:
 #   $source (String) - Associated source the user filled out when uploading the sentence
 sc-my-source = Iturria:  { $source }
+sc-my-delete = Ezabatu hautatutako esaldiak
+sc-my-deleting = Hautatutako esaldiak ezabatzen…
 
 ## REJECTED
 
@@ -1107,21 +1181,116 @@ sc-stats-updating = Eguneratzen…
 
 ## ADD
 
+sc-submit-err-select-lang = Mesedez hautatu hizkuntza bat.
+sc-submit-err-add-sentences = Mesedez gehitu esaldiak.
+sc-submit-err-add-source = Mesedez gehitu iturria.
+sc-submit-err-confirm-pd = Mesedez baieztatu esaldi hauek jabetza publikoan daudela.
+sc-submit-prompt =
+    .message = Esaldiak ez dira bidali, ziur zaude alde egin nahi duzula?
 sc-submit-title = Gehitu esaldiak
+sc-submit-select-language =
+    .labelText = Hautatu hizkuntza
+sc-submit-add-sentences = Gehitu <wikipediaLink>jabetza publikoan</wikipediaLink> daude esaldiak
+sc-submit-ph-one-per-line =
+    .placeholder = Esaldi bat lerro bakoitzeko
+sc-submit-from-where = <wikipediaLink>Jabetza publikoko</wikipediaLink> esaldi hauek nongoak dira?
+sc-submit-button =
+    .submitText = Bidali
 
 ## ADD LANGUAGE
 
+sc-add-lang-could-not-add = Ezin izan da hizkuntza gehitu
+sc-add-lang-sec-label = Gehitu lagundu nahi duzun hizkuntza
 sc-add-lang-sec-button = Gehitu hizkuntza
+# Variables:
+#   $duplicates (Number) - Number of sentences which got rejected because they are duplicates
+sc-add-result =
+    { $duplicates ->
+        [0] Bidalitako esaldiak. Esaldi bat ere ez da baztertu bikoiztuta egoteagatik.
+        [one] Bidalitako esaldiak.  Esaldi { $duplicates } baztertu da bikoiztuta egoteagatik.
+       *[other] Bidalitako esaldiak. { $duplicates } esaldi baztertu dira bikoiztuta egoteagatik.
+    }
+# Variables:
+#   $sentences (Number) - Number of sentences which failed to be saved to the database - could be several different reasons
+sc-add-err-failed =
+    { $sentences ->
+        [0] Esaldi guztiak ondo
+        [one] Esaldi 1ek hutsi egin du
+       *[other] { $sentences } esaldik huts egin dute
+    }
+sc-add-err-submission = Bidalketak errorea
+sc-add-lang-process-notice = Zure esaldia hemen zerrendatzen ez bada, <languageProcessLink>prozesu honen bidez</languageProcessLink> eska dezakezu.
 
 ## ADD SENTENCES CONFIRMATION
 
+sc-confirm-are-you-sure =
+    .message = Esaldiak ez dira bidali, ziur zaude alde egin nahi duzula?
+sc-confirm-sentences-title = Baieztatu esaldi berriak
+# Variables:
+#   $countOfSentences (Number) - Number of sentences the user has filled in the submission form
+sc-confirm-sentences-found =
+    { $countOfSentences ->
+        [0] Ez da esaldirik aurkitu.
+        [one] Esaldi 1 aurkitu da.
+       *[other] { $countOfSentences } esaldi aurkitu dira.
+    }
 # Variables:
 #   $countOfInvalidated (Number) - Number of sentences the user rejected in the review form before submission
 sc-confirm-rejected-by-you = { $countOfInvalidated } zuk baztertuak
+sc-confirm-already-reviewed =
+    { $countOfReviewed ->
+        [0] Oraindik ez dago berrikusitako esaldirik.
+        [one] Berrikusitako esaldi 1 dago dagoeneko. Lan bikaina!
+       *[other] Berrikusitako { $countOfReviewed } esaldi daude dagoeneko. Lan bikaina!
+    }
+# Variables:
+#   $readyCount (Number) - Number of sentences ready to be uploaded
+sc-confirm-ready =
+    { $readyCount ->
+        [0] Ez dago esaldirik bidaltzeko prest!
+        [one] Esaldi 1 bidaltzeko prest dago!
+       *[other] { $readyCount } esaldi daude bidaltzeko prest!
+    }
 sc-confirm-button-text = Baieztatu
 
 ## LANGUAGE INFO
 
+sc-lang-info-title-total = Guztira
+sc-lang-info-title-personal = Pertsonala
+# Variables:
+#   $totalSentences (Number) - Number of sentences uploaded in total for this language
+sc-lang-info-total =
+    { $totalSentences ->
+        [0] Guztizko esaldirik ez.
+        [one] Esaldi 1 guztira.
+       *[other] { $totalSentences } esaldi guztira.
+    }
+# Variables:
+#   $totalInReview (Number) - Number of sentences currently in the review state for this language
+sc-lang-info-in-review =
+    { $totalInReview ->
+        [0] Berrikusteko esaldirik ez.
+        [one] Berrikusteko esaldi 1.
+       *[other] { $totalInReview } esaldi berrikusteko.
+    }
+# Variables:
+#   $unreviewedSentencesByYou (Number) - Number of sentences the user can still review
+sc-lang-info-left-for-you =
+    { $unreviewedSentencesByYou ->
+        [0] Zuk berrikusteko esaldirik ez.
+        [one] Zuk berrikusteko esaldi 1.
+       *[other] Zuk berrikusteko { $unreviewedSentencesByYou } esaldi.
+    }
+sc-lang-info-review-now = <reviewLink>Berrikusi orain!</reviewLink>
+sc-lang-info-add-more = <addLink>Gehitu esaldi gehiago orain!</addLink>
+# Variables:
+#   $validatedSentences (Number) - Number of sentences which have been approved for this language
+sc-lang-info-validated =
+    { $validatedSentences ->
+        [0] Ez dago balioztatutako esaldirik.
+        [one] Balioztatutako esaldi 1.
+       *[other] Balioztatutako { $validatedSentences } esaldi.
+    }
 # Variables:
 #   $rejectedSentences (Number) - Number of sentences which have been rejected for this language
 sc-lang-info-rejected =
@@ -1133,6 +1302,7 @@ sc-lang-info-rejected =
 
 ## LOGIN
 
+sc-login-err-failed = Saio hasteak huts egin du
 sc-login-err-try-again = Saiatu berriz mesedez.
 
 ## PROFILE
@@ -1140,11 +1310,28 @@ sc-login-err-try-again = Saiatu berriz mesedez.
 # Variables:
 #   $username (String) - eMail address of the logged in user
 sc-profile-title = Profila: { $username }
+sc-personal-err-lang-not-found = Ezin izan da hizkuntza kendu: ez da aurkitu
+sc-personal-err-remove = Ezin izan da hizkuntza kendu
 sc-personal-your-languages = Zure hizkuntzak:
 sc-personal-remove-button = ezabatu
+# Variables:
+#   $sentences (Number) - Number of sentences that were added by the currently logged in user for this language
+sc-personal-added-by-you = { $sentences } zuk gehituak
+sc-personal-not-added = Oraindik ez duzu hizkuntzarik gehitu.
 
 ## REVIEW CRITERIA
 
+sc-criteria-modal = ⓘ Berrikusketa irizpideak
+sc-criteria-title = Berrikusketa irizpideak
+sc-criteria-make-sure = Ziurtatu esaldiek ondoko irizpideak betetzen dituztela:
+sc-criteria-item-1 = Esaldiek ez dute akats ortografikorik izan behar.
+sc-criteria-item-2 = Esaldiak ez du akats gramatikorik izan behar.
+sc-criteria-item-3 = Esaldiak ahoskagarriak izan behar dira.
+sc-criteria-item-4 =
+    Esaldiak irizpideak betetzen baditu, sakatu
+    eskuineko &quot;Onartu&quot; botoia.
+sc-criteria-item-5-2 = Esaldiak goiko irizpideak betetzen ez baditu, sakatu ezkerreko &quot;Baztertu&quot; botoia. Esaldi honekin zalantzak badituzu, saltatu dezakegu eta hurrengora pasa.
+sc-criteria-item-6 = Berrikusteko esaldirik gabe geratzen bazara, lagun gaitzazu esaldi gehiago biltzen!
 
 ## REVIEW
 
@@ -1156,6 +1343,13 @@ sc-review-form-source = Iturria: { $sentenceSource }
 sc-review-form-button-reject = Baztertu
 sc-review-form-button-skip = Saltatu
 sc-review-form-button-approve = Onartu
+# Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
+sc-review-form-button-approve-shortcut = B
+# Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
+sc-review-form-button-reject-shortcut = E
+# Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
+sc-review-form-button-skip-shortcut = S
+sc-review-form-keyboard-usage-custom = Teklatuko lasterbideak ere erabil ditzakezu: { sc-review-form-button-approve-shortcut } Onartzeko, { sc-review-form-button-reject-shortcut } Baztertzeko, { sc-review-form-button-skip-shortcut } Saltatzeko.
 sc-review-form-button-submit =
     .submitText = Amaitu berrikusketa
 sc-review-link = Berrikusi
@@ -1164,6 +1358,126 @@ sc-review-link = Berrikusi
 
 sc-settings-title = Ezarpenak
 sc-settings-ui-language = Interfazearen hizkuntza
+sc-validation-no-numbers = Esaldiak ez du zenbakirik izan behar
+sc-validation-no-symbols = Esaldiak ez du sinbolorik izan behar
+sc-validation-no-abbreviations = Esaldiak ez du laburdurarik izan behar
 
 # [/SentenceCollector]
 
+localization-select =
+    .label = Aukeratu hizkuntza/lokalizazioa
+# PARTNERSHIPS PAGE
+partnerships-header = Lankidetzak
+partnerships-header-text = Common Voice aurrera ateratzea zaila da! Ezingo genuke bakarrik egin. Babestu nahi gaituzu? Zutaz jakitea desiratzen gaude.
+partnerships-get-in-touch = Harremanetan jarri
+partnerships-become-a-partner = Bihur zaitez Common Voice babeslea
+partnerships-community-header = Komunitatea, sortzaileak eta gizarte zibila
+partnerships-foundations-header = Fundazioak
+partnerships-governments-header = Gobernuak
+partnerships-governments-description = Pozik gaude sektore publikok teknologian, berrikuntzan eta hizkuntza eskubideetan duen konpromisoa laguntzeaz. Proiektu edo kanpaina handi bat aurrera eramateko asmorik baduzue, mesedez gurekin <emailFragment>harremanetan jarri</emailFragment>.
+partnerships-academia-header = Unibertsitateak, akademikoak eta ikerlariak
+partnerships-small-business-header = Enpresa txikiak, teknologia eta AA arloko start up-ak barne
+partnerships-corporates-header = Korporazio handiak eta plataforma enpresak
+partnerships-our-partners = Gure babesleak
+why-donate = Zergatik galdetzen duzu?
+add-information-button = Gehitu informazioa
+continue-speaking-button = Ez eskerrik asko, hitz egiten jarraitu
+thanks-for-voice-toast = Eskerrik asko zure ahots-informazioagatik
+# SECOND POST SUBMISSION CTA
+second-cta-header-text = Eskerrik asko zure ahotsarekin parte hartzeagatik!
+create-profile-button = Sortu profil bat
+# GUIDELINES PAGE
+guidelines-header = Parte-hartze gidalerroak
+guidelines-header-subtitle = Ulertu nola gehitu eta balioztatu esaldiak eta grabazioak Common Voice datu-sortan
+voice-collection = Ahotsak biltzea
+sentence-collection = Esaldiak biltzea
+varying-pronunciations = Ahoskera desberdinak
+misreadings = Gaizki irakurriak
+offensive-content = Eduki iraingarria
+background-noise = Atzealdeko zarata
+background-voices = Atzealdeko ahotsak
+volume = Bolumena
+reader-effects = Irakurlearen efektuak
+just-unsure = Oraindik zalantzatan?
+example = Adibidea
+varying-pronunciations-explanation-1 = Azentu desberdinak ongi etorriak dira! Esaldiak dauden euskalkian irakurri behar dira (ezin duzu hitzik ordezkatu), baina soinuak desberdin ahoskatzea zilegi da. "Mila" ez dute berdin ahoskatzen Baionan eta Gasteizen, ezta "jan" berdin ahoskatzen Bermeon eta Usurbilen. Kontuz ibili pertsona batek hitz bat gaizki ahoskatu duela pentsatu eta bere grabazioa baztertzearekin. Euskara ahoskatzeko hamaika modu daude eta horietako batzuk agian ez dituzu zure komunitate lokalean inoiz entzun. Mesedez izan zaitez eskuzabala zuk ez bezala hitz egiten duten pertsonen grabazioak balioztatzeko unean.
+varying-pronunciations-explanation-2 = Bestalde, irakurleak hitz horrekin inoiz topo egin ez eta gaizki ahoskatzen ari dela uste baduzu, baztertu ezazu. Ziur ez bazaude, erabili Saltatu botoia.
+offensive-content-explanation = Esaldiak moderazio prozesu baten bitartez onartzen dira, baina prozesu hau ez da perfektua. Ofenditzen edo haserretzen zaituen esaldi bat entzuten baduzu - adibidez gure <participationGuidelines>komunitatearen parte-hartze gidalerroak</participationGuidelines> urratzen dituelako - mesedez sakatu Salatu botoia. Gurekin harremanetan ere jar zaitezke hemen: <emailFragment>commonvoice@mozilla.com</emailFragment>
+misreadings-explanation-1 = Orrialdeko hitz guztiak ondo irakurtzea garrantzitsua da. Entzuten duzunean kontuz-kontuz egiaztatu behar duzu grabatu dena benetan idatzita dagoen berdina dela; hitzik gehitu, kendu edo ordezkatu bada, baztertu ezazu.
+misreadings-explanation-2 = Akats ohikoenak honako hauek dira:
+misreadings-explanation-3 = Esaldiaren hasiera ez dago ondo grabatuta.
+misreadings-explanation-4 = Hitz baten bukaeran pluralaren 'k' galtzea.
+misreadings-explanation-5 = Testuan ez dauden kontrakzio edo laburketak irakurtzea, adibidez "euki" "eduki"ren ordez.
+misreadings-explanation-6 = Azken hitzaren bukaera galtzea, grabazioa azkarregi gelditzeagatik.
+misreadings-explanation-7 = Hitz bat irakurtzeko saiakera bat baino gehiago egitea.
+misreadings-example-1 = Eduki mesedez giltza hau.
+misreadings-example-2 = Euki mesedez giltza hau.
+misreadings-example-3 = Eduki mesedez giltz hau.
+misreadings-example-4 = Margolan koloretsua da.
+misreadings-tip-1 = [“Eduki” izan beharko luke]
+misreadings-tip-2 = [’giltza’ izan beharko luke]
+misreadings-tip-3 = [Okerreko edukia]
+background-noise-explanation = Grabazioko hitz guztiak entzuteko gai izan behar duzu. Ikasketa automatikoko algoritmoek atzealdeko zarata desberdinak kudeatzea nahi dugu, baita zarata handia dagoenean edo atzean musika pixka bat entzuten denean, baina beti ere testu osoa entzutea oztopatzen ez dutenean. Testua entzutea eragozten duen karraskarik edo etenik badago, grabazioa baztertu behar zenuke.
+background-noise-example-1 = Nahi duzuenean etorri etxera.
+background-noise-example-2 = [Doministiku] Nahi duzuenean etorri [eztula] etxera.
+background-noise-example-3 = Nahi duzuenean [eztula] etxera.
+background-noise-example-4 = [Karrask] duzuenean etorri [karrask] -txera.
+background-voices-explanation = Atzealdeko zarata pixka bat balekoa da, baina beste pertsona batek esandako hitzen bat uler badezakezu, grabazioa baztertu behar zenuke. Telebista edo irratia piztuta dagoenean edo ondoan norbait hizketan ari denean egoera hau eman ohi da.
+background-voices-example-1 = Pilota partida hastera doa. [beste norbaitek esana]
+volume-explanation = Bolumen aldaketa naturalak egongo dira irakurleen artean. Baztertu grabaketa bakarrik bolumena hain handia bada grabazioa eten egiten dela edo (ohikoagoa dena) hain baxua bada, ezin dela entzun esaten dena testu idatziari erreferentzia egin gabe.
+reader-effects-explanation = Grabazio gehienak beren ahots naturalarekin hitz egiten duten pertsonenak dira. Noizbehinkako ezohiko grabazioa onar dezakezu; oihukatzen, xuxurlatzen edo era ‘dramatizatuan‘ egina. Baztertu grabazio abestuak eta ordenagailuz sortutako ahotsa erabiltzen dutenak.
+just-unsure-explanation = Irizpide hauek betetzen ez dituen zerbaitekin topo egiten baduzu, bozkatu zure sen onaren arabera. Benetan ezin baduzu erabaki, erabili Saltatu botoia eta jarraitu hurrengo grabazioarekin.
+still-have-questions = Oraindik zalantzak dituzu?
+contact-common-voice = Jarri harremanetan Common Voice taldearekin
+public-domain = Jabetza publikoa
+citing-sentences = Esaldien aipamenak egiten
+adding-sentences = Esaldiak gehitzen
+reviewing-sentences = Esaldiak berrikusten
+citing-sentences-subheader-websites = Webguneak
+citing-sentences-subheader-websites-explanation = Webgunea gehi zenezake. Adibidez: "Common Voice - https://commonvoice.mozilla.org/eu"
+citing-sentences-subheader-academic-reference = Aipamen akademikoak
+citing-sentences-subheader-offline-sources = Lineaz kanpoko iturriak
+citation =
+    .label = Aipua
+self-citation = Norberaren aipua
+self-citation-explanation = Honela aipatu behar duzu zure burua edukia zuk idatzitakoa bada.
+adding-sentences-subheader-length = Luzera
+adding-sentences-subheader-length-explanation = Esaldiak 15 hitz baino gutxiago izan behar ditu.
+adding-sentences-subheader-spelling-punctuation = Ortografia eta puntuazioa
+adding-sentences-subheader-spelling-punctuation-explanation = Esaldiak ez du akats ortografikorik izan behar.
+adding-sentences-subheader-numbers = Zenbakiak
+adding-sentences-subheader-abbreviations = Laburdurak eta akronimoak
+adding-sentences-subheader-punctuation = Puntuazioa
+adding-sentences-subheader-special-characters = Karaktere bereziak eta atzerriko hizkiak
+adding-sentences-subheader-offensive-content = Eduki iraingarria
+adding-sentences-subheader-offensive-content-explanation = Esaldiak ofenditzen edo haserretzen bazaitu - adibidez gure <communityGuidelines>komunitatearen parte-hartze gidalerroak</communityGuidelines> urratsen dituelako - baztertu egin behar zenuke. Arazoaren berri emateko, hemen gurekin harremanetan ere jar zaitezke: <emailFragment>commonvoice@mozilla.com</emailFragment>.
+reviewing-sentences-explanation-1 = Esaldiak goiko irizpideak betetzen baditu, sakatu "Bai" botoia.
+reviewing-sentences-explanation-2 = Esaldiak goiko irizpideak betetzen ez baditu, sakatu "Ez" botoia.
+# WRITE PAGE
+write-instruction-second-part = jabetza publikoko esaldia
+write-page-subtitle = Hemen gehitutako esaldiak publikoki eskuragarriak izango dira cc-0 lizentzia duen datu-sorta batean.
+sentence =
+    .label = Esaldia
+sentence-input-value = Sartu jabetza publikoko zure esaldia hemen
+citation-input-value = Zure esaldiaren iturria
+citation =
+    .label = Aipua
+what-can-i-add = Zein eratako esaldiak gehi ditzaket?
+new-sentence-rule-1 = <noCopyright>Copyright gabekoak</noCopyright> (<cc0>cc-0</cc0>)
+new-sentence-rule-2 = 15 hitz baino gutxiago
+new-sentence-rule-3 = Akats gramatikorik ez
+new-sentence-rule-4 = Akats ortografikorik ez eta esaldia ondo puntuatu
+new-sentence-rule-5 = Zenbakirik eta karaktere berezirik ez
+new-sentence-rule-6 = Atzerriko hizkirik ez
+new-sentence-rule-7 = Gehitu aipu egoki bat
+new-sentence-rule-8 = Naturala eta lagunartekoa (irakurterraza)
+how-to-cite-explanation-bold = URL esteka batekin aipatu edo lanaren izen osoarekin.
+how-to-cite-explanation = Zure hitzak badira, <italicizedText>“Norberaren aipua”</italicizedText> jarri. Eduki hau non aurkitu duzun jakin beharra dugu berau jabetza publikoan dagoela eta copyright murriztapenik ez dagokiola egiaztatzeko. Aipuak egiteko azalpen gehiago ditugu gure <guidelinesLink>Parte-hartze gidalerroetan</guidelinesLink>.
+guidelines = Gidalerroak
+add-sentence-success = Esaldi 1 bilduta
+add-sentence-error = Errorea esaldia gehitzean
+sc-review-instruction-second-part = Hizkuntza aldetik esaldi hau zuzena da?
+sc-review-rules-title = Esaldiak gidalerroak betetzen ditu?
+sc-review-empty-state = Orain ez dago esaldirik berrikusteko hizkuntza honetan.
+# SENTENCE-COLLECTOR-REDIRECT PAGE
+sc-redirect-page-title = Zenbait aldaketa handi egiten ari gara

@@ -38,7 +38,8 @@ export function trackGlobal(
     | 'discourse'
     | 'contact'
     | 'footer-newsletter'
-    | 'matrix',
+    | 'matrix'
+    | 'blog',
   locale: string
 ) {
   track('Global', action, locale);
