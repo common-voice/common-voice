@@ -65,14 +65,18 @@ privacy = Privatums
 terms = Lītuošonys nūsacejumi
 cookies = Seikdatnis
 faq = BUJ
+content-license-text = Saturs liceņzāts ar <licenseLink>Creative Commons liceņzi</licenseLink>
 share-title = Paleidzit mums atrast cytus, kas pazīduotu sovu bolsa īrokstu!
 share-text = Paleidzit īkuortom saprast latgalīšu volūdu, īrokstit sovu bolsu voi puorbaudit salaseitūs īrokstus { $link }
+link-copied = Saite nūkopāta
+back-top = Atpakaļ iz augšu
 logout = Beigt dorbu
 
 ## Home Page
 
 show-wall-of-text = Skaiteit vaira
 help-us-title = Paleidzit puorbaudeit teikumus!
+help-us-explain = Nūmīdzīt atskaņuošonys pūgu, klausotēs i puorbaudit, voi zamuok nūruodeitais teikums ir izrunuots precizai.
 no-clips-to-validate = Izaver, ka itamā volūdā nav audio īrokstu. Paleidzit mums, īrokstūt kaidus tagad.
 vote-yes = Nui
 vote-no = Nā
@@ -81,6 +85,7 @@ speak-subtitle = Pazīduot sovu bolsu
 speak-paragraph = Lai myusu volūda īkuortu laikmatā napagaistu, mums juoīroksta sovi bolsi; kaids saceitu, ka tys ir ari jautri.
 speak-goal-text = Īroksti īraksteiti
 listen-subtitle = Paleidzit puorbaudeit bolsus
+listen-paragraph = Īrokstu puorbaudeišona ir cīši svareiga. Klausotēs īrokstus i paleidzit īvuiceit īkuortom saprast myusu volūdu.
 listen-goal-text = Apstyprynuoti īroksti
 hours-recorded = Īraksteituos stuņdis
 hours-validated = Puorbaudeituos stuņdis
@@ -112,6 +117,7 @@ x-years-short =
 help-make-dataset = Paleidzit sataiseit kvalitativu, publiski daīmamu datu kūpu
 sign-up-account = Registrej sovu kontu
 email-subscription-title = Dasasoki jaunumim e-postā
+email-subscription-title-new = Registrejitēs Common Voice viestim, atguodynuojumim par mierkim i progresa atjauninuojumim.
 
 ## Account Benefits
 
@@ -121,6 +127,7 @@ benefits = Īgivumi
 
 whats-public = Kas ir publiski daīmams?
 email-not-public = Mes napubliskuosim jiusu e-postu.
+username-email-not-demographic = Jiusu lītuotuoja vuords i e-posts natiks pīsaisteits publicētajim datim.
 
 ## Speak & Listen Shortcuts
 
@@ -214,8 +221,12 @@ settings = Īstatejumi
 edit-profile = Lobuot profilu
 profile-create-success = Profils sataiseits veiksmeigi!
 profile-close = Aiztaiseit
+profile-explanation = Sekojit sovam progresam, lītojūt sovu profilu, i paleidzit myusu bolsa datim byut precizuokim.
+thanks-for-account = Paļdis, ka apstyprynuojot sovu kontu, tagad sataiseisim jiusu profilu.
 why-demographic = Deļkuo tys ir svareigi?
+accept-privacy = Es pīkreitu, ka Mozilla apstruodoj munu informaceju tai, kai tys ir nūruodeits Mozillys <privacyLink>privatuma politikā</privacyLink>
 accept-privacy-title = Privatuma politika
+accept-privacy-and-terms = Es pīkreitu Common Voice <termsLink>nūsacejumim</termsLink> i <privacyLink>koņfideņcialuma paziņuojumam</privacyLink>
 login = Dasaslēgt
 login-signup = Dasaslēgt / Registrētīs
 edit = Lobuot
@@ -229,7 +240,10 @@ on = Īslāgts
 ## Profile - Email
 
 browse-file-title = Augšonīluodejit biļdi
+browse-file = Veļcit i nūsvīdit voi <browseWrap> Puorsaverit </browseWrap>
 connect-gravatar = Sasavīnuot ar Gravatar
+gravatar_not_found = Jiusu e-postam nav atrosts gravatars
+file_too_large = Atlaseitais fails ir puoruok lels
 avatar-uploaded = Biļde īluodāta
 max-file-size = maksimums { $kb }kb
 remove-avatar = Nūjimt biļdi
@@ -237,7 +251,10 @@ remove-avatar = Nūjimt biļdi
 ## Profile - Email
 
 manage-subscriptions = Puorvaļdeit abonementus
+manage-email-subscriptions = Puorvaļdit e-posta abonementus
+email-already-used = E-posts jau teik lītuots cytam kontam
 add-language = Dalikt volūdu
+change-email-setings = Mainit sovu e-postu, lītojūt īstatejumu sadaļu "Pīsasaceišonys ideņtitate"
 
 ## FAQ
 
