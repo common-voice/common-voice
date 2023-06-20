@@ -258,14 +258,17 @@ review-rerecord = Qayta jazıw
 
 ## Datasets Page
 
+datasets-heading = Maǵlıwmatlar toplamı
 language = Til
 audio-format = Audioformat
 number-of-voices = Dawıslar sanı
+email-to-download = Júklep alıw ushın elektron pochtańızdı kirgiziń
 size-gigabyte = GB
 size-megabyte = MB
 download-language = Júklew { $language }
 subscribe = Jazılıw
 go-languages-page = Tiller betine ótiw
+more = Kóbirek
 close = Jabıw
 download = Júklep alıw
 dataset-version = Versiya
@@ -295,8 +298,10 @@ request-language-form-email =
 
 ## Languages Overview
 
+language-total-progress = Jámi
 language-search-input =
     .placeholder = Izlew
+sentences = Gápler
 
 ## Contribution
 
@@ -308,9 +313,13 @@ write = Jazıw
 review = Tekseriw
 skip = Ótkerip jiberiw
 record-no-mic-found = Mikrofon tabılmadı.
+record-three-more-instruction = Úshewi qaldı!
+target-segment-learn-more = Kóbirek úyreniw
 
 ## Contribution Nav Items
 
+contribute-voice-collection-nav-header = Dawıslar toplamı
+contribute-sentence-collection-nav-header = Gápler toplamı
 
 ## Reporting
 
@@ -376,6 +385,8 @@ demo-account = Akkaunt
 
 ## Validation criteria
 
+contribution-for-example = Mısalı
+contribution-background-noise-title = Sırtqı shawqım
 
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
@@ -387,13 +398,18 @@ demo-account = Akkaunt
 sc-header-home = Bas bet
 sc-header-add = Qosıw
 sc-header-review = Tekseriw
+sc-header-my = Meniń gáplerim
 sc-header-statistics = Statistika
 sc-header-profile = Profil
+sc-footer-privacy = Qupıyalıq
+sc-footer-terms = Shártler
 sc-login-signup-button = Kiriw / Dizimnen ótiw
 sc-logout-button = Shıǵıw
 
 ## HOME
 
+sc-home-collect-title = Gáplerdi qosıw
+sc-home-review-title = Gáplerdi tekseriw
 
 ## GENERAL
 
@@ -403,6 +419,8 @@ sc-logout-button = Shıǵıw
 
 ## MY SENTENCES
 
+sc-my-title = Meniń gáplerim
+sc-my-no-sentences = Gápler tabılmadı!
 # Variables:
 #   $source (String) - Associated source the user filled out when uploading the sentence
 sc-my-source = Derek: { $source }
@@ -413,10 +431,12 @@ sc-my-source = Derek: { $source }
 ## STATS
 
 sc-stats-title = Statistika
+sc-stats-updating = Jańalanbaqta…
 
 ## ADD
 
 sc-submit-err-select-lang = Ótinish, tildi tańlań.
+sc-submit-err-add-sentences = Ótinish, gáplerdi qosıń.
 sc-submit-select-language =
     .labelText = Tildi tańlań
 sc-submit-button =
@@ -433,6 +453,7 @@ sc-confirm-button-text = Tastıyıqlaw
 
 ## LANGUAGE INFO
 
+sc-lang-info-title-total = Jámi
 
 ## LOGIN
 
@@ -454,6 +475,9 @@ sc-personal-remove-button = óshiriw
 
 ## REVIEW
 
+sc-review-title = Gáplerdi tekseriw
+sc-review-loading = Gápler júklenbekte…
+sc-review-form-button-reject = Biykarlaw
 sc-review-form-button-skip = Ótkerip jiberiw
 # Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
 sc-review-form-button-approve-shortcut = Y
