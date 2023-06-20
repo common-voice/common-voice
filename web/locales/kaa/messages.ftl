@@ -42,6 +42,7 @@ kaa = Qaraqalpaqsha
 kk = Qazaqsha
 ru = Rus tili
 uz = Ózbekshe
+zza = Zazaki
 
 # [/]
 
@@ -51,6 +52,7 @@ uz = Ózbekshe
 datasets = Maǵlıwmatlar toplamı
 languages = Tiller
 about = Biz tuwralı
+partner = Sherik
 profile = Profil
 help = Járdem
 contact = Baylanıs
