@@ -227,6 +227,7 @@ privacy = Qupıyalıq
 terms = Shártler
 cookies = Kukilar
 faq = Soraw-juwap
+content-license-text = Kontent <licenseLink>Creative Commons licenziyası</licenseLink> astında
 link-copied = Silteme kóshirip alındı
 back-top = Joqarıǵa qaytıw
 logout = Shıǵıw
@@ -271,6 +272,7 @@ sign-up-account = Akkaunttı dizimnen ótkeriw
 ## What's public
 
 whats-public = Qaysı maǵlıwmatlar hámme ushın ashıq?
+email-not-public = Elektron pochtańızdı sizden basqa heshkim kórmeydi.
 username-optin-public = Siz óz paydalanıwshı atıńızdı ashıq yamasa anonim qılıwdı tańlawıńız múmkin.
 
 ## Speak & Listen Shortcuts
