@@ -1,6 +1,6 @@
 export const up = async function (db: any): Promise<any> {
   return db.runSql(`
-    UPDATE sentences SET is_used = FALSE WHERE text in (
+    UPDATE sentences SET is_used = FALSE WHERE locale_id=(SELECT id from locales WHERE name='lv') AND text in (
         'Brauksim uz tās kuces māju.',
         'Drusku gribas kakāt.',
         'Ej kniebies, ar ko vien gribi. Tu man neesi vajadzīgs.',
