@@ -462,12 +462,19 @@ download-dataset-header = Maǵlıwmatlar toplamın júklep alıw
 cv-license = Licenziya
 audio-format = Audioformat
 number-of-voices = Dawıslar sanı
+splits = Ajıratıw
 email-to-download = Júklep alıw ushın elektron pochtańızdı kirgiziń
 size-gigabyte = GB
 size-megabyte = MB
 download-language = Júklew { $language }
+validated-hours = Tekserilgen saat
+recorded-hours = Jazılǵan saat
+whats-inside = CommonVoice maǵlıwmatlar toplamı ishinde ne jayǵasqan?
 subscribe = Jazılıw
+other-datasets = Basqa dawıslı maǵlıwmatlar toplamları
+go-discourse = Discourseǵa ótiw
 go-languages-page = Tiller betine ótiw
+ready-to-validate = Gáplerdi tekseriwge járdem beriwge tayarsız ba?
 more = Kóbirek
 close = Jabıw
 download = Júklep alıw
@@ -475,6 +482,10 @@ dataset-version = Versiya
 
 ## Download Modal
 
+download-form-email =
+    .label = Elektron pochtańizdi kirgiziń
+    .value = Raxmet, biz benen baylanısamız.
+download-back = CommonVoice maǵlıwmatlar toplamlarına qaytıw
 download-no = Yaq, raxmet
 
 ## Contact Modal
@@ -483,6 +494,7 @@ contact-form-name =
     .label = Atı
 contact-form-message =
     .label = Xat
+contact-required = *toltırıw májbúriy
 
 ## Request Language Modal
 
@@ -498,10 +510,14 @@ request-language-form-email =
 
 ## Languages Overview
 
+language-section-launched = Iske túsirilgen
+languages-show-more = Kóbirek kóriw
+languages-show-less = Azıraq kóriw
 language-total-progress = Jámi
 language-search-input =
     .placeholder = Izlew
 sentences = Gápler
+language-validation-hours = Saat
 
 ## Contribution
 
