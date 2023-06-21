@@ -362,6 +362,7 @@ on = Qosıwlı
 
 browse-file-title = Súwret faylın júklew
 connect-gravatar = Gravatardı qosıw
+file_too_large = Tańlanǵan fayl júdá úlken kólemge iye
 avatar-uploaded = Avatar júklendı
 remove-avatar = Avatardı óshiriw
 
@@ -376,9 +377,16 @@ faq-what-cv-q = Common Voice ne?
 faq-how-get-q = Men Common Voicetıń maǵlıwmatların toplamın qalay alıwım múmkin?
 faq-when-release2-q = Common Voicetıń Basqa tiller ushın maǵlıwmatlar toplamın qashan shıǵarasız?
 faq-is-goal-assistant-q = Common Voicetıń maqseti dawıslı járdemshini jaratıw ma?
+faq-how-calc-hours-q = Common Voice saatlardı qalay esaplaydı?
+faq-what-is-cv = Common Voice — bul ne?
+faq-using-cv = Common Voicetan qollanıw
+faq-search-for-answers =
+    .label = Juwaplardı izlew
 
 ## ABOUT US
 
+about-title = Nege CommonVoice?
+how-does-it-work-title-v2 = Common Voice qalay isleydi?
 
 ## How does it work section
 
@@ -397,6 +405,7 @@ about-nav-get-involved = Qatnasıw
 
 ## How do I add a language
 
+about-playbook-how-add-language-collecting-sentences-heading = Gáplerdi jıynaw
 
 ## How does localization work
 
@@ -424,6 +433,7 @@ about-nav-get-involved = Qatnasıw
 
 ## Error pages
 
+error-title-404 = Siz ushın bul betti taba almadıq
 error-code = Qátelik kodı: { $code }
 
 ## Data
@@ -431,17 +441,25 @@ error-code = Qátelik kodı: { $code }
 data-download-button = Common Voice maǵlıwmatların júklep alıw
 data-download-yes = Awa
 data-download-deny = Yaq
+data-download-license = Licenziya: <licenseLink>CC-0</licenseLink>
+data-other-download = Maǵlıwmatlardı júklep alıw
 release-version = Versiya
 dataset-date = Sáne
+license = Licenziya: <licenseLink>{ $license }</licenseLink>
 license-mixed = Aralas
+terms-agree = Razıman
+terms-disagree = Narazıman
 review-submit-title = Tekseriw hám jiberiw
 review-recording = Tekseriw
 review-rerecord = Qayta jazıw
+review-cancel = Jiberiwdi biykarlaw
 
 ## Datasets Page
 
 datasets-heading = Maǵlıwmatlar toplamı
 language = Til
+download-dataset-header = Maǵlıwmatlar toplamın júklep alıw
+cv-license = Licenziya
 audio-format = Audioformat
 number-of-voices = Dawıslar sanı
 email-to-download = Júklep alıw ushın elektron pochtańızdı kirgiziń
