@@ -402,6 +402,7 @@ about-sentence-collection-title = Gápler toplamı
 about-sentence-collection-subtitle = Adamlar dawıslap oqıwı ushın gápler jıynaladı.
 about-new-lang-title = Jańa tildiń iske túsiwi
 about-new-lang-subtitle = Biz usı tilde Common Voice saytın iske túsiremiz.
+about-dataset-release-subtitle = Biz hár 3 aydan maǵlıwmatlar toplamın járiyalaymız.
 about-speak = Sóyleń
 about-listen = Tıńlań
 about-dataset-new = CommonVoice maǵlıwmatlar toplamı
