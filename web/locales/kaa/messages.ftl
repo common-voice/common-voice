@@ -397,8 +397,11 @@ how-does-it-work-title-v2 = Common Voice qalay isleydi?
 
 about-language-req-subtitle = Birew tildi qosıwdı soraydı.
 about-localization-title = Veb-sayttı awdarıw
+about-localization-subtitle = Veb-sayttıń teksti sol til tilge awdarıladı.
 about-sentence-collection-title = Gápler toplamı
-about-new-lang-title = Jańa tildi iske túsiriw
+about-sentence-collection-subtitle = Adamlar dawıslap oqıwı ushın gápler jıynaladı.
+about-new-lang-title = Jańa tildiń iske túsiwi
+about-new-lang-subtitle = Biz usı tilde Common Voice saytın iske túsiremiz.
 about-speak = Sóyleń
 about-listen = Tıńlań
 about-dataset-new = CommonVoice maǵlıwmatlar toplamı
@@ -444,6 +447,7 @@ about-playbook-how-add-language-collecting-sentences-heading = Gáplerdi jıynaw
 
 ## Glossary
 
+sentence-collection = Gápler toplamı
 
 ## Error pages
 
@@ -750,6 +754,7 @@ partnerships-our-partners = Biziń sherikler
 add-information-button = Maǵlıwmat qosıw
 create-profile-button = Profil jaratıw
 voice-collection = Dawıslar toplamı
+sentence-collection = Gápler toplamı
 background-noise = Sırtqı shawqım
 background-voices = Sırtqı dawıslar
 example = Mısal
