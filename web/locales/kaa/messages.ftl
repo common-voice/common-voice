@@ -356,6 +356,7 @@ accept-privacy-title = Qupiyalıq siyasatı
 login = Kiriw
 login-signup = Kiriw/Dizimnen ótiw
 edit = Ózgeris kirgiziw
+download-profile = Maǵlıwmatlarımdı júklep alıw
 off = Óshirilgen
 on = Qosıwlı
 
@@ -365,6 +366,7 @@ browse-file-title = Súwret faylın júklew
 connect-gravatar = Gravatardı qosıw
 file_too_large = Tańlanǵan fayl júdá úlken kólemge iye
 avatar-uploaded = Avatar júklendı
+max-file-size = Maksimal { $kb }kb
 remove-avatar = Avatardı óshiriw
 
 ## Profile - Email
