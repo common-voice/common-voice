@@ -8,6 +8,7 @@ loading = Júklenbekte…
 indicates-required = * Toltırıw májburıy bolǵan maydanlar
 not-available-abbreviation = Joq
 banner-error-slow-link = Status beti
+error-something-went-wrong = Keshirersiz, qátelik júz berdi
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
