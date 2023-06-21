@@ -38,7 +38,6 @@ export const SecondaryNav: React.FC<SecondaryNavProps> = ({
           {location.pathname.includes(URLS.SPEAK) && (
             <span className="border" />
           )}
-          c
         </div>
         <div
           className={classNames({
