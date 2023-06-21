@@ -395,18 +395,27 @@ how-does-it-work-title-v2 = Common Voice qalay isleydi?
 
 ## How does it work section
 
+about-language-req-subtitle = Birew tildi qosıwdı soraydı.
+about-localization-title = Veb-sayttı awdarıw
 about-sentence-collection-title = Gápler toplamı
 about-new-lang-title = Jańa tildi iske túsiriw
 about-speak = Sóyleń
 about-listen = Tıńlań
+about-dataset-new = CommonVoice maǵlıwmatlar toplamı
+about-dataset-new-text = CommonVoice maǵlıwmatlar toplamı baǵdarlamashılarǵa dawıstı anıqlaw quralın járatıwǵa járdem beriw ushın júz mıńnan aslam audio úlgilerin óz ishine aladı.
+about-get-involved = Qatnasıw
 about-stay-in-touch-button = Dizimnen ótiw
 about-nav-why-common-voice = Nege?
 about-nav-how-it-works = Qalay?
+about-nav-partners = Sherikler
 about-nav-get-involved = Qatnasıw
+about-nav-how-it-works-2 = Common Voice qalay isleydi?
+about-nav-playbook = Qalay qatnasıwdı úyreniń
 
 ## Community Playbook Content
 ## What is a language
 
+about-playbook-what-is-language = Common Voiceta til ne?
 
 ## How do I add a language
 
@@ -503,6 +512,7 @@ contact-required = *toltırıw májbúriy
 
 ## Request Language Modal
 
+request-language-title = Til sorawı
 request-language-form-language =
     .label = Til
 select-language = Tildi tańlań...
