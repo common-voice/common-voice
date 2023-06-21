@@ -214,6 +214,7 @@ zza = Zazaki
 ## Layout
 
 speak = Sóylew
+speak-now = Sóylewdi baslaw
 datasets = Maǵlıwmatlar toplamı
 languages = Tiller
 about = Biz tuwralı
@@ -223,6 +224,7 @@ help = Járdem
 contact = Baylanıs
 privacy = Qupıyalıq
 terms = Shártler
+cookies = Kukilar
 faq = Soraw-juwap
 link-copied = Silteme kóshirip alındı
 back-top = Joqarıǵa qaytıw
@@ -233,8 +235,12 @@ logout = Shıǵıw
 home-cta = Oqıń hám úles qosıń!
 show-wall-of-text = Kóbirek oqıw
 help-us-title = Gáplerdi tekseriwge járdem beriń!
+no-clips-to-validate = Bul tilde esitiw ushın heshqanday jazıw joqqa uqsaydı. Ózińizdiń dawısıńızdı jazıp, bizge jańasın jaratıwǵa járdem beriń.
 vote-yes = Awa
 vote-no = Yaq
+toggle-play-tooltip = Qoyıw rejimin ózgertiw ushın { shortcut-play-toggle } túymesine basıń
+listen-subtitle = Dawıslardı tekseriwge bizge járdem beriń
+listen-goal-text = Klipler tekserildi
 hours-recorded = Saat jazıldı
 hours-validated = Saat tekserildi
 todays-progress = Búgingi nátiyje
@@ -264,6 +270,7 @@ sign-up-account = Akkaunttı dizimnen ótkeriw
 ## What's public
 
 whats-public = Qaysı maǵlıwmatlar hámme ushın ashıq?
+username-optin-public = Siz óz paydalanıwshı atıńızdı ashıq yamasa anonim qılıwdı tańlawıńız múmkin.
 
 ## Speak & Listen Shortcuts
 
@@ -290,6 +297,7 @@ shortcut-vote-no = n
 shortcut-record-toggle = r
 shortcut-record-toggle-label = Jazıp alıw/Toqtatıw
 shortcut-rerecord-toggle = [1-5]
+shortcut-rerecord-toggle-label = Kliptı qayta jazıw
 shortcut-discard-ongoing-recording = ESC
 shortcut-submit = Qaytıw
 shortcut-submit-label = Dawıstı jiberiw
@@ -313,9 +321,14 @@ profile-form-additional-language =
     .label = Qosımsha til
 profile-form-language =
     .label = Til
+profile-form-variant =
+    .label = { $language } qaysı dialektinde sóyleysiz?
 profile-form-variant-default-value = Variant tańlanbaǵan
 profile-form-accent =
     .label = Akcent
+profile-form-custom-accent-help-text =
+    .label = Akcentińizdi qalay táriyipleysiz?
+profile-form-custom-accent-placeholder-2 = Akcentińizdi táriyiplew ushın jazıwdı baslań
 profile-form-age =
     .label = Jas
 profile-form-gender-2 =
