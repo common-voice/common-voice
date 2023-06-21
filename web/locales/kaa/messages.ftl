@@ -213,6 +213,7 @@ zza = Zazaki
 
 ## Layout
 
+speak = Sóylew
 datasets = Maǵlıwmatlar toplamı
 languages = Tiller
 about = Biz tuwralı
@@ -313,6 +314,8 @@ profile-form-additional-language =
 profile-form-language =
     .label = Til
 profile-form-variant-default-value = Variant tańlanbaǵan
+profile-form-accent =
+    .label = Akcent
 profile-form-age =
     .label = Jas
 profile-form-gender-2 =
