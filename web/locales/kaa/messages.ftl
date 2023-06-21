@@ -528,8 +528,15 @@ listen = Tıńlaw
 write = Jazıw
 review = Tekseriw
 skip = Ótkerip jiberiw
+contribute-more =
+    { $count ->
+        [one] Jáne { $count } islewge tayarsız ba?
+       *[other] Jáne { $count } islewge tayarsız ba?
+    }
+record-must-allow-microphone = Mikrofonǵa ruqsat beriwińiz kerek.
 record-no-mic-found = Mikrofon tabılmadı.
 record-three-more-instruction = Úshewi qaldı!
+share-title-new = Bizge kóbirek dawıs jıynawǵa <bold>járdem beriń</bold>
 target-segment-learn-more = Kóbirek úyreniw
 
 ## Contribution Nav Items
@@ -540,6 +547,7 @@ contribute-sentence-collection-nav-header = Gápler toplamı
 ## Reporting
 
 report-different-language = Basqa til
+success = Tayar
 continue = Dawam etiw
 
 ## Goals
@@ -554,10 +562,17 @@ days =
 
 your-languages = Siziń tillerińiz
 stats = Statistika
+awards = Sıylıqlar
 you = Siz
+everyone = Barlıq paydalanıwshılar
 
 ## Custom Goals
 
+create-custom-goal = Jeke maqset jaratıw
+both-speak-and-listen = Ekewi de
+both-speak-and-listen-long = Ekewi de (sóylew hám tıńlaw)
+daily-goal = Kúndelikli maqset
+weekly-goal = Háptelik maqset
 easy-difficulty = Ańsat
 average-difficulty = Ortasha
 difficult-difficulty = Qıyın
@@ -577,6 +592,7 @@ download-start = Profil maǵlıwmatların júklep alıw
 download-request-button = Júklep alıw
 download-request-title = { $created }
 download-request-refresh-button = Jańalaw
+download-request-metadata-link = Gáp teksti
 
 ## Landing
 
@@ -586,6 +602,7 @@ download-request-refresh-button = Jańalaw
 
 ## Demo Datasets
 
+card-button-next = Keyingi
 card-button-back = Artqa
 demo-language-select-label = Tillerdi kóriw
 demo-account = Akkaunt
@@ -595,6 +612,7 @@ demo-account = Akkaunt
 
 ## Demo Contribute
 
+demo-listen-subtitle = Óz úlesińizdi qosıwǵa tayarsız ba?
 
 ## Demo Dashboard
 
