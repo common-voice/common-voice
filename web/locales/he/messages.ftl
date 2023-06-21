@@ -118,6 +118,7 @@ lij = ליגורית
 ln = לינגאלה
 lo = לאווית
 lt = ליטאית
+ltg = לטגלית
 lv = לטבית
 mai = מאיטילי
 mdf = מוקשה
@@ -849,7 +850,7 @@ request-language-error =
 ## Languages Overview
 
 language-section-in-progress = בתהליך
-language-section-in-progress-new-description = שפות אלה נמצאות כעת בתהליך פיתוח של הקהילה. בכדי להפוך את השפה לזמינה, יש להשלים קודם כל <localizationGlossaryLink> לוקליזציה של האתר</localizationGlossaryLink> ו <sentenceCollectionGlossaryLink> איסוף משפטים </ sentenceCollectionGlossaryLink>.
+language-section-in-progress-new-description = שפות אלה נמצאות כעת בתהליך פיתוח של הקהילה. בכדי להפוך את השפה לזמינה, יש להשלים קודם כל <localizationGlossaryLink> לוקליזציה של האתר</localizationGlossaryLink> ו<sentenceCollectionGlossaryLink>איסוף משפטים</ sentenceCollectionGlossaryLink>.
 language-section-launched = הושקו
 language-section-launched-description = עבור שפות אלה שהושקו, האתר עבר <localizationGlossaryLink> לוקליזציה </ localizationGlossaryLink> בהצלחה, ויש מספיק <sentenceCollectionGlossaryLink> משפטים שנאספו </ sentenceCollectionGlossaryLink> כדי לאפשר תרומות מתמשכות של <speakLink>דיבור</speakLink> ו<listenenLink>האזנה</ listenLink >.
 languages-show-more = להציג עוד

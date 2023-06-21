@@ -118,6 +118,7 @@ lij = Liguriska
 ln = Lingala
 lo = Laotiska
 lt = Litauiska
+ltg = Lettgalliska
 lv = Lettiska
 mai = Maithili
 mdf = Moksha
@@ -1689,8 +1690,6 @@ reviewing-sentences-explanation-1 = Om meningen uppfyller kriterierna ovan, klic
 reviewing-sentences-explanation-2 = Om meningen inte uppfyller ovanstående kriterier, klicka på knappen "Nej".
 reviewing-sentences-explanation-3 = Om du är osäker på meningen kan du också hoppa över den och gå vidare till nästa.
 reviewing-sentences-explanation-4 = Om du får slut på meningar att granska, vänligen hjälp oss att samla in fler meningar!
-community-announcement-header = Meddelande från gemenskapen!
-community-announcement-explanation = Vägledningen nedan är för de nya funktionen för meningsinsamling, som kommer att integreras i den grundläggande Common Voice-plattformen under mars och april 2023. Under tiden kan du använda det tidigare verktyget, <scLink>https://commonvoice.mozilla.org/sentence-collector/</scLink>.
 # WRITE PAGE
 write-instruction-second-part = en mening som är allmän egendom
 write-page-subtitle = Meningar som bidrags här kommer att läggas till i en allmänt tillgänglig cc-0-licensierad datamängd.

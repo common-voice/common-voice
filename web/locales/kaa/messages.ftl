@@ -14,6 +14,7 @@ banner-error-slow-link = Status beti
 
 ab = Abxaz
 ace = Achene
+an = Aragon
 ar = Arab
 ast = Asturiya
 kaa = Qaraqalpaqsha
@@ -25,6 +26,7 @@ uz = Ózbekshe
 
 ## Layout
 
+datasets = Maǵlıwmatlar toplamı
 languages = Tiller
 about = Biz tuwralı
 profile = Profil
@@ -41,6 +43,7 @@ logout = Shıǵıw
 
 home-cta = Oqıń hám úles qosıń!
 show-wall-of-text = Kóbirek oqıw
+help-us-title = Gáplerdi tekseriwge járdem beriń!
 vote-yes = Awa
 vote-no = Yaq
 hours-recorded = Saat jazıldı
@@ -70,6 +73,7 @@ x-years-short =
 
 ## What's public
 
+whats-public = Qaysı maǵlıwmatlar hámme ushın ashıq?
 
 ## Speak & Listen Shortcuts
 
@@ -97,7 +101,9 @@ shortcut-record-toggle = r
 shortcut-record-toggle-label = Jazıp alıw/Toqtatıw
 shortcut-rerecord-toggle = [1-5]
 shortcut-discard-ongoing-recording = ESC
+shortcut-submit = Qaytıw
 shortcut-submit-label = Dawıstı jiberiw
+request-language-text = Common Voice joybarında ana tilińizdi kórmey atırsız ba?
 request-language-button = Til qosıwǵa soraw jiberiw
 
 ## ProjectStatus
@@ -117,6 +123,7 @@ profile-form-additional-language =
     .label = Qosımsha til
 profile-form-language =
     .label = Til
+profile-form-variant-default-value = Variant tańlanbaǵan
 profile-form-age =
     .label = Jas
 profile-form-gender-2 =
@@ -131,11 +138,14 @@ female = Hayal
 # Gender
 other = Basqa
 why-profile-title = Profil nege kerek?
+dashboard = Basqarıw paneli
+build-profile = Profil jaratıw
 avatar = Avatar
 goals = Maqsetler
 settings = Sazlamalar
 edit-profile = Profilge ózgeris kirgiziw
 profile-close = Jabıw
+accept-privacy-title = Qupiyalıq siyasatı
 login = Kiriw
 login-signup = Kiriw/Dizimnen ótiw
 edit = Ózgeris kirgiziw

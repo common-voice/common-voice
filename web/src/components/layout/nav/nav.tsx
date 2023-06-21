@@ -1,13 +1,9 @@
-import { Localized } from '@fluent/react';
-import * as React from 'react';
-import { trackNav, getTrackClass } from '../../../services/tracker';
-import URLS from '../../../urls';
-import {
-  ContributableLocaleLock,
-  LocaleNavLink,
-  useLocale,
-} from '../../locale-helpers';
-import ContributeMenu from './contribute-menu';
+import { Localized } from '@fluent/react'
+import * as React from 'react'
+import { trackNav, getTrackClass } from '../../../services/tracker'
+import URLS from '../../../urls'
+import { LocaleNavLink, useLocale } from '../../locale-helpers'
+import ContributeMenu from './contribute-menu'
 import { useAccount } from '../../../hooks/store-hooks'
 
 import './nav.css'
@@ -51,16 +47,14 @@ const Nav: React.FC<NavProps> = ({
   return (
     <nav {...props} className="nav-list">
       <div className="nav-links">
-        <ContributableLocaleLock>
-          <ContributeMenu
-            showMenu={showMenu}
-            setShowMenu={setShowMenu}
-            showMobileMenu={showMobileMenu}
-            toggleMobileMenuVisible={toggleMobileMenuVisible}
-            isContributionPageActive={isContributionPageActive}
-            isUserLoggedIn={Boolean(account)}
-          />
-        </ContributableLocaleLock>
+        <ContributeMenu
+          showMenu={showMenu}
+          setShowMenu={setShowMenu}
+          showMobileMenu={showMobileMenu}
+          toggleMobileMenuVisible={toggleMobileMenuVisible}
+          isContributionPageActive={isContributionPageActive}
+          isUserLoggedIn={Boolean(account)}
+        />
         <span className="divider" />
         <div className={shouldExpandNavItems ? 'fade-in' : 'fade-out'}>
           <>
@@ -76,4 +70,4 @@ const Nav: React.FC<NavProps> = ({
   )
 }
 
-export default Nav;
+export default Nav
