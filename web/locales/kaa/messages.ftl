@@ -385,6 +385,7 @@ settings = Sazlamalar
 edit-profile = Profilge ózgeris kirgiziw
 profile-create-success = Júdá jaqsı, profil jaratıldı!
 profile-close = Jabıw
+why-demographic = Nege bul áhmiyetli?
 accept-privacy-title = Qupiyalıq siyasatı
 login = Kiriw
 login-signup = Kiriw/Dizimnen ótiw
