@@ -1,6 +1,7 @@
 ## General
 
-yes-receive-emails = Awa, maǵan elektron pochta arqalı xabarlardı jiberiń. Common Voice jobası haqqında xabardar bolıwdı qáleymen.
+yes-receive-emails = Awa, maǵan xatlardı jiberiń. Men CommonVoice jobası haqqında xabardar bolıwdı qáleymen.
+stayintouch = Biz Mozillada dawıs texnologiyası sheńberinde birlespe dúzip atırmız. Biz barlıq jańalıqlar, jańa maǵlıwmatlar toplamılarnıń derekleri hám de kóbirek bunday maǵlıwmatlardı qalay qollanıwıńız haqqında xabardar bolıwdı qáler edik.
 email-input =
     .label = Elektron pochta
 submit-form-action = Jiberiw

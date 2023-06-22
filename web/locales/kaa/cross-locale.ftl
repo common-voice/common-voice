@@ -11,6 +11,6 @@ get-involved-opt-in = Awa, maǵan xatlardı jiberiń. Men bul tildiń CommonVoic
 get-involved-submit = Jiberiw
 get-involved-stayintouch = Biz Mozillada dawıs texnologiyası sheńberinde birlespe dúzip atırmız. Biz barlıq jańalıqlar, jańa maǵlıwmatlar toplamılarnıń derekleri hám de kóbirek bunday maǵlıwmatlardı qalay qollanıwıńız haqqında xabardar bolıwdı qáler edik.
 get-involved-privacy-info = Siziń maǵlıwmatlarıńızǵa puqtalıq penen qarawǵa wáde beremiz. Bul haqqında qosımsha <privacyLink>Qupıyalıq siyasatı</privacyLink> maǵlıwmatların oqıp shıǵıń.
-get-involved-success-title = { $language } tiline úles qosıwǵa jazıldıńız. Raxmet.
+get-involved-success-title = Siz { $language } tiline úles qosıw ushın tabıslı dizimnen óttińiz. Raxmet.
 get-involved-success-text = Qosımsha maǵlıwmat payda bolıwı menen baylanısamız.
 get-involved-return-to-languages = Tillerge qaytıw
