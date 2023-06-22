@@ -111,7 +111,7 @@ export async function getTermIds(term_names: string[]): Promise<number[]> {
   return term_names.map(name => termIds[name])
 }
 
-export default class DB {
+class Database {
   clip: ClipTable
   mysql: Mysql
   schema: Schema
@@ -1019,7 +1019,7 @@ export default class DB {
    *
    * @param {string} releaseType
    * @return {*}  {Promise<Language[]>}
-   * @memberof DB
+   * @memberof Database
    */
   async getAllDatasets(releaseType: string): Promise<Datasets[]> {
     const [rows] = await this.mysql.query(
@@ -1391,3 +1391,5 @@ export default class DB {
     return !!row
   }
 }
+
+export default new Database()
