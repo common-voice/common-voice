@@ -12,7 +12,8 @@ email-opt-in-info = Maqsetlerim haqqında esletpe, ozimniń jetiskenliklerim há
 email-opt-in-info-sub-with-challenge = Diydiler, maqsetler haqqında esletpe, jetiskenlikler haqqında xabarlamalar hám CommonVoice haqqında jańalıqlar sıyaqlı xatlardı alıw.
 indicates-required = * Toltırıw májburıy bolǵan maydanlar
 not-available-abbreviation = Joq
-banner-error-slow-link = Status beti
+banner-error-slow-1 = Keshirersiz, CommonVoice áste islep atır. Qızıǵıwshılıǵıńız ushın raxmet.
+banner-error-slow-link = Jaǵday beti
 error-something-went-wrong = Keshirersiz, qátelik júz berdi
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
