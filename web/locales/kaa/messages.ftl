@@ -244,7 +244,10 @@ logout = Shıǵıw
 ## Home Page
 
 home-cta = Dawısıńızdı jazıp qaldırıń hám úles qosıń!
+wall-of-text-start = Dawıs — tábiyiy hám insan. Sonlıqtan biz mashinalarımız ushın jaramlı bolǵan dawıslı texnologiya jaratıwǵa umtılıp atırmız. Biraq dawıslı sistemalardı jaratıw ushın baǵdarlamashılarǵa úlken kólemdegi dawıslı maǵlıwmatlar kerek.
 wall-of-text-more-mobile = Iri kompaniyalar tárepinen qollanılatuǵın maǵlıwmatlardıń basım bólegi kópshilik adamlar ushın qol jetimli emes. Bul innovaciyalıq rawajlanıwdı páseytedi, dep oylaymız. Sonlıqtan da biz CommonVoice joybarın iske túsirdik, bul joybardıń maqseti — dawıstı anıqlaw xızmetin hámme ushın ashıq qılıw.
+wall-of-text-first = Dawıs — tábiyiy hám insan. Sonlıqtan biz mashinalarımız ushın jaramlı bolǵan dawıslı texnologiya jaratıwǵa umtılıp atırmız. Biraq dawıslı sistemalardı jaratıw ushın baǵdarlamashılarǵa úlken kólemdegi dawıslı maǵlıwmatlar kerek.
+wall-of-text-second = Iri kompaniyalar tárepinen qollanılatuǵın maǵlıwmatlardıń basım bólegi kópshilik adamlar ushın qol jetimli emes. Bul innovaciyalıq rawajlanıwdı páseytedi, dep oylaymız. Sonlıqtan da biz CommonVoice joybarın iske túsirdik, bul joybardıń maqseti — dawıstı anıqlaw xızmetin hámme ushın ashıq qılıw.
 show-wall-of-text = Kóbirek oqıw
 help-us-title = Gáplerdi tekseriwge járdem beriń!
 no-clips-to-validate = Bul tilde esitiw ushın heshqanday jazıw joqqa uqsaydı. Ózińizdiń dawısıńızdı jazıp, bizge jańasın jaratıwǵa járdem beriń.
