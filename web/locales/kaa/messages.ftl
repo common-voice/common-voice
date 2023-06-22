@@ -16,6 +16,7 @@ banner-error-slow-1 = Keshirersiz, CommonVoice áste islep atır. Qızıǵıwsh�
 banner-error-slow-link = Jaǵday beti
 error-something-went-wrong = Keshirersiz, qátelik júz berdi
 error-clip-upload = Bul klipti júklew sátsiz juwmaqlandı. Qayta urınıp kóresiz be?
+error-clip-upload-server = Bul klipti serverge júklew sátsiz juwmaqlandı. Betti qayta júkleń yamasa keyinirek qayta urınıp kóriń.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -222,7 +223,7 @@ zza = Zazaki
 ## Layout
 
 speak = Sóylew
-speak-now = Sóylewdi baslaw
+speak-now = Házir sóylew
 datasets = Maǵlıwmatlar toplamı
 languages = Tiller
 about = Biz tuwralı
@@ -233,8 +234,9 @@ contact = Baylanıs
 privacy = Qupıyalıq
 terms = Shártler
 cookies = Kukilar
-faq = Soraw-juwap
+faq = KBS
 content-license-text = Kontent <licenseLink>Creative Commons licenziyası</licenseLink> astında
+share-title = Óz dawısın jazıp qaldırıwdı qálewshilerdi tawıp bizge járdem beriń!
 link-copied = Silteme kóshirip alındı
 back-top = Joqarıǵa qaytıw
 logout = Shıǵıw
