@@ -243,13 +243,14 @@ logout = Shıǵıw
 
 ## Home Page
 
-home-cta = Oqıń hám úles qosıń!
+home-cta = Dawısıńızdı jazıp qaldırıń hám úles qosıń!
 show-wall-of-text = Kóbirek oqıw
 help-us-title = Gáplerdi tekseriwge járdem beriń!
 no-clips-to-validate = Bul tilde esitiw ushın heshqanday jazıw joqqa uqsaydı. Ózińizdiń dawısıńızdı jazıp, bizge jańasın jaratıwǵa járdem beriń.
 vote-yes = Awa
 vote-no = Yaq
 toggle-play-tooltip = Qoyıw rejimin ózgertiw ushın { shortcut-play-toggle } túymesine basıń
+speak-subtitle = Dawısıńızdı jazıp qaldırıń
 listen-subtitle = Dawıslardı tekseriwge bizge járdem beriń
 listen-goal-text = Klipler tekserildi
 hours-recorded = Saat jazıldı
