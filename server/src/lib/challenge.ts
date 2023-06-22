@@ -1,33 +1,33 @@
-import { Request, Response } from 'express';
+import { Request, Response } from 'express'
 
-import getLeaderboard from './model/leaderboard';
-import { earnBonus, hasEarnedBonus } from './model/achievements';
-import Model from './model';
-import { ChallengeRequestArgument } from 'common';
+import getLeaderboard from './model/leaderboard'
+import { earnBonus, hasEarnedBonus } from './model/achievements'
+import Model from './model'
+import { ChallengeRequestArgument } from 'common'
 
-const PromiseRouter = require('express-promise-router');
+const PromiseRouter = require('express-promise-router')
 
 export default class Challenge {
-  private model: Model;
+  private model: Model
 
   constructor(model: Model) {
-    this.model = model;
+    this.model = model
   }
 
   getRouter() {
-    const router = PromiseRouter({ mergeParams: true });
+    const router = PromiseRouter({ mergeParams: true })
 
-    router.get('/:challenge/points', this.getPoints);
-    router.get('/:challenge/progress', this.getWeeklyProgress);
-    router.get('/:challenge/:locale/members/:type', this.getTopMembers);
-    router.get('/:challenge/:locale/teams', this.getTopTeams);
+    router.get('/:challenge/points', this.getPoints)
+    router.get('/:challenge/progress', this.getWeeklyProgress)
+    router.get('/:challenge/:locale/members/:type', this.getTopMembers)
+    router.get('/:challenge/:locale/teams', this.getTopTeams)
     router.get(
       '/:challenge/:locale/contributors/:type',
       this.getTopContributors
-    );
-    router.use('/:challenge/achievement/:bonus_type', this.getAchievement);
+    )
+    router.use('/:challenge/achievement/:bonus_type', this.getAchievement)
 
-    return router;
+    return router
   }
 
   getAchievement = async (
@@ -45,7 +45,7 @@ export default class Challenge {
           client_id,
           challenge,
         ])
-      );
+      )
     } else if (bonus_type == 'invite') {
       // return { showInviteSendToast: boolean, hasEarnedSessionToast: boolean } in the json
       // NOTE: easy to get confused about how should return true or false
@@ -62,28 +62,28 @@ export default class Challenge {
           client_id,
           challenge
         ),
-        challengeEnded: await this.model.db.hasChallengeEnded(challenge),
-      };
-      response.json(achievement);
+        challengeEnded: await this.model.database.hasChallengeEnded(challenge),
+      }
+      response.json(achievement)
     }
-  };
+  }
 
   getPoints = async (
     { client_id, params: { challenge } }: ChallengeRequestArgument & Request,
     response: Response
   ) => {
-    response.json(await this.model.db.getPoints(client_id, challenge));
-  };
+    response.json(await this.model.database.getPoints(client_id, challenge))
+  }
 
   getWeeklyProgress = async (
     { client_id, params: { challenge } }: ChallengeRequestArgument & Request,
     response: Response
   ) => {
     // week starts from zero
-    const progress = await this.model.db.getWeeklyProgress(
+    const progress = await this.model.database.getWeeklyProgress(
       client_id,
       challenge
-    );
+    )
     const weeklyProgress = {
       week: Math.max(0, Math.min(progress.week, 2)),
       challengeComplete: progress.week > 2,
@@ -94,9 +94,9 @@ export default class Challenge {
         listen_total: progress.week === 1 ? 100 : 200,
       },
       team: { invite: progress.teammate_count, invite_total: 50 },
-    };
-    response.json(weeklyProgress);
-  };
+    }
+    response.json(weeklyProgress)
+  }
 
   getTopMembers = async (
     {
@@ -115,8 +115,8 @@ export default class Challenge {
         locale,
         arg: { scope: 'members', challenge },
       })
-    );
-  };
+    )
+  }
 
   getTopTeams = async (
     {
@@ -134,8 +134,8 @@ export default class Challenge {
         locale,
         arg: { scope: 'teams', challenge },
       })
-    );
-  };
+    )
+  }
 
   getTopContributors = async (
     {
@@ -154,6 +154,6 @@ export default class Challenge {
         locale,
         arg: { scope: 'contributors', challenge },
       })
-    );
-  };
+    )
+  }
 }

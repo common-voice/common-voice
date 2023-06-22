@@ -10,7 +10,7 @@
  *
  * In order for a language to be launched (and start collecting clips), it must meet two distinct criteria:
  *  - website text has at least 60% translations
- *  - sentence contributions >= predetermined sentence target
+ *  - sentence contributions meets or exceeds predetermined sentence target
  *
  * Once a language has met the two criterion, it is launched (the flag "is_contributable" is set to true the database).
  */
@@ -55,8 +55,17 @@ const convertPontoonDataToLanguage = (
     locale: { code, name, direction: text_direction },
   } = pontoonData
 
+  const {
+    sentenceCount: { currentCount, targetSentenceCount },
+  } = language
+
+  //website text has at least 60% translations
   const hasTranslationCriteria =
     approvedStrings / totalStrings >= TRANSLATION_CRITERIA_CUTOFF
+
+  //sentence contributions meets or exceeds predetermined sentence target
+  const hasSentenceCriteria = currentCount >= targetSentenceCount
+
   //returns the new language data in a single object, ready to be saved to db
   return {
     ...language,
@@ -64,6 +73,7 @@ const convertPontoonDataToLanguage = (
     native_name: name,
     text_direction,
     is_translated: hasTranslationCriteria,
+    is_contributable: hasSentenceCriteria,
   }
 }
 
@@ -80,7 +90,11 @@ const mapToLanguages = (
   })
 }
 
-export const saveData = () => {
+/**
+ *
+ * @param languages all the new language data that needs to be saved to db
+ */
+export const saveData = async languages => {
   // console.log(formatPontoonData(TEST_DATA))
 }
 
@@ -89,4 +103,5 @@ export const syncPontoonStatistics = async () => {
   const pontoonLanguages = await getPontoonLanguages()
 
   const languages = mapToLanguages(pontoonLanguages, existingLanguages)
+  await saveData(languages)
 }
