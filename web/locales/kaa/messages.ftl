@@ -293,6 +293,7 @@ compare-progress = Siziń rawajlanıwıńız dúnya júzi boyınsha basqa qatnas
 whats-public = Qaysı maǵlıwmatlar hámme ushın ashıq?
 email-not-public = Elektron pochtańızdı sizden basqa heshkim kórmeydi.
 username-optin-public = Óz paydalanıwshı atıńızdı ashıq yamasa anonim qılıwdı tańlawıńız múmkin.
+username-email-not-demographic = Siziń paydalanıwshı atıńız hám elektron pochtańız járiyalanǵan maǵlıwmatlar menen úylespeydi.
 
 ## Speak & Listen Shortcuts
 
@@ -321,17 +322,24 @@ shortcut-record-toggle-label = Jazıp alıw/Toqtatıw
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Kliptı qayta jazıw
 shortcut-discard-ongoing-recording = ESC
+shortcut-discard-ongoing-recording-label = Ámeldegi jazıwdı biykarlaw
 shortcut-submit = Qaytıw
-shortcut-submit-label = Dawıstı jiberiw
+shortcut-submit-label = Kliplerdi jiberiw
 request-language-text = Common Voice joybarında ana tilińizdi kórmey atırsız ba?
 request-language-button = Til qosıwǵa soraw jiberiw
 
 ## ProjectStatus
 
+status-contribute = Dawısıńızdı jazıp qaldırıń
+status-hours =
+    { $hours ->
+        [one] Házirshe bir saat tekserildi!
+       *[other] Házirshe { $hours } saat tekserildi!
+    }
 # Variables:
 # $goal - number of hours representing the next goal
 status-goal = Keyingi maqset: { $goal }
-english = Inglis tili
+english = Anglichan
 
 ## ProfileForm
 
