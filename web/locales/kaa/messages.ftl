@@ -15,6 +15,7 @@ not-available-abbreviation = Joq
 banner-error-slow-1 = Keshirersiz, CommonVoice áste islep atır. Qızıǵıwshılıǵıńız ushın raxmet.
 banner-error-slow-link = Jaǵday beti
 error-something-went-wrong = Keshirersiz, qátelik júz berdi
+error-clip-upload = Bul klipti júklew sátsiz juwmaqlandı. Qayta urınıp kóresiz be?
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
