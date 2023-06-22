@@ -280,10 +280,13 @@ x-years-short =
         [one] jıl
        *[other] { $count }jıl
     }
+help-make-dataset = Bizge joqarı sapalı ashıq maǵlıwmatlar toplamın jaratıwǵa járdem beriń
 sign-up-account = Akkaunttı dizimnen ótkeriw
 
 ## Account Benefits
 
+benefits = Abzallıqları
+compare-progress = Siziń rawajlanıwıńız dúnya júzi boyınsha basqa qatnasıwshılar menen qalay salıstırılatuǵının kóriń.
 
 ## What's public
 
