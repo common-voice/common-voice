@@ -1,7 +1,7 @@
 ## General
 
 yes-receive-emails = Awa, maǵan xatlardı jiberiń. Men CommonVoice jobası haqqında xabardar bolıwdı qáleymen.
-stayintouch = Biz Mozillada dawıs texnologiyası sheńberinde birlespe dúzip atırmız. Biz barlıq jańalıqlar, jańa maǵlıwmatlar toplamılarnıń derekleri hám de kóbirek bunday maǵlıwmatlardı qalay qollanıwıńız haqqında xabardar bolıwdı qáler edik.
+stayintouch = Biz Mozillada dawıs texnologiyası sheńberinde birlespe dúzip atırmız. Biz barlıq jańalıqlar, jańa maǵlıwmatlar toplamlarnıń derekleri hám  kóbirek bunday maǵlıwmatlardı qalay qollanıwıńız haqqında xabardar bolıwdı qáler edik.
 privacy-info = Siziń maǵlıwmatlarıńızǵa puqtalıq penen qarawǵa wáde beremiz. Bul haqqında qosımsha <privacyLink>Qupıyalıq siyasatı</privacyLink> maǵlıwmatların oqıp shıǵıń.
 return-to-cv = Common Voiceǵa qaytıw
 email-input =
@@ -9,6 +9,7 @@ email-input =
 submit-form-action = Jiberiw
 loading = Júklenbekte…
 email-opt-in-info = Maqsetlerim haqqında esletpe, ozimniń jetiskenliklerim hám Common Voice haqqındaǵı xatlardı alıwdı qáleymen.
+email-opt-in-info-sub-with-challenge = Diydiler, maqsetler haqqında esletpe, jetiskenlikler haqqında xabarlamalar hám CommonVoice haqqında jańalıqlar sıyaqlı xatlardı alıw.
 indicates-required = * Toltırıw májburıy bolǵan maydanlar
 not-available-abbreviation = Joq
 banner-error-slow-link = Status beti
