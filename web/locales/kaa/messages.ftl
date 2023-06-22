@@ -292,7 +292,7 @@ compare-progress = Siziń rawajlanıwıńız dúnya júzi boyınsha basqa qatnas
 
 whats-public = Qaysı maǵlıwmatlar hámme ushın ashıq?
 email-not-public = Elektron pochtańızdı sizden basqa heshkim kórmeydi.
-username-optin-public = Siz óz paydalanıwshı atıńızdı ashıq yamasa anonim qılıwdı tańlawıńız múmkin.
+username-optin-public = Óz paydalanıwshı atıńızdı ashıq yamasa anonim qılıwdı tańlawıńız múmkin.
 
 ## Speak & Listen Shortcuts
 
