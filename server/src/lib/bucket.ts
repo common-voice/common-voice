@@ -1,12 +1,12 @@
-import { S3 } from 'aws-sdk';
-import { getConfig } from '../config-helper';
-import Model from './model';
-import { Clip, TakeoutRequest } from 'common';
-import { PassThrough } from 'stream';
-import { ClientClip } from './takeout';
-import * as Sentry from '@sentry/node';
+import { S3 } from 'aws-sdk'
+import { getConfig } from '../config-helper'
+import Model from './model'
+import { Clip, TakeoutRequest } from 'common'
+import { PassThrough } from 'stream'
+import { ClientClip } from './takeout'
+import * as Sentry from '@sentry/node'
 
-const s3Zip = require('s3-zip');
+const s3Zip = require('s3-zip')
 
 /**
  * Bucket
@@ -14,12 +14,12 @@ const s3Zip = require('s3-zip');
  *   metadata into the Model from s3.
  */
 export default class Bucket {
-  private model: Model;
-  private s3: S3;
+  private model: Model
+  private s3: S3
 
   constructor(model: Model, s3: S3) {
-    this.model = model;
-    this.s3 = s3;
+    this.model = model
+    this.s3 = s3
   }
 
   /**
@@ -32,23 +32,23 @@ export default class Bucket {
       CLIP_BUCKET_NAME,
       S3_CONFIG,
       S3_LOCAL_DEVELOPMENT_ENDPOINT,
-    } = getConfig();
+    } = getConfig()
 
     let url = this.s3.getSignedUrl('getObject', {
       Bucket: bucketType === 'dataset' ? DATASET_BUCKET_NAME : CLIP_BUCKET_NAME,
       Key: key,
       Expires: 60 * 60 * 12,
-    });
+    })
 
     if (ENVIRONMENT === 'local') {
       // allow us to access s3proxy files correctly in development
       url = url.replace(
         S3_CONFIG.endpoint.toString(),
         S3_LOCAL_DEVELOPMENT_ENDPOINT
-      );
+      )
     }
 
-    return url;
+    return url
   }
 
   /**
@@ -60,29 +60,29 @@ export default class Bucket {
       S3_LOCAL_DEVELOPMENT_ENDPOINT,
       CLIP_BUCKET_NAME,
       AWS_REGION,
-    } = getConfig();
+    } = getConfig()
 
     if (ENVIRONMENT === 'local') {
-      return `${S3_LOCAL_DEVELOPMENT_ENDPOINT}/${CLIP_BUCKET_NAME}/${key}`;
+      return `${S3_LOCAL_DEVELOPMENT_ENDPOINT}/${CLIP_BUCKET_NAME}/${key}`
     }
 
-    return `https://${bucket}.s3.dualstack.${AWS_REGION}.amazonaws.com/${key}`;
+    return `https://${bucket}.s3.dualstack.${AWS_REGION}.amazonaws.com/${key}`
   }
 
   /**
    * Delete function for S3 used for removing old avatars
    */
   public async deleteAvatar(client_id: string, url: string) {
-    let urlParts = url.split('/');
+    let urlParts = url.split('/')
     if (urlParts.length) {
-      const fileName = urlParts[urlParts.length - 1];
+      const fileName = urlParts[urlParts.length - 1]
 
       await this.s3
         .deleteObject({
           Bucket: getConfig().CLIP_BUCKET_NAME,
           Key: `${client_id}/${fileName}`,
         })
-        .promise();
+        .promise()
     }
   }
 
@@ -95,7 +95,7 @@ export default class Bucket {
         Bucket: getConfig().CLIP_BUCKET_NAME,
         Key: path,
       })
-      .promise();
+      .promise()
   }
 
   /**
@@ -111,8 +111,8 @@ export default class Bucket {
       client_id,
       locale,
       Math.ceil(count * 1.5)
-    );
-    const clipPromises: Clip[] = [];
+    )
+    const clipPromises: Clip[] = []
 
     Sentry.captureMessage(
       `Got ${clips.length} eligible clips for ${locale} locale`,
@@ -121,7 +121,7 @@ export default class Bucket {
 
     // Use for instead of .map so that it can break once enough clips are assembled
     for (let i = 0; i < clips.length; i++) {
-      const { id, path, sentence, original_sentence_id, taxonomy } = clips[i];
+      const { id, path, sentence, original_sentence_id, taxonomy } = clips[i]
 
       try {
         const metadata = await this.s3
@@ -141,7 +141,7 @@ export default class Bucket {
           })
         } else {
           console.log(`clip_id ${id} at ${path} is smaller than 256 bytes`)
-          await this.model.db.markInvalid(id.toString())
+          await this.model.database.markInvalid(id.toString())
         }
 
         // this will break either when 10 clips have been retrieved or when 15 have been tried
@@ -149,21 +149,24 @@ export default class Bucket {
         // for another 15
         if (clipPromises.length == count) break
       } catch (e) {
-        console.log(e.message);
-        console.log(`aws error retrieving clip_id ${id}`);
-        await this.model.db.markInvalid(id.toString());
+        console.log(e.message)
+        console.log(`aws error retrieving clip_id ${id}`)
+        await this.model.database.markInvalid(id.toString())
       }
     }
-    Sentry.captureMessage(`Having a total of ${clipPromises.length} clips for ${locale} locale`, Sentry.Severity.Info)
-    return Promise.all(clipPromises);
+    Sentry.captureMessage(
+      `Having a total of ${clipPromises.length} clips for ${locale} locale`,
+      Sentry.Severity.Info
+    )
+    return Promise.all(clipPromises)
   }
 
   takeoutKey(takeout: TakeoutRequest, chunkIndex: number): string {
-    return `${takeout.client_id}/takeouts/${takeout.id}/takeout_${takeout.id}_pt_${chunkIndex}.zip`;
+    return `${takeout.client_id}/takeouts/${takeout.id}/takeout_${takeout.id}_pt_${chunkIndex}.zip`
   }
 
   metadataKey(takeout: TakeoutRequest): string {
-    return `${takeout.client_id}/takeouts/${takeout.id}/takeout_${takeout.id}_metadata.txt`;
+    return `${takeout.client_id}/takeouts/${takeout.id}/takeout_${takeout.id}_metadata.txt`
   }
 
   async zipTakeoutFilesToS3(
@@ -171,12 +174,12 @@ export default class Bucket {
     chunkIndex: number,
     paths: string[]
   ): Promise<S3.HeadObjectOutput> {
-    const destination = this.takeoutKey(takeout, chunkIndex);
+    const destination = this.takeoutKey(takeout, chunkIndex)
 
-    console.log('start takeout zipping', destination);
+    console.log('start takeout zipping', destination)
 
-    const bucket = getConfig().CLIP_BUCKET_NAME;
-    const passThrough = new PassThrough();
+    const bucket = getConfig().CLIP_BUCKET_NAME
+    const passThrough = new PassThrough()
 
     const s3pipe = s3Zip
       .archive(
@@ -190,7 +193,7 @@ export default class Bucket {
             }`
         )
       )
-      .pipe(passThrough);
+      .pipe(passThrough)
 
     await this.s3
       .upload({
@@ -200,47 +203,47 @@ export default class Bucket {
         // TODO: enable this, currently bugs out s3proxy
         // Tagging: 'Type=takeout'
       })
-      .promise();
+      .promise()
 
     return await this.s3
       .headObject({
         Bucket: bucket,
         Key: destination,
       })
-      .promise();
+      .promise()
   }
 
   async uploadClipMetadata(
     takeout: TakeoutRequest,
     clipData: ClientClip[]
   ): Promise<S3.HeadObjectOutput> {
-    const fields = ['original_sentence_id', 'sentence', 'locale'];
-    const metadataKey = this.metadataKey(takeout);
+    const fields = ['original_sentence_id', 'sentence', 'locale']
+    const metadataKey = this.metadataKey(takeout)
     let sentenceData = clipData
       .map((clip: any) => fields.map(field => clip[field]).join('\t'))
-      .join('\n');
-    sentenceData = `${fields.join('\t')}\n${sentenceData}`;
-    const bucket = getConfig().CLIP_BUCKET_NAME;
+      .join('\n')
+    sentenceData = `${fields.join('\t')}\n${sentenceData}`
+    const bucket = getConfig().CLIP_BUCKET_NAME
 
     await this.s3
       .putObject({ Bucket: bucket, Key: metadataKey, Body: sentenceData })
-      .promise();
+      .promise()
 
     return await this.s3
       .headObject({
         Bucket: bucket,
         Key: metadataKey,
       })
-      .promise();
+      .promise()
   }
 
   getAvatarClipsUrl(path: string) {
-    return this.getPublicUrl(path);
+    return this.getPublicUrl(path)
   }
 
   async getClipUrl(id: string): Promise<string> {
-    const clip = await this.model.db.findClip(id);
-    return clip ? this.getPublicUrl(clip.path) : null;
+    const clip = await this.model.database.findClip(id)
+    return clip ? this.getPublicUrl(clip.path) : null
   }
 
   /**
@@ -252,6 +255,6 @@ export default class Bucket {
         Bucket: getConfig().CLIP_BUCKET_NAME,
         Key: path,
       })
-      .promise();
+      .promise()
   }
 }
