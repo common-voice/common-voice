@@ -9,6 +9,7 @@ email-input =
 submit-form-action = Jiberiw
 loading = Júklenbekte…
 email-opt-in-info = Maqsetlerim haqqında esletpe, ozimniń jetiskenliklerim hám Common Voice haqqındaǵı xatlardı alıwdı qáleymen.
+email-opt-in-info-title = CommonVoice tarqatpalarına jazılıw
 email-opt-in-info-sub-with-challenge = Diydiler, maqsetler haqqında esletpe, jetiskenlikler haqqında xabarlamalar hám CommonVoice haqqında jańalıqlar sıyaqlı xatlardı alıw.
 indicates-required = * Toltırıw májburıy bolǵan maydanlar
 not-available-abbreviation = Joq
@@ -237,12 +238,14 @@ cookies = Kukilar
 faq = KBS
 content-license-text = Kontent <licenseLink>Creative Commons licenziyası</licenseLink> astında
 share-title = Basqa da óz dawısın jazıp qaldırıwdı qálewshilerdi tawıp bizge járdem beriń!
+share-text = Mashinalarǵa haqıyqıy insan qalay sóyleytuǵının úyretiwge járdem beriń, dawısıńızdı { $link } siltemesine ótip, jazıp qaldırıń
 link-copied = Silteme kóshirip alındı
 back-top = Joqarıǵa qaytıw
 logout = Shıǵıw
 
 ## Home Page
 
+home-title = Common Voice — Mozilla baslaması bolıp, mashinalarǵa haqıyqıy insan qalay sóyleytuǵının úyretedi.
 home-cta = Dawısıńızdı jazıp qaldırıń hám úles qosıń!
 wall-of-text-start = Dawıs — tábiyiy hám insan. Sonlıqtan biz mashinalarımız ushın jaramlı bolǵan dawıslı texnologiya jaratıwǵa umtılıp atırmız. Biraq dawıslı sistemalardı jaratıw ushın baǵdarlamashılarǵa úlken kólemdegi dawıslı maǵlıwmatlar kerek.
 wall-of-text-more-mobile = Iri kompaniyalar tárepinen qollanılatuǵın maǵlıwmatlardıń basım bólegi kópshilik adamlar ushın qol jetimli emes. Bul innovaciyalıq rawajlanıwdı páseytedi, dep oylaymız. Sonlıqtan da biz CommonVoice joybarın iske túsirdik, bul joybardıń maqseti — dawıstı anıqlaw xızmetin hámme ushın ashıq qılıw.
