@@ -263,11 +263,13 @@ speak-subtitle = Dawısıńızdı jazıp qaldırıń
 speak-paragraph = Ses berilgen gáplerdi jazıp alıw — bul biziń ashıq maǵlıwmatlar toplamınıń ajıralmas bólegi; Geybirewler bunı qızıq bólegi dep te aytıwı múmkin.
 speak-goal-text = Jazıp alınǵan klipler
 listen-subtitle = Dawıslardı tekseriwde bizge járdem beriń
+listen-paragraph = Jazıp qaldırılǵan dawıslardı tekseriw Common Voice wazıypası ushın zárúr. Jazılǵan dawıslardı tıńlań hám bizge sapalı ashıq dawıs maǵlıwmatların jaratıwǵa járdem beriń.
 listen-goal-text = Klipler tekserildi
 hours-recorded = Saat jazıldı
 hours-validated = Saat tekserildi
 todays-progress = Búgingi nátiyje
 help-reach-goal = { $goal } ge jetiwge bizge járdem beriń
+read-terms-q = Siz qollanıw shártleri menen tanıstıńız ba?
 ready-to-record = Dawısıńız benen úles qosıwǵa tayınsız ba?
 all-locales = Hámmesi
 today = Búgin
@@ -288,6 +290,8 @@ x-years-short =
     }
 help-make-dataset = Bizge joqarı sapalı ashıq maǵlıwmatlar toplamın jaratıwǵa járdem beriń
 sign-up-account = Akkaunttı dizimnen ótkeriw
+email-subscription-title = Jańalanıwlar taratpalarına jazılıń
+email-subscription-title-new = Jańalıqlar taratpalarına jazılıń, maqsetler haqqında esletpeler hám rawajlanıw jańalanıwları
 
 ## Account Benefits
 
