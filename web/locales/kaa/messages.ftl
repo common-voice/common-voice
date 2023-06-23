@@ -597,7 +597,10 @@ request-language-form-email =
     .label = Siziń elektron pochtańız
 request-language-form-info =
     .label = Til haqqında maǵlıwmat
-request-language-form-info-explanation-list-2 = <isoCodeLink>ISO kodları</isoCodeLink> eger málim bolsa
+request-language-form-info-explanation-list-3 = Bizge tildi túsiniwge járdem beriwi múmkin bolǵan veb-saytlarǵa siltemeler
+request-language-google-recaptcha-required = reCAPTCHA talap etiledi, eger siz dawam etiwdi qáleseńiz
+# Success page
+request-language-success-heading = Raxmet! Siz jańa til sorawın jiberdińiz
 
 ## Languages Overview
 
@@ -607,6 +610,7 @@ languages-show-less = Azıraq kóriw
 language-total-progress = Jámi
 language-search-input =
     .placeholder = Izlew
+localized = Awdarıldı
 sentences = Gápler
 language-validation-hours = Saat
 
@@ -619,6 +623,7 @@ listen = Tıńlaw
 write = Jazıw
 review = Tekseriw
 skip = Ótkerip jiberiw
+shortcuts = Operativ buyrıqlar
 contribute-more =
     { $count ->
         [one] Jáne { $count } islewge tayarsız ba?
@@ -627,6 +632,8 @@ contribute-more =
 record-must-allow-microphone = Mikrofonǵa ruqsat beriwińiz kerek.
 record-no-mic-found = Mikrofon tabılmadı.
 record-three-more-instruction = Úshewi qaldı!
+record-abort-submit = Kliplerdi jiberiw
+record-abort-delete = Shıǵıw hám kliplerdi óshiriw
 share-title-new = Bizge kóbirek dawıs jıynawǵa <bold>járdem beriń</bold>
 target-segment-learn-more = Kóbirek úyreniw
 
@@ -668,6 +675,8 @@ easy-difficulty = Ańsat
 average-difficulty = Ortasha
 difficult-difficulty = Qıyın
 pro-difficulty = Pro
+set-a-goal = Maqset qoyıw
+confirm-goal = Maqsetti tastıyıqlaw
 
 ## Profile Delete
 
@@ -741,6 +750,7 @@ sc-home-review-title = Gáplerdi tekseriw
 
 ## HOW-TO
 
+sc-howto-review-title = Gáplerdi tekseriw
 
 ## MY SENTENCES
 
@@ -752,6 +762,7 @@ sc-my-source = Derek: { $source }
 
 ## REJECTED
 
+sc-rejected-title = Biykarlanǵan gápler
 
 ## STATS
 
