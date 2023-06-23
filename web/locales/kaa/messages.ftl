@@ -427,13 +427,15 @@ remove-avatar = Avatardı óshiriw
 
 manage-subscriptions = Jazılıwlardı basqarıw
 manage-email-subscriptions = Elektron pochta arqalı jazılıwlardı basqarıw
-email-already-used = Elektron pochta álleqashan basqa akkauntta qollanılıp atır
+email-already-used = Elektron pochta álleqashan basqa akkauntta qollanılmaqta
 add-language = Til qosıw
+change-email-setings = Elektron pochtańızdı sazlawlar arqalı «Kiriw ushın identifikator» bóliminde ózgertiń
 
 ## FAQ
 
 faq-title = Kóp beriletuǵın sorawlar
 faq-what-cv-q = Common Voice ne?
+faq-what-cv-a-2 = Dawıstı anıqlaw texnologiyası biziń mashina menen óz-ara baylanısıw usılın ózgertedi, biraq házirgi bar sistemalar qımbat yamasa patentlengen. Mozilla Common Voice dawıstı anıqlaw texnologiyaların hámme ushın jaqsı hám qol jeterli qılıw boy bolıp tabıladı.
 faq-how-get-q = Men Common Voicetıń maǵlıwmatların toplamın qalay alıwım múmkin?
 faq-when-release2-q = Common Voicetıń Basqa tiller ushın maǵlıwmatlar toplamın qashan shıǵarasız?
 faq-is-goal-assistant-q = Common Voicetıń maqseti dawıslı járdemshini jaratıw ma?
