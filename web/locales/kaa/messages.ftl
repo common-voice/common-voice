@@ -759,10 +759,14 @@ sc-my-no-sentences = Gápler tabılmadı!
 # Variables:
 #   $source (String) - Associated source the user filled out when uploading the sentence
 sc-my-source = Derek: { $source }
+sc-my-delete = Tańlanǵan gáplerdi óshiriw
+sc-my-deleting = Tańlanǵan gápler óshirilmekte…
 
 ## REJECTED
 
 sc-rejected-title = Biykarlanǵan gápler
+sc-rejected-loading = Biykarlanǵan gápler júklenbekte…
+sc-rejected-none-found = Biykarlanǵan gápler tabılmadı!
 
 ## STATS
 
@@ -773,6 +777,7 @@ sc-stats-updating = Jańalanbaqta…
 
 sc-submit-err-select-lang = Ótinish, tildi tańlań.
 sc-submit-err-add-sentences = Ótinish, gáplerdi qosıń.
+sc-submit-err-add-source = Ótinish, derekti qosıń.
 sc-submit-select-language =
     .labelText = Tildi tańlań
 sc-submit-button =
@@ -782,6 +787,7 @@ sc-submit-button =
 
 sc-add-lang-could-not-add = Tildi qosıw ámelge aspadı
 sc-add-lang-sec-button = Til qosıw
+sc-add-err-submission = Jiberiw qáteligi
 
 ## ADD SENTENCES CONFIRMATION
 
@@ -813,8 +819,12 @@ sc-personal-remove-button = óshiriw
 
 sc-review-title = Gáplerdi tekseriw
 sc-review-loading = Gápler júklenbekte…
+# Variables:
+#   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
+sc-review-form-source = Derek: { $sentenceSource }
 sc-review-form-button-reject = Biykarlaw
 sc-review-form-button-skip = Ótkerip jiberiw
+sc-review-form-button-approve = Qabıllaw
 # Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
 sc-review-form-button-approve-shortcut = Y
 # Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
@@ -823,12 +833,22 @@ sc-review-form-button-reject-shortcut = N
 sc-review-form-button-skip-shortcut = S
 sc-review-form-button-submit =
     .submitText = Tekseriwdi juwmaqlaw
+# Variables:
+#   $sentences (Number) - Number of sentences the user has reviewed in this session
+sc-review-form-reviewed-message =
+    { $sentences ->
+        [0] Tekserilgen gápler joq
+        [one] 1 gáp tekserildi. Raxmet sizge!
+       *[other] { $sentences } gáp tekserildi. Raxmet sizge!
+    }
 sc-review-link = Tekseriw
 
 ## SETTINGS
 
 sc-settings-title = Sazlawlar
 sc-settings-ui-language = Interfeys tili
+sc-settings-show-all-button = Ótkerip jiberilgen gáplerdi qayta kórsetiw
+sc-settings-failed = Sazlawlardı ózgertiw ámelge aspadı. Ótinish, qayta urınıp kóriń.
 
 # [/SentenceCollector]
 
