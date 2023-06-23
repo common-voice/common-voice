@@ -472,6 +472,7 @@ about-listen = Tıńlań
 about-dataset-new = CommonVoice maǵlıwmatlar toplamı
 about-dataset-new-text = CommonVoice maǵlıwmatlar toplamı baǵdarlamashılarǵa dawıstı anıqlaw quralın járatıwǵa járdem beriw ushın júz mıńnan aslam audio úlgilerin óz ishine aladı.
 about-get-involved = Qatnasıw
+about-stay-in-touch = Men qalay baylanısta bolıwım múmkin?
 about-stay-in-touch-button = Dizimnen ótiw
 about-nav-why-common-voice = Nege?
 about-nav-how-it-works = Qalay?
@@ -542,6 +543,8 @@ review-cancel = Jiberiwdi biykarlaw
 datasets-heading = Maǵlıwmatlar toplamı
 language = Til
 download-dataset-header = Maǵlıwmatlar toplamın júklep alıw
+# File size in gigabytes
+size = Kólem
 cv-license = Licenziya
 audio-format = Audioformat
 number-of-voices = Dawıslar sanı
@@ -584,6 +587,7 @@ contact-required = *toltırıw májbúriy
 request-language-title = Til sorawı
 request-language-form-language =
     .label = Til
+request-language-success-title = Tildi qosıw haqqındaǵı sorawıńız tabıslı jiberildi, raxmet.
 select-language = Tildi tańlań...
 other-language = Basqa tiller
 
@@ -591,6 +595,9 @@ other-language = Basqa tiller
 
 request-language-form-email =
     .label = Siziń elektron pochtańız
+request-language-form-info =
+    .label = Til haqqında maǵlıwmat
+request-language-form-info-explanation-list-2 = <isoCodeLink>ISO kodları</isoCodeLink> eger málim bolsa
 
 ## Languages Overview
 
