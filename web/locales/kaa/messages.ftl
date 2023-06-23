@@ -397,20 +397,27 @@ settings = Sazlamalar
 edit-profile = Profilge ózgeris kirgiziw
 profile-create-success = Júdá jaqsı, profil jaratıldı!
 profile-close = Jabıw
+profile-explanation = Profil menen rawajlanıwıńızdı baqlap barıń hám biziń dawıslı maǵlıwmatlarımızdıń ele de anıqlaw bolıwına járdem beriń.
+thanks-for-account = Akkauntıńızdı tastıyıqlaǵanıńız ushın raxmet, endi keliń profilińizdi toltırayıq.
 why-demographic = Nege bul áhmiyetli?
 accept-privacy-title = Qupiyalıq siyasatı
 accept-privacy-and-terms = Common Voicetıń <termsLink>Shártleri</termsLink> hám <privacyLink>Qupiyalıq siyasatı</privacyLink>na razıman
+login-identity = Kiriw ushın identifikator
 login = Kiriw
 login-signup = Kiriw/Dizimnen ótiw
 edit = Ózgeris kirgiziw
+email-subscriptions = Elektron pochta arqalı jazılıwlar
 download-profile = Maǵlıwmatlarımdı júklep alıw
 off = Óshirilgen
 on = Qosıwlı
+help-accent = Akcent penen baylanıslı járdem kerek pe?
+help-variants = Variantlar menen baylanıslı járdem kerek pe?
 
 ## Profile - Email
 
 browse-file-title = Súwret faylın júklew
 connect-gravatar = Gravatardı qosıw
+gravatar_not_found = Bul elektron pochta gravatarda dizimnen ótpegen
 file_too_large = Tańlanǵan fayl júdá úlken kólemge iye
 avatar-uploaded = Avatar júklendı
 max-file-size = Maksimal { $kb }kb
@@ -418,6 +425,9 @@ remove-avatar = Avatardı óshiriw
 
 ## Profile - Email
 
+manage-subscriptions = Jazılıwlardı basqarıw
+manage-email-subscriptions = Elektron pochta arqalı jazılıwlardı basqarıw
+email-already-used = Elektron pochta álleqashan basqa akkauntta qollanılıp atır
 add-language = Til qosıw
 
 ## FAQ
