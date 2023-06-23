@@ -296,6 +296,7 @@ email-subscription-title-new = Jańalıqlar taratpalarına jazılıń, maqsetler
 ## Account Benefits
 
 benefits = Abzallıqları
+keep-track = Birneshe tillerdegi rawajlanıwıńızdı jáne kórsetkishlerińizdi baqlap barıń.
 compare-progress = Siziń rawajlanıwıńız dúnya júzi boyınsha basqa qatnasıwshılar menen qalay salıstırılatuǵının kóriń.
 
 ## What's public
