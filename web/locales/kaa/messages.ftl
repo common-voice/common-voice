@@ -246,6 +246,7 @@ logout = Shıǵıw
 ## Home Page
 
 home-title = Common Voice — Mozilla baslaması bolıp, mashinalarǵa haqıyqıy insan qalay sóyleytuǵının úyretedi.
+default-tagline = Mozilla Common Voice — mashinalarǵa haqıyqıy insan qalay sóyleytuǵının úyretiwshi baslama.
 home-cta = Dawısıńızdı jazıp qaldırıń hám úles qosıń!
 wall-of-text-start = Dawıs — tábiyiy hám insan. Sonlıqtan biz mashinalarımız ushın jaramlı bolǵan dawıslı texnologiya jaratıwǵa umtılıp atırmız. Biraq dawıslı sistemalardı jaratıw ushın baǵdarlamashılarǵa úlken kólemdegi dawıslı maǵlıwmatlar kerek.
 wall-of-text-more-mobile = Iri kompaniyalar tárepinen qollanılatuǵın maǵlıwmatlardıń basım bólegi kópshilik adamlar ushın qol jetimli emes. Bul innovaciyalıq rawajlanıwdı páseytedi, dep oylaymız. Sonlıqtan da biz CommonVoice joybarın iske túsirdik, bul joybardıń maqseti — dawıstı anıqlaw xızmetin hámme ushın ashıq qılıw.
@@ -253,6 +254,7 @@ wall-of-text-first = Dawıs — tábiyiy hám insan. Sonlıqtan biz mashinaları
 wall-of-text-second = Iri kompaniyalar tárepinen qollanılatuǵın maǵlıwmatlardıń basım bólegi kópshilik adamlar ushın qol jetimli emes. Bul innovaciyalıq rawajlanıwdı páseytedi, dep oylaymız. Sonlıqtan da biz CommonVoice joybarın iske túsirdik, bul joybardıń maqseti — dawıstı anıqlaw xızmetin hámme ushın ashıq qılıw.
 show-wall-of-text = Kóbirek oqıw
 help-us-title = Gáplerdi tekseriwge járdem beriń!
+help-us-explain = Qoyıw túymesin basıń, tıńlań hám bizge aytıń: tómendegi gápke durıs ses berilgen be?
 no-clips-to-validate = Bul tilde esitiw ushın heshqanday jazıw tabılmadı. Dawısıńızdı jazıń, jańasın jaratıwda járdem beriń.
 vote-yes = Awa
 vote-no = Yaq
@@ -265,6 +267,7 @@ listen-goal-text = Klipler tekserildi
 hours-recorded = Saat jazıldı
 hours-validated = Saat tekserildi
 todays-progress = Búgingi nátiyje
+help-reach-goal = { $goal } ge jetiwge bizge járdem beriń
 ready-to-record = Dawısıńız benen úles qosıwǵa tayınsız ba?
 all-locales = Hámmesi
 today = Búgin
