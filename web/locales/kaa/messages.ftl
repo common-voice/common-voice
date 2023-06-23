@@ -303,6 +303,7 @@ compare-progress = Siziń rawajlanıwıńız dúnya júzi boyınsha basqa qatnas
 
 whats-public = Qaysı maǵlıwmatlar hámme ushın ashıq?
 email-not-public = Elektron pochtańızdı sizden basqa heshkim kórmeydi.
+recordings-and-locale-public = Siziń jazıp qaldırılǵan dawıslarıńızdıń sanı hám olardıń tilleri hámmege kórinedi.
 username-optin-public = Óz paydalanıwshı atıńızdı ashıq yamasa anonim qılıwdı tańlawıńız múmkin.
 username-email-not-demographic = Siziń paydalanıwshı atıńız hám elektron pochtańız járiyalanǵan maǵlıwmatlar menen úylespeydi.
 
@@ -398,6 +399,7 @@ profile-create-success = Júdá jaqsı, profil jaratıldı!
 profile-close = Jabıw
 why-demographic = Nege bul áhmiyetli?
 accept-privacy-title = Qupiyalıq siyasatı
+accept-privacy-and-terms = Common Voicetıń <termsLink>Shártleri</termsLink> hám <privacyLink>Qupiyalıq siyasatı</privacyLink>na razıman
 login = Kiriw
 login-signup = Kiriw/Dizimnen ótiw
 edit = Ózgeris kirgiziw
