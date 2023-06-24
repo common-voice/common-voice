@@ -1303,6 +1303,8 @@ sc-review-link = Праверыць
 
 sc-settings-title = Налады
 sc-settings-ui-language = Мова інтэрфейсу
+sc-settings-reset-skipped = Вярнуць прапушчаныя сказы
+sc-settings-skipped-decription = Раней вы прапускалі сказы пад час праверкі. Калі вярнуць прапушчаныя сказы, будуць ізноў паказаны ўсе прапушчаныя сказы. Гэта не залежыць ад мовы.
 sc-settings-show-all-button = Зноў паказаць усе прапушчаныя сказы
 sc-settings-failed = Не атрымалася змяніць налады. Калі ласка, паспрабуйце яшчэ раз.
 # VALIDATION
@@ -1313,6 +1315,11 @@ sc-validation-no-abbreviations = У сказе не павінна быць аб
 
 # [/SentenceCollector]
 
+localization-select =
+    .label = Выберыце мову/лакалізацыю
+# PARTNERSHIPS PAGE
+partnerships-header = Партнёрствы
+partnerships-become-a-partner = Станьце партнёрам Common Voice
 partnerships-our-partners = Нашы партнёры
 why-donate-explanation-1 = Гэтую інфармацыю прадастаўляць не абавязкова – можаце дадаць яе, толькі калі вам гэта зручна. Пры публікацыі набору дадзеных мы псеўданімізуем усе асабістыя звесткі і сочым за тым, каб такая інфармацыя, як ваша імя і адрас электроннай пошты, не была ніяк звязана з дэмаграфічнымі звесткамі, такімі як узрост ці пол.
 guidelines-header-subtitle = Даведайцеся, як дадаваць і правяраць сказы і аўдыёзапісы ў наборы дадзеных Common Voice
