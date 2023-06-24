@@ -1282,6 +1282,8 @@ sc-personal-remove-button = выдаліць
 
 ## REVIEW CRITERIA
 
+sc-criteria-item-1 = Сказ павінен быць напісаны без памылак.
+sc-criteria-item-2 = Сказ павінен быць граматычна правільным.
 sc-criteria-item-3 = Сказ павінен быць такім, каб яго можна было прамовіць.
 
 ## REVIEW
@@ -1297,6 +1299,8 @@ sc-review-form-button-approve-shortcut = Т
 sc-review-form-button-reject-shortcut = Н
 # Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
 sc-review-form-button-skip-shortcut = П
+sc-review-form-button-submit =
+    .submitText = Скончыць праверку
 sc-review-link = Праверыць
 
 ## SETTINGS
@@ -1346,6 +1350,8 @@ still-have-questions = Засталіся пытанні?
 contact-common-voice = Звяжыцеся з камандай Common Voice
 public-domain = Грамадскі набытак
 citing-sentences = Цытаванне сказаў
+adding-sentences = Дадаванне сказаў
+reviewing-sentences = Праверка сказаў
 public-domain-explanation-1 = Вельмі важна, каб усе тэкставыя сказы былі ў <publicDomain>грамадскім набытку</publicDomain> (<cc0>cc0</cc0>), бо набор дадзеных Common Voice публікуецца пад ліцэнзіяй cc0. Толькі ў тым выпадку дадавайце сказ, калі вы ўпэўнены, што ліцэнзійных абмежаванняў няма, і заўсёды пазначайце адпаведную цытату.
 citing-sentences-subheader-websites = Вэб-сайты
 citing-sentences-subheader-academic-reference = Навуковае цытаванне
@@ -1355,9 +1361,12 @@ citation =
 self-citation = Самацытаванне
 adding-sentences-subheader-length = Даўжыня
 adding-sentences-subheader-length-explanation = У сказе павінна быць менш за 15 слоў.
+adding-sentences-subheader-spelling-punctuation = Арфаграфія і пунктуацыя
+adding-sentences-subheader-spelling-punctuation-explanation = Сказ павінен быць напісаны без памылак.
 adding-sentences-subheader-numbers = Лічбы
 adding-sentences-subheader-numbers-explanation = У ідэале патрабуецца, каб у зыходным тэксце не было лічбаў, бо яны могуць выклікаць праблемы пры чытанні ўслых. Тое, якім чынам лічба вымаўляецца, залежыць ад кантэксту і можа стварыць блытаніну ў дадзеных. Напрыклад, для лічбы «2409» правільным будзе і вымаўленне «дваццаць чатыры ноль дзевяць», і «дзве тысячы чатырыста дзевяць».
 adding-sentences-subheader-abbreviations = Абрэвіятуры і скароты
+adding-sentences-subheader-punctuation = Знакі прыпынку
 adding-sentences-subheader-punctuation-explanation = Спецыяльныя сімвалы і знакі прыпынку варта ўключаць, толькі калі гэта абсалютна неабходна. Напрыклад, у англійскіх словах, такіх як «don’t» ці «we’re», ёсць апостраф, і ён павінен быць у зыходным тэксце. Але наўрад ці вам калі-небудзь спатрэбіцца спецыяльны сімвал, такі як «@» ці «#».
 write-page-subtitle = Сказы, дададзеныя тут, будуць уключаны ў агульнадаступны набор дадзеных пад ліцэнзіяй cc-0.
 sentence =
@@ -1382,3 +1391,4 @@ contact-us = Звязацца з намі
 add-sentence-success = 1 сказ сабраны
 add-sentence-error = Памылка пры даданні сказа
 required-field = Калі ласка, запоўніце гэтае поле
+report-sc-different-language = Іншая мова
