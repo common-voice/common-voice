@@ -1320,6 +1320,12 @@ localization-select =
 # PARTNERSHIPS PAGE
 partnerships-header = Партнёрствы
 partnerships-become-a-partner = Станьце партнёрам Common Voice
+partnerships-community-header = Суполкі, творчыя людзі і грамадзянская супольнасць
+partnerships-foundations-header = Фонды
+partnerships-governments-header = Урады
+partnerships-academia-header = Універсітэты, навукоўцы і даследчыкі
+partnerships-small-business-header = Малыя бізнесы, у тым ліку стартапы ў галіне тэхналогій і штучнага інтэлекту
+partnerships-corporates-header = Буйныя карпарацыі і платформенныя кампаніі
 partnerships-our-partners = Нашы партнёры
 why-donate-explanation-1 = Гэтую інфармацыю прадастаўляць не абавязкова – можаце дадаць яе, толькі калі вам гэта зручна. Пры публікацыі набору дадзеных мы псеўданімізуем усе асабістыя звесткі і сочым за тым, каб такая інфармацыя, як ваша імя і адрас электроннай пошты, не была ніяк звязана з дэмаграфічнымі звесткамі, такімі як узрост ці пол.
 guidelines-header-subtitle = Даведайцеся, як дадаваць і правяраць сказы і аўдыёзапісы ў наборы дадзеных Common Voice
