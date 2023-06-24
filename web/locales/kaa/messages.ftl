@@ -300,7 +300,7 @@ benefits = Abzallıqları
 keep-track = Birneshe tillerdegi rawajlanıwıńızdı jáne kórsetkishlerińizdi baqlap barıń.
 compare-progress = Siziń rawajlanıwıńız dúnya júzi boyınsha basqa qatnasıwshılar menen qalay salıstırılatuǵının kóriń.
 view-goals = Jeke hám joba maqsetlerine jetisiwdegi rawajlanıwıńızdı kóriń.
-join-newsletter = Jańalanıwlardı hám joba haqqında jańa informaciyanı alıw ushın biziń taratıw dizimine jazılıń.
+join-newsletter = Jańalanıwlardı hám joba haqqında jańa maǵlıwmattı alıw ushın taratıw dizimimizge jazılıń.
 
 ## What's public
 
@@ -308,6 +308,7 @@ whats-public = Qaysı maǵlıwmatlar hámme ushın ashıq?
 email-not-public = Elektron pochtańızdı sizden basqa heshkim kórmeydi.
 recordings-and-locale-public = Siziń jazıp qaldırılǵan dawıslarıńızdıń sanı hám olardıń tilleri hámmege kórinedi.
 username-optin-public = Óz paydalanıwshı atıńızdı ashıq yamasa anonim qılıwdı tańlawıńız múmkin.
+demographic-deidentified-clarity-2 = Májbúriy emes bolǵan demografiyalıq maǵlıwmatlar (jas, jınıs hám akcent sıyaqlı) siziń profilińizde hesh qashan kórinbeydi hám maǵlıwmatlar toplamında siziń akkauntıńız benen baylanıstırılmaydı. Ayırım jazbalar anıǵıraq analizlew ushın demografiyalıq maǵlıwmatlar menen baylanıslı boladı - mısalı, eger izertlewshi úyretip atırǵan modelin belgili demografiyalıq segmentke baǵdarlaǵısı kelse.
 username-email-not-demographic = Siziń paydalanıwshı atıńız hám elektron pochtańız járiyalanǵan maǵlıwmatlar menen úylespeydi.
 
 ## Speak & Listen Shortcuts
