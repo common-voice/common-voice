@@ -267,6 +267,7 @@ listen-paragraph = Jazıp qaldırılǵan dawıslardı tekseriw Common Voice waz�
 listen-goal-text = Klipler tekserildi
 hours-recorded = Saat jazıldı
 hours-validated = Saat tekserildi
+voices-online = Házir onlayn dawıslar
 todays-progress = Búgingi nátiyje
 help-reach-goal = { $goal } ge jetiwge bizge járdem beriń
 read-terms-q = Siz qollanıw shártleri menen tanıstıńız ba?
