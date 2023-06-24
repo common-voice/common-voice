@@ -1302,6 +1302,7 @@ sc-review-link = Праверыць
 ## SETTINGS
 
 sc-settings-title = Налады
+sc-settings-ui-language = Мова інтэрфейсу
 sc-settings-show-all-button = Зноў паказаць усе прапушчаныя сказы
 sc-settings-failed = Не атрымалася змяніць налады. Калі ласка, паспрабуйце яшчэ раз.
 # VALIDATION
