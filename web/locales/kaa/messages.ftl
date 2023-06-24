@@ -299,6 +299,8 @@ email-subscription-title-new = Jańalıqlar taratpalarına jazılıń, maqsetler
 benefits = Abzallıqları
 keep-track = Birneshe tillerdegi rawajlanıwıńızdı jáne kórsetkishlerińizdi baqlap barıń.
 compare-progress = Siziń rawajlanıwıńız dúnya júzi boyınsha basqa qatnasıwshılar menen qalay salıstırılatuǵının kóriń.
+view-goals = Jeke hám joba maqsetlerine jetisiwdegi rawajlanıwıńızdı kóriń.
+join-newsletter = Jańalanıwlardı hám joba haqqında jańa informaciyanı alıw ushın biziń taratıw dizimine jazılıń.
 
 ## What's public
 
