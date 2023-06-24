@@ -442,6 +442,7 @@ faq-what-cv-q = Common Voice ne?
 faq-why-important-q = Bul ne ushın zárúr?
 faq-how-get-q = Men Common Voicetıń maǵlıwmatların toplamın qalay alıwım múmkin?
 faq-when-release2-q = Common Voicetıń Basqa tiller ushın maǵlıwmatlar toplamın qashan shıǵarasız?
+faq-why-mission-q = CommonVoice nege Mozillanıń wazıypası bolıp esaplanadı?
 faq-what-cv-and-deepspeech-q = Common Voice hám Deep Speech arasında qanday parıq bar?
 faq-is-goal-assistant-q = Common Voicetıń maqseti dawıslı járdemshini jaratıw ma?
 faq-how-calc-hours-q = Common Voice saatlardı qalay esaplaydı?
