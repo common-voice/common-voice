@@ -497,6 +497,11 @@ subscribe = Pīsaraksteit
 get-started-speech = Suokt runys atpazeišonu
 other-datasets = Cytys bolsa datu kūpys
 feedback-q = Voi jums ir atsauksmis?
+resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ ir <docsLink>valejuo koda reikkūpa</docsLink> pietnīkim, kas izstruodoj jaunuokūs sarunvolūdys muoksleiguo intelekta modeļus.
+community-playbook = Kūpīnys rūkysgruomota
+data-other-ted-name = TED-LIUM korpuss
+go-languages-page = Ejit iz volūdu lopu
+ready-to-validate = Voi esit gotovs paleidzēt puorbaudeit teikumus?
 more = Vairuok
 close = Aiztaiseit
 download = Lejupluodēt
@@ -532,10 +537,13 @@ other-language = Cyta volūda
 
 ## Request Language Pages
 
+request-language-heading = Vaicojit par jaunu volūdu
 request-language-form-email =
     .label = Tova e-posta adrese
 request-language-form-info =
     .label = Informaceja par volūdu
+request-language-form-info-explanation-list-1 = Jiusu volūdys nūsaukumi
+request-language-form-info-explanation-list-2 = <isoCodeLink>ISO kodi</isoCodeLink>, ka tī ir zynomi
 
 ## Languages Overview
 
