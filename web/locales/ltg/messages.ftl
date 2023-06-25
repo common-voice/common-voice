@@ -27,9 +27,14 @@ error-clip-upload-server = Ituo īroksta augšonīluode serverī vys vēļ naiza
 ## Languages
 
 ab = Abhazīšu
+ar = Arabu
+az = Azeirbaidžanu
+ba = Baškiru
 be = Boltkrīvu
 bg = Bulgaru
 bm = Bambaru
+bs = Bosnīšu
+ca = Katalaņu
 cs = Čehu
 cv = Čuvašu
 cy = Velsīšu
