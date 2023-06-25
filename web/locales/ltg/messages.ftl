@@ -77,12 +77,33 @@ kab = Kabilu
 kbd = Kabardīšu
 ki = Kikujīšu
 kk = Kazahu
+km = Khmeru
+ko = Korejīšu
+ky = Kirgizu
+lb = Luksemburdzīšu
+lt = Leitovīšu
+ltg = Latgalīšu
 lv = Latvīšu
+mn = Mongoļu
+nl = Holandīšu
 pl = Pūļu
 ps = Puštu
 pt = Portugaļu
 ru = Krīvu
+sl = Sloveņu
+sr = Serbu
+ss = Sisvatu
+st = Dīnvydsoto
 sv-SE = Zvīdru
+tr = Turku
+tt = Tataru
+uk = Ukraiņu
+ur = Urdu
+uz = Uzbeku
+vi = Vjetnamīšu
+yi = Jidišs
+yo = Jorubu
+zu = Zulu
 
 # [/]
 
@@ -111,6 +132,7 @@ logout = Beigt dorbu
 
 ## Home Page
 
+home-title = Common Voice ir Mozilla iniciativa, lai vuiceitu datorim saprast cylvāku volūdu.
 show-wall-of-text = Skaiteit vaira
 help-us-title = Paleidzit puorbaudeit teikumus!
 help-us-explain = Nūmīdzīt atskaņuošonys pūgu, klausotēs i puorbaudit, voi zamuok nūruodeitais teikums ir izrunuots precizai.
