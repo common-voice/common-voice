@@ -404,11 +404,13 @@ about-playbook-how-grow-language = Kai mes varim atteisteit volūdu pakolpuojum�
 about-playbook-how-grow-language-content-2 = Nūtikšonys
 about-playbook-how-grow-language-content-4 = Socialī medeji
 about-playbook-how-grow-language-content-6 = Partnereibys i teikli
+about-playbook-how-grow-language-content-8 = <strong>Esit rodūši!</strong> Jiusu volūdys kūpīna byus unikala, i itī ir tikai puors veidi, kai suokt.
 
 ## How to validate
 
 about-playbook-how-validate = Kai zynuot, voi apstyprynuot bolsa īrokstu?
 about-playbook-how-validate-content-1 = Ka varit <strong>dzierdēt saceitū</strong> i <strong>saprast saceitū</strong>, parasti <strong>vyslobuok apstyprynuot</strong> īrokstu.
+about-playbook-how-validate-content-4 = Ka īrokstu nūraida 2 cylvāki, tys teik izlaists datu kūpys nūraideitū īrokstu apakškūpā.
 
 ## How to access dataset
 
@@ -431,11 +433,13 @@ about-playbook-how-project-governance-content-7 = <governanceLink>Izzynojat vair
 
 glossary = Aproksts
 localization = Lokalizaceja
+hours-recorded-explanation = Da šam savuoktū bolsa īrokstu stuņžu skaits.
 sst = Runa iz tekstu (STT)
 de-identified-explanation = Process, kurā īrunuotuoja profila informaceja teik maskāta juo pazīduotajūs bolsa īrokstūs, ka tī ir daīmami lejupīluodei kai datu kūpys dalis.
 
 ## Error pages
 
+error-title-404 = Mes navariejom atrast itū lopu
 error-code = Klaida { $code }
 
 ## Data
@@ -454,6 +458,7 @@ release-version = Verseja
 dataset-date = Datums
 license = Liceņze: <licenseLink> { $license } </licenseLink>
 license-mixed = Jaukts
+terms-agree = Es pīkreitu
 terms-disagree = Es napīkreitu
 review-aborted = Augšonīluode teik puortraukta. Voi gribit dzēst sovus īrokstus?
 review-submit-title = Puorbaudeit i īsnēgt
@@ -467,6 +472,8 @@ review-delete-recordings = Dzēst munus īrokstus
 ## Datasets Page
 
 datasets-heading = Datu kūpys
+language = Volūda
+download-dataset-header = Zamynluodejit datu kūpu
 # File size in gigabytes
 size = Izmārs
 validated-hr-total = Puorbaudeitys st. kūpā
@@ -486,6 +493,10 @@ download-language = Lejupīluodēt { $language }
 validated-hours = Puorbaudeituos stuņdis
 recorded-hours = Īraksteituos stuņdis
 whats-inside = Kas atsarūn Common Voice datu kūpā?
+subscribe = Pīsaraksteit
+get-started-speech = Suokt runys atpazeišonu
+other-datasets = Cytys bolsa datu kūpys
+feedback-q = Voi jums ir atsauksmis?
 more = Vairuok
 close = Aiztaiseit
 download = Lejupluodēt
