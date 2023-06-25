@@ -330,6 +330,7 @@ faq-is-goal-assistant-q = Voi Common Voice mierkis ir taiseit bolsa asistentu?
 faq-why-different-speakers-q = Deļkuo jums ir vajadzeigs tik daudz dažaidu vīnys volūdys runuotuoju?
 faq-why-my-lang-q = Deļkuo muna volūda vēļ nav dalykta?
 faq-how-calc-hours-q = Kai Common Voice apriekinoj stuņdis?
+faq-where-src-from-2-q = Nu kurīnis ir teksti īrokstim?
 faq-is-account-public-q = Voi muna konta informaceja ir publiski daīmama?
 faq-how-privacy-q = Kai jius nūdrūsynuosit tū cylvāku anonimitati i privatumu, kuri pazīduoja sovus bolsus?
 faq-what-is-cv = Kas ir Common Voice?
