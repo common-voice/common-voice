@@ -133,6 +133,7 @@ logout = Beigt dorbu
 ## Home Page
 
 home-title = Common Voice ir Mozilla iniciativa, lai vuiceitu datorim saprast cylvāku volūdu.
+default-tagline = Common Voice ir Mozilla iniciativa, lai vuiceitu datorim saprast cylvāku volūdu.
 show-wall-of-text = Skaiteit vaira
 help-us-title = Paleidzit puorbaudeit teikumus!
 help-us-explain = Nūmīdzīt atskaņuošonys pūgu, klausotēs i puorbaudit, voi zamuok nūruodeitais teikums ir izrunuots precizai.
@@ -181,6 +182,7 @@ email-subscription-title-new = Registrejitēs Common Voice viestim, atguodynuoju
 ## Account Benefits
 
 benefits = Īgivumi
+keep-track = Sekojit leidza sovam progresam i datim vairuokuos volūduos.
 
 ## What's public
 
