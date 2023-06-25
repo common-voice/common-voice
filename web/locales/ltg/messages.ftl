@@ -344,8 +344,12 @@ about-title = Deļkuo ir Common Voice?
 
 ## How does it work section
 
+about-language-req-subtitle = Kaids lyudz dalikt volūdu.
+about-localization-title = Teiklavītys lokalizaceja
+about-sentence-collection-title = Teikumu kolekceja
+about-sentence-collection-subtitle = Teikumi teik salaseiti, lai cylvāki tūs varātu īrunuot.
 about-new-lang-title = Jaunys volūdys palaisšona
-about-new-lang-subtitle = Mes palaižam Common Voice vītni itamā volūdā.
+about-new-lang-subtitle = Mes palaižam Common Voice teiklavītu itamā volūdā.
 about-voice-contrib-title = Bolsa īguļdejums
 about-voice-contrib-subtitle = Cylvāki atīt i īrunoj teikumus.
 about-voice-validation-title = Īrokstu puorbaudeišona
@@ -392,15 +396,19 @@ about-playbook-how-add-language-collecting-sentences-heading = Teikumu apkūpuo�
 
 ## How to record quality
 
+about-playbook-how-record-content-5 = <accuracyLink>Veritēs vaira par tū, kai pareizi īraksteit.</accuracyLink>
 
 ## How to grow language
 
+about-playbook-how-grow-language = Kai mes varim atteisteit volūdu pakolpuojumā Common Voice?
 about-playbook-how-grow-language-content-2 = Nūtikšonys
 about-playbook-how-grow-language-content-4 = Socialī medeji
 about-playbook-how-grow-language-content-6 = Partnereibys i teikli
 
 ## How to validate
 
+about-playbook-how-validate = Kai zynuot, voi apstyprynuot bolsa īrokstu?
+about-playbook-how-validate-content-1 = Ka varit <strong>dzierdēt saceitū</strong> i <strong>saprast saceitū</strong>, parasti <strong>vyslobuok apstyprynuot</strong> īrokstu.
 
 ## How to access dataset
 
