@@ -297,6 +297,10 @@ contribution-experience = Pīsadaleišonys pīredze
 skip-submission-feedback = Izlaist atsauksmis
 off = Izslāgts
 on = Īslāgts
+help-accent = Voi vajadzeiga paleidzeiba ar akcentu?
+help-accent-explanation = Jiusu akcents ir veids, kai jius izrunojit vuordus. Tū var ītekmēt jiusu dzeivisvīta, cytys volūdys, kurys runojit, i daudzi cyti faktori. Ite varit pasadaleit ar sevkuru informaceju, kas, jiusupruot, ir svareiga.
+help-variants = Voi vajadzeiga paleidzeiba ar variantim?
+help-variants-explanation = Varianti ir nūsaceita volūdys forma, par pīmāru, tīm, kas dzeivoj kaidā geografiskajā vītā voi kūpīnā. Dažreiz tūs sauc par dialektim.
 
 ## Profile - Email
 
@@ -319,8 +323,13 @@ change-email-setings = Mainit sovu e-postu, lītojūt īstatejumu sadaļu "Pīsa
 
 ## FAQ
 
+faq-title = Bīžuok aizdūtī vaicuojumi
 faq-what-cv-q = Kas ir Common Voice?
 faq-why-important-q = Deļkuo tys ir svareigi?
+faq-is-goal-assistant-q = Voi Common Voice mierkis ir taiseit bolsa asistentu?
+faq-why-different-speakers-q = Deļkuo jums ir vajadzeigs tik daudz dažaidu vīnys volūdys runuotuoju?
+faq-why-my-lang-q = Deļkuo muna volūda vēļ nav dalykta?
+faq-how-calc-hours-q = Kai Common Voice apriekinoj stuņdis?
 faq-is-account-public-q = Voi muna konta informaceja ir publiski daīmama?
 faq-how-privacy-q = Kai jius nūdrūsynuosit tū cylvāku anonimitati i privatumu, kuri pazīduoja sovus bolsus?
 faq-what-is-cv = Kas ir Common Voice?
