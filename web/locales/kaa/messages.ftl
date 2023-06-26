@@ -634,6 +634,7 @@ contribute-more =
         [one] Jáne { $count } islewge tayarsız ba?
        *[other] Jáne { $count } islewge tayarsız ba?
     }
+record-platform-not-supported = Átteń, házirgi waqıtta siziń platformańız qollap-quwatlanbaydı.
 record-must-allow-microphone = Mikrofonǵa ruqsat beriwińiz kerek.
 record-no-mic-found = Mikrofon tabılmadı.
 record-three-more-instruction = Úshewi qaldı!
@@ -691,6 +692,7 @@ profile-form-delete = Profildi óshiriw
 
 ## Profile Download
 
+download-q = Maǵlıwmatlarıńızdı júklep alıwdı qáleysiz be?
 download-profile-title = Profil
 download-selected = Tańlandı
 download-start = Profil maǵlıwmatların júklep alıw
