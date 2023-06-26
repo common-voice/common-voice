@@ -9,6 +9,7 @@ email-input =
 submit-form-action = Jiberiw
 loading = Júklenbekte…
 email-opt-in-info = Maqsetlerim haqqında esletpe, ozimniń jetiskenliklerim hám Common Voice haqqındaǵı xatlardı alıwdı qáleymen.
+email-opt-in-info-title = CommonVoice tarqatpalarına jazılıw
 email-opt-in-info-sub-with-challenge = Diydiler, maqsetler haqqında esletpe, jetiskenlikler haqqında xabarlamalar hám CommonVoice haqqında jańalıqlar sıyaqlı xatlardı alıw.
 indicates-required = * Toltırıw májburıy bolǵan maydanlar
 not-available-abbreviation = Joq
@@ -237,12 +238,15 @@ cookies = Kukilar
 faq = KBS
 content-license-text = Kontent <licenseLink>Creative Commons licenziyası</licenseLink> astında
 share-title = Basqa da óz dawısın jazıp qaldırıwdı qálewshilerdi tawıp bizge járdem beriń!
+share-text = Mashinalarǵa haqıyqıy insan qalay sóyleytuǵının úyretiwge járdem beriń, dawısıńızdı { $link } siltemesine ótip, jazıp qaldırıń
 link-copied = Silteme kóshirip alındı
 back-top = Joqarıǵa qaytıw
 logout = Shıǵıw
 
 ## Home Page
 
+home-title = Common Voice — Mozilla baslaması bolıp, mashinalarǵa haqıyqıy insan qalay sóyleytuǵının úyretedi.
+default-tagline = Mozilla Common Voice — mashinalarǵa haqıyqıy insan qalay sóyleytuǵının úyretiwshi baslama.
 home-cta = Dawısıńızdı jazıp qaldırıń hám úles qosıń!
 wall-of-text-start = Dawıs — tábiyiy hám insan. Sonlıqtan biz mashinalarımız ushın jaramlı bolǵan dawıslı texnologiya jaratıwǵa umtılıp atırmız. Biraq dawıslı sistemalardı jaratıw ushın baǵdarlamashılarǵa úlken kólemdegi dawıslı maǵlıwmatlar kerek.
 wall-of-text-more-mobile = Iri kompaniyalar tárepinen qollanılatuǵın maǵlıwmatlardıń basım bólegi kópshilik adamlar ushın qol jetimli emes. Bul innovaciyalıq rawajlanıwdı páseytedi, dep oylaymız. Sonlıqtan da biz CommonVoice joybarın iske túsirdik, bul joybardıń maqseti — dawıstı anıqlaw xızmetin hámme ushın ashıq qılıw.
@@ -250,6 +254,7 @@ wall-of-text-first = Dawıs — tábiyiy hám insan. Sonlıqtan biz mashinaları
 wall-of-text-second = Iri kompaniyalar tárepinen qollanılatuǵın maǵlıwmatlardıń basım bólegi kópshilik adamlar ushın qol jetimli emes. Bul innovaciyalıq rawajlanıwdı páseytedi, dep oylaymız. Sonlıqtan da biz CommonVoice joybarın iske túsirdik, bul joybardıń maqseti — dawıstı anıqlaw xızmetin hámme ushın ashıq qılıw.
 show-wall-of-text = Kóbirek oqıw
 help-us-title = Gáplerdi tekseriwge járdem beriń!
+help-us-explain = Qoyıw túymesin basıń, tıńlań hám bizge aytıń: tómendegi gápke durıs ses berilgen be?
 no-clips-to-validate = Bul tilde esitiw ushın heshqanday jazıw tabılmadı. Dawısıńızdı jazıń, jańasın jaratıwda járdem beriń.
 vote-yes = Awa
 vote-no = Yaq
@@ -258,10 +263,14 @@ speak-subtitle = Dawısıńızdı jazıp qaldırıń
 speak-paragraph = Ses berilgen gáplerdi jazıp alıw — bul biziń ashıq maǵlıwmatlar toplamınıń ajıralmas bólegi; Geybirewler bunı qızıq bólegi dep te aytıwı múmkin.
 speak-goal-text = Jazıp alınǵan klipler
 listen-subtitle = Dawıslardı tekseriwde bizge járdem beriń
+listen-paragraph = Jazıp qaldırılǵan dawıslardı tekseriw Common Voice wazıypası ushın zárúr. Jazılǵan dawıslardı tıńlań hám bizge sapalı ashıq dawıs maǵlıwmatların jaratıwǵa járdem beriń.
 listen-goal-text = Klipler tekserildi
 hours-recorded = Saat jazıldı
 hours-validated = Saat tekserildi
+voices-online = Házir onlayn dawıslar
 todays-progress = Búgingi nátiyje
+help-reach-goal = { $goal } ge jetiwge bizge járdem beriń
+read-terms-q = Siz qollanıw shártleri menen tanıstıńız ba?
 ready-to-record = Dawısıńız benen úles qosıwǵa tayınsız ba?
 all-locales = Hámmesi
 today = Búgin
@@ -282,17 +291,24 @@ x-years-short =
     }
 help-make-dataset = Bizge joqarı sapalı ashıq maǵlıwmatlar toplamın jaratıwǵa járdem beriń
 sign-up-account = Akkaunttı dizimnen ótkeriw
+email-subscription-title = Jańalanıwlar taratpalarına jazılıń
+email-subscription-title-new = Jańalıqlar taratpalarına jazılıń, maqsetler haqqında esletpeler hám rawajlanıw jańalanıwları
 
 ## Account Benefits
 
 benefits = Abzallıqları
+keep-track = Birneshe tillerdegi rawajlanıwıńızdı jáne kórsetkishlerińizdi baqlap barıń.
 compare-progress = Siziń rawajlanıwıńız dúnya júzi boyınsha basqa qatnasıwshılar menen qalay salıstırılatuǵının kóriń.
+view-goals = Jeke hám joba maqsetlerine jetisiwdegi rawajlanıwıńızdı kóriń.
+join-newsletter = Jańalanıwlardı hám joba haqqında jańa maǵlıwmattı alıw ushın taratıw dizimimizge jazılıń.
 
 ## What's public
 
 whats-public = Qaysı maǵlıwmatlar hámme ushın ashıq?
 email-not-public = Elektron pochtańızdı sizden basqa heshkim kórmeydi.
+recordings-and-locale-public = Siziń jazıp qaldırılǵan dawıslarıńızdıń sanı hám olardıń tilleri hámmege kórinedi.
 username-optin-public = Óz paydalanıwshı atıńızdı ashıq yamasa anonim qılıwdı tańlawıńız múmkin.
+demographic-deidentified-clarity-2 = Májbúriy emes bolǵan demografiyalıq maǵlıwmatlar (jas, jınıs hám akcent sıyaqlı) siziń profilińizde hesh qashan kórinbeydi hám maǵlıwmatlar toplamında siziń akkauntıńız benen baylanıstırılmaydı. Ayırım audio jazbalardı anıǵıraq analizlew maqsetinde demografiyalıq maǵlıwmatlar menen baylanıslı boladı - mısalı, eger izertlewshi úyretip atırǵan modelin belgili demografiyalıq segmentke baǵdarlaǵısı kelse.
 username-email-not-demographic = Siziń paydalanıwshı atıńız hám elektron pochtańız járiyalanǵan maǵlıwmatlar menen úylespeydi.
 
 ## Speak & Listen Shortcuts
@@ -385,19 +401,27 @@ settings = Sazlamalar
 edit-profile = Profilge ózgeris kirgiziw
 profile-create-success = Júdá jaqsı, profil jaratıldı!
 profile-close = Jabıw
+profile-explanation = Profil menen rawajlanıwıńızdı baqlap barıń hám biziń dawıslı maǵlıwmatlarımızdıń ele de anıqlaw bolıwına járdem beriń.
+thanks-for-account = Akkauntıńızdı tastıyıqlaǵanıńız ushın raxmet, endi keliń profilińizdi toltırayıq.
 why-demographic = Nege bul áhmiyetli?
 accept-privacy-title = Qupiyalıq siyasatı
+accept-privacy-and-terms = Common Voicetıń <termsLink>Shártleri</termsLink> hám <privacyLink>Qupiyalıq siyasatı</privacyLink>na razıman
+login-identity = Kiriw ushın identifikator
 login = Kiriw
 login-signup = Kiriw/Dizimnen ótiw
 edit = Ózgeris kirgiziw
+email-subscriptions = Elektron pochta arqalı jazılıwlar
 download-profile = Maǵlıwmatlarımdı júklep alıw
 off = Óshirilgen
 on = Qosıwlı
+help-accent = Akcent penen baylanıslı járdem kerek pe?
+help-variants = Variantlar menen baylanıslı járdem kerek pe?
 
 ## Profile - Email
 
 browse-file-title = Súwret faylın júklew
 connect-gravatar = Gravatardı qosıw
+gravatar_not_found = Bul elektron pochta gravatarda dizimnen ótpegen
 file_too_large = Tańlanǵan fayl júdá úlken kólemge iye
 avatar-uploaded = Avatar júklendı
 max-file-size = Maksimal { $kb }kb
@@ -405,14 +429,21 @@ remove-avatar = Avatardı óshiriw
 
 ## Profile - Email
 
+manage-subscriptions = Jazılıwlardı basqarıw
+manage-email-subscriptions = Elektron pochta arqalı jazılıwlardı basqarıw
+email-already-used = Elektron pochta álleqashan basqa akkauntta qollanılmaqta
 add-language = Til qosıw
+change-email-setings = Elektron pochtańızdı sazlawlar arqalı «Kiriw ushın identifikator» bóliminde ózgertiń
 
 ## FAQ
 
 faq-title = Kóp beriletuǵın sorawlar
 faq-what-cv-q = Common Voice ne?
+faq-why-important-q = Bul ne ushın zárúr?
 faq-how-get-q = Men Common Voicetıń maǵlıwmatların toplamın qalay alıwım múmkin?
 faq-when-release2-q = Common Voicetıń Basqa tiller ushın maǵlıwmatlar toplamın qashan shıǵarasız?
+faq-why-mission-q = CommonVoice nege Mozillanıń wazıypası bolıp esaplanadı?
+faq-what-cv-and-deepspeech-q = Common Voice hám Deep Speech arasında qanday parıq bar?
 faq-is-goal-assistant-q = Common Voicetıń maqseti dawıslı járdemshini jaratıw ma?
 faq-how-calc-hours-q = Common Voice saatlardı qalay esaplaydı?
 faq-what-is-cv = Common Voice — bul ne?
@@ -434,12 +465,19 @@ about-sentence-collection-title = Gápler toplamı
 about-sentence-collection-subtitle = Adamlar dawıslap oqıwı ushın gápler jıynaladı.
 about-new-lang-title = Jańa tildiń iske túsiwi
 about-new-lang-subtitle = Biz usı tilde Common Voice saytın iske túsiremiz.
+about-voice-contrib-title = Dawıs penen úles qosıw
+about-voice-contrib-subtitle = Adamlar kelip óz dawısın jazıp qaldırıp úles qosadı.
+about-voice-validation-title = Dawıstı tekseriw
+about-voice-validation-subtitle = Basqa adamlar bul dawıslı kliplerdi tekseredi.
+about-dataset-release-title = Maǵlıwmatlar toplamınıń shıǵıwı
 about-dataset-release-subtitle = Biz hár 3 aydan maǵlıwmatlar toplamın járiyalaymız.
+about-subscribe-text = Common Voice penen baylanısta bolıwdı qaleysiz be?
 about-speak = Sóyleń
 about-listen = Tıńlań
 about-dataset-new = CommonVoice maǵlıwmatlar toplamı
 about-dataset-new-text = CommonVoice maǵlıwmatlar toplamı baǵdarlamashılarǵa dawıstı anıqlaw quralın járatıwǵa járdem beriw ushın júz mıńnan aslam audio úlgilerin óz ishine aladı.
 about-get-involved = Qatnasıw
+about-stay-in-touch = Men qalay baylanısta bolıwım múmkin?
 about-stay-in-touch-button = Dizimnen ótiw
 about-nav-why-common-voice = Nege?
 about-nav-how-it-works = Qalay?
@@ -510,6 +548,8 @@ review-cancel = Jiberiwdi biykarlaw
 datasets-heading = Maǵlıwmatlar toplamı
 language = Til
 download-dataset-header = Maǵlıwmatlar toplamın júklep alıw
+# File size in gigabytes
+size = Kólem
 cv-license = Licenziya
 audio-format = Audioformat
 number-of-voices = Dawıslar sanı
@@ -552,6 +592,7 @@ contact-required = *toltırıw májbúriy
 request-language-title = Til sorawı
 request-language-form-language =
     .label = Til
+request-language-success-title = Tildi qosıw haqqındaǵı sorawıńız tabıslı jiberildi, raxmet.
 select-language = Tildi tańlań...
 other-language = Basqa tiller
 
@@ -559,6 +600,12 @@ other-language = Basqa tiller
 
 request-language-form-email =
     .label = Siziń elektron pochtańız
+request-language-form-info =
+    .label = Til haqqında maǵlıwmat
+request-language-form-info-explanation-list-3 = Bizge tildi túsiniwge járdem beriwi múmkin bolǵan veb-saytlarǵa siltemeler
+request-language-google-recaptcha-required = reCAPTCHA talap etiledi, eger siz dawam etiwdi qáleseńiz
+# Success page
+request-language-success-heading = Raxmet! Siz jańa til sorawın jiberdińiz
 
 ## Languages Overview
 
@@ -568,6 +615,7 @@ languages-show-less = Azıraq kóriw
 language-total-progress = Jámi
 language-search-input =
     .placeholder = Izlew
+localized = Awdarıldı
 sentences = Gápler
 language-validation-hours = Saat
 
@@ -580,6 +628,7 @@ listen = Tıńlaw
 write = Jazıw
 review = Tekseriw
 skip = Ótkerip jiberiw
+shortcuts = Operativ buyrıqlar
 contribute-more =
     { $count ->
         [one] Jáne { $count } islewge tayarsız ba?
@@ -588,6 +637,8 @@ contribute-more =
 record-must-allow-microphone = Mikrofonǵa ruqsat beriwińiz kerek.
 record-no-mic-found = Mikrofon tabılmadı.
 record-three-more-instruction = Úshewi qaldı!
+record-abort-submit = Kliplerdi jiberiw
+record-abort-delete = Shıǵıw hám kliplerdi óshiriw
 share-title-new = Bizge kóbirek dawıs jıynawǵa <bold>járdem beriń</bold>
 target-segment-learn-more = Kóbirek úyreniw
 
@@ -629,6 +680,8 @@ easy-difficulty = Ańsat
 average-difficulty = Ortasha
 difficult-difficulty = Qıyın
 pro-difficulty = Pro
+set-a-goal = Maqset qoyıw
+confirm-goal = Maqsetti tastıyıqlaw
 
 ## Profile Delete
 
@@ -702,6 +755,7 @@ sc-home-review-title = Gáplerdi tekseriw
 
 ## HOW-TO
 
+sc-howto-review-title = Gáplerdi tekseriw
 
 ## MY SENTENCES
 
@@ -710,9 +764,14 @@ sc-my-no-sentences = Gápler tabılmadı!
 # Variables:
 #   $source (String) - Associated source the user filled out when uploading the sentence
 sc-my-source = Derek: { $source }
+sc-my-delete = Tańlanǵan gáplerdi óshiriw
+sc-my-deleting = Tańlanǵan gápler óshirilmekte…
 
 ## REJECTED
 
+sc-rejected-title = Biykarlanǵan gápler
+sc-rejected-loading = Biykarlanǵan gápler júklenbekte…
+sc-rejected-none-found = Biykarlanǵan gápler tabılmadı!
 
 ## STATS
 
@@ -723,6 +782,7 @@ sc-stats-updating = Jańalanbaqta…
 
 sc-submit-err-select-lang = Ótinish, tildi tańlań.
 sc-submit-err-add-sentences = Ótinish, gáplerdi qosıń.
+sc-submit-err-add-source = Ótinish, derekti qosıń.
 sc-submit-select-language =
     .labelText = Tildi tańlań
 sc-submit-button =
@@ -732,6 +792,7 @@ sc-submit-button =
 
 sc-add-lang-could-not-add = Tildi qosıw ámelge aspadı
 sc-add-lang-sec-button = Til qosıw
+sc-add-err-submission = Jiberiw qáteligi
 
 ## ADD SENTENCES CONFIRMATION
 
@@ -763,8 +824,12 @@ sc-personal-remove-button = óshiriw
 
 sc-review-title = Gáplerdi tekseriw
 sc-review-loading = Gápler júklenbekte…
+# Variables:
+#   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
+sc-review-form-source = Derek: { $sentenceSource }
 sc-review-form-button-reject = Biykarlaw
 sc-review-form-button-skip = Ótkerip jiberiw
+sc-review-form-button-approve = Qabıllaw
 # Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
 sc-review-form-button-approve-shortcut = Y
 # Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
@@ -773,25 +838,47 @@ sc-review-form-button-reject-shortcut = N
 sc-review-form-button-skip-shortcut = S
 sc-review-form-button-submit =
     .submitText = Tekseriwdi juwmaqlaw
+# Variables:
+#   $sentences (Number) - Number of sentences the user has reviewed in this session
+sc-review-form-reviewed-message =
+    { $sentences ->
+        [0] Tekserilgen gápler joq
+        [one] 1 gáp tekserildi. Raxmet sizge!
+       *[other] { $sentences } gáp tekserildi. Raxmet sizge!
+    }
 sc-review-link = Tekseriw
 
 ## SETTINGS
 
 sc-settings-title = Sazlawlar
 sc-settings-ui-language = Interfeys tili
+sc-settings-show-all-button = Ótkerip jiberilgen gáplerdi qayta kórsetiw
+sc-settings-failed = Sazlawlardı ózgertiw ámelge aspadı. Ótinish, qayta urınıp kóriń.
 
 # [/SentenceCollector]
 
 partnerships-governments-header = Húkimetler
 partnerships-our-partners = Biziń sherikler
+first-cta-subtitle-text = Qalay sóylewińiz haqqındaǵı maǵlıwmat penen bólisiwdi qálemeysiz be?
+why-donate = Nege sorap atırsız?
 add-information-button = Maǵlıwmat qosıw
+continue-speaking-button = Yaq, raxmet, sóylewdi dawam etiw
+create-profile-text = Maǵlıwmatlarıńızdı saqlawdı qáleysiz be? <createProfile>Profil jaratıń</createProfile>
+already-have-an-account = Álleqashan profilińiz bar ma? <login>Kiriw</login>
 create-profile-button = Profil jaratıw
 voice-collection = Dawıslar toplamı
 sentence-collection = Gápler toplamı
+misreadings = Nadurıs oqıw
 background-noise = Sırtqı shawqım
 background-voices = Sırtqı dawıslar
+volume = Dawıs
+reader-effects = Oqıw effektleri
+just-unsure = Isenimińiz kámil emes pe?
 example = Mısal
+varying-pronunciations-example = Jónelis anıq bolmadı.
+contact-common-voice = Common Voice toparı menen baylanısıw
 citing-sentences-subheader-websites = Veb-saytlar
+adding-sentences-subheader-numbers = Sanlar
 sentence =
     .label = Gáp
 new-sentence-rule-3 = Durıs grammatikanı qollanıń
