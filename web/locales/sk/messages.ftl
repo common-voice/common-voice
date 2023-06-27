@@ -118,6 +118,7 @@ lij = ligúrčina
 ln = lingalčina
 lo = laoština
 lt = litovčina
+ltg = latgalčina
 lv = lotyština
 mai = maithilčina
 mdf = mokša
@@ -1698,8 +1699,6 @@ reviewing-sentences-explanation-1 = Ak veta spĺňa vyššie uvedené kritériá
 reviewing-sentences-explanation-2 = Ak veta nespĺňa vyššie uvedené kritériá, kliknite na tlačidlo „Nie“.
 reviewing-sentences-explanation-3 = Ak si nie ste istí vetou, môžete ju tiež preskočiť a prejsť na ďalšiu.
 reviewing-sentences-explanation-4 = Ak vám dochádzajú vety na kontrolu, môžete nám pomôcť zhromaždiť ďalšie vety.
-community-announcement-header = Oznámenie komunity!
-community-announcement-explanation = Pokyny nižšie sa týkajú nových funkcií zberača viet, ktoré budú integrované do základnej platformy Common Voice počas marca a apríla 2023. Medzitým môžete použiť predchádzajúci nástroj, <scLink>https://commonvoice.mozilla.org/sentence-collector/</scLink>.
 # WRITE PAGE
 write-instruction-second-part = vetu pod verejnou licenciou
 write-page-subtitle = Tu pridané vety budú zaradené do verejne dostupného súboru údajov s licenciou cc-0.

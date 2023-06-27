@@ -963,6 +963,7 @@ export default class DB {
       l.is_contributable
         FROM locales l
         LEFT JOIN sentences s ON s.locale_id = l.id
+        WHERE s.is_validated = TRUE
         GROUP BY l.id`
     );
     return rows.map(
