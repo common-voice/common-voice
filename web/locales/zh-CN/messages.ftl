@@ -80,7 +80,7 @@ gl = 加利西亚语
 gn = 瓜拉尼语
 gom = 孔卡尼语（果阿）
 ha = 豪萨语
-he = 希伯莱语
+he = 希伯来语
 hi = 印地语
 hil = 希利盖农语
 hr = 克罗地亚语
@@ -922,7 +922,7 @@ target-segment-learn-more = 详细了解
 ## Contribution Nav Items
 
 contribute-voice-collection-nav-header = 收集语音
-contribute-sentence-collection-nav-header = 语句集合
+contribute-sentence-collection-nav-header = 收集语句
 
 ## Reporting
 
@@ -1656,7 +1656,7 @@ new-sentence-rule-7 = 引用恰当
 new-sentence-rule-8 = 语句通俗自然（便于阅读）
 how-to-cite = 如何引用？
 how-to-cite-explanation-bold = 引用 URL 链接或作品全名。
-how-to-cite-explanation = 如果是您自己的话，您只需注明<italicizedText>“Self Citation”</italicizedText>。我们需要知道您在哪里得到这些内容，以便检查它是否在公有领域并且无版权限制。有关引用的更多信息，请参阅我们的<guidelinesLink>准则页面</guidelinesLink>。
+how-to-cite-explanation = 如果来源于您自己，则只需注明<italicizedText>“Self Citation”</italicizedText>。我们需要知道您在哪里得到这些内容，以便检查其是否处于公有领域并且无版权限制。有关引用的更多信息，请参阅我们的<guidelinesLink>准则页面</guidelinesLink>。
 guidelines = 准则
 contact-us = 联系我们
 add-sentence-success = 已收集 1 条语句

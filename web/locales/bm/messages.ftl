@@ -118,6 +118,7 @@ lij = Ligurikan
 ln = Lingalakan
 lo = Laokan
 lt = Litiyanikan
+ltg = Latgalien
 lv = Latviyankan
 mai = Mɛtilikan
 mdf = Mokisakan
@@ -530,6 +531,15 @@ about-new-lang-title = Kan kura daminɛ
 about-new-lang-subtitle = An bɛ Common Voice siti daminɛ o kan in na.
 about-voice-contrib-title = Kumakan Dɛmɛ
 about-voice-contrib-subtitle = Mɔgɔw bɛ na u kanw di.
+about-voice-validation-title = Kumakanw Lafasali
+about-voice-validation-subtitle = Mɔgɔ wɛrɛw b’o kumakan-klipw sinsin.
+about-dataset-release-title = Dataset bɔli
+about-dataset-release-subtitle = An bɛ kunnafonidilan in Bɔ kalo 3 o kalo 3.
+about-subscribe-text = Aw b’a fɛ ka to jɛɲɔgɔnya la ni Common Voice ye wa?
+about-speak = Kuma
+about-speak-text = Dɛmɛbagaw bɛ kumakan-klipw ta u kɛtɔ ka kalan kɛ ka bɔ kumasenw banki dɔ la minnu dira u ma.
+about-listen-queue = Lamɛnni-Layidu
+about-listen-queue-text = Kumakan-klipw bɛ don cikanw bilayɔrɔ la min b’u labɛn lamɛnni kama.
 about-no-votes-text = Ni baarakɛla dɔ banna kumakan-klip dɔ la a bɛ segin Layidu la. Ni a banna siɲɛ filanan na, kumakan-klip bɛ taa Clip kaburudo la.
 
 ## Community Playbook Content

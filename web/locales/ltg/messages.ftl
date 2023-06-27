@@ -27,25 +27,83 @@ error-clip-upload-server = Ituo īroksta augšonīluode serverī vys vēļ naiza
 ## Languages
 
 ab = Abhazīšu
+ar = Arabu
+az = Azeirbaidžanu
+ba = Baškiru
 be = Boltkrīvu
 bg = Bulgaru
 bm = Bambaru
+bs = Bosnīšu
+ca = Katalaņu
 cs = Čehu
 cv = Čuvašu
 cy = Velsīšu
+da = Dāņu
 de = Vuocu
+el = Grīķu
 en = Angļu
 eo = Esperanto
-es = Spanīšu
+es = Spāņu
 et = Igauņu
 eu = Basku
 fa = Persīšu
+fi = Suomu
+fo = Feru
+fr = Fraņču
+fy-NL = Frizu
+ga-IE = Īru
+gl = Galisīšu
+gn = Guaranu
+he = Ebreju
+hi = Hindi
+hil = Hiligaņu
+hr = Horvatu
+hsb = Augšsorbu
+ht = Haitīšu
+hu = Ungaru
+hy-AM = Armeņu
+hyw = Rītumarmeņu
+ia = Interlingua
+id = Indonezīšu
+ie = Interlingue
+ig = Igbo
+is = Islandīšu
+it = Itāļu
+izh = Ižoru
+ja = Japanīšu
+ka = Gruzinu
+kaa = Karakalpaku
+kab = Kabilu
+kbd = Kabardīšu
+ki = Kikujīšu
+kk = Kazahu
+km = Khmeru
+ko = Korejīšu
+ky = Kirgizu
+lb = Luksemburdzīšu
+lt = Leitovīšu
+ltg = Latgalīšu
 lv = Latvīšu
+mn = Mongoļu
+nl = Holandīšu
 pl = Pūļu
 ps = Puštu
 pt = Portugaļu
 ru = Krīvu
+sl = Sloveņu
+sr = Serbu
+ss = Sisvatu
+st = Dīnvydsoto
 sv-SE = Zvīdru
+tr = Turku
+tt = Tataru
+uk = Ukraiņu
+ur = Urdu
+uz = Uzbeku
+vi = Vjetnamīšu
+yi = Jidišs
+yo = Jorubu
+zu = Zulu
 
 # [/]
 
@@ -74,6 +132,8 @@ logout = Beigt dorbu
 
 ## Home Page
 
+home-title = Common Voice ir Mozilla iniciativa, lai vuiceitu datorim saprast cylvāku volūdu.
+default-tagline = Common Voice ir Mozilla iniciativa, lai vuiceitu datorim saprast cylvāku volūdu.
 show-wall-of-text = Skaiteit vaira
 help-us-title = Paleidzit puorbaudeit teikumus!
 help-us-explain = Nūmīdzīt atskaņuošonys pūgu, klausotēs i puorbaudit, voi zamuok nūruodeitais teikums ir izrunuots precizai.
@@ -122,6 +182,7 @@ email-subscription-title-new = Registrejitēs Common Voice viestim, atguodynuoju
 ## Account Benefits
 
 benefits = Īgivumi
+keep-track = Sekojit leidza sovam progresam i datim vairuokuos volūduos.
 
 ## What's public
 
@@ -236,6 +297,10 @@ contribution-experience = Pīsadaleišonys pīredze
 skip-submission-feedback = Izlaist atsauksmis
 off = Izslāgts
 on = Īslāgts
+help-accent = Voi vajadzeiga paleidzeiba ar akcentu?
+help-accent-explanation = Jiusu akcents ir veids, kai jius izrunojit vuordus. Tū var ītekmēt jiusu dzeivisvīta, cytys volūdys, kurys runojit, i daudzi cyti faktori. Ite varit pasadaleit ar sevkuru informaceju, kas, jiusupruot, ir svareiga.
+help-variants = Voi vajadzeiga paleidzeiba ar variantim?
+help-variants-explanation = Varianti ir nūsaceita volūdys forma, par pīmāru, tīm, kas dzeivoj kaidā geografiskajā vītā voi kūpīnā. Dažreiz tūs sauc par dialektim.
 
 ## Profile - Email
 
@@ -258,8 +323,14 @@ change-email-setings = Mainit sovu e-postu, lītojūt īstatejumu sadaļu "Pīsa
 
 ## FAQ
 
+faq-title = Bīžuok aizdūtī vaicuojumi
 faq-what-cv-q = Kas ir Common Voice?
 faq-why-important-q = Deļkuo tys ir svareigi?
+faq-is-goal-assistant-q = Voi Common Voice mierkis ir taiseit bolsa asistentu?
+faq-why-different-speakers-q = Deļkuo jums ir vajadzeigs tik daudz dažaidu vīnys volūdys runuotuoju?
+faq-why-my-lang-q = Deļkuo muna volūda vēļ nav dalykta?
+faq-how-calc-hours-q = Kai Common Voice apriekinoj stuņdis?
+faq-where-src-from-2-q = Nu kurīnis ir teksti īrokstim?
 faq-is-account-public-q = Voi muna konta informaceja ir publiski daīmama?
 faq-how-privacy-q = Kai jius nūdrūsynuosit tū cylvāku anonimitati i privatumu, kuri pazīduoja sovus bolsus?
 faq-what-is-cv = Kas ir Common Voice?
@@ -273,8 +344,12 @@ about-title = Deļkuo ir Common Voice?
 
 ## How does it work section
 
+about-language-req-subtitle = Kaids lyudz dalikt volūdu.
+about-localization-title = Teiklavītys lokalizaceja
+about-sentence-collection-title = Teikumu kolekceja
+about-sentence-collection-subtitle = Teikumi teik salaseiti, lai cylvāki tūs varātu īrunuot.
 about-new-lang-title = Jaunys volūdys palaisšona
-about-new-lang-subtitle = Mes palaižam Common Voice vītni itamā volūdā.
+about-new-lang-subtitle = Mes palaižam Common Voice teiklavītu itamā volūdā.
 about-voice-contrib-title = Bolsa īguļdejums
 about-voice-contrib-subtitle = Cylvāki atīt i īrunoj teikumus.
 about-voice-validation-title = Īrokstu puorbaudeišona
@@ -321,15 +396,21 @@ about-playbook-how-add-language-collecting-sentences-heading = Teikumu apkūpuo�
 
 ## How to record quality
 
+about-playbook-how-record-content-5 = <accuracyLink>Veritēs vaira par tū, kai pareizi īraksteit.</accuracyLink>
 
 ## How to grow language
 
+about-playbook-how-grow-language = Kai mes varim atteisteit volūdu pakolpuojumā Common Voice?
 about-playbook-how-grow-language-content-2 = Nūtikšonys
 about-playbook-how-grow-language-content-4 = Socialī medeji
 about-playbook-how-grow-language-content-6 = Partnereibys i teikli
+about-playbook-how-grow-language-content-8 = <strong>Esit rodūši!</strong> Jiusu volūdys kūpīna byus unikala, i itī ir tikai puors veidi, kai suokt.
 
 ## How to validate
 
+about-playbook-how-validate = Kai zynuot, voi apstyprynuot bolsa īrokstu?
+about-playbook-how-validate-content-1 = Ka varit <strong>dzierdēt saceitū</strong> i <strong>saprast saceitū</strong>, parasti <strong>vyslobuok apstyprynuot</strong> īrokstu.
+about-playbook-how-validate-content-4 = Ka īrokstu nūraida 2 cylvāki, tys teik izlaists datu kūpys nūraideitū īrokstu apakškūpā.
 
 ## How to access dataset
 
@@ -352,11 +433,13 @@ about-playbook-how-project-governance-content-7 = <governanceLink>Izzynojat vair
 
 glossary = Aproksts
 localization = Lokalizaceja
+hours-recorded-explanation = Da šam savuoktū bolsa īrokstu stuņžu skaits.
 sst = Runa iz tekstu (STT)
 de-identified-explanation = Process, kurā īrunuotuoja profila informaceja teik maskāta juo pazīduotajūs bolsa īrokstūs, ka tī ir daīmami lejupīluodei kai datu kūpys dalis.
 
 ## Error pages
 
+error-title-404 = Mes navariejom atrast itū lopu
 error-code = Klaida { $code }
 
 ## Data
@@ -375,6 +458,7 @@ release-version = Verseja
 dataset-date = Datums
 license = Liceņze: <licenseLink> { $license } </licenseLink>
 license-mixed = Jaukts
+terms-agree = Es pīkreitu
 terms-disagree = Es napīkreitu
 review-aborted = Augšonīluode teik puortraukta. Voi gribit dzēst sovus īrokstus?
 review-submit-title = Puorbaudeit i īsnēgt
@@ -388,6 +472,8 @@ review-delete-recordings = Dzēst munus īrokstus
 ## Datasets Page
 
 datasets-heading = Datu kūpys
+language = Volūda
+download-dataset-header = Zamynluodejit datu kūpu
 # File size in gigabytes
 size = Izmārs
 validated-hr-total = Puorbaudeitys st. kūpā
@@ -407,6 +493,15 @@ download-language = Lejupīluodēt { $language }
 validated-hours = Puorbaudeituos stuņdis
 recorded-hours = Īraksteituos stuņdis
 whats-inside = Kas atsarūn Common Voice datu kūpā?
+subscribe = Pīsaraksteit
+get-started-speech = Suokt runys atpazeišonu
+other-datasets = Cytys bolsa datu kūpys
+feedback-q = Voi jums ir atsauksmis?
+resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ ir <docsLink>valejuo koda reikkūpa</docsLink> pietnīkim, kas izstruodoj jaunuokūs sarunvolūdys muoksleiguo intelekta modeļus.
+community-playbook = Kūpīnys rūkysgruomota
+data-other-ted-name = TED-LIUM korpuss
+go-languages-page = Ejit iz volūdu lopu
+ready-to-validate = Voi esit gotovs paleidzēt puorbaudeit teikumus?
 more = Vairuok
 close = Aiztaiseit
 download = Lejupluodēt
@@ -442,10 +537,13 @@ other-language = Cyta volūda
 
 ## Request Language Pages
 
+request-language-heading = Vaicojit par jaunu volūdu
 request-language-form-email =
     .label = Tova e-posta adrese
 request-language-form-info =
     .label = Informaceja par volūdu
+request-language-form-info-explanation-list-1 = Jiusu volūdys nūsaukumi
+request-language-form-info-explanation-list-2 = <isoCodeLink>ISO kodi</isoCodeLink>, ka tī ir zynomi
 
 ## Languages Overview
 
