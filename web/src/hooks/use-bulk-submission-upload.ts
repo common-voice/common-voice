@@ -60,7 +60,8 @@ const useBulkSubmissionUpload = () => {
           'success'
         )
       )
-    } catch {
+    } catch (error) {
+      console.log({ error })
       dispatch(Sentences.actions.setBulkUploadStatus('error'))
       dispatch(
         Notifications.actions.addPill(

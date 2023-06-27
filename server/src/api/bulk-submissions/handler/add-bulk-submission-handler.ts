@@ -52,6 +52,8 @@ export const handler =
 
     const file = await readBodyFromRequest(req)
 
+    console.log({ size, fileLength: file.length }, 'filesize >>>>')
+
     if (size !== file.length)
       return res
         .status(StatusCodes.BAD_REQUEST)
