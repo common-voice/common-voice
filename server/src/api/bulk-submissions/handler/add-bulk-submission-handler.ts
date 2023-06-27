@@ -72,7 +72,10 @@ export const handler =
       cmdHandler,
       TE.mapLeft(createPresentableError),
       TE.fold(
-        err => T.of(res.status(StatusCodes.INTERNAL_SERVER_ERROR).json(err)),
+        err => {
+          console.log({ err })
+          return T.of(res.status(StatusCodes.INTERNAL_SERVER_ERROR).json(err))
+        },
         () => T.of(res.json({ message: 'Bulk submission added' }))
       )
     )()
