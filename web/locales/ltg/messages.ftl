@@ -803,13 +803,26 @@ demo-account-sign-up = Nūsyutit registracejis saiti
 
 ## Demo Contribute
 
+demo-listen-subtitle = Itys tok ir lobs breids paleidzēt, pareiz?
 
 ## Demo Dashboard
 
 
 ## Validation criteria
 
+contribution-criteria-nav = Kritereji
+contribution-criteria-link = Īrokstu kvalitatis kritereji
+contribution-criteria-page-title = Īguļdejuma kritereji
+contribution-for-example = par pīmāru
+contribution-misreadings-title = Klaidaini skaitejumi
+contribution-varying-pronunciations-title = Dažaidys izrunys
+contribution-varying-pronunciations-example-1-title = Maņ garšoj dasa.
+contribution-background-voices-title = Bolsi fonā
 contribution-volume-title = Skaļums
+contribution-reader-effects-title = Īrunuotuoja izrunys eipatneibys
+contribution-just-unsure-title = Vīnkuorši naesit puorlīcynuots?
+see-more = <chevron></chevron>Ruodeit vaira
+see-less = <chevron></chevron>Ruodeit mozuok
 
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
@@ -833,6 +846,7 @@ sc-footer-report-copyright = Ziņuot par autortīseibu problemom
 sc-footer-privacy = Privatums
 sc-footer-terms = Lītuošonys nūsacejumi
 sc-footer-cookies = Seikdatnis
+sc-logout-button = Beigt dorbu
 
 ## HOME
 
@@ -842,6 +856,11 @@ sc-footer-cookies = Seikdatnis
 
 ## HOW-TO
 
+sc-howto-title = Padūmi
+sc-howto-addlang-title = Volūdu dalikšona dorbam
+sc-howto-addsen-title = Dalikt jaunus teikumus
+sc-howto-cite-title = Kai nūruodeit olūtu
+sc-howto-review-title = Puorsaverit teikumus
 
 ## MY SENTENCES
 
