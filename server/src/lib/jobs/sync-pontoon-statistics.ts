@@ -15,8 +15,9 @@
  * Once a language has met the two criterion, it is launched (the flag "is_contributable" is set to true the database).
  */
 
-import { Language } from 'common'
+import { Language, TextDirection } from 'common'
 import database from '../model/db'
+import languageRepository, { LanguageSchema } from '../model/db/languages'
 
 const TRANSLATION_CRITERIA_CUTOFF = 0.6
 const DEFAULT_TARGET_SENTENCE_COUNT = 5000
@@ -25,10 +26,11 @@ const PONTOON_URL =
 
 interface PontoonLanguage {
   code: string
-  direction: string
+  direction: TextDirection
   name: string
   translated: boolean
 }
+
 interface PontoonData {
   locale: PontoonLanguage
   totalStrings: number
@@ -45,10 +47,10 @@ const getPontoonLanguages = async (): Promise<PontoonData[]> => {
   return localizations
 }
 
-const convertPontoonDataToLanguage = (
+const convertPontoonDataToLanguageSchema = (
   pontoonData: PontoonData,
   language: Language
-): Language => {
+): LanguageSchema => {
   const {
     totalStrings,
     approvedStrings,
@@ -57,6 +59,7 @@ const convertPontoonDataToLanguage = (
 
   const {
     sentenceCount: { currentCount, targetSentenceCount },
+    is_contributable,
   } = language
 
   //website text has at least 60% translations
@@ -73,20 +76,22 @@ const convertPontoonDataToLanguage = (
     native_name: name,
     text_direction,
     is_translated: hasTranslationCriteria,
-    is_contributable: hasSentenceCriteria,
+    is_contributable:
+      is_contributable || (hasSentenceCriteria && hasTranslationCriteria), //never regress language (once launched, always launched)
+    target_sentence_count: targetSentenceCount,
   }
 }
 
-const mapToLanguages = (
+const mapToLanguageSchemas = (
   localizations: PontoonData[],
   languages: Language[]
-): Language[] => {
+): LanguageSchema[] => {
   return localizations.map(localization => {
     const language = languages.find(
       lang => lang.name === localization.locale.code
     ) //realistically, this should be a obj with locale token as key and Language as value
 
-    return convertPontoonDataToLanguage(localization, language)
+    return convertPontoonDataToLanguageSchema(localization, language)
   })
 }
 
@@ -94,14 +99,23 @@ const mapToLanguages = (
  *
  * @param languages all the new language data that needs to be saved to db
  */
-export const saveData = async languages => {
-  // console.log(formatPontoonData(TEST_DATA))
+export const saveData = async (languages: LanguageSchema[]) => {
+  return await Promise.all(
+    languages.map(language => {
+      languageRepository.update(language)
+    })
+  )
 }
 
-export const syncPontoonStatistics = async () => {
-  const existingLanguages = await database.getLanguages()
-  const pontoonLanguages = await getPontoonLanguages()
+export const syncPontoonLanguageStatistics = async () => {
+  console.log('starting pontoon language sync')
 
-  const languages = mapToLanguages(pontoonLanguages, existingLanguages)
+  const existingLanguages = await database.getLanguages()
+  console.log('existing languages', existingLanguages.length)
+
+  const pontoonLanguages = await getPontoonLanguages()
+  console.log('pontoon languages', pontoonLanguages.length)
+
+  const languages = mapToLanguageSchemas(pontoonLanguages, existingLanguages)
   await saveData(languages)
 }

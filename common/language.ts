@@ -22,6 +22,8 @@ export type Language = {
   text_direction: string
 }
 
+export type TextDirection = 'LTR' | 'RTL' | 'TTB' | 'BTT'
+
 // single variant object
 export type Variant = {
   id: number
