@@ -577,7 +577,17 @@ clips-with-count-pluralized =
         [one] { "" }
        *[other] { "" }
     }
+contribute-more =
+    { $count ->
+        [zero] Voi esit gotovi vēļ { $count }?
+        [one] { "" }
+       *[other] { "" }
+    }
 record-cta = Suocit īraksteišonu
+record-platform-not-supported = Dīvamžāļ jiusu platforma itūšaļt nateik atbaļsteita.
+record-platform-not-supported-desktop = Datorūs varit zamynluodēt jaunuokū:
+record-platform-not-supported-ios-non-safari = Operātuojsistemā iOS, lyudzu, turpynojit ar Safari, lai atļautu īraksteišonu…
+record-must-allow-microphone = Jums juoatļaun datikt mikrofonam.
 record-no-mic-found = Nav atrosts nivīns mikrofons.
 record-error-too-short = Īroksts beja par eisu.
 record-error-too-long = Īroksts beja par garu.
@@ -595,6 +605,7 @@ share-common-voice = Pastuostit cytim par Common Voice
 review-instruction = Ka vajadzeigs, puorsaverit īrokstus i īrokstit atkuortuotai
 record-submit-tooltip = { $actionType } īsnēdzit, kod vyss gotovs
 clips-uploaded = Īroksti saglobuoti
+record-abort-title = Pyrmuok pabeigt īrokstu?
 record-abort-submit = Īsnēgt īrokstus
 record-abort-continue = Pabeigt īrokstu
 record-abort-delete = Izīt i dzēst īrokstus
