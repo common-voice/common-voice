@@ -707,6 +707,7 @@ show-ranking = Ruodeit munu reitingu
 
 get-started-goals = Suocit ar mierkim
 create-custom-goal = Damārojit sovu mierki
+goal-type = Kaidu mierki gribit sataiseit?
 both-speak-and-listen = Obeji
 both-speak-and-listen-long = Obeji (runuošonys i klauseišonuos)
 daily-goal = Dīnys mierkis
@@ -716,10 +717,28 @@ average-difficulty = Videjais
 difficult-difficulty = Gryutais
 pro-difficulty = Profesionalais
 lose-goal-progress-warning = Lobojūt mierki, jius varit pagaisynuot asūšū progresu.
+want-to-continue = Voi gribit turpynuot?
 finish-editing = Voi pyrma dabeigt lobuošonu?
+lose-changes-warning = Ka izīsit tagad, jius pagaisynuosit izmainis
+build-custom-goal = Damārojit sev mierki
+help-reach-hours-pluralized =
+    { NUMBER($hours) ->
+        [zero] Paleidzit sasnēgt { $hours } stuņdis { $language } volūdā ar sovu mierki
+        [one] { "" }
+       *[other] { "" }
+    }
+help-reach-hours-general-pluralized =
+    { NUMBER($hours) ->
+        [zero] Paleidzit sasnēgt { $hours } stuņdis itamā volūdā ar sovu mierki
+        [one] { "" }
+       *[other] { "" }
+    }
+set-a-goal = Izvierzeit mierki
+cant-decide = Navarit nūsprīst?
 activity-needed-calculation-plural = { $totalHours } stuņdis ir sasnādzamys { $periodMonths } mienešūs, ka { $people } cylvāki īraksteitu { $clipsPerDay } īrokstus dīnā.
 how-many-per-day = Breineigi! Cik īrokstu dīnā?
 how-many-a-week = Breineigi! Cik īrokstu nedeļā?
+which-goal-type = Voi gribit runuot, klauseitīs voi obejus?
 n-clips-pluralized =
     { NUMBER($count) ->
         [zero] { $count } īrokstu
