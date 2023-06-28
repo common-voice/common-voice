@@ -747,7 +747,11 @@ n-clips-pluralized =
     }
 confirm-goal = Apstyprynuot mierki
 goal-interval-weekly = Reizi nedeļā
+share-goal-type-speak = Runuošona
+share-goal-type-listen = Klauseišonuos
+share-goal-type-both = Runuošona i klauseišonuos
 return-to-edit-goal = Atsagrīzt ite, lai sevkurā laikā lobuotu mierki.
+share-goal = Pasadoli ar sovu mierki
 
 ## Profile Delete
 
@@ -758,27 +762,44 @@ profile-form-delete = Dzēst profilu
 ## Profile Download
 
 download-profile-title = Profils
+download-profile-size = Puors baiti
 download-recordings-title = Īroksti
+download-recordings-size = Parosti megabaiti
 download-size = Izmārs
 download-selected = Izalaseits
 download-request-button = Lejupīluodēt
 download-request-title = { $created }
 download-request-description = { $clipCount } bolsa īroksti, vysā arhiva izmārs { $size }. Izglobuošonys termiņš { $expires }.
+download-request-archive-single = Vīns ZIP fails, kas satur
+download-request-archive-multiple = Sadaleit { $archiveCount } ZIP failūs, kas satur
 download-request-refresh-button = Atjaunynuot
 download-request-link-text = Zip #{ $offset } no { $total }
 download-request-metadata-link = Teikuma teksts
 
 ## Landing
 
+welcome-staff = Vasali { $company } darbinīki!
+read-more-about = Skaitit vaira myusu lopā Par mums
 
 ## DemoLayout
 
+demo-get-started = Suoksim
+demo-welcome = Vasali pi myusu Common Voice
 
 ## Demo Datasets
 
+card-button-next = Iz prīšku
+card-button-back = Atpakaļ
+demo-language-select-label = Vērtīs volūdys
+demo-eofy-header = 2019. goda beigu laidīņs
+demo-eofy-sub_header = Bolsa datu kūpa, gotova zamynluodei
+demo-account = Konts
 
 ## Demo Account
 
+demo-account-enter-email =
+    .label = Īvodit e-postu, lai nūsyuteitu registracejis saiti
+demo-account-sign-up = Nūsyutit registracejis saiti
 
 ## Demo Contribute
 
