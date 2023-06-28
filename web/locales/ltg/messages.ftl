@@ -619,8 +619,17 @@ listen-loading-error =
     Mes navariejom dabuot nivīna īroksta, kū jums klauseitīs.
     Lyudzu, raugit vēļreiz nadaudz vāluok.
 speak-empty-state = Mums ir beigušīs teikumi, kū īraksteit itamā volūdā...
+speak-empty-state-cta = Dalicit teikumus
+speak-loading-error =
+    Mes navariejom dabuot nivīna teikuma, lai jius varātu īrunuot.
+    Lyudzu, raugit vēļreiz nadaudz vāluok.
 record-button-label = Īrokstit sovu bolsu
 share-title-new = <bold> Paleidzit mums </bold> atrast vairuok bolsu
+keep-track-profile = Sekojit leidza progresam, lītojūt profilu
+login-to-get-started = Pīsasokit voi registrejitēs, lai suoktu
+target-segment-first-card = Jius dūdit īguļdejumu myusu pyrmajā mierka segmentā
+target-segment-generic-card = Jius dūdit īguļdejumu mierka segmentā
+target-segment-first-banner = Paleidzit sataiseit Common Voice pyrmū mierka segmentu { $locale } volūdā
 target-segment-add-voice = Davīnojit sovu bolsu
 target-segment-learn-more = Dazynuot vaira
 
@@ -633,6 +642,8 @@ contribute-sentence-collection-nav-header = Teikumu apkūpuotuojs
 
 report = Ziņuot
 report-title = Īsnēdzit viesti
+report-ask = Kaidys problemys jums rūnās ar itū teikumu?
+report-offensive-language = Aizvainojūša volūda
 report-grammar-or-spelling-detail = Teikumā ir gramatiska voi pareizraksteibys klaida.
 report-different-language = Napareiza volūda
 report-different-language-detail = Tys ir pīraksteits volūdā, kas atsaškir nu tuos, kū runoju.
