@@ -606,6 +606,7 @@ review-instruction = Ka vajadzeigs, puorsaverit īrokstus i īrokstit atkuortuot
 record-submit-tooltip = { $actionType } īsnēdzit, kod vyss gotovs
 clips-uploaded = Īroksti saglobuoti
 record-abort-title = Pyrmuok pabeigt īrokstu?
+record-abort-text = Izejūt jius pagaisynuosit sovu progresu
 record-abort-submit = Īsnēgt īrokstus
 record-abort-continue = Pabeigt īrokstu
 record-abort-delete = Izīt i dzēst īrokstus
@@ -617,6 +618,7 @@ listen-empty-state = Var byut, ka vysi īroksti jau ir apstruoduoti - atsvaidzyn
 listen-loading-error =
     Mes navariejom dabuot nivīna īroksta, kū jums klauseitīs.
     Lyudzu, raugit vēļreiz nadaudz vāluok.
+speak-empty-state = Mums ir beigušīs teikumi, kū īraksteit itamā volūdā...
 record-button-label = Īrokstit sovu bolsu
 share-title-new = <bold> Paleidzit mums </bold> atrast vairuok bolsu
 target-segment-add-voice = Davīnojit sovu bolsu
