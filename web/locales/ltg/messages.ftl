@@ -644,12 +644,15 @@ report = Ziņuot
 report-title = Īsnēdzit viesti
 report-ask = Kaidys problemys jums rūnās ar itū teikumu?
 report-offensive-language = Aizvainojūša volūda
+report-offensive-language-detail = Teikuma volūda ir nacīneiga voi aiztīkūša.
+report-grammar-or-spelling = Gramatiska / pareizraksteibys klaida
 report-grammar-or-spelling-detail = Teikumā ir gramatiska voi pareizraksteibys klaida.
 report-different-language = Napareiza volūda
 report-different-language-detail = Tys ir pīraksteits volūdā, kas atsaškir nu tuos, kū runoju.
 report-difficult-pronounce = Gryuts izrunuot
 report-difficult-pronounce-detail = Tymā ir vuordi voi frazis, kurus ir gryuts skaiteit voi izrunuot.
-report-offensive-speech = Aizvainojūša runa
+report-offensive-speech = Aiztīkūša runa
+report-offensive-speech-detail = Īrokstā ir nacīneiga voi aiztīkūša volūda.
 report-other-comment =
     .placeholder = Komentēt
 success = Veiksmeigi
@@ -681,6 +684,8 @@ validations =
 ## Dashboard
 
 your-languages = Jiusu volūdys
+toward-next-goal = Ceļā iz nuokušū mierki
+goal-reached = Mierkis sasnāgts
 clips-you-recorded = Īroksti, kurus jius esit īrakstejuši
 clips-you-validated = Īroksti, kurus jius esit puorbaudejuši
 todays-recorded-progress = Šudiņdīnys Common Voice progress īrokstu īraksteišonā
@@ -689,11 +694,19 @@ stats = Statistika
 awards = Apbolvuojumi
 you = Jius
 everyone = Cyti
+contribution-activity = Īguļdejuma aktivitate
+top-contributors = Aktivuokī dalinīki
 recorded-clips = Īraksteitī īroksti
 validated-clips = Puorbaudeitī īroksti
+total-approved = Kūpā apstyprynuotī
+overall-accuracy = Kūpejuo precizitate
+set-visibility = Nūstateit munu radzameibu
+show-ranking = Ruodeit munu reitingu
 
 ## Custom Goals
 
+get-started-goals = Suocit ar mierkim
+create-custom-goal = Damārojit sovu mierki
 both-speak-and-listen = Obeji
 both-speak-and-listen-long = Obeji (runuošonys i klauseišonuos)
 daily-goal = Dīnys mierkis
