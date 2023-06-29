@@ -15,8 +15,8 @@ indicates-required = * Quinextia se tlacauil techihualtia
 banner-error-slow-1 = Xitechtlapohpolui, Common Voice quichiutoc yolic. tlasohcamatictzin ica mochicaualis.
 banner-error-slow-2 = Ticsilihtoqueh miac tráfico uan axan tiquintemohtoqueh tlauel.
 error-something-went-wrong = Xitechtlapohpolui, amo oquis cuali.
-error-clip-upload = y yehyeculis nicancah clip ayamo cualtia, ocxic yehyeco
-error-clip-upload-server = y yehyeculis nicancah clip ayamo cualtia ichin servidor, ocsipa xic yehyecolti pagina o xic yehyeco ocsipa cachi tlahcah
+error-clip-upload = yehyeculis nicanca clip ayamo cualtia, ocxic yehyeco
+error-clip-upload-server = yehyeculis nicancah clip ayamo cualtia ichin servidor, ocsipa xic yehyecolti pagina o  xicyeyecolti cahi tlahca
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
