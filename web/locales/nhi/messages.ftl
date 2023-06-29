@@ -1,12 +1,15 @@
 ## General
 
-yes-receive-emails = Quemah, xinechimualtitlani correos. Onicniquisquiaya nicmatis ica in tlanimilil Common Voice.
-stayintouch = Ich Mozilla secchiutoc se nichicomasehual campa tipostl notzani. Otechpactisquia timitzmatiltisqueh ica in  tepanoltilistl, yancuic nemilis ica tlahcuilol uan secmatis cachi queni teh tiquintiquitiltia necateh datos.
+yes-receive-emails = Quemah, xinechiualtitlani correos. Onicniquisquiaya nicmatis ica in tlanimilil Common Voice.
+stayintouch = Ich Mozilla secchiutoc se nichicomasehual campa tipostl notzani. Otechpactisquia timitzmatiltisque ica in  tepanoltilistl, yancuic nemilis ica tlahcuilol uan secmatis cachi queni teh tiquintiquitiltia necateh datos.
 return-to-cv = Ximocuipa campa Common Voice
 email-input =
     .label = Correo
 submit-form-action = Xictitlani
 loading = Yehyecohtoc...
+email-opt-in-info = Onicniquisquiaya nicsilis correos electronicos queme ilnamiquilistl ipan tlanimilil, tepanoltilistl ica noiscaltilis uan se tlahtol tenonotza ica Common Voice
+email-opt-in-info-title = Ximonilo ica in tlahcuilol correo ica Common Voice
+email-opt-in-info-sub-with-challenge = Xicsili correos ica ilnamiquilistl ipan tlanimilil, tepanultilistl ica nu iscaltilistl huan totlahtol nohnotza ica Common Voice.
 error-something-went-wrong = Xitechtlapohpolui, amo oquis cuali.
 error-clip-upload = y yehyeculis nicancah clip ayamo cualtia, ocxic yehyeco
 error-clip-upload-server = y yehyeculis nicancah clip ayamo cualtia ichin servidor, ocsipa xic yehyecolti pagina o xic yehyeco ocsipa cachi tlahcah
