@@ -310,17 +310,17 @@ shortcut-play-toggle-label = nihnimilti/tzacuili
 ## Speak Shortcuts
 
 shortcut-record-toggle-label = tlahtolahcucui/ tzacuili
-shortcut-rerecord-toggle-label = xi tlahtolahcucui ocsipa clip
-shortcut-discard-ongoing-recording-label = xiquixpulo grabacion tlen ticchiuhtok
+shortcut-rerecord-toggle-label = xi tlahtolahcocui ocsipa clip
+shortcut-discard-ongoing-recording-label = xiquixpulo grabacion tlen ticchiuhtoc
 shortcut-submit = Xiualmocuipa
 shortcut-submit-label = xiquinaltitlani grabaciones
 request-language-text = ¿Ayamo ti cahsi mu tlahtol ich Common Voice?
-request-language-button = xictlahtlani mu tlahtol
+request-language-button = xictlahtlani se tlahtol
 
 ## ProjectStatus
 
 status-title = quenin catqui totiquiuh: xiquita tlen huehca yu ti ehcuqueh!
-status-contribute = xitechpalehui ica mu tlahtol
+status-contribute = xitechpaleui ica mu tlahtol
 # Variables:
 # $goal - number of hours representing the next goal
 status-goal = ocse tiquitl: { $goal }
@@ -336,7 +336,7 @@ profile-form-additional-language =
 profile-form-language =
     .label = Tlahtol
 profile-form-variant =
-    .label = ¿tlen variante { $language } tiktlahtuhua?
+    .label = ¿tlen variante { $language } tictlahtuhua?
 profile-form-variant-default-value = amo cah variante tlen u mu nexte
 profile-form-accent =
     .label = chicahuak tlahtol
