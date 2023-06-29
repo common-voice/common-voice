@@ -297,7 +297,7 @@ join-newsletter = noyohqui huilis timunilos ichin tu tlahcuilol correo electroni
 whats-public = ¿tlenon mu chihua iixpan masehualmeh?
 email-not-public = amo secnextis mu correo electrónico
 recordings-and-locale-public = puhual tlen tlahtolahcuctok huan tlahtulmeh campa titechpalehuia quemah mu nextis
-username-optin-public = huilis tic nextis tla se tocayo nextilis o ichtaca
+username-optin-public = huilis ticnextis tla se tocayo nextilis o ichtaca
 username-email-not-demographic = mu tocayo de ususario huan correo electronico munilusqueh ica tlanahuatil tlen yumunextihqueh
 
 ## Speak & Listen Shortcuts
