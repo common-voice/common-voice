@@ -309,7 +309,7 @@ shortcut-play-toggle-label = nihnimilti/tzacuili
 
 ## Speak Shortcuts
 
-shortcut-record-toggle-label = tlahtolahcucui/xicmana
+shortcut-record-toggle-label = tlahtolahcucui/ tzacuili
 shortcut-rerecord-toggle-label = xi tlahtolahcucui ocsipa clip
 shortcut-discard-ongoing-recording-label = xiquixpulo grabacion tlen ticchiuhtok
 shortcut-submit = Xiualmocuipa
