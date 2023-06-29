@@ -277,26 +277,26 @@ x-years-short =
         [one] xiuitl
        *[other] xiumeh
     }
-help-make-dataset = xitechpalehui matic chihuacah tlapalehuil amatl de  huehcapan cuahcual huan mucahsi para nuchin tlalticpac
+help-make-dataset = xitechpalehui maticchihuacah tlapalehuil amatl de  huehcapan cuahcual huan mucahsi para nuchin tlalticpac
 sign-up-account = ximoihcuilo para tic silis se cuenta
-email-subscription-title = ximoihcuilo para tic silis yancuik tlahtol ichin mu correo
+email-subscription-title = ximoihcuilo para tic silis yancuic tlahtol ichin mu correo
 email-subscription-title-new = ximuihcuilo ichin boletin de tlanahuatil, ichin ilnamiquilis huan yancuic nemilis de Common Voice
 
 ## Account Benefits
 
 benefits = tlapalehuilis
 rich-data = yehyeco tlen tlanahuatil tlen ticnaltitlantoc moican nuchten, xictemaca tlanahuatil demográficos ichtaca. Nuchten necateh tlanahuatilmeh panusqueh ichtaca achton mu ixnexticah
-improve-audio = tlanahuatil den perfil mu yectlalis ican tlanahuatil tlahtol tlen mucui campa se mu nextilia ican cuali ixmatiliz tlahtol
-keep-track = xicpia se tlahcuilol ica mu nemilis huan métricas ica miak tlahtol
-compare-progress = xiquita mu nimilis ika tlen de ocsiquen tlapalehuaneh ichi nuchi tlalticpac
+improve-audio = tlanahuatil den perfil muyectlalis ican tlanahuatil tlahtol tlen mucui campa semunextilia ican cuali ixmatiliz tlahtol
+keep-track = xicpia se tlahcuilol ica mu nemilis huan métricas ica miac tlahtol
+compare-progress = xiquita mu nimilis ica tlen de ocsiquen tlapalehuaneh ichi nuchi tlalticpac
 view-goals = xiquita mu nemilis ica mu tiquitl sesiahcah huan de mu tiquiuh
-join-newsletter = nuhual huilis timu nilos ichin tu tlahcuilol correo electronico para tic silis yancuic huan tlahtol ikan tiquitl
+join-newsletter = noyohqui huilis timunilos ichin tu tlahcuilol correo electronico para tic silis yancuic huan tlahtol ican tiquitl
 
 ## What's public
 
 whats-public = ¿tlenon mu chihua iixpan masehualmeh?
-email-not-public = amo secnextis mu correo electrònico
-recordings-and-locale-public = puhual den tlahtolahcuctok huan tlahtulmeh campa titech palehuia quemah mu nextis
+email-not-public = amo secnextis mu correo electrónico
+recordings-and-locale-public = puhual tlen tlahtolahcuctok huan tlahtulmeh campa titechpalehuia quemah mu nextis
 username-optin-public = huilis tic nextis tla se tocayo nextilis o ichtaca
 username-email-not-demographic = mu tocayo de ususario huan correo electronico munilusqueh ica tlanahuatil tlen yumunextihqueh
 
