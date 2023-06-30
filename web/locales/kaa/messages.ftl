@@ -11,6 +11,7 @@ loading = Júklenbekte…
 email-opt-in-info = Maqsetlerim haqqında esletpe, ozimniń jetiskenliklerim hám Common Voice haqqındaǵı xatlardı alıwdı qáleymen.
 email-opt-in-info-title = CommonVoice tarqatpalarına jazılıw
 email-opt-in-info-sub-with-challenge = Diydiler, maqsetler haqqında esletpe, jetiskenlikler haqqında xabarlamalar hám CommonVoice haqqında jańalıqlar sıyaqlı xatlardı alıw.
+email-opt-in-privacy-v2 = Siz elektron xatlardı alıwǵa razılıq berip, bul maǵlıwmatlarıńız Mozilla tárepinen onıń <privacyLink>Qupıyalıq siyasatı</privacyLink> qaǵıydalarında kórsetilgen tártipte paydalanıwına ruqsat bergen esaplanasız.
 indicates-required = * Toltırıw májburıy bolǵan maydanlar
 not-available-abbreviation = Joq
 banner-error-slow-1 = Keshirersiz, CommonVoice áste islep atır. Qızıǵıwshılıǵıńız ushın raxmet.
