@@ -494,6 +494,7 @@ about-playbook-what-is-language = Common Voiceta til ne?
 
 ## How do I add a language
 
+about-playbook-how-add-language = Tildi qalay qossam boladı?
 about-playbook-how-add-language-collecting-sentences-heading = Gáplerdi jıynaw
 
 ## How does localization work
@@ -501,6 +502,7 @@ about-playbook-how-add-language-collecting-sentences-heading = Gáplerdi jıynaw
 
 ## How to add sentences
 
+about-playbook-how-add-sentences = Gáplerdi qalay qossam boladı?
 
 ## How to record quality
 
