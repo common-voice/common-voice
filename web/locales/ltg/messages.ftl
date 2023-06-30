@@ -190,6 +190,7 @@ keep-track = Sekojit leidza sovam progresam i datim vairuokuos volūduos.
 
 whats-public = Kas ir publiski daīmams?
 email-not-public = Mes napubliskuosim jiusu e-postu.
+recordings-and-locale-public = Īrunuotū īrokstu skaits i volūdys byus publiski daīmamys.
 username-email-not-demographic = Jiusu lītuotuoja vuords i e-posts natiks pīsaisteits publicētajim datim.
 
 ## Speak & Listen Shortcuts
@@ -822,6 +823,7 @@ demo-account-sign-up = Nūsyutit registracejis saiti
 
 ## Demo Contribute
 
+demo-contribute-card-header = Voi esit gotovs dalikt sovu bolsu voi aizdūt sovu ausi?
 demo-listen-subtitle = Itys tok ir lobs breids paleidzēt, pareiz?
 
 ## Demo Dashboard
@@ -917,6 +919,7 @@ sc-submit-guidelines = Lyudzu, puorbaudit <howToLink>vadlinejis</howToLink>.
 
 ## ADD LANGUAGE
 
+sc-add-lang-sec-label = Dalicit volūdu, kurā gribit dorbuotīs
 
 ## ADD SENTENCES CONFIRMATION
 
