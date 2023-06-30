@@ -90,6 +90,7 @@ const Partner = () => (
             srcSet={`${require('./images/partners/collectivat-small.jpg')} 370w, ${require('./images/partners/collectivat.jpg')} 740w`}
             sizes="(max-width: 600px) 370px, 740px"
             alt="Collectivat"
+            className="collectivat-logo"
           />
           <img
             src={require('./images/partners/Mak-Logo 1.jpg')}
