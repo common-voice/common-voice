@@ -42,6 +42,7 @@
         padding: 2rem;
         width: 100%;
         max-width: 40rem;
+        min-height: 99vh;
         text-align: center;
         background: var(--white);
         pointer-events: all;
