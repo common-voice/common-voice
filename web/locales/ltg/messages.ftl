@@ -333,12 +333,17 @@ faq-is-goal-assistant-q = Voi Common Voice mierkis ir taiseit bolsa asistentu?
 faq-do-want-native-q = Itei nav muna dzymtuo volūda i es runoju ar akcentu, voi jums vys tik vajag muna bolsa īrokstus?
 faq-why-different-speakers-q = Deļkuo jums ir vajadzeigs tik daudz dažaidu vīnys volūdys runuotuoju?
 faq-why-my-lang-q = Deļkuo muna volūda vēļ nav dalykta?
+faq-what-quality-q = Kaida leimiņa audio kvalitate ir vajadzeiga, lai bolsa īrokstu varātu lītuot datu kūpā?
+faq-why-10k-hours-q = Deļkuo īrokstu puorbaudis mierkis ir 10000 stuņžu?
+faq-why-10k-hours-a = Tys ir aptuvans stuņžu skaits, kas vajadzeigs, lai kvalitativi apvuiceitu runys-teksta atpazeišonys sistemu.
 faq-how-calc-hours-q = Kai Common Voice apriekinoj stuņdis?
 faq-where-src-from-2-q = Nu kurīnis ir teksti īrokstim?
+faq-why-not-ask-read-q = Deļkuo jius naprosit, lai cylvāki skaiteitu gruomotysa voi Wikipedia rokstus dažaiduos volūduos?
 faq-is-account-public-q = Voi muna konta informaceja ir publiski daīmama?
 faq-how-privacy-q = Kai jius nūdrūsynuosit tū cylvāku anonimitati i privatumu, kuri pazīduoja sovus bolsus?
 faq-what-is-cv = Kas ir Common Voice?
 faq-using-cv = Common Voice lītuošona
+faq-description = Common Voice ir daļa nu Mozilla iniciativys, lai paleidzātu vuiceit mašynys, kai reali cylvāki runoj.
 faq-search-for-answers =
     .label = Vaicuot atbiļdis
 
