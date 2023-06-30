@@ -785,9 +785,16 @@ n-clips-pluralized =
 help-share-goal = Paleidzit mums atrast vaira bolsu, pasadolit ar sovu mierki
 confirm-goal = Apstyprynuot mierki
 goal-interval-weekly = Reizi nedeļā
+# $type is one of share-goal-type-*
+share-n-daily-contribution-goal = Pasadolit ar sovu { $count } īrokstu kasdīnys mierki { $type }
+# $type is one of share-goal-type-*
+share-n-weekly-contribution-goal = Pasadolit ar sovu { $count } īrokstu nedelis mierki { $type }
 share-goal-type-speak = Runuošona
 share-goal-type-listen = Klauseišonuos
 share-goal-type-both = Runuošona i klauseišonuos
+weekly-goal-created = Jiusu nedelis mierkis ir sataiseits
+daily-goal-created = Jiusu kasdīnys mierkis ir sataiseits
+track-progress = Sekojit progresam ite i statistikys lopā.
 return-to-edit-goal = Atsagrīzt ite, lai sevkurā laikā lobuotu mierki.
 share-goal = Pasadoli ar sovu mierki
 
