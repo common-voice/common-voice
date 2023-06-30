@@ -611,6 +611,8 @@ clips-with-count-pluralized =
         [one] { "" }
        *[other] { "" }
     }
+goal-help-recording = Jius esit paleidziejuši sasnēgt <goalPercentage> </goalPercentage> nu myusu mierka - { $goalValue } īrokstu dīnā!
+goal-help-validation = Jius esit paleidziejuši sasnēgt <goalPercentage> </goalPercentage> nu myusu mierka - { $goalValue } puorbaudeitū īrokstu dīnā!
 contribute-more =
     { $count ->
         [zero] Voi esit gotovi vēļ { $count }?
@@ -735,6 +737,7 @@ validated-clips = Puorbaudeitī īroksti
 total-approved = Kūpā apstyprynuotī
 overall-accuracy = Kūpejuo precizitate
 set-visibility = Nūstateit munu radzameibu
+visibility-overlay-note = Pīzeime: ka tys ir īstateits iz “Radzams”, itū īstatejumu var maineit <profileLink> profila lopā </profileLink>.
 show-ranking = Ruodeit munu reitingu
 
 ## Custom Goals
@@ -779,6 +782,7 @@ n-clips-pluralized =
         [one] { "" }
        *[other] { "" }
     }
+help-share-goal = Paleidzit mums atrast vaira bolsu, pasadolit ar sovu mierki
 confirm-goal = Apstyprynuot mierki
 goal-interval-weekly = Reizi nedeļā
 share-goal-type-speak = Runuošona
