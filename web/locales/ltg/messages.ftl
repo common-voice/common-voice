@@ -11,6 +11,7 @@ loading = Īluodej…
 email-opt-in-info = Es grybu sajimt e-postus, par pīmāru, mierka atguodynuojumus, progresa atjaunynuojumus i informativūs biletenus par itū projektu.
 email-opt-in-info-title = Pīsavīnuot Common Voice viestim e-postā
 email-opt-in-info-sub-with-challenge = Sajemit e-postus par saceņseibom voi pasuokumim, atguodynuojumus par mierkim, jaunumus i viests nu Common Voice.
+email-opt-in-privacy-v2 = Izalosūt sajimt e-posta ziņuojumus, jius esit mīrā, ka Mozilla apstruoduos tūs tai, kai tys ir nūruodeits Mozilla <privacyLink>privatuma politikā<privacyLink>.
 indicates-required = * Obligatī lauki
 not-available-abbreviation = N/P
 banner-error-slow-1 = Atlaidit, Common Voice dorbojās lānai. Paļdis par iņteresi.
@@ -134,6 +135,7 @@ logout = Beigt dorbu
 
 home-title = Common Voice ir Mozilla iniciativa, lai vuiceitu datorim saprast cylvāku volūdu.
 default-tagline = Common Voice ir Mozilla iniciativa, lai vuiceitu datorim saprast cylvāku volūdu.
+home-cta = Runojit, dūdit īguļdejumu ite!
 show-wall-of-text = Skaiteit vaira
 help-us-title = Paleidzit puorbaudeit teikumus!
 help-us-explain = Nūmīdzīt atskaņuošonys pūgu, klausotēs i puorbaudit, voi zamuok nūruodeitais teikums ir izrunuots precizai.
@@ -188,6 +190,7 @@ keep-track = Sekojit leidza sovam progresam i datim vairuokuos volūduos.
 
 whats-public = Kas ir publiski daīmams?
 email-not-public = Mes napubliskuosim jiusu e-postu.
+recordings-and-locale-public = Īrunuotū īrokstu skaits i volūdys byus publiski daīmamys.
 username-email-not-demographic = Jiusu lītuotuoja vuords i e-posts natiks pīsaisteits publicētajim datim.
 
 ## Speak & Listen Shortcuts
@@ -350,11 +353,13 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Deļkuo ir Common Voice?
+how-does-it-work-title-v2 = Kai dorbojās Common Voice?
 
 ## How does it work section
 
 about-language-req-subtitle = Kaids lyudz dalikt volūdu.
 about-localization-title = Teiklavītys lokalizaceja
+about-localization-subtitle = Teiklavītys teksts teik tulkuots itamā volūdā.
 about-sentence-collection-title = Teikumu kolekceja
 about-sentence-collection-subtitle = Teikumi teik salaseiti, lai cylvāki tūs varātu īrunuot.
 about-new-lang-title = Jaunys volūdys palaisšona
@@ -364,14 +369,20 @@ about-voice-contrib-subtitle = Cylvāki atīt i īrunoj teikumus.
 about-voice-validation-title = Īrokstu puorbaudeišona
 about-voice-validation-subtitle = Cyti cylvāki puorbauda, voi teikumi ir īrunuoti precizi i pareizi.
 about-dataset-release-title = Datu kūpys izlaisšona
+about-dataset-release-subtitle = Mes izlaižam datu kūpu reizi catūrksnī.
+about-subscribe-text = Voi gribi sasazynuot ar Common Voice?
 about-speak = Runojit
 about-speak-text = Dalinīki īroksta eisus teikumus, skaitūt nu apkūpuotū teikumu datu bazis.
+about-listen-queue = Klauseišonuos rynda
+about-listen-queue-text = Bolsa īroksti teik īlykti apstruodis ryndā, kas tūs gatavej iz klauseišonūs.
 about-listen = Klausotēs
 about-listen-text = Lītuotuoji apstyprynoj īsnāgtū īrokstu precizitati, puorbaudūt, voi runuotuojs ir pareizi nūskaitejs teikumu.
 about-is-it-valid = Voi īroksts ir dereigs?
 about-is-it-valid-text = Bolsa īroksts ir atzeimāts kai "dereigs", ka lītuotuojs tū apstyprynuojs ar "nui".
 about-yes-votes = ≥ 2 bolsi "nui"
+about-yes-votes-text = Lai tū īlyktu Common Voice datu kūpā, īrokstu juoapstyprynoj divejim atseviškim lītuotuojim.
 about-no-votes = ≥ 2 bolsi „nā“
+about-no-votes-text = Ka lītuotuojs nūraida bolsa īrokstu, tys atsagrīž ryndā. Ka tū nūraida ūtru reizi, tys teik puorcalts iz  īrokstu kopsātu.
 about-dataset-new = Bolsa datu kūpa
 about-clip-graveyard = Īrokstu kopsāta
 about-get-involved = Īsasaistit
@@ -812,6 +823,7 @@ demo-account-sign-up = Nūsyutit registracejis saiti
 
 ## Demo Contribute
 
+demo-contribute-card-header = Voi esit gotovs dalikt sovu bolsu voi aizdūt sovu ausi?
 demo-listen-subtitle = Itys tok ir lobs breids paleidzēt, pareiz?
 
 ## Demo Dashboard
@@ -907,6 +919,7 @@ sc-submit-guidelines = Lyudzu, puorbaudit <howToLink>vadlinejis</howToLink>.
 
 ## ADD LANGUAGE
 
+sc-add-lang-sec-label = Dalicit volūdu, kurā gribit dorbuotīs
 
 ## ADD SENTENCES CONFIRMATION
 
