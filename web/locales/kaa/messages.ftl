@@ -509,12 +509,15 @@ about-playbook-how-add-sentences = Gáplerdi qalay qossam boladı?
 
 ## How to grow language
 
+about-playbook-how-grow-language = Bizler Common Voiceta tildi qalay nátiyjeli rawajlandırıwımız múmkin?
+about-playbook-how-grow-language-content-6 = Sheriklikler hám tarmaqlar
 
 ## How to validate
 
 
 ## How to access dataset
 
+about-playbook-how-access-dataset = Maǵlıwmatlar toplamına qalay kiremen hám qalay paydalanaman?
 
 ## How are decisions made
 
@@ -534,6 +537,7 @@ data-download-button = Common Voice maǵlıwmatların júklep alıw
 data-download-yes = Awa
 data-download-deny = Yaq
 data-download-license = Licenziya: <licenseLink>CC-0</licenseLink>
+data-other-title = Basqa dawıslı maģlıwmatlar toplamı...
 data-other-download = Maǵlıwmatlardı júklep alıw
 release-version = Versiya
 dataset-date = Sáne
@@ -545,6 +549,8 @@ review-submit-title = Tekseriw hám jiberiw
 review-recording = Tekseriw
 review-rerecord = Qayta jazıw
 review-cancel = Jiberiwdi biykarlaw
+review-keep-recordings = Dawıslı jazıwlarımdı saqlaw
+review-delete-recordings = Dawıslı jazıwlarımdı óshiriw
 
 ## Datasets Page
 
@@ -573,9 +579,12 @@ more = Kóbirek
 close = Jabıw
 download = Júklep alıw
 dataset-version = Versiya
+sha256-checksum-copied = SHA256 qadaǵalaw summası kóshirip alındı!
+sha256-checksum-copied-error = SHA256 qadaǵalaw summasın kóshirip alıw ámelge aspadı
 
 ## Download Modal
 
+download-title = Júklep alıw baslandı.
 download-form-email =
     .label = Elektron pochtańizdi kirgiziń
     .value = Raxmet, biz benen baylanısamız.
@@ -584,6 +593,7 @@ download-no = Yaq, raxmet
 
 ## Contact Modal
 
+contact-title = Baylanıs forması
 contact-form-name =
     .label = Atı
 contact-form-message =
