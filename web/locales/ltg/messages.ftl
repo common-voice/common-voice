@@ -392,6 +392,8 @@ about-clip-graveyard = Īrokstu kopsāta
 about-get-involved = Īsasaistit
 about-stay-in-touch = Kai es varu sasazynuot?
 about-stay-in-touch-button = Pīsaraksteit
+about-stay-in-touch-text-1 = <emailFragment>Pīsaregistrejit</emailFragment> myusu e-posta jaunumim, lai izzynuotu, kai varit pīsadaleit kampaņuos, pasuokumūs i Common Voice kūpprojekta aktivitatēs.
+about-stay-in-touch-text-2 = Jius varit satikt cytus Mozilla volūdu kūpīnys dalinīkus, pīsavīnojūt <discourseLink>Discourse</discourseLink> aktualajom sarunom voi <matrixLink>Matrix</matrixLink>, lai sajimtu dreizus padūmus.
 about-nav-why-common-voice = Deļkuo?
 about-nav-how-it-works = Kai?
 about-nav-partners = Partneri
@@ -417,6 +419,7 @@ about-playbook-how-add-language-collecting-sentences-heading = Teikumu apkūpuo�
 
 ## How to add sentences
 
+about-playbook-how-add-sentences = Kai dalikt teikumus?
 
 ## How to record quality
 
@@ -535,6 +538,8 @@ sha256-checksum-copied-error = Naizadeve nūkopēt SHA256 kontrolsummu
 
 ## Download Modal
 
+download-title = Jiusu zamynluode ir suokusēs.
+download-helpus = Paleidzit mums radeit bolsa tehnologeju kūpīnu, sasazynuot ar e-postu.
 download-form-email =
     .label = Īvodi sovu e-postu
     .value = Paļdis, mes sasazynuosim.
@@ -556,6 +561,7 @@ request-language-title = Volūdys pīprasejums
 request-language-form-language =
     .label = Volūda
 request-language-success-title = Volūdys pīprasejums veiksmeigi īsnāgts, paļdis.
+request-language-success-content = Mes nūsyuteisim vaira informacejis par tū, kai cīši dreiži dalikt jiusu volūdu Common Voice.
 select-language = Izalosit volūdu...
 other-language = Cyta volūda
 
@@ -568,6 +574,10 @@ request-language-form-info =
     .label = Informaceja par volūdu
 request-language-form-info-explanation-list-1 = Jiusu volūdys nūsaukumi
 request-language-form-info-explanation-list-2 = <isoCodeLink>ISO kodi</isoCodeLink>, ka tī ir zynomi
+request-language-google-recaptcha-required = Ka gribit turpynuot, ir vajadzeiga reCAPTCHA
+request-language-google-recaptcha-error = Ar reCAPTCHA roduos problema. Lyudzu, raugit vēļreiz.
+# Success page
+request-language-success-heading = Paļdis! Jius esit nūsyutejs jaunys volūdys pīprasejumu.
 
 ## Languages Overview
 
