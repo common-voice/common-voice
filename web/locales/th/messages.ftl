@@ -842,6 +842,7 @@ action-click = คลิก
 action-tap = แตะ
 contribute = สนับสนุน
 listen = ฟัง
+write = เขียน
 review = ตรวจทาน
 skip = ข้าม
 shortcuts = ทางลัด
