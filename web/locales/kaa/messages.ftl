@@ -676,6 +676,7 @@ continue = Dawam etiw
 
 ## Goals
 
+streaks = Turaqlı
 days =
     { $count ->
         [one] Kún
@@ -706,6 +707,7 @@ pro-difficulty = Pro
 set-a-goal = Maqset qoyıw
 confirm-goal = Maqsetti tastıyıqlaw
 goal-interval-weekly = Háptelik
+weekly-goal-created = Siziń háptelik maqsetińiz jaratıldı
 
 ## Profile Delete
 
