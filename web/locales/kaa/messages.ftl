@@ -657,6 +657,8 @@ record-abort-title = Dáslep dawıs jazıw tamamlansın ba?
 record-abort-submit = Kliplerdi jiberiw
 record-abort-delete = Shıǵıw hám kliplerdi óshiriw
 share-title-new = Bizge kóbirek dawıs jıynawǵa <bold>járdem beriń</bold>
+login-to-get-started = Baslaw ushın dizimnen ótiń yamasa kiriń
+target-segment-add-voice = Dawısıńızdı qosıń
 target-segment-learn-more = Kóbirek úyreniw
 
 ## Contribution Nav Items
