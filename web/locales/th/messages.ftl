@@ -908,6 +908,7 @@ target-segment-learn-more = เรียนรู้เพิ่มเติม
 
 ## Contribution Nav Items
 
+contribute-voice-collection-nav-header = การรวบรวมเสียง
 contribute-sentence-collection-nav-header = การรวบรวมประโยค
 
 ## Reporting
