@@ -587,21 +587,41 @@ about-playbook-how-add-language-content-1 =
     Fɔlɔ, i k’a lajɛ n’i ka kan <languageLink> bɛ yen kaban</languageLink>.
     N’o tɛ, i bɛ se ka <languageRequestLink>ɲininka i ka kan farali kan</languageRequestLink>.
     Taabolo fla bɛ yen. Site in bamanankan na, ani kumasenw dalajɛli
+about-playbook-how-add-language-translating-heading = Siti bayɛlɛmani
+about-playbook-how-add-language-translating-content-1 = <translateVideoLink>An ka gafe lajɛ min bɛ Pontoon baaracogo kan.</translateVideoLink>
 about-playbook-how-add-language-translating-content-2 =
     An bɛ baara Kɛ ni Mozilla baarakɛminɛn dɔ ye min bɛ Weele ko <pontoonLink>Pontoon</pontoonLink> bamanankan-falen-falen kama. Pontoon bɛ kan caman fɔ,
     nka n'i ta t'a la i bɛ se ka <pontoonRequestLink>ɲini i ka kan ka fara a kan</pontoonRequestLink>.
     O kɔfɛ, walasa kan in ka se ka sɔrɔ Common Voice porozɛ kan,
     <githubRepoLink>kan kura ɲini GitHub</githubRepoLink> kan. <localizationFragment>Aw ye kunnafoni wɛrɛw lajɛ site bamanankan</localizationFragment> kan.
+about-playbook-how-add-language-collecting-sentences-heading = Kumasenw dalajɛli
+about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>An ka gafe lajɛ min bɛ kumasenw lajɛlan</sentenceCollectorVideo> baaracogo kan.
+about-playbook-how-add-language-collecting-sentences-content-2 =
+    Aw bɛ se ka <sentenceCollectorLinkAdd>kumasen fitininw fara a kan</sentenceCollectorLinkAdd>,
+    walima i bɛ se ka <bulkImportDocsLink>donni caman kɛ ni Github</bulkImportDocsLink> ye.
+    Aw k’aw hakili to a la ko kumasenw ka kan ka kɛ <licenseLink>CC0 (walima foroba yɔrɔ)</licenseLink> ye, walima aw bɛ se k’aw yɛrɛ ta sɛbɛn.
+about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>Aw ye kunnafoni wɛrɛw lajɛ kumasenw lajɛcogo kan</sentenceCollectorFragment>.
 
 ## How does localization work
 
+about-playbook-how-localize = Sitiw sigiyɔrɔmako bɛ baara kɛ cogo di?
+about-playbook-how-localize-content-1 = Common Voice yɔrɔ bamanankan na, o bɛ Kɛ <strong>Pontoon</strong> kan.
+about-playbook-how-localize-content-2 = <pontoonAccountLink>Jatebɔsɛbɛn dɔ dabɔ</pontoonAccountLink> n’i t’a fɛ. O kɔfɛ, i ka kan sugandi <strong>(‘Ekipu’)</strong> ka sɔrɔ ka porozɛ sugandi, <pontoonCvLink>Kunnakan jɛlen</pontoonCvLink>. Dosiyɛriw bɛna kɛ yen minnu bɛna baara kɛ. I digi kelen kan, o kɔ, a bɛ daɲɛw jira tubabukan na ani kɛsu dɔ min bɛ se k’u bayɛlɛma.
 about-playbook-how-localize-content-3 = Bayɛlɛmali bɛ kɛ ka bɔ Angilɛkan  na, nka i bɛ se ka <strong>Ladilikan</strong> ye kan wɛrɛw la. <strong>Profile</strong> taamasiyɛn digi, o kɔ <strong>Settings</strong> yɔrɔ digi ani i bɛ kan minnu fɔ, i bɛ olu fara a kan. Jiginni kininbolo fɛ, bamanankan baarakɛcogo dɔw bɛna sɔrɔ minnu bɛ wele ko <strong>Yɔrɔw</strong>. Bamanankan bayɛlɛmaniw bɛ jira site web kan tile kelen kɔfɛ.
+about-playbook-how-localize-content-4 = Siti in labɛnnen don ka daminɛ n’a sera 75% dafalen ma.
+about-playbook-how-localize-content-5 = An ka videwo ɲɛfɔlikɛlan lajɛ walisa ka dɛmɛ don
 
 ## How to add sentences
 
+about-playbook-how-add-sentences = N bɛ kumasenw fara ɲɔgɔn kan cogo di?
+about-playbook-how-add-sentences-content-1 = <strong>Sentence Collector</strong> ye baarakɛminɛn ye min bɛ kɛ ka foroba kumasenw lajɛ ani k' u sinsin. I bɛna <scAccountLink>a ka kan ka jatebɔsɛbɛn dɔ da</scAccountLink>. O kɔ fɛ, i ka kan fara i ka <strong>Profile</strong> kan.I bɛ se ka <strong>Fara</strong> kumasenw walima <strong>Segi</strong> kumasen minnu farala ɲɔgɔn kan ka kɔrɔ.
+about-playbook-how-add-sentences-content-2 = Kumasenw ka kan ka lajɛ ani ka sɔn u ma mɔgɔ fila fɛ walasa u ka don Common Voice kɔnɔ. I bɛ laadilikanw da i ka kan kan <languageGuidelinesLink>yan</languageGuidelinesLink>. Kumasenw ka kan ka kɛ <licenseLink>foroba yɔrɔ la</licenseLink> ani ka surunya daɲɛ 15 la. Aw bɛ se k’a ɲini sɛbɛn dɔ tigi fɛ a k’a kɛ <waiverLink>CC0 ye ni an ka yafa kɛcogo</waiverLink> ye, ka ci an ma commonvoice@mozilla.com kan
+about-playbook-how-add-sentences-content-3 = Aw bɛ se ka baara kɛ ni <scraperLink>Sentence extractor</scraperLink> ye walasa ka kumasen surunw nafa ka bɔ Wikipeja la.
+about-playbook-how-add-sentences-content-4 = Kumasen minnu Sɔ̀rɔla, olu bɛ Bɔ jamana wɛrɛw la karidonw na, wa u bɛ Sɔrɔ bɔli nata kɔfɛ.
 
 ## How to record quality
 
+about-playbook-how-record-quality = Ne bɛ se ka kumakan-klip min ka ɲi kosɛbɛ, o ta cogo di?
 
 ## How to grow language
 
