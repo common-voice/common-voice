@@ -692,7 +692,9 @@ everyone = Barlıq paydalanıwshılar
 
 ## Custom Goals
 
+get-started-goals = Maqsetler menen baslań
 create-custom-goal = Jeke maqset jaratıw
+goal-type = Qanday maqset qoyıwdı qáleysiz?
 both-speak-and-listen = Ekewi de
 both-speak-and-listen-long = Ekewi de (sóylew hám tıńlaw)
 daily-goal = Kúndelikli maqset
@@ -703,6 +705,7 @@ difficult-difficulty = Qıyın
 pro-difficulty = Pro
 set-a-goal = Maqset qoyıw
 confirm-goal = Maqsetti tastıyıqlaw
+goal-interval-weekly = Háptelik
 
 ## Profile Delete
 
