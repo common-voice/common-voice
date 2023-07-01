@@ -546,15 +546,47 @@ about-is-it-valid = Yala o klip in bɛ se ka kɛ wa?
 about-is-it-valid-text = Kumakan-klip dɔ bɛ taamaʃyɛn Kɛ "valid" ni baarakɛla dɔ ye Ɔwɔ wote Di a ma.
 about-yes-votes = ≥ 2 Ɔwɔ wotew
 about-yes-votes-text = Walasa k’a Kɛ Common Voice dataset ye, kumakan-klip dɔ ka kan ka Sɔ̀rɔ baarakɛla fla fɛ minnu tɛ kelen ye.
+about-no-votes = ≥ 2 Ayi wote
 about-no-votes-text = Ni baarakɛla dɔ banna kumakan-klip dɔ la a bɛ segin Layidu la. Ni a banna siɲɛ filanan na, kumakan-klip bɛ taa Clip kaburudo la.
+about-dataset-new = Kumakan Daɲɛgafe min bɛ wele ko Common Voice Dataset
+about-dataset-new-text = Common Voice Dataset kɔnɔ, kumakan misali ba kɛmɛ caman bɛ yen minnu bɛ baarakɛlaw dɛmɛ ka kumakan dɔnni baarakɛminɛnw dilan.
+about-clip-graveyard = Clip Kaburudo
+about-clip-graveyard-text =
+    Clip Graveyard (Klip kaburudo) bɛ Kɛ ni kan-klipw ye minnu ma Se ka Kɛ Common Voice dataset kɔnɔ. I n’a fɔ kunnafonidilan in cogo kelen na, Clip Graveyard bɛ se ka telesarse.
+    
+    An b’a fɛ ka foli lase nin mɔgɔw ni jɛkulu ninnu ma, u ka dɛmɛ kosɔn porozɛ in na:
+about-get-involved = Aw ye aw sen don a la
+about-get-involved-text-2 =
+    Aw b’a fɛ ka dɛmɛ don walasa Common Voice ka fisa yɛrɛ wa?
+    Belebele! Aw ye ɲɔgɔn sɔrɔ imɛri la walima <discourseLink>Discourse</discourseLink> fɛ
+    forobajɛkuluw, ka siti koɲɛw ci <githubLink>GitHub</githubLink> fɛ, walima ka fara
+    <matrixLink>Matrix</matrixLink> sigida baro .
+about-stay-in-touch = Ne bɛ se ka to ɲɔgɔn fɛ cogo di?
+about-stay-in-touch-button = I tɔgɔ sɛbɛn
+about-stay-in-touch-text-1 = <emailFragment>I tɔgɔ sɛbɛn</emailFragment> an ka bataki cilenw lisi kan walasa k’a dɔn i bɛ se ka i sen don kanpaɲiw, ko kɛtaw ani jɛ-ka-baara kɛcogo la cogo min na Common Voice kan.
+about-stay-in-touch-text-2 = I bɛ se ka mɔgɔ wɛrɛw kunbɛn Mozilla kan jɛkuluw kɔnɔ n’i farala <discourseLink>Discourse</discourseLink> kan walasa ka baro kɛ barokunw kan, walima <matrixLink>Matrix</matrixLink> walasa ka laadilikan teliya sɔrɔ.
+about-nav-why-common-voice = Munna ?
+about-nav-how-it-works = Cogo di ?
+about-nav-partners = Baarakɛɲɔgɔnw
+about-nav-get-involved = Aw ye aw sen don a la
+about-nav-how-it-works-2 = Common Voice bɛ baara kɛ cogo di?
+about-nav-playbook = A ɲini k’i sen don a la cogo min na
 
 ## Community Playbook Content
 ## What is a language
 
+about-playbook-what-is-language = What is a language on Common Voice?
+about-playbook-what-is-language-content-1 = Fɛɛrɛ caman bɛ yen ka miiri kanko la. Kuma dɔnni misaliw kama, Common Voice b’a jira ko u ka sinsin ‘ɲɔgɔn faamuyali kan’, walima ‘yala kan in fɔbagaw bɛ se ka ɲɔgɔn faamuya kosɛbɛ n’u y’a ɲini wa?’
+about-playbook-what-is-language-content-2 = An b’a fɛ kumacogo misaliw ka fisa ni kumalasela suguya caman faamuyali ye. Walasa o ka se ka kɛ, kumakan kunnafonidilan ka kan ka mɔgɔ suguya caman jira.
 about-playbook-what-is-language-content-3 = Kan dɔw ka daɲɛgafe, daɲɛw ani fɔcogo bɛ ɲɔgɔn Bɔ kosɛbɛ. O de kama, an bɛ <ctaLink>ka ‘Variants’</ctaLink> bila senkan san 2022. O bɛ fɛɛrɛ di sigidamɔgɔw ma u ka kanw danfara la kunnafonidilanba kɔnɔ.
 
 ## How do I add a language
 
+about-playbook-how-add-language = Ne bɛ se ka kan dɔ fara a kan cogo di?
+about-playbook-how-add-language-content-1 =
+    Fɔlɔ, i k’a lajɛ n’i ka kan <languageLink> bɛ yen kaban</languageLink>.
+    N’o tɛ, i bɛ se ka <languageRequestLink>ɲininka i ka kan farali kan</languageRequestLink>.
+    Taabolo fla bɛ yen. Site in bamanankan na, ani kumasenw dalajɛli
 about-playbook-how-add-language-translating-content-2 =
     An bɛ baara Kɛ ni Mozilla baarakɛminɛn dɔ ye min bɛ Weele ko <pontoonLink>Pontoon</pontoonLink> bamanankan-falen-falen kama. Pontoon bɛ kan caman fɔ,
     nka n'i ta t'a la i bɛ se ka <pontoonRequestLink>ɲini i ka kan ka fara a kan</pontoonRequestLink>.
