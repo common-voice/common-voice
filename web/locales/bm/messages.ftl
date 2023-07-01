@@ -540,6 +540,12 @@ about-speak = Kuma
 about-speak-text = Dɛmɛbagaw bɛ kumakan-klipw ta u kɛtɔ ka kalan kɛ ka bɔ kumasenw banki dɔ la minnu dira u ma.
 about-listen-queue = Lamɛnni-Layidu
 about-listen-queue-text = Kumakan-klipw bɛ don cikanw bilayɔrɔ la min b’u labɛn lamɛnni kama.
+about-listen = Ka lamɛn
+about-listen-text = Baarakɛlaw bɛ klipu minnu dira, olu bɛ tiɲɛ tiɲɛ, k’a lajɛ ni kumalasela ye kumasen kalan ka ɲɛ.
+about-is-it-valid = Yala o klip in bɛ se ka kɛ wa?
+about-is-it-valid-text = Kumakan-klip dɔ bɛ taamaʃyɛn Kɛ "valid" ni baarakɛla dɔ ye Ɔwɔ wote Di a ma.
+about-yes-votes = ≥ 2 Ɔwɔ wotew
+about-yes-votes-text = Walasa k’a Kɛ Common Voice dataset ye, kumakan-klip dɔ ka kan ka Sɔ̀rɔ baarakɛla fla fɛ minnu tɛ kelen ye.
 about-no-votes-text = Ni baarakɛla dɔ banna kumakan-klip dɔ la a bɛ segin Layidu la. Ni a banna siɲɛ filanan na, kumakan-klip bɛ taa Clip kaburudo la.
 
 ## Community Playbook Content
