@@ -657,6 +657,7 @@ share-clip = Dawıslı jazbańız benen bólisiń
 clips-uploaded = Dawıslı jazbalar júklendi
 record-abort-title = Dáslep dawıs jazıw tamamlansın ba?
 record-abort-submit = Kliplerdi jiberiw
+record-abort-continue = Dawıs jazıwdı tamamlaw
 record-abort-delete = Shıǵıw hám kliplerdi óshiriw
 share-title-new = Bizge kóbirek dawıs jıynawǵa <bold>járdem beriń</bold>
 login-to-get-started = Baslaw ushın dizimnen ótiń yamasa kiriń
