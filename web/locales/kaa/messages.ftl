@@ -654,6 +654,7 @@ contribute-more =
 record-platform-not-supported = Átteń, házirgi waqıtta siziń platformańız qollap-quwatlanbaydı.
 record-must-allow-microphone = Mikrofonǵa ruqsat beriwińiz kerek.
 record-no-mic-found = Mikrofon tabılmadı.
+record-cancel = Qayta dawıs jazıwdı biykarlaw
 record-three-more-instruction = Úshewi qaldı!
 share-clip = Dawıslı jazbańız benen bólisiń
 clips-uploaded = Dawıslı jazbalar júklendi
@@ -661,6 +662,8 @@ record-abort-title = Dáslep dawıs jazıw tamamlansın ba?
 record-abort-submit = Kliplerdi jiberiw
 record-abort-continue = Dawıs jazıwdı tamamlaw
 record-abort-delete = Shıǵıw hám kliplerdi óshiriw
+speak-empty-state-cta = Gáplerdi usınıw
+record-button-label = Dawısıńızdı jazıń
 share-title-new = Bizge kóbirek dawıs jıynawǵa <bold>járdem beriń</bold>
 login-to-get-started = Baslaw ushın dizimnen ótiń yamasa kiriń
 target-segment-add-voice = Dawısıńızdı qosıń
@@ -673,7 +676,12 @@ contribute-sentence-collection-nav-header = Gápler toplamı
 
 ## Reporting
 
+report-grammar-or-spelling-detail = Gápte grammatikalıq yamasa imla qáte bar.
 report-different-language = Basqa til
+report-difficult-pronounce = Aytıw ushın qıyın
+report-difficult-pronounce-detail = Bul oqıw hám aytıw qıyın bolǵan sózler hám sóz dizbeklerinen quralǵan.
+report-other-comment =
+    .placeholder = Pikir
 success = Tayar
 continue = Dawam etiw
 
@@ -707,10 +715,12 @@ easy-difficulty = Ańsat
 average-difficulty = Ortasha
 difficult-difficulty = Qıyın
 pro-difficulty = Pro
+finish-editing = Dáslep ózgertiwdi tamamlawdı qáleysiz be?
 set-a-goal = Maqset qoyıw
 confirm-goal = Maqsetti tastıyıqlaw
 goal-interval-weekly = Háptelik
 weekly-goal-created = Siziń háptelik maqsetińiz jaratıldı
+daily-goal-created = Siziń kúndelik maqsetińiz jaratıldı
 
 ## Profile Delete
 
