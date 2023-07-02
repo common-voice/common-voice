@@ -732,6 +732,8 @@ profile-form-delete = Profildi óshiriw
 
 download-q = Maǵlıwmatlarıńızdı júklep alıwdı qáleysiz be?
 download-profile-title = Profil
+download-profile-size = Birneshe bayt
+download-recordings-size = Ádette megabayt
 download-selected = Tańlandı
 download-start = Profil maǵlıwmatların júklep alıw
 download-request-button = Júklep alıw
