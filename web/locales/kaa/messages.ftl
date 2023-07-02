@@ -766,6 +766,9 @@ contribution-criteria-link = Qaǵıydalar menen tanısıw
 contribution-criteria-page-title = Qollap-quwatlaw talapları
 contribution-for-example = Mısalı
 contribution-misreadings-title = Nadurıs oqıw
+contribution-misreadings-description-extended-list-2 = Sózdiń aqırında <strong>"lar/ler"</strong> túsip qalǵan.
+contribution-misreadings-description-extended-list-5 = Sózdi oqıw ushın birneshe urınıw
+contribution-misreadings-example-2-explanation = [‘dinozavrlar’ bolıwı kerek]
 contribution-background-noise-title = Sırtqı shawqım
 
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
