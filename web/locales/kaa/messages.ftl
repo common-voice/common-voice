@@ -762,8 +762,10 @@ demo-listen-subtitle = Óz úlesińizdi qosıwǵa tayarsız ba?
 ## Validation criteria
 
 contribution-criteria-nav = Talaplar
-contribution-criteria-link = Qollap-quwatlaw talapların biliw
+contribution-criteria-link = Qaǵıydalar menen tanısıw
+contribution-criteria-page-title = Qollap-quwatlaw talapları
 contribution-for-example = Mısalı
+contribution-misreadings-title = Nadurıs oqıw
 contribution-background-noise-title = Sırtqı shawqım
 
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
