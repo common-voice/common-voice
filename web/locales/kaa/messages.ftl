@@ -733,6 +733,8 @@ read-more-about = Biz tuwralı betinde tolıǵıraq oqıń
 
 ## DemoLayout
 
+demo-get-started = Qáne, basladıq
+demo-welcome = Common Voiceqa xosh keldińiz
 
 ## Demo Datasets
 
