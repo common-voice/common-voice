@@ -770,6 +770,9 @@ contribution-misreadings-description-extended-list-2 = Sózdiń aqırında <stro
 contribution-misreadings-description-extended-list-5 = Sózdi oqıw ushın birneshe urınıw
 contribution-misreadings-example-2-explanation = [‘dinozavrlar’ bolıwı kerek]
 contribution-background-noise-title = Sırtqı shawqım
+contribution-just-unsure-title = Isenimińiz kámil emes pe?
+see-more = <chevron></chevron>Kóbirek kóriw
+see-less = <chevron></chevron>Azıraq kóriw
 
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
@@ -779,11 +782,15 @@ contribution-background-noise-title = Sırtqı shawqım
 ## HEADER/FOOTER
 
 sc-header-home = Bas bet
+sc-header-how-to = Qollanba
 sc-header-add = Qosıw
 sc-header-review = Tekseriw
+sc-header-rejected = Biykarlanǵan gápler
 sc-header-my = Meniń gáplerim
 sc-header-statistics = Statistika
 sc-header-profile = Profil
+sc-footer-discourse = Discourse
+sc-footer-report-copyright = Avtorlıq huqıqın buzıw haqqında xabar beriw
 sc-footer-privacy = Qupıyalıq
 sc-footer-terms = Shártler
 sc-login-signup-button = Kiriw / Dizimnen ótiw
