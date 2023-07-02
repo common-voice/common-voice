@@ -847,11 +847,28 @@ sc-add-err-submission = Jiberiw qáteligi
 
 ## ADD SENTENCES CONFIRMATION
 
+sc-confirm-sentences-title = Jańa gáplerdi tastıyıqlaw
+# Variables:
+#   $countOfSentences (Number) - Number of sentences the user has filled in the submission form
+sc-confirm-sentences-found =
+    { $countOfSentences ->
+        [0] Heshqanday gáp tabılmadı.
+        [one] 1 gáp tawıldı.
+       *[other] { $countOfSentences } gáp tawıldı.
+    }
 sc-confirm-button-text = Tastıyıqlaw
 
 ## LANGUAGE INFO
 
 sc-lang-info-title-total = Jámi
+# Variables:
+#   $rejectedSentences (Number) - Number of sentences which have been rejected for this language
+sc-lang-info-rejected =
+    { $rejectedSentences ->
+        [0] Biykarlanǵan gáp joq.
+        [one] 1 biykarlanǵan gáp.
+       *[other] { $rejectedSentences } biykarlanǵan gáp.
+    }
 
 ## LOGIN
 
