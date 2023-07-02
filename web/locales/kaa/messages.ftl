@@ -729,6 +729,7 @@ download-request-metadata-link = Gáp teksti
 
 ## Landing
 
+read-more-about = Biz tuwralı betinde tolıǵıraq oqıń
 
 ## DemoLayout
 
