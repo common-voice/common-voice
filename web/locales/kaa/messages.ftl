@@ -574,6 +574,8 @@ recorded-hours = Jazılǵan saat
 whats-inside = CommonVoice maǵlıwmatlar toplamı ishinde ne jayǵasqan?
 subscribe = Jazılıw
 other-datasets = Basqa dawıslı maǵlıwmatlar toplamları
+community-playbook = Birlespe ushın sabaqlıq
+data-other-ted-name = TED-LIUM toplamı
 go-discourse = Discourseǵa ótiw
 go-languages-page = Tiller betine ótiw
 ready-to-validate = Gáplerdi tekseriwge járdem beriwge tayarsız ba?
@@ -807,6 +809,9 @@ sc-home-review-title = Gáplerdi tekseriw
 ## HOW-TO
 
 sc-howto-review-title = Gáplerdi tekseriw
+sc-howto-review-criteria-2 = Gáp grammatikalıq jaqtan durıs bolıwı kerek.
+sc-howto-review-criteria-4 = Eger gáp talaplarǵa juwap berse, "Qabıllaw" túymesin basıń.
+sc-howto-review-criteria-6 = Eger tekseriw ushın gápler qalmasa, ótinish, bizge kóbirek gáp jıynawǵa járdemlesiń!
 
 ## MY SENTENCES
 
@@ -861,6 +866,7 @@ sc-confirm-button-text = Tastıyıqlaw
 ## LANGUAGE INFO
 
 sc-lang-info-title-total = Jámi
+sc-lang-info-add-more = <addLink>Kóbirek jańa gáplerdi qosıń!<addLink>
 # Variables:
 #   $rejectedSentences (Number) - Number of sentences which have been rejected for this language
 sc-lang-info-rejected =
