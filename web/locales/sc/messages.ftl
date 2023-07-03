@@ -392,6 +392,7 @@ why-demographic-explanation-2 = Is datos anonimizados comente s'edade, su gèner
 accept-privacy = Atzeto chi impreades custas informatziones de acordu cun s'<privacyLink>avisu de riservadesa</privacyLink> de Mozilla
 accept-privacy-title = Avisu de riservadesa
 login-identity = Identidade de intrada
+login = Identìfica·ti
 login-signup = Intra/Registra·ti
 edit = Modìfica
 email-subscriptions = Sutiscritziones tràmite posta eletrònica
@@ -547,6 +548,7 @@ about-playbook-what-is-language = Ite est una limba in Common Voice?
 about-playbook-how-add-language = Comente fatzo a agiùnghere una limba?
 about-playbook-how-add-language-translating-heading = Tradutzione de su situ
 about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Càstia sa ghia nostra in pitzus de s'impreu de Pontoon.</translateVideoLink>
+about-playbook-how-add-language-collecting-sentences-heading = Regorta de fràsias
 
 ## How does localization work
 
@@ -646,6 +648,7 @@ datasets-positioning =
     
     Càstia·ti custa pàgina comente riferimentu pro àteros pachetes de datos vocales lìberos e, a manu a manu chi Common Voice sighit a crèschere, comente una pàgina pro is atualizatziones de is versiones nostras.
 language = Limba
+download-dataset-header = Iscàrriga su pachete de datos
 # File size in gigabytes
 size = Mannària
 validated-hr-total = Totale de oras aprovadas
@@ -750,6 +753,7 @@ language-search-input =
 language-speakers = Faeddadores
 localized = Localizadu
 sentences = Frases
+language-validation-hours = Oras
 
 ## Contribution
 
@@ -757,6 +761,8 @@ action-click = Clica
 action-tap = Toca
 contribute = Contribui
 listen = Ascurta
+write = Iscrie
+review = Revisiona
 skip = Brinca
 shortcuts = Incurtzaduras
 clips-with-count-pluralized =
@@ -814,6 +820,11 @@ target-segment-generic-card = Ses cuntribuende a unu segmentu obietivu
 target-segment-first-banner = Agiuda a creare su primu segmentu obietivu de Common Voice in { $locale }
 target-segment-add-voice = Agiunghe sa boghe tua
 target-segment-learn-more = Àteras informatziones
+
+## Contribution Nav Items
+
+contribute-voice-collection-nav-header = Regorta de boghes
+contribute-sentence-collection-nav-header = Regorta de fràsias
 
 ## Reporting
 
@@ -1105,9 +1116,28 @@ see-less = <chevron></chevron>Càstia prus pagu
 
 ## HEADER/FOOTER
 
+sc-header-home = Pàgina printzipale
+sc-header-how-to = Ghia
+sc-header-add = Agiunghe
+sc-header-review = Revisiona
+sc-header-rejected = Fràsias refudadas
+sc-header-my = Is fràsias mias
+sc-header-statistics = Istatìsticas
+sc-header-profile = Profilu
+sc-footer-discourse = Discursu
+sc-footer-report-bugs = Sinnala faddinas
+sc-footer-translate = Tradue custa pàgina
+sc-footer-report-copyright = Sinnala problemas de deretos de autore
+sc-footer-privacy = Riservadesa
+sc-footer-terms = Cunditziones
+sc-footer-cookies = Testimòngios
+sc-login-signup-button = Identìfica·ti/Registra·ti
+sc-logout-button = Serra sa sessione
 
 ## HOME
 
+sc-home-collect-text = Agiuda·nos iscriende o regollende fràsias in domìniu pùblicu.
+sc-home-review-title = Revisiona is fràsias
 
 ## GENERAL
 
@@ -1164,3 +1194,4 @@ sc-lang-info-validated =
 
 # [/SentenceCollector]
 
+sentence-collection = Regòllida de frases
