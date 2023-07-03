@@ -835,6 +835,7 @@ sc-howto-review-subtitle = Gáp tómendegi talaplarǵa juwap beretuǵınlıǵın
 sc-howto-review-criteria-1 = Gáp durıs jazılıwı kerek.
 sc-howto-review-criteria-2 = Gáp grammatikalıq jaqtan durıs bolıwı kerek.
 sc-howto-review-criteria-4 = Eger gáp talaplarǵa juwap berse, "Qabıllaw" túymesin basıń.
+sc-howto-review-criteria-5 = Eger de gáp joqarıda kórsetilgen talaplarǵa juwap bermese, "Biykarlaw" túymesin basıń. Eger siz gápke isenimińiz kámil bolmasa, ótkerip jiberip, keyingisine ótiwińiz múmkin.
 sc-howto-review-criteria-6 = Eger tekseriw ushın gápler qalmasa, ótinish, bizge kóbirek gáp jıynawǵa járdemlesiń!
 sc-howto-findpd-tips = Gáplerdi tabıw boyınsha birneshe másláhátler:
 sc-howto-findpd-tips-3 = Tilekke qarsı, biz Wikimedia maqalaların qollana almaymız. Sonlıqtan da, ol jaqtan tekstlerdi kóshirip alıp qoymań.
@@ -872,6 +873,7 @@ sc-submit-err-add-sentences = Ótinish, gáplerdi qosıń.
 sc-submit-err-add-source = Ótinish, derekti qosıń.
 sc-submit-prompt =
     .message = Gápler jiberilmedi, shıǵıwǵa isenimińiz kámil me?
+sc-submit-title = Gápler qosıw
 sc-submit-select-language =
     .labelText = Tildi tańlań
 sc-submit-ph-one-per-line =
@@ -949,6 +951,7 @@ sc-personal-remove-button = óshiriw
 
 ## REVIEW CRITERIA
 
+sc-criteria-item-5-2 = Eger de gáp joqarıda kórsetilgen talaplarǵa juwap bermese, &quot;Biykarlaw&quot; túymesin basıń. Eger siz gápke isenimińiz kámil bolmasa, ótkerip jiberip, keyingisine ótiwińiz múmkin.
 
 ## REVIEW
 
