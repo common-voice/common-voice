@@ -502,6 +502,7 @@ about-playbook-how-add-language-collecting-sentences-heading = Gáplerdi jıynaw
 ## How does localization work
 
 about-playbook-how-localize = Sayttı lokalizaciyalaw qalay isleydi?
+about-playbook-how-localize-content-1 = Common Voice saytı awdarması <strong>Pontoon</strong>da ámelge asırıladı.
 
 ## How to add sentences
 
