@@ -820,7 +820,9 @@ sc-home-review-title = Gáplerdi tekseriw
 
 ## HOW-TO
 
+sc-howto-addsen-title = Jańa gáplerdi qosıw
 sc-howto-review-title = Gáplerdi tekseriw
+sc-howto-review-subtitle = Gáp tómendegi talaplarǵa juwap beretuǵınlıǵına isenim kámil etiń:
 sc-howto-review-criteria-2 = Gáp grammatikalıq jaqtan durıs bolıwı kerek.
 sc-howto-review-criteria-4 = Eger gáp talaplarǵa juwap berse, "Qabıllaw" túymesin basıń.
 sc-howto-review-criteria-6 = Eger tekseriw ushın gápler qalmasa, ótinish, bizge kóbirek gáp jıynawǵa járdemlesiń!
@@ -872,6 +874,12 @@ sc-confirm-sentences-found =
         [0] Heshqanday gáp tabılmadı.
         [one] 1 gáp tawıldı.
        *[other] { $countOfSentences } gáp tawıldı.
+    }
+sc-confirm-already-reviewed =
+    { $countOfReviewed ->
+        [0] Tekserilgen gápler joq.
+        [one] 1 gáp tekserildi. Ájayıp is!
+       *[other] { $countOfReviewed } gáp tekserildi. Ájayıp is!
     }
 # Variables:
 #   $readyCount (Number) - Number of sentences ready to be uploaded
