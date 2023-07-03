@@ -880,12 +880,21 @@ sc-submit-ph-one-per-line =
     .placeholder = Bir qatarģa bir gàp
 sc-submit-button =
     .submitText = Jiberiw
+sc-submit-guidelines = Ótinish, <howToLink>qollanbalar</howToLink> menen tanısıp shıǵıń.
 
 ## ADD LANGUAGE
 
 sc-add-lang-could-not-add = Tildi qosıw ámelge aspadı
 sc-add-lang-sec-button = Til qosıw
 sc-add-err-unexpected = Serverden kútilmegen juwap alındı
+# Variables:
+#   $sentences (Number) - Number of sentences which failed to be saved to the database - could be several different reasons
+sc-add-err-failed =
+    { $sentences ->
+        [0] Qátelik bar gáp joq
+        [one] 1 gápte qátelik
+       *[other] { $sentences } gápte qátelik
+    }
 sc-add-err-submission = Jiberiw qáteligi
 
 ## ADD SENTENCES CONFIRMATION
@@ -957,6 +966,7 @@ sc-criteria-item-5-2 = Eger de gáp joqarıda kórsetilgen talaplarǵa juwap ber
 
 sc-review-title = Gáplerdi tekseriw
 sc-review-loading = Gápler júklenbekte…
+sc-review-no-sentences = Tekseriw ushın gápler joq. <addLink>Kóbirek gápler qosıń!</addLink>
 sc-review-form-prompt =
     .message = Tekserilgen gápler jiberilmedi, isenimińiz kámil me?
 # Variables:
@@ -981,6 +991,7 @@ sc-review-form-reviewed-message =
         [one] 1 gáp tekserildi. Raxmet sizge!
        *[other] { $sentences } gáp tekserildi. Raxmet sizge!
     }
+sc-review-form-review-failure = Tekseriw saqlanbadı. Ótinish, keyinirek qayta urınıp kóriń.
 sc-review-link = Tekseriw
 
 ## SETTINGS
