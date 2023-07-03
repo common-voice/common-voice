@@ -460,7 +460,7 @@ how-does-it-work-title-v2 = Common Voice qalay isleydi?
 ## How does it work section
 
 about-language-req-subtitle = Birew tildi qosıwdı soraydı.
-about-localization-title = Veb-sayttı awdarıw
+about-localization-title = Veb-sayttı lokalizaciyalaw
 about-localization-subtitle = Veb-sayttıń teksti sol til tilge awdarıladı.
 about-sentence-collection-title = Gápler toplamı
 about-sentence-collection-subtitle = Adamlar dawıslap oqıwı ushın gápler jıynaladı.
@@ -501,6 +501,7 @@ about-playbook-how-add-language-collecting-sentences-heading = Gáplerdi jıynaw
 
 ## How does localization work
 
+about-playbook-how-localize = Sayttı lokalizaciyalaw qalay isleydi?
 
 ## How to add sentences
 
@@ -526,6 +527,8 @@ about-playbook-how-access-dataset = Maǵlıwmatlar toplamına qalay kiremen hám
 
 ## Glossary
 
+glossary = Glossariy
+localization = Lokalizaciya
 sentence-collection = Gápler toplamı
 
 ## Error pages
