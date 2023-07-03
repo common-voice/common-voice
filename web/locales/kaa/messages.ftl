@@ -678,6 +678,9 @@ contribute-sentence-collection-nav-header = Gápler toplamı
 
 ## Reporting
 
+report = Shaǵınıw
+report-title = Shaǵımdı jiberiw
+report-ask = Bul gáp penen sizde qanday mashqalalar boldı?
 report-grammar-or-spelling-detail = Gápte grammatikalıq yamasa imla qáte bar.
 report-different-language = Basqa til
 report-difficult-pronounce = Aytıw ushın qıyın
@@ -824,11 +827,13 @@ sc-home-review-title = Gáplerdi tekseriw
 
 sc-howto-addsen-title = Jańa gáplerdi qosıw
 sc-howto-cite-title = Qalay citata keltiremen?
+sc-howto-cite-item-1 = Siz veb-sayttı kirgiziwińiz múmkin, mıs: "Common Voice" — https://commonvoice.mozilla.org/
 sc-howto-review-title = Gáplerdi tekseriw
 sc-howto-review-subtitle = Gáp tómendegi talaplarǵa juwap beretuǵınlıǵına isenim kámil etiń:
 sc-howto-review-criteria-2 = Gáp grammatikalıq jaqtan durıs bolıwı kerek.
 sc-howto-review-criteria-4 = Eger gáp talaplarǵa juwap berse, "Qabıllaw" túymesin basıń.
 sc-howto-review-criteria-6 = Eger tekseriw ushın gápler qalmasa, ótinish, bizge kóbirek gáp jıynawǵa járdemlesiń!
+sc-howto-findpd-tips-3 = Tilekke qarsı, biz Wikimedia maqalaların qollana almaymız. Sonlıqtan da, ol jaqtan tekstlerdi kóshirip alıp qoymań.
 
 ## MY SENTENCES
 
