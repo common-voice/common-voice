@@ -982,4 +982,4 @@ report-sc-different-language = Basqa til
 sentences-fetch-error = Gáplerdi alıw waqtında qátelik júz berdi
 review-error = Bul gápti tekseriwde qátelik júz berdi
 # SENTENCE-COLLECTOR-REDIRECT PAGE
-sc-redirect-page-title = Biz birqansha úlken ózgeris qılıp atırmız.
+sc-redirect-page-title = Biz birqansha úlken ózgeris qılıp atırmız
